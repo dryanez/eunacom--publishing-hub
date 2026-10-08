@@ -163,6 +163,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El LCR separa bacteria de virus',
+      images: [
+        { src: 'animaciones/infecto-02/A1_lcr_bacteria_virus.mp4', label: 'Meningitis', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'La glucosa desempata',
+          say: 'El neumococo y el meningococo inflaman las meninges. En el líquido, la bacteriana tiene polimorfonucleares, glucosa bajo cero coma cuatro de la sanguínea, y proteínas sobre cien. La viral tiene mononucleares y glucosa normal. Y mononucleares con glucosa muy baja, bajo cero coma tres, hacen pensar en tuberculosis.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Meningitis',

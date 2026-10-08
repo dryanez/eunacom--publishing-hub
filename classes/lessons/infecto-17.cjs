@@ -155,6 +155,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El ciclo perro y oveja',
+      images: [
+        { src: 'animaciones/infecto-17/A1_ciclo_hidatidosis.mp4', label: 'Hidatidosis', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Contacto con perros',
+          say: 'El gusano adulto vive en el intestino del perro y elimina huevos en las heces. Las ovejas los ingieren y forman quistes en sus vísceras, y el ciclo se cierra cuando el perro come esas vísceras crudas. El humano entra por accidente, por contacto con perros, y el quiste se forma sobre todo en el hígado, en el lóbulo derecho, y después en el pulmón.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Hidatidosis',
       images: [

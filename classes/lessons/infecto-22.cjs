@@ -168,6 +168,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dónde parte y cómo avanza',
+      images: [
+        { src: 'animaciones/infecto-22/A1_exantemas.mp4', label: 'Exantemas', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Cada uno tiene su firma',
+          say: 'El sarampión parte detrás de las orejas y baja lentamente, confluente, con manchas de Koplik uno a dos días antes. La rubéola baja rápido, no confluye y dura unos tres días, con ganglios retroauriculares. La escarlatina es micropapular y áspera como papel de lija, con lengua en fresa y luego en frambuesa. Y el eritema infeccioso parte con el signo de la bofetada en las mejillas.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Exantemas de la infancia',

@@ -165,6 +165,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Del foco al shock',
+      images: [
+        { src: 'animaciones/infecto-01/A1_sepsis_shock.mp4', label: 'Sepsis y shock séptico', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Dos criterios a la vez',
+          say: 'Una infección se vuelve sepsis cuando la respuesta desregulada del huésped produce disfunción orgánica: el SOFA sube dos o más puntos. El shock séptico solo se diagnostica después de treinta mililitros por kilo de cristaloides: si necesita vasopresores para mantener una presión arterial media de sesenta y cinco o más, y el lactato sigue sobre dos, es shock séptico.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, tal como lo vas a razonar frente al paciente y frente a la pregunta.',
     },

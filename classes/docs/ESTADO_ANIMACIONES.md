@@ -4,8 +4,8 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 
 - ✅ Hechas con anatomía real (3D o Blausen): **52**
 - 🔁 Hechas pero con anatomía abstracta: rehacer: **10**
-- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **119**
-- ⬜ Pendientes (aún sin video): **86**
+- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **131**
+- ⬜ Pendientes (aún sin video): **74**
 
 ## 🔁 Hechas pero con anatomía abstracta: rehacer (10)
 
@@ -22,7 +22,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ob-20 | (animación existente, no estaba en el plan) |  |  | A1_rh_sensibilizacion.mp4, A2_rh_segundo.mp4, A3_rh_antid.mp4 |
 | oftal-10 | (animación existente, no estaba en el plan) |  |  | A1_campo_visual.mp4 |
 
-## ⬜ Pendientes (aún sin video) (86)
+## ⬜ Pendientes (aún sin video) (74)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -38,7 +38,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ped-13 | Reflujo vesicoureteral: orina que sube por el uréter al orinar | 3D | ★★★ |  |
 | ped-22 | Ortolani (cadera que entra) y Barlow (cadera que sale) en 3D | 3D | ★★★ |  |
 | resp-23 | Faringe que colapsa al dormir y se abre con el CPAP | 3D | ★★★ |  |
-| reuma-06 | Pannus que erosiona hueso en la artritis reumatoide | 3D | ★★★ |  |
 | reuma-14 | Raynaud: blanco, azul y rojo en los dedos | 3D | ★★★ |  |
 | reuma-17 | De la sacroilitis a la columna en caña de bambú | 3D | ★★★ |  |
 | cirugia-02 | Cálculo que se enclava en el bacinete → vesícula se distiende e inflama; signo de Murphy | 3D | ★★ |  |
@@ -56,12 +55,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | gin-04 | Miomas según ubicación (submucoso sangra, subseroso comprime) | 3Dp | ★★ |  |
 | gin-05 | Menstruación retrógrada: implantes de endometriosis | 3Dp | ★★ |  |
 | gin-11 | Infección que sube: vagina → cuello → endometrio → trompas → absceso | 3Dp | ★★ |  |
-| infecto-07 | Aislamiento: contacto, gotitas, aéreo (tamaño de partícula) | M | ★★ |  |
-| infecto-11 | Diseminación de la tuberculosis desde el foco de Ghon | 3D | ★★ |  |
-| infecto-14 | Hantavirus: fase prodrómica y fase cardiopulmonar en el tiempo | M | ★★ |  |
-| infecto-15 | Ciclo del Trypanosoma: vinchuca, sangre, corazón | M | ★★ |  |
-| infecto-17 | Ciclo de la hidatidosis: perro, oveja, humano | M | ★★ |  |
-| infecto-22 | Línea de tiempo del exantema (cabeza a pies) por enfermedad | M | ★★ |  |
 | ob-06 | Orden fijo: magnesio → presión → interrupción | M | ★★ |  |
 | ob-09 | Infección urinaria que sube en el embarazo (uréter dilatado por progesterona) | M | ★★ |  |
 | ob-10 | Cuello abierto o cerrado en cada tipo de aborto | 3Dp | ★★ |  |
@@ -91,11 +84,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | gin-08 | DIU, implante, píldora: dónde actúa cada uno | M | ★ |  |
 | gin-12 | Ventana de oportunidad de la terapia hormonal | M | ★ |  |
 | gin-15 | Cáncer de ovario que se disemina por el peritoneo | 3Dp | ★ |  |
-| infecto-05 | Línea de tiempo de la profilaxis (72 h del pinchazo) | M | ★ |  |
-| infecto-09 | Algoritmo de confirmación del VIH | M | ★ |  |
-| infecto-18 | Cultivo según la semana en la fiebre tifoidea | M | ★ |  |
-| infecto-21 | Curso de la mononucleosis; TORCH | M | ★ |  |
-| infecto-24 | Riesgo MASCC y la regla de los sesenta minutos | M | ★ |  |
 | ob-01 | Calendario de controles y exámenes por semana | M | ★ |  |
 | ob-02 | Translucencia nucal y cervicometría en la ecografía | M | ★ |  |
 | ob-08 | Ácidos biliares que suben y riesgo fetal | M | ★ |  |
@@ -170,7 +158,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | resp-21 | (animación existente, no estaba en el plan) |  |  | A1_hipoventilacion_real.mp4, A2_shunt_real.mp4 |
 | reuma-24 | (animación existente, no estaba en el plan) |  |  | A1_aplastamiento_3d.mp4 |
 
-## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (119)
+## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (131)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -190,6 +178,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | oftal-07 | Excavación de la papila que crece y el campo que se pierde desde la periferia | M | ★★★ | A1_excavacion.mp4 |
 | oftal-18 | Linterna oscilante (Marcus Gunn) en movimiento | M | ★★★ | A1_linterna_oscilante.mp4 |
 | ped-10 | Fiebre y exantema en el tiempo para cada enfermedad (exantema súbito: aparece al caer la fiebre) | M | ★★★ | A1_fiebre_exantema.mp4 |
+| reuma-06 | Pannus que erosiona hueso en la artritis reumatoide | 3D | ★★★ | A1_pannus.mp4 |
 | sp-06 | Cohorte (de la exposición al efecto) vs casos y controles (del efecto hacia atrás) | M | ★★★ | A1_cohorte_casos.mp4 |
 | sp-07 | Tabla dos por dos que se llena; RR, OR y NNT calculados | M | ★★★ | A1_tabla_2x2.mp4 |
 | sp-08 | VPP que cambia con la prevalencia (misma prueba, distinta población) | M | ★★★ | A1_roc_corte.mp4, A2_vpp_prevalencia.mp4 |
@@ -232,6 +221,12 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | infecto-01 | Sepsis: de la infección a la disfunción orgánica y el shock | M | ★★ | A1_sepsis_shock.mp4 |
 | infecto-02 | Meningitis: bacteria que cruza la barrera; LCR bacteriano vs viral | M | ★★ | A1_lcr_bacteria_virus.mp4 |
 | infecto-03 | Herpes que viaja por el nervio olfatorio al lóbulo temporal | 3D | ★★ | A1_herpes_temporal.mp4 |
+| infecto-07 | Aislamiento: contacto, gotitas, aéreo (tamaño de partícula) | M | ★★ | A1_aislamiento.mp4 |
+| infecto-11 | Diseminación de la tuberculosis desde el foco de Ghon | 3D | ★★ | A1_diseminacion_tbc.mp4 |
+| infecto-14 | Hantavirus: fase prodrómica y fase cardiopulmonar en el tiempo | M | ★★ | A1_dos_fases.mp4 |
+| infecto-15 | Ciclo del Trypanosoma: vinchuca, sangre, corazón | M | ★★ | A1_ciclo_chagas.mp4 |
+| infecto-17 | Ciclo de la hidatidosis: perro, oveja, humano | M | ★★ | A1_ciclo_hidatidosis.mp4 |
+| infecto-22 | Línea de tiempo del exantema (cabeza a pies) por enfermedad | M | ★★ | A1_exantemas.mp4 |
 | nefro-02 | Necrosis tubular: túbulo que se descama y forma cilindros | M | ★★ | A1_necrosis_tubular.mp4 |
 | nefro-04 | Síndrome hepatorrenal: vasodilatación esplácnica y riñón que se cierra | M | ★★ | A1_hepatorrenal.mp4 |
 | nefro-06 | SIADH vs perdedor de sal vs polidipsia: volemia y orina | M | ★★ | A1_siadh_volemia.mp4 |
@@ -265,6 +260,11 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | gastro-21 | Ángulo de Treitz divide alta y baja | 3D | ★ | A1_angulo_treitz.mp4 |
 | hem-21 | Neutrófilos y la regla de los sesenta minutos | M | ★ | A1_neutropenia_hora_oro.mp4 |
 | hem-23 | Trombofilias: balance procoagulante | M | ★ | A1_balance_trombofilia.mp4 |
+| infecto-05 | Línea de tiempo de la profilaxis (72 h del pinchazo) | M | ★ | A1_ventana_72h.mp4 |
+| infecto-09 | Algoritmo de confirmación del VIH | M | ★ | A1_confirmacion_isp.mp4 |
+| infecto-18 | Cultivo según la semana en la fiebre tifoidea | M | ★ | A1_semanas_tifoidea.mp4 |
+| infecto-21 | Curso de la mononucleosis; TORCH | M | ★ | A1_bazo_amoxicilina.mp4 |
+| infecto-24 | Riesgo MASCC y la regla de los sesenta minutos | M | ★ | A1_sesenta_minutos.mp4 |
 | nefro-14 | Tres glomerulopatías en el glomérulo | M | ★ | A1_tres_glomerulopatias.mp4 |
 | nefro-17 | Clases del lupus renal | M | ★ | A1_clases_lupus.mp4 |
 | neuro-02 | ABCD²: riesgo que se acumula | M | ★ | A1_abcd2.mp4 |

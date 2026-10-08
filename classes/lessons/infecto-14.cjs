@@ -172,6 +172,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dos fases',
+      images: [
+        { src: 'animaciones/infecto-14/A1_dos_fases.mp4', label: 'Hantavirus', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'La tríada del hemograma',
+          say: 'La fase prodrómica dura tres a seis días, con fiebre alta y cefalea, y parece cualquier virosis. Luego viene la fase cardiopulmonar, con una disnea que progresa en horas. El hemograma muestra la tríada: trombocitopenia bajo cien mil, hemoconcentración e inmunoblastos sobre el diez por ciento.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Hantavirus en la radiografía',

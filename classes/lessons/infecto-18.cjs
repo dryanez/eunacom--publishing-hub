@@ -207,6 +207,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Semana a semana',
+      images: [
+        { src: 'animaciones/infecto-18/A1_semanas_tifoidea.mp4', label: 'Fiebre tifoidea', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'El cultivo depende de la semana',
+          say: 'En la primera semana la fiebre sube en escalera, y los hemocultivos son positivos en ochenta a noventa por ciento. En la segunda queda en meseta, con bradicardia relativa. La tercera es la peligrosa, por perforación o sangrado. El coprocultivo se hace positivo desde la segunda o tercera semana, y el mielocultivo es el más sensible, sobre noventa y cinco por ciento.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Fiebre tifoidea',
       images: [

@@ -177,6 +177,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La regla de los sesenta minutos',
+      images: [
+        { src: 'animaciones/infecto-24/A1_sesenta_minutos.mp4', label: 'Neutropenia febril', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'MASCC bajo veintiuno: alto riesgo',
+          say: 'Primero, dos hemocultivos, y enseguida el antibiótico endovenoso dentro de los primeros sesenta minutos. Luego se estratifica con el MASCC: con menos de veintiún puntos es de alto riesgo, se hospitaliza en aislamiento y recibe cefepime. Con veintiuno o más, hay una opción oral ambulatoria en pacientes seleccionados. La ceftriaxona no cubre Pseudomonas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol, desde que el paciente llega con fiebre hasta el día en que la fiebre no cede.',
     },

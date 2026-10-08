@@ -114,6 +114,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Quién confirma',
+      images: [
+        { src: 'animaciones/infecto-09/A1_confirmacion_isp.mp4', label: 'VIH', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Solo el ISP confirma',
+          say: 'El tamizaje, con ELISA de cuarta generación o test rápido, da un resultado preliminar. Si es reactivo, se toma una segunda muestra de sangre venosa y se envía al ISP, el único facultado para confirmar. Confirmado, se inicia el tratamiento de inmediato. Nunca se comunica la positividad sin la confirmación del ISP.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en el árbol de decisión que vas a usar en el examen, desde la sospecha hasta el tratamiento.',
     },

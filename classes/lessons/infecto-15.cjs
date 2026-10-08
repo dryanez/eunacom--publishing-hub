@@ -218,6 +218,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'De la vinchuca al corazón',
+      images: [
+        { src: 'animaciones/infecto-15/A1_ciclo_chagas.mp4', label: 'Chagas', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Aguda: parásito; crónica: anticuerpos',
+          say: 'La vinchuca transmite el parásito, y si llega a la conjuntiva aparece el signo de Romaña, un edema de los párpados de un solo ojo. En la fase aguda hay muchos parásitos en la sangre, y se buscan directamente. En la fase crónica, el treinta por ciento daña el corazón o el tubo digestivo, con cardiopatía chagásica o megaesófago, y el diagnóstico es con dos pruebas IgG de técnicas diferentes.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       light: true,
       kicker: 'Así se ve',

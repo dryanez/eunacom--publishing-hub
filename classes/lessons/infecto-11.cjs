@@ -157,6 +157,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Del pulmón a todo el cuerpo',
+      images: [
+        { src: 'animaciones/infecto-11/A1_diseminacion_tbc.mp4', label: 'Tuberculosis extrapulmonar', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Ganglios: la más frecuente',
+          say: 'Después de la infección primaria, los bacilos se diseminan por vía linfática y sanguínea a la pleura, los ganglios, las meninges y la columna. Ahí pueden quedar latentes durante décadas. La ganglionar es la localización extrapulmonar más frecuente, y en las personas con VIH la forma extrapulmonar es más de la mitad de los casos.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Tuberculosis fuera del pulmón',

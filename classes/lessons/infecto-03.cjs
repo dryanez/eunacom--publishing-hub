@@ -184,6 +184,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Sube por el nervio al lóbulo temporal',
+      images: [
+        { src: 'animaciones/infecto-03/A1_herpes_temporal.mp4', label: 'Encefalitis herpética', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Aciclovir sin esperar',
+          say: 'El herpes no viaja por la sangre: sube por el nervio olfatorio o el trigémino hasta los lóbulos temporales y el sistema límbico, donde produce una necrosis hemorrágica. Por eso fallan la conducta, la memoria y el lenguaje, y el líquido viral trae glóbulos rojos. Se inicia aciclovir endovenoso de inmediato; la resonancia y la PCR confirman, pero no deciden el inicio.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Infecciones del cerebro',

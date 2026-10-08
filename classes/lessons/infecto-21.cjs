@@ -192,6 +192,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El bazo y la amoxicilina',
+      images: [
+        { src: 'animaciones/infecto-21/A1_bazo_amoxicilina.mp4', label: 'Mononucleosis', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'No rotular como alérgico',
+          say: 'La mononucleosis da ganglios cervicales posteriores y esplenomegalia: una faringitis con bazo palpable no es estreptocócica. Si recibe amoxicilina, cinco a siete días después casi todos hacen un exantema. Se suspende la amoxicilina, sin rotularlo como alérgico, y se indica reposo relativo por tres a cuatro semanas, sin deportes de contacto.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Mononucleosis',

@@ -156,6 +156,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cómo viaja el germen',
+      images: [
+        { src: 'animaciones/infecto-07/A1_aislamiento.mp4', label: 'Aislamiento', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Aéreo: solo tres',
+          say: 'El contacto va por las manos y las superficies: bata y guantes al entrar. Las gotitas de más de cinco micrones pesan y caen a menos de un metro: mascarilla quirúrgica, como en el meningococo y la influenza. Los núcleos de gotitas, de menos de cinco micrones, flotan en el aire: N noventa y cinco y presión negativa, solo para tuberculosis bacilífera, sarampión y varicela.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos la parte del catéter en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

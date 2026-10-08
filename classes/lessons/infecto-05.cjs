@@ -128,6 +128,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La profilaxis tiene reloj',
+      images: [
+        { src: 'animaciones/infecto-05/A1_ventana_72h.mp4', label: 'Accidente cortopunzante', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Antes de setenta y dos horas',
+          say: 'Después de la punción, el VIH tarda cuarenta y ocho a setenta y dos horas en llegar a los ganglios linfáticos. Por eso la triterapia por veintiocho días se inicia antes de las setenta y dos horas, idealmente en las primeras dos a cuatro horas, si la fuente es positiva o desconocida. La trampa es esperar la serología de la fuente.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión: frente a una exposición, qué agente es y qué profilaxis corresponde.',
     },

@@ -36,7 +36,7 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 5 | gastro-25 | Invaginación: un segmento que entra en el siguiente | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
 | 6 | hem-10 | Sin ADAMTS13, el von Willebrand no se corta y atrapa plaquetas | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 7 | hem-22 | Lisis tumoral: células que se rompen y liberan potasio, fósforo y ácido úrico | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
-| 8 | infecto-06 | Virus rábico que sube por el nervio; toxina tetánica que quita el freno | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
+| 8 | infecto-06 | Virus rábico que sube por el nervio; toxina tetánica que quita el freno | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
 | 9 | nefro-13 | Podocito dañado y proteínas que escapan; edema | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 10 | neuro-01 | Núcleo y penumbra: la zona salvable que se pierde con el tiempo (2D, sin el modelo arterial incompleto) | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 11 | neuro-20 | Otolitos en el conducto posterior durante Dix-Hallpike y Epley (procedural, con cabeza de referencia) | ★★★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
@@ -85,15 +85,15 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 54 | hem-18 | Diseminación ordenada del Hodgkin por cadenas ganglionares | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 55 | hem-20 | JAK2: receptor que no se apaga; tres neoplasias | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 56 | hem-24 | Compatibilidad ABO: quién recibe de quién | ★★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
-| 57 | infecto-01 | Sepsis: de la infección a la disfunción orgánica y el shock | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 58 | infecto-02 | Meningitis: bacteria que cruza la barrera; LCR bacteriano vs viral | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 59 | infecto-03 | Herpes que viaja por el nervio olfatorio al lóbulo temporal | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 60 | infecto-07 | Aislamiento: contacto, gotitas, aéreo (tamaño de partícula) | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 61 | infecto-11 | Diseminación de la tuberculosis desde el foco de Ghon | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 62 | infecto-14 | Hantavirus: fase prodrómica y fase cardiopulmonar en el tiempo | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 63 | infecto-15 | Ciclo del Trypanosoma: vinchuca, sangre, corazón | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 64 | infecto-17 | Ciclo de la hidatidosis: perro, oveja, humano | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 65 | infecto-22 | Línea de tiempo del exantema (cabeza a pies) por enfermedad | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
+| 57 | infecto-01 | Sepsis: de la infección a la disfunción orgánica y el shock | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 58 | infecto-02 | Meningitis: bacteria que cruza la barrera; LCR bacteriano vs viral | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 59 | infecto-03 | Herpes que viaja por el nervio olfatorio al lóbulo temporal | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 60 | infecto-07 | Aislamiento: contacto, gotitas, aéreo (tamaño de partícula) | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
+| 61 | infecto-11 | Diseminación de la tuberculosis desde el foco de Ghon | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 62 | infecto-14 | Hantavirus: fase prodrómica y fase cardiopulmonar en el tiempo | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
+| 63 | infecto-15 | Ciclo del Trypanosoma: vinchuca, sangre, corazón | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 64 | infecto-17 | Ciclo de la hidatidosis: perro, oveja, humano | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
+| 65 | infecto-22 | Línea de tiempo del exantema (cabeza a pies) por enfermedad | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
 | 66 | nefro-02 | Necrosis tubular: túbulo que se descama y forma cilindros | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 67 | nefro-04 | Síndrome hepatorrenal: vasodilatación esplácnica y riñón que se cierra | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 68 | nefro-06 | SIADH vs perdedor de sal vs polidipsia: volemia y orina | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
@@ -133,11 +133,11 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 102 | gastro-26 | Trayectos de arma blanca vs fuego | ★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
 | 103 | hem-21 | Neutrófilos y la regla de los sesenta minutos | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 104 | hem-23 | Trombofilias: balance procoagulante | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
-| 105 | infecto-05 | Línea de tiempo de la profilaxis (72 h del pinchazo) | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 106 | infecto-09 | Algoritmo de confirmación del VIH | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 107 | infecto-18 | Cultivo según la semana en la fiebre tifoidea | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 108 | infecto-21 | Curso de la mononucleosis; TORCH | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 109 | infecto-24 | Riesgo MASCC y la regla de los sesenta minutos | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
+| 105 | infecto-05 | Línea de tiempo de la profilaxis (72 h del pinchazo) | ★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
+| 106 | infecto-09 | Algoritmo de confirmación del VIH | ★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
+| 107 | infecto-18 | Cultivo según la semana en la fiebre tifoidea | ★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
+| 108 | infecto-21 | Curso de la mononucleosis; TORCH | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 109 | infecto-24 | Riesgo MASCC y la regla de los sesenta minutos | ★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
 | 110 | nefro-14 | Tres glomerulopatías en el glomérulo | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 111 | nefro-17 | Clases del lupus renal | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 112 | neuro-02 | ABCD²: riesgo que se acumula | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
