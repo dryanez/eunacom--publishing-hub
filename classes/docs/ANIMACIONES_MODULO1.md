@@ -30,8 +30,8 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | # | Clase | Animación | Prio | Estado | Método | Hecha |
 |---|---|---|---|---|---|---|
 | 1 | diab-15 | Cetoacidosis vs hiperosmolar: falta total vs parcial de insulina | ★★★ | 🔁 rehacer | JS gráfico (sin anatomía) || ✅ JS |
-| 2 | endo-12 | Addison (ACTH alta, pigmento, potasio alto) vs secundaria (ACTH baja) en el eje | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
-| 3 | endo-15 | Feocromocitoma: descarga de catecolaminas; por qué alfa antes que beta | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
+| 2 | endo-12 | Addison (ACTH alta, pigmento, potasio alto) vs secundaria (ACTH baja) en el eje | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 3 | endo-15 | Feocromocitoma: descarga de catecolaminas; por qué alfa antes que beta | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 4 | gastro-10 | Colitis ulcerosa continua desde el recto vs Crohn salteado y transmural | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 5 | gastro-25 | Invaginación: un segmento que entra en el siguiente | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 6 | hem-10 | Sin ADAMTS13, el von Willebrand no se corta y atrapa plaquetas | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
@@ -59,14 +59,14 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 28 | diab-20 | Del glomérulo hiperfiltrante a la albuminuria y la diálisis | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 29 | diab-21 | Del capilar dañado al neovaso que sangra | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 30 | diab-23 | Placa de ateroma que crece y la estatina que la estabiliza | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
-| 31 | endo-07 | Yodo que entra al folículo; tiamazol bloquea la TPO; radioyodo destruye | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 32 | endo-08 | Cascada de la tormenta tiroidea y el orden PTU → yodo una hora después | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 33 | endo-14 | Aldosterona → sodio dentro, potasio fuera; renina suprimida | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 34 | endo-16 | PTH: hueso, riñón, intestino; las vías de la hipercalcemia | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 35 | endo-18 | Remodelado óseo: osteoclasto vs osteoblasto; bifosfonato frenando la resorción | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 36 | endo-19 | Vitamina D: piel → hígado → riñón; dónde falla cada osteomalacia | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 37 | endo-21 | Dopamina frena a la prolactina; tallo cortado o fármaco → prolactina sube | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 38 | endo-23 | Sheehan: hipófisis grande del embarazo que se infarta con la hemorragia | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
+| 31 | endo-07 | Yodo que entra al folículo; tiamazol bloquea la TPO; radioyodo destruye | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 32 | endo-08 | Cascada de la tormenta tiroidea y el orden PTU → yodo una hora después | ★★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
+| 33 | endo-14 | Aldosterona → sodio dentro, potasio fuera; renina suprimida | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 34 | endo-16 | PTH: hueso, riñón, intestino; las vías de la hipercalcemia | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 35 | endo-18 | Remodelado óseo: osteoclasto vs osteoblasto; bifosfonato frenando la resorción | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 36 | endo-19 | Vitamina D: piel → hígado → riñón; dónde falla cada osteomalacia | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 37 | endo-21 | Dopamina frena a la prolactina; tallo cortado o fármaco → prolactina sube | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 38 | endo-23 | Sheehan: hipófisis grande del embarazo que se infarta con la hemorragia | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 39 | gastro-01 | Esfínter esofágico inferior que se relaja y el ácido que sube; Barrett | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 40 | gastro-02 | H. pylori en la mucosa; ácido que rompe la barrera | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 41 | gastro-06 | Hernia hiatal por deslizamiento vs paraesofágica | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
@@ -122,11 +122,11 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 91 | diab-03 | Resistencia a la insulina que sube durante el embarazo (lactógeno placentario) | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 92 | diab-05 | Glicemia durante y después del ejercicio (riesgo de hipoglicemia tardía) | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 93 | diab-22 | Neuropatía + isquemia + trauma → úlcera; el estilete que toca hueso | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
-| 94 | endo-02 | Levotiroxina: dosis según peso y edad; absorción en ayunas | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 95 | endo-04 | TSH meta por trimestre; tamizaje de talón en el tiempo | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 96 | endo-09 | Algoritmo del nódulo: TSH → eco → punción → Bethesda | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 97 | endo-13 | Shock que no responde: por qué falta el cortisol para la noradrenalina | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 98 | endo-22 | GH → IGF-1; la glucosa que no la suprime | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
+| 94 | endo-02 | Levotiroxina: dosis según peso y edad; absorción en ayunas | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
+| 95 | endo-04 | TSH meta por trimestre; tamizaje de talón en el tiempo | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
+| 96 | endo-09 | Algoritmo del nódulo: TSH → eco → punción → Bethesda | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
+| 97 | endo-13 | Shock que no responde: por qué falta el cortisol para la noradrenalina | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 98 | endo-22 | GH → IGF-1; la glucosa que no la suprime | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 99 | gastro-04 | Úlcera que perfora vs Boerhaave vs Mallory-Weiss | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 100 | gastro-08 | Pérdida de agua según la deshidratación (planes A, B, C) | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 101 | gastro-21 | Ángulo de Treitz divide alta y baja | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |

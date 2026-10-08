@@ -1,0 +1,200 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Ilustraciones: Servier Medical Art (CC BY 4.0).
+// ?v=conn (endo-14)  aldosterona autónoma: sodio dentro, potasio fuera, renina suprimida.
+// ?v=pth (endo-16)   la PTH sube el calcio por hueso, riñón (calcio, fosfato, vitamina D) e intestino.
+// ?v=hueso (endo-18) osteoclasto vs osteoblasto; T-score; bifosfonato frena la resorción.
+// ?v=vitd (endo-19)  piel → hígado (calcidiol) → riñón (calcitriol) → intestino → hueso; PTH alta, fósforo bajo.
+// ?v=crisis (endo-13) sin cortisol las arteriolas no responden a la noradrenalina; hidrocortisona 100 mg.
+const V = new URLSearchParams(location.search).get('v') || 'conn';
+window.SCENE = { duration: 22, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+function flow(P, n, t, col, sp = 0.35, sz = 6, shape = 'dot', a0 = 1) {
+  for (let i = 0; i < n; i++) { const u = ((t * sp) + i / Math.max(1, n)) % 1, [x, y] = P.at(u);
+    ctx.globalAlpha = a0 * Math.min(1, u * 8, (1 - u) * 8); ctx.fillStyle = col;
+    if (shape === 'sq') ctx.fillRect(x - sz, y - sz, 2 * sz, 2 * sz); else { ctx.beginPath(); ctx.arc(x, y, sz, 0, 7); ctx.fill(); } }
+  ctx.globalAlpha = 1;
+}
+const Xm = (x, y, col, a, r = 14) => { if (a <= 0) return; ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.lineWidth = 5; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(x - r, y - r); ctx.lineTo(x + r, y + r); ctx.moveTo(x + r, y - r); ctx.lineTo(x - r, y + r); ctx.stroke(); ctx.globalAlpha = 1; };
+const img = (k, x, y, s, a = 1, sx, sy, sw, sh) => { const im = window.IMGS[k]; ctx.globalAlpha = a;
+  if (sw) ctx.drawImage(im, sx, sy, sw, sh, x, y, sw * s, sh * s); else ctx.drawImage(im, x, y, im.width * s, im.height * s); ctx.globalAlpha = 1; };
+
+// ---------------- Conn ----------------
+function conn(t) {
+  K.title('Hiperaldosteronismo primario', 'La aldosterona se fabrica sola y la renina se apaga', C.VIOLET);
+  const S = 1.25, R = (x, y) => [60 + x * S, 150 + y * S];
+  img('rin', 60, 150, S, seg(t, 0, 0.7));
+  K.glow(...R(165, 85), 80, '179,136,255', 0.6 * seg(t, 1, 0.8) * (0.8 + 0.2 * Math.sin(t * 4)));
+  ctx.globalAlpha = seg(t, 0.8, 0.5); tag('Suprarrenal: hiperplasia o adenoma', ...R(165, -12), C.VIOLET, 15); tag('Riñón', ...R(80, 420), '#C0607A', 15); ctx.globalAlpha = 1;
+  flow(poly([R(165, 110), R(150, 200), R(110, 300)]), 6, t, C.VIOLET, 0.35, 7, 'dot', seg(t, 1.5, 0.5));
+  const k = seg(t, 4, 0.5);
+  if (k > 0) {
+    flow(poly([R(60, 380), R(-10, 330), [40, 250]]), 7, t, '#F2CF5B', 0.32, 7, 'dot', k);                       // sodio vuelve a la sangre
+    flow(poly([R(150, 330), R(200, 330), R(235, 420)]), 7, t + 0.3, C.AMBER, 0.32, 6, 'sq', k);              // potasio sale a la orina
+    ctx.globalAlpha = fade(t, 4.3, 12); tag('Sodio y agua: se retienen', 135, 320, '#F2CF5B', 14); tag('Potasio e H+: a la orina', ...R(240, 445), C.AMBER, 14); ctx.globalAlpha = 1;
+  }
+  const off = ease(seg(t, 8.5, 2.5));
+  flow(poly([R(185, 260), R(260, 230), [520, 260]]), Math.round(lerp(6, 0, off)), t, C.GREEN, 0.3, 6, 'dot', 1);
+  ctx.globalAlpha = seg(t, 9, 0.5); tag('Renina: suprimida', 470, 230, C.GREEN, 15); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 1.5, 0.5); rrect(560, 150, 680, 230, 16, '#161B22');
+  K.bar(584, 192, 632, 'Presión arterial', lerp(130, 175, ease(seg(t, 4, 5))), 200, 'mmHg', C.RED);
+  K.bar(584, 252, 632, 'Potasio', lerp(4.2, 2.9, ease(seg(t, 5, 5))), 6, 'mEq/L', C.AMBER, [[3.5, '3,5']], v => v.toFixed(1).replace('.', ','));
+  K.bar(584, 312, 632, 'Renina', lerp(60, 6, off), 100, '', off > 0.5 ? C.RED : C.GREEN, [], () => off > 0.5 ? 'suprimida' : 'normal');
+  ctx.globalAlpha = 1;
+  K.card(560, 400, 680, 120, C.AMBER, 'Hipertenso con hipokalemia', ['Calambres, debilidad, alcalosis metabólica'], seg(t, 11, 0.5));
+  K.card(560, 535, 680, 100, C.VIOLET, 'La causa más frecuente: hiperplasia bilateral', ['No el adenoma: 60 a 65 %'], seg(t, 14.5, 0.5), 17);
+  K.banner(560, 650, 680, 'Aldosterona alta con renina suprimida', C.VIOLET, seg(t, 18.5, 0.5));
+}
+
+// ---------------- PTH ----------------
+function pth(t) {
+  K.title('PTH: una sola meta, subir el calcio', 'Hueso, riñón e intestino', C.AMBER);
+  const S = 1.3, P = (x, y) => [40 + x * S, 160 + y * S];
+  img('par', 40, 160, S, seg(t, 0, 0.7));
+  const GL = [[55, 92], [222, 95], [70, 197], [213, 230]];
+  GL.forEach(([x, y], i) => K.glow(...P(x, y), 30, '255,200,80', 0.8 * seg(t, 1 + i * 0.2, 0.5) * (0.7 + 0.3 * Math.sin(t * 5 + i))));
+  ctx.globalAlpha = seg(t, 0.8, 0.5); tag('Paratiroides (detrás de la tiroides)', ...P(140, -15), '#F2CF5B', 15); ctx.globalAlpha = 1;
+  // destinos
+  const T1 = [560, 205], T2 = [565, 395], T3 = [575, 580];
+  const a1 = seg(t, 2.5, 0.5), a2 = seg(t, 6, 0.5), a3 = seg(t, 12, 0.5);
+  if (a1 > 0) { img('ocl', 500, 150, 0.6, a1); ctx.globalAlpha = a1; tag('1. Hueso: osteoclastos', 560, 265, C.AMBER, 14); ctx.globalAlpha = 1; }
+  if (a2 > 0) { img('rin', 520, 300, 0.42, a2); ctx.globalAlpha = a2; tag('2-3. Riñón', 565, 495, '#C0607A', 14); ctx.globalAlpha = 1; }
+  if (a3 > 0) { img('dig', 500, 530, 0.24, a3, 40, 1680, 600, 480); ctx.globalAlpha = a3; tag('4. Intestino', 575, 665, '#E7A0B5', 14); ctx.globalAlpha = 1; }
+  const src = P(140, 160);
+  flow(poly([src, [420, 200], T1]), 5, t, '#F2CF5B', 0.4, 6, 'dot', a1);
+  flow(poly([src, [430, 380], T2]), 5, t, '#F2CF5B', 0.4, 6, 'dot', a2);
+  // calcio a la sangre desde cada destino; fosfato a la orina
+  flow(poly([T1, [640, 160], [700, 150]]), 4, t, '#FFFFFF', 0.4, 6, 'sq', a1);
+  flow(poly([T2, [650, 380], [700, 370]]), 4, t, '#FFFFFF', 0.4, 6, 'sq', seg(t, 7, 0.5));
+  flow(poly([T2, [590, 470], [600, 520]]), 4, t, C.BLUE, 0.4, 5, 'dot', seg(t, 9, 0.5));
+  if (t > 9) { ctx.globalAlpha = fade(t, 9.2, 13); tag('Fósforo: a la orina', 660, 470, C.BLUE, 14); ctx.globalAlpha = 1; }
+  flow(poly([T2, [560, 520], T3]), 3, t, C.VIOLET, 0.35, 6, 'dot', a3);
+  flow(poly([T3, [650, 570], [700, 560]]), 4, t, '#FFFFFF', 0.4, 6, 'sq', a3);
+  ctx.globalAlpha = seg(t, 1.5, 0.5); rrect(720, 150, 520, 190, 16, '#161B22');
+  const up = ease(seg(t, 3, 10));
+  K.bar(744, 190, 472, 'Calcio', lerp(9.6, 11.8, up), 14, 'mg/dL', up > 0.4 ? C.RED : C.GREEN, [[10.5, '10,5']], v => v.toFixed(1).replace('.', ','));
+  K.bar(744, 250, 472, 'Fósforo', lerp(3.6, 2.2, ease(seg(t, 9, 4))), 5, 'mg/dL', C.BLUE, [[2.5, '2,5']], v => v.toFixed(1).replace('.', ','));
+  K.bar(744, 310, 472, 'PTH', lerp(50, 140, up), 160, 'pg/mL', C.AMBER);
+  ctx.globalAlpha = 1;
+  K.card(720, 360, 520, 160, C.AMBER, 'Cuatro caminos', ['1. Osteoclastos liberan calcio · 2. el riñón lo retiene', '3. bota el fósforo · 4. activa la vitamina D', '   y el intestino absorbe calcio'], seg(t, 13, 0.5), 17);
+  K.banner(720, 540, 520, 'PTH alta o normal: hiperparatiroidismo', C.AMBER, seg(t, 16.5, 0.5));
+  K.banner(720, 605, 520, 'PTH suprimida: cáncer o vitamina D', C.RED, seg(t, 18.5, 0.5));
+}
+
+// ---------------- remodelado óseo ----------------
+function hueso(t) {
+  K.title('Osteoporosis: se reabsorbe más de lo que se forma', 'Osteoclasto que cava; osteoblasto que rellena', C.BLUE);
+  const top = 430, men = seg(t, 7, 1), bis = ease(seg(t, 14, 1.5));
+  // hueso
+  ctx.globalAlpha = seg(t, 0, 0.6); const g = ctx.createLinearGradient(0, top, 0, 700); g.addColorStop(0, '#EAD9B8'); g.addColorStop(1, '#C9B48A');
+  ctx.fillStyle = g; ctx.fillRect(40, top, 640, 260);
+  for (let i = 0; i < 40; i++) { ctx.fillStyle = 'rgba(150,120,80,0.35)'; ctx.beginPath(); ctx.ellipse(60 + rnd(i) * 600, top + 30 + rnd(i + 9) * 220, 7, 3, 0, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+  // cavidades: profundidad según balance
+  const pits = [[180, 1], [360, 1 + men], [540, men]];
+  pits.forEach(([x, w], i) => { const dig = clamp((t - 1 - i * 1.5) / 10, 0, 1) * (1 + 0.8 * men) * (1 - 0.7 * bis); if (dig <= 0 || w <= 0) return;
+    const fill = i === 0 ? ease(seg(t, 4, 6)) * (1 - 0.3 * men) : 0.15;
+    ctx.fillStyle = '#0E1116'; ctx.beginPath(); ctx.ellipse(x, top, 60, 70 * dig, 0, 0, Math.PI); ctx.fill();
+    if (fill > 0) { ctx.fillStyle = '#F2E6C9'; ctx.beginPath(); ctx.ellipse(x, top, 60 * fill, 70 * dig * fill, 0, 0, Math.PI); ctx.fill(); } });
+  // células
+  img('ocl', 300, top - 125, 0.78, seg(t, 0.8, 0.5)); if (men > 0) { img('ocl', 480, top - 125, 0.78, men); }
+  img('obl', 125, top - 150, 0.5, seg(t, 1.2, 0.5));
+  ctx.globalAlpha = seg(t, 1.5, 0.5); tag('Osteoclasto: reabsorbe', 375, top - 145, C.RED, 15); tag('Osteoblasto: forma', 175, top - 165, C.GREEN, 15); ctx.globalAlpha = 1;
+  // calcio que sale
+  for (let i = 0; i < 6; i++) { const u = ((t * 0.5) + i / 6) % 1; ctx.globalAlpha = Math.min(1, (1 - u) * 4) * (1 - bis) * seg(t, 2, 0.5); ctx.fillStyle = '#FFFFFF';
+    ctx.fillRect(365 + Math.sin(i * 2) * 20 - 5, top - 20 - u * 150 - 5, 10, 10); }
+  ctx.globalAlpha = 1;
+  if (men > 0) { ctx.globalAlpha = fade(t, 7.2, 14); tag('Menopausia o corticoides: más osteoclastos', 470, 195, C.RED, 15); ctx.globalAlpha = 1; }
+  // bifosfonato
+  if (bis > 0) { ctx.globalAlpha = bis; ctx.fillStyle = 'rgba(79,163,255,0.55)'; ctx.fillRect(40, top - 6, 640, 10);
+    Xm(375, top - 70, C.BLUE, bis, 18); Xm(555, top - 70, C.BLUE, bis * men, 18); tag('Bifosfonato: se pega al hueso y frena al osteoclasto', 360, 160, C.BLUE, 15); ctx.globalAlpha = 1; }
+  // T-score
+  const ts = t < 7 ? -0.6 : lerp(-0.6, -2.9, ease(seg(t, 7, 6.5)));
+  ctx.globalAlpha = seg(t, 1.5, 0.5); rrect(720, 150, 520, 230, 16, '#161B22');
+  text('T-score (DEXA)', 744, 190, 21, C.INK, 'bold'); const col = ts <= -2.5 ? C.RED : ts < -1 ? C.AMBER : C.GREEN;
+  text(ts.toFixed(1).replace('.', ',').replace('-', '−'), 744, 262, 52, col, 'bold');
+  const X = v => 744 + (v + 4) / 5 * 472; rrect(744, 290, 472, 16, 8, '#222833');
+  [[-4, -2.5, C.RED], [-2.5, -1, C.AMBER], [-1, 1, C.GREEN]].forEach(([a, b, c]) => { ctx.fillStyle = c; ctx.globalAlpha = 0.5 * seg(t, 1.5, 0.5); ctx.fillRect(X(a), 290, X(b) - X(a), 16); });
+  ctx.globalAlpha = 1; ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(X(ts), 298, 10, 0, 7); ctx.fill();
+  text('Osteoporosis', X(-3.25), 336, 15, C.RED, 'bold', 'center'); text('Osteopenia', X(-1.75), 336, 15, C.AMBER, 'bold', 'center'); text('Normal', X(0), 336, 15, C.GREEN, 'bold', 'center');
+  text('−2,5 o menos', X(-3.25), 360, 14, C.MUTED, '', 'center'); text('−1 o más', X(0), 360, 14, C.MUTED, '', 'center');
+  K.card(720, 400, 520, 140, C.BLUE, 'Tratamiento', ['Bifosfonato: alendronato', 'Siempre con calcio y vitamina D'], seg(t, 15, 0.5));
+  K.banner(720, 560, 520, 'Manda el sitio más bajo', C.AMBER, seg(t, 18, 0.5));
+}
+
+// ---------------- vitamina D ----------------
+function vitd(t) {
+  K.title('Vitamina D: del sol al hueso', 'Piel → hígado → riñón → intestino', C.AMBER);
+  const st = [[90, 'Piel', 'UVB: colecalciferol', '#F2C9A0'], [330, 'Hígado', 'Calcidiol (25-OH): se mide', C.VIOLET], [570, 'Riñón', 'Calcitriol: la activa', '#C0607A'], [810, 'Intestino', 'Absorbe calcio y fósforo', '#E7A0B5'], [1050, 'Hueso', 'Se mineraliza', '#EAD9B8']];
+  const Y = 290;
+  st.forEach(([x, n, d, col], i) => { const a = seg(t, 0.8 + i * 1.8, 0.6); if (a <= 0) return; ctx.globalAlpha = a;
+    rrect(x - 105, Y - 120, 210, 230, 18, '#161B22');
+    if (i === 0) img('epi', x - 80, Y - 105, 0.22, a, 0, 0, 714, 640);
+    if (i === 1) img('hp', x - 95, Y - 95, 0.33, a, 0, 0, 560, 440);
+    if (i === 2) img('rin', x - 55, Y - 110, 0.42, a);
+    if (i === 3) img('dig', x - 85, Y - 95, 0.28, a, 40, 1680, 600, 480);
+    if (i === 4) img('esq', x - 30, Y - 112, 0.15, a, 0, 0, 499, 1191);
+    ctx.globalAlpha = a; text(n, x, Y + 70, 21, col, 'bold', 'center'); text(d, x, Y + 98, 15, C.INK, '', 'center');
+    if (i < 4) { ctx.strokeStyle = '#5A6573'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(x + 108, Y); ctx.lineTo(x + 132, Y); ctx.stroke();
+      ctx.fillStyle = '#5A6573'; ctx.beginPath(); ctx.moveTo(x + 136, Y); ctx.lineTo(x + 126, Y - 7); ctx.lineTo(x + 126, Y + 7); ctx.fill(); }
+    ctx.globalAlpha = 1; });
+  // sol
+  const sa = seg(t, 0.5, 0.5); if (sa > 0) { K.glow(90, 140, 50, '255,210,80', 0.8 * sa); }
+  // molécula que viaja
+  if (t > 2 && t < 10.5) { const u = clamp((t - 2) / 8, 0, 1), x = lerp(90, 1050, u); ctx.fillStyle = '#F2CF5B'; ctx.beginPath(); ctx.arc(x, Y - 140, 9, 0, 7); ctx.fill(); }
+  // PTH enciende la 1-alfa
+  if (t > 5) { ctx.globalAlpha = fade(t, 5.2, 21.5); tag('La enciende la PTH y el fósforo bajo', 570, Y + 148, '#C0607A', 14); ctx.globalAlpha = 1; }
+  // laboratorio cuando falta
+  const l = seg(t, 11, 0.5);
+  if (l > 0) { ctx.globalAlpha = l; rrect(60, 470, 600, 180, 16, '#161B22');
+    text('Cuando falta vitamina D', 84, 506, 21, C.AMBER, 'bold');
+    ['Se absorbe menos calcio → sube la PTH', 'La PTH bota fósforo: el fósforo bajo es su huella', 'Adulto: osteomalacia · niño: raquitismo'].forEach((s, i) => text(s, 84, 542 + i * 32, 18, C.INK));
+    ctx.globalAlpha = 1; }
+  K.card(690, 470, 530, 180, C.BLUE, 'Calcidiol (25-OH vitamina D)', ['Bajo 20: deficiencia', '20 a 29: insuficiencia', '30 a 50: óptimo'], seg(t, 14.5, 0.5));
+}
+
+// ---------------- crisis suprarrenal ----------------
+function crisis(t) {
+  K.title('Crisis suprarrenal: el shock que no responde', 'Sin cortisol, las arteriolas no oyen a la noradrenalina', C.RED);
+  const S = 1.2, ART = (x, y) => [70 + x * S, 160 + y * S];
+  img('art', 70, 160, S, seg(t, 0, 0.7));
+  const hc = ease(seg(t, 11, 2)), LUM = ART(122, 148), R0 = 50 * S;
+  const tone = lerp(0.05, 0.5, hc), r = R0 * (1 - 0.6 * tone);
+  ctx.save(); ctx.beginPath(); ctx.arc(...LUM, R0, 0, 7); ctx.clip(); ctx.fillStyle = '#E9A98F'; ctx.fillRect(LUM[0] - R0, LUM[1] - R0, 2 * R0, 2 * R0);
+  ctx.fillStyle = '#B3122E'; ctx.beginPath(); ctx.arc(...LUM, r, 0, 7); ctx.fill(); ctx.restore();
+  // receptores alfa 1 alrededor de la luz: grises (sordos) → encendidos con el cortisol
+  for (let i = 0; i < 12; i++) { const a = i / 12 * 6.283, x = LUM[0] + Math.cos(a) * (R0 + 14), y = LUM[1] + Math.sin(a) * (R0 + 14);
+    ctx.fillStyle = hc > 0.5 ? C.GREEN : '#777'; ctx.beginPath(); ctx.arc(x, y, 6, 0, 7); ctx.fill(); }
+  // noradrenalina que llega y rebota
+  const ne = seg(t, 3, 0.5);
+  for (let i = 0; i < 10; i++) { if (ne <= 0) break; const u = ((t * 0.5) + i / 10) % 1, a = i * 0.63;
+    const far = [LUM[0] + Math.cos(a) * 260, LUM[1] + Math.sin(a) * 200], near = [LUM[0] + Math.cos(a) * (R0 + 26), LUM[1] + Math.sin(a) * (R0 + 26)];
+    const k = u < 0.6 ? u / 0.6 : 1 - (u - 0.6) / 0.4 * (1 - hc);
+    ctx.globalAlpha = ne * Math.min(1, u * 6, (1 - u) * 6); ctx.fillStyle = C.RED; ctx.save(); ctx.translate(lerp(far[0], near[0], k), lerp(far[1], near[1], k)); ctx.rotate(0.785); ctx.fillRect(-6, -6, 12, 12); ctx.restore(); }
+  ctx.globalAlpha = 1;
+  ctx.globalAlpha = fade(t, 3.5, 10.5); tag('Noradrenalina: rebota', 260, 180, C.RED, 15); tag('Receptores alfa 1: sordos sin cortisol', LUM[0], LUM[1] + 125, '#999', 14); ctx.globalAlpha = 1;
+  if (t > 9.8 && t < 11.6) K.pill(lerp(760, LUM[0], ease(seg(t, 9.8, 1.2))), lerp(300, LUM[1], ease(seg(t, 9.8, 1.2))), '#FFFFFF', C.GREEN, 1 - seg(t, 11.1, 0.4));
+  ctx.globalAlpha = seg(t, 11.5, 0.5); tag('Hidrocortisona: vuelven a responder', LUM[0], LUM[1] + 125, C.GREEN, 14); ctx.globalAlpha = 1;
+  const nor = ease(seg(t, 3, 6)), pam = hc > 0 ? lerp(52, 72, hc) : 52 + 3 * Math.sin(t);
+  ctx.globalAlpha = seg(t, 1, 0.5); rrect(560, 150, 680, 170, 16, '#161B22');
+  K.bar(584, 192, 632, 'Noradrenalina', lerp(10, 95, nor) * (1 - 0.5 * hc), 100, '', C.RED, [], () => nor < 0.3 ? 'baja' : hc > 0.5 ? 'se puede bajar' : 'dosis máxima');
+  K.bar(584, 262, 632, 'Presión arterial media', pam, 100, 'mmHg', pam < 65 ? C.RED : C.GREEN, [[65, '65']]);
+  ctx.globalAlpha = 1;
+  K.card(560, 340, 680, 120, C.RED, 'Shock refractario', ['No responde a fluidos ni a noradrenalina'], fade(t, 5, 12, 0.5));
+  K.card(560, 340, 680, 200, C.GREEN, 'Minuto cero', ['1. Hidrocortisona 100 mg EV en bolo', '2. Suero fisiológico: 1 a 2 litros', '3. Suero glucosado si hay hipoglicemia'], seg(t, 12.5, 0.5));
+  K.banner(560, 600, 680, 'Lo que revierte el shock es la hidrocortisona', C.AMBER, seg(t, 18, 0.5));
+}
+
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); ({ conn, pth, hueso, vitd, crisis })[V](t); K.credit(); };
+LOAD({ rin: '../assets/servier/rinon_suprarrenal.png', par: '../assets/servier/paratiroides.png', ocl: '../assets/servier/osteoclasto.png',
+  obl: '../assets/servier/osteoblasto.png', dig: '../assets/servier/syst_dig_complet.png', epi: '../assets/servier/epidermis.png',
+  hp: '../assets/servier/higado_pancreas.png', esq: '../assets/servier/esqueleto.png', art: '../assets/servier/arteria_corte.png' });
+</script>
+</body></html>

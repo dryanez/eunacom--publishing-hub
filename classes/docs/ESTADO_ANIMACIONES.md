@@ -2,17 +2,15 @@
 
 Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONES.md y de los videos.
 
-- ✅ Hechas con anatomía real (3D o Blausen): **42**
-- 🔁 Hechas pero con anatomía abstracta: rehacer: **20**
-- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **49**
-- ⬜ Pendientes (aún sin video): **156**
+- ✅ Hechas con anatomía real (3D o Blausen): **44**
+- 🔁 Hechas pero con anatomía abstracta: rehacer: **18**
+- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **62**
+- ⬜ Pendientes (aún sin video): **143**
 
-## 🔁 Hechas pero con anatomía abstracta: rehacer (20)
+## 🔁 Hechas pero con anatomía abstracta: rehacer (18)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
-| endo-12 | Addison (ACTH alta, pigmento, potasio alto) vs secundaria (ACTH baja) en el eje | M | ★★★ | A1_addison.mp4, A2_secundaria.mp4 |
-| endo-15 | Feocromocitoma: descarga de catecolaminas; por qué alfa antes que beta | M | ★★★ | A1_alfa_beta.mp4 |
 | gastro-10 | Colitis ulcerosa continua desde el recto vs Crohn salteado y transmural | 3D | ★★★ | A1_colitis_ulcerosa.mp4, A2_crohn.mp4 |
 | gastro-25 | Invaginación: un segmento que entra en el siguiente | 3D | ★★★ | A1_invaginacion.mp4 |
 | gin-13 | Del VPH a la lesión de alto grado y el cáncer (zona de transformación) | M | ★★★ | A1_vph_cancer.mp4 |
@@ -32,7 +30,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ob-20 | (animación existente, no estaba en el plan) |  |  | A1_rh_sensibilizacion.mp4, A2_rh_segundo.mp4, A3_rh_antid.mp4 |
 | oftal-10 | (animación existente, no estaba en el plan) |  |  | A1_campo_visual.mp4 |
 
-## ⬜ Pendientes (aún sin video) (156)
+## ⬜ Pendientes (aún sin video) (143)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -62,14 +60,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | derma-05 | Recambio acelerado de la epidermis (de 28 a 4 días) y el signo de Auspitz | M | ★★ |  |
 | derma-08 | Mastocito que degranula: habón (dermis superficial) vs angioedema (profundo) | M | ★★ |  |
 | derma-09 | Escalada SSJ → NET según superficie despegada (menos de 10, 10 a 30, más de 30) | M | ★★ |  |
-| endo-07 | Yodo que entra al folículo; tiamazol bloquea la TPO; radioyodo destruye | M | ★★ |  |
-| endo-08 | Cascada de la tormenta tiroidea y el orden PTU → yodo una hora después | M | ★★ |  |
-| endo-14 | Aldosterona → sodio dentro, potasio fuera; renina suprimida | M | ★★ |  |
-| endo-16 | PTH: hueso, riñón, intestino; las vías de la hipercalcemia | M | ★★ |  |
-| endo-18 | Remodelado óseo: osteoclasto vs osteoblasto; bifosfonato frenando la resorción | M | ★★ |  |
-| endo-19 | Vitamina D: piel → hígado → riñón; dónde falla cada osteomalacia | M | ★★ |  |
-| endo-21 | Dopamina frena a la prolactina; tallo cortado o fármaco → prolactina sube | M | ★★ |  |
-| endo-23 | Sheehan: hipófisis grande del embarazo que se infarta con la hemorragia | 3D | ★★ |  |
 | gastro-01 | Esfínter esofágico inferior que se relaja y el ácido que sube; Barrett | 3D | ★★ |  |
 | gastro-02 | H. pylori en la mucosa; ácido que rompe la barrera | M | ★★ |  |
 | gastro-06 | Hernia hiatal por deslizamiento vs paraesofágica | 3D | ★★ |  |
@@ -145,11 +135,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | cirugia-07 | Fisura: espasmo del esfínter que perpetúa el dolor; grados de hemorroides que prolapsan | M | ★ |  |
 | derma-06 | Barrera que falla: alérgenos que entran por la piel atópica | M | ★ |  |
 | derma-16 | Ciclo del ácaro de la sarna en el surco | M | ★ |  |
-| endo-02 | Levotiroxina: dosis según peso y edad; absorción en ayunas | M | ★ |  |
-| endo-04 | TSH meta por trimestre; tamizaje de talón en el tiempo | M | ★ |  |
-| endo-09 | Algoritmo del nódulo: TSH → eco → punción → Bethesda | M | ★ |  |
-| endo-13 | Shock que no responde: por qué falta el cortisol para la noradrenalina | M | ★ |  |
-| endo-22 | GH → IGF-1; la glucosa que no la suprime | M | ★ |  |
 | gastro-04 | Úlcera que perfora vs Boerhaave vs Mallory-Weiss | 3D | ★ |  |
 | gastro-08 | Pérdida de agua según la deshidratación (planes A, B, C) | M | ★ |  |
 | gastro-21 | Ángulo de Treitz divide alta y baja | 3D | ★ |  |
@@ -193,7 +178,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
 | reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
-## ✅ Hechas con anatomía real (3D o Blausen) (42)
+## ✅ Hechas con anatomía real (3D o Blausen) (44)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -204,6 +189,8 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | diab-10 | Arteriola eferente: por qué el IECA baja la presión glomerular | M | ★★★ | A1_eferente_real.mp4 |
 | diab-15 | Cetoacidosis vs hiperosmolar: falta total vs parcial de insulina | M | ★★★ | A1_cad_real.mp4, A2_hiperosmolar_real.mp4 |
 | endo-06 | Anticuerpo que imita a la TSH (Graves) y estimula la tiroides | M | ★★★ | A1_graves_3d.mp4 |
+| endo-12 | Addison (ACTH alta, pigmento, potasio alto) vs secundaria (ACTH baja) en el eje | M | ★★★ | A1_addison_real.mp4, A2_secundaria_real.mp4 |
+| endo-15 | Feocromocitoma: descarga de catecolaminas; por qué alfa antes que beta | M | ★★★ | A1_alfa_beta_real.mp4 |
 | endo-24 | ADH en el túbulo colector: diabetes insípida vs SIADH | M | ★★★ | A1_diabetes_insipida_real.mp4, A2_siadh_real.mp4 |
 | gastro-03 | Manometría animada: acalasia vs normal (peristalsis y esfínter) | M | ★★★ | A1_acalasia_3d.mp4, A1_deglucion_normal_3d.mp4 |
 | gastro-15 | Hipertensión portal: la sangre busca colaterales (várices, cabeza de medusa); ascitis | 3D | ★★★ | A1_hipertension_portal_3d.mp4 |
@@ -240,7 +227,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | resp-21 | (animación existente, no estaba en el plan) |  |  | A1_hipoventilacion_real.mp4, A2_shunt_real.mp4 |
 | reuma-24 | (animación existente, no estaba en el plan) |  |  | A1_aplastamiento_3d.mp4 |
 
-## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (49)
+## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (62)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -273,9 +260,22 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | diab-20 | Del glomérulo hiperfiltrante a la albuminuria y la diálisis | M | ★★ | A1_glomerulo_albuminuria.mp4 |
 | diab-21 | Del capilar dañado al neovaso que sangra | M | ★★ | A1_retinopatia.mp4 |
 | diab-23 | Placa de ateroma que crece y la estatina que la estabiliza | M | ★★ | A1_ateroma_estatina.mp4 |
+| endo-07 | Yodo que entra al folículo; tiamazol bloquea la TPO; radioyodo destruye | M | ★★ | A1_tiamazol_radioyodo.mp4 |
+| endo-08 | Cascada de la tormenta tiroidea y el orden PTU → yodo una hora después | M | ★★ | A1_tormenta_orden.mp4 |
+| endo-14 | Aldosterona → sodio dentro, potasio fuera; renina suprimida | M | ★★ | A1_aldosterona_renina.mp4 |
+| endo-16 | PTH: hueso, riñón, intestino; las vías de la hipercalcemia | M | ★★ | A1_pth_calcio.mp4 |
+| endo-18 | Remodelado óseo: osteoclasto vs osteoblasto; bifosfonato frenando la resorción | M | ★★ | A1_remodelado_bifosfonato.mp4 |
+| endo-19 | Vitamina D: piel → hígado → riñón; dónde falla cada osteomalacia | M | ★★ | A1_vitamina_d.mp4 |
+| endo-21 | Dopamina frena a la prolactina; tallo cortado o fármaco → prolactina sube | M | ★★ | A1_dopamina_prolactina.mp4 |
+| endo-23 | Sheehan: hipófisis grande del embarazo que se infarta con la hemorragia | 3D | ★★ | A1_sheehan.mp4 |
 | diab-03 | Resistencia a la insulina que sube durante el embarazo (lactógeno placentario) | M | ★ | A1_resistencia_embarazo.mp4 |
 | diab-05 | Glicemia durante y después del ejercicio (riesgo de hipoglicemia tardía) | M | ★ | A1_ejercicio_hipoglicemia.mp4 |
 | diab-22 | Neuropatía + isquemia + trauma → úlcera; el estilete que toca hueso | M | ★ | A1_pie_diabetico.mp4 |
+| endo-02 | Levotiroxina: dosis según peso y edad; absorción en ayunas | M | ★ | A1_levotiroxina_dosis.mp4 |
+| endo-04 | TSH meta por trimestre; tamizaje de talón en el tiempo | M | ★ | A1_tsh_embarazo_talon.mp4 |
+| endo-09 | Algoritmo del nódulo: TSH → eco → punción → Bethesda | M | ★ | A1_algoritmo_nodulo.mp4 |
+| endo-13 | Shock que no responde: por qué falta el cortisol para la noradrenalina | M | ★ | A1_shock_sin_cortisol.mp4 |
+| endo-22 | GH → IGF-1; la glucosa que no la suprime | M | ★ | A1_acromegalia_gh.mp4 |
 | cirugia-09 | (animación existente, no estaba en el plan) |  |  | A1_abcde.mp4 |
 | diab-11 | (animación existente, no estaba en el plan) |  |  | A1_basales.mp4, A2_prandiales.mp4 |
 | endo-01 | (animación existente, no estaba en el plan) |  |  | A1_eje_normal.mp4, A2_eje_primario.mp4, A3_eje_hiper.mp4, A4_eje_central.mp4 |

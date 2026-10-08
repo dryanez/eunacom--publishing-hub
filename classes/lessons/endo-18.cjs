@@ -194,6 +194,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Más resorción que formación',
+      images: [
+        { src: 'animaciones/endo-18/A1_remodelado_bifosfonato.mp4', label: 'Osteoporosis', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'T-score de menos dos coma cinco o menos',
+          say: 'El osteoclasto cava y el osteoblasto rellena. Con la menopausia o los corticoides hay más osteoclastos, y el hueso pierde masa: el T-score cae. Bajo menos dos coma cinco es osteoporosis. El bifosfonato se pega al hueso y frena al osteoclasto, siempre con calcio y vitamina D.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'Cómo leer la densitometría',

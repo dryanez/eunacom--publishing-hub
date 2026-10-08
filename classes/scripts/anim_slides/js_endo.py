@@ -65,4 +65,34 @@ S = {
         'steps': [{'note': 'Primero falla la leche',
                    'say': 'En el embarazo la hipófisis crece. Con una hemorragia grave del parto cae la presión, y la adenohipófisis se necrosa. Lo primero que falla es la prolactina: no hay leche. Después la amenorrea, el hipotiroidismo y la insuficiencia suprarrenal. Se trata primero con cortisol y recién después con levotiroxina.'}],
     },
+    'endo-14': {
+        'title': 'Aldosterona que no obedece',
+        'images': [{'src': 'animaciones/endo-14/A1_aldosterona_renina.mp4', 'label': 'Hiperaldosteronismo', 'credit': SV}],
+        'steps': [{'note': 'Sodio dentro, potasio fuera, renina suprimida',
+                   'say': 'La suprarrenal fabrica aldosterona sola. En el riñón retiene sodio y agua, y sube la presión; a cambio bota potasio e hidrogeniones: hipokalemia y alcalosis. El volumen expandido apaga la renina. Y la causa más frecuente es la hiperplasia bilateral, no el adenoma.'}],
+    },
+    'endo-16': {
+        'title': 'Los cuatro caminos de la PTH',
+        'images': [{'src': 'animaciones/endo-16/A1_pth_calcio.mp4', 'label': 'PTH', 'credit': SV}],
+        'steps': [{'note': 'Calcio alto, fósforo bajo',
+                   'say': 'Las paratiroides liberan PTH, que tiene una sola meta: subir el calcio. Estimula a los osteoclastos, hace que el riñón retenga calcio y bote fósforo, y activa la vitamina D para que el intestino absorba calcio. Por eso el hiperparatiroidismo tiene el calcio alto y el fósforo bajo. Con la PTH suprimida, piensa en un cáncer.'}],
+    },
+    'endo-18': {
+        'title': 'Más resorción que formación',
+        'images': [{'src': 'animaciones/endo-18/A1_remodelado_bifosfonato.mp4', 'label': 'Osteoporosis', 'credit': SV}],
+        'steps': [{'note': 'T-score de menos dos coma cinco o menos',
+                   'say': 'El osteoclasto cava y el osteoblasto rellena. Con la menopausia o los corticoides hay más osteoclastos, y el hueso pierde masa: el T-score cae. Bajo menos dos coma cinco es osteoporosis. El bifosfonato se pega al hueso y frena al osteoclasto, siempre con calcio y vitamina D.'}],
+    },
+    'endo-19': {
+        'title': 'Del sol al hueso',
+        'images': [{'src': 'animaciones/endo-19/A1_vitamina_d.mp4', 'label': 'Vitamina D', 'credit': SV}],
+        'steps': [{'note': 'Se mide el calcidiol; el fósforo bajo es la huella',
+                   'say': 'La piel fabrica la vitamina D con el sol, el hígado la convierte en calcidiol, que es la que se mide, y el riñón la activa a calcitriol, encendido por la PTH. El calcitriol absorbe calcio y fósforo en el intestino, y el hueso se mineraliza. Cuando falta, sube la PTH y el fósforo cae.'}],
+    },
+    'endo-13': {
+        'title': 'Sin cortisol, la noradrenalina no sirve',
+        'images': [{'src': 'animaciones/endo-13/A1_shock_sin_cortisol.mp4', 'label': 'Crisis suprarrenal', 'credit': SV}],
+        'steps': [{'note': 'Hidrocortisona cien miligramos en bolo',
+                   'say': 'El cortisol mantiene los receptores alfa uno de las arteriolas. Sin él, la noradrenalina rebota y el shock no responde, aunque subas la dosis. Lo que lo revierte es la hidrocortisona, cien miligramos endovenosa en bolo, junto con suero fisiológico y glucosado.'}],
+    },
 }

@@ -246,6 +246,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Sin cortisol, la noradrenalina no sirve',
+      images: [
+        { src: 'animaciones/endo-13/A1_shock_sin_cortisol.mp4', label: 'Crisis suprarrenal', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Hidrocortisona cien miligramos en bolo',
+          say: 'El cortisol mantiene los receptores alfa uno de las arteriolas. Sin él, la noradrenalina rebota y el shock no responde, aunque subas la dosis. Lo que lo revierte es la hidrocortisona, cien miligramos endovenosa en bolo, junto con suero fisiológico y glucosado.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, tal como lo vas a razonar frente al paciente en shock.',
     },

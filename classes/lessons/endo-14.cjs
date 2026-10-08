@@ -140,6 +140,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Aldosterona que no obedece',
+      images: [
+        { src: 'animaciones/endo-14/A1_aldosterona_renina.mp4', label: 'Hiperaldosteronismo', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Sodio dentro, potasio fuera, renina suprimida',
+          say: 'La suprarrenal fabrica aldosterona sola. En el riñón retiene sodio y agua, y sube la presión; a cambio bota potasio e hidrogeniones: hipokalemia y alcalosis. El volumen expandido apaga la renina. Y la causa más frecuente es la hiperplasia bilateral, no el adenoma.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

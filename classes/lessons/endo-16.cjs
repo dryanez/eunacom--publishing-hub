@@ -243,6 +243,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Los cuatro caminos de la PTH',
+      images: [
+        { src: 'animaciones/endo-16/A1_pth_calcio.mp4', label: 'PTH', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Calcio alto, fósforo bajo',
+          say: 'Las paratiroides liberan PTH, que tiene una sola meta: subir el calcio. Estimula a los osteoclastos, hace que el riñón retenga calcio y bote fósforo, y activa la vitamina D para que el intestino absorba calcio. Por eso el hiperparatiroidismo tiene el calcio alto y el fósforo bajo. Con la PTH suprimida, piensa en un cáncer.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       light: true,
       kicker: 'Así se ve',

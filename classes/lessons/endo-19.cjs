@@ -191,6 +191,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Del sol al hueso',
+      images: [
+        { src: 'animaciones/endo-19/A1_vitamina_d.mp4', label: 'Vitamina D', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Se mide el calcidiol; el fósforo bajo es la huella',
+          say: 'La piel fabrica la vitamina D con el sol, el hígado la convierte en calcidiol, que es la que se mide, y el riñón la activa a calcitriol, encendido por la PTH. El calcitriol absorbe calcio y fósforo en el intestino, y el hueso se mineraliza. Cuando falta, sube la PTH y el fósforo cae.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Raquitismo',
