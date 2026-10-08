@@ -13,7 +13,9 @@ const path = require('path');
 const puppeteer = require('puppeteer');
 const mapper = require('./code_to_manual_mapper.cjs');
 
-const CHROME_PATH = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const CHROME_PATH = process.env.CHROME_PATH || 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+// Si hay proxy (p. ej. sesiones en la nube), Chromium lo necesita para bajar fotos y fuentes.
+const PROXY_ARGS = process.env.HTTPS_PROXY ? [`--proxy-server=${process.env.HTTPS_PROXY}`] : [];
 const DIST_DIR = path.join(__dirname, '..', 'dist');
 const ASSETS_DIR = path.join(__dirname, '..', 'assets');
 
@@ -282,13 +284,17 @@ const SPECIALTIES = {
   },
 };
 
-// Cargar Nuevo Logo AEE en SVG
+// Logo AEE: el mismo de los tomos (build_book.cjs)
 let aeeLogoSvg = '';
-const newLogoPath = path.join(ASSETS_DIR, 'aee_logo_new.svg');
+const newLogoPath = path.join(ASSETS_DIR, 'aee-logo-smooth.svg');
 if (fs.existsSync(newLogoPath)) {
-  aeeLogoSvg = fs.readFileSync(newLogoPath, 'utf8');
+  aeeLogoSvg = fs.readFileSync(newLogoPath, 'utf8')
+    .replace(/<\?xml[^>]*\?>/i, '')
+    .replace(/<metadata>[\s\S]*?<\/metadata>/i, '')
+    .replace(/width="188px"/i, 'width="120px"')
+    .replace(/height="142px"/i, 'height="90px" style="height:48px;width:auto;display:block"');
 } else {
-  console.warn('No se encontró aee_logo_new.svg');
+  console.warn('No se encontró aee-logo-smooth.svg');
 }
 
 function renderHtmlBook(specKey) {
@@ -550,24 +556,13 @@ function renderHtmlBook(specKey) {
     .cover-top {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
       z-index: 4;
     }
-    .cover-logo-svg {
-      width: 240px;
-      height: auto;
-    }
-    .cover-edition {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 8.5pt;
-      letter-spacing: 0.15em;
-      color: #0bd9e7;
-      border: 1px solid rgba(11,217,231,0.4);
-      background: rgba(11,20,32,0.6);
-      padding: 5px 12px;
-      border-radius: 4px;
-      font-weight: 600;
-    }
+    .cover-logo-svg svg { height: 46px; width: auto; display: block; }
+    .cover-badge { display: flex; flex-direction: column; align-items: flex-end; gap: 3px; }
+    .cover-badge .ed { font: 700 13px/1 'IBM Plex Mono', monospace; letter-spacing: .14em; color: #0bd9e7; }
+    .cover-badge .subed { font: 500 9.5px/1 'IBM Plex Mono', monospace; letter-spacing: .1em; color: #94a3b8; }
     .cover-main {
       margin-top: auto;
       margin-bottom: 15mm;
@@ -973,7 +968,10 @@ function renderHtmlBook(specKey) {
     
     <div class="cover-top">
       <div class="cover-logo-svg">${aeeLogoSvg}</div>
-      <div class="cover-edition">TOMO ${spec.num} · 1ª EDICIÓN 2026</div>
+      <div class="cover-badge">
+        <span class="ed">1ª EDICIÓN · 2026</span>
+        <span class="subed">TOMO ${spec.num} · ASOFAMECh PERFIL V3</span>
+      </div>
     </div>
 
     <div class="cover-main">
@@ -1096,7 +1094,7 @@ async function buildPdf(specKey) {
   const browser = await puppeteer.launch({
     headless: true,
     executablePath: CHROME_PATH,
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
+    args: [...PROXY_ARGS, '--no-sandbox', '--disable-setuid-sandbox']
   });
 
   const page = await browser.newPage();
