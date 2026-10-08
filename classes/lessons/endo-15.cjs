@@ -178,13 +178,13 @@ module.exports = {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
-      title: 'Por qué alfa antes que beta',
+      title: 'Primero alfa, después beta',
       images: [
-        { src: 'animaciones/endo-15/A1_alfa_beta.mp4', label: 'Bloqueo', credit: 'Animación propia' },
+        { src: 'animaciones/endo-15/A1_alfa_beta_real.mp4', label: 'Bloqueo', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Alfa primero',
-          say: 'Las catecolaminas contraen las arteriolas por los receptores alfa, y los beta dos ayudan a dilatarlas. Si bloqueas beta primero, el alfa queda sin oposición y la presión se dispara. Por eso, primero alfa.' },
+          say: 'El tumor de la médula suprarrenal descarga catecolaminas: por los receptores alfa uno contrae las arteriolas, y por los beta uno acelera el corazón. Si das un betabloqueador solo, se pierde la vasodilatación beta dos, el alfa queda sin oposición y la presión se dispara. Por eso primero se bloquea alfa, con fenoxibenzamina o doxazosina, y recién después beta.' },
       ],
     },
 

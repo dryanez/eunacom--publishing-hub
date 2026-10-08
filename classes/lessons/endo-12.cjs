@@ -170,16 +170,16 @@ module.exports = {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
-      title: 'Primaria o secundaria',
+      title: 'Falla la suprarrenal o falla la hipófisis',
       images: [
-        { src: 'animaciones/endo-12/A1_addison.mp4', label: 'Addison', credit: 'Animación propia' },
-        { src: 'animaciones/endo-12/A2_secundaria.mp4', label: 'Secundaria', credit: 'Animación propia' },
+        { src: 'animaciones/endo-12/A1_addison_real.mp4', label: 'Addison', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+        { src: 'animaciones/endo-12/A2_secundaria_real.mp4', label: 'Secundaria', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'ACTH alta, potasio alto',
-          say: 'En el Addison falla la suprarrenal: el cortisol cae, la ACTH sube y oscurece la piel, y como falta la aldosterona, el potasio sube.' },
+          say: 'En el Addison se destruye la corteza suprarrenal: cae el cortisol y también la aldosterona. Sin el freno del cortisol, la ACTH sube muchísimo y oscurece la piel; y sin aldosterona, el potasio sube.' },
         { note: 'ACTH baja, sin hiperkalemia',
-          say: 'En la secundaria falla la hipófisis: la ACTH está baja, no hay pigmento, y la aldosterona se conserva porque depende de la renina. No hay hiperkalemia.' },
+          say: 'En la secundaria falla la hipófisis: la ACTH está baja y el cortisol cae, pero no hay pigmento. La glomerulosa sigue funcionando porque depende de la renina, así que la aldosterona se conserva y no hay hiperkalemia.' },
       ],
     },
 

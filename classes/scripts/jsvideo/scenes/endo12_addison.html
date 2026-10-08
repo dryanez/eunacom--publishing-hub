@@ -1,0 +1,80 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// endo-12. ?v=addison: se destruye la corteza → cae cortisol y aldosterona; sin freno la ACTH sube (piel oscura) y el potasio sube.
+// ?v=sec: falla la hipófisis → ACTH baja, cortisol bajo; la glomerulosa sigue por renina: aldosterona normal, sin hiperkalemia ni pigmento.
+// Base: eje hipotálamo-hipófisis y corteza suprarrenal, Servier Medical Art (CC BY 4.0).
+const SEC = new URLSearchParams(location.search).get('v') === 'sec';
+window.SCENE = { duration: 21, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const HP = { x: 30, y: 150, s: 0.62 }, H = (x, y) => [HP.x + x * HP.s, HP.y + y * HP.s];
+const AD = { x: 395, y: 165, s: 0.5 }, A = (x, y) => [AD.x + x * AD.s, AD.y + y * AD.s];
+const ACTH = poly([H(160, 505), [250, 640], [400, 650], [520, 560], A(330, 300)]);
+const CORT = poly([A(260, 230), [520, 130], [380, 125], H(300, 300)]);
+const tFail = 3.0;
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  K.title(SEC ? 'Insuficiencia secundaria: falla la hipófisis' : 'Addison: falla la suprarrenal', SEC ? 'ACTH baja: sin pigmento y sin hiperkalemia' : 'ACTH alta, piel oscura y potasio alto', SEC ? C.BLUE : C.RED);
+  ctx.globalAlpha = seg(t, 0, 0.7);
+  ctx.drawImage(window.IMGS.hip, HP.x, HP.y, 505 * HP.s, 555 * HP.s);
+  ctx.drawImage(window.IMGS.sup, AD.x, AD.y, 636 * AD.s, 661 * AD.s);
+  ctx.globalAlpha = 1;
+  const f = ease(seg(t, tFail, 2.5));
+  // daño
+  if (SEC) { ctx.save(); ctx.globalAlpha = 0.6 * f; ctx.fillStyle = '#2A2F38'; ctx.beginPath(); ctx.ellipse(...H(240, 440), 95 * HP.s * 1.25, 110 * HP.s, 0, 0, 7); ctx.fill(); ctx.restore(); }
+  else { ctx.save(); ctx.globalAlpha = 0.72 * f; ctx.fillStyle = '#2A2F38'; const [x0, y0] = A(175, 100), [x1, y1] = A(636, 480); ctx.fillRect(x0, y0, x1 - x0, y1 - y0); ctx.restore(); }
+  if (SEC) { const atro = 0.45 * ease(seg(t, 7, 3)); ctx.save(); ctx.globalAlpha = atro; ctx.fillStyle = '#2A2F38'; const [x0, y0] = A(175, 190), [x1, y1] = A(636, 480); ctx.fillRect(x0, y0, x1 - x0, y1 - y0); ctx.restore();
+    K.glow(...A(405, 150), 110, '179,136,255', 0.35 * seg(t, 9, 1)); }
+  // rótulos
+  const la = seg(t, 0.8, 0.5); ctx.globalAlpha = la;
+  tag('Hipófisis', ...H(240, 600), '#E8C9A0', 16); tag('Corteza suprarrenal', ...A(405, -25), '#E7A0B5', 16);
+  tag('Glomerulosa: aldosterona', ...A(405, 150), C.VIOLET, 14); tag('Fasciculada: cortisol', ...A(405, 300), '#7FC4E8', 14);
+  ctx.globalAlpha = 1;
+  if (!SEC) { ctx.globalAlpha = fade(t, tFail, 9); tag('Autoinmune o tuberculosis destruye la corteza', ...A(405, 520), C.RED, 15); ctx.globalAlpha = 1; }
+  else { ctx.globalAlpha = fade(t, tFail, 9); tag('Tumor, cirugía o corticoides crónicos', ...H(240, 330), C.BLUE, 15); ctx.globalAlpha = 1;
+         ctx.globalAlpha = seg(t, 9.2, 0.5); tag('La glomerulosa sigue: depende de la renina', ...A(405, 520), C.VIOLET, 15); ctx.globalAlpha = 1; }
+  // ACTH: sale de la hipófisis hacia la suprarrenal
+  const nA = SEC ? Math.round(lerp(8, 1, f)) : Math.round(lerp(8, 22, f));
+  for (let i = 0; i < 22; i++) { if (i >= nA) continue; const u = ((t * 0.32) + i / nA) % 1, [x, y] = ACTH.at(u);
+    ctx.globalAlpha = Math.min(1, u * 8, (1 - u) * 8) * seg(t, 0.8, 0.5); ctx.fillStyle = '#F29A3A'; ctx.beginPath(); ctx.arc(x, y, 7, 0, 7); ctx.fill(); }
+  // cortisol: vuelve y frena a la hipófisis
+  const nC = Math.round(lerp(8, 0, f));
+  for (let i = 0; i < 8; i++) { if (i >= nC) continue; const u = ((t * 0.3) + i / 8) % 1, [x, y] = CORT.at(u);
+    ctx.globalAlpha = Math.min(1, u * 8, (1 - u) * 8) * seg(t, 0.8, 0.5); ctx.fillStyle = C.GREEN; ctx.fillRect(x - 6, y - 6, 12, 12); }
+  ctx.globalAlpha = 1;
+  ctx.globalAlpha = fade(t, 1.0, 6); tag('ACTH', 300, 668, '#F29A3A', 15); tag('Cortisol: frena la hipófisis', 430, 125, C.GREEN, 15); ctx.globalAlpha = 1;
+  // piel
+  const pig = SEC ? 0 : ease(seg(t, 9.5, 3));
+  const pa = seg(t, 8.5, 0.5);
+  if (pa > 0) {
+    ctx.save(); ctx.globalAlpha = pa; rrect(760, 520, 480, 140, 16, '#161B22');
+    ctx.beginPath(); ctx.roundRect(780, 535, 150, 110, 10); ctx.clip();
+    ctx.filter = `sepia(${0.6 * pig}) brightness(${1 - 0.55 * pig}) saturate(${1 + 0.6 * pig})`;
+    ctx.drawImage(window.IMGS.epi, 0, 0, 714, 520, 780, 535, 150, 110); ctx.restore();
+    ctx.globalAlpha = pa;
+    text('Piel', 950, 565, 21, C.INK, 'bold');
+    text(SEC ? 'Normal o pálida: la ACTH' : 'Oscura: la ACTH alta', 950, 597, 18, C.INK); text(SEC ? 'está baja' : 'estimula los melanocitos', 950, 625, 18, C.INK);
+    ctx.globalAlpha = 1;
+  }
+  // medidores
+  const g = seg(t, 1.2, 0.5); ctx.globalAlpha = g;
+  rrect(760, 150, 480, 350, 16, '#161B22');
+  const lv = (base, add) => base + add * f;
+  K.bar(784, 190, 432, 'ACTH', SEC ? lv(50, -40) : lv(50, 45), 100, '', f < 0.5 ? C.GREEN : SEC ? C.BLUE : C.RED, [], () => f < 0.5 ? 'normal' : SEC ? 'baja' : 'muy alta');
+  K.bar(784, 268, 432, 'Cortisol', lv(55, -45), 100, '', f < 0.5 ? C.GREEN : C.RED, [], () => f < 0.5 ? 'normal' : 'bajo');
+  K.bar(784, 346, 432, 'Aldosterona', SEC ? 55 : lv(55, -45), 100, '', SEC || f < 0.5 ? C.GREEN : C.RED, [], () => SEC || f < 0.5 ? 'normal' : 'baja');
+  const kk = SEC ? 4.3 : lerp(4.3, 6.1, ease(seg(t, 6, 3)));
+  K.bar(784, 424, 432, 'Potasio', kk, 7, 'mEq/L', kk > 5.2 ? C.RED : C.GREEN, [[5, '5,0']], v => v.toFixed(1).replace('.', ','));
+  ctx.globalAlpha = 1;
+  K.banner(30, 650, 700, SEC ? 'Sin hiperkalemia y sin pigmento: piensa en la hipófisis' : 'Hiperkalemia + piel oscura: piensa en la suprarrenal', SEC ? C.BLUE : C.RED, seg(t, 16.5, 0.5));
+  K.credit();
+};
+LOAD({ hip: '../assets/servier/hipofisis.png', sup: '../assets/servier/suprarrenal_capas.png', epi: '../assets/servier/epidermis.png' });
+</script>
+</body></html>
