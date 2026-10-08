@@ -414,7 +414,8 @@ async function image(s, idx, lt, a) {
   const im = s.images[Math.min(cur.step, s.images.length - 1)], m = D.media[im.src];
   if (m) {                                   // animación: cuadros del MP4, sin la línea de créditos
     const f = clamp(Math.floor((lt - (sayT(cur) - t0)) * 30) + 1, 1, m.n);
-    const img = await loadImg(`../out/${D.id}/${m.dir}/f${String(f).padStart(4, '0')}.jpg`);
+    const img = await loadImg(`../out/${D.id}/${m.dir}/f${String(f).padStart(4, '0')}.jpg`).catch(() => null);
+    if (!img) return;                        // cuadros ya borrados (al parchar un tramo vecino)
     ctx.save(); ctx.globalAlpha = a; ctx.drawImage(img, 0, 0, W, H); ctx.fillStyle = C.BG; ctx.fillRect(700, 694, 580, 26); ctx.restore();
     return;
   }
