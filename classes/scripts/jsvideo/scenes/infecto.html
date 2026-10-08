@@ -1,0 +1,263 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// Infectología sobre ilustraciones reales (Servier Medical Art, CC BY 4.0) y gráficos propios.
+// ?v=rabia|tetanos (infecto-06) sepsis (01) lcr (02) herpes (03) aisla (07) tbc (11) hanta (14) chagas (15) hidat (17)
+//   exant (22) pep (05) vih (09) tifo (18) mono (21) nf (24)
+const V = new URLSearchParams(location.search).get('v') || 'rabia';
+window.SCENE = { duration: 22, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const G = GRAPH(L), K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+function draw(k, x, y, w, a = 1, filter) { const im = I(k), h = w * im.height / im.width; if (a <= 0) return h; ctx.save(); ctx.globalAlpha = a; if (filter) ctx.filter = filter; ctx.drawImage(im, x - w / 2, y - h / 2, w, h); ctx.restore(); return h; }
+const spot = (x, y, r, rgb, a) => K.glow(x, y, r, rgb, a);
+function dots(P, n, t, col, sp = 0.3, sz = 6, a0 = 1, u0 = 0, u1 = 1) { if (a0 <= 0) return; for (let i = 0; i < n; i++) { const u = ((t * sp) + i / n) % 1, [x, y] = P.at(lerp(u0, u1, u));
+  ctx.globalAlpha = a0 * Math.min(1, u * 8, (1 - u) * 8); ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x, y, sz, 0, 7); ctx.fill(); } ctx.globalAlpha = 1; }
+function arrow(x1, y1, x2, y2, col, a, w = 3) { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = w;
+  const xe = lerp(x1, x2, ease(a)), ye = lerp(y1, y2, ease(a)); ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(xe, ye); ctx.stroke();
+  const an = Math.atan2(y2 - y1, x2 - x1); ctx.beginPath(); ctx.moveTo(xe, ye); ctx.lineTo(xe - 14 * Math.cos(an - 0.4), ye - 14 * Math.sin(an - 0.4)); ctx.lineTo(xe - 14 * Math.cos(an + 0.4), ye - 14 * Math.sin(an + 0.4)); ctx.fill(); ctx.restore(); }
+function box(x, y, w, h, col, t1, t2, a) { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; rrect(x, y, w, h, 14, '#161B22'); ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.roundRect(x, y, w, h, 14); ctx.stroke();
+  text(t1, x + w / 2, y + (t2 ? h / 2 - 4 : h / 2 + 7), 19, col, 'bold', 'center'); if (t2) text(t2, x + w / 2, y + h / 2 + 22, 15, C.INK, '', 'center'); ctx.restore(); }
+// sarpullido recortado a la silueta de una imagen (capa aparte)
+const OFF = document.createElement('canvas'); OFF.width = 1280; OFF.height = 720; const ox = OFF.getContext('2d');
+function rash(k, x, y, w, fn, a = 1) { const im = I(k), h = w * im.height / im.width; ox.clearRect(0, 0, 1280, 720); ox.globalCompositeOperation = 'source-over'; ox.drawImage(im, x - w / 2, y - h / 2, w, h);
+  ox.globalCompositeOperation = 'source-atop'; fn(ox, x - w / 2, y - h / 2, w, h); ox.globalCompositeOperation = 'source-over'; ctx.globalAlpha = a; ctx.drawImage(OFF, 0, 0); ctx.globalAlpha = 1; }
+
+// neurona 692x1400 a 230 px de ancho: el axón baja por x≈323 desde y≈220 (soma) hasta y≈625 (terminales)
+const AX = poly([[322, 628], [324, 560], [322, 470], [323, 380], [322, 300], [321, 225]]);
+function rabia(t) {
+  K.title('Rabia: el virus sube por el nervio', 'Transporte axonal retrógrado hacia la médula y el encéfalo', C.RED);
+  draw('neu', 300, 420, 230, seg(t, 0, 0.6));
+  ctx.globalAlpha = seg(t, 1, 0.5); tag('Mordedura: saliva con virus', 320, 668, C.RED, 14); tag('Médula y encéfalo', 320, 160, C.VIOLET, 14); ctx.globalAlpha = 1;
+  const k = ease(seg(t, 2, 8)); for (let i = 0; i < 7; i++) { const u = clamp(k - i * 0.05, 0, 1); if (u <= 0) continue; const [x, y] = AX.at(u); spot(x, y, 16, '255,70,90', 0.9); }
+  if (k >= 1) spot(321, 225, 70, '255,70,90', 0.5 + 0.2 * Math.sin(t * 4));
+  // ventana
+  const wa = seg(t, 3, 0.5); if (wa > 0) { ctx.globalAlpha = wa; rrect(700, 150, 540, 120, 16, '#161B22'); text('La ventana: semanas', 724, 186, 21, C.GREEN, 'bold');
+    rrect(724, 210, 490, 16, 8, '#222833'); rrect(724, 210, 490 * k, 16, 8, k < 1 ? C.GREEN : C.RED); text(k < 1 ? 'Vacuna e inmunoglobulina llegan antes' : 'Llegó al sistema nervioso: letal', 724, 252, 16, C.INK); ctx.globalAlpha = 1; }
+  K.card(700, 290, 540, 120, C.AMBER, 'Perro o gato ubicable', ['Se observa diez días'], seg(t, 11, 0.5), 17);
+  K.card(700, 430, 540, 120, C.RED, 'Murciélago: exposición grave', ['Reservorio silvestre en Chile'], seg(t, 14, 0.5), 17);
+}
+function tetanos(t) {
+  K.title('Tétanos: una toxina que quita el freno', 'Tetanoespasmina: también sube por el nervio', C.AMBER);
+  draw('neu', 300, 420, 230, seg(t, 0, 0.6));
+  ctx.globalAlpha = seg(t, 1, 0.5); tag('Herida con esporas', 320, 668, C.AMBER, 14); ctx.globalAlpha = 1;
+  const k = ease(seg(t, 2, 6)); dots(AX, 8, t, '#7CD67C', 0.25, 6, seg(t, 2, 0.5) * (1 - seg(t, 9, 0.5)), 0, k);
+  const off = seg(t, 8, 1);
+  spot(321, 225, 70, off ? '120,120,120' : '80,160,255', 0.6 * (1 - off) + 0.25 * off);
+  ctx.globalAlpha = seg(t, 1.5, 0.5); tag(off < 1 ? 'Interneurona inhibitoria: GABA y glicina' : 'Sin GABA ni glicina: sin freno', 321, 160, off < 1 ? C.BLUE : C.RED, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 140, C.AMBER, 'Degrada la sinaptobrevina', ['Bloquea la liberación del freno'], seg(t, 6, 0.5), 17);
+  const fa = seg(t, 11, 0.6); if (fa > 0) { draw('cara', 840, 470, 160, fa); ctx.globalAlpha = fa; tag('Risa sardónica', 840, 590, C.RED, 14); ctx.globalAlpha = 1; }
+  K.card(960, 330, 280, 220, C.RED, 'Contracción sostenida', ['Trismus', 'Risa sardónica', 'Opistótonos'], seg(t, 12, 0.5), 17);
+}
+
+// cuerpo 626x1703 a 520 px de alto
+function sepsis(t) {
+  const ph = t < 6 ? 0 : t < 13 ? 1 : 2;
+  K.title(['Una infección…', 'Sepsis: infección + disfunción orgánica', 'Shock séptico: lo que persiste tras el volumen'][ph], 'Sepsis tres', [C.AMBER, C.RED, C.VIOLET][ph]);
+  draw('cuerpo', 220, 430, 191, seg(t, 0, 0.6));
+  spot(255, 326, 50, '255,170,60', 0.7 * seg(t, 1, 1));
+  ctx.globalAlpha = seg(t, 1.5, 0.5); tag('Foco infeccioso', 140, 326, C.AMBER, 14); ctx.globalAlpha = 1;
+  [[264, 213, 'Conciencia'], [262, 420, 'Riñón'], [270, 470, 'Perfusión']].forEach(([x, y, n], i) => { const a = seg(t, 6.5 + i * 1.2, 0.6); spot(x, y, 42, '255,60,60', 0.7 * a); ctx.globalAlpha = a; tag(n, x + 110, y, C.RED, 14); ctx.globalAlpha = 1; });
+  K.card(520, 150, 360, 140, C.RED, 'SOFA: sube 2 o más', ['Respuesta desregulada del huésped'], seg(t, 7, 0.5), 17);
+  const s = seg(t, 13, 0.5); if (s > 0) { ctx.globalAlpha = s; rrect(520, 310, 720, 230, 16, '#161B22');
+    text('Tras 30 mL/kg de cristaloides', 544, 346, 20, C.INK, 'bold');
+    const k = ease(seg(t, 14, 4));
+    K.bar(544, 390, 320, 'PAM', lerp(55, 66, k), 100, 'mmHg', C.VIOLET, [[65, '65']]); text(k < 0.95 ? 'Con noradrenalina…' : 'Necesita vasopresor', 544, 466, 16, C.MUTED);
+    K.bar(900, 390, 316, 'Lactato', lerp(4.5, 3, k), 6, 'mmol/L', C.RED, [[2, '2']], v => v.toFixed(1).replace('.', ','));
+    text('Sigue sobre 2', 900, 466, 16, C.MUTED); ctx.globalAlpha = 1; }
+  K.banner(520, 560, 720, 'Dos criterios a la vez: vasopresor para PAM 65 y lactato > 2', C.VIOLET, seg(t, 18, 0.5));
+}
+
+// lcr_sagital 982x1027 a 430 px
+const LS = 430 / 982, LP = (x, y) => [75 + x * LS, 205 + y * LS];
+const MEN = poly([[130, 560], [88, 420], [104, 300], [185, 228], [290, 210], [400, 224], [478, 298], [503, 400], [488, 480]]);
+function lcr(t) {
+  K.title('Meningitis: el LCR separa bacteria de virus', 'La glucosa es el dato que más discrimina', C.BLUE);
+  draw('lcr', 290, 430, 430, seg(t, 0, 0.6));
+  const b = seg(t, 1.5, 0.6); dots(MEN, 14, t, '#FF5A6A', 0.12, 6, b);
+  ctx.globalAlpha = b; tag('Neumococo y meningococo en las meninges', 290, 182, C.RED, 14); ctx.globalAlpha = 1;
+  const cols = [['Bacteriana', C.RED], ['Viral', C.GREEN], ['TBC u hongos', C.AMBER]];
+  const rows = [['Glucosa', [0.3, 0.65, 0.2], 1, ['bajo 0,4', 'normal', 'bajo 0,3']], ['Células', [1, 1, 1], 1, ['neutrófilos', 'mononucleares', 'mononucleares']], ['Proteínas', [0.9, 0.3, 0.9], 1, ['sobre 100', 'leve alza', 'muy altas']]];
+  const a0 = seg(t, 4, 0.5); if (a0 <= 0) return; ctx.globalAlpha = a0; rrect(560, 150, 680, 400, 16, '#161B22');
+  cols.forEach(([n, c], j) => text(n, 800 + j * 160, 186, 18, c, 'bold', 'center'));
+  rows.forEach(([lab, vals, mx, labs], i) => { const ra = seg(t, 5 + i * 3, 0.6), y = 240 + i * 110; ctx.globalAlpha = a0 * ra; text(lab, 584, y + 6, 17, C.INK, 'bold');
+    vals.forEach((v, j) => { const x = 740 + j * 160; if (i === 1) { const col = j ? '#9EC3FF' : '#FF8A7A'; for (let q = 0; q < 9; q++) { ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x + 20 + (q % 3) * 40, y - 14 + Math.floor(q / 3) * 14, j ? 6 : 5, 0, 7); ctx.fill(); } }
+      else { rrect(x, y - 6, 120, 14, 7, '#222833'); rrect(x, y - 6, 120 * v * ease(ra), 14, 7, cols[j][1]); }
+      text(labs[j], x + 60, y + 36, 15, C.MUTED, '', 'center'); }); });
+  ctx.globalAlpha = 1;
+  K.banner(560, 580, 680, 'Glucosa baja: bacteria · glucosa normal: virus', C.BLUE, seg(t, 15, 0.5));
+}
+
+// cerebro lateral 431x286 a 460 px: lóbulo temporal ≈ (290, 515)
+function herpes(t) {
+  K.title('Encefalitis herpética: sube por el nervio', 'Hasta el lóbulo temporal y el sistema límbico', C.RED);
+  draw('cer', 300, 430, 460, seg(t, 0, 0.6));
+  const P = poly([[110, 560], [160, 520], [220, 515], [285, 520]]);
+  const k = seg(t, 1.5, 4); dots(P, 6, t, '#FF8A3A', 0.35, 7, seg(t, 1.5, 0.5) * (1 - seg(t, 7, 0.5)), 0, ease(k));
+  ctx.globalAlpha = seg(t, 1.5, 0.5); tag('Nervio olfatorio o trigémino', 150, 400, C.AMBER, 14); ctx.globalAlpha = 1;
+  const n = ease(seg(t, 5.5, 2)); spot(290, 510, 90, '220,30,60', 0.65 * n * (0.85 + 0.15 * Math.sin(t * 3)));
+  ctx.globalAlpha = n; tag('Necrosis hemorrágica temporal', 330, 640, C.RED, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 160, C.RED, 'Conducta, memoria, lenguaje', ['Alucinaciones olfatorias o gustativas', 'LCR viral con glóbulos rojos'], seg(t, 8, 0.5), 17);
+  K.banner(700, 340, 540, 'Aciclovir EV de inmediato, sin esperar', C.GREEN, seg(t, 13, 0.5));
+  K.card(700, 410, 540, 120, C.BLUE, 'Resonancia y PCR después', ['Confirman, no deciden el inicio'], seg(t, 15, 0.5), 17);
+}
+
+function aisla(t) {
+  K.title('Aislamiento según cómo viaja el germen', 'Contacto, gotitas o aéreo', C.BLUE);
+  const P = [['Contacto', 'Bata y guantes al entrar', 'Difficile, SARM, BLEE, sarna', C.AMBER], ['Gotitas · más de 5 micrones', 'Mascarilla quirúrgica · camas a más de 1 m', 'Meningococo, influenza, coqueluche', C.BLUE], ['Aéreo · menos de 5 micrones', 'N95 · presión negativa', 'TBC bacilífera, sarampión, varicela', C.RED]];
+  P.forEach(([n, d, g, col], i) => { const a = seg(t, 1 + i * 5, 0.6); if (a <= 0) return; const x = 40 + i * 410; ctx.globalAlpha = a;
+    rrect(x, 150, 390, 480, 18, '#161B22'); ctx.fillStyle = col; ctx.fillRect(x, 150, 390, 6); text(n, x + 195, 196, 21, col, 'bold', 'center');
+    const cx = x + 80, cy = 330; ctx.fillStyle = '#C9D1D9'; ctx.beginPath(); ctx.arc(cx, cy, 26, 0, 7); ctx.fill(); ctx.fillRect(cx - 22, cy + 30, 44, 70);
+    const tt = t - 1 - i * 5;
+    if (i === 0) { for (let q = 0; q < 8; q++) { const u = ((tt * 0.3) + q / 8) % 1; ctx.fillStyle = col; ctx.beginPath(); ctx.arc(lerp(cx + 40, x + 330, u), cy + 80 + Math.sin(q) * 6, 5, 0, 7); ctx.fill(); }
+      ctx.fillStyle = '#5A6270'; ctx.fillRect(x + 300, cy + 90, 70, 10); text('Manos y superficies', x + 195, 470, 16, C.MUTED, '', 'center'); }
+    if (i === 1) { for (let q = 0; q < 10; q++) { const u = ((tt * 0.35) + q / 10) % 1; const px = lerp(cx + 30, x + 260, u), py = cy + 4 + 120 * u * u; ctx.fillStyle = col; ctx.beginPath(); ctx.arc(px, py, 7, 0, 7); ctx.fill(); }
+      ctx.strokeStyle = C.MUTED; ctx.setLineDash([6, 5]); ctx.beginPath(); ctx.moveTo(x + 270, 290); ctx.lineTo(x + 270, 450); ctx.stroke(); ctx.setLineDash([]); text('1 metro', x + 270, 470, 16, C.MUTED, '', 'center'); }
+    if (i === 2) { for (let q = 0; q < 22; q++) { const u = ((tt * 0.12) + q / 22) % 1; const px = lerp(cx + 30, x + 370, u), py = cy - 40 + Math.sin(q * 2.1 + tt) * 50 * u; ctx.globalAlpha = a * (1 - u * 0.5); ctx.fillStyle = col; ctx.beginPath(); ctx.arc(px, py, 3.5, 0, 7); ctx.fill(); }
+      ctx.globalAlpha = a; text('Flotan por horas', x + 195, 470, 16, C.MUTED, '', 'center'); }
+    text(d, x + 195, 530, 16, C.INK, 'bold', 'center'); text(g, x + 195, 566, 15, C.MUTED, '', 'center'); ctx.globalAlpha = 1; });
+}
+
+function tbc(t) {
+  K.title('Tuberculosis: del pulmón a todo el cuerpo', 'Diseminación linfática y sanguínea', C.AMBER);
+  draw('cuerpo', 220, 430, 191, seg(t, 0, 0.6));
+  spot(255, 330, 34, '255,190,60', 0.8 * seg(t, 1, 0.8)); ctx.globalAlpha = seg(t, 1.2, 0.5); tag('Infección primaria', 120, 330, C.AMBER, 14); ctx.globalAlpha = 1;
+  const T = [[262, 262, 'Ganglios: la más frecuente'], [266, 208, 'Meninges'], [238, 345, 'Pleura'], [236, 420, 'Columna']];
+  T.forEach(([x, y, n], i) => { const s = 3 + i * 1.6, a = seg(t, s, 1.2); dots(poly([[255, 330], [x, y]]), 3, t, '#FFC24A', 0.6, 4, a * (1 - seg(t, 12, 0.5)));
+    spot(x, y, 26, '255,120,60', 0.75 * seg(t, s + 1, 0.6)); ctx.globalAlpha = seg(t, s + 1, 0.5); tag(n, 420, y, C.RED, 14); ctx.globalAlpha = 1; });
+  K.card(700, 150, 540, 140, C.AMBER, 'Pueden quedar latentes por décadas', ['Y reactivarse fuera del pulmón'], seg(t, 11, 0.5), 17);
+  K.card(700, 310, 540, 140, C.RED, 'Extrapulmonar', ['Más de la mitad de los casos con VIH'], seg(t, 14, 0.5), 17);
+}
+
+function hanta(t) {
+  K.title('Hantavirus: dos fases', 'Del cuadro gripal al edema pulmonar en horas', C.RED);
+  const ax = G.axes({ x: 110, y: 170, w: 700, h: 400 }, [0, 10], [0, 100], { xt: [[0, '0'], [3, '3'], [6, '6'], [8, '8'], [10, '10']], xl: 'días' }); ax.draw(seg(t, 0, 0.5));
+  G.band(ax, 0, 100, 'rgba(242,180,60,0.10)', seg(t, 1, 0.5), 'Prodrómica: 3 a 6 días', 0, 6);
+  G.band(ax, 0, 100, 'rgba(255,80,80,0.12)', seg(t, 7, 0.5), 'Cardiopulmonar', 6, 10);
+  const k = seg(t, 1.5, 10);
+  const pl = G.smooth([[0, 80], [3, 75], [5, 55], [6, 35], [7, 22], [8, 18], [10, 20]]), hc = G.smooth([[0, 40], [5, 42], [6, 52], [7, 64], [8, 70], [10, 68]]);
+  G.head(G.curve(ax, pl, k, C.BLUE, 4), C.BLUE); G.head(G.curve(ax, hc, k, C.RED, 4), C.RED);
+  G.hline(ax, 30, C.BLUE, 'Plaquetas bajo 100 mil', seg(t, 8, 0.5), 'left');
+  ctx.globalAlpha = seg(t, 2, 0.5); text('Plaquetas', 130, 220, 17, C.BLUE, 'bold'); text('Hematocrito', 130, 246, 17, C.RED, 'bold'); ctx.globalAlpha = 1;
+  K.card(860, 150, 380, 140, C.AMBER, 'Fiebre alta y cefalea', ['Antecedente rural: ratón colilargo'], seg(t, 2.5, 0.5), 16);
+  K.card(860, 310, 380, 180, C.RED, 'Tríada del hemograma', ['Trombocitopenia', 'Hemoconcentración', 'Inmunoblastos sobre 10 %'], seg(t, 9, 0.5), 16);
+  K.banner(860, 510, 380, 'Restringir fluidos', C.BLUE, seg(t, 15, 0.5));
+}
+
+function chagas(t) {
+  K.title('Chagas: de la vinchuca al corazón', 'Trypanosoma cruzi', C.AMBER);
+  draw('vin', 170, 300, 150, seg(t, 0, 0.6)); ctx.globalAlpha = seg(t, 0.5, 0.5); tag('Vinchuca: deja heces al picar', 170, 420, C.AMBER, 14); ctx.globalAlpha = 1;
+  arrow(260, 300, 400, 300, C.AMBER, seg(t, 2, 1));
+  draw('cara', 500, 300, 170, seg(t, 2.5, 0.6)); const r = seg(t, 3.5, 0.8); spot(530, 268, 30, '230,80,110', 0.7 * r);
+  ctx.globalAlpha = r; tag('Signo de Romaña: edema de un ojo', 500, 420, C.RED, 14); ctx.globalAlpha = 1;
+  const ag = seg(t, 5.5, 0.6); if (ag > 0) { ctx.globalAlpha = ag; rrect(640, 230, 600, 120, 16, '#161B22'); text('Fase aguda', 664, 266, 21, C.AMBER, 'bold'); text('Muchos parásitos en la sangre: microhematocrito, gota gruesa o PCR', 664, 300, 16, C.INK);
+    for (let i = 0; i < 9; i++) { const x = 664 + ((t * 40 + i * 64) % 560); ctx.strokeStyle = '#B388FF'; ctx.lineWidth = 3; ctx.beginPath(); for (let q = 0; q < 7; q++) ctx.lineTo(x + q * 3, 326 + Math.sin(q + t * 6 + i) * 3); ctx.stroke(); } ctx.globalAlpha = 1; }
+  arrow(500, 450, 500, 500, C.MUTED, seg(t, 9, 0.8));
+  draw('cor', 360, 600, 150, seg(t, 10, 0.6)); spot(370, 620, 60, '255,60,60', 0.45 * seg(t, 11, 1));
+  ctx.globalAlpha = seg(t, 10.5, 0.5); tag('Cardiopatía chagásica', 360, 700, C.RED, 14); tag('Megaesófago', 620, 600, C.RED, 14); ctx.globalAlpha = 1;
+  K.card(760, 380, 480, 200, C.VIOLET, 'Fase crónica', ['La mayoría: indeterminada, IgG positiva', 'Treinta por ciento: corazón o tubo digestivo', 'Dos IgG de técnicas distintas'], seg(t, 12, 0.5), 16);
+}
+
+function hidat(t) {
+  K.title('Hidatidosis: el ciclo perro y oveja', 'Echinococcus granulosus', C.AMBER);
+  draw('perro', 240, 280, 260, seg(t, 0, 0.6)); ctx.globalAlpha = seg(t, 0.5, 0.5); tag('Perro: gusano adulto en el intestino', 240, 400, C.AMBER, 14); ctx.globalAlpha = 1;
+  draw('oveja', 780, 280, 250, seg(t, 2, 0.6)); ctx.globalAlpha = seg(t, 2.5, 0.5); tag('Oveja: quistes en las vísceras', 780, 420, C.VIOLET, 14); ctx.globalAlpha = 1;
+  const a1 = seg(t, 1.5, 1); arrow(380, 250, 640, 250, C.AMBER, a1); ctx.globalAlpha = a1; text('Huevos en las heces', 510, 236, 16, C.AMBER, 'bold', 'center'); ctx.globalAlpha = 1;
+  const a2 = seg(t, 4, 1); arrow(640, 330, 380, 330, C.VIOLET, a2); ctx.globalAlpha = a2; text('Come vísceras crudas', 510, 360, 16, C.VIOLET, 'bold', 'center'); ctx.globalAlpha = 1;
+  const a3 = seg(t, 7, 1); arrow(240, 430, 300, 520, C.RED, a3); ctx.globalAlpha = a3; tag('Humano: accidental, por contacto con perros', 440, 470, C.RED, 14); ctx.globalAlpha = 1;
+  const h = seg(t, 9, 0.6); draw('hig', 380, 600, 230, h); for (const [x, y, r] of [[340, 590, 26], [405, 610, 18]]) { ctx.globalAlpha = h; ctx.fillStyle = 'rgba(240,240,220,0.9)'; ctx.beginPath(); ctx.arc(x, y, r * ease(seg(t, 10, 1.5)), 0, 7); ctx.fill(); ctx.strokeStyle = '#B0A890'; ctx.lineWidth = 2; ctx.stroke(); }
+  ctx.globalAlpha = 1;
+  K.card(760, 480, 480, 160, C.RED, 'Quiste: hígado y luego pulmón', ['Hígado 65 a 75 %, lóbulo derecho', 'Ecografía: signo del camalote'], seg(t, 12, 0.5), 16);
+}
+
+// bebé 431x800 a 470 px de alto
+function exant(t) {
+  const ph = clamp(Math.floor(t / 5.5), 0, 3), tt = t - ph * 5.5;
+  const D = [['Sarampión', 'Detrás de las orejas, baja lento; confluente', 'Koplik uno a dos días antes', C.RED], ['Rubéola', 'Baja rápido; no confluye', 'Ganglios retroauriculares · tres días', C.VIOLET], ['Escarlatina', 'Micropapular, áspero como lija', 'Lengua en fresa y luego frambuesa', C.AMBER], ['Eritema infeccioso', 'Mejillas: signo de la bofetada', 'Parvovirus B19', C.BLUE]][ph];
+  K.title('Exantemas: dónde parte y cómo avanza', D[0], D[3]);
+  const w = 253, cx = 300, cy = 420, top = cy - 235;
+  draw('bebe', cx, cy, w, 1);
+  rash('bebe', cx, cy, w, (o, x, y, ww, hh) => {
+    if (ph === 3) { [[cx - 30, top + 95], [cx + 30, top + 95]].forEach(([px, py]) => { const g = o.createRadialGradient(px, py, 0, px, py, 34); g.addColorStop(0, 'rgba(230,40,60,0.85)'); g.addColorStop(1, 'rgba(230,40,60,0)'); o.fillStyle = g; o.fillRect(px - 40, py - 40, 80, 80); }); return; }
+    const sp = [1.4, 3.2, 3][ph], front = top + 60 + 420 * clamp(tt / 4.5 * (sp / 3.2) * 1.4, 0, 1);
+    for (let i = 0; i < 520; i++) { const px = x + rnd(i) * ww, py = y + rnd(i + 999) * hh; if (py > front) continue;
+      o.fillStyle = ph === 2 ? 'rgba(230,60,60,0.55)' : 'rgba(210,30,50,0.75)'; const r = ph === 0 ? 7 : ph === 1 ? 4 : 2.5; o.beginPath(); o.arc(px, py, r, 0, 7); o.fill(); }
+  }, seg(tt, 0.4, 0.5));
+  ctx.globalAlpha = seg(tt, 0.3, 0.4); K.card(700, 160, 540, 150, D[3], D[0], [D[1], D[2]], 1, 17); ctx.globalAlpha = 1;
+  ['Sarampión', 'Rubéola', 'Escarlatina', 'Eritema infeccioso'].forEach((n, i) => { ctx.globalAlpha = i <= ph ? 1 : 0.35; tag(n, 770 + (i % 2) * 260, 400 + Math.floor(i / 2) * 50, i === ph ? D[3] : C.MUTED, 15); }); ctx.globalAlpha = 1;
+}
+
+function pep(t) {
+  K.title('Pinchazo: la profilaxis tiene reloj', 'Antes de setenta y dos horas, idealmente en dos a cuatro', C.RED);
+  const ax = G.axes({ x: 110, y: 230, w: 1060, h: 200 }, [0, 80], [0, 1], { xt: [[0, '0 h'], [4, '4'], [24, '24'], [48, '48'], [72, '72 h']] }); ax.draw(seg(t, 0, 0.5));
+  G.band(ax, 0, 1, 'rgba(60,210,120,0.18)', seg(t, 2, 0.5), 'Ideal', 0, 4);
+  G.band(ax, 0, 1, 'rgba(242,180,60,0.10)', seg(t, 3, 0.5), '', 4, 72);
+  G.band(ax, 0, 1, 'rgba(255,80,80,0.14)', seg(t, 8, 0.5), 'El virus llega a los ganglios', 48, 72);
+  G.vline(ax, 72, C.RED, 'Límite', seg(t, 6, 0.6));
+  const k = seg(t, 1, 9), x = ax.X(lerp(0, 72, k)); ctx.fillStyle = C.INK; ctx.beginPath(); ctx.arc(x, 330, 9, 0, 7); ctx.fill();
+  K.card(110, 480, 520, 150, C.GREEN, 'Triterapia por 28 días', ['Fuente VIH positiva o desconocida'], seg(t, 11, 0.5), 17);
+  K.card(650, 480, 520, 150, C.RED, 'Trampa', ['Esperar la serología de la fuente'], seg(t, 14, 0.5), 17);
+}
+
+function vih(t) {
+  K.title('VIH: quién confirma', 'Según la ley chilena', C.RED);
+  const S = [['Tamizaje', 'ELISA 4.ª gen. o test rápido', C.BLUE], ['Reactivo', 'Resultado preliminar', C.AMBER], ['Segunda muestra', 'Sangre venosa', C.AMBER], ['ISP confirma', 'Único facultado', C.GREEN], ['TAR inmediata', 'Test and treat · GES', C.GREEN]];
+  S.forEach(([a, b, col], i) => { const x = 40 + i * 248, s = 1 + i * 2.6; box(x, 260, 210, 110, col, a, b, seg(t, s, 0.6)); if (i) arrow(x - 36, 315, x - 4, 315, C.MUTED, seg(t, s - 0.4, 0.5)); });
+  const tr = seg(t, 14, 0.6); if (tr > 0) { ctx.globalAlpha = tr; ctx.strokeStyle = C.RED; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(290, 400); ctx.quadraticCurveTo(700, 520, 1110, 400); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(680, 440); ctx.lineTo(720, 480); ctx.moveTo(720, 440); ctx.lineTo(680, 480); ctx.stroke(); ctx.globalAlpha = 1; }
+  K.card(330, 530, 620, 120, C.RED, 'Nunca se informa con el test rápido', ['Sin la confirmación del ISP no hay diagnóstico'], seg(t, 15, 0.5), 17);
+}
+
+function tifo(t) {
+  K.title('Fiebre tifoidea: semana a semana', 'El cultivo depende de la semana', C.AMBER);
+  const ax = G.axes({ x: 110, y: 160, w: 640, h: 260 }, [0, 21], [37, 41], { xt: [[0, '0'], [7, '1.ª sem'], [14, '2.ª sem'], [21, '3.ª sem']], yt: [[37, '37'], [39, '39'], [40, '40']], yl: '°C' }); ax.draw(seg(t, 0, 0.5));
+  const f = x => x < 7 ? 37.3 + Math.floor(x) * 0.4 + 0.25 * Math.sin(x * Math.PI * 2) : 39.5 + 0.25 * Math.sin(x * 3);
+  G.head(G.curve(ax, f, seg(t, 1, 9), C.RED, 3), C.RED);
+  ctx.globalAlpha = seg(t, 3, 0.5); tag('En escalera', ax.X(4), ax.Y(40.4), C.AMBER, 14); ctx.globalAlpha = seg(t, 6.5, 0.5); tag('Meseta · bradicardia relativa', ax.X(13), ax.Y(40.6), C.RED, 14);
+  ctx.globalAlpha = seg(t, 9, 0.5); tag('Perforación o sangrado', ax.X(18.5), ax.Y(38.4), C.VIOLET, 14); ctx.globalAlpha = 1;
+  const R = [['Hemocultivo', 'Primera semana: 80 a 90 %', [0, 7], C.RED], ['Coprocultivo', 'Desde la segunda o tercera', [11, 21], C.AMBER], ['Mielocultivo', 'El más sensible: sobre 95 %', [0, 21], C.GREEN]];
+  R.forEach(([n, d, [a, b], col], i) => { const s = seg(t, 11 + i * 2.5, 0.8), y = 500 + i * 62; ctx.globalAlpha = seg(t, 11 + i * 2.5, 0.4); 
+    rrect(ax.X(a), y, (ax.X(b) - ax.X(a)) * ease(s), 18, 9, col); text(n, 790, y + 15, 18, col, 'bold'); text(d, 940, y + 15, 16, C.INK); ctx.globalAlpha = 1; });
+}
+
+// silueta 228x800 a 520 px de alto: cabeza (230,209), cuello (230,262), bazo (250,384)
+function mono(t) {
+  K.title('Mononucleosis: el bazo y la amoxicilina', 'Virus de Epstein-Barr', C.VIOLET);
+  draw('sil', 230, 430, 148, seg(t, 0, 0.6), 'brightness(0.95)');
+  const g = seg(t, 1.5, 1); [[214, 262], [246, 262]].forEach(([x, y]) => spot(x, y, 18, '255,120,60', 0.85 * g)); ctx.globalAlpha = g; tag('Ganglios cervicales posteriores', 420, 262, C.AMBER, 14); ctx.globalAlpha = 1;
+  K.card(620, 150, 620, 120, C.VIOLET, 'Faringitis con bazo grande', ['No es estreptococo: es mononucleosis'], seg(t, 5, 0.5), 17);
+  const p = seg(t, 8, 0.5); K.pill(380, 560, '#E8E8E8', '#F2CF5B', p); ctx.globalAlpha = p; text('Amoxicilina', 420, 567, 17, C.INK, 'bold'); ctx.globalAlpha = 1;
+  const r = seg(t, 10, 1.5); if (r > 0) { rash('sil', 230, 430, 148, (o, x, y, w, h) => { for (let i = 0; i < 380; i++) { const px = x + rnd(i) * w, py = y + 60 + rnd(i + 77) * (h - 60) * 0.7; o.fillStyle = 'rgba(210,30,50,0.8)'; o.beginPath(); o.arc(px, py, 3.5, 0, 7); o.fill(); } }, r);
+    ctx.globalAlpha = r; tag('Cinco a siete días después: exantema', 420, 470, C.RED, 14); ctx.globalAlpha = 1; }
+  const b = ease(seg(t, 3.5, 2)); if (b > 0) { draw('bazo', 252, 386, 22 + 18 * b, seg(t, 3.5, 0.4)); ctx.globalAlpha = b; tag('Esplenomegalia', 420, 386, C.VIOLET, 14); ctx.globalAlpha = 1; }
+  K.card(620, 290, 620, 120, C.RED, 'Suspender la amoxicilina', ['No rotular como alérgico a la penicilina'], seg(t, 12, 0.5), 17);
+  K.banner(620, 430, 620, 'Reposo tres a cuatro semanas, sin deportes de contacto', C.GREEN, seg(t, 16, 0.5));
+}
+
+function nf(t) {
+  K.title('Neutropenia febril: la regla de los 60 minutos', 'Neutrófilos bajo 500 y fiebre', C.RED);
+  const k = seg(t, 1, 8), cx = 250, cy = 360, R = 130;
+  ctx.globalAlpha = seg(t, 0, 0.5); ctx.strokeStyle = '#2A313C'; ctx.lineWidth = 18; ctx.beginPath(); ctx.arc(cx, cy, R, 0, 7); ctx.stroke();
+  ctx.strokeStyle = k < 0.95 ? C.GREEN : C.RED; ctx.beginPath(); ctx.arc(cx, cy, R, -Math.PI / 2, -Math.PI / 2 + 2 * Math.PI * k); ctx.stroke();
+  text(`${Math.round(60 * k)} min`, cx, cy + 14, 42, C.INK, 'bold', 'center'); ctx.globalAlpha = 1;
+  [[0.1, 'Dos hemocultivos'], [0.5, 'Antibiótico EV']].forEach(([u, n], i) => { const a = seg(t, 1 + u * 8, 0.4), an = -Math.PI / 2 + 2 * Math.PI * u; ctx.globalAlpha = a; tag(n, cx + Math.cos(an) * (R + 70), cy + Math.sin(an) * (R + 40), i ? C.GREEN : C.BLUE, 14); ctx.globalAlpha = 1; });
+  const m = seg(t, 10, 0.6); if (m > 0) { ctx.globalAlpha = m; rrect(520, 150, 720, 150, 16, '#161B22'); text('Score MASCC', 544, 186, 21, C.INK, 'bold');
+    const s = lerp(10, 26, 0.5 + 0.5 * Math.sin((t - 10) * 0.7)); rrect(544, 210, 670, 18, 9, '#222833'); rrect(544, 210, 670 * s / 30, 18, 9, s < 21 ? C.RED : C.GREEN);
+    ctx.fillStyle = '#ddd'; ctx.fillRect(544 + 670 * 21 / 30 - 1, 202, 2, 34); text('21', 544 + 670 * 21 / 30, 258, 15, C.MUTED, '', 'center'); ctx.globalAlpha = 1; }
+  K.card(520, 320, 350, 190, C.RED, 'Bajo 21: alto riesgo', ['Hospitalizar en aislamiento', 'Cefepime EV'], seg(t, 11, 0.5), 17);
+  K.card(890, 320, 350, 190, C.GREEN, '21 o más: bajo riesgo', ['Opción oral ambulatoria', 'Solo estables y seleccionados'], seg(t, 13, 0.5), 17);
+  K.banner(520, 540, 720, 'Trampa: ceftriaxona no cubre Pseudomonas', C.AMBER, seg(t, 16, 0.5));
+}
+
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  ({ rabia, tetanos, sepsis, lcr, herpes, aisla, tbc, hanta, chagas, hidat, exant, pep, vih, tifo, mono, nf })[V](t);
+  if (['aisla', 'hanta', 'pep', 'vih', 'tifo', 'nf'].includes(V)) text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); else K.credit(); };
+LOAD({ neu: '../assets/servier/neurona.png', cara: '../assets/servier/cara.png', cuerpo: '../assets/servier/cuerpo.png', lcr: '../assets/servier/lcr_sagital.png',
+  cer: '../assets/servier/cerebro.png', vin: '../assets/servier/vinchuca.png', cor: '../assets/servier/corazon.png', perro: '../assets/servier/perro.png',
+  oveja: '../assets/servier/oveja.png', hig: '../assets/servier/higado.png', bebe: '../assets/servier/bebe.png', sil: '../assets/servier/silueta_nino.png', bazo: '../assets/servier/bazo.png' });
+</script>
+</body></html>

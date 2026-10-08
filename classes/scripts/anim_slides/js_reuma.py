@@ -1,0 +1,24 @@
+# Animaciones JS (classes/scripts/jsvideo) · Reumatología. Aplicar con insert_anim.py.
+OWN = 'Animación propia'
+SV = 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios'
+def one(title, src, label, credit, note, say): return {'title': title, 'images': [{'src': src, 'label': label, 'credit': credit}], 'steps': [{'note': note, 'say': say}]}
+S = {
+    'reuma-06': one('El pannus', 'animaciones/reuma-06/A1_pannus.mp4', 'Artritis reumatoide', SV, 'Erosión en sacabocado',
+        'Los linfocitos T y los macrófagos activados llegan a la membrana sinovial y liberan factor de necrosis tumoral e interleuquina seis. La sinovial se engruesa y forma el pannus, que expresa el ligando de RANK y activa los osteoclastos: así aparecen las erosiones marginales en sacabocado y la osteopenia yuxtaarticular.'),
+    'reuma-14': one('Blanco, azul y rojo', 'animaciones/reuma-14/A1_tres_colores.mp4', 'Fenómeno de Raynaud', SV, 'Primario o secundario',
+        'Con el frío, el vasoespasmo deja los dedos blancos. La sangre atrapada se desoxigena y se ponen azules. Al recalentarse, la hiperemia de reperfusión los tiñe de rojo. El primario es de mujeres jóvenes, simétrico y sin úlceras; el secundario aparece después de los treinta, asimétrico, con úlceras y capilares dilatados o perdidos. La causa autoinmune más frecuente es la esclerosis sistémica.'),
+    'reuma-01': one('Cuatro líquidos', 'animaciones/reuma-01/A1_cuatro_liquidos.mp4', 'Artrocentesis', OWN, 'Antes del primer antibiótico',
+        'El líquido normal tiene menos de doscientos leucocitos. El tipo uno, no inflamatorio, de doscientos a dos mil, es el de la artrosis. El tipo dos, inflamatorio, de dos mil a cincuenta mil, es el de la gota, la condrocalcinosis y la artritis reumatoide. El tipo tres, séptico, tiene más de cincuenta mil, con más de noventa por ciento de neutrófilos. Y el tipo cuatro es hemorrágico.'),
+    'reuma-02': one('Llega por la sangre', 'animaciones/reuma-02/A1_via_hematogena.mp4', 'Artritis séptica', SV, 'Artrocentesis antes del antibiótico',
+        'Una bacteriemia transitoria siembra la articulación, porque la sinovial es muy vascularizada y no tiene lámina basal. La articulación se transforma en un absceso cerrado a presión que destruye el cartílago en horas. El estafilococo áureo explica más de la mitad de los casos; en el joven con vida sexual activa, el gonococo, con Gram negativo en más del setenta y cinco por ciento.'),
+    'reuma-08': one('Los inmunocomplejos se depositan', 'animaciones/reuma-08/A1_inmunocomplejos.mp4', 'Lupus', SV, 'Anti ADN sube, complemento baja',
+        'En el lupus, los inmunocomplejos se depositan en las membranas basales del riñón, la piel y las serosas, y activan la vía clásica del complemento. Por eso, en el brote, los anti ADN de doble hebra suben y el C tres y el C cuatro caen.'),
+    'reuma-16': one('La diana es la entesis', 'animaciones/reuma-16/A1_entesis.mp4', 'Espondiloartritis', SV, 'Talón: Aquiles y fascia plantar',
+        'En la artritis reumatoide la diana es la membrana sinovial; en las espondiloartritis es la entesis, donde el tendón se inserta en el hueso. La entesitis periférica más frecuente está en la inserción del tendón de Aquiles o en la fascia plantar, con talalgia al levantarse. Y en el esqueleto axial da sacroilitis y espondilitis.'),
+    'reuma-21': one('La arteria temporal y el ojo', 'animaciones/reuma-21/A1_arteria_temporal.mp4', 'Arteritis de la temporal', SV, 'No esperar la biopsia',
+        'En un mayor de cincuenta años con cefalea nueva, la arteria temporal se palpa engrosada y sin pulso, y la claudicación mandibular es el signo más específico. El riesgo es la neuropatía óptica isquémica, con papila pálida y edematosa. Los corticoides se inician de inmediato, sin esperar la biopsia, y con síntomas visuales se dan pulsos de metilprednisolona.'),
+    'reuma-11': one('La paradoja', 'animaciones/reuma-11/A1_paradoja_al.mp4', 'Anticoagulante lúpico', SV, 'Alarga el TTPK y produce trombosis',
+        'En el tubo de ensayo, el anticoagulante lúpico alarga el tiempo de tromboplastina parcial activada, y parece un anticoagulante. Pero en el paciente es procoagulante: produce trombosis venosas y arteriales, aun con plaquetas bajas. Por eso la anticoagulación se mantiene de forma indefinida.'),
+    'reuma-12': one('Limitada o difusa', 'animaciones/reuma-12/A1_limitada_difusa.mp4', 'Esclerosis sistémica', SV, 'Anticentrómero o anti Scl setenta',
+        'En la forma limitada, el engrosamiento de la piel se detiene en los codos y las rodillas, con CREST y anticuerpos anticentrómero. En la difusa avanza rápido al tronco, y el colágeno se deposita también en el pulmón y el riñón: el anti Scl setenta predice fibrosis pulmonar intersticial, y el anti ARN polimerasa tres, crisis renal.'),
+}

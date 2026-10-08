@@ -1,0 +1,152 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Reumatología sobre ilustraciones reales (Servier Medical Art, CC BY 4.0) y gráficos propios.
+// ?v=pannus (reuma-06) raynaud (14) liquidos (01) septica (02) lupus (08) entesis (16) temporal (21) al (11) esclero (12)
+const V = new URLSearchParams(location.search).get('v') || 'pannus';
+window.SCENE = { duration: 21, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+function draw(k, x, y, w, a = 1, filter) { const im = I(k), h = w * im.height / im.width; if (a <= 0) return h; ctx.save(); ctx.globalAlpha = a; if (filter) ctx.filter = filter; ctx.drawImage(im, x - w / 2, y - h / 2, w, h); ctx.restore(); return h; }
+const spot = (x, y, r, rgb, a) => K.glow(x, y, r, rgb, a);
+function dots(P, n, t, col, sp = 0.3, sz = 6, a0 = 1) { if (a0 <= 0) return; for (let i = 0; i < n; i++) { const u = ((t * sp) + i / n) % 1, [x, y] = P.at(u);
+  ctx.globalAlpha = a0 * Math.min(1, u * 8, (1 - u) * 8); ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x, y, sz, 0, 7); ctx.fill(); } ctx.globalAlpha = 1; }
+const OFF = document.createElement('canvas'); OFF.width = 1280; OFF.height = 720; const ox = OFF.getContext('2d');
+function tint(k, x, y, w, fn, a = 1) { const im = I(k), h = w * im.height / im.width; ox.clearRect(0, 0, 1280, 720); ox.globalCompositeOperation = 'source-over'; ox.drawImage(im, x - w / 2, y - h / 2, w, h);
+  ox.globalCompositeOperation = 'source-atop'; fn(ox, x - w / 2, y - h / 2, w, h); ox.globalCompositeOperation = 'source-over'; ctx.globalAlpha = a; ctx.drawImage(OFF, 0, 0); ctx.globalAlpha = 1; }
+
+// articulación con artritis 279x482 a 272 px: interlínea en y≈430, sinovial a los lados (x≈205 y ≈395)
+function pannus(t) {
+  K.title('Artritis reumatoide: el pannus', 'La sinovial inflamada que erosiona el hueso', C.RED);
+  draw('art', 300, 430, 272, seg(t, 0, 0.6));
+  const p = ease(seg(t, 2, 4)), pul = 0.85 + 0.15 * Math.sin(t * 3);
+  [[205, 430], [395, 430]].forEach(([x, y]) => spot(x, y, 40 + 30 * p, '220,30,60', 0.65 * p * pul));
+  ctx.globalAlpha = seg(t, 2.5, 0.5); tag('Sinovial: hiperplasia y neoangiogénesis', 300, 175, C.RED, 14); ctx.globalAlpha = 1;
+  const e = ease(seg(t, 7, 4)); [[234, 402], [366, 458], [236, 458], [364, 402]].forEach(([x, y]) => { ctx.globalAlpha = e; ctx.fillStyle = '#2A1418'; ctx.beginPath(); ctx.ellipse(x, y, 10 * e, 7 * e, 0, 0, 7); ctx.fill(); });
+  ctx.globalAlpha = e; tag('Erosiones marginales en sacabocado', 300, 690, C.AMBER, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 150, C.RED, 'TNF e interleuquina seis', ['Linfocitos T y macrófagos', 'en la membrana sinovial'], seg(t, 3, 0.5), 17);
+  K.card(700, 320, 540, 150, C.AMBER, 'Ligando de RANK', ['Activa osteoclastos: erosión', 'y osteopenia yuxtaarticular'], seg(t, 8, 0.5), 17);
+  const h = seg(t, 13, 0.6); if (h > 0) { draw('manoar', 1060, 590, 140, h); ctx.globalAlpha = h; text('Poliartritis simétrica de manos', 700, 560, 18, C.INK, 'bold'); text('Anti-CCP alto: más erosiva', 700, 592, 16, C.MUTED); ctx.globalAlpha = 1; }
+}
+
+// mano 269x467 a 270 px: dedos sobre y≈386
+function raynaud(t) {
+  const ph = t < 3 ? 0 : t < 8 ? 1 : t < 13 ? 2 : 3;
+  const col = [null, 'rgba(255,255,255,0.85)', 'rgba(70,90,200,0.6)', 'rgba(230,40,50,0.5)'][ph], nm = ['Frío o estrés', 'Blanco: vasoespasmo', 'Azul: la sangre se desoxigena', 'Rojo: hiperemia de reperfusión'][ph];
+  K.title('Fenómeno de Raynaud', nm, [C.INK, C.INK, C.BLUE, C.RED][ph]);
+  draw('mano', 300, 430, 270, 1);
+  if (ph) tint('mano', 300, 430, 270, (o, x, y, w, h) => { const g = o.createLinearGradient(0, 300, 0, 400); g.addColorStop(0, col); g.addColorStop(1, 'rgba(0,0,0,0)'); o.fillStyle = g; o.fillRect(x, y, w, 400 - y); }, seg(t, [0, 3, 8, 13][ph], 0.8));
+  ['Blanco', 'Azul', 'Rojo'].forEach((n, i) => { ctx.globalAlpha = ph > i ? 1 : 0.3; tag(n, 520, 260 + i * 60, [C.MUTED, C.BLUE, C.RED][i], 15); }); ctx.globalAlpha = 1;
+  K.card(640, 150, 600, 160, C.GREEN, 'Primario', ['Mujer joven, simétrico', 'Sin úlceras · capilares normales'], seg(t, 15, 0.5), 17);
+  K.card(640, 330, 600, 160, C.RED, 'Secundario', ['Mayor de treinta, asimétrico, con úlceras', 'Capilares dilatados o perdidos'], seg(t, 16.5, 0.5), 17);
+  K.banner(640, 510, 600, 'Causa autoinmune más frecuente: esclerosis sistémica', C.AMBER, seg(t, 18, 0.5));
+}
+
+function liquidos(t) {
+  K.title('Artrocentesis: cuatro líquidos', 'Antes del primer antibiótico', C.BLUE);
+  const T = [['Normal', 'Menos de 200', 'Transparente', 'rgba(250,245,210,0.35)', C.MUTED], ['Tipo uno', '200 a 2.000', 'Artrosis · mecánico', 'rgba(250,230,120,0.6)', C.GREEN], ['Tipo dos', '2.000 a 50.000', 'Gota, pseudogota, AR', 'rgba(240,200,90,0.85)', C.AMBER], ['Tipo tres', 'Más de 50.000', 'Séptico: más de 90 % neutrófilos', 'rgba(220,200,150,1)', C.RED], ['Tipo cuatro', 'Hemorrágico', 'Fractura, ligamento, hemofilia', 'rgba(180,20,40,0.95)', C.VIOLET]];
+  T.forEach(([n, c, d, fill, col], i) => { const a = seg(t, 1 + i * 2.8, 0.6); if (a <= 0) return; const x = 70 + i * 236, y = 190; ctx.globalAlpha = a;
+    ctx.strokeStyle = '#8A93A0'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(x + 60, y); ctx.lineTo(x + 60, y + 240); ctx.arc(x + 100, y + 240, 40, Math.PI, 0, true); ctx.lineTo(x + 140, y); ctx.stroke();
+    const lv = ease(seg(t, 1.3 + i * 2.8, 1.2)); ctx.save(); ctx.beginPath(); ctx.moveTo(x + 62, y); ctx.lineTo(x + 62, y + 240); ctx.arc(x + 100, y + 240, 38, Math.PI, 0, true); ctx.lineTo(x + 138, y); ctx.clip();
+    ctx.fillStyle = fill; ctx.fillRect(x + 60, y + 280 - 230 * lv, 80, 240); if (i === 3) for (let q = 0; q < 30; q++) { ctx.fillStyle = 'rgba(255,255,255,0.6)'; ctx.beginPath(); ctx.arc(x + 66 + rnd(q) * 68, y + 70 + rnd(q + 9) * 200, 3, 0, 7); ctx.fill(); } ctx.restore();
+    text(n, x + 100, y + 330, 20, col, 'bold', 'center'); text(c, x + 100, y + 360, 16, C.INK, '', 'center'); text('leucocitos', x + 100, y + 382, 13, C.MUTED, '', 'center'); text(d, x + 100, y + 412, 14, C.MUTED, '', 'center'); ctx.globalAlpha = 1; });
+  K.banner(240, 640, 800, 'Toda monoartritis aguda es séptica hasta que se demuestre lo contrario', C.RED, seg(t, 16, 0.5));
+}
+
+// codo 438x465 a 440 px: cavidad articular ≈ (180, 450); entesis (tendón verde) ≈ (300, 448)
+function septica(t) {
+  K.title('Artritis séptica: llega por la sangre', 'La sinovial no tiene lámina basal', C.RED);
+  draw('codo', 300, 430, 440, seg(t, 0, 0.6));
+  const P = poly([[60, 690], [90, 600], [130, 520], [170, 460]]);
+  dots(P, 7, t, '#FFB020', 0.3, 6, seg(t, 1.5, 0.5));
+  ctx.globalAlpha = seg(t, 1.5, 0.5); tag('Bacteriemia transitoria', 150, 690, C.AMBER, 14); ctx.globalAlpha = 1;
+  const k = ease(seg(t, 5, 4)); spot(200, 440, 40 + 40 * k, '120,200,60', 0.8 * k); spot(200, 440, 30 + 20 * k, '230,60,40', 0.5 * k);
+  ctx.globalAlpha = k; tag('Absceso cerrado a presión: destruye el cartílago en horas', 330, 180, C.RED, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 150, C.RED, 'Estafilococo áureo', ['Más de la mitad de los casos', 'Cocos grampositivos en racimo'], seg(t, 8, 0.5), 17);
+  K.card(700, 320, 540, 150, C.AMBER, 'Joven con vida sexual activa', ['Gonococo: Gram negativo en más de 75 %'], seg(t, 11, 0.5), 17);
+  K.banner(700, 500, 540, 'Artrocentesis antes del antibiótico', C.BLUE, seg(t, 14, 0.5));
+}
+
+function lupus(t) {
+  K.title('Lupus: los inmunocomplejos se depositan', 'Y consumen complemento', C.VIOLET);
+  const O = [['nef', 190, 'Riñón: nefritis'], ['epi', 420, 'Piel'], ['pul', 650, 'Serosas: pleura, pericardio']];
+  O.forEach(([k, x, n], i) => { const a = seg(t, 0.5 + i * 0.6, 0.6); draw(k, x, 400, 190, a); ctx.globalAlpha = a; tag(n, x, 540, C.VIOLET, 14); ctx.globalAlpha = 1;
+    const d = ease(seg(t, 3 + i * 1.5, 3)); for (let q = 0; q < 10; q++) { const px = x - 70 + rnd(q + i * 20) * 140, py = lerp(170, 330 + rnd(q + 50) * 120, clamp(d * 1.2 - rnd(q) * 0.2, 0, 1));
+      ctx.globalAlpha = d > 0 ? 1 : 0; ctx.strokeStyle = '#B388FF'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(px, py + 8); ctx.lineTo(px, py); ctx.lineTo(px - 6, py - 7); ctx.moveTo(px, py); ctx.lineTo(px + 6, py - 7); ctx.stroke();
+      ctx.fillStyle = '#F2CF5B'; ctx.beginPath(); ctx.arc(px, py - 10, 4, 0, 7); ctx.fill(); }
+    spot(x, 400, 80, '200,60,200', 0.35 * seg(t, 6 + i * 1.5, 1)); ctx.globalAlpha = 1; });
+  ctx.globalAlpha = seg(t, 2.5, 0.5); text('Anticuerpo + antígeno nuclear', 420, 168, 16, C.MUTED, '', 'center'); ctx.globalAlpha = 1;
+  const k = ease(seg(t, 10, 5)); ctx.globalAlpha = seg(t, 9.5, 0.5); rrect(800, 160, 440, 260, 16, '#161B22'); text('En el brote', 824, 196, 21, C.INK, 'bold');
+  K.bar(824, 240, 390, 'Anti-ADN doble hebra', lerp(20, 85, k), 100, '', C.RED, null, () => '↑');
+  K.bar(824, 310, 390, 'C3', lerp(85, 30, k), 100, '', C.BLUE, null, () => '↓');
+  K.bar(824, 380, 390, 'C4', lerp(80, 25, k), 100, '', C.BLUE, null, () => '↓'); ctx.globalAlpha = 1;
+  K.banner(800, 450, 440, 'Anti-ADN sube y complemento baja', C.VIOLET, seg(t, 15, 0.5));
+}
+
+function entesis(t) {
+  K.title('Espondiloartritis: la diana es la entesis', 'Donde el tendón se inserta en el hueso', C.AMBER);
+  draw('codo', 300, 430, 440, seg(t, 0, 0.6));
+  ctx.globalAlpha = seg(t, 1, 0.5); tag('Membrana sinovial: diana de la AR', 150, 640, C.MUTED, 14); ctx.globalAlpha = 1;
+  const k = ease(seg(t, 3, 3)); spot(285, 470, 30 + 25 * k, '255,140,40', 0.8 * k * (0.85 + 0.15 * Math.sin(t * 3)));
+  ctx.globalAlpha = k; tag('Entesis inflamada', 380, 360, C.AMBER, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 160, C.AMBER, 'Talón: Aquiles y fascia plantar', ['La entesitis periférica más frecuente', 'Talalgia al levantarse'], seg(t, 7, 0.5), 17);
+  K.card(700, 330, 540, 160, C.RED, 'Esqueleto axial', ['Sacroilitis y espondilitis', 'Seronegativas'], seg(t, 11, 0.5), 17);
+}
+
+// arterias de la cabeza 349x502 a 330 px: temporal ≈ (264, 292), ojo ≈ (382, 361)
+function temporal(t) {
+  K.title('Arteritis de la temporal', 'Mayor de cincuenta con cefalea nueva', C.RED);
+  draw('cab', 300, 430, 330, seg(t, 0, 0.6));
+  const a = ease(seg(t, 2, 3)); spot(264, 292, 40 + 20 * a, '255,60,60', 0.75 * a * (0.85 + 0.15 * Math.sin(t * 3)));
+  ctx.globalAlpha = a; tag('Arteria temporal engrosada, sin pulso', 230, 200, C.RED, 14); ctx.globalAlpha = 1;
+  const o = seg(t, 7, 1); spot(382, 361, 30, '255,200,60', 0.8 * o); ctx.globalAlpha = o; tag('Ojo: neuropatía óptica isquémica', 420, 420, C.AMBER, 14); ctx.globalAlpha = 1;
+  const f = seg(t, 9, 0.6); if (f > 0) { draw('ojo', 1150, 590, 160, f); spot(1170, 582, 24, '255,250,220', 0.9 * f); ctx.globalAlpha = f; tag('Papila pálida y edematosa', 1150, 690, C.AMBER, 14); ctx.globalAlpha = 1; }
+  K.card(620, 150, 620, 150, C.RED, 'Claudicación mandibular', ['El signo más específico', 'Amaurosis fugax: alarma'], seg(t, 5, 0.5), 17);
+  K.banner(620, 330, 620, 'Corticoides de inmediato: no esperar la biopsia', C.GREEN, seg(t, 12, 0.5));
+  K.card(620, 400, 420, 120, C.BLUE, 'Con síntomas visuales', ['Metilprednisolona en pulsos'], seg(t, 15, 0.5), 17);
+}
+
+function al(t) {
+  K.title('Anticoagulante lúpico: la paradoja', 'Alarga el TTPK pero produce trombosis', C.RED);
+  // tubo de ensayo con reloj
+  const a = seg(t, 0.5, 0.6); ctx.globalAlpha = a; ctx.strokeStyle = '#8A93A0'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(150, 200); ctx.lineTo(150, 480); ctx.arc(200, 480, 50, Math.PI, 0, true); ctx.lineTo(250, 200); ctx.stroke();
+  ctx.fillStyle = 'rgba(240,210,120,0.8)'; ctx.fillRect(152, 330, 96, 150); ctx.beginPath(); ctx.arc(200, 480, 48, 0, Math.PI); ctx.fill();
+  text('En el tubo', 200, 590, 20, C.INK, 'bold', 'center'); ctx.globalAlpha = 1;
+  const k = seg(t, 2, 7); ctx.globalAlpha = a; rrect(300, 260, 300, 140, 16, '#161B22'); text('TTPK', 324, 296, 20, C.INK, 'bold');
+  text(`${Math.round(lerp(0, 75, k))} s`, 576, 296, 20, k > 0.5 ? C.RED : C.INK, 'bold', 'right'); rrect(324, 320, 252, 16, 8, '#222833'); rrect(324, 320, 252 * k, 16, 8, C.AMBER);
+  ctx.fillStyle = '#ddd'; ctx.fillRect(324 + 252 * 0.47 - 1, 312, 2, 32); text('normal', 324 + 252 * 0.47, 370, 13, C.MUTED, '', 'center'); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 6, 0.5); tag('Parece un anticoagulante', 450, 230, C.AMBER, 14); ctx.globalAlpha = 1;
+  const b = seg(t, 9, 0.6); draw('trombo', 900, 420, 260, b); spot(962, 372, 45, '200,20,40', 0.6 * seg(t, 10, 1)); ctx.globalAlpha = b; text('En el paciente', 900, 680, 20, C.INK, 'bold', 'center');
+  tag('Trombosis venosa y arterial', 900, 180, C.RED, 14); ctx.globalAlpha = 1;
+  K.card(300, 450, 420, 150, C.RED, 'Es procoagulante', ['Plaquetas bajas, pero trombosis', 'Anticoagular de forma indefinida'], seg(t, 13, 0.5), 17);
+}
+
+// silueta 228x800 a 520 px de alto (left 156, top 170)
+function esclero(t) {
+  const dif = t >= 10;
+  K.title(dif ? 'Esclerosis sistémica difusa' : 'Esclerosis sistémica limitada', dif ? 'Avanza rápido al tronco · anti-Scl-70' : 'Se detiene en codos y rodillas · anticentrómero', dif ? C.RED : C.AMBER);
+  draw('sil', 230, 430, 148, 1, 'brightness(0.9)');
+  const k = ease(seg(t, dif ? 10.5 : 1, 3));
+  tint('sil', 230, 430, 148, (o, x, y, w, h) => { o.fillStyle = 'rgba(150,110,90,0.75)';
+    if (dif) { o.fillRect(x, y + 60, w, (h - 60) * k); }
+    else { [[x, 378, 28, 115], [x + w - 28, 378, 28, 115], [x, 545, w, 150 * k + 0.01], [x, y, w, 62]].forEach(([a, b, c, d]) => o.fillRect(a, b + (d * (1 - k)), c, d * k)); } }, 1);
+  ctx.globalAlpha = seg(t, 2, 0.5); tag('Esclerodactilia', 400, 470, C.AMBER, 14); ctx.globalAlpha = 1;
+  if (!dif) K.card(620, 150, 620, 200, C.AMBER, 'CREST', ['Calcinosis, Raynaud, esófago', 'Esclerodactilia, telangiectasias', 'Riesgo tardío: hipertensión pulmonar'], seg(t, 4, 0.5), 17);
+  if (dif) { const p = seg(t, 13, 0.6); draw('pul', 900, 470, 260, p); spot(860, 540, 60, '150,110,90', 0.6 * ease(seg(t, 14, 3))); spot(950, 540, 60, '150,110,90', 0.6 * ease(seg(t, 14, 3)));
+    ctx.globalAlpha = p; tag('Fibrosis pulmonar intersticial', 900, 650, C.RED, 14); ctx.globalAlpha = 1;
+    K.card(620, 150, 620, 120, C.RED, 'Colágeno en piel, pulmón, riñón', ['Anti-ARN polimerasa tres: crisis renal'], seg(t, 11, 0.5), 17); }
+}
+
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  ({ pannus, raynaud, liquidos, septica, lupus, entesis, temporal, al, esclero })[V](t);
+  if (V === 'liquidos') text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); else K.credit(); };
+LOAD({ art: '../assets/servier/articulacion_ar.png', manoar: '../assets/servier/mano_ar.png', mano: '../assets/servier/mano.png', codo: '../assets/servier/codo.png',
+  nef: '../assets/servier/nefrona.png', epi: '../assets/servier/epidermis.png', pul: '../assets/servier/pulmones.png', cab: '../assets/servier/arterias_cabeza.png',
+  ojo: '../assets/servier/fondo_ojo.png', trombo: '../assets/servier/vasos_trombo.png', sil: '../assets/servier/silueta_nino.png' });
+</script>
+</body></html>

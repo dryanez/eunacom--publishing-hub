@@ -1,0 +1,42 @@
+# Animaciones JS (classes/scripts/jsvideo) · Infectología. Aplicar con insert_anim.py.
+OWN = 'Animación propia'
+SV = 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios'
+def one(title, src, label, credit, note, say): return {'title': title, 'images': [{'src': src, 'label': label, 'credit': credit}], 'steps': [{'note': note, 'say': say}]}
+S = {
+    'infecto-06': {'title': 'Dos neurotoxinas', 'images': [
+        {'src': 'animaciones/infecto-06/A1_rabia.mp4', 'label': 'Rabia', 'credit': SV},
+        {'src': 'animaciones/infecto-06/A2_tetanos.mp4', 'label': 'Tétanos', 'credit': SV}],
+        'steps': [
+        {'note': 'El virus sube por el nervio',
+         'say': 'El virus rábico viaja desde la mordedura por los nervios, por transporte axonal retrógrado, hasta la médula y el encéfalo. Ese viaje toma semanas, y es la ventana para que la vacuna y la inmunoglobulina lleguen antes. Si el perro o el gato es ubicable, se observa diez días; y todo contacto con murciélago es una exposición grave.'},
+        {'note': 'Quita el freno',
+         'say': 'La toxina tetánica también sube por el nervio, degrada la sinaptobrevina y bloquea la liberación de GABA y glicina, que son los frenos del músculo. Sin freno, aparecen el trismus, la risa sardónica y el opistótonos.'}]},
+    'infecto-01': one('Del foco al shock', 'animaciones/infecto-01/A1_sepsis_shock.mp4', 'Sepsis y shock séptico', SV, 'Dos criterios a la vez',
+        'Una infección se vuelve sepsis cuando la respuesta desregulada del huésped produce disfunción orgánica: el SOFA sube dos o más puntos. El shock séptico solo se diagnostica después de treinta mililitros por kilo de cristaloides: si necesita vasopresores para mantener una presión arterial media de sesenta y cinco o más, y el lactato sigue sobre dos, es shock séptico.'),
+    'infecto-02': one('El LCR separa bacteria de virus', 'animaciones/infecto-02/A1_lcr_bacteria_virus.mp4', 'Meningitis', SV, 'La glucosa desempata',
+        'El neumococo y el meningococo inflaman las meninges. En el líquido, la bacteriana tiene polimorfonucleares, glucosa bajo cero coma cuatro de la sanguínea, y proteínas sobre cien. La viral tiene mononucleares y glucosa normal. Y mononucleares con glucosa muy baja, bajo cero coma tres, hacen pensar en tuberculosis.'),
+    'infecto-03': one('Sube por el nervio al lóbulo temporal', 'animaciones/infecto-03/A1_herpes_temporal.mp4', 'Encefalitis herpética', SV, 'Aciclovir sin esperar',
+        'El herpes no viaja por la sangre: sube por el nervio olfatorio o el trigémino hasta los lóbulos temporales y el sistema límbico, donde produce una necrosis hemorrágica. Por eso fallan la conducta, la memoria y el lenguaje, y el líquido viral trae glóbulos rojos. Se inicia aciclovir endovenoso de inmediato; la resonancia y la PCR confirman, pero no deciden el inicio.'),
+    'infecto-07': one('Cómo viaja el germen', 'animaciones/infecto-07/A1_aislamiento.mp4', 'Aislamiento', OWN, 'Aéreo: solo tres',
+        'El contacto va por las manos y las superficies: bata y guantes al entrar. Las gotitas de más de cinco micrones pesan y caen a menos de un metro: mascarilla quirúrgica, como en el meningococo y la influenza. Los núcleos de gotitas, de menos de cinco micrones, flotan en el aire: N noventa y cinco y presión negativa, solo para tuberculosis bacilífera, sarampión y varicela.'),
+    'infecto-11': one('Del pulmón a todo el cuerpo', 'animaciones/infecto-11/A1_diseminacion_tbc.mp4', 'Tuberculosis extrapulmonar', SV, 'Ganglios: la más frecuente',
+        'Después de la infección primaria, los bacilos se diseminan por vía linfática y sanguínea a la pleura, los ganglios, las meninges y la columna. Ahí pueden quedar latentes durante décadas. La ganglionar es la localización extrapulmonar más frecuente, y en las personas con VIH la forma extrapulmonar es más de la mitad de los casos.'),
+    'infecto-14': one('Dos fases', 'animaciones/infecto-14/A1_dos_fases.mp4', 'Hantavirus', OWN, 'La tríada del hemograma',
+        'La fase prodrómica dura tres a seis días, con fiebre alta y cefalea, y parece cualquier virosis. Luego viene la fase cardiopulmonar, con una disnea que progresa en horas. El hemograma muestra la tríada: trombocitopenia bajo cien mil, hemoconcentración e inmunoblastos sobre el diez por ciento.'),
+    'infecto-15': one('De la vinchuca al corazón', 'animaciones/infecto-15/A1_ciclo_chagas.mp4', 'Chagas', SV, 'Aguda: parásito; crónica: anticuerpos',
+        'La vinchuca transmite el parásito, y si llega a la conjuntiva aparece el signo de Romaña, un edema de los párpados de un solo ojo. En la fase aguda hay muchos parásitos en la sangre, y se buscan directamente. En la fase crónica, el treinta por ciento daña el corazón o el tubo digestivo, con cardiopatía chagásica o megaesófago, y el diagnóstico es con dos pruebas IgG de técnicas diferentes.'),
+    'infecto-17': one('El ciclo perro y oveja', 'animaciones/infecto-17/A1_ciclo_hidatidosis.mp4', 'Hidatidosis', SV, 'Contacto con perros',
+        'El gusano adulto vive en el intestino del perro y elimina huevos en las heces. Las ovejas los ingieren y forman quistes en sus vísceras, y el ciclo se cierra cuando el perro come esas vísceras crudas. El humano entra por accidente, por contacto con perros, y el quiste se forma sobre todo en el hígado, en el lóbulo derecho, y después en el pulmón.'),
+    'infecto-22': one('Dónde parte y cómo avanza', 'animaciones/infecto-22/A1_exantemas.mp4', 'Exantemas', SV, 'Cada uno tiene su firma',
+        'El sarampión parte detrás de las orejas y baja lentamente, confluente, con manchas de Koplik uno a dos días antes. La rubéola baja rápido, no confluye y dura unos tres días, con ganglios retroauriculares. La escarlatina es micropapular y áspera como papel de lija, con lengua en fresa y luego en frambuesa. Y el eritema infeccioso parte con el signo de la bofetada en las mejillas.'),
+    'infecto-05': one('La profilaxis tiene reloj', 'animaciones/infecto-05/A1_ventana_72h.mp4', 'Accidente cortopunzante', OWN, 'Antes de setenta y dos horas',
+        'Después de la punción, el VIH tarda cuarenta y ocho a setenta y dos horas en llegar a los ganglios linfáticos. Por eso la triterapia por veintiocho días se inicia antes de las setenta y dos horas, idealmente en las primeras dos a cuatro horas, si la fuente es positiva o desconocida. La trampa es esperar la serología de la fuente.'),
+    'infecto-09': one('Quién confirma', 'animaciones/infecto-09/A1_confirmacion_isp.mp4', 'VIH', OWN, 'Solo el ISP confirma',
+        'El tamizaje, con ELISA de cuarta generación o test rápido, da un resultado preliminar. Si es reactivo, se toma una segunda muestra de sangre venosa y se envía al ISP, el único facultado para confirmar. Confirmado, se inicia el tratamiento de inmediato. Nunca se comunica la positividad sin la confirmación del ISP.'),
+    'infecto-18': one('Semana a semana', 'animaciones/infecto-18/A1_semanas_tifoidea.mp4', 'Fiebre tifoidea', OWN, 'El cultivo depende de la semana',
+        'En la primera semana la fiebre sube en escalera, y los hemocultivos son positivos en ochenta a noventa por ciento. En la segunda queda en meseta, con bradicardia relativa. La tercera es la peligrosa, por perforación o sangrado. El coprocultivo se hace positivo desde la segunda o tercera semana, y el mielocultivo es el más sensible, sobre noventa y cinco por ciento.'),
+    'infecto-21': one('El bazo y la amoxicilina', 'animaciones/infecto-21/A1_bazo_amoxicilina.mp4', 'Mononucleosis', SV, 'No rotular como alérgico',
+        'La mononucleosis da ganglios cervicales posteriores y esplenomegalia: una faringitis con bazo palpable no es estreptocócica. Si recibe amoxicilina, cinco a siete días después casi todos hacen un exantema. Se suspende la amoxicilina, sin rotularlo como alérgico, y se indica reposo relativo por tres a cuatro semanas, sin deportes de contacto.'),
+    'infecto-24': one('La regla de los sesenta minutos', 'animaciones/infecto-24/A1_sesenta_minutos.mp4', 'Neutropenia febril', OWN, 'MASCC bajo veintiuno: alto riesgo',
+        'Primero, dos hemocultivos, y enseguida el antibiótico endovenoso dentro de los primeros sesenta minutos. Luego se estratifica con el MASCC: con menos de veintiún puntos es de alto riesgo, se hospitaliza en aislamiento y recibe cefepime. Con veintiuno o más, hay una opción oral ambulatoria en pacientes seleccionados. La ceftriaxona no cubre Pseudomonas.'),
+}
