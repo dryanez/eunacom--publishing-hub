@@ -4,8 +4,8 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 
 - ✅ Hechas con anatomía real (3D o Blausen): **52**
 - 🔁 Hechas pero con anatomía abstracta: rehacer: **10**
-- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **105**
-- ⬜ Pendientes (aún sin video): **100**
+- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **119**
+- ⬜ Pendientes (aún sin video): **86**
 
 ## 🔁 Hechas pero con anatomía abstracta: rehacer (10)
 
@@ -22,7 +22,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | ob-20 | (animación existente, no estaba en el plan) |  |  | A1_rh_sensibilizacion.mp4, A2_rh_segundo.mp4, A3_rh_antid.mp4 |
 | oftal-10 | (animación existente, no estaba en el plan) |  |  | A1_campo_visual.mp4 |
 
-## ⬜ Pendientes (aún sin video) (100)
+## ⬜ Pendientes (aún sin video) (86)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -52,21 +52,10 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | derma-05 | Recambio acelerado de la epidermis (de 28 a 4 días) y el signo de Auspitz | M | ★★ |  |
 | derma-08 | Mastocito que degranula: habón (dermis superficial) vs angioedema (profundo) | M | ★★ |  |
 | derma-09 | Escalada SSJ → NET según superficie despegada (menos de 10, 10 a 30, más de 30) | M | ★★ |  |
-| gastro-01 | Esfínter esofágico inferior que se relaja y el ácido que sube; Barrett | 3D | ★★ |  |
-| gastro-02 | H. pylori en la mucosa; ácido que rompe la barrera | M | ★★ |  |
-| gastro-06 | Hernia hiatal por deslizamiento vs paraesofágica | 3D | ★★ |  |
-| gastro-09 | Vellosidad que se aplana con el gluten y se recupera con la dieta | M | ★★ |  |
-| gastro-16 | Realce del hepatocarcinoma (arterial y lavado) vs hemangioma (centrípeto) | M | ★★ |  |
-| gastro-18 | Páncreas que se autodigiere: tripsina activada | 3D | ★★ |  |
-| gastro-20 | Émbolo en la mesentérica superior y el intestino que se isquemia | 3D | ★★ |  |
-| gastro-24 | Píloro hipertrófico que no deja pasar; vómito a chorro | 3D | ★★ |  |
 | gin-02 | Engranaje insulina–andrógenos–anovulación del SOP | M | ★★ |  |
 | gin-04 | Miomas según ubicación (submucoso sangra, subseroso comprime) | 3Dp | ★★ |  |
 | gin-05 | Menstruación retrógrada: implantes de endometriosis | 3Dp | ★★ |  |
 | gin-11 | Infección que sube: vagina → cuello → endometrio → trompas → absceso | 3Dp | ★★ |  |
-| infecto-01 | Sepsis: de la infección a la disfunción orgánica y el shock | M | ★★ |  |
-| infecto-02 | Meningitis: bacteria que cruza la barrera; LCR bacteriano vs viral | M | ★★ |  |
-| infecto-03 | Herpes que viaja por el nervio olfatorio al lóbulo temporal | 3D | ★★ |  |
 | infecto-07 | Aislamiento: contacto, gotitas, aéreo (tamaño de partícula) | M | ★★ |  |
 | infecto-11 | Diseminación de la tuberculosis desde el foco de Ghon | 3D | ★★ |  |
 | infecto-14 | Hantavirus: fase prodrómica y fase cardiopulmonar en el tiempo | M | ★★ |  |
@@ -97,9 +86,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | cirugia-07 | Fisura: espasmo del esfínter que perpetúa el dolor; grados de hemorroides que prolapsan | M | ★ |  |
 | derma-06 | Barrera que falla: alérgenos que entran por la piel atópica | M | ★ |  |
 | derma-16 | Ciclo del ácaro de la sarna en el surco | M | ★ |  |
-| gastro-04 | Úlcera que perfora vs Boerhaave vs Mallory-Weiss | 3D | ★ |  |
-| gastro-08 | Pérdida de agua según la deshidratación (planes A, B, C) | M | ★ |  |
-| gastro-21 | Ángulo de Treitz divide alta y baja | 3D | ★ |  |
 | gastro-26 | Trayectos de arma blanca vs fuego | 3D | ★ |  |
 | gin-07 | Fecundación e implantación; inseminación vs FIV | M | ★ |  |
 | gin-08 | DIU, implante, píldora: dónde actúa cada uno | M | ★ |  |
@@ -184,7 +170,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | resp-21 | (animación existente, no estaba en el plan) |  |  | A1_hipoventilacion_real.mp4, A2_shunt_real.mp4 |
 | reuma-24 | (animación existente, no estaba en el plan) |  |  | A1_aplastamiento_3d.mp4 |
 
-## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (105)
+## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (119)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -225,6 +211,14 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | endo-19 | Vitamina D: piel → hígado → riñón; dónde falla cada osteomalacia | M | ★★ | A1_vitamina_d.mp4 |
 | endo-21 | Dopamina frena a la prolactina; tallo cortado o fármaco → prolactina sube | M | ★★ | A1_dopamina_prolactina.mp4 |
 | endo-23 | Sheehan: hipófisis grande del embarazo que se infarta con la hemorragia | 3D | ★★ | A1_sheehan.mp4 |
+| gastro-01 | Esfínter esofágico inferior que se relaja y el ácido que sube; Barrett | 3D | ★★ | A1_reflujo_barrett.mp4 |
+| gastro-02 | H. pylori en la mucosa; ácido que rompe la barrera | M | ★★ | A1_pylori_ulcera.mp4 |
+| gastro-06 | Hernia hiatal por deslizamiento vs paraesofágica | 3D | ★★ | A1_hernia_hiatal.mp4 |
+| gastro-09 | Vellosidad que se aplana con el gluten y se recupera con la dieta | M | ★★ | A1_vellosidad_gluten.mp4 |
+| gastro-16 | Realce del hepatocarcinoma (arterial y lavado) vs hemangioma (centrípeto) | M | ★★ | A1_realce_hcc.mp4 |
+| gastro-18 | Páncreas que se autodigiere: tripsina activada | 3D | ★★ | A1_autodigestion.mp4 |
+| gastro-20 | Émbolo en la mesentérica superior y el intestino que se isquemia | 3D | ★★ | A1_embolo_mesenterico.mp4 |
+| gastro-24 | Píloro hipertrófico que no deja pasar; vómito a chorro | 3D | ★★ | A1_oliva_pilorica.mp4 |
 | hem-01 | Médula que responde (reticulocitos) vs que no responde | M | ★★ | A1_reticulocitos.mp4 |
 | hem-02 | Ferritina y transferrina que se cruzan según el hierro | M | ★★ | A1_ferritina_transferrina.mp4 |
 | hem-04 | Hepcidina que secuestra el hierro en la inflamación | M | ★★ | A1_hepcidina_ferroportina.mp4 |
@@ -235,6 +229,9 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | hem-18 | Diseminación ordenada del Hodgkin por cadenas ganglionares | 3D | ★★ | A1_hodgkin_contiguo.mp4 |
 | hem-20 | JAK2: receptor que no se apaga; tres neoplasias | M | ★★ | A1_jak2_receptor.mp4 |
 | hem-24 | Compatibilidad ABO: quién recibe de quién | M | ★★ | A1_compatibilidad_abo.mp4 |
+| infecto-01 | Sepsis: de la infección a la disfunción orgánica y el shock | M | ★★ | A1_sepsis_shock.mp4 |
+| infecto-02 | Meningitis: bacteria que cruza la barrera; LCR bacteriano vs viral | M | ★★ | A1_lcr_bacteria_virus.mp4 |
+| infecto-03 | Herpes que viaja por el nervio olfatorio al lóbulo temporal | 3D | ★★ | A1_herpes_temporal.mp4 |
 | nefro-02 | Necrosis tubular: túbulo que se descama y forma cilindros | M | ★★ | A1_necrosis_tubular.mp4 |
 | nefro-04 | Síndrome hepatorrenal: vasodilatación esplácnica y riñón que se cierra | M | ★★ | A1_hepatorrenal.mp4 |
 | nefro-06 | SIADH vs perdedor de sal vs polidipsia: volemia y orina | M | ★★ | A1_siadh_volemia.mp4 |
@@ -263,6 +260,9 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | endo-09 | Algoritmo del nódulo: TSH → eco → punción → Bethesda | M | ★ | A1_algoritmo_nodulo.mp4 |
 | endo-13 | Shock que no responde: por qué falta el cortisol para la noradrenalina | M | ★ | A1_shock_sin_cortisol.mp4 |
 | endo-22 | GH → IGF-1; la glucosa que no la suprime | M | ★ | A1_acromegalia_gh.mp4 |
+| gastro-04 | Úlcera que perfora vs Boerhaave vs Mallory-Weiss | 3D | ★ | A1_neumoperitoneo.mp4 |
+| gastro-08 | Pérdida de agua según la deshidratación (planes A, B, C) | M | ★ | A1_planes_abc.mp4 |
+| gastro-21 | Ángulo de Treitz divide alta y baja | 3D | ★ | A1_angulo_treitz.mp4 |
 | hem-21 | Neutrófilos y la regla de los sesenta minutos | M | ★ | A1_neutropenia_hora_oro.mp4 |
 | hem-23 | Trombofilias: balance procoagulante | M | ★ | A1_balance_trombofilia.mp4 |
 | nefro-14 | Tres glomerulopatías en el glomérulo | M | ★ | A1_tres_glomerulopatias.mp4 |

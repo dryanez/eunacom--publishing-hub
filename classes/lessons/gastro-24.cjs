@@ -178,6 +178,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El píloro que no deja pasar',
+      images: [
+        { src: 'animaciones/gastro-24/A1_oliva_pilorica.mp4', label: 'Estenosis hipertrófica del píloro', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Oliva pilórica en la ecografía',
+          say: 'El músculo del píloro se engruesa y cierra la salida del estómago. Entre la segunda y la sexta semana de vida, el lactante hambriento hace vómitos explosivos y proyectivos, con alcalosis hipoclorémica y deshidratación. La ecografía muestra la oliva pilórica.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos el lactante que vomita en un solo árbol de decisión.',
     },

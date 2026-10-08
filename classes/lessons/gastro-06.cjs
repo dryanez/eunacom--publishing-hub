@@ -115,6 +115,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Qué sube por el hiato',
+      images: [
+        { src: 'animaciones/gastro-06/A1_hernia_hiatal.mp4', label: 'Hernia hiatal', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Más del noventa y cinco por ciento: deslizamiento',
+          say: 'En la hernia por deslizamiento, más del noventa y cinco por ciento, sube la unión gastroesofágica, y solo se trata el reflujo si lo hay. En la paraesofágica la unión queda en su lugar y sube el fondo, con riesgo de vólvulo, incarceración y estrangulación: esa se opera.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Hernia hiatal y compartimentos del mediastino',

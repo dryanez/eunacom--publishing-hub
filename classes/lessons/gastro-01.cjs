@@ -167,6 +167,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Falla la barrera',
+      images: [
+        { src: 'animaciones/gastro-01/A1_reflujo_barrett.mp4', label: 'Reflujo', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'El esfínter se abre sin tragar',
+          say: 'En el reflujo el problema no es que sobre ácido: el esfínter esofágico inferior se abre sin tragar y el ácido sube. Da pirosis y regurgitación, peor al acostarse y tras comer. Con los años puede aparecer Barrett, con riesgo de adenocarcinoma. El inhibidor de la bomba se toma de treinta a sesenta minutos antes del desayuno.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'El esófago en la endoscopía',

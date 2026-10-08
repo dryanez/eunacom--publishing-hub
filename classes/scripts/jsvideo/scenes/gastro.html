@@ -1,0 +1,196 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Gastroenterología sobre órganos reales (Servier Medical Art, CC BY 4.0).
+// ?v=cu|crohn (gastro-10) invag (25) bili (13) rge (01) hp (02) hernia (06) celiaca (09) hcc (16) panc (18) mesent (20)
+//   piloro (24) perfo (04) planes (08) treitz (21)
+const V = new URLSearchParams(location.search).get('v') || 'cu';
+window.SCENE = { duration: 21, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+function draw(k, x, y, w, a = 1, rot = 0, filter) { const im = I(k), h = w * im.height / im.width; ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y); ctx.rotate(rot); if (filter) ctx.filter = filter; ctx.drawImage(im, -w / 2, -h / 2, w, h); ctx.restore(); return h; }
+function flow(P, n, t, col, sp = 0.35, sz = 6, a0 = 1) { for (let i = 0; i < n; i++) { const u = ((t * sp) + i / Math.max(1, n)) % 1, [x, y] = P.at(u);
+  ctx.globalAlpha = a0 * Math.min(1, u * 8, (1 - u) * 8); ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x, y, sz, 0, 7); ctx.fill(); } ctx.globalAlpha = 1; }
+function cnt(t, x, y, w, rows, t0 = 1.2) { ctx.globalAlpha = seg(t, t0, 0.5); rrect(x, y, w, 40 + rows.length * 62, 16, '#161B22');
+  rows.forEach(([lab, val, max, unit, col, fmt, marks], i) => K.bar(x + 24, y + 42 + i * 62, w - 48, lab, val, max, unit, col, marks, fmt)); ctx.globalAlpha = 1; }
+const f1 = v => v.toFixed(1).replace('.', ',');
+const spot = (x, y, r, rgb, a) => K.glow(x, y, r, rgb, a);
+
+// colon 661x913 a 470 px de alto
+const CO = { x: 300, y: 430, w: 340 }, CS = 340 / 661, CP = (x, y) => [CO.x - 170 + x * CS, CO.y - 913 * CS / 2 + y * CS];
+const COLON = poly([[300, 655], [306, 600], [345, 552], [410, 525], [442, 460], [442, 370], [432, 290], [420, 218], [350, 236], [260, 246], [178, 250], [150, 320], [152, 410], [182, 492]]);
+function colitis(t, crohn) {
+  K.title(crohn ? 'Crohn: en parches y transmural' : 'Colitis ulcerosa: continua desde el recto', crohn ? 'De la boca al ano; típico en el íleon distal' : 'Solo colon y solo la mucosa', crohn ? C.VIOLET : C.RED);
+  const h = draw('colon', CO.x, CO.y, CO.w, seg(t, 0, 0.6));
+  const k = ease(seg(t, 2, 8));
+  if (!crohn) { for (let i = 0; i <= 60; i++) { const u = i / 60; if (u > k) break; const [x, y] = COLON.at(u); spot(x, y, 26, '255,60,60', 0.55); } }
+  else { [0.08, 0.35, 0.62, 0.9].forEach((u0, j) => { const a = seg(t, 2 + j * 1.8, 0.6); for (let i = 0; i < 6; i++) { const [x, y] = COLON.at(u0 + i * 0.012); spot(x, y, 28, '179,136,255', 0.6 * a); } });
+    const il = seg(t, 9, 0.6); spot(215, 520, 40, '179,136,255', 0.7 * il); ctx.globalAlpha = il; tag('Íleon distal', 190, 580, C.VIOLET, 14); ctx.globalAlpha = 1; }
+  ctx.globalAlpha = seg(t, 1.2, 0.5); tag(crohn ? 'Lesiones salteadas con mucosa sana' : 'Parte siempre en el recto', 300, 690, crohn ? C.VIOLET : C.RED, 14); ctx.globalAlpha = 1;
+  // corte de pared
+  const wall = seg(t, 11, 0.6);
+  if (wall > 0) { ctx.globalAlpha = wall; rrect(700, 150, 540, 180, 16, '#161B22'); text('Profundidad', 724, 186, 20, C.INK, 'bold');
+    ['Mucosa', 'Submucosa', 'Muscular', 'Serosa'].forEach((n, i) => { const y = 206 + i * 28; ctx.fillStyle = ['#E8A0A8', '#F0C8C0', '#C87070', '#F5E0D8'][i]; ctx.fillRect(724, y, 300, 24);
+      const hit = crohn ? true : i === 0; if (hit) { ctx.fillStyle = crohn ? 'rgba(179,136,255,0.55)' : 'rgba(255,60,60,0.55)'; ctx.fillRect(724, y, 300, 24); } text(n, 1040, y + 18, 16, C.INK); });
+    ctx.globalAlpha = 1; }
+  K.card(700, 350, 540, 150, crohn ? C.VIOLET : C.RED, crohn ? 'Fístulas, estenosis, abscesos' : 'Pujo, tenesmo, diarrea con sangre', crohn ? ['Por ser transmural', 'Masa y enfermedad perianal'] : ['Mucosa friable, pseudopólipos', 'El recto siempre está tomado'], seg(t, 13, 0.5), 17);
+}
+
+function invag(t) {
+  K.title('Invaginación intestinal', 'El íleon se mete dentro del colon', C.AMBER);
+  draw('colon', CO.x, CO.y, CO.w, seg(t, 0, 0.6));
+  ctx.globalAlpha = seg(t, 1, 0.5); tag('Válvula ileocecal', 215, 560, C.MUTED, 14); ctx.globalAlpha = 1;
+  const k = ease(seg(t, 2.5, 4)), pul = 0.85 + 0.15 * Math.sin(t * 3);
+  for (let i = 0; i <= 20; i++) { const u = 1 - 0.22 * k * i / 20; const [x, y] = COLON.at(u); spot(x, y, 30, '242,180,60', 0.6 * k * pul); }
+  ctx.globalAlpha = seg(t, 4, 0.5); tag('Masa en salchicha', 90, 400, C.AMBER, 14); ctx.globalAlpha = 1;
+  const g = seg(t, 8, 0.6); if (g > 0) { for (let i = 0; i < 6; i++) { const u = ((t * 0.25) + i / 6) % 1; ctx.globalAlpha = g * (1 - u); ctx.fillStyle = i % 2 ? '#B3122E' : '#E8D0C0';
+      ctx.beginPath(); ctx.arc(300 + Math.sin(i * 2) * 6, 650 + u * 40, 7, 0, 7); ctx.fill(); } ctx.globalAlpha = g; tag('Deposiciones en mermelada de grosella', 470, 650, C.RED, 14); ctx.globalAlpha = 1; }
+  K.card(700, 150, 540, 160, C.AMBER, 'Lactante de 6 a 12 meses', ['Llanto en crisis', 'Ritmo intermitente: la pista'], seg(t, 1.5, 0.5), 17);
+  K.card(700, 330, 540, 120, C.RED, 'Neumoperitoneo o necrosis', ['Se opera'], seg(t, 13, 0.5), 17);
+}
+
+function bili(t) {
+  K.title('El camino de la bilirrubina', 'Dónde se corta define qué fracción sube', C.AMBER);
+  draw('rbc', 140, 300, 120, seg(t, 0, 0.6)); draw('hig', 460, 300, 260, seg(t, 0.3, 0.6)); draw('intd', 820, 470, 220, seg(t, 0.6, 0.6));
+  ctx.globalAlpha = seg(t, 0.8, 0.5); tag('Glóbulo rojo', 140, 380, C.RED, 14); tag('Hígado: conjuga', 460, 420, C.VIOLET, 14); tag('Bilis → intestino', 820, 610, C.GREEN, 14); ctx.globalAlpha = 1;
+  flow(poly([[200, 300], [330, 300]]), 5, t, '#F2CF5B', 0.4, 7); flow(poly([[580, 330], [700, 400], [780, 430]]), 5, t, '#7FBF5A', 0.4, 7);
+  const ph = t < 7 ? 0 : t < 13 ? 1 : 2, a = seg(t, [2, 7, 13][ph], 0.5);
+  const box = [['Antes del hígado: hemólisis, Gilbert', 'Sube la indirecta', 140], ['En el hígado', 'Suben ambas', 460], ['Después: la bilis no sale', 'Sube la directa: coluria y acolia', 820]][ph];
+  ctx.globalAlpha = a; ctx.strokeStyle = C.RED; ctx.lineWidth = 4; ctx.beginPath(); ph === 2 ? ctx.arc(660, 380, 70, 0, 7) : ctx.arc(box[2], 300, 95, 0, 7); ctx.stroke(); ctx.globalAlpha = 1;
+  K.card(130, 560, 560, 120, C.AMBER, box[0], [box[1]], a, 18);
+}
+
+function rge(t) {
+  K.title('Reflujo: falla la barrera, no sobra el ácido', 'El esfínter esofágico inferior se relaja', C.RED);
+  draw('rge', 300, 430, 420, seg(t, 0, 0.6));
+  const up = seg(t, 3, 1);
+  for (let i = 0; i < 10; i++) { const u = ((t * 0.4) + i / 10) % 1; if (up <= 0) break; ctx.globalAlpha = up * Math.min(1, u * 5, (1 - u) * 4); ctx.fillStyle = '#FFE14A'; ctx.beginPath(); ctx.arc(lerp(352, 322, u) + Math.sin(i) * 3, lerp(325, 215, u), 8, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 2, 0.5); tag('Esfínter esofágico inferior', 370, 290, C.BLUE, 14); ctx.globalAlpha = 1;
+  const b = seg(t, 9, 1); if (b > 0) { spot(338, 275, 34, '242,140,80', 0.7 * b); ctx.globalAlpha = b; tag('Años de ácido: Barrett (metaplasia)', 170, 215, C.AMBER, 14); ctx.globalAlpha = 1; }
+  K.card(700, 150, 540, 140, C.RED, 'Pirosis y regurgitación', ['Peor al acostarse y después de comer'], seg(t, 4, 0.5), 17);
+  K.card(700, 310, 540, 140, C.AMBER, 'Barrett: lesión precursora', ['Del adenocarcinoma de esófago'], seg(t, 10, 0.5), 17);
+  K.banner(700, 480, 540, 'IBP en ayunas, 30 a 60 min antes del desayuno', C.GREEN, seg(t, 14, 0.5));
+}
+
+function hp(t) {
+  K.title('Helicobacter pylori y úlcera', 'Una bacteria que sobrevive al ácido', C.AMBER);
+  draw('est', 300, 430, 400, seg(t, 0, 0.6));
+  const b = seg(t, 2, 1);
+  for (let i = 0; i < 12; i++) { const x = 330 + Math.cos(i * 0.52) * 55 + Math.sin(t + i) * 4, y = 470 + Math.sin(i * 1.3) * 60; ctx.globalAlpha = b; ctx.strokeStyle = '#5FBF5F'; ctx.lineWidth = 4; ctx.beginPath();
+    for (let k = 0; k < 8; k++) ctx.lineTo(x + k * 3, y + Math.sin(k + t * 4) * 4); ctx.stroke(); }
+  ctx.globalAlpha = seg(t, 2.5, 0.5); tag('H. pylori: produce ureasa', 300, 330, '#5FBF5F', 14); ctx.globalAlpha = 1;
+  const u = seg(t, 7, 1); if (u > 0) { ctx.globalAlpha = u; ctx.fillStyle = '#7A1A22'; ctx.beginPath(); ctx.ellipse(300, 585, 20, 11, 0.2, 0, 7); ctx.fill(); tag('Úlcera: el ácido rompe la barrera', 300, 640, C.RED, 14); ctx.globalAlpha = 1; }
+  K.card(700, 150, 540, 140, C.AMBER, 'Epigastralgia urente', ['Peor en ayunas, alivia al comer'], seg(t, 3, 0.5), 17);
+  K.card(700, 310, 540, 140, C.RED, 'Endoscopía con signos de alarma', ['Baja de peso, anemia, hemorragia'], seg(t, 8, 0.5), 17);
+  K.banner(700, 480, 540, 'En la biopsia: test de ureasa', C.GREEN, seg(t, 13, 0.5));
+}
+
+function hernia(t) {
+  const para = t >= 10.5;
+  K.title(para ? 'Hernia paraesofágica: sube el fondo' : 'Hernia por deslizamiento: sube la unión', para ? 'Menos del 5 %: riesgo de vólvulo y estrangulación' : 'Más del 95 %: casi una variante normal', para ? C.RED : C.BLUE);
+  draw(para ? 'herp' : 'herh', 300, 430, 420, 1);
+  ctx.globalAlpha = seg(t, para ? 11 : 1, 0.5); tag('Diafragma', 120, para ? 300 : 260, '#E8C0A0', 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 160, C.BLUE, 'Tipo 1: deslizamiento', ['La unión gastroesofágica sube', 'Se asocia a reflujo'], seg(t, 2, 0.5) * (para ? 0.5 : 1), 17);
+  K.card(700, 330, 540, 160, C.RED, 'Tipos 2 a 4: paraesofágica', ['La unión queda; sube el fondo', 'Se opera aunque tenga pocos síntomas'], seg(t, 11, 0.5), 17);
+}
+
+function celiaca(t) {
+  K.title('Enfermedad celíaca: la vellosidad se aplana', 'Tratamiento: dieta sin gluten, de por vida', C.AMBER);
+  const at = ease(seg(t, 3, 4)) * (1 - ease(seg(t, 13, 4)));
+  ctx.save(); ctx.globalAlpha = seg(t, 0, 0.6); const w = 440, h = w * 904 / 898; ctx.translate(300, 430 + h / 2); ctx.scale(1, 1 - 0.55 * at); ctx.drawImage(I('vel'), -w / 2, -h, w, h); ctx.restore();
+  ctx.globalAlpha = seg(t, 3.5, 0.5); tag(t < 13 ? 'Atrofia de vellosidades' : 'Dieta sin gluten, estricta y de por vida', 300, 660, t < 13 ? C.RED : C.GREEN, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 160, C.AMBER, 'Gluten: trigo, cebada, centeno', ['También avena'], seg(t, 2, 0.5), 17);
+  K.card(700, 330, 540, 160, C.BLUE, 'Diagnóstico', ['Anti transglutaminasa IgA + IgA total', 'Biopsia de duodeno'], seg(t, 7, 0.5), 17);
+}
+
+function hcc(t) {
+  K.title('Hepatocarcinoma: realce arterial y lavado', 'En el cirrótico, la imagen basta', C.RED);
+  const ph = t < 5 ? 0 : t < 10 ? 1 : 2, names = ['Sin contraste', 'Fase arterial', 'Fase portal'];
+  draw('hig', 300, 420, 460, seg(t, 0, 0.6), 0, 'grayscale(0.85) brightness(1.15)');
+  const L1 = [230, 380], L2 = [400, 430];
+  const hccA = [0.1, 1, 0.05][ph], hemA = [0.05, 0.35, 0.7][ph];
+  spot(...L1, 50, '255,255,255', 0.75 * hccA); ctx.globalAlpha = 0.6; ctx.strokeStyle = '#ddd'; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(...L1, 34, 0, 7); ctx.stroke();
+  for (let i = 0; i < 10; i++) { const a = i * 0.63, r = ph === 0 ? 0 : 32 - (ph === 2 ? 0 : 14); if (r <= 0) break; spot(L2[0] + Math.cos(a) * r, L2[1] + Math.sin(a) * r, 12, '255,255,255', 0.6); }
+  ctx.beginPath(); ctx.arc(...L2, 34, 0, 7); ctx.stroke(); ctx.globalAlpha = 1;
+  if (ph === 2) { ctx.globalAlpha = 0.45 * seg(t, 10, 0.8); ctx.fillStyle = '#1A1416'; ctx.beginPath(); ctx.arc(...L1, 32, 0, 7); ctx.fill(); ctx.globalAlpha = 1; }
+  ctx.globalAlpha = seg(t, 1, 0.5); tag(names[ph], 300, 190, C.BLUE, 16); tag('Hepatocarcinoma', L1[0], L1[1] + 60, C.RED, 14); tag('Hemangioma', L2[0], L2[1] + 60, C.GREEN, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 140, C.RED, 'Hepatocarcinoma', ['Brilla en la arterial y se lava en la portal'], seg(t, 5.5, 0.5), 17);
+  K.card(700, 310, 540, 140, C.GREEN, 'Hemangioma', ['Realce de la periferia al centro'], seg(t, 10.5, 0.5), 17);
+}
+
+function panc(t) {
+  K.title('Pancreatitis aguda: autodigestión', 'La tripsina se activa dentro de la glándula', C.RED);
+  draw('pan', 300, 430, 470, seg(t, 0, 0.6));
+  const k = ease(seg(t, 3, 4)); spot(300, 370, 150, '255,90,60', 0.55 * k * (0.8 + 0.2 * Math.sin(t * 4)));
+  ctx.globalAlpha = seg(t, 2, 0.5); tag('Gatillo: cálculo biliar o alcohol', 300, 220, C.AMBER, 14); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 4, 0.5); tag('Tripsinógeno → tripsina en el acino', 300, 640, C.RED, 14); ctx.globalAlpha = 1;
+  cnt(t, 700, 150, 540, [['Lipasa', lerp(1, 6, k), 8, 'veces lo normal', k > 0.5 ? C.RED : C.GREEN, f1, [[3, '3']]]]);
+  K.card(700, 270, 540, 170, C.RED, 'Dos de tres criterios', ['Dolor epigástrico en faja a la espalda', 'Lipasa o amilasa más de 3 veces', 'Imagen compatible'], seg(t, 8, 0.5), 17);
+  K.banner(700, 470, 540, 'Mejor la lipasa: dura más días elevada', C.GREEN, seg(t, 13, 0.5));
+}
+
+function mesent(t) {
+  K.title('Isquemia mesentérica aguda', 'Dolor desproporcionado al examen', C.RED);
+  draw('intd', 300, 470, 380, seg(t, 0, 0.6), 0, `saturate(${1 - 0.6 * ease(seg(t, 6, 5))}) brightness(${1 - 0.3 * ease(seg(t, 8, 5))})`);
+  const e = ease(seg(t, 3, 1.5)); spot(300, 300, 50, '200,20,40', 0.8 * e); ctx.globalAlpha = e; tag('Émbolo en la arteria mesentérica superior', 300, 230, C.RED, 14);
+  tag('Viene del corazón: fibrilación auricular', 300, 200, C.MUTED, 13); ctx.globalAlpha = 1;
+  cnt(t, 700, 150, 540, [['Lactato', lerp(1, 6, ease(seg(t, 6, 6))), 8, 'mmol/L', C.AMBER, f1]]);
+  K.card(700, 270, 540, 160, C.RED, 'Dolor súbito, intensísimo', ['Abdomen blando al inicio', 'Después hematoquecia y peritonitis'], seg(t, 5, 0.5), 17);
+  K.banner(700, 460, 540, 'Angio-TAC con contraste', C.BLUE, seg(t, 12, 0.5));
+}
+
+function piloro(t) {
+  K.title('Estenosis hipertrófica del píloro', 'El músculo cierra la salida del estómago', C.AMBER);
+  draw('est', 300, 430, 400, seg(t, 0, 0.6));
+  const th = ease(seg(t, 2, 3)); const [px, py] = [178, 528];
+  ctx.globalAlpha = seg(t, 1.5, 0.5); ctx.fillStyle = '#E8A0A0'; ctx.strokeStyle = '#8A4A5A'; ctx.lineWidth = 2; ctx.beginPath(); ctx.ellipse(px, py, 22 + 18 * th, 14 + 10 * th, -0.5, 0, 7); ctx.fill(); ctx.stroke(); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 3, 0.5); tag('Oliva pilórica', px + 10, py + 50, C.AMBER, 14); ctx.globalAlpha = 1;
+  const v = seg(t, 6, 0.5); for (let i = 0; i < 10; i++) { const u = ((t * 0.6) + i / 10) % 1; if (v <= 0) break; ctx.globalAlpha = v * (1 - u); ctx.fillStyle = '#E8E0B0'; ctx.beginPath(); ctx.arc(lerp(250, 200, u), lerp(250, 130, u), 6, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1; ctx.globalAlpha = v; tag('Vómitos explosivos y proyectivos', 200, 200, C.RED, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 160, C.AMBER, 'Lactante de 2 a 6 semanas, hambriento', ['Alcalosis hipoclorémica', 'Y deshidratación'], seg(t, 9, 0.5), 17);
+  K.banner(700, 340, 540, 'Diagnóstico: ecografía', C.BLUE, seg(t, 13, 0.5));
+}
+
+function perfo(t) {
+  K.title('Úlcera perforada: aire bajo el diafragma', 'En una perforación no se hace endoscopía', C.RED);
+  draw('tn', 300, 430, 420, seg(t, 0, 0.6));
+  const a = ease(seg(t, 3, 3)); ctx.save(); ctx.globalAlpha = 0.9 * a; ctx.fillStyle = '#0E1116'; ctx.beginPath(); ctx.ellipse(170, 600, 70, 14 * a + 2, 0.05, 0, 7); ctx.fill(); ctx.restore();
+  ctx.globalAlpha = a; tag('Neumoperitoneo bajo el hemidiafragma derecho', 220, 660, C.RED, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 160, C.RED, 'Dolor súbito en puñalada', ['Abdomen en tabla'], seg(t, 2, 0.5), 17);
+  K.card(700, 330, 540, 140, C.BLUE, 'Radiografía de tórax de pie', ['Busca aire libre bajo el diafragma'], seg(t, 6, 0.5), 17);
+  K.banner(700, 500, 540, 'Endoscopía contraindicada · cirugía', C.GREEN, seg(t, 12, 0.5));
+}
+
+function planes(t) {
+  K.title('Deshidratación: planes A, B y C', 'Según cuánto peso perdió', C.BLUE);
+  const P = [['Plan A', 'Menos de 5 %', 'Sales orales en casa: 100 a 200 mL tras cada deposición', C.GREEN], ['Plan B', '5 a 10 %', 'Sales orales 50 a 100 mL/kg en 4 a 6 horas', C.AMBER], ['Plan C', 'Más de 10 % o shock', 'Hidratación endovenosa', C.RED]];
+  P.forEach(([n, p, d, col], i) => { const a = seg(t, 1 + i * 4, 0.6); if (a <= 0) return; const x = 40 + i * 410; ctx.globalAlpha = a;
+    rrect(x, 160, 390, 460, 18, '#161B22'); ctx.fillStyle = col; ctx.fillRect(x, 160, 390, 6); text(n, x + 195, 208, 28, col, 'bold', 'center'); text(p, x + 195, 250, 20, C.INK, 'bold', 'center');
+    const lvl = [0.9, 0.7, 0.45][i]; rrect(x + 145, 290, 100, 200, 14, '#222833'); rrect(x + 145, 290 + 200 * (1 - lvl), 100, 200 * lvl, 14, C.BLUE);
+    const words = d.split(' '); let line = '', ly = 540; ctx.font = '17px Liberation Sans'; for (const w of words) { if (ctx.measureText(line + w).width > 340) { text(line, x + 195, ly, 17, C.INK, '', 'center'); ly += 24; line = ''; } line += w + ' '; } text(line, x + 195, ly, 17, C.INK, '', 'center');
+    ctx.globalAlpha = 1; });
+}
+
+function treitz(t) {
+  K.title('El ángulo de Treitz divide alta y baja', 'Hemorragia digestiva', C.RED);
+  draw('dig', 300, 420, 200, seg(t, 0, 0.6));
+  const ty = 560; ctx.strokeStyle = C.AMBER; ctx.lineWidth = 3; ctx.setLineDash([10, 8]); ctx.globalAlpha = seg(t, 1.5, 0.5); ctx.beginPath(); ctx.moveTo(150, ty); ctx.lineTo(450, ty); ctx.stroke(); ctx.setLineDash([]);
+  tag('Ángulo de Treitz', 300, ty - 20, C.AMBER, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 160, C.RED, 'Alta: esófago, estómago, duodeno', ['Hematemesis o melena', 'Melena: sangre digerida, negra'], seg(t, 3, 0.5), 17);
+  K.card(700, 330, 540, 140, C.AMBER, 'Baja: después del Treitz', ['Hematoquecia: sangre roja'], seg(t, 8, 0.5), 17);
+}
+
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  if (V === 'cu') colitis(t, false); else if (V === 'crohn') colitis(t, true); else ({ invag, bili, rge, hp, hernia, celiaca, hcc, panc, mesent, piloro, perfo, planes, treitz })[V](t);
+  if (V === 'planes') text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); else K.credit(); };
+LOAD({ colon: '../assets/servier/colon.png', intd: '../assets/servier/intestino_delgado.png', rbc: '../assets/servier/hematie.png', hig: '../assets/servier/higado.png',
+  rge: '../assets/servier/reflujo.png', est: '../assets/servier/estomago.png', herh: '../assets/servier/hernia_hiatal.png', herp: '../assets/servier/hernia_paraesofagica.png',
+  vel: '../assets/servier/vellosidades.png', pan: '../assets/servier/pancreas.png', tn: '../assets/servier/torax_normal.png', dig: '../assets/servier/syst_dig_complet.png' });
+</script>
+</body></html>

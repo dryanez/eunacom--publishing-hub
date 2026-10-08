@@ -250,6 +250,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Aire bajo el diafragma',
+      images: [
+        { src: 'animaciones/gastro-04/A1_neumoperitoneo.mp4', label: 'Úlcera perforada', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Endoscopía contraindicada',
+          say: 'La úlcera perforada da un dolor en puñalada y el abdomen en tabla. La radiografía de tórax de pie muestra neumoperitoneo bajo el diafragma. La endoscopía está contraindicada, porque insufla aire, y el tratamiento es quirúrgico.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Aire libre bajo el diafragma',
       images: [

@@ -240,6 +240,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La glándula se digiere',
+      images: [
+        { src: 'animaciones/gastro-18/A1_autodigestion.mp4', label: 'Pancreatitis aguda', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Dos de tres criterios',
+          say: 'Un cálculo biliar o el alcohol activan la tripsina dentro del páncreas, y la glándula se digiere a sí misma. Se diagnostica con dos de tres criterios: dolor epigástrico en faja al dorso, lipasa o amilasa sobre tres veces lo normal, e imagen compatible. Se prefiere la lipasa, porque dura más días elevada.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Pancreatitis aguda',

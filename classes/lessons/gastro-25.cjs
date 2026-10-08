@@ -222,11 +222,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'La invaginación',
       images: [
-        { src: 'animaciones/gastro-25/A1_invaginacion.mp4', label: 'Invaginación', credit: 'Animación propia' },
+        { src: 'animaciones/gastro-25/A1_invaginacion.mp4', label: 'Invaginación', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Un segmento entra en el otro',
-          say: 'El íleon se mete dentro del colon, como un telescopio. En la ecografía se ve como una diana. El lactante tiene dolor intermitente y deposiciones con jalea de grosella.' },
+          say: 'El íleon se mete dentro del colon, como un telescopio, y se palpa una masa en salchicha. El lactante tiene llanto en crisis, con un ritmo intermitente, y deposiciones en mermelada de grosella. Si hay neumoperitoneo o necrosis, se opera.' },
       ],
     },
 

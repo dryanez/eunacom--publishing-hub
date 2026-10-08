@@ -210,6 +210,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Un émbolo en la mesentérica',
+      images: [
+        { src: 'animaciones/gastro-20/A1_embolo_mesenterico.mp4', label: 'Isquemia mesentérica', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Dolor desproporcionado',
+          say: 'Un paciente con fibrilación auricular hace un émbolo a la arteria mesentérica superior. El dolor es súbito y desproporcionado al examen, con un abdomen blando. El lactato sube, y después aparecen hipotensión y hematoquecia. Se pide angio TAC.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Isquemia mesentérica',
       images: [

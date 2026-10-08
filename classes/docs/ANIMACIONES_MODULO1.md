@@ -32,8 +32,8 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 1 | diab-15 | Cetoacidosis vs hiperosmolar: falta total vs parcial de insulina | ★★★ | 🔁 rehacer | JS gráfico (sin anatomía) || ✅ JS |
 | 2 | endo-12 | Addison (ACTH alta, pigmento, potasio alto) vs secundaria (ACTH baja) en el eje | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 3 | endo-15 | Feocromocitoma: descarga de catecolaminas; por qué alfa antes que beta | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
-| 4 | gastro-10 | Colitis ulcerosa continua desde el recto vs Crohn salteado y transmural | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
-| 5 | gastro-25 | Invaginación: un segmento que entra en el siguiente | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
+| 4 | gastro-10 | Colitis ulcerosa continua desde el recto vs Crohn salteado y transmural | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 5 | gastro-25 | Invaginación: un segmento que entra en el siguiente | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
 | 6 | hem-10 | Sin ADAMTS13, el von Willebrand no se corta y atrapa plaquetas | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 7 | hem-22 | Lisis tumoral: células que se rompen y liberan potasio, fósforo y ácido úrico | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 8 | infecto-06 | Virus rábico que sube por el nervio; toxina tetánica que quita el freno | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
@@ -45,7 +45,7 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 14 | reuma-14 | Raynaud: blanco, azul y rojo en los dedos | ★★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 15 | reuma-17 | De la sacroilitis a la columna en caña de bambú | ★★★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
 | 16 | diab-17 | Insulina mete el potasio a la célula (bomba Na/K); umbral de potasio antes de la insulina | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
-| 17 | gastro-13 | Camino de la bilirrubina: hemólisis → hígado → bilis → intestino; dónde se corta en cada ictericia | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
+| 17 | gastro-13 | Camino de la bilirrubina: hemólisis → hígado → bilis → intestino; dónde se corta en cada ictericia | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
 | 18 | hem-07 | Coombs directo vs indirecto | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 19 | hem-15 | CID: consumo de plaquetas y factores, microtrombos y sangrado | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 20 | nefro-05 | Neurona en hiponatremia aguda, adaptación y corrección rápida (mielinólisis) | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
@@ -67,14 +67,14 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 36 | endo-19 | Vitamina D: piel → hígado → riñón; dónde falla cada osteomalacia | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 37 | endo-21 | Dopamina frena a la prolactina; tallo cortado o fármaco → prolactina sube | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 38 | endo-23 | Sheehan: hipófisis grande del embarazo que se infarta con la hemorragia | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
-| 39 | gastro-01 | Esfínter esofágico inferior que se relaja y el ácido que sube; Barrett | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 40 | gastro-02 | H. pylori en la mucosa; ácido que rompe la barrera | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 41 | gastro-06 | Hernia hiatal por deslizamiento vs paraesofágica | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 42 | gastro-09 | Vellosidad que se aplana con el gluten y se recupera con la dieta | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 43 | gastro-16 | Realce del hepatocarcinoma (arterial y lavado) vs hemangioma (centrípeto) | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 44 | gastro-18 | Páncreas que se autodigiere: tripsina activada | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 45 | gastro-20 | Émbolo en la mesentérica superior y el intestino que se isquemia | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 46 | gastro-24 | Píloro hipertrófico que no deja pasar; vómito a chorro | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
+| 39 | gastro-01 | Esfínter esofágico inferior que se relaja y el ácido que sube; Barrett | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 40 | gastro-02 | H. pylori en la mucosa; ácido que rompe la barrera | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 41 | gastro-06 | Hernia hiatal por deslizamiento vs paraesofágica | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 42 | gastro-09 | Vellosidad que se aplana con el gluten y se recupera con la dieta | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 43 | gastro-16 | Realce del hepatocarcinoma (arterial y lavado) vs hemangioma (centrípeto) | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 44 | gastro-18 | Páncreas que se autodigiere: tripsina activada | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 45 | gastro-20 | Émbolo en la mesentérica superior y el intestino que se isquemia | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 46 | gastro-24 | Píloro hipertrófico que no deja pasar; vómito a chorro | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
 | 47 | hem-01 | Médula que responde (reticulocitos) vs que no responde | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 48 | hem-02 | Ferritina y transferrina que se cruzan según el hierro | ★★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 49 | hem-04 | Hepcidina que secuestra el hierro en la inflamación | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
@@ -127,9 +127,9 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 96 | endo-09 | Algoritmo del nódulo: TSH → eco → punción → Bethesda | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 97 | endo-13 | Shock que no responde: por qué falta el cortisol para la noradrenalina | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 98 | endo-22 | GH → IGF-1; la glucosa que no la suprime | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
-| 99 | gastro-04 | Úlcera que perfora vs Boerhaave vs Mallory-Weiss | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 100 | gastro-08 | Pérdida de agua según la deshidratación (planes A, B, C) | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 101 | gastro-21 | Ángulo de Treitz divide alta y baja | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
+| 99 | gastro-04 | Úlcera que perfora vs Boerhaave vs Mallory-Weiss | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
+| 100 | gastro-08 | Pérdida de agua según la deshidratación (planes A, B, C) | ★ | ⬜ nueva | JS gráfico (sin anatomía) | ✅ JS |
+| 101 | gastro-21 | Ángulo de Treitz divide alta y baja | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | ✅ JS |
 | 102 | gastro-26 | Trayectos de arma blanca vs fuego | ★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
 | 103 | hem-21 | Neutrófilos y la regla de los sesenta minutos | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 104 | hem-23 | Trombofilias: balance procoagulante | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |

@@ -165,6 +165,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La bacteria y la úlcera',
+      images: [
+        { src: 'animaciones/gastro-02/A1_pylori_ulcera.mp4', label: 'Helicobacter pylori', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Test de ureasa',
+          say: 'Helicobacter pylori sobrevive al ácido gracias a la ureasa, y daña la barrera de la mucosa hasta formar una úlcera. Da epigastralgia urente, peor en ayunas y que alivia al comer. Con signos de alarma se hace endoscopía, y en la biopsia se busca con el test de ureasa.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Úlceras pépticas en la endoscopía',

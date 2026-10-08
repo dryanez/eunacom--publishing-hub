@@ -177,14 +177,14 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'Dónde ataca cada enfermedad',
       images: [
-        { src: 'animaciones/gastro-10/A1_colitis_ulcerosa.mp4', label: 'Colitis ulcerosa', credit: 'Animación propia' },
-        { src: 'animaciones/gastro-10/A2_crohn.mp4', label: 'Crohn', credit: 'Animación propia' },
+        { src: 'animaciones/gastro-10/A1_colitis_ulcerosa.mp4', label: 'Colitis ulcerosa', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+        { src: 'animaciones/gastro-10/A2_crohn.mp4', label: 'Crohn', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Continua desde el recto',
-          say: 'La colitis ulcerosa parte siempre en el recto y sube de forma continua, sin zonas sanas, y solo daña la mucosa.' },
+          say: 'La colitis ulcerosa parte siempre en el recto y sube de forma continua, sin zonas sanas, y solo daña la mucosa. Por eso trae pujo y tenesmo.' },
         { note: 'Salteada y transmural',
-          say: 'El Crohn puede aparecer en cualquier parte del tubo digestivo, sobre todo en el íleon terminal, con zonas sanas entre medio. Y daña toda la pared, por eso da fístulas y estenosis.' },
+          say: 'El Crohn puede aparecer de la boca al ano, sobre todo en el íleon distal, con zonas sanas entre medio. Y daña toda la pared, por eso da fístulas y abscesos.' },
       ],
     },
 

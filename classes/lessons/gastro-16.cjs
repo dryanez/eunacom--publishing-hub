@@ -99,6 +99,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Realce arterial y lavado',
+      images: [
+        { src: 'animaciones/gastro-16/A1_realce_hcc.mp4', label: 'Hepatocarcinoma', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'En un cirrótico',
+          say: 'En la fase arterial, el hepatocarcinoma brilla, y en la fase portal se lava. El hemangioma, en cambio, se llena desde la periferia hacia el centro. En un cirrótico, el realce arterial con lavado basta para el diagnóstico.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Lesiones focales del hígado',

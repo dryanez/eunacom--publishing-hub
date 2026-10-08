@@ -123,6 +123,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Planes A, B y C',
+      images: [
+        { src: 'animaciones/gastro-08/A1_planes_abc.mp4', label: 'Deshidratación', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Según cuánto peso perdió',
+          say: 'Con pérdida de peso menor al cinco por ciento, plan A: sales orales en casa, de cien a doscientos mililitros tras cada deposición. Entre cinco y diez por ciento, plan B: de cincuenta a cien mililitros por kilo en cuatro a seis horas. Sobre diez por ciento o en shock, plan C: cristaloides endovenosos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Pongamos todo en un solo árbol.',
     },

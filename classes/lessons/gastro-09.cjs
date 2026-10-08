@@ -132,6 +132,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La vellosidad se aplana',
+      images: [
+        { src: 'animaciones/gastro-09/A1_vellosidad_gluten.mp4', label: 'Enfermedad celíaca', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Anti transglutaminasa con IgA total',
+          say: 'El gluten del trigo, la cebada y el centeno daña el intestino delgado, y la vellosidad se aplana. Se pide anti transglutaminasa IgA con IgA total, y se confirma con biopsia del duodeno. El tratamiento es uno solo: dieta sin gluten, estricta y de por vida.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Celíaca: la piel y la biopsia',

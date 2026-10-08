@@ -228,6 +228,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Arriba o abajo del Treitz',
+      images: [
+        { src: 'animaciones/gastro-21/A1_angulo_treitz.mp4', label: 'Hemorragia digestiva', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Alta o baja',
+          say: 'El ángulo de Treitz divide la hemorragia digestiva. Sobre él, en el esófago, el estómago o el duodeno, la hemorragia es alta: hematemesis y melena, que es sangre digerida y negra. Bajo él, es baja: hematoquecia, sangre roja.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Clasificación de Forrest',
       images: [
