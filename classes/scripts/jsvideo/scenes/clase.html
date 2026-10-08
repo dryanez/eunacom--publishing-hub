@@ -412,11 +412,31 @@ function pathway(s, idx, lt, a) {
 async function image(s, idx, lt, a) {
   const beats = SLIDE_BEATS[idx].map(i => B[i]), t0 = beats[0].t0, cur = beats.filter(b => b.t0 - t0 <= lt).pop();
   const im = s.images[Math.min(cur.step, s.images.length - 1)], m = D.media[im.src];
-  if (!m) return;
-  const f = clamp(Math.floor((lt - (sayT(cur) - t0)) * 30) + 1, 1, m.n);
-  const src = `../out/${D.id}/${m.dir}/f${String(f).padStart(4, '0')}.jpg`;
-  const img = await loadImg(src);
-  ctx.save(); ctx.globalAlpha = a; ctx.drawImage(img, 0, 0, W, H); ctx.restore();
+  if (m) {                                   // animación: cuadros del MP4, sin la línea de créditos
+    const f = clamp(Math.floor((lt - (sayT(cur) - t0)) * 30) + 1, 1, m.n);
+    const img = await loadImg(`../out/${D.id}/${m.dir}/f${String(f).padStart(4, '0')}.jpg`);
+    ctx.save(); ctx.globalAlpha = a; ctx.drawImage(img, 0, 0, W, H); ctx.fillStyle = C.BG; ctx.fillRect(700, 694, 580, 26); ctx.restore();
+    return;
+  }
+  photos(s, idx, lt, a, t0, beats);
+}
+// fotos ("Así se ve", "Más imágenes"): a pantalla, con un zoom lento y su rótulo; sin créditos
+const PH = {};
+function photoImg(src) { if (!PH[src]) { PH[src] = { im: null }; loadImg('../../../media/' + src).then(im => PH[src].im = im).catch(() => {}); } return PH[src].im; }
+function photos(s, idx, lt, a, t0, beats) {
+  chrome(s, 0, a);
+  const ims = s.images.filter(i => !D.media[i.src]), n = ims.length; if (!n) return;
+  const dur = beats.reduce((x, b) => x + b.dur, 0), z = 1 + 0.05 * clamp(lt / Math.max(dur, 1), 0, 1);
+  const gap = 24, top = 150, bottom = 640, w = (1200 - gap * (n - 1)) / n, h = bottom - top;
+  ims.forEach((p, i) => {
+    const im = photoImg(p.src), x = 40 + i * (w + gap), ai = a * ease(seg(lt, 0.2 + i * 0.5, 0.6));
+    if (!im || ai <= 0) return;
+    const s0 = Math.min(w / im.width, h / im.height), dw = im.width * s0, dh = im.height * s0, cx = x + w / 2, cy = top + h / 2;
+    ctx.save(); ctx.globalAlpha = ai; ctx.beginPath(); ctx.roundRect(cx - dw / 2, cy - dh / 2, dw, dh, 14); ctx.clip();
+    ctx.translate(cx, cy); ctx.scale(z, z); ctx.drawImage(im, -dw / 2, -dh / 2, dw, dh); ctx.restore();
+    if (p.label) { ctx.save(); ctx.globalAlpha = ai; ctx.font = F(16, 700); const tw = ctx.measureText(p.label).width + 28;
+      rr(cx - tw / 2, Math.min(cy + dh / 2 + 12, 664), tw, 32, 16, hexA(C.CYAN, 0.16)); text(p.label, cx, Math.min(cy + dh / 2 + 12, 664) + 22, F(16, 700), C.CYAN, 'center'); ctx.restore(); }
+  });
 }
 
 // ---------- render ----------
@@ -430,7 +450,7 @@ window.render = async function (t) {
   const a = ease(seg(lt, 0, 0.55)) * (1 - ease(seg(t, t1 - 0.3, 0.3)));
   if (idx === -2) { outro(lt, ease(seg(lt, 0, 0.6))); footer(t); return; }
   const s = D.slides[idx];
-  if (s.type === 'image') { await image(s, idx, lt, a); ctx.fillStyle = C.CYAN; ctx.fillRect(0, 716, W * t / D.total, 4); return; }
+  if (s.type === 'image') { await image(s, idx, lt, a); if (D.media[s.images[0].src]) { ctx.fillStyle = C.CYAN; ctx.fillRect(0, 716, W * t / D.total, 4); return; } footer(t); return; }
   if (s.type === 'cover') cover(s, t, lt, a);
   else {
     chrome(s, t, a);
@@ -445,6 +465,8 @@ window.render = async function (t) {
 
 Promise.all([loadImg('../assets/neurona_alpha.png'), document.fonts.load('800 20px Syne'), document.fonts.load('700 20px Inter'),
   document.fonts.load('400 20px Inter'), document.fonts.load('20px DMMono')]).then(() => document.fonts.ready)
+  .then(() => Promise.all(D.slides.filter(s => s.type === 'image').flatMap(s => s.images).filter(i => !D.media[i.src])
+    .map(i => loadImg('../../../media/' + i.src).then(im => PH[i.src] = { im }).catch(() => {}))))
   .then(async () => { await window.render(0); window.READY = true; });
 </script>
 </body></html>

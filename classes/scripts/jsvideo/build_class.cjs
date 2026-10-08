@@ -41,7 +41,13 @@ const title = (meta.title || id).replace(/^[^:]*\d+\.\d+:\s*/, '').split(':')[0]
 // ---------- beats ----------
 const beats = [];
 const add = (slide, kind, say, extra = {}) => beats.push({ id: `b${String(beats.length).padStart(3, '0')}`, slide, kind, say, ...extra });
-const slides = lesson.slides;
+// En el video: un caso clínico y una pregunta real EUNACOM (el reproductor conserva todas).
+const seenQ = new Set();
+const slides = lesson.slides.filter(s => {
+  if (s.type !== 'quiz') return true;
+  const k = /caso/i.test(s.kicker || '') ? 'caso' : 'pregunta';
+  if (seenQ.has(k)) return false; seenQ.add(k); return true;
+});
 add(-1, 'intro', null, { min: 5.2 });
 slides.forEach((s, si) => {
   if (s.type === 'cover') add(si, 'cover', s.say);
