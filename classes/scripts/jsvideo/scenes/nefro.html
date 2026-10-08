@@ -1,0 +1,212 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Nefrología sobre ilustraciones reales (Servier Medical Art, CC BY 4.0).
+// ?v=podocito (nefro-13) ?v=hipona_aguda|hipona_cronica|hipona_rapida (nefro-05) ?v=ntа (nefro-02) ?v=hepatorrenal (nefro-04)
+// ?v=siadh (nefro-06) ?v=vomito (nefro-12) ?v=semiluna (nefro-16) ?v=pielo (nefro-21) ?v=glomerulopatias (nefro-14) ?v=lupus (nefro-17)
+const V = new URLSearchParams(location.search).get('v') || 'podocito';
+window.SCENE = { duration: 21, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+function draw(k, x, y, w, a = 1, rot = 0, filter) { const im = I(k), h = w * im.height / im.width; ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y); ctx.rotate(rot); if (filter) ctx.filter = filter; ctx.drawImage(im, -w / 2, -h / 2, w, h); ctx.restore(); }
+function flow(P, n, t, col, sp = 0.35, sz = 6, shape = 'dot', a0 = 1) { for (let i = 0; i < n; i++) { const u = ((t * sp) + i / Math.max(1, n)) % 1, [x, y] = P.at(u);
+  ctx.globalAlpha = a0 * Math.min(1, u * 8, (1 - u) * 8); ctx.fillStyle = col; if (shape === 'sq') ctx.fillRect(x - sz, y - sz, 2 * sz, 2 * sz); else { ctx.beginPath(); ctx.arc(x, y, sz, 0, 7); ctx.fill(); } } ctx.globalAlpha = 1; }
+function cnt(t, x, y, w, rows, t0 = 1.2) { ctx.globalAlpha = seg(t, t0, 0.5); rrect(x, y, w, 40 + rows.length * 62, 16, '#161B22');
+  rows.forEach(([lab, val, max, unit, col, fmt, marks], i) => K.bar(x + 24, y + 42 + i * 62, w - 48, lab, val, max, unit, col, marks || [], fmt)); ctx.globalAlpha = 1; }
+const f1 = v => v.toFixed(1).replace('.', ',');
+
+// glomérulo ampliado (recorte de la nefrona)
+const GZ = 2.4, GOX = 50, GOY = 150, GX0 = 20, GY0 = 60, G = (x, y) => [GOX + (x - GX0) * GZ, GOY + (y - GY0) * GZ];
+function glom(t, a = 1, filter) { ctx.save(); ctx.globalAlpha = a; ctx.beginPath(); ctx.roundRect(GOX, GOY, 220 * GZ, 220 * GZ, 20); ctx.clip(); if (filter) ctx.filter = filter;
+  ctx.drawImage(I('nef'), GX0, GY0, 220, 220, GOX, GOY, 220 * GZ, 220 * GZ); ctx.restore(); }
+const GLO = G(140, 152), URI = poly([[146, 150], [160, 128], [168, 108], [170, 88], [172, 62]].map(p => G(...p)));
+
+function podocito(t) {
+  K.title('Síndrome nefrótico: la barrera se abre', 'Se dañan los pies de los podocitos', C.AMBER);
+  glom(t, seg(t, 0, 0.7));
+  const dmg = ease(seg(t, 3, 2));
+  for (let i = 0; i < 14; i++) { const a = -2.6 + i * 0.37, r = 78; const x = GLO[0] + Math.cos(a) * r, y = GLO[1] + Math.sin(a) * r * 0.9;
+    ctx.strokeStyle = dmg > 0.5 ? '#8A6A5A' : '#F2CF9B'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x + Math.cos(a) * (14 - 8 * dmg), y + Math.sin(a) * (14 - 8 * dmg)); ctx.stroke(); }
+  ctx.globalAlpha = fade(t, 1, 5); tag('Podocitos: el filtro de la albúmina', GLO[0], GLO[1] - 140, '#F2CF9B', 15); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 3.5, 0.5); tag('Pedicelos borrados', GLO[0], GLO[1] - 140, C.RED, 15); ctx.globalAlpha = 1;
+  flow(URI, Math.round(14 * dmg), t, '#F2CF5B', 0.35, 8);
+  const e = ease(seg(t, 4, 7));
+  cnt(t, 640, 150, 600, [['Proteinuria', lerp(0.1, 6, e), 8, 'g/día', C.RED, f1, [[3.5, '3,5']]], ['Albúmina', lerp(4.2, 2.1, e), 5, 'g/dL', C.AMBER, f1], ['Colesterol', lerp(180, 360, e), 400, 'mg/dL', C.VIOLET]]);
+  K.card(640, 390, 600, 150, C.AMBER, 'Edema', ['Parte en los párpados en la mañana', 'y baja a las piernas en el día'], seg(t, 12, 0.5), 17);
+  K.banner(640, 560, 600, 'Más de 3,5 g al día: rango nefrótico', C.RED, seg(t, 16, 0.5));
+}
+
+function hipona(t, mode) {
+  const T = { aguda: ['Hiponatremia aguda: el cerebro se hincha', 'El agua entra a la neurona'], cronica: ['Hiponatremia crónica: la neurona se adapta', 'Más de 48 horas: expulsa osmolitos'], rapida: ['Corregir muy rápido: desmielinización', 'El agua sale de golpe'] }[mode];
+  K.title(T[0], T[1], mode === 'cronica' ? C.BLUE : C.RED);
+  const cx = 300, cy = 420;
+  let sc = 1;
+  if (mode === 'aguda') sc = 1 + 0.25 * ease(seg(t, 3, 5));
+  if (mode === 'cronica') sc = 1 + 0.25 * ease(seg(t, 2, 3)) - 0.25 * ease(seg(t, 7, 5));
+  if (mode === 'rapida') sc = 1 - 0.18 * ease(seg(t, 5, 3));
+  ctx.save(); ctx.globalAlpha = seg(t, 0, 0.6); ctx.strokeStyle = '#B9C2CC'; ctx.lineWidth = 10; ctx.beginPath(); ctx.ellipse(cx, cy, 250, 245, 0, 0, 7); ctx.stroke(); ctx.restore();
+  ctx.globalAlpha = seg(t, 0.5, 0.5); tag('Cráneo: no se expande', cx, cy - 265, '#B9C2CC', 14); ctx.globalAlpha = 1;
+  const im = I('neu'), w = 230 * sc, h = w * im.height / im.width;
+  ctx.save(); ctx.globalAlpha = seg(t, 0, 0.6); ctx.beginPath(); ctx.ellipse(cx, cy, 245, 240, 0, 0, 7); ctx.clip();
+  const dem = mode === 'rapida' ? ease(seg(t, 8, 4)) : 0; if (dem) ctx.filter = `saturate(${1 - 0.7 * dem})`;
+  ctx.drawImage(im, cx - w / 2, cy - h * 0.25, w, h); ctx.restore();
+  if (dem > 0) { for (let i = 0; i < 6; i++) { ctx.globalAlpha = dem; ctx.fillStyle = C.RED; ctx.beginPath(); ctx.arc(cx + 2, cy + 110 + i * 26, 6, 0, 7); ctx.fill(); } ctx.globalAlpha = dem; tag('Mielina dañada', cx + 120, cy + 180, C.RED, 14); ctx.globalAlpha = 1; }
+  // agua y osmolitos
+  const inF = mode === 'aguda' ? seg(t, 2.5, 0.5) * (1 - seg(t, 12, 1)) : mode === 'cronica' ? fade(t, 1.5, 6) : 0;
+  const outF = mode === 'rapida' ? fade(t, 4.5, 11) : 0;
+  for (let i = 0; i < 12; i++) { const a = i * 0.52, u = ((t * 0.55) + i / 12) % 1;
+    if (inF > 0) { const r = lerp(230, 70, u); drawDrop(cx + Math.cos(a) * r, cy + Math.sin(a) * r, inF * Math.min(1, u * 4)); }
+    if (outF > 0) { const r = lerp(70, 230, u); drawDrop(cx + Math.cos(a) * r, cy + Math.sin(a) * r, outF * Math.min(1, (1 - u) * 4)); } }
+  if (mode === 'cronica') for (let i = 0; i < 8; i++) { const u = clamp((t - 6.5 - i * 0.3) / 2, 0, 1); if (u <= 0) continue; const a = i * 0.8;
+    ctx.globalAlpha = 1 - seg(u, 0.8, 0.2); ctx.fillStyle = '#F2CF5B'; ctx.beginPath(); ctx.arc(cx + Math.cos(a) * lerp(40, 220, u), cy - 60 + Math.sin(a) * lerp(40, 200, u), 7, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+  const na = mode === 'aguda' ? lerp(140, 118, ease(seg(t, 1, 3))) : mode === 'cronica' ? 118 : lerp(112, 126, ease(seg(t, 4, 5)));
+  cnt(t, 640, 150, 600, [['Sodio', na, 150, 'mEq/L', na < 125 ? C.RED : na < 135 ? C.AMBER : C.GREEN, null, [[135, '135']]]]);
+  if (mode === 'aguda') { K.card(640, 270, 600, 150, C.RED, 'Edema cerebral', ['Cefalea, vómitos, convulsiones, coma', 'Urgencia: salino hipertónico al 3 %'], seg(t, 7, 0.5), 17); }
+  if (mode === 'cronica') { K.card(640, 270, 600, 150, C.BLUE, 'Más de 48 horas', ['La neurona expulsa osmolitos', 'y recupera su tamaño: pocos síntomas'], seg(t, 7.5, 0.5), 17); }
+  if (mode === 'rapida') { K.card(640, 270, 600, 150, C.RED, 'Síndrome de desmielinización osmótica', ['El plasma se vuelve hipertónico de golpe', 'y daña la mielina de los oligodendrocitos'], seg(t, 9, 0.5), 17);
+    rrect(640, 440, 600, 80, 16, '#161B22'); ctx.globalAlpha = seg(t, 5, 0.5); text(`Subió ${Math.round(na - 112)} mEq/L en 24 horas`, 664, 490, 22, na - 112 > 10 ? C.RED : C.AMBER, 'bold'); ctx.globalAlpha = 1; }
+  K.banner(640, 560, 600, 'Máximo: 8 a 10 mEq/L en 24 horas', C.AMBER, seg(t, 15.5, 0.5));
+}
+function drawDrop(x, y, a) { ctx.globalAlpha = a; ctx.fillStyle = C.BLUE; ctx.beginPath(); ctx.moveTo(x, y - 9); ctx.quadraticCurveTo(x + 7, y + 2, x, y + 6); ctx.quadraticCurveTo(x - 7, y + 2, x, y - 9); ctx.fill(); ctx.globalAlpha = 1; }
+
+// túbulo real de la nefrona
+const NF = { x: 60, y: 150, s: 0.8 }, N = (x, y) => [NF.x + x * NF.s, NF.y + y * NF.s];
+const TUB = poly([[150, 130], [175, 95], [185, 45], [205, 22], [235, 25], [262, 15], [290, 12], [320, 25], [322, 70], [302, 105], [305, 150], [310, 220], [312, 300], [313, 450], [315, 600], [330, 622], [345, 600], [345, 450],
+  [345, 330], [352, 240], [370, 190], [392, 120], [400, 60], [415, 22], [445, 25], [460, 70], [440, 130], [450, 200], [458, 300], [480, 380], [515, 410], [522, 500], [522, 650], [522, 800]].map(p => N(...p)));
+function nta(t) {
+  K.title('Necrosis tubular aguda: el túbulo se descama', 'Isquemia o tóxicos matan el epitelio', C.AMBER);
+  draw('nefz', NF.x + 285 * NF.s, NF.y + 412 * NF.s, 570 * NF.s, seg(t, 0, 0.7));
+  const dead = ease(seg(t, 3, 3));
+  // células que se desprenden y forman cilindros
+  for (let i = 0; i < 26; i++) { const born = 3.5 + i * 0.3; if (t < born) continue; const u = Math.min(0.97, (t - born) * 0.07 + 0.08 * rnd(i)); const [x, y] = TUB.at(u);
+    ctx.fillStyle = '#8B5A2B'; ctx.save(); ctx.translate(x, y); ctx.rotate(rnd(i) * 3); ctx.fillRect(-7, -4, 14, 8); ctx.restore(); }
+  ctx.globalAlpha = fade(t, 1, 5); tag('Túbulo proximal: el más sensible', ...N(250, -20), C.BLUE, 15); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 4, 0.5); tag('Células muertas → cilindros granulosos pardos', ...N(440, 700), '#8B5A2B', 15); ctx.globalAlpha = 1;
+  cnt(t, 640, 150, 600, [['Creatinina', lerp(0.9, 4.2, ease(seg(t, 3, 6))), 6, 'mg/dL', C.RED, f1], ['FeNa', lerp(0.5, 3.5, dead), 5, '%', C.AMBER, f1, [[2, '2']]], ['Sodio urinario', lerp(15, 60, dead), 80, 'mEq/L', C.AMBER, null, [[40, '40']]]]);
+  K.card(640, 390, 600, 150, C.AMBER, 'El túbulo no concentra ni retiene sodio', ['Orina isostenúrica', 'Prerrenal: FeNa bajo 1 % y sedimento limpio'], seg(t, 9, 0.5), 17);
+  K.banner(640, 560, 600, 'Causas: shock, sepsis, aminoglicósidos, contraste', C.RED, seg(t, 14, 0.5));
+}
+
+function hepatorrenal(t) {
+  K.title('Síndrome hepatorrenal: el riñón sano que se cierra', 'Vasodilatación esplácnica en la cirrosis', C.AMBER);
+  draw('cirr', 230, 280, 340, seg(t, 0, 0.6)); draw('int', 230, 520, 230, seg(t, 0.3, 0.6));
+  draw('rin2', 560, 470, 220, seg(t, 0.6, 0.6), 0, `saturate(${1 - 0.5 * ease(seg(t, 8, 3))}) brightness(${1 - 0.2 * ease(seg(t, 8, 3))})`);
+  ctx.globalAlpha = seg(t, 0.8, 0.5); tag('Hígado cirrótico', 230, 165, '#8E3A2A', 15); tag('Riñones sanos', 560, 360, '#C0607A', 15); ctx.globalAlpha = 1;
+  const vd = ease(seg(t, 3, 3)); K.glow(230, 520, 160, '255,90,78', 0.45 * vd * (0.8 + 0.2 * Math.sin(t * 3)));
+  ctx.globalAlpha = seg(t, 3.5, 0.5); tag('Óxido nítrico: vasodilatación esplácnica', 230, 650, C.RED, 14); ctx.globalAlpha = 1;
+  // flujo renal que cae
+  const vc = ease(seg(t, 8, 3)); flow(poly([[400, 470], [480, 470], [560, 470]]), Math.round(lerp(8, 2, vc)), t, '#B3122E', 0.4, 6);
+  if (vc > 0) { ctx.globalAlpha = vc; tag('Vasoconstricción renal', 560, 590, C.RED, 14); ctx.globalAlpha = 1; }
+  cnt(t, 760, 150, 480, [['Presión arterial media', lerp(85, 62, vd), 110, 'mmHg', vd > 0.5 ? C.RED : C.GREEN], ['Creatinina', lerp(1, 2.8, ease(seg(t, 9, 5))), 4, 'mg/dL', C.RED, f1], ['Sodio urinario', lerp(30, 5, vc), 50, 'mEq/L', C.BLUE]]);
+  K.card(760, 390, 480, 150, C.BLUE, 'Funciona como prerrenal', ['Sodio urinario muy bajo, sedimento normal', 'El túbulo está sano: retiene sodio'], seg(t, 12, 0.5), 17);
+  K.banner(760, 560, 480, 'Terlipresina + albúmina', C.GREEN, seg(t, 16, 0.5));
+}
+
+function siadh(t) {
+  K.title('Hiponatremia: ¿cuánto volumen y qué orina?', 'SIADH, perdedor de sal y polidipsia', C.BLUE);
+  const cols = [['SIADH', 'Euvolémico', 'Orina concentrada: sobre 100', 'Sodio urinario sobre 40', C.BLUE, 'Restringir agua'],
+                ['Perdedor de sal', 'Hipovolémico', 'Orina concentrada', 'Sodio urinario alto', C.AMBER, 'Volumen y sal'],
+                ['Polidipsia', 'Euvolémico', 'Orina diluida: bajo 100', 'Bebe más de lo que bota', C.GREEN, 'Dejar de beber']];
+  cols.forEach(([n, vol, o1, o2, col, tto], i) => { const a = seg(t, 1 + i * 4, 0.6); if (a <= 0) return; const x = 40 + i * 410; ctx.globalAlpha = a;
+    rrect(x, 150, 390, 480, 18, '#161B22'); ctx.fillStyle = col; ctx.fillRect(x, 150, 390, 6); text(n, x + 195, 196, 24, col, 'bold', 'center');
+    draw('vias', x + 195, 330, 120, a);
+    const lvl = vol === 'Hipovolémico' ? 0.35 : 0.7; rrect(x + 40, 440, 310, 16, 8, '#222833'); rrect(x + 40, 440, 310 * lvl, 16, 8, vol === 'Hipovolémico' ? C.RED : C.GREEN);
+    text(vol, x + 195, 480, 18, C.INK, 'bold', 'center'); text(o1, x + 195, 520, 17, C.INK, '', 'center'); text(o2, x + 195, 550, 17, C.INK, '', 'center');
+    rrect(x + 70, 580, 250, 36, 18, '#1C232D'); text(tto, x + 195, 604, 16, col, 'bold', 'center'); ctx.globalAlpha = 1; });
+  K.banner(40, 650, 1200, 'Hemorragia subaracnoidea con sodio bajo: mira la volemia', C.AMBER, seg(t, 15.5, 0.5));
+}
+
+function vomito(t) {
+  K.title('Alcalosis metabólica por vómitos', 'Se pierde ácido, cloro y volumen; el riñón la mantiene', C.VIOLET);
+  draw('est', 220, 380, 300, seg(t, 0, 0.6));
+  ctx.globalAlpha = seg(t, 0.6, 0.5); tag('Estómago', 300, 560, '#E7A0B5', 15); ctx.globalAlpha = 1;
+  for (let i = 0; i < 10; i++) { const u = ((t * 0.5) + i / 10) % 1; if (t < 2) break; const x = lerp(150, 90, u) + Math.sin(i * 1.3) * 14 * u, y = lerp(250, 150, u);
+    ctx.globalAlpha = Math.min(1, (1 - u) * 4); ctx.fillStyle = i % 2 ? '#F2CF5B' : '#E86A5A'; ctx.beginPath(); ctx.arc(x, y, 6, 0, 7); ctx.fill();
+    text(i % 2 ? 'Cl⁻' : 'H⁺', x + 10, y - 6, 11, C.INK, 'bold'); }
+  ctx.globalAlpha = 1;
+  draw('rin2', 520, 520, 200, seg(t, 6, 0.6));
+  ctx.globalAlpha = seg(t, 6.3, 0.5); tag('Con poco volumen y cloro, el riñón no bota el bicarbonato', 520, 650, C.VIOLET, 14); ctx.globalAlpha = 1;
+  const e = ease(seg(t, 2, 6));
+  cnt(t, 760, 150, 480, [['pH', lerp(7.4, 7.52, e), 7.7, '', C.VIOLET, v => v.toFixed(2).replace('.', ',')], ['Bicarbonato', lerp(24, 36, e), 45, 'mEq/L', C.VIOLET], ['Cloro', lerp(102, 88, e), 110, 'mEq/L', C.AMBER], ['Potasio', lerp(4.2, 2.9, ease(seg(t, 6, 5))), 6, 'mEq/L', C.RED, f1]]);
+  K.card(760, 460, 480, 130, C.GREEN, 'Cloro urinario bajo 20', ['Sensible al cloro: suero fisiológico y potasio'], seg(t, 12, 0.5), 17);
+  K.banner(760, 610, 480, 'El pulmón compensa reteniendo CO2', C.BLUE, seg(t, 16, 0.5));
+}
+
+function semiluna(t) {
+  K.title('Glomerulonefritis rápidamente progresiva', 'Semilunas que asfixian al ovillo', C.RED);
+  glom(t, seg(t, 0, 0.7));
+  const gr = ease(seg(t, 3, 6));
+  ctx.save(); ctx.globalAlpha = 0.85; ctx.fillStyle = '#E8DCC8'; ctx.beginPath();
+  const R1 = 105, R2 = 105 - 55 * gr; ctx.arc(GLO[0], GLO[1], R1, -2.4, -2.4 + 4.2 * Math.max(0.15, gr)); ctx.arc(GLO[0], GLO[1], R2, -2.4 + 4.2 * Math.max(0.15, gr), -2.4, true); ctx.fill();
+  ctx.strokeStyle = '#9A8A70'; ctx.lineWidth = 2; ctx.stroke(); ctx.restore();
+  ctx.globalAlpha = seg(t, 3.5, 0.5); tag('Semiluna: células parietales que proliferan', GLO[0], GLO[1] - 170, '#E8DCC8', 14); ctx.globalAlpha = 1;
+  flow(URI, Math.round(10 * seg(t, 2, 1)), t, '#C0122E', 0.4, 6);
+  cnt(t, 640, 150, 600, [['Creatinina', lerp(1, 5, ease(seg(t, 3, 8))), 6, 'mg/dL', C.RED, f1]]);
+  const IF = [['Lineal', 'Anti membrana basal (Goodpasture)', 'Tipo 1'], ['Granular', 'Inmunocomplejos, C3 bajo', 'Tipo 2'], ['Escasa: pauciinmune', 'ANCA: la más frecuente', 'Tipo 3']];
+  IF.forEach(([a, b, c], i) => { const al = seg(t, 9 + i * 1.5, 0.5); if (al <= 0) return; ctx.globalAlpha = al; rrect(640, 280 + i * 92, 600, 80, 14, '#161B22');
+    ctx.fillStyle = C.VIOLET; ctx.fillRect(640, 280 + i * 92, 6, 80); text(`${c} · ${a}`, 664, 312 + i * 92, 20, C.VIOLET, 'bold'); text(b, 664, 342 + i * 92, 17, C.INK); ctx.globalAlpha = 1; });
+  K.banner(640, 580, 600, 'Urgencia: biopsia y tratamiento inmediato', C.RED, seg(t, 15.5, 0.5));
+}
+
+function pielo(t) {
+  K.title('Pielonefritis: la infección sube', 'De la vejiga al riñón', C.AMBER);
+  const S = 0.48, VX = 180, VY = 145, P = (x, y) => [VX + x * S, VY + y * S];
+  draw('vias', VX + 795 * S / 2, VY + 1356 * S / 2, 795 * S, seg(t, 0, 0.6));
+  const UP = poly([P(395, 1050), P(530, 900), P(545, 700), P(545, 500), P(560, 330), P(620, 200)]);
+  const k = seg(t, 5, 6);
+  for (let i = 0; i < 14; i++) { const base = rnd(i) * 0.2, u = i < 6 ? base : Math.min(base + k * 1.0, 1); if (u < 0 || (i >= 6 && k <= 0)) { }
+    const [x, y] = i < 6 ? P(330 + rnd(i + 3) * 140, 1080 + rnd(i + 7) * 90) : UP.at(Math.min(1, k * (0.7 + 0.3 * rnd(i))));
+    if (i >= 6 && k <= 0) continue; ctx.save(); ctx.translate(x, y); ctx.rotate(rnd(i) * 3); ctx.fillStyle = '#5FBF5F'; ctx.beginPath(); ctx.ellipse(0, 0, 8, 4, 0, 0, 7); ctx.fill(); ctx.restore(); }
+  ctx.globalAlpha = seg(t, 1.5, 0.5); tag('E. coli: 75 a 85 %', ...P(395, 1250), '#5FBF5F', 14); ctx.globalAlpha = 1;
+  ctx.globalAlpha = fade(t, 2, 6); tag('Cistitis: disuria, sin fiebre', ...P(130, 1000), C.BLUE, 14); ctx.globalAlpha = 1;
+  const inf = seg(t, 10, 1.5); if (inf > 0) { K.glow(...P(640, 200), 120, '255,90,78', 0.55 * inf * (0.8 + 0.2 * Math.sin(t * 4))); ctx.globalAlpha = inf; tag('Pielonefritis: el parénquima', ...P(640, 30), C.RED, 14); ctx.globalAlpha = 1; }
+  K.card(640, 150, 600, 160, C.RED, 'Tríada', ['Fiebre alta con calofríos', 'Dolor lumbar · puñopercusión positiva', 'Síntomas urinarios'], seg(t, 11, 0.5), 17);
+  K.card(640, 330, 600, 120, C.AMBER, 'Urocultivo antes del antibiótico', ['Y hemocultivos si se hospitaliza'], seg(t, 14, 0.5), 17);
+  K.banner(640, 480, 600, 'Sin fiebre es cistitis; con fiebre, pielonefritis', C.BLUE, seg(t, 17, 0.5));
+}
+
+function glomerulopatias(t) {
+  K.title('Tres glomerulopatías del nefrótico del adulto', 'Lo que muestra la biopsia', C.VIOLET);
+  const items = [['Membranosa', 'Membrana basal engrosada con espículas', 'Depósitos subepiteliales · mayor de 50', C.VIOLET, 'm'],
+                 ['Cambios mínimos', 'Microscopía de luz normal', 'Solo la electrónica: pedicelos borrados', C.GREEN, 'c'],
+                 ['Focal y segmentaria', 'Algunos glomérulos, una parte de cada uno', 'Esclerosis segmentaria', C.AMBER, 'f']];
+  items.forEach(([n, a1, a2, col, k], i) => { const a = seg(t, 1 + i * 4.5, 0.6); if (a <= 0) return; const x = 40 + i * 410; ctx.globalAlpha = a;
+    rrect(x, 150, 390, 490, 18, '#161B22'); text(n, x + 195, 192, 23, col, 'bold', 'center');
+    ctx.save(); ctx.beginPath(); ctx.roundRect(x + 45, 215, 300, 260, 14); ctx.clip(); ctx.drawImage(I('nef'), 90, 100, 120, 110, x + 45, 215, 300, 275); ctx.restore();
+    const cx = x + 195, cy = 345;
+    if (k === 'm') { ctx.strokeStyle = C.VIOLET; ctx.lineWidth = 7; ctx.beginPath(); ctx.arc(cx, cy, 78, 0, 7); ctx.stroke(); for (let j = 0; j < 20; j++) { const q = j * 0.314; ctx.beginPath(); ctx.moveTo(cx + Math.cos(q) * 78, cy + Math.sin(q) * 78); ctx.lineTo(cx + Math.cos(q) * 92, cy + Math.sin(q) * 92); ctx.stroke(); } }
+    if (k === 'f') { ctx.fillStyle = 'rgba(242,207,91,0.6)'; ctx.beginPath(); ctx.moveTo(cx, cy); ctx.arc(cx, cy, 82, -0.6, 0.7); ctx.fill(); }
+    if (k === 'c') { ctx.globalAlpha = a * (0.5 + 0.5 * Math.sin(t * 3)); tag('se ve normal', cx, cy, C.GREEN, 15); ctx.globalAlpha = a; }
+    text(a1, cx, 520, 16, C.INK, '', 'center'); text(a2, cx, 548, 16, C.INK, '', 'center'); ctx.globalAlpha = 1; });
+  K.banner(40, 655, 1200, 'La membranosa no responde a corticoides solos', C.GREEN, seg(t, 16, 0.5));
+}
+
+function lupus(t) {
+  K.title('Nefritis lúpica: depende de cuánto glomérulo toma', 'Inmunocomplejos que consumen C3 y C4', C.VIOLET);
+  const cls = [['III', 'Focal', 'Menos de la mitad'], ['IV', 'Difusa', 'La mitad o más: la más frecuente y grave'], ['V', 'Membranosa', 'Nefrótico puro']];
+  for (let j = 0; j < 20; j++) { const x = 70 + (j % 5) * 110, y = 200 + Math.floor(j / 5) * 105;
+    const affected3 = j % 5 < 2 && j < 15, affected4 = j < 15 || j % 2 === 0; const ph = t < 7 ? 0 : t < 13 ? 1 : 2;
+    const sick = ph === 0 ? affected3 : ph === 1 ? affected4 : true;
+    ctx.save(); ctx.globalAlpha = seg(t, 0.5 + j * 0.05, 0.4); ctx.beginPath(); ctx.arc(x + 45, y + 45, 42, 0, 7); ctx.clip(); ctx.drawImage(I('nef'), 90, 100, 120, 110, x, y, 90, 90); ctx.restore();
+    if (sick) { ctx.globalAlpha = seg(t, 2 + (ph * 6), 0.8); if (ph < 2) { ctx.fillStyle = 'rgba(255,90,78,0.45)'; ctx.beginPath(); ctx.arc(x + 45, y + 45, 42, 0, 7); ctx.fill(); }
+      else { ctx.strokeStyle = C.VIOLET; ctx.lineWidth = 5; ctx.beginPath(); ctx.arc(x + 45, y + 45, 38, 0, 7); ctx.stroke(); } }
+    ctx.globalAlpha = 1; }
+  const ph = t < 7 ? 0 : t < 13 ? 1 : 2;
+  cls.forEach(([n, a, b], i) => { const al = seg(t, 1 + i * 6, 0.5); if (al <= 0) return; ctx.globalAlpha = al * (i === ph ? 1 : 0.45); rrect(640, 160 + i * 112, 600, 96, 14, '#161B22');
+    ctx.fillStyle = i === 2 ? C.VIOLET : C.RED; ctx.fillRect(640, 160 + i * 112, 6, 96); text(`Clase ${n}: ${a}`, 664, 198 + i * 112, 22, i === 2 ? C.VIOLET : C.RED, 'bold'); text(b, 664, 230 + i * 112, 17, C.INK); ctx.globalAlpha = 1; });
+  K.card(640, 500, 600, 100, C.BLUE, 'Proteinuria, sedimento activo o creatinina que sube', ['En un lupus: biopsia'], seg(t, 17, 0.5), 17);
+}
+
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  if (V.startsWith('hipona_')) hipona(t, V.slice(7)); else ({ podocito, nta, hepatorrenal, siadh, vomito, semiluna, pielo, glomerulopatias, lupus })[V](t);
+  K.credit(); };
+LOAD({ nef: '../assets/servier/nefrona.png', nefz: '../assets/servier/nefrona.png', neu: '../assets/servier/neurona.png', cirr: '../assets/servier/higado_cirrotico.png',
+  int: '../assets/servier/intestinos.png', rin2: '../assets/servier/rinones_corte.png', vias: '../assets/servier/vias_urinarias.png', est: '../assets/servier/estomac_coupe.png' });
+</script>
+</body></html>

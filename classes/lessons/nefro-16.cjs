@@ -191,6 +191,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Semilunas',
+      images: [
+        { src: 'animaciones/nefro-16/A1_semilunas.mp4', label: 'Rápidamente progresiva', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Tres patrones de inmunofluorescencia',
+          say: 'Una necrosis rompe el capilar y las células parietales proliferan, formando una semiluna que asfixia al ovillo. La creatinina sube en días. La inmunofluorescencia separa tres tipos: lineal, por anticuerpos anti membrana basal; granular, por inmunocomplejos; y escasa, la pauciinmune por ANCA, que es la más frecuente.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un árbol de decisión, tal como vas a enfrentar a un paciente con un nefrítico que empeora en semanas.',
     },

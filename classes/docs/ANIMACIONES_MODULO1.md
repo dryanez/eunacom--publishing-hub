@@ -37,7 +37,7 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 6 | hem-10 | Sin ADAMTS13, el von Willebrand no se corta y atrapa plaquetas | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 7 | hem-22 | Lisis tumoral: células que se rompen y liberan potasio, fósforo y ácido úrico | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 8 | infecto-06 | Virus rábico que sube por el nervio; toxina tetánica que quita el freno | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
-| 9 | nefro-13 | Podocito dañado y proteínas que escapan; edema | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
+| 9 | nefro-13 | Podocito dañado y proteínas que escapan; edema | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 10 | neuro-01 | Núcleo y penumbra: la zona salvable que se pierde con el tiempo (2D, sin el modelo arterial incompleto) | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 11 | neuro-20 | Otolitos en el conducto posterior durante Dix-Hallpike y Epley (procedural, con cabeza de referencia) | ★★★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
 | 12 | resp-23 | Faringe que colapsa al dormir y se abre con el CPAP | ★★★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
@@ -48,7 +48,7 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 17 | gastro-13 | Camino de la bilirrubina: hemólisis → hígado → bilis → intestino; dónde se corta en cada ictericia | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 18 | hem-07 | Coombs directo vs indirecto | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 19 | hem-15 | CID: consumo de plaquetas y factores, microtrombos y sangrado | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
-| 20 | nefro-05 | Neurona en hiponatremia aguda, adaptación y corrección rápida (mielinólisis) | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
+| 20 | nefro-05 | Neurona en hiponatremia aguda, adaptación y corrección rápida (mielinólisis) | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 21 | neuro-19 | Parálisis facial central (respeta la frente) vs periférica (toda la hemicara) | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 22 | diab-02 | Curva de la PTGO: normal, intolerancia y diabetes, con los cortes | ★★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 23 | diab-07 | Metformina en el hígado vs sulfonilurea forzando la célula beta | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
@@ -94,12 +94,12 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 63 | infecto-15 | Ciclo del Trypanosoma: vinchuca, sangre, corazón | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 64 | infecto-17 | Ciclo de la hidatidosis: perro, oveja, humano | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 65 | infecto-22 | Línea de tiempo del exantema (cabeza a pies) por enfermedad | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 66 | nefro-02 | Necrosis tubular: túbulo que se descama y forma cilindros | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 67 | nefro-04 | Síndrome hepatorrenal: vasodilatación esplácnica y riñón que se cierra | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 68 | nefro-06 | SIADH vs perdedor de sal vs polidipsia: volemia y orina | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 69 | nefro-12 | Alcalosis por vómito: cloro y potasio que se pierden | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 70 | nefro-16 | Semilunas que crecen en la cápsula de Bowman | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 71 | nefro-21 | Infección que sube de la vejiga al riñón | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
+| 66 | nefro-02 | Necrosis tubular: túbulo que se descama y forma cilindros | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 67 | nefro-04 | Síndrome hepatorrenal: vasodilatación esplácnica y riñón que se cierra | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 68 | nefro-06 | SIADH vs perdedor de sal vs polidipsia: volemia y orina | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 69 | nefro-12 | Alcalosis por vómito: cloro y potasio que se pierden | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 70 | nefro-16 | Semilunas que crecen en la cápsula de Bowman | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 71 | nefro-21 | Infección que sube de la vejiga al riñón | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 72 | neuro-03 | Hematoma que crece y desplaza la línea media | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 73 | neuro-05 | Seno venoso trombosado: la sangre no drena, edema e infarto venoso | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 74 | neuro-06 | Depresión cortical propagada (aura) y activación trigeminovascular | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
@@ -138,8 +138,8 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 107 | infecto-18 | Cultivo según la semana en la fiebre tifoidea | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 108 | infecto-21 | Curso de la mononucleosis; TORCH | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 109 | infecto-24 | Riesgo MASCC y la regla de los sesenta minutos | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 110 | nefro-14 | Tres glomerulopatías en el glomérulo | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 111 | nefro-17 | Clases del lupus renal | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
+| 110 | nefro-14 | Tres glomerulopatías en el glomérulo | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 111 | nefro-17 | Clases del lupus renal | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 112 | neuro-02 | ABCD²: riesgo que se acumula | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 113 | neuro-10 | Síncope (flujo cerebral cae) vs crisis | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 114 | neuro-12 | Bloqueo D2 por fármacos | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |

@@ -208,13 +208,13 @@ module.exports = {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
-      title: 'El podocito',
+      title: 'La barrera se abre',
       images: [
-        { src: 'animaciones/nefro-13/A1_podocito.mp4', label: 'Síndrome nefrótico', credit: 'Animación propia' },
+        { src: 'animaciones/nefro-13/A1_podocito_real.mp4', label: 'Síndrome nefrótico', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Las proteínas escapan',
-          say: 'Cuando se dañan los pies de los podocitos, la barrera deja pasar la albúmina a la orina. La albúmina en sangre cae, aparece el edema, y sube el colesterol.' },
+        { note: 'Albúmina a la orina, edema',
+          say: 'Cuando se dañan los pies de los podocitos, la barrera deja pasar la albúmina a la orina, más de tres coma cinco gramos al día. La albúmina en sangre cae, aparece el edema, y sube el colesterol.' },
       ],
     },
 

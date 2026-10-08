@@ -160,6 +160,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Alcalosis por vómitos',
+      images: [
+        { src: 'animaciones/nefro-12/A1_alcalosis_vomito.mp4', label: 'Alcalosis metabólica', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Cloro urinario bajo veinte',
+          say: 'Con el vómito se pierde ácido y cloro, y sube el bicarbonato. Con poco volumen, poco cloro y poco potasio, el riñón no logra botar ese bicarbonato, y la alcalosis se mantiene. Si el cloro urinario es menor de veinte, es sensible al cloro: se corrige con suero fisiológico y potasio.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un árbol de decisión para la alcalosis metabólica.',
     },

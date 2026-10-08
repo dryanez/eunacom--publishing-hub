@@ -167,6 +167,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La infección sube',
+      images: [
+        { src: 'animaciones/nefro-21/A1_pielonefritis_ascendente.mp4', label: 'Pielonefritis', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Con fiebre es pielonefritis',
+          say: 'La Escherichia coli parte en la vejiga. Si se queda ahí, es una cistitis, sin fiebre. Si asciende por el uréter y llega al riñón, es una pielonefritis: fiebre alta con calofríos y dolor lumbar. Siempre urocultivo antes del antibiótico.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'La infección urinaria en el sedimento',

@@ -124,6 +124,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El túbulo se descama',
+      images: [
+        { src: 'animaciones/nefro-02/A1_necrosis_tubular.mp4', label: 'Necrosis tubular aguda', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Cilindros granulosos y FeNa sobre dos',
+          say: 'Con la isquemia o los tóxicos, el epitelio del túbulo muere y se desprende, y forma cilindros granulosos pardos. El túbulo ya no retiene sodio ni concentra: la FeNa sube sobre dos por ciento y la orina es isostenúrica. En la prerrenal, en cambio, la FeNa es baja y el sedimento, limpio.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Los cilindros urinarios',
       images: [

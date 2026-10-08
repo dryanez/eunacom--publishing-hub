@@ -1,0 +1,30 @@
+# Animaciones JS (classes/scripts/jsvideo) · Nefrología. Aplicar con insert_anim.py.
+SV = 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios'
+def one(title, src, label, note, say): return {'title': title, 'images': [{'src': src, 'label': label, 'credit': SV}], 'steps': [{'note': note, 'say': say}]}
+S = {
+    'nefro-13': one('La barrera se abre', 'animaciones/nefro-13/A1_podocito_real.mp4', 'Síndrome nefrótico', 'Albúmina a la orina, edema',
+        'Cuando se dañan los pies de los podocitos, la barrera deja pasar la albúmina a la orina, más de tres coma cinco gramos al día. La albúmina en sangre cae, aparece el edema, y sube el colesterol.'),
+    'nefro-05': {'title': 'La neurona y el sodio',
+        'images': [{'src': 'animaciones/nefro-05/A1_neurona_aguda_real.mp4', 'label': 'Hiponatremia aguda', 'credit': SV},
+                   {'src': 'animaciones/nefro-05/A2_neurona_adaptacion_real.mp4', 'label': 'Hiponatremia crónica', 'credit': SV},
+                   {'src': 'animaciones/nefro-05/A3_neurona_correccion_real.mp4', 'label': 'Corregir muy rápido', 'credit': SV}],
+        'steps': [{'note': 'Edema cerebral', 'say': 'Cuando el plasma se vuelve hipotónico, el agua entra a la neurona y el cerebro se hincha dentro de un cráneo que no se expande. Eso es el edema cerebral de la hiponatremia aguda, y se trata con salino hipertónico al tres por ciento.'},
+                  {'note': 'Adaptación', 'say': 'Si la hiponatremia lleva más de cuarenta y ocho horas, la neurona expulsa osmolitos y recupera su tamaño. El paciente tiene pocos síntomas.'},
+                  {'note': 'Máximo ocho a diez en veinticuatro horas', 'say': 'Pero esa neurona adaptada es frágil. Si subes el sodio muy rápido, el agua sale de golpe y se daña la mielina. Por eso el máximo es de ocho a diez en veinticuatro horas.'}]},
+    'nefro-02': one('El túbulo se descama', 'animaciones/nefro-02/A1_necrosis_tubular.mp4', 'Necrosis tubular aguda', 'Cilindros granulosos y FeNa sobre dos',
+        'Con la isquemia o los tóxicos, el epitelio del túbulo muere y se desprende, y forma cilindros granulosos pardos. El túbulo ya no retiene sodio ni concentra: la FeNa sube sobre dos por ciento y la orina es isostenúrica. En la prerrenal, en cambio, la FeNa es baja y el sedimento, limpio.'),
+    'nefro-04': one('El riñón sano que se cierra', 'animaciones/nefro-04/A1_hepatorrenal.mp4', 'Síndrome hepatorrenal', 'Sodio urinario muy bajo',
+        'En la cirrosis, el óxido nítrico dilata el territorio esplácnico y cae la presión. El cuerpo responde contrayendo las arterias renales, y el riñón, que está sano, deja de filtrar. Como el túbulo funciona, retiene sodio con avidez. Se trata con terlipresina y albúmina.'),
+    'nefro-06': one('Volumen y orina', 'animaciones/nefro-06/A1_siadh_volemia.mp4', 'SIADH', 'Euvolemia y orina concentrada',
+        'En el SIADH el paciente es euvolémico, con la orina concentrada y el sodio urinario alto. El perdedor de sal también tiene sodio urinario alto, pero está hipovolémico. Y en la polidipsia la orina está diluida, bajo cien.'),
+    'nefro-12': one('Alcalosis por vómitos', 'animaciones/nefro-12/A1_alcalosis_vomito.mp4', 'Alcalosis metabólica', 'Cloro urinario bajo veinte',
+        'Con el vómito se pierde ácido y cloro, y sube el bicarbonato. Con poco volumen, poco cloro y poco potasio, el riñón no logra botar ese bicarbonato, y la alcalosis se mantiene. Si el cloro urinario es menor de veinte, es sensible al cloro: se corrige con suero fisiológico y potasio.'),
+    'nefro-16': one('Semilunas', 'animaciones/nefro-16/A1_semilunas.mp4', 'Rápidamente progresiva', 'Tres patrones de inmunofluorescencia',
+        'Una necrosis rompe el capilar y las células parietales proliferan, formando una semiluna que asfixia al ovillo. La creatinina sube en días. La inmunofluorescencia separa tres tipos: lineal, por anticuerpos anti membrana basal; granular, por inmunocomplejos; y escasa, la pauciinmune por ANCA, que es la más frecuente.'),
+    'nefro-21': one('La infección sube', 'animaciones/nefro-21/A1_pielonefritis_ascendente.mp4', 'Pielonefritis', 'Con fiebre es pielonefritis',
+        'La Escherichia coli parte en la vejiga. Si se queda ahí, es una cistitis, sin fiebre. Si asciende por el uréter y llega al riñón, es una pielonefritis: fiebre alta con calofríos y dolor lumbar. Siempre urocultivo antes del antibiótico.'),
+    'nefro-14': one('Lo que muestra la biopsia', 'animaciones/nefro-14/A1_tres_glomerulopatias.mp4', 'Glomerulopatías', 'Membranosa, cambios mínimos y focal y segmentaria',
+        'En la membranosa la membrana basal está engrosada, con espículas y depósitos subepiteliales; es la más frecuente sobre los cincuenta años. En cambios mínimos el microscopio de luz es normal. Y en la focal y segmentaria se dañan solo algunos glomérulos, y en cada uno solo una parte.'),
+    'nefro-17': one('Cuánto glomérulo toma', 'animaciones/nefro-17/A1_clases_lupus.mp4', 'Nefritis lúpica', 'Clase cuatro: la más frecuente y grave',
+        'En la clase tres, focal, está tomada menos de la mitad de los glomérulos. En la clase cuatro, difusa, la mitad o más: es la más frecuente y la más grave. Y la clase cinco es la membranosa, con un nefrótico puro.'),
+}

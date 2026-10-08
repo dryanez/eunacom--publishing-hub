@@ -137,6 +137,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Volumen y orina',
+      images: [
+        { src: 'animaciones/nefro-06/A1_siadh_volemia.mp4', label: 'SIADH', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Euvolemia y orina concentrada',
+          say: 'En el SIADH el paciente es euvolémico, con la orina concentrada y el sodio urinario alto. El perdedor de sal también tiene sodio urinario alto, pero está hipovolémico. Y en la polidipsia la orina está diluida, bajo cien.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

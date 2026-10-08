@@ -153,6 +153,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cuánto glomérulo toma',
+      images: [
+        { src: 'animaciones/nefro-17/A1_clases_lupus.mp4', label: 'Nefritis lúpica', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Clase cuatro: la más frecuente y grave',
+          say: 'En la clase tres, focal, está tomada menos de la mitad de los glomérulos. En la clase cuatro, difusa, la mitad o más: es la más frecuente y la más grave. Y la clase cinco es la membranosa, con un nefrótico puro.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol, desde el examen de orina hasta el tratamiento.',
     },

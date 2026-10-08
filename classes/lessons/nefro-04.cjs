@@ -92,6 +92,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El riñón sano que se cierra',
+      images: [
+        { src: 'animaciones/nefro-04/A1_hepatorrenal.mp4', label: 'Síndrome hepatorrenal', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Sodio urinario muy bajo',
+          say: 'En la cirrosis, el óxido nítrico dilata el territorio esplácnico y cae la presión. El cuerpo responde contrayendo las arterias renales, y el riñón, que está sano, deja de filtrar. Como el túbulo funciona, retiene sodio con avidez. Se trata con terlipresina y albúmina.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión.',
     },

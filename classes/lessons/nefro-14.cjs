@@ -149,6 +149,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Lo que muestra la biopsia',
+      images: [
+        { src: 'animaciones/nefro-14/A1_tres_glomerulopatias.mp4', label: 'Glomerulopatías', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Membranosa, cambios mínimos y focal y segmentaria',
+          say: 'En la membranosa la membrana basal está engrosada, con espículas y depósitos subepiteliales; es la más frecuente sobre los cincuenta años. En cambios mínimos el microscopio de luz es normal. Y en la focal y segmentaria se dañan solo algunos glomérulos, y en cada uno solo una parte.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las tres en un árbol, tal como vas a razonar una pregunta que te muestra un adulto nefrótico.',
     },

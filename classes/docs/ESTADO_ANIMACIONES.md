@@ -2,12 +2,12 @@
 
 Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONES.md y de los videos.
 
-- ✅ Hechas con anatomía real (3D o Blausen): **48**
-- 🔁 Hechas pero con anatomía abstracta: rehacer: **14**
-- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **74**
-- ⬜ Pendientes (aún sin video): **131**
+- ✅ Hechas con anatomía real (3D o Blausen): **50**
+- 🔁 Hechas pero con anatomía abstracta: rehacer: **12**
+- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **82**
+- ⬜ Pendientes (aún sin video): **123**
 
-## 🔁 Hechas pero con anatomía abstracta: rehacer (14)
+## 🔁 Hechas pero con anatomía abstracta: rehacer (12)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -15,18 +15,16 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | gastro-25 | Invaginación: un segmento que entra en el siguiente | 3D | ★★★ | A1_invaginacion.mp4 |
 | gin-13 | Del VPH a la lesión de alto grado y el cáncer (zona de transformación) | M | ★★★ | A1_vph_cancer.mp4 |
 | infecto-06 | Virus rábico que sube por el nervio; toxina tetánica que quita el freno | M | ★★★ | A1_rabia.mp4, A2_tetanos.mp4 |
-| nefro-13 | Podocito dañado y proteínas que escapan; edema | M | ★★★ | A1_podocito.mp4 |
 | neuro-01 | Núcleo y penumbra: la zona salvable que se pierde con el tiempo (2D, sin el modelo arterial incompleto) | M | ★★★ | A1_penumbra.mp4 |
 | ob-04 | Redistribución del flujo fetal (cerebro protegido) en la restricción | M | ★★★ | A1_redistribucion.mp4 |
 | ob-05 | Invasión trofoblástica defectuosa → arterias espirales estrechas → preeclampsia | M | ★★★ | A1_placentacion.mp4 |
 | gastro-13 | (animación existente, no estaba en el plan) |  |  | A1_camino_bilirrubina.mp4 |
-| nefro-05 | (animación existente, no estaba en el plan) |  |  | A1_neurona_aguda.mp4, A2_neurona_adaptacion.mp4, A3_neurona_correccion.mp4 |
 | neuro-19 | (animación existente, no estaba en el plan) |  |  | A1_facial_central.mp4, A2_facial_periferica.mp4 |
 | ob-18 | (animación existente, no estaba en el plan) |  |  | A1_atonia.mp4 |
 | ob-20 | (animación existente, no estaba en el plan) |  |  | A1_rh_sensibilizacion.mp4, A2_rh_segundo.mp4, A3_rh_antid.mp4 |
 | oftal-10 | (animación existente, no estaba en el plan) |  |  | A1_campo_visual.mp4 |
 
-## ⬜ Pendientes (aún sin video) (131)
+## ⬜ Pendientes (aún sin video) (123)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -77,12 +75,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | infecto-15 | Ciclo del Trypanosoma: vinchuca, sangre, corazón | M | ★★ |  |
 | infecto-17 | Ciclo de la hidatidosis: perro, oveja, humano | M | ★★ |  |
 | infecto-22 | Línea de tiempo del exantema (cabeza a pies) por enfermedad | M | ★★ |  |
-| nefro-02 | Necrosis tubular: túbulo que se descama y forma cilindros | M | ★★ |  |
-| nefro-04 | Síndrome hepatorrenal: vasodilatación esplácnica y riñón que se cierra | M | ★★ |  |
-| nefro-06 | SIADH vs perdedor de sal vs polidipsia: volemia y orina | M | ★★ |  |
-| nefro-12 | Alcalosis por vómito: cloro y potasio que se pierden | M | ★★ |  |
-| nefro-16 | Semilunas que crecen en la cápsula de Bowman | M | ★★ |  |
-| nefro-21 | Infección que sube de la vejiga al riñón | 3D | ★★ |  |
 | neuro-03 | Hematoma que crece y desplaza la línea media | M | ★★ |  |
 | neuro-05 | Seno venoso trombosado: la sangre no drena, edema e infarto venoso | M | ★★ |  |
 | neuro-06 | Depresión cortical propagada (aura) y activación trigeminovascular | M | ★★ |  |
@@ -134,8 +126,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | infecto-18 | Cultivo según la semana en la fiebre tifoidea | M | ★ |  |
 | infecto-21 | Curso de la mononucleosis; TORCH | M | ★ |  |
 | infecto-24 | Riesgo MASCC y la regla de los sesenta minutos | M | ★ |  |
-| nefro-14 | Tres glomerulopatías en el glomérulo | M | ★ |  |
-| nefro-17 | Clases del lupus renal | M | ★ |  |
 | neuro-02 | ABCD²: riesgo que se acumula | M | ★ |  |
 | neuro-10 | Síncope (flujo cerebral cae) vs crisis | M | ★ |  |
 | neuro-12 | Bloqueo D2 por fármacos | M | ★ |  |
@@ -162,7 +152,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
 | reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
-## ✅ Hechas con anatomía real (3D o Blausen) (48)
+## ✅ Hechas con anatomía real (3D o Blausen) (50)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -186,6 +176,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | infecto-23 | Virus varicela latente en el ganglio que reactiva como zóster en un dermatoma | 3D | ★★★ | A1_zoster_real.mp4 |
 | nefro-01 | Autorregulación glomerular (aferente y eferente); prerrenal vs renal vs posrenal | M | ★★★ | A1_autorregulacion_real.mp4 |
 | nefro-08 | Dónde se queda cada suero (intravascular, intersticial, intracelular); dónde actúa cada diurético en la nefrona | M | ★★★ | A1_sueros.mp4, A2_diureticos_real.mp4 |
+| nefro-13 | Podocito dañado y proteínas que escapan; edema | M | ★★★ | A1_podocito_real.mp4 |
 | neuro-04 | Aneurisma del polígono que se rompe y llena las cisternas | M | ★★★ | A1_aneurisma_3d.mp4 |
 | neuro-08 | Crisis focal que se generaliza (propagación por la corteza) | M | ★★★ | A1_crisis_propagacion_3d.mp4 |
 | neuro-11 | Vía nigroestriada: dopamina que falta y levodopa que la repone | M | ★★★ | A1_nigroestriada_3d.mp4 |
@@ -204,6 +195,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | gastro-19 | (animación existente, no estaba en el plan) |  |  | A1_apendicitis_3d.mp4 |
 | hem-07 | (animación existente, no estaba en el plan) |  |  | A1_coombs_directo_real.mp4, A2_coombs_indirecto_real.mp4 |
 | hem-15 | (animación existente, no estaba en el plan) |  |  | A1_cid_real.mp4 |
+| nefro-05 | (animación existente, no estaba en el plan) |  |  | A1_neurona_aguda_real.mp4, A2_neurona_adaptacion_real.mp4, A3_neurona_correccion_real.mp4 |
 | neuro-17 | (animación existente, no estaba en el plan) |  |  | A1_placa_normal_real.mp4, A2_placa_miastenia_real.mp4 |
 | neuro-23 | (animación existente, no estaba en el plan) |  |  | A1_fractura_cadera_3d.mp4 |
 | ob-13 | (animación existente, no estaba en el plan) |  |  | A1_placenta_previa.mp4, A2_dppni_real.mp4 |
@@ -215,7 +207,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | resp-21 | (animación existente, no estaba en el plan) |  |  | A1_hipoventilacion_real.mp4, A2_shunt_real.mp4 |
 | reuma-24 | (animación existente, no estaba en el plan) |  |  | A1_aplastamiento_3d.mp4 |
 
-## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (74)
+## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (82)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -266,6 +258,12 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | hem-18 | Diseminación ordenada del Hodgkin por cadenas ganglionares | 3D | ★★ | A1_hodgkin_contiguo.mp4 |
 | hem-20 | JAK2: receptor que no se apaga; tres neoplasias | M | ★★ | A1_jak2_receptor.mp4 |
 | hem-24 | Compatibilidad ABO: quién recibe de quién | M | ★★ | A1_compatibilidad_abo.mp4 |
+| nefro-02 | Necrosis tubular: túbulo que se descama y forma cilindros | M | ★★ | A1_necrosis_tubular.mp4 |
+| nefro-04 | Síndrome hepatorrenal: vasodilatación esplácnica y riñón que se cierra | M | ★★ | A1_hepatorrenal.mp4 |
+| nefro-06 | SIADH vs perdedor de sal vs polidipsia: volemia y orina | M | ★★ | A1_siadh_volemia.mp4 |
+| nefro-12 | Alcalosis por vómito: cloro y potasio que se pierden | M | ★★ | A1_alcalosis_vomito.mp4 |
+| nefro-16 | Semilunas que crecen en la cápsula de Bowman | M | ★★ | A1_semilunas.mp4 |
+| nefro-21 | Infección que sube de la vejiga al riñón | 3D | ★★ | A1_pielonefritis_ascendente.mp4 |
 | diab-03 | Resistencia a la insulina que sube durante el embarazo (lactógeno placentario) | M | ★ | A1_resistencia_embarazo.mp4 |
 | diab-05 | Glicemia durante y después del ejercicio (riesgo de hipoglicemia tardía) | M | ★ | A1_ejercicio_hipoglicemia.mp4 |
 | diab-22 | Neuropatía + isquemia + trauma → úlcera; el estilete que toca hueso | M | ★ | A1_pie_diabetico.mp4 |
@@ -276,6 +274,8 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | endo-22 | GH → IGF-1; la glucosa que no la suprime | M | ★ | A1_acromegalia_gh.mp4 |
 | hem-21 | Neutrófilos y la regla de los sesenta minutos | M | ★ | A1_neutropenia_hora_oro.mp4 |
 | hem-23 | Trombofilias: balance procoagulante | M | ★ | A1_balance_trombofilia.mp4 |
+| nefro-14 | Tres glomerulopatías en el glomérulo | M | ★ | A1_tres_glomerulopatias.mp4 |
+| nefro-17 | Clases del lupus renal | M | ★ | A1_clases_lupus.mp4 |
 | cirugia-09 | (animación existente, no estaba en el plan) |  |  | A1_abcde.mp4 |
 | diab-11 | (animación existente, no estaba en el plan) |  |  | A1_basales.mp4, A2_prandiales.mp4 |
 | endo-01 | (animación existente, no estaba en el plan) |  |  | A1_eje_normal.mp4, A2_eje_primario.mp4, A3_eje_hiper.mp4, A4_eje_central.mp4 |

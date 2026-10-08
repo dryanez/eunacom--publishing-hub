@@ -20,7 +20,8 @@ function KIT(L) {
     ctx.fillStyle = c1; ctx.beginPath(); ctx.roundRect(-24, -10, 24, 20, [10, 0, 0, 10]); ctx.fill();
     ctx.fillStyle = c2; ctx.beginPath(); ctx.roundRect(0, -10, 24, 20, [0, 10, 10, 0]); ctx.fill(); ctx.restore();
   }
-  function bar(x, y, w, label, val, max, unit, col, marks = [], fmt = v => Math.round(v)) {
+  function bar(x, y, w, label, val, max, unit, col, marks = [], fmt) {
+    fmt = fmt || (v => Math.round(v)); marks = marks || [];
     text(label, x, y, 19, C.INK, 'bold'); text(`${fmt(val)} ${unit}`, x + w, y, 19, col, 'bold', 'right');
     rrect(x, y + 10, w, 14, 7, '#222833'); rrect(x, y + 10, w * clamp(val / max, 0, 1), 14, 7, col);
     for (const [m, lab] of marks) { const mx = x + w * m / max; ctx.fillStyle = '#ddd'; ctx.fillRect(mx - 1, y + 5, 2, 24); text(lab, mx, y + 46, 13, C.MUTED, '', 'center'); }
