@@ -202,6 +202,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El receptor que no se apaga',
+      images: [
+        { src: 'animaciones/hem-20/A1_jak2_receptor.mp4', label: 'JAK dos', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Eritropoyetina suprimida',
+          say: 'Normalmente el receptor solo envía señal cuando llega la eritropoyetina. Con la mutación de JAK dos queda encendido siempre, y los glóbulos rojos se fabrican sin control. El riñón deja de fabricar eritropoyetina. La misma familia incluye la trombocitemia esencial y la mielofibrosis.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Mielofibrosis',
       images: [

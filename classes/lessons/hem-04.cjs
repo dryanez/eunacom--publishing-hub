@@ -200,6 +200,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El hierro encerrado',
+      images: [
+        { src: 'animaciones/hem-04/A1_hepcidina_ferroportina.mp4', label: 'Hepcidina', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Ferritina alta, hierro bajo',
+          say: 'Con la inflamación, el hígado fabrica hepcidina, que destruye la ferroportina, la única puerta de salida del hierro. El hierro queda encerrado en los macrófagos: la ferritina sube, pero el hierro de la sangre baja. Por eso darle hierro a ciegas no sirve.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las dos anemias en un solo árbol, empezando por la anemia normocítica que no regenera.',
     },

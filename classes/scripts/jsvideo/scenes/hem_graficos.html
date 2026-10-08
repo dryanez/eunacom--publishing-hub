@@ -1,0 +1,123 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// ?v=hierro (hem-02) ferritina = depósitos (baja en ferropenia, sube con inflamación); transferrina = camiones (sube en ferropenia, baja con inflamación).
+// ?v=abo (hem-24)    anticuerpos del receptor contra antígenos del donante: O da glóbulos a todos; AB recibe de todos.
+// ?v=neutro (hem-21) nadir día 7 a 14; RAN bajo 500 + fiebre 38,3: antibiótico EV antes de 60 minutos (cefepime).
+// ?v=trombo (hem-23) acelerador (factor V Leiden, protrombina) vs freno (antitrombina, proteínas C y S).
+// ?v=reti (hem-01)   reticulocitos: médula que responde (hemólisis, sangrado) vs que no responde (falta de materia prima o médula).
+const V = new URLSearchParams(location.search).get('v') || 'hierro';
+window.SCENE = { duration: 21, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const G = GRAPH(L), K = KIT(L), { seg, fade } = K;
+
+function hierro(t) {
+  K.title('Ferritina y transferrina se mueven al revés', 'Depósitos y camiones del hierro', C.AMBER);
+  const ax = G.axes({ x: 110, y: 170, w: 700, h: 380 }, [0, 2], [0, 100], { xt: [[0, 'Ferropenia'], [1, 'Normal'], [2, 'Inflamación']], yt: [], yl: 'Nivel en sangre' });
+  ax.draw(seg(t, 0, 0.7));
+  const fer = G.smooth([[0, 12], [1, 50], [2, 90]]), tra = G.smooth([[0, 88], [1, 50], [2, 18]]);
+  const k = ease(seg(t, 1.5, 5));
+  // de la normalidad hacia cada lado
+  const left = x => x, kL = k, x0 = 1 - kL, x1 = 1 + kL;
+  G.curve(ax, fer, 1, C.AMBER, 5, x0, x1); G.curve(ax, tra, 1, C.BLUE, 5, x0, x1);
+  if (k > 0.9) { ctx.globalAlpha = seg(t, 6.6, 0.5);
+    text('Ferritina (depósitos)', ax.X(2) - 4, ax.Y(90) - 14, 18, C.AMBER, 'bold', 'right'); text('Transferrina (camiones)', ax.X(0) + 4, ax.Y(88) - 14, 18, C.BLUE, 'bold');
+    ctx.globalAlpha = 1; }
+  K.card(860, 170, 380, 170, C.AMBER, 'Ferropenia', ['Ferritina baja: lo más sensible', 'Transferrina alta', 'Saturación baja'], seg(t, 7.5, 0.5));
+  K.card(860, 360, 380, 170, C.RED, 'Inflamación', ['Ferritina alta (fase aguda +)', 'Transferrina baja (fase aguda −)', 'Hierro atrapado por la hepcidina'], seg(t, 11, 0.5));
+  K.banner(110, 620, 1130, 'Ferritina normal: 30 a 200 ng/mL, si no hay inflamación', C.AMBER, seg(t, 15.5, 0.5));
+}
+
+function abo(t) {
+  K.title('Compatibilidad ABO', 'Los anticuerpos del receptor atacan los antígenos del donante', C.RED);
+  const grp = ['O', 'A', 'B', 'AB'], ab = { O: 'anti A y anti B', A: 'anti B', B: 'anti A', AB: 'ninguno' };
+  const ok = (don, rec) => don === 'O' || rec === 'AB' || don === rec;
+  const x0 = 330, y0 = 210, cw = 150, ch = 86;
+  ctx.globalAlpha = seg(t, 0.5, 0.5);
+  text('Donante de glóbulos rojos →', x0, y0 - 40, 18, C.MUTED, 'bold');
+  text('Receptor ↓', 110, y0 + 18, 18, C.MUTED, 'bold');
+  grp.forEach((g, i) => { rrect(x0 + i * cw + 6, y0 - 28, cw - 12, 44, 10, '#1C232D'); text(g, x0 + i * cw + cw / 2, y0 + 2, 24, C.INK, 'bold', 'center'); });
+  grp.forEach((r, j) => { const y = y0 + 30 + j * ch; text(r, 130, y + 50, 26, C.INK, 'bold', 'center'); text(ab[r], 230, y + 50, 15, C.MUTED, '', 'center'); });
+  ctx.globalAlpha = 1;
+  grp.forEach((r, j) => grp.forEach((d, i) => {
+    const a = seg(t, 2 + j * 1.6 + i * 0.25, 0.4); if (a <= 0) return;
+    const good = ok(d, r), x = x0 + i * cw + 8, y = y0 + 30 + j * ch + 8;
+    ctx.globalAlpha = a; rrect(x, y, cw - 16, ch - 16, 12, good ? 'rgba(61,220,132,0.18)' : 'rgba(255,90,78,0.18)');
+    text(good ? '✓' : '✗', x + (cw - 16) / 2, y + 46, 30, good ? C.GREEN : C.RED, 'bold', 'center'); ctx.globalAlpha = 1;
+  }));
+  const hl = seg(t, 9.5, 0.5);
+  if (hl > 0) { ctx.globalAlpha = hl; ctx.strokeStyle = C.GREEN; ctx.lineWidth = 3; ctx.strokeRect(x0 + 4, y0 + 34, cw - 8, 4 * ch - 8);
+    tag('O: donante universal', x0 + cw / 2, y0 + 30 + 4 * ch + 22, C.GREEN, 15); ctx.globalAlpha = 1; }
+  const hr = seg(t, 11.5, 0.5);
+  if (hr > 0) { ctx.globalAlpha = hr; ctx.strokeStyle = C.BLUE; ctx.lineWidth = 3; ctx.strokeRect(x0 + 4, y0 + 30 + 3 * ch + 4, 4 * cw - 8, ch - 8);
+    tag('AB: receptor universal', x0 + 4 * cw + 90, y0 + 30 + 3 * ch + 42, C.BLUE, 15); ctx.globalAlpha = 1; }
+  K.card(960, 200, 280, 170, C.RED, 'El error que mata', ['Identificación errónea →', 'hemólisis aguda en', 'los primeros minutos'], seg(t, 14, 0.5), 17);
+  K.banner(330, 640, 910, 'Glóbulos rojos: transfundir bajo 7 en el paciente estable', C.AMBER, seg(t, 17, 0.5));
+}
+
+function neutro(t) {
+  K.title('Neutropenia febril: la hora de oro', 'La fiebre puede ser el único signo de una sepsis', C.RED);
+  const ax = G.axes({ x: 110, y: 170, w: 700, h: 300 }, [0, 21], [0, 4000], { xt: [0, 7, 14, [21, '21 días']], yt: [[500, '500'], [1000, '1.000'], [3000, '3.000']], yl: 'Neutrófilos (RAN, /µL)', xl: 'Días desde la quimioterapia' });
+  ax.draw(seg(t, 0, 0.7));
+  G.band(ax, 0, 500, 'rgba(255,90,78,0.15)', seg(t, 1.5, 0.5), null);
+  G.hline(ax, 500, C.RED, 'Bajo 500', seg(t, 1.5, 0.5), 'left');
+  const f = G.smooth([[0, 3200], [4, 2400], [7, 600], [10, 180], [13, 400], [16, 1800], [21, 3100]]);
+  const k = seg(t, 2, 4.5); const p = G.curve(ax, f, k, C.INK, 5); if (k < 1) G.head(p, C.BLUE);
+  if (k >= 1) { ctx.globalAlpha = seg(t, 6.5, 0.5); tag('Nadir: día 7 a 14', ax.X(10), ax.Y(180) + 36, C.BLUE, 15); ctx.globalAlpha = 1; }
+  // fiebre + reloj
+  const fv = seg(t, 7.5, 0.5);
+  if (fv > 0) { ctx.globalAlpha = fv; K.glow(ax.X(10), ax.Y(180), 50, '255,90,78', 0.6 * (0.7 + 0.3 * Math.sin(t * 6))); tag('Fiebre 38,3 °C', ax.X(10), ax.Y(180) - 40, C.RED, 16); ctx.globalAlpha = 1; }
+  const ck = seg(t, 9, 0.5);
+  if (ck > 0) {
+    const cx = 1020, cy = 300, r = 95, m = Math.min(60, (t - 9) * 9);
+    ctx.globalAlpha = ck; rrect(860, 170, 380, 320, 18, '#161B22');
+    ctx.strokeStyle = '#2A313C'; ctx.lineWidth = 14; ctx.beginPath(); ctx.arc(cx, cy, r, 0, 7); ctx.stroke();
+    ctx.strokeStyle = m < 60 ? C.GREEN : C.RED; ctx.beginPath(); ctx.arc(cx, cy, r, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * m / 60); ctx.stroke();
+    text(`${Math.round(m)} min`, cx, cy + 12, 34, C.INK, 'bold', 'center');
+    text('Antibiótico EV antes de 60 minutos', cx, cy + 150, 17, C.INK, 'bold', 'center'); ctx.globalAlpha = 1;
+  }
+  K.card(110, 540, 700, 100, C.BLUE, 'Alto riesgo: cefepime 2 g cada 8 horas', ['Sin esperar el foco ni los cultivos'], seg(t, 13, 0.5));
+  K.banner(860, 520, 380, 'Cada hora de retraso cuenta', C.RED, seg(t, 16, 0.5));
+}
+
+function trombo(t) {
+  K.title('Trombofilias: el balance se inclina', 'Más acelerador o menos freno', C.VIOLET);
+  const cx = 470, cy = 360, ang = lerp(0, -0.22, ease(seg(t, 6, 1.5))) + lerp(0, -0.12, ease(seg(t, 11, 1.5)));
+  ctx.globalAlpha = seg(t, 0, 0.6);
+  ctx.fillStyle = '#5A6573'; ctx.beginPath(); ctx.moveTo(cx - 40, cy + 170); ctx.lineTo(cx + 40, cy + 170); ctx.lineTo(cx, cy); ctx.fill();
+  ctx.save(); ctx.translate(cx, cy); ctx.rotate(ang); ctx.fillStyle = '#9AA0A6'; ctx.fillRect(-300, -8, 600, 16);
+  // platillos
+  const pan = (x, label, col, items, extra) => { ctx.save(); ctx.translate(x, 0); ctx.rotate(-ang);
+    ctx.strokeStyle = '#9AA0A6'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(-70, 120); ctx.moveTo(0, 0); ctx.lineTo(70, 120); ctx.stroke();
+    rrect(-95, 120, 190, 22, 10, col); text(label, 0, 170, 18, col, 'bold', 'center');
+    items.forEach((s, i) => { const a = extra[i]; if (a <= 0) return; ctx.globalAlpha = a; rrect(-80, 92 - i * 34, 160, 30, 8, '#1C232D'); text(s, 0, 113 - i * 34, 14, C.INK, 'bold', 'center'); ctx.globalAlpha = 1; });
+    ctx.restore(); };
+  pan(-270, 'Procoagulantes (acelerador)', C.RED, ['Factores', 'Factor V Leiden', 'Protrombina 20210'], [1, seg(t, 6, 0.5), seg(t, 8, 0.5)]);
+  pan(270, 'Anticoagulantes (freno)', C.GREEN, ['Antitrombina', 'Proteína C', 'Proteína S'], [1 - 0.85 * seg(t, 11, 0.5), 1 - 0.85 * seg(t, 11.5, 0.5), 1 - 0.85 * seg(t, 12, 0.5)]);
+  ctx.restore(); ctx.globalAlpha = 1;
+  K.card(860, 170, 380, 150, C.RED, 'Ganancia de función', ['Factor V Leiden: la más frecuente', '(3 a 5 % son portadores)'], seg(t, 6.5, 0.5), 17);
+  K.card(860, 340, 380, 150, C.GREEN, 'Pérdida del freno', ['Antitrombina: la más rara', 'y la más trombogénica'], seg(t, 11, 0.5), 17);
+  K.banner(110, 640, 1130, 'Resultado: trombosis venosa profunda y embolía pulmonar', C.VIOLET, seg(t, 16, 0.5));
+}
+
+function reti(t) {
+  K.title('¿La médula está respondiendo?', 'Los reticulocitos son los glóbulos rojos recién salidos', C.BLUE);
+  const col = (x, title, sub, n, c, causes, t0) => { const a = seg(t, t0, 0.5); if (a <= 0) return; ctx.globalAlpha = a;
+    rrect(x, 160, 540, 460, 18, '#161B22'); text(title, x + 24, 200, 23, c, 'bold'); text(sub, x + 24, 230, 17, C.MUTED);
+    for (let i = 0; i < 24; i++) { const u = ((t - t0) * 0.35 + i / 24) % 1; if (i >= n) continue; const yy = 270 + (i % 4) * 34, xx = x + 30 + u * 470;
+      ctx.globalAlpha = a * Math.min(1, u * 6, (1 - u) * 6); ctx.fillStyle = '#D23A4A'; ctx.beginPath(); ctx.ellipse(xx, yy, 12, 9, 0, 0, 7); ctx.fill();
+      ctx.fillStyle = '#9C2533'; ctx.beginPath(); ctx.ellipse(xx, yy, 5, 3.5, 0, 0, 7); ctx.fill(); }
+    ctx.globalAlpha = a; causes.forEach((s, i) => text(s, x + 24, 450 + i * 32, 18, C.INK)); ctx.globalAlpha = 1; };
+  col(40, 'Responde: reticulocitos altos', 'La médula fabrica, se pierde afuera', 22, C.GREEN, ['• Hemólisis', '• Sangrado agudo', '• Tras tratar el déficit (hierro, B12)'], 1);
+  col(700, 'No responde: reticulocitos bajos', 'El problema es la fábrica', 4, C.RED, ['• Falta materia prima: hierro, B12, folato', '• Médula enferma: aplasia, infiltración', '• Falta eritropoyetina: riñón'], 5);
+  K.banner(40, 640, 1200, 'El porcentaje engaña: se corrige por el hematocrito y la maduración', C.AMBER, seg(t, 12, 0.5));
+}
+
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); ({ hierro, abo, neutro, trombo, reti })[V](t); text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); };
+LOAD({});
+</script>
+</body></html>

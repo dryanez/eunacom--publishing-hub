@@ -178,13 +178,13 @@ module.exports = {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
-      title: 'El von Willebrand gigante',
+      title: 'Sin la tijera ADAMTS trece',
       images: [
-        { src: 'animaciones/hem-10/A1_adamts13.mp4', label: 'PTT', credit: 'Animación propia' },
+        { src: 'animaciones/hem-10/A1_adamts13_real.mp4', label: 'PTT', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Sin ADAMTS trece',
-          say: 'Normalmente la ADAMTS trece corta el von Willebrand. Sin ella, quedan multímeros gigantes que atrapan plaquetas y rompen los glóbulos rojos que pasan: esquistocitos y plaquetas bajas.' },
+        { note: 'Trombos de plaquetas, coagulación normal',
+          say: 'La ADAMTS trece corta el factor von Willebrand como una tijera. En el PTT falta, y los multímeros gigantes quedan anclados al endotelio y atrapan plaquetas: se forman microtrombos, caen las plaquetas, y los glóbulos rojos se rompen al pasar, formando esquistocitos. Como no se consumen factores, el TP, el TTPK y el fibrinógeno son normales.' },
       ],
     },
 

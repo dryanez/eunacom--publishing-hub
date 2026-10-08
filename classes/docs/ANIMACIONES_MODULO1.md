@@ -34,8 +34,8 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 3 | endo-15 | Feocromocitoma: descarga de catecolaminas; por qué alfa antes que beta | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 4 | gastro-10 | Colitis ulcerosa continua desde el recto vs Crohn salteado y transmural | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 5 | gastro-25 | Invaginación: un segmento que entra en el siguiente | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
-| 6 | hem-10 | Sin ADAMTS13, el von Willebrand no se corta y atrapa plaquetas | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
-| 7 | hem-22 | Lisis tumoral: células que se rompen y liberan potasio, fósforo y ácido úrico | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
+| 6 | hem-10 | Sin ADAMTS13, el von Willebrand no se corta y atrapa plaquetas | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 7 | hem-22 | Lisis tumoral: células que se rompen y liberan potasio, fósforo y ácido úrico | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 8 | infecto-06 | Virus rábico que sube por el nervio; toxina tetánica que quita el freno | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 9 | nefro-13 | Podocito dañado y proteínas que escapan; edema | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 10 | neuro-01 | Núcleo y penumbra: la zona salvable que se pierde con el tiempo (2D, sin el modelo arterial incompleto) | ★★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
@@ -46,8 +46,8 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 15 | reuma-17 | De la sacroilitis a la columna en caña de bambú | ★★★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
 | 16 | diab-17 | Insulina mete el potasio a la célula (bomba Na/K); umbral de potasio antes de la insulina | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 17 | gastro-13 | Camino de la bilirrubina: hemólisis → hígado → bilis → intestino; dónde se corta en cada ictericia | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
-| 18 | hem-07 | Coombs directo vs indirecto | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
-| 19 | hem-15 | CID: consumo de plaquetas y factores, microtrombos y sangrado | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
+| 18 | hem-07 | Coombs directo vs indirecto | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 19 | hem-15 | CID: consumo de plaquetas y factores, microtrombos y sangrado | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
 | 20 | nefro-05 | Neurona en hiponatremia aguda, adaptación y corrección rápida (mielinólisis) | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 21 | neuro-19 | Parálisis facial central (respeta la frente) vs periférica (toda la hemicara) | ★★ | 🔁 rehacer | JS sobre ilustración real (Servier / Blausen) | |
 | 22 | diab-02 | Curva de la PTGO: normal, intolerancia y diabetes, con los cortes | ★★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
@@ -75,16 +75,16 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 44 | gastro-18 | Páncreas que se autodigiere: tripsina activada | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 45 | gastro-20 | Émbolo en la mesentérica superior y el intestino que se isquemia | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 46 | gastro-24 | Píloro hipertrófico que no deja pasar; vómito a chorro | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 47 | hem-01 | Médula que responde (reticulocitos) vs que no responde | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 48 | hem-02 | Ferritina y transferrina que se cruzan según el hierro | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 49 | hem-04 | Hepcidina que secuestra el hierro en la inflamación | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 50 | hem-08 | Disco que se vuelve esfera y el bazo que la atrapa | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 51 | hem-12 | Anticuerpos que marcan plaquetas y el bazo que las destruye | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 52 | hem-13 | Hemofilia: sin tenasa, el coágulo no se consolida | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 53 | hem-16 | Bloqueo madurativo: blastos que llenan la médula | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 54 | hem-18 | Diseminación ordenada del Hodgkin por cadenas ganglionares | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 55 | hem-20 | JAK2: receptor que no se apaga; tres neoplasias | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
-| 56 | hem-24 | Compatibilidad ABO: quién recibe de quién | ★★ | ⬜ nueva | JS gráfico (sin anatomía) | |
+| 47 | hem-01 | Médula que responde (reticulocitos) vs que no responde | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 48 | hem-02 | Ferritina y transferrina que se cruzan según el hierro | ★★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
+| 49 | hem-04 | Hepcidina que secuestra el hierro en la inflamación | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 50 | hem-08 | Disco que se vuelve esfera y el bazo que la atrapa | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 51 | hem-12 | Anticuerpos que marcan plaquetas y el bazo que las destruye | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 52 | hem-13 | Hemofilia: sin tenasa, el coágulo no se consolida | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 53 | hem-16 | Bloqueo madurativo: blastos que llenan la médula | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 54 | hem-18 | Diseminación ordenada del Hodgkin por cadenas ganglionares | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 55 | hem-20 | JAK2: receptor que no se apaga; tres neoplasias | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) || ✅ JS |
+| 56 | hem-24 | Compatibilidad ABO: quién recibe de quién | ★★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 57 | infecto-01 | Sepsis: de la infección a la disfunción orgánica y el shock | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 58 | infecto-02 | Meningitis: bacteria que cruza la barrera; LCR bacteriano vs viral | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 59 | infecto-03 | Herpes que viaja por el nervio olfatorio al lóbulo temporal | ★★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
@@ -131,8 +131,8 @@ y líneas de tiempo pueden ser solo código. Método nuevo: JavaScript (`classes
 | 100 | gastro-08 | Pérdida de agua según la deshidratación (planes A, B, C) | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 101 | gastro-21 | Ángulo de Treitz divide alta y baja | ★ | ⬜ nueva | JS sobre ilustración real (Servier / Blausen) | |
 | 102 | gastro-26 | Trayectos de arma blanca vs fuego | ★ | ⬜ nueva | 3D en el Mac (Blender + Z-Anatomy/BodyParts3D) | |
-| 103 | hem-21 | Neutrófilos y la regla de los sesenta minutos | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
-| 104 | hem-23 | Trombofilias: balance procoagulante | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
+| 103 | hem-21 | Neutrófilos y la regla de los sesenta minutos | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
+| 104 | hem-23 | Trombofilias: balance procoagulante | ★ | ⬜ nueva | JS gráfico (sin anatomía) || ✅ JS |
 | 105 | infecto-05 | Línea de tiempo de la profilaxis (72 h del pinchazo) | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 106 | infecto-09 | Algoritmo de confirmación del VIH | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |
 | 107 | infecto-18 | Cultivo según la semana en la fiebre tifoidea | ★ | ⬜ nueva | JS gráfico (sin anatomía) | |

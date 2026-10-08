@@ -218,6 +218,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La hora de oro',
+      images: [
+        { src: 'animaciones/hem-21/A1_neutropenia_hora_oro.mp4', label: 'Neutropenia febril', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Antibiótico antes de sesenta minutos',
+          say: 'Los neutrófilos caen al mínimo entre el día siete y el catorce. Con menos de quinientos y fiebre, la primera dosis de antibiótico endovenoso, como el cefepime, va antes de sesenta minutos, sin esperar el foco.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, partiendo del paciente con fiebre después de la quimioterapia.',
     },

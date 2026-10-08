@@ -258,6 +258,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Quién recibe de quién',
+      images: [
+        { src: 'animaciones/hem-24/A1_compatibilidad_abo.mp4', label: 'ABO', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'O da a todos; AB recibe de todos',
+          say: 'Lo que destruye los glóbulos transfundidos son los anticuerpos del receptor. Los glóbulos grupo O no tienen antígenos A ni B, así que nadie los ataca. El grupo AB no tiene anticuerpos, así que recibe de cualquier grupo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las reacciones en un solo árbol, tal como lo vas a razonar al lado de la cama.',
     },

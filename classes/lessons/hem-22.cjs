@@ -181,13 +181,13 @@ module.exports = {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
-      title: 'La lisis tumoral',
+      title: 'Las células se vacían',
       images: [
-        { src: 'animaciones/hem-22/A1_lisis_tumoral.mp4', label: 'Lisis', credit: 'Animación propia' },
+        { src: 'animaciones/hem-22/A1_lisis_tumoral_real.mp4', label: 'Lisis tumoral', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Suben potasio, fósforo y úrico',
-          say: 'Con la quimioterapia, los blastos se rompen de golpe y liberan potasio, fósforo y ácido úrico. El fósforo arrastra al calcio, que baja. El riesgo es la arritmia y la falla renal.' },
+        { note: 'Potasio, fósforo y ácido úrico altos; calcio bajo',
+          say: 'Con la quimioterapia, un tumor grande se rompe y vacía su contenido: sube el potasio, que es lo que mata primero, sube el fósforo, que arrastra al calcio hacia abajo, y sube el ácido úrico. Los cristales tapan el riñón. Se previene con hiperhidratación y un hipouricemiante.' },
       ],
     },
 

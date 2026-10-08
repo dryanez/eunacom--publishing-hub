@@ -169,13 +169,13 @@ module.exports = {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
-      title: 'Coagula en todo, sangra en todo',
+      title: 'Coagula y sangra a la vez',
       images: [
-        { src: 'animaciones/hem-15/A1_cid.mp4', label: 'Consumo', credit: 'Animación propia' },
+        { src: 'animaciones/hem-15/A1_cid_real.mp4', label: 'CID', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Plaquetas y fibrinógeno caen',
-          say: 'Mira cómo se forman microtrombos en los vasos pequeños. Para hacerlos se gastan las plaquetas y el fibrinógeno, y cuando se acaban, el paciente empieza a sangrar por todas partes.' },
+        { note: 'Se consumen plaquetas y factores',
+          say: 'Una sepsis, un trauma o una complicación obstétrica liberan factor tisular, y se forma fibrina en todos los vasos. Esos microtrombos dañan los órganos, y gastan las plaquetas y los factores. Por eso el paciente termina sangrando: plaquetas y fibrinógeno bajos, TP y TTPK prolongados, y dímero D muy alto.' },
       ],
     },
 

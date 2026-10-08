@@ -1,0 +1,134 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Dentro de un vaso real (arteria en corte, glóbulos rojos y plaquetas: Servier Medical Art, CC BY 4.0).
+// ?v=ttp (hem-10): ADAMTS13 corta el von Willebrand; sin ella los multímeros gigantes atrapan plaquetas → microtrombos,
+//   esquistocitos; TP, TTPK y fibrinógeno normales.
+// ?v=cid (hem-15): factor tisular → trombina en todos lados → microtrombos; se consumen plaquetas y factores → sangra; dímero D alto.
+// ?v=hemofilia (hem-13): el tapón de plaquetas se forma, pero sin tenasa (VIII + IX) no hay malla de fibrina; solo el TTPK alterado.
+const V = new URLSearchParams(location.search).get('v') || 'ttp';
+window.SCENE = { duration: 22, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const VS = 1.15, VX = 30, VY = 190, P = (x, y) => [VX + x * VS, VY + y * VS];
+const LX0 = 105, LX1 = 670, TOP = 262, BOT = 486, MID = (TOP + BOT) / 2;
+function vessel(t) { ctx.globalAlpha = seg(t, 0, 0.7); ctx.drawImage(window.IMGS.vaso, 0, 0, 620, 317, VX, VY, 620 * VS, 317 * VS); ctx.globalAlpha = 1; }
+function rbc(x, y, s = 1, broken = 0, a = 1) {
+  ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y);
+  if (broken) { ctx.beginPath(); ctx.moveTo(-20, -18); ctx.lineTo(4, -18); ctx.lineTo(-6, 0); ctx.lineTo(6, 18); ctx.lineTo(-20, 18); ctx.closePath(); ctx.clip(); }
+  ctx.drawImage(window.IMGS.rbc, -20 * s, -18 * s, 40 * s, 36 * s); ctx.restore();
+}
+function plt(x, y, s = 1, a = 1) { ctx.globalAlpha = a; ctx.drawImage(window.IMGS.plt, x - 9 * s, y - 13 * s, 18 * s, 26 * s); ctx.globalAlpha = 1; }
+function flowCells(t, n, speed, fn) { for (let i = 0; i < n; i++) { const u = ((t * speed) + rnd(i) ) % 1, x = lerp(LX0 - 20, LX1 + 20, u), y = TOP + 28 + rnd(i + 30) * (BOT - TOP - 56);
+  if (x < LX0 || x > LX1) continue; fn(i, x, y, u); } }
+function clipLumen() { ctx.save(); ctx.beginPath(); ctx.roundRect(LX0, TOP, LX1 - LX0, BOT - TOP, 60); ctx.clip(); }
+
+function ttp(t) {
+  K.title('PTT: sin la tijera ADAMTS13', 'El von Willebrand gigante atrapa plaquetas', C.RED);
+  vessel(t);
+  const sick = ease(seg(t, 7, 2));
+  ctx.globalAlpha = 1;
+  clipLumen();
+  const ANCH = [210, 360, 510];
+  ANCH.forEach((ax, j) => {
+    const len = lerp(60, 30, ease(seg(t, 2.5 + j * 0.8, 1))) * (1 - sick) + sick * lerp(30, 190, ease(seg(t, 7.5, 3)));
+    ctx.strokeStyle = '#B388FF'; ctx.lineWidth = 3; ctx.beginPath();
+    for (let k = 0; k <= 20; k++) { const u = k / 20, x = ax + u * len, y = TOP + 6 + Math.sin(u * 9 + t * 2 + j) * 6 + u * 30; k ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }
+    ctx.stroke();
+    for (let k = 0; k < Math.floor(len / 14); k++) { const u = k * 14 / len, x = ax + u * len, y = TOP + 6 + Math.sin(u * 9 + t * 2 + j) * 6 + u * 30; ctx.fillStyle = '#D6C2FF'; ctx.beginPath(); ctx.arc(x, y, 3.2, 0, 7); ctx.fill(); }
+    // plaquetas atrapadas
+    const nP = Math.floor(sick * seg(t, 9, 4) * len / 16);
+    for (let k = 0; k < nP; k++) { const u = (k + 0.5) / Math.max(1, nP), x = ax + u * len + (rnd(k + j * 9) - 0.5) * 14, y = TOP + 14 + u * 30 + (rnd(k + j * 17) - 0.5) * 22; plt(x, y, 1.1); }
+  });
+  // ADAMTS13 (tijera) en lo normal
+  if (sick < 1) for (let j = 0; j < 3; j++) { const u = ((t * 0.18) + j / 3) % 1, x = lerp(LX0, LX1, u), y = TOP + 70 + j * 40;
+    ctx.globalAlpha = 1 - sick; ctx.fillStyle = C.GREEN; ctx.beginPath(); ctx.moveTo(x, y); ctx.arc(x, y, 11, 0.5 + 0.3 * Math.sin(t * 8), 6.28 - 0.5 - 0.3 * Math.sin(t * 8)); ctx.fill(); }
+  ctx.globalAlpha = 1;
+  // glóbulos rojos: se rompen al pasar
+  flowCells(t, 12, 0.11, (i, x, y) => rbc(x, y + 30, 1, sick > 0.5 && x > 300 && rnd(i + 3) > 0.45 ? 1 : 0));
+  ctx.restore();
+  ctx.globalAlpha = fade(t, 1, 6.5); tag('ADAMTS13 corta el von Willebrand', 390, 230, C.GREEN, 15); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 7.2, 0.5); tag('ADAMTS13 bajo 10 %: multímeros gigantes', 390, 230, C.RED, 15); ctx.globalAlpha = 1;
+  if (t > 12) { ctx.globalAlpha = seg(t, 12, 0.5); tag('Esquistocitos: hemólisis mecánica', 560, 530, C.RED, 15); ctx.globalAlpha = 1; }
+  ctx.globalAlpha = seg(t, 1.2, 0.5); rrect(760, 150, 480, 240, 16, '#161B22');
+  const pl = lerp(250, 18, ease(seg(t, 9, 5)));
+  K.bar(784, 192, 432, 'Plaquetas', pl, 300, 'mil/µL', pl < 100 ? C.RED : C.GREEN, [[150, '150']]);
+  K.bar(784, 262, 432, 'LDH', lerp(200, 1600, ease(seg(t, 11, 5))), 2000, 'U/L', C.AMBER);
+  text('TP, TTPK y fibrinógeno', 784, 340, 19, C.INK, 'bold'); text('normales', 1216, 340, 19, C.GREEN, 'bold', 'right');
+  ctx.globalAlpha = 1;
+  K.card(760, 410, 480, 150, C.RED, 'Trombos de plaquetas', ['No se consumen factores de coagulación', 'Coombs negativo: es mecánica'], seg(t, 14, 0.5), 17);
+  K.banner(760, 590, 480, 'Eso lo separa de la CID', C.VIOLET, seg(t, 18, 0.5));
+}
+
+function cid(t) {
+  K.title('CID: coagula y sangra a la vez', 'Coagulopatía de consumo sobre una enfermedad grave', C.RED);
+  vessel(t);
+  const trig = seg(t, 2, 0.6), clot = ease(seg(t, 3.5, 5)), bleed = ease(seg(t, 11, 3));
+  clipLumen();
+  // fibrina en todos lados
+  for (let i = 0; i < 26; i++) { if (rnd(i) > clot) continue; const x = LX0 + 30 + rnd(i + 3) * (LX1 - LX0 - 60), y = TOP + 30 + rnd(i + 7) * (BOT - TOP - 60), a = rnd(i + 11) * 3.14;
+    ctx.save(); ctx.translate(x, y); ctx.rotate(a); ctx.globalAlpha = 0.9; ctx.drawImage(window.IMGS.fib, -60, -4, 120, 9); ctx.restore(); }
+  // plaquetas: muchas al inicio, se consumen
+  const nP = Math.round(lerp(16, 3, ease(seg(t, 4, 6))));
+  flowCells(t, nP, 0.14, (i, x, y) => plt(x, y, 1.2));
+  flowCells(t, 10, 0.1, (i, x, y) => rbc(x, y, 1));
+  ctx.restore();
+  // gatillo
+  if (trig > 0) { ctx.globalAlpha = fade(t, 2, 8.5); tag('Sepsis, trauma, obstetricia: factor tisular', 390, 230, C.AMBER, 15); ctx.globalAlpha = 1; }
+  // sangrado por la pared
+  if (bleed > 0) for (let i = 0; i < 8; i++) { const u = ((t * 0.5) + i / 8) % 1, x = 160 + i * 62, y = BOT + 10 + u * 70;
+    ctx.globalAlpha = bleed * (1 - u); ctx.fillStyle = '#C0122E'; ctx.beginPath(); ctx.moveTo(x, y - 8); ctx.quadraticCurveTo(x + 6, y + 2, x, y + 6); ctx.quadraticCurveTo(x - 6, y + 2, x, y - 8); ctx.fill(); }
+  ctx.globalAlpha = 1;
+  if (bleed > 0) { ctx.globalAlpha = bleed; tag('Sangra por las punciones y las mucosas', 390, 620, C.RED, 15); ctx.globalAlpha = 1; }
+  ctx.globalAlpha = seg(t, 1.2, 0.5); rrect(760, 150, 480, 300, 16, '#161B22');
+  const c = ease(seg(t, 4, 7));
+  K.bar(784, 192, 432, 'Plaquetas', lerp(240, 35, c), 300, 'mil/µL', c > 0.5 ? C.RED : C.GREEN, [[150, '150']]);
+  K.bar(784, 262, 432, 'Fibrinógeno', lerp(350, 80, c), 450, 'mg/dL', c > 0.5 ? C.RED : C.GREEN);
+  K.bar(784, 332, 432, 'Dímero D', lerp(0.3, 9, c), 10, '', C.AMBER, [], v => v < 2 ? 'normal' : v < 5 ? 'alto' : 'muy alto');
+  text('TP y TTPK', 784, 412, 19, C.INK, 'bold'); text(c > 0.5 ? 'prolongados' : 'normales', 1216, 412, 19, c > 0.5 ? C.RED : C.GREEN, 'bold', 'right');
+  ctx.globalAlpha = 1;
+  K.card(760, 470, 480, 110, C.RED, 'Se gastan plaquetas y factores', ['Microtrombos → falla multiorgánica'], seg(t, 8, 0.5), 17);
+  K.banner(760, 600, 480, 'Tratar la causa que la gatilló', C.AMBER, seg(t, 17, 0.5));
+}
+
+function hemofilia(t) {
+  const sick = t >= 10.5;
+  K.title(sick ? 'Hemofilia: el tapón no tiene malla' : 'Normal: tapón de plaquetas + malla de fibrina', sick ? 'Sin factor VIII (A) o IX (B) no hay tenasa' : 'La tenasa (VIII + IX) dispara la trombina', sick ? C.RED : C.GREEN);
+  vessel(t);
+  const lt = sick ? t - 10.5 : t;
+  const cut = 420, gap = 34;
+  clipLumen();
+  flowCells(t, 9, 0.1, (i, x, y) => rbc(x, y - 20, 1));
+  ctx.restore();
+  // la herida en la pared de abajo
+  ctx.strokeStyle = '#7A0F1E'; ctx.lineWidth = 6; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(cut - gap / 2, BOT + 2); ctx.lineTo(cut - 4, BOT + 24); ctx.lineTo(cut + gap / 2, BOT + 4); ctx.stroke();
+  // plaquetas que tapan
+  const plug = ease(seg(lt, 1, 2.5)), fall = sick ? ease(seg(lt, 6, 3)) : 0;
+  for (let i = 0; i < 16; i++) { if (i / 16 > plug) continue; const a = i * 2.4, r = 6 + (i % 4) * 9, x = cut + Math.cos(a) * r * 1.4, y = BOT + 6 + Math.sin(a) * r * 0.7 + fall * (20 + i * 4);
+    plt(x, y, 1.1, 1 - fall * (i % 3 === 0 ? 1 : 0.4)); }
+  // malla de fibrina (solo si hay tenasa)
+  const mesh = sick ? 0 : ease(seg(lt, 4, 2.5));
+  for (let i = 0; i < 9; i++) { if (i / 9 > mesh) continue; ctx.save(); ctx.translate(cut + (rnd(i) - 0.5) * 40, BOT + 8 + (rnd(i + 4) - 0.5) * 24); ctx.rotate(rnd(i + 9) * 3.14); ctx.drawImage(window.IMGS.fib, -40, -3, 80, 7); ctx.restore(); }
+  // sangrado si no hay malla
+  if (sick && lt > 6) for (let i = 0; i < 6; i++) { const u = ((t * 0.6) + i / 6) % 1, x = cut + (i - 2.5) * 8, y = BOT + 30 + u * 90;
+    ctx.globalAlpha = (1 - u) * seg(lt, 6, 1); ctx.fillStyle = '#C0122E'; ctx.beginPath(); ctx.arc(x, y, 6, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(lt, 1.2, 0.5); tag('Tapón de plaquetas', cut, BOT + 120, C.BLUE, 15); ctx.globalAlpha = 1;
+  if (!sick) { ctx.globalAlpha = seg(lt, 4.5, 0.5); tag('Malla de fibrina: el coágulo se consolida', cut, 230, C.GREEN, 15); ctx.globalAlpha = 1; }
+  else { ctx.globalAlpha = seg(lt, 3, 0.5); tag('Sin malla: el tapón se desarma', cut, 230, C.RED, 15); ctx.globalAlpha = 1; }
+  ctx.globalAlpha = seg(t, 1.2, 0.5); rrect(760, 150, 480, 200, 16, '#161B22');
+  const rows = [['Plaquetas', 'normales', C.GREEN], ['TP', 'normal', C.GREEN], ['TTPK', sick ? 'largo, corrige con la mezcla' : 'normal', sick ? C.RED : C.GREEN]];
+  rows.forEach(([a, b, c], i) => { text(a, 784, 196 + i * 52, 20, C.INK, 'bold'); text(b, 1216, 196 + i * 52, 19, c, 'bold', 'right'); });
+  ctx.globalAlpha = 1;
+  K.card(760, 370, 480, 150, C.RED, 'Hemartrosis y hematomas', ['A: falta el VIII (85 %) · B: el IX (15 %)', 'Se distinguen dosificando los factores'], seg(t, 15.5, 0.5), 17);
+  K.banner(760, 545, 480, 'Clínicamente idénticas', C.VIOLET, seg(t, 18.5, 0.5));
+}
+
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); ({ ttp, cid, hemofilia })[V](t); K.credit(); };
+LOAD({ vaso: '../assets/servier/arteria_horizontal.png', rbc: '../assets/servier/hematie.png', plt: '../assets/servier/plaqueta.png', fib: '../assets/servier/fibrina.png' });
+</script>
+</body></html>

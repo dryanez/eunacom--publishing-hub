@@ -109,6 +109,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Ferritina y transferrina se cruzan',
+      images: [
+        { src: 'animaciones/hem-02/A1_ferritina_transferrina.mp4', label: 'Perfil de hierro', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Al revés en la ferropenia y en la inflamación',
+          say: 'La ferritina refleja los depósitos y la transferrina son los camiones. En la ferropenia, la ferritina baja y la transferrina sube. En la inflamación es al revés: la ferritina sube y la transferrina baja.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol, empezando por la ferritina, que es el parámetro que manda.',
     },

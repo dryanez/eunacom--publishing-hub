@@ -251,6 +251,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El balance se inclina',
+      images: [
+        { src: 'animaciones/hem-23/A1_balance_trombofilia.mp4', label: 'Trombofilias', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Más acelerador o menos freno',
+          say: 'Una trombofilia inclina el balance hacia la coagulación. Puede sumar acelerador, como el factor cinco Leiden, la más frecuente, o la mutación de la protrombina. O puede quitar freno: el déficit de antitrombina, de proteína C o de proteína S, más raros y más trombogénicos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un árbol: a quién estudiar, qué pedir, cuándo, y con qué tratar.',
     },

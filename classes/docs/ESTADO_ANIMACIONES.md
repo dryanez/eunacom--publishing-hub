@@ -2,35 +2,31 @@
 
 Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONES.md y de los videos.
 
-- ✅ Hechas con anatomía real (3D o Blausen): **44**
-- 🔁 Hechas pero con anatomía abstracta: rehacer: **18**
-- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **62**
-- ⬜ Pendientes (aún sin video): **143**
+- ✅ Hechas con anatomía real (3D o Blausen): **48**
+- 🔁 Hechas pero con anatomía abstracta: rehacer: **14**
+- 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía): **74**
+- ⬜ Pendientes (aún sin video): **131**
 
-## 🔁 Hechas pero con anatomía abstracta: rehacer (18)
+## 🔁 Hechas pero con anatomía abstracta: rehacer (14)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
 | gastro-10 | Colitis ulcerosa continua desde el recto vs Crohn salteado y transmural | 3D | ★★★ | A1_colitis_ulcerosa.mp4, A2_crohn.mp4 |
 | gastro-25 | Invaginación: un segmento que entra en el siguiente | 3D | ★★★ | A1_invaginacion.mp4 |
 | gin-13 | Del VPH a la lesión de alto grado y el cáncer (zona de transformación) | M | ★★★ | A1_vph_cancer.mp4 |
-| hem-10 | Sin ADAMTS13, el von Willebrand no se corta y atrapa plaquetas | M | ★★★ | A1_adamts13.mp4 |
-| hem-22 | Lisis tumoral: células que se rompen y liberan potasio, fósforo y ácido úrico | M | ★★★ | A1_lisis_tumoral.mp4 |
 | infecto-06 | Virus rábico que sube por el nervio; toxina tetánica que quita el freno | M | ★★★ | A1_rabia.mp4, A2_tetanos.mp4 |
 | nefro-13 | Podocito dañado y proteínas que escapan; edema | M | ★★★ | A1_podocito.mp4 |
 | neuro-01 | Núcleo y penumbra: la zona salvable que se pierde con el tiempo (2D, sin el modelo arterial incompleto) | M | ★★★ | A1_penumbra.mp4 |
 | ob-04 | Redistribución del flujo fetal (cerebro protegido) en la restricción | M | ★★★ | A1_redistribucion.mp4 |
 | ob-05 | Invasión trofoblástica defectuosa → arterias espirales estrechas → preeclampsia | M | ★★★ | A1_placentacion.mp4 |
 | gastro-13 | (animación existente, no estaba en el plan) |  |  | A1_camino_bilirrubina.mp4 |
-| hem-07 | (animación existente, no estaba en el plan) |  |  | A1_coombs_directo.mp4, A2_coombs_indirecto.mp4 |
-| hem-15 | (animación existente, no estaba en el plan) |  |  | A1_cid.mp4 |
 | nefro-05 | (animación existente, no estaba en el plan) |  |  | A1_neurona_aguda.mp4, A2_neurona_adaptacion.mp4, A3_neurona_correccion.mp4 |
 | neuro-19 | (animación existente, no estaba en el plan) |  |  | A1_facial_central.mp4, A2_facial_periferica.mp4 |
 | ob-18 | (animación existente, no estaba en el plan) |  |  | A1_atonia.mp4 |
 | ob-20 | (animación existente, no estaba en el plan) |  |  | A1_rh_sensibilizacion.mp4, A2_rh_segundo.mp4, A3_rh_antid.mp4 |
 | oftal-10 | (animación existente, no estaba en el plan) |  |  | A1_campo_visual.mp4 |
 
-## ⬜ Pendientes (aún sin video) (143)
+## ⬜ Pendientes (aún sin video) (131)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -72,16 +68,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | gin-04 | Miomas según ubicación (submucoso sangra, subseroso comprime) | 3Dp | ★★ |  |
 | gin-05 | Menstruación retrógrada: implantes de endometriosis | 3Dp | ★★ |  |
 | gin-11 | Infección que sube: vagina → cuello → endometrio → trompas → absceso | 3Dp | ★★ |  |
-| hem-01 | Médula que responde (reticulocitos) vs que no responde | M | ★★ |  |
-| hem-02 | Ferritina y transferrina que se cruzan según el hierro | M | ★★ |  |
-| hem-04 | Hepcidina que secuestra el hierro en la inflamación | M | ★★ |  |
-| hem-08 | Disco que se vuelve esfera y el bazo que la atrapa | M | ★★ |  |
-| hem-12 | Anticuerpos que marcan plaquetas y el bazo que las destruye | M | ★★ |  |
-| hem-13 | Hemofilia: sin tenasa, el coágulo no se consolida | M | ★★ |  |
-| hem-16 | Bloqueo madurativo: blastos que llenan la médula | M | ★★ |  |
-| hem-18 | Diseminación ordenada del Hodgkin por cadenas ganglionares | 3D | ★★ |  |
-| hem-20 | JAK2: receptor que no se apaga; tres neoplasias | M | ★★ |  |
-| hem-24 | Compatibilidad ABO: quién recibe de quién | M | ★★ |  |
 | infecto-01 | Sepsis: de la infección a la disfunción orgánica y el shock | M | ★★ |  |
 | infecto-02 | Meningitis: bacteria que cruza la barrera; LCR bacteriano vs viral | M | ★★ |  |
 | infecto-03 | Herpes que viaja por el nervio olfatorio al lóbulo temporal | 3D | ★★ |  |
@@ -143,8 +129,6 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | gin-08 | DIU, implante, píldora: dónde actúa cada uno | M | ★ |  |
 | gin-12 | Ventana de oportunidad de la terapia hormonal | M | ★ |  |
 | gin-15 | Cáncer de ovario que se disemina por el peritoneo | 3Dp | ★ |  |
-| hem-21 | Neutrófilos y la regla de los sesenta minutos | M | ★ |  |
-| hem-23 | Trombofilias: balance procoagulante | M | ★ |  |
 | infecto-05 | Línea de tiempo de la profilaxis (72 h del pinchazo) | M | ★ |  |
 | infecto-09 | Algoritmo de confirmación del VIH | M | ★ |  |
 | infecto-18 | Cultivo según la semana en la fiebre tifoidea | M | ★ |  |
@@ -178,7 +162,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | reuma-11 | Paradoja del anticoagulante lúpico (TTPK largo y trombosis) | M | ★ |  |
 | reuma-12 | Fibrosis de la piel y los órganos | M | ★ |  |
 
-## ✅ Hechas con anatomía real (3D o Blausen) (44)
+## ✅ Hechas con anatomía real (3D o Blausen) (48)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -196,6 +180,8 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | gastro-15 | Hipertensión portal: la sangre busca colaterales (várices, cabeza de medusa); ascitis | 3D | ★★★ | A1_hipertension_portal_3d.mp4 |
 | gastro-17 | Un cálculo, cuatro cuadros: según dónde se enclava (bacinete, colédoco, ampolla) | 3D | ★★★ | A1_calculo_real.mp4 |
 | hem-09 | Hemoglobina S que polimeriza y el glóbulo que se vuelve hoz y ocluye | M | ★★★ | A1_falciforme_real.mp4 |
+| hem-10 | Sin ADAMTS13, el von Willebrand no se corta y atrapa plaquetas | M | ★★★ | A1_adamts13_real.mp4 |
+| hem-22 | Lisis tumoral: células que se rompen y liberan potasio, fósforo y ácido úrico | M | ★★★ | A1_lisis_tumoral_real.mp4 |
 | infecto-04 | Fascitis: infección que corre por la fascia bajo piel sana | 3Dp | ★★★ | A1_fascitis_real.mp4 |
 | infecto-23 | Virus varicela latente en el ganglio que reactiva como zóster en un dermatoma | 3D | ★★★ | A1_zoster_real.mp4 |
 | nefro-01 | Autorregulación glomerular (aferente y eferente); prerrenal vs renal vs posrenal | M | ★★★ | A1_autorregulacion_real.mp4 |
@@ -216,6 +202,8 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | diab-17 | (animación existente, no estaba en el plan) |  |  | A1_insulina_potasio_real.mp4, A2_umbral_potasio_real.mp4 |
 | endo-20 | (animación existente, no estaba en el plan) |  |  | A1_macroadenoma_3d.mp4 |
 | gastro-19 | (animación existente, no estaba en el plan) |  |  | A1_apendicitis_3d.mp4 |
+| hem-07 | (animación existente, no estaba en el plan) |  |  | A1_coombs_directo_real.mp4, A2_coombs_indirecto_real.mp4 |
+| hem-15 | (animación existente, no estaba en el plan) |  |  | A1_cid_real.mp4 |
 | neuro-17 | (animación existente, no estaba en el plan) |  |  | A1_placa_normal_real.mp4, A2_placa_miastenia_real.mp4 |
 | neuro-23 | (animación existente, no estaba en el plan) |  |  | A1_fractura_cadera_3d.mp4 |
 | ob-13 | (animación existente, no estaba en el plan) |  |  | A1_placenta_previa.mp4, A2_dppni_real.mp4 |
@@ -227,7 +215,7 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | resp-21 | (animación existente, no estaba en el plan) |  |  | A1_hipoventilacion_real.mp4, A2_shunt_real.mp4 |
 | reuma-24 | (animación existente, no estaba en el plan) |  |  | A1_aplastamiento_3d.mp4 |
 
-## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (62)
+## 🟢 Hechas en Manim y válidas (gráficos, líneas de tiempo, esquemas sin anatomía) (74)
 
 | Clase | Animación | Herr. | Prio | Videos |
 |---|---|---|---|---|
@@ -268,6 +256,16 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | endo-19 | Vitamina D: piel → hígado → riñón; dónde falla cada osteomalacia | M | ★★ | A1_vitamina_d.mp4 |
 | endo-21 | Dopamina frena a la prolactina; tallo cortado o fármaco → prolactina sube | M | ★★ | A1_dopamina_prolactina.mp4 |
 | endo-23 | Sheehan: hipófisis grande del embarazo que se infarta con la hemorragia | 3D | ★★ | A1_sheehan.mp4 |
+| hem-01 | Médula que responde (reticulocitos) vs que no responde | M | ★★ | A1_reticulocitos.mp4 |
+| hem-02 | Ferritina y transferrina que se cruzan según el hierro | M | ★★ | A1_ferritina_transferrina.mp4 |
+| hem-04 | Hepcidina que secuestra el hierro en la inflamación | M | ★★ | A1_hepcidina_ferroportina.mp4 |
+| hem-08 | Disco que se vuelve esfera y el bazo que la atrapa | M | ★★ | A1_esferocitosis_bazo.mp4 |
+| hem-12 | Anticuerpos que marcan plaquetas y el bazo que las destruye | M | ★★ | A1_pti_bazo.mp4 |
+| hem-13 | Hemofilia: sin tenasa, el coágulo no se consolida | M | ★★ | A1_hemofilia_tenasa.mp4 |
+| hem-16 | Bloqueo madurativo: blastos que llenan la médula | M | ★★ | A1_blastos_medula.mp4 |
+| hem-18 | Diseminación ordenada del Hodgkin por cadenas ganglionares | 3D | ★★ | A1_hodgkin_contiguo.mp4 |
+| hem-20 | JAK2: receptor que no se apaga; tres neoplasias | M | ★★ | A1_jak2_receptor.mp4 |
+| hem-24 | Compatibilidad ABO: quién recibe de quién | M | ★★ | A1_compatibilidad_abo.mp4 |
 | diab-03 | Resistencia a la insulina que sube durante el embarazo (lactógeno placentario) | M | ★ | A1_resistencia_embarazo.mp4 |
 | diab-05 | Glicemia durante y después del ejercicio (riesgo de hipoglicemia tardía) | M | ★ | A1_ejercicio_hipoglicemia.mp4 |
 | diab-22 | Neuropatía + isquemia + trauma → úlcera; el estilete que toca hueso | M | ★ | A1_pie_diabetico.mp4 |
@@ -276,6 +274,8 @@ Generado por `classes/scripts/estado_animaciones.py` a partir de PLAN_ANIMACIONE
 | endo-09 | Algoritmo del nódulo: TSH → eco → punción → Bethesda | M | ★ | A1_algoritmo_nodulo.mp4 |
 | endo-13 | Shock que no responde: por qué falta el cortisol para la noradrenalina | M | ★ | A1_shock_sin_cortisol.mp4 |
 | endo-22 | GH → IGF-1; la glucosa que no la suprime | M | ★ | A1_acromegalia_gh.mp4 |
+| hem-21 | Neutrófilos y la regla de los sesenta minutos | M | ★ | A1_neutropenia_hora_oro.mp4 |
+| hem-23 | Trombofilias: balance procoagulante | M | ★ | A1_balance_trombofilia.mp4 |
 | cirugia-09 | (animación existente, no estaba en el plan) |  |  | A1_abcde.mp4 |
 | diab-11 | (animación existente, no estaba en el plan) |  |  | A1_basales.mp4, A2_prandiales.mp4 |
 | endo-01 | (animación existente, no estaba en el plan) |  |  | A1_eje_normal.mp4, A2_eje_primario.mp4, A3_eje_hiper.mp4, A4_eje_central.mp4 |

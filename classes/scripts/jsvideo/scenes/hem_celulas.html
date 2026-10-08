@@ -1,0 +1,194 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Células y órganos reales (Servier Medical Art, CC BY 4.0).
+// ?v=coombs_d / coombs_i (hem-07) · ?v=lisis (hem-22) · ?v=esfero (hem-08) · ?v=pti (hem-12) · ?v=leucemia (hem-16)
+// ?v=hodgkin (hem-18) · ?v=jak2 (hem-20) · ?v=hepcidina (hem-04)
+const V = new URLSearchParams(location.search).get('v') || 'coombs_d';
+window.SCENE = { duration: 21, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+function draw(k, x, y, w, a = 1, rot = 0) { const im = I(k), h = w * im.height / im.width; ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y); ctx.rotate(rot); ctx.drawImage(im, -w / 2, -h / 2, w, h); ctx.restore(); }
+function Y(x, y, s, col, rot = 0, a = 1) { ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y); ctx.rotate(rot); ctx.strokeStyle = col; ctx.lineWidth = 3.2 * s; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(0, 10 * s); ctx.lineTo(0, 0); ctx.lineTo(-7 * s, -9 * s); ctx.moveTo(0, 0); ctx.lineTo(7 * s, -9 * s); ctx.stroke(); ctx.restore(); }
+function cnt(t, x, y, w, rows) { ctx.globalAlpha = seg(t, 1.2, 0.5); rrect(x, y, w, 40 + rows.length * 62, 16, '#161B22');
+  rows.forEach(([lab, val, max, unit, col, fmt], i) => K.bar(x + 24, y + 42 + i * 62, w - 48, lab, val, max, unit, col, [], fmt)); ctx.globalAlpha = 1; }
+
+// ---- Coombs ----
+function coombs(t, direct) {
+  K.title(direct ? 'Coombs directo: el anticuerpo ya está pegado' : 'Coombs indirecto: anticuerpos libres en el suero', direct ? 'Glóbulos rojos del paciente + reactivo antiglobulina' : 'Suero del paciente + glóbulos rojos de prueba', C.RED);
+  const cells = [[200, 300], [330, 270], [260, 400], [420, 380], [520, 290], [150, 470], [380, 500], [500, 470]];
+  const coat = direct ? 1 : ease(seg(t, 5, 3)), react = seg(t, direct ? 5 : 10, 1), agg = ease(seg(t, direct ? 7 : 12, 3));
+  const cx = 340, cy = 390;
+  cells.forEach(([x, y], i) => { const X = lerp(x, cx + (x - cx) * 0.45, agg), Yy = lerp(y, cy + (y - cy) * 0.45, agg);
+    draw('rbc', X, Yy, 92, seg(t, 0.3, 0.6));
+    for (let k = 0; k < 4; k++) { const a = k * 1.57 + i, r = 44; if (coat <= 0) break; Y(X + Math.cos(a) * r, Yy + Math.sin(a) * r, 0.9, C.AMBER, a + 1.57, coat); } });
+  if (!direct) { for (let i = 0; i < 12; i++) { const u = seg(t, 2, 3), x = 120 + rnd(i) * 460, y = 230 + rnd(i + 5) * 300; if (coat >= 1) break; Y(x + Math.sin(t + i) * 8, y, 0.9, C.AMBER, t + i, u * (1 - coat)); }
+    ctx.globalAlpha = fade(t, 2, 8); tag('Anticuerpos libres (IgG) del paciente', 340, 210, C.AMBER, 15); ctx.globalAlpha = 1;
+    ctx.globalAlpha = fade(t, 5, 9.5); tag('Incubar: se pegan a los glóbulos', 340, 600, C.AMBER, 15); ctx.globalAlpha = 1; }
+  else { ctx.globalAlpha = fade(t, 1, 6); tag('IgG pegada al glóbulo rojo del paciente', 340, 210, C.AMBER, 15); ctx.globalAlpha = 1; }
+  if (react > 0) for (let i = 0; i < 10; i++) { const a = i * 0.63, x = cx + Math.cos(a) * 90 * (1 - 0.5 * agg), y = cy + Math.sin(a) * 70 * (1 - 0.5 * agg); Y(x, y, 1.3, C.GREEN, a, react); }
+  ctx.globalAlpha = seg(t, direct ? 5.2 : 10.2, 0.5); tag('Reactivo antiglobulina: puentea y aglutina', 340, 640, C.GREEN, 15); ctx.globalAlpha = 1;
+  K.card(700, 160, 540, 160, C.AMBER, direct ? 'Directo: positivo' : 'Indirecto: positivo', direct ? ['Anemia hemolítica autoinmune', 'Hemólisis por transfusión, recién nacido'] : ['Anticuerpos en el suero de la madre', 'Pruebas cruzadas antes de transfundir'], seg(t, 14, 0.5), 17);
+  K.card(700, 340, 540, 140, C.RED, 'La IgG solo marca', ['Los macrófagos del bazo arrancan', 'membrana: esferocitos'], seg(t, direct ? 9 : 16, 0.5), 17);
+}
+
+// ---- lisis tumoral ----
+function lisis(t) {
+  K.title('Síndrome de lisis tumoral', 'Las células se rompen y vacían su contenido', C.RED);
+  const burst = i => seg(t, 3 + i * 0.35, 0.6);
+  for (let i = 0; i < 10; i++) { const x = 110 + (i % 5) * 110, y = 260 + Math.floor(i / 5) * 150, b = burst(i);
+    draw('blast', x, y, 100 * (1 + 0.15 * b), 1 - b);
+    if (b > 0) for (let k = 0; k < 9; k++) { const a = k * 0.7 + i, r = b * 70; const col = [C.AMBER, C.BLUE, '#F2CF5B'][k % 3];
+      ctx.globalAlpha = 1 - 0.6 * seg(t, 9, 2); ctx.fillStyle = col; if (k % 3 === 2) { ctx.fillRect(x + Math.cos(a) * r - 4, y + Math.sin(a) * r - 4, 8, 8); } else { ctx.beginPath(); ctx.arc(x + Math.cos(a) * r, y + Math.sin(a) * r, 5, 0, 7); ctx.fill(); } } }
+  ctx.globalAlpha = 1;
+  if (t > 1.5 && t < 4) K.pill(lerp(700, 330, ease(seg(t, 1.5, 1.2))), lerp(200, 300, ease(seg(t, 1.5, 1.2))), '#FFFFFF', C.VIOLET, 1 - seg(t, 2.9, 0.4));
+  ctx.globalAlpha = fade(t, 2, 5); tag('Quimioterapia: tumor grande y sensible', 330, 190, C.VIOLET, 15); ctx.globalAlpha = 1;
+  // riñón tapado
+  const k = seg(t, 9, 0.6);
+  if (k > 0) { draw('rin', 360, 560, 90, k); for (let i = 0; i < 10; i++) { ctx.globalAlpha = k; ctx.fillStyle = i % 2 ? '#F2CF5B' : '#DDE3EA'; ctx.save(); ctx.translate(340 + rnd(i) * 40, 520 + rnd(i + 3) * 90); ctx.rotate(i); ctx.fillRect(-6, -2, 12, 4); ctx.restore(); }
+    ctx.globalAlpha = k; tag('Cristales de urato y fosfato cálcico tapan el riñón', 360, 690, C.AMBER, 14); ctx.globalAlpha = 1; }
+  const e = ease(seg(t, 3.5, 6));
+  cnt(t, 700, 150, 540, [['Potasio', lerp(4.2, 6.8, e), 8, 'mEq/L', C.RED, v => v.toFixed(1).replace('.', ',')], ['Fósforo', lerp(3.5, 8, e), 10, 'mg/dL', C.BLUE, v => v.toFixed(1).replace('.', ',')],
+    ['Ácido úrico', lerp(5, 13, e), 15, 'mg/dL', '#F2CF5B', v => v.toFixed(0)], ['Calcio', lerp(9.4, 6.9, e), 12, 'mg/dL', C.AMBER, v => v.toFixed(1).replace('.', ',')]]);
+  K.card(700, 460, 540, 150, C.GREEN, 'Prevención', ['Hiperhidratación EV', 'Alopurinol: no se forma ácido úrico nuevo'], seg(t, 13, 0.5), 17);
+  K.banner(700, 630, 540, 'El potasio es lo que mata primero', C.RED, seg(t, 17, 0.5));
+}
+
+// ---- esferocitosis ----
+function esfero(t) {
+  K.title('Esferocitosis: el disco se vuelve esfera', 'Falla el andamio de la membrana', C.RED);
+  const sph = ease(seg(t, 2, 5)), trap = seg(t, 9, 1);
+  for (let i = 0; i < 5; i++) { const x = 130 + i * 110, y = 300;
+    const w = lerp(110, 72, sph); draw('rbc', x, y, w, 1 - sph);
+    if (sph > 0) { const r = lerp(30, 26, sph), g = ctx.createRadialGradient(x - r * 0.35, y - r * 0.35, 2, x, y, r); g.addColorStop(0, '#FF9A8A'); g.addColorStop(1, '#B3122E');
+      ctx.globalAlpha = sph; ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); ctx.globalAlpha = 1; }
+    for (let k = 0; k < 3; k++) { const u = ((t - 2) * 0.5 + k / 3 + i * 0.1) % 1; if (t < 2 || t > 7.5) break; ctx.globalAlpha = 1 - u; ctx.fillStyle = '#E86A5A'; ctx.beginPath(); ctx.arc(x + 50 + u * 30, y - 30 - u * 20, 4, 0, 7); ctx.fill(); } }
+  ctx.globalAlpha = 1;
+  ctx.globalAlpha = fade(t, 2.2, 8.5); tag('Pierde trozos de membrana en cada paso', 360, 210, C.AMBER, 15); ctx.globalAlpha = 1;
+  // bazo
+  if (trap > 0) { draw('bazo', 360, 560, 120, trap, -1.3);
+    for (let i = 0; i < 6; i++) { const u = clamp((t - 9.5 - i * 0.6) / 2, 0, 1), x = lerp(130 + i * 90, 340 + (i % 3) * 22, ease(u)), y = lerp(380, 545 + Math.floor(i / 3) * 24, ease(u));
+      if (u > 0) { const g = ctx.createRadialGradient(x - 4, y - 4, 1, x, y, 16); g.addColorStop(0, '#FF9A8A'); g.addColorStop(1, '#B3122E'); ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, 15, 0, 7); ctx.fill(); } }
+    ctx.globalAlpha = trap; tag('El bazo atrapa las esferas rígidas', 360, 670, '#8E4A6E', 15); ctx.globalAlpha = 1; }
+  K.card(700, 160, 540, 150, C.RED, 'Hemólisis con Coombs negativo', ['Esferocitos en el frotis', 'Esplenomegalia, ictericia, cálculos'], seg(t, 8, 0.5), 17);
+  K.card(700, 330, 540, 150, C.BLUE, 'Confirmación', ['Fragilidad osmótica: la esfera', 'no tolera hincharse y se rompe antes'], seg(t, 12.5, 0.5), 17);
+  K.banner(700, 500, 540, 'Autosómica dominante en 3 de cada 4', C.VIOLET, seg(t, 16.5, 0.5));
+}
+
+// ---- PTI ----
+function pti(t) {
+  K.title('PTI: anticuerpos contra las propias plaquetas', 'El bazo se las come, pero no crece', C.VIOLET);
+  const coat = seg(t, 2.5, 2), eat = seg(t, 7, 1);
+  for (let i = 0; i < 8; i++) { const u = clamp((t - 7.3 - i * 0.55) / 2.2, 0, 1), x0 = 110 + (i % 4) * 130, y0 = 230 + Math.floor(i / 4) * 120;
+    const x = lerp(x0, 360, ease(u)), y = lerp(y0, 560, ease(u)), a = 1 - seg(u, 0.85, 0.15);
+    draw('plt', x, y, 44, a);
+    for (let k = 0; k < 3; k++) Y(x + Math.cos(k * 2.1) * 26, y + Math.sin(k * 2.1) * 30, 0.8, C.AMBER, k * 2.1 + 1.57, coat * a); }
+  ctx.globalAlpha = fade(t, 2.8, 7.5); tag('IgG contra la glicoproteína IIb/IIIa', 330, 180, C.AMBER, 15); ctx.globalAlpha = 1;
+  if (eat > 0) { draw('bazo', 360, 570, 110, eat, -1.3); draw('mac', 430, 600, 120, eat * 0.9);
+    ctx.globalAlpha = eat; tag('Macrófagos del bazo: las destruyen', 360, 680, '#8E4A6E', 15); ctx.globalAlpha = 1; }
+  cnt(t, 700, 150, 540, [['Plaquetas', lerp(220, 15, ease(seg(t, 7.5, 6))), 300, 'mil/µL', C.RED]]);
+  K.card(700, 270, 540, 150, C.VIOLET, 'Petequias, equimosis, gingivorragia', ['Paciente bien, sin bazo palpable', 'El resto del hemograma, normal'], seg(t, 11, 0.5), 17);
+  K.card(700, 440, 540, 120, C.BLUE, 'Segundo golpe', ['Frena a los megacariocitos de la médula'], seg(t, 14, 0.5), 17);
+  K.banner(700, 580, 540, 'Más de 30 mil y sin sangrado: no requiere tratamiento', C.GREEN, seg(t, 17, 0.5));
+}
+
+// ---- leucemia ----
+function leucemia(t) {
+  K.title('Leucemia aguda: blastos que llenan la médula', 'Bloqueo madurativo + proliferación sin control', C.RED);
+  draw('hueso', 200, 410, 150, seg(t, 0, 0.6));
+  ctx.globalAlpha = seg(t, 0.8, 0.5); tag('Médula ósea', 200, 170, '#EAD9B8', 15); ctx.globalAlpha = 1;
+  // ventana de médula ampliada
+  const fill = 0.75 * ease(seg(t, 3, 7));
+  ctx.globalAlpha = seg(t, 1.2, 0.5); rrect(320, 170, 330, 470, 18, '#2A1A1E'); ctx.globalAlpha = 1;
+  const kinds = ['rbc', 'plt', 'neu'];
+  for (let i = 0; i < 30; i++) { const x = 350 + (i % 5) * 62, y = 205 + Math.floor(i / 5) * 72, blast = rnd(i) < fill;
+    const a = seg(t, 1.4 + i * 0.03, 0.4);
+    if (blast) draw('blast', x + 6, y + 10, 58, a); else draw(kinds[i % 3], x + 6, y + 10, kinds[i % 3] === 'plt' ? 26 : 48, a); }
+  ctx.globalAlpha = seg(t, 3.5, 0.5); tag('Blastos: 20 % o más', 485, 660, C.RED, 15); ctx.globalAlpha = 1;
+  const e = fill;
+  cnt(t, 700, 150, 540, [['Hemoglobina', lerp(14, 6.5, e), 16, 'g/dL', C.RED, v => v.toFixed(1).replace('.', ',')], ['Plaquetas', lerp(250, 20, e), 300, 'mil/µL', C.RED], ['Neutrófilos', lerp(4000, 300, e), 5000, '/µL', C.RED]]);
+  K.card(700, 390, 540, 160, C.AMBER, 'Insuficiencia medular aguda', ['Anemia: palidez y cansancio', 'Neutropenia: fiebre e infecciones', 'Trombocitopenia: sangrado'], seg(t, 10.5, 0.5), 17);
+  K.banner(700, 580, 540, 'Confirma el mielograma con biopsia', C.BLUE, seg(t, 16, 0.5));
+}
+
+// ---- Hodgkin ----
+function hodgkin(t) {
+  const nh = t >= 12;
+  K.title(nh ? 'No Hodgkin: salta, sin orden' : 'Hodgkin: avanza ordenado, de cadena en cadena', nh ? 'Vía hematógena, precoz y no contigua' : 'Por contigüidad, desde el cuello', nh ? C.AMBER : C.VIOLET);
+  draw('esq', 330, 420, 230, seg(t, 0, 0.6));
+  const N = [[300, 205, 'Cervical'], [290, 250, 'Supraclavicular'], [330, 300, 'Mediastino'], [262, 300, 'Axilar'], [330, 390, 'Paraaórtico'], [300, 470, 'Inguinal']];
+  const PATH = [0, 1, 2, 3, 4];
+  if (!nh) PATH.forEach((j, i) => { const a = seg(t, 2 + i * 1.6, 0.6); if (a <= 0) return; const [x, y, n] = N[j];
+    if (i > 0) { const [px, py] = N[PATH[i - 1]]; ctx.strokeStyle = C.VIOLET; ctx.lineWidth = 3; ctx.globalAlpha = a; ctx.beginPath(); ctx.moveTo(px, py); ctx.lineTo(lerp(px, x, a), lerp(py, y, a)); ctx.stroke(); }
+    draw('gang', x, y, 46, a); K.glow(x, y, 30, '179,136,255', 0.6 * a); ctx.globalAlpha = a; const left = i % 2 === 1; tag(n, x + (left ? -120 : 130), y, C.VIOLET, 14); ctx.globalAlpha = 1; });
+  else { const S = [[300, 205], [330, 340, 'Estómago'], [302, 160, 'Anillo de Waldeyer'], [380, 420, 'Piel']];
+    S.forEach(([x, y, n], i) => { const a = seg(t, 12.5 + i * 1, 0.5); draw('gang', x, y, 40, a); K.glow(x, y, 28, '255,194,71', 0.6 * a); if (n) { ctx.globalAlpha = a; tag(n, x + 140, y, C.AMBER, 14); ctx.globalAlpha = 1; } }); }
+  K.card(700, 160, 540, 150, C.VIOLET, 'Hodgkin', ['Cervical, supraclavicular, axilar', 'Célula de Reed-Sternberg: ojos de búho'], seg(t, 3, 0.5) * (nh ? 0.5 : 1), 17);
+  K.card(700, 330, 540, 150, C.VIOLET, 'Esclerosis nodular: 70 %', ['Mujer joven, mediastino anterior'], seg(t, 8, 0.5) * (nh ? 0.5 : 1), 17);
+  K.card(700, 500, 540, 120, C.AMBER, 'No Hodgkin', ['Muchos sitios fuera del ganglio'], seg(t, 13, 0.5), 17);
+}
+
+// ---- JAK2 ----
+function jak2(t) {
+  K.title('JAK2: el receptor que no se apaga', 'Policitemia vera: más del 95 % tiene la V617F', C.RED);
+  ctx.globalAlpha = seg(t, 0, 0.6); ctx.drawImage(I('mem'), -70, 100, 415 * 3.25, 280 * 3.25); ctx.globalAlpha = 1;
+  const mut = t >= 8;
+  // receptor en la membrana
+  const th = 3.93, rx = 1279 + 1349 * Math.cos(th), ry = 1010 + 910 * Math.sin(th);
+  ctx.fillStyle = '#8E8FD8'; ctx.fillRect(rx - 26, ry - 70, 14, 110); ctx.fillRect(rx + 12, ry - 70, 14, 110);
+  const on = mut ? 1 : fade(t, 2.5, 6.5, 0.4);
+  ctx.fillStyle = on > 0.5 ? C.GREEN : '#555'; ctx.fillRect(rx - 34, ry + 30, 30, 26); ctx.fillRect(rx + 4, ry + 30, 30, 26);
+  text('JAK2', rx, ry + 82, 15, C.INK, 'bold', 'center');
+  if (mut) { ctx.globalAlpha = seg(t, 8, 0.5); tag('Mutación V617F: siempre encendido', rx, ry + 120, C.RED, 15); ctx.globalAlpha = 1; }
+  // eritropoyetina
+  const epo = mut ? 1 - seg(t, 12, 2) : seg(t, 1.5, 0.5);
+  for (let i = 0; i < 6; i++) { if (epo <= 0) break; const u = ((t * 0.4) + i / 6) % 1; ctx.globalAlpha = epo * Math.min(1, u * 5, (1 - u) * 5); ctx.fillStyle = C.BLUE; ctx.beginPath(); ctx.arc(lerp(120, rx, u), lerp(180, ry - 76, u), 7, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+  ctx.globalAlpha = fade(t, 1.8, 7.5); tag('Normal: solo señal si llega la eritropoyetina', 330, 160, C.BLUE, 15); ctx.globalAlpha = 1;
+  // glóbulos rojos que salen
+  const n = mut ? 14 : 4;
+  for (let i = 0; i < n; i++) { const u = ((t * 0.3) + i / n) % 1; if (t < 2.5) break; draw('rbc', lerp(rx, 620, u), lerp(ry + 120, 620, u), 36, Math.min(1, u * 5, (1 - u) * 5)); }
+  cnt(t, 700, 150, 540, [['Hematocrito', mut ? lerp(44, 60, ease(seg(t, 8, 5))) : 44, 70, '%', mut ? C.RED : C.GREEN], ['Eritropoyetina', mut ? lerp(50, 4, ease(seg(t, 11, 3))) : 50, 100, '', mut ? C.BLUE : C.GREEN, v => v < 15 ? 'suprimida' : 'normal']]);
+  K.card(700, 330, 540, 200, C.AMBER, 'Tres neoplasias mieloproliferativas', ['Policitemia vera: glóbulos rojos', 'Trombocitemia esencial: plaquetas', 'Mielofibrosis: médula fibrosa'], seg(t, 14, 0.5), 17);
+  K.banner(700, 560, 540, 'El riñón deja de fabricar eritropoyetina', C.BLUE, seg(t, 17.5, 0.5));
+}
+
+// ---- hepcidina ----
+function hepcidina(t) {
+  K.title('Hepcidina: el hierro queda encerrado', 'Anemia de las enfermedades crónicas', C.AMBER);
+  ctx.globalAlpha = seg(t, 0, 0.6); ctx.drawImage(I('hp'), 0, 0, 560, 440, 40, 160, 280, 220); ctx.globalAlpha = 1;
+  draw('mac', 470, 470, 330, seg(t, 0.6, 0.6));
+  ctx.globalAlpha = seg(t, 0.8, 0.5); tag('Hígado', 180, 395, C.VIOLET, 15); tag('Macrófago', 470, 650, '#9CCB5B', 15); ctx.globalAlpha = 1;
+  const il = seg(t, 2.5, 0.5);
+  ctx.globalAlpha = fade(t, 2.5, 7); tag('Inflamación: interleucina 6', 180, 165, C.RED, 15); ctx.globalAlpha = 1;
+  // hepcidina sale del hígado a la puerta
+  const door = [620, 420], H = poly([[260, 300], [450, 300], door]);
+  for (let i = 0; i < 8; i++) { if (t < 4) break; const u = ((t - 4) * 0.4 + i / 8) % 1, [x, y] = H.at(u); ctx.globalAlpha = Math.min(1, u * 5, (1 - u) * 5); ctx.fillStyle = C.AMBER; ctx.beginPath(); ctx.arc(x, y, 6, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+  const closed = ease(seg(t, 6.5, 1.5));
+  // ferroportina: la puerta
+  ctx.fillStyle = closed > 0.5 ? '#555' : C.GREEN; ctx.fillRect(door[0] - 10, door[1] - 26, 20, 52);
+  ctx.globalAlpha = seg(t, 1.2, 0.5); tag(closed > 0.5 ? 'Ferroportina destruida' : 'Ferroportina: la puerta de salida', door[0] + 20, door[1] - 50, closed > 0.5 ? C.RED : C.GREEN, 14); ctx.globalAlpha = 1;
+  // hierro: sale antes, queda atrapado después
+  for (let i = 0; i < 18; i++) { const a = rnd(i) * 6.28, r = rnd(i + 3) * 90; let x = 470 + Math.cos(a) * r, y = 470 + Math.sin(a) * r * 0.7;
+    const out = (1 - closed) * (((t * 0.3) + i / 18) % 1); if (out > 0.3) { x = lerp(x, door[0] + 60 + (out - 0.3) * 200, 1); y = door[1] + (rnd(i) - 0.5) * 30; }
+    ctx.fillStyle = '#A0522D'; ctx.beginPath(); ctx.arc(x, y, 6, 0, 7); ctx.fill(); }
+  cnt(t, 760, 150, 480, [['Ferritina', lerp(80, 400, closed), 500, 'ng/mL', C.AMBER], ['Hierro sérico', lerp(90, 30, closed), 150, 'µg/dL', C.RED], ['Transferrina', lerp(260, 180, closed), 400, 'mg/dL', C.BLUE]]);
+  K.card(760, 400, 480, 150, C.AMBER, 'Hay hierro, pero no se puede usar', ['Ferritina alta: depósitos llenos', 'Darle hierro a ciegas no sirve'], seg(t, 11, 0.5), 17);
+  K.banner(760, 580, 480, 'Tratar la enfermedad de base', C.GREEN, seg(t, 16, 0.5));
+}
+
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  if (V === 'coombs_d') coombs(t, true); else if (V === 'coombs_i') coombs(t, false); else ({ lisis, esfero, pti, leucemia, hodgkin, jak2, hepcidina })[V](t);
+  K.credit(); };
+LOAD({ rbc: '../assets/servier/hematie.png', plt: '../assets/servier/plaqueta.png', blast: '../assets/servier/blasto.png', rin: '../assets/servier/rinon_suprarrenal.png',
+  bazo: '../assets/servier/bazo.png', mac: '../assets/servier/macrofago.png', hueso: '../assets/servier/hueso_medula.png', neu: '../assets/servier/neutrofilo.png',
+  esq: '../assets/servier/esqueleto.png', gang: '../assets/servier/ganglio.png', mem: '../assets/servier/membrana.png', hp: '../assets/servier/higado_pancreas.png' });
+</script>
+</body></html>

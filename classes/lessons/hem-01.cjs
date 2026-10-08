@@ -144,6 +144,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: '¿La médula responde?',
+      images: [
+        { src: 'animaciones/hem-01/A1_reticulocitos.mp4', label: 'Reticulocitos', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Altos: se pierde afuera; bajos: falla la fábrica',
+          say: 'Si los reticulocitos están altos, la médula fabrica y la sangre se pierde afuera: hemólisis o sangrado. Si están bajos, el problema es la fábrica: falta hierro, vitamina B doce o folato, la médula está enferma o falta eritropoyetina. Y el porcentaje se corrige antes de interpretarlo.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'La forma del glóbulo rojo',
       images: [

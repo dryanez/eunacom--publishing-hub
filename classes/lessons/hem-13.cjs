@@ -274,6 +274,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El tapón sin malla',
+      images: [
+        { src: 'animaciones/hem-13/A1_hemofilia_tenasa.mp4', label: 'Hemofilia', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Solo el TTPK alterado',
+          say: 'Normalmente el tapón de plaquetas se refuerza con una malla de fibrina, gracias a la tenasa que forman los factores ocho y nueve. En la hemofilia falta uno de ellos: el tapón se forma, pero no tiene malla y se desarma, y aparecen las hemartrosis. Las plaquetas y el TP son normales; solo se alarga el TTPK.' },
+      ],
+    },
+
+    {
+      type: 'image',
       light: true,
       kicker: 'Así se ve',
       title: 'Hemofilia',

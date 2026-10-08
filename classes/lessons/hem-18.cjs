@@ -261,6 +261,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'De cadena en cadena',
+      images: [
+        { src: 'animaciones/hem-18/A1_hodgkin_contiguo.mp4', label: 'Hodgkin', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Contiguo en el Hodgkin, salteado en el no Hodgkin',
+          say: 'El linfoma de Hodgkin avanza ordenado, de una cadena ganglionar a la vecina, partiendo por el cuello. El no Hodgkin, en cambio, se disemina por la sangre, en forma precoz y desordenada, y compromete órganos fuera del ganglio.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Linfoma de Hodgkin',

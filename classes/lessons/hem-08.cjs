@@ -204,6 +204,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El disco que se vuelve esfera',
+      images: [
+        { src: 'animaciones/hem-08/A1_esferocitosis_bazo.mp4', label: 'Esferocitosis', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Coombs negativo, fragilidad osmótica',
+          say: 'En la esferocitosis falla el andamio de la membrana: el glóbulo pierde trozos en cada paso y se vuelve una esfera pequeña y rígida. El bazo la atrapa y la destruye. Es una hemólisis con Coombs negativo, y se confirma con la fragilidad osmótica.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Esferocitosis hereditaria',
       images: [

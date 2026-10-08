@@ -224,6 +224,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La médula colapsada',
+      images: [
+        { src: 'animaciones/hem-16/A1_blastos_medula.mp4', label: 'Leucemia aguda', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Veinte por ciento o más de blastos',
+          say: 'En la leucemia aguda, un progenitor se queda detenido y prolifera sin control. Los blastos llenan la médula y desplazan a las células normales: aparece la anemia, la neutropenia con fiebre y la trombocitopenia con sangrado. Se confirma con veinte por ciento o más de blastos.' },
+      ],
+    },
+
+    {
+      type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Leucemias agudas',

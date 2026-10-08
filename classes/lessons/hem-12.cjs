@@ -237,6 +237,20 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Plaquetas marcadas',
+      images: [
+        { src: 'animaciones/hem-12/A1_pti_bazo.mp4', label: 'PTI', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'El bazo no crece',
+          say: 'En la PTI aparecen anticuerpos contra las propias plaquetas. Las plaquetas marcadas pasan por el bazo y los macrófagos se las comen, y además se frena su producción en la médula. El paciente tiene petequias, pero está bien, y el bazo no se palpa.' },
+      ],
+    },
+
+    {
+      type: 'image',
       kicker: 'Así se ve',
       title: 'Trombocitopenia',
       images: [
