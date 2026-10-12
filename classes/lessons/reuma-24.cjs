@@ -193,14 +193,21 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Osteoporosis',
       images: [
         { src: 'biblioteca/08_reumatologia/reuma-24/01_aplastamientos-vertebrales__amir-reuma_p88.jpg', label: 'Aplastamientos vertebrales', credit: 'Manual AMIR Reumatología, p. 88' },
+        { src: 'biblioteca/08_reumatologia/reuma-24/02_rx_fractura_cuello_femur__commons.jpg', label: 'Fractura de cuello femoral', credit: 'Wikimedia Commons «Cdm hip fracture 343.jpg», CC BY-SA 3.0, Booyabazooka' },
+        { src: 'biblioteca/08_reumatologia/reuma-24/S1_dexa-t-score__propio.svg', label: 'Cómo leer el índice T', credit: 'Dibujo propio (esquema)' },
       ],
       steps: [
         { note: 'Fracturas por fragilidad',
           say: 'Estos aplastamientos vertebrales son fracturas por fragilidad. Con una fractura así, el diagnóstico es osteoporosis aunque la densitometría no llegue al corte.' },
+        { note: 'Cadera: tratar sin esperar la densitometría',
+          say: 'Y esta es una fractura del cuello del fémur, donde apunta la flecha. Una fractura de cadera por caída de la propia altura es osteoporosis, y se trata sin esperar la densitometría.' },
+        { note: 'Índice T: osteopenia y osteoporosis',
+          say: 'Este esquema enseña a leer la densitometría. Un índice T menor o igual a menos dos coma cinco es osteoporosis; entre menos uno y menos dos coma cinco, osteopenia.' },
       ],
     },
 
