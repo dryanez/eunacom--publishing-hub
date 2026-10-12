@@ -206,6 +206,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'El macroprolactinoma',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-01/01_macroprolactinoma-rm__amir-endocrino_p24.jpg', label: 'Macroprolactinoma en la resonancia', credit: 'Manual AMIR Endocrinología, p. 24' },
+      ],
+      steps: [
+        { note: 'Comprime el quiasma',
+          say: 'Así se ve un macroprolactinoma en la resonancia. Si crece hacia arriba comprime el quiasma óptico y da hemianopsia bitemporal: resonancia urgente y cabergolina de inmediato.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora armemos el algoritmo completo de la amenorrea secundaria en un solo árbol, tal como lo vas a razonar en el examen.',
     },

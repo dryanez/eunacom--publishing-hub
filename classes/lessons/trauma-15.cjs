@@ -128,7 +128,6 @@ module.exports = {
         { src: 'biblioteca/18_traumatologia/trauma-15/01_arco-doloroso-hombro__bailey-love_p471.jpg', label: 'Arco doloroso: brazo elevado a la altura del hombro', credit: 'Bailey & Love 27.ª ed., Fig. 31.23 (b)' },
         { src: 'biblioteca/18_traumatologia/trauma-15/02_prueba-de-jobe__bailey-love_p471.jpg', label: 'Prueba de Jobe contra resistencia', credit: 'Bailey & Love 27.ª ed., Fig. 31.24' },
         { src: 'biblioteca/18_traumatologia/trauma-15/03_rotura-manguito-rm__bailey-love_p511.jpg', label: 'Resonancia: rotura retraída del manguito', credit: 'Bailey & Love 27.ª ed., Fig. 34.6' },
-        { src: 'biblioteca/18_traumatologia/trauma-15/04_prueba-de-spurling__bailey-love_p461.jpg', label: 'Prueba de Spurling: extensión y rotación del cuello', credit: 'Bailey & Love 27.ª ed., Fig. 31.4' },
       ],
       steps: [
         { note: 'Arco doloroso en el tramo intermedio',
@@ -137,8 +136,19 @@ module.exports = {
           say: 'Esta es la prueba de Jobe. El examinador empuja el brazo hacia abajo mientras el paciente resiste. Duele o se debilita si el supraespinoso está comprometido.' },
         { note: 'Resonancia: tendón roto y retraído',
           say: 'Y esta resonancia muestra una rotura del manguito, con el tendón retraído. Es lo que el examen físico y la ecografía te hacen sospechar.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'El examen del cuello',
+      images: [
+        { src: 'biblioteca/18_traumatologia/trauma-15/04_prueba-de-spurling__bailey-love_p461.jpg', label: 'Prueba de Spurling: extensión y rotación del cuello', credit: 'Bailey & Love 27.ª ed., Fig. 31.4' },
+      ],
+      steps: [
         { note: 'Spurling: cuello extendido y rotado',
-          say: 'Y en el cuello, la prueba de Spurling: se extiende y se rota la cabeza hacia un lado. Un dolor que baja por el brazo indica compresión de una raíz.' },
+          say: 'En el cuello, la prueba de Spurling: se extiende y se rota la cabeza hacia un lado. Un dolor que baja por el brazo indica compresión de una raíz.' },
       ],
     },
 

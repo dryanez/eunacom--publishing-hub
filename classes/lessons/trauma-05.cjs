@@ -182,19 +182,29 @@ module.exports = {
       title: 'Pelvis cerrada y uretra lesionada',
       images: [
         { src: 'biblioteca/18_traumatologia/trauma-05/01_pelvis-antes-de-faja__atls_p150.jpg', label: 'Pelvis fracturada antes de colocar la faja pélvica', credit: 'ATLS 10.ª ed., Fig. 5-9C' },
-        { src: 'biblioteca/18_traumatologia/trauma-05/02_pelvis-despues-de-faja__atls_p150.jpg', label: 'La misma pelvis después de colocar la faja', credit: 'ATLS 10.ª ed., Fig. 5-9D' },
         { src: 'biblioteca/18_traumatologia/trauma-05/03_sabana-pelvica__atls_p150.jpg', label: 'Estabilización de la pelvis con una sábana', credit: 'ATLS 10.ª ed., Fig. 5-9B' },
         { src: 'biblioteca/18_traumatologia/trauma-05/04_uretrografia-lesion-uretral__bailey-love_p227.jpg', label: 'Uretrografía retrógrada: contraste que se escapa (flecha)', credit: 'Bailey & Love 27.ª ed., Fig. 14.28' },
       ],
       steps: [
         { note: 'Antes: la pelvis abierta',
           say: 'Esta es una radiografía de pelvis de un paciente con una lesión inestable, antes de colocar la faja pélvica. Fíjate en cómo las alas ilíacas están separadas y la pelvis se ve ancha: ese es el espacio donde se acumula la sangre.' },
-        { note: 'Después: el anillo se cierra',
-          say: 'Y esta es la misma pelvis después de la faja. El anillo se ve más cerrado. Eso es lo que buscas en la práctica: reducir el volumen pélvico para frenar el sangrado venoso.' },
         { note: 'Sábana: el recurso sin material',
           say: 'Cuando no hay faja comercial, la idea es la misma con una sábana enrollada y apretada. Es la solución que el examen espera en atención primaria o en lugares sin recursos.' },
         { note: 'Uretra: el contraste se extravasa',
           say: 'Y esta es una uretrografía retrógrada en un paciente con fracturas extensas de pelvis. La flecha marca la zona donde el contraste se escapa fuera de la uretra: es una lesión uretral. Por eso nunca pasas una sonda a ciegas.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'La pelvis después de la faja',
+      images: [
+        { src: 'biblioteca/18_traumatologia/trauma-05/02_pelvis-despues-de-faja__atls_p150.jpg', label: 'La misma pelvis después de colocar la faja', credit: 'ATLS 10.ª ed., Fig. 5-9D' },
+      ],
+      steps: [
+        { note: 'Después: el anillo se cierra',
+          say: 'Esta es la misma pelvis de antes, ya con la faja puesta. El anillo se ve más cerrado. Eso es lo que buscas en la práctica: reducir el volumen pélvico para frenar el sangrado venoso.' },
       ],
     },
 

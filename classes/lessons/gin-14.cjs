@@ -173,7 +173,7 @@ module.exports = {
       title: 'Cáncer de mama',
       images: [
         { src: 'biblioteca/13_ginecologia/gin-14/01_mamografia_carcinoma__bailey_p882.jpg', label: 'Mamografía', credit: 'Bailey & Love 27.ª ed., Fig. 53.2' },
-        { src: 'biblioteca/13_ginecologia/gin-14/01_microcalcificaciones-sospechosas-mamogra__cto-radiologia_p134.jpg', label: 'Microcalcificaciones', credit: 'Manual CTO Radiología 14.ª ed., p. 134' },
+        { src: 'biblioteca/13_ginecologia/gin-14/01_microcalcificaciones-sospechosas-mamogra_alt2__amir-gyo_p135.jpg', label: 'Microcalcificaciones agrupadas', credit: 'Manual AMIR Ginecología y Obstetricia, p. 135' },
         { src: 'biblioteca/13_ginecologia/gin-14/02_piel_de_naranja__bailey_p895.jpg', label: 'Piel de naranja', credit: 'Bailey & Love 27.ª ed., Fig. 53.24' },
       ],
       steps: [

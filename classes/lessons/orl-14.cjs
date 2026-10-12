@@ -196,6 +196,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'La angina de Ludwig',
+      images: [
+        { src: 'biblioteca/17_otorrino/orl-14/01_angina-de-ludwig__amir-orl_p55.jpg', label: 'Angina de Ludwig: aumento de volumen submandibular', credit: 'Manual AMIR Otorrinolaringología, p. 55' },
+      ],
+      steps: [
+        { note: 'Cuello leñoso',
+          say: 'Esta es una angina de Ludwig: la región submandibular está hinchada y dura. Esa induración leñosa empuja la base de la lengua hacia atrás, y por eso la vía aérea se asegura de inmediato.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol completo: del paciente con odinofagia asimétrica y trismus hasta el drenaje o la vía aérea.',
     },

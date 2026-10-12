@@ -235,6 +235,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'La condrocalcinosis en la radiografía',
+      images: [
+        { src: 'biblioteca/18_traumatologia/trauma-12/04_condrocalcinosis-rx-rodilla__amir-reuma_p23.jpg', label: 'Condrocalcinosis de rodilla (flechas)', credit: 'Manual AMIR Reumatología, p. 23' },
+      ],
+      steps: [
+        { note: 'Cartílago calcificado',
+          say: 'En la pseudogota, que afecta sobre todo la rodilla, la radiografía puede mostrar el cartílago calcificado, una línea blanca dentro de la articulación. Eso es la condrocalcinosis.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: del dolor articular, crónico o agudo, a la conducta que corresponde.',
     },

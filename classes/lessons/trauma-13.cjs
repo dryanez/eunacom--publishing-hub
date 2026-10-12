@@ -162,8 +162,6 @@ module.exports = {
       images: [
         { src: 'biblioteca/18_traumatologia/trauma-13/01_osteosarcoma-esclerotico-femur-distal__bailey-love_p556.jpg', label: 'Osteosarcoma esclerótico del fémur distal', credit: 'Bailey & Love 27.ª ed., Fig. 37.4' },
         { src: 'biblioteca/18_traumatologia/trauma-13/02_osteocondroma-perone__bailey-love_p560.jpg', label: 'Osteocondroma del peroné proximal', credit: 'Bailey & Love 27.ª ed., Fig. 37.14' },
-        { src: 'biblioteca/18_traumatologia/trauma-13/03_osteoma-osteoide-tibia__bailey-love_p559.jpg', label: 'Osteoma osteoide de la diáfisis tibial', credit: 'Bailey & Love 27.ª ed., Fig. 37.11' },
-        { src: 'biblioteca/18_traumatologia/trauma-13/04_tumor-celulas-gigantes-radio__bailey-love_p563.jpg', label: 'Tumor de células gigantes del radio distal', credit: 'Bailey & Love 27.ª ed., Fig. 37.22' },
         { src: 'biblioteca/18_traumatologia/trauma-13/05_sarcoma-de-ewing-perone__bailey-love_p558.jpg', label: 'Sarcoma de Ewing del peroné proximal: reacción perióstica en capas', credit: 'Bailey & Love 27.ª ed., Fig. 37.8' },
       ],
       steps: [
@@ -171,12 +169,25 @@ module.exports = {
           say: 'Este es un osteosarcoma esclerótico en el fémur distal de un niño. Fíjate en que está en la metáfisis, junto a la rodilla, y en que el hueso se ve denso y mal delimitado.' },
         { note: 'Osteocondroma: crece hacia afuera',
           say: 'Aquí un osteocondroma en el peroné proximal. Es una proyección ósea que sale hacia afuera de la metáfisis, con bordes nítidos. Es benigno.' },
+        { note: 'Ewing: reacción perióstica en capas',
+          say: 'Y un sarcoma de Ewing en el peroné de un niño. Mira el periostio levantado en capas finas a lo largo del hueso: es la imagen en telas de cebolla.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Otros tumores óseos',
+      images: [
+        { src: 'biblioteca/18_traumatologia/trauma-13/03_osteoma-osteoide-tibia__bailey-love_p559.jpg', label: 'Osteoma osteoide de la diáfisis tibial', credit: 'Bailey & Love 27.ª ed., Fig. 37.11' },
+        { src: 'biblioteca/18_traumatologia/trauma-13/04_tumor-celulas-gigantes-radio__bailey-love_p563.jpg', label: 'Tumor de células gigantes del radio distal', credit: 'Bailey & Love 27.ª ed., Fig. 37.22' },
+      ],
+      steps: [
         { note: 'Osteoma osteoide en la diáfisis',
           say: 'Este osteoma osteoide en la tibia muestra la cortical engrosada por hueso reactivo alrededor de una lesión pequeña. Es el joven con dolor nocturno que cede con aspirina.' },
         { note: 'Células gigantes: lítico, cerca de la articulación',
-          say: 'Y un tumor de células gigantes en el radio distal, una lesión lítica que llega hasta el extremo del hueso, en un adulto. Cerca de la articulación es lo que se pregunta.' },
-        { note: 'Ewing: reacción perióstica en capas',
-          say: 'Por último, un sarcoma de Ewing en el peroné de un niño. Mira el periostio levantado en capas finas a lo largo del hueso: es la imagen en telas de cebolla.' },
+          say: 'Y este es un tumor de células gigantes en el radio distal, una lesión lítica que llega hasta el extremo del hueso, en un adulto. Cerca de la articulación es lo que se pregunta.' },
       ],
     },
 

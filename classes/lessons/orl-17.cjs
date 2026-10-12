@@ -196,6 +196,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Croup y epiglotitis',
+      images: [
+        { src: 'biblioteca/17_otorrino/orl-17/01_croup-estrechamiento-subglotico-rx__nelson_p3220.jpg', label: 'Croup: la tráquea se estrecha bajo las cuerdas', credit: 'Nelson 22.ª ed., p. 3220' },
+        { src: 'biblioteca/17_otorrino/orl-17/02_epiglotitis-rojo-cereza__cto-pediatria_p50.jpg', label: 'Epiglotitis: epiglotis rojo cereza', credit: 'Manual CTO Pediatría 14.ª ed., p. 50' },
+      ],
+      steps: [
+        { note: 'Edema subglótico',
+          say: 'En el croup, el edema subglótico estrecha la vía aérea justo bajo las cuerdas. En la radiografía, la columna de aire de la tráquea se afina en punta.' },
+        { note: 'Epiglotis roja e hinchada',
+          say: 'Y esta es una epiglotitis: la epiglotis roja e hinchada. Ante la sospecha, nunca uses bajalenguas: se maneja en pabellón con anestesista.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: del niño con estridor, a la conducta según el cuadro y el grado.',
     },

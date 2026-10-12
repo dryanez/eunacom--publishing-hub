@@ -103,6 +103,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'El TEP en el angioTAC',
+      images: [
+        { src: 'biblioteca/18_traumatologia/trauma-03/03_angiotc-tep__cto-neumo_p103.jpg', label: 'AngioTAC: trombos en las arterias pulmonares', credit: 'Manual CTO Neumología 14.ª ed., p. 103' },
+      ],
+      steps: [
+        { note: 'Defectos de llenado',
+          say: 'Si días después de la fractura aparece disnea súbita, piensa en tromboembolismo pulmonar. El angioTAC lo confirma: el trombo se ve oscuro dentro de la arteria pulmonar, que debería estar blanca de contraste.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Secuelas y otras complicaciones',
       title: 'Complicaciones tardías de la fractura',

@@ -189,6 +189,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'La fractura de cadera en la radiografía',
+      images: [
+        { src: 'biblioteca/18_traumatologia/trauma-10/01_rx_fractura_cuello_femur__commons.jpg', label: 'Fractura del cuello femoral (flecha)', credit: 'Wikimedia Commons «Cdm hip fracture 343.jpg», CC BY-SA 3.0, Booyabazooka' },
+        { src: 'biblioteca/18_traumatologia/trauma-10/02_osteosintesis-intertrocanterea-y-cuello__cto-trauma_p26.jpg', label: 'Intertrocantérica con tornillo dinámico (arriba); cuello con tornillos canulados (abajo)', credit: 'Manual CTO Traumatología 14.ª ed., p. 26' },
+      ],
+      steps: [
+        { note: 'Cuello femoral: intracapsular',
+          say: 'La flecha marca una fractura del cuello femoral, que es intracapsular. Si está desplazada y el paciente tiene más de sesenta y cinco años, va a prótesis.' },
+        { note: 'Cada fractura, su fijación',
+          say: 'Arriba, una fractura intertrocantérica fijada con tornillo dinámico de cadera. Abajo, una fractura del cuello fijada con tornillos canulados, la opción si no está desplazada o en el menor de sesenta y cinco años.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: del paciente con dolor de cadera tras el trauma a la cirugía que corresponde.',
     },

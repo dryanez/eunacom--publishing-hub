@@ -162,9 +162,9 @@ module.exports = {
       ],
       steps: [
         { note: 'Leucorrea candidiásica',
-          say: 'Mira esta imagen: leucorrea candidiásica. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+          say: 'En la candidiasis el flujo es como leche cortada: blanco, espeso, en grumos y adherido a la pared vaginal.' },
         { note: 'Cérvix en fresa',
-          say: 'Mira esta imagen: cérvix en fresa. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+          say: 'Y este es el cuello en fresa de la tricomoniasis: pequeñas petequias rojas sobre la mucosa.' },
       ],
     },
 

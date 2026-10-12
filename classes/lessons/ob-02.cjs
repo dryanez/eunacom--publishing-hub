@@ -141,13 +141,16 @@ module.exports = {
       title: 'Ecografía del primer trimestre',
       images: [
         { src: 'biblioteca/14_obstetricia/ob-02/02_longitud-craneocaudal__cto-gyo_p117.jpg', label: 'Longitud céfalo-nalgas', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 117' },
-        { src: 'biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica__cto-gyo_p117.jpg', label: 'Translucencia nucal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 117' },
+        { src: 'biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica__cto-gyo_p117.jpg', label: 'Translucencia nucal normal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 117' },
+        { src: 'biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica_alt2__cto-gyo_p28.jpg', label: 'Translucencia nucal aumentada', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 28' },
       ],
       steps: [
         { note: 'Fecha el embarazo',
           say: 'La longitud céfalo nalgas es el mejor parámetro para fechar el embarazo.' },
-        { note: 'Normal vs aumentada',
-          say: 'Y la translucencia nucal aumentada eleva el riesgo de aneuploidía.' },
+        { note: 'Translucencia normal',
+          say: 'Esta es una translucencia nucal normal: un espacio fino detrás de la nuca.' },
+        { note: 'Translucencia aumentada',
+          say: 'Y esta está aumentada. Una translucencia nucal aumentada eleva el riesgo de trisomías.' },
       ],
     },
 

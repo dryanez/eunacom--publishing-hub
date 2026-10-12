@@ -100,6 +100,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'La amigdalitis de la mononucleosis',
+      images: [
+        { src: 'biblioteca/17_otorrino/orl-13/04_amigdalitis-mononucleosica__cto-orl_p71.jpg', label: 'Amigdalitis de la mononucleosis: amígdalas grandes con exudado', credit: 'Manual CTO Otorrinolaringología 14.ª ed., p. 71' },
+      ],
+      steps: [
+        { note: 'Exudado en una viral',
+          say: 'Y esta es la amigdalitis de la mononucleosis, causada por el virus de Epstein-Barr. El exudado blanco es tan llamativo como en el estreptococo: por eso la foto sola no decide.' },
+      ],
+    },
+
+    {
       type: 'table',
       kicker: 'Trampas EUNACOM',
       title: 'Viral, estreptocócica y mononucleosis',

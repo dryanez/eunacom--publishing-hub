@@ -201,12 +201,15 @@ module.exports = {
       images: [
         { src: 'biblioteca/13_ginecologia/gin-15/02_quiste-simple-de-ovario__cto-gyo_p80.jpg', label: 'Quiste simple', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 80' },
         { src: 'biblioteca/13_ginecologia/gin-15/01_masa-anexial-sospechosa-eco__cto-gyo_p80.jpg', label: 'Masa sospechosa', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 80' },
+        { src: 'biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia__cto-gyo_p69.jpg', label: 'Endometrio engrosado en la postmenopausia', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 69' },
       ],
       steps: [
         { note: 'Pared delgada, anecogénico',
           say: 'El quiste simple, de pared delgada y contenido negro, es benigno.' },
         { note: 'Sólida, tabiques, flujo',
           say: 'La masa con partes sólidas, tabiques gruesos y flujo es sospechosa de cáncer de ovario.' },
+        { note: 'Cuatro a cinco milímetros o más',
+          say: 'Y en el sangrado postmenopáusico, un endometrio de cuatro a cinco milímetros o más en la ecografía transvaginal obliga a la biopsia.' },
       ],
     },
 
@@ -218,15 +221,15 @@ module.exports = {
       images: [
         { src: 'biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_1__cto-radiologia_p141.jpg', label: 'Adenocarcinoma de ovario', credit: 'Manual CTO Radiología 14.ª ed., p. 141' },
         { src: 'biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_2__cto-radiologia_p141.jpg', label: 'Carcinoma de ovario (TC coronal)', credit: 'Manual CTO Radiología 14.ª ed., p. 141' },
-        { src: 'biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia__cto-gyo_p69.jpg', label: 'Endometrio engrosado y histeroscopia', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 69' },
+        { src: 'biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia_alt1__cto-gyo_p69.jpg', label: 'Histeroscopía: cáncer de endometrio', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 69' },
       ],
       steps: [
         { note: 'Adenocarcinoma de ovario',
-          say: 'Mira esta imagen: adenocarcinoma de ovario. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+          say: 'Tomografía de un adenocarcinoma de ovario: una gran masa pélvica.' },
         { note: 'Carcinoma de ovario (TC coronal)',
           say: 'Tomografía coronal en un carcinoma de ovario.' },
-        { note: 'Endometrio engrosado y histeroscopia',
-          say: 'Mira esta imagen: endometrio engrosado y histeroscopia. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Biopsia dirigida',
+          say: 'Y si la muestra con Pipelle no alcanza, la histeroscopía permite ver la lesión y hacer una biopsia dirigida.' },
       ],
     },
 

@@ -118,11 +118,14 @@ module.exports = {
       title: 'Ramsay Hunt: la cara y la oreja',
       images: [
         { src: 'biblioteca/17_otorrino/orl-08/01_asimetria-facial-al-sonreir__bailey-love_p736.jpg', label: 'Parálisis facial por herpes zóster: la comisura de un lado no se eleva', credit: 'Bailey & Love 27.ª ed., Fig. 46.30a' },
+        { src: 'biblioteca/17_otorrino/orl-08/03_paralisis-facial-periferica-bell__amir-orl_p29.jpg', label: 'Parálisis de Bell derecha: comisura desviada y lagoftalmos', credit: 'Manual AMIR Otorrinolaringología, p. 29' },
         { src: 'biblioteca/17_otorrino/orl-08/02_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg', label: 'Ramsay Hunt: vesículas y costras en la concha', credit: 'Bailey & Love 27.ª ed., Fig. 46.30b' },
       ],
       steps: [
         { note: 'Primero, la cara en movimiento',
           say: 'Mira la comisura bucal al sonreír: de un lado se eleva, del otro no. Pero la foto sola no te dice si es central o periférica. Para eso tienes que pedirle al paciente que arrugue la frente y cierre los ojos con fuerza.' },
+        { note: 'Bell: lagoftalmos',
+          say: 'Y esta es una parálisis de Bell derecha, la causa más común de parálisis periférica. La comisura se desvía y el ojo de ese lado no logra cerrarse: es el lagoftalmos.' },
         { note: 'Después, la oreja',
           say: 'Esta es la oreja de un síndrome de Ramsay Hunt. Fíjate en las lesiones costrosas y vesiculares dentro de la concha, que llegan hacia el conducto. Si ves esto junto a una parálisis facial periférica, el diagnóstico está hecho: no es Bell, y cambia el tratamiento.' },
       ],

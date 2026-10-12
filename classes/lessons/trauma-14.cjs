@@ -125,7 +125,6 @@ module.exports = {
         { src: 'biblioteca/18_traumatologia/trauma-14/01_enfermedad-de-perthes__bailey-love_p593.jpg', label: 'Enfermedad de Perthes: cabeza densa y colapsada', credit: 'Bailey & Love 27.ª ed., Fig. 39.21' },
         { src: 'biblioteca/18_traumatologia/trauma-14/02_epifisiolisis-femoral__bailey-love_p595.jpg', label: 'Epifisiólisis leve de la cadera derecha', credit: 'Bailey & Love 27.ª ed., Fig. 39.22' },
         { src: 'biblioteca/18_traumatologia/trauma-14/03_escoliosis-angulo-de-cobb__bailey-love_p603.jpg', label: 'Escoliosis torácica derecha, Cobb de 40 grados', credit: 'Bailey & Love 27.ª ed., Fig. 39.36' },
-        { src: 'biblioteca/18_traumatologia/trauma-14/04_yesos-seriados-ponseti__bailey-love_p599.jpg', label: 'Yesos seriados del método de Ponseti', credit: 'Bailey & Love 27.ª ed., Fig. 39.30' },
       ],
       steps: [
         { note: 'Perthes: cabeza densa y colapsada',
@@ -134,6 +133,21 @@ module.exports = {
           say: 'En la epifisiólisis, la cabeza femoral se desliza hacia atrás y abajo respecto del cuello. Es el signo del helado caído, en un adolescente.' },
         { note: 'Escoliosis: curva lateral medida con Cobb',
           say: 'Esta es una escoliosis torácica derecha, con un ángulo de Cobb de cuarenta grados. Según el libro, ese rango, entre treinta y cincuenta grados, se maneja con corsé.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Displasia y pie bot',
+      images: [
+        { src: 'biblioteca/18_traumatologia/trauma-14/05_maniobra-de-ortolani__nelson_p5430.jpg', label: 'Maniobra de Ortolani', credit: 'Nelson 22.ª ed., p. 5430' },
+        { src: 'biblioteca/18_traumatologia/trauma-14/04_yesos-seriados-ponseti__bailey-love_p599.jpg', label: 'Yesos seriados del método de Ponseti', credit: 'Bailey & Love 27.ª ed., Fig. 39.30' },
+      ],
+      steps: [
+        { note: 'Ortolani reduce la cadera',
+          say: 'En el recién nacido, la maniobra de Ortolani reduce una cadera luxada. La de Barlow hace lo contrario: la luxa.' },
         { note: 'Ponseti: yesos que corrigen paso a paso',
           say: 'Y aquí la serie de yesos del método de Ponseti, que corrige paso a paso el pie bot. Se empieza cuanto antes.' },
       ],

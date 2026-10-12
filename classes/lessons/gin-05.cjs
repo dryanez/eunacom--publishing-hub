@@ -193,6 +193,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'El endometrioma con Doppler',
+      images: [
+        { src: 'biblioteca/13_ginecologia/gin-05/01_endometrioma-eco_alt1__amir-gyo_p101.jpg', label: 'Endometrioma: vidrio esmerilado, sin flujo interno', credit: 'Manual AMIR Ginecología y Obstetricia, p. 101' },
+      ],
+      steps: [
+        { note: 'Sin papilas ni Doppler',
+          say: 'Otro endometrioma, ahora con Doppler: contenido en vidrio esmerilado, sin papilas y sin flujo en su interior. No es un cáncer.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos endometriosis y adenomiosis en un solo árbol de decisión.',
     },

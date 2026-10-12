@@ -113,6 +113,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'La hematuria glomerular en el sedimento',
+      images: [
+        { src: 'biblioteca/19_urologia/uro-15/01_sedimento-hematies-dismorficos__cto-nefro_p33.jpg', label: 'Hematíes dismórficos', credit: 'Manual CTO Nefrología 14.ª ed., p. 33' },
+        { src: 'biblioteca/19_urologia/uro-15/02_cilindro-hematico__amir-nefro17_p46.jpg', label: 'Cilindro hemático', credit: 'Manual AMIR Nefrología 17.ª ed., p. 46' },
+      ],
+      steps: [
+        { note: 'Glóbulos rojos deformados',
+          say: 'En la hematuria glomerular, los glóbulos rojos del sedimento se ven deformados: son dismórficos. Si pasan del ochenta por ciento, el origen es el glomérulo.' },
+        { note: 'Cilindro hemático',
+          say: 'Y este es un cilindro hemático. Si lo ves en el sedimento, la hematuria es glomerular y el paciente va a nefrología, no a urología.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: de la hematuria confirmada al destino del paciente.',
     },

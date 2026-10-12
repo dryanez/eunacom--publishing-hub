@@ -150,14 +150,18 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
-      title: 'Aborto en la ecografía',
+      title: 'Aborto: la ecografía y los restos',
       images: [
-        { src: 'biblioteca/14_obstetricia/ob-10/01_aborto-precoz-tardio-gestacion-interrump__cto-gyo_p123.jpg', label: 'Aborto', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 123' },
+        { src: 'biblioteca/14_obstetricia/ob-10/01_aborto-precoz-tardio-gestacion-interrump_alt2__cto-gyo_p124.jpg', label: 'Aborto retenido: gestación sin latido', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 124' },
+        { src: 'biblioteca/14_obstetricia/ob-10/01_aborto-precoz-tardio-gestacion-interrump__cto-gyo_p123.jpg', label: 'Aborto precoz: embrión y restos expulsados', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 123' },
       ],
       steps: [
         { note: 'Gestación detenida',
-          say: 'La ecografía diferencia el aborto en evolución, el incompleto y la gestación detenida.' },
+          say: 'En el aborto retenido el cuello está cerrado y la ecografía muestra una gestación sin latidos: el embarazo ya murió, pero el cuerpo todavía no lo expulsó.' },
+        { note: 'Lo que se expulsa',
+          say: 'Y esto es lo que se expulsa en un aborto: el embrión y los restos ovulares. Si quedan restos en la cavidad, es un aborto incompleto.' },
       ],
     },
 

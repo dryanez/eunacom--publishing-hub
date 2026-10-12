@@ -121,13 +121,13 @@ module.exports = {
       title: 'Mola hidatidiforme',
       images: [
         { src: 'biblioteca/14_obstetricia/ob-12/01_mola-en-tormenta-de-nieve-eco__cto-gyo_p129.jpg', label: 'Tormenta de nieve', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 129' },
-        { src: 'biblioteca/14_obstetricia/ob-12/02_mola-vesiculas__amir-gyo_p33.jpg', label: 'Vesículas', credit: 'Manual AMIR Ginecología y Obstetricia, p. 33' },
+        { src: 'biblioteca/14_obstetricia/ob-12/02_mola-vesiculas__amir-gyo_p33.jpg', label: 'Múltiples vesículas, sin embrión', credit: 'Manual AMIR Ginecología y Obstetricia, p. 33' },
       ],
       steps: [
         { note: 'Ecografía',
           say: 'La mola completa da una imagen en tormenta de nieve.' },
-        { note: 'Racimo de uvas',
-          say: 'Y el tejido son vesículas como un racimo de uvas.' },
+        { note: 'Múltiples quistes pequeños',
+          say: 'Y aquí se ven de cerca los múltiples quistes pequeños ocupando la cavidad, sin ningún saco gestacional ni embrión.' },
       ],
     },
 

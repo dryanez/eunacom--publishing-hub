@@ -171,15 +171,19 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       light: true,
       kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
+      title: 'Desprendimiento y acretismo',
       images: [
         { src: 'biblioteca/14_obstetricia/ob-13/02_abruptio-placentae__amir-gyo_p38.jpg', label: 'Coágulo retroplacentario', credit: 'Manual AMIR Ginecología y Obstetricia, p. 38' },
+        { src: 'biblioteca/14_obstetricia/ob-13/01_tipos-de-placenta-previa_alt1__amir-gyo_p42.jpg', label: 'Acretismo: acreta, increta y percreta', credit: 'Manual AMIR Ginecología y Obstetricia, p. 42 (ilustración de Paula Carolina Parra Díaz)' },
       ],
       steps: [
         { note: 'Coágulo retroplacentario',
           say: 'Desprendimiento de placenta: coágulo adherido a la cara materna de la placenta.' },
+        { note: 'La placenta invade la pared',
+          say: 'Y este es el acretismo: la placenta se adhiere e invade la pared del útero. Piensa en él cuando hay una placenta previa sobre una cesárea previa.' },
       ],
     },
 
