@@ -429,6 +429,8 @@ function photos(s, idx, lt, a, t0, beats) {
   const ims = s.images.filter(i => !D.media[i.src]), n = ims.length; if (!n) return;
   const dur = beats.reduce((x, b) => x + b.dur, 0), z = 1 + 0.05 * clamp(lt / Math.max(dur, 1), 0, 1);
   const gap = 24, top = 150, bottom = 640, w = (1200 - gap * (n - 1)) / n, h = bottom - top;
+  const fit = p => { const im = photoImg(p.src); return im ? Math.min(w / im.width, h / im.height) * im.height : 0; };
+  const labY = Math.min(top + h / 2 + Math.max(...ims.map(fit)) / 2 + 12, 664);   // rótulos alineados en una línea
   ims.forEach((p, i) => {
     const im = photoImg(p.src), x = 40 + i * (w + gap), ai = a * ease(seg(lt, 0.2 + i * 0.5, 0.6));
     if (!im || ai <= 0) return;
@@ -436,7 +438,7 @@ function photos(s, idx, lt, a, t0, beats) {
     ctx.save(); ctx.globalAlpha = ai; ctx.beginPath(); ctx.roundRect(cx - dw / 2, cy - dh / 2, dw, dh, 14); ctx.clip();
     ctx.translate(cx, cy); ctx.scale(z, z); ctx.drawImage(im, -dw / 2, -dh / 2, dw, dh); ctx.restore();
     if (p.label) { ctx.save(); ctx.globalAlpha = ai; ctx.font = F(16, 700); const tw = ctx.measureText(p.label).width + 28;
-      rr(cx - tw / 2, Math.min(cy + dh / 2 + 12, 664), tw, 32, 16, hexA(C.CYAN, 0.16)); text(p.label, cx, Math.min(cy + dh / 2 + 12, 664) + 22, F(16, 700), C.CYAN, 'center'); ctx.restore(); }
+      rr(cx - tw / 2, labY, tw, 32, 16, hexA(C.CYAN, 0.16)); text(p.label, cx, labY + 22, F(16, 700), C.CYAN, 'center'); ctx.restore(); }
   });
 }
 

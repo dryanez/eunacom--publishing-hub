@@ -237,8 +237,8 @@ module.exports = {
       steps: [
         { note: 'Ecografía de bocio multinodular',
           say: 'Ecografía de un bocio multinodular: glándula aumentada con nódulos de distinto aspecto.' },
-        { note: 'Gammagrafía nódulo frío',
-          say: 'Mira esta imagen: gammagrafía nódulo frío. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Gammagrafía: nódulo caliente',
+          say: 'Este es un nódulo caliente en el cintigrama: capta todo el yodo y el resto de la glándula queda apagada. Es autónomo, su riesgo de cáncer es menor al uno por ciento, y no se punciona: se trata el hipertiroidismo.' },
       ],
     },
 
