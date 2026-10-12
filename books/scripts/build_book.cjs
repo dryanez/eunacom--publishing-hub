@@ -29,7 +29,8 @@ try {
   try {
     puppeteer = require('d:/Anti/Eunacom/eunacom-app-v2/node_modules/puppeteer');
   } catch (err2) {
-    throw new Error("Cannot find module 'puppeteer'. Please run 'npm install' first.");
+    try { puppeteer = require('./puppeteer_shim.cjs'); }   // sin puppeteer: Chromium de Playwright
+    catch (e3) { throw new Error("Cannot find module 'puppeteer'. Please run 'npm install' first."); }
   }
 }
 const matcher = require('./reconstruction_matcher.cjs');
