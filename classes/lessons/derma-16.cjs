@@ -137,15 +137,28 @@ module.exports = {
       images: [
         { src: 'biblioteca/11_dermatologia/derma-16/01_tina-corporis__amir-derma_p62.jpg', label: 'Tiña corporis', credit: 'Manual AMIR Dermatología, p. 62' },
         { src: 'biblioteca/11_dermatologia/derma-16/02_pitiriasis-versicolor__cto-derma_p21.jpg', label: 'Pitiriasis versicolor', credit: 'Manual CTO Dermatología 14.ª ed., p. 21' },
-        { src: 'biblioteca/11_dermatologia/derma-16/03_escabiosis-surco__cto-derma_p31.jpg', label: 'Escabiosis', credit: 'Manual CTO Dermatología 14.ª ed., p. 31' },
+        { src: 'biblioteca/11_dermatologia/derma-16/03_escabiosis-surco_alt1__amir-derma_p69.jpg', label: 'Escabiosis: lesiones en muñeca y dedos', credit: 'Manual AMIR Dermatología, p. 69' },
       ],
       steps: [
-        { note: 'Borde activo, centro claro',
+        { note: 'Borde activo',
           say: 'La tiña corporis es una placa con borde activo y centro claro.' },
         { note: 'Manchas con descamación fina',
           say: 'La pitiriasis versicolor da manchas claras u oscuras con descamación fina.' },
-        { note: 'Surco acarino',
-          say: 'Y la escabiosis, el surco del ácaro entre los dedos, con prurito nocturno.' },
+        { note: 'Muñecas y dedos',
+          say: 'Y la escabiosis: pápulas y costras de rascado en muñecas, palmas y dedos, con prurito nocturno.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Tiña de la cabeza',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-16/04_tina-capitis__amir-derma_p63.jpg', label: 'Tiña de la cabeza', credit: 'Manual AMIR Dermatología, p. 63' },
+      ],
+      steps: [
+        { note: 'Placas en el cuero cabelludo',
+          say: 'La tiña de la cabeza da placas alopécicas con descamación en el cuero cabelludo. Es la única tiña que se trata siempre por vía oral.' },
       ],
     },
 

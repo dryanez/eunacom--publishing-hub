@@ -110,14 +110,30 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'Cáncer de piel no melanoma',
       images: [
-        { src: 'biblioteca/11_dermatologia/derma-14/01_cbc-nodular-perlado__cto-derma_p99.jpg', label: 'Basocelular', credit: 'Manual CTO Dermatología 14.ª ed., p. 99' },
+        { src: 'biblioteca/11_dermatologia/derma-14/01_cbc-nodular-perlado__cto-derma_p99.jpg', label: 'Basocelular nodular perlado', credit: 'Manual CTO Dermatología 14.ª ed., p. 99' },
+        { src: 'biblioteca/11_dermatologia/derma-14/01_cbc-nodular-perlado_alt1__amir-derma_p76.jpg', label: 'Basocelular ulcerado: úlcera de Rodent', credit: 'Manual AMIR Dermatología, p. 76' },
         { src: 'biblioteca/11_dermatologia/derma-14/02_cec__cto-derma_p100.jpg', label: 'Espinocelular', credit: 'Manual CTO Dermatología 14.ª ed., p. 100' },
       ],
       steps: [
-        { note: 'Nódulo perlado con telangiectasias',
+        { note: 'Perlado con telangiectasias',
           say: 'El basocelular es un nódulo perlado con telangiectasias. Casi no da metástasis.' },
-        { note: 'Lesión queratósica que crece',
+        { note: 'Úlcera de Rodent',
+          say: 'Cuando se ulcera en el centro da la úlcera de Rodent: no metastiza, pero destruye localmente si no se trata.' },
+        { note: 'Costroso y ulcerado',
           say: 'El espinocelular es una lesión costrosa o ulcerada que crece, y sí puede dar metástasis.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Espinocelular del labio inferior',
+      images: [
+        { src: 'biblioteca/11_dermatologia/derma-14/02_cec_alt1__amir-derma_p77.jpg', label: 'Espinocelular del labio inferior', credit: 'Manual AMIR Dermatología, p. 77' },
+      ],
+      steps: [
+        { note: 'Labio inferior',
+          say: 'El labio inferior es la localización que más se pregunta: un espinocelular ahí tiene alto riesgo de metástasis ganglionar.' },
       ],
     },
 

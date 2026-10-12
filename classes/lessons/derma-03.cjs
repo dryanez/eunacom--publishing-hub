@@ -128,13 +128,16 @@ module.exports = {
       title: 'Rosácea',
       images: [
         { src: 'biblioteca/11_dermatologia/derma-03/01_rosacea__cto-derma_p60.jpg', label: 'Rosácea', credit: 'Manual CTO Dermatología 14.ª ed., p. 60' },
+        { src: 'biblioteca/11_dermatologia/derma-03/01_rosacea_alt1__amir-derma_p84.jpg', label: 'Rosácea pápulo-pustulosa', credit: 'Manual AMIR Dermatología, p. 84' },
         { src: 'biblioteca/11_dermatologia/derma-03/02_rinofima__amir-orl_p41.jpg', label: 'Rinofima', credit: 'Manual AMIR Otorrinolaringología, p. 41' },
       ],
       steps: [
-        { note: 'Eritema y pápulas centrofaciales',
+        { note: 'Sin comedones',
           say: 'La rosácea da enrojecimiento y pápulas en el centro de la cara, sin comedones.' },
+        { note: 'Pápulas y pústulas',
+          say: 'En la forma pápulo-pustulosa aparecen pápulas y pústulas sobre el eritema. Se trata con metronidazol o ivermectina tópica, nunca con corticoide.' },
         { note: 'Nariz engrosada',
-          say: 'Y el rinofima es la nariz engrosada de la rosácea avanzada.' },
+          say: 'Y el rinofima es la nariz engrosada de la rosácea avanzada. Se trata con cirugía o láser.' },
       ],
     },
 

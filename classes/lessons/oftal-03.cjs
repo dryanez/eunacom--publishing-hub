@@ -130,7 +130,6 @@ module.exports = {
       ],
     },
 
-
     {
       type: 'pathway',
       intro: 'Juntemos los cuatro cuadros en un solo árbol: localización, dolor, y qué hacer.',

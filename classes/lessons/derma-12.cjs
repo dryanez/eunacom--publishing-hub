@@ -85,27 +85,18 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Eritema multiforme',
       images: [
-        { src: 'biblioteca/11_dermatologia/derma-12/02_lesiones-en-diana__cto-derma_p15.jpg', label: 'Lesiones en diana', credit: 'Manual CTO Dermatología 14.ª ed., p. 15' },
+        { src: 'biblioteca/11_dermatologia/derma-12/02_lesiones-en-diana__cto-derma_p15.jpg', label: 'Lesiones en diana en el dorso de las manos', credit: 'Manual CTO Dermatología 14.ª ed., p. 15' },
+        { src: 'biblioteca/11_dermatologia/derma-12/01_eritema-multiforme__amir-derma_p106.jpg', label: 'Eritema multiforme en el pie', credit: 'Manual AMIR Dermatología, p. 106' },
       ],
       steps: [
-        { note: 'Tres anillos concéntricos',
+        { note: 'Tres zonas concéntricas',
           say: 'Las lesiones en diana tienen tres zonas concéntricas. Su causa más frecuente es el herpes simple.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-12/01_eritema-multiforme__amir-derma_p106.jpg', label: 'Eritema multiforme', credit: 'Manual AMIR Dermatología, p. 106' },
-      ],
-      steps: [
-        { note: 'Eritema multiforme',
-          say: 'Mira esta imagen: eritema multiforme. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Acral y simétrico',
+          say: 'Y se distribuyen de forma acral y simétrica: manos, pies, codos y rodillas.' },
       ],
     },
 

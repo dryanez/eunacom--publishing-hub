@@ -164,14 +164,18 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
+      title: 'Koebner y artritis psoriásica',
       images: [
-        { src: 'biblioteca/11_dermatologia/derma-05/04_koebner__cto-derma_p10.jpg', label: 'Koebner', credit: 'Manual CTO Dermatología 14.ª ed., p. 10' },
+        { src: 'biblioteca/11_dermatologia/derma-05/04_koebner__cto-derma_p10.jpg', label: 'Koebner: lesiones sobre una cicatriz', credit: 'Manual CTO Dermatología 14.ª ed., p. 10' },
+        { src: 'biblioteca/11_dermatologia/derma-05/05_artritis-psoriasica-ifd__amir-reuma_p81.jpg', label: 'Artritis psoriásica de interfalángicas distales', credit: 'Manual AMIR Reumatología, p. 81' },
       ],
       steps: [
-        { note: 'Koebner',
-          say: 'Mira esta imagen: Koebner. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Lesiones sobre la cicatriz',
+          say: 'El fenómeno de Koebner: aparecen lesiones nuevas sobre piel que sufrió un trauma. Aquí siguen exactamente el trazo de una cicatriz.' },
+        { note: 'Interfalángicas distales',
+          say: 'Y la artritis psoriásica: compromete las interfalángicas distales, junto a uñas enfermas, con factor reumatoide negativo.' },
       ],
     },
 

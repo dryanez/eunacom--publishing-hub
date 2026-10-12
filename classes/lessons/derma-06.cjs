@@ -122,14 +122,18 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
+      title: 'Eccema y sobreinfección',
       images: [
         { src: 'biblioteca/11_dermatologia/derma-06/01_dermatitis-atopica__amir-derma_p91.jpg', label: 'Dermatitis atópica', credit: 'Manual AMIR Dermatología, p. 91' },
+        { src: 'biblioteca/11_dermatologia/derma-06/03_impetiginizacion-costras-melicericas__amir-derma_p55.jpg', label: 'Costras melicéricas (impétigo)', credit: 'Manual AMIR Dermatología, p. 55' },
       ],
       steps: [
-        { note: 'Dermatitis atópica',
-          say: 'Mira esta imagen: dermatitis atópica. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Eccema con rascado',
+          say: 'Eccema con placas rojas, descamación y marcas de rascado. Recuerda: sin prurito intenso, no hay dermatitis atópica.' },
+        { note: 'Costras melicéricas',
+          say: 'Y estas costras amarillentas, como miel, son costras melicéricas: la señal de una sobreinfección bacteriana, la impetiginización.' },
       ],
     },
 

@@ -168,13 +168,13 @@ module.exports = {
     {
       type: 'image',
       kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
+      title: 'Las mucosas en el Stevens-Johnson',
       images: [
-        { src: 'biblioteca/11_dermatologia/derma-09/02_ssj_labios__fitzpatrick_p685.jpg', label: 'Stevens-johnson por mycoplasma', credit: 'Fitzpatrick 7.ª ed., p. 685 (figura completa, ~480 px)' },
+        { src: 'biblioteca/11_dermatologia/derma-09/02_ssj_labios__fitzpatrick_p685.jpg', label: 'Labios y boca en el Stevens-Johnson', credit: 'Fitzpatrick 7.ª ed., p. 685 (figura completa, ~480 px)' },
       ],
       steps: [
-        { note: 'Stevens-johnson por mycoplasma',
-          say: 'Mira esta imagen: Stevens-Johnson por Mycoplasma. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Labios con erosiones y costras',
+          say: 'Otra vez las mucosas: labios con erosiones y costras. En el Stevens Johnson las mucosas se comprometen en más del noventa por ciento de los casos.' },
       ],
     },
 

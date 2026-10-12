@@ -148,30 +148,16 @@ module.exports = {
       title: 'Acné',
       images: [
         { src: 'biblioteca/11_dermatologia/derma-02/01_comedones__fitzpatrick_p66.jpg', label: 'Comedones', credit: 'Fitzpatrick 7.ª ed., p. 66 (figura completa, ~480 px)' },
-        { src: 'biblioteca/11_dermatologia/derma-02/02_acne_nodular__fitzpatrick_p732.jpg', label: 'Acné nodular', credit: 'Fitzpatrick 7.ª ed., p. 732 (figura completa, ~480 px)' },
+        { src: 'biblioteca/11_dermatologia/derma-02/02_acne_nodular__fitzpatrick_p732.jpg', label: 'Acné pápulo-pustuloso', credit: 'Fitzpatrick 7.ª ed., p. 732 (figura completa, ~480 px)' },
+        { src: 'biblioteca/11_dermatologia/derma-02/01_acne-papulo-pustular__cto-derma_p59.jpg', label: 'Pápulo-pustuloso con tendencia a cicatrizar', credit: 'Manual CTO Dermatología 14.ª ed., p. 59' },
       ],
       steps: [
         { note: 'Abiertos y cerrados',
           say: 'El comedón es la lesión inicial del acné: abierto, el punto negro, o cerrado, el punto blanco.' },
-        { note: 'Nódulos que dejan cicatriz',
-          say: 'El acné nodular deja cicatrices y es indicación de isotretinoína.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-02/01_acne-papulo-pustular__cto-derma_p59.jpg', label: 'Acné pápulo-pustular', credit: 'Manual CTO Dermatología 14.ª ed., p. 59' },
-        { src: 'biblioteca/11_dermatologia/derma-02/02_reaccion-acneiforme__cto-derma_p53.jpg', label: 'Reacción acneiforme', credit: 'Manual CTO Dermatología 14.ª ed., p. 53' },
-      ],
-      steps: [
-        { note: 'Acné pápulo-pustular',
-          say: 'Mira esta imagen: acné pápulo-pustular. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Reacción acneiforme',
-          say: 'Mira esta imagen: reacción acneiforme. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Pápulas y pústulas',
+          say: 'Cuando hay inflamación aparecen pápulas y pústulas: es el acné pápulo-pustuloso.' },
+        { note: 'El riesgo de cicatriz',
+          say: 'Y cuando el acné inflamatorio empieza a dejar cicatrices, hay que escalar el tratamiento. Nódulos, quistes o cicatrices: isotretinoína oral.' },
       ],
     },
 

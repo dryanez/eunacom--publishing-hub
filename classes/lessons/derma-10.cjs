@@ -148,13 +148,13 @@ module.exports = {
     {
       type: 'image',
       kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
+      title: 'El exantema morbiliforme',
       images: [
         { src: 'biblioteca/11_dermatologia/derma-10/01_exantema-morbiliforme-dress__cto-derma_p9.jpg', label: 'Exantema morbiliforme', credit: 'Manual CTO Dermatología 14.ª ed., p. 9' },
       ],
       steps: [
-        { note: 'Exantema morbiliforme',
-          say: 'Mira esta imagen: exantema morbiliforme. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Exantema que confluye',
+          say: 'El exantema morbiliforme, maculopapular, confluye en tronco y extremidades. Por sí solo no basta: en el DRESS se suma fiebre, edema facial y daño hepático.' },
       ],
     },
 
