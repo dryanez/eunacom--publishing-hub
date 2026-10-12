@@ -109,12 +109,15 @@ module.exports = {
       images: [
         { src: 'biblioteca/12_oftalmologia/oftal-02/02_conjuntivitis_bacteriana__kanski_p147.jpg', label: 'Bacteriana', credit: 'Kanski, p. 147' },
         { src: 'biblioteca/12_oftalmologia/oftal-02/01_conjuntivitis_viral__kanski_p155.jpg', label: 'Viral', credit: 'Kanski, p. 155' },
+        { src: 'biblioteca/12_oftalmologia/oftal-02/02_conjuntivitis-alergica-vernal-papilar-gi_alt1__amir-oftalmo_p49.jpg', label: 'Alérgica: papilas en empedrado', credit: 'Manual AMIR Oftalmología, p. 49' },
       ],
       steps: [
         { note: 'Secreción purulenta',
           say: 'La bacteriana da secreción purulenta que pega los párpados.' },
         { note: 'Folículos y secreción acuosa',
           say: 'La viral da folículos y secreción acuosa, con adenopatía preauricular.' },
+        { note: 'Papilas en empedrado',
+          say: 'Y en la alérgica, al evertir el párpado, se ven papilas en empedrado. El síntoma que manda es el prurito intenso y bilateral.' },
       ],
     },
 
@@ -129,7 +132,7 @@ module.exports = {
       ],
       steps: [
         { note: 'Conjuntivitis aguda',
-          say: 'Mira esta imagen: conjuntivitis aguda. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+          say: 'Conjuntivitis aguda: ojo rojo con secreción, pero sin dolor profundo ni baja de visión.' },
         { note: 'Papilas gigantes (conjuntivitis vernal)',
           say: 'Conjuntivitis vernal: papilas gigantes en la conjuntiva tarsal superior.' },
       ],

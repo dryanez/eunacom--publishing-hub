@@ -108,7 +108,7 @@ module.exports = {
       title: 'Glaucoma crónico',
       images: [
         { src: 'biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa__amir-oftalmo_p34.jpg', label: 'Papila glaucomatosa', credit: 'Manual AMIR Oftalmología, p. 34' },
-        { src: 'biblioteca/12_oftalmologia/oftal-07/02_campimetria-papila-en-gcs__cto-oftalmo_p52.jpg', label: 'Campimetría', credit: 'Manual CTO Oftalmología 14.ª ed., p. 52' },
+        { src: 'biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa_alt1_2__amir-oftalmo_p35.jpg', label: 'Campimetría: pérdida progresiva del campo', credit: 'Manual AMIR Oftalmología, p. 35' },
       ],
       steps: [
         { note: 'Excavación aumentada',

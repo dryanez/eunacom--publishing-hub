@@ -142,12 +142,15 @@ module.exports = {
       images: [
         { src: 'biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo__cto-oftalmo_p65.jpg', label: 'Fondo de ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 65' },
         { src: 'biblioteca/12_oftalmologia/oftal-10/02_ecografia-dr__cto-oftalmo_p66.jpg', label: 'Ecografía', credit: 'Manual CTO Oftalmología 14.ª ed., p. 66' },
+        { src: 'biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo_alt1__amir-oftalmo_p13.jpg', label: 'Desgarro en herradura con retina levantada', credit: 'Manual AMIR Oftalmología, p. 13' },
       ],
       steps: [
         { note: 'Retina desprendida',
           say: 'La retina desprendida se ve gris y ondulada.' },
         { note: 'Membrana flotante',
           say: 'Y en la ecografía, una membrana que flota dentro del ojo.' },
+        { note: 'El desgarro',
+          say: 'Aquí se ve el origen: un desgarro periférico por tracción del vítreo. Por ese desgarro pasa el vítreo líquido y despega la retina.' },
       ],
     },
 

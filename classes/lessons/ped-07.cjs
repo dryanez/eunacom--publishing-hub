@@ -171,14 +171,21 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
-      title: 'Neumonía redonda',
+      title: 'Neumonía en la radiografía',
       images: [
         { src: 'biblioteca/15_pediatria/ped-07/01_neumonia_redonda__cxr_p208.jpg', label: 'Neumonía redonda', credit: 'The Chest X-Ray: A Survival Guide, Fig. 14.12' },
+        { src: 'biblioteca/15_pediatria/ped-07/02_consolidacion-lobar__cto-radiologia_p13.jpg', label: 'Consolidación lobar', credit: 'Manual CTO Radiología 14.ª ed., p. 13' },
+        { src: 'biblioteca/15_pediatria/ped-07/03_derrame-pleural__cto-neumo_p111.jpg', label: 'Derrame pleural', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
       ],
       steps: [
         { note: 'Imita una masa',
           say: 'En los niños la neumonía puede verse redonda, como una masa. Es una neumonía, no un tumor.' },
+        { note: 'Foco denso y bien delimitado',
+          say: 'Esta es la consolidación lobar: un foco denso y bien delimitado, la imagen típica del neumococo.' },
+        { note: 'La complicación más frecuente',
+          say: 'Y este es el derrame pleural, la complicación más frecuente. Si la fiebre persiste a las cuarenta y ocho horas, lo sospechas y hospitalizas.' },
       ],
     },
 

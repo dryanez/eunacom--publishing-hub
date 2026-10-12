@@ -143,13 +143,13 @@ module.exports = {
       title: 'El ojo rojo',
       images: [
         { src: 'biblioteca/12_oftalmologia/oftal-01/01_inyeccion-conjuntival__cto-oftalmo_p33.jpg', label: 'Inyección conjuntival', credit: 'Manual CTO Oftalmología 14.ª ed., p. 33' },
-        { src: 'biblioteca/12_oftalmologia/oftal-01/02_tabla-dif-ojo-rojo-inyeccion-ciliar__cto-oftalmo_p62.jpg', label: 'Inyección ciliar', credit: 'Manual CTO Oftalmología 14.ª ed., p. 62' },
+        { src: 'biblioteca/12_oftalmologia/oftal-01/03_inyeccion-ciliar-con-hipopion__cto-oftalmo_p39.jpg', label: 'Inyección ciliar con hipopión', credit: 'Manual CTO Oftalmología 14.ª ed., p. 39' },
       ],
       steps: [
         { note: 'Rojo periférico',
           say: 'La inyección conjuntival es más roja en la periferia. Es superficial: conjuntivitis.' },
         { note: 'Rojo alrededor de la córnea',
-          say: 'La ciliar es más roja alrededor de la córnea y sugiere algo profundo: uveítis, queratitis o glaucoma.' },
+          say: 'La ciliar es más roja alrededor de la córnea y sugiere algo profundo: uveítis, queratitis o glaucoma. Aquí además hay hipopión, pus en la cámara anterior: es un signo de alarma y se deriva.' },
       ],
     },
 

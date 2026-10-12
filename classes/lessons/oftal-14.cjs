@@ -121,11 +121,14 @@ module.exports = {
       title: 'Degeneración macular',
       images: [
         { src: 'biblioteca/12_oftalmologia/oftal-14/01_dmae-seca-drusas__cto-oftalmo_p72.jpg', label: 'DMAE seca', credit: 'Manual CTO Oftalmología 14.ª ed., p. 72' },
+        { src: 'biblioteca/12_oftalmologia/oftal-14/02_dmae-humeda_alt1__cto-oftalmo_p107.jpg', label: 'DMAE húmeda: hemorragia subretiniana', credit: 'Manual CTO Oftalmología 14.ª ed., p. 107' },
         { src: 'biblioteca/12_oftalmologia/oftal-14/02_amsler_metamorfopsia_escotoma__kanski_p598.jpg', label: 'Amsler', credit: 'Kanski 8.ª ed., Fig. 14.12' },
       ],
       steps: [
         { note: 'Drusas',
           say: 'La forma seca muestra drusas, depósitos amarillos en la mácula.' },
+        { note: 'Hemorragia subretiniana',
+          say: 'La forma húmeda tiene una membrana neovascular coroidea que sangra: hemorragia subretiniana. Progresa rápido y se trata con anti VEGF intravítreo.' },
         { note: 'Líneas onduladas y escotoma',
           say: 'Y el paciente ve las líneas de la rejilla de Amsler onduladas, con una mancha central.' },
       ],

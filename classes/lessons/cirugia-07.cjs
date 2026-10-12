@@ -111,14 +111,18 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
-      title: 'Hemorroides',
+      title: 'Fisura y hemorroides',
       images: [
-        { src: 'biblioteca/10_cirugia/cirugia-07/01_prolapso-hemorroidal__cto-digestivo_p149.jpg', label: 'Prolapso hemorroidal', credit: 'Manual CTO Digestivo 14.ª ed., p. 149' },
+        { src: 'biblioteca/10_cirugia/cirugia-07/02_fisura_anal_foto__commons.jpg', label: 'Fisura anal', credit: 'Wikimedia Commons «Anal fissure 1.jpg», Public domain, Bernardo Gui' },
+        { src: 'biblioteca/10_cirugia/cirugia-07/01_prolapso-hemorroidal__cto-digestivo_p149.jpg', label: 'Prolapso hemorroidal grado cuatro', credit: 'Manual CTO Digestivo 14.ª ed., p. 149' },
       ],
       steps: [
+        { note: 'Úlcera en el borde del ano',
+          say: 'La fisura anal es una pequeña úlcera en el borde del ano. Por eso el dolor al defecar corta como vidrio.' },
         { note: 'Hemorroides fuera del ano',
-          say: 'Este es un prolapso hemorroidal. El grado se define por si se reduce solo, con la mano o no se reduce.' },
+          say: 'Este es un prolapso hemorroidal grado cuatro, que ya no se reduce. Los grados tres y cuatro van a cirugía.' },
       ],
     },
 

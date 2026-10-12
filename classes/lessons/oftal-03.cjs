@@ -116,32 +116,20 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'Lesiones del párpado',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-03/01_chalazion__kanski_p16.jpg', label: 'Chalazión', credit: 'Kanski, p. 16' },
         { src: 'biblioteca/12_oftalmologia/oftal-03/01_orzuelo__amir-oftalmo_p57.jpg', label: 'Orzuelo', credit: 'Manual AMIR Oftalmología, p. 57' },
         { src: 'biblioteca/12_oftalmologia/oftal-03/03_dacriocistitis__amir-oftalmo_p53.jpg', label: 'Dacriocistitis', credit: 'Manual AMIR Oftalmología, p. 53' },
-      ],
-      steps: [
-        { note: 'Nódulo indoloro',
-          say: 'El chalazión es un nódulo indoloro: un granuloma.' },
-        { note: 'Doloroso, infeccioso',
-          say: 'El orzuelo duele, porque es una infección.' },
-        { note: 'Saco lagrimal inflamado',
-          say: 'Y la dacriocistitis inflama el saco lagrimal, junto a la nariz.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
         { src: 'biblioteca/12_oftalmologia/oftal-03/02_blefaritis__amir-oftalmo_p57.jpg', label: 'Blefaritis', credit: 'Manual AMIR Oftalmología, p. 57' },
       ],
       steps: [
-        { note: 'Blefaritis',
-          say: 'Mira esta imagen: blefaritis. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Doloroso, infeccioso',
+          say: 'El orzuelo es un nódulo en la base de una pestaña, y duele porque es una infección. El chalazión, en cambio, es un nódulo firme e indoloro.' },
+        { note: 'Saco lagrimal inflamado',
+          say: 'La dacriocistitis inflama el saco lagrimal, junto a la nariz, en el canto interno.' },
+        { note: 'Borde palpebral',
+          say: 'Y la blefaritis inflama de forma crónica el borde del párpado, con escamas en la base de las pestañas.' },
       ],
     },
+
 
     {
       type: 'pathway',

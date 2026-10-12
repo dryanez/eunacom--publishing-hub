@@ -117,14 +117,21 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Retinopatía diabética',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica__cto-oftalmo_p68.jpg', label: 'Retinopatía', credit: 'Manual CTO Oftalmología 14.ª ed., p. 68' },
+        { src: 'biblioteca/12_oftalmologia/oftal-12/02_rd-no-proliferativa-hemorragias-exudados__cto-oftalmo_p67.jpg', label: 'No proliferativa: hemorragias y exudados', credit: 'Manual CTO Oftalmología 14.ª ed., p. 67' },
+        { src: 'biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica_alt1__cto-oftalmo_p108.jpg', label: 'Edema macular: exudados junto a la mácula', credit: 'Manual CTO Oftalmología 14.ª ed., p. 108' },
+        { src: 'biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica__cto-oftalmo_p68.jpg', label: 'Proliferativa: hemorragia vítrea', credit: 'Manual CTO Oftalmología 14.ª ed., p. 68' },
       ],
       steps: [
         { note: 'Hemorragias y exudados',
-          say: 'La retinopatía diabética da microaneurismas, hemorragias y exudados.' },
+          say: 'La retinopatía no proliferativa da microaneurismas, microhemorragias y exudados, sin neovasos.' },
+        { note: 'Edema macular',
+          say: 'Cuando el líquido y los exudados se acumulan en la mácula hay edema macular, la causa número uno de baja visual. Se confirma con tomografía de coherencia óptica y se trata con anti VEGF.' },
+        { note: 'Hemorragia vítrea',
+          say: 'Y en la proliferativa los neovasos sangran: hemorragia vítrea. Es la forma que se trata con panfotocoagulación láser.' },
       ],
     },
 

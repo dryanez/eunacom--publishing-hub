@@ -151,14 +151,18 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Colecistitis en la ecografía',
       images: [
-        { src: 'biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco__cto-radiologia_p44.jpg', label: 'Colecistitis', credit: 'Manual CTO Radiología 14.ª ed., p. 44' },
+        { src: 'biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco__cto-radiologia_p44.jpg', label: 'Cálculos con sombra acústica', credit: 'Manual CTO Radiología 14.ª ed., p. 44' },
+        { src: 'biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco_alt1__cto-radiologia_p44.jpg', label: 'Colecistitis: pared engrosada', credit: 'Manual CTO Radiología 14.ª ed., p. 44' },
       ],
       steps: [
-        { note: 'Cálculo con sombra, pared gruesa',
-          say: 'La ecografía muestra cálculos con sombra acústica y una pared engrosada.' },
+        { note: 'Cálculo con sombra',
+          say: 'La ecografía muestra cálculos dentro de la vesícula, que dejan una sombra acústica detrás.' },
+        { note: 'Pared gruesa',
+          say: 'Y en la colecistitis la pared se engruesa, sobre cuatro milímetros, a veces con líquido alrededor de la vesícula.' },
       ],
     },
 

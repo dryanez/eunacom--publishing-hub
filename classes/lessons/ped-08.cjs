@@ -151,14 +151,21 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
+      title: 'El cuerpo extraño en la radiografía',
       images: [
-        { src: 'biblioteca/15_pediatria/ped-08/01_cuerpo-extrano-bronquial-rx__cto-pediatria_p59.jpg', label: 'Cuerpo extraño bronquial', credit: 'Manual CTO Pediatría 14.ª ed., p. 59' },
+        { src: 'biblioteca/15_pediatria/ped-08/01_cuerpo-extrano-bronquial-rx__cto-pediatria_p59.jpg', label: 'Cuerpo extraño en el bronquio derecho', credit: 'Manual CTO Pediatría 14.ª ed., p. 59' },
+        { src: 'biblioteca/15_pediatria/ped-08/02_mani-bronquio-derecho-inspiracion__cxr_p210.jpg', label: 'Maní en bronquio derecho: inspiración', credit: 'CXR, Fig. 14.13 (a)' },
+        { src: 'biblioteca/15_pediatria/ped-08/03_mani-bronquio-derecho-espiracion__cxr_p210.jpg', label: 'Misma radiografía en espiración: el aire queda atrapado', credit: 'CXR, Fig. 14.13 (b)' },
       ],
       steps: [
-        { note: 'Cuerpo extraño bronquial',
-          say: 'Mira esta imagen: cuerpo extraño bronquial. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Va al bronquio derecho',
+          say: 'El objeto aspirado suele ir al bronquio derecho, más ancho y más vertical.' },
+        { note: 'En inspiración',
+          say: 'Ahora compara dos radiografías del mismo niño. Esta es en inspiración.' },
+        { note: 'Un pulmón que no se desinfla',
+          say: 'Pero en espiración, el pulmón del lado del cuerpo extraño no se desinfla: el objeto actúa como una válvula que deja entrar el aire pero no salir.' },
       ],
     },
 

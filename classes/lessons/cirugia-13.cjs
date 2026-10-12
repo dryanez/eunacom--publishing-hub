@@ -183,14 +183,14 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/10_cirugia/cirugia-13/01_quemaduras-2-y-3-grado__cto-cirugia_p37.jpg', label: 'Quemaduras 2º y 3º grado', credit: 'Manual CTO Cirugía 14.ª ed., p. 37' },
-        { src: 'biblioteca/10_cirugia/cirugia-13/03_quemadura_foto__atls_p230.jpg', label: 'Quemadura: foto clínica de profundidad m', credit: 'ATLS 10.ª ed., Fig. 9-5' },
+        { src: 'biblioteca/10_cirugia/cirugia-13/01_quemaduras-2-y-3-grado__cto-cirugia_p37.jpg', label: 'Quemaduras de segundo y tercer grado', credit: 'Manual CTO Cirugía 14.ª ed., p. 37' },
+        { src: 'biblioteca/10_cirugia/cirugia-13/03_quemadura_foto__atls_p230.jpg', label: 'Quemadura de profundidad mixta', credit: 'ATLS 10.ª ed., Fig. 9-5' },
       ],
       steps: [
-        { note: 'Quemaduras 2º y 3º grado',
-          say: 'Mira esta imagen: quemaduras dosº y tresº grado. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Quemadura: foto clínica de profundidad m',
-          say: 'Mira esta imagen: quemadura: foto clínica de profundidad mixta. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Segundo y tercer grado en una mano',
+          say: 'Esta mano tiene quemaduras de segundo y tercer grado. Solo esas profundidades se suman para calcular la superficie quemada.' },
+        { note: 'Profundidad mixta',
+          say: 'En un mismo paciente conviven zonas superficiales, rosadas y húmedas, con zonas profundas, pálidas y secas.' },
       ],
     },
 

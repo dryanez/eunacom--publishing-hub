@@ -115,9 +115,9 @@ module.exports = {
       ],
       steps: [
         { note: 'Fascitis necrotizante postoperatoria',
-          say: 'Mira esta imagen: fascitis necrotizante postoperatoria. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+          say: 'Cuando la infección llega a la fascia y al músculo es profunda: hay que desbridar ampliamente todo el tejido no viable.' },
         { note: 'Etapas de dehiscencia a evisceración',
-          say: 'Mira esta imagen: etapas de dehiscencia a evisceración. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+          say: 'Esta lámina muestra cómo la herida pasa de la dehiscencia a la evisceración, cuando las asas salen por la pared abierta.' },
         { note: 'Hematoma de herida',
           say: 'Mira esta imagen: hematoma de herida. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],

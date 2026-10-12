@@ -133,7 +133,7 @@ module.exports = {
       title: 'Refracción y estrabismo',
       images: [
         { src: 'biblioteca/12_oftalmologia/oftal-09/S1_vicios-refraccion__propio.svg', label: 'Vicios de refracción', credit: 'Dibujo propio (esquema)' },
-        { src: 'biblioteca/12_oftalmologia/oftal-09/01_estrabismo-hirschberg__cto-oftalmo_p80.jpg', label: 'Hirschberg', credit: 'Manual CTO Oftalmología 14.ª ed., p. 80' },
+        { src: 'biblioteca/12_oftalmologia/oftal-09/01_estrabismo-hirschberg_alt1__cto-oftalmo_p80.jpg', label: 'Estrabismo: reflejo descentrado (Hirschberg)', credit: 'Manual CTO Oftalmología 14.ª ed., p. 80' },
       ],
       steps: [
         { note: 'Dónde enfoca el ojo',

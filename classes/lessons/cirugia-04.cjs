@@ -229,7 +229,7 @@ module.exports = {
         { note: 'Vólvulo de ciego',
           say: 'Mira esta imagen: vólvulo de ciego. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
         { note: 'Obstrucción de colon',
-          say: 'Mira esta imagen: obstrucción de colon. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+          say: 'En la obstrucción de colon se dilata el marco periférico. En el colon, la causa más frecuente es el cáncer colorrectal.' },
       ],
     },
 

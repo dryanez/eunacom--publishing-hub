@@ -149,13 +149,29 @@ module.exports = {
       title: 'Apendicitis',
       images: [
         { src: 'biblioteca/10_cirugia/cirugia-01/S1_puntos-apendicitis__propio.svg', label: 'Puntos del examen', credit: 'Dibujo propio (esquema)' },
-        { src: 'biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx__cto-radiologia_p41.jpg', label: 'Imágenes', credit: 'Manual CTO Radiología 14.ª ed., p. 41' },
+        { src: 'biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx__cto-radiologia_p41.jpg', label: 'TAC: apéndice engrosado', credit: 'Manual CTO Radiología 14.ª ed., p. 41' },
+        { src: 'biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx_alt1__cto-digestivo_p157.jpg', label: 'Pieza operatoria', credit: 'Manual CTO Digestivo 14.ª ed., p. 157' },
       ],
       steps: [
         { note: 'McBurney y signos',
           say: 'El punto de McBurney está en la unión del tercio externo con los dos tercios internos entre la espina ilíaca y el ombligo.' },
-        { note: 'Ecografía, pieza y radiografía',
-          say: 'Y estas son las imágenes: el apéndice engrosado en la ecografía y la pieza operatoria.' },
+        { note: 'Apéndice engrosado en el TAC',
+          say: 'En el TAC se ve el apéndice engrosado, con la grasa vecina inflamada. Es el examen que pides cuando el score queda en la zona intermedia.' },
+        { note: 'La pieza operatoria',
+          say: 'Y esta es la pieza operatoria: un apéndice rojo, engrosado e inflamado. Hoy se saca de preferencia por laparoscopía.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'El fecalito en la radiografía',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx_alt2__cto-digestivo_p158.jpg', label: 'Fecalito en la fosa ilíaca derecha', credit: 'Manual CTO Digestivo 14.ª ed., p. 158' },
+      ],
+      steps: [
+        { note: 'Fecalito calcificado',
+          say: 'A veces la radiografía simple muestra un fecalito en la fosa ilíaca derecha. Es la causa clásica de la obstrucción del apéndice.' },
       ],
     },
 

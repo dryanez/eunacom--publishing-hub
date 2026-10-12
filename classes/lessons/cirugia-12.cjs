@@ -166,6 +166,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'El subdural del adulto mayor',
+      images: [
+        { src: 'biblioteca/10_cirugia/cirugia-12/01_hematoma-epidural-vs-subdural-tc_alt2__cto-neuro_p174.jpg', label: 'Hematoma subdural crónico', credit: 'Manual CTO Neurología 14.ª ed., p. 174' },
+      ],
+      steps: [
+        { note: 'Media luna sobre un hemisferio',
+          say: 'En el anciano con atrofia cerebral, el subdural se extiende en media luna sobre todo un hemisferio. La conciencia empeora en días, no en horas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en el árbol de decisión del TEC.',
     },

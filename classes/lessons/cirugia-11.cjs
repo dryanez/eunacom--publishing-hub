@@ -178,7 +178,7 @@ module.exports = {
       ],
       steps: [
         { note: 'Rotura esplénica',
-          say: 'Mira esta imagen: rotura esplénica. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+          say: 'En el TAC, el bazo roto pierde su contorno y queda rodeado de sangre. En el paciente estable, el TAC con contraste gradúa la lesión y guía el manejo.' },
       ],
     },
 

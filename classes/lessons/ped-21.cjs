@@ -139,7 +139,7 @@ module.exports = {
       images: [
         { src: 'biblioteca/15_pediatria/ped-21/02_sitio_puncion_talon__minsal-pku-2007.jpg', label: 'Punción del talón', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, Foto 3' },
         { src: 'biblioteca/15_pediatria/ped-21/01_tarjeta_papel_filtro__minsal-pku-2007.jpg', label: 'Tarjeta de papel filtro', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, Foto 2' },
-        { src: 'biblioteca/15_pediatria/ped-21/03_muestras_satisfactorias__minsal-pku-2007.jpg', label: 'Calidad de la muestra', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, p. 26' },
+        { src: 'biblioteca/15_pediatria/ped-21/03_muestras_satisfactorias__minsal-pku-2007.jpg', label: 'Muestras que se rechazan', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, p. 26' },
       ],
       steps: [
         { note: 'Bordes laterales',
@@ -148,6 +148,19 @@ module.exports = {
           say: 'Una gota llena cada círculo de la tarjeta.' },
         { note: 'Satisfactoria o no',
           say: 'Y estas son las muestras que se rechazan.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'El hipotiroidismo congénito que se escapó',
+      images: [
+        { src: 'biblioteca/15_pediatria/ped-21/04_hipotiroidismo-congenito-facies__nelson_p4372.jpg', label: 'Hipotiroidismo congénito sin tratamiento', credit: 'Nelson 22.ª ed., p. 4372' },
+      ],
+      steps: [
+        { note: 'Macroglosia',
+          say: 'Así se ve un hipotiroidismo congénito que se escapó del tamizaje: fíjate en la macroglosia. Junto con la hernia umbilical y la fontanela posterior amplia, en el examen suele venir todo junto.' },
       ],
     },
 

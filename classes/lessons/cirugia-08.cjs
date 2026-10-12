@@ -104,7 +104,6 @@ module.exports = {
         { src: 'biblioteca/10_cirugia/cirugia-08/04_sinus_pilonidal_foto__commons.jpg', label: 'Sinus pilonidal', credit: 'Wikimedia Commons «Two pilonidal cysts in the natal cleft.jpg», Public domain, JerryTahl' },
         { src: 'biblioteca/10_cirugia/cirugia-08/05_absceso_pilonidal__commons.jpg', label: 'Absceso pilonidal', credit: 'Wikimedia Commons «Pilonidal abscess.jpg», CC BY-SA 4.0, Jonathanlund' },
         { src: 'biblioteca/10_cirugia/cirugia-08/02_lipomas_multiples__fitzpatrick_p1228.jpg', label: 'Lipomas', credit: 'Fitzpatrick 7.ª ed., Fig. 129-1' },
-        { src: 'biblioteca/10_cirugia/cirugia-08/01_quiste_epidermoide__fitzpatrick_p1102.jpg', label: 'Quiste epidermoide', credit: 'Fitzpatrick 7.ª ed., Fig. 118-18' },
       ],
       steps: [
         { note: 'Orificios en el surco interglúteo',
@@ -112,22 +111,24 @@ module.exports = {
         { note: 'Se drena',
           say: 'Cuando se infecta forma un absceso, que se drena.' },
         { note: 'Blandos y móviles',
-          say: 'Los lipomas son blandos, móviles y no duelen.' },
-        { note: 'Con punto central',
-          say: 'Y el quiste epidermoide tiene un punto central. Se reseca completo, con su cápsula.' },
+          say: 'Y los lipomas son blandos, móviles y no duelen.' },
       ],
     },
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
+        { src: 'biblioteca/10_cirugia/cirugia-08/01_quiste_epidermoide__fitzpatrick_p1102.jpg', label: 'Quiste epidermoide', credit: 'Fitzpatrick 7.ª ed., Fig. 118-18' },
         { src: 'biblioteca/10_cirugia/cirugia-08/01_hidradenitis-supurativa__cto-derma_p61.jpg', label: 'Hidradenitis supurativa', credit: 'Manual CTO Dermatología 14.ª ed., p. 61' },
       ],
       steps: [
+        { note: 'Con punto central',
+          say: 'El quiste epidermoide tiene un poro central visible. Se reseca completo, con su cápsula.' },
         { note: 'Hidradenitis supurativa',
-          say: 'Mira esta imagen: hidradenitis supurativa. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+          say: 'La hidrosadenitis aparece donde hay glándulas apocrinas: axilas, ingles y periné. Lo crónico se trata con cirugía.' },
       ],
     },
 

@@ -137,14 +137,21 @@ module.exports = {
     {
       type: 'image',
       light: true,
+      layout: 'gallery',
       kicker: 'Así se ve',
       title: 'La evaluación primaria',
       images: [
         { src: 'biblioteca/10_cirugia/cirugia-09/S1_abcde__propio.svg', label: 'ABCDE', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/10_cirugia/cirugia-09/01_ojos_de_mapache__commons.jpg', label: 'Ojos de mapache: sonda por la boca', credit: 'Wikimedia Commons «Bilateral periorbital ecchymosis (raccoon eyes).jpg», Public domain, Marion County Sheriff\'s Office' },
+        { src: 'biblioteca/10_cirugia/cirugia-09/02_uretrografia-lesion-uretral__bailey-love_p227.jpg', label: 'Uretrografía: contraste que se escapa (flecha)', credit: 'Bailey & Love 27.ª ed., Fig. 14.28' },
       ],
       steps: [
         { note: 'Un orden que no se cambia',
           say: 'La evaluación del politraumatizado sigue un orden fijo: vía aérea con columna cervical, ventilación, circulación, déficit neurológico y exposición. No se pasa a la siguiente sin resolver la anterior.' },
+        { note: 'Fractura de base de cráneo',
+          say: 'Los ojos de mapache sugieren fractura de la base del cráneo. La sonda gástrica va por la boca, nunca por la nariz.' },
+        { note: 'Uretrorragia',
+          say: 'Y si hay uretrorragia, nunca sonda Foley a ciegas. La uretrografía muestra el contraste que se escapa por la uretra rota.' },
       ],
     },
 
