@@ -275,7 +275,6 @@ module.exports = {
         { src: 'biblioteca/09_neurologia/neuro-17/02_test_hielo_a_ptosis__kanski_p851.jpg', label: 'Ptosis', credit: 'Kanski 8.ª ed., Fig. 19.87A' },
         { src: 'biblioteca/09_neurologia/neuro-17/03_test_hielo_b_aplicacion__kanski_p851.jpg', label: 'Test del hielo', credit: 'Kanski 8.ª ed., Fig. 19.87B' },
         { src: 'biblioteca/09_neurologia/neuro-17/04_test_hielo_c_mejoria__kanski_p851.jpg', label: 'Mejoría', credit: 'Kanski 8.ª ed., Fig. 19.87C' },
-        { src: 'biblioteca/09_neurologia/neuro-17/01_timoma-tc-mediastino__cto-radiologia_p22.jpg', label: 'Timoma', credit: 'Manual CTO Radiología 14.ª ed., p. 22' },
       ],
       steps: [
         { note: 'Asimétrica y fatigable',
@@ -284,8 +283,6 @@ module.exports = {
           say: 'Se pone hielo sobre el párpado por dos minutos.' },
         { note: 'La ptosis mejora',
           say: 'Y la ptosis mejora. El frío mejora la transmisión neuromuscular.' },
-        { note: 'Buscar en el mediastino',
-          say: 'Siempre se busca un timoma con tomografía de tórax.' },
       ],
     },
 
@@ -295,14 +292,17 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/09_neurologia/neuro-17/01_ptosis_miastenia_reversion__commons.jpg', label: 'Ptosis miasténica antes y después de la ', credit: 'Wikimedia Commons «Myasthenia gravis ptosis reversal.jpg», CC BY 2.0, Mohankumar Kurukumbi, Roger L Weir, Janaki Kalyana' },
+        { src: 'biblioteca/09_neurologia/neuro-17/01_ptosis_miastenia_reversion__commons.jpg', label: 'Ptosis miasténica: antes (a) y después (b) de revertirla', credit: 'Wikimedia Commons «Myasthenia gravis ptosis reversal.jpg», CC BY 2.0, Mohankumar Kurukumbi, Roger L Weir, Janaki Kalyana' },
         { src: 'biblioteca/09_neurologia/neuro-17/02_emg-fibra-unica__cto-neuro_p103.jpg', label: 'EMG de fibra única', credit: 'Manual CTO Neurología 14.ª ed., p. 103' },
+        { src: 'biblioteca/09_neurologia/neuro-17/01_timoma-tc-mediastino__cto-radiologia_p22.jpg', label: 'Masas del mediastino: el timoma es el panel B', credit: 'Manual CTO Radiología 14.ª ed., p. 22' },
       ],
       steps: [
-        { note: 'Ptosis miasténica antes y después de la ',
-          say: 'Mira esta imagen: ptosis miasténica antes y después de la prueba. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Ptosis asimétrica que revierte',
+          say: 'Otra ptosis miasténica: a la izquierda, un solo párpado caído, porque es asimétrica. A la derecha, después de revertirla, los dos ojos quedan iguales.' },
         { note: 'EMG de fibra única',
           say: 'Electromiografía de fibra única: mide la variabilidad de la transmisión neuromuscular, el jitter.' },
+        { note: 'Buscar en el mediastino',
+          say: 'Y siempre se busca un timoma con tomografía de tórax. En este panel de masas del mediastino, el timoma es la imagen B.' },
       ],
     },
 

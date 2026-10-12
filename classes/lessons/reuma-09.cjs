@@ -64,6 +64,20 @@ module.exports = {
     },
 
     {
+      type: "image",
+      layout: "gallery",
+      kicker: "Así se ve",
+      title: "Sedimento activo: hematuria dismórfica",
+      images: [
+        { src: "biblioteca/08_reumatologia/reuma-09/01_sedimento-hematuria-glomerular__cto-nefro_p33.jpg", label: "Hematíes dismórficos", credit: "Manual CTO Nefrología 14.ª ed., p. 33" },
+      ],
+      steps: [
+        { note: "Glóbulos rojos deformados: origen glomerular",
+          say: "Así se ve un sedimento activo en el microscopio: glóbulos rojos deformados, con el borde irregular. Es la hematuria dismórfica, de origen glomerular, y en un paciente lúpico exige biopsia urgente." },
+      ],
+    },
+
+    {
       type: "flow",
       kicker: "Clasificación histológica",
       title: "Las seis clases de la clasificación internacional",

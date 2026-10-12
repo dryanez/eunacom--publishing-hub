@@ -160,10 +160,13 @@ module.exports = {
       title: 'Cascada de la coagulación',
       images: [
         { src: 'biblioteca/06_hematologia/hem-11/S1_cascada-coagulacion__propio.svg', label: 'Vías y exámenes', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/06_hematologia/hem-11/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg', label: 'Petequias: falla de las plaquetas', credit: 'Manual AMIR Hematología, p. 89' },
       ],
       steps: [
         { note: 'TP y TTPA',
           say: 'El TP mide la vía extrínseca, el factor siete; el TTPA mide la intrínseca. Ambos comparten la vía común. La warfarina prolonga el TP y la heparina, el TTPA.' },
+        { note: 'Petequia apunta a plaquetas',
+          say: 'Y la clínica orienta antes que el examen. Estas petequias apuntan a las plaquetas; una hemartrosis, en cambio, apunta a los factores.' },
       ],
     },
 

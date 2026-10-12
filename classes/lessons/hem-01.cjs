@@ -160,12 +160,19 @@ module.exports = {
       type: 'image',
       kicker: 'Así se ve',
       title: 'La forma del glóbulo rojo',
+      layout: 'gallery',
       images: [
-        { src: 'biblioteca/06_hematologia/hem-01/01_morfologia-eritrocitaria-equinocitos-dia__cto-hemato_p9.jpg', label: 'Morfología eritrocitaria', credit: 'Manual CTO Hematología 14.ª ed., p. 9' },
+        { src: 'biblioteca/06_hematologia/hem-01/01_frotis-microcitico-hipocromo__amir-hemato_p16.jpg', label: 'Microcitosis e hipocromía (ferropenia)', credit: 'Manual AMIR Hematología, p. 16' },
+        { src: 'biblioteca/06_hematologia/hem-01/01_frotis-macroovalocitos-hipersegmentado__amir-hemato_p29.jpg', label: 'Macroovalocitos y neutrófilo hipersegmentado (megaloblástica)', credit: 'Manual AMIR Hematología, p. 29' },
+        { src: 'biblioteca/06_hematologia/hem-01/01_frotis-esferocitos__amir-hemato_p34.jpg', label: 'Esferocitos (hemólisis)', credit: 'Manual AMIR Hematología, p. 34' },
       ],
       steps: [
-        { note: 'Cada forma orienta',
-          say: 'El frotis muestra la forma de los glóbulos rojos, y cada forma orienta a una causa.' },
+        { note: 'Chicos y pálidos: microcítica',
+          say: 'El frotis muestra la forma de los glóbulos rojos, y cada forma orienta a una causa. Aquí son pequeños y pálidos: es la anemia microcítica, y la causa más frecuente es la ferropenia.' },
+        { note: 'Grandes y ovalados: megaloblástica',
+          say: 'Aquí los glóbulos son grandes y ovalados, y el neutrófilo tiene muchos lóbulos. Macroovalocitos y neutrófilos hipersegmentados: es una anemia megaloblástica.' },
+        { note: 'Esferas sin centro claro: hemólisis',
+          say: 'Y aquí, las flechas marcan esferocitos: glóbulos pequeños, redondos, sin el centro pálido. En una anemia regenerativa orientan a la anemia hemolítica autoinmune.' },
       ],
     },
 

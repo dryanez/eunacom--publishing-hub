@@ -222,10 +222,13 @@ module.exports = {
       title: 'Esferocitosis hereditaria',
       images: [
         { src: 'biblioteca/06_hematologia/hem-08/01_esferocitosis-hereditaria__amir-hemato_p34.jpg', label: 'Esferocitos', credit: 'Manual AMIR Hematología, p. 34' },
+        { src: 'biblioteca/06_hematologia/hem-08/01_colelitiasis-eco__cto-radiologia_p44.jpg', label: 'Colelitiasis en la ecografía', credit: 'Manual CTO Radiología 14.ª ed., p. 44' },
       ],
       steps: [
         { note: 'Sin palidez central',
           say: 'Los esferocitos son pequeños, redondos y sin palidez central. Se rompen en el bazo.' },
+        { note: 'Cálculos en un joven',
+          say: 'Y la bilirrubina de esa destrucción, año tras año, forma cálculos. En la ecografía, la piedra brilla dentro de la vesícula y deja una sombra negra detrás. Colelitiasis en un joven con bazo grande: piensa en esferocitosis.' },
       ],
     },
 

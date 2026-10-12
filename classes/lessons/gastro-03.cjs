@@ -173,16 +173,33 @@ module.exports = {
       type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
-      title: 'Acalasia: manometría y esofagograma',
+      title: 'Acalasia y esclerodermia',
       images: [
         { src: 'biblioteca/01_gastroenterologia/gastro-03/01_manometria-de-alta-resolucion-acalasia-i__cto-digestivo_p18.jpg', label: 'Manometría', credit: 'Manual CTO Digestivo 14.ª ed., p. 18' },
         { src: 'biblioteca/01_gastroenterologia/gastro-03/02_esofagograma-acalasia-pico-de-pajaro__amir-cirugia_p162.jpg', label: 'Pico de pájaro', credit: 'Manual AMIR Cirugía, p. 162' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-03/03_esclerodactilia__amir-reuma_p99.jpg', label: 'Esclerodactilia', credit: 'Manual AMIR Reumatología, p. 99' },
       ],
       steps: [
         { note: 'El estándar diagnóstico',
           say: 'Esta es una manometría de alta resolución: muestra que el esfínter inferior no se relaja y que el cuerpo no tiene peristalsis. Es el examen que confirma la acalasia.' },
         { note: 'Esófago dilatado que termina en punta',
           say: 'Y este es el esofagograma clásico: un esófago dilatado que termina en una punta fina, como el pico de un pájaro. Esa imagen se pregunta.' },
+        { note: 'El contexto delata la esclerodermia',
+          say: 'Y estas son las manos de una esclerodermia: dedos engrosados y fijos en flexión, la esclerodactilia. Junto al Raynaud y las telangiectasias, es el contexto que delata el trastorno motor con pirosis intensa.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Chagas: el esófago dilatado',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-03/04_megaesofago_chagas__commons.jpg', label: 'Megaesófago chagásico', credit: 'Wikimedia Commons «Chagas megaseophagus.JPG», Public domain, autor en Commons' },
+      ],
+      steps: [
+        { note: 'Chagas también compromete el esófago',
+          say: 'Este es un megaesófago por enfermedad de Chagas: el esófago se ve muy dilatado, lleno de contraste. Chagas también compromete el esófago y, igual que la acalasia, suele dar disfagia ilógica.' },
       ],
     },
 

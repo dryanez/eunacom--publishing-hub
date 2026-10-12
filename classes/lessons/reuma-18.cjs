@@ -144,12 +144,29 @@ module.exports = {
       images: [
         { src: 'biblioteca/08_reumatologia/reuma-18/01_artropatia-psoriasica-ifd__amir-reuma_p81.jpg', label: 'Interfalángicas distales', credit: 'Manual AMIR Reumatología, p. 81' },
         { src: 'biblioteca/08_reumatologia/reuma-18/02_dactilitis__amir-reuma_p81.jpg', label: 'Dactilitis', credit: 'Manual AMIR Reumatología, p. 81' },
+        { src: 'biblioteca/08_reumatologia/reuma-18/03_pitting-ungueal__amir-derma_p40.jpg', label: 'Pitting ungueal', credit: 'Manual AMIR Dermatología, p. 40' },
       ],
       steps: [
         { note: 'Uñas y articulación distal',
           say: 'La artritis psoriásica afecta las interfalángicas distales, junto a las uñas.' },
         { note: 'Dedo en salchicha',
           say: 'Y la dactilitis: un dedo entero hinchado, como una salchicha.' },
+        { note: 'Depresiones puntiformes en la uña',
+          say: 'Y en la uña, pequeñas depresiones puntiformes, en dedal: el pitting. Acompaña al compromiso de las interfalángicas distales.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'La piel que da la pista',
+      images: [
+        { src: 'biblioteca/08_reumatologia/reuma-18/04_psoriasis-en-placas__amir-derma_p39.jpg', label: 'Psoriasis en placas', credit: 'Manual AMIR Dermatología, p. 39' },
+      ],
+      steps: [
+        { note: 'Placas rojas con escamas blancas',
+          say: 'Y estas son placas de psoriasis: rojas, bien delimitadas y cubiertas de escamas blanquecinas. El metotrexato controla a la vez las placas y la artritis.' },
       ],
     },
 

@@ -272,6 +272,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'Edema pulmonar no cardiogénico',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-24/01_trali-infiltrado-bilateral__cto-neumo_p35.jpg', label: 'Infiltrados bilaterales: edema no cardiogénico (patrón del TRALI)', credit: 'Manual CTO Neumología 14.ª ed., p. 35' },
+      ],
+      steps: [
+        { note: 'Los dos pulmones blancos',
+          say: 'Así se ve un edema pulmonar no cardiogénico, como el del TRALI: los dos pulmones se llenan de opacidades. Los capilares se volvieron permeables, no sobra volumen. Por eso el manejo es soporte ventilatorio, y no diuréticos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las reacciones en un solo árbol, tal como lo vas a razonar al lado de la cama.',
     },

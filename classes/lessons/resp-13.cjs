@@ -70,7 +70,7 @@ module.exports = {
       type: 'image',
       kicker: 'La radiografía',
       title: 'Cómo se ve un neumotórax',
-      images: [{ src: 'resp-13/neumotorax.jpg', credit: 'Manual CTO Neumología, 14.ª ed.', alt: 'Radiografía de tórax con neumotórax derecho' }],
+      images: [{ src: 'resp-13/neumotorax.jpg', label: 'Neumotórax derecho', credit: 'Manual CTO Neumología, 14.ª ed.', alt: 'Radiografía de tórax con neumotórax derecho' }],
       steps: [
         { note: 'Periferia negra, sin trama vascular',
           marks: [{ x: 17, y: 14, w: 17, h: 46, label: 'Sin trama' }],
@@ -150,11 +150,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/02_neumologia/resp-13/01_neumotorax__cto-neumo_p116.jpg', label: 'Neumotórax derecho', credit: 'Manual CTO Neumología 14.ª ed., p. 116' },
+        { src: 'biblioteca/02_neumologia/resp-13/01_neumotorax_alt1__cto-radiologia_p23.jpg', label: 'Neumotórax derecho en inspiración y en espiración', credit: 'Manual CTO Radiología 14.ª ed., p. 23' },
       ],
       steps: [
-        { note: 'Neumotórax derecho',
-          say: 'Neumotórax derecho: el hemitórax se ve negro, sin trama vascular, y el pulmón colapsado queda como una masa junto al hilio.' },
+        { note: 'La línea de la pleura visceral',
+          say: 'Otro neumotórax derecho, en inspiración y en espiración. La línea punteada marca el borde del pulmón colapsado, la pleura visceral despegada de la pared. Por fuera de esa línea no hay trama vascular.' },
       ],
     },
 

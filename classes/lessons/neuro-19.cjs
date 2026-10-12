@@ -194,14 +194,17 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'Parálisis facial',
       images: [
-        { src: 'biblioteca/09_neurologia/neuro-19/01_paralisis-facial-periferica-bell__amir-orl_p29.jpg', label: 'Parálisis de Bell', credit: 'Manual AMIR Otorrinolaringología, p. 29' },
+        { src: 'biblioteca/09_neurologia/neuro-19/01_paralisis-facial-periferica-bell_alt1__cto-orl_p45.jpg', label: 'Parálisis facial periférica', credit: 'Manual CTO Otorrinolaringología 14.ª ed., p. 45' },
         { src: 'biblioteca/09_neurologia/neuro-19/02_central-vs-periferica__cto-neuro_p14.jpg', label: 'Central vs periférica', credit: 'Manual CTO Neurología 14.ª ed., p. 14' },
+        { src: 'biblioteca/09_neurologia/neuro-19/03_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg', label: 'Ramsay Hunt: vesículas y costras en la concha', credit: 'Bailey & Love 27.ª ed., Fig. 46.30b' },
       ],
       steps: [
         { note: 'Toda la hemicara, incluida la frente',
-          say: 'En la parálisis periférica se paraliza toda la hemicara, incluida la frente.' },
+          say: 'En la parálisis periférica se paraliza toda la hemicara, incluida la frente. Fíjate cómo cae la comisura del lado paralizado.' },
         { note: 'La frente decide',
           say: 'Y en la central la frente se respeta, porque recibe inervación de ambos hemisferios.' },
+        { note: 'Vesículas en la oreja',
+          say: 'Si además hay vesículas en el conducto y la concha de la oreja, con otalgia intensa, no es un Bell: es un Ramsay Hunt.' },
       ],
     },
 

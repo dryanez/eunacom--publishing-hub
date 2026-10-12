@@ -196,7 +196,7 @@ module.exports = {
       images: [
         { src: 'biblioteca/01_gastroenterologia/gastro-10/01_colitis-ulcerosa-endoscopia_1__cto-digestivo_p103.jpg', label: 'Colitis ulcerosa', credit: 'Manual CTO Digestivo 14.ª ed., p. 103' },
         { src: 'biblioteca/01_gastroenterologia/gastro-10/02_crohn-endoscopia__cto-digestivo_p104.jpg', label: 'Crohn', credit: 'Manual CTO Digestivo 14.ª ed., p. 104' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-10/03_crohn-ileal-tc-signo-de-la-cuerda_1__cto-radiologia_p40.jpg', label: 'Signo de la cuerda', credit: 'Manual CTO Radiología 14.ª ed., p. 40' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-10/03_crohn-ileal-tc-signo-de-la-cuerda_1__cto-radiologia_p40.jpg', label: 'Crohn: íleon terminal engrosado (TC)', credit: 'Manual CTO Radiología 14.ª ed., p. 40' },
         { src: 'biblioteca/01_gastroenterologia/gastro-10/05_megacolon-toxico-rx__amir-cirugia_p115.jpg', label: 'Megacolon tóxico', credit: 'Manual AMIR Cirugía, p. 115' },
       ],
       steps: [
@@ -204,8 +204,8 @@ module.exports = {
           say: 'En la colitis ulcerosa la mucosa está inflamada de forma continua, sin zonas sanas, roja y friable. Parte en el recto y sube.' },
         { note: 'Úlceras con mucosa sana entre medio',
           say: 'En el Crohn, en cambio, hay úlceras separadas por mucosa sana: son las lesiones salteadas. Esa diferencia se pregunta.' },
-        { note: 'Íleon terminal estrecho',
-          say: 'Esta tomografía muestra el íleon terminal engrosado y estrecho, el signo de la cuerda. Es la localización típica del Crohn.' },
+        { note: 'Íleon terminal engrosado',
+          say: 'Esta tomografía muestra el íleon terminal con la pared engrosada, donde apunta la flecha roja. Es la localización típica del Crohn.' },
         { note: 'Colon muy dilatado',
           say: 'Y esta es la complicación que mata: un colon transverso muy dilatado en un paciente tóxico. Es el megacolon tóxico, una urgencia quirúrgica.' },
       ],

@@ -304,7 +304,7 @@ module.exports = {
       images: [
         { src: 'biblioteca/09_neurologia/neuro-01/01_signos-precoces-tc-acm-hiperdensa_1__cto-radiologia_p62.jpg', label: 'Signos precoces', credit: 'Manual CTO Radiología 14.ª ed., p. 62' },
         { src: 'biblioteca/09_neurologia/neuro-01/02_infartos-establecidos-por-territorio-tc__cto-radiologia_p63.jpg', label: 'Infarto establecido', credit: 'Manual CTO Radiología 14.ª ed., p. 63' },
-        { src: 'biblioteca/09_neurologia/neuro-01/03_angio-tc-oclusion-acm__cto-radiologia_p65.jpg', label: 'AngioTC', credit: 'Manual CTO Radiología 14.ª ed., p. 65' },
+        { src: 'biblioteca/09_neurologia/neuro-01/01_signos-precoces-tc-acm-hiperdensa_2__cto-radiologia_p62.jpg', label: 'AngioTC: oclusión de la arteria cerebral media (flecha)', credit: 'Manual CTO Radiología 14.ª ed., p. 62' },
       ],
       steps: [
         { note: 'Arteria cerebral media hiperdensa',
@@ -312,7 +312,7 @@ module.exports = {
         { note: 'Zona oscura en un territorio',
           say: 'Días después, el infarto se ve oscuro, en el territorio de la arteria ocluida.' },
         { note: 'Oclusión de gran vaso',
-          say: 'Y la angiotomografía muestra la oclusión de un gran vaso: ese paciente es candidato a trombectomía.' },
+          say: 'Y la angiotomografía muestra la oclusión de un gran vaso: en la flecha, la arteria cerebral media se corta, mientras la del otro lado sigue ramificándose. Ese paciente es candidato a trombectomía.' },
       ],
     },
 
@@ -322,12 +322,9 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/09_neurologia/neuro-01/01_signos-precoces-tc-acm-hiperdensa_2__cto-radiologia_p62.jpg', label: 'Angio-TC: arteria cerebral media', credit: 'Manual CTO Radiología 14.ª ed., p. 62' },
         { src: 'biblioteca/09_neurologia/neuro-01/04_territorios-vasculares__cto-neuro_p35.jpg', label: 'Territorios vasculares', credit: 'Manual CTO Neurología 14.ª ed., p. 35' },
       ],
       steps: [
-        { note: 'Angio-TC: arteria cerebral media',
-          say: 'Angiotomografía del polígono de Willis: la flecha marca la arteria cerebral media.' },
         { note: 'Territorios vasculares',
           say: 'Mira esta imagen: territorios vasculares. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],

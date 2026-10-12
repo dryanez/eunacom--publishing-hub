@@ -189,7 +189,7 @@ module.exports = {
         { src: 'biblioteca/07_infectologia/infecto-22/01_manchas_koplik__cdc-phil-6111.jpg', label: 'Manchas de Koplik', credit: 'CDC PHIL 6111, dominio público' },
         { src: 'biblioteca/07_infectologia/infecto-22/01_sarampion__cto-pediatria_p97.jpg', label: 'Sarampión', credit: 'Manual CTO Pediatría 14.ª ed., p. 97' },
         { src: 'biblioteca/07_infectologia/infecto-22/03_escarlatina-lengua-pastia_1__cto-pediatria_p102.jpg', label: 'Escarlatina', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
-        { src: 'biblioteca/07_infectologia/infecto-22/04_kawasaki-conjuntivitis-descamacion__cto-pediatria_p103.jpg', label: 'Kawasaki', credit: 'Manual CTO Pediatría 14.ª ed., p. 103' },
+        { src: 'biblioteca/07_infectologia/infecto-22/04_kawasaki-conjuntivitis-descamacion__cto-pediatria_p103.jpg', label: 'Kawasaki: descamación de los dedos', credit: 'Manual CTO Pediatría 14.ª ed., p. 103' },
       ],
       steps: [
         { note: 'Puntos blancos en la mucosa',
@@ -199,7 +199,7 @@ module.exports = {
         { note: 'Lengua aframbuesada',
           say: 'La escarlatina da lengua aframbuesada y piel áspera como lija.' },
         { note: 'Conjuntivitis y descamación',
-          say: 'Y en Kawasaki, conjuntivitis sin secreción y descamación de los dedos. Lo grave es el corazón.' },
+          say: 'Y en Kawasaki, después de la fase aguda, la piel descama alrededor de las uñas, en dedo de guante. Lo grave es el corazón.' },
       ],
     },
 
@@ -211,12 +211,29 @@ module.exports = {
       images: [
         { src: 'biblioteca/07_infectologia/infecto-22/02_rubeola__cto-pediatria_p98.jpg', label: 'Rubéola', credit: 'Manual CTO Pediatría 14.ª ed., p. 98' },
         { src: 'biblioteca/07_infectologia/infecto-22/03_escarlatina-lengua-pastia_2__cto-pediatria_p102.jpg', label: 'Escarlatina: lengua saburral inicial', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
+        { src: 'biblioteca/07_infectologia/infecto-22/05_eritema_infeccioso__nelson_p2548.jpg', label: 'Eritema infeccioso: signo de la bofetada', credit: 'Nelson 22.ª ed., p. 2548' },
       ],
       steps: [
         { note: 'Rubéola',
-          say: 'Mira esta imagen: rubéola. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+          say: 'Este es el exantema de la rubéola: manchas rosadas que no confluyen y duran unos tres días. Busca los ganglios retroauriculares.' },
         { note: 'Escarlatina: lengua saburral inicial',
           say: 'Escarlatina al inicio: lengua cubierta por una capa blanca con bordes rojos, antes de la lengua en frambuesa.' },
+        { note: 'Mejillas rojas, palidez alrededor de la boca',
+          say: 'Y este es el eritema infeccioso, por parvovirus B diecinueve: el signo de la bofetada, las dos mejillas de un rojo encendido con palidez alrededor de la boca.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Escarlatina: líneas de Pastia',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-22/03_escarlatina-lengua-pastia_alt1__cto-pediatria_p102.jpg', label: 'Líneas de Pastia en el pliegue del codo', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
+      ],
+      steps: [
+        { note: 'Petequias lineales en el pliegue',
+          say: 'En el pliegue del codo se ven las líneas de Pastia: una hiperpigmentación petequial lineal en los pliegues. Es uno de los tres signos de la escarlatina que se preguntan.' },
       ],
     },
 

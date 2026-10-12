@@ -192,6 +192,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Así se ve',
+      title: 'Estenosis hipertrófica del píloro',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-24/01_eco-piloro-ehp__cto-pediatria_p65.jpg', label: 'Ecografía: píloro alargado y engrosado', credit: 'Manual CTO Pediatría 14.ª ed., p. 65' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-24/01_eco-piloro-ehp_alt1__cto-pediatria_p65.jpg', label: 'El músculo pilórico engrosado (dibujo)', credit: 'Manual CTO Pediatría 14.ª ed., p. 65' },
+      ],
+      steps: [
+        { note: 'La oliva pilórica en la ecografía',
+          say: 'Esta es la ecografía, el examen que muestra la oliva pilórica. Las marcas miden el píloro: está alargado y con el músculo engrosado.' },
+        { note: 'El músculo cierra la salida del estómago',
+          say: 'Y este dibujo muestra lo mismo por dentro: el músculo del píloro engrosado, que cierra la salida del estómago. Por eso el lactante hambriento vomita de forma explosiva.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos el lactante que vomita en un solo árbol de decisión.',
     },

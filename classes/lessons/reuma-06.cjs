@@ -243,14 +243,17 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'Artritis reumatoide',
       images: [
-        { src: 'biblioteca/08_reumatologia/reuma-06/01_ar-desviacion-cubital__amir-reuma_p48.jpg', label: 'Desviación cubital', credit: 'Manual AMIR Reumatología, p. 48' },
-        { src: 'biblioteca/08_reumatologia/reuma-06/02_rx-manos-ar-erosiones__cto-reuma_p27.jpg', label: 'Erosiones', credit: 'Manual CTO Reumatología 14.ª ed., p. 27' },
+        { src: 'biblioteca/08_reumatologia/reuma-06/01_ar-desviacion-cubital_alt1__amir-reuma_p49.jpg', label: 'Desviación cubital', credit: 'Manual AMIR Reumatología, p. 49' },
+        { src: 'biblioteca/08_reumatologia/reuma-06/01_ar-desviacion-cubital__amir-reuma_p48.jpg', label: 'Rx de manos: enfermedad avanzada', credit: 'Manual AMIR Reumatología, p. 48' },
+        { src: 'biblioteca/08_reumatologia/reuma-06/03_escleritis__cto-oftalmo_p42.jpg', label: 'Escleritis', credit: 'Manual CTO Oftalmología 14.ª ed., p. 42' },
       ],
       steps: [
         { note: 'Manos deformadas',
-          say: 'En la artritis reumatoide avanzada los dedos se desvían hacia cubital.' },
-        { note: 'Erosiones marginales',
-          say: 'Y la radiografía muestra erosiones en los bordes de las articulaciones. Las erosiones son de mal pronóstico.' },
+          say: 'En la artritis reumatoide avanzada las metacarpofalángicas se subluxan y los dedos se desvían hacia cubital.' },
+        { note: 'Desviación y daño articular',
+          say: 'Y esta radiografía muestra la misma enfermedad avanzada: dedos desviados hacia cubital y articulaciones dañadas por las erosiones, que son de mal pronóstico.' },
+        { note: 'Ojo rojo y doloroso',
+          say: 'Fuera de las articulaciones, el ojo: esta es una escleritis, con la esclera roja por vasos dilatados. Da un dolor ocular sordo, intenso y profundo.' },
       ],
     },
 

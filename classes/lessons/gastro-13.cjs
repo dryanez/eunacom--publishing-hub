@@ -170,14 +170,18 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
-      title: 'Colédoco dilatado',
+      title: 'Colédoco dilatado: ecografía y colangiorresonancia',
       images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-13/01_coledoco-dilatado-eco-colangio-rm__cto-radiologia_p45.jpg', label: 'Colédoco dilatado', credit: 'Manual CTO Radiología 14.ª ed., p. 45' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-13/01_coledoco-dilatado-eco-colangio-rm__cto-radiologia_p45.jpg', label: 'Colédoco dilatado (ecografía)', credit: 'Manual CTO Radiología 14.ª ed., p. 45' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-13/01_coledoco-dilatado-eco-colangio-rm_alt1__cto-radiologia_p45.jpg', label: 'Coledocolitiasis (colangiorresonancia)', credit: 'Manual CTO Radiología 14.ª ed., p. 45' },
       ],
       steps: [
         { note: 'Vía biliar ancha en la ecografía',
           say: 'En esta ecografía el colédoco está dilatado. Si la vía biliar está ancha, la ictericia es obstructiva, y hay que buscar la causa: cálculo o tumor.' },
+        { note: 'El cálculo en la colangiorresonancia',
+          say: 'Y esta es la colangiorresonancia, el examen de elección para la vía biliar. La flecha blanca marca el colédoco dilatado y la roja, el cálculo que lo obstruye: una coledocolitiasis.' },
       ],
     },
 

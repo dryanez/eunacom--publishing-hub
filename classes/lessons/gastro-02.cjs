@@ -198,6 +198,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Úlcera perforada: aire bajo el diafragma',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-02/03_neumoperitoneo-bajo-diafragma__cto-digestivo_p65.jpg', label: 'Neumoperitoneo', credit: 'Manual CTO Digestivo 14.ª ed., p. 65' },
+      ],
+      steps: [
+        { note: 'Aire libre bajo las cúpulas',
+          say: 'Esta es una radiografía de tórax de pie en una úlcera perforada. Mira bajo el diafragma: hay una delgada media luna de aire, el neumoperitoneo. Aquí la endoscopía está contraindicada y el tratamiento es cirugía de urgencia.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },

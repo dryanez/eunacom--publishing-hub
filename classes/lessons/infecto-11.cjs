@@ -177,12 +177,15 @@ module.exports = {
       images: [
         { src: 'biblioteca/07_infectologia/infecto-11/01_mal-de-pott__cto-infecto_p69.jpg', label: 'Mal de Pott', credit: 'Manual CTO Infecciosas 14.ª ed., p. 69' },
         { src: 'biblioteca/07_infectologia/infecto-11/02_escrofula-adenitis-tbc__amir-infecto_p112.jpg', label: 'Escrófula', credit: 'Manual AMIR Infecciosas, p. 112' },
+        { src: 'biblioteca/07_infectologia/infecto-11/04_derrame-pleural__cto-neumo_p111.jpg', label: 'Pleuresía: derrame unilateral', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
       ],
       steps: [
         { note: 'Columna destruida',
           say: 'El mal de Pott es la tuberculosis de la columna: destruye vértebras y discos.' },
         { note: 'Adenitis cervical',
           say: 'Y la escrófula es la adenitis tuberculosa del cuello, que puede fistulizar a la piel.' },
+        { note: 'Derrame unilateral: pide ADA',
+          say: 'Y la pleuresía tuberculosa: un derrame unilateral, que ocupa la base de un hemitórax. Es un exudado con predominio de linfocitos, y el ADA alto lo confirma.' },
       ],
     },
 

@@ -203,6 +203,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Cielo estrellado y Ramsay-Hunt',
+      images: [
+        { src: 'biblioteca/07_infectologia/infecto-23/01_varicela_alt1_2__amir-infecto_p127.jpg', label: 'Varicela: cielo estrellado', credit: 'Manual AMIR Infecciosas, p. 127' },
+        { src: 'biblioteca/07_infectologia/infecto-23/04_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg', label: 'Ramsay-Hunt: vesículas y costras en la concha', credit: 'Bailey & Love 27.ª ed., Fig. 46.30b' },
+      ],
+      steps: [
+        { note: 'Lesiones en distintas etapas',
+          say: 'En esta espalda se ve el cielo estrellado de la varicela: en una misma zona conviven pápulas, vesículas y costras. Ese polimorfismo regional es la firma de la enfermedad.' },
+        { note: 'Mira la oreja',
+          say: 'Y estas son vesículas y costras en la concha de la oreja: el síndrome de Ramsay-Hunt. Si hay parálisis facial, mira la oreja antes de llamarla parálisis de Bell.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión.',
     },

@@ -158,12 +158,15 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'Fibrosis pulmonar idiopática',
       images: [
-        { src: 'biblioteca/02_neumologia/resp-18/01_fpi-rx-y-tc__cto-neumo_p73.jpg', label: 'Panal de abejas', credit: 'Manual CTO Neumología 14.ª ed., p. 73' },
+        { src: 'biblioteca/02_neumologia/resp-18/01_fpi-rx-y-tc_alt1__cto-neumo_p73.jpg', label: 'Panal de abejas (TC)', credit: 'Manual CTO Neumología 14.ª ed., p. 73' },
+        { src: 'biblioteca/02_neumologia/resp-18/01_fpi-rx-y-tc__cto-neumo_p73.jpg', label: 'Fibrosis pulmonar idiopática (RX)', credit: 'Manual CTO Neumología 14.ª ed., p. 73' },
         { src: 'biblioteca/02_neumologia/resp-18/03_acropaquias__amir-reuma_p113.jpg', label: 'Acropaquias', credit: 'Manual AMIR Reumatología, p. 113' },
       ],
       steps: [
         { note: 'Quistes subpleurales en las bases',
           say: 'En la fibrosis pulmonar idiopática la tomografía muestra quistes pequeños, apilados, en la periferia de las bases: el panal de abejas. Con ese patrón no se necesita biopsia.' },
+        { note: 'La radiografía, menos precisa',
+          say: 'En la radiografía de tórax se ve un reticulado que predomina en las bases y la periferia. El panal se distingue mucho mejor en la tomografía.' },
         { note: 'Frecuentes en la fibrosis',
           say: 'Y las acropaquias aparecen en muchos de estos pacientes, junto con los crépitos en velcro.' },
       ],

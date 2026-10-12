@@ -279,10 +279,13 @@ module.exports = {
       title: 'Hemorragia intraparenquimatosa',
       images: [
         { src: 'biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc__cto-neuro_p42.jpg', label: 'Hematoma', credit: 'Manual CTO Neurología 14.ª ed., p. 42' },
+        { src: 'biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc_alt1__cto-radiologia_p67.jpg', label: 'Hematoma talámico (A) y sangre en los ventrículos (B)', credit: 'Manual CTO Radiología 14.ª ed., p. 67' },
       ],
       steps: [
         { note: 'Mancha blanca en el parénquima',
           say: 'En la tomografía, la sangre aguda es blanca. Este hematoma profundo es típico de la hipertensión.' },
+        { note: 'Tálamo y ventrículos',
+          say: 'A la izquierda, un hematoma en el tálamo, otro de los lugares típicos. A la derecha, la sangre invadió los ventrículos: si aparece hidrocefalia, se instala un drenaje ventricular externo de urgencia.' },
       ],
     },
 

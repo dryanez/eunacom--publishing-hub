@@ -260,13 +260,16 @@ module.exports = {
       title: 'Tuberculosis en las imágenes',
       images: [
         { src: 'biblioteca/02_neumologia/resp-10/01_tbc-ghon-cavitacion__cto-radiologia_p14.jpg', label: 'Cavitación', credit: 'Manual CTO Radiología 14.ª ed., p. 14' },
-        { src: 'biblioteca/02_neumologia/resp-10/02_tbc-miliar__cto-radiologia_p13.jpg', label: 'Tuberculosis miliar', credit: 'Manual CTO Radiología 14.ª ed., p. 13' },
+        { src: 'biblioteca/02_neumologia/resp-10/02_tbc-miliar_alt1__cto-infecto_p66.jpg', label: 'Tuberculosis miliar (RX)', credit: 'Manual CTO Infecciosas 14.ª ed., p. 66' },
+        { src: 'biblioteca/02_neumologia/resp-10/02_tbc-miliar__cto-radiologia_p13.jpg', label: 'Tuberculosis miliar (TC)', credit: 'Manual CTO Radiología 14.ª ed., p. 13' },
       ],
       steps: [
         { note: 'Cavidad en el lóbulo superior',
           say: 'La tuberculosis de reactivación cavita en los lóbulos superiores, como en estas imágenes. Una cavidad apical en un paciente con tos de más de dos semanas es tuberculosis hasta que se demuestre lo contrario.' },
         { note: 'Miles de nódulos pequeños',
-          say: 'Y esta es la miliar: innumerables nódulos pequeños, como granos de mijo, en todo el pulmón. Es diseminación por la sangre, típica del inmunosuprimido.' },
+          say: 'Y esta es la miliar en la radiografía: innumerables nódulos pequeños, como granos de mijo, en todo el pulmón. Es diseminación por la sangre, típica del inmunosuprimido.' },
+        { note: 'Los mismos nódulos en la TC',
+          say: 'En la tomografía se ven aún mejor: puntitos pequeños repartidos por igual en los dos pulmones.' },
       ],
     },
 

@@ -194,10 +194,13 @@ module.exports = {
       title: 'Microangiopatía trombótica',
       images: [
         { src: 'biblioteca/06_hematologia/hem-10/01_esquistocitos__cto-hemato_p10.jpg', label: 'Esquistocitos', credit: 'Manual CTO Hematología 14.ª ed., p. 10' },
+        { src: 'biblioteca/06_hematologia/hem-10/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg', label: 'Petequias', credit: 'Manual AMIR Hematología, p. 89' },
       ],
       steps: [
         { note: 'Glóbulos rojos fragmentados',
           say: 'Los esquistocitos son glóbulos rojos rotos al pasar por vasos llenos de microtrombos. Con plaquetas bajas, es una emergencia.' },
+        { note: 'Petequias: no transfundir plaquetas',
+          say: 'Y con las plaquetas bajas aparecen petequias en la piel. Dan ganas de transfundir plaquetas, pero en el PTT eso alimenta los trombos.' },
       ],
     },
 

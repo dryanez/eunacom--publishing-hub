@@ -246,13 +246,16 @@ module.exports = {
       type: 'image',
       light: true,
       kicker: 'Así se ve',
-      title: 'Ausencias en el EEG',
+      title: 'Ausencias en el EEG y toxicidad cutánea',
       images: [
         { src: 'biblioteca/09_neurologia/neuro-08/01_eeg-punta-onda-3-hz__cto-neuro_p73.jpg', label: 'Punta onda a tres hertz', credit: 'Manual CTO Neurología 14.ª ed., p. 73' },
+        { src: 'biblioteca/09_neurologia/neuro-08/02_stevens-johnson-mucosas__fitzpatrick_p390.jpg', label: 'Stevens-Johnson / necrólisis: lesiones en mucosas', credit: 'Fitzpatrick 7.ª ed., p. 390 (figura completa, ~480 px)' },
       ],
       steps: [
         { note: 'Patrón de las ausencias',
           say: 'Las ausencias muestran en el electroencefalograma descargas generalizadas de punta onda a tres por segundo. El fármaco es el etosuximida o el valproato.' },
+        { note: 'Toxicidad grave: Stevens-Johnson',
+          say: 'Y esta es la toxicidad que más asusta de la carbamazepina y la lamotrigina: el Stevens Johnson y la necrólisis epidérmica, con erosiones y costras en la boca, los labios y los ojos.' },
       ],
     },
 

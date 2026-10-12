@@ -219,11 +219,11 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'Mielofibrosis',
       images: [
-        { src: 'biblioteca/06_hematologia/hem-20/01_mielofibrosis-dacriocitos__amir-hemato_p58.jpg', label: 'Dacriocitos', credit: 'Manual AMIR Hematología, p. 58' },
+        { src: 'biblioteca/06_hematologia/hem-20/01_mielofibrosis-dacriocitos__amir-hemato_p58.jpg', label: 'Biopsia de médula: fibrosis', credit: 'Manual AMIR Hematología, p. 58' },
       ],
       steps: [
-        { note: 'Glóbulos en lágrima',
-          say: 'Los dacriocitos, glóbulos en forma de lágrima, salen de una médula fibrosa. Junto a un bazo gigante, sugieren mielofibrosis.' },
+        { note: 'Médula fibrosa: punción seca',
+          say: 'Esta es la biopsia de médula en la mielofibrosis: el espacio entre las trabéculas está ocupado por fibras. Por eso el aspirado sale seco y la biopsia es obligatoria. Y los glóbulos que pasan exprimidos por esa fibrosis salen en forma de lágrima: los dacriocitos.' },
       ],
     },
 

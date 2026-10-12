@@ -194,13 +194,16 @@ module.exports = {
     {
       type: 'image',
       kicker: 'Así se ve',
-      title: 'Compresión medular',
+      title: 'Compresión medular e hiperkalemia',
       images: [
         { src: 'biblioteca/06_hematologia/hem-22/01_rm_compresion_medular__harrison_p3489.jpg', label: 'Compresión medular', credit: 'Harrison 21.ª ed., p. 3489' },
+        { src: 'biblioteca/06_hematologia/hem-22/01_ecg-hiperpotasemia-t-picudas__cto-nefro_p23.jpg', label: 'ECG de hiperkalemia: T picudas y QRS ancho (panel B)', credit: 'Manual CTO Nefrología 14.ª ed., p. 23' },
       ],
       steps: [
         { note: 'La metástasis comprime la médula',
           say: 'En esta resonancia una metástasis comprime la médula. Dolor de espalda en un paciente con cáncer obliga a pedirla, antes de que aparezca la debilidad.' },
+        { note: 'Lisis tumoral: el potasio mata primero',
+          say: 'Y este es el electrocardiograma que te preocupa en la lisis tumoral. En el panel del centro, ondas T picudas y QRS ancho: el potasio ya está tocando el corazón. Lo primero es el gluconato de calcio.' },
       ],
     },
 

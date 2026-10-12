@@ -245,12 +245,15 @@ module.exports = {
       images: [
         { src: 'biblioteca/09_neurologia/neuro-18/01_placas-em-rm__cto-radiologia_p73.jpg', label: 'Placas en la RM', credit: 'Manual CTO Radiología 14.ª ed., p. 73' },
         { src: 'biblioteca/09_neurologia/neuro-18/02_neuritis-optica-rm_1__cto-radiologia_p74.jpg', label: 'Neuritis óptica', credit: 'Manual CTO Radiología 14.ª ed., p. 74' },
+        { src: 'biblioteca/09_neurologia/neuro-18/03_linterna-oscilante-dpar__kanski_p820.jpg', label: 'Defecto pupilar aferente (Marcus Gunn): linterna oscilante', credit: 'Kanski 8.ª ed., Fig. 19.33' },
       ],
       steps: [
         { note: 'Lesiones periventriculares',
           say: 'En la resonancia aparecen placas blancas alrededor de los ventrículos, separadas en el espacio y en el tiempo.' },
         { note: 'Nervio óptico inflamado',
           say: 'Y la neuritis óptica es un debut frecuente: pérdida de visión dolorosa en un adulto joven.' },
+        { note: 'Ambas pupilas se dilatan',
+          say: 'Su signo objetivo es el defecto pupilar aferente. En los paneles B y D la luz pasa al ojo con neuritis, y ambas pupilas se dilatan en vez de contraerse.' },
       ],
     },
 

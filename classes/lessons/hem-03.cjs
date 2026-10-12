@@ -271,12 +271,15 @@ module.exports = {
       images: [
         { src: 'biblioteca/06_hematologia/hem-03/01_anemia-ferropenica-microcitica-frotis__amir-hemato_p16.jpg', label: 'Frotis', credit: 'Manual AMIR Hematología, p. 16' },
         { src: 'biblioteca/06_hematologia/hem-03/01_coiloniquia__commons.jpg', label: 'Coiloniquia', credit: 'Wikimedia Commons «Koilonychia iron deficiency anemia.jpg», CC BY 2.0, CHeitz' },
+        { src: 'biblioteca/06_hematologia/hem-03/01_glositis_ferropenia__commons.jpg', label: 'Glositis atrófica ferropénica', credit: 'Wikimedia Commons «Glossitis in Iron-deficiency Anaemia, a Thai female patient (2025).jpg», CC BY 4.0, Chainwit.' },
       ],
       steps: [
         { note: 'Glóbulos pequeños y pálidos',
           say: 'En la ferropenia los glóbulos rojos son pequeños y pálidos, con el centro claro agrandado: microcitosis e hipocromía.' },
         { note: 'Uñas en cuchara',
           say: 'Y la coiloniquia: uñas cóncavas, en cuchara. Es un signo clásico de ferropenia de larga evolución.' },
+        { note: 'Lengua lisa, sin papilas',
+          say: 'Y la glositis atrófica: una lengua lisa, que perdió sus papilas. También la produce la falta de hierro en los epitelios.' },
       ],
     },
 
@@ -285,11 +288,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/06_hematologia/hem-03/02_sideroblasto-en-anillo__amir-hemato_p19.jpg', label: 'Sideroblasto en anillo', credit: 'Manual AMIR Hematología, p. 19' },
+        { src: 'biblioteca/06_hematologia/hem-03/02_atrofia-vellositaria-celiaca__pathoma_p114.jpg', label: 'Biopsia duodenal: atrofia vellositaria (izquierda) vs normal (derecha)', credit: 'Pathoma, Fig. 10.18' },
       ],
       steps: [
-        { note: 'Sideroblasto en anillo',
-          say: 'Mira esta imagen: sideroblasto en anillo. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Celíaca: el duodeno sin vellosidades',
+          say: 'Si las endoscopías salen negativas, piensa en la enfermedad celíaca. En la biopsia duodenal, a la izquierda, la mucosa perdió sus vellosidades; a la derecha, un duodeno normal. Sin vellosidades, el hierro no se absorbe.' },
       ],
     },
 

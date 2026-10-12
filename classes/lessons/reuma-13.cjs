@@ -238,7 +238,7 @@ module.exports = {
       title: 'Dermatomiositis',
       images: [
         { src: 'biblioteca/08_reumatologia/reuma-13/01_papulas-de-gottron__amir-reuma_p127.jpg', label: 'Pápulas de Gottron', credit: 'Manual AMIR Reumatología, p. 127' },
-        { src: 'biblioteca/08_reumatologia/reuma-13/02_heliotropo__cto-derma_p120.jpg', label: 'Heliotropo', credit: 'Manual CTO Dermatología 14.ª ed., p. 120' },
+        { src: 'biblioteca/08_reumatologia/reuma-13/03_heliotropo__cto-derma_p119.jpg', label: 'Heliotropo', credit: 'Manual CTO Dermatología 14.ª ed., p. 119' },
       ],
       steps: [
         { note: 'Sobre los nudillos',
@@ -253,11 +253,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/08_reumatologia/reuma-13/03_heliotropo__cto-derma_p119.jpg', label: 'Heliotropo', credit: 'Manual CTO Dermatología 14.ª ed., p. 119' },
+        { src: 'biblioteca/08_reumatologia/reuma-13/01_papulas-de-gottron_alt1_2__cto-reuma_p109.jpg', label: 'Gottron y heliotropo en la misma paciente', credit: 'Manual CTO Reumatología 14.ª ed., p. 109' },
       ],
       steps: [
-        { note: 'Heliotropo',
-          say: 'Mira esta imagen: heliotropo. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Las dos lesiones juntas',
+          say: 'Aquí las dos lesiones en la misma paciente: arriba, pápulas de Gottron sobre los nudillos; abajo, el heliotropo violáceo de los párpados. Juntas confirman la dermatomiositis.' },
       ],
     },
 

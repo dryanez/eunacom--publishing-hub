@@ -298,12 +298,9 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/09_neurologia/neuro-04/01_hsa-de-la-convexidad-tc_1__cto-neuro_p176.jpg', label: 'Hemorragia subaracnoidea de la convexidad (TC)', credit: 'Manual CTO Neurología 14.ª ed., p. 176' },
         { src: 'biblioteca/09_neurologia/neuro-04/03_localizacion-de-aneurismas__cto-neuro_p43.jpg', label: 'Localización de aneurismas', credit: 'Manual CTO Neurología 14.ª ed., p. 43' },
       ],
       steps: [
-        { note: 'Hemorragia subaracnoidea de la convexidad (TC)',
-          say: 'Tomografía con sangre en un surco de la convexidad, señalada por la flecha.' },
         { note: 'Localización de aneurismas',
           say: 'Mira esta imagen: localización de aneurismas. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],

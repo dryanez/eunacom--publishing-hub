@@ -265,6 +265,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Los puntos y signos del examen',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-19/S1_puntos-apendicitis__propio.svg', label: 'McBurney, Rovsing y otros signos', credit: 'Dibujo propio (esquema)' },
+      ],
+      steps: [
+        { note: 'McBurney, Rovsing, Blumberg, psoas, obturador',
+          say: 'Este esquema reúne el examen físico. El punto de McBurney, doloroso en la fosa ilíaca derecha, y el signo de Rovsing, en que al comprimir la izquierda duele la derecha. El Blumberg indica irritación peritoneal; el psoas se asocia al apéndice retrocecal y el obturador, al pélvico.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos la derecha y la izquierda en un solo árbol de decisión.',
     },

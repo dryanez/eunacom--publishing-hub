@@ -204,16 +204,36 @@ module.exports = {
       type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
-      title: 'Trauma abdominal',
+      title: 'Trauma abdominal y torácico',
       images: [
         { src: 'biblioteca/01_gastroenterologia/gastro-26/01_fast_liquido_libre__atls_p144.jpg', label: 'FAST positivo', credit: 'ATLS 10.ª ed., p. 144' },
         { src: 'biblioteca/01_gastroenterologia/gastro-26/01_rotura-esplenica-tc__cto-cirugia_p69.jpg', label: 'Rotura esplénica', credit: 'Manual CTO Cirugía 14.ª ed., p. 69' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-26/02_neumotorax-rx__cto-neumo_p116.jpg', label: 'Neumotórax', credit: 'Manual CTO Neumología 14.ª ed., p. 116' },
       ],
       steps: [
         { note: 'Líquido libre en Morrison',
           say: 'En la ecografía FAST, la línea negra entre el hígado y el riñón es líquido libre en el espacio de Morrison. En un paciente inestable, eso significa pabellón.' },
         { note: 'Bazo lacerado en la TC',
           say: 'Y en un paciente estable, la tomografía muestra la lesión: aquí, una rotura del bazo.' },
+        { note: 'Aire en la pleura: tubo pleural',
+          say: 'Pasando al tórax, esta radiografía muestra un neumotórax: un hemitórax negro, sin trama, con el pulmón colapsado hacia el hilio. Si hay aire en la pleura, se instala un tubo pleural.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Sangre en la pleura y aire en el abdomen',
+      images: [
+        { src: 'biblioteca/01_gastroenterologia/gastro-26/03_hemotorax-derrame-rx__cto-neumo_p111.jpg', label: 'Hemotórax: líquido en la pleura', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-26/04_neumoperitoneo__cto-digestivo_p65.jpg', label: 'Neumoperitoneo', credit: 'Manual CTO Digestivo 14.ª ed., p. 65' },
+      ],
+      steps: [
+        { note: 'Opacidad pleural: tubo que trata y mide',
+          say: 'Aquí un hemitórax está ocupado por una opacidad blanca: líquido en la pleura, que en el trauma es un hemotórax. Se instala un tubo pleural, que además mide cuánta sangre sale.' },
+        { note: 'Víscera hueca rota: aire libre',
+          say: 'Y si se rompe una víscera hueca, como el intestino, sale aire: bajo el diafragma se ve una delgada media luna negra, el neumoperitoneo. Es la misma lógica de la úlcera perforada.' },
       ],
     },
 

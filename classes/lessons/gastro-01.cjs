@@ -202,12 +202,12 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-01/01_esofago-de-barrett-endoscopia_2__cto-digestivo_p27.jpg', label: 'Esófago de Barrett (endoscopia)', credit: 'Manual CTO Digestivo 14.ª ed., p. 27' },
+        { src: 'biblioteca/01_gastroenterologia/gastro-01/01_esofago-de-barrett-endoscopia_alt1_1__cto-digestivo_p27.jpg', label: 'Esófago de Barrett: lengüetas salmón', credit: 'Manual CTO Digestivo 14.ª ed., p. 27' },
         { src: 'biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_2__cto-digestivo_p26.jpg', label: 'Esofagitis (endoscopia)', credit: 'Manual CTO Digestivo 14.ª ed., p. 26' },
       ],
       steps: [
-        { note: 'Esófago de Barrett (endoscopia)',
-          say: 'Esófago de Barrett: la mucosa rojo salmón asciende por sobre la unión esofagogástrica.' },
+        { note: 'Esófago de Barrett: lengüetas salmón',
+          say: 'Otro esófago de Barrett: lengüetas color salmón que suben sobre la mucosa pálida del esófago. Ese cambio de color es la metaplasia, y por eso se biopsia.' },
         { note: 'Esofagitis (endoscopia)',
           say: 'Esofagitis por reflujo vista en la endoscopia.' },
       ],

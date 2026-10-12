@@ -238,13 +238,16 @@ module.exports = {
       type: 'image',
       light: true,
       kicker: 'Así se ve',
-      title: 'El aura de la migraña',
+      title: 'El aura y una bandera roja',
       images: [
         { src: 'biblioteca/09_neurologia/neuro-06/S1_aura-fortificacion__propio.svg', label: 'Espectro de fortificación', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/09_neurologia/neuro-06/01_papiledema__cto-oftalmo_p88.jpg', label: 'Papiledema: bandera roja', credit: 'Manual CTO Oftalmología 14.ª ed., p. 88' },
       ],
       steps: [
         { note: 'Crece en minutos',
           say: 'El aura visual típica es un zigzag brillante que crece desde el centro hacia la periferia en unos veinte minutos. Si dura más de una hora, hay que pensar en otra cosa.' },
+        { note: 'Signo neurológico: TAC',
+          say: 'Y esto ya no es una migraña: un papiledema en el fondo de ojo. Es un signo neurológico, una bandera roja, y obliga a pedir una tomografía.' },
       ],
     },
 

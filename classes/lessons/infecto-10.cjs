@@ -248,7 +248,7 @@ module.exports = {
       title: 'Infecciones oportunistas en el VIH',
       images: [
         { src: 'biblioteca/07_infectologia/infecto-10/01_sarcoma-de-kaposi__amir-infecto_p157.jpg', label: 'Sarcoma de Kaposi', credit: 'Manual AMIR Infecciosas, p. 157' },
-        { src: 'biblioteca/07_infectologia/infecto-10/02_toxoplasmosis-cerebral-tc__cto-infecto_p144.jpg', label: 'Toxoplasmosis cerebral', credit: 'Manual CTO Infecciosas 14.ª ed., p. 144' },
+        { src: 'biblioteca/07_infectologia/infecto-10/02_toxoplasmosis-cerebral-tc_alt1__amir-infecto_p154.jpg', label: 'Toxoplasmosis cerebral', credit: 'Manual AMIR Infecciosas, p. 154' },
         { src: 'biblioteca/07_infectologia/infecto-10/05_muguet-candidiasis-oral_1__amir-derma_p65.jpg', label: 'Candidiasis oral', credit: 'Manual AMIR Dermatología, p. 65' },
         { src: 'biblioteca/07_infectologia/infecto-10/06_neumonia-por-p-jirovecii-rx__amir-infecto_p152.jpg', label: 'Pneumocystis', credit: 'Manual AMIR Infecciosas, p. 152' },
       ],
@@ -256,7 +256,7 @@ module.exports = {
         { note: 'Lesiones violáceas',
           say: 'El sarcoma de Kaposi da lesiones violáceas en la piel y mucosas.' },
         { note: 'Lesiones con anillo',
-          say: 'La toxoplasmosis cerebral da varias lesiones con anillo, con CD cuatro bajo cien.' },
+          say: 'La toxoplasmosis cerebral da varias lesiones con anillo, como estas en los ganglios basales, con CD cuatro bajo cien.' },
         { note: 'Placas blancas que se desprenden',
           say: 'El muguet son placas blancas que se desprenden con la paleta.' },
         { note: 'Infiltrado intersticial bilateral',
@@ -272,15 +272,15 @@ module.exports = {
       images: [
         { src: 'biblioteca/07_infectologia/infecto-10/03_linfoma-snc-vih__amir-infecto_p155.jpg', label: 'Linfoma primario del SNC en VIH', credit: 'Manual AMIR Infecciosas, p. 155' },
         { src: 'biblioteca/07_infectologia/infecto-10/04_colitis-por-cmv__cto-infecto_p76.jpg', label: 'Colitis por citomegalovirus', credit: 'Manual CTO Infecciosas 14.ª ed., p. 76' },
-        { src: 'biblioteca/07_infectologia/infecto-10/05_muguet-candidiasis-oral_2__amir-derma_p65.jpg', label: 'Candidiasis intertriginosa', credit: 'Manual AMIR Dermatología, p. 65' },
+        { src: 'biblioteca/07_infectologia/infecto-10/07_tinta-china-criptococo__cto-infecto_p142.jpg', label: 'Criptococo con tinta china', credit: 'Manual CTO Infecciosas 14.ª ed., p. 142' },
       ],
       steps: [
         { note: 'Linfoma primario del SNC en VIH',
           say: 'Linfoma primario del sistema nervioso central en un paciente con VIH: lesión que capta contraste, señalada por la flecha.' },
         { note: 'Colitis por citomegalovirus',
           say: 'Colitis por citomegalovirus: úlceras en la mucosa del colon.' },
-        { note: 'Candidiasis intertriginosa',
-          say: 'Candidiasis en un pliegue: placa roja intensa con pequeñas lesiones satélite en el borde.' },
+        { note: 'Levaduras con halo: criptococo',
+          say: 'Y esta es la tinta china: levaduras rodeadas de un halo claro, que es la cápsula. Tinta china positiva es criptococo, con CD cuatro bajo cien.' },
       ],
     },
 

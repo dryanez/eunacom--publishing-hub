@@ -242,12 +242,15 @@ module.exports = {
       images: [
         { src: 'biblioteca/09_neurologia/neuro-14/S1_test-del-reloj__propio.svg', label: 'Test del reloj', credit: 'Dibujo propio (esquema)' },
         { src: 'biblioteca/09_neurologia/neuro-14/01_pet-fdg-alzheimer__cto-neuro_p29.jpg', label: 'PET en Alzheimer', credit: 'Manual CTO Neurología 14.ª ed., p. 29' },
+        { src: 'biblioteca/09_neurologia/neuro-14/02_hematoma-subdural-tc__cto-neuro_p174.jpg', label: 'Hematoma subdural: colección en semiluna (TC)', credit: 'Manual CTO Neurología 14.ª ed., p. 174' },
       ],
       steps: [
         { note: 'Planificación alterada',
           say: 'En el test del reloj, el paciente con demencia no logra ubicar los números ni las manecillas.' },
         { note: 'Hipometabolismo temporoparietal',
           say: 'Y el PET muestra menos actividad en los lóbulos temporales y parietales.' },
+        { note: 'Causa tratable: buscarla siempre',
+          say: 'Y antes de hablar de Alzheimer, la neuroimagen descarta lo tratable. Aquí, un hematoma subdural: una colección en semiluna entre la corteza y el cráneo, que comprime el cerebro.' },
       ],
     },
 

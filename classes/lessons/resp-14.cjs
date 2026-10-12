@@ -194,13 +194,16 @@ module.exports = {
     {
       type: 'image',
       kicker: 'Así se ve',
-      title: 'Neumotórax a tensión',
+      title: 'Neumotórax a tensión y hemotórax',
       images: [
         { src: 'biblioteca/02_neumologia/resp-14/01_neumotorax-a-tension-tc-rx__cto-cirugia_p71.jpg', label: 'Neumotórax a tensión', credit: 'Manual CTO Cirugía 14.ª ed., p. 71' },
+        { src: 'biblioteca/02_neumologia/resp-14/02_hemotorax-masivo-rx__cto-neumo_p111.jpg', label: 'Ocupación pleural masiva derecha: en el trauma, hemotórax', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
       ],
       steps: [
         { note: 'Mediastino desplazado al otro lado',
           say: 'Aquí el neumotórax empuja el mediastino hacia el lado contrario. Esa desviación es la tensión. Pero ojo: en la vida real no se espera esta imagen, el diagnóstico es clínico y se descomprime de inmediato.' },
+        { note: 'Blanco en vez de negro',
+          say: 'Y el otro cuadro de hoy: en un traumatizado, un hemitórax casi completamente blanco es sangre en la pleura, un hemotórax masivo. Con yugulares planas y matidez, va tubo pleural y hemoderivados.' },
       ],
     },
 

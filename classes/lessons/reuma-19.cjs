@@ -158,14 +158,18 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
-      title: 'Artritis reactiva',
+      title: 'Artritis reactiva: la piel y las mucosas',
       images: [
-        { src: 'biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_1__amir-reuma_p83.jpg', label: 'Lesiones mucocutáneas', credit: 'Manual AMIR Reumatología, p. 83' },
+        { src: 'biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_1__amir-reuma_p83.jpg', label: 'Balanitis circinada', credit: 'Manual AMIR Reumatología, p. 83' },
+        { src: 'biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_alt1__cto-reuma_p40.jpg', label: 'Queratodermia blenorrágica', credit: 'Manual CTO Reumatología 14.ª ed., p. 40' },
       ],
       steps: [
-        { note: 'Balanitis y queratodermia',
-          say: 'La artritis reactiva puede dar balanitis circinada y queratodermia en las plantas.' },
+        { note: 'Erosiones indoloras en el glande',
+          say: 'Esta es la balanitis circinada: erosiones rojas y superficiales en el glande. No duele, y por eso pasa inadvertida si no se examina la zona genital.' },
+        { note: 'Placas hiperqueratósicas en las plantas',
+          say: 'Y esta es la queratodermia blenorrágica: placas engrosadas y descamativas en las plantas de los pies. Junto con la balanitis, confirman la artritis reactiva.' },
       ],
     },
 
@@ -178,7 +182,7 @@ module.exports = {
       ],
       steps: [
         { note: 'Queratodermia blenorrágica',
-          say: 'Queratodermia blenorrágica en las plantas, típica de la artritis reactiva.' },
+          say: 'Otro caso de queratodermia blenorrágica: pápulas y placas con costras en ambas plantas, típicas de la artritis reactiva.' },
       ],
     },
 

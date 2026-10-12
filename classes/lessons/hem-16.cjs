@@ -260,10 +260,13 @@ module.exports = {
       title: 'Más imágenes del tema',
       images: [
         { src: 'biblioteca/06_hematologia/hem-16/02_lal-tipo-burkitt__amir-hemato_p44.jpg', label: 'Blastos tipo Burkitt', credit: 'Manual AMIR Hematología, p. 44' },
+        { src: 'biblioteca/06_hematologia/hem-16/01_leucemia-aguda-promielocitica-auer_alt1__cto-hemato_p64.jpg', label: 'Leucemia promielocítica: promielocitos', credit: 'Manual CTO Hematología 14.ª ed., p. 64' },
       ],
       steps: [
         { note: 'Blastos tipo Burkitt',
           say: 'Blastos tipo Burkitt: citoplasma basófilo con vacuolas.' },
+        { note: 'Promielocítica: urgencia',
+          say: 'Y estas son las células de una leucemia promielocítica. Si las ves con sangrado y fibrinógeno bajo, se inicia el ATRA de inmediato, sin esperar la genética.' },
       ],
     },
 

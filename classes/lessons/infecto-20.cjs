@@ -191,11 +191,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/07_infectologia/infecto-20/02_celulitis_2__amir-infecto_p67.jpg', label: 'Celulitis', credit: 'Manual AMIR Infecciosas, p. 67' },
+        { src: 'biblioteca/07_infectologia/infecto-20/03_impetigo_alt1__amir-derma_p55.jpg', label: 'Impétigo en la cara', credit: 'Manual AMIR Dermatología, p. 55' },
       ],
       steps: [
-        { note: 'Celulitis',
-          say: 'Celulitis: placa roja, caliente y de bordes mal definidos.' },
+        { note: 'Costras color miel',
+          say: 'Otro impétigo, ahora en la cara de un niño: costras color miel bajo la nariz y sobre el labio. Es la infección más superficial, queda en la epidermis.' },
       ],
     },
 

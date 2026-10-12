@@ -180,26 +180,30 @@ module.exports = {
       images: [
         { src: 'biblioteca/07_infectologia/infecto-13/01_chancroide__cdc-phil-3728.jpg', label: 'Chancroide', credit: 'CDC PHIL 3728 (CDC/Joe Miller), dominio público' },
         { src: 'biblioteca/07_infectologia/infecto-13/01_herpes-genital__cto-derma_p15.jpg', label: 'Herpes genital', credit: 'Manual CTO Dermatología 14.ª ed., p. 15' },
-        { src: 'biblioteca/07_infectologia/infecto-13/02_condilomas-acuminados-verrugas-vph__cto-derma_p18.jpg', label: 'Condilomas acuminados', credit: 'Manual CTO Dermatología 14.ª ed., p. 18' },
+        { src: 'biblioteca/07_infectologia/infecto-13/01_chancro-sifilitico__cdc-phil-6803.jpg', label: 'Chancro sifilítico', credit: 'CDC PHIL 6803 (CDC/M. Rein), dominio público' },
       ],
       steps: [
         { note: 'Úlcera dolorosa, sucia',
           say: 'El chancroide es una úlcera dolorosa, de bordes irregulares y fondo sucio. El dolor la separa del chancro sifilítico.' },
         { note: 'Vesículas y erosiones dolorosas',
           say: 'El herpes genital da vesículas agrupadas que se rompen y dejan erosiones dolorosas.' },
-        { note: 'Verrugas por VPH',
-          say: 'Y los condilomas acuminados son verrugas por virus papiloma.' },
+        { note: 'Fondo limpio, no duele',
+          say: 'Y este es el chancro de la sífilis primaria: una úlcera de fondo limpio y base indurada, que no duele. Duro e indoloro, sífilis.' },
       ],
     },
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
+        { src: 'biblioteca/07_infectologia/infecto-13/02_condilomas-acuminados-verrugas-vph__cto-derma_p18.jpg', label: 'Condilomas acuminados', credit: 'Manual CTO Dermatología 14.ª ed., p. 18' },
         { src: 'biblioteca/07_infectologia/infecto-13/03_molusco-contagioso__amir-derma_p61.jpg', label: 'Molusco contagioso', credit: 'Manual AMIR Dermatología, p. 61' },
       ],
       steps: [
+        { note: 'Verrugas exofíticas por VPH',
+          say: 'Estos son condilomas acuminados: verrugas exofíticas en cresta de gallo, por virus papiloma de bajo riesgo.' },
         { note: 'Molusco contagioso',
           say: 'Mira esta imagen: molusco contagioso. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],

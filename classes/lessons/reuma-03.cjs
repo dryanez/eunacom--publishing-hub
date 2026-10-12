@@ -252,7 +252,7 @@ module.exports = {
       ],
       steps: [
         { note: 'Cristales de urato',
-          say: 'Mira esta imagen: cristales de urato. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+          say: 'Y estos son los cristales de urato de la gota: agujas finas y brillantes. Compáralos con los romboides de la pseudogota: aguja con birrefringencia negativa es gota.' },
       ],
     },
 

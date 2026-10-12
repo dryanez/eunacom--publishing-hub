@@ -165,11 +165,11 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'Síndrome de Sjögren',
       images: [
-        { src: 'biblioteca/08_reumatologia/reuma-15/01_parotida-en-sjogren__amir-reuma_p121.jpg', label: 'Parótida aumentada', credit: 'Manual AMIR Reumatología, p. 121' },
+        { src: 'biblioteca/08_reumatologia/reuma-15/01_parotida-en-sjogren__amir-reuma_p121.jpg', label: 'Sjögren: linfoma de parótida', credit: 'Manual AMIR Reumatología, p. 121' },
       ],
       steps: [
         { note: 'Crecimiento glandular',
-          say: 'El Sjögren puede agrandar las parótidas. Si el aumento es asimétrico y persistente, piensa en linfoma.' },
+          say: 'Esta paciente con Sjögren tiene una parótida muy aumentada, de un solo lado: era un linfoma. Si una parótida se pone dura o crece de forma asimétrica, sospecha linfoma y pide biopsia.' },
       ],
     },
 

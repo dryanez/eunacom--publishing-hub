@@ -272,12 +272,28 @@ module.exports = {
       images: [
         { src: 'biblioteca/06_hematologia/hem-07/01_esferocitos__amir-hemato_p34.jpg', label: 'Esferocitos', credit: 'Manual AMIR Hematología, p. 34' },
         { src: 'biblioteca/06_hematologia/hem-07/S1_coombs__propio.svg', label: 'Prueba de Coombs', credit: 'Dibujo propio (esquema)' },
+        { src: 'biblioteca/06_hematologia/hem-07/01_raynaud-palidez-cianosis__amir-reuma_p98.jpg', label: 'Raynaud: palidez y cianosis de los dedos', credit: 'Manual AMIR Reumatología, p. 98' },
       ],
       steps: [
         { note: 'Glóbulos pequeños, sin centro claro',
           say: 'En el frotis aparecen esferocitos: glóbulos pequeños, redondos, sin la palidez central.' },
         { note: 'Directo e indirecto',
           say: 'Y el Coombs directo busca anticuerpos pegados a los glóbulos rojos del paciente. Si es positivo, la hemólisis es inmune.' },
+        { note: 'Crioaglutininas: síntomas con el frío',
+          say: 'En las crioaglutininas, el frío da síntomas en los dedos: primero se ponen pálidos y después morados. Es el fenómeno de Raynaud, por los glóbulos que se aglutinan en la microcirculación fría.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'Más imágenes del tema',
+      images: [
+        { src: 'biblioteca/06_hematologia/hem-07/02_livedo-reticularis__amir-reuma_p39.jpg', label: 'Livedo reticularis', credit: 'Manual AMIR Reumatología, p. 39' },
+      ],
+      steps: [
+        { note: 'Piel en red con el frío',
+          say: 'Esta red violácea en la piel de las piernas es la livedo reticularis. En las crioaglutininas aparece con el frío, junto a la acrocianosis y el Raynaud.' },
       ],
     },
 

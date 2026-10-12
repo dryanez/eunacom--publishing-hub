@@ -177,13 +177,13 @@ module.exports = {
       title: 'Neumonías que no son del neumococo',
       images: [
         { src: 'biblioteca/02_neumologia/resp-08/01_rx_neumonia_aspirativa_lid__commons.jpg', label: 'Neumonía aspirativa', credit: 'Wikimedia Commons «Aspiration pneumonia201711-3264.jpg», CC BY-SA 4.0, melvil' },
-        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_1__cto-infecto_p56.jpg', label: 'Patrón por germen', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
+        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_2__cto-infecto_p56.jpg', label: 'Mycoplasma: infiltrado perihiliar bilateral', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
       ],
       steps: [
         { note: 'Lóbulo inferior derecho',
           say: 'Esta es una neumonía aspirativa en el lóbulo inferior derecho. El bronquio derecho es más vertical, por eso lo aspirado cae ahí. Piensa en el alcohólico, el paciente con convulsiones o con trastorno de deglución.' },
-        { note: 'Cada germen tiene su imagen',
-          say: 'Y estas radiografías muestran distintos patrones. No se trata el germen por la imagen, pero algunos patrones orientan, como la cavitación del estafilococo o el infiltrado intersticial de los atípicos.' },
+        { note: 'El infiltrado de los atípicos',
+          say: 'Y este es un Mycoplasma: infiltrados tenues alrededor de los dos hilios, el infiltrado intersticial de los atípicos. No se trata el germen por la imagen, pero un joven con un cuadro arrastrado y esta radiografía orienta a un atípico, y se trata con macrólidos.' },
       ],
     },
 
@@ -193,17 +193,14 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_2__cto-infecto_p56.jpg', label: 'Infiltrados parcheados bilaterales', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
-        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_3__cto-infecto_p56.jpg', label: 'Lesión cavitada en el pulmón derecho', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
-        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_4__cto-infecto_p56.jpg', label: 'Consolidación del lóbulo superior derecho', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
+        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_3__cto-infecto_p56.jpg', label: 'Tuberculosis: cavidad derecha y nódulos miliares izquierdos', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
+        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_4__cto-infecto_p56.jpg', label: 'Klebsiella pneumoniae: consolidación del lóbulo superior derecho', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
       ],
       steps: [
-        { note: 'Infiltrados parcheados bilaterales',
-          say: 'Radiografía con infiltrados parcheados en ambos pulmones.' },
-        { note: 'Lesión cavitada en el pulmón derecho',
-          say: 'Radiografía con una lesión cavitada en el pulmón derecho.' },
+        { note: 'Cavidad y nódulos pequeños',
+          say: 'Radiografía con una cavidad en el pulmón derecho y muchos nódulos pequeños en el izquierdo. En el manual de origen corresponde a una tuberculosis.' },
         { note: 'Consolidación del lóbulo superior derecho',
-          say: 'Radiografía con consolidación del lóbulo superior derecho.' },
+          say: 'Radiografía con una consolidación densa del lóbulo superior derecho. En el manual de origen corresponde a una Klebsiella pneumoniae.' },
       ],
     },
 

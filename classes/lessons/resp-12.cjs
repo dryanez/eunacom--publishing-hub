@@ -202,11 +202,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_2__cto-neumo_p111.jpg', label: 'Derrame pleural (Rx)', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
+        { src: 'biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_2__cto-neumo_p111.jpg', label: 'Derrame pleural masivo izquierdo (Rx)', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
       ],
       steps: [
-        { note: 'Derrame pleural (Rx)',
-          say: 'Radiografía de tórax con derrame pleural.' },
+        { note: 'Derrame masivo izquierdo',
+          say: 'Radiografía de tórax con un derrame masivo del lado izquierdo: el hemitórax está blanco y el mediastino se desplaza hacia el otro lado.' },
       ],
     },
 

@@ -169,14 +169,18 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Hidatidosis',
       images: [
-        { src: 'biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_1__amir-infecto_p189.jpg', label: 'Quiste hidatídico', credit: 'Manual AMIR Infecciosas, p. 189' },
+        { src: 'biblioteca/07_infectologia/infecto-17/02_quiste-hidatidico-eco-tc__cto-radiologia_p43.jpg', label: 'Quiste hidatídico en la ecografía', credit: 'Manual CTO Radiología 14.ª ed., p. 43' },
+        { src: 'biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_1__amir-infecto_p189.jpg', label: 'Quiste hidatídico (TC)', credit: 'Manual AMIR Infecciosas, p. 189' },
       ],
       steps: [
+        { note: 'La ecografía diagnostica',
+          say: 'El quiste hidatídico del hígado se diagnostica con la ecografía. A la izquierda, la flecha blanca marca un quiste con vesículas hijas en su interior, la imagen en rueda de carreta.' },
         { note: 'Quiste con membranas',
-          say: 'El quiste hidatídico tiene membranas y vesículas hijas en su interior.' },
+          say: 'Y en esta tomografía, el quiste hidatídico con sus membranas y vesículas hijas en el interior.' },
       ],
     },
 

@@ -180,14 +180,18 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Sacroilitis',
       images: [
-        { src: 'biblioteca/08_reumatologia/reuma-16/01_sacroilitis-rx__amir-reuma_p79.jpg', label: 'Sacroilitis', credit: 'Manual AMIR Reumatología, p. 79' },
+        { src: 'biblioteca/08_reumatologia/reuma-16/01_sacroilitis-rx__amir-reuma_p79.jpg', label: 'Sacroilitis (Rx)', credit: 'Manual AMIR Reumatología, p. 79' },
+        { src: 'biblioteca/08_reumatologia/reuma-16/02_sacroilitis-rm-stir__amir-reuma_p79.jpg', label: 'RM T1 y STIR: sacroilitis activa', credit: 'Manual AMIR Reumatología, p. 79' },
       ],
       steps: [
         { note: 'Bordes borrosos y esclerosis',
           say: 'En la radiografía, las sacroilíacas pierden su borde nítido y se esclerosan. Es el sello de las espondiloartritis.' },
+        { note: 'Edema óseo en STIR',
+          say: 'Y si la radiografía es normal en una etapa precoz, la resonancia con secuencia STIR detecta el edema óseo activo junto a la sacroilíaca, donde apuntan las flechas.' },
       ],
     },
 

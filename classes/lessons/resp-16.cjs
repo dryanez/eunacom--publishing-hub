@@ -111,13 +111,13 @@ module.exports = {
     {
       type: 'image',
       kicker: 'Así se ve',
-      title: 'El nódulo pulmonar sospechoso',
+      title: 'La lesión pulmonar sospechosa',
       images: [
-        { src: 'biblioteca/02_neumologia/resp-16/01_nodulo_espiculado__cxr_p282.jpg', label: 'Nódulo espiculado', credit: 'The Chest X-Ray: A Survival Guide, Fig. 20.4' },
+        { src: 'biblioteca/02_neumologia/resp-16/01_masa-pulmonar-bordes-irregulares-tc__cto-neumo_p139.jpg', label: 'Masa pulmonar de bordes irregulares (TC)', credit: 'Manual CTO Neumología 14.ª ed., p. 139' },
       ],
       steps: [
-        { note: 'Borde irregular, con espículas',
-          say: 'Este nódulo tiene bordes irregulares, con prolongaciones hacia el pulmón. Ese borde espiculado sugiere malignidad. Un nódulo liso, con calcificación central o en palomitas de maíz, sugiere benignidad.' },
+        { note: 'Borde irregular: sospecha',
+          say: 'En esta tomografía hay una lesión de bordes irregulares en el pulmón izquierdo. Ese borde irregular, espiculado, sugiere malignidad, y si pasa de tres centímetros ya es una masa. Un nódulo liso, con calcificación central o en palomitas de maíz, sugiere benignidad.' },
       ],
     },
 

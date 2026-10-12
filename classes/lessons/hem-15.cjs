@@ -185,10 +185,13 @@ module.exports = {
       title: 'Coagulación intravascular diseminada',
       images: [
         { src: 'biblioteca/06_hematologia/hem-15/01_esquistocitos__cto-hemato_p10.jpg', label: 'Esquistocitos', credit: 'Manual CTO Hematología 14.ª ed., p. 10' },
+        { src: 'biblioteca/06_hematologia/hem-15/01_purpura-equimosis-sepsis__cto-infecto_p38.jpg', label: 'Púrpura y equimosis en una sepsis (meningococo)', credit: 'Manual CTO Infecciosas 14.ª ed., p. 38' },
       ],
       steps: [
         { note: 'Glóbulos rotos por microtrombos',
           say: 'En la coagulación intravascular hay esquistocitos, plaquetas bajas y tiempos prolongados: se consume todo.' },
+        { note: 'Sepsis que sangra',
+          say: 'Y así se ve en la piel: un paciente séptico con equimosis espontáneas que confluyen. Coagula en los vasos y, a la vez, sangra.' },
       ],
     },
 

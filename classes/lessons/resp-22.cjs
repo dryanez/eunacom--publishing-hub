@@ -137,10 +137,13 @@ module.exports = {
       title: 'Distrés respiratorio agudo',
       images: [
         { src: 'biblioteca/02_neumologia/resp-22/01_sdra-infiltrado-bilateral__cto-neumo_p35.jpg', label: 'SDRA', credit: 'Manual CTO Neumología 14.ª ed., p. 35' },
+        { src: 'biblioteca/02_neumologia/resp-22/02_lineas-b-kerley__cto-radiologia_p11.jpg', label: 'Líneas B de Kerley: edema intersticial', credit: 'Manual CTO Radiología 14.ª ed., p. 11' },
       ],
       steps: [
         { note: 'Infiltrados bilaterales',
           say: 'El distrés muestra infiltrados en ambos pulmones, con un corazón de tamaño normal. Ese es uno de los criterios de Berlín: no se explica por insuficiencia cardíaca.' },
+        { note: 'Compáralo con el cardiogénico',
+          say: 'Compáralo con el edema cardiogénico, donde el líquido sale porque la presión es alta. Aquí la flecha marca líneas finas y horizontales junto a la pleura, en la base: son las líneas B de Kerley, del edema del intersticio.' },
       ],
     },
 

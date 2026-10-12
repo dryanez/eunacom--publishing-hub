@@ -206,11 +206,14 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'Trombosis de senos venosos',
       images: [
-        { src: 'biblioteca/09_neurologia/neuro-05/01_trombosis-de-seno-signo-delta__cto-neuro_p41.jpg', label: 'Signo delta', credit: 'Manual CTO Neurología 14.ª ed., p. 41' },
+        { src: 'biblioteca/09_neurologia/neuro-05/01_trombosis-de-seno-signo-delta_alt1__cto-radiologia_p64.jpg', label: 'Trombosis del seno longitudinal superior (RM): delta vacío en D, flechas en D y F', credit: 'Manual CTO Radiología 14.ª ed., p. 64' },
+        { src: 'biblioteca/09_neurologia/neuro-05/02_papiledema__cto-oftalmo_p88.jpg', label: 'Papiledema', credit: 'Manual CTO Oftalmología 14.ª ed., p. 88' },
       ],
       steps: [
         { note: 'Seno con trombo',
-          say: 'El signo delta vacío: el seno venoso no se llena de contraste porque está trombosado.' },
+          say: 'El signo delta vacío: el seno venoso no se llena de contraste porque está trombosado. En la resonancia, la flecha del panel D marca el seno con el trombo, y en el corte lateral las flechas siguen el seno ocupado.' },
+        { note: 'Hipertensión intracraneana',
+          say: 'Y como la sangre no puede salir, sube la presión intracraneana. En el fondo de ojo aparece el papiledema: el borde de la papila se borra y se hincha.' },
       ],
     },
 
