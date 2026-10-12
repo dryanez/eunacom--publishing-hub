@@ -232,7 +232,7 @@ module.exports = {
       title: 'Más imágenes del tema',
       images: [
         { src: 'biblioteca/05_endocrinologia/endo-09/02_bocio-multinodular-eco_2__amir-endocrino_p40.jpg', label: 'Ecografía de bocio multinodular', credit: 'Manual AMIR Endocrinología, p. 40' },
-        { src: 'biblioteca/05_endocrinologia/endo-09/03_gammagrafia-nodulo-frio__amir-endocrino_p44.jpg', label: 'Gammagrafía nódulo frío', credit: 'Manual AMIR Endocrinología, p. 44' },
+        { src: 'biblioteca/05_endocrinologia/endo-09/03_gammagrafia-nodulo-caliente__amir-endocrino_p44.jpg', label: 'Gammagrafía: nódulo caliente', credit: 'Manual AMIR Endocrinología, p. 44' },
       ],
       steps: [
         { note: 'Ecografía de bocio multinodular',

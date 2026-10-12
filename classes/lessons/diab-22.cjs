@@ -235,12 +235,12 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'El pie diabético',
       images: [
-        { src: 'biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_1__cto-endocrino_p114.jpg', label: 'Úlcera y necrosis', credit: 'Manual CTO Endocrinología 14.ª ed., p. 114' },
+        { src: 'biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_2__cto-endocrino_p114.jpg', label: 'Úlcera neuropática en zona de apoyo', credit: 'Manual CTO Endocrinología 14.ª ed., p. 114' },
         { src: 'biblioteca/04_diabetes/diab-22/02_clasificacion-de-wagner__cto-endocrino_p113.jpg', label: 'Clasificación de Wagner', credit: 'Manual CTO Endocrinología 14.ª ed., p. 113' },
       ],
       steps: [
         { note: 'Lesión en punto de apoyo',
-          say: 'Esta úlcera con necrosis está en un punto de apoyo del pie. Es la consecuencia de la neuropatía: el paciente no siente la herida.' },
+          say: 'Esta úlcera está en un punto de apoyo, bajo las cabezas de los metatarsianos, rodeada de un rodete de callo. Es la consecuencia de la neuropatía: el paciente no siente la herida.' },
         { note: 'Profundidad e infección',
           say: 'Y esta es la clasificación de Wagner: de la úlcera superficial a la gangrena. Si el estilete toca hueso, hay que pensar en osteomielitis.' },
       ],
@@ -251,11 +251,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_2__cto-endocrino_p114.jpg', label: 'Úlcera de pie diabético', credit: 'Manual CTO Endocrinología 14.ª ed., p. 114' },
+        { src: 'biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_1__cto-endocrino_p114.jpg', label: 'Amputación del primer dedo por necrosis isquémica', credit: 'Manual CTO Endocrinología 14.ª ed., p. 114' },
       ],
       steps: [
-        { note: 'Úlcera de pie diabético',
-          say: 'Úlcera de pie diabético con fondo y bordes que hay que explorar en busca de hueso expuesto.' },
+        { note: 'El componente isquémico',
+          say: 'Este pie perdió el primer dedo por una necrosis isquémica. Cuando faltan los pulsos, la herida no cicatriza y la cadena termina en amputación; por eso antes de amputar hay que estudiar la irrigación.' },
       ],
     },
 

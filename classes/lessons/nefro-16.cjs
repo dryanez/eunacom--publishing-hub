@@ -205,6 +205,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Así se ve',
+      title: 'La nariz en silla de montar',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-16/01_nariz_silla_montar__commons.jpg', label: 'Nariz en silla de montar', credit: 'Wikimedia Commons «Saddle nose 38.jpg», CC BY-SA 4.0, ver autor en Commons' },
+      ],
+      steps: [
+        { note: 'El dorso de la nariz se hunde',
+          say: 'Así se ve la nariz en silla de montar: el dorso nasal se hunde por la sinusitis destructiva. Junto a una glomerulonefritis rápidamente progresiva y ANCA citoplasmático, apunta a la granulomatosis con poliangeítis.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un árbol de decisión, tal como vas a enfrentar a un paciente con un nefrítico que empeora en semanas.',
     },

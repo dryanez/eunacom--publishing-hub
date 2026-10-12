@@ -138,14 +138,21 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Los cilindros urinarios',
       images: [
-        { src: 'biblioteca/03_nefrologia/nefro-02/01_tipos-de-cilindros__cto-nefro_p34.jpg', label: 'Cilindros', credit: 'Manual CTO Nefrología 14.ª ed., p. 34' },
+        { src: 'biblioteca/03_nefrologia/nefro-02/01_tipos-de-cilindros_alt1_2__cto-nefro_p34.jpg', label: 'Cilindros leucocitario, hialino, hemático y granuloso', credit: 'Manual CTO Nefrología 14.ª ed., p. 34' },
+        { src: 'biblioteca/03_nefrologia/nefro-02/02_sedimento-leucocituria-nia__cto-nefro_p33.jpg', label: 'Leucocituria en nefritis intersticial', credit: 'Manual CTO Nefrología 14.ª ed., p. 33' },
+        { src: 'biblioteca/03_nefrologia/nefro-02/03_exantema-por-farmaco__cto-derma_p9.jpg', label: 'Exantema por fármaco', credit: 'Manual CTO Dermatología 14.ª ed., p. 9' },
       ],
       steps: [
-        { note: 'Cada cilindro cuenta su historia',
+        { note: 'Cada cilindro, una enfermedad',
           say: 'Los cilindros se forman dentro del túbulo. Los granulosos, color café, sugieren necrosis tubular aguda. Los leucocitarios, nefritis intersticial o pielonefritis. Los hemáticos, glomerulonefritis.' },
+        { note: 'Leucocitos con urocultivo negativo',
+          say: 'Este sedimento está lleno de leucocitos, en una nefritis intersticial aguda. Con urocultivo negativo es la piuria estéril, lo más constante de la nefritis intersticial.' },
+        { note: 'La pista alérgica',
+          say: 'Y este exantema maculopapular en el tronco es la pista alérgica: con fiebre y eosinofilia completa la tríada, aunque solo aparece en una minoría de los pacientes.' },
       ],
     },
 

@@ -197,10 +197,13 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'El macroadenoma hipofisario',
       images: [
+        { src: 'biblioteca/05_endocrinologia/endo-20/04_macroadenoma-rm__amir-endocrino_p24.jpg', label: 'Macroadenoma en la resonancia', credit: 'Manual AMIR Endocrinología, p. 24' },
         { src: 'biblioteca/05_endocrinologia/endo-20/01_hemianopsia-bitemporal-campimetria__cto-endocrino_p41.jpg', label: 'Hemianopsia bitemporal', credit: 'Manual CTO Endocrinología 14.ª ed., p. 41' },
         { src: 'biblioteca/05_endocrinologia/endo-20/02_adenoma-con-sangrado-rm__cto-endocrino_p42.jpg', label: 'Apoplejía hipofisaria', credit: 'Manual CTO Endocrinología 14.ª ed., p. 42' },
       ],
       steps: [
+        { note: 'Masa que sube desde la silla turca',
+          say: 'Así se ve un macroadenoma en la resonancia: una masa de diez milímetros o más que crece hacia arriba desde la silla turca, hasta alcanzar el quiasma.' },
         { note: 'Pierde los campos externos',
           say: 'El macroadenoma comprime el quiasma y el paciente pierde los dos campos temporales: hemianopsia bitemporal.' },
         { note: 'Adenoma con sangrado',

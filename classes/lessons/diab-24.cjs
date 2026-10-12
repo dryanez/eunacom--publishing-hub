@@ -141,6 +141,19 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      kicker: 'Más imágenes',
+      title: 'La hipercolesterolemia familiar',
+      images: [
+        { src: 'biblioteca/04_diabetes/diab-24/02_xantomas-tendinosos__fitzpatrick_p1311.jpg', label: 'Xantoma tendinoso del Aquiles', credit: 'Fitzpatrick 7.ª ed., Fig. 135-4' },
+      ],
+      steps: [
+        { note: 'Engrosamiento del tendón de Aquiles',
+          say: 'Y este es el signo de la hipercolesterolemia familiar: un xantoma tendinoso, un engrosamiento nodular e indoloro sobre el tendón de Aquiles. Junto a un LDL muy alto, es patognomónico.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las dos situaciones en un árbol que parte por el perfil lipídico.',
     },

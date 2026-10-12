@@ -220,14 +220,18 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
       title: 'El edema del síndrome nefrótico',
       images: [
         { src: 'biblioteca/03_nefrologia/nefro-13/01_edema_fovea__bates_p559.jpg', label: 'Edema con fóvea', credit: 'Bates 12.ª ed., Fig. 12-25' },
+        { src: 'biblioteca/03_nefrologia/nefro-13/02_edema_facial_nino_nefrosis__cdc-phil-3894.jpg', label: 'Edema facial y palpebral', credit: 'Wikimedia Commons «Plasmodium falciparum nephrosis edema PHIL 3894 lores.jpg», Public domain, ver autor en Commons' },
       ],
       steps: [
         { note: 'La huella queda marcada',
           say: 'Este es un edema con fóvea: al presionar, la huella queda marcada. En el nefrótico el edema parte en los párpados en la mañana y baja a las piernas durante el día.' },
+        { note: 'Párpados y cara hinchados',
+          say: 'Y así se ve el edema de la cara y los párpados en un niño con síndrome nefrótico: los ojos casi cerrados por la hinchazón.' },
       ],
     },
 

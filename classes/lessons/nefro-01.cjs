@@ -234,6 +234,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'La causa postrenal',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-01/02_ecografia-hidronefrosis__bailey-love_p1433.jpg', label: 'Hidronefrosis en la ecografía', credit: 'Bailey & Love 27.ª ed., Fig. 76.15' },
+        { src: 'biblioteca/03_nefrologia/nefro-01/03_tac-hidronefrosis-bilateral__bailey-love_p1482.jpg', label: 'Hidronefrosis bilateral en la tomografía', credit: 'Bailey & Love 27.ª ed., Fig. 78.12' },
+      ],
+      steps: [
+        { note: 'Pelvis renal dilatada',
+          say: 'Por eso lo primero es descartar la obstrucción con una ecografía renal y vesical. Aquí la pelvis del riñón está dilatada, llena de orina: es una hidronefrosis.' },
+        { note: 'Los dos riñones dilatados',
+          say: 'Y aquí la hidronefrosis es bilateral. Si la encuentras, el diagnóstico está hecho, y el tratamiento es descomprimir.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },

@@ -189,7 +189,9 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'La gammagrafía tiroidea',
       images: [
-        { src: 'biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn__cto-endocrino_p57.jpg', label: 'Gammagrafía', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
+        { src: 'biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn__cto-endocrino_p57.jpg', label: 'Adenoma tóxico: nódulo caliente', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
+        { src: 'biblioteca/05_endocrinologia/endo-07/02_gammagrafia-graves-captacion-difusa__amir-endocrino_p44.jpg', label: 'Graves: captación difusa', credit: 'Manual AMIR Endocrinología, p. 44' },
+        { src: 'biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn_alt1_1__amir-endocrino_p44.jpg', label: 'Bocio multinodular: zonas calientes y frías', credit: 'Manual AMIR Endocrinología, p. 44' },
       ],
       steps: [
         { note: 'Captación focal vs difusa',

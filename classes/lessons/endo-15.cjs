@@ -190,14 +190,18 @@ module.exports = {
 
     {
       type: 'image',
+      layout: 'gallery',
       kicker: 'Así se ve',
       title: 'Feocromocitoma en la imagen',
       images: [
-        { src: 'biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg__amir-endocrino_p59.jpg', label: 'Gammagrafía MIBG', credit: 'Manual AMIR Endocrinología, p. 59' },
+        { src: 'biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg__amir-endocrino_p59.jpg', label: 'RM: masa suprarrenal derecha', credit: 'Manual AMIR Endocrinología, p. 59' },
+        { src: 'biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg_alt1__amir-endocrino_p58.jpg', label: 'Gammagrafía MIBG', credit: 'Manual AMIR Endocrinología, p. 58' },
       ],
       steps: [
-        { note: 'Capta la suprarrenal',
-          say: 'Después de confirmar con metanefrinas, se localiza el tumor. La gammagrafía con MIBG muestra la suprarrenal que capta.' },
+        { note: 'Primero la anatomía',
+          say: 'Después de confirmar con metanefrinas, se localiza el tumor con tomografía o resonancia. Aquí, la resonancia muestra una masa grande en la suprarrenal derecha.' },
+        { note: 'La suprarrenal que capta',
+          say: 'Y en casos seleccionados se agrega la gammagrafía con MIBG: el tumor aparece como un foco que capta, sobre la suprarrenal.' },
       ],
     },
 

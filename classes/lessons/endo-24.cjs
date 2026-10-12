@@ -244,7 +244,7 @@ module.exports = {
       ],
       steps: [
         { note: 'Feocromocitoma bilateral',
-          say: 'En el MEN dos A se asocian carcinoma medular de tiroides, feocromocitoma, a menudo bilateral, e hiperparatiroidismo.' },
+          say: 'En el MEN dos A se asocian carcinoma medular de tiroides, feocromocitoma e hiperparatiroidismo. En esta tomografía el feocromocitoma es una masa en la suprarrenal derecha; en el MEN también puede ser bilateral.' },
       ],
     },
 

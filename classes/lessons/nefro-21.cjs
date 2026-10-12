@@ -182,14 +182,35 @@ module.exports = {
     {
       type: 'image',
       light: true,
+      layout: 'gallery',
       kicker: 'Así se ve',
       title: 'La infección urinaria en el sedimento',
       images: [
         { src: 'biblioteca/03_nefrologia/nefro-21/01_sedimento-con-leucocituria__cto-nefro_p33.jpg', label: 'Leucocituria', credit: 'Manual CTO Nefrología 14.ª ed., p. 33' },
+        { src: 'biblioteca/03_nefrologia/nefro-21/02_tipos-de-cilindros__cto-nefro_p34.jpg', label: 'Tipos de cilindros: el leucocitario, arriba a la izquierda', credit: 'Manual CTO Nefrología 14.ª ed., p. 34' },
       ],
       steps: [
         { note: 'Muchos leucocitos',
           say: 'El sedimento muestra abundantes leucocitos. Junto con la clínica orienta a infección urinaria, pero se confirma con urocultivo, que se toma antes del antibiótico.' },
+        { note: 'El cilindro leucocitario',
+          say: 'Y este es el hallazgo clave: el cilindro leucocitario, arriba a la izquierda, lleno de glóbulos blancos. Como se forma en el túbulo, certifica que la infección está en el riñón y no solo en la vejiga.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'Cuando no mejora',
+      images: [
+        { src: 'biblioteca/03_nefrologia/nefro-21/03_ecografia-hidronefrosis__bailey-love_p1433.jpg', label: 'Vía urinaria dilatada en la ecografía', credit: 'Bailey & Love 27.ª ed., Fig. 76.15' },
+        { src: 'biblioteca/03_nefrologia/nefro-21/04_tac-calculos-renales__bailey-love_p1410.jpg', label: 'Cálculos renales en la tomografía', credit: 'Bailey & Love 27.ª ed., Fig. 75.21a' },
+      ],
+      steps: [
+        { note: 'Riñón con la pelvis dilatada',
+          say: 'Si no mejora a las setenta y dos horas, hay algo que no deja sanar, un absceso o una obstrucción. Aquí la vía urinaria está dilatada detrás de una obstrucción.' },
+        { note: 'Cálculos en ambos riñones',
+          say: 'Y la tomografía muestra cálculos en los riñones. Una pielonefritis detrás de un cálculo que obstruye es una emergencia urológica: hay que descomprimir.' },
       ],
     },
 

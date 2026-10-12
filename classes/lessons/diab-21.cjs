@@ -157,14 +157,17 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'Retinopatía diabética',
       images: [
-        { src: 'biblioteca/04_diabetes/diab-21/01_retinopatia-diabetica__cto-oftalmo_p68.jpg', label: 'Retinopatía', credit: 'Manual CTO Oftalmología 14.ª ed., p. 68' },
-        { src: 'biblioteca/04_diabetes/diab-21/02_hemorragias-retinianas-rd__cto-oftalmo_p67.jpg', label: 'Hemorragia', credit: 'Manual CTO Oftalmología 14.ª ed., p. 67' },
+        { src: 'biblioteca/04_diabetes/diab-21/02_hemorragias-retinianas-rd__cto-oftalmo_p67.jpg', label: 'No proliferativa: hemorragias y exudados duros', credit: 'Manual CTO Oftalmología 14.ª ed., p. 67' },
+        { src: 'biblioteca/04_diabetes/diab-21/01_retinopatia-diabetica__cto-oftalmo_p68.jpg', label: 'Hemorragia prerretiniana y vítrea', credit: 'Manual CTO Oftalmología 14.ª ed., p. 68' },
+        { src: 'biblioteca/04_diabetes/diab-21/01_retinopatia-diabetica_alt1__cto-oftalmo_p108.jpg', label: 'Edema macular: exudados duros junto a la mácula', credit: 'Manual CTO Oftalmología 14.ª ed., p. 108' },
       ],
       steps: [
-        { note: 'Hemorragias, exudados y neovasos',
-          say: 'En el fondo de ojo diabético aparecen microaneurismas, hemorragias y exudados duros. Cuando aparecen neovasos, la retinopatía es proliferativa y requiere láser.' },
+        { note: 'Hemorragias en punto y exudados duros',
+          say: 'En este fondo de ojo diabético hay microhemorragias en punto y muchos exudados duros amarillos. No se ven neovasos, así que sigue siendo una retinopatía no proliferativa.' },
         { note: 'Sangrado de los neovasos',
-          say: 'Y los neovasos sangran: esta hemorragia puede dejar al paciente ciego de un día para otro.' },
+          say: 'Cuando aparecen neovasos, la retinopatía es proliferativa, y esos vasos frágiles sangran. Esta gran hemorragia por delante de la retina puede dejar al paciente ciego de un día para otro.' },
+        { note: 'Exudados que rodean la mácula',
+          say: 'Y aquí los exudados duros se acumulan alrededor de la mácula: es el edema macular, lo que más baja la visión. Se trata con anti VEGF.' },
       ],
     },
 

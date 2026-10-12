@@ -302,11 +302,11 @@ module.exports = {
       kicker: 'Más imágenes',
       title: 'Más imágenes del tema',
       images: [
-        { src: 'biblioteca/03_nefrologia/nefro-09/01_ecg-hiperpotasemia-t-picudas-sinusoidal__cto-nefro_p23.jpg', label: 'ECG en la hiperpotasemia', credit: 'Manual CTO Nefrología 14.ª ed., p. 23' },
+        { src: 'biblioteca/03_nefrologia/nefro-09/01_ecg-hiperpotasemia-t-picudas-sinusoidal_alt1__cto-cardio_p19.jpg', label: 'Hiperpotasemia grave: T picudas y QRS ancho', credit: 'Manual CTO Cardiología 14.ª ed., p. 19' },
       ],
       steps: [
         { note: 'ECG en la hiperpotasemia',
-          say: 'Hiperpotasemia en el electrocardiograma: ondas T altas y picudas y luego ensanchamiento del QRS.' },
+          say: 'Y este es otro paciente, con hiperpotasemia grave: ondas T altas y picudas, ya no se ve la onda P, y el QRS está ancho. Es calcio endovenoso ya.' },
       ],
     },
 

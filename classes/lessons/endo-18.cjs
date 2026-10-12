@@ -221,6 +221,23 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'gallery',
+      kicker: 'Más imágenes',
+      title: 'La fractura por fragilidad',
+      images: [
+        { src: 'biblioteca/05_endocrinologia/endo-18/01_aplastamientos-vertebrales__amir-reuma_p88.jpg', label: 'Aplastamientos vertebrales dorsales', credit: 'Manual AMIR Reumatología, p. 88' },
+        { src: 'biblioteca/05_endocrinologia/endo-18/02_rx_fractura_cuello_femur__commons.jpg', label: 'Fractura de cadera', credit: 'Wikimedia Commons «Cdm hip fracture 343.jpg», CC BY-SA 3.0, Booyabazooka' },
+      ],
+      steps: [
+        { note: 'Vértebras acuñadas y más cifosis',
+          say: 'Esta es la fractura vertebral por aplastamiento: varias vértebras dorsales colapsadas, y la espalda se encorva. Una fractura por fragilidad ya es el diagnóstico de osteoporosis.' },
+        { note: 'Cuello del fémur fracturado',
+          say: 'Y esta es una fractura de cadera, en el cuello del fémur. Junto con la vértebra, la muñeca y el húmero proximal, son los sitios típicos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, tal como lo vas a razonar en el examen.',
     },
