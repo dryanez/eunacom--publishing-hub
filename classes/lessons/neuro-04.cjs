@@ -50,7 +50,8 @@ module.exports = {
       cards: [
         { title: 'Distribución', tag: 'Polígono de Willis', kind: 'criteria', items: [
           { t: 'Comunicante anterior', d: '30–35 %, la más frecuente',
-            say: 'Veamos dónde están. El más frecuente es el de la arteria comunicante anterior, entre un treinta y un treinta y cinco por ciento.' },
+            say: 'Veamos dónde están. El más frecuente es el de la arteria comunicante anterior, entre un treinta y un treinta y cinco por ciento. Mira este esquema del polígono de Willis, con los sitios donde se forman.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-04/03_localizacion-de-aneurismas__cto-neuro_p43.jpg', label: 'Localización de aneurismas', at: 'Mira este esquema', credit: 'Manual CTO Neurología 14.ª ed., p. 43' } },
           { t: 'Comunicante posterior', d: 'Unión con la carótida interna · 25–30 %',
             say: 'Le sigue la comunicante posterior, en su unión con la carótida interna, con un veinticinco a treinta por ciento. Este es el que más se pregunta, por lo que vemos en un momento con el tercer par.' },
           { t: 'Cerebral media y basilar', d: 'Bifurcación ACM 20 % · circulación posterior 10 %',
@@ -92,19 +93,45 @@ module.exports = {
       cards: [
         { title: 'Parálisis del III par', tag: 'Comunicante posterior', kind: 'key', items: [
           { t: 'Midriasis fija y ptosis', d: 'Ojo hacia abajo y afuera',
-            say: 'Hay signos que ayudan a localizar. El más importante es la parálisis del tercer par: midriasis del mismo lado, fija y arreactiva, ptosis del párpado, y el ojo desviado hacia abajo y hacia afuera.' },
+            say: 'Hay signos que ayudan a localizar. El más importante es la parálisis del tercer par: midriasis del mismo lado, fija y arreactiva, ptosis del párpado, y el ojo desviado hacia abajo y hacia afuera. Mira a este paciente: el párpado caído, la pupila dilatada y el ojo desviado hacia abajo y afuera.',
+            photo: { src: '_verificadas/023_neuro_Hemorragia_subaracnoidea__Talley_p546.jpg', label: 'Parálisis del III par', at: 'Mira a este paciente', credit: 'Talley & O\'Connor, Clinical Examination, p. 546' } },
           { t: 'Aneurisma de la comunicante posterior', d: 'Que se expande o se rompe',
             say: 'Ese cuadro apunta a un aneurisma de la comunicante posterior, que comprime el nervio al crecer o al romperse. Fíjate que la pupila está comprometida: es una compresión desde afuera.' },
         ] },
         { title: 'Síndrome de Terson', tag: 'Fondo de ojo', kind: 'criteria', items: [
           { t: 'Hemorragias subhialoideas', d: '15–20 % de las HSA severas',
-            say: 'En el fondo de ojo pueden verse hemorragias prerretinianas, subhialoideas: el síndrome de Terson. Aparece en el quince a veinte por ciento de las hemorragias severas, y se asocia a peor pronóstico.' },
+            say: 'En el fondo de ojo pueden verse hemorragias prerretinianas, subhialoideas: el síndrome de Terson. Aparece en el quince a veinte por ciento de las hemorragias severas, y se asocia a peor pronóstico. Esto es lo que se ve en el fondo de ojo: hemorragias retinianas extensas, el síndrome de Terson.',
+            photo: { src: '_verificadas/335_neuro_Hemorragia_subaracnoidea__KanskisCli_p736_1.jpg', label: 'Síndrome de Terson', at: 'Esto es lo que se ve', credit: 'Kanski\'s Clinical Ophthalmology, 8.ª ed., p. 736' } },
         ] },
         { title: 'Cefalea centinela', tag: 'El aviso perdido', kind: 'alert', items: [
           { t: '2 a 4 semanas antes', d: 'Moderada, por microfugas',
             say: 'Y la cefalea centinela: una cefalea moderada, en las dos a cuatro semanas previas a la rotura, por pequeñas fugas o distensión del aneurisma.' },
           { t: 'Confundida con tensional o sinusitis', d: 'Una oportunidad perdida',
             say: 'Suele diagnosticarse mal, como una cefalea tensional o una sinusitis. Es la misma lógica que el AIT de hace dos clases: un aviso que, si se reconoce, permite actuar antes de la catástrofe.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Tercer par',
+      title: 'Parálisis del III par: la pupila decide',
+      cards: [
+        { title: 'Compresiva', tag: 'Urgencia', kind: 'alert', items: [
+          { t: 'Pupila dilatada y arreactiva', d: 'Las fibras pupilares van por fuera',
+            say: 'El tercer par lleva las fibras que contraen la pupila en su periferia. Por eso, una compresión las afecta primero y produce midriasis. La parálisis del tercer par con midriasis es una urgencia.' },
+          { t: 'Aneurisma, herniación uncal, apoplejía', d: 'Angio-TAC o angio-RM urgente',
+            say: 'Las causas son el aneurisma de la comunicante posterior, que puede anunciar su rotura, la herniación uncal por un hematoma o un tumor, y la apoplejía hipofisaria. Se pide angiotomografía o angiorresonancia urgente y se deriva a neurocirugía.' },
+        ] },
+        { title: 'Isquémica', tag: 'Microvascular', kind: 'normal', items: [
+          { t: 'Pupila respetada, con dolor', d: 'Diabetes o hipertensión',
+            say: 'La isquémica afecta el centro del nervio y tiende a respetar la pupila, con dolor periorbitario. Es la parálisis del diabético o del hipertenso.' },
+          { t: 'Controlar y observar', d: 'Recupera en 3–6 meses',
+            say: 'Se controlan los factores de riesgo y se observa: se recupera sola en tres a seis meses. Si aparece compromiso pupilar o no mejora, se estudian los vasos con neuroimagen.' },
+        ] },
+        { title: 'Otras causas', tag: 'No olvidar', kind: 'criteria', items: [
+          { t: 'Seno cavernoso', d: 'Con IV, VI y rama V1',
+            say: 'La lesión del seno cavernoso suma el cuarto y el sexto par y la primera rama del trigémino. También causan parálisis el traumatismo y la migraña oftalmopléjica.' },
         ] },
       ],
     },
@@ -131,7 +158,8 @@ module.exports = {
         { show: ['tru', 'tac'], note: 'Paso 1: TAC sin contraste',
           say: 'Ahora el diagnóstico, que es una secuencia fija. Ante una cefalea en trueno, el primer examen es un TAC de encéfalo sin contraste, inmediato. Si se hace en las primeras seis horas, su sensibilidad supera el noventa y ocho por ciento.' },
         { show: ['pos'], note: 'La sangre dibuja las cisternas',
-          say: 'Si es positivo, la sangre hiperdensa se ve donde está el líquido: en las cisternas basales, la cisura de Silvio, el espacio interhemisférico, o dentro de los ventrículos.' },
+          say: 'Si es positivo, la sangre hiperdensa se ve donde está el líquido: en las cisternas basales, la cisura de Silvio, el espacio interhemisférico, o dentro de los ventrículos. Mira esta tomografía: la sangre blanca rellena las cisternas y las cisuras.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-04/01_tc_hsa__harrison_p3325.jpg', label: 'HSA en cisternas', at: 'Mira esta tomografía', credit: 'Harrison, Principios de Medicina Interna, p. 3325' } },
         { show: ['neg', 'pl'], note: 'Paso 2: TAC normal obliga a punción',
           say: 'Pero si el TAC es normal y la clínica es sugerente, la punción lumbar es obligatoria. Y tiene un momento ideal: seis a doce horas desde el inicio del dolor, para dar tiempo a que los glóbulos rojos se destruyan y aparezca la xantocromía.' },
         { show: ['alt'], note: 'El error más grave del tema',
@@ -157,6 +185,34 @@ module.exports = {
             say: 'En la punción traumática, en cambio, los glóbulos rojos disminuyen claramente del primer al tercer tubo.' },
           { t: 'Sobrenadante transparente', d: 'Sangre recién puesta, sin degradar',
             say: 'Y el sobrenadante es transparente, incoloro, porque esa sangre recién entró y no alcanzó a degradarse. Por eso la xantocromía es el dato que decide.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Punción lumbar',
+      title: 'Cuándo puncionar, cómo y qué puede pasar',
+      cards: [
+        { title: 'Antes de puncionar', tag: 'Indicaciones y límites', kind: 'alert', items: [
+          { t: 'Indicada: meningitis, HSA con TAC normal', d: 'Guillain-Barré, esclerosis múltiple, neurosífilis',
+            say: 'Además de la hemorragia con TAC normal, la punción lumbar se hace ante sospecha de meningitis o encefalitis, en enfermedades inflamatorias o desmielinizantes como el Guillain-Barré y la esclerosis múltiple, y para medir la presión de apertura.' },
+          { t: 'TAC antes si hay signos de masa', d: 'Papiledema, déficit focal, Glasgow < 12, crisis, inmunosupresión',
+            say: 'Se pide neuroimagen antes si hay papiledema, un déficit focal, compromiso de conciencia, una crisis reciente o inmunosupresión. Y se contraindica con infección en el sitio, plaquetas bajo cincuenta mil, INR sobre uno coma cinco, anticoagulación plena o inestabilidad. Ojo: en la sospecha de meningitis bacteriana, los antibióticos no esperan ni la tomografía ni la punción.' },
+        ] },
+        { title: 'Técnica', tag: 'Paso a paso', kind: 'key', items: [
+          { t: 'Decúbito lateral, espacio L3-L4 o L4-L5', d: 'Línea intercrestal cruza L4',
+            say: 'El paciente va en decúbito lateral, con las rodillas hacia el pecho. La línea que une las crestas ilíacas cruza la cuarta vértebra lumbar, y se puncionan los espacios entre la tercera y la cuarta, o entre la cuarta y la quinta, por debajo del cono medular, que termina entre la primera y la segunda lumbar.' },
+          { t: 'Bisel paralelo a la columna', d: 'Aguja 20–22 G, leve inclinación cefálica',
+            say: 'Con asepsia y lidocaína, avanzas la aguja con el mandril puesto y el bisel paralelo al eje de la columna, apuntando levemente hacia el ombligo, hasta sentir la pérdida de resistencia.' },
+          { t: 'Presión de apertura y 4 tubos', d: 'Normal 10–20 cmH₂O',
+            say: 'Mides la presión de apertura, normal entre diez y veinte centímetros de agua, y recolectas tubos en orden: proteínas y glucosa, Gram y cultivos, recuento celular y estudios especiales. Pide una glicemia simultánea: la glucorraquia normal es al menos sesenta por ciento de la glicemia.' },
+        ] },
+        { title: 'Complicaciones', tag: 'Lo que se pregunta', kind: 'criteria', items: [
+          { t: 'Cefalea pospunción', d: 'Aparece a las 24–72 h; mejora acostado',
+            say: 'La más frecuente es la cefalea pospunción, por fuga de líquido. Aparece a las veinticuatro a setenta y dos horas, empeora al sentarse y mejora acostado. Se trata con reposo, hidratación, cafeína y analgésicos, y con parche hemático epidural si dura más de dos a tres días.' },
+          { t: 'Hematoma espinal y herniación', d: 'Coagulopatía; masa no reconocida',
+            say: 'Las graves son el hematoma espinal, con dolor intenso y paraparesia que obliga a descomprimir, y la herniación cerebral si se punciona con una masa no reconocida. Las agujas de punta de lápiz bajan el riesgo de cefalea.' },
         ] },
       ],
     },
@@ -194,7 +250,8 @@ module.exports = {
         ] },
         { title: 'Asegurar el aneurisma', tag: 'En 24 a 72 h', kind: 'key', items: [
           { t: 'Embolización con coils', d: 'Endovascular, de primera elección',
-            say: 'La única medida definitiva es excluir el aneurisma de la circulación, precozmente, en las primeras veinticuatro a setenta y dos horas. El método de elección en la mayoría es endovascular: la embolización con coils.' },
+            say: 'La única medida definitiva es excluir el aneurisma de la circulación, precozmente, en las primeras veinticuatro a setenta y dos horas. El método de elección en la mayoría es endovascular: la embolización con coils. Mira esta arteriografía: el aneurisma sacular, la bolsa que se llena de contraste, es lo que se excluye.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-04/02_aneurisma-sacular-arteriografia__cto-neuro_p45.jpg', label: 'Aneurisma sacular', at: 'Mira esta arteriografía', credit: 'Manual CTO Neurología 14.ª ed., p. 45' } },
           { t: 'Clipaje microquirúrgico', d: 'Cuello ancho de ACM o hematoma compresivo',
             say: 'El clipaje quirúrgico se prefiere en aneurismas de cuello ancho de la cerebral media, o cuando hay un hematoma en el parénquima que comprime y hay que evacuar.' },
         ] },
@@ -244,7 +301,8 @@ module.exports = {
       cards: [
         { title: 'Hidrocefalia aguda', tag: '20–30 %', kind: 'alert', items: [
           { t: 'Sangre que bloquea la reabsorción', d: 'Primeras 24 a 48 horas',
-            say: 'El tercer objetivo es la hidrocefalia aguda, que ocurre en el veinte a treinta por ciento, en las primeras veinticuatro a cuarenta y ocho horas, porque la sangre bloquea la circulación y la reabsorción del líquido cefalorraquídeo.' },
+            say: 'El tercer objetivo es la hidrocefalia aguda, que ocurre en el veinte a treinta por ciento, en las primeras veinticuatro a cuarenta y ocho horas, porque la sangre bloquea la circulación y la reabsorción del líquido cefalorraquídeo. En esta tomografía los ventrículos están muy dilatados: es una hidrocefalia aguda.',
+            photo: { src: '_verificadas/145_neuro_Hemorragia_subaracnoidea__ctmri_path_p75_1.jpg', label: 'Hidrocefalia aguda', at: 'En esta tomografía', credit: 'CT & MRI Pathology: A Pocket Atlas, p. 75' } },
           { t: 'Deterioro de conciencia: DVE', d: 'Drenaje ventricular externo urgente',
             say: 'Si el paciente se deteriora de conciencia, se instala un drenaje ventricular externo de urgencia, igual que en la hemorragia intracerebral.' },
         ] },
@@ -272,37 +330,6 @@ module.exports = {
       steps: [
         { note: 'Cefalea en trueno',
           say: 'Miremos el cerebro desde abajo. En el polígono de Willis, un aneurisma de la comunicante anterior crece y se rompe. La sangre llena las cisternas de la base y las cisuras. El paciente siente la peor cefalea de su vida, de golpe.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Hemorragia subaracnoidea',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-04/01_tc_hsa__harrison_p3325.jpg', label: 'HSA en cisternas', credit: 'Harrison 21.ª ed., p. 3325' },
-        { src: 'biblioteca/09_neurologia/neuro-04/02_aneurisma-sacular-arteriografia__cto-neuro_p45.jpg', label: 'Aneurisma', credit: 'Manual CTO Neurología 14.ª ed., p. 45' },
-      ],
-      steps: [
-        { note: 'Sangre en estrella en la base',
-          say: 'La sangre en las cisternas de la base forma una estrella blanca. Con cefalea en trueno, este es el diagnóstico.' },
-        { note: 'La causa más frecuente',
-          say: 'La causa más frecuente es la rotura de un aneurisma sacular, que se busca con angiografía.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-04/03_localizacion-de-aneurismas__cto-neuro_p43.jpg', label: 'Localización de aneurismas', credit: 'Manual CTO Neurología 14.ª ed., p. 43' },
-      ],
-      steps: [
-        { note: 'Localización de aneurismas',
-          say: 'Mira esta imagen: localización de aneurismas. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],
     },
 
@@ -426,6 +453,157 @@ module.exports = {
         options: 'Las opciones: resonancia de cerebro, punción lumbar, TAC con contraste, angiografía cerebral, o ecocardiograma. Piénsalo.',
         answer: 'Es la D, angiografía cerebral. El TAC ya mostró la sangre: la hemorragia está confirmada, y ahora hay que encontrar el aneurisma para asegurarlo. La punción lumbar es la trampa: solo se hace cuando el TAC es normal. Aquí no aporta nada, porque el diagnóstico ya está hecho.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.2.001 · Cefalea aguda en urgencia",
+      "stem": "Mujer de 34 años consulta en urgencia por cefalea holocránea de 10 días, progresiva, que empeora al toser y al acostarse, con vómitos matinales. Usa anticonceptivos orales. Afebril, PA 124/78 mmHg, sin rigidez de nuca ni déficit motor.",
+      "question": "¿Cuál de los siguientes hallazgos es una bandera roja que obliga a neuroimagen urgente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fotofobia y náuseas"
+        },
+        {
+          "letter": "B",
+          "text": "Antecedente familiar de migraña"
+        },
+        {
+          "letter": "C",
+          "text": "Edema de papila bilateral en el fondo de ojo"
+        },
+        {
+          "letter": "D",
+          "text": "Dolor opresivo bilateral"
+        },
+        {
+          "letter": "E",
+          "text": "Alivio parcial con paracetamol"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Una cefalea nueva o progresiva con banderas rojas (SNOOP: síntomas sistémicos, signos neurológicos como edema de papila, inicio súbito, inicio después de los 50 años, cambio de patrón o empeoramiento con Valsalva y decúbito) obliga a neuroimagen. El edema de papila indica hipertensión endocraneana. Fotofobia, náuseas y dolor opresivo son propios de cefaleas primarias.",
+      "say": {
+        "stem": "Una mujer de treinta y cuatro años, usuaria de anticonceptivos, consulta por cefalea progresiva de diez días que empeora al toser y al acostarse, con vómitos matinales.",
+        "question": "¿Cuál de estos hallazgos es una bandera roja que obliga a una neuroimagen urgente?",
+        "options": "Las opciones: fotofobia y náuseas, migraña en la familia, edema de papila, dolor opresivo bilateral o alivio parcial con paracetamol. Piénsalo.",
+        "answer": "Es la C. El edema de papila indica hipertensión endocraneana y obliga a una imagen urgente, aquí pensando también en una trombosis venosa. La fotofobia con náuseas tienta, pero es típica de la migraña y no es bandera roja."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.4.007 · Examen de líquido cefalorraquídeo",
+      "stem": "Hombre de 45 años con cefalea súbita de máxima intensidad en segundos, iniciada hace 10 horas durante el ejercicio. Examen neurológico normal. TAC de encéfalo sin contraste a las 8 horas: normal. Se realiza punción lumbar a las 10 horas del inicio.",
+      "question": "¿Qué hallazgo del líquido cefalorraquídeo confirma una hemorragia subaracnoídea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glóbulos rojos que disminuyen progresivamente del primer al cuarto tubo"
+        },
+        {
+          "letter": "B",
+          "text": "Bandas oligoclonales de IgG"
+        },
+        {
+          "letter": "C",
+          "text": "Proteínas elevadas con celularidad normal"
+        },
+        {
+          "letter": "D",
+          "text": "Glucosa baja con predominio de neutrófilos"
+        },
+        {
+          "letter": "E",
+          "text": "Xantocromía del sobrenadante tras centrifugar"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La xantocromía (sobrenadante amarillo por bilirrubina de la degradación de la hemoglobina) aparece desde las 6 a 12 horas y confirma sangre previa en el espacio subaracnoídeo. Los glóbulos rojos que disminuyen entre tubos sugieren punción traumática. Glucosa baja con neutrófilos es meningitis bacteriana; las bandas oligoclonales orientan a esclerosis múltiple.",
+      "say": {
+        "stem": "Un hombre de cuarenta y cinco años tiene una cefalea en trueno de diez horas, con examen normal y tomografía normal. Se le hace una punción lumbar.",
+        "question": "¿Qué hallazgo del líquido cefalorraquídeo confirma la hemorragia subaracnoídea?",
+        "options": "Las opciones: glóbulos rojos que bajan del primer al cuarto tubo, bandas oligoclonales, proteínas altas sin células, glucosa baja con neutrófilos o xantocromía. Piénsalo.",
+        "answer": "Es la E. La xantocromía es el color amarillo que deja la degradación de la sangre y prueba que el sangrado ocurrió antes de la punción. Los glóbulos rojos que van bajando tientan, pero indican lo contrario, una punción traumática."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.4.003 · Angiografía",
+      "stem": "Mujer de 48 años con cefalea súbita, \"la peor de su vida\", de 6 horas de evolución. La TAC de cerebro sin contraste muestra hemorragia subaracnoidea en las cisternas basales.",
+      "question": "¿Cuál es el examen de referencia para identificar y caracterizar el aneurisma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Angiografía cerebral por sustracción digital"
+        },
+        {
+          "letter": "B",
+          "text": "Electroencefalograma"
+        },
+        {
+          "letter": "C",
+          "text": "Punción lumbar"
+        },
+        {
+          "letter": "D",
+          "text": "Doppler transcraneal"
+        },
+        {
+          "letter": "E",
+          "text": "Resonancia magnética sin contraste"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Confirmada la hemorragia subaracnoidea, debe identificarse el aneurisma. La angiografía cerebral por sustracción digital es el estándar de referencia: lo localiza, lo caracteriza y permite tratarlo con embolización endovascular en el mismo procedimiento. La angio-TAC es una alternativa inicial no invasiva, y el doppler transcraneal sirve para vigilar el vasoespasmo.",
+      "say": {
+        "stem": "Mujer de cuarenta y ocho años con cefalea en trueno y hemorragia subaracnoidea confirmada en la TAC.",
+        "question": "¿Cuál es el examen de referencia para estudiar el aneurisma?",
+        "options": "Las opciones: angiografía por sustracción digital, electroencefalograma, punción lumbar, doppler transcraneal, o resonancia sin contraste. Piénsalo.",
+        "answer": "Es la A. La angiografía por sustracción digital, que además permite embolizar. La punción lumbar se usa cuando la TAC es negativa, y aquí la hemorragia ya está confirmada."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.2.009 · Parálisis III par + midriasis",
+      "stem": "Mujer de 48 años consulta por cefalea intensa retroocular derecha de 1 día y visión doble. Al examen tiene ptosis palpebral derecha, ojo desviado hacia abajo y afuera y pupila derecha midriática arrefléctica. Sin rigidez de nuca.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diagnosticar parálisis microvascular del III par y controlar en 3 meses"
+        },
+        {
+          "letter": "B",
+          "text": "Angio-TAC o angiorresonancia cerebral urgente por sospecha de aneurisma de la arteria comunicante posterior"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar corticoides por neuritis"
+        },
+        {
+          "letter": "D",
+          "text": "Indicar parche ocular y control con oftalmología"
+        },
+        {
+          "letter": "E",
+          "text": "Prueba de hielo para miastenia"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Una parálisis del III par con midriasis (compromiso pupilar) y cefalea sugiere compresión de las fibras parasimpáticas periféricas por un aneurisma de la comunicante posterior, con riesgo de rotura: requiere angio-TAC o angiorresonancia urgente. La parálisis microvascular (diabetes, HTA) típicamente respeta la pupila. La miastenia nunca compromete la pupila.",
+      "say": {
+        "stem": "Mujer de cuarenta y ocho años con cefalea retroocular intensa, visión doble, ptosis, ojo desviado hacia abajo y afuera, y pupila dilatada que no reacciona.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: parálisis microvascular con control, angiotomografía urgente por aneurisma de comunicante posterior, corticoides, parche ocular o prueba del hielo. Piénsalo.",
+        "answer": "Es la B. Una parálisis del tercer par con pupila dilatada y cefalea es un aneurisma de la comunicante posterior hasta demostrar lo contrario, y se hace una angiografía urgente. La causa microvascular tienta por ser común, pero respeta la pupila."
+      }
     },
 
     {

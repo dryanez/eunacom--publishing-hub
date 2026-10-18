@@ -35,29 +35,14 @@ module.exports = {
       ],
       steps: [
         { show: ['b', 'g'], note: 'Un testículo que gira libre',
-          say: 'La torsión intravaginal ocurre cuando la túnica vaginal envuelve de forma anormal el testículo, el epidídimo y el cordón, y el testículo no queda anclado a la pared posterior del escroto. Esa anomalía congénita se llama deformidad en badajo de campana, y permite que el testículo gire libre sobre su propio eje.' },
+          say: 'La torsión intravaginal ocurre cuando la túnica vaginal envuelve de forma anormal el testículo, el epidídimo y el cordón, y el testículo no queda anclado a la pared posterior del escroto. Esa anomalía se llama badajo de campana. Mira este esquema: a la izquierda, lo normal, con el testículo fijo atrás; a la derecha, la túnica insertada alto y el testículo colgando libre, listo para girar.',
+          photo: { src: 'biblioteca/19_urologia/uro-05/01_badajo-de-campana-torsion__bailey-love_p1520.jpg', label: 'Normal (A) y badajo (B)', at: 'Mira este esquema', credit: 'Bailey & Love 27.ª ed., Fig. 80.4' } },
         { show: ['v', 'a'], note: 'Primero la vena, luego la arteria',
           say: 'Al girar, primero se ocluye el retorno venoso. Hay congestión, edema y sube la presión dentro del testículo. Después de unos giros se colapsa también la arteria y empieza la isquemia.' },
         { show: ['t'], note: 'La viabilidad depende de las horas',
           say: 'Y aquí está el dato que manda sobre todo el tema: el tiempo. Si se opera dentro de las primeras seis horas, el testículo se salva en más de noventa por ciento. A las doce horas cae a veinte o cincuenta por ciento, y después de veinticuatro horas es casi cero.' },
         { show: ['c'], note: 'El badajo de campana es bilateral',
           say: 'Y un detalle que se pregunta: el badajo de campana es bilateral en más del ochenta por ciento de los casos. Por eso el testículo del otro lado también está en riesgo.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'El badajo de campana',
-      images: [
-        { src: 'biblioteca/19_urologia/uro-05/01_badajo-de-campana-torsion__bailey-love_p1520.jpg', label: 'A: fijación normal de la túnica vaginal. B: inserción alta, badajo de campana', credit: 'Bailey & Love 27.ª ed., Fig. 80.4' },
-      ],
-      steps: [
-        { note: 'A: el testículo queda anclado',
-          say: 'A la izquierda, lo normal: la túnica vaginal, en rojo, rodea solo la parte anterior, y el testículo queda fijo atrás al escroto.' },
-        { note: 'B: cuelga libre y puede girar',
-          say: 'A la derecha, el badajo de campana: la túnica se inserta alto y envuelve todo. El testículo cuelga libre, como el badajo de una campana, y puede girar sobre el cordón.' },
       ],
     },
 
@@ -76,7 +61,8 @@ module.exports = {
           { t: 'Reflejo cremastérico abolido', d: 'Sensibilidad mayor de 95%',
             say: 'El primero es el reflejo cremastérico, que está ausente en el lado afectado. Tiene una sensibilidad de más de noventa y cinco por ciento. Si está presente y es simétrico, la torsión es muy poco probable.' },
           { t: 'Gouverneur: ascendido y horizontal', d: 'Testículo retraído y rotado',
-            say: 'El segundo, el signo de Gouverneur: el testículo está ascendido, horizontalizado y rotado hacia adelante.' },
+            say: 'El segundo, el signo de Gouverneur: el testículo está ascendido, horizontalizado y rotado hacia adelante. Mira esta fotografía: el hemiescroto queda alto y el testículo se ve transversal, en vez de vertical.',
+            photo: { src: '_verificadas/065_uro_Torsión_testicular__ecmpdf_p419_1.jpg', label: 'Signo de Gouverneur', at: 'Mira esta fotografía', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 419' } },
           { t: 'Prehn negativo', d: 'Elevarlo no alivia',
             say: 'El tercero, el signo de Prehn negativo. Al elevar el testículo, el dolor no mejora e incluso empeora. En etapas tardías, el hemiescroto se pone rojo, edematoso y duro.' },
         ] },
@@ -112,7 +98,8 @@ module.exports = {
       cards: [
         { title: 'Qué muestra el Doppler', tag: 'Examen de apoyo', kind: 'normal', items: [
           { t: 'Sin flujo arterial', d: 'Y signo del remolino en el cordón',
-            say: 'La ecografía Doppler testicular muestra ausencia de flujo en el testículo, y el signo del remolino en el cordón. Tiene una sensibilidad de ochenta y cinco a noventa por ciento y una especificidad de noventa y cinco.' },
+            say: 'La ecografía Doppler testicular muestra ausencia de flujo en el testículo, y el signo del remolino en el cordón. Tiene una sensibilidad de ochenta y cinco a noventa por ciento y una especificidad de noventa y cinco. Mira esta ecografía: el testículo es oscuro y solo hay color en la periferia, y el trazado del flujo arterial, abajo, es una línea plana.',
+            photo: { src: '_verificadas/064_uro_Torsión_testicular__Rumack_p1966.jpg', label: 'Doppler sin flujo arterial', at: 'Mira esta ecografía', credit: 'Diagnostic Ultrasound (Rumack), p. 1966' } },
           { t: 'Solo si la duda es intermedia', d: 'Cuadros atípicos',
             say: 'Es un examen de apoyo, para los casos de sospecha intermedia o atípica.' },
         ] },
@@ -142,6 +129,20 @@ module.exports = {
           { t: 'Destorsión manual: solo puente', d: 'No reemplaza la cirugía',
             say: 'La destorsión manual desde medial a lateral puede aliviar el dolor, pero no reemplaza la cirugía, que sigue siendo obligatoria, y nunca debe retrasar el traslado a pabellón.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cada hora cuenta',
+      images: [
+        { src: 'animaciones/uro-05/A1_torsion_tiempo_salvamento.mp4', label: 'El tiempo y el testículo', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'El tiempo y el testículo',
+          say: 'Mira la curva: dentro de las primeras seis horas el testículo se salva en más del noventa por ciento. A las doce horas cae a veinte o cincuenta, y a las veinticuatro es casi cero. Por eso todo testículo agudo se explora, y si la sospecha es alta no se espera ninguna imagen.' },
       ],
     },
 
@@ -328,6 +329,82 @@ module.exports = {
         options: 'Las opciones: antibióticos orales; Doppler testicular; analgésicos orales; antibióticos endovenosos; o exploración quirúrgica. Piénsalo.',
         answer: 'Es la E. Que el dolor no mejore al suspender el testículo es un Prehn negativo, y en un adolescente es torsión hasta demostrar lo contrario. Con ocho horas ya pasó la ventana ideal, así que menos aún se puede esperar. Los antibióticos y los analgésicos no resuelven una torsión.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.4.008 · Ecotomografía testicular",
+      "stem": "Escolar de 11 años consulta por dolor testicular derecho de 20 horas, de inicio gradual, moderado, sin vómitos. Afebril. El testículo derecho está en posición normal, levemente sensible en su polo superior, con reflejo cremastérico presente. El cuadro es dudoso, por lo que se solicita ecografía Doppler testicular inmediata.",
+      "question": "Si la ecografía Doppler muestra flujo arterial intratesticular conservado y simétrico, con una imagen nodular avascular en el polo superior, ¿cuál es la interpretación y conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Torsión testicular; exploración quirúrgica inmediata"
+        },
+        {
+          "letter": "B",
+          "text": "Hidrocele a tensión; punción evacuadora"
+        },
+        {
+          "letter": "C",
+          "text": "Tumor testicular; orquiectomía inguinal"
+        },
+        {
+          "letter": "D",
+          "text": "Orquiepididimitis bacteriana; ceftriaxona más doxiciclina"
+        },
+        {
+          "letter": "E",
+          "text": "Torsión de hidátide (apéndice testicular); reposo, AINE, frío local y control"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La ecografía Doppler testicular es útil cuando el escroto agudo es dudoso: flujo intratesticular conservado descarta razonablemente la torsión, y un nódulo avascular en el polo superior es típico de la torsión de hidátide, que se trata en forma conservadora. Si la clínica es clara de torsión, no se debe retrasar la cirugía por la ecografía.",
+      "say": {
+        "stem": "Un niño de once años tiene dolor testicular derecho de veinte horas, de inicio gradual, con el testículo en posición normal, sensible en el polo superior y reflejo cremastérico presente. Como el cuadro es dudoso, se pide una ecografía con Doppler.",
+        "question": "Si muestra flujo conservado en el testículo y un pequeño nódulo sin flujo en el polo superior, ¿qué es y qué se hace?",
+        "options": "Las opciones: torsión testicular con cirugía, hidrocele con punción, tumor testicular, orquiepididimitis con antibióticos o torsión de hidátide con manejo conservador. Piénsalo.",
+        "answer": "Es la E. Con flujo testicular conservado y un nódulo sin flujo en el polo superior, es una torsión de hidátide, que se maneja con reposo, antiinflamatorios y frío. La torsión testicular tienta, pero en ella el flujo del testículo está disminuido o ausente."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.2.025 · Testículo agudo",
+      "stem": "Un adolescente de 13 años presenta dolor testicular izquierdo súbito e intenso de 2 horas de evolución, que lo despertó, con náuseas y vómitos. Al examen el testículo izquierdo está elevado, horizontalizado y muy doloroso, con reflejo cremastérico ausente.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Exploración quirúrgica urgente"
+        },
+        {
+          "letter": "B",
+          "text": "Antibióticos y analgesia, control en 24 horas"
+        },
+        {
+          "letter": "C",
+          "text": "Ecografía Doppler diferida para el día siguiente"
+        },
+        {
+          "letter": "D",
+          "text": "Elevación escrotal y antiinflamatorios"
+        },
+        {
+          "letter": "E",
+          "text": "Urocultivo y esperar resultado"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Dolor testicular súbito con testículo alto y horizontal y ausencia de reflejo cremastérico en un adolescente es torsión testicular, una emergencia: la viabilidad cae marcadamente después de 6 horas. Ante sospecha clínica alta se explora quirúrgicamente de urgencia (detorsión y orquidopexia bilateral), sin retrasar por imágenes; el Doppler solo se usa si hay duda y está disponible de inmediato.",
+      "say": {
+        "stem": "Un adolescente de trece años tiene dolor testicular izquierdo súbito hace dos horas, con testículo elevado, horizontal y sin reflejo cremastérico.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: exploración quirúrgica urgente, antibióticos y control, Doppler al día siguiente, elevación escrotal o urocultivo. Piénsalo.",
+        "answer": "Es la A. Es una torsión testicular y se explora quirúrgicamente de urgencia. Los antibióticos tientan si se piensa en orquiepididimitis, pero esa tiene inicio gradual y conserva el reflejo cremastérico."
+      }
     },
 
     {

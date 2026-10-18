@@ -116,7 +116,11 @@ module.exports = {
         { show: ['ost'], note: 'FA alta: el sello de la osteomalacia',
           say: 'Mientras tanto, los osteoblastos siguen fabricando matriz, el osteoide, pero sin calcio ni fósforo esa matriz no se mineraliza. Ese hueso trabajando en vano eleva las fosfatasas alcalinas, el sello distintivo de la enfermedad.' },
         { show: ['adu', 'nin'], note: 'Misma enfermedad, distinta edad',
-          say: 'Si esto ocurre en un adulto, con los cartílagos de crecimiento ya cerrados, es osteomalacia. Si ocurre en un niño que está creciendo, es raquitismo. Es la misma falla de mineralización a distinta edad.' },
+          say: 'Si esto ocurre en un adulto, con los cartílagos de crecimiento ya cerrados, es osteomalacia. Si ocurre en un niño que está creciendo, es raquitismo: mira estos nódulos a lo largo de las costillas, el rosario raquítico, y estas muñecas ensanchadas. Es la misma falla de mineralización a distinta edad.',
+            photos: [
+              { src: 'biblioteca/05_endocrinologia/endo-19/01_rosario_raquitico__nelson_p646.jpg', label: 'Rosario raquítico', at: 'mira estos nódulos', credit: 'Nelson 22.ª ed., p. 646' },
+              { src: 'biblioteca/05_endocrinologia/endo-19/02_munecas_ensanchadas__nelson_p646.jpg', label: 'Muñecas ensanchadas', at: 'estas muñecas ensanchadas', credit: 'Nelson 22.ª ed., p. 646' },
+            ] },
       ],
     },
 
@@ -133,7 +137,8 @@ module.exports = {
         ] },
         { title: 'Radiografía', tag: 'Patognomónico', kind: 'key', items: [
           { t: 'Líneas de Looser-Milkman', d: 'Seudofracturas perpendiculares a la cortical',
-            say: 'En la radiografía, el signo patognomónico son las seudofracturas o líneas de Looser-Milkman: bandas radiolúcidas estrechas, perpendiculares a la cortical.' },
+            say: 'En la radiografía, el signo patognomónico son las seudofracturas o líneas de Looser-Milkman: bandas radiolúcidas estrechas, perpendiculares a la cortical, como la que señala la flecha en esta radiografía.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-19/04_looser_milkman__commons.jpg', label: 'Línea de Looser-Milkman', at: 'como la que señala', credit: 'Wikimedia Commons, CC BY 3.0, ver autor en Commons' } },
           { t: 'Cuello femoral, pubis, escápula, costillas', d: 'Microfracturas reparadas con osteoide',
             say: 'Aparecen en el cuello del fémur, las ramas pubianas, la escápula o las costillas. Son microfracturas que se repararon con osteoide sin mineralizar.' },
         ] },
@@ -207,17 +212,11 @@ module.exports = {
       type: 'image',
       layout: 'gallery',
       kicker: 'Así se ve',
-      title: 'Raquitismo',
+      title: 'El raquitismo en la radiografía',
       images: [
-        { src: 'biblioteca/05_endocrinologia/endo-19/01_rosario_raquitico__nelson_p646.jpg', label: 'Rosario raquítico', credit: 'Nelson 22.ª ed., p. 646' },
-        { src: 'biblioteca/05_endocrinologia/endo-19/02_munecas_ensanchadas__nelson_p646.jpg', label: 'Muñecas ensanchadas', credit: 'Nelson 22.ª ed., p. 646' },
         { src: 'biblioteca/05_endocrinologia/endo-19/03_rx_muneca_raquitismo__nelson_p647.jpg', label: 'Radiografía', credit: 'Nelson 22.ª ed., p. 647' },
       ],
       steps: [
-        { note: 'Nódulos en las uniones costales',
-          say: 'Estos nódulos a lo largo de las costillas son el rosario raquítico: las uniones entre costilla y cartílago se ensanchan.' },
-        { note: 'Metáfisis anchas',
-          say: 'Las muñecas también se ensanchan.' },
         { note: 'Metáfisis en copa y deshilachadas',
           say: 'Y en la radiografía, a la derecha, las metáfisis están ensanchadas, en copa y deshilachadas, comparadas con la muñeca normal a la izquierda.' },
       ],
@@ -337,6 +336,82 @@ module.exports = {
         options: 'Las opciones: tiamina, zinc, vitamina A, vitamina D, o ácido fólico. Piénsalo.',
         answer: 'Es la D, vitamina D. En el lactante, el suplemento importante es la vitamina D, porque su déficit, en un hueso que está creciendo, es el raquitismo. La vitamina A tienta, porque suele venir en el mismo preparado, pero la que importa aquí es la D.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2019 · Pregunta 175",
+      "stem": "Un paciente de 32 años, con antecedente de litiasis renal a repetición, se realiza exámenes que muestran calcio plasmático 9,8 mg/dl, albúmina 3,0 g/dl, creatinina plasmática 0,7 mg/dl, PTH 90 pg/ml (VN 10 a 55 pg/ml) y calciuria de 200 mg/día (VN 50 a 150 mg/día).",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hiperparatiroidismo primario"
+        },
+        {
+          "letter": "B",
+          "text": "Hiperparatiroidismo secundario"
+        },
+        {
+          "letter": "C",
+          "text": "Hiperparatiroidismo terciario"
+        },
+        {
+          "letter": "D",
+          "text": "Hipercalciuria primaria"
+        },
+        {
+          "letter": "E",
+          "text": "Hipercalciuria familiar"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Con albúmina de 3,0 el calcio corregido es 9,8 + 0,8 × 1 = 10,6 mg/dL: hipercalcemia con PTH elevada e hipercalciuria, es decir, hiperparatiroidismo primario, que explica la litiasis. El secundario tiene calcio bajo o normal (déficit de vitamina D, ERC) y el terciario ocurre en la ERC avanzada.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecinueve. Paciente de treinta y dos años con litiasis renal a repetición. Su calcio es nueve coma ocho, con albúmina de tres, la PTH es noventa, sobre lo normal, y la calciuria está elevada.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: hiperparatiroidismo primario, secundario, terciario, hipercalciuria primaria, o hipercalciuria familiar. Piénsalo.",
+        "answer": "Es la A. El truco es corregir el calcio por la albúmina baja: queda en diez coma seis, una hipercalcemia con PTH alta, que es el hiperparatiroidismo primario. El secundario tienta porque el calcio parece normal, pero en el secundario el calcio corregido es bajo o normal, no alto."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.018 · Perfil bioquímico",
+      "stem": "Un lactante de 14 meses, de piel oscura, con lactancia materna exclusiva prolongada sin suplementación de vitamina D, presenta piernas arqueadas, ensanchamiento de muñecas y rosario costal.",
+      "question": "¿Qué alteración del perfil bioquímico es la más esperable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fosfatasa alcalina baja y fósforo alto"
+        },
+        {
+          "letter": "B",
+          "text": "Todas las pruebas normales"
+        },
+        {
+          "letter": "C",
+          "text": "Calcio muy elevado y PTH baja"
+        },
+        {
+          "letter": "D",
+          "text": "Fosfatasa alcalina elevada, fósforo bajo y calcio normal o bajo"
+        },
+        {
+          "letter": "E",
+          "text": "Fosfatasa alcalina normal y fósforo alto"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El raquitismo carencial por déficit de vitamina D produce menor absorción de calcio, hiperparatiroidismo secundario con fosfaturia y, por ello, hipofosfemia con calcio normal o bajo. La fosfatasa alcalina se eleva marcadamente por el aumento de actividad osteoblástica, y es el marcador más útil. La 25-OH vitamina D está baja.",
+      "say": {
+        "stem": "Un lactante de catorce meses con lactancia exclusiva sin vitamina D tiene piernas arqueadas, muñecas anchas y rosario costal.",
+        "question": "¿Qué alteración bioquímica es la más esperable?",
+        "options": "Las opciones: fosfatasa baja con fósforo alto, todo normal, calcio muy alto, fosfatasa elevada con fósforo bajo o fosfatasa normal. Piénsalo.",
+        "answer": "Es la D. En el raquitismo carencial la fosfatasa alcalina sube y el fósforo baja por el hiperparatiroidismo secundario. Esperar calcio muy bajo tienta, pero la paratohormona lo mantiene normal o levemente bajo a costa del fósforo."
+      }
     },
 
     {

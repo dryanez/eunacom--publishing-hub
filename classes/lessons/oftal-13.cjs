@@ -44,6 +44,9 @@ module.exports = {
           say: 'La primera es la fase vasoconstrictora: la arteriola se autorregula con un espasmo y un estrechamiento, difuso o focal, tratando de defenderse de la presión alta.' },
         { show: ['escl'], note: 'El reflejo luminoso cambia antes que la clínica',
           say: 'Si la hipertensión sigue, viene la fase esclerótica: la íntima y la capa media de la arteriola se engrosan y se hialinizan, y la arteriola pierde su transparencia normal. Primero se ve como un hilo de cobre, con un reflejo luminoso cobrizo aumentado, y más adelante como un hilo de plata, donde la pared ya es tan opaca que no dejas ver la columna de sangre por dentro.' },
+        { show: ['escl'], note: 'Hilo de cobre y cruces arteriovenosos',
+          say: 'Mira este fondo de ojo: las arteriolas con su reflejo cobrizo y, en los cruces, la vena que se afina al pasar bajo la arteria.',
+          photo: { src: '_verificadas/274_oftal_Retinopatía_hipertensiva_grado__KanskisCli_p570_1.jpg', label: 'Hilo de cobre y cruces', at: 'Mira este fondo de ojo', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 570" } },
         { show: ['exud', 'clin'], note: 'Aquí la retina empieza a sufrir de verdad',
           say: 'Y la tercera es la fase exudativa. La pared del vaso se necrosa, se rompe la barrera hematorretiniana, y aparecen microinfartos que se ven como exudados algodonosos, junto con hemorragias en la capa de fibras nerviosas, en forma de llama.' },
         { show: ['edema'], note: 'El paso final: la papila se edematiza',
@@ -64,9 +67,32 @@ module.exports = {
         ] },
         { title: 'Grados III y IV', tag: 'Isquemia aguda y emergencia', kind: 'alert', items: [
           { t: 'Grado III: hemorragias y exudados', d: 'En llama, algodonosos, y estrella macular',
-            say: 'El grado tres ya no es solo crónico: aparecen hemorragias retinianas en llama, exudados algodonosos, y a veces exudados duros que dibujan una estrella macular. Aquí la retina ya está isquémica de forma aguda.' },
+            say: 'El grado tres ya no es solo crónico: aparecen hemorragias retinianas en llama, exudados algodonosos, y a veces exudados duros que dibujan una estrella macular. Aquí la retina ya está isquémica de forma aguda. Mira esta retina: las hemorragias y los exudados esparcidos alrededor de la papila.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-13/01_retinopatia-hipertensiva__cto-oftalmo_p69.jpg', label: 'Retinopatía hipertensiva', at: 'Mira esta retina', credit: 'Manual CTO Oftalmología 14.ª ed., p. 69' } },
           { t: 'Grado IV: todo lo anterior más edema de papila bilateral', d: 'Define la emergencia hipertensiva maligna',
             say: 'Y el grado cuatro es todo lo anterior, más el edema de papila bilateral. Ese único hallazgo cambia por completo la conducta: deja de ser un tema de fondo de ojo y pasa a ser una emergencia médica.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Procedimiento',
+      title: 'Fondo de ojo en el hipertenso: el orden de lectura',
+      cards: [
+        { title: 'Cuándo y cómo', tag: 'Oftalmoscopía directa', kind: 'key', items: [
+          { t: 'Al diagnóstico y ante crisis o cefalea', d: 'Ojo derecho con ojo derecho, a 2 o 3 cm',
+            say: 'En el hipertenso, el fondo de ojo se hace al diagnóstico y ante una crisis hipertensiva o una cefalea. La técnica es la misma que en el glaucoma: tu ojo derecho con el ojo derecho del paciente, a dos o tres centímetros. Lo que cambia es el orden de lectura, orientado a los hallazgos hipertensivos.' },
+        ] },
+        { title: 'El recorrido', tag: 'Cuatro estaciones', kind: 'criteria', items: [
+          { t: 'Papila y luego vasos', d: 'Bordes borrados; cobre, plata, cruces de Gunn y Salus',
+            say: 'Primero la papila: bordes nítidos o borrados, color y hemorragias peripapilares. Un edema de papila bilateral define el grado cuatro. Segundo, los vasos: el estrechamiento arteriolar, el reflejo en hilo de cobre y de plata, y los cruces arteriovenosos patológicos, los signos de Gunn y de Salus.' },
+          { t: 'Retina y mácula', d: 'Llamas, algodonosos, duros; estrella macular',
+            say: 'Tercero, la retina: hemorragias en llama, exudados algodonosos, que son infartos de fibras nerviosas, y exudados duros. Y por último, la mácula, buscando los exudados en estrella.' },
+        ] },
+        { title: 'Precaución con la pupila', tag: 'Dilatar o no', kind: 'alert', items: [
+          { t: 'No dilatar con ángulo estrecho', d: 'Ni en emergencia con compromiso neurológico',
+            say: 'La pupila se dilata solo si el paciente no tiene ángulo estrecho. Y en una emergencia hipertensiva con compromiso neurológico, hay que preservar el examen pupilar, así que se prefiere mirar sin dilatar.' },
         ] },
       ],
     },
@@ -93,14 +119,15 @@ module.exports = {
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Retinopatía hipertensiva',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Los cuatro grados',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-13/01_retinopatia-hipertensiva__cto-oftalmo_p69.jpg', label: 'Retinopatía hipertensiva', credit: 'Manual CTO Oftalmología 14.ª ed., p. 69' },
+        { src: 'animaciones/oftal-13/A1_keith_wagener.mp4', label: 'Keith-Wagener-Barker', credit: 'Fondo de ojo: Servier Medical Art, CC BY 4.0 · capas y rótulos propios' },
       ],
       steps: [
-        { note: 'Vasos estrechos y cruces',
-          say: 'La hipertensión estrecha las arterias y produce cruces arteriovenosos. Con edema de papila, es una emergencia.' },
+        { note: 'En el fondo de ojo',
+          say: 'Los cuatro grados de Keith-Wagener-Barker en el fondo de ojo. En el grado uno, las arteriolas se estrechan, con el reflejo en hilo de cobre. En el grado dos aparecen los cruces arteriovenosos patológicos: Gunn y Salus. El grado tres suma hemorragias, exudados algodonosos y la estrella macular. Y el grado cuatro agrega el edema de papila bilateral: emergencia hipertensiva, con descenso gradual de la presión.' },
       ],
     },
 
@@ -193,6 +220,44 @@ module.exports = {
         options: 'Las opciones: nifedipino sublingual para bajar la presión en quince minutos, hospitalizar en UCI con labetalol endovenoso bajando la presión arterial media entre un veinte y un veinticinco por ciento en las primeras horas, enalapril oral y enviarlo a la casa, punción lumbar antes de tratar la presión, o diuréticos de asa orales con analgesia. Piénsalo.',
         answer: 'Es la B. El edema de papila bilateral confirma el grado cuatro: es una emergencia hipertensiva maligna, y va directo a cuidados intensivos con fármacos endovenosos titulables. La trampa es la A: el nifedipino sublingual suena razonable con la presión tan alta, pero bajarla en quince minutos es justo lo que no debes hacer, porque colapsa la autorregulación cerebral y ocular. Enviarlo a la casa o pedir una punción lumbar antes de tratar la presión también retrasan una urgencia vital.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.3.005 · Hipertensión arterial",
+      "stem": "Hombre de 66 años, hipertenso con mal control, consulta por visión borrosa súbita e indolora en el ojo derecho desde ayer. Al fondo de ojo se observan hemorragias en llama y exudados algodonosos limitados al cuadrante temporal superior, distales a un cruce arteriovenoso, con la vena de ese sector dilatada y tortuosa. Papila sin edema.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Retinopatía hipertensiva grado IV"
+        },
+        {
+          "letter": "B",
+          "text": "Oclusión de la arteria central de la retina"
+        },
+        {
+          "letter": "C",
+          "text": "Retinopatía diabética proliferativa"
+        },
+        {
+          "letter": "D",
+          "text": "Oclusión de rama venosa retiniana"
+        },
+        {
+          "letter": "E",
+          "text": "Desprendimiento de retina regmatógeno"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Hemorragias en llama sectoriales, limitadas al territorio drenado por una vena, distales a un cruce arteriovenoso, son una oclusión de rama venosa. La hipertensión arterial es su principal factor de riesgo: la arteriola esclerosada comprime la vena en el cruce. La retinopatía hipertensiva es bilateral y difusa, y el grado IV exige edema de papila.",
+      "say": {
+        "stem": "Hombre de sesenta y seis años, hipertenso mal controlado, con visión borrosa súbita e indolora del ojo derecho desde ayer. En el fondo de ojo hay hemorragias en llama y exudados algodonosos solo en el cuadrante temporal superior, después de un cruce arteriovenoso, con la vena de ese sector dilatada. No hay edema de papila.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: retinopatía hipertensiva grado cuatro, oclusión de la arteria central, retinopatía diabética proliferativa, oclusión de rama venosa o desprendimiento de retina. Piénsalo.",
+        "answer": "Es la D. Hemorragias en un solo sector, justo después de un cruce arteriovenoso, son una oclusión de rama venosa, y la hipertensión es su gran factor de riesgo. La retinopatía hipertensiva tienta, pero afecta ambos ojos en forma difusa, y el grado cuatro necesita edema de papila, que aquí no hay."
+      }
     },
 
     {

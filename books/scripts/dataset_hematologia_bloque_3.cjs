@@ -45,7 +45,14 @@ const bloque3 = [
           'El Tiempo de Tromboplastina Parcial Activada (TTPK o TTPA, valor normal: 25 a 35 segundos; se considera alterado si supera en más de 6 a 8 segundos al testigo o razón TTPK paciente/control > 1.25) evalúa la Vía Intrínseca y la Vía Común (Factores XII, XI, IX, VIII, X, V, II y Fibrinógeno). Es el examen de elección para monitorizar la anticoagulación con Heparina No Fraccionada (rango meta: TTPK 1.5 a 2.5 veces el valor control) y para tamizar las coagulopatías congénitas clásicas (Hemofilia A por déficit de FVIII, Hemofilia B por déficit de FIX y enfermedad de von Willebrand grave).',
           'Ante un TTPK prolongado aislado, la conducta obligada de laboratorio es la "Prueba de Mezcla" o Test de Corrección con Plasma Normal (mezcla 1:1 de plasma del paciente con plasma normal agrupado): 1) Si el TTPK se CORRIGE y se normaliza inmediatamente, el paciente presenta un DÉFICIT DE FACTOR (FVIII, FIX, FXI), el cual se compensa al aportar plasma sano; 2) Si el TTPK NO CORRIGE (persiste prolongado), el paciente posee un INHIBIDOR CIRCULANTE (como el Anticoagulante Lúpico o anticuerpos neutralizantes adquiridos contra el factor VIII).'
         ]
-      }
+      },
+      {
+        subhead: "4. Estudio de trombopatías: pruebas de función plaquetaria",
+        paragraphs: [
+          "Se sospecha una <b>trombopatía</b> (disfunción plaquetaria) ante <b>sangrado mucocutáneo</b> (epistaxis, gingivorragia, menorragia, equimosis, sangrado tras extracción dentaria) con <b>recuento plaquetario, TP y TTPK normales</b>. Primero se descartan las causas adquiridas frecuentes: <b>AAS, AINE, clopidogrel o ticagrelor, ISRS</b>, uremia, hepatopatía y paraproteinemias. El tiempo de sangría es poco reproducible y está en desuso; el estudio se hace con el <b>analizador de función plaquetaria (PFA-100: tiempo de cierre prolongado)</b> y la <b>agregometría plaquetaria</b> con ADP, colágeno, epinefrina, ácido araquidónico y <b>ristocetina</b>.",
+          "<b>Interpretación:</b> ristocetina disminuida con los demás agonistas normales orienta a <b>enfermedad de von Willebrand</b> (se confirma con vWF:Ag, vWF:RCo y factor VIII) o a <b>síndrome de Bernard-Soulier</b> (plaquetas gigantes y trombocitopenia; la ristocetina no corrige al agregar plasma normal); agregación disminuida con ADP, colágeno y epinefrina pero <b>ristocetina normal</b> orienta a <b>tromboastenia de Glanzmann</b> (déficit de GPIIb/IIIa, con recuento y morfología plaquetaria normales). Los defectos de gránulos y los efectos de fármacos dan patrones parciales. El médico general emplea estas pruebas para orientar y deriva a hematología para confirmar."
+        ]
+      },
     ],
     table: {
       title: 'Algoritmo Diagnóstico de Alteraciones en las Pruebas de Coagulación',

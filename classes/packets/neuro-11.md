@@ -384,14 +384,14 @@ Paciente en tratamiento anti hipertensivo + sd vertiginoso en tto con Cinarizina
 Explicación del banco: Diagnóstico: **Parkinson POR QUÉ NO PODÍA SER PÁRKINSON ? Porque describía un temblor bilateral simétrico, Parkinson inicia como unilateral y no simétrico** (opción **A**). El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).
 
 ### [4] EUNACOM Diciembre 2025 · Pregunta 99 · confianza 0.8
-Un paciente de 62 años, con antecedente de hipertensión arterial en tratamiento con doxazosina, hiperplasia prostá8ca benigna en tratamiento con tamsulosina y trastorno afec8vo bipolar en tratamiento con carbonato de li8o, consulta por temblor de manos mayor a derecha que aparece con el reposo y se asocia a len8tud en los movimientos. El cuadro inició hace 4 meses. Se miden los niveles plasmá8cos de los fármacos que u8liza, los que son informados dentro de rango terapéu8co. ¿Cuál es la conducta más adecuada?
+Un paciente de 62 años, con antecedente de hipertensión arterial en tratamiento con doxazosina, hiperplasia prostática benigna en tratamiento con tamsulosina y trastorno afectivo bipolar en tratamiento con carbonato de litio, consulta por temblor de manos mayor a derecha que aparece con el reposo y se asocia a lentitud en los movimientos. El cuadro inició hace 4 meses. Se miden los niveles plasmáticos de los fármacos que utiliza, los que son informados dentro de rango terapéutico. ¿Cuál es la conducta más adecuada?
 - A) Suspender la doxazosina
 - B) Disminuir la dosis de carbonato de li2o
 - C) Suspender la tamsulosina
 - D) Realizar prueba con levodopa
 - E) Iniciar propranolol vía oral
 **Correcta: D**
-Explicación del banco: La bradicinesia (lentitud de movimientos) más temblor obliga a pensar en enfermedad de Parkinson, cuyo diagnóstico es clínico, pudiendo hacer una prueba con levodopa para ver si mejoran los síntomas. La intoxicación por liGo sí puede producir temblor, pero suele ser aguda y, además, explícitamente se reportan niveles dentro de rango terapéutico.
+Explicación del banco: La bradicinesia (lentitud de movimientos) más temblor obliga a pensar en enfermedad de Parkinson, cuyo diagnóstico es clínico, pudiendo hacer una prueba con levodopa para ver si mejoran los síntomas. La intoxicación por litio sí puede producir temblor, pero suele ser aguda y, además, explícitamente se reportan niveles dentro de rango terapéutico.
 
 ### [5] EUNACOM Diciembre 2018 · Pregunta 149 · confianza 0.97
 Un paciente de 48 años, con antecedente de hipermetropía, consulta por dolor en el ojo izquierdo, muy intenso, irradiado a la frente. Al examen físico, se aprecia eritema periquerático del ojo izquierdo, con pupila midriática arreactiva y se aprecia opacidad corneal. El ojo derecho tiene visión 20/20, mientras que el ojo izquierdo tiene visión borrosa, que solo es capaz de contar dedos. El diagnóstico más probable es:
@@ -444,14 +444,14 @@ Un paciente de 26 años, estudiante universitario con regular rendimiento, es tr
 Explicación del banco: Diagnóstico: **Esquizofrenia hebefrénica** (opción **D**). La risa sin motivo orienta a Hebefrenia. El cuadro clínico es sugerente de EQZ.. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).
 
 ### [10] EUNACOM Diciembre 2025 · Pregunta 143 · confianza 0.95
-¿A qué concepto corresponde la siguiente deﬁnición: “Conjunto de medidas des8nadas a evitar que una enfermedad ocurra, actuando antes de que exista la enfermedad o el daño causado por esta”?
+¿A qué concepto corresponde la siguiente definición: “Conjunto de medidas destinadas a evitar que una enfermedad ocurra, actuando antes de que exista la enfermedad o el daño causado por esta”?
 - A) Prevención primaria
 - B) Prevención secundaria
 - C) Prevención terciaria
 - D) Prevención cuaternaria
 - E) Promoción de la salud
 **Correcta: A**
-Explicación del banco: Prevención primaria actúa antes de que exista la enfermedad (ej. vacunas con papiloma). Prevención secundaria actúa cuando ya existe la enfermedad, pero todavía no hay síntomas, permiGendo un diagnóstico oportuno (ej. PAP). Prevención terciaria actúa cuando la enfermedad ya Gene síntomas, para recuperar la salud y evitar complicaciones y recidivas (ej. histerectomía radical). Prevención cuaternaria enfrenta los síntomas, en ausencia de una patología orgánica (ej. psicoterapia de trastorno somatomorfo). Promoción de la salud consiste en enseñar hábitos de vida saludables, por lo que se enmarca dentro de la prevención primaria, pero su deﬁnición es especíﬁca.
+Explicación del banco: Prevención primaria actúa antes de que exista la enfermedad (ej. vacunas con papiloma). Prevención secundaria actúa cuando ya existe la enfermedad, pero todavía no hay síntomas, permitiendo un diagnóstico oportuno (ej. PAP). Prevención terciaria actúa cuando la enfermedad ya Gene síntomas, para recuperar la salud y evitar complicaciones y recidivas (ej. histerectomía radical). Prevención cuaternaria enfrenta los síntomas, en ausencia de una patología orgánica (ej. psicoterapia de trastorno somatomorfo). Promoción de la salud consiste en enseñar hábitos de vida saludables, por lo que se enmarca dentro de la prevención primaria, pero su definición es específica.
 
 ### [11] EUNACOM Julio 2024 · Pregunta 127 · confianza 0.95
 Un paciente de 32 años consulta por la idea recurrente de que debe limpiar sus utensilios de alimentación para evitar adquirir una infección intestinal. Refiere que se cepilla los dientes durante 15 minutos y luego se enjuaga la boca por 10 minutos más. Reconoce que a veces quiere dejar de hacerlo, pero no puede evitarlo. Como antecedente, sufrió de leucemia aguda a los 7 años, siendo manejado con quimioterapia y logrando la curación de la enfermedad. ¿Cuál es el diagnóstico más probable?

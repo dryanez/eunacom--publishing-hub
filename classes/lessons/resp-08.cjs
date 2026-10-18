@@ -57,7 +57,8 @@ module.exports = {
           { t: 'Auscultación casi normal', d: 'El paciente se ve bien',
             say: 'Y ahora la clave. Al examen, el paciente está en buen estado general y la auscultación es pobre, casi normal.' },
           { t: 'Rx con infiltrados intersticiales', d: 'Bilaterales, reticulonodulares',
-            say: 'Pero la radiografía muestra infiltrados intersticiales o reticulonodulares bilaterales y difusos, mucho más de lo que esperabas. Esa diferencia entre un examen pobre y una radiografía llamativa es la disociación clínico-radiológica, y es la pista más preguntada de la neumonía atípica.' },
+            say: 'Pero la radiografía muestra infiltrados intersticiales o reticulonodulares bilaterales y difusos, mucho más de lo que esperabas. Esa diferencia entre un examen pobre y una radiografía llamativa es la disociación clínico-radiológica, y es la pista más preguntada de la neumonía atípica. Mira esta radiografía de un Mycoplasma: infiltrado perihiliar bilateral, mucho más llamativo que el examen físico.',
+            photo: { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_2__cto-infecto_p56.jpg', label: 'Mycoplasma', at: 'Mira esta radiografía de un Mycoplasma', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' } },
         ] },
       ],
     },
@@ -123,7 +124,8 @@ module.exports = {
         ] },
         { title: 'Dónde', tag: 'Gravedad', kind: 'key', items: [
           { t: 'Segmento apical del LID', d: 'O posterior del lóbulo superior',
-            say: 'La ubicación sigue a la gravedad. En el paciente en decúbito supino, el material cae al segmento apical del lóbulo inferior derecho o al segmento posterior del lóbulo superior. Son los segmentos declives, sobre todo derechos.' },
+            say: 'La ubicación sigue a la gravedad. En el paciente en decúbito supino, el material cae al segmento apical del lóbulo inferior derecho o al segmento posterior del lóbulo superior. Son los segmentos declives, sobre todo derechos. Mira esta radiografía: la consolidación en el lóbulo inferior derecho de un paciente que aspiró.',
+            photo: { src: 'biblioteca/02_neumologia/resp-08/01_rx_neumonia_aspirativa_lid__commons.jpg', label: 'Neumonía aspirativa', at: 'Mira esta radiografía', credit: 'Wikimedia Commons «Aspiration pneumonia201711-3264.jpg», CC BY-SA 4.0, melvil' } },
         ] },
         { title: 'Tratamiento', tag: 'Cubrir anaerobios', kind: 'pharma', items: [
           { t: 'Ampicilina/sulbactam 1,5–3 g c/6 h EV', d: 'O amoxicilina/clavulánico',
@@ -143,7 +145,8 @@ module.exports = {
         ] },
         { title: 'Gérmenes', tag: 'Del hospital', kind: 'alert', items: [
           { t: 'Pseudomonas, Klebsiella BLEE', d: 'Acinetobacter',
-            say: 'El cambio importante es el germen. Ya no es el neumococo de la comunidad, sino bacilos gramnegativos del hospital: Pseudomonas aeruginosa, Klebsiella pneumoniae productora de betalactamasas de espectro extendido, y Acinetobacter.' },
+            say: 'El cambio importante es el germen. Ya no es el neumococo de la comunidad, sino bacilos gramnegativos del hospital: Pseudomonas aeruginosa, Klebsiella pneumoniae productora de betalactamasas de espectro extendido, y Acinetobacter. Mira esta radiografía: así se ve una neumonía por Klebsiella, con consolidación del lóbulo superior derecho.',
+            photo: { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_4__cto-infecto_p56.jpg', label: 'Klebsiella: lóbulo superior', at: 'Mira esta radiografía: así se ve', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' } },
           { t: 'Staphylococcus aureus resistente', d: 'SAMR',
             say: 'Y Staphylococcus aureus resistente a meticilina.' },
         ] },
@@ -152,6 +155,57 @@ module.exports = {
             say: 'Por eso el esquema empírico necesita un betalactámico antipseudomónico: piperacilina con tazobactam, cuatro coma cinco gramos cada seis horas, o cefepime, dos gramos cada ocho horas, endovenosos, después de tomar los cultivos.' },
           { t: '+ vancomicina si sospecha de SAMR', d: 'Previa toma de cultivos',
             say: 'Y se suma vancomicina si se sospecha estafilococo resistente. La trampa del examen es tratar una neumonía intrahospitalaria con el esquema de la comunidad, como ceftriaxona o amoxicilina.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Gram de expectoración',
+      title: 'Orientar el tratamiento mientras llega el cultivo',
+      cards: [
+        { title: 'Qué sugiere cada forma', tag: 'Si la muestra es buena', kind: 'key', items: [
+          { t: 'Diplococos grampositivos lanceolados', d: 'Neumococo',
+            say: 'La tinción de Gram orienta el tratamiento mientras llega el cultivo. Diplococos grampositivos lanceolados: neumococo.' },
+          { t: 'Cocos grampositivos en racimos', d: 'Estafilococo; SAMR si es grave',
+            say: 'Cocos grampositivos en racimos: estafilococo, y se piensa en el resistente a meticilina si el cuadro es grave.' },
+          { t: 'Bacilos gramnegativos', d: 'Klebsiella, Pseudomonas, Haemophilus',
+            say: 'Bacilos gramnegativos: Klebsiella, Pseudomonas, Haemophilus o enterobacterias.' },
+        ] },
+        { title: 'Límites', tag: 'Lo que se pregunta', kind: 'alert', items: [
+          { t: '> 25 leucocitos, < 10 epiteliales', d: 'Si no, es saliva',
+            say: 'Solo se interpreta si la muestra es de calidad: más de veinticinco leucocitos y menos de diez células epiteliales por campo. Una flora polimicrobiana abundante con mala muestra es saliva.' },
+          { t: 'Los atípicos no se ven', d: 'Sin pared de peptidoglicano',
+            say: 'Y los atípicos, Mycoplasma y Chlamydia, no se ven con Gram porque no tienen pared de peptidoglicano. Es especialmente útil en la neumonía intrahospitalaria y en el empiema, con el Gram del líquido pleural.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Supuración pulmonar',
+      title: 'Cuando la aspirativa necrosa el pulmón',
+      cards: [
+        { title: 'Tres formas', tag: 'Del parénquima a la pleura', kind: 'key', items: [
+          { t: 'Neumonía necrotizante', d: 'Varias cavitaciones < 2 cm',
+            say: 'La supuración pulmonar es el proceso necrótico del parénquima que forma pus. Tiene tres formas. La neumonía necrotizante, con varias cavitaciones pequeñas, de menos de dos centímetros.' },
+          { t: 'Absceso pulmonar', d: 'Cavidad única > 2 cm con nivel hidroaéreo',
+            say: 'El absceso, una cavidad única de más de dos centímetros con nivel hidroaéreo. Ojo con esta radiografía: una cavidad en el pulmón derecho que no es un absceso sino tuberculosis. Toda cavidad obliga a pensar también en tuberculosis.',
+            photo: { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_3__cto-infecto_p56.jpg', label: 'Tuberculosis cavitada', at: 'Ojo con esta radiografía', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' } },
+          { t: 'Empiema', d: 'Extensión a la pleura',
+            say: 'Y el empiema, cuando el pus llega a la pleura.' },
+        ] },
+        { title: 'Causa y clínica', tag: 'Aspiración con anaerobios', kind: 'criteria', items: [
+          { t: 'Mala higiene dental, alcohol, conciencia alterada', d: 'Anaerobios orales; menos S. aureus o Klebsiella',
+            say: 'La causa habitual es la aspiración de anaerobios orales en pacientes con mala higiene dental, alcoholismo o alteración de conciencia. Menos veces, Staphylococcus aureus, Klebsiella o un infarto pulmonar infectado.' },
+          { t: 'Fiebre, flema fétida, vómica, baja de peso', d: 'Cuadro lento',
+            say: 'Clínicamente: fiebre, tos con expectoración fétida, vómica y baja de peso.' },
+        ] },
+        { title: 'Conducta', tag: 'Sospecha y derivación', kind: 'pharma', items: [
+          { t: 'Ampicilina-sulbactam o clindamicina', d: 'Más TAC de tórax',
+            say: 'Se inicia ampicilina con sulbactam o clindamicina, y se pide una TAC de tórax.' },
+          { t: 'Derivar si no responde en 7–10 días o hay empiema', d: 'Fibrobroncoscopia: descartar cáncer; drenaje',
+            say: 'Se deriva para fibrobroncoscopia, para descartar un cáncer obstructivo, o para drenaje, si no responde en siete a diez días o si hay empiema. Y de aquí partimos en la próxima clase.' },
         ] },
       ],
     },
@@ -167,40 +221,6 @@ module.exports = {
       steps: [
         { note: 'Cae al lóbulo inferior derecho',
           say: 'Lo aspirado baja por la tráquea, toma el bronquio derecho y cae por gravedad a los segmentos más bajos. Por eso la neumonía aspirativa aparece en el lóbulo inferior derecho.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Neumonías que no son del neumococo',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-08/01_rx_neumonia_aspirativa_lid__commons.jpg', label: 'Neumonía aspirativa', credit: 'Wikimedia Commons «Aspiration pneumonia201711-3264.jpg», CC BY-SA 4.0, melvil' },
-        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_2__cto-infecto_p56.jpg', label: 'Mycoplasma: infiltrado perihiliar bilateral', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
-      ],
-      steps: [
-        { note: 'Lóbulo inferior derecho',
-          say: 'Esta es una neumonía aspirativa en el lóbulo inferior derecho. El bronquio derecho es más vertical, por eso lo aspirado cae ahí. Piensa en el alcohólico, el paciente con convulsiones o con trastorno de deglución.' },
-        { note: 'El infiltrado de los atípicos',
-          say: 'Y este es un Mycoplasma: infiltrados tenues alrededor de los dos hilios, el infiltrado intersticial de los atípicos. No se trata el germen por la imagen, pero un joven con un cuadro arrastrado y esta radiografía orienta a un atípico, y se trata con macrólidos.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_3__cto-infecto_p56.jpg', label: 'Tuberculosis: cavidad derecha y nódulos miliares izquierdos', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
-        { src: 'biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_4__cto-infecto_p56.jpg', label: 'Klebsiella pneumoniae: consolidación del lóbulo superior derecho', credit: 'Manual CTO Infecciosas 14.ª ed., p. 56' },
-      ],
-      steps: [
-        { note: 'Cavidad y nódulos pequeños',
-          say: 'Radiografía con una cavidad en el pulmón derecho y muchos nódulos pequeños en el izquierdo. En el manual de origen corresponde a una tuberculosis.' },
-        { note: 'Consolidación del lóbulo superior derecho',
-          say: 'Radiografía con una consolidación densa del lóbulo superior derecho. En el manual de origen corresponde a una Klebsiella pneumoniae.' },
       ],
     },
 
@@ -339,6 +359,44 @@ module.exports = {
         options: 'Las opciones: NAC atípica con eritromicina, neumonía intrahospitalaria con hemocultivos y piperacilina con tazobactam, embolia grasa, bronquitis viral, o edema pulmonar con amoxicilina. Piénsalo.',
         answer: 'Es la B. El dato que decide es el día: al quinto día de hospitalización ya pasaron las cuarenta y ocho horas, así que es una neumonía intrahospitalaria, con gérmenes del hospital. Se toman cultivos y se parte con un antipseudomónico. La A es la trampa, porque trata al paciente como si hubiera llegado de la comunidad.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 135",
+      "stem": "En el examen microscópico de una muestra de esputo se observan cocos grampositivos agrupados en racimos.",
+      "question": "¿A qué bacteria corresponde este patrón morfológico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Staphylococcus aureus"
+        },
+        {
+          "letter": "B",
+          "text": "Streptococcus pneumoniae"
+        },
+        {
+          "letter": "C",
+          "text": "Enterococcus faecalis"
+        },
+        {
+          "letter": "D",
+          "text": "Listeria monocytogenes"
+        },
+        {
+          "letter": "E",
+          "text": "Neisseria meningitidis"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Los cocos grampositivos en racimos corresponden a estafilococos, como S. aureus, causa de neumonía post influenza, nosocomial y necrotizante. S. pneumoniae se ve como diplococos grampositivos lanceolados, Enterococcus en pares o cadenas cortas, Listeria como bacilos grampositivos y Neisseria como diplococos gramnegativos.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. En el Gram de una muestra de esputo se observan cocos grampositivos agrupados en racimos.",
+        "question": "¿A qué bacteria corresponde este patrón?",
+        "options": "Las opciones: Staphylococcus aureus, Streptococcus pneumoniae, Enterococcus faecalis, Listeria o Neisseria meningitidis. Piénsalo.",
+        "answer": "Es la A. Los cocos grampositivos en racimos son estafilococos. El neumococo tienta por ser el clásico de neumonía, pero se ve como diplococos lanceolados, no en racimos."
+      }
     },
 
     {

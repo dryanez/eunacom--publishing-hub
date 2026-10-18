@@ -20,7 +20,11 @@ module.exports = {
       cards: [
         { title: 'Pólipo y adenomiosis', tag: 'Estructural', kind: 'criteria', items: [
           { t: 'Pólipo endometrial', d: 'La causa estructural más frecuente de sangrado intermenstrual',
-            say: 'La FIGO ordena las causas del sangrado uterino anormal en dos grupos, y el primero, PALM, son las estructurales. Empezamos por el pólipo endometrial, la causa estructural más frecuente de sangrado entre reglas y en la perimenopausia.' },
+            say: 'La FIGO ordena las causas del sangrado uterino anormal en dos grupos, y el primero, PALM, son las estructurales. Empezamos por el pólipo endometrial, la causa estructural más frecuente de sangrado entre reglas y en la perimenopausia. Mira este esquema con las nueve letras, y en esta ecografía transvaginal, las flechas señalan los pólipos dentro de la cavidad.',
+            photos: [
+              { src: 'biblioteca/13_ginecologia/gin-03/S1_palm-coein__propio.svg', label: 'Clasificación PALM-COEIN', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' },
+              { src: 'biblioteca/13_ginecologia/gin-03/02_polipo-endometrial-eco__us-obgyn_p245.jpg', label: 'Pólipos endometriales (eco)', at: 'en esta ecografía transvaginal', credit: 'Ultrasound in Obstetrics and Gynecology: A Practical Approach, p. 245' },
+            ] },
           { t: 'Adenomiosis', d: 'Útero globuloso y doloroso, dismenorrea severa',
             say: 'Y la adenomiosis, glándulas endometriales dentro del miometrio, que da un útero aumentado, globuloso y doloroso, con dismenorrea secundaria intensa.' },
         ] },
@@ -83,6 +87,26 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Malignidad e hiperplasia',
+      title: 'Hiperplasia endometrial: la atipia decide',
+      cards: [
+        { title: 'Qué es', tag: 'Estrógeno sin oposición', kind: 'key', items: [
+          { t: 'Proliferación glandular sin progesterona', d: 'Anovulación, SOP, obesidad, TRH sin progestágeno, tamoxifeno',
+            say: 'La hiperplasia endometrial es la proliferación glandular por estrógenos sin oposición de progesterona. La ves en la anovulación crónica y el ovario poliquístico, en la obesidad, con terapia de reemplazo sin progestágeno, con tamoxifeno y con los tumores de la granulosa. Se manifiesta como sangrado uterino anormal y se diagnostica con biopsia de Pipelle o histeroscopía.' },
+        ] },
+        { title: 'Sin atipia', tag: 'Bajo riesgo de cáncer', kind: 'normal', items: [
+          { t: 'Menos de 5 % a veinte años', d: 'Progestágenos y nueva biopsia a los 3-6 meses',
+            say: 'Sin atipia, sea simple o compleja, el riesgo de cáncer es bajo, menos de cinco por ciento a veinte años. Se trata con progestágenos: el DIU de levonorgestrel de cincuenta y dos miligramos es la primera elección, o medroxiprogesterona oral, diez miligramos al día, doce a catorce días al mes. Se controla con una nueva biopsia a los tres a seis meses, y se corrige la obesidad.' },
+        ] },
+        { title: 'Con atipia', tag: 'Neoplasia intraepitelial', kind: 'alert', items: [
+          { t: 'Hasta 25-40 % tiene un cáncer concomitante', d: 'Histerectomía total si la paridad está cumplida',
+            say: 'Con atipia es otra historia: entre un veinticinco y un cuarenta por ciento ya tiene un adenocarcinoma concomitante. Con paridad cumplida, la conducta es la histerectomía total, con o sin salpingooforectomía. Si desea fertilidad, progestágenos en dosis altas con biopsias seriadas, derivando a ginecología oncológica. Y los pólipos se resecan con polipectomía histeroscópica.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Urgencia',
       title: 'Hemorragia uterina aguda severa',
@@ -109,6 +133,37 @@ module.exports = {
           say: 'Junto con eso se agrega ácido tranexámico, que potencia el efecto hemostático de las hormonas.' },
         { show: ['no', 'legr'], note: 'La última línea si nada de esto funciona',
           say: 'Si con todo esto el sangrado no cede, o la paciente sigue inestable, el paso siguiente es el legrado uterino hemostático de urgencia, o un taponamiento con sonda Foley intrauterina mientras se logra estabilizar.' },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Urgencia',
+      title: 'Cervicorragia: el sangrado que viene del cuello',
+      nodes: [
+        { id: 'sos', col: 0, row: 2, k: 'start', t: 'Sangrado poscoito o intermenstrual', s: 'O postmenopáusico, con flujo fétido' },
+        { id: 'esp', col: 1, row: 2, k: 'q', t: 'Especuloscopia', s: 'Cuello friable, ulcerado o exofítico' },
+        { id: 'est', col: 2, row: 1, k: 'mech', t: 'Estabilizar', s: 'Dos vías, volumen, pruebas cruzadas' },
+        { id: 'tap', col: 2, row: 3, k: 'mech', t: 'Taponaje y ácido tranexámico', s: 'Gasas compresivas o sonda Foley' },
+        { id: 'der', col: 3, row: 2, k: 'good', t: 'Derivación urgente', s: 'Oncología ginecológica; se activa el GES' },
+        { id: 'leg', col: 3, row: 4, k: 'trap', t: 'No legres', s: 'El origen no es endometrial' },
+      ],
+      edges: [
+        { from: 'sos', to: 'esp' }, { from: 'esp', to: 'est' }, { from: 'esp', to: 'tap' },
+        { from: 'est', to: 'der' }, { from: 'tap', to: 'der' }, { from: 'esp', to: 'leg' },
+      ],
+      steps: [
+        { show: ['sos', 'esp'], note: 'Sospecha cáncer cervicouterino',
+          say: 'No todo sangrado viene del endometrio. Ante un sangrado poscoito, intermenstrual o postmenopáusico, con flujo fétido, piensa en cáncer cervicouterino. Y el diagnóstico de sospecha se hace mirando: mira este cuello en la especuloscopia, ulcerado, friable y exofítico, que sangra al roce.',
+          photo: { src: 'biblioteca/13_ginecologia/gin-03/03_cancer-cervicouterino-especuloscopia__knoop_p276.jpg', label: 'Cáncer cervicouterino', at: 'mira este cuello en la especuloscopia', credit: 'The Atlas of Emergency Medicine (Knoop), p. 276' } },
+        { show: ['est'], note: 'Puede llegar al shock hipovolémico',
+          say: 'Una cervicorragia abundante puede producir shock hipovolémico. Por eso lo primero es estabilizar: dos vías venosas, reposición de volumen, hemograma y pruebas cruzadas.' },
+        { show: ['tap'], note: 'Compresión local',
+          say: 'Luego el taponaje vaginal compresivo, con gasas embebidas en ácido tranexámico o povidona, o con una sonda Foley, y ácido tranexámico endovenoso.' },
+        { show: ['der'], note: 'Biopsia dirigida cuando esté estable',
+          say: 'Se deriva de inmediato a oncología ginecológica, que cuenta con radioterapia hemostática, embolización o cirugía. La biopsia del cuello se toma una vez que la paciente esté estable, y con la sospecha se activa el GES.' },
+        { show: ['leg'], note: 'La trampa clásica',
+          say: 'Y la trampa: evitar el legrado uterino. Aquí el origen es el cuello, no el endometrio, y el legrado solo te hace perder tiempo.' },
       ],
     },
 
@@ -150,15 +205,15 @@ module.exports = {
 
     {
       type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Clasificación PALM-COEIN',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Con y sin ovulación',
       images: [
-        { src: 'biblioteca/13_ginecologia/gin-03/S1_palm-coein__propio.svg', label: 'PALM-COEIN', credit: 'Dibujo propio (esquema)' },
+        { src: 'animaciones/gin-03/A1_estrogeno_sin_oposicion.mp4', label: 'Estrógeno sin oposición', credit: 'Gráfico esquemático propio' },
       ],
       steps: [
-        { note: 'Estructurales y no estructurales',
-          say: 'PALM agrupa las causas estructurales, que se ven en la ecografía o la biopsia: pólipo, adenomiosis, leiomioma y malignidad. COEIN, las no estructurales: coagulopatía, ovulatoria, endometrial, iatrogénica y no clasificada.' },
+        { note: 'Sin progesterona, el endometrio crece',
+          say: 'Compara los dos gráficos. En el ciclo ovulatorio, la progesterona del cuerpo lúteo transforma el endometrio, y al caer las hormonas llega la regla. En la anovulación crónica no hay progesterona: el estradiol sigue estimulando, el endometrio crece sin freno y sangra de forma irregular. Por eso, desde los cuarenta y cinco años, con postmenopausia, o con factores de riesgo, antes de tratar se biopsia.' },
       ],
     },
 
@@ -330,6 +385,44 @@ module.exports = {
         options: 'Las opciones: estabilizar más histerectomía de urgencia, ácido tranexámico y observar, progestágenos en dosis alta, embolización electiva, o solo transfundir y dar de alta. Piénsalo.',
         answer: 'Es la A. Esta paciente ya no está en la fase de escalar tratamientos médicos: tiene hipotensión y taquicardia, signos de inestabilidad franca. La prioridad es estabilizar con volumen y transfusión, y el manejo definitivo es la histerectomía de urgencia. Observar, dar solo ácido tranexámico, o programar algo electivo, subestima la gravedad del cuadro.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.129 · Alteraciones menstruales",
+      "stem": "Una adolescente de 13 años tuvo su menarquia hace 10 meses. Desde entonces sus ciclos son irregulares, cada 25 a 50 días, con duración de 4 a 7 días y sangrado moderado. No tiene anemia, hirsutismo, acné importante ni galactorrea, y su IMC es normal.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar anticonceptivos orales para regular el ciclo"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar ecografía pélvica y perfil hormonal completo"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar estudio de coagulación"
+        },
+        {
+          "letter": "D",
+          "text": "Tranquilizar y controlar con calendario menstrual"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar progestágeno cíclico"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En los primeros 2 a 3 años tras la menarquia es frecuente la irregularidad menstrual por inmadurez del eje hipotálamo-hipófisis-ovario (ciclos anovulatorios). Se consideran normales ciclos de 21 a 45 días aproximadamente. Sin anemia, sangrado abundante ni signos de hiperandrogenismo, la conducta es educar, llevar calendario y controlar.",
+      "say": {
+        "stem": "Una adolescente de trece años, con menarquia hace diez meses, tiene ciclos irregulares de veinticinco a cincuenta días, sin anemia ni signos androgénicos.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: anticonceptivos, ecografía y perfil hormonal, coagulación, tranquilizar y calendario o progestágeno cíclico. Piénsalo.",
+        "answer": "Es la D. En los primeros años tras la menarquia la irregularidad es fisiológica por ciclos anovulatorios, así que se educa y controla. Los anticonceptivos tientan para regular el ciclo, pero no están indicados en una irregularidad fisiológica."
+      }
     },
 
     {

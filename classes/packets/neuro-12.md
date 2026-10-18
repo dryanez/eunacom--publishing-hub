@@ -238,14 +238,14 @@ Paciente en tratamiento anti hipertensivo + sd vertiginoso en tto con Cinarizina
 Explicación del banco: Diagnóstico: **Parkinson POR QUÉ NO PODÍA SER PÁRKINSON ? Porque describía un temblor bilateral simétrico, Parkinson inicia como unilateral y no simétrico** (opción **A**). El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).
 
 ### [4] EUNACOM Diciembre 2025 · Pregunta 99 · confianza 0.8
-Un paciente de 62 años, con antecedente de hipertensión arterial en tratamiento con doxazosina, hiperplasia prostá8ca benigna en tratamiento con tamsulosina y trastorno afec8vo bipolar en tratamiento con carbonato de li8o, consulta por temblor de manos mayor a derecha que aparece con el reposo y se asocia a len8tud en los movimientos. El cuadro inició hace 4 meses. Se miden los niveles plasmá8cos de los fármacos que u8liza, los que son informados dentro de rango terapéu8co. ¿Cuál es la conducta más adecuada?
+Un paciente de 62 años, con antecedente de hipertensión arterial en tratamiento con doxazosina, hiperplasia prostática benigna en tratamiento con tamsulosina y trastorno afectivo bipolar en tratamiento con carbonato de litio, consulta por temblor de manos mayor a derecha que aparece con el reposo y se asocia a lentitud en los movimientos. El cuadro inició hace 4 meses. Se miden los niveles plasmáticos de los fármacos que utiliza, los que son informados dentro de rango terapéutico. ¿Cuál es la conducta más adecuada?
 - A) Suspender la doxazosina
 - B) Disminuir la dosis de carbonato de li2o
 - C) Suspender la tamsulosina
 - D) Realizar prueba con levodopa
 - E) Iniciar propranolol vía oral
 **Correcta: D**
-Explicación del banco: La bradicinesia (lentitud de movimientos) más temblor obliga a pensar en enfermedad de Parkinson, cuyo diagnóstico es clínico, pudiendo hacer una prueba con levodopa para ver si mejoran los síntomas. La intoxicación por liGo sí puede producir temblor, pero suele ser aguda y, además, explícitamente se reportan niveles dentro de rango terapéutico.
+Explicación del banco: La bradicinesia (lentitud de movimientos) más temblor obliga a pensar en enfermedad de Parkinson, cuyo diagnóstico es clínico, pudiendo hacer una prueba con levodopa para ver si mejoran los síntomas. La intoxicación por litio sí puede producir temblor, pero suele ser aguda y, además, explícitamente se reportan niveles dentro de rango terapéutico.
 
 ### [5] EUNACOM Julio 2025 · Pregunta 98 · confianza 0.9
 Hombre de 65 años con antecedente de enfermedad de Parkinson. Su pareja refiere que durante el sueño emite gritos, golpea y patea. El paciente no recuerda nada al despertar. ¿Cuál es el diagnóstico?
@@ -268,14 +268,14 @@ Un hombre de 45 años consulta por ánimo deprimido, anhedonia, alteraciones del
 Explicación del banco: Tratamiento de la Depresión: El tratamiento de elección para un episodio depresivo mayor unipolar son los antidepresivos ISRS, especialmente si el paciente ya ha respondido a este tipo de medicamento. Si no hay respuesta después de 4 semanas, se recomienda cambiar a un antidepresivo dual como venlafaxina o duloxetina.
 
 ### [7] EUNACOM Diciembre 2025 · Pregunta 24 · confianza 0.65
-Un paciente de 77 años con enfermedad de Alzheimer inicial, en tratamiento con donepezilo 10 mg durante el día y trazodona 50 mg por la noche, presenta dos semanas de agitación nocturna asociada a la idea de que le están robando. Esto ha generado conﬂictos con sus cuidadores y, además, no ha permi8do que lo bañen. Desde hace dos días presenta alucinaciones visuales. El resto de su examen Fsico es normal y su examen neurológico no 8ene signos focales. Además de realizar exámenes, en busca de un foco infeccioso, ¿qué fármaco es de elección para su manejo actual?
+Un paciente de 77 años con enfermedad de Alzheimer inicial, en tratamiento con donepezilo 10 mg durante el día y trazodona 50 mg por la noche, presenta dos semanas de agitación nocturna asociada a la idea de que le están robando. Esto ha generado conflictos con sus cuidadores y, además, no ha permitido que lo bañen. Desde hace dos días presenta alucinaciones visuales. El resto de su examen físico es normal y su examen neurológico no tiene signos focales. Además de realizar exámenes, en busca de un foco infeccioso, ¿qué fármaco es de elección para su manejo actual?
 - A) Diazepam
 - B) Haloperidol
 - C) Lorazepam
 - D) Risperidona
 - E) Amitrip2lina
 **Correcta: B**
-Explicación del banco: Pregunta difícil y discuGble. Claramente Gene un delirium y hay que darle un antipsicótico. El clásico que se ha usado siempre es el haloperidol, pero los antipsicóticos aVpicos, como la risperidona, cuentan con buena evidencia y seguridad. En Parkinson y demencia por cuerpos de Lewy, se contraindica el haloperidol e incluso la risperidona por el riesgo de síntomas extrapiramidales y la respuesta suele ser queGapina. En otras demencias, como la enfermedad de Alzheimer, es discuGble, pero muchas guías más modernas se inclinan más a los antipsicóticos aVpicos, como la risperidona (por eso la dejaremos como correcta), a menos que sea un cuadro de agitación muy severo, en que se sigue usando el haloperidol.
+Explicación del banco: Pregunta difícil y discutible. Claramente Gene un delirium y hay que darle un antipsicótico. El clásico que se ha usado siempre es el haloperidol, pero los antipsicóticos atípicos, como la risperidona, cuentan con buena evidencia y seguridad. En Parkinson y demencia por cuerpos de Lewy, se contraindica el haloperidol e incluso la risperidona por el riesgo de síntomas extrapiramidales y la respuesta suele ser quetiapina. En otras demencias, como la enfermedad de Alzheimer, es discutible, pero muchas guías más modernas se inclinan más a los antipsicóticos atípicos, como la risperidona (por eso la dejaremos como correcta), a menos que sea un cuadro de agitación muy severo, en que se sigue usando el haloperidol.
 
 ### [8] EUNACOM Enero 2023 · Pregunta 127 · confianza 0.65
 Adulta mayor con Parkinson hospitalizada por ITU, presenta desorientación e ideas deliriosas. ¿Cuál es el tratamiento más adecuado (además de tratar la ITU)?

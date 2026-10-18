@@ -63,6 +63,9 @@ module.exports = {
             say: 'La causa parietal que más se pregunta es la enfermedad celíaca: una enteropatía inmune gatillada por el gluten, que está en el trigo, la cebada y el centeno, y también en la avena, por contaminación o por la avenina.' },
           { t: 'A veces oligosintomática', d: 'Distensión, dispepsia, flatulencia',
             say: 'Y ojo, no siempre da una malabsorción florida. Muchas veces es oligosintomática: distensión, flatulencia o una dispepsia que parece funcional. O incluso nada digestivo, solo una anemia o una hipocalcemia aislada en un examen de rutina.' },
+          { t: 'Dermatitis herpetiforme', d: 'La celíaca de la piel',
+            say: 'También puede manifestarse en la piel. Mira esta dermatitis herpetiforme: pápulas y vesículas agrupadas y excoriadas, en los codos. Es la celíaca de la piel, y responde a la dieta sin gluten.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-09/01_dermatitis_herpetiforme__harrison_p413.jpg', label: 'Dermatitis herpetiforme', at: 'Mira esta dermatitis', credit: 'Harrison 21.ª ed., p. 413' } },
         ] },
         { title: 'La perla', tag: 'Se repite', kind: 'alert', items: [
           { t: 'Anemia ferropénica refractaria', d: 'Descartar celíaca, con o sin diarrea',
@@ -72,7 +75,8 @@ module.exports = {
           { t: 'Anti-transglutaminasa IgA', d: 'Más antiendomisio, con IgA total',
             say: 'El diagnóstico parte con anticuerpos anti transglutaminasa tisular IgA, más antiendomisio, y siempre junto con la IgA total. El déficit de IgA es más frecuente en celíacos, y da falsos negativos. Esa es la trampa.' },
           { t: 'Biopsia duodenal', d: 'Atrofia vellositaria, criptas, linfocitos',
-            say: 'Se confirma con biopsia duodenal: atrofia de las vellosidades, hiperplasia de criptas y linfocitosis intraepitelial.' },
+            say: 'Se confirma con biopsia duodenal: atrofia de las vellosidades, hiperplasia de criptas y linfocitosis intraepitelial. Mira esta biopsia: a la izquierda, la mucosa plana, sin vellosidades; a la derecha, vellosidades normales para comparar.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-09/02_atrofia_vellositaria__pathoma_p114.jpg', label: 'Atrofia vellositaria', at: 'Mira esta biopsia', credit: 'Pathoma, Fig. 10.18' } },
           { t: 'Sin suspender el gluten', d: 'Si no, falsos negativos',
             say: 'Y todo esto con el paciente comiendo gluten. Si lo sacas antes de estudiar, los anticuerpos y la biopsia se normalizan, y pierdes el diagnóstico.' },
         ] },
@@ -141,23 +145,6 @@ module.exports = {
       steps: [
         { note: 'Anti transglutaminasa con IgA total',
           say: 'El gluten del trigo, la cebada y el centeno daña el intestino delgado, y la vellosidad se aplana. Se pide anti transglutaminasa IgA con IgA total, y se confirma con biopsia del duodeno. El tratamiento es uno solo: dieta sin gluten, estricta y de por vida.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Celíaca: la piel y la biopsia',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-09/01_dermatitis_herpetiforme__harrison_p413.jpg', label: 'Dermatitis herpetiforme', credit: 'Harrison 21.ª ed., p. 413' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-09/02_atrofia_vellositaria__pathoma_p114.jpg', label: 'Atrofia vellositaria', credit: 'Pathoma, Fig. 10.18' },
-      ],
-      steps: [
-        { note: 'Vesículas agrupadas en codos',
-          say: 'Esto es una dermatitis herpetiforme: pápulas y vesículas agrupadas, excoriadas, en los codos. Es la celíaca de la piel, y responde a la dieta sin gluten.' },
-        { note: 'Vellosidades planas vs normales',
-          say: 'Y esta es la biopsia duodenal. A la izquierda, la mucosa plana, sin vellosidades; a la derecha, vellosidades normales para comparar. Esa atrofia es la que confirma la enfermedad.' },
       ],
     },
 
@@ -298,6 +285,194 @@ module.exports = {
         options: 'Las opciones: mantener la lactancia exclusiva, fórmula sin lactosa, fórmula de soya, fórmula extensamente hidrolizada, o lactasa oral con leche materna. Piénsalo.',
         answer: 'Es la C, fórmula de soya. Cataratas e ictericia en un recién nacido es galactosemia, y hay que sacar toda la galactosa. La B es la trampa exacta que vimos: la fórmula sin lactosa trae la lactosa ya partida en glucosa y galactosa, así que igual le das galactosa. Lo mismo pasa con la lactasa de la E.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 17",
+      "stem": "Mujer de 40 años consulta por deposiciones frecuentes y diarrea de 3 meses de evolución. Presenta urgencia defecatoria, especialmente tras ingerir alimentos ricos en grasa, y nota gotas de grasa flotando en el inodoro luego de defecar. Además refiere baja de peso no cuantificada. Su examen físico muestra signos vitales normales y un abdomen blando, depresible, sin signos peritoneales ni masas.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enfermedad celíaca"
+        },
+        {
+          "letter": "B",
+          "text": "Insuficiencia pancreática exocrina"
+        },
+        {
+          "letter": "C",
+          "text": "Sobrecrecimiento bacteriano"
+        },
+        {
+          "letter": "D",
+          "text": "Colitis ulcerosa"
+        },
+        {
+          "letter": "E",
+          "text": "Giardiasis"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Es un síndrome de malabsorción con esteatorrea franca, que empeora con las grasas: lo clásico de la insuficiencia pancreática exocrina, es decir, una maldigestión. La celíaca también da malabsorción, pero suele predominar la anemia ferropénica sin una esteatorrea tan marcada; la colitis ulcerosa da diarrea con sangre.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Mujer de cuarenta años con tres meses de diarrea y urgencia para defecar, sobre todo después de comidas grasas. Ve gotas de grasa flotando en el inodoro y ha bajado de peso. El examen es normal.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: enfermedad celíaca, insuficiencia pancreática exocrina, sobrecrecimiento bacteriano, colitis ulcerosa, o giardiasis. Piénsalo.",
+        "answer": "Es la B. Gotas de grasa en el inodoro que empeoran con las comidas grasas son esteatorrea franca, lo típico de la falta de enzimas pancreáticas. La celíaca es el distractor: también da malabsorción, pero su presentación más típica es la anemia por falta de hierro y no una esteatorrea tan evidente."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.1.023 · Intolerancia a la lactosa",
+      "stem": "Hombre de 24 años con distensión, meteorismo, dolor cólico y deposiciones líquidas que aparecen 1 a 2 horas después de tomar leche o comer helado. No tiene baja de peso, sangre en las deposiciones ni anemia. Los anticuerpos anti-transglutaminasa son negativos.",
+      "question": "¿Cuál es el examen que confirma el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Test de D-xilosa"
+        },
+        {
+          "letter": "B",
+          "text": "Biopsia duodenal"
+        },
+        {
+          "letter": "C",
+          "text": "Colonoscopía con biopsias"
+        },
+        {
+          "letter": "D",
+          "text": "Elastasa fecal"
+        },
+        {
+          "letter": "E",
+          "text": "Test de hidrógeno espirado con carga de lactosa"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Síntomas osmóticos y fermentativos ligados a los lácteos, sin signos de alarma, sugieren intolerancia a la lactosa por hipolactasia. Se confirma con el test de hidrógeno espirado tras una carga de lactosa, o con la exclusión y reintroducción de lácteos. Se trata reduciendo la lactosa o con lactasa, sin eliminar todo el calcio.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de veinticuatro años con distensión, gases, dolor cólico y diarrea que aparecen una a dos horas después de tomar leche o comer helado. No baja de peso, no tiene sangre en las deposiciones ni anemia, y los anticuerpos de celíaca son negativos.",
+        "question": "¿Cuál es el examen que confirma el diagnóstico más probable?",
+        "options": "Las opciones: test de D-xilosa, biopsia duodenal, colonoscopía, elastasa fecal o test de hidrógeno espirado con lactosa. Piénsalo.",
+        "answer": "Es la E. Síntomas que aparecen con los lácteos, sin alarma, son una intolerancia a la lactosa, y el test de hidrógeno espirado la confirma: las bacterias del colon fermentan la lactosa no absorbida y producen hidrógeno. La biopsia duodenal tienta, pero es para la celíaca, que ya tiene serología negativa."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.4.013 · Laboratorio inicial de síndrome de malabsorción",
+      "stem": "Hombre de 50 años con 5 meses de deposiciones voluminosas, pálidas y malolientes, que flotan y cuesta eliminar del inodoro, con baja de 7 kg. Usted sospecha un síndrome de malabsorción.",
+      "question": "¿Cuál es el examen inicial más útil para confirmar la esteatorrea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sudán III en deposiciones o esteatocrito"
+        },
+        {
+          "letter": "B",
+          "text": "Coprocultivo"
+        },
+        {
+          "letter": "C",
+          "text": "Test de sangre oculta en deposiciones"
+        },
+        {
+          "letter": "D",
+          "text": "Leucocitos fecales"
+        },
+        {
+          "letter": "E",
+          "text": "Calprotectina fecal"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El primer paso ante sospecha de malabsorción es objetivar la esteatorrea con Sudán III o esteatocrito; el estándar es la grasa fecal de 72 horas. Luego se busca la causa: D-xilosa para distinguir mucosa de páncreas, serología celíaca y elastasa fecal. Calprotectina y leucocitos fecales miden inflamación, no grasa.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de cincuenta años con cinco meses de deposiciones abundantes, pálidas y malolientes, que flotan y cuesta eliminar del inodoro. Bajó siete kilos. Sospechas un síndrome de malabsorción.",
+        "question": "¿Cuál es el examen inicial más útil para confirmar la esteatorrea?",
+        "options": "Las opciones: Sudán tres en deposiciones, coprocultivo, sangre oculta, leucocitos fecales, o calprotectina. Piénsalo.",
+        "answer": "Es la A. Lo primero es demostrar que hay grasa en las deposiciones, y el Sudán tres o el esteatocrito lo hacen de forma simple. La calprotectina es el distractor moderno: sirve para buscar inflamación intestinal, no para medir grasa."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2019 · Pregunta 120",
+      "stem": "Una niña de 13 meses ha detenido su crecimiento desde hace 4 meses. Además, presenta deposiciones frecuentes y disgregadas, con tendencia al meteorismo. En sus exámenes destaca anemia ferropénica.",
+      "question": "¿Cuál es el examen de elección para iniciar el estudio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anticuerpos IgA antiendomisio"
+        },
+        {
+          "letter": "B",
+          "text": "Cuantificación de inmunoglobulinas"
+        },
+        {
+          "letter": "C",
+          "text": "Test del sudor"
+        },
+        {
+          "letter": "D",
+          "text": "Colonoscopía"
+        },
+        {
+          "letter": "E",
+          "text": "17-OH-progesterona"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Detención del crecimiento, diarrea crónica, distensión y ferropenia meses después de introducir el gluten sugieren enfermedad celíaca. Se inicia el estudio con serología IgA (antitransglutaminasa o antiendomisio) más IgA total, y se confirma con biopsia duodenal. El test del sudor es para fibrosis quística, que suele dar síntomas respiratorios y esteatorrea desde antes.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Una niña de trece meses dejó de crecer hace cuatro meses, tiene deposiciones frecuentes y disgregadas, meteorismo y anemia ferropénica.",
+        "question": "¿Cuál es el examen de elección para iniciar el estudio?",
+        "options": "Las opciones: anticuerpos antiendomisio, inmunoglobulinas, test del sudor, colonoscopía o diecisiete hidroxiprogesterona. Piénsalo.",
+        "answer": "Es la A. Se sospecha enfermedad celíaca y se inicia el estudio con serología, como los anticuerpos antiendomisio. El test del sudor tienta porque la fibrosis quística también da malabsorción, pero suele acompañarse de síntomas respiratorios."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.3.002 · Manejo dietético en enfermos digestivos",
+      "stem": "Mujer de 30 años con diagnóstico reciente de enfermedad celíaca, confirmada con anticuerpos antitransglutaminasa y biopsia duodenal. Consulta por orientación dietética.",
+      "question": "¿Cuál de los siguientes alimentos puede consumir libremente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pan de centeno"
+        },
+        {
+          "letter": "B",
+          "text": "Arroz y maíz"
+        },
+        {
+          "letter": "C",
+          "text": "Cerveza de cebada"
+        },
+        {
+          "letter": "D",
+          "text": "Galletas de trigo integral"
+        },
+        {
+          "letter": "E",
+          "text": "Sémola de trigo"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La enfermedad celíaca se trata con una dieta estricta y de por vida libre de gluten: se excluyen trigo, cebada y centeno, y la avena contaminada. Arroz, maíz, papa, legumbres, carnes, frutas y verduras son naturalmente libres de gluten. En productos procesados conviene buscar el logo de alimento libre de gluten.",
+      "say": {
+        "stem": "Mujer de treinta años con celiaquía recién diagnosticada que pide orientación dietética.",
+        "question": "¿Qué puede comer libremente?",
+        "options": "Las opciones: pan de centeno, arroz y maíz, cerveza, galletas de trigo integral o sémola. Piénsalo.",
+        "answer": "Es la B. Arroz y maíz no tienen gluten. El pan de centeno puede parecer más sano, pero el centeno contiene gluten, igual que el trigo y la cebada."
+      }
     },
 
     {

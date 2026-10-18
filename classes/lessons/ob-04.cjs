@@ -68,7 +68,8 @@ module.exports = {
         { show: ['epf'], note: 'El primer dato es solo una alerta',
           say: 'Partamos por el mecanismo. Te llega un feto con peso estimado bajo el percentil diez, y ese dato, solo, no te dice nada todavía.' },
         { show: ['peg'], note: 'El Doppler tiene que estar perfecto',
-          say: 'Si está entre el percentil tres y el diez, y el Doppler de la arteria umbilical, de la cerebral media y de las arterias uterinas está estrictamente normal, con líquido amniótico también normal...' },
+          say: 'Si está entre el percentil tres y el diez, y el Doppler de la arteria umbilical, de la cerebral media y de las arterias uterinas está estrictamente normal, con líquido amniótico también normal. Mira este Doppler de la arteria umbilical: el flujo no se corta, sigue durante toda la diástole...',
+          photo: { src: 'biblioteca/14_obstetricia/ob-04/01_doppler-arteria-umbilical_1__cto-gyo_p121.jpg', label: 'Umbilical normal', at: 'Mira este Doppler', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 121' } },
         { show: ['sano'], note: 'Feto sano, no enfermo',
           say: '...tienes un pequeño para la edad gestacional constitucional. Es un feto genéticamente pequeño, mantiene su propio canal de crecimiento, y su pronóstico es igual al de un feto de peso adecuado.' },
         { show: ['rcf'], note: 'Dos puertas de entrada distintas',
@@ -99,7 +100,8 @@ module.exports = {
           { t: 'Insuficiencia placentaria leve', d: 'Por senescencia de la placenta',
             say: 'Si debuta desde las treinta y dos semanas, casi siempre a término, es RCF tardío. La falla placentaria es más leve, por senescencia difusa, y casi no se asocia a preeclampsia.' },
           { t: 'Umbilical normal, cerebral alterada', d: 'Vasodilatación cerebral protectora',
-            say: 'Aquí la arteria umbilical suele estar normal. Lo que se altera es la cerebral media, que se dilata para proteger al cerebro, un efecto que llamamos redistribución.' },
+            say: 'Aquí la arteria umbilical suele estar normal. Lo que se altera es la cerebral media, que se dilata para proteger al cerebro, un efecto que llamamos redistribución. Mira esta cerebral media: el flujo en diástole es alto, y el índice de pulsatilidad baja.',
+            photo: { src: 'biblioteca/14_obstetricia/ob-04/299_ob_Restricción_de_crecimiento__us_obgynpd_p129_1.jpg', label: 'Cerebral media dilatada', at: 'Mira esta cerebral media', credit: 'Ultrasound in Obstetrics and Gynecology: A Practical Approach, p. 129' } },
           { t: 'Riesgo de hipoxia súbita', d: 'Se puede descompensar en el trabajo de parto',
             say: 'Su peligro es distinto: pasa desapercibido, y el riesgo mayor es una hipoxia aguda durante el trabajo de parto, no algo lento y progresivo. Por eso, aunque suene menos grave que el precoz, es el que más se asocia a un óbito inesperado en un embarazo que parecía tranquilo.' },
         ] },
@@ -127,11 +129,14 @@ module.exports = {
         { show: ['e1', 's1'], note: 'Lo más leve, resistencia solamente',
           say: 'Vamos con las cuatro etapas, de la más leve a la más grave. En la etapa uno, el índice de pulsatilidad de la umbilical está sobre el percentil noventa y cinco, o el de la cerebral media, bajo el percentil cinco. Con esto, interrumpes a la semana treinta y siete, y puedes intentar la inducción.' },
         { show: ['e2', 's2'], note: 'Ya no hay flujo en diástole',
-          say: 'En la etapa dos, la arteria umbilical pierde el flujo en diástole: se queda sin flujo en más de la mitad del ciclo, señal de que se obliteró entre el sesenta y el setenta por ciento del lecho vellositario. Aquí adelantas a la semana treinta y cuatro, por cesárea, y das corticoides antes de nacer.' },
+          say: 'En la etapa dos, la arteria umbilical pierde el flujo en diástole: se queda sin flujo en más de la mitad del ciclo, señal de que se obliteró entre el sesenta y el setenta por ciento del lecho vellositario. Mira este registro: entre un latido y otro, la curva cae hasta la línea de base, sin flujo. Aquí adelantas a la semana treinta y cuatro, por cesárea, y das corticoides antes de nacer.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-04/088_ob_Restricción_de_crecimiento__us_obgynpd_p127_1.jpg', label: 'Diástole ausente', at: 'Mira este registro', credit: 'Ultrasound in Obstetrics and Gynecology: A Practical Approach, p. 127' } },
         { show: ['e3', 's3'], note: 'El flujo va al revés',
-          say: 'En la etapa tres, el flujo en diástole ya no está ausente: va al revés, reverso, reflejando una obliteración masiva de más del ochenta por ciento de los vasos placentarios. Interrumpes a la semana treinta, siempre por cesárea electiva.' },
+          say: 'En la etapa tres, el flujo en diástole ya no está ausente: va al revés, reverso, reflejando una obliteración masiva de más del ochenta por ciento de los vasos placentarios. En este esquema, la curva se hunde bajo la línea de base. Interrumpes a la semana treinta, siempre por cesárea electiva.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-04/S1_doppler-umbilical-ductus__propio.svg', label: 'Del normal al reverso', at: 'En este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['e4', 's4'], note: 'Falla del corazón fetal, minutos cuentan',
-          say: 'Y en la etapa cuatro, lo que se altera es el ductus venoso, con una onda llamada "a" que se vuelve reversa. Eso refleja que el corazón derecho del feto ya está fallando por la acidosis. Interrumpes de inmediato, entre las semanas veintiséis y veintiocho, con corticoides y sulfato de magnesio para proteger el cerebro. Fíjate en la lógica completa: mientras peor el Doppler, más temprano nace, sin importar lo prematuro que sea.' },
+          say: 'Y en la etapa cuatro, lo que se altera es el ductus venoso, con una onda llamada "a" que se vuelve reversa. Eso refleja que el corazón derecho del feto ya está fallando por la acidosis. Mira el ductus venoso: la onda a cae bajo la línea, es reversa. Interrumpes de inmediato, entre las semanas veintiséis y veintiocho, con corticoides y sulfato de magnesio para proteger el cerebro. Fíjate en la lógica completa: mientras peor el Doppler, más temprano nace, sin importar lo prematuro que sea.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-04/089_ob_Restricción_de_crecimiento__Rumack_p1502.jpg', label: 'Onda a reversa', at: 'Mira el ductus venoso', credit: 'Diagnostic Ultrasound (Rumack), p. 1502' } },
       ],
     },
 
@@ -163,45 +168,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'El Doppler en la restricción',
       images: [
-        { src: 'animaciones/ob-04/A1_redistribucion.mp4', label: 'Redistribución', credit: 'Animación propia' },
+        { src: 'animaciones/ob-04/A1_redistribucion.mp4', label: 'Redistribución', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'El feto protege su cerebro',
-          say: 'En la restricción, la placenta ofrece más resistencia: el flujo diastólico umbilical cae, puede desaparecer o invertirse. Mientras, la cerebral media recibe más flujo: el feto protege su cerebro.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Doppler en la restricción de crecimiento',
-      images: [
-        { src: 'biblioteca/14_obstetricia/ob-04/S1_doppler-umbilical-ductus__propio.svg', label: 'Arteria umbilical y ductus', credit: 'Dibujo propio (esquema)' },
-        { src: 'biblioteca/14_obstetricia/ob-04/01_doppler-arteria-umbilical_1__cto-gyo_p121.jpg', label: 'Doppler umbilical normal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 121' },
-      ],
-      steps: [
-        { note: 'Del flujo diastólico al flujo reverso',
-          say: 'El Doppler de la arteria umbilical progresa: diástole presente, luego ausente, luego reversa. Cuanto peor, más urgente la interrupción.' },
-        { note: 'Arteria umbilical',
-          say: 'Y así se ve un Doppler normal de la arteria umbilical en la ecografía, con flujo durante toda la diástole.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/14_obstetricia/ob-04/01_doppler-arteria-umbilical_2__cto-gyo_p121.jpg', label: 'Doppler umbilical normal: índices', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 121' },
-        { src: 'biblioteca/14_obstetricia/ob-04/02_ondas-doppler-patologicas-tabla__amir-gyo_p23.jpg', label: 'Onda Doppler patológica', credit: 'Manual AMIR Ginecología y Obstetricia, p. 23' },
-      ],
-      steps: [
-        { note: 'Doppler de arteria umbilical',
-          say: 'Doppler de la arteria umbilical con sus índices de resistencia.' },
-        { note: 'Onda Doppler patológica',
-          say: 'Onda Doppler alterada: las flechas marcan el flujo al final de la diástole.' },
+          say: 'Mira la placenta y el cordón. Al principio la sangre fluye sin problema, y la arteria umbilical tiene flujo durante toda la diástole. Cuando la placenta falla, ofrece más resistencia: la diástole umbilical se pierde, y después se invierte. Mientras tanto, la arteria cerebral media se dilata y recibe más flujo: el feto protege su cerebro a costa del resto del cuerpo.' },
       ],
     },
 
@@ -319,6 +290,44 @@ module.exports = {
         options: 'Las opciones: observar evolución, pedir Doppler de arterias uterinas, pedir Doppler de arteria umbilical, repetir la ecografía en dos semanas, o inducir maduración pulmonar con corticoides. Piénsalo.',
         answer: 'Es la C. Con un peso en percentil diez todavía no sabes si es un PEG constitucional o una restricción de verdad, y el examen que te lo dice, el que separa uno del otro y de paso te dice qué tan grave es, es el Doppler de la arteria umbilical. Observar sin más, o repetir la ecografía sin Doppler, te deja sin la información que decide todo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 133",
+      "stem": "Embarazada de 12 semanas con translucencia nucal aumentada en la ecografía.",
+      "question": "¿Cuál es el examen definitivo para confirmar trisomía 21?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Biopsia de vellosidades coriales (11 a 14 semanas)"
+        },
+        {
+          "letter": "B",
+          "text": "Amniocentesis (15 a 20 semanas)"
+        },
+        {
+          "letter": "C",
+          "text": "ADN fetal libre en sangre materna (NIPT)"
+        },
+        {
+          "letter": "D",
+          "text": "Fetoscopía"
+        },
+        {
+          "letter": "E",
+          "text": "Marcadores séricos maternos (triple marcador)"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Una aneuploidía se confirma solo con cariotipo fetal obtenido por técnica invasiva. A las 12 semanas corresponde la biopsia de vellosidades coriales (ventana de 10 a 14 semanas); la amniocentesis se realiza desde las 15 semanas. El ADN fetal libre es un tamizaje de alta sensibilidad, pero no diagnóstico; los marcadores séricos también son tamizaje.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Una embarazada de doce semanas tiene una translucencia nucal aumentada en la ecografía.",
+        "question": "¿Cuál es el examen definitivo para confirmar una trisomía veintiuno?",
+        "options": "Las opciones: biopsia de vellosidades coriales, amniocentesis, ADN fetal libre en sangre materna, fetoscopía, o marcadores séricos. Piénsalo.",
+        "answer": "Es la A. La confirmación exige un cariotipo fetal invasivo, y a las doce semanas la técnica que corresponde es la biopsia de vellosidades coriales. El ADN fetal libre tienta porque es muy sensible, pero es un tamizaje y no confirma el diagnóstico."
+      }
     },
 
     {

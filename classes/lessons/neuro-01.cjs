@@ -116,6 +116,53 @@ module.exports = {
     },
 
     {
+      type: 'table',
+      kicker: 'Corteza dominante',
+      title: 'Afasias: fluencia, comprensión, repetición',
+      head: ['Afasia', 'Fluencia', 'Comprensión', 'Repetición'],
+      rows: [
+        { cells: ['Broca', 'Baja, telegráfica', 'Conservada', 'Alterada'],
+          say: 'Cuando la lesión es del hemisferio dominante, el lenguaje se examina con cuatro preguntas: fluencia, comprensión, repetición y denominación. Con eso clasificas. La afasia de Broca es frontal inferior, rama superior de la cerebral media. Habla poco, con esfuerzo y telegráfica, entiende bien y el paciente sabe que no le sale: está frustrado. Suele tener hemiparesia derecha.' },
+        { cells: ['Wernicke', 'Alta, vacía', 'Alterada', 'Alterada'],
+          say: 'La de Wernicke es temporal posterior, rama inferior de la cerebral media. Habla fluido, abundante, con jerga y parafasias, pero no entiende y no se da cuenta. Casi no tiene hemiparesia, así que lo pueden confundir con un cuadro psiquiátrico o con un delirium. Esa trampa se pregunta.' },
+        { cells: ['Conducción', 'Alta', 'Conservada', 'Muy alterada'],
+          say: 'En la de conducción se lesiona el fascículo arqueado. Habla fluido y entiende, pero no logra repetir.' },
+        { cells: ['Global', 'Baja', 'Alterada', 'Alterada'],
+          say: 'La global es la oclusión del tronco de la cerebral media o de la carótida interna: no habla, no entiende, y hay hemiplejía.' },
+        { cells: ['Anómica', 'Alta', 'Conservada', 'Conservada'],
+          say: 'En la anómica falla solo la denominación. Localiza poco, porque también aparece en las demencias y al recuperarse de otras afasias.' },
+        { cells: ['Transcortical', 'Variable', 'Variable', 'Conservada'],
+          say: 'Y en las transcorticales la repetición está conservada. Son infartos en zonas frontera, por hipoperfusión. Distingue siempre la afasia de la disartria: en la disartria solo se altera la articulación, y el contenido y la gramática son normales.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Funciones superiores',
+      title: 'Apraxia, agnosia y negligencia',
+      cards: [
+        { title: 'Qué falla', tag: 'Corteza parietal y occipitotemporal', kind: 'criteria', items: [
+          { t: 'Apraxia: no ejecuta lo aprendido', d: 'Ideomotora: parietal izquierda',
+            say: 'La apraxia es no poder ejecutar un movimiento aprendido, aunque la fuerza, la sensibilidad y la comprensión estén normales. La ideomotora, la más común, es parietal izquierda: no puede imitar el gesto de peinarse o de saludar.' },
+          { t: 'Agnosia: no reconoce', d: 'Visual, prosopagnosia, táctil',
+            say: 'La agnosia es no reconocer un estímulo con la sensación primaria intacta. Puede ser visual, de rostros, que es la prosopagnosia, o táctil, con astereognosia.' },
+          { t: 'Heminegligencia', d: 'Parietal derecha: ignora el lado izquierdo',
+            say: 'La heminegligencia es parietal derecha. El paciente ignora su hemicuerpo izquierdo, no se afeita ese lado y minimiza su enfermedad, lo que se llama anosognosia.' },
+          { t: 'Gerstmann: giro angular izquierdo', d: 'Agrafia, acalculia, agnosia digital, derecha-izquierda',
+            say: 'Y el síndrome de Gerstmann, del giro angular izquierdo, suma agrafia, acalculia, agnosia de los dedos y confusión entre derecha e izquierda.' },
+        ] },
+        { title: 'Conducta', tag: 'Código ACV', kind: 'alert', items: [
+          { t: 'Inicio súbito: código ACV', d: 'TAC, angioTAC, trombolisis o trombectomía',
+            say: 'La conducta no cambia. Un déficit cortical de inicio súbito, con hora conocida, es código ACV: TAC sin contraste, angioTAC y evaluación inmediata para reperfundir.' },
+          { t: 'NIHSS bajo no es leve', d: 'La afasia y la negligencia dejan secuela',
+            say: 'Ojo: un NIHSS bajo no descarta una discapacidad importante. Una afasia o una negligencia puntúan poco en la escala, pero incapacitan.' },
+          { t: 'Progresivo: tumor o demencia', d: 'Descartar hipoglicemia, postictal, delirium',
+            say: 'Si se instala en semanas o meses, piensa en tumor, absceso o enfermedad neurodegenerativa. Y siempre descarta lo reversible: hipoglicemia, afasia postictal y delirium. Después, fonoaudiología, que rinde más si parte en las primeras semanas.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Diagnóstico clínico',
       title: 'Reconocerlo y medir el déficit',
@@ -355,6 +402,8 @@ module.exports = {
           say: 'Y con una oclusión de gran vaso en un candidato a trombolisis: terapia puente, trombolizar y trasladar, sin esperar.' },
         { cells: ['Hemiparesia pura sin afasia', 'Infarto lacunar', 'Infarto de la cerebral media'],
           say: 'En la clínica, la hemiparesia pura sin afasia ni trastorno sensitivo es lacunar. Si hubiera afasia, pensarías en la cerebral media.' },
+        { cells: ['Habla fluida, no entiende, sin paresia', 'Wernicke: es un ACV', 'Pensar en psiquiatría o delirium'],
+          say: 'Y el paciente que habla fluido pero dice cosas sin sentido, sin debilidad: es una afasia de Wernicke, un infarto temporal, no un cuadro psiquiátrico ni un delirium.' },
       ],
     },
 
@@ -471,6 +520,156 @@ module.exports = {
         options: 'Las opciones: migraña por anticonceptivos, infarto cerebral extenso, infarto lacunar, epilepsia con parálisis de Todd, o trombosis venosa cerebral. Piénsalo.',
         answer: 'Es la E, trombosis venosa cerebral, otra de las causas del grupo de otra etiología determinada. Junta las pistas: una cefalea de días con vómitos matinales, que habla de hipertensión endocraneana, una convulsión, un déficit focal, y un factor protrombótico, los anticonceptivos. El infarto arterial tienta por la paresia, pero se instala de golpe, no con cinco días de cefalea que va en aumento.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.4.001 · TAC de encéfalo y columna",
+      "stem": "Mujer de 72 años, hipertensa, es traída a urgencia 50 minutos después de iniciar en forma súbita hemiparesia izquierda faciobraquiocrural y disartria. PA 178/96 mmHg, glicemia capilar 132 mg/dL, NIHSS 9. Se activa el código ACV.",
+      "question": "¿Cuál es el examen de imagen que debe realizarse en primer lugar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Resonancia magnética de encéfalo con gadolinio"
+        },
+        {
+          "letter": "B",
+          "text": "TAC de encéfalo con contraste"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de encéfalo sin contraste urgente"
+        },
+        {
+          "letter": "D",
+          "text": "Eco-Doppler carotídeo"
+        },
+        {
+          "letter": "E",
+          "text": "Electroencefalograma"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Ante un déficit focal agudo, el primer examen es el TAC de encéfalo sin contraste, rápido y disponible, cuyo objetivo principal es descartar hemorragia antes de trombolisis. En las primeras horas el infarto suele no verse, por lo que un TAC normal es compatible con isquemia. El contraste dificulta ver sangre; la RM no debe retrasar el tratamiento.",
+      "say": {
+        "stem": "Una mujer de setenta y dos años llega cincuenta minutos después de iniciar una hemiparesia izquierda súbita con disartria. Tiene glicemia normal y se activa el código de accidente cerebrovascular.",
+        "question": "¿Cuál es el examen de imagen que se hace primero?",
+        "options": "Las opciones: resonancia con gadolinio, tomografía con contraste, tomografía sin contraste urgente, Doppler carotídeo o electroencefalograma. Piénsalo.",
+        "answer": "Es la C. La tomografía sin contraste es rápida y su objetivo principal es descartar sangre antes de trombolizar. La resonancia tienta porque ve antes el infarto, pero no debe retrasar la decisión en la ventana terapéutica."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.3.002 · Prevención de factores de riesgo cerebrovascular",
+      "stem": "Hombre de 66 años, hipertenso y dislipidémico, egresa tras un infarto cerebral lacunar capsular izquierdo con buena recuperación. Fuma 10 cigarrillos al día. Ritmo sinusal en Holter de 24 horas y eco-Doppler carotídeo sin estenosis significativa. PA 148/92 mmHg con enalapril, LDL 142 mg/dL, HbA1c 5,6 %.",
+      "question": "¿Cuál es la estrategia de prevención secundaria más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anticoagulación oral con acenocumarol de por vida"
+        },
+        {
+          "letter": "B",
+          "text": "AAS 100 mg/día, estatina de alta intensidad con meta de LDL menor de 70 mg/dL, PA menor de 130/80 mmHg y cesación tabáquica"
+        },
+        {
+          "letter": "C",
+          "text": "AAS más clopidogrel en forma indefinida"
+        },
+        {
+          "letter": "D",
+          "text": "Solo optimizar la PA, ya que el infarto lacunar no requiere antiagregante"
+        },
+        {
+          "letter": "E",
+          "text": "Estatina solo si el LDL supera 190 mg/dL"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Infarto no cardioembólico (ritmo sinusal, sin estenosis carotídea): antiagregación con AAS a largo plazo, estatina de alta intensidad con meta de LDL menor de 70 mg/dL, PA menor de 130/80 mmHg, cese del tabaco y actividad física. La anticoagulación es para cardioembolia; la doble antiagregación indefinida aumenta el sangrado sin beneficio.",
+      "say": {
+        "stem": "Un hombre de sesenta y seis años, hipertenso, dislipidémico y fumador, egresa tras un infarto cerebral lacunar. Está en ritmo sinusal, sin estenosis carotídea, con presión de ciento cuarenta y ocho sobre noventa y dos y colesterol LDL de ciento cuarenta y dos.",
+        "question": "¿Cuál es la mejor estrategia de prevención secundaria?",
+        "options": "Las opciones: anticoagulación de por vida, aspirina con estatina de alta intensidad, metas estrictas de presión y dejar de fumar, doble antiagregación indefinida, solo controlar la presión, o estatina solo con LDL muy alto. Piénsalo.",
+        "answer": "Es la B. Tras un infarto no cardioembólico se combinan aspirina, estatina potente con LDL bajo setenta, presión bajo ciento treinta sobre ochenta y cesación tabáquica. La doble antiagregación tienta, pero de forma indefinida solo aumenta el sangrado."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.1.006 · Enfermedad cerebro-vascular",
+      "stem": "Mujer de 84 años, autovalente e hipertensa, presenta hemiparesia derecha y afasia de inicio hace 90 minutos. PA 175/95 mmHg, glicemia 130 mg/dL. La TAC de cerebro sin contraste no muestra hemorragia ni hipodensidad extensa.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No trombolizar por ser mayor de 80 años"
+        },
+        {
+          "letter": "B",
+          "text": "Trombolisis endovenosa, evaluando además trombectomía si hay oclusión de gran vaso"
+        },
+        {
+          "letter": "C",
+          "text": "Aspirina 300 mg y observar"
+        },
+        {
+          "letter": "D",
+          "text": "Bajar la presión a menos de 120/80 mmHg antes de decidir"
+        },
+        {
+          "letter": "E",
+          "text": "Heparina endovenosa en infusión"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La edad avanzada no contraindica la trombolisis: una paciente autovalente con ACV isquémico dentro de 4,5 horas y sin hemorragia en la TAC se beneficia de trombolisis endovenosa, y de trombectomía si hay oclusión proximal. Basta una PA bajo 185/110. La aspirina se inicia 24 horas después y la heparina no está indicada.",
+      "say": {
+        "stem": "Mujer de ochenta y cuatro años, autovalente, con hemiparesia y afasia de noventa minutos y TAC sin hemorragia.",
+        "question": "¿Qué haces?",
+        "options": "Las opciones: no trombolizar por la edad, trombolisis evaluando trombectomía, aspirina y observar, bajar la presión a valores normales, o heparina. Piénsalo.",
+        "answer": "Es la B. Trombolisis, y trombectomía si hay oclusión de un gran vaso. La edad sobre ochenta no es contraindicación si es autovalente y está en ventana."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.1.004 · Cuadros deficitarios de funciones cerebrales superiores",
+      "stem": "Hombre de 70 años presenta en forma súbita un habla fluente pero sin sentido, con parafasias y neologismos. No comprende órdenes simples, no logra repetir frases y no parece darse cuenta de su déficit. No tiene paresia.",
+      "question": "¿Cuál es la localización más probable de la lesión?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Circunvolución frontal inferior izquierda (área de Broca)"
+        },
+        {
+          "letter": "B",
+          "text": "Lóbulo parietal derecho"
+        },
+        {
+          "letter": "C",
+          "text": "Porción posterior de la circunvolución temporal superior izquierda (área de Wernicke)"
+        },
+        {
+          "letter": "D",
+          "text": "Cerebelo"
+        },
+        {
+          "letter": "E",
+          "text": "Tronco encefálico"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Una afasia fluente con mala comprensión, mala repetición, parafasias y anosognosia es una afasia de Wernicke, por lesión de la porción posterior del giro temporal superior del hemisferio dominante, típicamente por un ACV de la división inferior de la arteria cerebral media izquierda. La afasia de Broca es no fluente, con comprensión relativamente conservada.",
+      "say": {
+        "stem": "Hombre de setenta años con habla fluente pero sin sentido, que no comprende ni repite, y no se da cuenta de su déficit.",
+        "question": "¿Dónde está la lesión?",
+        "options": "Las opciones: área de Broca, parietal derecho, área de Wernicke, cerebelo o tronco. Piénsalo.",
+        "answer": "Es la C. En el área de Wernicke, en el temporal superior izquierdo. Broca es la otra afasia clásica, pero produce un habla no fluente con comprensión conservada."
+      }
     },
 
     {

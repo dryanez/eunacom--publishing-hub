@@ -259,6 +259,44 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.1.010 · Nefropatía incipiente",
+      "stem": "Mujer de 54 años con DM2 de 7 años de evolución, en tratamiento con metformina, HbA1c 7,0 %, PA 124/76 mmHg. En su control anual se pide una muestra de orina matinal: razón albúmina/creatinina (RAC) de 48 mg/g. Creatinina 0,8 mg/dL, VFG 90 mL/min. No tiene fiebre, infección urinaria ni ha hecho ejercicio intenso.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repetir la RAC hasta completar 2 de 3 muestras alteradas en 3 a 6 meses"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar losartán por nefropatía diabética"
+        },
+        {
+          "letter": "C",
+          "text": "Derivar a nefrología para biopsia renal"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar orina de 24 horas para proteinuria y repetir en un año"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar restricción proteica y control en un año"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La albuminuria varía mucho de un día a otro. La nefropatía incipiente (RAC 30–300 mg/g) se confirma con 2 de 3 muestras alteradas en un plazo de 3 a 6 meses, descartando infección, fiebre o ejercicio. Confirmada, se indica IECA o ARA II.",
+      "say": {
+        "stem": "Mujer de cincuenta y cuatro años, diabética tipo dos, normotensa y bien controlada. En su control anual tiene una razón albúmina creatinina de cuarenta y ocho, con función renal normal y sin infección urinaria.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: repetir la razón albúmina creatinina hasta tener dos de tres alteradas, iniciar losartán, biopsia renal, orina de veinticuatro horas o restricción proteica. Piénsalo.",
+        "answer": "Es la A. Una sola razón albúmina creatinina alterada no basta, porque la albuminuria fluctúa; se confirma con dos de tres muestras en tres a seis meses. Iniciar losartán tienta, pero se indica una vez confirmada la albuminuria, no con una muestra aislada."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',

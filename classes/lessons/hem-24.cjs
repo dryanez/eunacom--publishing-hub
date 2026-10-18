@@ -226,11 +226,13 @@ module.exports = {
         { show: ['dis', 'q'], note: 'Dos edemas pulmonares muy distintos',
           say: 'Llegamos a la diferencia que más se pregunta. Un paciente que se pone disneico e hipoxémico durante o después de una transfusión tiene un edema pulmonar. Pero hay dos, y se tratan al revés. La pista está en el volumen: la presión arterial y las yugulares.' },
         { show: ['tra', 'tram'], note: 'Un problema de permeabilidad',
-          say: 'El primero es el TRALI, la injuria pulmonar aguda asociada a transfusión. Aparece dentro de seis horas. Anticuerpos anti HLA o anti neutrófilo del donante activan los neutrófilos en el pulmón, y los capilares se vuelven permeables. Es un edema no cardiogénico: hipoxemia severa, fiebre, hipotensión, y presiones de llenado normales.' },
+          say: 'El primero es el TRALI, la injuria pulmonar aguda asociada a transfusión. Aparece dentro de seis horas. Anticuerpos anti HLA o anti neutrófilo del donante activan los neutrófilos en el pulmón, y los capilares se vuelven permeables. Es un edema no cardiogénico: hipoxemia severa, fiebre, hipotensión, y presiones de llenado normales. Mira esta radiografía: los dos pulmones se llenan de opacidades, el edema no cardiogénico del TRALI.',
+          photo: { src: 'biblioteca/06_hematologia/hem-24/01_trali-infiltrado-bilateral__cto-neumo_p35.jpg', label: 'Edema del TRALI', at: 'Mira esta radiografía', credit: 'Manual CTO Neumología 14.ª ed., p. 35' } },
         { show: ['trat'], note: 'No hay exceso de volumen que sacar',
           say: 'Su manejo es soporte ventilatorio. Y ojo: los diuréticos no sirven, porque no sobra volumen, y pueden empeorar la hipotensión.' },
         { show: ['tac', 'tacm'], note: 'Un problema de volumen',
-          say: 'El segundo es el TACO, la sobrecarga circulatoria asociada a transfusión. Es un edema cardiogénico por exceso de volumen, típico del anciano o del cardiópata que recibe la sangre muy rápido. Aquí hay hipertensión, ingurgitación yugular, tercer ruido y un péptido natriurético elevado.' },
+          say: 'El segundo es el TACO, la sobrecarga circulatoria asociada a transfusión. Es un edema cardiogénico por exceso de volumen, típico del anciano o del cardiópata que recibe la sangre muy rápido. Aquí hay hipertensión, ingurgitación yugular, tercer ruido y un péptido natriurético elevado. En esta radiografía se ve la congestión pulmonar del TACO.',
+          photo: { src: 'biblioteca/06_hematologia/hem-24/02_rx_taco__sherman_p303.jpg', label: 'Rx de edema por TACO', at: 'En esta radiografía', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 303' } },
         { show: ['tact'], note: 'Responde espectacularmente',
           say: 'Y responde de forma espectacular a la furosemida endovenosa y a la restricción hídrica. Resumen: si la presión está baja, piensa en TRALI; si está alta con yugulares ingurgitadas, TACO y furosemida.' },
       ],
@@ -271,18 +273,6 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Edema pulmonar no cardiogénico',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-24/01_trali-infiltrado-bilateral__cto-neumo_p35.jpg', label: 'Infiltrados bilaterales: edema no cardiogénico (patrón del TRALI)', credit: 'Manual CTO Neumología 14.ª ed., p. 35' },
-      ],
-      steps: [
-        { note: 'Los dos pulmones blancos',
-          say: 'Así se ve un edema pulmonar no cardiogénico, como el del TRALI: los dos pulmones se llenan de opacidades. Los capilares se volvieron permeables, no sobra volumen. Por eso el manejo es soporte ventilatorio, y no diuréticos.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -400,6 +390,44 @@ module.exports = {
         options: 'Las opciones: corticoides a un miligramo por kilo, transfusión de plaquetas, terapia biológica, amoxicilina, o ibuprofeno. Piénsalo.',
         answer: 'Es la A, corticoides. La transfusión es la trampa, porque cinco mil está bajo el umbral de diez mil. Pero ese umbral es para la falla medular, donde faltan plaquetas porque no se producen. En la PTI se producen, pero los anticuerpos las destruyen, y las plaquetas transfundidas corren la misma suerte. Por eso se reserva para el sangrado con riesgo vital. El umbral depende de la causa, no solo del número.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.3.005 · Indicaciones de uso de componentes sanguíneos",
+      "stem": "Hombre de 58 años, sin cardiopatía, hospitalizado en sala por una neumonía adquirida en la comunidad, en su tercer día de antibióticos y con buena evolución. Asintomático en reposo. PA 124/76 mmHg, FC 84 lpm, SatO2 96 % ambiental. Sin sangrado. Hb 7,6 g/dL (al ingreso 8,9 g/dL), VCM 86 fL, plaquetas 210.000/µL.",
+      "question": "¿Cuál es la conducta más adecuada respecto de la transfusión?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Transfundir 2 unidades de glóbulos rojos para llevar la Hb sobre 10 g/dL"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar eritropoyetina subcutánea"
+        },
+        {
+          "letter": "C",
+          "text": "Transfundir 1 unidad de glóbulos rojos con furosemida"
+        },
+        {
+          "letter": "D",
+          "text": "Transfundir plasma fresco congelado"
+        },
+        {
+          "letter": "E",
+          "text": "No transfundir: controlar la Hb, estudiar la anemia y tratar su causa"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En pacientes hospitalizados estables y sin cardiopatía isquémica activa se usa una estrategia restrictiva: se transfunde con Hb menor de 7 g/dL (menor de 8 g/dL en cardiópatas o cirugía cardíaca y ortopédica) o ante síntomas. Con Hb 7,6 y asintomático no se transfunde; se estudia la anemia. Buscar Hb sobre 10 no mejora el pronóstico.",
+      "say": {
+        "stem": "Un hombre de cincuenta y ocho años, sin cardiopatía, hospitalizado por neumonía con buena evolución, está asintomático y estable, con hemoglobina de siete coma seis.",
+        "question": "¿Cuál es la conducta más adecuada respecto de la transfusión?",
+        "options": "Las opciones: dos unidades para superar diez, eritropoyetina, una unidad con furosemida, plasma fresco o no transfundir y estudiar la anemia. Piénsalo.",
+        "answer": "Es la E. En un paciente estable y sin cardiopatía el umbral para transfundir es una hemoglobina menor de siete, o tener síntomas. Transfundir una sola unidad tienta como término medio, pero tampoco está indicado sobre ese umbral."
+      }
     },
 
     {

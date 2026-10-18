@@ -125,6 +125,34 @@ const rawClasses = [
           "• <strong>Puntaje:</strong> 7 a 10 = Normal (vigoroso); 4 a 6 = Depresión moderada; 0 a 3 = Depresión severa.",
           "• <em>Regla de Oro EUNACOM:</em> <strong>El test de APGAR NO se utiliza para decidir cuándo iniciar la reanimación neonatal</strong> (la reanimación se inicia al minuto de oro guiada por FC y respiración sin esperar el APGAR del minuto 1). El APGAR de los 5 minutos tiene valor pronóstico sobre respuesta a la reanimación y riesgo neurológico."
         ]
+      },
+      {
+        "subhead": "5. Asfixia Perinatal y Encefalopatía Hipóxico-Isquémica",
+        "paragraphs": [
+          "La <strong>asfixia perinatal</strong> es el compromiso del intercambio gaseoso fetal-neonatal con hipoxemia, hipercapnia y acidosis. Se sustenta en criterios combinados: <strong>acidosis metabólica en sangre de cordón (pH < 7,0 y déficit de bases ≥ 12 mmol/L)</strong>, Apgar de 0 a 3 mantenido más de 5 minutos, manifestaciones neurológicas (convulsiones, hipotonía, coma) y <strong>disfunción multiorgánica</strong> (riñón con oliguria, hígado, corazón, pulmón, coagulación). Un Apgar bajo aislado no define asfixia. Los factores de riesgo son el desprendimiento placentario, el prolapso de cordón, la rotura uterina, la distocia de hombros y la hipotensión materna.",
+          "La <strong>encefalopatía hipóxico-isquémica (EHI)</strong> es la expresión neurológica y se grada con la clasificación de <strong>Sarnat</strong>: <em>leve</em> (hiperalerta, hiperreflexia, dura < 24 horas, pronóstico bueno), <em>moderada</em> (letargia, hipotonía, convulsiones; 2 a 14 días) y <em>severa</em> (estupor o coma, flaccidez, convulsiones refractarias y compromiso del tronco, con alta mortalidad y secuelas). El manejo es de soporte intensivo: ventilación, <strong>evitar hiperoxia</strong>, normoglicemia, restricción de líquidos (riesgo de SIADH e insuficiencia renal) y tratamiento de las convulsiones con fenobarbital.",
+          "El único tratamiento de neuroprotección eficaz es la <strong>hipotermia terapéutica</strong>: enfriamiento corporal total a 33-34 °C por 72 horas, iniciado <strong>en las primeras 6 horas de vida</strong>, en recién nacidos ≥ 36 semanas con EHI moderada o severa, seguido de recalentamiento lento. Por eso el médico general debe <strong>sospechar, mantener normotermia (sin calentar en exceso) y trasladar precozmente</strong> a un centro neonatal con capacidad de hipotermia. Secuelas posibles: parálisis cerebral, epilepsia y retraso cognitivo; se hace seguimiento del neurodesarrollo."
+        ]
+      },
+      {
+        "subhead": "6. Atresia de Coanas",
+        "paragraphs": [
+          "La <strong>atresia de coanas</strong> es la obstrucción congénita de la fosa nasal posterior (ósea en el 90%, o membranosa). La forma <strong>bilateral</strong> es una emergencia neonatal, porque el recién nacido respira obligadamente por la nariz: presenta <strong>cianosis y dificultad respiratoria que mejoran con el llanto</strong> (cianosis cíclica o paradójica) y empeoran al mamar. La forma <strong>unilateral</strong> se manifiesta más tarde por rinorrea mucosa y obstrucción nasal de un solo lado.",
+          "<em>Diagnóstico:</em> imposibilidad de pasar una sonda nasogástrica fina (6 Fr) más allá de 3 a 4 cm; confirmación con nasofibroscopía y <strong>TAC</strong> de macizo facial. Se asocia a otras malformaciones: debe buscarse el <strong>síndrome CHARGE</strong> (coloboma, cardiopatía, atresia de coanas, retraso del crecimiento, anomalías genitales y de oído) con ecocardiograma y examen oftalmológico. <em>Conducta (Inicial/Derivar):</em> en la forma bilateral asegurar una <strong>vía aérea oral</strong> (cánula orofaríngea o chupete de McGovern, intubación si es necesario), alimentar por sonda orogástrica y <strong>derivar a ORL</strong> para corrección quirúrgica endoscópica; la unilateral se programa en forma electiva."
+        ]
+      },
+      {
+        "subhead": "7. Vínculo y Apego en el Recién Nacido",
+        "paragraphs": [
+          "Las primeras horas de vida son un <strong>período sensible</strong> para el vínculo. Se recomienda el <strong>contacto piel a piel ininterrumpido durante al menos 60 minutos</strong> (hasta la primera lactancia), el alojamiento conjunto madre-hijo y evitar separaciones innecesarias. Favorece la estabilidad térmica y de la glicemia, la lactancia exitosa y un <strong>apego seguro</strong>. Factores que lo dificultan: depresión posparto, prematurez con hospitalización prolongada, madre adolescente, violencia y consumo de drogas. En el prematuro se promueve el <strong>método canguro</strong>, y en el control de salud se aplican la escala de Edimburgo y la pauta de observación de la relación madre-hijo, con derivación a <em>Chile Crece Contigo</em> si hay riesgo."
+        ]
+      },
+      {
+        "subhead": "8. Termorregulación del Recién Nacido: Hipotermia e Hipertermia",
+        "paragraphs": [
+          "El recién nacido pierde calor por <strong>evaporación, conducción, convección y radiación</strong> (gran superficie corporal y poca grasa) y genera calor principalmente con la <strong>grasa parda</strong> (termogénesis sin temblor), que consume oxígeno y glucosa. Son de riesgo el prematuro, el PEG y el asfixiado. <strong>Hipotermia</strong> (temperatura axilar < 36,5 °C): leve 36 a 36,4 °C, moderada 32 a 35,9 °C y grave < 32 °C; produce hipoglicemia, acidosis metabólica, apneas, aumento del consumo de oxígeno e hipertensión pulmonar. Se previene con cadena de calor (secar, gorro, contacto piel a piel, ambiente 25 °C, cuna radiante) y se trata con recalentamiento gradual (incubadora o cuna radiante) y control de glicemia.",
+          "<strong>Hipertermia</strong> (> 37,5 °C): causas ambientales (sobreabrigo, incubadora), <strong>deshidratación («fiebre de la sed» al 2.° o 3.er día)</strong>, fármacos o anestesia materna y, sobre todo, <strong>infección</strong>. Un recién nacido con temperatura elevada se desabriga, se hidrata y se reevalúa; si persiste, se hace estudio séptico. La inestabilidad térmica (hipo o hipertermia) puede ser el primer signo de sepsis neonatal."
+        ]
       }
     ],
     "table": {
@@ -472,6 +500,27 @@ const rawClasses = [
           "• <strong>Grande para la Edad Gestacional (GEG):</strong> Peso al nacer <strong>> Percentil 90</strong> para su EG.",
           "  - <em>Riesgos clínicos cardinales:</em> <strong>Hipoglicemia precoz sintomática</strong> (por hiperinsulinismo fetal e hipertrofia de islotes pancreáticos, clásico de hijos de madre diabética), <strong>trauma obstétrico</strong> (distocia de hombros, parálisis braquial obstétrica, fractura de clavícula), policitemia y asfixia perinatal."
         ]
+      },
+      {
+        "subhead": "4. Retinopatía del Prematuro: Pesquisa y Derivación",
+        "paragraphs": [
+          "La <strong>retinopatía del prematuro (ROP)</strong> es una vasoproliferación anormal de la retina inmadura (la vascularización retinal termina cerca del término). Son factores de riesgo la <strong>edad gestacional < 32 semanas o peso < 1.500 g</strong>, la <strong>oxigenoterapia prolongada o con hiperoxia</strong> (por eso la meta de saturación es 90 a 95%), la sepsis y las transfusiones. Una enfermedad avanzada causa <strong>desprendimiento de retina y ceguera</strong>, y es una causa evitable de ceguera infantil.",
+          "<em>Pesquisa (Sospecha/Inicial/Derivar):</em> todo prematuro de < 32 semanas o < 1.500 g (y los de mayor edad con inestabilidad) debe tener <strong>fondo de ojo por oftalmólogo</strong> a las 4 a 6 semanas de vida (o a las 31 semanas de edad postmenstrual) y controles seriados hasta la vascularización completa. Se clasifica por zonas y estadios; la forma que requiere tratamiento (<strong>fotocoagulación con láser</strong> o antiangiogénico intravítreo) debe tratarse en pocos días. El médico general asegura que el prematuro llegue a su control oftalmológico antes del alta."
+        ]
+      },
+      {
+        "subhead": "5. Manejo y Seguimiento del Recién Nacido Prematuro",
+        "paragraphs": [
+          "• <strong>Prevención de la prematurez y estrategias perinatales:</strong> corticoides prenatales (betametasona 12 mg IM cada 24 horas por 2 dosis entre las 24 y 34 semanas), <strong>sulfato de magnesio</strong> para neuroprotección en < 32 semanas, clampeo tardío del cordón y traslado materno a un centro de nivel adecuado. • <strong>Cuidados:</strong> termorregulación, contacto piel a piel o <strong>método canguro</strong>, leche materna (fortificada en el muy prematuro), nutrición parenteral si no tolera la vía enteral, y cafeína para las apneas.",
+          "• <strong>Suplementos y vacunas:</strong> vitamina D 400 a 800 UI/día, <strong>hierro 2 a 4 mg/kg/día desde el mes</strong> de vida, y vacunación según la <strong>edad cronológica</strong>. • <strong>Seguimiento:</strong> el desarrollo se evalúa con la <strong>edad corregida</strong> (edad cronológica menos las semanas que faltaron para las 40 semanas) hasta los 2 años; se controlan oftalmología, audición, crecimiento y neurodesarrollo. Las complicaciones por sistemas del prematuro se detallan en el tema 18.18."
+        ]
+      },
+      {
+        "subhead": "6. Manejo del Recién Nacido Pequeño (PEG) y Grande (GEG) para la Edad Gestacional",
+        "paragraphs": [
+          "<strong>PEG:</strong> se distingue el <em>asimétrico</em> (insuficiencia placentaria tardía por preeclampsia o hipertensión; cabeza «preservada», mejor crecimiento posterior) del <em>simétrico</em> (noxa precoz: cromosomopatías, infecciones TORCH, tóxicos; PC, peso y talla bajos). <strong>Manejo:</strong> alimentación precoz (primera hora), <strong>control frecuente de glicemia</strong> (ver tema 18.20), prevención de hipotermia, hematocrito a las 2 a 4 horas (policitemia) y vigilancia de hipocalcemia. El 85 a 90% logra <strong>crecimiento recuperador</strong> antes de los 2 años; si no, se deriva a endocrinología (hormona de crecimiento). Mayor riesgo de síndrome metabólico en la vida adulta.",
+          "<strong>GEG</strong> (peso > p90, macrosomía > 4.000 g): descartar <strong>hijo de madre diabética</strong>. Riesgos: <strong>traumatismo obstétrico</strong> (distocia de hombros, <strong>parálisis braquial de Erb</strong> C5-C6, fractura de clavícula, cefalohematoma), hipoglicemia, policitemia, hipocalcemia e ictericia. Manejo: control de glicemia desde el nacimiento, examen del plexo braquial y de la clavícula, y vigilancia de las 24 a 48 horas iniciales."
+        ]
       }
     ],
     "table": {
@@ -704,6 +753,13 @@ const rawClasses = [
           "  - Recambio de dos volemias del recién nacido (2 x 80 mL/kg = 160 mL/kg) a través de la vena umbilical.",
           "  - Remueve hematíes sensibilizados con anticuerpos, elimina bilirrubina sérica y corrige la anemia.",
           "  - Indicada ante falla de fototerapia intensiva o niveles en zona de exanguinotransfusión según curvas (habitualmente BT ≥ 20-25 mg/dL) o <strong>cualquier signo precoz de encefalopatía aguda</strong> (letargia, hipotonía, llanto agudo estridente, opistótonos)."
+        ]
+      },
+      {
+        "subhead": "5. Pruebas Hepáticas en la Colestasia Neonatal",
+        "paragraphs": [
+          "Toda ictericia que dura más de <strong>14 días en el término (21 en el prematuro)</strong> o con <strong>bilirrubina directa > 1 mg/dL (o > 20% de la total)</strong> es una <strong>colestasia</strong> y es siempre patológica. Se solicitan: bilirrubina total y fraccionada, <strong>transaminasas (ALT/AST)</strong> que indican daño hepatocelular, <strong>fosfatasas alcalinas y GGT</strong> que indican colestasia obstructiva, <strong>tiempo de protrombina/INR</strong> (si no corrige con vitamina K parenteral, falla de síntesis; si corrige, déficit de vitamina K por malabsorción de grasas), albúmina, glicemia y amonio.",
+          "Un patrón con <strong>ALT/AST muy altas</strong> orienta a hepatitis neonatal (infecciones TORCH, galactosemia, tirosinemia, hipotiroidismo, hipopituitarismo); con <strong>GGT y fosfatasas elevadas</strong> orienta a obstrucción biliar: la <strong>atresia de vías biliares</strong> es la causa más frecuente y más grave (acolia, coluria, hepatomegalia firme, evolución a cirrosis; se pesquisa con la <strong>tarjeta colorimétrica de deposiciones</strong>), y el déficit de alfa-1-antitripsina. El estudio continúa con ecografía hepática y biliar (vesícula pequeña o ausente, signo del cordón triangular), cintigrama hepatobiliar y biopsia. Es una <strong>urgencia de derivación</strong> porque la cirugía de <strong>Kasai</strong> tiene mejor resultado si se hace antes de los 60 días de vida."
         ]
       }
     ],
@@ -1045,6 +1101,27 @@ const rawClasses = [
           "• <strong>Población de Riesgo:</strong> Recién nacidos de <strong>término y postérmino (≥ 42 semanas) o con Restricción de Crecimiento Fetal (RCF)</strong>. ¡Casi NUNCA ocurre en prematuros < 34 semanas!",
           "• <strong>Radiografía de Tórax Clásica:</strong> Marcada hiperinsuflación torácica con <strong>infiltrados algodonosos heterogéneos difusos en 'parches' o en motas</strong>, áreas alternantes de atelectasia y enfisema, y aplanamiento diafragmático.",
           "• <strong>Complicación Mayor:</strong> <strong>Hipertensión Pulmonar Persistente del Neonato (HPPN)</strong> con hipoxemia refractaria severa (requiere Óxido Nítrico Inhalado y ventilación de alta frecuencia)."
+        ]
+      },
+      {
+        "subhead": "5. Enfermedad Pulmonar Crónica del Prematuro: Displasia Broncopulmonar",
+        "paragraphs": [
+          "La <strong>displasia broncopulmonar (DBP)</strong> es la enfermedad pulmonar crónica del prematuro: <strong>dependencia de oxígeno a los 28 días de vida y a las 36 semanas de edad postmenstrual</strong> (en < 32 semanas). Se grada en leve (aire ambiental a las 36 semanas), moderada (FiO₂ < 30%) y severa (FiO₂ ≥ 30% o necesidad de presión positiva). Resulta de la inmadurez pulmonar más la injuria por <strong>ventilación mecánica, oxígeno, infección y ductus arterioso persistente</strong>, con detención de la alveolarización. Los factores de riesgo son la prematurez extrema, el bajo peso, la corioamnionitis, la sepsis y la ventilación prolongada.",
+          "<em>Clínica y diagnóstico:</em> taquipnea, retracciones, sibilancias y requerimiento de oxígeno persistente; la radiografía muestra opacidades intersticiales o patrón quístico con hiperinsuflación. <em>Prevención:</em> corticoides prenatales, surfactante precoz, CPAP y ventilación protectora, cafeína, evitar la hiperoxia y tratar el ductus. <em>Manejo (Sospecha/Inicial/Derivar):</em> oxígeno para saturación de 92 a 95%, diuréticos, broncodilatadores, nutrición hipercalórica, prevención del VRS (<strong>nirsevimab</strong>) y vacunas, evitando el humo de tabaco. Los niños con DBP tienen más rehospitalizaciones por infecciones respiratorias, riesgo de hipertensión pulmonar, asma y retraso del desarrollo, por lo que se <strong>derivan</strong> a broncopulmonar y neonatología para seguimiento."
+        ]
+      },
+      {
+        "subhead": "6. Apneas del Prematuro",
+        "paragraphs": [
+          "La <strong>apnea</strong> es una pausa respiratoria de más de <strong>20 segundos</strong>, o de menos si se acompaña de <strong>bradicardia (< 80-100 lpm), cianosis o desaturación</strong>. En el prematuro (50% de los < 1.500 g) se debe a inmadurez del centro respiratorio, es central, obstructiva o <strong>mixta (la más frecuente)</strong>, comienza entre el 2.° y el 7.° día y desaparece alrededor de las 36 a 37 semanas de edad postmenstrual. La respiración periódica (pausas < 10 a 15 segundos sin bradicardia) es benigna.",
+          "<strong>Siempre se descartan causas secundarias</strong> (si hay apnea en un recién nacido de término es patológica): sepsis, hipoglicemia, hipoxia, hipo o hipertermia, anemia, hemorragia intraventricular o convulsión, ductus, enterocolitis, reflujo, fármacos maternos y alteraciones electrolíticas. <em>Manejo:</em> monitorización cardiorrespiratoria, estimulación táctil y posición; <strong>cafeína</strong> (carga de 20 mg/kg y mantención de 5 a 10 mg/kg/día, que además mejora la DBP y el neurodesarrollo), CPAP nasal si son obstructivas o mixtas y ventilación si no cede. Se suspende la cafeína con > 34 semanas y 5 a 7 días sin apneas; el monitor domiciliario de rutina no previene el síndrome de muerte súbita."
+        ]
+      },
+      {
+        "subhead": "7. Otras Complicaciones del Prematuro por Sistemas",
+        "paragraphs": [
+          "• <strong>Respiratorias:</strong> membrana hialina, apneas, displasia broncopulmonar. • <strong>Cardiovasculares:</strong> <strong>ductus arterioso persistente</strong> (soplo continuo, pulsos saltones, insuficiencia cardíaca; ibuprofeno, indometacina o paracetamol, o cierre quirúrgico). • <strong>Neurológicas:</strong> <strong>hemorragia intraventricular</strong> (sobre todo < 32 semanas; ecografía transfontanelar los días 3 a 7) y <strong>leucomalacia periventricular</strong> (futura diplejía espástica). • <strong>Digestivas:</strong> <strong>enterocolitis necrotizante</strong> (distensión abdominal, sangre en las deposiciones, neumatosis intestinal en la radiografía; ayuno, descompresión, antibióticos y cirugía si hay perforación).",
+          "• <strong>Metabólicas y hematológicas:</strong> hipoglicemia, hipocalcemia, ictericia más intensa, <strong>anemia del prematuro</strong> y osteopenia. • <strong>Infecciosas:</strong> sepsis tardía nosocomial. • <strong>Sensoriales:</strong> retinopatía del prematuro e hipoacusia. El prematuro tardío (34-36 semanas) concentra la mayoría de los prematuros y tiene mayor riesgo de hipoglicemia, ictericia, dificultad respiratoria y rehospitalización."
         ]
       }
     ],
@@ -1618,6 +1695,27 @@ const rawClasses = [
           "• <strong>Hipocalcemia Tardía (> 72 horas):</strong> Asociada a ingesta de leche de vaca no maternizada (exceso de fósforo), hipomagnesemia o hipoparatiroidismo congénito (Síndrome de DiGeorge).",
           "• <strong>Tratamiento Sintomático (Temblores / Convulsiones / Prolongación del intervalo QT):</strong> <strong>Gluconato de Calcio al 10% a dosis de 1 a 2 mL/kg (100-200 mg/kg) EV lento diluido al 50% con agua bidestilada en 10-15 minutos</strong> bajo monitorización electrocardiográfica continua (riesgo de bradicardia severa, asistolía y necrosis cutánea por extravasación)."
         ]
+      },
+      {
+        "subhead": "4. Policitemia Neonatal",
+        "paragraphs": [
+          "La <strong>policitemia</strong> se define como un <strong>hematocrito venoso central > 65%</strong> (o hemoglobina > 22 g/dL); el hematocrito capilar sobreestima y debe confirmarse en sangre venosa. Causas: aumento de la eritropoyesis fetal por hipoxia crónica (<strong>PEG/restricción de crecimiento, hijo de madre diabética, postérmino</strong>, tabaquismo materno, altura) y transfusión (clampeo tardío del cordón, gemelo receptor de una transfusión feto-fetal).",
+          "<em>Clínica:</em> plétora, letargia, mala succión, taquipnea, cianosis, hipoglicemia, ictericia, convulsiones y, por hiperviscosidad, trombosis (renal), enterocolitis necrotizante e hipertensión pulmonar. <em>Manejo (Inicial/Derivar):</em> el asintomático con hematocrito de 65 a 70% se hidrata y se controla con glicemia y hematocrito seriados; el <strong>sintomático o con hematocrito > 70% requiere exsanguinotransfusión parcial</strong> con suero fisiológico (llevar el hematocrito a ~55%), con derivación a una unidad neonatal."
+        ]
+      },
+      {
+        "subhead": "5. Hijo de Madre Diabética: Complicaciones y Manejo",
+        "paragraphs": [
+          "La hiperglicemia materna produce <strong>hiperinsulinismo fetal</strong> (macrosomía, adiposidad). Complicaciones: <strong>hipoglicemia</strong> (la más frecuente, entre las 1 y 12 horas de vida), hipocalcemia e hipomagnesemia, <strong>policitemia</strong>, hiperbilirrubinemia, <strong>membrana hialina</strong> (el exceso de insulina retrasa la maduración del surfactante), <strong>miocardiopatía hipertrófica septal</strong> (se sospecha ante soplo o dificultad respiratoria; ecocardiograma, hidratación y betabloqueador, evitando inotrópicos), traumatismo obstétrico (distocia de hombros, parálisis de Erb, fractura de clavícula) y trombosis de la vena renal.",
+          "En la diabetes pregestacional se agregan <strong>malformaciones</strong> (cardiopatías, defectos del tubo neural, síndrome de regresión caudal, colon izquierdo pequeño). <em>Manejo (Completo/Derivar):</em> glicemia al nacer y seriada, alimentación precoz, calcemia, hematocrito y bilirrubina, ecocardiograma si hay soplo o distrés, y observación por al menos 24 horas; los casos con complicaciones se derivan a una unidad neonatal."
+        ]
+      },
+      {
+        "subhead": "6. Convulsiones Neonatales: Estudio Etiológico y Tratamiento",
+        "paragraphs": [
+          "Las convulsiones neonatales son a menudo <strong>sutiles</strong> (movimientos oculares, chupeteo, «pedaleo», apneas) o clónicas focales, tónicas o mioclónicas. Se diferencian del <strong>temblor benigno (<em>jitteriness</em>)</strong>, que se desencadena con estímulos, cede al sujetar la extremidad y no tiene movimientos oculares ni apnea. La confirmación es con <strong>EEG</strong>. Causas: <strong>encefalopatía hipóxico-isquémica</strong> (la más frecuente, en las primeras 24 a 48 horas), hemorragia intracraneana o infarto, <strong>infecciones</strong> (meningitis, TORCH), <strong>trastornos metabólicos</strong> (hipoglicemia, hipocalcemia, hipomagnesemia, hipo o hipernatremia, errores innatos), malformaciones cerebrales, abstinencia de drogas y epilepsias genéticas.",
+          "<em>Estudio inicial:</em> glicemia inmediata, calcio, magnesio y sodio, gases, hemograma y hemocultivo, <strong>punción lumbar</strong> si hay sospecha de infección, ecografía transfontanelar y resonancia, y pruebas metabólicas si no hay causa evidente. <em>Tratamiento:</em> corregir la causa (suero glucosado 10% 2 mL/kg, gluconato de calcio) y <strong>fenobarbital 20 mg/kg EV</strong> como primera línea; segunda línea fenitoína o levetiracetam, con ensayo de piridoxina en las refractarias. Se <strong>deriva</strong> a UCI neonatal y neurología."
+        ]
       }
     ],
     "table": {
@@ -1809,6 +1907,28 @@ const rawClasses = [
         "paragraphs": [
           "• <strong>Tamizaje Auditivo Universal (Emisiones Otoacústicas - EOA):</strong> Se realiza a todos los recién nacidos antes del alta de la maternidad. Si falla la primera prueba, se repite al mes; si persiste alterada, se realizan Potenciales Evocados Auditivos de Tronco Encefálico (PEATC) para confirmación precoz e implementación de audífonos o implante coclear antes de los 6 meses de vida.",
           "• <strong>Tamizaje de Cardiopatías Congénitas Críticas (Oximetría de Pulso):</strong> Se mide la saturación de oxígeno a las 24-48 horas de vida en la mano derecha (preductal) y en un pie (postductal). Se considera positivo (anormal) si: 1) SatO2 < 90% en cualquier extremidad; 2) SatO2 < 95% en ambas extremidades en 3 mediciones separadas por 1 hora; 3) Diferencia > 3% entre mano derecha y pie. Permite pesquisar cardiopatías ductus-dependientes antes del colapso circulatorio al cierre del ductus."
+        ]
+      },
+      {
+        "subhead": "4. Cardiopatías Congénitas Frecuentes: Tipos y Manejo Inicial",
+        "paragraphs": [
+          "Las cardiopatías congénitas (8 por 1.000 nacidos vivos; GES en menores de 15 años) se agrupan según haya o no cianosis. <strong>Acianóticas con cortocircuito izquierda-derecha:</strong> <strong>comunicación interventricular</strong> (la más frecuente; soplo holosistólico en el borde esternal izquierdo bajo, insuficiencia cardíaca en lactantes si es grande), comunicación interauricular (soplo sistólico eyectivo pulmonar con <strong>desdoblamiento fijo del segundo ruido</strong>), <strong>ductus arterioso persistente</strong> (soplo continuo «en maquinaria», pulsos saltones) y canal auriculoventricular (síndrome de Down). <strong>Obstructivas:</strong> <strong>coartación aórtica</strong> (pulsos femorales débiles y presión menor en las piernas; shock cuando se cierra el ductus en las primeras semanas) y estenosis pulmonar y aórtica.",
+          "<strong>Cianóticas:</strong> <strong>tetralogía de Fallot</strong> (la cianótica más frecuente después del período neonatal; soplo eyectivo pulmonar, <strong>crisis hipóxicas</strong> tratadas con posición genupectoral, oxígeno, morfina y propranolol; radiografía con «corazón en bota» y flujo pulmonar disminuido), <strong>transposición de grandes arterias</strong> (cianosis intensa desde el primer día, «huevo colgado», requiere prostaglandina y septostomía), atresia tricuspídea, drenaje venoso pulmonar anómalo total, truncus y <strong>síndrome de corazón izquierdo hipoplásico</strong> (colapso con el cierre del ductus).",
+          "<em>Manejo inicial (Inicial/Derivar):</em> una cianosis que no mejora con oxígeno (<strong>prueba de hiperoxia</strong>: PaO₂ < 150 mmHg con FiO₂ 100%) y la insuficiencia cardíaca o el shock del recién nacido sugieren cardiopatía ductus-dependiente: se inicia <strong>prostaglandina E1</strong> para mantener el ductus abierto, se evita el exceso de oxígeno y se traslada a un centro con cardiología pediátrica. Toda sospecha se confirma con <strong>ecocardiograma</strong>."
+        ]
+      },
+      {
+        "subhead": "5. Hipoacusia Neonatal: Causas y Factores de Riesgo",
+        "paragraphs": [
+          "La hipoacusia congénita afecta a 1 a 3 de cada 1.000 recién nacidos y a 2 a 4% de los que pasan por UCIN. Alrededor de la mitad es <strong>genética</strong> (la mayoría no sindrómica y autosómica recesiva, por mutaciones de <strong>conexina 26</strong>; también síndromes como Waardenburg, Usher, Pendred y Treacher Collins). Entre las causas adquiridas: <strong>infección congénita por CMV</strong> (la principal no genética), rubéola, toxoplasmosis y sífilis; prematurez, <strong>hiperbilirrubinemia grave</strong>, asfixia, meningitis, ventilación mecánica prolongada, malformaciones craneofaciales y <strong>ototóxicos</strong> (aminoglucósidos, diuréticos de asa, vancomicina).",
+          "<strong>Factores de riesgo</strong> que obligan a seguimiento aunque el tamizaje sea normal: antecedente familiar de sordera infantil, estadía en UCIN > 5 días, exanguinotransfusión, infección congénita, malformaciones de cabeza y cuello, síndromes y meningitis. La meta internacional es <strong>tamizaje al mes, diagnóstico a los 3 meses e intervención (audífonos o implante coclear) a los 6 meses</strong>, porque el desarrollo del lenguaje depende de la intervención precoz."
+        ]
+      },
+      {
+        "subhead": "6. Emisiones Otoacústicas y PEATC: Interpretación",
+        "paragraphs": [
+          "Las <strong>emisiones otoacústicas (EOA)</strong> registran con una sonda en el conducto auditivo el sonido que generan las <strong>células ciliadas externas de la cóclea</strong> en respuesta a un estímulo. El resultado es <strong>«pasa» o «refiere»</strong>. Un «pasa» indica función coclear normal, pero no descarta una hipoacusia de aparición tardía, progresiva o una <strong>neuropatía auditiva</strong> (EOA normales con alteración del nervio). Un «refiere» <strong>no es un diagnóstico</strong>: puede deberse a vérnix o líquido en el oído medio en las primeras 24 a 48 horas, ruido ambiental o movimiento.",
+          "<em>Conducta (Interpreta y emplea):</em> si «refiere», se repite la EOA y, si persiste, se solicitan <strong>potenciales evocados auditivos de tronco cerebral (PEATC)</strong>, que exploran el nervio auditivo y el tronco y confirman el umbral (hipoacusia si el umbral es > 30-35 dB). En los recién nacidos de <strong>UCIN o con factores de riesgo</strong> se hace PEATC directamente. Todo niño con confirmación se <strong>deriva antes de los 3 meses</strong> a otorrinolaringología y fonoaudiología."
         ]
       }
     ],

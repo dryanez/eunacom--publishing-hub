@@ -28,7 +28,8 @@ module.exports = {
           { t: 'Crépitos secos tipo velcro', d: 'Teleinspiratorios, bibasales, en más del 80 %',
             say: 'Y el examen físico tiene dos signos que el EUNACOM ama. El primero son los crépitos secos tipo velcro: al final de la inspiración, en ambas bases, suenan como cuando despegas un velcro. Están en más del ochenta a noventa por ciento de los pacientes con fibrosis.' },
           { t: 'Acropaquia', d: 'Dedos en palillo de tambor, en la mitad de las FPI',
-            say: 'El segundo es la acropaquia, los dedos en palillo de tambor con uñas en vidrio de reloj, presente en cerca de la mitad de las fibrosis pulmonares idiopáticas. Disnea progresiva, tos seca, crépitos en velcro y acropaquia: esa es la foto del examen.' },
+            say: 'El segundo es la acropaquia, los dedos en palillo de tambor con uñas en vidrio de reloj, presente en cerca de la mitad de las fibrosis pulmonares idiopáticas. Disnea progresiva, tos seca, crépitos en velcro y acropaquia: esa es la foto del examen. Mira estas manos.',
+            photo: { src: 'biblioteca/02_neumologia/resp-18/03_acropaquias__amir-reuma_p113.jpg', label: 'Acropaquias', at: 'Mira estas manos', credit: 'Manual AMIR Reumatología, p. 113' } },
         ] },
       ],
     },
@@ -56,7 +57,8 @@ module.exports = {
         { show: ['tac'], note: 'Tomografía de alta resolución, sin contraste',
           say: 'El examen de elección es la tomografía computarizada de alta resolución, la TACAR, sin contraste. No buscamos vasos, buscamos el dibujo del intersticio, y ese dibujo tiene nombre.' },
         { show: ['niu'], note: 'El sello de la FPI',
-          say: 'Si el dibujo es de neumonía intersticial usual, el patrón NIU, con panal de abejas en las bases y bajo la pleura, estás frente al sello de la fibrosis pulmonar idiopática.' },
+          say: 'Si el dibujo es de neumonía intersticial usual, el patrón NIU, con panal de abejas en las bases y bajo la pleura, estás frente al sello de la fibrosis pulmonar idiopática. Mira esta tomografía: el panal de abejas bajo la pleura. Y en esta radiografía, el patrón reticular de las bases.',
+            photos: [{ src: 'biblioteca/02_neumologia/resp-18/01_fpi-rx-y-tc_alt1__cto-neumo_p73.jpg', label: 'Panal de abejas', at: 'Mira esta tomografía', credit: 'Manual CTO Neumología 14.ª ed., p. 73' }, { src: 'biblioteca/02_neumologia/resp-18/01_fpi-rx-y-tc__cto-neumo_p73.jpg', label: 'FPI en la radiografía', at: 'Y en esta radiografía', credit: 'Manual CTO Neumología 14.ª ed., p. 73' }] },
         { show: ['fpi'], note: 'Esto se pregunta: no hace falta biopsia',
           say: 'Y aquí viene un dato muy preguntado: si la TACAR muestra un patrón NIU definitivo en un paciente de más de sesenta años, sin otra causa, el diagnóstico está hecho. No se requiere biopsia pulmonar.' },
         { show: ['nin', 'sec'], note: 'NINE: pensar en el tejido conectivo',
@@ -71,7 +73,8 @@ module.exports = {
       cards: [
         { title: 'Patrón NIU', tag: 'Fibrosis idiopática', kind: 'criteria', items: [
           { t: 'Reticulación subpleural y basal', d: 'Bilateral',
-            say: 'Veamos cómo se define el patrón NIU, porque tiene cuatro componentes. El primero son opacidades reticulares, bajo la pleura y en las bases, en ambos pulmones.' },
+            say: 'Veamos cómo se define el patrón NIU, porque tiene cuatro componentes. El primero son opacidades reticulares, bajo la pleura y en las bases, en ambos pulmones. Mira estos esquemas del patrón intersticial.',
+            photos: [{ src: 'biblioteca/02_neumologia/resp-18/02_patrones-intersticiales_1__cto-neumo_p80.jpg', label: 'Patrón quístico', at: 'Mira estos esquemas', credit: 'Manual CTO Neumología 14.ª ed., p. 80' }, { src: 'biblioteca/02_neumologia/resp-18/02_patrones-intersticiales_2__cto-neumo_p80.jpg', label: 'Patrón periférico', at: 'Mira estos esquemas', credit: 'Manual CTO Neumología 14.ª ed., p. 80' }] },
           { t: 'Panal de abejas subpleural', d: 'El hallazgo clave',
             say: 'El segundo, y el más importante, es el panal de abejas: pequeños quistes apilados bajo la pleura. Es pulmón destruido y cicatrizado.' },
           { t: 'Bronquiectasias por tracción', d: 'La fibrosis tira de la vía aérea',
@@ -81,7 +84,8 @@ module.exports = {
         ] },
         { title: 'Patrón NINE', tag: 'Conectivopatías', kind: 'normal', items: [
           { t: 'Vidrio esmerilado subpleural', d: 'Respeta el espacio subpleural inmediato',
-            say: 'La NINE es otra cosa: predomina el vidrio esmerilado subpleural bilateral, y típicamente respeta la franja inmediatamente bajo la pleura. Es el patrón de la esclerodermia, el lupus y la artritis reumatoide.' },
+            say: 'La NINE es otra cosa: predomina el vidrio esmerilado subpleural bilateral, y típicamente respeta la franja inmediatamente bajo la pleura. Es el patrón de la esclerodermia, el lupus y la artritis reumatoide. Mira esta tomografía: el vidrio esmerilado de la NINE, sin panal.',
+            photo: { src: '_verificadas/172_resp_Fibrosis_pulmonar_idiopática__nelsontext_p3338_1.jpg', label: 'NINE: vidrio esmerilado', at: 'Mira esta tomografía', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 3338' } },
         ] },
       ],
     },
@@ -102,6 +106,32 @@ module.exports = {
             say: 'La segunda gran familia son las enfermedades del tejido conectivo, las que dan el patrón NINE: esclerosis sistémica, lupus y artritis reumatoide.' },
           { t: 'Neumonitis por hipersensibilidad', d: 'Otra causa secundaria a descartar',
             say: 'Y el algoritmo del libro agrega la neumonitis por hipersensibilidad como otra causa secundaria a considerar cuando el patrón no es un NIU típico.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Neumoconiosis',
+      title: 'Polvos minerales: silicosis y asbestosis',
+      cards: [
+        { title: 'Silicosis', tag: 'Minería, canteras, arenado', kind: 'key', items: [
+          { t: 'Nódulos en lóbulos superiores', d: 'Adenopatías hiliares en cáscara de huevo',
+            say: 'Las neumoconiosis son enfermedades intersticiales por inhalar polvo mineral durante años. La silicosis, en minería, canteras, arenado o cerámica, da nódulos pequeños de predominio en los lóbulos superiores, con adenopatías hiliares en cáscara de huevo. Mira esta radiografía: los nódulos mal definidos arriba.',
+            photo: { src: 'biblioteca/02_neumologia/resp-18/10_silicosis-cronica-rx__harrison_p2210.jpg', label: 'Silicosis crónica', at: 'Mira esta radiografía', credit: 'Harrison, Principios de Medicina Interna, p. 2210' } },
+          { t: 'Más tuberculosis y cáncer', d: 'La del carbón es parecida',
+            say: 'Aumenta el riesgo de tuberculosis y de cáncer de pulmón. La neumoconiosis de los mineros del carbón se parece a la silicosis.' },
+        ] },
+        { title: 'Asbestosis', tag: 'Asbesto', kind: 'alert', items: [
+          { t: 'Fibrosis basal y placas pleurales calcificadas', d: 'Mesotelioma y cáncer, más si fuma',
+            say: 'La asbestosis produce fibrosis de las bases y placas pleurales calcificadas, y aumenta el riesgo de mesotelioma y de cáncer de pulmón, sobre todo en fumadores. Y en esta TACAR, la reticulación bajo la pleura, en las bases.',
+            photo: { src: 'biblioteca/02_neumologia/resp-18/11_asbestosis-tacar__harrison_p2209.jpg', label: 'Asbestosis en la TACAR', at: 'Y en esta TACAR', credit: 'Harrison, Principios de Medicina Interna, p. 2209' } },
+        ] },
+        { title: 'Diagnóstico y manejo', tag: 'Ley 16.744', kind: 'criteria', items: [
+          { t: 'Historia ocupacional + radiografía o TACAR', d: 'Disnea de esfuerzo; espirometría restrictiva',
+            say: 'La clínica es disnea de esfuerzo y tos tras años de exposición, con patrón restrictivo en la espirometría. El diagnóstico se basa en la historia ocupacional y la radiografía o la TACAR.' },
+          { t: 'No hay tratamiento que revierta la fibrosis', d: 'Retirar de la exposición, tratar TBC latente',
+            say: 'No existe tratamiento que revierta la fibrosis: se retira al trabajador de la exposición, se trata la tuberculosis latente, se vigila el cáncer y se deriva. Son enfermedades profesionales, Ley dieciséis mil setecientos cuarenta y cuatro.' },
         ] },
       ],
     },
@@ -139,6 +169,28 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Prevención',
+      title: 'Cuidar el pulmón del polvo y del humo',
+      cards: [
+        { title: 'En el trabajo', tag: 'Jerarquía', kind: 'key', items: [
+          { t: 'Eliminar o sustituir el agente', d: 'Se prohíbe el asbesto',
+            say: 'La prevención sigue un orden: primero eliminar o sustituir el agente, y se prohíbe el asbesto. Después controlar el polvo en la fuente, humedeciendo, ventilando y extrayendo localizado.' },
+          { t: 'Mascarillas al final', d: 'Vigilancia con espirometría y radiografía',
+            say: 'Los respiradores van al final de la lista. Y a los expuestos a sílice, asbesto o carbón se les hace vigilancia médica periódica con espirometría y radiografía.' },
+        ] },
+        { title: 'En el hogar', tag: 'Inhalantes domésticos', kind: 'criteria', items: [
+          { t: 'No leña ni parafina sin ventilación', d: 'Evitar humo de tabaco ajeno',
+            say: 'En la casa: no usar leña ni parafina sin ventilación, evitar el humo de tabaco ajeno, controlar la humedad y los mohos, y ventilar cuando se usan aerosoles, pinturas y solventes.' },
+        ] },
+        { title: 'Otras enfermedades por inhalantes', tag: 'No solo fibrosis', kind: 'alert', items: [
+          { t: 'Asma ocupacional, neumonitis por hipersensibilidad, EPOC', d: 'Pulmón del granjero o de las aves',
+            say: 'Los inhalantes domésticos y laborales causan además asma ocupacional, neumonitis por hipersensibilidad, como el pulmón del granjero o de los criadores de aves, y EPOC.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -149,43 +201,6 @@ module.exports = {
       steps: [
         { note: 'Panal de abejas',
           say: 'La fibrosis pulmonar idiopática parte en las bases y bajo la pleura, y avanza con quistes en panal de abejas. Es un hombre mayor de sesenta, con disnea progresiva y crépitos tipo velcro. Con un patrón NIU definitivo no se necesita biopsia.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Fibrosis pulmonar idiopática',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-18/01_fpi-rx-y-tc_alt1__cto-neumo_p73.jpg', label: 'Panal de abejas (TC)', credit: 'Manual CTO Neumología 14.ª ed., p. 73' },
-        { src: 'biblioteca/02_neumologia/resp-18/01_fpi-rx-y-tc__cto-neumo_p73.jpg', label: 'Fibrosis pulmonar idiopática (RX)', credit: 'Manual CTO Neumología 14.ª ed., p. 73' },
-        { src: 'biblioteca/02_neumologia/resp-18/03_acropaquias__amir-reuma_p113.jpg', label: 'Acropaquias', credit: 'Manual AMIR Reumatología, p. 113' },
-      ],
-      steps: [
-        { note: 'Quistes subpleurales en las bases',
-          say: 'En la fibrosis pulmonar idiopática la tomografía muestra quistes pequeños, apilados, en la periferia de las bases: el panal de abejas. Con ese patrón no se necesita biopsia.' },
-        { note: 'La radiografía, menos precisa',
-          say: 'En la radiografía de tórax se ve un reticulado que predomina en las bases y la periferia. El panal se distingue mucho mejor en la tomografía.' },
-        { note: 'Frecuentes en la fibrosis',
-          say: 'Y las acropaquias aparecen en muchos de estos pacientes, junto con los crépitos en velcro.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-18/02_patrones-intersticiales_1__cto-neumo_p80.jpg', label: 'Patrón intersticial quístico (esquema)', credit: 'Manual CTO Neumología 14.ª ed., p. 80' },
-        { src: 'biblioteca/02_neumologia/resp-18/02_patrones-intersticiales_2__cto-neumo_p80.jpg', label: 'Patrón intersticial periférico (esquema)', credit: 'Manual CTO Neumología 14.ª ed., p. 80' },
-      ],
-      steps: [
-        { note: 'Patrón intersticial quístico (esquema)',
-          say: 'Esquema de un patrón intersticial con imágenes quísticas en ambos pulmones.' },
-        { note: 'Patrón intersticial periférico (esquema)',
-          say: 'Esquema de un patrón intersticial de predominio periférico.' },
       ],
     },
 
@@ -282,6 +297,82 @@ module.exports = {
         options: 'Las opciones: salbutamol, agregar espironolactona, suspender el rivaroxabán, suspender la amiodarona, o agregar furosemida. Piénsalo.',
         answer: 'Es la D. Disnea progresiva con tos seca y crepitaciones en una usuaria de amiodarona es toxicidad pulmonar por amiodarona, y lo primero es suspenderla. El distractor tentador es la furosemida, porque es cardiópata y tiene crépitos; pero no hay edema ni otros signos de congestión, y la tos seca de meses apunta al intersticio.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 137",
+      "stem": "Un paciente de 67 años, fumador de 15 paquetes-año que dejó de fumar hace 10 años, jubilado de la minería, consulta por disnea de esfuerzos progresiva de 6 meses de evolución, asociada a tos. Al examen físico presenta murmullo pulmonar globalmente disminuido, sibilancias y roncus bilaterales, asociados a crepitaciones difusas. La radiografía de tórax muestra infiltrados bilaterales, mayores en las zonas centrales, con imágenes verticales onduladas de 1 a 2 cm en ambos campos pulmonares.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bronquitis crónica"
+        },
+        {
+          "letter": "B",
+          "text": "Neumoconiosis"
+        },
+        {
+          "letter": "C",
+          "text": "Cáncer de pulmón"
+        },
+        {
+          "letter": "D",
+          "text": "Limitación crónica del flujo aéreo"
+        },
+        {
+          "letter": "E",
+          "text": "Fibrosis pulmonar idiopática"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El antecedente laboral en la minería, con disnea progresiva y compromiso intersticial bilateral de predominio central y superior, orienta a neumoconiosis, en Chile principalmente silicosis. La fibrosis pulmonar idiopática compromete las bases y la periferia, y el tabaquismo leve y antiguo no explica el cuadro.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Un hombre de sesenta y siete años, jubilado de la minería y exfumador leve, tiene seis meses de disnea progresiva y tos, con sibilancias y crepitaciones difusas. La radiografía muestra infiltrados bilaterales de predominio central.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: bronquitis crónica, neumoconiosis, cáncer de pulmón, limitación crónica del flujo aéreo o fibrosis pulmonar idiopática. Piénsalo.",
+        "answer": "Es la B, neumoconiosis. El dato clave es la minería: en Chile eso es sílice, y da compromiso intersticial de predominio central y superior. La fibrosis pulmonar idiopática tienta por las crepitaciones, pero compromete las bases y la periferia, y aquí hay una exposición que lo explica."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.3.002 · Prevención de daño pulmonar por inhalantes domésticos y laborales",
+      "stem": "Un hombre de 50 años trabaja hace 20 años en una mina subterránea perforando roca sin protección respiratoria. Presenta disnea progresiva. La radiografía muestra múltiples nódulos pequeños en lóbulos superiores y adenopatías hiliares con calcificación 'en cáscara de huevo'.",
+      "question": "¿Cuál es la medida más importante para prevenir esta enfermedad en los demás trabajadores?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibióticos profilácticos"
+        },
+        {
+          "letter": "B",
+          "text": "Corticoides inhalados preventivos"
+        },
+        {
+          "letter": "C",
+          "text": "Vacunación BCG anual"
+        },
+        {
+          "letter": "D",
+          "text": "Control de la exposición (técnicas húmedas y ventilación), protección respiratoria certificada y vigilancia médica con radiografía periódica"
+        },
+        {
+          "letter": "E",
+          "text": "Suplementos de vitamina D"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La silicosis es una neumoconiosis por inhalación de sílice cristalina, sin tratamiento curativo, que predispone a tuberculosis y cáncer pulmonar. Se previene controlando la exposición (técnicas húmedas, ventilación, encierro de procesos), con protección respiratoria adecuada y vigilancia ocupacional con radiografía periódica. Debe notificarse como enfermedad profesional.",
+      "say": {
+        "stem": "Un minero subterráneo de cincuenta años, sin protección respiratoria por veinte años, tiene disnea progresiva, nódulos pequeños en lóbulos superiores y ganglios hiliares calcificados en cáscara de huevo.",
+        "question": "¿Cuál es la medida más importante para prevenir esta enfermedad en sus compañeros?",
+        "options": "Las opciones: antibióticos profilácticos, corticoides inhalados, BCG anual, control de la exposición con protección respiratoria y vigilancia radiológica o vitamina D. Piénsalo.",
+        "answer": "Es la D. La silicosis no tiene cura, así que se previene controlando la exposición al polvo de sílice y vigilando a los trabajadores. La BCG tienta porque la silicosis predispone a tuberculosis, pero no previene la silicosis."
+      }
     },
 
     {

@@ -60,11 +60,13 @@ module.exports = {
           { t: 'Tofos en pabellón y tendones', d: 'Depósitos granulomatosos indoloros',
             say: 'Tras años de hiperuricemia sin tratar aparecen los tofos: acúmulos nodulares de cristales de urato rodeados de reacción inflamatoria, típicos en el hélix de la oreja, el olécranon y el tendón de Aquiles.' },
           { t: 'Deformidad articular fija', d: 'Daño óseo progresivo',
-            say: 'Los tofos pueden fistulizar material blanquecino como tiza y van destruyendo progresivamente la arquitectura de la articulación.' },
+            say: 'Los tofos pueden fistulizar material blanquecino como tiza y van destruyendo progresivamente la arquitectura de la articulación. Mira estas manos: los nódulos duros bajo la piel son tofos.',
+          photo: { src: 'biblioteca/08_reumatologia/reuma-03/02_tofos-en-manos__amir-reuma_p19.jpg', label: 'Tofos en las manos', at: 'Mira estas manos', credit: 'Manual AMIR Reumatología, p. 19' } },
         ] },
         { title: 'Radiología clásica', tag: 'Signo de Martel', kind: 'key', items: [
           { t: 'Erosiones en sacabocado', d: 'Bordes colgantes escleróticos',
-            say: 'En la radiografía simple la gota crónica muestra erosiones periarticulares en sacabocado con bordes escleróticos colgantes, conocido como el signo de Martel.' },
+            say: 'En la radiografía simple la gota crónica muestra erosiones periarticulares en sacabocado con bordes escleróticos colgantes, conocido como el signo de Martel. Mira esta radiografía de mano y de pie: erosiones de bordes netos, sin desmineralización.',
+          photo: { src: '_verificadas/214_reuma_Gota_y_condrocalcinosis__HelmsSkeletal_p143.jpg', label: 'Rx de gota crónica', at: 'Mira esta radiografía', credit: 'Helms, Fundamentals of Skeletal Radiology, p. 143' } },
           { t: 'Sin osteopenia periarticular', d: 'La gran diferencia con la AR',
             say: 'Y un dato de examen crucial: a diferencia de la artritis reumatoide, la gota no produce osteopenia yuxtaarticular.' },
         ] },
@@ -97,7 +99,8 @@ module.exports = {
         { show: ['sec'], note: 'Las causas secundarias se preguntan',
           say: 'Sin embargo, si la condrocalcinosis o pseudogota se presenta en un adulto menor de cincuenta años, es mandatorio estudiar causas metabólicas secundarias: hemocromatosis con sobrecarga férrica, hiperparatiroidismo primario con hipercalcemia, o hipomagnesemia severa.' },
         { show: ['rod', 'rad'], note: 'La rodilla es la articulación reina',
-          say: 'La articulación afectada en la mitad de los casos es la rodilla. Y en la radiografía se observa una calcificación lineal o punteada característica en los meniscos o en el cartílago articular.' },
+          say: 'La articulación afectada en la mitad de los casos es la rodilla. Y en la radiografía se observa una calcificación lineal o punteada característica en los meniscos o en el cartílago articular. En esta radiografía de rodilla se ve esa línea de calcio dentro del cartílago.',
+          photo: { src: 'biblioteca/08_reumatologia/reuma-03/03_condrocalcinosis-rx-rodilla__amir-reuma_p23.jpg', label: 'Condrocalcinosis', at: 'En esta radiografía de rodilla', credit: 'Manual AMIR Reumatología, p. 23' } },
       ],
     },
 
@@ -122,9 +125,14 @@ module.exports = {
         { show: ['asp'], note: 'El patrón de oro diagnóstico',
           say: 'El diagnóstico de certeza absoluto de una artropatía por microcristales no lo da el examen de sangre ni la radiografía: lo da el examen en fresco del líquido sinovial bajo microscopio de luz polarizada con compensador rojo de primer orden.' },
         { show: ['got', 'ama'], note: 'Cristal de gota',
-          say: 'Los cristales de urato monosódico de la gota tienen forma de aguja fina intracelular y muestran birrefringencia intensamente negativa. Cuando la aguja se alinea paralela al eje del compensador, se ve de color amarillo brillante.' },
+          say: 'Los cristales de urato monosódico de la gota tienen forma de aguja fina intracelular y muestran birrefringencia intensamente negativa. Cuando la aguja se alinea paralela al eje del compensador, se ve de color amarillo brillante. Mira estos cristales: agujas finas y brillantes, y aquí otro campo con las mismas agujas.',
+          photos: [
+            { src: 'biblioteca/08_reumatologia/reuma-03/01_cristales-de-urato__amir-reuma_p20.jpg', label: 'Cristales de urato', at: 'Mira estos cristales', credit: 'Manual AMIR Reumatología, p. 20' },
+            { src: 'biblioteca/08_reumatologia/reuma-03/01_cristales-de-urato_alt1__cto-reuma_p49.jpg', label: 'Urato en luz polarizada', at: 'aquí otro campo', credit: 'Manual CTO Reumatología 14.ª ed., p. 49' },
+          ] },
         { show: ['pse', 'azu'], note: 'Cristal de pseudogota',
-          say: 'En cambio, los cristales de pirofosfato de calcio de la pseudogota son romboidales o rectangulares, y tienen birrefringencia débilmente positiva. Al alinearse paralelos al eje del compensador, se ven de color azul.' },
+          say: 'En cambio, los cristales de pirofosfato de calcio de la pseudogota son romboidales o rectangulares, y tienen birrefringencia débilmente positiva. Al alinearse paralelos al eje del compensador, se ven de color azul. Mira estos cristales romboidales, más cortos y de brillo débil.',
+          photo: { src: 'biblioteca/08_reumatologia/reuma-03/01_cristales_pirofosfato_polarizada__commons.jpg', label: 'Pirofosfato', at: 'Mira estos cristales romboidales', credit: 'Wikimedia Commons «Birefringence microscopy of pseudogout, annotated.jpg», CC0, Mikael Häggström' } },
       ],
     },
 
@@ -185,6 +193,34 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Tratamiento de la crisis',
+      title: 'La crisis de pseudogota',
+      cards: [
+        { title: 'Primera opción', tag: 'Mono u oligoartritis', kind: 'key', items: [
+          { t: 'Evacuar y infiltrar', d: 'Metilprednisolona o triamcinolona intraarticular',
+            say: 'La lógica es la de la crisis gotosa, pero sin hipouricemiantes, porque el alopurinol no actúa sobre el pirofosfato de calcio. En una rodilla, la primera opción es la artrocentesis evacuadora más la infiltración de corticoide dentro de la articulación, con metilprednisolona o triamcinolona.' },
+          { t: 'Solo tras descartar infección', d: 'Con Gram y cultivo del líquido',
+            say: 'Pero ojo: se infiltra recién cuando el Gram y el cultivo descartaron una infección.' },
+        ] },
+        { title: 'Alternativas', tag: 'Según el paciente', kind: 'pharma', items: [
+          { t: 'AINEs a dosis plenas', d: 'Con protección gástrica y riñón sano',
+            say: 'Como alternativa, antiinflamatorios no esteroidales a dosis plenas con protección gástrica, si la función renal y las enfermedades de base lo permiten.' },
+          { t: 'Colchicina 0,5 mg cada 8 a 12 horas', d: 'Menos eficaz y peor tolerada que en gota',
+            say: 'La colchicina se usa en dosis bajas, medio miligramo cada ocho a doce horas, ajustada a la función renal. Es menos eficaz y peor tolerada que en la gota.' },
+          { t: 'Prednisona 30 a 40 mg al día', d: 'Por 3 a 5 días, con pauta descendente',
+            say: 'Y la prednisona, treinta a cuarenta miligramos al día por tres a cinco días con descenso gradual, cuando hay poliartritis, insuficiencia renal o contraindicación de antiinflamatorios.' },
+        ] },
+        { title: 'Medidas y seguimiento', tag: 'No olvidar', kind: 'criteria', items: [
+          { t: 'Reposo, hielo y profilaxis', d: 'Colchicina 0,5 mg al día si recurre',
+            say: 'Se agregan reposo articular y hielo local. En la pseudogota recurrente puede usarse colchicina, medio miligramo al día, como profilaxis.' },
+          { t: 'Buscar la causa metabólica', d: 'Calcio, fósforo, PTH, magnesio, ferritina',
+            say: 'Si el paciente es menor de sesenta años o tiene poliartritis, se piden calcio, fósforo, hormona paratiroidea, magnesio, ferritina y saturación de transferrina, y se deriva a reumatología si las crisis se repiten.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Terapia a largo plazo',
       title: 'Hipouricemiantes y profilaxis de reactivación',
       cards: [
@@ -220,39 +256,6 @@ module.exports = {
       steps: [
         { note: 'Precipita en el frío',
           say: 'Con el ácido úrico alto, el urato está disuelto al límite. En la primera metatarsofalángica, que es distal y fría, precipita en cristales en aguja. Los neutrófilos los fagocitan y se desata una inflamación intensa: dolor, rubor, calor e hinchazón.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Gota y pseudogota',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-03/01_cristales_pirofosfato_polarizada__commons.jpg', label: 'Pirofosfato', credit: 'Wikimedia Commons «Birefringence microscopy of pseudogout, annotated.jpg», CC0, Mikael Häggström, M.D. Author info - Reusing images- Conflic' },
-        { src: 'biblioteca/08_reumatologia/reuma-03/03_condrocalcinosis-rx-rodilla__amir-reuma_p23.jpg', label: 'Condrocalcinosis', credit: 'Manual AMIR Reumatología, p. 23' },
-        { src: 'biblioteca/08_reumatologia/reuma-03/02_tofos-en-manos__amir-reuma_p19.jpg', label: 'Tofos', credit: 'Manual AMIR Reumatología, p. 19' },
-      ],
-      steps: [
-        { note: 'Romboidales, birrefringencia positiva',
-          say: 'Los cristales de pirofosfato son romboidales y con birrefringencia débil positiva. Es la pseudogota, típica de la rodilla del adulto mayor.' },
-        { note: 'Calcio en el cartílago',
-          say: 'En la radiografía, la pseudogota deja una línea de calcio dentro del cartílago: la condrocalcinosis.' },
-        { note: 'Depósitos de urato',
-          say: 'Y en la gota crónica aparecen tofos: depósitos de urato bajo la piel, aquí en las manos.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-03/01_cristales-de-urato__amir-reuma_p20.jpg', label: 'Cristales de urato', credit: 'Manual AMIR Reumatología, p. 20' },
-      ],
-      steps: [
-        { note: 'Cristales de urato',
-          say: 'Y estos son los cristales de urato de la gota: agujas finas y brillantes. Compáralos con los romboides de la pseudogota: aguja con birrefringencia negativa es gota.' },
       ],
     },
 
@@ -367,6 +370,44 @@ module.exports = {
         options: 'Las opciones: probenecid, alopurinol, corticoides tópicos, paracetamol, o colchicina. Piénsalo.',
         answer: 'Es la E. En un cuadro agudo de podagra la prioridad es yugular la crisis. Dentro de las alternativas disponibles, la colchicina es el antiinflamatorio de elección para el ataque agudo de gota. El alopurinol y el probenecid son hipouricemiantes y están formalmente contraindicados durante la fase aguda, aunque el paciente tenga indicación de recibirlos más adelante por la recurrencia de los episodios.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 8",
+      "stem": "Un adulto mayor presenta gonalgia bilateral, de dos años de evolución, que aumenta con la marcha. Hace algunas horas el dolor de la rodilla izquierda se vuelve mucho más intenso, apareciendo eritema, aumento de volumen y sensación febril.",
+      "question": "¿Cuál es el examen más adecuado para este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Resonancia magnética de rodilla"
+        },
+        {
+          "letter": "B",
+          "text": "Radiografía de rodilla"
+        },
+        {
+          "letter": "C",
+          "text": "Hemograma y VHS"
+        },
+        {
+          "letter": "D",
+          "text": "Estudio de líquido articular"
+        },
+        {
+          "letter": "E",
+          "text": "TAC de rodilla"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Sobre una artrosis de base aparece una monoartritis aguda, inflamatoria y febril: hay que descartar artritis séptica y por cristales. El examen clave es la artrocentesis con estudio del líquido: recuento celular, Gram, cultivo y búsqueda de cristales. La radiografía y el hemograma ayudan, pero no confirman ni descartan infección.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Un adulto mayor con dolor de ambas rodillas hace dos años, que aumenta al caminar. Hace unas horas la rodilla izquierda se pone mucho más dolorosa, roja e hinchada, con sensación febril.",
+        "question": "¿Cuál es el examen más adecuado?",
+        "options": "Las opciones: resonancia de rodilla, radiografía de rodilla, hemograma con velocidad de sedimentación, estudio de líquido articular, o TAC de rodilla. Piénsalo.",
+        "answer": "Es la D. Una monoartritis aguda febril es artritis séptica hasta demostrar lo contrario, y solo el líquido articular la confirma, además de buscar cristales. La radiografía tienta por la artrosis de base, pero no distingue una infección de una crisis por cristales."
+      }
     },
 
     {

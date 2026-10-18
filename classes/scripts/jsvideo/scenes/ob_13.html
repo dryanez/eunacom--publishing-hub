@@ -1,0 +1,95 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Obstetricia 13 · sobre ilustración real: Blausen.com staff (2014) "Placenta Previa" (CC BY 3.0), dos paneles
+// (placenta en posición normal arriba, placenta previa abajo). Se recortan sin sus rótulos en inglés.
+//   ?v=previa   A1_placenta_previa: placenta normal → placenta sobre el orificio → sangrado rojo indoloro → nunca tacto
+const V = new URLSearchParams(location.search).get('v') || 'previa';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade } = K;
+const I = k => window.IMGS[k];
+
+const DST = { x: 30, y: 140, w: 740, h: 415 };
+const TOP = { x: 0, y: 5 }, BOT = { x: 0, y: 535 };            // origen del recorte de cada panel (px de la imagen 768x1024)
+const PT = (src, x, y) => [DST.x + (x - src.x), DST.y + (y - src.y)];
+const pT = (x, y) => PT(TOP, x, y), pB = (x, y) => PT(BOT, x, y);
+function panel(src, a) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  ctx.drawImage(I('pp'), src.x, src.y, DST.w, DST.h, DST.x, DST.y, DST.w, DST.h); ctx.restore();
+}
+function frame(a) { ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF'); ctx.restore(); }
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+// contornos sobre la ilustración (px de la imagen original)
+const PLAC_N = [[196, 232], [194, 172], [208, 124], [238, 96], [276, 81], [318, 77]].map(p => pT(...p));       // placenta normal (pared posterior alta)
+const PLAC_P = [[366, 886], [387, 913], [413, 931], [447, 940], [473, 937], [498, 922], [510, 898], [503, 881]].map(p => pB(...p)); // sobre el orificio
+const OS = pB(503, 893);
+const CANAL = poly([[503, 893], [540, 894], [585, 891], [602, 894]].map(p => pB(...p)));
+const PLN = poly(PLAC_N), PLP = poly(PLAC_P);
+
+function glowLine(path, a, col, w) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  path.stroke(ctx, 0, 1, w + 8, 'rgba(14,17,22,0.55)'); path.stroke(ctx, 0, 1, w, col); ctx.restore();
+}
+function ring(x, y, r, col, a) { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.lineWidth = 3.5; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.stroke(); ctx.restore(); }
+function blood(path, t, a) {
+  if (a <= 0) return; for (let i = 0; i < 9; i++) { const u = ((t * 0.38) + i / 9) % 1, [x, y] = path.at(u);
+    ctx.globalAlpha = a * Math.min(1, u * 5, (1 - u) * 3); ctx.fillStyle = '#D81B2C'; ctx.beginPath(); ctx.arc(x, y + 2 * Math.sin(i * 3 + t * 3), 3.8, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+}
+function noSign(x, y, r, a) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = C.RED; ctx.lineWidth = 7;
+  ctx.fillStyle = 'rgba(14,17,22,0.55)'; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(x - r * 0.7, y - r * 0.7); ctx.lineTo(x + r * 0.7, y + r * 0.7); ctx.stroke();
+  // dedo (índice) simple dentro del círculo
+  ctx.strokeStyle = '#F0D2B6'; ctx.lineWidth = 9; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(x - r * 0.45, y + r * 0.1); ctx.lineTo(x + r * 0.3, y + r * 0.1); ctx.stroke();
+  ctx.restore();
+}
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+function previa(t) {
+  K.title('Placenta previa', 'La placenta se implanta sobre el orificio cervical interno', C.RED);
+  frame(seg(t, 0, 0.7));
+  const toP = ease(seg(t, 6.5, 1.2));
+  panel(TOP, seg(t, 0, 0.7) * (1 - toP)); panel(BOT, toP);
+  // 1) placenta normal
+  const gN = fade(t, 1.2, 6.8, 0.5);
+  glowLine(PLN, gN * (0.4 + 0.2 * Math.sin(t * 4)), C.GREEN, 22);
+  label('Placenta normal: en el fondo, lejos del cuello', 330, 190, C.GREEN, ...pT(250, 90), gN);
+  // 2) previa: placenta sobre el orificio
+  const gP = seg(t, 7.4, 0.8);
+  glowLine(PLP, gP * (0.45 + 0.2 * Math.sin(t * 4)), C.VIOLET, 22);
+  label('Placenta sobre el orificio', 260, 505, C.VIOLET, ...pB(430, 930), gP);
+  ring(OS[0], OS[1], 15 + 3 * Math.sin(t * 5), C.AMBER, gP);
+  label('Orificio cervical interno cubierto', 560, 420, C.AMBER, OS[0], OS[1] - 14, fade(t, 8.6, 14.4, 0.4));
+  // 3) sangrado rojo, fresco, sin dolor
+  const bl = seg(t, 10, 0.6); blood(CANAL, t, bl);
+  label('Sangre roja, fresca', 640, 585 - 40, C.RED, ...CANAL.at(0.6), seg(t, 10.2, 0.6));
+  // 4) nunca tacto
+  const [nx, ny] = CANAL.at(0.55);
+  noSign(nx + 70, ny - 70, 34, fade(t, 15, 21.5, 0.5));
+  // panel
+  K.card(800, 140, 450, 120, C.RED, 'Placenta previa', ['Cubre el orificio cervical interno', 'Sangrado de la segunda mitad'], seg(t, 7.4, 0.5), 17);
+  K.card(800, 276, 450, 120, C.AMBER, 'Indolora y con útero blando', ['Sangre roja, fresca, sin coágulos', 'El feto suele estar bien'], seg(t, 10.4, 0.5), 17);
+  K.card(800, 412, 450, 120, C.BLUE, 'Primero la ecografía transvaginal', ['Es segura: no entra al orificio cervical', 'Localiza la placenta antes de actuar'], seg(t, 17, 0.5), 17);
+  K.banner(30, 592, 740, 'Nunca tacto vaginal a ciegas', C.RED, seg(t, 14.6, 0.5));
+  K.banner(30, 652, 740, 'Cesárea electiva a las 37 semanas', C.GREEN, seg(t, 20, 0.5));
+}
+
+const SCN = { previa: { f: previa, dur: 25 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({ pp: '../assets/blausen/placenta_previa_2paneles.png' });
+</script>
+</body></html>

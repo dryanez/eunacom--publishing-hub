@@ -37,3 +37,26 @@ Ya cubiertos y excluidos: pieza operatoria y fecalito (cirugia-01), colecistitis
 | cirugia-16 | Fiebre postoperatoria | trombosis venosa profunda: pantorrilla asimétrica y edematosa, o eco-Doppler con trombo venoso no compresible | foto clínica | media |
 | cirugia-17 | Herida operatoria | infección incisional superficial con puntos retirados y curación abierta | foto clínica | baja |
 | cirugia-18 | Heridas y mordeduras | mordedura de gato: punciones finas y profundas con celulitis | foto clínica | baja |
+
+## Auditoría de imágenes al completar el libro (18-oct-2026, párrafos nuevos y temas 11.19 a 11.21)
+
+Agregadas al libro (books/data/atlas_add/cirugia.json): úlcera venosa, lipodermatoesclerosis y várices extensas (11.19); granuloma piogénico (11.8); queloide del lóbulo y herida avulsiva de la mano (11.18); cicatriz hipertrófica tras quemadura (11.13); fístula fecal en herida infectada (11.17); Rx de abdomen con asa de delgado distendida (11.4).
+
+Sin imagen utilizable en los libros locales (queda pendiente buscar en Descargas):
+
+| clase | tema | imagen que falta | tipo | prioridad |
+|---|---|---|---|---|
+| cirugia-19 | Aneurisma poplíteo | eco-Doppler o angioTAC de aneurisma poplíteo con trombo mural | eco/TAC | media |
+| cirugia-19 | Úlcera arterial | úlcera arterial distal «en sacabocados» con piel pálida | foto clínica | media |
+| cirugia-21 | Onicocriptosis | uña encarnada estadio II-III con tejido de granulación; paso a paso del bloqueo digital y la onicectomía parcial | foto clínica | alta |
+| cirugia-21 | Punción venosa / drenajes | esquema del orden de los tubos y del ángulo de punción; drenaje de Jackson-Pratt | esquema | baja |
+| cirugia-06 | Hernias | hernia crural (foto clínica); eventración en cicatriz de laparotomía | foto clínica | alta |
+| cirugia-07 | Anorrectal | regla de Goodsall (esquema); prolapso rectal con pliegues concéntricos; carcinoma anal | esquema/foto | media |
+| cirugia-04 | Obstrucción intestinal | TAC con zona de transición | TAC | media |
+| cirugia-02 | Colecistitis | colecistitis enfisematosa; síndrome de Mirizzi | TAC/RM | media |
+| cirugia-03 | Colostomías | estoma sano (rosado, húmedo) frente a estoma isquémico | foto clínica | media |
+| cirugia-09 | Vía aérea | cricotiroidotomía: membrana cricotiroidea y técnica; Rx de columna cervical normal con las cuatro líneas | esquema/Rx | media |
+| cirugia-10 | Trauma de tórax | neumotórax abierto con parche en tres lados; triángulo de seguridad para la pleurostomía | esquema | media |
+| cirugia-12 | TEC | Rx de cráneo con fractura deprimida | Rx | baja |
+| cirugia-17 | ISQ | infección incisional superficial con pus; fascitis necrotizante de pared abdominal | foto clínica | media |
+| cirugia-20 | Bariátrica | esquema de manga gástrica y bypass en Y de Roux | esquema | alta |

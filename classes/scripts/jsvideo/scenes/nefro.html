@@ -8,8 +8,10 @@
 // Nefrología sobre ilustraciones reales (Servier Medical Art, CC BY 4.0).
 // ?v=podocito (nefro-13) ?v=hipona_aguda|hipona_cronica|hipona_rapida (nefro-05) ?v=ntа (nefro-02) ?v=hepatorrenal (nefro-04)
 // ?v=siadh (nefro-06) ?v=vomito (nefro-12) ?v=semiluna (nefro-16) ?v=pielo (nefro-21) ?v=glomerulopatias (nefro-14) ?v=lupus (nefro-17)
+// ?v=dialisis (nefro-03) ?v=hiperk (nefro-09, gráfico) ?v=ecg (nefro-10, gráfico) ?v=gnpe (nefro-15) ?v=erc (nefro-18) ?v=epo (nefro-19) ?v=renal (nefro-20) ?v=farm (nefro-22, gráfico)
 const V = new URLSearchParams(location.search).get('v') || 'podocito';
-window.SCENE = { duration: 21, fps: 30 };
+const DUR = { dialisis: 26, hiperk: 24, ecg: 24, gnpe: 24, erc: 24, epo: 24, renal: 24, farm: 24 };
+window.SCENE = { duration: DUR[V] || 21, fps: 30 };
 const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
 const K = KIT(L), { seg, fade, rnd } = K;
 const I = k => window.IMGS[k];
@@ -203,10 +205,281 @@ function lupus(t) {
   K.card(640, 500, 600, 100, C.BLUE, 'Proteinuria, sedimento activo o creatinina que sube', ['En un lupus: biopsia'], seg(t, 17, 0.5), 17);
 }
 
+
+// =====================================================================================================
+// nefro-03 · hemodiálisis de urgencia (AEIOU) sobre la ilustración real de Servier (dialisis.png, 1248x1230)
+const DL = { x: 30, y: 96, s: 0.5 }, DP = (x, y) => [DL.x + x * DL.s, DL.y + y * DL.s];
+const dpath = pts => poly(pts.map(p => DP(...p)));
+const D_IN = dpath([[838,468],[800,428],[760,428],[710,468],[668,530],[648,620],[620,690],[575,730],[500,745],[430,735],[385,690],[372,610],[372,520],[372,420],[372,300],[376,250],[400,205],[435,190],[470,210],[498,260],[520,330],[536,378],[548,330],[548,200],[552,110],[575,45],[615,28],[650,60],[657,95],[657,290]]);
+const D_OUT = dpath([[657,290],[652,332],[605,347],[560,338],[525,300],[480,235],[440,198],[395,203],[355,240],[340,320],[342,450],[375,545],[440,585],[510,592],[580,560],[650,510],[710,455],[770,425],[820,445],[838,466]]);
+const D_DRAIN = dpath([[730,112],[800,150],[825,250],[805,340],[760,392],[700,398],[620,392],[566,386]]);
+function dialisis(t) {
+  K.title('Hemodiálisis de urgencia: AEIOU', 'La clínica decide; la máquina limpia la sangre', C.RED);
+  ctx.globalAlpha = seg(t, 0, 0.6); rrect(DL.x - 8, DL.y - 8, 1248 * DL.s + 16, 1230 * DL.s + 16, 16, '#FFFFFF'); draw('dial', DL.x + 624 * DL.s, DL.y + 615 * DL.s, 1248 * DL.s, seg(t, 0, 0.6)); ctx.globalAlpha = 1;
+  const run = seg(t, 1.5, 1);
+  const cl = ease(seg(t, 4, 14));                              // avance de la limpieza (0 → 1)
+  if (run > 0) {
+    for (let i = 0; i < 22; i++) { const u = ((t * 0.07) + i / 22) % 1, [x, y] = D_IN.at(u);
+      ctx.globalAlpha = run; ctx.fillStyle = '#7A1620'; ctx.beginPath(); ctx.arc(x, y, 5.5, 0, 7); ctx.fill();
+      ctx.fillStyle = C.AMBER; ctx.beginPath(); ctx.arc(x + 3, y - 3, 2.6 * (1 - cl * 0.5), 0, 7); ctx.fill(); }
+    for (let i = 0; i < 18; i++) { const u = ((t * 0.07) + i / 18) % 1, [x, y] = D_OUT.at(u);
+      ctx.globalAlpha = run; ctx.fillStyle = '#FF3B30'; ctx.beginPath(); ctx.arc(x, y, 5.5, 0, 7); ctx.fill(); }
+    for (let i = 0; i < 14; i++) { const u = ((t * 0.16) + i / 14) % 1, [x, y] = D_DRAIN.at(u);
+      ctx.globalAlpha = run * (0.35 + 0.65 * cl); ctx.fillStyle = C.AMBER; ctx.beginPath(); ctx.arc(x, y, 4.5, 0, 7); ctx.fill(); }
+    ctx.globalAlpha = 1; }
+  ctx.globalAlpha = seg(t, 2, 0.5); tag('Sangre del paciente', ...DP(760, 700), '#C0392B', 15); tag('Dializador', ...DP(655, -22 + 20), C.BLUE, 15);
+  tag('Toxinas, K⁺ y ácido salen', ...DP(930, 235), C.AMBER, 14); ctx.globalAlpha = 1;
+  // panel AEIOU
+  const X = 690, W = 560;
+  const row = (y, h, a, col, letra, tit, body) => { if (a <= 0) return; ctx.globalAlpha = a; rrect(X, y, W, h, 14, '#161B22'); ctx.fillStyle = col; ctx.fillRect(X, y, 6, h);
+    text(letra, X + 40, y + h / 2 + 14, 40, col, 'bold', 'center'); text(tit, X + 80, y + 30, 19, C.INK, 'bold'); body && body(y); ctx.globalAlpha = 1; };
+  row(130, 112, seg(t, 3, 0.5), C.RED, 'A', 'Acidosis refractaria', y => {
+    const ph = lerp(7.02, 7.36, cl);
+    rrect(X + 80, y + 62, 440, 14, 7, '#222833'); rrect(X + 80, y + 62, 440 * clamp((ph - 6.9) / 0.6, 0, 1), 14, 7, ph < 7.15 ? C.RED : C.GREEN);
+    ctx.fillStyle = '#ddd'; ctx.fillRect(X + 80 + 440 * (7.15 - 6.9) / 0.6 - 1, y + 57, 2, 24); text('7,15', X + 80 + 440 * (7.15 - 6.9) / 0.6, y + 100, 13, C.MUTED, '', 'center');
+    text(`pH ${ph.toFixed(2).replace('.', ',')}`, X + W - 16, y + 30, 19, ph < 7.15 ? C.RED : C.GREEN, 'bold', 'right'); });
+  row(254, 112, seg(t, 6, 0.5), C.AMBER, 'E', 'Hiperkalemia grave', y => {
+    const k = lerp(7.4, 4.6, cl);
+    rrect(X + 80, y + 62, 440, 14, 7, '#222833'); rrect(X + 80, y + 62, 440 * clamp(k / 9, 0, 1), 14, 7, k > 6.5 ? C.RED : C.GREEN);
+    ctx.fillStyle = '#ddd'; ctx.fillRect(X + 80 + 440 * 6.5 / 9 - 1, y + 57, 2, 24); text('6,5', X + 80 + 440 * 6.5 / 9, y + 100, 13, C.MUTED, '', 'center');
+    text(`K ${k.toFixed(1).replace('.', ',')} mEq/L`, X + W - 16, y + 30, 19, k > 6.5 ? C.RED : C.GREEN, 'bold', 'right'); });
+  row(378, 84, seg(t, 9, 0.5), C.VIOLET, 'I', 'Intoxicación dializable', y => { text('SLIME: salicilatos, litio, isopropanol, metanol, etilenglicol', X + 80, y + 62, 16, C.MUTED); });
+  row(474, 84, seg(t, 12, 0.5), C.BLUE, 'O', 'Sobrecarga de volumen', y => { text('Edema pulmonar refractario a furosemida, o anuria', X + 80, y + 62, 16, C.MUTED);
+    const dr = ease(seg(t, 12.5, 9)); for (let i = 0; i < 6; i++) { const u = (dr * 1.2 + i * 0.17) % 1; drawDrop(X + 490 + u * 36, y + 20 + u * 40, dr > 0 ? 0.8 * (1 - u) : 0); } });
+  row(570, 84, seg(t, 15, 0.5), C.RED, 'U', 'Uremia sintomática', y => { text('Pericarditis, encefalopatía, sangrado activo', X + 80, y + 62, 16, C.MUTED); });
+  K.banner(DL.x + 20, 662, 600, 'Pericarditis urémica: diálisis sin heparina', C.AMBER, seg(t, 19, 0.5));
+  K.banner(X, 662, W, 'Creatinina alta sola no basta: manda la clínica', C.GREEN, seg(t, 22, 0.5));
+}
+
+// =====================================================================================================
+// nefro-09 · gráfico de tiempos de acción en la hiperkalemia (sin anatomía)
+const HK_T = [0, 5, 15, 30, 60, 120, 240, 360], HK_X0 = 360, HK_W = 860;
+const hkx = m => { let i = 1; while (i < HK_T.length - 1 && HK_T[i] < m) i++; const k = clamp((m - HK_T[i - 1]) / (HK_T[i] - HK_T[i - 1]), 0, 1); return HK_X0 + HK_W * (i - 1 + k) / (HK_T.length - 1); };
+function hiperk(t) {
+  K.title('Hiperkalemia grave: cada fármaco, su tiempo', 'Primero la membrana, después el potasio', C.AMBER);
+  const rows = [['Gluconato de calcio 10 %', C.BLUE, [1, 3], [30, 60], 'No baja el potasio: protege la membrana'],
+                ['Insulina + SG 30 %', C.GREEN, [15, 30], [240, 360], 'Redistribuye: Na-K ATPasa'],
+                ['Salbutamol nebulizado', C.GREEN, [15, 30], [120, 240], 'Redistribuye, sinérgico con la insulina'],
+                ['Furosemida IV', C.VIOLET, [15, 30], [240, 360], 'Elimina, si el paciente orina'],
+                ['Hemodiálisis de urgencia', C.RED, [30, 30], [360, 360], 'Elimina masivamente: la definitiva']];
+  const cur = lerp(0, 360, ease(seg(t, 2.5, 17)));              // minuto simulado
+  const Y0 = 232, RH = 72;
+  // ejes
+  HK_T.forEach((m, i) => { const x = hkx(m); ctx.strokeStyle = '#222833'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(x, Y0 - 24); ctx.lineTo(x, Y0 + RH * 5); ctx.stroke();
+    text(m < 60 ? `${m} min` : `${m / 60} h`, x, Y0 - 32, 14, C.MUTED, '', 'center'); });
+  rows.forEach(([n, col, on, off, nota], i) => { const y = Y0 + i * RH, a = seg(t, 0.3 + i * 0.25, 0.5); ctx.globalAlpha = a;
+    text(n, 40, y + 30, 19, C.INK, 'bold'); text(nota, 40, y + 54, 14, C.MUTED);
+    const xo0 = hkx(on[0]), xo1 = hkx(on[1]), xe0 = hkx(off[0]), xe1 = hkx(off[1]);
+    const act = hkx(cur);
+    // inicio (degradado) · acción plena · final (degradado)
+    ctx.fillStyle = col + '55'; ctx.fillRect(xo0, y + 16, Math.max(2, xo1 - xo0), 30);
+    ctx.fillStyle = col + '55'; if (xe1 > xe0) ctx.fillRect(xe0, y + 16, xe1 - xe0, 30);
+    ctx.fillStyle = col; ctx.fillRect(xo1, y + 16, Math.max(0, Math.min(act, xe0) - xo1), 30);
+    if (n.startsWith('Hemo')) { ctx.fillStyle = col; ctx.fillRect(xo1, y + 16, Math.max(0, act - xo1), 30); }
+    ctx.globalAlpha = 1; });
+  // cursor
+  const cx = hkx(cur); ctx.strokeStyle = C.INK; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(cx, Y0 - 20); ctx.lineTo(cx, Y0 + RH * 5 + 8); ctx.stroke();
+  ctx.fillStyle = C.INK; ctx.beginPath(); ctx.moveTo(cx - 8, Y0 - 24); ctx.lineTo(cx + 8, Y0 - 24); ctx.lineTo(cx, Y0 - 12); ctx.fill();
+  // medidores
+  const prot = cur >= 2 && cur <= 45, kLev = 1 - 0.55 * ease(clamp((cur - 15) / 60, 0, 1)) - 0.15 * ease(clamp((cur - 30) / 200, 0, 1));
+  rrect(40, 118, 420, 62, 14, '#161B22'); text('Membrana del miocardio', 58, 144, 16, C.INK, 'bold');
+  rrect(58, 154, 380, 14, 7, '#222833'); rrect(58, 154, 380 * (prot ? 1 : 0.18), 14, 7, prot ? C.GREEN : C.RED); text(prot ? 'protegida' : 'expuesta', 438, 144, 16, prot ? C.GREEN : C.RED, 'bold', 'right');
+  rrect(480, 118, 420, 62, 14, '#161B22'); text('Potasio en sangre', 498, 144, 16, C.INK, 'bold');
+  rrect(498, 154, 380, 14, 7, '#222833'); rrect(498, 154, 380 * clamp(kLev, 0, 1), 14, 7, kLev > 0.7 ? C.RED : kLev > 0.45 ? C.AMBER : C.GREEN); text(kLev > 0.7 ? 'alto' : kLev > 0.45 ? 'bajando' : 'controlado', 878, 144, 16, C.MUTED, 'bold', 'right');
+  K.banner(40, 618, 1200, 'El calcio compra tiempo; insulina, salbutamol, furosemida o diálisis bajan el potasio', C.AMBER, seg(t, 20.5, 0.5));
+}
+
+// =====================================================================================================
+// nefro-10 · ECG de la hipokalemia (sin anatomía): T plana, ST infra, onda U, QU y torsades
+function ecgV(tt, kst) {
+  // kst: 0 normal → 1 T plana → 2 ST infra + U → 3 U > T (QU)
+  const T = tt % 0.85, g = (x, m, w) => Math.exp(-(((x - m) / w) ** 2));
+  const f1 = clamp(kst, 0, 1), f2 = clamp(kst - 1, 0, 1), f3 = clamp(kst - 2, 0, 1);
+  const tA = lerp(0.38, -0.05, f1) - 0.10 * f2, st = -0.16 * f2 * (T > 0.23 && T < 0.34 ? 1 : T >= 0.34 && T < 0.44 ? 1 - (T - 0.34) / 0.10 : 0);
+  const uA = 0.45 * f2 + 0.25 * f3;
+  return 0.11 * g(T, 0.10, 0.025) - 0.12 * g(T, 0.188, 0.008) + 1.0 * g(T, 0.20, 0.011) - 0.22 * g(T, 0.214, 0.009) + st + tA * g(T, 0.38 + 0.02 * f2, 0.055) + uA * g(T, 0.53 + 0.04 * f3, 0.045);
+}
+function ecg(t) {
+  K.title('Hipokalemia: lo que cambia en el ECG', 'La repolarización se alarga y aparece la onda U', C.BLUE);
+  const kst = clamp((t - 2.5) / 3, 0, 1) + clamp((t - 8) / 3, 0, 1) + clamp((t - 13) / 3, 0, 1);   // 0..3
+  const ar = seg(t, 18.5, 0.6);                                                                // arritmia
+  const kv = lerp(4.2, 3.4, clamp(kst, 0, 1)) - 0.5 * clamp(kst - 1, 0, 1) - 0.5 * clamp(kst - 2, 0, 1) - 0.4 * ar;
+  // tira de ECG
+  const X0 = 40, XW = 780, YB = 410, AM = 150, win = 5;
+  rrect(X0 - 10, 150, XW + 20, 400, 16, '#0A0D12');
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 1; for (let x = X0; x <= X0 + XW; x += 26) { ctx.beginPath(); ctx.moveTo(x, 160); ctx.lineTo(x, 540); ctx.stroke(); } for (let y = 160; y <= 540; y += 26) { ctx.beginPath(); ctx.moveTo(X0, y); ctx.lineTo(X0 + XW, y); ctx.stroke(); }
+  ctx.save(); ctx.beginPath(); ctx.rect(X0, 156, XW, 388); ctx.clip(); ctx.strokeStyle = ar > 0.5 ? C.RED : C.GREEN; ctx.lineWidth = 3; ctx.beginPath();
+  const t0 = Math.max(0, t - win);
+  for (let px = 0; px <= XW; px += 2) { const tt = t - win + (px / XW) * win; if (tt < 0) continue; const kk = clamp((tt - 2.5) / 3, 0, 1) + clamp((tt - 8) / 3, 0, 1) + clamp((tt - 13) / 3, 0, 1);
+    let v = ecgV(tt, kk);
+    if (tt > 18.6) { const q = tt - 18.6; v = lerp(v, 0.9 * Math.sin(2 * Math.PI * 3.2 * q) * (0.35 + 0.65 * Math.abs(Math.sin(2 * Math.PI * 0.45 * q))), clamp(q / 0.5, 0, 1)); }
+    const y = YB - v * AM; (px === 0 || tt - 2 / XW * win < 0) ? ctx.moveTo(X0 + px, y) : ctx.lineTo(X0 + px, y); }
+  ctx.stroke(); ctx.restore();
+  // etiquetas flotantes
+  const tg = (a, s, x, y, col) => { ctx.globalAlpha = a; tag(s, x, y, col, 15); ctx.globalAlpha = 1; };
+  tg(fade(t, 0.5, 6), 'ECG normal', 150, 190, C.GREEN);
+  tg(fade(t, 5.5, 11), 'T aplanada o invertida', 330, 190, C.AMBER);
+  tg(fade(t, 10.5, 16), 'ST infradesnivel + onda U', 400, 190, C.AMBER);
+  tg(fade(t, 15.5, 19.5), 'QT aparente largo: es un QU', 440, 190, C.RED);
+  tg(seg(t, 19, 0.5), 'Taquicardia ventricular polimorfa: torsades', 460, 190, C.RED);
+  // medidor de potasio
+  cnt(t, 860, 150, 380, [['Potasio', kv, 5, 'mEq/L', kv < 2 ? C.RED : kv < 3.5 ? C.AMBER : C.GREEN, f1, [[3.5, '3,5'], [2, '2,0']]]], 0.5);
+  K.card(860, 270, 380, 150, C.BLUE, 'La señal del examen', ['Onda U tras la T, mejor en V2 a V4', 'Mide el intervalo QU, no el QT'], seg(t, 11, 0.5), 17);
+  K.card(860, 440, 380, 110, C.RED, 'Con digoxina', ['Mantener el potasio sobre 4,0'], seg(t, 20, 0.5), 17);
+  K.banner(40, 590, 1200, 'Reponer: primero la boca; endovenoso solo con reglas de seguridad', C.GREEN, seg(t, 21.5, 0.5));
+}
+
+// =====================================================================================================
+// nefro-15 · glomerulonefritis postestreptocócica: inmunocomplejos, C3 que cae y volumen
+function gnpe(t) {
+  K.title('Glomerulonefritis postestreptocócica', 'Después de la infección: inmunocomplejos y C3 bajo', C.RED);
+  glom(t, seg(t, 0, 0.7));
+  const dep = ease(seg(t, 3, 5)), inf = ease(seg(t, 8, 3));
+  // inmunocomplejos: puntos violeta sobre las asas capilares
+  for (let i = 0; i < 26; i++) { const a = -2.5 + i * 0.235, r = 62 + 14 * rnd(i), x = GLO[0] + Math.cos(a) * r, y = GLO[1] + Math.sin(a) * r * 0.92;
+    const k = clamp(dep * 26 - i, 0, 1); if (k <= 0) continue; ctx.globalAlpha = k; ctx.fillStyle = C.VIOLET; ctx.beginPath(); ctx.arc(x, y, 6, 0, 7); ctx.fill(); ctx.strokeStyle = '#fff'; ctx.lineWidth = 1.5; ctx.stroke(); }
+  ctx.globalAlpha = 1;
+  K.glow(GLO[0], GLO[1], 120, '255,90,78', 0.5 * inf * (0.75 + 0.25 * Math.sin(t * 4)));
+  ctx.globalAlpha = fade(t, 2.5, 7.5); tag('Inmunocomplejos en la pared capilar', GLO[0], GLO[1] - 165, C.VIOLET, 15); ctx.globalAlpha = 1;
+  ctx.globalAlpha = fade(t, 8.5, 14); tag('Inflamación endocapilar', GLO[0], GLO[1] - 165, C.RED, 15); ctx.globalAlpha = 1;
+  flow(URI, Math.round(14 * seg(t, 9, 2)), t, '#C0122E', 0.35, 7);
+  ctx.globalAlpha = seg(t, 10, 0.5); tag('Hematuria dismórfica', ...G(150, 60), C.RED, 14); ctx.globalAlpha = 1;
+  // línea de tiempo del C3
+  const CX = 660, CY = 150, CW = 580, CH = 250, wk = w => CX + 40 + (CW - 60) * w / 10;
+  rrect(CX, CY, CW, CH, 16, '#161B22'); text('Complemento C3 en las semanas', CX + 22, CY + 32, 19, C.INK, 'bold');
+  const gy = v => CY + CH - 34 - (CH - 90) * v;
+  for (let w = 0; w <= 10; w += 2) { text(String(w), wk(w), CY + CH - 10, 13, C.MUTED, '', 'center'); }
+  text('semanas', CX + CW - 14, CY + 32, 13, C.MUTED, '', 'right');
+  const c3 = w => w < 1.5 ? 1 : w < 2 ? lerp(1, 0.2, (w - 1.5) / 0.5) : w < 6 ? 0.2 : w < 8 ? lerp(0.2, 1, (w - 6) / 2) : 1;
+  const wmax = ease(seg(t, 2, 15)) * 10;
+  ctx.strokeStyle = C.AMBER; ctx.lineWidth = 4; ctx.beginPath(); for (let w = 0; w <= wmax; w += 0.05) { const x = wk(w), y = gy(c3(w)); w === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y); } ctx.stroke();
+  const mk = (w, s, col, y) => { if (wmax < w) return; ctx.strokeStyle = col; ctx.setLineDash([5, 5]); ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(wk(w), CY + 44); ctx.lineTo(wk(w), CY + CH - 26); ctx.stroke(); ctx.setLineDash([]); text(s, wk(w) + 6, y, 14, col, 'bold'); };
+  mk(0, 'Faringitis', C.BLUE, CY + 62); mk(2, 'Orina color té', C.RED, CY + 62); mk(7, 'C3 normal: 6–8 sem.', C.GREEN, CY + 84);
+  if (wmax > 0.3 && wmax < 2) text('Latencia: 1–2 semanas', wk(0.15), CY + CH - 46, 14, C.MUTED);
+  K.card(660, 414, 580, 108, C.AMBER, 'Latencia: la clave', ['Faringitis: 1 a 2 semanas · piel: 3 a 6 semanas', 'C3 bajo con C4 normal'], seg(t, 12, 0.5), 17);
+  K.card(660, 532, 580, 90, C.BLUE, 'Hipertensión y edema por volumen', ['Se retiene sodio y agua: manda el volumen'], seg(t, 15.5, 0.5), 17);
+  K.banner(40, 636, 1200, 'Se trata el volumen con furosemida; no lleva corticoides', C.GREEN, seg(t, 19.5, 0.5));
+}
+
+// =====================================================================================================
+// nefro-18 · enfermedad renal crónica: pérdida de nefronas, hiperfiltración y el IECA/ARA-II
+function erc(t) {
+  K.title('Enfermedad renal crónica: se pierden nefronas', 'Las que sobreviven hiperfiltran y se dañan más', C.AMBER);
+  const N = 20, order = [3, 14, 8, 17, 1, 11, 6, 19, 13, 4, 9, 16, 0, 12, 7, 18, 2, 10, 5];     // se pierden 19 de 20; queda 1
+  const dead = clamp(Math.floor(ease(seg(t, 2, 11)) * order.length + 0.001), 0, order.length);
+  const gone = new Set(order.slice(0, dead));
+  const alive = N - gone.size, tfg = Math.round(112 * alive / N);
+  const treat = ease(seg(t, 15, 3));
+  for (let j = 0; j < N; j++) { const x = 40 + (j % 5) * 120, y = 150 + Math.floor(j / 5) * 120, cx = x + 52, cy = y + 52;
+    const a = seg(t, 0.2 + j * 0.04, 0.4), d = gone.has(j);
+    ctx.save(); ctx.globalAlpha = a; ctx.beginPath(); ctx.arc(cx, cy, 50, 0, 7); ctx.clip(); if (d) ctx.filter = 'grayscale(1) brightness(0.45)'; ctx.drawImage(I('nef'), 90, 100, 120, 110, x, y, 104, 104); ctx.restore();
+    if (d) { ctx.globalAlpha = a; ctx.strokeStyle = '#6B7380'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(cx - 20, cy - 20); ctx.lineTo(cx + 20, cy + 20); ctx.moveTo(cx + 20, cy - 20); ctx.lineTo(cx - 20, cy + 20); ctx.stroke(); }
+    else if (dead > 4) { const pulse = 0.55 + 0.25 * Math.sin(t * 5 + j); ctx.globalAlpha = a * (1 - treat) * pulse; ctx.strokeStyle = C.RED; ctx.lineWidth = 5; ctx.beginPath(); ctx.arc(cx, cy, 53, 0, 7); ctx.stroke();
+      ctx.globalAlpha = a * treat; ctx.strokeStyle = C.GREEN; ctx.lineWidth = 4; ctx.beginPath(); ctx.arc(cx, cy, 53, 0, 7); ctx.stroke(); }
+    ctx.globalAlpha = 1; }
+  ctx.globalAlpha = seg(t, 6, 0.5) * (1 - seg(t, 15, 0.4)); tag('Las que quedan hiperfiltran', 340, 640, C.RED, 15); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 18, 0.5); tag('IECA o ARA-II: baja la presión dentro del glomérulo', 340, 640, C.GREEN, 15); ctx.globalAlpha = 1;
+  // TFG y etapas
+  rrect(700, 150, 540, 150, 16, '#161B22'); text('Tasa de filtración glomerular', 724, 186, 19, C.INK, 'bold');
+  const col = tfg >= 60 ? C.GREEN : tfg >= 30 ? C.AMBER : C.RED;
+  text(String(tfg), 724, 270, 78, col, 'bold'); text('mL/min/1,73 m²', 724 + 11 + String(tfg).length * 44, 270, 20, C.MUTED);
+  const ST = [['G1', 90], ['G2', 60], ['G3a', 45], ['G3b', 30], ['G4', 15], ['G5', 0]], cur = tfg >= 90 ? 0 : tfg >= 60 ? 1 : tfg >= 45 ? 2 : tfg >= 30 ? 3 : tfg >= 15 ? 4 : 5;
+  ST.forEach(([g, lim], i) => { const x = 700 + i * 90; rrect(x, 320, 84, 52, 10, i === cur ? (i < 2 ? C.GREEN : i < 4 ? C.AMBER : C.RED) : '#1B2230'); text(g, x + 42, 344, 18, i === cur ? C.BG : C.INK, 'bold', 'center'); text(i === 0 ? '≥ 90' : i === 5 ? '< 15' : `${lim}–${ST[i - 1][1] - 1}`, x + 42, 364, 13, i === cur ? C.BG : C.MUTED, '', 'center'); });
+  const alb = lerp(1, 0.25, treat) * (0.15 + 0.85 * clamp(dead / 12, 0, 1));
+  cnt(t, 700, 395, 540, [['Albuminuria', 30 + 270 * alb, 400, 'mg/g', alb > 0.4 ? C.RED : C.GREEN, null, [[30, '30'], [300, '300']]]], 5);
+  K.card(700, 512, 540, 116, C.BLUE, 'Etapas por filtración y albuminuria', ['A2 o A3: IECA o ARA-II, aunque la presión sea normal', 'La creatinina puede subir hasta 30 %: se mantiene'], seg(t, 18.5, 0.5), 16);
+  K.banner(700, 648, 540, 'Filtración bajo 30: GES y fístula 6 meses antes', C.AMBER, seg(t, 21.5, 0.5));
+}
+
+// =====================================================================================================
+// nefro-19 · el riñón deja de fabricar eritropoyetina y calcitriol (Servier: riñones, médula ósea, hematíe)
+function epo(t) {
+  K.title('ERC: lo que el riñón deja de fabricar', 'Eritropoyetina, calcitriol y bicarbonato', C.VIOLET);
+  const fail = ease(seg(t, 3, 5));                                   // pérdida de función renal
+  ctx.globalAlpha = seg(t, 0, 0.6); rrect(30, 170, 590, 340, 16, '#FFFFFF'); ctx.globalAlpha = 1;
+  draw('rin2', 325, 340, 560, seg(t, 0, 0.6), 0, `saturate(${1 - 0.65 * fail}) brightness(${1 - 0.25 * fail})`);
+  ctx.globalAlpha = seg(t, 0.6, 0.5); tag('Riñones', 325, 532, '#C0607A', 15); ctx.globalAlpha = 1;
+  ctx.save(); ctx.globalAlpha = seg(t, 0.3, 0.6); rrect(655, 150, 150, 380, 16, '#FFFFFF'); ctx.restore(); draw('hue', 730, 340, 118, seg(t, 0.3, 0.6));
+  ctx.globalAlpha = seg(t, 0.8, 0.5); tag('Médula ósea', 730, 536, '#D9A441', 15); ctx.globalAlpha = 1;
+  // eritropoyetina: del riñón a la médula
+  const EP = poly([[330, 250], [420, 190], [560, 185], [650, 250], [722, 300]]);
+  const nEp = Math.round(12 * (1 - 0.85 * fail)); for (let i = 0; i < nEp; i++) { const u = ((t * 0.28) + i / 12) % 1, [x, y] = EP.at(u);
+    ctx.globalAlpha = seg(t, 1.5, 0.5) * Math.min(1, u * 6, (1 - u) * 6); ctx.fillStyle = C.AMBER; ctx.beginPath(); ctx.arc(x, y, 7, 0, 7); ctx.fill(); text('EPO', x, y + 4, 9, C.BG, 'bold', 'center'); } ctx.globalAlpha = 1;
+  ctx.globalAlpha = fade(t, 2, 12); tag('Eritropoyetina', 490, 160, C.AMBER, 15); ctx.globalAlpha = 1;
+  // hematíes que salen de la médula
+  const nRb = Math.round(10 * (1 - 0.8 * fail)); for (let i = 0; i < 10; i++) { if (i >= nRb) continue; const u = ((t * 0.2) + i / 10) % 1; const x = 780 + u * 60, y = 330 + (rnd(i) - 0.5) * 120 + 0 * u;
+    draw('hem', x, y, 30, Math.min(1, u * 5, (1 - u) * 5) * seg(t, 2, 0.5), u * 3); }
+  // panel derecho: hemoglobina y calcio/PTH
+  const hb = lerp(14, 8.6, fail), pth = lerp(40, 100, ease(seg(t, 11, 6))), ca = lerp(9.4, 8.1, ease(seg(t, 11, 6)));
+  cnt(t, 850, 150, 390, [['Hemoglobina', hb, 16, 'g/dL', hb < 10 ? C.RED : C.GREEN, f1, [[10, '10'], [11.5, '11,5']]]], 1.5);
+  K.card(850, 262, 390, 150, C.AMBER, 'Anemia renal', ['Normocítica y normocrómica', 'Primero hierro; después eritropoyetina', 'Meta 10–11,5 g/dL: nunca sobre 13'], seg(t, 9, 0.5), 16);
+  const ph2 = seg(t, 12, 0.5);
+  if (ph2 > 0) { ctx.globalAlpha = ph2; rrect(40, 556, 1200, 84, 16, '#161B22');
+    const cs = [['Falta calcitriol', C.VIOLET], ['Calcio sube poco', C.BLUE], ['Fósforo se retiene', C.RED], ['PTH sube', C.AMBER], ['Hueso: osteodistrofia', '#D9A441']];
+    cs.forEach(([s0, c0], i) => { const a = seg(t, 12.5 + i * 1.3, 0.5), x = 60 + i * 238; ctx.globalAlpha = a; rrect(x, 566, 214, 56, 12, '#1B2230'); ctx.fillStyle = c0; ctx.fillRect(x, 566, 6, 56); text(s0, x + 112, 600, 16, C.INK, 'bold', 'center');
+      if (i < 4) text('→', x + 226, 600, 22, C.MUTED, 'bold', 'center'); }); ctx.globalAlpha = 1; }
+  K.banner(40, 650, 1200, 'Hierro primero, luego eritropoyetina; PTH alta: mide la vitamina D antes del calcitriol', C.GREEN, seg(t, 20.5, 0.5));
+}
+
+// =====================================================================================================
+// nefro-20 · estenosis de la arteria renal: el riñón isquémico secreta renina (Servier: riñones y grandes vasos)
+function renal(t) {
+  K.title('Estenosis de la arteria renal', 'Un riñón que cree que le falta presión', C.RED);
+  const RX = 40, RY = 190, S = 1.0, R = (x, y) => [RX + x * S, RY + y * S];
+  ctx.globalAlpha = seg(t, 0, 0.6); rrect(RX - 10, RY - 10, 717 + 20, 410 + 20, 16, '#FFFFFF'); ctx.globalAlpha = 1;
+  const isq = ease(seg(t, 4, 3));
+  ctx.save(); ctx.globalAlpha = seg(t, 0, 0.6); ctx.drawImage(I('rin2'), 0, 0, 717, 410, RX, RY, 717, 410); ctx.restore();
+  // riñón derecho de la imagen (izquierdo del paciente): se apaga
+  ctx.save(); ctx.beginPath(); ctx.rect(RX + 458, RY, 260, 410); ctx.clip(); ctx.fillStyle = `rgba(60,40,70,${0.45 * isq})`; ctx.fillRect(RX + 458, RY, 260, 410); ctx.restore();
+  // placa en la arteria renal
+  const [px, py] = R(440, 150), pl = ease(seg(t, 2, 2.5));
+  if (pl > 0) { ctx.save(); ctx.globalAlpha = pl; ctx.fillStyle = '#E8C468'; ctx.strokeStyle = '#8A6A1F'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(px - 28, py - 22); ctx.quadraticCurveTo(px, py - 6 - 5 * (1 - pl), px + 28, py - 22); ctx.lineTo(px + 28, py - 28); ctx.lineTo(px - 28, py - 28); ctx.fill(); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(px - 28, py + 22); ctx.quadraticCurveTo(px, py + 6 + 5 * (1 - pl), px + 28, py + 22); ctx.lineTo(px + 28, py + 28); ctx.lineTo(px - 28, py + 28); ctx.fill(); ctx.stroke(); ctx.restore(); }
+  ctx.globalAlpha = seg(t, 2.8, 0.5); tag('Estenosis: placa o displasia', px, py - 52, C.AMBER, 14); ctx.globalAlpha = 1;
+  // flujo de sangre por la arteria renal (más lento después de la estenosis)
+  const RA = poly([R(330, 200), R(380, 160), R(430, 150), R(470, 155), R(520, 160), R(560, 150)]);
+  for (let i = 0; i < 10; i++) { const sp = 0.3 * (1 - 0.65 * pl), u = ((t * sp) + i / 10) % 1, [x, y] = RA.at(u); ctx.globalAlpha = Math.min(1, u * 6, (1 - u) * 6); ctx.fillStyle = '#FF3B30'; ctx.beginPath(); ctx.arc(x, y, 4.5 - 1.2 * pl * (u > 0.4 ? 1 : 0), 0, 7); ctx.fill(); } ctx.globalAlpha = 1;
+  // renina → angiotensina II / aldosterona
+  const rn = seg(t, 6, 1);
+  for (let i = 0; i < 9; i++) { const u = ((t * 0.22) + i / 9) % 1, x = R(600, 150)[0] + u * 70, y = R(600, 150)[1] - 40 - u * 90; ctx.globalAlpha = rn * Math.min(1, u * 6, (1 - u) * 6); ctx.fillStyle = C.AMBER; ctx.beginPath(); ctx.arc(x, y, 6, 0, 7); ctx.fill(); } ctx.globalAlpha = 1;
+  ctx.globalAlpha = rn * fade(t, 6, 22); tag('Renina masiva', ...R(660, 40), C.AMBER, 15); ctx.globalAlpha = 1;
+  const an = seg(t, 9, 1); ctx.globalAlpha = an; tag('Angiotensina II: vasoconstricción', ...R(200, 360), C.VIOLET, 14); tag('Aldosterona: retiene sodio, pierde potasio', ...R(480, 360), C.RED, 14); ctx.globalAlpha = 1;
+  const pa = lerp(125, 185, ease(seg(t, 8, 6))), kk = lerp(4.2, 3.4, ease(seg(t, 10, 6)));
+  cnt(t, 800, 150, 440, [['Presión arterial', pa, 220, 'mmHg', pa > 160 ? C.RED : pa > 140 ? C.AMBER : C.GREEN, null, [[140, '140']]], ['Potasio', kk, 6, 'mEq/L', kk < 3.5 ? C.AMBER : C.GREEN, f1, [[3.5, '3,5']]]], 5);
+  K.card(800, 332, 440, 130, C.RED, 'Pistas', ['HTA refractaria o antes de los 30 / después de 55', 'Soplo en el flanco'], seg(t, 13, 0.5), 17);
+  K.card(800, 478, 440, 130, C.AMBER, 'Con IECA o ARA-II', ['Cae la filtración: la creatinina sube más de 30 %'], seg(t, 17, 0.5), 17);
+  K.banner(40, 640, 1200, 'Primer examen: Doppler de arterias renales', C.GREEN, seg(t, 20.5, 0.5));
+}
+
+// =====================================================================================================
+// nefro-22 · cortes de filtración que cambian la receta (gráfico, sin anatomía)
+function farm(t) {
+  K.title('Ajuste de fármacos según la filtración', 'El corte de TFG cambia la receta', C.BLUE);
+  const TX0 = 360, TW = 860, tx = v => TX0 + TW * (90 - v) / 80;              // eje TFG: 90 → 10
+  const cur = lerp(90, 12, ease(seg(t, 2.5, 15)));
+  const rows = [['Metformina', [[90, 45, C.GREEN, 'Dosis habitual (vigilar bajo 60)'], [45, 30, C.AMBER, 'Mitad: máx. 1.000'], [30, 10, C.RED, 'Suspender']], 'Acidosis láctica si se acumula'],
+                ['Aminoglucósidos', [[90, 60, C.GREEN, 'Dosis habitual'], [60, 10, C.AMBER, 'Espaciar según niveles']], 'Necrosis tubular y ototoxicidad'],
+                ['Enoxaparina', [[90, 30, C.GREEN, 'Dosis habitual'], [30, 10, C.AMBER, 'Mitad o HNF']], 'Se acumula: hemorragia mayor'],
+                ['AINE', [[90, 60, C.GREEN, 'Con cuidado'], [60, 10, C.RED, 'Contraindicados en ERC o IRA']], 'Cierran la arteriola aferente']];
+  const Y0 = 210, RH = 96;
+  [90, 60, 45, 30, 15].forEach(v => { const x = tx(v); ctx.strokeStyle = '#222833'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(x, Y0 - 20); ctx.lineTo(x, Y0 + RH * 4); ctx.stroke(); text(String(v), x, Y0 - 30, 14, C.MUTED, '', 'center'); });
+  text('TFG (mL/min)', TX0 + TW, Y0 - 52, 14, C.MUTED, '', 'right');
+  rows.forEach(([n, bands, nota], i) => { const y = Y0 + i * RH, a = seg(t, 0.3 + i * 0.25, 0.5); ctx.globalAlpha = a; text(n, 40, y + 38, 22, C.INK, 'bold'); text(nota, 40, y + 64, 14, C.MUTED);
+    bands.forEach(([hi, lo, col, lab]) => { const x0 = tx(hi), x1 = tx(lo), on = cur <= hi && cur > lo; ctx.globalAlpha = a * (on ? 1 : 0.6); rrect(x0 + 1, y + 14, x1 - x0 - 2, 52, 10, col);
+      ctx.fillStyle = C.BG; text(lab, (x0 + x1) / 2, y + 46, 14, C.BG, 'bold', 'center'); });
+    ctx.globalAlpha = 1; });
+  const cx = tx(cur); ctx.strokeStyle = C.INK; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(cx, Y0 - 22); ctx.lineTo(cx, Y0 + RH * 4 + 6); ctx.stroke();
+  ctx.fillStyle = C.INK; ctx.beginPath(); ctx.moveTo(cx - 9, Y0 - 24); ctx.lineTo(cx + 9, Y0 - 24); ctx.lineTo(cx, Y0 - 10); ctx.fill();
+  rrect(40, 112, 270, 62, 14, '#161B22'); text('TFG', 60, 152, 22, C.MUTED, 'bold'); text(String(Math.round(cur)), 290, 156, 44, cur > 45 ? C.GREEN : cur > 30 ? C.AMBER : C.RED, 'bold', 'right');
+  K.card(40, 604, 600, 96, C.BLUE, 'Nefropatía por contraste', ['Suero fisiológico 1–1,5 mL/kg/h, 6–12 horas antes y después'], seg(t, 19, 0.5), 17);
+  K.card(660, 604, 580, 96, C.RED, 'No protegen', ['Furosemida, manitol ni N-acetilcisteína'], seg(t, 21, 0.5), 17);
+}
+
 window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
-  if (V.startsWith('hipona_')) hipona(t, V.slice(7)); else ({ podocito, nta, hepatorrenal, siadh, vomito, semiluna, pielo, glomerulopatias, lupus })[V](t);
+  if (V.startsWith('hipona_')) hipona(t, V.slice(7)); else ({ podocito, nta, hepatorrenal, siadh, vomito, semiluna, pielo, glomerulopatias, lupus, dialisis, hiperk, ecg, gnpe, erc, epo, renal, farm })[V](t);
   K.credit(); };
 LOAD({ nef: '../assets/servier/nefrona.png', nefz: '../assets/servier/nefrona.png', neu: '../assets/servier/neurona.png', cirr: '../assets/servier/higado_cirrotico.png',
-  int: '../assets/servier/intestinos.png', rin2: '../assets/servier/rinones_corte.png', vias: '../assets/servier/vias_urinarias.png', est: '../assets/servier/estomac_coupe.png' });
+  int: '../assets/servier/intestinos.png', rin2: '../assets/servier/rinones_corte.png', dial: '../assets/servier/dialisis.png', hue: '../assets/servier/hueso_medula.png', hem: '../assets/servier/hematie.png', vias: '../assets/servier/vias_urinarias.png', est: '../assets/servier/estomac_coupe.png' });
 </script>
 </body></html>

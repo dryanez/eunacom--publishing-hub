@@ -22,16 +22,16 @@ const rawClasses = [
     "ges": "Sin garantía GES específica · Norma Técnica de Manejo de Urgencias Traumatológicas.",
     "reconstrucciones": "EUNACOM Diciembre 2023 (Q#18) · EUNACOM Julio 2021 (Q#72)",
     "frecuencia": "Alta en EUNACOM · Fases de consolidación, principios de inmovilización y reducción cerrada",
-    "diagram": flowTrauma('Principios Generales de Fracturas, ConsolidaciÃ³n Ãsea & InmovilizaciÃ³n: Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de Principios Generales de Fracturas, ConsolidaciÃ³n Ãsea & InmovilizaciÃ³n (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Principios Generales de Fracturas, Consolidación Ósea & Inmovilización: Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Principios Generales de Fracturas, Consolidación Ósea & Inmovilización (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Principios Generales de Fracturas, Consolidación Ósea & Inmovilización es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -65,7 +65,14 @@ const rawClasses = [
           "## Complicaciones de la Consolidación",
           "Cuando el proceso de curación del hueso falla o se altera, pueden ocurrir dos situaciones principales:",
           "- **No-unión o Pseudoartrosis**: El hueso simplemente no pega. Se forma una \"falsa articulación\" en el foco de fractura. Puede ser atrófica (falta de biología/sangre) o hipertrófica (falta de estabilidad).\n- **Consolidación Viciosa (Mala unión)**: El hueso consolida (pega), pero lo hace en una posición anatómica incorrecta (angulado, rotado o cabalgado), lo que puede generar limitación funcional o estética.",
-          ":::tip\nA mayor energía del trauma y mayor daño de las partes blandas (músculos, piel, vasos), mayor es la probabilidad de requerir cirugía y de presentar complicaciones en la consolidación.\n:::"
+          ":::tip\nA mayor energía del trauma y mayor daño de las partes blandas (músculos, piel, vasos), mayor es la probabilidad de requerir cirugía y de presentar complicaciones en la consolidación.\n:::",
+          "## Tratamiento Ortopédico: Reducción, Inmovilización y Rehabilitación\nCuando no hay indicación quirúrgica (fractura **cerrada, estable, poco desplazada y extraarticular**), el tratamiento es **ortopédico**: **1)** analgesia y, si hay desplazamiento, **reducción cerrada** con tracción longitudinal y contratracción (bloqueo del hematoma de la fractura o sedación); **2)** **inmovilización** que incluya la articulación proximal y la distal al foco; **3)** **control radiográfico** a los 5-7 días, porque al ceder el edema el yeso se afloja y la fractura puede desplazarse; **4)** retiro del yeso según el hueso (en general 4-6 semanas en antebrazo y muñeca, 8-12 semanas en tibia; más corto en niños) y **kinesiterapia** para recuperar rango y fuerza. Mientras dura el yeso se indica movilizar activamente los dedos y las articulaciones libres, elevar la extremidad y evitar apoyar si es de extremidad inferior. Son típicamente ortopédicas las fracturas del niño, de clavícula, de húmero proximal poco desplazadas, de radio distal estables, de metacarpianos y de costillas.",
+          "## Inmovilización de Urgencia (Procedimiento: Realizar)\nTodo paciente con sospecha de fractura se **inmoviliza antes de moverlo o trasladarlo**, para reducir dolor, sangrado y daño de partes blandas. Pasos: **1)** retirar anillos, reloj y ropa ajustada antes de que aparezca el edema; **2)** **examinar pulsos, sensibilidad y movilidad distal** y dejarlo registrado antes y después de inmovilizar; **3)** cubrir las heridas con apósito estéril; **4)** inmovilizar **la articulación proximal y la distal** al foco, en la posición en que se encuentra (si la extremidad está muy angulada y sin pulso, se alinea con tracción suave y continua, sin forzar); **5)** usar una férula acolchada (cartón, aluminio, valva de yeso, férula de tracción para el fémur, cabestrillo para el hombro y el codo); **6)** analgesia, frío local y elevación; **7)** mantener en ayunas por si requiere cirugía. No se intenta reducir una fractura en terreno ni se reintroduce hueso expuesto.",
+          "### Vendajes y Férulas (Procedimiento: Derivar a especialista)\nLa **valva de yeso** (férula) es la inmovilización de elección en la urgencia porque deja espacio para el edema: se coloca algodón ortopédico, se aplican 8-12 capas de venda de yeso mojada que cubran la cara dorsal o posterior de la extremidad, se **moldea con la palma de la mano** (no con los dedos, para no dejar puntos de presión) y se fija con una venda elástica **sin apretar**. Las más usadas son la **antebraquiopalmar** (muñeca y antebrazo), la **braquiopalmar** (codo), la **suropédica** o \"bota\" (tobillo y pierna) y la inmovilización en **espica de pulgar** (escafoides). El **yeso circular** se reserva para cuando el edema ya cedió (24-72 horas) y lo coloca el equipo de traumatología; el **vendaje elástico compresivo** se usa en esguinces y el **cabestrillo** en lesiones del hombro y la clavícula. El médico general debe saber colocar una valva de urgencia y **derivar** para el yeso definitivo, la reducción y las fracturas inestables o articulares.",
+          "## Complicaciones de la Inmovilización con Yeso\n- **Síndrome compartimental** por yeso demasiado ajustado o edema progresivo: dolor desproporcionado que aumenta al estirar pasivamente los dedos, parestesias, dedos fríos o cianóticos. Conducta: **abrir el yeso de inmediato**, cortando todas las capas, incluido el algodón, y reevaluar; si no cede, fasciotomía.\n- **Úlceras por presión** (talón, maléolos, cabeza del peroné): dolor localizado bajo el yeso, mal olor o secreción; se hace una ventana o se cambia el yeso.\n- **Lesión nerviosa por compresión**, sobre todo del **nervio peroneo** en la cabeza del peroné y del cubital en el codo.\n- **Quemadura** por el calor del fraguado (agua muy caliente o demasiadas capas), **maceración y dermatitis** cutánea.\n- **Rigidez articular y atrofia muscular** por inmovilización prolongada, **TVP** en extremidad inferior y **pérdida de la reducción**.\n:::warning\nTodo paciente con yeso debe saber que **dolor intenso, hinchazón de los dedos, dedos fríos, azulados o dormidos** son motivo de consulta inmediata, después de elevar la extremidad.\n:::",
+          "## Radiografía de Huesos Largos ante Sospecha de Fractura (Interpreta y emplea)\nSe piden **dos proyecciones perpendiculares (AP y lateral)** que incluyan **la articulación proximal y la distal** del hueso; en niños puede requerirse la proyección contralateral para comparar. Al informar o interpretar se describe: **hueso y localización** (tercio proximal, medio o distal; epífisis, metáfisis o diáfisis), **trazo** (transversal, oblicuo, espiroideo, conminuto, segmentario), **desplazamiento** (traslación, angulación, rotación, acortamiento), **compromiso articular** y si es **abierta o cerrada**. Signos sutiles: interrupción de la cortical, línea radiolúcida, escalón o rodete cortical en el niño, tumefacción de partes blandas y, en el codo, el **signo de la almohadilla grasa** (derrame que sugiere fractura oculta). Si la radiografía inicial es normal pero la clínica es sugerente, se **inmoviliza como fractura** y se repite la imagen a los 7-10 días.",
+          "## Fractura de la Muñeca (Radio Distal)\nEs la fractura más frecuente del adulto mayor osteoporótico, por **caída sobre la mano extendida**. La **fractura de Colles** (extremo distal del radio con desplazamiento y angulación **dorsal**, sin compromiso articular) produce la deformidad **\"en dorso de tenedor\"**, dolor, edema e impotencia funcional; la radiografía muestra acortamiento radial, pérdida de la inclinación palmar y, a menudo, fractura de la estiloides cubital. La **fractura de Smith** es la inversa (caída sobre el dorso de la mano flexionada, desplazamiento **volar**) y la de **Barton** compromete el borde articular. Manejo inicial: analgesia, **valva antebraquiopalmar**, radiografías AP y lateral, y búsqueda de **compresión del nervio mediano** (parestesias de los tres primeros dedos). Las fracturas poco desplazadas y estables se tratan con yeso por 4-6 semanas; las desplazadas, inestables o intraarticulares requieren reducción y osteosíntesis, por lo que se **derivan**.",
+          "### Fractura del Escafoides\nDebe sospecharse en todo adulto joven con caída sobre la mano y **dolor en la tabaquera anatómica** (a la palpación, a la compresión axial del pulgar o a la desviación cubital). La **radiografía inicial puede ser normal**: ante clínica compatible se inmoviliza con **yeso en espica de pulgar** y se repite la imagen a los 10-14 días (o se pide RM). Por su irrigación retrógrada, el polo proximal tiene riesgo de **necrosis avascular y pseudoartrosis**, de modo que toda fractura confirmada se deriva a traumatología."
         ]
       }
     ],
@@ -190,16 +197,16 @@ const rawClasses = [
     "ges": "Garantía Explícita en Salud (GES): Politraumatizado / Urgencia Traumatológica de Alta Complejidad.",
     "reconstrucciones": "EUNACOM Diciembre 2023 (Q#42) · EUNACOM Julio 2022 (Q#19) · EUNACOM Enero 2020 (Q#88)",
     "frecuencia": "Muy Alta en EUNACOM · Pregunta segura sobre esquema antibiótico según Gustilo y timing de aseo",
-    "diagram": flowTrauma('Fracturas Expuestas: Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de Fracturas Expuestas (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Fracturas Expuestas: Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Fracturas Expuestas (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -233,7 +240,9 @@ const rawClasses = [
           "## Manejo para el Traslado (Derivación)\nComo médico general, tras realizar el manejo inicial (aseo, antibióticos, analgesia), se debe derivar a un centro de mayor complejidad. Las condiciones para el traslado son:",
           "1.  **No suturar la herida**: La herida debe quedar abierta para el aseo quirúrgico formal en pabellón. Solo se permite un punto de sutura si es estrictamente necesario para realizar hemostasia activa.\n2.  **Cubrir la herida**: Utilizar apósitos estériles.\n3.  **Inmovilización**: Se debe colocar una **valva de yeso larga** (que incluya la articulación proximal y distal a la fractura).\n4.  **Valva Abierta**: La inmovilización debe ser abierta (no un yeso circular) para permitir la expansión de los tejidos y prevenir un [[Síndrome Compartimental]].",
           ":::tip\nEl estado de las **partes blandas** es el factor pronóstico más importante para la evolución y el riesgo de infección de la fractura.\n:::",
-          "## Tratamiento Quirúrgico\nEn el centro terciario, el traumatólogo realizará:\n-   **Aseo quirúrgico**: Limpieza profunda y desbridamiento de tejido necrótico en pabellón.\n-   **Reducción y Osteosíntesis**: Estabilización del hueso, que puede ser mediante fijación externa (común en grado III) o interna.\n-   En caso de grado **III C**, es obligatoria la intervención conjunta con un **cirujano vascular**."
+          "## Tratamiento Quirúrgico\nEn el centro terciario, el traumatólogo realizará:\n-   **Aseo quirúrgico**: Limpieza profunda y desbridamiento de tejido necrótico en pabellón.\n-   **Reducción y Osteosíntesis**: Estabilización del hueso, que puede ser mediante fijación externa (común en grado III) o interna.\n-   En caso de grado **III C**, es obligatoria la intervención conjunta con un **cirujano vascular**.",
+          "### Inmovilización de Urgencia de la Fractura Expuesta\nAntes del traslado: **1)** control de hemorragia con compresión directa; **2)** retirar contaminación gruesa e irrigar con suero fisiológico; **3)** cubrir con **apósito estéril empapado en suero**, sin reintroducir el hueso expuesto; **4)** alinear suavemente el eje y colocar una **férula (valva de yeso larga abierta)** que inmovilice la articulación proximal y la distal, acolchada y sin apretar; **5)** registrar el **estado neurovascular antes y después**; **6)** analgesia endovenosa, antibiótico y profilaxis antitetánica. No se sutura ni se hacen maniobras de reducción forzada.",
+          "## Traslado del Traumatizado (Procedimiento: Realizar)\nPrimero se **estabiliza y luego se traslada**: **ABCDE** completo, 2 vías venosas de buen calibre, oxígeno, analgesia y control de hemorragias. En todo traumatizado con mecanismo de riesgo se mantiene la **columna cervical protegida (collar rígido y camilla de traslado o tabla espinal)** y la movilización se hace **en bloque** (\"log-roll\", con una persona sosteniendo la cabeza). Se **abriga** al paciente para evitar la hipotermia y se coordina con el centro receptor (mayor complejidad) por teléfono o regulación del SAMU. Durante el traslado se vigilan signos vitales y estado neurovascular distal, y se entrega al receptor la **hora del trauma, mecanismo, hallazgos, tratamientos administrados** (analgesia, antibiótico, profilaxis antitetánica) y el tiempo de isquemia si lo hubiera. Acompaña personal capacitado en manejo de vía aérea y reanimación. El casco del motociclista solo lo retira personal entrenado, entre dos personas, si es necesario para manejar la vía aérea."
         ]
       }
     ],
@@ -470,16 +479,16 @@ const rawClasses = [
     "ges": "Urgencia Traumatológica Vital · Indicación de Cirugía Descompresiva Inmediata.",
     "reconstrucciones": "EUNACOM Julio 2024 (Q#05) · EUNACOM Diciembre 2022 (Q#61) · EUNACOM Enero 2021 (Q#104)",
     "frecuencia": "Muy Alta en EUNACOM · Dolor desproporcionado al estiramiento pasivo y contraindicación de yesos cerrados",
-    "diagram": flowTrauma('SÃ­ndrome Compartimental Agudo: Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de SÃ­ndrome Compartimental Agudo (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Síndrome Compartimental Agudo: Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Síndrome Compartimental Agudo (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -513,7 +522,9 @@ const rawClasses = [
           ":::note\n**TEP Masivo:** Si hay compromiso hemodinámico (shock/hipotensión), el examen de elección puede ser un ecocardiograma (buscando signos de falla derecha) y el tratamiento de elección es la **trombolisis**.\n:::",
           "---",
           "## 5. Embolia Grasa\nComplicación grave y sistémica, propia de fracturas de **huesos largos** (fémur, tibia, húmero).",
-          "### Clínica\nAparece rápidamente (horas a 24-48 horas post-fractura). Se caracteriza por una tríada clásica:\n1. **Distrés Respiratorio:** Edema pulmonar no cardiogénico.\n2. **Compromiso de Conciencia:** Desde confusión hasta coma.\n3. **Rash Petequial:** Típicamente en tórax superior, cuello y axilas."
+          "### Clínica\nAparece rápidamente (horas a 24-48 horas post-fractura). Se caracteriza por una tríada clásica:\n1. **Distrés Respiratorio:** Edema pulmonar no cardiogénico.\n2. **Compromiso de Conciencia:** Desde confusión hasta coma.\n3. **Rash Petequial:** Típicamente en tórax superior, cuello y axilas.",
+          "## Trombosis Venosa Profunda (TVP) del Paciente Traumatizado\nTras una fractura se cumple la **tríada de Virchow**: estasis (inmovilización), daño endotelial e hipercoagulabilidad por el trauma. Tienen mayor riesgo las fracturas de **pelvis, fémur y tibia**, la cirugía ortopédica mayor (prótesis de cadera o rodilla), la edad avanzada y la obesidad. Puede ser asintomática o producir dolor, **edema asimétrico**, empastamiento de la pantorrilla y aumento de la temperatura local. El diagnóstico se apoya en la probabilidad clínica (escala de Wells) y la **ecografía Doppler venosa**; como en la fractura el Dímero-D no discrimina, no se usa para descartar. El manejo inicial es **anticoagulación** (heparina de bajo peso molecular a dosis terapéutica, seguida de anticoagulante oral por al menos 3 meses si fue provocada por el trauma) y **derivar**. La **tromboflebitis superficial** (cordón venoso rojo y doloroso) se trata con AINE, compresas y deambulación; se anticoagula si compromete un tramo largo o la vecindad de la unión safenofemoral.",
+          "### Prevención y Tratamiento Inicial del TEP Postraumático\nLa mejor estrategia es la **profilaxis**: movilización y carga precoz, **HBPM** (p. ej. enoxaparina 40 mg subcutánea al día) iniciada tras estabilizar el sangrado o 6-12 horas después de la cirugía, mantenida 10-14 días en fracturas de extremidad inferior y hasta 4-5 semanas tras cirugía de cadera, y medidas mecánicas (medias de compresión, compresión neumática) cuando la anticoagulación está contraindicada. Ante sospecha de TEP con estabilidad hemodinámica se **anticoagula de inmediato** (HBPM o heparina no fraccionada) sin esperar el angioTAC, si no hay contraindicación; con shock se trombolisa o se indica embolectomía quirúrgica cuando la cirugía o el trauma reciente contraindican la trombolisis."
         ]
       }
     ],
@@ -750,16 +761,16 @@ const rawClasses = [
     "ges": "Sin garantía GES específica · Detección oportuna de hipoxemia post-fractura diafisiaria.",
     "reconstrucciones": "EUNACOM Diciembre 2023 (Q#92) · EUNACOM Julio 2020 (Q#41)",
     "frecuencia": "Media-Alta en EUNACOM · Tríada de Gurd en embolia grasa (hipoxemia, petequias, deterioro neurológico)",
-    "diagram": flowTrauma('Lesiones Neurovasculares de las Fracturas: Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de Lesiones Neurovasculares de las Fracturas (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Lesiones Neurovasculares de las Fracturas: Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Lesiones Neurovasculares de las Fracturas (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Lesiones Neurovasculares de las Fracturas: Embolia Grasa, Pseudoartrosis & Osteomielitis Postraumática es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -793,7 +804,12 @@ const rawClasses = [
           "### Manejo de Urgencia\n1.  **Hemorragia:** La prioridad es la **compresión directa** (parte del ABC del trauma).\n2.  **Cirugía Vascular:** Reparación definitiva de la arteria.\n3.  **Ligadura:** Solo en casos extremos donde no se logra hemostasia con compresión, seguido de traslado urgente para revascularización.",
           ":::warning\nEl uso de **torniquetes** está generalmente desaconsejado en el manejo estándar inicial porque aumenta el daño isquémico de la extremidad, a menos que sea una hemorragia exanguinante que no ceda a compresión.\n:::",
           "---",
-          "## Caso Especial: Disección de la Arteria Poplítea"
+          "## Caso Especial: Disección de la Arteria Poplítea",
+          "## Luxación de Hombro\nEs la luxación más frecuente; en más del 95 % de los casos es **anterior** (caída sobre el brazo en abducción y rotación externa). Clínica: dolor intenso, brazo en **ligera abducción y rotación externa** sostenido con la otra mano, imposibilidad de aducir, pérdida del contorno redondeado del deltoides con acromion prominente (**signo de la charretera**). Siempre se examina el **nervio axilar** (sensibilidad del \"parche\" deltoideo) y el pulso radial **antes y después de reducir**. Se piden radiografías AP y lateral escapular (Y) o axial: la cabeza humeral queda **subcoracoidea**; se buscan la fractura de **Hill-Sachs** (cabeza humeral), la lesión de **Bankart** (rodete glenoideo) y la fractura del troquíter. La **luxación posterior** es rara y se asocia a convulsiones y electrocución (brazo aducido en rotación interna). Tratamiento: **reducción cerrada precoz** con analgesia o sedación (tracción-contratracción, Kocher, Stimson o Milch), radiografía de control, cabestrillo por 2-3 semanas y rehabilitación. En menores de 25 años la **recidiva** es muy frecuente, por lo que se deriva a traumatología para evaluar estabilización quirúrgica.",
+          "### Reducción de Luxaciones de Codo, Hombro e Interfalángicas (Derivar a especialista)\nPrincipios: toda luxación es una **urgencia**, más aún si hay compromiso neurovascular. El médico general **diagnostica** (deformidad, impotencia funcional, radiografía), **evalúa pulsos, sensibilidad y movilidad**, da analgesia, **inmoviliza en la posición hallada** y **deriva**. La reducción se hace con analgesia o sedación, tracción **suave y progresiva** con contratracción, sin movimientos bruscos, y siempre con radiografía previa y posterior. La **luxación de codo** (habitualmente posterior) puede lesionar el nervio cubital o mediano y la arteria braquial, y se inmoviliza con valva braquiopalmar a 90° tras reducir. La **luxación interfalángica** se reduce con tracción longitudinal bajo bloqueo digital y se inmoviliza con férula o sindactilia. Si hay pulso ausente o isquemia y la derivación se demora, la reducción inmediata la realiza el médico entrenado.",
+          "## Fracturas en el Niño: Particularidades y Manejo General\nEl hueso inmaduro tiene un periostio grueso y una **placa de crecimiento** que aún no se cierra, lo que origina patrones propios: fractura **en tallo verde** (cortical rota de un lado), **en rodete** o torus (compresión de la metáfisis), deformación plástica y **fracturas fisarias** (Salter-Harris, ver Ortopedia infantil). La mayoría se trata de manera **ortopédica** porque el niño **remodela** el hueso. Manejo inicial: analgesia, inmovilización con valva, evaluación neurovascular y radiografías en dos proyecciones; se derivan las fracturas desplazadas, articulares o fisarias, y las expuestas. Debe **sospecharse maltrato** ante fracturas en lactantes que no caminan, fracturas de fémur en menores de 1 año, múltiples fracturas en distintas etapas de consolidación, fracturas costales posteriores o metafisarias \"en asa de balde\", o un mecanismo que no explica la lesión.",
+          "### Fractura Supracondílea de Húmero\nEs la fractura de codo más frecuente en el niño (5-8 años), por caída con la mano extendida. Se sospecha por dolor, edema y deformidad del codo; la radiografía lateral muestra desplazamiento posterior del fragmento distal. Es **urgencia**: se asocia a lesión de la arteria braquial (mano fría, pulso ausente), del nervio mediano (rama interósea anterior) y a **síndrome compartimental con contractura de Volkmann**. Se inmoviliza en posición cómoda (no se fuerza la extensión), se evalúa el estado neurovascular y se **deriva de inmediato** para reducción y fijación con clavos percutáneos; una mala reducción deja deformidad en varo (**cúbito varo**).",
+          "## Isquemia Arterial Aguda: Embolia y Trombosis\nAdemás de la causa traumática, la oclusión arterial aguda se debe a **embolia** (origen cardíaco: fibrilación auricular, infarto reciente, valvulopatía; extremidad previamente sana, inicio brusco, pulsos contralaterales normales, oclusión en una bifurcación como la femoral común) o a **trombosis in situ** sobre una placa aterosclerótica (claudicación previa, pulsos contralaterales disminuidos, inicio más gradual). La clínica son las **6 P**. La gravedad se clasifica en viable, amenazada (déficit sensitivo o motor) e irreversible. Manejo inicial del médico general: **heparina no fraccionada endovenosa** inmediata (bolo de 5.000 UI o 80 UI/kg), analgesia, extremidad en declive y abrigada (sin calor directo) y **traslado urgente a cirugía vascular**, ya que el tiempo útil para revascularizar es de unas 6 horas. La embolia se trata con **embolectomía con catéter de Fogarty**; la trombosis con trombolisis o bypass. Tras reperfundir hay riesgo de síndrome de reperfusión (hiperkalemia, mioglobinuria) y compartimental."
         ]
       }
     ],
@@ -918,16 +934,16 @@ const rawClasses = [
     "ges": "Garantía Explícita en Salud (GES): Politraumatizado Grave con Riesgo Vital.",
     "reconstrucciones": "EUNACOM Diciembre 2022 (Q#14) · EUNACOM Enero 2021 (Q#56)",
     "frecuencia": "Muy Alta en EUNACOM · Maniobra de faja pélvica sobre trocánteres mayores y reanimación hemostática",
-    "diagram": flowTrauma('Fracturas de Pelvis & Shock HipovolÃ©mico Pelviano: Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de Fracturas de Pelvis & Shock HipovolÃ©mico Pelviano (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Fracturas de Pelvis & Shock Hipovolémico Pelviano: Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Fracturas de Pelvis & Shock Hipovolémico Pelviano (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -961,7 +977,8 @@ const rawClasses = [
           "#### 2. Sección Uretral\nFrecuente en fracturas de la sínfisis del pubis (lesiones en \"libro abierto\").\n- **Sospecha:** Sangre en el meato urinario, próstata flotante al tacto rectal o globo vesical.\n- **Diagnóstico:** Uretrocistografía retrógrada.",
           ":::warning\n**CONTRAINDICACIÓN ABSOLUTA:** Está prohibido instalar una **sonda Foley** ante la sospecha de sección uretral, ya que puede agravar la lesión o crear una falsa vía. El manejo inicial del globo vesical debe ser mediante una **cistostomía suprapúbica**.\n:::",
           "## Resumen de Manejo\n1. **ABCDE** (Prioridad absoluta).\n2. **Estabilización de pelvis** (si hay sospecha de fractura o inestabilidad hemodinámica).\n3. **Radiografía AP de Pelvis** para confirmar diagnóstico.\n4. Manejo de complicaciones (cirugía, antibióticos en fracturas expuestas, cistostomía en lesiones uretrales).",
-          "[[Shock]]\n[[Insuficiencia Respiratoria]]\n[[Traumatismo Encefalocraneano]]"
+          "[[Shock]]\n[[Insuficiencia Respiratoria]]\n[[Traumatismo Encefalocraneano]]",
+          "## Interpretación de la Trilogía Radiológica del Trauma (Interpreta y emplea)\nSe toma en la sala de reanimación **sin retrasar la reanimación**: **columna cervical lateral, tórax AP y pelvis AP**.\n- **Columna cervical lateral:** deben verse las **7 vértebras y la unión C7-T1** (si no se ve, se pide TAC; en el trauma significativo la TAC reemplaza a la radiografía). Se revisan las cuatro líneas de alineación (cara anterior de los cuerpos, cara posterior, línea espinolaminar y apófisis espinosas), la altura de los cuerpos, los espacios discales, la distancia atlantodental (< 3 mm en adultos) y el **espacio prevertebral** (aumentado en hematoma: > 7 mm a nivel de C2 y > 21 mm a nivel de C6).\n- **Tórax AP:** neumotórax, hemotórax (opacidad del hemitórax), **mediastino ensanchado** (> 8 cm; sospecha de lesión aórtica), fracturas costales, contusión pulmonar, posición de tubos y rotura diafragmática.\n- **Pelvis AP:** ensanchamiento de la **sínfisis del pubis** (> 2,5 cm), asimetría o ensanchamiento de las articulaciones sacroilíacas, fractura de ramas isquiopubianas y del acetábulo, y alteración de la línea de Shenton.\nLos hallazgos orientan el manejo (drenaje pleural, estabilización pélvica) y definen qué segmentos de la columna requieren estudio con TAC."
         ]
       }
     ],
@@ -1198,16 +1215,16 @@ const rawClasses = [
     "ges": "Garantía Explícita en Salud (GES): Traumatismo Raquimedular.",
     "reconstrucciones": "EUNACOM Julio 2023 (Q#35) · EUNACOM Enero 2022 (Q#80)",
     "frecuencia": "Alta en EUNACOM · Diferenciación de shock neurogénico (hipotensión con bradicardia) y collar cervical rígido",
-    "diagram": flowTrauma('Retardo de Consolidación, Pseudoartrosis & Consolidación Viciosa: Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de Retardo de Consolidación, Pseudoartrosis & Consolidación Viciosa (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Retardo de Consolidación, Pseudoartrosis & Consolidación Viciosa: Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Retardo de Consolidación, Pseudoartrosis & Consolidación Viciosa (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Retardo de Consolidación, Pseudoartrosis & Consolidación Viciosa: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -1241,7 +1258,8 @@ const rawClasses = [
           "### Causas\n- **Mala reducción inicial:** Los fragmentos nunca fueron alineados correctamente.\n- **Pérdida de la reducción:** La fractura estaba bien alineada, pero se desplazó durante el periodo de inmovilización y no se corrigió a tiempo.",
           ":::warning\nEs vital no confundir la **no-unión** (pseudoartrosis) con la **mala unión** (consolidación viciosa). En la mala unión el hueso está sólido, pero en mala posición.\n:::",
           "### Manejo\nSi la deformidad es funcionalmente inaceptable, el tratamiento es quirúrgico mediante una **osteotomía correctora** (cirugía de refractura):\n1. Se corta el hueso consolidado.\n2. Se realiza una **reducción** anatómica correcta.\n3. Se estabiliza con osteosíntesis para asegurar una nueva consolidación en el eje adecuado.",
-          "## Resumen Comparativo para el EUNACOM"
+          "## Resumen Comparativo para el EUNACOM",
+          "## Fracturas de Diáfisis y Metáfisis: Clínica y Manejo\nLa **diáfisis** (hueso cortical) tiene menor irrigación y poca superficie de contacto entre fragmentos; consolida más lento y es propensa a retardo y pseudoartrosis, sobre todo en la tibia. La **metáfisis** (hueso esponjoso, bien vascularizado) consolida rápido y, si está impactada, es estable. La clínica es la de toda fractura: dolor, deformidad, impotencia funcional y crepitación. Manejo inicial: analgesia, inmovilización de la articulación proximal y distal, radiografías AP y lateral e **evaluación neurovascular**. Tratamiento definitivo: las diáfisis de **fémur y tibia** se fijan con **clavo endomedular**; las del **antebrazo** del adulto con placa y tornillos; la del **húmero** suele tratarse con yeso colgante o férula funcional, vigilando el nervio radial; las fracturas metafisarias impactadas o poco desplazadas se tratan con yeso. El médico general inmoviliza, descarta complicaciones y **deriva**."
         ]
       }
     ],
@@ -1450,16 +1468,16 @@ const rawClasses = [
     "ges": "Sin garantía GES específica · Maniobras de reducción cerrada y evaluación del nervio axilar/radial.",
     "reconstrucciones": "EUNACOM Diciembre 2023 (Q#29) · EUNACOM Julio 2022 (Q#58)",
     "frecuencia": "Muy Alta en EUNACOM · Signo de la charretera en luxación anterior y dolor en tabaquera anatómica",
-    "diagram": flowTrauma('Lesiones de Hombro, ClavÃ­cula y Miembro Superior: Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de Lesiones de Hombro, ClavÃ­cula y Miembro Superior (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Lesiones de Hombro, Clavícula y Miembro Superior: Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Lesiones de Hombro, Clavícula y Miembro Superior (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Fracturas de Extremidad Inferior: Luxación Glenohumeral, Fractura de Colles & Escafoides es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -1493,7 +1511,10 @@ const rawClasses = [
           ":::tip\n**Perla EUNACOM:** Ante la duda entre esguince y fractura, la conducta correcta es: **\"Un esguince es una fractura hasta que se demuestre lo contrario con una radiografía\"**. Si se pregunta por el *diagnóstico* más probable ante una torcedura simple con equimosis, es esguince; si se pregunta por el *manejo*, es solicitar radiografía.\n:::",
           "---",
           "## Tratamiento y Manejo Inicial",
-          "### 1. Fractura de Tobillo\nEl tratamiento definitivo suele ser la **reducción y osteosíntesis quirúrgica**, especialmente si hay compromiso de ambos maléolos o inestabilidad de la sindesmosis."
+          "### 1. Fractura de Tobillo\nEl tratamiento definitivo suele ser la **reducción y osteosíntesis quirúrgica**, especialmente si hay compromiso de ambos maléolos o inestabilidad de la sindesmosis.",
+          "## Luxofractura de Tobillo\nSe produce por un mecanismo de **rotación** del pie con el tobillo en carga y combina fractura de uno o más maléolos con lesión ligamentaria y subluxación o luxación del astrágalo. La **clasificación de Weber** según el nivel del rasgo del peroné respecto de la sindesmosis (A infrasindesmal, B transindesmal, C suprasindesmal) orienta la estabilidad: las C son inestables. Pueden ser **bimaleolares** o **trimaleolares** (con el maléolo posterior). Clínica: deformidad evidente, edema importante e imposibilidad de apoyo. Se aplican las **reglas de Ottawa** (dolor en zona maleolar y dolor óseo en el borde posterior o la punta de un maléolo, o incapacidad para dar cuatro pasos) para solicitar radiografía AP, lateral y de mortaja. Manejo de urgencia: examen neurovascular y de la piel, **reducción** si hay luxación con compromiso vascular o cutáneo, **valva suropédica**, elevación, analgesia y **derivación** para osteosíntesis. Complican necrosis cutánea, síndrome compartimental y artrosis postraumática.",
+          "### Radiografía de Fémur\nAnte sospecha de fractura de fémur se solicita **radiografía AP y lateral del fémur completo**, con la cadera y la rodilla incluidas, y una **radiografía de pelvis** para descartar fractura asociada del cuello femoral o del acetábulo. Se describen el tercio comprometido, el trazo, el acortamiento y el desplazamiento. La fractura diafisaria requiere gran energía y puede perder **1-1,5 litros de sangre**, por lo que se vigila el shock. Mientras se espera la cirugía se inmoviliza con férula de tracción o tracción cutánea.",
+          "## Esguince: Grados y Tratamiento\nEl esguince es la lesión de un ligamento. **Grado I:** distensión con microdesgarros, dolor y edema leves, sin inestabilidad, y se puede apoyar. **Grado II:** rotura parcial, edema y equimosis, dolor al apoyo e inestabilidad leve. **Grado III:** rotura completa, inestabilidad franca; se confirma con ecografía o RM y se **deriva**. El más frecuente es el del **ligamento peroneoastragalino anterior** (inversión del tobillo). Tratamiento de los grados I y II: **PRICE** (protección, reposo relativo, hielo 15-20 minutos cada 2-3 horas durante 48-72 horas, compresión con venda elástica y elevación), paracetamol o AINE por pocos días, **vendaje funcional o tobillera** y apoyo progresivo según tolerancia; en el grado II se agrega inmovilización semirrígida por 1-2 semanas. Después, **kinesiterapia** con ejercicios de propiocepción para prevenir recidivas; el retorno al deporte demora 1-6 semanas. Se derivan los grados III, la sospecha de lesión de la sindesmosis (dolor sobre la sindesmosis, compresión tibioperonea dolorosa) y la persistencia de síntomas más allá de 6 semanas. El mismo manejo aplica al esguince acromioclavicular grado I (cabestrillo 1-2 semanas), de los dedos (sindactilia con el dedo vecino) y de la rodilla."
         ]
       }
     ],
@@ -1618,16 +1639,16 @@ const rawClasses = [
     "ges": "Sin garantía GES específica · Criterios radiológicos de Ottawa y Signo de Thompson.",
     "reconstrucciones": "EUNACOM Julio 2024 (Q#71) · EUNACOM Enero 2021 (Q#19)",
     "frecuencia": "Alta en EUNACOM · Indicación de radiografías según Ottawa y diagnóstico clínico de rotura aquiliana",
-    "diagram": flowTrauma('Lesiones de Rodilla: Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de Lesiones de Rodilla (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Lesiones de Rodilla: Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Lesiones de Rodilla (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Lesiones de Rodilla: Fracturas Maleolares, Reglas de Ottawa & Rotura del Tendón de Aquiles es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -1661,7 +1682,9 @@ const rawClasses = [
           "### Clínica\n- **Dolor anterior de rodilla:** Localizado \"detrás\" o alrededor de la rótula.\n- **Desencadenantes:** Subir o bajar escaleras, caminar por cerros (trekking) o estar sentado mucho tiempo.\n- Puede haber sensación de que la rótula \"se corre\".",
           ":::important\nEl diagnóstico de la **Disfunción Patelofemoral** es eminentemente **CLÍNICO**. No requiere RMN de entrada a menos que se sospechen lesiones meniscales o ligamentarias asociadas.\n:::",
           "### Tratamiento\n- Reposo relativo en fase aguda y AINES.\n- **Pilar Fundamental:** Fortalecimiento del **músculo cuádriceps** (especialmente el vasto medial) para centrar la rótula y mejorar la mecánica articular.",
-          "---"
+          "---",
+          "## Riesgos Deportivos y Prevención\nLa práctica deportiva tiene beneficios claros, pero se asocia a lesiones y riesgos que el médico general debe prevenir: **evaluación previa a la participación** (antecedentes familiares de muerte súbita, soplos, síncope con el esfuerzo), calentamiento y elongación, progresión gradual de la carga, calzado y protección adecuados e hidratación. Lesiones características: fútbol y rugby (**ligamento cruzado anterior, meniscos**, esguince de tobillo), corredores (**banda iliotibial**, tendinopatía aquílea, fascitis plantar y **fracturas por estrés** de tibia y metatarsianos), deportes de lanzamiento (manguito rotador) y de raqueta (epicondilalgia). En la **mujer deportista** se describe la tríada de déficit energético, amenorrea y osteoporosis. Riesgos sistémicos: **muerte súbita** del joven deportista (miocardiopatía hipertrófica, canalopatías), **golpe de calor** y **rabdomiólisis** por ejercicio extremo, conmoción cerebral y uso de sustancias dopantes.",
+          "### Contusión, Hematoma y Hemartrosis de la Rodilla\nEl golpe directo sobre la rodilla puede causar una **contusión** con equimosis o un **hematoma prepatelar** (colección superficial, delimitada por delante de la rótula). Debe diferenciarse de la **hemartrosis**, sangre dentro de la articulación: derrame que aparece en las primeras horas, con **peloteo rotuliano** y limitación del movimiento. Sus causas son la **rotura del ligamento cruzado anterior** (la más frecuente), la fractura osteocondral, la luxación de rótula y las fracturas intraarticulares; el derrame que aparece a las 24-48 horas sugiere lesión meniscal. Se solicita radiografía según las reglas de Ottawa (edad ≥ 55 años, dolor aislado de rótula o de cabeza del peroné, imposibilidad de flexionar 90° o de dar cuatro pasos). Tratamiento: reposo relativo, hielo, compresión, elevación, analgesia y vendaje; se punciona solo si el derrame es a tensión (la salida de **gotas de grasa** sugiere fractura) y se deriva si hay inestabilidad."
         ]
       }
     ],
@@ -1786,16 +1809,16 @@ const rawClasses = [
     "ges": "Garantía Explícita en Salud (GES): Tratamiento Quirúrgico de la Fractura de Cadera en mayores de 65 años.",
     "reconstrucciones": "EUNACOM Diciembre 2023 (Q#03) · EUNACOM Julio 2022 (Q#47) · EUNACOM Enero 2020 (Q#12)",
     "frecuencia": "Muy Alta en EUNACOM · Deformidad en acortamiento y rotación externa; cirugía <48 horas para sobrevida",
-    "diagram": flowTrauma('Lesiones de Partes Blandas: Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de Lesiones de Partes Blandas (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Lesiones de Partes Blandas: Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Lesiones de Partes Blandas (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Lesiones de Partes Blandas: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -2038,16 +2061,16 @@ const rawClasses = [
     "ges": "Sin garantía GES específica · Semiología de estabilidad de rodilla en el servicio de urgencia.",
     "reconstrucciones": "EUNACOM Julio 2023 (Q#50) · EUNACOM Enero 2022 (Q#89)",
     "frecuencia": "Alta en EUNACOM · Hemartrosis a tensión inmediata = 70% rotura de ligamento cruzado anterior",
-    "diagram": flowTrauma('Fractura de Cadera en el Adulto Mayor: Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de Fractura de Cadera en el Adulto Mayor (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Fractura de Cadera en el Adulto Mayor: Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Fractura de Cadera en el Adulto Mayor (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Fractura de Cadera en el Adulto Mayor: LCA (Lachman), Meniscos (McMurray) & Hemartrosis Aguda es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -2081,7 +2104,8 @@ const rawClasses = [
           "### Procedimiento de Girdlestone\nEs una cirugía de salvataje o paliativa para pacientes **postrados crónicos**. \n- **En qué consiste:** Se retira la cabeza femoral y se descarta, dejando al paciente sin articulación (\"cadera flotante\").\n- **Objetivo:** Eliminar el dolor causado por el roce de los fragmentos óseos para evitar complicaciones como el [[Delirium]] o infecciones, sin la necesidad de implantes caros en alguien que ya no camina.",
           "## Diagnóstico Diferencial: Luxación Posterior de Cadera",
           "Es fundamental no confundirla con la fractura, aunque el cuadro clínico tiene diferencias marcadas.",
-          "- **Mecanismo:** Típicamente el \"accidente del copiloto\" (impacto de la rodilla contra el tablero del auto) o caídas de altura.\n- **Clínica (Posición Púdica):**\n    - **Aducción** (pierna hacia adentro).\n    - **Rotación interna**.\n    - **Acortamiento**.\n- **Complicación asociada:** Alta frecuencia de lesión del **nervio ciático** (siempre evaluar sensibilidad y motilidad distal).\n- **Tratamiento:** Reducción cerrada bajo anestesia en pabellón, seguida de inmovilización."
+          "- **Mecanismo:** Típicamente el \"accidente del copiloto\" (impacto de la rodilla contra el tablero del auto) o caídas de altura.\n- **Clínica (Posición Púdica):**\n    - **Aducción** (pierna hacia adentro).\n    - **Rotación interna**.\n    - **Acortamiento**.\n- **Complicación asociada:** Alta frecuencia de lesión del **nervio ciático** (siempre evaluar sensibilidad y motilidad distal).\n- **Tratamiento:** Reducción cerrada bajo anestesia en pabellón, seguida de inmovilización.",
+          "## Tracción de Partes Blandas (Procedimiento: Realizar)\nLa **tracción cutánea** (de Buck) aplica una fuerza longitudinal sobre la piel mediante vendas adhesivas o botas con espuma, unidas por una cuerda y polea a un **peso de 2-4 kg** (hasta 10 % del peso corporal). Se usa para aliviar el dolor y el espasmo, mantener el alineamiento y el largo de la extremidad en fracturas de cadera y fémur **mientras llega la cirugía**, y en lactantes y niños pequeños (tracción de Bryant). Técnica: piel limpia y sana, protección de prominencias óseas, dirección en el eje del miembro, pie de la cama elevado como contrapeso y peso libre sin apoyarse. Contraindicaciones: lesiones cutáneas, insuficiencia arterial, alergia al adhesivo. Complicaciones: **lesiones por presión, ampollas y parálisis del nervio peroneo** por compresión de la cabeza del peroné (mantener rotación neutra), además de TVP; se controlan pulsos, sensibilidad y piel cada turno. La **tracción esquelética** (clavo transóseo) la realiza el traumatólogo. En la fractura de cadera del adulto mayor la tracción no mejora el dolor ni el resultado, y se prefiere un buen posicionamiento con almohadas, analgesia y **cirugía precoz** (idealmente en menos de 48 horas)."
         ]
       }
     ],
@@ -2262,16 +2286,16 @@ const rawClasses = [
     "ges": "Garantía Explícita en Salud (GES): Tratamiento Médico en personas de 55 años y más con Artrosis de Cadera o Rodilla.",
     "reconstrucciones": "EUNACOM Diciembre 2022 (Q#76) · EUNACOM Enero 2020 (Q#34)",
     "frecuencia": "Alta en EUNACOM · Criterios radiológicos de artrosis y escalonamiento de paracetamol/ejercicio a prótesis",
-    "diagram": flowTrauma('Lesiones de Partes Blandas, Artrosis & PatologÃ­a Degenerativa Articular (Coxartrosis / Gonartrosis GES): Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de Lesiones de Partes Blandas, Artrosis & PatologÃ­a Degenerativa Articular (Coxartrosis / Gonartrosis GES) (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES): Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES) (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Patología Osteomuscular No Traumática es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -2305,7 +2329,11 @@ const rawClasses = [
           "- **Pata de Ganso:** Dolor en la zona anteromedial e inferior de la rodilla. Común en montañismo/trekking.\n- **Rotuliana:** Dolor en la tuberosidad tibial. Incluye la enfermedad de **Osgood-Schlatter** en adolescentes.\n- **Fascia Lata (Síndrome de la Banda Iliotibial):** Dolor en la cara lateral de la rodilla. Típico de corredores (**\"rodilla del maratonista\"**).\n- **De Quervain:** Dolor en la zona lateral de la muñeca (extensor corto y abductor largo del pulgar).",
           "### Bursitis\nInflamación de la bursa (saco sinovial extraarticular). A diferencia de la tendinitis, suele presentar **eritema y aumento de volumen visible**.",
           "- **Bursitis Olecraniana:** Aumento de volumen en la punta del codo.\n- **Bursitis Pertrocantérica:** Dolor sobre el trocánter mayor del fémur.\n- **Tratamiento:** AINEs, frío local y, en casos refractarios, corticoides.",
-          ":::note\nPara diferenciar una **Bursitis** de una **Artritis Séptica**: En la bursitis, la inflamación es superficial y externa a la articulación; en la artritis, hay derrame articular profundo y limitación dolorosa de todo el rango de movimiento.\n:::"
+          ":::note\nPara diferenciar una **Bursitis** de una **Artritis Séptica**: En la bursitis, la inflamación es superficial y externa a la articulación; en la artritis, hay derrame articular profundo y limitación dolorosa de todo el rango de movimiento.\n:::",
+          "## Epicondilalgia y Epitroclealgia\nLa **epicondilalgia lateral** (\"codo de tenista\") es una tendinopatía degenerativa del origen de los extensores (extensor radial corto del carpo) por sobrecarga repetida; la **epitroclealgia** (\"codo de golfista\") compromete los flexores y pronadores en el epicóndilo medial. Clínica: dolor localizado en el epicóndilo que aumenta al agarrar y levantar objetos; la **extensión resistida de la muñeca o del tercer dedo** reproduce el dolor en la lateral, y la **flexión y pronación resistidas** en la medial; la movilidad del codo es normal y la radiografía no aporta. El cuadro es autolimitado (6-12 meses). Tratamiento inicial: **reposo relativo y modificación de la actividad**, frío local, AINE por pocos días (tópicos o vía oral), **cincha o banda epicondílea** y kinesiterapia con ejercicios excéntricos. La infiltración con corticoides alivia a corto plazo pero empeora el resultado a largo plazo, por lo que no se repite; la cirugía es excepcional. Diferenciar de radiculopatía C6 y de síndrome del túnel radial si hay irradiación o déficit neurológico.",
+          "## Lumbago Infeccioso y Tumoral: Signos de Alarma\nAnte un dolor lumbar se buscan **banderas rojas**: edad < 20 o > 55 años al inicio, antecedente de **cáncer**, **fiebre**, baja de peso, dolor **nocturno o de reposo** y progresivo, uso de drogas endovenosas o inmunosupresión, trauma significativo, osteoporosis o corticoides, y **déficit neurológico**. El **síndrome de cauda equina** (anestesia \"en silla de montar\", retención urinaria, incontinencia fecal, debilidad de ambas piernas) es una urgencia quirúrgica. Causas infecciosas: **espondilodiscitis** (S. aureus, tuberculosis o mal de Pott, brucelosis) con dolor, fiebre y VHS y PCR elevadas, y **absceso epidural** (fiebre, dolor lumbar y déficit neurológico). Causas tumorales: **metástasis** (mama, próstata, pulmón, riñón, tiroides), **mieloma múltiple** (lesiones líticas, anemia, hipercalcemia, VHS alta) y linfoma. Estudio inicial: hemograma, VHS, PCR, calcio, fosfatasas alcalinas y radiografía; la **RM** es el examen de elección. El médico general sospecha, inicia estudio y **deriva**.",
+          "## Infecciones Osteoarticulares\nLa **osteomielitis aguda hematógena** afecta sobre todo a niños, en la **metáfisis** de los huesos largos (fémur distal, tibia proximal), por *Staphylococcus aureus*; en la anemia falciforme se suma *Salmonella*. En el adulto es frecuente tras fractura expuesta, cirugía o en el pie diabético (hueso palpable con el estilete). Clínica: fiebre, dolor intenso localizado, impotencia funcional y signos inflamatorios. Laboratorio: leucocitosis, **VHS y PCR elevadas**, hemocultivos. La **radiografía es normal los primeros 10-14 días**, luego aparece reacción perióstica y lisis; la **RM** es el examen más sensible y precoz. Tratamiento: hospitalización, **antibiótico endovenoso anti-estafilocócico** (cloxacilina o cefazolina; vancomicina si hay sospecha de SAMR) y total de 4-6 semanas, con drenaje quirúrgico si hay absceso o secuestro. La osteomielitis crónica evoluciona con fístula y secuestros óseos. La **artritis séptica** se trata en el tema de monoartritis (ver Artrosis y Monoartritis Aguda).",
+          "## Lumbociática Radicular: Semiología y Manejo\nCuando el dolor lumbar se irradia **bajo la rodilla** siguiendo un dermatoma hay compromiso radicular, casi siempre por **hernia del núcleo pulposo** L4-L5 o L5-S1. **L5:** dolor en la cara lateral de la pierna y dorso del pie, debilidad de la extensión del hallux (marcha de talones). **S1:** dolor en la cara posterior de la pierna y planta del pie, debilidad de la flexión plantar (marcha de puntillas) y **reflejo aquíleo disminuido**. **L4:** cara anterior del muslo y medial de la pierna, reflejo rotuliano disminuido. Los signos de compresión radicular son la **elevación de la pierna recta o signo de Lasègue** positivo (dolor a 30-70° de elevación) y el Lasègue cruzado (más específico). El tratamiento inicial es el mismo del lumbago (AINE, analgesia, mantener actividad según tolerancia); 80-90 % mejora en 6-12 semanas. La RM se pide solo ante déficit progresivo, signos de alarma o dolor persistente candidato a cirugía; el síndrome de cauda equina es urgencia quirúrgica."
         ]
       }
     ],
@@ -2402,16 +2430,16 @@ const rawClasses = [
     "ges": "Sin garantía GES específica · Maniobra de reducción de pronación dolorosa (supinación-flexión).",
     "reconstrucciones": "EUNACOM Julio 2024 (Q#88) · EUNACOM Diciembre 2021 (Q#12)",
     "frecuencia": "Muy Alta en EUNACOM · Pronación dolorosa (tracción de brazo por cuidador) y Salter-Harris II más común",
-    "diagram": flowTrauma('TraumatologÃ­a Infantil: Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de TraumatologÃ­a Infantil (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Traumatología Infantil: Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Traumatología Infantil (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Artrosis & Monoartritis Aguda: Fracturas en Tallo Verde, Epifisiolisis (Salter-Harris) & Codo de Niñera (Pronación Dolorosa) es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -2434,7 +2462,10 @@ const rawClasses = [
           "---",
           "## Enfrentamiento de la Monartritis Aguda",
           "Ante una articulación inflamada (dolor, aumento de volumen, eritema y calor), la conducta mandatoria es realizar una **artrocentesis** (punción articular) para analizar el líquido sinovial.",
-          "### Análisis del Líquido Sinovial"
+          "### Análisis del Líquido Sinovial",
+          "| Parámetro | Normal | No inflamatorio (artrosis) | Inflamatorio (gota, AR) | Séptico |\n| :--- | :--- | :--- | :--- | :--- |\n| **Aspecto** | Transparente, viscoso | Transparente, amarillo | Turbio | Purulento, turbio |\n| **Leucocitos/mm³** | < 200 | 200 - 2.000 | 2.000 - 50.000 | **> 50.000** |\n| **% Polimorfonucleares** | < 25 % | < 25 % | > 50 % | **> 75-90 %** |\n| **Glucosa** | Similar a la sangre | Similar a la sangre | Baja | **Muy baja** |\n| **Gram / cultivo** | Negativos | Negativos | Negativos | **Positivos** |\n| **Cristales** | Ausentes | Ausentes | Urato o pirofosfato | Pueden coexistir |",
+          "Del líquido obtenido se pide **citoquímico** (recuento celular y diferencial, glucosa y proteínas), **Gram y cultivo**, y **búsqueda de cristales con luz polarizada**. Un recuento de leucocitos > 50.000/mm³ con predominio de polimorfonucleares es altamente sugerente de **artritis séptica** (y se trata como tal hasta tener el cultivo); la presencia de cristales **no descarta infección concomitante**. El líquido hemorrágico sugiere trauma, fractura intraarticular (con gotas de grasa) o diátesis hemorrágica.",
+          "### 1. Gota Aguda: Diagnóstico y Crisis\nPor depósito de cristales de **urato monosódico** en pacientes con hiperuricemia. Es más frecuente en hombres sobre los 40 años, y en mujeres posmenopáusicas. Los factores desencadenantes son el alcohol, las carnes rojas y mariscos, los diuréticos (tiazidas), el ayuno, el trauma y la cirugía. Clínica: **monoartritis aguda de inicio nocturno** muy dolorosa, con eritema y calor; el sitio más típico es la primera articulación metatarsofalángica (**podagra**). El diagnóstico es **clínico** en la podagra típica; el estándar de oro es la demostración de **cristales en forma de aguja con birrefringencia negativa** (amarillos cuando son paralelos al eje del compensador) en el líquido sinovial. El ácido úrico sérico puede ser normal durante la crisis. En la gota crónica aparecen **tofos** y erosiones \"en sacabocados\" con borde en alero. Tratamiento de la crisis: **AINE** a dosis plenas (naproxeno 500 mg cada 12 horas o indometacina 50 mg cada 8 horas) o **colchicina** (1 mg al inicio y 0,5 mg una hora después, dentro de las primeras 12-24 horas); si ambos están contraindicados (insuficiencia renal, úlcera), **prednisona 30-40 mg al día** por 5 días o infiltración intraarticular. Además, reposo articular y frío local."
         ]
       },
       {
@@ -2445,7 +2476,9 @@ const rawClasses = [
           "### Tratamiento de la Gota\n- **Crisis Aguda:** AINEs endovenosos o **Colchicina** (ojo con la diarrea como efecto adverso).\n- **Manejo Crónico (Profilaxis):** \n    - Indicado si el paciente tiene **2 o más crisis al año**.\n    - Fármacos: **Alopurinol** (inhibidor de la xantina oxidasa) o Probenecid (uricosúrico).\n    - **Metas de Ácido Úrico:** < 6 mg/dL en mujeres y < 7 mg/dL en hombres.",
           ":::warning\n**Jamás** inicie ni suspenda el Alopurinol durante una crisis aguda, ya que los cambios bruscos en los niveles de ácido úrico pueden empeorar o prolongar la inflamación.\n:::",
           "---",
-          "## Artritis Séptica"
+          "## Artritis Séptica",
+          "Es una **urgencia** por el riesgo de destrucción articular rápida. El agente más frecuente es *Staphylococcus aureus*; en adultos jóvenes sexualmente activos debe pensarse en *Neisseria gonorrhoeae* (artritis migratoria, tenosinovitis y lesiones cutáneas), y en el adulto mayor y los usuarios de drogas endovenosas, bacilos gramnegativos. Factores de riesgo: diabetes, inmunosupresión, artritis reumatoide, **prótesis articular**, infiltraciones previas. Clínica: monoartritis febril de la rodilla o la cadera, con eritema, derrame y dolor intenso al **movimiento pasivo**. Diagnóstico: **artrocentesis urgente antes de iniciar antibióticos** (leucocitos > 50.000/mm³, Gram y cultivo), hemocultivos, VHS y PCR, y radiografía. Tratamiento: hospitalización, **drenaje articular** (lavado artroscópico o artrotomía, o punciones repetidas) y **antibiótico endovenoso** empírico anti-estafilocócico (cloxacilina o cefazolina; ceftriaxona si se sospecha gonococo), ajustado luego al cultivo, por 2-4 semanas. En el niño, la artritis séptica de **cadera** es una urgencia quirúrgica por el riesgo de necrosis avascular de la cabeza femoral; los **criterios de Kocher** (fiebre > 38,5 °C, imposibilidad de apoyar, VHS > 40 mm/h y leucocitos > 12.000/mm³) estiman su probabilidad.",
+          "## Punción Articular de Rodilla (Procedimiento: Realizar)\nIndicaciones: **diagnóstica** (monoartritis, sospecha de infección o de microcristales, hemartrosis) y **terapéutica** (alivio de un derrame a tensión, infiltración). Contraindicaciones: celulitis o infección de la piel en el sitio de punción, y coagulopatía grave no corregida (relativa); en pacientes con prótesis la punción la realiza el traumatólogo. Técnica: paciente en decúbito supino con la rodilla extendida o semiflectada; se marca el abordaje **suprapatelar lateral**, 1 cm sobre y lateral al borde superior de la rótula; **asepsia** con clorhexidina o povidona, campo y guantes estériles, anestesia local opcional; se introduce una **aguja 18-21 G** con jeringa de 20 mL dirigida hacia el espacio retropatelar, aspirando mientras se avanza. El líquido se distribuye en tubos para **citoquímico, cristales y Gram/cultivo** (en frasco de hemocultivo si se sospecha infección). Se cubre con apósito y se indica reposo relativo. Complicaciones: infección iatrogénica, hemartrosis y lesión del cartílago."
         ]
       }
     ],
@@ -2570,16 +2603,16 @@ const rawClasses = [
     "ges": "Garantía Explícita en Salud (GES): Displasia del Desarrollo de la Cadera · Radiografía de pelvis a los 3 meses.",
     "reconstrucciones": "EUNACOM Diciembre 2023 (Q#22) · EUNACOM Julio 2022 (Q#09) · EUNACOM Enero 2021 (Q#64)",
     "frecuencia": "Muy Alta en EUNACOM · Screening universal GES al 3er mes (Rx pelvis) o ecografía Graf antes de 3 meses",
-    "diagram": flowTrauma('Tumores Óseos Benignos y Malignos: Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de Tumores Óseos Benignos y Malignos (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Tumores Óseos Benignos y Malignos: Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Tumores Óseos Benignos y Malignos (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Tumores Óseos Benignos y Malignos: Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -2794,16 +2827,16 @@ const rawClasses = [
     "ges": "Garantía Explícita en Salud (GES): Cáncer en menores de 15 años · Alivio del dolor por cáncer avanzado.",
     "reconstrucciones": "EUNACOM Julio 2023 (Q#44) · EUNACOM Enero 2020 (Q#95)",
     "frecuencia": "Alta en EUNACOM · Patrones radiológicos clásicos: sol naciente/Codman (osteosarcoma) vs cebolla (Ewing)",
-    "diagram": flowTrauma('Tumores Ãseos Benignos y Malignos: Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de Tumores Ãseos Benignos y Malignos (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Tumores Óseos Benignos y Malignos: Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Tumores Óseos Benignos y Malignos (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Ortopedia Infantil: Osteosarcoma (Sol Naciente), Sarcoma de Ewing (Capas de Cebolla) & Metástasis es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -2837,7 +2870,10 @@ const rawClasses = [
           "## Diagnóstico Diferencial de la Cadera Dolorosa",
           "El \"niño que claudica\" (cojea) es un motivo de consulta frecuente. La edad es la clave para el diagnóstico diferencial.",
           "| Patología | Edad Típica | Antecedentes Clave | Hallazgo Radiográfico | Tratamiento |\n| :--- | :--- | :--- | :--- | :--- |\n| **Sinovitis Transitoria** | 2 - 4 años | Infección viral previa (respiratoria) | Normal | Paracetamol y reposo |\n| **Enfermedad de Perthes** | 5 - 10 años | Talla baja, actividad física intensa | Cabeza femoral plana y densa | Reposo o cirugía |\n| **Epifisiólisis** | 12 - 15 años | Obesidad, pubertad, actividad física | Signo del \"helado caído\" | Cirugía (Osteosíntesis) |",
-          "### 1. Sinovitis Transitoria\nEs una inflamación benigna y autolimitada de la sinovial.\n- **Clínica:** Dolor en ingle o rodilla, claudicación, buen estado general, **sin fiebre**.\n- **Diagnóstico:** Clínico. Si hay duda con [[Artritis Séptica]], se realiza punción articular (el líquido será normal)."
+          "### 1. Sinovitis Transitoria\nEs una inflamación benigna y autolimitada de la sinovial.\n- **Clínica:** Dolor en ingle o rodilla, claudicación, buen estado general, **sin fiebre**.\n- **Diagnóstico:** Clínico. Si hay duda con [[Artritis Séptica]], se realiza punción articular (el líquido será normal).",
+          "## Pie Plano y Otras Alteraciones de los Pies del Niño\nEl **pie plano flexible** es fisiológico en el lactante y el preescolar: el arco longitudinal se forma entre los 6 y 10 años. Es indoloro, el arco aparece al ponerse **de puntillas** o al extender el hallux, y **no requiere plantillas ni calzado especial**; se tranquiliza a los padres y se controla. Se **deriva** el pie plano **rígido** (no se corrige en puntillas; sospechar coalición tarsiana o astrágalo vertical), **doloroso**, unilateral o asociado a retracción del tendón de Aquiles; se pide radiografía con carga. Otras alteraciones: **metatarso aducto** (borde externo en \"C\", se corrige solo; yesos seriados si es rígido), **pie talo valgo** (flexible, benigno, mejora con el tiempo), **pie cavo** (arco aumentado; buscar causa neurológica, como Charcot-Marie-Tooth o disrafismo) y **torsión tibial interna** (marcha con puntas hacia dentro, se resuelve hacia los 8 años). El **pie bot** requiere tratamiento precoz con método de Ponsetti.",
+          "## Disyunción-Fractura del Niño (Fractura de la Placa de Crecimiento)\nLa **fisis** o cartílago de crecimiento es el eslabón más débil del hueso inmaduro y se lesiona antes que el ligamento. Se clasifica con **Salter-Harris**: **I** (separación a través de la fisis), **II** (fisis y metáfisis; la más frecuente, ~75 %), **III** (fisis y epífisis, intraarticular), **IV** (epífisis, fisis y metáfisis) y **V** (aplastamiento de la fisis). Las tipo III, IV y V comprometen el crecimiento (detención, deformidad angular, dismetría). Se **sospecha** ante dolor a la palpación sobre la fisis, aumento de volumen y rechazo del uso de la extremidad, aunque la **radiografía sea normal** (tipo I): se trata como fractura. Tratamiento: tipos I y II con reducción cerrada si hay desplazamiento y **inmovilización con yeso 3-4 semanas**; tipos III y IV requieren reducción anatómica y fijación quirúrgica, por lo que se derivan. Se controla con radiografía durante 1-2 años por el riesgo de trastorno del crecimiento. Las fracturas fisarias del radio distal, el tobillo y el codo son las más frecuentes; ante un mecanismo que no las explica debe sospecharse maltrato.",
+          "## Patología de la Columna en el Niño\n**Escoliosis idiopática del adolescente:** la más común (niñas, 10-14 años, curva torácica derecha); se define por un **ángulo de Cobb > 10°** en la radiografía de columna total de pie; el riesgo de progresión depende de la magnitud de la curva y del crecimiento restante (signo de Risser). Se solicita RM ante signos de alarma: dolor, **curva torácica izquierda**, déficit neurológico, inicio antes de los 10 años o progresión rápida. **Cifosis:** la postural es flexible y se corrige al extender; la **enfermedad de Scheuermann** (varón adolescente, cifosis torácica rígida > 45° con acuñamiento de 3 o más vértebras consecutivas) se trata con ejercicios y corsé. **Espondilólisis y espondilolistesis:** dolor lumbar con la extensión en un adolescente deportista (gimnasia, lanzamientos); la radiografía oblicua muestra la lesión de la pars interarticularis (\"perro con collar\") y la lateral el deslizamiento (grados de Meyerding); se trata con reposo deportivo, corsé y kinesiterapia. El **dolor de espalda en el niño es poco frecuente**, por lo que se descartan causas orgánicas (infección, tumores como el osteoma osteoide, histiocitosis) y todo caso con dolor nocturno, fiebre o déficit neurológico se deriva."
         ]
       }
     ],
@@ -2962,16 +2998,16 @@ const rawClasses = [
     "ges": "Sin garantía GES específica · Banderas rojas en dolor lumbar y criterios de cirugía descompresiva inmediata.",
     "reconstrucciones": "EUNACOM Diciembre 2023 (Q#55) · EUNACOM Julio 2021 (Q#108) · EUNACOM Enero 2020 (Q#22)",
     "frecuencia": "Muy Alta en EUNACOM · Cauda equina (anestesia en silla de montar + retención/incontinencia urinaria)",
-    "diagram": flowTrauma('Lumbago MecÃ¡nico vs Inflamatorio, Hernia Discal Lumbar & SÃ­ndrome de Cauda Equina (Urgencia QuirÃºrgica): Algoritmo DiagnÃ³stico y TerapÃ©utico', [
-  { t: 'Sospecha ClÃ­nica de Lumbago MecÃ¡nico vs Inflamatorio, Hernia Discal Lumbar & SÃ­ndrome de Cauda Equina (Urgencia QuirÃºrgica) (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + EvaluaciÃ³n neurovascular distal obligatoria', type: 'warn' },
-  { k: 'split', q: 'Â¿Presenta Criterios de Urgencia QuirÃºrgica Inmediata?', s: 'ExposiciÃ³n Ã³sea, compromiso vascular (ausencia de pulso) o sospecha de sÃ­ndrome compartimental',
-    ll: 'SÃ: Urgencia QuirÃºrgica Mayor',
-    left: { t: 'PabellÃ³n QuirÃºrgico Urgente', s: 'Aseo quirÃºrgico, reducciÃ³n urgente, fijaciÃ³n externa y descompresiÃ³n / fasciotomÃ­a', type: 'crit' },
+    "diagram": flowTrauma('Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica): Algoritmo Diagnóstico y Terapéutico', [
+  { t: 'Sospecha Clínica de Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica) (Dolor, Deformidad, Impotencia)', s: 'Anamnesis de mecanismo de trauma + Evaluación neurovascular distal obligatoria', type: 'warn' },
+  { k: 'split', q: '¿Presenta Criterios de Urgencia Quirúrgica Inmediata?', s: 'Exposición ósea, compromiso vascular (ausencia de pulso) o sospecha de síndrome compartimental',
+    ll: 'SÍ: Urgencia Quirúrgica Mayor',
+    left: { t: 'Pabellón Quirúrgico Urgente', s: 'Aseo quirúrgico, reducción urgente, fijación externa y descompresión / fasciotomía', type: 'crit' },
     rl: 'NO: Manejo Inicial Estabilizador',
-    right: { t: 'Estudio RadiolÃ³gico & InmovilizaciÃ³n', s: 'RadiografÃ­as AP y Lateral Â· Valva de yeso acolchada Â· Analgesia multimodal', type: 'acc' }
+    right: { t: 'Estudio Radiológico & Inmovilización', s: 'Radiografías AP y Lateral · Valva de yeso acolchada · Analgesia multimodal', type: 'acc' }
   },
-  { t: 'EstratificaciÃ³n TerapÃ©utica Definitiva', s: 'Manejo ortopÃ©dico conservador vs ReducciÃ³n abierta y fijaciÃ³n interna (RAFI)', type: 'dec' },
-  { t: 'Control y RehabilitaciÃ³n Funcional Precoz', s: 'Control radiolÃ³gico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
+  { t: 'Estratificación Terapéutica Definitiva', s: 'Manejo ortopédico conservador vs Reducción abierta y fijación interna (RAFI)', type: 'dec' },
+  { t: 'Control y Rehabilitación Funcional Precoz', s: 'Control radiológico seriado + Kinesiterapia motora para evitar rigidez articular', type: 'acc' }
 ]),
     "contexto": "El dominio de Lumbago, Cervicalgia & Hombro Doloroso es un pilar fundamental en la práctica médica y en el examen EUNACOM. Su correcta evaluación semiológica permite distinguir los cuadros manejables en el nivel primario de aquellos que exigen reducción cerrada, estabilización urgente o intervención quirúrgica inmediata para preservar la función y viabilidad de la extremidad.",
     "contentSections": [
@@ -3005,7 +3041,9 @@ const rawClasses = [
           "### Tendinitis Frecuentes\nSe caracterizan por dolor a la palpación y al estiramiento del tendón específico.",
           "- **Pata de Ganso:** Dolor en la zona medial e inferior de la rodilla. Asociada a trekking o caminatas en pendiente.\n- **Tendinitis Rotuliana:** Dolor en la tuberosidad tibial. Su variante en adolescentes es la enfermedad de **Osgood-Schlatter**.\n- **Fascia Lata (Banda Iliotibial):** Dolor en la cara lateral de la rodilla. Típica de corredores (**\"rodilla del maratonista\"**).\n- **Tendinitis de De Quervain:** Dolor en la zona lateral de la muñeca (extensor corto y abductor largo del pulgar).",
           "### Bursitis\nInflamación de la bursa (saco sinovial peritendinoso). A diferencia de la tendinitis, suele presentar **eritema y aumento de volumen visible**.",
-          "- **Bursitis Olecraniana:** Aumento de volumen en la punta del codo.\n- **Bursitis Pertrocantérica:** Dolor sobre el trocánter mayor del fémur.\n- **Bursitis Prepatelar:** Inflamación sobre la rótula."
+          "- **Bursitis Olecraniana:** Aumento de volumen en la punta del codo.\n- **Bursitis Pertrocantérica:** Dolor sobre el trocánter mayor del fémur.\n- **Bursitis Prepatelar:** Inflamación sobre la rótula.",
+          "## Radiografía de Columna (Emplea informe)\nEn el **lumbago agudo inespecífico** la radiografía **no está indicada de rutina**; se solicita ante banderas rojas (trauma, edad > 50-70 años con osteoporosis o corticoides, sospecha de infección o tumor, déficit neurológico), dolor persistente más de 6 semanas o sospecha de espondiloartritis. Proyecciones: **AP y lateral** de la columna lumbar o dorsal; **oblicuas** para espondilólisis; **dinámicas en flexoextensión** para inestabilidad; **panorámica de columna total de pie** para escoliosis (ángulo de Cobb). El médico general debe comprender el informe: pérdida de la lordosis, **acuñamiento vertebral** (fractura por compresión u osteoporosis), disminución del espacio discal, osteofitos, lesiones líticas o blásticas, **pedículo ausente** (\"ojo de búho\") en metástasis, sacroilitis y \"columna en caña de bambú\" de la espondilitis anquilosante. Una radiografía normal **no descarta una hernia discal** (el disco no se ve): ante déficit neurológico se pide RM.",
+          "## Lumbociática y Cervicobraquialgia Radicular: Semiología\nSe habla de **lumbociática** cuando el dolor lumbar se irradia por la pierna siguiendo un dermatoma (**L5:** cara lateral de la pierna y dorso del pie, debilidad del hallux; **S1:** cara posterior y planta, debilidad de la flexión plantar y reflejo aquíleo disminuido) y el **signo de Lasègue** es positivo. La **cervicobraquialgia** es el dolor cervical irradiado al brazo: **C6** (pulgar e índice, bíceps), **C7** (dedo medio, tríceps; la raíz más afectada) y **C8** (meñique); la maniobra de **Spurling** (extensión y rotación del cuello con compresión axial) reproduce el dolor. La causa más común es la hernia discal y la espondilosis con estenosis foraminal. Evolucionan bien con **AINE, analgesia, kinesiterapia y actividad progresiva** en 6-12 semanas; la cirugía se reserva para el déficit neurológico progresivo o el dolor incapacitante que no cede. En la columna cervical, signos de **mielopatía** (marcha torpe, hiperreflexia, signo de Hoffmann) o en la lumbar de **cauda equina** obligan a derivación urgente."
         ]
       }
     ],

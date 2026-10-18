@@ -51,29 +51,14 @@ module.exports = {
       cards: [
         { title: 'Otoscopía', tag: 'Conducto edematoso', kind: 'criteria', items: [
           { t: 'Eritema y edema difuso del conducto', d: 'Ocluye la luz del canal',
-            say: 'En la otoscopía el conducto está rojo y edematoso, tan cerrado que a veces no se puede pasar el espéculo.' },
+            say: 'En la otoscopía el conducto está rojo y edematoso. Mira este conducto: inflamado, estrecho, con la luz casi cerrada, tanto que a veces no se puede pasar el espéculo.',
+            photo: { src: 'biblioteca/17_otorrino/orl-03/01_otitis-externa-aguda-conducto-edematoso__bates_p276.jpg', label: 'Conducto edematoso', at: 'Mira este conducto', credit: 'Bates, Guía de exploración física, Fig. 7-43' } },
           { t: 'Detritos blancos o verdosos', d: 'Tímpano íntegro o difícil de ver',
-            say: 'Se ven detritos blanquecinos o verdosos, y el tímpano está íntegro, aunque el edema puede no dejarte verlo.' },
+            say: 'Se ven detritos blanquecinos o verdosos, y el tímpano está íntegro, aunque el edema puede no dejarte verlo. Y esta es una otitis externa por hongos, la otomicosis: una masa blanquecina y grumosa en el conducto, con prurito y poco dolor, y por eso se distingue de la bacteriana.',
+            photo: { src: 'biblioteca/17_otorrino/orl-03/02_otomicosis-otitis-externa-fungica__bailey-love_p728.jpg', label: 'Otomicosis: masa blanquecina', at: 'Y esta es una otitis externa por hongos', credit: 'Bailey & Love 27.ª ed., Fig. 46.11' } },
           { t: 'Signo del trago positivo', d: 'Dolor al traccionar el pabellón',
             say: 'Es lo que separa una otitis externa de una media. Si duele al tirar la oreja, el problema está en el conducto. Si en el enunciado dicen que el niño tiene el conducto estrecho, sin mal olor, es otitis externa.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Otitis externa: bacteriana y micótica',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-03/01_otitis-externa-aguda-conducto-edematoso__bates_p276.jpg', label: 'Otitis externa aguda: conducto edematoso, estrecho y rojizo', credit: 'Bates, Guía de exploración física, Fig. 7-43' },
-        { src: 'biblioteca/17_otorrino/orl-03/02_otomicosis-otitis-externa-fungica__bailey-love_p728.jpg', label: 'Otitis externa fúngica: masa blanquecina en el conducto', credit: 'Bailey & Love 27.ª ed., Fig. 46.11' },
-      ],
-      steps: [
-        { note: 'Conducto edematoso y estrecho',
-          say: 'Mira cómo el conducto se ve inflamado y estrechado, con la luz casi cerrada. Con ese edema el tímpano muchas veces no se alcanza a ver, y aun así el diagnóstico es clínico.' },
-        { note: 'Otomicosis: masa blanquecina',
-          say: 'Y esta es una otitis externa por hongos, la otomicosis. Fíjate en la secreción blanquecina y grumosa. Se acompaña de prurito, con poco dolor, y por eso se distingue de la bacteriana.' },
       ],
     },
 
@@ -97,6 +82,59 @@ module.exports = {
             say: 'Los antibióticos orales se agregan solo si la infección salió del conducto hacia el pabellón, con celulitis periauricular, o si el paciente está inmunocomprometido. En ese caso es ciprofloxacino oral, quinientos miligramos cada doce horas, más las gotas, por diez días.' },
           { t: 'Leve: ácido acético 2%', d: 'Restablece el pH ácido del conducto',
             say: 'Y en una otitis externa leve, el libro propone una solución ácida de ácido acético al dos por ciento, que restablece el pH del conducto.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Prevención y procedimientos',
+      title: 'Cómo se previene la otitis externa y cuándo se lava un oído',
+      cards: [
+        { title: 'Prevención', tag: 'Conducto seco e íntegro', kind: 'key', items: [
+          { t: 'Secar y proteger el conducto', d: 'Cabeza inclinada, aire tibio, tapones en nadadores',
+            say: 'La prevención parte por mantener el conducto seco, limpio e íntegro. Después del baño, inclina la cabeza y seca con aire tibio del secador, a distancia. El nadador usa tapones o gorro.' },
+          { t: 'Nada de hisopos ni objetos', d: 'El cerumen es protector',
+            say: 'Nada de hisopos ni ganchos: destruyen la barrera de cerumen y rasguñan la piel. Y no limpies en exceso, porque el cerumen protege.' },
+          { t: 'Gotas ácidas si recurre', d: 'Ácido acético o alcohol boricado tras cada baño',
+            say: 'En el nadador con episodios repetidos sirven las gotas acidificantes, ácido acético o alcohol boricado, después de cada baño. Y el diabético consulta precoz ante cualquier otalgia, por el riesgo de otitis externa maligna.' },
+        ] },
+        { title: 'Lavado de oídos', tag: 'Tapón de cerumen', kind: 'pharma', items: [
+          { t: 'Ablandar 3 a 5 días antes', d: 'Agua oxigenada diluida, carbonato de sodio o aceite',
+            say: 'El lavado de oídos es un procedimiento que debes saber hacer, y su indicación principal es el tapón de cerumen. Antes, ablanda el cerumen tres a cinco días con gotas cerumenolíticas.' },
+          { t: 'Agua tibia, a 37 grados', d: 'Fría o caliente provoca vértigo calórico',
+            say: 'El agua debe estar tibia, a la temperatura del cuerpo, porque fría o caliente produce vértigo calórico.' },
+          { t: 'Chorro a la pared posterosuperior', d: 'Pabellón arriba y atrás; nunca directo al tímpano',
+            say: 'Tiras el pabellón hacia arriba y atrás en el adulto, y hacia abajo y atrás en el niño, y diriges el chorro contra la pared posterosuperior del conducto, nunca directo al tímpano. Después secas.' },
+        ] },
+        { title: 'No se lava si hay', tag: 'Contraindicaciones', kind: 'alert', items: [
+          { t: 'Perforación o cirugía previa', d: 'Conocida o sospechada; tubos de ventilación',
+            say: 'No se lava ante una perforación del tímpano, conocida o sospechada, ni con antecedente de cirugía de oído o tubos de ventilación.' },
+          { t: 'Otitis aguda o dolor intenso', d: 'Externa o media; oído único funcional',
+            say: 'Tampoco con una otitis externa o media aguda, con dolor intenso, o en un oído único funcional.' },
+          { t: 'Cuerpo extraño orgánico', d: 'Semillas y legumbres se hinchan con el agua',
+            say: 'Y si el cuerpo extraño es orgánico, como una semilla o una legumbre, el agua lo hincha. En todos estos casos extraes bajo visión directa, o derivas.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Pabellón auricular',
+      title: 'Otohematoma: drenar antes de siete días',
+      cards: [
+        { title: 'Cómo se reconoce', tag: 'Tras un golpe', kind: 'alert', items: [
+          { t: 'Tumefacción violácea y fluctuante', d: 'Borra los relieves del pabellón',
+            say: 'Un luchador, un jugador de rugby, un golpe en la oreja. Mira este pabellón: tumefacto, violáceo, con los relieves borrados, el hélix y la fosa triangular. Es sangre acumulada entre el pericondrio y el cartílago, y el diagnóstico es clínico.',
+            photo: { src: 'biblioteca/17_otorrino/orl-03/03_otohematoma-pabellon__bailey-love_p727.jpg', label: 'Otohematoma del pabellón', at: 'Mira este pabellón', credit: 'Bailey & Love 27.ª ed., p. 727' } },
+          { t: 'Sin drenaje, necrosis del cartílago', d: 'Oreja en coliflor; riesgo de pericondritis',
+            say: 'Si no se drena, el cartílago pierde su irrigación, se necrosa y deja la deformidad en oreja en coliflor, y además puede infectarse por Pseudomonas.' },
+        ] },
+        { title: 'Conducta', tag: 'Derivar', kind: 'key', items: [
+          { t: 'Drenaje en 24 a 48 horas', d: 'Siempre antes de 7 días',
+            say: 'El drenaje se deriva y debe ser oportuno: idealmente en las primeras veinticuatro a cuarenta y ocho horas, y siempre antes de siete días.' },
+          { t: 'Vendaje compresivo y ciprofloxacino', d: 'Evita la reacumulación y cubre Pseudomonas',
+            say: 'Se evacúa con aguja o con incisión, se deja un vendaje compresivo para que no se vuelva a acumular, y se da ciprofloxacino, que cubre Pseudomonas. Tú sospechas, proteges el pabellón, das analgesia y derivas.' },
         ] },
       ],
     },
@@ -133,13 +171,28 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Del conducto al hueso',
+      images: [
+        { src: 'animaciones/orl-03/A1_otitis_externa_difusa_a_maligna.mp4', label: 'Otitis externa difusa y otitis externa maligna', credit: 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'La difusa se queda en el conducto; la maligna invade el hueso',
+          say: 'Primero la otitis externa difusa: agua, maceración y Pseudomonas inflaman el conducto, que se edematiza, mientras el tímpano queda indemne, y duele al tirar de la oreja. Ahora el diabético mayor: aparece tejido de granulación en el piso del conducto, y la infección avanza por el hueso del peñasco. El nervio facial es el primero en afectarse, y después los pares de la base del cráneo. Por eso se hospitaliza.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Otitis externa maligna',
       title: 'Cómo se confirma y cómo se trata',
       cards: [
         { title: 'Diagnóstico', tag: 'Granulación en el piso', kind: 'key', items: [
           { t: 'Granulación en el piso del conducto', d: 'En la unión osteocartilaginosa',
-            say: 'El hallazgo patognomónico de la otoscopía es el tejido de granulación en el piso del conducto, en la unión entre el cartílago y el hueso. Si lo ves en un diabético con dolor nocturno, no lo confundas con una otitis simple.' },
+            say: 'El hallazgo patognomónico de la otoscopía es el tejido de granulación en el piso del conducto, en la unión entre el cartílago y el hueso. Mira esta otoscopía: el tejido de granulación abulta desde el piso del conducto. Si lo ves en un diabético con dolor nocturno, no lo confundas con una otitis simple.',
+            photo: { src: 'biblioteca/17_otorrino/orl-03/05_otitis-externa-maligna-granulacion__bull_p80.jpg', label: 'Granulación en el conducto', at: 'Mira esta otoscopía', credit: 'Color Atlas of ENT Diagnosis (Bull), p. 80' } },
           { t: 'TAC de peñasco con contraste', d: 'Incluye base de cráneo; muestra la osteólisis',
             say: 'El estudio confirmatorio es el TAC de peñasco y base de cráneo con contraste, que muestra la erosión ósea. La cintigrafía ósea con tecnecio o galio sirve para seguir la actividad y la resolución.' },
         ] },
@@ -150,6 +203,29 @@ module.exports = {
             say: 'El antibiótico es endovenoso en dosis altas: ciprofloxacino cuatrocientos miligramos cada ocho a doce horas, o ceftazidima dos gramos cada ocho horas, o meropenem.' },
           { t: 'Mínimo 6 a 8 semanas', d: 'Seguimiento con cintigrafía o TAC',
             say: 'Y se mantiene por un mínimo de seis a ocho semanas. Eso lo diferencia de una otitis simple, que son siete a diez días de gotas.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Diabetes',
+      title: 'Del oído al pie: otras infecciones del diabético',
+      cards: [
+        { title: 'En la cara', tag: 'Mucormicosis', kind: 'alert', items: [
+          { t: 'Mucormicosis rinoorbitocerebral', d: 'Cetoacidosis o mal control glicémico',
+            say: 'La otitis externa maligna no es la única infección grave del diabético. En la cetoacidosis o con mal control aparece la mucormicosis rinoorbitocerebral: dolor facial, escara negra en el cornete o el paladar, edema alrededor del ojo y oftalmoplejía. Mira a esta paciente con diabetes: un lado de la cara edematoso, con proptosis y parálisis facial.',
+            photo: { src: 'biblioteca/17_otorrino/orl-03/04_mucormicosis-rinoorbitaria-diabetica__fitzpatrick_p1882.jpg', label: 'Mucormicosis: proptosis', at: 'Mira a esta paciente', credit: 'Fitzpatrick 7.ª ed., p. 1882' } },
+          { t: 'Urgencia vital', d: 'Desbridamiento quirúrgico y anfotericina B',
+            say: 'Es una urgencia vital: desbridamiento quirúrgico y anfotericina B.' },
+        ] },
+        { title: 'En el pie', tag: 'Pie diabético infectado', kind: 'key', items: [
+          { t: 'Neuropatía, isquemia e hiperglicemia', d: 'Leve, moderado o grave',
+            say: 'En el pie, la neuropatía, la isquemia y la hiperglicemia dan el pie diabético infectado, que se clasifica en leve, moderado y grave, según la profundidad y la respuesta inflamatoria sistémica.' },
+          { t: 'Úlcera que toca hueso', d: 'Sospecha osteomielitis: radiografía, VHS y PCR',
+            say: 'Si la sonda toca hueso, o la úlcera es extensa o crónica, sospecha osteomielitis y pide radiografía, velocidad de sedimentación y proteína C reactiva.' },
+          { t: 'Control glicémico y antibiótico', d: 'Leve: oral; moderado o grave: hospitalizar',
+            say: 'El manejo es control de la glicemia, aseo y desbridamiento, descarga del pie, cultivo profundo y antibiótico según gravedad: oral en el leve, y hospitalización con esquema endovenoso en el moderado o grave.' },
         ] },
       ],
     },
@@ -329,6 +405,81 @@ module.exports = {
         options: 'Las opciones: radiografía de cráneo, TAC de peñasco y base de cráneo con contraste, resonancia sin contraste, ecografía parotídea, o audiometría con potenciales evocados. Piénsalo.',
         answer: 'Es la B. Es una otitis externa maligna con parálisis facial, y lo que necesitas es ver la osteólisis, cosa que hace el TAC de peñasco y base de cráneo con contraste. La radiografía simple no tiene resolución suficiente, y la resonancia es un complemento posterior para las partes blandas.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.3.006 · Prevención de otitis externa",
+      "stem": "Nadador de 16 años con 3 episodios de otitis externa difusa en el último verano, tratados con gotas antibióticas. Consulta para prevenir nuevos episodios.",
+      "question": "¿Cuál es la recomendación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Limpiar diariamente el conducto con cotonito después de nadar"
+        },
+        {
+          "letter": "B",
+          "text": "Secar el pabellón y la entrada del conducto tras nadar (inclinando la cabeza o con secador a baja temperatura), usar tapones y evitar introducir cotonitos u objetos"
+        },
+        {
+          "letter": "C",
+          "text": "Usar gotas antibióticas profilácticas diarias durante todo el verano"
+        },
+        {
+          "letter": "D",
+          "text": "Lavarse los oídos con agua a presión semanalmente"
+        },
+        {
+          "letter": "E",
+          "text": "Antibiótico oral profiláctico"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La otitis externa se favorece por la humedad, la pérdida del cerumen protector y el trauma del conducto (cotonitos, rascado). Se previene manteniendo el conducto seco tras el baño (inclinar la cabeza, secador tibio, gotas acidificantes o alcohol boricado si no hay perforación), usando tapones y evitando la manipulación. Los antibióticos profilácticos favorecen resistencia y otomicosis.",
+      "say": {
+        "stem": "Nadador de dieciséis años con tres otitis externas el último verano, que pide cómo prevenirlas.",
+        "question": "¿Cuál es la recomendación más adecuada?",
+        "options": "Las opciones: cotonito diario tras nadar, secar el oído, usar tapones y no introducir objetos, gotas antibióticas diarias, lavados a presión o antibiótico oral. Piénsalo.",
+        "answer": "Es la B. Mantener el oído seco, usar tapones y no meter cotonitos previene la otitis externa. Limpiar con cotonito tienta como higiene, pero arrastra el cerumen protector y erosiona el conducto."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.5.010 · Lavado de oídos",
+      "stem": "Hombre de 60 años con hipoacusia derecha de 1 semana. La otoscopía muestra un tapón de cerumen que ocluye el conducto. Se planifica lavado de oído.",
+      "question": "¿Cuál de los siguientes antecedentes contraindica el lavado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antecedente de perforación timpánica o cirugía de oído"
+        },
+        {
+          "letter": "B",
+          "text": "Hipertensión arterial"
+        },
+        {
+          "letter": "C",
+          "text": "Uso de audífonos"
+        },
+        {
+          "letter": "D",
+          "text": "Edad mayor de 60 años"
+        },
+        {
+          "letter": "E",
+          "text": "Tapón de cerumen duro"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El lavado de oídos con agua a temperatura corporal (para no provocar vértigo) es eficaz para tapones de cerumen. Está contraindicado ante perforación timpánica conocida o sospechada, cirugía otológica previa, otitis con otorrea, cuerpos extraños vegetales o pilas. El cerumen duro se ablanda antes con gotas cerumenolíticas.",
+      "say": {
+        "stem": "Hombre de sesenta años con un tapón de cerumen. Se planea lavado de oído.",
+        "question": "¿Qué antecedente contraindica el lavado?",
+        "options": "Las opciones: perforación timpánica o cirugía de oído previa, hipertensión, uso de audífonos, edad mayor de sesenta o cerumen duro. Piénsalo.",
+        "answer": "Es la A. La perforación timpánica o la cirugía de oído previa lo contraindican, porque el agua entra al oído medio. El cerumen duro tienta, pero solo requiere ablandarlo antes con gotas."
+      }
     },
 
     {

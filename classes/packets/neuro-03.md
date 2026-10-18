@@ -406,7 +406,7 @@ Un paciente ingresa al servicio de urgencia, por un cuadro de disnea marcada y s
 - D) Desfibrilación
 - E) Cardioversión eléctrica
 **Correcta: E**
-Explicación del banco: Por tener compromiso hemodinámico, da igual de qué taquiarritmia se trate y se debe cardiovertir eléctricamente (no confundir con la desﬁbrilación, que se usa en el paro con FV o TVSP).
+Explicación del banco: Por tener compromiso hemodinámico, da igual de qué taquiarritmia se trate y se debe cardiovertir eléctricamente (no confundir con la desfibrilación, que se usa en el paro con FV o TVSP).
 
 ### [5] EUNACOM Julio 2017 · Pregunta 46 · confianza 0.97
 Un paciente de 62 años, con antecedentes de dislipidemia y diabetes en tratamiento con dieta e hipoglicemiantes orales, consulta por dolor toráxico opresivo irradiado a ambos hombros intenso EVA 9/10, asociado a disnea y sudoración. Al examen físico, su presión arterial es 140/70 mmHg con frecuencia cardiaca de 80 latidos por minuto. Pre- senta RR3T con presencia de R3, murmullo pulmonar presente con crépitos bibasales. Electrocardiagrama: SDST en V1-V4. La conducta más adecuada es:
@@ -429,14 +429,14 @@ Una paciente de 37 años, puérpera hace 7 días, con antecedente de hemorragia 
 Explicación del banco: Diagnóstico: **Endometritis** (opción **C**). Es una endometritis puerperal clásica.. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).
 
 ### [7] EUNACOM Diciembre 2025 · Pregunta 3 · confianza 0.95
-Un paciente de 28 años consulta por dolor torácico y disnea de 2 horas de evolución. Al examen Fsico presenta taquicardia a 170 lpm, presión arterial 120/80 mmHg y un examen cardiopulmonar con ritmo regular en dos tonos, sin soplos, en la auscultación cardíaca y murmullo pulmonar presente, sin ruidos agregados, en la auscultación pulmonar. Se solicita un electrocardiograma que se muestra a con8nuación: ¿Cuál es la conducta más adecuada?
+Un paciente de 28 años consulta por dolor torácico y disnea de 2 horas de evolución. Al examen físico presenta taquicardia a 170 lpm, presión arterial 120/80 mmHg y un examen cardiopulmonar con ritmo regular en dos tonos, sin soplos, en la auscultación cardíaca y murmullo pulmonar presente, sin ruidos agregados, en la auscultación pulmonar. Se solicita un electrocardiograma que se muestra a continuación: ¿Cuál es la conducta más adecuada?
 - A) Verapamilo endovenoso
 - B) Amiodarona endovenosa
 - C) Adrenalina endovenosa
 - D) Adenosina endovenosa
 - E) Cardioversión eléctrica
 **Correcta: D**
-Explicación del banco: Tiene una TPSV clásica. El tratamiento de primera línea son las maniobras vagales (ej. Valsalva modiﬁcado es la más recomendada en adultos y niños que cooperan; en niños pequeño se preﬁere la inmersión facial en agua fría. El masaje caroVdeo se puede usar en adultos, pero no se recomienda en niños ni en adultos mayores con riesgo de ateroma caroVdeo que se pueda soltar). De segunda línea se uGlizan fármacos, siendo de elección la adenosina en bolo EV de 6 mg. Si falla, se dan hasta dos nuevas dosis de 12 mg. Si vuelve a fallar, se usa el verapamilo (contraindicado en falla cardíaca e hipotensión). Como toda taquiarritmia, si está hemodinámicamente inestable, de primera línea se maneja con cardioversión eléctrica.
+Explicación del banco: Tiene una TPSV clásica. El tratamiento de primera línea son las maniobras vagales (ej. Valsalva modificado es la más recomendada en adultos y niños que cooperan; en niños pequeño se prefiere la inmersión facial en agua fría. El masaje carotídeo se puede usar en adultos, pero no se recomienda en niños ni en adultos mayores con riesgo de ateroma carotídeo que se pueda soltar). De segunda línea se utilizan fármacos, siendo de elección la adenosina en bolo EV de 6 mg. Si falla, se dan hasta dos nuevas dosis de 12 mg. Si vuelve a fallar, se usa el verapamilo (contraindicado en falla cardíaca e hipotensión). Como toda taquiarritmia, si está hemodinámicamente inestable, de primera línea se maneja con cardioversión eléctrica.
 
 ### [8] EUNACOM Julio 2025 · Pregunta 115 · confianza 0.95
 Embarazada de 36 semanas con presión arterial 170/110 y cefalea frontal intensa que no cede con analgesia. Sin convulsiones. ¿Cuál es el manejo más adecuado?
@@ -449,27 +449,27 @@ Embarazada de 36 semanas con presión arterial 170/110 y cefalea frontal intensa
 Explicación del banco: Preeclampsia severa a ≥34 semanas: hospitalización + control de PA (labetalol o hidralazina EV) + sulfato de magnesio para prevenir eclampsia + interrupción del embarazo una vez estabilizada.
 
 ### [9] EUNACOM Diciembre 2025 · Pregunta 1 · confianza 0.95
-Una paciente de 45 años, con antecedente de enfermedad reumá8ca en la infancia, consulta por un cuadro de 3 meses de evolución de disnea de esfuerzos en capacidad funcional II, que actualmente ha progresado a disnea de mínimos esfuerzos. Al examen Fsico, su presión arterial es de 120/78 mmHg, su frecuencia cardíaca es de 92 la8dos por minuto y su saturación de oxígeno es de 93% a aire ambiental. Se ausculta un soplo holosistólico en el ápex, irradiado a la axila y se palpa el choque de la punta hiperdinámico a la altura del quinto espacio intercostal. El examen pulmonar muestra crepitaciones basales bilaterales. ¿Cuál es el diagnós8co más probable?
-- A) Insuﬁciencia mitral
-- B) Insuﬁciencia aór2ca
+Una paciente de 45 años, con antecedente de enfermedad reumática en la infancia, consulta por un cuadro de 3 meses de evolución de disnea de esfuerzos en capacidad funcional II, que actualmente ha progresado a disnea de mínimos esfuerzos. Al examen físico, su presión arterial es de 120/78 mmHg, su frecuencia cardíaca es de 92 latidos por minuto y su saturación de oxígeno es de 93% a aire ambiental. Se ausculta un soplo holosistólico en el ápex, irradiado a la axila y se palpa el choque de la punta hiperdinámico a la altura del quinto espacio intercostal. El examen pulmonar muestra crepitaciones basales bilaterales. ¿Cuál es el diagnóstico más probable?
+- A) Insuficiencia mitral
+- B) Insuficiencia aór2ca
 - C) Estenosis mitral
 - D) Estenosis aór2ca
 - E) Ductus arterioso persistente
 **Correcta: A**
-Explicación del banco: Es una insuﬁciencia mitral clásica, con clínica de insuﬁciencia cardiaca izquierda (disnea y crépitos), soplo holosistólico y desplazamiento del choque de la punta, que sugiere cardiomegalia. Revisar resumen de semiología cardiaca.
+Explicación del banco: Es una insuficiencia mitral clásica, con clínica de insuficiencia cardiaca izquierda (disnea y crépitos), soplo holosistólico y desplazamiento del choque de la punta, que sugiere cardiomegalia. Revisar resumen de semiología cardiaca.
 
 ### [10] EUNACOM Diciembre 2025 · Pregunta 174 · confianza 0.95
-Una paciente de 41 años presenta disnea de grandes esfuerzos de larga data, a lo que en el úl8mo 8empo se ha agregado opresión precordial en relación a la ac8vidad Fsica, que cede con el reposo. Tiene antecedente de un soplo en la infancia no estudiado. En el examen Fsico presenta frecuencia cardíaca: 68 por minuto, presión arterial: 120/85 mmHg, pulso regular de ascenso lento y baja amplitud en ambas extremidades superiores, y se ausculta un ritmo cardíaco regular en dos 8empos con presencia de un soplo sistólico en foco aór8co III/VI y un soplo diastólico en el mismo foco II/VI. ¿Cuál es el diagnós8co más probable?
+Una paciente de 41 años presenta disnea de grandes esfuerzos de larga data, a lo que en el último tiempo se ha agregado opresión precordial en relación a la actividad física, que cede con el reposo. Tiene antecedente de un soplo en la infancia no estudiado. En el examen físico presenta frecuencia cardíaca: 68 por minuto, presión arterial: 120/85 mmHg, pulso regular de ascenso lento y baja amplitud en ambas extremidades superiores, y se ausculta un ritmo cardíaco regular en dos tiempos con presencia de un soplo sistólico en foco aórtico III/VI y un soplo diastólico en el mismo foco II/VI. ¿Cuál es el diagnóstico más probable?
 - A) Estenosis mitral
 - B) Estenosis aór2ca
-- C) Insuﬁciencia mitral
-- D) Insuﬁciencia aór2ca
+- C) Insuficiencia mitral
+- D) Insuficiencia aór2ca
 - E) Comunicación interauricular
 **Correcta: B**
-Explicación del banco: Tiene una estenosis aórtica clásica (revisar resumen de semiología cardíaca), caracterizada por soplo sistólico eyectivo (foco aórtico), pulso parvus et tardus, síncopes, angina de pecho y arritmias. Aunque la presión está normal en este caso, lo clásico es que la presión de pulso (distólica - diastólica) esté disminuida, haciendo que el pulso se palpe débil (parvus = pequeño). El soplo diastólico concomitante, probablemente se deba a que Gene algún grado de insuﬁciencia aórtica asociada, primando el componente de estenosis. La asociación de estenosis e insuﬁciencia valvular se conoce como “enfermedad valvular”.
+Explicación del banco: Tiene una estenosis aórtica clásica (revisar resumen de semiología cardíaca), caracterizada por soplo sistólico eyectivo (foco aórtico), pulso parvus et tardus, síncopes, angina de pecho y arritmias. Aunque la presión está normal en este caso, lo clásico es que la presión de pulso (distólica - diastólica) esté disminuida, haciendo que el pulso se palpe débil (parvus = pequeño). El soplo diastólico concomitante, probablemente se deba a que Gene algún grado de insuficiencia aórtica asociada, primando el componente de estenosis. La asociación de estenosis e insuficiencia valvular se conoce como “enfermedad valvular”.
 
 ### [11] EUNACOM Diciembre 2025 · Pregunta 97 · confianza 0.95
-Una paciente de 21 años consulta por ﬁebre hasta 38,9 °C asociada a dolor hipogástrico intenso y sangrado vaginal de mal olor, que inició hace 48 horas. Al examen Fsico 8ene frecuencia cardíaca 120 la8dos por minuto, presión arterial 90/60 mmHg y temperatura 38,7 °C. En el examen ginecológico se observa en la especuloscopía sangre y restos ovulares de mal olor en el canal vaginal. Además, se aprecia útero muy doloroso a la palpación y dolor a la palpación hipogástrica por vía abdominal. Se solicita ecograFa transvaginal que muestra contenido uterino irregular de 18 mm de diámetro. ¿Cuál es la conducta más adecuada?
+Una paciente de 21 años consulta por fiebre hasta 38,9 °C asociada a dolor hipogástrico intenso y sangrado vaginal de mal olor, que inició hace 48 horas. Al examen físico tiene frecuencia cardíaca 120 latidos por minuto, presión arterial 90/60 mmHg y temperatura 38,7 °C. En el examen ginecológico se observa en la especuloscopía sangre y restos ovulares de mal olor en el canal vaginal. Además, se aprecia útero muy doloroso a la palpación y dolor a la palpación hipogástrica por vía abdominal. Se solicita ecografía transvaginal que muestra contenido uterino irregular de 18 mm de diámetro. ¿Cuál es la conducta más adecuada?
 - A) Realizar histerectomía
 - B) Realizar laparoscopía exploradora
 - C) Administrar an2bió2cos endovenosos y realizar curetaje de la cavidad uterina
@@ -479,7 +479,7 @@ Una paciente de 21 años consulta por ﬁebre hasta 38,9 °C asociada a dolor hi
 Explicación del banco: Tiene un aborto séptico e incompleto, con restos ovulares retenidos. Se maneja con antibióticos endovenosos de amplio espectro y evacuación uterina mediante curetaje o AMEU.
 
 ### [12] EUNACOM Diciembre 2025 · Pregunta 48 · confianza 0.95
-Una paciente de 25 años, primigesta con 32 semanas de gestación, presenta cefalea intensa y malestar general. Al examen Fsico destaca una presión arterial de 170/110 mmHg, por lo que se administra labetalol endovenoso, logrando cifras tensionales de 140/90 mmHg. Sin embargo, dos horas después presenta una convulsión tónico-clónica de 2 minutos de duración. ¿Cuál es la conducta más adecuada?
+Una paciente de 25 años, primigesta con 32 semanas de gestación, presenta cefalea intensa y malestar general. Al examen físico destaca una presión arterial de 170/110 mmHg, por lo que se administra labetalol endovenoso, logrando cifras tensionales de 140/90 mmHg. Sin embargo, dos horas después presenta una convulsión tónico-clónica de 2 minutos de duración. ¿Cuál es la conducta más adecuada?
 - A) Administrar lorazepam endovenoso
 - B) Administrar labetalol endovenoso
 - C) Administrar sulfato de magnesio endovenoso
@@ -556,7 +556,7 @@ Una paciente de 30 años, usuaria de anticonceptivos orales, consulta por cuadro
 - D) Ketoprofeno
 - E) Enalapril
 **Correcta: D**
-Explicación del banco: Tiene una tiroiditis subaguda de Quervain, que se trata con AINEs. No se deben indicar drogas antitiroideas (PTU, metimazol) y sí se puede dar propanolol si hay muchos síntomas de hipertiroidismo. El paracetamol no es suﬁciente.
+Explicación del banco: Tiene una tiroiditis subaguda de Quervain, que se trata con AINEs. No se deben indicar drogas antitiroideas (PTU, metimazol) y sí se puede dar propanolol si hay muchos síntomas de hipertiroidismo. El paracetamol no es suficiente.
 
 ### [20] EUNACOM Julio 2015 · Pregunta 179 · confianza 0.94
 Un paciente de 60 años, diabético e hipertenso, mal controlado, consulta por pérdida súbita e indolora de la visión del ojo izquierda. Con el ojo izquierdo solo puede contar dedos. Al examen físico no se ven alteraciones externas, pero el rojo pupilar del ojo izquierdo está muy disminuido. El diagnóstico más probable es:
@@ -579,24 +579,24 @@ Paciente de 58 años, con antecedente de diabetes mellitus, hipertensión y fuma
 Explicación del banco: La alternativa correcta es la **A** (Angina crónica de reciente comienzo). La única opción aceptable era la angina de reciente comienzo.. Las enfermedades intersticiales pulmonares difusas tienen múltiples causas, siendo la fibrosis pulmonar idiopática (FPI/UIP) la más frecuente y de peor pronóstico, sin tratamiento específico más allá del sintomático (oxígeno, salbutamol). Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).
 
 ### [22] EUNACOM Diciembre 2025 · Pregunta 16 · confianza 0.92
-Un paciente de 35 años consulta por un cuadro de dolor abdominal y diarrea de 3 meses de evolución, con 8 a 10 deposiciones líquidas al día, tanto diurnas como nocturnas. Presenta dolor abdominal 8po cólico con exacerbación en el hemiabdomen derecho. Además, al interrogatorio, reﬁere visión borrosa con enrojecimiento del ojo derecho y ajas orales recurrentes. También, relata baja de peso y presencia ocasional de sangre en las deposiciones. Al examen Fsico se observa pálido, con frecuencia cardíaca 90 lpm, presión arterial 125/72 mmHg y temperatura 37,2 °C. El abdomen está blando y sensible de forma difusa, con dolor más intenso en la fosa ilíaca derecha, sin signos peritoneales. ¿Cuál es el diagnós8co más probable?
+Un paciente de 35 años consulta por un cuadro de dolor abdominal y diarrea de 3 meses de evolución, con 8 a 10 deposiciones líquidas al día, tanto diurnas como nocturnas. Presenta dolor abdominal tipo cólico con exacerbación en el hemiabdomen derecho. Además, al interrogatorio, refiere visión borrosa con enrojecimiento del ojo derecho y ajas orales recurrentes. También, relata baja de peso y presencia ocasional de sangre en las deposiciones. Al examen físico se observa pálido, con frecuencia cardíaca 90 lpm, presión arterial 125/72 mmHg y temperatura 37,2 °C. El abdomen está blando y sensible de forma difusa, con dolor más intenso en la fosa ilíaca derecha, sin signos peritoneales. ¿Cuál es el diagnóstico más probable?
 - A) Coli2s ulcerosa
 - B) Coli2s infecciosa
 - C) Cáncer de colon
 - D) Enfermedad de Crohn
 - E) Síndrome de intes2no irritable con predominio de diarrea Mortalidad Mortalidad proporcional Mortalidad Mortalidad proporcional Patología cardiovascular 60/1000 50% 150/1000 71,4% Cáncer 30/1000 25% 30/1000 14,3% Otras causas de muerte 30/1000 25% 30/1000 14,3% Total 120/1000 100% 210/1000 100% Periodo inicial Periodo tardío
 **Correcta: D**
-Explicación del banco: Tiene clínica de una enfermedad inﬂamatoria intestinal (EII). Entre ellas, parece más enfermedad de Crohn, por el dolor en el lado derecho (la zona ileocecal es lo más frecuentemente afectado), las amas (el compromiso oral también se puede ver en la coliGs ulcerosa, pero orienta a Crohn) y el compromiso ocular (más frecuente en enfermedad de Crohn que en coliGs ulcerosa).
+Explicación del banco: Tiene clínica de una enfermedad inflamatoria intestinal (EII). Entre ellas, parece más enfermedad de Crohn, por el dolor en el lado derecho (la zona ileocecal es lo más frecuentemente afectado), las amas (el compromiso oral también se puede ver en la colitis ulcerosa, pero orienta a Crohn) y el compromiso ocular (más frecuente en enfermedad de Crohn que en colitis ulcerosa).
 
 ### [23] EUNACOM Diciembre 2025 · Pregunta 9 · confianza 0.92
-Un paciente de 40 años, con antecedente de neumonías a repe8ción y consumo de tabaco de 5 paquetes-año, consulta por tos frecuente y produc8va, mayor durante las mañanas, con expectoración mucosa y, en ocasiones, hemoptoica. Al examen Fsico presenta dedos en palillo de tambor (acropaquias), frecuencia cardíaca 75 lpm y presión arterial 110/70 mmHg. La auscultación cardiopulmonar revela ritmo regular en dos tonos sin soplos, murmullo pulmonar presente y simétrico, con auscultación de crepitaciones y estertores bilaterales. ¿Cuál es el diagnós8co más probable?
+Un paciente de 40 años, con antecedente de neumonías a repetición y consumo de tabaco de 5 paquetes-año, consulta por tos frecuente y productiva, mayor durante las mañanas, con expectoración mucosa y, en ocasiones, hemoptoica. Al examen físico presenta dedos en palillo de tambor (acropaquias), frecuencia cardíaca 75 lpm y presión arterial 110/70 mmHg. La auscultación cardiopulmonar revela ritmo regular en dos tonos sin soplos, murmullo pulmonar presente y simétrico, con auscultación de crepitaciones y estertores bilaterales. ¿Cuál es el diagnóstico más probable?
 - A) Bronqui2s crónica
 - B) Bronquiectasias
 - C) Carcinoma broncogénico
 - D) Tuberculosis pulmonar
-- E) Insuﬁciencia cardíaca conges2va
+- E) Insuficiencia cardíaca conges2va
 **Correcta: B**
-Explicación del banco: Tiene un cuadro compaGble con bronquiectasias. Se debe revisar el resumen de semiología respiratoria. El diagnóstico se conﬁrma con TAC de tórax de alta resolución.
+Explicación del banco: Tiene un cuadro compatible con bronquiectasias. Se debe revisar el resumen de semiología respiratoria. El diagnóstico se confirma con TAC de tórax de alta resolución.
 
 ### [24] EUNACOM Diciembre 2022 · Pregunta 3 · confianza 0.92
 Un paciente de 28 años, con antecedente de haber sido operado de coartación aórtica cuando niño, consulta por un cuadro progresivo de disnea de esfuerzos y ortopnea, que ha deteriorado significativamente su capacidad funcional. En el examen físico tiene pulso palpable con frecuencia cardíaca de 72 latidos por minuto, presión arterial de 155/75 mmHg y frecuencia respiratoria de 15 respiraciones por minuto, saturando 92% a FiO2 ambiental. Al examen cardiopulmonar, tiene ritmo regular en dos tonos, con soplo sistólico eyectivo II/VI en la zona paraesternal, más un soplo diastólico, que se escucha hasta la final de la diástole en el mismo foco. Su padre falleció a los 50 años, de manera súbita. ¿Cuál es el diagnóstico más importante?

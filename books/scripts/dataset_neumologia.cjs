@@ -18,7 +18,9 @@ const neumologiaClasses = [
   ...b5.bloque5,
 ];
 
+const { applyExtra } = require('./neumologia_extra/index.cjs');
+
 module.exports = {
-  neumologiaClasses,
+  neumologiaClasses: applyExtra(neumologiaClasses),
   flow: b1.flow,
 };

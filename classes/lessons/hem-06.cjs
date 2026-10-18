@@ -37,7 +37,8 @@ module.exports = {
         { show: ['asi'], note: 'El citoplasma madura, el núcleo se queda atrás',
           say: 'Eso produce la asincronía de maduración núcleo-citoplasmática: un núcleo inmaduro dentro de un citoplasma grande y cargado de hemoglobina.' },
         { show: ['meg'], note: 'Macrocitosis y pleocariocitos',
-          say: 'Esas células son los megaloblastos. A la sangre salen glóbulos rojos grandes y ovalados, los macroovalocitos, y neutrófilos con más de cinco lóbulos, los pleocariocitos. Y como el defecto es del ADN, afecta a todas las series: por eso puede haber pancitopenia, igual que en la aplasia de la clase anterior, pero con una médula llena.' },
+          say: 'Esas células son los megaloblastos. A la sangre salen glóbulos rojos grandes y ovalados, los macroovalocitos, y neutrófilos con más de cinco lóbulos, los pleocariocitos. Mira este frotis: macroovalocitos y un neutrófilo hipersegmentado. Y como el defecto es del ADN, afecta a todas las series: por eso puede haber pancitopenia, igual que en la aplasia de la clase anterior, pero con una médula llena.',
+          photo: { src: 'biblioteca/06_hematologia/hem-06/01_macroovalocitos-neutrofilo-hipersegmenta__amir-hemato_p29.jpg', label: 'Frotis megaloblástico', at: 'Mira este frotis', credit: 'Manual AMIR Hematología, p. 29' } },
         { show: ['ine', 'lab'], note: 'Por eso la megaloblástica imita una hemólisis',
           say: 'Muchos de estos precursores mueren dentro de la médula antes de salir. Es la eritropoyesis ineficaz, una verdadera hemólisis intramedular, y por eso suben la LDH y la bilirrubina indirecta, a veces de forma desproporcionada. Guarda esto, porque es la trampa de varias preguntas reales: parece una hemólisis, pero los reticulocitos están bajos.' },
       ],
@@ -114,7 +115,8 @@ module.exports = {
       cards: [
         { title: 'Médula espinal', tag: 'Degeneración combinada subaguda', kind: 'alert', items: [
           { t: 'Cordones posteriores', d: 'Sin vibración ni posición, Romberg +, ataxia',
-            say: 'Veamos cómo se ve esto al examen. Los cordones posteriores llevan la sensibilidad vibratoria y la posicional. Al perderse, el paciente camina con ataxia sensitiva, tiene Romberg positivo y, típicamente, le cuesta caminar en la oscuridad, porque ya no puede corregir con la vista.' },
+            say: 'Veamos cómo se ve esto al examen. Los cordones posteriores llevan la sensibilidad vibratoria y la posicional. Al perderse, el paciente camina con ataxia sensitiva, tiene Romberg positivo y, típicamente, le cuesta caminar en la oscuridad, porque ya no puede corregir con la vista. En esta resonancia de la médula cervical se ve la señal alta en los cordones posteriores.',
+            photo: { src: 'biblioteca/06_hematologia/hem-06/03_rm-degeneracion-combinada-subaguda__nelson_p639.jpg', label: 'RM de la médula cervical', at: 'En esta resonancia', credit: 'Nelson Textbook of Pediatrics, 22nd ed., p. 639' } },
           { t: 'Vía piramidal', d: 'Hiperreflexia, clonus, Babinski bilateral',
             say: 'Los cordones laterales llevan la vía piramidal. Su daño da espasticidad, hiperreflexia, clonus y Babinski bilateral. Un paciente con Romberg positivo y Babinski bilateral a la vez te tiene que hacer pensar en B doce.' },
         ] },
@@ -126,7 +128,8 @@ module.exports = {
         ] },
         { title: 'Mucosa y pronóstico', tag: 'Reversibilidad', kind: 'normal', items: [
           { t: 'Glositis de Hunter', d: 'Lengua lisa, depapilada, roja',
-            say: 'Fuera del sistema nervioso, la glositis de Hunter: una lengua lisa, depapilada y dolorosa, que resuelve en pocos días de tratamiento.' },
+            say: 'Fuera del sistema nervioso, la glositis de Hunter: una lengua lisa, depapilada y dolorosa, como la de esta paciente, que resuelve en pocos días de tratamiento.',
+            photo: { src: 'biblioteca/06_hematologia/hem-06/01_glositis_atrofica_b12__commons.jpg', label: 'Glositis atrófica', at: 'como la de esta paciente', credit: 'Wikimedia Commons «Tongue of person with pernicious anemia two weeks following vitamin B12 supplementation.jpg», CC BY 4.0, Emmanuel Jojo Aryee and Helen Agyei-Yeboah' } },
           { t: 'Neurología < 6 a 12 meses: revierte', d: 'Si hay pérdida axonal, puede quedar',
             say: 'Y el pronóstico neurológico depende del tiempo. Si el daño lleva menos de seis a doce meses, revierte. Si ya hay pérdida axonal, puede quedar para siempre. Por eso esto es una urgencia relativa, no un hallazgo para el próximo control.' },
         ] },
@@ -282,22 +285,6 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Anemia megaloblástica',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-06/01_macroovalocitos-neutrofilo-hipersegmenta__amir-hemato_p29.jpg', label: 'Frotis', credit: 'Manual AMIR Hematología, p. 29' },
-        { src: 'biblioteca/06_hematologia/hem-06/01_glositis_atrofica_b12__commons.jpg', label: 'Glositis atrófica', credit: 'Wikimedia Commons «Tongue of person with pernicious anemia two weeks following vitamin B12 supplementation.jpg», CC BY 4.0, Emmanuel Jojo Aryee and Helen Agyei-Yeboah' },
-      ],
-      steps: [
-        { note: 'Macroovalocitos y neutrófilo hipersegmentado',
-          say: 'En la megaloblástica los glóbulos rojos son grandes y ovalados, y los neutrófilos tienen seis o más lóbulos. Ese neutrófilo hipersegmentado es la pista.' },
-        { note: 'Lengua lisa y roja',
-          say: 'Y la lengua se vuelve lisa y roja, sin papilas: glositis atrófica, por falta de vitamina B doce.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -442,6 +429,81 @@ module.exports = {
         options: 'Las opciones: ácido fólico, vitamina B doce, fierro, biopsia de médula ósea, o endoscopía. Piénsalo.',
         answer: 'Es la B, vitamina B doce. Sin estómago no hay factor intrínseco, y el paciente tiene la tríada completa: anemia macrocítica, neuropatía y deterioro cognitivo. Y aquí está la trampa mortal en versión examen: el ácido fólico está en la alternativa A. Con neurología, el folato solo es el error más grave que podrías cometer.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.3.001 · Alcoholismo y asociación con carencias nutricionales",
+      "stem": "Hombre de 52 años con consumo diario de 1 litro de vino desde hace años y dieta muy pobre consulta por fatiga. Hemoglobina 10,2 g/dL, VCM 112 fL, neutrófilos hipersegmentados. Sin síntomas neurológicos. Transaminasas levemente elevadas.",
+      "question": "¿Cuál es la carencia nutricional más probablemente responsable de su anemia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ácido fólico"
+        },
+        {
+          "letter": "B",
+          "text": "Hierro"
+        },
+        {
+          "letter": "C",
+          "text": "Vitamina B12 por anemia perniciosa"
+        },
+        {
+          "letter": "D",
+          "text": "Vitamina C"
+        },
+        {
+          "letter": "E",
+          "text": "Zinc"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En el alcoholismo crónico, la carencia que más frecuentemente produce anemia megaloblástica es el déficit de ácido fólico, por dieta pobre, malabsorción y efecto tóxico del alcohol; los neutrófilos hipersegmentados confirman la megaloblastosis. El alcoholismo también causa déficit de tiamina, que debe suplementarse. La B12 tiene reservas para años y su déficit suele dar síntomas neurológicos.",
+      "say": {
+        "stem": "Hombre alcohólico con dieta pobre y anemia macrocítica con neutrófilos hipersegmentados, sin síntomas neurológicos.",
+        "question": "¿Qué carencia explica su anemia?",
+        "options": "Las opciones: ácido fólico, hierro, be doce por anemia perniciosa, vitamina C o zinc. Piénsalo.",
+        "answer": "Es la A. Ácido fólico, la carencia típica del alcohólico. La be doce también da megaloblastosis, pero sus reservas duran años y suele dar síntomas neurológicos."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.1.023 · Síndromes sensitivos",
+      "stem": "Mujer de 66 años, vegana estricta desde hace 15 años y usuaria de metformina, consulta por hormigueo en pies y manos e inestabilidad al caminar en la oscuridad. Al examen tiene pérdida de la sensibilidad vibratoria y propioceptiva en extremidades inferiores, Romberg positivo y reflejos aquilianos disminuidos. Hemoglobina 11,2 g/dL, VCM 104 fL.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Polineuropatía diabética"
+        },
+        {
+          "letter": "B",
+          "text": "Degeneración combinada subaguda por déficit de vitamina B12"
+        },
+        {
+          "letter": "C",
+          "text": "Ataxia cerebelosa alcohólica"
+        },
+        {
+          "letter": "D",
+          "text": "Síndrome de Guillain-Barré"
+        },
+        {
+          "letter": "E",
+          "text": "Esclerosis múltiple"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Compromiso de cordones posteriores (pérdida vibratoria y propioceptiva, Romberg positivo, ataxia sensitiva) con macrocitosis en una vegana usuaria de metformina sugiere déficit de vitamina B12. Se confirma con niveles de B12 y ácido metilmalónico y se trata con B12 parenteral. La polineuropatía diabética no explica la macrocitosis, y la ataxia cerebelosa tiene Romberg negativo.",
+      "say": {
+        "stem": "Mujer vegana que usa metformina, con hormigueo, inestabilidad en la oscuridad, Romberg positivo y anemia macrocítica.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: polineuropatía diabética, degeneración combinada subaguda por déficit de be doce, ataxia cerebelosa, Guillain Barré, o esclerosis múltiple. Piénsalo.",
+        "answer": "Es la B. Déficit de be doce con daño de cordones posteriores. La polineuropatía diabética tienta por la metformina, pero no explica la macrocitosis ni la ataxia sensitiva marcada."
+      }
     },
 
     {

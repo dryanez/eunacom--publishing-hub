@@ -54,8 +54,12 @@ module.exports = {
         { title: 'Fiebre y erupción con edema facial', tag: 'El hallazgo cardinal', kind: 'key', items: [
           { t: 'Fiebre persistente sobre 38,5 grados', d: 'Presente en más del 90% de los casos',
             say: 'La tríada clásica empieza con fiebre alta y persistente, sobre treinta y ocho y medio, presente en más del noventa por ciento de los pacientes, casi siempre el primer síntoma, con compromiso del estado general y postración.' },
+          { t: 'Exantema morbiliforme confluente', d: 'Parte en la cara y el tronco superior',
+            say: 'Sobre esa fiebre aparece un exantema morbiliforme o maculopapular que empieza en la cara y el tronco superior y confluye en un eritema generalizado. Mira este tronco: el exantema es fino y confluyente.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-10/01_dress_fenitoina_a__fitzpatrick_p395.jpg', label: 'Exantema del tronco', at: 'Mira este tronco', credit: 'Fitzpatrick 7.ª ed., Fig. 40-2' } },
           { t: 'Edema periorbitario y malar prominente', d: 'El hallazgo que más orienta al examinar',
-            say: 'Sobre esa fiebre aparece un exantema morbiliforme o maculopapular que empieza en la cara y el tronco superior y confluye en un eritema generalizado. Y el hallazgo que más orienta a la sola inspección es el edema facial periorbitario y malar, presente en más de tres cuartos de los pacientes. A diferencia de Stevens-Johnson, aquí no hay flictenas ni desprendimiento epidérmico difuso, y el signo de Nikolsky es típicamente negativo.' },
+            say: 'Y el hallazgo que más orienta a la sola inspección es el edema facial periorbitario y malar, presente en más de tres cuartos de los pacientes. Mira esta cara: el edema se acompaña de descamación. A diferencia de Stevens-Johnson, aquí no hay flictenas ni desprendimiento epidérmico difuso, y el signo de Nikolsky es típicamente negativo.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-10/02_dress_fenitoina_b__fitzpatrick_p395.jpg', label: 'Edema facial', at: 'Mira esta cara', credit: 'Fitzpatrick 7.ª ed., Fig. 40-3' } },
         ] },
         { title: 'Adenopatías y criterios RegiSCAR', tag: 'Confirman el diagnóstico', kind: 'criteria', items: [
           { t: 'Ganglios dolorosos en 2 o más cadenas', d: 'Cervicales, axilares, inguinales',
@@ -129,32 +133,25 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'DRESS',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-10/02_dress_fenitoina_b__fitzpatrick_p395.jpg', label: 'Edema facial', credit: 'Fitzpatrick 7.ª ed., Fig. 40-3' },
-        { src: 'biblioteca/11_dermatologia/derma-10/01_dress_fenitoina_a__fitzpatrick_p395.jpg', label: 'Exantema', credit: 'Fitzpatrick 7.ª ed., Fig. 40-2' },
-      ],
-      steps: [
-        { note: 'Cara hinchada con pústulas',
-          say: 'El DRESS da edema facial, que lo distingue de un exantema común.' },
-        { note: 'Confluente, con fiebre y eosinofilia',
-          say: 'Y un exantema extenso con fiebre, adenopatías, eosinofilia y daño hepático, semanas después de un anticonvulsivante.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'El exantema morbiliforme',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-10/01_exantema-morbiliforme-dress__cto-derma_p9.jpg', label: 'Exantema morbiliforme', credit: 'Manual CTO Dermatología 14.ª ed., p. 9' },
-      ],
-      steps: [
-        { note: 'Exantema que confluye',
-          say: 'El exantema morbiliforme, maculopapular, confluye en tronco y extremidades. Por sí solo no basta: en el DRESS se suma fiebre, edema facial y daño hepático.' },
+      type: 'points',
+      kicker: 'Lo benigno de la familia',
+      title: 'Exantema medicamentoso simple y toxidermia fija',
+      cards: [
+        { title: 'Exantema morbiliforme', tag: 'La reacción más frecuente', kind: 'key', items: [
+          { t: 'A los 4 a 14 días del fármaco', d: 'Máculas y pápulas simétricas, de tronco a extremidades',
+            say: 'El exantema morbiliforme es la reacción cutánea medicamentosa más frecuente. Aparece cuatro a catorce días después de iniciar el fármaco, con máculas y pápulas rojas, pruriginosas y simétricas que parten en el tronco. Mira este exantema: no hay edema facial, ni fiebre alta, ni ampollas.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-10/01_exantema-morbiliforme-dress__cto-derma_p9.jpg', label: 'Exantema morbiliforme', at: 'Mira este exantema', credit: 'Manual CTO Dermatología 14.ª ed., p. 9' } },
+          { t: 'Aminopenicilinas, sulfas, alopurinol', d: 'Amoxicilina en mononucleosis no es alergia verdadera',
+            say: 'Los agentes más frecuentes son las aminopenicilinas, las sulfas, el alopurinol y los anticonvulsivantes. Ojo: la amoxicilina en un paciente con mononucleosis da exantema casi siempre, y eso no significa alergia verdadera.' },
+          { t: 'Busca signos de alarma', d: 'Fiebre alta, edema facial, ampollas, mucosas, eosinofilia',
+            say: 'Tu tarea es reconocer los signos que hacen pensar en DRESS o en Stevens-Johnson: fiebre alta, edema facial, lesiones dolorosas, ampollas, erosiones de mucosas, dianas atípicas, eosinofilia o alteración hepática. Si no hay ninguno, suspendes el fármaco, das antihistamínico y corticoide tópico, controlas a las cuarenta y ocho a setenta y dos horas y registras la sospecha en la ficha.' },
+        ] },
+        { title: 'Toxidermia fija', tag: 'Siempre el mismo sitio', kind: 'alert', items: [
+          { t: 'Placa violácea que reaparece en el mismo lugar', d: 'Redonda, bien delimitada; deja mancha parda',
+            say: 'La toxidermia fija es una placa eritematoviolácea, redonda u oval, bien delimitada, a veces con una ampolla central, que reaparece siempre en el mismo sitio cada vez que se expone al fármaco y deja una mancha residual gris parda. Aparece entre treinta minutos y ocho horas después de tomar el medicamento.' },
+          { t: 'AINE, cotrimoxazol, tetraciclinas', d: 'Suspender, corticoide tópico potente, anotar el agente',
+            say: 'Las causas más frecuentes son los AINE, el cotrimoxazol y otras sulfas, las tetraciclinas, el paracetamol y la carbamazepina. El diagnóstico es clínico, con una buena historia de fármacos. Suspendes y evitas el agente, das corticoide tópico potente por pocos días y lo dejas anotado. La forma ampollosa generalizada con más del diez por ciento de superficie se maneja como necrólisis.' },
+        ] },
       ],
     },
 
@@ -179,6 +176,8 @@ module.exports = {
           say: 'Si a las dos semanas los exámenes ya se normalizaron, la conducta sigue siendo continuar el descenso lento, hasta completar dos a tres meses. El error es suspender la prednisona de golpe solo porque los exámenes mejoraron.' },
         { cells: ['Disnea y arritmia semanas después de mejorar la piel', 'Pensar en miocarditis por hipersensibilidad', 'Atribuirlo a ansiedad o a una recaída solo cutánea'],
           say: 'Y la última: si aparece disnea o arritmia semanas después de que la piel ya mejoró, hay que pensar en miocarditis por hipersensibilidad y estudiar con troponinas. El error es atribuirlo a ansiedad, o asumir que es solo una recaída de la piel.' },
+        { cells: ['Exantema simétrico a los 7 días de amoxicilina, sin fiebre ni edema facial', 'Exantema morbiliforme simple: suspender, antihistamínico, corticoide tópico y control en 48 a 72 horas', 'Hospitalizar o dar corticoides sistémicos sin signos de alarma'],
+          say: 'Y un exantema simétrico a la semana de una amoxicilina, sin fiebre ni edema facial, es un exantema morbiliforme simple: suspender, antihistamínico, corticoide tópico y control en cuarenta y ocho a setenta y dos horas. El error es sobretratarlo como un DRESS.' },
       ],
     },
 

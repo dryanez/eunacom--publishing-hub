@@ -32,11 +32,13 @@ module.exports = {
         ] },
         { title: 'Otra pista clínica', tag: 'El cinturón de seguridad', kind: 'criteria', items: [
           { t: 'Equimosis transversa en la pared', d: 'Sospecha rotura de intestino delgado',
-            say: 'Y una última pista: si ves una equimosis transversa en la pared del abdomen, marcada por el cinturón de seguridad, sospecha una rotura del intestino delgado o su mesenterio.' },
+            say: 'Y una última pista: si ves una equimosis transversa en la pared del abdomen, marcada por el cinturón de seguridad, sospecha una rotura del intestino delgado o su mesenterio. Mira esta pared abdominal: la banda enrojecida que cruza de lado a lado es la marca del cinturón.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-11/03_signo-cinturon-seguridad__sherman_p124.jpg', label: 'Signo del cinturón', at: 'Mira esta pared abdominal', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 124' } },
           { t: 'Desaceleración brusca', d: 'Avulsión de pedículos vasculares, o desgarro en puntos fijos',
             say: 'Y en una desaceleración muy violenta, como una caída de altura, hay otro mecanismo que se pregunta: los órganos siguen moviéndose por inercia mientras sus puntos de fijación se quedan quietos. Eso puede avulsionar un pedículo vascular completo, o desgarrar el intestino justo donde está fijo, como en la unión entre el duodeno y el yeyuno.' },
           { t: 'Cullen y Grey Turner', d: 'Moretón periumbilical o en los flancos',
-            say: 'Y dos signos más que apuntan a un sangrado escondido detrás del peritoneo: un moretón alrededor del ombligo, el signo de Cullen, o en los flancos, el signo de Grey Turner. Ninguno aparece de inmediato: se demoran horas o incluso días en formarse, así que su ausencia al ingreso no descarta nada, y no te tiene que hacer bajar la guardia.' },
+            say: 'Y dos signos más que apuntan a un sangrado escondido detrás del peritoneo: un moretón alrededor del ombligo, el signo de Cullen, o en los flancos, el signo de Grey Turner. Ninguno aparece de inmediato: se demoran horas o incluso días en formarse, así que su ausencia al ingreso no descarta nada, y no te tiene que hacer bajar la guardia. En esta paciente, mira los flancos: grandes equimosis violáceas, la huella de sangre retroperitoneal.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-11/04_equimosis-flancos-cullen-grey-turner__knoop_p188.jpg', label: 'Equimosis de flancos', at: 'mira los flancos', credit: 'The Atlas of Emergency Medicine (Knoop), p. 188' } },
         ] },
       ],
     },
@@ -61,7 +63,11 @@ module.exports = {
         { show: ['lle', 'eco'], note: 'Se hace junto con el ABC, no después',
           say: 'Con la sospecha de trauma abdominal, el primer examen no es de sangre ni de imagen sofisticada: es el Eco-FAST, hecho en el mismo box de reanimación, en menos de dos o tres minutos, al mismo tiempo que sigues con el ABC, sin mover al paciente de la camilla ni interrumpir la reanimación.' },
         { show: ['mor'], note: 'La más sensible de las cuatro ventanas',
-          say: 'Revisa cuatro ventanas. La primera y más sensible es el espacio de Morrison, entre el hígado y el riñón derecho.' },
+          say: 'Revisa cuatro ventanas. La primera y más sensible es el espacio de Morrison, entre el hígado y el riñón derecho. Mira cómo se apoya el transductor en cada ventana, y en esta imagen, esa banda negra sobre el riñón es sangre en Morrison.',
+          photos: [
+            { src: 'biblioteca/10_cirugia/cirugia-11/02_fast_ventanas__atls_p144.jpg', label: 'Ventanas del FAST', at: 'Mira cómo se apoya', credit: 'ATLS 10.ª ed., p. 144' },
+            { src: 'biblioteca/10_cirugia/cirugia-11/01_fast_morrison__atls_p144.jpg', label: 'FAST positivo', at: 'en esta imagen', credit: 'ATLS 10.ª ed., p. 144' },
+          ] },
         { show: ['esp'], note: 'El equivalente del lado izquierdo',
           say: 'La segunda es la ventana esplenorrenal, entre el bazo y el riñón izquierdo.' },
         { show: ['pel'], note: 'Y una cuarta ventana en el pericardio',
@@ -111,7 +117,8 @@ module.exports = {
           { t: 'Vigilancia estrecha', d: 'Hematocrito seriado y pabellón disponible',
             say: 'Y necesitas vigilancia estrecha, con hematocrito seriado cada seis a ocho horas, y un pabellón quirúrgico disponible las veinticuatro horas por si las cosas cambian.' },
           { t: 'La gradación la da el TAC', d: 'De grado uno, chica, a grado cinco, el estallido',
-            say: 'Y el TAC es el que gradúa la lesión, de uno a cinco. En los grados bajos, casi siempre basta con el reposo y la vigilancia. En el grado cinco, con el órgano prácticamente estallado, la conducta ya no es esperar: es la cirugía, con empaquetamiento hepático o esplenectomía según el caso.' },
+            say: 'Y el TAC es el que gradúa la lesión, de uno a cinco. En los grados bajos, casi siempre basta con el reposo y la vigilancia. En el grado cinco, con el órgano prácticamente estallado, la conducta ya no es esperar: es la cirugía, con empaquetamiento hepático o esplenectomía según el caso. En este TAC, el bazo roto pierde su contorno y queda rodeado de sangre.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-11/01_rotura-esplenica-tc__cto-cirugia_p69.jpg', label: 'Rotura esplénica', at: 'En este TAC', credit: 'Manual CTO Cirugía 14.ª ed., p. 69' } },
         ] },
         { title: 'Cuándo se convierte a cirugía', tag: 'Señales de alarma', kind: 'alert', items: [
           { t: 'Cae el hematocrito', d: 'O aparece dolor peritoneal progresivo',
@@ -120,9 +127,7 @@ module.exports = {
             say: 'Y si el TAC muestra un sangrado activo, lo que se llama blush, la radiología intervencional puede embolizar ese vaso y evitar la cirugía en la mayoría de los casos.' },
           { t: 'Profilaxis de trombosis', d: 'Enoxaparina a las 24 a 48 horas',
             say: 'Y un dato que se pregunta: aunque el paciente esté con una lesión esplénica en observación, la profilaxis de trombosis con enoxaparina se inicia igual, apenas el hematocrito se mantiene estable por veinticuatro a cuarenta y ocho horas. Tenerle miedo a esa inyección y no darla expone al paciente a una trombosis o una embolia pulmonar, sin que el riesgo real de resangrado suba.' },
-        ] },
-        { title: 'Indicaciones que saltan directo a pabellón', tag: 'Sin necesidad de imágenes', kind: 'key', items: [
-          { t: 'Peritonitis o evisceración', d: 'O neumoperitoneo evidente',
+          { t: 'Peritonitis o evisceración', d: 'O neumoperitoneo evidente: directo a pabellón',
             say: 'Y hay señales que van directo a laparotomía sin ninguna imagen previa: un abdomen en tabla generalizado, una evisceración de asas por la herida, o aire libre evidente bajo el diafragma.' },
         ] },
         { title: 'Si te queda un bazo sin bazo', tag: 'Vacunas obligatorias', kind: 'pharma', items: [
@@ -153,32 +158,60 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Trauma abdominal: FAST',
-      images: [
-        { src: 'biblioteca/10_cirugia/cirugia-11/02_fast_ventanas__atls_p144.jpg', label: 'Ventanas del FAST', credit: 'ATLS 10.ª ed., p. 144' },
-        { src: 'biblioteca/10_cirugia/cirugia-11/01_fast_morrison__atls_p144.jpg', label: 'FAST positivo', credit: 'ATLS 10.ª ed., p. 144' },
+      type: 'points',
+      kicker: 'Trauma urológico',
+      title: 'Riñón y vejiga: hematuria y a qué examen ir',
+      cards: [
+        { title: 'Cuándo sospechar', tag: 'Mecanismo y hematuria', kind: 'key', items: [
+          { t: 'Impacto en flanco, abdomen bajo o pelvis', d: 'Hematuria macro, o micro con hipotensión',
+            say: 'Un último órgano que se pregunta es el aparato urinario. Se sospecha trauma urológico ante un impacto en el flanco, el abdomen bajo o la pelvis, con hematuria: macroscópica, o microscópica pero con hipotensión.' },
+        ] },
+        { title: 'Riñón', tag: 'El más lesionado', kind: 'criteria', items: [
+          { t: 'TAC con contraste, fase tardía', d: 'Si está estable',
+            say: 'El riñón es el órgano genitourinario que más se lesiona. En el paciente estable se pide TAC con contraste, con fase tardía para ver la vía urinaria.' },
+          { t: 'Casi todos sin cirugía', d: 'Se opera si hay inestabilidad o hematoma expansivo',
+            say: 'Y casi todas las lesiones se manejan sin cirugía. Solo se opera si hay inestabilidad hemodinámica o un hematoma retroperitoneal que se expande.' },
+        ] },
+        { title: 'Vejiga', tag: 'Fractura pélvica, vejiga llena', kind: 'alert', items: [
+          { t: 'Cistografía retrógrada', d: 'Hematuria macro, dolor suprapúbico, no orina',
+            say: 'La vejiga se lesiona con fracturas pélvicas o con un golpe en el abdomen bajo con la vejiga llena: hematuria macroscópica, dolor suprapúbico y dificultad para orinar. Se estudia con cistografía retrógrada, o cistoTAC.' },
+          { t: 'Intraperitoneal: cirugía', d: 'Extraperitoneal: sonda 10 a 14 días',
+            say: 'Si el contraste se escapa a la cavidad, con ascitis urinaria y creatinina y potasio elevados, es una rotura intraperitoneal y necesita cirugía. La extraperitoneal se trata con sonda por diez a catorce días.' },
+        ] },
       ],
-      steps: [
-        { note: 'Cuatro lugares',
-          say: 'El FAST mira cuatro ventanas: pericardio, Morrison, espacio esplenorrenal y pelvis.' },
-        { note: 'Línea negra en Morrison',
-          say: 'Una línea negra entre hígado y riñón es sangre. En un inestable, es pabellón.' },
+    },
+
+    {
+      type: 'points',
+      kicker: 'Trauma urológico',
+      title: 'Uretra: la sonda a ciegas está prohibida',
+      cards: [
+        { title: 'Cómo sospecharla', tag: 'Antes de sondear', kind: 'alert', items: [
+          { t: 'Sangre en el meato', d: 'Hematoma perineal o escrotal en alas de mariposa',
+            say: 'Antes de pasar cualquier sonda, busca los signos de lesión uretral: sangre en el meato, un hematoma perineal o escrotal en alas de mariposa, una próstata alta o que no se palpa, e imposibilidad de orinar.' },
+          { t: 'Posterior: fractura pélvica', d: 'Bulbar: caída a horcajadas',
+            say: 'La uretra posterior se lesiona con fracturas pélvicas, y la bulbar con las caídas a horcajadas.' },
+        ] },
+        { title: 'Conducta', tag: 'No instrumentar', kind: 'key', items: [
+          { t: 'Uretrografía retrógrada', d: 'Nunca Foley a ciegas',
+            say: 'Con esa sospecha, está prohibido pasar una sonda Foley a ciegas, porque puedes convertir una lesión parcial en una completa. Se pide una uretrografía retrógrada.' },
+          { t: 'Cistostomía suprapúbica', d: 'Si hay retención; derivar a urología',
+            say: 'Si el paciente está en retención, se instala una cistostomía suprapúbica. El médico general inicia la reanimación, evita instrumentar, asegura el drenaje y deriva a urología todo caso con sospecha.' },
+        ] },
       ],
     },
 
     {
       type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Qué órgano se rompe según el mecanismo',
       images: [
-        { src: 'biblioteca/10_cirugia/cirugia-11/01_rotura-esplenica-tc__cto-cirugia_p69.jpg', label: 'Rotura esplénica', credit: 'Manual CTO Cirugía 14.ª ed., p. 69' },
+        { src: 'animaciones/cirugia-11/A1_mecanismo_organos.mp4', label: 'Órgano lesionado según el mecanismo', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Rotura esplénica',
-          say: 'En el TAC, el bazo roto pierde su contorno y queda rodeado de sangre. En el paciente estable, el TAC con contraste gradúa la lesión y guía el manejo.' },
+        { note: 'Bazo, hígado o intestino',
+          say: 'Mira qué órgano se rompe según cómo llegó el golpe. En el trauma cerrado el más lesionado es el bazo, y después el hígado; de ahí el dolor en el hombro izquierdo, el signo de Kehr. Con arma blanca el trayecto es recto, y el hígado es el primero. Con arma de fuego, la cavitación daña tejido lejos del trayecto: primero el intestino delgado, y muy cerca el colon.' },
       ],
     },
 
@@ -199,6 +232,8 @@ module.exports = {
           say: 'Estable, con una lesión esplénica de grado bajo: manejo no operatorio con vigilancia. Operar de entrada le quita al paciente un bazo que se podía salvar.' },
         { cells: ['Herida penetrante en hipocondrio izquierdo, estable', 'Laparoscopía diagnóstica del diafragma', 'Dar de alta sin más estudio'],
           say: 'Herida penetrante en el hipocondrio izquierdo, estable, con TAC normal: laparoscopía diagnóstica, porque la rotura diafragmática puede ser silenciosa incluso en las imágenes. Dar de alta sin buscarla deja pasar una hernia que se estrangula meses después.' },
+        { cells: ['Sangre en el meato tras fractura pélvica', 'Uretrografía retrógrada y cistostomía si hay retención', 'Pasar una sonda Foley a ciegas'],
+          say: 'Y con sangre en el meato después de una fractura pélvica, la conducta es una uretrografía retrógrada, y cistostomía suprapúbica si hay retención. Pasar una sonda a ciegas es el error que se castiga.' },
         { cells: ['Signo del cinturón de seguridad', 'Sospechar rotura de intestino delgado', 'Asumir que es solo una contusión de pared'],
           say: 'Y la equimosis del cinturón de seguridad obliga a sospechar una rotura de intestino delgado, no a asumir que es solo un moretón de la pared.' },
       ],
@@ -251,6 +286,82 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.4.011 · Ecografía: distinguir vesícula y líquido intraabdominal",
+      "stem": "Hombre de 30 años sufre un trauma abdominal cerrado por accidente de tránsito. Presión arterial 92/60, frecuencia cardíaca 118. En el Eco-FAST, en la ventana del hipocondrio derecho, se observa una banda anecogénica de bordes angulados entre el hígado y el riñón derecho; aparte, bajo el borde hepático, se ve una estructura ovalada anecogénica de pared fina y bien definida.",
+      "question": "¿Cuál es la interpretación correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La banda entre hígado y riñón es líquido libre en el espacio de Morrison, y la estructura ovalada es la vesícula"
+        },
+        {
+          "letter": "B",
+          "text": "Ambas imágenes corresponden a la vesícula biliar normal"
+        },
+        {
+          "letter": "C",
+          "text": "La banda corresponde a un quiste renal simple"
+        },
+        {
+          "letter": "D",
+          "text": "La estructura ovalada corresponde a hemoperitoneo"
+        },
+        {
+          "letter": "E",
+          "text": "Ambas imágenes son artefactos sin significado clínico"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El líquido libre no tiene pared propia, forma ángulos que se amoldan entre los órganos y se acumula en zonas declives como el espacio de Morrison. La vesícula es ovalada, con pared propia y está en su lecho bajo el hígado. En un paciente inestable, un FAST positivo indica laparotomía.",
+      "say": {
+        "stem": "Hombre de treinta años con trauma abdominal cerrado, presión de noventa y dos sobre sesenta y frecuencia de ciento dieciocho. En el Eco-FAST del hipocondrio derecho se ve una banda negra de bordes angulados entre el hígado y el riñón, y aparte, bajo el borde del hígado, una estructura ovalada negra con pared fina y bien definida.",
+        "question": "¿Cuál es la interpretación correcta?",
+        "options": "Las opciones: la banda es líquido libre en Morrison y lo ovalado es la vesícula, ambas son la vesícula, la banda es un quiste renal, lo ovalado es hemoperitoneo o ambas son artefactos. Piénsalo.",
+        "answer": "Es la A. El líquido libre no tiene pared y se mete en ángulos entre los órganos, como en el espacio de Morrison; la vesícula es ovalada y tiene pared propia. La trampa es la D: confundir la vesícula con sangre lleva a un falso positivo, por eso siempre buscas la pared y la forma."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2019 · Pregunta 125",
+      "stem": "Paciente de 35 años sufre un traumatismo lumbar de alta energía y evoluciona con hematuria. Al examen físico está hemodinámicamente estable, con FC 75 lpm y PA 120/80 mmHg.",
+      "question": "¿Cuál es el examen de elección para precisar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "PieloTAC"
+        },
+        {
+          "letter": "B",
+          "text": "UroTAC"
+        },
+        {
+          "letter": "C",
+          "text": "Radiografía de abdomen simple"
+        },
+        {
+          "letter": "D",
+          "text": "Ecografía renal"
+        },
+        {
+          "letter": "E",
+          "text": "Pielografía de eliminación"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En el trauma renal con hematuria en un paciente estable, el examen de elección es la TAC con contraste con fase excretora (uroTAC): clasifica la lesión renal, detecta extravasación urinaria y lesiones asociadas. El pieloTAC es sin contraste (para cálculos). La ecografía y la pielografía son poco sensibles. El paciente inestable va a pabellón.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecinueve. Paciente de treinta y cinco años con trauma lumbar de alta energía y hematuria, hemodinámicamente estable.",
+        "question": "¿Cuál es el examen de elección?",
+        "options": "Las opciones: pieloTAC, uroTAC, radiografía simple, ecografía renal o pielografía de eliminación. Piénsalo.",
+        "answer": "Es la B. Es el uroTAC, una tomografía con contraste y fase excretora que clasifica la lesión y muestra filtración de orina. El pieloTAC tienta por el nombre, pero es sin contraste y sirve para cálculos."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -260,6 +371,10 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Inestable con Eco-FAST positivo es pabellón directo, nunca el TAC.' },
           { t: 'Estable', d: 'TAC con contraste, y a veces manejo sin cirugía',
             say: 'Estable es TAC con contraste, y muchas veces manejo no operatorio con vigilancia estrecha.' },
+        ] },
+        { title: 'Trauma urológico', tag: 'Hematuria o sangre en el meato', kind: 'criteria', items: [
+          { t: 'Uretra: uretrografía, nunca Foley a ciegas', d: 'Retención: cistostomía suprapúbica',
+            say: 'Con sangre en el meato o un hematoma perineal, uretrografía y nunca una sonda a ciegas. Para la vejiga se pide cistografía retrógrada, y la rotura intraperitoneal se opera.' },
         ] },
         { title: 'Según cómo llegó el golpe', tag: 'Cerrado o penetrante', kind: 'alert', items: [
           { t: 'Cerrado: bazo primero', d: 'Penetrante por arma blanca: hígado primero',
@@ -283,6 +398,8 @@ module.exports = {
           'Prohibido llevarlo al tomógrafo: el riesgo de morir durante el examen es demasiado alto. Va directo a pabellón, con reanimación continua en el trayecto.')],
         ['Se estabiliza', N('do', 'TAC de abdomen y pelvis', 'Ya hay tiempo para estudiar mejor',
           'Si responde a la reanimación, tienes tiempo para el TAC, que gradúa la lesión y guía la siguiente decisión.')])],
+      ['¿Hematuria o sangre en el meato?', N('do', 'Estudio dirigido, sin instrumentar a ciegas', 'Uretrografía, cistoTAC o TAC con fase tardía',
+        'Si hay sangre en el meato o un hematoma perineal, pides uretrografía retrógrada y no pasas una sonda a ciegas. Con hematuria y sospecha de vejiga, cistografía, y para el riñón estable, TAC con contraste.')],
       ['¿Estable desde el principio?', N('do', 'TAC de abdomen y pelvis', 'Estándar de oro sin urgencia vital',
         'Sin inestabilidad, el TAC con contraste es el examen de elección para decidir el manejo.',
         ['¿Lesión de bazo o hígado, sin víscera hueca?', N('ok', 'Manejo no operatorio', 'Vigilancia y hematocrito seriado',

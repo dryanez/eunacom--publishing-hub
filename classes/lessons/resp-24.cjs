@@ -35,7 +35,8 @@ module.exports = {
         { show: ['hb'], note: 'Le gana al oxígeno',
           say: 'El primer golpe es sobre la hemoglobina. El monóxido se une a ella con una afinidad doscientas a doscientas cincuenta veces mayor que el oxígeno, y forma carboxihemoglobina. Esa hemoglobina ya no puede transportar oxígeno.' },
         { show: ['cur'], note: 'Y lo poco que lleva, no lo suelta',
-          say: 'Además, desplaza la curva de disociación hacia la izquierda: la hemoglobina que sí lleva oxígeno se aferra a él y no lo entrega a los tejidos. Es un doble problema de transporte.' },
+          say: 'Además, desplaza la curva de disociación hacia la izquierda: la hemoglobina que sí lleva oxígeno se aferra a él y no lo entrega a los tejidos. Es un doble problema de transporte. Mira esta curva: con monóxido se desplaza hacia la izquierda.',
+            photo: { src: 'biblioteca/02_neumologia/resp-24/S1_co-curva-disociacion__propio.svg', label: 'Curva de disociación', at: 'Mira esta curva', credit: 'Dibujo propio (esquema)' } },
         { show: ['mit', 'lac'], note: 'Y la mitocondria tampoco lo usa',
           say: 'El segundo golpe es en la mitocondria. El monóxido bloquea el complejo cuatro de la cadena respiratoria, la citocromo c oxidasa. La célula no puede usar oxígeno aunque le llegue, y aparece la acidosis láctica. Por eso es una hipoxia celular, no una hipoxemia: y eso explica la trampa que viene.' },
       ],
@@ -133,6 +134,56 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Intoxicación leve',
+      title: 'El cuadro que parece un resfrío familiar',
+      cards: [
+        { title: 'Cómo se ve', tag: 'COHb 10–30%', kind: 'key', items: [
+          { t: 'Cefalea, náuseas, mareo, fatiga', d: 'Sin pérdida de conciencia ni compromiso cardíaco',
+            say: 'La intoxicación leve por monóxido tiene carboxihemoglobina entre diez y treinta por ciento, sin pérdida de conciencia ni alteración neurológica o cardíaca. Da cefalea, náuseas, mareo y fatiga, que se confunden con un cuadro viral.' },
+          { t: 'Varios miembros de la casa, en invierno', d: 'Braseros y estufas a combustión',
+            say: 'La pista es que se repite en varios miembros de la misma casa, en invierno, por braseros y estufas a combustión.' },
+        ] },
+        { title: 'Manejo', tag: 'Oxígeno al 100%', kind: 'pharma', items: [
+          { t: 'Mascarilla con reservorio hasta COHb < 3–5%', d: 'Unas 4–6 horas; ECG y troponina en cardiópatas',
+            say: 'Se trata con oxígeno al cien por ciento con mascarilla con reservorio hasta que la carboxihemoglobina baje de tres a cinco por ciento, unas cuatro a seis horas, con ECG y troponina en cardiópatas.' },
+          { t: 'Derivar si hay síntomas neurológicos, embarazo o COHb alta', d: 'O si falla el tratamiento',
+            say: 'Se deriva a urgencia si hay síntomas neurológicos, embarazo, carboxihemoglobina alta o fracaso del tratamiento. Y se educa: ventilar y no usar braseros ni parafina en dormitorios.' },
+        ] },
+        { title: 'Otros gases', tag: 'Humo e irritantes', kind: 'alert', items: [
+          { t: 'Incendio en recinto cerrado: cianuro', d: 'Acidosis láctica y coma; hidroxocobalamina',
+            say: 'El humo de un incendio en recinto cerrado agrega cianuro, con acidosis láctica y coma, y se trata con hidroxocobalamina.' },
+          { t: 'Cloro, amoníaco: broncoespasmo y edema', d: 'Retiro de la fuente, O2, broncodilatadores, observar 6–24 h',
+            say: 'Los irritantes, como cloro o amoníaco, producen broncoespasmo y edema pulmonar: se retira la fuente, se da oxígeno y broncodilatadores y se observa de seis a veinticuatro horas.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Contaminación ambiental',
+      title: 'El aire también enferma el pulmón',
+      cards: [
+        { title: 'Contaminantes', tag: 'Qué causan', kind: 'key', items: [
+          { t: 'MP2,5, ozono, NO2, SO2, humo de leña', d: 'Más asma y EPOC exacerbados',
+            say: 'El material particulado fino, el ozono, el dióxido de nitrógeno y de azufre y el humo de leña causan exacerbaciones de asma y EPOC, infecciones respiratorias, cáncer de pulmón y enfermedad cardiovascular.' },
+          { t: 'Niños, adultos mayores y enfermos crónicos', d: 'Los más afectados',
+            say: 'Los más afectados son los niños, los adultos mayores y los enfermos crónicos.' },
+        ] },
+        { title: 'En Chile', tag: 'Episodios críticos', kind: 'alert', items: [
+          { t: 'Sur: leña húmeda · Santiago: inversión térmica', d: 'Alerta, preemergencia y emergencia ambiental',
+            say: 'En el sur de Chile, la leña húmeda, y en Santiago, el invierno con inversión térmica, generan episodios críticos, con alerta, preemergencia y emergencia ambiental.' },
+        ] },
+        { title: 'Medidas', tag: 'Qué indicas', kind: 'pharma', items: [
+          { t: 'Seguir el índice de calidad del aire', d: 'Menos ejercicio al aire libre en alerta',
+            say: 'Se sigue el índice de calidad del aire y se reduce la actividad física al aire libre los días de alerta.' },
+          { t: 'Mantener controladores del asma y EPOC', d: 'Políticas: recambio de calefactores, leña seca',
+            say: 'Se mantienen los controladores del asma y del EPOC, y en políticas públicas se promueve el recambio de calefactores y la leña seca.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -143,20 +194,6 @@ module.exports = {
       steps: [
         { note: 'El saturómetro engaña',
           say: 'El monóxido se une a la hemoglobina doscientas veces más que el oxígeno y la ocupa. El saturómetro de dedo no lo distingue y marca noventa y nueve. Se trata con oxígeno al cien por ciento con mascarilla de reservorio.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'El monóxido de carbono y la hemoglobina',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-24/S1_co-curva-disociacion__propio.svg', label: 'Curva de disociación', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'La curva se desplaza a la izquierda',
-          say: 'El monóxido ocupa la hemoglobina y además desplaza la curva a la izquierda: la hemoglobina suelta menos oxígeno a los tejidos. Y el saturómetro no lo detecta, porque confunde la carboxihemoglobina con oxihemoglobina.' },
       ],
     },
 
@@ -274,6 +311,82 @@ module.exports = {
         options: 'Las opciones: oxígeno por mascarilla, cámara hiperbárica, ninguna, todas, o información insuficiente. Piénsalo.',
         answer: 'Es la A. Doce por ciento está lejos del corte de veinticinco, y el enunciado no describe pérdida de conciencia, embarazo ni isquemia. Entonces el tratamiento es oxígeno al cien por ciento por mascarilla. La cámara es el distractor para quien cree que todo monóxido va a cámara hiperbárica.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.1.024 · Intoxicación leve por CO y otros gases",
+      "stem": "Hombre de 40 años, sano, consulta junto a su familia por cefalea leve y náuseas tras pasar la noche con un calefactor a gas en una pieza cerrada. Consciente, orientado, sin focalidad, sin dolor torácico. PA 125/80 mmHg, SatO2 98 % por oxímetro de pulso. ECG normal. Co-oximetría: COHb 9 %.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alta inmediata, porque la saturación es normal"
+        },
+        {
+          "letter": "B",
+          "text": "Derivar a cámara hiperbárica de inmediato"
+        },
+        {
+          "letter": "C",
+          "text": "Oxígeno al 100 % normobárico con mascarilla con reservorio hasta resolver los síntomas, y evaluar a los convivientes"
+        },
+        {
+          "letter": "D",
+          "text": "Oxígeno por naricera a 1 L/min por 1 hora"
+        },
+        {
+          "letter": "E",
+          "text": "Azul de metileno endovenoso"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Intoxicación leve por CO: síntomas menores, sin compromiso de conciencia, sin isquemia ni embarazo, y COHb menor de 25 %. Se trata con oxígeno al 100 % normobárico (mascarilla con reservorio), que acorta la vida media de la COHb, hasta que cedan los síntomas. Se estudia a los expuestos y se elimina la fuente.",
+      "say": {
+        "stem": "Un hombre de cuarenta años, sano, llega con su familia por cefalea leve y náuseas tras dormir con un calefactor a gas en una pieza cerrada. Está lúcido, sin focalidad, con saturación de noventa y ocho por ciento y electrocardiograma normal. La carboxihemoglobina es nueve por ciento.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: alta inmediata, cámara hiperbárica, oxígeno al cien por ciento con reservorio y evaluar a la familia, naricera por una hora o azul de metileno. Piénsalo.",
+        "answer": "Es la C. Es una intoxicación leve: oxígeno al cien por ciento normobárico con reservorio hasta que cedan los síntomas, y revisar a todos los que durmieron ahí. La cámara hiperbárica tienta, pero se reserva para compromiso de conciencia, isquemia, embarazo o carboxihemoglobina muy alta."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.014 · Saturometría arterial",
+      "stem": "Una familia de 4 personas consulta en invierno por cefalea, náuseas y mareos que comenzaron en la noche, en una casa calefaccionada con brasero. Una mujer de 40 años está somnolienta y tiene saturometría de pulso de 99% ambiental.",
+      "question": "¿Cuál es la interpretación más adecuada de la saturometría?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Puede estar falsamente normal, porque el oxímetro convencional no distingue carboxihemoglobina de oxihemoglobina: se debe medir carboxihemoglobina"
+        },
+        {
+          "letter": "B",
+          "text": "Descarta una intoxicación por monóxido de carbono"
+        },
+        {
+          "letter": "C",
+          "text": "Indica que no requiere oxígeno"
+        },
+        {
+          "letter": "D",
+          "text": "Indica hiperventilación"
+        },
+        {
+          "letter": "E",
+          "text": "Indica anemia"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El oxímetro de pulso convencional usa 2 longitudes de onda y lee la carboxihemoglobina como oxihemoglobina, por lo que la saturación aparece falsamente normal en la intoxicación por CO. Se mide carboxihemoglobina por cooximetría en gases arteriales o venosos y se inicia de inmediato oxígeno al 100% con mascarilla de alto flujo, sin esperar el resultado.",
+      "say": {
+        "stem": "Una familia de cuatro personas consulta en invierno por cefalea, náuseas y mareos nocturnos en una casa calefaccionada con brasero. Una mujer de cuarenta años está somnolienta, con saturación de noventa y nueve.",
+        "question": "¿Cómo se interpreta la saturometría?",
+        "options": "Las opciones: puede ser falsamente normal y se debe medir carboxihemoglobina, descarta monóxido, no requiere oxígeno, indica hiperventilación o indica anemia. Piénsalo.",
+        "answer": "Es la A. El saturómetro común confunde la carboxihemoglobina con oxihemoglobina, así que en la intoxicación por monóxido marca normal. Pensar que la descarta tienta, pero el contexto del brasero obliga a dar oxígeno y medir carboxihemoglobina."
+      }
     },
 
     {

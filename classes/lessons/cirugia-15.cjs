@@ -74,6 +74,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Peridural, raquídea y la fuga que da cefalea',
+      images: [
+        { src: 'animaciones/cirugia-15/A1_neuroaxial_peridural_raquidea.mp4', label: 'Peridural, raquídea y cefalea postpunción', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Fuera de la dura, dentro de la dura, y el orificio que queda',
+          say: 'Mira la región lumbar. La aguja de la peridural se detiene por fuera de la duramadre, y puede dejar un catéter. La de la raquídea la atraviesa y llega al líquido cefalorraquídeo. Ese orificio puede quedar abierto: el líquido se fuga, la presión baja y aparece la cefalea al sentarse. Primero reposo, hidratación y cafeína, y si no cede, parche hemático.' },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Complicación neuroaxial',
       title: 'La cefalea que aparece al sentarse',
@@ -158,6 +172,30 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Infiltración y bloqueo de dedos',
+      title: 'Anestesiar una herida y un dedo',
+      cards: [
+        { title: 'Infiltración local', tag: 'Nivel realizar', kind: 'key', items: [
+          { t: 'Habón intradérmico y luego los bordes', d: 'Aguja fina; aspirar antes de cada inyección',
+            say: 'Con el límite de dosis claro, veamos la técnica. Con asepsia y aguja fina, pones primero un habón intradérmico y luego infiltras avanzando por los bordes de la herida, aspirando antes de cada inyección para no entrar a un vaso. Inyectas lento, con la solución tibia o tamponada con bicarbonato para que duela menos, y esperas cinco a diez minutos.' },
+          { t: 'Lidocaína al 1 %: 10 mg por mL', d: 'Adulto de 70 kg sin adrenalina: máximo 300 mg, o sea 30 mL',
+            say: 'Y haces la cuenta antes de inyectar: la lidocaína al uno por ciento tiene diez miligramos por mililitro, así que en un adulto de setenta kilos sin adrenalina el máximo es de trescientos miligramos, treinta mililitros.' },
+        ] },
+        { title: 'Adrenalina', tag: 'Prolonga y reduce sangrado', kind: 'alert', items: [
+          { t: 'Nunca en dedos, ortejos, pene, nariz ni pabellón', d: 'Riesgo de isquemia en zonas de circulación terminal',
+            say: 'La adrenalina prolonga el efecto y disminuye el sangrado, pero no se usa en dedos, ortejos, pene, nariz ni pabellón auricular, porque son zonas de circulación terminal. Y si el paciente refiere parestesias en los labios, sabor metálico o mareo, detienes todo y lo manejas como toxicidad sistémica.' },
+        ] },
+        { title: 'Bloqueo de dedos', tag: 'Nivel derivar', kind: 'criteria', items: [
+          { t: 'Base del dedo, a cada lado', d: '1 a 2 mL de lidocaína 1-2 % sin adrenalina por lado',
+            say: 'El bloqueo de dedos, o de Oberst, anestesia los nervios digitales en la base de la falange proximal. Pones uno a dos mililitros de lidocaína al uno o dos por ciento, sin adrenalina, a cada lado, con un total de tres a cinco mililitros, y esperas cinco a diez minutos.' },
+          { t: 'Poco volumen, sin adrenalina', d: 'Útil en heridas, onicocriptosis, panadizos y cuerpos extraños',
+            say: 'El volumen excesivo comprime los vasos digitales, y la adrenalina puede producir isquemia, por eso ninguno de los dos. Lo usas en heridas, uñas encarnadas, panadizos y cuerpos extraños de los dedos.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Toxicidad sistémica',
       title: 'Cuando el anestésico local se va a la sangre',
@@ -213,6 +251,30 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Dolor postoperatorio',
+      title: 'Analgesia horaria y multimodal',
+      cards: [
+        { title: 'Principio', tag: 'Escalera de la OMS', kind: 'key', items: [
+          { t: 'Medir y tratar en horario', d: 'Escala 0 a 10; no «a demanda»',
+            say: 'Cerramos con el dolor postoperatorio. Lo mides con una escala numérica de cero a diez y lo tratas con analgesia multimodal y horaria, no a demanda, siguiendo la escalera analgésica de la OMS.' },
+          { t: 'Paracetamol más AINE', d: 'Paracetamol 1 g cada 6-8 h; ketorolaco no más de 5 días',
+            say: 'La base es paracetamol, un gramo cada seis a ocho horas, con un antiinflamatorio como ibuprofeno, diclofenaco o ketorolaco, este último por no más de cinco días.' },
+        ] },
+        { title: 'Si persiste', tag: 'Subes un peldaño', kind: 'pharma', items: [
+          { t: 'Opioide débil, luego fuerte', d: 'Tramadol; morfina titulada',
+            say: 'Si el dolor persiste, agregas un opioide débil, el tramadol, y luego uno fuerte, la morfina titulada, sin sacar lo anterior. En cirugía mayor las técnicas regionales y la epidural complementan.' },
+        ] },
+        { title: 'Precauciones', tag: 'Qué vigilar', kind: 'alert', items: [
+          { t: 'Opioides: laxante y vigilancia', d: 'Sedación, frecuencia respiratoria; naloxona',
+            say: 'Los opioides piden laxantes y vigilancia de la sedación y de la frecuencia respiratoria, con naloxona si hay depresión respiratoria.' },
+          { t: 'AINE: no en úlcera, renal ni anticoagulado', d: 'Un dolor que aumenta: descartar complicación quirúrgica',
+            say: 'Los antiinflamatorios se evitan en úlcera péptica, insuficiencia renal y anticoagulación. Y un dolor que aumenta o no cede obliga a descartar una complicación quirúrgica.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos toda la toxicidad por anestésicos locales en un solo árbol.',
     },
@@ -231,6 +293,10 @@ module.exports = {
           say: 'Y en la toxicidad sistémica confirmada, el antídoto es la emulsión lipídica. Quedarse solo con el soporte básico, sin pedir el antídoto, retrasa el único tratamiento específico que existe.' },
         { cells: ['Cefalea postural tras raquídea', 'Reposo, hidratación y cafeína primero', 'Parche hemático de entrada'],
           say: 'Y la cefalea postural después de una raquídea parte con reposo, hidratación y cafeína. Ir directo al parche hemático, sin dar esos días, es adelantarse.' },
+        { cells: ['Anestesia de un dedo', 'Lidocaína sin adrenalina, poco volumen', 'Usar adrenalina o un anillo de gran volumen'],
+          say: 'Y en un dedo, lidocaína sin adrenalina y en poco volumen. La adrenalina o el gran volumen pueden causar isquemia.' },
+        { cells: ['Dolor postoperatorio moderado a severo', 'Analgesia multimodal y horaria', 'Analgesia a demanda o dos AINE juntos'],
+          say: 'El dolor postoperatorio se trata en horario y con varios fármacos. Dar analgesia a demanda, o sumar dos antiinflamatorios, no calma más y aumenta el riesgo.' },
       ],
     },
 
@@ -301,6 +367,119 @@ module.exports = {
         options: 'Las opciones son: meningitis bacteriana, cefalea postpunción dural, trombosis de senos durales, hemorragia subaracnoidea, o cefalea tensional. Piénsalo.',
         answer: 'Es la B. Fíjate en el patrón: aparece de pie, y se va por completo acostada. Esa relación tan estricta con la postura es la firma de la cefalea postpunción dural, por la fuga de líquido cefalorraquídeo que dejó la aguja. Las otras opciones no tendrían ese alivio tan completo y tan inmediato con solo acostarse.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.5.001 · Anestesia local por infiltración",
+      "stem": "Hombre de 60 kg con una herida cortante de 6 cm en el antebrazo, que requiere sutura. Se usará lidocaína al 1% sin epinefrina para anestesia local por infiltración. Recuerde que la solución al 1% contiene 10 mg por mL.",
+      "question": "¿Cuál es el volumen máximo aproximado que se puede infiltrar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5 mL"
+        },
+        {
+          "letter": "B",
+          "text": "10 mL"
+        },
+        {
+          "letter": "C",
+          "text": "100 mL"
+        },
+        {
+          "letter": "D",
+          "text": "60 mL"
+        },
+        {
+          "letter": "E",
+          "text": "27 mL"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La dosis máxima de lidocaína sin epinefrina es de 4,5 mg/kg, con techo de 300 mg. En 60 kg son 270 mg, que al 1% equivalen a 27 mL. Al infiltrar se aspira antes de inyectar para evitar inyección intravascular, y se vigilan pródromos de toxicidad como sabor metálico o parestesias peribucales.",
+      "say": {
+        "stem": "Hombre de sesenta kilos con una herida de seis centímetros en el antebrazo que hay que suturar. Usarás lidocaína al uno por ciento sin epinefrina, y la solución al uno por ciento tiene diez miligramos en cada mililitro.",
+        "question": "¿Cuál es el volumen máximo aproximado que puedes infiltrar?",
+        "options": "Las opciones: cinco, diez, cien mililitros, sesenta o veintisiete. Piénsalo.",
+        "answer": "Es la E. Sin epinefrina el máximo es cerca de cuatro coma cinco miligramos por kilo, o sea doscientos setenta miligramos, que al uno por ciento son veintisiete mililitros. El error tentador es la D: sumar volumen sin convertir a miligramos por kilo es justamente lo que lleva a la toxicidad."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.3.017 · Manejo del dolor",
+      "stem": "Mujer de 55 años, en su primer día postoperatorio de una laparotomía por histerectomía, refiere dolor EVA 8/10 pese a paracetamol y ketorolaco endovenosos en horario. No tiene contraindicaciones ni alergias.",
+      "question": "¿Cuál es la conducta analgésica más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener el mismo esquema y esperar que el dolor ceda"
+        },
+        {
+          "letter": "B",
+          "text": "Suspender todo y usar solo dipirona"
+        },
+        {
+          "letter": "C",
+          "text": "Agregar un segundo AINE"
+        },
+        {
+          "letter": "D",
+          "text": "Agregar un opioide, como morfina endovenosa titulada, manteniendo la analgesia multimodal"
+        },
+        {
+          "letter": "E",
+          "text": "Indicar diazepam para disminuir la ansiedad"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El dolor postoperatorio severo que no cede con analgesia no opioide requiere agregar un opioide (por ejemplo, morfina endovenosa titulada o en bomba de analgesia controlada por el paciente), manteniendo paracetamol y AINE como base multimodal para reducir la dosis de opioide. Combinar dos AINE no mejora la analgesia y aumenta la toxicidad.",
+      "say": {
+        "stem": "Mujer de cincuenta y cinco años, al primer día de una histerectomía por laparotomía, con dolor de ocho sobre diez pese a paracetamol y ketorolaco endovenosos en horario.",
+        "question": "¿Cuál es la conducta analgésica más adecuada?",
+        "options": "Las opciones: mantener el esquema y esperar, dejar solo dipirona, agregar un segundo antiinflamatorio, agregar morfina endovenosa titulada manteniendo lo anterior o dar diazepam. Piénsalo.",
+        "answer": "Es la D. Un dolor severo que no cede con analgésicos no opioides necesita un opioide, sumado a lo que ya recibe para usar menos morfina. Agregar otro antiinflamatorio tienta, pero dos juntos no calman más y sí aumentan el riesgo renal y de sangrado."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.5.002 · Anestesia troncular de dedos y ortejos",
+      "stem": "Hombre de 30 años requiere sutura de una herida en el pulpejo del dedo índice. Se decide realizar una anestesia troncular digital con lidocaína.",
+      "question": "¿Cuál es la técnica correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Infiltrar directamente en el pulpejo, alrededor de la herida"
+        },
+        {
+          "letter": "B",
+          "text": "Infiltrar solo en la cara dorsal de la falange distal"
+        },
+        {
+          "letter": "C",
+          "text": "Infiltrar en la muñeca a nivel del nervio radial exclusivamente"
+        },
+        {
+          "letter": "D",
+          "text": "Infiltrar en la base del dedo, en ambas caras laterales (dorsolateral y palmar-lateral), donde transcurren los nervios digitales"
+        },
+        {
+          "letter": "E",
+          "text": "Infiltrar en forma circular completa con gran volumen, como un anillo apretado"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La anestesia troncular digital bloquea los 4 nervios colaterales (2 dorsales y 2 palmares), que corren por las caras laterales del dedo: se infiltra en la base del dedo, a ambos lados. Se usan volúmenes pequeños, porque los anillos de gran volumen comprimen las arterias digitales; tradicionalmente se recomienda lidocaína sin vasoconstrictor.",
+      "say": {
+        "stem": "Hombre de treinta años con una herida en el pulpejo del dedo índice, a quien se le hará una anestesia troncular digital con lidocaína.",
+        "question": "¿Cuál es la técnica correcta?",
+        "options": "Las opciones: infiltrar en el pulpejo alrededor de la herida, infiltrar solo el dorso de la falange distal, infiltrar el nervio radial en la muñeca, infiltrar en la base del dedo a ambos lados o un anillo completo de gran volumen. Piénsalo.",
+        "answer": "Es la D. Los nervios digitales corren por los costados del dedo, así que se bloquean en la base, a ambos lados. Infiltrar el pulpejo tienta porque está junto a la herida, pero es muy doloroso y no anestesia bien un tejido tan denso."
+      }
     },
 
     {

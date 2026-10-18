@@ -105,6 +105,14 @@ const rawClasses = [
           "• <strong>Causal 3 (Embarazo Producto de Violación):</strong> El embarazo sea resultado de una violación, siempre que no hayan transcurrido más de <strong>12 semanas de gestación</strong> (o hasta <strong>14 semanas</strong> si se trata de una menor de 14 años). Requiere ratificación por un equipo de salud psicosocial.",
           "• <strong>Objeción de Conciencia:</strong> El médico cirujano y el personal de pabellón pueden manifestar objeción de conciencia por escrito y previamente, pero <strong>NO pueden abstenerse si la paciente se encuentra en riesgo vital inmediato (Causal 1 urgente)</strong> y no hay otro médico disponible para subrogar."
         ]
+      },
+{
+        "subhead": "5. Aborto Provocado: Complicaciones y Conducta del Médico",
+        "paragraphs": [
+          "• <b>Definición:</b> Interrupción deliberada del embarazo antes de las 22 semanas o con un feto menor de 500 g. Fuera de las <b>tres causales de la Ley 21.030</b> (riesgo vital materno, inviabilidad fetal letal y violación) el aborto es un delito en Chile, por lo que ocurre en condiciones clandestinas e inseguras (maniobras con sondas o instrumentos, introducción de sustancias, uso de misoprostol sin control). El aborto inseguro es una causa evitable de mortalidad materna.",
+          "• <b>Complicaciones:</b> <b>Hemorragia</b> por restos retenidos, <b>aborto incompleto</b>, <b>perforación uterina</b> con lesión de asas intestinales, vejiga o vasos, <b>infección y aborto séptico</b> (ya revisado en la sección anterior), lesión cervical, sinequias uterinas (síndrome de Asherman), infertilidad por enfermedad inflamatoria pélvica y muerte materna. Debe sospecharse en toda mujer en edad fértil con metrorragia, dolor y fiebre, aunque lo niegue.",
+          "• <b>Conducta Inicial (nivel específico, seguimiento derivado):</b> Evaluar y estabilizar hemodinámicamente (vía venosa, volumen, grupo y Rh, hemograma), descartar perforación o sepsis (abdomen agudo, fiebre) y confirmar con <b>ecografía</b>. Se evacúa el útero con AMEU o misoprostol según la edad gestacional y la estabilidad, se indican antibióticos de amplio espectro si hay sospecha de infección y se administra <b>inmunoglobulina anti-D a la Rh negativa</b>. Siempre se ofrecen <b>consejería y anticoncepción postaborto</b> (DIU o anticonceptivo hormonal antes del alta) y apoyo psicosocial; se deriva a nivel secundario ante perforación, sepsis o falla del tratamiento. La atención es siempre sin juicio ni condicionamiento a confesión, y se resguarda la confidencialidad."
+        ]
       }
     ],
     "table": {
@@ -465,6 +473,14 @@ const rawClasses = [
           "• La vía de abordaje estándar es la <strong>Laparoscopía</strong>. La laparotomía abierta se reserva para pacientes en shock hipovolémico extremo descompensado o con contraindicaciones anestésicas de neumoperitoneo.",
           "• <strong>Salpingostomía Lineal:</strong> Apertura de la trompa por su borde antimesentérico con aspiración del trofoblasto y hemostasia, dejando la trompa abierta para cicatrización por segunda intención. Indicada en mujeres que <strong>desean preservar fertilidad y presentan daño o ausencia de la trompa contralateral</strong>. Riesgo: 5-15% de persistencia trofoblástica (exige seguimiento semanal con β-hCG hasta negativizar).",
           "• <strong>Salpingectomía Total:</strong> Extirpación completa de la trompa afectada. De elección si la trompa está rota, hemorragia incoercible, embarazo ectópico recurrente en la misma trompa, paridad satisfecha, trompa severamente destruida o cuando la trompa contralateral está sana."
+        ]
+      },
+{
+        "subhead": "5. Embarazo Ectópico Roto: Reanimación y Conducta de Urgencia",
+        "paragraphs": [
+          "• <b>Sospecha:</b> Mujer en edad fértil con amenorrea, dolor abdominal o pélvico intenso y <b>signos de shock hipovolémico</b>: palidez, sudoración, taquicardia, hipotensión (que aparece tardíamente), mareo o síncope, distensión y defensa abdominal, dolor referido al hombro (signo de Kehr) y a veces equimosis periumbilical. Un test de embarazo positivo con este cuadro basta para actuar; <b>no se espera la β-hCG cuantitativa ni la ecografía formal</b>.",
+          "• <b>Reanimación Inicial (nivel inicial):</b> Pedir ayuda y trasladar a pabellón: <b>dos vías venosas de grueso calibre</b>, oxígeno, tomar muestras (hemograma, grupo y Rh, pruebas cruzadas, coagulación), reposición con <b>cristaloides tibios y hemoderivados</b> según el grado de shock (sangre O Rh negativo si no hay tiempo de pruebas cruzadas) y vigilancia de signos vitales y diuresis. La eco al lado de la cama (FAST) con <b>líquido libre en el espacio de Morrison o en el fondo de saco de Douglas</b> confirma el hemoperitoneo.",
+          "• <b>Tratamiento Definitivo:</b> <b>Cirugía de urgencia</b> para controlar el sangrado, de preferencia laparoscópica si la paciente es estable y por <b>laparotomía</b> si hay shock descompensado; habitualmente <b>salpingectomía</b>. El tratamiento médico con metotrexato está contraindicado en la paciente inestable. Se administra <b>inmunoglobulina anti-D</b> a la Rh negativa. No requiere seguimiento especializado una vez resuelto, salvo el control de la β-hCG hasta su negativización si se dejó trofoblasto."
         ]
       }
     ],
@@ -1028,6 +1044,15 @@ const rawClasses = [
           "  - Los vasos sanguíneos umbilicales discurren por las membranas fetales (inserción velamentosa del cordón o lóbulo succenturiado) cruzando por encima del OCI por delante de la presentación.",
           "  - <strong>Clínica Patognomónica:</strong> Metrorragia que se desencadena <strong>inmediatamente tras la amniorrexis (espontánea o artificial)</strong>, seguida de <strong>sufrimiento fetal agudo catastrófico (bradicardia fetal extrema)</strong> con madre completamente estable.",
           "  - Fisiopatología: La sangre vertida es <strong>100% de origen fetal</strong>, por lo que el feto sufre un shock hipovolémico y anemia aguda fulminante en minutos (Test de Apt o Kleihauer-Betke detecta hemoglobina fetal). Requiere cesárea de emergencia en minutos para salvar la vida fetal."
+        ]
+      },
+{
+        "subhead": "5. Cesárea: Indicaciones, Técnica y Manejo Perioperatorio",
+        "paragraphs": [
+          "• <b>Rol del Médico General (procedimiento: derivar a especialista):</b> La cesárea la realiza el obstetra; el médico general debe conocer sus indicaciones, preparar a la paciente y reconocer sus complicaciones. <b>Indicaciones frecuentes:</b> cesárea anterior con cicatriz corporal o dos o más cesáreas, desproporción céfalo-pélvica, presentación podálica o transversa, placenta previa oclusiva, desprendimiento placentario con feto vivo, rotura uterina, vasa previa, prolapso de cordón, sufrimiento fetal agudo no resoluble, herpes genital activo y VIH con carga viral mayor de 1.000 copias/mL.",
+          "• <b>Técnica:</b> Incisión abdominal de Pfannenstiel (transversa suprapúbica) o media infraumbilical en la urgencia, <b>histerotomía segmentaria transversa baja (de Kerr)</b>, extracción fetal, pinzamiento del cordón, alumbramiento dirigido con oxitocina y cierre del útero y de la pared por planos. La incisión corporal (clásica) se reserva para casos especiales, como placenta previa anterior o feto muy pretérmino en situación transversa, y obliga a una cesárea electiva en los embarazos siguientes.",
+          "• <b>Manejo Perioperatorio:</b> Ayuno, consentimiento informado, <b>anestesia regional</b> (espinal o epidural) de preferencia, sonda vesical y profilaxis antibiótica con <b>cefazolina 2 g EV 30-60 minutos antes de la incisión</b> (3 g si pesa 120 kg o más), con azitromicina adicional si hay trabajo de parto o rotura de membranas; profilaxis tromboembólica según riesgo. Una cesárea electiva sin otra indicación se programa a las 39 semanas, para disminuir el distrés respiratorio neonatal.",
+          "• <b>Postoperatorio y Complicaciones:</b> Analgesia escalonada, movilización y realimentación precoces (a las 6-8 horas) y alta a las 48-72 horas. Complicaciones: hemorragia, endometritis y herida infectada, lesión vesical o ureteral, íleo, enfermedad tromboembólica y, en embarazos posteriores, placenta previa y acretismo. La <b>prueba de trabajo de parto tras una cesárea segmentaria previa</b> es posible en un centro con capacidad quirúrgica, con vigilancia por riesgo de rotura uterina."
         ]
       }
     ],

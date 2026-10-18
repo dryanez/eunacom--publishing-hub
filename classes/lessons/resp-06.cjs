@@ -39,6 +39,30 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'No es neumonía',
+      title: 'Bronquitis aguda: viral y sin antibiótico',
+      cards: [
+        { title: 'Cómo es', tag: 'Casi siempre viral', kind: 'key', items: [
+          { t: 'Tos < 3 semanas, con o sin flema', d: 'Rinovirus, influenza, VRS, coronavirus',
+            say: 'Antes de seguir con la neumonía, el diagnóstico diferencial más frecuente: la bronquitis aguda. Es una inflamación de los bronquios, casi siempre viral, con tos de menos de tres semanas, con o sin expectoración.' },
+          { t: 'Flema purulenta no significa bacteria', d: 'Sin fiebre alta ni disnea; Rx normal',
+            say: 'Ojo: la expectoración puede ser purulenta sin que signifique bacteria. No hay fiebre alta ni disnea, la auscultación es normal o con roncus y sibilancias, y la radiografía de tórax es normal.' },
+        ] },
+        { title: 'Cómo se separa de la NAC', tag: 'Signos vitales y examen', kind: 'criteria', items: [
+          { t: 'Sin taquicardia, taquipnea ni condensación', d: 'En NAC sí están',
+            say: 'Se diferencia de la neumonía porque faltan la taquicardia, la taquipnea, la fiebre y los signos de condensación. Si el paciente es mayor de sesenta y cinco años o tiene comorbilidad con esos signos, se pide una radiografía.' },
+        ] },
+        { title: 'Tratamiento', tag: 'La trampa', kind: 'alert', items: [
+          { t: 'Sintomático: sin antibióticos', d: 'No acortan la enfermedad',
+            say: 'El tratamiento es sintomático: hidratación, analgésico antipirético y broncodilatador solo si hay sibilancias. Los antibióticos no están indicados, porque no acortan la enfermedad.' },
+          { t: 'Tos > 3 semanas: reevaluar', d: 'Tos ferina, asma, reflujo',
+            say: 'La tos puede durar dos a tres semanas. Pasado ese plazo, se reevalúa pensando en tos ferina, asma o reflujo.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Etiología',
       title: 'El germen depende del paciente',
       cards: [
@@ -78,9 +102,32 @@ module.exports = {
         { show: ['rx'], note: 'Siempre la radiografía',
           say: 'Pero la clínica solo hace sospechar. La confirmación exige siempre una radiografía de tórax, idealmente en proyección frontal y lateral.' },
         { show: ['con', 'nac'], note: 'Algo nuevo en la imagen',
-          say: 'Lo que confirma la neumonía es algo nuevo en la imagen: una condensación alveolar, un broncograma aéreo o un infiltrado intersticial. Con eso, la NAC está confirmada, y la siguiente pregunta es dónde tratarla.' },
+          say: 'Lo que confirma la neumonía es algo nuevo en la imagen: una condensación alveolar, un broncograma aéreo o un infiltrado intersticial. Con eso, la NAC está confirmada, y la siguiente pregunta es dónde tratarla. Mira esta radiografía: una consolidación lobar, un área blanca homogénea. Y en esta otra, el broncograma aéreo: los bronquios con aire se ven oscuros dentro de la condensación.',
+            photos: [{ src: 'biblioteca/02_neumologia/resp-06/01_consolidacion-lobar__cto-radiologia_p13.jpg', label: 'Consolidación lobar', at: 'Mira esta radiografía', credit: 'Manual CTO Radiología 14.ª ed., p. 13' }, { src: 'biblioteca/02_neumologia/resp-06/02_broncograma-aereo__cto-radiologia_p10.jpg', label: 'Broncograma aéreo', at: 'Y en esta otra', credit: 'Manual CTO Radiología 14.ª ed., p. 10' }] },
         { show: ['lab'], note: 'Se pregunta como distractor',
           say: 'Ojo con los distractores. La proteína C reactiva y la procalcitonina apoyan, el cultivo de expectoración no es imprescindible para partir el tratamiento ambulatorio, y la TAC no es el examen de entrada. El examen indispensable es la radiografía.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Microbiología',
+      title: 'Expectoración: cuándo pedirla y cuándo sirve',
+      cards: [
+        { title: 'Una muestra útil', tag: 'Calidad', kind: 'criteria', items: [
+          { t: '> 25 polimorfonucleares, < 10 epiteliales', d: 'Por campo de 100 aumentos',
+            say: 'El examen microbiológico de expectoración incluye Gram, cultivo corriente, baciloscopía y cultivo de Koch. Una muestra útil viene del árbol bronquial: más de veinticinco polimorfonucleares y menos de diez células epiteliales por campo.' },
+          { t: 'Muchas células escamosas = saliva', d: 'Se repite',
+            say: 'Si hay muchas células escamosas, es saliva y se repite. Se toma en la mañana, tras enjuagar la boca y antes del antibiótico.' },
+        ] },
+        { title: 'Cuándo se solicita', tag: 'No de rutina', kind: 'key', items: [
+          { t: 'NAC ambulatoria de bajo riesgo: no', d: 'No se pide de rutina',
+            say: 'En la neumonía ambulatoria de bajo riesgo no se pide de rutina.' },
+          { t: 'Hospitalizada, grave o sin respuesta', d: 'EPOC, bronquiectasias, hospitalización previa',
+            say: 'Se indica en la neumonía hospitalizada, la grave, la que no responde al tratamiento o la de pacientes con riesgo de gérmenes inusuales, como EPOC, bronquiectasias u hospitalización previa.' },
+          { t: 'Grave: hemocultivos y antígenos urinarios', d: 'Neumococo y Legionella',
+            say: 'En los casos graves se agregan hemocultivos y antígeno urinario de neumococo y de Legionella. Y si hay tos de más de dos semanas con sospecha de tuberculosis, baciloscopía y cultivo de Koch.' },
+        ] },
       ],
     },
 
@@ -220,23 +267,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'La neumonía en la radiografía',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-06/01_consolidacion-lobar__cto-radiologia_p13.jpg', label: 'Consolidación lobar', credit: 'Manual CTO Radiología 14.ª ed., p. 13' },
-        { src: 'biblioteca/02_neumologia/resp-06/02_broncograma-aereo__cto-radiologia_p10.jpg', label: 'Broncograma aéreo', credit: 'Manual CTO Radiología 14.ª ed., p. 10' },
-      ],
-      steps: [
-        { note: 'Opacidad que respeta la cisura',
-          say: 'Esta es una consolidación lobar: una opacidad homogénea que ocupa un lóbulo y se detiene en la cisura. Es el patrón típico del neumococo.' },
-        { note: 'Bronquios negros dentro de lo blanco',
-          say: 'Y aquí se ven bronquios negros dentro de la opacidad. Es el broncograma aéreo: el alvéolo está lleno, pero el bronquio sigue con aire. Eso confirma que la opacidad es del parénquima.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Juntemos todo en el árbol que vas a recorrer frente a cada paciente con sospecha de neumonía.',
     },
@@ -327,6 +357,119 @@ module.exports = {
         options: 'Las opciones: cefepime más amikacina, ceftriaxona más clindamicina, cloxacilina más metronidazol, cefotaximo más moxifloxacino, o piperacilina con tazobactam. Piénsalo.',
         answer: 'Es la D. Primero la gravedad: frecuencia sobre treinta, diastólica de sesenta, dos lóbulos y una insuficiencia respiratoria que casi no responde al oxígeno. Es una NAC de intensivo. Y en intensivo se da una cefalosporina de tercera generación, cefotaximo o ceftriaxona, más una quinolona respiratoria o un macrólido. La E tienta porque es de amplio espectro, pero la cobertura antipseudomónica es para la neumonía intrahospitalaria.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.001 · Radiografía de tórax",
+      "stem": "Mujer de 66 años con 3 días de fiebre y tos productiva. En la radiografía de tórax posteroanterior se observa una opacidad de tipo alveolar con broncograma aéreo que borra el contorno del borde derecho de la silueta cardíaca; el hemidiafragma derecho se ve nítido.",
+      "question": "¿Cuál es la localización más probable de la condensación?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lóbulo medio"
+        },
+        {
+          "letter": "B",
+          "text": "Lóbulo superior derecho"
+        },
+        {
+          "letter": "C",
+          "text": "Segmento basal posterior del lóbulo inferior derecho"
+        },
+        {
+          "letter": "D",
+          "text": "Língula"
+        },
+        {
+          "letter": "E",
+          "text": "Segmento apical del lóbulo inferior derecho"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Signo de la silueta: una opacidad que borra un borde indica que está en contacto anatómico con él. El borde cardíaco derecho (aurícula derecha) limita con el lóbulo medio; si se borrara el hemidiafragma, sería el lóbulo inferior. Borrar el borde cardíaco izquierdo orienta a la língula.",
+      "say": {
+        "stem": "Una mujer de sesenta y seis años tiene fiebre y tos. En la radiografía frontal hay una condensación con broncograma aéreo que borra el borde derecho del corazón, mientras el diafragma derecho se ve nítido.",
+        "question": "¿Cuál es la localización más probable?",
+        "options": "Las opciones: lóbulo medio, lóbulo superior derecho, base del lóbulo inferior derecho, língula o segmento apical del inferior. Piénsalo.",
+        "answer": "Es la A, el lóbulo medio. Por el signo de la silueta, lo que borra el borde derecho del corazón está tocándolo, y ese vecino es el lóbulo medio. El lóbulo inferior tienta por ser basal, pero borraría el diafragma, que aquí se ve bien."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.1.005 · Bronquitis aguda",
+      "stem": "Una mujer de 40 años, sin comorbilidades, consulta por tos con expectoración amarillenta de 10 días, posterior a un cuadro de coriza. Está afebril, con FC 80 por minuto, FR 16 por minuto y saturación 97%; al examen pulmonar hay roncus aislados, sin crépitos.",
+      "question": "¿Cuál es el manejo más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amoxicilina por 7 días por la expectoración amarilla"
+        },
+        {
+          "letter": "B",
+          "text": "Corticoides orales"
+        },
+        {
+          "letter": "C",
+          "text": "Radiografía de tórax y levofloxacino"
+        },
+        {
+          "letter": "D",
+          "text": "Manejo sintomático, sin antibióticos, explicando que la tos puede durar hasta 3 semanas"
+        },
+        {
+          "letter": "E",
+          "text": "Azitromicina por 5 días"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Es una bronquitis aguda: tos, con o sin expectoración incluso purulenta, tras una infección viral, sin signos de neumonía (afebril, signos vitales normales, sin focalización). Es mayormente viral y autolimitada, y la tos puede durar 2 a 3 semanas. No requiere radiografía ni antibióticos; el color del esputo no indica infección bacteriana.",
+      "say": {
+        "stem": "Una mujer sana de cuarenta años tiene tos con expectoración amarilla de diez días después de un resfrío, sin fiebre, con signos vitales normales y solo algunos roncus.",
+        "question": "¿Cuál es el manejo más adecuado?",
+        "options": "Las opciones: amoxicilina por la expectoración amarilla, corticoides orales, radiografía y levofloxacino, manejo sintomático sin antibióticos o azitromicina. Piénsalo.",
+        "answer": "Es la D. Es una bronquitis aguda, casi siempre viral, que se maneja sin antibióticos. La amoxicilina tienta por la expectoración amarilla, pero el color del esputo no indica infección bacteriana."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.006 · Examen microbiológico de expectoración",
+      "stem": "Se envía una muestra de expectoración de un paciente hospitalizado por neumonía para Gram y cultivo. El informe señala más de 25 células epiteliales y menos de 10 leucocitos polimorfonucleares por campo de bajo aumento.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Muestra de buena calidad: se debe tratar el germen que crezca"
+        },
+        {
+          "letter": "B",
+          "text": "Confirma neumonía neumocócica"
+        },
+        {
+          "letter": "C",
+          "text": "Muestra no representativa (saliva), no apta para cultivo: se debe repetir"
+        },
+        {
+          "letter": "D",
+          "text": "Indica tuberculosis"
+        },
+        {
+          "letter": "E",
+          "text": "Indica infección viral"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La calidad de la expectoración se evalúa con el criterio de Murray-Washington: una muestra útil tiene más de 25 polimorfonucleares y menos de 10 células epiteliales por campo de bajo aumento. Muchas células epiteliales indican contaminación con saliva y flora orofaríngea, por lo que el cultivo no es interpretable y la muestra debe repetirse.",
+      "say": {
+        "stem": "Un paciente con neumonía envía expectoración para Gram y cultivo, y el informe muestra muchas células epiteliales y pocos polimorfonucleares por campo.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: buena muestra y tratar lo que crezca, confirma neumococo, muestra de saliva no apta que debe repetirse, indica tuberculosis o indica virus. Piénsalo.",
+        "answer": "Es la C. Muchas células epiteliales significan que la muestra es saliva, y su cultivo solo mostrará flora de la boca. Tratar lo que crezca tienta, pero llevaría a tratar contaminantes."
+      }
     },
 
     {

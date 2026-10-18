@@ -75,7 +75,8 @@ module.exports = {
       cards: [
         { title: 'Imagen', tag: 'RMN de elección', kind: 'criteria', items: [
           { t: 'RMN: hiperintensidad temporal en T2/FLAIR', d: 'Asimétrica, también en la ínsula',
-            say: 'Veamos cómo se confirma. El examen de imagen de elección es la resonancia magnética, muy superior a la TAC. Muestra una hiperintensidad en las secuencias T dos y FLAIR en los lóbulos temporales, de forma asimétrica, y en la corteza insular.' },
+            say: 'Veamos cómo se confirma. El examen de imagen de elección es la resonancia magnética, muy superior a la TAC. Mira esta resonancia: muestra una hiperintensidad en las secuencias T dos y FLAIR en los lóbulos temporales, de forma asimétrica, y en la corteza insular.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-03/01_rm_encefalitis_herpetica__harrison_p1137.jpg', label: 'Encefalitis herpética', at: 'Mira esta resonancia', credit: 'Harrison 21.ª ed., p. 1137' } },
           { t: 'TAC puede ser normal al inicio', d: 'Primeras 48 a 72 horas',
             say: 'La TAC, en cambio, puede ser completamente normal en las primeras cuarenta y ocho a setenta y dos horas. Una TAC normal no descarta la encefalitis.' },
         ] },
@@ -163,7 +164,8 @@ module.exports = {
       cards: [
         { title: 'Diagnóstico', tag: 'Imagen con contraste', kind: 'criteria', items: [
           { t: 'TAC o RMN con contraste', d: 'Lesión en anillo con realce periférico',
-            say: 'El diagnóstico es por imagen: TAC o resonancia con contraste. Lo que ves es la clásica lesión en anillo, con realce periférico y edema vasogénico alrededor.' },
+            say: 'El diagnóstico es por imagen: TAC o resonancia con contraste. En estas imágenes ves la clásica lesión en anillo, con realce periférico y edema vasogénico alrededor.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-03/01_abscesos-cerebrales-en-anillo-tc-rm__amir-infecto_p42.jpg', label: 'Absceso cerebral', at: 'En estas imágenes', credit: 'Manual AMIR Infecciosas, p. 42' } },
           { t: 'Punción lumbar contraindicada', d: 'Riesgo de herniación',
             say: 'Y conecta con la clase anterior: el absceso es una masa. Puncionar a un paciente con un absceso cerebral es exponerlo a una herniación. Aquí la punción lumbar está contraindicada.' },
         ] },
@@ -183,6 +185,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Meningitis en el niño',
+      title: 'Meningitis bacteriana según la edad',
+      cards: [
+        { title: 'Germen según edad', tag: 'Cambia con los meses', kind: 'key', items: [
+          { t: 'Bajo 3 meses: SGB, E. coli, Listeria', d: 'Madre portadora o intestino',
+            say: 'En el niño el germen depende de la edad. En el recién nacido y bajo los tres meses: estreptococo del grupo B, E. coli y Listeria.' },
+          { t: 'Sobre 3 meses: neumococo y meningococo', d: 'Hib raro tras la vacuna',
+            say: 'Después de los tres meses, neumococo y meningococo. El Haemophilus b ya es raro gracias a la vacuna.' },
+        ] },
+        { title: 'Cómo se ve', tag: 'Inespecífico', kind: 'alert', items: [
+          { t: 'Irritabilidad, letargia, rechazo alimentario', d: 'Fontanela abombada, convulsiones',
+            say: 'El lactante no tiene rigidez de nuca: tiene irritabilidad o letargia, rechazo de alimento, vómitos, convulsiones y fontanela abombada. Los signos meníngeos aparecen tarde.' },
+        ] },
+        { title: 'Conducta', tag: 'EV de inmediato', kind: 'pharma', items: [
+          { t: 'Menor de 1 mes: ampicilina + cefotaxima', d: 'Mayor de 1 mes: ceftriaxona + vancomicina',
+            say: 'Antibiótico endovenoso inmediato. Bajo un mes, ampicilina más cefotaxima. Sobre un mes, ceftriaxona más vancomicina.' },
+          { t: 'Dexametasona 0,15 mg/kg c/6 h', d: 'Solo mayores de 1 mes · 2 a 4 días',
+            say: 'Y dexametasona en mayores de un mes, antes o junto con la primera dosis de antibiótico.' },
+          { t: 'Audiometría al alta', d: 'La sordera es la secuela más frecuente',
+            say: 'Todo niño con meningitis debe tener audiometría al alta, porque la sordera es la secuela más frecuente.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -193,23 +221,6 @@ module.exports = {
       steps: [
         { note: 'Aciclovir sin esperar',
           say: 'El herpes no viaja por la sangre: sube por el nervio olfatorio o el trigémino hasta los lóbulos temporales y el sistema límbico, donde produce una necrosis hemorrágica. Por eso fallan la conducta, la memoria y el lenguaje, y el líquido viral trae glóbulos rojos. Se inicia aciclovir endovenoso de inmediato; la resonancia y la PCR confirman, pero no deciden el inicio.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Infecciones del cerebro',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-03/01_rm_encefalitis_herpetica__harrison_p1137.jpg', label: 'Encefalitis herpética', credit: 'Harrison 21.ª ed., p. 1137' },
-        { src: 'biblioteca/07_infectologia/infecto-03/01_abscesos-cerebrales-en-anillo-tc-rm__amir-infecto_p42.jpg', label: 'Absceso cerebral', credit: 'Manual AMIR Infecciosas, p. 42' },
-      ],
-      steps: [
-        { note: 'Lóbulo temporal afectado',
-          say: 'La encefalitis herpética compromete el lóbulo temporal. Fiebre, compromiso de conciencia y alteración conductual: aciclovir sin esperar el examen.' },
-        { note: 'Lesión con anillo',
-          say: 'Y el absceso se ve como una lesión con anillo que capta contraste.' },
       ],
     },
 
@@ -327,6 +338,82 @@ module.exports = {
         options: 'Las opciones son: oseltamivir, vancomicina, ceftriaxona, aciclovir, o ampicilina. Piénsalo.',
         answer: 'Es la D, aciclovir endovenoso. Conducta alterada y convulsiones con un líquido viral y hemorrágico: encefalitis herpética, también en niños. La ceftriaxona es la tentación de quien piensa en meningitis bacteriana, pero la glucosa normal y los mononucleares no apoyan una bacteria. Y fíjate que se hizo la TAC antes de puncionar, por las convulsiones: la misma bandera roja de la clase anterior.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.2.001 · Absceso cerebral",
+      "stem": "Hombre de 45 años con una sinusitis frontal mal tratada hace 3 semanas consulta por cefalea progresiva, fiebre de 38 °C y paresia del brazo derecho. La TAC de cerebro con contraste muestra una lesión frontal izquierda hipodensa, con captación de contraste en anillo y edema perilesional.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aciclovir endovenoso"
+        },
+        {
+          "letter": "B",
+          "text": "Corticoides en monoterapia"
+        },
+        {
+          "letter": "C",
+          "text": "Punción lumbar inmediata para cultivo"
+        },
+        {
+          "letter": "D",
+          "text": "Radioterapia por sospecha de glioblastoma"
+        },
+        {
+          "letter": "E",
+          "text": "Ceftriaxona y metronidazol endovenosos, más evaluación neuroquirúrgica para drenaje"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Lesión con captación en anillo, fiebre y un foco contiguo como la sinusitis es un absceso cerebral. Se trata con antibióticos endovenosos que cubran estreptococos y anaerobios, como ceftriaxona más metronidazol, y aspiración o drenaje neuroquirúrgico. La punción lumbar está contraindicada por el efecto de masa.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de cuarenta y cinco años con una sinusitis frontal mal tratada hace tres semanas, que ahora tiene cefalea progresiva, fiebre y debilidad del brazo derecho. La tomografía con contraste muestra una lesión frontal izquierda con captación en anillo y edema alrededor.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: aciclovir, corticoides solos, punción lumbar inmediata, radioterapia o ceftriaxona con metronidazol y evaluación neuroquirúrgica. Piénsalo.",
+        "answer": "Es la E. Un foco vecino infectado, fiebre y una lesión con anillo es un absceso cerebral, que se trata con antibióticos que cubran anaerobios y con drenaje. La punción lumbar es la trampa: con una masa intracraneana puede provocar una herniación."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2019 · Pregunta 157",
+      "stem": "Un niño de 8 años presenta cefalea y fiebre de 2 días de evolución, a lo que se agrega conducta agresiva y luego desorientación. Convulsiona en varias oportunidades. Su TAC descarta hipertensión endocraneana, por lo que se realiza punción lumbar: LCR con 100 glóbulos rojos/mm3, 20 glóbulos blancos/mm3 (90% mononucleares), proteínas 80 mg/dL y glucosa 60 mg/dL.",
+      "question": "¿Cuál es el tratamiento inicial?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Oseltamivir"
+        },
+        {
+          "letter": "B",
+          "text": "Vancomicina"
+        },
+        {
+          "letter": "C",
+          "text": "Ceftriaxona"
+        },
+        {
+          "letter": "D",
+          "text": "Aciclovir"
+        },
+        {
+          "letter": "E",
+          "text": "Ampicilina"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Fiebre con alteración conductual, desorientación y convulsiones (compromiso del parénquima) más LCR con pleocitosis mononuclear, glucosa normal, proteínas elevadas y eritrocitos sugieren meningoencefalitis herpética. Debe iniciarse aciclovir endovenoso de inmediato, sin esperar la PCR para virus herpes simple, porque reduce marcadamente la mortalidad y las secuelas.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Un niño de ocho años tiene fiebre y cefalea, luego conducta agresiva, desorientación y varias convulsiones. El líquido cefalorraquídeo muestra pocos leucocitos, casi todos mononucleares, glucosa normal y glóbulos rojos.",
+        "question": "¿Cuál es el tratamiento inicial?",
+        "options": "Las opciones: oseltamivir, vancomicina, ceftriaxona, aciclovir o ampicilina. Piénsalo.",
+        "answer": "Es la D. Es una meningoencefalitis herpética, y se trata de inmediato con aciclovir endovenoso. La ceftriaxona tienta por la fiebre y las convulsiones, pero el líquido con predominio mononuclear y glucosa normal no es bacteriano."
+      }
     },
 
     {

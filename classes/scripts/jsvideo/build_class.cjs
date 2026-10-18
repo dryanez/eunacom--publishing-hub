@@ -24,12 +24,15 @@ const OUT = path.join(__dirname, 'out', id);
 fs.mkdirSync(path.join(OUT, 'voz'), { recursive: true });
 
 const lesson = require(path.join(ROOT, 'classes', 'lessons', id + '.cjs'));
+// árbol de decisión: el de la lección o el de classes/pathways/*_pathways.cjs (como el reproductor)
+if (!lesson.pathway) { const PD = path.join(__dirname, '..', '..', 'pathways');
+  for (const f of fs.readdirSync(PD).filter(f => f.endsWith('_pathways.cjs'))) { const m = require(path.join(PD, f)); const pw = m[id] || (m.default || {})[id]; if (pw) { lesson.pathway = pw.root ? pw : { root: pw }; break; } } }
 const spec = id.split('-')[0];
-const SPEC = { neuro: 'neurologia', resp: 'respiratorio', gastro: 'gastroenterologia', nefro: 'nefrologia', diab: 'diabetes',
+const SPEC = { cardio: 'cardiologia', neuro: 'neurologia', resp: 'respiratorio', gastro: 'gastroenterologia', nefro: 'nefrologia', diab: 'diabetes',
   endo: 'endocrinologia', hem: 'hematologia', infecto: 'infectologia', reuma: 'reumatologia', cirugia: 'cirugia',
   derma: 'dermatologia', oftal: 'oftalmologia', orl: 'otorrinolaringologia', trauma: 'traumatologia', uro: 'urologia',
   psiq: 'psiquiatria', ped: 'pediatria', ob: 'obstetricia', gin: 'ginecologia', sp: 'salud_publica' };
-const NAME = { neuro: 'Neurología', resp: 'Respiratorio', gastro: 'Gastroenterología', nefro: 'Nefrología', diab: 'Diabetes',
+const NAME = { cardio: 'Cardiología', neuro: 'Neurología', resp: 'Respiratorio', gastro: 'Gastroenterología', nefro: 'Nefrología', diab: 'Diabetes',
   endo: 'Endocrinología', hem: 'Hematología', infecto: 'Infectología', reuma: 'Reumatología', cirugia: 'Cirugía',
   derma: 'Dermatología', oftal: 'Oftalmología', orl: 'Otorrinolaringología', trauma: 'Traumatología', uro: 'Urología',
   psiq: 'Psiquiatría', ped: 'Pediatría', ob: 'Obstetricia', gin: 'Ginecología', sp: 'Salud Pública' };
@@ -94,6 +97,15 @@ async function voice(b) {
   b.audio = f;
 }
 
+// momento de una foto en contexto, como fracción del audio del beat: número (0–0,9) o un trozo del say
+// ("Mira esta piel": se estima por la proporción de caracteres antes de esa frase). Sin at: repartidas en el beat.
+function photoAt(at, say, k, n) {
+  if (typeof at === 'number') return Math.max(0, Math.min(0.9, at));
+  const i = typeof at === 'string' && say ? say.indexOf(at) : -1;
+  if (i >= 0) return Math.max(0, Math.min(0.9, i / say.length - 0.02));
+  return k / n;
+}
+
 // cuadros de las animaciones MP4 de la clase (el navegador sin interfaz no decodifica H.264)
 function frames(src) {
   const name = path.basename(src, '.mp4');
@@ -121,6 +133,11 @@ function frames(src) {
     b.dur = Math.max(b.min || 0, b.ad + (b.audio ? GAP : 0));
     const s = slides[b.slide];
     if (s && s.type === 'image') { const im = s.images[Math.min(b.step, s.images.length - 1)]; if (media[im.src]) b.dur = Math.max(b.dur, media[im.src].dur + 0.6); }
+    if (s) {                                   // fotos en contexto: que el beat alcance a mostrar la última (pop + vuelo)
+      const it = s.type === 'points' && b.kind === 'item' ? s.cards[b.card].items[b.item] : s.type === 'flow' ? s.steps[b.step] : s.type === 'table' ? s.rows[b.row] : null;
+      const ps = it ? (it.photos || (it.photo ? [it.photo] : [])).slice(0, 2) : [];
+      ps.forEach((p, k) => { p.at = photoAt(p.at, it.say, k, ps.length); b.dur = Math.max(b.dur, 0.15 + p.at * b.ad + 2.9); });
+    }
     if (s && (b === beats.find(x => x.slide === b.slide))) { b.lead = 0.6; b.dur += 0.6; }   // tiempo para la transición
     b.t0 = t; t += b.dur;
   }
@@ -132,7 +149,7 @@ function frames(src) {
   const filt = withA.map((b, i) => `[${i}:a]aresample=44100,adelay=${Math.round((b.t0 + (b.lead || 0) + 0.15) * 1000)}:all=1[a${i}]`).join(';') +
     ';' + withA.map((_, i) => `[a${i}]`).join('') + `amix=inputs=${withA.length}:normalize=0,apad=whole_dur=${total.toFixed(2)}[out]`;
   fs.writeFileSync(path.join(OUT, 'mix.txt'), filt);
-  execFileSync('ffmpeg', ['-loglevel', 'error', '-y', ...inputs, '-filter_complex_script', path.join(OUT, 'mix.txt'), '-map', '[out]',
+  execFileSync('ffmpeg', ['-loglevel', 'error', '-y', ...inputs, '-/filter_complex', path.join(OUT, 'mix.txt'), '-map', '[out]',
     '-t', total.toFixed(2), '-c:a', 'aac', '-b:a', '128k', path.join(OUT, 'narracion.m4a')]);
 
   const data = { id, title, spec: NAME[spec] || spec, topic: meta.topicLabel || '', slides, pathway: lesson.pathway || null, media,

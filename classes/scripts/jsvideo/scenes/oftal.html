@@ -1,0 +1,570 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Oftalmología sobre ilustración real. Base: Blausen.com staff (2014), CC BY 3.0:
+//   "Pink Eye" (ojo de frente, recortado)  → assets/oftal/ojo_frente.png  (750x620)
+//   "Eye Anatomy" (corte del ojo, rótulos quitados con inpainting) → assets/oftal/ojo_corte.png (1500x1320)
+// y fondo de ojo de Servier Medical Art (CC BY 4.0) → assets/oftal/fondo_ojo.png (388x388).
+// Las capas animadas (vasos, rayos, desprendimiento, tinciones) son propias. Variantes: ?v=<nombre> (ver SCN al final).
+const V = new URLSearchParams(location.search).get('v') || 'ojorojo';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+const TAU = Math.PI * 2;
+const CRED_B = 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · capas y rótulos propios';
+const CRED_S = 'Fondo de ojo: Servier Medical Art, CC BY 4.0 · capas y rótulos propios';
+let CRED = CRED_B;
+
+// ---------- hoja de ilustración (tarjeta blanca) ----------
+function sheet(key, dst, sc, a = 1, bg = '#FFFFFF') {
+  const im = I(key), w = im.width * sc, h = im.height * sc;
+  dst.w = w; dst.h = h;
+  ctx.save(); ctx.globalAlpha = a; rrect(dst.x - 6, dst.y - 6, w + 12, h + 12, 18, bg);
+  ctx.beginPath(); ctx.roundRect(dst.x, dst.y, w, h, 14); ctx.clip();
+  ctx.drawImage(im, dst.x, dst.y, w, h); ctx.restore();
+}
+function clipSheet(d) { ctx.beginPath(); ctx.roundRect(d.x, d.y, d.w, d.h, 14); ctx.clip(); }
+let AUTO = false;
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return;
+  if (AUTO && (y === 640 || y === 596 || y === 600)) { y = y === 640 ? 612 : 566; x = clamp(tx - 10, 140, 530); }
+  ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, TAU); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(640, 696, 640, 24); text(CRED, 1268, 712, 13, C.MUTED, '', 'right'); }
+function drop(x, y, a, col, s = 1) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = col; ctx.beginPath(); ctx.moveTo(x, y - 12 * s);
+  ctx.quadraticCurveTo(x + 9 * s, y + 3 * s, x, y + 9 * s); ctx.quadraticCurveTo(x - 9 * s, y + 3 * s, x, y - 12 * s); ctx.fill();
+  ctx.fillStyle = 'rgba(255,255,255,0.55)'; ctx.beginPath(); ctx.arc(x - 3 * s, y + 1 * s, 2.2 * s, 0, TAU); ctx.fill(); ctx.restore();
+}
+// frasco con gota que cae: (x,y) boca del gotero, la gota cae `fall` px
+function dropper(x, y, t0, col, fall = 70) {
+  const k = seg(L2t, t0, 0.9); if (k <= 0 || k >= 1) return;
+  ctx.save(); ctx.globalAlpha = Math.min(1, k * 6, (1 - k) * 6);
+  rrect(x - 12, y - 78, 24, 56, 6, '#DDE7EE'); rrect(x - 7, y - 28, 14, 18, 3, '#9FB0BE');
+  ctx.restore(); drop(x, y - 4 + fall * ease(k), Math.min(1, k * 5, (1 - k) * 12), col, 1.1);
+}
+let L2t = 0; // tiempo vigente (para dropper)
+
+// =============== OJO DE FRENTE ===============
+const FR = { x: 36, y: 134, w: 0, h: 0 }, FS = 0.8;           // hoja
+const F = (x, y) => [FR.x + x * FS, FR.y + y * FS];
+const IC = [380, 288], IR = 115, PR = 45;                     // centro del iris, radio del iris, radio de la pupila (px de la imagen)
+// borde de los párpados (px de la imagen) para recortar las capas a la apertura palpebral
+const UPPER = [[120, 312], [160, 275], [200, 248], [250, 218], [300, 200], [380, 186], [460, 196], [520, 222], [570, 270], [612, 332]];
+const LOWER = [[612, 336], [570, 358], [520, 372], [460, 388], [380, 398], [300, 386], [250, 366], [200, 346], [160, 328], [120, 314]];
+function aperture() { ctx.beginPath(); [...UPPER, ...LOWER].forEach(([x, y], i) => { const [X, Y] = F(x, y); i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); }); ctx.closePath(); }
+function frente(a) { sheet('frente', FR, FS, a); }
+function inAperture(fn) { ctx.save(); clipSheet(FR); aperture(); ctx.clip(); fn(); ctx.restore(); }
+function outAperture(fn) { ctx.save(); clipSheet(FR); fn(); ctx.restore(); }
+function irisCircle(r, fn) { const [x, y] = F(...IC); ctx.beginPath(); ctx.arc(x, y, r * FS, 0, TAU); fn(x, y); }
+// vasos conjuntivales: de la periferia hacia el limbo (terminan antes del limbo)
+function vesselsConj(k, ox = 0, seed = 0) {
+  const N = 70; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  for (let i = 0; i < N; i++) {
+    const left = i % 2 === 0, th = (rnd(i + seed) - 0.5) * 1.9 + (left ? Math.PI : 0);
+    const r0 = 270 + rnd(i + 9) * 40, r1 = 138 + rnd(i + 21) * 36, n = 6, pts = [];
+    for (let j = 0; j <= n; j++) { const u = j / n, r = lerp(r0, r1, u), a = th + Math.sin(j * 1.9 + i) * 0.06 * (1 - u * 0.4);
+      pts.push([IC[0] + Math.cos(a) * r + ox * (1 - u * 0.4), IC[1] + 26 + Math.sin(a) * r * 0.5]); }
+    ctx.strokeStyle = `rgba(214,30,48,${0.92 * k})`; ctx.lineWidth = (2.8 - rnd(i + 3) * 1.1) * FS * 1.5;
+    ctx.beginPath(); pts.forEach(([x, y], j) => { const [X, Y] = F(x, y); j ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); }); ctx.stroke();
+  }
+  const [cx, cy] = F(...IC); const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, 300 * FS);
+  g.addColorStop(0, 'rgba(230,70,80,0)'); g.addColorStop(0.45, 'rgba(230,70,80,0)'); g.addColorStop(1, `rgba(230,70,80,${0.34 * k})`);
+  ctx.fillStyle = g; ctx.fillRect(FR.x, FR.y, FR.w, FR.h);
+}
+function haloCiliar(k) {
+  const [cx, cy] = F(...IC), R = (IR + 52) * FS, g = ctx.createRadialGradient(cx, cy, 0, cx, cy, R), f = v => clamp(v * FS / R, 0, 1);
+  g.addColorStop(0, 'rgba(150,30,110,0)'); g.addColorStop(f(IR - 10), 'rgba(150,30,110,0)'); g.addColorStop(f(IR + 2), `rgba(150,30,110,${0.8 * k})`);
+  g.addColorStop(f(IR + 20), `rgba(190,40,90,${0.5 * k})`); g.addColorStop(1, 'rgba(190,40,90,0)');
+  ctx.fillStyle = g; ctx.fillRect(FR.x, FR.y, FR.w, FR.h);
+  ctx.lineCap = 'round';
+  for (let i = 0; i < 60; i++) { const a = rnd(i + 5) * TAU, r0 = IR - 2, r1 = IR + 12 + rnd(i + 8) * 28;
+    ctx.strokeStyle = `rgba(150,25,95,${0.7 * k})`; ctx.lineWidth = 1.8 * FS * 1.4; ctx.beginPath();
+    ctx.moveTo(...F(IC[0] + Math.cos(a) * r0, IC[1] + Math.sin(a) * r0)); ctx.lineTo(...F(IC[0] + Math.cos(a) * r1, IC[1] + Math.sin(a) * r1)); ctx.stroke(); }
+}
+function cobalto(k) { // luz azul de cobalto: oscurece y tiñe
+  if (k <= 0) return; ctx.save(); ctx.globalAlpha = k; ctx.fillStyle = 'rgba(8,24,86,0.62)'; ctx.fillRect(FR.x, FR.y, FR.w, FR.h); ctx.restore();
+}
+function glowPath(pts, w, col, a, tipR) { // trazo fluorescente con botones terminales
+  ctx.save(); ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.globalAlpha = a;
+  ctx.shadowColor = col; ctx.shadowBlur = 14; ctx.strokeStyle = col; ctx.lineWidth = w;
+  ctx.beginPath(); pts.forEach(([x, y], i) => { const [X, Y] = F(x, y); i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); }); ctx.stroke(); ctx.restore();
+}
+function panel(x, y, w, col, title, lines, a, size = 17) { K.card(x, y, w, 56 + lines.length * (size + 10) + 6, col, title, lines, a, size); }
+
+// ---------- 01 · ojo rojo: conjuntival vs ciliar ----------
+function ojorojo(t) {
+  L2t = t; K.title('Ojo rojo: ¿superficial o profundo?', 'Dónde está el rojo decide la conducta', C.RED);
+  frente(seg(t, 0, 0.7));
+  const conj = fade(t, 1.2, 11.4), swab = seg(t, 4.6, 1.2) * (1 - seg(t, 6, 0.8)), bl = ease(seg(t, 8.4, 2.2));
+  inAperture(() => { if (conj > 0) vesselsConj(conj * (1 - 0.92 * bl), 14 * Math.sin(swab * Math.PI * 3) * swab); });
+  dropper(...F(250, 215), 6.7, '#CFE8FF');
+  label('Inyección conjuntival: roja en la periferia', 330, 640, C.RED, ...F(180, 300), fade(t, 2.4, 9.2), 15);
+  label('Vasos móviles con el aplicador', 330, 600, C.AMBER, ...F(160, 330), fade(t, 4.8, 7.8), 15);
+  label('Blanquea con fenilefrina', 330, 640, C.GREEN, ...F(180, 300), fade(t, 9.4, 11.6), 15);
+  const hal = fade(t, 12.4, 25.5, 0.9), pul = 0.85 + 0.15 * Math.sin(t * 5);
+  inAperture(() => { if (hal > 0) haloCiliar(hal * pul); });
+  dropper(...F(250, 215), 16.4, '#CFE8FF');
+  label('Inyección ciliar: halo violáceo en el limbo', 330, 640, '#C23C8E', ...F(IC[0] - IR - 8, IC[1] + 20), fade(t, 13.2, 21), 15);
+  label('No blanquea ni se mueve', 330, 596, C.RED, ...F(IC[0] - IR - 14, IC[1] - 30), fade(t, 17.6, 22), 15);
+  panel(660, 140, 580, C.GREEN, 'Superficial: conjuntival', ['Rojo brillante, mayor en la periferia', 'Vasos móviles; blanquea con fenilefrina', 'Sin dolor real ni baja de visión'], seg(t, 1.6, 0.5));
+  panel(660, 300, 580, '#C23C8E', 'Profundo: ciliar', ['Halo violáceo pegado a la córnea', 'No se mueve ni blanquea', 'Uveítis, queratitis, glaucoma agudo'], seg(t, 12.6, 0.5));
+  K.card(660, 460, 580, 146, C.RED, 'Un solo signo basta para derivar', ['Baja visual · dolor real · pupila alterada', 'Córnea turbia · hipopión o hipema'], seg(t, 19.5, 0.5), 17);
+  K.banner(660, 630, 580, 'Jamás corticoides en un ojo rojo sin diagnóstico', C.AMBER, seg(t, 22.2, 0.5));
+}
+
+// ---------- 04 · fluoresceína: úlcera dendrítica y bacteriana ----------
+const SD = ([x, y]) => [380 + (x - 380) * 1.8, 288 + (y - 288) * 1.8];
+const DEND = [[352, 262], [372, 276], [388, 294], [404, 306], [424, 318]].map(SD);
+const BR = [[[372, 276], [366, 300], [356, 318]], [[388, 294], [402, 274], [414, 262]], [[404, 306], [394, 326], [386, 338]], [[372, 276], [356, 270], [340, 276]]].map(b => b.map(SD));
+const BULBS = [[424, 318], [356, 318], [414, 262], [386, 338], [340, 276]].map(SD);
+function fluoresceina(t) {
+  L2t = t; K.title('Fluoresceína: qué se tiñe en la córnea', 'Dolor corneal, blefarospasmo y fotofobia: se tiñe antes de tratar', C.BLUE);
+  frente(seg(t, 0, 0.7));
+  const blue = ease(seg(t, 4.2, 0.9)) * (1 - ease(seg(t, 13.8, 0.8))) + ease(seg(t, 15.4, 0.9)) * (1 - ease(seg(t, 24.2, 0.8)));
+  dropper(...F(380, 130), 1.6, '#FFC21A', 120);
+  // fluoresceína sobre la lágrima (amarillo suave)
+  const yel = fade(t, 3.2, 5.2, 0.8) * 0.25; if (yel > 0) inAperture(() => { ctx.fillStyle = `rgba(255,214,60,${yel})`; ctx.fillRect(FR.x, FR.y, FR.w, FR.h); });
+  // 1) dendrítica
+  const g1 = seg(t, 5, 3.8);
+  outAperture(() => { cobalto(blue);
+    if (g1 > 0 && t < 14.6) { const a = 1 - seg(t, 13.8, 0.8); const n = g1 * (DEND.length - 1);
+      glowPath(DEND.slice(0, Math.floor(n) + 2).map((p, i, arr) => i === arr.length - 1 && i > 0 ? [lerp(arr[i - 1][0], p[0], n % 1), lerp(arr[i - 1][1], p[1], n % 1)] : p), 5, '#B6FF3A', a);
+      BR.forEach((b, k) => { const kk = clamp(g1 * 1.4 - k * 0.25, 0, 1); if (kk > 0) glowPath([b[0], [lerp(b[0][0], b[1][0], kk), lerp(b[0][1], b[1][1], kk)], [lerp(b[0][0], b[2][0], kk), lerp(b[0][1], b[2][1], kk)]], 3.4, '#B6FF3A', a * kk); });
+      if (g1 > 0.8) BULBS.forEach(([x, y]) => { const [X, Y] = F(x, y); ctx.save(); ctx.globalAlpha = a * (g1 - 0.8) * 5; ctx.shadowColor = '#B6FF3A'; ctx.shadowBlur = 12; ctx.fillStyle = '#D6FF7A'; ctx.beginPath(); ctx.arc(X, Y, 5, 0, TAU); ctx.fill(); ctx.restore(); }); } });
+  label('Úlcera dendrítica: ramas con botones terminales', 330, 640, '#B6FF3A', ...F(...DEND[4]), fade(t, 8.6, 13.6), 15);
+  label('Herpes simple: la córnea pierde sensibilidad', 330, 596, C.AMBER, ...F(...DEND[0]), fade(t, 9.6, 13.4), 15);
+  // 2) bacteriana
+  const g2 = seg(t, 15.4, 2.4), hyp = ease(seg(t, 19, 1.6));
+  outAperture(() => { cobalto(blue);
+    if (t > 14.6) { ctx.save(); ctx.globalAlpha = g2;
+      const [x, y] = F(380, 330); const r = ctx.createRadialGradient(x, y, 0, x, y, 52 * FS);
+      r.addColorStop(0, 'rgba(255,252,235,0.95)'); r.addColorStop(0.7, 'rgba(255,238,170,0.6)'); r.addColorStop(1, 'rgba(255,238,170,0)'); ctx.fillStyle = r; ctx.beginPath(); ctx.arc(x, y, 52 * FS, 0, TAU); ctx.fill();
+      ctx.shadowColor = '#B6FF3A'; ctx.shadowBlur = 18; ctx.strokeStyle = '#B6FF3A'; ctx.lineWidth = 3.4; ctx.beginPath(); ctx.arc(x, y, 38 * FS, 0, TAU); ctx.stroke(); ctx.restore();
+      // hipopión: nivel de pus abajo, dentro del iris
+      if (hyp > 0) { ctx.save(); ctx.beginPath(); const [cx, cy] = F(...IC); ctx.arc(cx, cy, (IR - 4) * FS, 0, TAU); ctx.clip();
+        const top = cy + (IR - 4) * FS * (1 - 0.34 * hyp); ctx.fillStyle = `rgba(250,244,205,${0.92 * hyp})`; ctx.fillRect(cx - IR * FS, top, 2 * IR * FS, IR * FS); ctx.restore(); } } });
+  label('Infiltrado blanco con tinción difusa', 330, 640, '#FFE49A', ...F(380, 330), fade(t, 17.6, 24), 15);
+  label('Hipopión: nivel de pus', 330, 596, '#FFF3C4', ...F(380, 360), fade(t, 20.4, 24), 15);
+  panel(660, 140, 580, '#B6FF3A', 'Dendrítica: virus herpes simple', ['Aciclovir en pomada al 3 %, 5 veces al día', 'Nunca corticoides: úlcera geográfica'], seg(t, 6, 0.5));
+  panel(660, 270, 580, '#FFE49A', 'Bacteriana: lentes de contacto, Pseudomonas', ['Retirar y guardar los lentes para cultivo', 'Antibióticos reforzados, derivar el mismo día', 'Este ojo nunca se ocluye con parche'], seg(t, 17, 0.5));
+  K.card(660, 450, 580, 100, C.BLUE, 'Cómo se mira', ['Gota de fluoresceína + luz azul de cobalto', 'Lo que se tiñe es el epitelio que falta'], seg(t, 4.4, 0.5), 17);
+  K.banner(660, 600, 580, 'Jamás corticoides en una úlcera corneal', C.RED, seg(t, 22, 0.5));
+}
+
+// ---------- 05 · fenilefrina: epiescleritis vs escleritis ----------
+function esclera(kind, k, bl) {
+  // kind 'epi': cuña salmón temporal (izquierda de la imagen); 'esc': rojo violáceo profundo, más extenso
+  const [cx, cy] = F(...IC);
+  ctx.save();
+  const a0 = kind === 'epi' ? Math.PI * 0.82 : Math.PI * 0.74, a1 = kind === 'epi' ? Math.PI * 1.18 : Math.PI * 1.26;
+  const g = ctx.createRadialGradient(cx, cy, (IR + 4) * FS, cx, cy, 300 * FS);
+  if (kind === 'epi') { g.addColorStop(0, `rgba(240,110,90,${0.62 * k * (1 - 0.9 * bl)})`); g.addColorStop(1, `rgba(240,120,100,${0.15 * k * (1 - 0.9 * bl)})`); }
+  else { g.addColorStop(0, `rgba(130,30,95,${0.78 * k})`); g.addColorStop(1, `rgba(150,50,110,${0.35 * k})`); }
+  ctx.fillStyle = g; ctx.beginPath(); ctx.arc(cx, cy, 330 * FS, a0, a1); ctx.arc(cx, cy, (IR + 3) * FS, a1, a0, true); ctx.closePath(); ctx.fill();
+  // vasos finos
+  ctx.lineCap = 'round';
+  for (let i = 0; i < 16; i++) { const a = lerp(a0, a1, rnd(i + 40)), r0 = 300 * FS, r1 = (IR + 14 + rnd(i + 3) * 16) * FS;
+    ctx.strokeStyle = kind === 'epi' ? `rgba(224,60,64,${0.8 * k * (1 - 0.92 * bl)})` : `rgba(120,26,86,${0.55 * k})`; ctx.lineWidth = 1.8 * FS * 1.4;
+    ctx.beginPath(); ctx.moveTo(cx + Math.cos(a) * r0, cy + Math.sin(a) * r0 * 0.62); ctx.lineTo(cx + Math.cos(a) * r1, cy + Math.sin(a) * r1 * 0.62); ctx.stroke(); }
+  ctx.restore();
+}
+function fenilefrina(t) {
+  L2t = t; K.title('Prueba de fenilefrina', 'Una gota decide si el rojo es superficial o de la esclera', C.AMBER);
+  frente(seg(t, 0, 0.7));
+  const epi = fade(t, 1, 11.4), escA = fade(t, 12.4, 23.5, 0.8);
+  inAperture(() => { if (epi > 0) esclera('epi', epi, ease(seg(t, 6.6, 2.4))); if (escA > 0) esclera('esc', escA, 0); });
+  dropper(...F(250, 215), 4.4, '#CFE8FF'); dropper(...F(250, 215), 15.2, '#CFE8FF');
+  label('Epiescleritis: cuña roja salmón', 330, 640, '#F08A72', ...F(190, 290), fade(t, 1.8, 6.4), 15);
+  label('Blanquea: el plexo superficial responde', 330, 640, C.GREEN, ...F(190, 290), fade(t, 8.2, 11.6), 15);
+  label('Escleritis: rojo oscuro, violáceo', 330, 640, '#C23C8E', ...F(190, 290), fade(t, 13, 18.4), 15);
+  label('No blanquea: plexo profundo', 330, 596, C.RED, ...F(180, 300), fade(t, 17.6, 23.4), 15);
+  // dolor terebrante
+  const dol = fade(t, 14.2, 23.4, 0.8); if (dol > 0) { ctx.save(); ctx.globalAlpha = dol * (0.6 + 0.4 * Math.sin(t * 8)); ctx.strokeStyle = C.RED; ctx.lineWidth = 3; ctx.lineCap = 'round';
+    const [x, y] = F(120, 220); for (let i = 0; i < 5; i++) { const a = -0.9 + i * 0.45; ctx.beginPath(); ctx.moveTo(x + Math.cos(a) * 18, y + Math.sin(a) * 18); ctx.lineTo(x + Math.cos(a) * 36, y + Math.sin(a) * 36); ctx.stroke(); } ctx.restore(); }
+  panel(660, 140, 580, '#F08A72', 'Epiescleritis: benigna', ['Rojo salmón sectorial, molestia leve', 'Blanquea con fenilefrina', 'Se resuelve sola: lágrimas y, si molesta, AINE'], seg(t, 1.4, 0.5));
+  panel(660, 300, 580, '#C23C8E', 'Escleritis: amenaza el ojo', ['Dolor terebrante que despierta de noche', 'No blanquea: hay que estudiar una enfermedad sistémica', 'AINE orales o corticoides sistémicos, nunca solo colirios'], seg(t, 13, 0.5));
+  K.banner(660, 520, 580, 'Artritis reumatoide: la asociación más frecuente', C.AMBER, seg(t, 19.8, 0.5));
+}
+
+// =============== CORTE DEL OJO ===============
+const CR = { x: 36, y: 134, w: 0, h: 0 }, CS = 0.44, CX0 = 300, CY0 = 30;
+const Cc = (x, y) => [CR.x + (x - CX0) * CS, CR.y + (y - CY0) * CS];
+const RET = { c: [950, 660], r: 510 }, MAC = [685, 715], DISC = [500, 660], LENS = { c: [1118, 665], rx: 85, ry: 176 };
+function corte(a) {
+  const im = I('corte'), w = 1190 * CS, h = 1260 * CS; CR.w = w; CR.h = h;
+  ctx.save(); ctx.globalAlpha = a; rrect(CR.x - 6, CR.y - 6, w + 12, h + 12, 18, '#FFFFFF'); ctx.beginPath(); ctx.roundRect(CR.x, CR.y, w, h, 14); ctx.clip();
+  ctx.drawImage(im, CX0, CY0, 1190, 1260, CR.x, CR.y, w, h); ctx.restore();
+}
+function rayosEnfoque(k, scatter, focus, a = 1, spread = 90) {
+  // haces paralelos desde la derecha, convergen en `focus` (px de la imagen)
+  ctx.save(); ctx.globalAlpha = a; ctx.lineCap = 'round';
+  const N = 7;
+  for (let i = 0; i < N; i++) { const y = 665 + (i - (N - 1) / 2) * 24;
+    const xs = lerp(1500, lerp(1500, focus[0] + 0, 1), 0) , x0 = 1500, x1 = 1210;
+    const p0 = Cc(x0 - (1 - k) * 0, y), p1 = Cc(x1, y), pL = Cc(1035, y * 0.86 + focus[1] * 0.14);
+    const endX = lerp(1035, focus[0], k), endY = lerp(pL[1], Cc(0, focus[1])[1], k);
+    ctx.strokeStyle = 'rgba(255,214,30,0.9)'; ctx.lineWidth = 3;
+    ctx.shadowColor = 'rgba(255,214,30,0.9)'; ctx.shadowBlur = 8;
+    ctx.beginPath(); ctx.moveTo(...p0); ctx.lineTo(...p1); ctx.lineTo(...pL);
+    if (scatter > 0) { const sy = (rnd(i + 3) - 0.5) * 2 * spread * scatter, ex = Cc(focus[0] + 40 * (rnd(i) - 0.5), 0)[0];
+      ctx.lineTo(Cc(focus[0] + 260, 0)[0], Cc(0, focus[1] + sy * 0.4)[1]); ctx.strokeStyle = `rgba(255,214,30,${0.9 - 0.55 * scatter})`; }
+    else ctx.lineTo(...Cc(focus[0], focus[1]));
+    ctx.stroke(); }
+  ctx.restore();
+}
+function chart(x, y, w, h, blur, fog, a) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; rrect(x, y, w, h, 14, '#0B0F14');
+  ctx.beginPath(); ctx.roundRect(x, y, w, h, 14); ctx.clip(); rrect(x + 4, y + 4, w - 8, h - 8, 10, '#F4F1E6');
+  ctx.filter = `blur(${blur}px)`; ctx.fillStyle = '#16181C'; ctx.textAlign = 'center';
+  ctx.font = `bold ${h * 0.42}px "Liberation Sans", Arial`; ctx.fillText('E F P', x + w / 2, y + h * 0.58);
+  ctx.font = `bold ${h * 0.2}px "Liberation Sans", Arial`; ctx.fillText('T O Z  L P E D', x + w / 2, y + h * 0.9);
+  ctx.filter = 'none'; ctx.fillStyle = `rgba(235,235,225,${fog})`; ctx.fillRect(x, y, w, h); ctx.restore();
+}
+
+// ---------- 08 · catarata ----------
+function catarata(t) {
+  L2t = t; K.title('Catarata: el cristalino que se opaca', 'La luz llega dispersa a la retina; el tratamiento es quirúrgico', C.AMBER);
+  corte(seg(t, 0, 0.7));
+  const cloud = ease(seg(t, 6, 5)) * (1 - ease(seg(t, 21.5, 2.2))), shift = ease(seg(t, 13.5, 2)) * (1 - ease(seg(t, 16.5, 1.2)));
+  const phaco = seg(t, 17.8, 3.4), iol = ease(seg(t, 21.2, 1.8));
+  const [lx, ly] = Cc(...LENS.c);
+  // cristalino opaco
+  if (cloud > 0) { ctx.save(); ctx.globalAlpha = 0.9 * cloud; ctx.beginPath(); ctx.ellipse(lx, ly, LENS.rx * CS, LENS.ry * CS, 0, 0, TAU); ctx.clip();
+    const g = ctx.createRadialGradient(lx, ly, 0, lx, ly, LENS.ry * CS); g.addColorStop(0, 'rgba(236,228,196,1)'); g.addColorStop(0.6, 'rgba(222,212,176,0.95)'); g.addColorStop(1, 'rgba(208,196,150,0.9)');
+    ctx.fillStyle = g; ctx.fillRect(lx - 100, ly - 100, 200, 200); ctx.restore(); }
+  // rayos
+  const norm = 1 - cloud, sc = cloud > 0.04 ? cloud : 0, fx = 685 + shift * 330;
+  rayosEnfoque(1, sc, [fx, 715], 1, 120);
+  if (iol > 0) { ctx.save(); ctx.globalAlpha = iol; ctx.strokeStyle = 'rgba(120,200,255,0.95)'; ctx.lineWidth = 3; ctx.fillStyle = 'rgba(190,225,255,0.45)';
+    ctx.beginPath(); ctx.ellipse(lx - 4, ly, 30 * CS * 1.4, 150 * CS, 0, 0, TAU); ctx.fill(); ctx.stroke();
+    ctx.strokeStyle = 'rgba(120,200,255,0.9)'; ctx.lineWidth = 2.4; ctx.beginPath(); ctx.moveTo(lx - 4, ly - 150 * CS); ctx.quadraticCurveTo(lx - 12, ly - 172 * CS, lx + 10, ly - 178 * CS);
+    ctx.moveTo(lx - 4, ly + 150 * CS); ctx.quadraticCurveTo(lx - 12, ly + 172 * CS, lx + 10, ly + 178 * CS); ctx.stroke(); ctx.restore(); }
+  // sonda de facoemulsificación: entra por una microincisión corneal
+  if (phaco > 0 && phaco < 1) { const a = Math.min(1, phaco * 5, (1 - phaco) * 5), [ix, iy] = Cc(1446, 520), [tx, ty] = Cc(1176, 612);
+    const k = ease(seg(phaco, 0.1, 0.5)), px = lerp(ix, tx, k), py = lerp(iy, ty, k);
+    ctx.save(); ctx.globalAlpha = a; ctx.lineCap = 'round'; ctx.strokeStyle = '#4A525C'; ctx.lineWidth = 9; ctx.beginPath(); ctx.moveTo(ix + 70, iy - 56); ctx.lineTo(px, py); ctx.stroke();
+    ctx.strokeStyle = '#D5DBE1'; ctx.lineWidth = 5; ctx.stroke();
+    for (let i = 0; i < 3; i++) { const u = ((t * 1.6) + i / 3) % 1; ctx.strokeStyle = `rgba(120,200,255,${0.8 * (1 - u)})`; ctx.lineWidth = 2.4; ctx.beginPath(); ctx.arc(px, py, 6 + u * 24, 0, TAU); ctx.stroke(); }
+    ctx.restore(); }
+  label('Cristalino opaco: la luz se dispersa', 330, 640, '#E8D9A0', ...Cc(1118, 590), fade(t, 8.6, 13.4), 15);
+  label('Cámara anterior: microincisión corneal', 300, 600, C.BLUE, ...Cc(1446, 520), fade(t, 17.6, 21.4), 15);
+  label('Lente intraocular plegable', 330, 640, '#9ED8FF', ...Cc(1114, 560), fade(t, 22.2, 27.4), 15);
+  label('Miopización: el foco se adelanta', 330, 600, C.AMBER, ...Cc(900, 700), fade(t, 14.2, 18, 0.4), 15);
+  chart(40, 640, 190, 46, 0.1 + 6 * cloud, 0.5 * cloud, 1); text('Agudeza visual', 244, 668, 15, C.MUTED);
+  panel(660, 140, 580, '#E8D9A0', 'Clínica: baja lenta, bilateral e indolora', ['Deslumbramiento nocturno con luces de otros autos', 'Reflejo rojo atenuado con oftalmoscopio a 1 m'], seg(t, 6.2, 0.5));
+  panel(660, 270, 580, C.AMBER, 'La trampa: el présbita que vuelve a leer', ['El núcleo engrosado miopiza el ojo', 'Parece una mejoría, pero es la catarata avanzando'], seg(t, 13.6, 0.5));
+  panel(660, 400, 580, C.BLUE, 'Tratamiento: facoemulsificación', ['Ultrasonido fragmenta el cristalino y se aspira', 'Lente plegable; anestesia tópica, ambulatorio'], seg(t, 17.8, 0.5));
+  K.banner(660, 560, 580, 'No hay colirio que la prevenga ni la revierta', C.RED, seg(t, 21.8, 0.5));
+  K.banner(660, 622, 580, 'GES 21: AV igual o menor a 0,3, cirugía con plazo', C.GREEN, seg(t, 24.4, 0.5));
+}
+
+// ---------- 10 · desprendimiento de retina ----------
+const ang = a => [RET.c[0] + Math.cos(a) * RET.r, RET.c[1] + Math.sin(a) * RET.r];
+function retina(t) {
+  L2t = t; K.title('Desprendimiento de retina', 'Lo que pasa en el ojo y lo que ve el paciente', C.RED);
+  corte(seg(t, 0, 0.7));
+  const D2R = Math.PI / 180, th0 = -100 * D2R;
+  const tear = seg(t, 5, 0.8), prog = ease(seg(t, 8, 9)), th1 = lerp(th0, -196 * D2R, prog);
+  const mac = prog > 0.96 ? ease(seg(t, 17.2, 1.5)) : 0;
+  // vítreo que traciona
+  const strand = fade(t, 2, 6.4, 0.6); if (strand > 0) { ctx.save(); ctx.globalAlpha = strand; ctx.strokeStyle = 'rgba(255,255,255,0.8)'; ctx.lineWidth = 2.4;
+    const tp = Cc(...ang(th0)); for (let i = 0; i < 5; i++) { const [sx, sy] = Cc(1020 - i * 30, 330 + i * 40); ctx.beginPath(); ctx.moveTo(sx, sy);
+      ctx.quadraticCurveTo(lerp(sx, tp[0], 0.5) + Math.sin(t * 6 + i) * 3, lerp(sy, tp[1], 0.5) + 10, tp[0] + (i - 2) * 6 - Math.max(0, Math.sin(seg(t, 3.4, 2.4) * Math.PI)) * 12, tp[1] + 6 * seg(t, 3.4, 2.4)); ctx.stroke(); } ctx.restore(); }
+  // desgarro en herradura
+  if (tear > 0) { const [tx, ty] = Cc(...ang(th0 + 0.02)); ctx.save(); ctx.globalAlpha = tear; ctx.strokeStyle = '#FFFFFF'; ctx.lineWidth = 4; ctx.beginPath(); ctx.arc(tx, ty + 8, 12, Math.PI, TAU); ctx.stroke();
+    ctx.strokeStyle = '#7B0F20'; ctx.lineWidth = 2; ctx.stroke(); ctx.restore(); }
+  // retina despegada (banda levantada) y líquido subretiniano
+  if (prog > 0.01) { ctx.save(); const R = RET.r;
+    ctx.beginPath(); const steps = 40; for (let i = 0; i <= steps; i++) { const a = lerp(th0, th1, i / steps), lift = Math.sin(Math.PI * (i / steps) * 0.9 + 0.15) * 92 * (0.4 + 0.6 * prog); const [x, y] = Cc(RET.c[0] + Math.cos(a) * (R - 18 - lift), RET.c[1] + Math.sin(a) * (R - 18 - lift)); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }
+    for (let i = steps; i >= 0; i--) { const a = lerp(th0, th1, i / steps); const [x, y] = Cc(RET.c[0] + Math.cos(a) * (R - 18), RET.c[1] + Math.sin(a) * (R - 18)); ctx.lineTo(x, y); }
+    ctx.closePath(); ctx.fillStyle = 'rgba(255,214,120,0.85)'; ctx.fill();
+    ctx.lineJoin = 'round'; ctx.lineWidth = 11; ctx.strokeStyle = 'rgba(176,50,60,0.95)'; ctx.beginPath();
+    for (let i = 0; i <= steps; i++) { const a = lerp(th0, th1, i / steps), lift = Math.sin(Math.PI * (i / steps) * 0.9 + 0.15) * 92 * (0.4 + 0.6 * prog) + Math.sin(i * 1.3 + t * 2) * 2.2; const [x, y] = Cc(RET.c[0] + Math.cos(a) * (R - 18 - lift), RET.c[1] + Math.sin(a) * (R - 18 - lift)); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }
+    ctx.stroke(); ctx.restore(); }
+  // mácula
+  const [mx, my] = Cc(...MAC); ctx.save(); ctx.strokeStyle = prog > 0.96 ? C.RED : C.GREEN; ctx.lineWidth = 3; ctx.globalAlpha = 0.5 + 0.5 * Math.sin(t * 5) * (t > 14); ctx.setLineDash([6, 4]);
+  ctx.beginPath(); ctx.arc(mx, my, 20, 0, TAU); ctx.stroke(); ctx.restore();
+  label('Vítreo licuado que traciona', 340, 640, '#E5ECF2', ...Cc(980, 380), fade(t, 2.6, 6.2), 15);
+  label('Desgarro en herradura', 300, 600, C.AMBER, ...Cc(...ang(th0 + 0.02)), fade(t, 5.4, 10.4), 15);
+  label('Líquido entra bajo la retina', 330, 640, '#F5DCA0', ...Cc(...ang(-140 * D2R)), fade(t, 9.6, 15.6), 15);
+  label(mac > 0 ? 'Mácula desprendida: pronóstico reservado' : 'Mácula aplicada: operar en 24 a 48 horas', 330, 600, mac > 0 ? C.RED : C.GREEN, mx, my, fade(t, 13.4, 24.4), 15);
+  // campo visual del paciente
+  const fx = 900, fy = 450, fr = 150; rrect(fx - fr - 18, fy - fr - 44, fr * 2 + 36, fr * 2 + 62, 18, '#161B22'); text('Lo que ve el paciente', fx, fy - fr - 16, 18, C.INK, 'bold', 'center');
+  ctx.save(); ctx.beginPath(); ctx.arc(fx, fy, fr, 0, TAU); ctx.clip(); const sk = ctx.createLinearGradient(0, fy - fr, 0, fy + fr); sk.addColorStop(0, '#8FC4F0'); sk.addColorStop(1, '#D8E6C8'); ctx.fillStyle = sk; ctx.fillRect(fx - fr, fy - fr, 2 * fr, 2 * fr);
+  ctx.fillStyle = '#4C6A3C'; ctx.fillRect(fx - fr, fy + 30, 2 * fr, fr); ctx.fillStyle = '#6B8E50'; for (let i = 0; i < 5; i++) ctx.fillRect(fx - 130 + i * 56, fy + 30 - 36 - (i % 2) * 16, 34, 36 + (i % 2) * 16);
+  const flo = fade(t, 2, 24.4, 1); for (let i = 0; i < 9; i++) { ctx.globalAlpha = 0.75 * flo; ctx.fillStyle = '#1B1B1B'; const x = fx + Math.sin(t * 0.8 + i * 2.1) * 70 + (rnd(i) - 0.5) * 140, y = fy - 40 + Math.cos(t * 0.6 + i * 1.7) * 50 + (rnd(i + 7) - 0.5) * 60;
+    ctx.beginPath(); ctx.ellipse(x, y, 3 + rnd(i + 2) * 4, 2 + rnd(i + 5) * 2.5, rnd(i) * 3, 0, TAU); ctx.fill(); } ctx.globalAlpha = 1;
+  const fl = fade(t, 4, 10, 0.3); if (fl > 0) { const ph = (t * 3) % 1; for (let i = 0; i < 3; i++) { const a = -0.6 + i * 0.9 + Math.floor(t * 3) * 0.4, x = fx + Math.cos(a + 3.2) * 112, y = fy + Math.sin(a + 3.2) * 112;
+    ctx.globalAlpha = fl * (ph < 0.3 ? 1 : 0); K.glow(x, y, 34, '255,255,200', 0.95); } ctx.globalAlpha = 1; }
+  const cur = ease(seg(t, 9, 8.5)), curtain = fr * 2 * 0.55 * cur; if (cur > 0) { const g = ctx.createLinearGradient(0, fy + fr - curtain - 30, 0, fy + fr - curtain + 10); g.addColorStop(0, 'rgba(8,8,10,0)'); g.addColorStop(1, 'rgba(8,8,10,0.97)'); ctx.fillStyle = g; ctx.fillRect(fx - fr, fy + fr - curtain - 30, 2 * fr, curtain + 40); }
+  if (mac > 0) { ctx.save(); ctx.filter = 'blur(10px)'; ctx.fillStyle = `rgba(30,30,34,${0.9 * mac})`; ctx.beginPath(); ctx.arc(fx, fy - 6, 56 * mac + 10, 0, TAU); ctx.fill(); ctx.restore(); }
+  ctx.restore(); ctx.strokeStyle = '#2A3140'; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(fx, fy, fr, 0, TAU); ctx.stroke();
+  panel(660, 140, 300, C.AMBER, 'Pródromos', ['Moscas volantes', 'Destellos en la periferia'], seg(t, 4.2, 0.5), 16);
+  panel(660, 590, 580, C.RED, 'Ojo blanco, indoloro: cortina que avanza', ['Reposo, régimen cero y derivar de inmediato'], seg(t, 18.6, 0.5), 17);
+  K.banner(980, 150, 260, 'GES 22', C.GREEN, seg(t, 21.2, 0.5));
+}
+
+// =============== FONDO DE OJO ===============
+const FO = { x: 36, y: 134, w: 0, h: 0 }, OS = 1.45;
+const Fo = (x, y) => [FO.x + x * OS, FO.y + y * OS], FC = [194, 194], FR_ = 166, MACF = [155, 193], DISCF = [250, 192];
+function fondo(a) {
+  const [cx, cy] = Fo(...FC); ctx.save(); ctx.globalAlpha = a; ctx.beginPath(); ctx.arc(cx, cy, FR_ * OS, 0, TAU); ctx.clip();
+  ctx.drawImage(I('fondo'), FO.x, FO.y, 388 * OS, 388 * OS); ctx.restore();
+}
+function inFondo(fn) { const [cx, cy] = Fo(...FC); ctx.save(); ctx.beginPath(); ctx.arc(cx, cy, FR_ * OS, 0, TAU); ctx.clip(); fn(); ctx.restore(); }
+const ARC = {
+  sup: [[250, 190], [253, 160], [258, 135], [270, 122], [282, 106], [280, 85], [270, 66], [251, 55]],
+  supT: [[250, 190], [246, 168], [236, 153], [214, 148], [186, 144], [165, 136], [153, 118], [150, 95], [154, 70]],
+  inf: [[246, 206], [240, 226], [232, 246], [214, 262], [195, 274], [184, 290], [164, 298], [140, 295], [120, 290], [104, 278]],
+  infN: [[252, 204], [262, 236], [282, 248], [300, 240], [318, 226], [328, 202]],
+  tem: [[240, 201], [224, 212], [205, 226], [182, 238], [170, 250]],
+};
+function flame(x, y, s, a, rot = 0) { // hemorragia en llama
+  ctx.save(); ctx.translate(x, y); ctx.rotate(rot); ctx.globalAlpha *= a; ctx.fillStyle = '#7A0C14'; ctx.beginPath();
+  ctx.moveTo(-9 * s, 1.5 * s); ctx.quadraticCurveTo(-2 * s, -4.5 * s, 10 * s, 0); ctx.quadraticCurveTo(-2 * s, 5.5 * s, -9 * s, 1.5 * s); ctx.fill(); ctx.restore();
+}
+function cotton(x, y, s, a) { ctx.save(); ctx.globalAlpha *= a; const g = ctx.createRadialGradient(x, y, 0, x, y, 12 * s); g.addColorStop(0, 'rgba(255,252,240,0.95)'); g.addColorStop(1, 'rgba(255,252,240,0)'); ctx.fillStyle = g; ctx.fillRect(x - 14 * s, y - 14 * s, 28 * s, 28 * s); ctx.restore(); }
+function lineAlong(pts, k, w, col, a) { // trazo que sigue un vaso hasta la fracción k
+  const p = poly(pts.map(([x, y]) => Fo(x, y))); ctx.save(); ctx.globalAlpha = a; ctx.lineCap = 'round'; ctx.lineJoin = 'round'; p.stroke(ctx, 0, k, w, col); ctx.restore();
+}
+
+// ---------- 11 · oclusión arterial vs venosa ----------
+const HEMV = [[270, 112], [285, 150], [300, 118], [262, 140], [290, 175], [316, 150], [236, 148], [200, 150], [176, 140], [160, 120], [152, 150], [196, 230], [172, 245], [150, 262], [222, 268], [250, 270], [278, 258], [300, 232], [322, 214], [214, 244], [128, 232], [118, 160], [135, 196], [110, 190], [305, 195]];
+function oclusion(t) {
+  L2t = t; CRED = CRED_S; K.title('Oclusión vascular de la retina', 'Un mismo paciente indoloro: el fondo de ojo decide', C.RED);
+  fondo(seg(t, 0, 0.7));
+  const art = ease(seg(t, 1.6, 2.2)) * (1 - ease(seg(t, 12, 1.4)));
+  inFondo(() => { if (art > 0) { const [cx, cy] = Fo(...FC); ctx.fillStyle = `rgba(255,243,226,${0.74 * art})`; ctx.fillRect(FO.x, FO.y, 388 * OS, 388 * OS);
+      const [mx, my] = Fo(...MACF); const g = ctx.createRadialGradient(mx, my, 0, mx, my, 30 * OS * 0.7); g.addColorStop(0, `rgba(205,24,36,${0.97 * art})`); g.addColorStop(0.7, `rgba(205,24,36,${0.85 * art})`); g.addColorStop(1, 'rgba(205,24,36,0)'); ctx.fillStyle = g; ctx.beginPath(); ctx.arc(mx, my, 30 * OS * 0.7, 0, TAU); ctx.fill(); } });
+  const ven = ease(seg(t, 13.4, 2.4));
+  inFondo(() => { if (ven > 0) { const [dx, dy] = Fo(...DISCF); K.glow(dx, dy, 62, '255,235,200', 0.5 * ven);
+      HEMV.forEach(([x, y], i) => { const [X, Y] = Fo(x, y); flame(X, Y, 1.5 * OS * 0.8, clamp(ven * 1.6 - i * 0.03, 0, 1), (rnd(i + 3) - 0.5) * 1.6); });
+      [['sup', 0], ['supT', 0], ['inf', 0], ['infN', 0]].forEach(([k]) => lineAlong(ARC[k], ven, 6.5, `rgba(120,16,40,${0.7 * ven})`, 1)); cotton(...Fo(212, 170), 1.2 * OS * 0.8, ven); cotton(...Fo(190, 205), 1.0 * OS * 0.8, ven); } });
+  const mxy = Fo(...MACF), dxy = Fo(...DISCF);
+  label('Mancha rojo cereza sobre retina pálida', 360, 640, C.RED, mxy[0], mxy[1], fade(t, 3.4, 11.8), 15);
+  label('Fóvea sin capa ganglionar: nutrición coroidea', 360, 596, C.AMBER, mxy[0] + 8, mxy[1] + 10, fade(t, 6, 11.6), 15);
+  label('Hemorragias en llama en 4 cuadrantes', 360, 640, '#FF8A80', ...Fo(285, 140), fade(t, 15, 25.4), 15);
+  label('Papila edematosa y venas dilatadas', 360, 596, C.AMBER, dxy[0], dxy[1], fade(t, 17, 25.4), 15);
+  // visión del paciente (arterial: se apaga la pantalla)
+  panel(660, 140, 580, C.RED, 'Arterial (OACR): infarto de la retina', ['Pérdida catastrófica en segundos, DPAR', 'Émbolo carotídeo o cardíaco; en mayores, Horton', 'Rescate en menos de 6 horas: masaje y paracentesis'], seg(t, 2, 0.5));
+  panel(660, 330, 580, '#FF8A80', 'Venosa (OVCR): tormenta retiniana', ['Baja subaguda, menos profunda', 'Isquemia libera VEGF: neovasos en el iris', 'Glaucoma neovascular a los 100 días'], seg(t, 13.8, 0.5));
+  K.banner(660, 560, 580, 'Ambas indoloras, con el ojo blanco', C.AMBER, seg(t, 21, 0.5));
+  K.banner(660, 622, 580, 'Anti-VEGF o láser para evitar el neovascular', C.GREEN, seg(t, 23, 0.5));
+}
+
+// ---------- 13 · Keith-Wagener-Barker ----------
+function magnifier(cx, cy, r, srcX, srcY, srcR, a) { // lupa sobre la ilustración real
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.beginPath(); ctx.arc(cx, cy, r, 0, TAU); ctx.clip();
+  ctx.drawImage(I('fondo'), srcX - srcR, srcY - srcR, srcR * 2, srcR * 2, cx - r, cy - r, r * 2, r * 2); ctx.restore();
+  ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = '#F5F5F7'; ctx.lineWidth = 4; ctx.beginPath(); ctx.arc(cx, cy, r, 0, TAU); ctx.stroke(); ctx.restore();
+}
+function kwb(t) {
+  L2t = t; CRED = CRED_S; K.title('Retinopatía hipertensiva', 'Cuatro grados de Keith-Wagener-Barker', C.RED);
+  fondo(seg(t, 0, 0.7));
+  const g1 = fade(t, 1.2, 7.4, 0.6), g2 = fade(t, 7.6, 12.6, 0.6), g3 = fade(t, 13, 24, 0.7), g4 = seg(t, 18.6, 1.4);
+  inFondo(() => {
+    if (g1 > 0) { const k = ease(seg(t, 1.4, 2.4)); lineAlong(ARC.sup, k, 4.2, `rgba(255,170,60,${0.9 * g1})`, 1); lineAlong(ARC.supT, k, 4.2, `rgba(255,170,60,${0.9 * g1})`, 1); lineAlong(ARC.inf, k, 4.2, `rgba(255,170,60,${0.9 * g1})`, 1); }
+    if (g3 > 0) { const k = ease(seg(t, 13.2, 2));
+      [[272, 118], [255, 150], [300, 140], [236, 148], [186, 144], [160, 124], [196, 232], [226, 262], [282, 250], [310, 224]].forEach(([x, y], i) => flame(...Fo(x, y), 1.4 * OS * 0.8, clamp(k * 1.6 - i * 0.05, 0, 1) * g3, (rnd(i + 1) - 0.5) * 1.5));
+      cotton(...Fo(212, 168), 1.2, k * g3); cotton(...Fo(176, 215), 1.0, k * g3); cotton(...Fo(278, 204), 1.0, k * g3);
+      const [mx, my] = Fo(...MACF); for (let i = 0; i < 11; i++) { const a = i / 11 * TAU; ctx.globalAlpha = k * g3 * 0.9; ctx.fillStyle = '#F7E27A'; ctx.beginPath(); ctx.arc(mx + Math.cos(a) * 22, my + Math.sin(a) * 22, 3.2, 0, TAU); ctx.fill(); } ctx.globalAlpha = 1; }
+    if (g4 > 0) { const [dx, dy] = Fo(...DISCF); K.glow(dx, dy, 74 * g4, '255,240,215', 0.88); const g = ctx.createRadialGradient(dx, dy, 14, dx, dy, 46 * g4); g.addColorStop(0, 'rgba(255,230,190,0.55)'); g.addColorStop(1, 'rgba(255,230,190,0)'); ctx.fillStyle = g; ctx.fillRect(dx - 80, dy - 80, 160, 160);
+      for (let i = 0; i < 8; i++) { const a = i / 8 * TAU + 0.3; flame(dx + Math.cos(a) * 40, dy + Math.sin(a) * 40, 1.0, g4, a); } }
+  });
+  // lupa del cruce arteriovenoso (grado II)
+  const lupa = seg(t, 8, 0.6) * (1 - seg(t, 12, 0.6));
+  if (lupa > 0) { const [cx, cy] = Fo(222, 258); ctx.save(); ctx.globalAlpha = lupa; ctx.strokeStyle = C.AMBER; ctx.lineWidth = 2.5; ctx.setLineDash([6, 5]); ctx.beginPath(); ctx.arc(cx, cy, 20 * OS, 0, TAU); ctx.stroke(); ctx.restore();
+    magnifier(430, 470, 90, 222, 258, 22, lupa);
+    const kk = ease(seg(t, 8.8, 1.4)); ctx.save(); ctx.globalAlpha = lupa * kk; ctx.strokeStyle = C.AMBER; ctx.lineWidth = 3; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(410, 446); ctx.lineTo(430, 470); ctx.lineTo(412, 494); ctx.moveTo(450, 446); ctx.lineTo(430, 470); ctx.lineTo(448, 494); ctx.stroke(); ctx.restore();
+    label('Cruce AV: Gunn (vena que se afila) y Salus (se desvía)', 420, 580, C.AMBER, 430, 560, lupa, 14); }
+  label('Arteriolas estrechas: hilo de cobre', 360, 640, C.AMBER, ...Fo(258, 130), fade(t, 2.2, 7, 0.4), 15);
+  label('Hemorragias en llama, algodonosos, estrella macular', 340, 640, '#FF8A80', ...Fo(272, 118), fade(t, 14.4, 18.4, 0.4), 15);
+  label('Edema de papila bilateral', 360, 596, C.RED, ...Fo(...DISCF), fade(t, 19.6, 25.8, 0.4), 15);
+  // tabla de grados
+  const rows = [['I', 'Hilo de cobre: estrechamiento leve', C.AMBER, 1.4], ['II', 'Cruces AV patológicos: Gunn y Salus', C.AMBER, 7.6], ['III', 'Hemorragias y exudados algodonosos', '#FF8A80', 13.2], ['IV', 'Más edema de papila bilateral', C.RED, 18.6]];
+  rows.forEach(([g, s, col, t0], i) => { const a = seg(t, t0, 0.5); if (a > 0) { ctx.save(); ctx.globalAlpha = a; rrect(660, 140 + i * 78, 580, 66, 14, '#161B22'); ctx.fillStyle = col; ctx.fillRect(660, 140 + i * 78, 6, 66); text('Grado ' + g, 684, 180 + i * 78, 24, col, 'bold'); text(s, 806, 180 + i * 78, 18, C.INK); ctx.restore(); } });
+  K.card(660, 462, 580, 120, C.GREEN, 'Grados I a III: titular antihipertensivos orales', ['I y II en APS; III es urgencia hipertensiva'], seg(t, 14, 0.5), 17);
+  K.banner(660, 600, 580, 'Grado IV: UCI; bajar la PAM 20 a 25 % en 2 a 4 h', C.RED, seg(t, 21.4, 0.5));
+}
+
+// ---------- 14 · DMAE: seca vs húmeda + rejilla de Amsler ----------
+function amsler(cx, cy, s, warp, scot, a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(cx - s / 2 - 12, cy - s / 2 - 12, s + 24, s + 24, 14, '#F4F1E6');
+  ctx.strokeStyle = '#1B1B1B'; ctx.lineWidth = 1.6; const n = 12, step = s / n;
+  const wp = (x, y) => { const dx = x - cx, dy = y - cy, d = Math.hypot(dx, dy) + 1, f = Math.exp(-(d * d) / (2 * (s * 0.2) ** 2)); return [x + Math.sin(dy * 0.09) * 9 * warp * f * 1.4 + dx * -0.0 , y + Math.sin(dx * 0.09) * 9 * warp * f * 1.4]; };
+  for (let i = 0; i <= n; i++) { ctx.beginPath(); for (let j = 0; j <= 40; j++) { const [x, y] = wp(cx - s / 2 + i * step, cy - s / 2 + (j / 40) * s); j ? ctx.lineTo(x, y) : ctx.moveTo(x, y); } ctx.stroke();
+    ctx.beginPath(); for (let j = 0; j <= 40; j++) { const [x, y] = wp(cx - s / 2 + (j / 40) * s, cy - s / 2 + i * step); j ? ctx.lineTo(x, y) : ctx.moveTo(x, y); } ctx.stroke(); }
+  ctx.fillStyle = '#1B1B1B'; ctx.beginPath(); ctx.arc(cx, cy, 5, 0, TAU); ctx.fill();
+  if (scot > 0) { ctx.save(); ctx.filter = 'blur(6px)'; ctx.fillStyle = `rgba(20,20,24,${0.92 * scot})`; ctx.beginPath(); ctx.ellipse(cx + 8, cy + 2, 46 * scot, 38 * scot, 0.2, 0, TAU); ctx.fill(); ctx.restore(); }
+  ctx.restore();
+}
+function dmae(t) {
+  L2t = t; CRED = CRED_S; K.title('Degeneración macular asociada a la edad', 'Seca: drusas y atrofia. Húmeda: neovasos que sangran', C.AMBER);
+  fondo(seg(t, 0, 0.7));
+  const dr = ease(seg(t, 1.6, 4)), atr = ease(seg(t, 6.4, 3.4)) * (1 - ease(seg(t, 11.4, 0.9))), nv = ease(seg(t, 12.6, 3)), hem = ease(seg(t, 15.4, 2.4));
+  const [mx, my] = Fo(...MACF);
+  inFondo(() => {
+    const nd = Math.round(46 * dr * (1 - ease(seg(t, 11.4, 0.8)) * 0.4)); for (let i = 0; i < nd; i++) { const a = rnd(i) * TAU, r = Math.sqrt(rnd(i + 30)) * 24 * OS * 0.8, big = rnd(i + 5) > 0.7 ? 3.6 : 2.2;
+      ctx.fillStyle = `rgba(255,236,120,${0.95})`; ctx.beginPath(); ctx.arc(mx + Math.cos(a) * r, my + Math.sin(a) * r, big, 0, TAU); ctx.fill(); }
+    if (atr > 0) { const g = ctx.createRadialGradient(mx, my, 4, mx, my, 30 * OS * 0.75); g.addColorStop(0, `rgba(255,248,215,${0.96 * atr})`); g.addColorStop(1, 'rgba(255,248,215,0)'); ctx.fillStyle = g; ctx.beginPath(); ctx.arc(mx, my, 32 * OS * 0.75, 0, TAU); ctx.fill(); }
+    if (nv > 0) { ctx.strokeStyle = `rgba(190,24,40,${0.95 * nv})`; ctx.lineWidth = 2.6; ctx.lineCap = 'round';
+      for (let i = 0; i < 7; i++) { const a0 = rnd(i + 70) * TAU; ctx.beginPath(); ctx.moveTo(mx + Math.cos(a0) * 5, my + Math.sin(a0) * 5); for (let j = 1; j <= 5; j++) ctx.lineTo(mx + Math.cos(a0 + j * 0.5) * (5 + j * 5 * nv), my + Math.sin(a0 + j * 0.5) * (5 + j * 5 * nv) + Math.sin(j * 2 + i) * 3); ctx.stroke(); } }
+    if (hem > 0) { ctx.fillStyle = `rgba(110,10,22,${0.92 * hem})`; ctx.beginPath(); ctx.ellipse(mx + 6, my + 3, 20 * hem, 14 * hem, 0.3, 0, TAU); ctx.fill(); ctx.strokeStyle = `rgba(255,236,170,${0.75 * hem})`; ctx.lineWidth = 3; ctx.stroke(); }
+  });
+  label('Drusas: depósitos amarillos bajo la retina', 360, 640, '#F7E27A', mx, my - 14, fade(t, 3, 11, 0.5), 15);
+  label('Atrofia geográfica de la fóvea', 360, 596, '#FFF1C4', mx, my, fade(t, 7.4, 11.4, 0.5), 15);
+  label('Membrana neovascular coroidea', 360, 640, '#FF6B6B', mx - 4, my - 2, fade(t, 13.4, 19.6, 0.5), 15);
+  label('Hemorragia y líquido subretiniano', 360, 596, '#FF8A80', mx + 6, my + 3, fade(t, 16.2, 25, 0.5), 15);
+  const warp = ease(seg(t, 5, 6)) * 0.4 + ease(seg(t, 14.6, 4)) * 0.9, scot = ease(seg(t, 8.4, 3)) * 0.5 + ease(seg(t, 17.8, 3)) * 0.5;
+  text('Rejilla de Amsler', 940, 140, 19, C.INK, 'bold', 'center'); amsler(940, 288, 240, warp, scot, seg(t, 4, 0.6));
+  panel(660, 440, 285, '#F7E27A', 'Seca: 85 a 90 %', ['Lenta, años', 'AREDS 2 y no fumar'], seg(t, 6, 0.5), 16);
+  panel(955, 440, 285, '#FF6B6B', 'Húmeda: 10 a 15 %', ['Rápida, días', 'Anti-VEGF intravítreo'], seg(t, 14.2, 0.5), 16);
+  K.banner(660, 560, 580, 'Metamorfopsia y escotoma central; la periferia se conserva', C.AMBER, seg(t, 20, 0.5));
+  K.banner(660, 622, 580, 'No deja ciego del todo: el campo periférico queda intacto', C.GREEN, seg(t, 22.4, 0.5));
+}
+
+// =============== más ojo de frente ===============
+// ---------- 15 · globo abierto: pupila en gota, Seidel, concha de Fox ----------
+const WND = [IC[0] + 78, IC[1] - 62];
+function abierto(t) {
+  L2t = t; K.title('Sospecha de globo abierto', 'Se reconoce, se protege y no se toca', C.RED);
+  frente(seg(t, 0, 0.7));
+  const k = seg(t, 1.4, 1.6), fl = ease(seg(t, 8.2, 1)) * (1 - ease(seg(t, 14.2, 0.8))), shield = ease(seg(t, 17.4, 2));
+  outAperture(() => {
+    // pupila en gota apuntando a la herida
+    ctx.save(); ctx.globalAlpha = k; const [px, py] = F(...IC), [wx, wy] = F(...WND); ctx.fillStyle = '#05060A'; ctx.beginPath(); ctx.arc(px, py, (PR + 2) * FS, 0, TAU); ctx.fill();
+    const ang = Math.atan2(wy - py, wx - px), nx = Math.cos(ang), ny = Math.sin(ang), kx = -ny, ky = nx;
+    ctx.beginPath(); ctx.moveTo(px + kx * PR * FS, py + ky * PR * FS); ctx.lineTo(wx - nx * 6, wy - ny * 6); ctx.lineTo(px - kx * PR * FS, py - ky * PR * FS); ctx.closePath(); ctx.fill();
+    // herida corneal e iris herniado
+    ctx.strokeStyle = '#F4F1E6'; ctx.lineWidth = 2.6; ctx.beginPath(); ctx.moveTo(wx - 12 * kx, wy - 12 * ky); ctx.lineTo(wx + 12 * kx, wy + 12 * ky); ctx.stroke();
+    const g = ctx.createRadialGradient(wx, wy, 0, wx, wy, 11); g.addColorStop(0, '#2A1A12'); g.addColorStop(1, 'rgba(60,40,30,0.8)'); ctx.fillStyle = g; ctx.beginPath(); ctx.arc(wx, wy, 8, 0, TAU); ctx.fill(); ctx.restore();
+    cobalto(fl);
+    if (fl > 0) { ctx.save(); ctx.globalAlpha = fl; const [wx2, wy2] = F(...WND); ctx.shadowColor = '#B6FF3A'; ctx.shadowBlur = 14; ctx.strokeStyle = '#B6FF3A'; ctx.lineWidth = 8; ctx.lineCap = 'round';
+      const s = seg(t, 8.8, 4); ctx.beginPath(); ctx.moveTo(wx2, wy2); ctx.bezierCurveTo(wx2 + 8, wy2 + 40 * s, wx2 - 14, wy2 + 90 * s, wx2 - 6, wy2 + 150 * s); ctx.stroke(); ctx.restore(); }
+  });
+  // concha rígida fenestrada
+  if (shield > 0) { ctx.save(); clipSheet(FR); ctx.globalAlpha = shield; const cx = FR.x + FR.w * 0.5, cy = FR.y + 255, rx = 255, ry = 215;
+    ctx.fillStyle = 'rgba(190,200,210,0.5)'; ctx.strokeStyle = '#E8EEF3'; ctx.lineWidth = 8; ctx.beginPath(); ctx.ellipse(cx, cy, rx, ry, 0, 0, TAU); ctx.fill(); ctx.stroke();
+    ctx.fillStyle = 'rgba(14,17,22,0.75)'; for (let i = 0; i < 9; i++) { const a = i / 9 * TAU; ctx.beginPath(); ctx.arc(cx + Math.cos(a) * 80, cy + Math.sin(a) * 56, 9, 0, TAU); ctx.fill(); } ctx.beginPath(); ctx.arc(cx, cy, 11, 0, TAU); ctx.fill();
+    ctx.strokeStyle = 'rgba(245,245,247,0.85)'; ctx.lineWidth = 14; ctx.beginPath(); ctx.moveTo(cx - rx - 20, cy - 120); ctx.lineTo(cx - rx + 34, cy + 60); ctx.moveTo(cx + rx + 20, cy - 120); ctx.lineTo(cx + rx - 34, cy + 60); ctx.stroke(); ctx.restore(); }
+  label('Pupila en gota apunta a la herida', 330, 640, C.RED, ...F(...WND), fade(t, 2.4, 8, 0.4), 15);
+  label('Iris herniado por la herida', 330, 596, C.AMBER, ...F(WND[0] + 4, WND[1] - 2), fade(t, 3.6, 8, 0.4), 15);
+  label('Signo de Seidel: río verde de humor acuoso', 330, 640, '#B6FF3A', ...F(WND[0] - 4, WND[1] + 60), fade(t, 10, 15, 0.4), 15);
+  label('Concha rígida: apoya en el reborde óseo', 330, 640, C.GREEN, ...F(170, 380), fade(t, 18.6, 25, 0.4), 15);
+  panel(660, 140, 580, C.RED, 'Certezas y sospechas', ['Pupila en gota, cámara anterior anormal, ojo blando', 'Seidel positivo, tejido uveal o vítreo visible', 'Hemorragia subconjuntival en 360° tras un golpe'], seg(t, 2.2, 0.5));
+  panel(660, 300, 580, C.RED, 'Prohibido', ['Palpar o medir la presión intraocular', 'Pomadas, colirios o parche compresivo', 'Resonancia si hay cuerpo extraño metálico'], seg(t, 10.2, 0.5));
+  panel(660, 460, 580, C.GREEN, 'Obligatorio', ['Concha rígida, régimen cero, antiemético', 'TAC de órbita, antibiótico EV y antitetánica'], seg(t, 18.2, 0.5));
+  K.banner(660, 600, 580, 'Cirugía en las primeras 24 horas · GES 48', C.AMBER, seg(t, 22.6, 0.5));
+}
+
+// ---------- 02 · cuatro conjuntivitis ----------
+function conjuntivitis(t) {
+  L2t = t; K.title('Conjuntivitis: un dato por cada una', 'Secreción, prurito y adenopatía separan las cuatro formas', C.BLUE);
+  frente(seg(t, 0, 0.7));
+  const q = [[1.2, 6.4], [7.2, 12.6], [13.4, 18.6], [19.4, 25.5]], cur = q.findIndex(([a, b]) => t >= a && t < b);
+  const fadeQ = i => fade(t, q[i][0], q[i][1], 0.5);
+  inAperture(() => {
+    const base = Math.max(fadeQ(0), fadeQ(1), fadeQ(2), fadeQ(3)); if (base > 0) vesselsConj(base * (fadeQ(2) > 0 ? 0.7 : 1));
+    // 0 bacteriana: secreción mucopurulenta
+    const b = fadeQ(0); if (b > 0) { ctx.globalAlpha = b; ctx.fillStyle = 'rgba(238,214,96,0.9)'; for (let i = 0; i < 14; i++) { const [x, y] = F(150 + i * 28 + rnd(i) * 10, 340 + Math.sin(i) * 6 + (i > 6 ? 4 : 0)); ctx.beginPath(); ctx.ellipse(x, y, 11 + rnd(i + 2) * 8, 4 + rnd(i + 4) * 3, 0.2, 0, TAU); ctx.fill(); } ctx.globalAlpha = 1; }
+    // 1 viral: lágrima acuosa y folículos
+    const v = fadeQ(1); if (v > 0) { ctx.globalAlpha = v * 0.8; ctx.strokeStyle = 'rgba(190,225,255,0.95)'; ctx.lineWidth = 3; ctx.beginPath(); const [x0, y0] = F(190, 340); ctx.moveTo(x0, y0); for (let i = 1; i <= 24; i++) { const [x, y] = F(190 + i * 16, 366 + Math.sin(i * 0.7) * 3); ctx.lineTo(x, y); } ctx.stroke();
+      ctx.fillStyle = 'rgba(255,220,225,0.9)'; for (let i = 0; i < 12; i++) { const [x, y] = F(170 + i * 36, 372 + Math.sin(i * 1.7) * 5); ctx.beginPath(); ctx.arc(x, y, 5, 0, TAU); ctx.fill(); } ctx.globalAlpha = 1; }
+    // 2 alérgica: quemosis gelatinosa
+    const a = fadeQ(2); if (a > 0) { const [cx, cy] = F(...IC); ctx.globalAlpha = a * 0.85; const g = ctx.createRadialGradient(cx, cy, (IR + 4) * FS, cx, cy, (IR + 60) * FS); g.addColorStop(0, 'rgba(255,205,215,0.85)'); g.addColorStop(1, 'rgba(255,205,215,0)'); ctx.fillStyle = g; ctx.fillRect(FR.x, FR.y, FR.w, FR.h); ctx.globalAlpha = 1; }
+    // 3 gonocócica: chorro purulento y quemosis severa
+    const g3 = fadeQ(3); if (g3 > 0) { const [cx, cy] = F(...IC); ctx.globalAlpha = g3 * 0.9; ctx.fillStyle = 'rgba(224,200,96,0.95)';
+      for (let i = 0; i < 22; i++) { const u = ((t * 0.9) + i / 22) % 1, x = cx - 120 * FS + (i % 6) * 40 * FS + rnd(i) * 20, y = cy + 90 * FS + u * 90 * FS; ctx.beginPath(); ctx.arc(x, y, 6 + rnd(i + 3) * 6, 0, TAU); ctx.fill(); }
+      const g = ctx.createRadialGradient(cx, cy, (IR + 4) * FS, cx, cy, (IR + 80) * FS); g.addColorStop(0, 'rgba(255,170,180,0.95)'); g.addColorStop(1, 'rgba(255,170,180,0)'); ctx.fillStyle = g; ctx.fillRect(FR.x, FR.y, FR.w, FR.h); ctx.globalAlpha = 1; }
+  });
+  const nodo = fadeQ(1); if (nodo > 0) { const [x, y] = F(70, 440); ctx.save(); ctx.globalAlpha = nodo; K.glow(x, y, 34, '255,120,100', 0.8); ctx.fillStyle = '#E65A4E'; ctx.beginPath(); ctx.arc(x, y, 10, 0, TAU); ctx.fill(); ctx.restore(); label('Ganglio preauricular doloroso', 330, 640, C.RED, x, y, nodo, 15); }
+  label('Secreción mucopurulenta: pestañas pegadas', 330, 640, '#EED660', ...F(300, 345), fadeQ(0), 15);
+  label('Secreción acuosa y folículos', 330, 596, '#BEE1FF', ...F(300, 368), fadeQ(1), 15);
+  label('Prurito intenso y quemosis', 330, 640, '#FFCDD7', ...F(240, 250), fadeQ(2), 15);
+  label('Chorro purulento: perfora la córnea', 330, 640, '#E0C860', ...F(300, 380), fadeQ(3), 15);
+  panel(660, 140, 580, '#EED660', 'Bacteriana: mucopurulenta', ['Cloranfenicol o ciprofloxacino cada 4 h, 7 días', 'Derivar si no responde en 48 a 72 horas'], seg(t, 1.6, 0.5));
+  panel(660, 270, 580, '#BEE1FF', 'Viral (adenovirus): acuosa + ganglio', ['Soporte: compresas frías y lágrimas', 'Reposo 7 a 10 días por el contagio'], seg(t, 7.6, 0.5));
+  panel(660, 400, 580, '#FFCDD7', 'Alérgica: prurito bilateral', ['Olopatadina cada 12 horas', 'Corticoides solo con oftalmólogo'], seg(t, 13.8, 0.5));
+  K.card(660, 530, 580, 80, C.RED, 'Gonocócica: ceftriaxona sistémica y hospitalizar', [], seg(t, 19.8, 0.5), 17);
+  K.banner(660, 630, 580, 'Nunca solo colirio: el gonococo perfora la córnea', C.RED, seg(t, 22.4, 0.5));
+}
+
+// ---------- 03 · dónde está cada lesión del párpado ----------
+function parpado(t) {
+  L2t = t; K.title('Párpado: cuatro lesiones, cuatro sitios', 'La localización y el dolor dan el diagnóstico', C.AMBER);
+  frente(seg(t, 0, 0.7));
+  const o = fade(t, 1.4, 6.6, 0.6), c = fade(t, 7.4, 12.8, 0.6), b = fade(t, 13.4, 18.4, 0.6), d = fade(t, 19.2, 25.4, 0.6);
+  outAperture(() => {
+    if (o > 0) { const [x, y] = F(290, 206); ctx.globalAlpha = o; K.glow(x, y, 44, '255,60,50', 0.55); ctx.fillStyle = '#D93A3A'; ctx.beginPath(); ctx.ellipse(x, y, 16, 12, 0.2, 0, TAU); ctx.fill(); ctx.fillStyle = '#F7E27A'; ctx.beginPath(); ctx.arc(x + 1, y - 2, 4.5, 0, TAU); ctx.fill(); ctx.globalAlpha = 1; }
+    if (c > 0) { const [x, y] = F(470, 168); ctx.globalAlpha = c; const g = ctx.createRadialGradient(x - 4, y - 4, 2, x, y, 24); g.addColorStop(0, 'rgba(236,200,170,0.95)'); g.addColorStop(1, 'rgba(206,150,120,0.78)'); ctx.fillStyle = g; ctx.beginPath(); ctx.ellipse(x, y, 25, 19, 0, 0, TAU); ctx.fill(); ctx.strokeStyle = 'rgba(120,80,60,0.55)'; ctx.lineWidth = 1.5; ctx.stroke(); ctx.globalAlpha = 1; }
+    if (b > 0) { ctx.globalAlpha = b; for (let i = 0; i < 70; i++) { const u = i / 70, [x, y] = F(lerp(150, 590, u) + rnd(i) * 8, 0); const m = UPPER.reduce((best, p) => Math.abs(p[0] - lerp(150, 590, u)) < Math.abs(best[0] - lerp(150, 590, u)) ? p : best, UPPER[0]);
+        const [X, Y] = F(lerp(150, 590, u) + rnd(i) * 6, m[1] - 8 + rnd(i + 8) * 10); ctx.fillStyle = 'rgba(250,246,236,0.95)'; ctx.beginPath(); ctx.ellipse(X, Y, 3.4, 1.8, rnd(i) * 3, 0, TAU); ctx.fill(); }
+      ctx.strokeStyle = 'rgba(220,70,70,0.7)'; ctx.lineWidth = 4; ctx.beginPath(); UPPER.forEach(([x, y], i) => { const [X, Y] = F(x, y - 2); i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); }); ctx.stroke(); ctx.globalAlpha = 1; }
+    if (d > 0) { const [x, y] = F(584, 392); ctx.globalAlpha = d; K.glow(x, y, 54, '255,60,50', 0.6 * (0.8 + 0.2 * Math.sin(t * 5))); const g = ctx.createRadialGradient(x, y, 2, x, y, 36); g.addColorStop(0, 'rgba(220,60,60,0.9)'); g.addColorStop(1, 'rgba(220,60,60,0.45)'); ctx.fillStyle = g; ctx.beginPath(); ctx.ellipse(x, y, 40, 34, 0.3, 0, TAU); ctx.fill();
+      const pus = fade(t, 22.4, 25.4, 0.3); if (pus > 0) { const [px, py] = F(604, 340); ctx.globalAlpha = pus; ctx.fillStyle = '#EED660'; ctx.beginPath(); ctx.arc(px, py + 14 * ((t * 2) % 1), 4, 0, TAU); ctx.fill(); } ctx.globalAlpha = 1; }
+  });
+  label('Orzuelo: nódulo rojo y doloroso en la base de la pestaña', 330, 640, C.RED, ...F(290, 206), o, 15);
+  label('Chalazión: nódulo firme, indoloro, sin enrojecimiento', 330, 640, '#E0C0A0', ...F(470, 168), c, 15);
+  label('Blefaritis: escamas en la base de las pestañas', 330, 640, '#F4F1E6', ...F(250, 226), b, 15);
+  label('Dacriocistitis: canto interno rojo y tenso', 330, 640, C.RED, ...F(584, 392), d, 15);
+  panel(660, 140, 580, C.RED, 'Orzuelo: infección aguda (estafilococo)', ['Compresas tibias y pomada antibiótica', 'No se punciona de forma precoz'], seg(t, 1.6, 0.5));
+  panel(660, 270, 580, '#E0C0A0', 'Chalazión: retención de Meibomio', ['Calor local y masaje', 'Curetaje o triamcinolona si pasa de 2 meses'], seg(t, 7.6, 0.5));
+  panel(660, 400, 580, '#F4F1E6', 'Blefaritis: crónica y bilateral', ['Higiene palpebral con champú neutro', 'Doxiciclina si hay rosácea'], seg(t, 13.6, 0.5));
+  panel(660, 530, 580, C.RED, 'Dacriocistitis aguda', ['Antibiótico oral; jamás sondar en fase aguda'], seg(t, 19.4, 0.5));
+}
+
+// ---------- 16 · álcali vs ácido en la córnea ----------
+const QR = { x: 40, y: 134, w: 0, h: 0 }, QS = 0.66, QSX = 1000, QSY = 250;   // recorte del segmento anterior del corte
+const Q = (x, y) => [QR.x + (x - QSX) * QS, QR.y + (y - QSY) * QS];
+function quimica(t) {
+  L2t = t; K.title('Quemadura química ocular', 'Álcali que penetra contra ácido que coagula', C.RED);
+  const im = I('corte'); QR.w = 500 * QS; QR.h = 800 * QS;
+  ctx.save(); rrect(QR.x - 6, QR.y - 6, QR.w + 12, QR.h + 12, 18, '#FFFFFF'); ctx.beginPath(); ctx.roundRect(QR.x, QR.y, QR.w, QR.h, 14); ctx.clip(); ctx.globalAlpha = seg(t, 0, 0.7);
+  ctx.drawImage(im, QSX, QSY, 500, 800, QR.x, QR.y, QR.w, QR.h);
+  const alk = seg(t, 1.6, 8) * (1 - seg(t, 12.6, 0.8)), acid = seg(t, 14, 3) * (1 - seg(t, 25.5, 0.6));
+  // álcali: onda que atraviesa la córnea y llega a iris y cristalino
+  if (alk > 0) { const front = lerp(1480, 1090, ease(seg(t, 1.6, 8))); const [fx] = Q(front, 0); const [rx] = Q(1500, 0);
+    const g = ctx.createLinearGradient(fx, 0, rx, 0); g.addColorStop(0, 'rgba(120,70,230,0.0)'); g.addColorStop(0.15, 'rgba(120,70,230,0.55)'); g.addColorStop(1, 'rgba(90,40,200,0.75)');
+    ctx.globalAlpha = alk; ctx.fillStyle = g; ctx.fillRect(fx, QR.y, rx - fx, QR.h); ctx.globalAlpha = 1; }
+  if (acid > 0) { const [ex] = Q(1452, 0), [e2] = Q(1478, 0); ctx.globalAlpha = acid; ctx.fillStyle = 'rgba(255,255,250,0.95)'; ctx.fillRect(ex, QR.y, e2 - ex, QR.h); const [wx] = Q(1420, 0); const g = ctx.createLinearGradient(wx, 0, ex, 0); g.addColorStop(0, 'rgba(255,120,60,0)'); g.addColorStop(1, 'rgba(255,120,60,0.45)'); ctx.fillStyle = g; ctx.fillRect(wx, QR.y, ex - wx, QR.h); ctx.globalAlpha = 1; }
+  // irrigación
+  const irr = fade(t, 7.6, 12.6, 0.6) + fade(t, 20.4, 25.4, 0.6); if (irr > 0) { ctx.globalAlpha = Math.min(1, irr); ctx.fillStyle = 'rgba(150,215,255,0.9)'; for (let i = 0; i < 26; i++) { const u = ((t * 1.3) + i / 26) % 1; const [x, y] = Q(1440 + rnd(i) * 40, 280 + u * 340 + rnd(i + 2) * 40); ctx.beginPath(); ctx.arc(x, y, 3.4, 0, TAU); ctx.fill(); } ctx.globalAlpha = 1; }
+  ctx.restore();
+  text('Córnea', ...Q(1432, 330), 14, '#1B2230', 'bold', 'center');
+  label('Álcali: saponifica y penetra en minutos', 440, 640, '#8E5CFF', ...Q(1450, 650), fade(t, 2.2, 8.4, 0.5), 15);
+  label('Cámara anterior, iris y cristalino dañados', 400, 596, C.RED, ...Q(1300, 520), fade(t, 6, 12.2, 0.5), 15);
+  label('Ácido: coagula y forma una escara', 440, 640, C.AMBER, ...Q(1464, 600), fade(t, 14.4, 25.4, 0.5), 15);
+  label('La escara frena el avance', 400, 596, C.GREEN, ...Q(1440, 560), fade(t, 17.4, 25.4, 0.5), 15);
+  // pH
+  const ph = lerp(13, 7.2, ease(seg(t, 7.6, 5))); const ph2 = lerp(2, 7.2, ease(seg(t, 20.4, 5)));
+  const shown = t < 14 ? ph : ph2; K.bar(660, 168, 580, 'pH de la superficie ocular', shown, 14, '', shown > 8 ? '#8E5CFF' : shown < 6 ? C.AMBER : C.GREEN, [[7.25, '7 a 7,5']], v => v.toFixed(1));
+  panel(660, 230, 580, C.RED, 'Se lava primero, se pregunta después', ['Anestésico tópico para vencer el blefarospasmo', 'Suero o Ringer: 1 a 2 litros en 20 a 30 minutos', 'Evertir los párpados y barrer los fondos de saco'], seg(t, 3, 0.5));
+  panel(660, 410, 580, '#8E5CFF', 'Álcali (soda, cal, cemento, amoníaco)', ['Necrosis por licuefacción: sigue penetrando', 'Siempre más grave que un ácido'], seg(t, 2.4, 0.5));
+  panel(660, 410, 580, C.AMBER, 'Ácido (batería, muriático)', ['Necrosis por coagulación: escara protectora', 'Excepción: el ácido fluorhídrico penetra'], seg(t, 14.4, 0.5));
+  K.banner(660, 560, 580, 'Meta: pH 7 a 7,5; medir de nuevo a los 10 minutos', C.GREEN, seg(t, 10.4, 0.5));
+  K.banner(660, 622, 580, 'Pronóstico: isquemia límbica (ojo blanco porcelana)', C.RED, seg(t, 22, 0.5));
+}
+
+</script>
+<script>
+const SCN = {
+  ojorojo: { f: ojorojo, dur: 26, img: 'frente' }, fluoresceina: { f: fluoresceina, dur: 26, img: 'frente' }, fenilefrina: { f: fenilefrina, dur: 25, img: 'frente' },
+  catarata: { f: catarata, dur: 28.5, img: 'corte' }, retina: { f: retina, dur: 26, img: 'corte' }, oclusion: { f: oclusion, dur: 26, img: 'fondo' },
+  kwb: { f: kwb, dur: 27, img: 'fondo' }, dmae: { f: dmae, dur: 26, img: 'fondo' }, abierto: { f: abierto, dur: 26, img: 'frente' },
+  conjuntivitis: { f: conjuntivitis, dur: 26, img: 'frente' }, parpado: { f: parpado, dur: 26, img: 'frente' }, quimica: { f: quimica, dur: 27, img: 'corte' },
+};
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+AUTO = V !== 'quimica' && SCN[V].img !== 'fondo';
+window.render = function (t) { CRED = (SCN[V].img === 'fondo') ? CRED_S : CRED_B; ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({ frente: '../assets/oftal/ojo_frente.png', corte: '../assets/oftal/ojo_corte.png', fondo: '../assets/oftal/fondo_ojo.png' });
+</script>
+</body></html>

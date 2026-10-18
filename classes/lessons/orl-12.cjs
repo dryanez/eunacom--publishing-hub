@@ -34,7 +34,8 @@ module.exports = {
       ],
       steps: [
         { show: ['tr'], note: 'Epistaxis, edema, laterorrinia, crepitación',
-          say: 'La fractura nasal es la fractura facial más frecuente. Se manifiesta con epistaxis inicial, dolor, edema, desviación del dorso hacia un lado, que se llama laterorrinia, y crepitación ósea al palpar con cuidado. Ojo con esto: el diagnóstico y la indicación de cirugía son clínicos. La radiografía de huesos propios tiene valor médico-legal, pero no decide la conducta.' },
+          say: 'La fractura nasal es la fractura facial más frecuente. Se manifiesta con epistaxis inicial, dolor, edema, desviación del dorso hacia un lado, que se llama laterorrinia, y crepitación ósea al palpar con cuidado. Ojo con esto: el diagnóstico y la indicación de cirugía son clínicos. La radiografía de huesos propios tiene valor médico-legal, pero no decide la conducta. Mira esta fractura de los huesos propios: el dorso nasal desplazado hacia la derecha, la laterorrinia.',
+          photo: { src: 'biblioteca/17_otorrino/orl-12/01_fractura-huesos-nasales-desviacion__bailey-love_p738.jpg', label: 'Laterorrinia tras un golpe', at: 'Mira esta fractura', credit: 'Bailey & Love 27.ª ed., Fig. 46.37' } },
         { show: ['he', 'is'], note: 'El cartílago septal no tiene vasos propios',
           say: 'Pero lo que se pregunta no es la fractura, es lo que se esconde detrás. Si el golpe rompe vasos submucosos, la sangre se acumula entre el cartílago cuadrangular y el pericondrio. Y el cartílago septal no tiene irrigación propia: se nutre por difusión desde ese pericondrio. Si la sangre lo despega, lo deja sin alimento.' },
         { show: ['ne', 'ab'], note: 'Dos desenlaces malos',
@@ -45,13 +46,28 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El hematoma que mata al cartílago',
+      images: [
+        { src: 'animaciones/orl-12/A1_hematoma_septal_a_silla_de_montar.mp4', label: 'Hematoma septal: del golpe a la nariz en silla de montar', credit: 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'La sangre bajo el pericondrio deja sin alimento al cartílago',
+          say: 'Mira el tabique. Después del golpe, la sangre se acumula entre el cartílago y su pericondrio, y abulta las dos fosas. El cartílago septal no tiene vasos propios: se nutre por difusión desde ese pericondrio, y si la sangre lo despega, en veinticuatro a cuarenta y ocho horas se necrosa. Queda la nariz en silla de montar, o un absceso. Por eso se drena de urgencia, no se observa ni se punciona.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Hematoma septal',
       title: 'Cómo se reconoce',
       cards: [
         { title: 'Rinoscopía anterior', tag: 'Obligatoria en todo trauma', kind: 'key', items: [
           { t: 'Abombamiento fluctuante y violáceo', d: 'Blando al tacto, ocluye ambas fosas',
-            say: 'En todo paciente con trauma nasal tienes que hacer una rinoscopía anterior. Lo que buscas es un abombamiento del tabique, fluctuante, rojo violáceo o azulado, blando al tacto, habitualmente bilateral, que tapa las fosas nasales.' },
+            say: 'En todo paciente con trauma nasal tienes que hacer una rinoscopía anterior. Lo que buscas es un abombamiento del tabique, fluctuante, rojo violáceo o azulado, blando al tacto, habitualmente bilateral, que tapa las fosas nasales. Mira esta nariz desde abajo: el tabique abultado, rojo violáceo, ocupa las dos fosas.',
+            photo: { src: 'biblioteca/17_otorrino/orl-12/02_hematoma-septal-bilateral__commons.jpg', label: 'Hematoma septal bilateral', at: 'Mira esta nariz desde abajo', credit: 'Wikimedia Commons, CC BY-SA 4.0' } },
           { t: 'Tras el golpe: obstrucción y dolor', d: 'Si tarda, aparece fiebre',
             say: 'El paciente cuenta un golpe, y después obstrucción nasal y dolor. Si pasan los días sin drenarlo, aparece la fiebre, y ahí ya es un absceso.' },
         ] },
@@ -65,16 +81,24 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Fractura de huesos propios',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-12/01_fractura-huesos-nasales-desviacion__bailey-love_p738.jpg', label: 'Fractura de huesos propios: el dorso nasal desviado hacia la derecha', credit: 'Bailey & Love 27.ª ed., Fig. 46.37' },
-      ],
-      steps: [
-        { note: 'Laterorrinia tras un golpe',
-          say: 'Esta es una fractura de los huesos propios con desplazamiento del dorso nasal hacia la derecha. Fíjate en la desviación visible: es la laterorrinia. Pero recuerda que una nariz deformada, por sí sola, no es la urgencia. La urgencia es lo que no se ve desde afuera, el hematoma del tabique, y para eso necesitas la rinoscopía.' },
+      type: 'points',
+      kicker: 'Hematoma nasoseptal',
+      title: 'Hematoma nasoseptal: qué haces tú y qué hace el especialista',
+      cards: [
+        { title: 'Cuándo lo sospechas', tag: 'Trauma nasal', kind: 'alert', items: [
+          { t: 'Obstrucción bilateral y tabique abultado', d: 'Rojo-azulado, blando; no se retrae con descongestionante',
+            say: 'El drenaje del hematoma nasoseptal no lo haces tú: se deriva, y con urgencia. Lo que haces es sospecharlo ante un trauma nasal con obstrucción en las dos fosas y un abultamiento rojo azulado y blando del tabique que no se retrae con descongestionante.' },
+        ] },
+        { title: 'Mientras se traslada', tag: 'Tu conducta', kind: 'key', items: [
+          { t: 'Analgesia, hielo, cabecera elevada', d: 'Y antibiótico profiláctico: amoxicilina con clavulánico',
+            say: 'Mientras lo trasladas, indicas analgesia, hielo local, cabecera elevada y un antibiótico profiláctico, amoxicilina con ácido clavulánico.' },
+        ] },
+        { title: 'El especialista', tag: 'Idealmente en 24 horas', kind: 'pharma', items: [
+          { t: 'Incide el mucopericondrio y evacúa la sangre', d: 'Taponamiento bilateral o lámina de silicona',
+            say: 'El especialista incide el mucopericondrio, evacúa la sangre y deja un taponamiento bilateral o una lámina de silicona. Debe ser idealmente en las primeras veinticuatro horas, porque el cartílago depende del pericondrio para su irrigación.' },
+          { t: 'Si se demora', d: 'Absceso septal, silla de montar, perforación y complicaciones intracraneales',
+            say: 'Si se demora, aparecen el absceso septal, la nariz en silla de montar, la perforación del tabique y complicaciones intracraneales, como meningitis y trombosis del seno cavernoso.' },
+        ] },
       ],
     },
 
@@ -85,7 +109,8 @@ module.exports = {
       cards: [
         { title: 'Pólipo benigno', tag: 'Bilateral', kind: 'criteria', items: [
           { t: 'Masa translúcida, blanco grisácea', d: 'Aspecto de uva pelada, indolora',
-            say: 'Los pólipos nasales son formaciones benignas y edematosas de la mucosa de los senos, sobre todo etmoidales, que prolapsan hacia la nariz. A la rinoscopía se ven lisos, brillantes, translúcidos, de color blanco grisáceo, como una uva pelada. Son indoloros e insensibles al tacto, a diferencia del cornete inferior, que es rojizo y muy sensible.' },
+            say: 'Los pólipos nasales son formaciones benignas y edematosas de la mucosa de los senos, sobre todo etmoidales, que prolapsan hacia la nariz. A la rinoscopía se ven lisos, brillantes, translúcidos, de color blanco grisáceo, como una uva pelada. Son indoloros e insensibles al tacto, a diferencia del cornete inferior, que es rojizo y muy sensible. Mira este: un pólipo grande, liso y amarillento, que desciende hasta la orofaringe.',
+            photo: { src: 'biblioteca/17_otorrino/orl-12/03_poliposis-nasal-orofaringe__bull_p158.jpg', label: 'Pólipo hasta la orofaringe', at: 'Mira este', credit: 'Color Atlas of ENT Diagnosis (Bull), p. 158' } },
           { t: 'Tratamiento: corticoide intranasal', d: 'Más prednisona breve; cirugía si no cede',
             say: 'El tratamiento de primera línea es corticoide intranasal en dosis altas, continuo, con mometasona o fluticasona, asociado a ciclos breves de prednisona. Si es refractario o la obstrucción es total, cirugía endoscópica funcional de senos, o terapia biológica con dupilumab.' },
         ] },
@@ -238,6 +263,119 @@ module.exports = {
         options: 'Las opciones: fluticasona tópica cada doce horas, prednisona oral por siete días, TAC de cavidades paranasales, cirugía endoscópica nasal, o niveles de inmunoglobulinas. Piénsalo.',
         answer: 'Es la B. La poliposis es bilateral, inflamatoria y con obstrucción completa, así que se parte con un ciclo breve de prednisona oral, que es justo lo que asocia el tratamiento de primera línea al corticoide intranasal. La fluticasona sola no penetra si la nariz está totalmente tapada, y la cirugía queda para los casos refractarios.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.1.016 · Obstrucción nasal crónica",
+      "stem": "Un hombre de 32 años consulta por obstrucción nasal derecha constante de varios años, que no fluctúa, sin estornudos, prurito ni rinorrea. En la adolescencia tuvo un golpe en la nariz. A la rinoscopía anterior, el tabique está desviado hacia la derecha y contacta el cornete inferior; en la fosa izquierda hay hipertrofia del cornete inferior. No hay pólipos.",
+      "question": "¿Cuál es el tratamiento definitivo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Oximetazolina nasal diaria"
+        },
+        {
+          "letter": "B",
+          "text": "Septoplastia electiva, con turbinoplastia del cornete hipertrófico"
+        },
+        {
+          "letter": "C",
+          "text": "Polipectomía endoscópica"
+        },
+        {
+          "letter": "D",
+          "text": "Antihistamínicos orales por 3 meses"
+        },
+        {
+          "letter": "E",
+          "text": "Amoxicilina con ácido clavulánico por 14 días"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Obstrucción unilateral, fija y constante tras un trauma, con tabique desviado, es una desviación septal. Los corticoides intranasales alivian el componente mucoso, pero la corrección definitiva es la septoplastia electiva, asociando turbinoplastia del cornete compensatorio. Los descongestionantes de uso crónico producen rinitis medicamentosa.",
+      "say": {
+        "stem": "Hombre de treinta y dos años con años de obstrucción nasal derecha, fija y constante, sin estornudos ni rinorrea, que tuvo un golpe en la nariz en la adolescencia. El tabique está desviado a la derecha y el cornete izquierdo está hipertrófico.",
+        "question": "¿Cuál es el tratamiento definitivo?",
+        "options": "Las opciones: oximetazolina diaria, septoplastia con turbinoplastia, polipectomía endoscópica, antihistamínicos orales, o amoxicilina con clavulánico. Piénsalo.",
+        "answer": "Es la B. Una obstrucción de un solo lado, fija, después de un golpe, es mecánica, y solo la septoplastia la corrige. La oximetazolina tienta porque destapa rápido, pero usada a diario produce rinitis medicamentosa y empeora la obstrucción."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.2.012 · Fractura nasal reciente",
+      "stem": "Un hombre de 22 años recibió un puñetazo en la nariz hace 2 horas. Tuvo epistaxis que ya cedió. Al examen hay edema y dolor del dorso nasal, laterorrinia hacia la izquierda y crepitación ósea. En la rinoscopía anterior el tabique no está abombado, la mucosa es normal y no hay hematoma septal. Respira bien por ambas fosas.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía de huesos propios para decidir la cirugía"
+        },
+        {
+          "letter": "B",
+          "text": "Reducción abierta urgente hoy en pabellón"
+        },
+        {
+          "letter": "C",
+          "text": "Esperar 3 meses y realizar rinoseptoplastia"
+        },
+        {
+          "letter": "D",
+          "text": "Drenaje del tabique nasal"
+        },
+        {
+          "letter": "E",
+          "text": "Frío local, analgesia y reevaluación por otorrinolaringología a los 5 a 7 días, para reducción cerrada si persiste la deformidad"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En la fractura nasal lo urgente es descartar un hematoma septal, ya hecho. Si no hay hematoma, se indica frío y analgesia, y se reevalúa cuando baja el edema, a los 5 a 7 días, para reducción cerrada antes de las 2 semanas. El diagnóstico es clínico; la radiografía solo tiene valor médico-legal.",
+      "say": {
+        "stem": "Hombre de veintidós años que recibió un puñetazo en la nariz hace dos horas. La epistaxis cedió; tiene edema, desviación del dorso hacia la izquierda y crepitación. El tabique no está abombado y no hay hematoma septal.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: radiografía de huesos propios, reducción abierta urgente, rinoseptoplastia en tres meses, drenaje del tabique o frío con analgesia y reevaluación a los cinco a siete días. Piénsalo.",
+        "answer": "Es la E. Ya descartaste el hematoma septal, que era lo urgente, así que esperas que baje el edema y reevalúas la deformidad para reducirla antes de las dos semanas. La radiografía tienta, pero solo tiene valor médico legal: la indicación de reducción es clínica."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.5.004 · Drenaje de hematoma nasoseptal",
+      "stem": "Adolescente de 15 años recibe un golpe nasal jugando fútbol hace 24 horas. Presenta obstrucción nasal bilateral completa y dolor. La rinoscopía anterior muestra un abombamiento violáceo, blando y fluctuante a ambos lados del tabique.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reducción de la fractura nasal en 7 días y antiinflamatorios"
+        },
+        {
+          "letter": "B",
+          "text": "Corticoide oral"
+        },
+        {
+          "letter": "C",
+          "text": "Descongestionante nasal y control en 48 horas"
+        },
+        {
+          "letter": "D",
+          "text": "Drenaje urgente del hematoma septal, taponamiento nasal anterior bilateral y antibiótico"
+        },
+        {
+          "letter": "E",
+          "text": "Esperar reabsorción espontánea"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El hematoma septal separa el mucopericondrio del cartílago, que depende de él para su nutrición. Sin drenaje urgente se produce necrosis del cartílago, absceso septal y deformidad en silla de montar. Se drena mediante incisión, se coloca taponamiento anterior para evitar la recolección y se indica antibiótico antiestafilocócico. Toda fractura nasal requiere examinar el tabique.",
+      "say": {
+        "stem": "Adolescente de quince años con un golpe nasal hace un día, obstrucción completa y un abombamiento violáceo y fluctuante a ambos lados del tabique.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: reducir la fractura en siete días, corticoide oral, descongestionante y control, drenaje urgente con taponamiento y antibiótico o esperar reabsorción. Piénsalo.",
+        "answer": "Es la D. Es un hematoma septal y se drena con urgencia, con taponamiento y antibiótico, para que el cartílago no se necrose. La reducción de la fractura a los siete días tienta, pero el hematoma no puede esperar."
+      }
     },
 
     {

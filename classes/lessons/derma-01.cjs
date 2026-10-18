@@ -39,11 +39,14 @@ module.exports = {
         { show: ['preg'], note: 'La pregunta que ordena todo',
           say: 'Y frente a cualquier lesión, la primera pregunta que te tienes que hacer es simple: ¿cómo es al tacto? ¿Es solo un cambio de color, tiene contenido líquido, o se palpa una elevación sólida? Con esa sola pregunta ya clasificaste la lesión en uno de tres grupos.' },
         { show: ['plana'], note: 'Sin relieve ni depresión',
-          say: 'Si es plana, sin relieve ni depresión a la palpación, hablamos de mácula o de mancha. La única diferencia entre las dos es el tamaño.' },
+          say: 'Si es plana, sin relieve ni depresión a la palpación, hablamos de mácula o de mancha. La única diferencia entre las dos es el tamaño. Mira esta pierna: manchas pardas, planas, de más de un centímetro, sin relieve al tacto. Es una mancha café con leche.',
+            photo: { src: '_verificadas/285_derma_Mácula_y_mancha__27thBailey_p622_1.jpg', label: 'Mancha café con leche', at: 'Mira esta pierna', credit: 'Bailey & Love\'s Short Practice of Surgery, 27.ª ed., p. 622' } },
         { show: ['liquida'], note: 'Colección de líquido',
-          say: 'Si tiene contenido líquido, es una vesícula, una ampolla o una pústula. Y ahí lo que cambia entre ellas es el tamaño y qué hay adentro.' },
+          say: 'Si tiene contenido líquido, es una vesícula, una ampolla o una pústula. Y ahí lo que cambia entre ellas es el tamaño y qué hay adentro. Mira estas vesículas de varicela: pequeñas, con líquido claro, sobre una base roja.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-01/04_vesicula__cto-derma_p16.jpg', label: 'Vesículas (varicela)', at: 'Mira estas vesículas', credit: 'Manual CTO Dermatología 14.ª ed., p. 16' } },
         { show: ['solida'], note: 'Se palpa más que se ve, o al revés',
-          say: 'Y si es una elevación sólida, estás frente a una pápula, una placa, un nódulo o un habón. Vamos a verlas una por una, porque el examen pregunta los tamaños de corte exactos.' },
+          say: 'Y si es una elevación sólida, estás frente a una pápula, una placa, un nódulo o un habón. Vamos a verlas una por una, porque el examen pregunta los tamaños de corte exactos. En este exantema ves máculas y pápulas pequeñas que confluyen, todas sólidas y sin líquido.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-01/03_exantema-maculopapular__cto-derma_p9.jpg', label: 'Exantema maculopapular', at: 'En este exantema', credit: 'Manual CTO Dermatología 14.ª ed., p. 9' } },
       ],
     },
 
@@ -60,32 +63,15 @@ module.exports = {
         ] },
         { title: 'Lesiones líquidas', tag: 'Tamaño y contenido', kind: 'alert', items: [
           { t: 'Vesícula: menor a 0,5 cm', d: 'Herpes simple, varicela',
-            say: 'En las líquidas, la vesícula mide menos de medio centímetro, con contenido seroso o hemático: herpes simple, herpes zóster, varicela.' },
+            say: 'En las líquidas, la vesícula mide menos de medio centímetro, con contenido seroso o hemático: herpes simple, herpes zóster, varicela. Mira estas vesículas agrupadas sobre una base roja, un herpes simple: son pequeñas y de líquido claro.',
+            photo: { src: 'derma-01/vesicula.jpg', label: 'Vesícula (herpes simple)', at: 'Mira estas vesículas agrupadas', credit: 'Manual AMIR Dermatología' } },
           { t: 'Ampolla o flictena: sobre 0,5 a 1 cm', d: 'Pénfigo, penfigoide, quemaduras',
-            say: 'La ampolla, también llamada flictena, es más grande, desde medio centímetro hacia arriba: pénfigo, penfigoide, quemaduras de segundo grado.' },
+            say: 'La ampolla, también llamada flictena, es más grande, desde medio centímetro hacia arriba: pénfigo, penfigoide, quemaduras de segundo grado. En esta piel las ampollas son grandes y tensas, llenas de líquido: un penfigoide ampolloso.',
+            photo: { src: 'derma-01/ampolla.jpg', label: 'Ampolla (penfigoide)', at: 'En esta piel', credit: 'Manual AMIR Dermatología' } },
           { t: 'Pústula: contenido purulento', d: 'Desde su origen',
-            say: 'Y la pústula no se define por tamaño, sino por contenido: es purulenta desde el inicio, como en el acné o en la foliculitis. Ojo, no es una vesícula que se infectó después; nace purulenta.' },
+            say: 'Y la pústula no se define por tamaño, sino por contenido: es purulenta desde el inicio, como en el acné o en la foliculitis. Ojo, no es una vesícula que se infectó después; nace purulenta. Mira esta palma: las pústulas son amarillentas desde que aparecen, en una pustulosis palmar.',
+            photo: { src: 'derma-01/pustula.jpg', label: 'Pústulas palmares', at: 'Mira esta palma', credit: 'Manual AMIR Dermatología' } },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ven',
-      title: 'Vesícula, ampolla y pústula en la piel real',
-      images: [
-        { src: 'derma-01/vesicula.jpg', label: 'Vesícula', desc: 'Menor a 0,5 cm, agrupadas', credit: 'Herpes simple · Manual AMIR Dermatología' },
-        { src: 'derma-01/ampolla.jpg', label: 'Ampolla', desc: 'Sobre 0,5 a 1 cm, tensa', credit: 'Penfigoide ampolloso · Manual AMIR Dermatología' },
-        { src: 'derma-01/pustula.jpg', label: 'Pústula', desc: 'Contenido purulento', credit: 'Pustulosis palmar · Manual AMIR Dermatología' },
-      ],
-      steps: [
-        { note: 'Vesículas pequeñas y agrupadas',
-          say: 'Pongámosle cara a cada lesión. Esto son vesículas: elevaciones con líquido claro, menores de medio centímetro, agrupadas sobre una base roja. Es el herpes simple, el ejemplo clásico.' },
-        { note: 'Ampolla: grande, tensa, líquido claro',
-          say: 'Ahora mira la diferencia de tamaño. Estas son ampollas: miden más de medio centímetro, algunas varios centímetros, y se ven tensas, llenas de líquido. Es un penfigoide ampolloso.' },
-        { note: 'Pústula: amarillenta desde el inicio',
-          say: 'Y esto son pústulas: el contenido es amarillento, purulento, desde que aparecen. Aquí en la palma de la mano, en una psoriasis pustulosa. Fíjate que no son vesículas que se infectaron: nacen así.' },
       ],
     },
 
@@ -96,36 +82,19 @@ module.exports = {
       cards: [
         { title: 'Pápula y placa', tag: 'La placa nace de pápulas', kind: 'key', items: [
           { t: 'Pápula: menor a 1 cm', d: 'Verruga plana, liquen plano',
-            say: 'Las sólidas parten con la pápula, menor a un centímetro, en la epidermis o la dermis superficial: verruga plana, liquen plano, molusco contagioso.' },
+            say: 'Las sólidas parten con la pápula, menor a un centímetro, en la epidermis o la dermis superficial: verruga plana, liquen plano, molusco contagioso. Mira estas pápulas con una depresión en el centro: un molusco contagioso.',
+            photo: { src: 'derma-01/papula.jpg', label: 'Pápulas (molusco)', at: 'Mira estas pápulas', credit: 'Manual AMIR Dermatología' } },
           { t: 'Placa: mayor a 1 cm, en meseta', d: 'Confluencia de pápulas, como la psoriasis',
-            say: 'Cuando muchas pápulas confluyen y forman una meseta de más de un centímetro, se llama placa. El ejemplo clásico es la psoriasis vulgar.' },
+            say: 'Cuando muchas pápulas confluyen y forman una meseta de más de un centímetro, se llama placa. El ejemplo clásico es la psoriasis vulgar. En esta piel ves placas rojas, planas por arriba y cubiertas de escama blanca, típicas de la psoriasis.',
+            photo: { src: 'derma-01/placa.jpg', label: 'Placa (psoriasis)', at: 'En esta piel', credit: 'Manual AMIR Dermatología' } },
         ] },
         { title: 'Nódulo y habón', tag: 'Uno profundo, el otro fugaz', kind: 'alert', items: [
           { t: 'Nódulo: dermis profunda o hipodermis', d: 'Se palpa más de lo que se ve',
             say: 'El nódulo es distinto: está en la dermis profunda o en la hipodermis, y la regla que se pregunta es que se palpa más de lo que se ve. El eritema nudoso es el ejemplo típico.' },
           { t: 'Habón o roncha: evanescente', d: 'Dura menos de 24 horas',
-            say: 'Y el habón, o roncha, es una placa edematosa por edema dérmico. Su característica patognomónica es que es evanescente: dura menos de un día y desaparece sin dejar ninguna marca. Es la lesión de la urticaria.' },
+            say: 'Y el habón, o roncha, es una placa edematosa por edema dérmico. Su característica patognomónica es que es evanescente: dura menos de un día y desaparece sin dejar ninguna marca. Es la lesión de la urticaria. Mira estos habones: elevaciones rosadas, edematosas, de bordes geográficos.',
+            photo: { src: 'derma-01/habon.jpg', label: 'Habones (urticaria)', at: 'Mira estos habones', credit: 'Manual AMIR Dermatología' } },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ven',
-      title: 'Pápula, placa y habón en la piel real',
-      images: [
-        { src: 'derma-01/papula.jpg', label: 'Pápula', desc: 'Sólida, menor a 1 cm', credit: 'Molusco contagioso · Manual AMIR Dermatología' },
-        { src: 'derma-01/placa.jpg', label: 'Placa', desc: 'Mayor a 1 cm, en meseta', credit: 'Psoriasis en placas · Manual AMIR Dermatología' },
-        { src: 'derma-01/habon.jpg', label: 'Habón', desc: 'Edema rosado que desaparece', credit: 'Urticaria · Manual AMIR Dermatología' },
-      ],
-      steps: [
-        { note: 'Pápula: sólida y pequeña',
-          say: 'Pasemos a las sólidas. Esto son pápulas: elevaciones sólidas de menos de un centímetro, sin líquido adentro. Estas en particular tienen una depresión central: es un molusco contagioso.' },
-        { note: 'Placa: grande y plana por arriba',
-          say: 'Cuando la lesión supera el centímetro y es plana por arriba, como una meseta, es una placa. La psoriasis es el ejemplo de manual: placas rojas cubiertas de escama blanca, en codos y rodillas.' },
-        { note: 'Habón: rosado, plano, dura horas',
-          say: 'Y esto es un habón: una elevación rosada, edematosa, de bordes geográficos. La clave no se ve en la foto: dura menos de veinticuatro horas y cambia de lugar. Eso es urticaria.' },
       ],
     },
 
@@ -152,9 +121,11 @@ module.exports = {
         { show: ['prof'], note: 'La profundidad lo decide todo',
           say: '¿Hasta dónde llega esa pérdida de piel? Si se queda solo en la epidermis, respetando la membrana basal, es una erosión, también llamada excoriación.' },
         { show: ['ero', 'sc'], note: 'La capa basal regenera',
-          say: 'Y como la capa basal de queratinocitos puede regenerar por mitosis, la erosión cura sin dejar ninguna cicatriz. Piensa en una ampolla desnudada, o en el rascado de la sarna.' },
+          say: 'Y como la capa basal de queratinocitos puede regenerar por mitosis, la erosión cura sin dejar ninguna cicatriz. Piensa en una ampolla desnudada, o en el rascado de la sarna. Mira estas erosiones tras romperse las ampollas de un pénfigo: zonas rojas y húmedas, sin pérdida de dermis.',
+            photo: { src: 'derma-01/erosion.jpg', label: 'Erosiones (pénfigo)', at: 'Mira estas erosiones', credit: 'Manual AMIR Dermatología' } },
         { show: ['ulc'], note: 'Cruza la membrana basal',
-          say: 'Pero si el daño destruye la membrana basal y llega a la dermis, o incluso a la hipodermis, ya no es una erosión: es una úlcera.' },
+          say: 'Pero si el daño destruye la membrana basal y llega a la dermis, o incluso a la hipodermis, ya no es una erosión: es una úlcera. En esta úlcera el fondo llega a la dermis y hay una escara negra en el centro.',
+            photo: { src: 'derma-01/ulcera.jpg', label: 'Úlcera con escara', at: 'En esta úlcera', credit: 'Manual AMIR Dermatología' } },
         { show: ['cc'], note: 'Se repara con colágeno, no con mitosis',
           say: 'Y como la dermis no se regenera por mitosis, la reparación se hace con tejido de granulación y colágeno, y eso siempre deja cicatriz. Guarda esta idea, porque es justo la pregunta que vas a ver en el caso de hoy.' },
       ],
@@ -177,65 +148,9 @@ module.exports = {
           { t: 'Escara', d: 'Tejido necrótico negro y delimitado',
             say: 'La escara es tejido necrótico, negro y seco, bien delimitado de la piel sana: el loxoscelismo cutáneo, las úlceras por presión.' },
           { t: 'Liquenificación', d: 'Engrosamiento por rascado crónico',
-            say: 'Y la liquenificación es el engrosamiento de la piel con los pliegues acentuados, por el rascado crónico y repetitivo. Con esto ya tienes todas las lesiones elementales que arma el examen.' },
+            say: 'Y la liquenificación es el engrosamiento de la piel con los pliegues acentuados, por el rascado crónico y repetitivo. Con esto ya tienes todas las lesiones elementales que arma el examen. Mira este pliegue: la piel gruesa, como cuero, con los surcos marcados.',
+            photo: { src: 'derma-01/liquenificacion.jpg', label: 'Liquenificación', at: 'Mira este pliegue', credit: 'Manual CTO Dermatología 14.ª ed.' } },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ven',
-      title: 'Erosión, úlcera y liquenificación',
-      images: [
-        { src: 'derma-01/erosion.jpg', label: 'Erosión', desc: 'Solo epidermis, cura sin cicatriz', credit: 'Pénfigo vulgar · Manual AMIR Dermatología' },
-        { src: 'derma-01/ulcera.jpg', label: 'Úlcera y escara', desc: 'Llega a la dermis, deja cicatriz', credit: 'Calcifilaxis · Manual AMIR Dermatología' },
-        { src: 'derma-01/liquenificacion.jpg', label: 'Liquenificación', desc: 'Piel gruesa por rascado', credit: 'Manual CTO Dermatología, 14.ª ed.' },
-      ],
-      steps: [
-        { note: 'Erosión: superficial, cura sin cicatriz',
-          say: 'Ahora las secundarias. Estas son erosiones: zonas rojas, húmedas, donde se perdió solo la epidermis, después de que se rompieron las ampollas de un pénfigo. Como el daño es superficial, curan sin cicatriz.' },
-        { note: 'Úlcera profunda con escara negra',
-          say: 'Compara con esto. Aquí el daño llega a la dermis y más abajo: es una úlcera, y en el centro tiene una escara, tejido necrótico negro y bien delimitado. Esta sí va a dejar cicatriz.' },
-        { note: 'Liquenificación: surcos marcados',
-          say: 'Y por último la liquenificación: la piel se engruesa y los surcos normales se marcan, como un cuero. Es la huella del rascado crónico, típica de la dermatitis atópica en los pliegues.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Las mismas lesiones en otros pacientes',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-01/04_vesicula__cto-derma_p16.jpg', label: 'Vesículas (varicela)', credit: 'Manual CTO Dermatología 14.ª ed., p. 16' },
-        { src: 'biblioteca/11_dermatologia/derma-01/05_ampolla__cto-derma_p72.jpg', label: 'Ampollas tensas (penfigoide)', credit: 'Manual CTO Dermatología 14.ª ed., p. 72' },
-        { src: 'biblioteca/11_dermatologia/derma-01/07_habon__cto-derma_p49.jpg', label: 'Habones', credit: 'Manual CTO Dermatología 14.ª ed., p. 49' },
-      ],
-      steps: [
-        { note: 'Vesículas',
-          say: 'Otra vez vesículas: pequeñas, con líquido claro, menores de medio centímetro. Aquí en una varicela.' },
-        { note: 'Ampollas tensas',
-          say: 'Estas ampollas superan el medio centímetro y están tensas: es un penfigoide, con la separación bajo la epidermis.' },
-        { note: 'Habones',
-          say: 'Y estos son habones de bordes geográficos. Recuerda que son evanescentes: duran menos de veinticuatro horas.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Pápulas y exantema',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-01/01_papula-purpura-palpable__cto-derma_p8.jpg', label: 'Pápulas purpúricas (púrpura palpable)', credit: 'Manual CTO Dermatología 14.ª ed., p. 8' },
-        { src: 'biblioteca/11_dermatologia/derma-01/03_exantema-maculopapular__cto-derma_p9.jpg', label: 'Exantema maculopapular', credit: 'Manual CTO Dermatología 14.ª ed., p. 9' },
-      ],
-      steps: [
-        { note: 'Pápulas purpúricas',
-          say: 'Estas lesiones rojo violáceas son pápulas: sólidas, elevadas y menores de un centímetro. Como se palpan, se habla de púrpura palpable.' },
-        { note: 'Exantema maculopapular',
-          say: 'Y esto es un exantema maculopapular: muchas máculas y pápulas pequeñas que confluyen, sin líquido en su interior.' },
       ],
     },
 
@@ -254,6 +169,65 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'La piel como ventana',
+      title: 'Cuando la lesión avisa de una enfermedad interna',
+      cards: [
+        { title: 'Metabólicas y autoinmunes', tag: 'Busca la enfermedad de fondo', kind: 'key', items: [
+          { t: 'Acantosis nigricans', d: 'Resistencia a la insulina o diabetes',
+            say: 'Cuando una lesión no calza con una dermatosis primaria, la piel te está avisando de una enfermedad interna. La acantosis nigricans, placas pardas aterciopeladas en cuello y axilas, es resistencia a la insulina o diabetes. Y si aparece de golpe en un adulto mayor, piensa en una neoplasia visceral, sobre todo gástrica.' },
+          { t: 'Eritema malar con fotosensibilidad', d: 'Lupus eritematoso',
+            say: 'El eritema malar con fotosensibilidad es lupus eritematoso.' },
+          { t: 'Pápulas de Gottron y heliotropo', d: 'Dermatomiositis; en adultos, buscar cáncer',
+            say: 'Las pápulas de Gottron y el heliotropo son dermatomiositis, y en adultos hay que buscar una neoplasia asociada.' },
+        ] },
+        { title: 'Vasculares e inflamatorias', tag: 'Piernas y úlceras', kind: 'alert', items: [
+          { t: 'Púrpura palpable en piernas', d: 'Vasculitis; Schönlein-Henoch en niños',
+            say: 'La púrpura palpable en las piernas es una vasculitis, y en niños, la púrpura de Schönlein-Henoch.' },
+          { t: 'Pioderma gangrenoso', d: 'Úlcera violácea y socavada: EII o artritis reumatoide',
+            say: 'El pioderma gangrenoso es una úlcera de borde violáceo y socavado, y se asocia a enfermedad inflamatoria intestinal o a artritis reumatoide.' },
+          { t: 'Livedo reticular', d: 'Síndrome antifosfolípido',
+            say: 'Y el livedo reticular hace pensar en un síndrome antifosfolípido.' },
+        ] },
+        { title: 'Otras pistas', tag: 'Tratar la causa, no la lesión', kind: 'criteria', items: [
+          { t: 'Xantelasmas y xantomas', d: 'Dislipidemia',
+            say: 'Los xantelasmas y los xantomas son dislipidemia.' },
+          { t: 'Hiperpigmentación generalizada', d: 'Insuficiencia suprarrenal o hemocromatosis',
+            say: 'La hiperpigmentación generalizada orienta a insuficiencia suprarrenal o a hemocromatosis.' },
+          { t: 'Prurito sin lesiones primarias', d: 'Colestasis, uremia, tiroides o linfoma',
+            say: 'Y el prurito generalizado sin lesiones primarias obliga a descartar colestasis, uremia, alteración tiroidea o linfoma. La conducta es siempre la misma: buscar la enfermedad de fondo con exámenes dirigidos y tratar la causa más que la lesión.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Dos nódulos y una mancha que preguntan',
+      title: 'Eritema nudoso, Bazin y vitíligo',
+      cards: [
+        { title: 'Eritema nudoso', tag: 'Paniculitis septal', kind: 'alert', items: [
+          { t: 'Nódulos pretibiales dolorosos', d: 'Rojos, calientes, sin úlcera ni cicatriz',
+            say: 'El eritema nudoso es una paniculitis septal: nódulos rojos, calientes y dolorosos de uno a cinco centímetros, en la cara anterior de ambas piernas, más frecuente en mujeres de veinte a cuarenta años. Mira estas piernas: placas rojizas, mal delimitadas, bilaterales. No se ulceran, no dejan cicatriz y cambian de color como un moretón durante dos a seis semanas.',
+            photo: { src: '_web/286_derma_Nódulo__Commons_1.jpg', label: 'Eritema nudoso', at: 'Mira estas piernas', credit: 'Wikimedia Commons, CC BY-SA 3.0' } },
+          { t: 'Busca la causa', d: 'Estreptococo, TBC, sarcoidosis, EII, fármacos',
+            say: 'Siempre se busca la causa: estreptococo, tuberculosis, sarcoidosis, enfermedad inflamatoria intestinal y fármacos como los anticonceptivos. El síndrome de Löfgren une eritema nudoso, adenopatías hiliares bilaterales y artritis de tobillos. Se pide hemograma, cultivo faríngeo y ASO, radiografía de tórax y PPD, y se trata con reposo, AINE y la causa.' },
+        ] },
+        { title: 'Eritema indurado de Bazin', tag: 'No es lo mismo', kind: 'key', items: [
+          { t: 'Pantorrillas, crónico y recidivante', d: 'Se ulcera y deja cicatriz',
+            say: 'El eritema indurado de Bazin se ubica en la cara posterior de las pantorrillas, en mujeres jóvenes, con curso crónico, y tiende a ulcerarse y dejar cicatriz. Se asocia a tuberculosis, así que exige biopsia, estudio de tuberculosis y derivación.' },
+        ] },
+        { title: 'Vitíligo', tag: 'Autoinmune', kind: 'criteria', items: [
+          { t: 'Mancha blanco tiza, bordes netos', d: 'Sin descamación; Koebner positivo',
+            say: 'El vitíligo es una enfermedad autoinmune que destruye los melanocitos: manchas blanco tiza, de bordes netos, sin descamación, en cara, manos, codos y rodillas. La luz de Wood acentúa el color.' },
+          { t: 'Pide TSH y anticuerpos antiperoxidasa', d: 'Hashimoto, diabetes tipo 1, anemia perniciosa',
+            say: 'Se asocia a otras enfermedades autoinmunes, sobre todo la tiroiditis de Hashimoto, así que pides TSH, anticuerpos antiperoxidasa y glicemia.' },
+          { t: 'Fotoprotección y corticoide o tacrolimus', d: 'Fototerapia: derivar',
+            say: 'El tratamiento inicial es fotoprotección estricta, porque la piel sin melanina se quema, y corticoide tópico potente en zonas pequeñas o tacrolimus en cara y pliegues. La fototerapia se deriva.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },
@@ -267,15 +241,22 @@ module.exports = {
         { cells: ['Mácula vs mancha', '1 cm, ambas planas', 'Llamar "mácula" a cualquier mancha grande'],
           say: 'Repasemos los pares que más se confunden. Mácula versus mancha: el corte es un centímetro, y las dos son planas. El error es llamar mácula a cualquier mancha grande.' },
         { cells: ['Vesícula vs ampolla', '0,5 cm, ambas líquidas', 'Confundir tamaño con gravedad'],
-          say: 'Vesícula versus ampolla: el corte es medio centímetro, y las dos tienen líquido. El error es pensar que el tamaño indica gravedad, cuando solo indica el nombre.' },
+          say: 'Vesícula versus ampolla: el corte es medio centímetro, y las dos tienen líquido. El error es pensar que el tamaño indica gravedad, cuando solo indica el nombre. Mira estas ampollas tensas de un penfigoide: grandes, de varios milímetros, nada que ver con una vesícula.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-01/05_ampolla__cto-derma_p72.jpg', label: 'Ampollas tensas', at: 'Mira estas ampollas tensas', credit: 'Manual CTO Dermatología 14.ª ed., p. 72' } },
         { cells: ['Pápula vs placa', '1 cm, la placa es en meseta', 'Llamar "placa" a una pápula aislada'],
-          say: 'Pápula versus placa: el corte es un centímetro, y la placa es una meseta que suele nacer de pápulas que confluyen. El error es llamar placa a una sola pápula.' },
+          say: 'Pápula versus placa: el corte es un centímetro, y la placa es una meseta que suele nacer de pápulas que confluyen. El error es llamar placa a una sola pápula. Estas pápulas rojo violáceas de las piernas se palpan: es púrpura palpable, pápulas y no máculas.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-01/01_papula-purpura-palpable__cto-derma_p8.jpg', label: 'Púrpura palpable', at: 'Estas pápulas rojo violáceas', credit: 'Manual CTO Dermatología 14.ª ed., p. 8' } },
         { cells: ['Nódulo', 'Dermis profunda o hipodermis', 'Confundirlo con una pápula grande'],
           say: 'El nódulo no compite por tamaño con la pápula: compite por profundidad. Se palpa más de lo que se ve. El error es tratarlo como una pápula grande.' },
         { cells: ['Habón', 'Evanescente, menos de 24 horas', 'No preguntar cuánto dura la lesión'],
-          say: 'El habón se reconoce por el tiempo, no por la forma: dura menos de veinticuatro horas. El error clásico es no preguntar cuánto duró la lesión antes de nombrarla.' },
+          say: 'El habón se reconoce por el tiempo, no por la forma: dura menos de veinticuatro horas. El error clásico es no preguntar cuánto duró la lesión antes de nombrarla. Mira estos habones: nadie los reconoce por su forma, sino por lo fugaces que son.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-01/07_habon__cto-derma_p49.jpg', label: 'Habones', at: 'Mira estos habones', credit: 'Manual CTO Dermatología 14.ª ed., p. 49' } },
         { cells: ['Erosión vs úlcera', 'Epidermis sin cicatriz vs dermis con cicatriz', 'Decir "úlcera" de cualquier lesión que sangra'],
           say: 'Y la más importante: erosión versus úlcera. La erosión solo llega a la epidermis y no deja cicatriz; la úlcera llega a la dermis y siempre deja cicatriz. El error es llamar úlcera a cualquier lesión que sangra o duele, sin fijarse en la profundidad.' },
+        { cells: ['Eritema nudoso vs Bazin', 'Pretibial sin úlcera vs pantorrilla que se ulcera', 'Tratar un Bazin como eritema nudoso, sin biopsia'],
+          say: 'Otro par: eritema nudoso versus eritema indurado de Bazin. El nudoso es pretibial y no se ulcera; el Bazin está en la pantorrilla, se ulcera y exige biopsia y estudio de tuberculosis. El error es tratar un Bazin como si fuera un eritema nudoso.' },
+        { cells: ['Vitíligo vs pitiriasis versicolor', 'Acrómico sin escama vs hipocrómico que descama', 'No pedir TSH ni anticuerpos antiperoxidasa en el vitíligo'],
+          say: 'Y el vitíligo versus la pitiriasis versicolor: el vitíligo es blanco tiza, sin escama, y se asocia a autoinmunidad tiroidea; la versicolor descama al raspar y se tiñe con KOH. El error es no pedir TSH en un vitíligo.' },
       ],
     },
 
@@ -349,6 +330,81 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.1.009 · Eritema nodoso / Eritema indurado de Bazin",
+      "stem": "Mujer de 25 años consulta por nódulos dolorosos, eritemato-violáceos, calientes, de 2 a 4 cm, en la cara anterior de ambas piernas, de 1 semana. No se ulceran. Refiere odinofagia hace 3 semanas. Usa anticonceptivos orales.",
+      "question": "¿Cuál es el diagnóstico y el estudio inicial más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Eritema indurado de Bazin; biopsia y PPD"
+        },
+        {
+          "letter": "B",
+          "text": "Trombosis venosa superficial; ecografía Doppler"
+        },
+        {
+          "letter": "C",
+          "text": "Vasculitis leucocitoclástica; biopsia urgente"
+        },
+        {
+          "letter": "D",
+          "text": "Celulitis bilateral; antibióticos endovenosos"
+        },
+        {
+          "letter": "E",
+          "text": "Eritema nodoso; estudio etiológico con ASO o cultivo faríngeo, radiografía de tórax y PPD"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El eritema nodoso es una paniculitis septal reactiva: nódulos dolorosos en cara anterior de piernas que no se ulceran y curan sin cicatriz. Causas: estreptococo, fármacos (anticonceptivos), sarcoidosis, TBC, EII. Se busca la causa (ASO, radiografía de tórax, PPD). El eritema indurado de Bazin es lobulillar, en pantorrillas y tiende a ulcerarse.",
+      "say": {
+        "stem": "Mujer de veinticinco años con nódulos dolorosos y rojos en la cara anterior de ambas piernas, sin úlceras, tras una faringitis, y usuaria de anticonceptivos.",
+        "question": "¿Cuál es el diagnóstico y el estudio inicial?",
+        "options": "Las opciones: eritema indurado de Bazin, trombosis venosa superficial, vasculitis leucocitoclástica, celulitis bilateral o eritema nodoso con estudio de causa. Piénsalo.",
+        "answer": "Es la E. Es un eritema nodoso, y se buscan sus causas como estreptococo, fármacos, sarcoidosis o tuberculosis. El eritema de Bazin tienta, pero aparece en pantorrillas y tiende a ulcerarse."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.1.032 · Vitiligo",
+      "stem": "Mujer de 30 años con manchas blancas de 1 año, simétricas, en dorso de manos, alrededor de la boca y en ambos codos. Son máculas acrómicas de bordes netos, sin descamación, que se acentúan con la luz de Wood. Tiene hipotiroidismo por tiroiditis de Hashimoto.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pitiriasis versicolor"
+        },
+        {
+          "letter": "B",
+          "text": "Lepra tuberculoide"
+        },
+        {
+          "letter": "C",
+          "text": "Hipopigmentación postinflamatoria"
+        },
+        {
+          "letter": "D",
+          "text": "Pitiriasis alba"
+        },
+        {
+          "letter": "E",
+          "text": "Vitiligo"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Máculas acrómicas (sin melanina), de bordes netos, simétricas en zonas periorificiales y acrales, que se intensifican con luz de Wood, son vitiligo, enfermedad autoinmune asociada a tiroiditis, diabetes tipo 1 y anemia perniciosa. Se trata con corticoides o inhibidores de calcineurina tópicos y fototerapia. La pitiriasis versicolor es hipocrómica y descama al rascado.",
+      "say": {
+        "stem": "Mujer de treinta años con hipotiroidismo de Hashimoto y manchas completamente blancas, de bordes netos, simétricas en manos, boca y codos, que se marcan con luz de Wood.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: pitiriasis versicolor, lepra, hipopigmentación postinflamatoria, pitiriasis alba o vitiligo. Piénsalo.",
+        "answer": "Es la E. Manchas acrómicas simétricas en una paciente con autoinmunidad tiroidea son vitiligo. La pitiriasis versicolor tienta, pero sus manchas son hipocrómicas, no totalmente blancas, y descaman al raspar."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -358,6 +414,12 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. En las lesiones planas y líquidas, el corte es de un centímetro entre mácula y mancha, y de medio centímetro entre vesícula y ampolla.' },
           { t: 'Pápula/placa: 1 cm, en meseta', d: 'Nódulo: profundo · Habón: fugaz',
             say: 'En las sólidas, la placa es una pápula que superó el centímetro y se extendió en meseta. El nódulo se define por profundidad, no por tamaño. Y el habón se define por el tiempo: menos de veinticuatro horas.' },
+        ] },
+        { title: 'La piel como ventana', tag: 'Lo que más se pregunta', kind: 'criteria', items: [
+          { t: 'Eritema nudoso: pretibial, sin úlcera', d: 'Bazin: pantorrilla, se ulcera, biopsia',
+            say: 'Una regla más: el eritema nudoso es pretibial y no se ulcera; si está en la pantorrilla y se ulcera, piensa en Bazin y pide biopsia.' },
+          { t: 'Vitíligo: pide TSH', d: 'Autoinmunidad tiroidea asociada',
+            say: 'Y ante un vitíligo, siempre pide TSH y anticuerpos antiperoxidasa.' },
         ] },
         { title: 'Lesiones secundarias', tag: 'La que más se pregunta', kind: 'alert', items: [
           { t: 'Erosión: solo epidermis', d: 'Sin cicatriz',

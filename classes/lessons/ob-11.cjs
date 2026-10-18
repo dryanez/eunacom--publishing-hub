@@ -66,16 +66,57 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Ectópico roto',
+      title: 'Reconócelo y actúa sin esperar',
+      cards: [
+        { title: 'Sospecha', tag: 'Test positivo basta', kind: 'alert', items: [
+          { t: 'Dolor intenso y signos de shock', d: 'Palidez, sudor, taquicardia, síncope',
+            say: 'Sospéchalo en toda mujer en edad fértil con amenorrea, dolor abdominal o pélvico intenso y signos de shock: palidez, sudoración, taquicardia, mareo o síncope. Ojo: la hipotensión aparece tarde.' },
+          { t: 'Dolor al hombro y defensa', d: 'Signo de Kehr; a veces equimosis periumbilical',
+            say: 'Además hay distensión y defensa abdominal, y dolor referido al hombro, el signo de Kehr. Con un test de embarazo positivo y este cuadro, basta para actuar: no esperas la beta-hCG cuantitativa ni la ecografía formal.' },
+        ] },
+        { title: 'Confirma al lado de la cama', tag: 'Ecografía FAST', kind: 'criteria', items: [
+          { t: 'Líquido libre en Douglas o Morrison', d: 'Confirma el hemoperitoneo',
+            say: 'La ecografía al lado de la cama, la FAST, confirma el hemoperitoneo cuando ves líquido libre en el espacio de Morrison o en el fondo de saco de Douglas. Mira esta imagen: la zona negra al fondo es la sangre libre en el Douglas.',
+            photo: { src: 'biblioteca/14_obstetricia/ob-11/386_ob_Embarazo_ectópico__Rumack_p1121.jpg', label: 'Líquido libre en Douglas', at: 'Mira esta imagen', credit: 'Diagnostic Ultrasound (Rumack), p. 1121' } },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Ectópico roto',
+      title: 'Reanimación y cirugía',
+      cards: [
+        { title: 'Reanimación inicial', tag: 'Pide ayuda, pabellón', kind: 'pharma', items: [
+          { t: 'Dos vías gruesas y oxígeno', d: 'Hemograma, grupo y Rh, pruebas cruzadas, coagulación',
+            say: 'Pides ayuda y trasladas a pabellón. Instalas dos vías venosas de grueso calibre, das oxígeno y tomas muestras: hemograma, grupo y Rh, pruebas cruzadas y coagulación.' },
+          { t: 'Cristaloides tibios y sangre', d: 'O Rh negativo si no hay tiempo',
+            say: 'Repones con cristaloides tibios y hemoderivados según el grado de shock, con sangre O Rh negativo si no hay tiempo para las pruebas cruzadas, y vigilas signos vitales y diuresis.' },
+        ] },
+        { title: 'Tratamiento definitivo', tag: 'Cirugía de urgencia', kind: 'key', items: [
+          { t: 'Laparoscopía si está estable', d: 'Laparotomía si hay shock descompensado',
+            say: 'Se opera de urgencia para controlar el sangrado: por laparoscopía si la paciente está estable, y por laparotomía si el shock es descompensado. Habitualmente se hace una salpingectomía.' },
+          { t: 'Metotrexato contraindicado', d: 'En la paciente inestable',
+            say: 'El metotrexato está contraindicado en la paciente inestable. Y si es Rh negativa, administras inmunoglobulina anti D.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'La zona discriminatoria',
       title: 'El número que confirma el ectópico',
       cards: [
         { title: 'Mil quinientos a dos mil', tag: 'Se pregunta el corte exacto', kind: 'key', items: [
           { t: 'Con el útero vacío', d: 'Confirma el ectópico',
-            say: 'La zona discriminatoria son mil quinientas a dos mil unidades de beta-hCG. Si tu paciente supera ese nivel y el útero está vacío en la ecografía, ya tienes confirmado el diagnóstico de embarazo ectópico.' },
+            say: 'La zona discriminatoria son mil quinientas a dos mil unidades de beta-hCG. Si tu paciente supera ese nivel y el útero está vacío en la ecografía, ya tienes confirmado el diagnóstico de embarazo ectópico. Mira esta ecografía: junto al útero hay una masa anexial con anillo vascular, el aspecto típico del ectópico.',
+            photo: { src: 'biblioteca/14_obstetricia/ob-11/01_ectopico-ampular-eco__cto-gyo_p126.jpg', label: 'Masa anexial con Doppler', at: 'Mira esta ecografía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 126' } },
         ] },
         { title: 'Por debajo del corte', tag: 'No descarta nada', kind: 'normal', items: [
           { t: 'Repite en cuarenta y ocho horas', d: 'Un embarazo normal duplica su valor',
-            say: 'Si está por debajo, no descarta nada: puede ser un embarazo intrauterino normal, pero muy precoz para verse. Repites la beta-hCG en cuarenta y ocho horas: si se duplica, es normal; si no sube así, sospechas ectópico.' },
+            say: 'Si está por debajo, no descarta nada: puede ser un embarazo intrauterino normal, pero muy precoz para verse. Repites la beta-hCG en cuarenta y ocho horas: si se duplica, es normal; si no sube así, sospechas ectópico. Este algoritmo lo resume: metrorragia y dolor con útero vacío, y una beta-hCG bajo mil ochocientas se repite a las cuarenta y ocho horas.',
+            photo: { src: 'biblioteca/14_obstetricia/ob-11/02_diagnostico-de-ectopico__cto-gyo_p126.jpg', label: 'Útero vacío y beta-hCG', at: 'Este algoritmo', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 126' } },
         ] },
       ],
     },
@@ -131,28 +172,15 @@ module.exports = {
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Embarazo ectópico',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El embrión que rompe la trompa',
       images: [
-        { src: 'biblioteca/14_obstetricia/ob-11/01_ectopico-ampular-eco__cto-gyo_p126.jpg', label: 'Ectópico', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 126' },
+        { src: 'animaciones/ob-11/A1_ectopico_rotura.mp4', label: 'Del implante tubario a la rotura', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Masa anexial con útero vacío',
-          say: 'Útero vacío con una masa anexial y beta sobre la zona discriminatoria: embarazo ectópico.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/14_obstetricia/ob-11/02_diagnostico-de-ectopico__cto-gyo_p126.jpg', label: 'Útero vacío y beta hCG', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 126' },
-      ],
-      steps: [
-        { note: 'Útero vacío y beta hCG',
-          say: 'Algoritmo del útero vacío con metrorragia y dolor: se repite la beta hCG a las cuarenta y ocho horas.' },
+        { note: 'Se queda en la ampolla, crece y rompe',
+          say: 'En el embarazo normal, el óvulo fecundado baja por la trompa y se implanta dentro de la cavidad. En el ectópico se queda en la trompa, casi siempre en la ampolla. Crece, y entre las seis y las ocho semanas la rompe: la sangre cae a la pelvis y la paciente entra en shock, con hipotensión y taquicardia. Y la porción intersticial se rompe más tarde, pero con hemorragia masiva. Si está inestable, cirugía de urgencia sin esperar exámenes.' },
       ],
     },
 
@@ -173,6 +201,8 @@ module.exports = {
           say: 'Beta-hCG por sobre la zona discriminatoria y útero vacío: el diagnóstico ya está confirmado. El error es seguir esperando otra ecografía.' },
         { cells: ['Cumple los tres criterios de metotrexato', 'Tratamiento médico', 'Operar de entrada por costumbre'],
           say: 'Si cumple los tres criterios, va con metotrexato. El error es operar de entrada, sin darle la opción médica.' },
+        { cells: ['Inestable, con test positivo', 'Dos vías, volumen y pabellón', 'Dar metotrexato a una paciente en shock'],
+          say: 'Y si está en shock con test de embarazo positivo, reanimas con dos vías, volumen y sangre, y vas a pabellón. El error es dar metotrexato: está contraindicado en la paciente inestable.' },
         { cells: ['Masa mayor a tres coma cinco o latidos presentes', 'Cirugía laparoscópica', 'Insistir con metotrexato'],
           say: 'Y si la masa supera los tres coma cinco centímetros, o hay latidos, va a cirugía. El error es insistir con el metotrexato aunque no cumpla los criterios.' },
       ],
@@ -268,6 +298,44 @@ module.exports = {
         options: 'Las opciones: laparoscopía exploradora, laparotomía exploradora, metotrexato, ecografía en siete días, o hCG y ecografía en cuarenta y ocho horas. Piénsalo.',
         answer: 'Es la A. Aquí falla el criterio del tamaño: cincuenta y tres milímetros es mucho más de los treinta y cinco que permite el metotrexato, y la beta-hCG también está sobre el corte. No está roto, porque no hay líquido libre, así que no necesitas la laparotomía; te alcanza con la laparoscopía, que tiene menos riesgo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.4.008 · HCG cuantitativa",
+      "stem": "Mujer de 27 años, con 5 semanas de amenorrea, consulta por spotting sin dolor. Está hemodinámicamente estable y el abdomen es blando. La beta-hCG cuantitativa es 900 UI/L. La ecografía transvaginal muestra útero sin saco gestacional, anexos normales y sin líquido libre.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Metotrexato intramuscular a dosis única"
+        },
+        {
+          "letter": "B",
+          "text": "Salpingectomía laparoscópica"
+        },
+        {
+          "letter": "C",
+          "text": "Legrado uterino diagnóstico"
+        },
+        {
+          "letter": "D",
+          "text": "Repetir la beta-hCG cuantitativa en 48 horas"
+        },
+        {
+          "letter": "E",
+          "text": "Dar de alta: el útero vacío descarta el embarazo"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Con beta-hCG bajo la zona discriminatoria (1.500 a 2.000 UI/L) es esperable no ver el saco. Se repite a las 48 horas: si se duplica, sugiere embarazo normal; si sube poco, se estanca o hay útero vacío sobre la zona, se sospecha ectópico. Tratar ahora sería prematuro.",
+      "say": {
+        "stem": "Mujer de veintisiete años, con cinco semanas de amenorrea, consulta por un sangrado escaso sin dolor. Está estable. La beta hCG cuantitativa es de novecientas unidades por litro, y la ecografía transvaginal muestra un útero sin saco, anexos normales y sin líquido libre.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: metotrexato, salpingectomía laparoscópica, legrado diagnóstico, repetir la beta hCG en cuarenta y ocho horas, o dar de alta. Piénsalo.",
+        "answer": "Es la D. Con novecientas unidades estás bajo la zona discriminatoria, así que es normal no ver el saco todavía. Repites la beta hCG en cuarenta y ocho horas para ver si se duplica. El metotrexato tienta, pero sin diagnóstico de ectópico podrías dañar un embarazo normal."
+      }
     },
 
     {

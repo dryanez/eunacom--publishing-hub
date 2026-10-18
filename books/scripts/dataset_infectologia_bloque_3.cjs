@@ -29,16 +29,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -131,6 +132,12 @@ const bloque3 = [
           '<strong>Indetectable = Intransmisible (I = I):</strong> carga viral &lt; 50 copias/mL por &gt; 6 meses anula el riesgo de transmisión sexual.',
         ],
       },
+      {
+        subhead: '4. VIH y Embarazo: Prevención de la Transmisión Vertical',
+        paragraphs: [
+          'Sin intervención, la transmisión madre-hijo del VIH es de 15–40 %; con el programa completo baja a <strong>menos de 2 %</strong>. Pilares: (1) <strong>tamizaje obligatorio</strong> con test de VIH en el primer control prenatal, repetido en el tercer trimestre en mujeres de riesgo; (2) <strong>TARV para toda gestante con VIH, lo antes posible y sin esperar el CD4</strong>, con esquema que incluya dolutegravir (por ejemplo tenofovir + emtricitabina/lamivudina + dolutegravir), con meta de <strong>carga viral indetectable</strong> y control a las 34–36 semanas; (3) vía del parto: <strong>cesárea electiva a las 38 semanas</strong> si la carga viral es &gt; 1.000 copias/mL o desconocida, y zidovudina EV intraparto en ese caso; con carga viral &lt; 1.000 copias/mL se permite el parto vaginal; (4) recién nacido con <strong>zidovudina oral por 4 semanas</strong> (profilaxis ampliada si el riesgo es alto) y diagnóstico con PCR; (5) <strong>suspender la lactancia materna</strong> y entregar fórmula láctea (cubierta por GES). Se deriva a policlínico de VIH y obstetricia de alto riesgo, y se estudian otras ITS (sífilis, hepatitis B).',
+        ],
+      },
     ],
     table: {
       title: 'Etapificación Clínica y de Laboratorio del VIH (CDC)',
@@ -219,6 +226,17 @@ const bloque3 = [
         subhead: '3. Meningitis por Criptococo y Profilaxis Primaria por Umbrales CD4',
         paragraphs: [
           '<strong>Meningitis Criptococócica (<em>Cryptococcus neoformans</em> - CD4 < 100/mm³):</strong> levadura encapsulada inhalada que disemina al SNC. Cursa con cefalea insidiosa progresiva, náuseas y fiebre, a menudo con escasa o nula rigidez de nuca. Diagnóstico: LCR con presión de apertura muy elevada (> 30 cm H2O), tinción con <strong>Tinta China (visualiza levaduras con halo refringente por la cápsula)</strong> y detección de <strong>Antígeno Criptococócico (CrAg)</strong> en sangre y LCR. Tratamiento: inducción con <strong>Anfotericina B liposomal + Flucitosina por 2 semanas</strong>, seguido de consolidación y mantención prolongada con Fluconazol oral.',
+        ],
+      },
+      {
+        subhead: '4. Candidiasis, Diarrea, Antigenemia de CMV, Criptococo y Prevención en el Inmunosuprimido',
+        paragraphs: [
+          '<strong>Candidiasis oral y esofágica:</strong> la oral (muguet) son placas blanquecinas desprendibles sobre mucosa eritematosa, frecuentes con CD4 &lt; 300; se trata con <strong>nistatina</strong> en suspensión o <strong>fluconazol 100–200 mg/día por 7–14 días</strong>. La esofágica (odinofagia, disfagia retroesternal; define etapa SIDA) se trata con <strong>fluconazol 200–400 mg/día por 14–21 días</strong>; si no responde se hace endoscopía con biopsia para descartar <em>Candida</em> resistente, CMV o herpes. Se deriva a infectología para el control del VIH y el inicio o ajuste de TARV.',
+          '<strong>Diarrea en el inmunosuprimido:</strong> además de los agentes habituales (<em>Salmonella</em>, <em>Campylobacter</em>, <em>Giardia</em>, <em>C. difficile</em>) deben buscarse <strong><em>Cryptosporidium</em>, <em>Cystoisospora</em> y microsporidios</strong> (CD4 &lt; 100–200, diarrea acuosa crónica), <strong>CMV</strong> (colitis, CD4 &lt; 50, dolor y hematoquezia) y complejo <em>Mycobacterium avium</em>. Estudio: coprocultivo, parasitológico seriado con tinción de Ziehl-Neelsen modificada, toxina de <em>C. difficile</em> y, si persiste, colonoscopía con biopsia. Manejo: rehidratación, tratamiento etiológico (cotrimoxazol para <em>Cystoisospora</em>, nitazoxanida para <em>Cryptosporidium</em>, ganciclovir para CMV) y, sobre todo, <strong>TARV</strong>, que restaura la inmunidad y es el tratamiento de la criptosporidiosis. Se deriva.',
+          '<strong>Antigenemia de CMV (nivel «interpreta y emplea»):</strong> detecta la proteína <strong>pp65</strong> en leucocitos de sangre periférica y se informa como número de células positivas por 200.000 leucocitos. Indica <strong>replicación viral activa</strong> y se emplea para monitorizar a trasplantados y a pacientes con VIH y CD4 &lt; 50 y para guiar la <strong>terapia anticipada</strong> (iniciar ganciclovir antes de que aparezca la enfermedad); la PCR cuantitativa para CMV cumple la misma función. Tiene tres limitaciones: <strong>infección no es enfermedad</strong> (una antigenemia positiva no basta para diagnosticar retinitis, colitis o neumonitis, que requieren clínica, fondo de ojo o biopsia con «células en ojo de búho»); la IgG positiva solo indica exposición previa; y es poco confiable en neutropenia. El tratamiento es ganciclovir 5 mg/kg cada 12 h EV (valganciclovir oral en enfermedad leve), 14–21 días.',
+          '<strong>Interpretación del antígeno de <em>Cryptococcus</em> y la tinta china:</strong> el <strong>antígeno criptocócico</strong> (látex o inmunocromatografía) en LCR o suero tiene sensibilidad &gt; 95 %; la <strong>tinta china</strong> muestra levaduras encapsuladas con halo claro, pero es menos sensible (70–90 % en VIH) y un resultado negativo no descarta. Un antígeno <strong>sérico positivo</strong> en un paciente con CD4 &lt; 100 indica criptococosis diseminada y obliga a una <strong>punción lumbar</strong> aunque no haya síntomas neurológicos; en el LCR se mide la presión de apertura (&gt; 25 cmH₂O requiere punciones evacuadoras repetidas) y se siembra en agar Sabouraud para confirmar. El título del antígeno sigue la carga fúngica, pero no se usa para decidir suspender el tratamiento.',
+          '<strong>Prevención de infecciones oportunistas en VIH:</strong> <strong>cotrimoxazol 160/800 mg al día</strong> cuando el CD4 es &lt; 200/mm³ (o hay candidiasis oral), que previene <em>Pneumocystis</em> y, con IgG positiva para <em>Toxoplasma</em>, la toxoplasmosis cerebral (CD4 &lt; 100); se suspende con CD4 &gt; 200 por más de 3 meses con TARV. Con PPD ≥ 5 mm o contacto bacilífero y TBC activa descartada: <strong>isoniacida por 6–9 meses</strong>. La profilaxis para <em>M. avium</em> (azitromicina 1.200 mg semanal, CD4 &lt; 50) ya no se recomienda si se inicia TARV. Además: TARV precoz, vacunas inactivadas (neumococo, influenza, hepatitis B, VPH), evitar vivas con CD4 &lt; 200 y medidas higiénicas.',
+          '<strong>Prevención de infecciones en inmunosuprimidos en general</strong> (neutropenia, trasplante, quimioterapia, corticoides, asplenia): higiene de manos del paciente, cuidadores y equipo; evitar contacto con enfermos y obras de construcción (esporas de <em>Aspergillus</em>); alimentos bien cocidos y lácteos pasteurizados (listeria), agua segura; precaución con mascotas (gatos y toxoplasma, reptiles y <em>Salmonella</em>); control dental; <strong>vacunas inactivadas</strong> y vacunación de los contactos; evitar vacunas vivas en inmunosupresión grave; profilaxis farmacológica según el riesgo (cotrimoxazol, aciclovir en trasplante, antifúngicos en leucemias) y aislamiento protector en neutropenia profunda.',
         ],
       },
     ],
@@ -320,6 +338,13 @@ const bloque3 = [
           '• <strong>Etambutol (E):</strong> <strong>neuritis óptica retrobulbar</strong> dosis-dependiente (pérdida de la agudeza visual y de la discriminación de colores verde-rojo; contraindicado en niños pequeños que no pueden colaborar con el examen oftalmológico).',
         ],
       },
+      {
+        subhead: '4. Fracaso de Tratamiento, TBC Multirresistente y TBC Genitourinaria',
+        paragraphs: [
+          '<strong>Fracaso del tratamiento de la TBC:</strong> persistencia de baciloscopía o cultivo positivo a partir del 5.º mes de un esquema bien tomado (o reaparición posterior). La causa más frecuente es la <strong>mala adherencia</strong>; también resistencia, malabsorción, errores de dosis, VIH y reinfección. Conducta: confirmar adherencia, solicitar <strong>cultivo con pruebas de sensibilidad y GeneXpert</strong> y <strong>derivar al equipo de TBC</strong>; nunca agregar un solo fármaco a un esquema que falla. La <strong>TBC multirresistente</strong> (resistencia a isoniacida y rifampicina) se sospecha en retratamientos, contactos de casos MDR, VIH y migrantes de zonas endémicas; se trata en centro especializado con esquemas de 6 meses con bedaquilina, pretomanid, linezolid y moxifloxacino o regímenes largos individualizados, siempre con tratamiento directamente observado.',
+          '<strong>TBC genitourinaria:</strong> es una forma extrapulmonar por reactivación, años después de la primoinfección. En el riñón da <strong>piuria ácida con urocultivo corriente negativo</strong> («piuria estéril»), hematuria microscópica, disuria y polaquiuria crónicas y dolor lumbar; evoluciona a estenosis ureteral y vejiga contraída. En el varón compromete epidídimo (masa indurada con fístula escrotal) y próstata; en la mujer, las trompas (infertilidad). Diagnóstico: <strong>cultivo de Koch en orina matinal de 3 días seguidos</strong>, PCR, y urografía/UroTAC (calcificaciones, estenosis, «riñón en masilla»). Se trata como el resto de las TBC extrapulmonares con el esquema estándar de 6 meses; se deriva para manejo urológico de las complicaciones.',
+        ],
+      },
     ],
     table: {
       title: 'Farmacología Antituberculosa de Primera Línea: Mecanismos y Efectos Adversos',
@@ -415,6 +440,13 @@ const bloque3 = [
           '• <strong>Embarazada alérgica a penicilina:</strong> <strong>desensibilización obligatoria en UCI</strong> y tratamiento con penicilina (la doxiciclina está estrictamente contraindicada). La reacción de Jarisch-Herxheimer es benigna y se maneja con paracetamol.',
         ],
       },
+      {
+        subhead: '4. Sífilis Congénita y Enfoque Sindrómico de las ITS',
+        paragraphs: [
+          '<strong>Sífilis congénita:</strong> transmisión transplacentaria (riesgo máximo con sífilis materna reciente y no tratada). El tamizaje con VDRL se hace en el primer control, a las 28 semanas y al parto (GES). <strong>Precoz</strong> (&lt; 2 años): hepatoesplenomegalia, rinitis sanguinolenta («snuffles»), lesiones ampollares palmoplantares (pénfigo sifilítico), condilomas planos, osteocondritis con pseudoparálisis de Parrot, ictericia, anemia y trombocitopenia. <strong>Tardía</strong>: tríada de Hutchinson (dientes de Hutchinson, queratitis intersticial y sordera), nariz en silla de montar, tibias en sable. Un recién nacido de madre con sífilis no tratada, tratada con otro antibiótico o con penicilina menos de 4 semanas antes del parto, o con VDRL ≥ 4 veces el materno, se estudia (VDRL, LCR, Rx de huesos largos) y se trata con <strong>penicilina G sódica EV por 10 días</strong>; se deriva a neonatología. La prevención es tratar a la gestante con penicilina benzatina al menos 30 días antes del parto y a su pareja.',
+          '<strong>Enfoque sindrómico de las ITS:</strong> se actúa por síndrome y no por agente: <strong>úlcera genital</strong> (sífilis, herpes, chancroide, linfogranuloma), <strong>secreción uretral</strong> (gonococo, <em>Chlamydia</em>), <strong>flujo vaginal</strong>, <strong>dolor abdominal bajo (EPI)</strong>, <strong>bubón inguinal</strong> y verrugas genitales (véase Tema 3.5). En todo paciente con una ITS se ofrece estudio de VIH, hepatitis B y sífilis, se da consejería y uso de preservativo, se trata y estudia a las parejas de los últimos 60–90 días y se <strong>notifica</strong>. La sífilis facilita la transmisión y adquisición de VIH, y en coinfectados la neurosífilis es más frecuente.',
+        ],
+      },
     ],
     table: {
       title: 'Interpretación de Algoritmos Serológicos de Sífilis',
@@ -508,6 +540,13 @@ const bloque3 = [
         paragraphs: [
           '• <strong>VPH de bajo riesgo oncogénico (genotipos 6 y 11):</strong> causan los <strong>Condilomas acuminados</strong> (verrugas anogenitales exofíticas "en cresta de gallo" en glande, vulva o perianal). Tratamiento: Podofilotoxina tópica al 0.5%, Imiquimod al 5% o crioterapia.<br>' +
           '• <strong>VPH de alto riesgo oncogénico (genotipos 16 y 18 causan el 70% del cáncer cervical):</strong> provocan displasia intraepitelial asintomática. Tamizaje GES en Chile: citología cervical (PAP) cada 3 años entre los 25 y 64 años, o test molecular de ADN-VPH cada 5 años.',
+        ],
+      },
+      {
+        subhead: '4. Prevención de las ITS y Tinción de Gram Uretral',
+        paragraphs: [
+          '<strong>Prevención de las ITS:</strong> educación sexual, postergar el inicio de la vida sexual, reducir parejas y uso <strong>correcto y consistente del preservativo</strong> (muy eficaz contra VIH, gonococo y <em>Chlamydia</em>; protege menos contra herpes, VPH y sífilis, que se transmiten por piel). Vacunas: <strong>VPH</strong> (niñas y niños en 4.º y 5.º básico) y hepatitis B. Tamizaje periódico (clamidia en mujeres sexualmente activas &lt; 25 años, VIH, sífilis), consejería, <strong>tratamiento oportuno y de las parejas</strong> con abstinencia hasta 7 días después de completarlo, profilaxis preexposición (PrEP) en alto riesgo y profilaxis postexposición. Factores de riesgo: inicio precoz, múltiples parejas, no uso de preservativo, ITS previa, pareja con ITS, hombres que tienen sexo con hombres, trabajo sexual, alcohol y drogas, y abuso sexual.',
+          '<strong>Tinción de Gram uretral (nivel «realizar»):</strong> se toma la secreción con tórula o asa, de preferencia la <strong>primera gota matinal</strong> o al menos 2 horas sin orinar; se rueda (no se frota) en un portaobjetos, se seca al aire y se fija con calor. Tinción: cristal violeta (1 min) → lugol (1 min) → decolorante alcohol-acetona (5–10 s) → safranina (30–60 s) → lavar y secar; se observa a 1.000×. La uretritis se confirma con <strong>≥ 5 leucocitos polimorfonucleares por campo</strong>; los <strong>diplococos gramnegativos intracelulares</strong> confirman gonorrea (sensibilidad &gt; 90 % en el varón sintomático). Si hay polimorfonucleares sin diplococos se trata como uretritis no gonocócica (<em>Chlamydia</em>, <em>Mycoplasma</em>, <em>Ureaplasma</em>, <em>Trichomonas</em>). En la mujer el Gram endocervical es poco sensible: se prefieren PCR o cultivo.',
         ],
       },
     ],

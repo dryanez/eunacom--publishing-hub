@@ -44,12 +44,30 @@ module.exports = {
           { t: 'Otalgia unilateral con otoscopía normal', d: 'Dolor referido desde faringe o laringe',
             say: 'La segunda es la otalgia unilateral persistente con otoscopía rigurosamente normal. Es dolor referido de un tumor de la base de la lengua, la amígdala, la hipofaringe o la laringe.' },
           { t: 'Úlcera o placa que no cicatriza', d: 'Leucoplaquia o eritroplasia, más de 2 semanas',
-            say: 'La tercera es una úlcera indurada, o una placa blanca o roja, leucoplaquia o eritroplasia, en la lengua o la boca, que no cicatriza en dos semanas.' },
+            say: 'La tercera es una úlcera indurada, o una placa blanca o roja, leucoplaquia o eritroplasia, en la lengua o la boca, que no cicatriza en dos semanas. Mira este carcinoma en el borde izquierdo de la lengua: una lesión irregular, áspera, con áreas blanquecinas. Y esta es una leucoplaquia con displasia severa: una placa blanca lisa, premaligna.',
+            photos: [
+              { src: 'biblioteca/17_otorrino/orl-20/01_carcinoma-de-lengua__bates_p286.jpg', label: 'Carcinoma de lengua', at: 'Mira este carcinoma', credit: 'Bates 12.ª ed., Fig. 7-71' },
+              { src: 'biblioteca/17_otorrino/orl-20/02_leucoplaquia-displasia-lengua__bailey-love_p788.jpg', label: 'Leucoplaquia con displasia', at: 'Y esta es una leucoplaquia', credit: 'Bailey & Love 27.ª ed., Fig. 48.11 (a)' },
+            ] },
           { t: 'Odinofagia o disfagia unilateral', d: 'Progresiva, con cuerpo extraño constante',
             say: 'La cuarta es la odinofagia o disfagia unilateral y progresiva, con sensación constante de cuerpo extraño en la faringe.' },
           { t: 'Obstrucción nasal unilateral en adulto', d: 'Epistaxis u otitis con efusión: cavum',
             say: 'Y la quinta: obstrucción nasal unilateral, epistaxis recurrente de un lado u otitis con efusión unilateral en un adulto. Eso es un cáncer de cavum, la nasofaringe, vinculado al virus de Epstein-Barr, y el tumor tapa la trompa de Eustaquio.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Banderas rojas y regla de los 80',
+      images: [
+        { src: 'animaciones/orl-20/A1_cancer_orl_banderas_y_regla_80.mp4', label: 'Cáncer de cabeza y cuello: banderas rojas y regla de los ochenta', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Cinco banderas rojas y cuánto vale una masa cervical',
+          say: 'Mira dónde nacen las banderas rojas: la disfonía de más de tres semanas, la otalgia con otoscopía normal, la úlcera que no cicatriza, la odinofagia unilateral y la obstrucción nasal de un solo lado. Y si en un mayor de cuarenta años aparece una masa cervical dura, aplica la regla de los ochenta: ochenta por ciento neoplásica, ochenta de esas maligna, y casi todas, metástasis de un escamoso de la vía aerodigestiva. Nunca una biopsia abierta del ganglio.' },
       ],
     },
 
@@ -80,23 +98,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Cáncer y lesión premaligna de la lengua',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-20/01_carcinoma-de-lengua__bates_p286.jpg', label: 'Carcinoma en el borde izquierdo de la lengua', credit: 'Bates 12.ª ed., Fig. 7-71' },
-        { src: 'biblioteca/17_otorrino/orl-20/02_leucoplaquia-displasia-lengua__bailey-love_p788.jpg', label: 'Leucoplaquia con displasia severa en el borde lateral de la lengua', credit: 'Bailey & Love 27.ª ed., Fig. 48.11 (a)' },
-      ],
-      steps: [
-        { note: 'Carcinoma: lesión irregular en el borde lateral',
-          say: 'Esta es la imagen de un carcinoma en el lado izquierdo de la lengua. Mira que no es una lesión lisa: tiene una superficie irregular y áspera, con áreas blanquecinas. Los bordes laterales y el piso de la boca son los sitios donde más hay que buscar.' },
-        { note: 'Leucoplaquia: la placa blanca que no sale',
-          say: 'Y esta es una leucoplaquia con displasia severa en el borde lateral de la lengua: una placa blanquecina de superficie lisa. Es premaligna. Una placa de este tipo que no desaparece en dos semanas se deriva y se biopsia.' },
-      ],
-    },
-
-    {
       type: 'flow',
       kicker: 'Regla de los 80',
       title: 'La masa cervical del adulto mayor de 40',
@@ -119,7 +120,8 @@ module.exports = {
         { show: ['ml', 'me'], note: 'La mayoría son metástasis, no tumores primarios',
           say: 'Segundo: de las neoplásicas, ochenta por ciento son malignas. Tercero: de las malignas, ochenta por ciento son metástasis ganglionares, y el resto, tumores primarios como los linfomas.' },
         { show: ['es'], note: 'El primario está en la vía aerodigestiva superior',
-          say: 'Y cuarto: de esas metástasis, ochenta por ciento vienen de un carcinoma escamoso de la vía aerodigestiva superior, por encima de las clavículas. Entonces, una masa pétrea e indolora en el cuello de un fumador mayor de cuarenta años es una metástasis de un carcinoma escamoso hasta demostrar lo contrario. Y hay que encontrar el tumor primario.' },
+          say: 'Y cuarto: de esas metástasis, ochenta por ciento vienen de un carcinoma escamoso de la vía aerodigestiva superior, por encima de las clavículas. Entonces, una masa pétrea e indolora en el cuello de un fumador mayor de cuarenta años es una metástasis de un carcinoma escamoso hasta demostrar lo contrario. Y hay que encontrar el tumor primario. Mira este cuello: una masa lateral, dura, en un hombre mayor.',
+          photo: { src: 'biblioteca/17_otorrino/orl-20/03_masa-cervical-metastasica__openi.jpg', label: 'Masa cervical lateral', at: 'Mira este cuello', credit: 'Open-i (NLM), CC BY' } },
       ],
     },
 
@@ -145,6 +147,56 @@ module.exports = {
           say: 'Segundo, punción aspirativa con aguja fina, guiada por ecografía. Es el método de primera línea, con sensibilidad y especificidad sobre noventa y cinco por ciento, y no altera la anatomía del ganglio. Con eso se pide un escáner de cuello y tórax con contraste para etapificar.' },
         { show: ['bx'], note: 'Abrir el ganglio siembra el tumor',
           say: 'Y la prohibición: no se hace biopsia incisional ni escisional abierta del ganglio sin estudio previo. Abrir una adenopatía metastásica rompe las barreras fasciales del cuello, siembra células tumorales en el tejido subcutáneo, empeora la sobrevida y multiplica la recidiva cervical. Si el primario aparece, el ganglio se tratará junto con él.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Sospecha y prevención',
+      title: 'Boca, laringe y nariz: cuándo sospechar y qué hacer',
+      cards: [
+        { title: 'Boca, labios y orofaringe', tag: 'Úlcera que no cicatriza', kind: 'alert', items: [
+          { t: 'Lesión de más de 2 a 3 semanas, leucoplaquia, induración', d: 'Tabaco, alcohol, betel; VPH 16 en la orofaringe',
+            say: 'El cáncer de boca, labios y orofaringe se sospecha ante una úlcera que no cicatriza en dos a tres semanas, leucoplaquia o eritroplasia, induración, sangrado o una adenopatía dura. Los factores son tabaco, alcohol, betel y, en la orofaringe, el virus del papiloma humano dieciséis.' },
+          { t: 'Palpar, quitar irritantes, reevaluar a las 2 semanas', d: 'Si persiste: biopsia',
+            say: 'Manejo inicial: palpas la lesión y el cuello, retiras irritantes y prótesis traumáticas, tratas la candidiasis o la infección, y reevalúas a las dos semanas. Si persiste, derivas para biopsia.' },
+        ] },
+        { title: 'Laringe', tag: 'Escamoso, glótico', kind: 'key', items: [
+          { t: 'Disfonía persistente en fumador', d: 'Luego disfagia, otalgia refleja, hemoptisis, estridor, masa cervical',
+            say: 'El cáncer laríngeo es casi siempre escamoso, y el glótico es el más frecuente. Se sospecha con disfonía de más de tres semanas en un fumador, y más tarde disfagia, otalgia refleja, hemoptisis, estridor o masa cervical. No lo manejas: derivas a laringoscopía y biopsia.' },
+          { t: 'Prevención: tabaco y alcohol', d: 'Consejería breve, reemplazo de nicotina, vareniclina; reflujo; asbesto y polvos',
+            say: 'La prevención es dejar el tabaco, con consejería breve, reemplazo de nicotina o vareniclina, y reducir el alcohol, que potencian su efecto, más el control del reflujo y la protección ante asbesto y polvos.' },
+        ] },
+        { title: 'Nariz y odinofagia crónica', tag: 'Banderas rojas', kind: 'pharma', items: [
+          { t: 'Nasosinusal: obstrucción y epistaxis unilaterales', d: 'Madera, cuero, níquel, cromo; dolor o hipoestesia de la mejilla',
+            say: 'El cáncer nasosinusal es raro, ligado a polvo de madera y cuero, níquel y cromo. Sospéchalo con obstrucción nasal unilateral persistente, epistaxis unilateral recurrente o rinorrea sanguinolenta, dolor o hipoestesia de la mejilla, proptosis o diplopía.' },
+          { t: 'Odinofagia crónica con alarma', d: 'Unilateral, otalgia refleja, masa cervical, baja de peso, tabaco',
+            say: 'La odinofagia de más de tres a cuatro semanas suele ser benigna, pero si es unilateral, con otalgia refleja, masa cervical, baja de peso y tabaquismo, derivas para endoscopía.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Adenitis cervical',
+      title: 'El ganglio del cuello en el niño',
+      cards: [
+        { title: 'Adenitis aguda', tag: 'Reactiva o bacteriana', kind: 'key', items: [
+          { t: 'Casi siempre reactiva o viral', d: 'Bacteriana: S. aureus o S. pyogenes',
+            say: 'La adenitis cervical en el niño suele ser reactiva o viral. La bacteriana, por estafilococo dorado o estreptococo piógeno, da un ganglio unilateral, doloroso, caliente y rojo, con fiebre.' },
+          { t: 'Amoxicilina con clavulánico o cefadroxilo, 10 días', d: 'Si fluctúa: ecografía y drenaje',
+            say: 'Se trata diez días con amoxicilina con ácido clavulánico o cefadroxilo. Si fluctúa, se pide ecografía y se drena.' },
+        ] },
+        { title: 'Adenopatía de más de 3 semanas', tag: 'Subaguda o crónica', kind: 'criteria', items: [
+          { t: 'Pensar en micobacterias, tuberculosis, Bartonella, toxoplasma, CMV, VEB', d: 'Estudio dirigido',
+            say: 'Si dura más de tres semanas, piensa en micobacterias atípicas, tuberculosis ganglionar, enfermedad por arañazo de gato con Bartonella, toxoplasmosis, citomegalovirus y virus de Epstein-Barr.' },
+        ] },
+        { title: 'Señales de neoplasia', tag: 'Linfoma o leucemia', kind: 'alert', items: [
+          { t: 'Mayor de 2 cm, duro, indoloro, fijo o supraclavicular', d: 'Crecimiento progresivo; fiebre, baja de peso, hepatoesplenomegalia',
+            say: 'Son señales de alarma un ganglio mayor de dos centímetros, duro, indoloro y fijo, supraclavicular, de crecimiento progresivo, o con fiebre, baja de peso y hepatoesplenomegalia.' },
+          { t: 'Hemograma, ecografía, PPD y biopsia', d: 'Sin corticoides antes del diagnóstico',
+            say: 'Pides hemograma, ecografía, PPD y biopsia, y no das corticoides antes de tener un diagnóstico, porque pueden enmascarar un linfoma.' },
+        ] },
       ],
     },
 
@@ -258,6 +310,232 @@ module.exports = {
         options: 'Las opciones: escáner de cuello; escáner de tórax; ecografía de cuello; nasofibrolaringoscopía; o endoscopía digestiva alta. Piénsalo.',
         answer: 'Es la D. Este es el primer paso de la secuencia de hoy: antes que cualquier imagen, se mira la mucosa para encontrar el tumor primario. Aquí el primario casi seguro es la laringe, y la adenopatía dura es su metástasis. Las imágenes vienen después, para etapificar.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.1.004 · Cáncer de boca, labios y orofaringe",
+      "stem": "Un hombre de 64 años, fumador de 40 paquetes-año y bebedor diario, consulta por una úlcera indolora de 1,5 cm, de bordes indurados, en el borde lateral izquierdo de la lengua, de 6 semanas de evolución. Hace 3 semanas se retiró una prótesis dental que la rozaba, pero la lesión no ha cicatrizado. No se palpan adenopatías cervicales.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enjuagues con clorhexidina y control en 3 meses"
+        },
+        {
+          "letter": "B",
+          "text": "Cauterización con nitrato de plata"
+        },
+        {
+          "letter": "C",
+          "text": "Aciclovir oral por 7 días"
+        },
+        {
+          "letter": "D",
+          "text": "Nistatina en suspensión oral"
+        },
+        {
+          "letter": "E",
+          "text": "Biopsia de la lesión"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Una úlcera, leucoplaquia o eritroplasia que no cicatriza en 2 semanas, sobre todo indurada, en el borde lateral de la lengua de un fumador y bebedor, es un carcinoma escamoso hasta demostrar lo contrario. Se biopsia y se deriva a cabeza y cuello para etapificar. Observar o tratar empíricamente retrasa el diagnóstico.",
+      "say": {
+        "stem": "Hombre de sesenta y cuatro años, gran fumador y bebedor, con una úlcera indurada e indolora de un centímetro y medio en el borde de la lengua, de seis semanas. Ya se retiró la prótesis que la rozaba y la úlcera no cicatriza.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: enjuagues con clorhexidina y control, cauterización con nitrato de plata, aciclovir, nistatina o biopsia. Piénsalo.",
+        "answer": "Es la E. Una úlcera indurada en el borde de la lengua que no cicatriza en dos semanas, en un fumador y bebedor, es un cáncer escamoso hasta demostrar lo contrario, y se biopsia. La clorhexidina con control tienta porque parece una úlcera traumática, pero ya retiraste la causa y no cicatrizó."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Enero 2023 · Pregunta 80",
+      "stem": "Adulto joven con una masa blanda palpable en la línea media del cuello, entre el mentón y el cartílago tiroides.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adenoma tiroideo"
+        },
+        {
+          "letter": "B",
+          "text": "Quiste tirogloso"
+        },
+        {
+          "letter": "C",
+          "text": "Quiste branquial"
+        },
+        {
+          "letter": "D",
+          "text": "Linfadenitis cervical"
+        },
+        {
+          "letter": "E",
+          "text": "Lipoma cervical"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El quiste tirogloso es la masa congénita más frecuente de la línea media del cuello; se ubica habitualmente a nivel o bajo el hueso hioides, por encima del tiroides, y asciende al protruir la lengua o deglutir. El quiste branquial, en cambio, es lateral, anterior al borde del esternocleidomastoideo.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de enero de dos mil veintitrés. Adulto joven con una masa blanda palpable en la línea media del cuello, entre el mentón y el cartílago tiroides.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: adenoma tiroideo, quiste tirogloso, quiste branquial, linfadenitis cervical, o lipoma cervical. Piénsalo.",
+        "answer": "Es la B. Masa blanda en la línea media, por encima del tiroides, en un joven: quiste tirogloso, que además sube al sacar la lengua. El quiste branquial tienta por ser la otra masa congénita clásica, pero ese es lateral, por delante del esternocleidomastoideo."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2017 · Pregunta 142",
+      "stem": "Un escolar de 6 años presenta aumento de volumen submandibular derecho, doloroso. Al examen físico se aprecia dicho aumento de volumen, de aspecto eritematoso, de 3 cm de diámetro, doloroso a la palpación.",
+      "question": "¿Cuál es el agente etiológico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bacteroides fragilis"
+        },
+        {
+          "letter": "B",
+          "text": "Peptoestreptococo"
+        },
+        {
+          "letter": "C",
+          "text": "Streptococcus pyogenes (grupo A)"
+        },
+        {
+          "letter": "D",
+          "text": "Staphylococcus aureus"
+        },
+        {
+          "letter": "E",
+          "text": "Escherichia coli"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Una adenitis cervical aguda unilateral, eritematosa y dolorosa en un niño es una adenitis bacteriana piógena. Los agentes son Staphylococcus aureus y Streptococcus pyogenes; cuando el ganglio está inflamado y tiende a abscedarse, el más probable es S. aureus. Se trata con cefadroxilo o cloxacilina y drenaje si fluctúa.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Un escolar de seis años tiene un aumento de volumen submandibular derecho, eritematoso y doloroso, de unos tres centímetros.",
+        "question": "¿Cuál es el agente etiológico más probable?",
+        "options": "Las opciones: Bacteroides, peptoestreptococo, estreptococo grupo A, estafilococo dorado o Escherichia coli. Piénsalo.",
+        "answer": "Es la D. La adenitis cervical piógena unilateral, sobre todo cuando se inflama y tiende a abscedarse, es causada principalmente por estafilococo dorado. El estreptococo grupo A es el distractor tentador porque también la produce, pero es menos frecuente en la adenitis supurada."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.1.006 · Cáncer nasosinusal",
+      "stem": "Hombre de 62 años, carpintero por 40 años, con obstrucción nasal izquierda progresiva de 4 meses, epistaxis unilateral recurrente, rinorrea fétida y parestesia de la mejilla izquierda. La rinoscopía muestra una masa friable en la fosa nasal izquierda.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Corticoide nasal y control en 3 meses"
+        },
+        {
+          "letter": "B",
+          "text": "Antibiótico por sinusitis bacteriana"
+        },
+        {
+          "letter": "C",
+          "text": "Cauterización de la epistaxis y alta"
+        },
+        {
+          "letter": "D",
+          "text": "Derivación prioritaria a otorrinolaringología para TAC o RM de cavidades paranasales y biopsia por sospecha de cáncer nasosinusal"
+        },
+        {
+          "letter": "E",
+          "text": "Polipectomía en atención primaria"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Síntomas nasales unilaterales y progresivos (obstrucción, epistaxis, rinorrea fétida) con signos de invasión (hipoestesia del infraorbitario, diplopía, proptosis) en un adulto mayor son banderas rojas de cáncer nasosinusal. La exposición a polvo de madera se asocia a adenocarcinoma etmoidal. Requiere imagen y biopsia. Los pólipos inflamatorios suelen ser bilaterales.",
+      "say": {
+        "stem": "Carpintero de sesenta y dos años con obstrucción nasal izquierda progresiva, epistaxis del mismo lado, mal olor y hormigueo en la mejilla, con una masa friable en la fosa nasal.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: corticoide nasal y control, antibiótico, cauterizar y alta, derivación prioritaria para imagen y biopsia o polipectomía en atención primaria. Piénsalo.",
+        "answer": "Es la D. Síntomas nasales unilaterales con hipoestesia facial y masa friable son banderas rojas de cáncer nasosinusal y se derivan para imagen y biopsia. La sinusitis tienta por la rinorrea, pero no explica la masa ni la pérdida de sensibilidad."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.1.018 · Odinofagias crónicas",
+      "stem": "Hombre de 60 años, fumador de 40 paquetes-año y bebedor intenso, con odinofagia derecha de 2 meses, otalgia refleja derecha y baja de 6 kg de peso. No tiene fiebre. Se palpa una adenopatía cervical derecha dura de 3 cm.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amoxicilina por 10 días y control"
+        },
+        {
+          "letter": "B",
+          "text": "Ecografía tiroidea"
+        },
+        {
+          "letter": "C",
+          "text": "Inhibidor de bomba de protones por reflujo"
+        },
+        {
+          "letter": "D",
+          "text": "Antiinflamatorios y control en 3 meses"
+        },
+        {
+          "letter": "E",
+          "text": "Derivación prioritaria a otorrinolaringología para nasofibrolaringoscopía y biopsia por sospecha de cáncer de orofaringe, hipofaringe o laringe"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La odinofagia persistente (más de 3 semanas), unilateral, con otalgia refleja, baja de peso y adenopatía cervical dura en un fumador y bebedor es un carcinoma escamoso de cabeza y cuello hasta demostrar lo contrario. Requiere examen endoscópico, biopsia de la lesión primaria y TAC cervical con contraste. No se debe tratar empíricamente con antibióticos de forma reiterada.",
+      "say": {
+        "stem": "Hombre de sesenta años, gran fumador y bebedor, con dos meses de dolor al tragar del lado derecho, dolor de oído del mismo lado, baja de peso y un ganglio cervical duro.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: amoxicilina, ecografía tiroidea, inhibidor de bomba de protones, antiinflamatorios y control o derivación prioritaria para endoscopía y biopsia. Piénsalo.",
+        "answer": "Es la E. Odinofagia unilateral persistente con otalgia refleja, baja de peso y ganglio duro en un fumador es un cáncer de cabeza y cuello hasta probar lo contrario. El antibiótico tienta, pero solo retrasa el diagnóstico."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.3.004 · Prevención de cáncer laríngeo",
+      "stem": "Hombre de 50 años, fumador de 30 paquetes-año y consumidor de alcohol diario, consulta en APS por un control preventivo. No tiene síntomas.",
+      "question": "¿Cuál es la medida más efectiva para prevenir el cáncer de laringe en este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nasofibrolaringoscopía anual de tamizaje"
+        },
+        {
+          "letter": "B",
+          "text": "Antiinflamatorios diarios"
+        },
+        {
+          "letter": "C",
+          "text": "Vitamina E diaria"
+        },
+        {
+          "letter": "D",
+          "text": "Cesación tabáquica y reducción del consumo de alcohol"
+        },
+        {
+          "letter": "E",
+          "text": "Reposo vocal"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El tabaco es el principal factor de riesgo de cáncer de laringe y el alcohol potencia su efecto en forma sinérgica. La prevención primaria es la cesación tabáquica y la reducción del alcohol. No existe tamizaje poblacional recomendado; la clave es la detección precoz de síntomas: toda disfonía de más de 3 semanas en un fumador debe evaluarse con laringoscopía.",
+      "say": {
+        "stem": "Hombre de cincuenta años, fumador y bebedor diario, sin síntomas, en control preventivo.",
+        "question": "¿Cuál es la medida más efectiva para prevenir el cáncer de laringe?",
+        "options": "Las opciones: laringoscopía anual, antiinflamatorios diarios, vitamina E, dejar de fumar y reducir el alcohol o reposo vocal. Piénsalo.",
+        "answer": "Es la D. Dejar de fumar y reducir el alcohol es la prevención más efectiva, porque son sus principales factores y potencian su efecto. La laringoscopía anual tienta, pero no existe tamizaje recomendado; se estudia ante disfonía de más de tres semanas."
+      }
     },
 
     {

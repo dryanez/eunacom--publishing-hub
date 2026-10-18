@@ -1,7 +1,7 @@
 /**
  * DATASET MASTER · Tomo 13: Urología
  * EUNACOM 2026 · Colección Oficial · Módulo 2 Cirugía y Especialidades Quirúrgicas
- * Color Oficial: #0369a1 (Azul Zafiro) · Código: UR · 15 Clases · 4 Bloques · 45 Preguntas AEE
+ * Color Oficial: #0369a1 (Azul Zafiro) · Código: UR · 16 Clases · 4 Bloques · 45 Preguntas AEE
  */
 
 function flow(title, rows) {
@@ -35,16 +35,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -146,6 +147,15 @@ const urologiaClasses = [
         "paragraphs": [
           "Constituyen <strong>emergencias urológicas absolutas</strong> que exigen hospitalización inmediata y descompresión urgente de la vía urinaria (mediante catéter Doble J o nefrostomía percutánea): el cólico renal asociado a fiebre o sepsis (pionefrosis obstructiva), la obstrucción en paciente monorreno anatómico o funcional, la anuria o el dolor refractario a analgesia máxima.",
           "La medida preventiva más costo-efectiva a largo plazo para todos los pacientes es mantener una <strong>ingesta de agua superior a 2.5 a 3.0 litros diarios</strong> para asegurar un volumen urinario > 2.0 L/día con densidad < 1.010. El estudio metabólico orienta terapias dirigidas: Hidroclorotiazida en hipercalciuria idiopática, Citrato de potasio en hipocitraturia o cálculos de ácido úrico, y quelantes de oxalato en hiperoxaluria entérica."
+        ]
+      },
+      {
+        "subhead": "6. Estudio Complementario: Radiografía Simple, Urografía Excretora, Calciuria de 24 Horas y Catéter Doble J",
+        "paragraphs": [
+          "La <strong>radiografía simple renal y vesical (Rx de abdomen o 'KUB')</strong> muestra los cálculos <strong>radiopacos</strong> (oxalato y fosfato de calcio, estruvita), pero <strong>no</strong> los de ácido úrico puro, que son radiolúcidos, ni los cálculos menores de 2 a 3 mm, que se pierden entre el hueso, las heces y el gas. Su sensibilidad es baja (alrededor de 50-60%), por lo que <strong>no reemplaza al TAC</strong>; se usa para seguir un cálculo radiopaco ya conocido y para decidir si la litotripsia extracorpórea (LEOC) lo podrá localizar. <em>Cómo interpretarla:</em> recorrer la silueta renal, el trayecto ureteral (puntas de las apófisis transversas lumbares, articulación sacroilíaca, espina ciática) y la vejiga, y distinguir el cálculo de los <strong>flebolitos pelvianos</strong> (redondos, de centro claro), de las calcificaciones vasculares y de las heces.",
+          "La <strong>pielografía de eliminación (urografía excretora o UIV)</strong> consiste en inyectar contraste yodado endovenoso y tomar placas seriadas: muestra el retardo de la excreción del lado obstruido, la <strong>dilatación pielocalicial</strong> y la columna de contraste que se detiene sobre el cálculo o el defecto de llenado. Hoy está reemplazada casi por completo por el Uro-TAC, de modo que el médico general la <strong>emplea a través del informe</strong> (riñón mudo o con eliminación retardada, ureterohidronefrosis, defecto de llenado). Se evita con alergia al yodo, insuficiencia renal o embarazo.",
+          "La <strong>calciuria de 24 horas</strong> forma parte del estudio metabólico que se hace <strong>4 a 6 semanas después</strong> del episodio, con dieta habitual y orina estéril. Se interpreta como <strong>hipercalciuria</strong> cuando supera <strong>250 mg/24 h en la mujer o 300 mg/24 h en el varón</strong> (o 4 mg/kg/día); se pide junto con citraturia, oxaluria, uricosuria, creatinina, calcemia y PTH si el calcio sérico está alto. En la hipercalciuria idiopática se indica <strong>dieta normocálcica</strong> (no restringir calcio), baja en sodio y proteína animal, y <strong>tiazidas</strong>.",
+          "El <strong>catéter Doble J (pigtail)</strong> es un tubo ureteral con un extremo enrollado en la pelvis renal y otro en la vejiga, que mantiene el uréter permeable. Lo instala el <strong>urólogo</strong> por vía cistoscópica bajo anestesia (nivel de <strong>derivación</strong>) y está indicado en obstrucción con fiebre o sepsis, riñón único, insuficiencia renal aguda obstructiva o dolor refractario; la alternativa es la nefrostomía percutánea. El médico general debe reconocer la indicación, iniciar antibióticos y suero, y derivar de urgencia. Produce molestias (urgencia, dolor al orinar, hematuria leve) y <strong>no debe quedar olvidado</strong>: se recambia o retira en pocas semanas a meses por riesgo de incrustación e infección."
         ]
       }
     ],
@@ -476,6 +486,22 @@ const urologiaClasses = [
           "La clásica práctica de clamar intermitentemente la sonda para prevenir la supuesta 'hematuria ex vacuo' o colapso hemodinámico ha sido desmentida por la evidencia urológica moderna: la descompresión debe ser <strong>continua, completa y no fraccionada</strong>, ya que el clampeo perpetúa el dolor y el reflujo vesicoureteral.",
           "Si el volumen inicial evacuado supera los 1.000 mL, el paciente debe mantenerse en observación por riesgo de <strong>diuresis post-obstructiva</strong> (poliuria marcada por pérdida transitoria del gradiente medular renal) que puede desencadenar hipovolemia e hipokalemia severas. Todo paciente con RAO debe ser derivado a urología para estudio causal (véase Tabla 13.2)."
         ]
+      },
+      {
+        "subhead": "4. Hidronefrosis y Descompresión Alta: Nefrostomía Percutánea",
+        "paragraphs": [
+          "La <strong>hidronefrosis</strong> es la dilatación del sistema pielocalicial por obstrucción al flujo de orina (litiasis, HPB, estenosis uretral, vejiga neurogénica, tumor pélvico o retroperitoneal). Se <strong>sospecha</strong> en todo paciente con retención de orina, cólico renal o aumento de la creatinina, y la <strong>ecografía renal</strong> la confirma (cálices y pelvis anecoicos dilatados con adelgazamiento del parénquima). Conducta inicial: resolver la obstrucción baja (sonda vesical), pedir creatinina, electrolitos y urocultivo, y <strong>derivar</strong>. Es urgencia si es bilateral, en monorreno, con fiebre (pionefrosis) o con deterioro de la función renal; la obstrucción prolongada deja atrofia cortical irreversible.",
+          "La <strong>nefrostomía percutánea</strong> consiste en puncionar el sistema colector bajo guía ecográfica o radioscópica y dejar un catéter que drena la orina al exterior. Es un procedimiento de <strong>derivación</strong>: se indica en la obstrucción alta con infección (pionefrosis), cuando el Doble J no se puede instalar o en la obstrucción maligna del uréter. El médico general no la realiza, pero debe reconocer cuándo pedirla y mantener antibióticos y reposición de volumen mientras se traslada."
+        ]
+      },
+      {
+        "subhead": "5. Cistostomía: Técnica de Punción, Variante Abierta, Estenosis Uretral y Uretrografía",
+        "paragraphs": [
+          "<strong>Técnica de la cistostomía por punción (nivel 'realizar'):</strong> comprobar un globo vesical palpable y mate (o ver la vejiga llena con ecografía), colocar al paciente en decúbito dorsal, hacer asepsia y <strong>anestesia local con lidocaína al 2%</strong> en la línea media, <strong>2 a 3 cm sobre la sínfisis del pubis</strong>. Se punciona perpendicular a la piel (levemente hacia caudal), se aspira orina para confirmar la posición, se avanza el trócar del equipo tipo Cystofix, se retira el mandril, se introduce la sonda hasta que drene orina, se infla el balón o se fija con un punto de seda y se conecta a bolsa colectora. <em>Contraindicaciones:</em> vejiga no distendida, cirugía abdominal baja previa (asas adheridas a la pared), coagulopatía no corregida y sospecha de tumor vesical. <em>Complicaciones:</em> hematuria, perforación intestinal, falsa vía e infección. La sonda se cambia cada 4 a 6 semanas.",
+          "La <strong>cistostomía abierta</strong> es una cirugía a cargo del urólogo: se abre la vejiga por una incisión suprapúbica bajo anestesia. Se prefiere (nivel de <strong>derivación</strong>) cuando la punción está contraindicada o fracasó, cuando la vejiga no se distiende, hay cirugía abdominal previa o se necesita ver directamente la vejiga (coágulos, cálculos, tumor, reparación en trauma uretral complejo).",
+          "La <strong>estenosis uretral</strong> se <strong>sospecha</strong> en el varón con chorro fino y débil, esfuerzo miccional, residuo postmiccional o infecciones urinarias a repetición, con antecedente de uretritis (gonocócica), sondeos o instrumentación, trauma perineal o fractura pélvica (uretra bulbar) o liquen escleroso. Es causa de retención aguda en un varón joven con próstata pequeña. El estudio muestra un flujo bajo y aplanado en la uroflujometría y la zona estrechada en la <strong>uretrografía</strong>. Manejo inicial: descomprimir con <strong>cistostomía</strong> si hay retención y evitar sondeos ciegos repetidos; el urólogo realiza dilatación o uretrotomía interna y, en estenosis largas o recidivadas, uretroplastia.",
+          "La <strong>uretrografía retrógrada y miccional</strong> inyecta contraste por el meato (con un catéter de balón en la fosa navicular) y toma imágenes oblicuas: muestra el <strong>sitio y largo de una estenosis</strong> o la <strong>extravasación de contraste</strong> en el trauma uretral. En el paciente con sangre en el meato tras un trauma pélvico se pide <strong>antes de pasar una sonda</strong>. El médico general la solicita y <strong>emplea el informe</strong> para decidir entre sondeo, cistostomía y derivación."
+        ]
       }
     ],
     "table": {
@@ -685,6 +711,16 @@ const urologiaClasses = [
         "paragraphs": [
           "El estándar de oro histórico para próstatas con volumen <strong>menor a 80 centímetros cúbicos (cc)</strong> es la <strong>Resección Transuretral de Próstata (RTUP)</strong>, que reseca endoscópicamente el adenoma creando un canal miccional amplio. En la RTUP monopolar clásica con soluciones hipotónicas de glicina existía riesgo del 'Síndrome de RTUP' (hiponatremia dilucional por absorción sistémica masiva de líquido irrigante con confusión mental, cefalea y convulsiones), complicación erradicada en la actualidad mediante RTUP bipolar con solución salina isotónica.",
           "Para próstatas de gran volumen <strong>(> 80 cc)</strong>, la técnica clásica de elección es la <strong>Adenomectomía Prostática Abierta (Millin suprapúbica)</strong>, aunque en centros de alta complejidad la Enucleación Prostática con Láser Holmium (HoLEP) permite resolver próstatas de cualquier tamaño por vía endoscópica con mínima estadía hospitalaria."
+        ]
+      },
+      {
+        "subhead": "6. Epidemiología, Imágenes, Uroflujometría, Técnica del Tacto Rectal y Obstrucción Baja",
+        "paragraphs": [
+          "La <strong>HPB</strong> es el tumor benigno más frecuente del varón y la causa más común de síntomas urinarios bajos (STUI). La hiperplasia histológica aparece desde los 40 años y su frecuencia crece con la edad: afecta a cerca del <strong>50% de los varones a los 60 años y al 80-90% a los 80 años</strong>, aunque solo una parte presenta síntomas. Requiere <strong>andrógenos (dihidrotestosterona)</strong> y envejecimiento: no se desarrolla en quienes se castraron antes de la pubertad. Otros factores asociados son la obesidad y el síndrome metabólico, la inactividad física y el antecedente familiar de HPB que requirió cirugía antes de los 60 años.",
+          "La <strong>ecografía vésico-prostática</strong> (suprapúbica, con vejiga llena y luego de orinar) permite estimar el <strong>volumen prostático</strong> (próstata aumentada si pasa de 30 a 40 cc), ver el lóbulo medio que protruye en la vejiga, la pared trabeculada, divertículos, cálculos y tumores, medir el <strong>residuo postmiccional</strong> (significativo si supera los 100 mL) y descartar hidronefrosis. La ecografía transrectal se reserva para guiar la biopsia. El médico general <strong>emplea el informe</strong> para decidir tratamiento y derivación.",
+          "La <strong>uroflujometría</strong> registra el flujo de una micción espontánea sobre un recipiente especial (con al menos 150 mL de volumen). Un flujo máximo (Qmax) <strong>mayor de 15 mL/s</strong> es normal y <strong>menor de 10 mL/s</strong> sugiere obstrucción, con una curva aplanada y prolongada en vez de la campana normal. No distingue obstrucción de un detrusor poco contráctil, por lo que se interpreta junto con el residuo postmiccional y el IPSS; el médico <strong>emplea el informe</strong>.",
+          "<strong>Técnica del tacto rectal (nivel 'realizar'):</strong> explicar el procedimiento, colocar al paciente en decúbito lateral izquierdo con las rodillas flectadas (o de pie, inclinado sobre la camilla), inspeccionar la región perianal, lubricar el dedo índice enguantado y apoyarlo sobre el esfínter hasta que se relaje antes de introducirlo. Con la cara palmar hacia anterior se palpa la <strong>cara posterior de la próstata</strong>: tamaño (normal 3-4 cm, como una nuez), simetría, surco medio, consistencia, nódulos y dolor. Se debe <strong>evitar el masaje</strong> si se sospecha prostatitis aguda. Registrar el hallazgo y complementarlo con APE, no reemplazarlo.",
+          "La <strong>uropatía obstructiva baja</strong> es la dificultad al vaciamiento por un obstáculo desde el cuello vesical hasta el meato. En el varón mayor la causa más frecuente es la HPB, pero también se deben considerar la <strong>estenosis uretral</strong>, el cáncer de próstata, la estenosis del cuello vesical, los cálculos y la fimosis; en el niño, las válvulas de uretra posterior, y en la mujer, el prolapso. Se <strong>sospecha</strong> por los STUI, un globo vesical y el residuo postmiccional elevado. Sus complicaciones son la infección, la litiasis vesical, la retención aguda y la <strong>hidronefrosis con insuficiencia renal</strong>. Conducta inicial: sonda vesical si hay retención, creatinina, orina completa y urocultivo, ecografía y <strong>derivación</strong> a urología."
         ]
       }
     ],
@@ -996,6 +1032,13 @@ const urologiaClasses = [
         "paragraphs": [
           "Para la <strong>IUE</strong>, la primera línea son los <strong>ejercicios de fortalecimiento del piso pélvico (Kegel)</strong> supervisados por kinesiólogo durante al menos 8 a 12 semanas. Si fracasa o el escape es severo, el tratamiento de elección es la cirugía mínimamente invasiva con <strong>cintas suburetrales libres de tensión (TVT o TOT)</strong>, con tasas de éxito superiores al 85-90%.",
           "Para la <strong>IUU / Vejiga Hiperactiva</strong>, el manejo inicial incluye reentrenamiento vesical y reducción de irritantes vesicales (cafeína, edulcorantes, tabaco). La primera línea farmacológica son los <strong>antimuscarínicos (Oxibutinina 5 mg c/8-12 h o Tolterodina)</strong> o los agonistas de receptores beta-3 adrenérgicos como <strong>Mirabegrón (50 mg/día)</strong>, este último de elección en ancianos por carecer de efectos adversos cognitivos, sequedad bucal y constipación (véase Tabla 13.4)."
+        ]
+      },
+      {
+        "subhead": "4. Urodinamia: Cuándo Pedirla e Interpretar el Informe",
+        "paragraphs": [
+          "La <strong>urodinamia</strong> estudia la función de la vejiga y la uretra durante el llenado y la micción: cistomanometría (presión del detrusor y presión abdominal) y estudio de presión-flujo, a veces con electromiografía o con imágenes (videourodinamia). Es un examen de <strong>centro especializado</strong>, con urocultivo estéril previo, y el médico general <strong>emplea el informe</strong>. Está indicada en la incontinencia mixta o de causa dudosa, si falla el tratamiento inicial, antes de una cirugía antiincontinencia (sobre todo si hubo una cirugía previa), en la <strong>vejiga neurogénica</strong> y cuando se sospecha obstrucción con detrusor hipoactivo. <strong>No se pide</strong> como primer examen en una incontinencia de esfuerzo no complicada.",
+          "<em>Interpretación:</em> la <strong>incontinencia de urgencia</strong> muestra contracciones involuntarias del detrusor durante el llenado (hiperactividad del detrusor); la <strong>incontinencia de esfuerzo</strong> muestra pérdida de orina con el aumento de la presión abdominal (maniobra de Valsalva o tos) <strong>sin contracción del detrusor</strong>; la obstrucción se ve como alta presión del detrusor con flujo bajo, y el detrusor hipoactivo como flujo bajo con presión baja. Una presión del detrusor sostenida sobre 40 cm de agua en el llenado pone en riesgo el tracto urinario superior y es una indicación de tratamiento urgente en la vejiga neurogénica."
         ]
       }
     ],
@@ -1562,6 +1605,14 @@ const urologiaClasses = [
           "El tratamiento médico se complementa obligatoriamente con <strong>reposo en cama, suspensorio escrotal o calzoncillo ajustado</strong> para inmovilizar y elevar la bolsa, aplicación de compresas frías locales y AINEs orales durante 5 a 7 días.",
           "La falta de respuesta clínica o la persistencia de fiebre tras 48 a 72 horas de antibióticos adecuados obliga a solicitar un <strong>Eco Doppler escrotal de control</strong> para descartar la formación de un <strong>absceso epididimario o testicular</strong> (que requiere drenaje quirúrgico u orquiectomía) o un infarto testicular secundario a compresión vascular por edema masivo (véase Tabla 13.6)."
         ]
+      },
+      {
+        "subhead": "4. Infecciones de Transmisión Sexual: Uretritis, Úlceras y Verrugas Genitales",
+        "paragraphs": [
+          "Frente a una <strong>uretritis</strong> (disuria y secreción por el meato) hay que distinguir la <strong>gonocócica</strong> (incubación de 2 a 5 días, secreción purulenta abundante, Gram uretral con diplococos gramnegativos intracelulares) de la <strong>no gonocócica</strong> (<em>Chlamydia trachomatis</em> la más frecuente, además de <em>Mycoplasma genitalium</em>, <em>Ureaplasma</em> y <em>Trichomonas</em>; secreción escasa y mucoide). El diagnóstico se confirma con <strong>PCR (NAAT) en primera orina o frotis uretral</strong> y el tratamiento empírico cubre ambas: <strong>ceftriaxona 500 mg IM dosis única + azitromicina 1 g VO dosis única</strong> (o doxiciclina 100 mg cada 12 horas por 7 días). Se trata y estudia a la <strong>pareja de los últimos 60 días</strong>, se indica abstinencia hasta 7 días después del tratamiento y se ofrece <strong>VIH y VDRL</strong>; la gonorrea y la sífilis son de notificación obligatoria. Sin tratamiento evolucionan a epididimitis, prostatitis y estenosis uretral.",
+          "<strong>Síndrome de úlcera genital:</strong> la <strong>sífilis primaria</strong> da un chancro único, indoloro, de borde duro y fondo limpio, con adenopatía inguinal no dolorosa; se confirma con VDRL/RPR y prueba treponémica (FTA-abs, TPPA) y se trata con <strong>penicilina benzatina 2,4 millones UI IM dosis única</strong> (en alérgicos, doxiciclina 100 mg cada 12 h por 14 días). El <strong>herpes genital</strong> produce vesículas agrupadas dolorosas que se ulceran y recurren; la primoinfección se trata con <strong>aciclovir 400 mg cada 8 horas por 7 a 10 días</strong> (las recurrencias, 5 días). El <strong>chancroide</strong> (<em>Haemophilus ducreyi</em>) da una úlcera dolorosa, blanda y de fondo sucio con adenopatía supurada, y el <strong>linfogranuloma venéreo</strong> (<em>C. trachomatis</em> L1-L3), una úlcera fugaz y bubones inguinales que se tratan con doxiciclina por 21 días.",
+          "Las <strong>verrugas anogenitales (condilomas)</strong> son producidas por el VPH tipos 6 y 11: lesiones blandas, exofíticas, en cresta de gallo; se tratan con podofilotoxina o imiquimod tópicos, crioterapia o electrocoagulación, y se previenen con la vacuna contra el VPH. La <strong>tricomoniasis</strong> se trata con <strong>metronidazol 2 g VO en dosis única</strong>, a la pareja también. En toda ITS: consejería y uso de preservativo, <strong>tamizaje de VIH y sífilis</strong>, tratamiento de las parejas y control clínico."
+        ]
       }
     ],
     "table": {
@@ -1759,6 +1810,13 @@ const urologiaClasses = [
           "A la palpación se percibe como una masa blanda con sensación de <strong>'bolsa de gusanos'</strong> sobre el testículo que aumenta con la maniobra de Valsalva y <strong>desaparece o se colapsa en decúbito dorsal</strong>.",
           "<em>Banderas Rojas del Varicocele:</em> (1) Varicocele de aparición brusca en hombres mayores de 40-50 años; (2) Varicocele aislado del lado derecho; y (3) Varicocele que no se colapsa al poner al paciente en decúbito supino. Cualquiera de estas tres situaciones obliga a solicitar un TAC de abdomen para descartar un <strong>Carcinoma Renal con trombo tumoral en la vena renal izquierda o compresión retroperitoneal de la vena cava</strong> (véase Tabla 13.7)."
         ]
+      },
+      {
+        "subhead": "4. Criptorquidia: Testículo no Descendido",
+        "paragraphs": [
+          "La <strong>criptorquidia</strong> es la ausencia de un testículo en el escroto, por detención de su descenso. Afecta al 1-3% de los recién nacidos de término y a hasta el 30% de los prematuros; la mayoría desciende sola en los primeros 3 a 6 meses y después persiste en cerca del 1% de los lactantes. Se distingue la forma <strong>palpable</strong> (en el canal inguinal o ectópica) de la <strong>impalpable</strong> (intraabdominal, atrófica o ausente), y del <strong>testículo retráctil</strong>, que baja al escroto con una maniobra suave por el reflejo cremastérico y no necesita cirugía (solo control anual). Para examinar se usan manos tibias, al paciente sentado o en cuclillas y se 'ordeña' el canal inguinal hacia el escroto. Si no se palpa, la ecografía aporta poco y se prefiere la <strong>laparoscopía</strong>.",
+          "<strong>Tratamiento (nivel inicial, seguimiento completo):</strong> si el testículo no ha descendido a los 6 meses de edad corregida se deriva para <strong>orquidopexia entre los 6 y 12 meses</strong> (a más tardar a los 18 meses), porque el daño de las células germinales comienza durante el primer año. No se recomienda la hormonoterapia con hCG de rutina (poca eficacia). Una criptorquidia bilateral impalpable con hipospadias o micropene obliga a estudiar un trastorno del desarrollo sexual. Sin tratamiento aumentan la <strong>infertilidad</strong>, la <strong>torsión</strong>, la hernia inguinal asociada y el <strong>riesgo de cáncer testicular (4 a 10 veces)</strong>, que persiste tras la orquidopexia: se enseña el autoexamen testicular mensual desde la adolescencia. En el adulto con un testículo intraabdominal no descendido se prefiere la orquiectomía."
+        ]
       }
     ],
     "table": {
@@ -1929,6 +1987,425 @@ const urologiaClasses = [
   ])
   },
   {
+    "id": "uro-16",
+    "classId": "uro-16",
+    "tier": 3,
+    "blockNum": 2,
+    "blockName": "Urgencias Urológicas & Escroto Agudo",
+    "topicLabel": "13.16",
+    "title": "Patología Peneana: Fimosis, Parafimosis, Balanopostitis, Priapismo & Disfunción Eréctil",
+    "perfilCode": "4.03.1.009, 4.03.1.001, 4.03.2.004, 4.03.1.005",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "Sin garantía GES específica · Priapismo isquémico: urgencia con riesgo de secuela funcional permanente",
+    "reconstrucciones": "EUNACOM Julio 2025 (Q#62) · EUNACOM Diciembre 2025 (Q#94) · EUNACOM Julio 2025 (Q#112)",
+    "frecuencia": "Alta rentabilidad · fimosis fisiológica que se observa, balanopostitis que obliga a pedir glicemia, fenilefrina en el priapismo isquémico e iPDE5 con contraindicación absoluta de nitratos",
+    "svg": null,
+    "algoTitle": "Algoritmo de Manejo Urgente del Priapismo",
+    "contexto": "El pene concentra cuatro situaciones que el médico general debe resolver o derivar a tiempo. La fimosis del niño casi siempre es fisiológica y solo se observa; su complicación aguda, la parafimosis, es una urgencia que se reduce manualmente. La balanopostitis del adulto es candidiásica con mayor frecuencia y obliga a descartar diabetes. El priapismo isquémico es un síndrome compartimental de los cuerpos cavernosos: sobre las 4 horas cada hora suma fibrosis y riesgo de disfunción eréctil definitiva, y se trata con aspiración y fenilefrina intracavernosa. La disfunción eréctil orgánica es vascular en la mayoría de los casos y anticipa en años la enfermedad coronaria; su primera línea son los inhibidores de la fosfodiesterasa 5, contraindicados con nitratos.",
+    "contentSections": [
+      {
+        "subhead": "1. Fimosis y Parafimosis: Fisiológica vs Patológica",
+        "paragraphs": [
+          "La <strong>fimosis</strong> es la imposibilidad de retraer el prepucio por detrás del glande. Al nacer casi todos los varones tienen un prepucio no retráctil por <strong>adherencias balanoprepuciales fisiológicas</strong>, que se sueltan solas con las erecciones y la descamación (esmegma); la mayoría se hace retráctil durante la infancia y solo cerca del 1% persiste en la adolescencia tardía. La <strong>fimosis fisiológica</strong> tiene un prepucio sano, flexible y sin cicatriz, que al intentar retraerlo se abre en forma de 'flor'. La <strong>fimosis patológica (cicatricial)</strong> muestra un anillo blanquecino, fibroso e inelástico, casi siempre secundario a balanopostitis repetidas, retracciones forzadas o <strong>liquen escleroso</strong> (balanitis xerótica obliterante).",
+          "<em>Conducta:</em> la fimosis fisiológica asintomática <strong>no se trata: se observa</strong>, se enseña aseo suave y se prohíbe la retracción forzada, que produce fisuras y cicatriz (fimosis secundaria). Cuando es sintomática (balanopostitis, infección urinaria, abombamiento del prepucio con dificultad miccional) o persiste a una edad en que molesta, la primera línea es el <strong>corticoide tópico</strong> (betametasona 0,05% dos veces al día sobre el anillo por 4 a 8 semanas, con retracción suave), con éxito cercano al 80%. La <strong>circuncisión</strong> se indica en la fimosis cicatricial o por liquen escleroso, el fracaso del corticoide, la balanopostitis recurrente, la infección urinaria recurrente con anomalía urinaria y la parafimosis recurrente. En el adulto, una fimosis adquirida obliga a <strong>descartar diabetes</strong> y liquen escleroso; la fimosis mantenida se asocia a mayor riesgo de cáncer de pene (véase Tabla 13.16.A).",
+          "La <strong>parafimosis</strong> es lo opuesto: un prepucio estrecho retraído que queda atrapado detrás del surco balanoprepucial y forma un <strong>anillo constrictor</strong>. Bloquea el retorno venoso y linfático, el glande se edematiza en pocas horas y, si no se resuelve, evoluciona a isquemia y necrosis: es una <strong>urgencia</strong>. La causa más típica es iatrogénica (no reponer el prepucio tras instalar una sonda Foley o tras el aseo o el examen) y, en adolescentes, la retracción durante la masturbación o el coito.",
+          "<em>Manejo de la parafimosis:</em> analgesia (bloqueo peneano dorsal o anestésico tópico), <strong>compresión manual sostenida del glande</strong> durante varios minutos (con gasa fría) para reducir el edema y luego <strong>reducción manual</strong>: los pulgares empujan el glande hacia adentro mientras los dedos índice y medio llevan el anillo prepucial hacia adelante. Si fracasa, se hace una <strong>incisión dorsal del anillo</strong> bajo anestesia local. La circuncisión se programa en forma diferida, nunca sobre el tejido edematoso. La prevención es simple y se pregunta: <strong>siempre reponer el prepucio</strong> después de sondear o examinar."
+        ]
+      },
+      {
+        "subhead": "2. Balanitis y Balanopostitis: Etiología, Tratamiento y Banderas Rojas",
+        "paragraphs": [
+          "La <strong>balanitis</strong> es la inflamación del glande y la <strong>postitis</strong> la del prepucio; como casi siempre coexisten se habla de <strong>balanopostitis</strong>. Predomina en varones no circuncidados con prepucio estrecho, mala higiene o, al revés, lavado excesivo con jabones irritantes. Se presenta con eritema, ardor, prurito, edema del prepucio, exudado y mal olor, <strong>sin fiebre ni compromiso del estado general</strong>: en un niño con fimosis y fiebre alta, la causa es una infección urinaria y no la balanopostitis.",
+          "La causa infecciosa más frecuente en el adulto es <strong>Candida albicans</strong>: eritema brillante con <strong>pápulas o pústulas satélites</strong> y exudado blanquecino. Se asocia a <strong>diabetes mellitus</strong> (a veces es su primera manifestación), uso reciente de antibióticos, inmunosupresión y gliflozinas (iSGLT2). Por eso <strong>todo adulto con balanopostitis candidiásica, y más aún si es recurrente, requiere glicemia</strong>. Otras causas: bacteriana (Streptococcus, Staphylococcus, anaerobios con exudado fétido), irritativa o por contacto, de transmisión sexual (Trichomonas, gonococo, herpes, sífilis) y dermatosis (liquen escleroso, psoriasis, balanitis de Zoon, erupción fija por fármacos).",
+          "<em>Tratamiento (nivel completo):</em> en todos, aseo diario con agua tibia, secado prolijo, retracción suave y suspensión de irritantes. La candidiásica se trata con <strong>clotrimazol 1% crema cada 12 horas por 7 a 14 días</strong> (o miconazol); en casos extensos o recurrentes, <strong>fluconazol 150 mg oral en dosis única</strong>, además de tratar la pareja sintomática y controlar la glicemia. En el niño la balanopostitis aguda suele ser irritativa o bacteriana: baños de asiento tibios y aseo; si hay pus o celulitis del prepucio se agrega antibiótico oral con cobertura de estreptococo y estafilococo (cefadroxilo o amoxicilina con ácido clavulánico). La anaerobia responde a metronidazol. Si se sospecha una infección de transmisión sexual se estudia y trata como tal (véase Tema 13.6).",
+          "<em>Banderas rojas:</em> una balanitis que <strong>no responde tras 4 a 6 semanas</strong> de tratamiento bien hecho, una placa eritematosa aterciopelada persistente o una lesión indurada o ulcerada obligan a <strong>derivar para biopsia</strong>, para descartar liquen escleroso, eritroplasia de Queyrat (carcinoma in situ) o cáncer de pene. La balanopostitis recurrente es indicación de circuncisión."
+        ]
+      },
+      {
+        "subhead": "3. Priapismo: Isquémico (Bajo Flujo) vs No Isquémico (Alto Flujo)",
+        "paragraphs": [
+          "El <strong>priapismo</strong> es una erección completa o parcial que dura <strong>más de 4 horas</strong> y no se relaciona con estímulo sexual. El <strong>priapismo isquémico (de bajo flujo o venooclusivo)</strong> es cerca del 95% de los casos: la sangre queda atrapada en los cuerpos cavernosos, se vuelve ácida e hipóxica y se comporta como un <strong>síndrome compartimental</strong>. Es doloroso, los <strong>cuerpos cavernosos están rígidos y el glande y el cuerpo esponjoso, blandos</strong>. Después de 24 horas aparece necrosis del músculo liso y fibrosis, con alto riesgo de <strong>disfunción eréctil permanente</strong>: es una urgencia urológica.",
+          "Sus causas principales son las <strong>drogas vasoactivas intracavernosas</strong> (alprostadil, papaverina), los fármacos con efecto alfa-bloqueador (trazodona, antipsicóticos como clorpromazina y risperidona, alfa-bloqueadores), la <strong>cocaína</strong>, el alcohol y la marihuana, y las enfermedades hematológicas: <strong>drepanocitosis</strong> (la causa más frecuente en niños a nivel mundial, poco común en Chile) y <strong>leucemia</strong> con hiperleucocitosis. Los inhibidores de la fosfodiesterasa 5 rara vez lo causan. En todo priapismo isquémico se pide <strong>hemograma</strong> y se busca la causa.",
+          "El <strong>priapismo no isquémico (de alto flujo o arterial)</strong> es raro y se debe casi siempre a un <strong>trauma perineal o peneano</strong> (caída a horcajadas, golpe con la bicicleta) que crea una fístula entre la arteria cavernosa y los sinusoides. Aparece horas a días después del trauma, es <strong>indoloro</strong> y la erección es parcial, no del todo rígida. No hay isquemia, por lo que <strong>no es una urgencia</strong>: se observa, porque una parte importante se resuelve sola, con hielo y compresión perineal, y si persiste el urólogo indica <strong>embolización arterial selectiva</strong>.",
+          "La <strong>gasometría de sangre aspirada del cuerpo cavernoso</strong> los distingue: sangre oscura, PO2 menor de 30 mmHg, PCO2 mayor de 60 mmHg y pH menor de 7,25 en el isquémico; sangre roja con gases similares a la sangre arterial (PO2 mayor de 90 mmHg, PCO2 menor de 40 mmHg, pH cercano a 7,40) en el no isquémico. El <strong>eco Doppler peneano</strong> muestra flujo cavernoso ausente en el isquémico y flujo alto con la fístula en el no isquémico (véase Tabla 13.16.B y Figura 13.16)."
+        ]
+      },
+      {
+        "subhead": "4. Manejo del Priapismo Isquémico: Aspiración y Fenilefrina",
+        "paragraphs": [
+          "El tratamiento es escalonado y no se espera: (1) <strong>analgesia</strong> y bloqueo peneano dorsal; (2) <strong>aspiración de sangre de los cuerpos cavernosos</strong> con aguja (que además da la muestra para la gasometría), con o sin irrigación con suero fisiológico; (3) <strong>inyección intracavernosa de fenilefrina</strong>, un agonista alfa-1 puro que contrae el músculo liso cavernoso y abre el drenaje venoso (se prefiere a la adrenalina por su menor efecto cardíaco), en dosis de 200 µg cada 3 a 5 minutos hasta un máximo de 1 mg en una hora, con <strong>monitoreo de presión arterial y frecuencia cardíaca</strong> (puede producir hipertensión y bradicardia refleja). La compresa de hielo, el ejercicio o la eyaculación no resuelven un priapismo isquémico y solo retrasan la conducta.",
+          "Si la aspiración y la fenilefrina fracasan, el urólogo realiza un <strong>shunt quirúrgico</strong> (distal cavernoglandular o proximal cavernoesponjoso); en priapismos de muy larga evolución se plantea una prótesis de pene precoz. En la drepanocitosis se agregan hidratación, oxígeno, analgesia y transfusión o exanguinotransfusión, sin postergar el manejo local. El nivel del Perfil es <strong>tratamiento inicial y derivación</strong>: el médico general reconoce el priapismo, diferencia isquémico de no isquémico, inicia la analgesia y el manejo intracavernoso si está capacitado y deriva de urgencia al urólogo, que hace el seguimiento de la función eréctil."
+        ]
+      },
+      {
+        "subhead": "5. Disfunción Eréctil de Causa Orgánica: Fisiología, Estudio y Tratamiento",
+        "paragraphs": [
+          "La <strong>disfunción eréctil</strong> es la incapacidad persistente (al menos 3 meses) de lograr o mantener una erección suficiente para una actividad sexual satisfactoria. La erección es un fenómeno vascular bajo control parasimpático (nervios cavernosos, S2-S4): el estímulo libera <strong>óxido nítrico</strong>, que activa la guanilato ciclasa y aumenta el <strong>GMP cíclico</strong>; este relaja el músculo liso, los sinusoides se llenan y comprimen las venas contra la túnica albugínea (mecanismo venooclusivo). La <strong>fosfodiesterasa 5</strong> degrada el GMPc y termina la erección; el simpático, vía receptores alfa-1, produce la detumescencia (por eso la fenilefrina resuelve el priapismo).",
+          "La causa orgánica más frecuente es la <strong>vasculogénica (arteriogénica)</strong>, con los mismos factores de riesgo de la aterosclerosis: diabetes, HTA, dislipidemia, tabaquismo, obesidad y sedentarismo. La disfunción eréctil <strong>precede en 2 a 5 años a la enfermedad coronaria</strong>, por lo que es un <strong>marcador de riesgo cardiovascular</strong>. Otras causas: neurogénicas (diabetes, lesión medular, esclerosis múltiple, prostatectomía radical y cirugía pélvica), hormonales (hipogonadismo, hiperprolactinemia, hipotiroidismo), anatómicas (enfermedad de Peyronie, secuela de priapismo) y <strong>fármacos</strong> (tiazidas, betabloqueadores, espironolactona, antidepresivos ISRS, antipsicóticos, antiandrógenos, inhibidores de la 5-alfa reductasa, opioides), además del alcohol y la cocaína. La eyaculación retrógrada (tamsulosina, RTUP, diabetes) es otra disfunción sexual orgánica frecuente. La <strong>psicógena</strong> sugiere inicio brusco, carácter situacional, paciente joven y <strong>erecciones nocturnas o matinales conservadas</strong>; la orgánica es progresiva, global y sin erecciones matinales.",
+          "<em>Estudio (nivel específico):</em> historia sexual y de fármacos (cuestionario IIEF-5), examen de genitales, caracteres sexuales secundarios, pulsos periféricos, presión arterial e IMC. Exámenes básicos: <strong>glicemia en ayunas o HbA1c, perfil lipídico y testosterona total matinal</strong>; si la testosterona está baja (habitualmente menor de 300 ng/dL) se repite y se piden LH, FSH y prolactina. Todo paciente con disfunción eréctil se estratifica en <strong>riesgo cardiovascular</strong> antes de indicar tratamiento.",
+          "<em>Tratamiento (nivel inicial, seguimiento completo):</em> corregir factores de riesgo (dejar de fumar, ejercicio, baja de peso, control de la diabetes, HTA y dislipidemia) y, si es posible, cambiar el fármaco causante. La <strong>primera línea son los inhibidores de la fosfodiesterasa 5 (iPDE5)</strong>: sildenafil 50 mg (25 a 100 mg) una hora antes, con efecto de 4 a 5 horas, o tadalafil 10 a 20 mg a demanda (hasta 36 horas) o 5 mg diarios; requieren estímulo sexual. Su <strong>contraindicación absoluta son los nitratos</strong> en cualquier forma (nitroglicerina, isosorbide) por riesgo de hipotensión grave: no se dan nitratos en las 24 horas siguientes al sildenafil ni en las 48 horas siguientes al tadalafil. Precaución con alfa-bloqueadores (hipotensión ortostática) y en cardiopatía inestable o infarto reciente. Efectos adversos: cefalea, rubor, congestión nasal, dispepsia y alteración de la visión de los colores. La <strong>testosterona solo se indica con hipogonadismo confirmado</strong>. Se controla la respuesta y se ajusta la dosis; si fracasan los iPDE5 bien usados (dosis máxima en al menos 4 a 6 intentos con estímulo), se deriva al urólogo para segunda línea (<strong>alprostadil intracavernoso</strong> o intrauretral, dispositivo de vacío) y tercera (<strong>prótesis de pene</strong>) (véase Tabla 13.16.C)."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Patología del Prepucio y del Glande: Diagnóstico y Conducta",
+      "headers": [
+        "Entidad",
+        "Dato Clínico Clave",
+        "Conducta del Médico General",
+        "Cuándo Derivar"
+      ],
+      "rows": [
+        [
+          "Fimosis fisiológica",
+          "Niño, prepucio sano y flexible, sin anillo cicatricial",
+          "Observar · aseo suave · NO retraer a la fuerza",
+          "Si se vuelve sintomática o cicatricial"
+        ],
+        [
+          "Fimosis sintomática",
+          "Balanopostitis, ITU o abombamiento con dificultad miccional",
+          "Betametasona 0,05% tópica 4 a 8 semanas",
+          "Fracaso del corticoide: circuncisión"
+        ],
+        [
+          "Fimosis cicatricial / liquen escleroso",
+          "Anillo blanquecino, fibroso e inelástico",
+          "Derivar (circuncisión) · en el adulto pedir glicemia",
+          "Siempre"
+        ],
+        [
+          "Parafimosis",
+          "Prepucio retraído con anillo constrictor y glande edematoso",
+          "URGENCIA: analgesia, compresión del edema y reducción manual",
+          "Si falla: incisión dorsal · circuncisión diferida"
+        ],
+        [
+          "Balanopostitis candidiásica",
+          "Eritema con pápulas satélites y exudado blanco",
+          "Clotrimazol 1% 7 a 14 días · fluconazol 150 mg si es extensa · GLICEMIA",
+          "Sin respuesta en 4 a 6 semanas: biopsia"
+        ],
+        [
+          "Balanopostitis bacteriana (niño)",
+          "Prepucio rojo y edematoso, a veces con pus; sin fiebre",
+          "Baños de asiento y aseo · antibiótico oral si hay celulitis",
+          "Recurrente: circuncisión"
+        ]
+      ]
+    },
+    "severityTable": {
+      "title": "Priapismo Isquémico vs No Isquémico",
+      "headers": [
+        "Parámetro",
+        "Isquémico (Bajo Flujo)",
+        "No Isquémico (Alto Flujo)"
+      ],
+      "rows": [
+        [
+          "Frecuencia",
+          "Cerca del 95%",
+          "Raro"
+        ],
+        [
+          "Causa típica",
+          "Fármacos intracavernosos, trazodona, antipsicóticos, cocaína, drepanocitosis, leucemia",
+          "Trauma perineal o peneano (fístula arteriocavernosa)"
+        ],
+        [
+          "Dolor y rigidez",
+          "Doloroso · cuerpos cavernosos rígidos, glande blando",
+          "Indoloro · erección parcial, no del todo rígida"
+        ],
+        [
+          "Gasometría cavernosa",
+          "Sangre oscura · PO2 < 30 · PCO2 > 60 mmHg · pH < 7,25",
+          "Sangre roja · PO2 > 90 · PCO2 < 40 mmHg · pH 7,40"
+        ],
+        [
+          "Eco Doppler peneano",
+          "Flujo cavernoso ausente",
+          "Flujo alto, se ve la fístula"
+        ],
+        [
+          "Urgencia",
+          "SÍ: fibrosis y disfunción eréctil si se prolonga",
+          "No: se puede observar"
+        ],
+        [
+          "Tratamiento",
+          "Aspiración ± irrigación + fenilefrina intracavernosa · shunt si falla",
+          "Observación, hielo y compresión · embolización selectiva si persiste"
+        ]
+      ]
+    },
+    "treatmentTable": {
+      "title": "Disfunción Eréctil Orgánica: Estudio y Tratamiento Escalonado",
+      "headers": [
+        "Escalón",
+        "Medida",
+        "Clave de Examen"
+      ],
+      "rows": [
+        [
+          "Estudio inicial",
+          "Historia sexual y de fármacos · glicemia o HbA1c · perfil lipídico · testosterona total matinal",
+          "Es un marcador de riesgo cardiovascular: estratificarlo"
+        ],
+        [
+          "Medidas generales",
+          "Dejar de fumar, ejercicio, baja de peso, control de DM, HTA y dislipidemia · cambiar el fármaco causante",
+          "Betabloqueadores, tiazidas, espironolactona, ISRS y antiandrógenos causan DE"
+        ],
+        [
+          "1ª línea",
+          "iPDE5: sildenafil 50 mg 1 h antes · tadalafil 10 a 20 mg a demanda o 5 mg diario",
+          "Contraindicación absoluta: nitratos (24 h sildenafil, 48 h tadalafil)"
+        ],
+        [
+          "Hipogonadismo confirmado",
+          "Testosterona (con LH, FSH y prolactina previos)",
+          "Nunca testosterona sin hipogonadismo demostrado"
+        ],
+        [
+          "2ª línea (urólogo)",
+          "Alprostadil intracavernoso o intrauretral · dispositivo de vacío",
+          "El alprostadil puede causar priapismo"
+        ],
+        [
+          "3ª línea (urólogo)",
+          "Prótesis de pene",
+          "Ante fracaso de las anteriores"
+        ]
+      ]
+    },
+    "vignette": "Hombre de 28 años consulta en el servicio de urgencia por una erección dolorosa de 7 horas de evolución, que comenzó tras una fiesta en la que consumió cocaína y alcohol. Niega trauma. Al examen se encuentra angustiado, PA 145/90 mmHg, FC 104 lpm. Los cuerpos cavernosos están rígidos y muy dolorosos a la palpación, mientras que el glande y el cuerpo esponjoso están blandos. Se aspira sangre del cuerpo cavernoso, que es de color oscuro, con gasometría PO2 22 mmHg, PCO2 72 mmHg y pH 7,15.",
+    "explicacion": "Es un priapismo isquémico (de bajo flujo) gatillado por cocaína: erección de más de 4 horas, dolorosa, con cuerpos cavernosos rígidos, glande blando y gasometría cavernosa con hipoxia, hipercapnia y acidosis. Es una urgencia, porque el tiempo de isquemia determina la fibrosis y la disfunción eréctil permanente. Tras analgesia y bloqueo peneano se continúa la aspiración, con o sin irrigación con suero fisiológico, y se inyecta fenilefrina intracavernosa (200 µg cada 3 a 5 minutos, máximo 1 mg en una hora) con monitoreo de presión arterial y frecuencia cardíaca, y se deriva de urgencia al urólogo. Si no hay detumescencia, el urólogo realiza un shunt quirúrgico. Se pide hemograma para descartar una causa hematológica. Hielo, observación o esperar la evolución son errores.",
+    "keyPoints": [
+      "La fimosis fisiológica del niño, con prepucio sano y sin cicatriz, se observa: nunca se retrae a la fuerza.",
+      "Fimosis sintomática: corticoide tópico 4 a 8 semanas; circuncisión si es cicatricial, falla el corticoide o hay balanopostitis o ITU recurrente.",
+      "La parafimosis es una urgencia: compresión del edema y reducción manual; si falla, incisión dorsal. Siempre reponer el prepucio tras sondear.",
+      "Balanopostitis candidiásica (pápulas satélites): clotrimazol tópico y glicemia; si no responde en 4 a 6 semanas, biopsia.",
+      "Priapismo isquémico (doloroso, glande blando, sangre oscura): aspiración + fenilefrina intracavernosa y derivación urgente; el hielo no sirve.",
+      "Priapismo no isquémico (post trauma perineal, indoloro, sangre roja): no es urgencia; observación y embolización si persiste.",
+      "La disfunción eréctil orgánica es vascular y anticipa la enfermedad coronaria: siempre evaluar el riesgo cardiovascular.",
+      "iPDE5 son la primera línea; los nitratos los contraindican en forma absoluta, y la testosterona solo se usa con hipogonadismo confirmado."
+    ],
+    "questions": [
+      {
+        "stem": "Niño de 5 años con incapacidad de retraer el prepucio sobre el glande. Sin dolor ni infecciones previas. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Circuncisión electiva inmediata"
+          },
+          {
+            "id": "B",
+            "text": "Tranquilizar: fimosis fisiológica normal hasta los 6-7 años; observar"
+          },
+          {
+            "id": "C",
+            "text": "Corticoides tópicos en el prepucio"
+          },
+          {
+            "id": "D",
+            "text": "Derivar a urología"
+          },
+          {
+            "id": "E",
+            "text": "Dilatación manual bajo anestesia"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Un prepucio no retráctil, sano y asintomático en un niño de 5 años es una fimosis fisiológica: las adherencias balanoprepuciales se sueltan solas con el tiempo. Se tranquiliza a la familia, se enseña aseo suave y se observa. El corticoide tópico se reserva para la fimosis sintomática (balanopostitis, infección urinaria, abombamiento con dificultad miccional); la circuncisión, para la fimosis cicatricial o el fracaso del corticoide. La retracción o dilatación forzada está contraindicada porque produce fisuras y fimosis cicatricial.",
+        "recTag": "EUNACOM Julio 2025 · Pregunta 62"
+      },
+      {
+        "stem": "Adolescente de 15 años consulta en urgencia por dolor y aumento de volumen del pene de 5 horas de evolución, que comenzó después de retraer el prepucio durante una relación sexual. Al examen, el prepucio está retraído por detrás del surco balanoprepucial formando un anillo tenso, con el glande muy edematoso, de color rosado y sin zonas oscuras. ¿Cuál es la conducta inicial más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Circuncisión de urgencia en pabellón"
+          },
+          {
+            "id": "B",
+            "text": "Analgesia, compresión manual del edema y reducción manual del prepucio"
+          },
+          {
+            "id": "C",
+            "text": "Corticoide tópico por 4 semanas y control"
+          },
+          {
+            "id": "D",
+            "text": "Compresas tibias y control en 24 horas"
+          },
+          {
+            "id": "E",
+            "text": "Antibiótico oral y antiinflamatorios"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Es una parafimosis: un prepucio estrecho retraído que queda atrapado y forma un anillo constrictor que impide el retorno venoso y linfático del glande. Es una urgencia por el riesgo de isquemia. La conducta inicial es analgesia (bloqueo peneano o anestésico tópico), compresión manual sostenida del glande para reducir el edema y reducción manual llevando el anillo hacia adelante. Si fracasa, se hace incisión dorsal del anillo; la circuncisión se programa en forma diferida. El calor aumenta el edema y el corticoide tópico es para la fimosis, no para la parafimosis.",
+        "recTag": "Banco Oficial AEE · Perfil V3 4.03.1.009"
+      },
+      {
+        "stem": "Un paciente de 60 años consulta por eritema y prurito en el glande y el prepucio. Al examen físico se constatan signos inflamatorios en dicha zona. Además de tratar la enfermedad descrita, ¿qué enfermedad sistémica se debe descartar?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cáncer"
+          },
+          {
+            "id": "B",
+            "text": "Daño hepático crónico"
+          },
+          {
+            "id": "C",
+            "text": "Diabetes"
+          },
+          {
+            "id": "D",
+            "text": "Lupus"
+          },
+          {
+            "id": "E",
+            "text": "Insuficiencia renal"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Es una balanopostitis, cuya causa infecciosa más frecuente en el adulto es Candida albicans. La glucosuria y la hiperglicemia favorecen la candidiasis genital, que puede ser la primera manifestación de una diabetes mellitus: todo adulto con balanopostitis, sobre todo si es candidiásica o recurrente, requiere glicemia. Se trata con aseo, secado prolijo y clotrimazol tópico por 7 a 14 días. La biopsia para descartar cáncer se reserva para la lesión que persiste tras 4 a 6 semanas de tratamiento.",
+        "recTag": "EUNACOM Diciembre 2017 · Pregunta 74"
+      },
+      {
+        "stem": "Un hombre de 34 años presenta erección dolorosa, desde hace 8 horas. Al examen se corrobora que tiene erección completa, pero turgencia solo de los cuerpos cavernosos, con glande y cuerpos esponjosos blandos. ¿Cuál es la conducta inicial más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aplicar hielo en la zona genital"
+          },
+          {
+            "id": "B",
+            "text": "Realizar derivación cavernoesponjosa de urgencia"
+          },
+          {
+            "id": "C",
+            "text": "Administrar atropina intracavernosa"
+          },
+          {
+            "id": "D",
+            "text": "Administrar analgésicos endovenosos"
+          },
+          {
+            "id": "E",
+            "text": "Administrar fenilefrina intracavernosa"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "Erección dolorosa de más de 4 horas, con cuerpos cavernosos rígidos y glande y cuerpo esponjoso blandos: priapismo isquémico (de bajo flujo), una urgencia. El manejo es escalonado: analgesia, aspiración de sangre de los cuerpos cavernosos con o sin irrigación y fenilefrina intracavernosa (agonista alfa-1) con monitoreo de presión arterial y frecuencia cardíaca. La derivación cavernoesponjosa es para el fracaso del manejo intracavernoso. El hielo solo tiene lugar en el priapismo no isquémico; los analgésicos solos no resuelven la isquemia. Entre las alternativas, la fenilefrina es la única que trata la causa.",
+        "recTag": "EUNACOM Agosto 2021 · Pregunta 62"
+      },
+      {
+        "stem": "Niño de 12 años es traído por una erección persistente de 2 días de evolución, que apareció 24 horas después de caer a horcajadas sobre el marco de su bicicleta. El paciente refiere que no le duele. Al examen el pene está en erección parcial, no completamente rígido, con un leve hematoma perineal. Se aspira sangre del cuerpo cavernoso: es de color rojo brillante, con PO2 95 mmHg, PCO2 38 mmHg y pH 7,40. Hemograma normal. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Fenilefrina intracavernosa repetida hasta la detumescencia"
+          },
+          {
+            "id": "B",
+            "text": "Shunt cavernoesponjoso de urgencia"
+          },
+          {
+            "id": "C",
+            "text": "Eco Doppler peneano, observación con hielo y compresión perineal, y control con urología"
+          },
+          {
+            "id": "D",
+            "text": "Exanguinotransfusión parcial"
+          },
+          {
+            "id": "E",
+            "text": "Prótesis de pene precoz"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Erección indolora, parcial, que aparece horas después de un trauma perineal y con gasometría cavernosa arterial (sangre roja, PO2 alta, PCO2 baja, pH normal): priapismo no isquémico o de alto flujo por fístula arteriocavernosa. No hay isquemia, por lo que no es una urgencia y no se trata con fenilefrina ni con shunt. Se confirma con eco Doppler, se observa con hielo y compresión perineal, porque una parte importante se resuelve sola, y si persiste el urólogo indica embolización arterial selectiva.",
+        "recTag": "Banco Oficial AEE · Perfil V3 4.03.2.004"
+      },
+      {
+        "stem": "Hombre de 55 años con disfunción eréctil de 6 meses de evolución, sin causa aparente. HTA controlada con enalapril. Sin síntomas de hipogonadismo. ¿Cuál es el tratamiento de primera línea?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Inhibidores de la fosfodiesterasa tipo 5 (sildenafil o tadalafil)"
+          },
+          {
+            "id": "B",
+            "text": "Testosterona intramuscular"
+          },
+          {
+            "id": "C",
+            "text": "Alprostadil intracavernoso"
+          },
+          {
+            "id": "D",
+            "text": "Prótesis de pene"
+          },
+          {
+            "id": "E",
+            "text": "Solo consejería psicológica"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La primera línea de la disfunción eréctil orgánica son los inhibidores de la fosfodiesterasa 5 (sildenafil 50 mg una hora antes o tadalafil 10 a 20 mg a demanda), junto con el control de los factores de riesgo cardiovascular. El enalapril no los contraindica; la contraindicación absoluta son los nitratos. La testosterona se usa solo con hipogonadismo demostrado; el alprostadil intracavernoso es segunda línea y la prótesis, tercera, ambas por urólogo.",
+        "recTag": "EUNACOM Julio 2025 · Pregunta 112"
+      }
+    ],
+    "diagram": flow("Algoritmo de Manejo Urgente del Priapismo", [
+        {
+              "t": "Erección de más de 4 horas sin estímulo sexual",
+              "s": "Preguntar fármacos, drogas, trauma y enfermedad hematológica",
+              "type": "warn"
+        },
+        {
+              "k": "split",
+              "q": "¿Doloroso, cuerpos cavernosos rígidos y glande blando? · Gasometría cavernosa",
+              "ll": "Doloroso · sangre oscura · PO2 < 30, PCO2 > 60, pH < 7,25",
+              "left": {
+                    "t": "Priapismo Isquémico: URGENCIA",
+                    "s": "Analgesia + bloqueo peneano · Aspiración ± irrigación · Fenilefrina intracavernosa con monitoreo de PA y FC",
+                    "type": "warn"
+              },
+              "rl": "Indoloro, post trauma perineal · sangre roja · gases arteriales",
+              "right": {
+                    "t": "Priapismo No Isquémico (Alto Flujo)",
+                    "s": "No es urgencia · Eco Doppler · Observación, hielo y compresión · Embolización si persiste",
+                    "type": "acc"
+              }
+        },
+        {
+              "k": "split",
+              "al": "Isquémico",
+              "from": "left",
+              "q": "¿Hay detumescencia tras aspiración y fenilefrina?",
+              "ll": "Sí",
+              "left": {
+                    "t": "Observar y buscar la causa",
+                    "s": "Hemograma · suspender el fármaco o droga · control urológico",
+                    "type": "acc"
+              },
+              "rl": "No",
+              "right": {
+                    "t": "Shunt quirúrgico por urólogo",
+                    "s": "Distal cavernoglandular o proximal cavernoesponjoso",
+                    "type": "dec"
+              }
+        }
+  ])
+  },
+  {
     "id": "uro-08",
     "classId": "uro-08",
     "tier": 3,
@@ -1980,6 +2457,13 @@ const urologiaClasses = [
         "paragraphs": [
           "En Chile, el <strong>GES N° 19</strong> garantiza el diagnóstico, tratamiento y seguimiento del cáncer de próstata en toda persona de 15 años y más.",
           "Establece plazos perentorios por ley: la confirmación diagnóstica mediante biopsia prostática debe realizarse dentro de los <strong>30 días</strong> desde la sospecha clínica o de laboratorio; el inicio del tratamiento primario (quirúrgico o radioterápico) dentro de los <strong>60 días</strong> tras la confirmación histológica; y la terapia de deprivación androgénica dentro de los <strong>30 días</strong> desde la indicación médica (véase Tabla 13.8.B)."
+        ]
+      },
+      {
+        "subhead": "6. Etapificación Ósea: Cintigrafía Ósea y Cintigrafía con Galio",
+        "paragraphs": [
+          "La <strong>cintigrafía ósea con tecnecio-99m</strong> capta las zonas de remodelado óseo; las metástasis del cáncer de próstata, de tipo <strong>osteoblástico</strong>, aparecen como <strong>múltiples focos hipercaptantes asimétricos en el esqueleto axial</strong> (columna, pelvis, costillas). Se indica en el riesgo alto: <strong>APE sobre 20 ng/mL, Gleason 8 o más (ISUP 4-5), estadio cT3 o más</strong> o dolor óseo, y <strong>no de rutina</strong> en el riesgo bajo (APE bajo 10 y Gleason 6 o menos), donde la probabilidad de metástasis es mínima. Es sensible pero poco específica: la artrosis, las fracturas y la enfermedad de Paget también captan, por lo que las zonas dudosas se confirman con radiografía, TAC o RM. El médico general <strong>emplea el informe</strong> para etapificar y derivar.",
+          "La <strong>cintigrafía con galio-67</strong> se acumula en el tejido inflamatorio, infeccioso y en algunos tumores (linfomas): es útil en fiebre de origen desconocido, osteomielitis o sarcoidosis, pero <strong>no es el examen para etapificar el cáncer de próstata</strong>; para eso se usa la cintigrafía ósea con tecnecio. También se emplea el informe."
         ]
       }
     ],
@@ -2522,6 +3006,12 @@ const urologiaClasses = [
           "Tras la orquiectomía radical, la etapificación incluye TAC de tórax, abdomen y pelvis con contraste para evaluar compromiso ganglionar retroperitoneal (primer escalón metastásico) y pulmonar. El <strong>Seminoma</strong> es extraordinariamente radiosensible y quimiosensible; en estadio I la conducta puede ser observación activa, radioterapia o 1 ciclo de carboplatino. Los <strong>No Seminomas</strong> son radiorresistentes; en estadios avanzados se tratan con <strong>Quimioterapia basada en cisplatino (esquema BEP: Bleomicina, Etopósido, Cisplatino)</strong>, requiriendo Linfadenectomía Retroperitoneal (RPLND) si persisten masas ganglionares residuales post-quimioterapia.",
           "El <strong>GES N° 20</strong> cubre a toda persona de 15 años y más, garantizando la intervención quirúrgica y el tratamiento oncológico integral en plazos estrictos (véase Tabla 13.10.B)."
         ]
+      },
+      {
+        "subhead": "6. Criptorquidia como Factor de Riesgo: Diagnóstico, Manejo y Seguimiento",
+        "paragraphs": [
+          "La <strong>criptorquidia</strong> (testículo no descendido) se diagnostica al examen físico: escroto hipoplásico vacío y testículo palpable en el canal inguinal o impalpable. El tratamiento es la <strong>orquidopexia entre los 6 y 12 meses de vida</strong> (máximo 18 meses), que mejora la fertilidad y permite palpar el testículo, pero <strong>no elimina el riesgo de cáncer</strong>, que sigue 2 a 8 veces mayor y se extiende al testículo contralateral. El tumor más frecuente en el testículo criptorquídeo es el <strong>seminoma</strong>. El seguimiento incluye el <strong>autoexamen testicular mensual</strong> desde la adolescencia, el examen clínico anual y una ecografía ante cualquier cambio de tamaño o consistencia. En el adulto con testículo intraabdominal no descendido se plantea la orquiectomía. El manejo en la edad pediátrica se detalla en el tema 13.7."
+        ]
       }
     ],
     "table": {
@@ -2856,6 +3346,13 @@ const urologiaClasses = [
         "paragraphs": [
           "En tumores estadio T1 (<strong>masa renal ≤ 4 cm, e idealmente hasta 7 cm</strong>) la técnica de elección es la <strong>Nefrectomía Parcial</strong> (abierta, laparoscópica o robótica), la cual reseca el tumor con margen de parénquima sano, preservando masa renal funcionante con sobrevida oncológica idéntica a la cirugía radical. En tumores centrales, grandes (> 7 cm) o que infiltran el hilio, se realiza <strong>Nefrectomía Radical</strong> (extirpación en bloque del riñón dentro de la fascia de Gerota).",
           "El CCR es refractario a la quimioterapia convencional y a la radioterapia. En enfermedad metastásica avanzada se utilizan agentes diana antiangiogénicos dirigidos contra VEGF (Sunitinib, Pazopanib, Cabozantinib) o inhibidores de checkpoint inmunológico (Nivolumab + Ipilimumab) (véase Tabla 13.11)."
+        ]
+      },
+      {
+        "subhead": "4. Masa Renal Sólida: Diagnóstico Diferencial y Principios de los Tumores Sólidos",
+        "paragraphs": [
+          "Hoy la mayoría de las masas renales se descubre de forma <strong>incidental</strong> en una ecografía o TAC pedidos por otra razón; solo 5 a 10% debuta con la tríada clásica (hematuria, dolor lumbar y masa palpable). Una masa sólida que realza con contraste se considera <strong>maligna hasta demostrar lo contrario</strong>, aunque cerca del 20% de las menores de 4 cm son benignas. El diagnóstico diferencial incluye el <strong>angiomiolipoma</strong> (benigno; se reconoce por la <strong>grasa macroscópica</strong> en el TAC; se asocia a esclerosis tuberosa y puede sangrar masivamente si mide más de 4 cm), el <strong>oncocitoma</strong> (benigno, indistinguible por imagen), las metástasis y el <strong>linfoma</strong> renal, el carcinoma urotelial de la pelvis renal (hematuria, defecto de llenado en el Uro-TAC), el absceso y la pielonefritis xantogranulomatosa. En el niño, la masa renal sólida es un <strong>tumor de Wilms</strong> hasta demostrar otra cosa.",
+          "<strong>Principios de los tumores sólidos (nivel sospecha, tratamiento inicial, derivación):</strong> se sospechan ante una masa palpable, indolora y de crecimiento progresivo, síntomas constitucionales (baja de peso, fiebre, sudoración nocturna) o un hallazgo de imagen. El médico general solicita las imágenes iniciales (ecografía y TAC con contraste), evita la biopsia previa cuando una cirugía curativa es posible (como en la masa renal resecable o en el testículo, donde se hace orquiectomía por vía inguinal), <strong>deriva a un centro oncológico</strong> dentro de los plazos GES y da soporte (dolor, nutrición, apoyo psicológico). La etapificación (TNM) con TAC de tórax, abdomen y pelvis define el tratamiento."
         ]
       }
     ],
@@ -3573,6 +4070,13 @@ const urologiaClasses = [
         "paragraphs": [
           "En todo paciente con microhematuria confirmada de origen urológico o con hematuria macroscópica indolora, se debe realizar estratificación de riesgo tumoral. Son <strong>factores de riesgo oncológico mayor</strong>: edad > 50 años, tabaquismo activo o pretérito (> 10 paquetes/año), exposición laboral a aminas aromáticas o químicos, hematuria macroscópica previa e irradiación pélvica.",
           "El protocolo de estudio estándar en pacientes de riesgo comprende: (1) Urocultivo para descartar infección bacteriana; (2) <strong>Uro-TAC con fase excretora</strong> para evaluar parénquima renal y urotelio superior; y (3) <strong>Cistoscopía flexible</strong> para inspección directa de la mucosa vesical y uretra prostática."
+        ]
+      },
+      {
+        "subhead": "4. Hematuria Masiva y Síndrome Nefrítico",
+        "paragraphs": [
+          "La <strong>hematuria masiva</strong> es el sangrado urinario con <strong>coágulos</strong> que causa inestabilidad hemodinámica, anemia aguda o <strong>retención urinaria por coágulos</strong> (dolor hipogástrico, globo vesical e imposibilidad de orinar). Las causas son el tumor vesical, la HPB, la cistitis hemorrágica (ciclofosfamida, radioterapia, virus BK), la litiasis, el trauma y la anticoagulación. <strong>Manejo en urgencia (completo):</strong> ABC y dos vías venosas, hemograma, grupo y Rh, coagulación y creatinina; corregir la coagulopatía y transfundir si hay inestabilidad o hemoglobina bajo 7 g/dL. Se instala una <strong>sonda Foley de 3 vías y grueso calibre (20-24 Fr)</strong>, se hace <strong>lavado vesical manual</strong> con suero fisiológico y jeringa grande hasta extraer los coágulos y se deja <strong>irrigación continua</strong> hasta que la orina aclare. Luego se <strong>deriva</strong> a urología para cistoscopía con evacuación y hemostasia y para el estudio de la causa (Uro-TAC).",
+          "El <strong>síndrome nefrítico</strong> es la expresión clínica de la hematuria glomerular: <strong>hematuria con hematíes dismórficos y cilindros hemáticos, hipertensión, edema (periorbitario), oliguria</strong>, proteinuria menor de 3,5 g/día y alza de la creatinina. Sus causas principales son la <strong>glomerulonefritis postestreptocócica</strong> (2 a 3 semanas después de una faringitis o 4 a 6 semanas tras una piel infectada; <strong>C3 bajo</strong> y ASLO positivo), la <strong>nefropatía por IgA</strong> (hematuria 1 a 3 días después de una infección respiratoria, complemento normal), el lupus y las vasculitis ANCA. Estudio: sedimento, proteinuria, creatinina, C3 y C4, ASLO, ANA y ANCA, hepatitis B y C y VIH. <strong>Manejo inicial:</strong> reposo relativo, restricción de sal y líquidos, furosemida si hay sobrecarga, antihipertensivos (IECA o calcioantagonistas) y penicilina si hay infección activa. <strong>Derivar a nefrología</strong>, de urgencia ante oliguria marcada, creatinina en rápido ascenso (glomerulonefritis rápidamente progresiva) o hemoptisis, por la necesidad de biopsia renal."
         ]
       }
     ],

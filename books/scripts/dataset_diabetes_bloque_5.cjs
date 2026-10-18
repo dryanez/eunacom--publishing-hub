@@ -29,16 +29,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -236,6 +237,13 @@ const bloque5 = [
           '• <strong>Inyecciones Intravítreas de Anti-VEGF (Ranibizumab, Aflibercept):</strong> Tratamiento de primera línea para el <em>Edema Macular Diabético con compromiso del centro de la fóvea</em>.',
         ],
       },
+      {
+        subhead: "4. Técnica del Fondo de Ojo: Oftalmoscopía Directa y Retinografía",
+        paragraphs: [
+          "El médico general debe saber <strong>realizar el fondo de ojo con oftalmoscopio directo</strong>. <strong>Preparación:</strong> dilatar la pupila con <strong>tropicamida 1% (1 gota por ojo, repetir a los 5–10 minutos; efecto en 15–30 minutos)</strong>, salvo antecedente de glaucoma de ángulo estrecho; sala en penumbra; el paciente mira un punto lejano. <strong>Técnica:</strong> el examinador usa su ojo derecho para el ojo derecho del paciente y viceversa; se acerca a unos 2 cm, ligeramente lateral (15°), y busca primero el <strong>reflejo rojo</strong> (si falta, hay opacidad de medios). Se sigue un vaso hacia la <strong>papila</strong> (bordes, excavación y búsqueda de neovasos), se recorren las 4 arcadas vasculares y se termina en la <strong>mácula</strong> (a dos diámetros papilares hacia temporal; reflejo foveolar).",
+          "Se buscan los hallazgos descritos en este tema: microaneurismas, hemorragias, exudados duros y algodonosos, venas arrosariadas, IRMA y neovasos. En la atención primaria el tamizaje se complementa con la <strong>retinografía digital no midriática</strong> (foto de 45° centrada entre mácula y papila, leída a distancia por oftalmología). Se <strong>deriva</strong> a oftalmología toda retinopatía más que leve, el edema macular, la disminución de la agudeza visual o el examen no evaluable. Intervalo de control: anual si no hay retinopatía; cada 6 meses o menos si hay RDNP moderada o severa; en la embarazada, antes de la concepción y cada trimestre.",
+        ],
+      },
     ],
     table: {
       title: 'Diferencias Cardinales entre Retinopatía No Proliferativa y Proliferativa',
@@ -352,6 +360,15 @@ const bloque5 = [
         subhead: '5. Principios de Tratamiento Médico y Quirúrgico',
         paragraphs: [
           'El manejo del pie diabético requiere una estrategia multimodal: <strong>1) Descarga absoluta de presión ("off-loading"):</strong> mediante reposo, férula de contacto total o calzado terapéutico especial, sin lo cual ninguna úlcera cicatrizará; <strong>2) Curaciones avanzadas:</strong> eliminación del tejido esfacelado o necrótico y mantención de un ambiente húmedo fisiológico; <strong>3) Manejo antimicrobiano:</strong> Las úlceras superficiales con celulitis leve se tratan ambulatoriamente con antibióticos orales dirigidos a <em>Staphylococcus aureus</em> y <em>Streptococcus</em> (cefadroxilo, clindamicina o amoxicilina/clavulánico). Las úlceras profundas complicadas (Wagner 3–5) exigen cobertura para flora polimicrobiana (cocos Gram positivos, enterobacterias y anaerobios) con esquemas como Ceftriaxona + Metronidazol o Ciprofloxacino + Clindamicina por vía parenteral.',
+        ],
+      },
+      {
+        subhead: "6. Enfermedad Arterial Periférica en el Pie Diabético y Curación Básica",
+        paragraphs: [
+          "<strong>Isquemia crónica (vasculopatía periférica):</strong> en la diabetes compromete sobre todo las arterias infrapoplíteas (tibiales y peroneas) y se acompaña de calcificación de la capa media. <strong>Clínica:</strong> claudicación intermitente de pantorrilla, <strong>dolor de reposo nocturno</strong> que alivia con la pierna colgando, pulsos pedio y tibial posterior disminuidos o ausentes, piel fría, pálida y atrófica sin vello, relleno capilar &gt; 3 segundos. La <strong>úlcera isquémica</strong> es distal (ortejos, talón, bordes del pie), de <strong>lecho pálido, dolorosa y sin hiperqueratosis</strong>, a diferencia de la neuropática plantar, indolora y con callo. La clasificación de Fontaine va de I (asintomático) a IV (lesiones tróficas o gangrena); los estadios III y IV son <strong>isquemia crítica</strong>.",
+          "<strong>Manejo inicial:</strong> suspender el tabaco, estatina de alta intensidad, aspirina 100 mg, control de PA y glicemia y ejercicio supervisado. Ante isquemia crítica o una úlcera que no cicatriza, se <strong>deriva de urgencia a cirugía vascular</strong> para revascularización (angioplastia o bypass); una úlcera isquémica no se desbrida agresivamente ni se amputa sin evaluar la perfusión. La combinación de isquemia e infección es una urgencia.",
+          "<strong>Exámenes (se emplea el informe):</strong> el <strong>índice tobillo-brazo (ITB)</strong> se mide con Doppler manual como la presión sistólica más alta del tobillo (pedia o tibial posterior) dividida por la presión sistólica braquial más alta: <strong>normal 0.9–1.3; &lt; 0.9 indica EAP; &lt; 0.4–0.5, isquemia severa</strong>. En el diabético un ITB &gt; 1.3 es falsamente normal por calcificación (vasos incompresibles) y se recurre al índice dedo-brazo. El <strong>Doppler o eco-Doppler vascular periférico</strong> informa la localización de la estenosis u oclusión y el tipo de onda (trifásica normal, monofásica en estenosis significativa). La <strong>arteriografía de extremidades inferiores</strong> (angiografía por sustracción digital, angio-TAC o angio-RM) la solicita el cirujano vascular cuando planifica revascularizar; el médico general debe entender el informe (nivel de la oclusión, flujo distal, candidato a angioplastia o bypass) y recordar que el contraste exige hidratación, VFG y suspender la metformina 48 horas.",
+          "<strong>Curación básica del pie diabético (se realiza):</strong> 1) retirar el apósito previo y <strong>lavar con suero fisiológico tibio</strong> a baja presión, sin antisépticos citotóxicos (povidona, agua oxigenada, alcohol); 2) retirar el tejido no viable y los callos que rodean la úlcera neuropática con técnica aséptica; en una úlcera isquémica sin revascularizar se mantiene la escara seca; 3) secar los bordes y <strong>medir y registrar</strong> la úlcera; 4) cubrir con un apósito que mantenga un <strong>ambiente húmedo</strong> (gasa con vaselina, hidrogel, espuma o alginato si hay exudado), con vendaje no compresivo; 5) repetir a diario o cada 48–72 horas según el exudado, siempre con <strong>descarga</strong>. Se toma cultivo de tejido profundo solo si hay signos clínicos de infección.",
         ],
       },
     ],
@@ -507,6 +524,13 @@ const bloque5 = [
           '• <strong>Rabdomiólisis:</strong> Cuadro infrecuente pero potencialmente fatal (< 0.01%), con <strong>CK > 10 veces el valor normal (frecuente > 10.000 UI/L)</strong>, dolor muscular severo, mioglobinuria (orinas oscuras de color coñac) e insuficiencia renal aguda.',
         ],
       },
+      {
+        subhead: "4. Control de Factores de Riesgo Vascular y Prevención de las Dislipidemias",
+        paragraphs: [
+          "El control de los <strong>factores de riesgo de enfermedad vascular</strong> es la base del manejo del diabético y del paciente con ERC: <strong>cesación del tabaco</strong> (consejería breve, terapia de reemplazo de nicotina o vareniclina), PA &lt; 130/80 mmHg con IECA o ARA-II si hay albuminuria, HbA1c individualizada, LDL según el riesgo, peso saludable y cintura controlada, actividad física de 150 minutos semanales, alimentación mediterránea con sal &lt; 5 g/día y alcohol limitado. En ERC se evitan los AINE y se agrega iSGLT2 cuando corresponde. La aspirina 100 mg se reserva para prevención secundaria. La regla es <strong>tratar el riesgo global y no un valor aislado</strong>.",
+          "<strong>Prevención de las dislipidemias:</strong> el perfil lipídico se pesquisa de forma periódica en el adulto (EMPA), con mayor frecuencia si hay factores de riesgo o antecedente familiar; en familias con hipercolesterolemia familiar se tamiza a los hijos desde la infancia. Las medidas son: reducir <strong>grasas saturadas</strong> y trans, aumentar fibra y pescado, <strong>bajar 5–10% del peso</strong> (reduce TG cerca de 20%), ejercicio aeróbico (sube el HDL y baja los TG), dejar el tabaco (sube el HDL) y limitar alcohol y azúcares simples. Antes de rotular una dislipidemia como primaria se corrigen las <strong>causas secundarias</strong>: hipotiroidismo, síndrome nefrótico, colestasis, diabetes descompensada, alcohol y fármacos (tiazidas, betabloqueadores, corticoides, anticonceptivos, retinoides, inhibidores de proteasa).",
+        ],
+      },
     ],
     table: {
       title: 'Clasificación de la Potencia de las Estatinas y Metas de c-LDL según Riesgo Cardiovascular',
@@ -608,6 +632,13 @@ const bloque5 = [
           '• Antecedente familiar de <strong>enfermedad coronaria prematura en familiares de primer grado</strong> (infarto de miocardio o muerte súbita en hombres < 55 años o mujeres < 65 años). Requiere tratamiento intensivo de por vida con estatinas de alta potencia a dosis máximas + ezetimiba + inhibidores de PCSK9 (Evolocumab).',
         ],
       },
+      {
+        subhead: "4. Régimen Dietético para las Dislipidemias",
+        paragraphs: [
+          "<strong>Hipercolesterolemia (LDL elevado):</strong><br/>• Grasas saturadas &lt; 7–10% de las calorías (carnes grasas, mantequilla, lácteos enteros, coco) y grasas trans lo más cerca de cero.<br/>• Colesterol dietario &lt; 200–300 mg/día (limitar yema de huevo y vísceras).<br/>• Aumentar <strong>fibra soluble</strong> (avena, legumbres, manzana; 10–25 g/día) y esteroles vegetales (2 g/día), que bajan el LDL 5–15%.<br/>• Reemplazar las grasas saturadas por monoinsaturadas y poliinsaturadas (aceite de oliva, canola, frutos secos, pescado azul).<br/>La dieta sola reduce el LDL cerca de 10–15%.",
+          "<strong>Hipertrigliceridemia:</strong><br/>• Eliminar <strong>alcohol</strong> (cero si TG &gt; 500 mg/dL), azúcares simples, fructosa y bebidas azucaradas, y reducir los carbohidratos refinados.<br/>• Pescados grasos 2 veces por semana (omega-3) y comidas fraccionadas.<br/>• Reducir la grasa total (&lt; 15–20% de las calorías si TG &gt; 500–1.000, como se indicó arriba).<br/>• Bajar de peso: 5–10% reduce los TG cerca de 20%; sumar ejercicio aeróbico.<br/>El patrón de dieta mediterránea con aceite de oliva extra virgen o frutos secos reduce los eventos cardiovasculares cerca de 30% (estudio PREDIMED) y es la base del consejo dietético en toda dislipidemia.",
+        ],
+      },
     ],
     table: {
       title: 'Clasificación de Hipertrigliceridemia y Riesgo de Pancreatitis',
@@ -655,6 +686,146 @@ const bloque5 = [
         correcta: 'A',
         explicacion: 'El paciente presenta los hallazgos clásicos de una Hipercolesterolemia Familiar Heterocigota: elevación extrema de colesterol LDL (> 190 mg/dL, en este caso 266 mg/dL), presencia de xantomas tendinosos en los tendones de Aquiles (estigma físico patognomónico que traduce depósito tisular de ésteres de colesterol por macrófagos espumosos) y antecedentes de primer grado de enfermedad coronaria prematura (padre con infarto a los 41 años). Se transmite de forma autosómica dominante por mutaciones del receptor LDL.',
         recTag: 'EUNACOM Diciembre 2021 (Q#39)'
+      }
+    ]
+  },
+  {
+    id: 'diab-25',
+    classId: 'diab-25',
+    tier: 3,
+    blockNum: 5,
+    blockName: 'Complicaciones Crónicas y Dislipidemias',
+    topicLabel: '5.6',
+    title: 'Nutrición Clínica: Obesidad, Síndrome Metabólico, Evaluación Nutricional y Trastornos de la Conducta Alimentaria',
+    perfilCode: '1.02.1.012, 1.02.1.013, 1.02.1.016, 1.02.1.018, 1.02.3.001, 1.02.3.002, 1.02.3.006, 1.02.3.012, 1.02.3.014, 1.02.4.012, 1.02.4.020, 1.01.1.023, 1.01.3.001, 1.01.3.004',
+    dx: 'Específico', tx: 'Completo', seg: 'Completo',
+    ges: 'Sin garantía GES específica · Obesidad en el Programa de Salud Cardiovascular y Elige Vida Sana · Obesidad mórbida y TCA: tratamiento inicial y derivación a equipo especializado',
+    reconstrucciones: 'EUNACOM Julio 2015 (Q#20) · EUNACOM Julio 2017 (Q#4) · EUNACOM Diciembre 2017 (Q#42) · EUNACOM Julio 2025 (Q#30)',
+    frecuencia: 'Alta · obesidad con resistencia a la insulina que solo requiere estilo de vida, acantosis nigricans como marcador, prevención de DM2 en prediabetes y realimentación gradual en anorexia nerviosa',
+    svg: null, algoTitle: 'Algoritmo de Evaluación y Manejo Nutricional: Obesidad, Síndrome Metabólico y TCA',
+    diagram: flow('Algoritmo de Evaluación y Manejo Nutricional', [
+      { t: 'Evaluación nutricional: IMC, circunferencia de cintura, PA y perfil metabólico', s: 'Peso y talla (IMC), cintura en el punto medio entre última costilla y cresta ilíaca, glicemia y perfil lipídico · albúmina y balance nitrogenado si hay catabolismo' },
+      { k: 'split', q: '¿IMC < 18.5 con miedo intenso a engordar, o IMC de 30 o más?', s: 'El mismo IMC puede ocultar un trastorno de la conducta alimentaria o una obesidad con comorbilidad', ll: 'IMC < 18.5 · TCA', rl: 'IMC ≥ 25',
+        left: { t: 'SOSPECHA DE ANOREXIA NERVIOSA', s: 'Estabilizar, ECG y electrolitos · realimentar con 10–15 kcal/kg/día vigilando fósforo · derivar', type: 'crit' },
+        right: { t: 'Estilo de vida + déficit calórico de 500–750 kcal/día', s: 'Meta 5–10% de baja de peso en 6 meses · tratar comorbilidades · fármacos si IMC ≥ 30 (o ≥ 27 con comorbilidad)', type: 'acc' },
+        ll: 'IMC bajo + TCA', rl: 'Sobrepeso / obesidad' },
+      { t: 'IMC ≥ 40 (o ≥ 35 con comorbilidad): obesidad mórbida', s: 'Fracaso del manejo médico bien llevado · cirugía bariátrica (manga gástrica o bypass en Y de Roux) · derivar a equipo', type: 'warn', al: 'derivación', from: 'right' },
+    ]),
+    contexto: 'La nutrición clínica reúne tres escenarios de alto rendimiento. El primero es la evaluación nutricional: IMC, circunferencia de cintura, laboratorio (albúmina, prealbúmina) y el balance nitrogenado con nitrógeno ureico urinario de 24 horas para medir el catabolismo. El segundo es el exceso de peso: la obesidad con resistencia a la insulina se maneja con estilo de vida y déficit calórico, el síndrome metabólico se diagnostica con 3 de 5 criterios y se trata en sus componentes, la prediabetes se previene con 150 minutos de ejercicio y baja de peso, y la obesidad mórbida se deriva a cirugía bariátrica. El tercero es el déficit: la anorexia nerviosa exige una realimentación gradual (10 a 15 kcal/kg/día) para evitar el síndrome de realimentación.',
+    contentSections: [
+      {
+        subhead: '1. Evaluación Nutricional del Adulto: Antropometría, Laboratorio y Balance Nitrogenado',
+        paragraphs: [
+          'El <strong>índice de masa corporal (IMC = peso en kg / talla en m²)</strong> clasifica al adulto en bajo peso (&lt; 18.5), normal (18.5–24.9), sobrepeso (25–29.9) y obesidad (≥ 30; grado I 30–34.9, grado II 35–39.9 y grado III o mórbida ≥ 40). En el <strong>adulto mayor (≥ 65 años)</strong> el MINSAL usa otros cortes: bajo peso &lt; 23, normal 23–27.9, sobrepeso 28–31.9 y obesidad ≥ 32. La <strong>circunferencia de cintura</strong>, medida en el punto medio entre la última costilla y la cresta ilíaca, detecta la <strong>obesidad abdominal</strong> (≥ 102 cm en hombres y ≥ 88 cm en mujeres), que predice mejor el riesgo cardiometabólico que el IMC. El IMC no distingue masa grasa de masa magra (error en deportistas y en edema). En niños y adolescentes se usa el IMC según puntaje z o percentil. Pliegues cutáneos, bioimpedancia y DEXA miden composición corporal y no son de uso rutinario en la atención primaria.',
+          'La evaluación nutricional completa suma la <strong>anamnesis</strong> (pérdida de peso involuntaria &gt; 5% en 1 mes o &gt; 10% en 6 meses indica desnutrición), el examen físico (pérdida de masa muscular y de grasa subcutánea, edema) y el <strong>laboratorio</strong>: albúmina (vida media de 20 días), <strong>prealbúmina</strong> (2 a 3 días; es el marcador más sensible a cambios agudos), transferrina y recuento de linfocitos (&lt; 1.500/mm³ sugiere desnutrición). Ninguno es específico: la hipoalbuminemia refleja con frecuencia inflamación y no solo mala ingesta.',
+          'El <strong>balance nitrogenado</strong> mide si el paciente está en anabolismo o catabolismo. Se calcula con el <strong>nitrógeno ureico urinario (NUU) de orina de 24 horas</strong>: <strong>BN = proteínas ingeridas (g) / 6.25 − (NUU + 4 g)</strong>, donde 4 g representan pérdidas por heces, piel y otros. <strong>Positivo</strong> = anabolismo (meta en repleción nutricional), <strong>negativo</strong> = catabolismo. El NUU también grada el estrés metabólico: &lt; 5 g/día leve, 5–10 g/día moderado y <strong>&gt; 10 g/día severo</strong> (sepsis, politrauma, gran quemado). Requiere recolección completa de orina, aporte proteico conocido y función renal conservada (en ERC subestima el catabolismo). Un balance negativo persistente obliga a aumentar el aporte proteico-calórico (1.5–2 g/kg/día de proteínas en el crítico) y a tratar la causa; se repite semanalmente.',
+        ],
+      },
+      {
+        subhead: '2. Obesidad: Definición, Etiología y Manejo Inicial',
+        paragraphs: [
+          'La <strong>obesidad (IMC ≥ 30)</strong> es una enfermedad crónica y multifactorial: balance energético positivo sobre una base genética, con sedentarismo y alimentación hipercalórica. En Chile cerca de 3 de cada 4 adultos tienen exceso de peso y alrededor de 3 de cada 10, obesidad (ENS 2016–17). Ante sospecha clínica se descartan <strong>causas secundarias</strong>: hipotiroidismo (TSH), síndrome de Cushing, síndrome de ovario poliquístico y <strong>fármacos que aumentan el peso</strong> (corticoides, antipsicóticos, antidepresivos tricíclicos, valproato, insulina, sulfonilureas y glitazonas). Las <strong>comorbilidades</strong> que se buscan son DM2, HTA, dislipidemia, esteatosis hepática, apnea del sueño, artrosis, reflujo y cánceres asociados.',
+          '<strong>Manejo inicial (nivel específico/completo):</strong> estudio con glicemia, perfil lipídico, transaminasas y PA. <strong>Regla de examen:</strong> el obeso con glicemia normal y resistencia a la insulina (HOMA-IR &gt; 2.6) <strong>no tiene diabetes ni prediabetes y solo requiere dieta y ejercicio</strong>; no se indica metformina ni insulina. La meta es <strong>bajar 5–10% del peso en 6 meses</strong>, lo que ya mejora PA, glicemia y lípidos. El pilar es el cambio de estilo de vida (dieta hipocalórica, ejercicio y terapia conductual) durante 3 a 6 meses. La <strong>farmacoterapia</strong> es complementaria si hay IMC ≥ 30 (o ≥ 27 con comorbilidad) y fracaso del estilo de vida: <strong>orlistat</strong> (inhibe las lipasas; esteatorrea y déficit de vitaminas liposolubles) o agonistas GLP-1 (liraglutida 3 mg, semaglutida 2.4 mg; náuseas y riesgo de pancreatitis, contraindicados si hay antecedente de carcinoma medular de tiroides o MEN 2). El seguimiento es mensual al inicio, con peso, cintura y control de comorbilidades.',
+          '<strong>Obesidad mórbida (IMC ≥ 40, o ≥ 35 con comorbilidad mayor como DM2, HTA o apnea del sueño):</strong> el médico general la sospecha, inicia el tratamiento de las comorbilidades y <strong>deriva</strong> a un equipo (nutricionista, psicólogo, cirujano bariátrico). La <strong>cirugía bariátrica</strong> se considera en adultos de 18 a 65 años con fracaso de un manejo médico bien llevado (≥ 6 meses) y sin contraindicaciones (trastorno alimentario grave activo, abuso de sustancias, psicosis). Las técnicas más usadas son la <strong>manga gástrica</strong> (restrictiva) y el <strong>bypass gástrico en Y de Roux</strong> (restrictivo y malabsortivo; mayor efecto metabólico y mejor en reflujo). Remite la DM2 en 60–80% de los casos. Tras la cirugía se requiere suplementación de por vida (vitamina B12, hierro, calcio con vitamina D y polivitamínico), por el riesgo de déficit nutricional y de síndrome de dumping.',
+        ],
+      },
+      {
+        subhead: '3. Alimentación Saludable y Regímenes Dietéticos para la Obesidad',
+        paragraphs: [
+          'Las <strong>guías alimentarias del MINSAL</strong> y el patrón de <strong>dieta mediterránea</strong> definen la alimentación saludable: predominio de frutas y verduras (al menos 400 g/día), <strong>legumbres 2 veces por semana</strong>, <strong>pescado 2 veces por semana</strong> (omega-3), cereales integrales, lácteos descremados, frutos secos y aceite de oliva o canola como grasa principal. Se limitan la <strong>sal (&lt; 5 g/día)</strong>, el azúcar libre (&lt; 10% de las calorías), las grasas saturadas (&lt; 10%), las grasas trans, las carnes procesadas y el alcohol. La distribución habitual es 50–60% de carbohidratos complejos, 15–20% de proteínas y 25–30% de grasas, con 25–30 g de fibra al día y 4 comidas diarias. La <strong>Ley 20.606</strong> obliga a rotular con sellos «ALTO EN» (calorías, azúcares, sodio y grasas saturadas) y restringe la venta y publicidad dirigida a menores de 14 años. La dieta mediterránea reduce cerca de 30% los eventos cardiovasculares (PREDIMED).',
+          '<strong>Regímenes para la obesidad:</strong> el de elección es la <strong>dieta hipocalórica balanceada</strong>, con un déficit de <strong>500–750 kcal/día</strong> respecto del gasto (baja cerca de 0.5 kg por semana; habitualmente 1.200–1.500 kcal/día en mujeres y 1.500–1.800 kcal/día en hombres, sin bajar de 1.200 y 1.500 kcal sin supervisión). Las dietas bajas en carbohidratos, bajas en grasa, mediterránea o el ayuno intermitente logran <strong>pérdidas similares a 12 meses</strong>: el mejor régimen es el que el paciente puede sostener. Las dietas de muy bajo valor calórico (600–800 kcal/día) solo se usan por periodos breves y con supervisión (por ejemplo, previo a cirugía bariátrica) por el riesgo de litiasis biliar. Las dietas «de moda» (ayunos prolongados, «detox», cetogénica estricta) no se recomiendan. Se asocian actividad física de 150 a 300 minutos semanales (aeróbica y de resistencia, que conserva la masa magra) y terapia conductual (automonitoreo y control de estímulos). Una baja &gt; 1 kg por semana sostenida predispone a colelitiasis.',
+        ],
+      },
+      {
+        subhead: '4. Síndrome Metabólico y Prevención de la Diabetes Mellitus Tipo 2',
+        paragraphs: [
+          'El <strong>síndrome metabólico (SM)</strong> agrupa factores de riesgo cardiovascular cuya base es la <strong>resistencia a la insulina</strong> y la adiposidad visceral. Se diagnostica con <strong>3 o más de 5 criterios</strong>: 1) <strong>cintura ≥ 102 cm en hombres o ≥ 88 cm en mujeres</strong>; 2) <strong>triglicéridos ≥ 150 mg/dL</strong>; 3) <strong>HDL &lt; 40 mg/dL en hombres o &lt; 50 mg/dL en mujeres</strong>; 4) <strong>PA ≥ 130/85 mmHg</strong> o tratamiento antihipertensivo; 5) <strong>glicemia de ayunas ≥ 100 mg/dL</strong> o tratamiento. Multiplica por 5 el riesgo de DM2 y por 2 el de enfermedad cardiovascular. Un marcador cutáneo clásico de resistencia a la insulina es la <strong>acantosis nigricans</strong> (hiperpigmentación aterciopelada de cuello, axilas y pliegues, con acrocordones); se asocia además a esteatosis hepática y a ovario poliquístico.',
+          '<strong>Manejo:</strong> no existe un fármaco para «el síndrome»; se tratan <strong>todos sus componentes</strong>. La base es el estilo de vida (baja de 7–10% del peso, ejercicio y dieta mediterránea). Se agregan meta de PA &lt; 130/80 mmHg, estatina según el riesgo cardiovascular global y, si coexiste prediabetes de alto riesgo, metformina. Se controla al menos anualmente con glicemia, perfil lipídico y PA.',
+          '<strong>Prevención de la DM2:</strong> se dirige a quienes tienen <strong>prediabetes</strong> (glicemia de ayunas 100–125 mg/dL, intolerancia a la glucosa o HbA1c 5.7–6.4%), sobrepeso con factores de riesgo, antecedente de diabetes gestacional, ovario poliquístico o familiar de primer grado con diabetes. En el estudio <strong>Diabetes Prevention Program</strong>, una baja de 5–7% del peso con <strong>150 minutos semanales de actividad física</strong> redujo en <strong>58%</strong> la progresión a diabetes, más que la metformina (31%). Por eso la intervención más importante es el estilo de vida, y la <strong>metformina</strong> se reserva para prediabetes con IMC ≥ 35, edad &lt; 60 años, diabetes gestacional previa o glicemia que sigue subiendo. En APS se implementa con el programa <strong>Elige Vida Sana</strong>.',
+        ],
+      },
+      {
+        subhead: '5. Trastornos de la Conducta Alimentaria: Anorexia Nerviosa, Bulimia y Realimentación',
+        paragraphs: [
+          'Los TCA afectan sobre todo a mujeres jóvenes y adolescentes. <strong>Anorexia nerviosa (AN):</strong> restricción de la ingesta que lleva a un <strong>peso significativamente bajo (IMC &lt; 18.5 en adultos)</strong>, miedo intenso a engordar y distorsión de la imagen corporal; puede ser de tipo restrictivo o con atracones/purgas. Cursa con <strong>amenorrea, lanugo, bradicardia, hipotensión, hipotermia, acrocianosis, edema</strong> y osteopenia. <strong>Bulimia nerviosa (BN):</strong> atracones recurrentes seguidos de conductas compensatorias (vómitos, laxantes, diuréticos, ejercicio excesivo) al menos 1 vez por semana durante 3 meses, con <strong>peso normal o elevado</strong>; los hallazgos son el <strong>signo de Russell</strong> (callosidades en el dorso de la mano), <strong>hipertrofia parotídea indolora</strong>, erosión del esmalte dental, <strong>hipokalemia con alcalosis metabólica hipoclorémica</strong> e hiperamilasemia. El trastorno por atracón tiene atracones sin conducta compensatoria y se asocia a obesidad.',
+          '<strong>Evaluación y conducta inicial (se sospecha, se estabiliza y se deriva):</strong> ECG (bradicardia, QTc largo), electrolitos (K, Mg, P, Ca), glicemia, función renal, hemograma, TSH y test de embarazo. Criterios de <strong>hospitalización</strong>: IMC &lt; 15 (o &lt; 75% del peso esperado), FC &lt; 40–50 lpm, PA &lt; 90/60 mmHg, hipotermia, K &lt; 3 mEq/L, hipofosfemia, QTc prolongado, síncope, rechazo alimentario, pérdida rápida de peso, riesgo suicida o fracaso del manejo ambulatorio. El tratamiento es de un <strong>equipo multidisciplinario</strong> (psiquiatría, nutrición, psicología y medicina): terapia familiar en adolescentes con AN y terapia cognitivo-conductual; en la <strong>bulimia</strong> se agrega <strong>fluoxetina 60 mg/día</strong> (el bupropión está contraindicado por riesgo de convulsiones). No hay fármaco de eficacia probada para ganar peso en la AN.',
+          '<strong>Realimentación y síndrome de realimentación:</strong> en la desnutrición grave la reintroducción brusca de calorías eleva la insulina y arrastra fósforo, potasio y magnesio al interior de la célula, con retención de líquidos y déficit de tiamina. Produce <strong>hipofosfemia (el hallazgo central)</strong>, arritmias, insuficiencia cardíaca, edema, convulsiones y encefalopatía de Wernicke. Se previene identificando el riesgo (IMC &lt; 16, ayuno prolongado, pérdida &gt; 15% del peso en 3–6 meses, hipokalemia previa) e <strong>iniciando con 10–15 kcal/kg/día</strong> (por ejemplo, 300 kcal/día en una paciente de 29 kg), con aumento gradual cada 1 a 2 días hasta 30–40 kcal/kg/día. Se administra <strong>tiamina 100 mg antes y durante</strong>, se corrigen K, P y Mg y se controlan los electrolitos a diario las primeras semanas, con monitoreo cardíaco.',
+        ],
+      },
+    ],
+    table: {
+      title: 'Clasificación del Estado Nutricional del Adulto según IMC y Conducta Inicial',
+      headers: ['IMC (kg/m²)', 'Categoría', 'Riesgo Clínico Principal', 'Conducta Inicial'],
+      rows: [
+        ['&lt; 18.5', 'Bajo peso', 'Desnutrición, TCA, enfermedad consuntiva', 'Estudiar causa; si hay miedo a engordar sospechar anorexia nerviosa y derivar'],
+        ['18.5 – 24.9', 'Normal', 'Riesgo habitual', 'Mantener alimentación saludable y ejercicio'],
+        ['25 – 29.9', 'Sobrepeso', 'Riesgo cardiometabólico aumentado', 'Estilo de vida; tamizar glicemia y perfil lipídico'],
+        ['30 – 34.9 / 35 – 39.9', 'Obesidad grado I / II', 'DM2, HTA, dislipidemia, apnea del sueño', 'Déficit calórico y ejercicio; fármacos si hay fracaso; tratar comorbilidades'],
+        ['≥ 40 (o ≥ 35 con comorbilidad)', 'Obesidad mórbida', 'Mortalidad cardiovascular y metabólica elevada', 'Derivar a equipo para evaluar cirugía bariátrica'],
+      ],
+    },
+    vignette: 'Una mujer de 38 años consulta por aumento de peso. Mide 1.60 m y pesa 87 kg (IMC 34). Su circunferencia de cintura es de 104 cm y su PA de 138/88 mmHg. Presenta hiperpigmentación aterciopelada en cuello y axilas. Los exámenes muestran glicemia de ayunas 108 mg/dL, triglicéridos 210 mg/dL y HDL 41 mg/dL. No tiene síntomas de hipotiroidismo ni antecedentes de consumo de corticoides.',
+    explicacion: 'La paciente cumple los 5 criterios de síndrome metabólico (cintura de 104 cm, triglicéridos de 210 mg/dL, HDL de 41 mg/dL, PA de 138/88 mmHg y glicemia de ayunas de 108 mg/dL) y presenta acantosis nigricans, marcador cutáneo de resistencia a la insulina. Tiene además obesidad grado I. La conducta base es el estilo de vida intensivo: dieta hipocalórica balanceada con déficit de 500 a 750 kcal/día, actividad física de al menos 150 minutos semanales y una meta de bajar 5 a 10% del peso en 6 meses, junto con el tratamiento de cada componente. Como tiene prediabetes se controla la glicemia y se evalúa metformina si hay factores de alto riesgo.',
+    keyPoints: [
+      'IMC = peso / talla²: bajo peso &lt; 18.5, sobrepeso 25–29.9, obesidad ≥ 30 y obesidad mórbida ≥ 40 (o ≥ 35 con comorbilidad); la cintura ≥ 102 cm en hombres o ≥ 88 cm en mujeres define obesidad abdominal.',
+      'Balance nitrogenado = proteínas ingeridas / 6.25 − (NUU de 24 horas + 4 g); un NUU &gt; 10 g/día indica estrés metabólico severo y un balance negativo exige aumentar el aporte proteico-calórico.',
+      'El obeso con glicemia normal y resistencia a la insulina solo requiere dieta y ejercicio; no se indica metformina ni insulina. La meta es bajar 5–10% del peso en 6 meses.',
+      'El síndrome metabólico requiere 3 de 5 criterios (cintura, TG ≥ 150, HDL bajo, PA ≥ 130/85 y glicemia ≥ 100); la acantosis nigricans es marcador de resistencia a la insulina y el tratamiento es el de cada componente más estilo de vida.',
+      'Para prevenir la DM2 en prediabetes la intervención más importante es el estilo de vida (baja de peso y 150 minutos semanales de ejercicio; reduce 58% la progresión); la metformina es de segunda línea.',
+      'Anorexia nerviosa: realimentar con 10–15 kcal/kg/día y tiamina, vigilando fósforo, potasio y magnesio, para prevenir el síndrome de realimentación; hospitalizar según IMC, FC, PA y electrolitos y derivar a equipo especializado.',
+    ],
+    questions: [
+      {
+        stem: 'Un adolescente de 16 años, con IMC de 33, se realiza una glicemia de ayuno que resulta 96 mg/dL, más una insulina basal de 23 UI/L. ¿Cuál es la conducta más adecuada?',
+        opciones: [
+          'A) Iniciar insulina',
+          'B) Iniciar dieta y ejercicio',
+          'C) Iniciar metformina',
+          'D) Solicitar un test de tolerancia a la glucosa',
+          'E) Iniciar metformina más glibenclamida'
+        ],
+        correcta: 'B',
+        explicacion: 'Tiene obesidad con resistencia a la insulina (HOMA-IR = 96 × 23 / 405 = 5.5), pero su glicemia de ayunas es normal: no cumple criterios de diabetes, intolerancia a la glucosa ni glicemia alterada de ayunas. En esta situación el manejo es el cambio de estilo de vida, con dieta hipocalórica y ejercicio; no se indica insulina ni fármacos hipoglucemiantes.',
+        recTag: 'EUNACOM Julio 2015 (Q#20)'
+      },
+      {
+        stem: 'Una paciente de 25 años, con antecedente de anorexia nerviosa desde hace 5 años, pesa actualmente 29 kg y mide 1.68 m (IMC 10.3). ¿Con cuántas kilocalorías diarias se debe iniciar su alimentación?',
+        opciones: [
+          'A) 300',
+          'B) 600',
+          'C) 1.200',
+          'D) 1.500',
+          'E) 2.400'
+        ],
+        correcta: 'A',
+        explicacion: 'Para prevenir el síndrome de realimentación en una desnutrición grave se inicia con 10 a 15 kcal/kg/día, lo que en 29 kg equivale a unas 300 a 430 kcal/día, y se aumenta de forma gradual con aporte de tiamina y control de fósforo, potasio y magnesio. Iniciar con 1.200 kcal o más expone a hipofosfemia, arritmias e insuficiencia cardíaca.',
+        recTag: 'EUNACOM Julio 2017 (Q#4)'
+      },
+      {
+        stem: 'Un paciente de 30 años, con IMC de 30 kg/m², consulta por hiperpigmentación de la piel de las axilas y el cuello, asociada a aparición de acrocordones en los pliegues inguinales, cervicales y axilares. ¿Cuál es el diagnóstico más probable?',
+        opciones: [
+          'A) Enfermedad de Cushing',
+          'B) Hipotiroidismo',
+          'C) Síndrome paraneoplásico',
+          'D) Insuficiencia suprarrenal',
+          'E) Resistencia a la insulina'
+        ],
+        correcta: 'E',
+        explicacion: 'La hiperpigmentación aterciopelada de cuello y axilas con acrocordones corresponde a acantosis nigricans, signo cutáneo clásico de la resistencia a la insulina en un paciente con obesidad. Forma parte del síndrome metabólico y obliga a buscar prediabetes, dislipidemia e hipertensión. Aunque puede ser paraneoplásica, esto es raro y se piensa solo si es de aparición brusca y extensa.',
+        recTag: 'EUNACOM Diciembre 2017 (Q#42)'
+      },
+      {
+        stem: 'Un hombre de 48 años tiene glicemia de ayuno de 115 mg/dL en dos ocasiones y un IMC de 28. No tiene otros factores de riesgo. ¿Cuál es la intervención más importante para reducir la progresión a diabetes?',
+        opciones: [
+          'A) Dieta estricta baja en carbohidratos',
+          'B) Metformina 500 mg dos veces al día',
+          'C) Ejercicio aeróbico 150 minutos por semana',
+          'D) Orlistat',
+          'E) Insulina basal'
+        ],
+        correcta: 'C',
+        explicacion: 'Tiene prediabetes (glicemia de ayunas de 100 a 125 mg/dL). La intervención más efectiva para prevenir la progresión es el cambio de estilo de vida, con ejercicio de 150 minutos semanales de intensidad moderada y una alimentación saludable con baja de peso, que en el Diabetes Prevention Program redujo 58% el riesgo de diabetes. La metformina es de segunda línea y se reserva para pacientes de alto riesgo.',
+        recTag: 'EUNACOM Julio 2025 (Q#30)'
       }
     ]
   }

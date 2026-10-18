@@ -109,7 +109,8 @@ module.exports = {
           { t: 'Pulmón hipoinsuflado', d: 'Menos de 7 espacios intercostales',
             say: 'La radiografía es al revés de lo que vas a ver en el siguiente cuadro: el pulmón está hipoinsuflado, con menos de siete espacios intercostales visibles.' },
           { t: 'Vidrio esmerilado y broncograma', d: 'El aire dibuja los bronquios',
-            say: 'Y aparece el patrón en vidrio esmerilado, con broncograma aéreo bien marcado: el aire que queda dentro de los bronquios se ve nítido sobre un pulmón colapsado alrededor.' },
+            say: 'Y aparece el patrón en vidrio esmerilado, con broncograma aéreo bien marcado. Mira esta radiografía: el patrón es granular fino y difuso, con poco aire, y el aire que queda dentro de los bronquios se ve nítido sobre un pulmón colapsado alrededor.',
+            photo: { src: 'biblioteca/15_pediatria/ped-18/01_enfermedad-de-membrana-hialina-rx__cto-pediatria_p19.jpg', label: 'Membrana hialina', at: 'Mira esta radiografía', credit: 'Manual CTO Pediatría 14.ª ed., p. 19' } },
         ] },
         { title: 'Tratamiento', tag: 'Prevención y soporte', kind: 'pharma', items: [
           { t: 'Corticoides prenatales a la madre', d: 'Betametasona entre las semanas 24 y 34',
@@ -152,7 +153,8 @@ module.exports = {
           { t: 'Pulmón hiperinsuflado', d: 'Más de 8 espacios intercostales',
             say: 'La radiografía aquí es opuesta a la anterior: el pulmón está hiperinsuflado, con más de ocho espacios intercostales visibles.' },
           { t: 'Líquido en la cisura', d: 'Congestión perihiliar en sol radiante',
-            say: 'Y se ve líquido metido en la cisura pulmonar, con congestión alrededor del hilio en un patrón que llaman en sol radiante.' },
+            say: 'Y se ve líquido metido en la cisura pulmonar, con congestión alrededor del hilio en un patrón que llaman en sol radiante. En esta radiografía el tórax está amplio, hiperinsuflado, con trama perihiliar marcada.',
+            photo: { src: 'biblioteca/15_pediatria/ped-18/02_taquipnea-transitoria-rx__cto-pediatria_p18.jpg', label: 'Taquipnea transitoria', at: 'En esta radiografía', credit: 'Manual CTO Pediatría 14.ª ed., p. 18' } },
         ] },
         { title: 'Curso', tag: 'Benigno y autolimitado', kind: 'normal', items: [
           { t: 'Resuelve en 24 a 72 horas', d: 'Solo con oxígeno de soporte',
@@ -184,7 +186,8 @@ module.exports = {
         { show: ['obs'], note: 'El meconio tapa como una válvula',
           say: 'El meconio obstruye como una válvula: deja entrar el aire pero no salir, así que quedan zonas de atelectasia junto a zonas de enfisema, alternadas en el mismo pulmón.' },
         { show: ['hpp'], note: 'La complicación que puede matar',
-          say: 'Y la complicación que más te importa es la hipertensión pulmonar persistente, con una hipoxemia que no responde a oxígeno solo, y que necesita óxido nítrico inhalado y ventilación de alta frecuencia. La radiografía, otra vez distinta a las dos anteriores, muestra infiltrados algodonosos en parches, alternados con zonas hiperinsufladas y el diafragma aplanado.' },
+          say: 'Y la complicación que más te importa es la hipertensión pulmonar persistente, con una hipoxemia que no responde a oxígeno solo, y que necesita óxido nítrico inhalado y ventilación de alta frecuencia. La radiografía, otra vez distinta a las dos anteriores, muestra infiltrados algodonosos en parches. Mira esta imagen: zonas densas alternadas con zonas hiperinsufladas, y el diafragma aplanado.',
+          photo: { src: 'biblioteca/15_pediatria/ped-18/03_aspiracion-meconial-rx__cto-pediatria_p20.jpg', label: 'Aspiración meconial', at: 'Mira esta imagen', credit: 'Manual CTO Pediatría 14.ª ed., p. 20' } },
       ],
     },
 
@@ -203,22 +206,85 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Cuando el oxígeno no se va',
+      title: 'Displasia broncopulmonar',
+      cards: [
+        { title: 'Definición', tag: 'Enfermedad pulmonar crónica', kind: 'key', items: [
+          { t: 'Oxígeno a los 28 días', d: 'Y a las 36 semanas postmenstruales',
+            say: 'La displasia broncopulmonar es la enfermedad pulmonar crónica del prematuro: sigue dependiendo de oxígeno a los veintiocho días de vida y a las treinta y seis semanas de edad postmenstrual, en los menores de treinta y dos semanas.' },
+          { t: 'Leve, moderada, severa', d: 'Aire ambiental; FiO₂ bajo 30%; 30% o más o presión positiva',
+            say: 'Se grada según el soporte a las treinta y seis semanas: leve, en aire ambiental; moderada, con oxígeno bajo treinta por ciento; y severa, con treinta por ciento o más, o con presión positiva.' },
+        ] },
+        { title: 'Por qué ocurre', tag: 'Inmadurez más injuria', kind: 'alert', items: [
+          { t: 'Ventilación, oxígeno, infección', d: 'Y ductus persistente: se detiene la alveolarización',
+            say: 'Resulta de la inmadurez pulmonar más la injuria de la ventilación mecánica, el oxígeno, la infección y el ductus arterioso persistente, con detención de la alveolarización. Pesan la prematurez extrema, el bajo peso, la corioamnionitis, la sepsis y la ventilación prolongada.' },
+          { t: 'Radiografía', d: 'Opacidades intersticiales o patrón quístico',
+            say: 'Clínicamente hay taquipnea, retracciones, sibilancias y oxígeno persistente. La radiografía muestra opacidades intersticiales o un patrón quístico con hiperinsuflación.' },
+        ] },
+        { title: 'Prevención y manejo', tag: 'Derivar a broncopulmonar', kind: 'pharma', items: [
+          { t: 'Prevenir', d: 'Corticoides prenatales, surfactante precoz, CPAP, cafeína',
+            say: 'La prevención es corticoides prenatales, surfactante precoz, CPAP y ventilación protectora, cafeína, evitar la hiperoxia y tratar el ductus.' },
+          { t: 'Saturación 92 a 95%', d: 'Diuréticos, broncodilatadores, nirsevimab, vacunas',
+            say: 'El manejo es oxígeno para una saturación entre noventa y dos y noventa y cinco por ciento, diuréticos, broncodilatadores, nutrición hipercalórica, prevención del virus sincicial con nirsevimab, vacunas, y evitar el humo de tabaco. Tienen más rehospitalizaciones, riesgo de hipertensión pulmonar, asma y retraso del desarrollo, así que derivas a broncopulmonar y neonatología.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Pausas respiratorias del prematuro',
+      title: 'Apneas del prematuro',
+      cards: [
+        { title: 'Qué cuenta como apnea', tag: 'Inmadurez del centro respiratorio', kind: 'key', items: [
+          { t: 'Pausa de más de 20 segundos', d: 'O menos, con bradicardia o cianosis',
+            say: 'Apnea es una pausa respiratoria de más de veinte segundos, o de menos si hay bradicardia, cianosis o desaturación. Afecta a la mitad de los prematuros bajo mil quinientos gramos, empieza entre el segundo y el séptimo día y desaparece cerca de las treinta y seis a treinta y siete semanas.' },
+          { t: 'Mixta: la más frecuente', d: 'Central, obstructiva o mixta',
+            say: 'Puede ser central, obstructiva o mixta, y la mixta es la más frecuente. La respiración periódica, con pausas cortas sin bradicardia, es benigna.' },
+        ] },
+        { title: 'Siempre descarta una causa', tag: 'En el término es patológica', kind: 'alert', items: [
+          { t: 'Sepsis, hipoglicemia, hipoxia', d: 'Temperatura, anemia, hemorragia, convulsión',
+            say: 'Antes de decir que es inmadurez, descartas causas secundarias: sepsis, hipoglicemia, hipoxia, alteraciones de temperatura, anemia, hemorragia intraventricular, convulsión, ductus, enterocolitis, reflujo, fármacos maternos y trastornos electrolíticos. En un recién nacido de término, una apnea siempre es patológica.' },
+        ] },
+        { title: 'Manejo', tag: 'Cafeína primero', kind: 'pharma', items: [
+          { t: 'Cafeína', d: 'Carga 20 mg/kg; mantención 5–10 mg/kg/día',
+            say: 'Monitorizas, estimulas y posicionas, y das cafeína: carga de veinte miligramos por kilo y mantención de cinco a diez miligramos por kilo al día, que además mejora la displasia y el neurodesarrollo.' },
+          { t: 'CPAP si no cede', d: 'Obstructivas o mixtas; ventilación si persiste',
+            say: 'Si son obstructivas o mixtas, CPAP nasal, y ventilación si no cede. La cafeína se suspende con más de treinta y cuatro semanas y cinco a siete días sin apneas. Y el monitor domiciliario de rutina no previene la muerte súbita.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'table',
+      kicker: 'El prematuro, sistema por sistema',
+      title: 'Otras complicaciones del prematuro',
+      head: ['Sistema', 'Complicación', 'Clave'],
+      rows: [
+        { cells: ['Cardiovascular', 'Ductus arterioso persistente', 'Soplo continuo y pulsos saltones'],
+          say: 'Repasemos las complicaciones del prematuro por sistemas. En lo cardiovascular, el ductus arterioso persistente: soplo continuo, pulsos saltones e insuficiencia cardíaca. Se trata con ibuprofeno, indometacina o paracetamol, o cierre quirúrgico.' },
+        { cells: ['Neurológico', 'Hemorragia intraventricular', 'Ecografía transfontanelar días 3 a 7'],
+          say: 'En lo neurológico, la hemorragia intraventricular, sobre todo bajo treinta y dos semanas, que se pesquisa con ecografía transfontanelar entre los días tres y siete. Y la leucomalacia periventricular, que deja una futura diplejía espástica.' },
+        { cells: ['Digestivo', 'Enterocolitis necrotizante', 'Neumatosis intestinal en la radiografía'],
+          say: 'En lo digestivo, la enterocolitis necrotizante: distensión abdominal, sangre en las deposiciones y neumatosis intestinal en la radiografía. Ayuno, descompresión, antibióticos, y cirugía si hay perforación.' },
+        { cells: ['Metabólico y hematológico', 'Hipoglicemia, anemia, osteopenia', 'Ictericia más intensa'],
+          say: 'En lo metabólico y hematológico, hipoglicemia, hipocalcemia, ictericia más intensa, anemia del prematuro y osteopenia.' },
+        { cells: ['Infeccioso y sensorial', 'Sepsis tardía, ROP, hipoacusia', 'Prematuro tardío: 34 a 36 semanas'],
+          say: 'Y la sepsis tardía nosocomial, la retinopatía y la hipoacusia. Ojo con el prematuro tardío, de treinta y cuatro a treinta y seis semanas: es la mayoría de los prematuros y tiene más riesgo de hipoglicemia, ictericia, dificultad respiratoria y rehospitalización.' },
+      ],
+    },
+
+    {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Dificultad respiratoria del recién nacido',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: "Silverman paso a paso",
       images: [
-        { src: 'biblioteca/15_pediatria/ped-18/01_enfermedad-de-membrana-hialina-rx__cto-pediatria_p19.jpg', label: 'Membrana hialina', credit: 'Manual CTO Pediatría 14.ª ed., p. 19' },
-        { src: 'biblioteca/15_pediatria/ped-18/02_taquipnea-transitoria-rx__cto-pediatria_p18.jpg', label: 'Taquipnea transitoria', credit: 'Manual CTO Pediatría 14.ª ed., p. 18' },
-        { src: 'biblioteca/15_pediatria/ped-18/03_aspiracion-meconial-rx__cto-pediatria_p20.jpg', label: 'Aspiración meconial', credit: 'Manual CTO Pediatría 14.ª ed., p. 20' },
+        { src: 'animaciones/ped-18/A1_silverman_andersen.mp4', label: "De cero a diez", credit: "Animación propia" },
       ],
       steps: [
-        { note: 'Vidrio esmerilado',
-          say: 'La membrana hialina del prematuro da un patrón de vidrio esmerilado con broncograma.' },
-        { note: 'Líquido en cisuras',
-          say: 'La taquipnea transitoria, en la cesárea, muestra líquido en las cisuras.' },
-        { note: 'Infiltrados gruesos',
-          say: 'Y la aspiración meconial da infiltrados gruesos con hiperinsuflación.' },
+        { note: "Al revés que el Apgar",
+          say: "Mira cómo sube el puntaje. Cinco signos valen cero, uno o dos puntos: movimiento toracoabdominal, tiraje intercostal, retracción xifoidea, aleteo nasal y quejido espiratorio. De uno a tres es leve, de cuatro a seis moderada, y desde siete grave, con soporte de inmediato. Es al revés que el Apgar. Y el quejido es el esfuerzo del recién nacido por sostener la presión y evitar que el alvéolo colapse." },
       ],
     },
 
@@ -239,6 +305,10 @@ module.exports = {
           say: 'Cesárea electiva, sin trabajo de parto, con pulmón hiperinsuflado: taquipnea transitoria. Darle surfactante a este bebé es un error, porque no le falta surfactante, solo tiene líquido de más.' },
         { cells: ['Postérmino con meconio espeso', 'Aspiración meconial', 'Olvidar el riesgo de hipertensión pulmonar'],
           say: 'Postérmino con meconio espeso en el líquido amniótico: aspiración meconial. El error es no vigilar la hipertensión pulmonar, que es lo que complica el pronóstico.' },
+        { cells: ['Prematuro con oxígeno a las 36 semanas', 'Displasia broncopulmonar', 'Llamarla membrana hialina residual'],
+          say: 'Prematuro que sigue con oxígeno a las treinta y seis semanas de edad postmenstrual: displasia broncopulmonar. Se previene y se deriva a broncopulmonar.' },
+        { cells: ['Prematuro con pausas y bradicardia', 'Descartar causa y dar cafeína', 'Atribuirlo a inmadurez sin estudiar'],
+          say: 'Prematuro con pausas respiratorias y bradicardia: descartas sepsis y otras causas secundarias y das cafeína. El error es atribuirlo a inmadurez sin estudiar.' },
         { cells: ['Bebé taquipneico pero contento', 'Taquipnea transitoria', 'Tratarlo como si fuera grave'],
           say: 'Y un bebé taquipneico, pero contento, sin gran tiraje ni quejido: taquipnea transitoria. Tratarlo como si fuera membrana hialina es sobretratar un cuadro que se resuelve solo.' },
       ],
@@ -311,6 +381,156 @@ module.exports = {
         options: 'Las opciones: retardo en la reabsorción de líquido con naricera, déficit de surfactante con CPAP y surfactante exógeno, aspiración masiva de meconio con lavado traqueal, neumotórax con toracocentesis, o atresia esofágica con sonda. Piénsalo.',
         answer: 'Es la B. Treinta semanas, distrés desde el nacimiento, y una radiografía que muestra exactamente el patrón hipoinsuflado con broncograma: es déficit de surfactante, la enfermedad de membrana hialina. El tratamiento de elección es CPAP nasal con surfactante exógeno endotraqueal. La aspiración de meconio no calza, porque el meconio casi nunca aparece en un prematuro tan chico.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.125 · Síndrome aspirativo meconial",
+      "stem": "Recién nacido de 41 semanas y 5 días, por parto vaginal con registro fetal alterado y líquido amniótico con meconio espeso. A los 20 minutos de vida presenta taquipnea de 80 rpm, retracción intercostal, tórax en tonel y saturación de 86%. La radiografía muestra infiltrados gruesos y parcheados bilaterales, con zonas de atelectasia alternadas con zonas de hiperinsuflación.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enfermedad de membrana hialina"
+        },
+        {
+          "letter": "B",
+          "text": "Taquipnea transitoria del recién nacido"
+        },
+        {
+          "letter": "C",
+          "text": "Hernia diafragmática congénita"
+        },
+        {
+          "letter": "D",
+          "text": "Neumonía connatal por estreptococo grupo B"
+        },
+        {
+          "letter": "E",
+          "text": "Síndrome de aspiración meconial"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Postérmino con sufrimiento fetal y meconio espeso, dificultad respiratoria precoz y tórax hiperinsuflado, con infiltrados gruesos que alternan atelectasias y enfisema, es aspiración meconial: el meconio actúa como válvula. La membrana hialina es del prematuro, con vidrio esmerilado y volumen pulmonar disminuido.",
+      "say": {
+        "stem": "Recién nacido de cuarenta y una semanas y cinco días, por parto vaginal con registro alterado y líquido con meconio espeso. A los veinte minutos respira a ochenta por minuto, con retracción, tórax en tonel y saturación de ochenta y seis. La radiografía muestra infiltrados gruesos con atelectasias y zonas hiperinsufladas.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: membrana hialina, taquipnea transitoria, hernia diafragmática, neumonía connatal o aspiración meconial. Piénsalo.",
+        "answer": "Es la E. Un postérmino estresado con meconio espeso y una radiografía con atelectasias mezcladas con hiperinsuflación es aspiración meconial. La membrana hialina tienta por la gravedad, pero es del prematuro y da pulmones pequeños en vidrio esmerilado."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.123 · Prematurez",
+      "stem": "Recién nacido de 28 semanas, de 3 días de vida, en CPAP nasal. Presenta episodios repetidos de pausas respiratorias de más de 20 segundos, acompañados de bradicardia y desaturación, que ceden con estimulación táctil. Está normotérmico, con glicemia y hemograma normales y PCR negativa.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Citrato de cafeína endovenoso u oral"
+        },
+        {
+          "letter": "B",
+          "text": "Ampicilina más gentamicina por 10 días"
+        },
+        {
+          "letter": "C",
+          "text": "Fenobarbital endovenoso"
+        },
+        {
+          "letter": "D",
+          "text": "Intubación y ventilación mecánica inmediatas"
+        },
+        {
+          "letter": "E",
+          "text": "Suspender la alimentación enteral por 1 semana"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Pausas de más de 20 segundos con bradicardia o desaturación en un prematuro, sin otra causa, son apneas del prematuro por inmadurez del centro respiratorio. El tratamiento de elección es la cafeína. Descartada la sepsis, los antibióticos no corresponden, y la intubación queda para la falla del tratamiento.",
+      "say": {
+        "stem": "Prematuro de veintiocho semanas, de tres días de vida, en CPAP nasal. Hace pausas respiratorias de más de veinte segundos con bradicardia y desaturación, que ceden al estimularlo. Está normotérmico, con glicemia, hemograma y proteína C reactiva normales.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: cafeína, ampicilina con gentamicina, fenobarbital, intubar de inmediato, o suspender la alimentación. Piénsalo.",
+        "answer": "Es la A. Son apneas del prematuro, por un centro respiratorio inmaduro, y se tratan con cafeína. Los antibióticos tientan porque la apnea puede ser un signo de sepsis, pero aquí los exámenes son normales y el niño está estable."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.021 · Enfermedad pulmonar crónica",
+      "stem": "Un recién nacido de 26 semanas de edad gestacional y 850 g recibió surfactante y ventilación mecánica por enfermedad de membrana hialina. Al llegar a las 36 semanas de edad gestacional corregida aún requiere oxígeno suplementario para mantener saturaciones adecuadas.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Taquipnea transitoria del recién nacido"
+        },
+        {
+          "letter": "B",
+          "text": "Síndrome de aspiración meconial"
+        },
+        {
+          "letter": "C",
+          "text": "Displasia broncopulmonar"
+        },
+        {
+          "letter": "D",
+          "text": "Hipertensión pulmonar persistente aislada"
+        },
+        {
+          "letter": "E",
+          "text": "Fibrosis quística"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La displasia broncopulmonar es la enfermedad pulmonar crónica del prematuro: requerimiento de oxígeno a las 36 semanas de edad corregida en un prematuro menor de 32 semanas, tras ventilación mecánica u oxígeno. Se asocia a prematurez extrema, barotrauma, toxicidad por oxígeno e infección.",
+      "say": {
+        "stem": "Un prematuro de veintiséis semanas que tuvo membrana hialina y ventilación mecánica todavía necesita oxígeno a las treinta y seis semanas corregidas.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: taquipnea transitoria, aspiración meconial, displasia broncopulmonar, hipertensión pulmonar o fibrosis quística. Piénsalo.",
+        "answer": "Es la C. Necesitar oxígeno a las treinta y seis semanas corregidas en un prematuro extremo define la displasia broncopulmonar. La hipertensión pulmonar tienta porque puede acompañarla, pero no es la causa principal ni se presenta aislada aquí."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.113 · Apneas",
+      "stem": "Un recién nacido prematuro de 29 semanas, al tercer día de vida, presenta episodios repetidos de pausas respiratorias de más de 20 segundos, con bradicardia y desaturación, que ceden con estímulo táctil. Se han descartado hipoglicemia, sepsis, anemia, alteraciones electrolíticas y hemorragia intraventricular.",
+      "question": "¿Cuál es el tratamiento farmacológico de elección?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cafeína (citrato de cafeína)"
+        },
+        {
+          "letter": "B",
+          "text": "Fenobarbital"
+        },
+        {
+          "letter": "C",
+          "text": "Salbutamol"
+        },
+        {
+          "letter": "D",
+          "text": "Surfactante"
+        },
+        {
+          "letter": "E",
+          "text": "Naloxona"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Las apneas de más de 20 segundos, o menores con bradicardia o desaturación, en un prematuro menor de 34 semanas, tras descartar causas secundarias, corresponden a apnea del prematuro por inmadurez del centro respiratorio. El tratamiento de elección es el citrato de cafeína, un estimulante respiratorio, más medidas de soporte o CPAP si persisten. El fenobarbital deprime la respiración.",
+      "say": {
+        "stem": "Un prematuro de veintinueve semanas tiene al tercer día pausas respiratorias largas con bradicardia y desaturación; se descartaron causas secundarias.",
+        "question": "¿Cuál es el tratamiento farmacológico de elección?",
+        "options": "Las opciones: cafeína, fenobarbital, salbutamol, surfactante o naloxona. Piénsalo.",
+        "answer": "Es la A. Es una apnea del prematuro y se trata con citrato de cafeína. El fenobarbital tienta si se piensa en convulsiones, pero deprime la respiración y empeoraría las apneas."
+      }
     },
 
     {

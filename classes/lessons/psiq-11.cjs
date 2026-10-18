@@ -161,6 +161,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El RAN manda la conducta',
+      images: [
+        { src: 'animaciones/psiq-11/A1_ran_y_conducta.mp4', label: 'Clozapina: RAN y conducta', credit: 'Gráfico y animación propios' },
+      ],
+      steps: [
+        { note: 'Cada zona del RAN tiene su conducta',
+          say: 'Mira el recuento absoluto de neutrófilos de un paciente con clozapina. Con dos mil o más, se sigue el calendario habitual de hemogramas. Entre mil quinientos y mil novecientos noventa y nueve, neutropenia leve, y se controla dos veces por semana. Entre mil y mil cuatrocientos noventa y nueve, se suspende temporalmente y el hemograma es diario. Bajo mil es agranulocitosis: suspender ya, hospitalizar con aislamiento, y la reexposición queda prohibida de por vida.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: de la esquizofrenia que no responde al control del hemograma.',
     },

@@ -51,7 +51,8 @@ module.exports = {
       cards: [
         { title: 'Cómo se presenta', tag: 'Adultos jóvenes, más en mujeres', kind: 'criteria', items: [
           { t: 'Rojo salmón sectorial', d: 'En cuña, habitualmente temporal',
-            say: 'Veamos primero el lado tranquilo. La epiescleritis se ve como un enrojecimiento en cuña, sectorial, de un rojo salmón brillante, casi siempre en el sector temporal. Es más frecuente en adultos jóvenes y en mujeres.' },
+            say: 'Veamos primero el lado tranquilo. La epiescleritis se ve como un enrojecimiento en cuña, sectorial, de un rojo salmón brillante, casi siempre en el sector temporal. Mira este ojo: la cuña salmón bien delimitada, con el resto de la conjuntiva clara. Es más frecuente en adultos jóvenes y en mujeres.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-05/02_epiescleritis__amir-oftalmo_p47.jpg', label: 'Epiescleritis', at: 'Mira este ojo', credit: 'Manual AMIR Oftalmología, p. 47' } },
           { t: 'Molestia leve, sin dolor real', d: 'Visión y pupila normales',
             say: 'La molestia es leve, como ardor o sensación de arenilla, pero sin dolor ocular intenso. La agudeza visual es estrictamente normal, la pupila reactiva, y no hay compromiso de la córnea ni de la cámara anterior.' },
         ] },
@@ -84,13 +85,15 @@ module.exports = {
       ],
       steps: [
         { show: ['esc'], note: 'El dolor ya te lo anuncia',
-          say: 'Retomemos la escleritis, ya confirmada con la fenilefrina. Su clínica cardinal es un dolor ocular sordo, profundo, terebrante, que irradia a la órbita, la frente y hasta la mandíbula, y que despierta al paciente en la noche. El ojo se ve rojo oscuro o violáceo, muy distinto al rojo salmón de la epiescleritis.' },
+          say: 'Retomemos la escleritis, ya confirmada con la fenilefrina. Su clínica cardinal es un dolor ocular sordo, profundo, terebrante, que irradia a la órbita, la frente y hasta la mandíbula, y que despierta al paciente en la noche. El ojo se ve rojo oscuro o violáceo, muy distinto al rojo salmón de la epiescleritis. Mira este ojo: el rojo oscuro, violáceo, que cubre toda la zona inflamada.',
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-05/01_escleritis__cto-oftalmo_p42.jpg', label: 'Escleritis', at: 'Mira este ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 42' } },
         { show: ['art', 'vas'], note: 'La causa más frecuente y sus alternativas',
           say: 'Y aquí está la conexión que hace importante esta clase. La escleritis se asocia a enfermedades reumatológicas sistémicas, siendo la artritis reumatoide la causa más frecuente, seguida de la granulomatosis con poliangeítis, antes llamada Wegener, el lupus eritematoso sistémico y la policondritis recidivante.' },
         { show: ['sis'], note: 'Más de la mitad de los casos',
           say: 'Más de la mitad de los pacientes con escleritis tienen, o van a tener, una de estas enfermedades. Por eso todo paciente con escleritis necesita estudio reumatológico completo, no solo tratamiento ocular.' },
         { show: ['com'], note: 'La coroides se ve azul oscura por debajo',
-          say: 'Si no se trata, la complicación más temida es la escleromalacia perforante: la esclera se adelgaza tanto que se ve traslúcida, dejando ver la coroides oscura por debajo, y puede terminar en perforación del ojo. Y ojo, es indolora, típica de artritis reumatoide de larga data.' },
+          say: 'Si no se trata, la complicación más temida es la escleromalacia perforante: la esclera se adelgaza tanto que se ve traslúcida, dejando ver la coroides oscura por debajo, y puede terminar en perforación del ojo. Y ojo, es indolora, típica de artritis reumatoide de larga data. Mira esta esclera: el azul oscuro de la coroides se transparenta por el adelgazamiento.',
+          photo: { src: 'biblioteca/18_oftalmologia/oftal-05/atlas_372_escleromalacia_perforante_escl.jpg', label: 'Escleromalacia perforante', at: 'Mira esta esclera', credit: 'Atlas EUNACOM 2026' } },
         { show: ['tto'], note: 'Nunca colirios',
           say: 'El tratamiento nunca es un colirio. Se usan AINE orales en dosis altas, como indometacina, como primera línea; si no responde o es necrotizante, corticoides sistémicos e inmunosupresores, junto con derivación urgente a oftalmología y a reumatología.' },
       ],
@@ -98,18 +101,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Escleritis y epiescleritis',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La prueba de fenilefrina',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-05/01_escleritis__cto-oftalmo_p42.jpg', label: 'Escleritis', credit: 'Manual CTO Oftalmología 14.ª ed., p. 42' },
-        { src: 'biblioteca/12_oftalmologia/oftal-05/02_epiescleritis__amir-oftalmo_p47.jpg', label: 'Epiescleritis', credit: 'Manual AMIR Oftalmología, p. 47' },
+        { src: 'animaciones/oftal-05/A1_fenilefrina.mp4', label: 'Epiescleritis contra escleritis', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · capas y rótulos propios' },
       ],
       steps: [
-        { note: 'Dolorosa, violácea',
-          say: 'La escleritis es dolorosa y violácea, y se asocia a enfermedades sistémicas.' },
-        { note: 'Leve, blanquea con fenilefrina',
-          say: 'La epiescleritis es leve y blanquea con fenilefrina.' },
+        { note: 'Una gota decide',
+          say: 'La prueba de la fenilefrina, en movimiento. En la epiescleritis, el rojo salmón en cuña desaparece con la gota, porque el plexo superficial responde. En la escleritis, el rojo oscuro y violáceo no cambia, y el dolor es terebrante. Ahí piensa en artritis reumatoide y otras enfermedades sistémicas.' },
       ],
     },
 

@@ -1,0 +1,52 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// cirugia-18 (algoritmo sin anatomía): profilaxis antitetánica. Esquema completo (3 dosis o más): herida limpia, refuerzo si pasaron 10 años;
+// sucia, si pasaron 5 años; nunca inmunoglobulina. Incompleto o desconocido: limpia, solo vacuna; sucia, vacuna e inmunoglobulina (en sitios distintos).
+window.SCENE = { duration: 26, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg } = K;
+// columnas: esquema | limpia | sucia
+const ROWS = [
+  { y: 250, col: C.GREEN, name: 'Esquema completo', sub: '3 dosis o más: hay memoria', a: 4.5,
+    c: [['Refuerzo si pasaron 10 años', 'Sin inmunoglobulina', C.GREEN, 7.5], ['Refuerzo si pasaron 5 años', 'Sin inmunoglobulina', C.GREEN, 9.5]] },
+  { y: 430, col: C.AMBER, name: 'Incompleto o desconocido', sub: 'Menos de 3 dosis: no hay memoria', a: 12,
+    c: [['Solo vacuna', 'Inicia o completa el esquema', C.AMBER, 14.5], ['Vacuna + inmunoglobulina', 'Sitios distintos, jeringas distintas', C.RED, 16.5]] },
+];
+const CX = [610, 930];
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  K.title('Profilaxis antitetánica en dos preguntas', '¿Cuántas dosis previas? ¿La herida es limpia o sucia?', C.AMBER);
+  // cabeceras
+  const h1 = seg(t, 1.0, 0.5), h2 = seg(t, 2.5, 0.5);
+  ctx.globalAlpha = h1; tag('Herida limpia', CX[0] + 140, 190, C.BLUE, 20); ctx.globalAlpha = 1;
+  ctx.globalAlpha = h2; tag('Herida sucia (tetanígena)', CX[1] + 140, 190, C.RED, 20); ctx.globalAlpha = 1;
+  // pregunta 1 etiqueta
+  const q1 = seg(t, 0.4, 0.5); ctx.globalAlpha = q1; text('1. Dosis previas', 40, 190, 22, C.INK, 'bold'); ctx.globalAlpha = 1;
+  ROWS.forEach(r => {
+    const a = seg(t, r.a, 0.6); if (a <= 0) return;
+    ctx.globalAlpha = a;
+    rrect(40, r.y, 280, 140, 14, '#161B22'); ctx.fillStyle = r.col; ctx.fillRect(40, r.y, 6, 140);
+    text(r.name, 62, r.y + 50, 22, r.col, 'bold'); text(r.sub, 62, r.y + 84, 17, C.MUTED);
+    ctx.globalAlpha = 1;
+    r.c.forEach(([t1, t2, col, at], j) => {
+      const b = seg(t, at, 0.6); if (b <= 0) return;
+      ctx.globalAlpha = b; const x = CX[j] - 20, w = 300;
+      rrect(x, r.y, w, 140, 14, '#161B22'); ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.beginPath(); ctx.roundRect(x, r.y, w, 140, 14); ctx.stroke();
+      text(t1, x + w / 2, r.y + 62, col === C.RED ? 22 : 20, col, 'bold', 'center'); text(t2, x + w / 2, r.y + 98, 16, C.INK, '', 'center');
+      ctx.globalAlpha = 1;
+    });
+  });
+  // resalte final
+  const f = seg(t, 18.5, 0.6);
+  if (f > 0) { ctx.globalAlpha = f; ctx.strokeStyle = C.RED; ctx.lineWidth = 5; ctx.beginPath(); ctx.roundRect(CX[1] - 28, 422, 316, 156, 18); ctx.stroke(); ctx.globalAlpha = 1; }
+  K.banner(110, 630, 1060, 'La pareja que se pregunta: sin memoria y herida sucia, vacuna e inmunoglobulina juntas', C.AMBER, seg(t, 20.5, 0.5));
+  text('Gráfico propio · Animación propia', 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({});
+</script>
+</body></html>

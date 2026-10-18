@@ -58,9 +58,11 @@ module.exports = {
         ] },
         { title: 'Signos al examen', tag: 'Patognomónicos', kind: 'key', items: [
           { t: 'Córnea en vidrio esmerilado', d: 'Edema difuso que le quita el brillo',
-            say: 'Al examen, la córnea pierde el brillo y se ve como vidrio esmerilado, por el edema.' },
+            say: 'Al examen, la córnea pierde el brillo y se ve como vidrio esmerilado, por el edema. Mira este ojo: el rojo alrededor de la córnea y la córnea sin brillo.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-06/01_glaucoma-agudo-pupila-media-edema-cornea__amir-oftalmo_p36.jpg', label: 'Glaucoma agudo', at: 'Mira este ojo', credit: 'Manual AMIR Oftalmología, p. 36' } },
           { t: 'Midriasis media fija', d: 'Pupila arreactiva a la luz',
-            say: 'La pupila queda en midriasis media, fija, arreactiva a la luz.' },
+            say: 'La pupila queda en midriasis media, fija, arreactiva a la luz. En esta foto se ve el edema: toda la córnea turbia, y detrás, la pupila de tamaño medio.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-06/52_glaucoma-agudo-edema-corneal__kanski_p375.jpg', label: 'Midriasis media y edema', at: 'En esta foto', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 375" } },
           { t: 'Ojo pétreo a la palpación', d: 'Duro como una piedra, comparado con el otro ojo',
             say: 'Y el signo que le da nombre al cuadro: al palpar ambos ojos con los dedos sobre los párpados cerrados, el ojo afectado se siente completamente duro, como una piedra, muy distinto al otro. Con esta tríada, cefalea con vómitos, halos, y ojo pétreo con midriasis fija, el diagnóstico ya está hecho.' },
         ] },
@@ -143,19 +145,6 @@ module.exports = {
       steps: [
         { note: 'La presión sube en horas',
           say: 'Veamos el ojo cortado por la mitad. Normalmente el humor acuoso pasa por la pupila a la cámara anterior y drena por el ángulo. En el cierre angular el iris se abomba hacia delante y tapa la malla trabecular. El acuoso ya no drena, y la presión sube en horas: dolor, ojo rojo, córnea turbia y pupila media fija.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Glaucoma agudo',
-      images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-06/01_glaucoma-agudo-pupila-media-edema-cornea__amir-oftalmo_p36.jpg', label: 'Glaucoma agudo', credit: 'Manual AMIR Oftalmología, p. 36' },
-      ],
-      steps: [
-        { note: 'Pupila media fija, córnea turbia',
-          say: 'El glaucoma agudo da ojo rojo, córnea turbia y pupila media fija, con dolor intenso y vómitos.' },
       ],
     },
 
@@ -296,6 +285,44 @@ module.exports = {
         options: 'Las opciones: conjuntivitis, uveítis aguda, queratitis viral aguda, trombosis de la vena central de la retina, o glaucoma agudo. Piénsalo.',
         answer: 'Es la E, glaucoma agudo. Fíjate en la magnitud de la caída visual: contar dedos es una pérdida severa, coherente con una córnea edematosa y una presión disparada, no con una conjuntivitis ni con una queratitis, que casi nunca bajan tanto la visión. Y de nuevo, la hipermetropía y la midriasis fija son la firma de este diagnóstico.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.5.012 · Tensión ocular palpatoria",
+      "stem": "Mujer de 66 años, hipermétrope, consulta en un servicio de urgencia sin tonómetro por dolor ocular izquierdo intenso, náuseas y visión de halos alrededor de las luces. Se decide estimar la presión intraocular por palpación bidigital.",
+      "question": "¿Cuál es la técnica e interpretación correctas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Con la paciente mirando hacia abajo y los ojos cerrados, palpar alternadamente con ambos índices sobre el párpado superior, comparando con el otro ojo; un ojo duro como piedra sugiere presión muy elevada"
+        },
+        {
+          "letter": "B",
+          "text": "Con la paciente mirando hacia arriba, presionar directamente la córnea con ambos índices"
+        },
+        {
+          "letter": "C",
+          "text": "Presionar el globo ocular con fuerza durante 1 minuto para evaluar el reflejo oculocardíaco"
+        },
+        {
+          "letter": "D",
+          "text": "Palpar el párpado inferior con la paciente mirando hacia arriba; un ojo blando sugiere glaucoma agudo"
+        },
+        {
+          "letter": "E",
+          "text": "La palpación permite medir la presión exacta en milímetros de mercurio"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La tensión ocular palpatoria se realiza con la mirada hacia abajo y los párpados cerrados, presionando suave y alternadamente con ambos índices sobre el párpado superior, comparando ambos ojos. Es solo una estimación grosera: un ojo duro como piedra, asimétrico respecto al otro, apoya un glaucoma agudo. Nunca se presiona la córnea.",
+      "say": {
+        "stem": "Mujer de sesenta y seis años, hipermétrope, en una urgencia sin tonómetro, con dolor intenso en el ojo izquierdo, náuseas y halos alrededor de las luces. Se decide estimar la presión ocular palpando con dos dedos.",
+        "question": "¿Cuál es la técnica e interpretación correctas?",
+        "options": "Las opciones: palpar con ambos índices sobre el párpado superior mirando hacia abajo y comparar con el otro ojo, presionar la córnea mirando hacia arriba, presionar fuerte un minuto, palpar el párpado inferior buscando un ojo blando o medir la presión exacta. Piénsalo.",
+        "answer": "Es la A. Se palpa sobre el párpado superior con la mirada hacia abajo, alternando los dos índices, y siempre comparando con el otro ojo: un ojo duro como piedra apoya el glaucoma agudo. La opción E tienta, pero la palpación solo estima en forma grosera; la medición exacta requiere tonómetro."
+      }
     },
 
     {

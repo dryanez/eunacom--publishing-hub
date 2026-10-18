@@ -95,6 +95,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Del resfrío a la órbita',
+      images: [
+        { src: 'animaciones/orl-10/A1_sinusitis_criterios_y_chandler.mp4', label: 'Rinosinusitis: criterios de bacteriana y complicaciones orbitarias de Chandler', credit: 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Tres criterios de bacteriana y cinco grupos de Chandler',
+          say: 'Mira cómo el resfrío tapa los ostium y los senos no drenan. Casi siempre mejora hacia los diez días. Es bacteriana si persiste diez días o más, si hay doble caída, o si el inicio es severo. Y desde el etmoides la infección puede entrar a la órbita: cinco grupos de Chandler, de la celulitis preseptal a la trombosis del seno cavernoso.' },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Complicaciones',
       title: 'Por qué la órbita se infecta',
@@ -124,35 +138,20 @@ module.exports = {
       cards: [
         { title: 'Grupos I y II', tag: 'Antes y después del septum', kind: 'key', items: [
           { t: 'I: celulitis preseptal', d: 'Edema palpebral; visión y movilidad normales',
-            say: 'El grupo uno es la celulitis preseptal: edema y eritema del párpado, pero con agudeza visual, movimientos oculares y pupila normales, y sin proptosis. Se trata con antibióticos orales, o endovenosos en un lactante.' },
+            say: 'El grupo uno es la celulitis preseptal: edema y eritema del párpado, pero con agudeza visual, movimientos oculares y pupila normales, y sin proptosis. Se trata con antibióticos orales, o endovenosos en un lactante. Mira este párpado izquierdo, edematoso y rojo, en una etmoiditis aguda: la foto sola no decide el grado, tienes que examinar los movimientos oculares y la visión.',
+            photo: { src: 'biblioteca/17_otorrino/orl-10/01_celulitis-periorbitaria-etmoiditis__bailey-love_p743.jpg', label: 'Edema palpebral, etmoiditis', at: 'Mira este párpado izquierdo', credit: 'Bailey & Love 27.ª ed., Fig. 46.47' } },
           { t: 'II: celulitis orbitaria', d: 'Proptosis, oftalmoplejía dolorosa y quemosis',
             say: 'El grupo dos es la celulitis orbitaria, postseptal. Aquí aparecen los tres signos que la separan de la preseptal: proptosis, oftalmoplejía dolorosa y quemosis conjuntival.' },
         ] },
         { title: 'Grupos III a V', tag: 'Colecciones y trombosis', kind: 'alert', items: [
           { t: 'III: absceso subperióstico', d: 'Globo desplazado abajo y afuera',
-            say: 'El grupo tres es el absceso subperióstico, una colección entre la lámina papirácea y el periostio, que empuja el globo ocular hacia abajo y afuera.' },
+            say: 'El grupo tres es el absceso subperióstico, una colección entre la lámina papirácea y el periostio, que empuja el globo ocular hacia abajo y afuera. Mira este TAC: la colección junto a la pared medial de la órbita empuja el contenido orbitario. Ante cualquier signo orbitario, TAC con contraste.',
+            photo: { src: 'biblioteca/17_otorrino/orl-10/02_tac-absceso-subperiostico-orbita__bailey-love_p743.jpg', label: 'TAC: absceso subperióstico', at: 'Mira este TAC', credit: 'Bailey & Love 27.ª ed., Fig. 46.48' } },
           { t: 'IV: absceso orbitario', d: 'Pérdida visual y defecto pupilar aferente',
             say: 'El grupo cuatro es el absceso dentro de la órbita, con grave caída de la visión y defecto pupilar aferente.' },
           { t: 'V: trombosis del seno cavernoso', d: 'Compromiso bilateral y sepsis',
             say: 'Y el grupo cinco, la trombosis del seno cavernoso: compromiso orbitario bilateral que avanza rápido, parálisis de los pares craneales tres, cuatro, cinco y seis, y sepsis.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Celulitis periorbitaria y absceso subperióstico',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-10/01_celulitis-periorbitaria-etmoiditis__bailey-love_p743.jpg', label: 'Edema y eritema del párpado izquierdo en una etmoiditis aguda', credit: 'Bailey & Love 27.ª ed., Fig. 46.47' },
-        { src: 'biblioteca/17_otorrino/orl-10/02_tac-absceso-subperiostico-orbita__bailey-love_p743.jpg', label: 'TAC axial con absceso subperióstico en la órbita izquierda', credit: 'Bailey & Love 27.ª ed., Fig. 46.48' },
-      ],
-      steps: [
-        { note: 'Párpado hinchado: ¿preseptal u orbitaria?',
-          say: 'Esta es una celulitis periorbitaria por una etmoiditis. El párpado está edematoso y eritematoso. Pero la foto no basta: lo que decide el grado es lo que pasa detrás del párpado. Tienes que examinar los movimientos oculares, la agudeza visual y buscar proptosis.' },
-        { note: 'El TAC muestra la colección',
-          say: 'Y esta es la complicación que no quieres dejar pasar: un absceso subperióstico en el TAC. Fíjate en la colección junto a la pared medial de la órbita, que empuja el contenido orbitario. Por eso, ante cualquier signo orbitario, se pide un TAC con contraste.' },
       ],
     },
 
@@ -172,6 +171,52 @@ module.exports = {
           say: 'En el grupo cuatro hay pérdida visual severa, y el drenaje es una emergencia.' },
         { cells: ['V: seno cavernoso', 'Venas oftálmicas', 'Proptosis bilateral, pares craneales, estupor', 'UCI y antibióticos'],
           say: 'Y en el grupo cinco, UCI con antibióticos endovenosos y anticoagulación.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Rinosinusitis crónica',
+      title: 'Doce semanas o más: la rinosinusitis crónica',
+      cards: [
+        { title: 'Cómo se define', tag: '12 semanas o más', kind: 'criteria', items: [
+          { t: 'Dos o más síntomas durante 12 semanas', d: 'Obstrucción, rinorrea o goteo, dolor facial, hiposmia',
+            say: 'La rinosinusitis crónica, con o sin pólipos, son síntomas que duran doce semanas o más. Se necesitan al menos dos de estos: obstrucción nasal, rinorrea mucopurulenta o goteo posterior, dolor o presión facial, e hiposmia. Y además, inflamación demostrada por endoscopía o TAC.' },
+          { t: 'Se asocia a otras condiciones', d: 'Rinitis alérgica, desviación septal, infección dentaria, fibrosis quística, tríada de Samter',
+            say: 'Se asocia a rinitis alérgica, desviación septal, infección dentaria, fibrosis quística, inmunodeficiencias y a la tríada de Samter: poliposis, asma e intolerancia a la aspirina.' },
+        ] },
+        { title: 'Manejo', tag: 'Médico y derivación', kind: 'pharma', items: [
+          { t: 'Lavados salinos y corticoide nasal diario', d: 'Control del alérgeno; antibiótico solo en exacerbación bacteriana',
+            say: 'El manejo inicial son lavados nasales salinos de alto volumen y corticoide nasal todos los días, con control del alérgeno. El antibiótico se reserva para las exacerbaciones bacterianas.' },
+          { t: 'Derivar a otorrino', d: 'Falla a 8 a 12 semanas, enfermedad unilateral, sospecha de tumor o complicación',
+            say: 'Derivas si no mejora tras ocho a doce semanas de tratamiento, si la enfermedad es unilateral, o si sospechas un tumor o una complicación, para endoscopía, TAC y eventual cirugía endoscópica funcional.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Imágenes e infecciones altas',
+      title: 'Radiografía, TAC e infecciones de la vía aérea superior',
+      cards: [
+        { title: 'Radiografía de senos', tag: 'Poco rendimiento', kind: 'alert', items: [
+          { t: 'No se pide en la rinosinusitis aguda', d: 'Velamiento puede ser un resfrío viral',
+            say: 'La radiografía de senos paranasales, en proyecciones de Waters, Caldwell y lateral, muestra velamiento, nivel hidroaéreo o engrosamiento mucoso, pero su rendimiento es bajo. No se pide en la rinosinusitis aguda, porque el diagnóstico es clínico y un velamiento puede aparecer en un simple resfrío.' },
+          { t: 'En menores de 6 años es difícil de leer', d: 'Nivel hidroaéreo tras un golpe: hemosinus',
+            say: 'En menores de seis años el seno frontal no está desarrollado y los maxilares son pequeños. Un nivel hidroaéreo después de un traumatismo sugiere hemosinus.' },
+        ] },
+        { title: 'TAC de cavidades perinasales', tag: 'Examen de elección', kind: 'key', items: [
+          { t: 'Cuándo se pide', d: 'Crónica refractaria, cirugía, enfermedad unilateral, complicación',
+            say: 'La TAC de cavidades perinasales es el examen de elección en la rinosinusitis crónica refractaria, para planificar la cirugía, en la enfermedad unilateral y ante la sospecha de complicación, con contraste si hay compromiso orbitario o intracraneal.' },
+          { t: 'Qué informa', d: 'Complejo osteomeatal ocupado, pólipos, Lund-Mackay de 0 a 24',
+            say: 'El informe describe engrosamiento mucoso, niveles hidroaéreos, ocupación del complejo osteomeatal, pólipos y desviación septal, y se cuantifica con la escala de Lund-Mackay. Pero ojo: hay hallazgos en la TAC de personas sin síntomas, así que siempre se correlaciona con la clínica.' },
+        ] },
+        { title: 'Infecciones de la vía aérea superior', tag: 'Casi todas virales', kind: 'pharma', items: [
+          { t: 'Resfrío, faringitis, laringitis, rinosinusitis', d: 'Autolimitadas de 7 a 10 días: sin antibióticos',
+            say: 'La gran mayoría de las infecciones altas, resfrío, faringitis, laringitis, rinosinusitis y otitis, son virales y duran siete a diez días. Se manejan con hidratación, lavados nasales, antipiréticos y reposo, sin antibióticos.' },
+          { t: 'Pus no implica bacteria', d: 'Sospecha bacteriana: más de 10 días, doble caída o fiebre alta con pus 3 a 4 días',
+            say: 'Una secreción mucopurulenta no implica por sí sola una bacteria. Sospéchala si persiste más de diez días, si hay doble empeoramiento, o fiebre alta con secreción purulenta por tres a cuatro días.' },
+        ] },
       ],
     },
 
@@ -270,6 +315,232 @@ module.exports = {
         options: 'Las opciones: celulitis preorbitaria, celulitis orbitaria, orbitopatía distiroidea, pseudotumor orbitario o etmoiditis aguda. Piénsalo.',
         answer: 'Es la B, celulitis orbitaria. La palabra clave es proptosis: si el ojo se protruye, la infección está detrás del septum. La preorbitaria o preseptal tiene el párpado inflamado, pero sin proptosis. Y la orbitopatía distiroidea y el pseudotumor no empiezan después de un catarro.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2022 · Pregunta 139",
+      "stem": "Un paciente de 17 años consulta por un cuadro que inició hace 12 días, consistente en congestión nasal, rinorrea mucosa abundante y odinofagia. En los últimos días la rinorrea se vuelve purulenta y empeoran los síntomas, agregándose sensación febril y tos seca mayor en las noches. Al examen físico se constata fiebre de 38,2 °C, FC 78 por minuto, FR 12 por minuto, faringe eritematosa con descarga posterior y rinorrea purulenta en ambas fosas nasales. Su examen cardiopulmonar es normal.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amoxicilina oral por 7 días"
+        },
+        {
+          "letter": "B",
+          "text": "Claritromicina oral por 10 días"
+        },
+        {
+          "letter": "C",
+          "text": "Aseo con suero fisiológico"
+        },
+        {
+          "letter": "D",
+          "text": "Corticoides orales por 7 días"
+        },
+        {
+          "letter": "E",
+          "text": "Antihistamínicos orales por 7 días"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Síntomas que superan los 10 días y además empeoran, con fiebre y rinorrea purulenta, definen una rinosinusitis aguda bacteriana. La primera línea es amoxicilina; los macrólidos quedan para alérgicos a penicilina. Los lavados nasales son coadyuvantes, no reemplazan al antibiótico.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veintidós. Adolescente de diecisiete años con doce días de congestión, rinorrea y dolor de garganta. En los últimos días la rinorrea se vuelve purulenta, empeora, y aparecen fiebre de treinta y ocho coma dos y tos nocturna. El examen pulmonar es normal.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: amoxicilina por siete días, claritromicina por diez días, aseo con suero fisiológico, corticoides orales, o antihistamínicos orales. Piénsalo.",
+        "answer": "Es la A. Más de diez días de síntomas que empeoran, con fiebre y rinorrea purulenta, es una rinosinusitis bacteriana, y la primera línea es amoxicilina. El aseo con suero tienta porque es lo que se hace en el resfrío, pero aquí es solo un complemento."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.008 · Radiografía de senos paranasales",
+      "stem": "Un niño de 6 años presenta rinorrea purulenta y tos diurna persistente de 12 días de evolución, sin mejoría. Está afebril y en buenas condiciones generales, sin edema periorbitario. La madre pide una radiografía de senos paranasales.",
+      "question": "¿Cuál es la conducta más adecuada respecto de la radiografía?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solicitarla para confirmar el diagnóstico de sinusitis"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar radiografía y esperar el resultado para indicar antibiótico"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar TAC de senos paranasales"
+        },
+        {
+          "letter": "D",
+          "text": "No solicitarla: el diagnóstico de rinosinusitis aguda es clínico"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar resonancia magnética"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La rinosinusitis bacteriana aguda en niños se diagnostica clínicamente: síntomas persistentes más de 10 días sin mejoría, empeoramiento tras mejoría inicial o inicio grave. La radiografía de senos paranasales no se recomienda porque tiene baja especificidad (se altera en resfríos comunes) y los senos están en desarrollo. La TAC se reserva para sospecha de complicaciones orbitarias o intracraneanas.",
+      "say": {
+        "stem": "Un niño de seis años tiene doce días de rinorrea purulenta y tos sin mejoría, afebril, y su madre pide una radiografía de senos.",
+        "question": "¿Qué hace con la radiografía?",
+        "options": "Las opciones: pedirla para confirmar, pedirla y esperar el resultado, TAC de senos, no pedirla porque el diagnóstico es clínico o resonancia. Piénsalo.",
+        "answer": "Es la D. La rinosinusitis aguda se diagnostica clínicamente y la radiografía no aporta. Pedirla para confirmar tienta, pero se altera también en los resfríos comunes y no cambia la conducta."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 10",
+      "stem": "Un paciente de 38 años consulta por malestar general y fiebre de 3 días de evolución, asociada a mialgias, tos seca y rinorrea mucosa abundante. Al examen físico tiene secreción nasal y faringe congestiva y eritematosa.",
+      "question": "¿Cuál es el fármaco más adecuado para el manejo de este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amoxicilina"
+        },
+        {
+          "letter": "B",
+          "text": "Aciclovir"
+        },
+        {
+          "letter": "C",
+          "text": "Acetaminofeno"
+        },
+        {
+          "letter": "D",
+          "text": "Claritromicina"
+        },
+        {
+          "letter": "E",
+          "text": "Prednisona"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Fiebre, mialgias, tos seca, rinorrea y faringe eritematosa sin exudado ni signos de gravedad corresponden a una infección viral de la vía aérea superior (resfrío o síndrome gripal). En un adulto sano el manejo es sintomático con paracetamol, hidratación y reposo. Los antibióticos no están indicados y el aciclovir no actúa sobre virus respiratorios.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Un hombre de treinta y ocho años tiene tres días de fiebre, mialgias, tos seca y rinorrea abundante, con faringe congestiva.",
+        "question": "¿Cuál es el fármaco más adecuado?",
+        "options": "Las opciones: amoxicilina, aciclovir, acetaminofeno, claritromicina o prednisona. Piénsalo.",
+        "answer": "Es la C. Es una infección viral de la vía aérea superior y se maneja con tratamiento sintomático. La amoxicilina tienta por la fiebre, pero no sirve contra virus y solo genera resistencia."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Agosto 2021 · Pregunta 69",
+      "stem": "Paciente de 43 años presenta obstrucción nasal marcada, asociada a rinorrea de 5 años de evolución, con sensación de presión facial, cefalea e hiposmia. La radiografía de cavidades paranasales muestra velamiento de ambos senos maxilares. La TAC de cavidades paranasales muestra secreciones e inflamación de la mucosa de ambos senos maxilares y de las celdillas etmoidales bilaterales.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fluticasona nasal"
+        },
+        {
+          "letter": "B",
+          "text": "Azitromicina"
+        },
+        {
+          "letter": "C",
+          "text": "Cirugía endoscópica nasal"
+        },
+        {
+          "letter": "D",
+          "text": "Rinomanometría"
+        },
+        {
+          "letter": "E",
+          "text": "Resonancia magnética nuclear de cavidades paranasales"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Síntomas nasosinusales de más de 12 semanas (obstrucción, rinorrea, presión facial, hiposmia) con compromiso mucoso en la TAC definen rinosinusitis crónica. El tratamiento de primera línea son los corticoides intranasales y los lavados nasales con solución salina. La cirugía endoscópica se reserva para la falla del tratamiento médico máximo.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Mujer de cuarenta y tres años con cinco años de obstrucción nasal, rinorrea, presión facial e hiposmia, y TAC con inflamación de senos maxilares y etmoidales.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: fluticasona nasal, azitromicina, cirugía endoscópica, rinomanometría o resonancia. Piénsalo.",
+        "answer": "Es la A. La rinosinusitis crónica se trata primero con corticoide intranasal y lavados. La cirugía endoscópica tienta por la cronicidad, pero se reserva para cuando falla el tratamiento médico."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.4.001 · Radiografía de cavidades perinasales",
+      "stem": "Mujer de 30 años con rinorrea purulenta, congestión nasal y dolor facial maxilar de 4 días, tras un resfrío. Afebril, en buen estado general, sin signos orbitarios ni neurológicos. Solicita una radiografía de cavidades perinasales.",
+      "question": "¿Cuál es la conducta más adecuada respecto a las imágenes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No solicitar imágenes; el diagnóstico de rinosinusitis aguda es clínico, y las imágenes se reservan para complicaciones, falla de tratamiento o enfermedad crónica"
+        },
+        {
+          "letter": "B",
+          "text": "Radiografía de cavidades perinasales para confirmar sinusitis"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de cavidades perinasales urgente"
+        },
+        {
+          "letter": "D",
+          "text": "Resonancia magnética"
+        },
+        {
+          "letter": "E",
+          "text": "Radiografía de cavum"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La rinosinusitis aguda es un diagnóstico clínico. La radiografía de cavidades perinasales tiene baja sensibilidad y especificidad (el velamiento también ocurre en resfríos virales) y no cambia el manejo. Si se requiere imagen (complicación orbitaria o intracraneana, cronicidad, planificación quirúrgica), el examen de elección es la TAC.",
+      "say": {
+        "stem": "Mujer de treinta años con cuatro días de rinorrea purulenta y dolor maxilar tras un resfrío, en buen estado y sin signos de complicación. Pide una radiografía de senos.",
+        "question": "¿Cuál es la conducta respecto a las imágenes?",
+        "options": "Las opciones: no pedir imágenes porque el diagnóstico es clínico, radiografía para confirmar, TAC urgente, resonancia o radiografía de cavum. Piénsalo.",
+        "answer": "Es la A. La rinosinusitis aguda se diagnostica clínicamente y no requiere imágenes. La radiografía tienta por ser sencilla, pero el velamiento también aparece en resfríos virales y no cambia el manejo."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.4.003 · TAC de cavidades perinasales",
+      "stem": "Niño de 7 años con rinosinusitis aguda de 5 días que presenta edema palpebral izquierdo, proptosis, dolor a la movilización ocular y disminución de la agudeza visual. Temperatura 39 °C.",
+      "question": "¿Cuál es el examen de imagen de elección?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía de cavidades perinasales"
+        },
+        {
+          "letter": "B",
+          "text": "Ecografía ocular"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de cavidades perinasales y órbitas con contraste"
+        },
+        {
+          "letter": "D",
+          "text": "Radiografía de cavum"
+        },
+        {
+          "letter": "E",
+          "text": "No requiere imágenes"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Proptosis, oftalmoplejía dolorosa y disminución visual en un niño con sinusitis indican celulitis orbitaria o absceso subperióstico, complicaciones de la etmoiditis. Requiere TAC de cavidades perinasales y órbitas con contraste urgente para identificar abscesos que necesitan drenaje, antibióticos endovenosos y evaluación por ORL y oftalmología. La TAC es también el examen para sinusitis crónica y planificación quirúrgica.",
+      "say": {
+        "stem": "Niño de siete años con sinusitis que presenta edema palpebral, proptosis, dolor al mover el ojo, menor visión y fiebre alta.",
+        "question": "¿Cuál es el examen de imagen de elección?",
+        "options": "Las opciones: radiografía de senos, ecografía ocular, TAC de senos y órbitas con contraste, radiografía de cavum o ninguno. Piénsalo.",
+        "answer": "Es la C. La proptosis con dolor al mover el ojo y menor visión indica una complicación orbitaria y se pide TAC con contraste de senos y órbitas. La radiografía tienta por ser rápida, pero no muestra abscesos orbitarios."
+      }
     },
 
     {

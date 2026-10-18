@@ -39,7 +39,8 @@ module.exports = {
         { show: ['boc'], note: 'De húmeda a no poder beber',
           say: 'El tercero es la boca y la sed: húmeda con sed normal, seca con sed ávida, o tan seca que ya no puede beber.' },
         { show: ['pli'], note: 'El pliegue cutáneo, el más famoso',
-          say: 'Y el cuarto, el más conocido, es el signo del pliegue: tomas la piel del abdomen y ves qué tan rápido vuelve a su lugar. Rápido está bien, lento es sospechoso, y muy lento es grave.' },
+          say: 'Y el cuarto, el más conocido, es el signo del pliegue: tomas la piel del abdomen y ves qué tan rápido vuelve a su lugar. Rápido está bien, lento es sospechoso, y muy lento es grave. Mira este pliegue: la piel queda levantada y no vuelve, es el turgor disminuido de una deshidratación moderada a grave.',
+          photo: { src: 'biblioteca/15_pediatria/ped-11/01_pliegue_persistente__commons.jpg', label: 'Pliegue persistente', at: 'Mira este pliegue', credit: 'Wikimedia Commons «LowSkinTurgor.jpg», CC BY-SA 4.0, DRobert' } },
         { show: ['gra'], note: 'No necesitas laboratorio para esto',
           say: 'Suma estos cuatro signos y clasificas el grado. Fíjate que no pediste ningún examen: todo esto lo defines con la clínica, al lado de la cama, en menos de un minuto de observación.' },
         { show: ['des'], note: 'Menos del 5% de pérdida de peso',
@@ -139,6 +140,30 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Cuando no logras una vena',
+      title: 'Osteoclisis: el acceso intraóseo',
+      cards: [
+        { title: 'Cuándo', tag: 'Cualquier edad', kind: 'key', items: [
+          { t: 'Shock, paro, deshidratación grave', d: 'O convulsión, sin vena en 2 intentos o 90 segundos',
+            say: 'En el plan C hay un problema práctico: un niño en shock al que no le encuentras una vena. La indicación de la vía intraósea es necesitar líquidos o fármacos de inmediato, en shock descompensado, paro, deshidratación grave o convulsión, cuando no logras una vena periférica en dos intentos o en noventa segundos. Sirve a cualquier edad.' },
+        ] },
+        { title: 'Dónde y cómo', tag: 'Tibia proximal', kind: 'criteria', items: [
+          { t: 'Tibia proximal, cara plana', d: '1–3 cm bajo la tuberosidad tibial',
+            say: 'El sitio de elección es la tibia proximal, entre uno y tres centímetros bajo la tuberosidad, en la cara anteromedial plana. Si no se puede, la tibia distal, el fémur distal o, en niños mayores, el húmero.' },
+          { t: 'Pérdida brusca de resistencia', d: 'Aguja firme, aspira médula, sin extravasación',
+            say: 'Con asepsia, avanzas la aguja perpendicular o levemente hacia abajo, lejos del cartílago de crecimiento, con un giro, hasta sentir que la resistencia se pierde de golpe: entraste a la médula. Lo confirmas porque la aguja queda firme, aspiras médula y el suero pasa sin edema. Y se infunde a presión, con jeringa, porque no baja por gravedad.' },
+        ] },
+        { title: 'Precauciones', tag: 'Vía transitoria', kind: 'alert', items: [
+          { t: 'No en hueso fracturado', d: 'Ni con infección local, ni osteogénesis imperfecta',
+            say: 'No la haces en un hueso fracturado, con infección local, en un hueso recién puncionado, ni en enfermedades óseas como la osteogénesis imperfecta.' },
+          { t: 'Retirar antes de 24 horas', d: 'Riesgo: extravasación, osteomielitis',
+            say: 'Es una vía transitoria: apenas tienes una vena, la retiras, idealmente antes de veinticuatro horas. Sus complicaciones son la extravasación con síndrome compartimental, la osteomielitis, el daño del cartílago de crecimiento y la embolia grasa.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Las sales de rehidratación oral',
       title: 'Por qué son de osmolaridad reducida',
       cards: [
@@ -147,6 +172,30 @@ module.exports = {
             say: 'Un dato que también se pregunta: las sales de rehidratación oral que usas hoy son de osmolaridad reducida, no la fórmula antigua y más concentrada.' },
           { t: 'Menos deposiciones y vómitos', d: 'Reduce el volumen fecal cerca de un 30%',
             say: 'Esa fórmula más diluida reduce el volumen de las deposiciones en cerca de un tercio, y además da menos vómitos que la fórmula antigua. Por eso es la que recomienda la Organización Mundial de la Salud.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Diarrea con sangre',
+      title: 'Síndrome disentérico y Shigella',
+      cards: [
+        { title: 'Qué es y qué lo causa', tag: 'Pujo y tenesmo', kind: 'criteria', items: [
+          { t: 'Diarrea con sangre visible', d: 'Moco, fiebre, pujo y tenesmo',
+            say: 'Ahora, la diarrea con sangre, que tiene dos caras. La disentería es la diarrea con sangre visible, con moco, fiebre, pujo y tenesmo. En el niño, la causa más importante es la Shigella, que da fiebre alta y convulsiones febriles, y puede complicarse con bacteriemia, megacolon tóxico y artritis reactiva. Pides coprocultivo, y la base sigue siendo hidratar y dar zinc.' },
+        ] },
+        { title: 'Cuándo sí das antibiótico', tag: 'Fiebre y sospecha de Shigella', kind: 'pharma', items: [
+          { t: 'Azitromicina, 3 días', d: '10 mg/kg/día; primera línea por resistencia',
+            say: 'Si hay disentería con fiebre y sospecha de Shigella, sí se trata. La primera línea actual es azitromicina, diez miligramos por kilo al día por tres días, por la resistencia al cotrimoxazol.' },
+          { t: 'Casos graves: ceftriaxona', d: '50–75 mg/kg/día, 3–5 días; o ciprofloxacino',
+            say: 'En casos graves, ceftriaxona, cincuenta a setenta y cinco miligramos por kilo al día, por tres a cinco días; o ciprofloxacino quince miligramos por kilo cada doce horas, por tres días. El cotrimoxazol queda solo si el antibiograma es sensible. Y la amebiasis es otra historia: metronidazol por siete a diez días.' },
+        ] },
+        { title: 'Cuándo no', tag: 'Las excepciones', kind: 'alert', items: [
+          { t: 'Sospecha de E. coli O157', d: 'Sin fiebre alta, carne mal cocida, brote',
+            say: 'Pero ojo con las excepciones. Si sospechas E. coli productora de toxina Shiga, con diarrea con sangre sin fiebre alta, carne molida mal cocida o un brote, no das antibióticos, porque aumentan la liberación de toxina y el riesgo de síndrome hemolítico urémico.' },
+          { t: 'Salmonella no tifoídica', d: 'Solo si <3 meses, inmunodeprimido o bacteriemia',
+            say: 'Tampoco tratas la salmonelosis no tifoídica no invasora, salvo en menores de tres meses, inmunodeprimidos o con bacteriemia. Y los antidiarreicos están siempre contraindicados.' },
         ] },
       ],
     },
@@ -175,20 +224,43 @@ module.exports = {
         { show: ['shu'], note: 'La tríada: anemia, plaquetas bajas, riñón',
           say: 'Esa infección puede evolucionar al síndrome hemolítico urémico: anemia hemolítica con esquistocitos, plaquetas bajas, y falla renal aguda con poca orina. En Chile, es la primera causa de injuria renal aguda en niños pequeños.' },
         { show: ['atb'], note: 'La regla más preguntada de esta clase',
-          say: 'Y aquí está la regla más preguntada de toda la clase: jamás des antibióticos en esta diarrea con sangre. Al matar a la bacteria, liberas de golpe toda la toxina Shiga a la sangre, y multiplicas el riesgo de que aparezca el síndrome hemolítico urémico. Tampoco transfundas plaquetas sin que haya un sangrado grave, porque alimentan los pequeños trombos que ya están dañando el riñón.' },
+          say: 'Y aquí está la regla más preguntada de toda la clase: ante la sospecha de esta E. coli, jamás des antibióticos. Al matar a la bacteria, liberas de golpe toda la toxina Shiga a la sangre, y multiplicas el riesgo de que aparezca el síndrome hemolítico urémico. Tampoco transfundas plaquetas sin que haya un sangrado grave, porque alimentan los pequeños trombos que ya están dañando el riñón.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Síndrome hemolítico urémico',
+      title: 'No hay tratamiento específico: manejo de soporte',
+      cards: [
+        { title: 'Soporte', tag: 'Con nefrología pediátrica', kind: 'key', items: [
+          { t: 'Balance hídrico estricto', d: 'Hidratar al inicio; con oligoanuria, solo pérdidas',
+            say: 'Una vez instalado el síndrome hemolítico urémico, no hay tratamiento específico: es soporte, en una unidad con nefrología pediátrica. Lo primero es el balance hídrico estricto. En la fase inicial, la rehidratación isotónica precoz protege el riñón; pero cuando ya hay oligoanuria, se restringe a las pérdidas insensibles más la diuresis.' },
+          { t: 'Presión y transfusión', d: 'Calcioantagonista; glóbulos rojos con Hb < 6–7 g/dL',
+            say: 'La hipertensión se trata con calcioantagonistas y diuréticos de asa. Transfundes glóbulos rojos lavados solo con hemoglobina bajo seis a siete. Y las plaquetas se evitan, salvo sangrado activo o procedimiento, porque pueden agravar la microtrombosis.' },
+        ] },
+        { title: 'Diálisis', tag: 'Cuándo derivar a diálisis', kind: 'alert', items: [
+          { t: 'Anuria de más de 24 horas', d: 'O sobrecarga con edema pulmonar o HTA refractaria',
+            say: 'La diálisis se indica en anuria de más de veinticuatro horas, sobrecarga de volumen con edema pulmonar o hipertensión refractaria, hiperkalemia refractaria, acidosis grave y uremia con encefalopatía.' },
+        ] },
+        { title: 'Pronóstico', tag: 'Seguimiento de años', kind: 'criteria', items: [
+          { t: 'Mortalidad 3 a 5%', d: 'Entre 10 y 30% queda con secuelas renales',
+            say: 'La mortalidad aguda es de tres a cinco por ciento, y entre diez y treinta por ciento queda con secuelas renales: hipertensión, proteinuria, enfermedad renal crónica. Por eso se sigue por años. No se usan antibióticos ni antiinflamatorios no esteroidales, y en formas atípicas o con compromiso neurológico grave, el especialista evalúa eculizumab.' },
+        ] },
       ],
     },
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Deshidratación',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: "Cuatro signos, tres planes",
       images: [
-        { src: 'biblioteca/15_pediatria/ped-11/01_pliegue_persistente__commons.jpg', label: 'Pliegue persistente', credit: 'Wikimedia Commons «LowSkinTurgor.jpg», CC BY-SA 4.0, DRobert' },
+        { src: 'animaciones/ped-11/A1_deshidratacion_signos_y_planes.mp4', label: "Del signo al plan", credit: "Animación propia" },
       ],
       steps: [
-        { note: 'Turgor disminuido',
-          say: 'El pliegue que no vuelve es un signo de deshidratación moderada a grave.' },
+        { note: "Se clasifica con la clínica",
+          say: "Mira la tabla de izquierda a derecha: conciencia, ojos y lágrimas, boca y sed, y signo del pliegue, cada uno normal, alterado o muy alterado. Dos signos alterados ya son deshidratación moderada; letargia con pliegue muy lento, grave. Abajo, lo que haces: plan A en casa, plan B con sales por la boca durante cuatro horas, y plan C con vena y Ringer lactato. Antidiarreicos, nunca." },
       ],
     },
 
@@ -211,6 +283,12 @@ module.exports = {
           say: 'Diarrea con sangre y compromiso renal: sospecha síndrome hemolítico urémico. El error grave es dar antibióticos, porque empeora todo.' },
         { cells: ['Diarrea aguda en cualquier niño', 'Sales de rehidratación y alimentación continua', 'Indicar loperamida'],
           say: 'Y en cualquier diarrea aguda: sales de rehidratación y seguir alimentando. La loperamida es la trampa que nunca se marca como correcta.' },
+        { cells: ['Disentería con fiebre, sospecha de Shigella', 'Azitromicina por 3 días', 'No tratar o dar antidiarreicos'],
+          say: 'Disentería con fiebre y sospecha de Shigella: sí se trata, con azitromicina por tres días. El error es dejarla sin antibiótico o dar un antidiarreico.' },
+        { cells: ['Niño en shock, sin vena en 90 segundos', 'Vía intraósea en tibia proximal', 'Seguir puncionando venas'],
+          say: 'Niño grave al que no encuentras una vena en noventa segundos: vía intraósea en la tibia proximal. El error es seguir puncionando y perder minutos.' },
+        { cells: ['Síndrome hemolítico urémico con oligoanuria', 'Restringir líquidos, evitar plaquetas, dializar si corresponde', 'Transfundir plaquetas o dar AINE'],
+          say: 'Y en el síndrome hemolítico urémico con oligoanuria: restringes líquidos, evitas las plaquetas salvo sangrado, y dializas si hay criterios. El error es transfundir plaquetas o dar antiinflamatorios.' },
       ],
     },
 
@@ -284,6 +362,119 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2016 · Pregunta 122",
+      "stem": "Una niña de 3 años presenta, hace 4 días, un cuadro de diarrea y fiebre hasta 38 °C, al que se agrega sangre en las deposiciones 48 horas después. En su examen físico se ve decaída y pálida, y en sus exámenes destaca hematocrito de 28%, leucocitos 9.800/mm³, plaquetas 75.000/mm³, BUN 28 mg/dL y creatinina 2,3 mg/dL.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Leucemia aguda"
+        },
+        {
+          "letter": "B",
+          "text": "Síndrome hemolítico urémico"
+        },
+        {
+          "letter": "C",
+          "text": "Shock séptico"
+        },
+        {
+          "letter": "D",
+          "text": "Glomerulonefritis aguda"
+        },
+        {
+          "letter": "E",
+          "text": "Púrpura de Schönlein-Henoch"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Es un síndrome hemolítico urémico clásico: niño pequeño, diarrea disentérica previa (típicamente Escherichia coli productora de toxina Shiga) y la tríada de insuficiencia renal aguda, anemia hemolítica y trombocitopenia. La glomerulonefritis no da plaquetopenia.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil dieciséis. Niña de tres años con diarrea y fiebre hace cuatro días, que a las cuarenta y ocho horas se vuelve con sangre. Ahora está decaída y pálida, con hematocrito de veintiocho por ciento, plaquetas en setenta y cinco mil, y creatinina de dos coma tres.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: leucemia aguda, síndrome hemolítico urémico, shock séptico, glomerulonefritis aguda, o púrpura de Schönlein Henoch. Piénsalo.",
+        "answer": "Es la B. Diarrea con sangre seguida de anemia, plaquetas bajas y falla renal es el síndrome hemolítico urémico. La glomerulonefritis tienta por la falla renal, pero no explica la plaquetopenia ni viene justo después de una disentería."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 47",
+      "stem": "Un niño de 14 años, con antecedente de síndrome de QT largo con historia familiar positiva, consulta por un cuadro de fiebre, dolor abdominal y deposiciones líquidas de 5 días de evolución, persistentes, que hace 2 días se han vuelto sanguinolentas.",
+      "question": "Además de la hidratación, ¿qué antibiótico debe indicarse?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ciprofloxacino"
+        },
+        {
+          "letter": "B",
+          "text": "Azitromicina"
+        },
+        {
+          "letter": "C",
+          "text": "Metronidazol"
+        },
+        {
+          "letter": "D",
+          "text": "Sulfametoxazol con trimetoprim"
+        },
+        {
+          "letter": "E",
+          "text": "Ampicilina"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Un síndrome disentérico febril se trata con antibióticos que cubran Shigella. Ciprofloxacino y azitromicina son opciones habituales, pero prolongan el QT y están contraindicados aquí. El metronidazol no cubre enterobacterias y la ampicilina tiene espectro insuficiente: queda el cotrimoxazol.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Un niño de catorce años, con síndrome de QT largo familiar, tiene fiebre, dolor abdominal y diarrea líquida de cinco días, que desde hace dos días viene con sangre.",
+        "question": "Además de hidratarlo, ¿qué antibiótico debe indicarse?",
+        "options": "Las opciones: ciprofloxacino, azitromicina, metronidazol, cotrimoxazol, o ampicilina. Piénsalo.",
+        "answer": "Es la D. Es un síndrome disentérico y hay que cubrir Shigella, pero el ciprofloxacino y la azitromicina prolongan el QT, así que en este niño quedan fuera. El metronidazol tienta porque se asocia a diarrea, pero cubre anaerobios y parásitos, no enterobacterias."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2016 · Pregunta 108",
+      "stem": "Un lactante de 4 meses presenta una diarrea grave y abundante, asociada a deterioro del estado general y sopor. Sus exámenes muestran elevación de la creatinina, hiponatremia e hipokalemia. Ha sido imposible encontrar una vía venosa periférica para administrar fluidos.",
+      "question": "¿Cuál es el medio de hidratación más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Catéter femoral"
+        },
+        {
+          "letter": "B",
+          "text": "Catéter subclavio"
+        },
+        {
+          "letter": "C",
+          "text": "Denudación de safena"
+        },
+        {
+          "letter": "D",
+          "text": "Vía intraósea"
+        },
+        {
+          "letter": "E",
+          "text": "Sonda nasogástrica"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Un lactante con deshidratación grave y compromiso de conciencia (plan C) requiere reposición endovenosa inmediata. Si no se logra una vía periférica rápidamente (ej. 90 segundos o 3 intentos), la vía de elección en pediatría es la intraósea (osteoclisis), habitualmente en la tibia proximal, por la que se pueden pasar fluidos y fármacos.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil dieciséis. Un lactante de cuatro meses con diarrea grave está soporoso y deshidratado, y no se logra una vía venosa.",
+        "question": "¿Cuál es la vía de hidratación más adecuada?",
+        "options": "Las opciones: catéter femoral, catéter subclavio, denudación de safena, vía intraósea o sonda nasogástrica. Piénsalo.",
+        "answer": "Es la D. Cuando no se logra una vía venosa en un niño grave, la vía de elección es la intraósea, rápida y segura. La sonda nasogástrica tienta porque sirve en la deshidratación moderada, pero en un lactante soporoso hay riesgo de aspiración."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -297,12 +488,14 @@ module.exports = {
         { title: 'Grave', tag: 'Urgencia vital', kind: 'alert', items: [
           { t: 'Plan C', d: 'Ringer lactato o suero fisiológico endovenoso',
             say: 'Y con deshidratación grave o shock, plan C, endovenoso de inmediato.' },
+          { t: 'Sin vena en 90 segundos', d: 'Vía intraósea en la tibia proximal',
+            say: 'Si no logras una vena en dos intentos o noventa segundos, vía intraósea.' },
         ] },
         { title: 'Las dos prohibiciones', tag: 'No las olvides', kind: 'pharma', items: [
           { t: 'Nunca loperamida en niños', d: 'Riesgo de íleo y megacolon',
             say: 'Nunca loperamida en niños.' },
-          { t: 'Nunca antibióticos si hay sangre', d: 'Por el riesgo de síndrome hemolítico urémico',
-            say: 'Y nunca antibióticos si sospechas síndrome hemolítico urémico, aunque la familia insista en que la diarrea con sangre necesita un antibiótico cuanto antes. Si te llevas una sola idea de hoy: la clínica te dice el grado, sin ningún examen, y el grado te dice el plan. Nos vemos en la próxima clase.' },
+          { t: 'Sin antibióticos si sospechas E. coli', d: 'Diarrea con sangre sin fiebre alta: riesgo de SHU',
+            say: 'Y nunca antibióticos si sospechas E. coli productora de toxina Shiga o síndrome hemolítico urémico, aunque la familia insista. La disentería febril por Shigella, en cambio, sí se trata, con azitromicina: por eso piensas primero en la causa. Si te llevas una sola idea de hoy: la clínica te dice el grado, sin ningún examen, y el grado te dice el plan. Nos vemos en la próxima clase.' },
         ] },
       ],
     },
@@ -320,6 +513,8 @@ module.exports = {
           'En el box, fraccionado con cucharita o jeringa. Si vomita mucho, sonda nasogástrica para gastroclisis antes de ir a la vena.')],
         ['Grave o en shock', N('alert', 'Plan C', 'Ringer lactato o suero fisiológico endovenoso',
           'Cien mililitros por kilo, repartidos según la edad. Si hay shock, primero un bolo de veinte mililitros por kilo.')],
+        ['Disentería con fiebre', N('do', 'Sospecha de Shigella', 'Azitromicina por 3 días',
+          'Diarrea con sangre, moco, fiebre, pujo y tenesmo: pide coprocultivo, hidrata y trata con azitromicina tres días. Si es sin fiebre alta y con carne mal cocida, piensa en E. coli productora de toxina Shiga y no des antibióticos.')],
         ['Diarrea con sangre + riñón', N('alert', 'Sospecha síndrome hemolítico urémico', 'Nunca antibióticos',
           'Anemia con esquistocitos, plaquetas bajas y poca orina tras una diarrea disentérica, casi siempre por carne mal cocida. Los antibióticos liberan más toxina y empeoran la falla renal.')])]),
   },

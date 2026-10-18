@@ -136,6 +136,64 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Anemia en el embarazo',
+      title: 'Cómo se define y cómo se confirma',
+      cards: [
+        { title: 'Definición', tag: 'OMS y MINSAL', kind: 'criteria', items: [
+          { t: 'Hb menor de 11 g/dL', d: '1.er y 3.er trimestre',
+            say: 'Volvamos a la anemia, que es muy preguntada. Se define como hemoglobina menor de once en el primer y tercer trimestre, y menor de diez coma cinco en el segundo.' },
+          { t: 'Leve, moderada, severa', d: '10-10,9 · 7-9,9 · menor de 7',
+            say: 'Se grada en leve, de diez a diez coma nueve; moderada, de siete a nueve coma nueve; y severa, bajo siete.' },
+          { t: '90% es ferropénica', d: 'Plasma +40-50%, glóbulos +20-30%',
+            say: 'Cerca del noventa por ciento es por falta de hierro, porque el plasma aumenta más que la masa de glóbulos rojos y los requerimientos de hierro se disparan. Le siguen el déficit de folato o vitamina B doce y las hemoglobinopatías.' },
+        ] },
+        { title: 'Diagnóstico', tag: 'Hemograma y ferritina', kind: 'key', items: [
+          { t: 'VCM y HCM bajos', d: 'Ferritina menor de 30 ng/mL',
+            say: 'Para confirmarla pides hemograma con índices: volumen y hemoglobina corpuscular bajos, y una ferritina menor de treinta nanogramos por mililitro, que confirma el déficit de hierro.' },
+          { t: 'VCM muy bajo, ferritina normal', d: 'Electroforesis: talasemia',
+            say: 'Si el volumen corpuscular es muy bajo pero la ferritina es normal, piensa en talasemia y pides electroforesis de hemoglobina. Y si el patrón no es ferropénico, frotis, reticulocitos, folato y vitamina B doce.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Anemia en el embarazo',
+      title: 'Tratamiento: oral primero, endovenoso si falla',
+      cards: [
+        { title: 'Hierro oral', tag: 'Primera línea', kind: 'pharma', items: [
+          { t: '100 a 200 mg de hierro elemental', d: 'Fraccionado, lejos de las comidas',
+            say: 'El tratamiento de la anemia ferropénica es hierro oral en dosis terapéutica: cien a doscientos miligramos de hierro elemental al día, fraccionado, lejos de las comidas y con vitamina C. Un comprimido de sulfato ferroso de trescientos miligramos aporta sesenta de hierro elemental.' },
+          { t: 'Sin té, café, leche ni calcio', d: 'Bloquean la absorción',
+            say: 'No lo tomes junto con té, café, leche ni con el carbonato de calcio de la profilaxis, porque bloquean la absorción. Si da epigastralgia o constipación, bajas la dosis o lo das en días alternos.' },
+          { t: 'Hb sube 1 g/dL en 2-3 semanas', d: 'Control a las 4 semanas',
+            say: 'La respuesta se ve rápido: reticulocitos a los siete a diez días, y la hemoglobina sube al menos un gramo en dos a tres semanas. La controlas a las cuatro. Mantienes el hierro hasta tres meses después de normalizarla y al menos seis semanas postparto.' },
+        ] },
+        { title: 'Endovenoso y transfusión', tag: 'Situaciones especiales', kind: 'alert', items: [
+          { t: 'Hierro EV', d: 'Intolerancia, falla o poco tiempo al parto',
+            say: 'El hierro endovenoso es para intolerancia o falla del oral, malabsorción, o una anemia moderada a severa que descubres en el segundo o tercer trimestre con poco tiempo para el parto. Nunca en el primer trimestre.' },
+          { t: 'Transfusión', d: 'Hb menor de 7 con repercusión',
+            say: 'La transfusión se reserva para hemoglobina bajo siete con repercusión hemodinámica, sangrado activo, o anemia severa cerca del parto. Toda anemia severa se hospitaliza y se estudia en alto riesgo obstétrico.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El calendario del control prenatal',
+      images: [
+        { src: 'animaciones/ob-01/A1_calendario.mp4', label: 'Calendario por semana', credit: 'Animación propia · Guía Perinatal MINSAL' },
+      ],
+      steps: [
+        { note: 'Cada examen, su semana',
+          say: 'Mira cómo se ordena todo en el tiempo. Mientras avanza el embarazo se van encendiendo el ácido fólico, la batería de ingreso, la ecografía de las once a catorce, el calcio y el hierro, la prueba de tolerancia a la glucosa entre las veinticuatro y veintiocho semanas, y al final el cultivo vaginorrectal. Cada dato tiene su ventana, y eso es lo que se pregunta.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos las dos preguntas del control prenatal en un solo árbol.',
     },
@@ -156,6 +214,8 @@ module.exports = {
           say: 'Con la prueba de tolerancia, si a las dos horas sale ciento cuarenta o más, el diagnóstico ya está hecho. El error es pedir una segunda prueba, como si hiciera falta confirmar.' },
         { cells: ['Cultivo vaginorrectal positivo, paciente sin síntomas', 'Anotar y dar penicilina G en el parto', 'Tratarla con antibiótico oral antes del parto'],
           say: 'Y con el cultivo positivo para estreptococo, la respuesta es penicilina en el parto, no antes. Ese antibiótico oral previo es la trampa más repetida de todo el tema.' },
+        { cells: ['Anemia ferropénica leve a moderada, estable', 'Hierro oral 100 a 200 mg de hierro elemental', 'Indicar hierro endovenoso o transfundir de entrada'],
+          say: 'Y con anemia por falta de hierro, estable, la primera línea es hierro oral en dosis de tratamiento. El error es saltar al hierro endovenoso o a la transfusión, que se guardan para la falla, la intolerancia o la anemia severa.' },
       ],
     },
 
@@ -226,6 +286,82 @@ module.exports = {
         options: 'Las opciones: vitamina B doce, ácido fólico, calcio, hierro, o ácidos grasos omega tres. Piénsalo.',
         answer: 'Es la B. La pregunta te tienta con la vitamina B doce, porque la dieta vegana sí se asocia a ese déficit. Pero el antecedente que manda aquí es el hijo previo con defecto del tubo neural: eso te obliga al ácido fólico en dosis alta, cuatro miligramos al día, empezando idealmente tres meses antes del embarazo y hasta la semana doce. La vitamina B doce importa, pero no es la prioridad de esta paciente.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 90",
+      "stem": "Paciente con antecedente de reglas irregulares, que ocurren cada 45 a 60 días, se realiza un test de embarazo que resulta positivo. Refiere una FUR segura hace 6 semanas y se solicitó una hCG plasmática de 25.000 UI/L, que corresponde a una edad gestacional entre 6 y 7 semanas.",
+      "question": "¿Cuál es la forma ideal para determinar la edad gestacional en esta paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "FUR segura"
+        },
+        {
+          "letter": "B",
+          "text": "Medición de la altura uterina"
+        },
+        {
+          "letter": "C",
+          "text": "Determinación de hCG plasmática en 48 horas"
+        },
+        {
+          "letter": "D",
+          "text": "Medición ecográfica del saco gestacional"
+        },
+        {
+          "letter": "E",
+          "text": "Medición ecográfica de la longitud cráneo-nalgas"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Con ciclos irregulares la FUR no es confiable, aunque la paciente la recuerde con seguridad. El mejor método es la ecografía precoz, y en el primer trimestre (hasta las 14 semanas) manda la longitud cráneo-nalgas, con error de pocos días. El saco gestacional es menos preciso; la hCG y la altura uterina no sirven para datar el embarazo.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Una mujer con reglas cada cuarenta y cinco a sesenta días tiene un test de embarazo positivo, una fecha de última regla de hace seis semanas que recuerda bien, y una gonadotrofina de veinticinco mil.",
+        "question": "¿Cuál es la forma ideal para determinar la edad gestacional?",
+        "options": "Las opciones: la fecha de última regla, la altura uterina, repetir la gonadotrofina en cuarenta y ocho horas, el saco gestacional en ecografía, o la longitud cráneo nalgas. Piénsalo.",
+        "answer": "Es la E. Con ciclos irregulares la fecha de última regla no es confiable, y en el primer trimestre la longitud cráneo nalgas es el método más preciso. El saco gestacional tienta porque también es ecográfico, pero es mucho menos exacto para datar."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 53",
+      "stem": "Embarazada de 20 semanas, asintomática, con hemoglobina de 9,0 g/dL, VCM de 72 fL (microcítica) y ferritina de 8 ng/mL.",
+      "question": "¿Cuál es el tratamiento de elección?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hierro oral elemental 200 mg/día"
+        },
+        {
+          "letter": "B",
+          "text": "Transfusión de glóbulos rojos"
+        },
+        {
+          "letter": "C",
+          "text": "Hierro endovenoso"
+        },
+        {
+          "letter": "D",
+          "text": "Vitamina B12 intramuscular"
+        },
+        {
+          "letter": "E",
+          "text": "Ácido fólico"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Anemia ferropénica del embarazo (Hb bajo 11 g/dL, microcitosis y ferritina baja) en paciente asintomática: el tratamiento de primera línea es hierro oral en dosis terapéutica. El hierro endovenoso se reserva para intolerancia, malabsorción o falta de respuesta; la transfusión, para anemia grave sintomática o hemorragia.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Embarazada de veinte semanas, sin síntomas, con hemoglobina de nueve, anemia microcítica y ferritina de ocho.",
+        "question": "¿Cuál es el tratamiento de elección?",
+        "options": "Las opciones: hierro oral, transfusión, hierro endovenoso, vitamina B doce o ácido fólico. Piénsalo.",
+        "answer": "Es la A. Es una anemia ferropénica leve a moderada y sin síntomas, así que va hierro oral en dosis de tratamiento. El hierro endovenoso tienta, pero se guarda para intolerancia, malabsorción o falta de respuesta al oral."
+      }
     },
 
     {

@@ -88,6 +88,34 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Medir la filtración',
+      title: 'Clearance de creatinina: cuándo medirlo',
+      cards: [
+        { title: 'Clearance de 24 horas', tag: 'Normal 90–120 mL/min/1,73 m²', kind: 'key', items: [
+          { t: 'Cr urinaria × volumen por minuto ÷ Cr plasmática', d: 'Orina de 24 horas',
+            say: 'Además de la filtración estimada, existe el clearance de creatinina medido en orina de veinticuatro horas. Se calcula multiplicando la creatinina urinaria por el volumen urinario por minuto, y dividiendo por la creatinina plasmática. El valor normal es de noventa a ciento veinte mililitros por minuto.' },
+          { t: 'Sobreestima la TFG real en 10–20 %', d: 'La creatinina también se secreta en el túbulo',
+            say: 'Pero ojo: sobreestima la filtración real entre diez y veinte por ciento, porque la creatinina también se secreta en el túbulo, y más aún en la enfermedad renal avanzada.' },
+          { t: 'Colección confiable: 20–25 mg/kg en hombres, 15–20 en mujeres', d: 'Menos sugiere recolección incompleta',
+            say: 'Una colección es confiable si la creatinina urinaria de veinticuatro horas es de veinte a veinticinco miligramos por kilo en hombres, y de quince a veinte en mujeres. Cifras menores sugieren que la recolección quedó incompleta.' },
+        ] },
+        { title: 'Sin recolectar orina', tag: 'Cockcroft-Gault', kind: 'pharma', items: [
+          { t: '(140 − edad) × peso ÷ (72 × creatinina)', d: '× 0,85 en mujeres',
+            say: 'Si no hay orina, se puede estimar con la fórmula de Cockcroft y Gault: ciento cuarenta menos la edad, por el peso en kilos, dividido por setenta y dos veces la creatinina, y se multiplica por cero coma ochenta y cinco en mujeres.' },
+          { t: 'Útil para ajustar dosis de fármacos', d: 'Más que para etapificar',
+            say: 'Esta fórmula es útil sobre todo para ajustar dosis de fármacos.' },
+        ] },
+        { title: 'Cuándo preferir medirlo', tag: 'TFGe poco confiable', kind: 'alert', items: [
+          { t: 'Masa muscular extrema', d: 'Amputados, desnutrición, obesidad mórbida',
+            say: 'Se prefiere medirlo cuando la filtración estimada es poco confiable: con masa muscular extrema, como en amputados, desnutridos u obesos mórbidos.' },
+          { t: 'Embarazo, dieta vegetariana, creatina', d: 'Cirrosis y evaluación de donante renal',
+            say: 'También en el embarazo, con dieta vegetariana estricta o suplementos de creatina, en la cirrosis y en la evaluación de un donante renal.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Nefroprotección',
       title: 'IECA o ARA-II: el pilar',
@@ -201,7 +229,8 @@ module.exports = {
           { t: 'Radiocefálica, brazo no dominante', d: 'Brescia-Cimino',
             say: 'La fístula habitual es la radiocefálica de Brescia Cimino, en el brazo no dominante.' },
           { t: '≥ 6 meses antes: para que madure', d: 'La vena se arterializa',
-            say: '¿Por qué seis meses antes? Porque la vena conectada a la arteria tiene que madurar: se dilata y engruesa su pared con el flujo arterial, hasta soportar punciones repetidas con agujas gruesas. Ese proceso tarda meses.' },
+            say: '¿Por qué seis meses antes? Porque la vena conectada a la arteria tiene que madurar: se dilata y engruesa su pared con el flujo arterial, hasta soportar punciones repetidas con agujas gruesas. Ese proceso tarda meses. Mira esta fístula ya madura: la vena del antebrazo, dilatada y engrosada, se palpa con frémito y se puede puncionar.',
+            photo: { src: 'biblioteca/07_nefrologia/nefro-18/01_fistula_av_radiocefalica__kumar-clark_p886.jpg', label: 'Fístula radiocefálica', at: 'Mira esta fístula', credit: 'Kumar and Clark\'s Clinical Medicine, p. 886' } },
           { t: 'Evitar el catéter venoso central', d: 'Bacteriemias y estenosis venosa',
             say: 'Si la fístula no está lista, el paciente entra a diálisis con un catéter venoso central transitorio, que se asocia a bacteriemias y a estenosis venosa central. Eso es lo que se quiere evitar.' },
         ] },
@@ -210,6 +239,88 @@ module.exports = {
             say: 'En la etapa cinco, la hemodiálisis crónica es de tres sesiones a la semana, de cuatro horas cada una. La alternativa es la peritoneodiálisis.' },
           { t: 'EPO, hierro EV, vitamina D, quelantes', d: 'Y lista de espera de trasplante',
             say: 'El GES también cubre la eritropoyetina, el hierro endovenoso, los análogos de vitamina D y los quelantes de fósforo, y la incorporación a la lista de trasplante. Todos esos fármacos los vamos a entender en la próxima clase. Antes de eso, el nefrólogo también vacuna contra la hepatitis B.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Diálisis',
+      title: 'Complicaciones de la hemodiálisis y la peritoneodiálisis',
+      cards: [
+        { title: 'Durante la hemodiálisis', tag: 'Intradiálisis', kind: 'alert', items: [
+          { t: 'Hipotensión: la más frecuente', d: 'Suspender la ultrafiltración, Trendelenburg, SF 100–250 mL',
+            say: 'Veamos qué puede salir mal en la diálisis. En la hemodiálisis, la complicación más frecuente durante la sesión es la hipotensión, por exceso de ultrafiltración. Se suspende la ultrafiltración, se coloca al paciente en Trendelenburg y se administran cien a doscientos cincuenta mililitros de suero fisiológico.' },
+          { t: 'Calambres, náuseas, cefalea, arritmias', d: 'Síndrome de desequilibrio en las primeras sesiones',
+            say: 'Siguen los calambres, las náuseas, la cefalea y las arritmias. En las primeras sesiones puede aparecer el síndrome de desequilibrio dialítico: cefalea, vómitos y convulsiones, por edema cerebral al bajar la urea muy rápido.' },
+          { t: 'Acceso: bacteriemia, trombosis de la fístula', d: 'S. aureus · pérdida de frémito y soplo · robo distal',
+            say: 'Del acceso vascular, la bacteriemia por catéter es la principal causa de infección, y el agente es el estafilococo dorado. La trombosis o estenosis de la fístula se reconoce porque se pierden el frémito y el soplo. También hay aneurisma, isquemia distal por robo y estenosis venosa central.' },
+        ] },
+        { title: 'A largo plazo', tag: 'Crónicas', kind: 'key', items: [
+          { t: 'Enfermedad cardiovascular y desnutrición', d: 'Anemia y CKD-MBD',
+            say: 'A largo plazo dominan la enfermedad cardiovascular, la desnutrición, la anemia y las alteraciones del metabolismo mineral y óseo.' },
+          { t: 'Amiloidosis por β2-microglobulina', d: 'Túnel carpiano y artropatía',
+            say: 'Aparece la amiloidosis por beta dos microglobulina, con síndrome del túnel carpiano y artropatía. Y las hepatitis B y C, por eso se vacuna contra la hepatitis B.' },
+        ] },
+        { title: 'Peritoneodiálisis', tag: 'Peritonitis', kind: 'pharma', items: [
+          { t: 'Dolor abdominal y líquido turbio', d: '> 100 leucocitos/µL con > 50 % PMN: Gram y cultivo',
+            say: 'En la peritoneodiálisis, la complicación principal es la peritonitis: dolor abdominal y líquido de drenaje turbio. Se confirma con más de cien leucocitos por microlitro, con más de cincuenta por ciento de polimorfonucleares, y se toma Gram y cultivo.' },
+          { t: 'Antibióticos intraperitoneales empíricos', d: 'Vancomicina o cefazolina + ceftazidima o gentamicina',
+            say: 'Se trata con antibióticos intraperitoneales empíricos, vancomicina o cefazolina más ceftazidima o gentamicina, ajustados al cultivo. Si no responde en cinco días, se retira el catéter.' },
+          { t: 'Hernias, fugas, hiperglicemia, falla de ultrafiltración', d: 'Glucosa del dializado: peso y triglicéridos',
+            say: 'Otras complicaciones son las hernias y fugas, la hiperglicemia, la hipertrigliceridemia y el aumento de peso por la glucosa del dializado, y la falla de ultrafiltración por esclerosis peritoneal.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Trasplante renal',
+      title: 'Trasplante: a quién y con qué compatibilidad',
+      cards: [
+        { title: 'Indicación', tag: 'Tratamiento de elección', kind: 'key', items: [
+          { t: 'ERC etapa 5 sin contraindicaciones', d: 'Mejor sobrevida y calidad de vida que la diálisis',
+            say: 'El trasplante renal es el tratamiento de elección de la enfermedad renal crónica etapa cinco, con mejor sobrevida y calidad de vida que la diálisis. Se indica a todo paciente sin contraindicaciones.' },
+          { t: 'Idealmente antes de dializar', d: 'TFG < 20 mL/min',
+            say: 'Idealmente se hace antes de iniciar diálisis, con filtración bajo veinte mililitros por minuto.' },
+          { t: 'Donante vivo o fallecido', d: 'Vivo: mejor sobrevida del injerto · lista de espera GES',
+            say: 'El injerto viene de un donante vivo, que da mejor sobrevida del injerto, o de un donante fallecido, con lista de espera garantizada por el GES. Se estudia compatibilidad ABO, HLA, prueba cruzada y serología viral.' },
+        ] },
+        { title: 'Contraindicaciones', tag: 'No se trasplanta', kind: 'alert', items: [
+          { t: 'Neoplasia activa o reciente', d: 'Infección activa no controlada: TBC, sepsis, VIH',
+            say: 'No se trasplanta a un paciente con neoplasia activa o reciente, ni con infección activa no controlada, como tuberculosis activa, sepsis o VIH sin control.' },
+          { t: 'Enfermedad grave o mala adherencia', d: 'Cardiovascular o pulmonar, vida corta, consumo de sustancias, psiquiátrica',
+            say: 'Tampoco con enfermedad cardiovascular o pulmonar grave, expectativa de vida corta, consumo activo de sustancias, o mala adherencia o enfermedad psiquiátrica grave no controlada.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Trasplante renal',
+      title: 'Trasplante: rechazo, inmunosupresión e infecciones',
+      cards: [
+        { title: 'Rechazo', tag: 'Tres tipos', kind: 'alert', items: [
+          { t: 'Hiperagudo: minutos a horas', d: 'Anticuerpos preformados',
+            say: 'El rechazo puede ser de tres tipos. El hiperagudo ocurre en minutos a horas, por anticuerpos preformados.' },
+          { t: 'Agudo celular: semanas a meses', d: 'Sube la creatinina · biopsia · metilprednisolona o timoglobulina',
+            say: 'El agudo celular aparece en semanas a meses: sube la creatinina, se confirma con biopsia del injerto y se trata con bolos de metilprednisolona o timoglobulina.' },
+          { t: 'Crónico: años', d: 'Fibrosis progresiva',
+            say: 'Y el crónico, de años, con fibrosis progresiva del injerto.' },
+        ] },
+        { title: 'Inmunosupresión', tag: 'Triple esquema', kind: 'pharma', items: [
+          { t: 'Tacrolimus + micofenolato + prednisona', d: 'O ciclosporina en lugar de tacrolimus',
+            say: 'La inmunosupresión de mantención es triple: tacrolimus, o ciclosporina, más micofenolato y prednisona.' },
+          { t: 'Nefrotoxicidad por inhibidores de calcineurina', d: 'Diabetes, HTA, dislipidemia, temblor, hiperkalemia, osteoporosis',
+            say: 'Sus efectos adversos: nefrotoxicidad por los inhibidores de calcineurina, diabetes postrasplante, hipertensión, dislipidemia, temblor, hiperkalemia y osteoporosis. El micofenolato da mielosupresión y diarrea.' },
+          { t: 'Macrólidos, azoles y diltiazem elevan el tacrolimus', d: 'Evitar AINE · control en el centro de trasplante',
+            say: 'En la atención general, se evitan los antiinflamatorios, y se recuerda que los macrólidos, los azoles y el diltiazem elevan el tacrolimus. El control se hace en el centro de trasplante.' },
+        ] },
+        { title: 'Infecciones y otras', tag: 'Oportunistas', kind: 'key', items: [
+          { t: 'CMV, virus BK, Pneumocystis, ITU', d: 'CMV entre 1 y 6 meses · cotrimoxazol de profilaxis',
+            say: 'Las infecciones oportunistas son el citomegalovirus, entre uno y seis meses después, la nefropatía por virus BK, el Pneumocystis, con profilaxis de cotrimoxazol, y las infecciones urinarias.' },
+          { t: 'Cáncer de piel y linfoma', d: 'Estenosis ureteral, fístula, linfocele, trombosis vascular',
+            say: 'Entre las neoplasias, el cáncer de piel y el linfoma postrasplante. Y las complicaciones quirúrgicas: estenosis ureteral, fístula urinaria, linfocele y trombosis vascular.' },
         ] },
       ],
     },
@@ -251,6 +362,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Las nefronas que se pierden',
+      images: [
+        { src: 'animaciones/nefro-18/A1_nefronas_erc.mp4', label: 'Enfermedad renal crónica', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Hiperfiltración y nefroprotección',
+          say: 'A medida que se pierden nefronas cae la filtración y el paciente baja de etapa. Las que sobreviven hiperfiltran, con más presión dentro del glomérulo y más albuminuria. El IECA o ARA dos dilata la arteriola eferente, baja esa presión y frena la proteinuria. Bajo treinta de filtración entra el GES.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: dos preguntas deciden el manejo.',
     },
@@ -273,6 +398,10 @@ module.exports = {
           say: 'Etapa cuatro que va hacia la diálisis: fístula al menos seis meses antes. Esperar hasta necesitar un catéter central es el error.' },
         { cells: ['Metformina con TFG < 30', 'Suspenderla', 'Mantenerla o subirla'],
           say: 'Y metformina con filtración bajo treinta: se suspende, por la acidosis láctica.' },
+        { cells: ['Peritoneodiálisis con líquido turbio y dolor', '> 100 leucocitos con > 50 % PMN: antibióticos intraperitoneales', 'Retirar el catéter de entrada o esperar el cultivo'],
+          say: 'Paciente en peritoneodiálisis con dolor y líquido turbio: más de cien leucocitos con más de cincuenta por ciento de polimorfonucleares, y antibióticos intraperitoneales empíricos. El catéter se retira solo si no responde en cinco días.' },
+        { cells: ['Hipotensión durante la hemodiálisis', 'Suspender ultrafiltración, Trendelenburg, SF', 'Dar un vasopresor de entrada'],
+          say: 'Y la hipotensión durante la hemodiálisis: se suspende la ultrafiltración, se coloca al paciente en Trendelenburg y se da suero fisiológico.' },
       ],
     },
 
@@ -389,6 +518,344 @@ module.exports = {
         options: 'Las opciones: notificar GES y derivar a nefrología en menos de treinta días, instalar un catéter para hemodiálisis, controlar en un año, iniciar peritoneodiálisis inmediata, o restricción hídrica estricta. Piénsalo.',
         answer: 'Es la A. Filtración de veinticuatro, confirmada por más de tres meses, es una etapa cuatro, y la etapa cuatro es GES: se notifica y se deriva al nefrólogo, que tiene treinta días para verla. La C es el error por omisión: no se espera un año. Y la B y la D son el error por exceso: sin síntomas urémicos no hay diálisis de urgencia; lo que se prepara es la fístula.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.1.017 · Progresión de la IRC",
+      "stem": "Hombre de 61 años, hipertenso, con ERC en control en CESFAM. Hace 1 año TFGe 58 mL/min/1,73 m²; hoy 45 mL/min/1,73 m², confirmada en 2 mediciones. RAC 420 mg/g. PA 136/84 mmHg con losartán 50 mg/día. K 4,6 mEq/L.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener el control anual en atención primaria"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar preparación para diálisis con fístula arteriovenosa"
+        },
+        {
+          "letter": "C",
+          "text": "Suspender el losartán por la caída de la TFG"
+        },
+        {
+          "letter": "D",
+          "text": "Derivar a nefrología por progresión acelerada y albuminuria severa"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar biopsia renal en atención primaria"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Una caída de la TFG mayor de 5 mL/min/1,73 m² en un año define progresión acelerada, y una RAC sobre 300 mg/g es albuminuria severa: ambos son criterios de derivación a nefrología. Mientras, se optimiza el bloqueo del sistema renina-angiotensina y la PA bajo 130/80 mmHg.",
+      "say": {
+        "stem": "Un hombre de sesenta y un años, hipertenso, con enfermedad renal crónica, perdió trece puntos de filtración en un año: de cincuenta y ocho a cuarenta y cinco. Su razón albúmina creatinina es cuatrocientos veinte, y usa losartán.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: control anual, preparar diálisis, suspender losartán, derivar a nefrología o biopsia en atención primaria. Piénsalo.",
+        "answer": "Es la D. Perder más de cinco puntos de filtración al año es progresión acelerada, y una albuminuria sobre trescientos es severa: los dos piden nefrólogo. Suspender el losartán tienta, pero es justamente lo que frena la progresión, y no hay hiperkalemia ni caída aguda que lo justifique."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.3.004 · Diálisis y complicaciones",
+      "stem": "Mujer de 57 años en diálisis peritoneal ambulatoria continua hace 2 años. Consulta por 24 horas de dolor abdominal difuso y líquido de drenaje turbio. T° 37,9 °C, abdomen sensible sin signos de perforación. Recuento del efluente: 850 leucocitos/mm³ con 82 % de polimorfonucleares.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tomar cultivo del efluente e iniciar antibióticos intraperitoneales empíricos"
+        },
+        {
+          "letter": "B",
+          "text": "Retirar el catéter peritoneal de inmediato"
+        },
+        {
+          "letter": "C",
+          "text": "Laparotomía exploradora de urgencia"
+        },
+        {
+          "letter": "D",
+          "text": "Cambiar a hemodiálisis y observar sin antibióticos"
+        },
+        {
+          "letter": "E",
+          "text": "Ciprofloxacino oral y control en 1 semana"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Peritonitis asociada a diálisis peritoneal: efluente turbio con más de 100 leucocitos/mm³ y más de 50 % de PMN. Se cultiva el líquido y se inician antibióticos intraperitoneales que cubran grampositivos y gramnegativos. El catéter se retira solo si es refractaria o fúngica.",
+      "say": {
+        "stem": "Una mujer de cincuenta y siete años, en diálisis peritoneal hace dos años, tiene dolor abdominal y el líquido de drenaje sale turbio. Tiene febrícula y el efluente trae ochocientos cincuenta leucocitos, la mayoría polimorfonucleares.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: cultivo y antibióticos intraperitoneales, retirar el catéter, laparotomía, pasar a hemodiálisis sin antibióticos o ciprofloxacino oral. Piénsalo.",
+        "answer": "Es la A. Es una peritonitis de diálisis peritoneal y se trata con cultivo y antibióticos por el mismo peritoneo, de amplio espectro. Retirar el catéter tienta, pero se reserva para la peritonitis que no responde o la fúngica."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.064 · Insuficiencia renal crónica",
+      "stem": "En un policlínico de nefrología infantil se revisa la etiología de los niños con enfermedad renal crónica.",
+      "question": "¿Cuál es la causa más frecuente de enfermedad renal crónica en niños?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nefropatía diabética"
+        },
+        {
+          "letter": "B",
+          "text": "Nefropatía hipertensiva"
+        },
+        {
+          "letter": "C",
+          "text": "Nefropatía por IgA"
+        },
+        {
+          "letter": "D",
+          "text": "Malformaciones congénitas del riñón y vía urinaria (uropatías obstructivas y displasias)"
+        },
+        {
+          "letter": "E",
+          "text": "Enfermedad renal poliquística autosómica dominante"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En pediatría, especialmente en menores de 5 años, la principal causa de enfermedad renal crónica son las anomalías congénitas del riñón y la vía urinaria: hipoplasia o displasia renal, uropatías obstructivas como válvulas de uretra posterior y reflujo vesicoureteral con nefropatía. Las glomerulopatías ganan importancia en escolares y adolescentes; la diabetes y la hipertensión son causas del adulto.",
+      "say": {
+        "stem": "Se revisa la etiología de los niños con enfermedad renal crónica.",
+        "question": "¿Cuál es la causa más frecuente en pediatría?",
+        "options": "Las opciones: nefropatía diabética, hipertensiva, nefropatía por IgA, malformaciones congénitas renales y urinarias o poliquistosis dominante. Piénsalo.",
+        "answer": "Es la D. En niños la enfermedad renal crónica se debe sobre todo a malformaciones congénitas del riñón y la vía urinaria. La nefropatía diabética tienta porque es la primera causa en adultos, pero no en pediatría."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.022 · Pruebas de función renal",
+      "stem": "Un niño de 8 años, con talla de 125 cm, tiene creatinina plasmática de 0,9 mg/dL. Se quiere estimar su velocidad de filtración glomerular.",
+      "question": "¿Qué método es el más adecuado para estimarla en pediatría?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fórmula de Schwartz (talla y creatinina)"
+        },
+        {
+          "letter": "B",
+          "text": "Fórmula de Cockcroft-Gault"
+        },
+        {
+          "letter": "C",
+          "text": "Ecuación CKD-EPI"
+        },
+        {
+          "letter": "D",
+          "text": "Solo el nitrógeno ureico"
+        },
+        {
+          "letter": "E",
+          "text": "La creatinina sola, comparada con valores del adulto"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En niños, la filtración glomerular se estima con la fórmula de Schwartz modificada: VFG = 0,413 × talla (cm) / creatinina (mg/dL). En este caso, 0,413 × 125 / 0,9 = 57 mL/min/1,73 m2, es decir, disminuida. Las fórmulas del adulto (CKD-EPI, Cockcroft-Gault) no son válidas en niños, y la creatinina normal varía con la edad y la masa muscular.",
+      "say": {
+        "stem": "Un niño de ocho años que mide ciento veinticinco centímetros tiene creatinina de cero coma nueve, y se quiere estimar su filtración glomerular.",
+        "question": "¿Qué método es el más adecuado?",
+        "options": "Las opciones: fórmula de Schwartz, Cockcroft-Gault, CKD-EPI, solo nitrógeno ureico o creatinina sola. Piénsalo.",
+        "answer": "Es la A. En pediatría se usa la fórmula de Schwartz, que considera la talla y la creatinina, y aquí muestra una filtración disminuida. La CKD-EPI tienta porque es la estándar, pero solo es válida en adultos."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.005 · Creatininemia",
+      "stem": "Una mujer de 84 años, de 45 kg y con sarcopenia, tiene creatinina plasmática de 1,0 mg/dL. Se calcula su velocidad de filtración glomerular estimada (VFGe) en 50 mL/min/1,73 m².",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tiene disminución de la función renal, que la creatinina sola subestima por su baja masa muscular"
+        },
+        {
+          "letter": "B",
+          "text": "Su función renal es normal, porque la creatinina está en rango normal"
+        },
+        {
+          "letter": "C",
+          "text": "La creatinina sobreestima el daño renal en los adultos mayores"
+        },
+        {
+          "letter": "D",
+          "text": "Debe medirse solo la creatinina en orina de 24 horas"
+        },
+        {
+          "letter": "E",
+          "text": "La VFGe no es aplicable en mayores de 70 años"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La creatinina depende de la masa muscular: en adultos mayores con poca masa muscular, una creatinina normal puede ocultar una VFG disminuida. Por eso se usa la VFG estimada (CKD-EPI), que ajusta por edad y sexo. Es clave para ajustar dosis de fármacos y para etapificar la enfermedad renal crónica.",
+      "say": {
+        "stem": "Una mujer de ochenta y cuatro años, de cuarenta y cinco kilos y con sarcopenia, tiene creatinina de uno coma cero y una filtración glomerular estimada de cincuenta.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: función renal disminuida que la creatinina sola subestima, función renal normal por creatinina normal, la creatinina sobreestima el daño, medir solo creatinina en orina de veinticuatro horas o la filtración estimada no sirve en mayores. Piénsalo.",
+        "answer": "Es la A. Con poca masa muscular, una creatinina normal puede ocultar una filtración disminuida. La opción normal tienta por el valor de uno, pero en ella ese uno corresponde a una filtración de cincuenta."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2024 · Pregunta 103",
+      "stem": "Paciente con trasplante renal hace 9 años, usuario de tacrolimus, presenta hace 1 semana compromiso del estado general y dolor en la zona del injerto. Los exámenes de rutina de hace 10 días mostraban niveles plasmáticos de tacrolimus en rango normal y creatinina de 0,9 mg/dL. Exámenes actuales: creatinina 2,3 mg/dL y orina completa con leucocitos y bacterias.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rechazo agudo"
+        },
+        {
+          "letter": "B",
+          "text": "Rechazo crónico"
+        },
+        {
+          "letter": "C",
+          "text": "Intoxicación por tacrolimus"
+        },
+        {
+          "letter": "D",
+          "text": "Pielonefritis del injerto"
+        },
+        {
+          "letter": "E",
+          "text": "Pielonefritis de los riñones nativos"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Dolor sobre el injerto, compromiso general, leucocituria y bacteriuria con alza aguda de creatinina sugieren pielonefritis del injerto, infección frecuente en trasplantados por la inmunosupresión. Requiere urocultivo y antibióticos endovenosos. Con niveles normales de tacrolimus la toxicidad es improbable, el rechazo crónico es lento y el rechazo agudo no explica la piuria.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticuatro. Paciente con trasplante renal y tacrolimus en rango, con dolor en el injerto, alza de creatinina y orina con leucocitos y bacterias.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: rechazo agudo, rechazo crónico, toxicidad por tacrolimus, pielonefritis del injerto, o pielonefritis de los riñones nativos. Piénsalo.",
+        "answer": "Es la D. Pielonefritis del injerto, porque hay dolor en el injerto con leucocitos y bacterias en la orina. El rechazo agudo también sube la creatinina y duele, pero no explica la orina infectada."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2017 · Pregunta 48",
+      "stem": "Un paciente de 28 años, con antecedente de tuberculosis renal tratada a los 16 años, presenta edema blando de extremidades inferiores, mayor en las tardes, e hipertensión arterial de 150/90 mmHg. En sus exámenes destaca creatinina plasmática 2,8 mg/dL, BUN 40 mg/dL, Na+ 132 mEq/L, K+ 5,0 mEq/L y orina completa con proteinuria ++ y sedimento normal.",
+      "question": "¿Cuál es el examen de elección para continuar el estudio diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pielografía de eliminación"
+        },
+        {
+          "letter": "B",
+          "text": "Ecografía abdominal"
+        },
+        {
+          "letter": "C",
+          "text": "Índice proteinuria/creatininuria"
+        },
+        {
+          "letter": "D",
+          "text": "Cintigrafía DMSA"
+        },
+        {
+          "letter": "E",
+          "text": "TAC renal"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Ante una falla renal de reciente diagnóstico, la ecografía renal es el examen inicial: riñones pequeños con pérdida de la diferenciación corticomedular indican enfermedad crónica, y además evalúa asimetrías, secuelas de tuberculosis e hidronefrosis. Es inocua, a diferencia de la pielografía y la TAC con contraste. La cintigrafía DMSA puede complementar después.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Hombre de veintiocho años con antecedente de tuberculosis renal, ahora hipertenso, con edema y creatinina de dos coma ocho.",
+        "question": "¿Qué examen sigue?",
+        "options": "Las opciones: pielografía, ecografía, índice proteinuria creatininuria, cintigrafía DMSA, o TAC renal. Piénsalo.",
+        "answer": "Es la B. La ecografía, que diferencia una falla aguda de una crónica por el tamaño renal y busca hidronefrosis. La cintigrafía tienta por la tuberculosis, pero es un examen complementario, no inicial."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.009 · Clearence de creatinina",
+      "stem": "Hombre de 60 años con enfermedad renal crónica. Se estima su función renal con el clearance de creatinina en orina de 24 horas y se compara con la filtración glomerular medida por un método de referencia.",
+      "question": "¿Por qué el clearance de creatinina tiende a sobreestimar la filtración glomerular real, especialmente en ERC avanzada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Porque la creatinina se reabsorbe en el túbulo"
+        },
+        {
+          "letter": "B",
+          "text": "Porque la creatinina se metaboliza en el hígado"
+        },
+        {
+          "letter": "C",
+          "text": "Porque una fracción de la creatinina se secreta en el túbulo proximal"
+        },
+        {
+          "letter": "D",
+          "text": "Porque la creatinina no se filtra libremente"
+        },
+        {
+          "letter": "E",
+          "text": "Porque la orina de 24 horas siempre se recolecta en exceso"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La creatinina se filtra libremente y, además, se secreta en el túbulo proximal, fracción que aumenta a medida que cae la filtración; por eso el clearance sobreestima la VFG en la ERC avanzada. Su principal error práctico es la recolección incompleta de orina. Hoy se prefieren ecuaciones de estimación como CKD-EPI.",
+      "say": {
+        "stem": "En un paciente con enfermedad renal crónica, el clearance de creatinina de veinticuatro horas resulta más alto que la filtración real.",
+        "question": "¿Por qué lo sobreestima?",
+        "options": "Las opciones: reabsorción tubular, metabolismo hepático, secreción tubular proximal, filtración no libre o recolección en exceso. Piénsalo.",
+        "answer": "Es la C. Por la secreción tubular de creatinina, que aumenta cuando cae la filtración. La reabsorción tubular es la trampa: haría lo contrario y subestimaría."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.3.006 · Trasplante renal, indicaciones y complicaciones",
+      "stem": "Mujer de 45 años, trasplantada renal hace 4 meses, en tratamiento con tacrolimus, micofenolato y prednisona. Consulta por fiebre de 38 °C, tos y disnea progresiva de 1 semana. Radiografía con infiltrado intersticial bilateral. LDH elevada. Suspendió por su cuenta la profilaxis con cotrimoxazol hace 1 mes.",
+      "question": "¿Cuál es el agente etiológico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pneumocystis jirovecii"
+        },
+        {
+          "letter": "B",
+          "text": "Streptococcus pneumoniae"
+        },
+        {
+          "letter": "C",
+          "text": "Mycoplasma pneumoniae"
+        },
+        {
+          "letter": "D",
+          "text": "Legionella pneumophila"
+        },
+        {
+          "letter": "E",
+          "text": "Rechazo agudo del injerto"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Entre el primer y sexto mes postrasplante predominan las infecciones oportunistas (CMV, Pneumocystis), por la inmunosupresión máxima. Neumonía intersticial bilateral con LDH alta e hipoxemia, sin profilaxis con cotrimoxazol, sugiere Pneumocystis jirovecii. Se trata con cotrimoxazol en dosis altas. Por eso la profilaxis se mantiene al menos 6 meses.",
+      "say": {
+        "stem": "Mujer de cuarenta y cinco años, con trasplante renal hace cuatro meses e inmunosupresores, que dejó la profilaxis con cotrimoxazol. Tiene fiebre, tos, disnea, infiltrado intersticial bilateral y LDH alta.",
+        "question": "¿Cuál es el agente más probable?",
+        "options": "Las opciones: Pneumocystis, neumococo, micoplasma, legionela o rechazo agudo. Piénsalo.",
+        "answer": "Es la A. Es Pneumocystis: período de máxima inmunosupresión, neumonía intersticial con LDH alta y sin profilaxis. El neumococo tienta por ser la causa más común de neumonía, pero da consolidación lobar, no un patrón intersticial bilateral en un inmunosuprimido."
+      }
     },
 
     {

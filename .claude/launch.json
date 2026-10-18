@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "reproductor-suizo",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8766", "--directory", "classes"],
+      "port": 8766
+    },
+    {
+      "name": "clases-preview",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "classes/scripts/jsvideo"],
+      "port": 8765
+    }
+  ]
+}

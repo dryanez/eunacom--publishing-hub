@@ -16,9 +16,9 @@ const OUT = path.join(__dirname, 'out', id);
 const W = 1280, H = 720, FPS = 30;
 
 async function worker(w, f0, f1, file) {
-  const browser = await chromium.launch();
+  const browser = await chromium.launch(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {});
   const page = await browser.newPage({ viewport: { width: W, height: H } });
-  await page.goto('file://' + path.join(__dirname, 'scenes', 'clase.html') + '?c=' + id);
+  await page.goto('file://' + path.join(__dirname, 'scenes', process.env.CLASS_SCENE || 'clase.html') + '?c=' + id);   // CLASS_SCENE=clase_dev.html para probar cambios
   await page.waitForFunction(() => window.READY === true);
   const ff = spawn('ffmpeg', ['-loglevel', 'error', '-y', '-f', 'image2pipe', '-framerate', String(FPS), '-i', '-',
     '-c:v', 'libx264', '-crf', '23', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-an', file], { stdio: ['pipe', 'inherit', 'inherit'] });

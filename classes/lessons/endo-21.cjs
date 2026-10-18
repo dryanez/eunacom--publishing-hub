@@ -145,7 +145,8 @@ module.exports = {
         ] },
         { title: 'Incluso con hemianopsia', tag: 'Ojo en el examen', kind: 'alert', items: [
           { t: 'Micro o macro: igual cabergolina', d: 'Libera el quiasma en semanas',
-            say: 'Y esto vale para cualquier tamaño, incluso un macroadenoma con hemianopsia bitemporal. La tentación es mandarlo a pabellón para descomprimir, pero la cabergolina encoge el tumor y libera el quiasma en semanas.' },
+            say: 'Y esto vale para cualquier tamaño, incluso un macroadenoma con hemianopsia bitemporal, como este prolactinoma gigante en la resonancia. La tentación es mandarlo a pabellón para descomprimir, pero la cabergolina encoge el tumor y libera el quiasma en semanas.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-21/01_prolactinoma-gigante-rm__amir-endocrino_p24.jpg', label: 'Prolactinoma gigante', at: 'como este prolactinoma', credit: 'Manual AMIR Endocrinología, p. 24' } },
         ] },
         { title: 'Cirugía transesfenoidal', tag: 'Excepción', kind: 'criteria', items: [
           { t: 'Resistencia o intolerancia', d: 'A dosis máximas de cabergolina',
@@ -171,20 +172,6 @@ module.exports = {
           say: 'La dopamina baja por el tallo y frena a la prolactina. Si un antipsicótico o la metoclopramida bloquean el receptor, si una masa comprime el tallo, o si el hipotiroidismo sube la TRH, la prolactina sube. Y el prolactinoma es el único adenoma que se trata con pastillas, con cabergolina.' },
       ],
     },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Prolactinoma',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-21/01_prolactinoma-gigante-rm__amir-endocrino_p24.jpg', label: 'Prolactinoma gigante', credit: 'Manual AMIR Endocrinología, p. 24' },
-      ],
-      steps: [
-        { note: 'Se trata con cabergolina',
-          say: 'Este es un prolactinoma gigante en la resonancia. Aunque sea grande, el tratamiento es con cabergolina, no con cirugía.' },
-      ],
-    },
-
     {
       type: 'pathway',
       intro: 'Juntemos todo en el árbol que vas a recorrer en el examen: descartar, medir, y recién ahí tratar.',
@@ -322,6 +309,44 @@ module.exports = {
         options: 'Las alternativas: resonancia de silla turca, campo visual computarizado, TAC de cerebro con contraste, testosterona con FSH y LH, o ecografía testicular. Piénsalo.',
         answer: 'Es la A, resonancia de silla turca. Es el varón que describimos en la clínica: hipogonadismo que se ignoró por años y que llega con un macroadenoma que ya toca el quiasma. La ecografía testicular es la trampa, porque el problema no está en el testículo. Y el campo visual confirma el defecto, pero no muestra la causa.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.4.008 · FSH, estradiol y prolactina",
+      "stem": "Mujer de 34 años con amenorrea secundaria de 7 meses, bochornos, sudoración nocturna y sequedad vaginal. No usa fármacos ni anticonceptivos. Beta-hCG negativa, TSH 2,1 mUI/L, prolactina 14 ng/mL (VN menor de 25). FSH 68 mUI/mL, estradiol 12 pg/mL. Se repite la FSH a las 4 semanas: 72 mUI/mL.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amenorrea hipotalámica funcional"
+        },
+        {
+          "letter": "B",
+          "text": "Prolactinoma"
+        },
+        {
+          "letter": "C",
+          "text": "Síndrome de Sheehan"
+        },
+        {
+          "letter": "D",
+          "text": "Síndrome de ovario poliquístico"
+        },
+        {
+          "letter": "E",
+          "text": "Insuficiencia ovárica prematura"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En la amenorrea, tras descartar embarazo, se piden TSH, prolactina y FSH con estradiol. FSH elevada (sobre 25–40 mUI/mL en 2 muestras separadas por 4 semanas) con estradiol bajo en una mujer menor de 40 años indica insuficiencia ovárica prematura: hipogonadismo hipergonadotropo. La amenorrea hipotalámica y el Sheehan tienen FSH baja o normal.",
+      "say": {
+        "stem": "Mujer de treinta y cuatro años con siete meses de amenorrea, bochornos y sequedad vaginal. Embarazo descartado, TSH y prolactina normales. Su FSH es sesenta y ocho, y setenta y dos al repetirla, con estradiol bajo.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: amenorrea hipotalámica, prolactinoma, síndrome de Sheehan, ovario poliquístico o insuficiencia ovárica prematura. Piénsalo.",
+        "answer": "Es la E. FSH alta con estradiol bajo antes de los cuarenta es un ovario que dejó de responder: insuficiencia ovárica prematura. La amenorrea hipotalámica tienta porque también tiene estradiol bajo, pero ahí la falla es central y la FSH está baja o normal, no en setenta."
+      }
     },
 
     {

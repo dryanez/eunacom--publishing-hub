@@ -245,14 +245,14 @@ Un paciente de 46 años presenta múltiples síntomas, como cefalea, molestias a
 Explicación del banco: Diagnóstico: **Trastorno facticio** (opción **C**). La sospecha de manipulación de los exámenes, hace que sea facticio.. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).
 
 ### [5] EUNACOM Diciembre 2025 · Pregunta 156 · confianza 0.92
-Una paciente de 42 años consulta por dolor ocular derecho, asociado a ojo rojo que inició hace 5 horas y se ha vuelto muy intenso. Al examen Fsico, presenta epífora y ojo rojo derecho de 8po central. Como antecedente, 8ene as8gma8smo y es usuaria de lentes de contacto. ¿Cuál de los siguientes exámenes es más adecuado para conﬁrmar la sospecha diagnós8ca?
+Una paciente de 42 años consulta por dolor ocular derecho, asociado a ojo rojo que inició hace 5 horas y se ha vuelto muy intenso. Al examen físico, presenta epífora y ojo rojo derecho de tipo central. Como antecedente, tiene astigmatismo y es usuaria de lentes de contacto. ¿Cuál de los siguientes exámenes es más adecuado para confirmar la sospecha diagnóstica?
 - A) Fondo de ojo
 - B) Tonometría ocular
 - C) TAC de órbitas
-- D) Tinción con ﬂuoresceína
+- D) Tinción con fluoresceína
 - E) Gonioscopía
 **Correcta: D**
-Explicación del banco: La sospecha clínica es una queraGGs o una erosión corneal. El uso de lentes de contacto podría ser la causa. Con la Gnción con ﬂuoresceína se pueden ver mejor las úlceras y erosiones corneales. La genioscopía es úGl en la evaluación del glaucoma agudo.
+Explicación del banco: La sospecha clínica es una queraGGs o una erosión corneal. El uso de lentes de contacto podría ser la causa. Con la Gnción con fluoresceína se pueden ver mejor las úlceras y erosiones corneales. La genioscopía es útil en la evaluación del glaucoma agudo.
 
 ### [6] EUNACOM Agosto 2021 · Pregunta 178 · confianza 0.92
 Una paciente de 42 años, hipertensa, presenta cefalea intensa, que inició súbitamente hace 6 horas, mientras realizaba ejercicio y se ha acompañado de vómitos alimentarios. Al examen físico está vigil y orientada, adolorida, con FC: 70x’, PA: 140/90 mmHg, en el examen neurológico tiene signos meníngeos presentes, sin alteraciones motoras ni sensitivas. Se solicita TAC de cerebro sin contraste, que muestra hiperdensidad del espacio intercomisural frontal y del espacio subaracnoideo basal. ¿Cuál es el examen de elección para proseguir el estudio?
@@ -305,14 +305,14 @@ Una mujer de 65 años, nulípara, con IMC de 33, sin síntomas, se realiza un PA
 Explicación del banco: Tiene factores de riesgo de cáncer de endometrio (obesidad y nuliparidad) y además células endometriales. Se debe descartar una hiperplasia endometrial o cáncer de endometrio, partiendo por la Eco.
 
 ### [11] EUNACOM Diciembre 2025 · Pregunta 180 · confianza 0.9
-Una paciente de 23 años no llega a su domicilio luego de un conﬂicto familiar grave, siendo encontrada dos días después en una ciudad diferente, en buenas condiciones generales. Ella no recuerda nada de lo sucedido en ese intervalo de 8empo y no parece estar preocupada por ello. Su examen neurológico es normal. ¿Cuál es el diagnós8co más probable?
+Una paciente de 23 años no llega a su domicilio luego de un conflicto familiar grave, siendo encontrada dos días después en una ciudad diferente, en buenas condiciones generales. Ella no recuerda nada de lo sucedido en ese intervalo de tiempo y no parece estar preocupada por ello. Su examen neurológico es normal. ¿Cuál es el diagnóstico más probable?
 - A) Amnesia global transitoria
 - B) Episodio psicó2co breve
 - C) Trastorno conversivo
 - D) Trastorno de estrés agudo
 - E) Trastorno disocia2vo
 **Correcta: E**
-Explicación del banco: Tiene una fuga disociativa clásica, que es un Gpo de amnesia disociativa, en la que, además, se produce una “fuga” desde su lugar habitual. No se debe confundir con la amnesia global transitoria, que es un Gpo de accidente isquémico transitorio cerebral (se debe buscar fuente embólica), que se caracteriza por desorientación y amnesia (repiGendo las mismas preguntas), autolimitado, de pocas horas de evolución.
+Explicación del banco: Tiene una fuga disociativa clásica, que es un Gpo de amnesia disociativa, en la que, además, se produce una “fuga” desde su lugar habitual. No se debe confundir con la amnesia global transitoria, que es un Gpo de accidente isquémico transitorio cerebral (se debe buscar fuente embólica), que se caracteriza por desorientación y amnesia (repitiendo las mismas preguntas), autolimitado, de pocas horas de evolución.
 
 ### [12] EUNACOM Julio 2025 · Pregunta 51 · confianza 0.9
 Según la Comisión sobre Determinantes Sociales de la Salud de la OMS, ¿cuál de los siguientes factores tiene mayor impacto en la salud de la población?
@@ -325,14 +325,14 @@ Según la Comisión sobre Determinantes Sociales de la Salud de la OMS, ¿cuál 
 Explicación del banco: La educación es el determinante social de la salud más potente y consistente: mayor educación → mejor comprensión de la salud, acceso a empleo estable, mayor ingreso y mejores hábitos. Actúa como determinante de otros determinantes. Reduce mortalidad de todas las causas.
 
 ### [13] EUNACOM Diciembre 2025 · Pregunta 170 · confianza 0.9
-Un paciente de 70 años, con antecedentes de hipertensión arterial, diabetes mellitus 8po 2 y revascularización coronaria hace 3 años, consulta porque hace pocas horas notó que, de forma súbita, dejó de ver su pierna derecha con el ojo derecho. Al examen Fsico presenta inspección ocular normal, agudeza visual 20/30 en el ojo derecho y 20/20 en el ojo izquierdo, pupilas isocóricas con defecto pupilar aferente rela8vo, y en la campimetría por confrontación se observa hemianopsia inferior del ojo derecho. El diagnós8co más probable es:
+Un paciente de 70 años, con antecedentes de hipertensión arterial, diabetes mellitus tipo 2 y revascularización coronaria hace 3 años, consulta porque hace pocas horas notó que, de forma súbita, dejó de ver su pierna derecha con el ojo derecho. Al examen físico presenta inspección ocular normal, agudeza visual 20/30 en el ojo derecho y 20/20 en el ojo izquierdo, pupilas isocóricas con defecto pupilar aferente relativo, y en la campimetría por confrontación se observa hemianopsia inferior del ojo derecho. El diagnóstico más probable es:
 - A) Neuri2s óp2ca isquémica
 - B) Infarto del lóbulo occipital
 - C) Desprendimiento de re2na
 - D) Glaucoma
 - E) Degeneración macular relacionada con la edad
 **Correcta: A**
-Explicación del banco: Tanto por el inicio súbito, con factores de riesgo cardiovascular, como por el defecto pupilar aferente relativo (DPAR), es una neuropaVa óptica isquémica, con afectación de la zona superior del nervio óptico derecho (inerva la zona superior de la reGna y corresponde a la zona inferior del campo visual). El DPAR se ve también en la neuriGs óptica desmielinizante y en el desprendimiento de reGna extenso o en la oclusión de la arteria central de la reGna.
+Explicación del banco: Tanto por el inicio súbito, con factores de riesgo cardiovascular, como por el defecto pupilar aferente relativo (DPAR), es una neuropatía óptica isquémica, con afectación de la zona superior del nervio óptico derecho (inerva la zona superior de la retina y corresponde a la zona inferior del campo visual). El DPAR se ve también en la neuritis óptica desmielinizante y en el desprendimiento de retina extenso o en la oclusión de la arteria central de la retina.
 
 ### [14] EUNACOM Julio 2025 · Pregunta 30 · confianza 0.9
 Hombre de 48 años con glicemia de ayuno de 115 mg/dL en dos ocasiones. IMC 28. Sin otros factores de riesgo. ¿Cuál es la intervención más importante para reducir la progresión a diabetes?

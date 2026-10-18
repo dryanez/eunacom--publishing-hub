@@ -119,7 +119,11 @@ module.exports = {
       cards: [
         { title: 'Cómo se ve', tag: 'Metástasis blásticas', kind: 'key', items: [
           { t: 'Osteoblásticas, hipercaptantes', d: 'Columna, pelvis y costillas',
-            say: 'Las metástasis del cáncer de próstata son característicamente osteoblásticas, en columna lumbar, pelvis y costillas, y se ven como focos calientes en el cintigrama óseo.' },
+            say: 'Las metástasis del cáncer de próstata son característicamente osteoblásticas, en columna lumbar, pelvis y costillas, y se ven como focos calientes en el cintigrama óseo. Mira los puntos oscuros: son focos que captan más el trazador, hueso con mucha actividad. Aquí son pocos, sobre todo en columna y pelvis. Y aquí, un paciente con enfermedad extensa: columna, costillas, hombros y pelvis llenos de focos, el patrón del cáncer metastásico que se trata con deprivación androgénica.',
+            photos: [
+              { src: 'biblioteca/19_urologia/uro-09/01_cintigrama-oseo-bajo-volumen__bailey-love_p1414.jpg', label: 'Pocos focos (bajo volumen)', at: 'Mira los puntos oscuros', credit: 'Bailey & Love 27.ª ed., Fig. 75.27a' },
+              { src: 'biblioteca/19_urologia/uro-09/02_cintigrama-oseo-alto-volumen__bailey-love_p1414.jpg', label: 'Muchos focos (alto volumen)', at: 'Y aquí', credit: 'Bailey & Love 27.ª ed., Fig. 75.27b' },
+            ] },
           { t: 'APE y fosfatasa alcalina muy altos', d: 'Dolor óseo nocturno',
             say: 'Suelen acompañarse de dolor óseo que empeora de noche, APE muy elevado y fosfatasas alcalinas altas.' },
         ] },
@@ -136,18 +140,15 @@ module.exports = {
 
     {
       type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Cintigrama óseo en metástasis',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Prostatectomía radical',
       images: [
-        { src: 'biblioteca/19_urologia/uro-09/01_cintigrama-oseo-bajo-volumen__bailey-love_p1414.jpg', label: 'Cintigrama óseo: pocos focos hipercaptantes en columna y pelvis', credit: 'Bailey & Love 27.ª ed., Fig. 75.27a' },
-        { src: 'biblioteca/19_urologia/uro-09/02_cintigrama-oseo-alto-volumen__bailey-love_p1414.jpg', label: 'Cintigrama óseo: múltiples focos en esqueleto axial y costillas', credit: 'Bailey & Love 27.ª ed., Fig. 75.27b' },
+        { src: 'animaciones/uro-09/A1_prostatectomia_riesgo.mp4', label: 'Cirugía y riesgo', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Enfermedad metastásica de bajo volumen',
-          say: 'Mira los puntos oscuros: son focos que captan más el trazador, es decir, hueso con mucha actividad. Aquí son pocos, sobre todo en columna y pelvis.' },
-        { note: 'Enfermedad de alto volumen',
-          say: 'Y aquí, un paciente con enfermedad extensa: columna, costillas, hombros y pelvis llenos de focos. Es el patrón del cáncer de próstata metastásico, que se trata con deprivación androgénica.' },
+        { note: 'Cirugía y riesgo',
+          say: 'Mira la prostatectomía radical: se extirpa la próstata con las vesículas seminales y se une la vejiga a la uretra sobre una sonda. En el riesgo bajo basta la vigilancia activa, y en el intermedio o alto se elige entre cirugía y radioterapia con deprivación androgénica. Las secuelas de la cirugía son la disfunción eréctil y la incontinencia.' },
       ],
     },
 

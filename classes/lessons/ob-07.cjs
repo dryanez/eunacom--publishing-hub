@@ -157,6 +157,65 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Macrosomía fetal',
+      title: 'El feto grande: cómo lo sospechas',
+      cards: [
+        { title: 'Definición y causas', tag: 'No toda macrosomía es diabética', kind: 'key', items: [
+          { t: 'Más de 4.000 g, o sobre percentil 90', d: 'Algunas guías usan 4.500 g',
+            say: 'Cerremos el círculo con el feto grande. Macrosomía es un peso al nacer mayor de cuatro mil gramos, o sobre el percentil noventa para la edad gestacional. Algunas guías usan cuatro mil quinientos.' },
+          { t: 'Diabetes, obesidad, 41 semanas o más', d: 'También multiparidad y sexo masculino',
+            say: 'Se asocia a diabetes, pregestacional o gestacional, a obesidad y ganancia excesiva de peso, a multiparidad, a macrosomía previa, a un embarazo de cuarenta y una semanas o más, y al sexo masculino. Pero no toda macrosomía es diabética, así que descartas diabetes con la glicemia y la prueba de tolerancia.' },
+        ] },
+        { title: 'Cómo la sospechas', tag: 'El peso exacto solo se sabe al nacer', kind: 'criteria', items: [
+          { t: 'Altura uterina mayor que la esperada', d: 'Feto grande a las maniobras de Leopold',
+            say: 'La sospecha es clínica: la altura uterina es mayor que la esperada para la edad gestacional, el feto se palpa grande en las maniobras de Leopold, y a veces hay polihidramnios.' },
+          { t: 'Ecografía: error de 10 a 15%', d: 'Tiende a sobrestimar el peso',
+            say: 'La ecografía estima el peso, y una circunferencia abdominal sobre el percentil noventa y cinco sugiere macrosomía. Mira este corte del abdomen fetal: la capa de grasa subcutánea se ve engrosada. Pero tiene un error de diez a quince por ciento y tiende a sobrestimar, así que el peso exacto solo lo conoces al nacer.',
+            photo: { src: 'biblioteca/14_obstetricia/ob-07/01_macrosomia-eco-circunferencia-abdominal__obgynus_p131.jpg', label: 'Grasa subcutánea aumentada', at: 'Mira este corte del abdomen fetal', credit: 'Ultrasound in Obstetrics and Gynecology: A Practical Approach, Fig. 6.10' } },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Macrosomía fetal',
+      title: 'Qué haces con el feto grande',
+      cards: [
+        { title: 'Manejo inicial', tag: 'Sin inducir de rutina', kind: 'key', items: [
+          { t: 'Controlar la diabetes y derivar a ARO', d: 'Ecografía para vigilar el crecimiento',
+            say: 'Primero, estudias y controlas la diabetes, vigilas el crecimiento con ecografía y derivas a la unidad de alto riesgo obstétrico.' },
+          { t: 'No se induce por sospecha sola', d: 'En diabetes, interrupción a las 38-39 semanas',
+            say: 'Y ojo: no se indica inducción de rutina solo por sospechar macrosomía, si no hay otra indicación. En una paciente con diabetes, sí programas la interrupción entre las treinta y ocho y treinta y nueve semanas.' },
+        ] },
+        { title: 'Cesárea electiva', tag: 'Para evitar la distocia de hombros', kind: 'alert', items: [
+          { t: 'Peso estimado de 4.500 g o más', d: 'En diabetes',
+            say: 'Se plantea cesárea electiva cuando el peso fetal estimado es de cuatro mil quinientos gramos o más en una paciente con diabetes.' },
+          { t: 'Peso estimado de 5.000 g o más', d: 'Sin diabetes',
+            say: 'Y si no hay diabetes, el corte sube a cinco mil gramos. Todo esto por el riesgo de distocia de hombros.' },
+        ] },
+        { title: 'Riesgos del feto grande', tag: 'Lo que explica la conducta', kind: 'criteria', items: [
+          { t: 'Distocia, parálisis braquial, clavícula', d: 'Más desgarros, hemorragia y cesárea',
+            say: 'Porque el feto grande trae distocia de hombros, parálisis braquial, fractura de clavícula, desgarros perineales, hemorragia postparto y más cesáreas.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La placenta y la resistencia a la insulina',
+      images: [
+        { src: 'animaciones/ob-07/A1_resistencia_embarazo.mp4', label: 'Resistencia a la insulina', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Sube desde la semana 20 y cae con el parto',
+          say: 'Mira esta curva. La resistencia a la insulina empieza a subir desde la semana veinte, empujada por el lactógeno placentario, la progesterona, el cortisol y la prolactina. Por eso la prueba de tolerancia se hace entre las veinticuatro y veintiocho semanas, cuando ya es evidente. Y en cuanto sale la placenta, la resistencia cae de golpe.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos los dos momentos y los dos exámenes en un solo árbol.',
     },
@@ -175,6 +234,8 @@ module.exports = {
           say: 'Con más del veinte por ciento de sus controles fuera de meta tras la dieta, inicias insulina. El error es dejarla otro mes solo con dieta, dejando pasar hiperglicemias que dañan al feto.' },
         { cells: ['Diabetes gestacional típica', 'No aumenta el riesgo de malformación', 'Pedir ecocardiografía fetal como en la pregestacional'],
           say: 'Y la diabetes gestacional típica no aumenta el riesgo de malformación, porque aparece después de la organogénesis. Ese estudio dirigido es para la pregestacional, no para esta.' },
+        { cells: ['Sospecha de macrosomía, sin otra indicación', 'Control y ecografía; no inducir de rutina', 'Inducir solo por el peso estimado'],
+          say: 'Y la macrosomía: si solo sospechas un feto grande y no hay otra indicación, no induces de rutina. El error es inducir por el peso estimado, que tiene un error de diez a quince por ciento.' },
       ],
     },
 
@@ -271,6 +332,44 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 40",
+      "stem": "Una paciente de 32 años ingresa en trabajo de parto con 38 semanas de gestación. Al examen obstétrico presenta buena dinámica uterina, feto en presentación cefálica apoyada y dilatación cervical de 3 cm. El peso fetal estimado es de 4.200 g. Tiene antecedente de un parto vaginal previo a las 39 semanas, con retención de hombros y un peso al nacer de 3.900 g.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Conducir el trabajo de parto"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar goteo oxitócico"
+        },
+        {
+          "letter": "C",
+          "text": "Administrar tocolíticos"
+        },
+        {
+          "letter": "D",
+          "text": "Realizar cesárea en este momento"
+        },
+        {
+          "letter": "E",
+          "text": "Determinar la vía de parto una vez completada la dilatación"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Feto macrosómico estimado en 4.200 g, 300 g más que el hijo previo que tuvo retención de hombros: el riesgo de una nueva distocia de hombros es alto y lo razonable es la cesárea ahora. Conducir o esperar la dilatación completa expone a esa distocia.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Mujer de treinta y dos años, con treinta y ocho semanas, ingresa en trabajo de parto con tres centímetros de dilatación. El peso fetal estimado es de cuatro mil doscientos gramos, y su parto anterior tuvo una retención de hombros con un bebé de tres mil novecientos gramos.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: conducir el trabajo de parto, iniciar oxitocina, dar tocolíticos, hacer cesárea ahora, o decidir la vía al completar la dilatación. Piénsalo.",
+        "answer": "Es la D. Este feto es macrosómico y pesa más que el bebé que ya tuvo retención de hombros, así que el riesgo de repetir la distocia es alto y la cesárea es lo razonable. Esperar a la dilatación completa tienta, pero en ese punto la distocia de hombros no se puede prever ni evitar."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -284,6 +383,8 @@ module.exports = {
         { title: 'Tratamiento', tag: 'Dieta primero', kind: 'pharma', items: [
           { t: 'Insulina si falla la dieta', d: 'Más del 20% fuera de meta',
             say: 'Tratas primero con dieta, y pasas a insulina si más del veinte por ciento de sus controles queda fuera de meta.' },
+          { t: 'Feto grande: no se induce de rutina', d: 'Cesárea con 4.500 g (diabetes) o 5.000 g',
+            say: 'Y ante un feto grande no induces de rutina: la cesárea electiva se plantea con cuatro mil quinientos gramos estimados si hay diabetes, y cinco mil si no la hay.' },
         ] },
         { title: 'La diferencia clave', tag: 'Con la pregestacional', kind: 'alert', items: [
           { t: 'Malformaciones: solo en pregestacional', d: 'Por daño en la organogénesis',

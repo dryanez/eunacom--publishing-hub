@@ -152,6 +152,52 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Antes de empezar',
+      title: '¿Test de esfuerzo antes de partir?',
+      cards: [
+        { title: 'No hace falta', tag: 'Lo habitual', kind: 'normal', items: [
+          { t: 'Asintomático, ejercicio leve', d: 'Caminata a paso ligero, progresivo',
+            say: 'Una duda frecuente: ¿todo diabético necesita un test de esfuerzo antes de hacer ejercicio? No. Si está asintomático y va a partir con intensidad leve o moderada, como caminar a paso ligero y subir de a poco, puede comenzar sin estudio previo.' },
+        ] },
+        { title: 'Sí se pide', tag: 'Ejercicio vigoroso', kind: 'alert', items: [
+          { t: 'Sedentario que quiere intensidad', d: 'Y además uno de estos factores',
+            say: 'El test de esfuerzo, el electrocardiograma en cinta con protocolo de Bruce, se pide cuando un sedentario planea ejercicio vigoroso y hay algo más: más de cuarenta años con diabetes de más de diez, varios factores de riesgo cardiovascular, síntomas de esfuerzo, electrocardiograma anormal, enfermedad arterial periférica, enfermedad renal crónica o neuropatía autonómica.' },
+          { t: 'Isquemia silente', d: 'El diabético puede no sentir la angina',
+            say: 'La razón es que la isquemia miocárdica silente es frecuente en la diabetes. El paciente puede estar isquémico y no sentir dolor.' },
+        ] },
+        { title: 'Cómo se lee', tag: 'Informe', kind: 'criteria', items: [
+          { t: 'Positivo: no iniciar, derivar', d: 'Estudio de isquemia en cardiología',
+            say: 'Si el test sale positivo, con descenso del segmento ST de un milímetro o más, angina, caída de la presión con el esfuerzo o arritmia ventricular compleja, no se inicia el programa y se deriva a cardiología.' },
+          { t: 'Negativo con 85 % de la frecuencia máxima', d: 'Sin restricción cardiovascular',
+            say: 'Si es negativo y alcanzó el ochenta y cinco por ciento de la frecuencia cardíaca máxima, que es doscientos veinte menos la edad, se prescribe ejercicio sin restricción.' },
+          { t: 'Submáximo: no descarta isquemia', d: 'Betabloqueo o neuropatía autonómica',
+            say: 'Si no alcanzó ese ochenta y cinco por ciento, por betabloqueo, mala condición física o neuropatía autonómica, no descarta isquemia y se complementa con una imagen de estrés. Ojo: en neuropatía autonómica la frecuencia cardíaca no sirve para dosificar, ahí se usa la escala de esfuerzo percibido.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Riesgo cardiovascular',
+      title: 'Lo que mata al diabético es el corazón',
+      cards: [
+        { title: 'El riesgo', tag: 'Principal causa de muerte', kind: 'alert', items: [
+          { t: 'Riesgo de infarto y ACV ×2 a ×4', d: 'Puede ser sin dolor típico',
+            say: 'Cerremos con una mirada más amplia. La enfermedad cardiovascular aterosclerótica es la principal causa de muerte del paciente con diabetes: multiplica por dos a cuatro el riesgo de infarto, accidente cerebrovascular y enfermedad arterial periférica. Y por la neuropatía autonómica el infarto puede venir sin dolor típico.' },
+          { t: 'Manejo integral y simultáneo', d: 'No solo la glicemia',
+            say: 'Por eso el manejo no es solo glicémico. Es hemoglobina glicosilada individualizada, presión bajo ciento treinta sobre ochenta, estatina según el riesgo, dejar el tabaco, bajar de peso y ejercicio. Cada uno de esos puntos lo vemos en su clase.' },
+        ] },
+        { title: 'En Chile', tag: 'Atención primaria', kind: 'key', items: [
+          { t: 'Programa de Salud Cardiovascular', d: 'HTA, DM2 y dislipidemia',
+            say: 'En Chile todo esto se organiza en la atención primaria con el Programa de Salud Cardiovascular, que ingresa a las personas con hipertensión, diabetes tipo dos y dislipidemia, estratifica su riesgo en bajo, moderado o alto, y define cada cuánto los controla el equipo.' },
+          { t: 'Pesquisa: EMPA', d: 'Examen de Medicina Preventiva del Adulto',
+            say: 'La pesquisa parte en el Examen de Medicina Preventiva del Adulto, el EMPA. Y la prevención poblacional se apoya en el etiquetado de alimentos, la ley del tabaco y el programa Elige Vida Sana.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -188,6 +234,8 @@ module.exports = {
           say: 'Neuropatía, con el monofilamento alterado: natación o bicicleta estática. El trote y la caminata descalzo son las alternativas incorrectas.' },
         { cells: ['Retinopatía proliferativa activa', 'Evitar pesas, saltos y Valsalva', 'Indicar entrenamiento de fuerza máxima'],
           say: 'Y retinopatía proliferativa activa: nada de pesas máximas, saltos ni maniobras de Valsalva, por el riesgo de hemorragia vítrea.' },
+        { cells: ['Sedentario, 45 años, DM > 10 años, quiere ejercicio vigoroso', 'Test de esfuerzo antes de partir', 'Pedírselo a todo diabético que camina'],
+          say: 'Y una trampa más. Diabético sedentario con más de diez años de evolución que quiere hacer ejercicio vigoroso: test de esfuerzo antes. En cambio, al asintomático que parte caminando, no se le pide.' },
       ],
     },
 
@@ -258,6 +306,416 @@ module.exports = {
         options: 'Las opciones: iniciar insulina, iniciar dieta y ejercicio, iniciar metformina, pedir una prueba de tolerancia a la glucosa, o metformina con glibenclamida. Piénsalo.',
         answer: 'Es la B. La glicemia es normal: no hay diabetes, ni glicemia de ayuno alterada. Lo que hay es obesidad con una insulina alta, es decir, resistencia a la insulina. Y justamente el ejercicio es lo que abre la puerta de la glucosa sin necesitar insulina. La metformina es la trampa: no hay ninguna alteración de la glicemia que tratar con fármacos.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.3.003 · Diabetes y riesgo cardiovascular",
+      "stem": "Hombre de 52 años con DM2 de 2 años de evolución, en tratamiento con metformina, HbA1c 6,9 %. No fuma. Presión arterial 128/80 mmHg. Sin antecedentes de infarto ni ACV. Perfil lipídico: colesterol total 196 mg/dL, LDL 112 mg/dL, HDL 44 mg/dL, triglicéridos 180 mg/dL. Creatinina normal.",
+      "question": "Según el Programa de Salud Cardiovascular del MINSAL, ¿cuál es la conducta más adecuada respecto a su riesgo cardiovascular?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No requiere estatina, porque su LDL es menor de 130 mg/dL"
+        },
+        {
+          "letter": "B",
+          "text": "Calcular el riesgo con tablas y repetir perfil lipídico en un año"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar gemfibrozilo por la hipertrigliceridemia"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar aspirina 100 mg/día como prevención primaria"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar atorvastatina, porque la diabetes lo clasifica como alto riesgo cardiovascular"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En el Programa de Salud Cardiovascular, la persona con diabetes mayor de 40 años se clasifica directamente como alto riesgo cardiovascular, sin necesidad de tablas, y se le indica estatina independiente del LDL. La aspirina no se indica de rutina en prevención primaria.",
+      "say": {
+        "stem": "Hombre de cincuenta y dos años, diabético tipo dos, bien controlado, no fumador, con presión normal y sin eventos cardiovasculares previos. Su colesterol LDL es ciento doce.",
+        "question": "Según el programa cardiovascular del ministerio, ¿cuál es la conducta más adecuada respecto a su riesgo cardiovascular?",
+        "options": "Las opciones: no requiere estatina, calcular el riesgo con tablas, gemfibrozilo, aspirina en prevención primaria o iniciar atorvastatina por ser de alto riesgo. Piénsalo.",
+        "answer": "Es la E. La diabetes en mayores de cuarenta años ya es alto riesgo cardiovascular, y eso basta para indicar estatina sin importar el LDL. El distractor es fijarse en el LDL bajo ciento treinta, pero en el diabético la decisión la toma el riesgo, no el número del colesterol."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2017 · Pregunta 149",
+      "stem": "Un paciente de 60 años, con antecedente de diabetes mellitus 2 insulinodependiente, en tratamiento con insulina NPH 30 U en la mañana y 20 U en la noche. Presenta un cuadro de malestar, sudoración y palpitaciones intensas a las 3 de la madrugada, constatándose un hemoglucotest de 50 mg/dL. Su examen físico no muestra alteraciones.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Disminuir la insulina NPH matinal"
+        },
+        {
+          "letter": "B",
+          "text": "Suspender la insulina NPH matinal"
+        },
+        {
+          "letter": "C",
+          "text": "Disminuir la insulina NPH nocturna"
+        },
+        {
+          "letter": "D",
+          "text": "Suspender la insulina NPH nocturna"
+        },
+        {
+          "letter": "E",
+          "text": "Disminuir ambas dosis de insulina NPH"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Hipoglicemia de madrugada en un paciente con NPH: la dosis nocturna es la que tiene su peak a las 3 de la mañana. Se disminuye la NPH nocturna; suspenderla dejaría hiperglicemia de ayuno.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecisiete. Paciente de sesenta años, diabético tipo dos, con insulina NPH treinta unidades en la mañana y veinte en la noche. A las tres de la madrugada presenta malestar, sudoración y palpitaciones, con un hemoglucotest de cincuenta.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: disminuir la NPH matinal, suspender la matinal, disminuir la NPH nocturna, suspender la nocturna, o disminuir ambas. Piénsalo.",
+        "answer": "Es la C. La hipoglicemia de las tres de la mañana la produce la NPH de la noche, que tiene su peak a esa hora, así que se reduce esa dosis. Suspenderla tienta, pero dejaría al paciente con hiperglicemia de ayuno; basta con ajustarla."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.032 · Estrategias de control de enfermedades crónicas prioritarias (cáncer, cardiovasculares)",
+      "stem": "El Ministerio de Salud busca reducir la mortalidad cardiovascular del país y evalúa distintas medidas. Siguiendo a Geoffrey Rose, distingue entre estrategias dirigidas a individuos de alto riesgo y estrategias poblacionales.",
+      "question": "¿Cuál de las siguientes corresponde a una estrategia poblacional?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Realizar angioplastía precoz en el infarto agudo"
+        },
+        {
+          "letter": "B",
+          "text": "Indicar estatinas a pacientes con riesgo cardiovascular alto"
+        },
+        {
+          "letter": "C",
+          "text": "Ingresar a los hipertensos al Programa de Salud Cardiovascular"
+        },
+        {
+          "letter": "D",
+          "text": "Reducir el contenido de sodio del pan mediante un acuerdo con la industria panificadora"
+        },
+        {
+          "letter": "E",
+          "text": "Prescribir antiagregantes a pacientes con enfermedad coronaria"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La estrategia poblacional desplaza la distribución del factor de riesgo en toda la población, como reducir la sal del pan, la ley de etiquetado de alimentos o los impuestos al tabaco. Logra gran impacto porque la mayoría de los eventos ocurre en personas de riesgo moderado. Las demás opciones son estrategias de alto riesgo o tratamiento individual.",
+      "say": {
+        "stem": "El ministerio quiere bajar la mortalidad cardiovascular y distingue entre estrategias de alto riesgo y poblacionales.",
+        "question": "¿Cuál es una estrategia poblacional?",
+        "options": "Las opciones: angioplastía en el infarto, estatinas en alto riesgo, programa cardiovascular para hipertensos, bajar la sal del pan o antiagregantes. Piénsalo.",
+        "answer": "Es la D. Reducir la sal del pan baja la presión de toda la población a la vez. El programa cardiovascular tienta porque es masivo, pero atiende a personas ya diagnosticadas, es una estrategia de alto riesgo."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.01.3.001 · Alimentación saludable",
+      "stem": "Un hombre de 50 años, normotenso, con IMC de 26 kg/m², consulta para recibir consejería alimentaria de prevención cardiovascular. Refiere que agrega sal a las comidas y consume pan, embutidos y snacks a diario.",
+      "question": "¿Cuál es el consumo máximo diario de sal recomendado para un adulto?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 g/día"
+        },
+        {
+          "letter": "B",
+          "text": "15 g/día"
+        },
+        {
+          "letter": "C",
+          "text": "10 g/día"
+        },
+        {
+          "letter": "D",
+          "text": "Menos de 5 g/día (una cucharadita)"
+        },
+        {
+          "letter": "E",
+          "text": "No hay límite si la presión arterial es normal"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La OMS y las guías chilenas recomiendan menos de 5 g de sal al día (unos 2 g de sodio). Reducir la sal baja la presión arterial, también en normotensos, y disminuye el riesgo cardiovascular. La mayor parte proviene de alimentos procesados como pan y embutidos, no solo del salero.",
+      "say": {
+        "stem": "Un hombre de cincuenta años, normotenso y con sobrepeso leve, pide consejería alimentaria. Agrega sal a las comidas y come pan, embutidos y snacks todos los días.",
+        "question": "¿Cuál es el consumo máximo diario de sal recomendado para un adulto?",
+        "options": "Las opciones: un gramo, quince gramos, diez gramos, menos de cinco gramos o sin límite si la presión es normal. Piénsalo.",
+        "answer": "Es la D. Se recomienda menos de cinco gramos de sal al día, una cucharadita. La opción sin límite tienta en un normotenso, pero reducir la sal baja el riesgo cardiovascular igual."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.01.3.004 · Obesidad y sobrepeso",
+      "stem": "Una mujer de 40 años pesa 78 kg y mide 1,60 m. Su circunferencia de cintura es de 94 cm. No tiene comorbilidades conocidas.",
+      "question": "¿Cómo se clasifica su estado nutricional según el IMC?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Normal"
+        },
+        {
+          "letter": "B",
+          "text": "Obesidad grado I"
+        },
+        {
+          "letter": "C",
+          "text": "Sobrepeso"
+        },
+        {
+          "letter": "D",
+          "text": "Obesidad grado II"
+        },
+        {
+          "letter": "E",
+          "text": "Obesidad mórbida"
+        }
+      ],
+      "correct": "B",
+      "explanation": "IMC = 78 / (1,60)² ≈ 30,5 kg/m². En adultos: 18,5-24,9 normal, 25-29,9 sobrepeso, 30-34,9 obesidad I, 35-39,9 obesidad II y ≥40 obesidad mórbida. Además, una cintura sobre 88 cm en mujeres indica obesidad abdominal y mayor riesgo cardiometabólico.",
+      "say": {
+        "stem": "Una mujer de cuarenta años pesa setenta y ocho kilos, mide un metro sesenta y tiene noventa y cuatro centímetros de cintura.",
+        "question": "¿Cómo se clasifica su estado nutricional según el índice de masa corporal?",
+        "options": "Las opciones: normal, obesidad grado uno, sobrepeso, obesidad grado dos o obesidad mórbida. Piénsalo.",
+        "answer": "Es la B. Su índice es cerca de treinta coma cinco, obesidad grado uno. Sobrepeso tienta, pero ese rango termina justo antes de treinta."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.01.3.006 · Sedentarismo vs actividad física",
+      "stem": "Un hombre de 45 años, oficinista, sedentario y sin enfermedades, pregunta cuánta actividad física necesita para reducir su riesgo cardiovascular.",
+      "question": "¿Cuál es la recomendación mínima de actividad física para adultos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "30 minutos de caminata una vez por semana"
+        },
+        {
+          "letter": "B",
+          "text": "Solo actividad física si tiene sobrepeso"
+        },
+        {
+          "letter": "C",
+          "text": "20 minutos diarios de elongación"
+        },
+        {
+          "letter": "D",
+          "text": "60 minutos de ejercicio intenso todos los días, sin excepción"
+        },
+        {
+          "letter": "E",
+          "text": "150 minutos semanales de actividad aeróbica moderada, más fortalecimiento muscular 2 días por semana"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La OMS recomienda al menos 150 a 300 minutos semanales de actividad aeróbica moderada (o 75 a 150 vigorosa), más ejercicios de fuerza 2 o más días por semana, y reducir el tiempo sentado. El sedentarismo es un factor de riesgo cardiovascular independiente, incluso con peso normal.",
+      "say": {
+        "stem": "Un oficinista sedentario de cuarenta y cinco años, sano, pregunta cuánta actividad física necesita para bajar su riesgo cardiovascular.",
+        "question": "¿Cuál es la recomendación mínima para adultos?",
+        "options": "Las opciones: media hora una vez por semana, ejercicio solo si tiene sobrepeso, solo elongación diaria, una hora intensa todos los días o ciento cincuenta minutos semanales moderados más fuerza dos días. Piénsalo.",
+        "answer": "Es la E. Se recomiendan al menos ciento cincuenta minutos a la semana de actividad moderada más fortalecimiento muscular. La hora intensa diaria tienta por ser más, pero no es el mínimo y es poco realista para iniciar."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 20",
+      "stem": "Un adolescente de 16 años, con IMC de 33 kg/m², se realiza una glicemia de ayuno que resulta 96 mg/dL y una insulinemia basal de 23 µUI/mL.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar insulina"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar dieta y ejercicio"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar metformina"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar un test de tolerancia a la glucosa"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar metformina más glibenclamida"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Tiene obesidad con resistencia a la insulina (HOMA = 96 × 23 / 405 ≈ 5,5), pero glicemia de ayuno normal, sin diabetes ni prediabetes. El manejo es el cambio de estilo de vida: dieta y actividad física, idealmente con apoyo familiar. La metformina no se indica solo por insulinemia alta en un adolescente.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Un adolescente de dieciséis años con índice de masa corporal de treinta y tres tiene glicemia de ayuno de noventa y seis e insulinemia basal de veintitrés.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: insulina, dieta y ejercicio, metformina, test de tolerancia a la glucosa, o metformina más glibenclamida. Piénsalo.",
+        "answer": "Es la B. Tiene obesidad con resistencia a la insulina, pero sin diabetes ni prediabetes, así que el pilar es dieta y ejercicio. La metformina tienta, pero no se indica solo por tener la insulina alta."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.1.013 · Obesidad mórbida",
+      "stem": "Una mujer de 38 años, con IMC de 42 kg/m², hipertensa y con DM2, ha intentado bajar de peso por más de 2 años con dieta, ejercicio y apoyo farmacológico, sin éxito. No tiene trastorno psiquiátrico descompensado ni consumo de alcohol o drogas.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Insistir solo con dieta hipocalórica estricta"
+        },
+        {
+          "letter": "B",
+          "text": "Indicar liposucción"
+        },
+        {
+          "letter": "C",
+          "text": "Indicar ayuno intermitente prolongado"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar levotiroxina para aumentar el gasto energético"
+        },
+        {
+          "letter": "E",
+          "text": "Derivar a evaluación multidisciplinaria para cirugía bariátrica"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Con IMC ≥40 kg/m², o ≥35 con comorbilidades, y fracaso del tratamiento médico, la cirugía bariátrica (manga gástrica o bypass) es la terapia más eficaz para bajar de peso en forma sostenida y mejora la diabetes y la HTA. Requiere evaluación multidisciplinaria previa. La liposucción no trata la obesidad ni sus comorbilidades.",
+      "say": {
+        "stem": "Una mujer de treinta y ocho años con índice de masa corporal de cuarenta y dos, hipertensa y diabética, no ha logrado bajar de peso en más de dos años de tratamiento médico.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: insistir solo con dieta, liposucción, ayuno intermitente prolongado, levotiroxina o derivar a evaluación para cirugía bariátrica. Piénsalo.",
+        "answer": "Es la E. Con índice sobre cuarenta, comorbilidades y fracaso médico, la cirugía bariátrica es lo más eficaz. La liposucción tienta como atajo, pero no trata la obesidad ni la diabetes."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.3.001 · Alimentación saludable",
+      "stem": "Una mujer de 35 años, sana, solicita orientación sobre alimentación saludable para su familia.",
+      "question": "Según las Guías Alimentarias para la Población Chilena, ¿cuál de las siguientes recomendaciones es correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Preferir jugos de fruta azucarados a la fruta entera"
+        },
+        {
+          "letter": "B",
+          "text": "Consumir pescado solo una vez al mes"
+        },
+        {
+          "letter": "C",
+          "text": "Consumir legumbres al menos 2 veces por semana"
+        },
+        {
+          "letter": "D",
+          "text": "Consumir 1 porción de frutas y verduras al día"
+        },
+        {
+          "letter": "E",
+          "text": "Evitar completamente los lácteos en adultos"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Las Guías Alimentarias chilenas recomiendan legumbres y pescado al menos 2 veces por semana, 5 porciones diarias de frutas y verduras de distintos colores, 3 porciones de lácteos bajos en grasa y azúcar, 6 a 8 vasos de agua y evitar alimentos con sellos 'ALTO EN'. La fruta entera se prefiere a los jugos.",
+      "say": {
+        "stem": "Una mujer sana de treinta y cinco años pide orientación sobre alimentación saludable para su familia.",
+        "question": "Según las guías alimentarias chilenas, ¿cuál recomendación es correcta?",
+        "options": "Las opciones: preferir jugos azucarados a la fruta, pescado una vez al mes, legumbres al menos dos veces por semana, una porción de frutas y verduras al día o evitar los lácteos. Piénsalo.",
+        "answer": "Es la C. Las guías recomiendan legumbres y pescado al menos dos veces por semana, y cinco porciones de frutas y verduras al día. Los jugos tientan por ser de fruta, pero aportan azúcar sin la fibra de la fruta entera."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.3.012 · Regímenes dietéticos para obesidad",
+      "stem": "Una mujer de 45 años, con IMC de 32 kg/m², desea bajar de peso. Su gasto energético estimado es de 2.000 kcal/día.",
+      "question": "¿Cuál es la prescripción dietética más adecuada para iniciar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dieta de 600 kcal/día sin supervisión"
+        },
+        {
+          "letter": "B",
+          "text": "Ayuno total por 2 semanas"
+        },
+        {
+          "letter": "C",
+          "text": "Dieta libre de carbohidratos en forma indefinida"
+        },
+        {
+          "letter": "D",
+          "text": "Dieta con déficit de 500 a 750 kcal/día respecto de su gasto, balanceada y sostenible"
+        },
+        {
+          "letter": "E",
+          "text": "Mantener la ingesta y agregar diuréticos"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Un déficit de 500 a 750 kcal/día (unas 1.200-1.500 kcal en mujeres) produce una baja de 0,5 a 1 kg por semana. La meta inicial es bajar 5 a 10% del peso en 6 meses, lo que ya mejora presión, glicemia y lípidos. Lo clave es la adherencia; las dietas de muy bajo aporte requieren supervisión estricta.",
+      "say": {
+        "stem": "Una mujer de cuarenta y cinco años con índice de masa corporal de treinta y dos desea bajar de peso. Gasta unas dos mil kilocalorías al día.",
+        "question": "¿Cuál es la prescripción dietética más adecuada para iniciar?",
+        "options": "Las opciones: seiscientas kilocalorías sin supervisión, ayuno total, cero carbohidratos indefinido, un déficit de quinientas a setecientas cincuenta kilocalorías balanceado o diuréticos. Piénsalo.",
+        "answer": "Es la D. Un déficit de quinientas a setecientas cincuenta kilocalorías diarias baja medio a un kilo por semana de forma sostenible. La dieta de seiscientas tienta por rápida, pero sin supervisión es riesgosa y poco adherente."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.3.014 · Síndrome metabólico",
+      "stem": "Un hombre de 50 años tiene diagnóstico de síndrome metabólico: cintura de 104 cm, triglicéridos 180 mg/dL, HDL 38 mg/dL y glicemia de ayuno 110 mg/dL. Su presión arterial es 128/82 mmHg.",
+      "question": "¿Cuál es la intervención de primera línea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Metformina, fenofibrato y losartán desde el inicio"
+        },
+        {
+          "letter": "B",
+          "text": "Cambios de estilo de vida, con meta de bajar 5 a 10% del peso, dieta saludable y actividad física"
+        },
+        {
+          "letter": "C",
+          "text": "Cirugía bariátrica"
+        },
+        {
+          "letter": "D",
+          "text": "Insulina NPH nocturna"
+        },
+        {
+          "letter": "E",
+          "text": "Control anual sin intervención"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El tratamiento de primera línea del síndrome metabólico es el cambio de estilo de vida: bajar 5 a 10% del peso, dieta saludable, al menos 150 minutos semanales de actividad física y no fumar. Esto mejora todos sus componentes a la vez. Los fármacos se agregan según cada componente que lo requiera, no por el diagnóstico.",
+      "say": {
+        "stem": "Un hombre de cincuenta años tiene síndrome metabólico, con obesidad abdominal, triglicéridos altos, HDL bajo y glicemia de ayuno alterada, con presión normal.",
+        "question": "¿Cuál es la intervención de primera línea?",
+        "options": "Las opciones: metformina, fenofibrato y losartán de entrada, cambios de estilo de vida con baja de peso, cirugía bariátrica, insulina nocturna o solo control anual. Piénsalo.",
+        "answer": "Es la B. El estilo de vida, con bajar cinco a diez por ciento del peso y actividad física, mejora todos los componentes a la vez. Partir con tres fármacos tienta, pero se indican según cada componente, no por el diagnóstico."
+      }
     },
 
     {

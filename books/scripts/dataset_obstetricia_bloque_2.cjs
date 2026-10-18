@@ -96,6 +96,14 @@ const rawClasses = [
           "• <strong>Manejo:</strong> Ingreso a Unidad de Alto Riesgo Obstétrico (ARO) para estudio materno-fetal completo (hemograma, plaquetas, función hepática, creatinina, ácido úrico, proteinuria de 24h, ecografía y Doppler fetal).",
           "• <strong>Momento de la Interrupción Programada:</strong> La conducta consensuada es mantener vigilancia expectante hasta cumplir las <strong>37 semanas de gestación</strong>, momento en el cual se procede a la <strong>interrupción del embarazo</strong> (mediante inducción del parto vaginal si las condiciones cervicales son favorables), balanceando los riesgos maternos frente a la madurez fetal completa."
         ]
+      },
+{
+        "subhead": "4. Función Renal en el Embarazo: Adaptaciones Fisiológicas e Interpretación de Exámenes",
+        "paragraphs": [
+          "• <b>Hiperfiltración Fisiológica:</b> Desde el 1.er trimestre el flujo plasmático renal aumenta 50-80% y la <b>VFG cerca de 50%</b>, y se mantiene hasta el término. Por eso la <b>creatinina plasmática baja a 0,4-0,8 mg/dL</b> y la urea a 8-10 mg/dL: <b>una creatinina de 1,0 mg/dL ya es anormal</b> en una embarazada, y valores de 0,8-0,9 mg/dL en una paciente de riesgo pueden señalar daño renal.",
+          "• <b>Otras Adaptaciones:</b> Dilatación fisiológica de cálices, pelvis y uréteres, más marcada a la derecha (efecto de la progesterona y compresión por el útero), que explica la mayor frecuencia de pielonefritis y no debe confundirse con uropatía obstructiva; <b>glucosuria benigna</b> por menor reabsorción tubular; proteinuria fisiológica hasta 300 mg/24 horas; <b>osmolalidad plasmática 10 mOsm/kg más baja y natremia 4-5 mEq/L menor</b>; alcalosis respiratoria crónica compensada (PCO2 cercana a 30 mmHg y bicarbonato de 18-22 mEq/L).",
+          "• <b>Aplicación Clínica:</b> En la preeclampsia, <b>creatinina mayor de 1,1 mg/dL o su duplicación</b> es criterio de severidad, y la proteinuria significativa es ≥ 300 mg/24 h o índice proteinuria/creatininuria ≥ 0,3. Una creatinina que no desciende en el embarazo obliga a descartar nefropatía previa, preeclampsia o infección urinaria alta (urocultivo y ecografía renal). Se evitan los IECA, los ARA-II y los nefrotóxicos; la enfermedad renal crónica con creatinina sobre 1,4 mg/dL aumenta el riesgo de preeclampsia y de pérdida de función renal, por lo que se maneja en ARO con nefrología."
+        ]
       }
     ],
     "table": {
@@ -627,6 +635,14 @@ const rawClasses = [
           "  - Se indica si tras <strong>1 a 2 semanas de dieta estricta, más del 20% de los controles glucémicos están por encima de las metas</strong> (o si la ecografía detecta macrosomía precoz con circunferencia abdominal fetal > P75).",
           "  - Fármaco de elección: <strong>Insulina Humana NPH</strong> (acción intermedia) combinada con <strong>Insulina Cristalina (Regular) o análogos ultrarrápidos (Lispro/Aspart)</strong> antes de las comidas.",
           "  - <em>Fármacos Orales:</em> La Metformina y las sulfonilureas <strong>NO son el tratamiento estándar de primera línea en la guía clínica del MINSAL</strong> (la insulina no cruza la placenta, mientras que la metformina sí cruza la barrera placentaria)."
+        ]
+      },
+{
+        "subhead": "4. Macrosomía Fetal: Sospecha, Diagnóstico y Manejo Obstétrico",
+        "paragraphs": [
+          "• <b>Definición y Factores:</b> Peso al nacer <b>mayor de 4.000 g</b> (algunas guías usan 4.500 g) o sobre el percentil 90 para la edad gestacional. Se asocia a <b>diabetes pregestacional o gestacional</b>, obesidad y ganancia excesiva de peso, multiparidad, macrosomía previa, embarazo de 41 semanas o más y sexo masculino. No toda macrosomía es de causa diabética: se descarta diabetes con glicemia y PTGO 75 g.",
+          "• <b>Diagnóstico (sospecha):</b> Clínico: altura uterina mayor que la esperada para la edad gestacional y feto grande a la palpación (maniobras de Leopold), a veces con polihidramnios. La <b>ecografía</b> estima el peso fetal (circunferencia abdominal sobre el percentil 95 sugiere macrosomía), pero tiene un <b>error de ± 10-15%</b> y tiende a sobrestimar, por lo que el peso exacto solo se conoce al nacer.",
+          "• <b>Manejo Inicial:</b> Estudiar y controlar la diabetes, vigilar crecimiento con ecografía y derivar a ARO. <b>No se indica inducción de rutina</b> por sospecha de macrosomía sin otra indicación; en diabetes se programa la interrupción a las 38-39 semanas. Se plantea <b>cesárea electiva con peso fetal estimado ≥ 4.500 g en diabetes o ≥ 5.000 g sin diabetes</b>, por el riesgo de distocia de hombros. Riesgos: distocia de hombros, parálisis braquial, fractura de clavícula, desgarros perineales, hemorragia postparto y cesárea."
         ]
       }
     ],
@@ -1226,6 +1242,261 @@ const rawClasses = [
         "correcta": "B",
         "explicacion": "A) Incorrecta. La pielonefritis aguda en el embarazo NUNCA se trata en forma ambulatoria por el alto riesgo de bacteriemia, shock séptico, SDRA y parto prematuro.\nB) Correcta. La combinación de fiebre alta, calofríos y puñopercusión lumbar positiva en el embarazo es diagnóstica de Pielonefritis Aguda. Toda pielonefritis en el embarazo requiere HOSPITALIZACIÓN OBLIGATORIA para hidratación parenteral vigorosa, monitorización de la dinámica uterina y bienestar fetal, y antibioticoterapia endovenosa empírica inmediata con Cefalosporinas de 1.ª o 3.ª generación (Cefazolina 1 g c/8h EV o Ceftriaxona 1 a 2 g c/24h EV), manteniéndola hasta 48 horas afebril y completando 14 días por vía oral.\nC) Incorrecta. Las fluoroquinolonas están contraindicadas en el embarazo por toxicidad sobre el cartílago de crecimiento fetal.\nD) Incorrecta. El parto no está indicado; la infección se trata médicamente y las contracciones suelen ceder al enfriar el cuadro infeccioso.\nE) Incorrecta. Negligente ante una infección sistémica.",
         "recTag": "Banco Oficial AEE · Perfil V3 3.01.1.019"
+      }
+    ]
+  },
+  {
+    "id": "ob-21",
+    "classId": "ob-21",
+    "tier": 2,
+    "blockNum": 2,
+    "blockName": "Patologías Médicas del Embarazo",
+    "topicLabel": "19.21",
+    "title": "Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica: Riesgo Materno, Corionicidad y Manejo Inicial",
+    "perfilCode": "1.01.3.002, 3.01.1.007, 3.01.2.007",
+    "dx": "Sospecha / Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "No GES. Cubierto por Guía Perinatal MINSAL. Cardiopatía congénita y valvulopatía reumática tienen GES fuera del embarazo.",
+    "reconstrucciones": "EUNACOM Julio 2024 (Q#59) · EUNACOM Julio 2019 (Q#54) · EUNACOM Agosto 2021 (Q#143) · EUNACOM Diciembre 2017 (Q#177, Q#178) · EUNACOM Diciembre 2022 (Q#179) · EUNACOM Enero 2023 (Q#56)",
+    "frecuencia": "Alta rentabilidad · doxilamina más piridoxina como primera línea de las náuseas y vómitos, interrupción del gemelar según corionicidad y contraindicación del embarazo en hipertensión pulmonar severa",
+    "svg": null,
+    "algoTitle": "Algoritmo de Manejo de las Náuseas y Vómitos del Embarazo",
+    "diagramRows": [
+      {
+        "t": "Náuseas y vómitos en el 1.er trimestre",
+        "s": "Descartar otras causas: ITU, gastroenteritis, mola y gemelar (ecografía), hipertiroidismo",
+        "type": "acc"
+      },
+      {
+        "k": "split",
+        "q": "Tolera líquidos, sin cetonuria ni pérdida de más de 5% del peso",
+        "al": "Evaluar gravedad",
+        "ll": "Sí: náuseas y vómitos leves-moderados",
+        "left": {
+          "t": "MANEJO AMBULATORIO",
+          "s": "Comidas pequeñas y frecuentes · Doxilamina más piridoxina oral · Metoclopramida u ondansetrón si no responde",
+          "type": "warn"
+        },
+        "rl": "No: hiperemesis gravídica",
+        "right": {
+          "t": "HIPEREMESIS GRAVÍDICA",
+          "s": "Hospitalizar · Suero con dextrosa y potasio · TIAMINA antes de la glucosa · Antiemético EV",
+          "type": "crit"
+        }
+      },
+      {
+        "t": "Seguimiento",
+        "s": "Electrolitos, cetonuria y peso · Nutrición enteral o parenteral si es refractaria",
+        "type": "acc"
+      }
+    ],
+    "contexto": "Tres situaciones del embarazo que el médico general debe reconocer a tiempo. La cardiopatía materna se tolera según la lesión: el aumento de 40-50% del gasto cardíaco y la autotransfusión del postparto descompensan a las pacientes con estenosis valvular o hipertensión pulmonar, y algunas lesiones contraindican el embarazo. El embarazo múltiple se maneja según la corionicidad, que se define en la ecografía del primer trimestre y decide la vigilancia, el momento y la vía del parto. La hiperemesis gravídica es la forma grave de los vómitos del embarazo: obliga a hospitalizar, hidratar, corregir electrolitos y dar tiamina para evitar la encefalopatía de Wernicke.",
+    "contentSections": [
+      {
+        "subhead": "1. Cardiopatía y Embarazo: Cambios Hemodinámicos y Riesgo Materno",
+        "paragraphs": [
+          "• <b>Cambios Hemodinámicos Normales:</b> El volumen plasmático aumenta 40-50% y el <b>gasto cardíaco 30-50%</b> (máximo entre las 28 y 32 semanas), con alza de la frecuencia cardíaca de 10-20 lpm y descenso de la resistencia vascular sistémica. Durante el trabajo de parto el gasto cardíaco sube otro 50% con las contracciones y, tras el alumbramiento, la <b>autotransfusión por la retracción uterina</b> lo eleva de nuevo: las primeras 24-72 horas del puerperio son el período más peligroso.",
+          "• <b>Cuándo Sospechar Cardiopatía:</b> Soplo diastólico, soplo sistólico de grado 3/6 o más, cianosis, arritmia sostenida, cardiomegalia, disnea progresiva o de reposo, ortopnea, hemoptisis y síncope de esfuerzo. El soplo sistólico suave, la disnea leve y el edema de piernas son normales en el embarazo. Se confirma con ECG y <b>ecocardiograma</b>; el estudio y el manejo son en equipo con cardiología, obstetricia y anestesia.",
+          "• <b>Lesiones de Riesgo Muy Alto (clase IV de la OMS modificada), que contraindican el embarazo:</b> <b>hipertensión pulmonar severa o síndrome de Eisenmenger</b> (mortalidad materna de 30-50%), estenosis mitral o aórtica severa sintomática, miocardiopatía con fracción de eyección menor de 30% o antecedente de miocardiopatía periparto con disfunción residual, síndrome de Marfan con raíz aórtica dilatada (más de 45 mm) y coartación aórtica severa. Se recomienda anticoncepción segura y, si la paciente ya está embarazada, interrupción terapéutica en las causales de la Ley 21.030.",
+          "• <b>Lesiones Bien Toleradas:</b> Comunicación interauricular o interventricular pequeñas o corregidas, ductus pequeño, prolapso mitral sin insuficiencia significativa, insuficiencias valvulares leves o moderadas y arritmias benignas, porque el descenso de la resistencia sistémica alivia las insuficiencias. La <b>estenosis mitral</b> es la valvulopatía que más descompensa (la taquicardia reduce el llenado y causa edema pulmonar): se usan betabloqueadores y diuréticos.",
+          "• <b>Manejo:</b> Control preconcepcional, reposo relativo, tratar anemia, infección e hipertensión, y vigilar la insuficiencia cardíaca con diuréticos (furosemida), betabloqueadores (metoprolol; evitar atenolol) y digoxina. <b>Contraindicados: IECA, ARA-II, amiodarona y estatinas.</b> Las válvulas mecánicas exigen anticoagulación estricta (warfarina tiene riesgo de embriopatía entre las 6 y 12 semanas, por lo que se reemplaza por heparina de bajo peso molecular según la dosis, bajo control de cardiología) y se suspende antes del parto.",
+          "• <b>Parto y Puerperio:</b> El <b>parto vaginal es de elección</b>, con analgesia epidural precoz y expulsivo acortado con fórceps; la cesárea se reserva para indicaciones obstétricas y para Marfan con aorta dilatada, estenosis aórtica severa, insuficiencia cardíaca y anticoagulación oral. Se evita la metilergonovina y los bolos de oxitocina (vasodilatación e hipotensión) y se monitoriza a la paciente al menos 48-72 horas después del parto. La profilaxis antibiótica de endocarditis solo se indica en válvula protésica, endocarditis previa o cardiopatía congénita cianótica."
+        ]
+      },
+      {
+        "subhead": "2. Embarazo Múltiple: Corionicidad, Complicaciones y Momento de Interrupción",
+        "paragraphs": [
+          "• <b>Sospecha y Diagnóstico:</b> Altura uterina mayor que la edad gestacional, hiperemesis, aumento exagerado de peso, dos polos fetales palpables y dos focos de latidos. El diagnóstico se confirma con <b>ecografía</b>. Dos tercios de los gemelos son dicigotos (siempre bicoriales y biamnióticos); los monocigotos pueden ser bicoriales, <b>monocoriales biamnióticos</b> o monocoriales monoamnióticos, según el día de la división. Son factores de riesgo la edad materna, las técnicas de reproducción asistida y los antecedentes familiares.",
+          "• <b>Corionicidad: lo Más Importante.</b> Se determina entre las <b>11 y 14 semanas</b>: el <b>signo lambda</b> (extensión triangular de tejido placentario entre las membranas) indica gestación <b>bicorial</b>; el <b>signo T</b> (membrana delgada que sale en ángulo recto) indica gestación <b>monocorial</b>. Los monocoriales comparten placenta y vasos, por lo que su riesgo perinatal es mayor.",
+          "• <b>Complicaciones Fetales:</b> Parto prematuro (la mitad nace antes de las 37 semanas), restricción de crecimiento y discordancia de peso mayor de 20-25%, malformaciones (el doble). En los monocoriales: <b>síndrome de transfusión feto-fetal</b> (donante con oligohidramnios y receptor con polihidramnios; tratamiento con láser fetoscópico), anemia-policitemia, enredo de cordones en los monoamnióticos y, ante la muerte de un gemelo, riesgo de daño o muerte del sobreviviente. En el bicorial con un gemelo muerto en el 2.° o 3.er trimestre se vigila con pruebas de bienestar fetal y de coagulación, por el riesgo de coagulopatía.",
+          "• <b>Complicaciones Maternas:</b> Hiperemesis, anemia, preeclampsia (3 veces más frecuente), diabetes gestacional, colestasia intrahepática, hemorragia postparto por atonía y mayor tasa de cesárea. Se suplementa hierro y ácido fólico, y se hace aspirina 150 mg nocturna desde el 1.er trimestre si hay riesgo de preeclampsia.",
+          "• <b>Control y Derivación:</b> Todo embarazo múltiple se deriva a ARO. La vigilancia ecográfica es más frecuente: cada 2 semanas desde las 16 en los monocoriales y cada 4 semanas desde las 20 en los bicoriales, con medición de crecimiento, líquido amniótico y Doppler. Se administran corticoides antenatales si hay riesgo de parto antes de las 34 semanas.",
+          "• <b>Momento y Vía del Parto:</b> Bicorial biamniótico sin complicaciones: interrupción alrededor de las <b>38 semanas</b>. <b>Monocorial biamniótico: 36 semanas.</b> <b>Monoamniótico: 32-34 semanas, por cesárea.</b> Si el primer gemelo está en presentación cefálica y es biamniótico, se puede intentar parto vaginal; si el primer gemelo no es cefálico, si es monoamniótico o si hay tres o más fetos, se hace cesárea. En el puerperio se previene la atonía uterina con oxitocina."
+        ]
+      },
+      {
+        "subhead": "3. Hiperemesis Gravídica: Diagnóstico, Hospitalización y Tratamiento",
+        "paragraphs": [
+          "• <b>Definición y Cuadro:</b> Las náuseas y vómitos afectan a 50-80% de las embarazadas; comienzan hacia las 4-6 semanas, alcanzan su máximo a las 9-12 y ceden a las 16-20. La <b>hiperemesis gravídica</b> es la forma grave: vómitos persistentes e incoercibles, <b>pérdida de más de 5% del peso previo</b>, deshidratación, <b>cetonuria</b> y alteraciones hidroelectrolíticas (hipokalemia, alcalosis metabólica hipoclorémica). Se asocia a niveles altos de β-hCG, por lo que es más frecuente en el <b>embarazo múltiple y la mola hidatidiforme</b>.",
+          "• <b>Estudio:</b> Es un diagnóstico de exclusión. Se piden electrolitos plasmáticos y creatinina, glicemia, cetonuria y orina completa con urocultivo, pruebas hepáticas (transaminasas con alza leve), amilasa o lipasa y <b>TSH con T4 libre</b> (hipertiroidismo gestacional transitorio) y una ecografía para confirmar un embarazo intrauterino, descartar mola y detectar gemelos. Se descartan otras causas: gastroenteritis, hepatitis, pancreatitis, colecistitis, apendicitis e infección urinaria. En la segunda mitad del embarazo, el vómito con hipertensión sugiere HELLP, no hiperemesis.",
+          "• <b>Tratamiento Ambulatorio de Náuseas y Vómitos Leves a Moderados:</b> Comidas pequeñas y frecuentes, evitar olores desencadenantes y reposo. <b>Primera línea farmacológica: doxilamina más piridoxina (vitamina B6) por vía oral</b>. Si no basta, antieméticos como metoclopramida, dimenhidrinato u ondansetrón. El jengibre puede ayudar.",
+          "• <b>Hospitalización (hiperemesis):</b> Indicada si no tolera líquidos, hay deshidratación, cetonuria, baja de peso mayor de 5% o alteraciones electrolíticas. Se hidrata con suero fisiológico o Ringer, con dextrosa y <b>potasio</b> según los exámenes, antieméticos endovenosos y <b>tiamina 100 mg EV antes o junto con la glucosa</b>, para prevenir la <b>encefalopatía de Wernicke</b> (oftalmoplejía, ataxia y confusión). Se corrige el sodio lentamente (riesgo de mielinólisis pontina). En casos refractarios se usa nutrición enteral o parenteral.",
+          "• <b>Complicaciones:</b> Encefalopatía de Wernicke, desgarro esofágico de Mallory-Weiss, desnutrición y déficit de vitaminas, trombosis venosa por deshidratación y, si es prolongada, menor peso fetal. No se interrumpe el embarazo por hiperemesis salvo casos excepcionales refractarios. No requiere seguimiento especializado una vez resuelta."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Cardiopatía, Embarazo Múltiple e Hiperemesis: Conducta Inicial",
+      "headers": [
+        "Situación",
+        "Dato Clínico Clave",
+        "Conducta del Médico General",
+        "Cuándo Derivar"
+      ],
+      "rows": [
+        [
+          "Cardiopatía de riesgo muy alto",
+          "Hipertensión pulmonar severa o Eisenmenger, estenosis severa sintomática, Marfan con aorta dilatada",
+          "Desaconsejar o interrumpir el embarazo (Ley 21.030) y dar anticoncepción segura",
+          "Siempre a centro terciario"
+        ],
+        [
+          "Cardiopatía bien tolerada",
+          "CIA/CIV pequeña, prolapso mitral, insuficiencia leve",
+          "Control habitual con ecocardiograma, tratar anemia e HTA",
+          "Si aparece disnea o arritmia"
+        ],
+        [
+          "Gemelar bicorial",
+          "Signo lambda, 2 placentas",
+          "Control ARO, interrupción a las 38 semanas si no hay complicaciones",
+          "Todo embarazo múltiple"
+        ],
+        [
+          "Gemelar monocorial",
+          "Signo T, riesgo de transfusión feto-fetal",
+          "Eco cada 2 semanas desde las 16; interrupción a las 36 semanas (biamniótico)",
+          "Siempre; monoamniótico 32-34 semanas por cesárea"
+        ],
+        [
+          "Náuseas y vómitos leves",
+          "Tolera líquidos, sin cetonuria",
+          "Dieta fraccionada y doxilamina más piridoxina",
+          "Si no responde"
+        ],
+        [
+          "Hiperemesis gravídica",
+          "Baja de peso mayor de 5%, cetonuria, hipokalemia",
+          "Hospitalizar, SF o Ringer con dextrosa y potasio, tiamina y antiemético EV",
+          "Si es refractaria o hay Wernicke"
+        ]
+      ]
+    },
+    "vignette": "Primigesta de 24 años, con 10 semanas de embarazo, consulta en el servicio de urgencia por vómitos de un mes de evolución, que aumentan, y que desde hace dos días le impiden tolerar líquidos. Ha bajado 6 kg desde antes del embarazo. Al examen: mucosas secas, FC 112 lpm, PA 100/60 mmHg. La orina muestra cetonas ++ y el potasio plasmático es 3,0 mEq/L. La ecografía muestra dos sacos gestacionales con membrana fina y con signo lambda.",
+    "explicacion": "Es una hiperemesis gravídica (vómitos incoercibles con pérdida de más de 5% del peso, deshidratación, cetonuria e hipokalemia) en un embarazo gemelar bicorial biamniótico, que explica los niveles altos de β-hCG. Corresponde hospitalizar, hidratar con suero fisiológico o Ringer con dextrosa y potasio, administrar tiamina antes o junto con la glucosa para prevenir la encefalopatía de Wernicke, y dar un antiemético endovenoso. Los antieméticos orales y la dieta fraccionada bastan solo cuando la paciente tolera líquidos y no tiene cetonuria. El gemelar bicorial se deriva a ARO para la vigilancia y la interrupción a las 38 semanas si no hay complicaciones.",
+    "keyPoints": [
+      "Hipertensión pulmonar severa o Eisenmenger (mortalidad materna de 30-50%) contraindica el embarazo; las lesiones reparadas y las insuficiencias leves se toleran bien.",
+      "El gasto cardíaco sube 30-50% en el embarazo y el período más riesgoso es el postparto inmediato (24-72 horas); el parto vaginal es de elección en la cardiópata.",
+      "IECA, ARA-II, amiodarona y estatinas están contraindicados; la estenosis mitral es la valvulopatía que más descompensa.",
+      "En el gemelar se determina la corionicidad a las 11-14 semanas: signo lambda es bicorial, signo T es monocorial.",
+      "Interrupción del gemelar: bicorial a las 38 semanas, monocorial biamniótico a las 36 y monoamniótico a las 32-34 semanas por cesárea.",
+      "La vía del parto gemelar depende de la presentación del primer gemelo; si no es cefálico o es monoamniótico, cesárea.",
+      "Primera línea de las náuseas y vómitos del embarazo: doxilamina más piridoxina oral.",
+      "Hiperemesis: hospitalizar, hidratar con potasio y dar tiamina antes o con la glucosa para prevenir la encefalopatía de Wernicke."
+    ],
+    "questions": [
+      {
+        "stem": "Una paciente de 39 años, cursando un embarazo gemelar bicorial biamniótico de 36 semanas, acude a control. Se encuentra en buenas condiciones generales, sin síntomas, con signos vitales normales. La ecografía muestra al primer gemelo con un peso fetal estimado de 2.850 g y al segundo con 2.750 g, con líquido amniótico normal. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Realizar control ecográfico en una semana"
+          },
+          {
+            "id": "B",
+            "text": "Programar cesárea electiva a las 38 semanas"
+          },
+          {
+            "id": "C",
+            "text": "Inducir el parto de inmediato"
+          },
+          {
+            "id": "D",
+            "text": "Solicitar ecografía Doppler de arterias uterinas"
+          },
+          {
+            "id": "E",
+            "text": "Realizar cesárea de urgencia"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Un gemelar bicorial biamniótico sin complicaciones, con crecimiento concordante y bienestar conservado, se vigila y se interrumpe alrededor de las 38 semanas, por lo que a las 36 semanas se mantiene el control ecográfico. La vía del parto depende de la presentación del primer gemelo (si es cefálico y biamniótico, puede ser vaginal), no del embarazo gemelar en sí. Los monocoriales biamnióticos se interrumpen a las 36 semanas y los monoamnióticos a las 32-34 semanas.",
+        "recTag": "EUNACOM Julio 2024 · Pregunta 59"
+      },
+      {
+        "stem": "Una paciente de 24 años, primigesta de 12 semanas, consulta porque presenta náuseas y vómitos que afectan significativamente su calidad de vida. ¿Cuál de los siguientes tratamientos es más adecuado para el manejo inicial de esta paciente?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Corticoides orales"
+          },
+          {
+            "id": "B",
+            "text": "Omeprazol oral"
+          },
+          {
+            "id": "C",
+            "text": "Doxilamina más piridoxina oral"
+          },
+          {
+            "id": "D",
+            "text": "Metoclopramida oral"
+          },
+          {
+            "id": "E",
+            "text": "Ondansetrón oral"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "La primera línea de las náuseas y vómitos del embarazo que afectan la calidad de vida es la combinación de doxilamina (antihistamínico) más piridoxina (vitamina B6) por vía oral, junto con medidas dietéticas. La metoclopramida y el ondansetrón son segunda línea si no hay respuesta; los corticoides se reservan para casos refractarios y el omeprazol no trata el cuadro.",
+        "recTag": "EUNACOM Diciembre 2022 · Pregunta 179"
+      },
+      {
+        "stem": "Una paciente de 18 años, cursando un embarazo de 11 semanas, presenta vómitos frecuentes desde el inicio del embarazo, que han ido en aumento. Hace 24 horas ha empeorado, al punto que no ha podido ingerir líquidos adecuadamente, por lo que acude al servicio de urgencia. El diagnóstico más probable es:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Gastroparesia gestacional"
+          },
+          {
+            "id": "B",
+            "text": "Cólico biliar"
+          },
+          {
+            "id": "C",
+            "text": "Hepatitis"
+          },
+          {
+            "id": "D",
+            "text": "Hiperemesis gravídica"
+          },
+          {
+            "id": "E",
+            "text": "Síndrome de HELLP"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "Los vómitos persistentes del primer trimestre que impiden tolerar líquidos y llevan a deshidratación definen la hiperemesis gravídica, relacionada con los niveles altos de β-hCG. Se maneja con hospitalización, hidratación endovenosa, reposición de electrolitos, tiamina y antieméticos. El HELLP aparece en la segunda mitad del embarazo, con hipertensión, hemólisis y trombocitopenia.",
+        "recTag": "EUNACOM Diciembre 2017 · Pregunta 177"
+      },
+      {
+        "stem": "Una mujer de 28 años, con una cardiopatía conocida, consulta en control preconcepcional porque desea embarazarse. ¿En cuál de las siguientes condiciones se debe desaconsejar el embarazo por su alta mortalidad materna?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Comunicación interauricular reparada"
+          },
+          {
+            "id": "B",
+            "text": "Prolapso de válvula mitral sin insuficiencia significativa"
+          },
+          {
+            "id": "C",
+            "text": "Hipertensión arterial pulmonar severa (síndrome de Eisenmenger)"
+          },
+          {
+            "id": "D",
+            "text": "Extrasistolía ventricular benigna"
+          },
+          {
+            "id": "E",
+            "text": "Insuficiencia mitral leve"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "La hipertensión arterial pulmonar severa, incluido el síndrome de Eisenmenger, tiene una mortalidad materna de 30-50% (clase IV de la OMS modificada) y contraindica el embarazo. Las lesiones reparadas, el prolapso mitral sin insuficiencia y las insuficiencias valvulares leves se toleran bien, porque el embarazo disminuye la resistencia vascular sistémica.",
+        "recTag": "Pregunta de práctica · Perfil V3 1.01.3.002"
       }
     ]
   }

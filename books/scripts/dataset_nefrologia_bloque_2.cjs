@@ -35,15 +35,16 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -277,6 +278,7 @@ const bloque2 = [
         paragraphs: [
           'El <strong>Síndrome Pierde Sal Cerebral (SPSC / CSW)</strong> ocurre en pacientes neuroquirúrgicos o con hemorragia subaracnoidea debido a la liberación masiva de péptido natriurético cerebral (BNP). A diferencia del SIADH, el paciente con Pierde Sal presenta <strong>hipovolemia verdadera</strong>, pérdida de peso, balance hídrico negativo, presión venosa central baja, hemoconcentración y elevación del BUN con relación BUN/Cr > 20.',
           'El contraste terapéutico es absoluto: el SIADH se trata con <strong>restricción de líquidos libres (800–1000 mL/día)</strong> y suplementos de sal; mientras que el Síndrome Pierde Sal Cerebral requiere <strong>expansión enérgica de volumen con Suero Fisiológico al 0.9%</strong> (o hipertónico al 3% si es severo) y mineralocorticoides (Fludrocortisona). La restricción hídrica en el CSW es fatal.',
+          '<b>Hiponatremia aguda grave (sintomática):</b> cuando hay convulsiones, coma, vómitos o confusión, o la instalación fue en &lt; 48 horas, es una <b>emergencia</b> cualquiera sea su causa (SIADH, polidipsia, déficit de cortisol). El manejo inicial es <b>suero hipertónico 3%, 100–150 mL IV en bolo en 10 minutos</b>, repetible hasta 2 veces con control de natremia cada 20–60 minutos, hasta que ceda la sintomatología o el Na suba 4–6 mEq/L. Luego se limita la corrección a <b>≤ 8–10 mEq/L en 24 horas</b> (≤ 8 si hay riesgo de desmielinización osmótica: alcoholismo, desnutrición, hipokalemia, hepatopatía). Si se sobrecorrige se rescata con desmopresina y dextrosa 5%. El paciente se <b>deriva a unidad de paciente crítico</b>. En el síndrome pierde sal cerebral el hipertónico se usa solo si el cuadro es grave; el detalle del esquema está en el tema de hiponatremia (nefro-05).',
         ],
       },
     ],
@@ -297,7 +299,7 @@ const bloque2 = [
       'SIADH: hiponatremia hipotónica euvolémica con orina inapropiadamente concentrada (Osmu > 100 mOsm/kg) y Nau > 40 mEq/L.',
       'Cáncer pulmonar microcítico es la causa paraneoplásica clásica de SIADH por síntesis ectópica tumoral de vasopresina.',
       'Fármacos inductores frecuentes de SIADH: ISRS (citalopram, sertralina), carbamazepina, antipsicóticos y ciclofosfamida.',
-      'En SIADH el paciente está clí­nicamente euvolémico: no tiene edemas ni signos de deshidratación.',
+      'En SIADH el paciente está clínicamente euvolémico: no tiene edemas ni signos de deshidratación.',
       'El tratamiento de base del SIADH euvolémico asintomático es la restricción hídrica estricta (800 a 1000 mL/día).',
       'Síndrome Pierde Sal Cerebral (CSW): natriuresis mediada por BNP en patología neuroquirúrgica que cursa con HIPOVOLEMIA real.',
       'Diferencia crítica: en SIADH se restringe agua libre; en Pierde Sal Cerebral se administra abundante suero salino al 0.9% para evitar shock e isquemia cerebral.',
@@ -458,6 +460,13 @@ const bloque2 = [
         paragraphs: [
           '<strong>Diuréticos de Asa (Furosemida, Torsemida):</strong> Actúan en la porción gruesa del asa ascendente de Henle inhibiendo el cotransportador $Na^+-K^+-2Cl^-$. Tienen gran eficacia natriurética (excretan hasta el 20–25% del sodio filtrado). <strong>Siguen siendo efectivos incluso con TFG muy disminuida (< 30 mL/min)</strong>. Efectos adversos: hipokalemia, hipomagnesemia, alcalosis metabólica e hiperuricemia.',
           '<strong>Tiazidas (Hidroclorotiazida, Clortalidona):</strong> Bloquean el cotransportador $Na^+-Cl^-$ en el túbulo contorneado distal. Son fármacos antihipertensivos de primera línea pero <strong>pierden su eficacia diurética cuando la TFG cae bajo 30 mL/min</strong>. Efectos adversos: hiponatremia grave, hipokalemia, hipercalcemia e hiperglicemia.',
+        ],
+      },
+      {
+        subhead: '3. Edema Generalizado (Anasarca): Enfrentamiento y Manejo Inicial',
+        paragraphs: [
+          '<b>Edema generalizado (anasarca):</b> acumulación de líquido en el intersticio por <b>aumento de la presión hidrostática, caída de la presión oncótica, mayor permeabilidad capilar o retención renal de sodio</b>. Se manifiesta como edema con fóvea bilateral, aumento de peso y, en grado extremo, ascitis, derrame pleural y edema genital. Causas principales: <b>insuficiencia cardíaca</b> (yugulares ingurgitadas, disnea), <b>cirrosis hepática</b> (ascitis, estigmas de hepatopatía), <b>síndrome nefrótico</b> (edema periorbitario, proteinuria &gt; 3,5 g/día, albúmina baja), <b>síndrome nefrítico y ERC</b> (retención de sodio), desnutrición o enteropatía perdedora de proteínas e hipotiroidismo. Fármacos que lo causan: <b>calcioantagonistas dihidropiridínicos, AINEs, corticoides y glitazonas</b>. Evaluación inicial: peso, presión arterial, examen de orina con proteinuria, creatinina, albúmina, perfil hepático, ECG y BNP.',
+          '<b>Manejo inicial del edema generalizado:</b> tratar la causa y retirar fármacos favorecedores; <b>restricción de sodio (&lt; 2 g/día, unos 5 g de sal)</b> y elevación de las piernas. El diurético de elección es el de <b>asa</b> (furosemida 20–40 mg/día por vía oral, o 40–80 mg IV si hay anasarca, congestión grave o TFG baja, que exige dosis mayores), con meta de bajar <b>0,5–1 kg/día</b>. Si hay resistencia se asocia un diurético tiazídico o espironolactona (bloqueo secuencial de la nefrona); en la <b>cirrosis con ascitis</b> el fármaco de partida es la <b>espironolactona</b> (con furosemida en proporción 100:40). Se vigilan <b>potasio, sodio, creatinina e hipovolemia</b> (hipotensión, alcalosis metabólica por contracción). Se <b>deriva</b> si hay anasarca grave, edema refractario, deterioro de función renal o edema pulmonar.',
         ],
       },
     ],

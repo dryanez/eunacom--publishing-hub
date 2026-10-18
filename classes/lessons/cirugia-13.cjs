@@ -22,14 +22,31 @@ module.exports = {
           { t: 'Primer grado', d: 'Eritema seco, sin flictenas, no cuenta',
             say: 'Antes de calcular nada, fíjate qué tan profunda es la quemadura, porque de eso depende todo lo que viene. El primer grado es solo eritema seco y doloroso, como una quemadura solar, y ojo con esto: no se cuenta para ningún cálculo de superficie.' },
           { t: 'Segundo grado superficial', d: 'Flictenas húmedas, rosadas, muy dolorosas',
-            say: 'El segundo grado superficial sí tiene flictenas, con un lecho húmedo y rosado, y es el más doloroso de todos, porque las terminaciones nerviosas siguen intactas.' },
+            say: 'El segundo grado superficial sí tiene flictenas, con un lecho húmedo y rosado, y es el más doloroso de todos, porque las terminaciones nerviosas siguen intactas. Mira este corte de la piel: la lesión llega solo a la dermis superficial, y el antebrazo muestra las ampollas y el lecho brillante.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-13/01_quemadura_ab_superficial__atls_p230.jpg', label: 'Espesor parcial superficial', at: 'Mira este corte de la piel', credit: 'ATLS 10.ª ed., Fig. 9-5' } },
         ] },
         { title: 'Profundas', tag: 'Duelen poco o nada', kind: 'alert', items: [
           { t: 'Segundo grado profundo', d: 'Lecho pálido, seco, sensibilidad ya baja',
-            say: 'El segundo grado profundo ya destruyó parte de esas terminaciones: el lecho se ve pálido y seco, y duele menos. Casi siempre necesita injerto.' },
+            say: 'El segundo grado profundo ya destruyó parte de esas terminaciones: el lecho se ve pálido y seco, y duele menos. Casi siempre necesita injerto. Mira este otro corte: la lesión baja hasta la dermis profunda, el lecho es moteado, no blanquea y casi no siente el pinchazo.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-13/02_quemadura_ab_profunda__atls_p230.jpg', label: 'Espesor parcial profundo', at: 'Mira este otro corte', credit: 'ATLS 10.ª ed., Fig. 9-5' } },
           { t: 'Tercer grado', d: 'Escara acartonada, indolora, sin llenado capilar',
-            say: 'Y el tercer grado es la escara acartonada, blanca o negra, completamente indolora. Guarda esta idea de que no duele, porque te va a servir más adelante para reconocer una complicación grave.' },
+            say: 'Y el tercer grado es la escara acartonada, blanca o negra, completamente indolora. Guarda esta idea de que no duele, porque te va a servir más adelante para reconocer una complicación grave. En esta paciente se mezclan zonas rosadas con zonas blancas y pardas, secas y acartonadas: esas últimas son las profundas.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-13/03_quemadura_foto__atls_p230.jpg', label: 'Profundidad mixta', at: 'En esta paciente', credit: 'ATLS 10.ª ed., Fig. 9-5' } },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Hasta dónde llega cada grado',
+      images: [
+        { src: 'animaciones/cirugia-13/A1_profundidad_quemadura.mp4', label: 'Profundidad de la quemadura', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Epidermis, dermis, hipodermis: cuánto se destruye',
+          say: 'Mira cómo baja la lesión por las capas de la piel. En el primer grado solo se daña la epidermis: eritema seco y doloroso, que no cuenta para la superficie. En el segundo grado llega a la dermis: con flictenas y muy dolorosa si es superficial, pálida y con menos dolor si es profunda. Y en el tercer grado se destruye todo el espesor, con las terminaciones nerviosas incluidas, por eso es indolora.' },
       ],
     },
 
@@ -51,9 +68,11 @@ module.exports = {
       ],
       steps: [
         { show: ['nue'], note: 'El primer grado nunca entra en la cuenta',
-          say: 'Ahora sí, calculemos la superficie quemada, y la herramienta es la regla de los nueve de Wallace. Recuerda la regla de oro: solo sumas el segundo y el tercer grado. El eritema del primer grado no entra en ninguna cuenta.' },
+          say: 'Ahora sí, calculemos la superficie quemada, y la herramienta es la regla de los nueve de Wallace. Recuerda la regla de oro: solo sumas el segundo y el tercer grado. El eritema del primer grado no entra en ninguna cuenta. Mira esta mano: tiene segundo y tercer grado, y solo esas zonas entrarían en la suma.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-13/01_quemaduras-2-y-3-grado__cto-cirugia_p37.jpg', label: 'Segundo y tercer grado', at: 'Mira esta mano', credit: 'Manual CTO Cirugía 14.ª ed., p. 37' } },
         { show: ['cab'], note: 'Cabeza y cuello: nueve por ciento',
-          say: 'La cabeza y el cuello valen nueve por ciento.' },
+          say: 'La cabeza y el cuello valen nueve por ciento. Mira esta figura: en el adulto, la cara anterior de la cabeza vale cuatro coma cinco, la posterior otro tanto, y ahí tienes todos los segmentos con su porcentaje.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-13/04_regla_de_los_9__atls_p175.jpg', label: 'Regla de los nueve', at: 'Mira esta figura', credit: 'ATLS 10.ª ed., Fig. 9-4' } },
         { show: ['tro'], note: 'Tronco: dieciocho por ciento adelante, dieciocho atrás',
           say: 'El tronco vale dieciocho por ciento por delante, y otro dieciocho por atrás.' },
         { show: ['bra'], note: 'Cada brazo completo: nueve por ciento',
@@ -126,6 +145,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Parkland en el reloj',
+      images: [
+        { src: 'animaciones/cirugia-13/A2_parkland_ocho_horas.mp4', label: 'Parkland: ocho horas desde el accidente', credit: 'Gráfico propio (cifras del libro)' },
+      ],
+      steps: [
+        { note: 'El reloj parte en el accidente',
+          say: 'Veamos un ejemplo con una persona de setenta kilos y treinta por ciento de superficie quemada. Cuatro por setenta por treinta son ocho mil cuatrocientos mililitros de Ringer lactato en veinticuatro horas. La primera mitad se pasa en las primeras ocho horas, pero el reloj parte en el accidente. Si llegó a las dos horas, te quedan seis para pasar esa mitad, y la velocidad sube a setecientos mililitros por hora. Y recuerda que lo que manda es la diuresis.' },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Urgencias del quemado',
       title: 'Lo que mata antes de que llegues al suero',
@@ -152,45 +185,85 @@ module.exports = {
         { show: ['cir'], note: 'La escara actúa como un torniquete',
           say: 'Y la tercera es mecánica: una escara de tercer grado que rodea completamente una extremidad o el tórax se comporta como un torniquete que no cede, mientras el edema de abajo sigue creciendo.' },
         { show: ['esc'], note: 'Se corta sin anestesia porque la escara es insensible',
-          say: 'Ahí no esperas: escarotomía de urgencia, cortando solo la escara hasta la grasa, sin necesidad de anestesia, porque el tercer grado ya no siente. Si esperas a que se pierdan los pulsos, ya perdiste la extremidad.' },
+          say: 'Ahí no esperas: escarotomía de urgencia, cortando solo la escara hasta la grasa, sin necesidad de anestesia, porque el tercer grado ya no siente. Si esperas a que se pierdan los pulsos, ya perdiste la extremidad. Mira esta extremidad: las incisiones longitudinales abren la escara y el tejido de abajo se expande.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-13/08_escarotomia__sherman_p95.jpg', label: 'Escarotomía', at: 'Mira esta extremidad', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 95' } },
       ],
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Quemaduras',
-      images: [
-        { src: 'biblioteca/10_cirugia/cirugia-13/01_quemadura_ab_superficial__atls_p230.jpg', label: 'Espesor parcial superficial', credit: 'ATLS 10.ª ed., Fig. 9-5' },
-        { src: 'biblioteca/10_cirugia/cirugia-13/02_quemadura_ab_profunda__atls_p230.jpg', label: 'Espesor parcial profundo', credit: 'ATLS 10.ª ed., Fig. 9-5' },
-        { src: 'biblioteca/10_cirugia/cirugia-13/04_regla_de_los_9__atls_p175.jpg', label: 'Regla de los nueve', credit: 'ATLS 10.ª ed., Fig. 9-4' },
-      ],
-      steps: [
-        { note: 'Ampollas, dolor, lecho brillante',
-          say: 'La quemadura de espesor parcial superficial tiene ampollas, duele y el lecho es húmedo y brillante.' },
-        { note: 'Moteado, menos dolor',
-          say: 'La profunda es moteada, no blanquea y duele menos.' },
-        { note: 'Superficie quemada',
-          say: 'Y la regla de los nueve estima la superficie quemada para calcular los fluidos.' },
+      type: 'points',
+      kicker: 'Curación y quemadura solar',
+      title: 'Curar la quemadura menor, paso a paso',
+      cards: [
+        { title: 'Limpieza', tag: 'Nivel realizar', kind: 'key', items: [
+          { t: 'Agua corriente, diez a veinte minutos', d: 'Sin hielo; no en el gran quemado',
+            say: 'Cerremos la parte de la quemadura menor con la curación básica, que tienes que saber hacer. Como primeros auxilios, enfrías la zona con agua corriente por diez a veinte minutos, y retiras ropas y joyas. Ojo: nada de hielo, y no lo haces en el gran quemado, porque se te enfría entero y cae en hipotermia.' },
+          { t: 'Suero y jabón suave, con analgesia', d: 'Flictenas chicas se dejan; las tensas o rotas, se desbridan',
+            say: 'Después, ya con analgesia, lavas con suero fisiológico y jabón suave, retiras el tejido suelto y decides qué haces con las flictenas: las pequeñas e íntegras se dejan, y las grandes, tensas o rotas se desbridan.' },
+        ] },
+        { title: 'Cobertura', tag: 'Qué pones encima', kind: 'pharma', items: [
+          { t: 'Sulfadiazina de plata al uno por ciento', d: 'No en alergia a sulfas, embarazo a término ni recién nacidos',
+            say: 'Cubres con sulfadiazina de plata al uno por ciento, o con apósitos de plata, y gasa. La sulfadiazina se evita en la alergia a las sulfas, en el embarazo a término y en el recién nacido.' },
+          { t: 'Sin remedios caseros ni antibióticos', d: 'Revisa la vacuna antitetánica',
+            say: 'No se usan remedios caseros, ni hielo, ni antibióticos sistémicos de forma profiláctica, pero sí verificas la vacuna antitetánica. Controlas a las veinticuatro o cuarenta y ocho horas, y derivas si cumple criterios de gran quemado o está en cara, manos, genitales o pliegues.' },
+        ] },
+        { title: 'Quemadura solar', tag: 'Primer grado por UVB', kind: 'normal', items: [
+          { t: 'Eritema máximo a las 24 a 36 horas', d: 'Con flictenas ya es segundo grado superficial',
+            say: 'La quemadura solar es un primer grado por radiación ultravioleta: el eritema aparece a las seis horas y alcanza su máximo entre las veinticuatro y las treinta y seis. Si es intensa tiene flictenas, y entonces ya es un segundo grado superficial, con fiebre o náuseas incluidas.' },
+          { t: 'Sintomático y prevención', d: 'Frío, AINE, emolientes; fotoprotector FPS 30 o más',
+            say: 'El tratamiento es sintomático: compresas frías, hidratación oral, antiinflamatorio o paracetamol y emolientes, y no abres las flictenas. Lo importante es la prevención: fotoprotector con factor treinta o más, reaplicado cada dos horas, y evitar el sol entre las once y las dieciséis horas.' },
+        ] },
       ],
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/10_cirugia/cirugia-13/01_quemaduras-2-y-3-grado__cto-cirugia_p37.jpg', label: 'Quemaduras de segundo y tercer grado', credit: 'Manual CTO Cirugía 14.ª ed., p. 37' },
-        { src: 'biblioteca/10_cirugia/cirugia-13/03_quemadura_foto__atls_p230.jpg', label: 'Quemadura de profundidad mixta', credit: 'ATLS 10.ª ed., Fig. 9-5' },
+      type: 'points',
+      kicker: 'Cobertura',
+      title: 'Injertos y colgajos: cuál usar',
+      cards: [
+        { title: 'Injerto', tag: 'Sin irrigación propia', kind: 'key', items: [
+          { t: 'Vive del lecho que lo recibe', d: 'Imbibición en las primeras 48 horas; luego neovascularización',
+            say: 'Cuando la quemadura es profunda, la escarectomía precoz con autoinjerto es el tratamiento. Y aquí la diferencia que se pregunta: el injerto es tejido trasplantado sin su irrigación, así que sobrevive por imbibición plasmática del lecho durante las primeras cuarenta y ocho horas, y después por neovascularización.' },
+          { t: 'No prende sobre hueso o tendón desnudo', d: 'Se pierde por hematoma, infección y fricción',
+            say: 'Por eso el lecho tiene que estar bien vascularizado y sin infección: sobre hueso, tendón o cartílago desnudos, el injerto no prende. Y las causas de pérdida más comunes son el hematoma o seroma, la infección y la fricción.' },
+        ] },
+        { title: 'Espesor del injerto', tag: 'Parcial o total', kind: 'criteria', items: [
+          { t: 'Espesor parcial', d: 'Prende fácil, la zona dadora cicatriza sola, se contrae más',
+            say: 'El injerto de espesor parcial lleva epidermis y parte de la dermis, se toma del muslo, prende con más facilidad y su zona dadora cicatriza sola, pero se contrae más.' },
+          { t: 'Espesor total', d: 'Mejor resultado estético: cara y manos',
+            say: 'El de espesor total da mejor resultado estético, y por eso se reserva para cara y manos, pero exige cerrar la zona dadora de forma directa.' },
+        ] },
+        { title: 'Colgajo', tag: 'Trae su propio pedículo', kind: 'pharma', items: [
+          { t: 'Cubre lo que el injerto no puede', d: 'Hueso, tendón, implantes y defectos profundos',
+            say: 'El colgajo es otra cosa: es tejido que lleva su propio pedículo vascular, y por eso se usa para cubrir hueso, tendón, implantes y defectos profundos. Puede ser cutáneo, fasciocutáneo o musculocutáneo, local, a distancia o libre microquirúrgico.' },
+        ] },
       ],
-      steps: [
-        { note: 'Segundo y tercer grado en una mano',
-          say: 'Esta mano tiene quemaduras de segundo y tercer grado. Solo esas profundidades se suman para calcular la superficie quemada.' },
-        { note: 'Profundidad mixta',
-          say: 'En un mismo paciente conviven zonas superficiales, rosadas y húmedas, con zonas profundas, pálidas y secas.' },
+    },
+
+    {
+      type: 'points',
+      kicker: 'Secuelas',
+      title: 'Cuando la quemadura ya cicatrizó',
+      cards: [
+        { title: 'Cicatrices que sobresalen', tag: 'No es lo mismo', kind: 'alert', items: [
+          { t: 'Hipertrófica: respeta el borde', d: 'Elevada, dentro de los límites de la quemadura; mejora con el tiempo',
+            say: 'Después de la quemadura vienen las secuelas. La cicatriz hipertrófica aparece en semanas, es elevada, pero queda confinada a los límites de la quemadura y mejora con el tiempo. Mira esta cicatriz: está en relieve, enrojecida, y no se sale del área quemada.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-13/07_cicatriz-hipertrofica-quemadura__bailey-love_p644.jpg', label: 'Cicatriz hipertrófica', at: 'Mira esta cicatriz', credit: "Bailey & Love 27.ª ed., p. 644" } },
+          { t: 'Queloide: sobrepasa el borde', d: 'No regresa; piel oscura, hombros, tórax, lóbulos',
+            say: 'El queloide, en cambio, sobrepasa los márgenes, no regresa solo y es más frecuente en piel oscura, en hombros, tórax y lóbulos de las orejas.' },
+        ] },
+        { title: 'Bridas y Marjolin', tag: 'Dos complicaciones', kind: 'criteria', items: [
+          { t: 'Bridas y contracturas', d: 'Cuello, axila, párpados o articulaciones: plastía en Z',
+            say: 'Las bridas y contracturas sobre articulaciones, cuello, axila o párpados limitan el movimiento y se resuelven con cirugía, con plastías en Z o injertos.' },
+          { t: 'Úlcera de Marjolin', d: 'Carcinoma escamoso sobre cicatriz crónica: biopsia',
+            say: 'Y la complicación rara pero que se pregunta: una úlcera que no cierra sobre una cicatriz antigua es una úlcera de Marjolin, un carcinoma escamoso, hasta demostrar lo contrario. Primero biopsia, después se planifica la resección.' },
+        ] },
+        { title: 'Prevención y tratamiento', tag: 'Qué indicas', kind: 'pharma', items: [
+          { t: 'Presoterapia doce a dieciocho meses', d: 'Más silicona, férulas, kinesiterapia y fotoprotección',
+            say: 'Se previenen cubriendo temprano las quemaduras profundas, con kinesiterapia, férulas, posiciones antideformantes, láminas de silicona, fotoprotección, y presoterapia con prendas elásticas durante doce a dieciocho meses.' },
+          { t: 'Corticoide intralesional', d: 'Para hipertróficas y queloides; derivar a plástica',
+            say: 'Y las cicatrices hipertróficas y los queloides se tratan con corticoide dentro de la lesión, derivando al paciente a cirugía plástica.' },
+        ] },
       ],
     },
 
@@ -213,6 +286,12 @@ module.exports = {
           say: 'Un rescatado de incendio con saturación de noventa y ocho por ciento igual puede estar intoxicado con monóxido: pide carboxihemoglobina. Confiar en el saturómetro es el error que más cuesta.' },
         { cells: ['Escara circular con pulsos que se pierden', 'Escarotomía de urgencia', 'Esperar a la evaluación de un especialista'],
           say: 'Y con una escara circular y pulsos que empiezan a perderse, la escarotomía se hace ya, sin esperar a un especialista que puede llegar tarde.' },
+        { cells: ['Quemadura menor con flictenas', 'Agua corriente, suero, sulfadiazina de plata', 'Hielo, remedio casero o antibiótico profiláctico'],
+          say: 'En la quemadura menor, agua corriente, suero y sulfadiazina de plata. El hielo, los remedios caseros y el antibiótico profiláctico son errores clásicos, y recuerda revisar la vacuna antitetánica.' },
+        { cells: ['Defecto con hueso o tendón desnudo', 'Colgajo, con su propio pedículo', 'Injerto de piel, que no prende ahí'],
+          say: 'Si el defecto deja hueso o tendón desnudo, necesitas un colgajo. El injerto vive del lecho, y sobre un lecho sin irrigación no prende.' },
+        { cells: ['Úlcera crónica sobre cicatriz antigua', 'Biopsia incisional: sospecha de Marjolin', 'Resecar sin histología o solo curar'],
+          say: 'Y una úlcera crónica sobre una cicatriz de quemadura es una sospecha de Marjolin: primero biopsia. Resecar sin histología, o seguir curando, retrasa el tratamiento del cáncer.' },
       ],
     },
 
@@ -306,6 +385,195 @@ module.exports = {
         options: 'Las opciones: oxígeno por naricera de alto flujo, TAC de cerebro, terapia hiperbárica, broncodilatadores inhalados, u oxígeno por mascarilla de no recirculación. Piénsalo.',
         answer: 'Es la E. El tratamiento siempre parte con oxígeno al cien por ciento en mascarilla de no recirculación, que desplaza al monóxido de la hemoglobina mucho más rápido que el aire ambiental. La cámara hiperbárica es la trampa tentadora, pero se reserva para cuando la carboxihemoglobina pasa de veinticinco por ciento o hay compromiso de conciencia, y aquí no se cumple ninguno de los dos.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.5.008 · Curación básica de quemaduras",
+      "stem": "Hombre de 35 años se quema el antebrazo con agua hirviendo hace 2 horas. Presenta una quemadura de espesor parcial superficial, rosada, húmeda y dolorosa, con flictenas rotas, que compromete cerca del 3% de la superficie corporal. No tiene otras lesiones.",
+      "question": "¿Cuál es el manejo local más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aplicar hielo directo y dejar la herida descubierta"
+        },
+        {
+          "letter": "B",
+          "text": "Lavar con suero fisiológico, retirar las flictenas rotas, cubrir con apósito no adherente y controlar en 48 a 72 horas"
+        },
+        {
+          "letter": "C",
+          "text": "Aplicar pomada de corticoides y vendaje compresivo"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar antibiótico oral profiláctico y dejar las flictenas intactas sin cubrir"
+        },
+        {
+          "letter": "E",
+          "text": "Derivar de inmediato a un centro de grandes quemados"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La curación básica de una quemadura pequeña de espesor parcial consiste en enfriar con agua o suero a temperatura ambiente, lavar con suero, retirar el tejido desvitalizado y las flictenas rotas, y cubrir con apósito no adherente, con controles cada 48 a 72 horas. No se usan antibióticos profilácticos ni hielo.",
+      "say": {
+        "stem": "Hombre de treinta y cinco años que se quema el antebrazo con agua hirviendo hace dos horas. Tiene una quemadura de espesor parcial superficial, rosada, húmeda y dolorosa, con flictenas rotas, en cerca del tres por ciento de su superficie corporal.",
+        "question": "¿Cuál es el manejo local más adecuado?",
+        "options": "Las opciones: hielo y dejarla descubierta, lavar con suero, retirar las flictenas rotas y cubrir con apósito no adherente, pomada de corticoides, antibiótico oral profiláctico, o derivar a un centro de grandes quemados. Piénsalo.",
+        "answer": "Es la B. Se lava con suero, se retira lo desvitalizado, se cubre con un apósito que no se pegue y se controla en dos o tres días. El antibiótico profiláctico tienta, pero no previene infección y favorece resistencia; y el hielo directo profundiza la lesión."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Agosto 2021 · Pregunta 161",
+      "stem": "Hombre de 52 años, con una gran cicatriz de una quemadura antigua en el muslo derecho, que cicatrizó por segunda intención, refiere que desde hace 2 años presenta una úlcera en relación con la cicatriz. Al examen se observa una úlcera de 2 cm en medio de la cicatriz.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tratamiento con nitrógeno líquido"
+        },
+        {
+          "letter": "B",
+          "text": "Aseo quirúrgico"
+        },
+        {
+          "letter": "C",
+          "text": "Resección amplia"
+        },
+        {
+          "letter": "D",
+          "text": "Biopsia incisional"
+        },
+        {
+          "letter": "E",
+          "text": "Curaciones con povidona y suero fisiológico"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Una úlcera crónica que no cicatriza sobre una cicatriz de quemadura antigua hace sospechar una úlcera de Marjolin, habitualmente un carcinoma espinocelular. Primero debe confirmarse con biopsia incisional de bordes y lecho; con el diagnóstico se planifica la resección amplia. Resecar sin histología o solo hacer curaciones retrasa el tratamiento oncológico.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Hombre de cincuenta y dos años con una gran cicatriz de una quemadura antigua en el muslo, que cerró por segunda intención, y que desde hace dos años tiene una úlcera de dos centímetros en medio de esa cicatriz.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: nitrógeno líquido, aseo quirúrgico, resección amplia, biopsia incisional, o curaciones con povidona. Piénsalo.",
+        "answer": "Es la D. Una úlcera crónica sobre una cicatriz de quemadura es una úlcera de Marjolin, un carcinoma espinocelular, hasta demostrar lo contrario, y primero se confirma con biopsia. La resección amplia tienta porque es el tratamiento final, pero no se planifica una cirugía oncológica sin histología."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.3.011 · Conceptos generales sobre injertos y colgajos",
+      "stem": "Hombre de 40 años sufre un accidente con una máquina que le produce una pérdida de piel en el dorso del pie, con exposición del tendón extensor sin paratendón y de hueso sin periostio. El lecho está limpio tras el aseo quirúrgico.",
+      "question": "¿Cuál es la opción de cobertura más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Injerto de piel parcial"
+        },
+        {
+          "letter": "B",
+          "text": "Injerto de piel total"
+        },
+        {
+          "letter": "C",
+          "text": "Sustituto dérmico sin cobertura posterior"
+        },
+        {
+          "letter": "D",
+          "text": "Cierre por segunda intención con curaciones"
+        },
+        {
+          "letter": "E",
+          "text": "Colgajo"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Un injerto carece de irrigación propia y depende del lecho receptor para nutrirse, por lo que no prende sobre hueso sin periostio, tendón sin paratendón, cartílago sin pericondrio ni material de osteosíntesis expuesto. En esos casos se requiere un colgajo, que lleva su propio pedículo vascular. Los injertos son ideales sobre lechos bien vascularizados, como el tejido de granulación.",
+      "say": {
+        "stem": "Hombre de cuarenta años con un accidente con máquina que le deja sin piel el dorso del pie, con el tendón extensor expuesto sin su cubierta y hueso sin periostio. El lecho está limpio tras el aseo.",
+        "question": "¿Cuál es la mejor opción de cobertura?",
+        "options": "Las opciones: injerto de piel parcial, injerto de piel total, sustituto dérmico solo, segunda intención con curaciones o colgajo. Piénsalo.",
+        "answer": "Es la E. El injerto necesita un lecho vascularizado del cual nutrirse, y hueso sin periostio o tendón desnudo no lo tienen, así que se necesita un colgajo con su propia irrigación. El injerto parcial tienta porque es más simple, pero sobre este lecho no va a prender."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2022 · Pregunta 21",
+      "stem": "Usted atiende en el servicio de urgencia a un niño de 3 años, traído por su madre por quemaduras en los dedos y en la espalda tras apoyarse accidentalmente en una estufa. Al examen está agitado y llorando, y se observa eritema y flictenas en las zonas afectadas.",
+      "question": "¿Cuál es la conducta inicial?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Curaciones"
+        },
+        {
+          "letter": "B",
+          "text": "Paracetamol vía oral"
+        },
+        {
+          "letter": "C",
+          "text": "Ungüento antibiótico tópico"
+        },
+        {
+          "letter": "D",
+          "text": "Analgesia endovenosa"
+        },
+        {
+          "letter": "E",
+          "text": "Antibióticos endovenosos"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Las quemaduras de espesor parcial superficial (eritema y flictenas) son muy dolorosas. En un niño agitado, la prioridad inicial tras descartar compromiso vital es una analgesia efectiva y rápida, por vía endovenosa (ej. opioides), que además permite evaluar y curar. La quemadura de manos es zona especial y debe evaluarse para derivación. No se usan antibióticos profilácticos.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veintidós. Un niño de tres años se apoyó en una estufa y tiene quemaduras con flictenas en los dedos y la espalda. Llora y está muy agitado.",
+        "question": "¿Cuál es la conducta inicial?",
+        "options": "Las opciones: curaciones, paracetamol oral, ungüento antibiótico, analgesia endovenosa o antibióticos endovenosos. Piénsalo.",
+        "answer": "Es la D. Las quemaduras con flictenas duelen mucho y lo primero es una analgesia efectiva por vía endovenosa. Las curaciones tientan, pero hacerlas sin analgesia adecuada es inhumano e impide evaluar bien al niño."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.2.011 · Quemadura solar",
+      "stem": "Mujer de 22 años consulta 12 horas después de pasar 6 horas en la playa sin fotoprotector. Tiene eritema intenso, doloroso y edema en espalda y hombros, con algunas ampollas pequeñas en los hombros. Está afebril, hidratada, sin compromiso del estado general.",
+      "question": "¿Cuál es el manejo más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hospitalización y reanimación con fórmula de Parkland"
+        },
+        {
+          "letter": "B",
+          "text": "Compresas frías, hidratación oral, AINE para el dolor, emolientes, no romper las ampollas y fotoprotección estricta"
+        },
+        {
+          "letter": "C",
+          "text": "Corticoide sistémico en dosis altas"
+        },
+        {
+          "letter": "D",
+          "text": "Antibiótico oral profiláctico"
+        },
+        {
+          "letter": "E",
+          "text": "Aplicar pasta de dientes o mantequilla sobre la quemadura"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La quemadura solar es una quemadura superficial (eritema) o intermedia superficial (ampollas) por radiación UV. Sin compromiso sistémico se maneja ambulatoriamente con frío local, analgesia (AINE), hidratación, emolientes, cuidado de ampollas y evitar el sol. Se hospitaliza si es extensa con ampollas, hay deshidratación, fiebre o compromiso general, sobre todo en niños.",
+      "say": {
+        "stem": "Mujer de veintidós años con eritema doloroso y algunas ampollas pequeñas en espalda y hombros tras seis horas al sol sin protector, sin fiebre ni compromiso general.",
+        "question": "¿Cuál es el manejo más adecuado?",
+        "options": "Las opciones: hospitalizar con Parkland, frío local con hidratación, antiinflamatorios y no romper ampollas, corticoide sistémico, antibiótico profiláctico o remedios caseros. Piénsalo.",
+        "answer": "Es la B. Una quemadura solar sin compromiso general se maneja en casa con frío, hidratación, analgesia y protección solar. Los antibióticos tientan por las ampollas, pero no se usan en forma profiláctica."
+      }
     },
 
     {

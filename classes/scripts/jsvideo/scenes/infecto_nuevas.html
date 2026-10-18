@@ -1,0 +1,66 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Clases nuevas de infectología. Variante: ?v=covid
+//   covid  infecto-25 A1: gravedad del COVID-19 del adulto (leve, moderada, grave, crítica) sobre la ilustración de pulmones de
+//          Servier Medical Art (CC BY 4.0); los infiltrados, la saturación y la frecuencia respiratoria son capas animadas. Cifras del libro.
+const V = new URLSearchParams(location.search).get('v') || 'covid';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+const I = k => window.IMGS[k];
+const OFF = document.createElement('canvas'); OFF.width = 1280; OFF.height = 720; const o = OFF.getContext('2d');
+const LX = { x: 90, y: 150, S: 1.42, w: 408, h: 363 };
+const rnd = i => { const x = Math.sin(i * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); };
+const ST = [
+  { name: 'Leve', col: C.GREEN, at: 1.0, spo2: 98, fr: 16, inf: 0, lines: ['Sin disnea ni neumonía', 'Sintomático; antiviral si hay riesgo'] },
+  { name: 'Moderada', col: C.AMBER, at: 6.5, spo2: 95, fr: 22, inf: 0.28, lines: ['Neumonía con SpO₂ ≥ 94%', 'Nirmatrelvir/ritonavir si hay riesgo'] },
+  { name: 'Grave', col: '#FF8A3D', at: 12.5, spo2: 91, fr: 32, inf: 0.6, lines: ['SpO₂ < 94%, FR > 30 o infiltrados > 50%', 'Hospitalizar; dexametasona 6 mg/día'] },
+  { name: 'Crítica', col: C.RED, at: 19.0, spo2: 84, fr: 38, inf: 0.95, lines: ['Insuficiencia respiratoria, shock', 'Falla multiorgánica: UCI'] },
+];
+function stageAt(t) { let k = 0; ST.forEach((s, i) => { if (t >= s.at) k = i; }); return k; }
+function lungs(inf, t) {
+  o.setTransform(1, 0, 0, 1, 0, 0); o.clearRect(0, 0, 1280, 720);
+  o.drawImage(I('lu'), LX.x, LX.y, LX.w * LX.S, LX.h * LX.S);
+  o.globalCompositeOperation = 'source-atop';
+  const n = 46;
+  for (let i = 0; i < n; i++) {
+    const th = i / n; if (th > inf) continue;                         // más infiltrados cuanto más grave
+    // se reparten de abajo hacia arriba
+    const px = LX.x + (0.08 + 0.84 * rnd(i * 3 + 1)) * LX.w * LX.S, py = LX.y + (0.95 - 0.8 * (0.35 * rnd(i * 5 + 2) + 0.65 * th)) * LX.h * LX.S;
+    const r = 34 + 40 * rnd(i * 7 + 3), a = 0.95 * clamp((inf - th) * 6, 0, 1);
+    const g = o.createRadialGradient(px, py, 0, px, py, r); g.addColorStop(0, `rgba(250,250,255,${a})`); g.addColorStop(1, 'rgba(250,250,255,0)');
+    o.fillStyle = g; o.fillRect(px - r, py - r, 2 * r, 2 * r);
+  }
+  o.globalCompositeOperation = 'source-over';
+  ctx.drawImage(OFF, 0, 0);
+}
+function covid(t) {
+  K.title('COVID-19 del adulto', 'Gravedad: leve, moderada, grave y crítica', '#4FA3FF');
+  rrect(40 - 6, 128 - 6, 700 + 12, 560 + 12, 18, '#FFFFFF');
+  const k = stageAt(t), S = ST[k], nx = ST[Math.min(3, k + 1)];
+  const prog = k < 3 ? ease(seg(t, nx.at - 2.2, 2.2)) : 0;
+  const inf = lerp(S.inf, nx.inf, prog);
+  ctx.save(); ctx.beginPath(); ctx.roundRect(40, 128, 700, 560, 14); ctx.clip(); lungs(inf, t); ctx.restore();
+  const spo2 = lerp(S.spo2, nx.spo2, prog), fr = lerp(S.fr, nx.fr, prog);
+  // indicadores sobre la ilustración
+  rrect(60, 140, 250, 84, 12, 'rgba(14,17,22,0.88)');
+  text('SpO₂ ambiental', 76, 168, 16, C.MUTED); text(`${Math.round(spo2)} %`, 76, 210, 38, spo2 < 94 ? C.RED : C.GREEN, 'bold');
+  text('FR', 220, 168, 16, C.MUTED); text(`${Math.round(fr)}`, 220, 210, 38, fr > 30 ? C.RED : C.INK, 'bold');
+  tag(S.name, 620, 160, S.col, 24);
+  ST.forEach((s, i) => { const a = seg(t, s.at, 0.5); if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; const y = 128 + i * 112;
+    rrect(770, y, 480, 100, 14, '#161B22'); ctx.fillStyle = s.col; ctx.fillRect(770, y, 6, 100);
+    text(s.name, 792, y + 32, 22, s.col, 'bold'); s.lines.forEach((l, j) => text(l, 792, y + 60 + j * 26, 17, C.INK)); ctx.restore(); });
+  K.banner(770, 590, 480, 'Dexametasona solo si requiere oxígeno', C.BLUE, seg(t, 14.5, 0.5));
+  K.banner(770, 650, 480, 'Antiviral precoz: primeros 5 días, con riesgo', C.GREEN, seg(t, 22.5, 0.5));
+  K.credit('Ilustración: Servier Medical Art, CC BY 4.0 · capas y rótulos propios');
+}
+const SCN = { covid: { f: covid, dur: 27 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); };
+LOAD({ lu: '../assets/servier/pulmones.png' });
+</script>
+</body></html>

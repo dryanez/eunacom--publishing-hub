@@ -296,7 +296,9 @@
     "topicLabel": "1.2",
     "title": "Infectologia 1.2: Meningitis Aguda Bacteriana y Viral",
     "perfilCodes": [
-      "1.04.2.006"
+      "1.04.2.006",
+      "1.04.4.006",
+      "1.04.5.002"
     ],
     "tier": 3,
     "realQuestionCount": 4,
@@ -305,8 +307,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Meningitis Aguda Bacteriana y Viral. Código oficial Perfil V3: 1.04.2.006. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.04.2.006",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Meningitis Aguda Bacteriana y Viral. Código oficial Perfil V3: 1.04.2.006, 1.04.4.006, 1.04.5.002. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.04.2.006, 1.04.4.006, 1.04.5.002",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -355,7 +357,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.04.2.006",
+              "1.04.2.006, 1.04.4.006, 1.04.5.002",
               "Meningitis Aguda Bacteriana y Viral",
               "Específico",
               "Inicial",
@@ -676,7 +678,9 @@
     "topicLabel": "1.3",
     "title": "Infectologia 1.3: Encefalitis Aguda por VHS y Absceso Cerebral",
     "perfilCodes": [
-      "1.04.2.001, 1.04.2.002"
+      "1.04.2.002",
+      "1.10.2.014",
+      "1.04.2.001"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -987,7 +991,8 @@
     "topicLabel": "1.4",
     "title": "Infectologia 1.4: Infecciones Invasivas de Partes Blandas y Angina de Ludwig",
     "perfilCodes": [
-      "1.04.2.004, 1.04.2.005"
+      "1.04.2.005",
+      "1.04.2.004"
     ],
     "tier": 3,
     "realQuestionCount": 2,
@@ -1331,7 +1336,9 @@
     "topicLabel": "2.1",
     "title": "Infectologia 2.1: Manejo de Contactos en Enfermedades Transmisibles y Accidentes Cortopunzantes",
     "perfilCodes": [
-      "1.04.3.001, 1.04.3.009, 1.04.3.010"
+      "1.04.3.009",
+      "1.04.3.010",
+      "1.04.3.001"
     ],
     "tier": 1,
     "realQuestionCount": 3,
@@ -1698,7 +1705,10 @@
     "topicLabel": "2.2",
     "title": "Infectologia 2.2: Rabia y Tétanos: Profilaxis de Heridas y Manejo Clínico",
     "perfilCodes": [
-      "1.04.2.009, 1.04.3.002, 1.04.3.008, 1.04.3.012"
+      "1.04.2.009",
+      "1.04.3.008",
+      "1.04.3.002",
+      "1.04.3.012"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -1951,7 +1961,8 @@
     "topicLabel": "2.3",
     "title": "Infectologia 2.3: IAAS, Infecciones de Catéteres Vasculares y Precauciones de Aislamiento",
     "perfilCodes": [
-      "1.04.1.015, 1.04.3.005"
+      "1.04.1.015",
+      "1.04.3.005"
     ],
     "tier": 1,
     "realQuestionCount": 1,
@@ -2251,7 +2262,8 @@
     "topicLabel": "2.4",
     "title": "Infectologia 2.4: Intoxicación Alimentaria, Botulismo y Cólera",
     "perfilCodes": [
-      "1.04.1.007, 1.04.1.026"
+      "1.04.1.026",
+      "1.04.1.007"
     ],
     "tier": 1,
     "realQuestionCount": 3,
@@ -2957,7 +2969,10 @@
     "topicLabel": "3.2",
     "title": "Infectologia 3.2: Infecciones Oportunistas Mayores en VIH/SIDA",
     "perfilCodes": [
-      "1.04.1.019, 1.04.3.006"
+      "1.04.1.014",
+      "1.05.1.029",
+      "1.04.1.019",
+      "1.04.3.006"
     ],
     "tier": 3,
     "realQuestionCount": 6,
@@ -3296,7 +3311,10 @@
     "topicLabel": "3.3",
     "title": "Infectologia 3.3: Tuberculosis: Formas Extrapulmonares, Diagnóstico y Manejo MDR",
     "perfilCodes": [
-      "1.04.1.028, 1.04.3.009"
+      "1.04.1.028",
+      "1.05.1.036",
+      "1.05.1.013",
+      "1.05.1.037"
     ],
     "tier": 2,
     "realQuestionCount": 11,
@@ -3305,8 +3323,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Tuberculosis: Formas Extrapulmonares, Diagnóstico y Manejo MDR. Código oficial Perfil V3: 1.04.1.028, 1.04.3.009. Este tema ha sido evaluado en 11 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.04.1.028, 1.04.3.009",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Tuberculosis: Formas Extrapulmonares, Diagnóstico y Manejo MDR. Código oficial Perfil V3: 1.04.1.028, 1.05.1.036, 1.05.1.013, 1.05.1.037. Este tema ha sido evaluado en 11 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.04.1.028, 1.05.1.036, 1.05.1.013, 1.05.1.037",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -3355,7 +3373,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.04.1.028, 1.04.3.009",
+              "1.04.1.028, 1.05.1.036, 1.05.1.013, 1.05.1.037",
               "Tuberculosis: Formas Extrapulmonares, Diagnóstico y Manejo MDR",
               "Específico",
               "Completo",
@@ -3538,7 +3556,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 116",
         "notes": "[SLIDE 9] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 116.",
         "number": 3,
-        "caseText": "Un paciente de 54 años, con antecedente de artri8s reumatoide severa, inicia tratamiento con cor8coides sistémicos y terapia biológica, por lo que se realiza estudio de tuberculosis latente con PPD, el que resulta posi8vo, indicándose tratamiento con isoniacida por 6 meses, permaneciendo asintomá8co. Un año después consulta por lumbago muy intenso, EVA 8/10, de 10 días de evolución, que ha empeorado en los úl8mos días y no ha respondido a analgésicos. En el examen Fsico el dolor limita los movimientos de ﬂexoextensión. Se solicita hemograma que muestra hematocrito: 30% con hemoglobina: 10 g/dL, glóbulos blancos: 12.000/mm³, plaquetas: 480.000/mm³ y VHS: 80 mm/h. La radiograFa de tórax es normal. ¿Cuál es el examen más adecuado para evaluar a este paciente?",
+        "caseText": "Un paciente de 54 años, con antecedente de artritis reumatoide severa, inicia tratamiento con corticoides sistémicos y terapia biológica, por lo que se realiza estudio de tuberculosis latente con PPD, el que resulta positivo, indicándose tratamiento con isoniacida por 6 meses, permaneciendo asintomático. Un año después consulta por lumbago muy intenso, EVA 8/10, de 10 días de evolución, que ha empeorado en los últimos días y no ha respondido a analgésicos. En el examen físico el dolor limita los movimientos de flexoextensión. Se solicita hemograma que muestra hematocrito: 30% con hemoglobina: 10 g/dL, glóbulos blancos: 12.000/mm³, plaquetas: 480.000/mm³ y VHS: 80 mm/h. La radiografía de tórax es normal. ¿Cuál es el examen más adecuado para evaluar a este paciente?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -3567,7 +3585,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La sospecha es una tuberculosis vertebral, conocida como mal de Pox. Es una osteomieliGs, por lo que el examen de elección es la RMN. La cintigrafía es una opción, pero menos especíﬁca, por lo que ha sido desplazada por la RMN. La prueba ELISPOT es un IGRA (Interferon-Gamma Release Assay), que se usa en el diagnóstico de la TBC latente, al igual que el PPD y otros IGRAs."
+        "explanation": "La sospecha es una tuberculosis vertebral, conocida como mal de Pox. Es una osteomielitis, por lo que el examen de elección es la RMN. La cintigrafía es una opción, pero menos específica, por lo que ha sido desplazada por la RMN. La prueba ELISPOT es un IGRA (Interferon-Gamma Release Assay), que se usa en el diagnóstico de la TBC latente, al igual que el PPD y otros IGRAs."
       },
       {
         "type": "question",
@@ -3633,7 +3651,9 @@
     "topicLabel": "3.4",
     "title": "Infectologia 3.4: Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas",
     "perfilCodes": [
-      "1.04.1.023"
+      "1.04.1.023",
+      "1.04.1.010",
+      "1.04.4.016"
     ],
     "tier": 2,
     "realQuestionCount": 4,
@@ -3642,8 +3662,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas. Código oficial Perfil V3: 1.04.1.023. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.04.1.023",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas. Código oficial Perfil V3: 1.04.1.023, 1.04.1.010, 1.04.4.016. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.04.1.023, 1.04.1.010, 1.04.4.016",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -3692,7 +3712,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.04.1.023",
+              "1.04.1.023, 1.04.1.010, 1.04.4.016",
               "Infecciones de Transmisión Sexual (ITS) I: Sífilis en Todas sus Etapas",
               "Específico",
               "Completo",
@@ -3984,7 +4004,8 @@
     "topicLabel": "3.5",
     "title": "Infectologia 3.5: Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH",
     "perfilCodes": [
-      "1.04.1.010"
+      "1.04.1.010",
+      "4.01.1.058"
     ],
     "tier": 2,
     "realQuestionCount": 14,
@@ -3993,8 +4014,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH. Código oficial Perfil V3: 1.04.1.010. Este tema ha sido evaluado en 14 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.04.1.010",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH. Código oficial Perfil V3: 1.04.1.010, 4.01.1.058. Este tema ha sido evaluado en 14 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.04.1.010, 4.01.1.058",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4043,7 +4064,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.04.1.010",
+              "1.04.1.010, 4.01.1.058",
               "Infecciones de Transmisión Sexual (ITS) II: Uretritis, Úlceras Genitales y VPH",
               "Específico",
               "Completo",
@@ -4650,7 +4671,8 @@
     "topicLabel": "4.2",
     "title": "Infectologia 4.2: Enfermedad de Chagas: Aguda, Indeterminada y Crónica",
     "perfilCodes": [
-      "1.04.4.016"
+      "1.04.4.016",
+      "1.01.1.020"
     ],
     "tier": 2,
     "realQuestionCount": 5,
@@ -4659,8 +4681,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Enfermedad de Chagas: Aguda, Indeterminada y Crónica. Código oficial Perfil V3: 1.04.4.016. Este tema ha sido evaluado en 5 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.04.4.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Enfermedad de Chagas: Aguda, Indeterminada y Crónica. Código oficial Perfil V3: 1.04.4.016, 1.01.1.020. Este tema ha sido evaluado en 5 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.04.4.016, 1.01.1.020",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4709,7 +4731,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.04.4.016",
+              "1.04.4.016, 1.01.1.020",
               "Enfermedad de Chagas: Aguda, Indeterminada y Crónica",
               "Específico",
               "Completo",
@@ -4986,7 +5008,8 @@
     "topicLabel": "4.3",
     "title": "Infectologia 4.3: Enfermedades Transmitidas por Mosquitos: Dengue, Malaria y Fiebre Amarilla",
     "perfilCodes": [
-      "1.04.1.008, 1.04.1.018"
+      "1.04.1.008",
+      "1.04.1.018"
     ],
     "tier": 2,
     "realQuestionCount": 1,
@@ -5295,7 +5318,8 @@
     "topicLabel": "4.4",
     "title": "Infectologia 4.4: Zoonosis Chilenas Endémicas: Hidatidosis y Triquinosis",
     "perfilCodes": [
-      "1.04.1.013, 1.04.1.027"
+      "1.04.1.013",
+      "1.04.1.027"
     ],
     "tier": 1,
     "realQuestionCount": 3,
@@ -5534,7 +5558,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 56",
         "notes": "[SLIDE 8] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 56.",
         "number": 3,
-        "caseText": "Un paciente de 25 años que vive en una zona rural consulta por cefalea y mialgias intensas de 7 días de evolución, asociadas a malestar general y sensación febril. Al examen Fsico presenta temperatura: 37,5 °C, frecuencia cardíaca: 115 por minuto y presión arterial: 100/60 mmHg. Se solicitan exámenes que muestran PCR 5,6 mg/L (valor normal: menor a 0,5 mg/dl), hemograma con 15.000 glóbulos blancos/mm³, 290.000 plaquetas/mm³ y hematocrito de 35%. En la fórmula diferencial de la serie blanca presenta 40% de eosinóﬁlos. Se solicitan CK, que resultan 2.500 U/L (VN: 30-170 U/L). El estudio ecocardiográﬁco es compa8ble con miocardi8s aguda. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente de 25 años que vive en una zona rural consulta por cefalea y mialgias intensas de 7 días de evolución, asociadas a malestar general y sensación febril. Al examen físico presenta temperatura: 37,5 °C, frecuencia cardíaca: 115 por minuto y presión arterial: 100/60 mmHg. Se solicitan exámenes que muestran PCR 5,6 mg/L (valor normal: menor a 0,5 mg/dl), hemograma con 15.000 glóbulos blancos/mm³, 290.000 plaquetas/mm³ y hematocrito de 35%. En la fórmula diferencial de la serie blanca presenta 40% de eosinófilos. Se solicitan CK, que resultan 2.500 U/L (VN: 30-170 U/L). El estudio ecocardiográfico es compatible con miocarditis aguda. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -5563,7 +5587,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Tiene una triquinosis clásica: mialgias + eosinoﬁlia + CK elevadas. Puede afectar el corazón y otros órganos. Se trata con analgésicos más albendazol o mebendazol. Si hay signos de gravedad (ej. miocardiGs de este caso), se agregan corticoides."
+        "explanation": "Tiene una triquinosis clásica: mialgias + eosinofilia + CK elevadas. Puede afectar el corazón y otros órganos. Se trata con analgésicos más albendazol o mebendazol. Si hay signos de gravedad (ej. miocarditis de este caso), se agregan corticoides."
       },
       {
         "type": "question",
@@ -5630,7 +5654,9 @@
     "topicLabel": "4.5",
     "title": "Infectologia 4.5: Bacteriosis Zoonóticas: Brucelosis, Leptospirosis y Fiebre Tifoidea",
     "perfilCodes": [
-      "1.04.1.004, 1.04.1.012, 1.04.1.017"
+      "1.04.1.004",
+      "1.04.1.017",
+      "1.04.1.012"
     ],
     "tier": 2,
     "realQuestionCount": 2,
@@ -5870,7 +5896,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 57",
         "notes": "[SLIDE 9] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 57.",
         "number": 3,
-        "caseText": "Un niño de 7 años presenta ﬁebre persistente desde hace 7 días, mayor en la tarde, hasta 38,9 °C, asociada a cefalea, anorexia y dolor abdominal. Al examen Fsico 8ene temperatura: 38,2 °C, frecuencia cardíaca: 62x’ y frecuencia respiratoria: 15x’. Se palpa abdomen sensible de manera difusa, sin signos peritoneales. Se solicita hemograma que muestra hematocrito: 35%, glóbulos blancos: 3.700/mm³ con 70% segmentados, 9% cayados, 16% linfocitos, 5% monocitos, 0% eosinóﬁlos y VHS 65 mm/h. Su proteína C reac8va resulta 6,9 mg/L (valor normal: < 0,5 mg/L). ¿Cuál es el agente e8ológico más probable?",
+        "caseText": "Un niño de 7 años presenta fiebre persistente desde hace 7 días, mayor en la tarde, hasta 38,9 °C, asociada a cefalea, anorexia y dolor abdominal. Al examen físico tiene temperatura: 38,2 °C, frecuencia cardíaca: 62x’ y frecuencia respiratoria: 15x’. Se palpa abdomen sensible de manera difusa, sin signos peritoneales. Se solicita hemograma que muestra hematocrito: 35%, glóbulos blancos: 3.700/mm³ con 70% segmentados, 9% cayados, 16% linfocitos, 5% monocitos, 0% eosinófilos y VHS 65 mm/h. Su proteína C reactiva resulta 6,9 mg/L (valor normal: < 0,5 mg/L). ¿Cuál es el agente etiológico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -5899,7 +5925,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Aunque el cuadro clínico es algo inespecíﬁco, el hemograma con leucopenia, algo de desviación izquierda y aeosinoﬁlia es el clásico “hemograma Vﬁco”."
+        "explanation": "Aunque el cuadro clínico es algo inespecífico, el hemograma con leucopenia, algo de desviación izquierda y aeosinofilia es el clásico “hemograma Vfico”."
       },
       {
         "type": "question",
@@ -6221,7 +6247,9 @@
     "topicLabel": "5.1",
     "title": "Infectologia 5.1: Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis",
     "perfilCodes": [
-      "1.04.1.006"
+      "1.04.1.006",
+      "6.01.2.003",
+      "4.01.1.055"
     ],
     "tier": 1,
     "realQuestionCount": 2,
@@ -6230,8 +6258,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis. Código oficial Perfil V3: 1.04.1.006. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.04.1.006",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis. Código oficial Perfil V3: 1.04.1.006, 6.01.2.003, 4.01.1.055. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.04.1.006, 6.01.2.003, 4.01.1.055",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -6280,7 +6308,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.04.1.006",
+              "1.04.1.006, 6.01.2.003, 4.01.1.055",
               "Infecciones de Piel Comunitarias: Celulitis, Erisipela y Foliculitis",
               "Específico",
               "Completo",
@@ -6564,7 +6592,9 @@
     "topicLabel": "5.2",
     "title": "Infectologia 5.2: Síndrome Mononucleósico y Complejo TORCH",
     "perfilCodes": [
-      "1.04.1.025"
+      "1.04.1.025",
+      "2.01.1.016",
+      "2.01.1.127"
     ],
     "tier": 2,
     "realQuestionCount": 4,
@@ -6573,8 +6603,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Mononucleósico y Complejo TORCH. Código oficial Perfil V3: 1.04.1.025. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.04.1.025",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Mononucleósico y Complejo TORCH. Código oficial Perfil V3: 1.04.1.025, 2.01.1.016, 2.01.1.127. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.04.1.025, 2.01.1.016, 2.01.1.127",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -6623,7 +6653,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.04.1.025",
+              "1.04.1.025, 2.01.1.016, 2.01.1.127",
               "Síndrome Mononucleósico y Complejo TORCH",
               "Específico",
               "Completo",
@@ -6810,7 +6840,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 54",
         "notes": "[SLIDE 9] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 54.",
         "number": 3,
-        "caseText": "Un paciente de 23 años consulta por ﬁebre de 7 días de evolución asociada a odinofagia intensa y malestar general. Al examen Fsico se observa paciente febril, con temperatura: 38,1 °C, frecuencia cardíaca: 100 por minuto y presión arterial: 118/78 mmHg; presenta faringe eritematosa con amígdalas aumentadas de tamaño, se palpan adenopa`as cervicales anteriores bilaterales y, en el examen abdominal, se palpa el hígado 2 cm por debajo del reborde costal. Se solicitan exámenes, destacando: hemograma con hematocrito 39%, hemoglobina 13 g/dL, VCM 88 fL, glóbulos blancos 15.600/mm³ con 70% linfocitos, 20% neutróﬁlos y 10% monocitos; pruebas hepá8cas con SGOT: 262 U/L, SGPT: 214 U/L, GGT: 90 U/L, fosfatasas alcalinas: 95 U/L y bilirrubina total: 1,2 mg/dL. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente de 23 años consulta por fiebre de 7 días de evolución asociada a odinofagia intensa y malestar general. Al examen físico se observa paciente febril, con temperatura: 38,1 °C, frecuencia cardíaca: 100 por minuto y presión arterial: 118/78 mmHg; presenta faringe eritematosa con amígdalas aumentadas de tamaño, se palpan adenopa`as cervicales anteriores bilaterales y, en el examen abdominal, se palpa el hígado 2 cm por debajo del reborde costal. Se solicitan exámenes, destacando: hemograma con hematocrito 39%, hemoglobina 13 g/dL, VCM 88 fL, glóbulos blancos 15.600/mm³ con 70% linfocitos, 20% neutrófilos y 10% monocitos; pruebas hepáticas con SGOT: 262 U/L, SGPT: 214 U/L, GGT: 90 U/L, fosfatasas alcalinas: 95 U/L y bilirrubina total: 1,2 mg/dL. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -6839,7 +6869,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Tiene una mononucleosis clásica, con el síndrome mononucleósico (odinofagia, adenopaVas y ﬁebre), más los elementos clásicos: linfocitosis, hepatoesplenomegalia y hepaGGs (faltó el rash morbiliforme espontáneo o posterior al uso de aminopenicilinas)."
+        "explanation": "Tiene una mononucleosis clásica, con el síndrome mononucleósico (odinofagia, adenopatías y fiebre), más los elementos clásicos: linfocitosis, hepatoesplenomegalia y hepaGGs (faltó el rash morbiliforme espontáneo o posterior al uso de aminopenicilinas)."
       },
       {
         "type": "question",
@@ -6905,7 +6935,10 @@
     "topicLabel": "5.3",
     "title": "Infectologia 5.3: Exantemas Febriles de la Infancia: Sarampión, Rubéola, Escarlatina y Kawasaki",
     "perfilCodes": [
-      "1.04.1.011"
+      "1.04.1.011",
+      "2.01.1.009",
+      "2.01.1.008",
+      "2.01.1.058"
     ],
     "tier": 1,
     "realQuestionCount": 2,
@@ -6914,8 +6947,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Exantemas Febriles de la Infancia: Sarampión, Rubéola, Escarlatina y Kawasaki. Código oficial Perfil V3: 1.04.1.011. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.04.1.011",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Exantemas Febriles de la Infancia: Sarampión, Rubéola, Escarlatina y Kawasaki. Código oficial Perfil V3: 1.04.1.011, 2.01.1.009, 2.01.1.008, 2.01.1.058. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.04.1.011, 2.01.1.009, 2.01.1.008, 2.01.1.058",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -6964,7 +6997,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.04.1.011",
+              "1.04.1.011, 2.01.1.009, 2.01.1.008, 2.01.1.058",
               "Exantemas Febriles de la Infancia: Sarampión, Rubéola, Escarlatina y Kawasaki",
               "Específico",
               "Completo",
@@ -7255,7 +7288,9 @@
     "topicLabel": "5.4",
     "title": "Infectologia 5.4: Varicela No Complicada vs Complicada y Herpes Zóster",
     "perfilCodes": [
-      "1.04.1.011, 1.04.2.010"
+      "1.04.1.011",
+      "1.04.2.010",
+      "6.01.2.007"
     ],
     "tier": 2,
     "realQuestionCount": 2,
@@ -7264,8 +7299,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Varicela No Complicada vs Complicada y Herpes Zóster. Código oficial Perfil V3: 1.04.1.011, 1.04.2.010. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.04.1.011, 1.04.2.010",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Varicela No Complicada vs Complicada y Herpes Zóster. Código oficial Perfil V3: 1.04.1.011, 1.04.2.010, 6.01.2.007. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.04.1.011, 1.04.2.010, 6.01.2.007",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -7314,7 +7349,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.04.1.011, 1.04.2.010",
+              "1.04.1.011, 1.04.2.010, 6.01.2.007",
               "Varicela No Complicada vs Complicada y Herpes Zóster",
               "Específico",
               "Completo",
@@ -7600,7 +7635,8 @@
     "topicLabel": "5.5",
     "title": "Infectologia 5.5: Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco",
     "perfilCodes": [
-      "1.04.1.020, 1.04.1.024"
+      "1.04.1.020",
+      "1.04.1.019"
     ],
     "tier": 3,
     "realQuestionCount": 0,
@@ -7609,8 +7645,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco. Código oficial Perfil V3: 1.04.1.020, 1.04.1.024.",
-        "kicker": "CÓDIGO PERFIL V3: 1.04.1.020, 1.04.1.024",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco. Código oficial Perfil V3: 1.04.1.020, 1.04.1.019.",
+        "kicker": "CÓDIGO PERFIL V3: 1.04.1.020, 1.04.1.019",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -7653,7 +7689,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.04.1.020, 1.04.1.024",
+              "1.04.1.020, 1.04.1.019",
               "Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco",
               "Específico",
               "Inicial",
@@ -7859,6 +7895,416 @@
               "Vancomicina de entrada: SOLO si hay shock séptico, infección de catéter evidente, mucositis severa o sospecha de SAMR.",
               "Bajo riesgo (MASCC ≥ 21): opción ambulatoria con Ciprofloxacino + Amoxicilina/Clavulánico oral.",
               "Fiebre persistente al 4°-7° día a pesar de antibióticos: sospechar Aspergilosis o micosis invasora e iniciar Voriconazol o Caspofungina EV."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "infecto-25": {
+    "id": "infecto-25",
+    "topicLabel": "5.6",
+    "title": "Infectologia 5.6: Virus Respiratorios: Influenza y COVID-19 (Adulto y Niño)",
+    "perfilCodes": [
+      "1.04.1.016, 1.04.1.029, 2.01.2.144"
+    ],
+    "tier": 2,
+    "realQuestionCount": 3,
+    "slideCount": 14,
+    "slides": [
+      {
+        "type": "cover",
+        "nav": "Portada & Códigos",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Virus Respiratorios: Influenza y COVID-19 (Adulto y Niño). Código oficial Perfil V3: 1.04.1.016, 1.04.1.029, 2.01.2.144. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.04.1.016, 1.04.1.029, 2.01.2.144",
+        "badges": [
+          {
+            "label": "EUNACOM 2026",
+            "bg": "#ffe4e6",
+            "color": "#e11d48",
+            "border": "#f43f5e"
+          },
+          {
+            "label": "Infecciones Comunitarias, Exantemas y Huésped Inmunocomprometido",
+            "bg": "#ede9fe",
+            "color": "#0284c7",
+            "border": "#c4b5fd"
+          },
+          {
+            "label": "Perfil V3 Oficial",
+            "bg": "#dcfce7",
+            "color": "#16a34a",
+            "border": "#4ade80"
+          },
+          {
+            "label": "3 Preguntas Reales (2013-2025)",
+            "bg": "#fef3c7",
+            "color": "#b45309",
+            "border": "#f59e0b"
+          }
+        ],
+        "title": "Virus Respiratorios: Influenza y COVID-19 (Adulto y Niño)",
+        "subtitle": "Frecuencia: Alta rentabilidad · oseltamivir solo en grupos de riesgo o formas graves, y síndrome inflamatorio multisistémico del niño tras COVID-19"
+      },
+      {
+        "type": "table",
+        "nav": "Matriz Perfil V3",
+        "notes": "[SLIDE 2] Exigencia legal según Perfil de Conocimientos ASOFAMECh: Diagnóstico: Específico, Tratamiento: Completo, Seguimiento: Completo.",
+        "title": "Matriz de Auditoría Legal: Virus Respiratorios: Influenza y COVID-19 (Adulto y Niño)",
+        "subtitle": "Nivel de competencia médica exigible por ley en Chile (EUNACOM 2026).",
+        "headers": [
+          "Código",
+          "Situación Clínica",
+          "Diagnóstico",
+          "Tratamiento",
+          "Seguimiento"
+        ],
+        "highlightCol": 1,
+        "pearl": "✅ MANEJO AUTÓNOMO APS: Esta condición debe ser diagnosticada, tratada y seguida íntegramente por el médico general en CESFAM.",
+        "rows": [
+          {
+            "highlight": true,
+            "cells": [
+              "1.04.1.016, 1.04.1.029, 2.01.2.144",
+              "Virus Respiratorios: Influenza y COVID-19 (Adulto y Niño)",
+              "Específico",
+              "Completo",
+              "Completo"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Influenza: Clínica, Diagnóstico y Compli",
+        "notes": "[SLIDE 3] La influenza (virus influenza A y B) se transmite por gotitas y tiene brotes invernales. Se presenta con fiebre alta de inicio brusco, mialgias, cefalea, malestar intenso, tos seca y odinofagia, a diferencia del resfrío común (rinorrea y congestión predominan, sin fiebre alta). Dura 3–7 días. El diagnóstico es clínico en temporada; la confirmación (PCR o inmunofluorescencia de aspirado nasofaríngeo) se reserva para pacientes hospitalizados, graves o para vigilancia. Complicaciones: neumonía viral primaria, neumonía bacteriana secundaria (S. pneumoniae, S. aureus), descompensación de enfermedades crónicas (EPOC, asma, insuficiencia cardíaca), miocarditis, encefalopatía y, en niños con aspirina, síndrome de Reye (por eso no se usa AAS). Son grupos de riesgo: edad ≥ 65 años, menores de 5 años (sobre todo menores de 2 años), embarazadas, obesidad mórbida, enfermedades cardiopulmonares, renales, hepáticas, diabetes e inmunosupresión.",
+        "title": "1. Influenza: Clínica, Diagnóstico y Complicaciones",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "La influenza (virus influenza A y B) se transmite por gotitas y tiene brotes invernales. Se presenta con fiebre alta de inicio brusco, mialgias, cefalea, malestar intenso, tos seca y odinofagia, a diferencia del resfrío común (rinorrea y congestión predominan, sin fiebre alta). Dura 3–7 días. El diagnóstico es clínico en temporada; la confirmación (PCR o inmunofluorescencia de aspirado nasofaríngeo) se reserva para pacientes hospitalizados, graves o para vigilancia.",
+              "Complicaciones: neumonía viral primaria, neumonía bacteriana secundaria (S. pneumoniae, S. aureus), descompensación de enfermedades crónicas (EPOC, asma, insuficiencia cardíaca), miocarditis, encefalopatía y, en niños con aspirina, síndrome de Reye (por eso no se usa AAS). Son grupos de riesgo: edad ≥ 65 años, menores de 5 años (sobre todo menores de 2 años), embarazadas, obesidad mórbida, enfermedades cardiopulmonares, renales, hepáticas, diabetes e inmunosupresión."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Influenza: Tratamiento Antiviral y Preve",
+        "notes": "[SLIDE 4] Oseltamivir 75 mg cada 12 horas por 5 días (inhibidor de la neuraminidasa), idealmente dentro de las primeras 48 horas, pero sin esperar en formas graves u hospitalizadas, en que se da aunque hayan pasado más horas. Está indicado en grupos de riesgo, embarazadas y formas graves; en un adulto sano sin factores de riesgo con cuadro leve basta el manejo sintomático (el oseltamivir es opcional y acorta la enfermedad solo alrededor de un día). Ajustar en insuficiencia renal. En niños la dosis es por peso: ≤ 15 kg 30 mg, 15–23 kg 45 mg, 23–40 kg 60 mg y &gt; 40 kg 75 mg cada 12 horas; en lactantes menores de 1 año 3 mg/kg por dosis. Prevención: vacuna inactivada anual (embarazadas, ≥ 65 años, enfermos crónicos, personal de salud y niños de 6 meses a 5.º básico, gratuita en el PNI), lavado de manos, etiqueta respiratoria y aislamiento por gotitas. La quimioprofilaxis postexposición con oseltamivir se reserva para contactos de alto riesgo no vacunados. Se notifican los casos de infección respiratoria aguda grave.",
+        "title": "2. Influenza: Tratamiento Antiviral y Prevención",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "Oseltamivir 75 mg cada 12 horas por 5 días (inhibidor de la neuraminidasa), idealmente dentro de las primeras 48 horas, pero sin esperar en formas graves u hospitalizadas, en que se da aunque hayan pasado más horas. Está indicado en grupos de riesgo, embarazadas y formas graves; en un adulto sano sin factores de riesgo con cuadro leve basta el manejo sintomático (el oseltamivir es opcional y acorta la enfermedad solo alrededor de un día). Ajustar en insuficiencia renal. En niños la dosis es por peso: ≤ 15 kg 30 mg, 15–23 kg 45 mg, 23–40 kg 60 mg y &gt; 40 kg 75 mg cada 12 horas; en lactantes menores de 1 año 3 mg/kg por dosis.",
+              "Prevención: vacuna inactivada anual (embarazadas, ≥ 65 años, enfermos crónicos, personal de salud y niños de 6 meses a 5.º básico, gratuita en el PNI), lavado de manos, etiqueta respiratoria y aislamiento por gotitas. La quimioprofilaxis postexposición con oseltamivir se reserva para contactos de alto riesgo no vacunados. Se notifican los casos de infección respiratoria aguda grave."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "COVID-19: Clasificación de Gravedad y Tr",
+        "notes": "[SLIDE 5] La COVID-19 (SARS-CoV-2) va desde infección asintomática hasta insuficiencia respiratoria grave. Síntomas: fiebre, tos, odinofagia, mialgias, cefalea, y anosmia/ageusia (menos frecuentes con las variantes recientes). Se confirma con PCR o test de antígeno (más rendimiento en los primeros 5–7 días de síntomas). Clasificación: leve (sin disnea ni neumonía), moderada (neumonía con SpO₂ ≥ 94 %), grave (SpO₂ &lt; 94 % ambiental, FR &gt; 30 rpm o infiltrados &gt; 50 %) y crítica (insuficiencia respiratoria, shock, falla multiorgánica). Factores de riesgo de progresión: edad avanzada, obesidad, diabetes, enfermedad cardiovascular o renal, inmunosupresión y no estar vacunado. Enfermedad leve a moderada (nivel completo): manejo sintomático (paracetamol, hidratación, reposo), aislamiento mientras haya síntomas, educación sobre signos de alarma (disnea, saturación baja, dolor torácico, compromiso de conciencia) y control. En pacientes con riesgo de progresión se indica nirmatrelvir/ritonavir (300/100 mg cada 12 h por 5 días, dentro de los primeros 5 días de síntomas; ojo con las interacciones del ritonavir y el ajuste en insuficiencia renal) o remdesivir por 3 días. Los antibióticos solo se usan ante sobreinfección bacteriana. Si requiere oxígeno: dexametasona 6 mg al día por hasta 10 días, anticoagulación profiláctica y, en casos seleccionados, baricitinib o tocilizumab; se hospitaliza con SpO₂ &lt; 94 %.",
+        "title": "3. COVID-19: Clasificación de Gravedad y Tratamiento del Adulto",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "La COVID-19 (SARS-CoV-2) va desde infección asintomática hasta insuficiencia respiratoria grave. Síntomas: fiebre, tos, odinofagia, mialgias, cefalea, y anosmia/ageusia (menos frecuentes con las variantes recientes). Se confirma con PCR o test de antígeno (más rendimiento en los primeros 5–7 días de síntomas). Clasificación: leve (sin disnea ni neumonía), moderada (neumonía con SpO₂ ≥ 94 %), grave (SpO₂ &lt; 94 % ambiental, FR &gt; 30 rpm o infiltrados &gt; 50 %) y crítica (insuficiencia respiratoria, shock, falla multiorgánica). Factores de riesgo de progresión: edad avanzada, obesidad, diabetes, enfermedad cardiovascular o renal, inmunosupresión y no estar vacunado.",
+              "Enfermedad leve a moderada (nivel completo): manejo sintomático (paracetamol, hidratación, reposo), aislamiento mientras haya síntomas, educación sobre signos de alarma (disnea, saturación baja, dolor torácico, compromiso de conciencia) y control. En pacientes con riesgo de progresión se indica nirmatrelvir/ritonavir (300/100 mg cada 12 h por 5 días, dentro de los primeros 5 días de síntomas; ojo con las interacciones del ritonavir y el ajuste en insuficiencia renal) o remdesivir por 3 días. Los antibióticos solo se usan ante sobreinfección bacteriana. Si requiere oxígeno: dexametasona 6 mg al día por hasta 10 días, anticoagulación profiláctica y, en casos seleccionados, baricitinib o tocilizumab; se hospitaliza con SpO₂ &lt; 94 %."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "COVID-19 en el Niño: Manejo y MIS-C",
+        "notes": "[SLIDE 6] En el niño la COVID-19 es habitualmente leve (fiebre, tos, rinorrea, síntomas digestivos, laringitis o bronquiolitis). Se maneja con tratamiento sintomático y vigilancia de signos de gravedad: dificultad respiratoria, retracciones, SpO₂ &lt; 94 %, rechazo alimentario, somnolencia o deshidratación. Los lactantes, los niños con cardiopatías, inmunosupresión, obesidad o enfermedades crónicas tienen más riesgo; se hospitaliza si hay hipoxemia y se usa dexametasona si requiere oxígeno. El antiviral se reserva para adolescentes de riesgo (≥ 12 años y ≥ 40 kg). Síndrome inflamatorio multisistémico pediátrico (MIS-C): aparece 2 a 6 semanas después de la infección o el contacto con SARS-CoV-2, como una respuesta inmune exagerada. Fiebre persistente (≥ 3 días) con compromiso de varios órganos: dolor abdominal y vómitos (puede simular apendicitis), exantema, conjuntivitis, shock, miocarditis o disfunción ventricular. Laboratorio: PCR, ferritina, dímero D, troponina y BNP elevados, linfopenia y trombocitopenia. Se diferencia del Kawasaki por la edad mayor, el predominio de síntomas digestivos y el shock. Es una urgencia: se deriva a UCI pediátrica para inmunoglobulina EV, corticoides y manejo del shock, con ecocardiograma.",
+        "title": "4. COVID-19 en el Niño: Manejo y MIS-C",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "En el niño la COVID-19 es habitualmente leve (fiebre, tos, rinorrea, síntomas digestivos, laringitis o bronquiolitis). Se maneja con tratamiento sintomático y vigilancia de signos de gravedad: dificultad respiratoria, retracciones, SpO₂ &lt; 94 %, rechazo alimentario, somnolencia o deshidratación. Los lactantes, los niños con cardiopatías, inmunosupresión, obesidad o enfermedades crónicas tienen más riesgo; se hospitaliza si hay hipoxemia y se usa dexametasona si requiere oxígeno. El antiviral se reserva para adolescentes de riesgo (≥ 12 años y ≥ 40 kg).",
+              "Síndrome inflamatorio multisistémico pediátrico (MIS-C): aparece 2 a 6 semanas después de la infección o el contacto con SARS-CoV-2, como una respuesta inmune exagerada. Fiebre persistente (≥ 3 días) con compromiso de varios órganos: dolor abdominal y vómitos (puede simular apendicitis), exantema, conjuntivitis, shock, miocarditis o disfunción ventricular. Laboratorio: PCR, ferritina, dímero D, troponina y BNP elevados, linfopenia y trombocitopenia. Se diferencia del Kawasaki por la edad mayor, el predominio de síntomas digestivos y el shock. Es una urgencia: se deriva a UCI pediátrica para inmunoglobulina EV, corticoides y manejo del shock, con ecocardiograma."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Influenza versus COVID-19: Dif",
+        "notes": "[SLIDE 7] Influenza versus COVID-19: Diferencias Prácticas.",
+        "title": "Influenza versus COVID-19: Diferencias Prácticas",
+        "headers": [
+          "Aspecto",
+          "Influenza",
+          "COVID-19",
+          "Conducta"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Inicio y síntomas",
+              "Brusco; fiebre alta, mialgias, cefalea intensos",
+              "Variable; anosmia/ageusia, disnea, cuadro más prolongado",
+              "Confirmar con PCR o antígeno"
+            ]
+          },
+          {
+            "cells": [
+              "Antiviral",
+              "Oseltamivir 75 mg c/12 h x 5 días",
+              "Nirmatrelvir/ritonavir x 5 días o remdesivir x 3 días",
+              "Solo riesgo o gravedad (influenza: no esperar confirmación si es grave)"
+            ]
+          },
+          {
+            "cells": [
+              "Corticoides",
+              "No recomendados de rutina",
+              "Dexametasona 6 mg/día si requiere oxígeno",
+              "Hospitalizar si SpO₂ < 94 %"
+            ]
+          },
+          {
+            "cells": [
+              "Complicación pediátrica",
+              "Neumonía, miocarditis, Reye con AAS",
+              "MIS-C 2 a 6 semanas después",
+              "Derivar a UCI pediátrica"
+            ]
+          },
+          {
+            "cells": [
+              "Vacuna",
+              "Anual (inactivada)",
+              "Esquema y refuerzos según PNI",
+              "Priorizar grupos de riesgo"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "figura",
+        "nav": "Algoritmo",
+        "notes": "[SLIDE 8] Algoritmo de Manejo de la Infección Respiratoria Viral por Influenza o SARS-CoV-2",
+        "title": "Manejo de Influenza y COVID-19 en el Paciente Ambulatorio",
+        "svg": "<svg viewBox=\"0 0 620 312\" width=\"100%\" style=\"max-width:620px;font-family:'IBM Plex Sans',system-ui,sans-serif\">\n  <defs><marker id=\"ar\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#475569\"/></marker></defs>\n  <style>\n    .b{fill:#fff;stroke:#cbd5e1;stroke-width:1}\n    .t{font-size:10px;fill:#15181d}\n    .sub{font-size:8px;fill:#475569}.lbl{font-size:7.5px;fill:#64748b}\n    .acc{fill:var(--acc)}.accT{fill:#fff}.accS{font-size:8px;fill:#eafdf3}\n    .dec{fill:var(--acc-t);stroke:var(--acc-p);stroke-width:1}\n    .warn{fill:#fef2f2;stroke:#fecaca;stroke-width:1}.warnT{fill:#991b1b}\n    .ln{stroke:#475569;stroke-width:1.2;fill:none;marker-end:url(#ar)}\n  </style>\n  <rect class=\"b\" x=\"100\" y=\"8\" width=\"420\" height=\"50\" rx=\"3\"/>\\n  <text class=\"t t\" x=\"310\" y=\"23\" text-anchor=\"middle\" font-weight=\"700\">Cuadro Respiratorio Agudo Febril en Temporada Epidémica</text>\\n  <text class=\"sub\" x=\"310\" y=\"35\" text-anchor=\"middle\">Fiebre, mialgias, cefalea, tos seca y odinofagia</text>\\n  <text class=\"sub\" x=\"310\" y=\"46\" text-anchor=\"middle\">Confirmar con PCR o antígeno viral en las primeras horas</text>\\n  <path class=\"ln\" d=\"M310,58 V80\"/>\\n  <rect class=\"dec\" x=\"70\" y=\"80\" width=\"480\" height=\"50\" rx=\"3\"/>\\n  <text class=\"t t\" x=\"310\" y=\"95\" text-anchor=\"middle\" font-weight=\"700\">¿Grupo de riesgo o signos de gravedad?</text>\\n  <text class=\"sub\" x=\"310\" y=\"107\" text-anchor=\"middle\">Edad ≥ 65 años o &lt; 5 años, embarazo, obesidad, enfermedad</text>\\n  <text class=\"sub\" x=\"310\" y=\"118\" text-anchor=\"middle\">crónica, inmunosupresión | disnea, SpO₂ &lt; 94 %, FR elevada</text>\\n  <path class=\"ln\" d=\"M310,130 V160 H158 V170\"/>\\n  <path class=\"ln\" d=\"M310,160 H462 V170\"/>\\n  <text class=\"lbl\" x=\"158\" y=\"155\" text-anchor=\"middle\">riesgo o gravedad</text>\\n  <text class=\"lbl\" x=\"462\" y=\"155\" text-anchor=\"middle\">sin riesgo</text>\\n  <rect class=\"warn\" x=\"12\" y=\"170\" width=\"292\" height=\"50\" rx=\"3\"/>\\n  <text class=\"warnT t\" x=\"158\" y=\"185\" text-anchor=\"middle\" font-weight=\"700\">Influenza: Oseltamivir 75 mg c/12 h x 5 días · COVID-19: Nirmatrelvir/Ritonavir x 5 días</text>\\n  <text class=\"warnT sub\" x=\"158\" y=\"197\" text-anchor=\"middle\">Iniciar sin esperar confirmación si hay gravedad</text>\\n  <text class=\"warnT sub\" x=\"158\" y=\"208\" text-anchor=\"middle\">hospitalizar si hipoxemia · dexametasona 6 mg/día si requiere oxígeno</text>\\n  <rect class=\"acc\" x=\"316\" y=\"170\" width=\"292\" height=\"50\" rx=\"3\"/>\\n  <text class=\"accT t\" x=\"462\" y=\"185\" text-anchor=\"middle\" font-weight=\"700\">Tratamiento Sintomático y Aislamiento</text>\\n  <text class=\"accS\" x=\"462\" y=\"197\" text-anchor=\"middle\">Paracetamol, hidratación, reposo · Signos de alarma para volver a consultar</text>\\n  <text class=\"accS\" x=\"462\" y=\"208\" text-anchor=\"middle\">Oseltamivir opcional en influenza</text>\\n  <path class=\"ln\" d=\"M158,220 V230 H310 V254\"/>\\n  <text class=\"sub\" x=\"317\" y=\"242\">perla pediátrica</text>\\n  <rect class=\"warn\" x=\"100\" y=\"254\" width=\"420\" height=\"50\" rx=\"3\"/>\\n  <text class=\"warnT t\" x=\"310\" y=\"269\" text-anchor=\"middle\" font-weight=\"700\">Niño con Fiebre 2 a 6 Semanas Después de COVID-19: Sospechar MIS-C</text>\\n  <text class=\"warnT sub\" x=\"310\" y=\"281\" text-anchor=\"middle\">Fiebre persistente, compromiso multisistémico y marcadores inflamatorios elevados</text>\\n  <text class=\"warnT sub\" x=\"310\" y=\"292\" text-anchor=\"middle\">Derivar a UCI pediátrica</text>\n</svg>",
+        "steps": [
+          "1. Cuadro Respiratorio Agudo Febril en Temporada Epidémica",
+          "2. ¿Grupo de riesgo o signos de gravedad?",
+          "3. Influenza: Oseltamivir 75 mg c/12 h x 5 días · COVID-19: Nirmatrelvir/Ritonavir x 5 días · Tratamiento Sintomático y Aislamiento · Niño con Fiebre 2 a 6 Semanas Después de COVID-19: Sospechar MIS-C"
+        ]
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 1",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 9] Caso clínico de aplicación número 1.",
+        "number": 1,
+        "caseText": "Un hombre de 22 años, sano, consulta en invierno por rinorrea, congestión nasal, fiebre de 38,5 °C, mialgias y tos seca de 2 días de evolución, durante un brote de influenza en su comuna. No tiene enfermedades crónicas ni signos de dificultad respiratoria. ¿Cuál es la conducta más adecuada?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hospitalizar para oseltamivir endovenoso",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Iniciar amoxicilina-ácido clavulánico por riesgo de neumonía bacteriana",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Indicar prednisona oral por 5 días",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Solicitar PCR en todos los casos antes de decidir el manejo",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Tratamiento sintomático, con oseltamivir como opción en vez de indicación obligatoria",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "En un adulto joven sano con influenza leve el tratamiento es sintomático (paracetamol, hidratación, reposo) y el oseltamivir es solo una opción, porque su beneficio es modesto. El oseltamivir está indicado en grupos de riesgo (≥ 65 años, embarazo, enfermedades crónicas, inmunosupresión) y en formas graves. Los antibióticos solo se usan si hay sobreinfección bacteriana, los corticoides no tienen lugar y el diagnóstico en temporada epidémica es clínico, sin necesidad de PCR en todos los casos."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 2",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 10] Caso clínico de aplicación número 2.",
+        "number": 2,
+        "caseText": "Un adolescente de 14 años consulta por fiebre de 39 °C de 3 días, dolor abdominal, vómitos y diarrea, con exantema y conjuntivitis no purulenta. Hace 4 semanas tuvo un cuadro respiratorio leve del que no se hizo estudio y un familiar tuvo COVID-19. Al examen está hipotenso y taquicárdico. La PCR, la ferritina, el dímero D y la troponina están elevados. ¿Cuál es el diagnóstico más probable?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Apendicitis aguda complicada",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Síndrome inflamatorio multisistémico pediátrico asociado a SARS-CoV-2",
+            "isCorrect": true
+          },
+          {
+            "id": "C",
+            "text": "Gastroenteritis aguda por rotavirus",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Sarampión",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Neumonía viral por SARS-CoV-2",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Fiebre persistente con compromiso digestivo, mucocutáneo (exantema, conjuntivitis) y cardiovascular (hipotensión), con marcadores inflamatorios y troponina elevados 2 a 6 semanas después de un contacto o infección por SARS-CoV-2, configura el síndrome inflamatorio multisistémico (MIS-C). Es una urgencia: se deriva a UCI pediátrica para inmunoglobulina endovenosa, corticoides y soporte hemodinámico. La apendicitis y la gastroenteritis no explican el compromiso multisistémico ni los marcadores, y el cuadro no es una neumonía."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 3",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 11] Caso clínico de aplicación número 3.",
+        "number": 3,
+        "caseText": "Un hombre de 58 años, obeso y diabético, no vacunado, consulta al segundo día de síntomas por fiebre, tos y mialgias. Test de antígeno positivo para SARS-CoV-2. Saturación 97 % ambiental y frecuencia respiratoria 16 por minuto. ¿Cuál es el manejo más adecuado?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Dexametasona 6 mg diarios por 10 días",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Hospitalización en UCI con tocilizumab",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Antibiótico de amplio espectro por vía endovenosa",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Manejo sintomático e indicar nirmatrelvir/ritonavir por 5 días, verificando las interacciones farmacológicas",
+            "isCorrect": true
+          },
+          {
+            "id": "E",
+            "text": "Solo reposo sin antivirales porque la enfermedad es leve",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Es una COVID-19 leve en un paciente con factores de riesgo de progresión (obesidad, diabetes, falta de vacunación). Se indica tratamiento antiviral precoz, dentro de los primeros 5 días de síntomas: nirmatrelvir/ritonavir 300/100 mg cada 12 horas por 5 días, revisando las interacciones del ritonavir con sus otros fármacos y la función renal, junto con manejo sintomático y signos de alarma. La dexametasona está reservada a quienes requieren oxígeno y puede ser perjudicial en la enfermedad leve; los antibióticos no tienen indicación sin sobreinfección bacteriana."
+      },
+      {
+        "type": "question",
+        "nav": "Pregunta Real EUNACOM",
+        "badge": "EUNACOM Agosto 2021 · Pregunta 36",
+        "notes": "[SLIDE 12] Pregunta oficial del banco EUNACOM: EUNACOM Agosto 2021 · Pregunta 36.",
+        "number": 4,
+        "caseText": "Un adolescente de 14 años presenta un cuadro de fiebre de 39ºC, desde hace 3 días, asociado a malestar general, dolor abdominal, vómitos y diarrea, seguido de marcado compromiso, por lo que acude al servicio de urgencia. Al examen físico está con compromiso hemodinámico, con frecuencia cardíaca de 120x’ y PA: 90/50 mmHg, por lo que que es manejado con suero fisiológico endovenoso, con respuesta parcial. Tiene antecedente de PCR positiva para Covid-19 hace 30 días y se solicitan nuevos exámenes, que muestran hematocrito: 33%, blancos: 14.000 por mm3, plaquetas: 80.000 por mm3, VHS: 76 mmHg, PCR: 15,5 mg/L, dímero D: 670 ng/ml y troponinas elevadas. ¿Cuál es el diagnóstico más probable?",
+        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sepsis bacteriana",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Síndrome inflamatorio multisistémico",
+            "isCorrect": true
+          },
+          {
+            "id": "C",
+            "text": "Insuficiencia suprarrenal aguda",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Reinfección por Covid-19",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Enfermedad de Kawasaki",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Diagnóstico: **Síndrome inflamatorio multisistémico** (opción **B**). La COVID-19 es la enfermedad causada por el virus SARS-CoV-2, el cual no debe confundirse con el SARS-CoV-1 responsable del antiguo síndrome respiratorio agudo severo. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh."
+      },
+      {
+        "type": "question",
+        "nav": "Pregunta Real EUNACOM",
+        "badge": "EUNACOM Julio 2015 · Pregunta 141",
+        "notes": "[SLIDE 13] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2015 · Pregunta 141.",
+        "number": 5,
+        "caseText": "En contexto de un brote de influenza, durante el invierno, un paciente de 22 años presenta un cuadro de rinorrea, congestión nasal, fiebre, mialgias generalizadas y tos seca. Al examen físico presenta 39 grados celsius, con examen pulmonar normal. El tratamiento más adecuado es:",
+        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Oseltamivir",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Zanamivir",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Aciclovir",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Valaciclovir",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Paracetamol",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "Pregunta demasiado discutible, ya que los pacientes sin antecedentes de riesgo tienen la opción de usar oseltamivir, si así lo quieren, para disminuir el tiempo de influenza y asegurar que no será grave. La guía minsal solo da oseltamivir a pacientes con factores de riesgo o con influenza grave. Sin embargo el tratamiento sintomático es el de elección en la influenza. Se debe evitar la aspirina y el ibuprofeno, por el riesgo de síndrome de Reye. Además por la rinorrea y congestión, se puede sospechar otro virus, distinto a la influenza"
+      },
+      {
+        "type": "bento",
+        "nav": "Reglas de Oro",
+        "notes": "[SLIDE 14] Repasemos las reglas de oro de este tema para no fallar en el EUNACOM.",
+        "title": "Reglas de Oro del Examen EUNACOM",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "Influenza: fiebre alta brusca, mialgias, cefalea y tos seca; el diagnóstico en temporada es clínico.",
+              "Oseltamivir 75 mg cada 12 h por 5 días en grupos de riesgo (≥ 65 años, embarazo, crónicos, inmunosupresión) y formas graves; en el adulto sano con cuadro leve solo se da tratamiento sintomático.",
+              "No usar aspirina en niños con influenza (síndrome de Reye).",
+              "COVID-19: leve, moderada (neumonía con SpO₂ ≥ 94 %), grave (SpO₂ < 94 %) y crítica; el diagnóstico es por PCR o test de antígeno.",
+              "Nirmatrelvir/ritonavir en pacientes de riesgo dentro de 5 días; dexametasona 6 mg/día solo si requiere oxígeno.",
+              "MIS-C: fiebre y compromiso multisistémico 2 a 6 semanas después de COVID-19, con PCR, ferritina, dímero D y troponina elevados; se deriva a UCI pediátrica para inmunoglobulina y corticoides."
             ]
           }
         ]

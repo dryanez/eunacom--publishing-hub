@@ -70,7 +70,8 @@ module.exports = {
       cards: [
         { title: 'Cómo se reconoce', tag: 'Semiología', kind: 'key', items: [
           { t: 'Bolsa de gusanos', d: 'Sobre el testículo, no transilumina',
-            say: 'Es una masa blanda, tortuosa, sobre y detrás del testículo, que no transilumina. Un varón joven con pesadez escrotal después de estar de pie o de hacer deporte es el cuadro típico.' },
+            say: 'Es una masa blanda, tortuosa, sobre y detrás del testículo, que no transilumina. Mira esta fotografía: un escroto izquierdo con venas dilatadas y tortuosas, la bolsa de gusanos. Un varón joven con pesadez escrotal después de estar de pie o de hacer deporte es el cuadro típico.',
+            photo: { src: '_verificadas/66_varicocele_izquierdo__nelsontextbo_p4260_1.jpg', label: 'Varicocele izquierdo', at: 'Mira esta fotografía', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 4260' } },
           { t: 'Aumenta con Valsalva', d: 'Se colapsa acostado',
             say: 'Aumenta con la maniobra de Valsalva y desaparece o se colapsa en decúbito dorsal. Esa última propiedad es la que separa el varicocele benigno del peligroso, y la vemos en un momento.' },
         ] },
@@ -116,13 +117,18 @@ module.exports = {
           { t: 'Líquido en la túnica vaginal', d: 'Entre sus hojas parietal y visceral',
             say: 'El hidrocele es líquido seroso entre las hojas de la túnica vaginal. En niños suele ser comunicante, por un conducto peritoneovaginal permeable. En adultos es adquirido, idiopático o reactivo a trauma o infección.' },
           { t: 'Testículo no se palpa aparte', d: 'Transilumina',
-            say: 'La masa engloba el testículo, así que no puedes palparlo por separado, y transilumina. Es el dato que lo distingue del quiste de epidídimo.' },
+            say: 'La masa engloba el testículo, así que no puedes palparlo por separado, y transilumina. Es el dato que lo distingue del quiste de epidídimo. Mira este escroto: el hemiescroto está muy aumentado de tamaño, de superficie lisa y tensa, y con la linterna toda la bolsa se iluminaría.',
+            photo: { src: 'biblioteca/19_urologia/uro-07/01_hidrocele-derecho-fotografia__bailey-love_p1524.jpg', label: 'Hidrocele derecho', at: 'Mira este escroto', credit: 'Bailey & Love 27.ª ed., Fig. 80.10' } },
           { t: 'Cirugía si molesta; nunca punción', d: 'Recidiva rápida e infección',
             say: 'Si es chico, se observa. Si es grande o molesto, se opera con hidrocelectomía. La punción evacuadora está contraindicada porque recidiva rápido y puede infectarse.' },
         ] },
         { title: 'Quiste de epidídimo', tag: 'Espermatocele', kind: 'normal', items: [
           { t: 'Quiste de la cabeza del epidídimo', d: 'Líquido lechoso con espermatozoides',
-            say: 'El espermatocele, o quiste de retención del epidídimo, es una dilatación benigna de los túbulos de la cabeza del epidídimo. Contiene líquido lechoso con espermatozoides.' },
+            say: 'El espermatocele, o quiste de retención del epidídimo, es una dilatación benigna de los túbulos de la cabeza del epidídimo. Contiene líquido lechoso con espermatozoides. Mira esta ecografía: una lesión redonda, de contenido líquido y paredes finas, fuera del testículo.',
+            photos: [
+              { src: 'biblioteca/19_urologia/uro-07/02_ecografia-quiste-epididimo__bailey-love_p1525.jpg', label: 'Quiste de epidídimo', at: 'Mira esta ecografía', credit: 'Bailey & Love 27.ª ed., Fig. 80.13' },
+              { src: '_web/366_uro_Masas_escrotales__Commons_1.jpg', label: 'Quiste con Doppler', at: 'Mira esta ecografía', credit: 'Wikimedia Commons, CC0' },
+            ] },
           { t: 'Masa lisa, separada del testículo', d: 'Polo superior, indolora',
             say: 'Se palpa redonda, lisa, tensa e indolora, claramente separada del testículo, arriba. Se observa, y se reseca solo si duele.' },
         ] },
@@ -130,19 +136,40 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Escroto vacío',
+      title: 'Criptorquidia: el testículo que no bajó',
+      cards: [
+        { title: 'Qué es y cómo se examina', tag: 'Diagnóstico', kind: 'key', items: [
+          { t: 'Afecta al 1 a 3% de los recién nacidos', d: 'Hasta 30% de los prematuros',
+            say: 'La criptorquidia es la ausencia de un testículo en el escroto por detención de su descenso. Afecta a uno a tres por ciento de los recién nacidos de término y hasta treinta por ciento de los prematuros. La mayoría baja sola en los primeros tres a seis meses, y persiste en cerca del uno por ciento de los lactantes.' },
+          { t: 'Palpable, impalpable o retráctil', d: 'El retráctil baja con una maniobra suave',
+            say: 'Distingue el palpable, en el canal inguinal o ectópico, del impalpable, intraabdominal, atrófico o ausente. Y del testículo retráctil, que baja con una maniobra suave por el reflejo cremastérico: ese no se opera, solo se controla cada año.' },
+          { t: 'Manos tibias, ordeñar el canal', d: 'Si no se palpa, laparoscopía',
+            say: 'Para examinar, usa manos tibias, con el niño sentado o en cuclillas, y ordeña el canal inguinal hacia el escroto. Si no se palpa, la ecografía aporta poco y se prefiere la laparoscopía.' },
+        ] },
+        { title: 'Qué se hace', tag: 'Inicial; seguimiento completo', kind: 'alert', items: [
+          { t: 'Orquidopexia entre 6 y 12 meses', d: 'A más tardar a los 18 meses',
+            say: 'Si a los seis meses de edad corregida no ha descendido, se deriva para orquidopexia entre los seis y los doce meses, a más tardar a los dieciocho. El daño de las células germinales empieza durante el primer año. La hormonoterapia con hCG no se recomienda de rutina.' },
+          { t: 'Bilateral impalpable con hipospadias', d: 'Estudiar trastorno del desarrollo sexual',
+            say: 'Si es bilateral e impalpable, con hipospadias o micropene, estudia un trastorno del desarrollo sexual.' },
+          { t: 'Riesgo de cáncer 4 a 10 veces', d: 'Persiste tras la cirugía; autoexamen',
+            say: 'Sin tratamiento aumentan la infertilidad, la torsión, la hernia inguinal y el riesgo de cáncer testicular, de cuatro a diez veces, que persiste tras la cirugía: por eso se enseña el autoexamen testicular desde la adolescencia. En el adulto con testículo intraabdominal se prefiere la orquiectomía.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Hidrocele y quiste de epidídimo',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El plexo pampiniforme',
       images: [
-        { src: 'biblioteca/19_urologia/uro-07/01_hidrocele-derecho-fotografia__bailey-love_p1524.jpg', label: 'Hidrocele derecho: hemiescroto grande, liso y tenso', credit: 'Bailey & Love 27.ª ed., Fig. 80.10' },
-        { src: 'biblioteca/19_urologia/uro-07/02_ecografia-quiste-epididimo__bailey-love_p1525.jpg', label: 'Ecografía de un quiste de epidídimo: lesión líquida bien delimitada', credit: 'Bailey & Love 27.ª ed., Fig. 80.13' },
+        { src: 'animaciones/uro-07/A1_varicocele_plexo.mp4', label: 'Del plexo normal al varicocele', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Un hemiescroto tenso y liso',
-          say: 'Mira la forma: un hemiescroto muy aumentado de tamaño, de superficie lisa y tensa. El testículo queda dentro de la masa y por eso no lo puedes palpar por separado. Con la linterna, toda la bolsa se iluminaría.' },
-        { note: 'Una colección redonda, de contenido líquido',
-          say: 'En la ecografía, el quiste de epidídimo se ve como una lesión redonda, de contenido líquido y paredes finas, fuera del testículo. Esa imagen, junto a un testículo normal, es la que apareció en el examen.' },
+        { note: 'Del plexo normal al varicocele',
+          say: 'Compara el plexo normal con el varicocele: las venas se dilatan y se vuelven tortuosas, la bolsa de gusanos. Aumenta con la maniobra de Valsalva y se colapsa acostado. Ese colapso es lo que lo separa del peligroso: si es derecho, de inicio súbito o no se colapsa al acostarse, hay que descartar un tumor renal.' },
       ],
     },
 
@@ -256,6 +283,82 @@ module.exports = {
         options: 'Las opciones: orquiectomía radical; resección de la lesión; punción; autoexamen testicular frecuente; o control ecográfico en un año. Piénsalo.',
         answer: 'Es la E. Extratesticular, quística, de paredes finas y en la cabeza del epidídimo: es un quiste de epidídimo, benigno, y se observa. La A es la trampa, porque la orquiectomía es para una masa sólida intratesticular. Y la resección se reserva para si da dolor.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.1.011 · Hidrocele",
+      "stem": "Hombre de 45 años consulta por aumento de volumen del hemiescroto izquierdo, indoloro, de crecimiento lento en 1 año. Al examen se palpa una masa quística, lisa, que no permite palpar bien el testículo, transilumina y no se reduce. Se puede palpar el cordón espermático por encima de la masa.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Punción evacuadora repetida como tratamiento definitivo"
+        },
+        {
+          "letter": "B",
+          "text": "Ecografía testicular para confirmar el diagnóstico y descartar una causa secundaria, como tumor o infección, y luego cirugía electiva si es sintomático"
+        },
+        {
+          "letter": "C",
+          "text": "Herniorrafia inguinal urgente"
+        },
+        {
+          "letter": "D",
+          "text": "Orquiectomía inguinal radical"
+        },
+        {
+          "letter": "E",
+          "text": "Antibióticos por 14 días"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Una masa quística que transilumina, envuelve al testículo y permite palpar el cordón por encima es un hidrocele. En el adulto siempre se solicita ecografía, porque el testículo no se palpa bien y el hidrocele puede ser secundario a tumor o infección. Si molesta, se trata con hidrocelectomía; la punción tiene alta recidiva.",
+      "say": {
+        "stem": "Un hombre de cuarenta y cinco años tiene el hemiescroto izquierdo agrandado hace un año, sin dolor. Se palpa una masa quística que transilumina, no deja palpar bien el testículo y el cordón se palpa normal por encima.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: punciones repetidas, ecografía para descartar una causa secundaria y luego cirugía electiva, herniorrafia urgente, orquiectomía radical, o antibióticos. Piénsalo.",
+        "answer": "Es la B. Es un hidrocele, y en el adulto siempre se pide ecografía, porque puede esconder un tumor o una infección; si molesta, se opera en forma electiva. La herniorrafia tienta, pero en la hernia no se palpa el cordón libre por encima de la masa."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2022 · Pregunta 116",
+      "stem": "Usted evalúa a un recién nacido de término, en buenas condiciones, que se alimenta con leche materna y tiene examen neurológico normal. Al examen físico segmentario no se palpa ninguno de los testículos en el escroto ni en la zona inguinal. Su pene mide 2 cm de largo.",
+      "question": "Además de solicitar una ecografía inguinal, ¿cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Controlar en un mes"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar niveles plasmáticos de testosterona"
+        },
+        {
+          "letter": "C",
+          "text": "Realizar exploración quirúrgica inmediata mediante laparoscopía"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar cariograma"
+        },
+        {
+          "letter": "E",
+          "text": "Planificar cirugía de descenso testicular al cumplir un año"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Criptorquidia bilateral no palpable, sobre todo con pene pequeño, es una alteración de la diferenciación sexual hasta demostrar lo contrario: puede ser una recién nacida 46,XX virilizada por hiperplasia suprarrenal congénita (con riesgo de crisis perdedora de sal). Requiere cariograma urgente (y 17-OH-progesterona y electrolitos). Controlar en un mes es adecuado solo para la criptorquidia unilateral aislada.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veintidós. Un recién nacido de término sano no tiene ningún testículo palpable, ni en el escroto ni en la región inguinal, y su pene mide dos centímetros.",
+        "question": "Además de la ecografía, ¿cuál es la conducta más adecuada?",
+        "options": "Las opciones: controlar en un mes, testosterona plasmática, laparoscopía inmediata, cariograma o cirugía al año. Piénsalo.",
+        "answer": "Es la D. Los dos testículos no palpables, con un pene pequeño, obligan a descartar un trastorno de la diferenciación sexual, como una niña virilizada por hiperplasia suprarrenal, con un cariograma. Controlar en un mes tienta, pero eso vale para la criptorquidia unilateral aislada."
+      }
     },
 
     {

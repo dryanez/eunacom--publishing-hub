@@ -77,9 +77,11 @@ module.exports = {
         ] },
         { title: 'POP-Q', tag: 'El himen es el punto cero', kind: 'criteria', items: [
           { t: 'Estadio dos', d: 'Entre un centímetro arriba y abajo del himen',
-            say: 'Para medirlo se usa el sistema POP-Q, donde el himen es el punto de referencia cero. El estadio dos es cuando el descenso queda entre un centímetro por encima y un centímetro por debajo del himen.' },
+            say: 'Para medirlo se usa el sistema POP-Q, donde el himen es el punto de referencia cero. El estadio dos es cuando el descenso queda entre un centímetro por encima y un centímetro por debajo del himen. Mira este esquema: los puntos se miden en centímetros, negativos hacia arriba del himen y positivos hacia abajo, y eso define el estadio de cero a cuatro.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-06/S1_pop-q__propio.svg', label: 'Sistema POP-Q', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
           { t: 'Estadio cuatro', d: 'Eversión vaginal completa',
-            say: 'Y el estadio cuatro es la procidencia total, con la vagina completamente evertida.' },
+            say: 'Y el estadio cuatro es la procidencia total, con la vagina completamente evertida. Mira esta paciente: el cuello y el útero salen por completo fuera de la vulva.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-06/02_prolapso-genital__open-i.jpg', label: 'Procidencia genital', at: 'Mira esta paciente', credit: 'Open-i (NLM), CC BY' } },
         ] },
         { title: 'Tratamiento', tag: 'Según los síntomas', kind: 'pharma', items: [
           { t: 'Pesario vaginal', d: 'Si rechaza o no tolera la cirugía',
@@ -112,15 +114,15 @@ module.exports = {
 
     {
       type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Sistema POP-Q',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dos mecanismos, un solo escape',
       images: [
-        { src: 'biblioteca/13_ginecologia/gin-06/S1_pop-q__propio.svg', label: 'POP-Q', credit: 'Dibujo propio (esquema)' },
+        { src: 'animaciones/gin-06/A1_incontinencia.mp4', label: 'Esfuerzo versus urgencia', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Puntos en centímetros respecto del himen',
-          say: 'El prolapso se mide en centímetros respecto del himen: negativo por encima, positivo por debajo. Eso define el estadio, de cero a cuatro.' },
+        { note: 'Soporte versus detrusor',
+          say: 'Mira la vejiga y la uretra. En la incontinencia de esfuerzo, al toser sube la presión abdominal y el cuello vesical, que perdió su soporte, desciende: se escapa poco volumen, sin aviso. Se trata con Kegel y, si falla, con cabestrillo. En la urgencia, el detrusor se contrae solo, hay un deseo imperioso y un escape de buen volumen. Se trata con reeducación y fármacos, y el cabestrillo está contraindicado.' },
       ],
     },
 

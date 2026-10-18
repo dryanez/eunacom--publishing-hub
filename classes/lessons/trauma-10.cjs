@@ -97,7 +97,8 @@ module.exports = {
         { show: ['cu', 'des'], note: 'La irrigación de la cabeza pasa por el cuello',
           say: 'La cabeza femoral recibe su irrigación principalmente de las arterias circunflejas, que rodean el cuello. Si el cuello se fractura y los fragmentos se desplazan, esos vasos se cortan.' },
         { show: ['vas', 'nec'], note: 'Sin sangre, la cabeza se necrosa',
-          say: 'La cabeza queda sin aporte de sangre y se necrosa. La necrosis avascular de la cabeza femoral es la complicación más frecuente y más grave de las fracturas de cuello desplazadas.' },
+          photo: { src: 'biblioteca/18_traumatologia/trauma-10/21_necrosis-avascular-cadera__sherman_p545.jpg', label: 'Necrosis avascular avanzada', at: 'Mira esta cabeza femoral', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 545' },
+          say: 'La cabeza queda sin aporte de sangre y se necrosa. Mira esta cabeza femoral con necrosis avanzada: pierde su forma esférica y se colapsa. La necrosis avascular de la cabeza femoral es la complicación más frecuente y más grave de las fracturas de cuello desplazadas.' },
         { show: ['pro'], note: 'Por eso se reemplaza la articulación',
           say: 'Y de aquí sale la conducta. Si el riesgo de necrosis es muy alto, no tiene sentido fijar una cabeza que probablemente morirá. Se reemplaza la articulación desde el inicio, con una prótesis.' },
       ],
@@ -116,7 +117,8 @@ module.exports = {
         ] },
         { title: 'Prótesis de entrada', tag: 'Tres condiciones', kind: 'criteria', items: [
           { t: 'Cuello femoral, intracapsular', d: 'Las tres condiciones deben cumplirse juntas',
-            say: 'Se prefiere reemplazar la articulación y no fijar el hueso cuando se cumplen las tres condiciones al mismo tiempo. Primera, fractura de cuello femoral, que es intracapsular.' },
+            photo: { src: 'biblioteca/18_traumatologia/trauma-10/01_rx_fractura_cuello_femur__commons.jpg', label: 'Fractura del cuello femoral', at: 'Mira esta radiografía', credit: 'Wikimedia Commons «Cdm hip fracture 343.jpg», CC BY-SA 3.0, Booyabazooka' },
+            say: 'Se prefiere reemplazar la articulación y no fijar el hueso cuando se cumplen las tres condiciones al mismo tiempo. Primera, fractura de cuello femoral, que es intracapsular. Mira esta radiografía: la flecha marca el trazo en el cuello del fémur.' },
           { t: 'Fractura desplazada', d: 'Segunda condición',
             say: 'Segunda, que esté desplazada.' },
           { t: 'Paciente mayor de 65 años', d: 'Tercera condición',
@@ -124,9 +126,34 @@ module.exports = {
         ] },
         { title: 'Si no cumple', tag: 'Fijar el hueso', kind: 'pharma', items: [
           { t: 'Intertrocantérica: tornillo dinámico', d: 'Osteosíntesis, no prótesis',
-            say: 'Las fracturas intertrocantéricas se fijan con un tornillo dinámico de cadera, el DHS. Es una osteosíntesis, no una prótesis.' },
+            photo: { src: 'biblioteca/18_traumatologia/trauma-10/02_osteosintesis-intertrocanterea-y-cuello__cto-trauma_p26.jpg', label: 'Fijación: DHS y canulados', at: 'En esta imagen', credit: 'Manual CTO Traumatología 14.ª ed., p. 26' },
+            say: 'Las fracturas intertrocantéricas se fijan con un tornillo dinámico de cadera, el DHS. Es una osteosíntesis, no una prótesis. En esta imagen, arriba, una intertrocantérica con tornillo dinámico; abajo, una fractura del cuello fijada con tornillos canulados.' },
           { t: 'Cuello no desplazado o joven', d: 'Tornillos canulados',
             say: 'En una fractura de cuello en menores de sesenta y cinco años o que no está desplazada, se fija con tornillos canulados, porque el riesgo de necrosis es menor.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Mientras llega la cirugía',
+      title: 'Tracción de partes blandas',
+      cards: [
+        { title: 'Tracción cutánea', tag: 'De Buck; en niños, de Bryant', kind: 'key', items: [
+          { t: 'Peso de 2 a 4 kg, en el eje del miembro', d: 'Hasta 10 % del peso corporal',
+            say: 'Mientras llega la cirugía, la tracción cutánea de Buck aplica una fuerza longitudinal sobre la piel, con vendas adhesivas o botas de espuma, unidas por una cuerda y una polea a un peso de dos a cuatro kilos, hasta un diez por ciento del peso corporal.' },
+          { t: 'Alivia dolor y espasmo', d: 'Mantiene alineación y largo del miembro',
+            say: 'Sirve para aliviar el dolor y el espasmo y mantener el alineamiento y el largo de la extremidad en fracturas de cadera y de fémur. En lactantes y niños pequeños se usa la tracción de Bryant.' },
+          { t: 'Piel sana y pie de la cama elevado', d: 'Peso libre; protege prominencias óseas',
+            say: 'La piel debe estar limpia y sana, se protegen las prominencias óseas, el pie de la cama se eleva como contrapeso y el peso queda libre, sin apoyarse. Está contraindicada con lesiones cutáneas, insuficiencia arterial o alergia al adhesivo.' },
+        ] },
+        { title: 'Complicaciones y alcance', tag: 'Cuidado con el peroneo', kind: 'alert', items: [
+          { t: 'Presión, ampollas y nervio peroneo', d: 'Rotación neutra; más TVP',
+            say: 'Complica con lesiones por presión, ampollas y parálisis del nervio peroneo por compresión de la cabeza del peroné, por eso se mantiene la rotación neutra. También con trombosis venosa profunda. Se controlan pulsos, sensibilidad y piel en cada turno.' },
+          { t: 'La esquelética la hace el traumatólogo', d: 'Clavo transóseo',
+            say: 'La tracción esquelética, con clavo transóseo, la realiza el traumatólogo.' },
+          { t: 'En la cadera del adulto mayor: mejor operar', d: 'Posicionar con almohadas, analgesia, cirugía precoz',
+            say: 'Ojo: en la fractura de cadera del adulto mayor la tracción no mejora ni el dolor ni el resultado. Se prefiere buen posicionamiento con almohadas, analgesia y cirugía precoz, idealmente en menos de cuarenta y ocho horas.' },
         ] },
       ],
     },
@@ -190,18 +217,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'La fractura de cadera en la radiografía',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Fractura de cuello femoral',
       images: [
-        { src: 'biblioteca/18_traumatologia/trauma-10/01_rx_fractura_cuello_femur__commons.jpg', label: 'Fractura del cuello femoral (flecha)', credit: 'Wikimedia Commons «Cdm hip fracture 343.jpg», CC BY-SA 3.0, Booyabazooka' },
-        { src: 'biblioteca/18_traumatologia/trauma-10/02_osteosintesis-intertrocanterea-y-cuello__cto-trauma_p26.jpg', label: 'Intertrocantérica con tornillo dinámico (arriba); cuello con tornillos canulados (abajo)', credit: 'Manual CTO Traumatología 14.ª ed., p. 26' },
+        { src: 'animaciones/trauma-10/A1_fractura_cuello_femoral.mp4', label: 'De la fractura desplazada a la prótesis', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Cuello femoral: intracapsular',
-          say: 'La flecha marca una fractura del cuello femoral, que es intracapsular. Si está desplazada y el paciente tiene más de sesenta y cinco años, va a prótesis.' },
-        { note: 'Cada fractura, su fijación',
-          say: 'Arriba, una fractura intertrocantérica fijada con tornillo dinámico de cadera. Abajo, una fractura del cuello fijada con tornillos canulados, la opción si no está desplazada o en el menor de sesenta y cinco años.' },
+        { note: 'Del cuello roto a la necrosis',
+          say: 'Esta es una fractura intracapsular del cuello femoral. La cabeza se irriga por las circunflejas que rodean el cuello. Cuando el cuello se desplaza, esas arterias se cortan y la cabeza se necrosa. Por eso, si la fractura es de cuello, está desplazada y el paciente tiene más de sesenta y cinco años, se reemplaza la articulación con una prótesis. Siempre cirugía, y cuanto antes, en menos de cuarenta y ocho horas.' },
       ],
     },
 
@@ -340,6 +364,82 @@ module.exports = {
         options: 'Las opciones: fractura de cuello femoral; fractura de cotilo; esguince grado tres de cadera; luxación anterior; o luxación posterior de cadera. Piénsalo.',
         answer: 'Es la E. Rotación interna fija con aducción, tras un choque frontal, es la posición púdica de la luxación posterior. La fractura de cuello habría dejado la pierna rotada hacia afuera. Y recuerda examinar el nervio ciático.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.4.006 · Radiografía de pelvis y cadera",
+      "stem": "Mujer de 82 años sufre una caída a nivel. Presenta dolor inguinal derecho e imposibilidad de caminar. La radiografía de pelvis AP y la axial de cadera derecha no muestran fractura, pero el dolor persiste al día siguiente e impide la marcha.",
+      "question": "¿Cuál es el examen más adecuado para continuar el estudio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repetir la radiografía en 3 semanas"
+        },
+        {
+          "letter": "B",
+          "text": "Ecografía de cadera"
+        },
+        {
+          "letter": "C",
+          "text": "Densitometría ósea"
+        },
+        {
+          "letter": "D",
+          "text": "Resonancia magnética de cadera"
+        },
+        {
+          "letter": "E",
+          "text": "Cintigrafía ósea en 1 mes"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Ante sospecha clínica de fractura de cadera con radiografías iniciales normales, el examen de elección es la resonancia magnética, que detecta fracturas ocultas del cuello femoral en las primeras horas (la TAC es alternativa si no hay acceso). Esperar semanas expone a desplazamiento de la fractura y necrosis avascular. La densitometría evalúa osteoporosis, no fracturas agudas.",
+      "say": {
+        "stem": "Mujer de ochenta y dos años que se cae a nivel y queda con dolor inguinal derecho, sin poder caminar. Las radiografías de pelvis y de cadera no muestran fractura, pero al día siguiente sigue sin poder caminar por el dolor.",
+        "question": "¿Cuál es el examen más adecuado para continuar el estudio?",
+        "options": "Las opciones: repetir la radiografía en tres semanas, ecografía de cadera, densitometría, resonancia de cadera o cintigrafía en un mes. Piénsalo.",
+        "answer": "Es la D. Si la clínica sugiere fractura de cadera y la radiografía es normal, la resonancia encuentra la fractura oculta de inmediato. Repetir la radiografía en semanas tienta porque es lo clásico en otros huesos, pero aquí la espera puede desplazar la fractura y necrosar la cabeza femoral."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.5.004 · Tracción de partes blandas",
+      "stem": "Mujer de 82 años con fractura pertrocantérea de cadera derecha espera cirugía, programada en 48 horas. Se instala tracción de partes blandas (cutánea) en la extremidad, con vendaje y peso de 3 kg.",
+      "question": "¿Cuál es la complicación que más se debe vigilar por esta tracción?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Trombosis arterial femoral"
+        },
+        {
+          "letter": "B",
+          "text": "Osteomielitis del trayecto de los clavos"
+        },
+        {
+          "letter": "C",
+          "text": "Síndrome de embolia grasa causado por la tracción"
+        },
+        {
+          "letter": "D",
+          "text": "Luxación de la rodilla"
+        },
+        {
+          "letter": "E",
+          "text": "Lesión de la piel (flictenas, úlceras por presión) y compresión del nervio peroneo a nivel de la cabeza del peroné"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La tracción de partes blandas usa vendas adheridas a la piel con pesos bajos (hasta 3 a 5 kg en adultos). Sus complicaciones típicas son lesiones cutáneas por fricción o presión y neuropraxia del peroneo común en la cabeza del peroné; se vigilan piel, sensibilidad y dorsiflexión. La infección del trayecto es propia de la tracción esquelética.",
+      "say": {
+        "stem": "Mujer de ochenta y dos años con fractura de cadera que espera cirugía, con una tracción de partes blandas de tres kilos en la pierna.",
+        "question": "¿Qué complicación de la tracción se debe vigilar más?",
+        "options": "Las opciones: trombosis arterial, infección del trayecto de los clavos, embolia grasa, luxación de rodilla o lesión de piel y del nervio peroneo. Piénsalo.",
+        "answer": "Es la E. Se vigilan la piel y el nervio peroneo, que se comprime a la altura de la cabeza del peroné. La infección del trayecto tienta, pero es propia de la tracción esquelética con clavos, no de la cutánea."
+      }
     },
 
     {

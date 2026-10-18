@@ -79,9 +79,11 @@ module.exports = {
         { show: ['seg'], note: 'Ojo con las contraindicaciones',
           say: 'Si el sangrado persiste, pasas a la segunda línea: ergometrina, o misoprostol si tu paciente es hipertensa. Guarda esa diferencia, porque el examen la pregunta seguido.' },
         { show: ['bak'], note: 'Rescate mecánico antes de operar',
-          say: 'Si aun así sigue sangrando, viene el balón de Bakri: lo inflas dentro del útero y comprime el sangrado desde adentro, antes de abrir el abdomen.' },
+          say: 'Si aun así sigue sangrando, viene el balón de Bakri: lo inflas dentro del útero y comprime el sangrado desde adentro, antes de abrir el abdomen. Mira este esquema: el balón lleno ocupa toda la cavidad.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-18/01_balon_bakri__commons.jpg', label: 'Balón de Bakri', at: 'Mira este esquema', credit: 'Wikimedia Commons «Bakri Balloon Hariadhi.svg», CC BY-SA 4.0, Hariadhi' } },
         { show: ['cir'], note: 'Se conserva el útero mientras se pueda',
-          say: 'Y si nada de esto funciona, cirugía: suturas de compresión, ligar las arterias, y como último recurso, histerectomía, para salvar la vida de tu paciente.' },
+          say: 'Y si nada de esto funciona, cirugía: suturas de compresión, como esta sutura de B Lynch que ves aquí, ligar las arterias, y como último recurso, histerectomía, para salvar la vida de tu paciente.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-18/S1_balon-b-lynch__propio.svg', label: 'Bakri y B-Lynch', at: 'como esta sutura de B Lynch', credit: 'Dibujo propio (esquema)' } },
       ],
     },
 
@@ -118,11 +120,54 @@ module.exports = {
         { show: ['trac'], note: 'Rara, pero muy grave',
           say: 'Un cuadro raro, pero letal: la inversión uterina. Ocurre cuando alguien tracciona el cordón con fuerza, mientras tu útero todavía está relajado y la placenta sigue pegada.' },
         { show: ['inv'], note: 'El fondo del útero desaparece',
-          say: 'El útero se da vuelta como un guante, y su fondo protruye o sale por la vulva. Al palpar el abdomen, el útero simplemente no está.' },
+          say: 'El útero se da vuelta como un guante, y su fondo protruye o sale por la vulva. Mira esta imagen: una masa roja que asoma por la vagina. Al palpar el abdomen, el útero simplemente no está.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-18/302_inversion_uterina__openi.jpg', label: 'Inversión uterina', at: 'Mira esta imagen', credit: 'Open-i (NLM), CC BY' } },
         { show: ['sho'], note: 'La pista que lo distingue de otras causas',
           say: 'Lo que te avisa que es esto, y no otra causa de sangrado, es un shock neurogénico: hipotensión con bradicardia, por la tracción de los nervios peritoneales. Es al revés de lo que esperarías en una hemorragia.' },
         { show: ['joh'], note: 'Suspende los uterotónicos primero',
           say: 'La conducta es suspender de inmediato cualquier uterotónico, relajar el útero, y hacer la reposición manual con la maniobra de Johnson, empujando el fondo hacia arriba. Solo después de reponerlo das oxitocina, para que se quede contraído.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Fuera del puerperio',
+      title: 'Sangrado genital agudo sin embarazo',
+      cards: [
+        { title: 'Primer paso', tag: 'Antes de buscar la causa', kind: 'key', items: [
+          { t: 'Signos vitales primero', d: 'Taquicardia, hipotensión, ortostatismo',
+            say: 'Una cosa distinta: la hemorragia genital aguda fuera del puerperio. Lo primero, igual que en el postparto, son los signos vitales: taquicardia, hipotensión, ortostatismo.' },
+          { t: 'Descarta embarazo', d: 'Gonadotrofina coriónica en toda mujer fértil',
+            say: 'Después descartas un embarazo con la gonadotrofina coriónica en toda mujer en edad fértil, porque puede ser un aborto, un ectópico o una mola. Luego miras con espéculo de dónde sangra, y pides hemograma, grupo, coagulación y ecografía transvaginal.' },
+        ] },
+        { title: 'Causas principales', tag: 'Según la edad', kind: 'criteria', items: [
+          { t: 'Metrorragia disfuncional', d: 'Anovulación: adolescentes y perimenopausia',
+            say: 'La causa más típica es la metrorragia disfuncional, un sangrado por anovulación, frecuente en adolescentes y en la perimenopausia, y en el ovario poliquístico. Piensa también en pólipos, miomas, coagulopatías, el DIU y los anticoagulantes.' },
+          { t: 'Cáncer cervicouterino', d: 'Sangrado poscoital, cuello friable',
+            say: 'La otra gran causa es el cáncer cervicouterino: sangrado poscoital o entre las reglas, con un cuello tumoral, friable, que sangra al roce. Y en una posmenopáusica, el sangrado siempre te obliga a descartar un cáncer de endometrio.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Fuera del puerperio',
+      title: 'Cómo detienes el sangrado',
+      cards: [
+        { title: 'Metrorragia disfuncional', tag: 'Hemostasia médica', kind: 'pharma', items: [
+          { t: 'Ácido tranexámico 1 g', d: 'Cada 8 horas, 3 a 5 días',
+            say: 'En la metrorragia disfuncional aguda, si la paciente está inestable, partes con vía venosa, reposición de volumen y hospitalización. Para frenar el sangrado das ácido tranexámico, un gramo cada ocho horas, por tres a cinco días.' },
+          { t: 'Anticonceptivo combinado', d: 'Cada 8 horas por 7 días; luego uno al día',
+            say: 'O un anticonceptivo oral combinado cada ocho horas por siete días, y luego uno al día, si no hay contraindicación a los estrógenos. Si las hay, usas un progestágeno oral, como medroxiprogesterona o noretisterona, por diez días.' },
+          { t: 'Si fracasa: legrado', d: 'O histeroscopía; y tratar la anemia',
+            say: 'Si falla o hay inestabilidad, legrado uterino o histeroscopía. Y no olvides tratar la anemia con hierro.' },
+        ] },
+        { title: 'Cervicorragia por cáncer', tag: 'Biopsia y derivación', kind: 'alert', items: [
+          { t: 'Biopsia del cuello', d: 'Derivar a Patología Cervical, GES',
+            say: 'Ante un cuello sospechoso tomas una biopsia, o Papanicolaou con colposcopía, y derivas con urgencia a Patología Cervical, porque el cáncer cervicouterino tiene garantía GES.' },
+          { t: 'Taponamiento vaginal', d: 'Gasas compresivas y volumen',
+            say: 'La hemorragia activa se contiene con taponamiento vaginal compresivo con gasas, hemostáticos y reposición de volumen. En un centro especializado, se puede usar radioterapia hemostática.' },
+        ] },
       ],
     },
 
@@ -132,28 +177,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'La primera T',
       images: [
-        { src: 'animaciones/ob-18/A1_atonia.mp4', label: 'Atonía', credit: 'Animación propia' },
+        { src: 'animaciones/ob-18/A1_atonia.mp4', label: 'Atonía', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Masaje y oxitocina',
-          say: 'El útero atónico queda blando y grande, y sangra. Con masaje y oxitocina se contrae, y el sangrado se detiene. El tono explica la mayoría de las hemorragias postparto.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Hemorragia postparto',
-      images: [
-        { src: 'biblioteca/14_obstetricia/ob-18/S1_balon-b-lynch__propio.svg', label: 'Bakri y B-Lynch', credit: 'Dibujo propio (esquema)' },
-        { src: 'biblioteca/14_obstetricia/ob-18/01_balon_bakri__commons.jpg', label: 'Balón de Bakri', credit: 'Wikimedia Commons «Bakri Balloon Hariadhi.svg», CC BY-SA 4.0, Hariadhi' },
-      ],
-      steps: [
-        { note: 'Tratamientos conservadores',
-          say: 'Si el masaje y los uterotónicos fallan, se usa el balón de Bakri o la sutura de B Lynch antes de la histerectomía.' },
-        { note: 'En la cavidad uterina',
-          say: 'Este es el balón de Bakri inflado dentro del útero.' },
+          say: 'Mira el útero recién vaciado: queda blando y grande, no se contrae, y la sangre sale por el cuello. Con una mano sobre el fondo y otra en la vagina haces el masaje bimanual, y la oxitocina endovenosa hace trabajar al músculo. La pared se engruesa, la cavidad se achica y el sangrado se detiene. El tono explica la mayoría de las hemorragias postparto.' },
       ],
     },
 
@@ -258,6 +286,10 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. El tono, con el útero blando, es la causa más frecuente, de lejos.' },
           { t: 'Trauma: útero duro', d: 'Pero sigue sangrando',
             say: 'Si el útero está duro y aun así sangra, piensa en trauma.' },
+        ] },
+        { title: 'Sin embarazo', tag: 'Hemorragia genital aguda', kind: 'criteria', items: [
+          { t: 'Primero embarazo y vitales', d: 'Luego ácido tranexámico o anticonceptivo',
+            say: 'Si el sangrado es fuera del puerperio, descartas embarazo y juzgas los signos vitales, y la metrorragia disfuncional se frena con ácido tranexámico o un anticonceptivo combinado. El cuello sangrante pide biopsia.' },
         ] },
         { title: 'Tratamiento', tag: 'Escalera sin saltarse pasos', kind: 'pharma', items: [
           { t: 'Masaje primero', d: 'Luego oxitocina y ácido tranexámico',

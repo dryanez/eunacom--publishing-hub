@@ -106,6 +106,21 @@ const rawClasses = [
           "    • <strong>FSH ELEVADA (> 30-40 UI/L):</strong> Falla ovárica primaria -> <strong>Insuficiencia Ovárica Prematura (Menopausia precoz)</strong> en mujeres menores de 40 años.",
           "    • <strong>FSH BAJA o Normal (< 5 UI/L):</strong> Falla central -> <strong>Amenorrea Hipotalámica Funcional</strong> (estrés crónico, pérdida severa de peso, anorexia nerviosa, ejercicio físico extenuante como maratonistas o bailarinas) o Síndrome de Sheehan (necrosis isquémica hipofisaria postparto)."
         ]
+      },
+      {
+        "subhead": "4. Pubertad Normal, Hiperprolactinemia e Interpretación Hormonal en Amenorrea",
+        "paragraphs": [
+          "• <strong>Pubertad normal en la mujer:</strong> el primer signo es la <strong>telarquia (botón mamario, Tanner M2) entre los 8 y 13 años</strong>, seguida de pubarquia, <strong>estirón puberal</strong> (pico de velocidad de crecimiento en Tanner M3, <i>antes</i> de la menarquia) y <strong>menarquia a los 12-13 años</strong> (en Chile en promedio ~12,5 años), 2 a 2,5 años después de la telarquia. Se inicia por la reactivación de la secreción pulsátil de GnRH (eje hipotálamo-hipófisis-ovario) con aumento de LH/FSH y estradiol.",
+          "  - <strong>Estadios de Tanner:</strong> M1-M5 (mama) y P1-P5 (vello pubiano). Los primeros ciclos suelen ser anovulatorios e irregulares hasta 2-3 años posmenarquia: no requieren estudio si no superan los 90 días ni son muy abundantes.",
+          "  - <strong>Pubertad precoz</strong> (telarquia o pubarquia <strong>antes de los 8 años</strong>): sospecha y <strong>derivación a endocrinología</strong> (edad ósea, LH/FSH, RMN si es central). <strong>Retraso puberal</strong>: ausencia de telarquia a los <b>13 años</b> o más de 5 años entre telarquia y menarquia. Es el mismo umbral de la amenorrea primaria sin caracteres sexuales secundarios.",
+          "• <strong>Hiperprolactinemia (nivel Sospecha / tratamiento Inicial / seguimiento Derivar):</strong> la prolactina inhibe los pulsos de GnRH (amenorrea, oligomenorrea, infertilidad) y produce <strong>galactorrea</strong>. <strong>Causas:</strong> embarazo y lactancia, <strong>fármacos</strong> (antipsicóticos, metoclopramida, metildopa, ISRS, verapamilo, anticonceptivos con estrógenos), hipotiroidismo primario, insuficiencia renal crónica, estrés/estimulación mamaria y <strong>prolactinoma</strong> (adenoma hipofisario más frecuente).",
+          "  - <strong>Estudio:</strong> prolactina en reposo (idealmente en ayunas, sin examen mamario previo), β-hCG y TSH; excluir fármacos. Una PRL <b>&gt; 100 ng/mL</b> sugiere prolactinoma y <b>&gt; 200 ng/mL</b> un macroadenoma (&gt; 10 mm) casi seguro; en cifras bajas pensar en fármacos o <i>efecto tallo</i>. Si se confirma: <strong>RMN de silla turca</strong> y campos visuales ante macroadenoma (hemianopsia bitemporal).",
+          "  - <strong>Tratamiento:</strong> <strong>agonistas dopaminérgicos</strong> de primera línea para micro y macroprolactinomas: <strong>cabergolina</strong> 0,25-0,5 mg 1-2 veces por semana (mejor tolerada) o bromocriptina; normalizan PRL, reducen el tumor y restablecen ciclos y fertilidad. La cirugía transesfenoidal se reserva para resistencia o intolerancia. Se <strong>deriva a endocrinología</strong> para el seguimiento.",
+          "• <strong>Interpretación de FSH, estradiol y prolactina (Interpreta y emplea):</strong> se miden al inicio del ciclo (día 2-3) si hay ciclos; en amenorrea, en cualquier momento.",
+          "  - <strong>FSH alta (&gt; 30-40 UI/L) + estradiol bajo (&lt; 20-30 pg/mL):</strong> falla ovárica primaria (insuficiencia ovárica prematura, Turner, menopausia).",
+          "  - <strong>FSH/LH bajas o normales + estradiol bajo:</strong> hipogonadismo hipogonadotropo (hipotalámico funcional, hipofisario, Kallmann).",
+          "  - <strong>Estradiol normal o alto con FSH normal:</strong> eje conservado (anovulación, SOP). Un estradiol alto aislado en un ciclo estimulado o con tumor ovárico secretor se confirma con ecografía. <strong>PRL alta:</strong> ver arriba; siempre repetir ante un valor levemente elevado y descartar macroprolactinemia."
+        ]
       }
     ],
     "table": {
@@ -381,7 +396,7 @@ const rawClasses = [
       {
         "k": "split",
         "q": "Criterios de Rotterdam (2 de 3)",
-        "al": "1) Oligo/anovulación · 2) Hiperandrogenismo · 3) Ecografía ovárica característica",
+        "al": "1) Oligoanovulación · 2) Hiperandrogenismo · 3) Ovario poliquístico (eco)",
         "ll": "Criterios Clínicos / Bioquímicos",
         "left": {
           "t": "1. Oligo/Anovulación + 2. Hiperandrogenismo",
@@ -448,6 +463,16 @@ const rawClasses = [
           "• <strong>3. Paciente que SÍ DESEA Embarazo (Infertilidad Anovulatoria):</strong>",
           "  - Fármaco inductor de ovulación de primera línea actual: <strong>LETROZOL</strong> (Inhibidor de la aromatasa; 2.5 a 5 mg/día en días 3 a 7 del ciclo). Mayor tasa de ovulación, embarazo y nacidos vivos en SOP comparado con el Citrato de Clomifeno.",
           "  - Alternativa clásica: <strong>Citrato de Clomifeno</strong> (modulador selectivo de receptores estrogénicos que aumenta la FSH hipofisaria)."
+        ]
+      },
+      {
+        "subhead": "4. Hirsutismo: Otras Causas y Estudio Etiológico",
+        "paragraphs": [
+          "• <strong>Hirsutismo (nivel Sospecha / tratamiento Inicial):</strong> vello terminal en zonas andrógeno-dependientes (Ferriman-Gallwey ≥ 8). Es un signo, no un diagnóstico: el <strong>SOP explica cerca del 70-80%</strong>, pero antes de rotular hay que descartar otras causas.",
+          "  - <strong>Hirsutismo idiopático</strong> (andrógenos normales, ciclos regulares; aumento de la actividad 5α-reductasa) y <strong>hiperplasia suprarrenal congénita no clásica</strong> (déficit de 21-hidroxilasa: 17-OH-progesterona basal en fase folicular &gt; 2 ng/mL, confirmar con test de ACTH).",
+          "  - <strong>Hiperprolactinemia, hipotiroidismo y síndrome de Cushing</strong> (cortisol libre urinario o supresión con dexametasona 1 mg); <strong>fármacos</strong> (danazol, esteroides anabólicos, valproato, ciclosporina, minoxidil).",
+          "  - <strong>Tumor secretor de andrógenos</strong> (ovario o suprarrenal): sospechar si el inicio es <b>brusco y rápidamente progresivo</b>, hay <strong>virilización</strong> (clitoromegalia, voz grave, alopecia temporal, masa muscular) o <strong>testosterona total &gt; 150-200 ng/dL</strong> o DHEA-S &gt; 700 µg/dL; se solicita imagen (ecografía TV/TAC) y se deriva de inmediato.",
+          "  - <strong>Estudio básico inicial:</strong> testosterona total (± libre), DHEA-S, 17-OH-progesterona, TSH y prolactina. Tratamiento inicial: medidas cosméticas (depilación, láser), ACO combinado y, tras 6 meses sin respuesta, antiandrógeno (espironolactona); se deriva si hay hallazgos atípicos."
         ]
       }
     ],
@@ -652,6 +677,16 @@ const rawClasses = [
           "  - <strong>Ácido Tranexámico oral (1g cada 8h durante los días de menstruación):</strong> Antifibrinolítico no hormonal, reduce la pérdida sanguínea en 40-50%. Excelente opción en mujeres que desean embarazarse o con contraindicaciones hormonales.",
           "  - <strong>AINEs (Ácido Mefenámico, Ibuprofeno):</strong> Inhiben prostaglandinas inflamatorias vasodilatadoras endometriales, reduciendo el sangrado en 30% y aliviando la dismenorrea.",
           "  - <strong>Anticonceptivos Hormonales Combinados o Progestágenos orales continuos.</strong>"
+        ]
+      },
+      {
+        "subhead": "4. Cervicorragia por Cáncer Cervicouterino e Hiperplasia Endometrial",
+        "paragraphs": [
+          "• <strong>Hemorragia genital aguda de origen cervical (urgencia: Sospecha / Inicial):</strong> sospechar <strong>cáncer cervicouterino</strong> ante sangrado poscoito, intermenstrual o posmenopáusico, flujo fétido y cuello <b>friable, ulcerado o exofítico</b> a la especuloscopia. Una cervicorragia abundante puede producir shock hipovolémico.",
+          "  - <strong>Manejo inicial:</strong> dos vías venosas, reposición de volumen, hemograma y pruebas cruzadas; <strong>taponaje vaginal</strong> compresivo (gasas en ácido tranexámico o povidona, sonda Foley vesical), ácido tranexámico EV y <strong>derivación urgente a oncología ginecológica</strong> (radioterapia hemostática, embolización o cirugía). <strong>Biopsia del cuello</strong> dirigida una vez estable. Evitar el legrado uterino: el origen no es endometrial. En la sospecha de CaCu se activa el GES con la derivación.",
+          "• <strong>Hiperplasia endometrial (Sospecha / Inicial / Derivar):</strong> proliferación glandular por <strong>estrógenos sin oposición de progesterona</strong> (anovulación crónica/SOP, obesidad, TRH sin progestágeno, tamoxifeno, tumores de la granulosa). Se manifiesta como SUA y se diagnostica por <strong>biopsia endometrial</strong> (Pipelle) o histeroscopía.",
+          "  - <strong>Sin atipia</strong> (simple o compleja): bajo riesgo de cáncer (&lt; 5% a 20 años). Tratamiento: <strong>progestágenos</strong> (DIU de levonorgestrel 52 mg de primera elección, o acetato de medroxiprogesterona oral 10 mg/día 12-14 días al mes) y control con nueva biopsia a los 3-6 meses; corregir obesidad.",
+          "  - <strong>Con atipia</strong> (neoplasia intraepitelial endometrioide): hasta 25-40% tiene un adenocarcinoma concomitante. Tratamiento: <strong>histerectomía total</strong> (± salpingooforectomía) en mujeres con paridad cumplida; si desea fertilidad, progestágenos a dosis altas con biopsias seriadas, derivando a ginecología oncológica. Pólipos: polipectomía histeroscópica."
         ]
       }
     ],
@@ -1031,6 +1066,15 @@ const rawClasses = [
           "  - <strong>Miomectomía Laparoscópica o por Laparotomía:</strong> Extirpación exclusiva de los miomas conservando el útero. De elección en <strong>mujeres que desean preservar la fertilidad</strong>.",
           "  - <strong>Histerectomía Total:</strong> Extirpación del útero (laparoscópica, abdominal o vaginal). Es el <strong>tratamiento curativo y definitivo de elección en mujeres con paridad satisfecha</strong>.",
           "  - <strong>Embolización de Arterias Uterinas (EAU):</strong> Opción no quirúrgica mediante cateterismo femoral para ocluir las arterias uterinas, produciendo necrosis isquémica de los miomas."
+        ]
+      },
+      {
+        "subhead": "4. Tacto Ginecológico (Bimanual y Rectovaginal): Técnica y Hallazgos",
+        "paragraphs": [
+          "• <strong>Tacto ginecológico (procedimiento: Realizar):</strong> con la paciente en <strong>posición de litotomía</strong>, vejiga vacía, explicando cada paso y con guantes lubricados. Se examina primero la vulva y se palpan glándulas de Bartolino y Skene; luego se introducen el índice y el medio en la vagina mientras la <strong>mano abdominal</strong> comprime hacia abajo el hipogastrio (<strong>tacto bimanual</strong>).",
+          "  - <strong>Útero:</strong> posición (anteversoflexión vs retroversión), tamaño, forma, consistencia, movilidad y dolor. Miomatosis: aumentado, <b>irregular, duro y generalmente indoloro</b>; adenomiosis: <b>globuloso, blando y doloroso</b>; embarazo: blando y aumentado de tamaño; fijo y con nódulos en los ligamentos uterosacros: endometriosis profunda.",
+          "  - <strong>Anexos y fondos de saco:</strong> masas anexiales (tamaño, consistencia, movilidad, dolor), dolor a la <b>movilización del cuello</b> (EIP) y abombamiento doloroso del fondo de saco de Douglas (absceso o hemoperitoneo). El <strong>tacto rectovaginal</strong> evalúa septum rectovaginal, ligamentos uterosacros y parametrios (extensión del cáncer cervicouterino).",
+          "  - <strong>Masas u obstrucción:</strong> un mioma grande, un útero grávido retroverso incarcerado o una masa pelviana pueden comprimir la uretra o los uréteres y producir <strong>retención urinaria o hidronefrosis</strong>: el tacto ginecológico permite identificar la masa causal y se complementa con ecografía."
         ]
       }
     ],

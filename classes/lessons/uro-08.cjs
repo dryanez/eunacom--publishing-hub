@@ -36,7 +36,8 @@ module.exports = {
         ] },
         { title: 'Dónde nace', tag: 'Zona periférica', kind: 'normal', items: [
           { t: 'Zona periférica posterior', d: 'Cerca de 75% de los casos',
-            say: 'Alrededor de tres cuartos de los adenocarcinomas nacen en la zona periférica. Las zonas de McNeal ya las vimos en la clase de hiperplasia prostática, donde la zona de transición era la de la HPB.' },
+            say: 'Alrededor de tres cuartos de los adenocarcinomas nacen en la zona periférica. Las zonas de McNeal ya las vimos en la clase de hiperplasia prostática, donde la zona de transición era la de la HPB. Mira el corte transversal de esta ecografía transrectal: adelante, la zona de transición; atrás y en forma de cuernos, la zona periférica, donde nace el cáncer y donde llega el dedo.',
+            photo: { src: 'biblioteca/19_urologia/uro-08/01_ecografia-transrectal-zonas-prostata__bailey-love_p1408.jpg', label: 'Eco transrectal normal', at: 'Mira el corte transversal', credit: 'Bailey & Love 27.ª ed., Fig. 75.17a' } },
           { t: 'Lejos de la uretra', d: 'No obstruye al inicio',
             say: 'Como está lejos de la uretra, el tumor inicial no obstruye. Y como es posterior, queda al alcance del dedo en el tacto rectal.' },
         ] },
@@ -123,27 +124,12 @@ module.exports = {
         ] },
         { title: 'Cómo se hace', tag: 'Procedimiento', kind: 'key', items: [
           { t: 'Transrectal guiada por ecografía', d: 'O fusión con resonancia',
-            say: 'La biopsia es guiada por ecografía transrectal, o con fusión con resonancia magnética multiparamétrica. Es el único método confirmatorio.' },
+            say: 'La biopsia es guiada por ecografía transrectal, o con fusión con resonancia magnética multiparamétrica. Es el único método confirmatorio. Mira esta resonancia con contraste: la flecha marca una zona sospechosa de la zona periférica, que es lo que se biopsia con fusión.',
+            photo: { src: '_verificadas/368_uro_Cáncer_de_próstata__27thBailey_p1413_1.jpg', label: 'RM con lesión periférica', at: 'Mira esta resonancia', credit: 'Bailey & Love 27.ª ed., p. 1413' } },
           { t: '10 a 12 cilindros', d: 'Con profilaxis antibiótica',
-            say: 'Se toman entre diez y doce cilindros de la glándula, con profilaxis antibiótica.' },
+            say: 'Se toman entre diez y doce cilindros de la glándula, con profilaxis antibiótica. Mira los cilindros de esta biopsia, en dos cajas, una por cada lóbulo: se muestrean los dos lados de forma sistemática.',
+            photo: { src: 'biblioteca/19_urologia/uro-08/02_cilindros-biopsia-prostatica__bailey-love_p1408.jpg', label: 'Cilindros por lóbulo', at: 'Mira los cilindros', credit: 'Bailey & Love 27.ª ed., Fig. 75.18b' } },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Ecografía transrectal y cilindros',
-      images: [
-        { src: 'biblioteca/19_urologia/uro-08/01_ecografia-transrectal-zonas-prostata__bailey-love_p1408.jpg', label: 'Ecografía transrectal de próstata normal: zona de transición y zona periférica', credit: 'Bailey & Love 27.ª ed., Fig. 75.17a' },
-        { src: 'biblioteca/19_urologia/uro-08/02_cilindros-biopsia-prostatica__bailey-love_p1408.jpg', label: 'Cilindros de biopsia separados por lóbulo derecho e izquierdo', credit: 'Bailey & Love 27.ª ed., Fig. 75.18b' },
-      ],
-      steps: [
-        { note: 'Transición adelante, periférica atrás',
-          say: 'Mira el corte transversal. Adelante, la zona de transición, la de la hiperplasia. Atrás y en forma de cuernos, la zona periférica, donde nace el cáncer y donde llega el dedo en el tacto rectal.' },
-        { note: 'Cilindros por lóbulo',
-          say: 'Y aquí, los cilindros de la biopsia, en dos cajas, una por cada lóbulo. Se toman muestras sistemáticas de los dos lados, por eso son diez a doce.' },
       ],
     },
 
@@ -186,6 +172,28 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Etapificación',
+      title: 'Cintigrafía ósea y cintigrafía con galio',
+      cards: [
+        { title: 'Cintigrafía ósea con tecnecio', tag: 'La de la próstata', kind: 'key', items: [
+          { t: 'Focos hipercaptantes asimétricos', d: 'Columna, pelvis y costillas',
+            say: 'La cintigrafía ósea con tecnecio capta las zonas de remodelado del hueso. Las metástasis del cáncer de próstata son osteoblásticas: aparecen como varios focos hipercaptantes asimétricos en el esqueleto axial, la columna, la pelvis y las costillas.' },
+          { t: 'Solo en riesgo alto', d: 'APE sobre 20, Gleason 8 o más, cT3 o dolor óseo',
+            say: 'Se pide en el riesgo alto: APE sobre veinte, Gleason ocho o más, estadio cT tres o más, o dolor óseo. No de rutina en el riesgo bajo, con APE bajo diez y Gleason seis o menos, donde la probabilidad de metástasis es mínima.' },
+          { t: 'Sensible, poco específica', d: 'Artrosis, fracturas y Paget también captan',
+            say: 'Es sensible pero poco específica: la artrosis, las fracturas y la enfermedad de Paget también captan. Las zonas dudosas se confirman con radiografía, TAC o resonancia.' },
+        ] },
+        { title: 'Cintigrafía con galio', tag: 'La trampa', kind: 'alert', items: [
+          { t: 'Inflamación, infección y linfomas', d: 'Fiebre de origen desconocido, sarcoidosis',
+            say: 'El galio sesenta y siete se acumula en el tejido inflamatorio, infeccioso y en algunos tumores como los linfomas. Sirve en fiebre de origen desconocido, osteomielitis o sarcoidosis.' },
+          { t: 'No etapifica la próstata', d: 'Para eso, tecnecio',
+            say: 'Y la trampa: no es el examen para etapificar el cáncer de próstata. Para eso se usa la cintigrafía ósea con tecnecio. En la próxima clase verás cómo se ve en el paciente metastásico.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Garantías GES',
       title: 'Plazos del cáncer de próstata',
       cards: [
@@ -197,6 +205,20 @@ module.exports = {
           { t: 'Deprivación androgénica en 30 días', d: 'Desde la indicación médica',
             say: 'Y la terapia de deprivación androgénica, dentro de treinta días desde la indicación. Con esto, cuando sospeches un cáncer, derivas con garantía.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La biopsia, cilindro a cilindro',
+      images: [
+        { src: 'animaciones/uro-08/A1_biopsia_prostatica.mp4', label: 'Biopsia transrectal', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Biopsia transrectal',
+          say: 'Mira la biopsia: la sonda ecográfica va por el recto y la aguja toma cilindros de ambos lóbulos, de diez a doce, con profilaxis antibiótica. Se busca sobre todo la zona periférica, donde nace el cáncer. Se indica ante un nódulo duro aunque el APE sea normal, o con APE sobre cuatro que persiste.' },
       ],
     },
 
@@ -339,6 +361,82 @@ module.exports = {
         options: 'Las opciones: diez días; treinta días; sesenta días; noventa días; o ciento ochenta días. Piénsalo.',
         answer: 'Es la B, treinta días. El sesenta de la C es el plazo para iniciar el tratamiento una vez confirmada la biopsia, y es el distractor más tentador.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.4.002 · Cintigrafía ósea y cintigrafía con galio",
+      "stem": "Hombre de 68 años con antígeno prostático específico de 62 ng/mL y biopsia prostática con adenocarcinoma Gleason 8 (4+4). Refiere dolor lumbar leve.",
+      "question": "¿Cuál es el examen más adecuado para el estudio de extensión ósea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía de columna lumbar"
+        },
+        {
+          "letter": "B",
+          "text": "Cintigrafía ósea"
+        },
+        {
+          "letter": "C",
+          "text": "Densitometría ósea"
+        },
+        {
+          "letter": "D",
+          "text": "Cintigrafía con galio"
+        },
+        {
+          "letter": "E",
+          "text": "No requiere estudio de extensión"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En cáncer de próstata de alto riesgo (APE mayor de 20 o Gleason 8 o más) se estudia la extensión ósea con cintigrafía ósea, muy sensible para metástasis osteoblásticas, junto con TAC de abdomen y pelvis o PET-PSMA. La radiografía es poco sensible y la densitometría mide masa ósea. La cintigrafía con galio se usa en linfomas e infecciones.",
+      "say": {
+        "stem": "Hombre de sesenta y ocho años con cáncer de próstata de alto riesgo, antígeno de sesenta y dos y dolor lumbar.",
+        "question": "¿Qué examen pides para buscar metástasis óseas?",
+        "options": "Las opciones: radiografía de columna, cintigrafía ósea, densitometría, cintigrafía con galio, o ninguno. Piénsalo.",
+        "answer": "Es la B. Cintigrafía ósea, muy sensible para metástasis osteoblásticas. La radiografía tienta por el dolor lumbar, pero solo se altera con gran destrucción ósea."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.3.001 · Epidemiología del cáncer de próstata",
+      "stem": "En una charla de salud del hombre en un CESFAM, se discuten datos epidemiológicos del cáncer de próstata en Chile.",
+      "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Es una neoplasia poco frecuente, principalmente de hombres jóvenes"
+        },
+        {
+          "letter": "B",
+          "text": "Su incidencia es mayor en hombres asiáticos que en afrodescendientes"
+        },
+        {
+          "letter": "C",
+          "text": "El tabaquismo es su principal factor de riesgo"
+        },
+        {
+          "letter": "D",
+          "text": "La vasectomía es un factor de riesgo demostrado"
+        },
+        {
+          "letter": "E",
+          "text": "Es una de las primeras causas de muerte por cáncer en hombres en Chile, y su incidencia aumenta con la edad; la historia familiar y la ascendencia africana son factores de riesgo"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El cáncer de próstata es el más frecuente en hombres en Chile y una de sus principales causas de muerte oncológica. Sus factores de riesgo establecidos son la edad (raro antes de 50 años), la historia familiar de primer grado (y BRCA2) y la ascendencia africana. No se ha demostrado relación causal con vasectomía ni tabaco.",
+      "say": {
+        "stem": "En una charla de salud masculina se revisan datos sobre el cáncer de próstata en Chile.",
+        "question": "¿Cuál afirmación es correcta?",
+        "options": "Las opciones: es raro y de jóvenes, es más frecuente en asiáticos, el tabaco es su principal factor, la vasectomía es factor demostrado o es una de las primeras causas de muerte por cáncer en hombres y aumenta con la edad. Piénsalo.",
+        "answer": "Es la E. Es muy frecuente, una de las primeras causas de muerte por cáncer en hombres, y sus factores son edad, historia familiar y ascendencia africana. El tabaco tienta porque causa muchos cánceres, pero no es el factor principal en próstata."
+      }
     },
 
     {

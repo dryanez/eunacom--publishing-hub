@@ -37,9 +37,24 @@ module.exports = {
         { show: ['vi', 'ed'], note: 'Un virus inflama la subglotis',
           say: 'El croup es una laringotraqueítis viral. El agente más frecuente, en más de tres cuartos de los casos, es el virus parainfluenza tipo uno, y el edema se concentra en la región subglótica. Piensa en el anillo del cricoides: es cartílago completo y no se expande. Cuando la mucosa se hincha, solo puede hacerlo hacia adentro, y se cierra el paso del aire.' },
         { show: ['ob'], note: 'En el lactante, un poco de edema obstruye mucho',
-          say: 'En un lactante, la vía aérea ya es muy angosta. Un milímetro de edema le quita una fracción enorme de su calibre y multiplica la resistencia al flujo. Por eso un resfrío común en un adulto es una obstrucción en un niño de dos años.' },
+          say: 'En un lactante, la vía aérea ya es muy angosta. Un milímetro de edema le quita una fracción enorme de su calibre y multiplica la resistencia al flujo. Por eso un resfrío común en un adulto es una obstrucción en un niño de dos años. Mira esta radiografía de cuello: la columna de aire se estrecha bajo las cuerdas, el signo del campanario.',
+          photo: { src: 'biblioteca/17_otorrino/orl-17/01_croup-estrechamiento-subglotico-rx__nelson_p3220.jpg', label: 'Estrechamiento subglótico', at: 'Mira esta radiografía de cuello', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 3220' } },
         { show: ['tr', 'to', 'di'], note: 'Tríada: tos perruna, estridor y disfonía',
           say: 'Esa obstrucción alta explica la tríada del croup: tos perruna, como de perro o de foca; estridor inspiratorio rudo; y disfonía. Casi siempre viene después de uno o dos días de coriza y fiebre baja, y aparece sobre todo en niños de seis meses a tres años, en otoño e invierno.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Croup y epiglotitis',
+      images: [
+        { src: 'animaciones/orl-17/A1_croup_vs_epiglotitis.mp4', label: 'Croup y epiglotitis en la vía aérea del niño', credit: 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios / Blausen.com staff (2014), CC BY 3.0' },
+      ],
+      steps: [
+        { note: 'Subglotis edematosa frente a epiglotis hinchada',
+          say: 'Mira la laringe. En el croup se edematiza la subglotis, bajo las cuerdas: el cricoides no se expande, el aire pasa con estridor, y hay tos perruna. En la epiglotitis es la epiglotis la que se hincha, en horas, con fiebre alta, babeo y postura en trípode, sin tos. Y ahí no se toca la garganta: se lleva al niño al pabellón para asegurar la vía aérea.' },
       ],
     },
 
@@ -134,7 +149,11 @@ module.exports = {
       cards: [
         { title: 'Cuadro de alarma', tag: 'Hiperagudo', kind: 'alert', items: [
           { t: 'Fiebre alta, aspecto tóxico', d: 'Horas de evolución, más de 39 °C',
-            say: 'La epiglotitis es una infección bacteriana invasiva de la epiglotis, y es una emergencia que puede cerrar la vía aérea en minutos. Si el croup avanza por días con coriza, la epiglotitis aparece en horas, con fiebre muy alta y un niño de aspecto séptico.' },
+            say: 'La epiglotitis es una infección bacteriana invasiva de la epiglotis, y es una emergencia que puede cerrar la vía aérea en minutos. Si el croup avanza por días con coriza, la epiglotitis aparece en horas, con fiebre muy alta y un niño de aspecto séptico. Mira la epiglotis vista por laringoscopía: roja como una cereza, inflamada. Y en la radiografía lateral de cuello, el signo del pulgar: la epiglotis engrosada.',
+            photos: [
+              { src: 'biblioteca/17_otorrino/orl-17/02_epiglotitis-rojo-cereza__cto-pediatria_p50.jpg', label: 'Epiglotis rojo cereza', at: 'Mira la epiglotis', credit: 'Manual CTO Pediatría, p. 50' },
+              { src: 'biblioteca/17_otorrino/orl-17/04_epiglotitis-signo-del-pulgar-rx__commons.jpg', label: 'Signo del pulgar', at: 'Y en la radiografía lateral', credit: 'Wikimedia Commons, CC0' },
+            ] },
           { t: 'Babeo y postura en trípode', d: 'No puede ni tragar su saliva',
             say: 'El dolor al tragar es tan intenso que el niño no traga ni su saliva y babea. Se sienta inclinado hacia adelante, con el cuello extendido y la boca abierta. Esa es la postura en trípode, y es una forma de abrir la vía aérea con su propio cuerpo.' },
           { t: 'Sin tos perruna', d: 'Voz apagada, estridor sordo',
@@ -196,19 +215,23 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Croup y epiglotitis',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-17/01_croup-estrechamiento-subglotico-rx__nelson_p3220.jpg', label: 'Croup: la tráquea se estrecha bajo las cuerdas', credit: 'Nelson 22.ª ed., p. 3220' },
-        { src: 'biblioteca/17_otorrino/orl-17/02_epiglotitis-rojo-cereza__cto-pediatria_p50.jpg', label: 'Epiglotitis: epiglotis rojo cereza', credit: 'Manual CTO Pediatría 14.ª ed., p. 50' },
-      ],
-      steps: [
-        { note: 'Edema subglótico',
-          say: 'En el croup, el edema subglótico estrecha la vía aérea justo bajo las cuerdas. En la radiografía, la columna de aire de la tráquea se afina en punta.' },
-        { note: 'Epiglotis roja e hinchada',
-          say: 'Y esta es una epiglotitis: la epiglotis roja e hinchada. Ante la sospecha, nunca uses bajalenguas: se maneja en pabellón con anestesista.' },
+      type: 'points',
+      kicker: 'Estridor congénito',
+      title: 'Estridor desde las primeras semanas: laringomalacia',
+      cards: [
+        { title: 'Laringomalacia', tag: 'Causa más frecuente', kind: 'key', items: [
+          { t: 'Estridor inspiratorio desde las 2 a 4 semanas', d: 'Peor con llanto, alimentación y boca arriba; mejora en prono',
+            say: 'La laringomalacia es la causa más frecuente de estridor congénito, entre sesenta y setenta y cinco por ciento. Es un estridor inspiratorio agudo e intermitente que aparece en las primeras dos a cuatro semanas, empeora con el llanto, la alimentación y estando boca arriba, y mejora boca abajo. Mira esta endoscopía: al inspirar, los repliegues de la epiglotis colapsan hacia la vía aérea.',
+            photo: { src: 'biblioteca/17_otorrino/orl-17/03_laringomalacia-endoscopia__nelson_p3228.jpg', label: 'Laringomalacia', at: 'Mira esta endoscopía', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 3228' } },
+          { t: 'Curso benigno', d: 'Pico a los 6 meses; 90 % resuelto antes de los 12 a 18 meses',
+            say: 'Los niños ganan peso bien y el reflujo es frecuente. El pico de síntomas es hacia los seis meses, y en el noventa por ciento se resuelve antes de los doce a dieciocho meses. Basta observar, cuidar la posición, tratar el reflujo y controlar el crecimiento.' },
+        ] },
+        { title: 'Cuándo derivar', tag: 'Nasofibroscopía', kind: 'alert', items: [
+          { t: 'Tiraje marcado, cianosis, apneas, mala alimentación', d: 'Falla de medro',
+            say: 'Se deriva a otorrino para nasofibroscopía el estridor con tiraje marcado, cianosis, apneas, dificultad para alimentarse o falla de medro.' },
+          { t: 'Estridor atípico', d: 'Bifásico o desde el nacimiento; espiratorio; con hemangioma en la barba',
+            say: 'También el estridor atípico: bifásico o desde el nacimiento, que sugiere parálisis de cuerdas o estenosis subglótica; espiratorio, que sugiere traqueomalacia o anillos vasculares; o asociado a un hemangioma en la zona de la barba, que puede ser subglótico y responde a propranolol.' },
+        ] },
       ],
     },
 
@@ -307,6 +330,82 @@ module.exports = {
         options: 'Las opciones: adrenalina subcutánea; nebulizaciones con salbutamol; intubación orotraqueal; nebulizaciones con bromuro de ipratropio; o nebulizaciones con adrenalina racémica. Piénsalo.',
         answer: 'Es la E. Un estridor bifásico con tiraje es un croup severo, y lo primero es la adrenalina nebulizada, junto con oxígeno y corticoide. El salbutamol y el ipratropio actúan en el músculo liso bronquial y no sobre el edema de la subglotis. La intubación queda para el agotamiento, y la adrenalina subcutánea no es la vía.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2024 · Pregunta 86",
+      "stem": "Lactante con estridor desde el nacimiento, cuya causa es una laringomalacia.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Control sano habitual"
+        },
+        {
+          "letter": "B",
+          "text": "Derivar a especialista"
+        },
+        {
+          "letter": "C",
+          "text": "Hospitalizar"
+        },
+        {
+          "letter": "D",
+          "text": "Observación domiciliaria"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar tratamiento empírico"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La laringomalacia es la causa más frecuente de estridor congénito: estridor inspiratorio que aumenta en decúbito supino y con el llanto. En las formas leves, sin apneas, cianosis ni mal incremento ponderal, se maneja en el control sano habitual, porque se resuelve sola hacia los 12 a 18 meses.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticuatro, muy breve. Un lactante tiene estridor desde el nacimiento, y la causa es una laringomalacia.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: control sano habitual, derivar a especialista, hospitalizar, observación domiciliaria, o tratamiento empírico. Piénsalo.",
+        "answer": "Es la A. La laringomalacia leve se resuelve sola antes de los dos años, así que basta el control sano habitual. Derivar al especialista tienta, pero se reserva para los signos de alarma: apneas, cianosis o mal incremento de peso."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 162",
+      "stem": "Un recién nacido de término presenta estridor desde el nacimiento, sin otros síntomas. Al examen físico está en buenas condiciones, sin cianosis ni uso de musculatura accesoria.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anillo vascular"
+        },
+        {
+          "letter": "B",
+          "text": "Traqueomalacia"
+        },
+        {
+          "letter": "C",
+          "text": "Laringomalacia"
+        },
+        {
+          "letter": "D",
+          "text": "Hendidura laríngea"
+        },
+        {
+          "letter": "E",
+          "text": "Fístula traqueoesofágica"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La laringomalacia es la causa más frecuente de estridor congénito: estridor inspiratorio que aparece en las primeras semanas, aumenta con el llanto, la alimentación o el decúbito supino, en un lactante con buen estado general. Suele resolverse espontáneamente entre los 12 y 24 meses. La traqueomalacia y el anillo vascular dan estridor espiratorio o bifásico.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Un recién nacido de término tiene estridor desde el nacimiento, en buenas condiciones, sin cianosis ni retracción.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: anillo vascular, traqueomalacia, laringomalacia, hendidura laríngea o fístula traqueoesofágica. Piénsalo.",
+        "answer": "Es la C. La laringomalacia es la causa más frecuente de estridor congénito y suele resolverse sola. La traqueomalacia tienta por el nombre parecido, pero da un ruido espiratorio, no un estridor inspiratorio."
+      }
     },
 
     {

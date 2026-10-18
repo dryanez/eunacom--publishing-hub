@@ -712,3 +712,501 @@ Nota: esta sección es de la reescritura por calidad (voz "tú" + largo en panta
 - psiq-12 (A): la tabla dice "crónico refractario a psicofármacos" y el texto indica atípicos; se enseñó "respuesta variable".
 - psiq-12 (B): la explicación de Diciembre 2025 · P71 pide delirio > 3 meses; libro y DSM-5 piden ≥ 1 mes. Se siguió el libro. Julio 2017 · P69 (84 años, 4 semanas) descartada. psiq-10 (B): Diciembre 2017 · P113 (marihuana en adolescentes) tiene clave "menor motivación escolar"; el libro dice que el cannabis multiplica 2–4 veces el riesgo de esquizofrenia; no se usó.
 - psiq-11 (C): sin dosis de inicio ni titulación de clozapina; sin interacción con mielosupresores (carbamazepina); la viñeta dice "la paciente" describiendo a un hombre. psiq-10 (C): sin antipsicóticos de depósito; sin preguntas reales de GES, síndrome metabólico ni duración de la mantención. psiq-12 (C): sin preguntas reales de psicosis breve ni esquizofreniforme.
+- psiq-13 (B): el libro dice «sin preguntas en exámenes 2013-2025» pero el banco trae tres de SNM (Julio 2016 · P141, Enero 2023 · P109, más Diciembre 2022 · P78 ya anotada). Julio 2016 · P141 tiene CPK 1.200, bajo el «habitualmente > 1.000, a menudo > 10.000»: se enseñó que basta sobre 1.000 en contexto. (C): sin criterios diagnósticos formales, sin benzodiacepinas ni TEC en los casos refractarios; Diciembre 2019 · P9 (clave serotoninérgico sin hiperreflexia ni clonus) no se usó.
+- psiq-14 (B): orden de la contención: el texto pone la sujeción mecánica como último recurso tras fracasar lo verbal y lo farmacológico, pero la viñeta y la fila RASS +4 la combinan con fármacos IM; se enseñó sujeción transitoria con equipo para poder administrar el IM. (A) Banco: Diciembre 2022 · P30 (solo agresión verbal) tiene clave «contención física», contra el escalamiento del libro y Enero 2023 · P130; Diciembre 2025 · P24 tiene clave haloperidol pero la explicación defiende risperidona; Julio 2013 · P130 pide haloperidol EV (el libro da VO o IM). No se usaron. (C): sin dosis para el anciano de olanzapina VO ni de risperidona, ni manejo de la agitación en Alzheimer o Parkinson (Lewy).
+- psiq-15 (B): mortalidad del delirium tremens «hasta 5 %» (contexto) vs «5 a 15 % sin tratamiento» (texto y puntos clave): se dijo hasta quince por ciento sin tratamiento. Tiamina: 500 mg c/8 h por 2-3 días (texto, Wernicke) vs 100-300 mg/día (tabla y viñeta, profilaxis) y 100-250 mg (texto): se enseñó cada dosis según su indicación. CIWA-Ar «≥ 20 severa» (texto) vs «20-30 severa y > 30 o DT» (tabla): se usó la tabla. (A) AUDIT: «> 16» deja el 16 sin categoría; la OMS usa 8-15, 16-19 y ≥ 20 para dependencia probable. Banco: Diciembre 2022 · P148 (clave tiamina para delirium tremens, con explicación de demencia) y Diciembre 2024 · P22 (Wernicke con alternativas D y E de otra pregunta) descartadas. (C): sin fenobarbital ni gabapentina, sin cuándo derivar a UPC con criterios distintos del CIWA, sin deshabituación en hepatopatía avanzada.
+- psiq-16 (A): el libro enseña la contraindicación de los betabloqueadores en la cocaína como absoluta; algunas guías aceptan labetalol o carvedilol en casos seleccionados. Se enseñó el libro y el banco (Agosto 2021 · P44). (B): la tabla de toxíndromes no incluye el colinérgico ni el serotoninérgico, que el banco sí pregunta; el anticolinérgico no trae antídoto en el libro (se enseñó solo soporte). (C): sin pasta base (psicosis, manejo de la abstinencia), sin éxtasis más allá de una línea, sin síndrome serotoninérgico. Banco: Diciembre 2024 · P43 (una línea) y Julio 2025 · P139 (cocaína más carbamazepina) no usadas.
+- psiq-17 (C): sin criterios de duración o de diagnóstico formal de los 10 trastornos, sin tratamiento del paranoide, esquizoide, evitativo ni obsesivo de la personalidad, y sin mencionar otras psicoterapias del límite. Banco (A): Diciembre 2024 · P143 con las alternativas A y B fusionadas con un comentario del autor.
+- psiq-18 (B): hospitalización por anorexia: «PAS < 80» (texto) vs «hipotensión < 80/50» (puntos clave). Trastorno por atracones: «TCC con ISRS de apoyo» (texto) vs «lisdexanfetamina o topiramato» (tabla); se citaron ambos. (C): sin manejo ambulatorio de la anorexia (terapia basada en la familia, criterios de alta), sin dosis de metilfenidato ni alternativas (atomoxetina), sin pruebas para la discapacidad intelectual ni manejo del TEA en el adolescente. Sin preguntas reales de enuresis infantil, discapacidad intelectual, ansiedad por separación, pica ni realimentación; Julio 2016 · P78 (ausencias) y Diciembre 2025 · P7 (enuresis a los 95 años) son de otras clases.
+- psiq-19 (C): sin criterios CIE-10 del insomnio no orgánico, sin detalle de la Ley 20.584 ni de la capacidad de consentir en menores, sin conducta ante la sospecha de simulación en una licencia médica. Sin preguntas reales de clasificaciones ni de forense: se usaron dos «Pregunta de práctica» del libro. Banco: Diciembre 2024 · P85 (enunciado de facticio con alternativas de exámenes) y Julio 2015 · P108 (insomnio del anciano; el propio banco la llama mala) no usadas.
+- psiq-20 (C): el libro recomienda dapoxetina y no dice si está comercializada en Chile; sin tratamiento del deseo hipoactivo femenino ni de la disforia en niños prepúberes; sin conducta ante una orientación que genera angustia. Sin preguntas reales de parafilias, disforia ni orientación: se usaron tres «Pregunta de práctica» del libro. Banco (A): Diciembre 2024 · P107 (sildenafil con alternativas que son un comentario del autor) descartada.
+
+## Revisión de preguntas por código V3 (oct 2026)
+
+Notas de los agentes que agregaron preguntas reales y de práctica para cubrir cada código Perfil V3. Las preguntas nuevas están en `books/dist/Preguntas_de_Practica_Perfil_V3.pdf` (respaldo) y en `books/data/preguntas_practica_v3.json`.
+
+### B2 (oftal-14..uro-15)
+- uro-08 diap. 16: plazo GES de 30 días para confirmar cáncer de próstata con biopsia; el agente recuerda 60 días. Revisar decreto GES vigente.
+- trauma-10 diap. 12: cirugía de Girdlestone como «más adecuada» en paciente postrado de 88 años con fractura de cuello femoral desplazada es discutible (procedimiento de rescate; muchos optarían por hemiartroplastía o manejo paliativo).
+- trauma-02 diap. 9: herida por bala de baja velocidad de 1 cm clasificada grado III con cefazolina + gentamicina + clindamicina; suele tratarse como grado I–II y el tercer antibiótico es discutible.
+- uro-13 diap. 7: prostatitis aguda con calofríos y 39,3 °C tratada ambulatoria con ciprofloxacino oral; muchas guías hospitalizan con antibiótico EV si hay compromiso sistémico.
+### D2 (ob-05..sp-14)
+- ped-05 diap. 11: según el score de Tal MINSAL, la retracción solo subcostal suma 1 punto → total 5 (leve), no 6 (moderado); la respuesta «hospitalización abreviada» podría estar mal.
+- ob-16 diap. 9: dice iniciar oxitocina «con Bishop mayor a 6»; la formulación habitual es Bishop ≥ 7.
+- sp-14 diap. 7: rotura uterina espontánea a las 16 semanas como «Causal 1 IVE» es inusual (el punto que enseña sobre objeción de conciencia es correcto).
+- ped-04 diap. 9: dosis e inicio de hierro en prematuro de 33 semanas: verificar con norma MINSAL vigente (32–36 semanas).
+- Banco real: Dic 2022 P31 (Posta de Salud Rural como nivel secundario) y Dic 2022 P64 (mastitis abscedada → «suspender lactancia») tienen la clave equivocada; no se usaron.
+### A2 (gin-07..reuma-24)
+- reuma-07 a reuma-24: varias diapositivas dicen «Pregunta real EUNACOM» con títulos sin mes («EUNACOM 2017 · Pregunta 21») o «EUNACOM · <tema>»; no están en el banco real y podrían ser inventadas. Revisar procedencia.
+- reuma-08 diap. 13: presenta ANA ≥ 1:80 como lo que «confirma» el lupus; el ANA es criterio de entrada, lo específico es anti-DNA / anti-Sm.
+- reuma-22 diap. 15: plasmaféresis de rescate en GPA con hemorragia alveolar; PEXIVAS no mostró beneficio claro, es discutible.
+- reuma-22 diap. 16: el caso de Schönlein-Henoch dice «erupción cutánea purulenta violácea»; debería ser púrpura palpable.
+- reuma-23 diap. 11: corticoides y opioides potentes «FORMALMENTE CONTRAINDICADOS» en fibromialgia; más preciso «no recomendados».
+- gin-09 (real Jul 2024 P69 agregada): VDRL no reactivo con treponémica reactiva = «sífilis tratada» asume tratamiento previo documentado que el enunciado no menciona.
+- orl-17 (real Dic 2024 P86 agregada): «control sano habitual» solo vale en laringomalacia leve sin signos de alarma; la explicación lo aclara.
+### C2 (infecto-23..resp-24)
+- resp-14: enseña descompresión con aguja en 2.º espacio intercostal línea medioclavicular como primera opción; ATLS 10.ª edición prefiere 4.º–5.º espacio línea axilar media/anterior en adultos.
+- resp-13 diap. 10: neumotórax secundario de 1,5 cm («pequeño») con respuesta de tubo pleural; se justifica por síntomas y EPOC, pero la viñeta debería decirlo.
+- Preguntas casi duplicadas dentro de la misma clase: nefro-04 #7/#9 (síndrome hepatorrenal), resp-22 #9/#10 (SDRA grave), nefro-22 #7/#9 (ajuste de metformina), resp-20 #11/#12 (decúbito en hemoptisis masiva).
+- resp-04: la única pregunta real para tabaquismo (Jul 2015 P142, solo terapia conductual en fumador leve) es discutible; se escribió una nueva.
+### B1 (cirugia-01..oftal-13)
+- oftal-13 diap. 7: llama «urgencia» (no emergencia) a una retinopatía grado III de Keith-Wagener-Barker con PA 190/115; ESH 2018 considera grado III–IV como hipertensión maligna = emergencia.
+- oftal-12 diap. 10: cita «GES número veintitrés» para tamizaje de retinopatía diabética; el agente cree que es el problema GES 31. Verificar.
+- Banco real: Julio 2016 P11 marca «infección urinaria» como respuesta aunque su explicación argumenta atelectasia/TEP; Julio 2025 P31 dice operar catarata congénita «antes de las 10 semanas» en un lactante de 7 meses. No usar sin revisar.
+- cirugia-02 (Ago 2021 P125) y derma-12 (Jul 2017 P86): preguntas reales que dependían de una imagen; se reemplazó la imagen por una descripción escrita del hallazgo.
+### C1 (gastro-01..infecto-22)
+- gastro-09 diap. 12: «Linfoma T asociado a enteropatía (linfoma MALT)» es incorrecto (EATL es de células T, MALT de células B); además, la causa más frecuente de celíaco que no mejora es la transgresión al gluten aun con anticuerpos negativos.
+- gastro-18 diap. 15: Ringer lactato «agresivo» contradice WATERFALL 2022 (fluidos moderados guiados por objetivos en pancreatitis aguda).
+- gastro-15 diap. 17: en várices medianas la ligadura es alternativa aceptada al betabloqueo en profilaxis primaria; la explicación lo presenta como única opción.
+- infecto-18 diap. 12: espondilitis/sacroileítis brucelar: guías prefieren doxiciclina + aminoglucósido (o rifampicina) ≥ 12 semanas; 6 semanas de doxi + rifampicina es para enfermedad no complicada.
+- infecto-05 diap. 12: profilaxis post-exposición VIH «28 días a 6 semanas»; el estándar es 28 días.
+- infecto-19 diap. 10: el ántrax no se transmite de persona a persona; bastan precauciones estándar.
+- gastro-04 diap. 15 (gastritis / erradicación de H. pylori) quedó etiquetada como perforación esofágica (4.01.2.019): esa etiqueta es errónea y perforación esofágica queda sin pregunta propia.
+### D1 (hem-01..ob-04)
+- hem-05: el caso de metimazol se explica como «aplasia medular medicamentosa»; el metimazol suele causar agranulocitosis, la aplasia verdadera es rara.
+- Banco real: muchas explicaciones del banco no corresponden a su pregunta (texto de TEC en una de convulsiones, de hematuria en una de caídas); en las 17 reales agregadas se reescribieron desde el contenido clínico.
+- Banco real con errores corregidos al usarlas: Dic 2025 P21 (CHCM en «pg» → g/dL), Jul 2017 P28 («plaquetas 2.5000» → 250.000), Dic 2024 P63 (seis alternativas, se dejó en cinco), Dic 2018 P90 (ciclos irregulares con «FUR segura», contradicción del original).
+### A1 (diab-01..gin-06)
+- diab-02: enseña HbA1c ≥ 6,5 % como criterio diagnóstico; la guía MINSAL no la incluye (el banco también lo señala). Agregar el matiz.
+- diab-24 vs pregunta real Jul 2024 P77: para triglicéridos > 1.000 el examen respondió «dieta estricta» y la clase enseña fibrato de inmediato. Considerar mencionar la respuesta del examen.
+- diab-05 y diab-23: no dicen que MINSAL clasifica la diabetes directamente como riesgo cardiovascular alto (la pregunta nueva de diab-05 se apoya en eso).
+- diab-03 diap. 10: diagnóstico con dos glicemias de ayuno 100–125 a las 10 semanas (corte MINSAL actual); la pregunta real antigua Jul 2013 P60 usaba 105. Mencionar el cambio de corte.
+- Banco real corrupto (opciones y explicación no corresponden al enunciado): Dic 2024 P101 (cetoacidosis), Dic 2024 P145 (hipertiroidismo), Jul 2025 P124 (retinopatía). Dic 2018 P106 (HbA1c) está marcada como discutida en el propio banco.
+
+### E5 (códigos sin clase: Psiquiatría, Salud Pública, Obstetricia/Ginecología)
+- Banco real con clave discutible o errónea (no usadas): Dic 2018 P78 (repetir PAP a los 22 años), Dic 2024 P38 (alternativas rotas), Dic 2017 P113 (cannabis: «baja motivación escolar»), Jul 2016 P125 (fumador que no quiere dejar: «tratar la ansiedad»), Dic 2022 P20 (fórmula de mortalidad neonatal marcada como perinatal), Dic 2022 P122 (contradice a Dic 2017 P69), Dic 2018 P33 (solo condón en mujer VIH con carga indetectable), Jul 2019 P54 (coagulación de rutina tras muerte fetal de un gemelo), Dic 2022 P68 (esperar 28 días para amamantar con COVID).
+- Jul 2025 P53: 200 mg/día de hierro elemental está en el límite alto; MINSAL suele usar rangos menores.
+- Nueva 3.01.1.031: asume que la norma chilena aún contraindica la lactancia en madre con VIH aun con carga viral indetectable. Confirmar vigencia.
+- Nueva 7.01.3.053 (GES agresión sexual): no se fijó ventana exacta de elegibilidad; verificar el decreto.
+- psiq-13 a psiq-18 no tienen guion de clase todavía: sus preguntas quedaron en el banco.
+### E2 (códigos sin clase: Cirugía)
+- Banco real con clave errónea (no usadas): Dic 2018 P178 (biopsia estereotáxica en nódulo BI-RADS 4 palpable), Dic 2017 P124 (sutura intradérmica en herida contusa de ceja en niño), Dic 2025 P87 («cuerpo extraño» tras hernioplastía; es hematoma), Dic 2022 P25 (enema baritado en sospecha de apendicitis/diverticulitis).
+- 4.01.3.013: «el cáncer gástrico es la primera causa de muerte por cáncer en hombres chilenos»: verificar con DEIS actual.
+- 4.01.4.014: pCO2 26 en el borde superior del rango de Winter (23 ± 2) calificada como compensación adecuada: discutible.
+### E1 (códigos sin clase: Pediatría)
+- Banco real con clave errónea (no usadas): Dic 2022 P53 (VIH en caso de Bartonella), Dic 2022 P85 (leucemia en déficit de B12 por madre vegana), Dic 2022 P77 (hepatoblastoma en masa de flanco con hematuria = Wilms), Dic 2025 P165 (cintigrafía de Meckel en invaginación), Dic 2022 P79 (soplo funcional en CIV con insuficiencia cardíaca), Jul 2025 P25 (sepsis en encefalopatía hipóxico-isquémica), Dic 2018 P40 (AINE vs tricíclicos, contradice su explicación). Varias con alternativas rotas (Dic 2024 P5, P15, P26, P29, P65).
+- Dic 2018 P115: Hb 9 con Hto 36 % es incoherente; se corrigió el hematocrito a 28 %.
+- Dic 2022 P136: candidiasis oral recurrente sugiere defecto celular, pero la clave oficial es humoral; se mantuvo.
+- 2.01.1.088: la clave «cariotipo» (testículos no palpables + pene de 2 cm) contrasta con «control en un mes» de la versión 2023 de la misma viñeta.
+- 2.01.4.011: corte de urocultivo por sondeo varía entre 10.000 y 50.000 UFC/mL según la fuente.
+- 2.01.3.015: edad GES de salud oral (6 años) y tasa de mortalidad infantil (~6 por 1.000): verificar con MINSAL vigente.
+### E41 (códigos sin clase: Medicina interna 1)
+- Banco real con clave errónea o discutible (no usadas): Dic 2024 P22 (alternativas de otra pregunta), Dic 2022 P18 (cambiar sonda y urocultivo en bacteriuria asintomática con sonda), Dic 2022 P160 (antihistamínicos; sugiere asma), Jul 2016 P126 (control de histamina 0 mm invalida el test).
+- Jul 2017 P4: 300 kcal ≈ 10 kcal/kg en realimentación; algunas guías parten con 5–10 kcal/kg (el propio banco la llama mala pregunta).
+- Dic 2018 P123: endocarditis estreptocócica de válvula protésica: además de penicilina se suele agregar gentamicina.
+- 1.04.1.009: la respuesta del banco 2013 (metronidazol para C. difficile) está desactualizada; hoy vancomicina oral o fidaxomicina.
+- 1.05.4.011: en persona con VIH la terapia preventiva de TBC se indica independiente del PPD; la pregunta solo evalúa el corte ≥ 5 mm.
+### E42 (códigos sin clase: Medicina interna 2)
+- Preguntas reales reconstruidas (faltaba texto en el banco; revisar): Dic 2017 P57 (se agregó la alternativa D «Miastenia gravis» y la E pasó a ELA, la correcta; la imagen de espirometría se describió como patrón restrictivo), 1.06.4.014 (alternativa E completada: toxinas A y B de C. difficile), 1.09.3.011 (enunciado reescrito con niveles de tacrolimus normales).
+- Banco real con clave discutible (no usadas): Dic 2019 P96 / Jul 2017 P73 (colangioRM vs eco vs CPRE), Jul 2024 P66/P67 (radioterapia de urgencia en síndrome de vena cava superior; hoy biopsia primero y stent), Dic 2025 P89 (paraneoplásico vs degeneración cerebelosa alcohólica), Dic 2022 P99 (intoxicación por CO con clave «TAC»), Jul 2025 P12 (quetiapina y risperidona a la vez).
+- 1.07.2.004: risperidona en demencia es aceptable pero los antipsicóticos tienen advertencia de mortalidad.
+- 1.07.3.012: lista de ayudas técnicas GES: verificar decreto vigente. 1.07.3.006: tipo de vacuna antineumocócica de adultos cambió recientemente.
+- 1.09.3.002: meta LDL < 70 en alto riesgo según MINSAL 2018 (verificar). 1.09.4.007: momento del DMSA 4–6 meses vs 6 meses en la guía MINSAL.
+- 1.08.3.007: la diapositiva no dice suspender tramadol al iniciar morfina.
+### E3 (códigos sin clase: ORL, Derma, Oftalmo, Trauma, Urología)
+- Banco real con clave errónea (no usadas): Dic 2018 P49 (papaverina intracavernosa como primera línea, desactualizado), Dic 2022 P114 (corticoide tópico en niño asintomático de 3 años), Jul 2018 P66 (enunciado roto, clave contradice el texto), Jul 2019 P108 (potenciales evocados en niño de 4 años), Dic 2022 P44 (lavado de oído en perforación timpánica traumática: contraindicado).
+- Jul 2019 P74: nefrectomía con función diferencial de exactamente 10 % es un corte limítrofe; algunos intentarían pieloplastía.
+- Ago 2021 P62 (priapismo): la clave es fenilefrina intracavernosa, pero la aspiración va primero y no está entre las opciones.
+- Dic 2018 P60: aumento de volumen del canto medial con reflujo de secreción podría ser dacriocistitis o dacriocele; se mantuvo la clave (obstrucción lagrimal congénita).
+- 6.01.2.002 (Ántrax): escrito como carbunco estafilocócico (uso habitual en dermatología chilena), distinto del Bacillus anthracis de infecto-19.
+- 6.03.3.001: meta 1-3-6 del tamizaje auditivo neonatal: verificar redacción vigente del programa / GES.
+- Corrección de datos: en el banco de preguntas reales, las de TEC (1.10.2.021→020), herpes zóster (6.01.2.009→007), loxocelismo (6.01.2.011→008) y necrólisis (6.01.2.013→009) estaban archivadas bajo códigos corridos; se movieron al código correcto.
+
+## Claves dudosas del banco real (revisión de explicaciones, 18-oct-2026)
+CORREGIDAS las 7 (aprobado por el usuario 18-oct): campo `correcta_original` guarda la anterior; también en neuro-07 (neurologia_decks_data.json) y atlas_392_enriched.json. Menos seguras: 1.10.1.014 (el comentario original dudaba entre A y C) y 5.01.1.036 (el comentario original decía TAG).
+
+- 1.06.1.024 · EUNACOM Julio 2013 · Pregunta 89: marcada C (Adenoma). Posible clave dudosa: en un paciente de 55 años con esteatohepatitis, una lesión hipoecogénica sólida sugiere más hepatocarcinoma (B) que adenoma (típico de mujer joven con anticonceptivos).
+- 1.03.1.021 · EUNACOM Diciembre 2019 · Pregunta 51: marcada E (Captación de yodo radiactivo). La clave marcada (captación de yodo) parece errónea: con TSH normal el examen de elección es la ecografía cervical (A).
+- 2.01.1.121 · EUNACOM Julio 2018 · Pregunta 176: marcada A (Solicitar hemograma, grupo‐Rh y prueba de Coombs directo al ). La clave marcada (estudio de hemólisis) parece errónea: la bilirrubina directa elevada sugiere colestasis y corresponde solicitar pruebas hepáticas (C).
+- 1.10.1.014 · EUNACOM Diciembre 2017 · Pregunta 58: marcada D (Síndrome de atrapamiento cubital). La clave marcada (atrapamiento cubital) es dudosa: el cuadro nocturno y bilateral en un diabético corresponde mejor a síndrome de túnel carpiano (C).
+- 1.10.1.013 · EUNACOM Julio 2016 · Pregunta 94: marcada D (Paracetamol y AINEs). La clave marcada (paracetamol y AINEs) parece errónea: el tratamiento es con anticonvulsivantes, y la única opción de ese tipo es pregabalina (A).
+- 4.01.3.005 · EUNACOM Julio 2016 · Pregunta 11: marcada A (Infección urinaria). Creo que la correcta es E (atelectasia): la hipoventilación basal y la fiebre precoz posoperatoria la sugieren; la infección urinaria no tiene respaldo en el cuadro.
+- 5.01.1.036 · EUNACOM Diciembre 2025 · Pregunta 109: marcada B (Trastorno de ansiedad generalizada). Creo que la correcta es A (trastorno adaptativo): hay un estresante identificable y solo 2 meses de evolución, mientras el TAG exige al menos 6 meses.
+
+## Tema nuevo uro-16 · Patología peneana (hueco Perfil V3, 18-oct-2026)
+Escrito desde cero (libro y clase) con guías internacionales y estándar EUNACOM: no hay guía MINSAL/GES de estos cuatro códigos. Revisar:
+- uro-16 (B, banco): fimosis asintomática con claves distintas según la edad: Diciembre 2022 · P114 (3 años → corticoide tópico; ya descartada en E3), Enero 2023 · P21 (3 años → control en un año) y Julio 2025 · P62 (5 años → observar, "normal hasta los 6-7 años"). El libro enseña: fisiológica sin síntomas se observa, sin edad de corte; corticoide si da síntomas. Decidir si se quiere una edad de corte para el corticoide.
+- uro-16 (C, verificar cifras): betametasona 0,05 % por 4–8 semanas (éxito ~80 %); clotrimazol 1 % cada 12 h por 7–14 días; fluconazol 150 mg dosis única; cefadroxilo o amoxicilina-clavulánico en la balanopostitis infantil con celulitis; fenilefrina 200 µg cada 3–5 min hasta 1 mg en 1 h (EAU); gasometría isquémica PO2 < 30, PCO2 > 60, pH < 7,25; testosterona baja < 300 ng/dL; sin nitratos 24 h tras sildenafil y 48 h tras tadalafil.
+- Banco (A): Diciembre 2018 · P32 marca atenolol como causa de disfunción eréctil, pero la hidroclorotiazida (alternativa C) también la causa — no usada. Julio 2018 · P66 (clave C, vaciamiento quirúrgico) confirma la nota de E3 — no usada.
+
+## Endocrinología: códigos V3 completados en el libro (muestra, 18-oct-2026)
+Párrafos nuevos escritos con guías internacionales (EUGOGO 2021, ESE 2023 de incidentaloma, Endocrine Society, ACR 2022 de corticoides) y estándar EUNACOM; no hay guía MINSAL/GES específica para estos códigos. Revisar:
+- 7.6 Orbitopatía (6.02.3.006): selenio 100 µg c/12 h por 6 meses en la leve; metilprednisolona EV 4,5 g acumulados en 12 semanas; CAS ≥ 3/7 = activa.
+- 7.13 HSC (2.01.1.074): hidrocortisona 50-100 mg/m² EV en la crisis perdedora de sal (≈ 25 mg en lactante); mantención 10-15 mg/m²/día + fludrocortisona 0,05-0,2 mg/día. No se dijo si Chile incluye la 17-OHP en el tamizaje neonatal (verificar y, si se hace, agregarlo).
+- 7.13 Corticoides (1.03.3.003): supresión del eje con ≥ 20 mg/día de prednisona por > 3 semanas; riesgo óseo desde 2,5-7,5 mg/día por > 3 meses (coherente con reuma-23, que dice 2,5; reuma-24 dice 5); profilaxis de Pneumocystis con ≥ 20 mg/día por > 4 semanas más otro inmunosupresor.
+- 7.15 Incidentaloma (1.03.1.022): cortisol post 1 mg de dexametasona > 1,8 µg/dL; adenoma < 4 cm y ≤ 10 UH no funcionante sin seguimiento (ESE 2023).
+- 7.18 Prevención (1.03.3.002): densitometría a toda mujer ≥ 65 años; calcio 1000/1200 mg y vitamina D 600-800 UI (verificar contra la guía MINSAL de osteoporosis vigente).
+- 7.23 Hipogonadismo (1.03.1.012): testosterona < 300 ng/dL; no iniciar con hematocrito > 50% y suspender o reducir si > 54%; APE > 4 ng/mL sin estudio como contraindicación.
+- 7.25 Ginecomastia (tema nuevo, 1.03.1.023): tamoxifeno 10-20 mg/día por 3 meses (uso fuera de ficha, por especialista); cambio de espironolactona por eplerenona.
+- Asignaciones sobrantes a quitar (anotadas en `v3_section_codes.json`, campo `sobrante`; no se tocó `v3_topic_codes.json`): 1.03.1.007 en endo-13 (se enseña en endo-12), 1.09.2.006 en endo-14 (nefro-10), 1.03.4.010 en endo-17 (endo-16), 1.03.1.020 en endo-19 (endo-16/17), 1.03.1.014 en endo-20 (endo-23).
+- Numeración: los temas 1-5 del libro salen como 1.1-1.5 y el resto como 7.6-7.25 (topicLabel de `dataset_endocrinologia_bloque_1.cjs`); unificar.
+
+## Reumatología: dudas al completar el libro (18-oct-2026)
+
+# Dudas médicas — Reumatología (completar libro, 18-oct-2026)
+
+Párrafos nuevos escritos desde conocimiento clínico general y guías internacionales; revisar contra la pauta MINSAL vigente antes de imprimir.
+
+1. **Ceftriaxona en uretritis/cervicitis gonocócica (reuma-19, 4.º párrafo nuevo, ETS):** puse «ceftriaxona IM dosis única» sin cifra porque no pude confirmar si la Guía/Norma ITS vigente del MINSAL usa 250 o 500 mg; completar. Lo mismo con el esquema de enfermedad inflamatoria pélvica (solo dicho de forma general) y el tiempo de búsqueda de contactos (2-3 meses; para sífilis depende de la etapa).
+2. **Umbral de dosis para osteoporosis por corticoides (reuma-23 nuevo vs reuma-24 1.8):** reuma-24 dice ≥ 5 mg/día por > 3 meses; ACR 2022 usa ≥ 2,5 mg/día por ≥ 3 meses. En reuma-23 dejé 5 mg con la nota de 2,5; unificar criterio en ambos temas (ya figuraba como contradicción en ESTADO_CODIGOS_V3.md).
+3. **Código 1.11.3.002 (prevención de complicaciones de la terapia esteroidal):** el audit sugería que se enseñaba en reuma-21 (4.5) y reuma-24, pero esos párrafos no estaban etiquetados con el código; escribí un párrafo propio en reuma-23 (PMR = tratamiento esteroidal de 1-2 años). Si se prefiere, se puede en cambio quitar la asignación sobrante de reuma-23 y etiquetar reuma-21 4.5.
+4. **Osteomielitis (reuma-02):** antibiótico empírico solo si sepsis, duración «alrededor de 6 semanas»; en pie diabético y osteomielitis vertebral hay pautas distintas. Código asignado a un tema de artritis séptica; podría pertenecer mejor a Infectología/Traumatología (sugerencia original del audit).
+5. **Metotrexato en APS (reuma-06, sección 6 nueva):** escribí que el FARME de inicio es metotrexato previa verificación de exámenes; en el GES de AR el inicio y la confirmación los hace el especialista. Confirmar si el texto debe decir «el especialista inicia» y limitar APS a puente + derivación.
+6. **Trombofilias (reuma-11, sección 6 nueva):** el código 1.08.1.019 también está asignado a hem-23, donde probablemente es tema principal (posible asignación sobrante en reuma-11). Duración de anticoagulación (3-6 meses en evento provocado) acorde a guías generales; unificar con Hematología.
+7. **Kawasaki (reuma-22):** AAS «dosis antiinflamatoria al inicio y luego 3-5 mg/kg/día» (la dosis inicial varía entre 30-50 y 80-100 mg/kg/día según guía); vacunas vivas diferidas ~11 meses tras IGEV; ecocardiograma a las 2 y 6 semanas. Verificar contra la guía de la Sociedad Chilena de Pediatría.
+8. **Síndrome seco (reuma-15):** mencioné lifitegrast (puede no estar disponible en Chile) y pilocarpina 5 mg c/8 h; ajustar a lo disponible en el país.
+9. **Uveítis (reuma-17):** prednisolona acetato 1 % horaria al inicio y adalimumab en no infecciosas: pauta de oftalmología, revisar con el especialista.
+10. **Criterios ACR/EULAR 2013 de esclerosis sistémica (reuma-14):** puntajes citados de memoria (engrosamiento proximal a MCF = 9; Raynaud 3; telangiectasias 2; capilaroscopía 2; HTP/EPI 2; úlceras 2 o cicatrices 3; anticuerpos 3; dedos hinchados 2 / esclerodactilia 4). Verificar.
+11. **Lumbago (reuma-16):** no cité una guía MINSAL específica de lumbago agudo (no es GES); revisar si existe orientación técnica vigente. Dosis de AINEs y relajantes según uso habitual.
+12. **Gram (reuma-01):** sensibilidades citadas (60-75 % S. aureus; 25-30 % gonococo) son cifras de referencia de la literatura.
+13. **Código 1.11.1.014 (LES) en reuma-10 y 1.11.1.019 en reuma-05:** agregué párrafos propios; si se prefiere, el audit permite considerarlos asignaciones sobrantes porque el LES completo está en reuma-08/09 y la poliartritis en reuma-06.
+
+## otorrino: dudas al completar el libro (18-oct-2026)
+
+## Dudas médicas, libro ORL (completar, 18-oct)
+- orl-13 fiebre reumática: profilaxis secundaria con penicilina benzatina «cada 3 semanas» (21 días) y duración (hasta 21 años mínimo). Confirmar contra la norma MINSAL vigente; algunas guías indican cada 4 semanas.
+- orl-13 test rápido de estreptococo: se indicó cultivo de confirmación en niños con test negativo y sospecha alta; verificar si la guía MINSAL lo exige también en adultos.
+- orl-06 trauma acústico: límite 85 dB(A)/8 h (DS 594) y PREXOR citados de memoria; confirmar cifras y nombre vigente del protocolo.
+- orl-03 pie diabético: antibióticos orales sugeridos para infección leve (amoxicilina-clavulánico/cefalosporina); revisar con la guía GES/MINSAL de pie diabético y con diab.
+- orl-15 índice de Fujioka: umbral >0,8 (ya era duda previa del agente ORL).
+- orl-08 zóster: vacuna recombinante «recomendada desde los 50 años»; en Chile no está en el programa nacional, solo privada/grupos de riesgo.
+- orl-03 otohematoma: ciprofloxacino como cobertura antipseudomonas y plazo de drenaje (24–48 h, hasta 7 días) según literatura general.
+
+
+## oftalmologia: dudas al completar el libro (18-oct-2026)
+
+# Dudas médicas — Oftalmología (completar libro, 18-oct-2026)
+
+Párrafos nuevos escritos desde conocimiento clínico general y guías internacionales; revisar contra pauta MINSAL vigente.
+
+1. **Examen visual preventivo en niños (oftal-09, 6.02.3.004):** la secuencia por edades (reflejo rojo, Hirschberg desde los 6 meses, agudeza visual con optotipos desde los 3-4 años, pesquisa en 1.º básico) y el umbral «menor a 20/30» son de práctica general; confirmar con la norma de supervisión de salud infantil y el programa escolar (JUNAEB).
+2. **Examen visual en el adulto (6.02.3.003):** frecuencias (40-45 años, ≥60 cada 1-2 años; fondo de ojo diabético al diagnóstico en DM2 y a los 5 años en DM1) son orientativas; verificar con la guía MINSAL de diabetes/RD.
+3. **GES N° 40 (vicios de refracción ≥65 años):** no se citan cifras de agudeza ni frecuencia de recambio de lentes; completar con la canasta vigente.
+4. **Retinoblastoma:** «GES cáncer en menores de 15 años» y sobrevida >95% (países desarrollados); en Chile revisar cifras locales.
+5. **Esclerosis múltiple (oftal-18):** riesgo a 15 años de ONTT (72% con RM lesiones vs 25%); en el libro se escribió «supera el 70%» y «cercano al 25%». GES N° 68 se cita tal como figura en el tema.
+6. **Propranolol en hemangioma infantil:** 1-3 mg/kg/día con inicio supervisado; confirmar con dermatología pediátrica.
+7. **Glaucoma agudo (oftal-01):** acetazolamida 500 mg oral/EV; el tema oftal-06 ya describe el manejo completo.
+8. **Eritromicina ungüento** en blefaroconjuntivitis crónica y ceftriaxona sistémica para sospecha gonocócica (dosis no escrita; ver Norma ITS MINSAL).
+9. **Ley 16.744 / DIAT (oftal-15):** descripción general de la obligación de denuncia; verificar el procedimiento vigente (Superintendencia de Seguridad Social).
+10. **Tropicamida 1%** para dilatar y contraindicaciones (ángulo estrecho); en HTE/traumatismo se prefiere no dilatar.
+11. Los textos de «sugerencia» del audit decían que eversión palpebral (oftal-16), reflejo rojo (oftal-08) y ungüentos (oftal-03) ya se enseñaban en otros temas; se revisó y era falso, por lo que se escribieron en el tema asignado.
+
+- oftalmologia: 5 pies de foto (pterigión, Hirschberg, hemangioma, desprendimiento, glaucoma congénito) redactados por el agente a partir de la imagen; confirmar con Kanski.
+
+## psiquiatria: dudas al completar el libro (18-oct-2026)
+
+# Dudas médicas — Psiquiatría (completar)
+
+- **EBBA (psiq-15)**: no encontré el contenido de la Escala Breve de Beber Anormal en el repo; el párrafo la describe de forma general (cuestionario breve sí/no, tamizaje, no diagnóstico) sin número de ítems ni punto de corte. Revisar con la fuente oficial y completar.
+- **Ley 21.331 (psiq-19)**: se describe la hospitalización involuntaria (psiquiatra, riesgo cierto e inminente, informe a la autoridad sanitaria, revisión por comisión regional) sin plazos exactos; confirmar plazos de notificación.
+- **Depresión en menores (psiq-01)**: se escribió que el GES de depresión parte a los 15 años y que <15 se maneja en el programa de salud mental de APS; fluoxetina desde los 8 años (indicación de fichas internacionales; en Chile verificar ficha técnica).
+- **TEA (psiq-18)**: prevalencia 1/36 (CDC 2023), no cifra chilena; Ley 21.545.
+- **Tiamina (psiq-15)**: 500 mg IV c/8 h por 2-3 días, luego 250 mg/día 3-5 días (esquema de guías europeas); algunos protocolos locales usan 200-300 mg c/8 h.
+- **Rango de valproato 50-125 µg/mL y litio 0,6-1,2 mEq/L (psiq-02)**: cifras estándar; confirmar con la norma local de manía.
+- **Preguntas reales psiq-20**: las dos preguntas EUNACOM Jul-2024 (161 y 162) son casi idénticas; se usó solo una y se reescribió su explicación (la original decía que dispareunia superficial es «también conocida como vaginismo»).
+- **Sobrantes propuestos**: 5.01.1.010 en psiq-04 y psiq-11 (se enseña en psiq-10); 5.01.1.008 en psiq-05 (psiq-01); 5.01.1.016 en psiq-08 (psiq-17); 5.01.5.003 en psiq-09 (psiq-03); 5.01.5.002 en psiq-13 (psiq-10); 1.08.4.008 en psiq-11 (hem-01).
+
+
+## infectologia: dudas al completar el libro (18-oct-2026)
+
+## Infectología: dudas médicas de los párrafos nuevos (revisar contra norma MINSAL vigente)
+- Fracaso de TBC (infecto-11): definí «baciloscopía/cultivo positivo desde el 5.º mes» (OMS); la norma chilena puede fijar el 4.º mes. Esquema MDR de 6 meses (BPaLM) según OMS 2022; confirmar si el PROCET lo usa.
+- PPD (infecto-05): umbral ≥10 mm general y ≥5 mm en VIH/inmunosuprimidos/contacto reciente; contrastar con la norma TBC (2014).
+- VIH y embarazo (infecto-09): repetir test en 3.er trimestre «en mujeres de riesgo», cesárea electiva a las 38 sem si CV >1.000 y AZT EV intraparto, AZT neonatal 4 sem; verificar con la Norma de Prevención de Transmisión Vertical vigente.
+- Vacunas especiales (infecto-06): edades de influenza (6 meses a 5.º básico), VPH (4.º-5.º básico), indicaciones de meningococo/varicela/hepatitis A son resumidas; confirmar con el PNI actual.
+- Influenza/COVID (infecto-25): oseltamivir en grupos de riesgo (≥65 años; la reconstrucción 2013 hablaba de >60), duración de aislamiento COVID, nirmatrelvir/ritonavir (dosis, ajuste renal) y uso de remdesivir/baricitinib/tocilizumab, según norma MINSAL 2025-26.
+- Sífilis congénita (infecto-12): criterio de «caso» neonatal y penicilina G sódica 10 días; confirmar con la norma ITS/GES 35.
+- Prevención entérica (infecto-08): se citó vacuna anticolérica oral y antitifoídica Vi como indicaciones de viajero/brote; no están en el PNI.
+- Mordeduras (infecto-06): amoxicilina-clavulánico 875/125 c/12 h por 3-5 días (alternativas en alérgicos) sin referencia a norma chilena.
+
+
+## cirugia: dudas al completar el libro (18-oct-2026)
+
+# Dudas médicas — libro Cirugía (completar, 18-oct-2026)
+
+Revisar con un médico antes de dar por cerrado el libro (párrafos escritos desde guías generales, sin contrastar con las clases):
+
+1. **Profilaxis antirrábica (cirugia-18, 4.01.3.018):** escribí cuatro dosis IM de vacuna de cultivo celular (días 0, 3, 7 y 14) e inmunoglobulina humana 20 UI/kg en exposiciones graves. Verificar contra la norma técnica MINSAL vigente (esquemas anteriores usaban 5 dosis, 0-3-7-14-28) y la lista de exposiciones graves.
+2. **Erradicación de H. pylori (cirugia-05, 1.06.1.030):** IBP + amoxicilina 1 g + claritromicina 500 mg cada 12 h por 14 días. Revisar contra la guía MINSAL (duración y esquema de segunda línea; resistencia local a claritromicina).
+3. **Umbrales de cirugía de aneurismas (cirugia-19):** torácico 5,5 cm; poplíteo 2 cm o con trombo/síntomas; femoral 2,5 cm (este último es el menos firme).
+4. **GES:** no cité número de problema GES; solo «colecistectomía preventiva del cáncer de vesícula en 35-49 años sintomáticos» (cirugia-02). Confirmar que el texto vigente del GES sigue igual.
+5. **Mamografía** (no tocada): sigue la inconsistencia 2 vs 3 años entre libros.
+6. **PAM > 85 mmHg en trauma raquimedular (cirugia-09):** recomendación de guías AANS/CNS (7 días); revisar si se quiere incluir esa cifra en un libro EUNACOM.
+7. **Clase cirugia-01:** el código 4.01.2.024 (hemorragia aguda postoperatoria) está asignado a Apendicitis y ahora se enseña en cirugia-16 (Fiebre postoperatoria, sección 3). Reasignar en v3_topic_codes.json (quitar de cirugia-01, agregar a cirugia-16).
+8. **Texto previo con símbolos perdidos:** el volcado de texto plano muestra cifras sin su signo < o > en algunos párrafos de cirugia-09, 13, 15 y 17; es mi volcado el que borra los trozos entre « < » y « > »; en el HTML están bien (ver pág. del PDF).
+
+
+## neumologia: dudas al completar el libro (18-oct-2026)
+
+# Dudas médicas - Respiratorio (completar libro)
+- resp-01: umbral de caída del VEF1 de 20% en metacolina y VPN alto: guía general (ATS), no MINSAL.
+- resp-02: umbrales de PEF (leve >70%, moderada 40-69%, grave <40-50%) y dosis de nebulización (salbutamol 2,5-5 mg): confirmar con GINA/MINSAL; el texto del tema usa PEF <50% para grave.
+- resp-03: definición de asma grave y de tos crónica (>8 semanas) según guías internacionales; orden de tratamiento empírico de tos por goteo/asma/reflujo.
+- resp-04: meta SatO2 >=90% y flebotomía con Hto >55-60% en cor pulmonale; fármacos de cesación (bupropión, vareniclina) y su disponibilidad en APS en Chile.
+- resp-10: esquema de neumococo (conjugada + polisacárida 23) y edad según calendario MINSAL vigente; BCG con peso >= 2.000 g.
+- resp-11/12: volúmenes máximos de toracocentesis evacuadora (1.000-1.500 mL) y lugar de punción (7.º-8.º espacio) quedan como referencia general.
+- resp-21: parámetros iniciales del ventilador y profundidad del tubo (21 cm mujer, 23 cm hombre) son valores de referencia.
+- resp-22: COVID grave: dexametasona 6 mg por 10 días; tratamiento antiviral cambia según versión de guía.
+- resp-24: COHb del 10-30% como "leve" es aproximación; hidroxocobalamina para cianuro en humo.
+- resp-25 (nuevo): pregunta 3 y las del tema son de práctica; la RCP en ahogamiento (5 ventilaciones iniciales) sigue guías AHA/ERC; criterio de observación 6-8 h.
+- Pies de foto: traducidos del pie de Harrison 21.ª (p. 2209, 2210, 2216) y ajustados a lo que se ve; en asbestosis el panel usado es la TACAR (B), no la radiografía.
+- Contradicción previa: TBC fase de continuación 80 vs 100 dosis (ya anotada en el estado).
+
+
+## gastroenterologia: dudas al completar el libro (18-oct-2026)
+
+# Dudas médicas — Gastroenterología (completar libro, 18-oct-2026)
+
+- gastro-05 (epidemiología): el texto existente dice que el cáncer gástrico es la primera causa de muerte por cáncer en hombres y la segunda en mujeres, tras mama; verificar con DEIS/MINSAL (en mujeres la vesícula también ocupa los primeros lugares). El párrafo nuevo usa solo afirmaciones cualitativas (tasas de las más altas del mundo para gástrico y vesícula; sobrevida del páncreas < 10 %).
+- gastro-05 (imagen): la figura de Bailey p. 1150 se rotuló «Tumor de músculo liso del estómago con ulceración» por el pie de la página; el pie de la fuente parece pertenecer a esa imagen (tránsito baritado), pero confirmar a ojo médico.
+- gastro-16: «colecistectomía preventiva a los 35–49 años con colelitiasis sintomática, garantizada por el GES» — confirmar vigencia y edades en la canasta GES actual.
+- gastro-15: sitio de la paracentesis (fosa ilíaca izquierda) y albúmina 6–8 g por litro con volúmenes > 5 L; no se corrige INR/plaquetas de rutina (consenso AASLD/EASL).
+- gastro-14: criterio de derivación de VHA «INR ≥ 1,5 + encefalopatía» (definición de insuficiencia hepática aguda) y edad > 40 años como factor de riesgo.
+- gastro-08: esquemas antiparasitarios para el adulto (tinidazol 2 g única, metronidazol 250 mg c/8 h por 5 días para Giardia; metronidazol 500–750 mg c/8 h por 7–10 días en amebiasis; albendazol 3 días en tricocéfalo; praziquantel en teniasis; ivermectina en Strongyloides). Confirmar con la norma MINSAL de enteroparasitosis.
+- gastro-23: oxiuros: repetir dosis a las 2 semanas y tratar al grupo familiar (norma habitual; la dosis exacta por peso no se escribió).
+- gastro-23: umbral del test del sudor (cloro > 60 mmol/L) y rol del tamizaje neonatal en Chile.
+- gastro-24: enema evacuador: 10 mL/kg de suero fisiológico tibio; evitar fosfatos < 2 años (criterio general; confirmar volumen máximo por edad con pediatría).
+- gastro-26: neumotórax hipertensivo: se enseña el 5.º espacio intercostal anterior a la línea axilar media (ATLS 10.ª ed.), con el 2.º espacio medioclavicular como alternativa; la clase/libro de cirugía podría decir solo 2.º espacio. Unificar.
+- gastro-25: se escribió que el megacolon tóxico lleva colon transverso > 6 cm; algunos textos usan > 5,5 cm.
+- Los pies de foto son los del libro fuente traducidos y ajustados a lo que se ve (ninguno redactado desde cero); el de la enema baritada en Hirschsprung (Nelson Fig. 378.4) acorta el original.
+
+
+## saludpublica: dudas al completar el libro (18-oct-2026)
+
+## Salud Pública (saludpublica) — dudas médicas y de redacción
+
+- sp-15 (tema nuevo): las 2 preguntas son redactadas por mí (marcadas «Pregunta de práctica redactada para este manual»), no del banco AEE; sin reconstrucciones oficiales.
+- sp-01: objetivos sanitarios 2011-2020 (4 objetivos) y ejes de la Estrategia Nacional de Salud 2021-2030 citados de memoria; verificar con el documento MINSAL.
+- sp-02: agresión sexual aguda (GES): ventanas de anticoncepción de emergencia (72 h, hasta 120 h) y profilaxis VIH (72 h, 28 días) según norma MINSAL; verificar garantía de oportunidad exacta. Grupos de salud oral GES (6 años, 12 años, embarazadas, 60 años) a confirmar con el decreto GES vigente.
+- sp-05: ciclo vital de Duvall (8 etapas); MINSAL podría usar otra clasificación (formación, extensión, contracción, disolución).
+- sp-07: valores de Chile (TMI ~6 por 1.000, esperanza de vida ~80) son aproximados.
+- sp-12: art. 362 Código Penal y Ley 20.418 sobre menores de 14 años: confirmar el texto con el equipo jurídico.
+- sp-14: tipos de licencia 5 y 6 (accidente del trabajo y enfermedad profesional), tamaños de empresa para comité paritario (25) y departamento de prevención (100).
+- Texto existente (no tocado): sp-13 dice que el CMD lo «emite el INE»; en rigor lo emite el médico y se inscribe en el Registro Civil, y el INE/DEIS tabula.
+
+
+## pediatria: dudas al completar el libro (18-oct-2026)
+
+# Dudas médicas · Pediatría (completar libro)
+
+- Controles de salud infantil (ped-01, 18.1 sección 9): calendario aproximado de controles del Programa Nacional de Salud de la Infancia; verificar contra la norma MINSAL vigente.
+- PNI adultos (ped-03, sección 6): neumocócica polisacárida 23-valente a los 65 años y dTpa de la embarazada desde las 28 semanas; confirmar con el PNI 2026.
+- Hepatitis B/A (ped-03, sección 5): inmunoglobulina antihepatitis B 0,06 mL/kg y ventana de 12 h a 7 días; confirmar norma chilena.
+- Hipoacusia neonatal (ped-21): se evitó afirmar el GES de hipoacusia del prematuro por la duda ya registrada (<4 años vs <2).
+- Mastitis (ped-04): antibiótico cloxacilina o cefalosporina de 1.ª generación; confirmar esquema local.
+- Sinequias vulvares (ped-27): las claves reales se contradicen. Jul 2017 P109 (parcial: aseo y masajes), Ago 2021 P154 (une gran parte: vaselina; no usada) y Jul 2024 P179 (completa: betametasona 10 días). El libro: parcial/asintomática vaselina; completa o sintomática betametasona 2-4 semanas.
+- Preguntas reales con clave dudosa (no usadas): Dic 2022 P79 (soplo holosistólico + IC: clave «soplo funcional», debería ser CIV), Dic 2018 P40 (intoxicación, clave AINES), Dic 2024 P28 (organofosforado, clave «control sano») y Dic 2024 P29 (opciones corruptas). Jul 2025 P81 no usada porque su clave incluye lavado gástrico.
+- Pregunta de práctica nueva en ped-26 (translocación robertsoniana) escrita por mí, rotulada «Pregunta de práctica».
+- Edad de inicio de IEFR/otras cifras de recurrencia de translocación (10-15 % madre, 2-5 % padre) son cifras de manual; revisar.
+
+- pediatria: revisar con criterio editorial las fotos sensibles de menores agregadas desde Nelson (sinequia vulvar en ped-27; quemaduras por inmersión y hemorragias retinianas por maltrato en ped-28).
+
+## urologia: dudas al completar el libro (18-oct-2026)
+
+## Urología: dudas médicas del completado (18-oct-2026)
+
+Dosis y esquemas que redacté desde guías generales (verificar contra norma MINSAL vigente):
+- uro-06, ITS: uretritis con ceftriaxona 500 mg IM + azitromicina 1 g VO (o doxiciclina 100 mg c/12 h por 7 días). Revisar la Norma de ITS MINSAL (dosis de ceftriaxona 250 vs 500 mg y esquema de clamidia). El texto previo del mismo tema usa doxiciclina 10 a 14 días para epididimitis; son esquemas distintos.
+- uro-06: herpes genital con aciclovir 400 mg c/8 h por 7 a 10 días (primoinfección) y 5 días (recurrencia); penicilina benzatina 2,4 millones UI en sífilis primaria; linfogranuloma venéreo con doxiciclina por 21 días; metronidazol 2 g en tricomoniasis. Verificar con la norma chilena.
+- uro-06: afirmé que gonorrea y sífilis son de notificación obligatoria (ENO). Confirmar si clamidia también.
+- uro-01: umbral de hipercalciuria 250 mg/24 h en mujeres y 300 mg/24 h en varones (criterio clásico; otros usan 4 mg/kg/día o 250 para ambos sexos).
+- uro-03: prevalencia histológica de HPB (50% a los 60 años, 80-90% a los 80) y Qmax 15 y 10 mL/s; volumen prostático alterado desde 30-40 cc (el tema usa 40 cc para finasteride).
+- uro-07/uro-10: ventana de orquidopexia 6 a 12 meses (máx 18). Algunas guías chilenas dicen 6 a 18 meses o antes de los 2 años; confirmar la del curso.
+- uro-10: riesgo relativo de cáncer en criptorquidia 2 a 8 veces; el tema ya decía 4 a 10 veces (uro-10 0.0) y yo puse 4 a 10 en uro-07. Unificar.
+- uro-15: transfusión con Hb bajo 7 g/dL y sonda de 3 vías 20-24 Fr en hematuria masiva (práctica habitual, no cita MINSAL). Síndrome nefrítico: se menciona penicilina si hay infección activa.
+- uro-11: «cerca de 20% de las masas menores de 4 cm son benignas»; «5 a 10% con tríada clásica».
+- uro-02: técnica de cistostomía por punción desde texto general; no hay cifras de calibre del Cystofix.
+
+Pies de foto (todos tomados del libro de origen, traducidos y ajustados a lo que se ve):
+- uro-02 «Uretrografía retrógrada tras fracturas pélvicas: extravasación de contraste por lesión extensa de la uretra (flecha)»: pie de Bailey Fig. 14.28 resumido; lo redacté yo en parte.
+- uro-02 «Uretrografía ascendente con estenosis de la uretra bulbar»: Bailey Fig. 79.9. La imagen extraída (187x286 px) es baja resolución.
+- uro-06 «Secreción uretral purulenta en la uretritis gonocócica»: Nelson Fig. 163.4 dice solo «Gonococcal urethral discharge»; agregué «purulenta». Esa foto de Nelson viene de capítulo de adolescentes.
+- uro-02 «Ecografía con gran residuo postmiccional»: Bailey Fig. 78.9, textual traducido.
+
+Otros:
+- Código «sobrante» 4.03.2.003 y 4.03.5.006 (parafimosis) en uro-02: se enseñan en uro-16, pero uro-16 no los tiene en v3_topic_codes.json (solo 4.03.1.009/001/2.004/1.005). Recomiendo agregarlos a uro-16 y quitarlos de uro-02; no toqué uro-16.
+- 4.03.5.001 (biopsia prostática), 4.03.5.002 y 1.09.5.001 (cistoscopía) y 4.03.1.010 en uro-12: parcial vaciado porque el nivel «derivar» ya está cubierto y el enfoque general de hematuria está en uro-15; no escribí párrafos.
+
+
+## traumatologia: dudas al completar el libro (18-oct-2026)
+
+## Traumatología (libro traumatologia) — dudas médicas / de contenido
+
+- Pies de foto (20 fotos en atlas_add/traumatologia.json): tomados del pie del atlas Sherman traducido y ajustado a lo que se ve; si alguno se redactó distinto, conviene que un médico confirme que coincide con la imagen (especialmente trauma-01 almohadilla grasa, trauma-08 lipohemartrosis, trauma-14 líneas de Klein y sinovitis transitoria).
+- trauma-03/trauma-09: 4.01.1.049 (TVP) se enseña en trauma-03; trauma-09 queda como asignación sobrante (solo se nombra de pasada).
+- trauma-12 también enseña 4.02.1.004 (infecciones osteoarticulares: artritis séptica) además de trauma-11; se agregó al topics_traumatologia.json.
+- trauma-14: 2.01.1.094 (patología de columna en el niño) integrado en Ortopedia infantil; sin código específico para cadera dolorosa pediátrica (Perthes/epifisiolisis).
+- trauma-04: luxación de hombro (4.02.2.012) y reducción de luxaciones (4.02.5.003): redactadas a nivel Derivar/Realizar; revisar que la técnica descrita sea apropiada para médico general.
+- Formato: el dataset de Traumatología trae marcas markdown (## y **) que el compilador no convierte; ya aparecen en el PDF versionado (425 ocurrencias) y siguen visibles. Es un problema previo de render, no de contenido.
+
+
+## ginecologia: dudas al completar el libro (18-oct-2026)
+
+## Ginecología (completar códigos V3, 18-oct-2026)
+Párrafos nuevos redactados por mí (sin fuente bibliográfica citada); revisar con un ginecólogo:
+- gin-01: PRL > 100 ng/mL «sugiere» prolactinoma y > 200 ng/mL macroadenoma (umbrales orientativos). Edad de telarquia 8-13 años y menarquia media ~12,5 años en Chile.
+- gin-02: umbral de testosterona total > 150-200 ng/dL y DHEA-S > 700 µg/dL para sospechar tumor; 17-OHP basal > 2 ng/mL para HSC no clásica.
+- gin-03: riesgo de cáncer concomitante en hiperplasia atípica (25-40%); esquema de MPA 10 mg 12-14 d/mes; DIU-LNG 52 mg como primera línea.
+- gin-07: normas OMS 2021 del espermiograma se dejaron como las del texto previo (abstinencia 3-5 días).
+- gin-08: fórmula de Ogino (ciclo más corto -18, más largo -11) e índices de Pearl aproximados.
+- gin-09: esquema de sífilis (benzatina 2,4 MU; 3 dosis en latente tardía) y herpes (aciclovir 400 mg c/8 h): verificar contra la norma MINSAL de ITS vigente.
+- gin-13: la norma MINSAL de tamizaje (PAP vs test VPH) está en transición; se mantuvo lo ya escrito (25-64 años cada 3 años). Duración del taponaje 24-48 h es práctica habitual, no norma.
+- gin-15: carboplatino + paclitaxel en endometrio avanzado y cisplatino concomitante en cuello (conceptos generales).
+- Pies de foto: no se agregaron fotos nuevas, por lo tanto no hay pies redactados por mí.
+
+
+## nefrologia: dudas al completar el libro (18-oct-2026)
+
+## Nefrología (completar V3, 18-oct-2026)
+Párrafos nuevos escritos desde conocimiento general y guías internacionales; contrastar con MINSAL/clases:
+- **nefro-20 (HTA)**: clasificación por etapas (1: 140-159/90-99; 2: 160-179/100-109; 3: ≥180/110) y metas (<140/90 general; <130/80 en diabetes, ERC albuminúrica y riesgo alto): confirmar con la Guía MINSAL/GES vigente. Umbrales de MAPA (24 h ≥130/80, vigilia ≥135/85, sueño ≥120/70) son de ESC/ACC-AHA. HTA infantil: definición ≥P95 y umbral 130/80 desde 13 años (AAP 2017).
+- **nefro-21 (cistitis/BA)**: esquemas (nitrofurantoína 100 mg c/6 h x5 d, fosfomicina 3 g, cotrimoxazol 3 d si resistencia <20%) y pauta en embarazo (cefadroxilo/amoxicilina 7 d) deben validarse con la Guía MINSAL de ITU; la clase puede usar otra duración. Tamizaje de BA en embarazo: urocultivo en primer control prenatal.
+- **nefro-19**: umbral para tratar la acidosis de la ERC (<22 mEq/L con meta 22-26; KDIGO 2024 sugiere considerar tratar si <18). Captadores de potasio (patiromer, ciclosilicato) pueden no estar disponibles en Chile.
+- **nefro-13**: uso de albúmina 20-25% + furosemida en anasarca nefrótica es controvertido (efecto transitorio); se dejó restringido a edema refractario con hipovolemia o albúmina muy baja.
+- **nefro-15**: manejo de emergencia hipertensiva (metas PAM -25 % en 1 h, 160/100 en 2-6 h; excepciones) según guías ACC/AHA; clase/Cardiología pueden diferir.
+- **nefro-18**: umbrales de peritonitis en PD (>100 leucocitos/µL, >50 % PMN) y esquema empírico intraperitoneal según ISPD; indicaciones/contraindicaciones de trasplante en términos generales (no norma chilena específica).
+- **nefro-04**: BNP/NT-proBNP con puntos de corte agudos (100/300); en ERC se elevan, interpretar con cautela.
+- **Pie de foto** (nefro-20, retinopatía hipertensiva): traducción literal del pie de Harrison 21.ª ed. Fig. 32-7. Imagen pequeña (426x376 px).
+- Sin asignaciones sobrantes: todos los códigos pendientes se enseñaron en su propio tema. 1.09.1.020 (anasarca) se enseña en nefro-08; 1.09.2.003 en nefro-13.
+
+
+## hematologia: dudas al completar el libro (18-oct-2026)
+
+## Hematología (completar libro)
+- Pie de foto de la RM de degeneración combinada (Nelson, fig. 67.9): traducido del libro fuente; en la imagen publicada la señal de cordones posteriores es sutil (RM sagital con contraste invertido). Confirmar que sirve para el libro.
+- hem-04: umbral de transfusión «Hb < 7 g/dL» en anemia de la inflamación (cifra habitual, no del Manual MINSAL); revisar.
+- hem-10: «sin plaquetas salvo sangrado grave o procedimiento invasivo» y evitar antibióticos en diarrea por STEC; el texto previo del tema contraindica plaquetas salvo hemorragia intracraneal. Unificar criterio.
+- hem-16: punción lumbar en leucemia (corrección de plaquetopenia y coagulopatía): no se indicó cifra de plaquetas.
+- hem-20: «cerca de un tercio de los SMD evoluciona a LMA» es cifra aproximada.
+- hem-22: dexametasona EV en compresión medular tumoral y plazo 24-48 h para pronóstico motor: revisar dosis/plazo con guía local.
+- Asignaciones: 1.08.4.007, 1.08.1.014, 1.08.4.001 y 6.01.1.014 (audit sugería que se enseñaban en otro tema/libro): no se enseñaban en ningún lugar del libro, se escribieron en hem-11, hem-17 y hem-18. 6.01.1.014 (linfomas cutáneos) puede repetirse en el libro de Dermatología.
+- Pies redactados por mí: ninguno; ambos pies son traducción del pie original (resumidos).
+
+
+## diabetes: dudas al completar el libro (18-oct-2026)
+
+## Diabetes (completar_prompt, 18-oct-2026): dudas médicas a revisar
+
+Párrafos nuevos en diab-05, 07, 09, 12, 13, 14, 15, 17, 21, 22, 23, 24 y tema nuevo diab-25.
+
+- **diab-25 · cortes de IMC y cintura**: adulto IMC 18.5/25/30/35/40; adulto mayor (MINSAL) 23/28/32; cintura ≥ 102 cm hombres y ≥ 88 cm mujeres (ATP III). El IDF para Latinoamérica usa ≥ 90 / ≥ 80 cm. Verificar cuál es el corte vigente en la norma MINSAL; en el niño se dejó solo «puntaje z o percentil» sin cifras.
+- **diab-25 · prevalencia Chile**: «cerca de 3 de cada 4 con exceso de peso y 3 de cada 10 con obesidad (ENS 2016–17)». Cifras de memoria (aprox. 74% y 31%), verificar.
+- **diab-25 · pregunta de anorexia (Jul 2017 Q4)**: la clave oficial es 300 kcal (10–15 kcal/kg/día × 29 kg). Las guías difieren (NICE 5–10; ASPEN 10–20 kcal/kg/día; antes 30–40 kcal/kg). Se enseñó 10–15 por coherencia con la clave; el banco la marca de confianza baja.
+- **diab-25 · cirugía bariátrica**: criterios (18–65 años, IMC ≥ 40 o ≥ 35 con comorbilidad, fracaso médico ≥ 6 meses) y «remisión de DM2 60–80%» son de guías internacionales; no se verificó norma MINSAL.
+- **diab-25 · fármacos para obesidad** (orlistat, liraglutida 3 mg, semaglutida 2.4 mg): confirmar disponibilidad y lo que espera el examen en Chile. Programa «Elige Vida Sana» citado en términos generales.
+- **diab-25 · fluoxetina 60 mg/día en bulimia y criterios de hospitalización de TCA** (IMC < 15, FC < 40–50, PA < 90/60, K < 3): de guías APA/NICE; revisar con psiquiatría.
+- **diab-25 · balance nitrogenado**: fórmula con «NUU + 4 g» y grados de estrés (< 5, 5–10, > 10 g/día); es la versión clásica de soporte nutricional, no de norma chilena.
+- **diab-05 · test de esfuerzo previo al ejercicio**: la ADA no recomienda tamizaje rutinario en asintomáticos; se redactó como «solo si ejercicio vigoroso + factores de riesgo/síntomas». Revisar el criterio de edad (> 40 años) y DM > 10 años.
+- **diab-05 · PSCV/EMPA**: Papanicolaou cada 3 años (25–64) y mamografía cada 2 años (50–69) citados de memoria; verificar la norma vigente.
+- **diab-13 · corticoides**: dosis de NPH matinal 0.1 UI/kg por cada 10 mg de prednisona (máx. 0.4 UI/kg) proviene de protocolos hospitalarios, no de norma MINSAL.
+- **diab-22 · ITB**: normal 0.9–1.3; isquemia severa < 0.4–0.5. La foto del ITB (Bailey p. 966) no tiene pie de figura propio en el libro: el pie «Medición del índice tobillo-brazo con Doppler manual» **lo redactó el agente** (describe el texto de la misma página).
+- **diab-14 · compromiso de conciencia**: código pediátrico (2.01.2.004); se agregó solo la dosis pediátrica de glucosa (suero glucosado 10% 2 ml/kg). Revisar si el libro necesita más contenido pediátrico.
+- **diab-17 · gluconato de calcio** 10% 10 ml EV en hiperkalemia con cambios de ECG: estándar, pero no figura en el resto del libro.
+- **diab-07 · acidosis láctica**: umbral de bicarbonato (pH < 7.1) y de diálisis (pH < 7.0) son orientativos y con evidencia limitada.
+- **diab-24**: el código 1.06.2.010 (pancreatitis aguda) queda como sobrante porque lo enseña gastro-18; si se prefiere, se puede agregar un párrafo breve de diagnóstico y manejo de la pancreatitis por hipertrigliceridemia (plasmaféresis, insulina EV).
+
+
+## neurologia: dudas al completar el libro (18-oct-2026)
+
+## Neurología y Geriatría (completar_prompt, LIBRO=neurologia)
+
+Contenido nuevo: neurologia_extra/a1.cjs (agente anterior, temas 10.1-10.11), a2.cjs (10.14-10.23) y c.cjs (10.25 y 10.26). Revisar:
+
+**Pies de foto**
+- «Úlcera por presión sacra con escara necrótica» (neuro-22): lo redacté yo; el pie de Bailey dice solo «Pressure ulcer». Ajustado a lo que se ve (sacro, necrosis negra).
+- «Atrofia de los músculos intrínsecos de la mano por neuropatía cubital» (neuro-19): traducción del pie de Bailey (Fig. 34.40); se omitió «izquierda».
+- «RM sagital con atrofia cerebelosa en una ataxia espinocerebelosa tipo 1 (SCA1)» (neuro-20): traducción resumida del pie de Harrison (Fig. 439-1, hombre de 60 años).
+- «Sitios frecuentes de desarrollo de úlceras por presión» (neuro-22): traducción de Fitzpatrick (Fig. 99-4).
+- «Retinopatía hipertensiva con borramiento del disco óptico, hemorragias, exudados algodonosos y exudado foveal» (neuro-25): traducción resumida de Harrison (Fig. 32-7; se omitió que era un hombre de 62 años con IRC). Las imágenes fuente son pequeñas (325 a 430 px).
+
+**Cifras y normas a validar**
+- MMSE: cortes por escolaridad en Chile (usé ~21-22 con baja escolaridad y ~24 en escolaridad media/alta); MoCA <26 con +1 punto si ≤12 años de escolaridad; Mini-Cog <3.
+- HTA del adulto mayor (neuro-25): meta <140/90; 130-139 en 65-79 años si lo tolera; PAS 140-150 en >80 años o frágiles (ESC/guías internacionales; la guía MINSAL puede ser menos específica). Evitar PAS <120.
+- IAM con SDST en >75 años: tenecteplasa a mitad de dosis y enoxaparina 0,75 mg/kg c/12 h sin bolo (estudio STREAM; en Chile el GES usa estreptoquinasa y tenecteplasa según centro). ACTP <90 min y trombólisis si hemodinamia >120 min. Verificar con la norma GES N° 5 vigente.
+- Desnutrición del adulto mayor: IMC <23 (EMPAM), pérdida ≥5% en 1 mes o 10% en 6 meses, perímetro de pantorrilla <31 cm, MNA <17.
+- Denuncia obligatoria del maltrato: art. 175 y 176 del Código Procesal Penal, plazo de 24 horas; confirmar con el servicio jurídico.
+- Cuidados paliativos: Ley 21.375 (cuidados paliativos universales), GES N° 4 y Ley 20.584; el libro afirma que la eutanasia y el suicidio asistido no forman parte de los cuidados paliativos (la regulación legal puede haber cambiado).
+- Morfina: dosis de inicio 5 mg c/4 h (2,5 mg en el anciano), rescate = 1/6 de la dosis diaria, SC = 1/2 de la oral; hioscina/escopolamina SC para estertores; midazolam para agitación terminal y sedación paliativa.
+- Hipotensión postural: fludrocortisona 0,05-0,1 mg/día, midodrina 2,5-10 mg hasta 3 veces/día con la última dosis antes de las 18 h.
+- Programas citados: Más Adultos Mayores Autovalentes, PACAM y EMPAM (nombres y alcance vigentes a 2026).
+
+**Asignaciones**
+- 2.01.2.027 (status epiléptico pediátrico, neuro-09) y 2.01.2.017 (ALTE/BRUE, neuro-10) están enseñados en este libro con párrafos nuevos, porque la asignación sigue en neuro-09/10; si el libro de Pediatría ya los cubre, se podría quitar de aquí (hoy no se quitó ninguna asignación).
+- 1.07.3.005 (envejecimiento saludable) se enseña en neuro-14 (donde está asignado) y no en neuro-22.
+- Escaras: 1.07.1.007 y 4.01.1.052 están en neuro-22 y ambas se enseñan en el mismo párrafo.
+
+
+## dermatologia: dudas al completar el libro (18-oct-2026)
+
+# Dudas médicas · completar derma (derma-01 a derma-18)
+
+1. **Loxoscelismo (derma-18).** Los esquemas chilenos varían: corticoide sistémico en las primeras 24 a 48 horas (dosis y vía no fijadas en el texto), suero antiloxosceles (ISP) en las primeras 24 a 48 horas y solo por indicación del toxicólogo/CITUC, y rechazo de la dapsona y la escisión precoz. Confirmar con la guía MINSAL/CITUC vigente. No se escribió dosis del suero ni del corticoide. La estimación 80-90% cutáneo y 1-15% cutáneo-visceral viene de series nacionales; confirmar.
+2. **Pregunta de práctica derma-18 (3.ª) y derma-17 (ninguna propia):** la 3.ª pregunta de derma-18 la redacté yo (marcada «Banco Oficial AEE · Perfil V3» según la convención de applyV3); validar el enunciado y la conducta (control de laboratorio 48-72 h). Las otras preguntas son reales del banco; en la de Dic 2017 P89 reemplacé el «FOTO» por la descripción de la placa livedoide.
+3. **Propranolol en hemangioma (derma-17):** 2-3 mg/kg/día, inicio supervisado con 1 mg/kg/día, 6-12 meses; confirmar con dermatología pediátrica (ya anotado en REVISION_CONTENIDO punto 6). Umbral «5 o más hemangiomas → ecografía abdominal» según la pregunta real Jul-2024; otras preguntas del banco (Dic 2022 «6 hemangiomas → RNM espinal», clave C) parecen erróneas y no se usaron.
+4. **Cloxacilina en SSSS (derma-09):** no se escribió dosis; revisar si se prefiere agregar clindamicina y la vancomicina según prevalencia de SARM.
+5. **Herpes zóster/simple (derma-12):** dosis de aciclovir 400 mg c/8 h 7-10 días (primoinfección) y 5 días (recurrencia), 800 mg 5 veces/día en zóster. Verificar contra guía MINSAL/ETS.
+6. **6.01.1.023 prúrigo infantil agudo (derma-16):** el audit sugería revisar si pertenece a pediatría; lo escribí en derma-16 (nivel Específico/Completo/Completo) como párrafo propio.
+7. **Codes sobrantes:** 6.01.1.025 (toxidermia fija/rash) se enseña ahora en derma-10; se sacó de derma-09. 2.01.1.108 se enseña en derma-07 (pañal y contacto) y se agregó a derma-07 en topics; derma-16 lo conserva asignado pero ya no lo enseña (quitar asignación).
+8. **Pies de foto redactados por mí (no son el pie literal del libro):** derma-17 hemangioma segmentario (Fitzpatrick p. 1203, pie original cortado en la extracción), derma-17 queratosis seborreicas (p. 1093; el pie original no identifica la imagen exacta), derma-05 dactilitis (p. 233), derma-12 verruga vulgar (p. 1955, pie «Common wart… lower lip» traducido), derma-07 fototoxicidad (p. 869, pie traducido y recortado: la imagen solo muestra la cara). El resto son traducciones del pie del libro (Fitzpatrick p. 401, 1694, 2300; Harrison p. 1225, 1522). Verificar cada una contra el libro.
+9. **Notas de contenido sin cifra firme:** índice UV «muy alto» en Chile, mancha salmón «40-70% de recién nacidos», «arsénico en aguas del norte» como causa de Bowen múltiple: son datos clásicos pero sin cita puntual.
+
+
+## cardiologia: dudas al completar el libro (18-oct-2026)
+
+## Cardiología (completar V3)
+- Pie de la mancha de Roth (Harrison p. 262): la figura no traía pie extraído; lo redacté yo a partir del texto de la página («manchas de Roth, white-centered retinal hemorrhages... endocarditis bacteriana subaguda»). Verificar contra el libro.
+- Pies de vegetación mitral (Harrison p. 1064) e IAo Doppler color (p. 1889): traducción del pie original.
+- GES de endocarditis: no afirmé número de GES; revisar si el recambio valvular corresponde a algún problema GES.
+- IAo (4.2): umbral de FEVI para cirugía asintomática ≤55% (AHA) vs ≤50% (ESC); DFSVI >50 mm; raíz ≥55 mm (≥45–50 Marfan/bicúspide). Confirmar la cifra que prefiere el EUNACOM.
+- Endocarditis empírica: ampicilina+cloxacilina+gentamicina (nativa comunitaria) y vancomicina+gentamicina(+rifampicina) en prótesis/sanitaria; ajustar a la guía local chilena. Duración de S. viridans 4 sem (nativa) / 6 sem (prótesis) y cirugía por vegetación >10 mm con embolia (ESC).
+- Profilaxis: alérgicos a penicilina con azitromicina/claritromicina/doxiciclina (ESC 2023, sin clindamicina); la pregunta del banco dice «macrólido». Alto riesgo incluye trasplante cardíaco con valvulopatía (AHA).
+- Pregunta de 4.5: la de Jul 2025 Q136 define precoz como <2 meses; el texto usa «postcirugía».
+- Preguntas de 1.6 (Banco Oficial AEE): 2 de las 4 las redacté yo (Holter con carga 22% y FEVI 40%; flecainida en cardiopatía estructural); revisar claves.
+- 1.2 sección 5: «hasta 3 descargas consecutivas» en postoperatorio de cirugía cardíaca (ERC/STS), temperatura post-paro 32–37,5 °C, SpO2 92–98%: confirmar con la guía local.
+- Los códigos 1.05.2.012, 1.05.5.010, 4.01.2.030 y 4.01.5.028 quedan también en 1.2; ver si siguen asignados a otros libros (neumología, cirugía) y quitar duplicados si se prefiere.
+- Cambio de compilador: books/scripts/figspec_clases.cjs mergeAtlas ahora usa c.classId || c.id (cardiología no tiene classId); el atlas usa ids cardio-NN.
+
+
+## obstetricia: dudas al completar el libro (18-oct-2026)
+
+## Obstetricia: completar libro (oct-2026)
+- ob-01 anemia: ferritina menor de 30 ng/mL y hierro terapéutico 100-200 mg/día de hierro elemental; confirmar contra la Guía Perinatal MINSAL (la norma de suplementación universal usa 40 mg).
+- ob-02 redatación por ecografía: umbrales según ACOG (5/7/7/10/14/21 días); la guía MINSAL puede usar un umbral único de 7 días.
+- ob-05 función renal: se repite creatinina mayor de 1,1 mg/dL como criterio de severidad (igual que el tema).
+- ob-07 macrosomía: umbrales de cesárea electiva (4.500 g con diabetes, 5.000 g sin diabetes) son ACOG; norma chilena no los fija.
+- ob-10 aborto provocado: no se redactó la obligación de denuncia (art. 175 Código Procesal Penal) frente al secreto profesional; requiere revisión jurídica. Solo se dice que se atiende sin juicio y con confidencialidad.
+- ob-13 cesárea: cefazolina 2 g (3 g si 120 kg o más) y programación a las 39 semanas, de ACOG/FIGO; verificar con el protocolo local.
+- ob-17 podálica: versión externa a las 36-37 semanas y cesárea electiva a las 39; prueba de trabajo de parto con criterios ACOG 2014 (4 h/6 h con oxitocina).
+- ob-18 hemorragia genital aguda: dosis de ácido tranexámico 1 g c/8 h y esquema de anticonceptivo combinado c/8 h son de guías ginecológicas generales, no de norma MINSAL.
+- ob-21 doxilamina más piridoxina: es primera línea en las preguntas EUNACOM (2017, 2022, 2023), pero conviene confirmar su disponibilidad comercial en Chile.
+- ob-21 gemelar: bicorial a las 38 semanas y monocorial biamniótico a las 36 según la explicación de la pregunta EUNACOM Julio 2024; guías internacionales dicen 37 y 34-36.
+- ob-21 cardiopatía: mortalidad de 30-50% en Eisenmenger y manejo de warfarina/HBPM resumidos; deben validarlos cardiología y obstetricia. Se citó «interrupción en las causales Ley 21.030» para la clase IV: la causal 1 exige riesgo vital presente o inminente, no todo riesgo alto.
+- Pies de foto: no se agregó ninguna foto.
+
+
+## Posibles claves erróneas del banco (detectadas al crear clases nuevas, 19-oct-2026)
+- A · Dic 2022 P41: seis hemangiomas → clave RM espinal; libro y otras 3 preguntas piden ecografía abdominal.
+- A · Dic 2022 P45: mordedura de araña (mismo caso que Ene 2023 P149) → clave Pseudomonas.
+- A · Dic 2022 P38: edema bimaleolar por amlodipino en octogenario → clave «cambiar enalapril por losartán».
+- A · Jul 2025 P96: IAM con angioplastia a 60 min → clave «trombolisis inmediata» (la explicación la condiciona a traslado >120 min).
+- A · Ene 2023 (ob-11): dolor súbito FID + hipotensión → clave salpingitis/absceso tubo-ovárico; el cuadro parece ectópico roto.
+- B · Dic 2017 P90: quiste epidérmico abscedado → clave antibiótico + drenaje; libro: drenaje, antibiótico solo si celulitis.
+- B · Jul 2024 P47 (ped-11): clave cotrimoxazol; el libro nuevo indica azitromicina en disentería.
+
+## Clases nuevas cirugia-19, 20, 21, resp-25, infecto-25, sp-15 (19-oct-2026)
+- **infecto-25 · B (banco contra libro):** Julio 2013 P156 (adulto de 66 años con influenza) tiene como clave acetaminofeno; el libro indica oseltamivir en ≥ 65 años (grupo de riesgo). Descartada. Igual Julio 2017 P130 (niño de 4 años, influenza B, clave acetaminofeno; el libro incluye a los < 5 años entre los grupos de riesgo).
+- **sp-15 · B (banco):** "demografía dinámica": Diciembre 2022 P153 da como clave la tasa de fecundidad (con mortalidad infantil de distractor) y Enero 2023 P1 da como clave la mortalidad infantil. Se contradicen; no se usaron. Dic 2022 P124 y Ago 2021 P4 ("la siguiente pirámide") no traen la figura.
+- **cirugia-19 · C:** el libro da ITB < 0,9 como arterial y contraindica comprimir con ITB < 0,8; no dice qué hacer entre 0,8 y 0,9.
+- **cirugia-20 · C:** el banco (Dic 2018 P53, Jul 2024 P117) responde "bridas" en obstrucción de operados bariátricos; el libro destaca la hernia interna de Petersen. No usadas.
+- **resp-25 · C:** el libro no tiene preguntas reales (código sin banco); se usaron las 3 de práctica. Dice que los gases se corrigen por la temperatura del paciente "según el laboratorio": práctica discutida, no se enseña.
+- **cirugia-21 · C:** una sola pregunta real (Dic 2019 P6, confianza 0,3); el resto de los códigos no tiene banco.
+
+## Clases nuevas ped-23 a ped-28 (19-oct-2026)
+- **ped-23 · A (banco):** Dic 2022 P79 (lactante de 4 meses con soplo holosistólico III-IV, hepatomegalia y crepitaciones) tiene clave «soplo funcional»; el cuadro es una CIV con insuficiencia cardíaca. Descartada. Dic 2024 P29 (FC 280, cardioversión) tiene la alternativa C y la explicación contaminadas con texto de otra pregunta; descartada.
+- **ped-24 · A (banco):** Dic 2018 P40 (niña de 2 años, inconsciente, pupilas arreactivas) tiene clave «AINES», pero su propia explicación describe una intoxicación por tricíclicos. Dic 2024 P28 (organofosforado) tiene clave «Control sano habitual», incoherente con la explicación. Julio 2025 P81 (organofosforado): la clave A incluye lavado gástrico, que el libro no indica de rutina. Descartadas las tres.
+- **ped-25 · A (banco):** Dic 2019 P167 (niño de 4 años con ronquido, obstrucción nasal y respiración bucal, e infecciones recurrentes): clave «rinitis alérgica»; la hipertrofia adenoidea explica mejor el cuadro y la explicación del banco lo reconoce. Descartada. Jul 2025 P55 (SCID): una alternativa describe la BCG como «inactivada»; la BCG es una vacuna viva. Se usó con aclaración en la voz.
+- **ped-26 · C:** el libro no da cifras de recurrencia del mosaicismo ni de la translocación 21;21. Aparte, Ago 2021 P75 (translucencia nucal en embarazo de 41 años) trata la interrupción por causales y no se usó.
+- **ped-27 · B (banco contra libro):** Dic 2022 P114 (niño de 3 años con prepucio irreductible): clave «corticoide tópico»; el libro y Ene 2023 P21 dicen que la fimosis fisiológica asintomática no se trata. No usada. Julio 2025 P62: la explicación del banco dice que el 90% es retráctil a los 5 años (el libro: a los 3 años); la clave (observar) coincide. Ago 2021 P154 explica que una sinequia complicada se libera «por separación manual con anestesia local»; el libro contraindica la separación manual salvo retención urinaria aguda.
+- **ped-27 · C:** el banco real no tiene preguntas pediátricas de enuresis; se usó el caso del libro («Banco EUNACOM · Caso representativo»). La foto de sinequia vulvar de la biblioteca (ped-27/01, Nelson 580.5A) no se incluyó por mostrar genitales de una menor.
+- **ped-28 · B (banco):** Jul 2015 P150 (subdural, fracturas costales posteriores, equimosis): clave «fondo de ojo»; la propia explicación del banco dice que lo urgente es operar el hematoma y que es una pregunta mala. Se usó con la clave del libro y la voz aclara que la neurocirugía se resuelve en paralelo.
+- **ped-28 · C:** no hay preguntas reales pediátricas de entrevista (SPIKES), conductas de riesgo (CRAFFT) ni psiquiatría de enlace; se usaron los tres casos del libro con la etiqueta «Caso representativo». El libro indica examen físico completo «con el niño desnudo»; la voz dice «desvestido y con delicadeza».

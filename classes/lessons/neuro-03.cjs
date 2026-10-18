@@ -78,19 +78,22 @@ module.exports = {
       cards: [
         { title: 'Putaminal', tag: '50 %', kind: 'criteria', items: [
           { t: 'Hemiplejia contralateral densa', d: 'Faciobraquiocrural, con hemihipoestesia',
-            say: 'Vamos a la topografía, porque el examen la pregunta. La hemorragia putaminal, la más frecuente, da una hemiplejia contralateral densa y armónica, faciobraquiocrural, con hemihipoestesia, y afasia si toca el hemisferio dominante.' },
+            say: 'Vamos a la topografía, porque el examen la pregunta. La hemorragia putaminal, la más frecuente, da una hemiplejia contralateral densa y armónica, faciobraquiocrural, con hemihipoestesia, y afasia si toca el hemisferio dominante. Mira esta tomografía: la mancha blanca profunda es un hematoma putaminal, la sangre aguda se ve blanca.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc__cto-neuro_p42.jpg', label: 'Hematoma profundo', at: 'Mira esta tomografía', credit: 'Manual CTO Neurología 14.ª ed., p. 42' } },
           { t: 'El paciente mira su lesión', d: 'Desviación conjugada hacia el hematoma',
             say: 'Y el signo clave está en los ojos: desviación conjugada de la mirada hacia el lado de la lesión. El paciente mira su lesión, y le da la espalda a su hemiplejia.' },
         ] },
         { title: 'Talámica', tag: '15–20 %', kind: 'key', items: [
           { t: 'Predomina lo sensitivo', d: 'Hemihipoestesia mayor que el déficit motor',
-            say: 'La talámica es distinta: predomina el déficit sensitivo, una hemihipoestesia contralateral severa, mayor que la debilidad. A largo plazo puede dejar un dolor talámico crónico.' },
+            say: 'La talámica es distinta: predomina el déficit sensitivo, una hemihipoestesia contralateral severa, mayor que la debilidad. A largo plazo puede dejar un dolor talámico crónico. En este corte, a la izquierda, el hematoma talámico; y a la derecha, la sangre ya invadió los ventrículos: si aparece hidrocefalia, se instala un drenaje ventricular externo.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc_alt1__cto-radiologia_p67.jpg', label: 'Tálamo y ventrículos', at: 'En este corte', credit: 'Manual CTO Radiología 14.ª ed., p. 67' } },
           { t: 'Ojos que miran la nariz', d: 'Parálisis de la mirada vertical · miosis',
             say: 'Y los ojos se desvían hacia abajo y hacia adentro, como mirando la nariz, con parálisis de la mirada vertical hacia arriba, el síndrome de Parinaud, pupilas pequeñas que no reaccionan, y somnolencia precoz.' },
         ] },
         { title: 'Lobar', tag: 'Angiopatía amiloide', kind: 'normal', items: [
           { t: 'Déficit del lóbulo afectado', d: 'Afasia, hemianopsia',
-            say: 'Y la lobar da un déficit limitado al lóbulo que sangra: afasia si es temporal o frontal, hemianopsia si es occipital.' },
+            say: 'Y la lobar da un déficit limitado al lóbulo que sangra: afasia si es temporal o frontal, hemianopsia si es occipital. Mira este hematoma lobar, en la corteza, con edema alrededor: en una persona mayor y normotensa es el patrón de la angiopatía amiloide.',
+            photo: { src: '_verificadas/143_neuro_Hemorragia_intracerebral__ctmri_path_p90_1.jpg', label: 'Hematoma lobar', at: 'Mira este hematoma lobar', credit: 'CT & MRI Pathology: A Pocket Atlas, p. 90' } },
           { t: 'Crisis epilépticas precoces', d: 'Porque toca la corteza',
             say: 'Como compromete la corteza, es la que más se acompaña de crisis epilépticas de inicio temprano.' },
         ] },
@@ -110,7 +113,8 @@ module.exports = {
         ] },
         { title: 'Cerebelosa', tag: 'Urgencia quirúrgica', kind: 'key', items: [
           { t: 'Cefalea occipital, vértigo, vómitos', d: 'Súbitos e intensos',
-            say: 'Y la más importante de toda la clase: la hemorragia cerebelosa. Cefalea occipital súbita, vértigo intenso y vómitos incoercibles.' },
+            say: 'Y la más importante de toda la clase: la hemorragia cerebelosa. Cefalea occipital súbita, vértigo intenso y vómitos incoercibles. Mira esta tomografía: una gran mancha blanca en el hemisferio cerebeloso, que comprime el cuarto ventrículo.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-03/02_hematoma_cerebeloso_tc__sherman_p142.jpg', label: 'Hematoma cerebeloso', at: 'Mira esta tomografía', credit: 'Sherman, Atlas of Clinical Emergency Medicine, Fig. 1 / p. 142' } },
           { t: 'No se puede poner de pie', d: 'Ataxia y dismetría ipsilateral',
             say: 'El paciente no se puede parar: tiene una ataxia de la marcha que le impide la bipedestación, con dismetría del mismo lado y nistagmo.' },
           { t: 'Sin debilidad al inicio', d: 'Por eso se subestima',
@@ -238,6 +242,65 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Hipertensión endocraneana',
+      title: 'Cuando el cráneo no tiene más espacio',
+      nodes: [
+        { id: 'k', col: 0, row: 1, k: 'start', t: 'Cráneo rígido', s: 'Parénquima, sangre y LCR' },
+        { id: 'm', col: 1, row: 1, k: 'cause', t: 'Masa o edema', s: 'Hematoma, tumor, hidrocefalia' },
+        { id: 'p', col: 2, row: 1, k: 'mech', t: 'Sube la presión intracraneal', s: '> 20 mmHg' },
+        { id: 'f', col: 3, row: 0, k: 'risk', t: 'Cae la perfusión', s: 'PPC = PAM − PIC; meta ≥ 60' },
+        { id: 'c', col: 3, row: 2, k: 'alert', t: 'Tríada de Cushing', s: 'HTA, bradicardia, respiración irregular' },
+        { id: 'h', col: 4, row: 1, k: 'alert', t: 'Herniación', s: 'Uncal: midriasis ipsilateral' },
+      ],
+      edges: [
+        { from: 'k', to: 'm' }, { from: 'm', to: 'p' }, { from: 'p', to: 'f' }, { from: 'p', to: 'c' }, { from: 'f', to: 'h' }, { from: 'c', to: 'h' },
+      ],
+      steps: [
+        { show: ['k', 'm'], note: 'Monro-Kellie: no hay espacio',
+          say: 'Antes de las dosis, el mecanismo. El cráneo es una caja rígida con tres contenidos: parénquima, sangre y líquido cefalorraquídeo. Es la doctrina de Monro y Kellie. Una masa, un edema o una hidrocefalia agotan primero la compensación.' },
+        { show: ['p'], note: 'Pequeño volumen, gran presión',
+          say: 'Y cuando se agota, un aumento pequeño de volumen sube bruscamente la presión intracraneal, sobre veinte milímetros de mercurio. Esa es la hipertensión endocraneana.' },
+        { show: ['f'], note: 'Menos flujo al cerebro',
+          say: 'La presión de perfusión cerebral es la presión arterial media menos la intracraneal, y la meta es mantenerla en sesenta o más. Si la presión intracraneal sube, el cerebro se queda sin flujo.' },
+        { show: ['c', 'h'], note: 'Los signos tardíos',
+          say: 'Los signos tardíos son la tríada de Cushing, con hipertensión de presión de pulso amplia, bradicardia y respiración irregular, y la herniación. La uncal da una midriasis fija del mismo lado y hemiparesia; la amigdalina, apnea y paro. Antes de eso avisan la cefalea matutina que empeora al toser, los vómitos en escopeta, el papiledema y la diplopía por el sexto par.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Hipertensión endocraneana',
+      title: 'Manejo inicial, escalón por escalón',
+      cards: [
+        { title: 'Medidas generales', tag: 'Siempre', kind: 'key', items: [
+          { t: 'Vía aérea y oxigenación', d: 'Intubar si Glasgow ≤ 8',
+            say: 'Primero la vía aérea. Si el Glasgow es ocho o menos, o hay riesgo de aspiración, se intuba. Evita la hipoxemia, la hipotensión y la hipercapnia.' },
+          { t: 'Cabecera a 30°, cabeza en línea media', d: 'Sin compresión yugular',
+            say: 'Cabecera elevada a treinta grados, con la cabeza en línea media y sin comprimir las venas del cuello, para que la sangre drene.' },
+          { t: 'Solo suero fisiológico', d: 'Evitar hipotónicos y la hiperglicemia',
+            say: 'Solo soluciones isotónicas, suero fisiológico. Los hipotónicos y la hiperglicemia empeoran el edema. Controla también la fiebre, el dolor, la agitación y las convulsiones.' },
+        ] },
+        { title: 'Si hay deterioro o herniación', tag: 'Osmoterapia', kind: 'pharma', items: [
+          { t: 'Manitol 20 %', d: '0,25–1 g/kg en 15–20 min',
+            say: 'Si el paciente se deteriora o hay signos de herniación, osmoterapia. Manitol al veinte por ciento, un cuarto a un gramo por kilo en quince a veinte minutos, vigilando que la osmolaridad plasmática se mantenga bajo trescientos veinte.' },
+          { t: 'Suero hipertónico 3 %', d: '150–250 mL; natremia 145–155',
+            say: 'La alternativa es suero salino hipertónico al tres por ciento, ciento cincuenta a doscientos cincuenta mililitros en bolo, con natremia objetivo entre ciento cuarenta y cinco y ciento cincuenta y cinco.' },
+          { t: 'Hiperventilar solo como puente', d: 'PaCO₂ 30–35 mmHg, breve',
+            say: 'La hiperventilación es solo un puente ante una herniación inminente, porque la vasoconstricción puede agravar la isquemia. Y siempre se avisa a cuidados críticos y a neurocirugía: drenaje ventricular, evacuar la lesión o craniectomía descompresiva.' },
+        ] },
+        { title: 'Lo que se pregunta', tag: 'Corticoides y punción', kind: 'alert', items: [
+          { t: 'Dexametasona: tumor y absceso', d: 'No en TEC, ACV ni hemorragia',
+            say: 'La dexametasona sirve en el edema vasogénico de un tumor o de un absceso. No se usa en el traumatismo, en el infarto ni en la hemorragia intracerebral: no mejora el pronóstico, y en el traumatismo aumenta la mortalidad.' },
+          { t: 'Punción lumbar contraindicada', d: 'Ante masa con efecto de volumen',
+            say: 'Y la punción lumbar está contraindicada si hay una masa con efecto de volumen. Primero el TAC.' },
+          { t: 'Seudotumor: acetazolamida y oftalmólogo', d: 'Mujer joven, obesa, TAC normal',
+            say: 'Una mujer joven y obesa, con cefalea, papiledema y TAC normal, tiene hipertensión intracraneal idiopática: baja de peso, acetazolamida y oftalmólogo urgente, por el riesgo de ceguera.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Pronóstico',
       title: 'Score ICH de Hemphill',
@@ -270,22 +333,6 @@ module.exports = {
       steps: [
         { note: 'Desplaza la línea media',
           say: 'La hemorragia hipertensiva cae en el putamen, el tálamo, el puente o el cerebelo, y el hematoma sigue creciendo las primeras tres a seis horas, hasta desplazar la línea media. Por eso se baja la presión y se revierten los anticoagulantes cuanto antes.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Hemorragia intraparenquimatosa',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc__cto-neuro_p42.jpg', label: 'Hematoma', credit: 'Manual CTO Neurología 14.ª ed., p. 42' },
-        { src: 'biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc_alt1__cto-radiologia_p67.jpg', label: 'Hematoma talámico (A) y sangre en los ventrículos (B)', credit: 'Manual CTO Radiología 14.ª ed., p. 67' },
-      ],
-      steps: [
-        { note: 'Mancha blanca en el parénquima',
-          say: 'En la tomografía, la sangre aguda es blanca. Este hematoma profundo es típico de la hipertensión.' },
-        { note: 'Tálamo y ventrículos',
-          say: 'A la izquierda, un hematoma en el tálamo, otro de los lugares típicos. A la derecha, la sangre invadió los ventrículos: si aparece hidrocefalia, se instala un drenaje ventricular externo de urgencia.' },
       ],
     },
 
@@ -384,6 +431,81 @@ module.exports = {
         options: 'Las opciones: iniciar difenidol, examinar el octavo par, pedir una prueba calórica, pedir una resonancia de tronco, o pedir un TAC de cerebro. Piénsalo.',
         answer: 'Es la E, TAC de cerebro. Esto no es un vértigo periférico: es súbito, el paciente no se puede parar, tiene dismetría y un nistagmo que cambia de dirección. Es un síndrome cerebeloso, y en un hipertenso tienes que pensar en un ACV del cerebelo, incluida la hemorragia que se opera. La resonancia tienta, porque ve mejor la fosa posterior, pero lo urgente es el TAC, que es rápido. Y el difenidol solo taparía un cuadro grave.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.2.009 · Hipertensión endocraneana",
+      "stem": "Hombre de 47 años con 3 semanas de cefalea progresiva de predominio matinal y vómitos. Hoy su familia lo encuentra somnoliento. Glasgow 10, pupila derecha de 5 mm hiporreactiva, hemiparesia izquierda. PA 186/94 mmHg, FC 52 lpm, respiración irregular. TAC de encéfalo: masa frontotemporal derecha con extenso edema vasogénico y desviación de la línea media de 9 mm.",
+      "question": "¿Cuál es la conducta inmediata más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Punción lumbar para medir la presión de apertura"
+        },
+        {
+          "letter": "B",
+          "text": "Cabecera a 30°, asegurar la vía aérea, manitol EV, dexametasona EV y evaluación neuroquirúrgica urgente"
+        },
+        {
+          "letter": "C",
+          "text": "Hiperventilación sostenida con meta de PaCO2 de 25 mmHg durante 48 horas"
+        },
+        {
+          "letter": "D",
+          "text": "Suero glucosado al 5 % para hidratación"
+        },
+        {
+          "letter": "E",
+          "text": "Nitroprusiato EV para llevar la PA sistólica bajo 100 mmHg"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Hipertensión endocraneana con signos de herniación (sopor, midriasis ipsilateral, tríada de Cushing) por un tumor con edema: cabecera a 30°, vía aérea segura, osmoterapia (manitol o suero hipertónico), dexametasona por el edema vasogénico y neurocirugía urgente. La punción lumbar puede precipitar herniación; los sueros hipotónicos y la hipotensión empeoran el daño.",
+      "say": {
+        "stem": "Un hombre de cuarenta y siete años con tres semanas de cefalea matinal y vómitos hoy está somnoliento, con la pupila derecha dilatada, presión alta y bradicardia. La tomografía muestra una masa frontotemporal derecha con mucho edema y desviación de la línea media.",
+        "question": "¿Cuál es la conducta inmediata más adecuada?",
+        "options": "Las opciones: punción lumbar, cabecera elevada con vía aérea segura, manitol, dexametasona y neurocirugía urgente, hiperventilación sostenida, suero glucosado, o bajar mucho la presión con nitroprusiato. Piénsalo.",
+        "answer": "Es la B. Hay hipertensión endocraneana con signos de herniación, y se trata con cabecera elevada, vía aérea, osmoterapia, corticoides por el edema tumoral y cirugía. La punción lumbar tienta para medir la presión, pero con una masa puede precipitar la herniación."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.4.001 · TAC de encéfalo y columna",
+      "stem": "Mujer de 69 años, hipertensa mal controlada, presenta cefalea brusca, vómitos y hemiparesia derecha de instalación en minutos. PA 210/118 mmHg, Glasgow 13. Se realiza TAC de encéfalo sin contraste a los 40 minutos del inicio.",
+      "question": "¿Qué hallazgo del TAC sin contraste confirma una hemorragia intracerebral aguda?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hiperdensidad espontánea intraparenquimatosa en los ganglios basales izquierdos"
+        },
+        {
+          "letter": "B",
+          "text": "Hipodensidad córtico-subcortical en el territorio de la arteria cerebral media"
+        },
+        {
+          "letter": "C",
+          "text": "Lesión con realce en anillo tras la administración de contraste"
+        },
+        {
+          "letter": "D",
+          "text": "Pequeñas hipodensidades lacunares en la cápsula interna"
+        },
+        {
+          "letter": "E",
+          "text": "Hiperdensidad lineal de la arteria cerebral media (signo de la arteria hiperdensa)"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En el TAC sin contraste la sangre aguda es hiperdensa (blanca) desde el primer minuto, por eso es el examen de elección para descartar hemorragia. La hipodensidad en territorio arterial es un infarto establecido (de horas); la arteria hiperdensa es un trombo intraluminal en un ACV isquémico; el realce en anillo sugiere absceso o tumor.",
+      "say": {
+        "stem": "Una mujer de sesenta y nueve años, hipertensa, inicia en minutos cefalea, vómitos y hemiparesia derecha, con presión de doscientos diez sobre ciento dieciocho. Se hace una tomografía sin contraste a los cuarenta minutos.",
+        "question": "¿Qué hallazgo confirma una hemorragia intracerebral aguda?",
+        "options": "Las opciones: hiperdensidad espontánea en los ganglios basales, hipodensidad en el territorio de la cerebral media, realce en anillo con contraste, lagunas hipodensas o arteria cerebral media hiperdensa. Piénsalo.",
+        "answer": "Es la A. La sangre aguda se ve blanca, hiperdensa, desde el inicio en la tomografía sin contraste. La arteria hiperdensa tienta porque también es blanca, pero corresponde a un trombo dentro del vaso, o sea, a un infarto isquémico."
+      }
     },
 
     {

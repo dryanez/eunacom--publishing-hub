@@ -253,9 +253,50 @@ function nf(t) {
   K.banner(520, 540, 720, 'Trampa: ceftriaxona no cubre Pseudomonas', C.AMBER, seg(t, 16, 0.5));
 }
 
+
+// its (infecto-13): dos uretritis, una doble cobertura (gráfico sin anatomía)
+function its(t) {
+  K.title('Uretritis: dos gérmenes, doble cobertura', 'Incubación distinta, coinfección frecuente', C.AMBER);
+  const x0 = 80, x1 = 700, y = 250, dx = d => x0 + (x1 - x0) * d / 21;
+  const a = seg(t, 0, 0.6); ctx.globalAlpha = a; ctx.strokeStyle = '#3A4350'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(x0, y); ctx.lineTo(x1, y); ctx.stroke();
+  [0, 7, 14, 21].forEach(d => { ctx.beginPath(); ctx.moveTo(dx(d), y - 7); ctx.lineTo(dx(d), y + 7); ctx.stroke(); text(d + ' d', dx(d), y + 30, 15, C.MUTED, '', 'center'); });
+  text('Días desde la exposición', x0, y - 100, 17, C.MUTED); ctx.globalAlpha = 1;
+  const g = ease(seg(t, 1.5, 1.5)); if (g > 0) { rrect(dx(2), y - 62, (dx(7) - dx(2)) * g, 38, 10, C.RED); ctx.globalAlpha = g; text('Gonococo 2–7 d', dx(2), y - 74, 16, C.RED, 'bold'); ctx.globalAlpha = 1; }
+  const c = ease(seg(t, 3.5, 1.5)); if (c > 0) { rrect(dx(7), y + 52, (dx(21) - dx(7)) * c, 38, 10, C.VIOLET); ctx.globalAlpha = c; text('Chlamydia 1–3 semanas', dx(7), y + 118, 16, C.VIOLET, 'bold'); ctx.globalAlpha = 1; }
+  K.card(740, 150, 500, 130, C.RED, 'Gonocócica', ['Secreción purulenta y abundante', 'Gram: diplococos intracelulares'], seg(t, 2, 0.5), 17);
+  K.card(740, 300, 500, 130, C.VIOLET, 'No gonocócica', ['Secreción escasa y serosa, gota matinal', 'Gram: solo polimorfonucleares'], seg(t, 4, 0.5), 17);
+  const k = seg(t, 7, 0.6); if (k > 0) { ctx.globalAlpha = k; text('Coinfección 20–40 %: no se sabe cuál es', 80, 470, 21, C.AMBER, 'bold'); ctx.globalAlpha = 1; }
+  const d1 = ease(seg(t, 9, 1.2)); if (d1 > 0) { rrect(80, 500, 280 * d1, 34, 10, C.GREEN); ctx.globalAlpha = d1; text('Ceftriaxona 500 mg IM: cubre gonococo', 80, 556, 15, C.GREEN, 'bold'); ctx.globalAlpha = 1; }
+  const d2 = ease(seg(t, 11.5, 1.2)); if (d2 > 0) { rrect(380, 500, 320 * d2, 34, 10, C.BLUE); ctx.globalAlpha = d2; text('Doxiciclina 7 d o azitromicina: clamidia', 380, 556, 15, C.BLUE, 'bold'); ctx.globalAlpha = 1; }
+  K.banner(740, 460, 500, 'Siempre las dos: doble cobertura', C.GREEN, seg(t, 14, 0.5));
+  K.banner(740, 520, 500, 'Ciprofloxacino: no (resistencia > 50 %)', C.RED, seg(t, 16, 0.5));
+  K.banner(80, 600, 1160, 'Tratar a las parejas de 60 días y abstinencia 7 días', C.AMBER, seg(t, 18, 0.5));
+}
+
+// carb (infecto-19): evolución de la pústula maligna y dolor (gráfico sin anatomía)
+function carb(t) {
+  K.title('Pústula maligna: la escara negra no duele', 'Evolución del carbunco cutáneo', C.RED);
+  const st = [['Día 1–2', 'Pápula pruriginosa', '#E6B450'], ['Día 3–4', 'Vesícula con líquido', '#E58A3C'], ['Día 5–7', 'Úlcera con escara negra', '#D6423A'], ['Semana 2–3', 'Cae la escara y cicatriza', '#6FBF73']];
+  st.forEach(([d, n, col], i) => { const a = seg(t, 1 + i * 2.2, 0.6); if (a <= 0) return; const x = 60 + i * 300; ctx.globalAlpha = a;
+    rrect(x, 150, 270, 150, 16, '#161B22'); ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.roundRect(x, 150, 270, 150, 16); ctx.stroke();
+    text(d, x + 18, 188, 21, col, 'bold'); text(n, x + 18, 224, 17, C.INK);
+    const cx = x + 135, cy = 262; ctx.fillStyle = 'rgba(230,140,120,0.35)'; ctx.beginPath(); ctx.arc(cx, cy, i === 3 ? 18 : 30, 0, 7); ctx.fill();
+    ctx.fillStyle = i === 2 ? '#14100E' : col; ctx.beginPath(); ctx.arc(cx, cy, i === 0 ? 7 : i === 1 ? 12 : i === 2 ? 17 : 6, 0, 7); ctx.fill();
+    if (i === 2) for (let j = 0; j < 7; j++) { ctx.fillStyle = '#E8B0A0'; ctx.beginPath(); ctx.arc(cx + Math.cos(j * 0.9) * 26, cy + Math.sin(j * 0.9) * 26, 4, 0, 7); ctx.fill(); }
+    if (i < 3) { ctx.strokeStyle = '#3A4350'; ctx.beginPath(); ctx.moveTo(x + 275, 225); ctx.lineTo(x + 295, 225); ctx.stroke(); } ctx.globalAlpha = 1; });
+  const e = seg(t, 9.5, 0.6); if (e > 0) { ctx.globalAlpha = e; text('Edema gelatinoso extenso alrededor', 60, 345, 19, C.AMBER, 'bold'); ctx.globalAlpha = 1; }
+  // escala de dolor
+  const p = seg(t, 11, 0.6); if (p > 0) { ctx.globalAlpha = p; text('Dolor de la escara (relativo)', 60, 410, 21, C.INK, 'bold');
+    [['Carbunco', 0.04, C.GREEN], ['Fascitis', 0.9, C.RED], ['Loxoscelismo', 0.7, C.AMBER], ['Ectima gangrenoso', 0.45, C.VIOLET]].forEach(([n, v, col], i) => { const y = 440 + i * 40, w = 520 * ease(seg(t, 11.5 + i * 0.7, 0.8)) * Math.max(v, 0.04);
+      text(n, 60, y + 20, 16, C.MUTED); rrect(230, y, 520, 24, 12, '#222833'); rrect(230, y, Math.max(w, 6), 24, 12, col); });
+    ctx.globalAlpha = 1; }
+  K.card(800, 410, 440, 120, C.GREEN, 'Carbunco: indoloro', ['Sin pus, salvo sobreinfección'], seg(t, 15, 0.5), 17);
+  K.banner(800, 550, 440, 'Ciprofloxacino 60 días · no desbridar', C.RED, seg(t, 17, 0.5));
+}
+
 window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
-  ({ rabia, tetanos, sepsis, lcr, herpes, aisla, tbc, hanta, chagas, hidat, exant, pep, vih, tifo, mono, nf })[V](t);
-  if (['aisla', 'hanta', 'pep', 'vih', 'tifo', 'nf'].includes(V)) text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); else K.credit(); };
+  ({ its, carb, rabia, tetanos, sepsis, lcr, herpes, aisla, tbc, hanta, chagas, hidat, exant, pep, vih, tifo, mono, nf })[V](t);
+  if (['aisla', 'hanta', 'pep', 'vih', 'tifo', 'nf', 'its', 'carb'].includes(V)) text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); else K.credit(); };
 LOAD({ neu: '../assets/servier/neurona.png', cara: '../assets/servier/cara.png', cuerpo: '../assets/servier/cuerpo.png', lcr: '../assets/servier/lcr_sagital.png',
   cer: '../assets/servier/cerebro.png', vin: '../assets/servier/vinchuca.png', cor: '../assets/servier/corazon.png', perro: '../assets/servier/perro.png',
   oveja: '../assets/servier/oveja.png', hig: '../assets/servier/higado.png', bebe: '../assets/servier/bebe.png', sil: '../assets/servier/silueta_nino.png', bazo: '../assets/servier/bazo.png' });

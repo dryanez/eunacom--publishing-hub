@@ -29,16 +29,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -229,6 +230,12 @@ const bloque4 = [
           '• <strong>Fase Aguda y Recién Nacido de madre con Chagas:</strong> la parasitemia es alta; se realiza <strong>diagnóstico PARASITOLÓGICO DIRECTO</strong> (Microhematocrito o gota gruesa) o PCR. <em>La IgG no sirve en el recién nacido porque cruza la placenta y refleja los anticuerpos de la madre</em>.<br>' +
           '• <strong>Fase Crónica:</strong> la parasitemia es indetectable; se realiza <strong>diagnóstico SEROLÓGICO</strong> mediante <strong>dos pruebas serológicas IgG diferentes positivas (ELISA IgG + IFI / HAI)</strong> confirmadas por el ISP.<br>' +
           '<strong>Tratamiento:</strong> <strong>Nifurtimox (8-10 mg/kg/día por 60 días) o Benznidazol (5-7 mg/kg/día por 60 días)</strong>. Indicación absoluta: en fase aguda, Chagas congénito, niños y adultos jóvenes en fase indeterminada (< 50 años). En embarazo el tratamiento está contraindicado durante la gestación (se trata a la madre post-parto y lactancia).',
+        ],
+      },
+      {
+        subhead: '4. Miocardiopatías: la Cardiopatía Chagásica y Otras Formas',
+        paragraphs: [
+          'Las miocardiopatías son enfermedades del músculo cardíaco con disfunción mecánica o eléctrica. <strong>Dilatada</strong> (FEVI &lt; 40 %): idiopática, alcohol, viral, periparto, antraciclinas, taquicardiomiopatía y <strong>Chagas</strong> (bloqueo de rama derecha + hemibloqueo anterior izquierdo, aneurisma apical). <strong>Hipertrófica</strong> (septo ≥ 15 mm, hereditaria): soplo sistólico que aumenta con Valsalva, síncope de esfuerzo y <strong>muerte súbita en jóvenes deportistas</strong>; se maneja con betabloqueo, evitando deshidratación, vasodilatadores y deporte competitivo. <strong>Restrictiva</strong> (amiloidosis, hemocromatosis, sarcoidosis): insuficiencia cardíaca derecha con ventrículos pequeños y aurículas grandes. Se sospecha ante disnea, edema, fatiga, síncope o arritmia con ECG, Rx de tórax y ecocardiograma anormales; el médico general inicia el manejo de la insuficiencia cardíaca (IECA/ARA-II, betabloqueador, espironolactona, diurético) y <strong>deriva a cardiología</strong>.',
         ],
       },
     ],
@@ -424,6 +431,12 @@ const bloque4 = [
           '3. <strong>Fiebre alta persistente</strong> (39-40 °C).<br>' +
           '<strong>Hallazgo de laboratorio cardinal:</strong> <strong>EOSINOFILIA MARCADAMENTE ELEVADA (> 20-50%</strong> del recuento leucocitario total) junto con elevación de enzimas musculares (CPK y LDH).',
           '<strong>Tratamiento:</strong> <strong>Albendazol (400 mg cada 12 h por 10 a 14 días)</strong> o Mebendazol + analgésicos. En casos severos con miocarditis o toxicidad sistémica, se asocian corticoides (Prednisona).',
+        ],
+      },
+      {
+        subhead: '3. Hidatidosis Pulmonar',
+        paragraphs: [
+          'El pulmón es la <strong>segunda localización</strong> del quiste hidatídico (10–25 %) y la primera en niños. Muchos son hallazgos radiológicos: <strong>imagen redonda, homogénea, de bordes nítidos</strong> (múltiples: «bolas de cañón»). Se manifiesta con tos, dolor torácico, disnea y hemoptisis. La complicación característica es la <strong>ruptura a bronquio</strong>: vómica de líquido claro («agua de roca»), expectoración de membranas (hidatidoptisis) y, en la imagen, el <strong>signo del camalote</strong> (membrana flotando sobre el líquido) o del doble arco; la ruptura a pleura da neumotórax o empiema y puede causar <strong>anafilaxia</strong>. Diagnóstico por Rx y TAC; la serología (ELISA, IFI) es menos sensible que en el hígado. <strong>Nunca se punciona</strong> un quiste (riesgo de anafilaxia y diseminación). Tratamiento: <strong>cirugía</strong> (quistectomía con conservación del parénquima) con <strong>albendazol</strong> 10–15 mg/kg/día antes y después. Se sospecha, se inicia el estudio y se deriva a cirugía torácica; la prevención es el control del perro (antiparasitario periódico, no alimentarlo con vísceras crudas) y lavar las verduras.',
         ],
       },
     ],

@@ -96,6 +96,14 @@ const rawClasses = [
           "  - Si hay diarrea: frotis de deposiciones con < 5 leucocitos por campo.",
           "<em>Conducta si cumple TODOS:</em> Observación ambulatoria segura, antipiréticos (Paracetamol 15 mg/kg/dosis oral) y control presencial estricto a las 24 horas."
         ]
+      },
+      {
+        "subhead": "4. Proteína C Reactiva y Procalcitonina: Valores de Corte e Interpretación",
+        "paragraphs": [
+          "La <strong>proteína C reactiva (PCR) cuantitativa</strong> es un reactante de fase aguda hepático (inducido por IL-6): comienza a subir a las 4 a 6 horas, tiene su pico a las 36 a 50 horas y su vida media es de 19 horas. Valor normal: < 5 a 10 mg/L (< 1 mg/dL). Una PCR tomada en las primeras horas de fiebre puede ser falsamente baja y debe repetirse.",
+          "• <strong>PCR < 20 mg/L (2 mg/dL):</strong> bajo riesgo de infección bacteriana invasiva (forma parte de los criterios de bajo riesgo en el lactante febril). • <strong>PCR ≥ 40 mg/L (4 mg/dL):</strong> aumenta claramente la probabilidad de infección bacteriana grave. • <strong>PCR ≥ 80 a 100 mg/L (8 a 10 mg/dL):</strong> alta probabilidad de bacteriemia, neumonía o pielonefritis. La <strong>procalcitonina</strong> (≥ 0,5 ng/mL sugiere infección bacteriana invasiva; ≥ 2 ng/mL, alto riesgo) se eleva más precozmente (a las 3 a 6 horas) y es más específica que la PCR en las primeras 12 horas de fiebre.",
+          "<em>Limitaciones:</em> las infecciones virales (adenovirus, influenza) pueden dar PCR de 50 a 100 mg/L, y se eleva también en trauma, cirugía, <strong>enfermedad de Kawasaki</strong> y enfermedades autoinmunes. En el seguimiento, una caída de más del 50% a las 48 a 72 horas indica buena respuesta al tratamiento. No debe usarse sola para decidir antibióticos: se interpreta junto al aspecto clínico, el hemograma y la edad."
+        ]
       }
     ],
     "table": {
@@ -423,6 +431,15 @@ const rawClasses = [
           "  1) <strong>Inmunoglobulina Endovenosa (IgEV): 2 g/kg en infusión continua única durante 10-12 horas</strong>. Reduce la incidencia de aneurismas coronarios del 25% a menos del 3-5%. Debe administrarse antes del día 10 de enfermedad.",
           "  2) <strong>Ácido Acetilsalicílico (Aspirina):</strong> Dosis antiinflamatoria alta (30 a 50 mg/kg/día) en fase febril, bajando luego a dosis antiagregante (3 a 5 mg/kg/día) por 6 a 8 semanas.",
           "  3) Ecocardiograma transtorácico obligatorio al diagnóstico y a las 6-8 semanas."
+        ]
+      },
+      {
+        "subhead": "4. Sarampión y Rubéola: Diagnóstico, Manejo y Prevención",
+        "paragraphs": [
+          "<strong>Sarampión</strong> (paramixovirus; enfermedad de <strong>notificación inmediata</strong>, con aislamiento aéreo desde 4 días antes hasta 4 días después del exantema). <em>Pródromo</em> de 3 a 4 días con fiebre alta y las «tres C» (<strong>tos, coriza, conjuntivitis</strong>) y <strong>manchas de Koplik</strong> (puntos blanco-azulados sobre base eritematosa en la mucosa yugal, patognomónicas). Luego aparece un <strong>exantema maculopapular morbiliforme confluente de progresión céfalo-caudal</strong> (cara y región retroauricular primero), que dura 3 a 4 días y deja descamación furfurácea.",
+          "<em>Complicaciones del sarampión:</em> otitis media (la más frecuente), <strong>neumonía (primera causa de muerte)</strong>, diarrea, laringitis, encefalitis aguda y, años después, <strong>panencefalitis esclerosante subaguda</strong>; la deficiencia de vitamina A causa ceguera. <em>Diagnóstico:</em> IgM específica en suero y PCR en secreción faríngea u orina. <em>Tratamiento:</em> soporte y <strong>vitamina A</strong> por 2 días (200.000 UI en mayores de 12 meses, 100.000 UI entre 6 y 11 meses y 50.000 UI en menores de 6 meses). <em>Profilaxis post-exposición:</em> vacuna dentro de 72 horas o inmunoglobulina hasta el 6.° día (embarazadas, inmunodeprimidos y menores de 6 meses).",
+          "<strong>Rubéola</strong> (togavirus): enfermedad leve con fiebre baja, <strong>exantema maculopapular rosado fino de 3 días</strong> que también progresa de cara a tronco, y <strong>adenopatías retroauriculares, occipitales y cervicales posteriores</strong> características; en adolescentes y mujeres puede haber artralgias. Su gravedad está en la <strong>infección de la embarazada en el primer trimestre</strong>, que causa el <strong>síndrome de rubéola congénita</strong> (sordera, cataratas, cardiopatía como ductus arterioso y estenosis pulmonar, microcefalia y lesiones cutáneas «en muffin de arándano»). El diagnóstico es por IgM; el tratamiento es sintomático.",
+          "<em>Prevención:</em> vacuna <strong>tresvírica (sarampión, rubéola, parotiditis) a los 12 meses y en 1.° básico</strong>; es de virus vivos y está contraindicada en el embarazo y la inmunosupresión grave (se evita embarazo por 1 mes tras vacunarse). Regla de diferenciación: el sarampión es un cuadro <strong>febril y grave con tos y conjuntivitis</strong>; la rubéola es <strong>leve con adenopatías retroauriculares</strong>."
         ]
       }
     ],
@@ -786,6 +803,29 @@ const rawClasses = [
           "  - <strong>Tríada Cardinal Clásica:</strong> 1) <strong>Anemia Hemolítica Microangiopática</strong> (Coombs negativo, esquistocitos en frotis); 2) <strong>Trombocitopenia por consumo</strong>; 3) <strong>Injuria Renal Aguda (Oligoanuria con hematuria y proteinuria)</strong>, precedida típicamente por diarrea con sangre (disentería) 3 a 7 días antes.",
           "  - <strong>REGLA DE ORO VITAL:</strong> <strong>¡ESTÁ ESTRICTAMENTE CONTRAINDICADO EL USO DE ANTIBIÓTICOS EN DIARREA DISENTÉRICA POR SOSPECHA DE STEC!</strong> Los antibióticos inducen la lisis bacteriana masiva de E. coli liberando grandes cantidades de toxina Shiga a la circulación y <strong>multiplican por 5 a 10 el riesgo de desarrollar SHU</strong> y falla renal. Tampoco se indican transfusiones de plaquetas salvo hemorragia con riesgo vital (alimentan los microtrombos)."
         ]
+      },
+      {
+        "subhead": "4. Osteoclisis (Acceso Intraóseo): Indicaciones y Técnica",
+        "paragraphs": [
+          "<strong>Indicación:</strong> necesidad inmediata de fluidos o fármacos en un niño con <strong>shock descompensado, paro cardiorrespiratorio, deshidratación grave o convulsión</strong> en quien no se logra una vía venosa periférica tras 2 intentos o 90 segundos. Es válida a cualquier edad y permite infundir cristaloides, sangre, adrenalina, atropina, glucosa, anticonvulsivantes y antibióticos.",
+          "<strong>Sitio:</strong> <strong>tibia proximal</strong> (1 a 3 cm bajo la tuberosidad tibial, en la cara anteromedial plana; el de elección), tibia distal (sobre el maléolo medial), fémur distal (3 cm sobre los cóndilos, en la línea media) o húmero proximal en niños mayores. <strong>Técnica:</strong> asepsia, aguja intraósea (manual o con dispositivo de taladro) en dirección perpendicular o levemente caudal (lejos del cartílago de crecimiento), con movimiento rotatorio hasta sentir la <strong>pérdida brusca de resistencia</strong> al entrar en la médula. Se confirma porque la aguja queda firme, se puede aspirar médula y el suero fluye sin extravasación ni edema.",
+          "Los líquidos se infunden <strong>a presión</strong> con jeringa (bolos de 20 mL) o bolsa presurizada, porque no fluyen por gravedad. <em>Contraindicaciones:</em> fractura del hueso a puncionar, infección local, punción intraósea reciente en el mismo hueso y enfermedades óseas (osteogénesis imperfecta, osteopetrosis). <em>Complicaciones:</em> extravasación con síndrome compartimental, osteomielitis, lesión del cartílago de crecimiento y embolia grasa. Es una vía <strong>transitoria</strong>: se retira en cuanto se logra un acceso venoso (idealmente antes de 24 horas)."
+        ]
+      },
+      {
+        "subhead": "5. Síndrome Disentérico y Shigelosis: Manejo Antibiótico",
+        "paragraphs": [
+          "La <strong>disentería</strong> es la diarrea con <strong>sangre visible</strong> (con moco, fiebre, pujo y tenesmo). En el niño la causa más importante es <strong><em>Shigella</em></strong>; otros agentes son <em>Campylobacter jejuni</em>, <em>Salmonella</em> no tifoídica, <em>E. coli</em> enteroinvasora y <em>Entamoeba histolytica</em>. La shigelosis causa fiebre alta, <strong>convulsiones febriles</strong> y puede complicarse con bacteriemia, megacolon tóxico, artritis reactiva y, con <em>S. dysenteriae</em> tipo 1, SHU. Se solicita <strong>coprocultivo</strong>; el tratamiento de la deshidratación (SRO, plan A, B o C) y el <strong>zinc</strong> son siempre la base.",
+          "<em>Antibióticos:</em> se tratan los cuadros de <strong>disentería con fiebre y sospecha de <em>Shigella</em></strong>: <strong>azitromicina 10 mg/kg/día por 3 días</strong> (primera línea actual por la resistencia a cotrimoxazol); alternativa: <strong>ceftriaxona</strong> 50 a 75 mg/kg/día por 3 a 5 días en casos graves, o ciprofloxacino 15 mg/kg cada 12 horas por 3 días en infecciones graves. Cotrimoxazol solo si el antibiograma es sensible. La amebiasis se trata con metronidazol 30 a 50 mg/kg/día por 7 a 10 días.",
+          "<strong>Excepciones:</strong> ante sospecha de <strong>STEC / <em>E. coli</em> O157</strong> (diarrea sanguinolenta <em>sin fiebre</em> alta, antecedente de carne molida mal cocida, brote) <strong>no se dan antibióticos</strong>, porque aumentan la liberación de toxina Shiga y el riesgo de SHU. Tampoco se tratan las salmonelosis no tifoídicas no invasoras, salvo en menores de 3 meses, inmunodeprimidos o bacteriemia. Están contraindicados los antidiarreicos y antiperistálticos."
+        ]
+      },
+      {
+        "subhead": "6. Manejo de Soporte del Síndrome Hemolítico Urémico",
+        "paragraphs": [
+          "No existe tratamiento específico; el manejo es de <strong>soporte en unidad con nefrología pediátrica</strong>. (1) <strong>Balance hídrico estricto</strong>: en la fase prodrómica la rehidratación isotónica precoz protege el riñón; una vez instalada la oligoanuria se restringe a pérdidas insensibles más diuresis. (2) <strong>Presión arterial:</strong> hipertensión por sobrecarga y renina, tratada con calcioantagonistas (nifedipino, amlodipino) y diuréticos de asa. (3) <strong>Transfusión</strong> de glóbulos rojos (lavados) solo con Hb < 6 a 7 g/dL; <strong>se evitan las plaquetas</strong> salvo sangrado activo o procedimiento, porque pueden agravar la microtrombosis. (4) Corrección de la hiperkalemia, acidosis y nutrición con restricción de potasio y fósforo.",
+          "<strong>Indicaciones de diálisis</strong> (peritoneal o hemodiálisis): anuria prolongada (> 24 horas), sobrecarga hídrica con edema pulmonar o hipertensión refractaria, hiperkalemia refractaria, acidosis grave y uremia sintomática o encefalopatía. No se usan antibióticos ni AINE. En el SHU atípico o con compromiso neurológico grave, el especialista considera <strong>eculizumab</strong>. La mortalidad aguda es de 3 a 5%; hasta 10 a 30% queda con secuelas renales (hipertensión, proteinuria, ERC), por lo que se mantiene <strong>seguimiento de años</strong>."
+        ]
       }
     ],
     "table": {
@@ -1138,6 +1178,20 @@ const rawClasses = [
           "  - <strong>Ecografía abdominal (Estándar de oro):</strong> Imagen en 'diana', 'donut' o 'pseudoriñón'.",
           "  - <strong>Tratamiento:</strong> Si no hay peritonitis ni neumoperitoneo: <strong>Reducción hidrostática o neumática guiada por ecografía/fluoroscopía</strong> (enema neumático/baritado). Si hay peritonitis, perforación o falla del enema: Laparotomía urgente."
         ]
+      },
+      {
+        "subhead": "4. Abdomen Agudo Pediátrico: Enfoque Inicial por Edad",
+        "paragraphs": [
+          "El <strong>abdomen agudo</strong> es el dolor abdominal de instalación reciente con signos de irritación peritoneal u obstrucción que puede requerir cirugía urgente. Las causas dependen de la edad: <strong>recién nacido</strong> (enterocolitis necrotizante, atresias, malrotación con vólvulo, enfermedad de Hirschsprung, íleo meconial); <strong>lactante</strong> (invaginación intestinal, hernia inguinal estrangulada, vólvulo); <strong>preescolar y escolar</strong> (<strong>apendicitis aguda</strong>, la causa quirúrgica más frecuente, adenitis mesentérica, divertículo de Meckel, peritonitis primaria del síndrome nefrótico, trauma); <strong>adolescente</strong> (apendicitis, torsión testicular u ovárica, enfermedad inflamatoria pélvica, embarazo ectópico).",
+          "<strong>Claves de la evaluación:</strong> el <strong>vómito bilioso</strong> es obstrucción intestinal (malrotación con vólvulo) hasta demostrar lo contrario y exige derivación urgente; en la apendicitis el dolor precede a los vómitos (migra desde el epigastrio o periumbilical a la fosa ilíaca derecha) y en la gastroenteritis ocurre lo contrario. Se busca defensa, rebote, signos de Rovsing, psoas y obturador; en el niño pequeño se observa la marcha y el dolor al saltar o toser. <strong>Siempre se examinan los genitales y las regiones inguinales</strong> (torsión, hernia).",
+          "<em>Exámenes:</em> hemograma y PCR, orina completa, <strong>ecografía abdominal</strong> (apendicitis: apéndice no compresible > 6 mm con grasa periapendicular hiperecogénica; invaginación: signo de la diana), radiografía de abdomen (niveles hidroaéreos, neumoperitoneo, <strong>doble burbuja</strong> de la atresia duodenal) y TAC solo si hay duda o trauma. <em>Manejo inicial (Inicial/Derivar):</em> ayuno, vía venosa e hidratación, analgesia (no enmascara el cuadro), antibióticos (ceftriaxona más metronidazol) si hay sospecha de apendicitis complicada o peritonitis, y <strong>derivación a cirugía infantil</strong>."
+        ]
+      },
+      {
+        "subhead": "5. Nota sobre el Código 2.01.1.046: Displasia Broncopulmonar",
+        "paragraphs": [
+          "El código 2.01.1.046 del Perfil figura repetido: reflujo gastroesofágico y vómitos del lactante (tratado en este tema) y <strong>displasia broncopulmonar</strong> (DBP). La DBP es la dependencia de oxígeno a los 28 días de vida y a las 36 semanas de edad postmenstrual en el prematuro < 32 semanas; se sospecha en todo prematuro que sigue con requerimiento de oxígeno, taquipnea y retracciones, y se <strong>deriva</strong> a neonatología o broncopulmonar. Su desarrollo completo está en el tema 18.18 (Dificultad Respiratoria Neonatal)."
+        ]
       }
     ],
     "table": {
@@ -1349,6 +1403,50 @@ const rawClasses = [
           "• <strong>2) Uretrocistografía Miccional (UCG):</strong> Es el estándar de oro para diagnosticar y etapificar el <strong>Reflujo Vésico-Ureteral (RVU grados I a V)</strong> y descartar valvas de uretra posterior en varones. <em>Indicaciones actuales:</em> Ecografía renal alterada (dilatación o displasia), ITU recurrente, o ITU febril por germen distinto a E. coli (ITU atípica). Se realiza tras 2-4 semanas de resuelta la infección.",
           "• <strong>3) Cintigrama Renal con DMSA (Ácido Dimercaptosuccínico):</strong> Evalúa daño cortical y presencia de <strong>cicatrices renales permanentes</strong>. Se solicita a los <strong>6 meses</strong> del episodio agudo."
         ]
+      },
+      {
+        "subhead": "5. Orina Completa: Interpretación en el Niño",
+        "paragraphs": [
+          "<strong>Tira reactiva:</strong> la <strong>esterasa leucocitaria</strong> (leucocituria) y los <strong>nitritos</strong> (bacterias que reducen nitratos; muy específicos, pero con baja sensibilidad en lactantes porque la orina permanece poco tiempo en la vejiga) orientan a infección urinaria; una tira con ambos negativos hace improbable la ITU. Proteínas, sangre, glucosa, cetonas, pH y densidad completan el examen.",
+          "<strong>Sedimento urinario:</strong> leucocituria significativa si hay > 5 leucocitos por campo de 40× (o > 10/µL); la presencia de <strong>bacterias</strong> aumenta la probabilidad de ITU; los <strong>cilindros leucocitarios</strong> sugieren pielonefritis. <em>Hematuria</em> (> 5 hematíes por campo): <strong>glomerular</strong> si hay hematíes dismórficos, <strong>cilindros hemáticos</strong>, orina «color té» y proteinuria (glomerulonefritis postestreptocócica, nefropatía IgA); <strong>no glomerular</strong> si los hematíes son normales (litiasis, hipercalciuria, infección, malformaciones).",
+          "<em>Proteinuria:</em> se cuantifica con la relación proteína/creatinina en muestra aislada (normal < 0,2 mg/mg; > 2 mg/mg es rango nefrótico); la proteinuria ortostática es benigna. Una densidad < 1.010 sugiere orina diluida o defecto de concentración. <strong>Limitaciones:</strong> en una muestra de bolsa solo es útil un examen normal (descarta); la hidratación, el uso previo de antibióticos y la contaminación modifican los resultados. El diagnóstico de ITU requiere siempre <strong>urocultivo</strong>."
+        ]
+      },
+      {
+        "subhead": "6. Malformaciones Nefrourológicas: Sospecha, Estudio y Derivación",
+        "paragraphs": [
+          "Las malformaciones nefrourológicas ocurren en 3 a 4 de cada 1.000 recién nacidos y muchas se pesquisan en la <strong>ecografía prenatal</strong> (hidronefrosis, oligohidramnios). Las más frecuentes son: <strong>estenosis de la unión pieloureteral</strong> (primera causa de hidronefrosis neonatal), <strong>reflujo vésico-ureteral</strong>, megauréter, <strong>duplicidad pieloureteral</strong> (con ureterocele), <strong>riñón multiquístico displásico</strong>, agenesia renal unilateral, riñón en herradura, poliquistosis renal y <strong>válvulas de uretra posterior</strong> (varones: chorro débil, vejiga engrosada, hidronefrosis bilateral, riesgo de insuficiencia renal e hipoplasia pulmonar).",
+          "<em>Sospecha postnatal:</em> hidronefrosis prenatal, <strong>arteria umbilical única</strong>, malformaciones asociadas (ano imperforado, cardiopatías, oídos displásicos), masa abdominal, <strong>primera ITU febril</strong>, chorro urinario débil, hipertensión o falla de medro. <em>Estudio:</em> <strong>ecografía renal y vesical</strong> (la postnatal se hace después de los 5 a 7 días de vida, por la oliguria fisiológica inicial), <strong>uretrocistografía miccional</strong> (reflujo, válvulas), <strong>cintigrama renal</strong> (DMSA para cicatrices y función; MAG3 con furosemida para obstrucción) y, según el caso, uro-resonancia.",
+          "<em>Conducta (Sospecha/Inicial/Derivar):</em> con hidronefrosis significativa se inicia <strong>profilaxis antibiótica</strong> mientras se completa el estudio y se <strong>deriva a nefrología o urología infantil</strong>; las válvulas de uretra posterior y la hidronefrosis bilateral grave son una derivación urgente."
+        ]
+      },
+      {
+        "subhead": "7. Reflujo Vésico-Ureteral: Grados, Profilaxis y Seguimiento",
+        "paragraphs": [
+          "El <strong>reflujo vésico-ureteral (RVU)</strong> es el paso retrógrado de orina de la vejiga al uréter; se diagnostica con la <strong>uretrocistografía miccional</strong> y se clasifica en cinco grados: <strong>I</strong> (solo uréter), <strong>II</strong> (llega a la pelvis sin dilatación), <strong>III</strong> (dilatación leve a moderada con cálices algo deformados), <strong>IV</strong> (dilatación moderada con tortuosidad ureteral) y <strong>V</strong> (dilatación severa, pérdida de las impresiones papilares). Los grados I a III suelen resolverse espontáneamente (alrededor del 80% en 5 años); los IV y V rara vez.",
+          "<em>Manejo:</em> corregir la disfunción vesical y el estreñimiento y mantener micción regular. Se indica <strong>profilaxis antibiótica continua en dosis bajas</strong> (cefadroxilo 10 mg/kg/día o nitrofurantoína 1 a 2 mg/kg nocturna; en menores de 2 meses, amoxicilina) en los grados III a V y en los grados menores con ITU recurrentes, hasta la resolución o el control de esfínteres. El tratamiento <strong>endoscópico</strong> (inyección subureteral) o el <strong>reimplante ureteral</strong> se reservan para grados IV-V, ITU recurrentes pese a profilaxis, cicatrices progresivas o intolerancia a la profilaxis. Se controla con urocultivo ante fiebre, ecografía anual, DMSA y presión arterial y proteinuria por el riesgo de <strong>nefropatía por reflujo</strong>."
+        ]
+      },
+      {
+        "subhead": "8. Interpretación del Urocultivo y del Antibiograma",
+        "paragraphs": [
+          "El antibiograma informa cada antibiótico como <strong>sensible (S), intermedio (I) o resistente (R)</strong> según la concentración inhibitoria mínima. Se elige el antibiótico <strong>sensible, de menor espectro y con buena concentración urinaria o tisular</strong>, y se ajusta el esquema empírico a las 48 a 72 horas. Un cultivo con ≥ 2 gérmenes sugiere contaminación y se repite. No se trata la bacteriuria asintomática.",
+          "En Chile la <em>E. coli</em> urinaria tiene alta resistencia a ampicilina (~50 a 60%) y cotrimoxazol (30 a 40%), por lo que no se usan de primera línea; la resistencia a cefalosporinas de primera generación es menor, pero crece la producción de <strong>betalactamasas de espectro extendido (BLEE)</strong>, que obliga a usar aminoglucósidos o carbapenémicos. La <strong>nitrofurantoína</strong> no sirve en pielonefritis (no alcanza niveles tisulares) ni frente a <em>Proteus</em>. Si no hay respuesta clínica a las 48 a 72 horas con antibiótico sensible, se busca obstrucción o absceso con ecografía."
+        ]
+      },
+      {
+        "subhead": "9. Técnica del Cateterismo Vesical en el Niño",
+        "paragraphs": [
+          "<strong>Indicaciones:</strong> obtener urocultivo en el lactante que no controla esfínteres, medir diuresis, retención aguda y estudios como la uretrocistografía. Se usa sonda de Nelaton de <strong>6 a 8 Fr</strong> (5 Fr en el recién nacido), material y guantes estériles. <strong>Técnica:</strong> lavado de manos; antisepsia genital con suero o clorhexidina acuosa; lubricante estéril. <em>Niña:</em> en decúbito con piernas en «rana», se separan los labios menores, se identifica el meato (sobre el introito vaginal) y se avanza 2 a 3 cm hasta que salga orina. <em>Varón:</em> se retrae suavemente el prepucio, se sostiene el pene perpendicular al cuerpo con tracción suave para enderezar la uretra y se avanza hasta la salida de orina; ante resistencia en el esfínter externo se mantiene presión suave y no se fuerza.",
+          "Se descartan las primeras gotas y se recoge el resto en frasco estéril, que se procesa antes de 1 hora (o se refrigera). <em>Complicaciones:</em> infección, trauma uretral y falsa vía. No debe realizarse si hay sangre en el meato tras un trauma (antes, uretrografía)."
+        ]
+      },
+      {
+        "subhead": "10. Cintigrama Renal (DMSA y MAG3): Indicaciones e Informe",
+        "paragraphs": [
+          "El <strong>DMSA</strong> (ácido dimercaptosuccínico marcado con Tc-99m) es un estudio estático que evalúa la <strong>corteza renal funcionante</strong>: muestra <strong>cicatrices corticales</strong> (defectos fijos con pérdida de volumen) y la <strong>función relativa</strong> de cada riñón (normal 45 a 55%). Para diagnosticar cicatrices se realiza al menos 6 meses después de la pielonefritis, porque en la fase aguda los defectos pueden ser reversibles. Se indica en ITU febril atípica o recurrente, RVU de alto grado y sospecha de displasia o ectopia.",
+          "El <strong>MAG3 con furosemida</strong> (renograma diurético) es dinámico y evalúa perfusión, función y drenaje: ante una hidronefrosis, una curva de eliminación que no desciende tras el diurético con <strong>T½ > 20 minutos</strong> indica obstrucción (T½ < 10 minutos es normal; entre 10 y 20, indeterminado). El médico general debe <strong>emplear el informe</strong>: función diferencial, presencia y localización de cicatrices y curva de drenaje; la radiación es baja y se requiere buena hidratación."
+        ]
       }
     ],
     "table": {
@@ -1547,6 +1645,21 @@ const rawClasses = [
           "  - <strong>Riesgo de Recurrencia:</strong> Aproximadamente un 30% de los niños presentará una nueva crisis febril en futuros episodios infecciosos (el riesgo se eleva al 50% si el debut fue antes del año de vida).",
           "  - <strong>Riesgo de Epilepsia Futura:</strong> En crisis febril simple es idéntico o mínimamente superior al de la población general (1-2%). En crisis complejas, con antecedentes familiares de epilepsia o daño neurológico previo, el riesgo sube al 5-10%."
         ]
+      },
+      {
+        "subhead": "4. Crisis Convulsiva Aguda y Estado Epiléptico: Manejo Inicial y Derivación",
+        "paragraphs": [
+          "El <strong>estado epiléptico</strong> es la crisis que dura más de <strong>5 minutos</strong> o dos crisis sin recuperación de conciencia entre ellas. <strong>Manejo inmediato:</strong> posición lateral de seguridad, vía aérea y oxígeno, monitorización, <strong>glicemia capilar</strong> (si < 60 mg/dL: suero glucosado 10%, 2 mL/kg) y acceso venoso. Primera línea: <strong>benzodiacepina</strong>: diazepam EV 0,2 a 0,5 mg/kg (máx. 10 mg) o rectal 0,5 mg/kg si no hay vía; <strong>midazolam IM</strong> 0,2 mg/kg (máx. 10 mg) o intranasal/bucal; lorazepam EV 0,1 mg/kg. Se puede repetir una vez a los 5 a 10 minutos, vigilando la depresión respiratoria.",
+          "Segunda línea (si persiste a los 10 a 20 minutos): <strong>fenitoína 20 mg/kg EV</strong> en 20 minutos (con monitorización de ECG y sin mezclar con glucosa), fenobarbital 20 mg/kg o levetiracetam 40 a 60 mg/kg; el estado refractario se traslada a UCI. La convulsión febril simple que cede en minutos no requiere anticonvulsivante crónico. En el recién nacido, la primera línea es fenobarbital.",
+          "<strong>Epilepsia:</strong> dos o más crisis no provocadas separadas por más de 24 horas. Tras una primera crisis afebril se solicitan glicemia, electrolitos con calcio y magnesio, EEG y resonancia (si es focal, menor de 1 año o hay déficit). Diagnósticos diferenciales: síncope, espasmos del sollozo, tics, terrores nocturnos y reflujo (síndrome de Sandifer). Síndromes clásicos: <strong>espasmos infantiles (West)</strong> con hipsarritmia y retraso; <strong>epilepsia de ausencia</strong> (punta-onda a 3 Hz con hiperventilación; etosuximida o valproato); epilepsia rolándica benigna (nocturna). Todo niño con epilepsia o crisis afebril se <strong>deriva a neurología infantil</strong> y la familia recibe consejería de seguridad (baño, bicicleta, agua)."
+        ]
+      },
+      {
+        "subhead": "5. Punción Lumbar: Técnica e Interpretación del Líquido Cefalorraquídeo",
+        "paragraphs": [
+          "<strong>Contraindicaciones:</strong> signos de hipertensión endocraneana con riesgo de herniación (se hace TAC antes), inestabilidad hemodinámica o respiratoria (primero se estabiliza e inicia el antibiótico), infección en el sitio de punción y trastorno de coagulación o plaquetas < 50.000/mm³. <strong>Técnica:</strong> decúbito lateral con flexión de rodillas (en el neonato no se flecta excesivamente el cuello, por riesgo de obstruir la vía aérea) o sentado; espacio <strong>L3-L4 o L4-L5</strong> (la línea que une las crestas ilíacas pasa por L4; en el neonato la médula llega hasta L3); asepsia y anestesia local; aguja con mandril con el bisel paralelo a las fibras, dirigida hacia el ombligo; se siente una «pérdida de resistencia» al atravesar la duramadre; se retira el mandril, se mide la presión de apertura y se recolectan <strong>3 tubos</strong> (bioquímica, cultivo y tinción de Gram, recuento celular). La glicemia se toma simultáneamente. Complicaciones: cefalea post-punción, infección, hematoma y herniación.",
+          "<strong>Interpretación del LCR:</strong> • <em>Normal:</em> aspecto cristal de roca, 0 a 5 células/mm³ (hasta 20-30 mononucleares en el neonato), proteínas 20 a 40 mg/dL (hasta 100 a 150 en el recién nacido) y glucosa ≥ 60% de la glicemia. • <strong>Meningitis bacteriana:</strong> turbio, cientos a miles de células <strong>polimorfonucleares</strong>, proteínas elevadas (> 100 mg/dL), <strong>glucosa baja</strong> (< 40 mg/dL o relación LCR/sangre < 0,4), Gram o cultivo positivo. • <strong>Meningitis viral:</strong> claro, 10 a 500 células mononucleares, proteínas normales o levemente altas y glucosa normal. • <strong>Meningitis tuberculosa:</strong> mononucleares, proteínas muy altas y glucosa muy baja. Una punción traumática se reconoce porque el líquido se aclara entre el primer y el último tubo."
+        ]
       }
     ],
     "table": {
@@ -1661,6 +1774,579 @@ const rawClasses = [
         "correcta": "B",
         "explicacion": "A) Incorrecta. Es generalizada y < 15 minutos, criterios de crisis simple.\nB) Correcta. La convulsión febril compleja (o atípica) se define por la presencia de al menos uno de los siguientes criterios: semiología focal (en este caso hemicuerpo derecho), duración prolongada mayor a 15 minutos (en este caso 18 min), recurrencia en menos de 24 horas, o déficit motor residual postictal (paresia de Todd).\nC) Incorrecta. La magnitud de la temperatura no define si es simple o compleja.\nD) Incorrecta. Los 18 meses están en pleno rango típico (6m a 5 años).\nE) Incorrecta. La recuperación rápida sin déficit es propia de la crisis simple.",
         "recTag": "Banco Oficial AEE · Perfil V3 2.01.2.006"
+      }
+    ]
+  },
+  {
+    "id": "ped-25",
+    "classId": "ped-25",
+    "tier": 2,
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "18.25",
+    "title": "Inmunodeficiencias Primarias, Infecciones Recurrentes, Hepatomegalia e Interpretación del Hemograma Pediátrico",
+    "perfilCode": "2.01.1.056, 2.01.1.014, 2.01.1.044, 2.01.4.015",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Sin garantía GES específica · VIH/SIDA (GES N° 19) y leucemia aguda en menores de 15 años (GES N° 3) se derivan por hemograma alterado",
+    "reconstrucciones": "EUNACOM Enero 2023 (Q#12) · EUNACOM Diciembre 2022 (Q#136)",
+    "frecuencia": "Alta rentabilidad · inmunodeficiencia humoral (agammaglobulinemia) desde los 6 meses con infecciones piógenas, signos de alarma de inmunodeficiencia y hemograma normal del lactante (linfocitosis fisiológica)",
+    "svg": null,
+    "algoTitle": "Algoritmo de Sospecha de Inmunodeficiencia en el Niño con Infecciones Recurrentes",
+    "diagramRows": [
+      {
+        "t": "Niño con infecciones frecuentes",
+        "s": "Contar episodios, gravedad, germen, localización, respuesta al tratamiento, crecimiento y antecedentes familiares",
+        "type": "acc"
+      },
+      {
+        "t": "¿Es un patrón normal para la edad?",
+        "s": "6-10 infecciones respiratorias virales al año, leves y con recuperación completa, asistiendo a sala cuna, con crecimiento normal",
+        "type": "dec"
+      },
+      {
+        "k": "split",
+        "q": "Presencia de signos de alarma",
+        "al": "Sin signos de alarma",
+        "ll": "No",
+        "left": {
+          "t": "Patrón esperable o causa no inmunológica",
+          "s": "Atopia, sala cuna, reflujo, asma, adenoides, cuerpo extraño · Tranquilizar y controlar",
+          "type": "acc"
+        },
+        "rl": "Sí",
+        "right": {
+          "t": "Sospecha de inmunodeficiencia",
+          "s": "Infecciones graves, por gérmenes inusuales, ≥ 2 neumonías, antibióticos EV, falla de medro, candidiasis persistente, antecedente familiar",
+          "type": "crit"
+        }
+      },
+      {
+        "t": "Estudio inicial y derivación a inmunología",
+        "s": "Hemograma con recuento linfocitario · IgG, IgA, IgM · VIH · Rx tórax · test del sudor si hay patología respiratoria · evitar vacunas vivas si se sospecha defecto celular",
+        "type": "warn"
+      }
+    ],
+    "contexto": "Las infecciones recurrentes son un motivo de consulta habitual en pediatría, y casi siempre son un patrón normal en niños que asisten a sala cuna. El desafío del médico general es distinguir al niño sano con muchas infecciones de aquel con una inmunodeficiencia primaria, reconociendo los signos de alarma y solicitando el estudio básico antes de derivar. Este tema integra además el enfoque de la hepatomegalia y la interpretación del hemograma pediátrico, cuyos valores normales cambian con la edad y suelen generar errores diagnósticos.",
+    "contentSections": [
+      {
+        "subhead": "1. Infecciones Recurrentes: Patrón Normal vs Signos de Alarma",
+        "paragraphs": [
+          "Un niño sano menor de 5 años presenta <strong>6 a 10 infecciones respiratorias virales por año</strong> (más si asiste a sala cuna), de curso leve y con recuperación completa. Las infecciones recurrentes más frecuentes tienen causa <strong>no inmunológica</strong>: atopia y asma, sala cuna o hermanos mayores, hipertrofia adenoidea, reflujo gastroesofágico, tabaquismo pasivo, cuerpo extraño y malformaciones anatómicas. Otras causas a descartar: fibrosis quística, discinesia ciliar, VIH y desnutrición.",
+          "<strong>Signos de alarma de inmunodeficiencia primaria</strong> (Fundación Jeffrey Modell): 8 o más otitis medias en un año; 2 o más sinusitis graves en un año; 2 o más neumonías en un año; 2 o más infecciones profundas (meningitis, sepsis, osteomielitis, celulitis); abscesos cutáneos u orgánicos profundos recurrentes; candidiasis oral o cutánea persistente después del año; infección que requiere antibióticos endovenosos; antibióticos por 2 meses o más con poco efecto; <strong>falla de medro</strong>; infecciones por gérmenes oportunistas; <strong>antecedente familiar</strong> de inmunodeficiencia o de muertes tempranas por infección.",
+          "<em>Estudio inicial (Inicial/Derivar):</em> <strong>hemograma con recuento absoluto de linfocitos y neutrófilos</strong>, VHS/PCR, <strong>inmunoglobulinas séricas (IgG, IgA, IgM)</strong>, test de VIH, radiografía de tórax y, según el cuadro, test del sudor. Un niño con signos de alarma se deriva a inmunología; mientras tanto se tratan las infecciones precozmente y no se indican vacunas vivas si se sospecha un defecto celular."
+        ]
+      },
+      {
+        "subhead": "2. Inmunodeficiencias Primarias: Clasificación y Sospecha según el Tipo de Infección",
+        "paragraphs": [
+          "El <strong>tipo de infección</strong> orienta al compartimento afectado. • <strong>Defectos humorales (linfocitos B), 50-60% de los casos:</strong> infecciones bacterianas piógenas sinopulmonares (otitis, sinusitis, neumonías por <em>S. pneumoniae</em> y <em>H. influenzae</em>), que comienzan <strong>después de los 6 meses</strong>, cuando desaparece la IgG materna. <strong>Agammaglobulinemia ligada al X (Bruton)</strong>: varón, amígdalas ausentes, IgG, IgA e IgM muy bajas, linfocitos B (CD19) ausentes. <strong>Déficit selectivo de IgA</strong>: el más frecuente, a menudo asintomático, con riesgo de anafilaxia frente a transfusiones y asociación con celiaquía y atopia. <strong>Inmunodeficiencia común variable</strong>: en adolescentes y adultos.",
+          "• <strong>Defectos celulares (linfocitos T):</strong> infecciones virales graves, candidiasis, <em>Pneumocystis jirovecii</em> y diarrea crónica desde los primeros meses, con falla de medro y <strong>linfopenia</strong>. <strong>Inmunodeficiencia combinada grave (SCID)</strong>: aparece antes de los 6 meses, sin timo en la radiografía; es una urgencia (trasplante de médula) y contraindica las vacunas vivas (BCG, rotavirus). <strong>Síndrome de DiGeorge (microdeleción 22q11)</strong>: cardiopatía conotruncal, hipocalcemia por hipoparatiroidismo, timo hipoplásico y dismorfia facial; los hemoderivados deben ser irradiados. • <strong>Wiskott-Aldrich:</strong> trombocitopenia con plaquetas pequeñas, eccema e infecciones.",
+          "• <strong>Defectos de la fagocitosis:</strong> <strong>enfermedad granulomatosa crónica</strong> (abscesos y adenitis por gérmenes catalasa positivos: <em>S. aureus</em>, <em>Serratia</em>, <em>Aspergillus</em>; diagnóstico con prueba de dihidrorrodamina o NBT) y déficit de adhesión leucocitaria (caída tardía del cordón, onfalitis y leucocitosis marcada sin pus). • <strong>Defectos del complemento:</strong> déficit de C5-C9 (infecciones recurrentes por <em>Neisseria</em>), déficit de C3 (infecciones piógenas graves) y de C1-inhibidor (angioedema hereditario, sin infecciones).",
+          "<em>Conducta (Sospecha/Inicial/Derivar):</em> las <strong>inmunodeficiencias secundarias</strong> (VIH, desnutrición, síndrome nefrótico, asplenia, quimioterapia y corticoides) son más frecuentes y deben descartarse primero. La sospecha se confirma con inmunología (cuantificación de inmunoglobulinas, subpoblaciones linfocitarias, función de fagocitos y complemento). El tratamiento depende del defecto: <strong>inmunoglobulina intravenosa o subcutánea</strong> en los defectos humorales, profilaxis con cotrimoxazol y trasplante de células madre en las formas combinadas graves."
+        ]
+      },
+      {
+        "subhead": "3. Hepatomegalia en el Niño: Enfoque Diagnóstico",
+        "paragraphs": [
+          "El hígado se palpa normalmente 1 a 2 cm bajo el reborde costal en el lactante y hasta 1 cm en el escolar. Debe distinguirse de la <strong>ptosis hepática</strong> por hiperinsuflación (asma, bronquiolitis): se mide el <strong>espacio hepático por percusión</strong> (el borde superior desciende y el tamaño total es normal). La hepatomegalia verdadera se acompaña de un tamaño aumentado a la percusión y orienta según los hallazgos asociados.",
+          "• <strong>Con esplenomegalia (hepatoesplenomegalia):</strong> infecciones congénitas (TORCH), mononucleosis, hemólisis, leucemias y linfomas, enfermedades de depósito (Gaucher, Niemann-Pick), hipertensión portal. • <strong>Con ictericia o colestasia:</strong> atresia de vías biliares, hepatitis. • <strong>Con insuficiencia cardíaca:</strong> congestión hepática (hepatomegalia dolorosa, ingurgitación yugular). • <strong>Hepatomegalia aislada con hipoglicemia de ayuno corto:</strong> <strong>glucogenosis tipo I</strong> (déficit de glucosa-6-fosfatasa): facies «de muñeca», abdomen prominente, hipoglicemia, acidosis láctica, hipertrigliceridemia e hiperuricemia. • Obesidad (hígado graso), fibrosis quística, enfermedad de Wilson (después de los 3 años), galactosemia y tirosinemia.",
+          "<em>Estudio inicial (Inicial/Derivar):</em> hemograma y frotis, transaminasas, bilirrubina fraccionada, glicemia en ayuno, perfil lipídico, ácido úrico y lactato, y <strong>ecografía abdominal</strong>. Según la sospecha, el especialista solicita serologías, estudio metabólico o biopsia. Se deriva si la hepatomegalia es persistente, de consistencia aumentada, asociada a otros síntomas o hay hipoglicemia."
+        ]
+      },
+      {
+        "subhead": "4. Hemograma Pediátrico: Valores por Edad e Interpretación",
+        "paragraphs": [
+          "<strong>Hemoglobina:</strong> recién nacido 14 a 20 g/dL; nadir fisiológico a los 2 a 3 meses (~10-11 g/dL); desde los 6 meses a los 5 años el límite inferior es <strong>11 g/dL</strong> (anemia si es menor), 11,5 g/dL entre los 5 y 11 años y 12 g/dL en adolescentes. El VCM es alto en el recién nacido, desciende en el lactante (límite inferior ~70 fL al año) y sube gradualmente. <strong>Plaquetas:</strong> 150.000 a 450.000/mm³ a cualquier edad.",
+          "<strong>Leucocitos y fórmula:</strong> recién nacido 9.000 a 30.000/mm³ con predominio de neutrófilos; en el lactante 6.000 a 17.500; en el preescolar 5.500 a 15.500; en el escolar 4.500 a 13.500. Hay dos «cruces» fisiológicos de la fórmula: a los 5 a 7 días predominan los linfocitos, y <strong>los linfocitos se mantienen como la población predominante hasta los 4 a 6 años</strong>, cuando se invierte a neutrófilos. Por ello un lactante con 60% de linfocitos es normal y <em>no</em> sugiere leucemia ni infección viral.",
+          "<strong>Interpretación:</strong> • <strong>Infección bacteriana:</strong> leucocitosis > 15.000, neutrofilia, desviación a izquierda (baciliformes > 10% o relación inmaduros/totales > 0,2) y granulaciones tóxicas; leucopenia < 5.000 con neutropenia también puede indicar sepsis grave. • <strong>Neutropenia:</strong> recuento absoluto < 1.500/mm³ (grave < 500): causas virales, fármacos y neutropenia étnica benigna; el riesgo de infección grave depende de su magnitud. • <strong>Linfocitosis marcada:</strong> coqueluche, mononucleosis (linfocitos atípicos) y virosis. • <strong>Eosinofilia</strong> (> 500/mm³): atopia y parasitosis.",
+          "• <strong>Anemia microcítica:</strong> ferropenia (RDW alto) o talasemia (RDW normal, índice de Mentzer < 13). • <strong>Trombocitopenia aislada</strong> en un niño sano tras una virosis: púrpura trombocitopénica inmune. • <strong>Pancitopenia, blastos o citopenias asociadas a hepatoesplenomegalia o dolor óseo:</strong> sospecha de leucemia (GES), derivación urgente a hematología. El hemograma siempre se interpreta con la edad, la clínica y el frotis."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Inmunodeficiencias Primarias: Compartimento, Infecciones Típicas y Examen de Sospecha",
+      "headers": [
+        "Compartimento",
+        "Infecciones Típicas",
+        "Ejemplos",
+        "Examen Orientador"
+      ],
+      "rows": [
+        [
+          "Humoral (B)",
+          "Otitis, sinusitis y neumonías piógenas desde los 6 meses",
+          "Bruton, déficit de IgA, inmunodeficiencia común variable",
+          "Inmunoglobulinas IgG, IgA, IgM · linfocitos B CD19"
+        ],
+        [
+          "Celular (T) y combinada",
+          "Virales graves, hongos, Pneumocystis; diarrea crónica; falla de medro",
+          "SCID, DiGeorge, Wiskott-Aldrich",
+          "Recuento de linfocitos · Rx de tórax (timo) · subpoblaciones"
+        ],
+        [
+          "Fagocitos",
+          "Abscesos, adenitis, gérmenes catalasa positivos; caída tardía del cordón",
+          "Enfermedad granulomatosa crónica, adhesión leucocitaria",
+          "Hemograma · prueba de dihidrorrodamina o NBT"
+        ],
+        [
+          "Complemento",
+          "Neisseria recurrente, infecciones piógenas",
+          "Déficit de C5-C9, C3",
+          "CH50 y fracciones C3, C4"
+        ],
+        [
+          "Secundarias",
+          "Variables",
+          "VIH, desnutrición, nefrótico, asplenia, fármacos",
+          "Test de VIH · albúmina · hemograma"
+        ]
+      ]
+    },
+    "treatmentTable": {
+      "title": "Valores Normales del Hemograma Pediátrico según Edad",
+      "headers": [
+        "Edad",
+        "Hemoglobina (g/dL)",
+        "Leucocitos (/mm³)",
+        "Fórmula predominante"
+      ],
+      "rows": [
+        [
+          "Recién nacido",
+          "14 a 20",
+          "9.000 a 30.000",
+          "Neutrófilos"
+        ],
+        [
+          "2 a 3 meses",
+          "9,5 a 12 (nadir fisiológico)",
+          "6.000 a 17.500",
+          "Linfocitos"
+        ],
+        [
+          "6 meses a 2 años",
+          "≥ 11",
+          "6.000 a 17.500",
+          "Linfocitos (50-70%)"
+        ],
+        [
+          "2 a 5 años",
+          "≥ 11",
+          "5.500 a 15.500",
+          "Linfocitos hasta los 4-6 años"
+        ],
+        [
+          "6 a 12 años",
+          "≥ 11,5",
+          "4.500 a 13.500",
+          "Neutrófilos"
+        ],
+        [
+          "Adolescentes",
+          "≥ 12",
+          "4.500 a 13.000",
+          "Neutrófilos"
+        ]
+      ]
+    },
+    "vignette": "Lactante de 15 meses, previamente sano hasta los 6 meses, que desde entonces ha tenido candidiasis oral a repetición, cuatro otitis medias agudas y dos neumonías que requirieron hospitalización. Su peso y talla están en el percentil 25. Al examen no se observan amígdalas ni ganglios palpables. Un hermano varón por línea materna falleció de neumonía a los 3 años. El hemograma muestra leucocitos 9.800/mm³ y linfocitos T normales.",
+    "explicacion": "La edad de inicio (después de los 6 meses, cuando cae la IgG materna), las infecciones piógenas sinopulmonares y óticas recurrentes, la ausencia de tejido linfoide y el antecedente de un varón fallecido por línea materna sugieren una inmunodeficiencia humoral (agammaglobulinemia ligada al X de Bruton). La candidiasis sola no basta para sospechar un defecto celular. Se solicitan IgG, IgA e IgM y recuento de linfocitos B, y se deriva a inmunología; el tratamiento es inmunoglobulina de reemplazo.",
+    "keyPoints": [
+      "Un niño sano de sala cuna presenta 6 a 10 infecciones respiratorias virales al año; si son leves y el crecimiento es normal no se estudia.",
+      "Son signos de alarma de inmunodeficiencia: ≥ 2 neumonías o infecciones profundas, antibióticos EV, gérmenes inusuales, falla de medro, candidiasis persistente y antecedente familiar.",
+      "Las inmunodeficiencias humorales (Bruton) se manifiestan después de los 6 meses con infecciones sinopulmonares piógenas; el tratamiento es inmunoglobulina de reemplazo.",
+      "Las inmunodeficiencias secundarias (VIH, desnutrición, síndrome nefrótico) son más frecuentes que las primarias; el estudio inicial incluye hemograma, inmunoglobulinas y VIH.",
+      "La hepatomegalia con hipoglicemia de ayuno corto, acidosis láctica e hipertrigliceridemia sugiere glucogenosis tipo I; hay que distinguirla de la ptosis hepática por hiperinsuflación.",
+      "En el hemograma del lactante y preescolar predominan los linfocitos hasta los 4 a 6 años; el límite inferior de hemoglobina entre los 6 meses y los 5 años es 11 g/dL."
+    ],
+    "questions": [
+      {
+        "stem": "Niño que después de los 6 meses presenta candidiasis bucal, otitis media recurrente y 2 neumonías hospitalizadas. ¿Cuál es la inmunodeficiencia más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Inmunodeficiencia celular (DiGeorge)"
+          },
+          {
+            "id": "B",
+            "text": "Déficit de complemento"
+          },
+          {
+            "id": "C",
+            "text": "Inmunodeficiencia humoral (agammaglobulinemia)"
+          },
+          {
+            "id": "D",
+            "text": "Inmunodeficiencia combinada severa (SCID)"
+          },
+          {
+            "id": "E",
+            "text": "Enfermedad granulomatosa crónica"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "A) Incorrecta. DiGeorge se presenta desde el período neonatal con hipocalcemia y cardiopatía.\nB) Incorrecta. El déficit de complemento predispone a infecciones por Neisseria.\nC) Correcta. El inicio después de los 6 meses (cuando cae la IgG materna) con otitis y neumonías piógenas recurrentes es característico de un defecto humoral como la agammaglobulinemia de Bruton.\nD) Incorrecta. El SCID se manifiesta antes de los 6 meses con infecciones oportunistas graves y falla de medro.\nE) Incorrecta. La enfermedad granulomatosa crónica produce abscesos por gérmenes catalasa positivos.",
+        "recTag": "EUNACOM Enero 2023 · Pregunta 12"
+      },
+      {
+        "stem": "Un lactante de 15 meses fue sano hasta los 6 meses de edad, pero, después de ello, ha presentado candidiasis oral a repetición, cuatro otitis medias aguda y dos neumonías que han requerido hospitalización. ¿Cuál es la causa más probable de su inmunodepresión?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Inmunodeficiencia humoral"
+          },
+          {
+            "id": "B",
+            "text": "Inmunodeficiencia combinada severa"
+          },
+          {
+            "id": "C",
+            "text": "Alteración de la fagocitosis"
+          },
+          {
+            "id": "D",
+            "text": "Déficit de complemento"
+          },
+          {
+            "id": "E",
+            "text": "Inmunodeficiencia celular"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "A) Correcta. Las infecciones bacterianas sinopulmonares y óticas recurrentes que comienzan después de los 6 meses corresponden a un defecto de producción de anticuerpos.\nB) Incorrecta. La inmunodeficiencia combinada grave se presenta antes de los 6 meses y con infecciones oportunistas.\nC) Incorrecta. Los defectos de fagocitos dan abscesos y adenitis, no este patrón.\nD) Incorrecta. El déficit de complemento da infecciones por Neisseria.\nE) Incorrecta. Un defecto celular puro se acompaña de infecciones virales y oportunistas graves, y de falla de medro.",
+        "recTag": "EUNACOM Diciembre 2022 · Pregunta 136"
+      },
+      {
+        "stem": "Un niño de 2 años asiste a sala cuna desde los 12 meses. En el último año ha tenido 8 resfríos, 2 otitis medias agudas y 1 episodio de gastroenteritis, todos de evolución favorable y manejo ambulatorio. Su peso y talla progresan en percentil 50 y el examen físico es normal. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Solicitar inmunoglobulinas séricas"
+          },
+          {
+            "id": "B",
+            "text": "Solicitar test de VIH y subpoblaciones linfocitarias"
+          },
+          {
+            "id": "C",
+            "text": "Tranquilizar a los padres: es un patrón esperable para su edad"
+          },
+          {
+            "id": "D",
+            "text": "Indicar profilaxis antibiótica"
+          },
+          {
+            "id": "E",
+            "text": "Derivar a inmunología"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "A) Incorrecta. No hay signos de alarma que justifiquen estudiar inmunoglobulinas.\nB) Incorrecta. No hay sospecha de VIH ni de defecto celular.\nC) Correcta. Los niños que asisten a sala cuna pueden tener 6 a 10 infecciones respiratorias virales al año. Infecciones leves, de buena evolución, con crecimiento normal, no sugieren inmunodeficiencia. Las señales de alarma son infecciones graves, por gérmenes oportunistas, 2 o más neumonías al año, antibióticos endovenosos, falla de crecimiento o antecedentes familiares.\nD) Incorrecta. La profilaxis antibiótica no está indicada y favorece la resistencia.\nE) Incorrecta. No cumple criterios de derivación.",
+        "recTag": "Banco Oficial AEE · Perfil V3 2.01.1.014"
+      },
+      {
+        "stem": "Un lactante de 6 meses es traído por irritabilidad, sudoración y temblor cuando pasa más de 3 a 4 horas sin alimentarse. Al examen tiene facies de muñeca, abdomen prominente y hepatomegalia de 6 cm bajo el reborde costal, sin esplenomegalia. Exámenes en ayuno corto: glicemia 35 mg/dL, lactato elevado, triglicéridos y ácido úrico elevados. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Atresia de vías biliares"
+          },
+          {
+            "id": "B",
+            "text": "Enfermedad de Gaucher"
+          },
+          {
+            "id": "C",
+            "text": "Hepatitis viral aguda"
+          },
+          {
+            "id": "D",
+            "text": "Glucogenosis tipo I"
+          },
+          {
+            "id": "E",
+            "text": "Hiperinsulinismo congénito"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "A) Incorrecta. La atresia biliar cursa con ictericia, acolia y coluria.\nB) Incorrecta. Gaucher da esplenomegalia marcada, no hipoglicemia de ayuno corto con acidosis láctica.\nC) Incorrecta. La hepatitis aguda tiene transaminasas muy altas e ictericia.\nD) Correcta. Hepatomegalia aislada sin esplenomegalia, hipoglicemia de ayuno corto, acidosis láctica, hipertrigliceridemia e hiperuricemia es la glucogenosis tipo I (déficit de glucosa-6-fosfatasa): el hígado no puede liberar glucosa.\nE) Incorrecta. El hiperinsulinismo causa hipoglicemia sin hepatomegalia ni acidosis láctica.",
+        "recTag": "Banco Oficial AEE · Perfil V3 2.01.1.044"
+      },
+      {
+        "stem": "Un lactante de 14 meses, sano, tiene un hemograma solicitado en su control: hemoglobina 11,8 g/dL, leucocitos 10.500/mm3 con 30% de neutrófilos y 62% de linfocitos, y plaquetas 320.000/mm3. El frotis no muestra células anormales. ¿Cuál es la interpretación más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sugiere leucemia linfática; derivar a hematología"
+          },
+          {
+            "id": "B",
+            "text": "Hemograma normal para la edad"
+          },
+          {
+            "id": "C",
+            "text": "Neutropenia grave que requiere estudio"
+          },
+          {
+            "id": "D",
+            "text": "Infección viral que requiere tratamiento"
+          },
+          {
+            "id": "E",
+            "text": "Anemia que requiere suplementar hierro"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "A) Incorrecta. La linfocitosis relativa es fisiológica a esta edad y no hay blastos.\nB) Correcta. En lactantes y preescolares predominan normalmente los linfocitos en la fórmula leucocitaria; esta inversión fisiológica se mantiene hasta los 4 a 6 años. Con 30% de neutrófilos de 10.500 leucocitos, el recuento absoluto (3.150/mm³) es normal. La hemoglobina (> 11 g/dL) y las plaquetas son normales.\nC) Incorrecta. La neutropenia grave es < 500/mm³; aquí el recuento es normal.\nD) Incorrecta. No hay datos clínicos ni hematológicos de infección.\nE) Incorrecta. Con 11,8 g/dL no hay anemia a esta edad.",
+        "recTag": "Banco Oficial AEE · Perfil V3 2.01.4.015"
+      }
+    ]
+  },
+  {
+    "id": "ped-27",
+    "classId": "ped-27",
+    "tier": 2,
+    "blockNum": 3,
+    "blockName": "Infecciones, Exantemas & Digestivo Pediátrico",
+    "topicLabel": "18.27",
+    "title": "Uroginecología Pediátrica: Fimosis, Sinequias Vulvares y Enuresis",
+    "perfilCode": "2.01.1.089, 2.01.1.131, 2.01.1.059",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Completo",
+    "ges": "Sin garantía GES específica · La derivación por ITU recurrente o malformaciones sigue el flujo del tema 18.13",
+    "reconstrucciones": "EUNACOM Enero 2023 (Q#21) · EUNACOM Julio 2017 (Q#109) · EUNACOM Julio 2024 (Q#179)",
+    "frecuencia": "Alta rentabilidad · fimosis fisiológica que se controla, sinequias vulvares que se tratan con lubricación o corticoide tópico y nunca con separación manual, y enuresis primaria monosintomática con medidas conductuales",
+    "svg": null,
+    "algoTitle": "Algoritmo de Manejo de las Sinequias Vulvares y la Fimosis en el Niño",
+    "diagramRows": [
+      {
+        "t": "Niña o niño con alteración de genitales externos en el control de salud",
+        "s": "Examen físico de genitales, registro de síntomas urinarios, ITU previas y desarrollo puberal",
+        "type": "acc"
+      },
+      {
+        "t": "¿Asintomático y de aspecto benigno?",
+        "s": "Fimosis fisiológica del preescolar · sinequia parcial o completa sin repercusión",
+        "type": "dec"
+      },
+      {
+        "k": "split",
+        "q": "Sinequia vulvar",
+        "al": "Sinequia asintomática o parcial",
+        "ll": "Sin síntomas",
+        "left": {
+          "t": "Observar y lubricar",
+          "s": "Higiene suave y vaselina o emoliente · resuelve espontáneamente con la pubertad · NO separar a la fuerza",
+          "type": "acc"
+        },
+        "rl": "Completa o con síntomas",
+        "right": {
+          "t": "Corticoide tópico",
+          "s": "Betametasona 0,05% 2 veces al día por 2-4 semanas (o estrógenos tópicos) · luego emoliente · ITU recurrente o retención: derivar",
+          "type": "warn"
+        }
+      },
+      {
+        "t": "Fimosis: criterios para tratar",
+        "s": "Fisiológica: control · Sintomática, cicatricial o con balanopostitis/ITU recurrente: corticoide tópico 4-8 semanas · circuncisión si falla o liquen escleroso",
+        "type": "acc"
+      }
+    ],
+    "contexto": "Los genitales externos del niño y de la niña son motivo frecuente de consulta y de preocupación parental. La mayoría de las alteraciones del prepucio y de los labios menores son variantes fisiológicas que se resuelven solas y que no deben ser tratadas con maniobras agresivas. La enuresis, por su parte, es un trastorno frecuente y benigno que mejora con un manejo escalonado. Este tema enseña a distinguir lo fisiológico de lo que requiere tratamiento, a elegir el manejo médico adecuado y a derivar cuando corresponde.",
+    "contentSections": [
+      {
+        "subhead": "1. Fimosis en el Niño: Fisiológica vs Patológica",
+        "paragraphs": [
+          "Al nacer el prepucio no es retráctil por <strong>adherencias balanoprepuciales fisiológicas</strong>. Se vuelve retráctil en la mayoría con el tiempo: aproximadamente 50% al año, <strong>90% a los 3 años</strong> y 99% a los 16-17 años. Mientras el niño esté asintomático, el prepucio estrecho es una <strong>fimosis fisiológica</strong> que no se trata: se enseña un aseo suave con agua, <strong>sin retraer a la fuerza</strong> (produce fisuras y cicatrices que originan una fimosis secundaria). Las «perlas» de esmegma bajo el prepucio son benignas, y el abombamiento del prepucio al orinar es normal en lactantes.",
+          "<strong>Fimosis patológica:</strong> prepucio con anillo fibroso blanquecino y cicatricial, de tipo secundario a retracción forzada, balanopostitis recurrente o <strong>balanitis xerótica obliterante (liquen escleroso)</strong>, que se ve sobre todo después de los 5 años. Constituyen indicaciones de tratamiento: fimosis sintomática (dolor, chorro deformado con abombamiento), <strong>balanopostitis o infecciones urinarias recurrentes</strong> y fimosis cicatricial. <em>Tratamiento (Inicial/Derivar):</em> <strong>corticoide tópico</strong> (betametasona 0,05-0,1% dos veces al día por 4 a 8 semanas con retracción suave), con éxito en 70 a 90%; si falla, es cicatricial o hay liquen escleroso, <strong>circuncisión</strong> por urología pediátrica. No se opera si hay hipospadias o megameato (el prepucio puede ser necesario para la reparación).",
+          "La <strong>parafimosis</strong> (prepucio retraído atrapado detrás del glande, con edema y dolor) es una urgencia que se reduce manualmente tras analgesia y compresión del glande (ver tema 13.16 de Urología). El niño de 3 años con prepucio estrecho, asintomático y sin infecciones solo requiere educación y control."
+        ]
+      },
+      {
+        "subhead": "2. Sinequias Vulvares (Adherencia de los Labios Menores)",
+        "paragraphs": [
+          "Las <strong>sinequias vulvares</strong> son la fusión parcial o completa de los labios menores en la línea media, que forma una línea translúcida y avascular («rafe»). Afectan a 1 a 2% de las niñas prepuberales, con un pico entre los 3 meses y los 6 años, por el <strong>estado hipoestrogénico</strong> fisiológico y la inflamación local (dermatitis del pañal, irritantes). La mayoría es <strong>asintomática</strong> y es un hallazgo del control de salud; las complicaciones son goteo post-miccional, disuria, vulvovaginitis e <strong>ITU recurrente</strong>, y excepcionalmente retención urinaria.",
+          "<strong>Manejo (nivel Completo):</strong> • Sinequia <strong>parcial o asintomática:</strong> tranquilizar, higiene suave, evitar irritantes y <strong>lubricación diaria con vaselina o emoliente</strong>; resuelve espontáneamente, a más tardar con la pubertad por el aumento de estrógenos. • Sinequia <strong>completa que impide ver el meato</strong>, o sintomática: <strong>betametasona 0,05% tópica dos veces al día por 2 a 4 semanas</strong> (alternativa: crema de estrógenos conjugados por 2-6 semanas), luego emoliente para evitar recidivas (10-15%). Efectos adversos del estrógeno: irritación, hiperpigmentación y telarquia.",
+          "<strong>Contraindicadas:</strong> la <strong>separación manual forzada</strong> y la cirugía (dolor, trauma, recurrencia y daño psicológico); solo se justifica la separación bajo sedación en la retención urinaria aguda. Diagnósticos diferenciales: himen imperforado, agenesia vaginal y cicatriz por trauma o abuso sexual; una cicatriz con lesiones asociadas obliga a considerar maltrato. Se deriva si hay ITU recurrente, retención urinaria, falla del tratamiento tópico o sospecha de otra malformación."
+        ]
+      },
+      {
+        "subhead": "3. Enuresis: Clasificación, Evaluación y Tratamiento Escalonado",
+        "paragraphs": [
+          "La <strong>enuresis</strong> es la micción involuntaria durante el sueño en un niño de <strong>5 años o más</strong>, con al menos 2 episodios al mes durante 3 meses. Es <strong>primaria</strong> si nunca ha logrado un período continuo de 6 meses seco (80%), y <strong>secundaria</strong> si reaparece tras 6 meses de continencia (buscar ITU, diabetes mellitus, constipación, apnea del sueño, epilepsia o estrés psicosocial, incluido el abuso). Es <strong>monosintomática</strong> si solo hay síntomas nocturnos, y <strong>no monosintomática</strong> si hay urgencia, polaquiuria o incontinencia diurna (disfunción vesical, anomalías anatómicas, vejiga neurogénica). Afecta al 15% de los niños a los 5 años y al 5% a los 10; es más frecuente en varones y con antecedente familiar.",
+          "<strong>Fisiopatología:</strong> poliuria nocturna (menor secreción nocturna de vasopresina), vejiga hiperactiva con baja capacidad y sueño muy profundo que no despierta ante la necesidad de orinar. <strong>Evaluación:</strong> historia miccional y de ingesta de líquidos (diario por 1-2 semanas), hábitos intestinales (constipación), ronquidos, examen de genitales, abdomen, columna lumbosacra (fosita o mechón de pelos) y examen neurológico de extremidades inferiores. <strong>Orina completa</strong> y glicemia si hay poliuria; la ecografía renal y vesical se reserva para la forma no monosintomática, ITU o hallazgos anormales. En la enuresis monosintomática con examen y orina normales no se piden imágenes.",
+          "<strong>Tratamiento (nivel Completo):</strong> (1) <strong>Desculpabilizar</strong> al niño y a los padres, sin castigos; explicar que es frecuente y benigna. (2) <strong>Medidas conductuales:</strong> micción antes de dormir, restringir líquidos 1-2 horas antes de acostarse, tratar la constipación y reforzar positivamente los días secos con un calendario. (3) <strong>Alarma de enuresis</strong> en niños motivados de 7 años o más: es el tratamiento de mayor eficacia a largo plazo (~70%). (4) <strong>Desmopresina</strong> (0,2-0,4 mg VO en la noche o liofilizado oral) para situaciones puntuales o si falla la alarma; se limita la ingesta de agua para evitar hiponatremia. (5) Anticolinérgicos (oxibutinina) si hay vejiga hiperactiva. La imipramina está en desuso por su toxicidad. Se <strong>deriva</strong> a nefrología o urología la enuresis no monosintomática refractaria, la secundaria con causa orgánica o la que no responde a dos tratamientos."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Alteraciones Genitales Pediátricas Frecuentes: Conducta del Médico General",
+      "headers": [
+        "Entidad",
+        "Dato Clave",
+        "Manejo",
+        "Cuándo Derivar"
+      ],
+      "rows": [
+        [
+          "Fimosis fisiológica",
+          "Preescolar asintomático, prepucio sano y flexible",
+          "Aseo suave · NO retraer a la fuerza · control",
+          "Si persiste con síntomas o cicatriz"
+        ],
+        [
+          "Fimosis sintomática o cicatricial",
+          "Anillo fibroso, balanopostitis o ITU recurrente",
+          "Betametasona tópica 4-8 semanas",
+          "Falla del corticoide o liquen escleroso: circuncisión"
+        ],
+        [
+          "Sinequia vulvar parcial",
+          "Línea translúcida avascular, asintomática",
+          "Higiene + vaselina · observar",
+          "ITU recurrente o retención urinaria"
+        ],
+        [
+          "Sinequia completa o sintomática",
+          "Impide ver el meato o hay goteo / ITU",
+          "Betametasona 0,05% 2-4 semanas · luego emoliente",
+          "Falla del tratamiento tópico"
+        ],
+        [
+          "Enuresis primaria monosintomática",
+          "≥ 5 años, solo nocturna, examen y orina normales",
+          "Educación, medidas conductuales, alarma o desmopresina",
+          "No monosintomática refractaria o secundaria orgánica"
+        ]
+      ]
+    },
+    "vignette": "Niña de 3 años, traída a control de salud. La madre nota que «no se le ve la vagina». No refiere disuria, goteo post-miccional ni infecciones urinarias previas. Al examen, desarrollo puberal Tanner 1, labios menores fusionados en la línea media por una membrana delgada y translúcida que cubre parcialmente el introito; el meato urinario es visible y el flujo miccional es normal.",
+    "explicacion": "Es una sinequia vulvar parcial asintomática, hallazgo benigno por el estado hipoestrogénico de la edad. Se tranquiliza a la madre, se indica higiene suave y lubricación con vaselina, y se controla; se resuelve espontáneamente con la pubertad. No se debe separar manualmente ni operar. Si la sinequia fuera completa o sintomática, se usaría betametasona tópica 0,05% por 2 a 4 semanas.",
+    "keyPoints": [
+      "La fimosis fisiológica del preescolar asintomático no se trata: aseo suave, sin retracción forzada, y control (el 90% de los prepucios es retráctil a los 3 años).",
+      "Constituyen indicación de tratamiento la fimosis sintomática, cicatricial o asociada a balanopostitis o ITU recurrentes: corticoide tópico 4-8 semanas y circuncisión si falla.",
+      "Las sinequias vulvares asintomáticas o parciales se observan con higiene y lubricación; las completas o sintomáticas usan betametasona tópica 0,05% por 2-4 semanas.",
+      "Nunca se separan manualmente ni se operan las sinequias vulvares de rutina.",
+      "La enuresis primaria monosintomática (≥ 5 años) se maneja con educación, medidas conductuales, alarma de enuresis o desmopresina; no requiere imágenes si el examen y la orina son normales.",
+      "Se deriva la enuresis no monosintomática refractaria, la secundaria con causa orgánica o la que no responde a dos tratamientos."
+    ],
+    "questions": [
+      {
+        "stem": "Niño de 3 años con prepucio estrecho, con control de esfínteres hace 6 meses. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Circuncisión inmediata"
+          },
+          {
+            "id": "B",
+            "text": "Aplicar corticoide tópico"
+          },
+          {
+            "id": "C",
+            "text": "Control en un año"
+          },
+          {
+            "id": "D",
+            "text": "Dilatación manual bajo anestesia"
+          },
+          {
+            "id": "E",
+            "text": "Derivar a urología pediátrica urgente"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "A) Incorrecta. La circuncisión no está indicada en una fimosis fisiológica asintomática.\nB) Incorrecta. El corticoide tópico se reserva para la fimosis sintomática o persistente.\nC) Correcta. A los 3 años la mayoría de los prepucios aún no es completamente retráctil por adherencias balanoprepuciales fisiológicas; sin síntomas ni infecciones, se educa en el aseo suave y se controla.\nD) Incorrecta. La dilatación forzada produce fisuras y cicatrices que originan una fimosis patológica.\nE) Incorrecta. No es una urgencia ni requiere derivación inmediata.",
+        "recTag": "EUNACOM Enero 2023 · Pregunta 21"
+      },
+      {
+        "stem": "Una niña de 4 años presenta sinequia vulvar parcial, de los labios menores. No tiene desarrollo puberal, ni antecedentes de infecciones urinarias, ni genitales. El resto de su examen físico es normal. La conducta más adecuada es:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Realizar lavados con ácido acéticos"
+          },
+          {
+            "id": "B",
+            "text": "Aplicar corticoides tópicos"
+          },
+          {
+            "id": "C",
+            "text": "Remover las sinequias de manera quirúrgica"
+          },
+          {
+            "id": "D",
+            "text": "Indicar antibióticos"
+          },
+          {
+            "id": "E",
+            "text": "Realizar aseo y masajes en la zona"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "A) Incorrecta. Los lavados con ácido acético no tienen utilidad.\nB) Incorrecta. En la sinequia parcial asintomática basta la observación; el corticoide se reserva para la completa o sintomática.\nC) Incorrecta. La cirugía no está indicada.\nD) Incorrecta. No hay infección que tratar.\nE) Correcta. La sinequia parcial asintomática se maneja con higiene suave y lubricación (aseo y masajes) y se resuelve espontáneamente, a más tardar con la pubertad.",
+        "recTag": "EUNACOM Julio 2017 · Pregunta 109"
+      },
+      {
+        "stem": "Una niña de 2 años de edad es traída por su madre a control de niño sano. Al examen físico se objetivan genitales con labios menores completamente adheridos entre sí en la línea media, lo que impide la visualización de la vagina y el meato urinario. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Resección quirúrgica de las adherencias"
+          },
+          {
+            "id": "B",
+            "text": "Realizar avulsión digital, bajo anestesia local con lidocaína"
+          },
+          {
+            "id": "C",
+            "text": "Indicar aseo genital diario con vaselina líquida"
+          },
+          {
+            "id": "D",
+            "text": "Aplicar pantenol tópico en la zona perineal por 15 días"
+          },
+          {
+            "id": "E",
+            "text": "Aplicar betametasona tópica en la zona afectada por 10 días"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "A) Incorrecta. No se opera una sinequia vulvar.\nB) Incorrecta. La separación manual (avulsión digital) es dolorosa, traumática y recurre.\nC) Incorrecta. Con adherencia completa que impide ver el meato, la lubricación sola es insuficiente.\nD) Incorrecta. El pantenol no actúa sobre las adherencias.\nE) Correcta. En la sinequia completa que impide visualizar el meato se indica corticoide tópico (betametasona 0,05%) por 2 a 4 semanas, seguido de un emoliente de mantención.",
+        "recTag": "EUNACOM Julio 2024 · Pregunta 179"
+      },
+      {
+        "stem": "Un niño de 7 años moja la cama casi todas las noches desde siempre. Durante el día controla la micción sin urgencia ni incontinencia, no tiene constipación y el examen físico, incluido el examen de orina, es normal. Nunca ha recibido tratamiento. ¿Cuál es la conducta inicial más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ecografía renal y vesical y uretrocistografía"
+          },
+          {
+            "id": "B",
+            "text": "Educación y medidas conductuales (micción antes de dormir, reducir líquidos nocturnos, calendario)"
+          },
+          {
+            "id": "C",
+            "text": "Imipramina oral"
+          },
+          {
+            "id": "D",
+            "text": "Derivar a urología pediátrica"
+          },
+          {
+            "id": "E",
+            "text": "Indicar pañales hasta la adolescencia"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "A) Incorrecta. Con examen y orina normales no se requieren imágenes.\nB) Correcta. Es una enuresis primaria monosintomática: incontinencia nocturna en mayores de 5 años que nunca han logrado control, sin síntomas diurnos. Es frecuente y benigna; el manejo inicial es desculpabilizar, educar y aplicar medidas conductuales. Si fracasan, alarma de enuresis o desmopresina.\nC) Incorrecta. La imipramina está en desuso por su toxicidad.\nD) Incorrecta. No cumple criterios de derivación inicial.\nE) Incorrecta. Los pañales no tratan y perpetúan el problema.",
+        "recTag": "Banco Oficial AEE · Perfil V3 2.01.1.059"
       }
     ]
   }

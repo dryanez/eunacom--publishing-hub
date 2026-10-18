@@ -98,26 +98,16 @@ module.exports = {
           { t: 'III A: cobertura cutánea adecuada', d: 'Aunque la laceración sea extensa',
             say: 'El grado tres es una herida de más de diez centímetros o de alta energía, y tiene subtipos. El tres A conserva una cobertura cutánea adecuada, pese a una laceración extensa.' },
           { t: 'III B: periostio denudado, requiere colgajo', d: 'La que más se infecta',
-            say: 'El tres B tiene daño extenso de partes blandas, con el periostio denudado y el hueso expuesto, y requiere colgajos para cerrar. Es la que más se infecta.' },
+            photos: [
+              { src: 'biblioteca/18_traumatologia/trauma-02/01_fractura-expuesta__atls_p210.jpg', label: 'Herida amplia con hueso', at: 'Mira esta fractura expuesta', credit: 'ATLS 10.ª ed., Fig. 8-6' },
+              { src: 'biblioteca/18_traumatologia/trauma-02/21_expuesta-iiib__sherman_p631.jpg', label: 'Expuesta tipo IIIB', at: 'Y esta pierna', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 631' },
+            ],
+            say: 'El tres B tiene daño extenso de partes blandas, con el periostio denudado y el hueso expuesto, y requiere colgajos para cerrar. Es la que más se infecta. Mira esta fractura expuesta: el hueso sale por una herida amplia, con sangre y tejidos dañados. Y esta pierna es un tres B típico, con el músculo destruido y sin piel que cubra. Estas heridas no se exploran con los dedos ni se suturan: se cubren y se prepara el traslado.' },
           { t: 'III C: lesión arterial a reparar', d: 'Sin importar el tamaño de la herida',
             say: 'El tres C es el que tiene una lesión arterial que requiere reparación vascular, sin importar el tamaño de la herida. Y el tres D es la amputación traumática.' },
           { t: 'Arma de fuego: siempre III', d: 'Siempre grado III, sin importar la herida',
             say: 'Ojo con la trampa: una fractura por arma de fuego, en una catástrofe o con gran contaminación, como tierra de campo o aguas servidas, se clasifica automáticamente como grado tres, aunque la herida sea pequeña.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Una fractura expuesta',
-      images: [
-        { src: 'biblioteca/18_traumatologia/trauma-02/01_fractura-expuesta__atls_p210.jpg', label: 'Fractura expuesta: el hueso asoma por una herida amplia', credit: 'ATLS 10.ª ed., Fig. 8-6' },
-      ],
-      steps: [
-        { note: 'Hueso, herida amplia y contaminación',
-          say: 'Mira esta fractura expuesta: el hueso sale por una herida amplia, con sangre y tejidos dañados. Con una herida así de grande y de alta energía, el grado es tres. Fíjate en el estado de las partes blandas, que es el factor pronóstico más importante para el riesgo de infección. Y recuerda: esta herida no se explora con los dedos ni se sutura, se cubre y se prepara el traslado.' },
       ],
     },
 
@@ -144,12 +134,14 @@ module.exports = {
         { title: 'Médico general', tag: 'Antes de derivar', kind: 'key', items: [
           { t: 'No suturar la herida', d: 'Queda abierta para el aseo quirúrgico',
             say: 'Después del aseo, los antibióticos y la analgesia, se deriva a un centro de mayor complejidad. Y hay reglas para el traslado. No se sutura la herida: queda abierta para el aseo quirúrgico formal. Solo se admite un punto si es estrictamente necesario para una hemostasia activa.' },
-          { t: 'Cubrir con apósito estéril', d: 'Evitar más contaminación',
-            say: 'Se cubre con apósitos estériles.' },
+          { t: 'Apósito estéril empapado en suero', d: 'Sin reintroducir el hueso expuesto',
+            say: 'Antes del traslado controlas la hemorragia con compresión directa, retiras la contaminación gruesa e irrigas. Luego cubres con un apósito estéril empapado en suero, y nunca reintroduces el hueso expuesto.' },
           { t: 'Valva de yeso larga', d: 'Incluye articulación proximal y distal',
             say: 'Se inmoviliza con una valva de yeso larga, que incluya la articulación de arriba y la de abajo de la fractura.' },
           { t: 'Valva abierta, no yeso circular', d: 'Previene el síndrome compartimental',
             say: 'Y tiene que ser una valva abierta, no un yeso circular, para que los tejidos puedan expandirse y no se produzca un síndrome compartimental.' },
+          { t: 'Neurovascular antes y después', d: 'Registrado, más antibiótico y antitetánica',
+            say: 'Dejas registrado el estado neurovascular antes y después de inmovilizar. Y, ojo, no se hacen maniobras de reducción forzada: se alinea suavemente el eje, nada más.' },
         ] },
         { title: 'En el centro terciario', tag: 'Tratamiento quirúrgico', kind: 'pharma', items: [
           { t: 'Aseo quirúrgico y desbridamiento', d: 'Se retira el tejido necrótico',
@@ -158,6 +150,30 @@ module.exports = {
             say: 'Luego estabiliza el hueso con fijación externa, que es común en el grado tres, o con fijación interna.' },
           { t: 'III C: cirujano vascular', d: 'Intervención conjunta obligatoria',
             say: 'Y si es un grado tres C, es obligatoria la intervención conjunta con un cirujano vascular.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Traslado',
+      title: 'Estabilizar primero, trasladar después',
+      cards: [
+        { title: 'Antes de mover', tag: 'ABCDE completo', kind: 'key', items: [
+          { t: 'ABCDE, dos vías y oxígeno', d: 'Analgesia y control de hemorragias',
+            say: 'El traumatizado primero se estabiliza y después se traslada. Eso significa ABCDE completo, dos vías venosas de buen calibre, oxígeno, analgesia y control de las hemorragias.' },
+          { t: 'Collar rígido y movilización en bloque', d: 'Si el mecanismo es de riesgo',
+            say: 'Si el mecanismo es de riesgo, mantienes la columna cervical protegida con collar rígido, y el paciente se mueve en bloque, con una persona sosteniendo la cabeza. El casco del motociclista solo lo retira personal entrenado, entre dos personas.' },
+          { t: 'Abrigar al paciente', d: 'Evita la hipotermia',
+            say: 'Se abriga al paciente para evitar la hipotermia.' },
+        ] },
+        { title: 'Durante y al entregar', tag: 'Coordinación', kind: 'criteria', items: [
+          { t: 'Coordinar con el centro receptor', d: 'Mayor complejidad, vía SAMU',
+            say: 'Se coordina con el centro receptor, de mayor complejidad, por teléfono o por la regulación del SAMU. Acompaña personal capacitado en vía aérea y reanimación.' },
+          { t: 'Vigilar signos vitales y neurovascular', d: 'Durante todo el traslado',
+            say: 'Durante el traslado vigilas signos vitales y el estado neurovascular distal.' },
+          { t: 'Entregar hora, mecanismo y tratamientos', d: 'Y el tiempo de isquemia',
+            say: 'Y al entregar, informas la hora del trauma, el mecanismo, los hallazgos, los tratamientos dados, como analgesia, antibiótico y antitetánica, y el tiempo de isquemia si lo hubo.' },
         ] },
       ],
     },
@@ -257,6 +273,81 @@ module.exports = {
         options: 'Las opciones: suturar y poner yeso circular; cubrir con apósitos e inmovilizar con valva larga y abierta; dejar la herida al aire sin inmovilizar; suturar y poner valva corta; o yeso circular inmediato. Piénsalo.',
         answer: 'Es la B. Se cubre y no se sutura, y la valva es larga y abierta. Cada alternativa falla en una de esas tres cosas: suturar encierra la contaminación, la valva corta no inmoviliza las articulaciones vecinas, y el yeso circular puede producir un síndrome compartimental.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.5.001 · Inmovilizaciones de urgencia",
+      "stem": "Hombre de 26 años cae de una escalera sobre la mano extendida. Llega al SAPU con dolor y deformidad en dorso de tenedor en la muñeca derecha. Piel indemne, llene capilar normal y sensibilidad conservada en los dedos. Se decide inmovilizar antes de derivarlo para radiografía y manejo definitivo.",
+      "question": "¿Cuál es la inmovilización de urgencia más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yeso circular braquiopalmar cerrado"
+        },
+        {
+          "letter": "B",
+          "text": "Vendaje elástico compresivo apretado desde la mano al codo"
+        },
+        {
+          "letter": "C",
+          "text": "Solo cabestrillo, sin férula"
+        },
+        {
+          "letter": "D",
+          "text": "Valva o férula antebraquiopalmar acolchada, sin cerrar en forma circular, con cabestrillo y control neurovascular"
+        },
+        {
+          "letter": "E",
+          "text": "Reducción forzada sin analgesia y luego vendaje"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En urgencia se inmoviliza con férulas o valvas acolchadas no circulares que incluyan las articulaciones vecinas, dejando espacio para el edema, con elevación y registro neurovascular antes y después. El yeso circular cerrado y los vendajes compresivos en agudo arriesgan un síndrome compartimental.",
+      "say": {
+        "stem": "Un hombre de veintiséis años cae sobre la mano extendida y tiene la muñeca derecha deformada en dorso de tenedor, con buena circulación y sensibilidad. Hay que inmovilizarlo antes de derivarlo.",
+        "question": "¿Cuál es la mejor inmovilización de urgencia?",
+        "options": "Las opciones: yeso circular cerrado, vendaje elástico apretado, solo cabestrillo, valva acolchada no circular con cabestrillo o reducción forzada sin analgesia. Piénsalo.",
+        "answer": "Es la D. En urgencia se usa una valva acolchada que no cierre en forma circular, con cabestrillo y control de pulsos y sensibilidad. El yeso circular tienta porque parece más firme, pero con el edema de las primeras horas puede causar un síndrome compartimental."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.5.005 · Traslado del traumatizado",
+      "stem": "Un motociclista de 30 años choca a alta velocidad en una carretera rural. Al llegar el equipo de rescate, está confuso con Glasgow 13, se queja de dolor cervical y tiene deformidad del muslo derecho. Respira espontáneamente, presión arterial 110/70 mmHg y frecuencia cardíaca 105 por minuto. Aún tiene el casco puesto.",
+      "question": "¿Cuál es la conducta más adecuada para su traslado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sentarlo en el auto de un testigo para llegar más rápido al hospital"
+        },
+        {
+          "letter": "B",
+          "text": "Mantener la vía aérea, retirar el casco entre dos personas con estabilización manual de la columna, colocar collar cervical, tabla espinal y férula de la extremidad, y trasladar monitorizado al centro adecuado"
+        },
+        {
+          "letter": "C",
+          "text": "Retirar el casco tirando de él rápidamente para evaluar la cara"
+        },
+        {
+          "letter": "D",
+          "text": "Esperar en el lugar a tener radiografías antes de movilizarlo"
+        },
+        {
+          "letter": "E",
+          "text": "Trasladarlo en decúbito lateral sin inmovilización cervical para evitar aspiración"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Todo politraumatizado con mecanismo de alta energía, compromiso de conciencia o dolor cervical se traslada con restricción de movimiento espinal: vía aérea primero, retiro del casco entre dos operadores con estabilización manual, collar, tabla, férulas en las fracturas, oxígeno y monitorización, hacia el centro con capacidad resolutiva.",
+      "say": {
+        "stem": "Un motociclista de treinta años choca a alta velocidad. Está confuso, con dolor en el cuello y deformidad del muslo derecho, respira bien y aún tiene el casco puesto.",
+        "question": "¿Cómo debe trasladarse?",
+        "options": "Las opciones: en el auto de un testigo, con casco retirado entre dos personas, collar, tabla y férula, tirando del casco de una vez, esperar radiografías en el lugar, o de lado sin collar. Piénsalo.",
+        "answer": "Es la B. Con alta energía y dolor cervical se asegura la vía aérea, se retira el casco entre dos personas protegiendo la columna, y se traslada con collar, tabla y férula, monitorizado. Retirar el casco rápido de un tirón tienta para ver la cara, pero puede agravar una lesión medular."
+      }
     },
 
     {

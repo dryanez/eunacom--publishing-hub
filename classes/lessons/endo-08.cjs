@@ -414,6 +414,44 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 149",
+      "stem": "Mujer de 35 años con exoftalmo bilateral, palpitaciones, pérdida de peso y temblor fino en las manos. TSH suprimida, T4 libre elevada. Bocio difuso.",
+      "question": "¿Cuál es el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enfermedad de Graves-Basedow"
+        },
+        {
+          "letter": "B",
+          "text": "Tiroiditis de Hashimoto"
+        },
+        {
+          "letter": "C",
+          "text": "Bocio multinodular tóxico"
+        },
+        {
+          "letter": "D",
+          "text": "Adenoma tóxico de tiroides"
+        },
+        {
+          "letter": "E",
+          "text": "Tiroiditis subaguda de De Quervain"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Hipertiroidismo con bocio difuso y exoftalmo en una mujer joven: enfermedad de Graves-Basedow, autoinmune, mediada por anticuerpos contra el receptor de TSH. La orbitopatía es específica de Graves y no aparece en el bocio multinodular, el adenoma tóxico ni las tiroiditis.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Mujer de treinta y cinco años con exoftalmo bilateral, palpitaciones, baja de peso y temblor fino. TSH suprimida, T cuatro libre elevada y bocio difuso.",
+        "question": "¿Cuál es el diagnóstico?",
+        "options": "Las opciones: enfermedad de Graves, tiroiditis de Hashimoto, bocio multinodular tóxico, adenoma tóxico, o tiroiditis subaguda. Piénsalo.",
+        "answer": "Es la A, enfermedad de Graves. Hipertiroidismo con bocio difuso y exoftalmo es Graves, porque la orbitopatía es propia de esta enfermedad autoinmune. El bocio multinodular tóxico tienta por el bocio, pero es nodular, de personas mayores y sin exoftalmo."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',

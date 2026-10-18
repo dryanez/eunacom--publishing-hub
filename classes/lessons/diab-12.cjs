@@ -217,9 +217,34 @@ module.exports = {
         ] },
         { title: 'En cada control', tag: 'APS', kind: 'normal', items: [
           { t: 'Técnica y rotación de sitios', d: 'Evitar la lipohipertrofia',
-            say: 'Y en cada control, en atención primaria, se refuerza la técnica de inyección y la rotación de los sitios, como vimos en la clase anterior.' },
+            say: 'Y en cada control, en atención primaria, se refuerza la técnica de inyección y la rotación de los sitios, como vimos en la clase anterior. Mira este abdomen: ese abultamiento es una lipohipertrofia, por pinchar siempre en el mismo sitio.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-12/01_lipohipertrofia__openi.jpg', label: 'Lipohipertrofia abdominal', at: 'Mira este abdomen', credit: 'Open-i (NLM), CC BY' }] },
           { t: 'Reconocer la neuroglucopenia', d: 'El paciente debe saber detectarla',
             say: 'También se enseña a reconocer los signos de neuroglucopenia, porque todo ajuste de insulina trae el riesgo de hipoglicemia, que es justamente el tema de la clase que viene.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Automonitoreo',
+      title: 'Cuándo medir para titular la insulina',
+      cards: [
+        { title: 'Qué medición guía qué dosis', tag: 'Capilar', kind: 'key', items: [
+          { t: 'En ayunas: guía la basal', d: 'NPH nocturna o glargina',
+            say: 'Todo el ajuste de insulina descansa en la glicemia capilar, y cada medición guía una dosis distinta. La de ayunas guía la insulina basal, la NPH nocturna o la glargina.' },
+          { t: 'Antes de cada comida: guía la rápida', d: 'Insulina prandial',
+            say: 'La que se toma antes de cada comida guía la insulina rápida.' },
+          { t: 'A las 23:00 o a las 03:00', d: 'Si sospechas hipoglicemia nocturna',
+            say: 'Y a las veintitrés o a las tres de la madrugada, cuando hay sospecha de hipoglicemia nocturna, que es justo lo que separa a Somogyi del fenómeno del alba.' },
+        ] },
+        { title: 'Reglas del paciente', tag: 'Educación', kind: 'criteria', items: [
+          { t: 'Esperar 3 días tras cambiar la dosis', d: 'Antes de volver a ajustar',
+            say: 'Después de cambiar una dosis, se vigilan tres días antes de volver a ajustar. Cambiar todos los días es perseguir la glicemia.' },
+          { t: 'Anotar glicemias, dosis y comidas', d: 'En la libreta, misma técnica de diab-09',
+            say: 'El paciente anota glicemias, dosis y comidas en su libreta, con la misma técnica que vimos para la glicemia capilar.' },
+          { t: 'Consultar si < 70 o dos valores > 250', d: 'Lectura discordante: repetir',
+            say: 'Y consulta si registra cualquier valor bajo setenta, o dos valores seguidos sobre doscientos cincuenta. Si una lectura no concuerda con los síntomas, se repite o se confirma con glicemia venosa.' },
         ] },
       ],
     },

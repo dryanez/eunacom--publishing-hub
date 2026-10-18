@@ -58,7 +58,8 @@ module.exports = {
           { t: 'Fontanela posterior amplia', d: 'Y llanto ronco',
             say: 'Si este niño se te escapó del tamizaje, vas a verlo con signos tardíos: fontanela posterior amplia, y un llanto ronco.' },
           { t: 'Macroglosia y hernia umbilical', d: 'Con ictericia prolongada y constipación',
-            say: 'Además, macroglosia, hernia umbilical, ictericia que se prolonga, y constipación pertinaz. Acuérdate de este conjunto, porque en el examen suele venir así, junto.' },
+            say: 'Además, macroglosia, hernia umbilical, ictericia que se prolonga, y constipación pertinaz. Mira a este lactante que se escapó del tamizaje: la cara está abotargada, con la boca entreabierta y la lengua grande. Acuérdate de este conjunto, porque en el examen suele venir así, junto.',
+            photo: { src: 'biblioteca/15_pediatria/ped-21/04_hipotiroidismo-congenito-facies__nelson_p4372.jpg', label: 'Hipotiroidismo sin tratar', at: 'Mira a este lactante', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 4372' } },
         ] },
         { title: 'Confirmación y tratamiento', tag: 'No se espera', kind: 'pharma', items: [
           { t: 'TSH y T4 libre venosa', d: 'Ante cualquier tamizaje alterado',
@@ -102,11 +103,16 @@ module.exports = {
         { show: ['nac'], note: 'Se toma antes del alta',
           say: 'Ahora, la logística. La muestra se toma en la misma maternidad, antes de que la mamá y el niño se vayan a casa.' },
         { show: ['mom'], note: 'El momento justo',
-          say: 'El momento correcto es entre las cuarenta y las cuarenta y ocho horas de vida, y con el niño ya alimentándose, porque la fenilalanina necesita ese tiempo con leche para subir si hay enfermedad.' },
+          say: 'El momento correcto es entre las cuarenta y las cuarenta y ocho horas de vida, y con el niño ya alimentándose, porque la fenilalanina necesita ese tiempo con leche para subir si hay enfermedad. Mira este pie: se punciona solo el borde lateral del talón, en las zonas rayadas, y no el centro.',
+          photo: { src: 'biblioteca/15_pediatria/ped-21/02_sitio_puncion_talon__minsal-pku-2007.jpg', label: 'Zonas de punción del talón', at: 'Mira este pie', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, Foto 3' } },
         { show: ['tem'], note: 'Muy temprano, sin alimentación',
           say: 'Y la trampa clásica es tomarla apenas nace, antes de la primera mamada: ahí la fenilalanina todavía no ha subido, y te puede quedar un falso normal.' },
         { show: ['lab'], note: 'Se procesa en un laboratorio central',
-          say: 'Con el momento correcto, la muestra en papel filtro se envía y se miden ahí la TSH y la fenilalanina.' },
+          say: 'Con el momento correcto, la muestra en papel filtro se envía y se miden ahí la TSH y la fenilalanina. En esta tarjeta, una gota llena cada círculo. Y mira estas muestras: las que están rayadas, sobresaturadas o sin sangre se rechazan y hay que repetirlas.',
+          photos: [
+            { src: 'biblioteca/15_pediatria/ped-21/01_tarjeta_papel_filtro__minsal-pku-2007.jpg', label: 'Tarjeta de papel filtro', at: 'En esta tarjeta', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, Foto 2' },
+            { src: 'biblioteca/15_pediatria/ped-21/03_muestras_satisfactorias__minsal-pku-2007.jpg', label: 'Muestras que se rechazan', at: 'mira estas muestras', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, p. 26' },
+          ] },
       ],
     },
 
@@ -119,7 +125,7 @@ module.exports = {
           { t: 'Emisiones otoacústicas', d: 'A todo recién nacido',
             say: 'Junto con el papel filtro van otros dos tamizajes. El del oído se hace con emisiones otoacústicas, antes de que el niño salga de la maternidad.' },
           { t: 'Si falla, se repite al mes', d: 'Y si sigue alterado, potenciales evocados',
-            say: 'Si la primera prueba sale alterada, se repite al mes. Y si persiste, ahí recién van los potenciales evocados auditivos, para confirmar antes de los seis meses.' },
+            say: 'Si la primera prueba sale alterada, se repite al mes. Y si persiste, ahí recién van los potenciales evocados auditivos, para confirmar el diagnóstico antes de los tres meses.' },
         ] },
         { title: 'Tamizaje cardíaco', tag: 'Oximetría de pulso', kind: 'criteria', items: [
           { t: 'Mano derecha y un pie', d: 'A las 24 a 48 horas de vida',
@@ -131,36 +137,92 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Tamizaje neonatal',
-      images: [
-        { src: 'biblioteca/15_pediatria/ped-21/02_sitio_puncion_talon__minsal-pku-2007.jpg', label: 'Punción del talón', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, Foto 3' },
-        { src: 'biblioteca/15_pediatria/ped-21/01_tarjeta_papel_filtro__minsal-pku-2007.jpg', label: 'Tarjeta de papel filtro', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, Foto 2' },
-        { src: 'biblioteca/15_pediatria/ped-21/03_muestras_satisfactorias__minsal-pku-2007.jpg', label: 'Muestras que se rechazan', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, p. 26' },
+      type: 'points',
+      kicker: 'Cuando el tamizaje cardíaco sale alterado',
+      title: 'Cardiopatías congénitas frecuentes',
+      cards: [
+        { title: 'Acianóticas', tag: 'Cortocircuito izquierda-derecha', kind: 'key', items: [
+          { t: 'Comunicación interventricular', d: 'La más frecuente; soplo holosistólico',
+            say: 'Las cardiopatías congénitas afectan a ocho de cada mil nacidos vivos y están en el GES. Se dividen según haya o no cianosis. Entre las acianóticas, la más frecuente es la comunicación interventricular: soplo holosistólico en el borde esternal izquierdo bajo, e insuficiencia cardíaca en el lactante si es grande.' },
+          { t: 'CIA y ductus persistente', d: 'Desdoblamiento fijo; soplo continuo en maquinaria',
+            say: 'La comunicación interauricular da un soplo sistólico pulmonar con desdoblamiento fijo del segundo ruido. El ductus arterioso persistente, un soplo continuo en maquinaria con pulsos saltones. Y el canal auriculoventricular se asocia a síndrome de Down.' },
+          { t: 'Coartación aórtica', d: 'Pulsos femorales débiles; shock si se cierra el ductus',
+            say: 'Entre las obstructivas, la coartación aórtica: pulsos femorales débiles y presión menor en las piernas, con shock cuando el ductus se cierra en las primeras semanas.' },
+        ] },
+        { title: 'Cianóticas', tag: 'Las que se preguntan', kind: 'alert', items: [
+          { t: 'Tetralogía de Fallot', d: 'Crisis hipóxicas; corazón en bota',
+            say: 'Entre las cianóticas, la tetralogía de Fallot es la más frecuente después del período neonatal: soplo eyectivo pulmonar y crisis hipóxicas, que se tratan con posición genupectoral, oxígeno, morfina y propranolol. La radiografía muestra corazón en bota y flujo pulmonar disminuido.' },
+          { t: 'Transposición de grandes arterias', d: 'Cianosis intensa el primer día; huevo colgado',
+            say: 'La transposición de grandes arterias da cianosis intensa desde el primer día, con el corazón en huevo colgado, y requiere prostaglandina y septostomía.' },
+          { t: 'Corazón izquierdo hipoplásico', d: 'Colapso al cerrarse el ductus',
+            say: 'Y el corazón izquierdo hipoplásico colapsa al cerrarse el ductus. También están la atresia tricuspídea, el drenaje venoso pulmonar anómalo total y el truncus.' },
+        ] },
+        { title: 'Manejo inicial', tag: 'Ductus-dependiente', kind: 'pharma', items: [
+          { t: 'Prueba de hiperoxia', d: 'PaO₂ bajo 150 con FiO₂ 100%',
+            say: 'Si la cianosis no mejora con oxígeno, es decir, en la prueba de hiperoxia la presión arterial de oxígeno queda bajo ciento cincuenta con oxígeno al cien por ciento, o hay insuficiencia cardíaca o shock, sospechas una cardiopatía dependiente del ductus.' },
+          { t: 'Prostaglandina E1 y traslado', d: 'Evitar exceso de oxígeno; ecocardiograma',
+            say: 'Inicias prostaglandina E uno para mantener el ductus abierto, evitas el exceso de oxígeno y trasladas a un centro con cardiología pediátrica. Todo se confirma con ecocardiograma.' },
+        ] },
       ],
-      steps: [
-        { note: 'Bordes laterales',
-          say: 'Se punciona el borde lateral del talón.' },
-        { note: 'Una gota por círculo',
-          say: 'Una gota llena cada círculo de la tarjeta.' },
-        { note: 'Satisfactoria o no',
-          say: 'Y estas son las muestras que se rechazan.' },
+    },
+
+    {
+      type: 'points',
+      kicker: 'Por qué se pierde la audición',
+      title: 'Hipoacusia neonatal: causas y riesgo',
+      cards: [
+        { title: 'Causas', tag: '1 a 3 por 1.000 nacidos', kind: 'key', items: [
+          { t: 'Genética: la mitad', d: 'Conexina 26, autosómica recesiva',
+            say: 'La hipoacusia congénita afecta a uno a tres de cada mil recién nacidos, y a dos a cuatro por ciento de los que pasan por la unidad de cuidados intensivos neonatales. Cerca de la mitad es genética, casi siempre no sindrómica, autosómica recesiva, por mutaciones de la conexina veintiséis. También hay síndromes como Waardenburg, Usher, Pendred y Treacher Collins.' },
+          { t: 'CMV congénito', d: 'La principal causa no genética',
+            say: 'Entre las adquiridas, la principal es la infección congénita por citomegalovirus. Siguen rubéola, toxoplasmosis y sífilis, la prematurez, la hiperbilirrubinemia grave, la asfixia, la meningitis, la ventilación prolongada, las malformaciones craneofaciales y los ototóxicos: aminoglucósidos, diuréticos de asa y vancomicina.' },
+        ] },
+        { title: 'Seguimiento aunque el tamizaje sea normal', tag: 'Factores de riesgo', kind: 'alert', items: [
+          { t: 'UCIN más de 5 días', d: 'Exanguinotransfusión, meningitis, CMV',
+            say: 'Hay factores de riesgo que obligan a seguimiento aunque el tamizaje salga normal: antecedente familiar de sordera infantil, más de cinco días en cuidados intensivos, exanguinotransfusión, infección congénita, malformaciones de cabeza y cuello, síndromes y meningitis.' },
+        ] },
+        { title: 'La meta', tag: '1 – 3 – 6', kind: 'criteria', items: [
+          { t: 'Tamizaje al mes', d: 'Diagnóstico a los 3 meses',
+            say: 'La meta internacional es tamizaje al mes, diagnóstico a los tres meses e intervención a los seis, con audífonos o implante coclear.' },
+          { t: 'Intervención a los 6 meses', d: 'El lenguaje depende de la precocidad',
+            say: 'Porque el desarrollo del lenguaje depende de la intervención precoz.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Qué significa el resultado',
+      title: 'Emisiones otoacústicas y PEATC',
+      cards: [
+        { title: 'Emisiones otoacústicas', tag: 'Células ciliadas externas', kind: 'key', items: [
+          { t: 'Resultado «pasa» o «refiere»', d: 'Sonda en el conducto auditivo',
+            say: 'Las emisiones otoacústicas registran, con una sonda en el conducto auditivo, el sonido que generan las células ciliadas externas de la cóclea. El resultado es pasa o refiere.' },
+          { t: '«Pasa» no descarta todo', d: 'Hipoacusia tardía o neuropatía auditiva',
+            say: 'Un pasa indica función coclear normal, pero no descarta una hipoacusia tardía o progresiva, ni una neuropatía auditiva, donde las emisiones son normales pero el nervio está alterado.' },
+          { t: '«Refiere» no es diagnóstico', d: 'Vérnix, líquido, ruido o movimiento',
+            say: 'Y un refiere no es un diagnóstico: puede deberse a vérnix o líquido en el oído medio en las primeras veinticuatro a cuarenta y ocho horas, ruido ambiental o movimiento.' },
+        ] },
+        { title: 'Conducta', tag: 'Repetir y confirmar', kind: 'pharma', items: [
+          { t: 'Repetir EOA y luego PEATC', d: 'Potenciales evocados de tronco cerebral',
+            say: 'Si refiere, repites la prueba, y si persiste pides potenciales evocados auditivos de tronco cerebral, que exploran el nervio auditivo y el tronco y confirman el umbral. Hay hipoacusia si el umbral supera treinta a treinta y cinco decibeles.' },
+          { t: 'UCIN o riesgo: PEATC directo', d: 'Derivar antes de los 3 meses a ORL',
+            say: 'En los recién nacidos de cuidados intensivos o con factores de riesgo haces PEATC directamente. Todo niño con confirmación se deriva antes de los tres meses a otorrinolaringología y fonoaudiología.' },
+        ] },
       ],
     },
 
     {
       type: 'image',
-      kicker: 'Más imágenes',
-      title: 'El hipotiroidismo congénito que se escapó',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: "Antes del síntoma",
       images: [
-        { src: 'biblioteca/15_pediatria/ped-21/04_hipotiroidismo-congenito-facies__nelson_p4372.jpg', label: 'Hipotiroidismo congénito sin tratamiento', credit: 'Nelson 22.ª ed., p. 4372' },
+        { src: 'animaciones/ped-21/A1_tamizaje_neonatal.mp4', label: "Tamizaje neonatal", credit: "Animación propia" },
       ],
       steps: [
-        { note: 'Macroglosia',
-          say: 'Así se ve un hipotiroidismo congénito que se escapó del tamizaje: fíjate en la macroglosia. Junto con la hernia umbilical y la fontanela posterior amplia, en el examen suele venir todo junto.' },
+        { note: "Por qué se pesquisa a todos",
+          say: "Mira la línea de tiempo: el recién nacido se ve sano, y entre las cuarenta y las cuarenta y ocho horas, ya alimentado, se toma la muestra del talón. Si sale alterada, confirmas y partes la levotiroxina antes de los quince días. Mientras más tarde parte el tratamiento, peor el pronóstico intelectual. Y la trampa: una muestra antes de la primera mamada puede dar un falso normal." },
       ],
     },
 
@@ -181,6 +243,8 @@ module.exports = {
           say: 'Fenilcetonuria: exige alimentación láctea previa, se confirma con fenilalanina cuantitativa, y se trata con dieta sin fenilalanina de por vida.' },
         { cells: ['Hipoacusia', 'Emisiones otoacústicas al alta', 'Potenciales evocados si falla', 'Audífono o implante coclear'],
           say: 'Hipoacusia: emisiones otoacústicas al alta, y si falla, potenciales evocados para confirmar.' },
+        { cells: ['EOA «refiere»', 'Repetir; PEATC si persiste', 'Confirma el umbral (sobre 30–35 dB)', 'Derivar a ORL antes de los 3 meses'],
+          say: 'Emisiones otoacústicas que refieren: no es diagnóstico. Repites, y si persiste, potenciales evocados de tronco, que confirman el umbral, y derivas a otorrino antes de los tres meses. En cuidados intensivos o con riesgo, directo al PEATC.' },
         { cells: ['Cardiopatía crítica', 'Oximetría a las 24–48 h', 'Ecocardiografía urgente', 'Prostaglandina si depende del ductus'],
           say: 'Y cardiopatía crítica: oximetría entre las veinticuatro y las cuarenta y ocho horas, y si sale alterada, ecocardiografía urgente.' },
       ],
@@ -276,6 +340,119 @@ module.exports = {
         options: 'Las opciones: suspender la levotiroxina, subir la dosis, repetir la TSH sin cambios, disminuir la dosis, o pedir un cintigrama tiroideo.',
         answer: 'Es la D. Esto es después del diagnóstico, así que ya cambia la pregunta: aquí no se trata de confirmar, sino de ajustar. Una TSH tan baja con la T cuatro libre alta te dice que la dosis está muy alta para este lactante, así que la bajas y controlas. Suspenderla sería un error grave, porque el hipotiroidismo congénito se trata de por vida.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2019 · Pregunta 162",
+      "stem": "Una niña de 7 meses, con antecedente de síndrome de Down, ha tenido un mal incremento ponderal y aún no duplica su peso de nacimiento. Se cansa al alimentarse y ha presentado varias infecciones respiratorias. Al examen físico se palpa frémito en el precordio izquierdo y se ausculta un soplo holosistólico en el mesocardio, con segundo ruido desdoblado.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coartación aórtica"
+        },
+        {
+          "letter": "B",
+          "text": "Comunicación interauricular"
+        },
+        {
+          "letter": "C",
+          "text": "Canal auriculoventricular completo"
+        },
+        {
+          "letter": "D",
+          "text": "Comunicación interventricular"
+        },
+        {
+          "letter": "E",
+          "text": "Ductus arterioso persistente"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El síndrome de Down se asocia típicamente al canal auriculoventricular. La clínica mezcla un componente interventricular (soplo holosistólico con frémito) y uno interauricular (segundo ruido desdoblado), con insuficiencia cardíaca por hiperflujo: mal incremento, cansancio al comer e infecciones respiratorias.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Niña de siete meses con síndrome de Down, que sube mal de peso, se cansa al comer y ha tenido varias infecciones respiratorias. Tiene frémito precordial, un soplo holosistólico en el mesocardio y segundo ruido desdoblado.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: coartación aórtica, comunicación interauricular, canal auriculoventricular completo, comunicación interventricular, o ductus persistente. Piénsalo.",
+        "answer": "Es la C. El síndrome de Down te orienta al canal auriculoventricular, y la clínica suma un soplo de tipo interventricular con un segundo ruido desdoblado de tipo interauricular. La comunicación interventricular tienta por el soplo holosistólico, pero no explica el desdoblamiento ni el contexto del Down."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.3.001 · Detección de hipoacusia y sordera en niños",
+      "stem": "Recién nacido de término sano, con tamizaje auditivo universal con emisiones otoacústicas que resultó \"refiere\" en el oído derecho en 2 ocasiones antes del alta.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repetir las emisiones a los 2 años"
+        },
+        {
+          "letter": "B",
+          "text": "Tranquilizar, porque la hipoacusia unilateral no tiene importancia"
+        },
+        {
+          "letter": "C",
+          "text": "Confirmar con potenciales evocados auditivos de tronco cerebral antes de los 3 meses, para iniciar intervención antes de los 6 meses"
+        },
+        {
+          "letter": "D",
+          "text": "Esperar a que el niño comience a hablar"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar TAC de oídos inmediatamente"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El tamizaje auditivo neonatal universal (GES hipoacusia del prematuro y programa nacional) busca la meta 1-3-6: tamizaje antes del mes, confirmación diagnóstica con potenciales evocados auditivos antes de los 3 meses e intervención (audífonos, implante) antes de los 6 meses, para preservar el desarrollo del lenguaje. Un tamizaje alterado nunca debe esperar.",
+      "say": {
+        "stem": "Recién nacido sano con emisiones otoacústicas alteradas en el oído derecho en dos intentos antes del alta.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: repetir a los dos años, tranquilizar por ser unilateral, confirmar con potenciales evocados antes de los tres meses, esperar que hable o TAC de oídos. Piénsalo.",
+        "answer": "Es la C. Un tamizaje alterado se confirma con potenciales evocados antes de los tres meses para intervenir antes de los seis. Tranquilizar por ser unilateral tienta, pero incluso la hipoacusia unilateral afecta el lenguaje y el rendimiento escolar."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.4.007 · Emisiones otoacústicas",
+      "stem": "Respecto al uso de emisiones otoacústicas en el tamizaje auditivo neonatal, se discute en una reunión clínica de neonatología.",
+      "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Evalúan toda la vía auditiva hasta la corteza"
+        },
+        {
+          "letter": "B",
+          "text": "Un resultado normal descarta toda hipoacusia, incluida la retrococlear"
+        },
+        {
+          "letter": "C",
+          "text": "Requieren sedación profunda"
+        },
+        {
+          "letter": "D",
+          "text": "Evalúan la función de las células ciliadas externas de la cóclea; son rápidas e indoloras, pero no detectan la neuropatía auditiva, por lo que en recién nacidos de UCI se prefieren los potenciales evocados"
+        },
+        {
+          "letter": "E",
+          "text": "No se ven afectadas por líquido en el oído medio"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Las emisiones otoacústicas registran sonidos generados por las células ciliadas externas de la cóclea. Son un tamizaje rápido, no invasivo y sin sedación, pero se alteran con vérnix o líquido en el oído medio y no evalúan la vía retrococlear (neuropatía auditiva). En recién nacidos de UCI se usan potenciales evocados automatizados.",
+      "say": {
+        "stem": "En neonatología se discute el uso de las emisiones otoacústicas para el tamizaje auditivo.",
+        "question": "¿Cuál afirmación es correcta?",
+        "options": "Las opciones: evalúan toda la vía hasta la corteza, un resultado normal descarta toda hipoacusia, requieren sedación, evalúan las células ciliadas externas pero no detectan neuropatía auditiva o no se afectan por líquido en el oído medio. Piénsalo.",
+        "answer": "Es la D. Las emisiones evalúan las células ciliadas externas de la cóclea y no detectan la neuropatía auditiva, por eso en recién nacidos de UCI se prefieren los potenciales evocados. Creer que un resultado normal descarta toda hipoacusia es el error tentador."
+      }
     },
 
     {

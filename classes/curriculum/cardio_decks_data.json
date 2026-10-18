@@ -2132,14 +2132,14 @@
     "id": "cardio-06",
     "title": "Crisis Hipertensiva: Urgencia vs Emergencia",
     "perfilCodes": [
-      "1.01.2.006"
+      "1.09.2.002"
     ],
     "durationEstimate": "24 min",
     "slides": [
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "kicker": "CÓD: 1.01.2.006",
+        "kicker": "CÓD: 1.09.2.002",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -2183,7 +2183,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.01.2.006",
+              "1.09.2.002",
               "Paro cardiorespiratorio",
               "Específico",
               "Completo",
@@ -3944,14 +3944,14 @@
     "title": "Miocardiopatías & Enfermedad de Chagas Cardíaco",
     "perfilCodes": [
       "1.01.1.020",
-      "1.04.1.002"
+      "1.04.4.016"
     ],
     "durationEstimate": "26 min",
     "slides": [
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "kicker": "CÓD: 1.01.1.020 + 1.04.1.002",
+        "kicker": "CÓD: 1.01.1.020 + 1.04.4.016",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4006,7 +4006,7 @@
           {
             "highlight": false,
             "cells": [
-              "1.04.1.002",
+              "1.04.4.016",
               "Enfermedad de Chagas (Infecciosas)",
               "Específico",
               "Completo",

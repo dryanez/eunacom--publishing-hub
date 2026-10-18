@@ -52,13 +52,15 @@ module.exports = {
       cards: [
         { title: 'Lactante, menor de 2 años', tag: 'Mejillas y convexidades', kind: 'key', items: [
           { t: 'Mejillas, respetando el triángulo perioral', d: 'Eccema agudo exudativo, con costras',
-            say: 'En el lactante menor de dos años, la topografía es la primera pregunta clásica del examen. Las lesiones son eccematosas agudas y exudativas, con costras, en las mejillas, respetando el triángulo nasogeniano perioral, y en el cuero cabelludo y las caras extensoras.' },
+            say: 'En el lactante menor de dos años, la topografía es la primera pregunta clásica del examen. Las lesiones son eccematosas agudas y exudativas, con costras, en las mejillas, respetando el triángulo nasogeniano perioral, y en el cuero cabelludo y las caras extensoras. Mira a este lactante: mejillas rojas y secas, con la zona alrededor de la boca más respetada.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-06/01_atopica_lactante__fitzpatrick_p189.jpg', label: 'Lactante', at: 'Mira a este lactante', credit: 'Fitzpatrick 7.ª ed., p. 189' } },
           { t: 'Respeta estrictamente el área del pañal', d: 'El microclima húmedo previene la sequedad',
             say: 'Y el signo clave de examen es que respeta estrictamente la zona cubierta por el pañal, porque ese microclima húmedo previene la xerosis atópica. Si ves compromiso del pañal, piensa en otra cosa.' },
         ] },
         { title: 'Infantil y adulto, mayor de 2 años', tag: 'Pliegues flexurales', kind: 'criteria', items: [
           { t: 'Fosas antecubitales y poplíteas', d: 'De los dos a los doce años, con liquenificación leve',
-            say: 'Entre los dos y los doce años, las lesiones se trasladan a los pliegues flexurales: la fosa antecubital, la fosa poplítea, las muñecas, los tobillos y el cuello, con lesiones subagudas que empiezan a liquenificarse.' },
+            say: 'Entre los dos y los doce años, las lesiones se trasladan a los pliegues flexurales: la fosa antecubital, la fosa poplítea, las muñecas, los tobillos y el cuello, con lesiones subagudas que empiezan a liquenificarse. En este brazo ves el eccema típico: placas rojas, descamación y marcas de rascado, porque sin prurito intenso no hay dermatitis atópica.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-06/01_dermatitis-atopica__amir-derma_p91.jpg', label: 'Eccema con rascado', at: 'En este brazo', credit: 'Manual AMIR Dermatología, p. 91' } },
           { t: 'Liquenificación marcada en el adulto', d: 'Piel engrosada por rascado crónico',
             say: 'En el adulto, después de los doce años, se mantienen los pliegues de flexión, más el cuello, la cara y el dorso de las manos, con una liquenificación marcada por el rascado crónico.' },
         ] },
@@ -92,48 +94,16 @@ module.exports = {
       cards: [
         { title: 'Impetiginización bacteriana', tag: 'Staphylococcus aureus', kind: 'normal', items: [
           { t: 'Costras melicéricas amarillentas', d: 'Antibiótico tópico u oral',
-            say: 'La sobreinfección bacteriana por Staphylococcus aureus da costras melicéricas, amarillentas y de aspecto meloso, y se trata con antibiótico tópico como la mupirocina, o antibiótico oral como el cefadroxilo.' },
+            say: 'La sobreinfección bacteriana por Staphylococcus aureus da costras melicéricas, amarillentas y de aspecto meloso, y se trata con antibiótico tópico como la mupirocina, o antibiótico oral como el cefadroxilo. Mira esta boca y nariz: las costras amarillentas, como miel, son la señal de una sobreinfección bacteriana, la impetiginización.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-06/03_impetiginizacion-costras-melicericas__amir-derma_p55.jpg', label: 'Costras melicéricas', at: 'Mira esta boca', credit: 'Manual AMIR Dermatología, p. 55' } },
         ] },
         { title: 'Eccema herpético de Kaposi', tag: 'Emergencia dermatológica', kind: 'alert', items: [
           { t: 'Vesículas umbilicadas y fiebre', d: 'Erupción variceliforme diseminada por virus herpes simple',
-            say: 'Y aquí la urgencia real de la clase: el eccema herpético de Kaposi es una infección diseminada por el virus herpes simple sobre la piel atópica dañada. Se ve un brote agudo y masivo de vesículas umbilicadas, dolorosas, con fiebre alta.' },
+            say: 'Y aquí la urgencia real de la clase: el eccema herpético de Kaposi es una infección diseminada por el virus herpes simple sobre la piel atópica dañada. Se ve un brote agudo y masivo de vesículas umbilicadas, dolorosas, con fiebre alta. Mira esta cara: decenas de vesículas con un hoyito en el centro y erosiones en sacabocado, sobre una piel que ya era atópica.',
+            photo: { src: '_verificadas/81_eccema_herpetico__nelsontextbo_p1818_1.jpg', label: 'Eccema herpético de Kaposi', at: 'Mira esta cara', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 1818' } },
           { t: 'Aciclovir endovenoso urgente', d: 'Hospitalizar; riesgo de diseminación visceral',
             say: 'Es una verdadera emergencia médica que exige hospitalización e inicio inmediato de aciclovir endovenoso, por el riesgo de diseminación visceral y de queratitis herpética.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Dermatitis atópica según la edad',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-06/01_atopica_lactante__fitzpatrick_p189.jpg', label: 'Lactante', credit: 'Fitzpatrick 7.ª ed., p. 189 (figura completa, ~480 px)' },
-        { src: 'biblioteca/11_dermatologia/derma-06/02_atopica_escolar__fitzpatrick_p189.jpg', label: 'Escolar', credit: 'Fitzpatrick 7.ª ed., p. 189 (figura completa, ~480 px)' },
-      ],
-      steps: [
-        { note: 'Mejillas y superficies extensoras',
-          say: 'En el lactante, la dermatitis atópica afecta las mejillas y las superficies extensoras.' },
-        { note: 'Pliegues',
-          say: 'En el escolar se va a los pliegues: codos y rodillas, con liquenificación.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Eccema y sobreinfección',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-06/01_dermatitis-atopica__amir-derma_p91.jpg', label: 'Dermatitis atópica', credit: 'Manual AMIR Dermatología, p. 91' },
-        { src: 'biblioteca/11_dermatologia/derma-06/03_impetiginizacion-costras-melicericas__amir-derma_p55.jpg', label: 'Costras melicéricas (impétigo)', credit: 'Manual AMIR Dermatología, p. 55' },
-      ],
-      steps: [
-        { note: 'Eccema con rascado',
-          say: 'Eccema con placas rojas, descamación y marcas de rascado. Recuerda: sin prurito intenso, no hay dermatitis atópica.' },
-        { note: 'Costras melicéricas',
-          say: 'Y estas costras amarillentas, como miel, son costras melicéricas: la señal de una sobreinfección bacteriana, la impetiginización.' },
       ],
     },
 
@@ -201,6 +171,44 @@ module.exports = {
         options: 'Las opciones: dermatitis alérgica, urticaria, dermatitis atópica, escabiosis, o dermatitis seborreica. Piénsalo.',
         answer: 'Es la C, dermatitis atópica. Fíjate en el patrón exacto que acabamos de ver: pápulas pruriginosas en las fosas antecubitales y poplíteas, más compromiso facial, con un curso crónico recidivante de exacerbaciones y remisiones. Eso es la fase infantil de la dermatitis atópica. La urticaria daría habones evanescentes que duran menos de veinticuatro horas, no pápulas crónicas fijas en pliegues.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 79",
+      "stem": "Una niña de 4 años presenta lesiones cutáneas recurrentes de 2 años de evolución, caracterizadas por pápulas pruriginosas que aparecen en los antebrazos y fosas cubitales, así como en las piernas, fosas poplíteas, cara y cuello. Su madre comenta que tiene períodos de exacerbación y otros en que las lesiones son mucho menos intensas.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dermatitis alérgica de contacto"
+        },
+        {
+          "letter": "B",
+          "text": "Urticaria"
+        },
+        {
+          "letter": "C",
+          "text": "Dermatitis atópica"
+        },
+        {
+          "letter": "D",
+          "text": "Escabiosis"
+        },
+        {
+          "letter": "E",
+          "text": "Dermatitis seborreica"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Prurito intenso con lesiones eccematosas crónicas y recidivantes en pliegues de flexión (fosas cubitales y poplíteas), cara y cuello en una preescolar es dermatitis atópica. Se maneja con hidratación diaria, evitar irritantes y corticoides tópicos en las crisis. La escabiosis compromete pliegues interdigitales y es contagiosa; la urticaria tiene lesiones evanescentes.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Una niña de cuatro años tiene hace dos años pápulas muy pruriginosas en pliegues de codos y rodillas, cara y cuello, con períodos de mejoría y empeoramiento.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: dermatitis de contacto, urticaria, dermatitis atópica, escabiosis o dermatitis seborreica. Piénsalo.",
+        "answer": "Es la C. Lesiones pruriginosas crónicas y recidivantes en los pliegues de flexión son una dermatitis atópica. La escabiosis tienta por el prurito, pero afecta espacios interdigitales y convivientes, y no dura dos años con remisiones."
+      }
     },
 
     {

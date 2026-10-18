@@ -14,6 +14,35 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Historia natural y prevención',
+      title: 'Dónde actúa cada nivel de prevención',
+      nodes: [
+        { id: 'pre', col: 0, row: 0, k: 'start', t: 'Período prepatogénico', s: 'Agente, huésped y ambiente' },
+        { id: 'sub', col: 1, row: 1, k: 'mech', t: 'Fase subclínica', s: 'La enfermedad existe, sin síntomas' },
+        { id: 'cli', col: 2, row: 0, k: 'effect', t: 'Fase clínica', s: 'Aparecen los síntomas' },
+        { id: 'des', col: 3, row: 1, k: 'risk', t: 'Desenlace', s: 'Curación, cronicidad, discapacidad, muerte' },
+        { id: 'p1', col: 0, row: 3, k: 'good', t: 'Prevención primaria', s: 'Promoción y protección específica' },
+        { id: 'p2', col: 1, row: 4, k: 'good', t: 'Prevención secundaria', s: 'Tamizaje y tratamiento precoz' },
+        { id: 'p3', col: 3, row: 3, k: 'good', t: 'Prevención terciaria', s: 'Limitar el daño y rehabilitar' },
+      ],
+      edges: [
+        { from: 'pre', to: 'sub' }, { from: 'sub', to: 'cli' }, { from: 'cli', to: 'des' },
+        { from: 'p1', to: 'pre' }, { from: 'p2', to: 'sub' }, { from: 'p3', to: 'des' },
+      ],
+      steps: [
+        { show: ['pre', 'sub', 'cli', 'des'], note: 'Evolución sin intervención',
+          say: 'Antes de tamizar, hay que entender la historia natural de la enfermedad, que es su evolución sin intervención. Parte con el período prepatogénico, donde interactúan el agente, el huésped y el ambiente. Sigue el período patogénico: primero una fase subclínica, en que la enfermedad existe pero no da síntomas; luego la fase clínica; y al final el desenlace, que puede ser curación, cronicidad, discapacidad o muerte.' },
+        { show: ['p1'], note: 'Antes de que aparezca',
+          say: 'La prevención primaria evita que la enfermedad aparezca. Incluye la promoción de la salud y la protección específica: vacunas, saneamiento, no fumar. Por ejemplo, la vacuna contra el virus del papiloma humano.' },
+        { show: ['p2'], note: 'En la fase subclínica: el campo del tamizaje',
+          say: 'La prevención secundaria detecta y trata precozmente, en la fase subclínica. Es el campo del tamizaje: el Papanicolaou, la mamografía o el tamizaje del hipotiroidismo neonatal. Solo sirve si esa fase es lo bastante larga y detectable, y si tratar antes cambia el desenlace.' },
+        { show: ['p3'], note: 'Con la enfermedad ya establecida',
+          say: 'La prevención terciaria limita el daño y rehabilita cuando la enfermedad ya está establecida: el control metabólico del diabético, la rehabilitación tras un infarto o un accidente vascular. Y a esto se suma la prevención cuaternaria: evitar el sobrediagnóstico y el exceso de intervenciones. Un último detalle: el período de incubación va de la exposición a los síntomas, y el de latencia, de la exposición a la capacidad de transmitir o de detectar.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Qué es tamizar',
       title: 'Tamizaje: clasificar, no diagnosticar',
@@ -98,6 +127,34 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Evaluación y control',
+      title: 'Evaluar un programa: momento, componente y criterio',
+      cards: [
+        { title: 'Evaluación y control', tag: 'Cierra el ciclo', kind: 'key', items: [
+          { t: 'Compara lo logrado con lo planificado', d: 'Mantener, corregir o suspender',
+            say: 'Para cerrar, cómo se evalúa un programa. La evaluación compara lo logrado con lo planificado, para decidir si se mantiene, se corrige o se suspende. El control es el seguimiento continuo, con indicadores y retroalimentación, que cierra el ciclo de planificar, ejecutar, evaluar y corregir.' },
+          { t: 'Ex ante, concurrente, ex post', d: 'Antes, durante y al final',
+            say: 'Según el momento, la evaluación puede ser ex ante, antes de iniciar; concurrente o de proceso, durante la ejecución; o ex post, al final.' },
+          { t: 'Estructura, proceso, resultado', d: 'Donabedian',
+            say: 'Según el componente, y esto es de Donabedian, se evalúa la estructura, o sea los recursos, el proceso, cómo se hace, y el resultado, el efecto en salud.' },
+        ] },
+        { title: 'Criterios', tag: 'Se confunden', kind: 'alert', items: [
+          { t: 'Eficacia versus efectividad', d: 'Condiciones ideales contra condiciones reales',
+            say: 'Los criterios que se confunden. La eficacia es el efecto en condiciones ideales, como un ensayo clínico. La efectividad es el efecto en condiciones reales.' },
+          { t: 'Cobertura, eficiencia, impacto, equidad', d: 'A quiénes, a qué costo, cuánto cambia',
+            say: 'La cobertura es a quiénes se llega. La eficiencia es el resultado en relación con el costo. El impacto es el cambio en el nivel de salud de la población. Y la equidad, si se llega a quienes más lo necesitan.' },
+        ] },
+        { title: 'Evaluación económica', tag: 'Cuatro tipos', kind: 'criteria', items: [
+          { t: 'Costo-efectividad y costo-utilidad', d: 'Por caso evitado; por AVAC',
+            say: 'En la evaluación económica, el costo-efectividad expresa el costo por unidad de efecto, por ejemplo por caso evitado. El costo-utilidad lo expresa por año de vida ajustado por calidad, el AVAC.' },
+          { t: 'Costo-beneficio y costo-minimización', d: 'Todo en dinero; resultados iguales',
+            say: 'El costo-beneficio expresa todo en dinero. Y el costo-minimización se usa cuando los resultados son iguales, y gana la alternativa más barata.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo en un solo árbol, tal como lo vas a razonar en el examen.',
     },
@@ -116,6 +173,10 @@ module.exports = {
           say: 'Hipotiroidismo congénito y fenilcetonuria: a todo recién nacido vivo, con una gota de sangre en papel filtro, de forma universal al nacer.' },
         { cells: ['Displasia de caderas', 'Lactantes a los 3 meses', 'Radiografía de pelvis', 'A los 3 meses, universal'],
           say: 'Y displasia del desarrollo de caderas: a los lactantes, con radiografía de pelvis a los tres meses. Fíjate que todos cumplen los mismos criterios: enfermedad prevalente, fase preclínica detectable, y tratamiento que funciona mejor si se aplica temprano.' },
+        { cells: ['Vacuna contra el VPH', 'Prevención primaria', 'Llamarla secundaria', 'Evita que aparezca'],
+          say: 'La vacuna contra el virus del papiloma humano es prevención primaria. El Papanicolaou que detecta lesiones precoces es secundaria. No las confundas.' },
+        { cells: ['Rehabilitación tras un infarto', 'Prevención terciaria', 'Llamarla secundaria', 'Limita el daño'],
+          say: 'La rehabilitación tras un infarto o un accidente vascular es prevención terciaria: limita el daño de una enfermedad ya establecida.' },
       ],
     },
 
@@ -209,6 +270,81 @@ module.exports = {
         options: 'Las opciones: alfafetoproteína en sangre, consultorios especializados para dolor testicular, campañas de autoexamen testicular, ecografías testiculares como prueba de detección, o gonadotropina coriónica humana en sangre.',
         answer: 'Es la C, las campañas de autoexamen testicular. Recuerda los criterios de Wilson y Jungner: el test de tamizaje tiene que ser simple, no invasivo y aceptable para toda la población en riesgo. La ecografía y los marcadores tumorales sirven para confirmar un hallazgo sospechoso, pero no se piden de rutina a toda la población asintomática, porque no cumplen esos criterios de un test de tamizaje.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.003 · Historia natural de la enfermedad",
+      "stem": "Mediante el Papanicolau de tamizaje se detecta una lesión intraepitelial de alto grado en una mujer de 32 años completamente asintomática, que luego es tratada con conización.",
+      "question": "Según el modelo de Leavell y Clark, ¿en qué período de la historia natural de la enfermedad se intervino?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Período prepatogénico"
+        },
+        {
+          "letter": "B",
+          "text": "Período de secuelas o resultado final"
+        },
+        {
+          "letter": "C",
+          "text": "Período patogénico clínico, con síntomas"
+        },
+        {
+          "letter": "D",
+          "text": "Período patogénico subclínico o presintomático"
+        },
+        {
+          "letter": "E",
+          "text": "Período de convalecencia"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La historia natural de la enfermedad distingue un período prepatogénico (agente, huésped y ambiente antes del inicio) y uno patogénico, subclínico y luego clínico. El tamizaje detecta la enfermedad en la fase subclínica, cuando ya existe pero no da síntomas: es prevención secundaria. La vacuna contra VPH actuaría en el período prepatogénico (prevención primaria).",
+      "say": {
+        "stem": "Con un Papanicolau de tamizaje se encuentra una lesión de alto grado en una mujer sin ningún síntoma.",
+        "question": "¿En qué período de la historia natural se intervino?",
+        "options": "Las opciones: prepatogénico, secuelas, patogénico clínico, patogénico subclínico o convalecencia. Piénsalo.",
+        "answer": "Es la D. La lesión ya existe pero no da síntomas, ese es el período patogénico subclínico, donde actúa el tamizaje. El prepatogénico tienta porque es antes del cáncer, pero la enfermedad ya comenzó."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 118",
+      "stem": "En un programa de detección precoz de cáncer de mama se mide periódicamente la tasa de mortalidad específica por esta enfermedad.",
+      "question": "¿Qué función cumple la medición de la tasa de mortalidad específica por dicha enfermedad?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Permite determinar el grado de cobertura del programa"
+        },
+        {
+          "letter": "B",
+          "text": "Contribuye a evaluar la calidad del proceso de atención en el programa"
+        },
+        {
+          "letter": "C",
+          "text": "Permite obtener una variable indirecta que refleja la efectividad del programa"
+        },
+        {
+          "letter": "D",
+          "text": "Permite evaluar la eficiencia del proceso de aplicación del programa"
+        },
+        {
+          "letter": "E",
+          "text": "Refleja el impacto del programa"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La evaluación de programas distingue estructura, proceso, resultado e impacto. La mortalidad específica por cáncer de mama es el indicador de impacto del tamizaje, porque mide el cambio final en la salud de la población, que es su objetivo. La cobertura y los tiempos de atención son indicadores de proceso; la eficiencia relaciona resultados con recursos.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. En un programa de detección precoz de cáncer de mama se mide la mortalidad específica por ese cáncer.",
+        "question": "¿Qué función cumple esa medición?",
+        "options": "Las opciones: medir cobertura, evaluar calidad del proceso, variable indirecta de efectividad, evaluar eficiencia, o reflejar el impacto. Piénsalo.",
+        "answer": "Es la E. La mortalidad específica es el indicador de impacto del programa, el cambio final en la salud de la población. La efectividad indirecta tienta, pero la mortalidad es una medida directa del objetivo, no una variable indirecta."
+      }
     },
 
     {

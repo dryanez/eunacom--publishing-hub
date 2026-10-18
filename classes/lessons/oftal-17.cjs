@@ -48,7 +48,11 @@ module.exports = {
         { show: ['pos'], note: 'La lámina papirácea es finísima',
           say: 'Pero si la infección atraviesa el septum, ya estamos hablando de celulitis orbitaria, y en el ochenta y cinco a noventa por ciento de los casos el origen es una sinusitis paranasal, sobre todo la etmoidal, porque la lámina papirácea que separa el etmoides de la órbita es extremadamente delgada.' },
         { show: ['presep'], note: 'Se queda en el tejido subcutáneo',
-          say: 'La preseptal se queda en el tejido subcutáneo del párpado, sin tocar el contenido de la órbita. Nada más, y eso es justo lo que la hace un cuadro tan benigno.' },
+          say: 'La preseptal se queda en el tejido subcutáneo del párpado, sin tocar el contenido de la órbita. Nada más, y eso es justo lo que la hace un cuadro tan benigno. Mira estas fotos: el párpado rojo e hinchado, con el ojo bien abierto en su posición.',
+          photos: [
+            { src: 'biblioteca/12_oftalmologia/oftal-17/01_celulitis-preseptal__amir-oftalmo_p43.jpg', label: 'Celulitis preseptal', at: 'Mira estas fotos', credit: 'Manual AMIR Oftalmología, p. 43' },
+            { src: 'biblioteca/12_oftalmologia/oftal-17/01_celulitis-preseptal_alt1__cto-oftalmo_p30.jpg', label: 'Edema palpebral', credit: 'Manual CTO Oftalmología 14.ª ed., p. 30' },
+          ] },
         { show: ['orbit'], note: 'Ahora sí compromete estructuras que importan',
           say: 'La orbitaria invade la grasa, los músculos extraoculares y llega cerca del nervio óptico. Y ese es el punto: un mismo párpado rojo puede ser una infección trivial o una emergencia, y lo que las separa es apenas una lámina de milímetros.' },
       ],
@@ -109,7 +113,8 @@ module.exports = {
       cards: [
         { title: 'Imagen', tag: 'Obligatoria ante cualquier sospecha', kind: 'key', items: [
           { t: 'TAC de órbita, senos y encéfalo con contraste', d: 'Confirma la sinusitis, busca absceso, descarta extensión intracraneana',
-            say: 'Ante cualquier sospecha de celulitis orbitaria, el examen obligatorio es la tomografía computada de órbita, senos paranasales y encéfalo con contraste endovenoso. Confirma la sinusitis de origen, distingue un flemón de un absceso subperióstico, y descarta la extensión intracraneana.' },
+            say: 'Ante cualquier sospecha de celulitis orbitaria, el examen obligatorio es la tomografía computada de órbita, senos paranasales y encéfalo con contraste endovenoso. Confirma la sinusitis de origen, distingue un flemón de un absceso subperióstico, y descarta la extensión intracraneana. Mira este corte: el globo del lado derecho de la paciente está empujado hacia adelante, rodeado de tejido inflamado, comparado con el otro ojo.',
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-17/01_celulitis_orbitaria_TC__kanski_p100.jpg', label: 'Celulitis orbitaria en TAC', at: 'Mira este corte', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 100" } },
         ] },
         { title: 'Celulitis preseptal', tag: 'Manejo ambulatorio', kind: 'pharma', items: [
           { t: 'Amoxicilina con ácido clavulánico oral', d: 'Siete a diez días, con control clínico a las veinticuatro horas',
@@ -127,19 +132,24 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Celulitis periocular',
-      images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-17/01_celulitis-preseptal__amir-oftalmo_p43.jpg', label: 'Preseptal', credit: 'Manual AMIR Oftalmología, p. 43' },
-        { src: 'biblioteca/12_oftalmologia/oftal-17/01_celulitis_orbitaria_TC__kanski_p100.jpg', label: 'Orbitaria', credit: 'Kanski, p. 100' },
-      ],
-      steps: [
-        { note: 'Párpado hinchado, ojo normal',
-          say: 'En la preseptal el párpado está hinchado pero la visión y los movimientos son normales.' },
-        { note: 'Proptosis, dolor al mover',
-          say: 'En la orbitaria hay proptosis y dolor al mover el ojo. Se hospitaliza.' },
+      type: 'points',
+      kicker: 'Proptosis sin fiebre',
+      title: 'Tumores de la órbita: la proptosis que no duele',
+      cards: [
+        { title: 'Cómo se sospechan', tag: 'Diferencia con la celulitis', kind: 'key', items: [
+          { t: 'Proptosis progresiva e indolora', d: 'Semanas a meses; sin fiebre ni signos inflamatorios',
+            say: 'Cerremos con el otro gran motivo de proptosis. Un tumor orbitario se sospecha ante una proptosis progresiva e indolora, de semanas a meses, con desplazamiento del globo, diplopía, ptosis o baja de visión por compresión del nervio óptico. A diferencia de la celulitis, no hay fiebre, ni dolor, ni signos inflamatorios agudos.' },
+        ] },
+        { title: 'Según la edad', tag: 'Causas típicas', kind: 'criteria', items: [
+          { t: 'Adulto: orbitopatía tiroidea primero', d: 'Bilateral y con retracción palpebral',
+            say: 'En el adulto, la primera causa de proptosis es la orbitopatía tiroidea, la enfermedad de Graves, que es bilateral y con retracción palpebral. Entre los tumores, el hemangioma cavernoso es el benigno más frecuente, y están el linfoma, los tumores de la glándula lagrimal, el meningioma y las metástasis de mama, pulmón y próstata.' },
+          { t: 'Niño: rabdomiosarcoma, urgencia oncológica', d: 'Proptosis de crecimiento rápido en menores de 10 años',
+            say: 'En el niño, lo que no se puede perder es el rabdomiosarcoma: una proptosis de crecimiento rápido en un menor de diez años es una urgencia oncológica. También hay hemangioma capilar, glioma del nervio óptico, ligado a neurofibromatosis tipo uno, quiste dermoide y metástasis de neuroblastoma, con equimosis periorbitaria.' },
+        ] },
+        { title: 'Conducta inicial', tag: 'Medir, imagen y derivar', kind: 'pharma', items: [
+          { t: 'Agudeza, colores, pupilas y exoftalmometría', d: 'TAC o RM de órbita; derivar',
+            say: 'Mide la agudeza visual, la visión de colores, las pupilas buscando defecto aferente, la exoftalmometría y la motilidad. Pide TAC o resonancia de órbita y deriva a oftalmología, y a oncología cuando corresponde. Si el ojo queda expuesto, protege la córnea con lubricante.' },
+        ] },
       ],
     },
 
@@ -255,6 +265,44 @@ module.exports = {
         options: 'Las opciones son: alergia al cloranfenicol, celulitis orbitaria, obstrucción lacrimal, chalazión, o absceso tarsal. Piénsalo.',
         answer: 'Es la B. Esto empezó como una conjuntivitis bacteriana simple, pero en vez de mejorar con el tratamiento, empeora con más edema y quemosis, la señal de que la infección atravesó el septum y se volvió celulitis orbitaria. La alergia al cloranfenicol es la trampa, pero es mucho menos frecuente y no explica esa progresión tan agresiva.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.1.027 · Tumores de órbita",
+      "stem": "Niño de 7 años con proptosis unilateral del ojo izquierdo de rápida progresión en 3 semanas, desplazamiento del globo hacia abajo y edema palpebral, sin fiebre, sin dolor importante y sin antecedente de sinusitis ni trauma. Hemograma y PCR normales.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibiótico endovenoso por celulitis orbitaria"
+        },
+        {
+          "letter": "B",
+          "text": "TAC o resonancia de órbitas urgente y derivación a oftalmología por sospecha de tumor orbitario maligno (rabdomiosarcoma)"
+        },
+        {
+          "letter": "C",
+          "text": "Compresas tibias y control en 1 mes"
+        },
+        {
+          "letter": "D",
+          "text": "Corticoide oral por orbitopatía tiroidea"
+        },
+        {
+          "letter": "E",
+          "text": "Antihistamínico por edema alérgico"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Una proptosis unilateral rápidamente progresiva en un niño, sin fiebre ni foco infeccioso, debe hacer sospechar rabdomiosarcoma, el tumor orbitario maligno primario más frecuente de la infancia. Requiere imagen urgente (TAC o RM) y biopsia. En adultos, la causa más frecuente de proptosis es la orbitopatía tiroidea y el tumor benigno más común, el hemangioma cavernoso.",
+      "say": {
+        "stem": "Niño de siete años con proptosis del ojo izquierdo que progresa rápido en tres semanas, sin fiebre, sin sinusitis ni trauma, y exámenes inflamatorios normales.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: antibiótico por celulitis orbitaria, imagen de órbitas urgente y derivación por sospecha de rabdomiosarcoma, compresas y control, corticoide por orbitopatía tiroidea o antihistamínico. Piénsalo.",
+        "answer": "Es la B. Proptosis rápida en un niño sin infección obliga a descartar un rabdomiosarcoma con imagen urgente. La celulitis orbitaria tienta por ser la causa más común de proptosis en niños, pero cursa con fiebre, dolor y sinusitis."
+      }
     },
 
     {

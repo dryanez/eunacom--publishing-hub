@@ -49,7 +49,8 @@ module.exports = {
       cards: [
         { title: 'Síntomas', tag: 'Metabolismo lento', kind: 'criteria', items: [
           { t: 'Astenia, frío, constipación', d: 'Bradipsiquia y somnolencia',
-            say: 'La clínica se entiende con una sola idea: todo el metabolismo se enlentece. Astenia marcada, intolerancia al frío, constipación pertinaz, pensamiento lento y somnolencia.' },
+            say: 'La clínica se entiende con una sola idea: todo el metabolismo se enlentece. Mira este esquema: el frío, el corazón lento, el intestino perezoso, la piel seca. Astenia marcada, intolerancia al frío, constipación pertinaz, pensamiento lento y somnolencia.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-02/01_clinica-del-hipotiroidismo__cto-endocrino_p55.jpg', label: 'Clínica del hipotiroidismo', at: 'Mira este esquema', credit: 'Manual CTO Endocrinología 14.ª ed., p. 55' } },
           { t: 'Aumento de peso moderado', d: '2 a 5 kg, por retención de líquido',
             say: 'El peso sube, pero poco: dos a cinco kilos, por retención de líquido. Ojo, el hipotiroidismo no explica una obesidad mórbida por sí solo.' },
           { t: 'Piel seca, pelo quebradizo, voz ronca', d: 'Y alteraciones menstruales',
@@ -59,7 +60,8 @@ module.exports = {
           { t: 'Relajación lenta del aquiliano', d: 'El signo más específico',
             say: 'Al examen hay bradicardia, y un signo que se pregunta: el reflejo aquiliano con la fase de relajación enlentecida. Es el signo físico más específico del hipotiroidismo.' },
           { t: 'Mixedema y bocio firme', d: 'Edema duro que no deja fóvea',
-            say: 'También la cara abotagada con edema periorbitario duro, que no deja fóvea: eso es el mixedema. Y la tiroides puede estar aumentada, difusa, firme e indolora, o atrófica.' },
+            say: 'Mira esta cara: abotagada, con edema periorbitario duro, que no deja fóvea: eso es el mixedema. Y la tiroides puede estar aumentada, difusa, firme e indolora, o atrófica.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-02/01_facies_hipotiroidea__fitzpatrick_p1512.jpg', label: 'Facies hipotiroidea', at: 'Mira esta cara', credit: 'Fitzpatrick 7.ª ed., Fig. 152-12' } },
         ] },
       ],
     },
@@ -224,33 +226,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'La cara del hipotiroidismo',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-02/01_facies_hipotiroidea__fitzpatrick_p1512.jpg', label: 'Facies hipotiroidea', credit: 'Fitzpatrick 7.ª ed., Fig. 152-12' },
-      ],
-      steps: [
-        { note: 'Cara hinchada, piel seca, cejas ralas',
-          say: 'Esta es la facies del hipotiroidismo: cara abotagada, párpados hinchados, piel seca y pálida, y pérdida del tercio externo de las cejas.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-02/01_clinica-del-hipotiroidismo__cto-endocrino_p55.jpg', label: 'Clínica del hipotiroidismo', credit: 'Manual CTO Endocrinología 14.ª ed., p. 55' },
-      ],
-      steps: [
-        { note: 'Clínica del hipotiroidismo',
-          say: 'Mira esta imagen: clínica del hipotiroidismo. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Juntemos el diagnóstico y el tratamiento en un solo árbol.',
     },
@@ -389,6 +364,82 @@ module.exports = {
         options: 'Las opciones: mixedema pretibial, exoftalmo, melanoplaquias, piel seca, o acantosis nigricans. Piénsalo.',
         answer: 'Es la D, piel seca. Sin tiroides y sin hormona, está hipotiroideo. La trampa es el mixedema pretibial, porque suena a hipotiroidismo; pero el mixedema de la región pretibial es de la enfermedad de Graves, junto con el exoftalmo, y lo veremos en el bloque de hipertiroidismo. El mixedema del hipotiroidismo es el edema duro de la cara.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.4.003 · TSH, T4, T3",
+      "stem": "Mujer de 45 años operada hace 8 meses de un macroadenoma hipofisario no funcionante. Consulta por astenia, intolerancia al frío y constipación. FC 58 lpm, piel seca. Exámenes: TSH 0,9 mUI/L (VN 0,4–4,0), T4 libre 0,45 ng/dL (VN 0,8–1,8). Cortisol plasmático matinal normal.",
+      "question": "¿Cuál es la interpretación y conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hipotiroidismo central; iniciar levotiroxina y controlar con T4 libre"
+        },
+        {
+          "letter": "B",
+          "text": "Hipotiroidismo primario; ajustar la levotiroxina según la TSH"
+        },
+        {
+          "letter": "C",
+          "text": "Eje tiroideo normal, porque la TSH es normal"
+        },
+        {
+          "letter": "D",
+          "text": "Síndrome del eutiroideo enfermo; repetir en 6 semanas"
+        },
+        {
+          "letter": "E",
+          "text": "Hipertiroidismo subclínico; observar"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Una T4 libre baja con TSH normal o baja, no elevada, indica hipotiroidismo central, aquí por daño hipofisario. La TSH deja de servir para el control: la levotiroxina se ajusta con la T4 libre, buscando la mitad superior del rango normal. Antes de iniciarla debe descartarse insuficiencia suprarrenal, ya resuelto en este caso.",
+      "say": {
+        "stem": "Mujer de cuarenta y cinco años, operada de un macroadenoma hipofisario, con astenia, frío y constipación. Su TSH es cero coma nueve, normal, pero su T cuatro libre está baja, en cero coma cuarenta y cinco. El cortisol es normal.",
+        "question": "¿Cuál es la interpretación y conducta más adecuada?",
+        "options": "Las opciones: hipotiroidismo central controlado con T cuatro libre, hipotiroidismo primario, eje normal, eutiroideo enfermo o hipertiroidismo subclínico. Piénsalo.",
+        "answer": "Es la A. T cuatro libre baja con una TSH que no sube es un hipotiroidismo central, porque la hipófisis no responde. Decir que el eje está normal tienta porque la TSH está en rango, pero en el daño hipofisario la TSH engaña, y el control se hace con la T cuatro libre."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.4.005 · Anticuerpos antitiroideos (antitiroglobulina y antiiroperoxidasa)",
+      "stem": "Una mujer de 32 años, asintomática, tiene TSH de 7,2 µUI/mL con T4 libre normal, confirmados en 2 mediciones. No está embarazada ni lo planifica.",
+      "question": "¿Qué examen ayuda más a estimar el riesgo de progresión a hipotiroidismo clínico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anticuerpos antiperoxidasa tiroidea (anti-TPO)"
+        },
+        {
+          "letter": "B",
+          "text": "Tiroglobulina"
+        },
+        {
+          "letter": "C",
+          "text": "Cintigrama tiroideo"
+        },
+        {
+          "letter": "D",
+          "text": "T3 total"
+        },
+        {
+          "letter": "E",
+          "text": "Calcitonina"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En el hipotiroidismo subclínico, los anticuerpos anti-TPO positivos indican tiroiditis de Hashimoto y aproximadamente duplican el riesgo de progresión a hipotiroidismo clínico (cerca de 4% al año). Ayudan a decidir tratamiento y frecuencia de controles. La tiroglobulina es marcador tumoral del cáncer diferenciado tratado, y la calcitonina del carcinoma medular.",
+      "say": {
+        "stem": "Una mujer asintomática de treinta y dos años tiene TSH de siete coma dos con T cuatro libre normal, confirmado dos veces. No está embarazada.",
+        "question": "¿Qué examen estima mejor el riesgo de progresar a hipotiroidismo clínico?",
+        "options": "Las opciones: anticuerpos antiperoxidasa, tiroglobulina, cintigrama, T tres total o calcitonina. Piénsalo.",
+        "answer": "Es la A. Los anticuerpos antiperoxidasa positivos indican Hashimoto y duplican el riesgo de progresión. La tiroglobulina tienta por ser tiroidea, pero sirve como marcador en el seguimiento del cáncer diferenciado."
+      }
     },
 
     {

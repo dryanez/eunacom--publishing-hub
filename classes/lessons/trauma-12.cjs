@@ -58,7 +58,8 @@ module.exports = {
         ] },
         { title: 'Cadera y manos', tag: 'Lo que se pregunta', kind: 'alert', items: [
           { t: 'Coxartrosis: dolor inguinal', d: 'Limita la marcha; pierde rotación interna y flexión',
-            say: 'La artrosis de cadera, o coxartrosis, da dolor inguinal que aumenta con la marcha y la limita. Al examen se pierde la rotación interna y la flexión de la cadera. Si el cuadro lleva años, piensa en artrosis y no en necrosis avascular.' },
+            photo: { src: 'biblioteca/18_traumatologia/trauma-12/01_artrosis-cadera-rx__bailey-love_p535.jpg', label: 'Coxartrosis en la Rx', at: 'En esta radiografía', credit: 'Bailey & Love 27.ª ed., Fig. 35.5' },
+            say: 'La artrosis de cadera, o coxartrosis, da dolor inguinal que aumenta con la marcha y la limita. En esta radiografía el espacio entre la cabeza del fémur y el acetábulo está disminuido, y el techo del acetábulo se ve más blanco, esclerótico: un proceso mecánico y crónico. Al examen se pierde la rotación interna y la flexión de la cadera. Si el cuadro lleva años, piensa en artrosis y no en necrosis avascular.' },
           { t: 'Manos: interfalángicas', d: 'Rigidez matinal breve y osteofitos',
             say: 'En las manos compromete las interfalángicas, con rigidez matinal de pocos minutos. Es lo que la separa de la artritis reumatoide, cuya rigidez es larga.' },
         ] },
@@ -129,6 +130,10 @@ module.exports = {
           say: 'El inflamatorio tiene entre dos mil y cincuenta mil leucocitos. Es el de las artritis por cristales y de las artropatías inflamatorias como la artritis reumatoide.' },
         { cells: ['Séptico', 'Más de 50.000', 'Artritis séptica'],
           say: 'El séptico tiene más de cincuenta mil leucocitos, y el Gram y el cultivo orientan al germen.' },
+        { cells: ['Aspecto, glucosa y Gram', 'Turbio o purulento, glucosa muy baja', 'Gram y cultivo positivos: séptico'],
+          say: 'Además del recuento, el líquido séptico es purulento y turbio, con glucosa muy baja y más de setenta y cinco por ciento de polimorfonucleares. Un Gram o un cultivo positivo lo confirma. Del líquido pides siempre citoquímico, Gram y cultivo, y búsqueda de cristales con luz polarizada.' },
+        { cells: ['Líquido hemorrágico', 'Trauma, fractura o diátesis', 'Gotas de grasa: fractura intraarticular'],
+          say: 'Y el líquido hemorrágico sugiere trauma, fractura intraarticular, si trae gotas de grasa, o una diátesis hemorrágica.' },
         { cells: ['Trampa', 'Los cristales no descartan infección', 'Una pseudogota puede superar 100.000'],
           say: 'Y hay dos trampas. Los cristales no descartan una infección. Y una condrocalcinosis muy inflamada puede superar los cien mil leucocitos sin que haya bacterias. Por eso se mira el cuadro completo.' },
       ],
@@ -140,14 +145,20 @@ module.exports = {
       title: 'Gota: cristales de urato',
       cards: [
         { title: 'Diagnóstico', tag: 'Clínico y cristales', kind: 'key', items: [
-          { t: 'Podagra: primer ortejo', d: 'Se diagnostica sin punción',
-            say: 'La podagra, el ataque en la articulación del primer ortejo, es la única monoartritis aguda que suele diagnosticarse clínicamente, sin necesidad de punción, a menos que se sospeche infección.' },
+          { t: 'Podagra: primer ortejo', d: 'Nocturna; se diagnostica sin punción',
+            say: 'La gota es el depósito de cristales de urato monosódico en un paciente con hiperuricemia, más frecuente en hombres sobre los cuarenta años. La podagra, el ataque nocturno, muy doloroso, en la primera articulación metatarsofalángica, es la única monoartritis aguda que suele diagnosticarse clínicamente, sin punción, a menos que se sospeche infección. Los gatillantes son el alcohol, las carnes rojas, los mariscos, las tiazidas, el ayuno, el trauma y la cirugía.' },
           { t: 'Cristales de urato en aguja', d: 'Birrefringencia negativa en luz polarizada',
-            say: 'En el líquido, los cristales de urato tienen forma de aguja y una birrefringencia fuertemente negativa con luz polarizada.' },
+            photo: { src: 'biblioteca/18_traumatologia/trauma-12/02_cristales-urato-liquido-sinovial__harrison_p2905.jpg', label: 'Cristales de urato en aguja', at: 'mira la forma', credit: 'Harrison 21.ª ed., Fig. 372-2A' },
+            say: 'En el líquido, mira la forma: son cristales largos, en aguja, dentro y fuera de las células, con una birrefringencia fuertemente negativa en luz polarizada. Es el estándar de oro, y el ácido úrico sérico puede ser normal durante la crisis.' },
+          { t: 'Gota crónica: tofos y erosiones', d: 'En sacabocados, con borde en alero',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-12/21_gota-erosion-mtf__sherman_p589.jpg', label: 'Erosión de la 1.ª MTF', at: 'En esta radiografía', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 589' },
+            say: 'En la gota crónica aparecen los tofos y las erosiones en sacabocados, con borde en alero. En esta radiografía ves la erosión de la primera articulación metatarsofalángica, el sitio clásico.' },
         ] },
         { title: 'Crisis aguda', tag: 'Tratamiento', kind: 'pharma', items: [
           { t: 'AINE, colchicina o corticoides', d: 'Los tres sirven en la crisis',
             say: 'En la crisis aguda sirven los antiinflamatorios no esteroidales, la colchicina o los corticoides. De la colchicina, recuerda que su efecto adverso típico es la diarrea.' },
+          { t: 'Dosis: naproxeno, colchicina, prednisona', d: 'Naproxeno 500 mg c/12 h; colchicina 1 mg y 0,5 mg; prednisona 30-40 mg',
+            say: 'Las dosis: naproxeno quinientos miligramos cada doce horas, o indometacina cincuenta cada ocho. Colchicina un miligramo al inicio y medio miligramo una hora después, dentro de las primeras doce a veinticuatro horas. Si ambos están contraindicados, por insuficiencia renal o úlcera, prednisona treinta a cuarenta miligramos al día por cinco días, o infiltración intraarticular. Más reposo articular y frío local.' },
           { t: 'Nunca iniciar alopurinol en la crisis', d: 'Ni suspenderlo si ya lo toma',
             say: 'Jamás inicies ni suspendas el alopurinol durante una crisis aguda, porque los cambios bruscos en el ácido úrico pueden empeorar o prolongar la inflamación.' },
         ] },
@@ -181,13 +192,15 @@ module.exports = {
       cards: [
         { title: 'Cuadro típico', tag: 'Adulto mayor', kind: 'key', items: [
           { t: 'Afecta frecuentemente la rodilla', d: 'En el adulto mayor',
-            say: 'La pseudogota, o condrocalcinosis, la causan los cristales de pirofosfato de calcio, y afecta con frecuencia la rodilla. Es la causa más frecuente de monoartritis aguda en el adulto mayor.' },
+            photo: { src: 'biblioteca/18_traumatologia/trauma-12/04_condrocalcinosis-rx-rodilla__amir-reuma_p23.jpg', label: 'Condrocalcinosis de rodilla', at: 'En esta radiografía', credit: 'Manual AMIR Reumatología, p. 23' },
+            say: 'La pseudogota, o condrocalcinosis, la causan los cristales de pirofosfato de calcio, y afecta con frecuencia la rodilla. Es la causa más frecuente de monoartritis aguda en el adulto mayor. En esta radiografía, el cartílago calcificado se ve como una línea blanca dentro de la articulación.' },
           { t: 'Se gatilla con el reposo', d: 'Por ejemplo, tras hospitalizarse',
             say: 'Suele desencadenarse por reposo, por ejemplo en un paciente hospitalizado por otra causa, como un accidente vascular.' },
         ] },
         { title: 'Cristales y prevención', tag: 'Lo que se pregunta', kind: 'alert', items: [
           { t: 'Birrefringencia débil positiva', d: 'Cristales romboidales',
-            say: 'Los cristales de pirofosfato tienen elongación positiva débil, y brillan de color azulado. Son romboidales, no en aguja como el urato.' },
+            photo: { src: 'biblioteca/18_traumatologia/trauma-12/03_cristales-pirofosfato-liquido-sinovial__harrison_p2905.jpg', label: 'Cristales de pirofosfato', at: 'Ahora los cristales', credit: 'Harrison 21.ª ed., Fig. 372-2B' },
+            say: 'Los cristales de pirofosfato tienen elongación positiva débil, y brillan de color azulado. Ahora los cristales son cortos y romboidales, no en aguja como el urato. Esa diferencia de forma es lo que los separa.' },
           { t: 'Prevención: colchicina profiláctica', d: 'No alopurinol, que es para gota',
             say: 'Para prevenir nuevas crisis se usa colchicina profiláctica. El alopurinol no sirve, porque el cristal no es de urato.' },
         ] },
@@ -215,35 +228,60 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Artrosis de cadera y cristales',
-      images: [
-        { src: 'biblioteca/18_traumatologia/trauma-12/01_artrosis-cadera-rx__bailey-love_p535.jpg', label: 'Radiografía de cadera con artrosis', credit: 'Bailey & Love 27.ª ed., Fig. 35.5' },
-        { src: 'biblioteca/18_traumatologia/trauma-12/02_cristales-urato-liquido-sinovial__harrison_p2905.jpg', label: 'Cristales de urato en aguja en líquido sinovial; recuadro con luz polarizada', credit: 'Harrison 21.ª ed., Fig. 372-2A' },
-        { src: 'biblioteca/18_traumatologia/trauma-12/03_cristales-pirofosfato-liquido-sinovial__harrison_p2905.jpg', label: 'Cristales romboidales de pirofosfato de calcio; recuadro con luz polarizada', credit: 'Harrison 21.ª ed., Fig. 372-2B' },
+      type: 'points',
+      kicker: 'Artritis séptica',
+      title: 'Artritis séptica: germen, niño y tratamiento',
+      cards: [
+        { title: 'Quién y por qué germen', tag: 'Urgencia', kind: 'alert', items: [
+          { t: 'S. aureus; gonococo en el joven', d: 'Gramnegativos en el mayor o con drogas EV',
+            say: 'Es una urgencia, por el riesgo de destrucción articular rápida. El agente más frecuente es Staphylococcus aureus. En el adulto joven sexualmente activo piensa en Neisseria gonorrhoeae, con artritis migratoria, tenosinovitis y lesiones cutáneas. En el adulto mayor y en los usuarios de drogas endovenosas, bacilos gramnegativos.' },
+          { t: 'Diabetes, prótesis, artritis reumatoide', d: 'Inmunosupresión e infiltraciones previas',
+            say: 'Los factores de riesgo son diabetes, inmunosupresión, artritis reumatoide, prótesis articular e infiltraciones previas. Duele mucho al movimiento pasivo.' },
+        ] },
+        { title: 'Diagnóstico y manejo', tag: 'Punción antes del antibiótico', kind: 'key', items: [
+          { t: 'Artrocentesis urgente antes de antibióticos', d: 'Hemocultivos, VHS, PCR y radiografía',
+            say: 'Se hace artrocentesis urgente antes de iniciar antibióticos, con recuento mayor de cincuenta mil, Gram y cultivo. Además hemocultivos, VHS, PCR y radiografía.' },
+          { t: 'Drenaje y cloxacilina o cefazolina EV', d: 'Ceftriaxona si es gonococo; 2 a 4 semanas',
+            say: 'Se hospitaliza, se drena la articulación, con lavado artroscópico, artrotomía o punciones repetidas, y se da antibiótico endovenoso antiestafilocócico, cloxacilina o cefazolina, o ceftriaxona si se sospecha gonococo, de dos a cuatro semanas, ajustado al cultivo.' },
+          { t: 'Niño: cadera y criterios de Kocher', d: 'Fiebre mayor de 38,5, no apoya, VHS mayor de 40, leucocitos mayor de 12.000',
+            say: 'En el niño, la artritis séptica de cadera es una urgencia quirúrgica, por el riesgo de necrosis avascular de la cabeza femoral. Los criterios de Kocher estiman su probabilidad: fiebre sobre treinta y ocho coma cinco, imposibilidad de apoyar, VHS sobre cuarenta y leucocitos sobre doce mil.' },
+        ] },
       ],
-      steps: [
-        { note: 'La cadera artrósica en la radiografía',
-          say: 'Esta es una cadera con artrosis. Fíjate en que el espacio entre la cabeza del fémur y el acetábulo está disminuido, y que el hueso del techo del acetábulo se ve más blanco, esclerótico. No hay signos de inflamación aguda: es un proceso mecánico y crónico.' },
-        { note: 'Urato: cristales largos, en aguja',
-          say: 'Y aquí el líquido sinovial de una gota. Mira la forma: son cristales largos, en aguja, dentro y fuera de las células. Con luz polarizada, en el recuadro, brillan con fuerza.' },
-        { note: 'Pirofosfato: cristales romboidales',
-          say: 'Y este es el líquido de una pseudogota. Ahora los cristales son cortos y romboidales, no en aguja. Esa diferencia de forma, y la birrefringencia débil positiva, es lo que los separa del urato.' },
+    },
+
+    {
+      type: 'points',
+      kicker: 'Procedimiento',
+      title: 'Punción articular de rodilla',
+      cards: [
+        { title: 'Cuándo sí y cuándo no', tag: 'Diagnóstica y terapéutica', kind: 'criteria', items: [
+          { t: 'Monoartritis, infección, cristales, hemartrosis', d: 'Y alivio de derrame a tensión',
+            say: 'La punción de rodilla es diagnóstica ante una monoartritis, sospecha de infección o de microcristales, o hemartrosis. Y terapéutica, para aliviar un derrame a tensión o para infiltrar.' },
+          { t: 'No si hay celulitis en el sitio', d: 'Coagulopatía grave: relativa; prótesis: traumatólogo',
+            say: 'No se hace si hay celulitis o infección de la piel en el sitio. La coagulopatía grave no corregida es una contraindicación relativa, y en pacientes con prótesis la punción la hace el traumatólogo.' },
+        ] },
+        { title: 'Técnica', tag: 'Suprapatelar lateral', kind: 'key', items: [
+          { t: 'Un centímetro sobre y lateral a la rótula', d: 'Rodilla extendida o semiflectada',
+            say: 'Con el paciente en decúbito supino y la rodilla extendida o semiflectada, marcas el abordaje suprapatelar lateral, a un centímetro sobre y lateral al borde superior de la rótula.' },
+          { t: 'Asepsia y aguja 18 a 21 G', d: 'Hacia el espacio retropatelar, aspirando',
+            say: 'Con clorhexidina o povidona, campo y guantes estériles, introduces una aguja dieciocho a veintiún gauge con jeringa de veinte mililitros, dirigida al espacio retropatelar, aspirando mientras avanzas.' },
+          { t: 'Tres tubos: citoquímico, cristales, Gram y cultivo', d: 'Frasco de hemocultivo si hay sospecha de infección',
+            say: 'El líquido va a tubos para citoquímico, cristales y Gram con cultivo, en frasco de hemocultivo si sospechas infección. Cubres con apósito e indicas reposo relativo. Las complicaciones son infección iatrogénica, hemartrosis y lesión del cartílago.' },
+        ] },
       ],
     },
 
     {
       type: 'image',
-      kicker: 'Más imágenes',
-      title: 'La condrocalcinosis en la radiografía',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Artrosis de rodilla',
       images: [
-        { src: 'biblioteca/18_traumatologia/trauma-12/04_condrocalcinosis-rx-rodilla__amir-reuma_p23.jpg', label: 'Condrocalcinosis de rodilla (flechas)', credit: 'Manual AMIR Reumatología, p. 23' },
+        { src: 'animaciones/trauma-12/A1_artrosis_rodilla.mp4', label: 'Del cartílago sano al desgastado', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Cartílago calcificado',
-          say: 'En la pseudogota, que afecta sobre todo la rodilla, la radiografía puede mostrar el cartílago calcificado, una línea blanca dentro de la articulación. Eso es la condrocalcinosis.' },
+        { note: 'Artrosis: cartílago y líquido',
+          say: 'Compara la rodilla normal con la artrósica. El cartílago se erosiona, el espacio articular disminuye y aparecen osteofitos en los bordes. El dolor es mecánico: empeora con el uso y mejora con el reposo. El líquido sinovial es no inflamatorio, con menos de dos mil leucocitos por milímetro cúbico, muy lejos de los cincuenta mil de una artritis séptica. Se parte con paracetamol y ejercicio.' },
       ],
     },
 
@@ -432,6 +470,119 @@ module.exports = {
         options: 'Las opciones: AINE a demanda; alopurinol; metotrexato semanal; infiltración con corticoides; o colchicina profiláctica. Piénsalo.',
         answer: 'Es la E. Pirofosfato de calcio es pseudogota, y para prevenir nuevas crisis se usa colchicina en dosis bajas, de forma profiláctica. La B es la trampa: el alopurinol baja el urato, y aquí no hay urato.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2019 · Pregunta 69",
+      "stem": "Un paciente de 78 años consulta por gonalgia derecha intensa, que le impide la marcha, asociada a aumento de volumen. Al examen físico presenta edema, eritema y aumento de la temperatura local, con signos de derrame articular.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar antibióticos endovenosos"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar factor reumatoide, ANA y ácido úrico"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar AINE"
+        },
+        {
+          "letter": "D",
+          "text": "Realizar artrocentesis diagnóstica"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar resonancia magnética de rodilla"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Toda monoartritis aguda se estudia con artrocentesis: citoquímico, Gram, cultivo y búsqueda de cristales. En un adulto mayor lo más probable es una condrocalcinosis, pero hay que descartar artritis séptica antes de tratar. Iniciar antibióticos sin puncionar impide el diagnóstico.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Un hombre de setenta y ocho años tiene dolor intenso de rodilla derecha que le impide caminar, con aumento de volumen, enrojecimiento, calor y derrame articular.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: antibióticos endovenosos, factor reumatoide con anticuerpos antinucleares y ácido úrico, antiinflamatorios, artrocentesis diagnóstica, o resonancia de rodilla. Piénsalo.",
+        "answer": "Es la D. Una monoartritis aguda se estudia puncionando la articulación, para buscar cristales e infección. Los antibióticos tientan por miedo a una artritis séptica, pero darlos antes de puncionar arruina el cultivo y el diagnóstico."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.4.007 · Citoquimico de líquido articular",
+      "stem": "Hombre de 60 años, diabético, consulta por dolor, calor y aumento de volumen de la rodilla izquierda de 2 días, con fiebre de 38,6 grados. Se realiza artrocentesis, que obtiene líquido turbio. Citoquímico: 85.000 leucocitos por mm3 con 92% de polimorfonucleares, glucosa 20 mg/dL (glicemia 160 mg/dL). No se observan cristales. Gram pendiente.",
+      "question": "¿Cuál es la interpretación y la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Líquido no inflamatorio por artrosis; paracetamol y kinesioterapia"
+        },
+        {
+          "letter": "B",
+          "text": "Líquido séptico; hospitalizar, tomar hemocultivos, iniciar antibióticos endovenosos empíricos y drenaje articular"
+        },
+        {
+          "letter": "C",
+          "text": "Gota aguda; colchicina y alta"
+        },
+        {
+          "letter": "D",
+          "text": "Líquido hemorrágico; reposo y frío local"
+        },
+        {
+          "letter": "E",
+          "text": "Líquido inflamatorio leve; infiltrar corticoides intraarticulares"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Un líquido articular turbio con más de 50.000 leucocitos por mm3, predominio polimorfonuclear sobre 90% y glucosa muy baja respecto de la sangre es séptico hasta demostrar lo contrario. Se hospitaliza, se cultiva, se inician antibióticos empíricos con cobertura de Staphylococcus aureus y se drena. Los corticoides intraarticulares están contraindicados.",
+      "say": {
+        "stem": "Un hombre diabético de sesenta años tiene la rodilla izquierda caliente e hinchada, con fiebre. La punción da un líquido turbio con ochenta y cinco mil leucocitos, casi todos neutrófilos, glucosa muy baja y sin cristales.",
+        "question": "¿Cuál es la interpretación y la conducta?",
+        "options": "Las opciones: líquido de artrosis, líquido séptico con hospitalización, antibióticos y drenaje, gota aguda, líquido hemorrágico, o líquido inflamatorio leve con corticoides. Piénsalo.",
+        "answer": "Es la B. Más de cincuenta mil leucocitos con predominio de neutrófilos y glucosa baja es un líquido séptico, y requiere antibióticos endovenosos y drenaje. La gota tienta por la inflamación, pero no hay cristales y la glucosa tan baja apunta a infección."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.5.002 · Punción articular de rodilla",
+      "stem": "Hombre de 45 años con derrame a tensión de rodilla derecha de 24 horas, sin trauma. Se decide artrocentesis diagnóstica en el servicio de urgencia.",
+      "question": "¿Cuál de las siguientes condiciones contraindica realizar la punción por la vía planificada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fiebre de 38,5 °C"
+        },
+        {
+          "letter": "B",
+          "text": "Celulitis de la piel en el sitio de punción"
+        },
+        {
+          "letter": "C",
+          "text": "Uso de aspirina en dosis baja"
+        },
+        {
+          "letter": "D",
+          "text": "Antecedente de gota"
+        },
+        {
+          "letter": "E",
+          "text": "Derrame mayor de 50 mL"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La única contraindicación absoluta habitual de la artrocentesis es la infección de piel o celulitis sobre el sitio de punción, porque se puede inocular la articulación; se elige otro abordaje. La fiebre es una indicación (descartar artritis séptica). La antiagregación o anticoagulación en rango no la contraindica. Se usa técnica aséptica, habitualmente por abordaje suprapatelar lateral.",
+      "say": {
+        "stem": "Hombre de cuarenta y cinco años con derrame a tensión de rodilla. Se decide hacer una punción articular diagnóstica.",
+        "question": "¿Cuál condición contraindica la punción por esa vía?",
+        "options": "Las opciones: fiebre, celulitis en el sitio de punción, aspirina en dosis baja, antecedente de gota o derrame abundante. Piénsalo.",
+        "answer": "Es la B. La celulitis sobre el sitio de punción la contraindica, porque se arrastran bacterias hacia la articulación. La fiebre tienta, pero es justamente una razón para puncionar y descartar una artritis séptica."
+      }
     },
 
     {

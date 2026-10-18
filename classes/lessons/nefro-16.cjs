@@ -24,7 +24,8 @@ module.exports = {
           { t: 'Síndrome nefrítico activo', d: 'Acantocitos y cilindros hemáticos',
             say: 'La segunda es un síndrome nefrítico activo, con hematuria glomerular masiva, acantocitos y cilindros hemáticos. Es lo que vimos en la clase pasada, pero sin frenos.' },
           { t: 'Semilunas en > 50 % de los glomérulos', d: 'En la biopsia renal',
-            say: 'Y la tercera es histológica: en la biopsia, más de la mitad de los glomérulos tiene semilunas. Por eso también se la llama glomerulonefritis extracapilar.' },
+            say: 'Y la tercera es histológica: en la biopsia, más de la mitad de los glomérulos tiene semilunas. Por eso también se la llama glomerulonefritis extracapilar. Mira esta biopsia: el ovillo capilar está comprimido por la semiluna.',
+            photo: { src: 'biblioteca/07_nefrologia/nefro-16/atlas_115_biopsia_renal_con_semiluna_glo.jpg', label: 'Semiluna en el glomérulo', at: 'Mira esta biopsia', credit: 'Atlas EUNACOM 2026' } },
         ] },
         { title: 'Cómo se presenta', tag: 'En el examen', kind: 'alert', items: [
           { t: 'Adulto mayor con síntomas generales', d: 'Astenia, baja de peso, febrícula, anemia',
@@ -99,9 +100,11 @@ module.exports = {
       cards: [
         { title: 'Tipo 1: anti-MBG', tag: 'Lineal', kind: 'alert', items: [
           { t: 'Anticuerpos anti-MBG positivos', d: 'IgG lineal en la biopsia',
-            say: 'Veamos cada tipo. En el tipo uno, la serología muestra anticuerpos anti membrana basal glomerular, y la biopsia, ese depósito lineal.' },
+            say: 'Veamos cada tipo. En el tipo uno, la serología muestra anticuerpos anti membrana basal glomerular, y la biopsia, ese depósito lineal. Mira estos paneles: arriba, glomérulos con semilunas; abajo a la izquierda, la inmunofluorescencia con depósito lineal en la membrana basal.',
+            photo: { src: 'biblioteca/07_nefrologia/nefro-16/atlas_116_semilunas_if_lineal__open-i.jpg', label: 'Semilunas e IF lineal', at: 'Mira estos paneles', credit: 'Open-i (NLM), CC BY' } },
           { t: 'Con hemorragia alveolar = Goodpasture', d: 'Hemoptisis e infiltrados pulmonares',
-            say: 'Cuando además hay hemorragia alveolar difusa, con hemoptisis e infiltrados pulmonares, se llama síndrome de Goodpasture. Es un síndrome riñón pulmón: el mismo anticuerpo ataca la membrana basal del glomérulo y la del alvéolo.' },
+            say: 'Cuando además hay hemorragia alveolar difusa, con hemoptisis e infiltrados pulmonares, se llama síndrome de Goodpasture. Es un síndrome riñón pulmón: el mismo anticuerpo ataca la membrana basal del glomérulo y la del alvéolo. En esta tomografía, infiltrados alveolares en ambos pulmones: es la hemorragia alveolar.',
+            photo: { src: 'biblioteca/07_nefrologia/nefro-16/atlas_014_hemorragia_alveolar_goodpasture__brant-helms_p446.jpg', label: 'Hemorragia alveolar', at: 'En esta tomografía', credit: 'Fundamentals of Diagnostic Radiology (Brant and Helms), p. 446' } },
         ] },
         { title: 'Tipo 2: inmunocomplejos', tag: 'Granular, C3 bajo', kind: 'key', items: [
           { t: 'Lupus clase IV', d: 'Nefritis lúpica proliferativa difusa',
@@ -129,9 +132,11 @@ module.exports = {
           { t: 'ANCA-c (anti-PR3) > 90 %', d: 'Patrón citoplasmático, proteinasa 3',
             say: 'La granulomatosis con poliangeítis, la antigua enfermedad de Wegener, se asocia a ANCA con patrón citoplasmático, contra la proteinasa tres, en más del noventa por ciento.' },
           { t: 'Vía aérea superior', d: 'Sinusitis destructiva, nariz en silla de montar',
-            say: 'Y su sello es la vía aérea superior: sinusitis crónica destructiva, otitis y perforación del tabique, con la nariz en silla de montar.' },
+            say: 'Y su sello es la vía aérea superior: sinusitis crónica destructiva, otitis y perforación del tabique, con la nariz en silla de montar. Mira esta nariz en silla de montar: el dorso nasal se hunde por la sinusitis destructiva.',
+            photo: { src: 'biblioteca/03_nefrologia/nefro-16/01_nariz_silla_montar__commons.jpg', label: 'Nariz en silla de montar', at: 'Mira esta nariz', credit: 'Wikimedia Commons «Saddle nose 38.jpg», CC BY-SA 4.0, ver autor en Commons' } },
           { t: 'Nódulos pulmonares cavitados', d: 'Más glomerulonefritis necrotizante',
-            say: 'Además, nódulos pulmonares cavitados y glomerulonefritis necrotizante. Para recordarlo: la c de citoplasmático va con la granulomatosis, que tiene cavidades.' },
+            say: 'Además, nódulos pulmonares cavitados y glomerulonefritis necrotizante. Para recordarlo: la c de citoplasmático va con la granulomatosis, que tiene cavidades. Mira esta tomografía: nódulos con cavidades en ambos pulmones.',
+            photo: { src: 'biblioteca/07_nefrologia/nefro-16/atlas_015_nodulos_pulmonares_cavitados_e.jpg', label: 'Nódulos cavitados', at: 'Mira esta tomografía', credit: 'Atlas EUNACOM 2026' } },
         ] },
       ],
     },
@@ -201,19 +206,6 @@ module.exports = {
       steps: [
         { note: 'Tres patrones de inmunofluorescencia',
           say: 'Una necrosis rompe el capilar y las células parietales proliferan, formando una semiluna que asfixia al ovillo. La creatinina sube en días. La inmunofluorescencia separa tres tipos: lineal, por anticuerpos anti membrana basal; granular, por inmunocomplejos; y escasa, la pauciinmune por ANCA, que es la más frecuente.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'La nariz en silla de montar',
-      images: [
-        { src: 'biblioteca/03_nefrologia/nefro-16/01_nariz_silla_montar__commons.jpg', label: 'Nariz en silla de montar', credit: 'Wikimedia Commons «Saddle nose 38.jpg», CC BY-SA 4.0, ver autor en Commons' },
-      ],
-      steps: [
-        { note: 'El dorso de la nariz se hunde',
-          say: 'Así se ve la nariz en silla de montar: el dorso nasal se hunde por la sinusitis destructiva. Junto a una glomerulonefritis rápidamente progresiva y ANCA citoplasmático, apunta a la granulomatosis con poliangeítis.' },
       ],
     },
 

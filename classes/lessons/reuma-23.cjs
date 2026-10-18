@@ -46,7 +46,8 @@ module.exports = {
       cards: [
         { title: "Dolor y rigidez bilateral en hombros y caderas", tag: "Mayores de cincuenta años con inicio agudo", kind: "criteria", items: [
           { t: "Rigidez matinal severa mayor a cuarenta y cinco minutos", d: "Incapacidad para vestirse o peinarse el cabello",
-            say: "La polimialgia reumática se presenta en mayores de cincuenta años con dolor y rigidez matinal prolongada en cinturas escapular y pelviana. Los enfermos relatan gran dificultad para elevar los brazos para peinarse, ponerse el abrigo o levantarse de un sillón bajo." },
+            say: "La polimialgia reumática se presenta en mayores de cincuenta años con dolor y rigidez matinal prolongada en cinturas escapular y pelviana. Los enfermos relatan gran dificultad para elevar los brazos para peinarse, ponerse el abrigo o levantarse de un sillón bajo. Mira este esquema: las zonas rojas son las cinturas, hombros y caderas, donde duele.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-23/02_distribucion_pmr__commons.jpg', label: 'Zonas de la polimialgia', at: 'Mira este esquema', credit: 'Wikimedia Commons «Polymyalgia rheumatica.png», dominio público, ilustración generada con IA' } },
           { t: "Fuerza muscular y enzimas estrictamente normales", d: "La limitación es por dolor, no por paresia miopática",
             say: "Al examen físico la fuerza muscular segmentaria es normal, aunque esté inhibida por el dolor, y la creatina fosfoquinasa plasmática es rigurosamente normal. Si la CPK estuviera elevada o hubiera debilidad muscular real, se debe descartar una miositis inflamatoria." },
         ] },
@@ -84,12 +85,39 @@ module.exports = {
 
     {
       type: "points",
+      kicker: "Tratamiento de la Polimialgia Reumática",
+      title: "Prevenir los efectos de un esteroide por 1 a 2 años",
+      cards: [
+        { title: "Por qué importa", tag: "Tratamiento prolongado", kind: "key", items: [
+          { t: "Parte en 12,5 a 25 mg y baja muy lento", d: "Casi todos superan 5 mg por más de 3 meses",
+            say: "La polimialgia obliga a tratar durante uno a dos años. La prednisona parte en doce coma cinco a veinticinco miligramos al día y baja muy lentamente, así que casi todos los pacientes cumplen el criterio de riesgo: cinco miligramos al día o más por más de tres meses. Las guías ACR de dos mil veintidós bajan el umbral a dos coma cinco miligramos." },
+        ] },
+        { title: "Qué se hace", tag: "Lista de prevención", kind: "criteria", items: [
+          { t: "Salud ósea: calcio, vitamina D, ejercicio", d: "Calcio 1.000 a 1.200 mg; vitamina D 800 a 2.000 UI",
+            say: "Primero la salud ósea: calcio, mil a mil doscientos miligramos al día entre dieta y suplementos, vitamina D, ochocientas a dos mil unidades, ejercicio con carga, densitometría y cálculo de FRAX al inicio, y un bifosfonato oral, alendronato setenta miligramos a la semana, si el riesgo es moderado o alto, como en el adulto mayor." },
+          { t: "Controlar presión, glicemia, lípidos, peso y ojos", d: "Catarata y glaucoma",
+            say: "Segundo, control periódico de presión arterial, glicemia, lípidos y peso, y examen oftalmológico por el riesgo de catarata y glaucoma." },
+          { t: "Vacunas y profilaxis", d: "Influenza y neumococo; cotrimoxazol si más de 20 mg",
+            say: "Tercero, vacunación contra influenza y neumococo, idealmente antes de inmunosuprimir. La protección gástrica es solo si se asocia un antiinflamatorio o un anticoagulante, y se da cotrimoxazol contra Pneumocystis si la dosis supera veinte miligramos al día por más de un mes." },
+        ] },
+        { title: "Reglas finales", tag: "Nunca olvidar", kind: "alert", items: [
+          { t: "Nunca suspender de forma brusca", d: "Riesgo de insuficiencia suprarrenal",
+            say: "Nunca se suspende de forma brusca el esteroide, por el riesgo de insuficiencia suprarrenal." },
+          { t: "Recaídas o dependencia: ahorrador", d: "Metotrexato o tocilizumab, con reumatología",
+            say: "Y si hay recaídas, efectos adversos graves o dependencia de dosis altas, se agrega un ahorrador de corticoides, metotrexato o tocilizumab, bajo reumatología." },
+        ] },
+      ],
+    },
+
+    {
+      type: "points",
       kicker: "Fibromialgia clínica cardinal",
       title: "Semiología de la Fibromialgia: Dolor generalizado y fatiga",
       cards: [
         { title: "Dolor nociplástico difuso en cuatro cuadrantes", tag: "Duración mayor a tres meses", kind: "criteria", items: [
           { t: "Dolor musculoesquelético crónico generalizado", d: "Presente en ambos lados del cuerpo y sobre y bajo la cintura",
-            say: "La fibromialgia afecta preferentemente a mujeres entre veinte y cincuenta y cinco años. Se define por dolor difuso crónico en al menos cuatro de cinco regiones corporales durante más de tres meses, sin evidencia de daño tisular articular." },
+            say: "La fibromialgia afecta preferentemente a mujeres entre veinte y cincuenta y cinco años. Se define por dolor difuso crónico en al menos cuatro de cinco regiones corporales durante más de tres meses, sin evidencia de daño tisular articular. Mira este esquema: los puntos rojos marcan los sitios sensibles clásicos del cuello, el pecho, los codos, la cadera y las rodillas.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-23/01_puntos_fibromialgia__commons.jpg', label: 'Puntos sensibles', at: 'Mira este esquema', credit: 'Wikimedia Commons «Puntos-sensibles-fibromialg.jpg», CC BY-SA 3.0' } },
           { t: "Hiperalgesia y alodinia al examen físico", d: "Dolor exquisito a la presión suave de partes blandas",
             say: "Al examen físico destaca una sensibilidad exagerada con dolor desencadenado por estímulos táctiles suaves sobre inserciones musculotendinosas, sin signos objetivos de sinovitis, calor o derrame articular en ninguna articulación." },
         ] },
@@ -123,6 +151,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Prednisona en el tiempo',
+      images: [
+        { src: 'animaciones/reuma-23/A1_prednisona_baja.mp4', label: 'Dosis y respuesta en la polimialgia', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Dosis en el tiempo',
+          say: 'Mira la dosis de prednisona en el tiempo. La polimialgia parte con quince a veinte miligramos al día, y la mejoría llega en cuarenta y ocho a setenta y dos horas: es casi una prueba terapéutica. Si no mejora en una semana, casi se descarta. Después el descenso es lento, uno a dos miligramos por mes, durante uno a dos años, y nunca se suspende de golpe.' },
+      ],
+    },
+
+    {
       type: "table",
       kicker: "Trampas EUNACOM",
       title: "Diagnóstico diferencial: Fibromialgia vs Polimialgia Reumática",
@@ -136,24 +178,6 @@ module.exports = {
           say: "Reactantes: la polimialgia tiene velocidad de sedimentación masiva; la fibromialgia tiene reactantes rigurosamente normales." },
         { cells: ["Respuesta a corticoides", "ESPECTACULAR a Prednisona 15 mg/día en 48-72h", "NULA: FORMALMENTE CONTRAINDICADOS"],
           say: "Corticoides: la polimialgia responde espectacularmente a prednisona baja; en la fibromialgia los corticoides están contraindicados." },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Fibromialgia y polimialgia',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-23/01_puntos_fibromialgia__commons.jpg', label: 'Fibromialgia', credit: 'Wikimedia Commons «Puntos-sensibles-fibromialg.jpg», CC BY-SA 3.0, Wikimedia commons - own work' },
-        { src: 'biblioteca/08_reumatologia/reuma-23/02_distribucion_pmr__commons.jpg', label: 'Polimialgia reumática', credit: 'Wikimedia Commons «Polymyalgia rheumatica.png», Public domain, openAi' },
-      ],
-      steps: [
-        { note: 'Puntos sensibles',
-          say: 'La fibromialgia da dolor difuso con puntos sensibles y exámenes normales.' },
-        { note: 'Dolor en las cinturas',
-          say: 'La polimialgia da dolor y rigidez en hombros y caderas, en un mayor de cincuenta, con VHS alta. Responde a dosis bajas de prednisona.' },
       ],
     },
 
@@ -244,6 +268,44 @@ module.exports = {
         options: "Las opciones: inhibidores duales como duloxetina, ligandos alfa dos delta como pregabalina, antidepresivos tricíclicos como amitriptilina, corticoides sistémicos y opioides mayores, o paracetamol. Piénsalo.",
         answer: "Es la D. Los corticoides sistémicos y los opioides mayores están formalmente contraindicados en fibromialgia por ineficacia demostrada y riesgo de inducir hiperalgesia paradójica y adicción.",
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.11.3.002 · Prevención de complicaciones de la terapia esteroidal",
+      "stem": "Mujer de 70 años con polimialgia reumática inicia prednisona 15 mg al día, con un plan de disminución lenta durante al menos 1 año. Su densitometría muestra un T-score de -2,1 en cadera.",
+      "question": "¿Cuál es la medida más adecuada para prevenir complicaciones de la terapia esteroidal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ninguna medida preventiva, por tratarse de una dosis moderada"
+        },
+        {
+          "letter": "B",
+          "text": "Calcio, vitamina D y bisfosfonato, además de control de glicemia y presión arterial"
+        },
+        {
+          "letter": "C",
+          "text": "Suspender bruscamente la prednisona al mes"
+        },
+        {
+          "letter": "D",
+          "text": "Antibiótico profiláctico permanente"
+        },
+        {
+          "letter": "E",
+          "text": "Duplicar la dosis de prednisona ante cualquier estrés menor sin indicación"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El uso de prednisona de 2,5 mg o más por más de 3 meses causa osteoporosis, diabetes, hipertensión, cataratas, infecciones e insuficiencia suprarrenal al suspender. En adultos mayores con osteopenia se indica calcio, vitamina D y bisfosfonato, se controlan glicemia, presión y peso, y el descenso es gradual, nunca brusco. La profilaxis antibiótica no es rutinaria.",
+      "say": {
+        "stem": "Mujer de setenta años con polimialgia reumática que inicia prednisona por al menos un año, con osteopenia en la densitometría.",
+        "question": "¿Cómo previenes las complicaciones del corticoide?",
+        "options": "Las opciones: nada por ser dosis moderada, calcio, vitamina D y bisfosfonato con control de glicemia y presión, suspender bruscamente, antibiótico profiláctico, o duplicar la dosis ante cualquier estrés. Piénsalo.",
+        "answer": "Es la B. Calcio, vitamina D y bisfosfonato, además de vigilar glicemia y presión. Creer que la dosis moderada no daña es el error, porque el riesgo óseo aparece desde dosis bajas por tiempo prolongado."
+      }
     },
 
     {

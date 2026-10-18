@@ -232,14 +232,14 @@ Hombre de 35 años sin antecedentes previos consulta por edema facial al despert
 Explicación del banco: Proteinuria masiva (>3.5 g/24h) + hipoalbuminemia + edema + sin hematuria = síndrome nefrótico puro. En adulto joven sin causa secundaria, la causa más frecuente es nefropatía por cambios mínimos.
 
 ### [3] EUNACOM Diciembre 2025 · Pregunta 143 · confianza 0.95
-¿A qué concepto corresponde la siguiente deﬁnición: “Conjunto de medidas des8nadas a evitar que una enfermedad ocurra, actuando antes de que exista la enfermedad o el daño causado por esta”?
+¿A qué concepto corresponde la siguiente definición: “Conjunto de medidas destinadas a evitar que una enfermedad ocurra, actuando antes de que exista la enfermedad o el daño causado por esta”?
 - A) Prevención primaria
 - B) Prevención secundaria
 - C) Prevención terciaria
 - D) Prevención cuaternaria
 - E) Promoción de la salud
 **Correcta: A**
-Explicación del banco: Prevención primaria actúa antes de que exista la enfermedad (ej. vacunas con papiloma). Prevención secundaria actúa cuando ya existe la enfermedad, pero todavía no hay síntomas, permiGendo un diagnóstico oportuno (ej. PAP). Prevención terciaria actúa cuando la enfermedad ya Gene síntomas, para recuperar la salud y evitar complicaciones y recidivas (ej. histerectomía radical). Prevención cuaternaria enfrenta los síntomas, en ausencia de una patología orgánica (ej. psicoterapia de trastorno somatomorfo). Promoción de la salud consiste en enseñar hábitos de vida saludables, por lo que se enmarca dentro de la prevención primaria, pero su deﬁnición es especíﬁca.
+Explicación del banco: Prevención primaria actúa antes de que exista la enfermedad (ej. vacunas con papiloma). Prevención secundaria actúa cuando ya existe la enfermedad, pero todavía no hay síntomas, permitiendo un diagnóstico oportuno (ej. PAP). Prevención terciaria actúa cuando la enfermedad ya Gene síntomas, para recuperar la salud y evitar complicaciones y recidivas (ej. histerectomía radical). Prevención cuaternaria enfrenta los síntomas, en ausencia de una patología orgánica (ej. psicoterapia de trastorno somatomorfo). Promoción de la salud consiste en enseñar hábitos de vida saludables, por lo que se enmarca dentro de la prevención primaria, pero su definición es específica.
 
 ### [4] EUNACOM Diciembre 2024 · Pregunta 158 · confianza 0.95
 Clínica de taponamiento, hipotensión, pulsos disminuidos como realizo el diagnóstico:
@@ -352,14 +352,14 @@ Una paciente de 28 años, multípara de 2, con un parto nacido por cesárea y el
 Explicación del banco: Conducta / Tratamiento indicado: **Mantener una conducta expectante** (opción **E**). Manejo De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad. Las opciones alternativas (Inducir el parto, Realizar amniocentesis) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.
 
 ### [15] EUNACOM Diciembre 2025 · Pregunta 180 · confianza 0.9
-Una paciente de 23 años no llega a su domicilio luego de un conﬂicto familiar grave, siendo encontrada dos días después en una ciudad diferente, en buenas condiciones generales. Ella no recuerda nada de lo sucedido en ese intervalo de 8empo y no parece estar preocupada por ello. Su examen neurológico es normal. ¿Cuál es el diagnós8co más probable?
+Una paciente de 23 años no llega a su domicilio luego de un conflicto familiar grave, siendo encontrada dos días después en una ciudad diferente, en buenas condiciones generales. Ella no recuerda nada de lo sucedido en ese intervalo de tiempo y no parece estar preocupada por ello. Su examen neurológico es normal. ¿Cuál es el diagnóstico más probable?
 - A) Amnesia global transitoria
 - B) Episodio psicó2co breve
 - C) Trastorno conversivo
 - D) Trastorno de estrés agudo
 - E) Trastorno disocia2vo
 **Correcta: E**
-Explicación del banco: Tiene una fuga disociativa clásica, que es un Gpo de amnesia disociativa, en la que, además, se produce una “fuga” desde su lugar habitual. No se debe confundir con la amnesia global transitoria, que es un Gpo de accidente isquémico transitorio cerebral (se debe buscar fuente embólica), que se caracteriza por desorientación y amnesia (repiGendo las mismas preguntas), autolimitado, de pocas horas de evolución.
+Explicación del banco: Tiene una fuga disociativa clásica, que es un Gpo de amnesia disociativa, en la que, además, se produce una “fuga” desde su lugar habitual. No se debe confundir con la amnesia global transitoria, que es un Gpo de accidente isquémico transitorio cerebral (se debe buscar fuente embólica), que se caracteriza por desorientación y amnesia (repitiendo las mismas preguntas), autolimitado, de pocas horas de evolución.
 
 ### [16] EUNACOM Julio 2025 · Pregunta 166 · confianza 0.9
 paciente con diabetes gestacional 28 semanas, con tto metformina pero con cifras elevadas de glicemia, se preguntaba cómo continuar tto

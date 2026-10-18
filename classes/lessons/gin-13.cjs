@@ -73,9 +73,11 @@ module.exports = {
         ] },
         { title: 'Lesiones intraepiteliales', tag: 'LIE', kind: 'criteria', items: [
           { t: 'LIEBG o NIE I', d: 'Casi siempre regresiona sola en dos años',
-            say: 'Después vienen las lesiones intraepiteliales. La de bajo grado, o NIE uno, es la infección misma por el virus, y en más de ochenta de cada cien casos regresiona sola en dos años. No te apures a tratarla.' },
+            say: 'Después vienen las lesiones intraepiteliales. La de bajo grado, o NIE uno, es la infección misma por el virus, y en más de ochenta de cada cien casos regresiona sola en dos años. No te apures a tratarla. Mira esta colposcopía, tras el ácido acético: la lesión de bajo grado es blanca brillante, de bordes irregulares.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-13/01_colposcopia_lsil_acetoblanco__williams-gyn_p665.jpg', label: 'Lesión de bajo grado', at: 'Mira esta colposcopía', credit: 'Williams Gynecology 4.ª ed., Fig. 29-12' } },
           { t: 'LIEAG o NIE II-III', d: 'Alto riesgo de progresar a cáncer invasor',
-            say: 'La de alto grado, NIE dos o NIE tres, es distinta: tiene alto riesgo de progresar a cáncer invasor, y esa es la que te obliga a actuar rápido.' },
+            say: 'La de alto grado, NIE dos o NIE tres, es distinta: tiene alto riesgo de progresar a cáncer invasor, y esa es la que te obliga a actuar rápido. Mira cómo cambia: en esta colposcopía la lesión es blanca opaca, con vasos gruesos. Esa se biopsia.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-13/02_colposcopia_hsil__williams-gyn_p665.jpg', label: 'Lesión de alto grado', at: 'Mira cómo cambia', credit: 'Williams Gynecology 4.ª ed., Fig. 29-13' } },
         ] },
         { title: 'Glandular o invasor', tag: 'Sin margen de duda', kind: 'alert', items: [
           { t: 'AGC o sospecha de invasión', d: 'Se deriva de inmediato, sin observar',
@@ -118,6 +120,57 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Procedimientos',
+      title: 'Cómo se toma un Papanicolau',
+      cards: [
+        { title: 'Antes y durante', tag: 'Dos muestras', kind: 'key', items: [
+          { t: 'Preparación de la paciente', d: 'Fuera de la regla; 48 horas sin relaciones, duchas ni óvulos',
+            say: 'Vamos al procedimiento, que también se pregunta. El Papanicolau se toma idealmente fuera de la menstruación, y sin relaciones sexuales, duchas, óvulos o cremas vaginales en las cuarenta y ocho horas previas.' },
+          { t: 'Espéculo sin lubricante y dos muestras', d: 'Exocérvix con espátula de Ayre, endocérvix con cepillo',
+            say: 'Se usa un espéculo sin lubricante, se visualiza el cuello y se toman dos muestras. Mira la ilustración: el instrumento llega al cuello a través del espéculo. El exocérvix se toma con la espátula de Ayre, rotándola trescientos sesenta grados sobre la unión escamocolumnar, y el endocérvix con un cepillo.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-13/05_toma-papanicolau__blausen.png', label: 'Toma de Papanicolau', at: 'Mira la ilustración', credit: 'Blausen.com staff (2014), CC BY 3.0' } },
+        ] },
+        { title: 'El frotis', tag: 'Rápido y delgado', kind: 'criteria', items: [
+          { t: 'Un solo movimiento y fijar de inmediato', d: 'Spray o alcohol 95 %, para evitar la desecación',
+            say: 'El frotis se extiende en la lámina con un solo movimiento, delgado y uniforme, y se fija de inmediato con spray o alcohol de noventa y cinco grados, para evitar que se seque. Se rotula con la identificación de la paciente y se envía con la solicitud: edad, fecha de última regla, antecedentes y método anticonceptivo.' },
+          { t: 'Muestra satisfactoria', d: 'Con células endocervicales o de la zona de transformación',
+            say: 'La muestra es satisfactoria si incluye células endocervicales o de la zona de transformación. Si el cuello sangra, hay inflamación intensa o se sospecha un cáncer, no se posterga: se deriva. Así se ve una citología al microscopio.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-13/03_citologia-cervical__commons.jpg', label: 'Citología cervical', at: 'Así se ve una citología', credit: 'Wikimedia Commons, CC BY 2.0' } },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Procedimientos',
+      title: 'Taponaje vaginal',
+      nodes: [
+        { id: 'ind', col: 0, row: 1, k: 'start', t: 'Hemorragia masiva', s: 'Cáncer cervical, trauma, posbiopsia' },
+        { id: 'prep', col: 1, row: 1, k: 'mech', t: 'Vía venosa y analgesia', s: 'Espéculo, limpiar y ubicar el punto' },
+        { id: 'tap', col: 2, row: 0, k: 'good', t: 'Gasa larga desde el fondo', s: 'Con ácido tranexámico o povidona' },
+        { id: 'fol', col: 2, row: 2, k: 'alert', t: 'Sonda Foley', s: 'El tapón comprime la uretra' },
+        { id: 'ret', col: 3, row: 1, k: 'q', t: 'Retiro a las 24 a 48 horas', s: 'Contar gasas; antibiótico' },
+      ],
+      edges: [
+        { from: 'ind', to: 'prep' }, { from: 'prep', to: 'tap' }, { from: 'prep', to: 'fol' },
+        { from: 'tap', to: 'ret' }, { from: 'fol', to: 'ret' },
+      ],
+      steps: [
+        { show: ['ind'], note: 'Medida temporal',
+          say: 'El taponaje vaginal es una medida temporal de hemostasia en una hemorragia vaginal o cervical masiva: cáncer cervicouterino, trauma obstétrico o sexual, o después de una biopsia. Sirve mientras se repone volumen y se traslada a la paciente a un centro con resolución.' },
+        { show: ['prep'], note: 'Antes de empaquetar',
+          say: 'Primero vía venosa y analgesia. Con el espéculo limpias y ubicas el punto sangrante.' },
+        { show: ['tap'], note: 'Del fondo al introito',
+          say: 'Luego introduces una gasa larga o compresas, mejor si están impregnadas en ácido tranexámico, povidona o vaselina, empaquetando desde el fondo de la vagina hacia el introito.' },
+        { show: ['fol'], note: 'Si no, retención urinaria',
+          say: 'Y colocas una sonda Foley, porque el tapón comprime la uretra y produce retención urinaria.' },
+        { show: ['ret'], note: 'No reemplaza la derivación',
+          say: 'El tapón se retira a las veinticuatro a cuarenta y ocho horas, con profilaxis antibiótica según protocolo, y contando las gasas. Ojo: no reemplaza la derivación urgente a oncología ginecológica.' },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Tratamiento preinvasor',
       title: 'Cómo se trata la lesión de alto grado',
       cards: [
@@ -149,7 +202,8 @@ module.exports = {
         ] },
         { title: 'Al examen', tag: 'Especuloscopía', kind: 'criteria', items: [
           { t: 'Masa friable o úlcera', d: 'Sangra fácil al tocarla',
-            say: 'Al examen con espéculo vas a encontrar una masa que sangra fácil al tocarla, o una úlcera en el cuello. Con esa imagen, no hay que dudar: se biopsia directo.' },
+            say: 'Al examen con espéculo vas a encontrar una masa que sangra fácil al tocarla, o una úlcera en el cuello. Mira este cuello: un tumor exofítico, ulcerado y friable, que reemplaza el exocérvix. Con esa imagen, no hay que dudar: se biopsia directo.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-13/04_cancer-cervicouterino-invasor__knoop_p276.jpg', label: 'Cáncer cervicouterino', at: 'Mira este cuello', credit: 'The Atlas of Emergency Medicine (Knoop), p. 276' } },
         ] },
       ],
     },
@@ -188,28 +242,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'Del virus al cáncer',
       images: [
-        { src: 'animaciones/gin-13/A1_vph_cancer.mp4', label: 'VPH', credit: 'Animación propia' },
+        { src: 'animaciones/gin-13/A1_vph_cancer.mp4', label: 'Zona de transformación', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Lesiones que progresan',
-          say: 'La infección por VPH suele eliminarse. Si persiste, aparece una lesión de bajo grado, luego de alto grado, y finalmente un cáncer que atraviesa la membrana basal. El PAP detecta las lesiones antes del cáncer.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Colposcopía',
-      images: [
-        { src: 'biblioteca/13_ginecologia/gin-13/01_colposcopia_lsil_acetoblanco__williams-gyn_p665.jpg', label: 'Lesión de bajo grado', credit: 'Williams Gynecology 4.ª ed., Fig. 29-12' },
-        { src: 'biblioteca/13_ginecologia/gin-13/02_colposcopia_hsil__williams-gyn_p665.jpg', label: 'Lesión de alto grado', credit: 'Williams Gynecology 4.ª ed., Fig. 29-13' },
-      ],
-      steps: [
-        { note: 'Blanco brillante tras ácido acético',
-          say: 'Tras el ácido acético, la lesión de bajo grado se ve blanca brillante, de bordes irregulares.' },
-        { note: 'Blanco opaco con vasos gruesos',
-          say: 'La de alto grado es blanca opaca, con vasos gruesos. Se biopsia.' },
+        { note: 'Del VPH a la lesión y al cáncer',
+          say: 'Mira el cuello uterino. El virus de alto riesgo infecta las células basales de la zona de transformación. La lesión de bajo grado casi siempre regresiona sola. Si persiste, las proteínas E seis y E siete bloquean a la p cincuenta y tres y a Rb, la lesión pasa a alto grado y, si atraviesa la membrana basal, es un cáncer invasor. El Papanicolau cada tres años la detecta antes.' },
       ],
     },
 
@@ -327,6 +364,119 @@ module.exports = {
         options: 'Las opciones: repetir el PAP en seis meses, repetirlo en seis años, hacer colposcopía y eventual biopsia, hacer conización, o hacer histerectomía. Piénsalo.',
         answer: 'Es la C. Fíjate en la trampa: el resultado del virus es de bajo grado, pero eso no importa aquí, porque el Papanicolau ya viene como lesión de alto grado. Y un Papanicolau de alto grado siempre va a colposcopía y biopsia, sin que la tipificación del virus cambie nada.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.4.007 · Papanicolau",
+      "stem": "Mujer de 31 años, asintomática, se toma su Papanicolau de tamizaje en el CESFAM al cuarto día de su menstruación. El informe dice: muestra insatisfactoria para evaluación, por abundante sangre que oscurece las células.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Colposcopía inmediata"
+        },
+        {
+          "letter": "B",
+          "text": "Test de VPH y conización si resulta positivo"
+        },
+        {
+          "letter": "C",
+          "text": "Control en 3 años, como un Papanicolau normal"
+        },
+        {
+          "letter": "D",
+          "text": "Repetir el Papanicolau fuera de la menstruación, sin relaciones, duchas ni óvulos en las 48 horas previas"
+        },
+        {
+          "letter": "E",
+          "text": "Biopsia endometrial"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Una muestra insatisfactoria no es normal ni anormal: no permitió evaluar las células. Se repite el Papanicolau, idealmente a mitad de ciclo, sin sangrado y sin relaciones, duchas ni óvulos en las 48 horas previas, tomando exocérvix con espátula y endocérvix con cepillo.",
+      "say": {
+        "stem": "Mujer de treinta y un años, sin síntomas, se toma su Papanicolau de tamizaje al cuarto día de la menstruación. El informe dice que la muestra es insatisfactoria, porque la sangre oscurece las células.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: colposcopía inmediata, test de VPH con conización si es positivo, control en tres años, repetir el Papanicolau sin menstruación ni relaciones previas o biopsia endometrial. Piénsalo.",
+        "answer": "Es la D. Una muestra insatisfactoria no informa nada sobre las células, así que se repite el Papanicolau sin menstruación y sin relaciones ni óvulos en los dos días previos. Controlar en tres años tienta, pero sería tratar como normal un examen que no se pudo leer."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.5.013 · Taponaje vaginal",
+      "stem": "Mujer de 48 años, con cáncer cervicouterino etapa IIIB en espera de radioterapia, consulta por metrorragia abundante. Tras volemización está hemodinámicamente estable, pero el sangrado desde el tumor cervical persiste pese a ácido tranexámico endovenoso.",
+      "question": "¿Cuál es la medida inmediata más adecuada para controlar el sangrado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alta con anticonceptivos orales combinados"
+        },
+        {
+          "letter": "B",
+          "text": "Histerectomía radical de urgencia"
+        },
+        {
+          "letter": "C",
+          "text": "Legrado uterino"
+        },
+        {
+          "letter": "D",
+          "text": "Conización cervical"
+        },
+        {
+          "letter": "E",
+          "text": "Taponamiento vaginal compresivo con gasa"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El sangrado de un cáncer cervicouterino avanzado se controla de inmediato con taponamiento vaginal compresivo, habitualmente con sonda Foley, que se retira o recambia en 24 a 48 horas, mientras se coordina radioterapia hemostática o embolización. La cirugía no está indicada en etapa IIIB y el legrado o la conización aumentan el sangrado.",
+      "say": {
+        "stem": "Mujer con cáncer cervicouterino avanzado que sangra abundante desde el tumor pese al ácido tranexámico, ya estabilizada.",
+        "question": "¿Cuál es la medida inmediata?",
+        "options": "Las opciones: alta con anticonceptivos, histerectomía radical, legrado, conización o taponamiento vaginal. Piénsalo.",
+        "answer": "Es la E. El taponamiento vaginal compresivo controla el sangrado mientras se coordina radioterapia hemostática. La histerectomía tienta como solución definitiva, pero en etapa tres B el tumor ya no es quirúrgico."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.5.014 · Toma de Papanicolau (incluye hacer el frotis)",
+      "stem": "Mujer de 35 años acude al CESFAM para su citología cervical de tamizaje. No está menstruando y no ha tenido relaciones sexuales ni usado óvulos en las últimas 48 horas.",
+      "question": "¿Cuál es la técnica correcta para tomar el PAP?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Muestra solo del fondo de saco vaginal posterior con tórula"
+        },
+        {
+          "letter": "B",
+          "text": "Muestra de exocérvix con espátula de Ayre y de endocérvix con cepillo, extendido delgado en el portaobjetos y fijación inmediata"
+        },
+        {
+          "letter": "C",
+          "text": "Tomar la muestra después del tacto bimanual, usando abundante lubricante"
+        },
+        {
+          "letter": "D",
+          "text": "Extender la muestra y dejarla secar al aire 10 minutos antes de fijarla"
+        },
+        {
+          "letter": "E",
+          "text": "Extender la muestra en capa gruesa para aumentar la celularidad"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El PAP debe incluir la zona de transformación: exocérvix con espátula de Ayre y endocérvix con cepillo. Se extiende en capa delgada y uniforme y se fija de inmediato, en menos de 10 segundos, para evitar artefactos por desecación. El lubricante, la sangre y el tacto previo alteran la muestra.",
+      "say": {
+        "stem": "Mujer de treinta y cinco años que viene a tomarse el Papanicolau de tamizaje.",
+        "question": "¿Cuál es la técnica correcta?",
+        "options": "Las opciones: solo fondo de saco, espátula y cepillo con extendido delgado y fijación inmediata, después del tacto con lubricante, secado al aire o capa gruesa. Piénsalo.",
+        "answer": "Es la B. Se toma exocérvix con espátula y endocérvix con cepillo, se extiende delgado y se fija al tiro. Dejar secar tienta, pero la desecación arruina las células y deja la muestra inadecuada."
+      }
     },
 
     {

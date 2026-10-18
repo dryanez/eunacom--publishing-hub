@@ -199,6 +199,15 @@ module.exports = { bloque1: [
           "<strong>Las 5H:</strong> 1) <em>Hipovolemia</em> (shock hemorrágico, deshidratación → infusión masiva de cristaloides/sangre); 2) <em>Hipoxia</em> (obstrucción vía aérea → intubación y O₂ 100%); 3) <em>Hidrogeniones / Acidosis</em> (ventilación adecuada y bicarbonato solo si pH < 7.1 o intoxicación por tricíclicos); 4) <em>Hipo / Hiperkalemia</em> (Gluconato de Calcio al 10% EV inmediato en hiperkalemia con ensanchamiento del QRS); 5) <em>Hipotermia</em> (recalentamiento activo).",
           "<strong>Las 5T:</strong> 1) <em>Trombosis Coronaria (IAM)</em> → angioplastía de rescate post-RCE; 2) <em>Trombosis Pulmonar (TEP Masivo)</em> → trombólisis con Alteplasa en paro; 3) <em>Tensión Neumotórax</em> → descompresión inmediata con aguja en 2° EIC línea medioclavicular o 5° EIC línea axilar anterior; 4) <em>Taponamiento Cardíaco</em> → pericardiocentesis de urgencia; 5) <em>Tóxicos / Sobredosis</em> (Naloxona en opioides, Flumazenil, etc.)."
         ]
+      },
+      {
+        "subhead": "5. PCR y RCP en el Hospital y en Otras Especialidades: Técnica, Causas Respiratorias y Perioperatorias, Cuidados Post-Paro",
+        "paragraphs": [
+          "<b>Técnica de la RCP que el médico general debe realizar (secuencia C-A-B):</b> 1) asegurar la escena y comprobar la respuesta; 2) pedir ayuda, activar el sistema de emergencia (131 o Código Azul) y solicitar el desfibrilador; 3) evaluar la respiración y el pulso carotídeo por <b>no más de 10 segundos</b>; 4) iniciar de inmediato <b>compresiones en la mitad inferior del esternón</b>, con el talón de una mano sobre la otra, brazos rectos, sobre una superficie firme; 5) abrir la vía aérea con extensión de cabeza y elevación del mentón (<b>tracción mandibular</b> si se sospecha lesión cervical) y ventilar con <b>bolsa-mascarilla y oxígeno a alto flujo</b>, 1 segundo por ventilación con elevación visible del tórax, en relación <b>30:2</b>; 6) encender el DEA o el monitor en cuanto llegue, colocar los parches y no tocar al paciente al analizar o descargar. Con vía aérea avanzada las compresiones son continuas con 1 ventilación cada 6 segundos. Se usa vía <b>intraósea</b> si no hay acceso venoso, y la <b>capnografía</b> guía la calidad de la RCP (CO₂ espirado < 10 mmHg indica compresiones ineficaces; un alza súbita sugiere retorno de circulación). La RCP no se inicia si hay una orden de no reanimar documentada o signos evidentes de muerte.",
+          "<b>Paro de causa respiratoria o hipóxica:</b> en la asfixia, el ahogamiento, la obstrucción de la vía aérea, el asma grave, la EPOC descompensada y la sobredosis de opioides, el ritmo inicial suele ser <b>bradicardia progresiva que termina en asistolia o AESP</b> y no una fibrilación ventricular. Por eso en estos paros la <b>ventilación y la oxigenación</b> son tan importantes como las compresiones, y se trata la causa mientras se reanima: desobstruir la vía aérea, ventilar con O₂ al 100%, <b>naloxona</b> en intoxicación por opioides, descompresión del <b>neumotórax a tensión</b>, broncodilatadores y adrenalina en el asma casi fatal. La hipoxia es la causa reversible más frecuente de AESP.",
+          "<b>Paro perioperatorio y de la anestesia:</b> ocurre en un paciente monitorizado, por lo que suele reconocerse por la caída brusca de la saturación, del CO₂ espirado o de la presión arterial. Las causas reversibles son: problemas de la <b>vía aérea</b> (laringoespasmo, intubación esofágica, aspiración); <b>hipovolemia o hemorragia</b>; <b>anafilaxia</b> (relajantes musculares, antibióticos, látex; se trata con adrenalina); <b>neumotórax a tensión</b>; <b>hiperkalemia</b> por succinilcolina en quemados o rabdomiólisis; <b>toxicidad por anestésico local</b> (bupivacaína; se agrega <b>emulsión lipídica al 20%</b>); <b>hipertermia maligna</b> (dantroleno) y embolia pulmonar, gaseosa o grasa. Se suspende el anestésico, se ventila con O₂ al 100% y se aplica el mismo algoritmo ACLS. En el postoperatorio inmediato de cirugía cardíaca se administran hasta 3 descargas consecutivas antes de comenzar las compresiones y se prepara la reapertura del esternón.",
+          "<b>Cuidados post-paro (después de recuperar la circulación):</b> 1) mantener <b>SpO₂ entre 92 y 98%</b> (evitar la hiperoxia) y normocapnia; 2) mantener una <b>PAM ≥ 65 mmHg</b> con fluidos y vasopresores; 3) <b>ECG de 12 derivaciones</b> inmediato y <b>coronariografía urgente</b> si hay supradesnivel del ST; 4) controlar la temperatura (evitar la fiebre, con meta entre 32 y 37,5 °C) en el paciente que no obedece órdenes; 5) controlar la glicemia, tratar las convulsiones y corregir la causa del paro; y 6) postergar el pronóstico neurológico hasta al menos <b>72 horas</b> del evento. Todo paro se documenta y el paciente se traslada a una unidad de cuidados intensivos."
+        ]
       }
     ],
     "table": {
@@ -733,6 +742,286 @@ module.exports = { bloque1: [
         "correcta": "A",
         "explicacion": "En una bradiarritmia con inestabilidad hemodinámica que no responde a la dosis inicial de atropina, la conducta de emergencia perentoria es la estimulación eléctrica mediante marcapaso transcutáneo externo asociada al inicio de drogas vasoactivas (Adrenalina o Dopamina) mientras se prepara el marcapaso transvenoso.",
         "recTag": "Reconstrucción Oficial EUNACOM 2024 • Pregunta #27"
+      }
+    ]
+  },
+  {
+    "id": "cardio-25",
+    "tier": 3,
+    "blockNum": 1,
+    "blockName": "Arritmias, Conducción & Urgencias Eléctricas",
+    "topicLabel": "1.6",
+    "title": "Extrasístoles Ventriculares Benignas y Holter de Ritmo",
+    "perfilCode": "1.01.1.011, 1.01.4.014",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Completo",
+    "ges": "Sin garantía GES específica · se resuelve en atención primaria con derivación si hay banderas rojas",
+    "reconstrucciones": "EUNACOM Diciembre 2017 (Q#7)",
+    "frecuencia": "Rentabilidad media · palpitaciones con corazón sano: tranquilizar; Holter de 24 horas para correlacionar síntomas con el ritmo y cuantificar la carga",
+    "svg": "null",
+    "algoTitle": "Evaluación de las Extrasístoles Ventriculares y Uso del Holter",
+    "contexto": "Las extrasístoles ventriculares (EV) son la causa más frecuente de palpitaciones y están presentes en más de la mitad de las personas sanas si se registran por 24 horas. En un corazón estructuralmente normal son benignas y solo requieren tranquilizar y suprimir gatillantes; en un corazón enfermo, en cambio, pueden anunciar arritmias malignas. El Holter de ritmo es el examen que el médico general debe saber pedir e interpretar: permite cuantificar cuántas extrasístoles hay, descartar taquicardia ventricular y correlacionar los síntomas con el ritmo.",
+    "contentSections": [
+      {
+        "subhead": "1. Extrasístoles Ventriculares: Reconocimiento y Diferencia entre Benignas y de Alarma",
+        "paragraphs": [
+          "La <b>extrasístole ventricular (EV)</b> es un latido prematuro que nace en el ventrículo, sin onda P previa. En el ECG es un <b>complejo QRS ancho (≥ 120 ms) y prematuro</b>, de morfología distinta al latido sinusal, con onda T de sentido opuesto y una <b>pausa compensadora completa</b>. El paciente refiere «saltos» o «vuelcos» en el pecho, un latido fuerte tras la pausa o mareo breve; muchos no tienen síntomas. Se clasifican como aisladas, en <b>parejas</b>, en <b>bigeminismo</b> o <b>trigeminismo</b> (cada 2 o 3 latidos), y <b>monomorfas</b> (una sola morfología) o <b>polimorfas</b>.",
+          "<b>Son benignas</b> cuando se cumplen todas estas condiciones: <b>corazón estructuralmente sano</b> (examen, ECG basal y ecocardiograma normales), EV <b>aisladas y monomorfas</b>, <b>desaparecen o disminuyen con el ejercicio</b>, sin síncope, sin antecedente familiar de muerte súbita y <b>carga baja</b> (menos de 10% de los latidos en el Holter). Suelen originarse en el <b>tracto de salida del ventrículo derecho</b> (morfología de bloqueo de rama izquierda con eje inferior). Los gatillantes son <b>cafeína, alcohol, tabaco, estimulantes y simpaticomiméticos</b>, el estrés y la privación de sueño, el <b>hipertiroidismo</b> y las alteraciones del potasio y el magnesio.",
+          "<b>Banderas rojas</b> que obligan a derivar: <b>cardiopatía estructural</b> (infarto previo, miocardiopatía, FEVI deprimida, hipertrofia importante), <b>síncope</b> o presíncope, antecedente familiar de muerte súbita, EV <b>polimorfas</b>, <b>parejas o taquicardia ventricular no sostenida</b>, EV que <b>aumentan con el ejercicio</b>, fenómeno R sobre T, QT largo y una <b>carga mayor de 10 a 15%</b>, porque puede producir una miocardiopatía por extrasístoles con caída de la FEVI.",
+          "<b>Estudio inicial:</b> anamnesis (fármacos, drogas, cafeína, antecedentes familiares), examen cardiovascular, <b>ECG de 12 derivaciones</b>, electrolitos (potasio, magnesio), <b>TSH</b> y <b>ecocardiograma</b> para descartar cardiopatía estructural. Se agrega un <b>Holter de 24 horas</b> para cuantificar la carga y descartar taquicardia ventricular, y una <b>prueba de esfuerzo</b> si se sospecha isquemia o si las EV aparecen con el ejercicio."
+        ]
+      },
+      {
+        "subhead": "2. Conducta Inicial y Seguimiento",
+        "paragraphs": [
+          "<b>EV benignas asintomáticas o poco sintomáticas: no se tratan.</b> Se <b>tranquiliza</b> al paciente explicando que el pronóstico es excelente, se suprimen los gatillantes (café, alcohol, tabaco, energizantes, descongestionantes) y se corrigen el sueño y el estrés. No se usan antiarrítmicos en los asintomáticos: tratar el número de extrasístoles no mejora la sobrevida.",
+          "<b>EV muy sintomáticas:</b> el tratamiento de primera línea es un <b>betabloqueador</b> (bisoprolol, metoprolol) o un <b>calcioantagonista no dihidropiridínico</b> (verapamilo, diltiazem). Los <b>antiarrítmicos clase I (flecainida, propafenona)</b> y la amiodarona <b>no están indicados</b> en el médico general y están <b>contraindicados en cardiopatía estructural</b> (el estudio CAST mostró mayor mortalidad con flecainida tras un infarto). Se deriva a cardiología para evaluar la <b>ablación con catéter</b> si los síntomas son refractarios, si la carga es alta (> 10 a 15%) o si baja la FEVI.",
+          "<b>Seguimiento:</b> el paciente con EV benignas y estudio normal se controla en forma clínica; se repite el Holter y el ecocardiograma si aparecen síntomas nuevos, síncope o si la carga era alta (control anual de FEVI). En el paciente con cardiopatía (infarto previo, FEVI baja), las EV frecuentes se manejan tratando la enfermedad de base con betabloqueador y el resto del tratamiento de la insuficiencia cardíaca, y se deriva para evaluar un desfibrilador si cumple los criterios."
+        ]
+      },
+      {
+        "subhead": "3. Holter de Ritmo: Indicaciones e Interpretación del Informe",
+        "paragraphs": [
+          "El <b>Holter de ritmo</b> es el registro electrocardiográfico continuo de <b>24 a 48 horas</b> (hasta 7 a 14 días con parches adhesivos), mientras el paciente hace su vida habitual y anota sus síntomas en un diario. Está indicado en <b>palpitaciones, mareo, presíncope o síncope</b> (para correlacionar el síntoma con el ritmo), para <b>cuantificar la carga de extrasístoles</b>, detectar <b>fibrilación auricular paroxística</b> en un ACV criptogénico, evaluar el <b>control de la frecuencia</b> en la FA, buscar bradiarritmias o pausas en la enfermedad del nodo sinusal (síndrome taquicardia-bradicardia) y controlar la respuesta al tratamiento antiarrítmico.",
+          "<b>Cómo se emplea el informe:</b> se revisan la frecuencia cardíaca <b>mínima, media y máxima</b>, las <b>pausas</b> (más de 3 segundos es patológica en vigilia), los bloqueos AV de alto grado (Mobitz II y completo), la <b>carga de EV</b> (porcentaje de latidos totales), las parejas y los episodios de <b>taquicardia ventricular no sostenida</b>, la FA o el flutter y las taquicardias supraventriculares, y la <b>correlación con el diario de síntomas</b>. Un Holter con síntomas sin alteración del ritmo descarta arritmia como causa; las pausas sintomáticas o los bloqueos de alto grado indican <b>marcapaso</b>; la TV no sostenida con cardiopatía obliga a derivar; la carga de EV mayor de 10% orienta a ecocardiograma y derivación.",
+          "<b>Limitaciones:</b> un Holter normal no descarta una arritmia si los síntomas ocurren menos de una vez al día: en ese caso se usa un <b>monitor de eventos</b> externo (semanas) o un <b>registrador implantable</b> (meses a años) en el síncope inexplicado. El Holter no sirve para el síncope de mecanismo vasovagal u ortostático, donde se usa la prueba de inclinación (<i>tilt test</i>), ni para evaluar la isquemia, que requiere prueba de esfuerzo. Para el diagnóstico de HTA en 24 horas existe otro examen, el Holter de presión (MAPA), que se revisa en el tema 5.1."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Extrasístoles Ventriculares: Benignas vs Signos de Alarma",
+      "headers": [
+        "Característica",
+        "Benigna",
+        "Alarma (derivar)"
+      ],
+      "rows": [
+        [
+          "Corazón",
+          "Estructuralmente sano; ECG y ecocardiograma normales",
+          "Infarto previo, miocardiopatía, FEVI deprimida"
+        ],
+        [
+          "Morfología y patrón",
+          "Aislada y monomorfa",
+          "Polimorfa, parejas, TV no sostenida, R sobre T"
+        ],
+        [
+          "Con el ejercicio",
+          "Desaparece o disminuye",
+          "Aumenta"
+        ],
+        [
+          "Síntomas y antecedentes",
+          "Palpitaciones aisladas",
+          "Síncope o historia familiar de muerte súbita"
+        ],
+        [
+          "Carga en el Holter",
+          "Menos de 10%",
+          "Más de 10 a 15%: riesgo de miocardiopatía por EV"
+        ],
+        [
+          "Conducta",
+          "Tranquilizar y suprimir gatillantes; betabloqueador si molestan",
+          "Estudio y derivación; evitar antiarrítmicos clase I"
+        ]
+      ]
+    },
+    "severityTable": {
+      "title": "Holter de Ritmo: Hallazgo del Informe y Conducta",
+      "headers": [
+        "Hallazgo",
+        "Interpretación",
+        "Conducta"
+      ],
+      "rows": [
+        [
+          "Pausas > 3 s o bloqueo AV Mobitz II o completo",
+          "Bradiarritmia significativa",
+          "Derivar para marcapaso"
+        ],
+        [
+          "Síntomas sin alteración del ritmo",
+          "La arritmia no explica el síntoma",
+          "Buscar otra causa; descartar con tilt test si es presíncope postural"
+        ],
+        [
+          "Carga de EV > 10 a 15%",
+          "Riesgo de miocardiopatía por EV",
+          "Ecocardiograma y derivar para ablación"
+        ],
+        [
+          "TV no sostenida con cardiopatía",
+          "Riesgo de muerte súbita",
+          "Derivar a cardiología"
+        ],
+        [
+          "FA paroxística",
+          "Riesgo embólico",
+          "Calcular CHA₂DS₂-VASc y anticoagular si corresponde"
+        ]
+      ]
+    },
+    "treatmentTable": {
+      "title": "Manejo Escalonado de las Extrasístoles Ventriculares",
+      "headers": [
+        "Escalón",
+        "Medida",
+        "Clave de Examen"
+      ],
+      "rows": [
+        [
+          "1",
+          "Estudio: ECG, electrolitos, TSH, ecocardiograma, Holter",
+          "Descartar cardiopatía estructural"
+        ],
+        [
+          "2",
+          "Tranquilizar y suprimir cafeína, alcohol, tabaco y estimulantes",
+          "La mayoría no requiere fármacos"
+        ],
+        [
+          "3",
+          "Betabloqueador o verapamilo/diltiazem si son sintomáticas",
+          "Primera línea farmacológica"
+        ],
+        [
+          "4",
+          "Derivar para ablación si carga alta o síntomas refractarios",
+          "Evita la miocardiopatía por EV"
+        ],
+        [
+          "No usar",
+          "Flecainida, propafenona o amiodarona en el consultorio",
+          "Contraindicados en cardiopatía estructural (CAST)"
+        ]
+      ]
+    },
+    "vignette": "Mujer de 34 años, sana, consulta por 2 meses de «saltos» en el pecho en reposo, sobre todo después de tomar varios cafés al día y con poco sueño, que desaparecen al subir escaleras. Sin síncope ni antecedentes familiares de muerte súbita. Examen físico normal con latidos prematuros ocasionales. El ECG muestra extrasístoles ventriculares aisladas con morfología de bloqueo de rama izquierda y eje inferior. El ecocardiograma y la TSH son normales. El Holter de 24 horas registra 3% de latidos extrasistólicos monomorfos, sin parejas ni taquicardia ventricular.",
+    "explicacion": "Son <b>extrasístoles ventriculares benignas</b> del tracto de salida del ventrículo derecho: corazón sano, aisladas, monomorfas, con baja carga (3%) y que desaparecen con el ejercicio. La conducta es <b>tranquilizar</b>, suprimir la cafeína y mejorar el sueño, y control clínico. Si fueran muy molestas se podría usar un betabloqueador. No requieren antiarrítmicos ni ablación; se reevalúa si aparecen síncope, síntomas nuevos o aumenta la carga por sobre 10 a 15%.",
+    "keyPoints": [
+      "EV: QRS ancho prematuro, sin onda P y con pausa compensadora completa.",
+      "Benignas: corazón sano, aisladas, monomorfas, desaparecen con el ejercicio y carga < 10% en el Holter.",
+      "Banderas rojas: cardiopatía estructural, síncope, antecedente familiar de muerte súbita, polimorfas, parejas o TVNS, aumentan con el ejercicio.",
+      "Tratamiento: tranquilizar, suprimir gatillantes; betabloqueador o verapamilo si molestan; no antiarrítmicos clase I.",
+      "Carga de EV > 10 a 15% puede causar miocardiopatía: ecocardiograma y derivar para ablación.",
+      "Holter 24 h: palpitaciones, presíncope o síncope, cuantificar EV, FA paroxística y pausas; informe: FC, pausas, carga, TVNS, correlación con síntomas.",
+      "Síntomas infrecuentes: monitor de eventos o registrador implantable, no un Holter de 24 horas."
+    ],
+    "questions": [
+      {
+        "stem": "Un hombre de 35 años, sin antecedentes, consulta por sensación de 'saltos' en el pecho en reposo, que desaparecen al hacer ejercicio. Examen físico normal. El ECG muestra extrasístoles ventriculares aisladas, monomorfas, sin otras alteraciones. El ecocardiograma es normal y el Holter muestra 2% de extrasístoles ventriculares aisladas, sin taquicardia ventricular. ¿Cuál es la conducta más adecuada?",
+        "recTag": "Banco Oficial AEE · Perfil V3 1.01.1.011",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tranquilizar, reducir cafeína y alcohol, y control clínico"
+          },
+          {
+            "id": "B",
+            "text": "Amiodarona oral"
+          },
+          {
+            "id": "C",
+            "text": "Derivar para ablación urgente"
+          },
+          {
+            "id": "D",
+            "text": "Implantar un desfibrilador"
+          },
+          {
+            "id": "E",
+            "text": "Iniciar flecainida"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Extrasístoles ventriculares aisladas y monomorfas que desaparecen con el ejercicio, con corazón estructuralmente normal y baja carga en el Holter, son benignas: basta educar y suprimir gatillantes. Si son muy molestas, se usa un betabloqueador. Amiodarona o flecainida no están indicadas y son proarrítmicas."
+      },
+      {
+        "stem": "Una paciente de 67 años, con antecedente de hipertensión arterial y fibrilación auricular, en tratamiento con atenolol, verapamilo y acenocumarol, consulta porque presenta repetidos episodios de malestar, sudoración y ortostatismo, que duran algunos segundos y revierten espontáneamente. Al examen físico destaca frecuencia cardiaca de 60 lpm, irregular y presión arterial 110/70 mmHg. Su examen cardiopulmonar es normal. ¿Cuál es el examen más adecuado para confirmar la sospecha diagnóstica?",
+        "recTag": "EUNACOM Diciembre 2017 · Pregunta 7",
+        "options": [
+          {
+            "id": "A",
+            "text": "Test de esfuerzo"
+          },
+          {
+            "id": "B",
+            "text": "Ecocardiograma"
+          },
+          {
+            "id": "C",
+            "text": "Ecografía doppler de extremidades inferiores"
+          },
+          {
+            "id": "D",
+            "text": "Tilt test"
+          },
+          {
+            "id": "E",
+            "text": "Monitoreo electrocardiográfico de 24 horas"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "La sospecha es una enfermedad del nodo sinusal, en contexto de un síndrome taquicardia/bradicardia (FA + ENS)."
+      },
+      {
+        "stem": "Una mujer de 58 años se hizo un Holter de 24 horas por palpitaciones. El informe muestra 22% de latidos extrasistólicos ventriculares monomorfos, sin taquicardia ventricular. Hace un año su ecocardiograma era normal; hoy la FEVI es 40%. ¿Cuál es la conducta más adecuada?",
+        "recTag": "Banco Oficial AEE · Perfil V3 1.01.4.014",
+        "options": [
+          {
+            "id": "A",
+            "text": "Tranquilizar y repetir el Holter en 5 años"
+          },
+          {
+            "id": "B",
+            "text": "Derivar a cardiología para evaluar ablación de las extrasístoles"
+          },
+          {
+            "id": "C",
+            "text": "Iniciar flecainida en el consultorio"
+          },
+          {
+            "id": "D",
+            "text": "Indicar tilt test"
+          },
+          {
+            "id": "E",
+            "text": "Solicitar un MAPA de 24 horas"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Una carga de extrasístoles ventriculares mayor de 10 a 15% con caída de la FEVI configura una miocardiopatía mediada por extrasístoles, potencialmente reversible. Corresponde derivar a cardiología para ablación con catéter, con betabloqueador mientras tanto. Los antiarrítmicos clase I no se inician en el consultorio."
+      },
+      {
+        "stem": "Un hombre de 62 años con infarto previo y FEVI 35% consulta por palpitaciones. El ECG muestra extrasístoles ventriculares frecuentes y parejas. ¿Qué fármaco está contraindicado para suprimirlas?",
+        "recTag": "Banco Oficial AEE · Perfil V3 1.01.1.011",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bisoprolol"
+          },
+          {
+            "id": "B",
+            "text": "Metoprolol succinato"
+          },
+          {
+            "id": "C",
+            "text": "Flecainida"
+          },
+          {
+            "id": "D",
+            "text": "Carvedilol"
+          },
+          {
+            "id": "E",
+            "text": "Optimización del tratamiento de la insuficiencia cardíaca"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "En cardiopatía estructural (infarto previo, FEVI baja) los antiarrítmicos clase I como la flecainida aumentan la mortalidad (estudio CAST). El manejo es el betabloqueador y el tratamiento de la insuficiencia cardíaca, con derivación para evaluar un desfibrilador."
       }
     ]
   }

@@ -51,7 +51,8 @@ module.exports = {
       cards: [
         { title: 'Lo que ves', tag: 'Mismo lado', kind: 'key', items: [
           { t: 'No arruga la frente ni eleva la ceja', d: 'Comisura caída; boca hacia el lado sano',
-            say: 'Veamos la parálisis periférica. El paciente no puede arrugar la frente ni levantar la ceja del lado afectado, la comisura cae, y al sonreír la boca se desvía hacia el lado sano.' },
+            say: 'Veamos la parálisis periférica. El paciente no puede arrugar la frente ni levantar la ceja del lado afectado, la comisura cae, y al sonreír la boca se desvía hacia el lado sano. Mira este paciente: la hemicara está paralizada, incluida la frente, y cae la comisura.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-19/01_paralisis-facial-periferica-bell_alt1__cto-orl_p45.jpg', label: 'Parálisis facial periférica', at: 'Mira este paciente', credit: 'Manual CTO Otorrinolaringología 14.ª ed., p. 45' } },
           { t: 'Lagoftalmos y signo de Bell', d: 'El ojo no cierra y el globo sube',
             say: 'Y el ojo no cierra: eso es el lagoftalmos. Cuando le pides que cierre con fuerza, el globo ocular rota hacia arriba y afuera y queda a la vista la esclerótica blanca. Ese es el signo de Bell, y es la razón por la que la córnea corre peligro.' },
         ] },
@@ -73,13 +74,15 @@ module.exports = {
       cards: [
         { title: 'Parálisis central', tag: 'Urgencia', kind: 'alert', items: [
           { t: 'Frente y cierre ocular preservados', d: 'Solo la mitad inferior, lado contrario',
-            say: 'Compara con la parálisis central. Aquí la frente y el cierre del ojo están preservados. El paciente arruga la frente sin problema, y solo se borra el surco nasogeniano y cae la comisura del lado opuesto a la lesión.' },
+            say: 'Compara con la parálisis central. Aquí la frente y el cierre del ojo están preservados. El paciente arruga la frente sin problema, y solo se borra el surco nasogeniano y cae la comisura del lado opuesto a la lesión. Mira esta comparación: en la central la frente se respeta, porque recibe inervación de ambos hemisferios.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-19/02_central-vs-periferica__cto-neuro_p14.jpg', label: 'Central vs periférica', at: 'Mira esta comparación', credit: 'Manual CTO Neurología 14.ª ed., p. 14' } },
           { t: 'Con hemiparesia del mismo lado', d: 'ACV: TAC de encéfalo urgente (GES)',
             say: 'Casi siempre viene con una hemiparesia del mismo lado que la cara débil, porque la causa es un accidente cerebrovascular. Y eso cambia la conducta: no es un caso para la consulta, es una TAC de encéfalo urgente y el protocolo GES de ACV.' },
         ] },
         { title: 'Síndrome de Ramsay Hunt', tag: 'Varicela zóster', kind: 'pharma', items: [
           { t: 'Parálisis + otalgia + vesículas', d: 'En conducto auditivo y concha',
-            say: 'La otra causa que tienes que reconocer es el síndrome de Ramsay Hunt: la reactivación del virus varicela zóster en el ganglio geniculado. Es una tríada: parálisis facial periférica severa, otalgia intensa y vesículas en el conducto auditivo externo y la concha de la oreja. Puede sumar hipoacusia y vértigo.' },
+            say: 'La otra causa que tienes que reconocer es el síndrome de Ramsay Hunt: la reactivación del virus varicela zóster en el ganglio geniculado. Es una tríada: parálisis facial periférica severa, otalgia intensa y vesículas en el conducto auditivo externo y la concha de la oreja. Puede sumar hipoacusia y vértigo. Mira esta oreja: las vesículas y costras en la concha, con otalgia intensa, no son un Bell.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-19/03_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg', label: 'Ramsay Hunt: vesículas', at: 'Mira esta oreja', credit: 'Bailey & Love 27.ª ed., p. 736' } },
           { t: 'Prednisona + valaciclovir', d: '1 g c/8 h por 7 a 10 días',
             say: 'Aquí sí van antivirales: prednisona más valaciclovir, un gramo cada ocho horas, o aciclovir, por siete a diez días. Por eso siempre hay que mirar el oído.' },
         ] },
@@ -138,9 +141,36 @@ module.exports = {
         { show: ['fli'], note: 'Despierta con la mano dormida',
           say: 'El paciente despierta con la mano dormida y se alivia sacudiéndola. Eso tiene nombre: signo de Flick, y es muy sugerente.' },
         { show: ['pro'], note: 'Maniobras de provocación',
-          say: 'Al examen hay dos maniobras. Phalen: flexión forzada de ambas muñecas, dorso contra dorso, por sesenta segundos, y aparecen las parestesias. Tinel: percutir sobre el túnel carpiano produce una descarga hacia los dedos.' },
+          say: 'Al examen hay dos maniobras. Phalen: flexión forzada de ambas muñecas, dorso contra dorso, por sesenta segundos, y aparecen las parestesias. Tinel: percutir sobre el túnel carpiano produce una descarga hacia los dedos. Mira esta maniobra de Phalen en la foto.',
+            photo: { src: '_verificadas/025_neuro_Parálisis_facial_y_atrapamient__Talley_p407.jpg', label: 'Maniobra de Phalen', at: 'Mira esta maniobra', credit: 'Talley & O\'Connor, Clinical Examination, p. 407' } },
         { show: ['ate'], note: 'Lo que indica un caso avanzado',
           say: 'Y el signo de severidad es la atrofia de la eminencia tenar, con debilidad para la oposición y la abducción del pulgar, más hipoestesia en los pulpejos. Ojo: la aducción del pulgar depende del ulnar, así que se conserva.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Electromiografía',
+      title: 'Cómo leer el informe de EMG y conducción',
+      cards: [
+        { title: 'Qué estudia', tag: 'El médico emplea el informe', kind: 'key', items: [
+          { t: 'Conducción: el nervio', d: 'Latencia, velocidad y amplitud',
+            say: 'La electromiografía con estudio de conducción confirma y localiza una neuropatía, una plexopatía, una radiculopatía o una miopatía. El médico general no la realiza, pero tiene que saber leer el informe. La conducción estudia el nervio: latencia distal, velocidad y amplitud. La aguja estudia el músculo: la actividad en reposo y la forma de los potenciales al contraer.' },
+        ] },
+        { title: 'Cómo se lee', tag: 'Patrones', kind: 'criteria', items: [
+          { t: 'Desmielinización: velocidad baja', d: 'Latencia prolongada, bloqueo, amplitud conservada',
+            say: 'Si hay desmielinización, como en el atrapamiento, el Guillain-Barré o el Charcot-Marie-Tooth, baja la velocidad, se alarga la latencia y puede haber bloqueo, con la amplitud relativamente conservada.' },
+          { t: 'Daño axonal: amplitud baja', d: 'Velocidad casi normal: diabetes, alcohol, tóxicos',
+            say: 'Si el daño es axonal, por diabetes, alcohol o tóxicos, cae la amplitud y la velocidad queda casi normal.' },
+          { t: 'Denervación: fibrilaciones', d: 'Aparecen a las 2–3 semanas',
+            say: 'La denervación activa muestra fibrilaciones y ondas positivas en reposo, pero recién a las dos o tres semanas: una EMG precoz puede ser normal. La reinervación crónica da potenciales grandes y largos. La miopatía, potenciales pequeños, cortos y polifásicos. Y la miastenia, decremento con la estimulación repetitiva.' },
+        ] },
+        { title: 'En el túnel carpiano', tag: 'Cuándo pedirla', kind: 'alert', items: [
+          { t: 'Mediano lento a través de la muñeca', d: 'Latencia prolongada del mediano',
+            say: 'En el túnel carpiano el informe muestra la latencia del mediano prolongada a través de la muñeca, y la gravedad se gradúa por la amplitud y la denervación del abductor corto del pulgar.' },
+          { t: 'Indicada con duda, atrofia o falla', d: 'Un cuadro típico no la necesita',
+            say: 'Se pide ante duda diagnóstica, atrofia tenar, falla del tratamiento conservador y antes de operar. En un cuadro típico no hace falta, y una EMG normal no descarta un síndrome leve o intermitente.' },
+        ] },
       ],
     },
 
@@ -169,6 +199,34 @@ module.exports = {
         ] },
       ],
     },
+    {
+      type: 'points',
+      kicker: 'Otros atrapamientos',
+      title: 'Cubital, radial y cutáneo femoral lateral',
+      cards: [
+        { title: 'Nervio cubital en el codo', tag: 'El segundo más frecuente', kind: 'key', items: [
+          { t: 'Cuarto y quinto dedo, con el codo flectado', d: 'Teléfono, dormir flectado, apoyar el codo',
+            say: 'El cubital en el codo es el segundo atrapamiento más frecuente. Da parestesias del cuarto y quinto dedo que empeoran con la flexión mantenida del codo, al hablar por teléfono, al dormir flectado o al apoyarlo.' },
+          { t: 'Garra, Froment y Tinel', d: 'Guyon, en la muñeca, respeta el dorso de la mano',
+            say: 'Si progresa, hay debilidad de la pinza, atrofia de los interóseos y garra cubital, con signo de Tinel en el codo. Mira esta foto: el signo de Froment, el paciente flexiona el pulgar para sostener el papel. Si el atrapamiento es en el canal de Guyon, en la muñeca, se respeta la sensibilidad del dorso de la mano.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-19/04_atrofia_intrinsecos_neuropatia_cubital__bailey_p523.jpg', label: 'Signo de Froment', at: 'Mira esta foto', credit: 'Bailey & Love 27.ª ed., Fig. 34.40' } },
+        ] },
+        { title: 'Nervio radial', tag: 'Parálisis del sábado en la noche', kind: 'alert', items: [
+          { t: 'Mano caída, tríceps conservado', d: 'Canal espiral del húmero',
+            say: 'El radial se comprime en el canal espiral del húmero, en la parálisis del sábado en la noche: un sueño profundo con el brazo colgando sobre una banca, o muletas. Produce mano caída, con sensibilidad alterada en el dorso de la mano, y el tríceps está conservado, lo que lo distingue de una lesión más alta. Mira esta mano: la muñeca cuelga y no se puede extender.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-19/05_mano_caida_radial__acd_p192.jpg', label: 'Mano caída (nervio radial)', at: 'Mira esta mano', credit: 'Atlas of Clinical Diagnosis (Mir), Fig. 9.136' } },
+          { t: 'Férula en extensión', d: 'Buen pronóstico: semanas',
+            say: 'Se inmoviliza la muñeca en extensión con una férula y se evita la compresión. La mayoría se recupera en semanas.' },
+        ] },
+        { title: 'Cutáneo femoral lateral', tag: 'Meralgia parestésica', kind: 'criteria', items: [
+          { t: 'Dolor y ardor en el muslo lateral', d: 'Sin debilidad; obesidad, cinturón, embarazo',
+            say: 'La meralgia parestésica es dolor, ardor y hormigueo en la cara lateral del muslo, sin debilidad ni cambio de reflejos, con obesidad, cinturones apretados, embarazo o diabetes.' },
+          { t: 'Quitar la causa; derivar si falla', d: 'Déficit motor, atrofia o sin mejoría en 6–12 semanas',
+            say: 'El diagnóstico es clínico. Suprimes la causa de la compresión, cambias posturas, férula nocturna, analgesia breve y bajas de peso. Derivas a neurología o traumatología, con electromiografía, si hay déficit motor, atrofia, progresión o ninguna mejoría en seis a doce semanas.' },
+        ] },
+      ],
+    },
+
 
     {
       type: 'image',
@@ -184,27 +242,6 @@ module.exports = {
           say: 'En la parálisis central la frente sigue arrugándose, porque recibe órdenes de los dos hemisferios. Solo cae la boca del lado contrario. Piensa en un accidente cerebrovascular.' },
         { note: 'Toda la hemicara',
           say: 'En la periférica se corta el cable final: no arruga la frente, no cierra el ojo y cae la comisura del mismo lado. La parálisis de Bell se trata con prednisona antes de las setenta y dos horas.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Parálisis facial',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-19/01_paralisis-facial-periferica-bell_alt1__cto-orl_p45.jpg', label: 'Parálisis facial periférica', credit: 'Manual CTO Otorrinolaringología 14.ª ed., p. 45' },
-        { src: 'biblioteca/09_neurologia/neuro-19/02_central-vs-periferica__cto-neuro_p14.jpg', label: 'Central vs periférica', credit: 'Manual CTO Neurología 14.ª ed., p. 14' },
-        { src: 'biblioteca/09_neurologia/neuro-19/03_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg', label: 'Ramsay Hunt: vesículas y costras en la concha', credit: 'Bailey & Love 27.ª ed., Fig. 46.30b' },
-      ],
-      steps: [
-        { note: 'Toda la hemicara, incluida la frente',
-          say: 'En la parálisis periférica se paraliza toda la hemicara, incluida la frente. Fíjate cómo cae la comisura del lado paralizado.' },
-        { note: 'La frente decide',
-          say: 'Y en la central la frente se respeta, porque recibe inervación de ambos hemisferios.' },
-        { note: 'Vesículas en la oreja',
-          say: 'Si además hay vesículas en el conducto y la concha de la oreja, con otalgia intensa, no es un Bell: es un Ramsay Hunt.' },
       ],
     },
 
@@ -395,6 +432,82 @@ module.exports = {
         options: 'Las opciones: resonancia de cuello, ecografía de muñecas, electromiografía, radiografía de mano, o factor reumatoideo. Piénsalo.',
         answer: 'Es la C, electromiografía. El diagnóstico es clínico, pero cuando hay que confirmarlo, sobre todo antes de operar, el examen es la electromiografía. La resonancia de cuello tienta si piensas en una radiculopatía, pero los dedos afectados calzan exactamente con el mediano.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.11.1.023 · Síndrome de túnel carpiano",
+      "stem": "Mujer de 48 años, costurera, con 4 meses de parestesias en pulgar, índice y dedo medio derechos, que la despiertan en la noche y mejoran al sacudir la mano. Examen: signos de Phalen y Tinel positivos en la muñeca derecha, fuerza conservada y sin atrofia de la eminencia tenar. TSH y glicemia normales.",
+      "question": "¿Cuál es el tratamiento inicial más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Liberación quirúrgica del túnel carpiano de inmediato"
+        },
+        {
+          "letter": "B",
+          "text": "Resonancia magnética de columna cervical"
+        },
+        {
+          "letter": "C",
+          "text": "Prednisona 60 mg/día por 2 semanas"
+        },
+        {
+          "letter": "D",
+          "text": "Férula nocturna de muñeca en posición neutra y modificación de actividades"
+        },
+        {
+          "letter": "E",
+          "text": "Gabapentina en dosis altas como único tratamiento"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Túnel carpiano leve a moderado (síntomas sensitivos, sin déficit motor ni atrofia tenar): manejo conservador con férula nocturna en posición neutra, pausas y modificación de la actividad; puede agregarse infiltración con corticoide. La cirugía se indica si hay atrofia o debilidad tenar, denervación en la electromiografía o falla del tratamiento conservador.",
+      "say": {
+        "stem": "Una costurera de cuarenta y ocho años tiene hormigueo nocturno en los tres primeros dedos de la mano derecha, con Phalen y Tinel positivos, sin debilidad ni atrofia.",
+        "question": "¿Cuál es el tratamiento inicial más adecuado?",
+        "options": "Las opciones: cirugía inmediata, resonancia cervical, prednisona oral, férula nocturna en posición neutra y cambio de actividades o gabapentina sola. Piénsalo.",
+        "answer": "Es la D. Sin debilidad ni atrofia se parte con manejo conservador, y la férula nocturna en posición neutra es la base. La cirugía tienta porque es el tratamiento definitivo, pero se reserva para la atrofia, el déficit motor o el fracaso del manejo conservador."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.010 · Electromiografía",
+      "stem": "Una mujer de 52 años, diabética, refiere parestesias nocturnas en el pulgar, índice y medio de la mano derecha que la despiertan y mejoran al sacudir la mano. Tiene signos de Phalen y Tinel positivos y leve atrofia tenar.",
+      "question": "¿Cuál es el examen de elección para confirmar el diagnóstico y evaluar su severidad?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía de muñeca"
+        },
+        {
+          "letter": "B",
+          "text": "Ecocardiograma"
+        },
+        {
+          "letter": "C",
+          "text": "RM de columna cervical"
+        },
+        {
+          "letter": "D",
+          "text": "Hemoglobina glicosilada"
+        },
+        {
+          "letter": "E",
+          "text": "Electromiografía con velocidad de conducción nerviosa"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El cuadro es un síndrome del túnel carpiano (atrapamiento del nervio mediano), más frecuente en diabéticos. La electromiografía con estudio de conducción nerviosa confirma la lesión, mide su severidad y la diferencia de una radiculopatía C6-C7 o de la polineuropatía diabética. Con atrofia tenar, la indicación es quirúrgica.",
+      "say": {
+        "stem": "Una mujer diabética de cincuenta y dos años tiene parestesias nocturnas en pulgar, índice y medio derechos, que mejoran al sacudir la mano, con Phalen y Tinel positivos y leve atrofia tenar.",
+        "question": "¿Qué examen confirma el diagnóstico y su severidad?",
+        "options": "Las opciones: radiografía de muñeca, ecocardiograma, resonancia cervical, hemoglobina glicosilada o electromiografía con velocidad de conducción. Piénsalo.",
+        "answer": "Es la E. Es un túnel carpiano y la electromiografía con conducción nerviosa lo confirma y lo gradúa. La resonancia cervical tienta para descartar radiculopatía, pero la electromiografía también hace ese diferencial."
+      }
     },
 
     {

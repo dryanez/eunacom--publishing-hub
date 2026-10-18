@@ -1,0 +1,95 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Obstetricia 04: redistribución del flujo fetal sobre ilustración real (Blausen "The Placenta", rótulos quitados).
+// Coordenadas en píxeles de la imagen (1200x1111). ?v=redistribucion
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade } = K;
+const I = k => window.IMGS[k];
+const S = 0.5, DST = { x: 40, y: 136 }; DST.w = 1200 * S; DST.h = 1111 * S;
+const P = (x, y) => [DST.x + x * S, DST.y + y * S];
+const CORD = [[580, 300], [615, 322], [570, 375], [510, 428], [502, 480], [540, 525], [600, 562], [645, 600], [668, 645], [700, 698]].map(p => P(...p));
+const cord = poly(CORD);
+const BRAIN = P(760, 380), NECKP = [[890, 560], [850, 500], [810, 440], [775, 405]].map(p => P(...p));
+const neck = poly(NECKP);
+const PLAC = P(450, 290);
+
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  ctx.drawImage(I('pl'), DST.x, DST.y, DST.w, DST.h); ctx.restore();
+}
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function dots(path, t, a, sp, n, col, dir = 1, r = 3.6) {
+  if (a <= 0) return;
+  for (let i = 0; i < n; i++) { let u = ((t * sp) + i / n) % 1; if (dir < 0) u = 1 - u; const [x, y] = path.at(u);
+    ctx.globalAlpha = a * Math.min(1, u * 6, (1 - u) * 6); ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+}
+// onda Doppler: sístole con pico, luego caída hacia el nivel diastólico d (en unidades de la altura); d<0 = reverso
+function wave(x0, y0, w, h, d, a, col, cycles = 3) {
+  ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.lineJoin = 'round'; ctx.beginPath();
+  const cw = w / cycles;
+  for (let c = 0; c < cycles; c++) for (let i = 0; i <= 40; i++) {
+    const u = i / 40; let v;
+    if (u < 0.18) v = Math.sin(u / 0.18 * Math.PI / 2);                                 // subida sistólica
+    else v = d + (1 - d) * Math.exp(-(u - 0.18) * 4.2) ;                                 // caída hacia la diástole
+    if (d < 0 && u > 0.55) v = d * Math.min(1, (u - 0.55) / 0.2) * (u > 0.9 ? (1 - (u - 0.9) / 0.1) : 1) + (v - d) * 0; 
+    const x = x0 + c * cw + u * cw, y = y0 - v * h; i || c ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
+  }
+  ctx.stroke(); ctx.restore();
+}
+function panel(x, y, w, h, title, col, d, a, note, noteCol) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; rrect(x, y, w, h, 16, '#161B22'); ctx.fillStyle = col; ctx.fillRect(x, y, 6, h);
+  text(title, x + 22, y + 32, 20, col, 'bold');
+  const bx = x + 40, by = y + 128, bw = w - 70, bh = 36;
+  ctx.strokeStyle = '#2A2F38'; ctx.lineWidth = 1; ctx.setLineDash([5, 5]); ctx.beginPath(); ctx.moveTo(bx - 10, by); ctx.lineTo(bx + bw, by); ctx.stroke(); ctx.setLineDash([]);
+  text('0', bx - 18, by + 5, 13, C.MUTED, '', 'right');
+  wave(bx, by, bw, bh * 2, d, 1, col);
+  text(note, x + w - 18, y + 32, 17, noteCol || C.INK, 'bold', 'right'); ctx.restore();
+}
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+function redistribucion(t) {
+  K.title('Restricción de crecimiento', 'La placenta falla: el feto protege su cerebro', C.AMBER);
+  lamina(seg(t, 0, 0.7));
+  const fail = ease(seg(t, 8.5, 2.5));              // placenta insuficiente
+  const brain = ease(seg(t, 16, 3));                // vasodilatación cerebral
+  // placenta que se oscurece al fallar
+  if (fail > 0) { ctx.save(); ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip(); K.glow(PLAC[0], PLAC[1], 90, '120,20,60', 0.55 * fail); ctx.restore(); }
+  label('Placenta', 330, 200, '#FFB1B1', ...P(420, 240), fade(t, 1.3, 26));
+  label('Cordón: arterias umbilicales', 130, 470, C.BLUE, ...cord.at(0.45), fade(t, 2.2, 26));
+  label('Cerebro', 450, 190, C.VIOLET, ...BRAIN, fade(t, 3, 26));
+  // sangre por el cordón: normal, luego enlentecida
+  const sp = lerp(0.45, 0.12, fail), n = Math.round(lerp(10, 4, fail));
+  dots(cord, t, seg(t, 3.5, 0.5) * (1 - 0.0), sp, n, fail > 0.5 ? '#C9B24A' : '#E5484D', 1, 4);
+  // flujo hacia el cerebro
+  dots(neck, t, brain, 0.5, 6, '#FF8A3D', 1, 4.4);
+  if (brain > 0) { ctx.save(); ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip(); K.glow(BRAIN[0], BRAIN[1], 70, '255,138,61', 0.5 * brain * (0.7 + 0.3 * Math.sin(t * 5))); ctx.restore(); }
+  // paneles Doppler
+  const dU = t < 8.5 ? 0.45 : t < 11.5 ? lerp(0.45, 0.0, ease(seg(t, 9, 2.5))) : lerp(0.0, -0.45, ease(seg(t, 12, 2.5)));
+  const uNote = t < 9 ? 'Diástole presente' : t < 12 ? 'Diástole ausente' : 'Diástole reversa';
+  const uCol = t < 9 ? C.GREEN : t < 12 ? C.AMBER : C.RED;
+  panel(690, 140, 550, 176, 'Arteria umbilical', uCol, dU, seg(t, 3.2, 0.5), uNote, uCol);
+  const dM = lerp(0.12, 0.55, brain);
+  panel(690, 330, 550, 176, 'Arteria cerebral media', brain > 0.1 ? C.AMBER : C.BLUE, dM, seg(t, 5, 0.5), brain > 0.5 ? 'Vasodilatación' : 'Normal', brain > 0.5 ? C.AMBER : C.GREEN);
+  K.card(690, 520, 550, 90, C.RED, 'Más resistencia en la placenta', ['El flujo diastólico umbilical cae, se pierde o se invierte'], seg(t, 9, 0.5), 17);
+  K.banner(690, 628, 550, 'Redistribución: más flujo al cerebro, menos al resto', C.AMBER, seg(t, 19.5, 0.5));
+  K.banner(690, 628, 550, 'Etapa IV: onda a reversa en el ductus venoso', C.RED, seg(t, 24, 0.5) * 0);
+}
+const DUR = 25;
+window.SCENE = { duration: DUR, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); redistribucion(t); credit(); };
+LOAD({ pl: '../assets/blausen/ob_placenta.png' });
+</script>
+</body></html>

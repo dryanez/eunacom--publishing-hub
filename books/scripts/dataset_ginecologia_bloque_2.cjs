@@ -104,6 +104,15 @@ const rawClasses = [
           "  - ¡El tratamiento hormonal médico (ACOs, dienogest, GnRH) <strong>NO mejora la fertilidad</strong> y solo retrasa la búsqueda de embarazo!",
           "  - La conducta consiste en <strong>Laparoscopía quirúrgica conservadora</strong> (cistectomía ovárica de endometriomas > 3-4 cm respetando la corteza sana y lisis de adherencias) para restaurar la anatomía o derivación directa a <strong>Técnicas de Reproducción Asistida de Alta Complejidad (FIV)</strong>."
         ]
+      },
+      {
+        "subhead": "4. Dismenorrea Primaria y Otras Causas de Dolor Pelviano",
+        "paragraphs": [
+          "• <strong>Dismenorrea primaria (Sospecha / Inicial / Derivar):</strong> dolor cólico hipogástrico que comienza con el sangrado o pocas horas antes y dura <b>8-72 horas</b>, irradiado a la región lumbar y muslos, con náuseas, diarrea o cefalea. Aparece <strong>6-12 meses tras la menarquia</strong> (al instalarse los ciclos ovulatorios) y el examen físico y la ecografía son normales. Se debe a exceso de <strong>prostaglandinas F2α</strong> endometriales.",
+          "  - <strong>Tratamiento:</strong> <strong>AINE</strong> (ibuprofeno 400 mg c/8 h, naproxeno 500 mg c/12 h o ácido mefenámico 500 mg c/8 h) iniciados al comenzar el dolor o el sangrado, calor local y ejercicio; <strong>anticonceptivos hormonales</strong> si además desea anticoncepción o hay falla de AINE. Si no responde en 3 meses: buscar causa secundaria (laparoscopía).",
+          "  - <strong>Dismenorrea secundaria:</strong> endometriosis, adenomiosis, miomas, EIP, DIU de cobre, estenosis cervical o malformaciones müllerianas obstructivas; el dolor es progresivo, de inicio tardío y a veces no cíclico.",
+          "• <strong>Dolor pelviano crónico</strong> (&gt; 6 meses): causas ginecológicas (endometriosis, adherencias por EIP, congestión pélvica, ovario residual), urinarias (cistitis intersticial/síndrome de vejiga dolorosa), digestivas (colon irritable, constipación), musculoesqueléticas (miofascial, neuralgia del pudendo) y psicosociales (antecedente de abuso). Se estudia con anamnesis dirigida, tacto bimanual, ecografía TV y, si persiste, laparoscopía; se <b>deriva</b> a ginecología."
+        ]
       }
     ],
     "table": {
@@ -677,6 +686,16 @@ const rawClasses = [
           "    • 4) Edad materna avanzada (> 38-40 años) o baja reserva ovárica crítica.",
           "    • 5) Fracaso reiterado de técnicas de baja complejidad (3 a 4 intentos de IIU)."
         ]
+      },
+      {
+        "subhead": "4. Evaluación Hormonal (LH, Testosterona) e Infertilidad Masculina",
+        "paragraphs": [
+          "• <strong>LH y testosterona (Interpreta y emplea):</strong> en la mujer, el <strong>pico de LH</strong> en orina precede a la ovulación 24-36 horas (se usa para programar relaciones o inseminación); una relación LH/FSH &gt; 2 es frecuente en el SOP pero no es criterio diagnóstico. La testosterona total en la mujer (normal ~15-70 ng/dL) permite objetivar hiperandrogenismo (&gt; 150-200 ng/dL: descartar tumor).",
+          "  - <strong>En el hombre infertile:</strong> testosterona baja con <b>LH/FSH altas</b> = hipogonadismo primario (testicular: Klinefelter, orquitis, criptorquidia); testosterona baja con <b>LH/FSH bajas</b> = hipogonadismo central (hipopituitarismo, prolactinoma, Kallmann). FSH elevada con azoospermia indica falla espermatogénica primaria; FSH normal con azoospermia y volumen testicular normal sugiere obstrucción.",
+          "• <strong>Infertilidad masculina (Sospecha / Inicial / Derivar):</strong> responsable del 35-50% de la infertilidad de pareja. Se estudia con <strong>espermiograma</strong> (dos muestras con 3-5 días de abstinencia), examen genital (volumen testicular, varicocele con Valsalva, vasos deferentes), y hormonas (FSH, LH, testosterona).",
+          "  - <strong>Causas:</strong> <strong>varicocele</strong> (la causa corregible más frecuente, 35-40% de la infertilidad primaria; preferentemente izquierdo), criptorquidia, orquitis por parotiditis, tóxicos y calor (tabaco, alcohol, anabólicos, sauna), quimio/radioterapia, genéticas (Klinefelter 47,XXY, microdeleciones del cromosoma Y, ausencia congénita de deferentes por mutación CFTR) y obstrucción de la vía seminal. Azoospermia: obstructiva (FSH normal, testículos normales) vs secretora (FSH alta, testículos pequeños).",
+          "  - <strong>Conducta:</strong> suspender tóxicos y fármacos gonadotóxicos, tratar infecciones, <strong>varicocelectomía</strong> si el varicocele es clínico y el espermiograma está alterado, y <strong>derivar a urología/andrología</strong>; en oligoastenozoospermia severa o azoospermia con espermatogénesis conservada, extracción testicular (TESE) + ICSI."
+        ]
       }
     ],
     "table": {
@@ -898,6 +917,14 @@ const rawClasses = [
           "  - <strong>Mecanismo de Acción Biológico:</strong> Inhibe o retrasa el pico preovulatorio de LH, impidiendo o retrasando la ovulación. <strong>NO interrumpe un embarazo ya implantado ni actúa como método abortivo</strong>.",
           "  - Efecto adverso más común: Náuseas y vómitos. Si la paciente vomita dentro de las <strong>primeras 2 horas</strong> de la toma, debe repetir la dosis completa.",
           "• <strong>DIU de Cobre de Emergencia:</strong> La inserción de un DIU de cobre dentro de los <strong>primeros 5 días (120 horas) postcoito</strong> es el método anticonceptivo de emergencia más eficaz existente (tasa de fracaso < 0.1%) y otorga anticoncepción continua por 10 años."
+        ]
+      },
+      {
+        "subhead": "5. Métodos Naturales de Regulación de la Fecundidad",
+        "paragraphs": [
+          "• <strong>Métodos naturales (basados en la identificación de la ventana fértil, ~6 días por ciclo):</strong> requieren motivación, ciclos regulares y abstinencia periódica; <b>no protegen contra ITS</b>. Eficacia con uso típico baja (Pearl ~12-24 por 100 mujeres-año; con uso perfecto 1-5).",
+          "  - <strong>Calendario o Ogino-Knaus:</strong> se calcula la ventana fértil restando 18 días al ciclo más corto y 11 al más largo (en ciclo de 28 días: días 10-17). <strong>Moco cervical (Billings):</strong> fértil cuando es abundante, claro y filante (&quot;clara de huevo&quot;). <strong>Temperatura basal:</strong> alza de 0,3-0,5 °C tras la ovulación (confirma ovulación, no la predice). <strong>Sintotérmico:</strong> combina moco, temperatura y calendario.",
+          "  - <strong>MELA (método de lactancia y amenorrea):</strong> eficaz (~98%) si se cumplen tres condiciones: lactancia exclusiva o casi exclusiva a libre demanda, amenorrea y bebé &lt; 6 meses. El <strong>coito interrumpido</strong> es el método natural de menor eficacia. Se ofrecen como alternativa respetando la elección informada de la pareja (norma MINSAL de regulación de la fertilidad), con consejería sobre métodos más eficaces."
         ]
       }
     ],

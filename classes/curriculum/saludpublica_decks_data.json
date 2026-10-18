@@ -4,7 +4,10 @@
     "topicLabel": "21.1",
     "title": "Saludpublica 21.1: Sistema de Salud Chileno: FONASA, ISAPRES y Organización de la Red Asistencial",
     "perfilCodes": [
-      "7.01.3.036"
+      "7.01.3.036",
+      "7.01.3.038",
+      "7.01.3.039",
+      "7.01.3.049"
     ],
     "tier": 3,
     "realQuestionCount": 4,
@@ -13,8 +16,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Sistema de Salud Chileno: FONASA, ISAPRES y Organización de la Red Asistencial. Código oficial Perfil V3: 7.01.3.036. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 7.01.3.036",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Sistema de Salud Chileno: FONASA, ISAPRES y Organización de la Red Asistencial. Código oficial Perfil V3: 7.01.3.036, 7.01.3.038, 7.01.3.039, 7.01.3.049. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 7.01.3.036, 7.01.3.038, 7.01.3.039, 7.01.3.049",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -63,7 +66,7 @@
           {
             "highlight": true,
             "cells": [
-              "7.01.3.036",
+              "7.01.3.036, 7.01.3.038, 7.01.3.039, 7.01.3.049",
               "Sistema de Salud Chileno: FONASA, ISAPRES y Organización de la Red Asistencial",
               "Estructura Sanitaria",
               "Gestión Asistencial",
@@ -326,7 +329,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 126",
         "notes": "[SLIDE 12] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 126.",
         "number": 3,
-        "caseText": "Una empresa extranjera dedicada a otorgar prestaciones en salud decide iniciar sus operaciones en Chile, para lo cual solicita saber cuál es la ins8tución que actúa como laboratorio de referencia para todos los laboratorios, tanto públicos como privados, en el país. ¿Cuál es la respuesta correcta?",
+        "caseText": "Una empresa extranjera dedicada a otorgar prestaciones en salud decide iniciar sus operaciones en Chile, para lo cual solicita saber cuál es la institución que actúa como laboratorio de referencia para todos los laboratorios, tanto públicos como privados, en el país. ¿Cuál es la respuesta correcta?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -355,7 +358,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "El InsGtuto de Salud Pública Gene varias funciones. Es un institución cienVﬁco técnica cuyas principales funciones (de acuerdo a su normativa) son: actuar como laboratorio nacional y de referencia; supervisar laboratorios de exámenes médicos y de producción de medicamentos; autorizar, registrar y ﬁscalizar medicamentos, cosméticos y dispositivos médicos; realizar vigilancia sanitaria y epidemiológica, con pruebas de laboratorio sobre infecciones (ej. Western blot VIH, vigilancia virus respiratorios, Gpiﬁcación de infecciones graves); y desarrollar investigación y control en salud ambiental y ocupacional."
+        "explanation": "El Instituto de Salud Pública Gene varias funciones. Es un institución científico técnica cuyas principales funciones (de acuerdo a su normativa) son: actuar como laboratorio nacional y de referencia; supervisar laboratorios de exámenes médicos y de producción de medicamentos; autorizar, registrar y fiscalizar medicamentos, cosméticos y dispositivos médicos; realizar vigilancia sanitaria y epidemiológica, con pruebas de laboratorio sobre infecciones (ej. Western blot VIH, vigilancia virus respiratorios, Gpificación de infecciones graves); y desarrollar investigación y control en salud ambiental y ocupacional."
       },
       {
         "type": "question",
@@ -777,7 +780,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 15",
         "notes": "[SLIDE 12] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 15.",
         "number": 3,
-        "caseText": "Una paciente de 36 años presenta un trabajo de parto prematuro a las 28 semanas con resultado de mor8nato de 800 g y anencefalia. Según la norma8va vigente, ¿por cuánto 8empo debe recibir descanso laboral?",
+        "caseText": "Una paciente de 36 años presenta un trabajo de parto prematuro a las 28 semanas con resultado de mortinato de 800 g y anencefalia. Según la normativa vigente, ¿por cuánto tiempo debe recibir descanso laboral?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -806,7 +809,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Tiene derecho al descanso “postnatal” (12 semanas), cuyo objetivo es la recuperación de la madre tras el parto. No Gene derecho al descanso postnatal parental (12 semanas más, que inician al terminar el postnatal), cuyo objetivo es el cuidado del bebé y, por tanto, requiere que esté vivo (no está explícito en la ley, pero sí en la jurisprudencia y dictámenes de la Suseso y Dirección del Trabajo). Se ﬁnancia con cargo al Fondo Único de Prestaciones Familiares y Subsidios de CesanVa y lo paga Fonasa o la Isapre. Además, vale la pena recordar un tema disGnto: la \"Ley Dominga\" que aplica en caso de la muerte de un ser querido del trabajador. En este caso hay un permiso remunerado por el empleador, quien lo ﬁnancia, ya que no descuenta los días no trabajados. En este caso, no se emite una licencia médica propiamente tal, sino que se usa el cerGﬁcado de defunción (o de defunción fetal, que es emiGdo por el médico). El número de días varía según qué ser querido muere: 10 días para hijo nacido vivo (aplica a ambos padres); 7 días en caso de abortos y muertes antenatales (también a ambos padres); 7 días en caso de muerte del cónyuge o conviviente civil; y 3 días si muere alguno de los padres del trabajador."
+        "explanation": "Tiene derecho al descanso “postnatal” (12 semanas), cuyo objetivo es la recuperación de la madre tras el parto. No Gene derecho al descanso postnatal parental (12 semanas más, que inician al terminar el postnatal), cuyo objetivo es el cuidado del bebé y, por tanto, requiere que esté vivo (no está explícito en la ley, pero sí en la jurisprudencia y dictámenes de la Suseso y Dirección del Trabajo). Se financia con cargo al Fondo Único de Prestaciones Familiares y Subsidios de Cesantía y lo paga Fonasa o la Isapre. Además, vale la pena recordar un tema distinto: la \"Ley Dominga\" que aplica en caso de la muerte de un ser querido del trabajador. En este caso hay un permiso remunerado por el empleador, quien lo financia, ya que no descuenta los días no trabajados. En este caso, no se emite una licencia médica propiamente tal, sino que se usa el certificado de defunción (o de defunción fetal, que es emitido por el médico). El número de días varía según qué ser querido muere: 10 días para hijo nacido vivo (aplica a ambos padres); 7 días en caso de abortos y muertes antenatales (también a ambos padres); 7 días en caso de muerte del cónyuge o conviviente civil; y 3 días si muere alguno de los padres del trabajador."
       },
       {
         "type": "question",
@@ -1127,7 +1130,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 15",
         "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 15.",
         "number": 3,
-        "caseText": "Una paciente de 36 años presenta un trabajo de parto prematuro a las 28 semanas con resultado de mor8nato de 800 g y anencefalia. Según la norma8va vigente, ¿por cuánto 8empo debe recibir descanso laboral?",
+        "caseText": "Una paciente de 36 años presenta un trabajo de parto prematuro a las 28 semanas con resultado de mortinato de 800 g y anencefalia. Según la normativa vigente, ¿por cuánto tiempo debe recibir descanso laboral?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -1156,7 +1159,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Tiene derecho al descanso “postnatal” (12 semanas), cuyo objetivo es la recuperación de la madre tras el parto. No Gene derecho al descanso postnatal parental (12 semanas más, que inician al terminar el postnatal), cuyo objetivo es el cuidado del bebé y, por tanto, requiere que esté vivo (no está explícito en la ley, pero sí en la jurisprudencia y dictámenes de la Suseso y Dirección del Trabajo). Se ﬁnancia con cargo al Fondo Único de Prestaciones Familiares y Subsidios de CesanVa y lo paga Fonasa o la Isapre. Además, vale la pena recordar un tema disGnto: la \"Ley Dominga\" que aplica en caso de la muerte de un ser querido del trabajador. En este caso hay un permiso remunerado por el empleador, quien lo ﬁnancia, ya que no descuenta los días no trabajados. En este caso, no se emite una licencia médica propiamente tal, sino que se usa el cerGﬁcado de defunción (o de defunción fetal, que es emiGdo por el médico). El número de días varía según qué ser querido muere: 10 días para hijo nacido vivo (aplica a ambos padres); 7 días en caso de abortos y muertes antenatales (también a ambos padres); 7 días en caso de muerte del cónyuge o conviviente civil; y 3 días si muere alguno de los padres del trabajador."
+        "explanation": "Tiene derecho al descanso “postnatal” (12 semanas), cuyo objetivo es la recuperación de la madre tras el parto. No Gene derecho al descanso postnatal parental (12 semanas más, que inician al terminar el postnatal), cuyo objetivo es el cuidado del bebé y, por tanto, requiere que esté vivo (no está explícito en la ley, pero sí en la jurisprudencia y dictámenes de la Suseso y Dirección del Trabajo). Se financia con cargo al Fondo Único de Prestaciones Familiares y Subsidios de Cesantía y lo paga Fonasa o la Isapre. Además, vale la pena recordar un tema distinto: la \"Ley Dominga\" que aplica en caso de la muerte de un ser querido del trabajador. En este caso hay un permiso remunerado por el empleador, quien lo financia, ya que no descuenta los días no trabajados. En este caso, no se emite una licencia médica propiamente tal, sino que se usa el certificado de defunción (o de defunción fetal, que es emitido por el médico). El número de días varía según qué ser querido muere: 10 días para hijo nacido vivo (aplica a ambos padres); 7 días en caso de abortos y muertes antenatales (también a ambos padres); 7 días en caso de muerte del cónyuge o conviviente civil; y 3 días si muere alguno de los padres del trabajador."
       },
       {
         "type": "question",
@@ -1222,7 +1225,9 @@
     "topicLabel": "21.4",
     "title": "Saludpublica 21.4: Enfermedades de Notificación Obligatoria (ENO) y Vigilancia Epidemiológica en Chile",
     "perfilCodes": [
-      "7.01.3.016"
+      "7.01.3.016",
+      "7.01.3.051",
+      "7.01.3.031"
     ],
     "tier": 3,
     "realQuestionCount": 12,
@@ -1231,8 +1236,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Enfermedades de Notificación Obligatoria (ENO) y Vigilancia Epidemiológica en Chile. Código oficial Perfil V3: 7.01.3.016. Este tema ha sido evaluado en 12 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 7.01.3.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Enfermedades de Notificación Obligatoria (ENO) y Vigilancia Epidemiológica en Chile. Código oficial Perfil V3: 7.01.3.016, 7.01.3.051, 7.01.3.031. Este tema ha sido evaluado en 12 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 7.01.3.016, 7.01.3.051, 7.01.3.031",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1281,7 +1286,7 @@
           {
             "highlight": true,
             "cells": [
-              "7.01.3.016",
+              "7.01.3.016, 7.01.3.051, 7.01.3.031",
               "Enfermedades de Notificación Obligatoria (ENO) y Vigilancia Epidemiológica en Chile",
               "Criterios de Notificación",
               "Medidas de Control y Bloqueo",
@@ -1596,7 +1601,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 98",
         "notes": "[SLIDE 14] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 98.",
         "number": 4,
-        "caseText": "¿Mediante qué estrategia epidemiológica se debe enfrentar la sospecha de un brote de intoxicación alimentaria para su adecuada iden8ﬁcación y control?",
+        "caseText": "¿Mediante qué estrategia epidemiológica se debe enfrentar la sospecha de un brote de intoxicación alimentaria para su adecuada identificación y control?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -1625,7 +1630,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Las intoxicaciones alimentarias se manejan con vigilancia ac<va, es decir, con un sistema de no<ﬁcación obligatoria. La misma estrategia aplica a infecciones graves y poco frecuentes (ej. sarampión, ébola, hanta, rabia, meningococcemia, ITS, brotes), bastando la sola sospecha para la noGﬁcación. La vigilancia centinela, en cambio, se usa en infecciones frecuentes y no muy graves (virus respiratorios, diarreas, varicela). En ella, solo informan algunos centros de salud especíﬁcos, llamados centros centinela. La vigilancia pasiva solo se realiza en infecciones poco transmisibles o leves (ej. ITU, exantemas banales). En ellas simplemente se reportan estadísticas para analizarlas después."
+        "explanation": "Las intoxicaciones alimentarias se manejan con vigilancia ac<va, es decir, con un sistema de no<ficación obligatoria. La misma estrategia aplica a infecciones graves y poco frecuentes (ej. sarampión, ébola, hanta, rabia, meningococcemia, ITS, brotes), bastando la sola sospecha para la notificación. La vigilancia centinela, en cambio, se usa en infecciones frecuentes y no muy graves (virus respiratorios, diarreas, varicela). En ella, solo informan algunos centros de salud específicos, llamados centros centinela. La vigilancia pasiva solo se realiza en infecciones poco transmisibles o leves (ej. ITU, exantemas banales). En ellas simplemente se reportan estadísticas para analizarlas después."
       },
       {
         "type": "bento",
@@ -1654,7 +1659,9 @@
     "topicLabel": "21.5",
     "title": "Saludpublica 21.5: Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
     "perfilCodes": [
-      "7.01.3.001"
+      "7.01.3.008",
+      "7.01.3.010",
+      "2.01.3.005"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -1663,8 +1670,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario. Código oficial Perfil V3: 7.01.3.001.",
-        "kicker": "CÓDIGO PERFIL V3: 7.01.3.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario. Código oficial Perfil V3: 7.01.3.008, 7.01.3.010, 2.01.3.005.",
+        "kicker": "CÓDIGO PERFIL V3: 7.01.3.008, 7.01.3.010, 2.01.3.005",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1707,7 +1714,7 @@
           {
             "highlight": true,
             "cells": [
-              "7.01.3.001",
+              "7.01.3.008, 7.01.3.010, 2.01.3.005",
               "Modelo de Atención Integral de Salud Familiar y Comunitaria (MAIS) y Diagnóstico Comunitario",
               "Evaluación Biopsicosocial",
               "Plan de Cuidado Familiar",
@@ -1925,7 +1932,10 @@
     "topicLabel": "21.6",
     "title": "Saludpublica 21.6: Diseños de Estudios Epidemiológicos: Observacionales y Experimentales",
     "perfilCodes": [
-      "7.01.3.020"
+      "7.01.3.020",
+      "7.01.3.022",
+      "7.01.3.023",
+      "7.01.3.024"
     ],
     "tier": 3,
     "realQuestionCount": 3,
@@ -1934,8 +1944,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Diseños de Estudios Epidemiológicos: Observacionales y Experimentales. Código oficial Perfil V3: 7.01.3.020. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 7.01.3.020",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Diseños de Estudios Epidemiológicos: Observacionales y Experimentales. Código oficial Perfil V3: 7.01.3.020, 7.01.3.022, 7.01.3.023, 7.01.3.024. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 7.01.3.020, 7.01.3.022, 7.01.3.023, 7.01.3.024",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1984,7 +1994,7 @@
           {
             "highlight": true,
             "cells": [
-              "7.01.3.020",
+              "7.01.3.020, 7.01.3.022, 7.01.3.023, 7.01.3.024",
               "Diseños de Estudios Epidemiológicos: Observacionales y Experimentales",
               "Diseño de Investigación",
               "Jerarquía de Evidencia",
@@ -2328,7 +2338,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "[Pregunta disputada] Es una mala pregunta, ya que hay más de un tipo de estudio que se puede utilizar para ello (además que no queda claro a qué tipo de intervenciones focalizadas se reﬁere). Sin embargo, el estudio de casos y controles suele dar información rápida y barata, que permite identiﬁcar los factores de riesgo, para controlarlos. Los ecológicos son baratos, pero abarcan toda la población (no son focalizados)."
+        "explanation": "[Pregunta disputada] Es una mala pregunta, ya que hay más de un tipo de estudio que se puede utilizar para ello (además que no queda claro a qué tipo de intervenciones focalizadas se refiere). Sin embargo, el estudio de casos y controles suele dar información rápida y barata, que permite identificar los factores de riesgo, para controlarlos. Los ecológicos son baratos, pero abarcan toda la población (no son focalizados)."
       },
       {
         "type": "question",
@@ -2394,7 +2404,8 @@
     "topicLabel": "21.7",
     "title": "Saludpublica 21.7: Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
     "perfilCodes": [
-      "7.01.3.019"
+      "7.01.3.019",
+      "7.01.3.014"
     ],
     "tier": 3,
     "realQuestionCount": 8,
@@ -2403,8 +2414,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Medidas de Frecuencia, Asociación e Impacto Potencial en Salud. Código oficial Perfil V3: 7.01.3.019. Este tema ha sido evaluado en 8 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 7.01.3.019",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Medidas de Frecuencia, Asociación e Impacto Potencial en Salud. Código oficial Perfil V3: 7.01.3.019, 7.01.3.014. Este tema ha sido evaluado en 8 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 7.01.3.019, 7.01.3.014",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -2453,7 +2464,7 @@
           {
             "highlight": true,
             "cells": [
-              "7.01.3.019",
+              "7.01.3.019, 7.01.3.014",
               "Medidas de Frecuencia, Asociación e Impacto Potencial en Salud",
               "Cálculo Bioestadístico",
               "Interpretación Numérica",
@@ -3687,7 +3698,8 @@
     "topicLabel": "21.10",
     "title": "Saludpublica 21.10: Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos",
     "perfilCodes": [
-      "7.01.3.028"
+      "7.01.3.028",
+      "7.01.3.004"
     ],
     "tier": 2,
     "realQuestionCount": 6,
@@ -3696,8 +3708,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos. Código oficial Perfil V3: 7.01.3.028. Este tema ha sido evaluado en 6 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 7.01.3.028",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos. Código oficial Perfil V3: 7.01.3.028, 7.01.3.004. Este tema ha sido evaluado en 6 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 7.01.3.028, 7.01.3.004",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -3746,7 +3758,7 @@
           {
             "highlight": true,
             "cells": [
-              "7.01.3.028",
+              "7.01.3.028, 7.01.3.004",
               "Tamizaje Poblacional (Screening): Criterios de Wilson-Jungner y Sesgos",
               "Fase Preclínica Detectable",
               "Intervención Precoz Eficaz",
@@ -4051,7 +4063,8 @@
     "topicLabel": "21.11",
     "title": "Saludpublica 21.11: Principios de la Bioética Clínica, Consentimiento Informado y Rechazo de Tratamiento",
     "perfilCodes": [
-      "7.01.3.052"
+      "7.01.3.052",
+      "7.01.3.056"
     ],
     "tier": 3,
     "realQuestionCount": 3,
@@ -4060,8 +4073,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Principios de la Bioética Clínica, Consentimiento Informado y Rechazo de Tratamiento. Código oficial Perfil V3: 7.01.3.052. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 7.01.3.052",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Principios de la Bioética Clínica, Consentimiento Informado y Rechazo de Tratamiento. Código oficial Perfil V3: 7.01.3.052, 7.01.3.056. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 7.01.3.052, 7.01.3.056",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4110,7 +4123,7 @@
           {
             "highlight": true,
             "cells": [
-              "7.01.3.052",
+              "7.01.3.052, 7.01.3.056",
               "Principios de la Bioética Clínica, Consentimiento Informado y Rechazo de Tratamiento",
               "Deliberación Ética",
               "Límites de la Terapia",
@@ -4844,7 +4857,8 @@
     "topicLabel": "21.13",
     "title": "Saludpublica 21.13: Certificación Médica de Defunción, Autopsias y Deber de Denuncia",
     "perfilCodes": [
-      "7.01.3.051"
+      "7.01.3.051",
+      "7.01.3.052"
     ],
     "tier": 3,
     "realQuestionCount": 3,
@@ -4853,8 +4867,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Certificación Médica de Defunción, Autopsias y Deber de Denuncia. Código oficial Perfil V3: 7.01.3.051. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 7.01.3.051",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Certificación Médica de Defunción, Autopsias y Deber de Denuncia. Código oficial Perfil V3: 7.01.3.051, 7.01.3.052. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 7.01.3.051, 7.01.3.052",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4903,7 +4917,7 @@
           {
             "highlight": true,
             "cells": [
-              "7.01.3.051",
+              "7.01.3.051, 7.01.3.052",
               "Certificación Médica de Defunción, Autopsias y Deber de Denuncia",
               "Certificación de Muerte",
               "Llenado Normativo CMD",
@@ -5290,7 +5304,9 @@
     "topicLabel": "21.14",
     "title": "Saludpublica 21.14: Legislación Sanitaria Especial: Ley IVE 21.030, Código Sanitario y Licencias Médicas",
     "perfilCodes": [
-      "7.01.3.054"
+      "7.01.3.052",
+      "7.01.3.054",
+      "3.01.3.002"
     ],
     "tier": 2,
     "realQuestionCount": 3,
@@ -5299,8 +5315,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Legislación Sanitaria Especial: Ley IVE 21.030, Código Sanitario y Licencias Médicas. Código oficial Perfil V3: 7.01.3.054. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 7.01.3.054",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Legislación Sanitaria Especial: Ley IVE 21.030, Código Sanitario y Licencias Médicas. Código oficial Perfil V3: 7.01.3.052, 7.01.3.054, 3.01.3.002. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 7.01.3.052, 7.01.3.054, 3.01.3.002",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -5349,7 +5365,7 @@
           {
             "highlight": true,
             "cells": [
-              "7.01.3.054",
+              "7.01.3.052, 7.01.3.054, 3.01.3.002",
               "Legislación Sanitaria Especial: Ley IVE 21.030, Código Sanitario y Licencias Médicas",
               "Marco Normativo Especial",
               "Procedimiento Legal",
@@ -5635,6 +5651,493 @@
               "Excepción de Urgencia Vital: En Causal 1 con riesgo de muerte materna inmediata y sin médico de reemplazo, el médico objetor DEBE intervenir forzosamente.",
               "Código Sanitario (Art. 112/113): Reserva la prescripción diagnóstica y terapéutica exclusiva a médicos cirujanos (y odontólogos/matronas en su campo).",
               "Ley 20.585 (Licencias Médicas): Penaliza la emisión fraudulenta de licencias médicas con penas de cárcel (presidio), multas millonarias e inhabilitación perpetua."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sp-15": {
+    "id": "sp-15",
+    "topicLabel": "21.15",
+    "title": "Saludpublica 21.15: Gestión y Administración en Salud: Demografía, Planificación, Programación, Organización y Dirección",
+    "perfilCodes": [
+      "7.01.3.007, 7.01.3.041, 7.01.3.042, 7.01.3.043, 7.01.3.044, 7.01.3.045, 7.01.3.055"
+    ],
+    "tier": 3,
+    "realQuestionCount": 12,
+    "slideCount": 17,
+    "slides": [
+      {
+        "type": "cover",
+        "nav": "Portada & Códigos",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Gestión y Administración en Salud: Demografía, Planificación, Programación, Organización y Dirección. Código oficial Perfil V3: 7.01.3.007, 7.01.3.041, 7.01.3.042, 7.01.3.043, 7.01.3.044, 7.01.3.045, 7.01.3.055. Este tema ha sido evaluado en 12 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 7.01.3.007, 7.01.3.041, 7.01.3.042, 7.01.3.043, 7.01.3.044, 7.01.3.045, 7.01.3.055",
+        "badges": [
+          {
+            "label": "EUNACOM 2026",
+            "bg": "#ffe4e6",
+            "color": "#e11d48",
+            "border": "#f43f5e"
+          },
+          {
+            "label": "Sistema de Salud Chileno, Red Asistencial & Vigilancia Epidemiológica",
+            "bg": "#ede9fe",
+            "color": "#0284c7",
+            "border": "#c4b5fd"
+          },
+          {
+            "label": "Perfil V3 Oficial",
+            "bg": "#dcfce7",
+            "color": "#16a34a",
+            "border": "#4ade80"
+          },
+          {
+            "label": "12 Preguntas Reales (2013-2025)",
+            "bg": "#fef3c7",
+            "color": "#b45309",
+            "border": "#f59e0b"
+          }
+        ],
+        "title": "Gestión y Administración en Salud: Demografía, Planificación, Programación, Organización y Dirección",
+        "subtitle": "Frecuencia: Tema agregado para cubrir los códigos de demografía y administración del Perfil V3; sin reconstrucciones oficiales identificadas"
+      },
+      {
+        "type": "table",
+        "nav": "Matriz Perfil V3",
+        "notes": "[SLIDE 2] Exigencia legal según Perfil de Conocimientos ASOFAMECh: Diagnóstico: Gestión en Salud, Tratamiento: Planificación y Organización, Seguimiento: Evaluación y Control.",
+        "title": "Matriz de Auditoría Legal: Gestión y Administración en Salud: Demografía, Planificación, Programación, Organización y Dirección",
+        "subtitle": "Nivel de competencia médica exigible por ley en Chile (EUNACOM 2026).",
+        "headers": [
+          "Código",
+          "Situación Clínica",
+          "Diagnóstico",
+          "Tratamiento",
+          "Seguimiento"
+        ],
+        "highlightCol": 1,
+        "pearl": "El nivel de exigencia legal determina si debes resolver de forma autónoma en APS o estabilizar y derivar oportunamente.",
+        "rows": [
+          {
+            "highlight": true,
+            "cells": [
+              "7.01.3.007, 7.01.3.041, 7.01.3.042, 7.01.3.043, 7.01.3.044, 7.01.3.045, 7.01.3.055",
+              "Gestión y Administración en Salud: Demografía, Planificación, Programación, Organización y Dirección",
+              "Gestión en Salud",
+              "Planificación y Organización",
+              "Evaluación y Control"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Demografía y Salud Pública",
+        "notes": "[SLIDE 3] La demografía estudia el tamaño, la estructura y la dinámica de las poblaciones. Entrega a la salud pública los denominadores de sus tasas y la información para planificar. Sus componentes son la natalidad y la fecundidad (tasa global de fecundidad: hijos por mujer; el nivel de reemplazo es 2,1), la mortalidad, la migración y el crecimiento natural (natalidad menos mortalidad). Las fuentes son el censo, las proyecciones del INE y las estadísticas vitales. La estructura por edad y sexo se representa en la pirámide de población: expansiva (base ancha, alta natalidad y mortalidad), estacionaria (forma de campana) y constrictiva (base angosta, población envejecida). Indicadores: índice de envejecimiento = población de 65 años o más / menores de 15 × 100; razón de dependencia = (menores de 15 + 65 o más) / población de 15 a 64 × 100. La transición demográfica es el paso de natalidad y mortalidad altas a natalidad y mortalidad bajas, con envejecimiento. Se acompaña de la transición epidemiológica (Omran): las enfermedades infecciosas y la desnutrición ceden ante las crónicas no transmisibles, el cáncer y las lesiones. Chile está en una fase avanzada: tasa de fecundidad bajo el nivel de reemplazo, esperanza de vida cercana a 80 años y población que envejece. Esto obliga a priorizar las enfermedades crónicas, la dependencia y los cuidados del adulto mayor.",
+        "title": "1. Demografía y Salud Pública",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "La demografía estudia el tamaño, la estructura y la dinámica de las poblaciones. Entrega a la salud pública los denominadores de sus tasas y la información para planificar. Sus componentes son la natalidad y la fecundidad (tasa global de fecundidad: hijos por mujer; el nivel de reemplazo es 2,1), la mortalidad, la migración y el crecimiento natural (natalidad menos mortalidad). Las fuentes son el censo, las proyecciones del INE y las estadísticas vitales.",
+              "La estructura por edad y sexo se representa en la pirámide de población: expansiva (base ancha, alta natalidad y mortalidad), estacionaria (forma de campana) y constrictiva (base angosta, población envejecida). Indicadores: índice de envejecimiento = población de 65 años o más / menores de 15 × 100; razón de dependencia = (menores de 15 + 65 o más) / población de 15 a 64 × 100.",
+              "La transición demográfica es el paso de natalidad y mortalidad altas a natalidad y mortalidad bajas, con envejecimiento. Se acompaña de la transición epidemiológica (Omran): las enfermedades infecciosas y la desnutrición ceden ante las crónicas no transmisibles, el cáncer y las lesiones. Chile está en una fase avanzada: tasa de fecundidad bajo el nivel de reemplazo, esperanza de vida cercana a 80 años y población que envejece. Esto obliga a priorizar las enfermedades crónicas, la dependencia y los cuidados del adulto mayor."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Conceptos de Administración y Gestión; A",
+        "notes": "[SLIDE 4] La administración es el proceso de planificar, organizar, dirigir y controlar el uso de los recursos de una organización para lograr sus objetivos (Fayol). La gestión es su aplicación práctica para obtener resultados. Se evalúa con tres criterios: eficacia (se cumple el objetivo), eficiencia (con el menor uso de recursos) y efectividad (logro del objetivo en condiciones reales). Hay niveles estratégico (alta dirección: metas y políticas), táctico (jefaturas intermedias) y operativo (ejecución diaria). La administración de establecimientos de salud gestiona recursos humanos, físicos y financieros. Conceptos básicos: costos fijos (no cambian con la producción; sueldos, arriendo) y variables (insumos); presupuesto (plan financiero anual); y formas de pago: per cápita en atención primaria (por inscrito), pago por prestación y por grupos relacionados por el diagnóstico (GRD) en hospitales. Los hospitales de mayor complejidad son establecimientos de autogestión en red (Ley 19.937), con autonomía de gestión. Indicadores de gestión hospitalaria:\n• Índice ocupacional = días cama ocupados / días cama disponibles × 100.\n• Promedio de días de estada = días de estada de los egresos / número de egresos.\n• Rotación o giro de camas = egresos / número promedio de camas disponibles.\n• Letalidad hospitalaria = fallecidos / egresos × 100.\n• Porcentaje de cesáreas = cesáreas / partos totales × 100.",
+        "title": "2. Conceptos de Administración y Gestión; Administración de Establecimientos",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "La administración es el proceso de planificar, organizar, dirigir y controlar el uso de los recursos de una organización para lograr sus objetivos (Fayol). La gestión es su aplicación práctica para obtener resultados. Se evalúa con tres criterios: eficacia (se cumple el objetivo), eficiencia (con el menor uso de recursos) y efectividad (logro del objetivo en condiciones reales). Hay niveles estratégico (alta dirección: metas y políticas), táctico (jefaturas intermedias) y operativo (ejecución diaria).",
+              "La administración de establecimientos de salud gestiona recursos humanos, físicos y financieros. Conceptos básicos: costos fijos (no cambian con la producción; sueldos, arriendo) y variables (insumos); presupuesto (plan financiero anual); y formas de pago: per cápita en atención primaria (por inscrito), pago por prestación y por grupos relacionados por el diagnóstico (GRD) en hospitales. Los hospitales de mayor complejidad son establecimientos de autogestión en red (Ley 19.937), con autonomía de gestión.",
+              "Indicadores de gestión hospitalaria:\n• Índice ocupacional = días cama ocupados / días cama disponibles × 100.\n• Promedio de días de estada = días de estada de los egresos / número de egresos.\n• Rotación o giro de camas = egresos / número promedio de camas disponibles.\n• Letalidad hospitalaria = fallecidos / egresos × 100.\n• Porcentaje de cesáreas = cesáreas / partos totales × 100."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Planificación y Programación en Salud",
+        "notes": "[SLIDE 5] La planificación define a dónde se quiere llegar y cómo, a partir de un diagnóstico. Puede ser normativa (un técnico define lo que debe hacerse y se supone un entorno estable) o estratégica y situacional (Matus; considera a los actores y el contexto cambiante). El plan estratégico parte de la misión (para qué existe la organización), la visión (qué quiere ser) y el análisis FODA (fortalezas, oportunidades, debilidades y amenazas). Se ordena en una jerarquía: política, plan, programa, proyecto y actividad. Las etapas de la planificación son: (1) diagnóstico; (2) determinación de prioridades; (3) fijación de objetivos (qué se quiere lograr) y metas (cuánto y para cuándo; deben ser específicas, medibles, alcanzables, relevantes y con plazo); (4) estrategias y actividades; (5) asignación de recursos; (6) ejecución; (7) evaluación. La programación traduce el plan en actividades concretas, con su concentración (número de actividades por persona), rendimiento (actividades por hora del recurso) y el cálculo de las horas necesarias; se ordena en una carta Gantt.",
+        "title": "3. Planificación y Programación en Salud",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "La planificación define a dónde se quiere llegar y cómo, a partir de un diagnóstico. Puede ser normativa (un técnico define lo que debe hacerse y se supone un entorno estable) o estratégica y situacional (Matus; considera a los actores y el contexto cambiante). El plan estratégico parte de la misión (para qué existe la organización), la visión (qué quiere ser) y el análisis FODA (fortalezas, oportunidades, debilidades y amenazas). Se ordena en una jerarquía: política, plan, programa, proyecto y actividad.",
+              "Las etapas de la planificación son: (1) diagnóstico; (2) determinación de prioridades; (3) fijación de objetivos (qué se quiere lograr) y metas (cuánto y para cuándo; deben ser específicas, medibles, alcanzables, relevantes y con plazo); (4) estrategias y actividades; (5) asignación de recursos; (6) ejecución; (7) evaluación. La programación traduce el plan en actividades concretas, con su concentración (número de actividades por persona), rendimiento (actividades por hora del recurso) y el cálculo de las horas necesarias; se ordena en una carta Gantt."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Formulación de Programas",
+        "notes": "[SLIDE 6] Un programa de salud se formula siguiendo una estructura: (1) diagnóstico y justificación (problema y magnitud); (2) población objetivo (a quiénes está dirigido); (3) objetivos general y específicos; (4) metas cuantificadas con plazo; (5) actividades y su programación; (6) recursos humanos, físicos y financieros; (7) organización y responsables; (8) evaluación con indicadores y medios de verificación. El marco lógico ordena el programa en cuatro niveles: fin (el impacto de largo plazo al que contribuye), propósito (el cambio que se logra en la población objetivo), componentes (productos o servicios entregados) y actividades. Para cada nivel se definen indicadores, medios de verificación y supuestos (condiciones externas necesarias). Los indicadores se clasifican en de estructura (recursos), de proceso (actividades realizadas y cobertura) y de resultado (efecto en salud).",
+        "title": "4. Formulación de Programas",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "Un programa de salud se formula siguiendo una estructura: (1) diagnóstico y justificación (problema y magnitud); (2) población objetivo (a quiénes está dirigido); (3) objetivos general y específicos; (4) metas cuantificadas con plazo; (5) actividades y su programación; (6) recursos humanos, físicos y financieros; (7) organización y responsables; (8) evaluación con indicadores y medios de verificación.",
+              "El marco lógico ordena el programa en cuatro niveles: fin (el impacto de largo plazo al que contribuye), propósito (el cambio que se logra en la población objetivo), componentes (productos o servicios entregados) y actividades. Para cada nivel se definen indicadores, medios de verificación y supuestos (condiciones externas necesarias). Los indicadores se clasifican en de estructura (recursos), de proceso (actividades realizadas y cobertura) y de resultado (efecto en salud)."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Organización: Principios y Característic",
+        "notes": "[SLIDE 7] La organización es la función que agrupa las actividades, define quién hace qué y establece las relaciones de autoridad. Sus principios: división del trabajo y especialización; jerarquía o cadena de mando; unidad de mando (cada persona responde ante un solo jefe); tramo de control (número de subordinados que un jefe puede supervisar); autoridad y responsabilidad proporcionales; delegación; y coordinación. Características estructurales: complejidad (número de niveles y unidades), formalización (normas escritas, manuales), centralización o descentralización de las decisiones y departamentalización (por función, producto, territorio o proceso). La estructura formal se representa en el organigrama; la informal surge de las relaciones personales. Tipos: lineal, funcional, matricial y por procesos. En la red asistencial chilena el MINSAL conduce, los Servicios de Salud articulan la red de su territorio y la atención primaria es municipal o dependiente del Servicio.",
+        "title": "5. Organización: Principios y Características Estructurales",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "La organización es la función que agrupa las actividades, define quién hace qué y establece las relaciones de autoridad. Sus principios: división del trabajo y especialización; jerarquía o cadena de mando; unidad de mando (cada persona responde ante un solo jefe); tramo de control (número de subordinados que un jefe puede supervisar); autoridad y responsabilidad proporcionales; delegación; y coordinación.",
+              "Características estructurales: complejidad (número de niveles y unidades), formalización (normas escritas, manuales), centralización o descentralización de las decisiones y departamentalización (por función, producto, territorio o proceso). La estructura formal se representa en el organigrama; la informal surge de las relaciones personales. Tipos: lineal, funcional, matricial y por procesos. En la red asistencial chilena el MINSAL conduce, los Servicios de Salud articulan la red de su territorio y la atención primaria es municipal o dependiente del Servicio."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Dirección: Liderazgo, Comunicación y Coo",
+        "notes": "[SLIDE 8] La dirección es la función que pone en acción a las personas para cumplir los objetivos: toma de decisiones, motivación, liderazgo, comunicación y coordinación. Estilos de liderazgo: autocrático (el jefe decide solo), democrático o participativo (consulta al equipo) y laissez-faire (deja hacer). El liderazgo puede ser transaccional (intercambio de metas y recompensas) o transformacional (inspira y desarrolla al equipo); el situacional adapta el estilo al nivel de madurez del equipo. La comunicación en la organización es formal (por canales oficiales) o informal, y fluye descendente (instrucciones), ascendente (retroalimentación) y horizontal (entre pares). La coordinación sincroniza las tareas de las distintas unidades; en la red asistencial se concreta en la referencia y contrarreferencia entre niveles de atención. La motivación se explica, entre otras, por las teorías de Maslow (jerarquía de necesidades) y Herzberg (factores higiénicos y motivadores). El trabajo en equipo y el manejo constructivo de los conflictos son competencias del médico general.",
+        "title": "6. Dirección: Liderazgo, Comunicación y Coordinación",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "La dirección es la función que pone en acción a las personas para cumplir los objetivos: toma de decisiones, motivación, liderazgo, comunicación y coordinación. Estilos de liderazgo: autocrático (el jefe decide solo), democrático o participativo (consulta al equipo) y laissez-faire (deja hacer). El liderazgo puede ser transaccional (intercambio de metas y recompensas) o transformacional (inspira y desarrolla al equipo); el situacional adapta el estilo al nivel de madurez del equipo.",
+              "La comunicación en la organización es formal (por canales oficiales) o informal, y fluye descendente (instrucciones), ascendente (retroalimentación) y horizontal (entre pares). La coordinación sincroniza las tareas de las distintas unidades; en la red asistencial se concreta en la referencia y contrarreferencia entre niveles de atención. La motivación se explica, entre otras, por las teorías de Maslow (jerarquía de necesidades) y Herzberg (factores higiénicos y motivadores). El trabajo en equipo y el manejo constructivo de los conflictos son competencias del médico general."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Las Funciones del Proceso Admi",
+        "notes": "[SLIDE 9] Las Funciones del Proceso Administrativo.",
+        "title": "Las Funciones del Proceso Administrativo",
+        "headers": [
+          "Función",
+          "Pregunta que responde",
+          "Herramientas y Productos",
+          "Ejemplo en un CESFAM"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Planificación",
+              "¿Qué haremos y cómo?",
+              "Diagnóstico, FODA, objetivos, metas, plan",
+              "Plan anual para subir la cobertura de control de hipertensos"
+            ]
+          },
+          {
+            "cells": [
+              "Programación",
+              "¿Cuántas actividades y con qué recursos?",
+              "Concentración, rendimiento, carta Gantt",
+              "Horas médicas y de enfermería para 600 hipertensos"
+            ]
+          },
+          {
+            "cells": [
+              "Organización",
+              "¿Quién hace qué?",
+              "Organigrama, división del trabajo, tramo de control",
+              "Equipos de cabecera por sector con un jefe"
+            ]
+          },
+          {
+            "cells": [
+              "Dirección",
+              "¿Cómo se pone en marcha al equipo?",
+              "Liderazgo, motivación, comunicación, coordinación",
+              "Reuniones de equipo y retroalimentación"
+            ]
+          },
+          {
+            "cells": [
+              "Evaluación y control",
+              "¿Se logró lo planificado?",
+              "Indicadores de estructura, proceso y resultado",
+              "Porcentaje de hipertensos compensados"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Pirámides de Población y Fase ",
+        "notes": "[SLIDE 10] Pirámides de Población y Fase Demográfica.",
+        "title": "Pirámides de Población y Fase Demográfica",
+        "headers": [
+          "Tipo de Pirámide",
+          "Forma",
+          "Natalidad y Mortalidad",
+          "Característica"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Expansiva",
+              "Base ancha y cúspide estrecha (triángulo)",
+              "Altas ambas",
+              "Población joven; países de ingreso bajo"
+            ]
+          },
+          {
+            "cells": [
+              "Estacionaria",
+              "Forma de campana, lados casi verticales",
+              "Natalidad en descenso, mortalidad baja",
+              "Crecimiento lento"
+            ]
+          },
+          {
+            "cells": [
+              "Constrictiva",
+              "Base angosta y cuerpo ancho",
+              "Natalidad muy baja",
+              "Envejecimiento; índice de dependencia en aumento (Chile)"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Indicadores de Gestión Hospita",
+        "notes": "[SLIDE 11] Indicadores de Gestión Hospitalaria.",
+        "title": "Indicadores de Gestión Hospitalaria",
+        "headers": [
+          "Indicador",
+          "Fórmula",
+          "Qué Mide"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Índice ocupacional",
+              "Días cama ocupados / días cama disponibles × 100",
+              "Uso de la capacidad instalada"
+            ]
+          },
+          {
+            "cells": [
+              "Promedio de días de estada",
+              "Días de estada de los egresos / egresos",
+              "Duración media de la hospitalización"
+            ]
+          },
+          {
+            "cells": [
+              "Rotación (giro) de camas",
+              "Egresos / camas disponibles",
+              "Cuántos pacientes usan una cama en el período"
+            ]
+          },
+          {
+            "cells": [
+              "Letalidad hospitalaria",
+              "Fallecidos / egresos × 100",
+              "Resultado y gravedad de los casos atendidos"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "figura",
+        "nav": "Algoritmo",
+        "notes": "[SLIDE 12] Ciclo de Gestión de un Programa de Salud: del Diagnóstico a la Evaluación",
+        "title": "Ciclo de Gestión de un Programa de Salud: del Diagnóstico a la Evaluación",
+        "svg": "<svg viewBox=\"0 0 620 390\" width=\"100%\" style=\"max-width:620px;font-family:'IBM Plex Sans',system-ui,sans-serif\">\n  <defs><marker id=\"ar_166534\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#166534\"/></marker></defs>\n  <style>\n    .b{fill:#fff;stroke:#cbd5e1;stroke-width:1}\n    .t{font-size:10px;fill:#15181d}\n    .sub{font-size:8px;fill:#475569}.lbl{font-size:7.5px;fill:#166534;font-weight:700}\n    .acc{fill:#166534;stroke:#14532d}.accT{fill:#fff}.accS{font-size:8px;fill:#dcfce7}\n    .dec{fill:#f0fdf4;stroke:#94a3b8;stroke-width:1}\n    .warn{fill:#fef2f2;stroke:#fecaca;stroke-width:1}.warnT{fill:#991b1b}\n    .crit{fill:#fff1f2;stroke:#f43f5e;stroke-width:1}\n    .ln{stroke:#166534;stroke-width:1.2;fill:none;marker-end:url(#ar_166534)}\n  </style>\n  <rect class=\"crit\" x=\"100\" y=\"8\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"310\" y=\"23\" text-anchor=\"middle\" font-weight=\"700\">Diagnóstico de situación de salud y demografía de la población a cargo</text>\n  <text class=\"warnT sub\" x=\"310\" y=\"35\" text-anchor=\"middle\">Magnitud, tendencia, estructura por edad y sexo, priorización de problemas</text>\n  <path class=\"ln\" d=\"M310,47 V69\"/>\n  <rect class=\"acc\" x=\"100\" y=\"69\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"310\" y=\"84\" text-anchor=\"middle\" font-weight=\"700\">Planificación: objetivos, metas y estrategias</text>\n  <text class=\"accS\" x=\"310\" y=\"96\" text-anchor=\"middle\">Plan estratégico a mediano plazo (misión, visión, objetivos) · metas medibles y con plazo</text>\n  <path class=\"ln\" d=\"M310,108 V130\"/>\n  <rect class=\"acc\" x=\"100\" y=\"130\" width=\"420\" height=\"50\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"310\" y=\"145\" text-anchor=\"middle\" font-weight=\"700\">Programación y formulación del programa</text>\n  <text class=\"accS\" x=\"310\" y=\"157\" text-anchor=\"middle\">Población objetivo, actividades, recursos,</text>\n  <text class=\"accS\" x=\"310\" y=\"168\" text-anchor=\"middle\">concentración y rendimiento, cronograma, responsables</text>\n  <path class=\"ln\" d=\"M310,180 V202\"/>\n  <text class=\"sub\" x=\"317\" y=\"194\">Organización vs Dirección</text>\n  <rect class=\"dec\" x=\"70\" y=\"202\" width=\"480\" height=\"29\" rx=\"3\"/>\n  <text class=\"t t\" x=\"310\" y=\"217\" text-anchor=\"middle\" font-weight=\"700\">Ejecución del programa: ¿qué dos funciones la sostienen?</text>\n  <path class=\"ln\" d=\"M310,231 V261 H158 V271\"/>\n  <path class=\"ln\" d=\"M310,261 H462 V271\"/>\n  <text class=\"lbl\" x=\"158\" y=\"256\" text-anchor=\"middle\">Organización</text>\n  <text class=\"lbl\" x=\"462\" y=\"256\" text-anchor=\"middle\">Dirección</text>\n  <rect class=\"acc\" x=\"12\" y=\"271\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"158\" y=\"286\" text-anchor=\"middle\" font-weight=\"700\">Organización</text>\n  <text class=\"accS\" x=\"158\" y=\"298\" text-anchor=\"middle\">Estructura, división del trabajo,</text>\n  <text class=\"accS\" x=\"158\" y=\"309\" text-anchor=\"middle\">jerarquía, tramo de control, organigrama</text>\n  <rect class=\"warn\" x=\"316\" y=\"271\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"462\" y=\"286\" text-anchor=\"middle\" font-weight=\"700\">Dirección</text>\n  <text class=\"warnT sub\" x=\"462\" y=\"298\" text-anchor=\"middle\">Liderazgo, motivación, comunicación,</text>\n  <text class=\"warnT sub\" x=\"462\" y=\"309\" text-anchor=\"middle\">coordinación y toma de decisiones</text>\n  <path class=\"ln\" d=\"M158,321 V331 H310 V343\"/>\n  <path class=\"ln\" d=\"M462,321 V331 H310 V343\"/>\n  <rect class=\"acc\" x=\"100\" y=\"343\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"310\" y=\"358\" text-anchor=\"middle\" font-weight=\"700\">Evaluación y control: indicadores de estructura, proceso y resultado</text>\n  <text class=\"accS\" x=\"310\" y=\"370\" text-anchor=\"middle\">Compara lo logrado con lo planificado y retroalimenta la planificación (ciclo continuo)</text>\n</svg>",
+        "steps": [
+          "1. Diagnóstico de situación de salud y demografía de la población a cargo",
+          "2. Planificación: objetivos, metas y estrategias",
+          "3. Programación y formulación del programa · Ejecución del programa: ¿qué dos funciones la sostienen? · Organización"
+        ]
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 1",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 13] Caso clínico de aplicación número 1.",
+        "number": 1,
+        "caseText": "Un hospital tuvo en un año 4.380 egresos, 21.900 días de estada y 80 camas disponibles todo el año (29.200 días cama disponibles). ¿Cuál es su promedio de días de estada y su índice ocupacional?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "5 días y 75%",
+            "isCorrect": true
+          },
+          {
+            "id": "B",
+            "text": "5 días y 50%",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "4 días y 75%",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "6 días y 60%",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "5 días y 100%",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A) Correcta. Promedio de días de estada = 21.900 / 4.380 = 5 días. Índice ocupacional = días cama ocupados / días cama disponibles × 100 = 21.900 / 29.200 × 100 = 75%.\nB) Incorrecta. El índice ocupacional no es 50%.\nC) Incorrecta. La estada media es de 5 días, no de 4.\nD) Incorrecta. Ambos valores están mal calculados.\nE) Incorrecta. Una ocupación del 100% supondría 29.200 días cama ocupados."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 2",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 14] Caso clínico de aplicación número 2.",
+        "number": 2,
+        "caseText": "En la formulación de un programa de salud, ¿cuál es la diferencia correcta entre objetivo y meta?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "El objetivo es cuantificado y con plazo; la meta es cualitativa",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "El objetivo expresa lo que se quiere lograr; la meta lo cuantifica en cantidad y tiempo",
+            "isCorrect": true
+          },
+          {
+            "id": "C",
+            "text": "Ambos términos son sinónimos",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "La meta describe las actividades y el objetivo, los recursos",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "La meta corresponde al fin del marco lógico",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "B) Correcta. El objetivo describe el cambio que se quiere lograr; la meta establece cuánto y para cuándo, de modo que sea medible.\nA) Incorrecta. Está invertido.\nC) Incorrecta. Son conceptos distintos.\nD) Incorrecta. Las actividades y los recursos son otros componentes del programa.\nE) Incorrecta. El fin es el nivel más alto del marco lógico; la meta cuantifica los objetivos."
+      },
+      {
+        "type": "question",
+        "nav": "Pregunta Real EUNACOM",
+        "badge": "EUNACOM Diciembre 2025 · Pregunta 12",
+        "notes": "[SLIDE 15] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 12.",
+        "number": 3,
+        "caseText": "En una zona rural del país se recibe una gran cantidad de migrantes, principalmente personas jóvenes y sanas. Desde el punto de vista de la gestión en salud pública para dicha zona, ¿qué medida debe priorizarse?",
+        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aumentar los recursos para el programa de enfermedades crónicas",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Aumentar los recursos para los programas de atención materno-infan2l",
+            "isCorrect": true
+          },
+          {
+            "id": "C",
+            "text": "Reforzar los programas de saneamiento básico",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Realizar empadronamiento de los migrantes",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Aumentar el número de camas hospitalarias",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "La inmigración de personas sanas y en edad fértil (fenómeno que ha ocurrido en Chile en la última década), produce aumento de la tasa de natalidad, por lo que es necesario destinar mayores recursos a la atención materno infantil. La población usuaria sí aumenta, por lo que muchas veces sí es necesario aumentar la capacidad de atención (ej. personal o camas), pero, al ser sanas, suele ser menor este impacto. El saneamiento básico es importante en las pobaciónes con pirámides de poblacionales jóvenes, ya que, suelen ser países pobres, en los que los esfuerzos de salud se concentran en saneamiento básico, prevención de infecciones y atención materno infantil, pero no se debe confundir con este otro fenómeno, en que la inmigración suele producirse hacia un destino que ya Gene una infraestructura aceptable. El empadronamiento es una acción administrativa que puede ser útil en otros ámbitos, pero no es tan relevante respecto de la gestión de salud. Los programa de crónicos, por el contrario, se deben reforzar ante el envejecimiento de la población."
+      },
+      {
+        "type": "question",
+        "nav": "Pregunta Real EUNACOM",
+        "badge": "EUNACOM Diciembre 2025 · Pregunta 13",
+        "notes": "[SLIDE 16] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 13.",
+        "number": 4,
+        "caseText": "Una localidad de la zona norte del país experimenta un aumento significativo de migrantes debido a un programa de incentivos laborales y subsidios económicos, el cual exige una permanencia mínima de 5 años y atrae principalmente a parejas jóvenes y niños. ¿Cuál de los siguientes cambios demográficos es esperable?",
+        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Aumento de la expecta2va de vida de la población",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Aumento de la tasa bruta de mortalidad",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Aumento de la tasa bruta de natalidad",
+            "isCorrect": true
+          },
+          {
+            "id": "D",
+            "text": "Aumento de la tasa de mortalidad infan2l",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Aumento de la prevalencia de cánceres ginecológicos",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Es una pregunta muy similar a la anterior y aplica la misma lógica, con más personas en edad fértil, por lo que aumentará la tasa de natalidad. La expectativa de vida y la tasa de mortalidad infantil no dependen de la edad de la población, sino de las condiciones generales del país o ciudad en la que están: mientras más rico un país, mayor la expectativa de vida y menor la mortalidad infantil. Los cánceres ginecológicos suelen ser más frecuentes en edad avanzada (ovario y endometrio), aunque el de cuello uterino puede verse en edades más jóvenes."
+      },
+      {
+        "type": "bento",
+        "nav": "Reglas de Oro",
+        "notes": "[SLIDE 17] Repasemos las reglas de oro de este tema para no fallar en el EUNACOM.",
+        "title": "Reglas de Oro del Examen EUNACOM",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "Proceso administrativo: planificar, organizar, dirigir y controlar (evaluar); la evaluación retroalimenta la planificación.",
+              "Objetivo: qué se quiere lograr; meta: cuánto y para cuándo (medible y con plazo).",
+              "Marco lógico: fin, propósito, componentes y actividades, con indicadores, medios de verificación y supuestos.",
+              "Organización: unidad de mando, jerarquía, tramo de control, división del trabajo; el organigrama representa la estructura formal.",
+              "Dirección: liderazgo (autocrático, democrático, laissez-faire), motivación, comunicación y coordinación.",
+              "Índice ocupacional = días cama ocupados / días cama disponibles × 100; giro de camas = egresos / camas; estada = días de estada / egresos.",
+              "Pirámide expansiva (base ancha), estacionaria (campana) y constrictiva (base angosta, envejecimiento); Chile tiene población que envejece."
             ]
           }
         ]

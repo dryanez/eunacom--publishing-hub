@@ -34,6 +34,85 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Trastornos de la progresión',
+      title: 'La prueba de trabajo de parto',
+      cards: [
+        { title: 'Cuándo se hace', tag: 'Vía de parto dudosa', kind: 'key', items: [
+          { t: 'Feto cefálico, pelvis límite', d: 'Sospecha leve de desproporción',
+            say: 'Cuando dudas si tu paciente puede parir por vía vaginal, no decides a ciegas: haces una prueba de trabajo de parto. Es observar el parto de forma controlada, con el feto cefálico, para decidir según cómo progresan la dilatación y el descenso.' },
+          { t: 'Cesárea previa, añosa', d: 'Cesárea segmentaria o feto de peso límite',
+            say: 'La usas ante una pelvis límite o un feto grande, en el trabajo de parto tras una cesárea segmentaria previa, y en la primípara añosa con un feto de peso límite.' },
+        ] },
+        { title: 'Condiciones', tag: 'Se exigen todas', kind: 'criteria', items: [
+          { t: 'Feto único, cefálico y vivo', d: 'Sin signos de hipoxia',
+            say: 'Para hacerla necesitas un feto único, cefálico y vivo, sin signos de hipoxia, y a tu paciente en fase activa, con cinco centímetros o más. Si las membranas están íntegras, las rompes.' },
+          { t: 'Dinámica de 3 a 5 en 10 minutos', d: 'Con monitoreo continuo y quirófano listo',
+            say: 'La dinámica tiene que ser adecuada, de tres a cinco contracciones en diez minutos, y si no alcanza, ayudas con oxitocina. Todo con monitoreo cardiofetal continuo, analgesia y un quirófano disponible.' },
+        ] },
+        { title: 'Resultado', tag: 'Progresa o cesárea', kind: 'alert', items: [
+          { t: 'Éxito: un centímetro por hora', d: 'Y la presentación desciende',
+            say: 'La prueba es exitosa si hay progreso: la dilatación avanza al menos un centímetro por hora y la presentación desciende.' },
+          { t: 'Fracaso: detención de 2 horas', d: 'Con buena dinámica, indica cesárea',
+            say: 'Y fracasa si la dilatación se detiene dos horas o más con buena dinámica, o cuatro horas con dinámica inadecuada, o seis horas con oxitocina. También si se detiene el descenso o aparecen signos de sufrimiento fetal. No la haces si la desproporción es evidente, si hay placenta previa, una presentación anómala o una cicatriz uterina corporal.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Presentaciones anómalas',
+      title: 'Cuando no viene la cabeza',
+      cards: [
+        { title: 'Cuáles son', tag: 'Polo distinto a la cabeza', kind: 'key', items: [
+          { t: 'Podálica: 3 a 4 por ciento', d: 'De nalgas puras, la más frecuente',
+            say: 'Hablas de presentación anómala cuando el polo que se ofrece al estrecho superior no es la cabeza flexionada. La podálica ocurre en tres a cuatro por ciento de los embarazos de término, y la más frecuente es la de nalgas puras.' },
+          { t: 'Situación transversa', d: 'Eje fetal perpendicular, en multíparas',
+            say: 'En la situación transversa el eje del feto cruza el de la madre, y se ve sobre todo en multíparas. También son anómalas la presentación de cara y de frente.' },
+        ] },
+        { title: 'Qué la favorece', tag: 'Algo ocupa el espacio', kind: 'criteria', items: [
+          { t: 'Prematuridad, líquido alterado', d: 'Podálica frecuente antes de 32 semanas',
+            say: 'Se asocia a prematuridad, porque antes de las treinta y dos semanas la podálica es más frecuente, y a polihidramnios u oligohidramnios.' },
+          { t: 'Placenta previa, mioma, gemelar', d: 'Y malformaciones fetales o uterinas',
+            say: 'También a la multiparidad, la placenta previa, los miomas, las malformaciones uterinas, el embarazo múltiple, y malformaciones fetales como la hidrocefalia.' },
+        ] },
+        { title: 'Cómo la sospechas', tag: 'Leopold y ecografía', kind: 'normal', items: [
+          { t: 'Polo duro y redondo en el fondo', d: 'Latidos sobre el ombligo',
+            say: 'En la podálica, con las maniobras de Leopold palpas el polo duro, redondo y balotable en el fondo, y auscultas los latidos sobre el ombligo. En la transversa, el útero es más ancho que alto, con el fondo vacío.' },
+          { t: 'La ecografía confirma', d: 'Y descarta placenta previa',
+            say: 'La ecografía confirma la presentación y descarta placenta previa, malformaciones y anomalías del útero.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Presentaciones anómalas',
+      title: 'Qué haces con una podálica o una transversa',
+      nodes: [
+        { id: 'pod', col: 0, row: 1, k: 'start', t: 'Podálica a las 36 semanas', s: 'Confirmada por ecografía' },
+        { id: 'vce', col: 1, row: 0, k: 'good', t: 'Versión externa cefálica', s: '36 a 37 semanas, éxito de 50 a 60 por ciento' },
+        { id: 'ces', col: 2, row: 1, k: 'refer', t: 'Cesárea electiva', s: 'A las 39 semanas' },
+        { id: 'tra', col: 2, row: 2, k: 'alert', t: 'Transversa en trabajo de parto', s: 'Cesárea, no hay parto vaginal' },
+      ],
+      edges: [
+        { from: 'pod', to: 'vce', label: 'sin contraindicaciones' },
+        { from: 'vce', to: 'ces', label: 'si fracasa' },
+        { from: 'pod', to: 'tra' },
+      ],
+      steps: [
+        { show: ['pod'], note: 'Primero confirmas y buscas causa',
+          say: 'La conducta parte con la ecografía confirmando la presentación y descartando causas, como una placenta previa.' },
+        { show: ['vce'], note: 'Con monitoreo y tocolisis',
+          say: 'A las treinta y seis a treinta y siete semanas ofreces la versión externa cefálica, que resulta en cincuenta a sesenta por ciento de los casos. Se hace con monitoreo fetal, ecografía previa y tocolisis, y a la Rh negativa se le da anti-D. No la haces con placenta previa, rotura de membranas, oligohidramnios, sangrado, cicatriz uterina ni embarazo múltiple.' },
+        { show: ['ces'], note: 'El parto podálico, solo en centro entrenado',
+          say: 'Si la presentación anómala persiste, programas una cesárea electiva a las treinta y nueve semanas. El parto vaginal podálico se reserva para un centro con equipo entrenado y criterios estrictos.' },
+        { show: ['tra'], note: 'Riesgo de prolapso de cordón y rotura uterina',
+          say: 'Y una situación transversa ya en trabajo de parto no se puede resolver por vía vaginal: cesárea, por el riesgo de prolapso de cordón y de rotura uterina. Lo mismo si hay prolapso de cordón con una presentación no encajada y membranas rotas: cesárea inmediata.' },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Distocia de hombros',
       title: '¿Por qué se atasca el hombro?',
@@ -53,7 +132,8 @@ module.exports = {
         { show: ['imp'], note: 'El hombro queda detrás del pubis',
           say: 'Con un hombro grande, la cabeza sale, pero el hombro anterior queda atascado detrás de tu sínfisis púbica, y no logra desprenderse con la tracción suave habitual.' },
         { show: ['tor'], note: 'Cabeza que sale y se retrae',
-          say: 'Y el signo que te avisa esta emergencia es inconfundible: la cabeza fetal se desprende, pero de inmediato se retrae con fuerza contra el periné. Es el signo de la tortuga, y ahí tienes que actuar en minutos.' },
+          say: 'Y el signo que te avisa esta emergencia es inconfundible: la cabeza fetal se desprende, pero de inmediato se retrae con fuerza contra el periné. Mira esta foto: la cabeza apenas asoma y queda aplastada contra la vulva. Es el signo de la tortuga, y ahí tienes que actuar en minutos.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-17/385_signo_tortuga__knoop_p292.jpg', label: 'Signo de la tortuga', at: 'Mira esta foto', credit: 'The Atlas of Emergency Medicine (Knoop), p. 292' } },
       ],
     },
 
@@ -87,7 +167,8 @@ module.exports = {
       ],
       steps: [
         { show: ['mcr'], note: 'Resuelve más del setenta por ciento sola',
-          say: 'La primera maniobra, y la que más rinde, es la de McRoberts: hiperflexionas y abduces los muslos de tu paciente sobre el abdomen. Eso aplana la curvatura lumbar y rota tu pubis hacia la cabeza, liberando el hombro en la mayoría de los casos.' },
+          say: 'La primera maniobra, y la que más rinde, es la de McRoberts: hiperflexionas y abduces los muslos de tu paciente sobre el abdomen. Eso aplana la curvatura lumbar y rota tu pubis hacia la cabeza, liberando el hombro en la mayoría de los casos. En este dibujo ves los muslos flexionados y, además, la presión suprapúbica.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-17/01_maniobra_mcroberts__williams_p515.jpg', label: 'McRoberts + suprapúbica', at: 'En este dibujo', credit: 'Williams Obstetricia (ed. en español), Fig. 20-14, p. 515' } },
         { show: ['maz'], note: 'Un ayudante presiona desde afuera',
           say: 'Junto con eso, la presión suprapúbica, la maniobra de Mazzanti: un ayudante presiona con fuerza justo sobre el pubis, hacia abajo, para achicar el diámetro del hombro.' },
         { show: ['int'], note: 'Se entra a la vagina con la mano',
@@ -118,11 +199,14 @@ module.exports = {
         { show: ['bas'], note: 'Punto de partida para juzgar todo lo demás',
           say: 'Ahora lo que más se pregunta: leer el monitoreo. Lo normal es una frecuencia basal entre ciento diez y ciento sesenta latidos por minuto, con variabilidad moderada y aceleraciones presentes. Desde ahí juzgas cada desaceleración.' },
         { show: ['di1'], note: 'Benigna, no requiere nada',
-          say: 'La desaceleración temprana empieza junto con la contracción y termina junto con ella, como en un espejo. Es solo la cabeza comprimiéndose contra tu pelvis, un reflejo vagal benigno. No indica hipoxia y no cambias nada.' },
+          say: 'La desaceleración temprana empieza junto con la contracción y termina junto con ella, como en un espejo. En este registro ves cómo la caída copia la contracción. Es solo la cabeza comprimiéndose contra tu pelvis, un reflejo vagal benigno. No indica hipoxia y no cambias nada.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-17/01_deceleraciones-tardias-variables-precoce_alt2__cto-gyo_p173.jpg', label: 'Desaceleraciones precoces', at: 'En este registro', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 173' } },
         { show: ['di2'], note: 'Aquí está el peligro real',
-          say: 'La tardía es distinta: empieza después del punto más alto de la contracción y se recupera lento. Refleja una insuficiencia de la placenta con hipoxia fetal. Si se repite, o pierde variabilidad, hablas de acidosis y necesitas actuar.' },
+          photo: { src: 'biblioteca/14_obstetricia/ob-17/01_deceleraciones-tardias-variables-precoce_1__cto-gyo_p172.jpg', label: 'Desaceleraciones tardías', at: 'Mira cómo', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 172' },
+          say: 'La tardía es distinta: empieza después del punto más alto de la contracción y se recupera lento. Mira cómo la caída llega tarde respecto de la contracción. Refleja una insuficiencia de la placenta con hipoxia fetal. Si se repite, o pierde variabilidad, hablas de acidosis y necesitas actuar.' },
         { show: ['di3'], note: 'La más frecuente de todas',
-          say: 'La variable es brusca, en forma de uve, y no guarda relación fija con la contracción. Nace de la compresión del cordón umbilical. Es grave si dura más de un minuto, o si la frecuencia baja de setenta latidos.' },
+          photo: { src: 'biblioteca/14_obstetricia/ob-17/01_deceleraciones-tardias-variables-precoce_alt1__cto-gyo_p173.jpg', label: 'Desaceleraciones variables', at: 'en este trazado', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 173' },
+          say: 'La variable es brusca, en forma de uve, y no guarda relación fija con la contracción; en este trazado se ven las caídas puntiagudas. Nace de la compresión del cordón umbilical. Es grave si dura más de un minuto, o si la frecuencia baja de setenta latidos.' },
         { show: ['sin'], note: 'Rarísimo, pero gravísimo',
           say: 'Y el patrón sinusoidal, esa ondulación suave y regular sin ninguna aceleración, es la firma de una anemia fetal grave. Guarda esta imagen, porque casi no se repite en el examen, pero cuando aparece, es inconfundible.' },
       ],
@@ -135,7 +219,8 @@ module.exports = {
       cards: [
         { title: 'Categoría uno', tag: 'Trazado seguro', kind: 'key', items: [
           { t: 'Todo normal', d: 'Sin desaceleraciones tardías ni variables',
-            say: 'El monitoreo se resume en tres categorías. La uno es el trazado seguro: basal y variabilidad normales, aceleraciones presentes, y sin desaceleraciones tardías ni variables. Ahí sigues el parto sin tocar nada.' },
+            say: 'El monitoreo se resume en tres categorías. La uno es el trazado seguro: basal y variabilidad normales, aceleraciones presentes, y sin desaceleraciones tardías ni variables. Mira este registro normal, sin ninguna caída. Ahí sigues el parto sin tocar nada.',
+            photo: { src: 'biblioteca/14_obstetricia/ob-17/02_rctg-normal__cto-gyo_p171.jpg', label: 'Registro normal', at: 'Mira este registro normal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 171' } },
         ] },
         { title: 'Categoría dos', tag: 'Vigilar de cerca', kind: 'criteria', items: [
           { t: 'Trazado indeterminado', d: 'Vigilancia, hidratación, cambiar de posición',
@@ -170,44 +255,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Las tres desaceleraciones en el registro',
-      images: [
-        { src: 'biblioteca/14_obstetricia/ob-17/01_deceleraciones-tardias-variables-precoce_alt2__cto-gyo_p173.jpg', label: 'Desaceleraciones precoces', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 173' },
-        { src: 'biblioteca/14_obstetricia/ob-17/01_deceleraciones-tardias-variables-precoce_1__cto-gyo_p172.jpg', label: 'Desaceleraciones tardías', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 172' },
-        { src: 'biblioteca/14_obstetricia/ob-17/01_deceleraciones-tardias-variables-precoce_alt1__cto-gyo_p173.jpg', label: 'Desaceleraciones variables', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 173' },
-      ],
-      steps: [
-        { note: 'Espejo de la contracción',
-          say: 'Las desaceleraciones precoces son un espejo de la contracción: su punto más bajo coincide con el acmé. Son por compresión de la cabeza y son benignas.' },
-        { note: 'Empiezan después del acmé',
-          say: 'Las tardías empiezan cuando la contracción ya llegó a su punto más alto y se recuperan lento. Sugieren hipoxia.' },
-        { note: 'Bruscas, en uve',
-          say: 'Y las variables son caídas bruscas, en forma de uve, sin relación fija con la contracción. Dependen del cordón.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Registro normal y distocia de hombros',
-      images: [
-        { src: 'biblioteca/14_obstetricia/ob-17/02_rctg-normal__cto-gyo_p171.jpg', label: 'Registro cardiotocográfico normal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 171' },
-        { src: 'biblioteca/14_obstetricia/ob-17/01_maniobra_mcroberts__williams_p515.jpg', label: 'McRoberts con presión suprapúbica', credit: 'Williams Obstetricia (ed. en español), Fig. 20-14, p. 515' },
-      ],
-      steps: [
-        { note: 'Registro cardiotocográfico normal',
-          say: 'Para comparar: registro cardiotocográfico normal, sin desaceleraciones.' },
-        { note: 'Flexión de muslos y presión suprapúbica',
-          say: 'Y en la distocia de hombros, la primera maniobra es McRoberts con presión suprapúbica.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Ahora juntemos las dos urgencias de hoy en un solo árbol de decisión.',
     },
@@ -226,6 +273,12 @@ module.exports = {
           say: 'Desaceleraciones tardías que se repiten, sin variabilidad, son categoría tres: reanimación intrauterina y cesárea. El error es subir la oxitocina, que empeora todo.' },
         { cells: ['Variables ocasionales, buena variabilidad', 'Vigilar, cambiar de posición', 'Indicar cesárea de inmediato'],
           say: 'Y unas pocas desaceleraciones variables, con buena variabilidad de fondo, solo piden vigilancia y cambio de posición. Indicar cesárea de inmediato ahí es adelantarse.' },
+        { cells: ['Podálica a las 36 semanas', 'Versión externa; si falla, cesárea a las 39', 'Parto vaginal podálico sin equipo'],
+          say: 'Una presentación podálica a las treinta y seis semanas: ofreces la versión externa cefálica, y si falla, cesárea electiva a las treinta y nueve. El error es dejarla ir a parto vaginal podálico sin un equipo entrenado.' },
+        { cells: ['Transversa en trabajo de parto', 'Cesárea', 'Intentar el parto vaginal'],
+          say: 'Una situación transversa en trabajo de parto no tiene vía vaginal: es cesárea, por el riesgo de prolapso de cordón y de rotura uterina.' },
+        { cells: ['Dilatación detenida dos horas, buena dinámica', 'Prueba fracasada: cesárea', 'Seguir esperando sin límite'],
+          say: 'Y en una prueba de trabajo de parto, una dilatación detenida dos horas con buena dinámica es una prueba fracasada: cesárea. El error es seguir esperando sin ponerle un límite.' },
       ],
     },
 
@@ -322,6 +375,119 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2013 · Pregunta 25",
+      "stem": "Una mujer de 28 años, con embarazo de 30 semanas, consulta angustiada por no percibir movimientos fetales, sin otros síntomas. Su examen físico es normal. Se solicita un registro basal no estresante de 20 minutos, que muestra frecuencia basal normal, solo dos pequeñas desaceleraciones y aceleraciones mínimas, sin ninguna de 15 latidos por 15 segundos.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tranquilizar a la paciente e indicar que mantenga controles habituales"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar perfil biofísico"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar ecografía obstétrica"
+        },
+        {
+          "letter": "D",
+          "text": "Repetir registro basal no estresante por 20 minutos más"
+        },
+        {
+          "letter": "E",
+          "text": "Realizar test de tolerancia a las contracciones uterinas"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El registro no es reactivo: para serlo requiere 2 aceleraciones de 15 latidos por minuto y 15 segundos en 20 minutos. Lo primero es prolongarlo 20 minutos más, porque el feto puede estar en sueño fisiológico. Si persiste no reactivo, recién ahí se pide perfil biofísico.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil trece. Mujer de veintiocho años, con treinta semanas de embarazo, consulta angustiada porque no siente moverse a su bebé. El registro basal no estresante de veinte minutos muestra frecuencia normal, dos desaceleraciones pequeñas y aceleraciones mínimas, sin ninguna que alcance quince latidos durante quince segundos.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: tranquilizar y control habitual, perfil biofísico, ecografía obstétrica, prolongar el registro veinte minutos más, o test de tolerancia a las contracciones. Piénsalo.",
+        "answer": "Es la D. Es un registro no reactivo, y antes de escalar lo prolongas veinte minutos más, porque el feto puede estar simplemente dormido. El perfil biofísico tienta, pero es el paso siguiente solo si el registro sigue sin ser reactivo."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2017 · Pregunta 135",
+      "stem": "Paciente de 35 años, cursando un embarazo de 38 semanas, consulta por contracciones uterinas de 3 a 4 cada 10 minutos. Al tacto vaginal presenta 10 cm de dilatación, membranas rotas y cabeza fetal en espinas 0, en variedad mento-ilíaca derecha posterior. El monitoreo fetal es tranquilizador.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dejar a evolución espontánea y controlar en una hora"
+        },
+        {
+          "letter": "B",
+          "text": "Hacer fórceps"
+        },
+        {
+          "letter": "C",
+          "text": "Realizar vacuum de la cabeza fetal"
+        },
+        {
+          "letter": "D",
+          "text": "Realizar amnioinfusión con rotación manual"
+        },
+        {
+          "letter": "E",
+          "text": "Hacer cesárea de urgencia"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Presentación de cara con mentón posterior: el cuello fetal ya está en extensión máxima y no puede seguir la curva del canal, por lo que el parto vaginal es imposible. La conducta es cesárea. Solo la cara con mentón anterior (mento-púbica) puede nacer por vía vaginal; el fórceps y el vacuum están contraindicados.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecisiete. Embarazo de término en dilatación completa, membranas rotas, en presentación de cara con el mentón hacia posterior y monitoreo tranquilizador.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: esperar una hora, fórceps, vacuum, amnioinfusión con rotación manual o cesárea de urgencia. Piénsalo.",
+        "answer": "Es la E. La cara con mentón posterior no puede nacer por vía vaginal, así que va a cesárea. Esperar la evolución tienta porque el monitoreo es normal, pero solo la variedad con mentón anterior progresa."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2019 · Pregunta 109",
+      "stem": "Paciente de 31 años entra en trabajo de parto a las 38 semanas. Al examinarla se constatan 3 contracciones uterinas en 10 minutos y el tacto vaginal muestra 5 cm de dilatación, membranas íntegras y presentación cefálica en espinas -1. El registro de frecuencia cardiaca fetal es normal. Se reevalúa a las 3 horas, sin cambios obstétricos.",
+      "question": "¿Cuál es la conducta de elección?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener una conducta expectante por 1 hora y reevaluar"
+        },
+        {
+          "letter": "B",
+          "text": "Administrar misoprostol"
+        },
+        {
+          "letter": "C",
+          "text": "Realizar cesárea"
+        },
+        {
+          "letter": "D",
+          "text": "Realizar rotura artificial de membranas y administrar anestesia epidural"
+        },
+        {
+          "letter": "E",
+          "text": "Administrar oxitocina endovenosa en goteo"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Fase activa sin progreso con membranas íntegras: antes de diagnosticar distocia se realiza una prueba de trabajo de parto, optimizando las condiciones con rotura artificial de membranas y analgesia epidural, y luego oxitocina si la dinámica es insuficiente. Si no progresa tras la prueba, se indica cesárea.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Trabajo de parto de término en cinco centímetros, membranas íntegras y monitoreo normal, sin ningún cambio en tres horas.",
+        "question": "¿Cuál es la conducta de elección?",
+        "options": "Las opciones: esperar una hora, misoprostol, cesárea, romper membranas con anestesia epidural, u oxitocina. Piénsalo.",
+        "answer": "Es la D. Antes de hablar de distocia se optimiza el trabajo de parto rompiendo membranas y con anestesia, que es la prueba de trabajo de parto. La cesárea tienta, pero solo se indica si no hay progreso después de esa prueba."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -331,6 +497,12 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Ante el signo de la tortuga, primero McRoberts, junto con la presión suprapúbica.' },
           { t: 'Nunca Kristeller', d: 'Ni traccionar la cabeza con fuerza',
             say: 'Y nunca presiones el fondo uterino ni tracciones la cabeza con fuerza.' },
+        ] },
+        { title: 'Presentación y progreso', tag: 'Vía de parto', kind: 'criteria', items: [
+          { t: 'Podálica: versión a las 36 a 37', d: 'Si no, cesárea electiva a las 39',
+            say: 'En una podálica ofreces la versión externa a las treinta y seis a treinta y siete semanas, y si persiste, cesárea a las treinta y nueve. La transversa en trabajo de parto siempre es cesárea.' },
+          { t: 'Prueba de trabajo de parto', d: 'Detención de 2 horas: cesárea',
+            say: 'Y en la prueba de trabajo de parto, la detención de dos horas con buena dinámica manda a cesárea.' },
         ] },
         { title: 'Monitoreo fetal', tag: 'Lo que decide todo', kind: 'alert', items: [
           { t: 'Temprana: benigna', d: 'Tardía: hipoxia, actúa',

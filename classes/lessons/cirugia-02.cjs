@@ -14,6 +14,29 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Punto de partida',
+      title: 'Cólico biliar: la litiasis que aún no se complica',
+      cards: [
+        { title: 'Cólico biliar', tag: 'Litiasis sintomática', kind: 'key', items: [
+          { t: 'Dolor postprandial', d: 'Brusco, de 30 minutos a 6 horas',
+            say: 'Antes de la colecistitis, ubiquemos el cólico biliar. La litiasis vesicular es muy frecuente, entre diez y quince por ciento de los adultos, y cerca del ochenta por ciento nunca da síntomas. Cuando los da, es un dolor brusco en el epigastrio o el hipocondrio derecho, después de una comida grasa, que dura de treinta minutos a seis horas, irradia a la escápula derecha y trae náuseas.' },
+          { t: 'Sin fiebre, Murphy negativo', d: 'Laboratorio normal',
+            say: 'Lo clave es lo que no hay: sin fiebre, sin leucocitosis y con Murphy negativo.' },
+        ] },
+        { title: 'Más de 6 horas', tag: 'Ya no es solo un cólico', kind: 'alert', items: [
+          { t: 'Dolor persistente o fiebre', d: 'Piensa en colecistitis aguda',
+            say: 'Si el dolor pasa de seis horas o aparece fiebre, ya no es un cólico: piensa en colecistitis aguda, que es la clase de hoy.' },
+        ] },
+        { title: 'Examen de elección', tag: 'Ecografía abdominal', kind: 'criteria', items: [
+          { t: 'Cálculos con sombra acústica', d: 'Sensibilidad mayor de 95%',
+            say: 'El examen de elección es la ecografía abdominal, con sensibilidad sobre noventa y cinco por ciento. Mira esta imagen: los cálculos son hiperecogénicos y dejan una sombra acústica detrás. Las pruebas hepáticas solo las pides para descartar coledocolitiasis.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco__cto-radiologia_p44.jpg', label: 'Cálculos con sombra acústica', at: 'Mira esta imagen', credit: 'Manual CTO Radiología 14.ª ed., p. 44' } },
+        ] },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Fisiopatología',
       title: 'Del cálculo enclavado a la vesícula inflamada',
@@ -61,7 +84,8 @@ module.exports = {
           { t: 'Murphy ecográfico positivo', d: 'El hallazgo más específico',
             say: 'Y el tercer pilar es la imagen: la ecografía, que busca el Murphy ecográfico, dolor al comprimir la vesícula con el transductor. Es el hallazgo más específico de todos.' },
           { t: 'Pared sobre 4 mm', d: 'Más líquido perivesicular',
-            say: 'Junto con eso, la pared engrosada, sobre cuatro milímetros, y líquido alrededor de la vesícula. Con los tres pilares juntos, ya tienes el diagnóstico definitivo.' },
+            say: 'Junto con eso, la pared engrosada, sobre cuatro milímetros, y líquido alrededor de la vesícula. Mira esta ecografía: la pared de la vesícula se ve gruesa. Con los tres pilares juntos, ya tienes el diagnóstico definitivo.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco_alt1__cto-radiologia_p44.jpg', label: 'Pared vesicular engrosada', at: 'Mira esta ecografía', credit: 'Manual CTO Radiología 14.ª ed., p. 44' } },
         ] },
       ],
     },
@@ -150,19 +174,60 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Litiasis no complicada',
+      title: 'Cuándo se opera una litiasis y cuándo se observa',
+      cards: [
+        { title: 'Sintomática', tag: 'Se deriva a cirugía electiva', kind: 'key', items: [
+          { t: 'Colecistectomía laparoscópica electiva', d: 'Los cólicos recidivan en más del 50%',
+            say: 'Veamos qué haces con la litiasis que todavía no se complica. Si el paciente tiene síntomas, lo derivas para colecistectomía laparoscópica electiva, porque los cólicos recidivan en más de la mitad de los casos y cada episodio expone a colecistitis, coledocolitiasis, colangitis o pancreatitis biliar.' },
+          { t: 'Cólico agudo: AINE o hioscina', d: 'Y dieta hipograsa',
+            say: 'Mientras tanto, en el cólico agudo das analgesia con un antiinflamatorio, como ketorolaco o diclofenaco, o un antiespasmódico como la hioscina, y dieta baja en grasas.' },
+        ] },
+        { title: 'Asintomática incidental', tag: 'No se opera', kind: 'normal', items: [
+          { t: 'Solo se observa', d: 'Hallazgo de ecografía sin síntomas',
+            say: 'El litiásico asintomático que descubres por casualidad no se opera: solo se observa.' },
+          { t: 'Excepciones: operar igual', d: 'Porcelana, más de 3 cm, pólipo de 1 cm, anemia hemolítica',
+            say: 'Se opera de forma profiláctica solo en cuatro situaciones: vesícula en porcelana, cálculos de más de tres centímetros, pólipos vesiculares de un centímetro o más, o anemia hemolítica crónica.' },
+        ] },
+        { title: 'GES en Chile', tag: 'Cáncer de vesícula', kind: 'criteria', items: [
+          { t: 'Colecistectomía preventiva', d: 'Sintomáticos de 35 a 49 años',
+            say: 'En Chile existe la garantía GES de colecistectomía preventiva del cáncer de vesícula en personas sintomáticas de treinta y cinco a cuarenta y nueve años, por la alta incidencia local de esta neoplasia. El ácido ursodesoxicólico queda solo para cálculos pequeños de colesterol en quien no puede operarse.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'El otro extremo',
+      title: 'Colecistitis crónica: la vesícula que ya cicatrizó',
+      cards: [
+        { title: 'Clínica', tag: 'Sin signos sistémicos', kind: 'key', items: [
+          { t: 'Dispepsia biliar con cólicos', d: 'Intolerancia a grasas, distensión, epigastralgia',
+            say: 'La colecistitis crónica es la inflamación persistente de la pared por cólicos repetidos sobre una litiasis; rara vez es alitiásica. Se presenta como dispepsia biliar: intolerancia a las grasas, distensión, flatulencia y dolor epigástrico después de comer, con episodios de cólico y sin fiebre.' },
+        ] },
+        { title: 'Ecografía', tag: 'Pared engrosada o contraída', kind: 'criteria', items: [
+          { t: 'Vesícula escleroatrófica o en porcelana', d: 'La porcelana se asocia a cáncer: obliga a operar',
+            say: 'La ecografía muestra una vesícula de pared engrosada, contraída o escleroatrófica, con cálculos que la ocupan. Y la vesícula en porcelana, con la pared calcificada, se asocia a cáncer de vesícula y obliga a operar.' },
+        ] },
+        { title: 'Conducta', tag: 'Médico general: derivar', kind: 'pharma', items: [
+          { t: 'Colecistectomía laparoscópica electiva', d: 'Con ecografía y pruebas hepáticas previas',
+            say: 'El tratamiento es la colecistectomía laparoscópica electiva. Tú manejas el dolor, indicas dieta hipograsa y derivas, y consultas de urgencia si aparece fiebre, ictericia o dolor persistente, porque eso ya es una complicación aguda.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Colecistitis en la ecografía',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Del cálculo enclavado al signo de Murphy',
       images: [
-        { src: 'biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco__cto-radiologia_p44.jpg', label: 'Cálculos con sombra acústica', credit: 'Manual CTO Radiología 14.ª ed., p. 44' },
-        { src: 'biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco_alt1__cto-radiologia_p44.jpg', label: 'Colecistitis: pared engrosada', credit: 'Manual CTO Radiología 14.ª ed., p. 44' },
+        { src: 'animaciones/cirugia-02/A1_colecistitis_calculo_murphy.mp4', label: 'Colecistitis: cálculo enclavado y Murphy', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Cálculo con sombra',
-          say: 'La ecografía muestra cálculos dentro de la vesícula, que dejan una sombra acústica detrás.' },
-        { note: 'Pared gruesa',
-          say: 'Y en la colecistitis la pared se engruesa, sobre cuatro milímetros, a veces con líquido alrededor de la vesícula.' },
+        { note: 'El cálculo se enclava y la vesícula se inflama',
+          say: 'Mira cómo el cálculo se desplaza hasta el cuello de la vesícula y se enclava en el cístico. La bilis queda estancada, la vesícula se distiende y la pared se engruesa, primero por inflamación química y después por bacterias. Entonces se explica el signo de Murphy: al pedir una inspiración profunda con la mano bajo el reborde costal, la vesícula inflamada baja, toca los dedos y el paciente corta la inspiración por el dolor.' },
       ],
     },
 
@@ -177,6 +242,8 @@ module.exports = {
       title: 'Lo que más se confunde en colecistitis',
       head: ['Escenario', 'Conducta correcta', 'Error frecuente'],
       rows: [
+        { cells: ['Cólico biliar: sin fiebre, Murphy negativo', 'Analgesia y colecistectomía electiva derivada', 'Tratarlo como colecistitis aguda'],
+          say: 'Primero, el cólico biliar sin fiebre y con Murphy negativo: analgesia y derivar para cirugía electiva. Tratarlo como colecistitis aguda es el error.' },
         { cells: ['Grado I o II, estable', 'Colecistectomía laparoscópica antes de 72 h', 'Diferir la cirugía a semanas'],
           say: 'Repasemos las trampas. Grado uno o dos, estable: colecistectomía antes de setenta y dos horas. El error es diferirla semanas, como si fuera una colelitiasis simple.' },
         { cells: ['Grado III o riesgo anestésico prohibitivo', 'Colecistostomía percutánea', 'Operar igual, a toda costa'],
@@ -187,6 +254,8 @@ module.exports = {
           say: 'Un diabético con dolor en el hipocondrio derecho y gas visible en la pared vesicular: eso es una colecistitis enfisematosa. Tratarla como si fuera una simple, sin apurar la cirugía, es el error, porque perfora rápido.' },
         { cells: ['Triángulo congelado en cirugía', 'Subtotal o conversión a abierta', 'Seccionar la estructura más gruesa'],
           say: 'Y en pabellón, con el triángulo congelado: subtotal o conversión a cirugía abierta. Seccionar la estructura más gruesa asumiendo que es el cístico es el error que lesiona la vía biliar.' },
+        { cells: ['Litiásico asintomático, hallazgo incidental', 'Observar, sin operar', 'Colecistectomía de rutina'],
+          say: 'Y si el cálculo es un hallazgo sin síntomas, solo observas. Operar de rutina es el error, salvo porcelana, más de tres centímetros, pólipo de un centímetro o anemia hemolítica.' },
         { cells: ['Ecografía dudosa, sospecha alta', 'Cintigrafía HIDA', 'Repetir la ecografía nada más'],
           say: 'Y si la ecografía no confirma pero la sospecha sigue alta, el siguiente paso es la cintigrafía HIDA, no repetir la misma ecografía esperando que esta vez sí muestre algo.' },
       ],
@@ -262,6 +331,119 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Agosto 2021 · Pregunta 125",
+      "stem": "Paciente de 40 años, IMC 30, presenta episodios de dolor tipo cólico en el hipocondrio derecho desde hace 3 meses, que ceden espontáneamente luego de algunos minutos. Se realiza una ecografía, que muestra imágenes hiperecogénicas dentro de la vesícula con sombra acústica posterior, pared delgada y sin líquido perivesicular.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Colelitiasis"
+        },
+        {
+          "letter": "B",
+          "text": "Coledocolitiasis"
+        },
+        {
+          "letter": "C",
+          "text": "Colecistitis crónica"
+        },
+        {
+          "letter": "D",
+          "text": "Cáncer de vesícula"
+        },
+        {
+          "letter": "E",
+          "text": "Colecistitis aguda"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Cólicos biliares que ceden solos en minutos a horas, sin fiebre ni signos inflamatorios, con cálculos y sombra acústica en la ecografía: colelitiasis sintomática. Corresponde programar colecistectomía electiva. Sin pared engrosada ni líquido perivesicular no es colecistitis aguda.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Paciente de cuarenta años, con obesidad, que hace tres meses tiene cólicos en el hipocondrio derecho que ceden solos en algunos minutos. La ecografía muestra imágenes brillantes dentro de la vesícula con sombra acústica, pared delgada y sin líquido alrededor.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: colelitiasis, coledocolitiasis, colecistitis crónica, cáncer de vesícula o colecistitis aguda. Piénsalo.",
+        "answer": "Es la A. Cólicos que ceden solos y cálculos con sombra acústica son una colelitiasis sintomática, que se resuelve con colecistectomía electiva. La colecistitis aguda tienta, pero exige dolor persistente, fiebre o Murphy, y en la ecografía pared engrosada o líquido perivesicular, que aquí no hay."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.4.011 · Ecografía: distinguir vesícula y líquido intraabdominal",
+      "stem": "Hombre de 62 años, cirrótico con ascitis, consulta por dolor en el hipocondrio derecho. En la ecografía se observan dos imágenes anecogénicas en esa región: una bajo el borde hepático y otra rodeando el hígado.",
+      "question": "¿Qué hallazgo permite identificar cuál de ellas corresponde a la vesícula biliar y no a líquido libre?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ser completamente anecogénica"
+        },
+        {
+          "letter": "B",
+          "text": "Ubicarse en el espacio hepatorrenal de Morrison"
+        },
+        {
+          "letter": "C",
+          "text": "Tener bordes angulados que se amoldan entre los órganos"
+        },
+        {
+          "letter": "D",
+          "text": "Desplazarse hacia las zonas declives al cambiar de posición al paciente"
+        },
+        {
+          "letter": "E",
+          "text": "Tener forma ovalada con pared propia bien definida, ubicada en el lecho vesicular y que puede contener cálculos o barro"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Ambos son anecogénicos. La vesícula es una estructura ovalada con pared propia, en su lecho bajo el hígado, y puede tener cálculos o barro. El líquido libre no tiene pared, forma ángulos agudos entre los órganos, se ubica en zonas declives como Morrison o la pelvis y se redistribuye con los cambios de posición.",
+      "say": {
+        "stem": "Hombre de sesenta y dos años, cirrótico con ascitis, con dolor en el hipocondrio derecho. La ecografía muestra dos imágenes negras, sin ecos, en esa zona: una bajo el borde del hígado y otra rodeándolo.",
+        "question": "¿Qué hallazgo permite reconocer cuál es la vesícula y no líquido libre?",
+        "options": "Las opciones: ser totalmente anecogénica, estar en el espacio de Morrison, tener bordes angulados entre los órganos, desplazarse al cambiar de posición o tener forma ovalada con pared propia en el lecho vesicular. Piénsalo.",
+        "answer": "Es la E. La vesícula tiene forma ovalada y pared propia, vive en su lecho bajo el hígado y puede contener cálculos. El error tentador es la A: tanto la bilis como la ascitis son anecogénicas, así que el color negro no distingue nada; los bordes angulados, el desplazamiento y el espacio de Morrison son justamente rasgos del líquido libre."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.025 · Colecistitis crónica",
+      "stem": "Mujer de 42 años refiere, desde hace 1 año, episodios recurrentes de dolor en el hipocondrio derecho después de comidas copiosas, de 2 a 3 horas de duración, que ceden espontáneamente. Actualmente está asintomática. La ecografía muestra múltiples cálculos vesiculares y pared de 4 mm, sin dilatación de la vía biliar. Pruebas hepáticas normales.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Colecistectomía laparoscópica electiva"
+        },
+        {
+          "letter": "B",
+          "text": "Ácido ursodesoxicólico por 6 meses"
+        },
+        {
+          "letter": "C",
+          "text": "Colangiopancreatografía retrógrada endoscópica"
+        },
+        {
+          "letter": "D",
+          "text": "Control ecográfico anual"
+        },
+        {
+          "letter": "E",
+          "text": "Hospitalizar e iniciar antibióticos"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Los cólicos biliares recurrentes con colelitiasis corresponden a una colecistitis crónica litiásica sintomática; el tratamiento es la colecistectomía laparoscópica electiva, que previene complicaciones como colecistitis aguda, coledocolitiasis y pancreatitis. El ácido ursodesoxicólico tiene baja eficacia y alta recurrencia, y la CPRE solo se indica si hay coledocolitiasis.",
+      "say": {
+        "stem": "Mujer de cuarenta y dos años con un año de cólicos en el hipocondrio derecho después de comidas abundantes, de dos a tres horas, que ceden solos. Hoy está asintomática. La ecografía muestra múltiples cálculos, pared de cuatro milímetros y vía biliar no dilatada, con pruebas hepáticas normales.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: colecistectomía laparoscópica electiva, ácido ursodesoxicólico, CPRE, control ecográfico anual o hospitalizar con antibióticos. Piénsalo.",
+        "answer": "Es la A. Cólicos repetidos con cálculos es una colelitiasis sintomática, y se opera en forma electiva antes de que se complique. El control ecográfico tienta porque hoy está bien, pero eso solo aplica a la colelitiasis sin síntomas."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -273,6 +455,8 @@ module.exports = {
         { title: 'Tratamiento', tag: 'Según el grado', kind: 'pharma', items: [
           { t: 'Grado I y II: operar pronto', d: 'Antes de 72 horas',
             say: 'Grado uno y dos: colecistectomía laparoscópica antes de setenta y dos horas.' },
+          { t: 'Litiasis: sintomática se opera', d: 'La asintomática se observa',
+            say: 'Y la litiasis sin complicar: la sintomática se deriva para colecistectomía electiva, y la asintomática incidental solo se observa.' },
           { t: 'Grado III: drenar, no operar', d: 'Colecistostomía percutánea',
             say: 'Grado tres, con falla de órganos: colecistostomía percutánea, y difieres la cirugía definitiva.' },
         ] },

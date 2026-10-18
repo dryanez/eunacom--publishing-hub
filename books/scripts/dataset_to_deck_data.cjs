@@ -31,6 +31,7 @@ const ACCENTS = {
 };
 
 const DISPLAY_NAMES = {
+  cardiologia: 'Cardiología',
   neumologia: 'Neumología',
   diabetes: 'Diabetes',
   endocrinologia: 'Endocrinología',

@@ -51,13 +51,16 @@ module.exports = {
           { t: 'Calcificación benigna', d: 'Central, concéntrica o difusa',
             say: 'Y sobre todo, el patrón de calcificación: central, concéntrica en capas, o difusa completa. Son patrones de lesiones antiguas, como un granuloma.' },
           { t: 'Popcorn: hamartoma', d: 'Palomitas de maíz, con grasa',
-            say: 'Hay uno que es patognomónico: la calcificación en palomitas de maíz, o popcorn, que junto con grasa dentro del nódulo es diagnóstica de hamartoma pulmonar. Ese dato se pregunta tal cual.' },
+            say: 'Hay uno que es patognomónico: la calcificación en palomitas de maíz, o popcorn, que junto con grasa dentro del nódulo es diagnóstica de hamartoma pulmonar. Ese dato se pregunta tal cual. Mira esta tomografía: la calcificación en palomitas de maíz.',
+            photo: { src: '_verificadas/028_resp_Nódulo_pulmonar_solitario__BrantHelms_p461.jpg', label: 'Hamartoma con popcorn', at: 'Mira esta tomografía', credit: 'Brant y Helms, Fundamentals of Diagnostic Radiology, p. 461' } },
         ] },
         { title: 'Sugiere malignidad', tag: 'Alerta', kind: 'alert', items: [
           { t: 'Mayor de 8–10 mm, espiculado', d: 'Bordes irregulares, corona radiada',
-            say: 'En cambio, sugieren cáncer un tamaño mayor de ocho a diez milímetros, y los bordes espiculados, irregulares, como una corona. El tumor infiltra hacia afuera, y eso dibuja las espículas.' },
+            say: 'En cambio, sugieren cáncer un tamaño mayor de ocho a diez milímetros, y los bordes espiculados, irregulares, como una corona. El tumor infiltra hacia afuera, y eso dibuja las espículas. Mira esta tomografía: un nódulo de bordes irregulares, con espículas.',
+            photo: { src: 'biblioteca/02_neumologia/resp-16/01_masa-pulmonar-bordes-irregulares-tc__cto-neumo_p139.jpg', label: 'Bordes irregulares', at: 'Mira esta tomografía', credit: 'Manual CTO Neumología 14.ª ed., p. 139' } },
           { t: 'Vidrio esmerilado parcial', d: 'Retracción pleural, calcio excéntrico',
-            say: 'También el nódulo en parte sólido y en parte en vidrio esmerilado, la retracción de la pleura, el broncograma aéreo con distorsión, y las calcificaciones excéntricas o punteadas. Fíjate que no es el calcio en sí lo que tranquiliza, sino su patrón.' },
+            say: 'También el nódulo en parte sólido y en parte en vidrio esmerilado, la retracción de la pleura, el broncograma aéreo con distorsión, y las calcificaciones excéntricas o punteadas. Fíjate que no es el calcio en sí lo que tranquiliza, sino su patrón. Mira este nódulo, en parte sólido y en parte en vidrio esmerilado.',
+            photo: { src: '_web/170_resp_Nódulo_pulmonar_solitario__Commons_2.jpg', label: 'Nódulo parcialmente sólido', at: 'Mira este nódulo', credit: 'Wikimedia Commons, CC BY 4.0' } },
         ] },
       ],
     },
@@ -88,9 +91,34 @@ module.exports = {
         { show: ['p8'], note: 'Más de 8 mm: estimar la probabilidad',
           say: 'Sobre ocho milímetros cambia la lógica. Ya no basta con vigilar: hay que estimar la probabilidad de que sea cáncer antes de cualquier examen.' },
         { show: ['pet'], note: 'PET-CT si la probabilidad es intermedia',
-          say: 'Si la probabilidad es intermedia, entre cinco y sesenta y cinco por ciento, el examen no invasivo de elección es el PET-CT con fluorodesoxiglucosa, que muestra si el nódulo consume glucosa como un tumor.' },
+          say: 'Si la probabilidad es intermedia, entre cinco y sesenta y cinco por ciento, el examen no invasivo de elección es el PET-CT con fluorodesoxiglucosa, que muestra si el nódulo consume glucosa como un tumor. Mira este PET-CT: el nódulo hipercaptante, que es el que más sospecha de cáncer.',
+            photo: { src: '_verificadas/343_resp_Nódulo_pulmonar_solitario__BrantHelms_p1547.jpg', label: 'PET-CT hipercaptante', at: 'Mira este PET', credit: 'Brant y Helms, Fundamentals of Diagnostic Radiology, p. 1547' } },
         { show: ['bio'], note: 'Probabilidad alta: obtener tejido',
           say: 'Y si la probabilidad es alta, sobre sesenta y cinco por ciento, o el nódulo capta con avidez en el PET, se va al tejido: biopsia percutánea guiada por TAC o broncoscópica, o resección por videotoracoscopía, que diagnostica y trata a la vez. Eso lo retomamos en la próxima clase, de cáncer pulmonar.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Metástasis pulmonares',
+      title: 'Muchos nódulos: el pulmón como destino',
+      cards: [
+        { title: 'Cómo se ven', tag: 'Vía hematógena', kind: 'key', items: [
+          { t: 'Múltiples nódulos redondeados, bien delimitados', d: 'Periféricos y basales; "bala de cañón" si son grandes',
+            say: 'El pulmón es sitio frecuente de metástasis por vía hematógena. Se ven como varios nódulos redondeados, de bordes bien delimitados, de tamaño variable y de predominio periférico y basal. Si son grandes, se les llama en bala de cañón.' },
+          { t: 'Una sola puede imitar un NPS', d: 'La linfangitis da disnea y patrón reticular',
+            say: 'Ojo: una metástasis única puede imitar un nódulo pulmonar solitario. Y la linfangitis carcinomatosa no da nódulos: da disnea y un patrón reticular.' },
+        ] },
+        { title: 'Primarios típicos', tag: 'Los que se preguntan', kind: 'criteria', items: [
+          { t: 'Colon-recto, mama, riñón, melanoma', d: 'Sarcomas, germinales, cabeza y cuello',
+            say: 'Los primarios más frecuentes son colon y recto, mama, riñón, melanoma, sarcomas, tumores germinales y de cabeza y cuello.' },
+        ] },
+        { title: 'Conducta', tag: 'Sospecha y derivación', kind: 'pharma', items: [
+          { t: 'TAC de tórax; biopsia si única o primario desconocido', d: 'Suelen ser asintomáticas',
+            say: 'Suelen ser asintomáticas y se descubren al seguir un cáncer conocido. Se confirman con TAC de tórax y, si la lesión es única o el primario es desconocido, con biopsia.' },
+          { t: 'Resección solo en casos seleccionados', d: 'Lesión única o pocas, primario controlado',
+            say: 'El pronóstico depende del primario. Se reseca solo en casos seleccionados, con lesión única o pocas y el primario controlado; el resto recibe terapia sistémica.' },
+        ] },
       ],
     },
 
@@ -105,19 +133,6 @@ module.exports = {
       steps: [
         { note: 'Bajo seis milímetros: sin control',
           say: 'Bajo seis milímetros, en un paciente de bajo riesgo, no requiere control. Entre seis y ocho se controla con tomografía. Sobre ocho se estima la probabilidad de cáncer. Los bordes espiculados y el crecimiento sugieren cáncer.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'La lesión pulmonar sospechosa',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-16/01_masa-pulmonar-bordes-irregulares-tc__cto-neumo_p139.jpg', label: 'Masa pulmonar de bordes irregulares (TC)', credit: 'Manual CTO Neumología 14.ª ed., p. 139' },
-      ],
-      steps: [
-        { note: 'Borde irregular: sospecha',
-          say: 'En esta tomografía hay una lesión de bordes irregulares en el pulmón izquierdo. Ese borde irregular, espiculado, sugiere malignidad, y si pasa de tres centímetros ya es una masa. Un nódulo liso, con calcificación central o en palomitas de maíz, sugiere benignidad.' },
       ],
     },
 
@@ -214,6 +229,82 @@ module.exports = {
         options: 'Las alternativas: TAC de tórax, broncoscopía, baciloscopías, PET, o resonancia magnética. Piénsalo.',
         answer: 'Es la A, TAC de tórax. Aunque este paciente tiene mucha sospecha de cáncer, el orden no cambia: primero la TAC, que caracteriza el nódulo y lo etapifica. El PET es el distractor más tentador, y el mismo banco reconoce que es discutible, pero en el algoritmo va después de la TAC. Y la broncoscopía, para obtener tejido, viene al final.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 58",
+      "stem": "Hombre de 60 años con tos de 3 meses de evolución y baja de peso. La radiografía de tórax muestra una masa hiliar derecha.",
+      "question": "¿Cuál es el siguiente examen a solicitar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Resonancia magnética de tórax"
+        },
+        {
+          "letter": "B",
+          "text": "Radiografía de tórax lateral"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de tórax con contraste"
+        },
+        {
+          "letter": "D",
+          "text": "Cintigrafía ósea"
+        },
+        {
+          "letter": "E",
+          "text": "Ecografía de tórax"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Ante una masa pulmonar sospechosa en la radiografía, el siguiente paso es la TAC de tórax con contraste (idealmente incluyendo abdomen superior): caracteriza la lesión, evalúa adenopatías mediastínicas y metástasis suprarrenales o hepáticas, y guía la biopsia. La resonancia no es el estudio de elección del pulmón.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Un hombre de sesenta años tiene tos de tres meses y baja de peso, y la radiografía muestra una masa hiliar derecha.",
+        "question": "¿Cuál es el siguiente examen a solicitar?",
+        "options": "Las opciones: resonancia de tórax, radiografía lateral, tomografía de tórax con contraste, cintigrafía ósea o ecografía de tórax. Piénsalo.",
+        "answer": "Es la C, la tomografía con contraste. Caracteriza la masa, mira el mediastino y planifica la biopsia, todo en un examen. La radiografía lateral tienta por ser simple, pero no agrega lo necesario para etapificar ni para biopsiar."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.1.025 · Metástasis pulmonares",
+      "stem": "Una mujer de 58 años, operada de un cáncer de colon hace 2 años, presenta en una TAC de control múltiples nódulos pulmonares bilaterales, redondeados, bien definidos, de distintos tamaños y de predominio periférico y basal. Está asintomática.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tuberculosis miliar"
+        },
+        {
+          "letter": "B",
+          "text": "Neumonía multifocal"
+        },
+        {
+          "letter": "C",
+          "text": "Cáncer pulmonar primario múltiple"
+        },
+        {
+          "letter": "D",
+          "text": "Granulomatosis con poliangeítis"
+        },
+        {
+          "letter": "E",
+          "text": "Metástasis pulmonares hematógenas"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Nódulos múltiples, redondeados, bien definidos, de distintos tamaños, periféricos y basales en un paciente con cáncer previo son metástasis hematógenas hasta demostrar lo contrario (imagen en 'suelta de globos'). El pulmón es sitio frecuente de metástasis de colon, mama, riñón, sarcomas y testículo. La TBC miliar da micronódulos uniformes de 1 a 3 mm con síntomas sistémicos.",
+      "say": {
+        "stem": "Una mujer de cincuenta y ocho años, operada de cáncer de colon hace dos años, tiene en una TAC de control múltiples nódulos pulmonares redondeados, bilaterales, de distintos tamaños y periféricos, y está asintomática.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: tuberculosis miliar, neumonía multifocal, cáncer pulmonar primario múltiple, granulomatosis con poliangeítis o metástasis pulmonares. Piénsalo.",
+        "answer": "Es la E. Nódulos múltiples, redondeados y de distinto tamaño en alguien con cáncer previo son metástasis hasta demostrar lo contrario. La tuberculosis miliar tienta, pero da micronódulos uniformes y diminutos, con síntomas."
+      }
     },
 
     {

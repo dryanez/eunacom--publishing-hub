@@ -39,3 +39,7 @@ Ya cubiertos y excluidos: hidronefrosis eco/TC (nefro-01), lámina de cilindros,
 | nefro-16 | GN rápidamente progresiva | púrpura palpable de vasculitis | foto clínica |
 | nefro-17 | Nefritis lúpica | eritema malar | foto clínica |
 | nefro-18 | ERC | poliquistosis renal en TAC; eco con riñones pequeños | TAC / eco |
+
+## Revisión V3 (18-oct, completar nefrología)
+Búsqueda en `_candidatas` sin resultado útil (no hay en los libros extraídos): cuerpos grasos ovales con cruz de Malta (nefro-13), rojo congo con birrefringencia verde (nefro-13), asas de alambre en nefritis lúpica IV (nefro-17), orina color coca-cola (nefro-15) y orina color té por mioglobinuria (nefro-02), líquido turbio de peritonitis en peritoneodiálisis (nefro-18, texto nuevo) y gráfico de MAPA/Holter de PA (nefro-20, texto nuevo). Siguen pendientes.
+Agregada: retinopatía hipertensiva (Harrison p. 263) en nefro-20.

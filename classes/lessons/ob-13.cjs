@@ -38,9 +38,11 @@ module.exports = {
         { show: ['trap'], note: 'El tacto puede desgarrar la placenta',
           say: 'Nunca hagas un tacto vaginal a ciegas en una embarazada que sangra después de las veinte semanas. Si es una placenta previa, tu dedo puede desgarrar el tejido placentario y desatar una hemorragia que no vas a poder controlar.' },
         { show: ['eco'], note: 'El transductor no entra al cuello',
-          say: 'Antes de tocar nada, pide una ecografía transvaginal. Es completamente segura, porque el transductor se queda en el fondo de saco vaginal, lejos del orificio cervical.' },
+          say: 'Antes de tocar nada, pide una ecografía transvaginal. Es completamente segura, porque el transductor se queda en el fondo de saco vaginal, lejos del orificio cervical. Mira esta imagen: ahí están la placenta, el cuello y el orificio cervical interno, y sin tocar nada ya sabes dónde está cada cosa.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-13/03_eco-placenta-previa__obgynus_p157.jpg', label: 'Eco transvaginal', at: 'Mira esta imagen', credit: 'Ultrasound in Obstetrics and Gynecology: A Practical Approach, p. 157' } },
         { show: ['q'], note: 'Dos preguntas separan casi todo',
-          say: 'Con la placenta ya localizada, fíjate en dos datos: si hay dolor, y cómo está el tono del útero. Esa combinación te separa los dos cuadros más frecuentes de esta clase.' },
+          say: 'Con la placenta ya localizada, fíjate en dos datos: si hay dolor, y cómo está el tono del útero. Esa combinación te separa los dos cuadros más frecuentes de esta clase. Este esquema los pone lado a lado: a la izquierda la placenta sobre el orificio, a la derecha la placenta normoinserta que se despega.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-13/S1_placenta-previa-dppni__propio.svg', label: 'Previa vs DPPNI', at: 'Este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['previa'], note: 'Sin dolor, el feto está bien',
           say: 'Si el sangrado es indoloro, con sangre roja y fresca, y el útero está blando y relajado, piensa primero en placenta previa. El feto está bien, porque nada está interrumpiendo el intercambio.' },
         { show: ['dppni'], note: 'Con dolor, el feto sí sufre',
@@ -61,13 +63,15 @@ module.exports = {
         ] },
         { title: 'Diagnóstico y manejo', tag: 'La eco TV decide', kind: 'key', items: [
           { t: 'Oclusiva o de inserción baja', d: 'Cubre el orificio, o queda a menos de dos centímetros',
-            say: 'La ecografía transvaginal te dice si es oclusiva, cuando la placenta cubre por completo el orificio cervical interno, o de inserción baja, cuando el borde queda a menos de dos centímetros sin cubrirlo.' },
+            say: 'La ecografía transvaginal te dice si es oclusiva, cuando la placenta cubre por completo el orificio cervical interno, o de inserción baja, cuando el borde queda a menos de dos centímetros sin cubrirlo. Este esquema muestra los tipos según la relación con el orificio.',
+            photo: { src: 'biblioteca/14_obstetricia/ob-13/01_tipos-de-placenta-previa__cto-gyo_p133.jpg', label: 'Tipos de placenta previa', at: 'Este esquema', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 133' } },
           { t: 'Cesárea electiva a las 37 semanas', d: 'Si sangra activo, hospitalizar ya',
             say: 'Si la paciente está tranquila, programas una cesárea electiva a las treinta y siete semanas. Si sangra de forma activa, la hospitalizas de inmediato, sin importar la edad gestacional.' },
         ] },
         { title: 'Acretismo placentario', tag: 'La complicación grave', kind: 'alert', items: [
           { t: 'Placenta previa sobre cesárea previa', d: 'Sube mucho el riesgo de acretismo',
-            say: 'Y hay una combinación que tienes que reconocer: placenta previa justo sobre la cicatriz de una cesárea anterior. Ahí el riesgo de que la placenta se adhiera de forma anormal sube muchísimo, y sube más con cada cesárea.' },
+            say: 'Y hay una combinación que tienes que reconocer: placenta previa justo sobre la cicatriz de una cesárea anterior. Ahí el riesgo de que la placenta se adhiera de forma anormal sube muchísimo, y sube más con cada cesárea. Mira este dibujo: la placenta puede quedar adherida, o invadir el músculo, o atravesar toda la pared.',
+            photo: { src: 'biblioteca/14_obstetricia/ob-13/01_tipos-de-placenta-previa_alt1__amir-gyo_p42.jpg', label: 'Acreta, increta, percreta', at: 'Mira este dibujo', credit: 'Manual AMIR Ginecología y Obstetricia, p. 42 (ilustración de Paula Carolina Parra Díaz)' } },
           { t: 'Histerectomía con placenta in situ', d: 'Se opera sin desprenderla primero',
             say: 'Si se confirma el acretismo, la cirugía programada es una histerectomía dejando la placenta puesta, porque intentar desprenderla primero es justo lo que provoca la hemorragia exanguinante.' },
         ] },
@@ -87,7 +91,8 @@ module.exports = {
         ] },
         { title: 'Clínica', tag: 'La tríada', kind: 'key', items: [
           { t: 'Sangre oscura, dolor, útero leñoso', d: 'Con hipertonía y contracciones seguidas',
-            say: 'La tríada que buscas: sangre oscura con coágulos, un dolor abdominal súbito e intenso, y el útero duro, hipertónico, en tabla.' },
+            say: 'La tríada que buscas: sangre oscura con coágulos, un dolor abdominal súbito e intenso, y el útero duro, hipertónico, en tabla. Mira este esquema: el coágulo retroplacentario es el hematoma que va despegando la placenta.',
+            photo: { src: 'biblioteca/14_obstetricia/ob-13/02_abruptio-placentae__amir-gyo_p38.jpg', label: 'Coágulo retroplacentario', at: 'Mira este esquema', credit: 'Manual AMIR Ginecología y Obstetricia, p. 38' } },
           { t: 'La eco normal no descarta nada', d: 'Solo ve el hematoma en la mitad de los casos',
             say: 'Ojo con esto: el diagnóstico es clínico, no ecográfico. La ecografía solo ve el hematoma retroplacentario en la mitad de los casos, así que una eco normal no te salva de pensar en desprendimiento.' },
         ] },
@@ -128,9 +133,62 @@ module.exports = {
         { show: ['amn'], note: 'Parte justo al romperse las membranas',
           say: 'La segunda urgencia empieza distinto: justo al romperse las membranas, ya sea de forma espontánea o artificial.' },
         { show: ['vasa'], note: 'Madre estable, feto en shock',
-          say: 'Si hay vasos umbilicales que cruzan las membranas por delante de la presentación, se desgarran con la rotura, y ahí aparece sangrado inmediato con una bradicardia fetal catastrófica. La madre, en cambio, está perfectamente estable, porque esa sangre es cien por ciento del feto.' },
+          say: 'Si hay vasos umbilicales que cruzan las membranas por delante de la presentación, se desgarran con la rotura, y ahí aparece sangrado inmediato con una bradicardia fetal catastrófica. La madre, en cambio, está perfectamente estable, porque esa sangre es cien por ciento del feto. En esta ecografía con Doppler color ves el vaso fetal cruzando justo sobre el orificio cervical.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-13/04_vasa-previa-doppler__openi.jpg', label: 'Vasa previa con Doppler', at: 'En esta ecografía', credit: 'Open-i (NLM), CC BY' } },
         { show: ['ces'], note: 'El feto no tiene tiempo que perder',
           say: 'Por eso el tratamiento es cesárea en minutos: el feto se desangra mucho más rápido de lo que crees, y ahí no hay tiempo que perder.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cesárea',
+      title: 'Cuándo se hace una cesárea, y cómo',
+      cards: [
+        { title: 'Indicaciones frecuentes', tag: 'Las que se preguntan', kind: 'criteria', items: [
+          { t: 'Cicatriz corporal o dos o más cesáreas', d: 'Y desproporción céfalo-pélvica',
+            say: 'Ya viste varias causas de cesárea en esta clase. Las indicaciones frecuentes son la cicatriz corporal previa o dos o más cesáreas, la desproporción céfalo-pélvica, y la presentación podálica o transversa.' },
+          { t: 'Placenta previa oclusiva, vasa previa, rotura uterina', d: 'Y desprendimiento con feto vivo',
+            say: 'También la placenta previa oclusiva, la vasa previa, la rotura uterina y el desprendimiento de placenta con feto vivo. Y suma el prolapso de cordón y el sufrimiento fetal agudo que no se resuelve.' },
+          { t: 'Herpes genital activo, VIH con carga alta', d: 'Más de 1.000 copias/mL',
+            say: 'Y para proteger al recién nacido: herpes genital activo, y VIH con carga viral mayor de mil copias.' },
+        ] },
+        { title: 'Técnica', tag: 'Kerr es la base', kind: 'key', items: [
+          { t: 'Pfannenstiel; media infraumbilical en urgencia', d: 'Incisión de la pared',
+            say: 'La pared se abre con una incisión de Pfannenstiel, transversa suprapúbica, o con una incisión media infraumbilical cuando es una urgencia.' },
+          { t: 'Histerotomía segmentaria transversa baja', d: 'De Kerr',
+            say: 'El útero se abre con la histerotomía segmentaria transversa baja, la de Kerr. Después viene la extracción fetal, el pinzamiento del cordón y el alumbramiento dirigido con oxitocina.' },
+          { t: 'Incisión corporal: casos especiales', d: 'Obliga a cesárea electiva después',
+            say: 'La incisión corporal, la clásica, se reserva para casos especiales, como una placenta previa anterior o un feto muy pretérmino en situación transversa. Y te obliga a una cesárea electiva en los embarazos siguientes.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cesárea',
+      title: 'Antes, después y en el embarazo siguiente',
+      cards: [
+        { title: 'Perioperatorio', tag: 'Lo que prepara el médico general', kind: 'pharma', items: [
+          { t: 'Cefazolina 2 g EV, 30–60 min antes', d: '3 g si pesa 120 kg o más',
+            say: 'La profilaxis antibiótica es cefazolina dos gramos endovenosos, entre treinta y sesenta minutos antes de la incisión. Si la paciente pesa ciento veinte kilos o más, tres gramos. Se agrega azitromicina si hay trabajo de parto o rotura de membranas.' },
+          { t: 'Anestesia regional de preferencia', d: 'Ayuno, consentimiento y sonda vesical',
+            say: 'La anestesia de preferencia es regional, espinal o epidural. Además, ayuno, consentimiento informado y sonda vesical.' },
+          { t: 'Electiva sin indicación: 39 semanas', d: 'Menos distrés respiratorio neonatal',
+            say: 'Una cesárea electiva sin otra indicación se programa a las treinta y nueve semanas, para disminuir el distrés respiratorio del recién nacido.' },
+        ] },
+        { title: 'Postoperatorio', tag: 'Alta precoz', kind: 'key', items: [
+          { t: 'Realimentación a las 6–8 horas', d: 'Alta a las 48–72 horas',
+            say: 'Se movilizan y realimentan de forma precoz, a las seis a ocho horas, y el alta es a las cuarenta y ocho a setenta y dos horas.' },
+          { t: 'Hemorragia, endometritis, herida infectada', d: 'Lesión vesical o ureteral, íleo, trombosis',
+            say: 'Las complicaciones que debes reconocer: hemorragia, endometritis, herida infectada, lesión vesical o ureteral, íleo y enfermedad tromboembólica.' },
+        ] },
+        { title: 'Embarazo siguiente', tag: 'Con cicatriz previa', kind: 'alert', items: [
+          { t: 'Placenta previa y acretismo', d: 'Suben después de una cesárea',
+            say: 'Y la cesárea deja huella: en los embarazos posteriores sube el riesgo de placenta previa y de acretismo, que es justo lo que viste hoy.' },
+          { t: 'Prueba de trabajo de parto posible', d: 'Con cesárea segmentaria previa',
+            say: 'Con una cesárea segmentaria previa, la prueba de trabajo de parto es posible, pero solo en un centro con capacidad quirúrgica y con vigilancia, por el riesgo de rotura uterina.' },
+        ] },
       ],
     },
 
@@ -140,50 +198,14 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'Placenta previa o desprendimiento',
       images: [
-        { src: 'animaciones/ob-13/A1_placenta_previa.mp4', label: 'Placenta previa', credit: 'Animación propia' },
+        { src: 'animaciones/ob-13/A1_placenta_previa.mp4', label: 'Placenta previa', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
         { src: 'animaciones/ob-13/A2_dppni_real.mp4', label: 'Desprendimiento', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Indolora, útero blando',
-          say: 'En la placenta previa la placenta cubre el orificio. Sangra rojo y abundante, sin dolor, con el útero blando. Nunca hagas tacto vaginal.' },
+          say: 'Normalmente la placenta se implanta en el fondo del útero, lejos del cuello. En la placenta previa queda abajo, cubriendo el orificio cervical interno. Sangra rojo y fresco, sin dolor, con el útero blando. Nunca hagas tacto vaginal: primero ecografía transvaginal, y cesárea electiva a las treinta y siete semanas.' },
         { note: 'Dolor, útero leñoso',
           say: 'En el desprendimiento, un hematoma crece detrás de la placenta normoinserta. A veces la sangre sale por la vagina, oscura; otras veces queda oculta dentro del útero. Hay dolor intenso, el útero se pone duro como madera y los latidos del feto caen.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Metrorragia de la segunda mitad',
-      images: [
-        { src: 'biblioteca/14_obstetricia/ob-13/S1_placenta-previa-dppni__propio.svg', label: 'Placenta previa vs DPPNI', credit: 'Dibujo propio (esquema)' },
-        { src: 'biblioteca/14_obstetricia/ob-13/01_tipos-de-placenta-previa__cto-gyo_p133.jpg', label: 'Tipos de placenta previa', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 133' },
-      ],
-      steps: [
-        { note: 'Dónde está la placenta',
-          say: 'En la placenta previa la placenta cubre el orificio: sangrado indoloro. En el desprendimiento, la placenta normoinserta se despega: dolor y útero duro. Nunca tacto vaginal sin descartar placenta previa.' },
-        { note: 'Oclusiva, marginal, baja',
-          say: 'Y estos son los tipos de placenta previa según su relación con el orificio.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Más imágenes',
-      title: 'Desprendimiento y acretismo',
-      images: [
-        { src: 'biblioteca/14_obstetricia/ob-13/02_abruptio-placentae__amir-gyo_p38.jpg', label: 'Coágulo retroplacentario', credit: 'Manual AMIR Ginecología y Obstetricia, p. 38' },
-        { src: 'biblioteca/14_obstetricia/ob-13/01_tipos-de-placenta-previa_alt1__amir-gyo_p42.jpg', label: 'Acretismo: acreta, increta y percreta', credit: 'Manual AMIR Ginecología y Obstetricia, p. 42 (ilustración de Paula Carolina Parra Díaz)' },
-      ],
-      steps: [
-        { note: 'Coágulo retroplacentario',
-          say: 'Desprendimiento de placenta: coágulo adherido a la cara materna de la placenta.' },
-        { note: 'La placenta invade la pared',
-          say: 'Y este es el acretismo: la placenta se adhiere e invade la pared del útero. Piensa en él cuando hay una placenta previa sobre una cesárea previa.' },
       ],
     },
 
@@ -327,6 +349,44 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.5.002 · Cesárea",
+      "stem": "Paciente de 32 años, multípara de 2 partos vaginales, cursando embarazo de 34 semanas, asintomática y sin sangrado. La ecografía muestra una placenta previa oclusiva total. Bienestar fetal normal.",
+      "question": "¿Cuál es la conducta más adecuada respecto a la vía y momento del parto?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Programar cesárea electiva a las 36-37 semanas"
+        },
+        {
+          "letter": "B",
+          "text": "Programar inducción del parto a las 39 semanas"
+        },
+        {
+          "letter": "C",
+          "text": "Permitir parto vaginal con monitorización continua"
+        },
+        {
+          "letter": "D",
+          "text": "Realizar cesárea de urgencia hoy"
+        },
+        {
+          "letter": "E",
+          "text": "Esperar el inicio espontáneo del trabajo de parto"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La placenta previa oclusiva es indicación absoluta de cesárea, ya que el parto vaginal produciría hemorragia masiva. En la paciente estable y sin sangrado se programa cesárea electiva a las 36-37 semanas, antes de que aparezcan contracciones. No hay indicación de cesárea urgente sin sangrado ni compromiso fetal.",
+      "say": {
+        "stem": "Embarazo de treinta y cuatro semanas, sin sangrado, con placenta previa oclusiva total y feto en buenas condiciones.",
+        "question": "¿Cuál es la conducta respecto al parto?",
+        "options": "Las opciones: cesárea programada a las treinta y seis o treinta y siete semanas, inducción a las treinta y nueve, parto vaginal monitorizado, cesárea urgente hoy, o esperar trabajo de parto. Piénsalo.",
+        "answer": "Es la A. La placenta previa oclusiva es indicación absoluta de cesárea, que se programa a las treinta y seis o treinta y siete semanas. La cesárea de urgencia tienta, pero sin sangrado ni compromiso fetal no hay que adelantarla."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -344,6 +404,8 @@ module.exports = {
             say: 'Y si el sangrado aparece justo al romper membranas, con la madre estable pero el feto en shock, es rotura de vasa previa: cesárea en minutos.' },
         ] },
         { title: 'Lo que se pregunta seguido', tag: 'No lo olvides', kind: 'pharma', items: [
+          { t: 'Cesárea: cefazolina antes de incidir', d: 'Kerr, y electiva a las 39 semanas',
+            say: 'En la cesárea, la profilaxis con cefazolina va antes de la incisión, la histerotomía habitual es la de Kerr, y la electiva sin indicación se programa a las treinta y nueve semanas.' },
           { t: 'Acretismo: previa sobre cesárea previa', d: 'Histerectomía programada',
             say: 'Y no olvides el acretismo, cuando la placenta previa está sobre una cicatriz de cesárea. Si te llevas una sola idea de hoy: nunca toques antes de saber dónde está la placenta, y el dolor te dice todo lo demás. Nos vemos en la próxima clase.' },
         ] },

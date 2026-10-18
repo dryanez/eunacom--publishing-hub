@@ -338,6 +338,120 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.008 · Anion gap",
+      "stem": "Hombre de 52 años con cirrosis alcohólica descompensada y peritonitis bacteriana espontánea. PA 85/50 mmHg. Na 138 mEq/L, Cl 108 mEq/L, HCO3 16 mEq/L, albúmina 2,0 g/dL. pH 7,30, pCO2 32 mmHg.",
+      "question": "¿Cuál es la interpretación más adecuada del trastorno ácido-base?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Acidosis metabólica con anion gap normal, hiperclorémica"
+        },
+        {
+          "letter": "B",
+          "text": "Alcalosis respiratoria primaria"
+        },
+        {
+          "letter": "C",
+          "text": "Acidosis metabólica con anion gap elevado al corregir por la albúmina"
+        },
+        {
+          "letter": "D",
+          "text": "Acidosis respiratoria aguda"
+        },
+        {
+          "letter": "E",
+          "text": "Trastorno ácido-base ausente"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Anion gap = 138 − (108 + 16) = 14, aparentemente normal. Pero la albúmina es el principal anión no medido: por cada g/dL bajo 4 se suman 2,5. Corregido: 14 + 5 = 19, elevado, compatible con acidosis láctica por hipoperfusión séptica. Sin corregir se pierde el diagnóstico.",
+      "say": {
+        "stem": "Un hombre de cincuenta y dos años, cirrótico, con peritonitis bacteriana espontánea, está hipotenso. El sodio es ciento treinta y ocho, el cloro ciento ocho, el bicarbonato dieciséis, y la albúmina apenas dos. El pH es siete coma treinta.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: acidosis con anion gap normal, alcalosis respiratoria, acidosis con anion gap elevado al corregir por albúmina, acidosis respiratoria o nada. Piénsalo.",
+        "answer": "Es la C. El anion gap da catorce y parece normal, pero con albúmina de dos hay que sumarle cinco, y queda en diecinueve: es una acidosis láctica por el shock. La hiperclorémica tienta porque el número crudo engaña, y esa es justamente la trampa de la hipoalbuminemia."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.4.014 · Gases arteriales y electrolitos plasmáticos",
+      "stem": "Hombre de 30 años con diabetes tipo 1 ingresa con vómitos y respiración profunda. Gases arteriales: pH 7,20; pCO2 26 mmHg; HCO3 10 mEq/L. Electrolitos: Na 138 mEq/L, Cl 100 mEq/L, K 5,2 mEq/L.",
+      "question": "¿Cuál es la interpretación correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Acidosis metabólica con anión gap normal"
+        },
+        {
+          "letter": "B",
+          "text": "Acidosis metabólica con acidosis respiratoria agregada"
+        },
+        {
+          "letter": "C",
+          "text": "Acidosis respiratoria aguda"
+        },
+        {
+          "letter": "D",
+          "text": "Alcalosis metabólica con acidosis respiratoria"
+        },
+        {
+          "letter": "E",
+          "text": "Acidosis metabólica con anión gap aumentado y compensación respiratoria adecuada"
+        }
+      ],
+      "correct": "E",
+      "explanation": "pH bajo con bicarbonato bajo indica acidosis metabólica. El anión gap es 138 menos (100 más 10), es decir 28, aumentado (normal alrededor de 12), compatible con cetoacidosis. La pCO2 esperada según Winter es 1,5 por 10 más 8, es decir 23 más o menos 2; 26 está en el límite, por lo que la compensación respiratoria se considera adecuada.",
+      "say": {
+        "stem": "Hombre de treinta años con diabetes tipo uno, con vómitos y respiración profunda. Sus gases muestran pH siete coma veinte, pCO dos de veintiséis y bicarbonato de diez; el sodio es ciento treinta y ocho y el cloro cien.",
+        "question": "¿Cuál es la interpretación correcta?",
+        "options": "Las opciones: acidosis metabólica con anión gap normal, acidosis mixta, acidosis respiratoria aguda, alcalosis metabólica con acidosis respiratoria o acidosis metabólica con anión gap aumentado y compensación adecuada. Piénsalo.",
+        "answer": "Es la E. El bicarbonato bajo marca la acidosis metabólica, y el anión gap da veintiocho, muy aumentado, como en la cetoacidosis; la pCO dos queda cerca de lo esperado por Winter. La acidosis mixta tienta, pero para eso la pCO dos tendría que estar claramente sobre lo esperado, y aquí no lo está."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.070 · Trastornos del equilibrio ácido-base",
+      "stem": "Un lactante de 10 meses con diarrea acuosa abundante de 3 días llega deshidratado. Gases venosos: pH 7,24, PCO2 30 mmHg, HCO3- 13 mEq/L. Electrolitos: Na+ 137 mEq/L, K+ 3,2 mEq/L y Cl- 112 mEq/L.",
+      "question": "¿Cuál es el trastorno ácido-base?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Acidosis metabólica con anión gap normal (hiperclorémica)"
+        },
+        {
+          "letter": "B",
+          "text": "Acidosis metabólica con anión gap aumentado"
+        },
+        {
+          "letter": "C",
+          "text": "Acidosis respiratoria"
+        },
+        {
+          "letter": "D",
+          "text": "Alcalosis metabólica hipoclorémica"
+        },
+        {
+          "letter": "E",
+          "text": "Trastorno mixto: acidosis respiratoria y alcalosis metabólica"
+        }
+      ],
+      "correct": "A",
+      "explanation": "pH bajo con bicarbonato bajo es acidosis metabólica, con compensación respiratoria (PCO2 baja). Anión gap = 137 - (112 + 13) = 12, normal: acidosis hiperclorémica, típica de la pérdida digestiva de bicarbonato en la diarrea. Si hubiera shock con hipoperfusión se agregaría acidosis láctica con gap aumentado. Los vómitos, en cambio, dan alcalosis hipoclorémica.",
+      "say": {
+        "stem": "Un lactante con diarrea acuosa de tres días tiene pH de siete coma veinticuatro, bicarbonato de trece, sodio de ciento treinta y siete y cloro de ciento doce.",
+        "question": "¿Cuál es el trastorno ácido base?",
+        "options": "Las opciones: acidosis con anión gap normal, acidosis con anión gap aumentado, acidosis respiratoria, alcalosis hipoclorémica o trastorno mixto. Piénsalo.",
+        "answer": "Es la A. El anión gap es doce, normal, así que es una acidosis metabólica hiperclorémica por pérdida de bicarbonato en la diarrea. La acidosis con gap aumentado tienta por la deshidratación, pero aparece cuando hay hipoperfusión con ácido láctico."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',

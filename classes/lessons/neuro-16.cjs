@@ -365,6 +365,193 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2019 · Pregunta 59",
+      "stem": "Paciente de 70 años consulta por dolor tipo urente en las extremidades inferiores, asociado a parestesias descritas como hormigueos en los pies. Al examen físico tiene disminución de la sensibilidad en calcetín, con paresia a la extensión de los ortejos y disminución de ambos reflejos aquilianos. En cambio, los reflejos rotulianos se encuentran conservados.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiculopatía S1 bilateral"
+        },
+        {
+          "letter": "B",
+          "text": "Síndrome de cauda equina"
+        },
+        {
+          "letter": "C",
+          "text": "Síndrome del cono medular"
+        },
+        {
+          "letter": "D",
+          "text": "Síndrome de Guillain-Barré"
+        },
+        {
+          "letter": "E",
+          "text": "Polineuropatía"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Dolor urente y parestesias distales, hipoestesia en calcetín, debilidad distal y aquilianos disminuidos con rotulianos conservados: compromiso distal, simétrico y largo-dependiente, típico de polineuropatía. La radiculopatía sigue un dermatoma; la cauda equina y el cono dan anestesia en silla de montar y trastornos esfinterianos; el Guillain-Barré es agudo, motor y ascendente.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecinueve. Una mujer de setenta años tiene ardor y hormigueo en los pies, sensibilidad disminuida en calcetín, debilidad para extender los ortejos y aquilianos disminuidos, con rotulianos conservados.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: radiculopatía sacra uno bilateral, cauda equina, cono medular, Guillain Barré, o polineuropatía. Piénsalo.",
+        "answer": "Es la E. El compromiso distal y simétrico en calcetín, que parte por los nervios más largos, es la firma de la polineuropatía. La radiculopatía sacra uno tienta por los aquilianos, pero sigue un dermatoma y rara vez es bilateral y simétrica."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.4.007 · Examen de líquido cefalorraquídeo",
+      "stem": "Mujer de 42 años con 10 días de parestesias en manos y pies y debilidad ascendente simétrica, precedida por una gastroenteritis. Examen: tetraparesia de predominio proximal y arreflexia generalizada, sin nivel sensitivo y con esfínteres conservados. Se realiza punción lumbar.",
+      "question": "¿Cuál es el resultado del líquido cefalorraquídeo más compatible con el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proteínas 180 mg/dL, 850 células/mm³ con 90 % de neutrófilos y glucosa 20 mg/dL"
+        },
+        {
+          "letter": "B",
+          "text": "Proteínas 160 mg/dL, 3 células/mm³ y glucosa normal"
+        },
+        {
+          "letter": "C",
+          "text": "Líquido xantocrómico con 12.000 glóbulos rojos/mm³"
+        },
+        {
+          "letter": "D",
+          "text": "Proteínas 40 mg/dL, 2 células/mm³ y glucosa normal, con bandas oligoclonales"
+        },
+        {
+          "letter": "E",
+          "text": "Proteínas 90 mg/dL, 120 células/mm³ de predominio linfocitario y glucosa normal"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Debilidad ascendente arrefléctica tras una infección: síndrome de Guillain-Barré. El LCR típico muestra disociación albúmino-citológica, con proteínas elevadas y menos de 10 células/mm³, más evidente desde la segunda semana. Una pleocitosis mayor de 50 células obliga a buscar otra causa (VIH, linfoma, poliomielitis, enfermedad de Lyme); neutrófilos con glucosa baja es meningitis bacteriana.",
+      "say": {
+        "stem": "Una mujer de cuarenta y dos años tiene, desde hace diez días y tras una gastroenteritis, debilidad ascendente simétrica con arreflexia. Se le hace una punción lumbar.",
+        "question": "¿Qué resultado del líquido cefalorraquídeo es el más compatible?",
+        "options": "Las opciones: muchos neutrófilos con glucosa baja, proteínas altas con celularidad normal, líquido xantocrómico con sangre, líquido normal con bandas oligoclonales o pleocitosis linfocitaria. Piénsalo.",
+        "answer": "Es la B. El Guillain Barré produce disociación albúmino citológica, con proteínas altas y casi sin células. La pleocitosis linfocitaria tienta porque parece inflamatoria, pero más de cincuenta células obliga a buscar otro diagnóstico."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2017 · Pregunta 56",
+      "stem": "Paciente de 58 años, diabético tipo 2 mal controlado, consulta por dolor en las extremidades inferiores, de tipo urente y más intenso en la noche. Al examen físico se aprecia ausencia de sensibilidad en las extremidades con el uso de monofilamento.",
+      "question": "¿Cuál es el examen más adecuado para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Eco-Doppler de extremidades inferiores"
+        },
+        {
+          "letter": "B",
+          "text": "Electromiografía"
+        },
+        {
+          "letter": "C",
+          "text": "Resonancia magnética de columna lumbosacra"
+        },
+        {
+          "letter": "D",
+          "text": "Angiografía aortofemoral"
+        },
+        {
+          "letter": "E",
+          "text": "Pletismografía de volumen del pulso de extremidades inferiores"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Dolor urente nocturno y pérdida de sensibilidad al monofilamento en un diabético mal controlado: polineuropatía diabética. Su diagnóstico es fundamentalmente clínico, pero el examen que la objetiva es la electromiografía con velocidades de conducción. Doppler, angiografía y pletismografía estudian enfermedad arterial, que da claudicación y no un patrón sensitivo distal.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Un diabético de cincuenta y ocho años, mal controlado, tiene dolor urente nocturno en las piernas y no siente el monofilamento.",
+        "question": "¿Cuál es el examen más adecuado para confirmar el diagnóstico?",
+        "options": "Las opciones: Doppler de extremidades, electromiografía, resonancia lumbosacra, angiografía aortofemoral, o pletismografía. Piénsalo.",
+        "answer": "Es la B. Es una polineuropatía diabética, que se diagnostica clínicamente, pero el examen que la objetiva es la electromiografía con velocidades de conducción. El Doppler tienta por ser diabético, pero estudia las arterias, y el cuadro es neuropático."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2017 · Pregunta 57",
+      "stem": "Un hombre de 58 años presenta un cuadro de 3 años de evolución de debilidad progresiva de las extremidades que le dificulta caminar, hasta no poder hacerlo, a lo que luego se agrega dificultad para tragar. Evoluciona finalmente con dificultad respiratoria y necesidad de traqueostomía. No tiene alteración sensitiva. La espirometría muestra un patrón restrictivo.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Polineuropatía diabética"
+        },
+        {
+          "letter": "B",
+          "text": "Distrofia muscular"
+        },
+        {
+          "letter": "C",
+          "text": "Esclerosis múltiple"
+        },
+        {
+          "letter": "D",
+          "text": "Miastenia gravis"
+        },
+        {
+          "letter": "E",
+          "text": "Esclerosis lateral amiotrófica"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Debilidad progresiva de extremidades con compromiso bulbar (disfagia) y respiratorio, sin alteración sensitiva, en un adulto, sugiere esclerosis lateral amiotrófica, con signos de primera y segunda motoneurona. La espirometría restrictiva refleja la debilidad diafragmática. La polineuropatía diabética es predominantemente sensitiva y la miastenia es fluctuante y fatigable.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Hombre de cincuenta y ocho años con tres años de debilidad progresiva, luego disfagia e insuficiencia respiratoria, sin alteración sensitiva.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: polineuropatía diabética, distrofia muscular, esclerosis múltiple, miastenia gravis, o esclerosis lateral amiotrófica. Piénsalo.",
+        "answer": "Es la E. Esclerosis lateral amiotrófica: debilidad progresiva motora pura con compromiso bulbar y respiratorio. La miastenia también da disfagia y falla respiratoria, pero es fluctuante y no progresa sin pausa durante años."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.2.012 · Síndrome cuadraplégico agudo",
+      "stem": "Mujer de 34 años con diarrea hace 2 semanas presenta debilidad progresiva de 4 días, que comenzó en las piernas y ahora compromete los brazos, con arreflexia generalizada y parestesias distales. Hoy refiere dificultad para respirar al acostarse.",
+      "question": "¿Cuál es el parámetro más importante a monitorizar en forma seriada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Capacidad vital forzada"
+        },
+        {
+          "letter": "B",
+          "text": "Creatinquinasa (CK)"
+        },
+        {
+          "letter": "C",
+          "text": "Saturación de oxígeno como único parámetro"
+        },
+        {
+          "letter": "D",
+          "text": "Velocidad de sedimentación"
+        },
+        {
+          "letter": "E",
+          "text": "Glicemia"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Una tetraparesia aguda arrefléctica tras una diarrea sugiere síndrome de Guillain-Barré. El riesgo vital es la insuficiencia respiratoria neuromuscular, por lo que se monitoriza en forma seriada la capacidad vital forzada: valores menores de 20 mL/kg indican necesidad de UCI e intubación. La saturación cae tardíamente. El tratamiento es inmunoglobulina endovenosa o plasmaféresis.",
+      "say": {
+        "stem": "Mujer de treinta y cuatro años con debilidad ascendente y arreflexia tras una diarrea, que ahora siente falta de aire al acostarse.",
+        "question": "¿Qué parámetro monitorizas en forma seriada?",
+        "options": "Las opciones: capacidad vital forzada, creatinquinasa, solo saturación, sedimentación o glicemia. Piénsalo.",
+        "answer": "Es la A. La capacidad vital forzada, que detecta precozmente la falla respiratoria. La saturación parece suficiente, pero cae tarde, cuando el paciente ya está claudicando."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',

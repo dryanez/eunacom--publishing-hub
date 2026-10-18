@@ -184,6 +184,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El reloj de las psicosis',
+      images: [
+        { src: 'animaciones/psiq-12/A1_psicosis_y_tiempo.mp4', label: 'Psicosis que no son esquizofrenia', credit: 'Gráfico y animación propios' },
+      ],
+      steps: [
+        { note: 'Tiempo y funcionamiento deciden el diagnóstico',
+          say: 'Mira cómo cambia el funcionamiento. En el trastorno psicótico breve, que dura de un día a menos de un mes, la persona cae pero vuelve por completo a su nivel previo. Si el cuadro sigue entre uno y seis meses, es esquizofreniforme, de pronóstico reservado. Pasados los seis meses, es esquizofrenia. En cambio, en el trastorno delirante el delirio persiste, pero fuera de su tema la persona funciona, sin voces ni desorganización.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: del tipo de psicosis a su diagnóstico.',
     },

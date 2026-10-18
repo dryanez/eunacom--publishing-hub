@@ -1,0 +1,198 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Obstetricia (ob-20) sobre ilustración real: útero con feto y placenta (Blausen «The Placenta», título quitado:
+// assets/blausen/ob20_placenta.png, 1200x955) y, a la derecha, el corte celular de la barrera placentaria (glóbulos y anticuerpos).
+//   ?v=sens     A1: primer embarazo: glóbulos fetales Rh positivos pasan en el parto → la madre fabrica IgG anti-D (memoria)
+//   ?v=segundo  A2: siguiente embarazo: la IgG cruza la placenta, se pega al glóbulo fetal y lo destruye → anemia, hidrops
+//   ?v=antid    A3: anti-D: tapa los glóbulos fetales y se eliminan antes de que la madre los reconozca → no hay memoria
+const V = new URLSearchParams(location.search).get('v') || 'sens';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+
+const S = 0.76, SRC = { x: 330, y: 90 }, DST = { x: 40, y: 124, w: 800 * S, h: 770 * S };
+const P = (x, y) => [DST.x + (x - SRC.x) * S, DST.y + (y - SRC.y) * S];
+const PLAC = [480, 300];                                  // placenta en la imagen
+// inserto celular
+const BOX = { x: 700, y: 124, w: 550, h: 270 };
+const MAD = { x0: 716, x1: 946 }, FET = { x0: 1004, x1: 1234 }, BAR = { x0: 956, x1: 994 };
+const Y0 = 190, Y1 = 372;
+
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  ctx.drawImage(I('pl'), SRC.x, SRC.y, 800, 770, DST.x, DST.y, DST.w, DST.h); ctx.restore();
+}
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+// ---- piezas celulares ----
+function rbc(x, y, a, opt = {}) {                            // glóbulo rojo fetal Rh positivo (punto = antígeno D)
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y); const r = opt.r || 12;
+  ctx.fillStyle = opt.dead ? '#8B7355' : '#FF8A5C'; ctx.strokeStyle = '#7A2E14'; ctx.lineWidth = 1.6;
+  ctx.beginPath(); ctx.arc(0, 0, r, 0, 7); ctx.fill(); ctx.stroke();
+  ctx.fillStyle = '#C94A22'; ctx.beginPath(); ctx.arc(0, 0, r * 0.42, 0, 7); ctx.fill();
+  ctx.fillStyle = '#2A0A06'; ctx.beginPath(); ctx.arc(r * 0.7, -r * 0.7, 2.6, 0, 7); ctx.fill();   // antígeno D
+  ctx.restore();
+}
+function igg(x, y, a, col = '#B388FF', sc = 1, ang = 0) {   // anticuerpo en Y
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y); ctx.rotate(ang); ctx.scale(sc, sc);
+  ctx.strokeStyle = col; ctx.lineWidth = 3.4; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(0, 8); ctx.lineTo(0, 0); ctx.lineTo(-7, -9); ctx.moveTo(0, 0); ctx.lineTo(7, -9); ctx.stroke(); ctx.restore();
+}
+function lymph(x, y, a, glow) {                              // linfocito B de la madre
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  if (glow > 0) K.glow(x, y, 54, '179,136,255', 0.65 * glow);
+  ctx.fillStyle = '#7C5CD6'; ctx.strokeStyle = '#D9C9FF'; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(x, y, 22, 0, 7); ctx.fill(); ctx.stroke();
+  ctx.fillStyle = '#3D2A8C'; ctx.beginPath(); ctx.arc(x - 3, y + 2, 12, 0, 7); ctx.fill(); ctx.restore();
+}
+function insetFrame(t, a, barGap) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  rrect(BOX.x, BOX.y, BOX.w, BOX.h, 16, '#10151C');
+  ctx.strokeStyle = C.BLUE; ctx.lineWidth = 2; ctx.beginPath(); ctx.roundRect(MAD.x0 - 6, 146, MAD.x1 - MAD.x0 + 12, 242, 12); ctx.stroke();
+  ctx.strokeStyle = C.AMBER; ctx.beginPath(); ctx.roundRect(FET.x0 - 6, 146, FET.x1 - FET.x0 + 12, 242, 12); ctx.stroke();
+  tag('Sangre materna · Rh negativa', (MAD.x0 + MAD.x1) / 2, 166, C.BLUE, 15); tag('Sangre fetal · Rh positiva', (FET.x0 + FET.x1) / 2, 166, C.AMBER, 15);
+  // barrera placentaria
+  const gy0 = 260, gy1 = 300;
+  ctx.fillStyle = '#8E6BD6'; ctx.fillRect(BAR.x0, 150, BAR.x1 - BAR.x0, (barGap ? gy0 : 236) - 150);
+  ctx.fillRect(BAR.x0, barGap ? gy1 : 386, BAR.x1 - BAR.x0, 386 - (barGap ? gy1 : 386));
+  if (!barGap) ctx.fillRect(BAR.x0, 150, BAR.x1 - BAR.x0, 236);
+  text('placenta', (BAR.x0 + BAR.x1) / 2, 380, 12, '#D9C9FF', '', 'center');
+  ctx.restore();
+}
+const wob = (i, t, a = 8) => [Math.sin(t * 1.3 + i * 2.1) * a, Math.cos(t * 1.7 + i * 1.3) * a];
+// posición base de glóbulos en la zona fetal
+const FPOS = [[1040, 220], [1100, 250], [1160, 214], [1060, 300], [1130, 320], [1200, 280], [1190, 350]];
+const MPOS = [[760, 330], [830, 350], [900, 320], [790, 230], [880, 240]];
+function ringOnPlacenta(a, col) {
+  if (a <= 0) return; const [x, y] = P(...PLAC); ctx.save(); ctx.globalAlpha = a * (0.7 + 0.3 * Math.sin(performance.now ? 0 : 0));
+  ctx.strokeStyle = '#FFFFFF'; ctx.lineWidth = 7; ctx.beginPath(); ctx.arc(x, y, 64, 0, 7); ctx.stroke(); ctx.strokeStyle = col; ctx.lineWidth = 4; ctx.setLineDash([10, 7]); ctx.beginPath(); ctx.arc(x, y, 64, 0, 7); ctx.stroke(); ctx.setLineDash([]);
+  ctx.strokeStyle = 'rgba(255,255,255,0.35)'; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(x + 64, y - 6); ctx.lineTo(BOX.x, BOX.y + 30); ctx.stroke(); ctx.restore();
+}
+function baseLabels(t, a) {
+  label('Placenta', 110, 420, C.VIOLET, ...P(420, 330), a * seg(t, 0.8, 0.5));
+  label('Feto Rh positivo', 360, 640, C.AMBER, ...P(760, 400), a * seg(t, 1.2, 0.5));
+  label('Madre Rh negativa', 120, 640, C.BLUE, ...P(380, 560), a * seg(t, 1.6, 0.5));
+}
+
+// ---------- A1: sensibilización en el primer embarazo ----------
+function sens(t) {
+  K.title('Primer embarazo: la madre se sensibiliza', 'Glóbulos fetales Rh positivos cruzan en el parto', C.AMBER);
+  lamina(seg(t, 0, 0.7)); baseLabels(t, fade(t, 0, 99)); ringOnPlacenta(seg(t, 1.5, 0.5), C.AMBER);
+  const a = seg(t, 1.8, 0.6); insetFrame(t, a, t > 3.3 && t < 7);
+  if (a > 0) {
+    // glóbulos fetales: 3 de ellos cruzan hacia la madre
+    FPOS.forEach((p, i) => {
+      const [wx, wy] = wob(i, t, 7); let x = p[0] + wx, y = p[1] + wy;
+      if (i < 3) { const k = ease(seg(t, 3.5 + i * 0.7, 3.2)); const gx = (BAR.x0 + BAR.x1) / 2; if (k > 0) { x = lerp(x, MAD.x1 - 40 - i * 36, k); y = lerp(y, 280 - i * 8 + wy, k) + 0 * gx; } }
+      rbc(x, y, a);
+    });
+    const lg = seg(t, 7, 0.8) * (1 - seg(t, 11.5, 0.8));
+    lymph(780, 280, a, lg + 0.15 * Math.sin(t * 4) * seg(t, 7, 1));
+    // anticuerpos IgG anti-D
+    const n = Math.floor(10 * ease(seg(t, 8, 3.5)));
+    for (let i = 0; i < n; i++) { const [wx, wy] = wob(i + 7, t, 10); igg(MPOS[i % 5][0] + 18 * Math.floor(i / 5) + wx + 10, MPOS[i % 5][1] - 20 + 18 * Math.floor(i / 5) + wy, a, '#B388FF', 1.1, (i * 1.7) % 6.28); }
+    label('Reconoce el antígeno D', 800, 408, C.VIOLET, 784, 300, 0, 14);
+  }
+  tagAt(t, 'Reconoce el antígeno D', 836, 340, '#D9C9FF', 7, 11.8);
+  tagAt(t, 'Memoria IgG anti-D', 836, 340, C.VIOLET, 11.8, 99);
+  // panel
+  const ac = lerp(0, 100, ease(seg(t, 8, 4)));
+  rrect(700, 408, 550, 112, 16, '#161B22');
+  K.bar(722, 448, 506, 'Glóbulos fetales en la madre', lerp(0, 3, ease(seg(t, 3.5, 3.5))), 7, 'células', C.AMBER, [], v => String(Math.round(v)));
+  K.bar(722, 492 + 0, 506, 'Anticuerpos anti-D de la madre', ac, 100, '%', ac > 50 ? C.RED : C.VIOLET);
+  K.card(700, 532, 550, 100, C.AMBER, 'En el parto o un aborto', ['Pasa sangre fetal Rh positiva a la madre', 'Ella forma IgG anti-D: queda con memoria'], seg(t, 3.4, 0.5), 17);
+  K.banner(700, 646, 550, 'Este primer hijo no alcanza a dañarse', C.GREEN, seg(t, 12.2, 0.5));
+}
+function tagAt(t, s, x, y, col, a0, a1) { const a = fade(t, a0, a1, 0.4); if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; tag(s, x, y, col, 14); ctx.restore(); }
+
+// ---------- A2: siguiente embarazo ----------
+function segundo(t) {
+  K.title('Siguiente embarazo: la IgG cruza y destruye', 'Los anticuerpos de memoria atacan al feto Rh positivo', C.RED);
+  lamina(seg(t, 0, 0.7)); baseLabels(t, fade(t, 0, 99)); ringOnPlacenta(seg(t, 1.2, 0.5), C.RED);
+  const a = seg(t, 1.5, 0.6); insetFrame(t, a, false);
+  const cross = ease(seg(t, 3, 3)), bind = ease(seg(t, 6.3, 1.6)), lyse = ease(seg(t, 8.5, 2.5));
+  if (a > 0) {
+    lymph(780, 290, a, 0);
+    // anticuerpos: unos en la madre, otros cruzan y se pegan a los glóbulos fetales
+    for (let i = 0; i < 12; i++) {
+      const [wx, wy] = wob(i, t, 9); const tgt = FPOS[i % 7];
+      let x, y;
+      if (i < 5) { x = MPOS[i][0] + wx; y = MPOS[i][1] + wy - 10; if (i < 2) { x = lerp(x, 1000, cross * 0.0); } }
+      else { const home = [MPOS[(i - 5) % 5][0] + 20, MPOS[(i - 5) % 5][1] - 40]; x = lerp(home[0] + wx, tgt[0] - 14 + wx * 0.2, cross); y = lerp(home[1] + wy, tgt[1] - 6 + wy * 0.2, cross);
+        if (cross > 0 && cross < 1) { /* trayectoria en arco */ y -= 24 * Math.sin(cross * Math.PI); }
+        x = lerp(x, tgt[0] + 10, bind) ; y = lerp(y, tgt[1] - 12, bind); }
+      igg(x, y, a * (i >= 5 ? 1 : 1) * (1 - (i >= 5 ? 0 : 0)), '#B388FF', 1.1, i * 0.7);
+    }
+    FPOS.forEach((p, i) => {
+      const [wx, wy] = wob(i, t, 6); const d = clamp(lyse * 1.4 - i * 0.06, 0, 1);
+      if (d < 1) rbc(p[0] + wx, p[1] + wy, a * (1 - d), { r: 12 * (1 + 0.5 * d), dead: d > 0.3 });
+      if (d > 0 && d < 1) { for (let k = 0; k < 5; k++) { const ang = k * 1.26 + i, rr = 6 + 26 * d; ctx.globalAlpha = a * (1 - d); ctx.fillStyle = '#E04030'; ctx.beginPath(); ctx.arc(p[0] + wx + Math.cos(ang) * rr, p[1] + wy + Math.sin(ang) * rr, 3, 0, 7); ctx.fill(); } ctx.globalAlpha = 1; }
+    });
+    // flecha: la IgG cruza
+    const ar = fade(t, 3, 6.3, 0.4); if (ar > 0) { ctx.save(); ctx.globalAlpha = ar; ctx.strokeStyle = C.VIOLET; ctx.fillStyle = C.VIOLET; ctx.lineWidth = 5; ctx.beginPath(); ctx.moveTo(900, 205); ctx.lineTo(1020, 205); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(1034, 205); ctx.lineTo(1016, 195); ctx.lineTo(1016, 215); ctx.closePath(); ctx.fill(); ctx.restore(); tagAt(t, 'La IgG cruza la placenta', 960, 188, C.VIOLET, 3.2, 6.2); }
+  }
+  tagAt(t, 'Se pega al antígeno D', 1120, 392 - 8, C.VIOLET, 6.4, 8.6);
+  tagAt(t, 'Hemólisis', 1120, 392 - 8, C.RED, 8.7, 99);
+  // el feto se pone pálido: halo rojo y rótulo de hidrops
+  const fx = lyse; if (fx > 0) { const [x, y] = P(760, 450); K.glow(x, y, 140, '255,50,60', 0.35 * fx); }
+  label('Anemia fetal: hidrops', 340, 640, C.RED, ...P(780, 520), seg(t, 10, 0.6));
+  rrect(700, 408, 550, 112, 16, '#161B22');
+  K.bar(722, 448, 506, 'Glóbulos rojos del feto', 100 - 75 * lyse, 100, '%', lyse > 0.4 ? C.RED : C.AMBER);
+  K.bar(722, 492, 506, 'IgG materna en el feto', 100 * cross, 100, '%', C.VIOLET);
+  K.card(700, 532, 550, 100, C.RED, 'Madre ya sensibilizada', ['La IgG atraviesa la placenta libremente', 'Anemia fetal, y en lo grave, hidrops'], seg(t, 3, 0.5), 17);
+  K.banner(700, 646, 550, 'Se vigila: títulos y Doppler de la cerebral media', C.AMBER, seg(t, 11.5, 0.5));
+}
+
+// ---------- A3: inmunoglobulina anti-D ----------
+function antid(t) {
+  K.title('Anti-D: evita la memoria', 'Tapa los glóbulos fetales antes de que la madre los reconozca', C.GREEN);
+  lamina(seg(t, 0, 0.7)); baseLabels(t, fade(t, 0, 99)); ringOnPlacenta(seg(t, 1.2, 0.5), C.GREEN);
+  const a = seg(t, 1.5, 0.6); insetFrame(t, a, t > 2.6 && t < 7);
+  const cov = ease(seg(t, 5.5, 2.2)), clr = ease(seg(t, 8, 2.5));
+  if (a > 0) {
+    lymph(780, 300, a, 0);
+    // anti-D (verde) llega a la sangre materna
+    const arrive = ease(seg(t, 2, 2));
+    // glóbulos fetales cruzados a la madre
+    FPOS.forEach((p, i) => {
+      const [wx, wy] = wob(i, t, 6); let x = p[0] + wx, y = p[1] + wy, al = a;
+      if (i < 3) { const k = ease(seg(t, 2.8 + i * 0.5, 2.6)); x = lerp(x, 900 - i * 40 - 20, k); y = lerp(y, 286 + i * 10 - 10 + wy * 0.3, k);
+        // eliminación
+        const rm = clr; al = a * (1 - rm); x += rm * 30; y += rm * 40 * (i - 1); }
+      if (al > 0) rbc(x, y, al, { r: 12 * (i < 3 ? 1 - 0.3 * clr : 1) });
+      if (i < 3) { const cx = (() => { const k = ease(seg(t, 2.8 + i * 0.5, 2.6)); return lerp(p[0] + wx, 900 - i * 40 - 20, k) + clr * 30; })(), cy = lerp(p[1] + wy, 286 + i * 10 - 10 + wy * 0.3, ease(seg(t, 2.8 + i * 0.5, 2.6))) + clr * 40 * (i - 1);
+        for (let k = 0; k < 4; k++) { const ang = k * 1.57 + 0.6; igg(cx + Math.cos(ang) * 17, cy + Math.sin(ang) * 17, a * cov * (1 - clr), '#3DDC84', 1, ang + 1.57); } }
+    });
+    // anti-D libre en la sangre materna
+    for (let i = 0; i < 8; i++) { const [wx, wy] = wob(i + 3, t, 10); const bound = i < 3 ? cov : 0;
+      igg(MPOS[i % 5][0] + 20 * Math.floor(i / 5) + wx - 30, MPOS[i % 5][1] - 30 + wy, a * arrive * (1 - bound) * (1 - 0.5 * clr), '#3DDC84', 1.15, i); }
+    // el linfocito no se activa
+    if (t > 9) { ctx.save(); ctx.globalAlpha = a * seg(t, 9, 0.5); ctx.strokeStyle = C.RED; ctx.lineWidth = 4; ctx.lineCap = 'round'; ctx.beginPath(); ctx.arc(780, 300, 36, 0, 7); ctx.moveTo(754, 274); ctx.lineTo(806, 326); ctx.stroke(); ctx.restore(); }
+  }
+  tagAt(t, 'Anti-D cubre el glóbulo', 880, 392 - 8, C.GREEN, 5.4, 8);
+  tagAt(t, 'Se elimina antes de ser visto', 880, 392 - 8, C.GREEN, 8.1, 99);
+  { const al = fade(t, 1.4, 6); if (al > 0) { ctx.save(); ctx.globalAlpha = al; tag('Anti-D intramuscular a la madre', 220, 440, C.GREEN, 15); ctx.restore(); } }
+  rrect(700, 408, 550, 112, 16, '#161B22');
+  K.bar(722, 448, 506, 'Glóbulos fetales sin cubrir', 100 * (1 - cov), 100, '%', C.AMBER);
+  K.bar(722, 492, 506, 'Memoria anti-D de la madre', lerp(0, 0, t), 100, '%', C.GREEN);
+  K.card(700, 532, 550, 100, C.GREEN, 'Anti-D: 300 µg intramuscular', ['A las 28 semanas y antes de 72 horas del parto', 'Solo si el Coombs indirecto es negativo'], seg(t, 2, 0.5), 17);
+  K.banner(700, 646, 550, 'No se forma memoria', C.GREEN, seg(t, 10.2, 0.5));
+}
+const SCN = { sens: { f: sens, dur: 14 }, segundo: { f: segundo, dur: 14 }, antid: { f: antid, dur: 14 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({ pl: '../assets/blausen/ob20_placenta.png' });
+</script>
+</body></html>

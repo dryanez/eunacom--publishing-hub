@@ -1,0 +1,102 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Obstetricia 11: el embrión que se implanta en la trompa y la rompe, sobre ilustración real.
+// Base: Blausen.com staff (2014) "Ectopic Pregnancy" (panel del embarazo normal), CC BY 3.0; rótulos quitados y el embrión
+// borrado por inpainting (assets/blausen/utero_normal.png, 600x540). Coordenadas en píxeles de esa imagen.
+//   ?v=ectopico   ob-11 A1: implantación normal vs tubaria → crece → rotura → hemoperitoneo → shock → cirugía
+const V = new URLSearchParams(location.search).get('v') || 'ectopico';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+
+const SRC = { x: 0, y: 4, w: 580, h: 440 }, DST = { x: 30, y: 150 }, S = 0.93;
+DST.w = SRC.w * S; DST.h = SRC.h * S;
+const P = (x, y) => [DST.x + (x - SRC.x) * S, DST.y + (y - SRC.y) * S];
+const PP = a => a.map(p => P(...p));
+// recorrido del óvulo fecundado: ovario → fimbrias → ampolla → istmo → cavidad uterina
+const TUBE = [[25, 115], [45, 95], [55, 70], [65, 40], [85, 18], [110, 15], [125, 32], [130, 60], [133, 90], [138, 115], [150, 132], [180, 145], [215, 155], [250, 168], [285, 190], [310, 215], [322, 228]];
+const WAY = poly(PP(TUBE));
+const AMP = [62, 52], SAMP = 0.17;                 // ampolla: la posición de la perla
+const INT = [336, 150];                            // intersticial (porción intramural)
+
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  ctx.drawImage(I('ut'), SRC.x, SRC.y, SRC.w, SRC.h, DST.x, DST.y, DST.w, DST.h); ctx.restore();
+}
+function clipLamina() { ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip(); }
+function pearl(x, y, r, a, hot) {
+  if (a <= 0 || r <= 0.5) return; ctx.save(); clipLamina(); ctx.globalAlpha = a;
+  if (hot) K.glow(x, y, r * 2.8, '255,70,60', 0.5 * hot);
+  const g = ctx.createRadialGradient(x - r * 0.35, y - r * 0.4, r * 0.1, x, y, r);
+  g.addColorStop(0, '#FFFFFF'); g.addColorStop(0.7, '#F6D9DA'); g.addColorStop(1, '#C8878C');
+  ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); ctx.strokeStyle = '#9B5A60'; ctx.lineWidth = 1.4; ctx.stroke(); ctx.restore();
+}
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+function ectopico(t) {
+  K.title('Embarazo ectópico', 'El embrión se implanta en la trompa y la rompe', C.RED);
+  lamina(seg(t, 0, 0.7));
+  const [ax, ay] = P(...AMP);
+  // 1) viaje normal hasta la cavidad (se repite despacio para comparar)
+  const travel = ease(seg(t, 1, 4.5)), toUt = ease(seg(t, 6, 3));
+  if (t < 10) { const s = lerp(0, 1, travel); const [x, y] = WAY.at(s); const ghost = 1 - seg(t, 9.2, 0.8); pearl(x, y, 8, ghost, 0); }
+  label('Normal: se implanta en la cavidad', 330, 640, C.GREEN, ...P(322, 228), seg(t, 6.8, 0.4) * (1 - seg(t, 9.6, 0.4)));
+  // 2) en el ectópico se queda en la ampolla
+  if (t >= 10) {
+    const grow = ease(seg(t, 12, 8));                   // crece entre las seis y ocho semanas
+    const rup = seg(t, 20.5, 0.6);
+    const a = 1 - rup * 0.9;
+    pearl(ax, ay, lerp(8, 17, grow), t < 10.6 ? seg(t, 10, 0.5) : a, grow * (1 - rup));
+    // la trompa se distiende alrededor
+    if (grow > 0.05 && rup < 1) { ctx.save(); clipLamina(); ctx.globalAlpha = 0.5 * grow * (1 - rup); ctx.strokeStyle = '#E04A58'; ctx.lineWidth = 3;
+      ctx.beginPath(); ctx.arc(ax, ay, lerp(14, 27, grow), 0, 7); ctx.stroke(); ctx.restore(); }
+    label('Ectópico tubárico, 95 %', 340, 215, C.RED, ax + 6, ay, seg(t, 10.6, 0.5) * (1 - seg(t, 20.2, 0.3)));
+    label('Ampolla: se rompe a las 6 a 8 semanas', 340, 215, C.RED, ax + 6, ay, seg(t, 14, 0.5) * (1 - seg(t, 20.2, 0.3)));
+    // rotura: sangre
+    if (t >= 20.5) {
+      const b = ease(seg(t, 20.5, 6));
+      ctx.save(); clipLamina();
+      K.glow(ax + 10, ay + 20, 40 + 150 * b, '200,16,40', 0.55 * Math.min(1, b * 3));
+      ctx.fillStyle = '#C8102E';
+      for (let i = 0; i < 16; i++) { const u = Math.min(1, b * 1.3 - i * 0.02); if (u <= 0) continue; const ang = 0.25 + rnd(i) * 1.3, d = 20 + u * (60 + rnd(i + 9) * 110);
+        const x = ax + 8 + Math.cos(ang) * d, y = ay + 10 + Math.sin(ang) * d * 1.2 + u * u * 30; ctx.globalAlpha = 0.9 * (1 - u * 0.3); ctx.beginPath(); ctx.arc(x, y, 3 + 2 * rnd(i), 0, 7); ctx.fill(); }
+      ctx.restore();
+      label('Rotura: hemoperitoneo', 150, 520, C.RED, ...P(95, 150), seg(t, 21.5, 0.5));
+    }
+    // 3) otros sitios: la intersticial rompe tarde, pero masiva
+    const o = seg(t, 28, 0.6);
+    if (o > 0) { const [ix, iy] = P(...INT); pearl(ix, iy, 9 + 6 * ease(seg(t, 28, 3)), o, 0.5 * o);
+      label('Intersticial: tarde, pero masiva', 470, 175, C.RED, ix, iy, seg(t, 28.6, 0.5)); }
+  }
+  // paneles
+  K.card(600, 135, 640, 100, C.GREEN, 'Embarazo normal', ['El óvulo fecundado baja por la trompa', 'y se implanta en la cavidad uterina'], seg(t, 1.2, 0.5), 17);
+  K.card(600, 247, 640, 100, C.RED, 'Embarazo ectópico', ['Se queda en la trompa, casi siempre la ampolla', 'Crece y a las 6 a 8 semanas la rompe'], seg(t, 11, 0.5), 17);
+  // signos de shock
+  const sh = seg(t, 22.5, 0.5);
+  K.card(600, 359, 640, 128, C.RED, 'Ectópico roto: shock hipovolémico', ['Hipotensión y taquicardia, palidez, síncope', 'Dolor peritoneal y dolor referido al hombro (Kehr)', 'Líquido libre en Douglas o en Morrison (FAST)'], sh, 17);
+  if (sh > 0) { ctx.save(); ctx.globalAlpha = sh; const pa = Math.round(lerp(120, 78, ease(seg(t, 22.5, 4)))), fc = Math.round(lerp(82, 128, ease(seg(t, 22.5, 4))));
+    K.bar(630, 530, 280, 'Presión sistólica', pa, 140, 'mmHg', pa < 90 ? C.RED : C.GREEN);
+    K.bar(950, 530, 260, 'Frecuencia cardíaca', fc, 160, 'lpm', fc > 110 ? C.RED : C.GREEN); ctx.restore(); }
+  K.banner(600, 594, 640, 'Inestable: cirugía de urgencia, sin esperar exámenes', C.AMBER, seg(t, 27, 0.5));
+  K.banner(600, 646, 640, 'Estable con criterios: beta-hCG, eco y metotrexato', C.GREEN, seg(t, 31, 0.5));
+}
+
+const SCN = { ectopico: { f: ectopico, dur: 35 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({ ut: '../assets/blausen/utero_normal.png' });
+</script>
+</body></html>

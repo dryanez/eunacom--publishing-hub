@@ -193,6 +193,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Sobre la meta a los tres meses: segundo fármaco',
+      images: [
+        { src: 'animaciones/diab-06/A1_escalera_hba1c.mp4', label: 'Escalera de la DM2', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'La hemoglobina glicosilada decide a los tres meses',
+          say: 'Con metformina y estilo de vida la hemoglobina glicosilada baja, pero a los tres meses sigue sobre la meta. Ahí no se espera: se agrega el segundo fármaco de inmediato, y en atención primaria es la glibenclamida. Esperar otros tres meses es inercia terapéutica, y el paciente pasa medio año fuera de meta.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos la escalera completa en un solo árbol de decisión.',
     },
@@ -356,6 +370,44 @@ module.exports = {
         options: 'Las opciones: suspender la glibenclamida, subirla, suspender la metformina, subirla, o mantener el tratamiento sin cambios. Piénsalo.',
         answer: 'Es la E. Está bajo siete, en meta, y es un adulto de cincuenta y nueve años con función renal normal: no hay nada que cambiar. La escalera también sirve para saber cuándo no subir. Guarda este caso, porque en la próxima clase vas a ver el mismo enunciado con un paciente de ochenta y cinco años, y la respuesta cambia.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.017 · Hemoglobina glicosilada",
+      "stem": "Mujer de 49 años con DM2 recién diagnosticada, HbA1c inicial 7,8 %. Asintomática, sin baja de peso. Se indica plan de alimentación, actividad física y metformina 850 mg cada 12 horas. Tolera bien el tratamiento y pregunta cuándo debe volver a medirse la HbA1c para saber si el tratamiento funcionó.",
+      "question": "¿Cuándo corresponde controlar la HbA1c para evaluar la respuesta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A las 2 semanas"
+        },
+        {
+          "letter": "B",
+          "text": "Al mes"
+        },
+        {
+          "letter": "C",
+          "text": "A los 12 meses"
+        },
+        {
+          "letter": "D",
+          "text": "A los 3 meses"
+        },
+        {
+          "letter": "E",
+          "text": "No es necesario; basta con la glicemia de ayuno"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La HbA1c refleja el promedio glicémico de los 2–3 meses previos, que es la vida media útil del glóbulo rojo. Medirla antes no muestra el efecto real del cambio de tratamiento. Se controla a los 3 meses y, si no está en meta, se intensifica.",
+      "say": {
+        "stem": "Mujer de cuarenta y nueve años con diabetes tipo dos recién diagnosticada y hemoglobina glicosilada de siete coma ocho. Inicia dieta, ejercicio y metformina, y pregunta cuándo repetir el examen.",
+        "question": "¿Cuándo corresponde controlar la hemoglobina glicosilada para evaluar la respuesta?",
+        "options": "Las opciones: a las dos semanas, al mes, a los doce meses, a los tres meses o no hace falta. Piénsalo.",
+        "answer": "Es la D, a los tres meses. La hemoglobina glicosilada mira los últimos dos a tres meses, porque depende de la vida del glóbulo rojo; antes no refleja el efecto del tratamiento. Al mes tienta, pero a esa altura el examen todavía arrastra la glicemia previa al tratamiento."
+      }
     },
 
     {

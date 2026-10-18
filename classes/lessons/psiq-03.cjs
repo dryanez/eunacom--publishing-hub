@@ -219,6 +219,30 @@ module.exports = {
       ],
     },
 
+
+    {
+      type: 'points',
+      kicker: 'Adolescentes',
+      title: 'Intento de suicidio en el adolescente',
+      cards: [
+        { title: 'Quién y por qué', tag: 'Sospecha', kind: 'key', items: [
+          { t: 'Mujeres intentan, hombres consuman', d: 'Ahorcamiento: método más letal',
+            say: 'El suicidio es una de las primeras causas de muerte en el adolescente chileno. Los intentos son más frecuentes en mujeres, y los suicidios consumados en hombres, porque usan métodos más letales, como el ahorcamiento.' },
+          { t: 'Intento previo, depresión, abuso, bullying', d: 'Medios letales, discriminación, contagio',
+            say: 'El mayor predictor es el intento previo. Suman depresión, trastorno de conducta, consumo de sustancias, abuso sexual o maltrato, bullying y ciberacoso, discriminación por orientación sexual o identidad de género, acceso a medios letales y un suicidio cercano.' },
+          { t: 'Impulsivo, tras un conflicto', d: 'Pelea de pareja, humillación, castigo',
+            say: 'El intento suele ser impulsivo, gatillado por un conflicto interpersonal: una pelea con la pareja, una humillación, un castigo.' },
+        ] },
+        { title: 'Conducta en urgencias', tag: 'Todo intento es urgencia', kind: 'alert', items: [
+          { t: 'Primero lo médico', d: 'Paracetamolemia aunque esté asintomático',
+            say: 'Primero la estabilización médica. La intoxicación con fármacos es el método más común, así que pide paracetamolemia aunque el adolescente se vea bien.' },
+          { t: 'Nunca solo; retirar medios letales', d: 'Fármacos y armas del hogar',
+            say: 'Después, entrevista a solas con el adolescente y por separado con los padres; la confidencialidad tiene el límite de la seguridad. Nunca lo dejas solo, y se retiran del hogar los fármacos y las armas.' },
+          { t: 'Alta solo tras psiquiatría infantojuvenil', d: 'Plan escrito, control en 1 semana, *4141',
+            say: 'Antes del alta lo evalúa psiquiatría infantojuvenil. Se hospitaliza si persiste la ideación, el intento fue planificado o de alta letalidad, hay psicopatología grave o la red es insuficiente. Se deja un plan de seguridad escrito, control dentro de la primera semana y el número de la línea de prevención, asterisco cuatro uno cuatro uno.' },
+        ] },
+      ],
+    },
     {
       type: 'points',
       kicker: 'Tratamiento',
@@ -240,6 +264,45 @@ module.exports = {
           { t: 'No recetar cajas completas', d: 'Tricíclicos y benzodiacepinas',
             say: 'Y no se prescriben cajas completas de tricíclicos ni de benzodiacepinas a un paciente en riesgo, porque la sobredosis puede ser letal.' },
         ] },
+      ],
+    },
+
+
+    {
+      type: 'flow',
+      kicker: 'Procedimiento',
+      title: 'Intervención en crisis: seis pasos',
+      nodes: [
+        { id: 'a', col: 0, row: 0, k: 'start', t: '1. Contacto y calma', s: 'Escucha activa' },
+        { id: 'b', col: 1, row: 0, k: 'alert', t: '2. Evaluar riesgo', s: 'Suicida u homicida; seguridad' },
+        { id: 'c', col: 2, row: 0, k: 'mech', t: '3. Explorar y validar', s: 'El problema y las emociones' },
+        { id: 'd', col: 2, row: 2, k: 'effect', t: '4. Alternativas', s: 'Recursos de apoyo' },
+        { id: 'e', col: 3, row: 2, k: 'good', t: '5. Plan de acción', s: 'Concreto, pequeño, con responsables' },
+        { id: 'f', col: 4, row: 2, k: 'refer', t: '6. Seguimiento', s: 'Pactar y cerrar' },
+      ],
+      edges: [
+        { from: 'a', to: 'b' }, { from: 'b', to: 'c' }, { from: 'c', to: 'd' }, { from: 'd', to: 'e' }, { from: 'e', to: 'f' },
+      ],
+      steps: [
+        { show: ['a', 'b'], note: 'Primeros auxilios psicológicos: mirar, escuchar, conectar',
+          say: 'La intervención en crisis es breve y se centra en el aquí y ahora, en las primeras horas o días después de algo que desbordó a la persona: un intento, una pérdida, violencia. Parte con los primeros auxilios psicológicos, mirar, escuchar y conectar. Primero, contacto y calma; segundo, evaluar el riesgo suicida u homicida y la seguridad.' },
+        { show: ['c', 'd'], note: 'Validar antes de buscar soluciones',
+          say: 'Tercero, explorar el problema y validar las emociones. Cuarto, examinar las alternativas y los recursos de apoyo que la persona tiene.' },
+        { show: ['e', 'f'], note: 'Breve: 1 a 6 sesiones',
+          say: 'Quinto, acordar un plan de acción concreto y pequeño, con responsables. Sexto, pactar el seguimiento y el cierre. Todo dura entre una y seis sesiones. Lo que no se hace: minimizar con un no es para tanto, moralizar, prometer confidencialidad absoluta o forzar a hablar del trauma. Y se deriva a psiquiatría si hay riesgo vital, psicosis, intoxicación o un trastorno mental de base.' },
+      ],
+    },
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El puntaje decide la conducta',
+      images: [
+        { src: 'animaciones/psiq-03/A1_escala_y_conducta.mp4', label: 'SAD PERSONS y conducta', credit: 'Gráfico y animación propios' },
+      ],
+      steps: [
+        { note: 'Cada factor suma un punto; el puntaje sube el escalón',
+          say: 'Mira cómo se arma el puntaje de un paciente: cada factor suma un punto, desde el sexo masculino hasta la enfermedad crónica. Con cero a dos, ambulatorio con red. Con tres a cuatro, control en cuarenta y ocho a setenta y dos horas. De cinco a seis, psiquiatría urgente; de siete a ocho, hospitalización obligatoria; con nueve a diez, ingreso inmediato. Pero un puntaje bajo no autoriza el alta si hay plan y método.' },
       ],
     },
 
@@ -266,6 +329,10 @@ module.exports = {
           say: 'Una mejoría súbita en un paciente de alto riesgo no significa que pasó.' },
         { cells: ['Sobredosis de amitriptilina', 'Electrocardiograma', 'Solo observar'],
           say: 'Y ante una sobredosis de tricíclicos, lo primero es el electrocardiograma.' },
+        { cells: ['Adolescente tras ingesta de fármacos', 'Paracetamolemia aunque esté asintomático', 'Alta si se ve bien'],
+          say: 'En el adolescente que se intoxicó con fármacos, pides paracetamolemia aunque se vea bien, y no hay alta sin evaluación de psiquiatría infantojuvenil.' },
+        { cells: ['Crisis tras un evento que desbordó', 'Primeros auxilios psicológicos y seis pasos', 'Minimizar o forzar a contar el trauma'],
+          say: 'Y en una crisis, mirar, escuchar y conectar, con el plan de seis pasos. Nunca decir que no es para tanto.' },
       ],
     },
 
@@ -382,6 +449,120 @@ module.exports = {
         options: 'Las opciones: alta inmediata con cita abierta; alta voluntaria firmada; observación protegida, completar la N-acetilcisteína y evaluación psiquiátrica antes del alta; haloperidol intramuscular; o reposo en la sala de espera sin vigilancia. Piénsalo.',
         answer: 'Es la C. Todo intento de suicidio se toma en serio, sea cual sea el diagnóstico de base. Permanece en observación protegida hasta completar el manejo médico del paracetamol, que incluye la N-acetilcisteína, y hasta que la evalúe un psiquiatra. Además no tiene red que la acoja, lo que impide un alta inmediata. El alta voluntaria no es válida con riesgo vital potencial.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 5.01.5.003 · Intervención en crisis",
+      "stem": "Mujer de 38 años llega al SAPU 2 horas después de que su casa se incendiara por completo. Nadie resultó herido. Está llorando, temblorosa, dice que no sabe dónde dormirá esta noche con sus 2 hijos y repite que no puede pensar. No tiene antecedentes psiquiátricos ni ideas de muerte, está orientada y su examen físico es normal.",
+      "question": "¿Cuál es la conducta inicial más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Realizar intervención en crisis: escucha activa, contención, asegurar necesidades básicas y activar redes de apoyo, con seguimiento cercano"
+        },
+        {
+          "letter": "B",
+          "text": "Indicar diazepam endovenoso y derivar a psiquiatría"
+        },
+        {
+          "letter": "C",
+          "text": "Pedirle que relate en detalle el incendio para procesar el trauma (debriefing obligatorio)"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar sertralina para prevenir el trastorno de estrés postraumático"
+        },
+        {
+          "letter": "E",
+          "text": "Hospitalizar en psiquiatría por reacción aguda a estrés"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La intervención en crisis (primera ayuda psicológica) busca restablecer el equilibrio: escuchar sin forzar el relato, contener, cubrir necesidades básicas como seguridad y alojamiento, conectar con redes de apoyo y evaluar riesgo. El debriefing forzado y los fármacos preventivos no han demostrado beneficio y pueden empeorar la evolución.",
+      "say": {
+        "stem": "Una mujer de treinta y ocho años llega al SAPU dos horas después de que su casa se incendiara. Nadie se hirió, pero llora, tiembla y no sabe dónde dormirá con sus dos hijos. No tiene ideas de muerte.",
+        "question": "¿Cuál es la conducta inicial más adecuada?",
+        "options": "Las opciones: intervención en crisis con contención y redes de apoyo, diazepam endovenoso, relato detallado obligatorio, sertralina preventiva o hospitalización psiquiátrica. Piénsalo.",
+        "answer": "Es la A. Lo correcto es la intervención en crisis: escuchar, contener, asegurar techo y seguridad, y activar su red de apoyo con seguimiento. Obligarla a relatar el incendio tienta, pero el debriefing forzado no previene el estrés postraumático y puede empeorarlo."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 5.01.1.029 · Intento de suicidio en niños y adolescentes",
+      "stem": "Adolescente de 15 años es traída a urgencia tras ingerir 20 comprimidos de paracetamol después de una discusión con su pareja. Está estable, sin compromiso de conciencia, y ya recibió manejo toxicológico. En la entrevista refiere que quería morir, que lo planificó por una semana, que lamenta seguir viva y que lo volvería a intentar.",
+      "question": "Una vez estabilizada médicamente, ¿cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Derivar solo a psicólogo del colegio"
+        },
+        {
+          "letter": "B",
+          "text": "Alta con control en CESFAM en un mes"
+        },
+        {
+          "letter": "C",
+          "text": "Alta con sertralina y control en 2 semanas"
+        },
+        {
+          "letter": "D",
+          "text": "Alta a su domicilio si los padres se comprometen a vigilarla"
+        },
+        {
+          "letter": "E",
+          "text": "Hospitalización con evaluación psiquiátrica urgente y supervisión continua"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Todo intento suicida en un adolescente requiere evaluación psiquiátrica antes del alta. Planificación, intención de morir, arrepentimiento de sobrevivir e ideación persistente indican alto riesgo, por lo que corresponde hospitalizar con supervisión continua. Los antidepresivos no protegen en el corto plazo y el compromiso familiar no basta con este nivel de riesgo.",
+      "say": {
+        "stem": "Adolescente de quince años que tomó una sobredosis de paracetamol, ya estabilizada, que planificó el intento, lamenta seguir viva y lo volvería a hacer.",
+        "question": "¿Cuál es la conducta?",
+        "options": "Las opciones: psicólogo del colegio, control en un mes, sertralina, alta con vigilancia de los padres o hospitalizar con evaluación psiquiátrica. Piénsalo.",
+        "answer": "Es la E. Planificó, quería morir y lo repetiría, que es un riesgo alto, así que se hospitaliza con evaluación psiquiátrica y supervisión. El alta con vigilancia de los padres tienta, pero no basta con este riesgo."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.137 · Ideación suicida",
+      "stem": "Un adolescente de 16 años es traído por su madre, que encontró una carta de despedida. En la entrevista a solas reconoce que desde hace semanas piensa en morir, ha planificado tomar los medicamentos de su abuela este fin de semana y no ve otra salida. Tiene antecedente de un intento previo.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Indicar fluoxetina y control en 2 semanas"
+        },
+        {
+          "letter": "B",
+          "text": "Derivar a psicólogo en atención primaria"
+        },
+        {
+          "letter": "C",
+          "text": "Hospitalización o evaluación psiquiátrica urgente, sin dejarlo solo"
+        },
+        {
+          "letter": "D",
+          "text": "Firmar un contrato de no suicidio y enviar a domicilio"
+        },
+        {
+          "letter": "E",
+          "text": "Mantener la confidencialidad y no informar a la madre"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Ideación suicida con plan estructurado, método accesible, intención, carta de despedida e intento previo constituyen riesgo suicida alto. Requiere evaluación psiquiátrica urgente y, en general, hospitalización, con supervisión permanente y restricción de medios letales. En riesgo vital se rompe la confidencialidad para informar a la familia. Los contratos de no suicidio no son efectivos.",
+      "say": {
+        "stem": "Un adolescente de dieciséis años dejó una carta de despedida, planea tomar los medicamentos de su abuela este fin de semana y tiene un intento previo.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: fluoxetina y control, derivar a psicólogo, evaluación psiquiátrica urgente u hospitalización sin dejarlo solo, contrato de no suicidio o mantener confidencialidad. Piénsalo.",
+        "answer": "Es la C. Plan concreto, método disponible, carta e intento previo son riesgo suicida alto, y exige evaluación psiquiátrica urgente u hospitalización. Mantener la confidencialidad tienta en un adolescente, pero se rompe cuando hay riesgo vital."
+      }
     },
 
     {

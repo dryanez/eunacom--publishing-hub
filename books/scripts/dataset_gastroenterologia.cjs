@@ -144,6 +144,14 @@ module.exports = { gastroenterologiaClasses: [
           'Complicaciones: <strong>hemorragia digestiva alta</strong> (la más frecuente) → IBP endovenoso + endoscopía de urgencia con terapia hemostática; y <strong>perforación</strong> → dolor "en puñalada", abdomen en tabla, radiografía de tórax de pie con neumoperitoneo y cirugía de urgencia (la endoscopía está contraindicada).',
         ],
       },
+      {
+        subhead: '5. AINE, gastroprotección y la endoscopía como procedimiento',
+        paragraphs: [
+          '<strong>AINE y tracto digestivo:</strong> todos los antiinflamatorios no esteroidales (y la aspirina en dosis baja) lesionan la mucosa gastroduodenal al inhibir las prostaglandinas protectoras; pueden producir dispepsia, erosiones, úlcera, hemorragia y perforación, y el riesgo es mayor en la úlcera gástrica que en la duodenal. <strong>Factores de riesgo:</strong> edad ≥ 65 años, antecedente de úlcera o de hemorragia digestiva, uso simultáneo de corticoides, anticoagulantes o antiagregantes, dosis altas, dos AINE juntos e infección por H. pylori.',
+          '<strong>Uso seguro y gastroprotección:</strong> usar la menor dosis por el menor tiempo, con comida, y preferir paracetamol en el dolor leve. En el paciente de riesgo que necesita AINE se agrega <strong>un IBP</strong> (el fármaco de elección; los antagonistas H₂ y el sucralfato no protegen bien la mucosa gástrica); el misoprostol es eficaz pero mal tolerado (diarrea, contraindicado en el embarazo). En riesgo alto o con antecedente de úlcera complicada se prefiere un inhibidor selectivo de COX-2 (celecoxib) más IBP. Se <strong>erradica H. pylori</strong> antes de iniciar un AINE crónico si hay antecedente de úlcera. Ante una úlcera por AINE: suspender el AINE y dar IBP 8 semanas; si el AINE es imprescindible, IBP de mantención.',
+          '<strong>La endoscopía digestiva alta como procedimiento (nivel: derivar):</strong> la realiza el especialista con un endoscopio flexible; requiere <strong>ayuno de 6–8 horas</strong>, consentimiento informado, y habitualmente sedación (por eso el paciente debe ir acompañado y no conducir ese día). Permite ver la mucosa, tomar <strong>biopsias</strong> (cáncer, H. pylori, celiaquía) y hacer terapia (hemostasia, ligadura de várices, extracción de cuerpos extraños). El médico general la indica con los criterios ya vistos, prepara al paciente (informa de anticoagulantes y antiagregantes que el especialista debe manejar) y la solicita con urgencia en la hemorragia. Complicaciones raras: perforación, hemorragia tras la biopsia y depresión respiratoria por la sedación.',
+        ],
+      },
     ],
     table: {
       title: 'Úlcera péptica — a quién se erradica y cómo se controla',
@@ -233,6 +241,13 @@ module.exports = { gastroenterologiaClasses: [
         paragraphs: [
           'Esclerodermia / CREST: disfagia ilógica + pirosis intensa, en el contexto de fenómeno de Raynaud, calcinosis, telangiectasias. Es un trastorno motor esofágico con reflujo ácido grave (a diferencia de la acalasia).',
           '<strong>Divertículo de Zenker:</strong> disfagia alta (esfínter esofágico superior) + halitosis marcada (alimento retenido que fermenta) + regurgitación de comida no digerida. Diagnóstico con <strong>esofagograma con bario</strong> (no endoscopía, no manometría). Tratamiento quirúrgico: diverticulectomía + miotomía cricofaríngea.',
+        ],
+      },
+      {
+        subhead: '5. Trastornos de la deglución orofaríngea',
+        paragraphs: [
+          '<strong>Disfagia orofaríngea (alta):</strong> a diferencia de la esofágica, la dificultad aparece en el momento mismo de tragar (cuesta iniciar la deglución, el bolo «no baja»), con tos o atoragantamiento, voz «húmeda», regurgitación nasal y, a la larga, neumonías aspirativas y baja de peso. Sus causas son sobre todo <strong>neurológicas</strong> (accidente cerebrovascular, enfermedad de Parkinson, demencia, esclerosis lateral amiotrófica, miastenia), el envejecimiento y los tumores o la radioterapia de cabeza y cuello. Hay que sospecharla en todo adulto mayor con neumonías a repetición.',
+          '<strong>Manejo inicial (nivel: sospecha, tratamiento inicial, derivar):</strong> evaluación a la cabecera con una prueba de deglución de agua en pequeños volúmenes; si hay tos, voz húmeda o desaturación, <strong>suspender la vía oral</strong> y derivar. Medidas: sentar al paciente a 90°, flexionar el mentón, espesar los líquidos y dar dieta blanda o triturada en porciones pequeñas, y cuidar la higiene bucal. La videofluoroscopía o la nasofibroscopía de deglución (fonoaudiología/otorrinolaringología) define el trastorno; si la disfagia se prolonga más de unas 4 semanas o no hay vía oral segura, se indica alimentación enteral por sonda nasogástrica y, a largo plazo, gastrostomía.',
         ],
       },
     ],
@@ -325,6 +340,13 @@ module.exports = { gastroenterologiaClasses: [
           'Necrosis extensa o perforación: régimen cero, nutrición parenteral y cirugía de urgencia. Secuela tardía: estenosis esofágica cicatricial (dilataciones o reconstrucción con estómago o colon) y riesgo aumentado de carcinoma escamoso a largo plazo.',
         ],
       },
+      {
+        subhead: '5. Estudios radiológicos contrastados: cuándo y con qué medio',
+        paragraphs: [
+          '<strong>Qué se pide y qué se informa (nivel: emplear el informe):</strong> esofagograma o tránsito esófago-gastro-duodenal con bario (acalasia en «pico de pájaro», divertículo de Zenker, estenosis, nicho ulceroso), tránsito intestinal (estenosis de Crohn) y enema baritada (cáncer en «manzana mordida», divertículos, vólvulo, megacolon). El informe se lee por sus términos clave: <em>defecto de llenado</em> (masa o cuerpo extraño), <em>nicho</em> (úlcera), <em>estenosis</em> y <em>dilatación</em> proximal, o <em>extravasación del medio</em> (perforación).',
+          '<strong>Regla de seguridad:</strong> ante la <strong>sospecha de perforación</strong> (esofágica, gástrica o intestinal) se usa un medio de contraste <strong>hidrosoluble</strong> (diatrizoato) y no bario, porque el bario que sale a mediastino o peritoneo causa mediastinitis o peritonitis graves. Si hay riesgo de aspiración se prefiere un medio no iónico. La enema baritada está contraindicada en la colitis fulminante, el megacolon tóxico y la perforación colónica; en la sospecha de perforación el estudio de elección es la TAC con contraste.',
+        ],
+      },
     ],
     table: {
       title: 'Tres urgencias del tubo digestivo alto — examen y contraindicación',
@@ -412,6 +434,13 @@ module.exports = { gastroenterologiaClasses: [
         paragraphs: [
           '<strong>Cáncer incipiente:</strong> limitado a mucosa y submucosa, independiente de las adenopatías. Buen pronóstico; tratamiento con resección (endoscópica en casos seleccionados o gastrectomía).',
           '<strong>Cáncer avanzado:</strong> compromete la muscular propia o más allá. Gastrectomía (subtotal o total) con linfadenectomía D2 + quimioterapia perioperatoria. La detección precoz por endoscopía GES en dispépticos ≥ 40 años busca aumentar la proporción de cánceres incipientes.',
+        ],
+      },
+      {
+        subhead: '5. Tumores gástricos benignos y epidemiología de los cánceres digestivos',
+        paragraphs: [
+          '<strong>Tumores gástricos benignos (nivel: sospecha, tratamiento inicial, derivar):</strong> lo más frecuente son los <strong>pólipos</strong> (hiperplásicos y de glándulas fúndicas, casi siempre benignos; el pólipo adenomatoso es premaligno y obliga a resecarlo); los tumores <strong>submucosos</strong> —<strong>GIST</strong>, leiomioma y tumor neuroendocrino— se ven como un abombamiento de mucosa normal, a veces con una úlcera central que sangra (hemorragia digestiva alta o anemia). Se diagnostican por endoscopía con biopsia y ecoendoscopía; el pólipo se reseca (polipectomía) y se busca H. pylori, y el GIST (c-KIT positivo) se reseca quirúrgicamente, con imatinib en los de alto riesgo. Todo tumor gástrico se deriva para estudio.',
+          '<strong>Epidemiología de los cánceres digestivos en Chile:</strong> los tumores del tubo digestivo y de los órganos anexos (estómago, vesícula y vías biliares, colon y recto, hígado, páncreas y esófago) aportan una proporción muy alta de las muertes por cáncer. El <strong>cáncer gástrico</strong> y el de <strong>vesícula biliar</strong> destacan por tasas de las más elevadas del mundo (la vesícula, sobre todo en mujeres), el <strong>colorrectal</strong> aumenta con el envejecimiento y la dieta occidental, el <strong>hepatocarcinoma</strong> crece con la cirrosis (alcohol, virus C, esteatohepatitis) y el <strong>de páncreas</strong> tiene sobrevida a 5 años menor de 10 %. La mayoría se diagnostica en etapa avanzada, por eso importan el tamizaje y la endoscopía precoz.',
         ],
       },
     ],
@@ -686,6 +715,13 @@ module.exports = { gastroenterologiaClasses: [
           'Crónica (≥ 4 sem): según la clínica → funcional (SII), malabsorción (test de Sudán, D-xilosa, serología celíaca), EII (colonoscopía) o cáncer de colon si hay signos de alarma (colonoscopía). Constipación: funcional (educación, fibra, agua, proquinéticos); con signos de alarma en el adulto mayor → colonoscopía para descartar cáncer.',
         ],
       },
+      {
+        subhead: '5. Parasitosis intestinales del adulto y fecaloma',
+        paragraphs: [
+          '<strong>Parasitosis intestinales (nivel: diagnóstico y tratamiento completos):</strong> el diagnóstico es el <strong>parasitológico seriado de deposiciones</strong> (3 muestras en días distintos, con conservante), más el test de Graham para oxiuros y la eosinofilia como pista. <strong>Giardia:</strong> flatulencia, dolor cólico y diarrea con malabsorción → tinidazol 2 g dosis única o metronidazol 250 mg cada 8 h por 5 días. <strong>Entamoeba histolytica:</strong> disentería y absceso hepático → metronidazol 500–750 mg cada 8 h por 7–10 días, seguido de un amebicida luminal. <strong>Áscaris y tricocéfalo:</strong> albendazol 400 mg (dosis única en áscaris; 3 días en tricocéfalo) o mebendazol. <strong>Oxiuros:</strong> albendazol o mebendazol, repetir a las 2 semanas y tratar a todo el grupo familiar. <strong>Teniasis:</strong> praziquantel. <strong>Strongyloides</strong> (diarrea, eosinofilia, riesgo de hiperinfección en inmunosuprimidos): ivermectina.',
+          '<strong>Fecaloma:</strong> masa de deposición endurecida en el recto, propia del adulto mayor postrado o con opioides, anticolinérgicos o constipación crónica. Puede dar <strong>diarrea por rebosamiento</strong> (paradójica), incontinencia fecal, retención urinaria, dolor y delirium; el <strong>tacto rectal</strong> lo diagnostica (masa dura y ampolla llena) y la radiografía de abdomen lo confirma si es alto. Tratamiento: desimpactación con enema, supositorios de glicerina o fragmentación manual, y luego prevención con fibra, hidratación, movilización, revisar los fármacos constipantes y un laxante osmótico de mantención. Si no se trata puede producir obstrucción o úlcera estercorácea con perforación.',
+        ],
+      },
     ],
     table: {
       title: 'Diarrea aguda — plan de hidratación',
@@ -862,6 +898,13 @@ module.exports = { gastroenterologiaClasses: [
         paragraphs: [
           'Farmacológico (similar en ambas, escalonado para inducir y mantener remisión): 5-ASA (mesalazina/sulfasalazina, pilar en la CU leve-moderada, tópico + oral según extensión), corticoides para el brote agudo (budesonida, prednisona; nunca de mantención), inmunomoduladores (azatioprina, metotrexato), biológicos anti-TNF (infliximab, adalimumab) y otras dianas (vedolizumab, ustekinumab), más antibióticos en complicaciones sépticas.',
           'La cirugía es el último escalón y su lógica es opuesta: en la colitis ulcerosa la colectomía es <strong>CURATIVA</strong> porque la enfermedad se limita al colon (colectomía subtotal con muñón rectal, o proctocolectomía total con reservorio ileoanal si hay displasia o cáncer de recto); en el Crohn la cirugía <strong>NUNCA cura</strong> —solo se reseca de forma económica el segmento complicado (estenosis, fístula, absceso) o se hace estenoplastía— porque la enfermedad puede reaparecer en cualquier tramo del tubo digestivo.',
+        ],
+      },
+      {
+        subhead: '5. Ileostomía: indicaciones, cuidados y complicaciones',
+        paragraphs: [
+          '<strong>Qué es y cuándo se hace:</strong> la ileostomía es la exteriorización del íleon por la pared abdominal, habitualmente en la <strong>fosa ilíaca derecha</strong> y con el borde evertido («en rosa») para que el efluente, rico en enzimas, no dañe la piel. La <strong>ileostomía terminal</strong> definitiva acompaña a la proctocolectomía total (colitis ulcerosa, Crohn colónico grave); la <strong>ileostomía en asa</strong> es temporal y protege una anastomosis o el reservorio ileoanal hasta que cicatrice.',
+          '<strong>Cuidados y complicaciones:</strong> el efluente normal es líquido-pastoso (500–1.000 mL/día). Un <strong>alto débito</strong> (&gt; 1.500 mL/día) produce deshidratación, hiponatremia, hipopotasemia, hipomagnesemia e insuficiencia renal prerrenal → hidratación, sales de rehidratación oral hipertónicas, loperamida y IBP. Se enseña al paciente a recortar el dispositivo al tamaño del estoma y a cuidar la piel periestomal (dermatitis por filtración). Otras complicaciones: prolapso, retracción, estenosis, hernia paraestomal y necrosis isquémica precoz (estoma oscuro, urgencia quirúrgica). Si se resecó el íleon terminal, falta vitamina B₁₂ y sales biliares (litiasis biliar).',
         ],
       },
     ],
@@ -1149,6 +1192,13 @@ module.exports = { gastroenterologiaClasses: [
           'Estudio: ecografía abdominal siempre primero (¿vía biliar dilatada?, ¿colédoco?, ¿masa?). Luego colangiorresonancia como examen de elección de la vía biliar; si la ecografía muestra o sugiere una masa pancreática, el examen es el TAC de abdomen con contraste (mejor para el páncreas).',
         ],
       },
+      {
+        subhead: '5. Tratamiento del cáncer de páncreas y tumores preampulares',
+        paragraphs: [
+          '<strong>Cáncer de páncreas (nivel: sospecha, tratamiento inicial, derivar):</strong> solo el 15–20 % es resecable al diagnóstico. En tumores de la cabeza resecables se hace la <strong>duodenopancreatectomía cefálica (Whipple)</strong> seguida de quimioterapia adyuvante; en los localmente avanzados o con metástasis se da quimioterapia paliativa (FOLFIRINOX o gemcitabina). La paliación incluye la <strong>prótesis biliar por CPRE</strong> para la ictericia y el prurito, analgesia (bloqueo del plexo celíaco si el dolor es refractario), enzimas pancreáticas y anticoagulación si hay trombosis. La sobrevida a 5 años es menor de 10 %: el médico general sospecha, hace el estudio inicial y deriva sin demora.',
+          '<strong>Otros tumores preampulares:</strong> el <strong>ampuloma</strong> (tumor de la ampolla de Vater) da ictericia <em>fluctuante</em> (el tumor se necrosa y se reabre), anemia o melena y a veces pancreatitis; tiene mejor pronóstico porque obstruye precozmente. También se incluyen el colangiocarcinoma distal y el cáncer duodenal. Se diagnostican con ecoendoscopía o duodenoscopía con biopsia de la papila y se tratan igual con cirugía de Whipple.',
+        ],
+      },
     ],
     table: {
       title: 'Ictericia — patrón bioquímico y orientación',
@@ -1257,6 +1307,14 @@ module.exports = { gastroenterologiaClasses: [
           'Hepatitis autoinmune: mujer con otra enfermedad autoinmune (tiroiditis de Hashimoto), hipergammaglobulinemia y ANA/ASMA/anti-LKM1; biopsia con hepatitis de interfase → corticoides + azatioprina. Cirrosis biliar primaria: mujer de 40–60 años con prurito y colestasia (FA y GGT altas, transaminasas normales), AMA (+) → ácido ursodesoxicólico. Colangitis esclerosante primaria: hombre joven con colitis ulcerosa y p-ANCA; colangio-RM con vía biliar "en rosario" y riesgo de colangiocarcinoma.',
         ],
       },
+      {
+        subhead: '7. Ecografía y biopsia hepática, y hepatitis A complicada',
+        paragraphs: [
+          '<strong>Ecografía hepática sistemática (nivel: emplear el informe):</strong> se revisa tamaño y borde del hígado, ecogenicidad, vía biliar, vena porta, bazo y líquido libre. <strong>Esteatosis:</strong> hígado hiperecogénico («brillante»). <strong>Cirrosis:</strong> borde nodular, ecogenicidad heterogénea, atrofia del lóbulo derecho con hipertrofia del caudado, esplenomegalia, vena porta &gt; 13 mm y ascitis. Es también el método de vigilancia del <strong>hepatocarcinoma</strong>: ecografía cada 6 meses (con alfa-fetoproteína) en todo cirrótico y en la hepatitis B crónica de riesgo.',
+          '<strong>Biopsia hepática (informe):</strong> hoy se reserva para casos dudosos (hepatitis autoinmune, superposiciones, hepatopatía de causa no aclarada). Se hace por vía percutánea guiada por ecografía, con INR &lt; 1,5 y plaquetas &gt; 50.000–60.000/mm³; con ascitis o coagulopatía se usa la vía transyugular. El informe entrega el <strong>grado</strong> de actividad necroinflamatoria (p. ej. METAVIR A0–A3) y el <strong>estadio</strong> de fibrosis (F0 a F4; F4 = cirrosis); la elastografía y los marcadores no invasivos la han reemplazado en la mayoría. Complicaciones: dolor (frecuente), hemorragia (&lt; 1 %), neumotórax y peritonitis biliar.',
+          '<strong>Hepatitis A complicada (nivel: diagnóstico específico, tratamiento inicial, derivar):</strong> se sospecha ante vómitos incoercibles, ictericia intensa con bilirrubina muy alta, <strong>INR alargado</strong> o cualquier signo de encefalopatía, y en pacientes mayores de 40 años o con hepatopatía crónica previa (más riesgo de falla hepática). Conducta: hospitalizar, controlar INR y glicemia, evitar sedantes, paracetamol y alcohol, y derivar a un centro con unidad de trasplante si hay encefalopatía o INR ≥ 1,5 (hepatitis fulminante). La forma colestásica prolongada tiene buen pronóstico y se maneja ambulatoria; la recurrente (4–8 semanas) también evoluciona bien.',
+        ],
+      },
     ],
     table: {
       title: 'Serología de la hepatitis B — las combinaciones que se preguntan',
@@ -1361,6 +1419,15 @@ module.exports = { gastroenterologiaClasses: [
           'Síndrome hepatorrenal: falla renal funcional del cirrótico avanzado, de muy mal pronóstico → terlipresina + albúmina y trasplante. Coagulopatía: INR alto (déficit de factores) + trombopenia (hiperesplenismo); se corrige solo ante sangrado o procedimientos.',
         ],
       },
+      {
+        subhead: '5. Paracentesis, dieta y función hepática del cirrótico',
+        paragraphs: [
+          '<strong>Técnica de la paracentesis (nivel: realizar):</strong> con consentimiento, vejiga vacía y paciente semisentado o en decúbito lateral. Se punciona en la <strong>fosa ilíaca izquierda</strong> (2–3 cm sobre y medial a la espina ilíaca anterosuperior) o en la línea media bajo el ombligo, evitando cicatrices y los vasos epigástricos; asepsia, anestesia local y <strong>técnica en Z</strong> para que no filtre líquido. <strong>Diagnóstica:</strong> 30–60 mL para recuento celular, albúmina (gradiente), cultivo en frascos de hemocultivo junto a la cama y, según el caso, proteínas y citología. <strong>Evacuadora:</strong> con catéter, y albúmina 6–8 g por litro si se sacan más de 5 L. No se corrige el INR ni las plaquetas de rutina. Complicaciones: filtración, hematoma de pared, perforación intestinal e hipotensión por disfunción circulatoria posparacentesis.',
+          '<strong>Régimen dietético del cirrótico:</strong> <strong>sodio &lt; 2 g/día</strong> (sin sal agregada y sin alimentos procesados); <strong>no restringir líquidos</strong> salvo hiponatremia &lt; 125 mEq/L; <strong>no restringir proteínas</strong> (1,2–1,5 g/kg/día, incluso en la encefalopatía); aporte calórico adecuado (35 kcal/kg), comidas fraccionadas y una colación nocturna para evitar el catabolismo; abstinencia absoluta de alcohol.',
+          '<strong>Estudio de la función hepática y Child-Pugh (nivel: interpretar y emplear):</strong> la función de síntesis se lee con la <strong>albúmina</strong>, el <strong>INR</strong> (factores de coagulación) y la bilirrubina; las transaminasas miden daño, no función. El <strong>Child-Pugh</strong> suma cinco variables (bilirrubina, albúmina, INR, ascitis y encefalopatía): A = 5–6 puntos (compensado), B = 7–9, C = 10–15 (descompensado, peor pronóstico). El <strong>MELD</strong> (bilirrubina, INR, creatinina, sodio) ordena la lista de espera de trasplante.',
+          '<strong>Insuficiencia hepática crónica, enfoque global:</strong> se reconoce por ictericia, coagulopatía, hipoalbuminemia con edema y ascitis, encefalopatía, eritema palmar, arañas vasculares, ginecomastia y atrofia testicular. Ante una descompensación se busca el desencadenante (infección, hemorragia, alcohol, fármacos, trombosis portal, hepatocarcinoma). Medidas de base: abstinencia, vacunas (hepatitis A, B, neumococo, influenza), evitar AINE y sedantes, vigilancia ecográfica del hepatocarcinoma y derivación a trasplante al aparecer una complicación mayor o un MELD ≥ 15.',
+        ],
+      },
     ],
     table: {
       title: 'Complicaciones del cirrótico — conducta clave',
@@ -1450,6 +1517,14 @@ module.exports = { gastroenterologiaClasses: [
         paragraphs: [
           'Colesterolínicos (los más frecuentes): pequeños (&lt; 10 mm), múltiples, homogéneos → seguimiento ecográfico.',
           'Sospecha de pólipo neoplásico → colecistectomía: pólipo ≥ 10 mm, único, sésil o heterogéneo, de crecimiento rápido, en &gt; 50 años o asociado a colelitiasis o a colangitis esclerosante primaria. Ante sospecha de cáncer de vesícula invasor, la cirugía es abierta (colecistectomía radical), no laparoscópica.',
+        ],
+      },
+      {
+        subhead: '5. Biopsia hepática, cáncer de vesícula y de vías biliares',
+        paragraphs: [
+          '<strong>Biopsia hepática (nivel: derivar):</strong> en una lesión focal se indica solo cuando la imagen no es concluyente (en un cirrótico con lesión típica de hepatocarcinoma no se biopsia). <strong>Está contraindicada ante la sospecha de quiste hidatídico</strong> (riesgo de diseminación y anafilaxia), de lesión vascular (hemangioma) o con coagulopatía no corregible; en ese caso se usa la vía transyugular. La realiza el especialista, guiada por ecografía o TAC.',
+          '<strong>Cáncer de vesícula biliar (nivel: sospecha, tratamiento inicial, derivar):</strong> adenocarcinoma asociado a colelitiasis de larga data (cálculos grandes), vesícula en porcelana, pólipos &gt; 1 cm y anomalías de la unión biliopancreática; Chile tiene una incidencia de las más altas del mundo, con predominio femenino. Es silente: dolor en el hipocondrio derecho, baja de peso, ictericia o masa indican enfermedad avanzada, y muchas veces es un <strong>hallazgo en la pieza de la colecistectomía</strong>. Si invade solo la mucosa (T1a) basta la colecistectomía; desde T1b se hace <strong>colecistectomía radical</strong> (resección hepática en cuña y linfadenectomía). La colecistectomía preventiva en la colelitiasis sintomática de 35 a 49 años está garantizada por el GES.',
+          '<strong>Cáncer de vías biliares (colangiocarcinoma):</strong> se presenta como <strong>ictericia progresiva indolora con prurito</strong>. Es intrahepático, <strong>hiliar</strong> (tumor de Klatskin, el más frecuente; vesícula colapsada) o distal (vesícula palpable, como en el páncreas). Factores de riesgo: colangitis esclerosante primaria, quiste de colédoco y litiasis intrahepática. Estudio: ecografía, colangiorresonancia y CA 19-9; el tratamiento es la resección si es posible, y si no, drenaje biliar paliativo con prótesis.',
         ],
       },
     ],
@@ -1637,6 +1712,13 @@ module.exports = { gastroenterologiaClasses: [
           '<strong>Pancreatitis biliar:</strong> colecistectomía en el mismo ingreso una vez resuelto el episodio leve; <strong>CPRE urgente (&lt; 24 h)</strong> solo si hay colangitis asociada u obstrucción biliar persistente.',
         ],
       },
+      {
+        subhead: '5. Pancreatitis crónica',
+        paragraphs: [
+          '<strong>Concepto y causas (nivel: sospecha, tratamiento inicial, derivar):</strong> inflamación crónica con fibrosis y pérdida progresiva de la función exocrina y endocrina. La causa más frecuente es el <strong>alcohol</strong> (junto con el tabaco); otras: genética (PRSS1, CFTR), hipertrigliceridemia, hipercalcemia, obstrucción (estenosis, páncreas divisum) y autoinmune (IgG4). <strong>Clínica:</strong> dolor epigástrico crónico o en crisis, irradiado al dorso, que empeora con la comida; con los años aparecen <strong>esteatorrea</strong> y baja de peso (insuficiencia exocrina) y <strong>diabetes</strong>. Tríada clásica: calcificaciones pancreáticas + esteatorrea + diabetes.',
+          '<strong>Diagnóstico y tratamiento inicial:</strong> la amilasa y la lipasa suelen ser normales. Se diagnostica por imágenes: <strong>calcificaciones en la radiografía o la TAC</strong> (casi patognomónicas), atrofia con conducto de Wirsung dilatado, y elastasa fecal baja. Tratamiento: <strong>abstinencia de alcohol y tabaco</strong>, dieta fraccionada con grasa moderada, <strong>enzimas pancreáticas con cada comida</strong>, vitaminas liposolubles y B₁₂, insulina si hay diabetes, y analgesia escalonada (paracetamol, luego tramadol u opioides). Si el dolor es refractario, hay estenosis del colédoco o seudoquiste sintomático, se deriva para endoscopía o cirugía. Tiene mayor riesgo de cáncer de páncreas, por lo que un cambio del dolor o baja de peso rápida obliga a re-estudiar.',
+        ],
+      },
     ],
     table: {
       title: 'Dolor epigástrico agudo — cómo se separa la pancreatitis de sus imitadores',
@@ -1821,6 +1903,13 @@ module.exports = { gastroenterologiaClasses: [
           'Diferenciales del dolor abdominal desproporcionado: pancreatitis (lipasa), aneurisma aórtico roto (masa pulsátil, hipotensión, TAC), cetoacidosis diabética, porfiria.',
         ],
       },
+      {
+        subhead: '5. Abdomen agudo en el adulto mayor',
+        paragraphs: [
+          '<strong>Por qué es distinto (nivel: diagnóstico específico, tratamiento inicial, derivar):</strong> en el adulto mayor el abdomen agudo se presenta de manera <strong>atípica y tardía</strong>: el dolor es menos intenso y mal localizado, a menudo sin fiebre ni leucocitosis y con defensa muscular escasa; puede debutar como <strong>delirium</strong>, caída o deterioro funcional. Los corticoides, los AINE y la diabetes enmascaran los signos. Por eso la mortalidad es varias veces mayor que en el joven y se retrasa el diagnóstico.',
+          '<strong>Causas más frecuentes y conducta:</strong> colecistitis y colangitis, obstrucción intestinal (bridas, hernias, cáncer de colon, vólvulo), diverticulitis, apendicitis (frecuentemente ya perforada), úlcera perforada e <strong>isquemia mesentérica</strong> (fibrilación auricular, ateroesclerosis), además de causas extradigestivas (infarto inferior, aneurisma aórtico). Conducta: ABC, hidratación, analgesia, exámenes (hemograma, lactato, lipasa, ECG) y <strong>TAC de abdomen precoz</strong> con alto umbral para operar; ante peritonitis o sospecha de isquemia, cirugía sin esperar.',
+        ],
+      },
     ],
     table: {
       title: 'Abdomen agudo vascular — las tres entidades',
@@ -1907,6 +1996,13 @@ module.exports = { gastroenterologiaClasses: [
         paragraphs: [
           'Causas: enfermedad diverticular (la causa más frecuente de HDB masiva), angiodisplasias (adulto mayor), cáncer de colon, hemorroides internas; divertículo de Meckel en el niño.',
           '<strong>No masiva (estable):</strong> preparación de colon → colonoscopía en 24 h. <strong>Masiva (inestable):</strong> colonoscopía urgente → si no localiza, endoscopía digestiva alta ("regla del 10 %") → angio-TAC/angiografía (puede embolizar) → cintigrafía con glóbulos rojos marcados para sangrados lentos → cirugía (habitualmente hemicolectomía derecha) si todo falla y el paciente sigue inestable.',
+        ],
+      },
+      {
+        subhead: '5. Tumores del intestino delgado',
+        paragraphs: [
+          '<strong>Tumores del intestino delgado (nivel: sospecha, tratamiento inicial, derivar):</strong> son raros (menos del 5 % de los tumores digestivos) y de diagnóstico tardío. Los principales: <strong>adenocarcinoma</strong> (más en Crohn, celiaquía y poliposis), <strong>tumor neuroendocrino o carcinoide</strong> (el más frecuente en el íleon; sus metástasis hepáticas dan el síndrome carcinoide con rubor, diarrea y broncoespasmo; se mide el ácido 5-hidroxiindolacético urinario), <strong>linfoma</strong> (celiaquía refractaria) y <strong>GIST</strong>. Se presentan como anemia, hemorragia digestiva baja oculta o recurrente, dolor cólico u obstrucción intestinal.',
+          '<strong>Estudio y conducta:</strong> cuando la endoscopía alta y la colonoscopía son normales en una hemorragia oscura se estudia el delgado con <strong>cápsula endoscópica</strong>, enteroscopía, enteroTAC o enteroRM. El tratamiento es la resección quirúrgica con linfadenectomía; los tumores neuroendocrinos metastásicos se manejan con análogos de somatostatina, y el GIST con imatinib. El médico general sospecha ante una anemia ferropénica o hemorragia sin causa y deriva.',
         ],
       },
     ],
@@ -1997,6 +2093,12 @@ module.exports = { gastroenterologiaClasses: [
         paragraphs: [
           'Alimento impactado en el esófago: si el paciente puede tragar líquidos y no tiene dolor → observar hasta 24 h. Si no traga líquidos, tiene dolor o lleva &gt; 24 h → endoscopía para desimpactar. Tras el episodio conviene estudiar el esófago (esofagitis eosinofílica, estenosis, anillo).',
           'Si un cuerpo extraño distal produce obstrucción intestinal o perforación, el tratamiento es quirúrgico. No se debe hacer la maniobra de Heimlich por un cuerpo extraño digestivo (solo se usa en la obstrucción completa de la vía aérea).',
+        ],
+      },
+      {
+        subhead: '5. Otras causas de afagia aguda',
+        paragraphs: [
+          '<strong>Afagia o disfagia aguda (urgencia; nivel: diagnóstico específico, tratamiento inicial, derivar):</strong> la impactación alimentaria no es la única causa. Considerar: <strong>esofagitis infecciosa</strong> (Candida, herpes, citomegalovirus) en inmunosuprimidos o con VIH, con odinofagia intensa; <strong>esofagitis por pastillas</strong> (doxiciclina, bifosfonatos, potasio) y <strong>cáustica</strong>; esofagitis eosinofílica con impactaciones repetidas en el adulto joven atópico; <strong>causas orofaríngeas</strong> (absceso periamigdalino o retrofaríngeo, epiglotitis, angioedema o anafilaxia) y neurológicas (ACV de tronco, miastenia). Primero se evalúa la <strong>vía aérea</strong> y la capacidad de manejar la saliva; luego se orienta por el contexto y se pide endoscopía urgente si hay sialorrea, dolor torácico o sospecha de perforación.',
         ],
       },
     ],
@@ -2092,6 +2194,14 @@ module.exports = { gastroenterologiaClasses: [
           'Alergia a la proteína de leche de vaca: lactante con síntomas gastrointestinales (diarrea crónica, reflujo, sangre en las deposiciones, lesiones perianales) y alérgicos (exantema, sibilancias). Diagnóstico por prueba terapéutica: fórmula extensamente hidrolizada (o dieta materna sin lácteos) por 2–4 semanas → mejora → se reintroduce y reaparecen los síntomas = confirmado. No hay test sanguíneo validado.',
         ],
       },
+      {
+        subhead: '5. Parasitológico seriado, otras enteroparasitosis y fibrosis quística',
+        paragraphs: [
+          '<strong>Cómo se interpreta el parasitológico seriado (nivel: interpretar y emplear):</strong> se piden <strong>3 muestras en días alternos</strong> (un solo examen pierde casos, sobre todo de Giardia), con conservante; en una diarrea líquida se busca además el trofozoíto en fresco. Se informan <strong>quistes o trofozoítos</strong> (Giardia, Entamoeba) y <strong>huevos</strong> (Ascaris, Trichuris). Los <strong>oxiuros</strong> no se ven bien aquí: se usa el <strong>test de Graham</strong> (cinta adhesiva en la región perianal, por la mañana). La larva de Strongyloides requiere técnica especial. Un resultado positivo se trata; uno negativo con alta sospecha se repite.',
+          '<strong>Otras enteroparasitosis del niño y de la parasitosis intestinal:</strong> <strong>oxiuriasis</strong> (prurito anal nocturno, vulvovaginitis, irritabilidad): albendazol o mebendazol, repetir a las 2 semanas y tratar a toda la familia con higiene de manos y uñas. <strong>Ascariasis</strong>: dolor cólico, tos y eosinofilia en la fase pulmonar (Löffler); puede obstruir el intestino o la vía biliar; albendazol. <strong>Tricocefalosis</strong>: diarrea con moco, anemia y prolapso rectal en la infestación intensa. <strong>Teniasis</strong>: proglótidos en las deposiciones; praziquantel. Todas se previenen con agua segura, lavado de manos y eliminación de excretas.',
+          '<strong>Fibrosis quística, manejo inicial (nivel: sospecha, tratamiento inicial, derivar):</strong> se sospecha en el lactante con <strong>diarrea crónica con esteatorrea</strong>, mal incremento ponderal pese a buen apetito, infecciones respiratorias repetidas, prolapso rectal, antecedente de íleo meconial y sabor salado de la piel. El diagnóstico es el <strong>test del sudor</strong> (cloro &gt; 60 mmol/L) confirmado con estudio genético. Conducta: derivar a un centro especializado y, mientras tanto, <strong>enzimas pancreáticas con cada comida</strong>, vitaminas A, D, E y K, dieta hipercalórica con sal, kinesioterapia respiratoria y vacunas al día.',
+        ],
+      },
     ],
     table: {
       title: 'Diarrea crónica del lactante — orientación diagnóstica',
@@ -2181,6 +2291,14 @@ module.exports = { gastroenterologiaClasses: [
         paragraphs: [
           'Constipación funcional: &lt; 3 deposiciones por semana, duras y dolorosas, con un círculo vicioso (dolor → retención → más constipación). El fecaloma es la causa más frecuente de masa abdominal en pediatría y produce encopresis y pseudoincontinencia (rebosamiento). Diagnóstico: examen abdominal y tacto rectal (con testigo y registro).',
           'Manejo en dos fases en orden: (1) <strong>desimpactación con polietilenglicol oral</strong> (de elección), o enema; (2) mantenimiento con laxante osmótico por al menos 4 semanas + hábito de sentarse tras las comidas + fibra y agua. Siempre descartar organicidad (enfermedad de Hirschsprung si hubo retraso en la eliminación del meconio).',
+        ],
+      },
+      {
+        subhead: '5. Enema evacuador, somatización y encopresis',
+        paragraphs: [
+          '<strong>Proctoclisis o enema evacuador (nivel: realizar):</strong> niño en decúbito lateral izquierdo con las rodillas flexionadas; sonda rectal lubricada introducida 3–5 cm (menos en el lactante) y solución fisiológica tibia, 10 mL/kg, que pasa lentamente por gravedad; luego se mantienen juntos los glúteos unos minutos. <strong>No usar agua sola</strong> (hiponatremia) y evitar el enema de fosfato en menores de 2 años y en la enfermedad de Hirschsprung. Contraindicaciones: sospecha de obstrucción mecánica o abdomen agudo, enterocolitis necrotizante, neutropenia y cirugía anorrectal reciente.',
+          '<strong>Dolor abdominal funcional y somatización:</strong> se sospecha cuando el dolor es recurrente, periumbilical, sin signos de alarma y con un contexto de estrés (colegio, bullying, conflicto familiar, ausentismo). El manejo es <strong>validar el síntoma</strong> (el dolor es real), evitar exámenes innecesarios, explorar los estresores, llevar un diario de síntomas y mantener la asistencia escolar; se deriva a salud mental si hay un deterioro funcional importante o ansiedad o depresión.',
+          '<strong>Encopresis:</strong> escape involuntario de deposición en un niño de 4 años o más, casi siempre <strong>retentiva</strong> (rebosamiento por un fecaloma). Además de la desimpactación y el laxante, el manejo es <strong>conductual</strong>: sentarlo en el baño 5–10 minutos después de las comidas, con apoyo para los pies, registro de logros con refuerzo positivo y <strong>sin castigo ni reproche</strong>. Se deriva a salud mental si hay problemas de conducta o de ánimo asociados, o si no responde.',
         ],
       },
     ],
@@ -2273,6 +2391,15 @@ module.exports = { gastroenterologiaClasses: [
           'Enfermedad de Hirschsprung: retraso en la eliminación del meconio (&gt; 48 h) + distensión y constipación; se confirma con biopsia rectal (ausencia de células ganglionares) → resección del segmento agangliónico. Ano imperforado: diagnóstico por inspección; siempre examinar el ano del recién nacido.',
         ],
       },
+      {
+        subhead: '5. Estudios radiológicos y megacolon',
+        paragraphs: [
+          '<strong>Radiografía de abdomen simple (nivel: interpretar y emplear):</strong> se revisa el patrón de gas, los niveles hidroaéreos y el aire fuera de la luz. <strong>«Doble burbuja»</strong> (estómago y duodeno distendidos sin gas distal) = atresia duodenal; <strong>ausencia de gas distal</strong> con asas dilatadas = obstrucción intestinal; <strong>neumatosis</strong> o gas en la vena porta = enterocolitis necrotizante; <strong>neumoperitoneo</strong> (aire bajo el diafragma, signo de Rigler) = perforación. Un abdomen sin gas puede indicar vólvulo o peritonitis.',
+          '<strong>Radiografía de esófago-estómago-duodeno (nivel: emplear informe):</strong> en el pediatra es el examen de la <strong>anatomía</strong>, no del reflujo. Se pide <strong>de urgencia ante vómitos biliosos</strong> del recién nacido o lactante para descartar <strong>malrotación con vólvulo</strong> (el duodeno no cruza la línea media y el ángulo de Treitz queda a la derecha, con aspecto «en tirabuzón»), una emergencia quirúrgica. También se usa si hay duda de estenosis hipertrófica del píloro o de una estenosis esofágica.',
+          '<strong>Enema baritada (nivel: emplear informe):</strong> en la sospecha de <strong>Hirschsprung</strong> muestra el segmento distal estrecho, una <strong>zona de transición en cono</strong> y el intestino dilatado por encima, con retención del bario a las 24 horas; se hace sin preparación previa (sin enemas ni tacto) y <strong>no reemplaza a la biopsia rectal</strong>, que confirma el diagnóstico. En el íleo meconial o la atresia ileal se observa un microcolon.',
+          '<strong>Megacolon:</strong> es la dilatación del colon, con tres escenarios. <strong>Congénito (Hirschsprung)</strong> por aganglionosis. <strong>Chagásico</strong> en el adulto de zona endémica, por destrucción de los plexos mientéricos: constipación crónica, fecaloma y vólvulo del sigmoides (se descomprime por rectosigmoidoscopía y se opera). <strong>Tóxico</strong> en la colitis ulcerosa o por <em>C. difficile</em> (colon transverso &gt; 6 cm con fiebre y shock): régimen cero, sonda nasogástrica, corticoides y antibióticos endovenosos y cirugía si no mejora; no se hace enema baritada ni colonoscopía. Se suma la pseudoobstrucción aguda (Ogilvie) en pacientes graves.',
+        ],
+      },
     ],
     table: {
       title: 'Cirugía pediátrica digestiva — clave diagnóstica única',
@@ -2362,6 +2489,13 @@ module.exports = { gastroenterologiaClasses: [
         paragraphs: [
           'Cerrado y por arma blanca: clínica + radiografía de tórax y manejo de las complicaciones: neumotórax y hemotórax con tubo pleural, contusión pulmonar con soporte respiratorio, taponamiento con pericardiocentesis/ventana.',
           '<strong>Indicaciones de toracotomía:</strong> hemotórax masivo (&gt; 1.500 mL de salida inicial por el tubo o &gt; 200 mL/h por 2–4 h), taponamiento, lesión de grandes vasos o de la vía aérea, y todo trauma torácico por arma de fuego.',
+        ],
+      },
+      {
+        subhead: '5. Neumotórax hipertensivo',
+        paragraphs: [
+          '<strong>Neumotórax hipertensivo (nivel: diagnóstico específico, tratamiento completo):</strong> es una urgencia <strong>clínica</strong>, que no se confirma con radiografía. Tras un trauma o una ventilación con presión positiva aparecen disnea progresiva, <strong>hipotensión y taquicardia</strong>, ingurgitación yugular, murmullo vesicular abolido y <strong>timpanismo</strong> en un hemitórax; la desviación de la tráquea hacia el lado sano es un signo tardío. El aire atrapado comprime el mediastino y reduce el retorno venoso.',
+          '<strong>Tratamiento:</strong> descompresión inmediata con una aguja o un catéter grueso (14–16 G) en el <strong>5.º espacio intercostal, por delante de la línea axilar media</strong> (o el 2.º espacio en la línea medioclavicular), sobre el borde superior de la costilla; luego un <strong>tubo pleural</strong> definitivo con sello de agua y oxígeno. Después se pide la radiografía y se maneja la causa (trauma, fístula, barotrauma).',
         ],
       },
     ],

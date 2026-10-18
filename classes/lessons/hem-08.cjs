@@ -64,11 +64,16 @@ module.exports = {
         { show: ['mut'], note: 'La hemolítica congénita más frecuente en caucásicos',
           say: 'Empecemos por la esferocitosis hereditaria, la anemia hemolítica congénita más frecuente en población de origen caucásico. En tres de cada cuatro casos se hereda en forma autosómica dominante, así que casi siempre hay un padre afectado. El defecto está en proteínas del citoesqueleto: espectrina, anquirina, banda tres o proteína cuatro punto dos.' },
         { show: ['per', 'esf'], note: 'Menos membrana, mismo contenido: una esfera',
-          say: 'Sin un buen andamio, el glóbulo va perdiendo trozos de membrana cada vez que pasa por un capilar. Con menos membrana y el mismo contenido, el disco se transforma en una esfera pequeña, rígida y densa. Eso es el esferocito, que en el frotis se ve sin el halo pálido central.' },
+          say: 'Sin un buen andamio, el glóbulo va perdiendo trozos de membrana cada vez que pasa por un capilar. Con menos membrana y el mismo contenido, el disco se transforma en una esfera pequeña, rígida y densa. Eso es el esferocito, que en el frotis se ve sin el halo pálido central: mira estos esferocitos, pequeños y redondos. Y este esquema muestra cómo se pierde la membrana.',
+          photos: [
+            { src: 'biblioteca/06_hematologia/hem-08/01_esferocitosis-hereditaria__amir-hemato_p34.jpg', label: 'Esferocitos', at: 'mira estos esferocitos', credit: 'Manual AMIR Hematología, p. 34' },
+            { src: 'biblioteca/06_hematologia/hem-08/02_patogenia-esferocitosis_1__cto-hemato_p30.jpg', label: 'Patogenia esferocitosis', at: 'Y este esquema', credit: 'Manual CTO Hematología 14.ª ed., p. 30' },
+          ] },
         { show: ['baz'], note: 'Cordones de Billroth: donde se atrapa el esferocito',
           say: 'Y una esfera rígida no puede pasar por los cordones del bazo. Queda atrapada y se destruye ahí. Por eso el bazo crece: la esplenomegalia es parte del cuadro.' },
         { show: ['ict', 'lit'], note: 'Tríada: anemia, ictericia y cálculos en un joven',
-          say: 'La destrucción crónica genera bilirrubina indirecta, lo que da ictericia fluctuante, muchas veces desde la etapa neonatal. Y esa bilirrubina, año tras año, forma cálculos pigmentarios. Por eso el dato clásico del examen es la colelitiasis en un adolescente o adulto joven, con bazo palpable y un padre operado de la vesícula.' },
+          say: 'La destrucción crónica genera bilirrubina indirecta, lo que da ictericia fluctuante, muchas veces desde la etapa neonatal. Y esa bilirrubina, año tras año, forma cálculos pigmentarios. Por eso el dato clásico del examen es la colelitiasis en un adolescente o adulto joven, con bazo palpable y un padre operado de la vesícula. En esta ecografía, la piedra brilla dentro de la vesícula y deja una sombra negra detrás.',
+          photo: { src: 'biblioteca/06_hematologia/hem-08/01_colelitiasis-eco__cto-radiologia_p44.jpg', label: 'Colelitiasis en la ecografía', at: 'En esta ecografía', credit: 'Manual CTO Radiología 14.ª ed., p. 44' } },
       ],
     },
 
@@ -120,9 +125,11 @@ module.exports = {
         { show: ['gat'], note: 'Sin gatillante no hay crisis',
           say: 'El problema aparece con un oxidante. El clásico son las habas frescas, y de ahí el nombre de favismo. También las infecciones, y fármacos como primaquina, sulfonamidas, nitrofurantoína, dapsona y ácido nalidíxico. Esa lista se pregunta.' },
         { show: ['hei'], note: 'La hemoglobina oxidada precipita en la membrana',
-          say: 'Con el glutatión agotado, la hemoglobina se oxida y precipita en agregados pegados a la membrana. Esos son los cuerpos de Heinz.' },
+          say: 'Con el glutatión agotado, la hemoglobina se oxida y precipita en agregados pegados a la membrana. Esos son los cuerpos de Heinz: mira estos puntos azules dentro de los glóbulos. Se ven con una tinción especial, no con el frotis habitual.',
+          photo: { src: 'biblioteca/06_hematologia/hem-08/03_cuerpos-de-heinz__harrison_p470.jpg', label: 'Cuerpos de Heinz', at: 'mira estos puntos azules', credit: 'Harrison\'s Principles of Internal Medicine, 21st ed., p. 470' } },
         { show: ['mor', 'cri'], note: 'Heinz y células mordidas: la firma del frotis',
-          say: 'Cuando el glóbulo pasa por el bazo, los macrófagos le arrancan esos cuerpos de Heinz y lo dejan con una muesca: la célula mordida, o degmacito. Y el paciente hace una crisis hemolítica aguda, con orina oscura por hemoglobinuria, días después de comer habas o tomar el fármaco.' },
+          say: 'Cuando el glóbulo pasa por el bazo, los macrófagos le arrancan esos cuerpos de Heinz y lo dejan con una muesca: la célula mordida, o degmacito; en esta imagen, la flecha marca la muesca. Y el paciente hace una crisis hemolítica aguda, con orina oscura por hemoglobinuria, días después de comer habas o tomar el fármaco.',
+          photo: { src: 'biblioteca/06_hematologia/hem-08/atlas_018_deficit_de_g6pd_celulas_mordid.jpg', label: 'Célula mordida', at: 'en esta imagen', credit: 'Atlas EUNACOM 2026' } },
       ],
     },
 
@@ -145,6 +152,7 @@ module.exports = {
         ] },
       ],
     },
+
 
     {
       type: 'flow',
@@ -203,6 +211,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Cómo se confirma',
+      title: 'Demostrar la hemólisis y buscar la causa',
+      cards: [
+        { title: 'Primero, la hemólisis', tag: 'Siempre', kind: 'key', items: [
+          { t: 'Reticulocitos, LDH y bilirrubina indirecta altas', d: 'Haptoglobina baja',
+            say: 'Antes de buscar la causa, tienes que demostrar que hay hemólisis. Anemia con reticulocitos altos, LDH elevada, bilirrubina indirecta alta y haptoglobina baja.' },
+          { t: 'Intravascular: hemoglobinuria o hemosiderinuria', d: 'Orina oscura, hierro en el sedimento',
+            say: 'Si la hemólisis es intravascular, se suma hemoglobina en la orina o hemosiderina en el sedimento. Eso orienta sobre todo a la HPN y a la crisis de G seis PD.' },
+        ] },
+        { title: 'Después, la prueba de la causa', tag: 'Coombs negativo', kind: 'criteria', items: [
+          { t: 'Esferocitosis: EMA o fragilidad osmótica', d: 'Frotis con esferocitos, CHCM alta',
+            say: 'En la esferocitosis, el frotis muestra esferocitos sin Coombs. Se confirma con la fragilidad osmótica o con la unión de eosina maleimida por citometría, que es la prueba más moderna.' },
+          { t: 'G6PD: Heinz en la crisis, enzima después', d: 'Actividad cuantitativa a los 2–3 meses',
+            say: 'En el déficit de G seis PD, durante la crisis ves células mordidas y cuerpos de Heinz. La actividad enzimática se mide dos a tres meses después, porque en plena crisis puede salir falsamente normal.' },
+          { t: 'HPN: citometría CD55 y CD59', d: 'Coombs negativo, hemosiderinuria, trombosis',
+            say: 'En la HPN, la citometría de flujo para CD cincuenta y cinco y cincuenta y nueve. Piensa en ella con Coombs negativo, hemosiderinuria y una trombosis en un sitio raro, como las venas hepáticas.' },
+        ] },
+        { title: 'La conducta no espera', tag: 'Ojo', kind: 'alert', items: [
+          { t: 'Confirmar y derivar, sin retrasar', d: 'Suspender el oxidante, hidratar, transfundir',
+            say: 'Estas pruebas especiales se usan para confirmar y derivar al hematólogo. No retrasan lo urgente: se suspende el oxidante, se hidrata y se transfunde si el paciente está inestable.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -216,36 +250,7 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Esferocitosis hereditaria',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-08/01_esferocitosis-hereditaria__amir-hemato_p34.jpg', label: 'Esferocitos', credit: 'Manual AMIR Hematología, p. 34' },
-        { src: 'biblioteca/06_hematologia/hem-08/01_colelitiasis-eco__cto-radiologia_p44.jpg', label: 'Colelitiasis en la ecografía', credit: 'Manual CTO Radiología 14.ª ed., p. 44' },
-      ],
-      steps: [
-        { note: 'Sin palidez central',
-          say: 'Los esferocitos son pequeños, redondos y sin palidez central. Se rompen en el bazo.' },
-        { note: 'Cálculos en un joven',
-          say: 'Y la bilirrubina de esa destrucción, año tras año, forma cálculos. En la ecografía, la piedra brilla dentro de la vesícula y deja una sombra negra detrás. Colelitiasis en un joven con bazo grande: piensa en esferocitosis.' },
-      ],
-    },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-08/02_patogenia-esferocitosis_1__cto-hemato_p30.jpg', label: 'Patogenia esferocitosis', credit: 'Manual CTO Hematología 14.ª ed., p. 30' },
-      ],
-      steps: [
-        { note: 'Patogenia esferocitosis',
-          say: 'Mira esta imagen: patogenia esferocitosis. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-      ],
-    },
 
     {
       type: 'pathway',

@@ -32,7 +32,8 @@ module.exports = {
         { show: ['tc'], note: 'Tripanosomiasis americana',
           say: 'Partamos por el germen. La enfermedad de Chagas, o tripanosomiasis americana, la produce el Trypanosoma cruzi, un protozoo que circula en la sangre. En Chile es endémica entre la primera y la sexta región.' },
         { show: ['dom'], note: 'La vía clásica ya no es la principal',
-          say: 'Clásicamente se transmitía por la vinchuca domiciliaria, el Triatoma infestans. Pero Chile logró interrumpir esa transmisión dentro de las casas en mil novecientos noventa y nueve. Por eso, si una alternativa te dice que hoy la vía más frecuente es la vinchuca, desconfía.' },
+          say: 'Clásicamente se transmitía por la vinchuca domiciliaria, el Triatoma infestans. Mira esta vinchuca. Pero Chile logró interrumpir esa transmisión dentro de las casas en mil novecientos noventa y nueve. Por eso, si una alternativa te dice que hoy la vía más frecuente es la vinchuca, desconfía.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-15/02_vinchuca__commons.jpg', label: 'Vinchuca', at: 'Mira esta vinchuca', credit: 'Wikimedia Commons, dominio público' } },
         { show: ['con'], note: 'El dato que más se pregunta',
           say: 'Hoy la vía predominante en Chile es la congénita: la madre con Chagas crónico, muchas veces sin saberlo, transmite el parásito al hijo a través de la placenta. Este dato es el que explica todo el tamizaje que veremos enseguida.' },
         { show: ['sil'], note: 'Queda un vector en zonas rurales',
@@ -86,7 +87,8 @@ module.exports = {
         { show: ['nin'], note: 'Cuando da síntomas, suele ser en niños',
           say: 'En los niños, en cambio, puede dar un síndrome febril prolongado con hepatoesplenomegalia, y a veces una lesión en el sitio de entrada del parásito en la piel, el chagoma de inoculación.' },
         { show: ['rom'], note: 'El parásito entró por la conjuntiva',
-          say: 'Y el signo más famoso de la puerta de entrada es el signo de Romaña: un edema de ambos párpados de un solo ojo, indoloro, con una adenopatía preauricular. Es lo que pasa cuando el rascado lleva el parásito a la conjuntiva, tal como vimos en el mecanismo.' },
+          say: 'Y el signo más famoso de la puerta de entrada es el signo de Romaña. Mira este ojo: un edema de ambos párpados de un solo ojo, indoloro, con una adenopatía preauricular. Es lo que pasa cuando el rascado lleva el parásito a la conjuntiva, tal como vimos en el mecanismo.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-15/01_signo_romana__cdc.jpg', label: 'Signo de Romaña', at: 'Mira este ojo', credit: 'CDC, CC0' } },
         { show: ['ind'], note: 'Serología positiva, todo lo demás normal',
           say: 'Después viene la fase crónica indeterminada, o latente. El paciente tiene la IgG positiva, pero no tiene síntomas, y su electrocardiograma y radiografías son normales.' },
         { show: ['nop'], note: 'La mayoría se queda aquí',
@@ -103,7 +105,8 @@ module.exports = {
       cards: [
         { title: 'Cardiopatía chagásica', tag: 'Fibrosis miocárdica', kind: 'alert', items: [
           { t: 'BCRD + hemibloqueo anterior izquierdo', d: 'El hallazgo clásico del ECG',
-            say: 'En el corazón, el parásito produce fibrosis del miocardio, y eso daña el sistema de conducción. El hallazgo clásico del electrocardiograma es el bloqueo completo de rama derecha asociado a un hemibloqueo anterior izquierdo. Si ves esa combinación en un paciente del norte, piensa en Chagas.' },
+            say: 'En el corazón, el parásito produce fibrosis del miocardio, y eso daña el sistema de conducción. El hallazgo clásico del electrocardiograma, como en este trazado, es el bloqueo completo de rama derecha asociado a un hemibloqueo anterior izquierdo. Si ves esa combinación en un paciente del norte, piensa en Chagas.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-15/03_ecg_brd_hbai__ecg-basics_p119.jpg', label: 'ECG: BCRD + HBAI', at: 'como en este trazado', credit: 'ECG from Basics to Essentials, p. 119' } },
           { t: 'Arritmias ventriculares e IC', d: 'Insuficiencia cardíaca',
             say: 'Además da arritmias ventriculares e insuficiencia cardíaca.' },
         ] },
@@ -113,7 +116,8 @@ module.exports = {
           { t: 'Megacolon', d: 'Constipación severa, fecalomas, vólvulo de sigmoides',
             say: 'El megacolon da una constipación severa, que puede durar semanas, con fecalomas recurrentes, y puede complicarse con un vólvulo de sigmoides.' },
           { t: 'Megaesófago', d: 'Disfagia progresiva y regurgitación, como acalasia',
-            say: 'Y el megaesófago da disfagia progresiva y regurgitación, un cuadro muy parecido a la acalasia.' },
+            say: 'Y el megaesófago, como ves en esta imagen, da disfagia progresiva y regurgitación, un cuadro muy parecido a la acalasia.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-15/02_megaesofago_chagas__commons.jpg', label: 'Megaesófago', at: 'como ves en esta imagen', credit: 'Wikimedia Commons «Chagas megaseophagus.JPG», Public domain, autor en Commons' } },
         ] },
       ],
     },
@@ -217,6 +221,30 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Miocardiopatías',
+      title: 'Miocardiopatías: dónde cae el Chagas',
+      cards: [
+        { title: 'Dilatada', tag: 'FEVI bajo 40 %', kind: 'key', items: [
+          { t: 'Alcohol, viral, periparto, Chagas', d: 'Antraciclinas, taquicardiomiopatía',
+            say: 'Las miocardiopatías son enfermedades del músculo cardíaco. En la dilatada, con fracción de eyección bajo cuarenta por ciento, las causas son alcohol, virus, periparto, antraciclinas y el Chagas.' },
+          { t: 'Chagas: BRD + hemibloqueo anterior', d: 'Aneurisma apical',
+            say: 'El Chagas tiene firma: bloqueo de rama derecha con hemibloqueo anterior izquierdo y aneurisma apical.' },
+        ] },
+        { title: 'Hipertrófica y restrictiva', tag: 'Otras formas', kind: 'criteria', items: [
+          { t: 'Hipertrófica: septo ≥ 15 mm', d: 'Soplo que aumenta con Valsalva; muerte súbita',
+            say: 'La hipertrófica es hereditaria, con septo desde quince milímetros, soplo que aumenta con Valsalva y riesgo de síncope y muerte súbita en deportistas. Se evita la deshidratación, los vasodilatadores y el deporte competitivo.' },
+          { t: 'Restrictiva: amiloidosis, hemocromatosis', d: 'Insuficiencia derecha, ventrículos pequeños',
+            say: 'La restrictiva, por amiloidosis, hemocromatosis o sarcoidosis, da insuficiencia cardíaca derecha con ventrículos pequeños y aurículas grandes.' },
+        ] },
+        { title: 'Conducta', tag: 'Médico general', kind: 'pharma', items: [
+          { t: 'Iniciar tratamiento de insuficiencia cardíaca', d: 'IECA o ARA-II, betabloqueador, espironolactona',
+            say: 'El médico general inicia el manejo de la insuficiencia cardíaca, con IECA, betabloqueador, espironolactona y diurético, y deriva a cardiología.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -227,27 +255,6 @@ module.exports = {
       steps: [
         { note: 'Aguda: parásito; crónica: anticuerpos',
           say: 'La vinchuca transmite el parásito, y si llega a la conjuntiva aparece el signo de Romaña, un edema de los párpados de un solo ojo. En la fase aguda hay muchos parásitos en la sangre, y se buscan directamente. En la fase crónica, el treinta por ciento daña el corazón o el tubo digestivo, con cardiopatía chagásica o megaesófago, y el diagnóstico es con dos pruebas IgG de técnicas diferentes.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Enfermedad de Chagas',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-15/01_signo_romana__cdc.jpg', label: 'Signo de Romaña', credit: 'CDC, CC0' },
-        { src: 'biblioteca/07_infectologia/infecto-15/02_megaesofago_chagas__commons.jpg', label: 'Megaesófago', credit: 'Wikimedia Commons «Chagas megaseophagus.JPG», Public domain, autor en Commons' },
-        { src: 'biblioteca/07_infectologia/infecto-15/03_ecg_brd_hbai__ecg-basics_p119.jpg', label: 'ECG', credit: 'ECG from Basics to Essentials, p. 119' },
-      ],
-      steps: [
-        { note: 'Edema palpebral unilateral',
-          say: 'El signo de Romaña es el edema de un párpado en el sitio de la picadura. Es la fase aguda.' },
-        { note: 'Esófago muy dilatado',
-          say: 'En la fase crónica aparece el megaesófago.' },
-        { note: 'Bloqueo de rama derecha más hemibloqueo',
-          say: 'Y la miocardiopatía chagásica da bloqueo de rama derecha con hemibloqueo anterior izquierdo.' },
       ],
     },
 
@@ -342,6 +349,44 @@ module.exports = {
         options: 'Las opciones: cáncer de colon estenosante; Chagas crónico determinado; Hirschsprung del adulto; colitis ulcerosa; o colon irritable. Piénsalo.',
         answer: 'Es la B. Junta las piezas: zona endémica, un mega del tubo digestivo, y un bloqueo de rama derecha. Un solo diagnóstico explica el colon y el corazón a la vez: el Chagas crónico determinado. El cáncer de colon es el distractor, pero no explica el electrocardiograma. Y se confirma con dos serologías IgG, porque es una fase crónica.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2016 · Pregunta 41",
+      "stem": "Hombre de 40 años consulta por un síncope mientras jugaba fútbol, con recuperación completa. Además refiere disnea de esfuerzos que se inició hace 3 meses y ha aumentado lentamente. Su hermano murió súbitamente a los 25 años. Al examen físico se constata un soplo sistólico eyectivo, sin otras alteraciones.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tromboembolismo pulmonar"
+        },
+        {
+          "letter": "B",
+          "text": "Síndrome de Brugada"
+        },
+        {
+          "letter": "C",
+          "text": "Miocardiopatía hipertrófica"
+        },
+        {
+          "letter": "D",
+          "text": "Síncope disautonómico"
+        },
+        {
+          "letter": "E",
+          "text": "Síndrome de QT largo"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Síncope de esfuerzo, disnea, soplo sistólico eyectivo y un hermano con muerte súbita joven es la miocardiopatía hipertrófica clásica, principal causa de muerte súbita en deportistas jóvenes. Se confirma con ecocardiograma. El Brugada y el QT largo dan síncope y muerte súbita familiar, pero no un soplo.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil dieciséis. Hombre de cuarenta años que tuvo un síncope jugando fútbol, con recuperación completa, y que hace tres meses tiene disnea de esfuerzo progresiva. Su hermano murió súbitamente a los veinticinco años, y al examen tiene un soplo sistólico eyectivo.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: tromboembolismo pulmonar, síndrome de Brugada, miocardiopatía hipertrófica, síncope disautonómico, o QT largo. Piénsalo.",
+        "answer": "Es la C, miocardiopatía hipertrófica. Síncope durante el ejercicio, muerte súbita en un hermano joven y un soplo eyectivo son su tríada de examen. El Brugada tienta por la muerte súbita familiar, pero es una enfermedad eléctrica, con el corazón estructuralmente normal y sin soplo."
+      }
     },
 
     {

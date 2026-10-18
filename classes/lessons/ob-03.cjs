@@ -63,7 +63,8 @@ module.exports = {
         { show: ['des'], note: 'Su sola presencia ya es una alarma',
           say: 'Las desaceleraciones, en cambio, no deberían aparecer nunca en un registro basal. Si las ves, ya es una alarma.' },
         { show: ['rea'], note: 'Con esto, no necesitas nada más',
-          say: 'Cuando se cumplen los tres primeros criterios, tienes un registro reactivo, y eso te predice bienestar fetal con más de noventa y nueve por ciento de seguridad para la semana siguiente.' },
+          say: 'Cuando se cumplen los tres primeros criterios, tienes un registro reactivo, y eso te predice bienestar fetal con más de noventa y nueve por ciento de seguridad para la semana siguiente. Mira este registro real: arriba la frecuencia cardíaca con sus pequeñas subidas, y abajo las contracciones.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-03/01_rctg-normal-reactivo__cto-gyo_p171.jpg', label: 'Registro cardiotocográfico', at: 'Mira este registro real', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 171' } },
         { show: ['nor'], note: 'La causa más frecuente es benigna',
           say: 'Y si no aparecen aceleraciones, tienes un registro no reactivo. Antes de asustarte, piensa en la causa más común: el ciclo de sueño profundo del feto, que dura entre veinte y cuarenta minutos. Y si después de estimularlo y prolongar el registro sigue sin reactividad, ahí es cuando subes de nivel, con un perfil biofísico o con un Doppler fetal.' },
       ],
@@ -133,19 +134,6 @@ module.exports = {
           { t: '6, o 4 o menos', d: 'Sospecha de asfixia, hasta asfixia grave',
             say: 'Con seis, sospechas asfixia: si es de término, interrumpes; si es prematuro, repites el examen en veinticuatro horas o complementas con Doppler. Y con cuatro o menos, la probabilidad de asfixia grave es tan alta que la interrupción es inmediata, sin esperar nada más.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/14_obstetricia/ob-03/01_rctg-normal-reactivo__cto-gyo_p171.jpg', label: 'Registro cardiotocográfico normal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 171' },
-      ],
-      steps: [
-        { note: 'Registro cardiotocográfico normal',
-          say: 'Registro cardiotocográfico normal y reactivo.' },
       ],
     },
 
@@ -238,6 +226,81 @@ module.exports = {
         options: 'Las opciones: dejar a evolución espontánea, interrumpir ahora por cesárea, inducir el parto ahora, hacer cesárea al inicio del trabajo de parto, o inducir a las cuarenta y una semanas. Piénsalo.',
         answer: 'Es la C. El ocho sobre diez con oligoamnios, en un embarazo ya de cuarenta semanas, te dice que hay que interrumpir, porque esperar más solo suma riesgo. Pero no es un puntaje crítico como para exigir cesárea: puedes inducir el parto en este momento. Esperar hasta la semana cuarenta y uno, con el líquido ya bajo, es la trampa de este caso.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.5.005 · Evaluación anteparto",
+      "stem": "Embarazada de 36 semanas, sin patología, con controles normales y feto con crecimiento adecuado en la ecografía de las 32 semanas. Pregunta cómo debe vigilar el bienestar de su hijo en las semanas que faltan para el parto.",
+      "question": "¿Cuál es la indicación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Registro basal no estresante semanal desde ahora hasta el parto"
+        },
+        {
+          "letter": "B",
+          "text": "Perfil biofísico 2 veces por semana"
+        },
+        {
+          "letter": "C",
+          "text": "Doppler de arteria umbilical semanal"
+        },
+        {
+          "letter": "D",
+          "text": "Percepción y registro diario de los movimientos fetales, consultando de inmediato si disminuyen"
+        },
+        {
+          "letter": "E",
+          "text": "Ecografía de crecimiento cada semana"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En el embarazo de bajo riesgo la vigilancia anteparto se basa en los controles habituales y en la percepción materna de los movimientos fetales: ante su disminución debe consultar de inmediato para evaluación con registro basal no estresante. Las pruebas seriadas (RBNE, perfil biofísico, Doppler) se reservan para embarazos de alto riesgo, como RCF, diabetes, SHE o embarazo prolongado.",
+      "say": {
+        "stem": "Una embarazada sana de treinta y seis semanas, con controles normales y buen crecimiento fetal, pregunta cómo vigilar el bienestar de su hijo hasta el parto.",
+        "question": "¿Cuál es la indicación más adecuada?",
+        "options": "Las opciones: registro basal no estresante semanal, perfil biofísico dos veces por semana, Doppler umbilical semanal, controlar los movimientos fetales a diario y consultar si disminuyen o ecografía semanal. Piénsalo.",
+        "answer": "Es la D. En el bajo riesgo la vigilancia se basa en que la madre perciba los movimientos fetales y consulte si disminuyen. El registro semanal tienta porque parece más seguro, pero las pruebas seriadas se reservan para embarazos de alto riesgo."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.5.003 · Doppler materno-fetal",
+      "stem": "Embarazada de 34 semanas con feto de peso estimado en percentil 2. Doppler: arteria umbilical con índice de pulsatilidad sobre el percentil 95 con flujo diastólico presente, arteria cerebral media con índice de pulsatilidad bajo el percentil 5, índice cerebro-placentario bajo el percentil 5 y ductus venoso normal. Velocidad sistólica máxima de la arteria cerebral media normal.",
+      "question": "¿Qué indica el hallazgo en la arteria cerebral media?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anemia fetal severa"
+        },
+        {
+          "letter": "B",
+          "text": "Insuficiencia cardíaca fetal descompensada"
+        },
+        {
+          "letter": "C",
+          "text": "Hallazgo normal para la edad gestacional"
+        },
+        {
+          "letter": "D",
+          "text": "Malformación vascular cerebral"
+        },
+        {
+          "letter": "E",
+          "text": "Vasodilatación cerebral por hipoxemia (redistribución o centralización del flujo)"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En la insuficiencia placentaria la hipoxemia fetal provoca vasodilatación cerebral para proteger el cerebro: baja el índice de pulsatilidad de la arteria cerebral media y cae el índice cerebro-placentario (redistribución de flujo). La anemia fetal se evalúa con la velocidad sistólica máxima de la cerebral media, no con su pulsatilidad. La descompensación cardíaca se refleja en el ductus venoso alterado.",
+      "say": {
+        "stem": "Una embarazada de treinta y cuatro semanas tiene un feto en percentil dos, con resistencia aumentada en la arteria umbilical y pulsatilidad baja en la arteria cerebral media, con ductus venoso normal.",
+        "question": "¿Qué indica el hallazgo en la arteria cerebral media?",
+        "options": "Las opciones: anemia fetal, insuficiencia cardíaca fetal, un hallazgo normal, una malformación vascular o vasodilatación cerebral por hipoxemia. Piénsalo.",
+        "answer": "Es la E. Cuando falta oxígeno el feto dilata las arterias cerebrales para proteger el cerebro, y eso baja la pulsatilidad de la cerebral media. La anemia tienta porque también se estudia en esa arteria, pero se mide con la velocidad sistólica máxima, que aquí es normal."
+      }
     },
 
     {

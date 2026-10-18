@@ -20,7 +20,8 @@ module.exports = {
       cards: [
         { title: 'Clínica y diagnóstico', tag: 'Duele al defecar', kind: 'key', items: [
           { t: 'Desgarro por deposición dura', d: 'Dolor que persiste minutos + sangre al papel',
-            say: 'Partamos por la fisura. Es un desgarro del anodermo por una deposición dura. Duele intensamente al defecar, y el dolor persiste varios minutos porque el esfínter interno queda en espasmo. Sangra poco, manchando el papel. Se diagnostica con la inspección.' },
+            say: 'Partamos por la fisura. Es un desgarro del anodermo por una deposición dura. Duele intensamente al defecar, y el dolor persiste varios minutos porque el esfínter interno queda en espasmo. Sangra poco, manchando el papel. Se diagnostica con la inspección. Mira la flecha: es un desgarro lineal, casi siempre en la línea media posterior.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-12/02_fisura_anal_foto__commons.jpg', label: 'Fisura anal', at: 'Mira la flecha', credit: 'Wikimedia Commons «Anal fissure 1.jpg», Public domain, Bernardo Gui' } },
         ] },
         { title: 'Tratamiento', tag: 'Médico primero', kind: 'pharma', items: [
           { t: 'Baños de asiento + tratar constipación', d: 'Crónica > 6 semanas: esfinterotomía lateral interna',
@@ -38,13 +39,15 @@ module.exports = {
       cards: [
         { title: 'Hemorroide interno', tag: 'Sangra sin dolor', kind: 'normal', items: [
           { t: 'Hematoquecia indolora', d: 'Grados I a IV; descartar otras causas',
-            say: 'Ahora los hemorroides. El interno es lo contrario de la fisura: sangra sin dolor. Se clasifica de grado uno, que no protruye, a grado cuatro, irreductible. Es causa frecuente de hemorragia digestiva baja, pero siempre hay que descartar otras causas, como el cáncer que vimos en la clase anterior, con rectoscopía o colonoscopía.' },
+            say: 'Ahora los hemorroides. El interno es lo contrario de la fisura: sangra sin dolor. Se clasifica de grado uno, que no protruye, a grado cuatro, irreductible. Mira este prolapso hemorroidal: las hemorroides salen y no se pueden reducir, y ese grado ya es quirúrgico. Es causa frecuente de hemorragia digestiva baja, pero siempre hay que descartar otras causas, como el cáncer que vimos en la clase anterior, con rectoscopía o colonoscopía.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-12/01_prolapso-hemorroidal-grado-iv__cto-digestivo_p149.jpg', label: 'Hemorroides grado cuatro', at: 'Mira este prolapso', credit: 'Manual CTO Digestivo 14.ª ed., p. 149' } },
           { t: 'Ligadura elástica electiva', d: 'Grados avanzados: hemorroidectomía',
             say: 'Se trata con ligadura con banda elástica, en forma electiva, más tratar la constipación. En grados avanzados, hemorroidectomía.' },
         ] },
         { title: 'Hemorroide externo trombosado', tag: 'Dolor agudo', kind: 'alert', items: [
           { t: 'Nódulo violáceo doloroso', d: 'Trombectomía solo dentro de 48–72 h',
-            say: 'El hemorroide externo trombosado da dolor anal agudo con un nódulo violáceo visible. Baños de asiento siempre, y trombectomía solo si consulta dentro de las primeras cuarenta y ocho a setenta y dos horas. Después ya no aporta.' },
+            say: 'El hemorroide externo trombosado da dolor anal agudo con un nódulo violáceo visible. Baños de asiento siempre, y trombectomía solo si consulta dentro de las primeras cuarenta y ocho a setenta y dos horas. Después ya no aporta. Mira este hemorroide trombosado: un nódulo violáceo, tenso, en el margen anal.',
+            photos: [{ src: 'biblioteca/01_gastroenterologia/gastro-12/10_hemorroide-externo-trombosado__knoop_p258.jpg', label: 'Hemorroide trombosado', at: 'Mira este hemorroide trombosado', credit: 'Knoop, Atlas of Emergency Medicine, p. 258' }] },
           { t: 'Fluxión hemorroidal', d: 'Internos prolapsados y trombosados: cirugía',
             say: 'Distinto es la fluxión hemorroidal: hemorroides internos prolapsados y trombosados afuera, extremadamente dolorosos. Esa va a cirugía, urgente o electiva precoz.' },
         ] },
@@ -69,13 +72,15 @@ module.exports = {
       ],
       steps: [
         { show: ['abs'], note: 'Dolor progresivo, no súbito',
-          say: 'Ahora lo quirúrgico. El absceso perianal da un dolor anal que aumenta progresivamente, día a día, no de forma súbita, y una masa eritematosa y fluctuante.' },
+          say: 'Ahora lo quirúrgico. El absceso perianal da un dolor anal que aumenta progresivamente, día a día, no de forma súbita, y una masa eritematosa y fluctuante. Mira este absceso: una tumefacción roja perianal.',
+            photos: [{ src: 'biblioteca/01_gastroenterologia/gastro-12/11_absceso-perianal__knoop_p257.jpg', label: 'Absceso perianal', at: 'Mira este absceso', credit: 'Knoop, Atlas of Emergency Medicine, p. 257' }] },
         { show: ['dre'], note: 'Regla fija',
           say: 'Su tratamiento es el drenaje quirúrgico en pabellón. Los antibióticos solos no reemplazan el drenaje: una colección de pus no se cura con pastillas.' },
         { show: ['pel', 'rm'], note: 'El absceso profundo se ve distinto',
           say: 'Si el absceso es profundo, pelvirrectal o isquioanal, el paciente llega con sepsis y síntomas urinarios. Ahí se pide resonancia de pelvis, se drena en pabellón y se agregan antibióticos endovenosos. Aquí sí van los antibióticos.' },
         { show: ['fis', 'fto'], note: 'Secuela del absceso',
-          say: 'La fístula anal es la secuela de un absceso: un trayecto que comunica el canal anal con la piel, con un orificio que supura de forma crónica. El diagnóstico es clínico y el tratamiento es quirúrgico, con fistulotomía o sedal. Y en un paciente con fístulas perianales, recuerda pensar también en Crohn.' },
+          say: 'La fístula anal es la secuela de un absceso: un trayecto que comunica el canal anal con la piel, con un orificio que supura de forma crónica. El diagnóstico es clínico y el tratamiento es quirúrgico, con fistulotomía o sedal. Mira este esquema: son los trayectos de las fístulas perianales, que nacen de una glándula anal infectada. Y en un paciente con fístulas perianales, recuerda pensar también en Crohn.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-12/02_fistulas-perianales__cto-digestivo_p150.jpg', label: 'Fístulas perianales', at: 'Mira este esquema', credit: 'Manual CTO Digestivo 14.ª ed., p. 150' } },
       ],
     },
 
@@ -95,21 +100,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Patología anal',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Qué es cada cosa en el canal anal',
       images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-12/01_prolapso-hemorroidal-grado-iv__cto-digestivo_p149.jpg', label: 'Hemorroides grado cuatro', credit: 'Manual CTO Digestivo 14.ª ed., p. 149' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-12/02_fisura_anal_foto__commons.jpg', label: 'Fisura anal', credit: 'Wikimedia Commons «Anal fissure 1.jpg», Public domain, Bernardo Gui' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-12/02_fistulas-perianales__cto-digestivo_p150.jpg', label: 'Fístulas perianales', credit: 'Manual CTO Digestivo 14.ª ed., p. 150' },
+        { src: 'animaciones/gastro-12/A1_patologia_anal.mp4', label: 'Región anal', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Prolapso que no se reduce',
-          say: 'Este es un prolapso hemorroidal grado cuatro: las hemorroides salen y no se pueden reducir. Ese grado ya es quirúrgico.' },
-        { note: 'Desgarro en la línea media posterior',
-          say: 'La flecha muestra una fisura anal: un desgarro lineal, casi siempre en la línea media posterior. Duele mucho al defecar, y eso la distingue de las hemorroides.' },
-        { note: 'Trayectos desde el canal anal',
-          say: 'Y este esquema muestra los trayectos de las fístulas perianales, que nacen de una glándula anal infectada.' },
+        { note: 'Hemorroide, fisura y fístula',
+          say: 'Ubiquemos cada cosa. Las hemorroides son los cojinetes vasculares del canal: sangran sin dolor. La fisura es una herida longitudinal en la mucosa, dolorosa, y se maneja con tratamiento médico. Y la fístula es un trayecto desde el canal hasta la piel, que se maneja con cirugía. Fisura no es fístula.' },
       ],
     },
 

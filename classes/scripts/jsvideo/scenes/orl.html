@@ -1,0 +1,791 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Otorrinolaringología sobre ilustración real (Servier Medical Art CC BY 4.0 y Blausen.com staff 2014 CC BY 3.0).
+// Una escena por clase: ?v=oma (orl-01) · ?v=...  Coordenadas en píxeles de la imagen fuente; Plate.P las lleva al cuadro.
+const V = new URLSearchParams(location.search).get('v') || 'oma';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+const SV = 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios';
+const BL = 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios';
+const AS = '../assets/';
+const SCENES = {};
+function def(name, dur, imgs, cred, fn) { SCENES[name] = { dur, imgs, cred, fn }; }
+
+// lámina: recorte (sx,sy,sw,sh) de la imagen `key`, dibujado en (dx,dy) con ancho dw sobre tarjeta blanca
+function Plate(key, sx, sy, sw, sh, dx, dy, dw, bg = '#FFFFFF') {
+  const s = dw / sw, dh = sh * s;
+  const P = (x, y) => [dx + (x - sx) * s, dy + (y - sy) * s];
+  const clip = () => { ctx.beginPath(); ctx.roundRect(dx, dy, dw, dh, 14); ctx.clip(); };
+  const draw = (a = 1) => { ctx.save(); ctx.globalAlpha = a; rrect(dx - 6, dy - 6, dw + 12, dh + 12, 18, bg);
+    ctx.beginPath(); ctx.roundRect(dx, dy, dw, dh, 14); ctx.clip(); ctx.drawImage(I(key), sx, sy, sw, sh, dx, dy, dw, dh); ctx.restore(); };
+  return { key, sx, sy, sw, sh, dx, dy, dw, dh, s, P, clip, draw };
+}
+// polígono en coordenadas de imagen → ruta del lienzo
+function path(pl, pts, close = true) { ctx.beginPath(); pts.forEach((p, i) => { const [x, y] = pl.P(...p); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); if (close) ctx.closePath(); }
+function fillPoly(pl, pts, col, a = 1) { if (a <= 0) return; ctx.save(); pl.clip(); ctx.globalAlpha = a; path(pl, pts); ctx.fillStyle = col; ctx.fill(); ctx.restore(); }
+function strokePoly(pl, pts, col, w, a = 1, close = false, dash) { if (a <= 0) return; ctx.save(); pl.clip(); ctx.globalAlpha = a; path(pl, pts, close); ctx.strokeStyle = col; ctx.lineWidth = w; ctx.lineJoin = 'round'; ctx.lineCap = 'round'; if (dash) ctx.setLineDash(dash); ctx.stroke(); ctx.restore(); }
+// rótulo con línea guía
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function arrow(x1, y1, x2, y2, col, a = 1, w = 4) {
+  if (a <= 0) return; const ang = Math.atan2(y2 - y1, x2 - x1), h = 7 + w * 1.6;
+  ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = w; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2 - Math.cos(ang) * h * 0.6, y2 - Math.sin(ang) * h * 0.6); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(x2, y2); ctx.lineTo(x2 - Math.cos(ang - 0.45) * h, y2 - Math.sin(ang - 0.45) * h); ctx.lineTo(x2 - Math.cos(ang + 0.45) * h, y2 - Math.sin(ang + 0.45) * h); ctx.closePath(); ctx.fill(); ctx.restore();
+}
+// puntos que viajan por un camino (px de lienzo): n puntos, velocidad sp (vueltas/s)
+function dots(pth, t, a, col, n = 8, sp = 0.3, r = 3.5, s0 = 0, s1 = 1, rev = false) {
+  if (a <= 0) return; ctx.save(); ctx.fillStyle = col;
+  for (let i = 0; i < n; i++) { const u = ((t * sp) + i / n) % 1, [x, y] = pth.at(rev ? lerp(s1, s0, u) : lerp(s0, s1, u)); ctx.globalAlpha = a * Math.min(1, u * 6, (1 - u) * 6); ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); }
+  ctx.restore();
+}
+// dispersión de puntos dentro de una caja (bacterias, células): determinista
+function swarm(pl, box, n, t, col, a, r = 3, seed = 1, drift = 6) {
+  if (a <= 0) return; ctx.save(); pl.clip(); ctx.fillStyle = col;
+  for (let i = 0; i < n; i++) { const x = lerp(box[0], box[2], rnd(i * 3 + seed)) + Math.sin(t * 1.3 + i) * drift, y = lerp(box[1], box[3], rnd(i * 3 + seed + 1)) + Math.cos(t * 1.1 + i * 1.7) * drift;
+    const [X, Y] = pl.P(x, y); ctx.globalAlpha = a * (0.55 + 0.45 * Math.sin(t * 2 + i)); ctx.beginPath(); ctx.arc(X, Y, r, 0, 7); ctx.fill(); }
+  ctx.restore();
+}
+function pulse(t, f = 3) { return 0.5 + 0.5 * Math.sin(t * f); }
+function xmark(x, y, r, col, a) { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.lineWidth = 6; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(x - r, y - r); ctx.lineTo(x + r, y + r); ctx.moveTo(x + r, y - r); ctx.lineTo(x - r, y + r); ctx.stroke(); ctx.restore(); }
+function ring(x, y, r, col, a, w = 4) { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.lineWidth = w; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.stroke(); ctx.restore(); }
+function ell(x, y, rx, ry, col, a, rot = 0) { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = col; ctx.beginPath(); ctx.ellipse(x, y, rx, ry, rot, 0, 7); ctx.fill(); ctx.restore(); }
+function drop(x, y, a, col) { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = col; ctx.beginPath(); ctx.moveTo(x, y - 7); ctx.quadraticCurveTo(x + 5.5, y + 1.5, x, y + 5); ctx.quadraticCurveTo(x - 5.5, y + 1.5, x, y - 7); ctx.fill(); ctx.restore(); }
+function credit(s) { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(660, 696, 620, 24); text(s, 1268, 712, 13, C.MUTED, '', 'right'); }
+
+// ================= orl-01 · OMA: trompa tapada → efusión → pus → tímpano abombado =================
+def('oma', 26, { ear: 'servier/Oreille.png' }, SV, t => {
+  K.title('Otitis media aguda', 'Del resfrío al tímpano abombado', C.AMBER);
+  const pl = Plate('ear', 520, 300, 700, 700, 40, 140, 540); pl.draw(seg(t, 0, 0.7));
+  const TUBE = [[850, 610], [880, 660], [915, 710], [970, 800], [1060, 920], [1170, 1040]];
+  const CAV = [[757, 395], [790, 380], [835, 392], [860, 430], [868, 520], [890, 545], [930, 560], [945, 600], [915, 660], [880, 692], [838, 690], [836, 640], [800, 610], [780, 560], [758, 520], [752, 450]];
+  const tubePx = poly(TUBE.map(p => pl.P(...p)));
+  // 1) resfrío: virus suben por la trompa y la mucosa se edematiza
+  const sw = ease(seg(t, 1.5, 3));
+  if (sw > 0) { ctx.save(); pl.clip(); ctx.globalAlpha = 0.6 * sw; ctx.lineCap = 'round'; tubePx.stroke(ctx, 0, 0.8, 20, 'rgba(255,60,50,0.6)'); ctx.restore(); }
+  dots(tubePx, t, fade(t, 0.8, 5.5), '#7B3FE0', 9, 0.18, 4.5, 0.1, 0.9, true);
+  label('Trompa de Eustaquio', 150, 640, C.BLUE, ...pl.P(1000, 850), fade(t, 1.2, 10));
+  label('Resfrío: mucosa edematosa', 150, 600, C.RED, ...pl.P(940, 760), fade(t, 2.6, 9));
+  const [xx, xy] = pl.P(905, 690); xmark(xx, xy, 14, C.RED, seg(t, 4.6, 0.4) * (1 - seg(t, 12, 0.6)));
+  // 2) presión negativa: tímpano se retrae, sale trasudado seroso
+  if (t > 6) { ctx.save(); pl.clip(); path(pl, CAV); ctx.clip();
+    const lvl = lerp(692, 590, ease(seg(t, 6, 3.5))) - 150 * ease(seg(t, 10.5, 4)), pus = ease(seg(t, 10.5, 3.5));
+    const mix = (a, b) => Math.round(lerp(a, b, pus));
+    ctx.fillStyle = `rgba(${mix(255, 255)},${mix(205, 232)},${mix(80, 120)},${0.62 + 0.25 * pus})`; ctx.fillRect(pl.dx, pl.P(0, lvl)[1], pl.dw, pl.dh); ctx.restore(); }
+  arrow(...pl.P(715, 575), ...pl.P(762, 560), C.BLUE, fade(t, 6.2, 9.5), 4);
+  label('Presión negativa: tímpano retraído', 190, 215, C.BLUE, ...pl.P(762, 540), fade(t, 6.4, 10));
+  // 3) bacterias en el líquido
+  swarm(pl, [770, 430, 920, 680], 26, t, '#2E7D32', seg(t, 9, 1.2), 3.6, 4);
+  label('Neumococo, Haemophilus, Moraxella', 200, 255, C.GREEN, ...pl.P(840, 520), fade(t, 9.2, 15));
+  // 4) pus a presión: el tímpano se abomba
+  const bulge = ease(seg(t, 13.5, 4.5)), A = [748, 508], B = [836, 686], ctl = [lerp(792, 664, bulge), lerp(597, 600, bulge)];
+  if (bulge > 0) { ctx.save(); pl.clip(); const [ax, ay] = pl.P(...A), [bx, by] = pl.P(...B), [cx, cy] = pl.P(...ctl);
+    ctx.beginPath(); ctx.moveTo(ax, ay); ctx.quadraticCurveTo(cx, cy, bx, by); ctx.closePath(); ctx.fillStyle = 'rgba(255,226,120,0.9)'; ctx.fill();
+    ctx.strokeStyle = `rgba(230,40,30,${0.6 + 0.4 * pulse(t, 4)})`; ctx.lineWidth = 6; ctx.beginPath(); ctx.moveTo(ax, ay); ctx.quadraticCurveTo(cx, cy, bx, by); ctx.stroke(); ctx.restore(); }
+  label('Tímpano abombado = OMA', 170, 470, C.RED, ...pl.P(718, 598), seg(t, 16.8, 0.6));
+  const dolor = seg(t, 17.5, 0.5), ph = (t * 1.2) % 1; if (dolor > 0) ring(...pl.P(718, 598), 16 + 30 * ph, C.RED, dolor * (1 - ph), 3);
+  // panel
+  K.card(640, 150, 600, 118, C.RED, 'La trompa se tapa con el resfrío', ['Presión negativa y trasudado seroso', 'Bacterias suben desde la nariz'], seg(t, 1.8, 0.5), 18);
+  K.card(640, 282, 600, 118, C.AMBER, 'Pus a presión detrás del tímpano', ['Neumococo, Haemophilus, Moraxella', 'Otalgia, fiebre, llanto'], seg(t, 9.5, 0.5), 18);
+  K.card(640, 414, 600, 156, C.GREEN, 'Tres criterios de OMA', ['Inicio agudo de síntomas', 'Efusión en el oído medio', 'Inflamación del tímpano'], seg(t, 15.5, 0.5), 18);
+  K.banner(640, 590, 600, 'Tímpano abombado: es OMA', C.RED, seg(t, 20.5, 0.5));
+});
+
+// ================= orl-02 · colesteatoma: bolsillo de retracción → saco de queratina → erosión ósea =================
+def('colesteatoma', 27, { ear: 'servier/Oreille.png' }, SV, t => {
+  K.title('Colesteatoma', 'Epitelio queratinizante que come hueso', C.RED);
+  const pl = Plate('ear', 480, 250, 700, 700, 40, 140, 540); pl.draw(seg(t, 0, 0.7));
+  // bolsillo de retracción en la pars flaccida (arriba del tímpano)
+  const pk = ease(seg(t, 0.8, 3));
+  if (pk > 0) { ctx.save(); pl.clip(); const [ax, ay] = pl.P(738, 498), [bx, by] = pl.P(776, 470), [cx, cy] = pl.P(752, 476 - 12 * pk);
+    ctx.beginPath(); ctx.moveTo(ax, ay); ctx.quadraticCurveTo(cx - 6, cy + 26 * (1 - pk), bx, by); ctx.lineTo(bx + 6, by + 26); ctx.closePath(); ctx.fillStyle = 'rgba(245,225,205,0.95)'; ctx.fill(); ctx.restore(); }
+  label('Bolsillo de retracción', 150, 285, C.AMBER, ...pl.P(752, 484), fade(t, 1.4, 6));
+  // saco de queratina que crece hacia el ático y el antro mastoideo
+  const g = ease(seg(t, 3.5, 6.5)); const cx0 = lerp(770, 705, g), cy0 = lerp(465, 425, g), rx = lerp(8, 70, g), ry = lerp(8, 44, g);
+  if (g > 0) { ctx.save(); pl.clip(); const [x, y] = pl.P(cx0, cy0);
+    ctx.fillStyle = 'rgba(250,246,238,0.96)'; ctx.strokeStyle = '#B9A98F'; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.ellipse(x, y, rx * pl.s, ry * pl.s, -0.35, 0, 7); ctx.fill(); ctx.stroke();
+    ctx.strokeStyle = 'rgba(190,175,150,0.8)'; ctx.lineWidth = 1.6; for (let k = 1; k <= 3; k++) { ctx.beginPath(); ctx.ellipse(x, y, rx * pl.s * (1 - k * 0.22), ry * pl.s * (1 - k * 0.22), -0.35, 0, 7); ctx.stroke(); } ctx.restore(); }
+  label('Escamas de queratina que se acumulan', 190, 190, '#E9E2D2', ...pl.P(700, 410), fade(t, 4.5, 10));
+  // colagenasas
+  swarm(pl, [650, 380, 780, 470], 14, t, '#FFB020', seg(t, 8.5, 1) * (1 - seg(t, 14, 1)), 3, 11, 5);
+  // erosión de huesecillos
+  const er = seg(t, 9.5, 2);
+  if (er > 0) { const [ix, iy] = pl.P(850, 500); ring(ix, iy, 22 + 4 * pulse(t, 5), C.RED, er * fade(t, 9.5, 13.5, 0.3) + 0.0, 4);
+    ctx.save(); pl.clip(); ctx.globalAlpha = 0.45 * er; ctx.fillStyle = '#FF3B30'; const [ox, oy] = pl.P(805, 470); ctx.beginPath(); ctx.ellipse(ox, oy, 26 * pl.s, 46 * pl.s, 0, 0, 7); ctx.fill(); ctx.restore(); }
+  label('Huesecillos: hipoacusia severa', 150, 300, C.RED, ...pl.P(805, 480), fade(t, 9.8, 13.8));
+  // nervio facial
+  const fa = fade(t, 13.8, 17.8); if (fa > 0) { const [fx, fy] = pl.P(878, 462); ring(fx, fy, 18 + 14 * ((t * 1.1) % 1), C.AMBER, fa * (1 - ((t * 1.1) % 1)), 4); ell(fx, fy, 7, 7, C.AMBER, fa); }
+  label('Canal del nervio facial: parálisis', 200, 590, C.AMBER, ...pl.P(878, 462), fade(t, 14, 18));
+  // canal semicircular lateral
+  const fi = fade(t, 17.8, 21.8); if (fi > 0) { const [sx, sy] = pl.P(905, 395); ring(sx, sy, 18 + 14 * ((t * 1.1) % 1), C.VIOLET, fi * (1 - ((t * 1.1) % 1)), 4); ell(sx, sy, 7, 7, C.VIOLET, fi); }
+  label('Fístula del canal semicircular: vértigo', 190, 260, C.VIOLET, ...pl.P(905, 395), fade(t, 18, 22));
+  // tegmen tympani
+  const te = seg(t, 21.8, 0.8); if (te > 0) { ctx.save(); pl.clip(); ctx.strokeStyle = C.RED; ctx.lineWidth = 5; ctx.lineCap = 'round'; ctx.beginPath(); [[770, 372], [786, 366], [798, 376], [812, 366], [826, 374]].forEach(([x, y], i) => { const [X, Y] = pl.P(x, y); i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); }); ctx.stroke(); ctx.restore(); }
+  label('Tegmen: meningitis o absceso cerebral', 250, 175, C.RED, ...pl.P(798, 372), seg(t, 22, 0.6));
+  // panel
+  K.card(640, 150, 600, 100, C.AMBER, 'Epitelio escamoso en el oído medio', ['Colagenasas y citoquinas: osteolítico'], seg(t, 3.5, 0.5), 18);
+  K.card(640, 264, 600, 130, C.RED, 'Orden de la destrucción', ['1. Huesecillos: hipoacusia', '2. Nervio facial: parálisis periférica'], seg(t, 9.5, 0.5), 18);
+  K.card(640, 408, 600, 130, C.VIOLET, 'Y si sigue avanzando', ['3. Canal semicircular: fístula y vértigo', '4. Tegmen: meningitis, absceso'], seg(t, 17.5, 0.5), 18);
+  K.banner(640, 560, 600, 'No es un tumor, pero se opera siempre', C.RED, seg(t, 23.2, 0.5));
+});
+
+// ================= orl-03 · otitis externa difusa → maligna (diabético): conducto → hueso → base de cráneo =================
+def('otitisext', 28, { ear: 'servier/Oreille.png' }, SV, t => {
+  K.title('Otitis externa', 'Del oído del nadador a la osteomielitis del peñasco', C.AMBER);
+  const pl = Plate('ear', 320, 430, 790, 600, 40, 150, 570); pl.draw(seg(t, 0, 0.7));
+  const CAN = [[325, 505], [505, 497], [735, 502], [835, 688], [675, 657], [540, 642], [400, 648], [325, 655]];
+  // 1) difusa: agua, maceración, edema del conducto (tímpano indemne)
+  const ed = ease(seg(t, 1, 3)) * (1 - 0.0);
+  if (ed > 0) { ctx.save(); pl.clip(); path(pl, CAN); ctx.lineWidth = 18 * ed; ctx.strokeStyle = 'rgba(255,70,60,0.55)'; ctx.stroke(); ctx.restore(); }
+  swarm(pl, [340, 520, 700, 640], 18, t, '#6AA8FF', fade(t, 0.6, 3.4) , 3.4, 21, 7);
+  swarm(pl, [380, 540, 700, 640], 16, t, '#2E7D32', seg(t, 3, 1) * (1 - seg(t, 9, 1)) , 3.4, 22, 4);
+  label('Agua y maceración: Pseudomonas', 190, 350, '#6AA8FF', ...pl.P(450, 560), fade(t, 1, 6));
+  label('Conducto edematoso, tímpano indemne', 190, 400, C.RED, ...pl.P(600, 525), fade(t, 3.5, 9));
+  // signo del trago
+  const tr = fade(t, 5.5, 9); if (tr > 0) { const [tx, ty] = pl.P(335, 590); arrow(tx - 40, ty + 34, tx - 12, ty + 8, C.AMBER, tr, 4); ring(tx, ty, 14 + 12 * ((t * 1.3) % 1), C.RED, tr * (1 - ((t * 1.3) % 1)), 3); }
+  label('Dolor al tirar del pabellón', 190, 450, C.AMBER, ...pl.P(335, 590), fade(t, 5.8, 9));
+  // 2) maligna: diabético, granulación en el piso (unión cartílago-hueso)
+  const gr = ease(seg(t, 10, 2.5));
+  if (gr > 0) { ctx.save(); pl.clip(); for (const [x, y, r] of [[520, 636, 15], [556, 640, 18], [598, 646, 14]]) { const [X, Y] = pl.P(x, y); ctx.fillStyle = 'rgba(214,92,100,0.95)'; ctx.strokeStyle = '#8A2A33'; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(X, Y - 3, r * pl.s * gr, 0, 7); ctx.fill(); ctx.stroke(); } ctx.restore(); }
+  label('Diabético: granulación en el piso', 190, 350, C.RED, ...pl.P(556, 642), fade(t, 10.5, 16));
+  // 3) el hueso: osteomielitis hacia la base del cráneo
+  const sp = ease(seg(t, 13, 6)); const BONE = [[520, 660], [690, 690], [780, 760], [860, 850], [980, 930]];
+  const bp = poly(BONE.map(p => pl.P(...p)));
+  if (sp > 0) { ctx.save(); pl.clip(); ctx.lineCap = 'round'; bp.stroke(ctx, 0, sp, 20, 'rgba(255,60,50,0.5)'); bp.stroke(ctx, 0, sp, 7, 'rgba(255,200,60,0.9)'); ctx.restore();
+    const [ax, ay] = bp.at(sp); ell(ax, ay, 9 + 3 * pulse(t, 6), 9 + 3 * pulse(t, 6), '#FFD54A', 1); }
+  label('Osteomielitis del peñasco', 190, 400, C.RED, ...pl.P(690, 700), fade(t, 13.5, 20));
+  const f7 = fade(t, 15.2, 22.5); if (f7 > 0) { const [fx, fy] = pl.P(790, 770); ring(fx, fy, 14 + 14 * ((t * 1.1) % 1), C.AMBER, f7 * (1 - ((t * 1.1) % 1)), 4); ell(fx, fy, 6, 6, C.AMBER, f7); }
+  label('Nervio facial: se afecta primero', 190, 450, C.AMBER, ...pl.P(790, 770), fade(t, 15.4, 22.5));
+  label('Base del cráneo: IX, X, XI', 190, 500, C.VIOLET, ...pl.P(955, 915), fade(t, 18.5, 24));
+  // panel
+  K.card(640, 150, 600, 120, C.AMBER, 'Difusa: oído del nadador', ['Conducto edematoso, dolor al tirar la oreja', 'Gotas de ciprofloxacino, sin antibiótico oral'], seg(t, 1.5, 0.5), 18);
+  K.card(640, 284, 600, 120, C.RED, 'Maligna: diabético mayor', ['Dolor nocturno intenso y otorrea', 'Pseudomonas invade el hueso'], seg(t, 10, 0.5), 18);
+  K.card(640, 418, 600, 120, C.VIOLET, 'Cómo se confirma', ['TAC de peñasco con contraste', 'Cintigrafía para seguir la actividad'], seg(t, 18, 0.5), 18);
+  K.banner(640, 560, 600, 'Hospitalizar: antibiótico endovenoso 6 a 8 semanas', C.RED, seg(t, 23, 0.5));
+});
+
+// ================= orl-04 · mastoiditis: pus → celdas → absceso subperióstico / complicaciones intracraneales =================
+def('mastoiditis', 27, { ear: 'servier/Oreille.png' }, SV, t => {
+  K.title('Mastoiditis aguda', 'El pus que no tiene por dónde salir busca el hueso', C.RED);
+  const pl = Plate('ear', 330, 100, 700, 700, 40, 140, 540); pl.draw(seg(t, 0, 0.7));
+  const CAV = [[757, 395], [790, 380], [835, 392], [860, 430], [868, 520], [890, 545], [930, 560], [945, 600], [915, 660], [880, 692], [838, 690], [836, 640], [800, 610], [780, 560], [758, 520], [752, 450]];
+  const HC = [[505, 200], [600, 185], [700, 260], [740, 350], [738, 470], [640, 482], [560, 430], [500, 330]];
+  // 1) otitis media: pus en el oído medio
+  fillPoly(pl, CAV, 'rgba(255,224,110,0.9)', ease(seg(t, 0.8, 2)));
+  label('Otitis media aguda: pus', 170, 640, C.AMBER, ...pl.P(820, 470), fade(t, 1, 5.5));
+  // 2) por el aditus ad antrum hacia las celdas mastoideas
+  const sp = ease(seg(t, 3.5, 5.5));
+  if (sp > 0) { ctx.save(); pl.clip(); path(pl, HC); ctx.clip(); const [x, y] = pl.P(745, 430); ctx.fillStyle = 'rgba(255,214,90,0.8)'; ctx.beginPath(); ctx.arc(x, y, 300 * sp * pl.s, 0, 7); ctx.fill(); ctx.restore();
+    strokePoly(pl, [[800, 420], [760, 430], [725, 430]], 'rgba(255,214,90,0.95)', 10, seg(t, 3.5, 1)); }
+  label('Aditus ad antrum', 170, 215, C.BLUE, ...pl.P(765, 428), fade(t, 4, 9));
+  // 3) presión, necrosis isquémica, coalescencia: celdas que se funden
+  const co = ease(seg(t, 8.5, 3));
+  if (co > 0) { ctx.save(); pl.clip(); path(pl, HC); ctx.clip(); const [x, y] = pl.P(620, 340); const g = ctx.createRadialGradient(x, y, 0, x, y, 150 * pl.s);
+    g.addColorStop(0, `rgba(255,205,70,${0.95 * co})`); g.addColorStop(1, 'rgba(255,205,70,0)'); ctx.fillStyle = g; ctx.fillRect(pl.dx, pl.dy, pl.dw, pl.dh); ctx.restore();
+    const pu = pulse(t, 5); strokePoly(pl, HC, `rgba(255,60,50,${(0.5 + 0.4 * pu) * co})`, 4, 1, true); }
+  label('Coalescente: las celdas se funden', 170, 520, C.RED, ...pl.P(610, 340), fade(t, 9, 14.5));
+  // 4) hacia afuera: rompe la cortical y forma el absceso subperióstico
+  const ab = ease(seg(t, 12, 3.5));
+  arrow(...pl.P(520, 320), ...pl.P(450, 300), C.RED, seg(t, 11.5, 0.6) * (1 - seg(t, 18, 0.6)), 5);
+  if (ab > 0) { ctx.save(); pl.clip(); const [x, y] = pl.P(425, 300); ctx.fillStyle = 'rgba(255,214,90,0.95)'; ctx.strokeStyle = '#D04A3A'; ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.ellipse(x, y, 42 * ab * pl.s, 70 * ab * pl.s, 0.1, 0, 7); ctx.fill(); ctx.stroke(); ctx.restore(); }
+  label('Absceso subperióstico: oreja despegada', 230, 600, C.RED, ...pl.P(425, 330), fade(t, 14, 20));
+  const dp = fade(t, 15.2, 20); if (dp > 0) { const [ax, ay] = pl.P(380, 300); arrow(ax + 2, ay - 70, ax - 40, ay - 90, C.AMBER, dp, 4); }
+  // 5) hacia adentro: seno sigmoide, meninges, cerebelo
+  const ic = fade(t, 18.5, 25); if (ic > 0) { const [sx, sy] = pl.P(640, 250); ring(sx, sy, 20 + 10 * pulse(t, 4), C.VIOLET, ic, 4); ell(sx, sy, 7, 7, '#2B2F5E', ic);
+    arrow(...pl.P(690, 215), ...pl.P(790, 150), C.VIOLET, ic, 4); }
+  label('Seno sigmoide: delta vacío', 170, 660, C.VIOLET, ...pl.P(640, 250), fade(t, 18.8, 25));
+  label('Meningitis y absceso cerebral', 410, 190, C.VIOLET, ...pl.P(790, 150), fade(t, 19.2, 25));
+  // panel
+  K.card(640, 150, 600, 120, C.AMBER, 'Toda otitis inflama la mastoides', ['Normal: no es mastoiditis', 'Mastoiditis: pus a presión, lisis de trabéculas'], seg(t, 3.8, 0.5), 18);
+  K.card(640, 284, 600, 120, C.RED, 'Hacia afuera', ['Absceso subperióstico retroauricular', 'Surco borrado, pabellón desplazado'], seg(t, 12, 0.5), 18);
+  K.card(640, 418, 600, 120, C.VIOLET, 'Hacia adentro', ['Meningitis, absceso cerebral', 'Tromboflebitis del seno sigmoide'], seg(t, 18.5, 0.5), 18);
+  K.banner(640, 560, 600, 'Toda mastoiditis se hospitaliza', C.RED, seg(t, 22.5, 0.5));
+});
+
+// ================= orl-05 · audiograma: normal, conducción, sensorioneural, mixta (+ Weber y Rinne) =================
+def('audiograma', 28, { head: 'servier/Sinus.png' }, SV, t => {
+  K.title('Audiometría tonal', 'La brecha óseo-aérea decide el tipo de sordera', C.BLUE);
+  // gráfico
+  const X0 = 120, DX = 74, Y0 = 190, DY = 4.3, FR = ['125', '250', '500', '1000', '2000', '4000', '8000'];
+  const X = i => X0 + i * DX, Y = d => Y0 + d * DY;
+  rrect(40, 140, 590, 520, 16, '#141A22');
+  ctx.save(); ctx.fillStyle = 'rgba(61,220,132,0.12)'; ctx.fillRect(X(0) - 20, Y(0), X(6) - X(0) + 40, 25 * DY); ctx.restore();
+  for (let d = 0; d <= 100; d += 20) { ctx.strokeStyle = C.GRID; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(X(0) - 20, Y(d)); ctx.lineTo(X(6) + 20, Y(d)); ctx.stroke(); text(String(d), X(0) - 34, Y(d) + 5, 14, C.MUTED, '', 'right'); }
+  FR.forEach((f, i) => { ctx.strokeStyle = C.GRID; ctx.beginPath(); ctx.moveTo(X(i), Y(0)); ctx.lineTo(X(i), Y(100)); ctx.stroke(); text(f, X(i), Y(100) + 24, 14, C.MUTED, '', 'center'); });
+  text('Frecuencia (Hz)', (X(0) + X(6)) / 2, Y(100) + 48, 15, C.MUTED, '', 'center'); text('dB', 56, 176, 15, C.MUTED);
+  text('Normal: hasta 25 dB', X(6) + 14, Y(22), 14, C.GREEN, 'bold', 'right');
+  // estados: [aire], [hueso]
+  const ST = [
+    { a: [10, 8, 10, 5, 10, 15, 15], b: [8, 6, 8, 5, 8, 12, 12] },
+    { a: [45, 45, 40, 40, 35, 30, 30], b: [8, 6, 8, 5, 8, 12, 12] },
+    { a: [25, 30, 40, 50, 60, 70, 75], b: [22, 27, 36, 47, 56, 66, 70] },
+    { a: [50, 55, 60, 70, 75, 85, 90], b: [20, 25, 30, 40, 45, 55, 60] },
+  ];
+  const T = [0, 6.2, 13.2, 20.2], D = 2.4;
+  const m = [0, 1, 2, 3].map((k, j) => j === 0 ? 1 - ease(seg(t, T[1], D)) : ease(seg(t, T[j], D)) * (j < 3 ? 1 - ease(seg(t, T[j + 1], D)) : 1));
+  const cur = k => ST[0][k].map((_, i) => ST.reduce((s, st, j) => s + m[j] * st[k][i], 0));
+  const A = cur('a'), B = cur('b'), rev = ease(seg(t, 2.5, 3));
+  const n = Math.max(1, Math.round(rev * 6) + 1), part = (arr) => arr.slice(0, n).map((v, i) => [X(i) + (i === n - 1 ? (rev * 6 - (n - 1)) * DX * 0 : 0), Y(v)]);
+  const gap = A.map((v, i) => v - B[i]), g = clamp((gap.reduce((s, v) => s + v, 0) / 7 - 8) / 18, 0, 1);
+  if (g > 0 && rev >= 1) { ctx.save(); ctx.globalAlpha = 0.5 * g; ctx.fillStyle = C.AMBER; ctx.beginPath(); B.forEach((v, i) => i ? ctx.lineTo(X(i), Y(v)) : ctx.moveTo(X(i), Y(v))); for (let i = 6; i >= 0; i--) ctx.lineTo(X(i), Y(A[i])); ctx.closePath(); ctx.fill(); ctx.restore();
+    text('Brecha óseo-aérea', X(3), Y((A[3] + B[3]) / 2) + 5, 16, C.INK, 'bold', 'center'); }
+  const drawCurve = (arr, col, shape) => { const pts = part(arr); ctx.strokeStyle = col; ctx.lineWidth = 3.5; ctx.lineJoin = 'round'; ctx.beginPath(); pts.forEach(([x, y], i) => i ? ctx.lineTo(x, y) : ctx.moveTo(x, y)); ctx.stroke();
+    pts.forEach(([x, y]) => { ctx.fillStyle = '#141A22'; ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.beginPath(); if (shape === 'o') ctx.arc(x, y, 7, 0, 7); else ctx.rect(x - 6, y - 6, 12, 12); ctx.fill(); ctx.stroke(); }); };
+  drawCurve(B, C.BLUE, 'b'); drawCurve(A, C.RED, 'o');
+  const lg = seg(t, 3, 0.5); if (lg > 0) { ctx.save(); ctx.globalAlpha = lg; ctx.strokeStyle = C.RED; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(X(0) + 6, Y(88), 7, 0, 7); ctx.stroke(); text('Vía aérea (auriculares)', X(0) + 22, Y(88) + 5, 15, C.INK);
+    ctx.strokeStyle = C.BLUE; ctx.strokeRect(X(0), Y(96) - 6, 12, 12); text('Vía ósea (vibrador en la mastoides)', X(0) + 22, Y(96) + 5, 15, C.INK); ctx.restore(); }
+  // tarjeta activa
+  const CARDS = [
+    [C.GREEN, 'Audición normal', ['Aire y hueso superpuestos', 'Ambas bajo 20 a 25 dB'], 2.5, 6.2],
+    [C.AMBER, 'Hipoacusia de conducción', ['Hueso normal, aire descendido', 'Brecha de 15 dB o más'], 6.4, 13.2],
+    [C.RED, 'Hipoacusia sensorioneural', ['Aire y hueso bajan juntos', 'Sin brecha, menos de 10 dB'], 13.4, 20.2],
+    [C.VIOLET, 'Hipoacusia mixta', ['Curvas descendidas y además brecha'], 20.4, 26],
+  ];
+  for (const [col, ti, ls, a, b] of CARDS) K.card(660, 150, 580, 130, col, ti, ls, fade(t, a, b, 0.35), 19);
+  // cabeza: Weber y Rinne
+  const hp = Plate('head', 0, 60, 792, 860, 660, 300, 262, '#141A22'); hp.draw(seg(t, 6, 0.6));
+  { const [x0, y0] = hp.P(190, 250), [x1, y1] = hp.P(610, 760); ctx.save(); ctx.globalAlpha = seg(t, 6, 0.6); ctx.fillStyle = '#C8E9F5'; ctx.beginPath(); ctx.roundRect(x0, y0, x1 - x0, y1 - y0, 40); ctx.fill(); ctx.restore(); }
+  const fx = hp.P(395, 225), earL = hp.P(28, 560), earR = hp.P(768, 545);
+  const wb = fade(t, 7, 26, 0.5);
+  if (wb > 0) { ell(fx[0], fx[1], 6, 6, '#F5F5F7', wb); ring(fx[0], fx[1], 8 + 8 * ((t * 1.6) % 1), C.INK, wb * (1 - ((t * 1.6) % 1)), 2); text('Diapasón 512 Hz', fx[0], fx[1] - 16, 14, C.INK, 'bold', 'center'); }
+  const sick = [earR, 'Oído enfermo'], well = [earL, 'Oído sano'];
+  const wTo = (to, a) => { if (a <= 0) return; arrow(fx[0], fx[1] + 10, to[0][0] + (to[0] === earR ? -14 : 14), to[0][1] - 20, C.AMBER, a, 4); ring(to[0][0], to[0][1], 22 + 6 * pulse(t, 5), to[1] === 'Oído enfermo' ? C.RED : C.GREEN, a, 4); };
+  wTo(sick, fade(t, 8.6, 13.0, 0.4)); wTo(well, fade(t, 15.4, 20.0, 0.4));
+  const note = (s, col, a) => { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; rrect(940, 330, 300, 100, 14, '#161B22'); ctx.fillStyle = col; ctx.fillRect(940, 330, 5, 100); text(s[0], 958, 362, 18, col, 'bold'); text(s[1], 958, 390, 16, C.INK); text(s[2], 958, 414, 16, C.INK); ctx.restore(); };
+  note(['Conducción', 'Weber: al oído enfermo', 'Rinne negativo: hueso > aire'], C.AMBER, fade(t, 8.8, 13.2, 0.4));
+  note(['Sensorioneural', 'Weber: al oído sano', 'Rinne positivo: aire > hueso'], C.RED, fade(t, 15.6, 20.2, 0.4));
+  K.banner(940, 460, 300, 'Brecha ≥ 15 dB: conducción', C.AMBER, fade(t, 10, 13.2, 0.4));
+  K.banner(940, 460, 300, 'Sin brecha: sensorioneural', C.RED, fade(t, 17, 20.2, 0.4));
+  K.banner(660, 640, 580, 'Rinne positivo también en la sensorioneural', C.BLUE, seg(t, 23.5, 0.5));
+});
+
+// ================= orl-06 · órgano de Corti: ruido (muesca 4000 Hz), presbiacusia, hipoacusia súbita =================
+def('coclea', 28, { corti: 'servier/Organe_Corti.png' }, SV, t => {
+  K.title('Hipoacusia sensorioneural', 'Las células ciliadas no se regeneran', C.RED);
+  const pl = Plate('corti', 0, 0, 915, 447, 40, 130, 590); pl.draw(seg(t, 0, 0.7));
+  const OHC = [[400, 100, 431, 275], [441, 100, 472, 275], [485, 100, 516, 275]], IHC = [[162, 140, 228, 315]];
+  const kill = (r, a) => { if (a <= 0) return; ctx.save(); pl.clip(); const [x0, y0] = pl.P(r[0], r[1]), [x1, y1] = pl.P(r[2], r[3]); ctx.globalAlpha = 0.82 * a; ctx.fillStyle = '#4A1620'; ctx.beginPath(); ctx.roundRect(x0, y0, x1 - x0, y1 - y0, 12); ctx.fill();
+    ctx.globalAlpha = a; ctx.strokeStyle = '#FF5A4E'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(x0 + 3, y0 + 30); ctx.lineTo(x1 - 3, y1 - 30); ctx.moveTo(x1 - 3, y0 + 30); ctx.lineTo(x0 + 3, y1 - 30); ctx.stroke(); ctx.restore(); };
+  label('Células ciliadas externas', 330, 392, C.VIOLET, ...pl.P(458, 190), fade(t, 1, 5));
+  label('Célula ciliada interna', 120, 392, C.BLUE, ...pl.P(195, 230), fade(t, 1.6, 5));
+  // ruido: ondas que llegan y hacen vibrar la membrana tectoria
+  const ru = fade(t, 3, 10, 0.5); if (ru > 0) { ctx.save(); pl.clip(); ctx.globalAlpha = 0.65 * ru; ctx.strokeStyle = C.AMBER; ctx.lineWidth = 3; const [ox, oy] = pl.P(-40, 40);
+    for (let k = 0; k < 4; k++) { const r = ((t * 0.7 + k / 4) % 1) * 560; ctx.globalAlpha = 0.65 * ru * (1 - r / 560); ctx.beginPath(); ctx.arc(ox, oy, r, -0.2, 1.4); ctx.stroke(); } ctx.restore(); }
+  label('Ruido sobre 85 dB(A)', 520, 150, C.AMBER, ...pl.P(300, 70), fade(t, 3, 9));
+  kill(OHC[0], ease(seg(t, 5, 1.2))); kill(OHC[1], ease(seg(t, 6, 1.2))); kill(OHC[2], ease(seg(t, 7, 1.2)));
+  // presbiacusia: se pierden más células, también la interna
+  kill(IHC[0], ease(seg(t, 14, 1.5)));
+  label('Presbiacusia: pierde discriminación', 320, 392, C.VIOLET, ...pl.P(195, 230), fade(t, 14, 20));
+  // audiograma pequeño
+  const cx0 = 100, cdx = 78, cy0 = 480, cdy = 2.2, X = i => cx0 + i * cdx, Y = d => cy0 + d * cdy, FR = ['125', '250', '500', '1000', '2000', '4000', '8000'];
+  rrect(40, 440, 590, 250, 16, '#141A22'); ctx.fillStyle = 'rgba(61,220,132,0.12)'; ctx.fillRect(X(0) - 20, Y(0), X(6) - X(0) + 40, 25 * cdy);
+  for (let d = 0; d <= 90; d += 30) { ctx.strokeStyle = C.GRID; ctx.beginPath(); ctx.moveTo(X(0) - 20, Y(d)); ctx.lineTo(X(6) + 20, Y(d)); ctx.stroke(); text(String(d), X(0) - 32, Y(d) + 5, 13, C.MUTED, '', 'right'); }
+  FR.forEach((f, i) => { ctx.strokeStyle = C.GRID; ctx.beginPath(); ctx.moveTo(X(i), Y(0)); ctx.lineTo(X(i), Y(90)); ctx.stroke(); text(f, X(i), Y(90) + 20, 13, C.MUTED, '', 'center'); });
+  text('Hz', X(6) + 24, Y(90) + 20, 13, C.MUTED); text('dB', 56, 462, 13, C.MUTED);
+  const ST = [[8, 8, 10, 10, 12, 12, 14], [10, 10, 12, 18, 30, 62, 32], [12, 14, 20, 30, 45, 58, 72], [58, 62, 68, 72, 78, 80, 82]];
+  const T = [0, 4.5, 13.5, 20.5], D = 3;
+  const m = [0, 1, 2, 3].map((k, j) => j === 0 ? 1 - ease(seg(t, T[1], D)) : ease(seg(t, T[j], D)) * (j < 3 ? 1 - ease(seg(t, T[j + 1], D)) : 1));
+  const cur = ST[0].map((_, i) => ST.reduce((s, st, j) => s + m[j] * st[i], 0));
+  const col = t < 13.5 ? C.AMBER : t < 20.5 ? C.VIOLET : C.RED;
+  ctx.strokeStyle = col; ctx.lineWidth = 3.5; ctx.lineJoin = 'round'; ctx.beginPath(); cur.forEach((v, i) => i ? ctx.lineTo(X(i), Y(v)) : ctx.moveTo(X(i), Y(v))); ctx.stroke();
+  cur.forEach((v, i) => { ctx.fillStyle = '#141A22'; ctx.beginPath(); ctx.arc(X(i), Y(v), 6, 0, 7); ctx.fill(); ctx.stroke(); });
+  const nt = fade(t, 8.5, 13.5, 0.4); if (nt > 0) { ctx.save(); ctx.globalAlpha = nt; ctx.strokeStyle = C.RED; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.arc(X(5), Y(cur[5]), 16, 0, 7); ctx.stroke(); text('Muesca en 4000 Hz', X(5) - 22, Y(cur[5]) - 16, 15, C.RED, 'bold', 'right'); ctx.restore(); }
+  const pt = fade(t, 16, 20.5, 0.4); if (pt > 0) { ctx.save(); ctx.globalAlpha = pt; text('Caída de agudos, simétrica', X(2) + 10, Y(cur[3]) + 62, 15, C.VIOLET, 'bold', 'center'); ctx.restore(); }
+  const su = fade(t, 22.5, 28, 0.4); if (su > 0) { ctx.save(); ctx.globalAlpha = su; text('Súbita: 30 dB o más en menos de 72 h', X(3), Y(40), 15, C.RED, 'bold', 'center'); ctx.restore(); }
+  // panel
+  K.card(660, 150, 580, 120, C.AMBER, 'Trauma acústico crónico', ['Ruido sobre 85 dB(A): muesca simétrica en 4000 Hz', 'Se previene con protectores y control del ruido'], seg(t, 4.5, 0.5), 18);
+  K.card(660, 284, 580, 120, C.VIOLET, 'Presbiacusia', ['Sensorioneural, bilateral y simétrica', '"Oigo, pero no entiendo": audífonos y GES'], seg(t, 13.5, 0.5), 18);
+  K.card(660, 418, 580, 130, C.RED, 'Hipoacusia súbita', ['Otoscopía normal, Weber al oído sano', 'Corticoides precoces; RM después'], seg(t, 20.5, 0.5), 18);
+  K.banner(660, 576, 580, 'Las células ciliadas no se regeneran', C.RED, seg(t, 24, 0.5));
+});
+
+// ================= orl-07 · VPPB: otoconias en el canal posterior, maniobra de Epley, y duración de los tres vértigos =================
+def('vppb', 28, { lab: 'blausen/orl_laberinto.png' }, BL, t => {
+  K.title('Vértigo posicional', 'Una piedrita en el canal posterior', C.VIOLET);
+  const pl = Plate('lab', 0, 0, 693, 900, 40, 140, 410, '#FFFFFF'); pl.draw(seg(t, 0, 0.7));
+  const POST = [[395, 565], [335, 620], [255, 628], [190, 592], [150, 520], [138, 450], [170, 398], [250, 380], [330, 420], [385, 480], [410, 545]];
+  const pp = poly(POST.map(p => pl.P(...p)));
+  strokePoly(pl, POST, 'rgba(179,136,255,0.35)', 18, fade(t, 1.2, 25, 0.6));
+  label('Canal semicircular posterior', 300, 190, C.VIOLET, ...pl.P(150, 500), fade(t, 1, 8));
+  label('Utrículo: otoconias', 330, 640, C.AMBER, ...pl.P(470, 560), fade(t, 1.6, 6));
+  // otoconias: se desprenden del utrículo y caen al canal (canalitiasis)
+  const fall = ease(seg(t, 2.5, 3));
+  const N = 9, particle = (i, s) => { const [x, y] = pp.at(s); const ox = (rnd(i + 5) - 0.5) * 10, oy = (rnd(i + 9) - 0.5) * 10; ell(x + ox, y + oy, 5.5, 4.5, '#F5F1E4', 1); ctx.strokeStyle = '#8D8470'; ctx.lineWidth = 1.2; ctx.beginPath(); ctx.ellipse(x + ox, y + oy, 5.5, 4.5, 0, 0, 7); ctx.stroke(); };
+  // posición del grupo a lo largo del canal (0 = utrículo, 1 = vuelta completa)
+  const sRest = 0.12, sFall = lerp(0.0, 0.3, fall);
+  let sGroup = sFall;                                         // reposo tras caer
+  const mov = ease(seg(t, 7, 2.2)) * (1 - ease(seg(t, 9.5, 1.5))); // cambio de posición: se mueven
+  sGroup += 0.2 * mov + 0.2 * ease(seg(t, 7, 2.2));
+  // Epley: recorre el canal de vuelta hacia el utrículo
+  const ep = ease(seg(t, 15.5, 7));
+  const sPos = t < 15.5 ? sGroup : lerp(sGroup, 1.0, ep);
+  if (t > 2.5) for (let i = 0; i < N; i++) particle(i, clamp(sPos - 0.012 * i, 0, 1));
+  // cúpula y señal falsa
+  const [cx, cy] = pl.P(350, 600), cu = fade(t, 7.5, 13, 0.4);
+  if (cu > 0) { ring(cx, cy, 22 + 6 * pulse(t, 6), C.RED, cu, 4); label('Cúpula: señal falsa de giro', 300, 645, C.RED, cx, cy, cu); }
+  // vértigo y nistagmo: línea de tiempo 10 a 60 s
+  const tl = (x, y, w, a) => { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; rrect(x, y, w, 118, 14, '#161B22'); text('Crisis de 10 a 60 segundos', x + 18, y + 30, 19, C.VIOLET, 'bold');
+    ctx.strokeStyle = C.GRID; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x + 18, y + 92); ctx.lineTo(x + w - 18, y + 92); ctx.stroke();
+    const lat = seg(t, 7.2, 0.4), pw = (w - 36) / 60; const on = clamp((t - 7.2) * 5.5, 0, 45);   // 1 s de pantalla = 5,5 s de nistagmo (cuenta atrás)
+    ctx.strokeStyle = C.RED; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x + 18, y + 92); ctx.lineTo(x + 18 + pw * 3, y + 92); for (let k = 0; k <= 45; k++) { if (k > on) break; const xx = x + 18 + pw * (3 + k); ctx.lineTo(xx, y + 92 - 38 * Math.sin(k * 0.9) * Math.exp(-k / 28)); } ctx.stroke();
+    text('latencia 2 a 5 s  ·  el nistagmo se agota solo', x + w - 18, y + 30, 15, C.MUTED, '', 'right'); ctx.restore(); };
+  tl(480, 290, 760, fade(t, 7, 14.5, 0.4));
+  K.card(480, 150, 760, 120, C.VIOLET, 'Canalitiasis', ['Cristales del utrículo caen al canal posterior (85 a 90 %)', 'Cada cambio de posición mueve la endolinfa'], seg(t, 3.2, 0.5), 18);
+  // Epley
+  const es = fade(t, 14.5, 23, 0.4); if (es > 0) { ctx.save(); ctx.globalAlpha = es; rrect(480, 290, 760, 118, 14, '#161B22'); text('Maniobra de Epley: cuatro tiempos', 498, 320, 19, C.GREEN, 'bold');
+    for (let k = 0; k < 4; k++) { const on = t > 15.6 + k * 1.8; const x = 540 + k * 190; ctx.fillStyle = on ? C.GREEN : '#2A2F38'; ctx.beginPath(); ctx.arc(x, 370, 22, 0, 7); ctx.fill(); text(String(k + 1), x, 378, 22, on ? C.BG : C.MUTED, 'bold', 'center'); if (k < 3) { ctx.strokeStyle = on ? C.GREEN : '#2A2F38'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(x + 26, 370); ctx.lineTo(x + 160, 370); ctx.stroke(); } }
+    text('Las partículas vuelven al utrículo: cura a más del 90 %', 498, 400, 15, C.INK); ctx.restore(); }
+  label('De vuelta al utrículo', 330, 640, C.GREEN, ...pl.P(450, 520), fade(t, 20.5, 25));
+  // duración de los tres vértigos (escala logarítmica)
+  const dur = seg(t, 22.5, 0.6);
+  if (dur > 0) { ctx.save(); ctx.globalAlpha = dur; rrect(480, 428, 760, 242, 14, '#161B22'); text('Cuánto dura el vértigo', 498, 458, 19, C.INK, 'bold');
+    const rows = [['VPPB', 'segundos (10 a 60 s)', 0.18, C.VIOLET], ['Ménière', 'horas (20 min a 12 h)', 0.6, C.AMBER], ['Neuronitis', 'días (2 a 5 días)', 1.0, C.RED]];
+    rows.forEach(([n, d, w, col], i) => { const y = 486 + i * 56, k = ease(seg(t, 22.8 + i * 0.7, 0.8)); text(n, 498, y + 28, 18, col, 'bold'); rrect(640, y + 8, Math.max(8, 330 * w * k), 26, 13, col); text(d, 640 + 330 * w * k + 14, y + 28, 16, C.INK, 'bold'); });
+    ctx.restore(); }
+  K.banner(480, 632, 760, 'Sin hipoacusia ni acúfenos: la cóclea está sana', C.BLUE, 0 * seg(t, 25, 0.5));
+});
+
+// ================= orl-08 · parálisis facial central (frente respetada) vs periférica (todo el hemirrostro) =================
+def('facial', 29, { brain: 'servier/cerebro_coronal_avc.png', face: 'servier/cara.png' }, SV, t => {
+  K.title('Parálisis facial', 'La frente decide: central o periférica', C.AMBER);
+  const pb = Plate('brain', 0, 0, 547, 449, 40, 140, 470); pb.draw(seg(t, 0, 0.7));
+  const pf = Plate('face', 0, 0, 211, 263, 540, 140, 300); pf.draw(seg(t, 0, 0.7));
+  const dim = 1 - 0.65 * ease(seg(t, 12, 1));           // al pasar a la periférica, el cerebro se atenúa
+  // núcleos faciales (derecho a la izquierda de la pantalla): mitad superior (frente) e inferior (boca)
+  const NUC = { Ru: [232, 338, 272, 356], Rl: [232, 358, 272, 376], Lu: [318, 338, 358, 356], Ll: [318, 358, 358, 376] };
+  const nuc = (k, col) => { const r = NUC[k], [x0, y0] = pb.P(r[0], r[1]), [x1, y1] = pb.P(r[2], r[3]); ctx.fillStyle = col; ctx.beginPath(); ctx.roundRect(x0, y0, x1 - x0, y1 - y0, 4); ctx.fill(); ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 1.5; ctx.stroke(); };
+  const nA = seg(t, 2, 0.6) * dim;
+  if (nA > 0) { ctx.save(); ctx.globalAlpha = nA; nuc('Ru', '#3DDC84'); nuc('Rl', '#3DDC84'); nuc('Lu', '#3DDC84');
+    nuc('Ll', t > 7.5 && t < 12.5 ? '#FF5A4E' : '#3DDC84'); ctx.restore(); }
+  // fibras corticonucleares
+  const FR = { 'R-Ru': [[150, 40], [125, 130], [105, 230], [150, 320], [250, 337]], 'R-Lu': [[150, 40], [125, 130], [105, 230], [200, 322], [338, 337]], 'R-Ll': [[150, 40], [125, 130], [105, 230], [210, 330], [338, 359]],
+    'L-Lu': [[440, 40], [465, 130], [485, 230], [440, 320], [340, 337]], 'L-Ru': [[440, 40], [465, 130], [485, 230], [380, 322], [252, 337]], 'L-Rl': [[440, 40], [465, 130], [485, 230], [370, 330], [252, 359]] };
+  const fiber = (k, cut) => { const pts = FR[k].map(p => pb.P(...p)); const pp = poly(pts); const a = ease(seg(t, 2.6, 1.5)) * dim; if (a <= 0) return;
+    ctx.save(); ctx.globalAlpha = a * (cut ? 1 - 0.7 * ease(seg(t, 7.5, 0.8)) : 1); pb.clip(); ctx.lineCap = 'round'; pp.stroke(ctx, 0, 1, 4, cut && t > 7.5 ? '#FF5A4E' : '#2E7D32'); ctx.restore(); };
+  for (const k of ['R-Ru', 'R-Lu', 'R-Ll']) fiber(k, true); for (const k of ['L-Lu', 'L-Ru', 'L-Rl']) fiber(k, false);
+  label('Núcleo facial, en la protuberancia', 275, 300, C.GREEN, ...pb.P(300, 350), fade(t, 2.6, 4.4, 0.3));
+  label('Frente: ambos hemisferios', 190, 515, C.GREEN, ...pb.P(252, 347), fade(t, 4.4, 7.5, 0.4));
+  const cut = fade(t, 6.2, 12.5, 0.4); if (cut > 0) { const [lx, ly] = pb.P(98, 225); ring(lx, ly, 26 + 6 * pulse(t, 5), C.RED, cut, 4); label('Hemorragia o infarto', 150, 190, C.RED, lx, ly, cut); }
+  const xs = fade(t, 7.8, 12.5, 0.4); if (xs > 0) for (const [x, y] of [[110, 250], [140, 306]]) { const [X, Y] = pb.P(x, y); xmark(X, Y, 8, C.RED, xs); }
+  label('Boca: hemisferio contrario', 390, 515, C.RED, ...pb.P(338, 368), fade(t, 5.2, 12.5, 0.4));
+  // cara: central
+  const ce = fade(t, 8.8, 13, 0.5);
+  const zone = (x0, y0, x1, y1, col, a) => { if (a <= 0) return; const [X0, Y0] = pf.P(x0, y0), [X1, Y1] = pf.P(x1, y1); ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = col; ctx.beginPath(); ctx.roundRect(X0, Y0, X1 - X0, Y1 - Y0, 14); ctx.fill(); ctx.restore(); };
+  if (ce > 0) { zone(20, 36, 182, 92, 'rgba(61,220,132,0.35)', ce); zone(100, 128, 178, 205, 'rgba(255,90,78,0.4)', ce);
+    const [mx, my] = pf.P(140, 150); arrow(mx, my, mx, my + 36, C.RED, ce, 4); label('Frente respetada', 1030, 215, C.GREEN, ...pf.P(100, 62), ce); label('Cae la mitad inferior', 1030, 330, C.RED, ...pf.P(140, 170), ce); }
+  // periférica: lesión del nervio, todo el hemirrostro
+  const pe = fade(t, 13, 20.5, 0.5);
+  if (pe > 0) { zone(100, 36, 182, 205, 'rgba(255,90,78,0.4)', pe); const [nx, ny] = pf.P(168, 118); ring(nx, ny, 16 + 6 * pulse(t, 5), C.RED, pe, 4);
+    label('Lesión del nervio facial', 1030, 190, C.RED, nx, ny, pe); const [mx, my] = pf.P(140, 64); arrow(mx, my, mx, my + 22, C.RED, pe, 4); label('No arruga la frente', 1030, 245, C.RED, mx, my, pe);
+    const [ex, ey] = pf.P(145, 100); ring(ex, ey, 14, C.AMBER, pe, 3); label('Lagoftalmos y signo de Bell', 1030, 300, C.AMBER, ex, ey, pe); const [bx, by] = pf.P(150, 150); arrow(bx, by, bx, by + 30, C.RED, pe, 4); }
+  // panel
+  const card = (col, ti, ls, a, b) => K.card(40, 560, 590, 125, col, ti, ls, fade(t, a, b, 0.4), 18);
+  card(C.GREEN, 'Central (ACV)', ['Cae la mitad inferior, la frente se salva', 'El núcleo superior tiene doble inervación'], 8.8, 13);
+  card(C.RED, 'Periférica', ['Cae todo el hemirrostro: frente, ojo y boca', 'Bell, Ramsay Hunt, otitis, trauma'], 13.2, 20.5);
+  const tx = fade(t, 20.8, 29, 0.5); if (tx > 0) { ctx.save(); ctx.globalAlpha = tx;
+    K.card(40, 560, 590, 125, C.AMBER, 'Parálisis de Bell', ['Prednisona 1 mg/kg en las primeras 72 horas', 'Antivirales solos no sirven'], 1, 18);
+    K.card(650, 560, 590, 125, C.VIOLET, 'Ramsay Hunt', ['Vesículas en la oreja y otalgia', 'Valaciclovir más prednisona'], seg(t, 22.5, 0.5), 18); ctx.restore(); }
+  K.banner(900, 420, 340, 'Siempre proteger la córnea', C.BLUE, seg(t, 25, 0.5));
+});
+
+// ================= orl-09 · rinitis alérgica: alérgeno → IgE/mastocito → mucosa edematosa → clasificación ARIA =================
+def('rinitis', 28, { nose: 'servier/Cavite_nasale.png' }, SV, t => {
+  K.title('Rinitis alérgica', 'Del ácaro a la nariz tapada', C.BLUE);
+  const pl = Plate('nose', 0, 250, 740, 650, 40, 150, 450); pl.draw(seg(t, 0, 0.7));
+  const AIR = [[40, 640], [140, 600], [260, 560], [380, 540], [500, 560], [590, 620]];
+  const ap = poly(AIR.map(p => pl.P(...p)));
+  // 1) aeroalérgenos inhalados
+  if (t > 0.8) { const a = fade(t, 0.8, 9, 0.6); ctx.save(); pl.clip(); ctx.fillStyle = '#C97A1E';
+    for (let i = 0; i < 12; i++) { const u = ((t * 0.16) + i / 12) % 1, [x, y] = ap.at(u * 0.9); ctx.globalAlpha = a * Math.min(1, u * 8) * 0.95; ctx.beginPath(); ctx.arc(x + (rnd(i) - 0.5) * 36, y + (rnd(i + 7) - 0.5) * 30, 4, 0, 7); ctx.fill(); } ctx.restore(); }
+  label('Ácaros, pólenes, caspa, hongos', 190, 480, C.AMBER, ...pl.P(110, 620), fade(t, 1, 8));
+  // 2) inset del mastocito: IgE, alérgeno, degranulación
+  const ins = fade(t, 3.5, 14.5, 0.5);
+  if (ins > 0) { ctx.save(); ctx.globalAlpha = ins; rrect(520, 150, 720, 290, 16, '#161B22'); text('En la mucosa: IgE sobre el mastocito', 540, 184, 20, C.INK, 'bold');
+    const cx = 720, cy = 310, deg = ease(seg(t, 8, 1.4)); ctx.fillStyle = '#7A5CB0'; ctx.strokeStyle = '#B9A2E8'; ctx.lineWidth = 4; ctx.beginPath(); ctx.arc(cx, cy, 72 + 4 * deg, 0, 7); ctx.fill(); ctx.stroke();
+    ctx.fillStyle = '#4B2F7F'; ctx.beginPath(); ctx.arc(cx - 8, cy + 6, 26, 0, 7); ctx.fill();
+    for (let i = 0; i < 16; i++) { const a = i * 0.4 + 0.2, r = 40 + 10 * rnd(i), gx = cx + Math.cos(a) * r * (1 + 0.9 * deg * (i % 3 === 0 ? 1 : 0.4)), gy = cy + Math.sin(a) * r * (1 + 0.9 * deg * (i % 3 === 0 ? 1 : 0.4)); ctx.fillStyle = deg > 0 ? '#F4B8E8' : '#E7A6D8'; ctx.beginPath(); ctx.arc(gx, gy, 5.5, 0, 7); ctx.fill(); }
+    // IgE (Y) en la membrana
+    ctx.strokeStyle = C.GREEN; ctx.lineWidth = 4; ctx.lineCap = 'round';
+    for (let i = 0; i < 8; i++) { const a = -2.6 + i * 0.5, bx = cx + Math.cos(a) * 74, by = cy + Math.sin(a) * 74, tx = cx + Math.cos(a) * 100, ty = cy + Math.sin(a) * 100, nx = -Math.sin(a), ny = Math.cos(a);
+      ctx.beginPath(); ctx.moveTo(bx, by); ctx.lineTo(tx, ty); ctx.moveTo(tx, ty); ctx.lineTo(tx + Math.cos(a) * 14 + nx * 11, ty + Math.sin(a) * 14 + ny * 11); ctx.moveTo(tx, ty); ctx.lineTo(tx + Math.cos(a) * 14 - nx * 11, ty + Math.sin(a) * 14 - ny * 11); ctx.stroke(); }
+    // alérgeno que entra y puentea la IgE
+    const ax = lerp(1000, 804, ease(seg(t, 5.2, 2.6))), ay = lerp(220, 270, ease(seg(t, 5.2, 2.6)));
+    ctx.fillStyle = '#C97A1E'; ctx.beginPath(); ctx.moveTo(ax - 12, ay); ctx.lineTo(ax, ay - 12); ctx.lineTo(ax + 12, ay); ctx.lineTo(ax, ay + 12); ctx.closePath(); ctx.fill();
+    // histamina y leucotrienos que salen
+    for (let i = 0; i < 14; i++) { const u = seg(t, 8.8 + i * 0.1, 3), ang = -0.9 + (i / 14) * 2.2; if (u <= 0 || u >= 1) continue; ctx.globalAlpha = ins * (1 - u); ctx.fillStyle = C.AMBER; ctx.beginPath(); ctx.arc(cx + Math.cos(ang) * (110 + u * 160), cy + Math.sin(ang) * (110 + u * 90), 5, 0, 7); ctx.fill(); }
+    ctx.globalAlpha = ins; text('IgE', cx - 100, cy - 100, 16, C.GREEN, 'bold', 'center'); text('Histamina y leucotrienos', 1000, 330, 17, C.AMBER, 'bold', 'center'); text('Alérgeno: hipersensibilidad tipo I', 1060, 214, 15, C.INK, '', 'center'); ctx.restore(); }
+  // 3) la mucosa se edematiza: cornetes pálidos y azulados, rinorrea, estornudos
+  const sw = ease(seg(t, 9.5, 3.5));
+  if (sw > 0) { ctx.save(); pl.clip(); ctx.lineCap = 'round';
+    for (const L of [[[285, 485], [330, 500], [420, 505], [520, 528], [575, 545]], [[250, 580], [330, 610], [430, 612], [540, 598], [585, 580]]]) { const q = poly(L.map(p => pl.P(...p))); q.stroke(ctx, 0, 1, 26 * sw, `rgba(120,140,230,${0.55 * sw})`); }
+    ctx.restore(); }
+  label('Mucosa pálida, edematosa o azulada', 190, 250, C.BLUE, ...pl.P(420, 610), fade(t, 11, 18));
+  const rn = fade(t, 11.5, 19, 0.5); if (rn > 0) { const [dx, dy] = pl.P(30, 690); for (let i = 0; i < 3; i++) { const u = ((t * 0.9) + i / 3) % 1; drop(dx + 2, dy + 14 + u * 60, rn * (1 - u), '#7FC8FF'); } label('Rinorrea acuosa', 400, 520, '#7FC8FF', dx, dy + 14, rn); }
+  const es = fade(t, 12.5, 18.5, 0.5); if (es > 0) { const [sx, sy] = pl.P(20, 600); arrow(sx - 4, sy, sx - 30, sy - 24, C.AMBER, es, 4); arrow(sx - 4, sy + 10, sx - 32, sy + 10, C.AMBER, es, 4); arrow(sx - 4, sy + 20, sx - 30, sy + 44, C.AMBER, es, 4); }
+  label('Prurito y estornudos en salva', 170, 490, C.AMBER, ...pl.P(130, 560), fade(t, 12.5, 18.5));
+  // 4) clasificación ARIA
+  const ar = seg(t, 15, 0.6) * (1 - seg(t, 26, 0.6));
+  if (ar > 0) { ctx.save(); ctx.globalAlpha = ar; rrect(520, 150, 720, 290, 16, '#161B22'); text('Clasificación ARIA', 540, 184, 20, C.INK, 'bold');
+    const gx = 650, gy = 200, cw = 285, ch = 92;
+    text('Frecuencia', 530, gy + ch / 2 + 6, 16, C.BLUE, 'bold'); text('Severidad', 530, gy + ch * 1.5 + 14, 16, C.AMBER, 'bold');
+    const cells = [['Intermitente', 'Menos de 4 días/semana', 'o menos de 4 semanas', 0], ['Persistente', '4 o más días/semana', 'y 4 o más semanas', 1], ['Leve', 'Sin alteración funcional', '', 0], ['Moderada a severa', 'Basta uno: sueño, actividades,', 'rendimiento o molestia', 1]];
+    cells.forEach((c, i) => { const x = gx + (i % 2) * (cw + 10), y = gy + Math.floor(i / 2) * (ch + 10), hot = c[3] && t > 18; rrect(x, y, cw, ch, 12, hot ? 'rgba(255,194,71,0.2)' : '#1E2530');
+      if (hot) { ctx.strokeStyle = C.AMBER; ctx.lineWidth = 3; ctx.beginPath(); ctx.roundRect(x, y, cw, ch, 12); ctx.stroke(); }
+      text(c[0], x + cw / 2, y + 28, 18, c[3] ? C.AMBER : C.GREEN, 'bold', 'center'); text(c[1], x + cw / 2, y + 56, 15, C.INK, '', 'center'); text(c[2], x + cw / 2, y + 76, 15, C.INK, '', 'center'); });
+    ctx.restore(); }
+  K.card(520, 458, 720, 100, C.GREEN, 'Primera línea: corticoide intranasal', ['Controla la obstrucción; el antihistamínico oral sirve en lo leve e intermitente'], seg(t, 19.5, 0.5), 18);
+  K.banner(520, 580, 720, 'Descongestionante más de 5 días: rinitis medicamentosa', C.RED, seg(t, 23.5, 0.5));
+});
+
+// ================= orl-10 · rinosinusitis: viral vs bacteriana (10 días, doble caída) y complicaciones orbitarias de Chandler =================
+def('sinusitis', 30, { sin: 'servier/Sinus.png', sinus: 'servier/Sinusite.png' }, SV, t => {
+  K.title('Rinosinusitis aguda', 'Cuándo es bacteriana y cuándo llega a la órbita', C.AMBER);
+  const pl = Plate('sin', 0, 140, 792, 720, 40, 150, 440); pl.draw(seg(t, 0, 0.7));
+  // senos con pus (imagen real de sinusitis) que aparece sobre la normal
+  const pus = ease(seg(t, 3.5, 3));
+  if (pus > 0) { ctx.save(); ctx.globalAlpha = pus; pl.clip(); ctx.drawImage(I('sinus'), pl.sx, pl.sy, pl.sw, pl.sh, pl.dx, pl.dy, pl.dw, pl.dh); ctx.restore(); }
+  // resfrío viral: ostium edematosos
+  const os = fade(t, 1, 6.5, 0.5); if (os > 0) for (const [x, y] of [[330, 480], [470, 480], [345, 575], [455, 575]]) { const [X, Y] = pl.P(x, y); ring(X, Y, 9 + 4 * pulse(t, 5), C.RED, os, 3); }
+  label('Ostium edematosos: el seno no drena', 270, 190, C.RED, ...pl.P(335, 480), fade(t, 1.5, 6.5));
+  label('Secreción retenida: pus', 270, 235, C.AMBER, ...pl.P(210, 330), fade(t, 4.5, 11));
+  // gráfico de curso: viral vs bacteriana
+  const cx0 = 560, cy0 = 360, cw = 640, chh = 150;
+  const ch = fade(t, 2, 12.5, 0.5); if (ch > 0) { ctx.save(); ctx.globalAlpha = ch; rrect(520, 150, 720, 270, 16, '#161B22'); text('Curso de los síntomas', 540, 184, 20, C.INK, 'bold');
+    ctx.strokeStyle = C.GRID; ctx.lineWidth = 1; for (let d = 0; d <= 14; d += 2) { const x = cx0 + cw * d / 14; ctx.beginPath(); ctx.moveTo(x, cy0 - chh); ctx.lineTo(x, cy0); ctx.stroke(); text(String(d), x, cy0 + 20, 13, C.MUTED, '', 'center'); } text('días', cx0 + cw + 10, cy0 + 20, 13, C.MUTED);
+    const Y = v => cy0 - v * chh, X = d => cx0 + cw * d / 14;
+    const vir = d => d < 4 ? 0.1 + 0.22 * d : Math.max(0.05, 0.98 - 0.12 * (d - 4));
+    const draw = (f, col, a, b) => { const k = seg(t, a, b - a); if (k <= 0) return; ctx.strokeStyle = col; ctx.lineWidth = 4; ctx.beginPath(); for (let i = 0; i <= 140 * k; i++) { const d = i / 10; ctx.lineTo(X(d), Y(f(d))); } ctx.stroke(); };
+    draw(vir, C.GREEN, 2.5, 5.5);
+    const per = d => d < 4 ? 0.1 + 0.22 * d : Math.max(0.6, 0.98 - 0.04 * (d - 4)); draw(per, C.RED, 6, 8.5);
+    const dbl = d => d < 4 ? 0.1 + 0.22 * d : d < 7 ? Math.max(0.3, 0.98 - 0.22 * (d - 4)) : Math.min(1, 0.3 + 0.25 * (d - 7)); draw(dbl, C.AMBER, 8.8, 11.5);
+    const L = (s, col, a, b, y) => { const al = fade(t, a, b, 0.3); if (al > 0) { ctx.globalAlpha = ch * al; text(s, 1220, y, 16, col, 'bold', 'right'); } };
+    L('Viral: mejora hacia los 7 a 10 días', C.GREEN, 4.2, 6.2, 408); L('Persistente: 10 días o más', C.RED, 7.8, 9.5, 408); L('Doble caída: empeora tras mejorar', C.AMBER, 10.5, 12.5, 408);
+    ctx.restore(); }
+  K.card(520, 436, 720, 90, C.AMBER, 'Bacteriana: basta uno', ['10 días o más, doble caída, o inicio severo (fiebre alta y pus 3 a 4 días)'], seg(t, 11, 0.5), 18);
+  K.card(520, 540, 720, 100, C.GREEN, 'Amoxicilina primero', ['Con clavulánico si hay riesgo; sin radiografía de senos'], seg(t, 12, 0.5), 18);
+  // ----- parte B: Chandler -----
+  const B0 = 13.5, bb = seg(t, B0, 0.8);
+  const eye = pl.P(560, 534), eyeL = pl.P(229, 531);
+  if (bb > 0) {
+    ctx.save(); ctx.globalAlpha = bb; rrect(520, 150, 720, 500, 16, '#0E1116'); ctx.restore();
+    ctx.save(); ctx.globalAlpha = bb; rrect(520, 150, 720, 500, 16, '#161B22'); text('Complicaciones orbitarias: clasificación de Chandler', 540, 184, 20, C.INK, 'bold'); ctx.restore();
+    const ET = [['I', 'Celulitis preseptal', 'Edema palpebral, el ojo se mueve normal', 14.5, C.AMBER], ['II', 'Celulitis orbitaria', 'Proptosis, dolor y limitación al mover el ojo', 17, C.AMBER], ['III', 'Absceso subperióstico', 'Desplaza el globo hacia afuera y abajo', 19.5, C.RED], ['IV', 'Absceso orbitario', 'Pérdida de visión, oftalmoplejía', 22, C.RED], ['V', 'Trombosis del seno cavernoso', 'Bilateral, fiebre alta, compromiso de pares', 24.5, C.VIOLET]];
+    ET.forEach(([n, ti, d, a, col], i) => { const k = seg(t, a, 0.5); if (k <= 0) return; const y = 214 + i * 66, on = t >= a && (i === 4 || t < ET[i + 1][3]);
+      ctx.save(); ctx.globalAlpha = bb * k; rrect(540, y, 680, 58, 12, on ? '#222B38' : '#1B2230'); ctx.fillStyle = col; ctx.beginPath(); ctx.arc(574, y + 29, 18, 0, 7); ctx.fill(); text(n, 574, y + 36, 19, C.BG, 'bold', 'center'); text(ti, 604, y + 26, 19, col, 'bold'); text(d, 604, y + 48, 15, C.INK); ctx.restore(); });
+    // overlays sobre el rostro (ojo derecho de la pantalla)
+    ctx.save(); pl.clip(); const [ex, ey] = eye;
+    const st = i => seg(t, ET[i][3], 0.6) * (i === 4 ? 1 : 1 - seg(t, ET[i + 1][3], 0.6));
+    if (st(0) > 0) { ctx.globalAlpha = 0.5 * st(0); ctx.fillStyle = '#FF6B5E'; ctx.beginPath(); ctx.ellipse(ex, ey, 52, 30, 0, 0, 7); ctx.fill(); }
+    if (st(1) > 0) { ctx.globalAlpha = 0.55 * st(1); ctx.fillStyle = '#FF3B30'; ctx.beginPath(); ctx.ellipse(ex, ey, 58, 36, 0, 0, 7); ctx.fill(); ctx.globalAlpha = st(1); ctx.strokeStyle = C.INK; ctx.lineWidth = 3; arrow(ex, ey, ex + 54, ey - 2, C.INK, st(1), 3); }
+    if (st(2) > 0) { ctx.globalAlpha = st(2); ctx.fillStyle = 'rgba(255,214,90,0.95)'; ctx.strokeStyle = '#B5651D'; ctx.lineWidth = 2; ctx.beginPath(); ctx.ellipse(ex - 44, ey + 4, 14, 24, 0, 0, 7); ctx.fill(); ctx.stroke(); arrow(ex - 24, ey - 40, ex + 6, ey - 52, C.RED, st(2), 3); }
+    if (st(3) > 0) { ctx.globalAlpha = st(3); ctx.fillStyle = 'rgba(255,214,90,0.9)'; ctx.strokeStyle = '#B5651D'; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.ellipse(ex - 20, ey + 6, 36, 28, 0, 0, 7); ctx.fill(); ctx.stroke(); }
+    if (st(4) > 0) { ctx.globalAlpha = 0.5 * st(4); ctx.fillStyle = '#B388FF'; for (const [x, y] of [[ex, ey], eyeL]) { ctx.beginPath(); ctx.ellipse(x, y, 54, 34, 0, 0, 7); ctx.fill(); } ctx.globalAlpha = st(4); ring(...pl.P(395, 470), 18 + 4 * pulse(t, 5), C.VIOLET, st(4), 4); }
+    ctx.restore();
+    label('Etmoides: la puerta a la órbita', 150, 480, C.AMBER, ...pl.P(400, 505), fade(t, 14, 19, 0.4));
+    label('Seno cavernoso', 330, 270, C.VIOLET, ...pl.P(395, 470), seg(t, 24.5, 0.5));
+    K.banner(540, 560, 680, 'Desde el grupo II: hospitalizar, TAC con contraste, antibiótico EV', C.RED, seg(t, 26.5, 0.5)); }
+});
+
+// ================= orl-11 · epistaxis: escalera anterior (compresión, vasoconstrictor, nitrato de plata, tapón) y posterior (Foley) =================
+def('epistaxis', 29, { nose: 'servier/Cavite_nasale.png' }, SV, t => {
+  K.title('Epistaxis', 'La escalera de manejo', C.RED);
+  const pl = Plate('nose', 0, 380, 740, 520, 40, 150, 520); pl.draw(seg(t, 0, 0.7));
+  const NOS = pl.P(45, 670), KIE = [150, 640], KP = pl.P(...KIE);
+  // sangrado anterior (plexo de Kiesselbach)
+  const bl = fade(t, 0.8, 20.5, 0.5);
+  if (bl > 0) { ctx.save(); pl.clip(); ctx.fillStyle = `rgba(200,16,46,${0.5 + 0.2 * pulse(t, 4)})`; ctx.beginPath(); ctx.arc(KP[0], KP[1], 20, 0, 7); ctx.fill(); ctx.restore();
+    for (let i = 0; i < 3; i++) { const u = ((t * 0.8) + i / 3) % 1; drop(NOS[0] + 4, NOS[1] + 30 + u * 70, bl * (1 - u), '#C8102E'); } }
+  label('Plexo de Kiesselbach (tabique anterior)', 300, 205, C.RED, ...KP, fade(t, 1, 5.5));
+  label('Más de 90 %: anterior', 150, 560, C.GREEN, NOS[0] + 10, NOS[1] - 6, fade(t, 2, 5.5));
+  // 1) compresión digital: pinzar las alas, 15 minutos
+  const c1 = fade(t, 5.5, 9.2, 0.4); if (c1 > 0) { const [ax, ay] = pl.P(80, 590), [bx, by] = pl.P(80, 700); arrow(ax, ay - 40, ax, ay, C.AMBER, c1, 6); arrow(bx, by + 40, bx, by, C.AMBER, c1, 6);
+    ctx.save(); ctx.globalAlpha = c1; ctx.strokeStyle = '#2A2F38'; ctx.lineWidth = 8; ctx.beginPath(); ctx.arc(300, 440, 34, 0, 7); ctx.stroke(); ctx.strokeStyle = C.AMBER; ctx.beginPath(); ctx.arc(300, 440, 34, -Math.PI / 2, -Math.PI / 2 + 2 * Math.PI * seg(t, 5.8, 3)); ctx.stroke(); text('15 min', 300, 446, 16, C.INK, 'bold', 'center'); ctx.restore(); }
+  // 2) algodón con vasoconstrictor
+  const c2 = fade(t, 9.4, 13.2, 0.4); if (c2 > 0) { ctx.save(); pl.clip(); ctx.globalAlpha = c2; ctx.lineCap = 'round'; const [x0, y0] = pl.P(70, 650), [x1, y1] = pl.P(200, 640); ctx.strokeStyle = '#8F96A3'; ctx.lineWidth = 24; ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1, y1); ctx.stroke(); ctx.strokeStyle = '#F3EEE6'; ctx.lineWidth = 19; ctx.stroke(); ctx.restore(); }
+  label('Algodón con lidocaína y adrenalina', 330, 560, '#DDE7EE', ...pl.P(130, 645), fade(t, 9.6, 13.2));
+  // 3) nitrato de plata sobre el vaso visible
+  const c3 = fade(t, 13.4, 16.6, 0.3); if (c3 > 0) { ctx.save(); pl.clip(); ctx.globalAlpha = c3; ctx.lineCap = 'round'; const [sx, sy] = pl.P(20, 610), k = ease(seg(t, 13.5, 1.5)); const tx = lerp(sx, KP[0] - 4, k), ty = lerp(sy, KP[1] - 2, k);
+    ctx.strokeStyle = '#4A525C'; ctx.lineWidth = 7; ctx.beginPath(); ctx.moveTo(sx - 30, sy - 30); ctx.lineTo(tx, ty); ctx.stroke(); ctx.strokeStyle = '#C9D1D9'; ctx.lineWidth = 4; ctx.stroke(); ctx.fillStyle = '#FFFFFF'; ctx.beginPath(); ctx.arc(tx, ty, 6, 0, 7); ctx.fill();
+    if (k >= 1) { ctx.globalAlpha = c3 * seg(t, 15, 0.5); ctx.fillStyle = '#E8E8E8'; ctx.beginPath(); ctx.arc(KP[0], KP[1], 14, 0, 7); ctx.fill(); } ctx.restore(); }
+  label('Nitrato de plata: un solo lado', 330, 600, '#C9D1D9', ...KP, fade(t, 14, 16.6));
+  // 4) taponamiento anterior (capas de gasa / esponja)
+  const c4 = fade(t, 16.8, 28.5, 0.4); if (c4 > 0) { ctx.save(); pl.clip(); ctx.globalAlpha = c4; ctx.lineCap = 'round'; const n = Math.round(1 + 6 * ease(seg(t, 17, 2.2)));
+    for (let i = 0; i < n; i++) { const [x0, y0] = pl.P(75, 690 - i * 6), [x1, y1] = pl.P(250, 686 - i * 6); ctx.strokeStyle = i % 2 ? '#E4DCCB' : '#F3EEE6'; ctx.lineWidth = 9; ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1, y1); ctx.stroke(); } ctx.restore(); }
+  label('Tapón anterior: 48 horas', 330, 520, '#E4DCCB', ...pl.P(160, 685), fade(t, 17, 21));
+  // 5) posterior: sangre a la faringe, Foley con balón, tapón anterior
+  const po = fade(t, 21, 29, 0.5);
+  if (po > 0) { const [rx, ry] = pl.P(570, 560); ring(rx, ry, 18 + 5 * pulse(t, 5), C.RED, po, 4);
+    for (let i = 0; i < 4; i++) { const u = ((t * 0.9) + i / 4) % 1; const [px, py] = pl.P(600 + 30 * u, 640 + 80 * u); drop(px, py, po * (1 - u) , '#C8102E'); }
+    label('Esfenopalatina: sangra hacia la faringe', 400, 205, C.RED, rx, ry, fade(t, 21, 25.5)); }
+  const fo = fade(t, 23.5, 28.8, 0.4); if (fo > 0) { ctx.save(); pl.clip(); ctx.globalAlpha = fo; ctx.lineCap = 'round'; const FP = [[40, 640], [140, 662], [300, 650], [450, 636], [560, 640]].map(p => pl.P(...p)); const fp = poly(FP);
+    fp.stroke(ctx, 0, ease(seg(t, 23.6, 1.8)), 9, '#56616E'); fp.stroke(ctx, 0, ease(seg(t, 23.6, 1.8)), 6, '#EEF2F5');
+    const [bx, by] = FP[4], r = 26 * ease(seg(t, 25.4, 1.2)) * pl.s / 0.7; if (r > 1) { const g = ctx.createRadialGradient(bx - r * 0.3, by - r * 0.3, r * 0.1, bx, by, r); g.addColorStop(0, 'rgba(255,255,255,0.95)'); g.addColorStop(1, 'rgba(140,165,190,0.95)'); ctx.fillStyle = g; ctx.beginPath(); ctx.arc(bx + 14, by, r, 0, 7); ctx.fill(); ctx.strokeStyle = '#56616E'; ctx.lineWidth = 2; ctx.stroke(); } ctx.restore();
+    label('Sonda Foley: balón con 8 a 10 mL', 400, 560, '#DDE7EE', ...pl.P(575, 640), fade(t, 25.4, 28.8)); }
+  // escalera
+  const SC = [['1. Compresión digital', 'Cabeza hacia adelante, 15 min', 5.5, C.AMBER], ['2. Vasoconstrictor tópico', 'Algodón 5 a 10 min', 9.4, C.AMBER], ['3. Nitrato de plata', 'Solo si ves el vaso', 13.4, C.GREEN], ['4. Taponamiento anterior', 'Gasa o Merocel, 48 h', 16.8, C.BLUE], ['Posterior: sonda Foley', 'Hospitalizar y antibiótico', 21, C.RED]];
+  SC.forEach(([ti, d, a, col], i) => { const k = seg(t, a, 0.5); if (k <= 0) return; const x = 620 + i * 12, y = 160 + i * 98, on = t >= a && (i === 4 || t < SC[i + 1][2]);
+    ctx.save(); ctx.globalAlpha = k; rrect(x, y, 600 - i * 12, 84, 14, on ? '#222B38' : '#161B22'); ctx.fillStyle = col; ctx.fillRect(x, y, 6, 84); text(ti, x + 24, y + 36, 21, col, 'bold'); text(d, x + 24, y + 64, 17, C.INK); ctx.restore(); });
+});
+
+// ================= orl-12 · hematoma septal: sangre bajo el pericondrio → cartílago sin irrigación → silla de montar; drenaje =================
+def('hematoma', 27, { head: 'servier/Sinus.png', nose: 'servier/Cavite_nasale.png' }, SV, t => {
+  K.title('Hematoma septal', 'Un golpe en la nariz que no se puede observar', C.RED);
+  const pl = Plate('head', 130, 390, 530, 400, 40, 150, 470); pl.draw(seg(t, 0, 0.7));
+  strokePoly(pl, [[395, 490], [395, 705]], '#8FB4C8', 4, seg(t, 0.4, 0.5) * 0.9);
+  // golpe
+  const gp = seg(t, 1, 0.4) * (1 - seg(t, 3, 0.8)); if (gp > 0) { const [x, y] = pl.P(395, 440); ctx.save(); ctx.globalAlpha = gp; ctx.strokeStyle = C.AMBER; ctx.lineWidth = 5; ctx.lineCap = 'round'; for (let k = 0; k < 8; k++) { const a = k * Math.PI / 4; ctx.beginPath(); ctx.moveTo(x + Math.cos(a) * 18, y + Math.sin(a) * 18); ctx.lineTo(x + Math.cos(a) * 40, y + Math.sin(a) * 40); ctx.stroke(); } ctx.restore(); }
+  label('Golpe en la nariz', 130, 215, C.AMBER, ...pl.P(395, 440), fade(t, 1, 4));
+  // sangre bajo el pericondrio: dos abultamientos que ocluyen ambas fosas
+  const hm = ease(seg(t, 4, 4));
+  if (hm > 0) { ctx.save(); pl.clip(); for (const [cx, sg] of [[372, 1], [418, -1]]) { const [x, y] = pl.P(cx + sg * 4 * hm, 610); ctx.fillStyle = `rgba(112,36,110,${0.85 * hm})`; ctx.strokeStyle = `rgba(70,20,80,${hm})`; ctx.lineWidth = 3; ctx.beginPath(); ctx.ellipse(x, y, (6 + 22 * hm) * pl.s, (20 + 60 * hm) * pl.s, 0, 0, 7); ctx.fill(); ctx.stroke(); } ctx.restore(); }
+  label('Abombamiento violáceo, blando y bilateral', 300, 190, C.VIOLET, ...pl.P(420, 600), fade(t, 5, 12));
+  label('No se retrae con descongestionante', 300, 235, C.RED, ...pl.P(370, 600), fade(t, 6.5, 12));
+  // cartílago sin irrigación: necrosis
+  const ne = ease(seg(t, 9.5, 3));
+  if (ne > 0) { ctx.save(); pl.clip(); ctx.strokeStyle = `rgba(40,30,30,${0.85 * ne})`; ctx.lineWidth = 12; ctx.setLineDash([14, 8]); ctx.beginPath(); const [a1, b1] = pl.P(395, 500), [a2, b2] = pl.P(395, 700); ctx.moveTo(a1, b1); ctx.lineTo(a2, b2); ctx.stroke(); ctx.restore(); }
+  label('Cartílago septal: se nutre del pericondrio', 300, 495, C.RED, ...pl.P(395, 690), fade(t, 9.5, 15));
+  const ck = fade(t, 11, 16, 0.4); if (ck > 0) { ctx.save(); ctx.globalAlpha = ck; ctx.strokeStyle = '#2A2F38'; ctx.lineWidth = 7; ctx.beginPath(); ctx.arc(590, 330, 34, 0, 7); ctx.stroke(); ctx.strokeStyle = C.RED; ctx.beginPath(); ctx.arc(590, 330, 34, -Math.PI / 2, -Math.PI / 2 + 2 * Math.PI * seg(t, 11, 4)); ctx.stroke(); text('24 a 48 h', 590, 336, 15, C.INK, 'bold', 'center'); ctx.restore(); }
+  // inset sagital: silla de montar
+  const sa = seg(t, 14, 0.8); if (sa > 0) { ctx.save(); ctx.globalAlpha = sa; rrect(660, 150, 580, 300, 16, '#161B22'); text('Necrosis: nariz en silla de montar', 680, 184, 20, C.RED, 'bold'); ctx.restore();
+    const pn = Plate('nose', 0, 0, 330, 520, 690, 200, 150); pn.draw(sa);
+    const dors = [[200, 20], [190, 120], [170, 230], [140, 330], [100, 420]], coll = [[200, 20], [190, 120], [172, 215], [118, 300], [88, 400]];
+    const k = ease(seg(t, 15.5, 2.5));
+    strokePoly(pn, dors, 'rgba(61,220,132,0.95)', 4, sa * (1 - 0.0), false, [10, 7]);
+    strokePoly(pn, dors.map((p, i) => [lerp(p[0], coll[i][0], k), lerp(p[1], coll[i][1], k)]), '#FF5A4E', 6, sa * k);
+    const [ax, ay] = pn.P(130, 270); arrow(ax + 40, ay - 30, ax + 8, ay - 2, C.RED, sa * k, 5);
+    ctx.save(); ctx.globalAlpha = sa; text('Dorso previo', 880, 270, 16, C.GREEN, 'bold'); text('Dorso hundido', 880, 300, 16, C.RED, 'bold'); text('Absceso septal si se infecta', 880, 360, 17, C.AMBER, 'bold'); ctx.restore(); }
+  // conducta
+  K.card(660, 464, 580, 118, C.GREEN, 'Drenaje quirúrgico urgente', ['Incisión del mucopericondrio y aspiración, idealmente en 24 horas', 'Después, taponamiento bilateral compresivo'], seg(t, 19, 0.5), 18);
+  K.card(40, 530, 470, 118, C.AMBER, 'Mientras se traslada', ['Analgesia, hielo, cabecera elevada', 'Amoxicilina con clavulánico'], seg(t, 21.5, 0.5), 18);
+  K.banner(660, 600, 580, 'No observar ni puncionar con aguja', C.RED, seg(t, 23.5, 0.5));
+});
+
+// ================= orl-13 · faringoamigdalitis: escala de McIsaac sobre la amígdala con exudado, conducta por puntaje =================
+def('mcisaac', 29, { th: 'blausen/faringe_normal_anormal.png' }, BL, t => {
+  K.title('Faringoamigdalitis aguda', 'La escala de McIsaac decide', C.AMBER);
+  const pl = Plate('th', 400, 80, 720, 700, 40, 150, 500); pl.draw(seg(t, 0, 0.7));
+  tag('Normal', pl.P(560, 100)[0], pl.dy + 24, '#C9D3DC', 16); tag('Faringoamigdalitis', pl.P(960, 100)[0] - 10, pl.dy + 24, '#FF8A80', 16);
+  const TON = pl.P(900, 420);
+  // criterios
+  const CR = [['Fiebre mayor de 38 °C', '+1', 3.5], ['Exudado amigdalino', '+1', 7], ['Adenopatías cervicales anteriores dolorosas', '+1', 10.5], ['Ausencia de tos', '+1', 14], ['Edad de 3 a 14 años', '+1', 17.5]];
+  const score = CR.reduce((s, c) => s + (t >= c[2] + 0.8 ? 1 : 0), 0);
+  rrect(580, 150, 660, 60, 14, '#161B22'); text('Puntaje de McIsaac', 600, 188, 22, C.INK, 'bold'); text(String(score), 1200, 194, 40, score >= 4 ? C.RED : score >= 2 ? C.AMBER : C.GREEN, 'bold', 'right');
+  CR.forEach(([ti, pt, a], i) => { const k = seg(t, a, 0.5); if (k <= 0) return; const y = 222 + i * 56; ctx.save(); ctx.globalAlpha = k; rrect(580, y, 660, 48, 12, '#1B2230'); ctx.fillStyle = C.AMBER; ctx.fillRect(580, y, 5, 48); text(ti, 604, y + 31, 19, C.INK); text(pt, 1216, y + 32, 22, C.GREEN, 'bold', 'right'); ctx.restore(); });
+  // anotaciones en la imagen real
+  const fv = fade(t, 3.5, 7, 0.4); if (fv > 0) { ctx.save(); ctx.globalAlpha = fv; rrect(60, 590, 200, 44, 12, '#3B1411'); text('Fiebre alta', 160, 619, 20, C.RED, 'bold', 'center'); ctx.restore(); }
+  const ex = fade(t, 7, 10.5, 0.4); if (ex > 0) { ring(TON[0], TON[1], 54 + 6 * pulse(t, 5), C.AMBER, ex, 5); label('Exudado blanco', 330, 600, C.AMBER, TON[0] - 20, TON[1] + 20, ex); }
+  const ad = fade(t, 10.5, 14, 0.4); if (ad > 0) { const [x, y] = pl.P(1060, 640); ctx.save(); ctx.globalAlpha = ad; ctx.strokeStyle = C.RED; ctx.lineWidth = 4; ctx.beginPath(); ctx.arc(x, y, 18 + 5 * pulse(t, 5), 0, 7); ctx.stroke(); ctx.restore(); label('Adenopatía anterior dolorosa', 330, 600, C.RED, x, y, ad); }
+  const tos = fade(t, 14, 17.5, 0.4); if (tos > 0) { ctx.save(); ctx.globalAlpha = tos; rrect(60, 590, 260, 44, 12, '#10261A'); text('Sin tos ni coriza', 190, 619, 20, C.GREEN, 'bold', 'center'); ctx.restore(); }
+  // decisión
+  const dc = seg(t, 20, 0.6);
+  if (dc > 0) { ctx.save(); ctx.globalAlpha = dc; rrect(580, 150, 660, 500, 16, '#0E1116'); ctx.restore(); ctx.save(); ctx.globalAlpha = dc; rrect(580, 150, 660, 500, 16, '#161B22'); text('Qué hacer según el puntaje', 604, 188, 22, C.INK, 'bold'); ctx.restore();
+    const RW = [['0 a 1', 'Sin test ni cultivo', 'Solo sintomático', C.GREEN, 0], ['2 a 3', 'Test rápido o cultivo', 'Antibiótico si es positivo', C.AMBER, 0], ['4 a 5', 'Test, cultivo o tratamiento empírico', 'Penicilina benzatina o amoxicilina', C.RED, 1]];
+    RW.forEach(([p, d, tr, col, hot], i) => { const y = 214 + i * 86, k = seg(t, 20.4 + i * 0.5, 0.5); ctx.save(); ctx.globalAlpha = dc * k; rrect(604, y, 612, 76, 12, hot && t > 22.5 ? 'rgba(255,90,78,0.2)' : '#1B2230'); ctx.fillStyle = col; ctx.fillRect(604, y, 6, 76); text(p, 628, y + 46, 30, col, 'bold'); text(d, 740, y + 34, 18, C.INK, 'bold'); text(tr, 740, y + 60, 17, C.MUTED); if (hot && t > 22.5) { ctx.strokeStyle = C.RED; ctx.lineWidth = 3; ctx.beginPath(); ctx.roundRect(604, y, 612, 76, 12); ctx.stroke(); } ctx.restore(); });
+    K.card(604, 482, 612, 128, C.BLUE, 'Antibiótico: diez días', ['Penicilina benzatina intramuscular única, o amoxicilina 10 días', 'El objetivo es evitar la fiebre reumática'], seg(t, 24, 0.5), 18); }
+  K.banner(580, 660, 660, 'Sin tos ni coriza: casi siempre es viral', C.GREEN, 0 * seg(t, 26, 0.5));
+});
+
+// ================= orl-14 · absceso periamigdalino: pilar abombado, úvula al lado sano, trismus; otras infecciones profundas =================
+def('absceso', 28, { mouth: 'blausen/boca_amigdalas.png' }, BL, t => {
+  K.title('Infecciones profundas del cuello', 'Del absceso periamigdalino a la vía aérea', C.RED);
+  const pl = Plate('mouth', 0, 120, 690, 640, 40, 150, 440); pl.draw(seg(t, 0, 0.7));
+  // úvula desplazada hacia el lado sano (izquierda de la pantalla)
+  const ab = ease(seg(t, 4, 5));
+  if (ab > 0) { ctx.save(); pl.clip(); const x = 352, y = 366; const g = ctx.createRadialGradient(x, y, 4, x, y, 80 * ab); g.addColorStop(0, 'rgba(255,214,120,0.95)'); g.addColorStop(0.55, 'rgba(230,80,70,0.85)'); g.addColorStop(1, 'rgba(200,40,50,0)');
+    ctx.fillStyle = g; ctx.beginPath(); ctx.ellipse(x, y, 70 * ab, 60 * ab, 0, 0, 7); ctx.fill(); ctx.restore(); arrow(246, 300, 246 - 56 * ab, 300, C.AMBER, ab, 5); }
+  label('Pilar anterior abombado', 380, 620, C.RED, 352, 366, fade(t, 5, 12));
+  label('Úvula hacia el lado sano', 130, 600, C.AMBER, 200, 300, fade(t, 6.5, 12));
+  const tr = fade(t, 8, 13, 0.4); if (tr > 0) { const [jx, jy] = pl.P(345, 140), [kx, ky] = pl.P(345, 760); arrow(jx + 120, jy + 10, jx + 120, jy + 80, C.AMBER, tr, 5); arrow(kx + 120, ky - 10, kx + 120, ky - 80, C.AMBER, tr, 5); ctx.save(); ctx.globalAlpha = tr; tag('Trismus', jx + 120, jy + 150, C.AMBER, 18); ctx.restore(); }
+  // panel
+  K.card(540, 150, 700, 112, C.RED, 'Absceso periamigdalino', ['Trismus, voz en papa caliente, úvula al lado sano', 'Drenaje, antibiótico endovenoso y dexametasona'], seg(t, 4.5, 0.5), 18);
+  const R = [['Retrofaríngeo', 'Lactante: fiebre, tortícolis, sialorrea', 'Rx: prevertebral ancho; TAC; drenaje en pabellón', C.AMBER, 14.5], ['Parafaríngeo', 'Trismus y masa en el ángulo mandibular', 'Riesgo: carótida y síndrome de Lemierre', C.VIOLET, 18], ['Angina de Ludwig', 'Molares inferiores; induración leñosa', 'Primero la vía aérea', C.RED, 21.5]];
+  R.forEach(([ti, l1, l2, col, a], i) => { const k = seg(t, a, 0.5); if (k <= 0) return; const y = 282 + i * 112; ctx.save(); ctx.globalAlpha = k; rrect(540, y, 700, 100, 14, '#161B22'); ctx.fillStyle = col; ctx.fillRect(540, y, 6, 100); text(ti, 562, y + 32, 21, col, 'bold'); text(l1, 562, y + 62, 17, C.INK); text(l2, 562, y + 86, 16, C.MUTED); ctx.restore(); });
+  K.banner(540, 630, 700, 'Estridor o induración leñosa: asegurar la vía aérea', C.RED, seg(t, 24.5, 0.5));
+});
+
+// ================= orl-15 · adenoides y amígdalas: obstrucción del cavum, respirador bucal, escala de Brodsky =================
+def('adenoides', 27, { sag: 'blausen/faringe_sagital.png', mouth: 'blausen/boca_amigdalas.png' }, BL, t => {
+  K.title('Hipertrofia adenoamigdalina', 'Respirador bucal, ronquido y apneas', C.AMBER);
+  const p1 = Plate('sag', 0, 230, 880, 900, 40, 140, 360); p1.draw(seg(t, 0, 0.7));
+  const p2 = Plate('mouth', 0, 120, 690, 640, 430, 140, 340); p2.draw(seg(t, 0.4, 0.7));
+  // 1) adenoides crecen en el cavum
+  const g = ease(seg(t, 1.5, 4));
+  if (g > 0) { ctx.save(); p1.clip(); const [x, y] = p1.P(180, 450); ctx.fillStyle = 'rgba(230,130,155,0.93)'; ctx.strokeStyle = '#9B3A55'; ctx.lineWidth = 3; ctx.beginPath(); ctx.ellipse(x, y, (20 + 80 * g) * p1.s, (28 + 70 * g) * p1.s, 0.2, 0, 7); ctx.fill(); ctx.stroke(); ctx.restore(); }
+  label('Adenoides en el cavum', 130, 540, C.AMBER, ...p1.P(180, 450), fade(t, 2, 8));
+  // aire por la nariz: se bloquea
+  const air = poly([p1.P(860, 430), p1.P(600, 440), p1.P(420, 470), p1.P(320, 520), p1.P(280, 640), p1.P(250, 800)]);
+  dots(air, t, fade(t, 1, 5.5, 0.3) * (1 - 0.7 * g), '#7FC8FF', 9, 0.25, 4);
+  const xm = seg(t, 5.5, 0.4) * (1 - seg(t, 12, 0.6)); if (xm > 0) { const [a, b] = p1.P(310, 500); xmark(a, b, 12, C.RED, xm); }
+  const mb = fade(t, 6, 14, 0.4); if (mb > 0) { const mp = poly([p1.P(800, 830), p1.P(600, 900), p1.P(380, 850), p1.P(260, 800), p1.P(240, 900)]); dots(mp, t, mb, '#FFC247', 8, 0.3, 4); label('Respira por la boca', 170, 580, C.AMBER, ...p1.P(500, 880), fade(t, 6.5, 14)); }
+  // 2) Brodsky: las amígdalas crecen hacia la línea media
+  const bs = [[8, 30, 1], [10.5, 55, 2], [13, 95, 3], [15.5, 140, 4]];
+  let gr = 0, rad = 18; bs.forEach(([a, r, n]) => { if (t >= a) { gr = n; rad = lerp(rad, r, 1); } });
+  const rr = bs.reduce((acc, [a, r]) => acc + (t >= a ? 0 : 0), 0);
+  const cur = (() => { let r0 = 18; for (const [a, r] of bs) { r0 = lerp(r0, r, ease(seg(t, a, 1.2))); } return r0; })();
+  if (t > 7.5) { ctx.save(); p2.clip(); ctx.globalAlpha = seg(t, 7.5, 0.6); for (const [cx, cy] of [[120, 372], [420, 355]]) { const [x, y] = p2.P(cx, cy); ctx.fillStyle = 'rgba(214,92,110,0.9)'; ctx.strokeStyle = '#7C2438'; ctx.lineWidth = 2; ctx.beginPath(); ctx.ellipse(x, y, cur * 0.55 * p2.s * 2, cur * 0.5 * p2.s * 2, 0, 0, 7); ctx.fill(); ctx.stroke(); } ctx.restore(); }
+  if (t > 8) { ctx.save(); ctx.globalAlpha = seg(t, 8, 0.5); tag('Brodsky ' + gr, 600, 175, gr === 4 ? C.RED : C.AMBER, 22); ctx.restore(); }
+  label('Amígdalas en beso: grado 4', 600, 520, C.RED, ...p2.P(270, 372), fade(t, 15.8, 22));
+  // panel inferior
+  K.card(40, 548, 380, 128, C.AMBER, 'SAHOS infantil', ['Ronquido y pausas; sueño inquieto', 'De día: hiperactivo, no somnoliento'], seg(t, 9, 0.5), 17);
+  K.card(430, 488, 340, 188, C.GREEN, 'Brodsky', ['1: dentro de las fosas', '2: pasan los pilares', '3: más de la mitad', '4: se tocan'], seg(t, 11, 0.5), 17);
+  K.card(790, 140, 450, 150, C.RED, 'Indicación absoluta', ['SAHOS o amígdalas grado 4', 'Neoplasia o hemorragia severa'], seg(t, 17.5, 0.5), 18);
+  K.card(790, 304, 450, 180, C.BLUE, 'Paradise: basta uno', ['7 episodios en 1 año', '5 por año durante 2 años', '3 por año durante 3 años'], seg(t, 20, 0.5), 18);
+  K.banner(790, 502, 450, 'Cavum: columna de aire reducida', C.VIOLET, seg(t, 23.5, 0.5));
+});
+
+// ================= orl-16 · cuerdas vocales: nódulos, pólipo, edema de Reinke y la sospecha de cáncer =================
+def('cuerdas', 27, { cv: 'servier/Cordes_vocales1.png' }, SV, t => {
+  K.title('Disfonía', 'Cuatro lesiones de la cuerda vocal', C.VIOLET);
+  const pl = Plate('cv', 0, 0, 816, 760, 40, 150, 520); pl.draw(seg(t, 0, 0.7));
+  const img = I('cv');
+  // aducción durante la fonación (las cuerdas se acercan): recortes de las cuerdas desplazados hacia la línea media
+  const ph = 0.5 + 0.5 * Math.sin(t * 2.6), add = ph * (t < 20 ? 1 : 0.4) * 38;
+  const sprite = (sx, sw, dx) => { ctx.save(); pl.clip(); const [x, y] = pl.P(sx, 190); ctx.drawImage(img, sx, 190, sw, 540, x + dx * pl.s, y, sw * pl.s, 540 * pl.s); ctx.restore(); };
+  if (t > 1.2) { sprite(250, 95, add * 1.0); sprite(480, 90, -add * 1.0); }
+  const NOD = ease(seg(t, 4, 2.5)) * (1 - ease(seg(t, 9.5, 1)));
+  const nodule = (x, y, r, a, col = 'rgba(247,236,226,0.95)') => { if (a <= 0) return; ctx.save(); pl.clip(); const [X, Y] = pl.P(x, y); ctx.globalAlpha = a; ctx.fillStyle = col; ctx.strokeStyle = 'rgba(170,110,100,0.9)'; ctx.lineWidth = 2; ctx.beginPath(); ctx.ellipse(X, Y, r * pl.s, r * 1.2 * pl.s, 0, 0, 7); ctx.fill(); ctx.stroke(); ctx.restore(); };
+  // los nódulos acompañan el movimiento de la cuerda
+  nodule(322 + add, 372, 16 * NOD + 1, NOD); nodule(500 - add, 372, 16 * NOD + 1, NOD);
+  label('Nódulos: bilaterales y simétricos', 160, 655, C.AMBER, ...pl.P(400, 372), fade(t, 5, 9.5));
+  const hg = fade(t, 7, 9.5, 0.3); if (hg > 0) { const [x, y] = pl.P(411, 300); ctx.save(); ctx.globalAlpha = hg; text('Cierre en reloj de arena', x, y, 15, C.INK, 'bold', 'center'); ctx.restore(); }
+  // pólipo unilateral
+  const PO = ease(seg(t, 10, 2)) * (1 - ease(seg(t, 14, 1)));
+  nodule(494 - add, 430, 22 * PO + 1, PO, 'rgba(236,120,120,0.95)');
+  label('Pólipo: unilateral, voz bitonal', 160, 655, C.RED, ...pl.P(480, 430), fade(t, 10.5, 14.3));
+  // edema de Reinke: ambas cuerdas gelatinosas
+  const RE = ease(seg(t, 14.5, 2)) * (1 - ease(seg(t, 19.3, 1)));
+  if (RE > 0) { ctx.save(); pl.clip(); ctx.globalAlpha = 0.62 * RE; ctx.fillStyle = '#E9E2B8'; for (const [pts] of [[[[300, 215], [345, 215], [350 + 14 * RE, 450], [335, 700], [295, 700]]], [[[470, 215], [515, 215], [520, 700], [490, 700], [470 - 14 * RE, 450]]]]) { ctx.beginPath(); pts.forEach(([x, y], i) => { const [X, Y] = pl.P(x, y); i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); }); ctx.fill(); } ctx.restore(); }
+  label('Reinke: edema gelatinoso, voz grave', 160, 655, C.VIOLET, ...pl.P(330, 520), fade(t, 15, 19.3));
+  // sospecha de cáncer: lesión blanquecina irregular
+  const CA = ease(seg(t, 19.8, 2));
+  if (CA > 0) { ctx.save(); pl.clip(); const [x, y] = pl.P(490 - add * 0.4, 400); ctx.fillStyle = 'rgba(245,245,238,0.95)'; ctx.strokeStyle = '#B03A3A'; ctx.lineWidth = 3; ctx.beginPath(); for (let k = 0; k < 14; k++) { const a = k / 14 * Math.PI * 2, r = (22 + 8 * rnd(k)) * pl.s * 1.6 * CA; k ? ctx.lineTo(x + Math.cos(a) * r * 0.8, y + Math.sin(a) * r * 1.5) : ctx.moveTo(x + Math.cos(a) * r * 0.8, y + Math.sin(a) * r * 1.5); } ctx.closePath(); ctx.fill(); ctx.stroke(); ctx.restore(); }
+  label('Irregular, blanquecina: biopsia', 160, 655, C.RED, ...pl.P(490, 400), fade(t, 20.2, 27));
+  // panel
+  const card = (col, ti, ls, a, b) => K.card(600, 150, 640, 150, col, ti, ls, fade(t, a, b, 0.4), 18);
+  card(C.AMBER, 'Nódulos vocales', ['Abuso vocal: profesoras, cantantes', 'Fonoaudiología; cirugía inicial contraindicada'], 4, 9.8);
+  card(C.RED, 'Pólipo', ['Un golpe: grito o tos violenta', 'No responde a fonoaudiología: microcirugía'], 10, 14.5);
+  card(C.VIOLET, 'Edema de Reinke', ['Mujer fumadora, voz grave y áspera', 'Dejar el tabaco y decorticación'], 14.5, 19.5);
+  card(C.RED, 'Disfonía de más de 3 semanas', ['Fumador: sospecha de cáncer de laringe', 'Nasofibroscopía obligatoria, sin probar antibióticos'], 19.8, 27);
+  K.card(600, 330, 640, 120, C.BLUE, 'Disfonía aguda', ['Laringitis viral o fonotrauma: reposo vocal relativo', 'Hidratación; sin antibióticos'], seg(t, 22.5, 0.5), 18);
+});
+
+// ================= orl-17 · croup (subglotis, campanario) vs epiglotitis (epiglotis hinchada, no tocar) =================
+def('croup', 28, { lar: 'servier/larynx-front-cut.png', sag: 'blausen/faringe_sagital.png' }, SV + ' / Blausen.com staff (2014), CC BY 3.0', t => {
+  K.title('Obstrucción de la vía aérea del niño', 'Croup versus epiglotitis', C.RED);
+  const pa = Plate('lar', 0, 0, 338, 720, 40, 150, 230); pa.draw(seg(t, 0, 0.7));
+  const pb = Plate('sag', 0, 850, 520, 450, 290, 150, 430); pb.draw(seg(t, 0.3, 0.7));
+  tag('Croup', 155, 168, C.AMBER, 16); tag('Epiglotitis', 505, 168, C.RED, 16);
+  // croup: edema subglótico (campanario) que cierra la luz
+  const ed = ease(seg(t, 1.5, 4));
+  if (ed > 0) { ctx.save(); pa.clip(); ctx.fillStyle = `rgba(214,70,80,${0.88 * ed})`; for (const sg of [-1, 1]) { const cx = sg < 0 ? 112 : 222; ctx.beginPath(); [[cx, 395], [cx - sg * 6 * -1 * 0, 395], [cx - sg * (6 + 46 * ed), 440], [cx - sg * (10 + 52 * ed), 520], [cx - sg * 4, 600], [cx, 600]].forEach(([x, y], i) => { const [X, Y] = pa.P(x, y); i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); }); ctx.closePath(); ctx.fill(); } ctx.restore(); }
+  label('Edema subglótico: el cricoides no se expande', 270, 640, C.RED, ...pa.P(112, 500), fade(t, 2.5, 8.5));
+  const air = fade(t, 3, 8.5, 0.4); if (air > 0) { const [x, y] = pa.P(167, 260); for (let i = 0; i < 3; i++) { const u = ((t * 0.8) + i / 3) % 1; arrow(x - 24 + i * 24, y + 20 - u * 0, x - 24 + i * 24, y + 52, C.BLUE, air * (1 - u * 0.5), 3); } text('Estridor inspiratorio', x, y - 14, 15, C.BLUE, 'bold', 'center'); }
+  // epiglotitis: epiglotis hinchada, babeo, no tocar
+  const ep = ease(seg(t, 9.5, 3.5));
+  if (ep > 0) { ctx.save(); pb.clip(); const [x, y] = pb.P(285, 990); ctx.fillStyle = `rgba(214,60,70,${0.92 * ep})`; ctx.strokeStyle = '#7C1D26'; ctx.lineWidth = 3; ctx.beginPath(); ctx.ellipse(x, y, (18 + 26 * ep) * pb.s, (35 + 50 * ep) * pb.s, 0.5, 0, 7); ctx.fill(); ctx.stroke(); ctx.restore(); }
+  label('Epiglotis hinchada: signo del pulgar', 560, 560, C.RED, ...pb.P(290, 1000), fade(t, 11, 19));
+  const bj = fade(t, 15, 21, 0.4); if (bj > 0) { ctx.save(); ctx.globalAlpha = bj; const [x, y] = pb.P(400, 1090); ctx.strokeStyle = '#C9D1D9'; ctx.lineWidth = 12; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(x + 40, y - 10); ctx.lineTo(x - 70, y + 20); ctx.stroke(); xmark(x - 15, y + 4, 24, C.RED, 1); ctx.restore(); text('Bajalenguas: prohibido', x, y + 70, 17, C.RED, 'bold', 'center'); }
+  // panel
+  K.card(750, 150, 490, 130, C.AMBER, 'Croup: parainfluenza', ['Tos perruna, estridor inspiratorio, disfonía', 'Dexametasona a todos; adrenalina desde Taussig II'], seg(t, 3, 0.5), 18);
+  K.card(750, 294, 490, 130, C.RED, 'Epiglotitis: urgencia', ['Fiebre alta, babeo y postura en trípode, sin tos', 'Pabellón con anestesista; ceftriaxona después'], seg(t, 11, 0.5), 18);
+  const tb = seg(t, 20, 0.6); if (tb > 0) { ctx.save(); ctx.globalAlpha = tb; rrect(750, 520, 490, 160, 14, '#161B22'); const cols = [['', 'Croup', 'Epiglotitis'], ['Inicio', 'Días de coriza', 'Horas, fiebre'], ['Tos', 'Perruna', 'Ausente'], ['Babeo', 'No', 'Sí']];
+    cols.forEach((r, i) => r.forEach((c, j) => text(c, [770, 920, 1090][j], 552 + i * 34, 16, i === 0 ? (j === 1 ? C.AMBER : j === 2 ? C.RED : C.MUTED) : (j === 0 ? C.MUTED : C.INK), i === 0 || j === 0 ? 'bold' : ''))); ctx.restore(); }
+  K.banner(750, 436, 490, 'Epiglotitis: la vía aérea primero', C.RED, seg(t, 17, 0.5));
+});
+
+// ================= orl-18 · pila de botón en la nariz: corriente, quemadura alcalina, perforación en 2 horas; no irrigar =================
+def('pila', 26, { nose: 'servier/Cavite_nasale.png' }, SV, t => {
+  K.title('Pila de botón', 'La urgencia que se parece a un juguete', C.RED);
+  const pl = Plate('nose', 0, 330, 740, 570, 40, 150, 520); pl.draw(seg(t, 0, 0.7));
+  const BAT = pl.P(180, 640), SEP = pl.P(240, 600);
+  // pila que entra y queda apoyada en el piso/tabique
+  const en = ease(seg(t, 1, 1.8)), bx = lerp(pl.P(0, 620)[0] - 10, BAT[0], en), by = lerp(pl.P(0, 560)[1], BAT[1], en);
+  // quemadura que se propaga
+  const bu = ease(seg(t, 4, 9));
+  if (bu > 0) { ctx.save(); pl.clip(); const r = (14 + 70 * bu) * pl.s * 1.4; const g = ctx.createRadialGradient(BAT[0], BAT[1], 4, BAT[0], BAT[1], r); g.addColorStop(0, `rgba(30,10,10,${0.9 * bu})`); g.addColorStop(0.5, `rgba(150,30,40,${0.75 * bu})`); g.addColorStop(1, 'rgba(255,255,255,0)'); ctx.fillStyle = g; ctx.beginPath(); ctx.arc(BAT[0], BAT[1], r, 0, 7); ctx.fill(); ctx.restore(); }
+  // pila
+  ctx.save(); ctx.fillStyle = '#C9D1D9'; ctx.strokeStyle = '#4A525C'; ctx.lineWidth = 3; ctx.beginPath(); ctx.ellipse(bx, by, 18, 10, 0.3, 0, 7); ctx.fill(); ctx.stroke(); ctx.fillStyle = '#7A828C'; ctx.beginPath(); ctx.ellipse(bx, by, 11, 6, 0.3, 0, 7); ctx.fill(); ctx.restore();
+  const cu = fade(t, 3.5, 12, 0.4); if (cu > 0) for (let i = 0; i < 6; i++) { const a = i * 1.05 + t * 1.4, r = 26 + 18 * ((t * 0.7 + i / 6) % 1); ctx.save(); ctx.globalAlpha = cu * (1 - ((t * 0.7 + i / 6) % 1)); ctx.strokeStyle = C.AMBER; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(bx + Math.cos(a) * 20, by + Math.sin(a) * 14); ctx.lineTo(bx + Math.cos(a) * r, by + Math.sin(a) * r * 0.8); ctx.stroke(); ctx.restore(); }
+  label('Pila húmeda = circuito: corriente continua', 300, 640, C.AMBER, bx, by, fade(t, 3, 8.5));
+  label('Quemadura alcalina: hidróxido de potasio', 300, 640, C.RED, ...pl.P(210, 620), fade(t, 8.8, 13));
+  // reloj de 2 horas y perforación
+  const ck = fade(t, 6, 14.5, 0.4); if (ck > 0) { ctx.save(); ctx.globalAlpha = ck; ctx.strokeStyle = '#2A2F38'; ctx.lineWidth = 8; ctx.beginPath(); ctx.arc(590, 330, 36, 0, 7); ctx.stroke(); ctx.strokeStyle = C.RED; ctx.beginPath(); ctx.arc(590, 330, 36, -Math.PI / 2, -Math.PI / 2 + 2 * Math.PI * seg(t, 6, 6)); ctx.stroke(); text('2 horas', 590, 336, 15, C.INK, 'bold', 'center'); ctx.restore(); }
+  const pf = ease(seg(t, 12, 2)); if (pf > 0) { ctx.save(); pl.clip(); ctx.strokeStyle = '#111'; ctx.lineWidth = 5; ctx.setLineDash([6, 5]); ctx.beginPath(); ctx.arc(SEP[0] + 22, SEP[1] - 18, 18 * pf, 0, 7); ctx.stroke(); ctx.restore(); }
+  label('Necrosis del tabique: perforación en 2 horas', 300, 610, C.RED, SEP[0] + 22, SEP[1] - 18, fade(t, 13, 18));
+  // prohibido irrigar
+  const ir = fade(t, 15, 21, 0.4); if (ir > 0) { const [x, y] = pl.P(70, 520); drop(x, y, ir, '#7FC8FF'); drop(x + 14, y + 22, ir, '#7FC8FF'); drop(x - 12, y + 34, ir, '#7FC8FF'); xmark(x + 4, y + 18, 34, C.RED, ir); label('No irrigar: el agua conduce la corriente', 300, 235, C.RED, x + 4, y + 18, ir); }
+  // panel
+  K.card(600, 150, 640, 120, C.RED, 'Pila de botón: emergencia quirúrgica', ['Nariz u oído: necrosis y perforación en 2 horas', 'En la Rx: signo del doble contorno (halo)'], seg(t, 4, 0.5), 18);
+  K.card(600, 284, 640, 120, C.GREEN, 'Extracción inmediata', ['Bajo visión directa por el otorrinolaringólogo', 'Anestesia general si el niño no coopera'], seg(t, 16, 0.5), 18);
+  K.card(600, 418, 640, 150, C.AMBER, 'Otros cuerpos extraños', ['Semilla en el oído: no lavar, se hincha', 'Insecto vivo: matarlo primero', 'Rinorrea fétida unilateral: cuerpo extraño nasal'], seg(t, 19, 0.5), 18);
+  K.banner(600, 586, 640, 'Maní aspirado: bronquio derecho', C.BLUE, seg(t, 22.5, 0.5));
+});
+
+// ================= orl-19 · glándulas salivales: lito submandibular, parotiditis supurada, tumor parotídeo =================
+def('salivales', 27, { sg: 'blausen/glandulas_salivales.png' }, BL, t => {
+  K.title('Glándulas salivales', 'Tres glándulas, tres cuadros', C.AMBER);
+  const pl = Plate('sg', 350, 560, 1060, 700, 40, 150, 540); pl.draw(seg(t, 0, 0.7));
+  const SUB = [1030, 1150], WH = [[1040, 1130], [1090, 1100], [1140, 1075], [1175, 1062]], STE = [[900, 830], [980, 855], [1040, 872], [1075, 885]];
+  const wp = poly(WH.map(p => pl.P(...p))), sp = poly(STE.map(p => pl.P(...p)));
+  // 1) submandibular: lito en el Wharton, aumento de volumen al comer
+  const a1 = fade(t, 0.8, 8.5, 0.5);
+  if (a1 > 0) { ctx.save(); pl.clip(); ctx.globalAlpha = a1; ctx.lineCap = 'round'; wp.stroke(ctx, 0, 1, 7, '#F4E7D0'); ctx.restore(); }
+  const li = fade(t, 1.5, 8.5, 0.4); if (li > 0) { const [x, y] = pl.P(1118, 1090); ell(x, y, 7, 6, '#FFFFFF', li); ring(x, y, 9, '#7A828C', li, 2); }
+  label('Lito en el conducto de Wharton', 130, 640, C.AMBER, ...pl.P(1118, 1090), fade(t, 2, 8.5));
+  const eat = fade(t, 3.5, 8.5, 0.4); if (eat > 0) { const sw = 0.5 + 0.5 * Math.sin((t - 3.5) * 2.2); const [x, y] = pl.P(...SUB); ctx.save(); pl.clip(); ctx.globalAlpha = 0.55 * eat; ctx.fillStyle = '#FF5A4E'; ctx.beginPath(); ctx.ellipse(x, y, (30 + 18 * sw) * 0.9, (20 + 12 * sw) * 0.9, 0.4, 0, 7); ctx.fill(); ctx.restore(); tag('Al comer: dolor e hinchazón', pl.dx + 440, pl.dy + 340, C.AMBER, 16); }
+  // 2) parotiditis supurada: bacterias suben por el Stenon, pus en la papila
+  const a2 = fade(t, 9, 16.5, 0.5);
+  if (a2 > 0) { ctx.save(); pl.clip(); ctx.globalAlpha = 0.5 * a2; ctx.fillStyle = '#FF3B30'; ctx.beginPath(); const [x, y] = pl.P(830, 880); ctx.ellipse(x, y, 62, 92, 0.1, 0, 7); ctx.fill(); ctx.restore(); dots(sp, t, a2, '#2E7D32', 8, 0.5, 4, 0.05, 1, true);
+    const [dx, dy] = pl.P(1075, 885); for (let i = 0; i < 3; i++) { const u = ((t * 0.9) + i / 3) % 1; drop(dx + 4, dy + 10 + u * 40, a2 * (1 - u), '#E8D27A'); } }
+  label('Parotiditis: pus por la papila de Stenon', 300, 640, C.RED, ...pl.P(1075, 885), fade(t, 10, 16.5));
+  // 3) tumor parotídeo: nódulo firme, móvil, indoloro; nervio facial
+  const a3 = fade(t, 17, 26.5, 0.5);
+  if (a3 > 0) { const [x, y] = pl.P(830, 820), g = ease(seg(t, 17.2, 2)); ctx.save(); pl.clip(); ctx.globalAlpha = a3; ctx.fillStyle = '#F2E8C9'; ctx.strokeStyle = '#6B5B2E'; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(x, y, 26 * g, 0, 7); ctx.fill(); ctx.stroke();
+    ctx.strokeStyle = C.AMBER; ctx.lineWidth = 3; for (const [ox, oy] of [[90, -50], [100, 0], [90, 60], [70, 110]]) { ctx.beginPath(); ctx.moveTo(x - 10, y + 6); ctx.quadraticCurveTo(x + ox * 0.5, y + oy * 0.4, x + ox * pl.s * 1.6, y + oy * pl.s * 1.6); ctx.stroke(); } ctx.restore(); }
+  label('Adenoma pleomorfo: firme, móvil, indoloro', 330, 640, C.GREEN, ...pl.P(830, 820), fade(t, 18, 26));
+  label('Ramas del nervio facial', 160, 190, C.AMBER, ...pl.P(930, 770), fade(t, 20, 26));
+  // panel
+  const card = (col, ti, ls, a, b) => K.card(620, 150, 620, 140, col, ti, ls, fade(t, a, b, 0.4), 18);
+  card(C.AMBER, 'Cólico salival: submandibular', ['Dolor al comer; cede en 1 a 2 horas', 'Hidratación, calor, masaje, limón; lito mayor de 5 mm: extracción'], 1, 9);
+  card(C.RED, 'Parotiditis supurada', ['Anciano deshidratado o postoperado; S. aureus', 'Hidratación endovenosa y cloxacilina'], 9, 17);
+  card(C.GREEN, 'Tumor salival: regla del 80 %', ['80 % en la parótida; la mayoría son benignos', 'Parálisis facial: sospecha de cáncer'], 17, 27);
+  K.card(620, 306, 620, 130, C.BLUE, 'Cuanto más pequeña la glándula, más maligno', ['Parótida: adenoma pleomorfo', 'Parotidectomía superficial; PAAF antes'], seg(t, 21.5, 0.5), 18);
+});
+
+// ================= orl-20 · cáncer de cabeza y cuello: cinco banderas rojas en la vía aerodigestiva y regla de los 80 =================
+def('cancerorl', 28, { sag: 'blausen/faringe_sagital.png' }, BL, t => {
+  K.title('Cáncer de cabeza y cuello', 'Cinco banderas rojas y la regla de los 80', C.RED);
+  const pl = Plate('sag', 0, 250, 880, 1100, 40, 140, 360); pl.draw(seg(t, 0, 0.7));
+  const FL = [['Disfonía de más de 3 semanas', 'Fumador: cáncer de laringe', [235, 1185], 2.5], ['Otalgia unilateral, otoscopía normal', 'Dolor referido: base de lengua, amígdala', [200, 830], 5], ['Úlcera o placa que no cicatriza', 'Leucoplaquia o eritroplasia, más de 2 semanas', [510, 830], 7.5], ['Odinofagia o disfagia unilateral', 'Progresiva, con cuerpo extraño', [175, 1070], 10], ['Obstrucción nasal unilateral', 'Epistaxis u otitis con efusión: cavum', [170, 430], 12.5]];
+  FL.forEach(([ti, d, [x, y], a], i) => { const k = seg(t, a, 0.5); if (k <= 0) return; const [X, Y] = pl.P(x, y), P = pulse(t + i, 4);
+    ctx.save(); pl.clip(); ctx.globalAlpha = k; ctx.fillStyle = `rgba(255,70,60,${0.35 + 0.25 * P})`; ctx.beginPath(); ctx.arc(X, Y, 20 + 6 * P, 0, 7); ctx.fill(); ctx.fillStyle = C.RED; ctx.beginPath(); ctx.arc(X, Y, 11, 0, 7); ctx.fill(); text(String(i + 1), X, Y + 5, 14, '#FFF', 'bold', 'center'); ctx.restore();
+    const yy = 150 + i * 62, on = t >= a && (i === 4 || t < FL[i + 1][3]); ctx.save(); ctx.globalAlpha = k; rrect(430, yy, 810, 54, 12, on ? '#222B38' : '#161B22'); ctx.fillStyle = C.RED; ctx.beginPath(); ctx.arc(458, yy + 27, 15, 0, 7); ctx.fill(); text(String(i + 1), 458, yy + 33, 17, '#FFF', 'bold', 'center'); text(ti, 486, yy + 24, 19, C.INK, 'bold'); text(d, 486, yy + 45, 15, C.MUTED); ctx.restore(); });
+  // regla de los 80 (masa cervical del mayor de 40)
+  const R = seg(t, 15.5, 0.6); if (R > 0) { ctx.save(); ctx.globalAlpha = R; rrect(430, 150, 810, 330, 16, '#0E1116'); ctx.restore(); ctx.save(); ctx.globalAlpha = R; rrect(430, 150, 810, 330, 16, '#161B22'); text('Masa cervical dura, mayor de 40 años y más de 3 semanas', 452, 184, 20, C.INK, 'bold');
+    const rows = [['100 %', 'Masa cervical persistente', 1, C.BLUE], ['80 %', 'Neoplásicas', 0.8, C.AMBER], ['64 %', 'Malignas (80 % de las neoplásicas)', 0.64, C.RED], ['51 %', 'Metástasis ganglionares', 0.512, C.RED], ['41 %', 'Carcinoma escamoso de la vía aerodigestiva', 0.41, C.VIOLET]];
+    rows.forEach(([p, ti, w, col], i) => { const k = ease(seg(t, 16.2 + i * 0.9, 0.8)), y = 206 + i * 52; rrect(452, y, 770 * w * k, 40, 10, col); text(p, 466, y + 27, 20, C.BG, 'bold'); if (w > 0.95) text(ti, 540, y + 27, 16, C.BG, 'bold'); else text(ti, 452 + Math.max(110, 770 * w * k + 12), y + 27, 16, C.INK); });
+    ctx.restore(); }
+  K.banner(430, 504, 810, 'Estudio: nasofibroscopía, imágenes y PAAF; nunca biopsia abierta', C.RED, seg(t, 21.5, 0.5));
+  K.card(430, 566, 810, 100, C.GREEN, 'Prevención', ['Cesar el tabaco y reducir el alcohol; control del reflujo', 'En el niño, el ganglio doloroso con fiebre suele ser bacteriano o reactivo'], seg(t, 23.5, 0.5), 17);
+});
+
+/*@@SCENES@@*/
+
+const S = SCENES[V];
+window.SCENE = { duration: S.dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); S.fn(t); credit(S.cred); };
+LOAD(Object.fromEntries(Object.entries(S.imgs).map(([k, v]) => [k, AS + v])));
+</script>
+</body></html>

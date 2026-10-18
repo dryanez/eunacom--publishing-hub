@@ -121,9 +121,11 @@ module.exports = {
         { show: ['sus', 'mov'], note: 'La trampa del examen físico',
           say: 'Una de las trampas más repetidas en el examen es confundir una artritis séptica con una bursitis, especialmente en la rodilla con la bursa prepatelar o en el codo con el olécranon.' },
         { show: ['art'], note: 'Compromiso intraarticular difuso',
-          say: 'En la artritis séptica el proceso es intraarticular: cualquier intento de movilizar pasivamente la rodilla o el codo genera un dolor insoportable, porque toda la cápsula y la sinovial están a tensión.' },
+          say: 'En la artritis séptica el proceso es intraarticular: cualquier intento de movilizar pasivamente la rodilla o el codo genera un dolor insoportable, porque toda la cápsula y la sinovial están a tensión. Mira esta rodilla con derrame: está globosa, con la cápsula distendida por el líquido.',
+          photo: { src: 'biblioteca/08_reumatologia/reuma-02/01_derrame_rodilla__commons.jpg', label: 'Derrame articular', at: 'Mira esta rodilla con derrame', credit: 'Wikimedia Commons «Knee Effusion.jpg», CC BY-SA 4.0, James Heilman, MD' } },
         { show: ['bur'], note: 'Proceso puramente extracapsular',
-          say: 'En cambio, en la bursitis el líquido está en la bolsa extracapsular, por delante de la rótula o sobre el olécranon. La flexión pasiva de la articulación está conservada o causa muy poca molestia.' },
+          say: 'En cambio, en la bursitis el líquido está en la bolsa extracapsular, por delante de la rótula o sobre el olécranon. La flexión pasiva de la articulación está conservada o causa muy poca molestia. Fíjate en este codo: la tumefacción está por detrás, sobre el olécranon, y el resto de la articulación se ve normal.',
+          photo: { src: '_web/213_reuma_Artritis_séptica__Commons_1.jpg', label: 'Bursitis olecraneana', at: 'Fíjate en este codo', credit: 'Wikimedia Commons, dominio público' } },
         { show: ['con', 'tra'], note: 'Conductas opuestas',
           say: 'Esa simple maniobra te salva de llevar a pabellón una bursitis superficial, o al revés, de dar de alta con antiinflamatorios una articulación llena de pus.' },
       ],
@@ -218,6 +220,30 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Técnica de drenaje',
+      title: 'La punción evacuadora diaria de la rodilla séptica',
+      cards: [
+        { title: 'Cómo se hace', tag: 'Misma vía de la artrocentesis', kind: 'key', items: [
+          { t: 'Vía suprarrotuliana lateral', d: 'Aguja gruesa, 16 a 18 G, para que no se tape',
+            say: 'La punción evacuadora usa la misma vía suprarrotuliana lateral de la primera clase, pero con una aguja más gruesa, de calibre dieciséis a dieciocho, para que el pus no la obstruya.' },
+          { t: 'Aspirar todo, anotar volumen y aspecto', d: 'Repetir cada 24 horas mientras haya derrame',
+            say: 'Aspiras todo el líquido posible, anotas el volumen y el aspecto, y repites la punción cada veinticuatro horas mientras reaparezca derrame. Cada vez con asepsia estricta, y nunca a través de piel enrojecida o con celulitis.' },
+        ] },
+        { title: 'Cómo se vigila', tag: 'Respuesta al tratamiento', kind: 'criteria', items: [
+          { t: 'Fiebre, dolor, volumen, PCR', d: 'Y el aspecto del líquido en cada punción',
+            say: 'La respuesta se sigue con la fiebre, el dolor, el volumen y el aspecto del líquido, y con la proteína C reactiva. Si todo va bien, el líquido cada día es menos y menos turbio.' },
+        ] },
+        { title: 'Cuándo pasar a pabellón', tag: 'No insistir', kind: 'alert', items: [
+          { t: 'A los 5 a 7 días sigue purulento', d: 'O no hay mejoría clínica',
+            say: 'Si a los cinco a siete días persiste líquido purulento o no hay mejoría, se pasa a lavado artroscópico o artrotomía por traumatología.' },
+          { t: 'Cadera, hombro o prótesis', d: 'No se manejan con punciones',
+            say: 'Y si la articulación es profunda, como la cadera o el hombro, o es protésica, ni siquiera se parte con punciones: va directo a cirugía.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Infección protésica',
       title: 'Prótesis articular y el biofilm',
       cards: [
@@ -243,6 +269,33 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Diagnóstico diferencial',
+      title: 'Osteomielitis: cuándo sospecharla',
+      cards: [
+        { title: 'Cómo llega al hueso', tag: 'Tres vías', kind: 'key', items: [
+          { t: 'Hematógena', d: 'Metáfisis en el niño; vértebras en el adulto',
+            say: 'La infección del hueso puede acompañar a la artritis séptica, sobre todo en cadera y hombro del niño, o ser el diagnóstico real. Por vía hematógena afecta la metáfisis de los huesos largos en el niño, y las vértebras en el adulto, como espondilodiscitis, a menudo en diabéticos y usuarios de drogas endovenosas.' },
+          { t: 'Contigüidad o inoculación', d: 'Pie diabético, escaras, fractura expuesta',
+            say: 'Por contigüidad viene de una úlcera de pie diabético con hueso palpable al estilete, de escaras sacras, de fracturas expuestas o del postoperatorio. Y también existe la inoculación directa.' },
+        ] },
+        { title: 'Cómo se sospecha', tag: 'Y se confirma', kind: 'criteria', items: [
+          { t: 'Dolor óseo persistente con fiebre', d: 'Eritema o fístula; VHS y PCR altas',
+            say: 'Se sospecha ante dolor óseo localizado y persistente con fiebre, que puede faltar en las formas crónicas, eritema o fístula, y velocidad de sedimentación y proteína C reactiva elevadas. El agente más frecuente es el estafilococo áureo; Salmonella en la drepanocitosis y Pseudomonas en la punción plantar y las drogas endovenosas.' },
+          { t: 'Radiografía normal los primeros 10 a 14 días', d: 'La resonancia es la más sensible y precoz',
+            say: 'La radiografía puede ser normal los primeros diez a catorce días. La resonancia es el examen más sensible y precoz. Mira esta resonancia: el disco vertebral destruido y el absceso que ocupa el canal. El diagnóstico definitivo es la biopsia ósea con cultivo.',
+            photo: { src: 'biblioteca/08_reumatologia/reuma-02/10_osteomielitis-vertebral-rm__harrison_p1223.jpg', label: 'RM: osteomielitis vertebral', at: 'Mira esta resonancia', credit: 'Harrison 21.ª ed., Fig. 147-3' } },
+        ] },
+        { title: 'Qué hace el médico general', tag: 'Conducta inicial', kind: 'alert', items: [
+          { t: 'Hemograma, VHS, PCR, hemocultivos, Rx', d: 'Positivos en cerca de la mitad',
+            say: 'Pides hemograma, velocidad de sedimentación, proteína C reactiva, hemocultivos, que son positivos en cerca de la mitad, y radiografía.' },
+          { t: 'Antibiótico solo si hay sepsis', d: 'Derivar para biopsia y unas 6 semanas de tratamiento',
+            say: 'Inicias antibiótico empírico solo si hay sepsis o inestabilidad, e idealmente después de tomar los cultivos. Y derivas para biopsia, desbridamiento y antibioticoterapia dirigida prolongada, de alrededor de seis semanas.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -253,19 +306,6 @@ module.exports = {
       steps: [
         { note: 'Artrocentesis antes del antibiótico',
           say: 'Una bacteriemia transitoria siembra la articulación, porque la sinovial es muy vascularizada y no tiene lámina basal. La articulación se transforma en un absceso cerrado a presión que destruye el cartílago en horas. El estafilococo áureo explica más de la mitad de los casos; en el joven con vida sexual activa, el gonococo, con Gram negativo en más del setenta y cinco por ciento.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'La rodilla con derrame',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-02/01_derrame_rodilla__commons.jpg', label: 'Derrame articular', credit: 'Wikimedia Commons «Knee Effusion.jpg», CC BY-SA 4.0, James Heilman, MD' },
-      ],
-      steps: [
-        { note: 'Rodilla aumentada de volumen',
-          say: 'Esta rodilla está aumentada de volumen por un derrame. Si además hay fiebre y dolor intenso, se punciona de inmediato para descartar una artritis séptica.' },
       ],
     },
 
@@ -380,6 +420,195 @@ module.exports = {
         options: 'Las alternativas: gota, condrocalcinosis, artritis reumatoide, artritis séptica, o artritis reactiva. Piénsalo.',
         answer: 'Es la D. En una paciente diabética, con fiebre y monoartritis aguda de hombro, la artritis séptica es el diagnóstico obligado. La diabetes predispone a bacteriemias, y el hombro es una articulación típica de siembra hematógena. La gota y la condrocalcinosis afectan predominantemente el primer ortejo y la rodilla, y rara vez comprometen el hombro con fiebre.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 8",
+      "stem": "Un adulto mayor presenta gonalgia bilateral, de dos años de evolución, que aumenta con la marcha. Hace algunas horas el dolor de la rodilla izquierda se vuelve mucho más intenso, apareciendo eritema, aumento de volumen y sensación febril.",
+      "question": "¿Cuál es el examen más adecuado para este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Resonancia magnética de rodilla"
+        },
+        {
+          "letter": "B",
+          "text": "Radiografía de rodilla"
+        },
+        {
+          "letter": "C",
+          "text": "Hemograma y VHS"
+        },
+        {
+          "letter": "D",
+          "text": "Estudio de líquido articular"
+        },
+        {
+          "letter": "E",
+          "text": "TAC de rodilla"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Sobre una artrosis de base aparece una monoartritis aguda, inflamatoria y febril: hay que descartar artritis séptica y por cristales. El examen clave es la artrocentesis con estudio del líquido: recuento celular, Gram, cultivo y búsqueda de cristales. La radiografía y el hemograma ayudan, pero no confirman ni descartan infección.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Un adulto mayor con dolor de ambas rodillas hace dos años, que aumenta al caminar. Hace unas horas la rodilla izquierda se pone mucho más dolorosa, roja e hinchada, con sensación febril.",
+        "question": "¿Cuál es el examen más adecuado?",
+        "options": "Las opciones: resonancia de rodilla, radiografía de rodilla, hemograma con velocidad de sedimentación, estudio de líquido articular, o TAC de rodilla. Piénsalo.",
+        "answer": "Es la D. Una monoartritis aguda febril es artritis séptica hasta demostrar lo contrario, y solo el líquido articular la confirma, además de buscar cristales. La radiografía tienta por la artrosis de base, pero no distingue una infección de una crisis por cristales."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.11.5.001 · Punción articular de rodilla",
+      "stem": "Hombre de 55 años, usuario de aspirina 100 mg al día, presenta una monoartritis aguda de la rodilla derecha con gran derrame. La piel de la cara medial de la rodilla tiene eritema por una celulitis. Se decide realizar una artrocentesis diagnóstica.",
+      "question": "¿Cuál es la técnica correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Decúbito supino con rodilla extendida y cuádriceps relajado, asepsia, abordaje lateral bajo el borde superolateral de la rótula, con aguja gruesa"
+        },
+        {
+          "letter": "B",
+          "text": "Punzar por la cara medial, donde el derrame es más fluctuante, aunque la piel tenga celulitis"
+        },
+        {
+          "letter": "C",
+          "text": "Abordaje posterior por el hueco poplíteo"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar antibióticos 48 horas antes de la punción"
+        },
+        {
+          "letter": "E",
+          "text": "Está contraindicada por el uso de aspirina en dosis bajas"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Con el paciente en decúbito supino, rodilla extendida y cuádriceps relajado, bajo técnica aséptica se punza por vía lateral, entre la rótula y el fémur, con aguja gruesa. Nunca a través de piel infectada ni por el hueco poplíteo, donde están los vasos. La aspirina no la contraindica, y el antibiótico va después de obtener el líquido.",
+      "say": {
+        "stem": "Hombre de cincuenta y cinco años, que toma aspirina en dosis bajas, con una monoartritis aguda de la rodilla derecha y gran derrame. La piel de la cara interna de la rodilla tiene una celulitis. Vas a puncionar la rodilla.",
+        "question": "¿Cuál es la técnica correcta?",
+        "options": "Las opciones: decúbito supino con rodilla extendida y entrada lateral bajo la rótula, por la cara interna donde fluctúa más, por el hueco poplíteo, antibióticos dos días antes o que la aspirina la contraindica. Piénsalo.",
+        "answer": "Es la A. Rodilla extendida, cuádriceps relajado, asepsia y entrada lateral bajo el borde de la rótula, enviando el líquido a citoquímico, Gram, cultivo y cristales. Punzar donde más fluctúa tienta, pero a través de piel con celulitis llevas bacterias a la articulación."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Agosto 2021 · Pregunta 94",
+      "stem": "Un niño de 6 años consulta por dolor en el codo derecho de dos días de evolución, asociado a impotencia funcional y fiebre de hasta 39 °C. Al examen físico se observa el codo eritematoso y aumentado de volumen, con dolor intenso a la movilización activa y pasiva.",
+      "question": "¿Cuál es el agente etiológico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Staphylococcus aureus"
+        },
+        {
+          "letter": "B",
+          "text": "Haemophilus influenzae"
+        },
+        {
+          "letter": "C",
+          "text": "Streptococcus agalactiae"
+        },
+        {
+          "letter": "D",
+          "text": "Neisseria meningitidis"
+        },
+        {
+          "letter": "E",
+          "text": "Streptococcus pyogenes"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Monoartritis aguda febril con dolor a la movilización activa y pasiva en un niño es artritis séptica hasta demostrar lo contrario. El agente más frecuente a toda edad pediátrica es Staphylococcus aureus (además Kingella kingae en menores de 4 años). El Haemophilus prácticamente desapareció con la vacuna. Requiere artrocentesis, drenaje y antibióticos endovenosos.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Un niño de seis años tiene fiebre de treinta y nueve y un codo rojo, aumentado de volumen y muy doloroso al moverlo, hace dos días.",
+        "question": "¿Cuál es el agente etiológico más probable?",
+        "options": "Las opciones: estafilococo dorado, Haemophilus, estreptococo agalactiae, meningococo o estreptococo pyogenes. Piénsalo.",
+        "answer": "Es la A. Es una artritis séptica y el agente más frecuente es el estafilococo dorado. El Haemophilus tienta porque era clásico en niños, pero hoy es raro gracias a la vacunación."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 171",
+      "stem": "Un niño de 7 años es hospitalizado para manejo quirúrgico de una osteomielitis. El cultivo informa desarrollo de Staphylococcus aureus, cuyo antibiograma muestra resistencia a oxacilina y a cefalosporinas, con sensibilidad a vancomicina.",
+      "question": "¿Cuál de los siguientes antibióticos es de elección para el manejo inicial?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flucloxacilina"
+        },
+        {
+          "letter": "B",
+          "text": "Cefazolina"
+        },
+        {
+          "letter": "C",
+          "text": "Vancomicina"
+        },
+        {
+          "letter": "D",
+          "text": "Tetraciclina"
+        },
+        {
+          "letter": "E",
+          "text": "Cotrimoxazol"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El antibiograma corresponde a S. aureus resistente a meticilina (SARM), que resiste a todos los betalactámicos antiestafilocócicos, incluidas flucloxacilina y cefazolina. En una osteomielitis que requiere hospitalización y cirugía, el tratamiento endovenoso de elección es vancomicina. Las tetraciclinas se evitan en menores de 8 años.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Un niño de siete años hospitalizado por osteomielitis tiene un Staphylococcus aureus resistente a oxacilina y cefalosporinas, y sensible a vancomicina.",
+        "question": "¿Qué antibiótico es de elección para el manejo inicial?",
+        "options": "Las opciones: flucloxacilina, cefazolina, vancomicina, tetraciclina o cotrimoxazol. Piénsalo.",
+        "answer": "Es la C. Es un estafilococo resistente a meticilina y en infección ósea grave se trata con vancomicina. La flucloxacilina tienta por ser el clásico antiestafilocócico, pero el germen es resistente."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.4.008 · Cultivo y antibiograma en infecciones osteoarticulares y heridas",
+      "stem": "Hombre de 55 años, diabético, consulta por rodilla derecha caliente, roja y con derrame de 2 días, fiebre de 38,8 °C. Está hemodinámicamente estable. Se planifica tratamiento antibiótico endovenoso.",
+      "question": "¿Qué se debe hacer antes de iniciar los antibióticos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nada; el inicio de antibióticos no debe retrasarse por ningún examen"
+        },
+        {
+          "letter": "B",
+          "text": "Tomar cultivo de un hisopado de la piel sobre la rodilla"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar resonancia magnética de rodilla"
+        },
+        {
+          "letter": "D",
+          "text": "Tomar hemocultivos y artrocentesis con Gram y cultivo del líquido articular"
+        },
+        {
+          "letter": "E",
+          "text": "Esperar resultado de la VHS y PCR"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En la sospecha de artritis séptica en un paciente estable, se toman hemocultivos y se punciona la articulación (Gram, cultivo, recuento celular y cristales) antes del primer antibiótico, porque este negativiza los cultivos. El antibiograma permite ajustar el esquema empírico. El hisopado de piel no representa al germen articular.",
+      "say": {
+        "stem": "Hombre diabético de cincuenta y cinco años con rodilla roja, caliente, con derrame y fiebre, estable. Se planea antibiótico endovenoso.",
+        "question": "¿Qué se debe hacer antes de iniciar el antibiótico?",
+        "options": "Las opciones: nada que lo retrase, hisopado de piel, resonancia, hemocultivos y punción articular con cultivo o esperar VHS y PCR. Piénsalo.",
+        "answer": "Es la D. Se toman hemocultivos y se punciona la rodilla para Gram y cultivo, porque el antibiótico previo negativiza los cultivos. No retrasar nada tienta, pero en un paciente estable la punción toma minutos y define el tratamiento."
+      }
     },
 
     {

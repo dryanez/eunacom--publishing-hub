@@ -106,6 +106,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El número decide la fecha',
+      images: [
+        { src: 'animaciones/ob-08/A1_acidos_biliares.mp4', label: 'Ácidos biliares y fecha de parto', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Tres niveles, tres fechas',
+          say: 'Mira cómo suben los ácidos biliares con las semanas. Si se quedan bajo cuarenta, es moderada, y interrumpes entre las treinta y siete y treinta y ocho. Entre cuarenta y noventa y nueve, es severa, y adelantas a las treinta y seis. Y si llegan a cien o más, es extrema: corticoides y parto entre las treinta y cuatro y treinta y seis. Recuerda: el monitoreo no avisa de la muerte súbita, lo que protege al feto es la fecha.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos el diagnóstico y la estratificación en un solo árbol.',
     },

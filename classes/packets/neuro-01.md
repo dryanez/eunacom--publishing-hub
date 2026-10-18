@@ -380,7 +380,7 @@ Una paciente de 24 refiere que luego de realizar ejercicios de elongación, pres
 Explicación del banco: Diagnóstico: **Disección de la arteria cerebral o carótida** (opción **C**). La disección era la única opción posible. Sigue siendo un cuadro raro.. La combinación cardinal de dolor torácico súbito desgarrador (EVA 10/10) irradiado a región interescapular o dorso, cifras tensionales severas y asimetría de pulsos periféricos en extremidades superiores es patognomónica de disección aórtica aguda. Requiere angio-TAC de tórax inmediato y estabilización hemodinámica con betabloqueadores EV para reducir la fuerza de eyección ventricular (dP/dt).
 
 ### [5] EUNACOM Diciembre 2025 · Pregunta 26 · confianza 0.8
-Un paciente de 60 años, con hipertensión arterial de larga data mal controlada, consulta por cefalea intensa que ha aumentado en intensidad hasta EVA 9/10, asociada a vómitos y mareos de 2 horas de evolución, por lo que acude al servicio de urgencias. Al examen Fsico presenta presión arterial 170/105 mmHg y frecuencia cardíaca 62 lpm, sin signos focales en el examen neurológico. Se solicita una TAC de cerebro que se muestra a con8nuación: ¿Cuál es el diagnós8co más probable?
+Un paciente de 60 años, con hipertensión arterial de larga data mal controlada, consulta por cefalea intensa que ha aumentado en intensidad hasta EVA 9/10, asociada a vómitos y mareos de 2 horas de evolución, por lo que acude al servicio de urgencias. Al examen físico presenta presión arterial 170/105 mmHg y frecuencia cardíaca 62 lpm, sin signos focales en el examen neurológico. Se solicita una TAC de cerebro que se muestra a continuación: ¿Cuál es el diagnóstico más probable?
 - A) Hematoma subdural
 - B) Hemorragia subaracnoidea
 - C) Infarto de arteria cerebral media con transformación hemorrágica
@@ -510,14 +510,14 @@ Un paciente de 24 años, sin antecedentes, consulta porque hace ocho meses mient
 Explicación del banco: Diagnóstico: **Trastorno por estrés post traumático** (opción **A**). De libro y lleva más de 4 semanas.. El manejo de los contactos de pacientes con coqueluche se basa en la administración de azitromicina por cinco días, con la misma dosis que se utiliza en el tratamiento. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.
 
 ### [18] EUNACOM Diciembre 2025 · Pregunta 180 · confianza 0.9
-Una paciente de 23 años no llega a su domicilio luego de un conﬂicto familiar grave, siendo encontrada dos días después en una ciudad diferente, en buenas condiciones generales. Ella no recuerda nada de lo sucedido en ese intervalo de 8empo y no parece estar preocupada por ello. Su examen neurológico es normal. ¿Cuál es el diagnós8co más probable?
+Una paciente de 23 años no llega a su domicilio luego de un conflicto familiar grave, siendo encontrada dos días después en una ciudad diferente, en buenas condiciones generales. Ella no recuerda nada de lo sucedido en ese intervalo de tiempo y no parece estar preocupada por ello. Su examen neurológico es normal. ¿Cuál es el diagnóstico más probable?
 - A) Amnesia global transitoria
 - B) Episodio psicó2co breve
 - C) Trastorno conversivo
 - D) Trastorno de estrés agudo
 - E) Trastorno disocia2vo
 **Correcta: E**
-Explicación del banco: Tiene una fuga disociativa clásica, que es un Gpo de amnesia disociativa, en la que, además, se produce una “fuga” desde su lugar habitual. No se debe confundir con la amnesia global transitoria, que es un Gpo de accidente isquémico transitorio cerebral (se debe buscar fuente embólica), que se caracteriza por desorientación y amnesia (repiGendo las mismas preguntas), autolimitado, de pocas horas de evolución.
+Explicación del banco: Tiene una fuga disociativa clásica, que es un Gpo de amnesia disociativa, en la que, además, se produce una “fuga” desde su lugar habitual. No se debe confundir con la amnesia global transitoria, que es un Gpo de accidente isquémico transitorio cerebral (se debe buscar fuente embólica), que se caracteriza por desorientación y amnesia (repitiendo las mismas preguntas), autolimitado, de pocas horas de evolución.
 
 ### [19] EUNACOM Julio 2025 · Pregunta 133 · confianza 0.9
 Embarazada de 12 semanas con translucencia nucal aumentada en ecografía. ¿Cuál es el examen definitivo para confirmar trisomía 21?
@@ -530,7 +530,7 @@ Embarazada de 12 semanas con translucencia nucal aumentada en ecografía. ¿Cuá
 Explicación del banco: A las 12 semanas: biopsia de vellosidades coriales (BVC) es el examen invasivo de elección para cariotipo fetal (ventana 10-14 semanas). La amniocentesis se hace después de las 15 semanas.
 
 ### [20] EUNACOM Diciembre 2025 · Pregunta 138 · confianza 0.9
-Un paciente de 21 años sufre accidente en esquí con caída y torsión del tobillo derecho, evolucionando con dolor e impotencia funcional. Se solicita radiograFa de tobillo que se muestra a con8nuación: ¿Cuál es la conducta inicial más adecuada?
+Un paciente de 21 años sufre accidente en esquí con caída y torsión del tobillo derecho, evolucionando con dolor e impotencia funcional. Se solicita radiografía de tobillo que se muestra a continuación: ¿Cuál es la conducta inicial más adecuada?
 - A) Reposo con extremidad en elevación
 - B) Reducción cerrada e inmovilización con valva de yeso
 - C) Analgésicos y apoyo progresivo con mínima carga

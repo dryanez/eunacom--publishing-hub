@@ -129,6 +129,30 @@ module.exports = {
       ],
     },
 
+
+    {
+      type: 'points',
+      kicker: 'Estrés agudo completo',
+      title: 'Criterios y seguimiento del estrés agudo',
+      cards: [
+        { title: 'Criterios DSM-5', tag: 'Diagnóstico', kind: 'criteria', items: [
+          { t: 'Trauma y 9 de 14 síntomas', d: 'Muerte, lesión grave o violencia sexual',
+            say: 'El estrés agudo exige la exposición a muerte, lesión grave o violencia sexual, vivida, presenciada, conocida de un cercano o por exposición repetida a detalles aversivos, y nueve o más de catorce síntomas.' },
+          { t: 'Cinco categorías de síntomas', d: 'Intrusión, ánimo, disociación, evitación, activación',
+            say: 'Los síntomas son de cinco categorías: intrusión, ánimo negativo con incapacidad de sentir emociones positivas, disociación con embotamiento, desrealización o amnesia del evento, evitación y activación, con insomnio, irritabilidad, hipervigilancia y sobresalto.' },
+          { t: 'De 3 días a 1 mes', d: 'Si pasa de un mes: TEPT',
+            say: 'Dura desde tres días hasta un mes después del trauma. Si pasa de un mes y persisten los síntomas, ya es estrés postraumático.' },
+        ] },
+        { title: 'Manejo y seguimiento', tag: 'Conducta', kind: 'key', items: [
+          { t: 'Seguridad, apoyo y rutina', d: 'Psicoeducación; restablecer sueño',
+            say: 'Seguridad, primeros auxilios psicológicos, psicoeducación, apoyo social y restablecer el sueño y la rutina.' },
+          { t: 'Sin debriefing de sesión única ni benzodiacepinas', d: 'Hipnótico por pocos días solo si el insomnio incapacita',
+            say: 'No se hace debriefing psicológico de sesión única y se evitan las benzodiacepinas de rutina, porque no previenen el estrés postraumático y pueden empeorar su evolución. Un hipnótico por pocos días solo si el insomnio es incapacitante.' },
+          { t: 'Control a las 2 a 4 semanas', d: 'Cerca de la mitad evoluciona a TEPT',
+            say: 'Si persisten los síntomas, terapia cognitivo conductual centrada en el trauma y control a las dos a cuatro semanas. Cerca de la mitad evoluciona a estrés postraumático, por eso se hace seguimiento y se deriva a quien no mejora.' },
+        ] },
+      ],
+    },
     {
       type: 'points',
       kicker: 'Fase aguda',
@@ -201,6 +225,59 @@ module.exports = {
       ],
     },
 
+
+    {
+      type: 'table',
+      kicker: 'Trastornos disociativos',
+      title: 'Disociativos: qué se pierde',
+      head: ['Trastorno', 'Qué ocurre', 'Clave'],
+      rows: [
+        { cells: ['Amnesia disociativa', 'Olvido de información autobiográfica', 'Va más allá del olvido normal'],
+          say: 'Los trastornos disociativos son una pérdida de la integración de la memoria, la identidad, la percepción o el control motor, casi siempre ligada a un trauma o estrés intenso. En la amnesia disociativa, el paciente olvida información autobiográfica, mucho más allá del olvido normal.' },
+        { cells: ['Fuga disociativa', 'Viaje inesperado', 'Amnesia de la propia identidad'],
+          say: 'En la fuga disociativa, viaja de forma inesperada y pierde la memoria de su identidad.' },
+        { cells: ['Identidad disociativo', '2 o más estados de identidad', 'Abuso infantil grave previo'],
+          say: 'El trastorno de identidad disociativo tiene dos o más estados de identidad, con antecedente de abuso infantil grave.' },
+        { cells: ['Despersonalización y desrealización', 'Sentirse separado de sí o del entorno', 'Examen de realidad conservado'],
+          say: 'Y la despersonalización y la desrealización: sentirse separado de uno mismo o del entorno, pero con el juicio de realidad conservado. En la CIE diez, también se clasifican aquí los cuadros conversivos.' },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Conducta ante un disociativo',
+      title: 'Diagnóstico por exclusión',
+      nodes: [
+        { id: 'a', col: 0, row: 1, k: 'start', t: 'Amnesia o cambio de identidad', s: 'Ligado a trauma o estrés' },
+        { id: 'b', col: 1, row: 1, k: 'q', t: 'Descartar causa orgánica', s: 'TEC, epilepsia, intoxicación, hipoglicemia, tumor' },
+        { id: 'c', col: 2, row: 1, k: 'mech', t: 'Estudio dirigido', s: 'Glicemia, tóxicos; neuroimagen y EEG según caso' },
+        { id: 'd', col: 3, row: 1, k: 'good', t: 'Ambiente seguro', s: 'Sin confrontar ni forzar el recuerdo' },
+        { id: 'e', col: 4, row: 1, k: 'refer', t: 'Derivar', s: 'Psicoterapia especializada' },
+      ],
+      edges: [
+        { from: 'a', to: 'b' }, { from: 'b', to: 'c' }, { from: 'c', to: 'd' }, { from: 'd', to: 'e' },
+      ],
+      steps: [
+        { show: ['a', 'b', 'c'], note: 'Primero lo orgánico',
+          say: 'Es un diagnóstico por exclusión. Antes de decir disociativo se descartan el traumatismo encefalocraneano, la epilepsia, la intoxicación o abstinencia, la hipoglicemia, un tumor y la amnesia global transitoria, con glicemia, tóxicos y, según el caso, neuroimagen y electroencefalograma.' },
+        { show: ['d', 'e'], note: 'No hay fármaco específico',
+          say: 'En el manejo inicial se asegura un ambiente seguro, se evita confrontar o forzar el recuerdo, se explica el cuadro con claridad y se deriva a psicoterapia especializada. No existe un fármaco específico: los ISRS se usan solo si hay depresión o ansiedad comórbidas.' },
+      ],
+    },
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El reloj del trauma',
+      images: [
+        { src: 'animaciones/psiq-09/A1_reloj_del_trauma.mp4', label: 'Estrés agudo, TEPT y su conducta', credit: 'Gráfico y animación propios' },
+      ],
+      steps: [
+        { note: 'El tiempo decide el diagnóstico y la conducta',
+          say: 'Mira el cursor correr desde el trauma. En los primeros días solo hay primeros auxilios psicológicos: seguridad, escucha, sin presionar a contar. Entre tres días y un mes es estrés agudo: apoyo, sueño, sin debriefing y sin benzodiacepinas. Pasado el mes, es estrés postraumático, y se trata con terapia centrada en el trauma o EMDR, un ISRS, y prazosina si hay pesadillas. Más de tres meses es crónico.' },
+      ],
+    },
+
     {
       type: 'pathway',
       intro: 'Armemos el árbol: de la exposición a un trauma al tratamiento.',
@@ -224,6 +301,8 @@ module.exports = {
           say: 'TEPT confirmado: terapia centrada en el trauma más un ISRS. Las benzodiacepinas son la respuesta incorrecta.' },
         { cells: ['Pesadillas persistentes', 'Prazosina asociada', 'Diazepam al acostarse'],
           say: 'Si las pesadillas persisten pese al tratamiento, se puede asociar prazosina. El diazepam nocturno es el error.' },
+        { cells: ['Amnesia o fuga tras estrés, sin lesión', 'Descartar causa orgánica; derivar', 'Rotular disociativo sin estudiar'],
+          say: 'Si hay amnesia o fuga tras un estrés, primero se descarta lo orgánico. El disociativo es un diagnóstico por exclusión.' },
       ],
     },
 
@@ -386,6 +465,82 @@ module.exports = {
         options: 'Las opciones: benzodiacepinas; ISRS; tricíclicos; antipsicóticos típicos; o antipsicóticos atípicos. Piénsalo.',
         answer: 'Es la A. Las benzodiacepinas no previenen el estrés postraumático e interfieren con el reprocesamiento del trauma en la psicoterapia, además de dar dependencia. Los ISRS son justamente la primera línea. Es el dato más seguro de toda la clase.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 5.01.5.003 · Intervención en crisis",
+      "stem": "Hombre de 45 años presenció hace 3 horas un accidente de tránsito en que murió su compañero de trabajo. Llega al CESFAM acompañado de su esposa: está inquieto, llora a ratos, dice sentirse aturdido y teme no poder dormir. Está orientado, sin consumo de alcohol, sin ideas de muerte ni síntomas psicóticos.",
+      "question": "¿Cuál de las siguientes acciones corresponde a una adecuada intervención en crisis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Indicarle que olvide lo ocurrido y retome su trabajo al día siguiente"
+        },
+        {
+          "letter": "B",
+          "text": "Realizar una sesión única obligatoria de relato detallado del accidente"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar clonazepam por 3 meses para prevenir un trastorno de estrés postraumático"
+        },
+        {
+          "letter": "D",
+          "text": "Derivarlo de urgencia a hospitalización psiquiátrica"
+        },
+        {
+          "letter": "E",
+          "text": "Escucharlo sin presionarlo a relatar detalles, validar su reacción como esperable, reforzar el apoyo de su esposa y acordar un control cercano"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La intervención en crisis es breve y focalizada: contacto empático, escucha sin forzar el relato, normalizar la reacción, evaluar riesgo, cubrir necesidades inmediatas, activar la red de apoyo y asegurar seguimiento. Las benzodiacepinas prolongadas y el debriefing obligatorio no previenen el estrés postraumático y pueden empeorarlo.",
+      "say": {
+        "stem": "Un hombre de cuarenta y cinco años vio morir a su compañero de trabajo en un accidente hace tres horas. Llega con su esposa, inquieto, llorando y aturdido, sin ideas de muerte ni síntomas psicóticos.",
+        "question": "¿Qué acción corresponde a una buena intervención en crisis?",
+        "options": "Las opciones: pedirle que olvide y vuelva a trabajar, un relato detallado obligatorio, clonazepam por tres meses, hospitalización psiquiátrica o escucharlo sin presionar y activar su red con control cercano. Piénsalo.",
+        "answer": "Es la E. Se escucha sin forzar, se valida la reacción como esperable, se apoya en su red y se asegura seguimiento. El clonazepam prolongado tienta, pero las benzodiacepinas no previenen el estrés postraumático y pueden empeorar su evolución."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2019 · Pregunta 59",
+      "stem": "Mujer de 18 años sufrió un rapto por dos desconocidos al salir de la oficina. Es encontrada por terceros en un sitio eriazo, con evidentes signos de abuso sexual, sin lesiones físicas. En el Servicio Médico Legal se constata la violación. Ella no recuerda nada de lo sucedido: solo cuando fue abordada por los desconocidos y luego cuando estaba en el Servicio Médico Legal. Se muestra muy preocupada, pero no logra recordar lo ocurrido entremedio.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Trastorno conversivo"
+        },
+        {
+          "letter": "B",
+          "text": "Trastorno de estrés postraumático"
+        },
+        {
+          "letter": "C",
+          "text": "Trastorno facticio"
+        },
+        {
+          "letter": "D",
+          "text": "Trastorno adaptativo"
+        },
+        {
+          "letter": "E",
+          "text": "Trastorno disociativo"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La incapacidad de recordar información autobiográfica de un evento traumático, sin causa orgánica, corresponde a una amnesia disociativa, dentro de los trastornos disociativos. El estrés postraumático exige reexperimentación, evitación e hiperalerta por más de un mes; aquí el cuadro es inmediato y el síntoma central es la laguna amnésica.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Mujer de dieciocho años víctima de una violación, que no recuerda nada entre el momento en que la abordaron y su llegada al Servicio Médico Legal.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: conversivo, estrés postraumático, facticio, adaptativo o disociativo. Piénsalo.",
+        "answer": "Es la E. Una laguna de memoria limitada al trauma, sin causa orgánica, es una amnesia disociativa. El estrés postraumático tienta por el antecedente, pero requiere reexperimentación y evitación por más de un mes."
+      }
     },
 
     {

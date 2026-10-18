@@ -61,7 +61,8 @@ module.exports = {
         ] },
         { title: 'Diagnóstico', tag: 'Endoscopía primero', kind: 'alert', items: [
           { t: 'EDA con biopsia', d: 'Confirma el diagnóstico',
-            say: '¿Qué examen pides? Endoscopía digestiva alta con biopsia. No la manometría ni el esofagograma: esos son para el músculo.' },
+            say: '¿Qué examen pides? Endoscopía digestiva alta con biopsia. No la manometría ni el esofagograma: esos son para el músculo. Mira esta endoscopía: una lesión irregular y ulcerada en el esófago distal, que estrecha la luz y explica la disfagia.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-03/02_cancer-esofago-distal-obstructivo__harrison_p2460.jpg', label: 'Cáncer de esófago', at: 'Mira esta endoscopía', credit: 'Harrison 21.ª ed., p. 2460' } },
           { t: 'TAC + endosonografía', d: 'Invasión transmural: principal pronóstico',
             say: 'Una vez confirmado, se etapifica con TAC de tórax y abdomen, y con endosonografía transesofágica. La endosonografía mide la invasión de la pared, que es el principal factor pronóstico.' },
         ] },
@@ -94,7 +95,8 @@ module.exports = {
         { show: ['per'], note: 'Y el cuerpo del esófago no empuja',
           say: 'A eso se suma que la peristalsis del cuerpo está disminuida. El esófago no empuja, y la puerta de salida no se abre.' },
         { show: ['ret'], note: 'El alimento se queda estancado',
-          say: 'Resultado: la comida queda estancada en el esófago y nunca llega al estómago.' },
+          say: 'Resultado: la comida queda estancada en el esófago y nunca llega al estómago. Mira este esofagograma: un megaesófago por enfermedad de Chagas, muy dilatado y lleno de contraste. El Chagas también compromete el esófago y, igual que la acalasia, suele dar disfagia ilógica.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-03/04_megaesofago_chagas__commons.jpg', label: 'Megaesófago chagásico', at: 'Mira este esofagograma', credit: 'Wikimedia Commons «Chagas megaseophagus.JPG», Public domain, autor en Commons' } },
         { show: ['dis'], note: 'Disfagia baja y fluctuante',
           say: 'Eso da una disfagia ilógica, fluctuante, y baja, porque el problema está en el esfínter inferior.' },
         { show: ['reg'], note: 'No es ácida: nunca tocó el estómago',
@@ -111,9 +113,11 @@ module.exports = {
       cards: [
         { title: 'Diagnóstico', tag: 'Manometría', kind: 'criteria', items: [
           { t: 'Manometría esofágica', d: 'Peristalsis ↓ + EEI que no relaja',
-            say: 'El examen de elección es la manometría esofágica. Mide presiones, así que muestra justo el mecanismo: peristalsis disminuida y un esfínter hipertónico que no se relaja.' },
+            say: 'El examen de elección es la manometría esofágica. Mide presiones, así que muestra justo el mecanismo: peristalsis disminuida y un esfínter hipertónico que no se relaja. Mira esta manometría de alta resolución: el esfínter inferior no se relaja y el cuerpo no tiene peristalsis.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-03/01_manometria-de-alta-resolucion-acalasia-i__cto-digestivo_p18.jpg', label: 'Manometría', at: 'Mira esta manometría', credit: 'Manual CTO Digestivo 14.ª ed., p. 18' } },
           { t: 'Esofagograma: pico de pájaro', d: 'Cuerpo dilatado',
-            say: 'El esofagograma con bario muestra el cuerpo dilatado que termina afinándose, la imagen en pico de pájaro. Es una imagen típica, pero no es el examen que confirma.' },
+            say: 'El esofagograma con bario muestra el cuerpo dilatado que termina afinándose, la imagen en pico de pájaro. Mira este esofagograma: un esófago dilatado que termina en una punta fina. Es una imagen típica, pero no es el examen que confirma.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-03/02_esofagograma-acalasia-pico-de-pajaro__amir-cirugia_p162.jpg', label: 'Pico de pájaro', at: 'Mira este esofagograma', credit: 'Manual AMIR Cirugía, p. 162' } },
           { t: 'EDA igual se hace', d: 'Descarta un cáncer de cardias',
             say: 'Y la endoscopía se hace igual, para descartar una pseudoacalasia, es decir, un cáncer del cardias que imita el cuadro.' },
         ] },
@@ -137,17 +141,69 @@ module.exports = {
           { t: 'Disfagia ilógica + pirosis intensa', d: 'Reflujo ácido grave',
             say: 'El segundo trastorno motor es la esclerodermia. También da disfagia ilógica, pero con una diferencia clave frente a la acalasia: pirosis intensa. Aquí el esfínter pierde tono, así que hay reflujo ácido grave.' },
           { t: 'Raynaud, calcinosis, telangiectasias', d: 'El contexto delata el diagnóstico',
-            say: 'El enunciado te lo va a delatar con el contexto: fenómeno de Raynaud, calcinosis y telangiectasias.' },
+            say: 'El enunciado te lo va a delatar con el contexto: fenómeno de Raynaud, calcinosis y telangiectasias. Mira estas manos: dedos engrosados y fijos en flexión, la esclerodactilia.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-03/03_esclerodactilia__amir-reuma_p99.jpg', label: 'Esclerodactilia', at: 'Mira estas manos', credit: 'Manual AMIR Reumatología, p. 99' } },
           { t: 'Manometría + anticuerpos', d: 'Anti-Scl-70 y anticentrómero',
             say: 'Se estudia con manometría, más anticuerpos: anti Scl setenta y anticentrómero.' },
         ] },
         { title: 'Divertículo de Zenker', tag: 'Disfagia alta', kind: 'alert', items: [
           { t: 'Disfagia alta + halitosis', d: 'Comida retenida que fermenta',
-            say: 'Y el último cuadro está arriba, en el esfínter esofágico superior: el divertículo de Zenker. El paciente siente que la comida se le queda en la garganta, y tiene una halitosis marcada, porque el alimento retenido en el saco fermenta.' },
+            say: 'Y el último cuadro está arriba, en el esfínter esofágico superior: el divertículo de Zenker. El paciente siente que la comida se le queda en la garganta, y tiene una halitosis marcada, porque el alimento retenido en el saco fermenta. Mira este esofagograma con bario: la flecha señala el saco del divertículo de Zenker.',
+            photos: [{ src: 'biblioteca/01_gastroenterologia/gastro-03/10_diverticulo-zenker-esofagograma__harrison_p2459.jpg', label: 'Divertículo de Zenker', at: 'Mira este esofagograma', credit: 'Harrison 21.ª ed., Fig. 322-56' }] },
           { t: 'Regurgita comida no digerida', d: 'La halitosis lo separa de la acalasia',
             say: 'También regurgita comida sin digerir, igual que en la acalasia. Lo que los separa es la halitosis y que la disfagia es alta.' },
           { t: 'Esofagograma con bario', d: 'Cirugía: diverticulectomía + miotomía',
             say: 'El examen es el esofagograma con bario, no la endoscopía ni la manometría. Y el tratamiento es quirúrgico: diverticulectomía más miotomía cricofaríngea.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Disfagia alta',
+      title: 'Disfagia orofaríngea: el bolo que no baja',
+      nodes: [
+        { id: 'neu', col: 0, row: 0, k: 'cause', t: 'Causa neurológica', s: 'ACV, Parkinson, demencia, ELA, miastenia' },
+        { id: 'oth', col: 0, row: 2, k: 'cause', t: 'Edad o tumor de cabeza y cuello', s: 'Envejecimiento, radioterapia' },
+        { id: 'ini', col: 1, row: 1, k: 'mech', t: 'Falla el inicio de la deglución', s: 'Cuesta iniciar; el bolo no baja' },
+        { id: 'sig', col: 2, row: 1, k: 'effect', t: 'Tos, voz húmeda', s: 'Regurgitación nasal' },
+        { id: 'asp', col: 3, row: 1, k: 'risk', t: 'Aspiración', s: 'Neumonías repetidas, baja de peso' },
+        { id: 'sos', col: 4, row: 1, k: 'alert', t: 'Sospecharla', s: 'Adulto mayor con neumonías a repetición' },
+      ],
+      edges: [
+        { from: 'neu', to: 'ini' }, { from: 'oth', to: 'ini' }, { from: 'ini', to: 'sig' },
+        { from: 'sig', to: 'asp' }, { from: 'asp', to: 'sos' },
+      ],
+      steps: [
+        { show: ['ini'], note: 'En el momento mismo de tragar',
+          say: 'Hasta aquí hablamos de la disfagia esofágica. La orofaríngea es distinta: la dificultad aparece en el momento mismo de tragar. Cuesta iniciar la deglución y el bolo parece que no baja.' },
+        { show: ['neu', 'oth'], note: 'Sobre todo neurológica',
+          say: 'Sus causas son sobre todo neurológicas: accidente cerebrovascular, Parkinson, demencia, esclerosis lateral amiotrófica o miastenia. Después vienen el envejecimiento y los tumores o la radioterapia de cabeza y cuello.' },
+        { show: ['sig'], note: 'Lo que ves al lado de la cama',
+          say: 'Al lado de la cama ves tos o atoragantamiento al comer, una voz húmeda, como con líquido en la garganta, y a veces regurgitación por la nariz.' },
+        { show: ['asp', 'sos'], note: 'La consecuencia es la aspiración',
+          say: 'Con los años, lo que pasa a la vía aérea produce neumonías aspirativas y baja de peso. Por eso, ante un adulto mayor con neumonías a repetición, sospecha una disfagia orofaríngea.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Disfagia alta',
+      title: 'Disfagia orofaríngea: primeras medidas',
+      cards: [
+        { title: 'Evaluación a la cabecera', tag: 'Primer paso', kind: 'key', items: [
+          { t: 'Prueba de agua en volúmenes pequeños', d: 'Tos, voz húmeda o desaturación',
+            say: 'El primer paso es una prueba de deglución con agua, en pequeños volúmenes. Si aparece tos, voz húmeda o baja la saturación, se suspende la vía oral y se deriva.' },
+        ] },
+        { title: 'Medidas inmediatas', tag: 'Seguridad', kind: 'normal', items: [
+          { t: 'Sentado a 90 grados, mentón flexionado', d: 'Líquidos espesados, dieta blanda',
+            say: 'Mientras tanto, se sienta al paciente a noventa grados, con el mentón flexionado, se espesan los líquidos y se da dieta blanda o triturada en porciones pequeñas. Y se cuida la higiene bucal.' },
+        ] },
+        { title: 'Definir y alimentar', tag: 'Derivar', kind: 'alert', items: [
+          { t: 'Videofluoroscopía o nasofibroscopía', d: 'Fonoaudiología y otorrino',
+            say: 'El trastorno se define con una videofluoroscopía o una nasofibroscopía de deglución, con fonoaudiología y otorrinolaringología.' },
+          { t: 'Más de 4 semanas: sonda; luego gastrostomía', d: 'Si no hay vía oral segura',
+            say: 'Si la disfagia se prolonga más de unas cuatro semanas, o no hay una vía oral segura, se alimenta por sonda nasogástrica y, a largo plazo, con gastrostomía.' },
         ] },
       ],
     },
@@ -166,40 +222,6 @@ module.exports = {
           say: 'En la deglución normal, una onda peristáltica empuja el bolo hacia abajo, y justo cuando llega, el esfínter esofágico inferior se relaja y lo deja pasar al estómago.' },
         { note: 'Sin onda, esfínter cerrado',
           say: 'En la acalasia no hay peristalsis y el esfínter no se relaja: su presión se mantiene alta. El bolo se estanca y, con el tiempo, el esófago se dilata por encima. Abajo queda la imagen en pico de pájaro.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Acalasia y esclerodermia',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-03/01_manometria-de-alta-resolucion-acalasia-i__cto-digestivo_p18.jpg', label: 'Manometría', credit: 'Manual CTO Digestivo 14.ª ed., p. 18' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-03/02_esofagograma-acalasia-pico-de-pajaro__amir-cirugia_p162.jpg', label: 'Pico de pájaro', credit: 'Manual AMIR Cirugía, p. 162' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-03/03_esclerodactilia__amir-reuma_p99.jpg', label: 'Esclerodactilia', credit: 'Manual AMIR Reumatología, p. 99' },
-      ],
-      steps: [
-        { note: 'El estándar diagnóstico',
-          say: 'Esta es una manometría de alta resolución: muestra que el esfínter inferior no se relaja y que el cuerpo no tiene peristalsis. Es el examen que confirma la acalasia.' },
-        { note: 'Esófago dilatado que termina en punta',
-          say: 'Y este es el esofagograma clásico: un esófago dilatado que termina en una punta fina, como el pico de un pájaro. Esa imagen se pregunta.' },
-        { note: 'El contexto delata la esclerodermia',
-          say: 'Y estas son las manos de una esclerodermia: dedos engrosados y fijos en flexión, la esclerodactilia. Junto al Raynaud y las telangiectasias, es el contexto que delata el trastorno motor con pirosis intensa.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Chagas: el esófago dilatado',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-03/04_megaesofago_chagas__commons.jpg', label: 'Megaesófago chagásico', credit: 'Wikimedia Commons «Chagas megaseophagus.JPG», Public domain, autor en Commons' },
-      ],
-      steps: [
-        { note: 'Chagas también compromete el esófago',
-          say: 'Este es un megaesófago por enfermedad de Chagas: el esófago se ve muy dilatado, lleno de contraste. Chagas también compromete el esófago y, igual que la acalasia, suele dar disfagia ilógica.' },
       ],
     },
 
@@ -224,6 +246,8 @@ module.exports = {
           say: 'Disfagia alta con halitosis: Zenker, esofagograma con bario.' },
         { cells: ['Schatzki / estenosis péptica', 'Lógica intermitente a sólidos, sin baja de peso', 'EDA (permite dilatar)'],
           say: 'Y disfagia intermitente a sólidos, sin baja de peso: anillo de Schatzki o estenosis péptica, endoscopía, que además permite dilatar.' },
+        { cells: ['Disfagia orofaríngea', 'Tos al tragar, voz húmeda, neumonías aspirativas', 'Prueba de agua; suspender vía oral y derivar'],
+          say: 'Y la disfagia orofaríngea: tos al tragar, voz húmeda y neumonías aspirativas. Se hace la prueba de agua, se suspende la vía oral y se deriva.' },
       ],
     },
 
@@ -363,6 +387,157 @@ module.exports = {
         options: 'Las alternativas: endoscopía digestiva alta, radiografía, nasolaringoscopia, manometría esofágica, o derrame pleural. Piénsalo.',
         answer: 'Es la A, endoscopía digestiva alta. Un bolo de comida que bloquea el esófago por completo, ni el agua pasa, es una urgencia, y el mismo procedimiento que retira el trozo atascado te muestra si detrás hay un anillo de Schatzki o una estenosis péptica, que es justamente el cuadro que vimos como disfagia lógica intermitente y sin baja de peso.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.005 · Cáncer del esófago",
+      "stem": "Hombre de 66 años, fumador de 40 paquetes-año y bebedor intenso, con 3 meses de disfagia progresiva, primero para sólidos y ahora también para papillas, con baja de 9 kg. Al examen está enflaquecido, sin adenopatías palpables.",
+      "question": "¿Cuál es el examen que confirma el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Endoscopía digestiva alta con biopsias"
+        },
+        {
+          "letter": "B",
+          "text": "Esofagograma con bario"
+        },
+        {
+          "letter": "C",
+          "text": "Manometría esofágica"
+        },
+        {
+          "letter": "D",
+          "text": "TAC de tórax y abdomen"
+        },
+        {
+          "letter": "E",
+          "text": "PET-CT"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Disfagia lógica y progresiva con baja de peso en un fumador y bebedor sugiere cáncer escamoso de esófago. El diagnóstico se confirma con endoscopía y biopsia; la TAC y el PET-CT sirven después para etapificar, y el esofagograma solo orienta.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de sesenta y seis años, fumador intenso y bebedor, con tres meses de disfagia que avanza: primero para sólidos y ahora también para papillas. Bajó nueve kilos y se ve enflaquecido.",
+        "question": "¿Cuál es el examen que confirma el diagnóstico más probable?",
+        "options": "Las opciones: endoscopía con biopsias, esofagograma con bario, manometría, tomografía de tórax y abdomen o PET. Piénsalo.",
+        "answer": "Es la A. La disfagia que progresa de sólidos a líquidos, con baja de peso, en un fumador y bebedor, es un cáncer de esófago hasta demostrar lo contrario, y solo la biopsia lo confirma. La tomografía tienta, pero sirve para etapificar una vez hecho el diagnóstico."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.002 · Divertículos esofágicos",
+      "stem": "Hombre de 78 años, autovalente, con disfagia alta, regurgitación de alimentos no digeridos, halitosis y 2 neumonías aspirativas en el último año. El esofagograma con bario confirma un divertículo de Zenker de 4 cm.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Observación y dieta blanda"
+        },
+        {
+          "letter": "B",
+          "text": "Omeprazol a permanencia"
+        },
+        {
+          "letter": "C",
+          "text": "Dilatación endoscópica con balón"
+        },
+        {
+          "letter": "D",
+          "text": "Miotomía del cricofaríngeo con resección o sección endoscópica del divertículo"
+        },
+        {
+          "letter": "E",
+          "text": "Gastrostomía definitiva"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El Zenker sintomático, sobre todo con aspiración, se trata con cirugía: la clave es la miotomía del cricofaríngeo, asociada a diverticulectomía o a diverticulotomía endoscópica. Ni los IBP ni la dilatación corrigen el mecanismo. Ojo: la endoscopía o la sonda a ciegas pueden perforar el divertículo.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de setenta y ocho años, autovalente, con disfagia alta, regurgitación de comida sin digerir, mal aliento y dos neumonías aspirativas en el último año. El esofagograma confirma un divertículo de Zenker de cuatro centímetros.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: observar con dieta blanda, omeprazol, dilatación con balón, miotomía del cricofaríngeo con tratamiento del divertículo o gastrostomía. Piénsalo.",
+        "answer": "Es la D. El divertículo de Zenker con síntomas y aspiraciones se opera, y lo esencial es cortar el músculo cricofaríngeo, que es el que genera el divertículo. Observar es el distractor tentador por la edad, pero las neumonías aspirativas son justamente lo que obliga a tratar."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.4.002 · Tránsito esófago-estómago-duodeno",
+      "stem": "Hombre de 74 años consulta por disfagia alta de 1 año de evolución, regurgitación de alimentos no digeridos horas después de comer, halitosis y tos nocturna. Al deglutir se escucha un gorgoteo cervical.",
+      "question": "¿Cuál es el examen inicial de elección para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Manometría esofágica de alta resolución"
+        },
+        {
+          "letter": "B",
+          "text": "Tránsito esófago-estómago-duodeno (esofagograma con bario)"
+        },
+        {
+          "letter": "C",
+          "text": "pH-metría de 24 horas"
+        },
+        {
+          "letter": "D",
+          "text": "TAC de cuello con contraste"
+        },
+        {
+          "letter": "E",
+          "text": "Endoscopía digestiva alta con biopsias"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La clínica sugiere un divertículo de Zenker. El esofagograma baritado lo demuestra como una bolsa posterior en la unión faringoesofágica y orienta la cirugía. La endoscopía no es el examen inicial porque al intubar a ciegas puede perforar el divertículo. La manometría es clave en la acalasia, no aquí.",
+      "say": {
+        "stem": "Hombre de setenta y cuatro años con disfagia alta, regurgitación de comida no digerida, halitosis y gorgoteo cervical.",
+        "question": "¿Qué examen pides primero?",
+        "options": "Las opciones: manometría, tránsito esófago estómago duodeno con bario, pH metría, TAC de cuello, o endoscopía. Piénsalo.",
+        "answer": "Es la B. El tránsito con bario muestra el divertículo de Zenker con seguridad. La endoscopía tienta, pero puede perforar la bolsa diverticular."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.1.032 · Trastorno de deglución",
+      "stem": "Hombre de 75 años, 3 semanas después de un ACV isquémico, presenta tos y voz húmeda al beber líquidos, y tuvo una neumonía hace 1 semana. Está alerta y cooperador.",
+      "question": "¿Cuál es la conducta más adecuada para evaluar la deglución?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Evaluación fonoaudiológica de la deglución y estudio instrumental (videofluoroscopía o evaluación endoscópica de la deglución)"
+        },
+        {
+          "letter": "B",
+          "text": "Endoscopía digestiva alta"
+        },
+        {
+          "letter": "C",
+          "text": "Manometría esofágica"
+        },
+        {
+          "letter": "D",
+          "text": "Radiografía de tórax de control solamente"
+        },
+        {
+          "letter": "E",
+          "text": "Indicar gastrostomía de inmediato"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La tos o voz húmeda con líquidos y la neumonía aspirativa tras un ACV indican disfagia orofaríngea con aspiración. Se evalúa con tamizaje y evaluación fonoaudiológica, y se confirma con videofluoroscopía o FEES, que definen consistencias seguras y maniobras compensatorias. La endoscopía digestiva y la manometría evalúan la disfagia esofágica.",
+      "say": {
+        "stem": "Hombre de setenta y cinco años, tres semanas después de un ACV, con tos y voz húmeda al beber líquidos y una neumonía reciente.",
+        "question": "¿Cuál es la conducta para evaluar la deglución?",
+        "options": "Las opciones: evaluación fonoaudiológica con videofluoroscopía o estudio endoscópico de la deglución, endoscopía digestiva, manometría, solo radiografía o gastrostomía inmediata. Piénsalo.",
+        "answer": "Es la A. Es una disfagia orofaríngea con aspiración y se evalúa con fonoaudiología y videofluoroscopía o estudio endoscópico de la deglución. La endoscopía digestiva tienta, pero mira el esófago, no la fase faríngea."
+      }
     },
 
     {

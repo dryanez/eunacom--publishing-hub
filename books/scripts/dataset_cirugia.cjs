@@ -52,7 +52,9 @@ const cirugiaClasses = rawClasses.map(c => {
   };
 });
 
+const { applyExtra } = require('./cirugia_extra/index.cjs');
+
 module.exports = {
-  cirugiaClasses,
+  cirugiaClasses: applyExtra(cirugiaClasses),
   flow: flowCirugia
 };

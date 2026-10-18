@@ -31,7 +31,8 @@ module.exports = {
       ],
       steps: [
         { show: ['con', 'inc'], note: 'Rojo brillante que se apaga hacia la córnea',
-          say: 'Todo parte de mirar dónde está el rojo, y eso depende de qué vasos se dilatan. Si se dilatan los vasos conjuntivales, tienes una inyección conjuntival: un rojo brillante, más intenso en la periferia y en los fondos de saco, que va disminuyendo a medida que se acerca a la córnea.' },
+          say: 'Todo parte de mirar dónde está el rojo, y eso depende de qué vasos se dilatan. Si se dilatan los vasos conjuntivales, tienes una inyección conjuntival. Mira este ojo: un rojo brillante, más intenso en la periferia y en los fondos de saco, que va disminuyendo a medida que se acerca a la córnea.',
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-01/01_inyeccion-conjuntival__cto-oftalmo_p33.jpg', label: 'Inyección conjuntival', at: 'Mira este ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 33' } },
         { show: ['lim'], note: 'Vasos móviles, se blanquean con fenilefrina',
           say: 'Esos vasos son móviles, se desplazan si mueves la conjuntiva con un aplicador, y se blanquean con un vasoconstrictor tópico como la fenilefrina. Es el patrón de la conjuntivitis y de la blefaritis. Este dato se pregunta: fenilefrina positiva, superficial.' },
         { show: ['cil'], note: 'Circulación más profunda',
@@ -62,7 +63,8 @@ module.exports = {
         ] },
         { title: 'Cámara anterior', tag: 'El quinto signo', kind: 'alert', items: [
           { t: 'Hipopión o hipema', d: 'Nivel de pus o de sangre',
-            say: 'Y el quinto es la cámara anterior anormal: un nivel de pus, que es el hipopión, un nivel de sangre, que es el hipema, o una cámara muy estrecha. Basta un solo signo de estos cinco, no los cinco juntos, para que la conducta sea derivar de urgencia.' },
+            say: 'Y el quinto es la cámara anterior anormal: un nivel de pus, que es el hipopión, un nivel de sangre, que es el hipema, o una cámara muy estrecha. Mira este ojo: el halo rojo oscuro pegado a la córnea es la inyección ciliar, y abajo, en la cámara anterior, se ve el nivel blanquecino del pus. Basta un solo signo de estos cinco, no los cinco juntos, para que la conducta sea derivar de urgencia.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-01/03_inyeccion-ciliar-con-hipopion__cto-oftalmo_p39.jpg', label: 'Ciliar con hipopión', at: 'Mira este ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 39' } },
         ] },
       ],
     },
@@ -90,11 +92,13 @@ module.exports = {
         { show: ['glau'], note: 'Cefalea, náuseas, halos, ojo pétreo',
           say: 'El glaucoma agudo de ángulo cerrado da una cefalea hemicraneana brutal, náuseas, vómitos, halos de colores, pupila en midriasis media fija, y el ojo se siente pétreo a la palpación. La presión suele pasar de cincuenta.' },
         { show: ['uve'], note: 'Miosis, fotofobia consensual, Tyndall',
-          say: 'La uveítis anterior aguda, en cambio, da dolor moderado, fotofobia consensual muy intensa y una pupila en miosis que responde poco. En la lámpara de hendidura se ven células flotando en la cámara anterior, el fenómeno de Tyndall. Fíjate en el contraste con el glaucoma: una pupila achica, la otra dilata.' },
+          say: 'La uveítis anterior aguda, en cambio, da dolor moderado, fotofobia consensual muy intensa y una pupila en miosis que responde poco. En la lámpara de hendidura se ven células flotando en la cámara anterior, el fenómeno de Tyndall. Fíjate en el contraste con el glaucoma: una pupila achica, la otra dilata. En estos ojos del atlas ves la inyección ciliar de la uveítis y la pupila alterada.',
+          photo: { src: '_verificadas/076_oftal_Ojo_rojo_profundo__AtlasClinDx_p109.jpg', label: 'Uveítis anterior aguda', at: 'En estos ojos del atlas', credit: 'Atlas of Clinical Diagnosis, p. 109' } },
         { show: ['que'], note: 'Dolor punzante y tinción positiva',
           say: 'La queratitis y la úlcera corneal dan dolor punzante, blefarospasmo y fotofobia severa, con la córnea que se tiñe con fluoresceína.' },
         { show: ['end'], note: 'Máxima urgencia quirúrgica',
-          say: 'Y la endoftalmitis aguda aparece después de una cirugía de catarata o un trauma, con hipopión y pérdida masiva de visión. Es la emergencia quirúrgica más extrema de las cuatro.' },
+          say: 'Y la endoftalmitis aguda aparece después de una cirugía de catarata o un trauma, con hipopión y pérdida masiva de visión. Mira esta córnea: el exudado blanquecino que la vela es el pus dentro del ojo. Es la emergencia quirúrgica más extrema de las cuatro.',
+          photo: { src: '_verificadas/276_oftal_Endoftalmitis__KanskisCli_p302_1.jpg', label: 'Endoftalmitis postoperatoria', at: 'Mira esta córnea', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 302" } },
       ],
     },
 
@@ -105,11 +109,13 @@ module.exports = {
       cards: [
         { title: 'Glaucoma agudo', tag: 'Bajar la presión ya', kind: 'pharma', items: [
           { t: 'Manitol endovenoso', d: 'Más acetazolamida oral y timolol tópico',
-            say: 'Ante la sospecha de glaucoma agudo, se inician hipotensores oculares de inmediato: manitol endovenoso, acetazolamida oral y timolol tópico, mientras se organiza el traslado urgente para la iridotomía láser.' },
+            say: 'Ante la sospecha de glaucoma agudo, se inician hipotensores oculares de inmediato: manitol endovenoso, acetazolamida oral y timolol tópico, mientras se organiza el traslado urgente para la iridotomía láser. La acetazolamida va en quinientos miligramos, por vía oral o endovenosa, con analgesia y antiemético, y jamás un midriático.' },
         ] },
         { title: 'Uveítis y queratitis', tag: 'Ciclopléjico, nunca mióticos', kind: 'pharma', items: [
           { t: 'Ciclopléjico para el dolor', d: 'Evita que el iris se pegue al cristalino',
             say: 'En la uveítis y en la queratitis se indica un ciclopléjico, que calma el dolor del espasmo ciliar y evita que el iris quede pegado al cristalino formando sinequias. Ojo con la trampa: la pilocarpina, un miótico, está contraindicada aquí, aunque sea el fármaco que sí se usa en el glaucoma crónico.' },
+          { t: 'Uveítis: derivar en 24 horas', d: 'Queratitis: fluoroquinolona, sin parche',
+            say: 'En la uveítis, la derivación es en menos de veinticuatro horas, para empezar el corticoide tópico ya con diagnóstico. En la queratitis, antibiótico de amplio espectro, una fluoroquinolona, se suspenden los lentes de contacto y no se parcha el ojo.' },
         ] },
         { title: 'La regla que nunca se rompe', tag: 'Corticoides', kind: 'alert', items: [
           { t: 'Jamás corticoides sin diagnóstico', d: 'Pueden perforar una úlcera que no viste',
@@ -125,7 +131,8 @@ module.exports = {
       cards: [
         { title: 'Cómo se ve', tag: 'Sangre bajo la conjuntiva', kind: 'normal', items: [
           { t: 'Mancha roja intensa y homogénea', d: 'Bien delimitada, sin secreción',
-            say: 'Y en el extremo opuesto del espectro está el hiposfagma, la hemorragia subconjuntival. Es sangre que se acumula bajo la conjuntiva por la rotura de un capilar, y se ve como una mancha roja intensa, pareja y bien delimitada, sin secreción.' },
+            say: 'Y en el extremo opuesto del espectro está el hiposfagma, la hemorragia subconjuntival. Es sangre que se acumula bajo la conjuntiva por la rotura de un capilar, y se ve como una mancha roja intensa, pareja y bien delimitada, sin secreción. Mira esta mancha: sangre franca bajo la conjuntiva, y la córnea y la pupila, normales.',
+            photo: { src: '_verificadas/75_hiposfagma__KanskisClini_p178_1.jpg', label: 'Hiposfagma', at: 'Mira esta mancha', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 178" } },
           { t: 'Visión y pupilas normales', d: 'Indolora, sin baja de agudeza visual',
             say: 'La agudeza visual y los reflejos pupilares están intactos, y no hay dolor. Suele aparecer sola o después de toser, vomitar o hacer un esfuerzo, y a veces con un golpe mínimo.' },
         ] },
@@ -137,19 +144,39 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Ojo rojo crónico',
+      title: 'Pterigión y pinguécula: el rojo que lleva años',
+      cards: [
+        { title: 'Qué es', tag: 'Degenerativo, por sol y viento', kind: 'key', items: [
+          { t: 'Pterigión: pliegue triangular', d: 'Nasal, avanza sobre la córnea',
+            say: 'Ahora el ojo rojo crónico, el que lleva meses o años. El pterigión es un pliegue triangular de conjuntiva con vasos, en forma de ala, que nace del lado nasal y avanza sobre la córnea. Mira esta foto: la cabeza del pliegue ya invade la córnea, con vasos radiados. Lo produce la exposición crónica a radiación ultravioleta, viento y polvo: pescadores, agricultores, trabajadores al aire libre.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-01/54_pterigion__kanski_p175.jpg', label: 'Pterigión nasal', at: 'Mira esta foto', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 175" } },
+          { t: 'Pinguécula: no invade la córnea', d: 'Engrosamiento amarillento junto al limbo',
+            say: 'La pinguécula es la hermana pequeña: un engrosamiento amarillento de la conjuntiva junto al limbo que no pasa a la córnea. Esa es la diferencia que se pregunta: el pterigión invade la córnea, la pinguécula no.' },
+        ] },
+        { title: 'Conducta en APS', tag: 'Fotoprotección y control', kind: 'pharma', items: [
+          { t: 'Lentes UV y lágrimas artificiales', d: 'Antiinflamatorio solo en los brotes',
+            say: 'Es indoloro y con visión normal mientras no llegue al eje visual. En atención primaria se indica fotoprotección, con lentes con filtro ultravioleta y sombrero, lágrimas artificiales, y un antiinflamatorio tópico por pocos días si se inflama. Ningún tratamiento médico lo hace retroceder.' },
+        ] },
+        { title: 'Cuándo derivar', tag: 'Cirugía con autoinjerto', kind: 'alert', items: [
+          { t: 'Crece al centro o baja la visión', d: 'Astigmatismo, inflamación recurrente',
+            say: 'Se deriva si crece hacia el centro de la córnea, si induce astigmatismo o baja la visión, si se inflama una y otra vez, o si tiene aspecto sospechoso, leucoplásico o ulcerado, por la posibilidad de una neoplasia. El tratamiento definitivo es la exéresis con autoinjerto conjuntival, que baja la recidiva a menos del diez por ciento.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'El ojo rojo',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El ojo rojo, en movimiento',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-01/01_inyeccion-conjuntival__cto-oftalmo_p33.jpg', label: 'Inyección conjuntival', credit: 'Manual CTO Oftalmología 14.ª ed., p. 33' },
-        { src: 'biblioteca/12_oftalmologia/oftal-01/03_inyeccion-ciliar-con-hipopion__cto-oftalmo_p39.jpg', label: 'Inyección ciliar con hipopión', credit: 'Manual CTO Oftalmología 14.ª ed., p. 39' },
+        { src: 'animaciones/oftal-01/A1_inyeccion.mp4', label: 'Conjuntival contra ciliar', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · capas y rótulos propios' },
       ],
       steps: [
-        { note: 'Rojo periférico',
-          say: 'La inyección conjuntival es más roja en la periferia. Es superficial: conjuntivitis.' },
-        { note: 'Rojo alrededor de la córnea',
-          say: 'La ciliar es más roja alrededor de la córnea y sugiere algo profundo: uveítis, queratitis o glaucoma. Aquí además hay hipopión, pus en la cámara anterior: es un signo de alarma y se deriva.' },
+        { note: 'Dónde está el rojo',
+          say: 'Veamos el ojo rojo en movimiento. La inyección conjuntival es un rojo brillante en la periferia, con vasos que se mueven con el aplicador y que desaparecen con una gota de fenilefrina. La inyección ciliar, en cambio, es un halo violáceo pegado a la córnea: no se mueve y no blanquea. Y recuerda: basta un solo signo de alarma para derivar de urgencia, y jamás corticoides sin diagnóstico.' },
       ],
     },
 
@@ -172,6 +199,8 @@ module.exports = {
           say: 'Fluoresceína positiva: queratitis o úlcera corneal. Y la trampa más peligrosa de toda la oftalmología: dar corticoides para desinflamar sin haber teñido antes la córnea.' },
         { cells: ['Mancha roja homogénea, indolora, visión normal', 'Hiposfagma', 'Indicar colirio antibiótico o hemostático'],
           say: 'Mancha roja homogénea, indolora y con visión normal: hiposfagma. La trampa es medicalizarlo con colirios que no aportan nada.' },
+        { cells: ['Pliegue triangular que invade la córnea', 'Pterigión', 'Derivar de urgencia o dar corticoides'],
+          say: 'Un pliegue triangular que ya invade la córnea es un pterigión. La trampa es tratarlo como urgencia o con corticoides: se indica fotoprotección, y se deriva solo si amenaza el eje visual.' },
         { cells: ['Cualquiera de los cinco signos de alarma', 'Derivación urgente a oftalmología', 'Tratar en APS y controlar en días'],
           say: 'Y la regla que resume todo: si hay uno solo de los cinco signos de alarma, la conducta es derivar de urgencia. Tratarlo en atención primaria y controlar en unos días es siempre la respuesta incorrecta.' },
       ],
@@ -267,6 +296,82 @@ module.exports = {
         options: 'Las opciones: ácido tranexámico y reposo, tranquilizar y no indicar fármacos, colirio de fenilefrina, paracentesis conjuntival, o derivar para fotocoagulación láser. Piénsalo.',
         answer: 'Es la B. Repasa los cinco signos de alarma: no hay ninguno. Es un hiposfagma, y la conducta es solo tranquilizar y esperar, se reabsorbe solo en diez a catorce días. Ninguna de las otras opciones tiene sentido: no hay nada que coagular, nada que vasoconstreñir y nada que drenar. Es el ejemplo perfecto de un ojo rojo que asusta pero que no necesita nada.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 156",
+      "stem": "Una paciente de 42 años consulta por dolor ocular derecho, asociado a ojo rojo que inició hace 5 horas y se ha vuelto muy intenso. Al examen físico presenta epífora y ojo rojo derecho de tipo central. Como antecedente, tiene astigmatismo y es usuaria de lentes de contacto.",
+      "question": "¿Cuál de los siguientes exámenes es más adecuado para confirmar la sospecha diagnóstica?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fondo de ojo"
+        },
+        {
+          "letter": "B",
+          "text": "Tonometría ocular"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de órbitas"
+        },
+        {
+          "letter": "D",
+          "text": "Tinción con fluoresceína"
+        },
+        {
+          "letter": "E",
+          "text": "Gonioscopía"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Ojo rojo central, muy doloroso y con lagrimeo en una usuaria de lentes de contacto sugiere queratitis o erosión corneal. La tinción con fluoresceína bajo luz azul de cobalto muestra el defecto epitelial. La gonioscopía y la tonometría se usan en la evaluación del glaucoma.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Paciente de cuarenta y dos años, usuaria de lentes de contacto, con cinco horas de dolor ocular derecho muy intenso, lagrimeo y ojo rojo de predominio central.",
+        "question": "¿Qué examen es más adecuado para confirmar la sospecha?",
+        "options": "Las opciones: fondo de ojo, tonometría, TAC de órbitas, tinción con fluoresceína, o gonioscopía. Piénsalo.",
+        "answer": "Es la D. Dolor intenso con ojo rojo central en usuaria de lentes de contacto es queratitis hasta que se demuestre lo contrario, y la fluoresceína tiñe el epitelio dañado. La tonometría tienta por el dolor intenso, pero el glaucoma agudo daría midriasis media fija y córnea turbia, no este cuadro."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.1.020 · Pterigion",
+      "stem": "Hombre de 52 años, pescador, consulta por sensación de cuerpo extraño y enrojecimiento del ojo derecho. Al examen se observa un pliegue fibrovascular triangular de conjuntiva bulbar nasal que invade 2 mm la córnea. La agudeza visual es normal.",
+      "question": "¿Cuál es el manejo inicial más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Exéresis quirúrgica inmediata"
+        },
+        {
+          "letter": "B",
+          "text": "Biopsia urgente"
+        },
+        {
+          "letter": "C",
+          "text": "Corticoide tópico crónico"
+        },
+        {
+          "letter": "D",
+          "text": "Antibiótico tópico"
+        },
+        {
+          "letter": "E",
+          "text": "Lubricantes tópicos, protección solar con lentes con filtro UV y control; cirugía si progresa hacia el eje visual o produce astigmatismo"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El pterigion es una proliferación fibrovascular de la conjuntiva que invade la córnea, asociada a exposición UV, viento y polvo. Se maneja con lubricantes, antiinflamatorios en reagudizaciones y protección solar. La cirugía (con autoinjerto conjuntival para reducir recidiva) se indica si amenaza el eje visual, induce astigmatismo, limita la motilidad o por estética.",
+      "say": {
+        "stem": "Pescador de cincuenta y dos años con un pliegue triangular fibrovascular de conjuntiva nasal que invade dos milímetros la córnea, con visión normal.",
+        "question": "¿Cuál es el manejo inicial?",
+        "options": "Las opciones: cirugía inmediata, biopsia urgente, corticoide crónico, antibiótico tópico o lubricantes con lentes de sol y control. Piénsalo.",
+        "answer": "Es la E. Un pterigion pequeño que no afecta la visión se maneja con lubricantes y protección solar. La cirugía tienta por ser el tratamiento definitivo, pero recidiva con frecuencia y se reserva para cuando avanza hacia el eje visual."
+      }
     },
 
     {

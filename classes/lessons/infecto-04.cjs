@@ -68,6 +68,9 @@ module.exports = {
             say: 'El tercero es la anestesia cutánea focal. Y fíjate en la paradoja: al principio duele muchísimo, pero cuando se necrosan los nervios de la dermis, la zona queda insensible. Una zona que antes dolía y ahora no se siente es mala noticia, no mejoría.' },
           { t: 'Shock séptico fulminante', d: 'Acidosis y lactato elevado',
             say: 'Y el cuarto es sistémico: un shock séptico fulminante, con acidosis y lactato elevado. Es el mismo shock séptico que vimos en la primera clase del bloque, con un foco que solo se controla con cirugía.' },
+          { t: 'Gangrena de Fournier', d: 'Fascitis del periné y los genitales',
+            say: 'Una localización especial es el periné: la gangrena de Fournier, una fascitis necrotizante del periné y los genitales. Mira esta piel violácea y con necrosis; el dolor es desproporcionado, y es una urgencia quirúrgica igual que cualquier fascitis.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-04/03_gangrena-fournier__atlas199.jpg', label: 'Gangrena de Fournier', at: 'Mira esta piel', credit: 'Atlas EUNACOM 2026' } },
         ] },
       ],
     },
@@ -95,7 +98,8 @@ module.exports = {
         { show: ['sos'], note: 'La sospecha clínica basta',
           say: 'Ahora la conducta, que es lo que decide el examen. Si tienes un paciente con dolor desproporcionado y signos duros de necrosis, el diagnóstico es clínico. No necesitas nada más para actuar.' },
         { show: ['pab'], note: 'Aseo quirúrgico y fasciotomía urgente',
-          say: 'La conducta es el traslado inmediato a pabellón, para exploración quirúrgica, fasciotomía y desbridamiento amplio de todo el tejido necrótico. ¿Te acuerdas de la trombosis? Como el tejido muerto no recibe sangre, el antibiótico no llega. Solo sacándolo controlas el foco.' },
+          say: 'La conducta es el traslado inmediato a pabellón, para exploración quirúrgica, fasciotomía y desbridamiento amplio de todo el tejido necrótico. Mira este brazo tras el desbridamiento. ¿Te acuerdas de la trombosis? Como el tejido muerto no recibe sangre, el antibiótico no llega. Solo sacándolo controlas el foco.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-04/01_fascitis-necrotizante__cto-infecto_p84.jpg', label: 'Fascitis necrotizante', at: 'Mira este brazo', credit: 'Manual CTO Infecciosas 14.ª ed., p. 84' } },
         { show: ['sob'], note: 'La cirugía define la sobrevida',
           say: 'Por eso la exploración quirúrgica es la medida que define la sobrevida. La mortalidad aumenta con cada hora de demora antes del pabellón.' },
         { show: ['atb', 'rea'], note: 'Antibióticos y reanimación, en paralelo',
@@ -151,7 +155,8 @@ module.exports = {
         { show: ['mol'], note: 'El origen es un diente',
           say: 'Pasemos a la angina de Ludwig. En el ochenta por ciento de los casos el origen es dental: una infección del segundo o del tercer molar inferior. Por eso en el enunciado casi siempre vas a leer una extracción o un dolor de muela reciente.' },
         { show: ['cel'], note: 'Bilateral: submandibular y sublingual',
-          say: 'Desde ahí se produce una celulitis gangrenosa bilateral de los espacios submandibular y sublingual. Retén la palabra bilateral: el cuello completo, bajo la mandíbula, está tomado.' },
+          say: 'Desde ahí se produce una celulitis gangrenosa bilateral de los espacios submandibular y sublingual. Mira este cuello, hinchado bajo la mandíbula. Retén la palabra bilateral: el cuello completo, bajo la mandíbula, está tomado.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-04/02_angina-de-ludwig__amir-orl_p55.jpg', label: 'Angina de Ludwig', at: 'Mira este cuello', credit: 'Manual AMIR Otorrinolaringología, p. 55' } },
         { show: ['pis'], note: 'El piso de la boca empuja la lengua',
           say: 'Como el piso de la boca se llena de edema e infección, empuja la lengua hacia arriba y hacia afuera. El paciente tiene la lengua protruida, trismus, y la voz cambia.' },
         { show: ['est'], note: 'Estridor: la vía aérea está en riesgo',
@@ -160,6 +165,32 @@ module.exports = {
           say: 'Por eso la prioridad número uno es asegurar la vía aérea, mediante intubación guiada con fibra óptica o traqueostomía. Antes de la TAC, antes del drenaje y antes de cualquier otra cosa.' },
         { show: ['qx'], note: 'Después, el mismo manejo de fondo',
           say: 'Con la vía aérea segura, el manejo sigue los mismos pilares que la fascitis: aseo quirúrgico urgente y antibióticos endovenosos.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Adenitis y flegmones',
+      title: 'Adenitis, adenoflegmón y flegmones cervicales',
+      cards: [
+        { title: 'Adenitis aguda', tag: 'S. aureus o S. pyogenes', kind: 'key', items: [
+          { t: 'Ganglio unilateral caliente y doloroso', d: 'Tras faringitis, caries o lesión cutánea',
+            say: 'La adenitis aguda es un ganglio cervical unilateral, caliente, doloroso y eritematoso, casi siempre por Staphylococcus aureus o Streptococcus pyogenes, a partir de una faringitis, una caries o una lesión de piel.' },
+          { t: 'Adenoflegmón: ya fluctúa', d: 'Antibiótico 7–10 días y drenaje',
+            say: 'Cuando se forma la colección, con fluctuación y fiebre, es un adenoflegmón. Se da antibiótico por siete a diez días y se drena.' },
+        ] },
+        { title: 'Si el ritmo es otro', tag: 'Diferencial', kind: 'criteria', items: [
+          { t: 'Crónico e indoloro: TBC o atípica', d: 'Escrófula · PPD y cultivo',
+            say: 'Si es crónico e indoloro, piensa en tuberculosis, la escrófula, o micobacterias atípicas.' },
+          { t: 'Arañazo de gato, mononucleosis, Kawasaki', d: 'Duro, adherido o supraclavicular: biopsia',
+            say: 'Con un gato, Bartonella. Bilateral con faringitis y bazo, mononucleosis. Y si es duro, adherido o supraclavicular, hay que descartar linfoma o metástasis con biopsia.' },
+        ] },
+        { title: 'Otros flegmones', tag: 'La vía aérea primero', kind: 'alert', items: [
+          { t: 'Parafaríngeo, retrofaríngeo, masticador', d: 'Trismo, babeo, voz de papa caliente',
+            say: 'Ludwig no es el único flegmón del cuello. Está el submaxilar, el parafaríngeo, el retrofaríngeo en niños pequeños y el del espacio masticador. Todos con trismo, disfagia, babeo y voz de papa caliente.' },
+          { t: 'Antibiótico EV con anaerobios y drenaje', d: 'Ampicilina-sulbactam o clindamicina + ceftriaxona',
+            say: 'La prioridad es la vía aérea. Luego, antibiótico endovenoso con cobertura de anaerobios, TAC de cuello con contraste y drenaje quirúrgico.' },
+        ] },
       ],
     },
 
@@ -174,23 +205,6 @@ module.exports = {
       steps: [
         { note: 'Por dentro avanza, por fuera casi nada',
           say: 'La infección avanza rápido por la fascia, bajo la grasa, mientras la piel todavía se ve casi normal. Por eso la clave es un dolor desproporcionado a lo que se ve; puede haber gas y crepitación, y la piel se oscurece tarde. El tratamiento es pabellón urgente para desbridar.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Infecciones graves de partes blandas',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-04/01_fascitis-necrotizante__cto-infecto_p84.jpg', label: 'Fascitis necrotizante', credit: 'Manual CTO Infecciosas 14.ª ed., p. 84' },
-        { src: 'biblioteca/07_infectologia/infecto-04/02_angina-de-ludwig__amir-orl_p55.jpg', label: 'Angina de Ludwig', credit: 'Manual AMIR Otorrinolaringología, p. 55' },
-      ],
-      steps: [
-        { note: 'Necrosis y desbridamiento',
-          say: 'Esta es una fascitis necrotizante. La clave clínica es el dolor desproporcionado a lo que se ve en la piel. El tratamiento es cirugía urgente.' },
-        { note: 'Piso de la boca hinchado',
-          say: 'Y la angina de Ludwig: el piso de la boca y el cuello se hinchan. El riesgo es perder la vía aérea.' },
       ],
     },
 
@@ -308,6 +322,82 @@ module.exports = {
         options: 'Las opciones son: angina de Ludwig, faringitis estreptocócica, absceso periamigdalino, mononucleosis infecciosa, o epiglotitis. Piénsalo.',
         answer: 'Es la C, absceso periamigdalino. El trismus aparece en los dos cuadros, por eso la angina de Ludwig tienta. Pero la úvula desviada te habla de una colección unilateral al lado de la amígdala. La angina de Ludwig es otra cosa: bilateral, del piso de la boca, de origen dental, con la lengua empujada hacia arriba y estridor.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.1.001 · Adenitis, adenoflegmón",
+      "stem": "Un niño de 3 años presenta aumento de volumen cervical derecho de 4 días, doloroso, con fiebre de 38,5 °C. Al examen hay un ganglio submandibular de 3 cm, eritematoso, caliente y fluctuante al centro. Tuvo un impétigo facial reciente.",
+      "question": "¿Cuál es el manejo más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Observación y control en 1 mes"
+        },
+        {
+          "letter": "B",
+          "text": "PPD y tratamiento antituberculoso"
+        },
+        {
+          "letter": "C",
+          "text": "Biopsia excisional para descartar linfoma"
+        },
+        {
+          "letter": "D",
+          "text": "Drenaje del adenoflegmón y antibiótico con cobertura antiestafilocócica"
+        },
+        {
+          "letter": "E",
+          "text": "Antiviral oral"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La adenitis cervical aguda unilateral con signos inflamatorios en un preescolar se debe en general a S. aureus o S. pyogenes, a menudo tras impétigo o faringitis. Con fluctuación (adenoflegmón) se requiere drenaje más antibiótico antiestafilocócico (ej. cefadroxilo o flucloxacilina). La biopsia se reserva para adenopatías persistentes, duras, indoloras o con síntomas B.",
+      "say": {
+        "stem": "Un niño de tres años tiene un ganglio submandibular derecho de tres centímetros, rojo, caliente, doloroso y fluctuante, con fiebre, tras un impétigo facial.",
+        "question": "¿Cuál es el manejo más adecuado?",
+        "options": "Las opciones: observar un mes, PPD y antituberculosos, biopsia excisional, drenaje más antibiótico antiestafilocócico o antiviral. Piénsalo.",
+        "answer": "Es la D. Es un adenoflegmón, habitualmente por estafilococo o estreptococo, y la fluctuación exige drenaje además del antibiótico. La biopsia tienta por miedo al linfoma, pero se reserva para adenopatías duras, indoloras y persistentes."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.2.005 · Fasceitis necrotizante",
+      "stem": "Mujer de 50 años, diabética, con una herida en la pierna hace 3 días. Consulta por dolor intenso, desproporcionado a los hallazgos, con eritema mal delimitado, edema que se extiende más allá del eritema, ampollas violáceas y crépito a la palpación. Temperatura 39 °C, PA 90/55 mmHg, FC 120 lpm.",
+      "question": "¿Cuál es la conducta más importante?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibiótico oral y control en 48 horas"
+        },
+        {
+          "letter": "B",
+          "text": "Resonancia magnética antes de decidir conducta"
+        },
+        {
+          "letter": "C",
+          "text": "Elevación de la extremidad y cefazolina endovenosa"
+        },
+        {
+          "letter": "D",
+          "text": "Reanimación, antibióticos endovenosos de amplio espectro y desbridamiento quirúrgico urgente"
+        },
+        {
+          "letter": "E",
+          "text": "Hospitalizar y observar la evolución de los bordes marcados"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Dolor desproporcionado, edema más allá del eritema, ampollas violáceas, crépito y shock son signos de fasceitis necrotizante. Es una emergencia quirúrgica: el desbridamiento precoz es el principal determinante de sobrevida, junto con antibióticos amplios (incluyendo clindamicina por efecto antitoxina) y reanimación. Las imágenes no deben retrasar la cirugía.",
+      "say": {
+        "stem": "Mujer de cincuenta años, diabética, con dolor desproporcionado en la pierna, ampollas violáceas, crépito, fiebre e hipotensión.",
+        "question": "¿Cuál es la conducta más importante?",
+        "options": "Las opciones: antibiótico oral, resonancia antes de decidir, elevación con cefazolina, reanimación con antibióticos amplios y cirugía urgente o observar los bordes. Piénsalo.",
+        "answer": "Es la D. Es una fasceitis necrotizante y lo que salva la vida es el desbridamiento quirúrgico urgente con antibióticos amplios. La resonancia tienta para confirmar, pero no debe retrasar la cirugía."
+      }
     },
 
     {

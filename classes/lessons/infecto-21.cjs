@@ -39,7 +39,8 @@ module.exports = {
         { show: ['cd8', 'cli'], note: 'El cuerpo responde con linfocitos T citotóxicos',
           say: 'El organismo responde con un ejército de linfocitos T citotóxicos, los CD ocho. Esa respuesta es la que produce la fiebre, la faringe inflamada y los ganglios dolorosos.' },
         { show: ['atp'], note: 'Linfocitos atípicos sobre el 10%',
-          say: 'Y esos linfocitos T reactivos son los que aparecen en el hemograma como linfocitos atípicos, o de Downey, sobre el diez por ciento del frotis. Fíjate: el linfocito atípico no es el infectado, es el que lo está atacando.' },
+          say: 'Y esos linfocitos T reactivos son los que aparecen en el hemograma como linfocitos atípicos, o de Downey, sobre el diez por ciento del frotis: mira esta célula grande, de citoplasma abundante y basófilo. Fíjate: el linfocito atípico no es el infectado, es el que lo está atacando.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-21/04_linfocitos-atipicos__atlas210.jpg', label: 'Linfocitos atípicos', at: 'mira esta célula grande', credit: 'Atlas EUNACOM 2026' } },
       ],
     },
 
@@ -52,7 +53,8 @@ module.exports = {
           { t: 'Fiebre alta prolongada', d: '1 a 3 semanas',
             say: 'Veamos cómo llega. La tríada es fiebre, faringitis y adenopatías. La fiebre es alta y prolongada: de una a tres semanas, mucho más de lo que dura una faringitis común.' },
           { t: 'Faringoamigdalitis exudativa', d: 'Placas blancas: igual a la estreptocócica',
-            say: 'La faringoamigdalitis es exudativa, con placas blanquecinas en ambas amígdalas. Y aquí está el problema: clínicamente es indistinguible de la estreptocócica. Mirando la garganta no las separas.' },
+            say: 'La faringoamigdalitis es exudativa, con placas blanquecinas en ambas amígdalas, como ves en esta garganta. Y aquí está el problema: clínicamente es indistinguible de la estreptocócica. Mirando la garganta no las separas.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-21/01_amigdalitis-mononucleosica__cto-orl_p71.jpg', label: 'Amigdalitis', at: 'como ves en esta garganta', credit: 'Manual CTO Otorrinolaringología 14.ª ed., p. 71' } },
           { t: 'Adenopatías cervicales posteriores', d: 'Simétricas y dolorosas',
             say: 'Lo que sí las separa son los ganglios. En la mononucleosis son cervicales posteriores, simétricos y dolorosos. En el estreptococo, en cambio, se compromete la cadena anterior, submandibular.' },
         ] },
@@ -82,11 +84,13 @@ module.exports = {
       ],
       steps: [
         { show: ['far'], note: 'La garganta se ve igual que una estreptocócica',
-          say: 'Ahora la trampa más preguntada del tema. Como la faringitis se ve igual que la estreptocócica, muchas veces el paciente sale de la consulta con un antibiótico.' },
+          say: 'Ahora la trampa más preguntada del tema. Como la faringitis se ve igual que esta estreptocócica, muchas veces el paciente sale de la consulta con un antibiótico.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-21/02_faringoamigdalitis-estreptococica__cto-infecto_p51.jpg', label: 'Faringoamigdalitis estrepto', at: 'esta estreptocócica', credit: 'Manual CTO Infecciosas 14.ª ed., p. 51' } },
         { show: ['amx'], note: 'La aminopenicilina es el gatillo',
           say: 'Y ese antibiótico suele ser una aminopenicilina: amoxicilina o ampicilina.' },
         { show: ['exa'], note: 'Aparece en casi todos los pacientes',
-          say: 'Cinco a siete días después, entre el noventa y el cien por ciento de los pacientes con mononucleosis hace un exantema maculopapular eritematoso difuso. Casi todos. Por eso, en el examen, faringitis más amoxicilina más exantema es mononucleosis hasta que se demuestre lo contrario.' },
+          say: 'Cinco a siete días después, entre el noventa y el cien por ciento de los pacientes con mononucleosis hace un exantema maculopapular eritematoso difuso, como este. Casi todos. Por eso, en el examen, faringitis más amoxicilina más exantema es mononucleosis hasta que se demuestre lo contrario.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-21/03_exantema-por-amoxicilina-mononucleosis__cto-derma_p53.jpg', label: 'Exantema por amoxicilina', at: 'como este', credit: 'Manual CTO Dermatología 14.ª ed., p. 53' } },
         { show: ['inm'], note: 'Reacción por inmunocomplejos, transitoria',
           say: '¿Y es alergia? No. Es una reacción transitoria mediada por inmunocomplejos, propia de la infección por el virus. No constituye una alergia verdadera a los betalactámicos.' },
         { show: ['con'], note: 'Suspender, estudiar, no rotular',
@@ -147,7 +151,8 @@ module.exports = {
       cards: [
         { title: 'El acrónimo', tag: 'TORCH', kind: 'key', items: [
           { t: 'Toxoplasma', d: 'T',
-            say: 'Cambiamos al recién nacido. TORCH es un acrónimo de infecciones congénitas. La T es Toxoplasma.' },
+            say: 'Cambiamos al recién nacido. TORCH es un acrónimo de infecciones congénitas. La T es Toxoplasma, que puede dejar una coriorretinitis: mira esta lesión blanca activa junto a una cicatriz.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-21/01_coriorretinitis_toxoplasma__kanski_p441.jpg', label: 'Coriorretinitis', at: 'mira esta lesión blanca', credit: 'Kanski, p. 441' } },
           { t: 'Otros', d: 'Sífilis, Chagas, varicela, parvovirus B19',
             say: 'La O es otros: sífilis, Chagas, varicela y parvovirus B diecinueve.' },
           { t: 'Rubéola, CMV, herpes simple', d: 'R, C y H',
@@ -191,6 +196,79 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Laboratorio',
+      title: 'Hemograma y VHS: qué sugiere cada patrón',
+      cards: [
+        { title: 'Hemograma', tag: 'Orientar la causa', kind: 'criteria', items: [
+          { t: 'Linfocitos atípicos > 10 %', d: 'Mononucleosis o CMV',
+            say: 'Linfocitos atípicos sobre diez por ciento sugieren mononucleosis o citomegalovirus.' },
+          { t: 'Neutrofilia con desviación a izquierda', d: 'Bacteriana · > 15.000/mm³',
+            say: 'Neutrofilia con desviación a la izquierda, sobre quince mil, sugiere infección bacteriana.' },
+          { t: 'Leucopenia: virus, tifoidea, brucelosis', d: 'Eosinofilia: parasitosis tisulares',
+            say: 'Leucopenia en virosis, tifoidea, brucelosis y sepsis grave. Eosinofilia en parasitosis tisulares como triquinosis, hidatidosis y estrongiloidiasis.' },
+        ] },
+        { title: 'VHS y PCR', tag: 'Inespecíficos', kind: 'key', items: [
+          { t: 'VHS > 100 mm/h', d: 'Endocarditis, TBC, osteomielitis, mieloma',
+            say: 'Una VHS sobre cien orienta a endocarditis, tuberculosis, osteomielitis, vasculitis, mieloma o neoplasia.' },
+          { t: 'PCR sube y baja más rápido', d: 'Sirve para seguir la respuesta',
+            say: 'La PCR sube y baja más rápido, y sirve para seguir la respuesta al tratamiento.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Adenopatías',
+      title: 'Adenopatía: observar, estudiar o biopsiar',
+      nodes: [
+        { id: 'ad', col: 0, row: 1, k: 'start', t: 'Adenopatía', s: 'Patológica si > 1 cm' },
+        { id: 'ca', col: 1, row: 1, k: 'q', t: '¿Cómo es?', s: 'Consistencia, dolor, localización' },
+        { id: 're', col: 2, row: 0, k: 'good', t: 'Blanda, dolorosa, móvil', s: 'Reactiva: viral, estrepto, Bartonella' },
+        { id: 'ma', col: 2, row: 2, k: 'alert', t: 'Dura, adherida o supraclavicular', s: 'Linfoma o metástasis' },
+        { id: 'ob', col: 3, row: 0, k: 'effect', t: 'Observar 2–4 semanas', s: 'Hemograma, serologías, Rx de tórax' },
+        { id: 'bi', col: 3, row: 2, k: 'risk', t: 'Biopsia', s: '> 2 cm, crece, > 4–6 semanas o síntomas B' },
+      ],
+      edges: [
+        { from: 'ad', to: 'ca' },
+        { from: 'ca', to: 're' },
+        { from: 'ca', to: 'ma' },
+        { from: 're', to: 'ob' },
+        { from: 'ma', to: 'bi' },
+      ],
+      steps: [
+        { show: ['ad'], note: 'Cuándo es patológica',
+          say: 'Sigamos con las adenopatías. Son patológicas si miden más de un centímetro; en la epitroclear, más de cero coma cinco, y en la inguinal, más de uno coma cinco.' },
+        { show: ['ca'], note: 'Cómo es el ganglio',
+          say: 'Se pregunta por fiebre, sudoración, baja de peso, gatos, tuberculosis y viajes, se examina hígado y bazo, y se mira cómo es el ganglio.' },
+        { show: ['re', 'ob'], note: 'Reactiva: se observa',
+          say: 'Si es blando, doloroso y móvil, orienta a infección reactiva. Se piden hemograma, serologías de virus de Epstein-Barr, citomegalovirus, VIH y toxoplasma, y radiografía de tórax, y si es localizado y benigno se observa dos a cuatro semanas.' },
+        { show: ['ma', 'bi'], note: 'Sospechosa: biopsia',
+          say: 'Si es duro, adherido o supraclavicular, hay que descartar linfoma o metástasis. Se biopsia si mide más de dos centímetros, crece, persiste más de cuatro a seis semanas o se asocia a síntomas B. Y se hace antes de dar corticoides.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Fiebre prolongada',
+      title: 'Síndrome febril prolongado: estudiar sin tratar a ciegas',
+      cards: [
+        { title: 'Definición y causas', tag: 'Más de 14 días en el niño', kind: 'key', items: [
+          { t: 'Niño > 14 días · adulto > 3 semanas', d: 'Con estudio ambulatorio negativo',
+            say: 'Es la fiebre de más de catorce días en el niño, o más de tres semanas en el adulto con estudio ambulatorio negativo.' },
+          { t: 'Infecciosas, reumatológicas, neoplásicas', d: 'CMV, EBV, TBC, endocarditis, Still, linfoma',
+            say: 'Las causas son infecciones, como citomegalovirus, Epstein-Barr, tuberculosis, endocarditis y abscesos ocultos; enfermedades del tejido conectivo, como Still, lupus y Kawasaki; neoplasias, como leucemia y linfoma; y fármacos.' },
+        ] },
+        { title: 'Conducta', tag: 'Escalonada', kind: 'alert', items: [
+          { t: 'Historia, examen repetido, laboratorio', d: 'Hemocultivos × 3, Rx, PPD, serologías, ecografía',
+            say: 'Estudio escalonado: historia detallada con viajes, animales y fármacos, examen repetido, hemograma, VHS y PCR, perfil hepático, orina, tres hemocultivos, radiografía, PPD, serologías y ecografía abdominal.' },
+          { t: 'No dar antibiótico ni corticoide a ciegas', d: 'Derivar si persiste',
+            say: 'La regla de examen: no se inician antibióticos ni corticoides empíricos sin diagnóstico. Se deriva si persiste. Y recuerda que el citomegalovirus es una causa frecuente y benigna en el inmunocompetente.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -201,39 +279,6 @@ module.exports = {
       steps: [
         { note: 'No rotular como alérgico',
           say: 'La mononucleosis da ganglios cervicales posteriores y esplenomegalia: una faringitis con bazo palpable no es estreptocócica. Si recibe amoxicilina, cinco a siete días después casi todos hacen un exantema. Se suspende la amoxicilina, sin rotularlo como alérgico, y se indica reposo relativo por tres a cuatro semanas, sin deportes de contacto.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Mononucleosis',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-21/01_amigdalitis-mononucleosica__cto-orl_p71.jpg', label: 'Amigdalitis', credit: 'Manual CTO Otorrinolaringología 14.ª ed., p. 71' },
-        { src: 'biblioteca/07_infectologia/infecto-21/03_exantema-por-amoxicilina-mononucleosis__cto-derma_p53.jpg', label: 'Exantema por amoxicilina', credit: 'Manual CTO Dermatología 14.ª ed., p. 53' },
-        { src: 'biblioteca/07_infectologia/infecto-21/01_coriorretinitis_toxoplasma__kanski_p441.jpg', label: 'Coriorretinitis', credit: 'Kanski, p. 441' },
-      ],
-      steps: [
-        { note: 'Amígdalas con exudado',
-          say: 'La mononucleosis da una amigdalitis con exudado, que se confunde con la estreptocócica.' },
-        { note: 'Erupción tras el antibiótico',
-          say: 'Si se le da amoxicilina, aparece este exantema. Es casi diagnóstico de mononucleosis.' },
-        { note: 'Toxoplasma en la retina',
-          say: 'Y esta es una coriorretinitis por toxoplasma: una lesión blanca activa junto a una cicatriz.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-21/02_faringoamigdalitis-estreptococica__cto-infecto_p51.jpg', label: 'Faringoamigdalitis estreptocócica', credit: 'Manual CTO Infecciosas 14.ª ed., p. 51' },
-      ],
-      steps: [
-        { note: 'Faringoamigdalitis estreptocócica',
-          say: 'Mira esta imagen: faringoamigdalitis estreptocócica. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],
     },
 
@@ -441,6 +486,119 @@ module.exports = {
         options: 'Las opciones: infección por VIH, Streptococcus agalactiae, rubéola congénita, toxoplasmosis congénita, o sífilis congénita. Piénsalo.',
         answer: 'Es la D, toxoplasmosis congénita. La pista está al final: la cabeza que crece progresivamente es hidrocefalia, y con coriorretinitis y calcificaciones arma la tétrada de Sabin. La rubéola tienta como TORCH conocido, pero su huella es catarata, sordera y ductus.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 153",
+      "stem": "Un niño de 5 años presenta fiebre desde hace 7 días, que ha respondido parcialmente al uso de antipiréticos. Al examen físico se palpa una adenopatía cervical de 1,5 cm y en el examen abdominal se palpa esplenomegalia. Se solicita ecografía abdominal, que muestra múltiples lesiones hipoecogénicas de pequeño tamaño en hígado y bazo, compatibles con microabscesos, sin pared visible.",
+      "question": "¿Cuál es el agente etiológico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Citomegalovirus"
+        },
+        {
+          "letter": "B",
+          "text": "Virus de Epstein-Barr"
+        },
+        {
+          "letter": "C",
+          "text": "Bartonella henselae"
+        },
+        {
+          "letter": "D",
+          "text": "Echinococcus granulosus"
+        },
+        {
+          "letter": "E",
+          "text": "Mycobacterium tuberculosis"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Fiebre prolongada con adenopatía regional y lesiones hipoecogénicas hepatoesplénicas (microabscesos o granulomas) es la forma hepatoesplénica de la enfermedad por arañazo de gato, causada por Bartonella henselae; es una causa importante de síndrome febril prolongado en niños. Se confirma con serología IgM/IgG. Epstein-Barr y citomegalovirus dan esplenomegalia difusa, no lesiones focales.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Un niño de cinco años tiene una semana de fiebre, una adenopatía cervical y esplenomegalia. La ecografía muestra múltiples pequeñas lesiones hipoecogénicas en hígado y bazo.",
+        "question": "¿Cuál es el agente etiológico más probable?",
+        "options": "Las opciones: citomegalovirus, Epstein-Barr, Bartonella henselae, equinococo o tuberculosis. Piénsalo.",
+        "answer": "Es la C. Fiebre prolongada, adenopatía y microabscesos hepatoesplénicos son la enfermedad por arañazo de gato. El virus de Epstein-Barr tienta por la adenopatía y la esplenomegalia, pero no produce lesiones focales en el hígado y el bazo."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Enero 2023 · Pregunta 18",
+      "stem": "Niño con adenopatías cervicales y granulomas hepatoesplénicos en la ecografía abdominal.",
+      "question": "¿Cuál es el agente etiológico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bartonella henselae"
+        },
+        {
+          "letter": "B",
+          "text": "Toxoplasma gondii"
+        },
+        {
+          "letter": "C",
+          "text": "Virus Epstein-Barr"
+        },
+        {
+          "letter": "D",
+          "text": "Mycobacterium tuberculosis"
+        },
+        {
+          "letter": "E",
+          "text": "Leishmania sp."
+        }
+      ],
+      "correct": "A",
+      "explanation": "La asociación de adenopatías con granulomas o microabscesos hepatoesplénicos en un niño es característica de la enfermedad por arañazo de gato (Bartonella henselae), que suele seguir al contacto con gatos jóvenes. La toxoplasmosis y el Epstein-Barr causan adenopatías, pero no lesiones focales hepatoesplénicas; la tuberculosis miliar es mucho menos probable.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de enero de dos mil veintitrés. Un niño tiene adenopatías cervicales y la ecografía abdominal muestra granulomas en hígado y bazo.",
+        "question": "¿Cuál es el agente etiológico más probable?",
+        "options": "Las opciones: Bartonella henselae, toxoplasma, Epstein-Barr, tuberculosis o leishmania. Piénsalo.",
+        "answer": "Es la A. Adenopatías con granulomas hepatoesplénicos son típicos de la enfermedad por arañazo de gato. La tuberculosis tienta porque forma granulomas, pero en un niño sin otros datos es mucho menos probable."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.4.010 · Hemograma y velocidad de hemosedimentación (VHS)",
+      "stem": "Un estudiante de 18 años presenta, desde hace 1 semana, fiebre, odinofagia intensa con exudado amigdalino, adenopatías cervicales posteriores y esplenomegalia leve.",
+      "question": "¿Qué hallazgo del hemograma es más característico del diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Neutrofilia con desviación a izquierda"
+        },
+        {
+          "letter": "B",
+          "text": "Policitemia"
+        },
+        {
+          "letter": "C",
+          "text": "Eosinofilia marcada"
+        },
+        {
+          "letter": "D",
+          "text": "Pancitopenia con blastos"
+        },
+        {
+          "letter": "E",
+          "text": "Linfocitosis con más de 10% de linfocitos atípicos (reactivos)"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Fiebre, faringitis exudativa, adenopatías cervicales posteriores y esplenomegalia en un adolescente sugieren mononucleosis infecciosa por virus de Epstein-Barr. El hemograma muestra linfocitosis con más de 10% de linfocitos atípicos y suele haber alza leve de transaminasas. Se confirma con anticuerpos heterófilos o IgM anti-VCA. La neutrofilia orientaría a infección bacteriana.",
+      "say": {
+        "stem": "Un estudiante de dieciocho años tiene una semana de fiebre, faringitis exudativa intensa, adenopatías cervicales posteriores y esplenomegalia leve.",
+        "question": "¿Qué hallazgo del hemograma es el más característico?",
+        "options": "Las opciones: neutrofilia con desviación a izquierda, policitemia, eosinofilia, pancitopenia con blastos o linfocitosis con linfocitos atípicos. Piénsalo.",
+        "answer": "Es la E. Es una mononucleosis y el hemograma típico muestra linfocitosis con más de un diez por ciento de linfocitos atípicos. La neutrofilia tienta por el exudado amigdalino, pero orientaría a una faringitis bacteriana."
+      }
     },
 
     {

@@ -28,9 +28,11 @@ module.exports = {
         ] },
         { title: 'Imagen', tag: 'Confirma', kind: 'key', items: [
           { t: 'Rx de pie: más de 150–200 mL', d: 'Borra el ángulo costofrénico',
-            say: 'La radiografía de tórax de pie lo detecta cuando hay más de ciento cincuenta a doscientos mililitros, borrando el ángulo costofrénico.' },
+            say: 'La radiografía de tórax de pie lo detecta cuando hay más de ciento cincuenta a doscientos mililitros, borrando el ángulo costofrénico. Mira esta radiografía: el hemitórax con el borde en menisco, el signo del derrame.',
+            photo: { src: 'biblioteca/02_neumologia/resp-11/01_derrame-pleural__cto-neumo_p111.jpg', label: 'Derrame pleural', at: 'Mira esta radiografía', credit: 'Manual CTO Neumología 14.ª ed., p. 111' } },
           { t: 'Ecografía: desde 20 mL', d: 'La más sensible y guía la punción',
-            say: 'Pero la ecografía torácica es más sensible: detecta desde veinte mililitros, y además es el estándar de seguridad para guiar la toracocentesis.' },
+            say: 'Pero la ecografía torácica es más sensible: detecta desde veinte mililitros, y además es el estándar de seguridad para guiar la toracocentesis. Mira esta ecografía: el líquido se ve anecoico, negro, sobre el diafragma.',
+            photo: { src: '_web/341_resp_Derrame_pleural__Open-i_1.jpg', label: 'Ecografía pleural', at: 'Mira esta ecografía', credit: 'Open-i (NLM), CC BY' } },
         ] },
       ],
     },
@@ -60,6 +62,34 @@ module.exports = {
           say: 'La segunda forma: la pleura misma está inflamada, y sus capilares se vuelven permeables.' },
         { show: ['exu', 'exc'], note: 'Exudado: local',
           say: 'Por esa barrera rota pasan proteínas y LDH, y eso es un exudado. Sus causas son locales: el derrame paraneumónico, el cáncer y la tuberculosis. Y esta es la idea central: el trasudado se trata desde fuera; el exudado obliga a estudiar la pleura.' },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Técnica',
+      title: 'La toracocentesis, paso a paso',
+      nodes: [
+        { id: 'pre', col: 0, row: 1, k: 'start', t: 'Antes de pinchar', s: 'Consentimiento, coagulación' },
+        { id: 'pos', col: 1, row: 1, k: 'mech', t: 'Sentado, inclinado adelante', s: 'Marcar con ecografía' },
+        { id: 'pun', col: 2, row: 1, k: 'effect', t: 'Borde SUPERIOR de la costilla', s: 'Axilar posterior, 7.º–8.º espacio' },
+        { id: 'vol', col: 3, row: 1, k: 'good', t: 'Diagnóstica 30–60 mL', s: 'Alivio hasta 1.000–1.500 mL' },
+        { id: 'com', col: 4, row: 1, k: 'risk', t: 'Complicaciones', s: 'Neumotórax, hemotórax, edema por reexpansión' },
+      ],
+      edges: [
+        { from: 'pre', to: 'pos' }, { from: 'pos', to: 'pun' }, { from: 'pun', to: 'vol' }, { from: 'vol', to: 'com' },
+      ],
+      steps: [
+        { show: ['pre'], note: 'Consentimiento y coagulación',
+          say: 'Antes de aplicar Light, hay que saber puncionar. Se explica el procedimiento y se obtiene el consentimiento. Si es electivo, se suspenden los anticoagulantes; con INR sobre uno coma cinco o plaquetas bajo cincuenta mil, hay que tomar precauciones.' },
+        { show: ['pos'], note: 'Posición y ecografía',
+          say: 'El paciente se sienta inclinado hacia adelante, con los brazos apoyados, y se marca el punto con ecografía. Habitualmente es la línea axilar posterior, un espacio bajo la matidez, entre el séptimo y el octavo espacio. Asepsia, campo estéril y anestesia local hasta la pleura parietal.' },
+        { show: ['pun'], note: 'Por arriba de la costilla de abajo',
+          say: 'Y el detalle que se pregunta: se punciona por el borde superior de la costilla inferior, para no lesionar el paquete vasculonervioso intercostal, que corre por el borde de abajo de cada costilla. Aguja o catéter con llave de tres vías, aspirando suave.' },
+        { show: ['vol'], note: 'Cuánto sacar',
+          say: 'Para el diagnóstico bastan treinta a sesenta mililitros: citoquímico, ADA, Gram, cultivo y citología, y el pH en una jeringa heparinizada, sin aire. Para aliviar, hasta mil a mil quinientos mililitros en una sesión, deteniéndose si aparece tos, dolor torácico u opresión.' },
+        { show: ['com'], note: 'Qué puede salir mal',
+          say: 'Las complicaciones son el neumotórax, el hemotórax, la lesión de hígado o bazo, la infección, la reacción vasovagal y, si se saca demasiado, el edema pulmonar por reexpansión. Si sospechas neumotórax, pides una radiografía de control.' },
       ],
     },
 
@@ -159,19 +189,6 @@ module.exports = {
       steps: [
         { note: 'Agua sola o con proteínas',
           say: 'El líquido se junta en el espacio pleural, en la base. En el trasudado la pleura está sana y pasa solo agua, empujada por presión, como en la insuficiencia cardíaca, la cirrosis o la nefrosis: las proteínas se quedan en el capilar. En el exudado la pleura está dañada y pasan también proteínas, como en la neumonía, el cáncer o la tuberculosis. Con un solo criterio de Light, es exudado.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Derrame pleural',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-11/01_derrame-pleural__cto-neumo_p111.jpg', label: 'Derrame pleural', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
-      ],
-      steps: [
-        { note: 'Opacidad con curva de Damoiseau',
-          say: 'Este es un derrame pleural: una opacidad en la base que borra el ángulo y sube por la pared formando una curva. Es la curva de Damoiseau. El siguiente paso es puncionarlo y aplicar los criterios de Light.' },
       ],
     },
 
@@ -312,6 +329,120 @@ module.exports = {
         options: 'Las opciones: derrame paraneumónico, trasudado por hipoalbuminemia, empiema, tromboembolismo pulmonar, o derrame canceroso. Piénsalo.',
         answer: 'Es la D. Es la trampa que vimos: el nefrótico te invita a pensar en un trasudado por hipoalbuminemia, pero una LDH de seiscientos cincuenta ya es exudado, y el líquido es hemorrágico. Paciente hospitalizado, con un síndrome nefrótico, que es un estado que favorece la trombosis, y disnea con dolor torácico: tromboembolismo pulmonar.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.5.009 · Punción pleural",
+      "stem": "Mujer de 70 años con derrame pleural derecho de causa no aclarada que ocupa un tercio del hemitórax. Se planifica toracocentesis diagnóstica con la paciente sentada, guiada por ecografía.",
+      "question": "¿Cuál es el sitio y la técnica correctos de punción?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Borde inferior de la costilla superior, en la línea medioclavicular"
+        },
+        {
+          "letter": "B",
+          "text": "Borde superior de la costilla inferior, en la línea axilar posterior o escapular, un espacio bajo el nivel del derrame"
+        },
+        {
+          "letter": "C",
+          "text": "2.º espacio intercostal en la línea medioclavicular"
+        },
+        {
+          "letter": "D",
+          "text": "Bajo el 10.º espacio intercostal para asegurar el máximo de líquido"
+        },
+        {
+          "letter": "E",
+          "text": "Sitio indistinto si se usa aguja fina"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El paquete vasculonervioso intercostal corre por el borde inferior de cada costilla; por eso se punciona sobre el borde superior de la costilla inferior. Con la paciente sentada, en la línea axilar posterior o escapular, idealmente guiado por ecografía, y sin bajar demasiado para no puncionar hígado o bazo.",
+      "say": {
+        "stem": "Una mujer de setenta años tiene un derrame pleural derecho de causa no aclarada, y se hará una toracocentesis diagnóstica sentada y guiada por ecografía.",
+        "question": "¿Cuál es el sitio y la técnica correctos?",
+        "options": "Las opciones: borde inferior de la costilla superior, borde superior de la costilla inferior en línea axilar posterior, segundo espacio en línea medioclavicular, bajo el décimo espacio, o sitio indistinto. Piénsalo.",
+        "answer": "Es la B. La arteria, la vena y el nervio intercostal van bajo cada costilla, así que la aguja entra rozando el borde superior de la costilla de abajo, por detrás. El segundo espacio en línea medioclavicular tienta porque se usa para el aire, pero el líquido cae a las bases."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.5.029 · Punción pleural",
+      "stem": "Mujer de 65 años con un derrame pleural derecho moderado requiere una toracocentesis diagnóstica. Se ubica sentada, inclinada hacia adelante, y se identifica el nivel del derrame por percusión y ecografía.",
+      "question": "¿Dónde debe introducirse la aguja respecto de la costilla?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Por el borde inferior de la costilla superior"
+        },
+        {
+          "letter": "B",
+          "text": "En el segundo espacio intercostal, línea medioclavicular"
+        },
+        {
+          "letter": "C",
+          "text": "Por el centro del cuerpo costal"
+        },
+        {
+          "letter": "D",
+          "text": "Por el borde superior de la costilla inferior"
+        },
+        {
+          "letter": "E",
+          "text": "Por cualquier borde, ya que no hay estructuras relevantes"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El paquete vasculonervioso intercostal (vena, arteria y nervio) transcurre por el surco del borde inferior de cada costilla. Por eso la punción pleural se realiza rozando el borde superior de la costilla inferior del espacio elegido, habitualmente en la línea axilar posterior, uno o dos espacios bajo el nivel del derrame, idealmente guiada por ecografía.",
+      "say": {
+        "stem": "Mujer de sesenta y cinco años con un derrame pleural derecho moderado, a quien se le hará una toracocentesis diagnóstica, sentada e inclinada hacia adelante.",
+        "question": "¿Dónde debe introducirse la aguja respecto de la costilla?",
+        "options": "Las opciones: borde inferior de la costilla superior, segundo espacio en la línea medioclavicular, centro de la costilla, borde superior de la costilla inferior o cualquier borde. Piénsalo.",
+        "answer": "Es la D. El paquete de vena, arteria y nervio intercostal corre bajo cada costilla, así que la aguja se pasa rozando el borde superior de la costilla de abajo. El segundo espacio en la línea medioclavicular tienta porque se usa en el neumotórax a tensión, pero allí se descomprime aire, no se drena líquido."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.003 · Ecografía pleural",
+      "stem": "Un hombre de 65 años hospitalizado por neumonía presenta en la radiografía un leve velamiento del seno costofrénico derecho. Se planea una toracocentesis diagnóstica.",
+      "question": "¿Cuál es la principal utilidad de la ecografía pleural en este caso?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Medir el pH del líquido"
+        },
+        {
+          "letter": "B",
+          "text": "Confirmar y cuantificar el derrame, detectar tabiques y guiar la punción para reducir complicaciones"
+        },
+        {
+          "letter": "C",
+          "text": "Reemplazar el análisis del líquido pleural"
+        },
+        {
+          "letter": "D",
+          "text": "Diagnosticar cáncer pulmonar"
+        },
+        {
+          "letter": "E",
+          "text": "Ninguna, porque la radiografía es superior"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La ecografía pleural es más sensible que la radiografía para detectar derrames pequeños, permite estimar su volumen, detectar tabiques o loculaciones (sugerentes de derrame complicado) y elegir el sitio de punción. La toracocentesis guiada por ecografía reduce neumotórax y punciones fallidas. No reemplaza el estudio citoquímico y microbiológico del líquido.",
+      "say": {
+        "stem": "Un hombre de sesenta y cinco años hospitalizado por neumonía tiene un leve velamiento del seno costofrénico derecho, y se planea una toracocentesis.",
+        "question": "¿Cuál es la principal utilidad de la ecografía pleural?",
+        "options": "Las opciones: medir el pH, confirmar el derrame, ver tabiques y guiar la punción, reemplazar el análisis del líquido, diagnosticar cáncer, o ninguna. Piénsalo.",
+        "answer": "Es la B. La ecografía detecta derrames pequeños, muestra tabiques y guía la punción con menos neumotórax. Reemplazar el análisis del líquido tienta, pero la ecografía no dice si es exudado ni si está infectado."
+      }
     },
 
     {

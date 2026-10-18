@@ -45,9 +45,16 @@ module.exports = {
         { show: ['sano'], note: 'El primer paso de la prueba',
           say: 'En la prueba, iluminas primero el ojo sano, y como es de esperar, ambas pupilas se contraen enérgicas y simétricas.' },
         { show: ['enfermo'], note: 'Aquí está el truco de la prueba',
-          say: 'Luego pasas rápido la luz al ojo enfermo. Y aunque sigues iluminando con la misma intensidad, el cerebro recibe menos señal desde ese nervio dañado, y la interpreta como si hubiera menos luz.' },
+          say: 'Luego pasas rápido la luz al ojo enfermo. Y aunque sigues iluminando con la misma intensidad, el cerebro recibe menos señal desde ese nervio dañado, y la interpreta como si hubiera menos luz. Este esquema lo resume.',
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-18/S1_marcus-gunn__propio.svg', label: 'Pupila de Marcus Gunn', at: 'Este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['dpar'], note: 'El signo que se pregunta con su nombre propio',
           say: 'Entonces, en vez de mantenerse contraídas, ambas pupilas se dilatan paradójicamente. Eso es el defecto pupilar aferente relativo, la pupila de Marcus Gunn, y es el signo objetivo más sensible de una lesión asimétrica del nervio óptico. Ojo con la trampa inversa: si el paciente dice que no ve nada, pero el examen pupilar es normal y simétrico, sin ningún Marcus Gunn, sospecha simulación o una lesión cortical bilateral, no del nervio óptico.' },
+        { show: ['dpar'], note: 'Marcus Gunn y pupila de Adie',
+          say: 'Mira esta secuencia: al pasar la luz al ojo enfermo la pupila se dilata. Y no confundas con una pupila de Adie, que es más grande y reacciona poco, pero sin lesión del nervio óptico.',
+          photos: [
+            { src: 'biblioteca/12_oftalmologia/oftal-18/01_linterna_oscilante_dpar__kanski_p820.jpg', label: 'Marcus Gunn', at: 'Mira esta secuencia', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., Fig. 19.33" },
+            { src: 'biblioteca/12_oftalmologia/oftal-18/02_pupila-de-adie__amir-oftalmo_p23.jpg', label: 'Pupila de Adie', at: 'una pupila de Adie', credit: 'Manual AMIR Oftalmología, p. 23' },
+          ] },
       ],
     },
 
@@ -107,12 +114,38 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Esclerosis múltiple',
+      title: 'Primer brote: cómo se sospecha, se estudia y se trata',
+      cards: [
+        { title: 'Sospecha', tag: 'Tiempo y espacio', kind: 'key', items: [
+          { t: 'Mujer de 20 a 40 años, varios territorios', d: 'Neuritis, mielitis, oftalmoplejía internuclear, ataxia',
+            say: 'La esclerosis múltiple se sospecha en una mujer de veinte a cuarenta años con síntomas neurológicos en distintos momentos y territorios, la diseminación en tiempo y espacio: neuritis óptica, mielitis, con parestesias, debilidad o signo de Lhermitte, diplopía por oftalmoplejía internuclear, o ataxia.' },
+        ] },
+        { title: 'Estudio', tag: 'Resonancia con gadolinio', kind: 'criteria', items: [
+          { t: 'RM de cerebro y médula con gadolinio', d: 'Lesiones ovoideas periventriculares; bandas oligoclonales',
+            say: 'Se pide resonancia de cerebro y médula con gadolinio, que muestra lesiones ovoideas periventriculares, yuxtacorticales y medulares, y ante dudas, punción lumbar con bandas oligoclonales. Se aplican los criterios de McDonald. Mira esta resonancia de órbita con gadolinio: el nervio óptico inflamado se realza.',
+            photo: { src: '_verificadas/374_oftal_Neuritis_óptica__BrantHelms_p287.jpg', label: 'RM de órbita con gadolinio', at: 'Mira esta resonancia', credit: 'Fundamentals of Diagnostic Radiology (Brant and Helms), p. 287' } },
+          { t: 'La RM basal predice el riesgo', d: 'Con 1 o más lesiones, más de 70% a 15 años',
+            say: 'La resonancia basal es la que mejor predice el riesgo: con una o más lesiones, el riesgo de esclerosis múltiple a quince años supera el setenta por ciento; sin lesiones, ronda el veinticinco por ciento.' },
+        ] },
+        { title: 'Brote y derivación', tag: 'GES número 68', kind: 'pharma', items: [
+          { t: 'Metilprednisolona 1 g EV por 3 días', d: 'Acelera la recuperación, no cambia la visión final',
+            say: 'El brote, por ejemplo una neuritis óptica, se trata con metilprednisolona un gramo endovenoso por tres días, con o sin prednisona oral después. Acelera la recuperación, aunque no modifica la visión final. La prednisona oral sola está contraindicada, porque aumenta las recaídas.' },
+          { t: 'Derivar a neurología', d: 'Esclerosis múltiple remitente recurrente: GES 68',
+            say: 'Se deriva a neurología, con la garantía GES número sesenta y ocho para la esclerosis múltiple remitente recurrente, para confirmar y valorar un tratamiento modificador de la enfermedad. El seguimiento especializado queda fuera de la atención primaria.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Diagnóstico diferencial',
       title: 'Papiledema: la otra cara del edema de papila',
       cards: [
         { title: 'Siempre bilateral', tag: 'Por hipertensión endocraneana', kind: 'criteria', items: [
           { t: 'Papilas hiperémicas y de bordes difusos', d: 'Con hemorragias en llama peripapilares',
-            say: 'El papiledema es el edema de papila bilateral, causado por una presión intracraneana elevada. En el fondo de ojo se ven las dos papilas hiperémicas, con bordes difuminados, y a veces hemorragias en llama alrededor.' },
+            say: 'El papiledema es el edema de papila bilateral, causado por una presión intracraneana elevada. En el fondo de ojo se ven las dos papilas hiperémicas, con bordes difuminados, y a veces hemorragias en llama alrededor. Mira este fondo de ojo: la papila rosada, elevada, con los bordes borrados.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-18/01_papiledema__cto-oftalmo_p88.jpg', label: 'Papiledema', at: 'Mira este fondo de ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 88' } },
           { t: 'Agudeza visual conservada al inicio', d: 'Veinte veinte, con oscurecimientos visuales fugaces al agacharse',
             say: 'Y la gran diferencia con la neuritis: la agudeza visual central se mantiene conservada al principio. Solo hay episodios cortos de oscurecimiento visual de segundos, al agacharse o pararse rápido, y cefalea que empeora en la mañana y con la tos o el esfuerzo.' },
         ] },
@@ -121,6 +154,44 @@ module.exports = {
             say: 'Ante un papiledema, la prioridad es la neuroimagen urgente, tomografía o resonancia, para descartar una masa intracraneana, hidrocefalia o trombosis de los senos venosos.' },
           { t: 'Nunca punción lumbar antes de la imagen', d: 'El riesgo es una hernia cerebral',
             say: 'Y la regla que no se negocia: jamás se hace una punción lumbar antes de la neuroimagen. Si hay una masa y bajas la presión de golpe, el cerebro se hernia, y eso puede matar al paciente en minutos.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Hipertensión endocraneana',
+      title: 'Hipertensión endocraneana: la que causa el papiledema',
+      cards: [
+        { title: 'Causas y clínica', tag: 'Masa, hidrocefalia, hemorragia, trombosis', kind: 'alert', items: [
+          { t: 'Cefalea matutina que empeora al acostarse', d: 'Valsalva, vómitos en proyectil, oscurecimientos',
+            say: 'El síndrome de hipertensión endocraneana se debe a una masa, una hidrocefalia, una hemorragia, una trombosis venosa cerebral, o a la hipertensión intracraneana idiopática, en la mujer joven obesa. Da cefalea matutina o nocturna que empeora con Valsalva o al acostarse, vómitos en proyectil, visión borrosa u oscurecimientos transitorios.' },
+          { t: 'Diplopía por VI par y papiledema', d: 'Tardíos: tríada de Cushing y deterioro de conciencia',
+            say: 'Puede haber diplopía por parálisis del sexto par, que es un falso signo localizador, y papiledema. Los signos tardíos son la tríada de Cushing, hipertensión, bradicardia y respiración irregular, y el deterioro de conciencia.' },
+        ] },
+        { title: 'Conducta inicial', tag: 'Imagen antes de puncionar', kind: 'pharma', items: [
+          { t: 'Cabecera a 30°, neuroimagen urgente', d: 'Evitar hipotonía y sobrecarga hídrica',
+            say: 'Cabecera a treinta grados, evitar la hipotonía y la sobrecarga de líquidos, neuroimagen urgente antes de cualquier punción lumbar, y derivación a urgencia neuroquirúrgica. Si hay signos de herniación, medidas antiedema, con manitol o suero hipertónico, y vía aérea.' },
+          { t: 'Idiopática: acetazolamida y bajar de peso', d: 'Control del campo visual para evitar la ceguera',
+            say: 'En la forma idiopática, acetazolamida y baja de peso, con control del campo visual para evitar la ceguera.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Procedimiento',
+      title: 'Papiloscopía: mirar la papila en el paciente neurológico',
+      cards: [
+        { title: 'Técnica', tag: 'Sin dilatar', kind: 'key', items: [
+          { t: 'Misma técnica de la oftalmoscopía directa', d: 'Sala oscura, ojo derecho con ojo derecho, a 2 o 3 cm',
+            say: 'La papiloscopía usa la misma técnica de la oftalmoscopía directa: sala oscura, tu ojo derecho con el ojo derecho del paciente, a dos o tres centímetros. Pero con una diferencia clave: en el paciente neurológico con vigilancia pupilar, por ejemplo un traumatismo o una hipertensión endocraneana, no se dilata. Se examina por la pupila natural, para conservar la evaluación pupilar.' },
+        ] },
+        { title: 'Qué mirar', tag: 'La papila', kind: 'criteria', items: [
+          { t: 'Color, bordes, elevación, hemorragias, venas', d: 'Pulso venoso espontáneo: presente en el 80% de los normales',
+            say: 'Miras el color, los bordes, que se borran en el papiledema, la elevación, las hemorragias en llama, la ingurgitación venosa, y el pulso venoso espontáneo. Está presente en el ochenta por ciento de los normales, y su pérdida sugiere una presión intracraneana sobre doscientos milímetros de agua.' },
+          { t: 'Papiledema, neuritis o atrofia', d: 'Bilateral con visión conservada; unilateral con baja y dolor; papila pálida',
+            say: 'Y distingues: el papiledema es bilateral y con visión conservada; la neuritis es generalmente unilateral, con visión baja y dolor; y la atrofia óptica, con papila pálida, aparece en las lesiones compresivas crónicas.' },
         ] },
       ],
     },
@@ -140,36 +211,46 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'La pupila y el nervio óptico',
-      images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-18/01_linterna_oscilante_dpar__kanski_p820.jpg', label: 'Marcus Gunn', credit: 'Kanski 8.ª ed., Fig. 19.33' },
-        { src: 'biblioteca/12_oftalmologia/oftal-18/01_papiledema__cto-oftalmo_p88.jpg', label: 'Papiledema', credit: 'Manual CTO Oftalmología 14.ª ed., p. 88' },
-      ],
-      steps: [
-        { note: 'La pupila se dilata con la luz',
-          say: 'Al pasar la linterna al ojo enfermo, la pupila se dilata: es el defecto pupilar aferente.' },
-        { note: 'Papila hinchada',
-          say: 'Y el papiledema, la papila hinchada por hipertensión intracraneana.' },
+      type: 'points',
+      kicker: 'Tumores',
+      title: 'Tumores del sistema nervioso central en el niño',
+      cards: [
+        { title: 'Qué son', tag: 'Los sólidos más frecuentes', kind: 'criteria', items: [
+          { t: 'Fosa posterior', d: 'Meduloblastoma, astrocitoma pilocítico, ependimoma',
+            say: 'Los tumores del sistema nervioso central son los tumores sólidos más frecuentes de la infancia, y la mayoría está en la fosa posterior: meduloblastoma, astrocitoma pilocítico y ependimoma.' },
+          { t: 'Cefalea matutina, vómitos sin diarrea, ataxia', d: 'Torticolis, esotropía por VI par, papiledema, convulsiones',
+            say: 'Se sospecha por cefalea matutina progresiva, vómitos sin diarrea, ataxia o marcha inestable, torticolis, esotropía por parálisis del sexto par, papiledema, macrocefalia o irritabilidad en el lactante, convulsiones, detención del desarrollo o pérdida visual.' },
+          { t: 'Craneofaringioma: hemianopsia bitemporal', d: 'Talla baja y pubertad alterada',
+            say: 'Y un craneofaringioma en edad escolar da hemianopsia bitemporal, talla baja y pubertad alterada.' },
+        ] },
+        { title: 'Conducta inicial', tag: 'Derivación urgente', kind: 'alert', items: [
+          { t: 'Fondo de ojo y RM con gadolinio', d: 'Evitar la punción lumbar',
+            say: 'Examen neurológico y fondo de ojo, resonancia de encéfalo con gadolinio, o TAC si no hay acceso, y evitar la punción lumbar. Si hay hipertensión endocraneana, cabecera a treinta grados y dexametasona según neurocirugía.' },
+          { t: 'Centro de oncología y neurocirugía pediátrica', d: 'GES cáncer en menores de 15 años',
+            say: 'Derivación urgente a un centro de oncología y neurocirugía pediátrica, con la garantía GES de cáncer en menores de quince años.' },
+        ] },
       ],
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-18/02_pupila-de-adie__amir-oftalmo_p23.jpg', label: 'Pupila de Adie', credit: 'Manual AMIR Oftalmología, p. 23' },
-        { src: 'biblioteca/12_oftalmologia/oftal-18/S1_marcus-gunn__propio.svg', label: 'Pupila de Marcus Gunn', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Pupila de Adie',
-          say: 'Pupila de Adie: una pupila más grande que reacciona poco a la luz.' },
-        { note: 'Pupila de Marcus Gunn',
-          say: 'Defecto pupilar aferente: al pasar la luz al ojo enfermo, ambas pupilas se dilatan.' },
+      type: 'points',
+      kicker: 'Tumores',
+      title: 'Tumores de la vía óptica',
+      cards: [
+        { title: 'Quién', tag: 'Niño y adulto', kind: 'criteria', items: [
+          { t: 'Niño: glioma del nervio óptico', d: 'Astrocitoma pilocítico; neurofibromatosis tipo 1',
+            say: 'El más frecuente es el glioma del nervio óptico, un astrocitoma pilocítico propio de la infancia, y asociado a neurofibromatosis tipo uno: manchas café con leche, pecas axilares y nódulos de Lisch en el iris.' },
+          { t: 'Adulto: meningioma y tumores selares', d: 'Adenoma hipofisario, craneofaringioma',
+            say: 'En el adulto, el meningioma de la vaina del nervio, y los tumores de la silla turca que comprimen el quiasma: el adenoma hipofisario y el craneofaringioma.' },
+        ] },
+        { title: 'Cómo se presenta', tag: 'Lento e indoloro', kind: 'alert', items: [
+          { t: 'Pérdida visual lenta e indolora', d: 'Discromatopsia, DPAR, proptosis axial, atrofia óptica',
+            say: 'Se presenta con pérdida visual lenta e indolora, discromatopsia, defecto pupilar aferente, proptosis axial, atrofia óptica y defectos del campo visual. La hemianopsia bitemporal indica compromiso del quiasma, y el nistagmo asimétrico en un lactante sugiere una lesión de la vía óptica anterior.' },
+        ] },
+        { title: 'Conducta inicial', tag: 'Derivar', kind: 'pharma', items: [
+          { t: 'Visión, campo, pupilas y estigmas', d: 'RM de órbitas y encéfalo; oftalmología y neurocirugía',
+            say: 'Mide visión, campo y pupilas, busca los estigmas de neurofibromatosis, pide resonancia de órbitas y encéfalo con gadolinio y deriva a oftalmología y a neurocirugía u oncología. No se biopsia en atención primaria, y el control del niño es en conjunto, por el riesgo de ceguera y de compromiso hipotalámico.' },
+        ] },
       ],
     },
 
@@ -289,6 +370,195 @@ module.exports = {
         options: 'Las opciones son: síndrome de hipertensión endocraneana, hemorragia subaracnoidea, encefalopatía hipertensiva, tumor cerebral, o cefalea por ergotamínicos. Piénsalo.',
         answer: 'Es la A. La cefalea de predominio matinal, junto con náuseas y vómitos, arma dos de los tres elementos del síndrome de hipertensión endocraneana; el tercero, el edema de papila, se confirma con el fondo de ojo. El tumor cerebral podría ser la causa de fondo, pero el diagnóstico sindromático que responde la pregunta es la hipertensión endocraneana, y lo siguiente es fondo de ojo más neuroimagen, nunca punción lumbar primero.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.5.011 · Reflejos pupilares",
+      "stem": "Hombre de 58 años consulta por caída del párpado derecho y visión doble de 1 día de evolución, con cefalea intensa. Al examen, el ojo derecho está desviado hacia abajo y afuera, con ptosis completa. La pupila derecha mide 7 mm y no reacciona a la luz directa ni consensual; la pupila izquierda mide 3 mm y reacciona a la luz directa y consensual.",
+      "question": "¿Cuál es la interpretación más adecuada de estos hallazgos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Defecto pupilar aferente relativo derecho por neuritis óptica"
+        },
+        {
+          "letter": "B",
+          "text": "Síndrome de Horner derecho"
+        },
+        {
+          "letter": "C",
+          "text": "Lesión eferente del tercer par derecho, sospechar aneurisma de comunicante posterior"
+        },
+        {
+          "letter": "D",
+          "text": "Pupila de Argyll Robertson"
+        },
+        {
+          "letter": "E",
+          "text": "Anisocoria fisiológica"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Si la pupila afectada no responde ni a la luz directa ni a la consensual, el defecto es eferente (tercer par). Un tercer par con midriasis y cefalea obliga a descartar aneurisma de comunicante posterior con angio-TC urgente. En el defecto aferente, la pupila sí contrae con la luz del ojo sano.",
+      "say": {
+        "stem": "Un hombre de cincuenta y ocho años tiene ptosis derecha, visión doble y cefalea intensa. La pupila derecha está dilatada y no se contrae ni con luz directa ni al iluminar el otro ojo; la izquierda responde normal.",
+        "question": "¿Cómo se interpretan estos hallazgos?",
+        "options": "Las opciones: defecto aferente por neuritis óptica, síndrome de Horner, lesión eferente del tercer par, pupila de Argyll Robertson o anisocoria fisiológica. Piénsalo.",
+        "answer": "Es la C. Una pupila que no responde ni a la luz directa ni a la consensual tiene un problema eferente, del tercer par, y con cefalea hay que descartar un aneurisma. El defecto aferente tienta, pero en él la pupila sí se contrae al iluminar el ojo sano."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2019 · Pregunta 104",
+      "stem": "Una paciente de 30 años presenta un cuadro de 1 mes de evolución de neuralgia de la primera rama del trigémino. Hace 1 semana se agrega disminución de la sensibilidad del muslo derecho, con dificultades para caminar. Como antecedente, refiere que hace 1 año tuvo un trastorno del equilibrio, que resolvió espontáneamente.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Polineuropatía por déficit de vitamina B12"
+        },
+        {
+          "letter": "B",
+          "text": "Síndrome de Guillain-Barré de presentación atípica"
+        },
+        {
+          "letter": "C",
+          "text": "Infarto talámico"
+        },
+        {
+          "letter": "D",
+          "text": "Esclerosis múltiple"
+        },
+        {
+          "letter": "E",
+          "text": "Neurinoma con compresión del troncoencéfalo"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Mujer joven con múltiples déficits focales separados en el espacio (trigémino, sensibilidad de extremidad, equilibrio) y en el tiempo, de inicio subagudo y con recuperación espontánea: es la definición clínica de esclerosis múltiple. Se estudia con resonancia magnética con gadolinio.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecinueve. Una mujer de treinta años tiene neuralgia del trigémino hace un mes, y hace una semana se agrega menor sensibilidad en el muslo derecho con dificultad para caminar. Hace un año tuvo un trastorno del equilibrio que se resolvió solo.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: polineuropatía por déficit de vitamina B doce, Guillain-Barré atípico, infarto talámico, esclerosis múltiple o neurinoma que comprime el tronco. Piénsalo.",
+        "answer": "Es la D. Son déficits focales en distintos lugares y en distintos momentos, en una mujer joven, con recuperación espontánea: eso es esclerosis múltiple. El Guillain-Barré tienta, pero es simétrico, ascendente y no recidiva al año con otros territorios."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 96",
+      "stem": "Un niño de 9 años, con antecedente de neurofibromatosis tipo 1, consulta por proptosis izquierda de 6 meses de evolución, progresiva e indolora. Tenía un examen visual normal a los 6 años. Actualmente se observa proptosis izquierda leve, con disminución de la visión de colores del ojo izquierdo y agudeza visual 20/25 en el ojo derecho y 20/30 en el ojo izquierdo.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Celulitis orbitaria"
+        },
+        {
+          "letter": "B",
+          "text": "Retinoblastoma"
+        },
+        {
+          "letter": "C",
+          "text": "Orbitopatía distiroidea"
+        },
+        {
+          "letter": "D",
+          "text": "Angiolipoma orbitario"
+        },
+        {
+          "letter": "E",
+          "text": "Tumor del nervio óptico"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La neurofibromatosis tipo 1 se asocia a glioma de la vía óptica, el tumor del SNC más característico de esta enfermedad. Proptosis unilateral progresiva e indolora con alteración de la visión de colores (disfunción del nervio óptico) orienta a glioma del nervio óptico. Se estudia con resonancia de órbitas y cerebro. La celulitis orbitaria es aguda, dolorosa y febril.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Un niño de nueve años con neurofibromatosis tipo uno tiene proptosis izquierda progresiva e indolora, con menor visión de colores en ese ojo.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: celulitis orbitaria, retinoblastoma, orbitopatía tiroidea, angiolipoma orbitario o tumor del nervio óptico. Piénsalo.",
+        "answer": "Es la E. En la neurofibromatosis tipo uno, la proptosis progresiva con alteración de la visión de colores es un glioma del nervio óptico. El retinoblastoma tienta por ser un tumor ocular infantil, pero se presenta antes, con leucocoria, en menores de cinco años."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.5.001 · Papiloscopia (fondo de ojo)",
+      "stem": "Mujer de 28 años con obesidad presenta cefalea holocránea progresiva de 2 meses, peor en la mañana y con maniobras de Valsalva, y oscurecimientos visuales transitorios. Examen neurológico sin déficit focal. Se realiza oftalmoscopía directa (fondo de ojo).",
+      "question": "¿Qué hallazgo del fondo de ojo indica hipertensión intracraneana?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microaneurismas y exudados duros"
+        },
+        {
+          "letter": "B",
+          "text": "Excavación papilar aumentada, con relación copa/disco de 0,8"
+        },
+        {
+          "letter": "C",
+          "text": "Mancha rojo cereza en la mácula"
+        },
+        {
+          "letter": "D",
+          "text": "Papilas solevantadas, de bordes borrosos, sin pulso venoso y con hemorragias peripapilares bilaterales"
+        },
+        {
+          "letter": "E",
+          "text": "Palidez papilar unilateral sin edema"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El edema de papila es el signo cardinal de hipertensión intracraneana: papilas solevantadas de bordes borrosos, pérdida del pulso venoso espontáneo, ingurgitación venosa y hemorragias peripapilares, habitualmente bilateral. En esta paciente sugiere hipertensión intracraneana idiopática, que requiere neuroimagen antes de la punción lumbar. La excavación aumentada es propia del glaucoma.",
+      "say": {
+        "stem": "Mujer de veintiocho años, obesa, con cefalea matinal progresiva y oscurecimientos visuales transitorios. Le haces fondo de ojo.",
+        "question": "¿Qué hallazgo indica hipertensión intracraneana?",
+        "options": "Las opciones: microaneurismas, excavación aumentada, mancha rojo cereza, papilas solevantadas de bordes borrosos con hemorragias o palidez papilar unilateral. Piénsalo.",
+        "answer": "Es la D. Edema de papila bilateral, con bordes borrosos, sin pulso venoso y con hemorragias peripapilares. La palidez papilar indica atrofia óptica, que es una secuela tardía y no el signo agudo."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.1.026 · Tumores de la vía óptica",
+      "stem": "Niña de 5 años con neurofibromatosis tipo 1 (múltiples manchas café con leche y efélides axilares). En control se detecta disminución de la agudeza visual del ojo derecho, defecto pupilar aferente relativo y palidez del disco óptico en el fondo de ojo.",
+      "question": "¿Cuál es el diagnóstico más probable y el estudio indicado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glioma de la vía óptica; resonancia magnética de cerebro y órbitas"
+        },
+        {
+          "letter": "B",
+          "text": "Ambliopía refractiva; lentes"
+        },
+        {
+          "letter": "C",
+          "text": "Retinoblastoma; ecografía ocular"
+        },
+        {
+          "letter": "D",
+          "text": "Neuritis óptica desmielinizante; punción lumbar"
+        },
+        {
+          "letter": "E",
+          "text": "Catarata congénita; facoemulsificación"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El glioma de la vía óptica (astrocitoma pilocítico) es el tumor de vía óptica más frecuente en la infancia y se asocia a NF1. Produce pérdida visual, defecto pupilar aferente, atrofia óptica, estrabismo o proptosis. Se estudia con resonancia magnética de cerebro y órbitas. En NF1 se recomienda control oftalmológico anual en la infancia.",
+      "say": {
+        "stem": "Niña de cinco años con neurofibromatosis tipo uno que pierde visión del ojo derecho, con defecto pupilar aferente y papila pálida.",
+        "question": "¿Cuál es el diagnóstico y el estudio indicado?",
+        "options": "Las opciones: glioma de la vía óptica con resonancia, ambliopía con lentes, retinoblastoma, neuritis óptica o catarata congénita. Piénsalo.",
+        "answer": "Es la A. En una niña con neurofibromatosis, la pérdida visual con defecto pupilar aferente y papila pálida es un glioma de la vía óptica, que se estudia con resonancia. La ambliopía tienta por la edad, pero no produce defecto pupilar aferente ni palidez de la papila."
+      }
     },
 
     {

@@ -133,7 +133,8 @@ module.exports = {
         ] },
         { title: 'Endoscopía', tag: 'Terapia de elección', kind: 'key', items: [
           { t: 'Ligadura endoscópica', d: 'En las primeras 12 horas',
-            say: 'Y la endoscopía, que aquí es terapéutica: ligadura de las várices, idealmente en las primeras doce horas.' },
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-21/04_varices-esofagicas-ligadura__atlas-eunacom.jpg', label: 'Várice con ligadura', at: 'Mira esta endoscopía', credit: 'Atlas EUNACOM 2026' },
+            say: 'Y la endoscopía, que aquí es terapéutica: ligadura de las várices, idealmente en las primeras doce horas. Mira esta endoscopía: es una várice esofágica con la banda de ligadura ya puesta.' },
           { t: 'Después: prevenir el resangrado', d: 'Propranolol + ligadura',
             say: 'Y una vez superado el episodio, no termina ahí. Como vimos en la clase de hipertensión portal, la profilaxis secundaria es propranolol más ligadura, porque un paciente que ya sangró por várices tiene alto riesgo de volver a sangrar.' },
         ] },
@@ -149,13 +150,18 @@ module.exports = {
           { t: 'Síndrome ulceroso previo + melena', d: 'La pista clínica',
             say: 'La segunda causa es la úlcera gastroduodenal, que ya conoces de la clase de úlcera péptica. La pista es un paciente con síndrome ulceroso previo que ahora hace melena.' },
           { t: 'IBP endovenoso en dosis alta', d: 'Terapia endoscópica según Forrest',
-            say: 'Aquí lo que se agrega es el IBP endovenoso en dosis alta, y la endoscopía hace terapia hemostática según la clasificación de Forrest, que ordena las úlceras según su riesgo de volver a sangrar.' },
+            photos: [
+              { src: 'biblioteca/01_gastroenterologia/gastro-21/01_forrest-ia-iib-iic__cto-digestivo_p63.jpg', label: 'Sangrado activo', at: 'Mira esta úlcera', credit: 'Manual CTO Digestivo 14.ª ed., p. 63' },
+              { src: 'biblioteca/01_gastroenterologia/gastro-21/02_ulcera_duodenal_vaso_visible__harrison_p2430.jpg', label: 'Vaso visible', at: 'y en esta otra', credit: 'Harrison 21.ª ed., p. 2430' },
+            ],
+            say: 'Aquí lo que se agrega es el IBP endovenoso en dosis alta, y la endoscopía hace terapia hemostática según la clasificación de Forrest, que ordena las úlceras según su riesgo de volver a sangrar. Mira esta úlcera con sangrado activo, y en esta otra el vaso visible en el fondo: ambas son de alto riesgo y se tratan en la misma endoscopía.' },
           { t: 'Erradicar H. pylori', d: 'Para que no vuelva a sangrar',
             say: 'Y una vez que pasó la urgencia, se erradica el Helicobacter pylori. Si no, la úlcera vuelve, y con ella el sangrado.' },
         ] },
         { title: 'Mallory-Weiss', tag: 'Buen pronóstico', kind: 'normal', items: [
           { t: 'Vómitos alimentarios, luego hematemesis', d: 'Suele ser autolimitado',
-            say: 'La tercera es el Mallory-Weiss, y aquí el orden de los síntomas es el diagnóstico: primero vómitos alimentarios, y después hematemesis. Suele ser autolimitado y de buen pronóstico: si está estable, se observa. No lo confundas con el Boerhaave de la clase de perforaciones, donde los vómitos terminan en dolor torácico y perforación.' },
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-21/03_mallory-weiss-endoscopia__atlas-eunacom.jpg', label: 'Mallory-Weiss', at: 'En esta endoscopía', credit: 'Atlas EUNACOM 2026' },
+            say: 'En esta endoscopía se ve un desgarro de la mucosa en la unión gastroesofágica, con sangrado fresco. La tercera es el Mallory-Weiss, y aquí el orden de los síntomas es el diagnóstico: primero vómitos alimentarios, y después hematemesis. Suele ser autolimitado y de buen pronóstico: si está estable, se observa. No lo confundas con el Boerhaave de la clase de perforaciones, donde los vómitos terminan en dolor torácico y perforación.' },
         ] },
         { title: 'Lesiones escondidas', tag: 'Dieulafoy y angiodisplasia', kind: 'key', items: [
           { t: 'Sangrado recurrente sin lesión evidente', d: 'Hemostasia endoscópica',
@@ -227,6 +233,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Hemorragia oscura',
+      title: 'Tumores del intestino delgado',
+      cards: [
+        { title: 'Qué son', tag: 'Raros', kind: 'normal', items: [
+          { t: 'Menos del 5 % de los tumores digestivos', d: 'Diagnóstico tardío',
+            say: 'Los tumores del intestino delgado son raros, menos del cinco por ciento de los tumores digestivos, y se diagnostican tarde. Se presentan como anemia, hemorragia digestiva baja oculta o recurrente, dolor cólico u obstrucción.' },
+        ] },
+        { title: 'Los cuatro principales', tag: 'Cada uno con su pista', kind: 'key', items: [
+          { t: 'Adenocarcinoma', d: 'Más en Crohn, celiaquía y poliposis',
+            say: 'El adenocarcinoma, más frecuente en el Crohn, la celiaquía y las poliposis.' },
+          { t: 'Carcinoide: el más frecuente en el íleon', d: 'Metástasis hepáticas: rubor, diarrea, broncoespasmo',
+            say: 'El tumor neuroendocrino o carcinoide, el más frecuente en el íleon. Sus metástasis hepáticas dan el síndrome carcinoide: rubor, diarrea y broncoespasmo, y se mide el ácido cinco hidroxiindolacético en la orina.' },
+          { t: 'Linfoma y GIST', d: 'Linfoma: celiaquía refractaria',
+            say: 'El linfoma, típico de la celiaquía refractaria, y el GIST.' },
+        ] },
+        { title: 'Estudio y conducta', tag: 'Cuando todo sale normal', kind: 'pharma', items: [
+          { t: 'Cápsula endoscópica, enteroscopía, enteroTAC o enteroRM', d: 'Si la EDA y la colonoscopía son normales',
+            say: 'Cuando la endoscopía alta y la colonoscopía son normales en una hemorragia oscura, se estudia el delgado con cápsula endoscópica, enteroscopía, enteroTAC o enteroresonancia.' },
+          { t: 'Resección; análogos de somatostatina; imatinib', d: 'Neuroendocrino metastásico; GIST',
+            say: 'El tratamiento es la resección quirúrgica con linfadenectomía. Los neuroendocrinos metastásicos se manejan con análogos de somatostatina, y el GIST con imatinib. Tú sospechas ante una anemia ferropénica o una hemorragia sin causa, y derivas.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -246,17 +278,11 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'Clasificación de Forrest',
       images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-21/01_forrest-ia-iib-iic__cto-digestivo_p63.jpg', label: 'Sangrado activo', credit: 'Manual CTO Digestivo 14.ª ed., p. 63' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-21/02_ulcera_duodenal_vaso_visible__harrison_p2430.jpg', label: 'Vaso visible', credit: 'Harrison 21.ª ed., p. 2430' },
         { src: 'biblioteca/01_gastroenterologia/gastro-21/01_forrest-ia-iib-iic_alt2__cto-digestivo_p63.jpg', label: 'Fondo de fibrina', credit: 'Manual CTO Digestivo 14.ª ed., p. 63' },
       ],
       steps: [
-        { note: 'Arriba en Forrest: sangrado activo',
-          say: 'La clasificación de Forrest ordena las úlceras según su riesgo de volver a sangrar. Arriba está el sangrado activo, con sangre fresca que sale de la úlcera: se trata en la misma endoscopía.' },
-        { note: 'Vaso visible: alto riesgo',
-          say: 'Aquí la flecha muestra un vaso visible en el fondo de la úlcera. También es de las de arriba, de alto riesgo, y se trata en la endoscopía.' },
-        { note: 'Hacia el fondo limpio: bajo riesgo',
-          say: 'Y hacia el otro extremo, una úlcera de fondo blanquecino, de fibrina, con bajo riesgo de resangrar. La de fondo limpio no necesita terapia endoscópica.' },
+        { note: 'Fondo de fibrina: bajo riesgo',
+          say: 'La clasificación de Forrest ordena las úlceras según su riesgo de volver a sangrar. En el otro extremo, esta úlcera de fondo blanquecino, de fibrina, tiene bajo riesgo de resangrar. La de fondo limpio no necesita terapia endoscópica.' },
       ],
     },
 
@@ -283,6 +309,8 @@ module.exports = {
           say: 'Y dos trampas que cruzan todo el tema. Un paciente taquicárdico con hematocrito normal tiene una hemorragia grave: se reanima ya, sin esperar el control.' },
         { cells: ['HDB masiva, colonoscopía sin hallazgos', 'Puede ser una HDA con tránsito rápido', 'Endoscopía alta, no laparotomía'],
           say: 'Y una hemorragia baja masiva con una colonoscopía que no encuentra nada puede ser una alta con tránsito rápido: el siguiente paso es la endoscopía alta, no la laparotomía.' },
+        { cells: ['Anemia o sangrado oculto con EDA y colonoscopía normales', 'Lesión o tumor del intestino delgado', 'Cápsula endoscópica o enteroscopía; derivar'],
+          say: 'Y la anemia o el sangrado oculto con endoscopía y colonoscopía normales: hay que estudiar el intestino delgado, con cápsula endoscópica o enteroscopía, y derivar.' },
       ],
     },
 
@@ -399,6 +427,194 @@ module.exports = {
         options: 'Las opciones: cintigrafía con glóbulos rojos marcados, endoscopía digestiva alta, TAC de abdomen y pelvis, angiografía mesentérica, o enteroscopía. Piénsalo.',
         answer: 'Es la B, endoscopía digestiva alta. La colonoscopía ya se hizo y no encontró nada, así que toca aplicar la regla del diez por ciento: antes de seguir con cintigrafía o angiografía, hay que descartar un origen alto con tránsito rápido. La cintigrafía y la angiografía quedan para cuando la endoscopía alta también sea negativa.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.4.007 · Endoscopía digestiva alta y baja",
+      "stem": "Hombre de 60 años, usuario de antiinflamatorios por artrosis, consulta por 2 episodios de melena. Al ingreso FC 110 por minuto y PA 100/60 mmHg; tras la reanimación con cristaloides, FC 88 por minuto y PA 120/70 mmHg. Hemoglobina 9,8 g/dL. Se inicia IBP endovenoso.",
+      "question": "¿Cuál es el momento más adecuado para la endoscopía digestiva alta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "En forma electiva a las 4 a 6 semanas"
+        },
+        {
+          "letter": "B",
+          "text": "Inmediatamente, antes de iniciar la reanimación"
+        },
+        {
+          "letter": "C",
+          "text": "Dentro de las primeras 24 horas, una vez estabilizado"
+        },
+        {
+          "letter": "D",
+          "text": "Solo si vuelve a sangrar"
+        },
+        {
+          "letter": "E",
+          "text": "Después de una colonoscopía, para descartar origen bajo"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En la hemorragia digestiva alta no variceal la endoscopía se realiza dentro de las 24 horas, después de estabilizar: identifica la causa, permite terapia endoscópica y estratifica el riesgo de resangrado con la clasificación de Forrest. Endoscopiar sin reanimar aumenta las complicaciones; en la sospecha variceal se busca hacerla dentro de 12 horas.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de sesenta años que usa antiinflamatorios por artrosis y consulta por dos episodios de melena. Llegó taquicárdico y con presión baja, pero se estabilizó con cristaloides. Tiene hemoglobina de nueve coma ocho y ya recibe omeprazol endovenoso.",
+        "question": "¿Cuál es el momento más adecuado para la endoscopía digestiva alta?",
+        "options": "Las opciones: electiva en semanas, inmediatamente antes de reanimar, dentro de veinticuatro horas una vez estable, solo si resangra o después de una colonoscopía. Piénsalo.",
+        "answer": "Es la C. Primero se reanima, y luego la endoscopía se hace dentro de las primeras veinticuatro horas, porque además de diagnosticar permite tratar la úlcera y estimar el riesgo de resangrado. Hacerla antes de reanimar es el distractor: un paciente inestable en la camilla de endoscopía se complica más."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.009 · Tumores del intestino delgado",
+      "stem": "Hombre de 62 años presenta anemia ferropénica, test de hemorragia oculta positivo y episodios intermitentes de melena. Una endoscopía digestiva alta y una colonoscopía completa, con buena preparación, son normales.",
+      "question": "¿Cuál es el siguiente examen más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repetir la colonoscopía en 3 años"
+        },
+        {
+          "letter": "B",
+          "text": "Enema baritado"
+        },
+        {
+          "letter": "C",
+          "text": "Cápsula endoscópica"
+        },
+        {
+          "letter": "D",
+          "text": "Ecografía abdominal"
+        },
+        {
+          "letter": "E",
+          "text": "Laparotomía exploradora"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Con endoscopía alta y colonoscopía normales, el sangrado probablemente proviene del intestino delgado (angiodisplasias o tumores como GIST, adenocarcinoma o neuroendocrinos). La cápsula endoscópica es el examen de elección para estudiarlo, y puede seguirse de enteroscopía o enteroTAC. Una laparotomía sin localización previa no corresponde.",
+      "say": {
+        "stem": "Hombre de sesenta y dos años con anemia ferropénica, test de sangre oculta positivo y melena intermitente. La endoscopía alta y la colonoscopía completa, bien preparada, son normales.",
+        "question": "¿Cuál es el siguiente examen más adecuado?",
+        "options": "Las opciones: repetir la colonoscopía en tres años, enema baritado, cápsula endoscópica, ecografía abdominal o laparotomía exploradora. Piénsalo.",
+        "answer": "Es la C. Si arriba y abajo está todo normal, la fuente está en el intestino delgado, donde aparecen angiodisplasias y tumores, y la cápsula es la forma de mirarlo. La laparotomía tienta como solución definitiva, pero operar sin saber dónde está la lesión es un error."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.2.004 · Hemorragia digestiva alta",
+      "stem": "Hombre de 58 años, usuario de ibuprofeno por lumbago, consulta por hematemesis y melena. Ingresa con FC 110 lpm y PA 95/60 mmHg; se reanima con cristaloides y se inicia omeprazol endovenoso. La endoscopía a las 12 horas muestra una úlcera duodenal de 1,5 cm con un vaso visible no sangrante.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener solo omeprazol oral y dar de alta"
+        },
+        {
+          "letter": "B",
+          "text": "Cirugía de urgencia con vagotomía y piloroplastía"
+        },
+        {
+          "letter": "C",
+          "text": "Terapia endoscópica combinada (adrenalina más método térmico o clips) y omeprazol endovenoso"
+        },
+        {
+          "letter": "D",
+          "text": "Embolización arterial como primera opción"
+        },
+        {
+          "letter": "E",
+          "text": "Repetir la endoscopía en 1 semana sin tratamiento endoscópico"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Un vaso visible no sangrante (Forrest IIa) tiene alto riesgo de resangrado, por lo que requiere terapia endoscópica, idealmente combinada (adrenalina asociada a método térmico o mecánico), seguida de inhibidor de bomba de protones endovenoso en altas dosis. La cirugía y la embolización se reservan para el fracaso del tratamiento endoscópico.",
+      "say": {
+        "stem": "Hombre de cincuenta y ocho años, que toma ibuprofeno por lumbago, con hematemesis y melena. Llega taquicárdico e hipotenso, se reanima con cristaloides y se inicia omeprazol endovenoso. La endoscopía muestra una úlcera duodenal con un vaso visible que no está sangrando.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: omeprazol oral y alta, cirugía de urgencia, terapia endoscópica combinada más omeprazol endovenoso, embolización como primera opción o repetir la endoscopía en una semana. Piénsalo.",
+        "answer": "Es la C. El vaso visible es un Forrest dos a, con alto riesgo de volver a sangrar, y se trata en la misma endoscopía con terapia combinada, seguida de omeprazol endovenoso. Dar de alta tienta porque no está sangrando en ese momento, pero justamente ese vaso es el que resangra."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2013 · Pregunta 11",
+      "stem": "Un paciente de 6 años, sin antecedentes, es traído por presentar sangrado rectal fresco en gotas al final de las deposiciones, no asociado a dolor ni a otros síntomas. Al examen físico tiene índice de masa corporal adecuado para su edad, abdomen blando, depresible e indoloro, con ruidos hidroaéreos presentes.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Úlcera rectal solitaria"
+        },
+        {
+          "letter": "B",
+          "text": "Hemorroides"
+        },
+        {
+          "letter": "C",
+          "text": "Divertículo de Meckel"
+        },
+        {
+          "letter": "D",
+          "text": "Pólipo juvenil"
+        },
+        {
+          "letter": "E",
+          "text": "Fisura anal"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Hematoquecia indolora, intermitente y escasa en un preescolar o escolar sano sugiere pólipo juvenil, un hamartoma colorrectal que es la causa más frecuente de hemorragia digestiva baja indolora entre los 2 y 10 años. La fisura anal duele al defecar; el Meckel da sangrado abundante; las hemorroides son raras en niños. Se diagnostica y reseca por colonoscopía.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil trece. Un niño de seis años tiene sangre roja en gotas al final de las deposiciones, sin dolor ni otros síntomas, con examen normal.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: úlcera rectal, hemorroides, divertículo de Meckel, pólipo juvenil o fisura anal. Piénsalo.",
+        "answer": "Es la D. Un sangrado rectal escaso e indoloro en un escolar sano es un pólipo juvenil. La fisura anal tienta porque es frecuente, pero produce dolor al defecar."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 36",
+      "stem": "Un niño de 3 años es traído al servicio de urgencia porque desde hace 24 horas presenta diarrea y múltiples episodios de vómitos alimentarios. El día anterior había consultado por lo mismo y recibió sales de rehidratación oral. Sin embargo, persistió con vómitos frecuentes y en el último episodio vomitó sangre. Al examen físico tiene signos de deshidratación y está taquicárdico, con llene capilar normal.",
+      "question": "¿Cuál es la causa más probable de su hemorragia digestiva?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gastritis erosiva"
+        },
+        {
+          "letter": "B",
+          "text": "Úlcera gastroduodenal"
+        },
+        {
+          "letter": "C",
+          "text": "Síndrome de Mallory-Weiss"
+        },
+        {
+          "letter": "D",
+          "text": "Lesión de Dieulafoy"
+        },
+        {
+          "letter": "E",
+          "text": "Várices esofágicas rotas"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Hematemesis que aparece después de vómitos repetidos e intensos sugiere síndrome de Mallory-Weiss: desgarro de la mucosa de la unión gastroesofágica. Suele ser autolimitado y se maneja con hidratación, antieméticos e inhibidor de bomba. Las várices requieren hipertensión portal y el Boerhaave es una perforación transmural con dolor y enfisema.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Un niño de tres años con gastroenteritis vomita muchas veces y en el último vómito aparece sangre.",
+        "question": "¿Cuál es la causa más probable de la hemorragia?",
+        "options": "Las opciones: gastritis erosiva, úlcera, Mallory-Weiss, Dieulafoy o várices esofágicas. Piénsalo.",
+        "answer": "Es la C. Sangre que aparece tras vómitos repetidos es un desgarro de Mallory-Weiss. La gastritis erosiva tienta, pero no explica que el sangrado comience justo después de los vómitos intensos."
+      }
     },
 
     {

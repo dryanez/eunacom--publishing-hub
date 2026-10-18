@@ -317,14 +317,14 @@ Una paciente de 28 años, multípara de 2, con un parto nacido por cesárea y el
 Explicación del banco: Conducta / Tratamiento indicado: **Mantener una conducta expectante** (opción **E**). Manejo De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad. Las opciones alternativas (Inducir el parto, Realizar amniocentesis) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.
 
 ### [11] EUNACOM Diciembre 2025 · Pregunta 90 · confianza 0.9
-Una mujer de 45 años consulta por irritabilidad, ánimo triste y sensación de agobio de dos meses de evolución, iniciados tras la separación de su pareja. Reﬁere llanto ocasional, diﬁcultad para dormir y disminución en su rendimiento laboral, aunque con8núa asis8endo a su trabajo y man8ene sus ac8vidades co8dianas. Reﬁere que se siente mejor cuando hace ejercicio y 8ene ac8vidades sociales, pero que se siente sola y triste cuando regresa a su casa. ¿Cuál es el diagnós8co más probable?
+Una mujer de 45 años consulta por irritabilidad, ánimo triste y sensación de agobio de dos meses de evolución, iniciados tras la separación de su pareja. Refiere llanto ocasional, dificultad para dormir y disminución en su rendimiento laboral, aunque continúa asistiendo a su trabajo y mantiene sus actividades cotidianas. Refiere que se siente mejor cuando hace ejercicio y tiene actividades sociales, pero que se siente sola y triste cuando regresa a su casa. ¿Cuál es el diagnóstico más probable?
 - A) Episodio depresivo mayor
 - B) Trastorno adapta2vo
 - C) Trastorno conversivo
 - D) Trastorno de ansiedad generalizada
 - E) Sana PARTE 2
 **Correcta: B**
-Explicación del banco: Es una pregunta que no estaba originalmente en el Eunacom y que fue añadida para efectos prácticos. Es un trastorno adaptativo de Gpo depresivo, con un gaGllante claro y síntomas anímicos. No alcanza a cumplir criterios de depresión mayor, aunque este es el diagnóstico diferencial más importante en este caso.
+Explicación del banco: Es una pregunta que no estaba originalmente en el Eunacom y que fue añadida para efectos prácticos. Es un trastorno adaptativo de Gpo depresivo, con un gatillante claro y síntomas anímicos. No alcanza a cumplir criterios de depresión mayor, aunque este es el diagnóstico diferencial más importante en este caso.
 
 ### [12] EUNACOM Julio 2025 · Pregunta 166 · confianza 0.9
 paciente con diabetes gestacional 28 semanas, con tto metformina pero con cifras elevadas de glicemia, se preguntaba cómo continuar tto

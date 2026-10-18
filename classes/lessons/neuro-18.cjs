@@ -62,7 +62,8 @@ module.exports = {
         ] },
         { title: 'Pupila de Marcus Gunn', tag: 'Neuritis óptica', kind: 'alert', items: [
           { t: 'Defecto pupilar aferente relativo', d: 'Al iluminar el ojo enfermo, ambas se dilatan',
-            say: 'Y el tercero es el defecto pupilar aferente relativo, o pupila de Marcus Gunn. Al pasar la luz al ojo con neuritis óptica, ambas pupilas se dilatan en vez de contraerse, porque ese nervio óptico conduce menos luz. Es el signo objetivo de la neuritis, y lo vas a ver en las preguntas reales.' },
+            say: 'Y el tercero es el defecto pupilar aferente relativo, o pupila de Marcus Gunn. Al pasar la luz al ojo con neuritis óptica, ambas pupilas se dilatan en vez de contraerse, porque ese nervio óptico conduce menos luz. Es el signo objetivo de la neuritis, y lo vas a ver en las preguntas reales. Mira la linterna oscilante: en los paneles B y D la luz pasa al ojo con neuritis y ambas pupilas se dilatan en vez de contraerse.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-18/03_linterna-oscilante-dpar__kanski_p820.jpg', label: 'Defecto pupilar aferente', at: 'Mira la linterna', credit: 'Kanski, Oftalmología clínica 8.ª ed., p. 820' } },
         ] },
       ],
     },
@@ -74,7 +75,8 @@ module.exports = {
       cards: [
         { title: 'Neuritis óptica', tag: 'La más típica', kind: 'key', items: [
           { t: 'Pérdida visual monocular subaguda', d: 'En horas a días',
-            say: 'La enfermedad suele debutar con un síndrome clínicamente aislado: un primer episodio de déficit neurológico que dura más de veinticuatro horas. El más clásico es la neuritis óptica: pérdida de visión de un ojo que se instala en horas a días. Fíjate en eso: no es súbita.' },
+            say: 'La enfermedad suele debutar con un síndrome clínicamente aislado: un primer episodio de déficit neurológico que dura más de veinticuatro horas. El más clásico es la neuritis óptica: pérdida de visión de un ojo que se instala en horas a días. Fíjate en eso: no es súbita. En esta resonancia se ve el nervio óptico inflamado, la neuritis óptica.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-18/02_neuritis-optica-rm_1__cto-radiologia_p74.jpg', label: 'Neuritis óptica', at: 'En esta resonancia', credit: 'Manual CTO Radiología 14.ª ed., p. 74' } },
           { t: 'Dolor al mover el ojo, discromatopsia', d: 'Pierde el rojo; DPAR',
             say: 'Se acompaña de dolor retroocular que aumenta al mover los ojos, en nueve de cada diez casos, de pérdida de la visión de colores, sobre todo el rojo, y del defecto pupilar aferente.' },
           { t: 'Fondo de ojo normal en 2/3', d: 'Retrobulbar; edema de papila leve en 1/3',
@@ -84,7 +86,8 @@ module.exports = {
           { t: 'Mielitis transversa parcial', d: 'Parestesias asimétricas, nivel sensitivo, vejiga',
             say: 'El segundo debut es la mielitis transversa incompleta: parestesias asimétricas, un nivel sensitivo en el tronco, urgencia urinaria y paraparesia espástica.' },
           { t: 'Oftalmoplejía internuclear', d: 'Lesión del fascículo longitudinal medial',
-            say: 'Y el tercero es el síndrome de tronco, con la oftalmoplejía internuclear. Se lesiona el fascículo longitudinal medial: al mirar al lado contrario, el ojo del lado de la lesión no aduce y el otro ojo hace nistagmo al abducir.' },
+            say: 'Y el tercero es el síndrome de tronco, con la oftalmoplejía internuclear. Se lesiona el fascículo longitudinal medial: al mirar al lado contrario, el ojo del lado de la lesión no aduce y el otro ojo hace nistagmo al abducir. Mira este paciente: al mirar hacia el lado, un ojo no logra aducir.',
+            photo: { src: '_verificadas/155_neuro_Esclerosis_múltiple__KanskisCli_p843_1.jpg', label: 'Oftalmoplejía internuclear', at: 'Mira este paciente', credit: 'Kanski, Oftalmología clínica 8.ª ed., p. 843' } },
           { t: 'OIN bilateral en un joven', d: 'Prácticamente diagnóstica de EM',
             say: 'Si esa oftalmoplejía internuclear es bilateral y el paciente es un adulto joven, es prácticamente diagnóstica de esclerosis múltiple.' },
         ] },
@@ -143,9 +146,11 @@ module.exports = {
         { show: ['dis'], note: 'Varias zonas del neuroeje',
           say: 'La diseminación en el espacio se cumple con al menos una lesión hiperintensa en T dos en dos o más de las cuatro zonas típicas de la resonancia.' },
         { show: ['zon'], note: 'Dedos de Dawson: perpendiculares a los ventrículos',
-          say: 'Esas cuatro zonas son: periventricular, donde las lesiones ovoideas se ponen perpendiculares a los ventrículos, los famosos dedos de Dawson; la yuxtacortical o cortical; la infratentorial, en tronco y cerebelo; y la médula espinal, con lesiones cortas, de menos de dos segmentos.' },
+          say: 'Esas cuatro zonas son: periventricular, donde las lesiones ovoideas se ponen perpendiculares a los ventrículos, los famosos dedos de Dawson; la yuxtacortical o cortical; la infratentorial, en tronco y cerebelo; y la médula espinal, con lesiones cortas, de menos de dos segmentos. Mira estos cortes: A periventricular, B cortical, C infratentorial y D la médula, con lesiones cortas.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-18/01_placas-em-rm__cto-radiologia_p73.jpg', label: 'Las cuatro zonas de la RM', at: 'Mira estos cortes', credit: 'Manual CTO Radiología 14.ª ed., p. 73' } },
         { show: ['dit'], note: 'Lesiones de distinta edad',
-          say: 'La diseminación en el tiempo se demuestra con lesiones de distinta edad: en una misma resonancia, unas que captan gadolinio, que son activas, y otras que no captan, que son antiguas. O con una lesión nueva en una resonancia de control.' },
+          say: 'La diseminación en el tiempo se demuestra con lesiones de distinta edad: en una misma resonancia, unas que captan gadolinio, que son activas, y otras que no captan, que son antiguas. O con una lesión nueva en una resonancia de control. Esta resonancia con contraste muestra una lesión que capta, la flecha: es una placa activa.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-18/02_neuritis-optica-rm_2__cto-radiologia_p74.jpg', label: 'Lesión que capta contraste', at: 'Esta resonancia', credit: 'Manual CTO Radiología 14.ª ed., p. 74' } },
         { show: ['boc'], note: 'El gran cambio de 2017',
           say: 'Y aquí está el cambio clave de McDonald dos mil diecisiete, que se pregunta. Las bandas oligoclonales en el líquido cefalorraquídeo reemplazan a la diseminación en el tiempo. Un primer brote, más lesiones en el espacio, más bandas positivas, y el diagnóstico está hecho sin esperar un segundo brote.' },
         { show: ['em'], note: 'Siempre descartando imitadores',
@@ -166,7 +171,8 @@ module.exports = {
         ] },
         { title: 'Neuromielitis óptica', tag: 'Diferencial clave', kind: 'alert', items: [
           { t: 'Neuritis bilateral grave + mielitis extensa', d: '≥3 cuerpos vertebrales; anti-acuaporina 4',
-            say: 'El diferencial más importante es el espectro de la neuromielitis óptica: neuritis óptica bilateral y grave, con una mielitis larga, de tres o más cuerpos vertebrales, y anticuerpos anti acuaporina cuatro. Compara con la esclerosis múltiple, cuyas lesiones medulares son cortas.' },
+            say: 'El diferencial más importante es el espectro de la neuromielitis óptica: neuritis óptica bilateral y grave, con una mielitis larga, de tres o más cuerpos vertebrales, y anticuerpos anti acuaporina cuatro. Compara con la esclerosis múltiple, cuyas lesiones medulares son cortas. Mira esta resonancia: la médula con una lesión larga y los nervios ópticos comprometidos.',
+            photo: { src: '_verificadas/156_neuro_Esclerosis_múltiple__HarrisonsP_p3519_1.jpg', label: 'Neuromielitis óptica', at: 'Mira esta resonancia', credit: 'Harrison, Principios de Medicina Interna 21.ª ed., p. 3519' } },
           { t: 'Interferón, natalizumab y fingolimod la agravan', d: 'Advertencia EUNACOM',
             say: 'Y aquí está la advertencia: el interferón beta, el natalizumab y el fingolimod, que sirven en la esclerosis múltiple, agravan gravemente la neuromielitis. Por eso confundirlas tiene consecuencias.' },
         ] },
@@ -234,39 +240,6 @@ module.exports = {
       steps: [
         { note: 'Lesiones en distintas zonas y en distintos momentos',
           say: 'En la esclerosis múltiple el sistema inmune ataca la mielina del sistema nervioso central. El diagnóstico exige diseminación en espacio, lesiones en varias zonas típicas, y en tiempo, lesiones de distinta edad o bandas oligoclonales en el líquido.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Esclerosis múltiple',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-18/01_placas-em-rm__cto-radiologia_p73.jpg', label: 'Placas en la RM', credit: 'Manual CTO Radiología 14.ª ed., p. 73' },
-        { src: 'biblioteca/09_neurologia/neuro-18/02_neuritis-optica-rm_1__cto-radiologia_p74.jpg', label: 'Neuritis óptica', credit: 'Manual CTO Radiología 14.ª ed., p. 74' },
-        { src: 'biblioteca/09_neurologia/neuro-18/03_linterna-oscilante-dpar__kanski_p820.jpg', label: 'Defecto pupilar aferente (Marcus Gunn): linterna oscilante', credit: 'Kanski 8.ª ed., Fig. 19.33' },
-      ],
-      steps: [
-        { note: 'Lesiones periventriculares',
-          say: 'En la resonancia aparecen placas blancas alrededor de los ventrículos, separadas en el espacio y en el tiempo.' },
-        { note: 'Nervio óptico inflamado',
-          say: 'Y la neuritis óptica es un debut frecuente: pérdida de visión dolorosa en un adulto joven.' },
-        { note: 'Ambas pupilas se dilatan',
-          say: 'Su signo objetivo es el defecto pupilar aferente. En los paneles B y D la luz pasa al ojo con neuritis, y ambas pupilas se dilatan en vez de contraerse.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-18/02_neuritis-optica-rm_2__cto-radiologia_p74.jpg', label: 'RM con lesión desmielinizante', credit: 'Manual CTO Radiología 14.ª ed., p. 74' },
-      ],
-      steps: [
-        { note: 'RM con lesión desmielinizante',
-          say: 'Resonancia con contraste: la flecha marca una lesión desmielinizante.' },
       ],
     },
 
@@ -411,6 +384,81 @@ module.exports = {
         options: 'Las opciones: desprendimiento de retina, neuritis óptica, neuropatía óptica isquémica, degeneración macular, o hipertensión endocraneana. Piénsalo.',
         answer: 'Es la B, neuritis óptica. Esta pregunta rompe una idea fija: el fondo de ojo no siempre es normal. En un tercio de los casos hay edema de papila, y aquí es de un solo ojo. El distractor es la hipertensión endocraneana, pero esa da edema de papila bilateral. Y la neuropatía isquémica sería súbita, en un adulto con factores de riesgo vascular.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.4.002 · Resonancia magnética de encéfalo y columna",
+      "stem": "Mujer de 31 años con 10 días de parestesias y debilidad de la pierna derecha. Hace 2 años tuvo una neuritis óptica izquierda que se recuperó. Examen: paresia 4/5 de la extremidad inferior derecha con hiperreflexia y Babinski derecho. Se solicita RM de encéfalo y médula con gadolinio.",
+      "question": "¿Qué hallazgo de la RM apoya con mayor fuerza el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lesiones ovoides hiperintensas en T2 periventriculares, perpendiculares al cuerpo calloso, más lesiones yuxtacorticales, infratentoriales y medulares"
+        },
+        {
+          "letter": "B",
+          "text": "Infartos lacunares múltiples en los ganglios basales"
+        },
+        {
+          "letter": "C",
+          "text": "Atrofia hipocampal bilateral"
+        },
+        {
+          "letter": "D",
+          "text": "Lesión única con realce en anillo y edema perilesional"
+        },
+        {
+          "letter": "E",
+          "text": "Hiperintensidad simétrica de ambos tálamos"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Dos episodios separados en tiempo y espacio en una mujer joven: esclerosis múltiple. La RM es el examen clave: lesiones desmielinizantes ovoides periventriculares (dedos de Dawson), yuxtacorticales, infratentoriales y medulares cumplen diseminación en espacio; la coexistencia de lesiones que captan y no captan gadolinio cumple diseminación en tiempo (criterios de McDonald).",
+      "say": {
+        "stem": "Una mujer de treinta y un años con una neuritis óptica hace dos años presenta ahora debilidad de la pierna derecha con signo de Babinski. Se pide una resonancia de encéfalo y médula con gadolinio.",
+        "question": "¿Qué hallazgo de la resonancia apoya más el diagnóstico?",
+        "options": "Las opciones: lesiones ovoides periventriculares, perpendiculares al cuerpo calloso, más yuxtacorticales, infratentoriales y medulares, lagunas en ganglios basales, atrofia del hipocampo, una lesión con realce en anillo, o hiperintensidad de ambos tálamos. Piénsalo.",
+        "answer": "Es la A. Ese patrón de lesiones desmielinizantes en varias regiones típicas demuestra diseminación en espacio, y es la base del diagnóstico de esclerosis múltiple. La lesión con realce en anillo tienta porque capta contraste, pero sugiere absceso o tumor."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.4.007 · Examen de líquido cefalorraquídeo",
+      "stem": "Hombre de 28 años con 1 semana de diplopía e inestabilidad de la marcha. Examen: oftalmoplejía internuclear derecha y ataxia de extremidades. RM: lesiones desmielinizantes periventriculares y en el pedúnculo cerebeloso medio. Se realiza punción lumbar para apoyar el diagnóstico.",
+      "question": "¿Qué hallazgo del líquido cefalorraquídeo apoya el diagnóstico de esclerosis múltiple?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glucosa en LCR de 20 mg/dL"
+        },
+        {
+          "letter": "B",
+          "text": "Pleocitosis de 600 células/mm³ con predominio de neutrófilos"
+        },
+        {
+          "letter": "C",
+          "text": "Bandas oligoclonales de IgG presentes en el LCR y ausentes en el suero"
+        },
+        {
+          "letter": "D",
+          "text": "Proteínas de 450 mg/dL"
+        },
+        {
+          "letter": "E",
+          "text": "Xantocromía"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En la esclerosis múltiple el LCR suele ser casi normal (proteínas y células normales o levemente elevadas), pero muestra síntesis intratecal de IgG: bandas oligoclonales en el LCR ausentes en el suero, presentes en más del 90 % de los casos. Según McDonald 2017, pueden reemplazar la diseminación en tiempo. Neutrófilos, glucosa baja o proteínas muy altas sugieren otra causa.",
+      "say": {
+        "stem": "Un hombre de veintiocho años tiene diplopía por oftalmoplejía internuclear y ataxia, con lesiones desmielinizantes en la resonancia. Se hace una punción lumbar para apoyar el diagnóstico.",
+        "question": "¿Qué hallazgo del líquido apoya la esclerosis múltiple?",
+        "options": "Las opciones: glucosa muy baja, muchos neutrófilos, bandas oligoclonales en el líquido y no en la sangre, proteínas muy altas o xantocromía. Piénsalo.",
+        "answer": "Es la C. Las bandas oligoclonales exclusivas del líquido muestran que el sistema nervioso fabrica anticuerpos, y están en casi todos los pacientes con esclerosis múltiple. Las proteínas muy altas tientan como signo inflamatorio, pero en esta enfermedad son normales o apenas elevadas."
+      }
     },
 
     {

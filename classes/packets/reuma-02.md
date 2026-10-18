@@ -372,14 +372,14 @@ Hombre de 70 años con HPB conocida llega a urgencias con incapacidad de orinar 
 Explicación del banco: Retención urinaria aguda: manejo inmediato = sonda Foley para drenaje vesical. Alivia el dolor y previene daño renal. Cistostomía solo si falla la sonda. Alfa-bloqueador se agrega DESPUÉS del episodio agudo para prevención de recurrencia.
 
 ### [5] EUNACOM Diciembre 2025 · Pregunta 94 · confianza 0.95
-Un paciente de 24 años, con antecedente de consumo frecuente de cocaína, presenta dolor peneano de 5 horas de evolución asociado a una erección constante. Al examen Fsico se obje8va erección de los cuerpos cavernosos, con ﬂacidez del glande y el cuerpo esponjoso. ¿Cuál es la conducta inicial más adecuada?
+Un paciente de 24 años, con antecedente de consumo frecuente de cocaína, presenta dolor peneano de 5 horas de evolución asociado a una erección constante. Al examen físico se objetiva erección de los cuerpos cavernosos, con flacidez del glande y el cuerpo esponjoso. ¿Cuál es la conducta inicial más adecuada?
 - A) Administrar adrenalina intracavernosa
 - B) Propranolol vía oral
 - C) Doxasozina vía oral
 - D) Derivación cavernoesponjosa quirúrgica
 - E) Administrar fenilefrina intracavernosa
 **Correcta: E**
-Explicación del banco: Tiene un priapismo isquémico o verdadero (erección dolorosa y mantenida, limitada a los cuerpos cavernosos). El tratamiento sigue el siguiente orden: 1. Fenilefrina intracavernosa, 2. Procedimientos invasivos (drenaje de los cuerpos cavernosos con suero ﬁsiológico o derivación cavernoesponjosa). Además, se debe buscar la presencia de leucemia y anemia de células falciformes (rara en Chile), aunque en este caso la causa más probable parece estar relacionada con el consumo de cocaína.
+Explicación del banco: Tiene un priapismo isquémico o verdadero (erección dolorosa y mantenida, limitada a los cuerpos cavernosos). El tratamiento sigue el siguiente orden: 1. Fenilefrina intracavernosa, 2. Procedimientos invasivos (drenaje de los cuerpos cavernosos con suero fisiológico o derivación cavernoesponjosa). Además, se debe buscar la presencia de leucemia y anemia de células falciformes (rara en Chile), aunque en este caso la causa más probable parece estar relacionada con el consumo de cocaína.
 
 ### [6] EUNACOM Agosto 2021 · Pregunta 96 · confianza 0.95
 Una paciente de 50 años consulta por artralgias y edema de las manos, especialmente en las articulaciones metacarpofalángicas, interfalángicas proximales y en las muñecas de ambas manos. Refiere fenómeno de Raynaud y rigidez matinal de 1 hora de duración. Además, relata sensación de arenilla ocular, hipolacrimia y xerostomía. Se solicitan exámenes, que muestran hemograma normal, VHS: 52 mm/h, PCR: 2,8 mg/dl, ENA (-), AntiDNA 2h (-) y anticuerpos anti- CCP mayores a 200 UI/ml. La radiografía de manos muestra edema de partes blandas y osteopenia yuxtarticular de los huesos metacarpianos. El diagnóstico más probable es:

@@ -63,7 +63,8 @@ module.exports = {
       cards: [
         { title: "Pérdida visual súbita e indolora", tag: "Urgencia médica que amenaza la visión", kind: "alert", items: [
           { t: "Amaurosis fugax premonitoria", d: "Episodios transitorios de oscurecimiento visual",
-            say: "Muchos enfermos refieren episodios previos de amaurosis fugax: pérdida de visión transitoria como una cortina oscura en un ojo que dura pocos minutos y actúa como alarma inminente antes del infarto retiniano definitivo e irreversible." },
+            say: "Muchos enfermos refieren episodios previos de amaurosis fugax: pérdida de visión transitoria como una cortina oscura en un ojo que dura pocos minutos y actúa como alarma inminente antes del infarto retiniano definitivo e irreversible. Y este es el fondo de ojo de la neuropatía óptica isquémica: la papila hinchada, pálida, con los bordes borrados.",
+          photo: { src: 'biblioteca/09_reumatologia/reuma-21/atlas_226_neuropatia_optica_isquemica_an.jpg', label: 'Neuropatía óptica isquémica', at: 'Y este es el fondo de ojo', credit: 'Atlas EUNACOM 2026' } },
           { t: "Ceguera brusca e irreversible", d: "Oclusión de arterias ciliares posteriores cortas",
             say: "La neuropatía óptica isquémica anterior arterítica provoca una pérdida brusca, indolora y devastadora de la agudeza visual. Al fondo de ojo destaca edema de papila pálido y blanquecino con pequeñas hemorragias peripapilares en llama." },
         ] },
@@ -96,7 +97,8 @@ module.exports = {
         { show: ["sos", "cor"], note: "Iniciar corticoides sin demora alguna",
           say: "Esta es la regla de oro más evaluada en todo el examen: jamás se debe esperar el resultado de la biopsia ni de ningún examen complementario para iniciar corticoides. El tratamiento debe comenzarse en el minuto exacto en que se sospecha la enfermedad para salvar la visión del paciente." },
         { show: ["eco", "bx"], note: "Ecografía Doppler y biopsia quirúrgica",
-          say: "La ecografía Doppler de arterias temporales muestra el característico signo del halo hipoecoico circunferencial que traduce edema de la pared. La biopsia quirúrgica de la arteria temporal debe resecar un fragmento amplio de al menos dos centímetros para evitar falsos negativos por lesiones saltatorias." },
+          say: "La ecografía Doppler de arterias temporales muestra el característico signo del halo hipoecoico circunferencial que traduce edema de la pared. La biopsia quirúrgica de la arteria temporal debe resecar un fragmento amplio de al menos dos centímetros para evitar falsos negativos por lesiones saltatorias. Mira esta imagen de la ecografía: la arteria rodeada por un halo oscuro.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-21/01_halo-ecografico-arteritis-temporal__cto-reuma_p72.jpg', label: 'Signo del halo', at: 'Mira esta imagen', credit: 'Manual CTO Reumatología 14.ª ed., p. 72' } },
       ],
     },
 
@@ -107,7 +109,8 @@ module.exports = {
       cards: [
         { title: "Longitud de la muestra y lesiones saltatorias", tag: "Mínimo uno coma cinco a dos centímetros", kind: "criteria", items: [
           { t: "Fenómeno de lesiones saltatorias (skip lesions)", d: "Segmentos inflamados intercalados con tejido normal",
-            say: "La vasculitis no afecta toda la arteria de manera homogénea sino que deja zonas sanas entre los focos inflamados. Tomar una muestra pequeña de pocos milímetros genera falsos negativos; por ello se exige resecar al menos dos centímetros de longitud arterial." },
+            say: "La vasculitis no afecta toda la arteria de manera homogénea sino que deja zonas sanas entre los focos inflamados. Tomar una muestra pequeña de pocos milímetros genera falsos negativos; por ello se exige resecar al menos dos centímetros de longitud arterial. Y así se ve la biopsia al microscopio: la pared engrosada, con células gigantes y la lámina elástica fragmentada.",
+          photo: { src: '_web/227_reuma_Arteritis_de_células_gigante__Commons_1.jpg', label: 'Biopsia de arteria temporal', at: 'Y así se ve la biopsia', credit: 'Wikimedia Commons, CC BY-SA 3.0' } },
           { t: "Biopsia contralateral en alta sospecha", d: "Duplica la sensibilidad diagnóstica",
             say: "Si la primera biopsia resulta informada como normal o no concluyente pero el paciente mantiene una alta sospecha clínica con reactantes muy elevados, está indicada la toma de biopsia de la arteria temporal contralateral." },
         ] },
@@ -187,7 +190,8 @@ module.exports = {
       cards: [
         { title: "Epidemiología y territorio vascular", tag: "Mujeres jóvenes menores de 40 años", kind: "criteria", items: [
           { t: "Mujeres jóvenes entre quince y treinta años", d: "Afecta el cayado aórtico y sus ramas supraaórticas",
-            say: "La arteritis de Takayasu es la contraparte juvenil de la arteritis temporal: predomina abrumadoramente en mujeres jóvenes de quince a treinta años de edad, afectando predominantemente la aorta torácica, aorta abdominal y los grandes troncos arteriales supraaórticos y renales." },
+            say: "La arteritis de Takayasu es la contraparte juvenil de la arteritis temporal: predomina abrumadoramente en mujeres jóvenes de quince a treinta años de edad, afectando predominantemente la aorta torácica, aorta abdominal y los grandes troncos arteriales supraaórticos y renales. Mira esta angiografía: las arterias del cuello estrechadas, irregulares.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-21/02_angiografia-takayasu__cto-reuma_p73.jpg', label: 'Angiografía de Takayasu', at: 'Mira esta angiografía', credit: 'Manual CTO Reumatología 14.ª ed., p. 73' } },
           { t: "Fase inflamatoria sistémica inicial", d: "Fiebre, astenia, pérdida de peso y artralgias",
             say: "Comienza a menudo con una fase inflamatoria insidiosa con febrícula, sudoración nocturna, malestar general y elevación de reactantes de fase aguda antes de que aparezcan las estenosis vasculares definitivas en el examen vascular." },
         ] },
@@ -251,23 +255,6 @@ module.exports = {
       steps: [
         { note: 'No esperar la biopsia',
           say: 'En un mayor de cincuenta años con cefalea nueva, la arteria temporal se palpa engrosada y sin pulso, y la claudicación mandibular es el signo más específico. El riesgo es la neuropatía óptica isquémica, con papila pálida y edematosa. Los corticoides se inician de inmediato, sin esperar la biopsia, y con síntomas visuales se dan pulsos de metilprednisolona.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Vasculitis de grandes vasos',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-21/01_halo-ecografico-arteritis-temporal__cto-reuma_p72.jpg', label: 'Signo del halo', credit: 'Manual CTO Reumatología 14.ª ed., p. 72' },
-        { src: 'biblioteca/08_reumatologia/reuma-21/02_angiografia-takayasu__cto-reuma_p73.jpg', label: 'Takayasu', credit: 'Manual CTO Reumatología 14.ª ed., p. 73' },
-      ],
-      steps: [
-        { note: 'Pared temporal engrosada',
-          say: 'En la arteritis de la temporal, la ecografía muestra un halo oscuro alrededor de la arteria.' },
-        { note: 'Estenosis de grandes arterias',
-          say: 'Y en Takayasu, la angiografía muestra estenosis de la aorta y sus ramas, en una mujer joven.' },
       ],
     },
 
@@ -358,6 +345,44 @@ module.exports = {
         options: "Las opciones: cefalea holocraneana, claudicación mandibular al masticar, mialgias proximales, fiebre de origen desconocido, o sudoración nocturna. Piénsalo.",
         answer: "Es la B. La claudicación mandibular al masticar alimentos es el síntoma con mayor especificidad clínica para el diagnóstico de arteritis de células gigantes.",
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.01.4.010 · Hemograma y velocidad de hemosedimentación (VHS)",
+      "stem": "Una mujer de 74 años consulta por cefalea temporal derecha de 3 semanas, claudicación mandibular y malestar general. Tiene la arteria temporal engrosada y dolorosa. Hemograma: hemoglobina 10,8 g/dL normocítica, plaquetas 480.000/mm³.",
+      "question": "¿Qué resultado de laboratorio apoya con mayor fuerza la sospecha diagnóstica?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Eosinofilia de 15%"
+        },
+        {
+          "letter": "B",
+          "text": "Leucopenia con linfocitosis"
+        },
+        {
+          "letter": "C",
+          "text": "VHS de 95 mm/h"
+        },
+        {
+          "letter": "D",
+          "text": "VHS de 8 mm/h"
+        },
+        {
+          "letter": "E",
+          "text": "Policitemia"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Cefalea temporal, claudicación mandibular y arteria temporal engrosada en mayor de 50 años sugieren arteritis de células gigantes. Una VHS muy elevada (habitualmente sobre 50 mm/h) la apoya, junto a anemia de enfermedad crónica y trombocitosis; una VHS normal la hace improbable. Se inicia prednisona sin esperar la biopsia.",
+      "say": {
+        "stem": "Una mujer de setenta y cuatro años tiene cefalea temporal, claudicación mandibular y una arteria temporal engrosada y dolorosa. Tiene anemia leve y plaquetas altas.",
+        "question": "¿Qué resultado apoya con más fuerza la sospecha?",
+        "options": "Las opciones: eosinofilia, leucopenia con linfocitosis, VHS de noventa y cinco, VHS de ocho o policitemia. Piénsalo.",
+        "answer": "Es la C. Es una arteritis de células gigantes y la VHS muy alta es su sello de laboratorio. La VHS de ocho iría en contra del diagnóstico, no a favor."
+      }
     },
 
     {

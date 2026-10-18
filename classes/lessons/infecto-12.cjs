@@ -49,15 +49,18 @@ module.exports = {
       cards: [
         { title: 'Sífilis primaria', tag: 'Chancro', kind: 'key', items: [
           { t: 'Úlcera única, indurada e indolora', d: 'Fondo limpio',
-            say: 'El chancro sifilítico es una úlcera única, indurada, de fondo limpio, y sobre todo indolora. Esa última palabra es la que se pregunta: una úlcera genital que no duele es sífilis hasta demostrar lo contrario.' },
+            say: 'Mira este chancro sifilítico: es una úlcera única, indurada, de fondo limpio, y sobre todo indolora. Esa última palabra es la que se pregunta: una úlcera genital que no duele es sífilis hasta demostrar lo contrario.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-12/01_chancro_sifilitico__cdc-phil-6803.jpg', label: 'Chancro', at: 'Mira este chancro', credit: 'CDC PHIL 6803 (CDC/M. Rein), dominio público' } },
           { t: 'Adenopatías duras e indoloras', d: 'Regionales',
             say: 'Y se acompaña de adenopatías regionales, también duras e indoloras.' },
         ] },
         { title: 'Sífilis secundaria', tag: 'Diseminada', kind: 'criteria', items: [
           { t: 'Roséola sifilítica', d: 'Exantema maculopapular palmoplantar',
-            say: 'En la secundaria aparece la roséola sifilítica, un exantema maculopapular con compromiso de las palmas y las plantas. Pocos exantemas tocan las palmas y las plantas, así que ese dato te lleva directo a la sífilis.' },
+            say: 'En la secundaria aparece la roséola sifilítica, un exantema maculopapular con compromiso de las palmas y las plantas, como ves en estas palmas. Pocos exantemas tocan las palmas y las plantas, así que ese dato te lleva directo a la sífilis.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-12/01_sifilis-secundaria-palmoplantar__amir-infecto_p59.jpg', label: 'Sífilis secundaria', at: 'como ves en estas palmas', credit: 'Manual AMIR Infecciosas, p. 59' } },
           { t: 'Condilomas planos', d: 'Perianales · con micropoliadenopatías',
-            say: 'Además, condilomas planos en la región perianal y micropoliadenopatías generalizadas. Ojo con no confundir los condilomas planos de la sífilis con los acuminados del virus papiloma, que vemos en la próxima clase.' },
+            say: 'Además, mira estos condilomas planos, placas húmedas muy contagiosas, en la región perianal y micropoliadenopatías generalizadas. Ojo con no confundir los condilomas planos de la sífilis con los acuminados del virus papiloma, que vemos en la próxima clase.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-12/02_condilomas-planos__cto-infecto_p99.jpg', label: 'Condilomas planos', at: 'mira estos condilomas', credit: 'Manual CTO Infecciosas 14.ª ed., p. 99' } },
         ] },
       ],
     },
@@ -165,6 +168,31 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Sífilis congénita',
+      title: 'Sífilis congénita: cuándo sospechar y tratar',
+      cards: [
+        { title: 'Tamizaje', tag: 'GES', kind: 'criteria', items: [
+          { t: 'VDRL: 1.er control, 28 sem y parto', d: 'Transmisión transplacentaria',
+            say: 'La sífilis congénita se transmite por la placenta y se previene con tamizaje: VDRL en el primer control, a las veintiocho semanas y al parto.' },
+        ] },
+        { title: 'Cómo se ve', tag: 'Precoz y tardía', kind: 'key', items: [
+          { t: 'Precoz: coriza, ampollas, hepatoesplenomegalia', d: 'Pénfigo palmoplantar, pseudoparálisis de Parrot',
+            say: 'La precoz, antes de los dos años: rinitis sanguinolenta, lesiones ampollares en palmas y plantas, hepatoesplenomegalia, anemia y la pseudoparálisis de Parrot por osteocondritis.' },
+          { t: 'Tardía: tríada de Hutchinson', d: 'Dientes, queratitis intersticial, sordera',
+            say: 'La tardía tiene la tríada de Hutchinson: dientes de Hutchinson, como estos incisivos pequeños con una muesca en el borde, queratitis intersticial y sordera, además de nariz en silla de montar y tibias en sable.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-12/10_dientes-hutchinson-sifilis-congenita__kanski_p207.jpg', label: 'Dientes de Hutchinson', at: 'como estos incisivos', credit: 'Kanski\'s Clinical Ophthalmology, 8.ª ed., p. 207' } },
+        ] },
+        { title: 'Conducta', tag: 'Neonatología', kind: 'pharma', items: [
+          { t: 'Madre sin tratar o tratada < 4 semanas', d: 'O tratada con otro antibiótico',
+            say: 'Se estudia al recién nacido si la madre no recibió tratamiento, lo recibió con otro antibiótico o con penicilina menos de cuatro semanas antes del parto.' },
+          { t: 'Penicilina G sódica EV por 10 días', d: 'Prevención: tratar a la gestante 30 días antes',
+            say: 'Se trata con penicilina G sódica endovenosa por diez días. La prevención es penicilina benzatina a la gestante al menos treinta días antes del parto, y tratar también a su pareja.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -175,26 +203,6 @@ module.exports = {
       steps: [
         { note: 'Una cae, la otra queda',
           say: 'La prueba treponémica se hace positiva y queda así de por vida. El VDRL sigue la actividad: sube en la secundaria y cae tras la penicilina. La curación se define cuando cae cuatro veces.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Sífilis',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-12/01_chancro_sifilitico__cdc-phil-6803.jpg', label: 'Chancro', credit: 'CDC PHIL 6803 (CDC/M. Rein), dominio público' },
-        { src: 'biblioteca/07_infectologia/infecto-12/01_sifilis-secundaria-palmoplantar__amir-infecto_p59.jpg', label: 'Sífilis secundaria', credit: 'Manual AMIR Infecciosas, p. 59' },
-        { src: 'biblioteca/07_infectologia/infecto-12/02_condilomas-planos__cto-infecto_p99.jpg', label: 'Condilomas planos', credit: 'Manual CTO Infecciosas 14.ª ed., p. 99' },
-      ],
-      steps: [
-        { note: 'Úlcera indolora, de base limpia',
-          say: 'El chancro de la sífilis primaria es una úlcera indolora, de base limpia e indurada.' },
-        { note: 'Lesiones en palmas y plantas',
-          say: 'La secundaria da lesiones en palmas y plantas.' },
-        { note: 'Placas húmedas',
-          say: 'Y los condilomas planos, placas húmedas en zonas de roce, muy contagiosas.' },
       ],
     },
 
@@ -358,6 +366,118 @@ module.exports = {
         options: 'Las opciones son: doxiciclina; hospitalizar para desensibilizar y luego penicilina benzatina; eritromicina; diferir el tratamiento hasta el parto; o ceftriaxona. Piénsalo.',
         answer: 'Es la B. La penicilina es el único antibiótico con eficacia demostrada para tratar a la madre y al feto a la vez. Por eso, aunque haya tenido un shock anafiláctico, se desensibiliza y se trata con penicilina. La eritromicina es el distractor más tentador, porque parece la alternativa segura, pero los macrólidos no cruzan bien la placenta y dejan al feto sin tratar. Y la doxiciclina está contraindicada.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.1.008 · Enfermedades de transmisión sexual",
+      "stem": "Hombre de 28 años consulta por lesiones en palmas y plantas de 2 semanas, no pruriginosas. Al examen se observan máculas y pápulas eritemato-cobrizas descamativas en palmas y plantas, placas blanquecinas en la mucosa oral y adenopatías generalizadas. Refiere una úlcera genital indolora que desapareció sola hace 2 meses.",
+      "question": "¿Cuál es el diagnóstico y el tratamiento de elección?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Eritema multiforme; antihistamínicos"
+        },
+        {
+          "letter": "B",
+          "text": "Pitiriasis rosada; observación"
+        },
+        {
+          "letter": "C",
+          "text": "Psoriasis palmoplantar; corticoide tópico"
+        },
+        {
+          "letter": "D",
+          "text": "Sífilis secundaria; penicilina benzatina 2.400.000 UI intramuscular dosis única"
+        },
+        {
+          "letter": "E",
+          "text": "Sífilis terciaria; penicilina sódica endovenosa por 14 días"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Exantema de palmas y plantas cobrizo, lesiones mucosas y adenopatías tras un chancro indoloro autolimitado es sífilis secundaria. Se confirma con VDRL o RPR y prueba treponémica (MHA-TP), y se trata con penicilina benzatina 2,4 millones UI IM dosis única. Debe estudiarse VIH y notificar y tratar contactos.",
+      "say": {
+        "stem": "Hombre de veintiocho años con manchas y pápulas cobrizas descamativas en palmas y plantas, placas blancas en la boca y ganglios generalizados, con una úlcera genital indolora hace dos meses.",
+        "question": "¿Cuál es el diagnóstico y tratamiento?",
+        "options": "Las opciones: eritema multiforme, pitiriasis rosada, psoriasis palmoplantar, sífilis secundaria con penicilina benzatina o sífilis terciaria con penicilina endovenosa. Piénsalo.",
+        "answer": "Es la D. Es sífilis secundaria, que se trata con una dosis de penicilina benzatina intramuscular. La pitiriasis rosada tienta por el exantema, pero no compromete palmas y plantas ni da placas en la boca."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.2.012 · Sífilis congénita",
+      "stem": "Recién nacido de término, hijo de madre con VDRL reactivo 1:32 en el parto, sin control prenatal ni tratamiento. Al examen tiene hepatoesplenomegalia, rinitis serosanguinolenta persistente y lesiones ampollares descamativas en palmas y plantas.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Penicilina benzatina intramuscular dosis única"
+        },
+        {
+          "letter": "B",
+          "text": "Observación y VDRL a los 3 meses"
+        },
+        {
+          "letter": "C",
+          "text": "Ceftriaxona intramuscular por 3 días"
+        },
+        {
+          "letter": "D",
+          "text": "Azitromicina oral por 5 días"
+        },
+        {
+          "letter": "E",
+          "text": "Penicilina sódica endovenosa por 10 días, previo estudio con VDRL en sangre y LCR"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Un recién nacido con signos clínicos (hepatoesplenomegalia, coriza, pénfigo sifilítico palmoplantar) de madre con sífilis no tratada tiene sífilis congénita. Se estudia con VDRL en sangre y LCR, hemograma, radiografía de huesos largos y fondo de ojo, y se trata con penicilina sódica endovenosa por 10 días. La benzatina no alcanza niveles en el sistema nervioso central.",
+      "say": {
+        "stem": "Recién nacido de madre con sífilis no tratada, con hepatoesplenomegalia, rinitis con sangre y ampollas descamativas en palmas y plantas.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: penicilina benzatina dosis única, observación, ceftriaxona, azitromicina o penicilina sódica endovenosa por diez días. Piénsalo.",
+        "answer": "Es la E. Es una sífilis congénita sintomática, que se trata con penicilina sódica endovenosa por diez días tras estudiar sangre y líquido cefalorraquídeo. La penicilina benzatina tienta por ser el tratamiento del adulto, pero no alcanza el sistema nervioso del recién nacido."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.4.007 · VDRL - MHATP",
+      "stem": "Embarazada de 12 semanas en su primer control. VDRL reactivo 1:2. Se solicita MHA-TP, que resulta no reactivo. No tiene lesiones ni antecedentes de sífilis. Tiene diagnóstico reciente de lupus eritematoso sistémico.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sífilis latente precoz; penicilina benzatina"
+        },
+        {
+          "letter": "B",
+          "text": "Sífilis primaria en período de ventana"
+        },
+        {
+          "letter": "C",
+          "text": "Sífilis tratada previamente (cicatriz serológica)"
+        },
+        {
+          "letter": "D",
+          "text": "Falso positivo biológico del VDRL, probablemente asociado al lupus"
+        },
+        {
+          "letter": "E",
+          "text": "Neurosífilis"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El VDRL es una prueba no treponémica, sensible y útil para seguimiento, pero con falsos positivos (habitualmente títulos bajos) en LES, síndrome antifosfolípido, embarazo, infecciones virales y otras. Las pruebas treponémicas (MHA-TP, FTA-Abs) confirman y quedan positivas de por vida. VDRL reactivo con treponémica negativa es un falso positivo biológico.",
+      "say": {
+        "stem": "Embarazada de doce semanas con lupus, VDRL reactivo en título uno es a dos y MHA-TP no reactivo, sin lesiones ni antecedentes de sífilis.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: sífilis latente precoz, sífilis primaria en ventana, cicatriz serológica, falso positivo biológico del VDRL o neurosífilis. Piénsalo.",
+        "answer": "Es la D. Un VDRL bajo con prueba treponémica negativa en una paciente con lupus es un falso positivo biológico. La cicatriz serológica tienta, pero en ella la prueba treponémica queda positiva de por vida."
+      }
     },
 
     {

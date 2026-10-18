@@ -256,6 +256,29 @@
   .pt-t { font-size:19px; font-weight:800; letter-spacing:-0.01em; line-height:1.25; color:#111111; }
   .pt-d { font-size:15px; line-height:1.4; color:#57534E; margin-top:4px; }
 
+  /* Fotos en contexto: la foto de un ítem/paso/fila aparece grande y luego se acomoda en una columna junto al contenido */
+  .ctx-wrap { flex:1; min-height:0; display:flex; gap:22px; }
+  .ctx-main { flex:1; min-width:0; min-height:0; display:flex; flex-direction:column; }
+  .ctx-rail { width:min(32%, 340px); flex-shrink:0; min-height:0; display:flex; flex-direction:column; justify-content:center; gap:14px; transition:width 0.5s cubic-bezier(0.65, 0, 0.35, 1); }
+  .ctx-rail.ctx-empty { width:0; overflow:hidden; }
+  .ctx-wrap:has(.ctx-empty) { gap:0; }
+  .ctx-ph { margin:0; flex:1 1 0; min-height:0; display:flex; flex-direction:column; align-items:center; gap:7px; cursor:zoom-in;
+    transition: opacity 0.45s ease, transform 0.55s var(--spring-curve); }
+  .ctx-ph.ctx-off { opacity:0; transform:scale(0.94); pointer-events:none; }
+  .ctx-ph.ctx-landing { transition:none; }
+  .ctx-ph .ctx-img { flex:1; min-height:0; width:100%; display:flex; align-items:center; justify-content:center; }
+  .ctx-ph img { max-width:100%; max-height:100%; object-fit:contain; border-radius:8px; border:1px solid #DCD8CE; box-shadow:0 8px 22px rgba(0,0,0,0.14); background:#0E1116; }
+  .ctx-ph.ctx-now img { box-shadow:0 0 0 4px rgba(2,132,199,0.25), 0 10px 26px rgba(0,0,0,0.16); }
+  .ctx-ph figcaption { font-size:13px; font-weight:800; letter-spacing:0.02em; color:#111111; background:#EDEAE2; border:1px solid #DCD8CE; padding:3px 12px; border-radius:12px; text-align:center; }
+  .ctx-ph .ctx-credit { font-size:10px; color:#777069; text-align:center; line-height:1.25; }
+  .ctx-pop { position:fixed; inset:0; z-index:80; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:14px; background:rgba(10,12,16,0); transition:background 0.4s ease; pointer-events:none; }
+  .ctx-pop.ctx-dim { background:rgba(10,12,16,0.62); }
+  .ctx-pop img { max-width:min(62vw, 900px); max-height:62vh; border-radius:12px; box-shadow:0 24px 70px rgba(0,0,0,0.55); transform-origin:0 0; opacity:0; transform:scale(0.86);
+    transition: transform 0.5s var(--spring-curve), opacity 0.35s ease; }
+  .ctx-pop.ctx-in img { opacity:1; transform:none; }
+  .ctx-pop .ctx-pop-lab { font-size:20px; font-weight:800; color:#F5F3EE; background:#111111; padding:6px 18px; border-radius:18px; transition:opacity 0.3s ease; }
+  .ctx-pop.ctx-fly .ctx-pop-lab { opacity:0; }
+
   /* Imagen clínica (foto, radiografía, ECG, registro) con hallazgos que se marcan a medida que se explican */
   .im-wrap { flex:1; min-height:0; display:flex; gap:22px; }
   .iq-stages { flex:1; min-width:0; min-height:0; display:flex; }
@@ -755,6 +778,7 @@
       totalStepsInSlide = getSlideStepCount(sl);
       currentStepIdx = Math.max(0, Math.min(totalStepsInSlide - 1, targetStep));
       updateStepUI();
+      if ((sl.ctxPhotos || []).length) setTimeout(() => ctxPhotoReveal(currentStepIdx, animate), 0);
 
       if (sl.type === 'bento') {
         const cards = document.querySelectorAll('.step-card');
@@ -1189,6 +1213,62 @@
     }
 
     // ---------------------------------------------------------------------
+    // FOTOS EN CONTEXTO: photo/photos de un ítem, paso o fila. Al llegar a ese paso la foto aparece grande
+    // al centro (fondo oscurecido) y luego se achica y se acomoda en la columna junto al contenido.
+    // ---------------------------------------------------------------------
+    let ctxPopped = new Set();
+    function ctxWrapHtml(sl, inner) {
+      const figs = sl.ctxPhotos.map((p, i) => `<figure id="ctx-ph-${i}" class="ctx-ph ${revealMode === 'all' ? '' : 'ctx-off'}" onclick="ctxZoom(${i})">
+          <div class="ctx-img"><img src="${p.src}" alt="${(p.label || '').replace(/"/g, '&quot;')}"></div>
+          ${p.label ? `<figcaption>${p.label}</figcaption>` : ''}
+          ${p.credit ? `<div class="ctx-credit">${p.credit}</div>` : ''}
+        </figure>`).join('');
+      return `<div class="ctx-wrap"><div class="ctx-main">${inner}</div><div id="ctx-rail" class="ctx-rail ${revealMode === 'all' ? '' : 'ctx-empty'}">${figs}</div></div>`;
+    }
+    function ctxPhotoReveal(active, animate) {
+      const sl = currentSlide(); if (!sl || !(sl.ctxPhotos || []).length) return;
+      const all = revealMode === 'all', popping = !!document.querySelector('.ctx-pop:not(.ctx-keep)');
+      let delay = 0, settled = false;
+      sl.ctxPhotos.forEach((p, i) => {
+        const fig = document.getElementById('ctx-ph-' + i); if (!fig) return;
+        fig.classList.toggle('ctx-now', !all && p.step === active);
+        if (!all && p.step > active) { fig.classList.add('ctx-off'); return; }
+        if (animate && !all && p.step === active && !ctxPopped.has(i) && fig.classList.contains('ctx-off')) {
+          ctxPopped.add(i); setTimeout(() => currentSlide() === sl && ctxPop(i), delay); delay += 2600;   // varias fotos del mismo paso: una tras otra
+        } else if (!(ctxPopped.has(i) && popping)) { fig.classList.remove('ctx-off'); settled = true; }
+      });
+      if (settled) ctxRail(true);
+      else if (!delay && !popping) ctxRail(false);
+    }
+    function ctxPop(i, keep) {
+      const sl = currentSlide(), p = sl.ctxPhotos[i], fig = document.getElementById('ctx-ph-' + i); if (!fig) return;
+      if (!keep) ctxRail(true);                  // el contenido se acomoda mientras el fondo está oscuro
+      const ov = document.createElement('div'); ov.className = 'ctx-pop';
+      ov.innerHTML = `<img src="${p.src}" alt=""><div class="ctx-pop-lab">${p.label || ''}</div>`;
+      document.body.appendChild(ov);
+      const img = ov.querySelector('img');
+      const go = () => requestAnimationFrame(() => { ov.classList.add('ctx-dim', 'ctx-in'); });
+      img.complete ? go() : (img.onload = go);
+      if (keep) { ov.classList.add('ctx-keep'); ov.style.pointerEvents = 'auto'; ov.onclick = () => ov.remove(); return; }   // clic en la columna: ver en grande
+      setTimeout(() => {                         // volar a su lugar (FLIP)
+        const to = fig.querySelector('img'), a = img.getBoundingClientRect(), b = to.getBoundingClientRect();
+        if (!document.body.contains(fig) || !b.width) { ov.remove(); fig.classList.remove('ctx-off'); return; }
+        ov.classList.add('ctx-fly'); ov.classList.remove('ctx-dim');
+        img.style.transition = 'transform 0.7s cubic-bezier(0.65, 0, 0.35, 1)';
+        img.style.transform = `translate(${b.left - a.left}px, ${b.top - a.top}px) scale(${b.width / a.width}, ${b.height / a.height})`;
+        setTimeout(() => { fig.classList.add('ctx-landing'); fig.classList.remove('ctx-off'); ov.remove();
+          requestAnimationFrame(() => fig.classList.remove('ctx-landing')); }, 720);
+      }, 1700);
+    }
+    window.ctxZoom = i => ctxPop(i, true);
+    function ctxRail(open) {
+      const rail = document.getElementById('ctx-rail'); if (!rail || rail.classList.contains('ctx-empty') !== open) return;
+      rail.classList.toggle('ctx-empty', !open);
+      const sl = currentSlide();
+      if (sl && sl.type === 'flow') setTimeout(() => { drawFlowEdges(); flowReveal(currentStepIdx, false); }, 560);
+    }
+
+    // ---------------------------------------------------------------------
     // PUNTOS: cada punto se enciende mientras la voz lo explica
     // ---------------------------------------------------------------------
     function renderPointsHtml(sl) {
@@ -1229,7 +1309,8 @@
         // Flecha a mano alzada que une una tarjeta con la siguiente cuando entra en escena.
         if (autoAnnotate && animate && ci > 0 && first === active && !drawnArrows.has('pt' + ci)) {
           drawnArrows.add('pt' + ci);
-          setTimeout(() => drawHandDrawnArrow(document.getElementById('pt-card-' + (ci - 1)), cardEl, '#B4322A'), 250);
+          const late = (sl.ctxPhotos || []).some(p => p.step === active) ? 600 : 0;   // esperar a que se abra la columna de fotos
+          setTimeout(() => drawHandDrawnArrow(document.getElementById('pt-card-' + (ci - 1)), cardEl, '#B4322A'), 250 + late);
         }
       });
     }
@@ -2184,6 +2265,8 @@
         `;
       }
 
+      if ((sl.ctxPhotos || []).length && ['points', 'flow', 'table'].includes(sl.type)) contentHtml = ctxWrapHtml(sl, contentHtml);
+      ctxPopped = new Set(); document.querySelectorAll('.ctx-pop').forEach(el => el.remove());
       vp.innerHTML = headerHtml + contentHtml;
       vp.classList.remove('slide-enter');
       void vp.offsetWidth;

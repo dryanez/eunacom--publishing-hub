@@ -52,7 +52,7 @@ module.exports = {
         { id: 'a45', col: 1, row: 0, k: 'good', t: 'VFG ≥ 45', s: 'Dosis plena, hasta 2.550 mg/día' },
         { id: 'a30', col: 1, row: 2, k: 'refer', t: 'VFG 30 a 44', s: 'Máximo 1.000 mg/día' },
         { id: 'b30', col: 1, row: 4, k: 'alert', t: 'VFG < 30', s: 'Contraindicación absoluta' },
-        { id: 'lac', col: 2, row: 4, k: 'risk', t: 'Acidosis láctica', s: 'Mortalidad 40 a 50 %' },
+        { id: 'lac', col: 2, row: 4, k: 'risk', t: 'Acidosis láctica', s: 'Mortalidad 30 a 50 %' },
         { id: 'con', col: 3, row: 1, k: 'trap', t: 'Contraste yodado o cirugía', s: 'Suspender 48 h antes' },
       ],
       edges: [
@@ -69,7 +69,7 @@ module.exports = {
         { show: ['b30'], note: 'Bajo 30: se suspende',
           say: 'Y bajo treinta, es una contraindicación absoluta. Se suspende de inmediato, sin bajar la dosis ni esperar.' },
         { show: ['lac'], note: 'La complicación que se quiere evitar',
-          say: '¿Por qué tan estricto? Porque si el riñón no la elimina, se acumula y produce acidosis láctica, un cuadro con una mortalidad de cuarenta a cincuenta por ciento. Es rara, pero es letal, y por eso el corte de treinta no se discute.' },
+          say: '¿Por qué tan estricto? Porque si el riñón no la elimina, se acumula y produce acidosis láctica, un cuadro con una mortalidad de treinta a cincuenta por ciento. Es rara, pero es letal, y por eso el corte de treinta no se discute.' },
         { show: ['con'], note: 'Suspensión transitoria',
           say: 'Hay además dos situaciones en que se suspende transitoriamente, cuarenta y ocho horas antes: un estudio con medio de contraste yodado endovenoso, y una cirugía mayor. Las dos pueden dañar el riñón de golpe.' },
       ],
@@ -177,6 +177,36 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Urgencia',
+      title: 'Acidosis láctica por metformina',
+      nodes: [
+        { id: 'pre', col: 0, row: 1, k: 'cause', t: 'Factor precipitante', s: 'Falla renal, sepsis, shock, contraste' },
+        { id: 'acu', col: 1, row: 1, k: 'mech', t: 'Metformina se acumula', s: 'Y sube el lactato' },
+        { id: 'cli', col: 2, row: 0, k: 'effect', t: 'Clínica inespecífica', s: 'Vómitos, Kussmaul, hipotensión' },
+        { id: 'dx', col: 2, row: 2, k: 'q', t: 'Lactato > 5, pH < 7,35', s: 'Anión gap alto, glicemia casi normal' },
+        { id: 'dif', col: 3, row: 2, k: 'trap', t: 'Cetonas negativas', s: 'La distingue de la cetoacidosis' },
+        { id: 'tx', col: 4, row: 1, k: 'alert', t: 'Suspender y derivar a UCI', s: 'Hemodiálisis si pH < 7,0' },
+      ],
+      edges: [
+        { from: 'pre', to: 'acu' }, { from: 'acu', to: 'cli' }, { from: 'acu', to: 'dx' },
+        { from: 'dx', to: 'dif' }, { from: 'dif', to: 'tx' }, { from: 'cli', to: 'tx' },
+      ],
+      steps: [
+        { show: ['pre', 'acu'], note: 'Casi siempre hay un gatillante',
+          say: 'Volvamos a la acidosis láctica, ahora como urgencia. Es muy infrecuente, de tres a diez casos por cien mil pacientes al año, pero casi siempre hay un factor que reduce la depuración de la metformina o sube el lactato: insuficiencia renal aguda, sepsis, shock, hipoxemia, insuficiencia hepática, alcoholismo agudo o un medio de contraste yodado.' },
+        { show: ['cli'], note: 'No tiene clínica propia',
+          say: 'La clínica es inespecífica: náuseas, vómitos, dolor abdominal, respiración de Kussmaul, hipotensión y compromiso de conciencia. Por eso lo que te lleva al diagnóstico es el contexto: un usuario de metformina con falla renal o sepsis.' },
+        { show: ['dx', 'dif'], note: 'Se confirma con laboratorio',
+          say: 'El diagnóstico es de laboratorio: acidosis metabólica con anión gap elevado, pH bajo siete treinta y cinco y lactato sobre cinco milimoles por litro. Fíjate en lo que la distingue de la cetoacidosis diabética: la glicemia está normal o poco elevada y la cetonemia es negativa.' },
+        { show: ['tx'], note: 'Suspender, UCI, tratar la causa',
+          say: 'El manejo inicial es suspender la metformina, hospitalizar de inmediato en una unidad crítica y tratar la causa, con cristaloides, oxígeno y monitoreo.' },
+        { show: ['tx'], note: 'Bicarbonato y hemodiálisis',
+          say: 'El bicarbonato se reserva para pH bajo siete coma uno con inestabilidad. La hemodiálisis, que elimina metformina y lactato, se indica con pH bajo siete, lactato muy alto, falla renal severa o mala respuesta. La mortalidad llega a treinta a cincuenta por ciento, y la prevención es respetar el ajuste por filtración y suspender el fármaco ante contraste, sepsis o deshidratación.' },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -215,6 +245,8 @@ module.exports = {
           say: 'En el adulto mayor, la metformina es de elección si el riñón lo permite, y la glibenclamida se evita.' },
         { cells: ['Efecto adverso cardinal', 'Digestivo', 'Hipoglicemia sintomática grave'],
           say: 'Y el efecto adverso cardinal: digestivo para la metformina, hipoglicemia grave para la glibenclamida.' },
+        { cells: ['Usuario de metformina con falla renal aguda o sepsis, vómitos y Kussmaul', 'Lactato alto, cetonas negativas: suspender y derivar', 'Tratarla como cetoacidosis'],
+          say: 'Y la urgencia: usuario de metformina con falla renal aguda o sepsis, vómitos y respiración de Kussmaul. Si el lactato está alto y las cetonas negativas, es acidosis láctica: se suspende y se deriva. La trampa es tratarla como cetoacidosis.' },
       ],
     },
 
@@ -308,6 +340,44 @@ module.exports = {
         options: 'Las opciones: suspender la glibenclamida, que aparece dos veces, agregar una colación antes del almuerzo, reemplazar la glibenclamida por sitagliptina, o reemplazar la metformina por pioglitazona. Piénsalo.',
         answer: 'Es la D. La culpable de las hipoglicemias es la glibenclamida, así que hay que sacarla. Pero ojo: la hemoglobina glicosilada es ocho coma uno, está mal controlado, así que no basta con suspenderla; hay que reemplazarla por un fármaco que no dé hipoglicemia, como la sitagliptina. Y la colación sería tapar el problema subiendo aún más su glicemia. Las gliptinas las vemos en la próxima clase.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.2.001 · Acidosis láctica",
+      "stem": "Hombre de 71 años con DM2 en tratamiento con metformina 850 mg cada 12 horas desde hace 8 años, sin controles recientes. Consulta por 3 días de vómitos, dolor abdominal difuso y decaimiento. Está taquipneico, con respiración profunda, PA 95/60 mmHg. Glicemia 165 mg/dL, cetonemia negativa, creatinina 3,4 mg/dL (VFG 18 mL/min), pH 7,08, HCO3 7 mEq/L, anión gap 26, lactato 11 mmol/L.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cetoacidosis diabética"
+        },
+        {
+          "letter": "B",
+          "text": "Hipoglicemia por metformina"
+        },
+        {
+          "letter": "C",
+          "text": "Estado hiperglicémico hiperosmolar"
+        },
+        {
+          "letter": "D",
+          "text": "Acidosis tubular renal"
+        },
+        {
+          "letter": "E",
+          "text": "Acidosis láctica asociada a metformina"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Acidosis metabólica grave con anión gap elevado, lactato alto, cetonas negativas y glicemia casi normal en un usuario de metformina con falla renal: acidosis láctica asociada a metformina. Se suspende la metformina y la hemodiálisis corrige la acidosis y elimina el fármaco.",
+      "say": {
+        "stem": "Hombre de setenta y un años, con metformina hace ocho años y sin controles. Llega con vómitos, dolor abdominal y respiración profunda. Glicemia ciento sesenta y cinco, cetonas negativas, filtración de dieciocho, pH siete coma cero ocho, anión gap elevado y lactato de once.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: cetoacidosis diabética, hipoglicemia por metformina, estado hiperosmolar, acidosis tubular renal o acidosis láctica por metformina. Piénsalo.",
+        "answer": "Es la E. Acidosis con anión gap alto, lactato elevado y cetonas negativas, en un paciente cuyo riñón ya no elimina la metformina. La cetoacidosis tienta por la acidosis y los vómitos, pero sin cetonas y con una glicemia de ciento sesenta no calza."
+      }
     },
 
     {

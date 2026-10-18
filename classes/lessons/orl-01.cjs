@@ -46,6 +46,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Del resfrío al tímpano abombado',
+      images: [
+        { src: 'animaciones/orl-01/A1_oma_trompa_a_timpano_abombado.mp4', label: 'Otitis media aguda: trompa tapada, pus y tímpano abombado', credit: 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'La trompa se tapa, el pus empuja el tímpano',
+          say: 'Mira el oído medio. El resfrío inflama la mucosa y la trompa de Eustaquio se tapa: adentro queda presión negativa, que retrae el tímpano y deja salir líquido. Por esa misma trompa suben bacterias, neumococo, Haemophilus y Moraxella, y el líquido se vuelve pus. El pus empuja el tímpano hacia afuera. Ese abombamiento es el signo que define la otitis media aguda.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Microbiología',
       title: 'Los tres gérmenes de la otitis media aguda',
@@ -78,27 +92,14 @@ module.exports = {
         ] },
         { title: 'El signo clave', tag: 'Ojo en el examen', kind: 'alert', items: [
           { t: 'Abombamiento del tímpano', d: 'El signo más específico de OMA supurada',
-            say: 'De todos, el abombamiento es el signo más específico. Si el tímpano está abombado, es una otitis media aguda.' },
+            say: 'De todos, el abombamiento es el signo más específico. Mira primero este tímpano normal, rosado grisáceo, con el mango del martillo bien visible. Y ahora este otro: rojo, abombado hacia el observador, sin referencias. Si el tímpano está abombado así, es una otitis media aguda.',
+            photos: [
+              { src: 'biblioteca/17_otorrino/orl-01/01_timpano-normal__bates_p317.jpg', label: 'Tímpano normal derecho', at: 'Mira primero este tímpano normal', credit: 'Bates, Guía de exploración física, Tabla 7-20' },
+              { src: 'biblioteca/17_otorrino/orl-01/02_otitis-media-aguda-timpano-abombado__bates_p318.jpg', label: 'OMA: tímpano abombado', at: 'Y ahora este otro', credit: 'Bates, Guía de exploración física, Tabla 7-20' },
+            ] },
           { t: 'Eritema aislado no basta', d: 'Puede ser llanto o fiebre viral',
             say: 'En cambio, un tímpano solo rojo, sin abombamiento ni hipomovilidad, puede ser simplemente por el llanto o por la fiebre. Eso no justifica un antibiótico, y es una trampa clásica.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'El tímpano en la otoscopía',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-01/01_timpano-normal__bates_p317.jpg', label: 'Tímpano normal derecho: rosado grisáceo, con el martillo visible', credit: 'Bates, Guía de exploración física, Tabla 7-20' },
-        { src: 'biblioteca/17_otorrino/orl-01/02_otitis-media-aguda-timpano-abombado__bates_p318.jpg', label: 'Otitis media aguda: tímpano rojo, abombado, sin referencias', credit: 'Bates, Guía de exploración física, Tabla 7-20' },
-      ],
-      steps: [
-        { note: 'Tímpano normal: se ve el martillo',
-          say: 'Primero, para comparar, un tímpano normal: color rosado grisáceo, y se reconoce el mango del martillo. Quédate con esta imagen, porque la otitis media aguda se define justamente por lo que se pierde.' },
-        { note: 'OMA: rojo, abombado, sin referencias',
-          say: 'Y esto es una otitis media aguda. Mira cómo el tímpano se ve rojo, abombado hacia el observador, y casi no se distinguen las referencias, como el martillo. Eso es lo que debes reconocer de un vistazo en una pregunta del examen.' },
       ],
     },
 

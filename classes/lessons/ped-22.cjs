@@ -51,11 +51,13 @@ module.exports = {
       cards: [
         { title: 'Maniobra de Ortolani', tag: 'Reduce', kind: 'key', items: [
           { t: 'Abduces y empujas hacia adelante', d: 'Sientes un resalto al reducirse',
-            say: 'Empecemos con las dos maniobras que más se preguntan. En Ortolani, flexionas la cadera y la rodilla, abduces el muslo y empujas hacia adelante. Es positiva cuando sientes un resalto: es la cabeza femoral que estaba luxada, entrando de vuelta al acetábulo.' },
+            say: 'Empecemos con las dos maniobras que más se preguntan. En Ortolani, flexionas la cadera y la rodilla, abduces el muslo y empujas hacia adelante. Es positiva cuando sientes un resalto: es la cabeza femoral que estaba luxada, entrando de vuelta al acetábulo. Mira este esquema: las manos sujetan ambos muslos y los abducen, y la cabeza vuelve al cotilo.',
+            photo: { src: 'biblioteca/15_pediatria/ped-22/01_ortolani__nelson_p5430.jpg', label: 'Maniobra de Ortolani', at: 'Mira este esquema', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 5430' } },
         ] },
         { title: 'Maniobra de Barlow', tag: 'Luxa', kind: 'alert', items: [
           { t: 'Aduces y empujas hacia atrás', d: 'Sale del acetábulo si es inestable',
-            say: 'Barlow es al revés: aduces y empujas hacia atrás. Si la cadera es inestable, se te sale del acetábulo. Ojo con no confundirlas: Ortolani reduce, Barlow luxa.' },
+            say: 'Barlow es al revés: aduces y empujas hacia atrás. Si la cadera es inestable, se te sale del acetábulo. En este dibujo, la flecha roja marca el empuje del muslo hacia atrás. Ojo con no confundirlas: Ortolani reduce, Barlow luxa.',
+            photo: { src: 'biblioteca/15_pediatria/ped-22/03_barlow__bates_p874.jpg', label: 'Maniobra de Barlow', at: 'En este dibujo', credit: 'Bates, Guía de exploración física 12.ª ed., Fig. 18-36' } },
         ] },
         { title: 'Después de los 3 meses', tag: 'Cambia el signo', kind: 'criteria', items: [
           { t: 'Abducción bajo 60 grados', d: 'El signo más confiable a esta edad',
@@ -87,15 +89,18 @@ module.exports = {
         { show: ['ctl'], note: 'La edad decide el examen',
           say: 'Ahora, la imagen. Y lo primero que decide cuál pedir es la edad del niño.' },
         { show: ['eco'], note: 'El núcleo aún es cartílago',
-          say: 'Bajo los tres meses, el examen es la ecografía de cadera, porque a esa edad el hueso todavía es puro cartílago y no se ve en una radiografía.' },
+          say: 'Bajo los tres meses, el examen es la ecografía de cadera, porque a esa edad el hueso todavía es puro cartílago y no se ve en una radiografía. Mira esta ecografía: se trazan líneas sobre el techo del cotilo y se miden los ángulos alfa y beta, el método de Graf.',
+          photo: { src: 'biblioteca/15_pediatria/ped-22/07_ecografia-cadera-graf__commons.jpg', label: 'Ecografía de cadera (Graf)', at: 'Mira esta ecografía', credit: 'Wikimedia Commons, CC BY 2.5' } },
         { show: ['rxu'], note: 'A todos, tengan o no factores de riesgo',
           say: 'Y a los tres meses, en Chile se le toma una radiografía de pelvis a todo lactante, tenga o no tenga factores de riesgo. Esto es una garantía GES, y ese detalle universal se pregunta harto.' },
         { show: ['lin'], note: 'Dos líneas que dividen la pelvis en cuadrantes',
-          say: 'En esa radiografía se trazan dos líneas: una horizontal, la de Hilgenreiner, y una vertical, la de Perkin. Juntas dividen la cadera en cuadrantes.' },
+          say: 'En esa radiografía se trazan dos líneas: una horizontal, la de Hilgenreiner, y una vertical, la de Perkin. En este esquema, la azul es la horizontal y la roja la vertical, y juntas dividen la cadera en cuadrantes.',
+          photo: { src: 'biblioteca/15_pediatria/ped-22/01_lineas-radiologicas-ddc_2__cto-trauma_p79.jpg', label: 'Hilgenreiner y Perkins', at: 'En este esquema', credit: 'Manual CTO Traumatología 14.ª ed., p. 79' } },
         { show: ['nor'], note: 'Ahí es donde debe estar',
           say: 'Si el núcleo de la cabeza femoral está en el cuadrante de abajo y hacia adentro, con un ángulo acetabular de treinta grados o menos, la cadera es normal.' },
         { show: ['lux'], note: 'Se corrió hacia arriba y afuera',
-          say: 'Pero si el núcleo se corrió al cuadrante de arriba y hacia afuera, con el ángulo por sobre treinta, ahí tienes la displasia.' },
+          say: 'Pero si el núcleo se corrió al cuadrante de arriba y hacia afuera, con el ángulo por sobre treinta, ahí tienes la displasia. Mira esta radiografía de pelvis: el núcleo femoral está arriba y afuera de las líneas, y el techo del cotilo es muy inclinado.',
+          photo: { src: 'biblioteca/15_pediatria/ped-22/06_radiografia-ddc-lineas__nelson_p5432.jpg', label: 'Radiografía con DDC', at: 'Mira esta radiografía de pelvis', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 5432' } },
       ],
     },
 
@@ -106,7 +111,8 @@ module.exports = {
       cards: [
         { title: 'Cómo actúa', tag: 'Bajo los 6 meses', kind: 'pharma', items: [
           { t: 'Flexión de 90 a 100 grados', d: 'Con abducción moderada',
-            say: 'Confirmada la displasia en un lactante menor de seis meses, el tratamiento es el arnés de Pavlik. Mantiene la cadera flectada entre noventa y cien grados, con una abducción moderada.' },
+            say: 'Confirmada la displasia en un lactante menor de seis meses, el tratamiento es el arnés de Pavlik. Mira a este lactante con el arnés puesto: las correas mantienen la cadera flectada entre noventa y cien grados, con una abducción moderada.',
+            photo: { src: 'biblioteca/15_pediatria/ped-22/05_arnes-pavlik__atlas-eunacom.jpg', label: 'Arnés de Pavlik', at: 'Mira a este lactante', credit: 'Atlas EUNACOM 2026' } },
           { t: 'Deja que se centre sola', d: 'Sin forzar nada',
             say: 'Con esa posición, la cabeza femoral se va centrando dentro del cotilo por sí sola, sin que tengas que forzar nada.' },
         ] },
@@ -116,49 +122,23 @@ module.exports = {
         ] },
         { title: 'Si falla o llega tarde', tag: 'Mayor de 6 meses', kind: 'normal', items: [
           { t: 'Reducción bajo anestesia', d: 'Con yeso pelvipédico',
-            say: 'Y si el arnés falla, o el niño ya tiene más de seis meses, el manejo sube a una reducción bajo anestesia general y un yeso pelvipédico. Por eso el diagnóstico precoz es tan importante.' },
+            say: 'Y si el arnés falla, o el niño ya tiene más de seis meses, el manejo sube a una reducción bajo anestesia general y un yeso pelvipédico. Mira este lactante con el yeso: ambas caderas quedan inmovilizadas en abducción. Por eso el diagnóstico precoz es tan importante.',
+            photo: { src: 'biblioteca/15_pediatria/ped-22/02_yeso-pelvipedico-tratamiento__cto-trauma_p80.jpg', label: 'Yeso pelvipédico', at: 'Mira este lactante con el yeso', credit: 'Manual CTO Traumatología 14.ª ed., p. 80' } },
         ] },
       ],
     },
 
     {
       type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Displasia del desarrollo de la cadera',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: "Hilgenreiner y Perkin",
       images: [
-        { src: 'biblioteca/15_pediatria/ped-22/01_ortolani__nelson_p5430.jpg', label: 'Ortolani', credit: 'Nelson 22.ª ed., p. 5430' },
-        { src: 'biblioteca/15_pediatria/ped-22/03_barlow__bates_p874.jpg', label: 'Barlow', credit: 'Bates 12.ª ed., Fig. 18-36' },
-        { src: 'biblioteca/15_pediatria/ped-22/02_pliegues_asimetricos__nelson_p5430.jpg', label: 'Signo de Galeazzi', credit: 'Nelson 22.ª ed., p. 5430' },
+        { src: 'animaciones/ped-22/A1_hilgenreiner_perkin.mp4', label: "Cuadrantes de la cadera", credit: "Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios" },
       ],
       steps: [
-        { note: 'Reduce la cadera luxada',
-          say: 'El Ortolani reduce una cadera luxada con un clic al abducir.' },
-        { note: 'Luxa una cadera inestable',
-          say: 'El Barlow luxa una cadera inestable al aducir y empujar.' },
-        { note: 'Una rodilla más baja',
-          say: 'Y este es el signo de Galeazzi: con las caderas flectadas, una rodilla queda más abajo que la otra, por el fémur acortado del lado luxado.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/15_pediatria/ped-22/01_lineas-radiologicas-ddc_2__cto-trauma_p79.jpg', label: 'Líneas de Hilgenreiner y Perkins', credit: 'Manual CTO Traumatología 14.ª ed., p. 79' },
-        { src: 'biblioteca/15_pediatria/ped-22/02_yeso-pelvipedico-tratamiento__cto-trauma_p80.jpg', label: 'Yeso pelvipédico', credit: 'Manual CTO Traumatología 14.ª ed., p. 80' },
-        { src: 'biblioteca/15_pediatria/ped-22/04_barlow_foto__bates_p873.jpg', label: 'Exploración de la abducción', credit: 'Bates 12.ª ed., Fig. 18-33' },
-      ],
-      steps: [
-        { note: 'Líneas de Hilgenreiner y Perkins',
-          say: 'Líneas de Hilgenreiner y Perkins: en la cadera luxada, la cabeza femoral queda fuera del cuadrante inferior interno.' },
-        { note: 'Yeso pelvipédico y tratamiento',
-          say: 'Este es el yeso pelvipédico. Se usa tras la reducción bajo anestesia, cuando el arnés falla o el niño tiene más de seis meses.' },
-        { note: 'Abducción limitada',
-          say: 'Así se explora la abducción con las caderas flectadas. Pasados los tres meses, una abducción limitada, bajo sesenta grados, es el signo más confiable.' },
+        { note: "Dónde queda el núcleo",
+          say: "Mira la línea horizontal, la de Hilgenreiner, y la vertical, la de Perkin: dividen la cadera en cuadrantes. Un núcleo femoral inferior e interno es normal, con ángulo acetabular de treinta grados o menos. Si el núcleo se corre arriba y afuera, y el ángulo pasa de treinta, tienes la displasia. Bajo los tres meses se pide ecografía; a los tres meses, radiografía de pelvis a todos." },
       ],
     },
 

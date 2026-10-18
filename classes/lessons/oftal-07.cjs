@@ -57,7 +57,8 @@ module.exports = {
         { show: ['cen'], note: 'El haz papilomacular es el último en caer',
           say: 'Mientras tanto, el haz papilomacular, que da la visión central de alta resolución, queda intacto hasta fases terminales. Por eso el paciente sigue leyendo perfecto la última línea de la tabla.' },
         { show: ['tun'], note: 'El campo se cierra como un túnel',
-          say: 'Esos escotomas periféricos van coalesciendo, y el campo visual se va cerrando como un túnel, cada vez más angosto.' },
+          say: 'Esos escotomas periféricos van coalesciendo, y el campo visual se va cerrando como un túnel, cada vez más angosto. Mira esta secuencia de campos: el defecto parte arriba y abajo, y va avanzando hasta dejar un tubo central.',
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa_alt1_2__amir-oftalmo_p35.jpg', label: 'Pérdida progresiva del campo', at: 'Mira esta secuencia', credit: 'Manual AMIR Oftalmología, p. 35' } },
         { show: ['tar'], note: 'La trampa clínica más importante del tema',
           say: 'Y aquí está la trampa más importante de toda la clase: pensar que una agudeza visual de veinte veinte descarta glaucoma. No lo hace. El paciente solo consulta cuando el campo visual ya se redujo a un tubo, y para entonces ya perdió más de la mitad de las fibras del nervio óptico, de forma irreversible.' },
       ],
@@ -70,19 +71,43 @@ module.exports = {
       cards: [
         { title: 'El fondo de ojo en atención primaria', tag: 'Lo que hay que mirar', kind: 'key', items: [
           { t: 'Excavación mayor a cero coma cinco', d: 'O asimetría entre los dos ojos mayor a cero coma dos',
-            say: 'En atención primaria, la pista está en el fondo de ojo. Sospecha cuando la relación entre la excavación y la papila supera cero coma cinco, o cuando hay una asimetría entre los dos ojos mayor a cero coma dos.' },
+            say: 'En atención primaria, la pista está en el fondo de ojo. Sospecha cuando la relación entre la excavación y la papila supera cero coma cinco, o cuando hay una asimetría entre los dos ojos mayor a cero coma dos. Mira esta papila: el centro pálido y hundido ocupa casi todo el disco.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa__amir-oftalmo_p34.jpg', label: 'Papila glaucomatosa', at: 'Mira esta papila', credit: 'Manual AMIR Oftalmología, p. 34' } },
           { t: 'Muescas en el anillo, vasos nasalizados', d: 'Rompe la regla inferior, superior, nasal, temporal',
             say: 'También cuando hay muescas o adelgazamiento del anillo neurorretiniano, sobre todo arriba y abajo, y cuando los vasos se ven rechazados hacia el sector nasal.' },
         ] },
         { title: 'Confirmación por el especialista', tag: 'Campimetría y OCT', kind: 'criteria', items: [
           { t: 'Campimetría computarizada de Humphrey', d: 'Certifica el defecto funcional',
-            say: 'La confirmación es del oftalmólogo: campimetría computarizada, que certifica el defecto funcional del campo visual, y una tomografía de coherencia óptica de las fibras nerviosas, que cuantifica el daño estructural de forma precoz.' },
+            say: 'La confirmación es del oftalmólogo: campimetría computarizada, que certifica el defecto funcional del campo visual, y una tomografía de coherencia óptica de las fibras nerviosas, que cuantifica el daño estructural de forma precoz. En este informe, a la izquierda, el ojo con el grosor de fibras por debajo de lo normal, en rojo; a la derecha, el ojo sano en verde.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-07/02_campimetria-papila-en-gcs__cto-oftalmo_p52.jpg', label: 'OCT de fibras nerviosas', at: 'En este informe', credit: 'Manual CTO Oftalmología 14.ª ed., p. 52' } },
         ] },
         { title: 'Tratamiento de por vida', tag: 'Análogos de prostaglandinas', kind: 'pharma', items: [
           { t: 'Una gota en la noche', d: 'Latanoprost, bimatoprost o travoprost',
             say: 'El tratamiento de primera línea son los análogos de prostaglandinas tópicos, con el latanoprost como referencia. Se dan en una sola gota en la noche, y aumentan el drenaje uveoescleral, la vía alternativa por la que sale el humor acuoso.' },
           { t: 'Oscurece el iris y alarga las pestañas', d: 'Efectos que hay que anticipar al paciente',
             say: 'Un dato que se pregunta: oscurecen el color del iris de forma permanente y alargan las pestañas. Si falla, se suma un betabloqueador tópico como el timolol, contraindicado en asma o bloqueo cardíaco, y si el daño progresa pese al tratamiento médico máximo, se opera con una trabeculectomía.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Examen',
+      title: 'Campo visual: cómo leer el informe',
+      cards: [
+        { title: 'Cómo se mide', tag: 'Interpreta y emplea', kind: 'key', items: [
+          { t: 'Confrontación en APS, Humphrey en el especialista', d: 'Cada ojo por separado',
+            say: 'El campo visual mide hasta dónde ve cada ojo hacia la periferia. En atención primaria se hace por confrontación, un tamizaje grosero, y el oftalmólogo lo cuantifica con la campimetría computarizada de Humphrey.' },
+          { t: 'Primero la confiabilidad', d: 'Pérdidas de fijación y falsos positivos bajo 20%',
+            say: 'Para leer el informe, primero mira la confiabilidad: pérdidas de fijación, falsos positivos y falsos negativos bajo veinte por ciento. Un examen poco confiable no se interpreta. Después, el mapa en escala de grises, donde las zonas oscuras son sensibilidad perdida, y los índices globales: la desviación media mide el descenso difuso, y la desviación estándar del patrón sube cuando hay defectos localizados.' },
+        ] },
+        { title: 'Patrones que debes reconocer', tag: 'Dónde está la lesión', kind: 'criteria', items: [
+          { t: 'Glaucoma: escotoma arqueado y escalón nasal', d: 'Luego visión tubular; el centro cae al final',
+            say: 'El glaucoma da escotoma arqueado de Bjerrum, escalón nasal y, al final, visión tubular, con respeto del campo central hasta el último momento.' },
+          { t: 'Bitemporal: quiasma. Homónima: retroquiasmática', d: 'Adenoma hipofisario, craneofaringioma, vía posterior',
+            say: 'Una hemianopsia bitemporal habla del quiasma, por ejemplo un adenoma hipofisario o un craneofaringioma. Una hemianopsia homónima habla de una lesión retroquiasmática.' },
+          { t: 'Central: neuritis o mácula. Altitudinal: isquemia', d: 'Nervio óptico u oclusión arterial de rama',
+            say: 'Un escotoma central sugiere neuritis óptica o una maculopatía. Y un defecto altitudinal, la mitad de arriba o de abajo, orienta a isquemia del nervio óptico o a oclusión de una rama arterial. En glaucoma, el campo alterado debe ser concordante con la excavación de la papila.' },
         ] },
       ],
     },
@@ -102,19 +127,69 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Glaucoma crónico',
-      images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa__amir-oftalmo_p34.jpg', label: 'Papila glaucomatosa', credit: 'Manual AMIR Oftalmología, p. 34' },
-        { src: 'biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa_alt1_2__amir-oftalmo_p35.jpg', label: 'Campimetría: pérdida progresiva del campo', credit: 'Manual AMIR Oftalmología, p. 35' },
+      type: 'points',
+      kicker: 'Glaucoma en el lactante',
+      title: 'Glaucoma congénito: el bebé de ojos grandes',
+      cards: [
+        { title: 'Cómo se sospecha', tag: 'Primeros 3 años', kind: 'alert', items: [
+          { t: 'Epífora, fotofobia, blefaroespasmo', d: 'La tríada clásica en un lactante',
+            say: 'No todo glaucoma es del adulto. El glaucoma congénito primario es una malformación del ángulo, que sube la presión en el recién nacido y el lactante. Es más frecuente en varones y a menudo bilateral. La tríada es epífora, fotofobia y blefaroespasmo.' },
+          { t: 'Córnea grande y opaca: buftalmos', d: 'Mayor de 11 mm al nacer, 12 mm al año',
+            say: 'Y se agrega la córnea grande y opaca: más de once milímetros en el recién nacido y doce al año, el ojo agrandado, el buftalmos, con edema corneal que da un aspecto lechoso o azulado. Mira este niño: el ojo izquierdo es más grande y la córnea se ve azulada.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-07/55_glaucoma-congenito-buftalmos__kanski_p398.jpg', label: 'Buftalmos con opacidad', at: 'Mira este niño', credit: "+K%'398'+" } },
+          { t: 'Estrías de Haab', d: 'Rupturas de la membrana de Descemet',
+            say: 'Pueden verse además las estrías de Haab, que son rupturas de la membrana de Descemet. Un lactante con ojos hermosos y grandes y lagrimeo constante no es una dacrioestenosis hasta descartar glaucoma.' },
+        ] },
+        { title: 'Conducta', tag: 'Urgencia pediátrica', kind: 'pharma', items: [
+          { t: 'Derivar de inmediato', d: 'Examen bajo anestesia: presión, gonioscopía, excavación',
+            say: 'Es una urgencia oftalmológica pediátrica: se deriva de inmediato para examen bajo anestesia, con tonometría, gonioscopía y medición de la córnea y de la excavación.' },
+          { t: 'Tratamiento definitivo: cirugía', d: 'Goniotomía o trabeculotomía',
+            say: 'Los colirios son solo un puente. El tratamiento definitivo es quirúrgico, con goniotomía o trabeculotomía. Sin tratamiento oportuno, la ceguera y la ambliopía son irreversibles.' },
+        ] },
       ],
-      steps: [
-        { note: 'Excavación aumentada',
-          say: 'La papila glaucomatosa tiene una excavación grande.' },
-        { note: 'Pérdida de campo periférico',
-          say: 'Y el campo visual se pierde desde la periferia, sin que el paciente lo note.' },
+    },
+
+    {
+      type: 'points',
+      kicker: 'Procedimiento',
+      title: 'Oftalmoscopía directa: paso a paso',
+      cards: [
+        { title: 'Preparación', tag: 'Antes de mirar', kind: 'key', items: [
+          { t: 'Penumbra y, si corresponde, tropicamida', d: 'No si hay ángulo estrecho ni vigilancia pupilar',
+            say: 'Sala en penumbra. Si el paciente no tiene ángulo estrecho ni requiere vigilancia pupilar neurológica, se dilata con tropicamida al uno por ciento y se esperan quince a veinte minutos. Le pides que fije la vista en un punto lejano.' },
+          { t: 'Ojo derecho con ojo derecho', d: 'Mano libre apoyada en la frente',
+            say: 'Tu ojo derecho examina el ojo derecho del paciente, con la mano derecha, y el izquierdo con el izquierdo. Apoya la mano libre en la frente del paciente, y ajusta el disco de lentes en cero, compensando el vicio de refracción de ambos.' },
+        ] },
+        { title: 'Recorrido', tag: 'De afuera hacia adentro', kind: 'criteria', items: [
+          { t: 'Reflejo rojo y luego la papila', d: 'Acércate a 2 o 3 cm siguiendo el reflejo',
+            say: 'Desde unos treinta centímetros, buscas el reflejo rojo, y te acercas hasta dos o tres centímetros siguiendo el reflejo. Si una opacidad lo interrumpe, piensa en catarata o en hemorragia vítrea. Luego sigues un vaso hasta su origen en la papila.' },
+          { t: 'Vasos, cuatro cuadrantes y mácula', d: 'La mácula, un diámetro papilar hacia temporal',
+            say: 'En la papila miras color, bordes, relación excavación papila y pulso venoso. Después, los vasos, con su calibre y sus cruces, la retina en los cuatro cuadrantes, y al final la mácula, un diámetro papilar hacia temporal, pidiendo que mire la luz.' },
+        ] },
+        { title: 'Hallazgos clave', tag: 'Lo que se pregunta', kind: 'alert', items: [
+          { t: 'Excavación mayor a 0,5 o asimétrica', d: 'Glaucoma',
+            say: 'Los hallazgos que debes reconocer: excavación mayor a cero coma cinco o asimétrica, que sugiere glaucoma; hemorragias y exudados; neovasos; borramiento de los bordes de la papila; y desprendimiento.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Procedimiento',
+      title: 'Instilación de colirios',
+      cards: [
+        { title: 'La técnica', tag: 'Una sola gota', kind: 'key', items: [
+          { t: 'Cuello extendido, mirada arriba', d: 'Gota en el bolsillo del párpado inferior',
+            say: 'El colirio es el tratamiento de base del glaucoma, y hay que enseñarle al paciente a ponérselo bien, porque de eso depende la adherencia. Lávate las manos, verifica el frasco, y agítalo si es suspensión. Paciente con el cuello extendido y la vista hacia arriba. Desciendes el párpado inferior formando un bolsillo y dejas caer una sola gota, sin tocar con el gotario el ojo, las pestañas ni la piel.' },
+          { t: 'Comprimir el canto interno 1 a 2 minutos', d: 'Menos absorción sistémica del timolol',
+            say: 'Después cierra suavemente el ojo, sin apretar, y comprime el canto interno durante uno a dos minutos. Así baja la absorción sistémica, sobre todo del timolol, que puede dar bradicardia y broncoespasmo, y aumenta el efecto local.' },
+        ] },
+        { title: 'Detalles que se preguntan', tag: 'Orden y frascos', kind: 'pharma', items: [
+          { t: 'Cinco minutos entre colirios', d: 'Los ungüentos van al final',
+            say: 'Entre dos colirios esperas cinco minutos, porque el segundo lava al primero, y los ungüentos van al final. Los análogos de prostaglandinas se aplican una vez, en la noche.' },
+          { t: 'Sin lentes de contacto; frasco 4 semanas', d: 'Los conservantes se acumulan en el lente',
+            say: 'Se retiran los lentes de contacto antes, porque algunos conservantes se acumulan en ellos, y el envase se desecha cuatro semanas después de abierto.' },
+        ] },
       ],
     },
 
@@ -209,6 +284,119 @@ module.exports = {
         options: 'Las opciones: degeneración macular relacionada con la edad, tumor del lóbulo occipital, catarata, glaucoma crónico, o neuropatía óptica isquémica. Piénsalo.',
         answer: 'Es la D, glaucoma crónico. La clave es que el examen del ojo es completamente normal y la visión está casi intacta, pero el campo visual ya está comprometido, de forma asimétrica entre los dos ojos. Eso descarta la catarata y la degeneración macular, que sí afectan la agudeza visual. Y un tumor occipital daría el mismo defecto en ambos ojos, no este patrón mezclado. Solo el glaucoma crónico explica un campo dañado con todo lo demás normal.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.4.001 · Campo visual",
+      "stem": "Hombre de 64 años con glaucoma crónico de ángulo abierto, con mala adherencia a sus colirios, refiere que choca con objetos que están a sus lados, aunque lee bien. Agudeza visual 20/25 en ambos ojos. Se solicita campimetría computarizada.",
+      "question": "¿Cuál es el patrón de campo visual más característico de su enfermedad avanzada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Escotoma central con pérdida precoz de la visión de lectura"
+        },
+        {
+          "letter": "B",
+          "text": "Escotomas arciformes que progresan a una visión en túnel, con conservación de la visión central hasta etapas tardías"
+        },
+        {
+          "letter": "C",
+          "text": "Hemianopsia bitemporal"
+        },
+        {
+          "letter": "D",
+          "text": "Hemianopsia homónima derecha"
+        },
+        {
+          "letter": "E",
+          "text": "Metamorfopsia central"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El glaucoma daña las fibras del nervio óptico y produce escotomas arciformes y escalón nasal, que avanzan hacia la periferia hasta dejar solo una isla central: la visión en túnel. Por eso la agudeza visual se conserva hasta muy tarde y la campimetría es clave para el diagnóstico y el seguimiento.",
+      "say": {
+        "stem": "Hombre de sesenta y cuatro años con glaucoma crónico, que usa mal sus gotas. Refiere que choca con las cosas que están a sus lados, aunque lee bien, y su agudeza visual es casi normal. Se pide una campimetría.",
+        "question": "¿Cuál es el patrón más característico de su enfermedad avanzada?",
+        "options": "Las opciones: escotoma central, escotomas arciformes que avanzan a visión en túnel, hemianopsia bitemporal, hemianopsia homónima derecha o metamorfopsia central. Piénsalo.",
+        "answer": "Es la B. El glaucoma come el campo visual desde la periferia, dejando al final una visión en túnel, por eso lee bien pero choca con todo. La hemianopsia bitemporal tienta porque también quita la visión lateral, pero es propia de lesiones del quiasma, como el adenoma hipofisario."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2017 · Pregunta 31",
+      "stem": "Lactante de 5 meses presenta opacidad corneal bilateral, asociada a epífora y aumento del diámetro corneal.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Retinoblastoma"
+        },
+        {
+          "letter": "B",
+          "text": "Macrocórnea"
+        },
+        {
+          "letter": "C",
+          "text": "Glaucoma congénito"
+        },
+        {
+          "letter": "D",
+          "text": "Atresia lagrimal"
+        },
+        {
+          "letter": "E",
+          "text": "Catarata congénita"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Epífora, fotofobia, blefaroespasmo, córnea opaca (edema) y aumento del diámetro corneal (buftalmo) en un lactante son glaucoma congénito: la presión intraocular elevada distiende el globo ocular aún elástico. Es una urgencia de derivación porque su tratamiento es quirúrgico. La atresia lagrimal da epífora con córnea normal.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecisiete. Lactante de cinco meses con córneas opacas y agrandadas en ambos ojos, y lagrimeo.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: retinoblastoma, macrocórnea, glaucoma congénito, atresia lagrimal o catarata congénita. Piénsalo.",
+        "answer": "Es la C. Córnea grande y opaca con lagrimeo en un lactante es glaucoma congénito, que requiere derivación urgente para cirugía. La atresia lagrimal tienta por el lagrimeo, pero deja la córnea normal."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.5.009 · Instilación de colirios",
+      "stem": "Hombre de 70 años con glaucoma crónico y asma leve inicia timolol en colirio. Se le enseña la técnica de instilación.",
+      "question": "¿Cuál es la técnica que además reduce la absorción sistémica del fármaco?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Instilar 3 gotas para asegurar el efecto"
+        },
+        {
+          "letter": "B",
+          "text": "Aplicar 2 colirios distintos al mismo tiempo"
+        },
+        {
+          "letter": "C",
+          "text": "Parpadear rápidamente varias veces tras la instilación"
+        },
+        {
+          "letter": "D",
+          "text": "Instilar directamente sobre la córnea con el gotario apoyado"
+        },
+        {
+          "letter": "E",
+          "text": "Instilar 1 gota en el fondo de saco inferior y luego cerrar los ojos y presionar el canto interno (oclusión del punto lagrimal) durante 1 a 2 minutos"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Se instila 1 gota (el fondo de saco solo retiene una) traccionando el párpado inferior, sin tocar el ojo. Luego se cierran los ojos y se comprime el canto interno 1 a 2 minutos: aumenta el contacto y disminuye el paso a la mucosa nasal, reduciendo efectos sistémicos como broncoespasmo y bradicardia por betabloqueadores.",
+      "say": {
+        "stem": "Hombre de setenta años con glaucoma y asma leve que inicia timolol en colirio.",
+        "question": "¿Qué técnica reduce además la absorción sistémica?",
+        "options": "Las opciones: tres gotas, dos colirios a la vez, parpadear rápido, gotario apoyado en la córnea o una gota y luego cerrar y presionar el canto interno. Piénsalo.",
+        "answer": "Es la E. Una gota y luego presionar el canto interno uno a dos minutos con los ojos cerrados reduce el paso del fármaco a la nariz y la sangre. Poner más gotas tienta para asegurar el efecto, pero el ojo solo retiene una y el resto aumenta la absorción sistémica."
+      }
     },
 
     {

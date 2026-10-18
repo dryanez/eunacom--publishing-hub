@@ -34,16 +34,17 @@ function flow(title, rows, customColor = '#a21caf') {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -152,6 +153,14 @@ const bloque1 = [
           '- <strong>Liquenificación:</strong> Engrosamiento cutáneo reactivo con acentuación exagerada de las cuadrículas normales de la piel, causado por el rascado crónico repetitivo.',
         ],
       },
+      {
+        subhead: "4. Manifestaciones Cutáneas de Enfermedades Sistémicas, Eritema Nudoso y Vitíligo",
+        paragraphs: [
+          "<strong>La piel como ventana de enfermedades internas.</strong> Cuando una lesión no calza con una dermatosis primaria, la semiología elemental orienta a buscar una enfermedad sistémica: <strong>acantosis nigricans</strong> (placas pardas aterciopeladas en cuello y axilas) = resistencia a la insulina o diabetes y, si es de inicio brusco en un adulto mayor, neoplasia visceral (gástrica); <strong>eritema malar con fotosensibilidad</strong> = lupus eritematoso; <strong>pápulas de Gottron y heliotropo</strong> = dermatomiositis (en adultos, buscar neoplasia); <strong>púrpura palpable</strong> en piernas = vasculitis (púrpura de Schönlein-Henoch en niños); <strong>eritema nudoso</strong> = sarcoidosis, tuberculosis, estreptococo o enfermedad inflamatoria intestinal; <strong>pioderma gangrenoso</strong> (úlcera de borde violáceo y socavado) = enfermedad inflamatoria intestinal o artritis reumatoide; <strong>xantelasmas y xantomas</strong> = dislipidemia; <strong>hiperpigmentación generalizada</strong> = insuficiencia suprarrenal o hemocromatosis; <strong>livedo reticular</strong> = síndrome antifosfolípido; <strong>prurito generalizado sin lesiones primarias</strong> = colestasis, uremia, alteración tiroidea o linfoma; <strong>vitíligo</strong> = autoinmunidad tiroidea. La conducta es buscar activamente la enfermedad de fondo (hemograma, glicemia, función hepática, renal y tiroidea, anticuerpos antinucleares según sospecha) y tratar la causa más que la lesión.",
+          "<strong>Eritema nudoso y eritema indurado de Bazin (sospecha, tratamiento inicial y derivación).</strong> El <strong>eritema nudoso</strong> es una paniculitis septal: nódulos rojos, calientes y dolorosos de 1 a 5 cm, <strong>bilaterales en la cara anterior de las piernas (pretibiales)</strong>, más frecuentes en mujeres de 20 a 40 años, que no se ulceran, no dejan cicatriz y evolucionan en 2 a 6 semanas con cambio de color «contusiforme» (rojo, violáceo, verdoso, amarillo). Puede acompañarse de fiebre, malestar y artralgias de tobillos. Sus causas son: <strong>infección estreptocócica</strong> (la más frecuente en niños), <strong>tuberculosis</strong>, <strong>sarcoidosis</strong> (síndrome de Löfgren: eritema nudoso, adenopatías hiliares bilaterales y artritis de tobillos), enfermedad inflamatoria intestinal, fármacos (anticonceptivos orales, penicilinas, sulfas), embarazo y lepra (eritema nudoso leproso). Estudio inicial: hemograma, VHS y PCR, cultivo faríngeo y ASO, <strong>radiografía de tórax</strong>, PPD y test de embarazo. Tratamiento inicial: reposo con piernas elevadas, AINE y tratar la causa; los casos refractarios o sin causa se derivan. El <strong>eritema indurado de Bazin</strong> (vasculitis nodular) se diferencia porque los nódulos se ubican en la <strong>cara posterior de las pantorrillas</strong>, en mujeres jóvenes, con curso crónico y recidivante, <strong>tienden a ulcerarse y dejar cicatriz</strong> y se asocian a tuberculosis (tuberculide): exige biopsia, estudio de tuberculosis y derivación.",
+          "<strong>Vitíligo (sospecha, tratamiento inicial y derivación).</strong> Es una enfermedad autoinmune que destruye los melanocitos y produce <strong>manchas acrómicas (blanco tiza), de bordes netos, sin descamación ni atrofia</strong>, en cara (periorificial), dorso de manos y dedos, codos, rodillas y genitales; afecta al 0,5 a 1% de la población, con fenómeno de Koebner positivo y a veces pelo blanco (leucotriquia) dentro de la mancha. Se asocia a otras enfermedades autoinmunes: <strong>tiroiditis de Hashimoto</strong>, diabetes tipo 1, anemia perniciosa, enfermedad de Addison y alopecia areata, por lo que se pide TSH y anticuerpos antiperoxidasa y glicemia. El diagnóstico es clínico y la lámpara de Wood acentúa el color blanco-lechoso. Diferenciar de pitiriasis alba y de pitiriasis versicolor (esta descama y se tiñe con el KOH), nevo acrómico, hipopigmentación posinflamatoria y lepra tuberculoide (hipoestésica). Tratamiento inicial: <strong>fotoprotección estricta</strong> (la piel sin melanina se quema con facilidad), corticoide tópico de alta potencia en zonas pequeñas por 2 a 3 meses o inhibidor tópico de calcineurina (tacrolimus) en cara y pliegues; se deriva para <strong>fototerapia UVB de banda estrecha</strong> o cirugía de injertos en casos estables, junto con apoyo psicológico por su impacto estético."
+        ]
+      }
     ],
     table: {
       title: 'Resumen Taxonómico de Lesiones Elementales Primarias vs Secundarias',

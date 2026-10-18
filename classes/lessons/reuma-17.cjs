@@ -95,7 +95,8 @@ module.exports = {
         { show: ["cli", "rx", "dx"], note: "Criterios de Nueva York modificados",
           say: "Para clasificar con certeza a un paciente con espondilitis anquilosante se exige al menos un criterio clínico junto con el criterio radiológico obligatorio: demostrar en radiografía simple una sacroilitis bilateral al menos grado dos o una sacroilitis unilateral avanzada grado tres o cuatro." },
         { show: ["rm"], note: "Resonancia magnética en etapas tempranas",
-          say: "Dado que las alteraciones radiológicas óseas pueden tardar hasta diez años en ser visibles, la resonancia magnética en secuencia STIR permite identificar precozmente el edema óseo inflamatorio activo antes de que aparezcan las erosiones o la esclerosis en las radiografías convencionales." },
+          say: "Dado que las alteraciones radiológicas óseas pueden tardar hasta diez años en ser visibles, la resonancia magnética en secuencia STIR permite identificar precozmente el edema óseo inflamatorio activo antes de que aparezcan las erosiones o la esclerosis en las radiografías convencionales. Mira esta resonancia de las sacroilíacas: a la derecha, en STIR, la zona brillante es el edema inflamatorio.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_2__amir-reuma_p79.jpg', label: 'RM: sacroilitis, T1 y STIR', at: 'Mira esta resonancia', credit: 'Manual AMIR Reumatología, p. 79' } },
       ],
     },
 
@@ -114,7 +115,11 @@ module.exports = {
           { t: "Sindesmofitos marginales verticales delgados", d: "Osificación del anillo fibroso discal",
             say: "A diferencia de los osteofitos de la artrosis, que son gruesos y horizontales, los sindesmofitos de la espondilitis anquilosante son puentes óseos delgados de orientación estrictamente vertical que unen los cuerpos vertebrales contiguos." },
           { t: "Columna en caña de bambú y rigidez total", d: "Fusión continua de toda la columna vertebral",
-            say: "La confluencia de sindesmofitos bilaterales y la osificación de los ligamentos interespinosos genera la clásica columna en caña de bambú o columna de tren. La columna se transforma en un hueso largo continuo y rígido con altísimo riesgo de fracturas ante traumatismos mínimos." },
+            say: "La confluencia de sindesmofitos bilaterales y la osificación de los ligamentos interespinosos genera la clásica columna en caña de bambú o columna de tren. La columna se transforma en un hueso largo continuo y rígido con altísimo riesgo de fracturas ante traumatismos mínimos. Mira estas radiografías: las flechas marcan los puentes óseos que unen vértebra con vértebra. Y en esta vista lateral, los puentes que van fusionando la columna.",
+          photos: [
+            { src: 'biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_1__amir-reuma_p79.jpg', label: 'Sindesmofitos', at: 'Mira estas radiografías', credit: 'Manual AMIR Reumatología, p. 79' },
+            { src: 'biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_alt1__cto-reuma_p38.jpg', label: 'Columna en caña de bambú', at: 'Y en esta vista lateral', credit: 'Manual CTO Reumatología 14.ª ed., p. 38' },
+          ] },
         ] },
       ],
     },
@@ -126,7 +131,8 @@ module.exports = {
       cards: [
         { title: "Uveítis anterior aguda (UAA)", tag: "Complicación extraarticular número uno", kind: "alert", items: [
           { t: "Dolor ocular, ojo rojo y fotofobia brusca", d: "Típicamente unilateral, no granulomatosa y recurrente",
-            say: "Esta es la complicación extraarticular más frecuente en el examen: la uveítis anterior aguda se presenta en hasta un treinta por ciento de los pacientes. Es de comienzo agudo, unilateral, con dolor ocular severo, inyección ciliar periquerática, fotofobia y miosis pupilar." },
+            say: "Esta es la complicación extraarticular más frecuente en el examen: la uveítis anterior aguda se presenta en hasta un treinta por ciento de los pacientes. Es de comienzo agudo, unilateral, con dolor ocular severo, inyección ciliar periquerática, fotofobia y miosis pupilar. Mira este ojo: el enrojecimiento alrededor de la córnea es la inyección ciliar, y abajo se acumula una capa blanca, un hipopión.",
+          photo: { src: '_verificadas/049_reuma_EA_Behçet__KumarClark_p1099.jpg', label: 'Uveítis anterior aguda', at: 'Mira este ojo', credit: 'Kumar and Clark\'s Clinical Medicine, p. 1099' } },
           { t: "Manejo urgente con corticoides tópicos", d: "Prevención de sinequias posteriores y pérdida visual",
             say: "Requiere derivación oftalmológica inmediata para instalar colirios con corticoides tópicos y midriáticos ciclopéjicos. No suele dejar secuelas si se trata precozmente, pero tiende a recurrir alternando de ojo a lo largo de los años." },
         ] },
@@ -135,6 +141,56 @@ module.exports = {
             say: "La inflamación crónica de la raíz aórtica dilata el anillo valvular provocando insuficiencia aórtica diastólica. Además, la extensión del tejido fibroso al tabique interventricular puede causar bloqueos aurículoventriculares de diverso grado que requieran marcapasos." },
           { t: "Fibrosis pulmonar de lóbulos superiores", d: "Lesiones quísticas apicales con riesgo de aspergillus",
             say: "Una manifestación pulmonar tardía y poco común es la fibrosis apical bilateral con cavitaciones en los lóbulos superiores, las cuales pueden ser colonizadas por hongos formando micetomas o aspergilomas asintomáticos." },
+        ] },
+      ],
+    },
+
+    {
+      type: "points",
+      kicker: "Uveítis",
+      title: "Uveítis: clasificar y sospechar",
+      cards: [
+        { title: "Por la zona inflamada", tag: "Cuatro tipos", kind: "key", items: [
+          { t: "Anterior: la más frecuente", d: "Cerca del 75%; iritis e iridociclitis",
+            say: "La uveítis se clasifica por la zona inflamada: anterior, intermedia, posterior y panuveítis. La anterior, que incluye la iritis y la iridociclitis, es la más frecuente, cerca del setenta y cinco por ciento." },
+          { t: "Posterior: indolora y sin ojo rojo", d: "Moscas volantes y visión borrosa",
+            say: "La posterior, que es una coriorretinitis, suele ser indolora y sin ojo rojo, con moscas volantes y visión borrosa." },
+        ] },
+        { title: "Cómo se ve la anterior", tag: "Distinguir de otros ojos rojos", kind: "alert", items: [
+          { t: "Ojo rojo doloroso, fotofobia, miosis", d: "Inyección ciliar perilimbal y células en cámara anterior",
+            say: "La anterior se presenta con ojo rojo doloroso, con inyección ciliar alrededor del limbo, fotofobia, lagrimeo, miosis y células en la cámara anterior." },
+          { t: "No es conjuntivitis ni glaucoma agudo", d: "Conjuntivitis no duele; glaucoma: pupila midriática y córnea opaca",
+            say: "La conjuntivitis no duele ni cambia la agudeza visual, y el glaucoma agudo tiene la pupila midriática y la córnea opaca." },
+        ] },
+        { title: "Causas", tag: "Y estudio dirigido", kind: "criteria", items: [
+          { t: "Idiopática, HLA-B27, AIJ, sarcoidosis, Behçet", d: "EA, reactiva y enfermedad inflamatoria intestinal",
+            say: "Las causas son la idiopática, la asociada a HLA B veintisiete, como la espondilitis anquilosante, la artritis reactiva y la enfermedad inflamatoria intestinal, la artritis idiopática juvenil, la sarcoidosis y el Behçet." },
+          { t: "Infecciosas: sífilis, TBC, herpes, toxoplasma, CMV", d: "Toxoplasmosis: la más común en la posterior; CMV con CD4 bajo 50",
+            say: "Entre las infecciosas están la sífilis, la tuberculosis, el herpes, la toxoplasmosis, que es la causa más común de uveítis posterior, y el citomegalovirus en el paciente con VIH y CD cuatro bajo cincuenta. El estudio se orienta por la clínica: hemograma, velocidad de sedimentación, proteína C reactiva, VDRL, VIH, PPD o IGRA, radiografía de tórax y HLA B veintisiete." },
+        ] },
+      ],
+    },
+
+    {
+      type: "points",
+      kicker: "Uveítis",
+      title: "Conducta inicial ante una uveítis",
+      cards: [
+        { title: "Derivar sin demora", tag: "En 24 horas", kind: "alert", items: [
+          { t: "Oftalmología en 24 horas", d: "La demora deja secuelas",
+            say: "Toda sospecha de uveítis se deriva a oftalmología en veinticuatro horas, porque la demora puede dejar secuelas: sinequias posteriores, catarata, glaucoma secundario, edema macular y pérdida visual." },
+        ] },
+        { title: "Anterior no infecciosa", tag: "Lo que indica el oftalmólogo", kind: "pharma", items: [
+          { t: "Prednisolona 1% tópica más ciclopléjico", d: "Cada hora al inicio, con descenso gradual",
+            say: "La uveítis anterior no infecciosa se trata con corticoides tópicos, prednisolona acetato al uno por ciento, cada hora al inicio y con descenso gradual, más midriáticos ciclopléjicos como ciclopentolato o atropina, para evitar las sinequias y aliviar el dolor." },
+          { t: "Nunca corticoide tópico sin descartar herpes", d: "Queratitis herpética: la descarta el oftalmólogo",
+            say: "Nunca se indica un corticoide tópico sin que el oftalmólogo descarte una queratitis herpética." },
+        ] },
+        { title: "Posterior y recurrente", tag: "Causa y reumatología", kind: "criteria", items: [
+          { t: "Tratar la causa", d: "Antiparasitarios, antivirales, antituberculoso, penicilina",
+            say: "En la uveítis posterior o la panuveítis se trata la causa: antiparasitarios en la toxoplasmosis, antivirales, tratamiento antituberculoso o penicilina en la sífilis. En las formas no infecciosas se usan corticoides perioculares o sistémicos e inmunomoduladores, como adalimumab." },
+          { t: "Recurrente alternante: HLA-B27", d: "Y derivar a reumatología",
+            say: "Las uveítis recurrentes, unilaterales y que alternan de ojo, o asociadas a lumbago inflamatorio, sugieren espondiloartritis y justifican pedir HLA B veintisiete y derivar a reumatología." },
         ] },
       ],
     },
@@ -185,6 +241,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'De la sacroilitis a la columna',
+      images: [
+        { src: 'animaciones/reuma-17/A1_sacroilitis_columna.mp4', label: 'Espondilitis anquilosante', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Pelvis y columna lumbar',
+          say: 'Todo empieza en las articulaciones sacroilíacas, siempre en las dos y de manera simétrica, en un paciente con HLA B veintisiete. Desde ahí la inflamación sube vértebra por vértebra, y se forma hueso nuevo que va uniendo las vértebras: son los sindesmofitos, hasta formar la columna en caña de bambú. Y la regla de oro: el metotrexato no sirve en el compromiso axial.' },
+      ],
+    },
+
+    {
       type: "table",
       kicker: "Trampas EUNACOM",
       title: "Diagnóstico diferencial: Espondilitis Anquilosante vs Artrosis vs Hiperostosis (DISH)",
@@ -195,35 +265,10 @@ module.exports = {
         { cells: ["Artrosis de Columna (Espondilosis)", "Mayores de 50 años", "Osteofitos gruesos marginales horizontales", "Sacroilíacas estrictamente normales"],
           say: "Artrosis de columna: adultos mayores con dolor mecánico, osteofitos horizontales y articulaciones sacroilíacas preservadas." },
         { cells: ["Hiperostosis Esquelética Difusa (DISH)", "Varones mayores de 60 años con diabetes", "Calcificación ligamentosa anterior en cera derretida", "Sacroilíacas estrictamente normales sin sacroilitis"],
-          say: "Hiperostosis difusa o enfermedad de Forestier: mayores con diabetes, puentes ligamentosos gruesos en cera derretida y sacroilíacas normales sin inflamación." },
+          say: "Hiperostosis difusa o enfermedad de Forestier: mayores con diabetes, puentes ligamentosos gruesos en cera derretida y sacroilíacas normales sin inflamación. En esta imagen comparas: a la izquierda los sindesmofitos finos de la espondilitis, a la derecha la osificación gruesa del Forestier.",
+          photo: { src: '_verificadas/050_reuma_Espondilitis_anquilosante__BrantHelms_p1190.jpg', label: 'Espondilitis frente a DISH', at: 'En esta imagen comparas', credit: 'Brant and Helms, Fundamentals of Diagnostic Radiology, p. 1190' } },
         { cells: ["Artritis Reumatoide", "Mujeres de 30 a 50 años", "Compromiso exclusivo de columna cervical C1-C2", "Sacroilíacas y columna lumbar respetadas"],
           say: "Artritis reumatoide: afecta solo la columna cervical con subluxación atloaxoidea, respetando completamente la columna lumbar y las sacroilíacas." },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Espondilitis anquilosante',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_1__amir-reuma_p79.jpg', label: 'Columna en caña de bambú', credit: 'Manual AMIR Reumatología, p. 79' },
-      ],
-      steps: [
-        { note: 'Sindesmofitos que unen vértebras',
-          say: 'Los sindesmofitos unen las vértebras y la columna queda como una caña de bambú.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_2__amir-reuma_p79.jpg', label: 'RM de sacroilíacas: sacroileítis', credit: 'Manual AMIR Reumatología, p. 79' },
-      ],
-      steps: [
-        { note: 'RM de sacroilíacas: sacroileítis',
-          say: 'Resonancia de las articulaciones sacroilíacas en T uno y STIR: las flechas marcan la sacroileítis activa.' },
       ],
     },
 

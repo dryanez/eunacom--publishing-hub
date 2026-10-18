@@ -133,6 +133,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El orden fijo y el nivel de magnesio',
+      images: [
+        { src: 'animaciones/ob-06/A1_orden_magnesio.mp4', label: 'Magnesio, presión, parto', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Magnesio, presión, interrupción',
+          say: 'Fíjate en este orden, porque es lo que se pregunta: primero el sulfato de magnesio, segundo controlar la presión, tercero interrumpir el embarazo. Y mira esta curva de magnesio: la carga te deja en rango terapéutico, entre cuatro y siete. Si la diuresis cae, el nivel sube, y a los ocho a diez se abole el reflejo rotuliano: ahí suspendes la infusión. Por eso lo revisas cada hora.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Pongamos el orden completo en un solo árbol de decisión.',
     },
@@ -221,6 +235,44 @@ module.exports = {
         options: 'Las opciones: pancreatitis aguda, hepatitis viral, colecistitis aguda, colestasia intrahepática, o síndrome de HELLP. Piénsalo.',
         answer: 'Es la E. Junta las tres letras: plaquetas bajas, transaminasas muy altas, y la bilirrubina elevada te habla de hemólisis. Eso es HELLP. La litiasis vesicular es la trampa: aparece en la ecografía, pero es un hallazgo incidental frecuente en el embarazo, no la causa de este cuadro.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Agosto 2021 · Pregunta 45",
+      "stem": "Paciente de 32 años, primigesta, cursando un embarazo de 33 semanas, presenta presión arterial de 162/113 mmHg en el control. Se encuentra asintomática y los latidos cardiofetales se auscultan normales.",
+      "question": "¿Cuál es el fármaco más adecuado para iniciar el tratamiento?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enalapril"
+        },
+        {
+          "letter": "B",
+          "text": "Sulfato de magnesio"
+        },
+        {
+          "letter": "C",
+          "text": "Metildopa"
+        },
+        {
+          "letter": "D",
+          "text": "Labetalol"
+        },
+        {
+          "letter": "E",
+          "text": "Hidralazina"
+        }
+      ],
+      "correct": "D",
+      "explanation": "PA de 160/110 mmHg o más es una crisis hipertensiva del embarazo: se trata con labetalol endovenoso (hidralazina si está contraindicado). Metildopa es de mantención, enalapril está contraindicado y el magnesio previene convulsiones pero no baja la presión.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Primigesta de treinta y dos años, con treinta y tres semanas de embarazo, tiene en el control una presión de ciento sesenta y dos con ciento trece. Está asintomática y los latidos fetales son normales.",
+        "question": "¿Cuál es el fármaco más adecuado para iniciar el tratamiento?",
+        "options": "Las opciones: enalapril, sulfato de magnesio, metildopa, labetalol o hidralazina. Piénsalo.",
+        "answer": "Es la D. Una presión de ciento sesenta con ciento diez o más es una crisis hipertensiva, y el fármaco de primera línea es el labetalol endovenoso. El sulfato de magnesio tienta, pero no baja la presión: solo previene la eclampsia, y esta paciente no tiene síntomas neurológicos."
+      }
     },
 
     {

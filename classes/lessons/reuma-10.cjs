@@ -57,7 +57,8 @@ module.exports = {
         ] },
         { title: "Alopecia cicatricial en cuero cabelludo", tag: "Daño folicular irreversible", kind: "alert", items: [
           { t: "Destrucción definitiva de los folículos", d: "Placa alopécica lisa y brillante",
-            say: "Cuando el lupus discoide afecta el cuero cabelludo, destruye de forma irreversible las unidades foliculares, provocando alopecia cicatricial definitiva donde el pelo nunca volverá a crecer." },
+            say: "Cuando el lupus discoide afecta el cuero cabelludo, destruye de forma irreversible las unidades foliculares, provocando alopecia cicatricial definitiva donde el pelo nunca volverá a crecer. Mira esta cara: las placas rojas y escamosas alrededor de la nariz y en las mejillas son el lupus discoide, que en el cuero cabelludo deja esa cicatriz.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-10/01_lupus-discoide__cto-reuma_p81.jpg', label: 'Lupus discoide facial', at: 'Mira esta cara', credit: 'Manual CTO Reumatología 14.ª ed., p. 81' } },
           { t: "Serología habitualmente negativa", d: "ANA negativos en el setenta por ciento",
             say: "A diferencia del lupus sistémico, los pacientes con lupus discoide puro suelen tener anticuerpos antinucleares negativos o en títulos bajos, y menos del diez por ciento evoluciona a compromiso de órganos internos." },
         ] },
@@ -71,7 +72,8 @@ module.exports = {
       cards: [
         { title: "Lesiones fotosensibles no cicatriciales", tag: "Distribución en tronco y escote", kind: "criteria", items: [
           { t: "Patrón anular policíclico y papuloescamoso", d: "En escote en V y parte alta de espalda",
-            say: "El lupus cutáneo subagudo cursa con placas eritematosas circulares o anulares en zonas fotoexpuestas del tronco, escote y brazos, respetando llamativamente el rostro." },
+            say: "El lupus cutáneo subagudo cursa con placas eritematosas circulares o anulares en zonas fotoexpuestas del tronco, escote y brazos, respetando llamativamente el rostro. En esta piel del cuello y del escote se ven las lesiones en anillos y en arcos, y el rostro queda respetado.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-10/02_lupus-subagudo-anular__cto-reuma_p81.jpg', label: 'Lupus subagudo anular', at: 'En esta piel', credit: 'Manual CTO Reumatología 14.ª ed., p. 81' } },
           { t: "Curación completa sin cicatriz", d: "Puede dejar hipopigmentación transitoria",
             say: "A diferencia del discoide, las lesiones del lupus subagudo resuelven por completo sin dejar cicatrices atróficas ni pérdida definitiva de anejos cutáneos ni alopecia." },
         ] },
@@ -153,6 +155,44 @@ module.exports = {
     },
 
     {
+      type: "points",
+      kicker: "Lupus cutáneo",
+      title: "Descartar compromiso sistémico",
+      cards: [
+        { title: "Preguntar y examinar", tag: "La piel puede ser el debut", kind: "key", items: [
+          { t: "Artralgias, aftas, serositis, fotosensibilidad", d: "Y síntomas neuropsiquiátricos",
+            say: "Todo lupus cutáneo puede ser la primera manifestación de un lupus sistémico. Por eso se interroga por artralgias, fotosensibilidad, aftas, serositis y síntomas neuropsiquiátricos." },
+        ] },
+        { title: "Qué pedir", tag: "Siempre", kind: "criteria", items: [
+          { t: "Hemograma, creatinina, orina y proteinuria", d: "Relación proteinuria creatininuria",
+            say: "Se solicitan hemograma con plaquetas, creatinina, orina completa con relación proteinuria creatininuria, anticuerpos antinucleares, anti-ADN de doble hebra, anti-Sm, anti-Ro y La, complemento C tres y C cuatro, y anticuerpos antifosfolípidos." },
+          { t: "Biopsia con inmunofluorescencia", d: "Banda lúpica en la unión dermoepidérmica",
+            say: "La biopsia cutánea con inmunofluorescencia directa muestra un depósito granular de inmunoglobulinas y complemento en la unión dermoepidérmica: es la banda lúpica." },
+        ] },
+        { title: "Qué riesgo tiene", tag: "Y qué hacer", kind: "alert", items: [
+          { t: "Discoide aislado: 5 a 10% evoluciona", d: "Subagudo: cerca de la mitad cumple criterios",
+            say: "El riesgo de evolucionar a lupus sistémico es bajo en el discoide aislado, de cinco a diez por ciento, y mayor en el subagudo, donde cerca de la mitad cumple criterios, habitualmente de curso leve." },
+          { t: "ANA, anti-dsDNA, C bajo, citopenias o proteinuria", d: "Se maneja como LES; el resto, control cada 6 a 12 meses",
+            say: "Quien tenga anticuerpos antinucleares positivos, anti-ADN de doble hebra, hipocomplementemia, citopenias o proteinuria se maneja como lupus sistémico. El resto se controla cada seis a doce meses con orina y hemograma. Todo lupus cutáneo se deriva a dermatología y, si hay datos sistémicos, a reumatología." },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La luz ultravioleta',
+      images: [
+        { src: 'animaciones/reuma-10/A1_luz_ultravioleta.mp4', label: 'Lupus cutáneo subagudo', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Piel y luz ultravioleta',
+          say: 'En el lupus cutáneo subagudo, la luz ultravioleta hace que el queratinocito exponga el antígeno Ro. El anticuerpo anti-Ro lo reconoce, la célula entra en apoptosis y se desata la inflamación: así nace la placa anular del cuello y el escote, que cura sin cicatriz. Ojo: la madre con anti-Ro puede tener un hijo con lupus neonatal y bloqueo cardíaco. Y como la piel puede ser el debut, se descarta compromiso sistémico.' },
+      ],
+    },
+
+    {
       type: "table",
       kicker: "Trampas EUNACOM",
       title: "Diagnóstico diferencial: LES vs Cutáneo vs Farmacológico",
@@ -166,23 +206,6 @@ module.exports = {
           say: "Lupus subagudo: lesiones policíclicas fotosensibles que no dejan cicatriz. Se asocia a anti-Ro positivo y riesgo de bloqueo cardíaco congénito en el feto." },
         { cells: ["Lupus Inducido por Drogas", "Exantema macular inespecífico con pleuritis", "Anti-Histona positivo (>95%) · Anti-ADN y Anti-Sm negativos", "RESPETA riñón y cerebro · Tratamiento: suspender el fármaco causante"],
           say: "Lupus farmacológico por hidralazina o procainamida: anti-histona positivo, respeta riñón y cerebro, y cura al suspender el medicamento." },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Lupus cutáneo',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-10/01_lupus-discoide__cto-reuma_p81.jpg', label: 'Lupus discoide', credit: 'Manual CTO Reumatología 14.ª ed., p. 81' },
-        { src: 'biblioteca/08_reumatologia/reuma-10/02_lupus-subagudo-anular__cto-reuma_p81.jpg', label: 'Lupus subagudo', credit: 'Manual CTO Reumatología 14.ª ed., p. 81' },
-      ],
-      steps: [
-        { note: 'Placas con cicatriz',
-          say: 'El lupus discoide deja placas con cicatriz y, en el cuero cabelludo, alopecia cicatricial.' },
-        { note: 'Lesiones anulares',
-          say: 'Y el subagudo da lesiones anulares en zonas expuestas al sol, asociado a anti Ro.' },
       ],
     },
 
@@ -251,6 +274,44 @@ module.exports = {
         options: "Las opciones: tetralogía de Fallot, bloqueo auriculoventricular congénito completo, agenesia renal, coartación aórtica, o transposición de grandes vasos. Piénsalo.",
         answer: "La respuesta correcta es la B. Los anticuerpos anti-Ro de la madre dañan el tejido de conducción cardíaco del feto entre las semanas dieciséis y veinticuatro de gestación, produciendo bloqueo auriculoventricular completo irreversible.",
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 14",
+      "stem": "Mujer de 35 años con placas eritematosas en cuero cabelludo con alopecia cicatricial, fotosensibilidad y presencia de tapones foliculares. Presenta lesiones similares en las mejillas.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tinea capitis"
+        },
+        {
+          "letter": "B",
+          "text": "Alopecia androgénica"
+        },
+        {
+          "letter": "C",
+          "text": "Tricotilomanía"
+        },
+        {
+          "letter": "D",
+          "text": "Lupus eritematoso discoide"
+        },
+        {
+          "letter": "E",
+          "text": "Alopecia areata"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Placas eritematosas con escamas adherentes, tapones foliculares y alopecia cicatricial en zonas fotoexpuestas definen el lupus discoide, la forma cutánea crónica. Solo una minoría evoluciona a lupus sistémico. Se trata con fotoprotección, corticoides tópicos y antimaláricos. La alopecia areata no deja cicatriz.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Mujer de treinta y cinco años con placas rojas en el cuero cabelludo que dejan alopecia cicatricial, con tapones foliculares y fotosensibilidad, y lesiones parecidas en las mejillas.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: tiña de la cabeza, alopecia androgénica, tricotilomanía, lupus discoide, o alopecia areata. Piénsalo.",
+        "answer": "Es la D. Lo que define el lupus discoide es la alopecia cicatricial con tapones foliculares en zonas expuestas al sol. La alopecia areata tienta, pero da placas lisas, sin inflamación ni cicatriz, y el pelo puede volver a crecer."
+      }
     },
 
     {

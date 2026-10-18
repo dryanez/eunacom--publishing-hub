@@ -33,9 +33,14 @@ module.exports = {
         { show: ['tro'], note: 'El problema: trombos de plaquetas en vasos pequeños',
           say: 'Partamos por la idea común. En una microangiopatía trombótica se forman microtrombos de plaquetas en las arteriolas y capilares de muchos órganos.' },
         { show: ['pla'], note: 'Se forman trombos y faltan plaquetas',
-          say: 'Esos trombos consumen plaquetas, así que el paciente tiene trombocitopenia. Parece una paradoja: está formando trombos y a la vez le faltan plaquetas. No lo es: le faltan justamente porque se están gastando en los trombos.' },
+          say: 'Esos trombos consumen plaquetas, así que el paciente tiene trombocitopenia. Parece una paradoja: está formando trombos y a la vez le faltan plaquetas. No lo es: le faltan justamente porque se están gastando en los trombos. Y con pocas plaquetas aparecen petequias: mira estas piernas.',
+          photo: { src: 'biblioteca/06_hematologia/hem-10/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg', label: 'Petequias', at: 'mira estas piernas', credit: 'Manual AMIR Hematología, p. 89' } },
         { show: ['esq'], note: 'Hemólisis mecánica: Coombs negativo',
-          say: 'Y los glóbulos rojos, al pasar a gran velocidad por esas redes de trombos, se rompen. Los fragmentos se ven en el frotis como esquistocitos, o glóbulos en casco. Es una hemólisis mecánica, con Coombs negativo.' },
+          say: 'Y los glóbulos rojos, al pasar a gran velocidad por esas redes de trombos, se rompen. Los fragmentos se ven en el frotis como esquistocitos, o glóbulos en casco. Es una hemólisis mecánica, con Coombs negativo. Mira este frotis: glóbulos rojos fragmentados. Y en este otro hay esquistocitos por todos lados, partidos por los microtrombos.',
+          photos: [
+            { src: 'biblioteca/06_hematologia/hem-10/01_esquistocitos__cto-hemato_p10.jpg', label: 'Esquistocitos', at: 'Mira este frotis', credit: 'Manual CTO Hematología 14.ª ed., p. 10' },
+            { src: 'biblioteca/06_hematologia/hem-10/02_esquistocitos__harrison_p468.jpg', label: 'Esquistocitos abundantes', at: 'en este otro', credit: 'Harrison\'s Principles of Internal Medicine, 21st ed., p. 468' },
+          ] },
         { show: ['isq'], note: 'Los trombos dañan cerebro, riñón y corazón',
           say: 'Además, los trombos tapan la circulación de los órganos: cerebro, riñón y corazón.' },
         { show: ['ptt', 'shu'], note: 'Dos causas, dos pacientes distintos',
@@ -175,6 +180,34 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'SHU en el niño',
+      title: 'Manejo inicial mientras se deriva',
+      cards: [
+        { title: 'Sospechar y derivar', tag: 'Inmediato', kind: 'key', items: [
+          { t: 'Diarrea sangrienta + esquistocitos + creatinina alta', d: 'Niño de 1 a 5 años, plaquetas bajas',
+            say: 'Un niño pequeño con diarrea, a menudo con sangre, tres a siete días antes, que ahora está pálido, con petequias y poca orina. En el laboratorio, anemia con esquistocitos, plaquetas bajas, Coombs negativo y urea y creatinina altas. El diagnóstico es clínico y de laboratorio.' },
+          { t: 'Derivar a UCI pediátrica con diálisis', d: 'Coprocultivo o PCR para Shiga: no espera',
+            say: 'Se deriva de inmediato a un centro con cuidados intensivos pediátricos y nefrología con diálisis. La búsqueda de la toxina Shiga, por coprocultivo o reacción en cadena de la polimerasa, confirma la causa, pero no retrasa nada.' },
+        ] },
+        { title: 'Soporte mientras llega', tag: 'Cuidadoso', kind: 'pharma', items: [
+          { t: 'Balance, diuresis, peso y presión', d: 'Controlar también potasio y acidosis',
+            say: 'Mientras se traslada, se controla estrictamente el balance hídrico, la diuresis, el peso y la presión arterial, y se vigilan la hiperkalemia y la acidosis.' },
+          { t: 'Hidratación isotónica precoz, pero medida', d: 'Ni hipovolemia ni sobrecarga',
+            say: 'La hidratación isotónica precoz protege el riñón, pero con cuidado: la hipovolemia agrava el daño, y la sobrecarga produce edema e hipertensión.' },
+          { t: 'Glóbulos rojos sí, plaquetas no', d: 'Lento y solo si hay anemia grave',
+            say: 'Se transfunden glóbulos rojos, lentamente, si la anemia es grave o hay inestabilidad. Las plaquetas no se transfunden, salvo sangrado grave o un procedimiento invasivo.' },
+        ] },
+        { title: 'Lo que se evita', tag: 'Trampa', kind: 'alert', items: [
+          { t: 'Antibióticos, antidiarreicos y AINE', d: 'Más toxina, más riesgo de SHU',
+            say: 'Ojo con esto, porque se pregunta: en la diarrea por E. coli productora de toxina Shiga no se usan antibióticos, ni antidiarreicos, ni antiinflamatorios. Los antibióticos pueden liberar más toxina y aumentar el riesgo de SHU.' },
+          { t: 'Muchos necesitan diálisis y la mayoría se recupera', d: 'Seguimiento a cargo de nefrología',
+            say: 'Una parte importante de los niños necesita diálisis en la fase aguda, y la mayoría recupera la función renal. El seguimiento de largo plazo lo hace nefrología.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -188,21 +221,6 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Microangiopatía trombótica',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-10/01_esquistocitos__cto-hemato_p10.jpg', label: 'Esquistocitos', credit: 'Manual CTO Hematología 14.ª ed., p. 10' },
-        { src: 'biblioteca/06_hematologia/hem-10/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg', label: 'Petequias', credit: 'Manual AMIR Hematología, p. 89' },
-      ],
-      steps: [
-        { note: 'Glóbulos rojos fragmentados',
-          say: 'Los esquistocitos son glóbulos rojos rotos al pasar por vasos llenos de microtrombos. Con plaquetas bajas, es una emergencia.' },
-        { note: 'Petequias: no transfundir plaquetas',
-          say: 'Y con las plaquetas bajas aparecen petequias en la piel. Dan ganas de transfundir plaquetas, pero en el PTT eso alimenta los trombos.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -320,6 +338,44 @@ module.exports = {
         options: 'Las opciones son: coagulación intravascular diseminada, glomerulonefritis posinfecciosa, síndrome hemolítico urémico, sepsis por neumococo, o falla renal prerrenal. Piénsalo.',
         answer: 'Es la C, síndrome hemolítico urémico. Falla renal oligúrica, anemia y plaquetas bajas en un niño: la tríada. Lo nuevo es la causa: además de la Escherichia coli y la Shigella, el neumococo también puede producir un SHU. La glomerulonefritis tienta por el complemento y la hematuria, pero aparece días después de la infección, suele ser estreptocócica y no baja las plaquetas.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 21",
+      "stem": "Paciente de 29 años presenta ictericia, disnea y compromiso marcado del estado general. Al examen físico solo destaca ictericia de escleras y piel, sin alteraciones relevantes en el examen segmentario. Hemograma: hematocrito 12 %, hemoglobina 4,1 g/dL, plaquetas 250.000/mm³, leucocitos 7.800/mm³, VCM 103 fL, CHCM 32 g/dL; en el frotis se observan microesferocitos. Pruebas hepáticas: GOT 52 U/L, GPT 56 U/L, bilirrubina total 4,1 mg/dL, bilirrubina directa 0,5 mg/dL, GGT 50 U/L, fosfatasas alcalinas 211 U/L y LDH 960 U/L.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hepatitis A"
+        },
+        {
+          "letter": "B",
+          "text": "Anemia por déficit de vitamina B12"
+        },
+        {
+          "letter": "C",
+          "text": "Hemólisis"
+        },
+        {
+          "letter": "D",
+          "text": "Anemia aplásica"
+        },
+        {
+          "letter": "E",
+          "text": "Mielodisplasia"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Anemia aguda y severa con bilirrubina de predominio indirecto, LDH alta y microesferocitos: hemólisis, probablemente autoinmune. El VCM alto se explica por la reticulocitosis. El déficit de B12 no da microesferocitos y suele bajar las plaquetas; la hepatitis A elevaría mucho las transaminasas y la bilirrubina directa.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Un hombre de veintinueve años con ictericia, disnea y gran compromiso del estado general. Tiene hemoglobina de cuatro coma uno, plaquetas normales, microesferocitos en el frotis, bilirrubina de cuatro con directa de solo cero coma cinco, y lactato deshidrogenasa de novecientos sesenta.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: hepatitis A, déficit de vitamina B doce, hemólisis, anemia aplásica, o mielodisplasia. Piénsalo.",
+        "answer": "Es la C. Anemia severa con bilirrubina indirecta, lactato deshidrogenasa alta y microesferocitos es hemólisis, y el volumen corpuscular alto se debe a los reticulocitos. La B doce tienta por la macrocitosis, pero no produce microesferocitos y suele bajar las plaquetas."
+      }
     },
 
     {

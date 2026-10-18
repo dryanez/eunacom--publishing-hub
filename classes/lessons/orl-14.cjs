@@ -44,6 +44,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El absceso y los espacios profundos',
+      images: [
+        { src: 'animaciones/orl-14/A1_absceso_periamigdalino_y_profundos.mp4', label: 'Absceso periamigdalino e infecciones profundas del cuello', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Pilar abombado y úvula al lado sano; otras infecciones profundas',
+          say: 'Mira la amígdala: el absceso abomba el pilar anterior, la úvula se desvía hacia el lado sano, y el trismus impide abrir la boca. Se drena y se da antibiótico endovenoso. Las otras infecciones profundas se reconocen por el paciente: el lactante con tortícolis, el retrofaríngeo; el trismus con masa en el ángulo, el parafaríngeo; y el molar infectado con cuello leñoso, la angina de Ludwig. Ahí, primero la vía aérea.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Clínica',
       title: 'La tríada del absceso periamigdalino',
@@ -54,7 +68,8 @@ module.exports = {
           { t: 'Voz en papa caliente', d: 'Voz apagada y gangosa',
             say: 'Segundo, la voz en papa caliente: apagada, gangosa, como si hablara con comida caliente en la boca.' },
           { t: 'Úvula hacia el lado sano', d: 'Desviación contralateral',
-            say: 'Tercero, la úvula desviada hacia el lado contrario. El pilar anterior abombado empuja la amígdala hacia la línea media y la úvula se va al lado sano. Si el pilar abombado es el izquierdo, la úvula mira a la derecha.' },
+            say: 'Tercero, la úvula desviada hacia el lado contrario. El pilar anterior abombado empuja la amígdala hacia la línea media y la úvula se va al lado sano. Si el pilar abombado es el izquierdo, la úvula mira a la derecha. Mira esta garganta: el pilar abombado, rojo, y la úvula empujada hacia el otro lado.',
+            photo: { src: 'biblioteca/17_otorrino/orl-14/02_absceso-periamigdalino__sherman_p259.jpg', label: 'Pilar abombado y úvula', at: 'Mira esta garganta', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 259' } },
         ] },
         { title: 'Lo que acompaña', tag: 'Cuadro florido', kind: 'criteria', items: [
           { t: 'Odinofagia unilateral', d: 'Intolerable, con otalgia refleja',
@@ -125,7 +140,8 @@ module.exports = {
       cards: [
         { title: 'Cómo se confirma', tag: 'Imágenes', kind: 'criteria', items: [
           { t: 'Radiografía lateral de cuello', d: 'En inspiración e hiperextensión',
-            say: 'La radiografía lateral de cuello, tomada en inspiración e hiperextensión, muestra el ensanchamiento del espacio prevertebral, y a veces aire o un nivel hidroaéreo.' },
+            say: 'La radiografía lateral de cuello, tomada en inspiración e hiperextensión, muestra el ensanchamiento del espacio prevertebral, y a veces aire o un nivel hidroaéreo. Mira esta radiografía lateral: el espacio prevertebral ensanchado, y al lado, el escáner con la colección.',
+            photo: { src: 'biblioteca/17_otorrino/orl-14/03_absceso-retrofaringeo-rx-tc__sherman_p261.jpg', label: 'Rx y TC: prevertebral ancho', at: 'Mira esta radiografía lateral', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 261' } },
           { t: 'Prevertebral muy ancho', d: 'Más de un cuerpo en C2; el doble en C6',
             say: 'Se considera patológico si el espacio supera el ancho de un cuerpo vertebral a nivel de C dos, o el doble de un cuerpo vertebral a nivel de C seis. Se pierde además la lordosis cervical.' },
           { t: 'TAC de cuello con contraste', d: 'Es el examen definitivo',
@@ -142,12 +158,35 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Imagen',
+      title: 'Cómo se informa la TAC cervical con contraste',
+      cards: [
+        { title: 'Cuándo se pide', tag: 'Sospecha de absceso profundo', kind: 'key', items: [
+          { t: 'Trismus, rigidez cervical, estridor, disfagia', d: 'Abombamiento faríngeo o falta de respuesta al manejo',
+            say: 'La TAC cervical con contraste es el examen de elección ante la sospecha de un absceso periamigdalino complicado, retrofaríngeo o parafaríngeo: trismus, rigidez cervical, abombamiento faríngeo, disfagia, estridor o una úvula desplazada que no responde al manejo.' },
+        ] },
+        { title: 'Qué distingue el informe', tag: 'Flemón o absceso', kind: 'criteria', items: [
+          { t: 'Flemón: inflamación difusa, sin colección', d: 'Manejo médico',
+            say: 'El informe separa el flemón, una inflamación difusa sin colección, que se maneja con antibióticos, del absceso, una colección hipodensa con realce periférico en anillo, a veces con gas, que requiere drenaje.' },
+        ] },
+        { title: 'Hallazgos de gravedad', tag: 'Cambian la conducta', kind: 'alert', items: [
+          { t: 'Prevertebral ancho, vía aérea estrecha', d: 'Extensión parafaríngea o mediastínica',
+            say: 'Orientan a gravedad el ensanchamiento del espacio prevertebral, la estrechez de la vía aérea y la extensión al espacio parafaríngeo o al mediastino.' },
+          { t: 'Trombosis yugular y carótida', d: 'Síndrome de Lemierre',
+            say: 'Y la trombosis de la vena yugular interna, el síndrome de Lemierre, y el compromiso de la carótida.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Otras infecciones profundas',
       title: 'Parafaríngeo y angina de Ludwig',
       cards: [
         { title: 'Absceso parafaríngeo', tag: 'Espacio lateral', kind: 'alert', items: [
           { t: 'Trismus y masa bajo la mandíbula', d: 'Pared faríngea desplazada hacia medial',
-            say: 'El absceso parafaríngeo afecta el espacio lateral de la faringe. Da trismo severo, desplaza la pared lateral de la faringe y la amígdala hacia la línea media, sin que la amígdala esté primariamente inflamada, y produce un abultamiento doloroso en el ángulo de la mandíbula.' },
+            say: 'El absceso parafaríngeo afecta el espacio lateral de la faringe. Da trismo severo, desplaza la pared lateral de la faringe y la amígdala hacia la línea media, sin que la amígdala esté primariamente inflamada, y produce un abultamiento doloroso en el ángulo de la mandíbula. Mira este escáner con contraste: la colección con realce periférico en el espacio parafaríngeo.',
+            photo: { src: 'biblioteca/17_otorrino/orl-14/04_absceso-parafaringeo-tc__nelson_p3217.jpg', label: 'TC: absceso parafaríngeo', at: 'Mira este escáner', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 3217' } },
           { t: 'Erosión carotídea y Lemierre', d: 'Trombosis de la yugular por Fusobacterium',
             say: 'Sus grandes peligros son la erosión de la arteria carótida interna y el síndrome de Lemierre, que es una tromboflebitis séptica de la vena yugular interna por Fusobacterium necrophorum.' },
         ] },
@@ -155,7 +194,8 @@ module.exports = {
           { t: 'Origen: molares inferiores', d: 'Celulitis bilateral del piso de boca',
             say: 'La angina de Ludwig es una celulitis gangrenosa que compromete a ambos lados los espacios submandibular, sublingual y submentoniano. En cerca del ochenta por ciento de los casos parte de una infección de los molares inferiores, el segundo y el tercero.' },
           { t: 'Induración leñosa y lengua elevada', d: 'Sin fluctuación; cierra la orofaringe',
-            say: 'El signo es una induración dura como madera en el piso de la boca, sin fluctuación, con la lengua elevada y empujada hacia atrás, que tapa la orofaringe.' },
+            say: 'El signo es una induración dura como madera en el piso de la boca, sin fluctuación, con la lengua elevada y empujada hacia atrás, que tapa la orofaringe. Mira esta paciente: la región submandibular hinchada y dura. Esa induración empuja la base de la lengua hacia atrás, y por eso la vía aérea se asegura de inmediato.',
+            photo: { src: 'biblioteca/17_otorrino/orl-14/01_angina-de-ludwig__amir-orl_p55.jpg', label: 'Angina de Ludwig', at: 'Mira esta paciente', credit: 'Manual AMIR Otorrinolaringología, p. 55' } },
           { t: 'Primero la vía aérea', d: 'Intubación con fibroscopio o traqueostomía',
             say: 'La prioridad indiscutida es asegurar la vía aérea, con intubación guiada con fibrobroncoscopio o traqueostomía. Después vienen la descompresión quirúrgica y los antibióticos endovenosos.' },
         ] },
@@ -192,19 +232,6 @@ module.exports = {
           { t: 'Ensanchamiento mediastínico', d: 'Mediastinitis necrotizante, mortalidad sobre 40%',
             say: 'Y el ensanchamiento del mediastino en el escáner indica que la infección bajó por el danger space. Es una mediastinitis necrotizante descendente, con mortalidad de más de cuarenta por ciento, y requiere drenaje cervical y torácico.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'La angina de Ludwig',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-14/01_angina-de-ludwig__amir-orl_p55.jpg', label: 'Angina de Ludwig: aumento de volumen submandibular', credit: 'Manual AMIR Otorrinolaringología, p. 55' },
-      ],
-      steps: [
-        { note: 'Cuello leñoso',
-          say: 'Esta es una angina de Ludwig: la región submandibular está hinchada y dura. Esa induración leñosa empuja la base de la lengua hacia atrás, y por eso la vía aérea se asegura de inmediato.' },
       ],
     },
 
@@ -326,6 +353,119 @@ module.exports = {
         options: 'Las opciones: extraer las piezas cariadas en el box; asegurar la vía aérea con intubación guiada o traqueostomía; corticoides orales y reposo en casa; radiografía panorámica dental; o punción del piso de la boca sin anestesia. Piénsalo.',
         answer: 'Es la B. Es una angina de Ludwig, y la regla es que la vía aérea va primero. La tentación es ir directo al foco dental, la A, pero tocar la boca sin asegurar la vía aérea puede precipitar la obstrucción.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.2.002 · Absceso amigdalino",
+      "stem": "Un adolescente de 15 años con odinofagia de 5 días, tratada con paracetamol, presenta empeoramiento con odinofagia unilateral intensa, fiebre, trismus, sialorrea y voz apagada (en papa caliente). Al examen se observa abombamiento del pilar amigdalino izquierdo con desplazamiento de la úvula hacia la derecha.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amoxicilina oral y control en 48 horas"
+        },
+        {
+          "letter": "B",
+          "text": "Drenaje del absceso (punción o incisión) y antibiótico"
+        },
+        {
+          "letter": "C",
+          "text": "Amigdalectomía de urgencia"
+        },
+        {
+          "letter": "D",
+          "text": "Corticoides endovenosos como único tratamiento"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar TAC y diferir el drenaje una semana"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Odinofagia unilateral, trismus, voz en papa caliente y desplazamiento de la úvula contralateral son el absceso periamigdalino, la complicación supurativa más frecuente de la faringoamigdalitis en adolescentes. El tratamiento es drenaje (punción aspirativa o incisión) más antibiótico (ej. amoxicilina-ácido clavulánico o clindamicina) y analgesia. El TAC se reserva si se sospecha extensión profunda.",
+      "say": {
+        "stem": "Un adolescente de quince años con faringitis tiene ahora dolor unilateral intenso, fiebre, trismus, voz en papa caliente y la úvula desplazada.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: amoxicilina oral y control, drenaje más antibiótico, amigdalectomía urgente, solo corticoides o diferir el drenaje. Piénsalo.",
+        "answer": "Es la B. Es un absceso periamigdalino y se trata con drenaje más antibiótico. La amoxicilina sola tienta, pero un absceso constituido necesita ser drenado."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.4.004 · TAC cervical con contraste",
+      "stem": "Hombre de 35 años con odontalgia molar inferior hace 1 semana, ahora con fiebre de 39 °C, trismus, aumento de volumen submandibular y cervical lateral izquierdo doloroso y odinofagia. Sin estridor ni dificultad respiratoria.",
+      "question": "¿Cuál es el examen de elección para evaluar este cuadro?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía de cuello lateral"
+        },
+        {
+          "letter": "B",
+          "text": "Ecografía Doppler carotídea"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de cuello con contraste endovenoso"
+        },
+        {
+          "letter": "D",
+          "text": "Resonancia magnética sin contraste"
+        },
+        {
+          "letter": "E",
+          "text": "Panorámica dental exclusivamente"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La sospecha de infección profunda del cuello (absceso parafaríngeo, submandibular, angina de Ludwig) requiere TAC cervical con contraste: distingue celulitis de absceso, muestra su extensión (mediastino) y su relación con la vía aérea y los vasos. Se acompaña de antibióticos endovenosos y drenaje si hay colección. Antes, siempre asegurar la vía aérea.",
+      "say": {
+        "stem": "Hombre de treinta y cinco años con dolor de muela, fiebre, trismus y aumento de volumen doloroso submandibular y cervical, sin dificultad respiratoria.",
+        "question": "¿Cuál es el examen de elección?",
+        "options": "Las opciones: radiografía lateral de cuello, Doppler carotídeo, TAC de cuello con contraste, resonancia sin contraste o solo panorámica dental. Piénsalo.",
+        "answer": "Es la C. Ante sospecha de infección profunda del cuello se pide TAC con contraste, que distingue celulitis de absceso y muestra su extensión. La panorámica dental tienta para ver la muela, pero no evalúa los espacios del cuello."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.5.003 · Drenaje de absceso retrofaríngeo",
+      "stem": "Niño de 3 años con fiebre alta, odinofagia, sialorrea, rechazo alimentario y tortícolis con dolor a la extensión del cuello, tras una infección respiratoria alta. La radiografía lateral de cuello muestra aumento del espacio prevertebral. La TAC con contraste confirma una colección retrofaríngea con realce periférico de 2,5 cm. Respira sin dificultad.",
+      "question": "¿Cuál es el manejo más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibiótico oral y control ambulatorio"
+        },
+        {
+          "letter": "B",
+          "text": "Amigdalectomía de urgencia"
+        },
+        {
+          "letter": "C",
+          "text": "Punción del absceso en el servicio de urgencia por vía externa"
+        },
+        {
+          "letter": "D",
+          "text": "Corticoides y observación"
+        },
+        {
+          "letter": "E",
+          "text": "Hospitalización, antibióticos endovenosos y drenaje quirúrgico (habitualmente transoral) por otorrinolaringología, con protección de la vía aérea"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El absceso retrofaríngeo predomina bajo los 5 años, por supuración de ganglios retrofaríngeos: fiebre, odinofagia, tortícolis o limitación de la extensión y espacio prevertebral aumentado. Se hospitaliza con antibióticos endovenosos (amoxicilina-clavulánico o clindamicina) y, si hay colección significativa, se drena en pabellón por vía transoral con la vía aérea protegida.",
+      "say": {
+        "stem": "Niño de tres años con fiebre, dolor al tragar, babeo, tortícolis con dolor al extender el cuello, y una colección retrofaríngea de dos centímetros y medio en la TAC, respirando sin dificultad.",
+        "question": "¿Cuál es el manejo más adecuado?",
+        "options": "Las opciones: antibiótico oral ambulatorio, amigdalectomía, punción en urgencia, corticoides o hospitalizar con antibióticos endovenosos y drenaje quirúrgico por otorrino protegiendo la vía aérea. Piénsalo.",
+        "answer": "Es la E. Se hospitaliza, se dan antibióticos endovenosos y se drena en pabellón con la vía aérea protegida. La punción en urgencia tienta por ser rápida, pero arriesga la aspiración del pus y la pérdida de la vía aérea."
+      }
     },
 
     {

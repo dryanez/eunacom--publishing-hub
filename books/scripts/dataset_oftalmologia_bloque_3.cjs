@@ -68,6 +68,12 @@ const bloque3 = [
           '• <strong>Técnicas Quirúrgicas:</strong> Vitrectomía pars plana (VPP) con intercambio líquido-gas o silicón y endoláser, o cerclaje escleral ab-externo.',
         ],
       },
+      {
+        subhead: '5. Pérdida Visual Súbita: Cómo Diferenciar el Desprendimiento de Retina de Otras Causas',
+        paragraphs: [
+          'El desprendimiento de retina es una de las causas de <strong>disminución visual súbita</strong>; el médico general debe compararla con las otras causas para decidir la urgencia (nivel Específico / tratamiento Inicial / seguimiento Derivar). Al contrario de la catarata o los vicios de refracción, que causan pérdida <strong>lenta</strong> y no son urgentes, el cuadro es de horas a días y siempre <strong>unilateral</strong>.<br>• <strong>Desprendimiento de retina:</strong> moscas flotantes, destellos (fotopsias) y una <strong>cortina o sombra</strong> que avanza desde la periferia; ojo blanco, indoloro, pupila normal, DPAR si es extenso.<br>• <strong>Oclusión de la arteria central:</strong> ceguera casi total en segundos, <strong>mancha rojo cereza</strong> macular y retina pálida: urgencia vascular (estudiar fuente embólica y descartar arteritis de células gigantes). <strong>Oclusión de la vena central:</strong> hemorragias en cuatro cuadrantes, edema de papila.<br>• <strong>Hemorragia vítrea:</strong> «lluvia de puntos oscuros» o bruma roja, fondo de ojo no visible; frecuente en retinopatía diabética proliferativa.<br>• <strong>Neuritis óptica</strong> (subaguda, dolor con la movilidad, discromatopsia) y <strong>glaucoma agudo</strong> (dolor, ojo rojo, halos) completan el diagnóstico diferencial.<br>Conducta común: medir agudeza visual, pupilas y fondo de ojo, <strong>mantener al paciente en reposo con cabecera elevada y derivar el mismo día</strong>. Mientras más precoz, mejor el pronóstico visual con mácula aún adherida.',
+        ],
+      },
     ],
     table: {
       title: 'Diagnóstico Diferencial Etiológico del Desprendimiento de Retina',
@@ -323,6 +329,12 @@ const bloque3 = [
           '• <strong>Garantía GES N° 23 (Retinopatía Diabética):</strong> Garantiza tamizaje, confirmación diagnóstica, fotocoagulación láser en 60 días, terapia anti-VEGF y vitrectomía en centros de especialidad.',
         ],
       },
+      {
+        subhead: '5. Hemorragia Vítrea',
+        paragraphs: [
+          'La <strong>hemorragia vítrea</strong> es la presencia de sangre en la cavidad vítrea y es la complicación habitual de la <strong>retinopatía diabética proliferativa</strong> (sangrado de neovasos frágiles), seguida del <strong>desgarro retiniano o desprendimiento de retina</strong>, la oclusión de la vena retiniana y el trauma (nivel Sospecha / tratamiento Inicial / seguimiento Derivar).<br>• <strong>Clínica:</strong> pérdida visual súbita e <strong>indolora</strong>, que va desde la aparición de «telarañas» o «lluvia de hollín» hasta visión de luz o bultos; ojo blanco, <strong>reflejo rojo disminuido o ausente</strong> y fondo de ojo inaccesible. Descartar siempre un desprendimiento de retina concomitante (ecografía B).<br>• <strong>Conducta inicial en APS:</strong> reposo relativo con la <strong>cabecera elevada a 30 a 45°</strong> (la sangre decanta y permite ver el polo posterior), suspender antiagregantes o anticoagulantes si es posible y sin riesgo vital, control de la glicemia y presión arterial, y <strong>derivación urgente</strong> a oftalmología.<br>• <strong>Tratamiento definitivo (oftalmólogo):</strong> fotocoagulación panretiniana cuando se ve la retina, <strong>inyección de anti-VEGF</strong> y <strong>vitrectomía</strong> si no se reabsorbe en 1 a 3 meses o hay desprendimiento traccional.',
+        ],
+      },
     ],
     table: {
       title: 'Diferenciación Fundamental: RD No Proliferativa vs Proliferativa',
@@ -473,6 +485,12 @@ const bloque3 = [
           '• El <strong>Grado IV define una EMERGENCIA HIPERTENSIVA (Hipertensión Acelerada o Maligna)</strong>, casi siempre con cifras tensionales > 200/120 mmHg y encefalopatía hipertensiva o insuficiencia renal aguda coexistente.<br>' +
           '• <strong>Manejo de Emergencia:</strong> Hospitalización en UCI/UTI, monitorización invasiva y tratamiento con hipotensores parenterales en infusión continua (<strong>Labetalol endovenoso</strong> o Nitroprusiato de sodio).<br>' +
           '• <strong>Regla de oro de examen:</strong> El descenso tensional debe ser <strong>GRADUAL Y CONTROLADO</strong>: reducir la Presión Arterial Media (PAM) no más de un 20% a 25% en las primeras 2 a 4 horas. NUNCA normalizar bruscamente la PA, ya que la autorregulación cerebral y del nervio óptico colapsa, provocando un infarto cerebral isquémico o una neuropatía óptica isquémica iatrogénica irreversible.',
+        ],
+      },
+      {
+        subhead: '4. Técnica de Oftalmoscopía Directa en el Paciente Hipertenso',
+        paragraphs: [
+          '<strong>Oftalmoscopía directa (procedimiento «Realizar»):</strong> en el hipertenso el fondo de ojo se realiza al diagnóstico y ante crisis hipertensiva o cefalea. La técnica es la misma que en el glaucoma (examinador a la altura del ojo, ojo derecho con ojo derecho, a 2 a 3 cm), pero con un <strong>orden de lectura orientado a los hallazgos hipertensivos</strong>:<br>1. <strong>Papila:</strong> bordes nítidos o borrados, color y hemorragias peripapilares; un <strong>edema de papila bilateral</strong> define el grado IV (emergencia hipertensiva).<br>2. <strong>Vasos:</strong> calibre arteriolar (estrechamiento focal o difuso), reflejo arteriolar («hilo de cobre» y «de plata»), <strong>cruces arteriovenosos patológicos</strong> (signos de Gunn y de Salus: indentación o deflexión de la vena).<br>3. <strong>Retina:</strong> hemorragias en llama, <strong>exudados algodonosos</strong> (infartos de fibras nerviosas) y exudados duros.<br>4. <strong>Mácula:</strong> exudados en estrella macular.<br>La pupila debe dilatarse solo si el paciente no tiene ángulo estrecho; en una emergencia hipertensiva con compromiso neurológico, el examen pupilar debe preservarse, por lo que se prefiere mirar sin dilatar.',
         ],
       },
     ],

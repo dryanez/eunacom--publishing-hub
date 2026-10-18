@@ -178,6 +178,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: "Precoz y tardía",
+      images: [
+        { src: 'animaciones/ped-19/A1_sepsis_72_horas.mp4', label: "El corte de las setenta y dos horas", credit: "Animación propia" },
+      ],
+      steps: [
+        { note: "Antes o después de las 72 horas",
+          say: "Mira el corte a las setenta y dos horas. A la izquierda, la sepsis precoz: viene de la madre, con rotura de membranas de más de dieciocho horas, corioamnionitis o estreptococo B sin profilaxis, y el bebé se contamina en el parto: estreptococo B y E. coli. A la derecha, la tardía: nosocomial, con estafilococo coagulasa negativo. Y la clínica es sutil: hipotermia más que fiebre, apneas y mala succión." },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora pongamos las setenta y dos horas y los dos esquemas en un solo árbol de decisión.',
     },

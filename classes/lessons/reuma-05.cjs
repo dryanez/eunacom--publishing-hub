@@ -60,7 +60,8 @@ module.exports = {
         ] },
         { title: 'Forma Sistémica (Still)', tag: 'Enfermedad de Still infantil', kind: 'key', items: [
           { t: 'Fiebre cotidiana y rash salmón', d: 'Maculopápulas evanescentes con la fiebre',
-            say: 'La forma sistémica o enfermedad de Still infantil se presenta con fiebre en agujas cotidiana, rash evanescente de color salmón que brota con la fiebre y desaparece al bajar la temperatura.' },
+            say: 'La forma sistémica o enfermedad de Still infantil se presenta con fiebre en agujas cotidiana, rash evanescente de color salmón que brota con la fiebre y desaparece al bajar la temperatura. Mira esta piel: pequeñas manchas rosadas color salmón, que es el exantema de Still.',
+          photo: { src: 'biblioteca/08_reumatologia/reuma-05/01_exantema-asalmonado-still__amir-reuma_p57.jpg', label: 'Exantema asalmonado', at: 'Mira esta piel', credit: 'Manual AMIR Reumatología, p. 57' } },
           { t: 'Hepatoesplenomegalia y ferritina', d: 'Inflamación sistémica severa',
             say: 'Se acompaña de adenopatías, hepatoesplenomegalia, serositis e hiperferritinemia extrema.' },
         ] },
@@ -92,7 +93,8 @@ module.exports = {
         { show: ['lam'], note: 'Tamizaje obligatorio',
           say: 'Por eso la regla de oro en el EUNACOM es enviar a todo paciente con AIJ oligoarticular a evaluación oftalmológica periódica con lámpara de hendidura cada tres meses.' },
         { show: ['ceg'], note: 'Prevención del daño',
-          say: 'Si no se pesquisa a tiempo, la inflamación genera sinequias posteriores, catarata, glaucoma y ceguera permanente.' },
+          say: 'Si no se pesquisa a tiempo, la inflamación genera sinequias posteriores, catarata, glaucoma y ceguera permanente. Mira este ojo: la pupila quedó irregular por las sinequias, y el cristalino opaco por la catarata.',
+          photo: { src: 'biblioteca/09_reumatologia/reuma-05/atlas_215_uveitis_anterior_cronica_de_la.jpg', label: 'Uveítis crónica de la AIJ', at: 'Mira este ojo', credit: 'Atlas EUNACOM 2026' } },
       ],
     },
 
@@ -151,15 +153,61 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Poliartritis del adulto',
+      title: 'Enfrentamiento de la poliartritis: primeros pasos',
+      cards: [
+        { title: 'Primero, la duración', tag: 'Cinco o más articulaciones', kind: 'key', items: [
+          { t: 'Aguda: menos de 6 semanas', d: 'Piensa en virus: parvovirus, hepatitis, rubéola',
+            say: 'Con cinco o más articulaciones inflamadas, lo primero es la duración. Aguda es menos de seis semanas, y crónica seis semanas o más. Se descartan causas infecciosas y de cristales. Una poliartritis aguda, simétrica y que se resuelve sola obliga a pensar en un virus: parvovirus B diecinueve, hepatitis B y C, rubéola, chikungunya o VIH.' },
+          { t: 'También endocarditis y paraneoplásica', d: 'Soplo, sarcoidosis, cáncer',
+            say: 'Y no olvides la endocarditis, que se sospecha por un soplo, la sarcoidosis y las poliartritis paraneoplásicas.' },
+        ] },
+        { title: 'Estudio inicial', tag: 'Antes de dar prednisona', kind: 'criteria', items: [
+          { t: 'Hemograma, VHS, PCR, orina, función renal y hepática', d: 'Más ácido úrico',
+            say: 'El estudio inicial incluye hemograma, velocidad de sedimentación, proteína C reactiva, función renal y hepática, orina completa y ácido úrico.' },
+          { t: 'FR, anti-CCP, ANA, serologías y radiografía', d: 'Manos y pies',
+            say: 'Se agregan factor reumatoide, anti-CCP, anticuerpos antinucleares, serologías virales según el contexto y radiografía de manos y pies.' },
+        ] },
+        { title: 'Manejo en atención primaria', tag: 'Y cuándo derivar', kind: 'alert', items: [
+          { t: 'Analgesia y AINEs', d: 'Prednisona en dosis bajas, tras tomar los exámenes',
+            say: 'En atención primaria se da analgesia y antiinflamatorios, y se puede agregar prednisona en dosis bajas, pero solo después de tomar los exámenes.' },
+          { t: 'Derivar si pasa de 6 semanas', d: 'O hay compromiso sistémico o sospecha autoinmune',
+            say: 'Se deriva a reumatología si la poliartritis persiste más de seis semanas, si hay compromiso sistémico o si se sospecha una enfermedad autoinmune, porque el pronóstico de la artritis reumatoide depende de partir el tratamiento en los primeros meses.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'table',
+      kicker: 'Poliartritis del adulto',
+      title: 'Reconocer el patrón de la poliartritis',
+      head: ['Patrón', 'Orienta a', 'Examen guía'],
+      rows: [
+        { cells: ['Simétrica de manos y pies, rigidez mayor de 1 hora', 'Artritis reumatoide', 'FR y anti-CCP'],
+          say: 'Luego se reconoce el patrón. Simétrica de manos y pies, con rigidez matinal de más de una hora: artritis reumatoide, y se piden factor reumatoide y anti-CCP.' },
+        { cells: ['Interfalángicas distales, dactilitis o psoriasis', 'Artritis psoriásica', 'Piel, uñas y radiografía'],
+          say: 'Interfalángicas distales, dactilitis o psoriasis: artritis psoriásica.' },
+        { cells: ['Asimétrica de piernas, entesitis, lumbago inflamatorio, diarrea o uretritis', 'Espondiloartritis o reactiva', 'HLA-B27 y radiografía'],
+          say: 'Asimétrica de las piernas, con entesitis, lumbago inflamatorio o una diarrea o uretritis previa: espondiloartritis o artritis reactiva.' },
+        { cells: ['Rash fotosensible, aftas, citopenias o proteinuria', 'Lupus', 'ANA y anti-dsDNA'],
+          say: 'Rash fotosensible, aftas, citopenias o proteinuria: lupus, con anticuerpos antinucleares y anti-ADN de doble hebra.' },
+        { cells: ['Fiebre en agujas y exantema evanescente', 'Enfermedad de Still', 'Ferritina y criterios de Yamaguchi'],
+          say: 'Y fiebre en agujas con un exantema que va y viene: enfermedad de Still, que es la que vimos en esta clase.' },
+      ],
+    },
+
+    {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Enfermedad de Still',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Fiebre en agujas',
       images: [
-        { src: 'biblioteca/08_reumatologia/reuma-05/01_exantema-asalmonado-still__amir-reuma_p57.jpg', label: 'Exantema asalmonado', credit: 'Manual AMIR Reumatología, p. 57' },
+        { src: 'animaciones/reuma-05/A1_fiebre_agujas.mp4', label: 'Temperatura de la enfermedad de Still', credit: 'Animación propia' },
       ],
       steps: [
-        { note: 'Aparece con la fiebre',
-          say: 'El exantema asalmonado, rosado y evanescente, aparece con los peaks de fiebre. Es un criterio de Yamaguchi.' },
+        { note: 'Fiebre en agujas y exantema',
+          say: 'Fíjate en la curva de temperatura. La fiebre sube a treinta y nueve grados o más una o dos veces al día, en agujas, y vuelve a lo normal entre un pico y otro. Con cada pico aparece el exantema color salmón, y se va cuando baja la fiebre. Fiebre en agujas, exantema evanescente y ferritina muy alta: enfermedad de Still. Si además caen las plaquetas y la velocidad de sedimentación, piensa en el síndrome de activación macrofágica.' },
       ],
     },
 
@@ -254,6 +302,44 @@ module.exports = {
         options: 'Las opciones: corticoides orales, corticoides con ciclosporina, metotrexato semanal, inmunoglobulina endovenosa, o antiinflamatorios no esteroidales orales. Piénsalo.',
         answer: 'La respuesta correcta es la E. Frente a una artritis idiopática juvenil, el primer escalón terapéutico para aliviar el dolor y la inflamación son los antiinflamatorios no esteroidales orales en dosis plenas. Los corticoides sistémicos y los fármacos modificadores como el metotrexato se reservan para cuando los antiinflamatorios fracasan o si existe compromiso sistémico grave amenazante.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.11.1.019 · Poliartritis",
+      "stem": "Mujer de 32 años, educadora de párvulos, consulta por dolor y aumento de volumen simétrico de muñecas y articulaciones metacarpofalángicas e interfalángicas proximales de ambas manos, de 6 días de evolución, con rigidez matinal y un rash reticular leve en los muslos. Dos semanas antes, varios niños de su sala tuvieron fiebre y las mejillas muy rojas.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar metotrexato semanal por sospecha de artritis reumatoide"
+        },
+        {
+          "letter": "B",
+          "text": "AINEs y control clínico, porque probablemente es una poliartritis viral por parvovirus B19 que se autolimita"
+        },
+        {
+          "letter": "C",
+          "text": "Prednisona 1 mg/kg/día"
+        },
+        {
+          "letter": "D",
+          "text": "Cloxacilina endovenosa"
+        },
+        {
+          "letter": "E",
+          "text": "Alopurinol oral"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Una poliartritis simétrica aguda, de menos de 6 semanas, tras contacto con niños con eritema infeccioso, orienta a parvovirus B19, que suele autolimitarse en semanas. Se maneja con AINEs y observación; la IgM para parvovirus confirma. Iniciar metotrexato es prematuro: antes de 6 semanas una poliartritis puede ser viral y transitoria.",
+      "say": {
+        "stem": "Mujer de treinta y dos años, educadora de párvulos, con seis días de artritis simétrica de muñecas y manos, y un rash reticular leve. Dos semanas antes varios niños de su sala tuvieron fiebre y las mejillas muy rojas.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: metotrexato por sospecha de artritis reumatoide, antiinflamatorios y control por probable parvovirus, prednisona en dosis altas, cloxacilina endovenosa, o alopurinol. Piénsalo.",
+        "answer": "Es la B. Una poliartritis de seis días, tras contacto con niños con mejillas abofeteadas, es una artritis por parvovirus que se autolimita en semanas. El metotrexato tienta porque el patrón se parece a una artritis reumatoide, pero con menos de seis semanas primero hay que pensar en una causa viral."
+      }
     },
 
     {

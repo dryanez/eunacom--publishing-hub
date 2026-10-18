@@ -30,9 +30,11 @@ module.exports = {
       ],
       steps: [
         { show: ["frio", "blan"], note: "Fase de palidez por vasoespasmo",
-          say: "El cuadro inicia ante la exposición al frío ambiental o situaciones de estrés emocional. Se produce un vasoespasmo súbito e intenso de las arterias digitales terminales, provocando una palidez cérea completa de los dedos que se tornan fríos e insensibles." },
+          say: "El cuadro inicia ante la exposición al frío ambiental o situaciones de estrés emocional. Se produce un vasoespasmo súbito e intenso de las arterias digitales terminales, provocando una palidez cérea completa de los dedos que se tornan fríos e insensibles. Mira estas manos: los dedos quedan blancos, con un corte neto en la base.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-14/01_raynaud-palidez-cianosis_alt1_1__cto-reuma_p91.jpg', label: 'Fase blanca', at: 'Mira estas manos', credit: 'Manual CTO Reumatología 14.ª ed., p. 91' } },
         { show: ["azul"], note: "Fase de cianosis por hipoxia local",
-          say: "A los pocos minutos, la sangre atrapada en los capilares y vénulas se desoxigena progresivamente por la extracción tisular residual. Los dedos adquieren entonces una coloración azulada o violácea característica acompañada de parestesias y dolor sordo." },
+          say: "A los pocos minutos, la sangre atrapada en los capilares y vénulas se desoxigena progresivamente por la extracción tisular residual. Los dedos adquieren entonces una coloración azulada o violácea característica acompañada de parestesias y dolor sordo. Aquí, en la misma mano, la palidez y después el color azulado de los dedos.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-14/01_raynaud-palidez-cianosis__amir-reuma_p98.jpg', label: 'Blanco y azul', at: 'Aquí, en la misma mano', credit: 'Manual AMIR Reumatología, p. 98' } },
         { show: ["rojo"], note: "Fase de rubor por hiperemia reactiva",
           say: "Al volver a una temperatura cálida, el espasmo cede y se produce una apertura vascular reactiva masiva. La hiperemia de reperfusión tiñe los dedos de rojo intenso, causando sensación pulsátil, calor y dolor urente antes de normalizarse por completo." },
       ],
@@ -95,9 +97,38 @@ module.exports = {
       ],
       steps: [
         { show: ["inm", "nor"], note: "Capilaroscopía normal en Raynaud primario",
-          say: "La capilaroscopía periungueal evalúa las asas capilares del lecho de la uña con aumento óptico. En el Raynaud primario se observan asas capilares delgadas, en forma de horquilla regular, perfectamente distribuidas en empalizada y sin pérdida de densidad." },
+          say: "La capilaroscopía periungueal evalúa las asas capilares del lecho de la uña con aumento óptico. En el Raynaud primario se observan asas capilares delgadas, en forma de horquilla regular, perfectamente distribuidas en empalizada y sin pérdida de densidad. En este panel, la imagen de arriba a la izquierda es la normal: asas parejas, en horquilla.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-14/02_capilaroscopia_alt1__cto-reuma_p94.jpg', label: 'Capilares en cuatro etapas', at: 'En este panel', credit: 'Manual CTO Reumatología 14.ª ed., p. 94' } },
         { show: ["pat", "evo"], note: "Patrón esclerodérmico en Raynaud secundario",
-          say: "En el Raynaud secundario a esclerosis sistémica aparecen dilataciones gigantes llamadas megacapilares, microhemorragias en gota y una progresiva desertificación o pérdida de capilares con extensas áreas avasculares de alto riesgo isquémico." },
+          say: "En el Raynaud secundario a esclerosis sistémica aparecen dilataciones gigantes llamadas megacapilares, microhemorragias en gota y una progresiva desertificación o pérdida de capilares con extensas áreas avasculares de alto riesgo isquémico. Mira esta imagen: los capilares gigantes y la mancha oscura de una microhemorragia.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-14/02_capilaroscopia__amir-reuma_p100.jpg', label: 'Megacapilares', at: 'Mira esta imagen', credit: 'Manual AMIR Reumatología, p. 100' } },
+      ],
+    },
+
+    {
+      type: "points",
+      kicker: "Sospecha de esclerosis sistémica",
+      title: "Cuándo un Raynaud esconde una esclerosis sistémica",
+      cards: [
+        { title: "Banderas del Raynaud", tag: "Sospecha diagnóstica", kind: "alert", items: [
+          { t: "Inicio sobre los 30, asimétrico, intenso", d: "Con úlceras o necrosis digital",
+            say: "Se sospecha esclerosis sistémica en un Raynaud que empieza después de los treinta años, asimétrico, intenso, con úlceras o necrosis digitales. Mira esta mano: así se ven las puntas de los dedos cuando la isquemia ya dejó daño.",
+          photo: { src: 'biblioteca/09_reumatologia/reuma-12/atlas_046_ulceras_digitales_de_pulpejos_.jpg', label: 'Necrosis de pulpejos', at: 'Mira esta mano', credit: 'Atlas EUNACOM 2026' } },
+          { t: "Dedos tumefactos, telangiectasias, reflujo, disnea", d: "ANA nucleolar o anticentrómero; capilaroscopía anormal",
+            say: "También manos edematosas, engrosamiento de la piel de los dedos, telangiectasias, reflujo, disnea o anticuerpos antinucleares positivos, de patrón nucleolar o anticentrómero, o una capilaroscopía con megacapilares y áreas avasculares." },
+        ] },
+        { title: "Criterios ACR EULAR 2013", tag: "Un puntaje", kind: "criteria", items: [
+          { t: "Engrosamiento sobre las MCF: 9 puntos", d: "Basta por sí solo",
+            say: "Los criterios de clasificación de dos mil trece asignan puntaje. El engrosamiento de la piel de los dedos de ambas manos, que se extiende más allá de las metacarpofalángicas, vale nueve puntos y basta por sí solo." },
+          { t: "El resto suma, y 9 o más clasifica", d: "Dedos, pulpejos, telangiectasias, capilares, pulmón, Raynaud, anticuerpos",
+            say: "El resto suma: dedos hinchados o esclerodactilia, de dos a cuatro puntos; úlceras en los pulpejos, dos, y cicatrices, tres; telangiectasias, dos; capilaroscopía anormal, dos; hipertensión pulmonar o enfermedad intersticial, dos; Raynaud, tres; y anticuerpos específicos, tres. Nueve o más puntos clasifica como esclerosis sistémica." },
+        ] },
+        { title: "Conducta en atención primaria", tag: "Inicial", kind: "key", items: [
+          { t: "ANA, hemograma, creatinina, orina, Rx de tórax", d: "Más capilaroscopía",
+            say: "La conducta inicial es pedir anticuerpos antinucleares, hemograma, creatinina, orina, radiografía de tórax y capilaroscopía." },
+          { t: "Abrigo, calcioantagonista y derivar", d: "A reumatología",
+            say: "Se inician las medidas contra el frío y un bloqueador de calcio, y se deriva a reumatología. Y en las formas graves con úlceras isquémicas activas, se usan sildenafilo, iloprost endovenoso o bosentán." },
+        ] },
       ],
     },
 
@@ -174,37 +205,6 @@ module.exports = {
       steps: [
         { note: 'Primario o secundario',
           say: 'Con el frío, el vasoespasmo deja los dedos blancos. La sangre atrapada se desoxigena y se ponen azules. Al recalentarse, la hiperemia de reperfusión los tiñe de rojo. El primario es de mujeres jóvenes, simétrico y sin úlceras; el secundario aparece después de los treinta, asimétrico, con úlceras y capilares dilatados o perdidos. La causa autoinmune más frecuente es la esclerosis sistémica.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Fenómeno de Raynaud',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-14/01_raynaud-palidez-cianosis__amir-reuma_p98.jpg', label: 'Raynaud', credit: 'Manual AMIR Reumatología, p. 98' },
-        { src: 'biblioteca/08_reumatologia/reuma-14/02_capilaroscopia_alt1__cto-reuma_p94.jpg', label: 'Capilaroscopía: normal y alterada', credit: 'Manual CTO Reumatología 14.ª ed., p. 94' },
-      ],
-      steps: [
-        { note: 'Palidez, cianosis y rubor',
-          say: 'En el Raynaud los dedos se ponen blancos, luego azules y luego rojos con el frío.' },
-        { note: 'Capilares alterados = secundario',
-          say: 'La capilaroscopía separa: arriba a la izquierda, capilares normales, finos y ordenados, como en el primario. En los otros paneles se ven dilatados y luego perdidos, como en el secundario a una enfermedad del tejido conectivo.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Capilares dilatados',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-14/02_capilaroscopia__amir-reuma_p100.jpg', label: 'Capilaroscopía: capilares dilatados', credit: 'Manual AMIR Reumatología, p. 100' },
-      ],
-      steps: [
-        { note: 'Asas gigantes = secundario',
-          say: 'Y aquí, a mayor aumento, capilares muy dilatados. Ese hallazgo apunta a un Raynaud secundario a una enfermedad del tejido conectivo.' },
       ],
     },
 

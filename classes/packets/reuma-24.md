@@ -260,24 +260,24 @@ Un paciente de 50 años, con antecedente de diabetes mellitus, en tratamiento co
 Explicación del banco: Conducta / Tratamiento indicado: **Hidroclorotiazida** (opción **C**). La nefropatía diabética es la primera causa de enfermedad renal terminal en Chile De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad.
 
 ### [6] EUNACOM Diciembre 2025 · Pregunta 143 · confianza 0.95
-¿A qué concepto corresponde la siguiente deﬁnición: “Conjunto de medidas des8nadas a evitar que una enfermedad ocurra, actuando antes de que exista la enfermedad o el daño causado por esta”?
+¿A qué concepto corresponde la siguiente definición: “Conjunto de medidas destinadas a evitar que una enfermedad ocurra, actuando antes de que exista la enfermedad o el daño causado por esta”?
 - A) Prevención primaria
 - B) Prevención secundaria
 - C) Prevención terciaria
 - D) Prevención cuaternaria
 - E) Promoción de la salud
 **Correcta: A**
-Explicación del banco: Prevención primaria actúa antes de que exista la enfermedad (ej. vacunas con papiloma). Prevención secundaria actúa cuando ya existe la enfermedad, pero todavía no hay síntomas, permiGendo un diagnóstico oportuno (ej. PAP). Prevención terciaria actúa cuando la enfermedad ya Gene síntomas, para recuperar la salud y evitar complicaciones y recidivas (ej. histerectomía radical). Prevención cuaternaria enfrenta los síntomas, en ausencia de una patología orgánica (ej. psicoterapia de trastorno somatomorfo). Promoción de la salud consiste en enseñar hábitos de vida saludables, por lo que se enmarca dentro de la prevención primaria, pero su deﬁnición es especíﬁca.
+Explicación del banco: Prevención primaria actúa antes de que exista la enfermedad (ej. vacunas con papiloma). Prevención secundaria actúa cuando ya existe la enfermedad, pero todavía no hay síntomas, permitiendo un diagnóstico oportuno (ej. PAP). Prevención terciaria actúa cuando la enfermedad ya Gene síntomas, para recuperar la salud y evitar complicaciones y recidivas (ej. histerectomía radical). Prevención cuaternaria enfrenta los síntomas, en ausencia de una patología orgánica (ej. psicoterapia de trastorno somatomorfo). Promoción de la salud consiste en enseñar hábitos de vida saludables, por lo que se enmarca dentro de la prevención primaria, pero su definición es específica.
 
 ### [7] EUNACOM Diciembre 2025 · Pregunta 35 · confianza 0.95
-Un paciente de 23 años sufre una caída mientras jugaba fútbol, cayendo con el hombro derecho contra el piso y resultando en una luxación anterior de hombro derecho, la cual es conﬁrmada con radiograFas de hombro, las cuales descartan la presencia de fracturas. ¿Qué evaluación debe realizarse obligatoriamente en el examen Fsico antes de proceder con las maniobras de reducción?
+Un paciente de 23 años sufre una caída mientras jugaba fútbol, cayendo con el hombro derecho contra el piso y resultando en una luxación anterior de hombro derecho, la cual es confirmada con radiografías de hombro, las cuales descartan la presencia de fracturas. ¿Qué evaluación debe realizarse obligatoriamente en el examen físico antes de proceder con las maniobras de reducción?
 - A) Buscar presencia de equimosis
 - B) Buscar deformación en “charretera”
 - C) Explorar la sensibilidad de la zona deltoidea
 - D) Evaluar la impotencia funcional
 - E) Evaluar crépito óseo
 **Correcta: C**
-Explicación del banco: La luxación anterior se asocia a lesión del nervio axilar o circunﬂejo, que inerva al deltoides (abducción del hombro) y la sensibilidad en la zona deltoidea. Se debe consignar su alteración antes de la reducción, para que no se culpe luego al médico de haberla causado durante la reducción. Las demás opciones ya han sido evaluadas mediante la clínica (la luxación Gene hombro “en charretera”, impotencia funcional) y la radiografía.
+Explicación del banco: La luxación anterior se asocia a lesión del nervio axilar o circunflejo, que inerva al deltoides (abducción del hombro) y la sensibilidad en la zona deltoidea. Se debe consignar su alteración antes de la reducción, para que no se culpe luego al médico de haberla causado durante la reducción. Las demás opciones ya han sido evaluadas mediante la clínica (la luxación Gene hombro “en charretera”, impotencia funcional) y la radiografía.
 
 ### [8] EUNACOM Julio 2024 · Pregunta 127 · confianza 0.95
 Un paciente de 32 años consulta por la idea recurrente de que debe limpiar sus utensilios de alimentación para evitar adquirir una infección intestinal. Refiere que se cepilla los dientes durante 15 minutos y luego se enjuaga la boca por 10 minutos más. Reconoce que a veces quiere dejar de hacerlo, pero no puede evitarlo. Como antecedente, sufrió de leucemia aguda a los 7 años, siendo manejado con quimioterapia y logrando la curación de la enfermedad. ¿Cuál es el diagnóstico más probable?
@@ -340,27 +340,27 @@ Una paciente se realiza un legrado por un aborto espontáneo. La biopsia es info
 Explicación del banco: Ante un embarazo molar se debe seguir con HCG, después de sacarla. Si se eleva o mantiene sin bajar, se diagnostica neoplasia trofoblástica gestacional y se procede a la histerectomía más quimioterapia con metotrexato. Una HCG de 750 postlegrado, es bastante baja.
 
 ### [14] EUNACOM Diciembre 2025 · Pregunta 46 · confianza 0.9
-Una paciente de 55 años, con menopausia a los 51 años y usuaria de estrógenos transdérmicos como terapia de reemplazo hormonal, consulta por sangrado genital de 5 días de evolución. Al examen Fsico, sus signos vitales son normales y la especuloscopía no muestra metrorragia ac8va ni lesiones del cuello uterino. ¿Cuál es la conducta más adecuada?
+Una paciente de 55 años, con menopausia a los 51 años y usuaria de estrógenos transdérmicos como terapia de reemplazo hormonal, consulta por sangrado genital de 5 días de evolución. Al examen físico, sus signos vitales son normales y la especuloscopía no muestra metrorragia activa ni lesiones del cuello uterino. ¿Cuál es la conducta más adecuada?
 - A) Realizar histerectomía
 - B) Aumentar la dosis de estrógenos
 - C) Iniciar an2concep2vos orales
 - D) Solicitar biopsia de endometrio
 - E) Indicar ácido tranexámico vía oral
 **Correcta: D**
-Explicación del banco: Toda metrorragia postmenopáusica se debe estudiar. Existen dos opciones de estudio: 1. Ecografía transvaginal (el más usado) y 2. Directamente la biopsia endometrial (BEM), que habitualmente se hace por técnicas poco invasivas, como la Pipelle. En el caso de que se uGlice la ecografía, se ve el grosor del endometrio, si es menor a 5 mm, se asume que era atroﬁa vaginal y se observa. Si es de 5 mm o más, se biopsia. En caso de que esté con terapia de reemplazo hormonal (TRH), se biopsia desde 8 mm. Si se solicita una ecografía por otro motivo, en una paciente postmenopáusica sin metrorragia, también se biopsia desde los 11 mm. En resumen, las indicaciones de BEM en la postmenopausia: 1. Cualquier metrorragia (aceptable, sin EcoTV). 2. Metrorragia + EcoTV con EM > 4-5 mm (≥ 8 mm si TRH). 3. Asintomática + EcoTV con EM ≥ 11 mm
+Explicación del banco: Toda metrorragia postmenopáusica se debe estudiar. Existen dos opciones de estudio: 1. Ecografía transvaginal (el más usado) y 2. Directamente la biopsia endometrial (BEM), que habitualmente se hace por técnicas poco invasivas, como la Pipelle. En el caso de que se utilice la ecografía, se ve el grosor del endometrio, si es menor a 5 mm, se asume que era atrofia vaginal y se observa. Si es de 5 mm o más, se biopsia. En caso de que esté con terapia de reemplazo hormonal (TRH), se biopsia desde 8 mm. Si se solicita una ecografía por otro motivo, en una paciente postmenopáusica sin metrorragia, también se biopsia desde los 11 mm. En resumen, las indicaciones de BEM en la postmenopausia: 1. Cualquier metrorragia (aceptable, sin EcoTV). 2. Metrorragia + EcoTV con EM > 4-5 mm (≥ 8 mm si TRH). 3. Asintomática + EcoTV con EM ≥ 11 mm
 
 ### [15] EUNACOM Diciembre 2025 · Pregunta 43 · confianza 0.9
-Una paciente de 56 años, usuaria de terapia de reemplazo hormonal y sin síntomas ginecológicos, se realiza una ecograFa abdominal durante el estudio de un cuadro cons8pación crónica. En dicho examen se detecta un mioma uterino subseroso de 32 × 35 mm, FIGO 6. ¿Cuál es la conducta más adecuada?
+Una paciente de 56 años, usuaria de terapia de reemplazo hormonal y sin síntomas ginecológicos, se realiza una ecografía abdominal durante el estudio de un cuadro constipación crónica. En dicho examen se detecta un mioma uterino subseroso de 32 × 35 mm, FIGO 6. ¿Cuál es la conducta más adecuada?
 - A) Realizar laparoscopía
 - B) Suspender la terapia de reemplazo hormonal
 - C) Iniciar an2concep2vos orales
 - D) Realizar histerectomía
-- E) Realizar control ecográﬁco en 6 meses
+- E) Realizar control ecográfico en 6 meses
 **Correcta: E**
-Explicación del banco: Los miomas asintomáticos se observan, sin importar su clasiﬁcación. Por cultura general, la clasiﬁcación FIGO va del 1 al 8 y se reﬁere a la ubicación, en relación a la pared. Mientras más bajo, más hacia submucoso (hacia la cavidad uterina) y mientras más alto, más subseroso (hacia afuera). FIGO 4 es intramural puro y FIGO 6 es subseroso, con un componente intramural.
+Explicación del banco: Los miomas asintomáticos se observan, sin importar su clasificación. Por cultura general, la clasificación FIGO va del 1 al 8 y se refiere a la ubicación, en relación a la pared. Mientras más bajo, más hacia submucoso (hacia la cavidad uterina) y mientras más alto, más subseroso (hacia afuera). FIGO 4 es intramural puro y FIGO 6 es subseroso, con un componente intramural.
 
 ### [16] EUNACOM Diciembre 2025 · Pregunta 162 · confianza 0.9
-Una paciente de 53 años acude a control ginecológico. Tuvo su menopausia a los 51 años y está en terapia de reemplazo hormonal, con estrógeno y progestágeno por vía oral, como tratamiento de los síntomas vasomotores del climaterio. Su examen ginecológico es normal, al igual que su mamograFa y PAP. Además, se solicita una ecograFa transvaginal, cuya imagen se presenta a con8nuación: ¿Cuál es la conducta más adecuada?
+Una paciente de 53 años acude a control ginecológico. Tuvo su menopausia a los 51 años y está en terapia de reemplazo hormonal, con estrógeno y progestágeno por vía oral, como tratamiento de los síntomas vasomotores del climaterio. Su examen ginecológico es normal, al igual que su mamografía y PAP. Además, se solicita una ecografía transvaginal, cuya imagen se presenta a continuación: ¿Cuál es la conducta más adecuada?
 - A) Realizar biopsia endometrial
 - B) Controlar con ecogra:a en 6 meses
 - C) Suspender la terapia de reemplazo hormonal
@@ -400,14 +400,14 @@ Mujer de 55 años con DM2 en tratamiento con metformina, requiere corticoterapia
 Explicación del banco: Corticoides causan hiperglicemia postprandial marcada por resistencia a la insulina. La insulina es el tratamiento de elección en este contexto (flexibilidad de ajuste, control rápido). Los hipoglicemiantes orales no dan el control necesario con dosis altas de corticoides.
 
 ### [20] EUNACOM Diciembre 2025 · Pregunta 20 · confianza 0.9
-Un paciente de 55 años, diagnos8cado con un linfoma no Hodgkin con múl8ples masas medias`nicas y abdominales de gran tamaño, de hasta 25 cm, inicia quimioterapia endovenosa. Al tercer día evoluciona con malestar general marcado, obnubilación y disnea. Al examen Fsico, se aprecia desorientado en el 8empo y el espacio, en malas condiciones generales y se solicitan exámenes de laboratorio, entre los que destacan ácido úrico: 13 mg/dL, sodio: 140 mEq/L, potasio: 5,9 mEq/L, fósforo: 6,5 mg/dl, crea8nina plasmá8ca: 2,1 mg/dl y hematocrito 22%. ¿Cuál es el diagnós8co más probable?
+Un paciente de 55 años, diagnosticado con un linfoma no Hodgkin con múltiples masas medias`nicas y abdominales de gran tamaño, de hasta 25 cm, inicia quimioterapia endovenosa. Al tercer día evoluciona con malestar general marcado, obnubilación y disnea. Al examen físico, se aprecia desorientado en el tiempo y el espacio, en malas condiciones generales y se solicitan exámenes de laboratorio, entre los que destacan ácido úrico: 13 mg/dL, sodio: 140 mEq/L, potasio: 5,9 mEq/L, fósforo: 6,5 mg/dl, creatinina plasmática: 2,1 mg/dl y hematocrito 22%. ¿Cuál es el diagnóstico más probable?
 - A) Hipercalcemia maligna
 - B) Metástasis cerebrales
 - C) Síndrome de vena cava superior
 - D) Síndrome de compresión medular
 - E) Síndrome de lisis tumoral
 **Correcta: E**
-Explicación del banco: Es un síndrome de lisis tumoral clásico, con rotura celular masiva, que se reﬂeja en hiperuricemia, hiperkalemia, hiperfosfemia, hipocalcemia, acidosis, falla renal, compromiso de conciencia, compromiso hemodinámico. Se trata con hidratación, hipouricemiantes (ej. alopurinol) y manejo de los electrolitos según las alteraciones (ej. Bicarbonato, calcio, furosemida, insulina más glucosa, resinas de intercambio como el sulfonato de poliestireno, etc.).
+Explicación del banco: Es un síndrome de lisis tumoral clásico, con rotura celular masiva, que se refleja en hiperuricemia, hiperkalemia, hiperfosfemia, hipocalcemia, acidosis, falla renal, compromiso de conciencia, compromiso hemodinámico. Se trata con hidratación, hipouricemiantes (ej. alopurinol) y manejo de los electrolitos según las alteraciones (ej. Bicarbonato, calcio, furosemida, insulina más glucosa, resinas de intercambio como el sulfonato de poliestireno, etc.).
 
 ### [21] EUNACOM Julio 2025 · Pregunta 63 · confianza 0.9
 Paciente con linfoma en quimioterapia. Post primer ciclo presenta hiperuricemia, hiperkalemia, hiperfosfatemia e hipocalcemia. Creatinina en ascenso. ¿Cuál es el diagnóstico?
@@ -420,8 +420,8 @@ Paciente con linfoma en quimioterapia. Post primer ciclo presenta hiperuricemia,
 Explicación del banco: Post quimioterapia: hiperuricemia + hiperkalemia + hiperfosfatemia + hipocalcemia + IRA = síndrome de lisis tumoral. Ocurre por destrucción masiva de células tumorales que liberan su contenido.
 
 ### [22] EUNACOM Diciembre 2025 · Pregunta 73 · confianza 0.9
-Una paciente de 35 años es traída al servicio de urgencia debido a que, luego del consumo de alcohol en una ﬁesta, presentó una ac8tud agresiva peleando con otros invitados, a quienes arrojó vasos de vidrio, por lo que fue re8rada del lugar. Reﬁere que consume alcohol de manera esporádica, habitualmente solo durante los ﬁnes de semana, y que lo hace como una forma de distenderse de su alta carga laboral. En una oportunidad fue detenida por manejar en estado de ebriedad, sin embargo, ella no considera que ello sea un problema. ¿Cuál es la conducta más adecuada?
-- A) Iniciar disulﬁram vía oral
+Una paciente de 35 años es traída al servicio de urgencia debido a que, luego del consumo de alcohol en una fiesta, presentó una actitud agresiva peleando con otros invitados, a quienes arrojó vasos de vidrio, por lo que fue retirada del lugar. Refiere que consume alcohol de manera esporádica, habitualmente solo durante los fines de semana, y que lo hace como una forma de distenderse de su alta carga laboral. En una oportunidad fue detenida por manejar en estado de ebriedad, sin embargo, ella no considera que ello sea un problema. ¿Cuál es la conducta más adecuada?
+- A) Iniciar disulfiram vía oral
 - B) Indicar benzodiacepinas vía oral
 - C) Iniciar bupropión vía oral
 - D) Realizar entrevista mo2vacional
@@ -430,7 +430,7 @@ Una paciente de 35 años es traída al servicio de urgencia debido a que, luego 
 Explicación del banco: Presenta un consumo perjudicial de alcohol con escasa conciencia de enfermedad (etapa precontemplativa), por lo que primero se debe trabajar la motivación al cambio. De nada sirve iniciar fármacos o derivar a psicoterapia, si no Gene intenciones de cambiar.
 
 ### [23] EUNACOM Diciembre 2025 · Pregunta 138 · confianza 0.9
-Un paciente de 21 años sufre accidente en esquí con caída y torsión del tobillo derecho, evolucionando con dolor e impotencia funcional. Se solicita radiograFa de tobillo que se muestra a con8nuación: ¿Cuál es la conducta inicial más adecuada?
+Un paciente de 21 años sufre accidente en esquí con caída y torsión del tobillo derecho, evolucionando con dolor e impotencia funcional. Se solicita radiografía de tobillo que se muestra a continuación: ¿Cuál es la conducta inicial más adecuada?
 - A) Reposo con extremidad en elevación
 - B) Reducción cerrada e inmovilización con valva de yeso
 - C) Analgésicos y apoyo progresivo con mínima carga

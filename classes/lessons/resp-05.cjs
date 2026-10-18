@@ -259,6 +259,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Cor pulmonale',
+      title: 'La exacerbación que descompensa al ventrículo derecho',
+      cards: [
+        { title: 'Cómo se presenta', tag: 'EPOC avanzado', kind: 'key', items: [
+          { t: 'Hipoxemia y acidosis suben la presión pulmonar', d: 'Descompensan el corazón pulmonar crónico',
+            say: 'En la exacerbación del EPOC avanzado, la hipoxemia y la acidosis elevan aún más la presión de la arteria pulmonar, y pueden descompensar un corazón pulmonar crónico.' },
+          { t: 'Edema, yugulares, hígado doloroso, peso', d: 'Congestión derecha',
+            say: 'El paciente llega con edema de las piernas, yugulares ingurgitadas, hepatomegalia dolorosa y aumento de peso.' },
+        ] },
+        { title: 'Manejo', tag: 'Tratar la exacerbación', kind: 'pharma', items: [
+          { t: 'Oxígeno titulado 88–92%', d: 'Corregir la hipoxemia es el mejor tratamiento',
+            say: 'El manejo es el de la exacerbación: oxígeno titulado entre ochenta y ocho y noventa y dos por ciento, broncodilatadores, corticoide y antibiótico, y ventilación no invasiva si hay acidosis. Corregir la hipoxemia es el mejor tratamiento de la hipertensión pulmonar.' },
+          { t: 'Diurético de asa con cautela', d: 'Vigilar potasio y bicarbonato',
+            say: 'Si hay congestión, se agrega un diurético de asa con cautela, vigilando el potasio y el bicarbonato.' },
+        ] },
+        { title: 'No olvidar', tag: 'Gatillantes y alta', kind: 'alert', items: [
+          { t: 'Descartar TEP y arritmia', d: 'Taquicardia auricular multifocal, FA',
+            say: 'Siempre se descarta un tromboembolismo pulmonar y una arritmia, como la taquicardia auricular multifocal o la fibrilación auricular, como gatillantes.' },
+          { t: 'Al alta: oxígeno domiciliario', d: 'Si cumple criterios',
+            say: 'Y tras el alta, el cor pulmonale lleva a indicar oxigenoterapia domiciliaria si cumple los criterios.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -363,6 +389,82 @@ module.exports = {
         options: 'Fíjate que cuatro de las cinco opciones son formas de dar oxígeno: Venturi al cincuenta, mascarilla de no recirculación, naricera al veinticuatro, cánula de alto flujo, y la quinta es ventilación no invasiva. Piénsalo.',
         answer: 'Es la E. La saturación de ochenta y cuatro te empuja a pensar en oxígeno, pero los gases dicen otra cosa: hay acidosis hipercápnica, y ese es un problema de ventilación. El oxígeno no barre el dióxido de carbono, y en alto flujo lo empeora. La C tienta porque es oxígeno controlado, pero no resuelve la acidosis. Paciente orientado y con acidosis: BiPAP.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.010 · Gases en sangre arterial",
+      "stem": "Hombre de 69 años con EPOC GOLD 3 consulta por exacerbación de 3 días. Somnoliento pero obedece órdenes, FR 30/min, SatO2 87 % con oxígeno por cánula a 2 L/min. Gases: pH 7,31, PaCO2 62 mmHg, PaO2 56 mmHg, HCO3 30 mEq/L.",
+      "question": "¿Cuál es la interpretación de los gases y la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Acidosis respiratoria crónica compensada; aumentar el oxígeno a 6 L/min"
+        },
+        {
+          "letter": "B",
+          "text": "Acidosis respiratoria crónica compensada; alta con broncodilatadores"
+        },
+        {
+          "letter": "C",
+          "text": "Acidosis metabólica; bicarbonato endovenoso"
+        },
+        {
+          "letter": "D",
+          "text": "Alcalosis metabólica; suspender los corticoides"
+        },
+        {
+          "letter": "E",
+          "text": "Acidosis respiratoria aguda sobre crónica; iniciar ventilación mecánica no invasiva"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El HCO3 alto indica retención crónica de CO2, pero el pH bajo 7,35 muestra que la compensación no alcanza: hay un componente agudo. Acidosis respiratoria aguda sobre crónica con pH entre 7,25 y 7,35 es la indicación clásica de ventilación no invasiva en la exacerbación de EPOC.",
+      "say": {
+        "stem": "Un hombre de sesenta y nueve años con EPOC grave está exacerbado, somnoliento pero obedece, con frecuencia respiratoria de treinta. Los gases muestran pH siete coma treinta y uno, presión de CO dos de sesenta y dos, y bicarbonato de treinta.",
+        "question": "¿Cuál es la interpretación y la conducta más adecuada?",
+        "options": "Las opciones: acidosis crónica compensada con más oxígeno, alta, acidosis metabólica, alcalosis metabólica o acidosis aguda sobre crónica con ventilación no invasiva. Piénsalo.",
+        "answer": "Es la E. El bicarbonato alto revela que retiene CO dos desde antes, pero el pH bajo dice que hoy se descompensó: es aguda sobre crónica, y eso pide ventilación no invasiva. Subir el oxígeno tienta por la saturación baja, pero en este paciente aumenta la hipercapnia y lo duerme más."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 115",
+      "stem": "Un paciente de 76 años, fumador de 80 paquetes-año, con EPOC severo en tratamiento con budesonida y salmeterol inhalados, presenta aumento de su disnea e intolerancia al ejercicio desde hace 7 días, asociado a edema de extremidades inferiores. Al examen físico tiene frecuencia cardíaca 100 por minuto, presión arterial 110/70 mmHg e ingurgitación yugular a 45°. Se ausculta ritmo regular en dos tonos con ruidos apagados y murmullo pulmonar disminuido de manera bilateral, con roncus y sibilancias difusos. El ecocardiograma muestra leve dilatación del ventrículo izquierdo con fracción de eyección conservada de 58%, y cavidades derechas dilatadas con paredes hipertróficas, con presión de arteria pulmonar estimada de 68 mmHg. La radiografía de tórax muestra campos pulmonares hiperinsuflados y silueta cardíaca estrecha, en gota.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hipertensión pulmonar primaria"
+        },
+        {
+          "letter": "B",
+          "text": "Insuficiencia cardíaca congestiva"
+        },
+        {
+          "letter": "C",
+          "text": "Exacerbación de enfermedad pulmonar obstructiva crónica"
+        },
+        {
+          "letter": "D",
+          "text": "Cor pulmonale descompensado"
+        },
+        {
+          "letter": "E",
+          "text": "Tromboembolismo pulmonar"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Hay falla derecha (edema, ingurgitación yugular) con ventrículo derecho dilatado e hipertrófico e hipertensión pulmonar secundaria a EPOC grave, con FEVI conservada: cor pulmonale descompensado. No es hipertensión pulmonar primaria, pues existe causa pulmonar, ni ICC izquierda, pues la FEVI es normal y no hay edema pulmonar.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Un hombre de setenta y seis años con EPOC severo consulta por más disnea y edema de piernas desde hace una semana, con yugulares ingurgitadas. El ecocardiograma muestra cavidades derechas dilatadas e hipertróficas, fracción de eyección izquierda conservada y presión pulmonar estimada de sesenta y ocho. La radiografía muestra pulmones hiperinsuflados y corazón en gota.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: hipertensión pulmonar primaria, insuficiencia cardíaca congestiva, exacerbación de EPOC, cor pulmonale descompensado o tromboembolismo pulmonar. Piénsalo.",
+        "answer": "Es la D. Hay falla cardíaca derecha con hipertensión pulmonar secundaria a su EPOC, eso es cor pulmonale. La exacerbación de EPOC tienta, pero no explica el edema, las yugulares ni el ventrículo derecho hipertrófico."
+      }
     },
 
     {

@@ -55,3 +55,33 @@ Ya cubiertos y excluidos: Rx de manos con erosiones y escleritis (reuma-06), hem
 | reuma-21 | ACG | aortitis | TAC |
 | reuma-22 | Vasculitis | biopsia renal pauciinmune con semilunas; púrpura de Henoch-Schönlein pediátrica en nalgas y piernas | histología / foto clínica |
 | reuma-24 | Osteoporosis | líneas de Looser (osteomalacia); lesiones líticas de mieloma | Rx |
+
+## Completar libro (18-oct-2026): fotos agregadas y aún faltantes
+
+Agregadas al atlas del libro (copias en `classes/media/biblioteca/08_reumatologia/<clase>/`, registro en `books/data/atlas_fotos_verificadas.json`, respaldo en `~/fotos_tools/v3/sec/atlas_add_reumatologia.json`; todas vistas antes de usar):
+
+| clase | pie en el libro | archivo |
+|---|---|---|
+| reuma-02 | Osteomielitis vertebral por S. aureus con absceso epidural: RM sagital con contraste | `reuma-02/10_osteomielitis-vertebral-rm__harrison_p1223.jpg` |
+| reuma-08 | Úlcera oral en el lupus eritematoso sistémico (recorte del panel C de Nelson Fig. 199.1) | `reuma-08/10_ulcera-oral-lupus__nelson_p1907.jpg` |
+| reuma-15 | Síndrome de Sjögren: lengua seca y fisurada | `reuma-15/10_lengua-seca-sjogren__kanski_p134.jpg` |
+| reuma-15 | Ojo seco: tinción con rosa de Bengala de la conjuntiva | `reuma-15/11_tincion-rosa-bengala-ojo-seco__kanski_p135.jpg` |
+| reuma-15 | Ojo seco: tinción con fluoresceína de la conjuntiva | `reuma-15/12_tincion-fluoresceina-ojo-seco__kanski_p135.jpg` |
+| reuma-19 | Eritema nodoso: nódulos eritematosos bilaterales en las piernas | `reuma-19/10_eritema-nodoso__fitzpatrick_p611.jpg` |
+| reuma-22 | Enfermedad de Kawasaki: lengua en frutilla | `reuma-22/10_kawasaki-lengua-frutilla__nelson_p1967.jpg` |
+| reuma-22 | Enfermedad de Kawasaki: hiperemia conjuntival bulbar bilateral | `reuma-22/11_kawasaki-conjuntivitis__nelson_p1968.jpg` |
+
+Siguen sin imagen buena (no se encontró en los libros extraídos o el panel no se puede verificar):
+
+| clase | imagen | nota |
+|---|---|---|
+| reuma-09 | biopsia de nefritis lúpica clase IV (asas de alambre / semilunas) | sin candidata en `_candidatas` |
+| reuma-17 | test de Schöber | sin candidata |
+| reuma-21 | arteria temporal engrosada y nodular | sin candidata (Kanski F5848 es histología/fondo de ojo, ya cubiertos) |
+| reuma-18 | colonoscopia de colitis ulcerosa / ileítis de Crohn | Harrison Fig. 322-9 y 322-66: no se puede asignar con certeza cada panel a su pie (la imagen extraída p2464_4 es de hemorroides) |
+| reuma-14 | fenómeno de Raynaud en fase de palidez | Nelson Fig. 201.5: la imagen muestra esclerodactilia con lesiones de pulpejo, no la palidez que dice el pie |
+| reuma-19 | chancro sifilítico / úlcera genital herpética | Fitzpatrick p1996 sin panel verificable; Harrison p1130 no revisado |
+| reuma-17 | uveítis posterior (coriorretinitis por toxoplasmosis) | no buscada a fondo en Kanski cap. 12 |
+| reuma-01 | Gram de líquido articular (cocos en racimos) y esquema de la punción de rodilla | sin candidata |
+
+> Pasada m1b (19-oct-2026): al revisar los rotulos actuales de lessons/reuma-*.cjs, la mayoria de las filas de esta lista ya tienen foto en la clase (lista desactualizada). Solo se agregaron las marcadas con ✅ arriba.

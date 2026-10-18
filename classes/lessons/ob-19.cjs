@@ -100,6 +100,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cómo se forma una mastitis',
+      images: [
+        { src: 'animaciones/ob-19/A1_mastitis.mp4', label: 'Mastitis', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Estasis, grieta y estafilococo',
+          say: 'Mira la mama por dentro: la leche baja por los conductos hacia el pezón. Si un conducto se obstruye, la leche se estanca. Por una grieta del pezón entra el estafilococo dorado, sube por ese conducto y la zona se pone roja, caliente y dolorosa, con fiebre. Se trata con cloxacilina, y vaciando la mama: sigues amamantando.' },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Patología mamaria',
       title: 'Cuando la mastitis no responde',
@@ -115,26 +129,13 @@ module.exports = {
         { show: ['mas'], note: 'Complicación de una mastitis',
           say: 'Y el tercer cuadro es su complicación: el absceso mamario, cuando la mastitis no se trató a tiempo o no respondió.' },
         { show: ['abs'], note: 'La ecografía lo confirma',
-          say: 'Se palpa una masa que fluctúa, y la ecografía mamaria confirma la colección líquida.' },
+          say: 'Mira esta mama: una zona roja, con una masa que fluctúa al palparla. Y en esta ecografía mamaria se ve la colección líquida, que confirma el absceso.',
+          photos: [
+            { src: 'biblioteca/14_obstetricia/ob-19/01_absceso_mamario__bailey_p887.jpg', label: 'Absceso mamario', at: 'Mira esta mama', credit: 'Bailey & Love 27.ª ed., Fig. 53.13' },
+            { src: 'biblioteca/14_obstetricia/ob-19/02_absceso_mamario_puerperal_eco__williams-gyn_p314.jpg', label: 'Clínica y ecografía', at: 'en esta ecografía mamaria', credit: 'Williams Gynecology 4.ª ed., Fig. 13-8' },
+          ] },
         { show: ['dre'], note: 'La piel comprometida decide la técnica',
           say: 'El tratamiento es drenarlo, junto con antibióticos. Hoy se prefiere la punción guiada por ecografía, salvo que haya compromiso de la piel, donde vas directo al drenaje quirúrgico con incisión.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Infección mamaria puerperal',
-      images: [
-        { src: 'biblioteca/14_obstetricia/ob-19/02_absceso_mamario_puerperal_eco__williams-gyn_p314.jpg', label: 'Absceso mamario', credit: 'Williams Gynecology 4.ª ed., Fig. 13-8' },
-        { src: 'biblioteca/14_obstetricia/ob-19/01_absceso_mamario__bailey_p887.jpg', label: 'Absceso', credit: 'Bailey & Love 27.ª ed., Fig. 53.13' },
-      ],
-      steps: [
-        { note: 'Clínica y ecografía',
-          say: 'El absceso mamario puerperal es una zona roja y fluctuante. La ecografía lo confirma.' },
-        { note: 'Se drena',
-          say: 'Se drena y se sigue con lactancia.' },
       ],
     },
 

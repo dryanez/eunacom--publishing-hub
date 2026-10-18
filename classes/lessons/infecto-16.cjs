@@ -55,7 +55,8 @@ module.exports = {
           { t: 'Mialgias y artralgias intensas', d: 'La fiebre quebrantahuesos',
             say: 'Se suman mialgias y artralgias tan intensas que al dengue se le llama la fiebre quebrantahuesos.' },
           { t: 'Exantema con islas blancas', d: 'Piel sana dentro del eritema',
-            say: 'Y un exantema eritematoso que respeta pequeñas zonas de piel sana, las islas blancas en un mar rojo. Dolor detrás de los ojos, dolor muscular intenso y ese exantema, en alguien que viene del trópico: piensa en dengue.' },
+            say: 'Y mira este exantema eritematoso que respeta pequeñas zonas de piel sana, las islas blancas en un mar rojo. Dolor detrás de los ojos, dolor muscular intenso y ese exantema, en alguien que viene del trópico: piensa en dengue.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-16/01_exantema-del-dengue__cto-infecto_p134.jpg', label: 'Exantema del dengue', at: 'mira este exantema', credit: 'Manual CTO Infecciosas 14.ª ed., p. 134' } },
         ] },
         { title: 'Fase crítica', tag: 'Días 3 a 7', kind: 'alert', items: [
           { t: 'Cuando cae la fiebre', d: 'Máximo riesgo de fuga plasmática',
@@ -171,11 +172,13 @@ module.exports = {
           { t: 'Frotis y gota gruesa con Giemsa', d: 'Idealmente en el pico febril',
             say: 'El diagnóstico de certeza de la malaria es el frotis sanguíneo y la gota gruesa, teñidos con Giemsa. Se toman idealmente durante el pico febril, cuando hay más parásitos circulando.' },
           { t: 'Trofozoítos en anillo', d: 'Y cuantifica la parasitemia',
-            say: 'Así se ven los trofozoítos en anillo dentro del glóbulo rojo, y además se cuantifica la parasitemia. Si piensas en malaria, el examen es la gota gruesa.' },
+            say: 'Así se ven en esta gota gruesa los trofozoítos en anillo dentro del glóbulo rojo, y además se cuantifica la parasitemia. Si piensas en malaria, el examen es la gota gruesa.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-16/01_anillos_falciparum__cdc.jpg', label: 'Anillos de falciparum', at: 'en esta gota gruesa', credit: 'CDC DPDx, dominio público' } },
         ] },
         { title: 'P. falciparum', tag: 'Artemisininas', kind: 'pharma', items: [
           { t: 'Terapia combinada con artemisinina', d: 'Arteméter-lumefantrina',
-            say: 'El tratamiento depende de la especie. Para Plasmodium falciparum se usa la terapia combinada basada en artemisininas: arteméter con lumefantrina.' },
+            say: 'El tratamiento depende de la especie. Y mira estos gametocitos en forma de banana, exclusivos de falciparum, la especie grave. Para Plasmodium falciparum se usa la terapia combinada basada en artemisininas: arteméter con lumefantrina.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-16/02_gametocitos_falciparum__cdc.jpg', label: 'Gametocitos', at: 'mira estos gametocitos', credit: 'CDC (Commons "Plasmodium falciparum 01"), dominio público' } },
         ] },
         { title: 'P. vivax y P. ovale', tag: 'Cura radical', kind: 'alert', items: [
           { t: 'Cloroquina', d: 'Elimina las formas sanguíneas',
@@ -227,26 +230,6 @@ module.exports = {
       steps: [
         { note: 'Empieza la fase crítica',
           say: 'Mira las tres curvas. Cuando la fiebre cae, hacia el tercer día, empieza la fase crítica: el hematocrito sube por la fuga de plasma y las plaquetas llegan a su punto más bajo. Ese es el momento de buscar signos de alarma.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Malaria y dengue',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-16/01_anillos_falciparum__cdc.jpg', label: 'Anillos de falciparum', credit: 'CDC DPDx, dominio público' },
-        { src: 'biblioteca/07_infectologia/infecto-16/02_gametocitos_falciparum__cdc.jpg', label: 'Gametocitos', credit: 'CDC (Commons "Plasmodium falciparum 01"), dominio público' },
-        { src: 'biblioteca/07_infectologia/infecto-16/01_exantema-del-dengue__cto-infecto_p134.jpg', label: 'Exantema del dengue', credit: 'Manual CTO Infecciosas 14.ª ed., p. 134' },
-      ],
-      steps: [
-        { note: 'Varios parásitos por glóbulo',
-          say: 'En la gota gruesa de la malaria por falciparum aparecen anillos dentro de los glóbulos rojos.' },
-        { note: 'Forma de banana',
-          say: 'Y los gametocitos en forma de banana son exclusivos de falciparum, la especie grave.' },
-        { note: 'Islas blancas en mar rojo',
-          say: 'Y el exantema del dengue: islas de piel blanca en un mar rojo.' },
       ],
     },
 

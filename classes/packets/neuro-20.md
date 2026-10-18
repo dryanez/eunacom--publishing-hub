@@ -236,24 +236,24 @@ Una paciente de 55 años, se lava las manos recurrentemente porque siente que se
 Explicación del banco: La opción correcta es la **E** (Trastorno obsesivo compulsivo). En este escenario clínico, trastorno obsesivo compulsivo se encuentra estrictamente contraindicado debido a que su mecanismo de acción interfiere negativamente con la fisiopatología basal del paciente, aumentando la morbimortalidad según los protocolos clínicos vigentes.
 
 ### [4] EUNACOM Diciembre 2025 · Pregunta 3 · confianza 0.95
-Un paciente de 28 años consulta por dolor torácico y disnea de 2 horas de evolución. Al examen Fsico presenta taquicardia a 170 lpm, presión arterial 120/80 mmHg y un examen cardiopulmonar con ritmo regular en dos tonos, sin soplos, en la auscultación cardíaca y murmullo pulmonar presente, sin ruidos agregados, en la auscultación pulmonar. Se solicita un electrocardiograma que se muestra a con8nuación: ¿Cuál es la conducta más adecuada?
+Un paciente de 28 años consulta por dolor torácico y disnea de 2 horas de evolución. Al examen físico presenta taquicardia a 170 lpm, presión arterial 120/80 mmHg y un examen cardiopulmonar con ritmo regular en dos tonos, sin soplos, en la auscultación cardíaca y murmullo pulmonar presente, sin ruidos agregados, en la auscultación pulmonar. Se solicita un electrocardiograma que se muestra a continuación: ¿Cuál es la conducta más adecuada?
 - A) Verapamilo endovenoso
 - B) Amiodarona endovenosa
 - C) Adrenalina endovenosa
 - D) Adenosina endovenosa
 - E) Cardioversión eléctrica
 **Correcta: D**
-Explicación del banco: Tiene una TPSV clásica. El tratamiento de primera línea son las maniobras vagales (ej. Valsalva modiﬁcado es la más recomendada en adultos y niños que cooperan; en niños pequeño se preﬁere la inmersión facial en agua fría. El masaje caroVdeo se puede usar en adultos, pero no se recomienda en niños ni en adultos mayores con riesgo de ateroma caroVdeo que se pueda soltar). De segunda línea se uGlizan fármacos, siendo de elección la adenosina en bolo EV de 6 mg. Si falla, se dan hasta dos nuevas dosis de 12 mg. Si vuelve a fallar, se usa el verapamilo (contraindicado en falla cardíaca e hipotensión). Como toda taquiarritmia, si está hemodinámicamente inestable, de primera línea se maneja con cardioversión eléctrica.
+Explicación del banco: Tiene una TPSV clásica. El tratamiento de primera línea son las maniobras vagales (ej. Valsalva modificado es la más recomendada en adultos y niños que cooperan; en niños pequeño se prefiere la inmersión facial en agua fría. El masaje carotídeo se puede usar en adultos, pero no se recomienda en niños ni en adultos mayores con riesgo de ateroma carotídeo que se pueda soltar). De segunda línea se utilizan fármacos, siendo de elección la adenosina en bolo EV de 6 mg. Si falla, se dan hasta dos nuevas dosis de 12 mg. Si vuelve a fallar, se usa el verapamilo (contraindicado en falla cardíaca e hipotensión). Como toda taquiarritmia, si está hemodinámicamente inestable, de primera línea se maneja con cardioversión eléctrica.
 
 ### [5] EUNACOM Diciembre 2025 · Pregunta 35 · confianza 0.95
-Un paciente de 23 años sufre una caída mientras jugaba fútbol, cayendo con el hombro derecho contra el piso y resultando en una luxación anterior de hombro derecho, la cual es conﬁrmada con radiograFas de hombro, las cuales descartan la presencia de fracturas. ¿Qué evaluación debe realizarse obligatoriamente en el examen Fsico antes de proceder con las maniobras de reducción?
+Un paciente de 23 años sufre una caída mientras jugaba fútbol, cayendo con el hombro derecho contra el piso y resultando en una luxación anterior de hombro derecho, la cual es confirmada con radiografías de hombro, las cuales descartan la presencia de fracturas. ¿Qué evaluación debe realizarse obligatoriamente en el examen físico antes de proceder con las maniobras de reducción?
 - A) Buscar presencia de equimosis
 - B) Buscar deformación en “charretera”
 - C) Explorar la sensibilidad de la zona deltoidea
 - D) Evaluar la impotencia funcional
 - E) Evaluar crépito óseo
 **Correcta: C**
-Explicación del banco: La luxación anterior se asocia a lesión del nervio axilar o circunﬂejo, que inerva al deltoides (abducción del hombro) y la sensibilidad en la zona deltoidea. Se debe consignar su alteración antes de la reducción, para que no se culpe luego al médico de haberla causado durante la reducción. Las demás opciones ya han sido evaluadas mediante la clínica (la luxación Gene hombro “en charretera”, impotencia funcional) y la radiografía.
+Explicación del banco: La luxación anterior se asocia a lesión del nervio axilar o circunflejo, que inerva al deltoides (abducción del hombro) y la sensibilidad en la zona deltoidea. Se debe consignar su alteración antes de la reducción, para que no se culpe luego al médico de haberla causado durante la reducción. Las demás opciones ya han sido evaluadas mediante la clínica (la luxación Gene hombro “en charretera”, impotencia funcional) y la radiografía.
 
 ### [6] EUNACOM Diciembre 2022 · Pregunta 87 · confianza 0.95
 Un paciente de 22 años consulta por palpitaciones de inicio súbito, rápidas y molestas, que duraron cerca de 30 minutos y desaparecieron con maniobras vagales. Refiere que había presentado episodios previos, pero de menor duración y autolimitados. Actualmente está en buenas condiciones y al examen físico, no presenta alteraciones. Trae un electrocardiograma, que se muestra a continuación (fuente: cardioteca.com): ¿Cuál es el diagnóstico más probable?
@@ -316,14 +316,14 @@ Joven de 22 años con palpitaciones súbitas de inicio y término brusco. ECG en
 Explicación del banco: TPSV (taquicardia paroxística supraventricular) estable: si maniobras vagales fallan, adenosina IV 6 mg en bolo rápido es el tratamiento de elección por su efecto ultrabreve sobre el nodo AV.
 
 ### [12] EUNACOM Diciembre 2025 · Pregunta 156 · confianza 0.92
-Una paciente de 42 años consulta por dolor ocular derecho, asociado a ojo rojo que inició hace 5 horas y se ha vuelto muy intenso. Al examen Fsico, presenta epífora y ojo rojo derecho de 8po central. Como antecedente, 8ene as8gma8smo y es usuaria de lentes de contacto. ¿Cuál de los siguientes exámenes es más adecuado para conﬁrmar la sospecha diagnós8ca?
+Una paciente de 42 años consulta por dolor ocular derecho, asociado a ojo rojo que inició hace 5 horas y se ha vuelto muy intenso. Al examen físico, presenta epífora y ojo rojo derecho de tipo central. Como antecedente, tiene astigmatismo y es usuaria de lentes de contacto. ¿Cuál de los siguientes exámenes es más adecuado para confirmar la sospecha diagnóstica?
 - A) Fondo de ojo
 - B) Tonometría ocular
 - C) TAC de órbitas
-- D) Tinción con ﬂuoresceína
+- D) Tinción con fluoresceína
 - E) Gonioscopía
 **Correcta: D**
-Explicación del banco: La sospecha clínica es una queraGGs o una erosión corneal. El uso de lentes de contacto podría ser la causa. Con la Gnción con ﬂuoresceína se pueden ver mejor las úlceras y erosiones corneales. La genioscopía es úGl en la evaluación del glaucoma agudo.
+Explicación del banco: La sospecha clínica es una queraGGs o una erosión corneal. El uso de lentes de contacto podría ser la causa. Con la Gnción con fluoresceína se pueden ver mejor las úlceras y erosiones corneales. La genioscopía es útil en la evaluación del glaucoma agudo.
 
 ### [13] EUNACOM Diciembre 2018 · Pregunta 95 · confianza 0.92
 Un paciente de 40 años, con antecedente de reemplazo valvular, secundario a una endocarditis bacteriana, consulta por consulta por palpitaciones muy intensas, asociadas a disnea. Al examen físico tiene un pulso a 140 latidos por minutos, regular. Se realizan maniobras vagales (masaje carotídeo) y se observa el siguiente electrocardiograma: Foto 9 (https://www.slideshare.net/XXXXchandrabarik/svtalogarythm). El diagnóstico más probable es:
@@ -333,17 +333,17 @@ Un paciente de 40 años, con antecedente de reemplazo valvular, secundario a una
 - D) Síndrome de Wolff Parkinson White
 - E) Taquicardia auricular
 **Correcta: C**
-Explicación del banco: Con las maniobras vagales baja la frecuencia, se ven las ondas de serrucho y luego vuelve a aumentar la frecuencia. Es lo clásico del ﬂutter auricular.
+Explicación del banco: Con las maniobras vagales baja la frecuencia, se ven las ondas de serrucho y luego vuelve a aumentar la frecuencia. Es lo clásico del flutter auricular.
 
 ### [14] EUNACOM Diciembre 2025 · Pregunta 170 · confianza 0.9
-Un paciente de 70 años, con antecedentes de hipertensión arterial, diabetes mellitus 8po 2 y revascularización coronaria hace 3 años, consulta porque hace pocas horas notó que, de forma súbita, dejó de ver su pierna derecha con el ojo derecho. Al examen Fsico presenta inspección ocular normal, agudeza visual 20/30 en el ojo derecho y 20/20 en el ojo izquierdo, pupilas isocóricas con defecto pupilar aferente rela8vo, y en la campimetría por confrontación se observa hemianopsia inferior del ojo derecho. El diagnós8co más probable es:
+Un paciente de 70 años, con antecedentes de hipertensión arterial, diabetes mellitus tipo 2 y revascularización coronaria hace 3 años, consulta porque hace pocas horas notó que, de forma súbita, dejó de ver su pierna derecha con el ojo derecho. Al examen físico presenta inspección ocular normal, agudeza visual 20/30 en el ojo derecho y 20/20 en el ojo izquierdo, pupilas isocóricas con defecto pupilar aferente relativo, y en la campimetría por confrontación se observa hemianopsia inferior del ojo derecho. El diagnóstico más probable es:
 - A) Neuri2s óp2ca isquémica
 - B) Infarto del lóbulo occipital
 - C) Desprendimiento de re2na
 - D) Glaucoma
 - E) Degeneración macular relacionada con la edad
 **Correcta: A**
-Explicación del banco: Tanto por el inicio súbito, con factores de riesgo cardiovascular, como por el defecto pupilar aferente relativo (DPAR), es una neuropaVa óptica isquémica, con afectación de la zona superior del nervio óptico derecho (inerva la zona superior de la reGna y corresponde a la zona inferior del campo visual). El DPAR se ve también en la neuriGs óptica desmielinizante y en el desprendimiento de reGna extenso o en la oclusión de la arteria central de la reGna.
+Explicación del banco: Tanto por el inicio súbito, con factores de riesgo cardiovascular, como por el defecto pupilar aferente relativo (DPAR), es una neuropatía óptica isquémica, con afectación de la zona superior del nervio óptico derecho (inerva la zona superior de la retina y corresponde a la zona inferior del campo visual). El DPAR se ve también en la neuritis óptica desmielinizante y en el desprendimiento de retina extenso o en la oclusión de la arteria central de la retina.
 
 ### [15] EUNACOM Diciembre 2024 · Pregunta 67 · confianza 0.9
 Psicofármaco contraindicado en trastorno de estrés post traumático

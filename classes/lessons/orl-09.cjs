@@ -42,6 +42,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'De la IgE a la nariz tapada',
+      images: [
+        { src: 'animaciones/orl-09/A1_rinitis_alergica_aria.mp4', label: 'Rinitis alérgica: alérgeno, mastocito, mucosa y clasificación ARIA', credit: 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'El alérgeno activa el mastocito; ARIA decide el tratamiento',
+          say: 'Mira la nariz. El aeroalérgeno se une a la IgE que está sobre los mastocitos de la mucosa. Se liberan histamina y leucotrienos: la mucosa se pone pálida, edematosa y azulada, y aparecen la rinorrea acuosa, el prurito y los estornudos. La clasificación ARIA mira la frecuencia, intermitente o persistente, y la severidad. Si es persistente o moderada a severa, el corticoide intranasal va primero.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Rinitis alérgica',
       title: 'Qué se ve al examen',
@@ -50,26 +64,13 @@ module.exports = {
           { t: 'Mucosa pálida, edematosa o azulada', d: 'Secreción hialina',
             say: 'En la rinoscopía anterior la mucosa es pálida, edematosa, a veces azulada o violácea, con cornetes inferiores hipertróficos y secreción líquida y transparente.' },
           { t: 'Ojeras alérgicas', d: 'Pliegues de Dennie-Morgan',
-            say: 'Es frecuente ver ojeras alérgicas y pliegues bajo los párpados, los pliegues de Dennie-Morgan.' },
+            say: 'Es frecuente ver ojeras alérgicas y pliegues bajo los párpados, los pliegues de Dennie-Morgan. Mira la cara de este niño: la boca entreabierta, porque no puede respirar por la nariz, y bajo los ojos las ojeras oscuras.',
+            photo: { src: 'biblioteca/17_otorrino/orl-09/01_facies-rinitis-alergica-perenne__bates_p945.jpg', label: 'Facies de rinitis alérgica', at: 'Mira la cara de este niño', credit: 'Bates, Guía de exploración clínica, p. 945' } },
         ] },
         { title: 'Una sola vía aérea', tag: 'Asociación con asma', kind: 'alert', items: [
           { t: 'Se asocia a asma bronquial', d: 'Tratar bien la nariz ayuda al pulmón',
             say: 'La rinitis alérgica se asocia estrechamente al asma bronquial, es el concepto de una sola vía aérea. Por eso, ante un asmático, siempre pregunta por la nariz.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'La cara del niño con rinitis alérgica',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-09/01_facies-rinitis-alergica-perenne__bates_p945.jpg', label: 'Niño con rinitis alérgica perenne: boca abierta y ojeras con coloración oscura bajo los ojos', credit: 'Bates, Guía de exploración clínica, p. 945' },
-      ],
-      steps: [
-        { note: 'Respira por la boca y tiene ojeras',
-          say: 'Mira la cara. La boca está entreabierta, porque no puede respirar por la nariz, y bajo los ojos hay ojeras oscuras por el edema y la congestión venosa. Esta facies, en un niño con rinorrea y estornudos, apunta a una rinitis alérgica, que es la causa más frecuente de obstrucción nasal y respiración bucal en pediatría.' },
       ],
     },
 
@@ -95,6 +96,30 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Diagnóstico de alergia',
+      title: 'Pruebas cutáneas de alergia: el prick test',
+      cards: [
+        { title: 'Cuándo se pide', tag: 'Sensibilización IgE', kind: 'key', items: [
+          { t: 'Rinitis persistente o moderada a severa', d: 'Sin respuesta al tratamiento, o antes de inmunoterapia',
+            say: 'El prick test identifica la sensibilización IgE a aeroalérgenos: ácaros, pólenes, epitelios y hongos. Se pide en la rinitis persistente o moderada a severa, cuando no responde al tratamiento, o antes de plantear inmunoterapia.' },
+        ] },
+        { title: 'Cómo se hace', tag: 'Lectura a los 15 a 20 minutos', kind: 'criteria', items: [
+          { t: 'Gota de extracto y punción con lanceta', d: 'En el antebrazo; control con histamina y con suero',
+            say: 'Se pone una gota de extracto estandarizado en el antebrazo y se punciona superficialmente con una lanceta. Siempre hay un control positivo con histamina y uno negativo con suero fisiológico.' },
+          { t: 'Positiva: pápula de 3 mm o más', d: 'Mayor que el control negativo',
+            say: 'La lectura es a los quince a veinte minutos, y es positiva una pápula de tres milímetros o más sobre el control negativo.' },
+        ] },
+        { title: 'Qué cuidar', tag: 'Trampas', kind: 'alert', items: [
+          { t: 'Suspender antihistamínicos 5 a 7 días antes', d: 'Los corticoides nasales no interfieren',
+            say: 'Se suspenden los antihistamínicos cinco a siete días antes; los corticoides nasales no interfieren. No se hace con dermografismo, dermatitis extensa en el sitio, betabloqueadores o riesgo de anafilaxia.' },
+          { t: 'Positivo es sensibilización, no enfermedad', d: 'Correlacionar con la clínica; si no se puede, IgE específica',
+            say: 'Un resultado positivo solo indica sensibilización, y se correlaciona con la clínica. Si no puedes hacer el prick, pides IgE específica en sangre.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Tratamiento',
       title: 'Corticoide intranasal primero',
       cards: [
@@ -109,6 +134,32 @@ module.exports = {
             say: 'Los antihistamínicos orales de segunda generación, como cetirizina, desloratadina o loratadina, no sedan.' },
           { t: 'Para formas leves e intermitentes', d: 'Controlan prurito y estornudos, poco la congestión',
             say: 'Son de elección en las formas leves e intermitentes, o como apoyo en las crisis de prurito y rinorrea. Controlan los estornudos y el picor, pero poco la congestión. La regla: si la obstrucción manda, corticoide; si no hay obstrucción, antihistamínico.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Prevención y rinorrea crónica',
+      title: 'Control ambiental y rinorrea crónica',
+      cards: [
+        { title: 'Control ambiental', tag: 'Según el alérgeno', kind: 'pharma', items: [
+          { t: 'Ácaros: fundas y ropa de cama a más de 55 grados', d: 'Sin alfombras, cortinas gruesas ni peluches; humedad bajo 50 %',
+            say: 'La prevención es control ambiental del alérgeno. Contra los ácaros, fundas antiácaros en colchón y almohada, ropa de cama lavada cada semana a más de cincuenta y cinco grados, y fuera alfombras, cortinas gruesas y peluches, con humedad bajo cincuenta por ciento.' },
+          { t: 'Epitelios, pólenes y hongos', d: 'Mascotas fuera del dormitorio; ventanas cerradas; ventilar',
+            say: 'Contra los epitelios, la mascota fuera del dormitorio. Contra los pólenes, ventanas cerradas en temporada y lavado nasal con suero al llegar a casa. Contra los hongos, ventilar y corregir la humedad. Y sin tabaquismo pasivo.' },
+        ] },
+        { title: 'Rinorrea crónica', tag: 'Más de 12 semanas', kind: 'key', items: [
+          { t: 'Acuosa bilateral', d: 'Alérgica, vasomotora, medicamentosa u hormonal',
+            say: 'La rinorrea crónica, de más de doce semanas, se enfoca por su aspecto y lateralidad. Acuosa y bilateral: rinitis alérgica, vasomotora, medicamentosa u hormonal. Mucopurulenta: rinosinusitis crónica o poliposis.' },
+          { t: 'Unilateral', d: 'Niño: cuerpo extraño; adulto: desviación, tumor o fístula de LCR',
+            say: 'Unilateral: en un niño piensa en cuerpo extraño; en un adulto, desviación septal, tumor o fístula de líquido cefalorraquídeo, una rinorrea acuosa clara tras un trauma o una cirugía, que aumenta al inclinarse y se confirma con beta dos transferrina.' },
+        ] },
+        { title: 'Qué haces tú', tag: 'Manejo inicial', kind: 'alert', items: [
+          { t: 'Lavados, corticoide nasal, antihistamínico', d: 'Descongestionante tópico máximo 5 días',
+            say: 'Manejo inicial: lavados nasales, corticoide nasal y antihistamínico, y descongestionantes tópicos por no más de cinco días.' },
+          { t: 'Derivar si es unilateral o sanguinolenta', d: 'Sospecha de LCR o sin respuesta en 4 semanas',
+            say: 'Derivas la rinorrea unilateral o sanguinolenta, la que sugiere líquido cefalorraquídeo y la que no responde a cuatro semanas de tratamiento.' },
         ] },
       ],
     },
@@ -252,6 +303,119 @@ module.exports = {
         options: 'Las opciones: cáncer nasal, pólipos, sinusitis bacteriana crónica, rinitis vasomotora o rinitis alérgica. Piénsalo.',
         answer: 'Es la D, rinitis vasomotora. El gatillante son los cambios de temperatura y la mañana, sin prurito ni estornudos, en un paciente que no tiene antecedente alérgico. Eso es una hiperreactividad parasimpática, que se trata con bromuro de ipratropio intranasal. El cáncer da secreción con sangre y de un solo lado, y los pólipos aparecen en jóvenes.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.013 · Pruebas cutáneas de alergia",
+      "stem": "Un hombre de 28 años con rinorrea acuosa, estornudos y prurito nasal estacionales será sometido a un prick test para identificar alérgenos. Usa loratadina diaria y mometasona intranasal.",
+      "question": "¿Cuál es la indicación más adecuada antes del examen?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Suspender la loratadina al menos 5 a 7 días antes del test"
+        },
+        {
+          "letter": "B",
+          "text": "Aumentar la dosis de loratadina el día del examen"
+        },
+        {
+          "letter": "C",
+          "text": "Suspender el corticoide intranasal 1 mes antes"
+        },
+        {
+          "letter": "D",
+          "text": "Realizar el test durante una anafilaxia"
+        },
+        {
+          "letter": "E",
+          "text": "No requiere preparación"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Los antihistamínicos orales inhiben la roncha y causan falsos negativos, por lo que se suspenden 5 a 7 días antes del prick test. El control positivo con histamina verifica que la piel responda y el control negativo con suero descarta dermografismo. Los corticoides intranasales no alteran la prueba. Un positivo indica sensibilización, que debe correlacionarse con la clínica.",
+      "say": {
+        "stem": "Un hombre de veintiocho años con rinitis alérgica estacional, que usa loratadina diaria y un corticoide nasal, se realizará un prick test.",
+        "question": "¿Cuál es la indicación más adecuada antes del examen?",
+        "options": "Las opciones: suspender la loratadina cinco a siete días antes, aumentarla el día del examen, suspender el corticoide nasal un mes antes, hacerlo durante una anafilaxia, o ninguna preparación. Piénsalo.",
+        "answer": "Es la A. Los antihistamínicos orales apagan la roncha y dan falsos negativos, así que se suspenden unos días antes. Suspender el corticoide nasal tienta, pero no altera la prueba cutánea."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.3.003 · Prevención de alergias nasosinusales",
+      "stem": "Niño de 10 años con rinitis alérgica persistente moderada, con pruebas cutáneas positivas solo para ácaros del polvo doméstico (Dermatophagoides).",
+      "question": "¿Cuál de las siguientes medidas de control ambiental es más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener alfombras y peluches en el dormitorio"
+        },
+        {
+          "letter": "B",
+          "text": "Uso de antibióticos profilácticos en invierno"
+        },
+        {
+          "letter": "C",
+          "text": "Evitar el consumo de leche"
+        },
+        {
+          "letter": "D",
+          "text": "Mantener la casa cerrada y sin ventilar"
+        },
+        {
+          "letter": "E",
+          "text": "Usar fundas antiácaros en colchón y almohada, lavar ropa de cama semanalmente con agua caliente, reducir alfombras y peluches y mantener baja la humedad del dormitorio"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La prevención en rinitis alérgica se basa en identificar y evitar el alérgeno. Para ácaros se recomiendan fundas antiácaros, lavado de ropa de cama con agua caliente, retirar alfombras, cortinas gruesas y peluches del dormitorio, ventilar y reducir la humedad, además de evitar el humo de tabaco. Se combina con corticoide intranasal e inmunoterapia en casos seleccionados.",
+      "say": {
+        "stem": "Niño de diez años con rinitis alérgica persistente y pruebas cutáneas positivas para ácaros del polvo.",
+        "question": "¿Qué medida de control ambiental es más adecuada?",
+        "options": "Las opciones: mantener alfombras y peluches, antibióticos en invierno, evitar la leche, casa cerrada sin ventilar o fundas antiácaros con lavado semanal en agua caliente y menos humedad. Piénsalo.",
+        "answer": "Es la E. Las fundas antiácaros, el lavado caliente de la ropa de cama y bajar la humedad reducen la exposición a ácaros. Cerrar la casa tienta por evitar alérgenos externos, pero aumenta la humedad y favorece a los ácaros."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.4.010 · Pruebas cutáneas de alergia",
+      "stem": "Mujer de 25 años con rinitis persistente con estornudos, prurito nasal y rinorrea acuosa. Se solicitan pruebas cutáneas de alergia (prick test) para identificar alérgenos.",
+      "question": "¿Cuál de los siguientes fármacos debe suspenderse días antes del examen porque produce falsos negativos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Corticoide intranasal"
+        },
+        {
+          "letter": "B",
+          "text": "Antihistamínicos orales (por ejemplo, loratadina o cetirizina)"
+        },
+        {
+          "letter": "C",
+          "text": "Paracetamol"
+        },
+        {
+          "letter": "D",
+          "text": "Lavados nasales con suero fisiológico"
+        },
+        {
+          "letter": "E",
+          "text": "Anticonceptivos orales"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El prick test detecta sensibilización mediada por IgE con alta sensibilidad; se usa control positivo (histamina) y negativo. Los antihistamínicos H1 suprimen la roncha y deben suspenderse alrededor de 5 a 7 días antes, al igual que algunos antidepresivos tricíclicos. Los corticoides intranasales no interfieren. Un resultado positivo debe correlacionarse con la clínica.",
+      "say": {
+        "stem": "Mujer de veinticinco años con rinitis persistente que se realizará pruebas cutáneas de alergia.",
+        "question": "¿Qué fármaco debe suspender días antes porque produce falsos negativos?",
+        "options": "Las opciones: corticoide intranasal, antihistamínicos orales, paracetamol, lavados con suero o anticonceptivos. Piénsalo.",
+        "answer": "Es la B. Los antihistamínicos orales suprimen la roncha y dan falsos negativos, así que se suspenden varios días antes. El corticoide intranasal tienta por ser antialérgico, pero no interfiere con la prueba."
+      }
     },
 
     {

@@ -54,9 +54,14 @@ module.exports = {
         ] },
         { title: 'Ecografía Doppler', tag: 'Lo que confirma la sospecha', kind: 'criteria', items: [
           { t: 'Ovario aumentado y edematoso', d: 'Con folículos desplazados a la periferia',
-            say: 'La ecografía muestra un ovario mucho más grande de lo normal, edematoso, con los folículos empujados hacia el borde.' },
+            say: 'La ecografía muestra un ovario mucho más grande de lo normal, edematoso, con los folículos empujados hacia el borde. Mira esta ecografía: el ovario aumentado de tamaño y edematoso.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-16/01_torsion_ovarica_eco__nelson_p4303.jpg', label: 'Ovario aumentado', at: 'Mira esta ecografía', credit: 'Nelson 22.ª ed., Fig. 590.4' } },
           { t: 'Signo del remolino', d: 'Y flujo Doppler ausente o disminuido',
-            say: 'En el pedículo se ve el signo del remolino, y el Doppler muestra el flujo ausente o disminuido. Pero ojo con esto: si hay flujo arterial presente, eso no descarta la torsión, porque el útero también irriga al ovario por otra vía. Si la clínica es sospechosa, se opera igual.' },
+            say: 'En el pedículo se ve el signo del remolino, y el Doppler muestra el flujo ausente o disminuido. Pero ojo con esto: si hay flujo arterial presente, eso no descarta la torsión, porque el útero también irriga al ovario por otra vía. Si la clínica es sospechosa, se opera igual. Mira el signo del remolino en esta imagen, y en el Doppler de la torsión, el flujo ausente o disminuido en el ovario.',
+            photos: [
+              { src: 'biblioteca/13_ginecologia/gin-16/03_signo-remolino__pocket-us_p282.jpg', label: 'Signo del remolino', at: 'Mira el signo del remolino', credit: 'Pocket Atlas of Emergency Ultrasound (Reardon, Ma), p. 282' },
+              { src: 'biblioteca/13_ginecologia/gin-16/02_torsion_ovarica_doppler__nelson_p4303.jpg', label: 'Doppler', at: 'en el Doppler', credit: 'Nelson 22.ª ed., Fig. 590.4' },
+            ] },
         ] },
       ],
     },
@@ -94,7 +99,8 @@ module.exports = {
       cards: [
         { title: 'Clínica y gatillante', tag: 'Fase lútea tardía', kind: 'criteria', items: [
           { t: 'Dolor postcoital', d: 'Días 20 a 26 del ciclo',
-            say: 'El otro gran diagnóstico diferencial es el quiste ovárico hemorrágico roto. El gatillante clásico es la relación sexual, en la fase lútea tardía, entre los días veinte y veintiséis del ciclo.' },
+            say: 'El otro gran diagnóstico diferencial es el quiste ovárico hemorrágico roto. El gatillante clásico es la relación sexual, en la fase lútea tardía, entre los días veinte y veintiséis del ciclo. Mira esta ecografía: el quiste hemorrágico tiene un patrón en red, de finos tabiques, que corresponde al coágulo.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-16/04_quiste-hemorragico-eco__us-obgyn_p260.jpg', label: 'Quiste hemorrágico (eco)', at: 'Mira esta ecografía: el quiste', credit: 'Ultrasound in Obstetrics and Gynecology: A Practical Approach, p. 260' } },
           { t: 'Sin vómitos, cede lento', d: 'A diferencia de la torsión',
             say: 'Y a diferencia de la torsión, casi nunca da vómitos, y el dolor cede lento, no en paroxismos.' },
         ] },
@@ -135,18 +141,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Torsión anexial',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Torsión sobre su pedículo',
       images: [
-        { src: 'biblioteca/13_ginecologia/gin-16/01_torsion_ovarica_eco__nelson_p4303.jpg', label: 'Ovario aumentado', credit: 'Nelson 22.ª ed., Fig. 590.4' },
-        { src: 'biblioteca/13_ginecologia/gin-16/02_torsion_ovarica_doppler__nelson_p4303.jpg', label: 'Doppler', credit: 'Nelson 22.ª ed., Fig. 590.4' },
+        { src: 'animaciones/gin-16/A1_torsion_anexial.mp4', label: 'El ovario que gira', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Ecografía',
-          say: 'En la torsión, el ovario está aumentado de tamaño y edematoso.' },
-        { note: 'Sin flujo central',
-          say: 'El Doppler puede mostrar ausencia de flujo, pero un Doppler normal no la descarta. La sospecha clínica lleva a laparoscopía.' },
+        { note: 'Isquemia y detorsión',
+          say: 'Mira el ovario girando sobre su pedículo: se corta primero el retorno venoso, luego el flujo arterial, y el ovario se edematiza y se vuelve violáceo. Es dolor unilateral hiperagudo con vómitos profusos. Pasadas veinticuatro a treinta y seis horas, el ovario está perdido. La conducta es laparoscopía de urgencia con detorsión, y aunque se vea negruzco, se conserva.' },
       ],
     },
 

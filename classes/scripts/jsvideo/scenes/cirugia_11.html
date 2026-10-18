@@ -1,0 +1,98 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Cirugía 11.11: qué órgano se rompe según el mecanismo (cerrado: bazo; arma blanca: hígado; arma de fuego: intestino delgado, luego colon).
+// Base: Blausen.com staff (2014) "Abdominal Organs Anatomy", CC BY 3.0; rótulos en inglés quitados
+// (assets/blausen/abdomen_organos.png, 750x1500). Coordenadas en píxeles de esa imagen.
+window.SCENE = { duration: 30, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+
+const SRC = { x: 90, y: 625, w: 560, h: 560 }, DST = { x: 40, y: 130 }, S = 1;
+DST.w = SRC.w * S; DST.h = SRC.h * S;
+const P = (x, y) => [DST.x + (x - SRC.x) * S, DST.y + (y - SRC.y) * S];
+const SPLEEN = P(545, 765), LIVER = P(300, 815), BOWEL = P(330, 1010), COLON = P(250, 1130);
+
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  ctx.drawImage(I('abd'), SRC.x, SRC.y, SRC.w, SRC.h, DST.x, DST.y, DST.w, DST.h); ctx.restore();
+}
+function clipL() { ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip(); }
+function label(s, x, y, col, tx, ty, a, size = 16) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill(); tag(s, x, y, col, size); ctx.restore();
+}
+function arrow(x0, y0, x1, y1, col, w = 8, a = 1) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = w; ctx.lineCap = 'round';
+  const dx = x1 - x0, dy = y1 - y0, n = Math.hypot(dx, dy), ux = dx / n, uy = dy / n;
+  ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1 - ux * 16, y1 - uy * 16); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x1 - ux * 24 - uy * 12, y1 - uy * 24 + ux * 12); ctx.lineTo(x1 - ux * 24 + uy * 12, y1 - uy * 24 - ux * 12); ctx.closePath(); ctx.fill(); ctx.restore();
+}
+function pulse(x, y, r, col, t, a) {
+  if (a <= 0) return; ctx.save(); clipL();
+  K.glow(x, y, r * (1 + 0.12 * Math.sin(t * 5)), col, 0.55 * a); ctx.restore();
+}
+function shock(x, y, k, col) {            // onda expansiva (cavitación) de la bala
+  if (k <= 0) return; ctx.save(); clipL(); ctx.strokeStyle = col; ctx.lineWidth = 4;
+  for (let i = 0; i < 3; i++) { const q = clamp(k - i * 0.22, 0, 1); if (q <= 0) continue; ctx.globalAlpha = (1 - q) * 0.9; ctx.beginPath(); ctx.arc(x, y, 14 + q * 90, 0, 7); ctx.stroke(); }
+  ctx.restore();
+}
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  K.title('Trauma abdominal: qué órgano se rompe', 'Depende de cómo llegó el golpe', C.RED);
+  lamina(seg(t, 0, 0.6));
+
+  // 1) trauma cerrado: golpe lateral izquierdo → bazo, luego hígado
+  const A1 = fade(t, 1.5, 9.5);
+  if (A1 > 0) {
+    const hit = ease(seg(t, 2, 1.2));
+    arrow(DST.x + DST.w + 5 - 40 * (1 - hit), SPLEEN[1] - 40 * (1 - hit), SPLEEN[0] + 34, SPLEEN[1] - 6, C.RED, 10, A1 * seg(t, 2, 0.4));
+    pulse(SPLEEN[0], SPLEEN[1], 70, '255,60,60', t, A1 * seg(t, 3.2, 0.8));
+    pulse(LIVER[0], LIVER[1], 95, '255,150,60', t, A1 * 0.6 * seg(t, 6.5, 0.8));
+    label('Bazo: el más lesionado', SPLEEN[0] - 70, SPLEEN[1] - 105, C.RED, SPLEEN[0], SPLEEN[1] - 4, A1 * seg(t, 3.5, 0.5), 16);
+    label('Después, el hígado', LIVER[0] - 40, LIVER[1] + 70, C.AMBER, LIVER[0], LIVER[1], A1 * seg(t, 6.8, 0.5), 16);
+  }
+  K.card(640, 130, 590, 130, C.RED, 'Trauma cerrado', ['Golpe directo o desaceleración', 'Signo de Kehr: dolor en el hombro izquierdo'], fade(t, 2, 10.5), 18);
+
+  // 2) arma blanca: trayecto recto → hígado
+  const A2 = fade(t, 11.5, 19.5);
+  if (A2 > 0) {
+    const a = P(120, 880), b = P(345, 805), k = ease(seg(t, 12, 2.2));
+    ctx.save(); clipL(); ctx.globalAlpha = A2; ctx.strokeStyle = '#E8EEF5'; ctx.lineWidth = 7; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(a[0] - 40, a[1] + 14); ctx.lineTo(lerp(a[0] - 40, b[0], k), lerp(a[1] + 14, b[1], k)); ctx.stroke();
+    ctx.strokeStyle = '#7A8594'; ctx.lineWidth = 12; ctx.beginPath(); ctx.moveTo(a[0] - 40, a[1] + 14); ctx.lineTo(a[0] - 40 - 80, a[1] + 14 + 26); ctx.stroke(); ctx.restore();
+    pulse(LIVER[0] + 20, LIVER[1], 90, '255,60,60', t, A2 * seg(t, 14, 0.8));
+    label('Hígado primero', LIVER[0] - 30, LIVER[1] - 80, C.RED, LIVER[0] + 20, LIVER[1], A2 * seg(t, 14.2, 0.5), 16);
+    label('Después, intestino delgado', BOWEL[0] + 40, BOWEL[1] + 60, C.AMBER, BOWEL[0], BOWEL[1] - 6, A2 * seg(t, 16.5, 0.5), 15);
+  }
+  K.card(640, 130, 590, 130, C.AMBER, 'Arma blanca', ['El trayecto es una línea recta', 'Lesiona lo que está en el camino'], fade(t, 12, 19.5), 18);
+
+  // 3) arma de fuego: cavitación → intestino delgado, colon
+  const A3 = fade(t, 20.5, 28.5);
+  if (A3 > 0) {
+    const a = P(110, 1070), b = P(430, 1000), k = ease(seg(t, 21, 1.6));
+    ctx.save(); clipL(); ctx.globalAlpha = A3; ctx.strokeStyle = 'rgba(30,30,30,0.9)'; ctx.setLineDash([2, 7]); ctx.lineWidth = 5; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(a[0] - 30, a[1] + 8); ctx.lineTo(lerp(a[0] - 30, b[0], k), lerp(a[1] + 8, b[1], k)); ctx.stroke(); ctx.setLineDash([]);
+    const bx = lerp(a[0] - 30, b[0], k), by = lerp(a[1] + 8, b[1], k); ctx.fillStyle = '#C79A3B'; ctx.beginPath(); ctx.arc(bx, by, 7, 0, 7); ctx.fill(); ctx.restore();
+    shock(BOWEL[0] - 30, BOWEL[1] + 10, seg(t, 22.4, 2.2), '#FF5A4E');
+    shock(BOWEL[0] + 70, BOWEL[1] - 10, seg(t, 23.2, 2.2), '#FF5A4E');
+    label('Intestino delgado primero', BOWEL[0] + 50, BOWEL[1] - 105, C.RED, BOWEL[0], BOWEL[1] - 4, A3 * seg(t, 23.5, 0.5), 16);
+    label('Muy cerca, el colon', COLON[0] - 20, COLON[1] + 60, C.AMBER, COLON[0], COLON[1], A3 * seg(t, 25, 0.5), 15);
+  }
+  K.card(640, 130, 590, 130, C.RED, 'Arma de fuego', ['La cavitación daña tejido lejos del trayecto', 'Delgado primero, colon muy cerca'], fade(t, 21, 28.5), 18);
+
+  K.banner(640, 520, 590, 'Cerrado: bazo · blanca: hígado · fuego: intestino', C.AMBER, seg(t, 28.5, 0.5));
+  K.credit('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios');
+};
+LOAD({ abd: '../assets/blausen/abdomen_organos.png' });
+</script>
+</body></html>

@@ -55,7 +55,11 @@ module.exports = {
           { t: 'Distribución centrípeta', d: 'Cuero cabelludo, cara y tronco',
             say: 'El exantema tiene dos claves. La primera es la distribución centrípeta: predomina en el cuero cabelludo, la cara y el tronco, y respeta relativamente la parte distal de las extremidades.' },
           { t: 'Polimorfismo regional', d: 'Máculas, pápulas, vesículas y costras juntas',
-            say: 'La segunda es el polimorfismo regional, el cielo estrellado: en una misma zona conviven máculas, pápulas, vesículas, pústulas y costras. Las vesículas son claras sobre una base roja, como gotas de rocío sobre un pétalo de rosa.' },
+            say: 'La segunda es el polimorfismo regional, el cielo estrellado: en una misma zona conviven máculas, pápulas, vesículas, pústulas y costras, como ves en estas lesiones y en esta espalda. Las vesículas son claras sobre una base roja, como gotas de rocío sobre un pétalo de rosa.',
+            photos: [
+              { src: 'biblioteca/07_infectologia/infecto-23/01_varicela__cto-infecto_p127.jpg', label: 'Varicela', at: 'como ves en estas lesiones', credit: 'Manual CTO Infecciosas 14.ª ed., p. 127' },
+              { src: 'biblioteca/07_infectologia/infecto-23/01_varicela_alt1_2__amir-infecto_p127.jpg', label: 'Varicela: cielo estrellado', at: 'y en esta espalda', credit: 'Manual AMIR Infecciosas, p. 127' },
+            ] },
         ] },
         { title: 'Prevención', tag: 'PNI', kind: 'normal', items: [
           { t: 'Vacuna antivaricela', d: 'A los 18 y 36 meses',
@@ -114,7 +118,8 @@ module.exports = {
         { show: ['cli'], note: 'Insuficiencia respiratoria rápida',
           say: 'El paciente hace tos seca, disnea súbita, taquipnea, a veces hemoptisis, e hipoxemia severa.' },
         { show: ['rx'], note: 'Imagen nodular difusa',
-          say: 'La radiografía muestra infiltrados nodulares difusos en ambos pulmones. La mortalidad supera el veinte a treinta por ciento.' },
+          say: 'En esta radiografía se ven infiltrados nodulares difusos en ambos pulmones. La mortalidad supera el veinte a treinta por ciento.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-23/03_neumonitis-varicelosa__brant_p491.jpg', label: 'Neumonitis varicelosa', at: 'En esta radiografía', credit: 'Brant & Helms, Fundamentals of Diagnostic Radiology, p. 491' } },
         { show: ['aci'], note: 'Endovenoso y ya',
           say: 'Por eso exige aciclovir endovenoso inmediato, diez miligramos por kilo cada ocho horas, con soporte en cuidados intensivos.' },
         { show: ['ora'], note: 'La trampa: la vía oral',
@@ -131,7 +136,8 @@ module.exports = {
           { t: 'Dolor neuropático urente', d: 'Precede a las lesiones',
             say: 'Volvamos al virus dormido. El herpes zóster parte con dolor: un ardor neuropático en una franja de la piel, muchas veces antes de que se vea nada.' },
           { t: 'Dermatoma unilateral estricto', d: 'No cruza la línea media',
-            say: 'Después aparecen vesículas en racimo sobre ese dermatoma, estrictamente unilateral. No cruza la línea media, porque sigue un solo nervio.' },
+            say: 'Después aparecen, como ves aquí, vesículas en racimo sobre ese dermatoma, estrictamente unilateral. No cruza la línea media, porque sigue un solo nervio.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-23/02_herpes-zoster__amir-infecto_p128.jpg', label: 'Herpes zóster', at: 'como ves aquí', credit: 'Manual AMIR Infecciosas, p. 128' } },
         ] },
         { title: 'Tratamiento', tag: 'Primeras 72 horas', kind: 'pharma', items: [
           { t: 'Aciclovir 800 mg 5 veces al día', d: 'Por 7 días',
@@ -153,7 +159,8 @@ module.exports = {
       cards: [
         { title: 'Zóster oftálmico', tag: 'V1 del trigémino', kind: 'alert', items: [
           { t: 'Signo de Hutchinson', d: 'Vesícula en la punta de la nariz',
-            say: 'Hay dos formas que se preguntan. La primera es el zóster oftálmico, de la primera rama del trigémino. Mira la punta de la nariz: si hay vesículas ahí, es el signo de Hutchinson.' },
+            say: 'Hay dos formas que se preguntan. La primera es el zóster oftálmico, de la primera rama del trigémino. Mira la punta de la nariz en este paciente: si hay vesículas ahí, es el signo de Hutchinson.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-23/03_zoster-oftalmico__amir-infecto_p128.jpg', label: 'Zóster oftálmico', at: 'Mira la punta de la nariz en este paciente', credit: 'Manual AMIR Infecciosas, p. 128' } },
           { t: 'Predice daño corneal', d: 'Queratitis, uveítis, ceguera',
             say: '¿Por qué importa? Porque la punta de la nariz la inerva el nervio nasociliar, el mismo que inerva el ojo. Predice compromiso corneal grave: queratitis, uveítis y hasta ceguera.' },
           { t: 'Aciclovir sistémico', d: 'Más oftalmología urgente',
@@ -163,7 +170,8 @@ module.exports = {
           { t: 'Parálisis facial periférica', d: 'Más otalgia intensa',
             say: 'La segunda es el síndrome de Ramsay-Hunt, cuando el virus despierta en el ganglio geniculado del séptimo par. Da una parálisis facial periférica con otalgia intensa.' },
           { t: 'Vesículas en el conducto auditivo', d: 'O en el pabellón',
-            say: 'Y la pista para no confundirla con una parálisis de Bell: vesículas en el conducto auditivo externo o en el pabellón. Siempre mira la oreja. Se trata con aciclovir oral en dosis altas más corticoides.' },
+            say: 'Y la pista para no confundirla con una parálisis de Bell: vesículas en el conducto auditivo externo o en el pabellón. Siempre mira la oreja: mira estas vesículas y costras en la concha. Se trata con aciclovir oral en dosis altas más corticoides.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-23/04_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg', label: 'Ramsay-Hunt: la oreja', at: 'mira estas vesículas', credit: 'Bailey & Love 27.ª ed., Fig. 46.30b' } },
         ] },
       ],
     },
@@ -179,43 +187,6 @@ module.exports = {
       steps: [
         { note: 'Dormido en el ganglio',
           say: 'Después de la varicela, el virus queda dormido en un ganglio sensitivo. Años después, con la edad o la inmunosupresión, reactiva y viaja por ese nervio: primero hay dolor quemante y luego aparecen vesículas agrupadas sobre una base roja, en una franja que no cruza la línea media.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Varicela y zóster',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-23/01_varicela__cto-infecto_p127.jpg', label: 'Varicela', credit: 'Manual CTO Infecciosas 14.ª ed., p. 127' },
-        { src: 'biblioteca/07_infectologia/infecto-23/02_herpes-zoster__amir-infecto_p128.jpg', label: 'Herpes zóster', credit: 'Manual AMIR Infecciosas, p. 128' },
-        { src: 'biblioteca/07_infectologia/infecto-23/03_zoster-oftalmico__amir-infecto_p128.jpg', label: 'Zóster oftálmico', credit: 'Manual AMIR Infecciosas, p. 128' },
-      ],
-      steps: [
-        { note: 'Lesiones en distintas etapas',
-          say: 'La varicela muestra lesiones en distintas etapas a la vez: máculas, vesículas y costras.' },
-        { note: 'Siguiendo un dermatoma',
-          say: 'El zóster sigue un dermatoma y no cruza la línea media.' },
-        { note: 'Requiere evaluación ocular',
-          say: 'Y el zóster oftálmico obliga a evaluar el ojo.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Cielo estrellado y Ramsay-Hunt',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-23/01_varicela_alt1_2__amir-infecto_p127.jpg', label: 'Varicela: cielo estrellado', credit: 'Manual AMIR Infecciosas, p. 127' },
-        { src: 'biblioteca/07_infectologia/infecto-23/04_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg', label: 'Ramsay-Hunt: vesículas y costras en la concha', credit: 'Bailey & Love 27.ª ed., Fig. 46.30b' },
-      ],
-      steps: [
-        { note: 'Lesiones en distintas etapas',
-          say: 'En esta espalda se ve el cielo estrellado de la varicela: en una misma zona conviven pápulas, vesículas y costras. Ese polimorfismo regional es la firma de la enfermedad.' },
-        { note: 'Mira la oreja',
-          say: 'Y estas son vesículas y costras en la concha de la oreja: el síndrome de Ramsay-Hunt. Si hay parálisis facial, mira la oreja antes de llamarla parálisis de Bell.' },
       ],
     },
 

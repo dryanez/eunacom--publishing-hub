@@ -133,6 +133,67 @@ module.exports = {
       ],
     },
 
+
+    {
+      type: 'points',
+      kicker: 'Síntomas físicos sin causa',
+      title: 'Trastornos somatomorfos',
+      cards: [
+        { title: 'Cómo se sospechan', tag: 'Involuntarios', kind: 'criteria', items: [
+          { t: 'Síntomas físicos sin causa orgánica', d: 'Malestar, deterioro y exámenes repetidos',
+            say: 'Se sospechan ante síntomas físicos que causan malestar y deterioro sin una causa orgánica que los explique, con preocupación desproporcionada, búsqueda reiterada de atención y exámenes repetidos.' },
+          { t: 'Somatización, hipocondría, dolor persistente', d: 'Somatización: varios sistemas, antes de los 30 años',
+            say: 'La somatización son múltiples síntomas en varios sistemas, con inicio antes de los treinta años y curso crónico. La hipocondría es el miedo a tener una enfermedad grave pese a estudios normales. Y también existe el dolor somatomorfo persistente.' },
+          { t: 'No fingen: son involuntarios', d: 'Ahí está la diferencia con facticio y simulación',
+            say: 'Y esto se pregunta: son involuntarios. El paciente no finge, y esa es la diferencia con el trastorno facticio y con la simulación.' },
+        ] },
+        { title: 'Trastorno conversivo', tag: 'Déficit funcional', kind: 'key', items: [
+          { t: 'Déficit neurológico sin lesión', d: 'Parálisis, afonía, ceguera, crisis no epilépticas',
+            say: 'El trastorno conversivo produce un déficit motor o sensitivo incompatible con una lesión, como parálisis, afonía, ceguera o convulsiones no epilépticas, tras un estrés psicológico.' },
+          { t: 'Examen inconsistente, estudios normales', d: 'Signo de Hoover positivo',
+            say: 'El examen muestra inconsistencias, por ejemplo un signo de Hoover positivo, y las imágenes y los exámenes son normales. Tiene buen pronóstico si se explica con claridad y se rehabilita.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Manejo en APS',
+      title: 'Somatomorfo: el manejo inicial',
+      nodes: [
+        { id: 'a', col: 0, row: 1, k: 'start', t: 'Evaluación orgánica razonable', s: 'Una vez, bien hecha' },
+        { id: 'b', col: 1, row: 1, k: 'good', t: 'Reconocer el sufrimiento', s: 'El síntoma es real' },
+        { id: 'c', col: 2, row: 1, k: 'effect', t: 'Controles regulares', s: 'Programados, mismo médico' },
+        { id: 'd', col: 3, row: 0, k: 'mech', t: 'ISRS y TCC', s: 'Si hay depresión o ansiedad' },
+        { id: 'e', col: 3, row: 2, k: 'trap', t: 'Evitar', s: 'Exámenes repetidos, benzodiacepinas, opioides' },
+        { id: 'f', col: 4, row: 1, k: 'refer', t: 'Derivar', s: 'Mala respuesta, riesgo suicida, duda' },
+      ],
+      edges: [
+        { from: 'a', to: 'b' }, { from: 'b', to: 'c' }, { from: 'c', to: 'd' }, { from: 'c', to: 'e' }, { from: 'd', to: 'f' },
+      ],
+      steps: [
+        { show: ['a', 'b'], note: 'Examinar bien una vez y validar',
+          say: 'El manejo parte con una evaluación orgánica razonable, y no repetir los exámenes sin una indicación clínica nueva. Después, reconocer el sufrimiento y explicar que el síntoma es real. Nunca decir que es cosa de la cabeza.' },
+        { show: ['c', 'd', 'e'], note: 'Controles programados, no a demanda',
+          say: 'Controles programados y regulares, no a demanda, con el mismo médico. Si hay depresión o ansiedad comórbida, ISRS y terapia cognitivo conductual. Y se evitan las benzodiacepinas y los opioides.' },
+        { show: ['f'], note: 'Derivar si no mejora o hay riesgo',
+          say: 'Se deriva a psiquiatría ante mala respuesta, riesgo suicida, comorbilidad grave o diagnóstico dudoso.' },
+      ],
+    },
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Tres plazos, tres cuadros',
+      images: [
+        { src: 'animaciones/psiq-05/A1_plazos_adaptativo_distimia.mp4', label: 'Adaptativo, depresión mayor y distimia', credit: 'Gráfico y animación propios' },
+      ],
+      steps: [
+        { note: 'Estresor, gravedad y tiempo',
+          say: 'Mira los plazos. El adaptativo nace de un estresor, los síntomas aparecen dentro de tres meses, y cuando el estresor cesa remite en menos de seis. La depresión mayor exige cinco de nueve síntomas por al menos dos semanas. Y la distimia es ánimo bajo crónico, dos años en adultos y uno en niños. Si sobre esa base aparece un episodio mayor, es una depresión doble y se trata el episodio.' },
+      ],
+    },
+
     {
       type: 'pathway',
       intro: 'Armemos el árbol: del cuadro depresivo a su diagnóstico y conducta.',
@@ -171,6 +232,8 @@ module.exports = {
           say: 'En niños y adolescentes basta un año. Pero si ya completa los criterios de depresión mayor, es depresión mayor.' },
         { cells: ['Distimia más episodio mayor', 'Depresión doble', 'Tratar solo la distimia'],
           say: 'Distimia con un episodio mayor encima es depresión doble: se trata el episodio y se optimiza el tratamiento de base.' },
+        { cells: ['Síntomas físicos sin causa, no finge', 'Controles regulares; sin repetir exámenes', 'Benzodiacepinas o más estudios'],
+          say: 'Si hay síntomas físicos sin causa y el paciente no finge, es somatomorfo: controles regulares, ISRS y terapia, sin repetir exámenes ni dar benzodiacepinas.' },
       ],
     },
 
@@ -287,6 +350,44 @@ module.exports = {
         options: 'Las opciones: adaptativo con reposo; distimia con ISRS prolongado y psicoterapia; trastorno esquizoide con antipsicóticos; episodio único con suspensión a los tres meses; o ciclotimia con valproato. Piénsalo.',
         answer: 'Es la B. Más de diez años de ánimo bajo continuo, con baja energía y baja autoestima y sin períodos libres de más de dos meses: distimia. Se trata con ISRS a largo plazo y psicoterapia cognitivo-conductual. El adaptativo necesita un estresor reciente, y no hay euforia que sugiera ciclotimia.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2016 · Pregunta 57",
+      "stem": "Paciente de 33 años que hace 5 años comienza con síntomas recurrentes y variables: molestias genitourinarias y gastrointestinales, asociadas a mareos y prurito. Ha consultado en reiteradas ocasiones a especialistas, quienes han descartado enfermedad orgánica, llegando incluso a realizarse una laparoscopía exploradora sin alteraciones. Sus síntomas le impiden trabajar.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hipocondría"
+        },
+        {
+          "letter": "B",
+          "text": "Trastorno facticio"
+        },
+        {
+          "letter": "C",
+          "text": "Trastorno de personalidad"
+        },
+        {
+          "letter": "D",
+          "text": "Trastorno de somatización"
+        },
+        {
+          "letter": "E",
+          "text": "Simulación"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Múltiples síntomas somáticos de distintos sistemas, recurrentes por años, sin causa orgánica, con consultas reiteradas, procedimientos innecesarios y deterioro funcional definen el trastorno de somatización (hoy trastorno de síntomas somáticos). En la hipocondría predomina el miedo a tener una enfermedad grave; en el facticio y la simulación los síntomas se producen voluntariamente.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil dieciséis. Mujer con cinco años de síntomas variados genitourinarios, digestivos, mareos y prurito, muchos especialistas, hasta una laparoscopía normal, y sin poder trabajar.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: hipocondría, trastorno facticio, trastorno de personalidad, somatización o simulación. Piénsalo.",
+        "answer": "Es la D. Muchos síntomas en distintos sistemas, por años y sin causa orgánica, es somatización. La hipocondría tienta, pero ahí lo central es el miedo a tener una enfermedad grave, no los síntomas múltiples."
+      }
     },
 
     {

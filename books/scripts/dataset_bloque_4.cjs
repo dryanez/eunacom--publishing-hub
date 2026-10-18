@@ -186,6 +186,15 @@ module.exports = { bloque4: [
           "<em>Semiología del 'Ritmo de Duroziez' (4 Componentes Clásicos):</em><br>1) <strong>Primer Ruido Cardíaco (R1) Brillante / Acentuado</strong> (por cierre enérgico de valvas rígidas pero móviles).<br>2) <strong>Sístole 'Limpia'</strong> (sin soplo sistólico).<br>3) <strong>Segundo Ruido Cardíaco (R2) seguido de un Chasquido de Apertura Mitral (Opening Snap)</strong>.<br>4) <strong>Retumbo / Rodada Diastólica con Refuerzo Presistólico</strong> (el refuerzo desaparece si el paciente entra en Fibrilación Auricular).",
           "• <em>Manejo Terapéutico:</em> 1) Anticoagulación oral obligatoria si hay FA o trombos; 2) <strong>Valvuloplastía Mitral Percutánea con Balón de Inoue:</strong> De elección si las valvas son favorables y el <strong>Score Ecocardiográfico de Wilkins es ≤ 8 puntos</strong> (sin calcificación comisural ni insuficiencia mitral significativa)."
         ]
+      },
+      {
+        "subhead": "3. Insuficiencia Aórtica: Ecocardiograma, Tratamiento Inicial e Indicación Quirúrgica",
+        "paragraphs": [
+          "El diagnóstico y la severidad de la IAo se establecen con <b>ecocardiograma Doppler color</b>, que muestra el chorro regurgitante diastólico hacia el VI en los ejes paraesternales largo y corto, y mide el tamaño y la función del ventrículo. Es <b>severa</b> si la vena contracta es > 6 mm, el ancho del chorro ocupa > 65% del tracto de salida, el volumen regurgitante es ≥ 60 mL/latido o la fracción regurgitante ≥ 50%. Se miden además el <b>diámetro de fin de sístole (DFSVI)</b>, el de fin de diástole, la <b>FEVI</b> y la raíz aórtica. La radiografía de tórax muestra cardiomegalia con VI «en bota» y el ECG hipertrofia ventricular izquierda. La causa se busca siempre: válvula bicúspide, dilatación de la raíz (HTA, síndrome de Marfan), <b>disección aórtica tipo A</b>, endocarditis, fiebre reumática, sífilis y espondiloartritis.",
+          "<b>Tratamiento inicial de la IAo crónica:</b> el paciente asintomático con VI de tamaño y función conservados <b>no se opera</b>: se controla la presión arterial con <b>vasodilatadores (IECA/ARA2 o calcioantagonistas dihidropiridínicos como amlodipino o nifedipino)</b>, con meta < 130/80 mmHg, se trata la causa y se repite el ecocardiograma cada 6 a 12 meses si es severa (cada 1 a 2 años si es moderada). Los betabloqueadores se usan con cautela, porque la bradicardia alarga la diástole y aumenta el volumen regurgitante. El tratamiento médico no cambia la historia natural: no reemplaza la cirugía cuando hay indicación. En la IC sintomática se agregan diuréticos e IECA como puente a la cirugía. Se deriva siempre a cardiología para el seguimiento.",
+          "<b>Indicaciones de reemplazo valvular aórtico (SAVR):</b> 1) IAo severa <b>sintomática</b> (disnea, angina o síncope), aunque la FEVI sea normal; 2) IAo severa asintomática con <b>FEVI ≤ 55%</b> (≤ 50% en la guía europea); 3) IAo severa asintomática con <b>DFSVI > 50 mm</b> (o > 25 mm/m²) o dilatación progresiva del VI; 4) IAo severa en un paciente que se opera por otra causa cardíaca (by-pass, otra válvula); 5) dilatación de la raíz o de la aorta ascendente ≥ 55 mm (≥ 45 a 50 mm si hay síndrome de Marfan o válvula bicúspide), con cirugía de la aorta. El TAVI se reserva para casos seleccionados de alto riesgo quirúrgico. La derivación debe ser <b>antes</b> de la disfunción del VI, porque la FEVI se recupera mal si se opera tarde.",
+          "<b>Insuficiencia aórtica aguda</b> (endocarditis, disección aórtica tipo A, trauma): el VI no está dilatado ni adaptado, por lo que hay <b>edema pulmonar, taquicardia y shock</b> con presión de pulso poco amplia y un soplo corto y suave, a diferencia de la forma crónica. Es una <b>emergencia quirúrgica</b>. Mientras se traslada: diuréticos, <b>vasodilatadores (nitroprusiato) e inotrópicos (dobutamina)</b>, y se <b>evitan los betabloqueadores</b> (suprimen la taquicardia compensadora) y el balón de contrapulsación aórtico (contraindicado)."
+        ]
       }
     ],
     "table": {
@@ -570,6 +579,351 @@ module.exports = { bloque4: [
         ],
         "correcta": "A",
         "explicacion": "La Coartación Aórtica se presenta típicamente como hipertensión arterial en pacientes jóvenes con marcada asimetría de pulsos (braquiales fuertes vs femorales débiles) y signo radiológico de Roesler (muescas costales por dilatación de arterias intercostales colaterales)."
+      }
+    ]
+  },
+  {
+    "id": "cardio-24",
+    "tier": 3,
+    "blockNum": 4,
+    "blockName": "Valvulopatías & Semiología Cardiovascular",
+    "topicLabel": "4.5",
+    "title": "Endocarditis Infecciosa: Criterios de Duke, Tratamiento y Profilaxis",
+    "perfilCode": "1.01.1.007, 1.04.2.003, 1.04.3.007",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Sin garantía GES específica para la endocarditis · el recambio valvular quirúrgico se resuelve en centro de referencia",
+    "reconstrucciones": "EUNACOM Julio 2016 (Q#115) · EUNACOM Julio 2017 (Q#70) · EUNACOM Diciembre 2017 (Q#63) · EUNACOM Diciembre 2018 (Q#123) · EUNACOM Julio 2025 (Q#136)",
+    "frecuencia": "Alta rentabilidad · fiebre con soplo y fenómenos embólicos, hemocultivos antes del antibiótico, Streptococcus viridans con penicilina y profilaxis solo en alto riesgo",
+    "svg": "null",
+    "algoTitle": "Sospecha y Manejo Inicial de la Endocarditis Infecciosa",
+    "contexto": "La endocarditis infecciosa es una infección de la superficie endocárdica, casi siempre valvular, que mata a más de 1 de cada 5 pacientes si no se sospecha a tiempo. Se debe pensar en ella ante toda fiebre con un soplo nuevo o cambiante, o ante fiebre prolongada en un portador de prótesis valvular, valvulopatía o drogadicción endovenosa. El médico general debe tomar tres hemocultivos antes del primer antibiótico, pedir un ecocardiograma, aplicar los criterios de Duke y derivar. También le corresponde indicar la profilaxis, que hoy se limita a pacientes de alto riesgo sometidos a procedimientos dentales.",
+    "contentSections": [
+      {
+        "subhead": "1. Sospecha Clínica: Cuándo Pensar en Endocarditis y Qué Pedir",
+        "paragraphs": [
+          "La <b>endocarditis infecciosa (EI)</b> es la infección microbiana del endocardio, con formación de <b>vegetaciones</b> (fibrina, plaquetas y gérmenes) sobre las válvulas, el endotelio mural o material protésico. Se sospecha ante <b>fiebre con un soplo nuevo o que cambia</b>, fenómenos embólicos o inmunológicos, o fiebre prolongada sin foco en un paciente de riesgo. Los factores de riesgo son: <b>prótesis valvular</b>, valvulopatía previa (degenerativa, reumática, válvula aórtica bicúspide, prolapso mitral con insuficiencia), cardiopatía congénita, <b>EI previa</b>, <b>consumo de drogas endovenosas</b>, dispositivos intracardíacos, catéteres y hemodiálisis, y procedimientos dentales o quirúrgicos.",
+          "<b>Formas clínicas:</b> la <b>endocarditis subaguda</b> (días a semanas) afecta válvulas previamente dañadas y la causa más frecuente es <b>Streptococcus viridans</b> (origen dental): fiebre, astenia, baja de peso, soplo y fenómenos inmunológicos. La <b>endocarditis aguda</b> (menos de 7 días, compromiso séptico) la produce <b>Staphylococcus aureus</b>, incluso sobre válvulas sanas, y es típica del consumo de drogas endovenosas, donde compromete la <b>válvula tricúspide</b> y causa embolias sépticas pulmonares. Otros gérmenes: <b>enterococo</b> (origen urinario o digestivo), <b>Streptococcus gallolyticus (bovis)</b> (obliga a hacer colonoscopia), estafilococos coagulasa negativos y S. aureus en la <b>endocarditis protésica precoz</b> (posterior a la cirugía), grupo <b>HACEK</b>, hongos, y Coxiella o Bartonella en las de hemocultivo negativo.",
+          "<b>Hallazgos del examen:</b> fiebre, soplo, esplenomegalia y los signos periféricos: <b>petequias</b> (conjuntivas, paladar, extremidades), <b>hemorragias en astilla</b> subungueales, <b>nódulos de Osler</b> (dolorosos, en la pulpa de los dedos; inmunológicos), <b>lesiones de Janeway</b> (máculas eritematosas indoloras en palmas y plantas; embolias sépticas) y <b>manchas de Roth</b> (hemorragias retinianas de centro pálido; inmunológicas). Las complicaciones definen el pronóstico: <b>insuficiencia valvular aguda con insuficiencia cardíaca</b> (la primera causa de cirugía y de muerte), absceso perivalvular (PR que se alarga o bloqueo AV nuevo), embolias (cerebrales, esplénicas, renales), aneurismas micóticos y glomerulonefritis.",
+          "<b>Exámenes iniciales:</b> <b>tres hemocultivos de sitios distintos antes de la primera dosis de antibiótico</b> (sin esperar el peak febril; es el examen de elección para el diagnóstico etiológico); hemograma con leucocitosis, <b>VHS y PCR elevadas</b>, anemia de enfermedad crónica, sedimento de orina con hematuria y factor reumatoideo. El <b>ecocardiograma transtorácico</b> se pide a todos los pacientes con sospecha; el <b>transesofágico</b> se usa si el estudio transtorácico es negativo con alta sospecha, en portadores de prótesis o si se sospechan complicaciones. Un ecocardiograma normal no descarta la endocarditis si la sospecha clínica es alta: se repite en 7 a 10 días."
+        ]
+      },
+      {
+        "subhead": "2. Criterios de Duke Modificados: Cómo se Confirma el Diagnóstico",
+        "paragraphs": [
+          "El diagnóstico se apoya en los <b>criterios de Duke modificados</b>. <b>Criterios mayores:</b> 1) <b>hemocultivos positivos</b> para un germen típico (S. viridans, S. gallolyticus, HACEK, S. aureus o enterococo adquirido en la comunidad) en <b>al menos 2 muestras separadas</b>, o hemocultivos persistentemente positivos, o serología positiva para Coxiella burnetii; 2) <b>evidencia de compromiso endocárdico</b>: ecocardiograma con vegetación, absceso o dehiscencia nueva de una prótesis, o <b>regurgitación valvular nueva</b>.",
+          "<b>Criterios menores:</b> 1) <b>predisposición</b> (cardiopatía de riesgo o consumo de drogas endovenosas); 2) <b>fiebre ≥ 38 °C</b>; 3) <b>fenómenos vasculares</b> (embolias arteriales, infartos pulmonares sépticos, aneurismas micóticos, hemorragia intracraneal, hemorragias conjuntivales, lesiones de Janeway); 4) <b>fenómenos inmunológicos</b> (glomerulonefritis, nódulos de Osler, manchas de Roth, factor reumatoideo); 5) evidencia microbiológica que no cumple un criterio mayor.",
+          "<b>Interpretación:</b> la endocarditis es <b>definida</b> con <b>2 criterios mayores</b>, o <b>1 mayor + 3 menores</b>, o <b>5 menores</b>; es <b>posible</b> con 1 mayor + 1 menor o con 3 menores; se <b>descarta</b> si hay un diagnóstico alternativo firme o la fiebre cede con menos de 4 días de antibiótico. Para el médico general el criterio no es un requisito para actuar: ante sospecha razonable se toman los hemocultivos, se pide el ecocardiograma y se <b>deriva a un centro con equipo de endocarditis</b> (cardiología, infectología y cirugía cardíaca). Las guías más recientes agregan el PET-TC y la TC cardíaca para las prótesis."
+        ]
+      },
+      {
+        "subhead": "3. Tratamiento Inicial, Antibiótico Dirigido e Indicación Quirúrgica",
+        "paragraphs": [
+          "<b>Conducta inicial (nivel inicial y derivación):</b> hospitalizar, tomar los hemocultivos y comenzar el <b>antibiótico endovenoso empírico sin esperar el resultado</b> en el paciente séptico o con insuficiencia cardíaca. Para la válvula nativa adquirida en la comunidad se usa <b>ampicilina + cloxacilina + gentamicina</b>; si hay prótesis, atención sanitaria previa o riesgo de SARM, <b>vancomicina + gentamicina</b> (en prótesis se agrega rifampicina más tarde). El esquema se ajusta de inmediato al germen aislado y al antibiograma. Se evitan los anticoagulantes si no son indispensables, por el riesgo de hemorragia por embolia cerebral.",
+          "<b>Tratamiento dirigido y duración (siempre endovenoso y prolongado):</b> <b>S. viridans sensible a penicilina:</b> <b>penicilina sódica</b> o ceftriaxona por <b>4 semanas</b> en válvula nativa y <b>6 semanas</b> en prótesis; <b>S. aureus sensible a meticilina:</b> <b>cloxacilina</b> por 4 a 6 semanas; <b>S. aureus resistente (SARM):</b> <b>vancomicina</b>; <b>enterococo:</b> ampicilina + ceftriaxona (o gentamicina) por 6 semanas; <b>endocarditis protésica precoz</b> (por S. aureus o epidermidis): vancomicina + gentamicina + rifampicina por al menos 6 semanas. Se controlan hemocultivos tras 48 a 72 horas, la función renal (aminoglucósidos y vancomicina) y se hace un ecocardiograma al terminar el tratamiento.",
+          "<b>Indicaciones de cirugía valvular</b> (se decide con el equipo en el centro de referencia): 1) <b>insuficiencia cardíaca</b> por disfunción valvular severa, la más frecuente y urgente; 2) <b>infección no controlada</b>: absceso, fístula, bloqueo AV nuevo, hemocultivos positivos o fiebre persistentes después de 7 a 10 días de tratamiento adecuado; 3) <b>prevención de embolias</b>: vegetación grande (> 10 mm) con una o más embolias, o > 15 mm; 4) germen difícil de erradicar (hongos, bacilos gramnegativos multirresistentes, SARM persistente); 5) endocarditis protésica con dehiscencia o disfunción. La cirugía es <b>urgente</b> (en 24 horas) si hay shock o edema pulmonar refractario.",
+          "<b>Endocarditis derecha</b> (usuarios de drogas endovenosas): la vegetación en la <b>tricúspide</b> por S. aureus causa embolias sépticas pulmonares (nódulos cavitados, fiebre, hemoptisis) y casi nunca insuficiencia cardíaca izquierda; se trata con cloxacilina y se opera solo si falla el tratamiento. Después del alta: control dental, <b>abstención del consumo de drogas</b>, educación sobre síntomas y profilaxis en los controles futuros por ser de alto riesgo."
+        ]
+      },
+      {
+        "subhead": "4. Profilaxis de la Endocarditis Infecciosa",
+        "paragraphs": [
+          "La profilaxis antibiótica ya <b>no se indica a todos los portadores de valvulopatía</b>; se reserva a los pacientes de <b>alto riesgo de endocarditis con mala evolución</b>: 1) <b>prótesis valvular</b> (mecánica, biológica o transcatéter) o material protésico usado en la reparación valvular; 2) <b>endocarditis previa</b>; 3) <b>cardiopatía congénita</b> cianótica no reparada, o reparada con material protésico durante los primeros 6 meses, o con defectos residuales junto al material; 4) trasplante cardíaco con valvulopatía.",
+          "<b>¿Para qué procedimientos?</b> Solo para los <b>dentales</b> que manipulan la encía, la región periapical del diente o perforan la mucosa oral (extracciones, cirugía, limpieza profunda). <b>No se indica</b> en procedimientos digestivos (endoscopia, colonoscopia), genitourinarios, ginecológicos, partos, ni en broncoscopia sin biopsia, ni en pacientes con <b>valvulopatía nativa</b> (estenosis aórtica, estenosis o insuficiencia mitral, prolapso mitral), cardiopatía isquémica o marcapasos.",
+          "<b>Esquema:</b> <b>amoxicilina 2 g vía oral en dosis única, 30 a 60 minutos antes del procedimiento</b> (niños 50 mg/kg); si no puede usar la vía oral, ampicilina 2 g EV o IM, o cefazolina o ceftriaxona 1 g EV. En alérgicos a penicilina: <b>azitromicina o claritromicina 500 mg</b> o doxiciclina 100 mg por vía oral (la clindamicina ya no se recomienda). No se dan dosis posteriores. La mejor prevención es la <b>higiene dental</b> y el control odontológico periódico, que reducen las bacteriemias espontáneas."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Criterios de Duke Modificados: Mayores y Menores",
+      "headers": [
+        "Tipo",
+        "Criterio",
+        "Clave de Examen"
+      ],
+      "rows": [
+        [
+          "Mayor",
+          "Hemocultivos positivos para germen típico en ≥ 2 muestras separadas (o persistentes)",
+          "S. viridans, S. gallolyticus, HACEK, S. aureus, enterococo comunitario"
+        ],
+        [
+          "Mayor",
+          "Compromiso endocárdico: vegetación, absceso, dehiscencia protésica o regurgitación nueva",
+          "Ecocardiograma transtorácico a todos; transesofágico si prótesis o duda"
+        ],
+        [
+          "Menor",
+          "Predisposición (cardiopatía de riesgo, drogas endovenosas) y fiebre ≥ 38 °C",
+          "Prótesis, EI previa, congénita, usuario de drogas"
+        ],
+        [
+          "Menor",
+          "Fenómenos vasculares: embolias, infarto pulmonar séptico, aneurisma micótico, Janeway",
+          "Indoloros: Janeway"
+        ],
+        [
+          "Menor",
+          "Fenómenos inmunológicos: glomerulonefritis, Osler, Roth, factor reumatoideo",
+          "Dolorosos: Osler · retina: Roth"
+        ],
+        [
+          "Diagnóstico",
+          "Definida: 2 mayores, o 1 mayor + 3 menores, o 5 menores",
+          "Posible: 1 mayor + 1 menor, o 3 menores"
+        ]
+      ]
+    },
+    "severityTable": {
+      "title": "Profilaxis de Endocarditis: Quién, Cuándo y Cómo",
+      "headers": [
+        "Pregunta",
+        "Respuesta",
+        "Clave de Examen"
+      ],
+      "rows": [
+        [
+          "¿Quién?",
+          "Prótesis valvular, EI previa, cardiopatía congénita cianótica o reparada con material",
+          "La valvulopatía nativa NO requiere profilaxis"
+        ],
+        [
+          "¿Cuándo?",
+          "Procedimiento dental con manipulación gingival, periapical o perforación de mucosa",
+          "No en endoscopia, colonoscopia, partos ni procedimientos urinarios"
+        ],
+        [
+          "¿Con qué?",
+          "Amoxicilina 2 g vía oral, 30 a 60 minutos antes",
+          "Dosis única: no se repite después"
+        ],
+        [
+          "Alérgico a penicilina",
+          "Azitromicina o claritromicina 500 mg, o doxiciclina 100 mg",
+          "Evitar clindamicina"
+        ]
+      ]
+    },
+    "treatmentTable": {
+      "title": "Endocarditis: Germen Probable y Antibiótico Dirigido",
+      "headers": [
+        "Contexto",
+        "Germen",
+        "Tratamiento y Duración"
+      ],
+      "rows": [
+        [
+          "Subaguda, válvula nativa, origen dental",
+          "Streptococcus viridans",
+          "Penicilina sódica o ceftriaxona 4 semanas (prótesis: 6 semanas)"
+        ],
+        [
+          "Aguda, usuario de drogas endovenosas, tricúspide",
+          "Staphylococcus aureus",
+          "Cloxacilina 4 a 6 semanas (SARM: vancomicina)"
+        ],
+        [
+          "Protésica precoz (postcirugía)",
+          "S. aureus, S. epidermidis",
+          "Vancomicina + gentamicina + rifampicina, al menos 6 semanas"
+        ],
+        [
+          "Origen urinario o digestivo",
+          "Enterococo",
+          "Ampicilina + ceftriaxona (o gentamicina) 6 semanas"
+        ],
+        [
+          "Colon o hepatopatía",
+          "Streptococcus gallolyticus (bovis)",
+          "Penicilina; hacer colonoscopia"
+        ],
+        [
+          "Hemocultivo negativo",
+          "HACEK, Coxiella, Bartonella",
+          "Ceftriaxona (HACEK) · serología; derivar a infectología"
+        ]
+      ]
+    },
+    "vignette": "Hombre de 52 años, portador de una prótesis valvular aórtica biológica colocada hace 3 años, consulta por 3 semanas de fiebre vespertina, sudoración nocturna y baja de peso de 4 kg. Hace una semana se hizo una extracción dental sin profilaxis. Al examen: T° 38,3 °C, FC 98 lpm, soplo diastólico aórtico nuevo, hemorragias en astilla subungueales y nódulos dolorosos en la pulpa de los dedos. El hemograma muestra Hb 10 g/dL y leucocitos 13.000/mm³, PCR 85 mg/L. Tres hemocultivos tomados antes de los antibióticos son positivos para cocáceas grampositivas en cadena.",
+    "explicacion": "Es una endocarditis protésica tardía subaguda por Streptococcus viridans, de origen dental. Cumple <b>dos criterios mayores</b> (hemocultivos típicos positivos en ≥ 2 muestras y regurgitación valvular nueva) más criterios menores (predisposición, fiebre, fenómenos inmunológicos), por lo que el diagnóstico es definido. La conducta es hospitalizar, pedir un ecocardiograma transtorácico y transesofágico, indicar <b>penicilina sódica o ceftriaxona endovenosa por 6 semanas</b> (prótesis) y derivar a un centro con cirugía cardíaca. Este paciente era de alto riesgo y debió recibir <b>amoxicilina 2 g 30 a 60 minutos antes de la extracción dental</b>.",
+    "keyPoints": [
+      "Fiebre + soplo nuevo o cambiante + fenómenos embólicos o inmunológicos = endocarditis hasta demostrar lo contrario.",
+      "Tres hemocultivos de sitios distintos ANTES del antibiótico: es el examen de elección para el diagnóstico etiológico; el ecocardiograma muestra la vegetación.",
+      "Duke: definida con 2 mayores, o 1 mayor + 3 menores, o 5 menores. Mayores: hemocultivos típicos y evidencia ecocardiográfica.",
+      "S. viridans = subaguda sobre válvula dañada (penicilina 4 semanas; prótesis 6). S. aureus = aguda, usuario de drogas, tricúspide (cloxacilina).",
+      "Cirugía por insuficiencia cardíaca, infección no controlada, embolias con vegetación grande o germen resistente.",
+      "Profilaxis solo en alto riesgo (prótesis, EI previa, congénita cianótica o con material) y solo en procedimientos dentales con manipulación gingival.",
+      "Esquema: amoxicilina 2 g vía oral en dosis única, 30 a 60 minutos antes; alérgicos: azitromicina o claritromicina 500 mg."
+    ],
+    "questions": [
+      {
+        "stem": "Un paciente de 45 años, consulta por fiebre de 3 semanas de evolución sin otros síntomas. Al examen físico tiene temperatura 37,8°C, frecuencia cardiaca de 92 por minuto, con presión arterial 120/80mmHG. Al examen cardiaco se ausculta un soplo sistólico en ápex irradiado a dorso. En sus exámenes destacan leucocitos de 12.000/mm3 y PCR 9,6 (valor normal menor a 1,0). ¿Cuál es el examen de elección para continuar el estudio?",
+        "recTag": "EUNACOM Julio 2017 · Pregunta 70",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ecocardiografía bidimensional"
+          },
+          {
+            "id": "B",
+            "text": "Resonancia magnética cardiaca"
+          },
+          {
+            "id": "C",
+            "text": "Radiografía de tórax"
+          },
+          {
+            "id": "D",
+            "text": "AngioTAC de tórax"
+          },
+          {
+            "id": "E",
+            "text": "TAC de tórax abdomen y pelvis"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Se sospecha un endocarditis bacteriana subaguda (mayor a 7 días), por lo que se debe pedir hemocultivos y ecocardiografía."
+      },
+      {
+        "stem": "Un paciente de 57 años consulta por un cuadro de 7 días de astenia, malestar general, fiebre hasta 39 grados celsius. Al examen físico tiene un soplo pansistólico III/VI en el precordio izquierdo, además de apreciarse petequias en los pulpejos y alguna petequias subconjuntivales. ¿Cuál es el examen de elección para el diagnóstico etiológico?",
+        "recTag": "EUNACOM Diciembre 2017 · Pregunta 63",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ecocardiograma"
+          },
+          {
+            "id": "B",
+            "text": "Hemocultivos"
+          },
+          {
+            "id": "C",
+            "text": "Hemograma"
+          },
+          {
+            "id": "D",
+            "text": "Coronariografía"
+          },
+          {
+            "id": "E",
+            "text": "ANA y complemento"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Es una endocarditis subaguda. Como se pregunta el diagnóstico etiológico, la respuesta son los hemocultivos. Sin embargo, la ecocardiografía, también es un examen importante."
+      },
+      {
+        "stem": "Un paciente de 51 años, con antecedente de un recambio valvular, secundario a una valvulopatía, consulta por un cuadro de 2 semanas de astenia, fiebre y malestar general. Al examen físico tiene T°: 38,2°C, PA: 120/80 mmHg, FC: 94x’, se observan lesiones eritematosas en los dedos de ambas manos y algunas petequias en las extremidades inferiores y, en el examen cardíaco, se aprecia un soplo diastólico de intensidad IV/VI. Se solicitan exámenes de sangre, entre los que destaca PCR: 12 mg/L, VHS: 70 mm/h y leucocitosis de 16.000 por mm3. Además, se realizan 3 hemocultivos, que resultan todos positivos para cocáceas Gram positivas, en cadena. ¿Cuál es el antibiótico de elección para iniciar el tratamiento?",
+        "recTag": "EUNACOM Diciembre 2018 · Pregunta 123",
+        "options": [
+          {
+            "id": "A",
+            "text": "Penicilina sódica"
+          },
+          {
+            "id": "B",
+            "text": "Cloxacilina"
+          },
+          {
+            "id": "C",
+            "text": "Clindamicina"
+          },
+          {
+            "id": "D",
+            "text": "Ceftazidima"
+          },
+          {
+            "id": "E",
+            "text": "Gentamicina"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Tiene una endocarditis subaguda por Streptococcus viridans, que se trata con ampicilina o penicilina sódica."
+      },
+      {
+        "stem": "Paciente operado de válvula cardíaca hace 2 meses. Presenta fiebre, soplo cardíaco nuevo y hemocultivos positivos. ¿Cuál es el agente más probable en endocarditis infecciosa post-cirugía cardíaca precoz?",
+        "recTag": "EUNACOM Julio 2025 · Pregunta 136",
+        "options": [
+          {
+            "id": "A",
+            "text": "Staphylococcus aureus o S. epidermidis"
+          },
+          {
+            "id": "B",
+            "text": "Streptococcus viridans"
+          },
+          {
+            "id": "C",
+            "text": "Enterococcus faecalis"
+          },
+          {
+            "id": "D",
+            "text": "HACEK group"
+          },
+          {
+            "id": "E",
+            "text": "Candida albicans"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "Endocarditis protésica precoz (<2 meses post-cirugía): causada por gérmenes hospitalarios, principalmente Staphylococcus aureus y S. epidermidis (estafilococos coagulasa negativos), adquiridos intraoperatoriamente."
+      },
+      {
+        "stem": "Paciente masculino de 45 años, presenta súbitamente hemiparesia derecha, refiere historia de 2 meses de evolución de astenia, compromiso del estado general y fiebre de predominio nocturno. Al examen físico presenta hemiparesia derecha, fiebre de 37,8 grados celsius y la auscultación cardiaca muestra un ritmo regular en 2 tiempos, con un soplo sistólico IV/VI en el ápex. Su sedimento de orina muestra hematuria microscópica. El diagnóstico más probable es:",
+        "recTag": "EUNACOM Julio 2016 · Pregunta 115",
+        "options": [
+          {
+            "id": "A",
+            "text": "Absceso cerebral"
+          },
+          {
+            "id": "B",
+            "text": "Tuberculosis meníngea"
+          },
+          {
+            "id": "C",
+            "text": "Meningitis bacteriana"
+          },
+          {
+            "id": "D",
+            "text": "Endocarditis bacteriana"
+          },
+          {
+            "id": "E",
+            "text": "Leucemia mieloide aguda"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "Tanto el soplo, como los fenómenos embólicos, orientan a EBSA (endocarditis bacteriana subaguda; la aguda es menor a 7 días). Ninguna de las opciones puede ser, por no tener relación con la clínica."
+      },
+      {
+        "stem": "Un hombre de 60 años, portador de una prótesis valvular aórtica mecánica, debe someterse a una extracción dental. No tiene alergias. ¿Cuál es la profilaxis de endocarditis infecciosa más adecuada?",
+        "recTag": "Banco Oficial AEE · Perfil V3 1.04.3.007",
+        "options": [
+          {
+            "id": "A",
+            "text": "No requiere profilaxis"
+          },
+          {
+            "id": "B",
+            "text": "Ciprofloxacino oral"
+          },
+          {
+            "id": "C",
+            "text": "Amoxicilina 500 mg cada 8 horas por 7 días después del procedimiento"
+          },
+          {
+            "id": "D",
+            "text": "Amoxicilina 2 g oral, 30 a 60 minutos antes del procedimiento"
+          },
+          {
+            "id": "E",
+            "text": "Vancomicina endovenosa por 5 días"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "La profilaxis está indicada en pacientes de alto riesgo (prótesis valvular, endocarditis previa, ciertas cardiopatías congénitas) sometidos a procedimientos dentales con manipulación gingival o periapical. Se usa una dosis única de amoxicilina 2 g oral, 30 a 60 minutos antes; en alérgicos, un macrólido. No se recomiendan cursos prolongados posteriores."
       }
     ]
   }

@@ -10,6 +10,7 @@ const { accentForSpecialty } = require('./specialty_colors.cjs');
 
 const ROOT = path.join(__dirname, '..', '..');
 const SPECIALTIES = [
+  { key: 'cardiologia', name: 'Cardiología' },
   { key: 'gastroenterologia', name: 'Gastroenterología' },
   { key: 'neumologia', name: 'Neumología' },
   { key: 'nefrologia', name: 'Nefrología' },
@@ -703,6 +704,10 @@ function loadImage(img) {
   return { ...img, src: '../media/' + img.src.split(path.sep).join('/'), ar };
 }
 
+// fotos en contexto: photo / photos (máx. 2) en un ítem, paso o fila → la foto se muestra al llegar a ese paso
+const ctxPhotosOf = (list) => list.flatMap((it, step) => (it.photos || (it.photo ? [it.photo] : [])).slice(0, 2)
+  .map(p => ({ step, ...loadImage({ src: p.src, label: p.label || '', credit: p.credit || '' }) })));
+
 const LESSON_CHAPTER = { cover: 0, flow: 1, points: 1, image: 1, pathway: 2, table: 2, quiz: 3 };
 
 function buildLesson(lesson, deck, specialtyName) {
@@ -721,8 +726,10 @@ function buildLesson(lesson, deck, specialtyName) {
     }
     if (s.type === 'flow') {
       const segments = s.steps.map((st, i) => seg(i, st.say));
+      const ctxPhotos = ctxPhotosOf(s.steps);
       return { ch, type: 'flow', title: s.title, kicker: s.kicker, nodes: s.nodes, edges: s.edges,
-        steps: s.steps.map(st => ({ show: st.show, note: st.note || '' })), segments, notes: [segments.map(g => g.text).join(' ')] };
+        steps: s.steps.map(st => ({ show: st.show, note: st.note || '' })), segments, notes: [segments.map(g => g.text).join(' ')],
+        ...(ctxPhotos.length ? { ctxPhotos } : {}) };
     }
     if (s.type === 'points') {
       const segments = [];
@@ -730,7 +737,9 @@ function buildLesson(lesson, deck, specialtyName) {
         segments.push(seg(segments.length, it.say));
         return { t: it.t, d: it.d || '' };
       }) }));
-      return { ch, type: 'points', title: s.title, kicker: s.kicker, cards, segments, notes: [segments.map(g => g.text).join(' ')] };
+      const ctxPhotos = ctxPhotosOf(s.cards.flatMap(c => c.items));
+      return { ch, type: 'points', title: s.title, kicker: s.kicker, cards, segments, notes: [segments.map(g => g.text).join(' ')],
+        ...(ctxPhotos.length ? { ctxPhotos } : {}) };
     }
     if (s.type === 'image') {
       const segments = s.steps.map((st, i) => seg(i, st.say));
@@ -749,7 +758,8 @@ function buildLesson(lesson, deck, specialtyName) {
       const segments = s.rows.map((r, i) => seg(i, r.say));
       return { ch, type: 'table', title: s.title, kicker: s.kicker, note: s.note || '',
         cols: s.head.map((_, i) => (i === 0 ? '1.3fr' : '1fr')), head: s.head,
-        rows: s.rows.map(r => ({ cells: r.cells, hi: false, alert: false })), segments, notes: [segments.map(g => g.text).join(' ')] };
+        rows: s.rows.map(r => ({ cells: r.cells, hi: false, alert: false })), segments, notes: [segments.map(g => g.text).join(' ')],
+        ...(ctxPhotosOf(s.rows).length ? { ctxPhotos: ctxPhotosOf(s.rows) } : {}) };
     }
     if (s.type === 'quiz') {
       const segments = [seg(0, s.say.stem), seg(1, s.say.question), seg(2, s.say.options), seg(3, s.say.answer)];
@@ -776,8 +786,28 @@ if (fs.existsSync(introDeckPath)) {
   ALL_CLASSES.push(adaptDeckToSwiss(introDeck, 'Inducción Oficial'));
 }
 
+// Cardiología: 38 temas nuevos (cardiologia_decks_data.json, cardio-01…38). Se muestran solo los que ya tienen guion
+// (classes/lessons/cardio-NN.cjs). Mientras falten, siguen visibles las 21 clases antiguas (cardio_decks_data.json,
+// cardio-00…20, con id renombrado a cardio-v1-NN porque chocan con los nuevos); cada una se oculta cuando TODOS sus
+// temas de reemplazo tienen guion.
+const CARDIO_V1_REEMPLAZO = {
+  'cardio-00': ['cardio-01'], 'cardio-01': ['cardio-11', 'cardio-12'], 'cardio-02': ['cardio-13'], 'cardio-03': ['cardio-14'],
+  'cardio-04': ['diab-23'], 'cardio-05': ['cardio-29', 'cardio-30', 'cardio-31'], 'cardio-06': ['cardio-32'],
+  'cardio-07': ['cardio-04', 'cardio-05'], 'cardio-08': ['cardio-04', 'cardio-06', 'cardio-09'], 'cardio-09': ['cardio-08'],
+  'cardio-10': ['cardio-16', 'cardio-17', 'cardio-18'], 'cardio-11': ['cardio-20', 'cardio-21'], 'cardio-12': ['cardio-23', 'cardio-24'],
+  'cardio-13': ['cardio-25', 'cardio-26'], 'cardio-14': ['cardio-28'], 'cardio-15': ['cardio-27'], 'cardio-16': ['cardio-37'],
+  'cardio-17': ['cardio-33', 'cardio-34'], 'cardio-18': ['cardio-35'], 'cardio-19': ['cardio-19'], 'cardio-20': ['cardio-02', 'cardio-03'],
+};
+function cardioDecks() {
+  const nuevos = Object.values(loadDecks('cardiologia')).filter(d => LESSONS[d.id]);
+  const antiguos = Object.values(loadDecks('cardio'))
+    .filter(d => !(CARDIO_V1_REEMPLAZO[d.id] || []).length || !CARDIO_V1_REEMPLAZO[d.id].every(id => LESSONS[id]))
+    .map(d => ({ ...d, id: d.id.replace('cardio-', 'cardio-v1-') }));
+  return [...nuevos, ...antiguos];
+}
+
 SPECIALTIES.forEach(({ key, name }) => {
-  const decks = Object.values(loadDecks(key));
+  const decks = key === 'cardiologia' ? cardioDecks() : Object.values(loadDecks(key));
   decks.forEach(d => ALL_CLASSES.push(LESSONS[d.id] ? buildLesson(LESSONS[d.id], d, name) : adaptDeckToSwiss(d, name)));
   console.log(`  ${name}: ${decks.length} clases`);
 });

@@ -35,15 +35,16 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -151,6 +152,7 @@ const bloque4 = [
         subhead: '5. Tratamiento de Soporte y Antiproteinúrico',
         paragraphs: [
           'El manejo médico de base incluye: (1) <strong>Control del edema</strong>: restricción de sodio (< 2 g/día) y diuréticos de asa (Furosemida intravenosa u oral), en ocasiones combinada con tiazidas o espironolactona para bloqueo secuencial de la nefrona; (2) <strong>Reducción de la proteinuria y protección renal</strong>: uso imperativo de <strong>bloqueadores del SRAA (IECA o ARA-II)</strong> titulados a la dosis máxima tolerada para inducir vasodilatación de la arteriola eferente y reducir la presión intraglomerular; asociados a <strong>iSGLT2</strong>; y (3) <strong>Estatinas</strong> para el control agresivo de la hipercolesterolemia.',
+          '<b>Anasarca grave del síndrome nefrótico:</b> edema generalizado con derrame pleural, ascitis, edema genital, disnea y oliguria, habitualmente con albúmina &lt; 2 g/dL. Se maneja <b>hospitalizado</b>: reposo, restricción de sodio (&lt; 2 g/día) y de líquidos si hay hiponatremia, y <b>furosemida IV</b> (40–80 mg en bolo o infusión continua). La hipoalbuminemia y la albuminuria reducen la respuesta, por lo que se asocia <b>tiazida (o metolazona) o espironolactona</b> para bloqueo secuencial. La <b>albúmina al 20–25%</b> (25–50 g junto con la furosemida) se reserva para edema refractario con hipovolemia sintomática o albúmina muy baja, y su efecto es transitorio. La meta es perder 0,5–1 kg/día evitando la hipovolemia (hipotensión, IRA prerrenal). Si hay edema pulmonar o falla renal refractaria se recurre a <b>ultrafiltración o diálisis</b>. Se mantiene la profilaxis antitrombótica y se <b>deriva a Nefrología</b>.',
         ],
       },
     ],
@@ -371,6 +373,8 @@ const bloque4 = [
         paragraphs: [
           'La GNPE es una patología <strong>autolimitada en más del 95% de los pacientes</strong>, con resolución completa de la falla renal y la hipertensión en 1 a 3 semanas. <strong>NO REQUIERE CORTICOIDES NI INMUNOSUPRESORES</strong>.',
           'El tratamiento es estrictamente de <strong>soporte sintomático de la sobrecarga de volumen</strong>: reposo en cama, <strong>restricción estricta de sodio y líquidos</strong>, y administración de <strong>diuréticos de asa (Furosemida intravenosa u oral)</strong> para promover natriuresis, revertir el edema y controlar la hipertensión arterial. Si el paciente cursa con una crisis hipertensiva o edema pulmonar, la furosemida en bolo IV es el pilar de rescate.',
+          '<b>Emergencia hipertensiva:</b> elevación severa de la presión arterial (habitualmente <b>≥ 180/120 mmHg</b>) con <b>daño agudo de órgano blanco</b>: encefalopatía hipertensiva, ACV, edema agudo de pulmón, síndrome coronario agudo, disección aórtica, IRA, eclampsia o retinopatía con hemorragias, exudados y edema de papila. Si no hay daño de órgano hablamos de <b>urgencia hipertensiva</b>, que se maneja con antihipertensivo oral y control ambulatorio, sin descensos bruscos. En el síndrome nefrítico la hipertensión por sobrecarga de volumen puede alcanzar rango de emergencia, y allí el diurético de asa es parte central del tratamiento.',
+          '<b>Manejo de la emergencia hipertensiva:</b> ingreso a unidad de paciente crítico con monitoreo continuo y fármacos <b>IV titulables</b>: <b>nitroprusiato</b> (vigilar intoxicación por tiocianato en insuficiencia renal y uso prolongado), <b>labetalol</b>, <b>nitroglicerina</b> (si hay SCA o edema pulmonar), <b>nicardipino/clevidipino</b> y <b>furosemida IV</b> cuando hay sobrecarga de volumen. Meta general: bajar la <b>PAM no más de 25% en la primera hora</b>, llegar a <b>160/100 mmHg en 2–6 horas</b> y normalizar en 24–48 horas. Excepciones: <b>disección aórtica</b> (PAS &lt; 120 mmHg en 20 minutos, con betabloqueo previo), <b>eclampsia</b> (sulfato de magnesio y labetalol o hidralazina) y <b>ACV isquémico</b> (tratar solo si &gt; 220/120 mmHg, o &lt; 185/110 si se planea trombólisis). Se evita el nifedipino sublingual por el descenso brusco e impredecible de la presión.',
         ],
       },
     ],

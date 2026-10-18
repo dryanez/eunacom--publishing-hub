@@ -29,16 +29,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -147,6 +148,13 @@ const bloque4 = [
         paragraphs: [
           'Una entidad cada vez más evaluada en el EUNACOM es la <strong>Cetoacidosis Euglicémica</strong> inducida por iSGLT2 (dapagliflozina, empagliflozina). Al promover la glucosuria renal masiva, estos fármacos mantienen la glicemia plasmática en rangos normales o moderadamente elevados (< 200–250 mg/dL), lo que reduce la secreción de insulina endógena y estimula la secreción de glucagón.',
           'Ante un estrés intercurrente (cirugía, ayuno, infección), se desata una cetogénesis acelerada con acidosis metabólica severa con anion gap elevado y cetonemia positiva, <em>pero sin hiperglicemia marcada</em>. El médico de urgencia debe solicitar gases venosos y cetonemia ante cualquier paciente en tratamiento con iSGLT2 que consulte por náuseas, vómitos, dolor abdominal o disnea, independientemente del nivel de glicemia capilar.',
+        ],
+      },
+      {
+        subhead: "6. Cuerpos Cetónicos en Orina: Técnica e Interpretación de la Tira Reactiva",
+        paragraphs: [
+          "La tira reactiva de orina (reacción del <strong>nitroprusiato</strong>) detecta <strong>acetoacetato</strong> y, en menor grado, acetona, pero <strong>no detecta beta-hidroxibutirato</strong>, que es el cuerpo cetónico predominante en la CAD. <strong>Técnica:</strong> usar orina fresca (de segundo chorro), sumergir la tira 1 segundo, retirar el exceso golpeando el borde, esperar el tiempo exacto indicado por el fabricante y comparar el color con la escala (negativo, trazas, + , ++ , +++). Las tiras vencidas o mal cerradas (humedad) y el ácido ascórbico dan <strong>falsos negativos</strong>; captopril y mesna pueden dar falsos positivos.",
+          "<strong>Interpretación y empleo:</strong> cetonuria ++ o +++ con glicemia &gt; 250 mg/dL y acidosis confirma la CAD (ver criterios arriba). En DM1 se mide cetonuria cuando la glicemia es &gt; 250 mg/dL con enfermedad intercurrente, antes de hacer ejercicio y en el embarazo. Una cetonuria con glicemia normal orienta a ayuno prolongado, vómitos, dieta cetogénica, cetoacidosis alcohólica o <strong>cetoacidosis euglicémica por iSGLT2</strong>. Atención: <strong>la tira puede aumentar durante el tratamiento de la CAD</strong> (el beta-hidroxibutirato se convierte en acetoacetato) aunque el paciente mejore, y puede subestimar la cetosis al inicio; por eso <strong>no sirve para monitorear la respuesta</strong>, que se sigue con anion gap, bicarbonato y beta-hidroxibutirato.",
         ],
       },
     ],
@@ -460,6 +468,13 @@ const bloque4 = [
         paragraphs: [
           'El uso de bicarbonato de sodio en la CAD ha sido abandonado de la práctica rutinaria por los graves riesgos demostrados en ensayos clínicos: induce hipokalemia severa, empeora la acidosis intracelular y paradójica del SNC (el bicarbonato exógeno se convierte en CO2 que cruza libremente la barrera hematoencefálica mientras el HCO3 no lo hace), prolonga la cetosis y desvía la curva de disociación de la hemoglobina a la izquierda dificultando la oxigenación tisular.',
           'Las guías ADA y MINSAL restringen el bicarbonato <strong>EXCLUSIVAMENTE a pacientes con pH arterial < 6.90</strong> (con inestabilidad hemodinámica o depresión miocárdica refractaria). Dosis: 100 mmol de Bicarbonato de Sodio en 400 ml de agua destilada con 20 mEq de KCl a pasar en 2 horas, repitiendo hasta que el pH sea ≥ 7.00.',
+        ],
+      },
+      {
+        subhead: "4. Interpretación del ECG en las Alteraciones del Potasio",
+        paragraphs: [
+          "Todo paciente con CAD o EHH debe tener un <strong>ECG al ingreso</strong> y <strong>monitoreo continuo</strong> mientras la potasemia esté alterada: el ECG orienta antes de tener el resultado del laboratorio. <strong>Hipokalemia (&lt; 3.5 mEq/L):</strong> onda T aplanada, descenso del ST y <strong>onda U prominente</strong> después de la T, con QT/QU alargado; en grados severos aparecen extrasístoles ventriculares, <strong>torsades de pointes</strong> y fibrilación ventricular. <strong>Hiperkalemia (&gt; 5.5 mEq/L):</strong> primero <strong>ondas T altas, picudas y simétricas</strong> de base angosta; luego PR largo y onda P aplanada, <strong>QRS ancho</strong> y patrón sinusoidal, con riesgo de fibrilación ventricular y asistolia.",
+          "<strong>Cómo se emplea:</strong> un ECG con ondas T picudas en una CAD no cambia la regla de no aportar potasio con K &gt; 5.2 mEq/L, pero obliga a monitorizar. Con <strong>K &lt; 3.3 mEq/L o ECG con onda U y arritmia</strong> se repone potasio antes de la insulina. Si hay <strong>hiperkalemia con cambios electrocardiográficos</strong> (QRS ancho, PR largo) se administra de inmediato <strong>gluconato de calcio 10% 10 ml EV en 2 a 3 minutos</strong> para estabilizar la membrana, sin esperar el laboratorio, y se baja el potasio con insulina más glucosa y salbutamol. El ECG puede ser normal con potasio alterado; no reemplaza la medición sérica.",
         ],
       },
     ],

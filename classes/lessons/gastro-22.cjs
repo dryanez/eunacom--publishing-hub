@@ -20,7 +20,8 @@ module.exports = {
       cards: [
         { title: 'Radiografía', tag: 'Primer examen', kind: 'key', items: [
           { t: 'Cuello, tórax y abdomen', d: 'Para localizarlo',
-            say: 'Ante la sospecha de que un paciente se tragó algo, lo primero es localizarlo. Se pide radiografía de cuello, tórax y abdomen, las tres, porque el objeto puede estar en cualquier punto del recorrido.' },
+            say: 'Ante la sospecha de que un paciente se tragó algo, lo primero es localizarlo. Se pide radiografía de cuello, tórax y abdomen, las tres, porque el objeto puede estar en cualquier punto del recorrido. Mira esta radiografía: una moneda alojada en el esófago, que de frente, a la izquierda, se ve como un disco completo y de lado, a la derecha, como una línea.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-22/01_moneda_esofago__nelson_p2925.jpg', label: 'Moneda en el esófago', at: 'Mira esta radiografía', credit: 'Nelson 22.ª ed., p. 2925' } },
           { t: 'Radiolúcidos pueden no verse', d: 'Plástico, espinas de pescado',
             say: 'Pero ojo: una radiografía normal no descarta nada si el objeto es radiolúcido, como el plástico o una espina de pescado.' },
         ] },
@@ -58,7 +59,8 @@ module.exports = {
         { show: ['urg'], note: 'Cuándo no puede esperar',
           say: '¿Y cuándo es urgente? Cuando hay obstrucción completa, es decir, el paciente no traga su saliva; cuando es una pila o un objeto afilado; o cuando lleva más de veinticuatro horas impactado.' },
         { show: ['pil'], note: 'La pila es distinta a cualquier otro objeto',
-          say: 'De esos, la pila de botón merece un lugar aparte. No es solo un objeto que obstruye: genera corriente, y produce una quemadura eléctrica de la pared.' },
+          say: 'De esos, la pila de botón merece un lugar aparte. Mira esta radiografía: la pila es ese objeto metálico, muy denso, en un lactante. No es solo un objeto que obstruye: genera corriente, y produce una quemadura eléctrica de la pared.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-22/02_rx_pila_boton__commons.jpg', label: 'Pila de botón', at: 'Mira esta radiografía', credit: 'Wikimedia Commons «ButtonBatteryIngestion.png», CC BY-SA 4.0, Doc James' } },
         { show: ['nec'], note: 'Pila en el esófago = emergencia',
           say: 'En pocas horas hay necrosis, con riesgo de perforación y fístula traqueoesofágica. Por eso una pila de botón en el esófago es una emergencia: extracción inmediata, aunque el niño esté asintomático.' },
       ],
@@ -127,6 +129,30 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Otras causas',
+      title: 'Afagia o disfagia aguda: no todo es comida atascada',
+      cards: [
+        { title: 'Primero la vía aérea', tag: 'Urgencia', kind: 'alert', items: [
+          { t: 'Vía aérea y manejo de la saliva', d: 'Sialorrea, dolor torácico o sospecha de perforación: endoscopía urgente',
+            say: 'Ante una afagia o disfagia aguda, lo primero es la vía aérea y si el paciente maneja su saliva. Con sialorrea, dolor torácico o sospecha de perforación, se pide endoscopía urgente. Después se orienta por el contexto.' },
+        ] },
+        { title: 'Esófago', tag: 'Dolor al tragar', kind: 'key', items: [
+          { t: 'Esofagitis infecciosa', d: 'Candida, herpes, CMV en inmunosuprimidos o VIH',
+            say: 'La esofagitis infecciosa, por Candida, herpes o citomegalovirus, aparece en inmunosuprimidos o con VIH, con odinofagia intensa.' },
+          { t: 'Pastillas, cáustico y eosinofílica', d: 'Doxiciclina, bifosfonatos, potasio; adulto joven atópico',
+            say: 'La esofagitis por pastillas, como doxiciclina, bifosfonatos o potasio, y la cáustica. Y la esofagitis eosinofílica, con impactaciones repetidas en un adulto joven atópico.' },
+        ] },
+        { title: 'Fuera del esófago', tag: 'Orofaringe y neurología', kind: 'normal', items: [
+          { t: 'Absceso, epiglotitis, angioedema', d: 'Periamigdalino, retrofaríngeo, anafilaxia',
+            say: 'Las causas orofaríngeas son el absceso periamigdalino o retrofaríngeo, la epiglotitis y el angioedema o la anafilaxia.' },
+          { t: 'ACV de tronco, miastenia', d: 'Causas neurológicas',
+            say: 'Y las neurológicas, como un accidente cerebrovascular de tronco o la miastenia.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Complicaciones',
       title: 'Cuándo es cirugía y qué no hacer',
       cards: [
@@ -140,23 +166,6 @@ module.exports = {
           { t: 'No apurar el tránsito', d: 'El objeto romo se observa',
             say: 'Y el objeto romo que ya pasó el esófago no necesita que lo apuremos con laxantes: se observa con radiografías, y la gran mayoría se elimina sola.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Cuerpos extraños ingeridos',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-22/01_moneda_esofago__nelson_p2925.jpg', label: 'Moneda en el esófago', credit: 'Nelson 22.ª ed., p. 2925' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-22/02_rx_pila_boton__commons.jpg', label: 'Pila de botón', credit: 'Wikimedia Commons «ButtonBatteryIngestion.png», CC BY-SA 4.0, Doc James' },
-      ],
-      steps: [
-        { note: 'Disco de frente en la AP',
-          say: 'En la radiografía de frente, la moneda en el esófago se ve como un disco completo, y de perfil como una línea. Eso la ubica en el esófago y no en la tráquea.' },
-        { note: 'Urgencia aunque esté asintomático',
-          say: 'Y esto es una pila de botón ingerida. Es más peligrosa que una moneda: quema la mucosa en horas. Si está en el esófago, se saca de inmediato.' },
       ],
     },
 
@@ -182,7 +191,8 @@ module.exports = {
         { cells: ['Comida impactada, tolera líquidos, sin dolor', 'Observar hasta 24 h', 'Puede pasar sola'],
           say: 'Comida impactada que tolera líquidos y sin dolor: se observa hasta veinticuatro horas.' },
         { cells: ['Comida impactada con dolor o sin tragar', 'Endoscopía para desimpactar', 'Riesgo de aspiración y perforación'],
-          say: 'Y comida impactada con dolor, o que no deja tragar: endoscopía para desimpactar.' },
+          say: 'Y comida impactada con dolor, o que no deja tragar: endoscopía para desimpactar. Mira este bolo de carne atascado en el esófago, visto por el endoscopio.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-22/03_bolo-carne-impactado-esofago__harrison_p2454.jpg', label: 'Bolo de carne impactado', at: 'Mira este bolo', credit: 'Harrison 21.ª ed., p. 2454' } },
       ],
     },
 

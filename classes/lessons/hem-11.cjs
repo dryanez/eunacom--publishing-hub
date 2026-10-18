@@ -41,7 +41,8 @@ module.exports = {
         { show: ['tap'], note: 'Si falla: sangrado mucocutáneo inmediato',
           say: 'El resultado es el tapón plaquetario primario. Es rápido, pero frágil.' },
         { show: ['ft', 'tro'], note: 'In vivo, la cascada parte por la vía extrínseca',
-          say: 'Ahí entra la hemostasia secundaria, la cascada de coagulación. En el laboratorio la dividimos en vía intrínseca y extrínseca, pero en el cuerpo la que arranca todo es el complejo factor tisular con factor siete activado. Se genera trombina, y la trombina amplifica los factores once, ocho y cinco.' },
+          say: 'Ahí entra la hemostasia secundaria, la cascada de coagulación. En el laboratorio la dividimos en vía intrínseca y extrínseca, pero en el cuerpo la que arranca todo es el complejo factor tisular con factor siete activado. Se genera trombina, y la trombina amplifica los factores once, ocho y cinco. Mira este esquema: muestra las vías y qué examen mide cada una.',
+          photo: { src: 'biblioteca/06_hematologia/hem-11/S1_cascada-coagulacion__propio.svg', label: 'Vías y exámenes', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['fib'], note: 'Si falla: sangrado profundo y tardío',
           say: 'Esa explosión de trombina convierte el fibrinógeno en fibrina, que el factor trece deja estable. La fibrina es la malla que consolida el tapón. Un tapón sin malla se deshace, y eso explica la clínica que viene.' },
       ],
@@ -54,7 +55,8 @@ module.exports = {
       cards: [
         { title: 'Hemostasia primaria', tag: 'Plaquetas y von Willebrand', kind: 'key', items: [
           { t: 'Sangrado inmediato y superficial', d: 'Petequias, epistaxis, gingivorragia',
-            say: 'Antes de pedir un solo examen, mira cómo sangra el paciente. Si falla el tapón plaquetario, el sangrado es inmediato y superficial: petequias, equimosis pequeñas, epistaxis y gingivorragia.' },
+            say: 'Antes de pedir un solo examen, mira cómo sangra el paciente. Si falla el tapón plaquetario, el sangrado es inmediato y superficial: petequias, equimosis pequeñas, epistaxis y gingivorragia. Mira estas piernas: las petequias apuntan a las plaquetas.',
+            photo: { src: 'biblioteca/06_hematologia/hem-11/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg', label: 'Petequias: plaquetas', at: 'Mira estas piernas', credit: 'Manual AMIR Hematología, p. 89' } },
           { t: 'Mucosas: metrorragia', d: 'Se evalúa con recuento y frotis',
             say: 'También sangran las mucosas, como la metrorragia o las reglas abundantes. Esta fase se evalúa con el recuento de plaquetas y el frotis.' },
         ] },
@@ -137,6 +139,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Trombopatías',
+      title: 'Sangra como plaqueta, pero cuenta normal',
+      cards: [
+        { title: 'Cuándo sospechar', tag: 'Plaquetas normales', kind: 'key', items: [
+          { t: 'Sangrado de mucosas con TP y TTPK normales', d: 'Epistaxis, menorragia, equimosis',
+            say: 'Una trombopatía es una plaqueta que está, pero no funciona. Sospéchala cuando hay sangrado de mucosas, epistaxis, gingivorragia, menorragia o sangrado después de una extracción dental, con recuento de plaquetas, TP y TTPK normales.' },
+          { t: 'Primero, descartar fármacos y enfermedades', d: 'AAS, AINE, clopidogrel, ISRS, uremia, hepatopatía',
+            say: 'Antes de pedir pruebas especiales, descarta lo adquirido, que es lo más frecuente: aspirina, antiinflamatorios, clopidogrel o ticagrelor, antidepresivos inhibidores de la recaptación de serotonina, uremia, hepatopatía y paraproteinemias.' },
+        ] },
+        { title: 'Qué pedir', tag: 'Estudio', kind: 'criteria', items: [
+          { t: 'PFA-100 con cierre prolongado', d: 'El tiempo de sangría está en desuso',
+            say: 'El tiempo de sangría es poco reproducible y está en desuso. Hoy se usa el analizador de función plaquetaria, y un tiempo de cierre prolongado confirma que hay un defecto.' },
+          { t: 'Agregometría con varios agonistas', d: 'ADP, colágeno, epinefrina, ristocetina',
+            say: 'Y se completa con la agregometría plaquetaria, usando ADP, colágeno, epinefrina, ácido araquidónico y ristocetina. El patrón de respuesta orienta al diagnóstico.' },
+        ] },
+        { title: 'Cómo se lee', tag: 'Patrones', kind: 'alert', items: [
+          { t: 'Ristocetina baja, el resto normal', d: 'von Willebrand o Bernard-Soulier',
+            say: 'Si solo la ristocetina está disminuida, piensa en enfermedad de von Willebrand, que se confirma con antígeno, cofactor de ristocetina y factor ocho, o en Bernard-Soulier, que tiene plaquetas gigantes y trombocitopenia.' },
+          { t: 'Ristocetina normal, el resto baja', d: 'Glanzmann: déficit de GP IIb/IIIa',
+            say: 'Si la agregación con ADP, colágeno y epinefrina está disminuida, pero la ristocetina es normal, es la tromboastenia de Glanzmann, con recuento y forma de las plaquetas normales. Tú orientas y derivas al hematólogo.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -153,22 +181,6 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Cascada de la coagulación',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-11/S1_cascada-coagulacion__propio.svg', label: 'Vías y exámenes', credit: 'Dibujo propio (esquema)' },
-        { src: 'biblioteca/06_hematologia/hem-11/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg', label: 'Petequias: falla de las plaquetas', credit: 'Manual AMIR Hematología, p. 89' },
-      ],
-      steps: [
-        { note: 'TP y TTPA',
-          say: 'El TP mide la vía extrínseca, el factor siete; el TTPA mide la intrínseca. Ambos comparten la vía común. La warfarina prolonga el TP y la heparina, el TTPA.' },
-        { note: 'Petequia apunta a plaquetas',
-          say: 'Y la clínica orienta antes que el examen. Estas petequias apuntan a las plaquetas; una hemartrosis, en cambio, apunta a los factores.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -189,6 +201,8 @@ module.exports = {
           say: 'Los dos largos: vía común o varias vías a la vez. Daño hepático grave, coagulación intravascular diseminada, déficit masivo de vitamina K, o exceso de anticoagulantes orales directos como el rivaroxabán. Pide fibrinógeno, plaquetas y dímero D para descartar la coagulación intravascular.' },
         { cells: ['Plaquetas bajas, TP y TTPK normales', 'Solo hemostasia primaria', 'PTI, hiperesplenismo, toxicidad medular', 'Frotis: descartar pseudotrombocitopenia por EDTA'],
           say: 'Y plaquetas bajas con tiempos normales: solo falla la hemostasia primaria. Trombocitopenia inmune, hiperesplenismo o toxicidad de la médula. Pero antes de etiquetar, mira el frotis, porque el anticoagulante del tubo puede agrupar las plaquetas y dar un recuento falsamente bajo. Eso es la pseudotrombocitopenia.' },
+        { cells: ['Plaquetas, TP y TTPK normales, pero sangra', 'Función plaquetaria', 'AAS, AINE, uremia, von Willebrand, Glanzmann, Bernard-Soulier', 'PFA-100 y agregometría; derivar'],
+          say: 'Y el último patrón: todo normal, pero el paciente sangra por las mucosas. Primero descarta aspirina, antiinflamatorios y uremia. Si no es nada de eso, es una trombopatía: se estudia con el analizador de función plaquetaria y la agregometría, y se deriva.' },
       ],
     },
 
@@ -285,6 +299,120 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.4.007 · Estudio de trombopatías",
+      "stem": "Mujer de 27 años con epistaxis recurrentes desde la infancia, gingivorragia al cepillarse y menstruaciones abundantes. No usa AINE ni antiagregantes. Hemograma normal con plaquetas 260.000/µL y frotis sin plaquetas gigantes. TP 12 s, TTPK 30 s, fibrinógeno 310 mg/dL. Factor von Willebrand antigénico y actividad normales, factor VIII 95 %.",
+      "question": "¿Cuál es el examen más adecuado para continuar el estudio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mielograma"
+        },
+        {
+          "letter": "B",
+          "text": "Tiempo de trombina"
+        },
+        {
+          "letter": "C",
+          "text": "Anticuerpos antiplaquetarios"
+        },
+        {
+          "letter": "D",
+          "text": "Estudio de agregación plaquetaria (agregometría) con distintos agonistas"
+        },
+        {
+          "letter": "E",
+          "text": "Dosificación de factores IX y XI"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Sangrado mucocutáneo con recuento plaquetario, coagulación y estudio de von Willebrand normales: sospecha de trombopatía (defecto de función plaquetaria). Se estudia con agregometría frente a ADP, colágeno, epinefrina y ristocetina, previa suspensión de fármacos que alteran la función plaquetaria. Mielograma y anticuerpos son para trombocitopenias.",
+      "say": {
+        "stem": "Una mujer de veintisiete años con epistaxis desde la infancia, gingivorragia y reglas abundantes, sin aspirina ni antiinflamatorios. Sus plaquetas son normales en número, la coagulación es normal y el estudio de von Willebrand también.",
+        "question": "¿Cuál es el examen más adecuado para continuar el estudio?",
+        "options": "Las opciones: mielograma, tiempo de trombina, anticuerpos antiplaquetarios, agregometría plaquetaria o factores nueve y once. Piénsalo.",
+        "answer": "Es la D. Si hay sangrado de tipo plaquetario con número normal de plaquetas y von Willebrand descartado, falla la función plaquetaria, y eso se mide con agregometría. Los anticuerpos antiplaquetarios tientan, pero sirven para estudiar trombocitopenias, y aquí el recuento es normal."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.4.013 · Pruebas de coagulación",
+      "stem": "Hombre de 60 años hospitalizado por una trombosis venosa profunda inicia tratamiento con heparina no fraccionada en infusión endovenosa continua.",
+      "question": "¿Qué examen de laboratorio se utiliza para monitorizar la dosis de este fármaco?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tiempo de protrombina expresado como INR"
+        },
+        {
+          "letter": "B",
+          "text": "Tiempo de tromboplastina parcial activado (TTPA)"
+        },
+        {
+          "letter": "C",
+          "text": "Recuento de plaquetas exclusivamente"
+        },
+        {
+          "letter": "D",
+          "text": "Tiempo de sangría"
+        },
+        {
+          "letter": "E",
+          "text": "Dímero D"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La heparina no fraccionada potencia la antitrombina e inhibe principalmente la vía intrínseca y común; su efecto se monitoriza con el TTPA, buscando 1,5 a 2,5 veces el valor control (o niveles anti-Xa). El INR controla los antagonistas de vitamina K. El recuento de plaquetas se vigila por riesgo de trombocitopenia inducida por heparina.",
+      "say": {
+        "stem": "Hombre de sesenta años con una trombosis venosa profunda que inicia heparina no fraccionada en infusión endovenosa continua.",
+        "question": "¿Qué examen se usa para ajustar la dosis?",
+        "options": "Las opciones: protrombina expresada como INR, TTPA, solo recuento de plaquetas, tiempo de sangría, o dímero D. Piénsalo.",
+        "answer": "Es la B. La heparina no fraccionada se controla con el TTPA, buscando una vez y media a dos veces y media el valor normal. El INR tienta por ser el control clásico de la anticoagulación, pero corresponde al acenocumarol y la warfarina."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.021 · Pruebas de coagulación",
+      "stem": "Un niño de 3 años con equimosis fáciles tiene recuento de plaquetas normal, TP normal y TTPA prolongado. Se realiza una prueba de mezcla con plasma normal y el TTPA se corrige completamente.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Presencia de un inhibidor (anticoagulante lúpico o anticuerpo contra un factor)"
+        },
+        {
+          "letter": "B",
+          "text": "Déficit de un factor de la vía intrínseca (ej. VIII, IX o XI)"
+        },
+        {
+          "letter": "C",
+          "text": "Déficit de factor VII"
+        },
+        {
+          "letter": "D",
+          "text": "Trombocitopenia inmune"
+        },
+        {
+          "letter": "E",
+          "text": "Coagulación intravascular diseminada"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El TTPA evalúa la vía intrínseca (XII, XI, IX, VIII) y común; el TP la vía extrínseca (VII) y común. Si el TTPA prolongado se corrige al mezclar con plasma normal, falta un factor (el plasma normal lo aporta): en un niño con sangrado sugiere hemofilia A o B, y se dosifican factores VIII y IX.",
+      "say": {
+        "stem": "Un niño de tres años con equimosis fáciles tiene TTPA prolongado que se corrige completamente al mezclar con plasma normal.",
+        "question": "¿Cuál es la interpretación?",
+        "options": "Las opciones: inhibidor, déficit de un factor de la vía intrínseca, déficit de factor siete, trombocitopenia inmune o coagulación intravascular. Piénsalo.",
+        "answer": "Es la B. Si el TTPA se corrige con plasma normal es porque falta un factor de la vía intrínseca, como el ocho o el nueve. El inhibidor tienta, pero en ese caso la mezcla no corrige el TTPA."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -294,6 +422,8 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Petequias, epistaxis y sangrado de mucosas apuntan a la hemostasia primaria: plaquetas o von Willebrand.' },
           { t: 'Hemartrosis y hematomas: factores', d: 'Hemostasia secundaria',
             say: 'Hemartrosis, hematomas musculares y sangrado tardío apuntan a los factores de la coagulación.' },
+          { t: 'Sangra por mucosas con todo normal', d: 'Trombopatía: PFA-100 y agregometría',
+            say: 'Y si sangra por las mucosas con plaquetas y tiempos normales, descarta fármacos y piensa en una trombopatía.' },
         ] },
         { title: 'Los exámenes', tag: 'Qué mide cada uno', kind: 'criteria', items: [
           { t: 'TP solo: factor VII', d: 'Cumarínicos, vitamina K, hígado',

@@ -118,7 +118,8 @@ module.exports = {
       ],
       steps: [
         { show: ['gr', 'sue'], note: 'Busca lo que ya está pegado al glóbulo',
-          say: 'Con la hemólisis reconocida, ¿cómo confirmas que es autoinmune? Con la prueba de Coombs directa, también llamada prueba de antiglobulina directa. Se toman los glóbulos rojos del paciente, se lavan, y se mezclan con el suero de Coombs, que trae anticuerpos contra la IgG humana y contra el C tres d.' },
+          say: 'Con la hemólisis reconocida, ¿cómo confirmas que es autoinmune? Con la prueba de Coombs directa, también llamada prueba de antiglobulina directa. Se toman los glóbulos rojos del paciente, se lavan, y se mezclan con el suero de Coombs, que trae anticuerpos contra la IgG humana y contra el C tres d. Mira este esquema de la prueba.',
+          photo: { src: 'biblioteca/06_hematologia/hem-07/S1_coombs__propio.svg', label: 'Prueba de Coombs', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['agl'], note: 'Si aglutinan, hay anticuerpo fijado in vivo',
           say: 'Si los glóbulos aglutinan, significa que ya venían cubiertos de anticuerpo o de complemento desde el cuerpo del paciente. Eso confirma la anemia hemolítica autoinmune.' },
         { show: ['cal'], note: 'Caliente: IgG, y en la mitad también C3d',
@@ -137,7 +138,8 @@ module.exports = {
           { t: 'Astenia, taquicardia, dolor lumbar', d: 'Inicio brusco en la crisis',
             say: 'Veamos la clínica. La forma caliente puede iniciarse de manera brusca, con astenia intensa, taquicardia y dolor lumbar o abdominal.' },
           { t: 'Palidez con ictericia flavínica', d: 'Amarillo pálido, bilirrubina indirecta',
-            say: 'El paciente está pálido y amarillo a la vez. Es la ictericia flavínica, un amarillo pálido, propio de la bilirrubina indirecta.' },
+            say: 'El paciente está pálido y amarillo a la vez. Mira estas escleras: es la ictericia flavínica, un amarillo pálido, propio de la bilirrubina indirecta.',
+            photo: { src: 'biblioteca/06_hematologia/hem-07/02_ictericia_escleral__commons.jpg', label: 'Ictericia escleral', at: 'Mira estas escleras', credit: 'Wikimedia Commons, dominio público' } },
           { t: 'Esplenomegalia leve en la mitad', d: 'Congestión del bazo que trabaja',
             say: 'En la mitad de los casos se palpa una esplenomegalia leve a moderada. Tiene lógica: el bazo es donde se destruyen los glóbulos, y está trabajando de más.' },
           { t: 'Orina oscura sin coluria verdadera', d: 'Urobilinógeno; la indirecta no filtra',
@@ -145,7 +147,11 @@ module.exports = {
         ] },
         { title: 'Crioaglutininas', tag: 'Síntomas con el frío', kind: 'normal', items: [
           { t: 'Acrocianosis, livedo, Raynaud', d: 'Dedos, orejas, punta de la nariz',
-            say: 'En las crioaglutininas, la clave son los síntomas acrales con el frío: acrocianosis dolorosa, livedo reticularis y fenómeno de Raynaud en los dedos, las orejas y la punta de la nariz. Son los glóbulos aglutinándose en la microcirculación fría.' },
+            say: 'En las crioaglutininas, la clave son los síntomas acrales con el frío: acrocianosis dolorosa, livedo reticularis y fenómeno de Raynaud en los dedos, las orejas y la punta de la nariz. Son los glóbulos aglutinándose en la microcirculación fría. Mira estos dedos: primero pálidos y después morados, el fenómeno de Raynaud. Y esta red violácea en las piernas es la livedo reticularis.',
+            photos: [
+              { src: 'biblioteca/06_hematologia/hem-07/01_raynaud-palidez-cianosis__amir-reuma_p98.jpg', label: 'Raynaud: palidez y cianosis', at: 'Mira estos dedos', credit: 'Manual AMIR Reumatología, p. 98' },
+              { src: 'biblioteca/06_hematologia/hem-07/02_livedo-reticularis__amir-reuma_p39.jpg', label: 'Livedo reticularis', at: 'esta red violácea', credit: 'Manual AMIR Reumatología, p. 39' },
+            ] },
         ] },
         { title: 'Síndrome de Evans', tag: 'Se pregunta', kind: 'alert', items: [
           { t: 'AHAI + trombocitopenia inmune', d: 'Hemólisis con púrpura',
@@ -264,38 +270,7 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Anemia hemolítica autoinmune',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-07/01_esferocitos__amir-hemato_p34.jpg', label: 'Esferocitos', credit: 'Manual AMIR Hematología, p. 34' },
-        { src: 'biblioteca/06_hematologia/hem-07/S1_coombs__propio.svg', label: 'Prueba de Coombs', credit: 'Dibujo propio (esquema)' },
-        { src: 'biblioteca/06_hematologia/hem-07/01_raynaud-palidez-cianosis__amir-reuma_p98.jpg', label: 'Raynaud: palidez y cianosis de los dedos', credit: 'Manual AMIR Reumatología, p. 98' },
-      ],
-      steps: [
-        { note: 'Glóbulos pequeños, sin centro claro',
-          say: 'En el frotis aparecen esferocitos: glóbulos pequeños, redondos, sin la palidez central.' },
-        { note: 'Directo e indirecto',
-          say: 'Y el Coombs directo busca anticuerpos pegados a los glóbulos rojos del paciente. Si es positivo, la hemólisis es inmune.' },
-        { note: 'Crioaglutininas: síntomas con el frío',
-          say: 'En las crioaglutininas, el frío da síntomas en los dedos: primero se ponen pálidos y después morados. Es el fenómeno de Raynaud, por los glóbulos que se aglutinan en la microcirculación fría.' },
-      ],
-    },
 
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-07/02_livedo-reticularis__amir-reuma_p39.jpg', label: 'Livedo reticularis', credit: 'Manual AMIR Reumatología, p. 39' },
-      ],
-      steps: [
-        { note: 'Piel en red con el frío',
-          say: 'Esta red violácea en la piel de las piernas es la livedo reticularis. En las crioaglutininas aparece con el frío, junto a la acrocianosis y el Raynaud.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -315,7 +290,11 @@ module.exports = {
         { cells: ['Sitio de lisis', 'Extravascular en el bazo', 'Intravascular y en el hígado'],
           say: 'Dónde se destruye el glóbulo: en el bazo en la caliente; en los vasos y en el hígado en la fría.' },
         { cells: ['Frotis', 'Microesferocitos, policromatofilia', 'Glóbulos aglutinados'],
-          say: 'El frotis: microesferocitos en la caliente, glóbulos aglutinados en la fría.' },
+          say: 'El frotis: mira estos microesferocitos, pequeños y redondos, sin centro claro, en la caliente. Y aquí los glóbulos pegados en racimos, la autoaglutinación, en la fría; aparece al enfriarse la muestra.',
+          photos: [
+            { src: 'biblioteca/06_hematologia/hem-07/01_esferocitos__amir-hemato_p34.jpg', label: 'Esferocitos', at: 'mira estos microesferocitos', credit: 'Manual AMIR Hematología, p. 34' },
+            { src: 'biblioteca/06_hematologia/hem-07/atlas_123_autoaglutinacion_por_crioaglut.jpg', label: 'Autoaglutinación', at: 'Y aquí los glóbulos', credit: 'Atlas EUNACOM 2026' },
+          ] },
         { cells: ['Coombs directo', 'IgG positivo (± C3d)', 'Solo C3d positivo'],
           say: 'El Coombs: IgG positivo en la caliente; solo complemento en la fría.' },
         { cells: ['Asociaciones', 'Idiopática, LES, LLC, fármacos', 'Mycoplasma, VEB, linfoma B'],

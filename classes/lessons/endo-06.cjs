@@ -71,7 +71,11 @@ module.exports = {
         { show: ['rec'], note: 'El anticuerpo hace el trabajo de la TSH',
           say: 'Pero estos anticuerpos no bloquean el receptor: lo estimulan. Hacen el trabajo de la TSH, pero sin freno, de forma constante.' },
         { show: ['hip'], note: 'Por eso el bocio es difuso y soplante',
-          say: 'La glándula entera responde. Crece de forma difusa y se llena de vasos, y por eso el bocio de Graves es difuso, elástico y a veces tiene soplo o frémito.' },
+          say: 'La glándula entera responde. Crece de forma difusa y se llena de vasos, y por eso el bocio de Graves es difuso, elástico: mira este cuello. Y en este eco Doppler la glándula se ve llena de color, por el flujo aumentado; a veces hay soplo o frémito.',
+            photos: [
+              { src: 'biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_1__cto-endocrino_p57.jpg', label: 'Bocio difuso', at: 'mira este cuello', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
+              { src: 'biblioteca/05_endocrinologia/endo-06/03_eco-doppler-graves_1__amir-endocrino_p38.jpg', label: 'Eco Doppler hipervascular', at: 'Y en este eco Doppler', credit: 'Manual AMIR Endocrinología, p. 38' },
+            ] },
         { show: ['hor'], note: 'La hipófisis se apaga',
           say: 'Y fabrica hormona sin control. La hipófisis ve tanta hormona que apaga la TSH: por eso la TSH está suprimida con la T cuatro libre alta.' },
         { show: ['ext'], note: 'Lo que ninguna otra causa tiene',
@@ -108,7 +112,11 @@ module.exports = {
       cards: [
         { title: 'Orbitopatía', tag: '50 % de los casos', kind: 'alert', items: [
           { t: 'Proptosis y retracción palpebral', d: 'Quemosis, diplopía',
-            say: 'Ahora, los signos patognomónicos de Graves. El primero es la orbitopatía, presente en cerca de la mitad de los casos: proptosis, retracción palpebral, quemosis y diplopía por fibrosis de los músculos rectos.' },
+            say: 'Ahora, los signos patognomónicos de Graves. El primero es la orbitopatía, presente en cerca de la mitad de los casos. Mira estos ojos saltones, con retracción del párpado, y este exoftalmos bilateral: proptosis, retracción palpebral, quemosis y diplopía por fibrosis de los músculos rectos.',
+            photos: [
+              { src: 'biblioteca/05_endocrinologia/endo-06/02_oftalmopatia-exoftalmos__cto-endocrino_p57.jpg', label: 'Oftalmopatía', at: 'Mira estos ojos saltones', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
+              { src: 'biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_3__cto-endocrino_p57.jpg', label: 'Exoftalmos bilateral', at: 'y este exoftalmos bilateral', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
+            ] },
           { t: 'El tabaco la empeora', d: 'Dejar de fumar es parte del tratamiento',
             say: 'Y un dato que se usa en los casos: el tabaquismo la exacerba. Dejar de fumar es parte del tratamiento de una paciente con Graves.' },
         ] },
@@ -116,9 +124,61 @@ module.exports = {
           { t: 'Bocio difuso con soplo o frémito', d: 'Elástico, indoloro',
             say: 'El segundo es el bocio difuso, elástico e indoloro, con soplo o frémito por toda esa vascularización.' },
           { t: 'Mixedema pretibial', d: 'Placas violáceas no depresibles',
-            say: 'El tercero es el mixedema pretibial: placas infiltradas, eritemato-violáceas, que no dejan fóvea, por depósito de glucosaminoglicanos.' },
+            say: 'El tercero es el mixedema pretibial, como en estas piernas: placas infiltradas, eritemato-violáceas, que no dejan fóvea, por depósito de glucosaminoglicanos.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-06/01_dermopatia_tiroidea_pretibial__fitzpatrick_p1510.jpg', label: 'Mixedema pretibial', at: 'como en estas piernas', credit: 'Fitzpatrick 7.ª ed., p. 1510 (figura completa, ~480 px)' } },
           { t: 'Acropaquia tiroidea', d: 'La menos frecuente',
             say: 'Y el cuarto, la acropaquia tiroidea. Si ves orbitopatía o mixedema pretibial, el diagnóstico es Graves: el bocio multinodular y el adenoma tóxico casi nunca los tienen.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Orbitopatía',
+      title: 'La órbita en Graves: qué pasa y cómo se mide',
+      cards: [
+        { title: 'Qué pasa en la órbita', tag: 'Autoinmune', kind: 'key', items: [
+          { t: 'Los TRAb activan fibroblastos orbitarios', d: 'Músculos gruesos, tendones respetados',
+            say: 'Veamos la órbita con más calma, porque se pregunta. Los mismos anticuerpos que estimulan la tiroides activan los fibroblastos de la órbita. Esas células producen glucosaminoglicanos y grasa, y los músculos extraoculares se engruesan respetando sus tendones: mira esta tomografía de órbitas, y este corte coronal con los músculos gruesos. El ojo es empujado hacia adelante.',
+            photos: [
+              { src: 'biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_2__cto-endocrino_p57.jpg', label: 'TC de órbitas', at: 'mira esta tomografía', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
+              { src: 'biblioteca/05_endocrinologia/endo-06/04_tc_orbitopatia_tiroidea__kanski_p98.jpg', label: 'TC coronal: músculos gruesos', at: 'y este corte coronal', credit: 'Kanski\'s Clinical Ophthalmology, p. 98' },
+            ] },
+          { t: 'Tabaco: el factor que sí puedes cambiar', d: 'También radioyodo sin esteroide',
+            say: 'El factor de riesgo más importante, y el único modificable, es el tabaco. También la empeoran el radioyodo sin cobertura de esteroide y el hipotiroidismo que queda sin corregir después del tratamiento.' },
+        ] },
+        { title: 'Cómo se evalúa', tag: 'Clínico', kind: 'criteria', items: [
+          { t: 'Retracción palpebral: el signo más frecuente', d: 'Esclera visible sobre el limbo',
+            say: 'El signo más frecuente es la retracción palpebral: se ve esclera sobre el limbo, y el párpado superior se retrasa al mirar hacia abajo. Después vienen la proptosis, el edema palpebral, y en este ojo rojo, la quemosis; y la diplopía por los músculos rígidos; el recto inferior es el que más se afecta.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-06/02_oftalmopatia-exoftalmos_alt1_2__amir-endocrino_p38.jpg', label: 'Quemosis e hiperemia', at: 'y en este ojo rojo', credit: 'Manual AMIR Endocrinología, p. 38' } },
+          { t: 'Proptosis: Hertel sobre veinte', d: 'O asimetría mayor a 2 mm',
+            say: 'La proptosis se mide con el exoftalmómetro de Hertel: sobre veinte milímetros, o dos milímetros de diferencia entre un ojo y otro, es patológica.' },
+          { t: 'CAS 3 o más de 7: activa', d: 'Actividad inflamatoria',
+            say: 'Y para decidir el tratamiento se mide la actividad con el puntaje de actividad clínica. Tres puntos o más, de siete, significan orbitopatía activa. En un paciente con Graves el diagnóstico es clínico; la imagen se pide si es unilateral o atípica.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Orbitopatía',
+      title: 'Cuándo es urgencia y cómo se trata',
+      cards: [
+        { title: 'Urgencia oftalmológica', tag: 'Riesgo visual', kind: 'alert', items: [
+          { t: 'Baja de visión o de colores', d: 'Neuropatía óptica compresiva',
+            say: 'Ahora lo que no se puede dejar pasar. Si el paciente pierde agudeza visual, no distingue bien los colores, o tiene edema de papila o defecto pupilar aferente, es una neuropatía óptica compresiva. Eso es una urgencia.' },
+          { t: 'Úlcera corneal por exposición', d: 'Párpados que no cierran',
+            say: 'Lo mismo si los párpados no cierran y la córnea se ulcera. Se trata con metilprednisolona endovenosa en dosis altas y, si en una a dos semanas no responde, se hace una descompresión orbitaria urgente.' },
+        ] },
+        { title: 'Tratamiento según gravedad', tag: 'Escalonado', kind: 'pharma', items: [
+          { t: 'Para todos: tabaco, eutiroidismo, lubricantes', d: 'Lentes oscuros, cabecera elevada',
+            say: 'En todos los pacientes: dejar de fumar, lograr y mantener el eutiroidismo, lubricantes oculares, lentes oscuros y dormir con la cabecera elevada.' },
+          { t: 'Leve: selenio por 6 meses', d: '100 µg cada 12 horas',
+            say: 'En la orbitopatía leve bastan las medidas locales y selenio, por seis meses.' },
+          { t: 'Activa y moderada o grave: pulsos de esteroide', d: 'Metilprednisolona EV semanal por 12 semanas',
+            say: 'Si es moderada o grave y está activa, se usan pulsos semanales de metilprednisolona endovenosa, durante doce semanas. Otras opciones quedan en manos del especialista. Y en la fase inactiva, fibrótica, se corrigen las secuelas: primero la descompresión, luego el estrabismo y al final los párpados.' },
+          { t: 'Tú sospechas, aconsejas y derivas', d: 'Endocrinología y oftalmología',
+            say: 'El médico general sospecha, indica dejar de fumar y deriva a endocrinología y a oftalmología. Con riesgo visual, la derivación es el mismo día.' },
         ] },
       ],
     },
@@ -164,7 +224,8 @@ module.exports = {
       cards: [
         { title: 'Captación alta', tag: 'Hiperfunción', kind: 'key', items: [
           { t: 'Difusa y homogénea', d: 'Graves',
-            say: 'Veamos los patrones del cintigrama, que se preguntan como imagen o como descripción. Captación difusa y homogénea: Graves.' },
+            say: 'Veamos los patrones del cintigrama, que se preguntan como imagen o como descripción. Mira esta lámina: la primera imagen es la glándula normal; la segunda, la captación difusa y homogénea de Graves; la tercera, parcheada, del bocio multinodular; la cuarta, un solo nódulo caliente con el resto apagado; y la última, sin captación.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-06/05_cintigramas_panel_causas__commons.jpg', label: 'Un patrón para cada causa', at: 'Mira esta lámina', credit: 'Wikimedia Commons, CC BY-SA 3.0' } },
           { t: 'Nódulo caliente único que suprime el resto', d: 'Adenoma tóxico',
             say: 'Un solo nódulo caliente, con el resto de la glándula apagada: adenoma tóxico. El nódulo fabrica hormona solo, la TSH cae, y el tejido normal deja de captar.' },
           { t: 'Varias áreas calientes y frías', d: 'Bocio multinodular tóxico',
@@ -297,46 +358,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Enfermedad de Graves',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_1__cto-endocrino_p57.jpg', label: 'Bocio difuso', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
-        { src: 'biblioteca/05_endocrinologia/endo-06/02_oftalmopatia-exoftalmos__cto-endocrino_p57.jpg', label: 'Oftalmopatía', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
-        { src: 'biblioteca/05_endocrinologia/endo-06/01_dermopatia_tiroidea_pretibial__fitzpatrick_p1510.jpg', label: 'Mixedema pretibial', credit: 'Fitzpatrick 7.ª ed., p. 1510 (figura completa, ~480 px)' },
-      ],
-      steps: [
-        { note: 'Aumento simétrico de la tiroides',
-          say: 'Graves produce un bocio difuso, simétrico, a veces con soplo.' },
-        { note: 'Exoftalmos y retracción palpebral',
-          say: 'La oftalmopatía, con ojos saltones y retracción del párpado, es exclusiva de Graves. No la produce el nódulo tóxico.' },
-        { note: 'Placas infiltradas en las piernas',
-          say: 'Y el mixedema pretibial: placas infiltradas, anaranjadas, en la cara anterior de las piernas. También es exclusivo de Graves.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_2__cto-endocrino_p57.jpg', label: 'TC de órbitas: oftalmopatía de Graves', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
-        { src: 'biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_3__cto-endocrino_p57.jpg', label: 'Exoftalmos en la enfermedad de Graves', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
-        { src: 'biblioteca/05_endocrinologia/endo-06/03_eco-doppler-graves_1__amir-endocrino_p38.jpg', label: 'Eco Doppler: tiroides hipervascular', credit: 'Manual AMIR Endocrinología, p. 38' },
-      ],
-      steps: [
-        { note: 'TC de órbitas: oftalmopatía de Graves',
-          say: 'Tomografía de órbitas en la oftalmopatía de Graves: los músculos extraoculares engrosados empujan el globo hacia adelante.' },
-        { note: 'Exoftalmos en la enfermedad de Graves',
-          say: 'Exoftalmos bilateral con retracción palpebral, el signo más característico de la oftalmopatía de Graves.' },
-        { note: 'Eco Doppler: tiroides hipervascular',
-          say: 'Eco Doppler en la enfermedad de Graves: la glándula se ve llena de color por el aumento difuso del flujo.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde la TSH suprimida hasta el tratamiento.',
     },
@@ -357,6 +378,8 @@ module.exports = {
           say: 'Fiebre u odinofagia con tiamazol: suspender y hemograma urgente. Nunca antibiótico y seguir, y nunca cambiar a PTU.' },
         { cells: ['Graves en el primer trimestre', 'PTU; tiamazol desde semana 13 a 16', 'Mantener tiamazol'],
           say: 'Graves en el primer trimestre: propiltiouracilo, y de vuelta a tiamazol en el segundo trimestre.' },
+        { cells: ['Orbitopatía con baja de visión o de colores', 'Esteroide EV y derivar de urgencia', 'Controlar en el policlínico'],
+          say: 'Orbitopatía con pérdida de agudeza visual o de visión de colores: es una neuropatía óptica. Esteroide endovenoso y derivación urgente. El error es citarlo a control.' },
         { cells: ['Adulto mayor con FA de novo', 'Pedir TSH', 'Pensar solo en el corazón'],
           say: 'Y el adulto mayor con fibrilación auricular nueva o insuficiencia cardíaca refractaria: pide TSH, porque puede ser un hipertiroidismo apático.' },
       ],
@@ -432,6 +455,81 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.3.006 · Orbitopatía tiroidea",
+      "stem": "Mujer de 41 años, fumadora de 15 cigarrillos al día, con enfermedad de Graves diagnosticada hace 2 meses, en tratamiento con tiamazol, actualmente eutiroidea. Refiere sensación de arenilla, lagrimeo y retracción palpebral leve bilateral, sin diplopía y con agudeza visual normal. Sin edema de papila ni alteración de la visión de colores.",
+      "question": "¿Cuál es la medida que más disminuye el riesgo de progresión de su orbitopatía?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radioyodo de inmediato para eliminar el hipertiroidismo"
+        },
+        {
+          "letter": "B",
+          "text": "Suspender completamente el tabaco"
+        },
+        {
+          "letter": "C",
+          "text": "Descompresión orbitaria quirúrgica"
+        },
+        {
+          "letter": "D",
+          "text": "Bolos de metilprednisolona endovenosa"
+        },
+        {
+          "letter": "E",
+          "text": "Aumentar el tiamazol hasta lograr TSH suprimida"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El tabaquismo es el principal factor de riesgo modificable de aparición y progresión de la orbitopatía de Graves. En la orbitopatía leve se indica cesación del tabaco, lubricantes, selenio y mantener el eutiroidismo. El radioyodo puede empeorarla; los corticoides EV se reservan para la forma activa moderada a severa y la descompresión para la neuropatía óptica.",
+      "say": {
+        "stem": "Mujer de cuarenta y un años, fumadora, con enfermedad de Graves en tratamiento y ya eutiroidea. Tiene arenilla, lagrimeo y retracción palpebral leve, sin visión doble y con visión normal.",
+        "question": "¿Cuál es la medida que más disminuye el riesgo de progresión de su orbitopatía?",
+        "options": "Las opciones: radioyodo inmediato, suspender el tabaco, descompresión orbitaria, metilprednisolona endovenosa, o aumentar el tiamazol. Piénsalo.",
+        "answer": "Es la B. El tabaco es el factor de riesgo modificable más importante de la orbitopatía de Graves, y dejarlo es lo que más frena su progresión. El radioyodo tienta como tratamiento definitivo, pero puede empeorar los ojos, sobre todo en una fumadora."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.4.003 · TSH, T4, T3",
+      "stem": "Hombre de 58 años con palpitaciones, temblor fino y baja de 5 kg en 2 meses. FC 112 lpm, nódulo tiroideo palpable de 3 cm en el lóbulo derecho. Exámenes: TSH 0,01 mUI/L (VN 0,4–4,0), T4 libre 1,6 ng/dL (VN 0,8–1,8).",
+      "question": "¿Cuál es el examen más adecuado para completar la evaluación de la función tiroidea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repetir la TSH en 6 semanas, ya que la T4 libre es normal"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar anticuerpos antitiroperoxidasa"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar T3 total o libre"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar tiroglobulina"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar T3 reversa"
+        }
+      ],
+      "correct": "C",
+      "explanation": "TSH suprimida con T4 libre normal en un paciente con clínica de tirotoxicosis obliga a medir la T3: probable T3-toxicosis, frecuente en el adenoma tóxico y el bocio multinodular tóxico. Si la T3 también es normal, se trata de un hipertiroidismo subclínico. Luego la cintigrafía define la etiología.",
+      "say": {
+        "stem": "Hombre de cincuenta y ocho años con palpitaciones, temblor y baja de peso, con un nódulo tiroideo de tres centímetros. Su TSH está suprimida, pero la T cuatro libre es normal.",
+        "question": "¿Cuál es el examen más adecuado para completar la evaluación de la función tiroidea?",
+        "options": "Las opciones: repetir la TSH en seis semanas, anticuerpos antiperoxidasa, T tres, tiroglobulina o T tres reversa. Piénsalo.",
+        "answer": "Es la C, la T tres. Con TSH suprimida, T cuatro libre normal y un paciente claramente tirotóxico, hay que pensar en una T tres toxicosis, típica del nódulo tóxico. Repetir la TSH tienta por la T cuatro normal, pero este paciente tiene síntomas y requiere el diagnóstico ahora."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -441,6 +539,8 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. La captación separa lo que fabrica de lo que se vacía, y solo lo que fabrica se bloquea.' },
           { t: 'Orbitopatía o mixedema pretibial = Graves', d: 'TRAb confirma; el cintigrama, si no hay pistas',
             say: 'Orbitopatía o mixedema pretibial significan Graves. Los TRAb lo confirman, y el cintigrama queda para cuando la clínica no alcanza.' },
+          { t: 'Orbitopatía: tabaco y alarma visual', d: 'Baja de visión: esteroide EV y urgencia',
+            say: 'En la órbita, dejar de fumar siempre, y si baja la visión o los colores, esteroide endovenoso y derivación urgente.' },
         ] },
         { title: 'Tratamiento', tag: 'Tionamidas', kind: 'pharma', items: [
           { t: 'Tiamazol de elección', d: 'PTU: primer trimestre y tormenta',

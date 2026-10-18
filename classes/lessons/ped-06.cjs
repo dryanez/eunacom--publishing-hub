@@ -109,7 +109,8 @@ module.exports = {
         { show: ['est'], note: 'Ordena el diagnóstico antes de tratar',
           say: 'Antes de seguir, ordenemos las causas de estridor, porque el examen le encanta mezclarlas. Pregúntate cómo empezó el cuadro y con qué otros signos viene.' },
         { show: ['crp'], note: 'Lo que acabamos de ver',
-          say: 'Si hubo un pródromo catarral y hay tos que suena a perro, es el croup viral que acabamos de estudiar.' },
+          say: 'Si hubo un pródromo catarral y hay tos que suena a perro, es el croup viral que acabamos de estudiar. Mira esta radiografía de cuello: la tráquea subglótica se estrecha en punta, el signo del campanario. Pero ojo, el diagnóstico sigue siendo clínico.',
+          photo: { src: 'biblioteca/15_pediatria/ped-06/01_croup_campanario__nelson_p3220.jpg', label: 'Signo del campanario', at: 'Mira esta radiografía de cuello', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 3220' } },
         { show: ['epi'], note: 'La emergencia verdadera',
           say: 'Si en cambio el niño se ve tóxico, con fiebre muy alta, babea porque no traga y no tiene esa tos característica del croup, sospecha epiglotitis: ahí no hay tiempo que perder y se asegura la vía aérea en pabellón.' },
         { show: ['trb'], note: 'El croup que se estanca',
@@ -129,6 +130,12 @@ module.exports = {
         { title: 'Epiglotitis', tag: 'Emergencia', kind: 'alert', items: [
           { t: 'Fiebre alta, aspecto tóxico', d: 'Sialorrea y sin tos perruna',
             say: 'Ahora, las banderas rojas. Si un niño tiene fiebre muy alta, se ve tóxico, babea porque no puede tragar, adopta una postura sentado hacia adelante con el cuello estirado, y llama la atención que no tose como perro, sospecha epiglotitis. Antes esta era causada casi siempre por Haemophilus influenzae tipo b, pero desde que existe la vacuna, se volvió mucho menos frecuente.' },
+          { t: 'La epiglotis, hinchada', d: 'Rojo cereza; signo del pulgar en la radiografía',
+            say: 'Así se ve la epiglotis: mira esta imagen, roja, brillante y muy edematosa, el clásico rojo cereza. Y en esta radiografía lateral de cuello, la flecha marca la epiglotis engrosada, el signo del pulgar. Pero no mandes al niño a la radiología: la vía aérea va primero.',
+            photos: [
+              { src: 'biblioteca/15_pediatria/ped-06/01_epiglotitis-rojo-cereza-diagnostico-dife__cto-pediatria_p50.jpg', label: 'Epiglotis rojo cereza', at: 'mira esta imagen', credit: 'Manual CTO Pediatría 14.ª ed., p. 50' },
+              { src: 'biblioteca/15_pediatria/ped-06/02_epiglotitis-signo-pulgar__commons.jpg', label: 'Signo del pulgar', at: 'Y en esta radiografía lateral', credit: 'Wikimedia Commons, CC0' },
+            ] },
           { t: 'Nunca uses el bajalenguas', d: 'Puede gatillar un espasmo fatal',
             say: 'Y este es un dato que salva vidas: en ese niño, jamás le metas un bajalenguas para mirar la garganta, ni lo acuestes a la fuerza. El estímulo puede gatillar un espasmo de la laringe y un paro respiratorio inmediato. Lo mejor es dejarlo tranquilo en brazos de su madre o su padre, y trasladarlo a pabellón para asegurar la vía aérea bajo anestesia, con el equipo preparado para una vía aérea difícil.' },
         ] },
@@ -141,27 +148,15 @@ module.exports = {
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Croup',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: "Edema subglótico",
       images: [
-        { src: 'biblioteca/15_pediatria/ped-06/01_croup_campanario__nelson_p3220.jpg', label: 'Signo del campanario', credit: 'Nelson 22.ª ed., p. 3220' },
+        { src: 'animaciones/ped-06/A1_croup_edema_subglotico.mp4', label: "Laringe en corte", credit: "Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios" },
       ],
       steps: [
-        { note: 'Estrechez subglótica',
-          say: 'En la radiografía, la tráquea subglótica se estrecha en punta: el signo del campanario. Pero el diagnóstico es clínico.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/15_pediatria/ped-06/01_epiglotitis-rojo-cereza-diagnostico-dife__cto-pediatria_p50.jpg', label: 'Epiglotitis "rojo cereza"', credit: 'Manual CTO Pediatría 14.ª ed., p. 50' },
-      ],
-      steps: [
-        { note: 'Epiglotitis "rojo cereza"',
-          say: 'Mira esta imagen: epiglotitis "rojo cereza". Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: "El anillo que no se estira",
+          say: "Mira la laringe en corte, con las cuerdas vocales arriba. Justo debajo está el cricoides, el único anillo completo, y no se estira. Cuando el virus produce edema ahí, la pared se hincha hacia adentro: un milímetro cierra tres cuartas partes del área, y el flujo turbulento es el estridor. La dexametasona desinflama; la adrenalina lo hace más rápido, pero rebota, por eso se observa dos horas." },
       ],
     },
 
@@ -256,6 +251,81 @@ module.exports = {
         options: 'Las opciones: adrenalina subcutánea, nebulizar con salbutamol, intubación orotraqueal, nebulizar con bromuro de ipratropio, o nebulizar con adrenalina racémica.',
         answer: 'Es la E. El estridor en ambos tiempos respiratorios con tiraje intenso te ubica en un grado tres grave, y ahí la adrenalina racémica nebulizada es lo que corresponde, junto con oxígeno y dexametasona. El salbutamol y el ipratropio actúan en el bronquio, no en la subglotis, así que aquí no tienen ningún rol.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.022 · Estridor",
+      "stem": "Lactante de 2 meses, traído porque desde las 2 semanas de vida tiene un ruido inspiratorio agudo que aumenta con el llanto, al alimentarse y en decúbito supino, y disminuye en decúbito prono. Afebril, sin coriza, sin tos ni disfonía. Buen incremento de peso y saturación de 98%.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Laringomalacia congénita"
+        },
+        {
+          "letter": "B",
+          "text": "Laringitis aguda obstructiva"
+        },
+        {
+          "letter": "C",
+          "text": "Cuerpo extraño en la vía aérea"
+        },
+        {
+          "letter": "D",
+          "text": "Epiglotitis"
+        },
+        {
+          "letter": "E",
+          "text": "Absceso retrofaríngeo"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Estridor inspiratorio desde las primeras semanas, que empeora con el llanto, la alimentación y el decúbito supino, sin fiebre ni cuadro catarral y con buen crecimiento, es típico de laringomalacia: la causa más frecuente de estridor crónico del lactante, benigna y que suele resolverse sola.",
+      "say": {
+        "stem": "Lactante de dos meses que desde las dos semanas de vida tiene un ruido agudo al inspirar, que aumenta con el llanto, al comer y acostado de espalda, y disminuye boca abajo. No tiene fiebre, coriza, tos ni disfonía, y sube bien de peso.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: laringomalacia congénita, laringitis aguda, cuerpo extraño, epiglotitis o absceso retrofaríngeo. Piénsalo.",
+        "answer": "Es la A. Un estridor desde las primeras semanas, sin fiebre ni cuadro catarral, que cambia con la posición y en un niño que crece bien, es laringomalacia. La laringitis tienta por el estridor, pero es aguda, con coriza, tos perruna y disfonía."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.2.018 · Obstrucción de vía aérea superior",
+      "stem": "Niño de 4 años, sin vacunas desde el año de vida, con fiebre de 39,8 °C de 6 horas. Llega sentado inclinado hacia adelante con el cuello extendido, babeando, con estridor inspiratorio suave y aspecto tóxico. No tiene tos perruna.",
+      "question": "¿Cuál es la conducta inicial más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Examinar la faringe con bajalenguas para confirmar el diagnóstico"
+        },
+        {
+          "letter": "B",
+          "text": "Mantenerlo tranquilo con su madre, dar oxígeno sin incomodarlo y asegurar la vía aérea en pabellón con anestesista"
+        },
+        {
+          "letter": "C",
+          "text": "Acostarlo para tomar una radiografía lateral de cuello"
+        },
+        {
+          "letter": "D",
+          "text": "Dexametasona oral y alta con control en 24 horas"
+        },
+        {
+          "letter": "E",
+          "text": "Nebulizar adrenalina y observar 4 horas en urgencia"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Fiebre alta, aspecto tóxico, sialorrea, posición en trípode y ausencia de tos perruna en un niño no vacunado sugieren epiglotitis por Haemophilus influenzae tipo b. No se examina la faringe ni se acuesta al niño: se asegura la vía aérea en pabellón y luego se inicia ceftriaxona.",
+      "say": {
+        "stem": "Niño de cuatro años, sin vacunas desde el año, con fiebre de treinta y nueve coma ocho desde hace seis horas. Llega sentado, inclinado hacia adelante con el cuello estirado, babeando, con estridor suave y aspecto tóxico. No tiene tos perruna.",
+        "question": "¿Cuál es la conducta inicial más adecuada?",
+        "options": "Las opciones: examinar la faringe con bajalenguas, mantenerlo tranquilo con oxígeno y asegurar la vía aérea en pabellón, acostarlo para una radiografía de cuello, dexametasona y alta o adrenalina nebulizada y observar. Piénsalo.",
+        "answer": "Es la B. Es una epiglotitis, y lo que mata es la obstrucción completa: no lo agites, no lo acuestes y aseguras la vía aérea en pabellón. Examinar con bajalenguas tienta para confirmar, pero puede desencadenar el cierre total de la vía aérea."
+      }
     },
 
     {

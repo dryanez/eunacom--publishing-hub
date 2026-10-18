@@ -42,6 +42,84 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Cistitis',
+      title: 'Cistitis aguda no complicada: reconocerla',
+      cards: [
+        { title: 'Clínica', tag: 'Vía urinaria baja', kind: 'criteria', items: [
+          { t: 'Disuria, polaquiuria, urgencia, tenesmo', d: 'Dolor suprapúbico; a veces hematuria macroscópica',
+            say: 'Antes de seguir con la pielonefritis, volvamos a su hermana menor: la cistitis aguda no complicada, en la mujer adulta, no embarazada, sin anomalías urológicas. Produce disuria, polaquiuria, urgencia miccional, tenesmo y dolor suprapúbico, a veces con hematuria macroscópica.' },
+          { t: 'Sin fiebre ni dolor lumbar', d: 'Si aparecen: pielonefritis',
+            say: 'Y la clave: sin fiebre y sin dolor lumbar. Si aparecen, ya es una pielonefritis.' },
+        ] },
+        { title: 'Diagnóstico', tag: 'Clínico', kind: 'key', items: [
+          { t: 'Tira: leucocito esterasa y nitritos +', d: 'Sedimento con piuria y bacteriuria',
+            say: 'El diagnóstico es clínico y se apoya en la tira reactiva, con leucocito esterasa y nitritos positivos, y en el sedimento con piuria y bacteriuria.' },
+          { t: 'Urocultivo no es necesario en el cuadro típico', d: 'Sí en embarazo, hombres, diabéticos, sonda, falla o recurrencia',
+            say: 'El urocultivo no es necesario en el cuadro típico, pero se pide en el embarazo, en los hombres, en diabéticos o inmunosuprimidos, con sonda, si falla el tratamiento o si hay recurrencia.' },
+        ] },
+        { title: 'Quién la causa', tag: 'Agentes', kind: 'normal', items: [
+          { t: 'E. coli: 75–90 %', d: 'S. saprophyticus en la mujer joven · Klebsiella, Proteus',
+            say: 'La causa es la Escherichia coli en setenta y cinco a noventa por ciento. El Staphylococcus saprophyticus aparece en la mujer joven, y también Klebsiella y Proteus.' },
+          { t: 'Diferenciales', d: 'Uretritis (clamidia, gonococo), vaginitis, cistitis intersticial',
+            say: 'Y como diagnósticos diferenciales, la uretritis por clamidia o gonococo, la vaginitis y la cistitis intersticial.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cistitis',
+      title: 'Tratamiento de la cistitis y situaciones especiales',
+      cards: [
+        { title: 'Esquemas orales', tag: 'Según resistencia local', kind: 'pharma', items: [
+          { t: 'Nitrofurantoína 100 mg c/6 h × 5 días', d: 'Evitar con TFG < 30 mL/min',
+            say: 'El tratamiento es ambulatorio y por vía oral, según la resistencia local. Nitrofurantoína, cien miligramos cada seis horas por cinco días, que se evita si la filtración es menor de treinta.' },
+          { t: 'Fosfomicina 3 g, dosis única', d: 'Cotrimoxazol 160/800 c/12 h × 3 días solo si resistencia < 20 %',
+            say: 'O fosfomicina trometamol, tres gramos en dosis única. El cotrimoxazol, cada doce horas por tres días, solo si la resistencia local es menor de veinte por ciento.' },
+          { t: 'Ciprofloxacino y cefalosporinas: alternativa', d: 'Por resistencia y efectos adversos',
+            say: 'El ciprofloxacino y las cefalosporinas quedan como alternativa, por la alta resistencia de la E. coli y los efectos adversos de las fluoroquinolonas.' },
+        ] },
+        { title: 'Cuándo cambia', tag: 'Cistitis complicada', kind: 'alert', items: [
+          { t: 'Persisten síntomas > 48–72 horas', d: 'Urocultivo y antibiograma',
+            say: 'Si los síntomas persisten más de cuarenta y ocho a setenta y dos horas, se pide urocultivo y antibiograma.' },
+          { t: 'Hombre o cistitis complicada', d: 'Urocultivo previo y 7 días o más',
+            say: 'En el hombre y en la cistitis complicada, con diabetes, anomalías, sonda o adulto mayor, se pide urocultivo antes y se trata siete días o más.' },
+          { t: 'Embarazo: cefadroxilo o amoxicilina 7 días', d: 'Según antibiograma, con urocultivo de control',
+            say: 'En el embarazo se usa cefadroxilo o amoxicilina según antibiograma, por siete días, con urocultivo de control. Si la evolución es favorable, en los demás casos no se requiere control.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Bacteriuria asintomática',
+      title: 'Bacteriuria asintomática y prevención de la ITU',
+      cards: [
+        { title: 'Qué es y a quién se trata', tag: '≥ 10⁵ UFC/mL sin síntomas', kind: 'key', items: [
+          { t: 'Urocultivo positivo sin síntomas', d: 'Mismo germen en 2 muestras en la mujer, 1 en el hombre',
+            say: 'La bacteriuria asintomática es un urocultivo con cien mil o más colonias por mililitro del mismo germen, en dos muestras en la mujer y una en el hombre, sin síntomas urinarios. Es común en mujeres mayores, diabéticos y pacientes con sonda.' },
+          { t: 'Solo se trata en tres situaciones', d: 'Embarazo · procedimiento urológico con sangrado · trasplante renal reciente',
+            say: 'Solo se trata en tres situaciones: el embarazo, antes de procedimientos urológicos que producen sangrado de la mucosa, y en el receptor de trasplante renal en los primeros meses.' },
+          { t: 'Embarazo: urocultivo en el primer control', d: 'Tratar 4–7 días según antibiograma',
+            say: 'En la embarazada se pesquisa con urocultivo en el primer control prenatal, y se trata cuatro a siete días según el antibiograma, con control posterior, por el riesgo de pielonefritis y parto prematuro.' },
+        ] },
+        { title: 'Cuándo no se trata', tag: 'Error frecuente', kind: 'alert', items: [
+          { t: 'Adulto mayor, diabético, sonda vesical', d: 'No previene complicaciones y selecciona resistencia',
+            say: 'No se trata en adultos mayores, diabéticos ni portadores de sonda vesical: no previene complicaciones y selecciona bacterias resistentes. Y fuera de las situaciones anteriores, no se debe pedir urocultivo sin síntomas.' },
+        ] },
+        { title: 'ITU recurrente y prevención', tag: '≥ 3 al año o ≥ 2 en 6 meses', kind: 'pharma', items: [
+          { t: 'Líquidos, no retener, orinar tras el coito', d: 'Aseo de adelante hacia atrás; sin espermicidas ni duchas vaginales',
+            say: 'Se habla de ITU recurrente con tres o más episodios al año, o dos en seis meses. La prevención es ingesta abundante de líquidos, no retener la orina, orinar después de la relación sexual, aseo genital de adelante hacia atrás, y evitar duchas vaginales, jabones irritantes y espermicidas.' },
+          { t: 'Estrógenos vaginales en la posmenopáusica', d: 'Arándano rojo: evidencia modesta',
+            say: 'En la mujer posmenopáusica ayudan los estrógenos vaginales. El arándano rojo tiene evidencia modesta.' },
+          { t: 'Profilaxis continua o poscoital', d: 'Nitrofurantoína o cotrimoxazol en dosis bajas 6–12 meses · derivar si hay causa anatómica',
+            say: 'Si las recurrencias persisten, se descartan anomalías con ecografía, residuo posmiccional y litiasis, y se considera profilaxis antibiótica continua en dosis bajas nocturnas, con nitrofurantoína o cotrimoxazol por seis a doce meses, o poscoital. Se deriva si se sospecha una causa anatómica.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Diagnóstico',
       title: 'Cómo se reconoce y qué se pide',
       cards: [
@@ -55,7 +133,11 @@ module.exports = {
         ] },
         { title: 'Laboratorio', tag: 'Antes del antibiótico', kind: 'key', items: [
           { t: 'Sedimento: piuria y bacterias', d: 'Cilindros leucocitarios: origen renal',
-            say: 'El sedimento muestra leucocituria importante, bacterias y microhematuria. Y el hallazgo clave son los cilindros leucocitarios: como los cilindros se forman en el túbulo, certifican que la infección está en el riñón y no solo en la vejiga.' },
+            say: 'El sedimento muestra leucocituria importante, bacterias y microhematuria. Y el hallazgo clave son los cilindros leucocitarios: como los cilindros se forman en el túbulo, certifican que la infección está en el riñón y no solo en la vejiga. Mira este sedimento lleno de leucocitos. Y entre los cilindros, el leucocitario, arriba a la izquierda, certifica que la infección está en el riñón.',
+            photos: [
+              { src: 'biblioteca/03_nefrologia/nefro-21/01_sedimento-con-leucocituria__cto-nefro_p33.jpg', label: 'Leucocituria', at: 'Mira este sedimento', credit: 'Manual CTO Nefrología 14.ª ed., p. 33' },
+              { src: 'biblioteca/03_nefrologia/nefro-21/02_tipos-de-cilindros__cto-nefro_p34.jpg', label: 'Tipos de cilindros', at: 'Y entre los cilindros', credit: 'Manual CTO Nefrología 14.ª ed., p. 34' }
+            ] },
           { t: 'Urocultivo siempre, antes de tratar', d: 'Con antibiograma',
             say: 'Y la regla que no se negocia: siempre urocultivo con antibiograma, y siempre antes de la primera dosis de antibiótico. Es lo que te va a permitir ajustar el tratamiento si el germen es resistente, y lo vamos a necesitar en una de las preguntas reales.' },
         ] },
@@ -157,9 +239,14 @@ module.exports = {
         { show: ['fie'], note: 'Lo esperable es mejorar en 48–72 h',
           say: 'Última situación. Con un antibiótico adecuado, el paciente debería mejorar en cuarenta y ocho a setenta y dos horas. ¿Y si sigue con fiebre?' },
         { show: ['img'], note: 'Buscar la complicación',
-          say: 'Si el germen era sensible al antibiótico, el problema no es el fármaco: hay algo local que no deja sanar. Se pide imagen renal, idealmente un TAC con contraste, o una ecografía.' },
+          say: 'Si el germen era sensible al antibiótico, el problema no es el fármaco: hay algo local que no deja sanar. Se pide imagen renal, idealmente un TAC con contraste, o una ecografía. Mira esta ecografía: la vía urinaria está dilatada detrás de una obstrucción.',
+            photo: { src: 'biblioteca/03_nefrologia/nefro-21/03_ecografia-hidronefrosis__bailey-love_p1433.jpg', label: 'Vía urinaria dilatada', at: 'Mira esta ecografía', credit: 'Bailey & Love 27.ª ed., Fig. 76.15' } },
         { show: ['abs', 'obs'], note: 'Una colección o una vía tapada',
-          say: 'Lo que buscas es un absceso renal o perirrenal, que hay que drenar, o una litiasis que obstruye la vía urinaria, que requiere descompresión urológica de urgencia. Es el mismo principio que la colangitis: la infección detrás de una obstrucción no se cura sin drenar.' },
+          say: 'Lo que buscas es un absceso renal o perirrenal, que hay que drenar, o una litiasis que obstruye la vía urinaria, que requiere descompresión urológica de urgencia. Es el mismo principio que la colangitis: la infección detrás de una obstrucción no se cura sin drenar. En esta tomografía con contraste, un absceso renal. Y en esta otra, cálculos en los riñones.',
+            photos: [
+              { src: 'biblioteca/07_nefrologia/nefro-21/05_absceso_renal_tac__nelson_p4209.jpg', label: 'Absceso renal', at: 'En esta tomografía con contraste', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 4209' },
+              { src: 'biblioteca/03_nefrologia/nefro-21/04_tac-calculos-renales__bailey-love_p1410.jpg', label: 'Cálculos renales', at: 'Y en esta otra', credit: 'Bailey & Love 27.ª ed., Fig. 75.21a' }
+            ] },
         { show: ['atb'], note: 'Antes de cambiar, mira el antibiograma',
           say: 'El error es cambiar el antibiótico a ciegas. Otra cosa es que el cultivo muestre resistencia, como una E. coli BLEE: ahí sí se ajusta, y eso es justamente lo que pregunta una de las preguntas reales.' },
       ],
@@ -176,41 +263,6 @@ module.exports = {
       steps: [
         { note: 'Con fiebre es pielonefritis',
           say: 'La Escherichia coli parte en la vejiga. Si se queda ahí, es una cistitis, sin fiebre. Si asciende por el uréter y llega al riñón, es una pielonefritis: fiebre alta con calofríos y dolor lumbar. Siempre urocultivo antes del antibiótico.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'La infección urinaria en el sedimento',
-      images: [
-        { src: 'biblioteca/03_nefrologia/nefro-21/01_sedimento-con-leucocituria__cto-nefro_p33.jpg', label: 'Leucocituria', credit: 'Manual CTO Nefrología 14.ª ed., p. 33' },
-        { src: 'biblioteca/03_nefrologia/nefro-21/02_tipos-de-cilindros__cto-nefro_p34.jpg', label: 'Tipos de cilindros: el leucocitario, arriba a la izquierda', credit: 'Manual CTO Nefrología 14.ª ed., p. 34' },
-      ],
-      steps: [
-        { note: 'Muchos leucocitos',
-          say: 'El sedimento muestra abundantes leucocitos. Junto con la clínica orienta a infección urinaria, pero se confirma con urocultivo, que se toma antes del antibiótico.' },
-        { note: 'El cilindro leucocitario',
-          say: 'Y este es el hallazgo clave: el cilindro leucocitario, arriba a la izquierda, lleno de glóbulos blancos. Como se forma en el túbulo, certifica que la infección está en el riñón y no solo en la vejiga.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Cuando no mejora',
-      images: [
-        { src: 'biblioteca/03_nefrologia/nefro-21/03_ecografia-hidronefrosis__bailey-love_p1433.jpg', label: 'Vía urinaria dilatada en la ecografía', credit: 'Bailey & Love 27.ª ed., Fig. 76.15' },
-        { src: 'biblioteca/03_nefrologia/nefro-21/04_tac-calculos-renales__bailey-love_p1410.jpg', label: 'Cálculos renales en la tomografía', credit: 'Bailey & Love 27.ª ed., Fig. 75.21a' },
-      ],
-      steps: [
-        { note: 'Riñón con la pelvis dilatada',
-          say: 'Si no mejora a las setenta y dos horas, hay algo que no deja sanar, un absceso o una obstrucción. Aquí la vía urinaria está dilatada detrás de una obstrucción.' },
-        { note: 'Cálculos en ambos riñones',
-          say: 'Y la tomografía muestra cálculos en los riñones. Una pielonefritis detrás de un cálculo que obstruye es una emergencia urológica: hay que descomprimir.' },
       ],
     },
 
@@ -326,6 +378,306 @@ module.exports = {
         options: 'Las opciones: litotripsia extracorpórea, nefrolitotomía percutánea, cirugía abierta, catéter doble jota, o ureteroscopía. Piénsalo.',
         answer: 'Es la D, catéter doble jota. Es una pielonefritis detrás de un cálculo que obstruye: la emergencia urológica de los criterios de hospitalización. El antibiótico no basta, hay que descomprimir la vía urinaria. Las otras alternativas tientan porque atacan el cálculo, pero romperlo o sacarlo con la orina infectada es arriesgado. Primero se drena, y el cálculo se resuelve después.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.1.016 · Pielonefritis aguda no complicada",
+      "stem": "Mujer de 27 años, sana, no embarazada, con 2 días de disuria, fiebre de 38,7 °C y dolor lumbar derecho. Puño percusión derecha positiva. Tolera la vía oral, PA 115/70 mmHg, FC 98 lpm. Orina con leucocituria y nitritos positivos. Resistencia local de E. coli a quinolonas menor de 10 %.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nitrofurantoína 100 mg cada 6 horas por 5 días"
+        },
+        {
+          "letter": "B",
+          "text": "Urocultivo y ciprofloxacino 500 mg cada 12 horas por 7 días, ambulatorio"
+        },
+        {
+          "letter": "C",
+          "text": "Hospitalizar y ceftriaxona más ampicilina endovenosa"
+        },
+        {
+          "letter": "D",
+          "text": "Fosfomicina 3 g en dosis única"
+        },
+        {
+          "letter": "E",
+          "text": "TAC de abdomen y pelvis antes de iniciar antibiótico"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Pielonefritis no complicada en mujer sana que tolera la vía oral: manejo ambulatorio, urocultivo previo y ciprofloxacino 7 días si la resistencia local es baja (alternativa: cefalosporina oral). Nitrofurantoína y fosfomicina no alcanzan niveles en el parénquima renal y sirven solo para cistitis.",
+      "say": {
+        "stem": "Una mujer de veintisiete años, sana y no embarazada, tiene disuria, fiebre y dolor lumbar derecho con puño percusión positiva. Está estable y tolera la vía oral, y la resistencia local a quinolonas es baja.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: nitrofurantoína, urocultivo y ciprofloxacino ambulatorio por siete días, hospitalizar, fosfomicina en dosis única, o tomografía antes del antibiótico. Piénsalo.",
+        "answer": "Es la B. Pielonefritis no complicada en una paciente estable se trata en casa: urocultivo y ciprofloxacino por siete días. La nitrofurantoína tienta porque es la reina de la cistitis, pero no llega al riñón y falla en la pielonefritis."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.017 · Urocultivo y antibiograma",
+      "stem": "Mujer de 45 años, no embarazada, sin diabetes ni patología urológica, asintomática. En un chequeo de rutina se solicitó urocultivo, que informa más de 100.000 UFC/mL de E. coli sensible a nitrofurantoína.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nitrofurantoína por 5 días"
+        },
+        {
+          "letter": "B",
+          "text": "Ciprofloxacino por 7 días"
+        },
+        {
+          "letter": "C",
+          "text": "No tratar: es una bacteriuria asintomática"
+        },
+        {
+          "letter": "D",
+          "text": "Repetir el urocultivo cada mes"
+        },
+        {
+          "letter": "E",
+          "text": "Ecografía renal y cistoscopía"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Bacteriuria asintomática en mujer no embarazada: no se trata, porque no reduce infecciones sintomáticas y genera resistencia. Se trata solo en embarazadas y antes de procedimientos urológicos con sangrado de mucosa. El urocultivo se pide ante síntomas, no como tamizaje general.",
+      "say": {
+        "stem": "Una mujer de cuarenta y cinco años, no embarazada, sana y sin síntomas urinarios, se hizo un urocultivo de rutina que muestra más de cien mil colonias de Escherichia coli.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: nitrofurantoína, ciprofloxacino, no tratar, urocultivo mensual o estudio urológico. Piénsalo.",
+        "answer": "Es la C, no tratar. Sin síntomas y sin embarazo, la bacteriuria asintomática no se trata: no previene infecciones y solo selecciona resistencia. La nitrofurantoína tienta porque el antibiograma la muestra sensible, pero un cultivo positivo no es una enfermedad."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.014 · Examen de orina semicuantitativa",
+      "stem": "Una mujer de 30 años consulta por disuria, polaquiuria y urgencia miccional de 1 día. Refiere que orina cada 30 minutos. La tira reactiva de orina muestra leucocitos (+++) y nitritos negativos.",
+      "question": "¿Cuál es la interpretación más adecuada del resultado de nitritos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Descarta una infección urinaria"
+        },
+        {
+          "letter": "B",
+          "text": "Indica que la infección es viral"
+        },
+        {
+          "letter": "C",
+          "text": "Indica infección por E. coli"
+        },
+        {
+          "letter": "D",
+          "text": "Indica contaminación de la muestra"
+        },
+        {
+          "letter": "E",
+          "text": "Un nitrito negativo no descarta infección, porque requiere tiempo de permanencia de la orina en la vejiga y bacterias reductoras de nitratos"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Los nitritos se forman cuando enterobacterias como E. coli reducen nitratos, lo que requiere unas 4 horas de orina en la vejiga. Con polaquiuria intensa o gérmenes no reductores (Enterococcus, S. saprophyticus) pueden ser negativos. Es específico pero poco sensible: un nitrito negativo no descarta ITU.",
+      "say": {
+        "stem": "Una mujer de treinta años tiene disuria, urgencia y orina cada media hora desde ayer. La tira reactiva muestra leucocitos muy positivos y nitritos negativos.",
+        "question": "¿Cómo se interpreta el nitrito negativo?",
+        "options": "Las opciones: descarta infección, indica infección viral, indica E coli, indica contaminación o no la descarta por poco tiempo de orina en vejiga o gérmenes no reductores. Piénsalo.",
+        "answer": "Es la E. El nitrito necesita horas de orina en la vejiga y gérmenes que reduzcan nitratos, así que con polaquiuria puede salir negativo. Pensar que descarta la infección tienta, pero el nitrito es específico, no sensible."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.025 · Urocultivo y antibiograma",
+      "stem": "Una mujer de 62 años, diabética, presenta fiebre de 39 °C, calofríos, dolor lumbar derecho y puño percusión positiva. Está hemodinámicamente estable. Hace 3 meses recibió ciprofloxacino por una cistitis.",
+      "question": "¿Cuál es la conducta más adecuada respecto del urocultivo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar antibiótico sin solicitar urocultivo"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar urocultivo solo si no responde en 1 semana"
+        },
+        {
+          "letter": "C",
+          "text": "Esperar el resultado del urocultivo (48 a 72 horas) para iniciar antibiótico"
+        },
+        {
+          "letter": "D",
+          "text": "Tomar urocultivo con antibiograma antes de iniciar el antibiótico empírico, y ajustar según el resultado"
+        },
+        {
+          "letter": "E",
+          "text": "Usar la orina recolectada el día anterior"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En una pielonefritis, especialmente en diabéticos o con uso reciente de antibióticos, se toma urocultivo con antibiograma (segundo chorro, previo aseo) antes del primer antibiótico, sin retrasar el tratamiento empírico. El antibiograma permite ajustar ante resistencia, frecuente a quinolonas en Chile. Esperar el resultado para tratar es peligroso.",
+      "say": {
+        "stem": "Una mujer diabética de sesenta y dos años tiene fiebre alta, calofríos, dolor lumbar derecho y puño percusión positiva, y recibió ciprofloxacino hace tres meses.",
+        "question": "¿Cuál es la conducta más adecuada con el urocultivo?",
+        "options": "Las opciones: tratar sin urocultivo, cultivar solo si no responde, esperar el resultado para tratar, tomar urocultivo con antibiograma antes del antibiótico empírico o usar la orina de ayer. Piénsalo.",
+        "answer": "Es la D. En una pielonefritis se toma urocultivo con antibiograma antes del antibiótico, sin retrasar el tratamiento, para ajustar según resistencias. Esperar el resultado tienta por precisión, pero retrasar el antibiótico en una pielonefritis es peligroso."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.1.005 · Bacteriuria asintomática",
+      "stem": "Mujer de 72 años, diabética, sin síntomas urinarios ni fiebre, se realiza un urocultivo de rutina que muestra Escherichia coli con más de 100.000 UFC/mL en 2 muestras. No está embarazada ni tiene procedimientos urológicos programados.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nitrofurantoína por 7 días"
+        },
+        {
+          "letter": "B",
+          "text": "No tratar la bacteriuria"
+        },
+        {
+          "letter": "C",
+          "text": "Ciprofloxacino por 14 días"
+        },
+        {
+          "letter": "D",
+          "text": "Profilaxis antibiótica permanente"
+        },
+        {
+          "letter": "E",
+          "text": "Ecografía renal y cistoscopía"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La bacteriuria asintomática en adultas mayores y diabéticas no se trata: no reduce las infecciones sintomáticas ni las complicaciones y favorece resistencia y efectos adversos. Solo se trata en embarazadas y antes de procedimientos urológicos con sangrado de mucosa, como la resección transuretral. Tampoco requiere estudio de imágenes.",
+      "say": {
+        "stem": "Mujer de setenta y dos años, diabética y asintomática, con urocultivo positivo en dos muestras.",
+        "question": "¿Qué haces?",
+        "options": "Las opciones: nitrofurantoína, no tratar, ciprofloxacino, profilaxis permanente o ecografía y cistoscopía. Piénsalo.",
+        "answer": "Es la B. No tratar, porque es una bacteriuria asintomática. Tratar por ser diabética es tentador, pero no previene infecciones y genera resistencia; solo se trata en embarazadas o antes de cirugía urológica."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.1.011 · Infección urinaria baja (cistitis)",
+      "stem": "Mujer de 26 años, sana y no embarazada, consulta por disuria, polaquiuria y urgencia miccional de 1 día. Está afebril, sin dolor lumbar ni flujo vaginal. Tira reactiva de orina: leucocitos y nitritos positivos.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nitrofurantoína 100 mg cada 12 horas por 5 días, sin urocultivo"
+        },
+        {
+          "letter": "B",
+          "text": "Urocultivo y esperar el resultado para tratar"
+        },
+        {
+          "letter": "C",
+          "text": "Ceftriaxona intramuscular por 3 días"
+        },
+        {
+          "letter": "D",
+          "text": "Ecografía renal y vesical"
+        },
+        {
+          "letter": "E",
+          "text": "Ciprofloxacino por 14 días"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Es una cistitis aguda no complicada: en una mujer joven con síntomas típicos no se requiere urocultivo y se trata empíricamente con nitrofurantoína por 5 días (alternativas: fosfomicina en dosis única o cefalosporina oral), considerando la resistencia local de E. coli. Las quinolonas se reservan, y 14 días o la vía parenteral corresponden a pielonefritis.",
+      "say": {
+        "stem": "Mujer de veintiséis años, sana, con disuria y polaquiuria de un día, sin fiebre ni dolor lumbar.",
+        "question": "¿Qué indicas?",
+        "options": "Las opciones: nitrofurantoína cinco días sin urocultivo, urocultivo y esperar, ceftriaxona, ecografía o ciprofloxacino catorce días. Piénsalo.",
+        "answer": "Es la A. Nitrofurantoína por cinco días, sin urocultivo, porque es una cistitis no complicada. Ciprofloxacino catorce días es esquema de pielonefritis y además se reserva por resistencia."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.3.006 · Higiene para prevención de infección urinaria",
+      "stem": "Mujer de 24 años ha tenido 4 episodios de cistitis no complicada en el último año, la mayoría 1 a 2 días después de tener relaciones sexuales. Examen físico y ecografía renal normales.",
+      "question": "¿Cuál es la medida higiénica de prevención más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Duchas vaginales diarias"
+        },
+        {
+          "letter": "B",
+          "text": "Orinar después de las relaciones sexuales y mantener buena hidratación"
+        },
+        {
+          "letter": "C",
+          "text": "Usar espermicidas"
+        },
+        {
+          "letter": "D",
+          "text": "Restringir líquidos para orinar menos veces"
+        },
+        {
+          "letter": "E",
+          "text": "Aseo genital de atrás hacia adelante"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En la cistitis recurrente asociada al coito se recomienda orinar después de las relaciones, beber abundantes líquidos, no retener la orina y asearse de adelante hacia atrás. Los espermicidas y las duchas vaginales alteran la flora y aumentan el riesgo. Si las medidas fallan, se considera profilaxis antibiótica poscoital.",
+      "say": {
+        "stem": "Mujer de veinticuatro años con cistitis recurrentes después de las relaciones sexuales.",
+        "question": "¿Qué medida higiénica le recomiendas?",
+        "options": "Las opciones: duchas vaginales, orinar después del coito e hidratarse, espermicidas, restringir líquidos, o aseo de atrás hacia adelante. Piénsalo.",
+        "answer": "Es la B. Orinar después de las relaciones y tomar suficiente líquido. Las duchas vaginales suenan higiénicas, pero alteran la flora y aumentan las infecciones."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 6",
+      "stem": "Se atiende a una paciente de 26 años con antecedente de infecciones del tracto urinario a repetición desde hace 4 años, coincidiendo con el inicio de sus relaciones sexuales. Ha presentado urocultivos positivos para Escherichia coli con una frecuencia de 5 a 6 episodios por año. Su examen físico actual es normal, el urocultivo es negativo y el panel de PCR para infecciones de transmisión sexual también resulta negativo. Una ecografía renal y vesical previa resultó normal.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Realizar cistoscopía"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar PCR para Mycobacterium tuberculosis en orina"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar flavoxato vía oral"
+        },
+        {
+          "letter": "D",
+          "text": "Profilaxis antibiótica poscoital"
+        },
+        {
+          "letter": "E",
+          "text": "Indicar uso de preservativo durante las relaciones sexuales"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Cistitis recurrente (3 o más al año) claramente asociada al coito, con ecografía normal, se maneja con profilaxis antibiótica poscoital en dosis única (nitrofurantoína o cotrimoxazol). En mujeres jóvenes sin factores de complicación no se requieren cistoscopía ni más estudio. El flavoxato es solo un antiespasmódico.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Mujer de veintiséis años con cinco a seis cistitis por Escherichia coli al año desde que inició su actividad sexual, con ecografía y examen normales.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: cistoscopía, PCR para tuberculosis en orina, flavoxato, profilaxis antibiótica poscoital o preservativo. Piénsalo.",
+        "answer": "Es la D. Las cistitis recurrentes ligadas al coito se previenen con una dosis de antibiótico después de cada relación. La cistoscopía tienta, pero en una mujer joven con ecografía normal no aporta."
+      }
     },
 
     {

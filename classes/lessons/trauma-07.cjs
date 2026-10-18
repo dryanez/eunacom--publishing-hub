@@ -43,8 +43,9 @@ module.exports = {
       title: 'Fémur y pierna: estudio y tratamiento',
       cards: [
         { title: 'Fractura de fémur', tag: 'Diáfisis', kind: 'key', items: [
-          { t: 'Radiografía AP y lateral', d: 'Incluye cadera y rodilla',
-            say: 'En el fémur, el diagnóstico se confirma con radiografía anteroposterior y lateral, e incluyes la articulación de arriba, la cadera, y la de abajo, la rodilla, para no perder una lesión asociada.' },
+          { t: 'Radiografía AP y lateral', d: 'Fémur completo, cadera y rodilla; más pelvis',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-07/21_femur-espiroidea__sherman_p577.jpg', label: 'Fractura espiroidea de fémur', at: 'En esta radiografía', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 577' },
+            say: 'En el fémur, el diagnóstico se confirma con radiografía anteroposterior y lateral del fémur completo, con la cadera y la rodilla incluidas, más una radiografía de pelvis para descartar una fractura asociada del cuello femoral o del acetábulo. En esta radiografía ves un trazo espiroideo con acortamiento y desplazamiento. Es una fractura de gran energía que puede perder hasta un litro y medio de sangre, así que vigilas el shock, y mientras esperas la cirugía inmovilizas con férula de tracción.' },
           { t: 'Tratamiento siempre quirúrgico', d: 'Clavo intramedular o placa',
             say: 'El tratamiento es quirúrgico, habitualmente con un clavo intramedular o una placa. El yeso no logra vencer la fuerza de los músculos del muslo y termina en consolidación viciosa o en pseudoartrosis, que vimos en la clase anterior.' },
         ] },
@@ -123,6 +124,30 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Partes blandas',
+      title: 'Esguince: grados y tratamiento',
+      cards: [
+        { title: 'Grados', tag: 'Lesión de un ligamento', kind: 'criteria', items: [
+          { t: 'Grado I: microdesgarros', d: 'Dolor y edema leves; se puede apoyar',
+            say: 'Una vez descartada la fractura, el esguince es la lesión de un ligamento, y se grada. En el grado uno hay microdesgarros, dolor y edema leves, sin inestabilidad, y el paciente puede apoyar.' },
+          { t: 'Grado II: rotura parcial', d: 'Equimosis, dolor al apoyar, inestabilidad leve',
+            say: 'El grado dos es una rotura parcial, con edema, equimosis, dolor al apoyo e inestabilidad leve.' },
+          { t: 'Grado III: rotura completa', d: 'Inestabilidad franca; ecografía o RM y derivar',
+            say: 'El grado tres es la rotura completa, con inestabilidad franca. Se confirma con ecografía o resonancia y se deriva. El más frecuente es el del ligamento peroneoastragalino anterior, por inversión del tobillo.' },
+        ] },
+        { title: 'Tratamiento de los grados I y II', tag: 'PRICE', kind: 'key', items: [
+          { t: 'PRICE: protección, reposo, hielo, compresión, elevación', d: 'Hielo 15 a 20 minutos cada 2 a 3 horas',
+            say: 'Se trata con PRICE: protección, reposo relativo, hielo quince a veinte minutos cada dos a tres horas durante cuarenta y ocho a setenta y dos horas, compresión con venda elástica y elevación. Con paracetamol o antiinflamatorio por pocos días.' },
+          { t: 'Vendaje funcional y apoyo progresivo', d: 'Grado II: inmovilización semirrígida 1 a 2 semanas',
+            say: 'Se agrega vendaje funcional o tobillera y apoyo progresivo según tolerancia. En el grado dos, además, una inmovilización semirrígida por una a dos semanas. Después, kinesiterapia con propiocepción para prevenir recidivas; el retorno al deporte demora de una a seis semanas.' },
+          { t: 'Derivar: grado III, sindesmosis, más de 6 semanas', d: 'Dolor sobre la sindesmosis',
+            say: 'Derivas el grado tres, la sospecha de lesión de la sindesmosis, con dolor sobre ella o compresión tibioperonea dolorosa, y los síntomas que persisten más de seis semanas. El mismo manejo vale para el esguince acromioclavicular grado uno y el de los dedos.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Tratamiento',
       title: 'Fractura de tobillo: qué se hace',
       cards: [
@@ -139,6 +164,29 @@ module.exports = {
             say: 'Después se inmoviliza de forma transitoria con una valva de yeso abierta, no con un yeso circular cerrado, para evitar un síndrome compartimental. Esto vale para otras fracturas desplazadas que esperan cirugía.' },
           { t: 'Neurovascular antes y después', d: 'Pulsos, llene capilar, sensibilidad',
             say: 'Y siempre evalúas la parte neurovascular distal, con pulsos, llene capilar y sensibilidad, antes y después de inmovilizar.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Fractura de tobillo',
+      title: 'Luxofractura de tobillo y clasificación de Weber',
+      cards: [
+        { title: 'Qué es', tag: 'Rotación del pie en carga', kind: 'alert', items: [
+          { t: 'Maléolos, ligamentos y astrágalo', d: 'Bimaleolar o trimaleolar',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-07/22_luxofractura-tobillo-rx__sherman_p540.jpg', label: 'Luxofractura de tobillo', at: 'Mira estas radiografías', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 540' },
+            say: 'La luxofractura de tobillo se produce por una rotación del pie con el tobillo en carga: fractura de uno o más maléolos, lesión de ligamentos y subluxación o luxación del astrágalo. Mira estas radiografías: el astrágalo se desplaza fuera de la mortaja y hay fragmentos del maléolo. Si compromete el maléolo posterior, es trimaleolar. La clínica es deformidad evidente, edema importante e imposibilidad de apoyar.' },
+          { t: 'Weber: A, B y C según la sindesmosis', d: 'Las C son inestables',
+            say: 'La clasificación de Weber mira el nivel del rasgo del peroné respecto de la sindesmosis. La A es infrasindesmal, la B transindesmal y la C suprasindesmal. Las C son inestables.' },
+        ] },
+        { title: 'Manejo de urgencia', tag: 'Y derivación', kind: 'key', items: [
+          { t: 'Ottawa y tres proyecciones', d: 'AP, lateral y de mortaja',
+            say: 'Con las reglas de Ottawa decides la radiografía, y se piden anteroposterior, lateral y de mortaja.' },
+          { t: 'Reducir si hay compromiso vascular o cutáneo', d: 'Luego valva suropédica',
+            say: 'Examinas lo neurovascular y la piel. Si hay luxación con compromiso vascular o cutáneo, reduces; después valva suropédica, elevación, analgesia y derivación para osteosíntesis.' },
+          { t: 'Necrosis cutánea, compartimental, artrosis', d: 'Complicaciones',
+            say: 'Complican la necrosis de la piel, el síndrome compartimental y la artrosis postraumática.' },
         ] },
       ],
     },
@@ -232,6 +280,82 @@ module.exports = {
         options: 'Las opciones: reposo, hielo, compresión y elevación con bota removible; yeso de pierna por seis semanas; cirugía con reducción y osteosíntesis; observación ambulatoria; o bota de yeso y control en dos semanas. Piénsalo.',
         answer: 'Es la C. Fémur, pierna y tobillo se operan por regla general: la cirugía reduce y fija bien, y permite apoyar antes. La A es la trampa: esa bota con hielo y elevación es el manejo del esguince, no de una fractura confirmada. La inmovilización solo acompaña mientras llega la cirugía.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.2.003 · Esguince grado1",
+      "stem": "Mujer de 24 años se dobla el tobillo derecho hacia adentro jugando básquetbol hace 3 horas. Pudo caminar 4 pasos al llegar al SAPU. Al examen: leve aumento de volumen y dolor a la palpación del ligamento peroneoastragalino anterior, sin dolor en el borde posterior ni la punta de los maléolos, ni en la base del quinto metatarsiano ni en el navicular. Cajón anterior negativo.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía de tobillo AP, lateral y mortaja antes de indicar tratamiento"
+        },
+        {
+          "letter": "B",
+          "text": "Bota de yeso por 4 semanas"
+        },
+        {
+          "letter": "C",
+          "text": "Reposo relativo, hielo, compresión y elevación, analgesia, carga precoz según tolerancia y ejercicios de propiocepción"
+        },
+        {
+          "letter": "D",
+          "text": "Resonancia magnética para evaluar rotura ligamentosa"
+        },
+        {
+          "letter": "E",
+          "text": "Derivación a traumatología para reparación quirúrgica"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Por las reglas de tobillo de Ottawa (camina 4 pasos, sin dolor óseo en maléolos, quinto metatarsiano ni navicular) no requiere radiografía. Es un esguince grado 1 del peroneoastragalino anterior, que se trata con medidas RICE, analgesia, movilización y carga precoz y rehabilitación propioceptiva; el yeso no está indicado.",
+      "say": {
+        "stem": "Una mujer de veinticuatro años se dobla el tobillo hacia adentro jugando básquetbol. Camina cuatro pasos, tiene leve aumento de volumen y dolor solo sobre el ligamento anterior, sin dolor en los huesos ni inestabilidad.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: radiografías antes de tratar, bota de yeso por cuatro semanas, reposo relativo con hielo, compresión, elevación y carga precoz, resonancia, o cirugía. Piénsalo.",
+        "answer": "Es la C. Según las reglas de Ottawa no necesita radiografía, y un esguince leve se trata con hielo, compresión, elevación, analgesia y carga precoz con ejercicios de equilibrio. La radiografía tienta, pero camina y no tiene dolor en los puntos óseos clave."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.4.007 · Radiografía de extremidades",
+      "stem": "Mujer de 28 años sufre un esguince por inversión del tobillo derecho jugando básquetbol. Presenta dolor y edema en la zona lateral. No puede dar 4 pasos al llegar a urgencia y tiene dolor a la palpación del borde posterior del maléolo lateral.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solicitar resonancia magnética de tobillo"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar radiografía de tobillo AP, lateral y mortaja"
+        },
+        {
+          "letter": "C",
+          "text": "Inmovilizar sin estudio radiológico"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar TAC de tobillo"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar radiografía de pie exclusivamente"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Según las reglas de Ottawa, se solicita radiografía de tobillo si hay dolor en la zona maleolar con dolor a la palpación del borde posterior o la punta de cualquiera de los maléolos, o incapacidad de dar 4 pasos. Esta paciente cumple ambos criterios. La radiografía de extremidades debe incluir al menos 2 proyecciones ortogonales.",
+      "say": {
+        "stem": "Mujer de veintiocho años con un esguince en inversión del tobillo derecho jugando básquetbol. No puede dar cuatro pasos y le duele al palpar el borde posterior del maléolo lateral.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: resonancia de tobillo, radiografía de tobillo en tres proyecciones, inmovilizar sin radiografía, TAC de tobillo o solo radiografía de pie. Piénsalo.",
+        "answer": "Es la B. Cumple las reglas de Ottawa, con dolor en el borde posterior del maléolo e incapacidad de dar cuatro pasos, así que necesita radiografía de tobillo. Inmovilizar sin estudio tienta porque la mayoría son esguinces, pero con estos criterios podrías estar dejando pasar una fractura."
+      }
     },
 
     {

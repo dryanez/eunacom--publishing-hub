@@ -94,6 +94,100 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Hematocrito alto',
+      title: 'Policitemia neonatal',
+      cards: [
+        { title: 'Definición y causas', tag: 'Hematocrito venoso mayor a 65%', kind: 'key', items: [
+          { t: 'Hematocrito venoso sobre 65%', d: 'O hemoglobina sobre 22 g/dL',
+            say: 'La policitemia es un hematocrito venoso central sobre sesenta y cinco por ciento, o hemoglobina sobre veintidós. Ojo: el hematocrito capilar sobreestima, así que se confirma en sangre venosa.' },
+          { t: 'Hipoxia crónica o transfusión', d: 'PEG, hijo de madre diabética, postérmino, clampeo tardío',
+            say: 'Las causas son más eritropoyesis por hipoxia crónica, en el pequeño para la edad, el hijo de madre diabética y el postérmino, o una transfusión, por clampeo tardío del cordón o el gemelo receptor en una transfusión feto-fetal.' },
+        ] },
+        { title: 'Clínica', tag: 'Por hiperviscosidad', kind: 'alert', items: [
+          { t: 'Pletórico, letárgico, mala succión', d: 'Taquipnea, cianosis, hipoglicemia, ictericia',
+            say: 'El niño está pletórico, letárgico, con mala succión, taquipnea, cianosis, hipoglicemia, ictericia y a veces convulsiones.' },
+          { t: 'Trombosis renal y enterocolitis', d: 'Y también hipertensión pulmonar',
+            say: 'Por la hiperviscosidad pueden aparecer trombosis, sobre todo renal, enterocolitis necrotizante e hipertensión pulmonar.' },
+        ] },
+        { title: 'Manejo', tag: 'Según síntomas y valor', kind: 'pharma', items: [
+          { t: 'Asintomático, 65 a 70%', d: 'Hidratar; glicemia y hematocrito seriados',
+            say: 'Si está asintomático y el hematocrito está entre sesenta y cinco y setenta por ciento, lo hidratas y controlas glicemia y hematocrito de forma seriada.' },
+          { t: 'Sintomático o sobre 70%', d: 'Exsanguinotransfusión parcial con suero fisiológico',
+            say: 'Si tiene síntomas, o el hematocrito pasa de setenta por ciento, exsanguinotransfusión parcial con suero fisiológico, para llevar el hematocrito a cerca de cincuenta y cinco por ciento, en una unidad neonatal.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'El hiperinsulinismo fetal',
+      title: 'Hijo de madre diabética',
+      cards: [
+        { title: 'Por qué', tag: 'Hiperglicemia materna', kind: 'key', items: [
+          { t: 'Hiperinsulinismo fetal', d: 'Macrosomía y adiposidad',
+            say: 'La hiperglicemia de la madre hace que el feto produzca mucha insulina: eso explica la macrosomía y la adiposidad, y casi todo lo que viene después.' },
+          { t: 'Hipoglicemia: la más frecuente', d: 'Entre la hora 1 y la 12 de vida',
+            say: 'La complicación más frecuente es la hipoglicemia, entre la primera y la duodécima hora de vida. Se suman hipocalcemia, hipomagnesemia, policitemia e hiperbilirrubinemia.' },
+        ] },
+        { title: 'Otras complicaciones', tag: 'Para no olvidar', kind: 'alert', items: [
+          { t: 'Membrana hialina', d: 'La insulina retrasa el surfactante',
+            say: 'El exceso de insulina retrasa la maduración del surfactante, por eso hacen membrana hialina.' },
+          { t: 'Miocardiopatía hipertrófica septal', d: 'Ecocardiograma; sin inotrópicos',
+            say: 'Se sospecha miocardiopatía hipertrófica septal ante un soplo o dificultad respiratoria: ecocardiograma, hidratación y betabloqueador, evitando los inotrópicos.' },
+          { t: 'Trauma obstétrico y trombosis renal', d: 'Distocia, Erb, clavícula',
+            say: 'Y trauma obstétrico, con distocia de hombros, parálisis de Erb y fractura de clavícula, además de trombosis de la vena renal. En la diabetes pregestacional se suman malformaciones: cardiopatías, defectos del tubo neural, síndrome de regresión caudal y colon izquierdo pequeño.' },
+        ] },
+        { title: 'Manejo', tag: 'Completo y derivar', kind: 'pharma', items: [
+          { t: 'Glicemia al nacer y seriada', d: 'Alimentación precoz',
+            say: 'Mides glicemia al nacer y de forma seriada, alimentas precoz, y pides calcemia, hematocrito y bilirrubina.' },
+          { t: 'Observar al menos 24 horas', d: 'Ecocardiograma si soplo o distrés',
+            say: 'Haces ecocardiograma si hay soplo o distrés, observas por al menos veinticuatro horas, y los casos con complicaciones se derivan a una unidad neonatal.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cuando el cerebro avisa',
+      title: 'Convulsiones neonatales',
+      cards: [
+        { title: 'Cómo se ven', tag: 'A menudo sutiles', kind: 'key', items: [
+          { t: 'Sutiles: ojos, chupeteo, pedaleo', d: 'O apneas; también clónicas, tónicas, mioclónicas',
+            say: 'Las convulsiones neonatales suelen ser sutiles: movimientos oculares, chupeteo, pedaleo o apneas. También pueden ser clónicas focales, tónicas o mioclónicas.' },
+          { t: 'Temblor benigno', d: 'Cede al sujetar; sin ojos ni apnea',
+            say: 'Las distingues del temblor benigno, el jitteriness: se desencadena con estímulos, cede al sujetar la extremidad y no tiene movimientos oculares ni apnea. La confirmación es con electroencefalograma.' },
+        ] },
+        { title: 'Causas', tag: 'Y estudio inicial', kind: 'criteria', items: [
+          { t: 'Encefalopatía hipóxico-isquémica', d: 'La más frecuente, primeras 24 a 48 horas',
+            say: 'La causa más frecuente es la encefalopatía hipóxico-isquémica, en las primeras veinticuatro a cuarenta y ocho horas. Siguen la hemorragia o el infarto, las infecciones como meningitis y TORCH, y los trastornos metabólicos: hipoglicemia, hipocalcemia, hipomagnesemia y alteraciones del sodio.' },
+          { t: 'Glicemia, calcio, magnesio, sodio', d: 'Hemocultivo, punción lumbar, ecografía',
+            say: 'El estudio inicial parte por glicemia inmediata, calcio, magnesio y sodio, gases, hemograma y hemocultivo, punción lumbar si sospechas infección, ecografía transfontanelar y resonancia, y pruebas metabólicas si no hay causa evidente.' },
+        ] },
+        { title: 'Tratamiento', tag: 'Causa primero', kind: 'pharma', items: [
+          { t: 'Corregir la causa', d: 'Glucosado 10% 2 mL/kg; gluconato de calcio',
+            say: 'Primero corriges la causa: suero glucosado al diez por ciento, dos mililitros por kilo, o gluconato de calcio.' },
+          { t: 'Fenobarbital 20 mg/kg EV', d: 'Luego fenitoína o levetiracetam; piridoxina',
+            say: 'La primera línea es fenobarbital, veinte miligramos por kilo endovenoso. De segunda línea, fenitoína o levetiracetam, con ensayo de piridoxina en las refractarias. Derivas a UCI neonatal y neurología.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: "La glicemia que cae",
+      images: [
+        { src: 'animaciones/ped-20/A1_glicemia_neonatal.mp4', label: "Primeras horas de vida", credit: "Animación propia" },
+      ],
+      steps: [
+        { note: "Quién cae y qué haces",
+          say: "Mira las dos curvas desde el parto. El recién nacido sano baja un poco y se recupera solo. El prematuro, el pequeño para la edad o el hijo de madre diabética cae bajo cuarenta y cinco. Entre treinta y cinco y cuarenta y cuatro, sin síntomas, alimentas y controlas. Bajo treinta y cinco, o con síntomas, bolo de suero glucosado al diez por ciento y luego infusión. Nunca un bolo al veinte o al cincuenta." },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo esto en un solo árbol de decisión.',
     },
@@ -110,6 +204,12 @@ module.exports = {
           say: 'Con síntomas, o glicemia bajo treinta y cinco: bolo de suero glucosado al diez y luego infusión. El error contrario es intentar solo alimentarlo y esperar.' },
         { cells: ['Cualquier bolo de glucosa', 'Siempre al 10 %', 'Usar suero al 20 % o al 50 %'],
           say: 'En cualquier bolo, siempre al diez por ciento. Usar uno al veinte o al cincuenta es el error que más se repite en este tema.' },
+        { cells: ['Policitemia con síntomas o Hto sobre 70%', 'Exsanguinotransfusión parcial', 'Solo hidratar y esperar'],
+          say: 'Policitemia con síntomas, o hematocrito sobre setenta: exsanguinotransfusión parcial con suero fisiológico. El error es solo hidratar y esperar.' },
+        { cells: ['Hijo de madre diabética', 'Glicemia seriada y observar 24 horas', 'Dar el alta a las pocas horas'],
+          say: 'Hijo de madre diabética: glicemia desde el nacimiento y observación por al menos veinticuatro horas. El error es dar el alta temprano, sin controlar la glicemia.' },
+        { cells: ['Convulsión neonatal', 'Glicemia y calcio, luego fenobarbital', 'Partir con el anticonvulsivante sin corregir'],
+          say: 'Convulsión neonatal: primero glicemia, calcio, magnesio y sodio, y fenobarbital como primera línea. El error es dar el anticonvulsivante sin buscar ni corregir la causa metabólica.' },
         { cells: ['Hipocalcemia sintomática', 'Gluconato de calcio con monitor', 'Pasarlo rápido y sin monitor'],
           say: 'Y en la hipocalcemia con síntomas: gluconato de calcio, siempre con monitor cardíaco. Pasarlo rápido y sin vigilancia es lo que causa la bradicardia.' },
       ],
@@ -185,6 +285,119 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.119 · Hipocalcemia",
+      "stem": "Recién nacido de 37 semanas, hijo de madre diabética pregestacional, de 30 horas de vida. Presenta temblores de extremidades e irritabilidad. Glicemia 62 mg/dL. Calcio total 6,6 mg/dL. El electrocardiograma muestra un intervalo QT prolongado.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bolo de suero glucosado al 10% 2 mL/kg"
+        },
+        {
+          "letter": "B",
+          "text": "Fenobarbital endovenoso por sospecha de convulsión"
+        },
+        {
+          "letter": "C",
+          "text": "Gluconato de calcio en bolo rápido sin monitorización"
+        },
+        {
+          "letter": "D",
+          "text": "Gluconato de calcio al 10% 1 a 2 mL/kg endovenoso lento, con monitor cardíaco"
+        },
+        {
+          "letter": "E",
+          "text": "Solo observación, porque es esperable en el hijo de madre diabética"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Calcio bajo 8 mg/dL en un recién nacido de término es hipocalcemia; el hijo de madre diabética es grupo de riesgo. Con síntomas o QT prolongado se trata con gluconato de calcio al 10% endovenoso lento con monitor, porque pasarlo rápido causa bradicardia y arritmias. La glicemia es normal.",
+      "say": {
+        "stem": "Recién nacido de treinta y siete semanas, hijo de madre diabética, de treinta horas de vida, con temblores e irritabilidad. La glicemia es sesenta y dos, el calcio total seis coma seis, y el electrocardiograma muestra un QT prolongado.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: bolo de suero glucosado, fenobarbital, gluconato de calcio rápido sin monitor, gluconato de calcio endovenoso lento con monitor o solo observar. Piénsalo.",
+        "answer": "Es la D. Es una hipocalcemia sintomática con QT largo, y se trata con gluconato de calcio al diez por ciento, lento y con monitor cardíaco. El suero glucosado tienta porque es hijo de madre diabética, pero la glicemia está normal; el problema aquí es el calcio."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.115 · Convulsiones neonatales",
+      "stem": "Un recién nacido de término, hijo de madre con diabetes gestacional, presenta a las 6 horas de vida movimientos de pedaleo de extremidades y desviación ocular sostenida, de 1 minuto de duración. Está en buenas condiciones generales, sin fiebre.",
+      "question": "¿Cuál es la primera medida diagnóstica?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Electroencefalograma"
+        },
+        {
+          "letter": "B",
+          "text": "Punción lumbar"
+        },
+        {
+          "letter": "C",
+          "text": "Glicemia capilar"
+        },
+        {
+          "letter": "D",
+          "text": "Ecografía cerebral"
+        },
+        {
+          "letter": "E",
+          "text": "Resonancia magnética cerebral"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Ante una convulsión neonatal, lo primero es medir la glicemia capilar, porque la hipoglicemia es una causa frecuente, rápidamente tratable y que deja secuelas si no se corrige; el hijo de madre diabética tiene alto riesgo. Luego se miden calcio, magnesio y electrolitos y se buscan otras causas (encefalopatía hipóxico-isquémica, infección, hemorragia). El EEG y las imágenes vienen después.",
+      "say": {
+        "stem": "Un recién nacido de término, hijo de madre diabética, tiene a las seis horas de vida movimientos de pedaleo y desviación ocular por un minuto.",
+        "question": "¿Cuál es la primera medida diagnóstica?",
+        "options": "Las opciones: electroencefalograma, punción lumbar, glicemia capilar, ecografía cerebral o resonancia. Piénsalo.",
+        "answer": "Es la C. Ante una convulsión neonatal lo primero es la glicemia capilar, porque la hipoglicemia es frecuente y se corrige al tiro. El electroencefalograma tienta para confirmar la convulsión, pero no debe retrasar descartar una causa metabólica tratable."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.122 · Poliglobulia",
+      "stem": "Un recién nacido de término, pequeño para la edad gestacional, a las 12 horas de vida se ve pletórico, con letargia, temblores y succión débil. Exámenes: hematocrito venoso 71% y glicemia 38 mg/dL.",
+      "question": "¿Cuál es el tratamiento más adecuado de la poliglobulia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flebotomía simple sin reposición"
+        },
+        {
+          "letter": "B",
+          "text": "Exsanguinotransfusión parcial con suero fisiológico"
+        },
+        {
+          "letter": "C",
+          "text": "Hidratación oral exclusiva y control"
+        },
+        {
+          "letter": "D",
+          "text": "Transfusión de plaquetas"
+        },
+        {
+          "letter": "E",
+          "text": "Fototerapia"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Poliglobulia neonatal es un hematocrito venoso mayor a 65%; en pequeños para la edad gestacional se debe a hipoxia crónica intrauterina. Causa hiperviscosidad, con letargia, hipoglicemia, dificultad respiratoria o enterocolitis. Si es sintomática (o el hematocrito es mayor a 70 a 75%), se realiza exsanguinotransfusión parcial con suero fisiológico para bajar el hematocrito a 55%, además de corregir la glicemia.",
+      "say": {
+        "stem": "Un recién nacido pequeño para la edad gestacional está pletórico, letárgico y con temblores, con hematocrito venoso de setenta y uno y glicemia baja.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: flebotomía sin reposición, exsanguinotransfusión parcial con suero fisiológico, solo hidratación oral, plaquetas o fototerapia. Piénsalo.",
+        "answer": "Es la B. Una poliglobulia sintomática se trata con exsanguinotransfusión parcial con suero fisiológico. La flebotomía simple tienta, pero sin reposición de volumen puede causar hipotensión en el recién nacido."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -203,7 +416,7 @@ module.exports = {
         ] },
         { title: 'Lo que comparten', tag: 'Mismos factores de riesgo', kind: 'normal', items: [
           { t: 'Hipoglicemia e hipocalcemia van juntas', d: 'Prematuro, asfixia, hijo de madre diabética',
-            say: 'Si te llevas una sola idea de hoy: hipoglicemia e hipocalcemia comparten los mismos grupos de riesgo, y en los dos casos, el síntoma es lo que te obliga a actuar rápido. Nos vemos en la próxima clase.' },
+            say: 'Y ante una convulsión neonatal, primero descartas hipoglicemia y trastornos del calcio, y recién ahí fenobarbital. Si te llevas una sola idea de hoy: hipoglicemia e hipocalcemia comparten los mismos grupos de riesgo, y en los dos casos, el síntoma es lo que te obliga a actuar rápido. Nos vemos en la próxima clase.' },
         ] },
       ],
     },

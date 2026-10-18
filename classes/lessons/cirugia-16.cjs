@@ -10,7 +10,7 @@ module.exports = {
     {
       type: 'cover',
       subtitle: 'Las cinco W que ordenan la fiebre según el día postoperatorio',
-      say: 'Bienvenido. Ya vimos evaluación preoperatoria y anestesia, y hoy damos el primer paso después de la cirugía: la fiebre postoperatoria. Es de las preguntas más repetidas del examen, y tiene un truco simple: casi siempre se responde con el día en que aparece la fiebre, más que con exámenes complicados. Vamos a ordenar eso con las cinco W, una regla mnemotécnica en inglés que te va a servir toda la vida.',
+      say: 'Bienvenido. Ya vimos evaluación preoperatoria y anestesia, y hoy damos el primer paso después de la cirugía: la fiebre postoperatoria. Se responde casi siempre con el día en que aparece, y lo ordenamos con las cinco W, una regla mnemotécnica en inglés. Además veremos la hemorragia postoperatoria y cómo se interpreta la proteína C reactiva.',
     },
 
     {
@@ -57,7 +57,8 @@ module.exports = {
       cards: [
         { title: 'Cómo se presenta', tag: 'Día uno y dos', kind: 'key', items: [
           { t: 'Fiebre moderada y taquipnea', d: 'Con murmullo vesicular disminuido',
-            say: 'Empecemos por la atelectasia, porque es la que más se pregunta. Aparece con fiebre moderada, taquipnea, y murmullo vesicular disminuido, con crepitaciones en las bases.' },
+            say: 'Empecemos por la atelectasia, porque es la que más se pregunta. Aparece con fiebre moderada, taquipnea, y murmullo vesicular disminuido, con crepitaciones en las bases. En esta radiografía, a la izquierda, ves un pulmón colapsado: más opaco y con pérdida de volumen, comparado con el pulmón normal de la derecha.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-16/atlas_242_atelectasia_rx.jpg', label: 'Atelectasia en Rx de tórax', at: 'En esta radiografía', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 3415' } },
           { t: 'Herida limpia', d: 'Sin eritema ni secreción',
             say: 'Y algo clave para diferenciarla: la herida está limpia, sin eritema ni secreción. El problema está en el pulmón, no en la piel.' },
         ] },
@@ -87,7 +88,8 @@ module.exports = {
         ] },
         { title: 'Wound: infección de la herida', tag: 'Día cinco a siete', kind: 'alert', items: [
           { t: 'Eritema, calor y dolor', d: 'Con salida de pus por la herida',
-            say: 'Entre el día cinco y siete, revisa la herida: eritema, calor, dolor creciente, y a veces salida de secreción purulenta.' },
+            say: 'Entre el día cinco y siete, revisa la herida: eritema, calor, dolor creciente, y a veces salida de secreción purulenta. Mira esta incisión: los puntos están rodeados de un halo rojo, así se ve una herida operatoria infectada.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-16/03_infeccion-herida-operatoria__knoop_p673.jpg', label: 'Herida infectada', at: 'Mira esta incisión', credit: 'The Atlas of Emergency Medicine (Knoop), p. 673' } },
           { t: 'Abrir y drenar', d: 'Antibióticos solo si hay celulitis extensa',
             say: 'El tratamiento es abrir la herida y drenar todo el pus. Los antibióticos se agregan solo si hay celulitis extensa o el paciente está comprometido, y esto lo vas a ver con más detalle en la próxima clase.' },
         ] },
@@ -101,7 +103,8 @@ module.exports = {
       cards: [
         { title: 'Walking: trombosis venosa profunda', tag: 'Día siete a diez', kind: 'alert', items: [
           { t: 'Pantorrilla asimétrica y dolorosa', d: 'Empastamiento y signo de Homans',
-            say: 'Hacia el día siete a diez, piensa en trombosis. La clínica es una pantorrilla que aumenta de volumen de forma asimétrica, dolorosa, con empastamiento muscular.' },
+            say: 'Hacia el día siete a diez, piensa en trombosis. La clínica es una pantorrilla que aumenta de volumen de forma asimétrica, dolorosa, con empastamiento muscular. Mira esta pierna: la de la flecha está más gruesa, con la piel tensa y edematosa, comparada con la otra.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-16/atlas_244_tvp_pierna.jpg', label: 'Pierna asimétrica por TVP', at: 'Mira esta pierna', credit: 'Wikimedia Commons, CC BY-SA 3.0' } },
           { t: 'Disnea súbita', d: 'Piensa en tromboembolismo pulmonar',
             say: 'Y si en vez de eso aparece disnea súbita con taquipnea, ahí piensas en tromboembolismo pulmonar, la complicación grave de la misma trombosis.' },
           { t: 'Eco-Doppler y anticoagular', d: 'Con heparina de bajo peso molecular',
@@ -112,6 +115,30 @@ module.exports = {
             say: 'Y la última letra, Wonder drugs: el paciente está con buen estado general, a veces con un rash o eosinofilia, y ya descartaste todo lo anterior.' },
           { t: 'Suspender el fármaco', d: 'Sospecha en antibióticos y heparina',
             say: 'El tratamiento es suspender el fármaco sospechoso, y los que más dan esta fiebre son los betalactámicos y la heparina.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'No es fiebre',
+      title: 'Hemorragia aguda postoperatoria',
+      cards: [
+        { title: 'Cómo se sospecha', tag: 'Hipovolemia', kind: 'key', items: [
+          { t: 'Precoz o tardía', d: 'Primeras 24 horas, o días después',
+            say: 'Además de la fiebre, hay otra complicación que no puedes dejar pasar: la hemorragia aguda postoperatoria. Es precoz, en las primeras veinticuatro horas, cuando hay un vaso sin ligar, una ligadura que se soltó o una coagulopatía con hipotermia. Y es tardía, a los días, cuando se asocia a infección o a erosión de un vaso.' },
+          { t: 'Taquicardia, hipotensión, palidez', d: 'Oliguria y sudoración',
+            say: 'La sospechas por signos de hipovolemia: taquicardia, hipotensión, palidez, sudoración y poca orina. Ahí está la diferencia con la fiebre postoperatoria, que no cursa con shock.' },
+          { t: 'Drenaje hemático', d: 'Más de 100 a 200 mL por hora',
+            say: 'Otras pistas son el abdomen distendido, un hematoma de la herida, o un drenaje con débito hemático de más de cien a doscientos mililitros por hora. Y ojo: la hemoglobina puede tardar horas en caer, así que una hemoglobina normal no la descarta.' },
+        ] },
+        { title: 'Qué haces', tag: 'Nivel inicial: derivar', kind: 'alert', items: [
+          { t: 'ABC, oxígeno, dos vías gruesas', d: 'Reponer con cristaloides y sangre',
+            say: 'El manejo inicial es el ABC, oxígeno, dos vías venosas gruesas, y reposición con cristaloides y hemoderivados según la hemoglobina y la respuesta del paciente.' },
+          { t: 'Corregir la coagulopatía', d: 'Plasma, plaquetas, ácido tranexámico',
+            say: 'Se corrige la coagulopatía: plasma, plaquetas, ácido tranexámico, protamina si hubo heparina, y se recalienta al paciente. Si ves la fuente, comprimes.' },
+          { t: 'Inestable pese a reponer', d: 'Aviso al cirujano: reintervención',
+            say: 'Y si sigue inestable a pesar de la reanimación, avisas de inmediato al cirujano, porque necesita reintervención urgente. Esa es la clave de la conducta.' },
         ] },
       ],
     },
@@ -133,6 +160,42 @@ module.exports = {
           { t: 'Esa fiebre es Wind', d: 'Se trata sin antibióticos',
             say: 'Ese cuadro es atelectasia. Se trata con kinesiterapia y analgesia, y elegir el antibiótico ahí es la respuesta incorrecta.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Examen de apoyo',
+      title: 'Proteína C reactiva: tendencia, no un número',
+      cards: [
+        { title: 'Cómo se comporta', tag: 'Reactante de fase aguda', kind: 'key', items: [
+          { t: 'Sube a las 6 horas', d: 'Máximo a las 36 a 50 horas',
+            say: 'Cuando ya examinaste, el examen que más ayuda es la proteína C reactiva. Es un reactante de fase aguda que parte subiendo a las seis horas, llega a su máximo entre las treinta y seis y cincuenta horas, y baja rápido apenas cede el estímulo, porque su vida media es de diecinueve horas.' },
+          { t: 'Sube normal hasta el día 2 o 3', d: 'En cirugía mayor llega a 100-150 mg/L',
+            say: 'Después de cualquier cirugía sube de forma fisiológica hasta el segundo o tercer día; en una cirugía mayor llega a cien o ciento cincuenta miligramos por litro, y luego desciende. Por eso un valor alto el día dos no te dice nada.' },
+        ] },
+        { title: 'Cuándo preocupa', tag: 'Se pregunta', kind: 'alert', items: [
+          { t: 'Persistente o segundo ascenso', d: 'Después del día 3 a 4',
+            say: 'Lo que sí preocupa es un valor que se mantiene alto, o un segundo ascenso después del día tres o cuatro. Eso sugiere una complicación infecciosa: una fuga anastomótica, un absceso o una infección de la herida.' },
+          { t: 'Un valor bajo descarta', d: 'Alto valor predictivo negativo',
+            say: 'Y al revés, un valor bajo tiene un alto valor predictivo negativo: hace poco probable la infección.' },
+          { t: 'Es inespecífica', d: 'Se lee seriada y con la clínica',
+            say: 'Pero es inespecífica, también sube con trauma, necrosis, pancreatitis o infarto. Por eso la interpretas en tendencia seriada y junto con la clínica, y la complementas con los leucocitos y, si hace falta, con procalcitonina.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El día postoperatorio y la proteína C reactiva',
+      images: [
+        { src: 'animaciones/cirugia-16/A1_fiebre_dias_pcr.mp4', label: 'Cinco W y curva de la PCR', credit: 'Gráfico propio · Animación propia' },
+      ],
+      steps: [
+        { note: 'La PCR sube y baja sola; las W marcan el día',
+          say: 'Mira la línea de tiempo. Arriba, la proteína C reactiva de un postoperatorio normal: sube hasta el segundo o tercer día y después desciende. Abajo, cada W ocupa su ventana de días: Wind al inicio, Water al tercero, Wound entre el cinco y el siete, Walking más tarde. Si la curva de la proteína, en vez de bajar, vuelve a subir después del día tres o cuatro, piensa en una complicación infecciosa, como una fuga de anastomosis.' },
       ],
     },
 
@@ -230,6 +293,44 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.4.012 · Proteína C reactiva",
+      "stem": "Un hombre de 60 años cursa su 4° día postoperatorio de una resección de colon con anastomosis. Su PCR fue de 140 mg/L al 2° día y hoy sube a 290 mg/L, con febrícula y taquicardia de 110 por minuto.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Es la respuesta inflamatoria normal a la cirugía y no requiere estudio"
+        },
+        {
+          "letter": "B",
+          "text": "La PCR solo sirve en infecciones virales"
+        },
+        {
+          "letter": "C",
+          "text": "Una PCR en ascenso después del 3er día sugiere una complicación infecciosa, como filtración anastomótica, y obliga a estudiar (ej. TAC de abdomen)"
+        },
+        {
+          "letter": "D",
+          "text": "Indica con certeza un tromboembolismo pulmonar"
+        },
+        {
+          "letter": "E",
+          "text": "Se debe a la anestesia"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La PCR sube tras cualquier cirugía, con un máximo cercano a las 48 horas, y luego desciende. Si en vez de bajar sigue subiendo entre el 3° y 5° día, sugiere una complicación infecciosa (filtración anastomótica, absceso, infección de herida) y obliga a estudiar, habitualmente con TAC de abdomen y pelvis con contraste.",
+      "say": {
+        "stem": "Un hombre de sesenta años, en su cuarto día después de una resección de colon con anastomosis, tenía una PCR de ciento cuarenta al segundo día y hoy sube a doscientos noventa, con febrícula y taquicardia.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: respuesta normal a la cirugía, solo sirve en virus, sospecha de complicación infecciosa como filtración que obliga a estudiar, certeza de embolia pulmonar o efecto de la anestesia. Piénsalo.",
+        "answer": "Es la C. La PCR postoperatoria alcanza su máximo cerca de las cuarenta y ocho horas; si sigue subiendo después, sugiere una complicación como filtración anastomótica. Atribuirlo a la cirugía tienta, pero a esta altura debería venir bajando."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -239,6 +340,12 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. El orden es Wind, Water, Wound: pulmón en los primeros días, vía urinaria al tercero, y herida entre el cinco y el siete.' },
           { t: 'Walking y Wonder drugs', d: 'Trombosis y fármacos, después',
             say: 'Y después, Walking y Wonder drugs: trombosis hacia el día siete, y fármacos, siempre como diagnóstico de exclusión.' },
+        ] },
+        { title: 'Lo que no es fiebre', tag: 'Hemorragia y PCR', kind: 'key', items: [
+          { t: 'Hemorragia: hipovolemia', d: 'Reponer y avisar al cirujano',
+            say: 'Dos cosas más para llevarte. La hemorragia postoperatoria se reconoce por taquicardia, hipotensión y drenajes hemáticos, y si sigue inestable pese a reponer, se reopera.' },
+          { t: 'PCR: segundo ascenso', d: 'Después del día 3 a 4, buscar fuga',
+            say: 'Y la proteína C reactiva sube normalmente hasta el día dos o tres: si vuelve a subir después, o no baja, busca una complicación infecciosa.' },
         ] },
         { title: 'La trampa', tag: 'No dispares antibióticos', kind: 'alert', items: [
           { t: 'Primer día, herida limpia', d: 'No es infección, es atelectasia',

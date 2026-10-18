@@ -160,7 +160,8 @@ module.exports = {
         ] },
         { title: 'Lipohipertrofia', tag: 'Rotar siempre', kind: 'alert', items: [
           { t: 'Por no rotar los sitios', d: 'Abdomen, muslos, brazos, glúteos',
-            say: 'La insulina se inyecta subcutánea en abdomen, muslos, brazos o glúteos, rotando siempre el sitio. Si el paciente pincha siempre en el mismo punto, se forma un acúmulo de grasa fibrosa: la lipohipertrofia.' },
+            say: 'La insulina se inyecta subcutánea en abdomen, muslos, brazos o glúteos, rotando siempre el sitio. Si el paciente pincha siempre en el mismo punto, se forma un acúmulo de grasa fibrosa: la lipohipertrofia. Mira este abdomen: ese abultamiento es una lipohipertrofia, justo donde el paciente pincha siempre.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-11/01_lipohipertrofia__openi.jpg', label: 'Lipohipertrofia abdominal', at: 'Mira este abdomen', credit: 'Open-i (NLM), CC BY' }] },
           { t: 'Absorción errática', d: 'Glicemias que oscilan sin explicación',
             say: 'Y ahí la insulina se absorbe de forma errática, con glicemias que suben y bajan sin explicación, y que se confunden con resistencia a la insulina. Ante un control inexplicable, revisa los sitios de inyección antes de subir la dosis.' },
         ] },
@@ -321,6 +322,44 @@ module.exports = {
         options: 'Las opciones: iniciar insulina, más metformina, pioglitazona, glibenclamida o sitagliptina. Piénsalo.',
         answer: 'Es la A, iniciar insulina. Los corticoides en dosis altas están en la lista de indicaciones de insulina, y la insulina permite ajustar rápido mientras dura el tratamiento. Fíjate que el ayuno casi no cambió: lo que se dispara es el postprandial, y eso lo controla una insulina prandial. Agregar otra pastilla es el distractor, pero no da el control que se necesita.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 17",
+      "stem": "Un paciente de 12 años, diabético tipo 1, en tratamiento con una dosis de NPH matinal, despierta con glicemias de ayuno muy elevadas, asociadas a hipoglicemias frecuentes antes del almuerzo. Su hemoglobina glicosilada es de 11,7%.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reemplazar el tratamiento por insulina glargina en la mañana"
+        },
+        {
+          "letter": "B",
+          "text": "Dejar dos dosis de insulina NPH más tres refuerzos de insulina cristalina precomidas"
+        },
+        {
+          "letter": "C",
+          "text": "Agregar insulina NPH nocturna"
+        },
+        {
+          "letter": "D",
+          "text": "Reemplazar la insulina NPH matinal por insulina NPH nocturna"
+        },
+        {
+          "letter": "E",
+          "text": "Agregar metformina al tratamiento"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La DM1 requiere un esquema intensificado basal-bolo: idealmente análogo basal con refuerzos ultrarrápidos, o bien dos dosis de NPH con cristalina antes de cada comida. Una sola insulina basal, sola o cambiada de horario, es insuficiente, y la metformina no sirve en la DM1.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Niño de doce años con diabetes tipo uno, con una sola dosis de NPH en la mañana. Despierta con glicemias muy altas y tiene hipoglicemias antes del almuerzo. Su hemoglobina glicosilada es once coma siete.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: cambiar a glargina matinal, dos dosis de NPH más tres refuerzos de cristalina, agregar NPH nocturna, pasar la NPH a la noche, o agregar metformina. Piénsalo.",
+        "answer": "Es la B. La diabetes tipo uno necesita un esquema intensificado: insulina basal en dos dosis y refuerzos de cristalina antes de cada comida. Agregar NPH nocturna tienta porque corrige el ayuno, pero sigue sin cubrir las comidas, y este niño tiene una glicosilada de casi doce."
+      }
     },
 
     {

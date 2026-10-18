@@ -29,16 +29,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -251,6 +252,12 @@ const bloque3 = [
           'En atención primaria, el médico general debe evitar aumentos desproporcionados de insulina (> 4 UI por ajuste en pacientes ambulatorios ambulatorios) y reforzar en cada visita la técnica de inyección, la rotación de zonas anatómicas y el reconocimiento de signos de neuroglucopenia.',
         ],
       },
+      {
+        subhead: "6. Automonitoreo Capilar para Titular la Insulina",
+        paragraphs: [
+          "El ajuste de insulina descansa en la glicemia capilar. Se mide <strong>en ayunas</strong> (guía la dosis de NPH nocturna o glargina), <strong>antes de cada comida</strong> (guía la insulina rápida) y <strong>a las 23:00 horas o a las 03:00 horas</strong> cuando hay sospecha de hipoglicemia nocturna; tras cambiar una dosis se vigilan 3 días antes de volver a ajustar. La técnica (lavado de manos, cara lateral del pulpejo, gota sin comprimir y registro; ver diab-09) es la misma. El paciente debe anotar glicemias, dosis y comidas, y consultar si registra <strong>cualquier valor &lt; 70 mg/dL</strong> o dos valores seguidos &gt; 250 mg/dL. Una lectura que no concuerda con los síntomas se repite o se confirma con glicemia venosa.",
+        ],
+      },
     ],
     table: {
       title: 'Comparación entre Esquemas de Insulinoterapia en Diabetes Mellitus',
@@ -398,6 +405,14 @@ const bloque3 = [
           'La estrategia de elección en sala de hospitalización es el <strong>esquema basal-corrección (si el paciente está en ayunas) o basal-bolo-corrección (si tolera alimentación oral)</strong>: se calcula una dosis total diaria de 0.2 a 0.4 UI/kg/día, administrando el 50% como insulina basal (NPH cada 12 horas o Glargina una vez al día) y el 50% restante fraccionado en bolos prandiales con insulina rápida, agregando una escala de corrección preprandial según el nivel glucémico capilar.',
         ],
       },
+      {
+        subhead: "4. Hiperglicemia por Corticoides y Glicemia Capilar en el Paciente Hospitalizado",
+        paragraphs: [
+          "Los glucocorticoides producen <strong>hiperglicemia dosis-dependiente</strong> (resistencia a la insulina periférica y hepática, aumento de la gluconeogénesis y menor secreción de insulina), que puede desenmascarar una diabetes previa o ser una diabetes inducida por fármacos. Con prednisona matutina el patrón característico es <strong>hiperglicemia vespertina y postprandial</strong>, con <strong>glicemia de ayunas normal o casi normal</strong>; por eso la glicemia de ayunas la subestima y debe medirse la <strong>glicemia capilar preprandial de almuerzo y cena</strong> (o a media tarde). La dexametasona, de acción prolongada, eleva también la glicemia de ayunas. Se sospecha con glicemia ≥ 200 mg/dL en un paciente con corticoides de dosis alta (prednisona ≥ 10–20 mg/día).",
+          "<strong>Manejo inicial:</strong> metas hospitalarias de 140–180 mg/dL. La insulina de elección es la <strong>NPH administrada por la mañana junto con la prednisona</strong>, porque su perfil coincide con el del corticoide (aprox. 0.1 UI/kg por cada 10 mg de prednisona, hasta 0.4 UI/kg), más corrección con insulina rápida. Al <strong>reducir o suspender el corticoide</strong> hay que bajar la insulina de inmediato por el riesgo de hipoglicemia. Si la hiperglicemia persiste tras suspenderlo (más de 3 meses), se reevalúa como DM2 de base. Es un cuadro que se maneja en el nivel inicial y se deriva a diabetología si es de difícil control.",
+          "<strong>Glicemia capilar en la sala:</strong> en el paciente que come se mide antes de cada comida y a las 22:00 horas (4 veces al día); en ayunas, con nutrición enteral continua o parenteral, cada 4 a 6 horas; con insulina endovenosa, cada 1 a 2 horas. La técnica es la descrita en diab-09. <strong>No es confiable en shock, hipoperfusión, hipoxemia grave ni anemia o policitemia extremas</strong>: en esos casos se confirma con glicemia venosa o gasometría. Los valores se registran en la hoja de control y alimentan la escala de corrección preprandial.",
+        ],
+      },
     ],
     table: {
       title: 'Manejo de Fármacos Antidiabéticos en el Paciente Hospitalizado',
@@ -513,6 +528,13 @@ const bloque3 = [
           '• <strong>Insulinoma (Tumor neuroendocrino de células beta):</strong> Se caracteriza por glicemia baja con <em>Insulina plasmática alta y Péptido C elevado</em> (hiperinsulinismo endógeno).<br/>' +
           '• <strong>Hipoglicemia Facticia por Insulina Exógena:</strong> El paciente se inyecta insulina subrepticiamente. Se observa <em>Insulina plasmática muy elevada pero Péptido C INDETECTABLE o suprimido</em> (ya que la insulina farmacéutica no contiene péptido C).<br/>' +
           '• <strong>Hipoglicemia Facticia por Sulfonilureas:</strong> Se observa Insulina y Péptido C elevados (simulando un insulinoma), pero se detecta la sulfonilurea en el screening toxicológico de orina o plasma.',
+        ],
+      },
+      {
+        subhead: "6. Glicemia Capilar en la Hipoglicemia y Enfrentamiento del Paciente con Compromiso de Conciencia",
+        paragraphs: [
+          "Ante cualquier sospecha de hipoglicemia se mide de inmediato la <strong>glicemia capilar</strong> (cara lateral del pulpejo, manos limpias y secas; técnica en diab-09). Si el paciente está inconsciente y no hay glucómetro disponible <strong>no se retrasa el tratamiento</strong>: se administra glucosa empíricamente. Tras el rescate se repite la medición a los 15 minutos y luego cada 1 a 2 horas hasta mantener glicemias estables &gt; 70 mg/dL. Un valor muy bajo o «LO» que no concuerda con la clínica se confirma con glicemia venosa.",
+          "<strong>Compromiso de conciencia: enfrentamiento general.</strong> En todo paciente con alteración de conciencia (no solo el diabético): 1) <strong>ABC</strong> (vía aérea, ventilación y circulación; control cervical si hay trauma), monitoreo y vía venosa; 2) <strong>glicemia capilar siempre y de inmediato</strong>, porque la hipoglicemia es una causa reversible; si es &lt; 70 mg/dL se administra glucosa endovenosa (en alcohólicos o desnutridos, <strong>tiamina 100 mg EV</strong> antes o junto con la glucosa; en niños, suero glucosado 10% 2 ml/kg); 3) <strong>naloxona</strong> si hay pupilas puntiformes y bradipnea (sospecha de opioides) y oxígeno si hay hipoxemia; 4) después, historia (alcohol, fármacos, trauma, convulsión), temperatura, Glasgow, pupilas, signos focales y meníngeos. Se piden gases, electrolitos, creatinina, pruebas hepáticas, ECG y <strong>TAC de cerebro</strong> si hay focalidad, trauma o no se halla causa metabólica; la punción lumbar se reserva para sospecha de meningitis. En el diabético se consideran además la <strong>cetoacidosis, el estado hiperosmolar</strong>, la sepsis y la acidosis láctica. Se estabiliza, se tratan las causas reversibles y se <strong>deriva</strong>.",
         ],
       },
     ],

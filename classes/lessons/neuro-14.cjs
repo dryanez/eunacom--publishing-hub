@@ -40,9 +40,11 @@ module.exports = {
         { show: ['tau', 'ovi'], note: 'Segunda cascada: la tau',
           say: 'La segunda es la de la proteína tau, que normalmente estabiliza los microtúbulos del axón. En el Alzheimer se hiperfosforila, se suelta y se agrega en ovillos neurofibrilares, dentro de la neurona. Eso frena el transporte axonal y la neurona muere.' },
         { show: ['hip', 'amn'], note: 'El lugar explica el primer síntoma',
-          say: 'Y aquí está la conexión con la clínica. El daño empieza siempre en la corteza entorrinal y el hipocampo, en el lóbulo temporal medial, que es donde se consolida la información nueva. Por eso el primer síntoma es la amnesia anterógrada: el paciente no logra guardar lo reciente, pero conserva la memoria antigua.' },
+          say: 'Y aquí está la conexión con la clínica. El daño empieza siempre en la corteza entorrinal y el hipocampo, en el lóbulo temporal medial, que es donde se consolida la información nueva. Por eso el primer síntoma es la amnesia anterógrada: el paciente no logra guardar lo reciente, pero conserva la memoria antigua. Mira esta resonancia coronal: los lóbulos temporales mediales están atróficos, con los cuernos temporales dilatados.',
+            photo: { src: '_verificadas/024_neuro_Alzheimer_y_DCL__ctmri_path_p102_1.jpg', label: 'Atrofia hipocampal', at: 'Mira esta resonancia', credit: 'CT & MRI Pathology: A Pocket Atlas, p. 102' } },
         { show: ['cor'], note: 'Luego lenguaje, praxias, conducta',
-          say: 'Después el daño se extiende a las cortezas asociativas parietotemporales, y al final a la corteza frontal.' },
+          say: 'Después el daño se extiende a las cortezas asociativas parietotemporales, y al final a la corteza frontal. Y en este PET, a la izquierda, el hipometabolismo temporal y parietal comparado con un cerebro normal a la derecha.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-14/01_pet-fdg-alzheimer__cto-neuro_p29.jpg', label: 'PET en Alzheimer', at: 'Y en este PET', credit: 'Manual CTO Neurología 14.ª ed., p. 29' } },
         { show: ['mey', 'iac'], note: 'El mecanismo explica el fármaco',
           say: 'Además se degeneran las neuronas colinérgicas del núcleo basal de Meynert, y cae la acetilcolina. Ese es el fundamento del tratamiento: si falta acetilcolina, se inhibe la enzima que la degrada. Guarda esta idea para la parte de fármacos.' },
       ],
@@ -113,7 +115,8 @@ module.exports = {
           { t: 'MoCA: corte < 26', d: 'Más sensible para DCL y función ejecutiva',
             say: 'El MoCA, o evaluación cognitiva de Montreal, también va a treinta, con corte bajo veintiséis. Es más sensible para el deterioro leve y para la función ejecutiva.' },
           { t: 'Test del reloj', d: 'Se altera precozmente en el Alzheimer',
-            say: 'Y el test del reloj, rápido y muy sensible, evalúa función ejecutiva y habilidad visuoespacial. En el Alzheimer se altera precozmente: el paciente amontona los números en una mitad o pone mal las manecillas.' },
+            say: 'Y el test del reloj, rápido y muy sensible, evalúa función ejecutiva y habilidad visuoespacial. En el Alzheimer se altera precozmente: el paciente amontona los números en una mitad o pone mal las manecillas. Mira este esquema: los números amontonados y las manecillas mal puestas.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-14/S1_test-del-reloj__propio.svg', label: 'Test del reloj', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
         ] },
         { title: 'Escalas funcionales', tag: 'Deciden el diagnóstico', kind: 'criteria', items: [
           { t: 'Pfeffer', d: 'Actividades instrumentales · ≥ 6: dependencia',
@@ -121,6 +124,21 @@ module.exports = {
           { t: 'Barthel', d: 'Actividades básicas: aseo, vestirse, continencia',
             say: 'Y la escala de Barthel mide las actividades básicas, como el aseo, vestirse y la continencia.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'table',
+      kicker: 'Cómo aplicarlos',
+      title: 'Tests de cribado: MMSE, MoCA y Mini-Cog',
+      head: ['Test', 'Qué hace', 'Corte y uso'],
+      rows: [
+        { cells: ['MMSE de Folstein', '30 puntos, 7–10 min: orientación, registro, cálculo, recuerdo, lenguaje, pentágonos', '< 24 (21–22 si baja escolaridad); poco sensible al DCL'],
+          say: 'Los tests los aplica el propio médico general, con lentes y audífonos puestos, un informante y anotando la escolaridad. Son de cribado: orientan, pero no diagnostican. El MMSE tiene treinta puntos y toma siete a diez minutos: orientación, registro de tres objetos, restar de siete en siete, recuerdo, lenguaje y copiar pentágonos. El corte en Chile es cerca de veintidós con baja escolaridad y veinticuatro con más. Mide mal lo ejecutivo.' },
+        { cells: ['MoCA', '30 puntos, 10 min: ejecutivo, visuoespacial, reloj, 5 palabras, fluencia con F', '< 26 (+1 si escolaridad ≤ 12 años); el más sensible al DCL'],
+          say: 'El MoCA también tiene treinta puntos y dura unos diez minutos. Evalúa lo ejecutivo y visuoespacial, con trazado alterno, copia de un cubo y un reloj, además de memoria de cinco palabras, atención y fluencia fonológica. Se suma un punto si la escolaridad es de doce años o menos, y menos de veintiséis sugiere deterioro. Es el más sensible para el deterioro cognitivo leve, que el MMSE suele pasar por alto.' },
+        { cells: ['Mini-Cog', '3 min: 3 palabras, reloj, recuerdo', 'Total < 3 = cribado positivo; útil en APS y EMPAM'],
+          say: 'El Mini-Cog toma tres minutos y sirve en atención primaria y en el EMPAM. Pides tres palabras, un reloj y luego recordar las palabras: un punto por palabra y dos por un reloj normal. Menos de tres es positivo. Un cribado positivo se confirma con evaluación funcional, con Pfeffer y Barthel, se piden los exámenes de causas reversibles y la neuroimagen, y se deriva.' },
       ],
     },
 
@@ -141,11 +159,13 @@ module.exports = {
         ] },
         { title: 'Neuroimagen', tag: 'TAC o RM sin contraste', kind: 'key', items: [
           { t: 'Hematoma subdural crónico', d: 'Anciano con trauma menor',
-            say: 'El tercer paso es la neuroimagen, un TAC o una resonancia sin contraste, obligatoria en el estudio inicial. Busca lesiones estructurales, y la primera es el hematoma subdural crónico, frecuente en ancianos después de un trauma menor.' },
+            say: 'El tercer paso es la neuroimagen, un TAC o una resonancia sin contraste, obligatoria en el estudio inicial. Busca lesiones estructurales, y la primera es el hematoma subdural crónico, frecuente en ancianos después de un trauma menor. Mira esta tomografía: una colección en semiluna entre la corteza y el cráneo, que comprime el cerebro.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-14/02_hematoma-subdural-tc__cto-neuro_p174.jpg', label: 'Subdural en semiluna', at: 'Mira esta tomografía', credit: 'Manual CTO Neurología 14.ª ed., p. 174' } },
           { t: 'Tumores e infartos silentes', d: 'Por ejemplo, meningioma frontal',
             say: 'También busca tumores, como un meningioma frontal, e infartos silentes.' },
           { t: 'Hidrocefalia normotensiva', d: 'Marcha magnética + incontinencia + demencia',
-            say: 'Y la hidrocefalia normotensiva, o síndrome de Hakim-Adams, con su tríada: marcha magnética, a pasos cortos pegados al piso, incontinencia urinaria y deterioro cognitivo. Es reversible con una derivación ventrículo-peritoneal. Esa tríada se pregunta.' },
+            say: 'Y la hidrocefalia normotensiva, o síndrome de Hakim-Adams, con su tríada: marcha magnética, a pasos cortos pegados al piso, incontinencia urinaria y deterioro cognitivo. Es reversible con una derivación ventrículo-peritoneal. Esa tríada se pregunta. En esta resonancia, los ventrículos están muy dilatados.',
+            photo: { src: '_verificadas/154_neuro_Alzheimer_y_DCL__HarrisonsP_p235_1.jpg', label: 'Hidrocefalia normotensiva', at: 'En esta resonancia', credit: 'Harrison, Principios de Medicina Interna 21.ª ed., p. 235' } },
         ] },
       ],
     },
@@ -219,6 +239,54 @@ module.exports = {
         ] },
       ],
     },
+    {
+      type: 'points',
+      kicker: 'Derivar y urgencias',
+      title: 'Cuándo derivar y qué hacer con la agitación',
+      cards: [
+        { title: 'Derivar al especialista', tag: 'Geriatría, neurología o psiquiatría', kind: 'criteria', items: [
+          { t: 'Joven, rápida o atípica', d: '< 65 años · semanas a meses · afasia, parkinsonismo, alucinaciones precoces',
+            say: 'La valoración cognitiva completa es del especialista. Deriva si el inicio es antes de los sesenta y cinco años, si progresa en semanas o pocos meses, o si es atípico: afasia o apraxia progresiva, conducta alterada temprana, parkinsonismo, alucinaciones visuales precoces, caídas tempranas o mioclonías.' },
+          { t: 'Duda diagnóstica o refractario', d: 'Demencia vs depresión vs delirium; síntomas conductuales graves',
+            say: 'También si hay una queja importante con cribado normal, duda entre demencia, depresión y delirium, una causa reversible que no se resuelve, síntomas conductuales refractarios o riesgo, o si se necesita evaluar la capacidad para decisiones legales.' },
+        ] },
+        { title: 'Agitación aguda', tag: 'Es un síntoma', kind: 'alert', items: [
+          { t: 'Buscar la causa', d: 'Delirium, dolor, retención, fecaloma, hipoglicemia, fármacos',
+            say: 'La agitación en el adulto mayor no es un diagnóstico, es un síntoma. Busca delirium por infección, fármacos o metabólico, dolor no tratado, retención urinaria o fecaloma, hipoglicemia, hipoxia, abstinencia, efectos de anticolinérgicos, corticoides, levodopa u opioides, y descompensación psiquiátrica. Mide signos vitales, glicemia y saturación de inmediato.' },
+          { t: 'Primero el ambiente', d: 'Luz, lentes, audífonos, acompañante, trato calmado',
+            say: 'Primero corriges la causa y el ambiente: buena iluminación, lentes, audífonos, un acompañante conocido y un trato calmado.' },
+        ] },
+        { title: 'Fármacos', tag: 'Solo si hay riesgo', kind: 'pharma', items: [
+          { t: 'Haloperidol 0,5–1 mg', d: 'Máx. 3–5 mg/día; ECG por QT',
+            say: 'Si persiste el riesgo, haloperidol de medio a un miligramo, máximo tres a cinco al día, con electrocardiograma por el QT largo.' },
+          { t: 'Quetiapina si hay Parkinson o Lewy', d: '12,5–25 mg; sin benzodiacepinas',
+            say: 'Si hay parkinsonismo o demencia por cuerpos de Lewy, el haloperidol está contraindicado: quetiapina, doce coma cinco a veinticinco miligramos. Se evitan las benzodiacepinas, salvo abstinencia. La contención mecánica es el último recurso, breve y con reevaluación frecuente.' },
+        ] },
+      ],
+    },
+    {
+      type: 'points',
+      kicker: 'Prevención',
+      title: 'Envejecimiento saludable y autocuidado',
+      cards: [
+        { title: 'Qué se promueve', tag: 'Capacidad funcional', kind: 'key', items: [
+          { t: 'Actividad física semanal', d: 'Aeróbica 150 min · fuerza 2 días · equilibrio',
+            say: 'Para la Organización Mundial de la Salud, envejecer bien es mantener la capacidad funcional, no solo no tener enfermedades. En cada control promueve actividad física: aeróbica moderada al menos ciento cincuenta minutos a la semana, fuerza dos días y ejercicios de equilibrio.' },
+          { t: 'Alimentación, sueño, sin tabaco', d: 'Proteínas, calcio, vitamina D; vacunas al día',
+            say: 'Alimentación con proteínas, calcio y vitamina D, buen sueño, no fumar y menos alcohol, y las vacunas: influenza anual, neumococo, COVID y las del esquema.' },
+          { t: 'Visión y audición corregidas', d: 'Su pérdida acelera el deterioro cognitivo',
+            say: 'Controla la presión, la diabetes y los lípidos, y corrige la visión y la audición, porque su pérdida acelera el deterioro cognitivo. Suma participación social y estimulación cognitiva.' },
+        ] },
+        { title: 'Autocuidado y red', tag: 'Retrasar la dependencia', kind: 'criteria', items: [
+          { t: 'Pastillero y lista de fármacos', d: 'Signos de alarma, prevención de caídas',
+            say: 'El autocuidado se enseña al adulto mayor y a su cuidador: conocer y tomar sus fármacos con pastillero y lista actualizada, reconocer signos de alarma, prevenir caídas en casa y mantener los controles.' },
+          { t: 'EMPAM, Más Adultos Mayores, PACAM', d: 'Autovalente · con riesgo · en riesgo de dependencia',
+            say: 'En la red pública, el EMPAM anual clasifica al adulto mayor como autovalente, autovalente con riesgo o en riesgo de dependencia. Se apoya con el programa Más Adultos Mayores Autovalentes y con el programa de alimentación complementaria, el PACAM.' },
+        ] },
+      ],
+    },
+
+
 
     {
       type: 'image',
@@ -231,26 +299,6 @@ module.exports = {
       steps: [
         { note: 'Falta acetilcolina',
           say: 'En el Alzheimer se depositan placas de beta amiloide fuera de las neuronas y ovillos de tau dentro de ellas, partiendo por el hipocampo. Se degeneran las neuronas colinérgicas y cae la acetilcolina: por eso se tratan con inhibidores de la acetilcolinesterasa.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Demencia de Alzheimer',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-14/S1_test-del-reloj__propio.svg', label: 'Test del reloj', credit: 'Dibujo propio (esquema)' },
-        { src: 'biblioteca/09_neurologia/neuro-14/01_pet-fdg-alzheimer__cto-neuro_p29.jpg', label: 'PET en Alzheimer', credit: 'Manual CTO Neurología 14.ª ed., p. 29' },
-        { src: 'biblioteca/09_neurologia/neuro-14/02_hematoma-subdural-tc__cto-neuro_p174.jpg', label: 'Hematoma subdural: colección en semiluna (TC)', credit: 'Manual CTO Neurología 14.ª ed., p. 174' },
-      ],
-      steps: [
-        { note: 'Planificación alterada',
-          say: 'En el test del reloj, el paciente con demencia no logra ubicar los números ni las manecillas.' },
-        { note: 'Hipometabolismo temporoparietal',
-          say: 'Y el PET muestra menos actividad en los lóbulos temporales y parietales.' },
-        { note: 'Causa tratable: buscarla siempre',
-          say: 'Y antes de hablar de Alzheimer, la neuroimagen descarta lo tratable. Aquí, un hematoma subdural: una colección en semiluna entre la corteza y el cráneo, que comprime el cerebro.' },
       ],
     },
 
@@ -441,6 +489,231 @@ module.exports = {
         options: 'Las opciones: donepezilo, haloperidol en dosis alta, risperidona cero coma cinco miligramos, memantina, o quetiapina veinticinco miligramos en la noche. Piénsalo.',
         answer: 'Es la E, quetiapina en dosis baja en la noche. Ya fallaron las medidas no farmacológicas y hay riesgo para los cuidadores, así que corresponde un antipsicótico atípico en dosis mínima. La risperidona en dosis baja también aparece en el libro, y es el distractor más fino, pero la quetiapina es la preferida por su menor efecto extrapiramidal, como vimos en la clase de parkinsonismos. El haloperidol en dosis alta es el error.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.5.003 · Aplicación de tests neurocognitivos de screening",
+      "stem": "Mujer de 74 años, autovalente, acude a su Examen de Medicina Preventiva del Adulto Mayor (EMPAM) en el CESFAM. Su hija refiere que en el último año olvida conversaciones recientes. En el Minimental abreviado obtiene 11 puntos (de un máximo de 19).",
+      "question": "¿Cuál es el paso siguiente más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diagnosticar demencia e iniciar donepezilo"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar RM de encéfalo como único estudio"
+        },
+        {
+          "letter": "C",
+          "text": "Repetir el Minimental abreviado en 2 años"
+        },
+        {
+          "letter": "D",
+          "text": "Aplicar el cuestionario de actividades funcionales de Pfeffer a un informante"
+        },
+        {
+          "letter": "E",
+          "text": "Derivar a psiquiatría por probable depresión"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En el EMPAM, un Minimental abreviado menor de 13 puntos es alterado y se complementa con el cuestionario de Pfeffer, respondido por un familiar: un puntaje de 6 o más indica compromiso funcional y sospecha de demencia, que se confirma con evaluación clínica y estudio de causas reversibles. Un test de screening por sí solo no diagnostica demencia.",
+      "say": {
+        "stem": "Una mujer de setenta y cuatro años, en su examen preventivo del adulto mayor, obtiene once de diecinueve puntos en el Minimental abreviado, y su hija nota olvidos recientes.",
+        "question": "¿Cuál es el paso siguiente más adecuado?",
+        "options": "Las opciones: diagnosticar demencia e iniciar donepezilo, resonancia como único estudio, repetir el test en dos años, aplicar el cuestionario de Pfeffer a un familiar o derivar a psiquiatría. Piénsalo.",
+        "answer": "Es la D. Un Minimental abreviado bajo trece es alterado, y se complementa con el Pfeffer para saber si hay pérdida de funcionalidad, que es lo que define demencia. Iniciar donepezilo tienta, pero un test de tamizaje no basta para diagnosticar."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 5.01.1.015 · Trastornos neurocognitivos",
+      "stem": "Mujer de 76 años, traída por su hija por olvidos progresivos de 2 años de evolución. Desde hace 6 meses ya no puede manejar sus finanzas ni sus medicamentos y se ha perdido en su barrio. Está vigil, sin fluctuaciones de conciencia ni focalidad neurológica. MoCA 16/30, tamizaje de depresión negativo y exámenes metabólicos normales.",
+      "question": "¿Cuál es el diagnóstico sindromático más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Trastorno neurocognitivo leve"
+        },
+        {
+          "letter": "B",
+          "text": "Pseudodemencia depresiva"
+        },
+        {
+          "letter": "C",
+          "text": "Delirium"
+        },
+        {
+          "letter": "D",
+          "text": "Trastorno neurocognitivo mayor (demencia)"
+        },
+        {
+          "letter": "E",
+          "text": "Envejecimiento cognitivo normal"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Según DSM-5, el trastorno neurocognitivo mayor es un declive cognitivo significativo que interfiere con la independencia en actividades instrumentales (finanzas, medicamentos). En el leve hay declive objetivo pero se conserva la autonomía. La evolución insidiosa, sin fluctuaciones ni alteración de conciencia, descarta delirium.",
+      "say": {
+        "stem": "Mujer de setenta y seis años con dos años de olvidos progresivos, que ya no maneja su dinero ni sus remedios, sin fluctuaciones y con exámenes normales.",
+        "question": "¿Cuál es el diagnóstico sindromático?",
+        "options": "Las opciones: trastorno neurocognitivo leve, pseudodemencia depresiva, delirium, trastorno neurocognitivo mayor o envejecimiento normal. Piénsalo.",
+        "answer": "Es la D. Lo que define al trastorno mayor es que el déficit ya le quita autonomía en actividades instrumentales. El leve tienta, pero en ese la persona todavía se las arregla sola."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 5.01.5.004 · Mini mental test, MoCA test",
+      "stem": "Hombre de 70 años, profesor universitario jubilado, consulta por quejas de memoria de 1 año, corroboradas por su esposa. Es completamente autónomo. Su Minimental (MMSE) es de 29/30.",
+      "question": "¿Cuál es el siguiente paso más adecuado para evaluar un posible deterioro cognitivo leve?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solicitar PET cerebral"
+        },
+        {
+          "letter": "B",
+          "text": "Repetir el Minimental en una semana"
+        },
+        {
+          "letter": "C",
+          "text": "Tranquilizarlo, ya que el Minimental es normal"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar electroencefalograma"
+        },
+        {
+          "letter": "E",
+          "text": "Aplicar el test MoCA"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El Minimental tiene efecto techo y baja sensibilidad para deterioro cognitivo leve, sobre todo en personas de alta escolaridad. El MoCA evalúa mejor funciones ejecutivas y atención, y es más sensible para detectarlo (punto de corte habitual 26, con un punto adicional si la escolaridad es 12 años o menos). Ante quejas corroboradas no basta con un MMSE normal.",
+      "say": {
+        "stem": "Profesor jubilado de setenta años, autónomo, con quejas de memoria que confirma su esposa y un Minimental de veintinueve sobre treinta.",
+        "question": "¿Cuál es el siguiente paso?",
+        "options": "Las opciones: PET, repetir Minimental, tranquilizarlo, electroencefalograma o aplicar MoCA. Piénsalo.",
+        "answer": "Es la E. El MoCA es más sensible para deterioro leve, sobre todo con alta escolaridad. Tranquilizarlo tienta por el Minimental casi perfecto, pero ese test tiene efecto techo y puede no detectar un deterioro leve."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Enero 2023 · Pregunta 128",
+      "stem": "Adulto mayor con enfermedad de Alzheimer presenta agitación nocturna e insomnio, y permanece tranquilo durante el día.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Risperidona 8-10 gotas en la noche"
+        },
+        {
+          "letter": "B",
+          "text": "Zolpidem 10 mg al acostarse"
+        },
+        {
+          "letter": "C",
+          "text": "Haloperidol 5 mg IM nocturno"
+        },
+        {
+          "letter": "D",
+          "text": "Clonazepam 0,5 mg oral en la noche"
+        },
+        {
+          "letter": "E",
+          "text": "Melatonina 3 mg al acostarse"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La agitación en la demencia se maneja primero con medidas no farmacológicas; si persiste, se usan antipsicóticos atípicos en dosis bajas, siendo la risperidona (unas 8-10 gotas de solución de 1 mg/mL) la de mejor evidencia. Benzodiacepinas y zolpidem aumentan caídas y confusión, el haloperidol intramuscular da efectos extrapiramidales y la melatonina carece de eficacia demostrada.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de enero de dos mil veintitrés. Adulto mayor con Alzheimer que se agita y no duerme en la noche, pero está tranquilo de día.",
+        "question": "¿Qué indicas?",
+        "options": "Las opciones: risperidona en gotas, zolpidem, haloperidol intramuscular, clonazepam, o melatonina. Piénsalo.",
+        "answer": "Es la A. Risperidona en dosis baja, el antipsicótico con mejor evidencia para agitación en demencia. Zolpidem o clonazepam parecen lógicos para el insomnio, pero aumentan la confusión y las caídas."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 97",
+      "stem": "Prevención de deterioro cognitivo en adultos mayores de entre 60 y 75 años.",
+      "question": "¿Cuál de las siguientes medidas se considera más adecuada para prevenir el deterioro cognitivo en adultos mayores de entre 60 y 75 años?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Higiene del sueño"
+        },
+        {
+          "letter": "B",
+          "text": "Terapia de relajación"
+        },
+        {
+          "letter": "C",
+          "text": "Ejercicio físico y estudio activo"
+        },
+        {
+          "letter": "D",
+          "text": "Actividades manuales frecuentes"
+        },
+        {
+          "letter": "E",
+          "text": "Administración oral de vitamina C y folatos"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La actividad física regular y la estimulación cognitiva activa (estudio, aprendizaje, vida social) son las intervenciones con mejor evidencia para reducir el riesgo de deterioro cognitivo, junto con controlar los factores de riesgo vascular, la hipoacusia y el aislamiento. La suplementación vitamínica no ha demostrado beneficio en personas sin déficit.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. La pregunta es sobre prevención de deterioro cognitivo en adultos de sesenta a setenta y cinco años.",
+        "question": "¿Qué medida es la más adecuada?",
+        "options": "Las opciones: higiene del sueño, relajación, ejercicio físico y estudio activo, actividades manuales, o vitaminas. Piénsalo.",
+        "answer": "Es la C. Ejercicio físico y estudio activo, lo que tiene mejor evidencia. Las vitaminas suenan atractivas, pero no previenen el deterioro si no hay déficit."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 25",
+      "stem": "Una paciente de 84 años es traída por su hija debido a olvidos frecuentes. La acompañante refiere que ha olvidado recetas, ya no cocina como antes y tiene dificultades crecientes en el manejo del dinero. Recientemente se desorientó en la calle y requirió ayuda para volver a casa. Tiene escolaridad incompleta hasta sexto básico. Al examen está orientada, cooperadora y sin alteraciones neurológicas.",
+      "question": "¿Cuál es el examen más adecuado para la evaluación inicial de esta paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Montreal Cognitive Assessment (MoCA)"
+        },
+        {
+          "letter": "B",
+          "text": "Mini-Mental State Examination (MMSE)"
+        },
+        {
+          "letter": "C",
+          "text": "Confusion Assessment Method (CAM)"
+        },
+        {
+          "letter": "D",
+          "text": "Test del reloj"
+        },
+        {
+          "letter": "E",
+          "text": "Prueba de memorización de tres palabras"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La sospecha es una demencia, con deterioro de memoria y pérdida de funcionalidad instrumental. El MMSE es el instrumento de elección para la evaluación inicial, ajustado por escolaridad. El MoCA es más sensible para deterioro leve, pero penaliza la baja escolaridad. El CAM y la memorización de tres palabras se usan en delirium, y el test del reloj es complementario.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Mujer de ochenta y cuatro años, con escolaridad hasta sexto básico, con olvidos, dificultad para cocinar y manejar dinero, y desorientación en la calle.",
+        "question": "¿Qué examen usas para la evaluación inicial?",
+        "options": "Las opciones: MoCA, Mini Mental, CAM, test del reloj, o memorización de tres palabras. Piénsalo.",
+        "answer": "Es la B. El Mini Mental, el examen inicial ante sospecha de demencia. El MoCA es más sensible, pero penaliza la baja escolaridad y sirve más en el deterioro inicial."
+      }
     },
 
     {

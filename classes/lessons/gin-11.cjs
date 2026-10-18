@@ -42,7 +42,11 @@ module.exports = {
         { show: ['per'], note: 'El peritoneo se irrita',
           say: 'Si continúa, se derrama al peritoneo pélvico, y aparece el dolor peritoneal que vas a ver al examen.' },
         { show: ['ato'], note: 'Una colección que puede romperse',
-          say: 'Y en el punto más grave, se forma un absceso tubo-ovárico: una colección de pus dentro de la trompa y el ovario, que puede romperse.' },
+          say: 'Y en el punto más grave, se forma un absceso tubo-ovárico: una colección de pus dentro de la trompa y el ovario, que puede romperse. Mira esta ecografía: una masa compleja que reemplaza el anexo. Y esta es la visión quirúrgica: la trompa y el ovario fundidos en una sola masa.',
+          photos: [
+            { src: 'biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_1__cto-gyo_p102.jpg', label: 'Absceso tuboovárico (eco)', at: 'Mira esta ecografía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 102' },
+            { src: 'biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_2__cto-gyo_p102.jpg', label: 'Visión quirúrgica', at: 'esta es la visión quirúrgica', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 102' },
+          ] },
         { show: ['sec'], note: 'El daño se queda aunque la infección se cure',
           say: 'Fíjate en algo importante: aunque trates la infección, las trompas quedan con cicatrices. Por eso las secuelas son infertilidad y embarazo ectópico, y eso no cambia con el antibiótico.' },
       ],
@@ -83,7 +87,8 @@ module.exports = {
         ] },
         { title: 'Estadios III y IV', tag: 'Hospitalización obligatoria', kind: 'alert', items: [
           { t: 'Estadio III: absceso tubo-ovárico', d: 'Palpable o visto en la ecografía',
-            say: 'El estadio tres es el absceso tubo-ovárico, íntegro, y aquí la hospitalización ya no se discute.' },
+            say: 'El estadio tres es el absceso tubo-ovárico, íntegro, y aquí la hospitalización ya no se discute. En esta otra ecografía, se ve la colección anexial.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_alt1__amir-gyo_p107.jpg', label: 'Absceso en ecografía', at: 'En esta otra ecografía', credit: 'Manual AMIR Ginecología y Obstetricia, p. 107' } },
           { t: 'Estadio IV: absceso roto', d: 'Peritonitis y shock séptico',
             say: 'Y el estadio cuatro es el absceso roto, con peritonitis generalizada y shock séptico: es una emergencia quirúrgica.' },
         ] },
@@ -119,6 +124,32 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Urgencia',
+      title: 'Pelviperitonitis: el abdomen agudo ginecológico',
+      cards: [
+        { title: 'Cuadro', tag: 'Inflamación peritoneal pelviana', kind: 'alert', items: [
+          { t: 'Por EIP o rotura de un absceso', d: 'También posaborto o posoperatoria',
+            say: 'La pelviperitonitis es la inflamación del peritoneo pelviano, habitualmente por extensión de la salpingitis o por rotura o fuga de un absceso tubo-ovárico, un Monif cuatro. También puede ser posaborto o posoperatoria.' },
+          { t: 'Dolor hipogástrico intenso y fiebre alta', d: 'Defensa, Blumberg, Douglas abombado',
+            say: 'La paciente tiene dolor hipogástrico intenso, fiebre alta, náuseas e íleo, con defensa y signo de Blumberg, dolor extremo a la movilización del cuello y el fondo de saco de Douglas abombado.' },
+        ] },
+        { title: 'Diagnóstico', tag: 'Descarta lo quirúrgico', kind: 'criteria', items: [
+          { t: 'Hemograma, PCR, beta hCG y eco', d: 'Leucocitosis con desviación a izquierda',
+            say: 'Pides hemograma, que muestra leucocitosis con desviación a izquierda, PCR, y siempre beta hCG para descartar un ectópico, más ecografía transvaginal o TAC para ver colección, líquido libre o absceso.' },
+          { t: 'Diferencial', d: 'Apendicitis, diverticulitis, quiste o ectópico roto',
+            say: 'El diagnóstico diferencial incluye apendicitis, diverticulitis y la rotura de un quiste ovárico o de un ectópico.' },
+        ] },
+        { title: 'Manejo', tag: 'Hospitalizar y antibióticos', kind: 'pharma', items: [
+          { t: 'Ayuno, hidratación y antibióticos EV', d: 'Ceftriaxona + metronidazol + doxiciclina, o clindamicina + gentamicina',
+            say: 'Se hospitaliza, con ayuno, hidratación endovenosa y antibióticos de amplio espectro: ceftriaxona de uno a dos gramos más metronidazol quinientos miligramos y doxiciclina, o clindamicina más gentamicina.' },
+          { t: 'Cirugía de urgencia', d: 'Lavado y drenaje si hay rotura, shock o falla a las 48-72 h',
+            say: 'Y laparoscopía o laparotomía de urgencia, con lavado y drenaje, si hay sospecha de rotura del absceso, shock séptico o falla del tratamiento médico a las cuarenta y ocho a setenta y dos horas. Las secuelas posibles son infertilidad, embarazo ectópico y dolor pelviano crónico.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Complicaciones',
       title: 'Lo que no se te puede escapar',
       cards: [
@@ -126,7 +157,8 @@ module.exports = {
           { t: 'Dolor en el hipocondrio derecho', d: 'La infección sube por el peritoneo',
             say: 'La primera complicación que se pregunta es el síndrome de Fitz-Hugh-Curtis: dolor en el hipocondrio derecho, porque la infección sube por el peritoneo hasta la cápsula del hígado.' },
           { t: 'Adherencias en cuerdas de violín', d: 'Entre el hígado y la pared',
-            say: 'Al operar, se ven adherencias finas entre la cápsula hepática y la pared, como cuerdas de violín. El tratamiento sigue siendo el mismo esquema para la enfermedad pélvica inflamatoria.' },
+            say: 'Al operar, mira esta laparoscopía: se ven adherencias finas entre la cápsula hepática y la pared, como cuerdas de violín. El tratamiento sigue siendo el mismo esquema para la enfermedad pélvica inflamatoria.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-11/02_fitz-hugh-curtis-laparoscopia__goljan_p1202.jpg', label: 'Cuerdas de violín', at: 'mira esta laparoscopía', credit: 'Goljan Rapid Review Pathology, Link 22-85' } },
         ] },
         { title: 'DIU y secuelas', tag: 'Dos datos que se preguntan', kind: 'criteria', items: [
           { t: 'DIU: riesgo solo el primer mes', d: 'Después no aumenta el riesgo de enfermedad pélvica',
@@ -139,27 +171,15 @@ module.exports = {
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Absceso tuboovárico',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Del cuello al absceso',
       images: [
-        { src: 'biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_1__cto-gyo_p102.jpg', label: 'Absceso tuboovárico', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 102' },
+        { src: 'animaciones/gin-11/A1_infeccion_que_sube.mp4', label: 'Una infección que sube', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Masa compleja anexial',
-          say: 'En la ecografía, el absceso tuboovárico es una masa compleja anexial. Requiere hospitalización.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_2__cto-gyo_p102.jpg', label: 'Absceso tuboovárico (visión quirúrgica)', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 102' },
-      ],
-      steps: [
-        { note: 'Absceso tuboovárico (visión quirúrgica)',
-          say: 'Absceso tuboovárico visto en la cirugía: anexo inflamado con salida de pus.' },
+        { note: 'Escalones de la EIP',
+          say: 'Mira cómo el gonococo o la Chlamydia suben desde el cuello: primero la endometritis, luego la salpingitis, después el absceso tubo-ovárico, y si se rompe, la peritonitis pélvica. Los criterios de Hager, dolor abdominal bajo, dolor al movilizar el cuello y dolor anexial, hacen el diagnóstico. Sin criterios de gravedad el manejo es ambulatorio por catorce días, y las secuelas son infertilidad y embarazo ectópico.' },
       ],
     },
 
@@ -252,6 +272,44 @@ module.exports = {
         options: 'Las opciones: Enterococcus faecalis, Ureaplasma urealyticum, Chlamydia trachomatis, Treponema pallidum, o Mycoplasma genitalium. Piénsalo.',
         answer: 'Es la C, Chlamydia trachomatis. El dolor que sube hasta el hipocondrio derecho es el síndrome de Fitz-Hugh-Curtis, la perihepatitis que acompaña a la enfermedad pélvica inflamatoria, y su causa habitual es justamente la Chlamydia, o el gonococo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 95",
+      "stem": "Una paciente de 25 años consulta en el servicio de urgencias por dolor abdominal de 3 días de evolución, que ha aumentado de intensidad. Es sexualmente activa y utiliza dispositivo intrauterino tipo T de cobre como método anticonceptivo. Refiere que el dolor es más intenso en el abdomen bajo, mayor al lado derecho. En su examen físico tiene frecuencia cardíaca 108 por minuto y presión arterial 110/70 mmHg, con dolor a la palpación abdominal baja y signo de Blumberg esbozado a derecha. La especuloscopía muestra cuello uterino con secreción purulenta y el tacto vaginal demuestra dolor a la presión cervical y a la palpación de ambos anexos, mayor a derecha.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Embarazo ectópico"
+        },
+        {
+          "letter": "B",
+          "text": "Aborto séptico"
+        },
+        {
+          "letter": "C",
+          "text": "Torsión ovárica"
+        },
+        {
+          "letter": "D",
+          "text": "Pelviperitonitis"
+        },
+        {
+          "letter": "E",
+          "text": "Apendicitis aguda"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Es un proceso inflamatorio pelviano: cervicitis purulenta, dolor a la movilización cervical y anexial bilateral. El signo de Blumberg indica compromiso peritoneal, es decir, pelviperitonitis. Se pide ecografía transvaginal para descartar absceso tubo-ovárico y se tratan con antibióticos de amplio espectro. El DIU no se retira de rutina.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Mujer de veinticinco años, usuaria de dispositivo intrauterino de cobre, con dolor abdominal bajo de tres días, mayor a derecha. Tiene taquicardia de ciento ocho por minuto, Blumberg esbozado a derecha, cuello con secreción purulenta y dolor a la movilización cervical y de ambos anexos.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: embarazo ectópico, aborto séptico, torsión ovárica, pelviperitonitis, o apendicitis aguda. Piénsalo.",
+        "answer": "Es la D. Es un proceso inflamatorio pelviano, y el signo de Blumberg muestra que ya compromete el peritoneo pélvico: eso es una pelviperitonitis. La apendicitis tienta por el dolor a derecha, pero no explica la secreción purulenta del cuello ni el dolor de ambos anexos."
+      }
     },
 
     {

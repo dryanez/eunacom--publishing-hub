@@ -1,0 +1,87 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Obstetricia 15 · sobre ilustración real: Blausen.com staff (2014) "Pregnancy", CC BY 3.0 (rótulos en inglés quitados).
+//   ?v=cuello   A1_cuello_tocolisis: cuello que se acorta (cervicometría) + contracciones → 48 horas: nifedipino, betametasona, magnesio
+const V = new URLSearchParams(location.search).get('v') || 'cuello';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade } = K;
+const I = k => window.IMGS[k];
+const SRC = { x: 450, y: 560, w: 550, h: 640 }, S = 0.85, DST = { x: 40, y: 130, w: 550 * S, h: 640 * S };
+const P = (x, y) => [DST.x + (x - SRC.x) * S, DST.y + (y - SRC.y) * S];
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  ctx.drawImage(I('emb'), SRC.x, SRC.y, SRC.w, SRC.h, DST.x, DST.y, DST.w, DST.h); ctx.restore();
+}
+function clip() { ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip(); }
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+const A0 = [744, 806], B = [798, 880];   // orificio interno → orificio externo (px de la imagen)
+function caliper(mm, a, col) {
+  if (a <= 0) return; const k = mm / 35, Ax = B[0] + (A0[0] - B[0]) * k, Ay = B[1] + (A0[1] - B[1]) * k;
+  const [x1, y1] = P(Ax, Ay), [x2, y2] = P(...B), dx = x2 - x1, dy = y2 - y1, n = Math.hypot(dx, dy), nx = -dy / n * 7, ny = dx / n * 7;
+  ctx.save(); ctx.globalAlpha = a; ctx.lineCap = 'round';
+  // embudo: el orificio interno se abre cuando el cuello se acorta
+  if (mm < 34) { const [ox, oy] = P(...A0); ctx.fillStyle = 'rgba(255,150,40,0.45)'; ctx.beginPath(); ctx.moveTo(ox - 7, oy - 4); ctx.lineTo(ox + 9, oy - 6); ctx.lineTo(x1 + 1, y1 + 2); ctx.lineTo(x1 - 3, y1 + 1); ctx.closePath(); ctx.fill(); }
+  ctx.strokeStyle = '#10151C'; ctx.lineWidth = 6; ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.moveTo(x1 - nx, y1 - ny); ctx.lineTo(x1 + nx, y1 + ny); ctx.moveTo(x2 - nx, y2 - ny); ctx.lineTo(x2 + nx, y2 + ny); ctx.stroke();
+  ctx.restore();
+}
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+// registro de contracciones (gráfico sin anatomía)
+function toco(x, y, w, h, t, a) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; rrect(x, y, w, h, 14, '#161B22');
+  text('Contracciones', x + 18, y + 28, 18, C.INK, 'bold'); text('4 o más en 20 minutos', x + w - 18, y + 28, 16, C.AMBER, 'bold', 'right');
+  ctx.strokeStyle = C.AMBER; ctx.lineWidth = 3; ctx.beginPath();
+  const base = y + h - 14;
+  for (let i = 0; i <= 300; i++) { const u = i / 300, px = x + 18 + u * (w - 36), ph = (u * 4 - t * 0.12) % 1, pp = ((ph + 1) % 1);
+    const v = pp < 0.5 ? Math.sin(pp * 2 * Math.PI * 0.5) ** 2 : 0, yy = base - 8 - v * (h - 62) * 0.95; i ? ctx.lineTo(px, yy) : ctx.moveTo(px, yy); }
+  ctx.stroke(); ctx.restore();
+}
+// línea de 48 horas
+function horas(x, y, w, t) {
+  const a0 = seg(t, 14.5, 0.5); if (a0 <= 0) return; ctx.save(); ctx.globalAlpha = a0; rrect(x, y, w, 205, 14, '#161B22');
+  text('Las 48 horas que se ganan', x + 18, y + 30, 19, C.INK, 'bold');
+  const x0 = x + 30, x1 = x + w - 30, X = h => lerp(x0, x1, h / 48), by = y + 70;
+  rrect(x0, by, x1 - x0, 8, 4, '#2A2F38');
+  const fill = ease(seg(t, 15.2, 3)); rrect(x0, by, (x1 - x0) * fill, 8, 4, C.BLUE);
+  [[0, '0 h'], [24, '24 h'], [48, '48 h']].forEach(([h, s]) => { ctx.fillStyle = '#ddd'; ctx.fillRect(X(h) - 1, by - 6, 2, 20); text(s, X(h), by + 34, 14, C.MUTED, '', 'center'); });
+  ctx.globalAlpha = a0 * seg(t, 15.2, 0.4); tag('Nifedipino: frena la dinámica', x + w - 150, by - 22, C.BLUE, 15);
+  const d1 = seg(t, 17, 0.4), d2 = seg(t, 19.5, 0.4);
+  ctx.globalAlpha = a0 * d1; tag('Betametasona 1', X(0) + 56, by + 66, C.GREEN, 14);
+  ctx.globalAlpha = a0 * d2; tag('Betametasona 2', X(24) + 56, by + 66, C.GREEN, 14);
+  ctx.globalAlpha = a0 * seg(t, 21.5, 0.4); text('Madura el pulmón fetal; si es menor de 32 semanas, magnesio', x + 18, y + 188, 15, C.MUTED);
+  ctx.restore();
+}
+function cuello(t) {
+  K.title('Amenaza de parto prematuro', 'Contracciones más cuello que se acorta: ganar 48 horas', C.AMBER);
+  lamina(seg(t, 0, 0.7));
+  const mm = lerp(35, 20, ease(seg(t, 7, 4)));
+  caliper(mm, seg(t, 3, 0.6), mm < 25 ? C.RED : C.GREEN);
+  label('Cuello del útero', 330, 575, C.AMBER, ...P(780, 850), fade(t, 1, 5));
+  label('Cervicometría transvaginal', 200, 520, C.GREEN, ...P(770, 845), fade(t, 3.2, 7));
+  label('Cuello acortado y abierto arriba', 230, 520, C.RED, ...P(762, 840), seg(t, 11.5, 0.6) * (1 - seg(t, 18, 0.5)));
+  toco(620, 135, 620, 130, t, seg(t, 1, 0.6));
+  // medida del cuello
+  const a = seg(t, 3.4, 0.6); if (a > 0) { ctx.save(); ctx.globalAlpha = a; rrect(620, 285, 620, 120, 14, '#161B22');
+    K.bar(644, 322, 572, 'Largo del cuello', mm, 40, 'mm', mm < 25 ? C.RED : C.GREEN, [[25, '25 mm']]); ctx.restore(); }
+  K.banner(620, 424, 620, 'Menor a 25 mm: el predictor más fuerte', C.RED, seg(t, 11.6, 0.5) * (1 - seg(t, 14.3, 0.3)));
+  horas(620, 424, 620, t);
+}
+const SCN = { cuello: { f: cuello, dur: 25 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({ emb: '../assets/blausen/embarazo_sagital.png' });
+</script>
+</body></html>

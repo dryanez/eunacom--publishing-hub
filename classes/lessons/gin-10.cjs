@@ -22,7 +22,8 @@ module.exports = {
           { t: 'A las 4 u 8', d: 'Tercio posterior del labio mayor',
             say: 'Empecemos por el quiste. La glándula de Bartolino está a los dos lados del introito, en las posiciones de las cuatro y las ocho del reloj. Si su conducto se tapa, se acumula moco estéril, y eso es el quiste.' },
           { t: 'Masa redondeada, indolora', d: 'Sin eritema ni calor',
-            say: 'Al examinarla, es una masa redonda, móvil, y completamente indolora, sin ningún signo de infección.' },
+            say: 'Al examinarla, es una masa redonda, móvil, y completamente indolora, sin ningún signo de infección. Mira esta vulva: la masa del labio no tiene enrojecimiento alrededor, y no hay signos de infección.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-10/02_quiste-bartolino__knoop_p269.jpg', label: 'Quiste de Bartolino', at: 'Mira esta vulva', credit: 'The Atlas of Emergency Medicine (Knoop), p. 269' } },
         ] },
         { title: 'Manejo', tag: 'La mayoría se observa', kind: 'normal', items: [
           { t: 'Asintomático: observación', d: 'No necesita ningún procedimiento',
@@ -54,7 +55,8 @@ module.exports = {
         { show: ['inf'], note: 'Ya no es estéril, ahora hay bacterias',
           say: 'Ahora, si ese quiste, o la glándula misma, se infecta, cambia todo el cuadro: aparece el absceso de Bartolino.' },
         { show: ['clin'], note: 'Eritema, calor y fluctuación',
-          say: 'Y la clínica es opuesta al quiste: dolor intenso, una masa fluctuante, roja y caliente, que le impide sentarse o caminar con normalidad.' },
+          say: 'Y la clínica es opuesta al quiste: dolor intenso, una masa fluctuante, roja y caliente, que le impide sentarse o caminar con normalidad. Mira este absceso: la masa dolorosa en la parte posterior del labio mayor.',
+          photo: { src: 'biblioteca/13_ginecologia/gin-10/01_absceso_bartolino__williams-gyn_p114.jpg', label: 'Absceso de Bartolino', at: 'Mira este absceso', credit: 'Williams Gynecology 4.ª ed., Fig. 3-18' } },
         { show: ['mar'], note: 'Sutura los bordes a la mucosa vestibular',
           say: 'El tratamiento de elección es la marsupialización: se drena, y se suturan los bordes de la cápsula a la mucosa, para crear un orificio nuevo que quede abierto para siempre.' },
         { show: ['word'], note: 'Sonda con balón, se retira a las 4 semanas',
@@ -73,7 +75,8 @@ module.exports = {
           { t: 'Prurito crónico intratable', d: 'De meses o años de evolución',
             say: 'Cambiemos de tema. El liquen escleroso da un prurito vulvar crónico, que no cede, y que suele llevar meses o años.' },
           { t: 'Placas blancas nacaradas', d: 'En figura de ocho, vulva y ano',
-            say: 'Al examinarla, ves placas blancas, atróficas, como papel de cigarrillo, que rodean la vulva y el ano en forma de ocho.' },
+            say: 'Al examinarla, ves placas blancas, atróficas, como papel de cigarrillo, que rodean la vulva y el ano en forma de ocho. Mira esta piel: blanca, adelgazada y frágil.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-10/01_liquen-escleroso__cto-gyo_p106.jpg', label: 'Liquen escleroso', at: 'Mira esta piel', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 106' } },
         ] },
         { title: 'Riesgo y tratamiento', tag: 'Biopsia si hay duda', kind: 'alert', items: [
           { t: 'Riesgo de cáncer: 3 a 5%', d: 'Cáncer epidermoide de vulva',
@@ -83,23 +86,6 @@ module.exports = {
           { t: 'Clobetasol tópico', d: 'Corticoide ultrapotente, en las noches',
             say: 'Y el tratamiento es un corticoide ultrapotente: propionato de clobetasol, aplicado en las noches. Revierte la atrofia y te quita el prurito.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Patología vulvar',
-      images: [
-        { src: 'biblioteca/13_ginecologia/gin-10/01_absceso_bartolino__williams-gyn_p114.jpg', label: 'Absceso de Bartolino', credit: 'Williams Gynecology 4.ª ed., Fig. 3-18' },
-        { src: 'biblioteca/13_ginecologia/gin-10/01_liquen-escleroso__cto-gyo_p106.jpg', label: 'Liquen escleroso', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 106' },
-      ],
-      steps: [
-        { note: 'Masa dolorosa en el labio',
-          say: 'El absceso de Bartolino es una masa dolorosa en la parte posterior del labio mayor. Se drena y se marsupializa.' },
-        { note: 'Piel blanca y adelgazada',
-          say: 'Y el liquen escleroso deja la piel blanca y frágil; se controla porque aumenta el riesgo de cáncer.' },
       ],
     },
 

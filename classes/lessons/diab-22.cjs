@@ -50,7 +50,8 @@ module.exports = {
           { t: 'Sensitiva', d: 'Pierde sensibilidad térmica, dolorosa y táctil protectora',
             say: 'La neuropatía afecta tres tipos de fibra, y cada una deja su huella. La sensitiva quita la sensibilidad térmica, dolorosa y táctil protectora frente a roces y cuerpos extraños.' },
           { t: 'Motora', d: 'Dedos en garra o martillo, cabezas metatarsianas prominentes',
-            say: 'La motora atrofia la musculatura intrínseca del pie. El arco anterior colapsa, aparecen los dedos en garra o en martillo, y las cabezas de los metatarsianos quedan prominentes: nuevos puntos de apoyo y presión.' },
+            say: 'La motora atrofia la musculatura intrínseca del pie. El arco anterior colapsa, aparecen los dedos en garra o en martillo, y las cabezas de los metatarsianos quedan prominentes: nuevos puntos de apoyo y presión. Mira este pie: los dedos en garra y las cabezas de los metatarsianos prominentes crean puntos de presión nuevos.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-22/06_pie-neuropatico__openi.jpg', label: 'Pie neuropático en garra', at: 'Mira este pie', credit: 'Open-i (NLM), CC BY' }] },
           { t: 'Autonómica', d: 'Anhidrosis: piel seca e hiperqueratósica',
             say: 'Y la autonómica quita el sudor. La piel queda seca, escamosa y con hiperqueratosis, y se fisura con facilidad: otra puerta de entrada.' },
         ] },
@@ -72,7 +73,8 @@ module.exports = {
           { t: 'Pulpejos 1.º, 3.º y 5.º y cabezas metatarsianas', d: 'Perpendicular, hasta curvarlo, 1 a 2 segundos',
             say: 'Se apoya perpendicular a la piel, en el pulpejo del primer, tercer y quinto dedo y en las cabezas de los metatarsianos, hasta que el filamento se curve, durante uno a dos segundos.' },
           { t: 'Un punto no percibido', d: 'Pie de alto riesgo de ulceración',
-            say: 'Y basta con que no perciba uno solo de esos puntos para que el pie sea de alto riesgo de ulceración.' },
+            say: 'Y basta con que no perciba uno solo de esos puntos para que el pie sea de alto riesgo de ulceración. Así se aplica: el monofilamento de diez gramos se apoya en la planta hasta que se dobla.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-22/07_monofilamento.jpg', label: 'Monofilamento de 10 g', at: 'Así se aplica', credit: 'Atlas EUNACOM 2026' }] },
         ] },
         { title: 'Complementos', tag: 'Vibración y pulsos', kind: 'normal', items: [
           { t: 'Diapasón de 128 Hz', d: 'Sensibilidad vibratoria en el hallux',
@@ -90,15 +92,66 @@ module.exports = {
       head: ['Característica', 'Neuropática', 'Isquémica'],
       rows: [
         { cells: ['Ubicación', 'Zonas de apoyo: cabeza del 1.er metatarsiano, talón', 'Zonas distales: pulpejos, bordes de los dedos'],
-          say: 'Con esos componentes puedes separar las dos úlceras clásicas. La neuropática aparece donde se apoya el pie: la cabeza del primer metatarsiano o el talón. La isquémica, en lo más distal, donde llega menos sangre: pulpejos y bordes de los dedos.' },
+          say: 'Con esos componentes puedes separar las dos úlceras clásicas. La neuropática aparece donde se apoya el pie: la cabeza del primer metatarsiano o el talón. La isquémica, en lo más distal, donde llega menos sangre: pulpejos y bordes de los dedos. Mira esta úlcera neuropática: está justo en la zona de apoyo, bajo los metatarsianos.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_2__cto-endocrino_p114.jpg', label: 'Úlcera neuropática', at: 'Mira esta úlcera neuropática', credit: 'Manual CTO Endocrinología 14.ª ed., p. 114' }] },
         { cells: ['Aspecto', 'Rodete grueso de hiperqueratosis', 'Bordes excavados, pálidos, lecho necrótico'],
-          say: 'La neuropática está rodeada de un rodete grueso de callo. La isquémica tiene bordes excavados y pálidos, con un lecho necrótico o cianótico.' },
+          say: 'La neuropática está rodeada de un rodete grueso de callo. La isquémica tiene bordes excavados y pálidos, con un lecho necrótico o cianótico. En cambio, esta úlcera isquémica está en la punta del dedo, con el lecho pálido y sin callo.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-22/04_ulcera-isquemica__talley_p142.jpg', label: 'Úlcera isquémica distal', at: 'En cambio, esta úlcera isquémica', credit: 'Talley and O\'Connor, Clinical Examination, p. 142' }] },
         { cells: ['Dolor', 'Indolora', 'Muy dolorosa, peor al elevar'],
           say: 'La diferencia más útil es el dolor. La neuropática es indolora, porque el pie está denervado. La isquémica duele mucho, y más al elevar la pierna.' },
         { cells: ['Temperatura y pulsos', 'Pie tibio, pulsos presentes', 'Pie frío, pulsos ausentes'],
           say: 'La neuropática tiene el pie tibio y los pulsos presentes. La isquémica, un pie frío, pálido al elevar, y pulsos ausentes o muy disminuidos.' },
         { cells: ['Reflejo aquiliano', 'Abolido', 'Conservado si no hay neuropatía'],
           say: 'Y el reflejo aquiliano está abolido en la neuropática, y conservado en la isquémica pura. Por eso a esta úlcera indolora en la planta se le llama mal perforante plantar.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Isquemia crónica',
+      title: 'El pie isquémico: clínica y manejo inicial',
+      cards: [
+        { title: 'Clínica', tag: 'Arterias infrapoplíteas', kind: 'key', items: [
+          { t: 'Claudicación y dolor de reposo nocturno', d: 'Alivia con la pierna colgando',
+            say: 'Profundicemos en el pie isquémico. En el diabético se compromete sobre todo las arterias bajo la rodilla, las tibiales y peroneas, con calcificación de la capa media. Clínicamente hay claudicación intermitente de pantorrilla y dolor de reposo nocturno, que alivia al dejar la pierna colgando.' },
+          { t: 'Pulsos ausentes, piel fría y atrófica', d: 'Relleno capilar > 3 segundos',
+            say: 'Los pulsos pedio y tibial posterior están disminuidos o ausentes, la piel está fría, pálida y atrófica, sin vello, y el relleno capilar se demora más de tres segundos.' },
+          { t: 'Fontaine III y IV: isquemia crítica', d: 'Dolor de reposo, lesiones tróficas, gangrena',
+            say: 'La clasificación de Fontaine va de uno, asintomático, a cuatro, con lesiones tróficas o gangrena. Los estadios tres y cuatro son isquemia crítica.' },
+        ] },
+        { title: 'Manejo inicial', tag: 'Nivel inicial', kind: 'criteria', items: [
+          { t: 'Tabaco, estatina alta, aspirina 100 mg', d: 'PA, glicemia y ejercicio supervisado',
+            say: 'El manejo inicial: suspender el tabaco, estatina de alta intensidad, aspirina de cien miligramos, control de presión y de glicemia, y ejercicio supervisado.' },
+          { t: 'Isquemia crítica o sin cicatrizar: cirugía vascular', d: 'Urgente; revascularizar',
+            say: 'Ante isquemia crítica, o una úlcera que no cicatriza, se deriva de urgencia a cirugía vascular para revascularizar, con angioplastia o bypass.' },
+        ] },
+        { title: 'La trampa', tag: 'Ojo', kind: 'alert', items: [
+          { t: 'No desbridar agresivo ni amputar a ciegas', d: 'Primero evaluar la perfusión',
+            say: 'Una úlcera isquémica no se desbrida agresivamente ni se amputa sin evaluar la perfusión. Y la combinación de isquemia con infección es una urgencia.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Exámenes',
+      title: 'Índice tobillo-brazo y estudio vascular',
+      cards: [
+        { title: 'Índice tobillo-brazo', tag: 'Doppler manual', kind: 'key', items: [
+          { t: 'Presión del tobillo ÷ presión braquial', d: 'La sistólica más alta de cada sitio',
+            say: 'El índice tobillo-brazo se mide con Doppler manual. Es la presión sistólica más alta del tobillo, en la pedia o la tibial posterior, dividida por la presión sistólica más alta del brazo. Mira cómo se mide: un manguito y un Doppler manual sobre la arteria del tobillo.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-22/03_indice-tobillo-brazo-doppler__bailey_p966.jpg', label: 'Índice tobillo-brazo', at: 'Mira cómo se mide', credit: 'Bailey & Love\'s Short Practice of Surgery, 27.ª ed., p. 966' }] },
+          { t: 'Normal 0,9 a 1,3', d: '< 0,9 EAP · < 0,4–0,5 isquemia severa',
+            say: 'Normal es de cero coma nueve a uno coma tres. Bajo cero coma nueve indica enfermedad arterial periférica, y bajo cero coma cuatro a cero coma cinco, isquemia severa.' },
+          { t: 'ITB > 1,3 es falsamente normal', d: 'Calcificación: usar índice dedo-brazo',
+            say: 'La trampa del diabético: un índice sobre uno coma tres es falsamente normal, porque la calcificación vuelve incompresibles las arterias. Ahí se recurre al índice dedo-brazo.' },
+        ] },
+        { title: 'Imágenes', tag: 'Informe', kind: 'criteria', items: [
+          { t: 'Eco-Doppler: localiza la estenosis', d: 'Onda trifásica normal, monofásica si estenosis',
+            say: 'El eco-Doppler vascular informa dónde está la estenosis u oclusión y el tipo de onda: trifásica es normal, monofásica indica una estenosis significativa.' },
+          { t: 'Arteriografía la pide el cirujano', d: 'Contraste: hidratar, VFG, suspender metformina 48 h',
+            say: 'La arteriografía, sea por sustracción digital, angio-TAC o angio-resonancia, la solicita el cirujano vascular cuando planifica revascularizar. Tú debes entender el informe: nivel de la oclusión, flujo distal y si es candidato a angioplastia o bypass. Y recordar que el contraste exige hidratación, revisar la filtración y suspender la metformina cuarenta y ocho horas.' },
+        ] },
       ],
     },
 
@@ -125,7 +178,8 @@ module.exports = {
         { show: ['w0'], note: 'Aún no hay úlcera',
           say: 'Ahora la escala que el examen pide de memoria: Wagner, del cero al cinco. El grado cero es el pie de riesgo, sin úlcera activa: callos gruesos, dedos en garra o un pie de Charcot. La conducta es educación, calzado terapéutico amplio y podología.' },
         { show: ['w1'], note: 'Todo el espesor de la piel, nada más',
-          say: 'El grado uno es la úlcera superficial: compromete todo el espesor de la piel, pero no llega a tendón, cápsula ni hueso. Es el mal perforante plantar típico. Se maneja con curación avanzada y descarga estricta.' },
+          say: 'El grado uno es la úlcera superficial: compromete todo el espesor de la piel, pero no llega a tendón, cápsula ni hueso. Es el mal perforante plantar típico. Se maneja con curación avanzada y descarga estricta. Esta lámina muestra los grados de Wagner, de la úlcera superficial a la gangrena.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-22/02_clasificacion-de-wagner__cto-endocrino_p113.jpg', label: 'Clasificación de Wagner', at: 'Esta lámina', credit: 'Manual CTO Endocrinología 14.ª ed., p. 113' }] },
         { show: ['w2'], note: 'Se ve tendón, ligamento o cápsula',
           say: 'El grado dos es más profundo: expone tendón, ligamento o cápsula articular, pero sin absceso y sin hueso. Desbridamiento en curación avanzada y evaluación por un equipo multiprofesional.' },
         { show: ['amb'], note: 'Hasta aquí, ambulatorio',
@@ -161,7 +215,8 @@ module.exports = {
         { show: ['pos', 'ost'], note: 'Tocar hueso es tener osteomielitis',
           say: 'Si el estilete choca con una superficie dura, rugosa, como piedra, la prueba es positiva, y confirma una osteomielitis con un valor predictivo positivo mayor al noventa por ciento.' },
         { show: ['img'], note: 'La radiografía llega tarde',
-          say: 'Luego se pide una radiografía simple del pie. Pero ojo, la resorción cortical y la lisis ósea son tardías; en los casos precoces, la resonancia magnética es más útil.' },
+          say: 'Luego se pide una radiografía simple del pie. Pero ojo, la resorción cortical y la lisis ósea son tardías; en los casos precoces, la resonancia magnética es más útil. En esta resonancia el hueso bajo la úlcera cambia de señal: es la osteomielitis.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-22/05_osteomielitis__ctmri_p522.jpg', label: 'Osteomielitis en resonancia', at: 'En esta resonancia', credit: 'CT & MRI Pathology: A Pocket Atlas, p. 522' }] },
         { show: ['w3'], note: 'El estilete sube el grado',
           say: 'Y lo más importante: una úlcera que parecía superficial, con estilete positivo, pasa automáticamente a Wagner tres. Eso significa hospitalizar, aseo quirúrgico y antibióticos endovenosos.' },
       ],
@@ -184,7 +239,8 @@ module.exports = {
           { t: 'Cultivo de tejido profundo', d: 'Nunca hisopado superficial',
             say: 'Dos detalles que el examen castiga. El cultivo no se toma con hisopado de la superficie, que solo recoge colonizantes: se toma de tejido profundo o de biopsia ósea en pabellón.' },
           { t: 'Gangrena: estudiar la irrigación', d: 'Eco-Doppler o AngioTAC antes de resecar',
-            say: 'Y en la gangrena localizada, antes de cualquier resección, hay que estudiar la irrigación distal con eco-Doppler o angioTAC. Si amputas sin saber si llega sangre, el muñón no va a cicatrizar.' },
+            say: 'Y en la gangrena localizada, antes de cualquier resección, hay que estudiar la irrigación distal con eco-Doppler o angioTAC. Si amputas sin saber si llega sangre, el muñón no va a cicatrizar. Este pie perdió el primer dedo por una necrosis isquémica, y por eso antes de amputar se estudia la irrigación.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_1__cto-endocrino_p114.jpg', label: 'Necrosis isquémica', at: 'Este pie perdió', credit: 'Manual CTO Endocrinología 14.ª ed., p. 114' }] },
         ] },
       ],
     },
@@ -216,6 +272,30 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Procedimiento',
+      title: 'Curación básica del pie diabético',
+      nodes: [
+        { id: 'lav', col: 0, row: 1, k: 'start', t: '1. Lavar con suero tibio', s: 'Baja presión; sin povidona ni alcohol' },
+        { id: 'des', col: 1, row: 1, k: 'alert', t: '2. Retirar tejido no viable', s: 'Y el callo; isquémica: escara seca' },
+        { id: 'med', col: 2, row: 1, k: 'mech', t: '3. Secar bordes y medir', s: 'Registrar la úlcera' },
+        { id: 'cub', col: 3, row: 1, k: 'good', t: '4. Apósito húmedo', s: 'Vendaje no compresivo' },
+        { id: 'rep', col: 4, row: 1, k: 'effect', t: '5. Repetir con descarga', s: 'Diario o cada 48–72 horas' },
+      ],
+      edges: [
+        { from: 'lav', to: 'des' }, { from: 'des', to: 'med' }, { from: 'med', to: 'cub' }, { from: 'cub', to: 'rep' },
+      ],
+      steps: [
+        { show: ['lav'], note: 'Suero fisiológico, nada citotóxico',
+          say: 'Ahora el procedimiento que el médico general realiza: la curación básica. Primero se retira el apósito previo y se lava con suero fisiológico tibio, a baja presión. Sin antisépticos citotóxicos como povidona, agua oxigenada o alcohol, que dañan el tejido que quieres cicatrizar.' },
+        { show: ['des', 'med'], note: 'Aséptico; la isquémica no se desbrida',
+          say: 'Segundo, con técnica aséptica se retira el tejido no viable y los callos que rodean la úlcera neuropática. En una úlcera isquémica sin revascularizar, en cambio, se mantiene la escara seca. Tercero, se secan los bordes y se mide y registra la úlcera.' },
+        { show: ['cub', 'rep'], note: 'Húmedo, sin comprimir, con descarga',
+          say: 'Cuarto, se cubre con un apósito que mantenga un ambiente húmedo: gasa con vaselina, hidrogel, espuma, o alginato si hay mucho exudado, con vendaje no compresivo. Quinto, se repite a diario o cada cuarenta y ocho a setenta y dos horas según el exudado, siempre con descarga. El cultivo de tejido profundo se toma solo si hay signos clínicos de infección.' },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -226,36 +306,6 @@ module.exports = {
       steps: [
         { note: 'Neuropatía, isquemia y trauma',
           say: 'El paciente no siente el monofilamento: es la neuropatía, el componente principal. Si además faltan los pulsos, hay isquemia. Un roce o una piedra en el zapato que no se siente basta para formar una úlcera. Y si el estilete toca hueso, es una osteomielitis.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'El pie diabético',
-      images: [
-        { src: 'biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_2__cto-endocrino_p114.jpg', label: 'Úlcera neuropática en zona de apoyo', credit: 'Manual CTO Endocrinología 14.ª ed., p. 114' },
-        { src: 'biblioteca/04_diabetes/diab-22/02_clasificacion-de-wagner__cto-endocrino_p113.jpg', label: 'Clasificación de Wagner', credit: 'Manual CTO Endocrinología 14.ª ed., p. 113' },
-      ],
-      steps: [
-        { note: 'Lesión en punto de apoyo',
-          say: 'Esta úlcera está en un punto de apoyo, bajo las cabezas de los metatarsianos, rodeada de un rodete de callo. Es la consecuencia de la neuropatía: el paciente no siente la herida.' },
-        { note: 'Profundidad e infección',
-          say: 'Y esta es la clasificación de Wagner: de la úlcera superficial a la gangrena. Si el estilete toca hueso, hay que pensar en osteomielitis.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_1__cto-endocrino_p114.jpg', label: 'Amputación del primer dedo por necrosis isquémica', credit: 'Manual CTO Endocrinología 14.ª ed., p. 114' },
-      ],
-      steps: [
-        { note: 'El componente isquémico',
-          say: 'Este pie perdió el primer dedo por una necrosis isquémica. Cuando faltan los pulsos, la herida no cicatriza y la cadena termina en amputación; por eso antes de amputar hay que estudiar la irrigación.' },
       ],
     },
 
@@ -284,6 +334,8 @@ module.exports = {
           say: 'El cultivo es de tejido profundo o de hueso, nunca de un hisopado superficial.' },
         { cells: ['Pulsos pedios ausentes', 'Índice tobillo-brazo', 'Asumir úlcera neuropática pura'],
           say: 'Y si faltan los pulsos, se mide el índice tobillo-brazo antes de asumir que la úlcera es solo neuropática.' },
+        { cells: ['Diabético con ITB de 1,4 y pulsos ausentes', 'Índice dedo-brazo o eco-Doppler', 'Concluir que la perfusión es normal'],
+          say: 'Y el índice tobillo-brazo sobre uno coma tres en un diabético con pulsos ausentes no es normal: son arterias calcificadas. Se pide índice dedo-brazo o eco-Doppler.' },
       ],
     },
 
@@ -377,6 +429,268 @@ module.exports = {
         options: 'Las opciones son: electromiografía, angioTAC, arteriografía, Doppler venoso, o índice tobillo-brazo. Piénsalo.',
         answer: 'Es la E, índice tobillo-brazo. Ahora el síntoma es otro: dolor en la pantorrilla que aparece al caminar una distancia fija, eso es claudicación intermitente, y con pulsos débiles apunta a la arteria. El primer examen es el índice tobillo-brazo; bajo cero coma nueve confirma la enfermedad arterial. Compárala con la anterior: los dos pacientes tienen neuropatía y pulsos bajos, y lo que decide el examen es qué explica el dolor.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.1.011 · Neuropatía diabética",
+      "stem": "Hombre de 59 años con DM2 de 12 años de evolución, HbA1c 8,1 %. Asintomático. En su control anual en el CESFAM se examinan los pies: piel íntegra, sin deformidades, pulsos pedios presentes. No percibe el monofilamento de 10 g en 4 de 10 puntos plantares de cada pie y tiene la sensibilidad vibratoria disminuida con diapasón de 128 Hz.",
+      "question": "¿Cuál es la interpretación y conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Polineuropatía diabética con pérdida de sensibilidad protectora: pie de alto riesgo, educación, calzado adecuado y controles frecuentes"
+        },
+        {
+          "letter": "B",
+          "text": "Examen normal; repetir en un año"
+        },
+        {
+          "letter": "C",
+          "text": "Enfermedad arterial periférica; solicitar índice tobillo-brazo urgente"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar pregabalina para prevenir úlceras"
+        },
+        {
+          "letter": "E",
+          "text": "Derivar a neurología para electromiografía antes de clasificar el riesgo"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La pérdida de sensibilidad al monofilamento de 10 g demuestra polineuropatía con pérdida de la sensibilidad protectora, el principal factor de riesgo de úlcera. Se clasifica como pie de riesgo: educación en autocuidado, calzado adecuado, podología y control más frecuente. La electromiografía no es necesaria y la pregabalina es solo para el dolor neuropático.",
+      "say": {
+        "stem": "Hombre de cincuenta y nueve años, diabético hace doce años, asintomático. En su control anual tiene pulsos presentes, pero no siente el monofilamento en cuatro de diez puntos de cada pie y tiene la vibración disminuida.",
+        "question": "¿Cuál es la interpretación y conducta más adecuada?",
+        "options": "Las opciones: neuropatía con pie de alto riesgo y educación, examen normal, enfermedad arterial, iniciar pregabalina o electromiografía antes de clasificar. Piénsalo.",
+        "answer": "Es la A. No sentir el monofilamento es pérdida de la sensibilidad protectora por polineuropatía, y ese pie tiene alto riesgo de ulcerarse, así que se educa y se controla más seguido. La pregabalina tienta, pero trata el dolor neuropático; este paciente no tiene dolor y no previene úlceras."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.5.001 · Curaciones básicas del pie diabético",
+      "stem": "Mujer de 66 años con DM2 y polineuropatía. Úlcera plantar de 1,5 cm bajo la cabeza del 2.º metatarsiano, superficial, con bordes de hiperqueratosis y fondo con algo de tejido esfacelado. Sin eritema, calor ni secreción purulenta; estilete óseo negativo. Pulsos pedios presentes.",
+      "question": "¿Cuál es el manejo local más adecuado de la úlcera?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lavado con povidona yodada y agua oxigenada, y gasa seca"
+        },
+        {
+          "letter": "B",
+          "text": "Antibiótico tópico y dejar la úlcera expuesta al aire"
+        },
+        {
+          "letter": "C",
+          "text": "Lavado con suero fisiológico, desbridamiento del esfacelo y la hiperqueratosis, apósito que mantenga un ambiente húmedo y descarga de la zona"
+        },
+        {
+          "letter": "D",
+          "text": "Cefadroxilo oral por 14 días y reposo"
+        },
+        {
+          "letter": "E",
+          "text": "Hospitalizar para desbridamiento quirúrgico"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Úlcera neuropática Wagner 1 sin infección: manejo ambulatorio con curación avanzada. Se lava con suero fisiológico, se retira el tejido desvitalizado y la callosidad, se usa un apósito que mantenga un ambiente húmedo fisiológico y se descarga la zona. Los antisépticos dañan el tejido de granulación y sin infección no se indican antibióticos.",
+      "say": {
+        "stem": "Mujer de sesenta y seis años, diabética con neuropatía, con una úlcera plantar superficial de uno coma cinco centímetros, con callo en los bordes y algo de esfacelo. No hay signos de infección y el estilete óseo es negativo.",
+        "question": "¿Cuál es el manejo local más adecuado?",
+        "options": "Las opciones: povidona yodada con gasa seca, antibiótico tópico al aire, suero fisiológico con desbridamiento, apósito húmedo y descarga, cefadroxilo oral, u hospitalizar. Piénsalo.",
+        "answer": "Es la C. Una úlcera superficial no infectada se cierra con curación avanzada: lavado con suero, retiro del tejido muerto y del callo, ambiente húmedo y, sobre todo, descarga. La povidona tienta por limpiar, pero los antisépticos dañan el tejido que está cicatrizando."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Enero 2023 · Pregunta 146",
+      "stem": "Paciente diabético y fumador presenta dolor en las pantorrillas al caminar 120 metros. Al examen tiene reflejos patelares ausentes, hipoestesia y pulsos pedios débiles.",
+      "question": "¿Cuál es el examen de elección?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Electromiografía y velocidad de conducción nerviosa"
+        },
+        {
+          "letter": "B",
+          "text": "AngioTAC de extremidades inferiores"
+        },
+        {
+          "letter": "C",
+          "text": "Arteriografía de extremidades inferiores"
+        },
+        {
+          "letter": "D",
+          "text": "Doppler venoso de extremidades inferiores"
+        },
+        {
+          "letter": "E",
+          "text": "Índice tobillo-brazo (ITB)"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La claudicación intermitente con pulsos pedios débiles sugiere enfermedad arterial periférica. El examen inicial de elección es el índice tobillo-brazo: un valor menor de 0,9 confirma el diagnóstico (en diabéticos puede estar falsamente elevado por calcificación arterial). La angioTAC o la arteriografía se reservan para planificar una revascularización.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de enero de dos mil veintitrés. Paciente diabético y fumador, con dolor en las pantorrillas al caminar ciento veinte metros. Tiene reflejos patelares ausentes, hipoestesia y pulsos pedios débiles.",
+        "question": "¿Cuál es el examen de elección?",
+        "options": "Las opciones: electromiografía, angioTAC, arteriografía, Doppler venoso, o índice tobillo brazo. Piénsalo.",
+        "answer": "Es la E. Dolor de pantorrillas al caminar con pulsos débiles es claudicación por enfermedad arterial, y el primer examen es el índice tobillo brazo, simple y barato. La electromiografía tienta por la hipoestesia y la arreflexia, que son de la neuropatía diabética, pero no explican la claudicación."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.1.019 · Vasculopatía periférica",
+      "stem": "Un hombre de 64 años, diabético y fumador, refiere dolor en ambas pantorrillas al caminar 200 metros, que cede a los pocos minutos de reposo. Los pulsos pedios están disminuidos y el índice tobillo-brazo es 0,7.",
+      "question": "¿Cuál es el manejo inicial más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cesación tabáquica, ejercicio supervisado, estatina y antiagregante plaquetario"
+        },
+        {
+          "letter": "B",
+          "text": "Revascularización quirúrgica inmediata"
+        },
+        {
+          "letter": "C",
+          "text": "Anticoagulación oral"
+        },
+        {
+          "letter": "D",
+          "text": "Amputación infracondílea"
+        },
+        {
+          "letter": "E",
+          "text": "Reposo absoluto en cama"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Claudicación intermitente con ITB bajo 0,9 confirma enfermedad arterial periférica. El manejo inicial es reducir el riesgo cardiovascular (dejar de fumar, estatina de alta intensidad, antiagregante, control de diabetes y PA) más ejercicio supervisado, que aumenta la distancia de marcha. La revascularización se reserva para isquemia crítica o claudicación invalidante.",
+      "say": {
+        "stem": "Un diabético fumador de sesenta y cuatro años tiene dolor en las pantorrillas al caminar doscientos metros que cede con el reposo. Los pulsos pedios están disminuidos y el índice tobillo brazo es cero coma siete.",
+        "question": "¿Cuál es el manejo inicial más adecuado?",
+        "options": "Las opciones: control de factores de riesgo con ejercicio supervisado, revascularización inmediata, anticoagulación, amputación o reposo en cama. Piénsalo.",
+        "answer": "Es la A. La claudicación con índice bajo cero coma nueve se maneja primero con control del riesgo cardiovascular y ejercicio supervisado. La revascularización tienta, pero se reserva para isquemia crítica o claudicación invalidante."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.3.009 · Prevención de pié diabético",
+      "stem": "En el control de una mujer de 60 años con DM2 de 12 años de evolución, el examen con monofilamento de 10 g muestra pérdida de sensibilidad en ambos pies. No tiene úlceras ni deformidades y los pulsos son normales.",
+      "question": "¿Cuál es la medida preventiva más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Indicar caminar descalza para fortalecer los pies"
+        },
+        {
+          "letter": "B",
+          "text": "Educación en autocuidado con inspección diaria de los pies, calzado adecuado y control podológico periódico"
+        },
+        {
+          "letter": "C",
+          "text": "Remojar los pies en agua caliente diariamente"
+        },
+        {
+          "letter": "D",
+          "text": "Amputación profiláctica de ortejos"
+        },
+        {
+          "letter": "E",
+          "text": "Controlar los pies solo si aparece una úlcera"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La pérdida de sensibilidad protectora al monofilamento aumenta el riesgo de ulceración. Se indica educación (inspección diaria, secado entre ortejos, no andar descalza, no remojar en agua caliente), calzado adecuado, podología y controles periódicos. Todo diabético debe tener evaluación de riesgo de pie al menos una vez al año.",
+      "say": {
+        "stem": "Una mujer diabética de sesenta años tiene pérdida de sensibilidad en ambos pies al monofilamento, sin úlceras, deformidades ni alteración de pulsos.",
+        "question": "¿Cuál es la medida preventiva más adecuada?",
+        "options": "Las opciones: caminar descalza, educación en autocuidado con inspección diaria, calzado y podología, remojar los pies en agua caliente, amputación profiláctica, o controlar solo si aparece una úlcera. Piénsalo.",
+        "answer": "Es la B. Con pérdida de sensibilidad protectora, la prevención es autocuidado, inspección diaria, buen calzado y podología. Remojar los pies tienta como cuidado, pero con neuropatía arriesga quemaduras y maceración."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.001 · Arteriografia extremidades inferiores",
+      "stem": "Un hombre de 70 años, diabético, presenta dolor en reposo en el pie derecho que lo despierta en la noche y una úlcera en el primer ortejo que no cicatriza hace 6 semanas. No tiene pulsos poplíteo ni pedio derechos y el índice tobillo-brazo es 0,3.",
+      "question": "¿Cuál es el examen más adecuado para planificar el tratamiento?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Arteriografía (o angioTAC) de extremidades inferiores"
+        },
+        {
+          "letter": "B",
+          "text": "Radiografía de pie"
+        },
+        {
+          "letter": "C",
+          "text": "Electromiografía"
+        },
+        {
+          "letter": "D",
+          "text": "Cintigrama óseo"
+        },
+        {
+          "letter": "E",
+          "text": "Repetir el índice tobillo-brazo en 6 meses"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Dolor de reposo y úlcera que no cicatriza con ITB muy bajo es isquemia crítica de la extremidad, con alto riesgo de amputación. Requiere estudio anatómico arterial (arteriografía o angioTAC) para planificar la revascularización endovascular o quirúrgica; la arteriografía además puede ser terapéutica (angioplastía). Esperar implica perder la extremidad.",
+      "say": {
+        "stem": "Un diabético de setenta años tiene dolor de reposo nocturno en el pie derecho, una úlcera del primer ortejo que no cicatriza, sin pulsos distales y con índice tobillo brazo de cero coma tres.",
+        "question": "¿Qué examen es el más adecuado para planificar el tratamiento?",
+        "options": "Las opciones: arteriografía o angioTAC de extremidades inferiores, radiografía de pie, electromiografía, cintigrama óseo o repetir el índice en seis meses. Piénsalo.",
+        "answer": "Es la A. Es una isquemia crítica y se necesita ver la anatomía arterial para revascularizar. La radiografía de pie tienta por la úlcera, pero no muestra las arterias ni guía la revascularización."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.008 · Doppler vascular periférico",
+      "stem": "Un hombre de 72 años, con DM2 de 20 años y enfermedad renal crónica, refiere claudicación de pantorrillas. Sus pulsos pedios son débiles, pero el índice tobillo-brazo resulta 1,5.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Descartar enfermedad arterial, porque el índice es normal"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar electromiografía"
+        },
+        {
+          "letter": "C",
+          "text": "Indicar amputación"
+        },
+        {
+          "letter": "D",
+          "text": "Considerar el índice no confiable por calcificación arterial y realizar ecografía Doppler arterial o índice dedo-brazo"
+        },
+        {
+          "letter": "E",
+          "text": "Repetir el mismo índice en 1 año"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Un ITB sobre 1,3-1,4 indica arterias no compresibles por calcificación de la media, frecuente en diabéticos y en enfermedad renal, y no es confiable. Con claudicación y pulsos débiles se estudia con ecografía Doppler arterial (morfología de onda, estenosis) o índice dedo-brazo, porque las arterias digitales suelen respetarse.",
+      "say": {
+        "stem": "Un diabético de setenta y dos años con enfermedad renal crónica tiene claudicación y pulsos pedios débiles, pero su índice tobillo brazo resulta uno coma cinco.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: descartar enfermedad arterial, electromiografía, amputar, considerar el índice falso por calcificación y hacer doppler arterial o índice dedo brazo o repetir el índice en un año. Piénsalo.",
+        "answer": "Es la D. Un índice sobre uno coma tres indica arterias calcificadas que no se comprimen, así que no sirve y se estudia con doppler. Descartar la enfermedad tienta, pero sus pulsos débiles y la claudicación dicen lo contrario."
+      }
     },
 
     {

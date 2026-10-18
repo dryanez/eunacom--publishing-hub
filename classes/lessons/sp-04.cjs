@@ -108,6 +108,75 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Control de infecciosas',
+      title: 'Cortar la cadena de transmisión',
+      cards: [
+        { title: 'Un eslabón a la vez', tag: 'Fuente, vía, huésped', kind: 'key', items: [
+          { t: 'Fuente o reservorio', d: 'Tratar casos, aislar, controlar animales',
+            say: 'La epidemiología describe, identifica causas, vigila tendencias y evalúa intervenciones. Cuando se trata de controlar una infección, cada estrategia actúa sobre un eslabón de la cadena. Sobre la fuente: diagnóstico y tratamiento de los casos, aislamiento y control de animales, como en la rabia o el hantavirus.' },
+          { t: 'Vía de transmisión', d: 'Saneamiento, cloro, vectores, higiene de manos',
+            say: 'Sobre la vía de transmisión: saneamiento básico, cloración del agua, control de vectores, higiene de manos, mascarillas y precauciones estándar.' },
+          { t: 'Huésped susceptible', d: 'Vacunas, quimioprofilaxis, educación',
+            say: 'Y sobre el huésped susceptible: vacunación, a través del Programa Nacional de Inmunizaciones, quimioprofilaxis y educación.' },
+        ] },
+        { title: 'Metas y medidas', tag: 'No son sinónimos', kind: 'criteria', items: [
+          { t: 'Control, eliminación, erradicación', d: 'Erradicación: solo la viruela, 1980',
+            say: 'Según la meta, se habla de control, que es bajar la incidencia a un nivel aceptable; de eliminación, que es cero casos en un área geográfica con vigilancia activa; y de erradicación, la desaparición global del agente. Erradicada hay solo una: la viruela, en mil novecientos ochenta.' },
+          { t: 'Aislamiento versus cuarentena', d: 'Enfermos contra sanos expuestos',
+            say: 'Y otra pregunta clásica. El aislamiento separa a los enfermos. La cuarentena restringe a los sanos que se expusieron, durante el período de incubación.' },
+        ] },
+        { title: 'John Snow, 1854', tag: 'El ejemplo histórico', kind: 'normal', items: [
+          { t: 'Mapeó el cólera de Londres', d: 'Lo vinculó a una bomba de agua',
+            say: 'El ejemplo histórico es John Snow. En mil ochocientos cincuenta y cuatro mapeó los casos de cólera de Londres, los vinculó con una bomba de agua y la inhabilitó, antes de conocerse el agente. Es epidemiología pura: lugar, hipótesis y acción.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Investigación de un brote',
+      title: 'Los siete pasos, en orden',
+      nodes: [
+        { id: 'c', col: 0, row: 0, k: 'start', t: 'Confirmar el brote', s: 'Más casos que los esperados; verificar diagnóstico' },
+        { id: 'd', col: 1, row: 1, k: 'mech', t: 'Definir caso y buscar', s: 'Clínica, tiempo, lugar y persona' },
+        { id: 'o', col: 2, row: 0, k: 'mech', t: 'Describir', s: 'Curva epidémica, mapa, personas' },
+        { id: 'h', col: 3, row: 1, k: 'q', t: 'Plantear hipótesis', s: 'Fuente y mecanismo' },
+        { id: 'p', col: 4, row: 0, k: 'effect', t: 'Probarla', s: 'Cohorte o casos y controles' },
+        { id: 'm', col: 3, row: 3, k: 'alert', t: 'Medidas de control', s: 'Sin esperar el final del estudio' },
+        { id: 'i', col: 4, row: 4, k: 'good', t: 'Informar y comunicar', s: 'Cierre del ciclo' },
+      ],
+      edges: [
+        { from: 'c', to: 'd' }, { from: 'd', to: 'o' }, { from: 'o', to: 'h' },
+        { from: 'h', to: 'p' }, { from: 'p', to: 'm' }, { from: 'm', to: 'i' },
+      ],
+      steps: [
+        { show: ['c', 'd'], note: 'Primero confirmar, luego definir',
+          say: 'Cuando hay un brote, el orden importa y se pregunta. Primero confirmas que realmente es un brote, es decir, más casos que los esperados, y verificas el diagnóstico. Segundo, defines qué es un caso, con clínica, tiempo, lugar y persona, y buscas casos activamente.' },
+        { show: ['o'], note: 'Tiempo, lugar y persona',
+          say: 'Tercero, describes por tiempo, con la curva epidémica, por lugar, con un mapa, y por persona.' },
+        { show: ['h', 'p'], note: 'Hipótesis y estudio analítico',
+          say: 'Cuarto, planteas una hipótesis sobre la fuente y el mecanismo de transmisión. Y quinto, la pruebas con un estudio analítico. En un grupo cerrado, como un banquete o un casino, haces una cohorte, calculas la tasa de ataque, que son los enfermos dividido por los expuestos, y el riesgo relativo. Si la población es abierta, usas casos y controles.' },
+        { show: ['m', 'i'], note: 'Controlar sin esperar',
+          say: 'Sexto, aplicas medidas de control sin esperar a que termine el estudio. Y séptimo, informas y comunicas. La trampa clásica es esperar los resultados para actuar: en un brote, se controla en paralelo.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La curva epidémica: qué dice su forma',
+      images: [
+        { src: 'animaciones/sp-04/A1_curva_epidemica.mp4', label: 'Curva epidémica', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Un pico, meseta o picos sucesivos',
+          say: 'Mira estas tres curvas. Un solo pico, dentro de un período de incubación, indica una fuente común puntual, como una comida contaminada. Una meseta indica una fuente común continua, por ejemplo agua contaminada que sigue en uso. Y varios picos separados por un período de incubación indican transmisión de persona a persona. La forma orienta, y el estudio analítico lo confirma.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos la decisión completa: inmediata, diaria, o centinela.',
     },
@@ -126,6 +195,12 @@ module.exports = {
           say: 'Y la vigilancia centinela no es notificación caso a caso, sino un muestreo periódico en centros de salud específicos, para enfermedades frecuentes y poco graves: infecciones respiratorias altas, diarreas y virus respiratorios como la influenza. El error clásico es tratar estas enfermedades frecuentes como si fueran de notificación inmediata.' },
         { cells: ['Brote de hepatitis A confirmado', 'Notificación diaria a la SEREMI', 'Confundirla con una enfermedad de notificación inmediata'],
           say: 'Y un dato fino: la hepatitis A, como enfermedad aislada, es de notificación diaria, no inmediata. Lo que sí exige reacción inmediata es un brote, dos o más casos ligados a una fuente común, porque ahí el objetivo pasa a ser cortar la transmisión.' },
+        { cells: ['Brote en un banquete: grupo cerrado', 'Cohorte con tasa de ataque y riesgo relativo', 'Hacer casos y controles'],
+          say: 'En un brote en un grupo cerrado, como un banquete, el estudio es una cohorte, con tasa de ataque y riesgo relativo. Casos y controles se reserva para poblaciones abiertas.' },
+        { cells: ['Un solo pico en un período de incubación', 'Fuente común puntual', 'Transmisión persona a persona'],
+          say: 'Un pico único dentro de un período de incubación indica fuente común puntual, como una comida contaminada. Picos sucesivos separados por una incubación indican transmisión de persona a persona.' },
+        { cells: ['Tres documentos médico-legales de salud pública', 'Notificación, certificado de defunción y licencia médica', 'Olvidar que son deberes con sanción'],
+          say: 'La notificación es uno de los tres documentos médico-legales de salud pública. Los otros dos son el certificado médico de defunción y la licencia médica. Los tres son deberes del médico, y su incumplimiento tiene sanción sanitaria o penal.' },
       ],
     },
 
@@ -215,6 +290,119 @@ module.exports = {
         question: '¿Cuál es la razón correcta?',
         options: 'Las opciones: para aislar a los contactos, para vacunar a la familia, para identificar y manejar a los contactos, para detectar casos secundarios, o por la gravedad de la enfermedad.',
         answer: 'Es la C. La opción que suena más obvia es la gravedad, pero esa es la razón general de todas las enfermedades de notificación inmediata, no la específica de esta pregunta. Lo que se busca puntualmente es identificar a los contactos estrechos y darles quimioprofilaxis. Y fíjate en un matiz importante: en el meningococo no se aísla a los contactos, como sí se hace en otras enfermedades; se les da el antibiótico preventivo.' },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 56",
+      "stem": "Durante una pandemia respiratoria, el Ministerio de Salud debe decidir la intervención de salud pública con mayor impacto para reducir la mortalidad poblacional a largo plazo.",
+      "question": "¿Cuál es la medida más eficaz?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Profilaxis antibiótica masiva"
+        },
+        {
+          "letter": "B",
+          "text": "Desinfección ambiental de espacios públicos"
+        },
+        {
+          "letter": "C",
+          "text": "Cuarentena de contactos"
+        },
+        {
+          "letter": "D",
+          "text": "Vacunación masiva de la población"
+        },
+        {
+          "letter": "E",
+          "text": "Aislamiento de casos positivos solamente"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La vacunación masiva es la estrategia de control con mayor impacto sobre la mortalidad por infecciones respiratorias: protege al vacunado y genera inmunidad de rebaño. Cuarentena y aislamiento son medidas complementarias y transitorias; la profilaxis antibiótica no sirve contra virus.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. En plena pandemia respiratoria, el Ministerio de Salud debe elegir la intervención con mayor impacto para reducir la mortalidad de la población a largo plazo.",
+        "question": "¿Cuál es la medida más eficaz?",
+        "options": "Las opciones: profilaxis antibiótica masiva, desinfección de espacios públicos, cuarentena de contactos, vacunación masiva, o aislar solo a los casos positivos. Piénsalo.",
+        "answer": "Es la D. La vacunación masiva protege al vacunado y además genera inmunidad de rebaño, y es la que más reduce la mortalidad a largo plazo. La cuarentena de contactos tienta, pero solo frena la transmisión mientras dura y no deja inmunidad."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2017 · Pregunta 69",
+      "stem": "Se desea evaluar los resultados de una campaña de vacunación en la población.",
+      "question": "¿Cuál es el mejor indicador para determinar el éxito de una campaña de vacunación?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tasa de incidencia"
+        },
+        {
+          "letter": "B",
+          "text": "Tasa de prevalencia"
+        },
+        {
+          "letter": "C",
+          "text": "Tasa de hospitalizaciones"
+        },
+        {
+          "letter": "D",
+          "text": "Tasa de mortalidad"
+        },
+        {
+          "letter": "E",
+          "text": "Tasa de cobertura de vacunación"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El objetivo de una vacuna es prevenir casos nuevos, por lo que su éxito (efectividad) se mide por la disminución de la incidencia de la enfermedad. La cobertura es un indicador de proceso: dice cuántos se vacunaron, no si se evitó la enfermedad. La mortalidad depende además de la letalidad y del tratamiento.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Se quiere evaluar si una campaña de vacunación tuvo éxito.",
+        "question": "¿Cuál es el mejor indicador?",
+        "options": "Las opciones: incidencia, prevalencia, hospitalizaciones, mortalidad o cobertura de vacunación. Piénsalo.",
+        "answer": "Es la A. Una vacuna busca evitar casos nuevos, y eso se mide con la incidencia. La cobertura tienta, pero solo dice cuántos se vacunaron, no si la enfermedad realmente disminuyó."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.027 · Investigación epidemiológica",
+      "stem": "La SEREMI de Salud recibe la notificación de 25 personas con diarrea y vómitos 6 a 12 horas después de asistir a un matrimonio. Se decide iniciar una investigación epidemiológica.",
+      "question": "Tras organizar el equipo de terreno, ¿cuál es el primer paso de la investigación del brote?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Publicar los resultados en la prensa"
+        },
+        {
+          "letter": "B",
+          "text": "Confirmar el diagnóstico y verificar la existencia del brote"
+        },
+        {
+          "letter": "C",
+          "text": "Diseñar un ensayo clínico con antibióticos"
+        },
+        {
+          "letter": "D",
+          "text": "Calcular odds ratio antes de definir qué es un caso"
+        },
+        {
+          "letter": "E",
+          "text": "Clausurar el local sin investigar"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La investigación de un brote sigue pasos ordenados: confirmar el diagnóstico y la existencia del brote (más casos que lo esperado), definir caso, buscar casos, describir según persona, lugar y tiempo, plantear y probar hipótesis (por ejemplo, con casos y controles), aplicar medidas de control y comunicar los resultados.",
+      "say": {
+        "stem": "La autoridad sanitaria recibe veinticinco casos de diarrea y vómitos después de un matrimonio.",
+        "question": "¿Cuál es el primer paso de la investigación del brote?",
+        "options": "Las opciones: publicar en la prensa, confirmar diagnóstico y brote, ensayo con antibióticos, calcular odds ratio o clausurar el local. Piénsalo.",
+        "answer": "Es la B. Primero se confirma el diagnóstico y que realmente existe un brote. Calcular odds ratio tienta porque sirve para encontrar el alimento culpable, pero viene después de definir caso y describir el brote."
+      }
     },
 
     {

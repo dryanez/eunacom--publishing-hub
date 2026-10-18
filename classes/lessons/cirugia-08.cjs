@@ -10,7 +10,7 @@ module.exports = {
     {
       type: 'cover',
       subtitle: 'Cuándo solo drenas y cuándo tienes que pedir una resonancia antes de tocar nada',
-      say: 'Hoy vemos tres cosas que se ven mucho en la práctica: la enfermedad pilonidal, la hidrosadenitis, y los tumores de partes blandas. Y aquí la idea central es una sola: aprender a distinguir lo que se resuelve con una simple incisión de lo que nunca debes tocar sin antes pedir una imagen. Vamos por partes.',
+      say: 'Hoy vemos lo que más se ve en la práctica de piel y partes blandas: la enfermedad pilonidal, la hidrosadenitis, los abscesos y el panadizo, los tumores de partes blandas y el granuloma piogénico. Y aquí la idea central es una sola: aprender a distinguir lo que se resuelve con una simple incisión de lo que nunca debes tocar sin antes pedir una imagen. Vamos por partes.',
     },
 
     {
@@ -35,9 +35,11 @@ module.exports = {
         { show: ['fri'], note: 'Sentarse horas favorece la invaginación',
           say: 'La fricción de estar sentado mucho tiempo, el sudor y el vello abundante favorecen que ese pelo se siga metiendo.' },
         { show: ['que', 'dre'], note: 'Incisión fuera de la línea media',
-          say: 'Cuando esto se infecta, tienes un absceso pilonidal: masa dolorosa, fluctuante y caliente. Y aquí va la conducta de urgencia: drenaje simple, con una incisión lateralizada, no en la línea media, más curetaje para sacar los mechones de pelo. Nada de resección amplia mientras está infectado.' },
+          say: 'Cuando esto se infecta, tienes un absceso pilonidal: masa dolorosa, fluctuante y caliente. Mira esta foto: una masa roja y tensa en el surco interglúteo, eso es el absceso pilonidal. Y aquí va la conducta de urgencia: drenaje simple, con una incisión lateralizada, no en la línea media, más curetaje para sacar los mechones de pelo. Nada de resección amplia mientras está infectado.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-08/05_absceso_pilonidal__commons.jpg', label: 'Absceso pilonidal', at: 'Mira esta foto', credit: 'Wikimedia Commons «Pilonidal abscess.jpg», CC BY-SA 4.0, Jonathanlund' } },
         { show: ['fis'], note: 'Orificios puntiformes con pelos asomando',
-          say: 'Si no se infecta, o después de drenado, puede quedar un seno crónico: uno o varios orificios puntiformes con secreción intermitente y pelos visibles.' },
+          say: 'Si no se infecta, o después de drenado, puede quedar un seno crónico: uno o varios orificios puntiformes con secreción intermitente y pelos visibles. Mira estos orificios en la línea media del surco: son el seno pilonidal.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-08/04_sinus_pilonidal_foto__commons.jpg', label: 'Sinus pilonidal', at: 'Mira estos orificios', credit: 'Wikimedia Commons «Two pilonidal cysts in the natal cleft.jpg», Public domain, JerryTahl' } },
         { show: ['res'], note: 'Nunca en fase aguda',
           say: 'Y el tratamiento definitivo de ese seno crónico es la resección quirúrgica completa, pero programada, en frío, nunca durante la infección activa, porque la herida se abre y se infecta de nuevo.' },
       ],
@@ -50,7 +52,8 @@ module.exports = {
       cards: [
         { title: 'Dónde y por qué', tag: 'Enfermedad de Verneuil', kind: 'criteria', items: [
           { t: 'Axilas, ingles, periné', d: 'Donde hay glándulas apocrinas',
-            say: 'La hidrosadenitis compromete las glándulas sudoríparas apocrinas, así que aparece en axilas, ingles, periné y bajo las mamas, con nódulos dolorosos que se hacen abscesos y fístulas.' },
+            say: 'La hidrosadenitis compromete las glándulas sudoríparas apocrinas, así que aparece en axilas, ingles, periné y bajo las mamas, con nódulos dolorosos que se hacen abscesos y fístulas. Mira esta axila: nódulos inflamados y cicatrices con trayectos, la imagen típica.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-08/01_hidradenitis-supurativa__cto-derma_p61.jpg', label: 'Hidradenitis supurativa', at: 'Mira esta axila', credit: 'Manual CTO Dermatología 14.ª ed., p. 61' } },
           { t: 'Tabaco: el gran gatillante', d: 'Dejarlo es parte del tratamiento',
             say: 'El tabaco es el principal desencadenante, y dejarlo es tan parte del tratamiento como cualquier fármaco.' },
         ] },
@@ -60,6 +63,60 @@ module.exports = {
           { t: 'Cirugía: solo lo crónico', d: 'Destechar o extirpar el tejido',
             say: 'La cirugía queda para los trayectos ya crónicos y organizados: destechar el trayecto o extirpar el tejido glandular comprometido.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Infecciones de partes blandas',
+      title: 'Forúnculo, ántrax, flegmón y absceso',
+      cards: [
+        { title: 'Quién es quién', tag: 'Casi siempre Staphylococcus aureus', kind: 'criteria', items: [
+          { t: 'Forúnculo y ántrax', d: 'Ántrax: pide glicemia',
+            say: 'El forúnculo es una infección profunda del folículo piloso por Staphylococcus aureus. Cuando se juntan varios forúnculos tienes un ántrax, típico de la nuca y la espalda del diabético, así que ante un ántrax pide una glicemia.' },
+          { t: 'Flegmón o absceso', d: 'Difuso: antibiótico. Colección: drenaje',
+            say: 'El flegmón es una infección difusa del tejido subcutáneo, sin colección, y se trata con antibióticos. El absceso es una colección con fluctuación, y su tratamiento es el drenaje.' },
+        ] },
+        { title: 'Conducta', tag: 'Drenar lo fluctuante', kind: 'key', items: [
+          { t: 'Incisión y drenaje', d: 'Anestesia local, romper tabiques, lavar',
+            say: 'Un forúnculo inicial se maneja con calor local y vigilancia. Si ya fluctúa, haces incisión y drenaje con anestesia local: incisión amplia en el punto de máxima fluctuación, rompes los tabiques, lavas y lo dejas abierto, con mecha si la cavidad es grande.' },
+          { t: 'Antibiótico: solo si hay razón', d: 'Celulitis, fiebre, inmunosupresión, cara',
+            say: 'El antibiótico se agrega solo si hay celulitis extensa, fiebre, inmunosupresión o localización en la cara: cloxacilina o cefadroxilo, y si hay riesgo de SAMR comunitario, cotrimoxazol o clindamicina. El cultivo se reserva para los recurrentes o los que no responden.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Panadizo',
+      title: 'Infección del dedo: reconoce a Kanavel',
+      cards: [
+        { title: 'Tipos', tag: 'Cada uno se drena distinto', kind: 'criteria', items: [
+          { t: 'Paroniquia', d: 'Pliegue ungueal: incisión pequeña',
+            say: 'El panadizo es una infección de los tejidos del dedo. La paroniquia, en el pliegue de la uña, se drena con una pequeña incisión.' },
+          { t: 'Panadizo del pulpejo', d: 'Tenso y muy doloroso: drenaje lateral',
+            say: 'El panadizo del pulpejo es tenso y muy doloroso, y se drena por vía lateral.' },
+        ] },
+        { title: 'Urgencia quirúrgica', tag: 'Signos de Kanavel', kind: 'alert', items: [
+          { t: 'Tenosinovitis de los flexores', d: 'Se deriva de inmediato',
+            say: 'La tenosinovitis supurada de los flexores es una urgencia quirúrgica. Se reconoce por los signos de Kanavel: dedo en semiflexión, edema fusiforme, dolor a la extensión pasiva y dolor a lo largo de la vaina.' },
+          { t: 'Elevar, inmovilizar, vacuna', d: 'En toda infección de la mano',
+            say: 'En toda infección de la mano elevas la extremidad, la inmovilizas y verificas la vacuna antitetánica.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cómo se drena un absceso',
+      images: [
+        { src: 'animaciones/cirugia-08/A1_absceso.mp4', label: 'Fluctuación, incisión y drenaje', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0; animación propia' },
+      ],
+      steps: [
+        { note: 'Fluctúa: se drena',
+          say: 'Fíjate en la secuencia. El absceso es una colección de pus que fluctúa bajo los dedos. Haces la incisión en el punto de máxima fluctuación, sale el pus, rompes los tabiques, lavas la cavidad y la dejas abierta. El antibiótico solo se suma si hay celulitis extensa, fiebre o inmunosupresión; y el flegmón, que no tiene colección, sí se trata con antibióticos.' },
       ],
     },
 
@@ -83,9 +140,11 @@ module.exports = {
         { show: ['mas'], note: 'La mayoría son benignas',
           say: 'La mayoría de las masas de partes blandas que ves en la práctica son benignas, y se distinguen con el examen físico.' },
         { show: ['lip'], note: 'El signo del resbalamiento',
-          say: 'El lipoma es el tumor benigno más común: blando, lobulado, móvil, y se resbala bajo tus dedos al palparlo.' },
+          say: 'El lipoma es el tumor benigno más común: blando, lobulado, móvil, y se resbala bajo tus dedos al palparlo. Mira estos lipomas: abultamientos blandos bajo una piel normal.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-08/02_lipomas_multiples__fitzpatrick_p1228.jpg', label: 'Lipomas', at: 'Mira estos lipomas', credit: 'Fitzpatrick 7.ª ed., Fig. 129-1' } },
         { show: ['qui'], note: 'La cápsula debe salir entera',
-          say: 'El quiste epidérmico tiene un poro central visible, pegado a la piel. Ojo con esto: si al operarlo se rompe la cápsula, casi siempre recidiva. Y si está infectado, primero drenas, y recién después, ya frío, sacas la cápsula completa.' },
+          say: 'El quiste epidérmico tiene un poro central visible, pegado a la piel. Mira este quiste epidermoide, con su punto central. Ojo con esto: si al operarlo se rompe la cápsula, casi siempre recidiva. Y si está infectado, primero drenas, y recién después, ya frío, sacas la cápsula completa.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-08/01_quiste_epidermoide__fitzpatrick_p1102.jpg', label: 'Quiste epidermoide', at: 'Mira este quiste', credit: 'Fitzpatrick 7.ª ed., Fig. 118-18' } },
         { show: ['ban'], note: 'Cuatro preguntas antes de tocar la masa',
           say: 'Pero antes de decidir cualquier cirugía, hazte estas preguntas: ¿mide más de cinco centímetros, está profunda, bajo la fascia o el músculo, creció rápido en semanas, o está fija a un plano profundo? Cualquiera de estas es una bandera roja de sarcoma.' },
         { show: ['rmn'], note: 'Prohibida la resección a ciegas',
@@ -96,39 +155,23 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Patología de piel y partes blandas',
-      images: [
-        { src: 'biblioteca/10_cirugia/cirugia-08/04_sinus_pilonidal_foto__commons.jpg', label: 'Sinus pilonidal', credit: 'Wikimedia Commons «Two pilonidal cysts in the natal cleft.jpg», Public domain, JerryTahl' },
-        { src: 'biblioteca/10_cirugia/cirugia-08/05_absceso_pilonidal__commons.jpg', label: 'Absceso pilonidal', credit: 'Wikimedia Commons «Pilonidal abscess.jpg», CC BY-SA 4.0, Jonathanlund' },
-        { src: 'biblioteca/10_cirugia/cirugia-08/02_lipomas_multiples__fitzpatrick_p1228.jpg', label: 'Lipomas', credit: 'Fitzpatrick 7.ª ed., Fig. 129-1' },
-      ],
-      steps: [
-        { note: 'Orificios en el surco interglúteo',
-          say: 'El sinus pilonidal son orificios en la línea media del surco interglúteo.' },
-        { note: 'Se drena',
-          say: 'Cuando se infecta forma un absceso, que se drena.' },
-        { note: 'Blandos y móviles',
-          say: 'Y los lipomas son blandos, móviles y no duelen.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/10_cirugia/cirugia-08/01_quiste_epidermoide__fitzpatrick_p1102.jpg', label: 'Quiste epidermoide', credit: 'Fitzpatrick 7.ª ed., Fig. 118-18' },
-        { src: 'biblioteca/10_cirugia/cirugia-08/01_hidradenitis-supurativa__cto-derma_p61.jpg', label: 'Hidradenitis supurativa', credit: 'Manual CTO Dermatología 14.ª ed., p. 61' },
-      ],
-      steps: [
-        { note: 'Con punto central',
-          say: 'El quiste epidermoide tiene un poro central visible. Se reseca completo, con su cápsula.' },
-        { note: 'Hidradenitis supurativa',
-          say: 'La hidrosadenitis aparece donde hay glándulas apocrinas: axilas, ingles y periné. Lo crónico se trata con cirugía.' },
+      type: 'points',
+      kicker: 'Granuloma piogénico',
+      title: 'El nódulo rojo que sangra con un roce',
+      cards: [
+        { title: 'Cómo es', tag: 'Hemangioma capilar lobulado', kind: 'key', items: [
+          { t: 'Nódulo rojo, friable, pediculado', d: 'Crece en semanas y sangra fácil',
+            say: 'El granuloma piogénico es un hemangioma capilar lobulado, benigno y adquirido. Mira esta lesión: un nódulo rojo brillante, pediculado, que creció en semanas y sangra con un roce mínimo. Aparece en dedos, labios, cara y mucosa oral, a menudo tras un trauma menor.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-08/04_granuloma-piogenico__nelson_p5179.jpg', label: 'Granuloma piogénico', at: 'Mira esta lesión', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 5179' } },
+          { t: 'Embarazo: épulis gravídico', d: 'En las encías; puede regresar tras el parto',
+            say: 'En el embarazo es frecuente en las encías, el llamado épulis gravídico, y puede regresar después del parto.' },
+        ] },
+        { title: 'Conducta', tag: 'Siempre a biopsia', kind: 'pharma', items: [
+          { t: 'Curetaje con electrocoagulación', d: 'O escisión; todo a anatomía patológica',
+            say: 'Se confunde con melanoma amelanótico, carcinoma o sarcoma de Kaposi, por eso toda lesión extirpada va a anatomía patológica. El tratamiento es el curetaje con electrocoagulación de la base, o la escisión.' },
+          { t: 'Sangrado: presión y nitrato de plata', d: 'La recidiva es frecuente',
+            say: 'El sangrado se controla con presión y nitrato de plata, y la recidiva por resección incompleta es frecuente.' },
+        ] },
       ],
     },
 
@@ -151,6 +194,12 @@ module.exports = {
           say: 'Quiste epidérmico infectado: drenas primero, y la cápsula la sacas completa cuando ya bajó la inflamación.' },
         { cells: ['Masa mayor a 5 cm, profunda, creciendo', 'Resonancia y biopsia tru-cut', 'Resección marginal ambulatoria'],
           say: 'Y una masa grande, profunda y de crecimiento rápido: resonancia y biopsia planificada. Resecarla en el policlínico, a ciegas, es el error más grave de todo el tema.' },
+        { cells: ['Absceso o forúnculo fluctuante', 'Incisión y drenaje', 'Solo antibiótico oral'],
+          say: 'Absceso o forúnculo fluctuante: incisión y drenaje. El antibiótico solo no penetra la colección, y se agrega únicamente si hay celulitis, fiebre o inmunosupresión.' },
+        { cells: ['Dedo semiflexionado, dolor a la extensión', 'Kanavel: derivar de inmediato', 'Tratarlo como un panadizo simple'],
+          say: 'Dedo en semiflexión con dolor a la extensión pasiva: signos de Kanavel, tenosinovitis, urgencia quirúrgica.' },
+        { cells: ['Nódulo rojo friable que sangra', 'Curetaje más biopsia', 'No enviarlo a anatomía patológica'],
+          say: 'Y nódulo rojo friable que sangra, granuloma piogénico: curetaje con electrocoagulación, y siempre a anatomía patológica para descartar melanoma amelanótico.' },
       ],
     },
 
@@ -247,6 +296,157 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.053 · Tumores benignos de partes blandas",
+      "stem": "Hombre de 45 años consulta por un aumento de volumen en la espalda que ha crecido muy lentamente en 3 años. Al examen se palpa una masa de 4 cm, blanda, móvil, indolora, no adherida a la piel ni a planos profundos, sin punto central ni signos inflamatorios.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Quiste epidérmico"
+        },
+        {
+          "letter": "B",
+          "text": "Liposarcoma"
+        },
+        {
+          "letter": "C",
+          "text": "Lipoma"
+        },
+        {
+          "letter": "D",
+          "text": "Absceso subcutáneo"
+        },
+        {
+          "letter": "E",
+          "text": "Linfadenopatía"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Masa subcutánea blanda, móvil, indolora, de crecimiento lento y no adherida a la piel es un lipoma, el tumor benigno de partes blandas más frecuente. El quiste epidérmico está adherido a la piel y suele tener un poro central. Masas mayores de 5 cm, profundas, duras o de crecimiento rápido obligan a descartar sarcoma.",
+      "say": {
+        "stem": "Hombre de cuarenta y cinco años con un aumento de volumen en la espalda que creció muy lento en tres años. Se palpa una masa de cuatro centímetros, blanda, móvil, indolora, no adherida a la piel ni a planos profundos, sin poro central.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: quiste epidérmico, liposarcoma, lipoma, absceso subcutáneo o adenopatía. Piénsalo.",
+        "answer": "Es la C. Blando, móvil, indoloro, lento y libre de la piel es un lipoma. El quiste epidérmico tienta, pero ese sí está pegado a la piel y suele tener un poro central. El sarcoma se sospecha si mide más de cinco centímetros, es profundo, duro o crece rápido."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.055 · Abscesos, forúnculos, panadizos, flegmones",
+      "stem": "Mujer de 32 años, sin enfermedades crónicas, consulta por 4 días de dolor y aumento de volumen en el glúteo derecho. Al examen hay una masa de 4 cm, eritematosa, caliente y fluctuante, con mínimo eritema perilesional. Está afebril y en buen estado general.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibiótico oral por 10 días y control"
+        },
+        {
+          "letter": "B",
+          "text": "Hospitalizar para antibióticos endovenosos"
+        },
+        {
+          "letter": "C",
+          "text": "Calor local y observar si drena espontáneamente"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar ecografía de partes blandas antes de cualquier tratamiento"
+        },
+        {
+          "letter": "E",
+          "text": "Drenaje quirúrgico con anestesia local, aseo de la cavidad y curaciones"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Un absceso fluctuante se trata drenándolo: incisión con anestesia local, vaciamiento y aseo de la cavidad, y curaciones. Los antibióticos por sí solos no penetran la colección y se reservan para celulitis extensa, compromiso sistémico o inmunosupresión.",
+      "say": {
+        "stem": "Mujer de treinta y dos años, sana, con cuatro días de dolor y aumento de volumen en el glúteo derecho. Hay una masa de cuatro centímetros, roja, caliente y fluctuante, con poco eritema alrededor. Está afebril y en buen estado general.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: antibiótico oral, hospitalizar para antibióticos endovenosos, calor local y observar, ecografía primero o drenaje quirúrgico con anestesia local. Piénsalo.",
+        "answer": "Es la E. Si fluctúa, hay pus, y el pus se drena. El antibiótico oral tienta, pero no llega bien a una colección encapsulada; solo se agrega si hay celulitis extensa, fiebre o un paciente inmunosuprimido."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.5.011 · Drenaje de lesiones superficiales",
+      "stem": "Hombre de 30 años, sano, consulta por una lesión dolorosa en el glúteo de 5 días. Al examen presenta un nódulo de 3 cm, eritematoso, caliente y fluctuante, sin celulitis extensa. Está afebril y sin compromiso del estado general.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibióticos orales exclusivos por 10 días"
+        },
+        {
+          "letter": "B",
+          "text": "Incisión y drenaje, con aseo de la cavidad"
+        },
+        {
+          "letter": "C",
+          "text": "Compresas tibias y control en 1 semana"
+        },
+        {
+          "letter": "D",
+          "text": "Punción con aguja fina y alta"
+        },
+        {
+          "letter": "E",
+          "text": "Resección en bloque del nódulo"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Un absceso cutáneo fluctuante se trata con incisión y drenaje amplio, rompiendo tabiques y aseando la cavidad. En abscesos simples, sin celulitis extensa, fiebre ni inmunosupresión, el drenaje suele ser suficiente; los antibióticos solos no penetran adecuadamente la colección. La punción simple tiene alta recurrencia.",
+      "say": {
+        "stem": "Hombre de treinta años, sano, con cinco días de una lesión dolorosa en el glúteo: un nódulo de tres centímetros, rojo, caliente y fluctuante, sin celulitis extensa ni fiebre.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: solo antibióticos orales, incisión y drenaje, compresas tibias y control, punción con aguja fina, o resección en bloque. Piénsalo.",
+        "answer": "Es la B. Un absceso fluctuante se drena, porque el pus no se cura con antibióticos. Los antibióticos solos tientan por ser una infección, pero no penetran bien la colección y se reservan para celulitis extensa, fiebre o inmunosupresión."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 62",
+      "stem": "Paciente de 28 años, embarazada de 28 semanas, consulta por una lesión cutánea en el dedo medio de algunas semanas de evolución, friable, que ha sangrado en varias oportunidades. Al examen se observa una pápula exofítica rojo brillante, de superficie lisa y húmeda, pediculada, con collarete descamativo en la base.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Verruga vulgar"
+        },
+        {
+          "letter": "B",
+          "text": "Granuloma piógeno"
+        },
+        {
+          "letter": "C",
+          "text": "Molusco contagioso"
+        },
+        {
+          "letter": "D",
+          "text": "Melanoma amelanótico"
+        },
+        {
+          "letter": "E",
+          "text": "Carcinoma basocelular"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Una lesión vascular roja, friable, de crecimiento rápido y sangrado fácil, con collarete, en dedos, en una embarazada, es un granuloma piógeno (hemangioma capilar lobulillar). Se trata con exéresis o curetaje con electrocoagulación y estudio histológico, para descartar un melanoma amelanótico. En el embarazo puede regresar después del parto.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Embarazada de veintiocho semanas con una lesión roja, brillante y pediculada en un dedo, que creció en semanas y sangra con facilidad.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: verruga vulgar, granuloma piógeno, molusco contagioso, melanoma amelanótico o carcinoma basocelular. Piénsalo.",
+        "answer": "Es la B. La lesión vascular friable de crecimiento rápido en una embarazada es un granuloma piógeno. El melanoma amelanótico tienta y es el diagnóstico que hay que descartar, por eso se envía la lesión a biopsia."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -258,6 +458,10 @@ module.exports = {
         { title: 'Tumores de partes blandas', tag: 'Cuatro banderas rojas', kind: 'alert', items: [
           { t: 'Grande, profunda, rápida, fija', d: 'Resonancia antes de tocar nada',
             say: 'Y si una masa mide más de cinco centímetros, es profunda, crece rápido o está fija a un plano, primero resonancia, nunca resección a ciegas.' },
+        ] },
+        { title: 'Pus y lesiones rojas', tag: 'Drenar y biopsiar', kind: 'pharma', items: [
+          { t: 'Fluctúa: se drena', d: 'Kanavel: urgencia; granuloma: biopsia',
+            say: 'Si algo fluctúa, se drena; el antibiótico solo no basta. Un dedo con signos de Kanavel es urgencia quirúrgica, y un nódulo rojo que sangra, un granuloma piogénico, se cureta y se biopsia.' },
         ] },
         { title: 'Lo simple', tag: 'Examen físico', kind: 'normal', items: [
           { t: 'Lipoma se resbala', d: 'Quiste tiene poro central',
@@ -284,6 +488,14 @@ module.exports = {
           ['Poro central visible', N('ok', 'Quiste epidérmico', 'Extirpar la cápsula completa',
             'Si está infectado, drenar primero y resecar la cápsula íntegra ya sin inflamación, para evitar la recidiva.')])],
         ['Profunda, más de 5 cm, crece rápido', N('alert', 'Sospecha de sarcoma', 'Resonancia y biopsia tru-cut',
-          'Con cualquier bandera roja, está prohibida la resección a ciegas: primero resonancia magnética, y biopsia planificada en un centro oncológico.')])]),
+          'Con cualquier bandera roja, está prohibida la resección a ciegas: primero resonancia magnética, y biopsia planificada en un centro oncológico.')],
+        ['Colección con pus, forúnculo o dedo', N('q', '¿Signos de Kanavel en el dedo?', 'Semiflexión y dolor a la extensión',
+          'Una colección fluctuante se drena, pero en el dedo primero busca los signos de Kanavel.',
+          ['Sí', N('alert', 'Tenosinovitis: urgencia', 'Derivar de inmediato',
+            'Dedo semiflexionado, edema fusiforme y dolor a la extensión pasiva: urgencia quirúrgica.')],
+          ['No', N('do', 'Incisión y drenaje', 'Antibiótico solo si hay razón',
+            'Drenaje con anestesia local; antibiótico solo si hay celulitis extensa, fiebre o inmunosupresión.')])],
+        ['Nódulo rojo friable que sangra', N('ok', 'Granuloma piogénico', 'Curetaje y biopsia',
+          'Curetaje con electrocoagulación o escisión, y siempre anatomía patológica.')])]),
   },
 };

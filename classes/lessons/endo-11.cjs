@@ -20,13 +20,15 @@ module.exports = {
       cards: [
         { title: 'Causa más frecuente', tag: 'Pregunta siempre', kind: 'alert', items: [
           { t: 'Exógena: corticoides', d: 'Orales, inyectables, tópicos o inhalados',
-            say: 'Partamos por las causas. El síndrome de Cushing es el conjunto de signos que produce una exposición prolongada a demasiado glucocorticoide. Y la causa más frecuente, por lejos, es la exógena: los corticoides que el paciente usa. Por eso, ante todo paciente cushingoide, lo primero es preguntar por corticoides orales, inyectables, cremas o inhaladores de alta potencia.' },
+            say: 'Partamos por las causas. El síndrome de Cushing es el conjunto de signos que produce una exposición prolongada a demasiado glucocorticoide. Y la causa más frecuente, por lejos, es la exógena: los corticoides que el paciente usa. Mira esta cara redonda, roja, de luna llena: esta paciente la desarrolló por corticoides inhalados. Por eso, ante todo paciente cushingoide, lo primero es preguntar por corticoides orales, inyectables, cremas o inhaladores de alta potencia.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-11/03_facies_luna_llena__commons.jpg', label: 'Facies de luna llena', at: 'Mira esta cara redonda', credit: 'Wikimedia Commons «CushingsFace.jpg», CC BY 2.5, Ozlem Celik, Mutlu Niyazoglu, Hikmet Soylu and Pinar Kadiogl' } },
           { t: 'Si los suspende de golpe', d: 'Insuficiencia suprarrenal por eje atrófico',
             say: 'Y ojo con este paciente: si suspende el corticoide bruscamente, su eje está atrofiado y hace una insuficiencia suprarrenal. Eso lo retomamos en la próxima clase.' },
         ] },
         { title: 'Endógenas, ACTH-dependientes', tag: '80–85 %', kind: 'key', items: [
           { t: 'Enfermedad de Cushing: 70–75 %', d: 'Microadenoma hipofisario productor de ACTH',
-            say: 'Entre las causas endógenas, la gran mayoría depende de la ACTH. La principal es la enfermedad de Cushing, setenta a setenta y cinco por ciento: un microadenoma de hipófisis que fabrica ACTH por su cuenta. Es cinco veces más frecuente en mujeres. Fíjate en el nombre: enfermedad de Cushing es solo la hipofisaria; síndrome de Cushing es el cuadro, venga de donde venga.' },
+            say: 'Entre las causas endógenas, la gran mayoría depende de la ACTH. La principal es la enfermedad de Cushing, setenta a setenta y cinco por ciento: un microadenoma de hipófisis que fabrica ACTH por su cuenta. Es cinco veces más frecuente en mujeres. Mira este fenotipo cushingoide. Fíjate en el nombre: enfermedad de Cushing es solo la hipofisaria; síndrome de Cushing es el cuadro, venga de donde venga.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-11/02_fenotipo-cushingoide__cto-endocrino_p76.jpg', label: 'Fenotipo cushingoide', at: 'Mira este fenotipo', credit: 'Manual CTO Endocrinología 14.ª ed., p. 76' } },
           { t: 'ACTH ectópica: 10 %', d: 'Cáncer pulmonar microcítico, carcinoides',
             say: 'La otra causa dependiente de ACTH es la secreción ectópica, cerca de un diez por ciento: un tumor fuera de la hipófisis que fabrica ACTH, sobre todo el cáncer pulmonar de células pequeñas y los carcinoides bronquiales o tímicos.' },
         ] },
@@ -75,9 +77,11 @@ module.exports = {
       cards: [
         { title: 'Más específicos', tag: 'Alta sospecha', kind: 'alert', items: [
           { t: 'Equimosis fáciles', d: 'Fragilidad capilar, hematomas espontáneos',
-            say: 'Veamos la clínica. Muchos pacientes son obesos e hipertensos, así que lo que importa son los signos que discriminan. El primero, la fragilidad capilar: equimosis y hematomas con traumatismos mínimos.' },
+            say: 'Veamos la clínica. Muchos pacientes son obesos e hipertensos, así que lo que importa son los signos que discriminan. El primero, la fragilidad capilar: mira estas equimosis extensas: equimosis y hematomas con traumatismos mínimos.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-11/01_estrias-violaceas_2__cto-endocrino_p77.jpg', label: 'Equimosis por fragilidad', at: 'mira estas equimosis', credit: 'Manual CTO Endocrinología 14.ª ed., p. 77' } },
           { t: 'Estrías violáceas anchas', d: 'Más de 1 cm: abdomen, flancos, muslos',
-            say: 'El segundo, las estrías violáceas o rojizas, anchas, de más de un centímetro, en el abdomen, los flancos, las mamas y la cara interna de los muslos. Se producen porque el cortisol degrada el colágeno de la dermis.' },
+            say: 'El segundo, las estrías violáceas o rojizas, como estas, anchas, a diferencia de las delgadas y blancas del embarazo, de más de un centímetro, en el abdomen, los flancos, las mamas y la cara interna de los muslos. Se producen porque el cortisol degrada el colágeno de la dermis.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-11/01_estrias_cushing__fitzpatrick_p1515.jpg', label: 'Estrías violáceas', at: 'como estas', credit: 'Fitzpatrick 7.ª ed., Fig. 152-15' } },
           { t: 'Miopatía proximal', d: 'No se para de la silla sin apoyarse',
             say: 'El tercero, la miopatía proximal: atrofia de cuádriceps y de la cintura pélvica. El paciente no logra pararse de una silla o subir escaleras sin apoyarse con los brazos.' },
           { t: 'Plétora facial', d: 'Cara roja',
@@ -85,7 +89,8 @@ module.exports = {
         ] },
         { title: 'Frecuentes, poco específicos', tag: 'Acompañan', kind: 'normal', items: [
           { t: 'Obesidad central, cara de luna', d: 'Giba de búfalo, grasa supraclavicular',
-            say: 'Del otro lado están los signos frecuentes pero poco específicos: la obesidad central con giba de búfalo y grasa supraclavicular, y la cara de luna llena.' },
+            say: 'Del otro lado están los signos frecuentes pero poco específicos: la obesidad central, como en este paciente, de tronco grueso y extremidades delgadas, con giba de búfalo y grasa supraclavicular, y la cara de luna llena.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-11/02_habito_cushing__bailey_p862.jpg', label: 'Obesidad central', at: 'como en este paciente', credit: 'Bailey & Love 27.ª ed., Fig. 52.5' } },
           { t: 'HTA resistente, diabetes, osteoporosis', d: 'Fracturas vertebrales por compresión',
             say: 'La hipertensión resistente, la intolerancia a la glucosa o diabetes, y la osteoporosis precoz con fracturas vertebrales.' },
           { t: 'Hirsutismo, acné, depresión', d: 'O psicosis corticoidea',
@@ -173,7 +178,8 @@ module.exports = {
         { show: ['conf', 'acth'], note: 'El primer examen de la fase 2',
           say: 'Pasemos a la fase dos. Con el hipercortisolismo confirmado, el siguiente paso obligatorio es medir la ACTH plasmática a las ocho de la mañana. Antes de cualquier imagen.' },
         { show: ['baja', 'tc'], note: 'ACTH suprimida: mira la suprarrenal',
-          say: 'Si la ACTH está baja o indetectable, bajo cinco a diez picogramos por mililitro, es un Cushing independiente de ACTH: el problema está en la suprarrenal. Ahí pides una tomografía de abdomen con protocolo suprarrenal, para caracterizar un adenoma o un carcinoma.' },
+          say: 'Si la ACTH está baja o indetectable, bajo cinco a diez picogramos por mililitro, es un Cushing independiente de ACTH: el problema está en la suprarrenal. Ahí pides una tomografía de abdomen con protocolo suprarrenal, para caracterizar un adenoma o un carcinoma. Mira estas tomografías de masas suprarrenales: el tamaño, los bordes y el contenido de la lesión son lo que decide.',
+          photo: { src: 'biblioteca/05_endocrinologia/endo-11/04_tac_masas_suprarrenales__openi.jpg', label: 'TAC de masas suprarrenales', at: 'Mira estas tomografías', credit: 'Open-i (NLM), CC BY' } },
         { show: ['alta'], note: 'ACTH alta o normal: dependiente de ACTH',
           say: 'Si la ACTH está elevada, o normal cuando debería estar frenada, sobre quince a veinte, es un Cushing dependiente de ACTH. Ochenta a ochenta y cinco por ciento de estos son hipofisarios, y el resto ectópicos.' },
         { show: ['rm'], note: 'Separar hipófisis de ectópico',
@@ -262,27 +268,6 @@ module.exports = {
           say: 'Se da un miligramo de dexametasona a las once de la noche. En el sano, el cortisol de la mañana cae bajo uno coma ocho. En el Cushing no se suprime: esa barra roja que se mantiene alta es el diagnóstico.' },
       ],
     },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'El síndrome de Cushing',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-11/03_facies_luna_llena__commons.jpg', label: 'Facies de luna llena', credit: 'Wikimedia Commons «CushingsFace.jpg», CC BY 2.5, Ozlem Celik, Mutlu Niyazoglu, Hikmet Soylu and Pinar Kadiogl' },
-        { src: 'biblioteca/05_endocrinologia/endo-11/01_estrias_cushing__fitzpatrick_p1515.jpg', label: 'Estrías violáceas', credit: 'Fitzpatrick 7.ª ed., Fig. 152-15' },
-        { src: 'biblioteca/05_endocrinologia/endo-11/02_habito_cushing__bailey_p862.jpg', label: 'Obesidad central', credit: 'Bailey & Love 27.ª ed., Fig. 52.5' },
-      ],
-      steps: [
-        { note: 'Cara redonda y roja',
-          say: 'La cara redonda, roja, de luna llena. Esta paciente lo desarrolló por corticoides inhalados: el Cushing iatrogénico es el más frecuente.' },
-        { note: 'Anchas y violáceas',
-          say: 'Las estrías del Cushing son anchas, de más de un centímetro, y violáceas. Las estrías del embarazo o del aumento de peso son delgadas y blancas.' },
-        { note: 'Tronco grueso, extremidades delgadas',
-          say: 'Y la obesidad es central: tronco grueso con extremidades delgadas, por la pérdida de masa muscular.' },
-      ],
-    },
-
     {
       type: 'image',
       layout: 'gallery',
@@ -290,16 +275,10 @@ module.exports = {
       title: 'Más imágenes del tema',
       images: [
         { src: 'biblioteca/05_endocrinologia/endo-11/01_estrias-violaceas_1__cto-endocrino_p77.jpg', label: 'Estrías violáceas', credit: 'Manual CTO Endocrinología 14.ª ed., p. 77' },
-        { src: 'biblioteca/05_endocrinologia/endo-11/01_estrias-violaceas_2__cto-endocrino_p77.jpg', label: 'Equimosis por fragilidad cutánea', credit: 'Manual CTO Endocrinología 14.ª ed., p. 77' },
-        { src: 'biblioteca/05_endocrinologia/endo-11/02_fenotipo-cushingoide__cto-endocrino_p76.jpg', label: 'Fenotipo cushingoide', credit: 'Manual CTO Endocrinología 14.ª ed., p. 76' },
       ],
       steps: [
         { note: 'Estrías violáceas',
           say: 'Mira esta imagen: estrías violáceas. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Equimosis por fragilidad cutánea',
-          say: 'En el Cushing la piel es delgada y frágil: aparecen equimosis extensas con traumas mínimos.' },
-        { note: 'Fenotipo cushingoide',
-          say: 'Mira esta imagen: fenotipo cushingoide. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],
     },
 
@@ -463,6 +442,81 @@ module.exports = {
         options: 'Las opciones: ketoconazol, hidrocortisona de reemplazo, espironolactona, radioyodo, u observar sin fármacos. Piénsalo.',
         answer: 'Es la B, hidrocortisona. La suprarrenal izquierda lleva años sin ACTH y está atrófica; al sacar el adenoma, la paciente queda sin cortisol y puede hacer una crisis suprarrenal. El distractor tentador es observar, pensando que la otra glándula va a responder de inmediato, pero tarda seis a doce meses en recuperarse.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.4.007 · Cortisol libre 24 horas",
+      "stem": "Mujer de 28 años, usuaria de anticonceptivos orales combinados hace 3 años, consulta por aumento de peso, acné e hipertensión reciente. Se sospecha síndrome de Cushing. Test de Nugent (1 mg de dexametasona a las 23 h): cortisol a las 8 h de 3,4 mcg/dL. No es posible suspender los anticonceptivos por 6 semanas.",
+      "question": "¿Cuál es el examen más adecuado para continuar el tamizaje?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cortisol libre urinario de 24 horas"
+        },
+        {
+          "letter": "B",
+          "text": "Cortisol plasmático a las 8 horas"
+        },
+        {
+          "letter": "C",
+          "text": "Repetir el test de Nugent con 2 mg de dexametasona"
+        },
+        {
+          "letter": "D",
+          "text": "ACTH plasmática"
+        },
+        {
+          "letter": "E",
+          "text": "Resonancia magnética de silla turca"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Los estrógenos elevan la globulina transportadora de cortisol (CBG) y el cortisol plasmático total, dando falsos positivos en el test de Nugent. El cortisol libre urinario de 24 horas mide la fracción libre y no se afecta; se piden 2 muestras con creatininuria. La ACTH y la imagen van después de confirmar el hipercortisolismo.",
+      "say": {
+        "stem": "Mujer de veintiocho años, usuaria de anticonceptivos orales, con sospecha de Cushing. Su test de Nugent no suprime bien, con un cortisol de tres coma cuatro, y no puede suspender los anticonceptivos.",
+        "question": "¿Cuál es el examen más adecuado para continuar el tamizaje?",
+        "options": "Las opciones: cortisol libre urinario de veinticuatro horas, cortisol plasmático matinal, Nugent con dos miligramos, ACTH o resonancia de silla turca. Piénsalo.",
+        "answer": "Es la A. Los anticonceptivos suben la proteína que transporta el cortisol, y el Nugent puede salir falsamente alterado; el cortisol libre en orina de veinticuatro horas mide solo la fracción libre y no se afecta. La ACTH tienta, pero se pide después de confirmar el hipercortisolismo, no para tamizarlo."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.4.006 · Cortisol plasmático",
+      "stem": "Hombre de 46 años con obesidad, hipertensión y DM2 de difícil control. Su médico sospecha síndrome de Cushing y solicita un cortisol plasmático a las 8 h, que resulta 21 mcg/dL (VN 5–25). Al examen no tiene estrías violáceas, miopatía proximal ni equimosis.",
+      "question": "¿Cuál es la interpretación más adecuada de este resultado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Descarta el síndrome de Cushing"
+        },
+        {
+          "letter": "B",
+          "text": "No sirve para el tamizaje; se debe solicitar test de Nugent, cortisol libre urinario de 24 horas o cortisol salival nocturno"
+        },
+        {
+          "letter": "C",
+          "text": "Confirma el síndrome de Cushing"
+        },
+        {
+          "letter": "D",
+          "text": "Indica insuficiencia suprarrenal relativa"
+        },
+        {
+          "letter": "E",
+          "text": "Obliga a solicitar TC de suprarrenales"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Un cortisol plasmático matinal aislado no diagnostica ni descarta Cushing: en la mañana el cortisol normal está en su peak y se superpone con el hipercortisolismo. El Cushing pierde la supresión y el ritmo circadiano, por eso se tamiza con Nugent, cortisol libre urinario o cortisol salival nocturno. El cortisol matinal sirve en la insuficiencia suprarrenal.",
+      "say": {
+        "stem": "Hombre de cuarenta y seis años, obeso, hipertenso y diabético mal controlado. Se sospecha Cushing y se pide un cortisol plasmático a las ocho de la mañana, que resulta veintiuno, dentro de lo normal.",
+        "question": "¿Cuál es la interpretación más adecuada de este resultado?",
+        "options": "Las opciones: descarta Cushing, no sirve para el tamizaje, confirma Cushing, insuficiencia suprarrenal relativa o obliga a pedir TAC. Piénsalo.",
+        "answer": "Es la B. El cortisol de la mañana está alto en cualquier persona, así que un valor matinal aislado no distingue al Cushing; lo que el Cushing pierde es la supresión y el ritmo nocturno. Decir que lo descarta tienta porque el valor es normal, pero un cortisol matinal normal no descarta nada."
+      }
     },
 
     {

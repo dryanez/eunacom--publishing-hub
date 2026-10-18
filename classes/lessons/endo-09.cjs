@@ -68,7 +68,8 @@ module.exports = {
         { show: ['sup', 'cin'], note: 'TSH suprimida: el nódulo podría ser autónomo',
           say: 'Si la TSH está suprimida, bajo cero coma cuatro, hay hiperfunción. Y como vimos en Graves, cuando hay hiperfunción la pregunta la responde el cintigrama: queremos saber si el nódulo capta más que el resto.' },
         { show: ['cal'], note: 'Caliente = autónomo = prácticamente nunca maligno',
-          say: 'Si el nódulo es caliente, es autónomo, y su riesgo de cáncer es menor al uno por ciento. Por eso no se punciona: se deriva a tratar el hipertiroidismo. Esa es la gran excepción del tema.' },
+          say: 'Si el nódulo es caliente, como en este cintigrama que capta todo el yodo y apaga el resto, es autónomo, y su riesgo de cáncer es menor al uno por ciento. Por eso no se punciona: se deriva a tratar el hipertiroidismo. Esa es la gran excepción del tema.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-09/03_gammagrafia-nodulo-caliente__amir-endocrino_p44.jpg', label: 'Gammagrafía: nódulo caliente', at: 'como en este cintigrama', credit: 'Manual AMIR Endocrinología, p. 44' } },
         { show: ['nor', 'eco'], note: 'TSH normal o alta: la ecografía estratifica el riesgo',
           say: 'Si la TSH es normal, o incluso elevada, el siguiente paso es la ecografía tiroidea de alta resolución, con la clasificación TI-RADS. Fíjate que dije normal o elevada: una TSH alta tampoco te lleva al cintigrama.' },
         { show: ['tra'], note: 'Con TSH normal, el cintigrama no aporta',
@@ -85,13 +86,15 @@ module.exports = {
           { t: 'Sólido', d: 'O casi completamente sólido',
             say: 'La ecografía es la imagen de elección, y el sistema TI-RADS le asigna puntos a cinco características: composición, ecogenicidad, forma, márgenes y focos ecogénicos. Veamos los signos de alta sospecha. El primero: el nódulo sólido o casi completamente sólido.' },
           { t: 'Marcadamente hipoecogénico', d: 'Más oscuro que el músculo pretiroideo',
-            say: 'El segundo, la marcada hipoecogenicidad: el nódulo se ve más oscuro que la musculatura que está por delante de la tiroides.' },
+            say: 'El segundo, la marcada hipoecogenicidad: mira este TI-RADS cinco, el nódulo se ve más oscuro que la musculatura que está por delante de la tiroides.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-09/04_nodulo_ti-rads_5__rumack_p738.jpg', label: 'Nódulo TI-RADS 5', at: 'mira este TI-RADS cinco', credit: 'Rumack, Diagnostic Ultrasound, p. 738' } },
           { t: 'Más alto que ancho', d: 'Eje anteroposterior mayor que el transversal',
             say: 'El tercero, la forma más alto que ancho en el corte transversal. Un nódulo benigno crece empujando los tejidos en el plano; uno maligno los atraviesa.' },
           { t: 'Márgenes irregulares o espiculados', d: 'O extensión extratiroidea',
             say: 'El cuarto, los márgenes irregulares, espiculados o microlobulados, o la extensión fuera de la tiroides.' },
           { t: 'Microcalcificaciones', d: 'Menores de 1 mm, sin sombra acústica',
-            say: 'Y el quinto, las microcalcificaciones: puntos brillantes de menos de un milímetro, sin sombra acústica. Son los cuerpos de psamoma del carcinoma papilar vistos por ecografía.' },
+            say: 'Y el quinto, las microcalcificaciones. Mira este nódulo sospechoso: hipoecogénico, de bordes irregulares, más alto que ancho, con puntos brillantes de menos de un milímetro, sin sombra acústica. Son los cuerpos de psamoma del carcinoma papilar vistos por ecografía.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-09/01_nodulo-con-criterios-de-malignidad-eco-d__amir-endocrino_p46.jpg', label: 'Nódulo sospechoso', at: 'Mira este nódulo sospechoso', credit: 'Manual AMIR Endocrinología, p. 46' } },
         ] },
         { title: 'Benignidad', tag: 'Tranquiliza', kind: 'normal', items: [
           { t: 'Aspecto espongiforme', d: 'Más del 50 % en microquistes',
@@ -195,6 +198,51 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Bocio',
+      title: 'Bocio: qué es y cómo se estudia',
+      cards: [
+        { title: 'Qué es y de qué tipo', tag: 'Aumento de la glándula', kind: 'key', items: [
+          { t: 'Bocio: volumen sobre 18 mL en mujer, 25 en hombre', d: 'Difuso, uninodular o multinodular',
+            say: 'Un último tema que va de la mano del nódulo: el bocio. Es cualquier aumento de volumen de la tiroides, y se clasifica por su forma, por su función y por su extensión, si es cervical o se mete detrás del esternón.' },
+          { t: 'El multinodular es el más frecuente', d: 'Mujer mayor de 50 años',
+            say: 'La causa más frecuente en adultos es el bocio multinodular: mira esta ecografía, con nódulos de distinto aspecto, y este paciente con el bocio visible a simple vista. Sobre todo en mujeres mayores de cincuenta años. Hashimoto da un bocio difuso, firme y lobulado, y Graves uno difuso con soplo. El bocio por falta de yodo hoy es raro en Chile, porque la sal viene yodada.',
+            photos: [
+              { src: 'biblioteca/05_endocrinologia/endo-09/02_bocio-multinodular-eco_1__amir-endocrino_p40.jpg', label: 'Bocio multinodular', at: 'mira esta ecografía', credit: 'Manual AMIR Endocrinología, p. 40' },
+              { src: 'biblioteca/05_endocrinologia/endo-09/03_bocio_multinodular_grande__bailey_p827.jpg', label: 'Bocio grande, visible', at: 'y este paciente', credit: 'Bailey & Love, p. 827' },
+            ] },
+        ] },
+        { title: 'Estudio', tag: 'Función primero', kind: 'criteria', items: [
+          { t: 'Siempre TSH', d: 'Con T4 libre si está alterada',
+            say: 'El estudio parte igual que con el nódulo: primero la TSH, con T cuatro libre si está alterada. Los anticuerpos antiTPO se piden si la TSH está elevada o el bocio es difuso y firme.' },
+          { t: 'Ecografía, y cada nódulo por separado', d: 'TI-RADS y PAAF según criterios',
+            say: 'Luego ecografía, para medir el volumen y estudiar los nódulos: mira otra, con la glándula aumentada y nódulos de distinto aspecto. Cada uno se evalúa con sus propios criterios, no solo el más grande. Y si la TSH está baja, cintigrama: zonas calientes y frías hablan de un bocio multinodular tóxico.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-09/02_bocio-multinodular-eco_2__amir-endocrino_p40.jpg', label: 'Ecografía multinodular', at: 'mira otra', credit: 'Manual AMIR Endocrinología, p. 40' } },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Bocio',
+      title: 'Bocio: compresión, tratamiento y derivación',
+      cards: [
+        { title: 'Síntomas compresivos', tag: 'Se buscan dirigidamente', kind: 'alert', items: [
+          { t: 'Disnea, disfagia, disfonía', d: 'La disnea empeora acostado',
+            say: 'Ahora, lo que cambia la conducta: la compresión. Pregunta por disnea o ruido al respirar, que empeora al acostarse, por disfagia y por disfonía. La disfonía hace sospechar compromiso del nervio recurrente o un cáncer.' },
+          { t: 'Pemberton: brazos arriba', d: 'Cara congestiva y yugulares ingurgitadas',
+            say: 'La maniobra de Pemberton la haces en la consulta: pides al paciente que eleve ambos brazos sobre la cabeza. Si aparece congestión de la cara e ingurgitación yugular, hay un bocio endotorácico. Con compresión se pide tomografía de cuello y tórax, sin contraste yodado, y espirometría.' },
+        ] },
+        { title: 'Conducta', tag: 'Qué haces tú', kind: 'pharma', items: [
+          { t: 'Pequeño y asintomático: control', d: 'TSH y ecografía cada 1 a 2 años',
+            say: 'Si el bocio es pequeño, asintomático y sin nódulos sospechosos, se controla con TSH y ecografía cada uno a dos años. No se da levotiroxina para reducirlo en zonas con suficiente yodo, porque sirve poco y arriesga hipertiroidismo, fibrilación auricular y osteoporosis. Sí se trata la causa, por ejemplo el hipotiroidismo del Hashimoto.' },
+          { t: 'Compresión o nódulo sospechoso: derivar', d: 'Tiroidectomía total en el compresivo',
+            say: 'Derivas si hay síntomas compresivos, extensión endotorácica, crecimiento progresivo, un nódulo sospechoso, hipertiroidismo o un problema estético importante. El tratamiento definitivo del bocio compresivo es la tiroidectomía total, y el radioyodo es una alternativa en el adulto mayor con alto riesgo quirúrgico.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -205,40 +253,6 @@ module.exports = {
       steps: [
         { note: 'TSH primero; TI-RADS y tamaño',
           say: 'El primer examen es la TSH. Si está baja, cintigrama: el nódulo caliente no se punciona, se trata el hipertiroidismo. Si es normal, ecografía con TI-RADS: mientras más sospechoso, más chico el tamaño que obliga a puncionar. Y con la TSH normal, nunca cintigrama.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'El nódulo tiroideo en la ecografía',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-09/01_nodulo-con-criterios-de-malignidad-eco-d__amir-endocrino_p46.jpg', label: 'Nódulo sospechoso', credit: 'Manual AMIR Endocrinología, p. 46' },
-        { src: 'biblioteca/05_endocrinologia/endo-09/02_bocio-multinodular-eco_1__amir-endocrino_p40.jpg', label: 'Bocio multinodular', credit: 'Manual AMIR Endocrinología, p. 40' },
-      ],
-      steps: [
-        { note: 'Hipoecogénico, bordes irregulares',
-          say: 'Este nódulo es sospechoso: hipoecogénico, de bordes irregulares, más alto que ancho y con microcalcificaciones. Esos criterios deciden la punción.' },
-        { note: 'Varios nódulos',
-          say: 'Y este es un bocio multinodular: varios nódulos en ambos lóbulos. Se evalúa cada uno por sus características, no solo el más grande.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-09/02_bocio-multinodular-eco_2__amir-endocrino_p40.jpg', label: 'Ecografía de bocio multinodular', credit: 'Manual AMIR Endocrinología, p. 40' },
-        { src: 'biblioteca/05_endocrinologia/endo-09/03_gammagrafia-nodulo-caliente__amir-endocrino_p44.jpg', label: 'Gammagrafía: nódulo caliente', credit: 'Manual AMIR Endocrinología, p. 44' },
-      ],
-      steps: [
-        { note: 'Ecografía de bocio multinodular',
-          say: 'Ecografía de un bocio multinodular: glándula aumentada con nódulos de distinto aspecto.' },
-        { note: 'Gammagrafía: nódulo caliente',
-          say: 'Este es un nódulo caliente en el cintigrama: capta todo el yodo y el resto de la glándula queda apagada. Es autónomo, su riesgo de cáncer es menor al uno por ciento, y no se punciona: se trata el hipertiroidismo.' },
       ],
     },
 
@@ -265,6 +279,8 @@ module.exports = {
           say: 'Bethesda dos: control ecográfico. No se opera.' },
         { cells: ['Bethesda IV', 'Hemitiroidectomía diagnóstica', 'Repetir PAAF u observar'],
           say: 'Y Bethesda cuatro: hemitiroidectomía diagnóstica. Repetir la punción no sirve, porque ninguna aguja va a mostrarte la cápsula.' },
+        { cells: ['Bocio con disnea o disfagia', 'TSH, ecografía, TC sin yodo y derivar', 'Levotiroxina para reducirlo'],
+          say: 'Bocio con disnea, disfagia o signo de Pemberton: estudia con TSH y ecografía, pide tomografía sin contraste yodado y deriva. El error es dar levotiroxina para achicarlo.' },
       ],
     },
 
@@ -361,6 +377,82 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.4.001 · Ecografía tiroídea",
+      "stem": "Mujer de 44 años, eutiroidea (TSH 1,8 mUI/L), sin antecedentes de radiación. Se palpa un nódulo en el lóbulo izquierdo. La ecografía tiroidea muestra un nódulo sólido de 1,3 cm, marcadamente hipoecogénico, más alto que ancho, de bordes irregulares y con microcalcificaciones, sin adenopatías cervicales.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Control ecográfico en 12 meses, porque mide menos de 2 cm"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar levotiroxina para frenar el crecimiento"
+        },
+        {
+          "letter": "C",
+          "text": "Cintigrafía tiroidea"
+        },
+        {
+          "letter": "D",
+          "text": "Tiroidectomía total sin estudio citológico"
+        },
+        {
+          "letter": "E",
+          "text": "Punción aspirativa con aguja fina guiada por ecografía"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La ecografía es el examen que estratifica el riesgo del nódulo. Hipoecogenicidad marcada, forma más alta que ancha, bordes irregulares y microcalcificaciones son signos de sospecha alta (TI-RADS 5): se indica PAAF desde 1 cm. La cintigrafía solo se pide con TSH baja, y no se opera sin citología.",
+      "say": {
+        "stem": "Mujer de cuarenta y cuatro años, eutiroidea, con un nódulo tiroideo de uno coma tres centímetros. En la ecografía es sólido, muy hipoecogénico, más alto que ancho, de bordes irregulares y con microcalcificaciones.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: control en doce meses, levotiroxina, cintigrafía, tiroidectomía sin citología o punción con aguja fina guiada por ecografía. Piénsalo.",
+        "answer": "Es la E. Este nódulo reúne los signos ecográficos de alta sospecha, y con ellos se punciona desde un centímetro. El control tienta porque mide menos de dos centímetros, pero ese corte vale para nódulos de baja sospecha, no para uno con microcalcificaciones y forma más alta que ancha."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.1.001 · Bocio",
+      "stem": "Una mujer de 35 años consulta por aumento de volumen cervical anterior difuso, indoloro y de crecimiento lento. No tiene síntomas de hipo ni de hipertiroidismo, ni síntomas compresivos. Al examen la tiroides está aumentada de tamaño en forma simétrica, blanda, sin nódulos palpables.",
+      "question": "¿Cuál es el examen inicial más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TSH"
+        },
+        {
+          "letter": "B",
+          "text": "Punción aspirativa con aguja fina (PAAF) de tiroides"
+        },
+        {
+          "letter": "C",
+          "text": "Cintigrama tiroideo"
+        },
+        {
+          "letter": "D",
+          "text": "TAC de cuello"
+        },
+        {
+          "letter": "E",
+          "text": "Tiroglobulina"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Ante todo bocio, lo primero es evaluar la función tiroidea con TSH (y T4 libre si está alterada), porque define la conducta. La ecografía tiroidea complementa la evaluación morfológica y de nódulos. La PAAF solo se indica en nódulos según criterios ecográficos, y el cintigrama en hipertiroidismo con TSH suprimida.",
+      "say": {
+        "stem": "Una mujer de treinta y cinco años tiene un aumento de volumen cervical difuso, indoloro y de crecimiento lento, sin síntomas de disfunción tiroidea ni compresión. La tiroides está aumentada en forma simétrica y sin nódulos.",
+        "question": "¿Cuál es el examen inicial más adecuado?",
+        "options": "Las opciones: TSH, punción tiroidea, cintigrama, TAC de cuello o tiroglobulina. Piénsalo.",
+        "answer": "Es la A. Ante cualquier bocio, primero se mide la TSH para conocer la función tiroidea, y luego se complementa con ecografía. La punción tienta, pero se reserva para nódulos con criterios ecográficos."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -370,6 +462,8 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Ante un nódulo, primero TSH. Si está suprimida, cintigrama, y el nódulo caliente no se punciona.' },
           { t: 'TSH normal o alta: ecografía', d: 'Nunca cintigrama con TSH normal',
             say: 'Si la TSH es normal o alta, ecografía con TI-RADS, y nunca cintigrama.' },
+          { t: 'Bocio: TSH, ecografía y buscar compresión', d: 'Sin levotiroxina para reducirlo',
+            say: 'Y ante un bocio, TSH y ecografía, busca compresión, y no des levotiroxina para reducirlo.' },
         ] },
         { title: 'PAAF', tag: 'Tamaño y sospecha', kind: 'criteria', items: [
           { t: 'TR5 desde 1 cm, TR4 desde 1,5, TR3 desde 2,5', d: 'TR1 y TR2: nunca',

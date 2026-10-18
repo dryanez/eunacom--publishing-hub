@@ -75,7 +75,8 @@ module.exports = {
       cards: [
         { title: 'Head Impulse', tag: 'La paradoja', kind: 'alert', items: [
           { t: 'Girar rápido la cabeza 10–20°', d: 'El paciente mira tu nariz',
-            say: 'La primera es el impulso cefálico, o maniobra de Halmagyi. El paciente mira tu nariz y tú le giras la cabeza rápido, diez a veinte grados, hacia un lado. Evalúa el reflejo vestíbulo-ocular.' },
+            say: 'La primera es el impulso cefálico, o maniobra de Halmagyi. El paciente mira tu nariz y tú le giras la cabeza rápido, diez a veinte grados, hacia un lado. Evalúa el reflejo vestíbulo-ocular. Mira estos registros del impulso cefálico: en el periférico, el ojo no acompaña al giro y aparecen sacadas correctivas.',
+            photo: { src: '_web/159_neuro_Vértigo__Open-i_2.jpg', label: 'Registro impulso cefálico', at: 'Mira estos registros', credit: 'Open-i (NLM), CC BY' } },
           { t: 'Periférico: sacada correctiva', d: 'El reflejo está dañado: test anormal',
             say: 'En la neuronitis vestibular el reflejo está dañado: los ojos se van con la cabeza y luego vuelven con una sacada rápida a tu nariz. El test sale anormal.' },
           { t: 'Normal en vértigo continuo: ACV', d: 'Los ojos se quedan fijos',
@@ -118,11 +119,27 @@ module.exports = {
         { show: ['pos'], note: 'Segundos, siempre con un cambio de posición',
           say: 'Por eso la clínica es tan característica: crisis de vértigo muy intensas pero muy breves, de menos de un minuto, típicamente diez a treinta segundos, gatilladas por acostarse, darse vuelta en la cama o mirar hacia arriba. Sin hipoacusia, sin tinnitus y sin focalidad.' },
         { show: ['dix'], note: 'La maniobra que lo confirma',
-          say: 'Se confirma con la maniobra de Dix-Hallpike: se lleva al paciente de sentado a acostado, con la cabeza girada cuarenta y cinco grados y colgando bajo la camilla. Tras una latencia de dos a diez segundos aparece el vértigo con un nistagmo torsional y hacia arriba, que dura menos de un minuto y se fatiga al repetir.' },
+          say: 'Se confirma con la maniobra de Dix-Hallpike: se lleva al paciente de sentado a acostado, con la cabeza girada cuarenta y cinco grados y colgando bajo la camilla. Tras una latencia de dos a diez segundos aparece el vértigo con un nistagmo torsional y hacia arriba, que dura menos de un minuto y se fatiga al repetir. Mira esta secuencia: de sentado a acostado, con la cabeza girada y colgando.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-20/02_dix_hallpike__usuario.jpg', label: 'Maniobra de Dix-Hallpike', at: 'Mira esta secuencia', credit: 'Fotografía propia del curso' } },
         { show: ['epl'], note: 'Se cura en la consulta',
-          say: 'Y se cura en la misma consulta con la maniobra de reposición de Epley: una secuencia de giros de la cabeza que devuelve los cristales al utrículo. Resuelve más del ochenta a noventa por ciento en la primera sesión.' },
+          say: 'Y se cura en la misma consulta con la maniobra de reposición de Epley: una secuencia de giros de la cabeza que devuelve los cristales al utrículo. Resuelve más del ochenta a noventa por ciento en la primera sesión. Y esta es la secuencia de Epley, giro por giro.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-20/01_maniobra_epley__harrison_p202.jpg', label: 'Maniobra de Epley', at: 'Y esta es la secuencia', credit: 'Harrison, Principios de Medicina Interna, p. 202' } },
         { show: ['no'], note: 'La trampa clásica',
           say: 'Y la trampa: en el VPPB no se piden TAC ni resonancia, y no se indican sedantes vestibulares. Ni cinarizina, ni betahistina, ni dimenhidrinato. Los fármacos no mueven cristales y además retrasan la compensación.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Los cristales que se salen de lugar',
+      images: [
+        { src: 'animaciones/neuro-20/A1_vppb_cristales.mp4', label: 'VPPB: cristales en el canal posterior', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Cristales en el canal posterior',
+          say: 'Mira el oído interno. Los otolitos, cristales de carbonato de calcio, se sueltan y caen al canal posterior; con cada cambio de posición se mueven y dan vértigo de segundos. Dix-Hallpike los desplaza y confirma el diagnóstico. Epley los devuelve al utrículo.' },
       ],
     },
 
@@ -149,24 +166,33 @@ module.exports = {
         ] },
       ],
     },
-
     {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Vértigo posicional',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-20/02_dix_hallpike__usuario.jpg', label: 'Dix-Hallpike', credit: 'Aportada por el usuario (fuente web, licencia por verificar)' },
-        { src: 'biblioteca/09_neurologia/neuro-20/01_maniobra_epley__harrison_p202.jpg', label: 'Epley', credit: 'Harrison 21.ª ed., p. 202' },
-      ],
-      steps: [
-        { note: 'Diagnostica el VPPB',
-          say: 'La maniobra de Dix Hallpike: se gira la cabeza cuarenta y cinco grados y se acuesta al paciente con la cabeza colgando. Si aparece vértigo y nistagmo, es un vértigo posicional.' },
-        { note: 'Trata el VPPB',
-          say: 'Y la maniobra de Epley lo trata: una secuencia de giros que devuelve los otolitos a su lugar.' },
+      type: 'points',
+      kicker: 'Síndrome atáxico',
+      title: 'Ataxia: cerebelosa, sensitiva o vestibular',
+      cards: [
+        { title: 'Cerebelosa', tag: 'Romberg negativo', kind: 'key', items: [
+          { t: 'Dismetría, temblor intencional, nistagmo', d: 'Disartria escandida, hipotonía',
+            say: 'La ataxia es incoordinación del movimiento y de la marcha que no se explica por debilidad. La cerebelosa tiene dismetría, el dedo nariz y el talón rodilla se pasan, disdiadococinesia, temblor intencional, hipotonía, nistagmo y disartria escandida. El Romberg es negativo.' },
+          { t: 'Hemisferio: ipsilateral · vermis: marcha', d: 'Base amplia, marcha de ebrio',
+            say: 'Las lesiones hemisféricas dan ataxia de las extremidades del mismo lado, y las del vermis, ataxia del tronco y de la marcha, con base de sustentación amplia, la marcha de ebrio. Mira esta resonancia sagital: la atrofia cerebelosa de una ataxia espinocerebelosa hereditaria.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-20/03_atrofia_cerebelosa_sca1_rm__harrison_p3465.jpg', label: 'Atrofia cerebelosa (SCA1)', at: 'Mira esta resonancia sagital', credit: 'Harrison, Principios de Medicina Interna 21.ª ed., Fig. 439-1' } },
+        ] },
+        { title: 'Otros tipos', tag: 'Distinguir', kind: 'criteria', items: [
+          { t: 'Sensitiva: empeora sin ver', d: 'Romberg positivo; B12, tabes, neuropatías',
+            say: 'La ataxia sensitiva, de cordones posteriores y nervios, empeora al cerrar los ojos: Romberg positivo, marcha taloneante que mira el suelo, pérdida de posición y vibración y arreflexia. Se ve en déficit de vitamina B doce, neurosífilis, polineuropatías y ganglionopatías paraneoplásicas.' },
+          { t: 'Vestibular y frontal', d: 'Lateropulsión · marcha que no parte',
+            say: 'La vestibular da lateropulsión hacia el lado lesionado, con vértigo y nistagmo. Y la frontal, dificultad para iniciar la marcha con la fuerza conservada, típica de la hidrocefalia normotensiva.' },
+        ] },
+        { title: 'Causas y conducta', tag: 'Qué hacer', kind: 'alert', items: [
+          { t: 'Aguda con cefalea o vómitos: TAC urgente', d: 'Infarto o hematoma cerebeloso',
+            say: 'Una ataxia aguda, sobre todo con cefalea, vómitos, compromiso de conciencia o signos de tronco, exige TAC urgente: es un infarto o un hematoma cerebeloso hasta demostrar lo contrario, una emergencia por el edema y la hidrocefalia. También alcohol y fármacos como fenitoína, carbamazepina, litio y benzodiacepinas.' },
+          { t: 'Subaguda y crónica', d: 'Tumor, paraneoplásica, alcohol, B12, tiroides, celíaca',
+            say: 'Si es subaguda, piensa en tumores y en síndromes paraneoplásicos, como el anti Yo en cáncer de mama y ovario. Si es crónica: alcoholismo, hipotiroidismo, déficit de vitamina B doce, E o tiamina, enfermedad celíaca, esclerosis múltiple y ataxias hereditarias. Corriges lo reversible, pides resonancia, kinesioterapia, y derivas a neurología.' },
+        ] },
       ],
     },
+
 
     {
       type: 'pathway',
@@ -286,6 +312,82 @@ module.exports = {
         options: 'Las opciones: enfermedad de Menière, VPPB, neuritis vestibular, ACV de fosa posterior, o schwannoma vestibular. Piénsalo.',
         answer: 'Es la A, enfermedad de Menière. Episodios de horas, con hipoacusia y tinnitus fluctuantes del mismo lado. El schwannoma vestibular tienta por la hipoacusia y el tinnitus unilaterales, pero es progresivo, no da crisis de vértigo de horas que van y vienen. Fíjate cómo en las tres preguntas la duración ordenó el diagnóstico: segundos, días y horas.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.1.025 · Síndromes vertiginosos periféricos",
+      "stem": "Mujer de 57 años con 5 días de episodios de vértigo rotatorio intenso de menos de 1 minuto, que aparecen al darse vuelta en la cama o al mirar hacia arriba, con náuseas. Sin hipoacusia, tinnitus ni síntomas neurológicos. Examen neurológico normal. Maniobra de Dix-Hallpike derecha: tras una latencia de 5 segundos, nistagmo torsional geotrópico y vertical hacia arriba, que dura 20 segundos y se agota al repetirla.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Betahistina 24 mg cada 12 horas por 3 meses"
+        },
+        {
+          "letter": "B",
+          "text": "Dimenhidrinato diario por 3 semanas"
+        },
+        {
+          "letter": "C",
+          "text": "RM de encéfalo urgente"
+        },
+        {
+          "letter": "D",
+          "text": "Prednisona oral por 10 días"
+        },
+        {
+          "letter": "E",
+          "text": "Maniobra de reposición de Epley"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Vértigo posicional breve con Dix-Hallpike positivo (latencia, nistagmo torsional geotrópico, duración menor de 1 minuto y fatigable): vértigo posicional paroxístico benigno del canal semicircular posterior derecho. Se trata con la maniobra de reposición de Epley, efectiva en la mayoría con 1 o 2 sesiones. Los sedantes vestibulares retrasan la compensación; no requiere imagen.",
+      "say": {
+        "stem": "Una mujer de cincuenta y siete años tiene episodios de vértigo de segundos al darse vuelta en la cama. La maniobra de Dix Hallpike a derecha provoca, tras una breve latencia, nistagmo torsional que se agota, con examen neurológico normal.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: betahistina por tres meses, dimenhidrinato por tres semanas, resonancia urgente, prednisona oral o maniobra de Epley. Piénsalo.",
+        "answer": "Es la E. Es un vértigo posicional paroxístico benigno del canal posterior, y la maniobra de Epley reposiciona los otolitos y lo resuelve. El dimenhidrinato tienta para las náuseas, pero mantenido por semanas retrasa la compensación vestibular."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.1.018 · Síndrome atáxico",
+      "stem": "Hombre de 68 años, hipertenso, presenta en forma súbita vértigo, vómitos, cefalea occipital e imposibilidad de mantenerse de pie. Al examen tiene dismetría en la prueba índice-nariz y disdiadococinesia derechas, marcha con lateralización a derecha y nistagmo que cambia de dirección con la mirada.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Maniobra de Epley"
+        },
+        {
+          "letter": "B",
+          "text": "Betahistina y control ambulatorio"
+        },
+        {
+          "letter": "C",
+          "text": "Corticoides por neuronitis vestibular"
+        },
+        {
+          "letter": "D",
+          "text": "Audiometría"
+        },
+        {
+          "letter": "E",
+          "text": "Neuroimagen urgente (TAC o resonancia de cerebro) por sospecha de lesión cerebelosa"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Un síndrome atáxico agudo con dismetría y disdiadococinesia ipsilaterales, cefalea y nistagmo que cambia de dirección es de origen central: debe descartarse hemorragia o infarto cerebeloso con neuroimagen urgente, porque el edema puede comprimir el tronco y causar hidrocefalia, requiriendo cirugía. Epley y betahistina son para cuadros periféricos.",
+      "say": {
+        "stem": "Hombre de sesenta y ocho años, hipertenso, con vértigo súbito, cefalea occipital, dismetría derecha y nistagmo que cambia de dirección.",
+        "question": "¿Qué haces?",
+        "options": "Las opciones: maniobra de Epley, betahistina, corticoides, audiometría o neuroimagen urgente. Piénsalo.",
+        "answer": "Es la E. Neuroimagen urgente, porque los signos cerebelosos y el nistagmo que cambia de dirección indican causa central. La betahistina tienta por el vértigo, pero es para cuadros periféricos."
+      }
     },
 
     {

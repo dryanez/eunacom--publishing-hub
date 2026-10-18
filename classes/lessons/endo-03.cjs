@@ -56,7 +56,8 @@ module.exports = {
       cards: [
         { title: 'La paciente típica', tag: 'Invierno', kind: 'key', items: [
           { t: 'Mujer de edad avanzada', d: 'Letargia progresiva, sopor o coma',
-            say: 'La paciente típica es una mujer de edad avanzada que llega con letargia progresiva, sopor o coma. Y el contexto del enunciado casi siempre es el mismo: el invierno.' },
+            say: 'La paciente típica es una mujer de edad avanzada que llega con letargia progresiva, sopor o coma. Mira esta cara: infiltrada, apática, un mixedema grave. Y el contexto del enunciado casi siempre es el mismo: el invierno.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-03/01_facies_mixedema__commons.jpg', label: 'Mixedema grave', at: 'Mira esta cara', credit: 'Wikimedia Commons «Myxedema face.png», CC BY 2.5, Herbert L. Fred, MD and Hendrik A. van Dijk' } },
         ] },
         { title: 'Gatillantes', tag: 'Buscarlos siempre', kind: 'alert', items: [
           { t: 'Frío ambiental intenso', d: 'Típico en los meses de invierno',
@@ -204,17 +205,17 @@ module.exports = {
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'El coma mixedematoso',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Hidrocortisona antes que levotiroxina',
       images: [
-        { src: 'biblioteca/05_endocrinologia/endo-03/01_facies_mixedema__commons.jpg', label: 'Mixedema grave', credit: 'Wikimedia Commons «Myxedema face.png», CC BY 2.5, Herbert L. Fred, MD and Hendrik A. van Dijk' },
+        { src: 'animaciones/endo-03/A1_hidrocortisona_primero.mp4', label: 'Orden del rescate', credit: 'Animación propia' },
       ],
       steps: [
-        { note: 'Facies infiltrada, apatía',
-          say: 'En el mixedema grave la cara está infiltrada y el paciente apático. Si además hay hipotermia y compromiso de conciencia, es un coma mixedematoso: corticoide primero, después la levotiroxina.' },
+        { note: 'El cortisol tiene que llegar primero',
+          say: 'Mira el orden en el tiempo. La suprarrenal de este paciente tiene una reserva limítrofe. Si le das levotiroxina sola, el metabolismo se acelera y el cortisol que queda se gasta: la demanda cruza la reserva y cae en crisis adisoniana. En cambio, si primero das hidrocortisona, cien miligramos endovenosos, la reserva sube. Cuando después, o junto, llega la levotiroxina, la demanda queda cubierta. Primero hidrocortisona, después levotiroxina.' },
       ],
     },
-
     {
       type: 'pathway',
       intro: 'Pongamos el rescate completo en un árbol, en el orden en que lo harías en la urgencia.',
@@ -306,6 +307,44 @@ module.exports = {
         options: 'Las opciones: suero hipertónico, suero fisiológico, levotiroxina endovenosa, corticoides endovenosos, o antibióticos. Piénsalo.',
         answer: 'Es la D, corticoides endovenosos. Es un coma mixedematoso, y fíjate en las pistas: vitíligo y anemia perniciosa te dicen autoinmunidad de varias glándulas, así que la suprarrenal puede estar fallando. Por eso primero el corticoide y después la levotiroxina. La C es la trampa perfecta: es el tratamiento correcto, pero en el orden equivocado. Y el suero hipertónico cae porque el sodio de ciento treinta no es grave.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 173",
+      "stem": "Una paciente de 27 años consulta por un cuadro clínico de un año de evolución caracterizado por astenia, adinamia y malestar general. Además, ha aumentado 8 kg de peso y en el último mes presenta sensación de frío, constipación y mialgias. Al examen físico presenta lentitud en el lenguaje verbal y el razonamiento, piel seca y fría con vitíligo en la cara y manos, y alopecia moderada en el cuero cabelludo. Su frecuencia cardíaca es de 60 latidos por minuto y su presión arterial de 130/80 mmHg. Se constata edema bilateral de extremidades inferiores, sin fóvea.",
+      "question": "¿Cuál es el examen de elección para iniciar el estudio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hemograma - VHS"
+        },
+        {
+          "letter": "B",
+          "text": "Colonoscopía"
+        },
+        {
+          "letter": "C",
+          "text": "Niveles de cortisol"
+        },
+        {
+          "letter": "D",
+          "text": "TAC de cerebro"
+        },
+        {
+          "letter": "E",
+          "text": "TSH"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Aumento de peso, frío, constipación, bradipsiquia, piel seca, bradicardia y edema sin fóvea (mixedema), con vitíligo como marcador de autoinmunidad: hipotiroidismo, probablemente por tiroiditis de Hashimoto. El examen de elección para iniciar el estudio es la TSH, idealmente junto a la T4 libre.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Mujer de veintisiete años con un año de astenia, aumento de ocho kilos, frío, constipación y mialgias. Está lenta para hablar y pensar, con piel seca y fría, vitíligo, alopecia, frecuencia cardíaca de sesenta y edema de piernas sin fóvea.",
+        "question": "¿Cuál es el examen de elección para iniciar el estudio?",
+        "options": "Las opciones: hemograma con VHS, colonoscopía, cortisol, TAC de cerebro, o TSH. Piénsalo.",
+        "answer": "Es la E, la TSH. Todo el cuadro grita hipotiroidismo: frío, constipación, lentitud, piel seca y un edema sin fóvea que es el mixedema. El cortisol tienta por la astenia y la posibilidad de otra autoinmunidad, pero el cuadro dominante es tiroideo y el examen que lo inicia es la TSH."
+      }
     },
 
     {

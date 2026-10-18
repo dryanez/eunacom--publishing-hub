@@ -221,14 +221,14 @@ Se realiza un estudio donde se comparan dos grupos de personas mayores de 60 añ
 Explicación del banco: Diagnóstico: **Cohorte** (opción **D**). Se siguen al futuro dos grupos: expuestos y no expuestos a un FR (HTA en este caso). El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).
 
 ### [4] EUNACOM Diciembre 2025 · Pregunta 77 · confianza 0.95
-Un paciente de 22 años es traído por sus familiares debido a que anda muy irritable y con una ac8tud rara, además de haber iniciado una serie de proyectos de negocios nuevos. Al examen presenta aceleración del habla y sus acompañantes comentan que en ocasiones trabaja hasta muy tarde, pese a lo cual al día siguiente con8núa con sus ac8vidades normales, durmiendo muy pocas horas. Durante la entrevista, en ocasiones se emociona y llora y en otras se ríe a carcajadas. Sus compañeros de estudios reﬁeren que anda más gracioso y “sin ﬁltro”. Tiene antecedente de haberse deprimido a los 18 años en relación con una ruptura sen8mental. ¿Cuál es el diagnós8co más probable?
+Un paciente de 22 años es traído por sus familiares debido a que anda muy irritable y con una actitud rara, además de haber iniciado una serie de proyectos de negocios nuevos. Al examen presenta aceleración del habla y sus acompañantes comentan que en ocasiones trabaja hasta muy tarde, pese a lo cual al día siguiente continúa con sus actividades normales, durmiendo muy pocas horas. Durante la entrevista, en ocasiones se emociona y llora y en otras se ríe a carcajadas. Sus compañeros de estudios refieren que anda más gracioso y “sin filtro”. Tiene antecedente de haberse deprimido a los 18 años en relación con una ruptura sentimental. ¿Cuál es el diagnóstico más probable?
 - A) Trastorno adapta2vo mixto
 - B) Trastorno bipolar
-- C) Trastorno por déﬁcit atencional hiperac2vo
+- C) Trastorno por déficit atencional hiperac2vo
 - D) Trastorno de personalidad en crisis
 - E) Trastorno esquizoafec2vo
 **Correcta: B**
-Explicación del banco: Es un trastorno afectivo bipolar clásico. Ahora está en episodio maníaco, cuya presencia conﬁrma el diagnóstico de trastorno bipolar. El antecedente de depresión lo refuerza.
+Explicación del banco: Es un trastorno afectivo bipolar clásico. Ahora está en episodio maníaco, cuya presencia confirma el diagnóstico de trastorno bipolar. El antecedente de depresión lo refuerza.
 
 ### [5] EUNACOM Julio 2019 · Pregunta 126 · confianza 0.95
 Una paciente de 43 años presenta sequedad bucal, asociada a ardor y sensación de arenilla ocular y a artralgias. Al examen físico tiene sequedad de piel y de mucosas, se observa aumento de volumen de ambas parótidas y se palpan adenopatías submandibulares de consistencia aumentada. Se solicitan exámenes, que muestra FR: 40 UI/nl, ANA positivos 1/16, ENA negativo, antiDNA negativo. ¿Cuál es el examen de elección para proseguir el estudio diagnóstico?
@@ -371,34 +371,34 @@ Paciente de 72 años llega a urgencias con hemiparesia derecha y afasia de inici
 Explicación del banco: ACV isquémico a las 5 horas: fuera de ventana para trombolisis (>4.5h). Si no hay oclusión de gran vaso, el tratamiento es antiagregación (aspirina) + hospitalización para monitoreo y estudios etiológicos. Anticoagulación no está indicada en ACV isquémico agudo de forma rutinaria.
 
 ### [19] EUNACOM Diciembre 2025 · Pregunta 46 · confianza 0.9
-Una paciente de 55 años, con menopausia a los 51 años y usuaria de estrógenos transdérmicos como terapia de reemplazo hormonal, consulta por sangrado genital de 5 días de evolución. Al examen Fsico, sus signos vitales son normales y la especuloscopía no muestra metrorragia ac8va ni lesiones del cuello uterino. ¿Cuál es la conducta más adecuada?
+Una paciente de 55 años, con menopausia a los 51 años y usuaria de estrógenos transdérmicos como terapia de reemplazo hormonal, consulta por sangrado genital de 5 días de evolución. Al examen físico, sus signos vitales son normales y la especuloscopía no muestra metrorragia activa ni lesiones del cuello uterino. ¿Cuál es la conducta más adecuada?
 - A) Realizar histerectomía
 - B) Aumentar la dosis de estrógenos
 - C) Iniciar an2concep2vos orales
 - D) Solicitar biopsia de endometrio
 - E) Indicar ácido tranexámico vía oral
 **Correcta: D**
-Explicación del banco: Toda metrorragia postmenopáusica se debe estudiar. Existen dos opciones de estudio: 1. Ecografía transvaginal (el más usado) y 2. Directamente la biopsia endometrial (BEM), que habitualmente se hace por técnicas poco invasivas, como la Pipelle. En el caso de que se uGlice la ecografía, se ve el grosor del endometrio, si es menor a 5 mm, se asume que era atroﬁa vaginal y se observa. Si es de 5 mm o más, se biopsia. En caso de que esté con terapia de reemplazo hormonal (TRH), se biopsia desde 8 mm. Si se solicita una ecografía por otro motivo, en una paciente postmenopáusica sin metrorragia, también se biopsia desde los 11 mm. En resumen, las indicaciones de BEM en la postmenopausia: 1. Cualquier metrorragia (aceptable, sin EcoTV). 2. Metrorragia + EcoTV con EM > 4-5 mm (≥ 8 mm si TRH). 3. Asintomática + EcoTV con EM ≥ 11 mm
+Explicación del banco: Toda metrorragia postmenopáusica se debe estudiar. Existen dos opciones de estudio: 1. Ecografía transvaginal (el más usado) y 2. Directamente la biopsia endometrial (BEM), que habitualmente se hace por técnicas poco invasivas, como la Pipelle. En el caso de que se utilice la ecografía, se ve el grosor del endometrio, si es menor a 5 mm, se asume que era atrofia vaginal y se observa. Si es de 5 mm o más, se biopsia. En caso de que esté con terapia de reemplazo hormonal (TRH), se biopsia desde 8 mm. Si se solicita una ecografía por otro motivo, en una paciente postmenopáusica sin metrorragia, también se biopsia desde los 11 mm. En resumen, las indicaciones de BEM en la postmenopausia: 1. Cualquier metrorragia (aceptable, sin EcoTV). 2. Metrorragia + EcoTV con EM > 4-5 mm (≥ 8 mm si TRH). 3. Asintomática + EcoTV con EM ≥ 11 mm
 
 ### [20] EUNACOM Diciembre 2025 · Pregunta 43 · confianza 0.9
-Una paciente de 56 años, usuaria de terapia de reemplazo hormonal y sin síntomas ginecológicos, se realiza una ecograFa abdominal durante el estudio de un cuadro cons8pación crónica. En dicho examen se detecta un mioma uterino subseroso de 32 × 35 mm, FIGO 6. ¿Cuál es la conducta más adecuada?
+Una paciente de 56 años, usuaria de terapia de reemplazo hormonal y sin síntomas ginecológicos, se realiza una ecografía abdominal durante el estudio de un cuadro constipación crónica. En dicho examen se detecta un mioma uterino subseroso de 32 × 35 mm, FIGO 6. ¿Cuál es la conducta más adecuada?
 - A) Realizar laparoscopía
 - B) Suspender la terapia de reemplazo hormonal
 - C) Iniciar an2concep2vos orales
 - D) Realizar histerectomía
-- E) Realizar control ecográﬁco en 6 meses
+- E) Realizar control ecográfico en 6 meses
 **Correcta: E**
-Explicación del banco: Los miomas asintomáticos se observan, sin importar su clasiﬁcación. Por cultura general, la clasiﬁcación FIGO va del 1 al 8 y se reﬁere a la ubicación, en relación a la pared. Mientras más bajo, más hacia submucoso (hacia la cavidad uterina) y mientras más alto, más subseroso (hacia afuera). FIGO 4 es intramural puro y FIGO 6 es subseroso, con un componente intramural.
+Explicación del banco: Los miomas asintomáticos se observan, sin importar su clasificación. Por cultura general, la clasificación FIGO va del 1 al 8 y se refiere a la ubicación, en relación a la pared. Mientras más bajo, más hacia submucoso (hacia la cavidad uterina) y mientras más alto, más subseroso (hacia afuera). FIGO 4 es intramural puro y FIGO 6 es subseroso, con un componente intramural.
 
 ### [21] EUNACOM Diciembre 2025 · Pregunta 2 · confianza 0.9
-Un paciente de 55 años, con antecedentes de diabetes mellitus 8po 2, hipertensión arterial y tabaquismo de 20 paquetes-año, consulta por dolor torácico de localización precordial y carácter opresivo. El cuadro inició hace tres semanas, presentándose el dolor en relación con la ac8vidad Fsica y desapareciendo rápidamente con el reposo. Sus signos vitales muestran presión arterial 148/92 mmHg, frecuencia cardíaca 81 la8dos por minuto y saturación arterial de oxígeno de 96%. Su examen cardiopulmonar no muestra alteraciones. ¿Cuál es el examen de elección para precisar el diagnós8co?
+Un paciente de 55 años, con antecedentes de diabetes mellitus tipo 2, hipertensión arterial y tabaquismo de 20 paquetes-año, consulta por dolor torácico de localización precordial y carácter opresivo. El cuadro inició hace tres semanas, presentándose el dolor en relación con la actividad física y desapareciendo rápidamente con el reposo. Sus signos vitales muestran presión arterial 148/92 mmHg, frecuencia cardíaca 81 latidos por minuto y saturación arterial de oxígeno de 96%. Su examen cardiopulmonar no muestra alteraciones. ¿Cuál es el examen de elección para precisar el diagnóstico?
 - A) Coronariogra:a
 - B) Cin2gra:a miocárdica
 - C) Angiorresonancia de arterias coronarias
 - D) Test de esfuerzo
 - E) Electrocardiograma de 24 horas (Holter)
 **Correcta: D**
-Explicación del banco: Es una angina crónica estable. Su diagnóstico es clínico y su estudio comienza con una prueba de esfuerzo, generalmente el ECG de esfuerzo. En los casos en que no se puede realizar (amputados o pacientes que no toleran el ejercicio) y en los casos en que el electrocardiograma es ilegible (ej. BCRI), se uGlizan otras pruebas de esfuerzo, como la ecocardiografía, con dobutamina o la cintigrafía cardiaca con talio y dipiridamol. Si alguna de estas pruebas de esfuerzo resulta alterada, se procede a la coronariografía para determinar la vía de revascularización. La regla general es que se uGlice un stent cuando hay compromiso de uno o dos vasos, y se uGlice un bypass coronario cuando hay compromiso de tres vasos o de dos vasos incluyendo la arteria descendente anterior (ADA).
+Explicación del banco: Es una angina crónica estable. Su diagnóstico es clínico y su estudio comienza con una prueba de esfuerzo, generalmente el ECG de esfuerzo. En los casos en que no se puede realizar (amputados o pacientes que no toleran el ejercicio) y en los casos en que el electrocardiograma es ilegible (ej. BCRI), se utilizan otras pruebas de esfuerzo, como la ecocardiografía, con dobutamina o la cintigrafía cardiaca con talio y dipiridamol. Si alguna de estas pruebas de esfuerzo resulta alterada, se procede a la coronariografía para determinar la vía de revascularización. La regla general es que se utilice un stent cuando hay compromiso de uno o dos vasos, y se utilice un bypass coronario cuando hay compromiso de tres vasos o de dos vasos incluyendo la arteria descendente anterior (ADA).
 
 ### [22] EUNACOM Julio 2025 · Pregunta 1 · confianza 0.9
 Mujer de 68 años con diagnóstico de insuficiencia cardíaca con fracción de eyección reducida (FEVI 35%), clase funcional NYHA III. En tratamiento con furosemida y enalapril. ¿Cuál es el diurético que se debe agregar para mejorar el pronóstico?

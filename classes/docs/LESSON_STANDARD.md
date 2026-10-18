@@ -84,6 +84,27 @@ Nunca se rellena para llegar a un número ni se recorta contenido que el libro p
   En `say.options` se leen las alternativas resumidas y se termina con "Piénsalo." En `answer` se explica por qué la correcta es correcta y por qué cae el distractor más tentador.
 - Pathway: nodos `start | q | do | ok | refer | alert`, con 5–12 nodos y 2–4 niveles.
 
+## Fotos en contexto
+
+Las fotos clínicas van **en el ítem donde la voz habla de ellas**, como en un libro, no en una diapositiva aparte
+«Así se ve». Un ítem de `points`, un paso de `flow` o una fila de `table` puede traer:
+
+```js
+{ t: 'Waterhouse-Friderichsen', d: 'Meningococcemia fulminante',
+  say: '… se llama síndrome de Waterhouse-Friderichsen. Mira esta piel: púrpura extensa … Y en estos pies, los ortejos ya necróticos. …',
+  photos: [
+    { src: 'biblioteca/05_endocrinologia/endo-13/atlas_104_….jpg', label: 'Púrpura fulminante', at: 'Mira esta piel', credit: 'Harrison 21.ª ed., Fig. 19-7' },
+    { src: 'biblioteca/05_endocrinologia/endo-13/02_….jpg', label: 'Necrosis distal', at: 'Y en estos pies', credit: 'Bailey & Love 27.ª ed., p. 619' },
+  ] }
+```
+
+- `photo: {…}` para una foto o `photos: [...]` para dos (máximo 2 por ítem, 3 por diapositiva). Solo imágenes fijas de `classes/media/` (las animaciones MP4 siguen en `image`).
+- `label`: rótulo corto (≤ ~28 caracteres), queda bajo la foto. `credit`: obligatorio (sale en el reproductor).
+- `at` (opcional): cuándo aparece. Un trozo literal del `say` (`'Mira esta piel'`) o una fracción del audio (0–0,9). Sin `at`, la primera sale al empezar a hablar y la segunda a mitad del ítem.
+- El `say` nombra lo que se ve («mira esta piel…», «en esta radiografía…»); no basta con nombrar la enfermedad.
+- Video: la foto aparece grande al centro con el fondo oscurecido (~1,7 s), y luego se achica y se acomoda en una columna a la derecha; el contenido se reacomoda a un ancho menor sin tapar texto ni título. Reproductor: igual, al llegar a ese ítem; clic en la foto la amplía.
+- Con fotos, mejor 2–3 tarjetas (con 4 queda estrecho). `check_lesson.cjs` valida ruta, rótulo, crédito y `at`.
+
 ## Reglas para que suene bien (TTS)
 
 - Los números se escriben en palabras en `say` ("cuarenta años", "quinientos miligramos", "dos mil veinticinco").

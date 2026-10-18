@@ -15,6 +15,36 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Conceptos base',
+      title: 'Salud, determinantes y promoción',
+      cards: [
+        { title: 'Salud y salud pública', tag: 'Definiciones', kind: 'key', items: [
+          { t: 'Salud: bienestar físico, mental y social', d: 'OMS, 1948; no solo ausencia de enfermedad',
+            say: 'Antes de los instrumentos, los conceptos que sostienen el modelo. La salud, según la OMS en mil novecientos cuarenta y ocho, es el completo bienestar físico, mental y social, y no solo la ausencia de enfermedad.' },
+          { t: 'Salud pública: la población es el objeto', d: 'Winslow, 1920; ciencia básica: epidemiología',
+            say: 'La salud pública, en la definición de Winslow, es la ciencia y el arte de prevenir la enfermedad, prolongar la vida y promover la salud mediante el esfuerzo organizado de la comunidad. Su objeto es la población, mientras la clínica trabaja con el individuo, y su ciencia básica es la epidemiología.' },
+          { t: 'Alma-Ata, 1978', d: 'Atención primaria para la salud para todos',
+            say: 'Y la Declaración de Alma-Ata, de mil novecientos setenta y ocho, estableció la atención primaria como la estrategia para alcanzar la salud para todos.' },
+        ] },
+        { title: 'Determinantes', tag: 'Qué explica la salud', kind: 'criteria', items: [
+          { t: 'Lalonde, 1974: cuatro campos', d: 'Biología, ambiente, estilo de vida, atención',
+            say: 'Los determinantes son los factores que explican el nivel de salud de una población. Lalonde, en Canadá, los agrupó en cuatro: biología humana, medio ambiente, estilo de vida y organización de la atención de salud.' },
+          { t: 'Dahlgren y Whitehead: capas', d: 'Del individuo a las condiciones socioeconómicas',
+            say: 'El modelo de Dahlgren y Whitehead los ordena en capas. En el centro, edad, sexo y genética. Luego los estilos de vida, las redes sociales, las condiciones de vida y trabajo, y en la capa externa las condiciones socioeconómicas, culturales y ambientales.' },
+          { t: 'Estructurales e intermediarios', d: 'Ingreso, educación, género, etnia',
+            say: 'La Comisión de la OMS de dos mil ocho distingue los determinantes estructurales, como ingreso, educación, ocupación, género y etnia, de los intermediarios, como las condiciones de vida, las conductas y el sistema de salud. Las inequidades son las diferencias en salud evitables e injustas que todo esto genera.' },
+        ] },
+        { title: 'Promoción de la salud', tag: 'Carta de Ottawa, 1986', kind: 'normal', items: [
+          { t: 'Aumentar el control sobre la salud', d: 'Cinco líneas de acción',
+            say: 'La promoción de la salud capacita a las personas para tener más control sobre su salud. Sus cinco líneas son: políticas públicas saludables, entornos favorables, refuerzo de la acción comunitaria, habilidades personales y reorientación de los servicios.' },
+          { t: 'Leyes 20.606 y 20.660', d: 'Sellos «alto en» y tabaco',
+            say: 'En Chile se concretan, por ejemplo, en la ley de etiquetado de alimentos, con los sellos alto en, y en la ley del tabaco. Y el modelo integral articula promoción y prevención con curación, rehabilitación y cuidados paliativos.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Principios del modelo',
       title: 'Qué hace distinto al MAIS de la medicina biomédica clásica',
       cards: [
@@ -36,7 +66,8 @@ module.exports = {
       cards: [
         { title: 'Genograma estructural', tag: 'Mirada hacia adentro', kind: 'criteria', items: [
           { t: 'Al menos tres generaciones', d: 'Árbol gráfico con símbolos estandarizados',
-            say: 'Empecemos por el genograma, también llamado familiograma. Es un árbol gráfico que representa como mínimo tres generaciones de la familia, con símbolos estandarizados.' },
+            say: 'Empecemos por el genograma, también llamado familiograma. Mira este genograma: es un árbol gráfico que representa como mínimo tres generaciones de la familia, con símbolos estandarizados, cuadrados para los hombres, círculos para las mujeres y líneas que indican el tipo de vínculo.',
+            photo: { src: 'biblioteca/16_salud_publica/sp-05/01_genograma__meneghello_p38.jpg', label: 'Genograma y símbolos', at: 'Mira este genograma', credit: 'Meneghello Pediatría, 6.ª ed., Fig. 3-1, p. 38' } },
           { t: 'Estructura, vínculos y enfermedades heredofamiliares', d: 'Edades, consanguinidad, patologías crónicas, tipos de vínculo',
             say: 'Muestra la composición familiar, las edades, la consanguinidad, el estado civil, las enfermedades crónicas que se repiten en la familia, y el tipo de vínculo entre cada miembro: muy unido, conflictivo, distante o con un quiebre. Es la mirada hacia adentro de la familia.' },
         ] },
@@ -70,6 +101,33 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Ciclo vital familiar',
+      title: 'Las etapas de Duvall y las crisis',
+      nodes: [
+        { id: 'a', col: 0, row: 0, k: 'start', t: 'Pareja y recién nacido', s: 'Etapas 1 y 2' },
+        { id: 'b', col: 1, row: 1, k: 'mech', t: 'Hijos preescolares y escolares', s: 'Etapas 3 y 4' },
+        { id: 'c', col: 2, row: 0, k: 'mech', t: 'Hijos adolescentes', s: 'Etapa 5' },
+        { id: 'd', col: 3, row: 1, k: 'effect', t: 'Salida de los hijos y nido vacío', s: 'Etapas 6 y 7' },
+        { id: 'e', col: 4, row: 0, k: 'good', t: 'Envejecimiento', s: 'Etapa 8: jubilación, viudez' },
+        { id: 'n', col: 1, row: 3, k: 'alert', t: 'Crisis normativas', s: 'Esperables, de cambio de etapa' },
+        { id: 'x', col: 3, row: 3, k: 'risk', t: 'Crisis no normativas', s: 'Inesperadas' },
+      ],
+      edges: [
+        { from: 'a', to: 'b' }, { from: 'b', to: 'c' }, { from: 'c', to: 'd' }, { from: 'd', to: 'e' },
+        { from: 'n', to: 'x' },
+      ],
+      steps: [
+        { show: ['a', 'b', 'c', 'd', 'e'], note: 'Ocho etapas',
+          say: 'El ciclo vital familiar describe las etapas que recorre una familia y las tareas de cada una. El modelo de Duvall distingue ocho: pareja sin hijos, familia con recién nacido, con hijos preescolares, escolares, adolescentes, la plataforma de lanzamiento cuando los hijos salen, el nido vacío y, al final, el envejecimiento, con la jubilación y la viudez. Saber en qué etapa está la familia te permite anticipar los problemas esperables y orientar la consejería.' },
+        { show: ['n'], note: 'Cambio de etapa: crisis esperable',
+          say: 'Cada cambio de etapa es una crisis normativa, es decir, esperable: el nacimiento del primer hijo, la adolescencia, el nido vacío, la jubilación.' },
+        { show: ['x'], note: 'Enfermedad, muerte, separación, cesantía',
+          say: 'Las crisis no normativas, en cambio, son inesperadas: una enfermedad grave, una muerte prematura, una separación, la cesantía, la migración o la violencia. Una crisis es un momento de mayor vulnerabilidad, pero también una oportunidad para intervenir. En la práctica el equipo combina el ciclo vital con el genograma, el ecomapa y el APGAR para evaluar el riesgo familiar y planificar visitas domiciliarias.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Diagnóstico comunitario',
       title: 'El ASIS: cuando la unidad de análisis es todo el territorio',
@@ -83,6 +141,34 @@ module.exports = {
             say: 'El proceso sigue un orden. Primero se recolectan los datos duros: censos, estadísticas vitales, el REM del CESFAM. Después viene el diagnóstico participativo, con talleres junto a la junta de vecinos y los consejos de desarrollo local. Solo entonces se priorizan los problemas de salud.' },
           { t: 'Método de Hanlon para priorizar', d: 'Magnitud, gravedad, eficacia y factibilidad',
             say: 'Y esa priorización usa un método objetivo, el método de Hanlon, que pondera la magnitud del problema, su gravedad, la eficacia de la intervención disponible y su factibilidad. Después de priorizar viene el plan de acción intersectorial, y por último el monitoreo continuo. Fíjate en la lógica: no se prioriza antes de escuchar a la comunidad, y no se prioriza a puro criterio técnico sin un método.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Priorización',
+      title: 'Epidemiología en el ASIS y método de Hanlon',
+      cards: [
+        { title: 'Para qué sirve en el ASIS', tag: 'Epidemiología aplicada', kind: 'key', items: [
+          { t: 'Describir, identificar, estimar', d: 'Persona, lugar y tiempo; riesgo e inequidades',
+            say: 'En el diagnóstico de situación de salud la epidemiología sirve para describir el perfil de la población por persona, lugar y tiempo, identificar los grupos y territorios de mayor riesgo, estimar la magnitud y la tendencia de los problemas, y priorizar y evaluar el impacto de lo que se hace.' },
+          { t: 'Fuentes habituales', d: 'Estadísticas vitales, censo, encuestas, REM, EPIVIGILA',
+            say: 'Las fuentes son las estadísticas vitales del DEIS y el INE, el censo, las encuestas como la Encuesta Nacional de Salud y la CASEN, los registros del CESFAM y la vigilancia EPIVIGILA.' },
+        ] },
+        { title: 'Criterios de priorización', tag: 'Qué se pondera', kind: 'criteria', items: [
+          { t: 'Magnitud, gravedad, vulnerabilidad, costo', d: 'Los cuatro criterios clásicos',
+            say: 'Para priorizar se usan criterios como la magnitud, cuántos afecta; la gravedad, por mortalidad o discapacidad; la vulnerabilidad, o sea la capacidad de intervenir; y el costo.' },
+          { t: 'Hanlon: (A + B) × C × D', d: 'A magnitud, B gravedad, C eficacia, D factibilidad',
+            say: 'El método de Hanlon los combina en una fórmula: A más B, multiplicado por C, multiplicado por D. A es la magnitud, B la gravedad, C la eficacia de la intervención y D la factibilidad.' },
+          { t: 'Si D es 0, no es prioritario', d: 'Factibilidad: criterios PEARL',
+            say: 'La factibilidad vale cero o uno, según los criterios PEARL: pertinencia, economía, aceptabilidad, recursos y legalidad. Si D es cero, todo el puntaje es cero, y el problema no es prioritario, por grave que sea.' },
+        ] },
+        { title: 'Otros métodos', tag: 'Y consenso', kind: 'normal', items: [
+          { t: 'CENDES-OPS', d: 'Magnitud, trascendencia, vulnerabilidad, costo',
+            say: 'Otros métodos son el CENDES de la OPS, con magnitud, trascendencia, vulnerabilidad y costo.' },
+          { t: 'Grupo nominal, Delphi, votación ponderada', d: 'Aportan el diagnóstico participativo',
+            say: 'Y las técnicas de consenso: grupo nominal, Delphi y votación ponderada con la comunidad, que aporta el diagnóstico participativo.' },
         ] },
       ],
     },
@@ -106,6 +192,10 @@ module.exports = {
           say: 'El APGAR familiar mide la percepción de funcionalidad del propio paciente, con los cortes que ya vimos: siete a diez normal, cuatro a seis disfunción leve, cero a tres disfunción severa.' },
         { cells: ['ASIS', 'Toda la comunidad del sector', 'Priorizar problemas de salud con el método de Hanlon', 'Diagnóstico participativo, no un test individual'],
           say: 'Y el ASIS no evalúa a una familia, sino a toda la comunidad del sector, para priorizar problemas de salud con el método de Hanlon. La trampa clásica es usar el nombre de un instrumento por otro: si la pregunta habla de redes de apoyo, no es APGAR ni genograma, es ecomapa.' },
+        { cells: ['Ciclo vital de Duvall', 'Etapa de la familia', 'Anticipar problemas y crisis esperables', 'Ocho etapas; el cambio de etapa es crisis normativa'],
+          say: 'El ciclo vital de Duvall tiene ocho etapas. Cada cambio de etapa es una crisis normativa, esperable, y la muerte prematura o la cesantía son crisis no normativas.' },
+        { cells: ['Método de Hanlon', 'Problemas de la comunidad', 'Priorizar con A más B, por C, por D', 'Si la factibilidad D es cero, no es prioritario'],
+          say: 'En Hanlon, si la factibilidad es cero, el problema no es prioritario, aunque sea muy grave. Es una trampa que se repite.' },
       ],
     },
 
@@ -151,6 +241,304 @@ module.exports = {
         question: '¿Cuál es el instrumento correcto?',
         options: 'Las opciones: ecomapa, genograma estructural, test de APGAR de Smilkstein, escala de Zarit, o el cuestionario de Duke-UNC.',
         answer: 'Es la A, el ecomapa, exactamente por lo que acabamos de ver: es la herramienta diseñada para poner a la familia en el centro y trazar sus vínculos con el entorno. El genograma mapea la estructura interna, el APGAR mide la percepción de funcionalidad interna, la escala de Zarit mide sobrecarga del cuidador, y el Duke-UNC mide apoyo social percibido, pero de forma individual, no familiar.' },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.008 · Diagnóstico de situación de salud",
+      "stem": "El equipo de un CESFAM urbano, con 32.000 inscritos, necesita planificar sus actividades del próximo año. Para ello quiere caracterizar el perfil epidemiológico, sociodemográfico y de determinantes sociales de toda la población de su territorio, usando censos, estadísticas vitales y registros del establecimiento, e incorporando la opinión de la comunidad.",
+      "question": "¿Cómo se denomina este proceso?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diagnóstico o análisis de situación de salud"
+        },
+        {
+          "letter": "B",
+          "text": "Estudio de brote"
+        },
+        {
+          "letter": "C",
+          "text": "Ecomapa comunitario"
+        },
+        {
+          "letter": "D",
+          "text": "Vigilancia epidemiológica centinela"
+        },
+        {
+          "letter": "E",
+          "text": "Auditoría clínica"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El diagnóstico o análisis de situación de salud (ASIS) caracteriza la salud de una población de un territorio y sus determinantes, con datos objetivos y participación comunitaria, para priorizar problemas y planificar. El ecomapa evalúa a una familia, no a una comunidad, y el estudio de brote investiga un evento puntual.",
+      "say": {
+        "stem": "El equipo de un CESFAM con treinta y dos mil inscritos quiere planificar el próximo año. Para eso busca caracterizar el perfil epidemiológico, sociodemográfico y de determinantes sociales de toda la población de su territorio, con censos, estadísticas vitales y registros propios, y escuchando a la comunidad.",
+        "question": "¿Cómo se denomina este proceso?",
+        "options": "Las opciones: diagnóstico de situación de salud, estudio de brote, ecomapa comunitario, vigilancia centinela o auditoría clínica. Piénsalo.",
+        "answer": "Es la A. Caracterizar la salud de toda una población y sus determinantes para planificar es el diagnóstico de situación de salud. El ecomapa tienta porque mira redes y entorno, pero evalúa a una sola familia, no a la comunidad completa."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 136",
+      "stem": "Un CESFAM realiza un diagnóstico de salud participativo de su comunidad, en conjunto con la junta de vecinos y el consejo de desarrollo local.",
+      "question": "¿Cuál es la última fase del diagnóstico de salud participativo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La comprobación de los problemas de salud referidos por la comunidad"
+        },
+        {
+          "letter": "B",
+          "text": "La determinación de estadísticas y datos objetivos y completos"
+        },
+        {
+          "letter": "C",
+          "text": "La determinación de la prevalencia de las patologías más importantes de la comunidad"
+        },
+        {
+          "letter": "D",
+          "text": "La definición de estrategias de intervención priorizadas"
+        },
+        {
+          "letter": "E",
+          "text": "La realización de estudios experimentales"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El diagnóstico participativo parte reuniendo datos objetivos y la percepción de la comunidad, luego prioriza los problemas, y termina definiendo estrategias de intervención priorizadas en conjunto con la comunidad. Los datos y la prevalencia son etapas iniciales, no el cierre.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Un CESFAM hace un diagnóstico de salud participativo de su comunidad, junto con la junta de vecinos y el consejo de desarrollo local.",
+        "question": "¿Cuál es la última fase de ese diagnóstico participativo?",
+        "options": "Las opciones: comprobar los problemas referidos por la comunidad, reunir estadísticas objetivas, determinar la prevalencia de las principales patologías, definir estrategias de intervención priorizadas, o hacer estudios experimentales. Piénsalo.",
+        "answer": "Es la D. El diagnóstico participativo termina cuando, ya priorizados los problemas, se definen las estrategias de intervención junto a la comunidad. Reunir estadísticas tienta porque es indispensable, pero es el primer paso, no el último."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.001 · Conceptos y definiciones de Salud Pública",
+      "stem": "Un médico recién llegado a una Dirección de Salud comunal pregunta en qué se diferencia su nuevo trabajo de la atención clínica que realizaba en el hospital.",
+      "question": "¿Qué característica define mejor a la salud pública?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Su objeto es el diagnóstico y tratamiento de cada paciente individual"
+        },
+        {
+          "letter": "B",
+          "text": "Su objeto es la salud de la población, mediante esfuerzos organizados de la sociedad"
+        },
+        {
+          "letter": "C",
+          "text": "Es la medicina ejercida exclusivamente en establecimientos estatales"
+        },
+        {
+          "letter": "D",
+          "text": "Se limita al control de enfermedades infecciosas"
+        },
+        {
+          "letter": "E",
+          "text": "Se ocupa principalmente de la gestión hospitalaria"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La salud pública es la ciencia y el arte de prevenir la enfermedad, prolongar la vida y promover la salud mediante esfuerzos organizados de la sociedad (Winslow). Su sujeto es la población, no el individuo, e incluye determinantes sociales, promoción, prevención y organización de servicios. No se restringe al sector estatal ni a las infecciones.",
+      "say": {
+        "stem": "Un médico que pasa del hospital a una dirección de salud comunal pregunta qué cambia en su trabajo.",
+        "question": "¿Qué define mejor a la salud pública?",
+        "options": "Las opciones: atención de cada paciente, salud de la población con esfuerzos organizados, medicina estatal, control de infecciones o gestión hospitalaria. Piénsalo.",
+        "answer": "Es la B. La salud pública se ocupa de la población mediante esfuerzos organizados de la sociedad. La medicina estatal tienta por el nombre, pero lo público se refiere a lo colectivo, no a quién paga o administra."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.005 · Promoción de salud y prevención de enfermedades",
+      "stem": "Un municipio, junto a vecinos y organizaciones sociales, construye ciclovías y plazas activas, y establece ferias libres con alimentos saludables a bajo costo, para mejorar la calidad de vida de toda la población comunal.",
+      "question": "¿A qué tipo de estrategia corresponde esta iniciativa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prevención cuaternaria"
+        },
+        {
+          "letter": "B",
+          "text": "Prevención primaria específica"
+        },
+        {
+          "letter": "C",
+          "text": "Prevención secundaria"
+        },
+        {
+          "letter": "D",
+          "text": "Prevención terciaria"
+        },
+        {
+          "letter": "E",
+          "text": "Promoción de la salud"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La promoción de la salud (Carta de Ottawa) busca dar a la población los medios para mejorar su salud y controlar sus determinantes, con participación social y entornos saludables, sin dirigirse a una enfermedad específica. La prevención primaria apunta a evitar una enfermedad determinada (por ejemplo, vacunar), la secundaria a detectarla precozmente y la terciaria a limitar secuelas.",
+      "say": {
+        "stem": "Un municipio, con los vecinos, construye ciclovías, plazas activas y ferias saludables para toda la comuna.",
+        "question": "¿Qué tipo de estrategia es?",
+        "options": "Las opciones: cuaternaria, prevención primaria, secundaria, terciaria o promoción de la salud. Piénsalo.",
+        "answer": "Es la E. Crear entornos saludables con participación social, sin apuntar a una enfermedad concreta, es promoción. La prevención primaria tienta, pero esa se dirige a evitar una enfermedad específica, como vacunar contra la influenza."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 51",
+      "stem": "Según la Comisión sobre Determinantes Sociales de la Salud de la OMS, se analizan distintos factores que influyen en la salud de la población.",
+      "question": "¿Cuál de los siguientes factores tiene mayor impacto en la salud de la población?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nivel educacional"
+        },
+        {
+          "letter": "B",
+          "text": "Vivienda"
+        },
+        {
+          "letter": "C",
+          "text": "Alimentación"
+        },
+        {
+          "letter": "D",
+          "text": "Ingreso económico"
+        },
+        {
+          "letter": "E",
+          "text": "Acceso a servicios de salud"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Los determinantes estructurales (posición socioeconómica: educación, ingreso, ocupación) pesan más que el acceso a servicios de salud. El nivel educacional se considera el de mayor impacto, porque condiciona el ingreso, el empleo, las conductas y el uso de servicios, y se asocia de forma consistente con mortalidad y esperanza de vida.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Según la comisión de la OMS sobre determinantes sociales de la salud.",
+        "question": "¿Qué factor tiene mayor impacto en la salud de la población?",
+        "options": "Las opciones: nivel educacional, vivienda, alimentación, ingreso económico o acceso a servicios de salud. Piénsalo.",
+        "answer": "Es la A. La educación es el determinante estructural de mayor peso, porque condiciona ingreso, empleo y conductas. El acceso a servicios tienta, pero los servicios de salud explican una parte menor de la salud poblacional."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.012 · Ejecución de un diagnóstico",
+      "stem": "El equipo de un CESFAM debe realizar el diagnóstico de situación de salud de su población a cargo, conforme al Modelo de Atención Integral de Salud Familiar y Comunitaria.",
+      "question": "¿Qué característica es esencial en la ejecución de este diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Limitarse a las enfermedades de notificación obligatoria"
+        },
+        {
+          "letter": "B",
+          "text": "Basarse exclusivamente en los egresos hospitalarios"
+        },
+        {
+          "letter": "C",
+          "text": "Ser elaborado únicamente por la dirección del establecimiento"
+        },
+        {
+          "letter": "D",
+          "text": "Incorporar la participación de la comunidad e integrar información cuantitativa y cualitativa"
+        },
+        {
+          "letter": "E",
+          "text": "Realizarse una sola vez, al inaugurar el centro"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El diagnóstico de situación de salud debe ser participativo: combina datos cuantitativos (demográficos, morbimortalidad, factores de riesgo, recursos) con la percepción de la comunidad sobre sus problemas. Culmina en la priorización de problemas y la programación de acciones, y se actualiza periódicamente.",
+      "say": {
+        "stem": "Un CESFAM debe hacer el diagnóstico de salud de su población según el modelo de salud familiar.",
+        "question": "¿Qué característica es esencial?",
+        "options": "Las opciones: solo enfermedades notificables, solo egresos hospitalarios, solo la dirección, participación comunitaria con datos cuantitativos y cualitativos o una única vez. Piénsalo.",
+        "answer": "Es la D. El diagnóstico debe ser participativo e integrar datos duros con la mirada de la comunidad. Usar solo los egresos hospitalarios tienta porque son datos fáciles de obtener, pero dejan fuera lo que la gente percibe y lo que no llega al hospital."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.017 · Usos de la epidemiología en el diagnóstico de situación de salud",
+      "stem": "Un equipo comunal, en su diagnóstico de situación de salud, quiere identificar qué grupos de edad, sectores de la comuna y períodos del año concentran la mayor obesidad infantil, para orientar sus recursos.",
+      "question": "¿Qué herramienta epidemiológica es la más adecuada para este fin?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Análisis de costo-efectividad"
+        },
+        {
+          "letter": "B",
+          "text": "Ensayo clínico aleatorizado"
+        },
+        {
+          "letter": "C",
+          "text": "Epidemiología descriptiva, según persona, lugar y tiempo"
+        },
+        {
+          "letter": "D",
+          "text": "Auditoría clínica"
+        },
+        {
+          "letter": "E",
+          "text": "Estudio de cohortes a 20 años"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En el diagnóstico de situación, la epidemiología describe la magnitud y distribución de los problemas de salud según persona, lugar y tiempo, identificando grupos de riesgo para priorizar y focalizar intervenciones. Los diseños analíticos o experimentales buscan causas o evalúan intervenciones, lo que no es el objetivo aquí.",
+      "say": {
+        "stem": "Un equipo comunal quiere saber qué edades, sectores y épocas concentran la obesidad infantil para orientar recursos.",
+        "question": "¿Qué herramienta es la más adecuada?",
+        "options": "Las opciones: costo efectividad, ensayo clínico, epidemiología descriptiva, auditoría o cohorte a veinte años. Piénsalo.",
+        "answer": "Es la C. Describir según persona, lugar y tiempo es la epidemiología descriptiva, base del diagnóstico de situación. La cohorte tienta por ser un buen diseño, pero busca causas y tomaría veinte años, no sirve para orientar recursos ahora."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.030 · Criterios de priorización de problemas",
+      "stem": "Tras su diagnóstico de situación, un CESFAM debe priorizar sus problemas de salud usando criterios clásicos: magnitud, trascendencia, vulnerabilidad y factibilidad.",
+      "question": "¿Qué evalúa el criterio de vulnerabilidad?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La gravedad del problema y su impacto social y económico"
+        },
+        {
+          "letter": "B",
+          "text": "El número de personas afectadas"
+        },
+        {
+          "letter": "C",
+          "text": "Si existen intervenciones eficaces capaces de modificar el problema"
+        },
+        {
+          "letter": "D",
+          "text": "La disponibilidad de recursos y la aceptación de la comunidad"
+        },
+        {
+          "letter": "E",
+          "text": "La tendencia del problema en los últimos años"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En la priorización: magnitud es cuántos afecta (prevalencia, incidencia); trascendencia, su gravedad e impacto (mortalidad, discapacidad, años de vida perdidos, costo social); vulnerabilidad, la existencia de intervenciones eficaces para modificarlo; y factibilidad, si hay recursos, aceptabilidad y viabilidad para aplicarlas.",
+      "say": {
+        "stem": "Un CESFAM prioriza sus problemas con magnitud, trascendencia, vulnerabilidad y factibilidad.",
+        "question": "¿Qué evalúa la vulnerabilidad?",
+        "options": "Las opciones: gravedad e impacto, número de afectados, si hay intervenciones eficaces, recursos y aceptación o tendencia en el tiempo. Piénsalo.",
+        "answer": "Es la C. Vulnerabilidad es qué tan modificable es el problema con las intervenciones existentes. La de recursos tienta, pero esa es la factibilidad, si podemos aplicar la intervención aquí."
+      }
     },
 
     {

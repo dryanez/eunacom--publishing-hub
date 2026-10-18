@@ -50,9 +50,11 @@ module.exports = {
       cards: [
         { title: 'Ecografía abdominal', tag: 'Examen de elección', kind: 'key', items: [
           { t: 'Vesículas hijas', d: 'Imagen en rueda de carreta',
-            say: 'El quiste hidatídico hepático se diagnostica con la ecografía abdominal, y se clasifica con la clasificación de Gharbi o de la OMS. Un signo clásico son las vesículas hijas dentro del quiste, que dan la imagen en rueda de carreta.' },
+            say: 'El quiste hidatídico hepático se diagnostica con la ecografía abdominal, y se clasifica con la clasificación de Gharbi o de la OMS. Mira esta ecografía: un signo clásico son las vesículas hijas dentro del quiste, que marca la flecha blanca, que dan la imagen en rueda de carreta.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-17/02_quiste-hidatidico-eco-tc__cto-radiologia_p43.jpg', label: 'Quiste en la ecografía', at: 'Mira esta ecografía', credit: 'Manual CTO Radiología 14.ª ed., p. 43' } },
           { t: 'Signo del camalote', d: 'Membrana germinativa desprendida',
-            say: 'El otro, el que más se pregunta, es el signo del camalote o del nenúfar: la membrana germinativa interna se desprende y queda flotando dentro del quiste. Si ves camalote en un enunciado, la respuesta es hidatidosis.' },
+            say: 'El otro, el que más se pregunta, es el signo del camalote o del nenúfar: la membrana germinativa interna se desprende y queda flotando dentro del quiste, como ves en esta tomografía, con sus membranas y vesículas hijas. Si ves camalote en un enunciado, la respuesta es hidatidosis.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_1__amir-infecto_p189.jpg', label: 'Quiste hidatídico (TC)', at: 'como ves en esta tomografía', credit: 'Manual AMIR Infecciosas, p. 189' } },
         ] },
         { title: 'Serología', tag: 'Apoyo', kind: 'normal', items: [
           { t: 'Arco 5 o ELISA IgG', d: 'Apoya el diagnóstico de la imagen',
@@ -154,6 +156,33 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Hidatidosis pulmonar',
+      title: 'Hidatidosis pulmonar: el quiste que se rompe',
+      cards: [
+        { title: 'Cómo aparece', tag: '2.ª localización', kind: 'key', items: [
+          { t: 'Pulmón: 10–25 %, primero en niños', d: 'Imagen redonda, homogénea, bordes nítidos',
+            say: 'El pulmón es la segunda localización del quiste hidatídico y la primera en niños. Muchos son hallazgos: mira esta radiografía, con una imagen redonda, homogénea y de bordes nítidos; si son múltiples, bolas de cañón.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_2__amir-infecto_p189.jpg', label: 'Quiste pulmonar (Rx)', at: 'mira esta radiografía', credit: 'Manual AMIR Infecciosas, p. 189' } },
+          { t: 'Tos, dolor torácico, disnea, hemoptisis', d: 'Dx por Rx y TAC · serología menos sensible',
+            say: 'Da tos, dolor torácico, disnea y hemoptisis. Se diagnostica con radiografía y tomografía; la serología es menos sensible que en el hígado.' },
+        ] },
+        { title: 'Complicación', tag: 'Ruptura', kind: 'alert', items: [
+          { t: 'A bronquio: vómica de agua de roca', d: 'Membranas · signo del camalote',
+            say: 'La complicación característica es la ruptura a un bronquio: vómica de líquido claro, agua de roca, con expectoración de membranas. En la imagen, el signo del camalote.' },
+          { t: 'A pleura: neumotórax, empiema, anafilaxia', d: 'Nunca puncionar un quiste',
+            say: 'La ruptura a la pleura da neumotórax o empiema y puede causar anafilaxia. Por eso jamás se punciona un quiste.' },
+        ] },
+        { title: 'Tratamiento', tag: 'Derivar', kind: 'pharma', items: [
+          { t: 'Cirugía + albendazol', d: 'Antes y después · 10–15 mg/kg/día',
+            say: 'El tratamiento es quirúrgico, conservando el parénquima, con albendazol antes y después. Tú sospechas, inicias el estudio y derivas a cirugía torácica.' },
+          { t: 'Controlar al perro', d: 'Antiparasitario, sin vísceras crudas, lavar verduras',
+            say: 'La prevención: antiparasitario periódico al perro, no darle vísceras crudas y lavar las verduras.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -164,36 +193,6 @@ module.exports = {
       steps: [
         { note: 'Contacto con perros',
           say: 'El gusano adulto vive en el intestino del perro y elimina huevos en las heces. Las ovejas los ingieren y forman quistes en sus vísceras, y el ciclo se cierra cuando el perro come esas vísceras crudas. El humano entra por accidente, por contacto con perros, y el quiste se forma sobre todo en el hígado, en el lóbulo derecho, y después en el pulmón.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Hidatidosis',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-17/02_quiste-hidatidico-eco-tc__cto-radiologia_p43.jpg', label: 'Quiste hidatídico en la ecografía', credit: 'Manual CTO Radiología 14.ª ed., p. 43' },
-        { src: 'biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_1__amir-infecto_p189.jpg', label: 'Quiste hidatídico (TC)', credit: 'Manual AMIR Infecciosas, p. 189' },
-      ],
-      steps: [
-        { note: 'La ecografía diagnostica',
-          say: 'El quiste hidatídico del hígado se diagnostica con la ecografía. A la izquierda, la flecha blanca marca un quiste con vesículas hijas en su interior, la imagen en rueda de carreta.' },
-        { note: 'Quiste con membranas',
-          say: 'Y en esta tomografía, el quiste hidatídico con sus membranas y vesículas hijas en el interior.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_2__amir-infecto_p189.jpg', label: 'Quiste hidatídico pulmonar (Rx)', credit: 'Manual AMIR Infecciosas, p. 189' },
-      ],
-      steps: [
-        { note: 'Quiste hidatídico pulmonar (Rx)',
-          say: 'Quiste hidatídico pulmonar en la radiografía, señalado por las flechas.' },
       ],
     },
 
@@ -336,6 +335,82 @@ module.exports = {
         options: 'Las opciones son: TAC de tórax y abdomen, parasitológico de deposiciones, radiografía de tórax, ecografía abdominal o colonoscopía. Piénsalo.',
         answer: 'Es la C, la radiografía de tórax. De nuevo es una vómica, ahora con las membranas del quiste: hidatidosis pulmonar. Y aquí la pregunta no es el diagnóstico, sino el primer examen. Se parte siempre por la radiografía de tórax. La TAC es el distractor, porque es mejor examen, pero va después, igual que la ecografía abdominal para buscar un quiste en el hígado.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.037 · Hidatidosis pulmonar",
+      "stem": "Hombre de 35 años, de zona rural de la Región de La Araucanía, consulta por tos y dolor torácico. La radiografía de tórax muestra una imagen redondeada de 7 cm, de bordes nítidos, en el lóbulo inferior derecho. La serología para hidatidosis es positiva.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Albendazol como tratamiento exclusivo"
+        },
+        {
+          "letter": "B",
+          "text": "Punción y aspiración percutánea del quiste"
+        },
+        {
+          "letter": "C",
+          "text": "Neumonectomía derecha"
+        },
+        {
+          "letter": "D",
+          "text": "Observación con radiografía semestral"
+        },
+        {
+          "letter": "E",
+          "text": "Cirugía conservadora (quistectomía con capitonaje) asociada a albendazol"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El quiste hidatídico pulmonar se trata con cirugía conservadora del parénquima (quistectomía o periquistectomía, cierre de bronquios y capitonaje), con albendazol perioperatorio para reducir siembra y recurrencia. La punción percutánea del quiste pulmonar está contraindicada por riesgo de anafilaxia y siembra, y las resecciones extensas son innecesarias.",
+      "say": {
+        "stem": "Hombre de treinta y cinco años, de zona rural de La Araucanía, con tos y dolor torácico. La radiografía muestra una imagen redondeada de siete centímetros, de bordes nítidos, en la base derecha, y la serología para hidatidosis es positiva.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: solo albendazol, punción percutánea, neumonectomía, observar con radiografías o cirugía conservadora con albendazol. Piénsalo.",
+        "answer": "Es la E. El quiste hidatídico pulmonar se opera, sacando el quiste y preservando pulmón, con albendazol alrededor de la cirugía. La punción tienta porque se usa en el hígado, pero en el pulmón está contraindicada por el riesgo de anafilaxia y de siembra."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 11",
+      "stem": "Un paciente de 42 años presenta tos seca de 7 días de evolución, que hace 3 días se volvió productiva, con secreción de sabor salado. Al examen físico tiene frecuencia cardíaca 68 por minuto, presión arterial 120/80 mmHg y frecuencia respiratoria 16 por minuto. El examen pulmonar muestra matidez en la zona inferior del campo pulmonar derecho, con disminución del murmullo pulmonar en dicha zona. Los exámenes revelan hematocrito 38%, plaquetas 312.000/mm³ y glóbulos blancos 12.000/mm³, con 10% de eosinófilos.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Derrame pleural tuberculoso"
+        },
+        {
+          "letter": "B",
+          "text": "Hidatidosis pulmonar"
+        },
+        {
+          "letter": "C",
+          "text": "Absceso pulmonar"
+        },
+        {
+          "letter": "D",
+          "text": "Neumonía"
+        },
+        {
+          "letter": "E",
+          "text": "Carcinoma broncogénico"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La expectoración de líquido salado (vómica hidatídica, a veces con membranas como hollejos de uva) con eosinofilia sugiere la rotura de un quiste hidatídico pulmonar hacia la vía aérea. Se estudia con radiografía y TAC de tórax, y el quiste pulmonar se opera, con albendazol perioperatorio. El absceso pulmonar daría expectoración pútrida y fiebre.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Un hombre de cuarenta y dos años tiene tos que se volvió productiva, con secreción de sabor salado, matidez en la base derecha y diez por ciento de eosinófilos.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: derrame pleural tuberculoso, hidatidosis pulmonar, absceso pulmonar, neumonía o carcinoma broncogénico. Piénsalo.",
+        "answer": "Es la B. La expectoración salada es la vómica de un quiste hidatídico roto, y la eosinofilia lo apoya. El absceso pulmonar tienta, pero da expectoración pútrida y fiebre, no líquido salado."
+      }
     },
 
     {

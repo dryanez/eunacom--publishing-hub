@@ -270,24 +270,24 @@ Paciente de 28 años con miedo intenso y síntomas físicos ante situaciones de 
 Explicación del banco: Fobia social / trastorno de ansiedad social: el tratamiento farmacológico de primera línea son los ISRS (sertralina, escitalopram, paroxetina). Se combinan con TCC. El propranolol es para situaciones puntuales.
 
 ### [6] EUNACOM Diciembre 2025 · Pregunta 3 · confianza 0.95
-Un paciente de 28 años consulta por dolor torácico y disnea de 2 horas de evolución. Al examen Fsico presenta taquicardia a 170 lpm, presión arterial 120/80 mmHg y un examen cardiopulmonar con ritmo regular en dos tonos, sin soplos, en la auscultación cardíaca y murmullo pulmonar presente, sin ruidos agregados, en la auscultación pulmonar. Se solicita un electrocardiograma que se muestra a con8nuación: ¿Cuál es la conducta más adecuada?
+Un paciente de 28 años consulta por dolor torácico y disnea de 2 horas de evolución. Al examen físico presenta taquicardia a 170 lpm, presión arterial 120/80 mmHg y un examen cardiopulmonar con ritmo regular en dos tonos, sin soplos, en la auscultación cardíaca y murmullo pulmonar presente, sin ruidos agregados, en la auscultación pulmonar. Se solicita un electrocardiograma que se muestra a continuación: ¿Cuál es la conducta más adecuada?
 - A) Verapamilo endovenoso
 - B) Amiodarona endovenosa
 - C) Adrenalina endovenosa
 - D) Adenosina endovenosa
 - E) Cardioversión eléctrica
 **Correcta: D**
-Explicación del banco: Tiene una TPSV clásica. El tratamiento de primera línea son las maniobras vagales (ej. Valsalva modiﬁcado es la más recomendada en adultos y niños que cooperan; en niños pequeño se preﬁere la inmersión facial en agua fría. El masaje caroVdeo se puede usar en adultos, pero no se recomienda en niños ni en adultos mayores con riesgo de ateroma caroVdeo que se pueda soltar). De segunda línea se uGlizan fármacos, siendo de elección la adenosina en bolo EV de 6 mg. Si falla, se dan hasta dos nuevas dosis de 12 mg. Si vuelve a fallar, se usa el verapamilo (contraindicado en falla cardíaca e hipotensión). Como toda taquiarritmia, si está hemodinámicamente inestable, de primera línea se maneja con cardioversión eléctrica.
+Explicación del banco: Tiene una TPSV clásica. El tratamiento de primera línea son las maniobras vagales (ej. Valsalva modificado es la más recomendada en adultos y niños que cooperan; en niños pequeño se prefiere la inmersión facial en agua fría. El masaje carotídeo se puede usar en adultos, pero no se recomienda en niños ni en adultos mayores con riesgo de ateroma carotídeo que se pueda soltar). De segunda línea se utilizan fármacos, siendo de elección la adenosina en bolo EV de 6 mg. Si falla, se dan hasta dos nuevas dosis de 12 mg. Si vuelve a fallar, se usa el verapamilo (contraindicado en falla cardíaca e hipotensión). Como toda taquiarritmia, si está hemodinámicamente inestable, de primera línea se maneja con cardioversión eléctrica.
 
 ### [7] EUNACOM Diciembre 2025 · Pregunta 148 · confianza 0.95
-Un paciente de 47 años, con antecedente de perforación 8mpánica derecha de larga data, presenta otalgia y otorrea de dos días de evolución. Al examen Fsico, la otoscopía muestra la perforación 8mpánica conocida, con presencia de secreción amarillenta en relación al `mpano y al conducto audi8vo externo. ¿Qué an8bió8co es de elección para el tratamiento inicial de este paciente?
+Un paciente de 47 años, con antecedente de perforación timpánica derecha de larga data, presenta otalgia y otorrea de dos días de evolución. Al examen físico, la otoscopía muestra la perforación timpánica conocida, con presencia de secreción amarillenta en relación al `mpano y al conducto auditivo externo. ¿Qué antibiótico es de elección para el tratamiento inicial de este paciente?
 - A) Neomicina tópica
-- B) Ciproﬂoxacino tópico
+- B) Ciprofloxacino tópico
 - C) Amoxicilina oral
 - D) Amoxicilina con ácido clavulánico oral
 - E) Cejriaxona endovenosa
 **Correcta: B**
-Explicación del banco: Tiene una oGGs media crónica simple, cuyo tratamiento de primera línea es tópico, con ciproﬂoxacino. La neomicina tópica Gene riesgo de ototoxicidad directa, por ser un aminoglicósido. Los antibióticos sistémicos se usan en los casos complicados (ej. mastoidiGs, laberintiGs). La cirugía está indicada en los casos refractarios y en caso de que haya un colesteatoma asociado.
+Explicación del banco: Tiene una oGGs media crónica simple, cuyo tratamiento de primera línea es tópico, con ciprofloxacino. La neomicina tópica Gene riesgo de ototoxicidad directa, por ser un aminoglicósido. Los antibióticos sistémicos se usan en los casos complicados (ej. mastoiditis, laberintitis). La cirugía está indicada en los casos refractarios y en caso de que haya un colesteatoma asociado.
 
 ### [8] EUNACOM Diciembre 2024 · Pregunta 158 · confianza 0.95
 Clínica de taponamiento, hipotensión, pulsos disminuidos como realizo el diagnóstico:

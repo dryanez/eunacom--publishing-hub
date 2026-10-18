@@ -47,17 +47,49 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Examen físico',
+      title: 'Especuloscopia y pH: cómo se toma la muestra',
+      nodes: [
+        { id: 'esp', col: 0, row: 1, k: 'start', t: 'Espéculo sin lubricante', s: 'Solo agua tibia si habrá PAP o cultivos' },
+        { id: 'cue', col: 1, row: 1, k: 'mech', t: 'Describe cuello y paredes', s: 'Flujo, friabilidad, lesiones' },
+        { id: 'ph', col: 2, row: 0, k: 'q', t: 'pH en la pared lateral', s: 'Normal 3,8 a 4,5' },
+        { id: 'alto', col: 3, row: 0, k: 'risk', t: 'pH sobre 4,5', s: 'Vaginosis, tricomoniasis o atrofia' },
+        { id: 'bajo', col: 3, row: 2, k: 'good', t: 'pH hasta 4,5', s: 'Candidiasis o flujo fisiológico' },
+        { id: 'bim', col: 2, row: 2, k: 'alert', t: 'Tacto bimanual', s: 'Dolor al movilizar el cuello: EIP' },
+      ],
+      edges: [
+        { from: 'esp', to: 'cue' }, { from: 'cue', to: 'ph' }, { from: 'ph', to: 'alto', label: 'alto' },
+        { from: 'ph', to: 'bajo', label: 'normal' }, { from: 'cue', to: 'bim' },
+      ],
+      steps: [
+        { show: ['esp'], note: 'Cusco cerrado, oblicuo, hacia el piso pélvico',
+          say: 'Antes de interpretar el flujo, hay que tomarlo bien. La especuloscopia se hace en litotomía, después de inspeccionar la vulva. Eliges un espéculo del tamaño adecuado, sin lubricante, solo agua tibia, si vas a tomar PAP o cultivos. Se introduce cerrado, oblicuo y con presión hacia el piso pélvico, se rota a horizontal y se abre hasta ver el cuello.' },
+        { show: ['cue'], note: 'Las muestras se toman al retirar',
+          say: 'Describes el cuello: ectropión, friabilidad, lesiones exofíticas, pólipo, pus mucopurulento por cervicitis o pérdida del epitelio por atrofia. Y las paredes: flujo grumoso, espumoso u homogéneo, lesiones herpéticas o condilomas. Las muestras, PAP, pH, fresco, cultivo y PCR de clamidia y gonococo, se toman al ir retirando el espéculo.' },
+        { show: ['ph'], note: 'Nunca en el fondo de saco',
+          say: 'El pH se mide con una cinta aplicada en la pared vaginal lateral, no en el fondo de saco, porque ahí el moco cervical, la sangre y el semen lo alcalinizan. Lo normal es entre tres coma ocho y cuatro coma cinco.' },
+        { show: ['alto', 'bajo'], note: 'Se complementa con aminas y fresco',
+          say: 'Con pH sobre cuatro coma cinco piensas en vaginosis bacteriana, tricomoniasis o atrofia. Con pH de cuatro coma cinco o menos, en candidiasis o flujo fisiológico. Y lo completas con el test de aminas con hidróxido de potasio al diez por ciento y el examen en fresco.' },
+        { show: ['bim'], note: 'Cierra el examen',
+          say: 'Y terminas con el tacto bimanual: el dolor a la movilización del cuello sugiere enfermedad inflamatoria pélvica.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Vaginosis bacteriana',
       title: 'Los criterios de Amsel',
       cards: [
         { title: 'Diagnóstico', tag: 'Necesitas 3 de 4', kind: 'criteria', items: [
           { t: 'Flujo gris y homogéneo', d: 'Baña las paredes vaginales por completo',
-            say: 'Para confirmar la vaginosis usas los criterios de Amsel, y necesitas al menos tres de cuatro. El primero: un flujo gris, fino, que baña toda la vagina por igual.' },
+            say: 'Para confirmar la vaginosis usas los criterios de Amsel, y necesitas al menos tres de cuatro. El primero: un flujo gris, fino, que baña toda la vagina por igual. Mira esta especuloscopia: el flujo homogéneo cubre las paredes vaginales.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-09/04_vaginosis-bacteriana-especuloscopia__kumar-clark_p1586.jpg', label: 'Vaginosis bacteriana', at: 'Mira esta especuloscopia', credit: 'Kumar and Clark\'s Clinical Medicine, p. 1586' } },
           { t: 'pH sobre 4,5', d: 'Y test de aminas positivo',
             say: 'El segundo, un pH sobre cuatro coma cinco. El tercero, el test de aminas positivo: le agregas hidróxido de potasio a la muestra y sale ese olor a pescado.' },
           { t: 'Clue cells en el frotis', d: 'Más del veinte por ciento de las células',
-            say: 'Y el cuarto, al mirar al microscopio, encuentras las clue cells: células cubiertas de bacterias, con el borde borrado, en más del veinte por ciento.' },
+            say: 'Y el cuarto, al mirar al microscopio, encuentras las clue cells: células cubiertas de bacterias, con el borde borrado, en más del veinte por ciento. Mira esta célula clave: está tapizada de bacterias y no se le distingue el borde.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-09/01_celulas_clave__cdc-phil-3720.jpg', label: 'Células clave', at: 'Mira esta célula clave', credit: 'CDC PHIL 3720 (CDC/M. Rein), dominio público' } },
         ] },
         { title: 'Tratamiento', tag: 'Metronidazol', kind: 'pharma', items: [
           { t: 'Metronidazol oral', d: 'Quinientos miligramos cada doce horas, siete días',
@@ -77,7 +109,11 @@ module.exports = {
           { t: 'Prurito vulvar intenso', d: 'El síntoma que manda en este cuadro',
             say: 'En la candidiasis, lo que manda es el prurito vulvar, intenso y persistente.' },
           { t: 'Flujo en leche cortada', d: 'Blanco, espeso y bien adherido',
-            say: 'El flujo se describe como leche cortada: blanco, espeso, en grumos, adherido a la pared vaginal.' },
+            say: 'El flujo se describe como leche cortada: blanco, espeso, en grumos, adherido a la pared vaginal. Mira este flujo: es la leche cortada, y en el microscopio se ven las levaduras con sus hifas.',
+            photos: [
+              { src: 'biblioteca/13_ginecologia/gin-09/01_leucorrea-candidiasica__amir-gyo_p106.jpg', label: 'Leucorrea candidiásica', at: 'Mira este flujo', credit: 'Manual AMIR Ginecología y Obstetricia, p. 106' },
+              { src: 'biblioteca/13_ginecologia/gin-09/03_microscopia_candida__fitzpatrick_p80.jpg', label: 'Candida al microscopio', at: 'en el microscopio', credit: 'Fitzpatrick 7.ª ed., Fig. 5-2B' },
+            ] },
           { t: 'pH normal, test negativo', d: 'Es el único de los tres que no sube',
             say: 'Y aquí está el dato que la separa de las otras dos: el pH sigue normal, bajo cuatro coma cinco, y el test de aminas es negativo. Es el único cuadro de los tres que no altera el pH.' },
         ] },
@@ -97,9 +133,11 @@ module.exports = {
       cards: [
         { title: 'Clínica', tag: 'Ojo con el cuello', kind: 'alert', items: [
           { t: 'Flujo espumoso y verdoso', d: 'Con mal olor y bastante prurito',
-            say: 'En la tricomoniasis, el flujo es abundante, espumoso, de color amarillo verdoso, y con mal olor.' },
+            say: 'En la tricomoniasis, el flujo es abundante, espumoso, de color amarillo verdoso, y con mal olor. En la muestra fresca, mira el parásito: las tricomonas se mueven con sus flagelos.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-09/02_tricomonas__cdc.jpg', label: 'Tricomonas', at: 'mira el parásito', credit: 'CDC (Wikimedia Commons "Trichomonas vaginalis 01"), dominio público' } },
           { t: 'Cuello en fresa', d: 'Petequias visibles en el exocérvix',
-            say: 'Y al mirar el cuello uterino puedes ver el signo del cuello en fresa: pequeñas petequias rojas sobre la mucosa.' },
+            say: 'Y al mirar el cuello uterino puedes ver el signo del cuello en fresa: pequeñas petequias rojas sobre la mucosa. Mira este cuello: las petequias le dan el aspecto de fresa.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-09/02_cervix-en-fresa-trichomonas__cto-gyo_p100.jpg', label: 'Cérvix en fresa', at: 'Mira este cuello', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 100' } },
         ] },
         { title: 'Tratamiento', tag: 'Metronidazol, y a la pareja', kind: 'pharma', items: [
           { t: 'Metronidazol, dos gramos', d: 'Una sola dosis por vía oral',
@@ -131,40 +169,35 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'El flujo vaginal en el microscopio',
-      images: [
-        { src: 'biblioteca/13_ginecologia/gin-09/01_celulas_clave__cdc-phil-3720.jpg', label: 'Células clave', credit: 'CDC PHIL 3720 (CDC/M. Rein), dominio público' },
-        { src: 'biblioteca/13_ginecologia/gin-09/02_tricomonas__cdc.jpg', label: 'Tricomonas', credit: 'CDC (Wikimedia Commons "Trichomonas vaginalis 01"), dominio público' },
-        { src: 'biblioteca/13_ginecologia/gin-09/03_microscopia_candida__fitzpatrick_p80.jpg', label: 'Candida', credit: 'Fitzpatrick 7.ª ed., Fig. 5-2B' },
-      ],
-      steps: [
-        { note: 'Vaginosis bacteriana',
-          say: 'Las células clave, cubiertas de bacterias, son la vaginosis bacteriana.' },
-        { note: 'Parásito con flagelos',
-          say: 'Las tricomonas son parásitos que se mueven en la muestra fresca. Se trata a la pareja.' },
-        { note: 'Levaduras e hifas',
-          say: 'Y las levaduras de Candida, con flujo blanco grumoso y prurito.' },
+      type: 'table',
+      kicker: 'Otras ITS',
+      title: 'Manejo sindrómico: sífilis, herpes, VPH y úlceras',
+      head: ['Infección', 'Cómo se ve', 'Tratamiento'],
+      rows: [
+        { cells: ['Sífilis primaria', 'Chancro indoloro', 'Penicilina benzatina 2,4 millones UI IM, dosis única'],
+          say: 'Para cerrar, las otras infecciones de transmisión sexual, con manejo sindrómico del Minsal, tratamiento de la pareja, consejería, condón y oferta de test de VIH, sífilis y hepatitis B. La sífilis primaria es un chancro indoloro, y se trata con penicilina benzatina, dos coma cuatro millones de unidades intramusculares, en dosis única.' },
+        { cells: ['Sífilis secundaria y latente', 'Exantema palmo-plantar, condilomas planos', 'Benzatina única; latente tardía, 3 semanas'],
+          say: 'La secundaria da exantema palmoplantar y condilomas planos, con la misma dosis única. Y la latente tardía, o de duración desconocida, una dosis por semana durante tres semanas. El diagnóstico es VDRL o RPR más una prueba treponémica, es de notificación obligatoria y se controla a la pareja.' },
+        { cells: ['Herpes genital (VHS-2)', 'Vesículas y úlceras dolorosas, adenopatías', 'Aciclovir 400 mg cada 8 h por 7-10 días'],
+          say: 'El herpes genital da vesículas y úlceras dolorosas con adenopatías; el diagnóstico es clínico o por PCR. Se trata con aciclovir cuatrocientos miligramos cada ocho horas, siete a diez días, o valaciclovir, y supresión crónica si hay recurrencias frecuentes.' },
+        { cells: ['VPH: condilomas (6 y 11)', 'Lesiones verrucosas', 'Podofilotoxina, imiquimod, ácido tricloroacético o crioterapia'],
+          say: 'Los condilomas por los tipos seis y once se tratan con podofilotoxina, imiquimod, ácido tricloroacético o crioterapia. La vacuna cuadrivalente previene los tipos seis, once, dieciséis y dieciocho.' },
+        { cells: ['Úlcera con adenopatía fluctuante', 'Dolorosa', 'LGV: doxiciclina; chancroide: azitromicina'],
+          say: 'Y una úlcera con adenopatía dolorosa y fluctuante es linfogranuloma venéreo, que se trata con doxiciclina, o chancroide, con azitromicina.' },
       ],
     },
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Tres flujos, una regla',
       images: [
-        { src: 'biblioteca/13_ginecologia/gin-09/01_leucorrea-candidiasica__amir-gyo_p106.jpg', label: 'Leucorrea candidiásica', credit: 'Manual AMIR Ginecología y Obstetricia, p. 106' },
-        { src: 'biblioteca/13_ginecologia/gin-09/02_cervix-en-fresa-trichomonas__cto-gyo_p100.jpg', label: 'Cérvix en fresa', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 100' },
+        { src: 'animaciones/gin-09/A1_ph_flujo.mp4', label: 'pH y aspecto del flujo', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Leucorrea candidiásica',
-          say: 'En la candidiasis el flujo es como leche cortada: blanco, espeso, en grumos y adherido a la pared vaginal.' },
-        { note: 'Cérvix en fresa',
-          say: 'Y este es el cuello en fresa de la tricomoniasis: pequeñas petequias rojas sobre la mucosa.' },
+        { note: 'El pH separa los cuadros',
+          say: 'Los lactobacilos mantienen la vagina ácida. En la vaginosis aparece un flujo gris homogéneo y el pH sube sobre cuatro coma cinco, con aminas positivas. En la candidiasis hay grumos blancos con prurito, y el pH no cambia: es la única donde no sube. En la tricomoniasis el flujo es espumoso y verdoso, con el cuello en fresa, el pH sube, y es una infección de transmisión sexual, así que se trata también a la pareja.' },
       ],
     },
 
@@ -305,6 +338,194 @@ module.exports = {
         options: 'Las opciones: ciprofloxacino, ceftriaxona, azitromicina, doxiciclina, o penicilina benzatina. Piénsalo.',
         answer: 'Es la B, ceftriaxona. El cultivo positivo confirma gonococo, y la ceftriaxona sigue siendo de elección aunque la paciente sea alérgica a la penicilina, porque son familias distintas de antibiótico. Ojo: en la práctica también cubrirías Chlamydia con doxiciclina, pero esta pregunta apunta específicamente al tratamiento del gonococo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 69",
+      "stem": "Una paciente de 25 años, embarazada, con 12 semanas contadas desde una FUR segura y confiable, se realiza exámenes, entre los que trae un VDRL que resulta no reactivo y un MHA-TP que resulta reactivo.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Administrar penicilina benzatina de inmediato"
+        },
+        {
+          "letter": "B",
+          "text": "Realizar VDRL mensual durante el resto del embarazo"
+        },
+        {
+          "letter": "C",
+          "text": "Controlar con VDRL a las 30 semanas"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar un FTA-ABS"
+        },
+        {
+          "letter": "E",
+          "text": "Indicar doxiciclina vía oral"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Las pruebas no treponémicas (VDRL, RPR) se negativizan tras un tratamiento exitoso; las treponémicas (MHA-TP, FTA-ABS) quedan positivas de por vida. VDRL no reactivo con MHA-TP reactivo corresponde a una sífilis tratada en el pasado: se sigue el control prenatal habitual, con VDRL a las 28 a 30 semanas.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Una embarazada de veinticinco años, con doce semanas por una fecha de última regla segura, trae un VDRL no reactivo y una prueba treponémica reactiva.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: penicilina benzatina de inmediato, VDRL mensual el resto del embarazo, control con VDRL a las treinta semanas, pedir otra prueba treponémica, o doxiciclina oral. Piénsalo.",
+        "answer": "Es la C. La prueba treponémica queda positiva de por vida, mientras que el VDRL se negativiza al tratar: este patrón es la cicatriz de una sífilis ya tratada, y basta el control habitual con VDRL a las treinta semanas. La penicilina tienta, pero sería tratar una infección que no está activa."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.5.008 · Flujo vaginal (pH)",
+      "stem": "Mujer de 29 años consulta por flujo vaginal de mal olor de 1 semana. Se toma una muestra con tórula del tercio medio de la pared lateral de la vagina y se aplica sobre una tira de pH, que marca 5,0. Al agregar KOH al 10% a la muestra se libera olor a pescado.",
+      "question": "¿Cuál es la interpretación correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pH elevado con test de aminas positivo, compatible con vaginosis bacteriana"
+        },
+        {
+          "letter": "B",
+          "text": "El pH es normal y descarta una vaginosis bacteriana"
+        },
+        {
+          "letter": "C",
+          "text": "Es el pH ácido característico de la candidiasis"
+        },
+        {
+          "letter": "D",
+          "text": "La muestra debe tomarse del endocérvix para ser válida"
+        },
+        {
+          "letter": "E",
+          "text": "El test de aminas positivo confirma una tricomoniasis"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El pH vaginal normal es 3,8 a 4,5. Medido en la pared lateral de la vagina, sin moco cervical, sangre ni semen, un pH sobre 4,5 con aminas positivas apoya vaginosis bacteriana (criterios de Amsel). El moco cervical es alcalino y falsea el resultado; la candidiasis tiene pH normal.",
+      "say": {
+        "stem": "Mujer de veintinueve años con flujo de mal olor. Se toma la muestra con tórula de la pared lateral de la vagina y se aplica en una tira de pH, que marca cinco. Al agregar hidróxido de potasio, se libera olor a pescado.",
+        "question": "¿Cuál es la interpretación correcta?",
+        "options": "Las opciones: pH elevado con aminas positivas compatible con vaginosis, pH normal que descarta vaginosis, pH ácido de candidiasis, que la muestra debió ser del endocérvix o que las aminas confirman tricomoniasis. Piénsalo.",
+        "answer": "Es la A. Un pH sobre cuatro coma cinco, con test de aminas positivo, apoya la vaginosis bacteriana. Tomar la muestra del endocérvix tienta, pero es un error: el moco cervical es alcalino y sube falsamente el pH."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.5.007 · Examen ginecológico, especuloscopia y tacto bimanual",
+      "stem": "Mujer de 30 años consulta por flujo vaginal anormal. Corresponde además tomar su citología cervical (PAP) de tamizaje.",
+      "question": "¿Cuál es la secuencia correcta del examen ginecológico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inspección de genitales externos, especuloscopia con toma de muestras y luego tacto bimanual"
+        },
+        {
+          "letter": "B",
+          "text": "Tacto bimanual, luego especuloscopia y toma de muestras"
+        },
+        {
+          "letter": "C",
+          "text": "Especuloscopia con abundante lubricante y luego inspección vulvar"
+        },
+        {
+          "letter": "D",
+          "text": "Tacto rectal, luego especuloscopia y finalmente inspección vulvar"
+        },
+        {
+          "letter": "E",
+          "text": "Toma de muestras sin especuloscopia y tacto bimanual"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El examen se inicia con la inspección de genitales externos, sigue con la especuloscopia (idealmente lubricando solo con agua o suero) para visualizar el cuello y tomar muestras de flujo y PAP, y termina con el tacto bimanual. Hacer el tacto antes altera las muestras y el lubricante interfiere con la citología.",
+      "say": {
+        "stem": "Mujer de treinta años con flujo anormal, a la que además corresponde tomar el Papanicolau.",
+        "question": "¿Cuál es la secuencia correcta del examen?",
+        "options": "Las opciones: inspección, espéculo con muestras y tacto al final; tacto primero; espéculo con mucho lubricante; tacto rectal primero; o muestras sin espéculo. Piénsalo.",
+        "answer": "Es la A. Primero se inspecciona, luego espéculo y toma de muestras, y al final el tacto bimanual. Empezar por el tacto tienta por costumbre, pero contamina y altera las muestras."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.106 · Candidiasis urogenital",
+      "stem": "Una adolescente de 16 años, sin actividad sexual, terminó hace una semana un tratamiento antibiótico por una faringoamigdalitis. Consulta por prurito vulvar intenso y flujo vaginal blanco, grumoso, sin mal olor. Al examen hay eritema y edema vulvar. El pH vaginal es 4,2.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Metronidazol oral"
+        },
+        {
+          "letter": "B",
+          "text": "Clotrimazol vaginal"
+        },
+        {
+          "letter": "C",
+          "text": "Ceftriaxona intramuscular"
+        },
+        {
+          "letter": "D",
+          "text": "Corticoide tópico de alta potencia"
+        },
+        {
+          "letter": "E",
+          "text": "Doxiciclina oral"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Prurito intenso, flujo blanco grumoso \"como leche cortada\", sin mal olor y con pH normal (menor a 4,5), tras uso de antibióticos, es candidiasis vulvovaginal. No es una ITS. Se trata con azol tópico (clotrimazol vaginal) o fluconazol oral en dosis única. El metronidazol es para vaginosis bacteriana y tricomoniasis, que elevan el pH.",
+      "say": {
+        "stem": "Una adolescente de dieciséis años, tras usar antibióticos, tiene prurito vulvar intenso y flujo blanco grumoso sin mal olor, con pH vaginal normal.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: metronidazol, clotrimazol vaginal, ceftriaxona, corticoide tópico o doxiciclina. Piénsalo.",
+        "answer": "Es la B. Es una candidiasis vulvovaginal y se trata con un azol como el clotrimazol vaginal. El metronidazol tienta porque es el tratamiento clásico de flujo vaginal, pero sirve para vaginosis y tricomonas, no para hongos."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.130 · Leucorrea y vulvovaginitis",
+      "stem": "Una niña de 6 años presenta flujo vaginal amarillento escaso, prurito y eritema vulvar de 2 semanas. Usa ropa interior sintética, se baña en tina con espuma y se limpia de atrás hacia adelante. No hay sangrado, cuerpo extraño visible, lesiones sugerentes de abuso ni oxiuros.",
+      "question": "¿Cuál es la conducta inicial más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Medidas de higiene: limpieza de adelante hacia atrás, ropa de algodón, evitar baños de espuma"
+        },
+        {
+          "letter": "B",
+          "text": "Metronidazol oral"
+        },
+        {
+          "letter": "C",
+          "text": "Vaginoscopía bajo anestesia"
+        },
+        {
+          "letter": "D",
+          "text": "Óvulos de clotrimazol"
+        },
+        {
+          "letter": "E",
+          "text": "Ceftriaxona intramuscular"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La vulvovaginitis inespecífica es la causa más frecuente de flujo en niñas prepuberales, por mucosa hipoestrogénica delgada, cercanía al ano y mala higiene. El manejo inicial son medidas higiénicas. La candidiasis es rara antes de la pubertad salvo uso de pañal o antibióticos. Si persiste o hay sangrado, se cultiva el flujo y se descarta cuerpo extraño o abuso.",
+      "say": {
+        "stem": "Una niña de seis años tiene flujo amarillento escaso, prurito y eritema vulvar, usa ropa sintética, toma baños de espuma y se limpia de atrás hacia adelante.",
+        "question": "¿Cuál es la conducta inicial más adecuada?",
+        "options": "Las opciones: medidas de higiene, metronidazol, vaginoscopía, óvulos de clotrimazol o ceftriaxona. Piénsalo.",
+        "answer": "Es la A. Es una vulvovaginitis inespecífica, la más frecuente en niñas, y se maneja con medidas de higiene. El clotrimazol tienta por el prurito, pero la candidiasis es rara antes de la pubertad."
+      }
     },
 
     {

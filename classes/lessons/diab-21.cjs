@@ -37,7 +37,8 @@ module.exports = {
         { show: ['mic'], note: 'Dilataciones saculares: los primeros puntos rojos',
           say: 'La pared debilitada se abomba en pequeñas dilataciones saculares. Al fondo de ojo se ven como puntos rojos de bordes netos, en el polo posterior, al lado temporal de la fóvea. Son los microaneurismas, y son la lesión más precoz que puedes ver. Eso se pregunta.' },
         { show: ['fug'], note: 'Un capilar que filtra deja lípidos y sangre',
-          say: 'Un capilar sin barrera filtra. Salen lípidos y proteínas, que dejan los exudados duros, amarillentos y brillantes, y sale sangre, que deja las microhemorragias en punto o en llama.' },
+          say: 'Un capilar sin barrera filtra. Salen lípidos y proteínas, que dejan los exudados duros, amarillentos y brillantes, y sale sangre, que deja las microhemorragias en punto o en llama. Mira estas hemorragias en punto y estos exudados duros amarillos: es lo que deja un capilar que filtra.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-21/02_hemorragias-retinianas-rd__cto-oftalmo_p67.jpg', label: 'Hemorragias y exudados duros', at: 'Mira estas hemorragias', credit: 'Manual CTO Oftalmología 14.ª ed., p. 67' }] },
         { show: ['isq'], note: 'Capilares cerrados: microinfartos',
           say: 'Además, muchos capilares se cierran. Esa isquemia produce microinfartos de la capa de fibras nerviosas, que se ven como manchas blancas y difusas: los exudados algodonosos o blandos.' },
         { show: ['veg', 'neo'], note: 'La retina isquémica pide vasos nuevos',
@@ -72,15 +73,18 @@ module.exports = {
       cards: [
         { title: 'No proliferativa', tag: 'RDNP', kind: 'normal', items: [
           { t: 'Microaneurismas y microhemorragias', d: 'En punto o en llama',
-            say: 'Con el mecanismo en mente, la clasificación es fácil. La retinopatía no proliferativa es todo lo que ocurre antes del neovaso: microaneurismas y microhemorragias en punto o en llama.' },
+            say: 'Con el mecanismo en mente, la clasificación es fácil. La retinopatía no proliferativa es todo lo que ocurre antes del neovaso: microaneurismas y microhemorragias en punto o en llama. Mira este fondo de ojo: esos puntitos rojos son los microaneurismas, junto a algunos exudados duros amarillos.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-21/02_microaneurismas__kanski_p537.jpg', label: 'Microaneurismas', at: 'Mira este fondo de ojo', credit: 'Kanski\'s Clinical Ophthalmology, 8.ª ed., p. 537' }] },
           { t: 'Exudados duros y algodonosos', d: 'Duros: fuga · Algodonosos: isquemia',
-            say: 'Y los dos tipos de exudados. Fíjate en la diferencia, que se confunde: el exudado duro es fuga de lípidos; el algodonoso es un microinfarto por isquemia.' },
+            say: 'Y los dos tipos de exudados. Fíjate en la diferencia, que se confunde: el exudado duro es fuga de lípidos; el algodonoso es un microinfarto por isquemia. Estas manchas blancas de bordes borrosos, rodeadas de hemorragias, son los exudados algodonosos.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-21/03_exudados-algodonosos__commons.jpg', label: 'Exudados algodonosos', at: 'Estas manchas blancas', credit: 'Wikimedia Commons, CC BY-SA 4.0' }] },
           { t: 'Severa: regla 4-2-1', d: 'Hemorragias en 4 cuadrantes, venas arrosariadas en 2, IRMA en 1',
             say: 'La forma severa se reconoce con la regla cuatro, dos, uno: hemorragias severas en cuatro cuadrantes, arrosariamiento venoso en dos, o anomalías microvasculares intrarretinianas en uno. Es la antesala de la proliferativa.' },
         ] },
         { title: 'Proliferativa', tag: 'RDP', kind: 'alert', items: [
           { t: 'Neovasos en papila o retina', d: 'Su presencia la define',
-            say: 'La retinopatía proliferativa tiene una sola definición: la presencia de neovasos, en el disco óptico o en la retina periférica. No importa cuántas hemorragias haya; si hay neovasos, es proliferativa, y si no los hay, no lo es.' },
+            say: 'La retinopatía proliferativa tiene una sola definición: la presencia de neovasos, en el disco óptico o en la retina periférica. No importa cuántas hemorragias haya; si hay neovasos, es proliferativa, y si no los hay, no lo es. Y estos son neovasos: vasos finos y desordenados que salen de la papila en abanico.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-21/04_neovasos__kanski_p542.jpg', label: 'Neovasos en la papila', at: 'Y estos son neovasos', credit: 'Kanski\'s Clinical Ophthalmology, 8.ª ed., p. 542' }] },
         ] },
       ],
     },
@@ -103,7 +107,8 @@ module.exports = {
       ],
       steps: [
         { show: ['neo', 'hv'], note: 'El neovaso se rompe hacia el vítreo',
-          say: 'Veamos por qué el neovaso es tan peligroso. Es un vaso frágil que crece hacia la cavidad vítrea. Cuando se rompe, la sangre llena el vítreo: es la hemorragia vítrea. El paciente pierde la visión de forma súbita e indolora, a veces precedida por una lluvia de manchas negras que se mueven.' },
+          say: 'Veamos por qué el neovaso es tan peligroso. Es un vaso frágil que crece hacia la cavidad vítrea. Cuando se rompe, la sangre llena el vítreo: es la hemorragia vítrea. El paciente pierde la visión de forma súbita e indolora, a veces precedida por una lluvia de manchas negras que se mueven. En esta imagen la sangre está por delante de la retina: una hemorragia prerretiniana y vítrea.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-21/01_retinopatia-diabetica__cto-oftalmo_p68.jpg', label: 'Hemorragia vítrea', at: 'En esta imagen', credit: 'Manual CTO Oftalmología 14.ª ed., p. 68' }] },
         { show: ['roj'], note: 'La clave semiológica del examen',
           say: 'Y el signo que te da el diagnóstico en el examen: el rojo pupilar se pierde. La sangre en el vítreo no deja pasar la luz, y no puedes ver la retina. Diabético de larga data, pérdida visual brusca, sin dolor y sin rojo pupilar: hemorragia vítrea.' },
         { show: ['fib', 'dr'], note: 'El neovaso cicatriza y tira',
@@ -122,7 +127,8 @@ module.exports = {
           { t: 'Engrosamiento o exudado en la fóvea', d: 'Puede aparecer en cualquier etapa',
             say: 'Antes de tratar, una entidad aparte: el edema macular diabético. Es el engrosamiento de la retina, o la exudación de lípidos, que compromete el centro de la fóvea. Y puede aparecer en cualquier etapa, también en la no proliferativa.' },
           { t: 'Causa más frecuente de baja visual moderada en DM2', d: 'No la hemorragia vítrea',
-            say: 'Ojo con este dato: la causa más frecuente de disminución moderada de la visión en la diabetes tipo dos es el edema macular. La hemorragia vítrea es más dramática, pero menos frecuente.' },
+            say: 'Ojo con este dato: la causa más frecuente de disminución moderada de la visión en la diabetes tipo dos es el edema macular. La hemorragia vítrea es más dramática, pero menos frecuente. Aquí los exudados duros se acumulan alrededor de la mácula: eso es el edema macular.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-21/01_retinopatia-diabetica_alt1__cto-oftalmo_p108.jpg', label: 'Edema macular', at: 'Aquí los exudados duros', credit: 'Manual CTO Oftalmología 14.ª ed., p. 108' }] },
         ] },
         { title: 'Tratamientos GES', tag: 'Oftalmología', kind: 'pharma', items: [
           { t: 'Panfotocoagulación con láser de argón', d: 'Proliferativa y RDNP muy severa',
@@ -138,6 +144,34 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Cómo se hace',
+      title: 'El fondo de ojo, paso a paso',
+      cards: [
+        { title: 'Preparar', tag: 'Antes de mirar', kind: 'key', items: [
+          { t: 'Tropicamida 1 %, 1 gota por ojo', d: 'Repetir a los 5–10 min; efecto en 15–30',
+            say: 'El médico general debe saber hacer un fondo de ojo con oftalmoscopio directo. Se dilata la pupila con tropicamida al uno por ciento, una gota por ojo, se repite a los cinco o diez minutos, y el efecto aparece a los quince a treinta minutos.' },
+          { t: 'Salvo glaucoma de ángulo estrecho', d: 'Sala en penumbra, mirar lejos',
+            say: 'La excepción es el antecedente de glaucoma de ángulo estrecho. La sala va en penumbra y el paciente mira un punto lejano.' },
+        ] },
+        { title: 'Recorrer', tag: 'Orden', kind: 'criteria', items: [
+          { t: 'Mi ojo derecho con su ojo derecho', d: 'A 2 cm y 15° lateral',
+            say: 'Se usa el ojo derecho del examinador para el ojo derecho del paciente, y viceversa. Uno se acerca a unos dos centímetros, ligeramente lateral, y busca primero el reflejo rojo. Si falta, hay una opacidad de medios.' },
+          { t: 'Vaso, papila, arcadas, mácula', d: 'Mácula a 2 diámetros papilares temporal',
+            say: 'Después se sigue un vaso hacia la papila, mirando bordes, excavación y neovasos; se recorren las cuatro arcadas vasculares y se termina en la mácula, a dos diámetros papilares hacia temporal.' },
+        ] },
+        { title: 'Tamizaje y control', tag: 'APS', kind: 'key', items: [
+          { t: 'Retinografía no midriática', d: 'Foto de 45°, leída por oftalmología',
+            say: 'En atención primaria el tamizaje se complementa con la retinografía digital no midriática: una foto de cuarenta y cinco grados entre mácula y papila, que lee oftalmología a distancia.' },
+          { t: 'Derivar si es más que leve', d: 'Edema macular, baja de agudeza o no evaluable',
+            say: 'Se deriva toda retinopatía más que leve, el edema macular, la baja de agudeza visual o un examen no evaluable.' },
+          { t: 'Control: anual, o cada 6 meses', d: 'Embarazo: antes y cada trimestre',
+            say: 'El control es anual si no hay retinopatía y cada seis meses o menos si es no proliferativa moderada o severa. En la embarazada, antes de la concepción y cada trimestre.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -148,26 +182,6 @@ module.exports = {
       steps: [
         { note: 'Láser para el neovaso, anti VEGF para el edema macular',
           say: 'Primero aparecen los microaneurismas, después las hemorragias, los exudados y los algodonosos de la isquemia. La retina isquémica libera VEGF, y crecen neovasos frágiles que sangran: es la proliferativa. El láser destruye la retina isquémica y los neovasos regresan. El edema macular, que es lo que más baja la visión, se trata con anti VEGF.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Retinopatía diabética',
-      images: [
-        { src: 'biblioteca/04_diabetes/diab-21/02_hemorragias-retinianas-rd__cto-oftalmo_p67.jpg', label: 'No proliferativa: hemorragias y exudados duros', credit: 'Manual CTO Oftalmología 14.ª ed., p. 67' },
-        { src: 'biblioteca/04_diabetes/diab-21/01_retinopatia-diabetica__cto-oftalmo_p68.jpg', label: 'Hemorragia prerretiniana y vítrea', credit: 'Manual CTO Oftalmología 14.ª ed., p. 68' },
-        { src: 'biblioteca/04_diabetes/diab-21/01_retinopatia-diabetica_alt1__cto-oftalmo_p108.jpg', label: 'Edema macular: exudados duros junto a la mácula', credit: 'Manual CTO Oftalmología 14.ª ed., p. 108' },
-      ],
-      steps: [
-        { note: 'Hemorragias en punto y exudados duros',
-          say: 'En este fondo de ojo diabético hay microhemorragias en punto y muchos exudados duros amarillos. No se ven neovasos, así que sigue siendo una retinopatía no proliferativa.' },
-        { note: 'Sangrado de los neovasos',
-          say: 'Cuando aparecen neovasos, la retinopatía es proliferativa, y esos vasos frágiles sangran. Esta gran hemorragia por delante de la retina puede dejar al paciente ciego de un día para otro.' },
-        { note: 'Exudados que rodean la mácula',
-          say: 'Y aquí los exudados duros se acumulan alrededor de la mácula: es el edema macular, lo que más baja la visión. Se trata con anti VEGF.' },
       ],
     },
 
@@ -289,6 +303,81 @@ module.exports = {
         options: 'Las opciones son: retinopatía diabética, edema macular, catarata, glaucoma, o hemorragia vítrea. Piénsalo.',
         answer: 'Es la C, catarata. La pérdida es progresiva y la opacidad está en el rojo pupilar, que es el cristalino. La retinopatía diabética tienta porque es diabético, pero no da síntomas hasta que se complica. El edema macular no altera el rojo, y la hemorragia vítrea es súbita y lo borra entero. El rojo pupilar ordena el diagnóstico.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.1.015 · Retinopatía diabética",
+      "stem": "Mujer de 63 años con DM2 de 14 años de evolución, HbA1c 8,4 %, hipertensa. Consulta por visión borrosa progresiva del ojo derecho de 3 meses, sin dolor ni ojo rojo. Agudeza visual 20/60 en el ojo derecho. El fondo de ojo muestra microaneurismas, exudados duros en anillo y engrosamiento retinal que compromete el centro de la fóvea, sin neovasos. La tomografía de coherencia óptica confirma edema macular.",
+      "question": "¿Cuál es el tratamiento de primera línea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Panfotocoagulación con láser"
+        },
+        {
+          "letter": "B",
+          "text": "Inyecciones intravítreas de anti-VEGF"
+        },
+        {
+          "letter": "C",
+          "text": "Vitrectomía"
+        },
+        {
+          "letter": "D",
+          "text": "Solo optimizar el control glicémico y repetir fondo de ojo en un año"
+        },
+        {
+          "letter": "E",
+          "text": "Corticoides tópicos"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El edema macular es la causa más frecuente de baja visual moderada en la diabetes. Cuando compromete el centro de la fóvea, la primera línea son las inyecciones intravítreas de anti-VEGF (ranibizumab, aflibercept). La panfotocoagulación con láser se reserva para la retinopatía proliferativa, con neovasos.",
+      "say": {
+        "stem": "Mujer de sesenta y tres años, diabética hace catorce años y mal controlada, con visión borrosa progresiva del ojo derecho. El fondo de ojo muestra exudados duros y engrosamiento de la retina en el centro de la fóvea, sin neovasos, y la tomografía confirma edema macular.",
+        "question": "¿Cuál es el tratamiento de primera línea?",
+        "options": "Las opciones: panfotocoagulación con láser, anti VEGF intravítreo, vitrectomía, solo mejorar el control glicémico, o corticoides tópicos. Piénsalo.",
+        "answer": "Es la B. El edema macular que compromete el centro de la fóvea se trata con inyecciones de anti VEGF. El láser tienta porque es el tratamiento clásico de la retinopatía, pero la panfotocoagulación es para el neovaso de la proliferativa, y aquí no hay neovasos."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.5.003 · Fondo de ojo",
+      "stem": "Joven de 19 años con DM1 diagnosticada a los 16 años, en esquema basal-bolo, HbA1c 7,4 %. Nunca se ha realizado un fondo de ojo. Su padre, DM2 diagnosticado la semana pasada a los 50 años, también consulta. Ninguno refiere síntomas visuales.",
+      "question": "¿Cuándo corresponde realizar el primer fondo de ojo de tamizaje a cada uno?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ambos de inmediato"
+        },
+        {
+          "letter": "B",
+          "text": "Al hijo de inmediato y al padre en 5 años"
+        },
+        {
+          "letter": "C",
+          "text": "Al hijo a los 30 años y al padre a los 5 años del diagnóstico"
+        },
+        {
+          "letter": "D",
+          "text": "Ambos solo si presentan síntomas visuales"
+        },
+        {
+          "letter": "E",
+          "text": "Al hijo a los 5 años del debut, es decir a los 21 años, y al padre de inmediato"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En la DM2 el fondo de ojo se realiza al momento del diagnóstico, porque la enfermedad pudo llevar años sin detectarse, y luego cada año. En la DM1 el tamizaje parte a los 5 años del debut, ya que la retinopatía no aparece antes. La retinopatía es silenciosa: se busca, no se espera a los síntomas.",
+      "say": {
+        "stem": "Joven de diecinueve años con diabetes tipo uno desde los dieciséis, que nunca se ha hecho un fondo de ojo. Su padre de cincuenta años acaba de ser diagnosticado de diabetes tipo dos. Ninguno tiene síntomas visuales.",
+        "question": "¿Cuándo corresponde el primer fondo de ojo de tamizaje a cada uno?",
+        "options": "Las opciones: ambos de inmediato, el hijo ahora y el padre en cinco años, el hijo a los treinta, solo con síntomas o el hijo a los cinco años del debut y el padre de inmediato. Piénsalo.",
+        "answer": "Es la E. En la diabetes tipo dos el fondo de ojo se hace al diagnóstico, porque el paciente pudo tener la enfermedad años sin saberlo. En la tipo uno parte a los cinco años del debut. Pedírselo a ambos de inmediato tienta, pero en el hijo todavía no corresponde."
+      }
     },
 
     {

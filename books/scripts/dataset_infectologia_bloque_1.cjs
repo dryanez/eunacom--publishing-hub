@@ -29,16 +29,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -140,6 +141,13 @@ const bloque1 = [
         paragraphs: [
           '<strong>Vasopresor de 1ª línea: Noradrenalina EV</strong>. La dopamina está proscrita por mayor arritmogenia y mortalidad. Se puede iniciar por vía periférica mientras se instala el CVC.',
           'Si la hipotensión persiste con dosis crecientes de noradrenalina (&gt; 0.25 mcg/kg/min), se asocia <strong>Vasopresina (0.03 U/min)</strong> e <strong>Hidrocortisona EV (200 mg/día)</strong>. Si coexiste disfunción miocárdica (ScvO₂ &lt; 70 % con PAM adecuada), agregar <strong>Dobutamina</strong>.',
+        ],
+      },
+      {
+        subhead: '5. Termorregulación: Fiebre, Hipertermia, Hipotermia y Hemocultivo',
+        paragraphs: [
+          '<strong>Fiebre:</strong> elevación regulada del punto de ajuste hipotalámico por pirógenos (IL-1, IL-6, TNF-α, vía PGE₂); se define como temperatura central <strong>≥ 38,0 °C</strong> (axilar ≥ 37,8 °C). La <strong>hipertermia</strong> es distinta: el punto de ajuste no cambia y el calor se acumula por producción o pérdida deficiente (golpe de calor, síndrome serotoninérgico o neuroléptico maligno, hipertermia maligna, hipertiroidismo, cocaína); <strong>no responde a antipiréticos</strong> y exige enfriamiento activo y tratar la causa. La <strong>hipotermia</strong> (&lt; 35 °C central) en un paciente séptico, en el recién nacido y en el anciano es un <strong>signo de gravedad</strong> con peor pronóstico que la fiebre; el adulto mayor puede no hacer fiebre (aumento de ≥ 1,1 °C sobre su basal o dos tomas ≥ 37,2 °C ya sugieren infección). Manejo: buscar y tratar el foco, hidratar, paracetamol 500–1.000 mg cada 6–8 h (evitar AAS en niños por síndrome de Reye); la hipotermia se corrige con recalentamiento pasivo o activo y fluidos tibios.',
+          '<strong>Interpretación del hemocultivo (nivel «interpreta y emplea»):</strong> el estándar son <strong>2 a 3 sets</strong> (aerobio + anaerobio) de sitios de punción distintos, antes del antibiótico y con 8–10 mL por frasco. Un cultivo positivo es <strong>verdadero</strong> cuando crece <em>S. aureus</em>, <em>E. coli</em> u otros bacilos gramnegativos, <em>S. pneumoniae</em>, <em>Streptococcus</em> β-hemolítico, <em>Enterococcus</em> o <em>Candida</em> (incluso en un solo frasco; <strong>un <em>S. aureus</em> en sangre nunca es contaminante</strong>: repetir hemocultivos, buscar endocarditis o foco metastásico y tratar EV por semanas). Es <strong>probable contaminante</strong> el estafilococo coagulasa negativo, <em>Corynebacterium</em>, <em>Bacillus</em> y <em>Cutibacterium</em> cuando crecen en <strong>1 de 2 sets</strong> y sin catéter ni prótesis. Un hemocultivo negativo <strong>no descarta</strong> bacteriemia (antibiótico previo, gérmenes exigentes); la positividad persistente a las 48–72 h bajo tratamiento obliga a buscar endocarditis, catéter infectado o foco no drenado.',
         ],
       },
     ],
@@ -247,6 +255,14 @@ const bloque1 = [
           'El análisis de LCR orienta la etiología: bacteriana aguda presenta <strong>pleocitosis con predominio PMN (> 80 %)</strong>, <strong>hipoglucorraquia marcada (ratio LCR/suero < 0.4)</strong> e hiperproteinorraquia severa (> 100–500 mg/dL). La etiología viral presenta predominio mononuclear con <strong>glucosa normal</strong>.',
         ],
       },
+      {
+        subhead: '5. Meningococcemia, Punción Lumbar y Cultivos',
+        paragraphs: [
+          '<strong>Meningococcemia (urgencia):</strong> sepsis por <em>Neisseria meningitidis</em> con o sin meningitis. Fiebre alta de inicio brusco, mialgias y <strong>petequias que progresan en horas a equimosis y púrpura</strong> (púrpura fulminante), con hipotensión, acidosis y CID. El <strong>síndrome de Waterhouse-Friderichsen</strong> es la hemorragia suprarrenal bilateral con insuficiencia suprarrenal aguda y shock refractario. Ante la <strong>sospecha</strong> no se espera la punción lumbar: hemocultivos, <strong>ceftriaxona 2 g EV inmediata</strong>, volumen, corticoide si hay shock refractario y <strong>derivación urgente a UCI</strong>. Aislamiento respiratorio por gotitas hasta 24 h de tratamiento, notificación inmediata (ENO) y <strong>quimioprofilaxis de contactos íntimos</strong> (rifampicina 600 mg cada 12 h por 2 días, o ceftriaxona 250 mg IM dosis única, o ciprofloxacino 500 mg dosis única; véase Tema 2.1).',
+          '<strong>Punción lumbar (nivel «realizar»):</strong> con consentimiento, descartar antes <strong>efecto de masa</strong> (banderas rojas del punto 2), infección cutánea en el sitio y coagulopatía (plaquetas &lt; 50.000/mm³ o INR &gt; 1,5). Paciente en decúbito lateral en posición fetal o sentado inclinado hacia adelante; el espacio <strong>L3–L4</strong> (o L4–L5) se ubica con la línea que une ambas crestas ilíacas (línea de Tuffier). Asepsia y campo estéril, anestesia local, aguja 20–22 G con el bisel paralelo a las fibras de la duramadre, avance hasta sentir el «pop» y salida de LCR; se mide la <strong>presión de apertura</strong> (normal 10–20 cmH₂O) y se recogen <strong>4 tubos</strong> (bioquímica, Gram y cultivo, recuento celular, adicional) junto con una glicemia simultánea. Complicaciones: <strong>cefalea postpunción</strong> (reposo, hidratación, cafeína; parche hemático si persiste), dolor radicular, hematoma espinal y herniación si se omitió la TAC.',
+          '<strong>Sembrar muestras para cultivo (nivel «realizar»):</strong> obtener la muestra <strong>antes del antibiótico</strong>, con técnica aséptica y en un envase estéril rotulado. El LCR se procesa de inmediato a <strong>temperatura ambiente</strong> (no refrigerar: <em>N. meningitidis</em> y <em>H. influenzae</em> son lábiles al frío) y se siembra en <strong>agar sangre y agar chocolate</strong> con incubación a 35–37 °C en 5 % de CO₂; los hemocultivos se inoculan en frascos aerobio y anaerobio tras desinfectar el tapón. La siembra en placa se hace con asa estéril y <strong>estrías por agotamiento</strong> para obtener colonias aisladas; el Gram directo del LCR (diplococos grampositivos lanceolados = neumococo; diplococos gramnegativos = meningococo) orienta el antibiótico en minutos, y el cultivo con antibiograma lo confirma a las 24–48 h.',
+        ],
+      },
     ],
     table: {
       title: 'Diagnóstico Diferencial del Citoquímico de Líquido Cefalorraquídeo',
@@ -337,6 +353,12 @@ const bloque1 = [
           'El absceso cerebral es una infección focal supurada intraparenquimatosa. Se produce principalmente por tres mecanismos: (1) <strong>Contigüidad (50%):</strong> sinusitis frontal/etmoidal (absceso frontal), otitis media crónica o mastoiditis (absceso temporal o cerebeloso); (2) <strong>Diseminación hematógena (30%):</strong> cardiopatías congénitas cianóticas con cortocircuito derecha-izquierda, endocarditis bacteriana, bronquiectasias o fístulas arteriovenosas pulmonares; (3) <strong>Inoculación directa:</strong> traumatismo craneoencefálico penetrante o neurocirugía.',
           '<strong>Tríada clásica:</strong> cefalea persistente refractaria + fiebre (ausente en 50%) + déficit focal neurológico. La sospecha exige <strong>TAC o RMN con contraste</strong> que revela la clásica <strong>lesión en anillo con realce periférico</strong> y edema vasogénico perilesional.',
           '<strong>Tratamiento:</strong> Ceftriaxona 2g c/12h EV + Metronidazol 500mg c/8h EV (para anaerobios de foco ótico/sinusal) + Vancomicina si hay antecedente quirúrgico o trauma. Descompresión quirúrgica (aspiración estereotáxica o escisión) si mide > 2.5 cm.',
+        ],
+      },
+      {
+        subhead: '4. Meningoencefalitis Bacteriana Aguda en el Niño',
+        paragraphs: [
+          'En el niño la etiología cambia con la edad: <strong>recién nacido y menor de 3 meses</strong>, <em>Streptococcus agalactiae</em> (SGB), <em>E. coli</em> y <em>Listeria</em>; <strong>mayor de 3 meses</strong>, <em>S. pneumoniae</em> y <em>N. meningitidis</em> (el <em>H. influenzae</em> b es raro tras la vacunación). En el lactante la presentación es inespecífica: fiebre o hipotermia, irritabilidad o letargia, rechazo alimentario, vómitos, convulsiones y <strong>fontanela abombada</strong>; la rigidez de nuca y los signos meníngeos aparecen tarde o faltan. La sospecha obliga a estabilizar (vía aérea, volumen), tomar hemocultivos y realizar <strong>punción lumbar</strong> si no hay contraindicación. Antibiótico EV inmediato: menor de 1 mes <strong>ampicilina + cefotaxima</strong> (o gentamicina); mayor de 1 mes <strong>ceftriaxona 100 mg/kg/día + vancomicina</strong>; en mayores de 1 mes se agrega <strong>dexametasona 0,15 mg/kg cada 6 h por 2–4 días</strong> antes o junto con la primera dosis. Se deriva a centro con UCI pediátrica. Todo niño debe tener <strong>audiometría</strong> al alta (la sordera es la secuela más frecuente) y control del neurodesarrollo; la prevención son las vacunas anti-<em>Haemophilus</em> b, neumococo y meningococo.',
         ],
       },
     ],
@@ -432,6 +454,13 @@ const bloque1 = [
         paragraphs: [
           'La <strong>Angina de Ludwig</strong> es una celulitis gangrenosa bilateral de los espacios submandibular y sublingual, originada en el 80% de los casos por infección de <strong>2° o 3° molares inferiores</strong>. Cursa con trismus, lengua protruida y estridor: el riesgo inminente es la asfixia.',
           '<strong>Manejo de urgencia:</strong> 1) Asegurar vía aérea en Ludwig (intubación con fibra óptica o traqueostomía); 2) <strong>Aseo quirúrgico y fasciotomía urgente</strong> (no diferir por TAC ni RMN); 3) Terapia EV: <strong>Meropenem + Vancomicina + Clindamicina</strong> (la clindamicina bloquea la producción de toxinas estreptocócicas).',
+        ],
+      },
+      {
+        subhead: '4. Adenitis, Adenoflegmón y Otros Flegmones Cervicales',
+        paragraphs: [
+          '<strong>Adenitis aguda:</strong> ganglio cervical unilateral aumentado de tamaño, caliente, doloroso y eritematoso, habitualmente por <em>S. aureus</em> o <em>S. pyogenes</em> a partir de una faringoamigdalitis, caries o lesión cutánea. El <strong>adenoflegmón</strong> es la evolución a colección: aparece fluctuación y fiebre. Tratamiento: antibiótico oral 7–10 días (cloxacilina o cefadroxilo; amoxicilina-ácido clavulánico si el origen es dental o hay anaerobios) y <strong>drenaje</strong> cuando fluctúa. Diagnóstico diferencial según el ritmo: la adenopatía <strong>crónica e indolora</strong> sugiere tuberculosis (escrófula; PPD y cultivo) o micobacteria atípica; la asociada a un gato, enfermedad por arañazo de gato (<em>Bartonella</em>, azitromicina); la bilateral con faringitis y esplenomegalia, mononucleosis; la &gt; 1,5 cm unilateral con fiebre prolongada en un niño, Kawasaki; y la <strong>dura, adherida o supraclavicular</strong> obliga a descartar linfoma o metástasis con biopsia.',
+          '<strong>Otros flegmones del piso de la boca y del cuello:</strong> la angina de Ludwig (bilateral, submandibular + sublingual + submentoniano) es solo uno de ellos. El <strong>flegmón submaxilar unilateral</strong>, el absceso <strong>parafaríngeo</strong>, el <strong>retrofaríngeo</strong> (niños pequeños, rigidez cervical, babeo) y el del espacio masticador comparten origen odontogénico (segundo y tercer molar inferior) o faríngeo, y las mismas alarmas: <strong>trismo, desplazamiento de la lengua, disfagia, voz «de papa caliente», estridor</strong>. La prioridad es la <strong>vía aérea</strong>; luego antibiótico EV de amplio espectro con anaerobios (ampicilina-sulbactam, o clindamicina + ceftriaxona), TAC de cuello con contraste y <strong>drenaje quirúrgico</strong>. El médico general sospecha, inicia el antibiótico y <strong>deriva de urgencia</strong>.',
         ],
       },
     ],

@@ -108,6 +108,38 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Causa postrenal',
+      title: 'Obstrucción: quién, cómo y qué hacer',
+      cards: [
+        { title: 'Cuándo sospecharla', tag: '5–10 % de las IRA', kind: 'key', items: [
+          { t: 'Anuria o diuresis alternante', d: 'Globo vesical, dolor suprapúbico o lumbar',
+            say: 'La obstrucción explica entre cinco y diez por ciento de las injurias renales agudas, y para que falle la función tiene que ser bilateral, o de un riñón único. Sospéchala ante anuria, o una diuresis que alterna entre poca y mucha, con globo vesical o dolor suprapúbico o lumbar.' },
+          { t: 'Próstata, litiasis, tumores pélvicos', d: 'Y estenosis uretral, fármacos anticolinérgicos u opioides',
+            say: 'La causa más frecuente es la próstata, hiperplasia o cáncer, en el hombre mayor. Después vienen la litiasis bilateral o en riñón único, la estenosis uretral, la vejiga neurogénica, los tumores pélvicos, la fibrosis retroperitoneal y los coágulos. Y no olvides los anticolinérgicos y los opioides.' },
+          { t: 'Ecografía: hidronefrosis', d: 'Confirma la obstrucción',
+            say: 'La ecografía lo confirma: si ves hidronefrosis, el cuadro es obstructivo hasta que se demuestre lo contrario. Mira esta ecografía: la pelvis del riñón está dilatada y llena de orina. Y en esta tomografía, la hidronefrosis es bilateral.',
+            photos: [
+              { src: 'biblioteca/03_nefrologia/nefro-01/02_ecografia-hidronefrosis__bailey-love_p1433.jpg', label: 'Hidronefrosis (ecografía)', at: 'Mira esta ecografía', credit: 'Bailey & Love 27.ª ed., Fig. 76.15' },
+              { src: 'biblioteca/03_nefrologia/nefro-01/03_tac-hidronefrosis-bilateral__bailey-love_p1482.jpg', label: 'Hidronefrosis bilateral', at: 'Y en esta tomografía', credit: 'Bailey & Love 27.ª ed., Fig. 78.12' }
+            ] },
+        ] },
+        { title: 'Manejo inicial', tag: 'Descomprimir', kind: 'pharma', items: [
+          { t: 'Globo vesical: sonda Foley', d: 'Es el primer paso',
+            say: 'Si hay globo vesical, el primer paso es instalar una sonda Foley. Es simple, rápido y muchas veces resuelve el cuadro.' },
+          { t: 'Obstrucción alta o que no cede', d: 'Urología urgente: catéter doble J o nefrostomía',
+            say: 'Si la obstrucción es alta, o la sonda no la resuelve, se deriva de urgencia a Urología, que descomprime con un catéter doble jota o con una nefrostomía percutánea.' },
+        ] },
+        { title: 'Después de destapar', tag: 'Diuresis postobstructiva', kind: 'alert', items: [
+          { t: 'Más de 200 mL/h por 2 horas', d: 'O más de 3 L al día',
+            say: 'Ojo con lo que viene después. Al descomprimir, el riñón puede orinar a chorros: más de doscientos mililitros por hora durante dos horas, o más de tres litros al día. Es la diuresis postobstructiva.' },
+          { t: 'Reponer volumen y vigilar Na, K y Mg', d: 'Mientras más precoz la descompresión, mejor la recuperación',
+            say: 'Se repone volumen y se controlan sodio, potasio y magnesio. Y recuerda que mientras más precoz sea la descompresión, mejor se recupera la función renal.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Diagnóstico',
       title: 'Índices urinarios: preguntarle al túbulo',
       cards: [
@@ -134,6 +166,30 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Nitrógeno ureico',
+      title: 'Relación BUN/creatinina: útil, pero con límites',
+      cards: [
+        { title: 'Qué muestra', tag: 'Ambos en mg/dL', kind: 'key', items: [
+          { t: 'Normal: 10 a 15 : 1', d: 'Nitrógeno ureico sobre creatinina',
+            say: 'La relación entre el nitrógeno ureico y la creatinina, ambos en miligramos por decilitro, es normalmente de diez a quince por uno.' },
+          { t: 'Prerrenal: sobre 20 : 1', d: 'La hipoperfusión reabsorbe urea',
+            say: 'En la injuria prerrenal, la hipoperfusión estimula la reabsorción de urea junto con sodio y agua, por acción de la hormona antidiurética, mientras la creatinina casi no se reabsorbe. Por eso la relación sube sobre veinte.' },
+          { t: 'Necrosis tubular: 10–15 : 1 o menos', d: 'El túbulo dañado no reabsorbe urea',
+            say: 'En la necrosis tubular aguda, el túbulo dañado deja de reabsorber urea, y la relación se queda en diez a quince, o incluso menos.' },
+        ] },
+        { title: 'Cuándo engaña', tag: 'Limitaciones', kind: 'alert', items: [
+          { t: 'Sube sin ser prerrenal', d: 'Hemorragia digestiva alta, corticoides, catabolismo, dieta hiperproteica',
+            say: 'Pero ojo, porque también sube sin que sea prerrenal: con una hemorragia digestiva alta, con corticoides, con catabolismo intenso o con una dieta rica en proteínas.' },
+          { t: 'Baja en hepatopatía grave o desnutrición', d: 'Se fabrica menos urea',
+            say: 'Y baja en la hepatopatía grave y en la desnutrición, porque el cuerpo fabrica menos urea.' },
+          { t: 'Nunca como dato aislado', d: 'Se lee con FeNa, sedimento y clínica',
+            say: 'Por eso esta relación nunca se interpreta sola. Se lee junto con la fracción excretada de sodio, el sedimento y la clínica del paciente.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Sedimento urinario',
       title: 'El microscopio dice dónde está el daño',
       cards: [
@@ -145,7 +201,8 @@ module.exports = {
         ] },
         { title: 'Otros compartimentos', tag: 'Otras causas intrínsecas', kind: 'alert', items: [
           { t: 'Cilindros hemáticos', d: 'Y hematíes dismórficos: glomerulonefritis',
-            say: 'Los cilindros hemáticos y los glóbulos rojos dismórficos confirman que el daño está en el glomérulo: es una glomerulonefritis aguda.' },
+            say: 'Los cilindros hemáticos y los glóbulos rojos dismórficos confirman que el daño está en el glomérulo: es una glomerulonefritis aguda. Mira estos glóbulos rojos deformados en el sedimento: son los dismórficos, que pasaron por un glomérulo dañado.',
+            photo: { src: 'biblioteca/03_nefrologia/nefro-01/01_sedimento-hematuria-glomerular__cto-nefro_p33.jpg', label: 'Hematíes dismórficos', at: 'Mira estos glóbulos rojos', credit: 'Manual CTO Nefrología 14.ª ed., p. 33' } },
           { t: 'Cilindros leucocitarios', d: 'Con piuria estéril: nefritis intersticial',
             say: 'Y los cilindros leucocitarios con piuria estéril, es decir, glóbulos blancos en la orina con urocultivo negativo, apuntan a una nefritis intersticial aguda inmunoalérgica. Esta la vamos a ver a fondo en la próxima clase, junto a la necrosis tubular.' },
         ] },
@@ -217,36 +274,6 @@ module.exports = {
       steps: [
         { note: 'Aferente abierta, eferente cerrada',
           say: 'Cuando cae la presión, el riñón dilata la arteriola de entrada con prostaglandinas y contrae la de salida con angiotensina dos, para mantener la filtración. Por eso los antiinflamatorios, que bloquean las prostaglandinas, y los IECA, que bloquean la angiotensina, pueden precipitar la falla renal en un paciente con poco volumen.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'La hematuria glomerular',
-      images: [
-        { src: 'biblioteca/03_nefrologia/nefro-01/01_sedimento-hematuria-glomerular__cto-nefro_p33.jpg', label: 'Hematíes dismórficos', credit: 'Manual CTO Nefrología 14.ª ed., p. 33' },
-      ],
-      steps: [
-        { note: 'Glóbulos rojos deformados',
-          say: 'En el sedimento de una hematuria glomerular los glóbulos rojos están deformados, dismórficos, porque pasaron por el glomérulo dañado. Si son normales, la sangre viene de la vía urinaria.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'La causa postrenal',
-      images: [
-        { src: 'biblioteca/03_nefrologia/nefro-01/02_ecografia-hidronefrosis__bailey-love_p1433.jpg', label: 'Hidronefrosis en la ecografía', credit: 'Bailey & Love 27.ª ed., Fig. 76.15' },
-        { src: 'biblioteca/03_nefrologia/nefro-01/03_tac-hidronefrosis-bilateral__bailey-love_p1482.jpg', label: 'Hidronefrosis bilateral en la tomografía', credit: 'Bailey & Love 27.ª ed., Fig. 78.12' },
-      ],
-      steps: [
-        { note: 'Pelvis renal dilatada',
-          say: 'Por eso lo primero es descartar la obstrucción con una ecografía renal y vesical. Aquí la pelvis del riñón está dilatada, llena de orina: es una hidronefrosis.' },
-        { note: 'Los dos riñones dilatados',
-          say: 'Y aquí la hidronefrosis es bilateral. Si la encuentras, el diagnóstico está hecho, y el tratamiento es descomprimir.' },
       ],
     },
 
@@ -366,6 +393,232 @@ module.exports = {
         options: 'Las opciones: catéter doble J, nefrectomía izquierda, nefrostomía percutánea de urgencia, litotricia sin derivación, o solo analgesia y observar. Piénsalo.',
         answer: 'Es la A, catéter doble J. Es una injuria postrenal en un riñón único, y la conducta es descomprimir la vía urinaria para preservar la función. Sacar su único riñón no tiene sentido, y observar o romper el cálculo sin derivar lo deja obstruido. La nefrostomía también descomprime, pero sin infección el doble J es la opción que se eligió en este examen.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.2.004 · Enfermedad tubular aguda",
+      "stem": "Hombre de 64 años, al tercer día de una colectomía, cursó con shock séptico por filtración anastomótica que requirió noradrenalina por 36 horas y recibió amikacina. Hoy diuresis de 300 mL en 24 horas. Creatinina 3,8 mg/dL (basal 1,0). Sodio urinario 58 mEq/L, FeNa 3,2 %. Sedimento: abundantes cilindros granulosos pardos y células epiteliales tubulares.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Insuficiencia renal aguda prerrenal"
+        },
+        {
+          "letter": "B",
+          "text": "Glomerulonefritis rápidamente progresiva"
+        },
+        {
+          "letter": "C",
+          "text": "Nefritis intersticial aguda por fármacos"
+        },
+        {
+          "letter": "D",
+          "text": "Necrosis tubular aguda isquémica y nefrotóxica"
+        },
+        {
+          "letter": "E",
+          "text": "Insuficiencia renal aguda obstructiva"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Shock prolongado más aminoglucósido, FeNa mayor de 2 %, sodio urinario alto y cilindros granulosos pardos (barro) son el perfil de la necrosis tubular aguda: el túbulo dañado ya no reabsorbe sodio. En lo prerrenal el sodio urinario es bajo y el sedimento es blando.",
+      "say": {
+        "stem": "Un hombre de sesenta y cuatro años, operado de colon, hizo un shock séptico que necesitó noradrenalina por un día y medio, y recibió amikacina. Hoy orina poco, la creatinina subió de uno a casi cuatro, el sodio urinario es cincuenta y ocho, la fracción excretada de sodio es tres coma dos por ciento, y el sedimento trae cilindros granulosos pardos.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: prerrenal, glomerulonefritis rápidamente progresiva, nefritis intersticial, necrosis tubular aguda o obstructiva. Piénsalo.",
+        "answer": "Es la D, necrosis tubular aguda. Isquemia más amikacina, sodio urinario alto y cilindros granulosos pardos dicen túbulo dañado. Lo prerrenal tienta por el shock, pero ahí el riñón guarda sodio y el sedimento es limpio."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.2.009 · Insuficiencia renal aguda obstructiva",
+      "stem": "Hombre de 79 años con síntomas prostáticos de años, consulta por 2 días de goteo urinario, dolor hipogástrico y confusión leve. PA 150/90 mmHg. Al examen: masa hipogástrica suprapúbica mate y dolorosa. Creatinina 3,1 mg/dL (basal 1,1 hace 3 meses), K 5,3 mEq/L.",
+      "question": "¿Cuál es la primera conducta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Furosemida 40 mg IV"
+        },
+        {
+          "letter": "B",
+          "text": "Hidratación con 2 litros de suero fisiológico"
+        },
+        {
+          "letter": "C",
+          "text": "Hemodiálisis de urgencia"
+        },
+        {
+          "letter": "D",
+          "text": "Pielografía de eliminación"
+        },
+        {
+          "letter": "E",
+          "text": "Instalar sonda vesical y medir el residuo"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El globo vesical en un hombre con prostatismo indica obstrucción baja: la sonda vesical es diagnóstica y terapéutica, y suele revertir la falla renal. Después se vigila la poliuria posobstructiva. Los diuréticos y el contraste no tienen lugar.",
+      "say": {
+        "stem": "Un hombre de setenta y nueve años, con síntomas prostáticos de años, lleva dos días orinando gota a gota, con dolor bajo el ombligo y algo confuso. Tiene una masa suprapúbica mate y dolorosa. La creatinina subió de uno coma uno a tres coma uno.",
+        "question": "¿Cuál es la primera conducta?",
+        "options": "Las opciones: furosemida, suero fisiológico, hemodiálisis, pielografía o sonda vesical. Piénsalo.",
+        "answer": "Es la E, la sonda vesical. Ese globo es una vejiga llena detrás de una próstata obstruida, y vaciarla resuelve la falla renal. La hemodiálisis tienta por la creatinina, pero el potasio no la exige y la causa se corrige con una sonda."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.016 · Sodio urinario",
+      "stem": "Mujer de 71 años, hipertensa, usuaria de furosemida 40 mg/día (última dosis esta mañana). Consulta por 5 días de vómitos e ingesta oral escasa. PA 95/60 mmHg con ortostatismo, mucosas secas. Creatinina 2,2 mg/dL (basal 0,8). Sodio urinario 46 mEq/L, FeNa 2,1 %, FeUrea 24 %. Sedimento normal.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Insuficiencia renal prerrenal: la furosemida eleva el sodio urinario y la FeUrea bajo 35 % lo confirma"
+        },
+        {
+          "letter": "B",
+          "text": "Necrosis tubular aguda, porque la FeNa es mayor de 2 %"
+        },
+        {
+          "letter": "C",
+          "text": "Nefritis intersticial aguda por furosemida"
+        },
+        {
+          "letter": "D",
+          "text": "Insuficiencia renal obstructiva"
+        },
+        {
+          "letter": "E",
+          "text": "Síndrome hepatorrenal"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Los diuréticos aumentan el sodio urinario y la FeNa aunque el riñón esté hipoperfundido. En ese caso se usa la fracción excretada de urea: menor de 35 % confirma lo prerrenal. Clínica de hipovolemia y sedimento normal apoyan.",
+      "say": {
+        "stem": "Una mujer de setenta y un años, que toma furosemida, lleva cinco días vomitando y casi sin comer. Está hipotensa, con ortostatismo y mucosas secas. La creatinina subió a dos coma dos, el sodio urinario es cuarenta y seis, la fracción excretada de sodio dos coma uno por ciento, y la fracción excretada de urea veinticuatro por ciento.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: prerrenal con sodio urinario falseado por la furosemida, necrosis tubular, nefritis intersticial, obstrucción o hepatorrenal. Piénsalo.",
+        "answer": "Es la A. La furosemida hace perder sodio aunque el riñón quiera guardarlo, así que el sodio urinario miente; la fracción excretada de urea bajo treinta y cinco por ciento confirma lo prerrenal. La necrosis tubular tienta por la fracción de sodio sobre dos, pero ese número no vale con diurético."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.063 · Insuficiencia renal aguda",
+      "stem": "Un niño de 3 años presentó diarrea con sangre hace una semana, ya resuelta. Ahora está pálido, decaído y orina poco. Exámenes: hemoglobina 7,5 g/dL con esquistocitos en el frotis, plaquetas 45.000/mm3, LDH elevada, Coombs directo negativo y creatinina 2,1 mg/dL.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Púrpura trombocitopénica inmune"
+        },
+        {
+          "letter": "B",
+          "text": "Glomerulonefritis postestreptocócica"
+        },
+        {
+          "letter": "C",
+          "text": "Síndrome hemolítico urémico"
+        },
+        {
+          "letter": "D",
+          "text": "Anemia hemolítica autoinmune"
+        },
+        {
+          "letter": "E",
+          "text": "Deshidratación con falla prerrenal"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Anemia hemolítica microangiopática (esquistocitos, LDH alta, Coombs negativo), trombocitopenia e injuria renal aguda tras una diarrea disentérica es síndrome hemolítico urémico, por E. coli productora de toxina Shiga. Es la principal causa de injuria renal aguda intrínseca en preescolares en Chile. Manejo de soporte; los antibióticos no están indicados.",
+      "say": {
+        "stem": "Un niño de tres años que tuvo diarrea con sangre hace una semana está pálido y orina poco, con anemia con esquistocitos, plaquetas bajas y creatinina elevada.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: púrpura trombocitopénica inmune, glomerulonefritis, síndrome hemolítico urémico, hemólisis autoinmune o falla prerrenal. Piénsalo.",
+        "answer": "Es la C. Anemia hemolítica con esquistocitos, plaquetas bajas e injuria renal después de una diarrea con sangre es un síndrome hemolítico urémico. La falla prerrenal tienta por la diarrea, pero no explica la hemólisis ni la trombocitopenia."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.014 · Nitrogeno ureico (relación bun/creatinina",
+      "stem": "Mujer de 80 años con vómitos y diarrea de 3 días, mucosas secas y PA 95/60 mmHg. Exámenes: BUN 64 mg/dL, creatinina 1,6 mg/dL (basal 0,9) y sodio urinario 12 mEq/L.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glomerulonefritis rápidamente progresiva"
+        },
+        {
+          "letter": "B",
+          "text": "Necrosis tubular aguda establecida"
+        },
+        {
+          "letter": "C",
+          "text": "Obstrucción urinaria"
+        },
+        {
+          "letter": "D",
+          "text": "Lesión renal aguda prerrenal por hipovolemia"
+        },
+        {
+          "letter": "E",
+          "text": "Nefritis intersticial aguda"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Una relación BUN/creatinina mayor de 20 (aquí 40) indica mayor reabsorción de urea, propia de la falla prerrenal por hipovolemia, y el sodio urinario bajo 20 confirma la conservación tubular de sodio. La NTA establecida muestra relación menor de 15 y sodio urinario alto. La hemorragia digestiva alta y los corticoides también elevan esta relación.",
+      "say": {
+        "stem": "Mujer de ochenta años deshidratada por vómitos y diarrea, con relación nitrógeno ureico sobre creatinina de cuarenta y sodio urinario bajo.",
+        "question": "¿Cómo interpretas su falla renal?",
+        "options": "Las opciones: glomerulonefritis rápidamente progresiva, necrosis tubular aguda, obstrucción, prerrenal por hipovolemia o nefritis intersticial. Piénsalo.",
+        "answer": "Es la D. Es prerrenal, por la relación alta y el sodio urinario bajo. La necrosis tubular es la evolución si no se repone volumen, pero tendría sodio urinario alto."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.4.006 · Ecografía renal (tamaño, asimetrías, hidronefrosis)",
+      "stem": "Hombre de 75 años con creatinina de 3,2 mg/dL (basal desconocida), sin síntomas urinarios claros. Se solicita ecografía renal.",
+      "question": "¿Qué hallazgo ecográfico orienta más a enfermedad renal crónica que a injuria renal aguda?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Riñones de tamaño normal con hidronefrosis bilateral"
+        },
+        {
+          "letter": "B",
+          "text": "Riñones aumentados de tamaño"
+        },
+        {
+          "letter": "C",
+          "text": "Riñones pequeños (menores de 9 cm), con corteza adelgazada y aumento de la ecogenicidad"
+        },
+        {
+          "letter": "D",
+          "text": "Asimetría renal mayor de 1,5 cm por uno grande"
+        },
+        {
+          "letter": "E",
+          "text": "Vejiga distendida"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La ecografía renal permite distinguir cronicidad: riñones pequeños, de corteza delgada e hiperecogénicos indican ERC avanzada. Además descarta obstrucción (hidronefrosis), la principal causa reversible, y detecta asimetrías (mayor de 1,5 cm sugiere enfermedad renovascular). Excepciones de ERC con riñones grandes: diabetes, poliquistosis, amiloidosis y VIH.",
+      "say": {
+        "stem": "Hombre de setenta y cinco años con creatinina elevada, sin valor previo conocido. Se pide ecografía renal.",
+        "question": "¿Qué hallazgo orienta más a enfermedad renal crónica?",
+        "options": "Las opciones: riñones normales con hidronefrosis, riñones grandes, riñones pequeños con corteza delgada e hiperecogénicos, asimetría por uno grande o vejiga distendida. Piénsalo.",
+        "answer": "Es la C. Los riñones pequeños, de corteza delgada y más brillantes indican daño crónico. La hidronefrosis tienta porque es el hallazgo más buscado, pero apunta a una obstrucción, potencialmente aguda y reversible."
+      }
     },
 
     {

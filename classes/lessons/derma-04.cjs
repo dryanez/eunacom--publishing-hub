@@ -55,7 +55,8 @@ module.exports = {
         ] },
         { title: 'Patrones', tag: 'Distinto en cada sexo', kind: 'criteria', items: [
           { t: 'Masculino: entradas y vértice', d: 'Escala de Hamilton-Norwood',
-            say: 'En el hombre, el patrón es el retroceso de la línea frontotemporal, las entradas, y la pérdida en la coronilla.' },
+            say: 'En el hombre, el patrón es el retroceso de la línea frontotemporal, las entradas, y la pérdida en la coronilla. Mira estos dibujos de la escala de Hamilton: primero retroceden las entradas, luego se pierde el vértice, hasta que solo queda una corona lateral.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-04/02_androgenetica-hamilton__cto-derma_p62.jpg', label: 'Escala de Hamilton', at: 'Mira estos dibujos', credit: 'Manual CTO Dermatología 14.ª ed., p. 62' } },
           { t: 'Femenino: raya central ensanchada', d: 'Escala de Ludwig, respeta la línea frontal',
             say: 'En la mujer, en cambio, es una pérdida difusa de densidad en el vértex con ensanchamiento de la raya central, el signo del árbol de navidad, pero respetando la línea de implantación frontal. Esa diferencia de patrón entre hombre y mujer se pregunta.' },
         ] },
@@ -87,9 +88,11 @@ module.exports = {
         { show: ['aut'], note: 'Autoinmune, en fase de crecimiento',
           say: 'La alopecia areata es una enfermedad autoinmune: linfocitos T que atacan al folículo mientras está en su fase de crecimiento.' },
         { show: ['pla'], note: 'Sin descamación ni eritema',
-          say: 'La clínica es muy reconocible: una o varias placas alopécicas redondeadas u ovaladas, de piel completamente lisa y normal, sin descamación ni eritema.' },
+          say: 'La clínica es muy reconocible: una o varias placas alopécicas redondeadas u ovaladas, de piel completamente lisa y normal, sin descamación ni eritema. Mira esta placa en la coronilla: redonda, lisa, sin descamación ni inflamación. Y en esta otra la piel también está limpia, con pelo normal alrededor.',
+            photos: [{ src: 'biblioteca/11_dermatologia/derma-04/01_alopecia-areata__cto-derma_p62.jpg', label: 'Alopecia areata', at: 'Mira esta placa', credit: 'Manual CTO Dermatología 14.ª ed., p. 62' }, { src: 'biblioteca/11_dermatologia/derma-04/01_alopecia-areata_alt1__amir-derma_p88.jpg', label: 'Placa sin pelo', at: 'Y en esta otra', credit: 'Manual AMIR Dermatología, p. 88' }] },
         { show: ['exc'], note: 'El signo patognomónico',
-          say: 'Y el signo patognomónico está en el borde activo de la placa: pelos en signo de exclamación, cortos, fracturados, más delgados en su base que en la punta.' },
+          say: 'Y el signo patognomónico está en el borde activo de la placa: pelos en signo de exclamación, cortos, fracturados, más delgados en su base que en la punta. Compárala con esta tiña capitis en la nuca de un niño: aquí las placas descaman y los pelos están quebrados, y esa descamación es la que la delata.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-04/03_tina-capitis__amir-derma_p63.jpg', label: 'Tiña capitis', at: 'Compárala con esta tiña', credit: 'Manual AMIR Dermatología, p. 63' } },
         { show: ['sev'], note: 'Frecuente asociación autoinmune',
           say: 'En sus formas más severas puede perderse todo el cabello del cuero cabelludo, la alopecia total, o todo el vello corporal, la alopecia universal. Se asocia con frecuencia a tiroiditis autoinmune o a vitíligo, así que conviene tamizarlos.' },
         { show: ['tto'], note: 'Primera línea para placas localizadas',
@@ -114,37 +117,6 @@ module.exports = {
           { t: 'Tranquilizar; se resuelve solo', d: 'En unos 6 meses, sin tratamiento invasivo',
             say: 'Es un cuadro completamente benigno y autolimitado: se resuelve solo en unos seis meses, y la conducta es tranquilizar al paciente, no partir con tratamientos invasivos.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Alopecias',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-04/01_alopecia-areata__cto-derma_p62.jpg', label: 'Alopecia areata', credit: 'Manual CTO Dermatología 14.ª ed., p. 62' },
-        { src: 'biblioteca/11_dermatologia/derma-04/03_tina-capitis__amir-derma_p63.jpg', label: 'Tiña capitis', credit: 'Manual AMIR Dermatología, p. 63' },
-      ],
-      steps: [
-        { note: 'Placas redondas sin pelo',
-          say: 'La alopecia areata forma placas redondas, lisas, sin inflamación.' },
-        { note: 'Placa descamativa en un niño',
-          say: 'Y la tiña capitis, en un niño, deja una placa con descamación y pelos quebrados.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-04/02_androgenetica-hamilton__cto-derma_p62.jpg', label: 'Alopecia androgenética (escala de Hamilton)', credit: 'Manual CTO Dermatología 14.ª ed., p. 62' },
-      ],
-      steps: [
-        { note: 'Alopecia androgenética (escala de Hamilton)',
-          say: 'Alopecia androgenética masculina: retroceso frontotemporal y luego del vértice, como la gradúa la escala de Hamilton.' },
       ],
     },
 

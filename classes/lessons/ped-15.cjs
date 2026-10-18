@@ -47,7 +47,8 @@ module.exports = {
       cards: [
         { title: 'Se evalúan dos cosas', tag: 'Al minuto de vida', kind: 'key', items: [
           { t: 'Frecuencia cardíaca', d: 'Auscultas 6 segundos y multiplicas por 10',
-            say: 'Al minuto de vida evalúas dos parámetros. El primero es la frecuencia cardíaca: la auscultas durante seis segundos y multiplicas por diez.' },
+            say: 'Al minuto de vida evalúas dos parámetros. El primero es la frecuencia cardíaca: la auscultas durante seis segundos y multiplicas por diez. Mira este algoritmo: en el primer minuto todo se ordena en secar, estimular, posicionar y, si no respira, ventilar.',
+            photo: { src: 'biblioteca/15_pediatria/ped-15/01_algoritmo-reanimacion-neonatal__cto-pediatria_p8.jpg', label: 'Algoritmo de reanimación', at: 'Mira este algoritmo', credit: 'Manual CTO Pediatría 14.ª ed., p. 8' } },
           { t: 'Esfuerzo respiratorio', d: 'Apnea o boqueadas no cuentan',
             say: 'El segundo es el esfuerzo respiratorio. Si el niño está en apnea, o solo boquea, eso tampoco te sirve.' },
         ] },
@@ -148,6 +149,87 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Cuando la reanimación se complica',
+      title: 'Asfixia perinatal y encefalopatía hipóxico-isquémica',
+      cards: [
+        { title: 'Qué es la asfixia', tag: 'Criterios combinados', kind: 'key', items: [
+          { t: 'pH de cordón bajo 7,0', d: 'Y déficit de bases de 12 o más',
+            say: 'Un recién nacido que necesitó reanimación puede haber sufrido asfixia perinatal. No se define por el Apgar solo: necesitas acidosis metabólica en la sangre del cordón, con pH bajo siete y déficit de bases de doce o más.' },
+          { t: 'Apgar 0 a 3 más de 5 minutos', d: 'Más daño neurológico y multiorgánico',
+            say: 'Se suma un Apgar de cero a tres sostenido por más de cinco minutos, manifestaciones neurológicas como convulsiones o hipotonía, y falla de otros órganos: riñón, hígado, corazón, pulmón. Un Apgar bajo aislado no define asfixia.' },
+        ] },
+        { title: 'Gravedad de la encefalopatía', tag: 'Clasificación de Sarnat', kind: 'criteria', items: [
+          { t: 'Leve', d: 'Hiperalerta, dura menos de 24 horas',
+            say: 'La encefalopatía hipóxico-isquémica se grada con Sarnat. La leve es hiperalerta con hiperreflexia, dura menos de veinticuatro horas y tiene buen pronóstico.' },
+          { t: 'Moderada', d: 'Letargia, hipotonía y convulsiones',
+            say: 'La moderada tiene letargia, hipotonía y convulsiones, y dura entre dos y catorce días.' },
+          { t: 'Severa', d: 'Estupor o coma, convulsiones refractarias',
+            say: 'La severa llega al estupor o coma, con flaccidez, convulsiones refractarias y compromiso del tronco: alta mortalidad y secuelas.' },
+        ] },
+        { title: 'Manejo', tag: 'Neuroprotección', kind: 'pharma', items: [
+          { t: 'Soporte intensivo', d: 'Evitar hiperoxia, normoglicemia, restringir líquidos',
+            say: 'El manejo es de soporte: ventilas, evitas la hiperoxia, mantienes normoglicemia, restringes líquidos por el riesgo de secreción inapropiada de hormona antidiurética e insuficiencia renal, y tratas las convulsiones con fenobarbital.' },
+          { t: 'Hipotermia terapéutica', d: 'Antes de 6 horas, 36 semanas o más',
+            say: 'El único tratamiento neuroprotector eficaz es la hipotermia terapéutica: enfriar por setenta y dos horas, partiendo en las primeras seis horas de vida, en recién nacidos de treinta y seis semanas o más con encefalopatía moderada o severa. Tu rol como médico general es sospechar, mantener normotermia sin calentar de más y trasladar precozmente a un centro con esa capacidad.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cianosis que mejora con el llanto',
+      title: 'Atresia de coanas',
+      cards: [
+        { title: 'Clínica', tag: 'Respira solo por la nariz', kind: 'key', items: [
+          { t: 'Cianosis cíclica', d: 'Mejora llorando, empeora al mamar',
+            say: 'La atresia de coanas es la obstrucción congénita de la fosa nasal posterior, casi siempre ósea. El recién nacido respira obligadamente por la nariz, así que en la forma bilateral hay cianosis y dificultad respiratoria que mejoran con el llanto, porque al llorar abre la boca, y empeoran al mamar. Es una emergencia neonatal.' },
+          { t: 'Unilateral', d: 'Rinorrea y obstrucción de un lado, más tarde',
+            say: 'La forma unilateral es más sutil: se presenta después, con rinorrea mucosa y obstrucción nasal de un solo lado.' },
+        ] },
+        { title: 'Diagnóstico', tag: 'Sonda y TAC', kind: 'criteria', items: [
+          { t: 'Sonda no pasa de 3 a 4 cm', d: 'Sonda nasogástrica fina de 6 Fr',
+            say: 'La pista es que no puedes pasar una sonda nasogástrica fina más allá de tres o cuatro centímetros. Se confirma con nasofibroscopía y con TAC de macizo facial. Mira este corte axial: se ve la obstrucción ósea en la parte posterior de las fosas nasales.',
+            photo: { src: 'biblioteca/15_pediatria/ped-15/02_atresia-coanas-tac__nelson_p3188.jpg', label: 'TAC: atresia ósea bilateral', at: 'Mira este corte', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 3188 (Fig. 425.1A)' } },
+          { t: 'Buscar síndrome CHARGE', d: 'Ecocardiograma y examen oftalmológico',
+            say: 'Se asocia a otras malformaciones, así que buscas el síndrome CHARGE: coloboma, cardiopatía, atresia de coanas, retraso del crecimiento y anomalías genitales y de oído. Pide ecocardiograma y evaluación oftalmológica.' },
+        ] },
+        { title: 'Conducta', tag: 'Inicial y derivar', kind: 'alert', items: [
+          { t: 'Vía aérea oral', d: 'Cánula orofaríngea; intubar si hace falta',
+            say: 'En la forma bilateral aseguras una vía aérea oral, con cánula orofaríngea o chupete de McGovern, e intubas si es necesario. Alimentas por sonda orogástrica.' },
+          { t: 'Derivar a ORL', d: 'Corrección endoscópica; unilateral electiva',
+            say: 'Y derivas a otorrinolaringología para corrección quirúrgica endoscópica. La unilateral se programa de forma electiva.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Las primeras horas',
+      title: 'Vínculo y termorregulación del recién nacido',
+      cards: [
+        { title: 'Vínculo y apego', tag: 'Período sensible', kind: 'normal', items: [
+          { t: 'Piel a piel 60 minutos', d: 'Ininterrumpido, hasta la primera lactancia',
+            say: 'Las primeras horas son un período sensible para el vínculo. Se recomienda contacto piel a piel ininterrumpido por al menos sesenta minutos, hasta la primera lactancia, y alojamiento conjunto sin separaciones innecesarias. Eso estabiliza la temperatura y la glicemia, y favorece un apego seguro.' },
+          { t: 'Factores de riesgo', d: 'Depresión posparto, prematuro hospitalizado',
+            say: 'Lo dificultan la depresión posparto, el prematuro hospitalizado por mucho tiempo, la madre adolescente, la violencia y el consumo de drogas. En el prematuro se usa el método canguro, y si hay riesgo, derivas a Chile Crece Contigo.' },
+        ] },
+        { title: 'Hipotermia', tag: 'Menos de 36,5 °C axilar', kind: 'alert', items: [
+          { t: 'Leve, moderada, grave', d: '36–36,4; 32–35,9; bajo 32 °C',
+            say: 'El recién nacido pierde calor por evaporación, conducción, convección y radiación, y genera calor con la grasa parda, que gasta oxígeno y glucosa. La hipotermia es temperatura axilar bajo treinta y seis coma cinco grados: leve entre treinta y seis y treinta y seis coma cuatro, moderada entre treinta y dos y treinta y cinco coma nueve, y grave bajo treinta y dos.' },
+          { t: 'Hipoglicemia y apneas', d: 'Acidosis, más consumo de oxígeno',
+            say: 'Produce hipoglicemia, acidosis metabólica, apneas e hipertensión pulmonar. Se previene con la cadena de calor: secar, gorro, piel a piel y cuna radiante, y se trata recalentando de forma gradual con control de glicemia.' },
+        ] },
+        { title: 'Hipertermia', tag: 'Más de 37,5 °C', kind: 'criteria', items: [
+          { t: 'Fiebre de la sed', d: 'Deshidratación al 2.° o 3.er día',
+            say: 'La hipertermia, sobre treinta y siete coma cinco grados, puede ser ambiental, por sobreabrigo, o por deshidratación: la llamada fiebre de la sed, al segundo o tercer día.' },
+          { t: 'Descartar sepsis', d: 'Desabrigar, hidratar y reevaluar',
+            say: 'Desabrigas, hidratas y reevalúas. Si persiste, estudio séptico, porque la inestabilidad térmica, para cualquiera de los dos lados, puede ser el primer signo de sepsis neonatal.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -158,19 +240,6 @@ module.exports = {
       steps: [
         { note: 'Cada paso con la frecuencia',
           say: 'Al nacer: secar, estimular y posicionar. Si a los treinta segundos hay apnea o la frecuencia es menor de cien, ventilación. Si tras treinta segundos de ventilación sigue bajo sesenta, masaje tres a uno. Y si persiste, adrenalina.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Reanimación neonatal',
-      images: [
-        { src: 'biblioteca/15_pediatria/ped-15/01_algoritmo-reanimacion-neonatal__cto-pediatria_p8.jpg', label: 'Algoritmo', credit: 'Manual CTO Pediatría 14.ª ed., p. 8' },
-      ],
-      steps: [
-        { note: 'El minuto de oro',
-          say: 'En el primer minuto: secar, estimular, posicionar y, si no respira, ventilar.' },
       ],
     },
 
@@ -193,6 +262,10 @@ module.exports = {
           say: 'Frecuencia bajo sesenta tras treinta segundos de ventilación efectiva: recién ahí masaje cardíaco. El error es seguir solo con ventilación varios minutos más.' },
         { cells: ['Meconio y recién nacido vigoroso', 'Apego con la madre, sin aspirar', 'Aspirar la tráquea de todas formas'],
           say: 'Meconio con un recién nacido vigoroso: apego con la madre, sin aspirar. El error, ya superado, es aspirar la tráquea igual.' },
+        { cells: ['Encefalopatía moderada o severa, 36 semanas o más', 'Hipotermia terapéutica en las primeras 6 horas', 'Calentar al niño o esperar la evolución'],
+          say: 'Encefalopatía hipóxico-isquémica moderada o severa en un recién nacido de treinta y seis semanas o más: hipotermia terapéutica en las primeras seis horas, con traslado precoz. El error es calentar al niño o esperar.' },
+        { cells: ['Cianosis que mejora al llorar', 'Atresia de coanas: sonda, TAC y vía aérea oral', 'Pensar en cardiopatía y dar oxígeno solo'],
+          say: 'Cianosis que mejora al llorar: atresia de coanas. Compruebas la sonda, pides TAC, aseguras la vía aérea oral y derivas a otorrino. El error es pensar solo en cardiopatía.' },
         { cells: ['Apgar bajo a los 5 minutos', 'Valor pronóstico, no inicia la reanimación', 'Esperar el puntaje para decidir'],
           say: 'Y un Apgar bajo a los cinco minutos tiene valor pronóstico, pero no inicia nada. El error es esperar el puntaje para decidir si reanimas.' },
       ],
@@ -291,6 +364,195 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.114 · Asfixia neonatal",
+      "stem": "Recién nacido de 39 semanas, por cesárea de urgencia por desprendimiento de placenta. Requirió ventilación a presión positiva y masaje cardíaco. Apgar 2 al minuto y 4 a los 5 minutos. Gases de cordón: pH 6,88 y exceso de base −18. A las 2 horas de vida está hipotónico, letárgico, con reflejos primitivos débiles.",
+      "question": "¿Cuál es la intervención que más reduce la mortalidad y las secuelas neurológicas en este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bicarbonato de sodio endovenoso para corregir la acidosis"
+        },
+        {
+          "letter": "B",
+          "text": "Fenobarbital profiláctico"
+        },
+        {
+          "letter": "C",
+          "text": "Hiperventilación para bajar el CO2"
+        },
+        {
+          "letter": "D",
+          "text": "Hipotermia terapéutica iniciada antes de las 6 horas de vida"
+        },
+        {
+          "letter": "E",
+          "text": "Hidratación con aporte hídrico alto para mejorar la perfusión renal"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Acidosis grave en cordón, Apgar bajo persistente, reanimación avanzada y encefalopatía moderada a severa definen asfixia neonatal con encefalopatía hipóxico-isquémica. La hipotermia terapéutica, iniciada antes de las 6 horas, es la única intervención que reduce muerte y discapacidad. El bicarbonato y el fenobarbital profiláctico no están indicados.",
+      "say": {
+        "stem": "Recién nacido de treinta y nueve semanas, por cesárea de urgencia por un desprendimiento de placenta. Necesitó ventilación y masaje cardíaco, con Apgar de dos al minuto y cuatro a los cinco minutos. El pH de cordón es seis coma ocho ocho, con exceso de base de menos dieciocho, y a las dos horas está hipotónico y letárgico.",
+        "question": "¿Cuál es la intervención que más reduce la mortalidad y las secuelas neurológicas?",
+        "options": "Las opciones: bicarbonato endovenoso, fenobarbital profiláctico, hiperventilación, hipotermia terapéutica antes de las seis horas o hidratación abundante. Piénsalo.",
+        "answer": "Es la D. Es una asfixia neonatal con encefalopatía hipóxico isquémica, y la hipotermia terapéutica iniciada antes de las seis horas es lo único que ha demostrado reducir la muerte y las secuelas. El bicarbonato tienta para corregir la acidosis, pero no mejora el pronóstico y puede dañar."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.3.016 · Vínculo y apego",
+      "stem": "Recién nacido de término, de 3.300 g, nace por parto vaginal, vigoroso, llorando y con buen tono. La madre está estable y desea tenerlo consigo.",
+      "question": "¿Qué intervención inmediata favorece más el vínculo y el apego temprano?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aspirar de rutina las secreciones orofaríngeas y gástricas"
+        },
+        {
+          "letter": "B",
+          "text": "Bañar al recién nacido antes de entregárselo a la madre"
+        },
+        {
+          "letter": "C",
+          "text": "Trasladarlo a observación en cuna radiante por 2 horas"
+        },
+        {
+          "letter": "D",
+          "text": "Administrar fórmula láctea para prevenir hipoglicemia"
+        },
+        {
+          "letter": "E",
+          "text": "Contacto piel a piel inmediato con su madre e inicio de lactancia en la primera hora"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En el recién nacido vigoroso se recomienda contacto piel a piel inmediato e ininterrumpido y lactancia en la primera hora: favorece el apego, la termorregulación, la estabilidad glicémica y el éxito de la lactancia. Separarlo para baño, observación o aspiración rutinaria no tiene beneficio y lo interrumpe.",
+      "say": {
+        "stem": "Recién nacido de término, vigoroso, con madre estable que quiere tenerlo con ella.",
+        "question": "¿Qué hace más por el apego temprano?",
+        "options": "Las opciones: aspirar secreciones, bañarlo primero, cuna radiante, fórmula o piel a piel con lactancia precoz. Piénsalo.",
+        "answer": "Es la E. El contacto piel a piel inmediato con lactancia en la primera hora es lo que más favorece el apego. Aspirar secreciones tienta como rutina, pero en un recién nacido vigoroso no se recomienda y lo separa de su madre."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.078 · Encefalopatía hipóxico-isquémica",
+      "stem": "Un recién nacido de 39 semanas nace tras un desprendimiento de placenta, con Apgar 2 al minuto y 4 a los 10 minutos, requiriendo ventilación con presión positiva. El pH de cordón es 6,9 con exceso de base -18. A las 2 horas de vida está letárgico, hipotónico, con succión débil y reflejos disminuidos.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Observar en puerperio con su madre"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar hipotermia terapéutica antes de las 6 horas de vida"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar fenobarbital profiláctico"
+        },
+        {
+          "letter": "D",
+          "text": "Administrar bicarbonato endovenoso en bolo"
+        },
+        {
+          "letter": "E",
+          "text": "Calentar activamente hasta 38 °C"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Asfixia perinatal (evento centinela, Apgar bajo prolongado, acidosis grave de cordón) con encefalopatía moderada a grave en un recién nacido de 36 semanas o más es indicación de hipotermia terapéutica (33 a 34 °C por 72 horas), iniciada antes de las 6 horas de vida, porque reduce muerte y discapacidad.",
+      "say": {
+        "stem": "Un recién nacido de término con asfixia grave, Apgar bajo y acidosis importante en el cordón está letárgico e hipotónico a las dos horas de vida.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: observar con su madre, hipotermia terapéutica antes de las seis horas, fenobarbital profiláctico, bicarbonato o calentar a treinta y ocho grados. Piénsalo.",
+        "answer": "Es la B. Es una encefalopatía hipóxico isquémica moderada a grave, y la hipotermia terapéutica precoz reduce la muerte y las secuelas. Calentar activamente tienta porque se evita la hipotermia en los recién nacidos, pero aquí la hipertermia empeora el daño cerebral."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 100",
+      "stem": "Un recién nacido de término, de 37 semanas de gestación y peso de 2.900 g, presenta temperatura corporal de 35,5 °C sin otras alteraciones. Se realiza secado de la piel y se indica contacto piel con piel con su madre; sin embargo, persiste con temperatura en dicho rango.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Poner en incubadora a 38 °C"
+        },
+        {
+          "letter": "B",
+          "text": "Poner en incubadora precalentada y ajustar progresivamente la temperatura"
+        },
+        {
+          "letter": "C",
+          "text": "Poner en cuna con calor radiante, sin ropa ni cobertor"
+        },
+        {
+          "letter": "D",
+          "text": "Administrar suero glucosado al 10% por vía endovenosa"
+        },
+        {
+          "letter": "E",
+          "text": "Cubrir al recién nacido con mantas"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La hipotermia neonatal moderada (32 a 35,9 °C) que no responde a medidas generales (secado, piel con piel, abrigo) se trata con recalentamiento controlado en incubadora precalentada, ajustando la temperatura en forma progresiva y monitorizando glicemia. Un recalentamiento brusco a 38 °C puede causar apneas e hipotensión.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Un recién nacido de término tiene treinta y cinco y medio grados y persiste así pese al secado y al contacto piel con piel.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: incubadora a treinta y ocho grados, incubadora precalentada con ajuste progresivo, cuna radiante sin ropa, suero glucosado o mantas. Piénsalo.",
+        "answer": "Es la B. Una hipotermia moderada que no responde a medidas generales se corrige con una incubadora precalentada y un recalentamiento progresivo. La incubadora a treinta y ocho grados tienta, pero un recalentamiento brusco puede causar apneas e hipotensión."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.2.005 · Atresia coanal congénita",
+      "stem": "Recién nacido de término presenta episodios de cianosis y dificultad respiratoria que empeoran al alimentarse y mejoran con el llanto. Al intentar pasar una sonda nasogástrica por ambas fosas nasales, esta no progresa más allá de 3 cm.",
+      "question": "¿Cuál es el diagnóstico y la medida inmediata?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Laringomalacia; posición prona"
+        },
+        {
+          "letter": "B",
+          "text": "Taquipnea transitoria; oxígeno"
+        },
+        {
+          "letter": "C",
+          "text": "Hernia diafragmática; intubación y sonda"
+        },
+        {
+          "letter": "D",
+          "text": "Fístula traqueoesofágica; régimen cero"
+        },
+        {
+          "letter": "E",
+          "text": "Atresia de coanas bilateral; asegurar vía aérea oral (cánula de Guedel o chupete de McGovern) y derivar para TAC y cirugía"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El recién nacido es respirador nasal obligado: la atresia de coanas bilateral da cianosis cíclica que mejora con el llanto (respira por la boca) y empeora al alimentarse. Se sospecha si la sonda no pasa por las fosas nasales. Se asegura una vía aérea oral, se confirma con TAC y se corrige quirúrgicamente. Se asocia a CHARGE.",
+      "say": {
+        "stem": "Recién nacido con cianosis que empeora al alimentarse y mejora al llorar, en quien la sonda no pasa por ninguna fosa nasal.",
+        "question": "¿Cuál es el diagnóstico y la medida inmediata?",
+        "options": "Las opciones: laringomalacia, taquipnea transitoria, hernia diafragmática, fístula traqueoesofágica o atresia de coanas bilateral con vía aérea oral. Piénsalo.",
+        "answer": "Es la E. Es una atresia de coanas bilateral y lo inmediato es asegurar una vía aérea oral. La fístula traqueoesofágica tienta por los síntomas con la alimentación, pero en ella la sonda no baja al estómago por el esófago, no se detiene en la nariz."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -309,7 +571,7 @@ module.exports = {
         ] },
         { title: 'El Apgar', tag: 'Pronóstico, no decisión', kind: 'normal', items: [
           { t: 'Nunca decide si reanimas', d: 'Eso lo decide la FC y la respiración',
-            say: 'Y el Apgar nunca decide si reanimas: eso ya lo decidiste con la frecuencia y la respiración. Si te llevas una sola idea de hoy: el orden es ventilar, después masajear, y adrenalina al final. Nos vemos en la próxima clase.' },
+            say: 'Y el Apgar nunca decide si reanimas: eso ya lo decidiste con la frecuencia y la respiración. Si el niño quedó con encefalopatía moderada o severa, recuerda la hipotermia terapéutica antes de las seis horas. Si te llevas una sola idea de hoy: el orden es ventilar, después masajear, y adrenalina al final. Nos vemos en la próxima clase.' },
         ] },
       ],
     },

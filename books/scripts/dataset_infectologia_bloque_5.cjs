@@ -29,16 +29,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -128,6 +129,14 @@ const bloque5 = [
           '• <strong>Cefadroxilo oral (500 mg c/12h) o Cefalexina (500 mg c/6h) o Flucloxacilina (500 mg c/8h):</strong> fármacos de primera línea en Chile (cubren tanto S. aureus como S. pyogenes).<br>' +
           '• <strong>Alergia a betalactámicos:</strong> Clindamicina (300 mg c/8h oral) o Cotrimoxazol forte (1 comp c/12h oral si sospecha de SAMR comunitario).<br>' +
           '<strong>Criterios de hospitalización y terapia endovenosa (Cefazolina 1 g c/8h EV o Cloxacilina 1-2 g c/4-6h EV):</strong> toxicidad sistémica (SIRS/sepsis), progresión rápida a pesar de antibióticos orales por 48 horas, comorbilidades descompensadas (diabetes, cirrosis, inmunosupresión) o celulitis facial por riesgo de trombosis del seno cavernoso.',
+        ],
+      },
+      {
+        subhead: '4. Ántrax Estafilocócico, Piodermias, Gram y Cultivo, y Drenaje de Abscesos',
+        paragraphs: [
+          '<strong>Ántrax estafilocócico:</strong> infección profunda de varios folículos vecinos (conglomerado de forúnculos) con drenaje por múltiples orificios, en nuca, espalda y muslos de diabéticos y obesos; da fiebre y compromiso general. Se trata con <strong>drenaje quirúrgico y antibiótico</strong> (cloxacilina o cefadroxilo; si hay sospecha de SAMR, TMP-SMX, clindamicina o doxiciclina). No confundir con el carbunco por <em>B. anthracis</em> (escara negra indolora, Tema 4.6). Otras piodermias: <strong>impétigo</strong> (mupirocina tópica; cefadroxilo si es extenso), ectima, paroniquia, <strong>hidradenitis supurativa</strong> (nódulos dolorosos recurrentes en axila, ingle y submamario; clindamicina + rifampicina, derivar) y síndrome de piel escaldada estafilocócica (niños, signo de Nikolsky). Las piodermias estreptocócicas pueden complicarse con glomerulonefritis.',
+          '<strong>Gram y cultivo de lesiones cutáneas:</strong> están indicados cuando hay <strong>pus o absceso</strong>, mal resultado del antibiótico, sospecha de SAMR, inmunosupresión o enfermedad sistémica; en la celulitis sin pus el cultivo de la piel es poco rentable (se piden hemocultivos si hay fiebre). La muestra se toma del pus aspirado o del contenido del absceso, no de una costra superficial colonizada. El Gram orienta: cocos grampositivos en <strong>racimos</strong> (<em>Staphylococcus</em>), en <strong>cadenas</strong> (<em>Streptococcus</em>), bacilos gramnegativos (pie diabético, <em>Pseudomonas</em>); el cultivo con antibiograma identifica la resistencia a oxacilina (SAMR). Se interpreta junto con la clínica: un cultivo de herida sin signos de infección es colonización y no se trata.',
+          '<strong>Drenaje de absceso superficial (nivel «realizar»):</strong> el drenaje es el <strong>tratamiento principal</strong>. Se indica ante fluctuación (eco si hay duda; no drenar una masa pulsátil). Técnica: consentimiento, antisepsia, anestesia local con lidocaína infiltrada alrededor, <strong>incisión lineal amplia sobre el punto más fluctuante</strong> siguiendo las líneas de tensión, romper las lóculos con pinza, evacuar el pus (enviar cultivo), irrigar y dejar una mecha o taponamiento por 24–48 h, con curaciones diarias. Se agrega antibiótico si hay celulitis extensa (&gt; 5 cm), fiebre o SIRS, inmunosupresión, diabetes, abscesos múltiples o localización en cara, manos o genitales. Se verifica la profilaxis antitetánica.',
         ],
       },
     ],
@@ -227,6 +236,14 @@ const bloque5 = [
           '• <strong>Rubéola congénita (Tríada de Gregg):</strong> <strong>catarata congénita</strong>, hipoacusia neurosensorial y cardiopatía congénita (<strong>Ductus Arterioso Persistente - DAP</strong>).',
         ],
       },
+      {
+        subhead: '4. Hemograma, Adenopatías y Síndrome Febril Prolongado',
+        paragraphs: [
+          '<strong>Hemograma y VHS en infecciosas:</strong> <strong>linfocitosis con linfocitos atípicos</strong> (&gt; 10 %) sugiere mononucleosis o CMV; <strong>leucocitosis con neutrofilia y desviación a izquierda</strong> (&gt; 15.000/mm³) sugiere infección bacteriana; la leucopenia/neutropenia se ve en virosis, tifoidea, brucelosis y sepsis grave; la <strong>eosinofilia</strong> sugiere parasitosis tisulares (triquinosis, hidatidosis, estrongiloidiasis); la trombocitopenia, dengue, malaria o sepsis. La VHS es inespecífica: valores &gt; 100 mm/h orientan a endocarditis, TBC, osteomielitis, vasculitis, mieloma o neoplasia; la PCR sube y baja más rápido y sirve para seguir la respuesta.',
+          '<strong>Enfoque de las adenopatías:</strong> son patológicas si miden &gt; 1 cm (epitroclear &gt; 0,5 cm, inguinal &gt; 1,5 cm). Localizada vs generalizada; <strong>blanda, dolorosa y móvil</strong> orienta a infección reactiva (viral, estreptocócica, <em>Bartonella</em>, TBC); <strong>dura, indolora, adherida o supraclavicular</strong> orienta a linfoma o metástasis. Se investiga fiebre, sudoración, baja de peso, contacto con gatos, TBC y viajes, se examina hígado y bazo y se pide hemograma, VHS/PCR, serologías (EBV, CMV, VIH, toxoplasma) y Rx de tórax. Si es localizada y benigna se observa 2–4 semanas; se hace <strong>biopsia</strong> si es &gt; 2 cm, crece, es dura o supraclavicular, persiste más de 4–6 semanas o se asocia a síntomas B o masa mediastínica (sin corticoides previos). Se deriva.',
+          '<strong>Síndrome febril prolongado</strong> (fiebre &gt; 14 días en el niño, &gt; 3 semanas con estudio ambulatorio negativo en el adulto): las causas son infecciones (CMV, EBV, TBC, endocarditis, abscesos ocultos, brucelosis, osteomielitis), enfermedades del tejido conectivo (Still, LES, Kawasaki, vasculitis), neoplasias (leucemia, linfoma) y fármacos. Estudio escalonado: historia detallada (viajes, animales, fármacos, contactos), examen repetido, hemograma, VHS/PCR, perfil hepático, sedimento y urocultivo, <strong>hemocultivos × 3</strong>, Rx de tórax, PPD, serologías y ecografía abdominal. <strong>No se inician antibióticos ni corticoides empíricos</strong> sin diagnóstico; se deriva a infectología o pediatría si persiste. El CMV es una causa frecuente y benigna en el inmunocompetente.',
+        ],
+      },
     ],
     table: {
       title: 'Diagnóstico Diferencial Etiológico del Síndrome Mononucleósico',
@@ -319,6 +336,12 @@ const bloque5 = [
           '4. <strong>Exantema polimorfo difuso</strong> (no vesicular).<br>' +
           '5. <strong>Linfadenopatía cervical unilateral no purulenta (≥ 1.5 cm)</strong>.',
           '<strong>Tratamiento de urgencia:</strong> <strong>Inmunoglobulina Endovenosa (IGEV 2 g/kg en infusión única) + Ácido Acetilsalicílico (Aspirina)</strong> en dosis antiinflamatoria (30-50 mg/kg/día). Administrada antes del décimo día de fiebre, reduce el riesgo de <strong>aneurismas de las arterias coronarias</strong> del 25% a menos del 3-5%.',
+        ],
+      },
+      {
+        subhead: '4. Vasculitis en la Infancia: Púrpura de Schönlein-Henoch y Otras',
+        paragraphs: [
+          'La <strong>púrpura de Schönlein-Henoch</strong> (vasculitis por IgA) es la vasculitis más frecuente del niño (3–15 años) y suele seguir a una infección respiratoria. Tétrada: <strong>púrpura palpable</strong> en extensores de piernas y glúteos con plaquetas y coagulación normales, <strong>artritis</strong> de rodillas y tobillos, <strong>dolor abdominal cólico</strong> (puede complicarse con invaginación o hemorragia digestiva) y <strong>compromiso renal</strong> (hematuria, proteinuria). El diagnóstico es clínico; se trata con reposo y analgesia (AINE para la artritis; corticoides si el dolor abdominal es intenso), y se controla la presión arterial y la orina por 6–12 meses. Se deriva si hay proteinuria nefrótica, hemorragia digestiva o sospecha de invaginación. Otras vasculitis infantiles: <strong>Kawasaki</strong> (gammaglobulina EV + AAS), poliarteritis nodosa, Takayasu y las asociadas a ANCA; se sospechan ante fiebre prolongada con púrpura u otro compromiso orgánico. Diferenciar de la meningococcemia (petequias con fiebre tóxica) y de la PTI (plaquetas bajas).',
         ],
       },
     ],
@@ -512,6 +535,13 @@ const bloque5 = [
           'Conducta obligatoria: <strong>TAC de tórax de alta resolución</strong> (buscar el <strong>Signo del Halo</strong>) e inicio inmediato de <strong>Voriconazol EV</strong> o una Equinocandina (Caspofungina).',
         ],
       },
+      {
+        subhead: '4. Mucormicosis y Fiebre sin Foco o Prolongada',
+        paragraphs: [
+          '<strong>Mucormicosis</strong> (<em>Rhizopus</em>, <em>Mucor</em>): hongo angioinvasor que causa necrosis tisular; afecta a pacientes con <strong>cetoacidosis diabética</strong>, neutropenia prolongada, trasplante, corticoides, sobrecarga de hierro (deferoxamina) o COVID-19 grave. La forma <strong>rinocerebral</strong> da dolor facial, secreción nasal sanguinolenta, <strong>escara negra</strong> en paladar o cornetes, edema periorbitario, proptosis y oftalmoplejía; también hay formas pulmonar y cutánea. Sospecharla cuando hay necrosis y el paciente empeora con voriconazol (no tiene actividad contra mucorales). Diagnóstico urgente con <strong>biopsia</strong> (hifas anchas, aseptadas, ramificadas en ángulo recto). Tratamiento: <strong>desbridamiento quirúrgico amplio + anfotericina B liposomal</strong> (5–10 mg/kg/día), corrección de la acidosis y la glicemia y reducción de la inmunosupresión; posaconazol o isavuconazol de rescate. Mortalidad cercana a 50 %; se deriva de inmediato.',
+          '<strong>Fiebre sin foco y fiebre prolongada del adulto:</strong> la fiebre de menos de 7 días con examen y exámenes básicos (hemograma, PCR, orina, Rx de tórax) normales es habitualmente viral: manejo sintomático y control; son signos de alarma la inmunosupresión, la neutropenia, el catéter o prótesis, el compromiso hemodinámico y la edad extrema. La fiebre &gt; 3 semanas (&gt; 38,3 °C) sin diagnóstico tras estudio inicial se estudia de forma escalonada: hemocultivos × 3, hemograma, PCR/VHS, perfil hepático, LDH, sedimento, Rx, ecografía/TAC, PPD o IGRA, serologías (VIH, EBV, CMV, <em>Brucella</em>), ANA y ecocardiograma si hay soplo. Causas: infecciosas (TBC, endocarditis, abscesos), inflamatorias (arteritis de células gigantes en el anciano, Still) y neoplasias (linfoma). Se sospecha, se inicia el estudio y se deriva; no se dan antibióticos ni corticoides empíricos.',
+        ],
+      },
     ],
     table: {
       title: 'Estratificación y Manejo de la Neutropenia Febril EUNACOM',
@@ -559,6 +589,121 @@ const bloque5 = [
         correcta: 'B',
         explicacion: 'En un paciente con neutropenia febril prolongada que persiste con fiebre al 4°-7° día a pesar de cobertura antibiótica bacteriana de amplio espectro óptima, la principal sospecha es una Infección Fúngica Invasora (especialmente Aspergilosis pulmonar invasora o Candidiasis diseminada). La conducta protocolizada es solicitar TAC de tórax de alta resolución (en busca de nódulos con signo del halo característicos de Aspergillus) e iniciar de inmediato cobertura antifúngica empírica con Voriconazol o una Equinocandina (Caspofungina).',
         recTag: 'Banco de Preguntas Oficial · Neutropenia Febril',
+      },
+    ],
+  },
+  {
+    id: 'inf-25',
+    classId: 'infecto-25',
+    tier: 2,
+    blockNum: 5,
+    blockName: 'Infecciones Comunitarias, Exantemas y Huésped Inmunocomprometido',
+    topicLabel: '5.6',
+    title: 'Virus Respiratorios: Influenza y COVID-19 (Adulto y Niño)',
+    perfilCode: '1.04.1.016, 1.04.1.029, 2.01.2.144',
+    dx: 'Específico', tx: 'Completo', seg: 'Completo',
+    ges: 'Sin garantía GES específica · Vacunación anual contra influenza y vacunación anti-SARS-CoV-2 en el Programa Nacional de Inmunizaciones · Notificación obligatoria (ENO) de las formas graves',
+    reconstrucciones: 'EUNACOM Julio 2015 (Q#141) · EUNACOM Julio 2013 (Q#156) · EUNACOM Agosto 2021 (Q#36)',
+    frecuencia: 'Alta rentabilidad · oseltamivir solo en grupos de riesgo o formas graves, y síndrome inflamatorio multisistémico del niño tras COVID-19',
+    svg: null, algoTitle: 'Algoritmo de Manejo de la Infección Respiratoria Viral por Influenza o SARS-CoV-2',
+    diagram: flow('Manejo de Influenza y COVID-19 en el Paciente Ambulatorio', [
+      { t: 'Cuadro Respiratorio Agudo Febril en Temporada Epidémica', s: 'Fiebre, mialgias, cefalea, tos seca y odinofagia · Confirmar con PCR o antígeno viral en las primeras horas' },
+      { k: 'split', q: '¿Grupo de riesgo o signos de gravedad?', s: 'Edad ≥ 65 años o < 5 años, embarazo, obesidad, enfermedad crónica, inmunosupresión | disnea, SpO₂ < 94 %, FR elevada', ll: 'riesgo o gravedad', rl: 'sin riesgo',
+        left: { t: 'Influenza: Oseltamivir 75 mg c/12 h x 5 días · COVID-19: Nirmatrelvir/Ritonavir x 5 días', s: 'Iniciar sin esperar confirmación si hay gravedad · hospitalizar si hipoxemia · dexametasona 6 mg/día si requiere oxígeno', type: 'crit' },
+        right: { t: 'Tratamiento Sintomático y Aislamiento', s: 'Paracetamol, hidratación, reposo · Signos de alarma para volver a consultar · Oseltamivir opcional en influenza', type: 'acc' } },
+      { t: 'Niño con Fiebre 2 a 6 Semanas Después de COVID-19: Sospechar MIS-C', s: 'Fiebre persistente, compromiso multisistémico y marcadores inflamatorios elevados · Derivar a UCI pediátrica', type: 'warn', al: 'perla pediátrica', from: 'left' },
+    ]),
+    contexto: 'La influenza y la COVID-19 son las dos virosis respiratorias de mayor impacto estacional. En el EUNACOM se evalúa el reconocimiento clínico, el uso racional de antivirales (oseltamivir en influenza y nirmatrelvir/ritonavir en COVID-19, reservados a grupos de riesgo o formas graves), la estratificación de gravedad y las complicaciones pediátricas, en particular el síndrome inflamatorio multisistémico (MIS-C) que aparece semanas después de la infección por SARS-CoV-2.',
+    contentSections: [
+      {
+        subhead: '1. Influenza: Clínica, Diagnóstico y Complicaciones',
+        paragraphs: [
+          'La <strong>influenza</strong> (virus influenza A y B) se transmite por gotitas y tiene brotes invernales. Se presenta con <strong>fiebre alta de inicio brusco, mialgias, cefalea, malestar intenso, tos seca y odinofagia</strong>, a diferencia del resfrío común (rinorrea y congestión predominan, sin fiebre alta). Dura 3–7 días. El diagnóstico es clínico en temporada; la confirmación (PCR o inmunofluorescencia de aspirado nasofaríngeo) se reserva para pacientes hospitalizados, graves o para vigilancia.',
+          '<strong>Complicaciones:</strong> neumonía viral primaria, <strong>neumonía bacteriana secundaria</strong> (<em>S. pneumoniae</em>, <em>S. aureus</em>), descompensación de enfermedades crónicas (EPOC, asma, insuficiencia cardíaca), miocarditis, encefalopatía y, en niños con aspirina, síndrome de Reye (por eso no se usa AAS). Son <strong>grupos de riesgo</strong>: edad ≥ 65 años, menores de 5 años (sobre todo menores de 2 años), embarazadas, obesidad mórbida, enfermedades cardiopulmonares, renales, hepáticas, diabetes e inmunosupresión.',
+        ],
+      },
+      {
+        subhead: '2. Influenza: Tratamiento Antiviral y Prevención',
+        paragraphs: [
+          '<strong>Oseltamivir 75 mg cada 12 horas por 5 días</strong> (inhibidor de la neuraminidasa), idealmente dentro de las primeras 48 horas, pero <strong>sin esperar</strong> en formas graves u hospitalizadas, en que se da aunque hayan pasado más horas. Está indicado en <strong>grupos de riesgo</strong>, embarazadas y formas graves; en un adulto sano sin factores de riesgo con cuadro leve basta el manejo sintomático (el oseltamivir es opcional y acorta la enfermedad solo alrededor de un día). Ajustar en insuficiencia renal. En niños la dosis es por peso: ≤ 15 kg 30 mg, 15–23 kg 45 mg, 23–40 kg 60 mg y &gt; 40 kg 75 mg cada 12 horas; en lactantes menores de 1 año 3 mg/kg por dosis.',
+          '<strong>Prevención:</strong> <strong>vacuna inactivada anual</strong> (embarazadas, ≥ 65 años, enfermos crónicos, personal de salud y niños de 6 meses a 5.º básico, gratuita en el PNI), lavado de manos, etiqueta respiratoria y aislamiento por gotitas. La quimioprofilaxis postexposición con oseltamivir se reserva para contactos de alto riesgo no vacunados. Se notifican los casos de infección respiratoria aguda grave.',
+        ],
+      },
+      {
+        subhead: '3. COVID-19: Clasificación de Gravedad y Tratamiento del Adulto',
+        paragraphs: [
+          'La <strong>COVID-19</strong> (SARS-CoV-2) va desde infección asintomática hasta insuficiencia respiratoria grave. Síntomas: fiebre, tos, odinofagia, mialgias, cefalea, y anosmia/ageusia (menos frecuentes con las variantes recientes). Se confirma con <strong>PCR</strong> o <strong>test de antígeno</strong> (más rendimiento en los primeros 5–7 días de síntomas). Clasificación: <strong>leve</strong> (sin disnea ni neumonía), <strong>moderada</strong> (neumonía con SpO₂ ≥ 94 %), <strong>grave</strong> (SpO₂ &lt; 94 % ambiental, FR &gt; 30 rpm o infiltrados &gt; 50 %) y <strong>crítica</strong> (insuficiencia respiratoria, shock, falla multiorgánica). Factores de riesgo de progresión: edad avanzada, obesidad, diabetes, enfermedad cardiovascular o renal, inmunosupresión y no estar vacunado.',
+          '<strong>Enfermedad leve a moderada (nivel completo):</strong> manejo sintomático (paracetamol, hidratación, reposo), aislamiento mientras haya síntomas, educación sobre signos de alarma (disnea, saturación baja, dolor torácico, compromiso de conciencia) y control. En pacientes con <strong>riesgo de progresión</strong> se indica <strong>nirmatrelvir/ritonavir</strong> (300/100 mg cada 12 h por 5 días, dentro de los primeros 5 días de síntomas; ojo con las <strong>interacciones</strong> del ritonavir y el ajuste en insuficiencia renal) o remdesivir por 3 días. Los antibióticos solo se usan ante sobreinfección bacteriana. Si requiere oxígeno: <strong>dexametasona 6 mg al día por hasta 10 días</strong>, anticoagulación profiláctica y, en casos seleccionados, baricitinib o tocilizumab; se hospitaliza con SpO₂ &lt; 94 %.',
+        ],
+      },
+      {
+        subhead: '4. COVID-19 en el Niño: Manejo y MIS-C',
+        paragraphs: [
+          'En el niño la COVID-19 es habitualmente <strong>leve</strong> (fiebre, tos, rinorrea, síntomas digestivos, laringitis o bronquiolitis). Se maneja con tratamiento sintomático y vigilancia de <strong>signos de gravedad</strong>: dificultad respiratoria, retracciones, SpO₂ &lt; 94 %, rechazo alimentario, somnolencia o deshidratación. Los lactantes, los niños con cardiopatías, inmunosupresión, obesidad o enfermedades crónicas tienen más riesgo; se hospitaliza si hay hipoxemia y se usa dexametasona si requiere oxígeno. El antiviral se reserva para adolescentes de riesgo (≥ 12 años y ≥ 40 kg).',
+          '<strong>Síndrome inflamatorio multisistémico pediátrico (MIS-C):</strong> aparece <strong>2 a 6 semanas</strong> después de la infección o el contacto con SARS-CoV-2, como una respuesta inmune exagerada. Fiebre persistente (≥ 3 días) con compromiso de varios órganos: dolor abdominal y vómitos (puede simular apendicitis), exantema, conjuntivitis, shock, miocarditis o disfunción ventricular. Laboratorio: <strong>PCR, ferritina, dímero D, troponina y BNP elevados</strong>, linfopenia y trombocitopenia. Se diferencia del Kawasaki por la edad mayor, el predominio de síntomas digestivos y el shock. Es una urgencia: se deriva a UCI pediátrica para <strong>inmunoglobulina EV, corticoides</strong> y manejo del shock, con ecocardiograma.',
+        ],
+      },
+    ],
+    table: {
+      title: 'Influenza versus COVID-19: Diferencias Prácticas',
+      headers: ['Aspecto', 'Influenza', 'COVID-19', 'Conducta'],
+      rows: [
+        ['Inicio y síntomas', 'Brusco; fiebre alta, mialgias, cefalea intensos', 'Variable; anosmia/ageusia, disnea, cuadro más prolongado', 'Confirmar con PCR o antígeno'],
+        ['Antiviral', 'Oseltamivir 75 mg c/12 h x 5 días', 'Nirmatrelvir/ritonavir x 5 días o remdesivir x 3 días', 'Solo riesgo o gravedad (influenza: no esperar confirmación si es grave)'],
+        ['Corticoides', 'No recomendados de rutina', 'Dexametasona 6 mg/día si requiere oxígeno', 'Hospitalizar si SpO₂ < 94 %'],
+        ['Complicación pediátrica', 'Neumonía, miocarditis, Reye con AAS', 'MIS-C 2 a 6 semanas después', 'Derivar a UCI pediátrica'],
+        ['Vacuna', 'Anual (inactivada)', 'Esquema y refuerzos según PNI', 'Priorizar grupos de riesgo'],
+      ],
+    },
+    vignette: 'Mujer de 68 años, hipertensa y diabética tipo 2, consulta en julio por fiebre de 39 °C de inicio brusco hace 24 horas, mialgias intensas, cefalea y tos seca. En su comuna hay un brote de influenza. Saturación de oxígeno 96 % ambiental, frecuencia respiratoria 18 por minuto, sin disnea y auscultación pulmonar normal. No está vacunada.',
+    explicacion: 'Es una influenza en una paciente de un grupo de riesgo (más de 65 años, diabetes e hipertensión): el cuadro es típico, sin signos de neumonía ni de gravedad. Corresponde indicar oseltamivir 75 mg cada 12 horas por 5 días, idealmente en las primeras 48 horas, sin esperar la confirmación por laboratorio, además de tratamiento sintomático con paracetamol, hidratación y reposo, educación sobre signos de alarma y vacunación posterior. Los antibióticos no están indicados mientras no haya sobreinfección bacteriana, y los corticoides no forman parte del tratamiento de la influenza.',
+    keyPoints: [
+      'Influenza: fiebre alta brusca, mialgias, cefalea y tos seca; el diagnóstico en temporada es clínico.',
+      'Oseltamivir 75 mg cada 12 h por 5 días en grupos de riesgo (≥ 65 años, embarazo, crónicos, inmunosupresión) y formas graves; en el adulto sano con cuadro leve solo se da tratamiento sintomático.',
+      'No usar aspirina en niños con influenza (síndrome de Reye).',
+      'COVID-19: leve, moderada (neumonía con SpO₂ ≥ 94 %), grave (SpO₂ < 94 %) y crítica; el diagnóstico es por PCR o test de antígeno.',
+      'Nirmatrelvir/ritonavir en pacientes de riesgo dentro de 5 días; dexametasona 6 mg/día solo si requiere oxígeno.',
+      'MIS-C: fiebre y compromiso multisistémico 2 a 6 semanas después de COVID-19, con PCR, ferritina, dímero D y troponina elevados; se deriva a UCI pediátrica para inmunoglobulina y corticoides.',
+    ],
+    questions: [
+      {
+        stem: 'Un hombre de 22 años, sano, consulta en invierno por rinorrea, congestión nasal, fiebre de 38,5 °C, mialgias y tos seca de 2 días de evolución, durante un brote de influenza en su comuna. No tiene enfermedades crónicas ni signos de dificultad respiratoria. ¿Cuál es la conducta más adecuada?',
+        options: [
+          { id: 'A', text: 'Hospitalizar para oseltamivir endovenoso' },
+          { id: 'B', text: 'Iniciar amoxicilina-ácido clavulánico por riesgo de neumonía bacteriana' },
+          { id: 'C', text: 'Indicar prednisona oral por 5 días' },
+          { id: 'D', text: 'Solicitar PCR en todos los casos antes de decidir el manejo' },
+          { id: 'E', text: 'Tratamiento sintomático, con oseltamivir como opción en vez de indicación obligatoria' },
+        ],
+        correcta: 'E',
+        explicacion: 'En un adulto joven sano con influenza leve el tratamiento es sintomático (paracetamol, hidratación, reposo) y el oseltamivir es solo una opción, porque su beneficio es modesto. El oseltamivir está indicado en grupos de riesgo (≥ 65 años, embarazo, enfermedades crónicas, inmunosupresión) y en formas graves. Los antibióticos solo se usan si hay sobreinfección bacteriana, los corticoides no tienen lugar y el diagnóstico en temporada epidémica es clínico, sin necesidad de PCR en todos los casos.',
+        recTag: 'EUNACOM Julio 2015 · Influenza',
+      },
+      {
+        stem: 'Un adolescente de 14 años consulta por fiebre de 39 °C de 3 días, dolor abdominal, vómitos y diarrea, con exantema y conjuntivitis no purulenta. Hace 4 semanas tuvo un cuadro respiratorio leve del que no se hizo estudio y un familiar tuvo COVID-19. Al examen está hipotenso y taquicárdico. La PCR, la ferritina, el dímero D y la troponina están elevados. ¿Cuál es el diagnóstico más probable?',
+        options: [
+          { id: 'A', text: 'Apendicitis aguda complicada' },
+          { id: 'B', text: 'Síndrome inflamatorio multisistémico pediátrico asociado a SARS-CoV-2' },
+          { id: 'C', text: 'Gastroenteritis aguda por rotavirus' },
+          { id: 'D', text: 'Sarampión' },
+          { id: 'E', text: 'Neumonía viral por SARS-CoV-2' },
+        ],
+        correcta: 'B',
+        explicacion: 'Fiebre persistente con compromiso digestivo, mucocutáneo (exantema, conjuntivitis) y cardiovascular (hipotensión), con marcadores inflamatorios y troponina elevados 2 a 6 semanas después de un contacto o infección por SARS-CoV-2, configura el síndrome inflamatorio multisistémico (MIS-C). Es una urgencia: se deriva a UCI pediátrica para inmunoglobulina endovenosa, corticoides y soporte hemodinámico. La apendicitis y la gastroenteritis no explican el compromiso multisistémico ni los marcadores, y el cuadro no es una neumonía.',
+        recTag: 'EUNACOM Agosto 2021 · COVID-19 pediátrico',
+      },
+      {
+        stem: 'Un hombre de 58 años, obeso y diabético, no vacunado, consulta al segundo día de síntomas por fiebre, tos y mialgias. Test de antígeno positivo para SARS-CoV-2. Saturación 97 % ambiental y frecuencia respiratoria 16 por minuto. ¿Cuál es el manejo más adecuado?',
+        options: [
+          { id: 'A', text: 'Dexametasona 6 mg diarios por 10 días' },
+          { id: 'B', text: 'Hospitalización en UCI con tocilizumab' },
+          { id: 'C', text: 'Antibiótico de amplio espectro por vía endovenosa' },
+          { id: 'D', text: 'Manejo sintomático e indicar nirmatrelvir/ritonavir por 5 días, verificando las interacciones farmacológicas' },
+          { id: 'E', text: 'Solo reposo sin antivirales porque la enfermedad es leve' },
+        ],
+        correcta: 'D',
+        explicacion: 'Es una COVID-19 leve en un paciente con factores de riesgo de progresión (obesidad, diabetes, falta de vacunación). Se indica tratamiento antiviral precoz, dentro de los primeros 5 días de síntomas: nirmatrelvir/ritonavir 300/100 mg cada 12 horas por 5 días, revisando las interacciones del ritonavir con sus otros fármacos y la función renal, junto con manejo sintomático y signos de alarma. La dexametasona está reservada a quienes requieren oxígeno y puede ser perjudicial en la enfermedad leve; los antibióticos no tienen indicación sin sobreinfección bacteriana.',
+        recTag: 'Banco de Preguntas Oficial · COVID-19 del adulto',
       },
     ],
   },

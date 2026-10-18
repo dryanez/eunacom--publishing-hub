@@ -92,7 +92,8 @@ module.exports = {
         ] },
         { title: 'Imagen', tag: 'Fase tardía', kind: 'normal', items: [
           { t: 'Silla turca vacía', d: 'Fosa ocupada por líquido cefalorraquídeo',
-            say: 'Y en la imagen: en las fases tardías del Sheehan, la resonancia muestra la silla turca vacía. La fosa hipofisaria queda llena de líquido cefalorraquídeo, con una lámina atrófica de glándula pegada al piso.' },
+            say: 'Y en la imagen: en las fases tardías del Sheehan, la resonancia muestra la silla turca vacía: mira esta imagen. La fosa hipofisaria queda llena de líquido cefalorraquídeo, con una lámina atrófica de glándula pegada al piso.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-23/01_rm_silla_turca_vacia__nelson_p4815.jpg', label: 'Silla turca vacía', at: 'mira esta imagen', credit: 'Nelson 22.ª ed., Fig. 645.5A' } },
         ] },
       ],
     },
@@ -157,6 +158,68 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Eje gonadal en el hombre',
+      title: 'Hipogonadismo masculino: ¿falla el testículo o la hipófisis?',
+      nodes: [
+        { id: 'sus', col: 0, row: 2, k: 'start', t: 'Sospecha clínica', s: 'Libido baja, testículos pequeños, ginecomastia' },
+        { id: 'tes', col: 1, row: 2, k: 'q', t: 'Testosterona total matinal', s: 'Baja en dos mediciones' },
+        { id: 'lh', col: 2, row: 2, k: 'q', t: 'LH y FSH', s: 'Separan primario de secundario' },
+        { id: 'pri', col: 3, row: 0, k: 'effect', t: 'LH y FSH altas: primario', s: 'Falla el testículo' },
+        { id: 'ca1', col: 4, row: 0, k: 'cause', t: 'Klinefelter, orquitis, criptorquidia', s: 'Quimio o radioterapia, trauma' },
+        { id: 'sec', col: 3, row: 3, k: 'effect', t: 'LH y FSH bajas o normales: secundario', s: 'Falla la hipófisis o el hipotálamo' },
+        { id: 'ca2', col: 4, row: 2, k: 'cause', t: 'Prolactinoma, tumor selar, opioides', s: 'Hemocromatosis, Kallmann, obesidad' },
+        { id: 'nxt', col: 4, row: 4, k: 'refer', t: 'Prolactina, ferritina y RM selar', s: 'Si prolactina alta o más déficits' },
+      ],
+      edges: [
+        { from: 'sus', to: 'tes' }, { from: 'tes', to: 'lh' },
+        { from: 'lh', to: 'pri', label: 'altas' }, { from: 'pri', to: 'ca1' },
+        { from: 'lh', to: 'sec', label: 'bajas o normales' },
+        { from: 'sec', to: 'ca2' }, { from: 'sec', to: 'nxt' },
+      ],
+      steps: [
+        { show: ['sus'], note: 'Se sospecha por la clínica',
+          say: 'Antes de cerrar la clase, un contraste que sigue la misma lógica del eje: el hipogonadismo masculino. Lo sospechas ante libido baja, menos erecciones matinales, disfunción eréctil, ginecomastia, pérdida de vello, testículos pequeños o blandos, infertilidad u osteoporosis en un hombre. Si empieza antes de la pubertad, hay retraso puberal y proporciones eunucoides.' },
+        { show: ['tes'], note: 'Primero la testosterona de la mañana',
+          say: 'El diagnóstico parte con la testosterona total medida en la mañana, en ayunas. Tiene que estar baja en al menos dos mediciones, bajo trescientos nanogramos por decilitro aproximadamente.' },
+        { show: ['lh'], note: 'Luego LH y FSH',
+          say: 'Y después se piden LH y FSH. Es el mismo razonamiento de siempre: una hormona periférica baja, y la tropina te dice dónde está la falla.' },
+        { show: ['pri', 'ca1'], note: 'Tropinas altas: el testículo',
+          say: 'Si la LH y la FSH están altas, es un hipogonadismo primario: el testículo falla y la hipófisis lo empuja. La causa genética más frecuente es el síndrome de Klinefelter, con testículos pequeños y firmes, talla alta, ginecomastia y azoospermia, que se confirma con un cariotipo. También la orquitis urliana, la criptorquidia, la quimioterapia, la radioterapia y el trauma o la torsión testicular.' },
+        { show: ['sec', 'ca2'], note: 'Tropinas bajas o normales: la hipófisis',
+          say: 'Si la LH y la FSH están bajas, o inapropiadamente normales, es un hipogonadismo secundario. Aquí caben el prolactinoma, los tumores selares y el hipopituitarismo, la hemocromatosis, el síndrome de Kallmann, que cursa con anosmia, el uso de opioides, corticoides o anabolizantes, la obesidad severa y la diabetes mal controlada.' },
+        { show: ['nxt'], note: 'En el secundario, siempre buscar la causa',
+          say: 'En el secundario siempre mides prolactina y ferritina, y pides una resonancia de la silla turca si la prolactina está alta, si hay otros déficits hipofisarios o si hay síntomas de masa selar.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Eje gonadal en el hombre',
+      title: 'Testosterona: cuándo, a quién no y cómo se controla',
+      cards: [
+        { title: 'Tratamiento', tag: 'Primero la causa', kind: 'pharma', items: [
+          { t: 'Tratar la causa primero', d: 'Opioides, anabolizantes, peso, cabergolina',
+            say: 'Primero se trata la causa: suspender opioides o anabolizantes, bajar de peso, y cabergolina si es un prolactinoma.' },
+          { t: 'Testosterona solo con hipogonadismo confirmado', d: 'Gel diario o inyección intramuscular',
+            say: 'La terapia con testosterona se indica solo cuando el hipogonadismo está confirmado por la clínica y por el laboratorio. Se usa en gel diario o en inyecciones intramusculares, el undecanoato cada diez a catorce semanas, o el enantato cada dos a tres semanas.' },
+        ] },
+        { title: 'Contraindicaciones', tag: 'Se preguntan', kind: 'alert', items: [
+          { t: 'Cáncer de próstata o mama, APE sobre 4 sin estudio', d: 'Nódulo prostático',
+            say: 'No se da con cáncer de próstata o de mama, ni con un nódulo prostático o un antígeno prostático sobre cuatro sin estudio urológico.' },
+          { t: 'Hematocrito sobre 50 %, apnea grave, insuficiencia cardíaca', d: 'Descompensada o sin tratar',
+            say: 'Tampoco con hematocrito sobre cincuenta por ciento, apnea del sueño grave sin tratar o insuficiencia cardíaca descompensada.' },
+          { t: 'Si desea fertilidad: no', d: 'Suprime la espermatogénesis',
+            say: 'Y la contraindicación que más se olvida: si el paciente desea fertilidad a corto plazo. La testosterona suprime la espermatogénesis; en el hipogonadismo secundario eso se maneja con gonadotropinas, por el especialista.' },
+        ] },
+        { title: 'Seguimiento', tag: '3 a 6 meses, luego anual', kind: 'criteria', items: [
+          { t: 'Testosterona, hematocrito y APE', d: 'Hematocrito sobre 54 %: reducir o suspender',
+            say: 'El seguimiento es a los tres a seis meses y después cada año: testosterona, que debe quedar en el rango medio normal, hematocrito, que obliga a reducir o suspender si pasa de cincuenta y cuatro por ciento, y antígeno prostático con tacto rectal desde los cuarenta años.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -169,21 +232,6 @@ module.exports = {
           say: 'En el embarazo la hipófisis crece. Con una hemorragia grave del parto cae la presión, y la adenohipófisis se necrosa. Lo primero que falla es la prolactina: no hay leche. Después la amenorrea, el hipotiroidismo y la insuficiencia suprarrenal. Se trata primero con cortisol y recién después con levotiroxina.' },
       ],
     },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Silla turca vacía',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-23/01_rm_silla_turca_vacia__nelson_p4815.jpg', label: 'Silla turca vacía', credit: 'Nelson 22.ª ed., Fig. 645.5A' },
-      ],
-      steps: [
-        { note: 'Hipófisis aplanada',
-          say: 'En esta resonancia la silla turca está llena de líquido y la hipófisis aplanada contra el fondo. Es la silla turca vacía.' },
-      ],
-    },
-
     {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde la sospecha hasta el reemplazo.',
@@ -203,6 +251,8 @@ module.exports = {
           say: 'Eje gonadal: en la falla ovárica, FSH y LH muy altas; en la falla central, bajas o normales. Aquí se controlan los síntomas y la fertilidad.' },
         { cells: ['Reemplazo', 'Levotiroxina primero', 'Hidrocortisona primero', 'Error: crisis suprarrenal'],
           say: 'Y el orden: en el hipopituitarismo, hidrocortisona primero. Partir por la levotiroxina es la respuesta incorrecta que precipita una crisis suprarrenal.' },
+        { cells: ['Hombre', 'Testosterona baja, LH y FSH altas: Klinefelter', 'Testosterona baja, LH y FSH bajas: prolactina y RM', 'Testosterona si no desea fertilidad'],
+          say: 'Y en el hombre con testosterona baja, el mismo contraste: si la LH y la FSH están altas, el testículo, como en el Klinefelter; si están bajas, la hipófisis, y mides prolactina y pides resonancia. La testosterona queda para quien no busca fertilidad.' },
       ],
     },
 
@@ -276,6 +326,44 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2016 · Pregunta 171",
+      "stem": "Un paciente de 32 años consulta por disfunción sexual asociada a disminución del vello facial. Al examen físico presenta disminución del vello corporal y disminución bilateral del tamaño testicular.",
+      "question": "¿Cuál es el estudio más adecuado para proseguir el enfrentamiento de este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prolactina"
+        },
+        {
+          "letter": "B",
+          "text": "Testosterona y LH"
+        },
+        {
+          "letter": "C",
+          "text": "Espermiograma y FSH"
+        },
+        {
+          "letter": "D",
+          "text": "Ecografía testicular"
+        },
+        {
+          "letter": "E",
+          "text": "HCG y estradiol"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Disfunción sexual, menos vello y testículos pequeños son hipogonadismo clínico. Se confirma con testosterona total matinal y se mide LH para clasificarlo: LH alta indica falla testicular primaria (ej. Klinefelter); LH baja o normal indica causa hipotálamo-hipofisaria, que obliga a medir prolactina y a estudiar la silla turca.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil dieciséis. Un hombre de treinta y dos años tiene disfunción sexual, menos vello facial y corporal, y testículos pequeños.",
+        "question": "¿Cuál es el estudio más adecuado para seguir el enfrentamiento?",
+        "options": "Las opciones: prolactina, testosterona y LH, espermiograma y FSH, ecografía testicular, o HCG y estradiol. Piénsalo.",
+        "answer": "Es la B. Es un hipogonadismo clínico: la testosterona lo confirma y la LH dice si es primario o central. La prolactina tienta, pero se pide después, si la LH no está elevada."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -285,6 +373,8 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Hemorragia del parto seguida de fracaso de la lactancia y amenorrea: síndrome de Sheehan.' },
           { t: 'Hormona baja + tropina baja o normal', d: 'Una tropina normal es inapropiada',
             say: 'El sello de laboratorio es la hormona periférica baja con una tropina baja o inapropiadamente normal. Si la tropina está muy alta, la falla es periférica.' },
+          { t: 'Testosterona baja: LH y FSH dicen dónde', d: 'Altas: testículo; bajas: hipófisis',
+            say: 'Lo mismo en el hombre: con testosterona baja, la LH y la FSH dicen dónde está la falla.' },
         ] },
         { title: 'Tratamiento', tag: 'Regla vital', kind: 'alert', items: [
           { t: 'Hidrocortisona antes que levotiroxina', d: 'Evita la crisis suprarrenal',

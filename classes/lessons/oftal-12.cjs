@@ -50,15 +50,18 @@ module.exports = {
       cards: [
         { title: 'No proliferativa (RDNP)', tag: 'Ausencia de neovasos', kind: 'criteria', items: [
           { t: 'Microaneurismas y microhemorragias', d: 'En punto y mancha',
-            say: 'En la retinopatía no proliferativa, sin neovasos, se ven microaneurismas, microhemorragias en punto y mancha, y exudados duros, que son depósitos de lípidos por la extravasación crónica.' },
+            say: 'En la retinopatía no proliferativa, sin neovasos, se ven microaneurismas, microhemorragias en punto y mancha, y exudados duros, que son depósitos de lípidos por la extravasación crónica. Mira este fondo de ojo: los puntos rojos son las hemorragias, y las manchas amarillas, los exudados duros.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-12/02_rd-no-proliferativa-hemorragias-exudados__cto-oftalmo_p67.jpg', label: 'Hemorragias y exudados', at: 'Mira este fondo de ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 67' } },
           { t: 'Exudados algodonosos', d: 'Microinfartos de la capa de fibras nerviosas',
             say: 'También aparecen exudados algodonosos, que son microinfartos por oclusión de arteriolas pequeñas. Y hay un grado severo, la regla cuatro dos uno: hemorragias en los cuatro cuadrantes, arrosariamiento venoso en dos cuadrantes, o anomalías microvasculares en un cuadrante. La mitad de estos pacientes progresa a proliferativa en un año.' },
         ] },
         { title: 'Proliferativa (RDP)', tag: 'La define la presencia de neovasos', kind: 'alert', items: [
           { t: 'Neovasos en papila o retina', d: 'El criterio diagnóstico es solo este',
-            say: 'La retinopatía proliferativa se define, formalmente, por un solo criterio: la presencia de neovasos, ya sea en la papila óptica o en cualquier sector de la retina. Nada más define esta categoría.' },
+            say: 'La retinopatía proliferativa se define, formalmente, por un solo criterio: la presencia de neovasos, ya sea en la papila óptica o en cualquier sector de la retina. Nada más define esta categoría. Mira esta papila: una maraña de vasos finos que nace del disco.',
+            photo: { src: '_verificadas/273_oftal_Retinopatía_diabética_prolifer__KanskisCli_p547_1.jpg', label: 'Neovasos en la papila', at: 'Mira esta papila', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 547" } },
           { t: 'Hemorragia vítrea o desprendimiento traccional', d: 'Los neovasos son frágiles y se rompen',
-            say: 'Esos neovasos crecen hacia la cavidad vítrea, y son extremadamente frágiles: se rompen y sangran, dando una hemorragia vítrea de aparición súbita e indolora, o forman tejido fibroso que tracciona la retina y produce un desprendimiento de retina traccional.' },
+            say: 'Esos neovasos crecen hacia la cavidad vítrea, y son extremadamente frágiles: se rompen y sangran, dando una hemorragia vítrea de aparición súbita e indolora, o forman tejido fibroso que tracciona la retina y produce un desprendimiento de retina traccional. Mira este ojo: la sangre vítrea vela el fondo de ojo.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica__cto-oftalmo_p68.jpg', label: 'Hemorragia vítrea', at: 'Mira este ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 68' } },
         ] },
       ],
     },
@@ -81,7 +84,8 @@ module.exports = {
       ],
       steps: [
         { show: ['rot', 'liq'], note: 'El engrosamiento de la fóvea es lo que roba la visión fina',
-          say: 'Y ahora la complicación que más se pregunta de toda la clase: el edema macular diabético. Se produce cuando se rompe la barrera hematorretiniana interna, y el líquido se acumula justo en el centro, en la mácula, engrosando la fóvea.' },
+          say: 'Y ahora la complicación que más se pregunta de toda la clase: el edema macular diabético. Se produce cuando se rompe la barrera hematorretiniana interna, y el líquido se acumula justo en el centro, en la mácula, engrosando la fóvea. Mira este fondo de ojo: los exudados amarillos se agrupan alrededor de la mácula.',
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica_alt1__cto-oftalmo_p108.jpg', label: 'Exudados junto a la mácula', at: 'Mira este fondo de ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 108' } },
         { show: ['cual'], note: 'No hace falta esperar a la fase proliferativa',
           say: 'Y aquí está la regla de oro: el edema macular puede aparecer en cualquier etapa de la enfermedad, tanto en una retinopatía no proliferativa leve como en una proliferativa avanzada. No hace falta esperar a que aparezcan neovasos.' },
         { show: ['baja'], note: 'Más frecuente que la hemorragia vítrea o el desprendimiento',
@@ -116,22 +120,36 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Complicación',
+      title: 'Hemorragia vítrea: el telón rojo',
+      cards: [
+        { title: 'Cuándo sospecharla', tag: 'Indolora y súbita', kind: 'alert', items: [
+          { t: 'Complicación habitual de la proliferativa', d: 'También desgarro, oclusión venosa y trauma',
+            say: 'La hemorragia vítrea es sangre dentro de la cavidad del vítreo. Es la complicación habitual de la retinopatía diabética proliferativa, por el sangrado de los neovasos frágiles, seguida del desgarro retiniano o desprendimiento, la oclusión de la vena retiniana y el trauma.' },
+          { t: 'Telarañas, lluvia de hollín, bultos', d: 'Ojo blanco, reflejo rojo disminuido',
+            say: 'El paciente refiere pérdida visual súbita e indolora, desde telarañas o lluvia de hollín hasta ver solo luz o bultos. El ojo está blanco, el reflejo rojo está disminuido o ausente, y el fondo de ojo es inaccesible. Siempre hay que descartar un desprendimiento de retina concomitante, con una ecografía.' },
+        ] },
+        { title: 'Conducta', tag: 'APS y especialista', kind: 'pharma', items: [
+          { t: 'Cabecera a 30 o 45 grados', d: 'La sangre decanta y deja ver el polo posterior',
+            say: 'En atención primaria: reposo relativo con la cabecera elevada a treinta a cuarenta y cinco grados, para que la sangre decante. Se suspenden antiagregantes o anticoagulantes si es posible y sin riesgo vital, se controlan la glicemia y la presión, y se deriva con urgencia.' },
+          { t: 'Láser, anti-VEGF y vitrectomía', d: 'Vitrectomía si no se reabsorbe en 1 a 3 meses',
+            say: 'El oftalmólogo hace fotocoagulación panretiniana cuando se ve la retina, inyecta anti-VEGF, y opera con vitrectomía si no se reabsorbe en uno a tres meses o si hay un desprendimiento traccional.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Retinopatía diabética',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Del capilar al neovaso',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-12/02_rd-no-proliferativa-hemorragias-exudados__cto-oftalmo_p67.jpg', label: 'No proliferativa: hemorragias y exudados', credit: 'Manual CTO Oftalmología 14.ª ed., p. 67' },
-        { src: 'biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica_alt1__cto-oftalmo_p108.jpg', label: 'Edema macular: exudados junto a la mácula', credit: 'Manual CTO Oftalmología 14.ª ed., p. 108' },
-        { src: 'biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica__cto-oftalmo_p68.jpg', label: 'Proliferativa: hemorragia vítrea', credit: 'Manual CTO Oftalmología 14.ª ed., p. 68' },
+        { src: 'animaciones/oftal-12/A1_retinopatia.mp4', label: 'Retinopatía diabética', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Hemorragias y exudados',
-          say: 'La retinopatía no proliferativa da microaneurismas, microhemorragias y exudados, sin neovasos.' },
-        { note: 'Edema macular',
-          say: 'Cuando el líquido y los exudados se acumulan en la mácula hay edema macular, la causa número uno de baja visual. Se confirma con tomografía de coherencia óptica y se trata con anti VEGF.' },
-        { note: 'Hemorragia vítrea',
-          say: 'Y en la proliferativa los neovasos sangran: hemorragia vítrea. Es la forma que se trata con panfotocoagulación láser.' },
+        { note: 'Del capilar dañado al neovaso que sangra',
+          say: 'Veamos cómo llega la retinopatía diabética a los neovasos. Primero aparecen los microaneurismas, después las hemorragias, los exudados y los algodonosos de la isquemia. Esa retina isquémica libera VEGF, y crecen neovasos frágiles que sangran: es la proliferativa. El láser destruye la retina isquémica, y el edema macular, que es lo que más baja la visión, se trata con anti VEGF.' },
       ],
     },
 
@@ -266,6 +284,82 @@ module.exports = {
         options: 'Las opciones: neuritis óptica isquémica, desprendimiento de retina, hemorragia vítrea, trombosis de la arteria central de la retina, o edema macular. Piénsalo.',
         answer: 'Es la C, hemorragia vítrea. Fíjate en el detalle que la distingue de las otras opciones: la pérdida del reflejo rojo pupilar. Ni el edema macular ni la trombosis de la arteria central borran ese reflejo, y el edema, además, tarda varios días en instalarse. Con un diabético tan mal controlado y el rojo pupilar perdido, el sangrado hacia el vítreo por neovasos rotos junta todas las piezas.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.3.002 · Diabetes",
+      "stem": "Hombre de 50 años, recién diagnosticado de diabetes mellitus tipo 2 con glicemia de 380 mg/dL, consulta por visión borrosa bilateral fluctuante de 3 semanas, sin dolor ni ojo rojo. La agudeza visual mejora con agujero estenopeico y el fondo de ojo con dilatación pupilar es normal.",
+      "question": "¿Cuál es la conducta más adecuada respecto a su visión?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Recetar lentes ópticos de inmediato con la refracción actual"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar angiografía con fluoresceína"
+        },
+        {
+          "letter": "C",
+          "text": "Derivar de urgencia por sospecha de retinopatía proliferativa"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar fotocoagulación láser preventiva"
+        },
+        {
+          "letter": "E",
+          "text": "Lograr el control glicémico y diferir la receta de lentes hasta que la glicemia se estabilice, manteniendo el fondo de ojo anual"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La hiperglicemia cambia la hidratación del cristalino y produce cambios refractivos transitorios y fluctuantes, que mejoran con estenopeico. No se deben recetar lentes hasta estabilizar la glicemia, porque la refracción volverá a cambiar. Con fondo de ojo normal, corresponde control anual de por vida.",
+      "say": {
+        "stem": "Hombre de cincuenta años, recién diagnosticado de diabetes tipo dos con glicemia de trescientos ochenta, que tiene hace tres semanas visión borrosa en ambos ojos que va y viene. Mejora con el agujero estenopeico y el fondo de ojo dilatado es normal.",
+        "question": "¿Cuál es la conducta más adecuada respecto a su visión?",
+        "options": "Las opciones: recetar lentes de inmediato, angiografía, derivar de urgencia por retinopatía proliferativa, láser preventivo o controlar la glicemia y diferir los lentes con fondo de ojo anual. Piénsalo.",
+        "answer": "Es la E. El azúcar alta hincha el cristalino y cambia la graduación, así que los lentes recetados hoy no servirán cuando se compense. Recetar de inmediato tienta porque mejora con el estenopeico, pero ese vicio de refracción es transitorio y depende de la glicemia."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 179",
+      "stem": "Paciente de 60 años, diabético e hipertenso mal controlado, consulta por pérdida súbita e indolora de la visión del ojo izquierdo. Con ese ojo solo cuenta dedos. No hay alteraciones externas, pero el rojo pupilar del ojo izquierdo está muy disminuido.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Trombosis de la vena central de la retina"
+        },
+        {
+          "letter": "B",
+          "text": "Desprendimiento de retina"
+        },
+        {
+          "letter": "C",
+          "text": "Neuritis óptica"
+        },
+        {
+          "letter": "D",
+          "text": "Embolia de arteria central de la retina"
+        },
+        {
+          "letter": "E",
+          "text": "Hemorragia vítrea"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Pérdida visual súbita e indolora con rojo pupilar disminuido (sangre en el vítreo que impide ver el fondo) en un diabético mal controlado es hemorragia vítrea por retinopatía diabética proliferativa. Se deriva a oftalmología: ecografía ocular para descartar desprendimiento de retina, y fotocoagulación láser, antiangiogénicos o vitrectomía.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Diabético de sesenta años, mal controlado, con pérdida súbita e indolora de visión de un ojo y rojo pupilar muy disminuido en ese ojo.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: trombosis de vena central, desprendimiento de retina, neuritis óptica, embolia de arteria central o hemorragia vítrea. Piénsalo.",
+        "answer": "Es la E. En un diabético mal controlado, la pérdida súbita con rojo pupilar apagado es una hemorragia vítrea por retinopatía proliferativa. La trombosis venosa tienta, pero conserva el rojo pupilar y muestra hemorragias retinianas al fondo de ojo."
+      }
     },
 
     {

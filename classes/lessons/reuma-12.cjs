@@ -56,7 +56,8 @@ module.exports = {
           { t: "Respeto riguroso de tronco y muslos", d: "Limitado a manos, antebrazos distales y cara",
             say: "En la forma limitada el engrosamiento de la piel se detiene en los codos y las rodillas, respetando estrictamente el tronco y el abdomen, con una evolución mucho más lenta y larvada en el tiempo." },
           { t: "Acrónimo del Síndrome de CREST", d: "Calcinosis, Raynaud, Esófago, Sclerodactilia, Telangiectasias",
-            say: "El acrónimo CREST resume sus cinco hallazgos cardinales: calcinosis cutánea en pulpejos de dedos, fenómeno de Raynaud de muy larga data, esofagopatía por atrofia muscular con reflujo severo, esclerodactilia y telangiectasias faciales y labiales muy prominentes." },
+            say: "El acrónimo CREST resume sus cinco hallazgos cardinales: calcinosis cutánea en pulpejos de dedos, fenómeno de Raynaud de muy larga data, esofagopatía por atrofia muscular con reflujo severo, esclerodactilia y telangiectasias faciales y labiales muy prominentes. Mira estas manos: los dedos engrosados, tensos y semiflexionados son la esclerodactilia.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-12/01_esclerodactilia__amir-reuma_p99.jpg', label: 'Esclerodactilia', at: 'Mira estas manos', credit: 'Manual AMIR Reumatología, p. 99' } },
         ] },
       ],
     },
@@ -101,7 +102,8 @@ module.exports = {
         ] },
         { title: "Acroosteólisis y calcinosis", tag: "Resorción ósea isquémica", kind: "criteria", items: [
           { t: "Reabsorción de las falanges distales", d: "Acortamiento de dedos por isquemia grave",
-            say: "La isquemia microvascular crónica y severa en los pulpejos produce reabsorción ósea de los penachos de las falanges distales, llamada acroosteólisis, visible con claridad en las radiografías de manos." },
+            say: "La isquemia microvascular crónica y severa en los pulpejos produce reabsorción ósea de los penachos de las falanges distales, llamada acroosteólisis, visible con claridad en las radiografías de manos. Mira estos dedos: las puntas moradas y necróticas muestran hasta dónde llega la isquemia de los pulpejos.",
+          photo: { src: 'biblioteca/09_reumatologia/reuma-12/atlas_046_ulceras_digitales_de_pulpejos_.jpg', label: 'Necrosis de pulpejos', at: 'Mira estos dedos', credit: 'Atlas EUNACOM 2026' } },
           { t: "Calcinosis cutánea dolorosa", d: "Extrusión de material calcáreo ulcerado",
             say: "En el CREST los depósitos subcutáneos de sales de calcio pueden erosionar la piel y expulsar un material blanquecino como tiza, con alto riesgo de sobreinfección bacteriana secundaria." },
         ] },
@@ -124,6 +126,53 @@ module.exports = {
             say: "En la esclerosis limitada surge una hipertensión arterial pulmonar del grupo uno por cierre progresivo de las arterias pulmonares pequeñas, con parénquima pulmonar limpio en la tomografía." },
           { t: "Ecocardiograma anual obligatorio", d: "Confirmación por cateterismo cardíaco derecho",
             say: "Todo paciente con CREST exige tamizaje anual con ecocardiograma Doppler para pesquisar sobrecarga ventricular derecha precoz antes de que aparezca disnea invalidante." },
+        ] },
+      ],
+    },
+
+    {
+      type: "points",
+      kicker: "Enfermedad intersticial",
+      title: "Sospechar la enfermedad pulmonar intersticial",
+      cards: [
+        { title: "Clínica", tag: "Qué hace sospechar", kind: "key", items: [
+          { t: "Disnea progresiva, tos seca, crépitos tipo velcro", d: "En las bases, con acropaquia",
+            say: "La esclerodermia es una de las causas más importantes de enfermedad intersticial, pero debes sospecharla en cualquier paciente con disnea de esfuerzo progresiva, tos seca persistente, crépitos tipo velcro en las bases y acropaquia." },
+        ] },
+        { title: "Pruebas", tag: "Función e imagen", kind: "criteria", items: [
+          { t: "Espirometría restrictiva y DLCO baja", d: "La DLCO puede caer antes que la CVF",
+            say: "La espirometría muestra un patrón restrictivo, con capacidad vital forzada disminuida y relación normal o elevada. La difusión de monóxido de carbono, la DLCO, está baja, a veces antes que la capacidad vital." },
+          { t: "TAC de alta resolución", d: "NIU: panalización. NINE: vidrio esmerilado simétrico",
+            say: "La radiografía muestra un patrón reticular bibasal, pero el examen de elección es el TAC de tórax de alta resolución. El patrón NIU, o neumonía intersticial usual, muestra panalización, bronquiectasias de tracción y predominio subpleural basal. El patrón NINE muestra vidrio esmerilado simétrico respetando la zona subpleural, y es el frecuente en la esclerodermia. Mira este corte: el vidrio esmerilado en ambos pulmones.",
+            photo: { src: "_verificadas/47_EPID_NINE_esclerodermia_TAC__nelsontextbo_p3330_1.jpg", label: "TAC: patrón NINE", at: "Mira este corte", credit: "Nelson Textbook of Pediatrics, 22.ª ed., p. 3330" } },
+        ] },
+        { title: "Interrogar", tag: "Exposiciones y fármacos", kind: "alert", items: [
+          { t: "Exposiciones y fármacos", d: "Aves, hongos, amiodarona, nitrofurantoína, metotrexato",
+            say: "No olvides interrogar por exposiciones y fármacos, que veremos enseguida." },
+        ] },
+      ],
+    },
+
+    {
+      type: "points",
+      kicker: "Enfermedad intersticial",
+      title: "Causas de la enfermedad intersticial y primera conducta",
+      cards: [
+        { title: "Causas principales", tag: "Un listado para el examen", kind: "key", items: [
+          { t: "Fibrosis pulmonar idiopática y conectivopatías", d: "Varones sobre 60 y tabaquistas; esclerosis, AR, miositis, Sjögren",
+            say: "Las causas principales son la fibrosis pulmonar idiopática, en varones mayores de sesenta años y tabaquistas, y las conectivopatías: esclerosis sistémica, artritis reumatoide, miositis y síndrome de Sjögren." },
+          { t: "Hipersensibilidad, neumoconiosis, fármacos", d: "Aves, hongos, asbesto, sílice; amiodarona, bleomicina; sarcoidosis",
+            say: "También la neumonitis por hipersensibilidad, por aves, hongos o humedad, las neumoconiosis como asbestosis y silicosis, los fármacos como amiodarona, nitrofurantoína, metotrexato y bleomicina, y la sarcoidosis." },
+        ] },
+        { title: "Conducta inicial", tag: "En atención primaria", kind: "criteria", items: [
+          { t: "Retirar agente, dejar el tabaco, oxígeno y vacunas", d: "Influenza y neumococo",
+            say: "El manejo inicial es retirar el agente o la exposición, suspender el tabaco, dar oxígeno si hay hipoxemia y vacunar contra influenza y neumococo. Y se deriva a neumología para confirmar y tratar." },
+        ] },
+        { title: "Tratamiento especializado", tag: "Según la causa", kind: "pharma", items: [
+          { t: "Inmunosupresión o antifibróticos", d: "Micofenolato o ciclofosfamida; nintedanib o pirfenidona",
+            say: "En la enfermedad de las conectivopatías y en la neumonitis por hipersensibilidad se usa inmunosupresión, con corticoides más micofenolato o ciclofosfamida. En la fibrosis pulmonar idiopática y en las fibrosis progresivas, antifibróticos: nintedanib o pirfenidona. Y trasplante pulmonar en casos seleccionados." },
+          { t: "Corticoides en dosis altas: contraindicados", d: "Riesgo de crisis renal esclerodérmica",
+            say: "Pero recuerda la regla de oro de esta clase: en la esclerodermia los corticoides en dosis altas están contraindicados por el riesgo de crisis renal." },
         ] },
       ],
     },
@@ -186,7 +235,8 @@ module.exports = {
           { t: "Metotrexato semanal en fase inflamatoria", d: "Quince a veinte miligramos a la semana",
             say: "En la fase edematosa e indurativa temprana de la piel, el metotrexato en dosis de quince a veinte miligramos semanales ha demostrado frenar la progresión del puntaje cutáneo modificado de Rodnan." },
           { t: "Rehabilitación y prevención de flexión", d: "Ejercicios diarios de apertura bucal y manos",
-            say: "Se debe indicar terapia kinésica precoz para prevenir la microstomía por rigidez peribucal y las contracturas fijas en flexión de los dedos de las manos." },
+            say: "Se debe indicar terapia kinésica precoz para prevenir la microstomía por rigidez peribucal y las contracturas fijas en flexión de los dedos de las manos. Mira esta cara: la boca se achica y se pliega, y el paciente ya no logra abrirla del todo.",
+          photo: { src: '_web/044_reuma_Esclerosis_sistémica__Open-i_2.jpg', label: 'Microstomía', at: 'Mira esta cara', credit: 'Open-i (NLM), CC BY' } },
         ] },
       ],
     },
@@ -239,19 +289,6 @@ module.exports = {
       steps: [
         { note: 'Anticentrómero o anti Scl setenta',
           say: 'En la forma limitada, el engrosamiento de la piel se detiene en los codos y las rodillas, con CREST y anticuerpos anticentrómero. En la difusa avanza rápido al tronco, y el colágeno se deposita también en el pulmón y el riñón: el anti Scl setenta predice fibrosis pulmonar intersticial, y el anti ARN polimerasa tres, crisis renal.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Esclerodermia',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-12/01_esclerodactilia__amir-reuma_p99.jpg', label: 'Esclerodactilia', credit: 'Manual AMIR Reumatología, p. 99' },
-      ],
-      steps: [
-        { note: 'Dedos rígidos y afilados',
-          say: 'En la esclerodermia la piel de los dedos se engruesa y endurece: es la esclerodactilia.' },
       ],
     },
 

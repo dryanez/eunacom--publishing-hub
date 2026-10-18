@@ -289,14 +289,14 @@ Una paciente de sexo femenino de 17 años de edad, con antecedente de relaciones
 Explicación del banco: La alternativa correcta es la **B** (Virus herpes simplex). Es un herpes genital clásico.. La artritis reactiva es una pelvispondiloartropatía que ocurre 1-4 semanas después de una infección. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).
 
 ### [11] EUNACOM Diciembre 2025 · Pregunta 52 · confianza 0.5
-Una mujer de 23 años consulta por disuria de 7 días de evolución asociada a dolor abdominal bajo. En su examen ginecológico 8ene especuloscopía con cuello uterino cerrado y sin lesiones y con paredes vaginales sin alteraciones. Al tacto vaginal presenta dolor a la compresión anterior de la vagina. Se solicita sedimento de orina, que muestra presencia de piuria y leucocituria y un urocul8vo, que resulta nega8vo a las 24 horas. ¿Cuál es la conducta más adecuada?
+Una mujer de 23 años consulta por disuria de 7 días de evolución asociada a dolor abdominal bajo. En su examen ginecológico tiene especuloscopía con cuello uterino cerrado y sin lesiones y con paredes vaginales sin alteraciones. Al tacto vaginal presenta dolor a la compresión anterior de la vagina. Se solicita sedimento de orina, que muestra presencia de piuria y leucocituria y un urocultivo, que resulta negativo a las 24 horas. ¿Cuál es la conducta más adecuada?
 - A) Solicitar urocul2vo de 2empo extendido
 - B) Solicitar UroTAC
 - C) Solicitar cistoscopía
-- D) Iniciar ﬂavoxato vía oral
+- D) Iniciar flavoxato vía oral
 - E) Solicitar panel de reacción de cadena de polimerasa para ITS
 **Correcta: E**
-Explicación del banco: La sospecha es una uretriGs por Chlamydia (más raro gonococo), dada la disuria con piuria aséptica y el dolor a la palpación uretral (zona anterior de la vagina). Además de solicitar la PCR para ITS, se debe iniciar tratamiento empírico con 1 dosis de cemriaxona (gonococo) + 10 días de doxicilina (clamidia), siendo una opción la azitromicina en monodosis. La piuria aséptica (sedimento con piuria + urocultivo negativo) también se ve en la tuberculosis renal y en las ITU en las que se iniciaron antibióticos antes de tomar el urocultivo.
+Explicación del banco: La sospecha es una uretritis por Chlamydia (más raro gonococo), dada la disuria con piuria aséptica y el dolor a la palpación uretral (zona anterior de la vagina). Además de solicitar la PCR para ITS, se debe iniciar tratamiento empírico con 1 dosis de cemriaxona (gonococo) + 10 días de doxicilina (clamidia), siendo una opción la azitromicina en monodosis. La piuria aséptica (sedimento con piuria + urocultivo negativo) también se ve en la tuberculosis renal y en las ITU en las que se iniciaron antibióticos antes de tomar el urocultivo.
 
 ### [12] EUNACOM Agosto 2021 · Pregunta 112 · confianza 0.5
 Un paciente de 23 años, con antecedente de relación sexual sin protección, consulta porque hace 3 días notó aparición de una úlcera en el pene, ubicada en el glande, indolora, de 1 cm de diámetro, de aspecto indurado. Además, se palpa una adenopatía inguinal derecha indolora. Se solicita VDRL y FTA-ABS, resultando ambos negativos. El diagnóstico más probable es:

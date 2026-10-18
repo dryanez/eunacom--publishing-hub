@@ -81,17 +81,20 @@ module.exports = {
         { show: ['niv'], note: 'Antes de pensar en causa, ubica el nivel',
           say: 'La radiografía simple de abdomen de pie te ayuda a ubicar el nivel antes de pensar en la causa.' },
         { show: ['del'], note: 'Asas al centro, con válvulas conniventes',
-          say: 'Si es intestino delgado, ves asas dilatadas al centro del abdomen, con niveles hidroaéreos en escalera, y pliegues que cruzan todo el diámetro del asa.' },
+          say: 'Si es intestino delgado, ves asas dilatadas al centro del abdomen, con niveles hidroaéreos en escalera, y pliegues que cruzan todo el diámetro del asa. Mira esta radiografía: asas dilatadas, con gas y líquido acumulados antes del obstáculo.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-04/01_niveles-hidroaereos__cto-digestivo_p163.jpg', label: 'Niveles hidroaéreos', at: 'Mira esta radiografía', credit: 'Manual CTO Digestivo 14.ª ed., p. 163' } },
         { show: ['bri'], note: 'Casi siempre hay una cirugía previa',
           say: 'Y la causa más frecuente, de lejos, son las bridas: adherencias de una cirugía abdominal previa. Busca siempre ese antecedente en la historia.' },
         { show: ['her'], note: 'La segunda causa, y la que más se olvida examinar',
           say: 'La segunda causa son las hernias externas atascadas, que es justo lo que buscas al palpar los orificios herniarios.' },
         { show: ['col'], note: 'Marco periférico, con haustras que no cruzan',
-          say: 'Si en cambio es de colon, ves el marco dilatado en la periferia, con haustras que no cruzan todo el diámetro.' },
+          say: 'Si en cambio es de colon, ves el marco dilatado en la periferia, con haustras que no cruzan todo el diámetro. En esta radiografía puedes ver cómo se distribuyen las asas dilatadas.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-04/04_obstruccion-de-colon__cto-radiologia_p26.jpg', label: 'Obstrucción de colon', at: 'En esta radiografía', credit: 'Manual CTO Radiología 14.ª ed., p. 26' } },
         { show: ['can'], note: 'La causa más frecuente en colon',
           say: 'Y aquí la causa más frecuente es el cáncer colorrectal, que obstruye progresivamente la luz.' },
         { show: ['vol'], note: 'Asa en omega, naciendo en la fosa ilíaca izquierda',
-          say: 'La segunda causa en colon es el vólvulo de sigmoides, con el signo radiológico clásico del grano de café: un asa gigante en forma de omega que nace en la fosa ilíaca izquierda y sube hasta el hipocondrio derecho.' },
+          say: 'La segunda causa en colon es el vólvulo de sigmoides, con el signo radiológico clásico del grano de café: un asa gigante en forma de omega que nace en la fosa ilíaca izquierda y sube hasta el hipocondrio derecho. Mira esta radiografía: esa gran asa en grano de café.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-04/02_volvulo-de-sigma-grano-de-cafe__cto-radiologia_p26.jpg', label: 'Vólvulo de sigmoides', at: 'Mira esta radiografía', credit: 'Manual CTO Radiología 14.ª ed., p. 26' } },
       ],
     },
 
@@ -106,7 +109,8 @@ module.exports = {
         ] },
         { title: 'Evalúa si el asa sigue viable', tag: 'Antes de que aparezca la clínica', kind: 'alert', items: [
           { t: 'Gas en la pared o porta', d: 'Ya hay necrosis, aunque se vea bien',
-            say: 'Y algo muy importante: el TAC puede mostrarte que un asa ya perdió viabilidad, con gas dentro de la pared o en las ramas de la vena porta, incluso antes de que el examen físico te lo diga con claridad. Ese hallazgo, por sí solo, ya es indicación de cirugía.' },
+            say: 'Y algo muy importante: el TAC puede mostrarte que un asa ya perdió viabilidad, con gas dentro de la pared o en las ramas de la vena porta, incluso antes de que el examen físico te lo diga con claridad. Ese hallazgo, por sí solo, ya es indicación de cirugía. Mira este TAC: las flechas marcan aire dentro de las ramas de la vena porta, en el hígado.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-04/10_gas-portal-tac__atlas-eunacom-2026.jpg', label: 'Gas en la vena porta', at: 'Mira este TAC', credit: 'Atlas EUNACOM 2026' } },
         ] },
       ],
     },
@@ -153,11 +157,13 @@ module.exports = {
         { show: ['sin'], note: 'Sin estrangulación, el manejo es distinto según la causa',
           say: 'Sin ningún signo de estrangulación, el manejo depende de la causa.' },
         { show: ['bri2'], note: 'La mayoría resuelve sola',
-          say: 'Con bridas, el tratamiento inicial es médico conservador.' },
+          say: 'Con bridas, el tratamiento inicial es médico conservador. Mira esta radiografía de un paciente así: asas de intestino delgado distendidas y llenas de gas.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-04/09_rx-asa-delgado-gas__bailey-love_p1309.jpg', label: 'Asas de delgado con gas', at: 'Mira esta radiografía', credit: "Bailey & Love's Short Practice of Surgery, 27.ª ed., p. 1309" } },
         { show: ['sng'], note: 'Sonda nasogástrica a caída libre',
           say: 'Sonda nasogástrica a caída libre, para descomprimir el estómago, más hidratación endovenosa agresiva, con vigilancia clínica estricta. Entre setenta y ochenta de cada cien resuelven así, sin necesidad de cirugía, en veinticuatro a cuarenta y ocho horas.' },
         { show: ['vol2'], note: 'Sin necrosis, se puede resolver sin cortar',
-          say: 'Con vólvulo de sigmoides, siempre que no haya necrosis ni peritonitis, la conducta es distinta.' },
+          say: 'Con vólvulo de sigmoides, siempre que no haya necrosis ni peritonitis, la conducta es distinta. Ojo con la otra forma de vólvulo, el de ciego, menos frecuente: en esta radiografía se ve el ciego dilatado.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-04/03_volvulo-de-ciego__cto-radiologia_p26.jpg', label: 'Vólvulo de ciego', at: 'en esta radiografía', credit: 'Manual CTO Radiología 14.ª ed., p. 26' } },
         { show: ['des'], note: 'Éxito en más del 80%, pero recidiva mucho',
           say: 'Desvolvulación endoscópica urgente, con una sonda rectal que se deja como tutor. Funciona en más del ochenta por ciento de los casos, pero la recidiva supera el cincuenta por ciento, así que programas una sigmoidectomía electiva en la misma hospitalización.' },
         { show: ['fal'], note: 'Aquí ya no hay plazo que valga',
@@ -196,40 +202,6 @@ module.exports = {
       steps: [
         { note: 'Gas y líquido antes del obstáculo',
           say: 'Una brida estrangula el íleon. Antes del obstáculo las asas luchan, se acumulan gas y líquido y se dilatan: eso son los niveles hidroaéreos. Después del obstáculo, el colon queda colapsado.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Obstrucción intestinal',
-      images: [
-        { src: 'biblioteca/10_cirugia/cirugia-04/01_niveles-hidroaereos__cto-digestivo_p163.jpg', label: 'Niveles hidroaéreos', credit: 'Manual CTO Digestivo 14.ª ed., p. 163' },
-        { src: 'biblioteca/10_cirugia/cirugia-04/02_volvulo-de-sigma-grano-de-cafe__cto-radiologia_p26.jpg', label: 'Vólvulo de sigmoides', credit: 'Manual CTO Radiología 14.ª ed., p. 26' },
-      ],
-      steps: [
-        { note: 'Asas dilatadas en escalera',
-          say: 'La radiografía de pie muestra asas dilatadas con niveles hidroaéreos.' },
-        { note: 'Grano de café',
-          say: 'Y el vólvulo de sigmoides forma una gran asa en grano de café.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/10_cirugia/cirugia-04/03_volvulo-de-ciego__cto-radiologia_p26.jpg', label: 'Vólvulo de ciego', credit: 'Manual CTO Radiología 14.ª ed., p. 26' },
-        { src: 'biblioteca/10_cirugia/cirugia-04/04_obstruccion-de-colon__cto-radiologia_p26.jpg', label: 'Obstrucción de colon', credit: 'Manual CTO Radiología 14.ª ed., p. 26' },
-      ],
-      steps: [
-        { note: 'Vólvulo de ciego',
-          say: 'Mira esta imagen: vólvulo de ciego. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Obstrucción de colon',
-          say: 'En la obstrucción de colon se dilata el marco periférico. En el colon, la causa más frecuente es el cáncer colorrectal.' },
       ],
     },
 
@@ -324,6 +296,119 @@ module.exports = {
         options: 'Las opciones son: linfoma, hernia inguinal, adenopatía metastásica, hernia femoral, o sarcoma de partes blandas. Piénsalo.',
         answer: 'Es la D, hernia femoral. La ubicación es la clave: por debajo del ligamento inguinal, no sobre él como la inguinal. Súmale que es mujer y que tiene síntomas de obstrucción, y el diagnóstico queda prácticamente cerrado. Acuérdate de esta hernia: es la que tiene más riesgo de estrangularse de todas.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.4.002 · Radiografía simple de abdomen",
+      "stem": "Hombre de 78 años, postrado y con constipación crónica, consulta por 2 días de distensión abdominal marcada, dolor cólico y ausencia de eliminación de gases. Está hemodinámicamente estable, sin signos peritoneales. La radiografía simple de abdomen muestra un asa colónica muy dilatada en forma de U invertida, que nace de la pelvis y se proyecta hacia el hipocondrio derecho, con aspecto de grano de café.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vólvulo de sigmoides"
+        },
+        {
+          "letter": "B",
+          "text": "Obstrucción de intestino delgado por bridas"
+        },
+        {
+          "letter": "C",
+          "text": "Íleo biliar"
+        },
+        {
+          "letter": "D",
+          "text": "Megacolon tóxico"
+        },
+        {
+          "letter": "E",
+          "text": "Íleo paralítico"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El signo del grano de café, un asa sigmoidea gigante en U invertida que nace de la pelvis, es el hallazgo radiológico clásico del vólvulo de sigmoides, típico del adulto mayor postrado y constipado. Sin necrosis ni peritonitis se intenta primero la desvolvulación endoscópica.",
+      "say": {
+        "stem": "Hombre de setenta y ocho años, postrado y constipado crónico, con dos días de distensión marcada, dolor cólico y sin eliminar gases. Está estable y sin signos peritoneales. La radiografía simple de abdomen muestra un asa de colon gigante en forma de U invertida, que sale de la pelvis y sube hacia el lado derecho, como un grano de café.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: vólvulo de sigmoides, obstrucción de delgado por bridas, íleo biliar, megacolon tóxico o íleo paralítico. Piénsalo.",
+        "answer": "Es la A. El grano de café es el signo clásico del vólvulo de sigmoides en el adulto mayor postrado. La obstrucción por bridas tienta, pero afecta el intestino delgado, con asas centrales y niveles hidroaéreos en escalera, no un asa colónica gigante que nace de la pelvis."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.4.015 · TAC de abdomen y pelvis",
+      "stem": "Mujer de 74 años, sin cirugías abdominales previas, consulta por 24 horas de dolor cólico, vómitos y detención del tránsito de gases. Está estable, afebril, sin hernias palpables. La radiografía simple de abdomen muestra asas de intestino delgado dilatadas con niveles hidroaéreos.",
+      "question": "¿Cuál es el examen más útil para definir la causa de la obstrucción y buscar signos de sufrimiento intestinal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tránsito intestinal con bario"
+        },
+        {
+          "letter": "B",
+          "text": "Colonoscopía"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de abdomen y pelvis con contraste intravenoso"
+        },
+        {
+          "letter": "D",
+          "text": "Ecografía abdominal"
+        },
+        {
+          "letter": "E",
+          "text": "Repetir la radiografía simple en 24 horas"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Sin cirugía previa las bridas son poco probables, por lo que hay que buscar otra causa. La TAC con contraste muestra el punto de transición, la causa, como tumor, hernia interna o íleo biliar, y signos de isquemia o perforación. El bario está contraindicado ante sospecha de perforación.",
+      "say": {
+        "stem": "Mujer de setenta y cuatro años, sin cirugías abdominales previas, con un día de dolor cólico, vómitos y sin eliminar gases. Está estable, afebril y sin hernias palpables. La radiografía muestra asas de intestino delgado dilatadas con niveles hidroaéreos.",
+        "question": "¿Cuál es el examen más útil para definir la causa y buscar sufrimiento de asas?",
+        "options": "Las opciones: tránsito con bario, colonoscopía, TAC de abdomen y pelvis con contraste, ecografía abdominal o repetir la radiografía en un día. Piénsalo.",
+        "answer": "Es la C. Sin cirugía previa no puedes asumir bridas, y la TAC con contraste muestra el punto de transición, la causa y si hay isquemia. La ecografía tienta por ser accesible, pero el gas de las asas dilatadas la limita mucho y no define la causa ni el sufrimiento intestinal."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.4.001 · Radiografía simple de abdomen",
+      "stem": "Hombre de 78 años, postrado y con constipación crónica, presenta distensión abdominal marcada, dolor cólico y ausencia de eliminación de gases y deposiciones de 2 días. La radiografía simple de abdomen muestra un asa colónica muy dilatada en forma de U invertida (grano de café), que nace en la pelvis y se proyecta hacia el hipocondrio derecho.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Íleo biliar"
+        },
+        {
+          "letter": "B",
+          "text": "Vólvulo de ciego"
+        },
+        {
+          "letter": "C",
+          "text": "Obstrucción de intestino delgado por bridas"
+        },
+        {
+          "letter": "D",
+          "text": "Megacolon tóxico"
+        },
+        {
+          "letter": "E",
+          "text": "Vólvulo de sigmoides"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El signo del grano de café, una U invertida que nace de la pelvis, es característico del vólvulo de sigmoides, típico de adultos mayores postrados y constipados. Sin signos de isquemia se intenta la devolvulación endoscópica. El vólvulo de ciego proyecta el asa hacia el hipocondrio izquierdo y el íleo biliar muestra aerobilia.",
+      "say": {
+        "stem": "Hombre de setenta y ocho años, postrado y constipado, con distensión. La radiografía muestra un asa en grano de café que nace en la pelvis.",
+        "question": "¿Cuál es el diagnóstico?",
+        "options": "Las opciones: íleo biliar, vólvulo de ciego, bridas, megacolon tóxico o vólvulo de sigmoides. Piénsalo.",
+        "answer": "Es la E. El grano de café que sale de la pelvis es vólvulo de sigmoides. El vólvulo de ciego también da un asa gigante, pero se dirige al hipocondrio izquierdo."
+      }
     },
 
     {

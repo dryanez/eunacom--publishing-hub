@@ -98,6 +98,17 @@ const rawClasses = [
           "• <strong>Tercer Trimestre (35 a 37 semanas):</strong>",
           "  - <strong>Cultivo Vaginorrectal para Streptococcus agalactiae (EGB):</strong> Se toma tórula en tercio inferior de vagina y a través del esfínter anal sin espéculo. Si resulta <strong>positivo</strong>, la paciente tiene indicación formal de <strong>Profilaxis Antibiótica Intraparto con Penicilina G sódica EV</strong> durante el trabajo de parto para prevenir la sepsis neonatal precoz."
         ]
+      },
+{
+        "subhead": "4. Anemia en el Embarazo: Diagnóstico y Tratamiento",
+        "paragraphs": [
+          "• <b>Definición y Clasificación (OMS / MINSAL):</b> Hemoglobina <b>menor de 11 g/dL</b> en el 1.er y 3.er trimestre, o <b>menor de 10,5 g/dL</b> en el 2.° trimestre. Se grada en <b>leve (10-10,9 g/dL), moderada (7-9,9 g/dL) y severa (menor de 7 g/dL)</b>. Cerca del 90% es <b>ferropénica</b>, porque la expansión del volumen plasmático (+40-50%) y de la masa eritrocitaria (+20-30%) eleva los requerimientos de hierro; le siguen la megaloblástica (déficit de folato o vitamina B12) y las hemoglobinopatías.",
+          "• <b>Diagnóstico:</b> Hemograma con índices eritrocitarios (<b>VCM y HCM bajos</b> en la ferropenia; VCM alto en la megaloblástica) y <b>ferritina menor de 30 ng/mL</b>, que confirma el déficit de hierro en el embarazo. Si el VCM es muy bajo con ferritina normal se pide electroforesis de hemoglobina (talasemia). Una anemia que no corresponde al patrón ferropénico requiere frotis, reticulocitos, folato y B12.",
+          "• <b>Tratamiento de la Anemia Ferropénica (nivel completo):</b> <b>hierro oral terapéutico, 100-200 mg/día de hierro elemental</b> (un comprimido de sulfato ferroso de 300 mg aporta 60 mg de hierro elemental), fraccionado, alejado de las comidas y con vitamina C; <b>no tomarlo junto con té, café, leche ni con el carbonato de calcio de la profilaxis</b>. Los efectos adversos son epigastralgia, constipación y deposiciones oscuras; la intolerancia se maneja bajando la dosis o dando el hierro en días alternos.",
+          "• <b>Respuesta y Duración:</b> Los reticulocitos suben a los 7-10 días y la Hb aumenta <b>al menos 1 g/dL en 2-3 semanas</b>; se controla la Hb a las 4 semanas. Si no hay respuesta se descartan mala adherencia, pérdidas, mala absorción, hemoglobinopatía o déficit asociado de folato o B12. El hierro se mantiene hasta <b>3 meses después de normalizar la Hb y al menos hasta 6 semanas postparto</b>.",
+          "• <b>Hierro Endovenoso y Transfusión:</b> El <b>hierro EV</b> (sacarosa férrica o carboximaltosa) se indica en intolerancia o falla del hierro oral, malabsorción, o anemia moderada-severa diagnosticada en el 2.° o 3.er trimestre cuando queda poco tiempo para el parto; no se usa en el 1.er trimestre. La <b>transfusión</b> se reserva para Hb menor de 7 g/dL con repercusión hemodinámica, sangrado activo o anemia severa cerca del parto. Déficit de folato: ácido fólico 4-5 mg/día; déficit de B12: vitamina B12 parenteral.",
+          "• <b>Por qué importa:</b> La anemia materna se asocia a parto prematuro, bajo peso de nacimiento, menor tolerancia a la hemorragia del parto y mayor riesgo de infección puerperal. Toda anemia severa se hospitaliza y se estudia en Alto Riesgo Obstétrico (ARO); después de tratada no requiere seguimiento especializado."
+        ]
       }
     ],
     "table": {
@@ -295,6 +306,23 @@ const rawClasses = [
           "  - Medición de la longitud del canal endocervical cerrado mediante <strong>ecografía transvaginal</strong> con vejiga vacía.",
           "  - <strong>Definición de Cuello Corto:</strong> Longitud cervical <strong>menor a 25 mm (< 2.5 cm)</strong> antes de las 24 semanas.",
           "  - <strong>Conducta Inmediata Comprobada:</strong> Prescripción de <strong>Progesterona Natural Micronizada vaginal (200 mg cada noche)</strong> administrada hasta la semana 36. En pacientes con cuello corto asintomático, la progesterona reduce en un 40-50% el riesgo de parto prematuro espontáneo antes de las 34 semanas."
+        ]
+      },
+{
+        "subhead": "3. Embarazo con Edad Gestacional Dudosa",
+        "paragraphs": [
+          "• <b>Definición:</b> Embarazo en que la FUM es desconocida, poco confiable o discordante con el examen físico (ciclos irregulares, amenorrea de lactancia o postanticonceptiva, sangrado de implantación tomado por regla). Importa porque de la edad gestacional dependen el tamizaje de aneuploidías, la interpretación del crecimiento fetal, la maduración pulmonar con corticoides, la conducta ante un parto prematuro y la inducción del embarazo prolongado.",
+          "• <b>Conducta Inicial: Datar con la Ecografía Más Precoz Disponible.</b> En el 1.er trimestre se usa la <b>LCN</b>, con precisión de ± 5-7 días. Se redata por ecografía cuando la diferencia con la FUM supera: <b>más de 5 días antes de las 9 semanas; más de 7 días entre 9+0 y 15+6 semanas; más de 10 días entre 16+0 y 21+6; más de 14 días entre 22+0 y 27+6; más de 21 días desde las 28 semanas</b>. Mientras más tardía la ecografía, menos exacta es la fecha.",
+          "• <b>Si la Primera Ecografía es Tardía (2.° o 3.er trimestre):</b> La edad gestacional se estima con la biometría fetal (diámetro biparietal, circunferencia cefálica y abdominal, longitud femoral), con un error de ± 10-14 días, apoyada en la altura uterina, los primeros latidos con Doppler (10-12 semanas) y la percepción de movimientos fetales (18-20 semanas en primigestas, 16-18 en multíparas).",
+          "• <b>Regla Clave:</b> Una vez fijada la fecha probable de parto con la ecografía más precoz, <b>no se vuelve a cambiar</b> con ecografías posteriores: las diferencias de tamaño se interpretan como alteraciones del crecimiento, no del fechado. Si la edad gestacional no se puede precisar y hay dudas de crecimiento, se hace seguimiento ecográfico seriado (cada 2-3 semanas) y se deriva a ARO."
+        ]
+      },
+{
+        "subhead": "4. Amniocentesis: Indicaciones, Riesgos y Derivación",
+        "paragraphs": [
+          "• <b>Qué es y Quién la Realiza (procedimiento: derivar a especialista):</b> Punción transabdominal del saco amniótico bajo visión ecográfica continua, con aguja de 20-22 G, para obtener 15-20 mL de líquido. La realiza el especialista en medicina materno-fetal; el médico general debe <b>reconocer la indicación, informar el riesgo y derivar</b> con la ecografía y los exámenes previos.",
+          "• <b>Indicaciones:</b> Estudio de cariotipo o microarray cuando el tamizaje de 1.er trimestre es de alto riesgo, hay una malformación o marcador ecográfico, o hay un hijo previo con cromosomopatía; PCR en líquido amniótico para infección fetal (citomegalovirus, toxoplasma, parvovirus) cuando la infección materna está confirmada; y búsqueda de infección intraamniótica (Gram, cultivo y glucosa) en rotura de membranas o parto prematuro con sospecha de corioamnionitis.",
+          "• <b>Condiciones y Riesgos:</b> Se hace <b>desde las 15-16 semanas</b>; antes aumenta el riesgo de pérdida y de pie equino. La alternativa precoz es la biopsia de vellosidades coriales (10-13 semanas). El <b>riesgo de pérdida fetal atribuible es de 0,1-0,3%</b>; otros riesgos son pérdida transitoria de líquido, corioamnionitis (menos de 1 por mil) y sensibilización Rh. <b>Toda embarazada Rh negativa no sensibilizada recibe inmunoglobulina anti-D (300 µg IM)</b> después del procedimiento. Requiere consentimiento informado."
         ]
       }
     ],

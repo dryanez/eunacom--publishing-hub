@@ -41,7 +41,8 @@ module.exports = {
         { show: ['epr'], note: 'El epitelio pigmentario deja de limpiar bien',
           say: 'Con la edad, el epitelio pigmentario retiniano pierde la capacidad de degradar los segmentos externos gastados de los fotorreceptores.' },
         { show: ['dru'], note: 'La lesión elemental de toda la enfermedad',
-          say: 'Y ese material de desecho se acumula entre el epitelio pigmentario y la membrana de Bruch, formando las drusas: depósitos amarillentos de lípidos. Son la lesión elemental, la que ves primero en el fondo de ojo.' },
+          say: 'Y ese material de desecho se acumula entre el epitelio pigmentario y la membrana de Bruch, formando las drusas: depósitos amarillentos de lípidos. Son la lesión elemental, la que ves primero en el fondo de ojo. Mira esta mácula: las manchas amarillentas, de bordes difusos, son las drusas.',
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-14/01_dmae-seca-drusas__cto-oftalmo_p72.jpg', label: 'Drusas', at: 'Mira esta mácula', credit: 'Manual CTO Oftalmología 14.ª ed., p. 72' } },
         { show: ['conf'], note: 'El tamaño de la drusa predice el riesgo',
           say: 'Y ojo con este dato, porque se pregunta: no todas las drusas pesan lo mismo. Las drusas blandas, grandes y confluentes, son las que tienen alto riesgo de progresar hacia la ceguera.' },
       ],
@@ -58,7 +59,8 @@ module.exports = {
         ] },
         { title: 'DMAE húmeda o exudativa', tag: 'Diez a quince por ciento, pero la más destructiva', kind: 'alert', items: [
           { t: 'Membrana neovascular coroidea', d: 'El VEGF estimula vasos anómalos que cruzan la membrana de Bruch',
-            say: 'La forma húmeda es minoritaria, solo entre un diez y un quince por ciento, pero causa el noventa por ciento de la ceguera severa por esta enfermedad. La isquemia local libera VEGF, y eso hace crecer una membrana neovascular coroidea que atraviesa la membrana de Bruch hacia el espacio bajo la retina.' },
+            say: 'La forma húmeda es minoritaria, solo entre un diez y un quince por ciento, pero causa el noventa por ciento de la ceguera severa por esta enfermedad. La isquemia local libera VEGF, y eso hace crecer una membrana neovascular coroidea que atraviesa la membrana de Bruch hacia el espacio bajo la retina. Mira este fondo de ojo: la mancha roja oscura en la mácula es la sangre bajo la retina.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-14/02_dmae-humeda_alt1__cto-oftalmo_p107.jpg', label: 'Hemorragia subretiniana', at: 'Mira este fondo de ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 107' } },
           { t: 'Extravasación y hemorragia subretiniana', d: 'Pérdida visual rápida, en días o semanas',
             say: 'Esos vasos nuevos son frágiles: sangran y dejan salir líquido, dando edema macular y hemorragias subretinianas, que terminan en una cicatriz fibrovascular. Por eso la pérdida visual acá es rápida, en días o semanas, muy distinta a la evolución lenta de la forma seca.' },
         ] },
@@ -86,7 +88,11 @@ module.exports = {
         { show: ['meta'], note: 'El signo más temprano y más sensible',
           say: 'El síntoma más temprano y más sensible es la metamorfopsia: las líneas rectas, como el marco de una puerta o las baldosas del piso, se perciben torcidas, onduladas o quebradas.' },
         { show: ['amsl'], note: 'Se pesquisa en el box, sin ningún examen sofisticado',
-          say: 'Y se pesquisa con la rejilla de Amsler: una cuadrícula que el paciente mira de cerca, y si tiene degeneración macular, las líneas centrales se le ven curvadas o hay un área que falta.' },
+          say: 'Y se pesquisa con la rejilla de Amsler: una cuadrícula que el paciente mira de cerca, y si tiene degeneración macular, las líneas centrales se le ven curvadas o hay un área que falta. Esta es una rejilla normal, con el punto central. Y esta otra es lo que ve el paciente: las líneas se tuercen al lado del punto y aparece una mancha negra.',
+          photos: [
+            { src: 'biblioteca/12_oftalmologia/oftal-14/02_dmae-humeda__cto-oftalmo_p73.jpg', label: 'Rejilla de Amsler normal', at: 'Esta es una rejilla normal', credit: 'Manual CTO Oftalmología 14.ª ed., p. 73' },
+            { src: 'biblioteca/12_oftalmologia/oftal-14/02_amsler_metamorfopsia_escotoma__kanski_p598.jpg', label: 'Metamorfopsia y escotoma', at: 'Y esta otra', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., Fig. 14.12" },
+          ] },
         { show: ['esco'], note: 'Lo que le impide leer y reconocer rostros',
           say: 'Con el tiempo aparece el escotoma central: una mancha oscura fija justo en el centro de la mirada, que le impide leer y reconocer las caras de las personas.' },
         { show: ['peri'], note: 'El dato que evita el error de examen más frecuente',
@@ -101,7 +107,7 @@ module.exports = {
       cards: [
         { title: 'DMAE seca', tag: 'Fórmula AREDS-2', kind: 'pharma', items: [
           { t: 'Antioxidantes orales', d: 'Vitamina C, vitamina E, zinc, cobre, luteína y zeaxantina',
-            say: 'El tratamiento de la forma seca son los antioxidantes orales, con la fórmula AREDS-2: vitamina C, vitamina E, zinc, cobre, luteína y zeaxantina.' },
+            say: 'El tratamiento de la forma seca son los antioxidantes orales, con la fórmula AREDS dos: vitamina C, vitamina E, zinc, cobre, luteína y zeaxantina.' },
           { t: 'Dejar de fumar, siempre', d: 'Frena la progresión, pero no regenera el tejido ya atrófico',
             say: 'Junto con dejar de fumar de forma estricta. Ojo con la expectativa correcta: esto frena la velocidad de progresión, pero no regenera el tejido que ya está atrófico.' },
         ] },
@@ -116,36 +122,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Degeneración macular',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La mácula que envejece',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-14/01_dmae-seca-drusas__cto-oftalmo_p72.jpg', label: 'DMAE seca', credit: 'Manual CTO Oftalmología 14.ª ed., p. 72' },
-        { src: 'biblioteca/12_oftalmologia/oftal-14/02_dmae-humeda_alt1__cto-oftalmo_p107.jpg', label: 'DMAE húmeda: hemorragia subretiniana', credit: 'Manual CTO Oftalmología 14.ª ed., p. 107' },
-        { src: 'biblioteca/12_oftalmologia/oftal-14/02_amsler_metamorfopsia_escotoma__kanski_p598.jpg', label: 'Amsler', credit: 'Kanski 8.ª ed., Fig. 14.12' },
+        { src: 'animaciones/oftal-14/A1_dmae.mp4', label: 'Seca y húmeda', credit: 'Fondo de ojo: Servier Medical Art, CC BY 4.0 · capas y rótulos propios' },
       ],
       steps: [
-        { note: 'Drusas',
-          say: 'La forma seca muestra drusas, depósitos amarillos en la mácula.' },
-        { note: 'Hemorragia subretiniana',
-          say: 'La forma húmeda tiene una membrana neovascular coroidea que sangra: hemorragia subretiniana. Progresa rápido y se trata con anti VEGF intravítreo.' },
-        { note: 'Líneas onduladas y escotoma',
-          say: 'Y el paciente ve las líneas de la rejilla de Amsler onduladas, con una mancha central.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-14/02_dmae-humeda__cto-oftalmo_p73.jpg', label: 'Rejilla de Amsler', credit: 'Manual CTO Oftalmología 14.ª ed., p. 73' },
-      ],
-      steps: [
-        { note: 'Rejilla de Amsler',
-          say: 'La rejilla de Amsler: si las líneas se ven torcidas o falta una zona, sospechar degeneración macular húmeda.' },
+        { note: 'Drusas, neovasos y rejilla de Amsler',
+          say: 'La degeneración macular, vista en la mácula. En la forma seca aparecen drusas y, con los años, atrofia geográfica. En la húmeda crece una membrana neovascular que sangra. El paciente ve las líneas de la rejilla de Amsler onduladas y una mancha central, pero su campo periférico se conserva. La seca se trata con antioxidantes y dejar de fumar; la húmeda, con anti VEGF intravítreo.' },
       ],
     },
 
@@ -259,7 +244,7 @@ module.exports = {
         ] },
         { title: 'Tratamiento', tag: 'Antioxidantes o anti-VEGF', kind: 'pharma', items: [
           { t: 'Seca: AREDS-2 y dejar de fumar', d: 'Húmeda: inyecciones intravítreas de anti-VEGF, sin demora',
-            say: 'Si te llevas una sola idea de hoy: en la seca, antioxidantes con fórmula AREDS-2 y dejar de fumar; en la húmeda, anti-VEGF intravítreo, sin demora, porque cada semana que pasa se pierde visión. Nos vemos en la próxima clase.' },
+            say: 'Si te llevas una sola idea de hoy: en la seca, antioxidantes con fórmula AREDS dos y dejar de fumar; en la húmeda, anti-VEGF intravítreo, sin demora, porque cada semana que pasa se pierde visión. Nos vemos en la próxima clase.' },
         ] },
       ],
     },
@@ -278,7 +263,7 @@ module.exports = {
         ['', oct]);
 
       const areds = N('ok', 'Antioxidantes AREDS-2 y dejar de fumar', 'Frena la progresión, no regenera lo atrófico',
-        'Indica antioxidantes con fórmula AREDS-2 y refuerza dejar de fumar, sabiendo que esto frena la progresión, pero no revierte el daño ya hecho.');
+        'Indica antioxidantes con fórmula AREDS dos y refuerza dejar de fumar, sabiendo que esto frena la progresión, pero no revierte el daño ya hecho.');
       const seca = N('do', 'Sospecha de DMAE seca', 'Progresión lenta, a lo largo de años, con drusas',
         'Sospecha una forma seca: la progresión es lenta, a lo largo de años, y el fondo de ojo muestra drusas y atrofia.',
         ['', areds]);

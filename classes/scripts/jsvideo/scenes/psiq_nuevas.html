@@ -1,0 +1,300 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// Psiquiatría, clases nuevas 17.13 a 17.20: gráficos y esquemas solo de código (sin anatomía).
+//   ?v=snm         psiq-13  curso en horas del síndrome neuroléptico maligno: temperatura, rigidez y CPK suben juntas; se actúa al cruzar los umbrales
+//   ?v=agitacion   psiq-14  escalera RASS: cada puntaje agrega un escalón de contención; olanzapina IM más benzodiacepina parenteral prohibida
+//   ?v=alcohol     psiq-15  reloj de la abstinencia (horas desde el último trago): temblor, alucinosis, convulsiones, delirium tremens, conciencia y conducta
+//   ?v=toxindromes psiq-16  tablero de los cuatro toxíndromes: pupila (escala), signos vitales, piel y antídoto; advertencia de cocaína
+//   ?v=limite      psiq-17  ánimo del trastorno límite (horas, ligado al miedo al abandono) frente al episodio bipolar (días)
+//   ?v=tca         psiq-18  escala del IMC con los cortes de la anorexia y del ingreso, y fósforo en realimentación rápida frente a lenta con suplementos
+//   ?v=facticio    psiq-19  matriz de intencionalidad y motivo: simulación, facticio, somatomorfo y conversivo; facticio impuesto a otro
+//   ?v=sexual      psiq-20  curvas de la respuesta sexual de Masters y Johnson con el período refractario masculino y el patrón multiorgásmico femenino
+const V = new URLSearchParams(location.search).get('v') || 'snm';
+window.SCENE = { duration: ({ snm: 30, agitacion: 30, alcohol: 32, toxindromes: 30, limite: 30, tca: 32, facticio: 30, sexual: 30 })[V] || 28, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const G = GRAPH(L), K = KIT(L), { seg, fade } = K;
+const A = (a, f) => { if (a > 0) { ctx.save(); ctx.globalAlpha *= a; f(); ctx.restore(); } };
+const ORANGE = 'rgb(255,125,60)';
+function line(x1, y1, x2, y2, col, w = 2) { ctx.strokeStyle = col; ctx.lineWidth = w; ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke(); }
+function arrow(x, y, dir, col, s = 11) { // flecha corta vertical: dir 1 sube, -1 baja, 0 horizontal
+  ctx.fillStyle = col; ctx.beginPath();
+  if (dir > 0) { ctx.moveTo(x, y - s); ctx.lineTo(x - s * 0.8, y + s * 0.5); ctx.lineTo(x + s * 0.8, y + s * 0.5); }
+  else if (dir < 0) { ctx.moveTo(x, y + s); ctx.lineTo(x - s * 0.8, y - s * 0.5); ctx.lineTo(x + s * 0.8, y - s * 0.5); }
+  else { ctx.moveTo(x + s, y); ctx.lineTo(x - s * 0.5, y - s * 0.8); ctx.lineTo(x - s * 0.5, y + s * 0.8); }
+  ctx.fill();
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// psiq-13: SNM en horas
+function snm(t) {
+  K.title('Neuroléptico maligno: se arma en horas', 'Temperatura, rigidez y CPK desde que sube el antipsicótico', C.RED);
+  const axT = G.axes({ x: 100, y: 150, w: 690, h: 190 }, [0, 120], [36, 42], { xt: [0, 24, 48, 72, 96, [120, '120 h']], yt: [[37, '37'], [38, '38'], [40, '40'], [42, '42']], yl: '', xl: '' });
+  const axC = G.axes({ x: 100, y: 395, w: 690, h: 190 }, [0, 120], [0, 20000], { xt: [0, 24, 48, 72, 96, [120, 'horas']], yt: [[1000, '1.000'], [10000, '10.000'], [20000, '20.000']], yl: 'CPK (UI/L)', xl: '' });
+  axT.draw(seg(t, 0, 0.7)); axC.draw(seg(t, 0.2, 0.7));
+  A(seg(t, 0, 0.7), () => text('Temperatura (°C)', axT.box.x + axT.box.w - 8, axT.box.y + 26, 17, C.MUTED, '', 'right'));
+  G.band(axT, 38, 42, 'rgba(255,90,78,0.10)', seg(t, 0.8, 0.5));
+  G.hline(axT, 38, C.AMBER, null, seg(t, 1, 0.6)); G.hline(axT, 40, C.RED, null, seg(t, 1.2, 0.6));
+  A(seg(t, 1.5, 0.5), () => { text('Hipertermia: sobre 38', axT.X(118), axT.Y(38) - 8, 16, C.AMBER, 'bold', 'right'); text('Sobre 40: grave', axT.X(118), axT.Y(40) - 8, 16, C.RED, 'bold', 'right'); });
+  G.hline(axC, 1000, C.AMBER, null, seg(t, 1, 0.6)); G.hline(axC, 10000, C.RED, null, seg(t, 1.2, 0.6));
+  A(seg(t, 1.5, 0.5), () => { text('Más de 1.000', axC.X(2), axC.Y(1000) - 8, 16, C.AMBER, 'bold'); text('Más de 10.000: masiva', axC.X(2), axC.Y(10000) - 8, 16, C.RED, 'bold'); });
+  const ft = G.smooth([[0, 37], [12, 37.4], [24, 38.4], [36, 39.5], [48, 40.5], [60, 40.2], [72, 39], [96, 37.7], [120, 37.2]]);
+  const fc = G.smooth([[0, 150], [12, 400], [24, 1800], [36, 6500], [48, 13000], [60, 17500], [72, 12500], [96, 5000], [120, 1500]]);
+  const cur = 120 * ease(seg(t, 2, 19));
+  const k = cur / 120;
+  const p1 = G.curve(axT, ft, k, C.RED, 5); if (k < 1) G.head(p1, C.RED);
+  const p2 = G.curve(axC, fc, k, C.AMBER, 5); if (k < 1) G.head(p2, C.AMBER);
+  // rigidez: franja que se pone roja con el tiempo
+  A(seg(t, 2, 0.5), () => {
+    const rig = h => h < 12 ? 0.05 : h < 48 ? 0.05 + 0.95 * (h - 12) / 36 : h < 72 ? 1 : Math.max(0, 1 - (h - 72) / 40);
+    text('Rigidez', 100, 618, 16, C.MUTED, 'bold');
+    for (let h = 0; h < Math.min(cur, 120); h += 1) { const v = rig(h); ctx.fillStyle = `rgba(255,${Math.round(194 - 104 * v)},${Math.round(71 - 0 * v)},${0.25 + 0.7 * v})`; ctx.fillRect(axC.X(h), 626, axC.X(h + 1) - axC.X(h) + 1, 22); }
+  });
+  // hitos
+  A(seg(t, 2.2, 0.5), () => { const x = axT.X(0); ctx.fillStyle = C.BLUE; ctx.fillRect(x - 1, 150, 3, 435); tag('Se sube el antipsicótico', x + 120, 134, C.BLUE, 15); });
+  const iv = cur >= 48 ? 1 : 0;
+  A(iv * seg(t, 9, 0.4), () => { const x = axT.X(48); ctx.strokeStyle = C.GREEN; ctx.lineWidth = 3; ctx.setLineDash([8, 6]); ctx.beginPath(); ctx.moveTo(x, 150); ctx.lineTo(x, 585); ctx.stroke(); ctx.setLineDash([]); tag('Se actúa: suspender, enfriar, hidratar', x + 215, 134, C.GREEN, 15); });
+  // tarjetas según el avance
+  A(fade(t, 3, 8.2), () => K.card(830, 150, 410, 150, C.AMBER, '24 a 72 horas', ['Fiebre, rigidez en caño de plomo,', 'disautonomía y conciencia alterada', 'Reflejos normales o disminuidos'], 1, 17));
+  A(fade(t, 8.6, 14, 0.4), () => K.card(830, 150, 410, 170, C.GREEN, 'Primera hora', ['Suspender el antipsicótico', 'Traslado a UPC y enfriar', 'Suero fisiológico 3 a 6 L al día', 'Meta: diuresis 2 a 3 mL/kg/h'], 1, 17));
+  A(fade(t, 14.4, 25, 0.4), () => K.card(830, 150, 410, 170, C.VIOLET, 'Si no cede', ['Bromocriptina 2,5 a 5 mg c/8 h', 'o amantadina', 'Dantroleno EV 1 a 2,5 mg/kg', 'Rigidez extrema con hipertermia'], 1, 17));
+  A(seg(t, 11, 0.5), () => K.card(830, 345, 410, 140, C.RED, 'Por qué la diuresis', ['La CPK de la rabdomiólisis suelta', 'mioglobina: sin diuresis forzada', 'se daña el riñón'], 1, 17));
+  A(seg(t, 22, 0.5), () => K.card(830, 500, 410, 130, C.BLUE, 'Reintroducir', ['Esperar 2 semanas con CPK y', 'temperatura normales; quetiapina', 'o clozapina a dosis mínima'], 1, 17));
+  K.banner(100, 662, 1140, 'Primera medida: suspender el antipsicótico. El paracetamol no baja esta fiebre', C.RED, seg(t, 25.5, 0.5));
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// psiq-14: escalera RASS
+function agitacion(t) {
+  K.title('La escalera de la agitación', 'Escala RASS y escalón de contención', C.AMBER);
+  const steps = [
+    ['+1 Inquieto', 'Desescalada verbal y observación', C.GREEN],
+    ['+2 Agitado', 'Verbal + lorazepam 2 mg o risperidona 2 mg VO', '#9BD65A'],
+    ['+3 Muy agitado', 'Haloperidol 5 mg + lorazepam 2 a 4 mg IM', C.AMBER],
+    ['+4 Combativo', 'Contención física con equipo de 5 + fármacos IM', C.RED]];
+  const lvT = [0, 3.5, 8, 13, 100];   // instante en que sube cada puntaje
+  const lev = t < lvT[1] ? 0 : t < lvT[2] ? 1 : t < lvT[3] ? 2 : 3;
+  const bx = 40, bw = 420, bh = 92, by0 = 520;
+  steps.forEach(([nm, txt, col], i) => {
+    const y = by0 - i * (bh + 12), w = bw + i * 60, a = seg(t, 0.3 + i * 0.3, 0.5);
+    const on = lev === i, done = lev > i;
+    A(a, () => {
+      rrect(bx, y, w, bh, 14, on ? col : done ? '#232B38' : '#161B22'); ctx.strokeStyle = col; ctx.lineWidth = on ? 4 : 2; ctx.beginPath(); ctx.roundRect(bx, y, w, bh, 14); ctx.stroke();
+      text(nm, bx + 18, y + 34, 24, on ? C.BG : col, 'bold');
+      text(txt, bx + 18, y + 66, 17, on ? C.BG : C.INK);
+    });
+  });
+  // marcador del paciente
+  const ly = by0 - lev * (bh + 12) + bh / 2;
+  A(seg(t, 1.5, 0.5), () => { const ex = bx + bw + lev * 60; tag('Paciente', ex + 80, ly, '#fff', 18); ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.moveTo(ex + 6, ly); ctx.lineTo(ex + 24, ly - 9); ctx.lineTo(ex + 24, ly + 9); ctx.fill(); });
+  // descarte orgánico primero
+  A(seg(t, 0.8, 0.5) * (1 - seg(t, 19, 0.5)), () => { rrect(800, 150, 440, 100, 14, '#161B22'); ctx.fillStyle = C.BLUE; ctx.fillRect(800, 150, 6, 100); text('Antes de sedar', 822, 184, 21, C.BLUE, 'bold'); text('Glicemia capilar y oximetría', 822, 214, 18, C.INK); text('Orgánica: delirium, tratar la causa', 822, 238, 17, C.MUTED); });
+  A(fade(t, 4, 9.5, 0.4), () => K.card(800, 290, 440, 130, C.GREEN, 'Escalón 2: fármaco', ['Vía oral si colabora', 'Si rechaza: intramuscular', 'Olanzapina 10 mg o aripiprazol 9,75 mg'], 1, 17));
+  A(fade(t, 9.5, 19, 0.4), () => K.card(800, 290, 440, 150, C.RED, 'Escalón 3: físico', ['Último recurso, con orden médica', 'escrita en la ficha (Ley 21.331)', 'Cuatro puntos a la estructura de la cama', 'Control cada 15 a 30 minutos'], 1, 17));
+  // advertencia mortal
+  A(seg(t, 15.5, 0.6), () => {
+    rrect(800, 460, 440, 130, 14, 'rgba(255,90,78,0.16)'); ctx.strokeStyle = C.RED; ctx.lineWidth = 3; ctx.beginPath(); ctx.roundRect(800, 460, 440, 130, 14); ctx.stroke();
+    text('Prohibido mezclar', 822, 494, 22, C.RED, 'bold'); text('Olanzapina IM + benzodiacepina', 822, 526, 18, C.INK, 'bold'); text('parenteral: colapso cardiorrespiratorio', 822, 550, 18, C.INK); text('Esperar 2 horas entre una y otra', 822, 574, 17, C.MUTED);
+  });
+  A(seg(t, 15.5, 0.6), () => { ctx.strokeStyle = C.RED; ctx.lineWidth = 6; ctx.beginPath(); ctx.moveTo(1190, 470); ctx.lineTo(1230, 510); ctx.moveTo(1230, 470); ctx.lineTo(1190, 510); ctx.stroke(); });
+  A(seg(t, 21, 0.5), () => K.card(800, 150, 440, 120, C.VIOLET, 'En el adulto mayor', ['Delirium: haloperidol 0,5 a 1 mg', 'Sin benzodiacepinas (salvo abstinencia)'], 1, 17));
+  K.banner(40, 640, 1200, 'Verbal primero, fármaco después, sujeción al final; y nunca olanzapina IM con lorazepam IM', C.AMBER, seg(t, 25, 0.5));
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// psiq-15: reloj de la abstinencia alcohólica
+function alcohol(t) {
+  K.title('El reloj de la abstinencia alcohólica', 'Horas desde el último trago', C.AMBER);
+  const x0 = 290, x1 = 1220, W = 100, X = h => x0 + (h / W) * (x1 - x0);
+  const AXY = 424;
+  A(seg(t, 0, 0.7), () => {
+    line(x0, AXY, x1, AXY, '#3A424E', 2);
+    [0, 6, 12, 24, 48, 72, 96].forEach(h => { text(String(h), X(h), AXY + 24, 16, C.MUTED, '', 'center'); ctx.fillStyle = '#3A424E'; ctx.fillRect(X(h) - 1, AXY - 6, 2, 12); });
+    text('horas', x1, AXY + 46, 16, C.MUTED, '', 'right');
+  });
+  const lanes = [
+    { y: 152, nm: 'Temblor y disautonomía', h0: 6, h1: 12, col: C.BLUE, lab: 'Leve: vigil y orientado', out: true },
+    { y: 206, nm: 'Alucinosis alcohólica', h0: 12, h1: 24, col: C.AMBER, lab: 'Alucina, pero lúcido', out: true },
+    { y: 260, nm: 'Convulsiones', h0: 12, h1: 48, col: ORANGE, lab: 'Benzodiacepina; sin fenitoína' },
+    { y: 314, nm: 'Delirium tremens', h0: 48, h1: 96, col: C.RED, lab: 'Confuso, fiebre, zoopsias' },
+    { y: 368, nm: 'Wernicke', h0: 0, h1: 96, col: C.VIOLET, lab: 'Tiamina antes de glucosa', dashed: true }];
+  const cd = 96 * ease(seg(t, 2, 20));
+  lanes.forEach((ln, i) => {
+    A(seg(t, 0.3 + i * 0.3, 0.5), () => text(ln.nm, 40, ln.y + 28, 19, ln.col, 'bold'));
+    const e = clamp(cd, ln.h0, ln.h1);
+    A(0.25, () => rrect(X(ln.h0), ln.y, X(ln.h1) - X(ln.h0), 40, 10, ln.col));
+    if (cd > ln.h0 && !ln.dashed) rrect(X(ln.h0), ln.y, Math.max(0, X(e) - X(ln.h0)), 40, 10, ln.col);
+    if (ln.dashed) { A(seg(t, 2, 0.6), () => { ctx.strokeStyle = ln.col; ctx.lineWidth = 3; ctx.setLineDash([10, 8]); ctx.strokeRect(X(0), ln.y, X(96) - X(0), 40); ctx.setLineDash([]); }); }
+    if (cd > ln.h0) A(seg(cd, ln.h0, 3), () => { if (ln.out) text(ln.lab, X(ln.h1) + 12, ln.y + 27, 17, ln.col, 'bold'); else text(ln.lab, X(ln.h0) + 10, ln.y + 27, 16, i === 4 ? C.INK : C.BG, 'bold'); });
+  });
+  // cursor
+  A(seg(t, 2, 0.4), () => { const x = X(cd); line(x, 134, x, AXY, '#fff', 3); tag(Math.round(cd) + ' h', x, 124, '#fff', 16); });
+  // conciencia
+  const cy = 480;
+  A(seg(t, 1, 0.5), () => { text('Conciencia', 40, cy + 22, 18, C.MUTED, 'bold'); rrect(x0, cy, X(48) - x0, 30, 8, 'rgba(61,220,132,0.85)'); rrect(X(48), cy, x1 - X(48), 30, 8, 'rgba(255,90,78,0.85)'); text('Lúcida', x0 + 12, cy + 21, 17, C.BG, 'bold'); text('Compromiso severo', X(48) + 12, cy + 21, 17, C.BG, 'bold'); });
+  // conducta
+  K.card(40, 535, 380, 100, C.GREEN, 'CIWA bajo 10', ['Ambulatorio con familiar', 'Sin benzodiacepina de rutina'], seg(t, 6, 0.5), 17);
+  K.card(440, 535, 390, 100, C.AMBER, 'CIWA 10 a 19', ['Diazepam 10 a 20 mg VO c/1-2 h', 'Lorazepam si hay hepatopatía'], seg(t, 11, 0.5), 17);
+  K.card(850, 535, 390, 100, C.RED, 'CIWA 20 o más, o DT', ['Hospitalizar; UPC si es grave', 'Benzodiacepina EV, electrolitos'], seg(t, 17, 0.5), 17);
+  A(seg(t, 23, 0.6), () => tag('Tiamina siempre antes de cualquier glucosado', 640, 668, C.VIOLET, 20));
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// psiq-16: tablero de toxíndromes
+function toxindromes(t) {
+  K.title('Los cuatro toxíndromes', 'Pupila, signos vitales, clínica y conducta', C.RED);
+  const cols = [
+    { nm: 'Simpaticomimético', sub: 'Cocaína, pasta base, anfetaminas, éxtasis', col: C.RED, pup: 8, vit: [['FC', 1, 'taquicardia'], ['PA', 1, 'HTA severa'], ['T°', 1, 'hipertermia']], cli: ['Diaforesis, agitación', 'Vasoespasmo coronario'], ant: 'Benzodiacepinas EV' },
+    { nm: 'Anticolinérgico', sub: 'Atropina, tricíclicos, antihistamínicos', col: C.AMBER, pup: 8.6, vit: [['FC', 1, 'taquicardia'], ['T°', 1, 'hipertermia']], cli: ['Piel seca y roja', 'Rojo como betarraga,', 'seco como hueso, loco como cabra'], ant: 'Soporte' },
+    { nm: 'Opioide', sub: 'Morfina, heroína, fentanilo, metadona', col: C.BLUE, pup: 1.2, vit: [['PA', -1, 'hipotensión'], ['FR', -1, 'bradipnea severa']], cli: ['Coma y depresión', 'respiratoria mortal'], ant: 'Naloxona EV' },
+    { nm: 'Sedante-hipnótico', sub: 'Benzodiacepinas, barbitúricos, zolpidem', col: C.GREEN, pup: 4, vit: [['PA', -1, 'hipotensión leve'], ['FR', -1, 'bradipnea']], cli: ['Sopor, ataxia, disartria'], ant: 'Soporte ventilatorio; flumazenil restringido' }];
+  const cw = 290, gap = 13;
+  cols.forEach((c, i) => {
+    const x = 40 + i * (cw + gap), a = seg(t, 0.5 + i * 5.2, 0.6);
+    A(a, () => {
+      rrect(x, 135, cw, 485, 16, '#161B22'); ctx.fillStyle = c.col; ctx.fillRect(x, 135, cw, 6);
+      text(c.nm, x + 16, 176, 22, c.col, 'bold'); text(c.sub, x + 16, 202, 14, C.MUTED);
+      text('Pupila', x + 16, 248, 17, C.INK, 'bold');
+      const gx = x + 16, gw = cw - 32, gy = 272;
+      rrect(gx, gy, gw, 14, 7, '#222833');
+      ctx.fillStyle = 'rgba(79,163,255,0.5)'; ctx.fillRect(gx, gy, gw * (2.5 / 9), 14);
+      ctx.fillStyle = 'rgba(61,220,132,0.4)'; ctx.fillRect(gx + gw * (2.5 / 9), gy, gw * (2.5 / 9), 14);
+      ctx.fillStyle = 'rgba(255,90,78,0.5)'; ctx.fillRect(gx + gw * (5 / 9), gy, gw * (4 / 9), 14);
+      text('Miosis', gx, gy + 34, 13, C.MUTED); text('Midriasis', gx + gw, gy + 34, 13, C.MUTED, '', 'right');
+      const mx = gx + gw * (clamp(c.pup, 0.5, 9) / 9) * ease(seg(t, 1 + i * 5.2, 1.2)); ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(mx, gy + 7, 11, 0, 7); ctx.fill();
+      text('Signos vitales', x + 16, 346, 17, C.INK, 'bold');
+      c.vit.forEach(([nm, d, lab], j) => { const vy = 380 + j * 32; text(nm, x + 16, vy, 17, C.MUTED, 'bold'); arrow(x + 62, vy - 6, d, d > 0 ? C.RED : C.BLUE, 12); text(lab, x + 84, vy, 17, C.INK); });
+      text('Clínica', x + 16, 488, 17, C.INK, 'bold');
+      c.cli.forEach((l, j) => text(l, x + 16, 514 + j * 21, 15, C.INK));
+      rrect(x + 12, 568, cw - 24, 44, 10, 'rgba(255,255,255,0.06)');
+      const words = c.ant.split(' '); let l1 = '', l2 = ''; words.forEach(w => { if ((l1 + ' ' + w).length < 24 && !l2) l1 = (l1 + ' ' + w).trim(); else l2 = (l2 + ' ' + w).trim(); });
+      if (l2) { text(l1, x + 22, 585, 15, c.col, 'bold'); text(l2, x + 22, 603, 15, c.col, 'bold'); } else text(l1, x + 22, 596, 18, c.col, 'bold');
+    });
+  });
+  A(seg(t, 23, 0.6), () => {
+    rrect(40, 634, 1200, 56, 14, 'rgba(255,90,78,0.18)'); ctx.strokeStyle = C.RED; ctx.lineWidth = 3; ctx.beginPath(); ctx.roundRect(40, 634, 1200, 56, 14); ctx.stroke();
+    text('Dolor torácico por cocaína: benzodiacepina, aspirina y nitroglicerina. Nunca betabloqueador (alfa sin oposición)', 640, 669, 20, C.INK, 'bold', 'center');
+  });
+  A(seg(t, 25.5, 0.5), () => { tag('Flumazenil: no en usuario crónico', 1090, 120, C.AMBER, 15); });
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// psiq-17: ánimo del límite frente al bipolar
+function limite(t) {
+  K.title('El ánimo del límite: horas, no semanas', 'Miedo al abandono frente a episodio bipolar', C.VIOLET);
+  const axA = G.axes({ x: 100, y: 160, w: 690, h: 180 }, [0, 48], [0, 10], { xt: [0, 12, 24, 36, [48, '48 horas']], yt: [], yl: '', xl: '' });
+  const axB = G.axes({ x: 100, y: 410, w: 690, h: 180 }, [0, 14], [0, 10], { xt: [0, 3, 7, 10, [14, '14 días']], yt: [], yl: '', xl: '' });
+  axA.draw(seg(t, 0, 0.7)); axB.draw(seg(t, 0.2, 0.7));
+  A(seg(t, 0, 0.7), () => { text('Trastorno límite: el ánimo oscila en horas', axA.box.x + 270, axA.box.y - 14, 17, C.VIOLET, 'bold'); text('Trastorno bipolar: el episodio dura días', axB.box.x, axB.box.y - 14, 17, C.AMBER, 'bold'); });
+  G.hline(axA, 5, C.MUTED, null, seg(t, 0.8, 0.5)); G.hline(axB, 5, C.MUTED, null, seg(t, 0.8, 0.5));
+  const fa = G.smooth([[0, 6], [6, 6.5], [9, 6.2], [10.5, 1.2], [13, 1.8], [15, 5.5], [17, 8.6], [19, 8.4], [21, 3.2], [24, 2.5], [28, 7.5], [32, 7.8], [34, 1.8], [38, 3.6], [42, 8], [48, 7]]);
+  const fb = G.smooth([[0, 5], [2.5, 5.2], [3.2, 7.5], [4.5, 8.8], [9, 9], [10, 8.2], [11, 5.4], [14, 5]]);
+  const ka = ease(seg(t, 1.5, 14)), kb = ease(seg(t, 17, 8));
+  const pa = G.curve(axA, fa, ka, C.VIOLET, 5); if (ka < 1) G.head(pa, C.VIOLET);
+  const pb = G.curve(axB, fb, kb, C.AMBER, 5); if (kb < 1) G.head(pb, C.AMBER);
+  // desencadenantes
+  A(seg(t, 5.8, 0.4), () => { const x = axA.X(10); ctx.strokeStyle = C.RED; ctx.lineWidth = 2; ctx.setLineDash([6, 6]); ctx.beginPath(); ctx.moveTo(x, 160); ctx.lineTo(x, 340); ctx.stroke(); ctx.setLineDash([]); tag('La pareja avisa un viaje', x + 20, 136, C.RED, 15); });
+  A(seg(t, 8.6, 0.5), () => tag('Devalúa: «un monstruo»', axA.X(12.5), axA.Y(0.3) - 18, C.RED, 14));
+  A(seg(t, 11.3, 0.5), () => tag('Idealiza: «mi única razón»', axA.X(26), axA.Y(9.3), C.GREEN, 14));
+  A(seg(t, 21, 0.5), () => tag('Dura días a semanas, sin relación con el vínculo', axB.X(7), axB.Y(2.4), C.AMBER, 15));
+    K.card(830, 160, 410, 140, C.VIOLET, 'El núcleo del límite', ['Miedo frenético al abandono', 'Idealización y devaluación', 'Vacío crónico y autolesiones'], seg(t, 3, 0.5), 17);
+  K.card(830, 320, 410, 140, C.RED, 'En la crisis, en urgencias', ['Curar sin moralizar', 'Evaluar el riesgo suicida real', 'Contener y derivar'], seg(t, 12.5, 0.5), 17);
+  K.card(830, 480, 410, 120, C.GREEN, 'Tratamiento de fondo', ['Terapia dialéctico-conductual', 'Fármacos solo de apoyo'], seg(t, 22, 0.5), 17);
+  K.banner(100, 640, 1140, 'La labilidad del límite dura horas y responde al vínculo; la del bipolar dura días o semanas', C.VIOLET, seg(t, 25.5, 0.5));
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// psiq-18: IMC y realimentación
+function tca(t) {
+  K.title('Anorexia: los cortes del IMC y la realimentación', 'Índice de masa corporal y fósforo sérico', C.RED);
+  // escala vertical de IMC 10 a 34
+  const gx = 250, gw = 70, y0 = 590, y1 = 150, IMC = v => y0 - ((v - 10) / 24) * (y0 - y1);
+  const zones = [[10, 14, 'rgba(255,90,78,0.85)', 'Bajo 13 a 14: hospitalizar'], [14, 18.5, 'rgba(255,194,71,0.7)', 'Bajo 18,5: anorexia'], [18.5, 25, 'rgba(61,220,132,0.6)', 'Normal'], [25, 34, 'rgba(79,163,255,0.45)', 'Sobrepeso y obesidad']];
+  A(seg(t, 0, 0.8), () => {
+    zones.forEach(([a, b, col, lab]) => { rrect(gx, IMC(b), gw, IMC(a) - IMC(b) - 2, 6, col); text(lab, gx - 50, (IMC(a) + IMC(b)) / 2 + 5, 15, C.INK, 'bold', 'right'); });
+    [10, 14, 18.5, 25, 34].forEach(v => text(String(v).replace('.', ','), gx - 8, IMC(v) + 5, 15, C.MUTED, '', 'right'));
+    text('IMC (kg/m²)', gx, y1 - 14, 16, C.MUTED);
+  });
+  const pts = [['Anorexia grave', 13.7, C.RED, 2.5], ['Bulimia: peso normal', 22, C.GREEN, 5.5], ['Atracón: obesidad', 31, C.BLUE, 8]];
+  pts.forEach(([nm, v, col, a]) => A(seg(t, a, 0.6), () => { const y = IMC(v); ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(gx + gw + 44, y); ctx.lineTo(gx + gw + 70, y); ctx.stroke(); ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.moveTo(gx + gw + 4, y); ctx.lineTo(gx + gw + 34, y - 10); ctx.lineTo(gx + gw + 34, y + 10); ctx.fill(); rrect(gx + gw + 70, y - 17, 215, 34, 17, col); text(nm, gx + gw + 177, y + 6, 16, C.BG, 'bold', 'center'); }));
+  // panel derecho: fósforo
+  const ax = G.axes({ x: 700, y: 190, w: 520, h: 270 }, [0, 7], [0, 10], { xt: [0, 1, 2, 3, 5, [7, 'días']], yt: [], yl: 'Fósforo sérico', xl: '' });
+  A(seg(t, 10, 0.6), () => ax.draw(1));
+  const kx = 10.5;
+  G.band(ax, 4, 8, 'rgba(61,220,132,0.12)', seg(t, kx, 0.5)); A(seg(t, kx, 0.5), () => text('Rango normal', ax.X(7) - 8, ax.Y(4) - 8, 15, C.GREEN, 'bold', 'right'));
+  const rap = G.smooth([[0, 6], [1, 5.2], [2, 3], [3, 1.2], [4, 1.0], [7, 1.6]]);
+  const len = G.smooth([[0, 6], [1, 6], [3, 5.8], [5, 5.7], [7, 5.9]]);
+  const k1 = ease(seg(t, 11.5, 5)), k2 = ease(seg(t, 18, 5));
+  const p1 = G.curve(ax, rap, k1, C.RED, 5); if (k1 < 1) G.head(p1, C.RED);
+  const p2 = G.curve(ax, len, k2, C.GREEN, 5); if (k2 < 1) G.head(p2, C.GREEN);
+  A(seg(t, 15, 0.5), () => tag('Carga rápida: hipofosfatemia', ax.X(4.7), ax.Y(2.7), C.RED, 15));
+  A(seg(t, 22, 0.5), () => tag('Lenta con suplementos', ax.X(3.0), ax.Y(9.0), C.GREEN, 15));
+  A(seg(t, 16.5, 0.5), () => K.card(700, 505, 520, 110, C.RED, 'Síndrome de realimentación', ['La insulina mete fósforo a la célula:', 'paro, edema pulmonar, convulsiones, rabdomiólisis'], 1, 17));
+  A(seg(t, 23, 0.5), () => K.card(700, 505, 520, 110, C.GREEN, 'Cómo se previene', ['Enteral, lenta: 1.000 a 1.200 kcal al día', 'Fósforo, magnesio y tiamina desde el inicio'], 1, 17));
+  K.banner(90, 640, 1130, 'Anorexia grave: primero se hospitaliza y después se realimenta con cuidado', C.RED, seg(t, 27, 0.5));
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// psiq-19: matriz intencionalidad y motivo
+function facticio(t) {
+  K.title('¿A propósito? ¿Para qué?', 'Facticio, simulación y somatomorfo', C.VIOLET);
+  const mx = 230, my = 190, cw = 300, ch = 160;
+  // encabezados
+  A(seg(t, 0, 0.6), () => {
+    text('¿Qué busca?', mx + cw, 160, 18, C.MUTED, 'bold', 'center');
+    text('Beneficio externo', mx + cw / 2, 182, 17, C.AMBER, 'bold', 'center'); text('Ser paciente', mx + cw * 1.5, 182, 17, C.VIOLET, 'bold', 'center');
+    text('Lo produce', 120, my + ch / 2 - 6, 17, C.MUTED, 'bold', 'center'); text('a propósito', 120, my + ch / 2 + 16, 17, C.MUTED, 'bold', 'center');
+    text('No es', 120, my + ch * 1.5 - 6, 17, C.MUTED, 'bold', 'center'); text('intencional', 120, my + ch * 1.5 + 16, 17, C.MUTED, 'bold', 'center');
+    ctx.strokeStyle = '#3A424E'; ctx.lineWidth = 2; ctx.strokeRect(mx, my, cw * 2, ch * 2); line(mx + cw, my, mx + cw, my + ch, '#3A424E', 2); line(mx, my + ch, mx + cw * 2, my + ch, '#3A424E', 2);
+  });
+  // celdas
+  A(seg(t, 3, 0.6), () => { rrect(mx + 6, my + 6, cw - 12, ch - 12, 12, 'rgba(255,194,71,0.22)'); text('Simulación', mx + cw / 2, my + 70, 26, C.AMBER, 'bold', 'center'); text('Licencia, dinero, drogas,', mx + cw / 2, my + 100, 16, C.INK, '', 'center'); text('evitar un castigo', mx + cw / 2, my + 122, 16, C.INK, '', 'center'); text('No es enfermedad mental', mx + cw / 2, my + 146, 14, C.MUTED, '', 'center'); });
+  A(seg(t, 7, 0.6), () => { rrect(mx + cw + 6, my + 6, cw - 12, ch - 12, 12, 'rgba(179,136,255,0.25)'); text('Trastorno facticio', mx + cw * 1.5, my + 62, 26, C.VIOLET, 'bold', 'center'); text('Laxantes, insulina, termómetro', mx + cw * 1.5, my + 94, 16, C.INK, '', 'center'); text('Münchhausen: forma crónica', mx + cw * 1.5, my + 116, 16, C.INK, '', 'center'); text('Sin ganancia externa', mx + cw * 1.5, my + 142, 15, C.VIOLET, 'bold', 'center'); });
+  A(seg(t, 12, 0.6), () => { rrect(mx + 6, my + ch + 6, cw * 2 - 12, ch - 12, 12, 'rgba(79,163,255,0.2)'); text('Somatomorfo y conversivo', mx + cw, my + ch + 62, 26, C.BLUE, 'bold', 'center'); text('Síntomas involuntarios: físicos persistentes o déficit neurológico funcional', mx + cw, my + ch + 98, 16, C.INK, '', 'center'); text('Sin engaño: controles regulares, explicar, ISRS o TCC, derivar', mx + cw, my + ch + 124, 16, C.INK, '', 'center'); });
+  // casos que aparecen
+  const dots = [['«Licencia falsa»', mx + cw * 0.5 + 40, my + 24, C.AMBER, 4], ['Insulina a escondidas', mx + cw * 1.5 + 40, my + 24, C.VIOLET, 8], ['Dolor sin causa, sin engaño', mx + cw + 70, my + ch + 24, C.BLUE, 13]];
+  dots.forEach(([nm, x, y, col, a]) => A(seg(t, a, 0.5), () => { ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x - 70, y, 8, 0, 7); ctx.fill(); text(nm, x - 54, y + 6, 15, C.INK, 'bold'); }));
+  // derecha: conducta
+  K.card(880, 190, 360, 130, C.VIOLET, 'Conducta en el facticio', ['No confrontar con acusaciones', 'Ficha única; evitar procedimientos', 'Interconsulta de psiquiatría'], seg(t, 8.5, 0.5), 17);
+  K.card(880, 340, 360, 110, C.AMBER, 'En la simulación', ['Documentar de forma objetiva', 'No es enfermedad mental'], seg(t, 4.5, 0.5), 17);
+  A(seg(t, 17, 0.6), () => {
+    rrect(880, 470, 360, 140, 14, 'rgba(255,90,78,0.16)'); ctx.strokeStyle = C.RED; ctx.lineWidth = 3; ctx.beginPath(); ctx.roundRect(880, 470, 360, 140, 14); ctx.stroke();
+    text('Facticio impuesto a otro', 900, 505, 21, C.RED, 'bold'); text('Un cuidador enferma a un niño:', 900, 536, 17, C.INK); text('es abuso infantil. Proteger al', 900, 560, 17, C.INK); text('menor y notificar a la justicia', 900, 584, 17, C.INK);
+  });
+  K.banner(100, 640, 1140, 'Si hay engaño sin ganancia externa, piensa en facticio; si hay beneficio externo, simulación', C.VIOLET, seg(t, 24, 0.5));
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// psiq-20: curva de la respuesta sexual
+function sexual(t) {
+  K.title('Respuesta sexual: Masters y Johnson', 'Tensión sexual en el tiempo', C.VIOLET);
+  const ax = G.axes({ x: 100, y: 170, w: 760, h: 380 }, [0, 10], [0, 10], { xt: [], yt: [], yl: 'Tensión sexual', xl: '' });
+  ax.draw(seg(t, 0, 0.7));
+  // fases
+  const ph = [[0, 3, 'Excitación', C.BLUE], [3, 6, 'Meseta', C.GREEN], [6, 7, 'Orgasmo', C.RED], [7, 10, 'Resolución', C.AMBER]];
+  ph.forEach(([a, b, nm, col], i) => A(seg(t, 0.8 + i * 0.4, 0.5), () => { ctx.fillStyle = col; ctx.globalAlpha *= 0.12; ctx.fillRect(ax.X(a), ax.box.y, ax.X(b) - ax.X(a), ax.box.h); ctx.globalAlpha /= 0.12; text(nm, (ax.X(a) + ax.X(b)) / 2, ax.box.y + ax.box.h + 28, 18, col, 'bold', 'center'); }));
+  const male = G.smooth([[0, 0.5], [1.5, 3.2], [3, 6], [4.5, 6.6], [5.9, 7], [6.5, 9.7], [7.2, 4.6], [8.5, 1.8], [10, 0.7]]);
+  const fem = G.smooth([[0, 0.5], [1.5, 3.2], [3, 6], [4.5, 6.6], [5.9, 7], [6.5, 9.7], [7.1, 6.6], [8, 7], [8.8, 9.7], [9.4, 6.2], [10, 2.6]]);
+  const km = ease(seg(t, 2.5, 11)), kf = ease(seg(t, 15, 9));
+  const pm = G.curve(ax, male, km, C.BLUE, 5); if (km < 1) G.head(pm, C.BLUE);
+  const pf = G.curve(ax, fem, kf, C.RED, 5, 0, 10, [10, 6]); if (kf < 1) G.head(pf, C.RED);
+  // refractario
+  A(seg(t, 12.5, 0.6), () => { ctx.fillStyle = 'rgba(255,194,71,0.16)'; ctx.fillRect(ax.X(7), ax.box.y, ax.X(10) - ax.X(7), ax.box.h); tag('Período refractario masculino: sin nuevo orgasmo', ax.X(7.2) + 100, ax.box.y + ax.box.h + 62, C.AMBER, 15); });
+  A(seg(t, 20, 0.6), () => tag('Mujer (punteada): puede repetir el orgasmo', ax.X(3.2), ax.Y(8.4), C.RED, 16));
+  A(seg(t, 5, 0.5), () => tag('Hombre (continua)', ax.X(1.6), ax.Y(9.3), C.BLUE, 16));
+  // tarjetas
+  K.card(900, 170, 340, 130, C.BLUE, 'Control nervioso', ['Erección: parasimpático S2-S4', 'Emisión: simpático T11-L2', 'Orgasmo: nervios pudendos'], seg(t, 4, 0.5), 16);
+  K.card(900, 320, 340, 120, C.AMBER, 'Con la edad', ['Respuesta más lenta', 'Período refractario más largo'], seg(t, 14, 0.5), 17);
+  K.card(900, 460, 340, 120, C.VIOLET, 'Kaplan agrega el deseo', ['Fase inicial: deseo, excitación', 'y orgasmo'], seg(t, 22, 0.5), 17);
+  K.banner(100, 640, 1140, 'ISRS retrasan el orgasmo; los iPDE5 están contraindicados con nitratos', C.VIOLET, seg(t, 26, 0.5));
+}
+
+const SCENES = { snm, agitacion, alcohol, toxindromes, limite, tca, facticio, sexual };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCENES[V](t); text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); };
+LOAD({});
+</script>
+</body></html>

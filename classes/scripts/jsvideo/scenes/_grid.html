@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#fff}canvas{display:block}</style></head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script>
+<script>
+const q=new URLSearchParams(location.search), name=q.get('img');
+window.SCENE={duration:1,fps:30};
+const ctx=document.getElementById('c').getContext('2d');
+window.render=function(){ const im=window.IMGS.i; const s=Math.min(1240/im.width,700/im.height); ctx.fillStyle='#fff';ctx.fillRect(0,0,1280,720);
+ ctx.drawImage(im,10,10,im.width*s,im.height*s); ctx.font='12px sans-serif'; ctx.lineWidth=1;
+ const st=+q.get('step')||100;
+ for(let x=0;x<=im.width;x+=st){ctx.strokeStyle='rgba(255,0,0,0.5)';ctx.beginPath();ctx.moveTo(10+x*s,10);ctx.lineTo(10+x*s,10+im.height*s);ctx.stroke();ctx.fillStyle='#d00';ctx.fillText(x,12+x*s,22);}
+ for(let y=0;y<=im.height;y+=st){ctx.strokeStyle='rgba(0,0,255,0.5)';ctx.beginPath();ctx.moveTo(10,10+y*s);ctx.lineTo(10+im.width*s,10+y*s);ctx.stroke();ctx.fillStyle='#00c';ctx.fillText(y,12,y*s+8+10);} };
+LOAD({i:'../assets/blausen/'+name+'.png'});
+</script></body></html>

@@ -156,6 +156,54 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Catéter y sonda',
+      title: 'Catéter venoso central y sonda Foley',
+      cards: [
+        { title: 'Catéter venoso central', tag: 'Derivar', kind: 'key', items: [
+          { t: 'Lo instala el especialista', d: 'Mejor guiado por ecografía',
+            say: 'El catéter venoso central lo instala un especialista, idealmente con ecografía. Tú lo indicas, lo derivas y reconoces sus complicaciones.' },
+          { t: 'Yugular o subclavia, no femoral', d: 'La femoral infecta y trombosa más',
+            say: 'Se prefiere yugular interna o subclavia. La vía femoral tiene más infección y trombosis.' },
+          { t: 'Rx de tórax al terminar', d: 'Punta en cava superior; descartar neumotórax',
+            say: 'Al terminar se pide una radiografía de tórax para confirmar la punta en la cava superior y descartar neumotórax.' },
+        ] },
+        { title: 'Sonda Foley', tag: 'Realizar', kind: 'criteria', items: [
+          { t: 'Retención, diuresis crítica, cirugía', d: 'No por comodidad',
+            say: 'La sonda Foley se indica en retención urinaria aguda, control de diuresis en el crítico, cirugía o úlceras sacras con incontinencia. No por comodidad.' },
+          { t: 'Orina antes de inflar el balón', d: '10 mL de agua destilada · sistema cerrado',
+            say: 'Con técnica aséptica, avanzas hasta la bifurcación, compruebas que salga orina y recién entonces inflas el balón con diez mililitros de agua destilada.' },
+          { t: 'Sospecha de lesión uretral: no', d: 'Trauma pélvico, sangre en el meato',
+            say: 'Si hay trauma pélvico o sangre en el meato, no se pasa la sonda: primero uretrografía.' },
+          { t: 'Cada día suma riesgo de ITU', d: 'No tratar bacteriuria asintomática',
+            say: 'Cada día de sonda aumenta el riesgo de infección urinaria, así que se retira lo antes posible y no se trata la bacteriuria asintomática.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Uso racional',
+      title: 'Uso racional de antibióticos',
+      cards: [
+        { title: 'Qué hacer', tag: 'Buen uso', kind: 'key', items: [
+          { t: 'Cultivos antes de la primera dosis', d: 'Elegir por foco, gravedad y epidemiología',
+            say: 'Primero, cultivos antes de la primera dosis. Eliges según el foco, la gravedad y la epidemiología local, con dosis plenas.' },
+          { t: 'Reevaluar a las 48–72 h', d: 'Descalar y pasar a vía oral',
+            say: 'A las cuarenta y ocho a setenta y dos horas reevalúas con el cultivo: descalas el espectro y pasas a vía oral si se puede.' },
+          { t: 'Cursos cortos', d: 'La mayoría, 5 a 7 días',
+            say: 'Y usas cursos cortos: la mayoría de las infecciones se tratan en cinco a siete días.' },
+        ] },
+        { title: 'Cuándo no', tag: 'Trampa', kind: 'alert', items: [
+          { t: 'Virus, colonización y bacteriuria asintomática', d: 'Excepto embarazo o cirugía urológica',
+            say: 'No se dan antibióticos en infecciones virales ni en colonización, ni en bacteriuria asintomática, salvo en el embarazo o antes de una cirugía urológica.' },
+          { t: 'Profilaxis quirúrgica: 60 min antes, máx. 24 h', d: 'Abuso: BLEE, SAMR, C. difficile',
+            say: 'La profilaxis quirúrgica se da en los sesenta minutos previos a la incisión y por no más de veinticuatro horas. El abuso selecciona resistencia y favorece la infección por Clostridioides difficile.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -258,6 +306,156 @@ module.exports = {
         options: 'Las opciones son: meningitis meningocócica; tuberculosis pulmonar con baciloscopía positiva; colitis por Clostridioides difficile; coqueluche; o infección urinaria por Klebsiella BLEE. Piénsalo.',
         answer: 'Es la B, la tuberculosis bacilífera, porque sus partículas flotan en el aire por horas. La A es el distractor más tentador: el meningococo también es respiratorio y grave, pero viaja en gotitas grandes y basta la mascarilla quirúrgica. El coqueluche también es gotitas, y el difficile y la Klebsiella BLEE son contacto.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.01.5.003 · Cateterismo venoso central",
+      "stem": "Se instala un catéter venoso central por vía subclavia derecha a un paciente de 60 años en UCI. A los 20 minutos presenta disnea súbita, taquicardia y saturación de 88%, con murmullo pulmonar abolido en el hemitórax derecho.",
+      "question": "¿Cuál es la complicación más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Neumotórax iatrogénico"
+        },
+        {
+          "letter": "B",
+          "text": "Embolia gaseosa"
+        },
+        {
+          "letter": "C",
+          "text": "Infección del torrente sanguíneo asociada a catéter"
+        },
+        {
+          "letter": "D",
+          "text": "Trombosis venosa asociada al catéter"
+        },
+        {
+          "letter": "E",
+          "text": "Arritmia por catéter en el ventrículo"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La punción subclavia es la vía con mayor riesgo de neumotórax. Disnea, desaturación y murmullo abolido ipsilateral tras la instalación lo sugieren; por eso siempre se toma radiografía de tórax post procedimiento, que además verifica la punta del catéter. La infección asociada a catéter aparece días después, no a los minutos.",
+      "say": {
+        "stem": "A un paciente de sesenta años en UCI se le instala un catéter venoso central por subclavia derecha. A los veinte minutos tiene disnea súbita, taquicardia, saturación de ochenta y ocho y murmullo abolido a derecha.",
+        "question": "¿Cuál es la complicación más probable?",
+        "options": "Las opciones: neumotórax iatrogénico, embolia gaseosa, infección asociada a catéter, trombosis o arritmia. Piénsalo.",
+        "answer": "Es la A. La vía subclavia es la de mayor riesgo de neumotórax, y el murmullo abolido del mismo lado lo apoya. La embolia gaseosa tienta, pero no explica un murmullo abolido unilateral."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 33",
+      "stem": "Adulto mayor de 78 años con sonda Foley permanente. Un urocultivo de rutina informa E. coli >100.000 UFC/mL. El paciente está asintomático y afebril.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No tratar: la bacteriuria asintomática en portador de sonda no requiere antibióticos"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar nitrofurantoína por 7 días"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar ciprofloxacino por 7 días"
+        },
+        {
+          "letter": "D",
+          "text": "Cambiar la sonda y tratar con cefazolina"
+        },
+        {
+          "letter": "E",
+          "text": "Repetir el urocultivo en 48 horas"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Casi todos los portadores de sonda permanente tienen bacteriuria. Sin síntomas no se trata: el antibiótico no da beneficio, selecciona resistencia y favorece C. difficile; tampoco deben pedirse urocultivos de rutina. La bacteriuria asintomática solo se trata en embarazadas y antes de procedimientos urológicos con sangrado de mucosa.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Un hombre de setenta y ocho años con sonda Foley permanente tiene un urocultivo de rutina con más de cien mil colonias de E coli, y está asintomático y afebril.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: no tratar, nitrofurantoína, ciprofloxacino, cambiar la sonda y dar cefazolina, o repetir el urocultivo. Piénsalo.",
+        "answer": "Es la A. La bacteriuria asintomática en un portador de sonda no se trata, porque no da beneficio y genera resistencia. Repetir el urocultivo tienta, pero no cambia la conducta y ni siquiera debió pedirse de rutina."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.5.004 · Cateterismo venoso central",
+      "stem": "Paciente de 55 años en UCI requiere un catéter venoso central para drogas vasoactivas. Se instala por vía yugular interna derecha guiado por ecografía, con técnica estéril completa.",
+      "question": "¿Qué debe hacerse antes de usarlo para la infusión de drogas vasoactivas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hemocultivo a través del catéter"
+        },
+        {
+          "letter": "B",
+          "text": "Antibiótico profiláctico"
+        },
+        {
+          "letter": "C",
+          "text": "Cambio del catéter a las 72 horas"
+        },
+        {
+          "letter": "D",
+          "text": "Radiografía de tórax para confirmar la posición de la punta y descartar neumotórax"
+        },
+        {
+          "letter": "E",
+          "text": "TAC de cuello"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Tras instalar un catéter venoso central yugular o subclavio, la radiografía de tórax confirma que la punta esté en la vena cava superior, cerca de su unión con la aurícula derecha, y descarta neumotórax. No se recomiendan antibiótico profiláctico ni recambio programado: la prevención de infección se basa en técnica aséptica y retiro oportuno.",
+      "say": {
+        "stem": "Acabas de instalar un catéter venoso central yugular en un paciente de UCI.",
+        "question": "¿Qué haces antes de usarlo?",
+        "options": "Las opciones: hemocultivo por el catéter, antibiótico profiláctico, recambio a las setenta y dos horas, radiografía de tórax o TAC de cuello. Piénsalo.",
+        "answer": "Es la D. Radiografía de tórax, para ver la punta y descartar neumotórax. El antibiótico profiláctico parece prudente, pero no previene infecciones y genera resistencia."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.5.004 · Instalación y cuidado de sonda Foley",
+      "stem": "Hombre de 74 años hospitalizado por neumonía tiene una sonda Foley instalada desde su ingreso a urgencia hace 5 días para control de diuresis. Actualmente está estable, deambula y puede orinar con ayuda.",
+      "question": "¿Cuál es la medida más eficaz para prevenir la infección urinaria asociada a catéter?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cambiar la sonda cada 3 días"
+        },
+        {
+          "letter": "B",
+          "text": "Desconectar la bolsa recolectora cada vez que se vacía"
+        },
+        {
+          "letter": "C",
+          "text": "Irrigación vesical diaria con suero"
+        },
+        {
+          "letter": "D",
+          "text": "Profilaxis antibiótica mientras tenga sonda"
+        },
+        {
+          "letter": "E",
+          "text": "Retirar la sonda lo antes posible, ya que no tiene indicación vigente"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El principal factor de riesgo de infección urinaria asociada a catéter es la duración del cateterismo. Lo más eficaz es instalar la sonda solo con indicación precisa y retirarla apenas deja de ser necesaria, usando técnica aséptica, sistema cerrado y bolsa bajo el nivel de la vejiga. No se recomiendan irrigación, profilaxis ni cambios programados.",
+      "say": {
+        "stem": "Hombre de setenta y cuatro años, estable y que ya camina, con sonda Foley desde hace cinco días solo para medir diuresis.",
+        "question": "¿Cómo previenes la infección urinaria por catéter?",
+        "options": "Las opciones: cambiarla cada tres días, desconectar la bolsa para vaciarla, irrigación diaria, profilaxis antibiótica o retirarla lo antes posible. Piénsalo.",
+        "answer": "Es la E. Retirar la sonda, porque ya no tiene indicación. Cambiarla seguido parece higiénico, pero no reduce las infecciones: lo que importa es el tiempo con sonda."
+      }
     },
 
     {

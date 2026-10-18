@@ -1,0 +1,68 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Cirugía 11.7: hemorroides internas (sobre la línea dentada, sin dolor, sangran y prolapsan) vs externas (bajo la línea, dolorosas, se trombosan).
+// Base: Blausen.com staff (2014) "Anus With Hemorrhoids", CC BY 3.0; rótulos en inglés quitados (assets/blausen/hemorroides.png, 779x645).
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+const S = 0.8, DST = { x: 40, y: 140, w: 779 * S, h: 645 * S };
+const P = (x, y) => [DST.x + x * S, DST.y + y * S];
+const LINE = 458;                                   // línea dentada (y en px de la imagen)
+const BL = [[283, 285, 60, 175], [436, 285, 60, 175]];   // cojinetes internos izq/der
+function clipL() { ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip(); }
+function lamina(a) { ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF'); clipL(); ctx.drawImage(I('h'), DST.x, DST.y, DST.w, DST.h); ctx.restore(); }
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill(); tag(s, x, y, col, size); ctx.restore();
+}
+function zone(y0, y1, rgb, a) { if (a <= 0) return; ctx.save(); clipL(); ctx.fillStyle = `rgba(${rgb},${0.22 * a})`; const [,a0] = P(0, y0), [,b0] = P(0, y1); ctx.fillRect(DST.x, a0, DST.w, b0 - a0); ctx.restore(); }
+function drop(x, y, a) { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = '#E0141E'; ctx.beginPath(); ctx.moveTo(x, y - 9); ctx.quadraticCurveTo(x + 7, y + 1, x, y + 6); ctx.quadraticCurveTo(x - 7, y + 1, x, y - 9); ctx.fill(); ctx.restore(); }
+function prolapse(off, a) {                          // cojinetes internos desplazados hacia el ano (capa animada)
+  if (a <= 0) return; ctx.save(); clipL(); ctx.globalAlpha = a;
+  for (const [sx, sy, sw, sh] of BL) { const [dx, dy] = P(sx, sy), yy = dy + off * S;
+    ctx.save(); ctx.beginPath(); ctx.ellipse(dx + sw * S / 2, yy + sh * S / 2, sw * S * 0.5, sh * S * 0.5, 0, 0, 7); ctx.clip();
+    ctx.drawImage(I('h'), sx, sy, sw, sh, dx, yy, sw * S, sh * S); ctx.restore(); }
+  ctx.restore();
+}
+const DUR = 30;
+function scene(t) {
+  K.title('Enfermedad hemorroidal', 'Internas e externas no duelen igual ni se tratan igual'.replace('e externas', 'y externas'), C.RED);
+  lamina(seg(t, 0, 0.7));
+  // línea dentada
+  const lp = ease(seg(t, 1.5, 1.5)); if (lp > 0) {
+    const [x0, y] = P(0, LINE), [x1] = P(779, LINE); ctx.save(); clipL(); ctx.setLineDash([9, 6]); ctx.strokeStyle = '#FFFFFF'; ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.moveTo(x0, y); ctx.lineTo(lerp(x0, x1, lp), y); ctx.stroke(); ctx.restore();
+    label('Línea dentada', 700, 560, '#FFFFFF', ...P(720, LINE), seg(t, 2, 0.5)); }
+  const zin = fade(t, 3.5, 12, 0.6), zex = fade(t, 12.5, 30, 0.6);
+  zone(0, LINE, '90,220,130', zin); zone(LINE, 645, '255,90,78', fade(t, 3.5, 7.5, 0.6) + zex);
+  label('Interna: mucosa, no siente dolor', 420, 232, '#7CE0A0', ...P(305, 360), fade(t, 4, 11));
+  label('Externa: piel, muy sensible', 420, 590, C.RED, ...P(500, 520), fade(t, 4.8, 11));
+  // sangrado de la interna
+  if (t > 7.5 && t < 12) for (let i = 0; i < 6; i++) { const u = ((t - 7.5) * 0.45 + i / 6) % 1, [x, y] = P(335 + (rnd(i) - 0.3) * 40, 380 + u * 150); drop(x, y, Math.min(1, u * 6) * (1 - u * 0.4) * seg(t, 7.5, 0.4) * (1 - seg(t, 11.3, 0.6))); }
+  // prolapso por grados
+  const off = 40 * ease(seg(t, 15, 1)) + 55 * ease(seg(t, 17.2, 1));
+  prolapse(off, seg(t, 14.8, 0.4) * (1 - seg(t, 19.2, 0.6)));
+  if (t > 13) { const gl = t < 15 ? 'Grado I-II: sale al pujar y vuelve' : t < 17.2 ? 'Grado II: sale y se reduce solo' : 'Grado III-IV: queda afuera'; const a = fade(t, 13, 19.6, 0.5); const [x, y] = P(390, 40); if (a > 0) { ctx.save(); ctx.globalAlpha = a; tag(gl, x, y, '#FFB020', 16); ctx.restore(); } }
+  // panel derecho
+  K.card(850, 140, 400, 118, '#7CE0A0', 'Internas', ['Sangre roja rutilante al final', 'de la deposición, sin dolor'], seg(t, 4, 0.5), 17);
+  K.card(850, 272, 400, 118, '#FFB020', 'Grados I y II', ['Dieta, fibra y bandas elásticas'], seg(t, 13, 0.5), 17);
+  K.card(850, 404, 400, 118, C.RED, 'Grados III y IV', ['Prolapsan y no se reducen:', 'hemorroidectomía'], seg(t, 17.2, 0.5), 17);
+  // externa trombosada
+  const th = seg(t, 20, 0.6);
+  if (th > 0) { const [x, y] = P(500, 520); K.glow(x, y, 46 + 5 * Math.sin(t * 5), '120,40,200', 0.8 * th);
+    label('Trombosis: nódulo violáceo, tenso', 400, 625, '#C79BFF', x, y, th); }
+  K.card(850, 536, 400, 118, '#C79BFF', 'Externa trombosada', ['Dolor brusco, no defecatorio'], seg(t, 20.5, 0.5), 17);
+  K.banner(40, 660, 780, 'Antes de 72 h: trombectomía · Después: calor y analgesia', '#C79BFF', seg(t, 25, 0.5));
+}
+window.SCENE = { duration: DUR, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); scene(t); K.credit('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios'); };
+LOAD({ h: '../assets/blausen/hemorroides.png' });
+</script>
+</body></html>

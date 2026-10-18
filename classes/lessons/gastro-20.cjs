@@ -110,7 +110,8 @@ module.exports = {
         { show: ['cli'], note: 'Días, no minutos. Peritoneo precoz',
           say: 'La clínica es distinta a la embolia en dos cosas. Primero, el dolor es subagudo: se instala en días, no de golpe. Y segundo, los signos peritoneales aparecen más precozmente. O sea, aquí la disociación clínica no es la regla. Ese contraste, súbito sin peritoneo versus días con peritoneo, es exactamente lo que el examen te pide distinguir.' },
         { show: ['tac'], note: 'El trombo se ve dentro de la vena',
-          say: 'El examen es el TAC con contraste, que visualiza el trombo dentro de la vena mesentérica. Es el mismo principio que en la embolia: sin contraste, el vaso no se ve.' },
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-20/01_tc_isquemia_mesenterica__commons.jpg', label: 'Isquemia intestinal', at: 'En esta tomografía', credit: 'Wikimedia Commons «Ischemicbowel.PNG», CC BY-SA 3.0, James Heilman, MD' },
+          say: 'El examen es el TAC con contraste, que visualiza el trombo dentro de la vena mesentérica. En esta tomografía las asas están dilatadas y con la pared engrosada, y el examen físico suele ser casi normal. Es el mismo principio que en la embolia: sin contraste, el vaso no se ve.' },
         { show: ['aco'], note: 'Se trata como lo que es: una trombosis venosa',
           say: '¿Y el tratamiento? Piensa en lo que es: en esencia, una trombosis venosa, como una trombosis de las piernas pero en el abdomen. Entonces se anticoagula, igual que en la embolia, aunque por un motivo distinto: aquí la anticoagulación no es un puente a la revascularización, es el tratamiento en sí. La cirugía queda solo para cuando hay necrosis o perforación.' },
       ],
@@ -209,6 +210,58 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Adulto mayor',
+      title: 'Abdomen agudo en el adulto mayor: por qué engaña',
+      cards: [
+        { title: 'Presentación atípica', tag: 'Y tardía', kind: 'alert', items: [
+          { t: 'Dolor leve y mal localizado', d: 'Sin fiebre ni leucocitosis; poca defensa',
+            say: 'En el adulto mayor el abdomen agudo se presenta de manera atípica y tardía. El dolor es menos intenso y mal localizado, muchas veces sin fiebre ni leucocitosis, y con poca defensa muscular.' },
+          { t: 'Puede debutar como delirium o caída', d: 'O con deterioro funcional',
+            say: 'Puede debutar como un delirium, una caída o un deterioro funcional, sin que el paciente se queje del abdomen.' },
+        ] },
+        { title: 'Lo que enmascara', tag: 'Fármacos y enfermedades', kind: 'key', items: [
+          { t: 'Corticoides, AINE y diabetes', d: 'Borran los signos',
+            say: 'Los corticoides, los antiinflamatorios y la diabetes enmascaran los signos. Por eso la mortalidad es varias veces mayor que en el joven y el diagnóstico se retrasa.' },
+        ] },
+        { title: 'Causas frecuentes', tag: 'Piensa en estas', kind: 'normal', items: [
+          { t: 'Biliar, obstrucción, diverticulitis, apendicitis', d: 'La apendicitis suele llegar perforada',
+            say: 'Las causas más frecuentes son la colecistitis y la colangitis, la obstrucción intestinal por bridas, hernias, cáncer de colon o vólvulo, la diverticulitis y la apendicitis, que muchas veces ya está perforada.' },
+          { t: 'Úlcera perforada e isquemia mesentérica', d: 'Fibrilación auricular, ateroesclerosis',
+            say: 'Y la úlcera perforada y la isquemia mesentérica, que es la de esta clase, con fibrilación auricular o ateroesclerosis de fondo.' },
+          { t: 'Causas extradigestivas', d: 'Infarto inferior, aneurisma aórtico',
+            say: 'Sin olvidar causas fuera del abdomen, como el infarto de pared inferior y el aneurisma aórtico.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Adulto mayor',
+      title: 'Abdomen agudo en el adulto mayor: conducta',
+      nodes: [
+        { id: 'sos', col: 0, row: 1, k: 'start', t: 'Adulto mayor con dolor abdominal', s: 'Atípico: no esperar fiebre' },
+        { id: 'abc', col: 1, row: 1, k: 'good', t: 'ABC, hidratación y analgesia', s: 'Se estabiliza primero' },
+        { id: 'exa', col: 2, row: 1, k: 'mech', t: 'Hemograma, lactato, lipasa, ECG', s: 'Pensar también fuera del abdomen' },
+        { id: 'tac', col: 3, row: 1, k: 'good', t: 'TAC de abdomen precoz', s: 'Alto umbral para operar' },
+        { id: 'cir', col: 4, row: 1, k: 'alert', t: 'Cirugía sin esperar', s: 'Peritonitis o sospecha de isquemia' },
+      ],
+      edges: [
+        { from: 'sos', to: 'abc' }, { from: 'abc', to: 'exa' }, { from: 'exa', to: 'tac' }, { from: 'tac', to: 'cir' },
+      ],
+      steps: [
+        { show: ['sos', 'abc'], note: 'Estabilizar',
+          say: 'La conducta empieza igual que siempre: ABC, hidratación y analgesia. El dolor se trata, no se espera a tener diagnóstico para aliviarlo.' },
+        { show: ['exa'], note: 'Exámenes dirigidos',
+          say: 'Se piden hemograma, lactato, lipasa y electrocardiograma, porque el cuadro puede no ser digestivo.' },
+        { show: ['tac'], note: 'TAC precoz',
+          say: 'Y como el examen físico engaña, se pide un TAC de abdomen precoz, con un umbral alto para operar, es decir, se opera cuando hay una razón clara.' },
+        { show: ['cir'], note: 'Sin esperar',
+          say: 'Pero ante una peritonitis o la sospecha de isquemia, se va a cirugía sin esperar más exámenes.' },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -219,19 +272,6 @@ module.exports = {
       steps: [
         { note: 'Dolor desproporcionado',
           say: 'Un paciente con fibrilación auricular hace un émbolo a la arteria mesentérica superior. El dolor es súbito y desproporcionado al examen, con un abdomen blando. El lactato sube, y después aparecen hipotensión y hematoquecia. Se pide angio TAC.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Isquemia mesentérica',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-20/01_tc_isquemia_mesenterica__commons.jpg', label: 'Isquemia intestinal', credit: 'Wikimedia Commons «Ischemicbowel.PNG», CC BY-SA 3.0, James Heilman, MD' },
-      ],
-      steps: [
-        { note: 'Asas dilatadas y engrosadas',
-          say: 'En esta tomografía las asas de intestino están dilatadas y con pared engrosada, por una trombosis mesentérica. Recuerda que el examen físico suele ser casi normal.' },
       ],
     },
 
@@ -254,6 +294,8 @@ module.exports = {
           say: 'Colitis isquémica: adulto mayor, hipotensión previa, dolor en el lado izquierdo con hematoquecia. TAC de abdomen, y casi siempre manejo médico. La trampa aquí es operar de entrada.' },
         { cells: ['Esperar el peritonismo en la embolia', 'Error clásico', 'Cuando aparece, el intestino ya se necrosó'],
           say: 'Y el error clásico de todo el tema: descartar una embolia porque el abdomen está blando, o esperar los signos peritoneales para actuar. Cuando aparecen, el intestino ya se necrosó.' },
+        { cells: ['Adulto mayor, dolor leve, sin fiebre ni leucocitosis', 'Abdomen agudo atípico', 'TAC de abdomen precoz; no esperar fiebre'],
+          say: 'Y el adulto mayor con dolor leve, sin fiebre ni leucocitosis: no te tranquilices. El abdomen agudo se presenta atípico, y se pide un TAC precoz.' },
       ],
     },
 
@@ -347,6 +389,82 @@ module.exports = {
         options: 'Las opciones: embolia mesentérica, trombosis venosa mesentérica, colitis isquémica, diverticulitis aguda, o enfermedad de Crohn. Piénsalo.',
         answer: 'Es la C, colitis isquémica. El enunciado arma el mecanismo: ateroesclerosis más hipotensión es bajo flujo, y el bajo flujo daña las zonas frontera, que están a la izquierda. La embolia tienta porque también es isquemia, pero aquí no hay fibrilación auricular, y el dolor sería difuso y brutal, con disociación. Y la diverticulitis, de la clase anterior, no la gatilla una hipotensión.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.2.001 · Abdomen agudo",
+      "stem": "Mujer de 68 años, con antecedente de histerectomía, consulta por 24 horas de dolor abdominal cólico, vómitos y ausencia de eliminación de gases. Abdomen distendido y timpánico, con ruidos de lucha, sin signos peritoneales. Afebril, FC 92 por minuto, leucocitos y lactato normales. Radiografía: asas de intestino delgado dilatadas con niveles hidroaéreos.",
+      "question": "¿Cuál es el manejo inicial más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Laparotomía de urgencia inmediata"
+        },
+        {
+          "letter": "B",
+          "text": "Régimen cero, sonda nasogástrica, hidratación endovenosa y reevaluación seriada"
+        },
+        {
+          "letter": "C",
+          "text": "Enema evacuante y proquinéticos"
+        },
+        {
+          "letter": "D",
+          "text": "Colonoscopía descompresiva"
+        },
+        {
+          "letter": "E",
+          "text": "Alta con analgesia y control en 48 horas"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Es una obstrucción de intestino delgado por bridas sin signos de estrangulación. El manejo inicial es régimen cero, sonda nasogástrica, hidratación y corrección electrolítica, con reevaluación seriada. Se opera si aparecen fiebre, peritonismo, leucocitosis o lactato elevado, o si no resuelve en 48 a 72 horas. Los proquinéticos están contraindicados.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Mujer de sesenta y ocho años, operada de histerectomía, con un día de dolor cólico, vómitos y sin eliminar gases. El abdomen está distendido, con ruidos de lucha, pero sin signos peritoneales, y no tiene fiebre ni lactato elevado. La radiografía muestra asas de intestino delgado dilatadas con niveles.",
+        "question": "¿Cuál es el manejo inicial más adecuado?",
+        "options": "Las opciones: laparotomía inmediata, régimen cero con sonda nasogástrica e hidratación, enema con proquinéticos, colonoscopía descompresiva, o alta con analgesia. Piénsalo.",
+        "answer": "Es la B. Una obstrucción por bridas sin signos de sufrimiento de asa se maneja primero con régimen cero, sonda y suero, vigilando de cerca. La laparotomía inmediata tienta, pero se reserva para cuando aparecen fiebre, peritonismo o lactato alto, o cuando el cuadro no cede."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.2.001 · Abdomen agudo en adulto mayor",
+      "stem": "Mujer de 83 años con fibrilación auricular sin anticoagulación consulta por dolor abdominal intenso de 6 horas. Al examen el abdomen está blando, levemente sensible, sin signos peritoneales. Lactato 4,2 mmol/L, leucocitos 16.000/mm3.",
+      "question": "¿Cuál es el examen más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Angio-TAC de abdomen"
+        },
+        {
+          "letter": "B",
+          "text": "Radiografía simple de abdomen"
+        },
+        {
+          "letter": "C",
+          "text": "Ecografía abdominal"
+        },
+        {
+          "letter": "D",
+          "text": "Endoscopía digestiva alta"
+        },
+        {
+          "letter": "E",
+          "text": "Observación y control de exámenes en 24 horas"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En el adulto mayor, el abdomen agudo suele tener un examen engañosamente benigno. Dolor desproporcionado al examen, fibrilación auricular y lactato elevado sugieren isquemia mesentérica aguda embólica, cuyo examen de elección es la angio-TAC. Observar retrasa el diagnóstico de una patología de alta mortalidad, y la radiografía y la ecografía son poco sensibles.",
+      "say": {
+        "stem": "Mujer de ochenta y tres años con fibrilación auricular sin anticoagular, dolor abdominal intenso, examen casi normal y lactato elevado.",
+        "question": "¿Qué examen pides?",
+        "options": "Las opciones: angio TAC, radiografía de abdomen, ecografía, endoscopía alta o observar veinticuatro horas. Piénsalo.",
+        "answer": "Es la A. Angio TAC, por sospecha de isquemia mesentérica embólica. Observar es tentador porque el abdomen está blando, pero en el adulto mayor el examen engaña y el tiempo es intestino."
+      }
     },
 
     {

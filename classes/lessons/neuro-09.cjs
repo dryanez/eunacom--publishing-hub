@@ -176,6 +176,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Estatus en el niño',
+      title: 'Las mismas fases, con dosis por peso',
+      cards: [
+        { title: 'Primero', tag: 'Causas y vía aérea', kind: 'key', items: [
+          { t: 'Vía aérea, oxígeno y glicemia', d: 'Hipoglicemia: dextrosa 10 % 2–5 mL/kg EV',
+            say: 'En el niño el estatus se define igual y el esquema es el mismo, pero con dosis por peso. Parte por la vía aérea, el oxígeno y la glicemia capilar: si hay hipoglicemia, dextrosa al diez por ciento, dos a cinco mililitros por kilo endovenoso.' },
+          { t: 'Febril, infección, metabólico, abandono', d: 'Recién nacido: fenobarbital 20 mg/kg',
+            say: 'Las causas frecuentes son la convulsión febril prolongada, las infecciones del sistema nervioso central, los trastornos metabólicos como hipoglicemia, hiponatremia e hipocalcemia, y el abandono de antiepilépticos. En el recién nacido el primer fármaco es fenobarbital, veinte miligramos por kilo. Y en el lactante refractario se prueba piridoxina.' },
+        ] },
+        { title: 'Fases 1 y 2', tag: 'Dosis pediátricas', kind: 'pharma', items: [
+          { t: 'Midazolam IM 0,2 mg/kg', d: 'Máx. 10 mg · bucal o IN 0,2–0,5 mg/kg',
+            say: 'En la fase uno, de cero a diez minutos, midazolam intramuscular, cero coma dos miligramos por kilo, máximo diez, o bucal o intranasal si no hay vía venosa. Con vía: lorazepam cero coma uno por kilo, máximo cuatro, o diazepam cero coma dos a cero coma tres por kilo, lento. Se puede repetir una vez a los cinco minutos.' },
+          { t: 'Levetiracetam 40–60 mg/kg', d: 'Fenitoína 20 mg/kg · valproato 20–40 mg/kg',
+            say: 'En la fase dos, levetiracetam cuarenta a sesenta miligramos por kilo, o fenitoína veinte, a no más de un miligramo por kilo por minuto y con monitor cardíaco. El valproato se evita en menores de dos años y ante sospecha de enfermedad metabólica o mitocondrial, por la hepatotoxicidad.' },
+        ] },
+        { title: 'Fase 3 y conducta', tag: '> 30 min', kind: 'alert', items: [
+          { t: 'UCI pediátrica, midazolam o tiopental', d: 'Sin propofol prolongado',
+            say: 'Pasados los treinta minutos: cuidados intensivos pediátricos, intubación e infusión de midazolam o tiopental, con electroencefalograma. El propofol prolongado se evita en niños, por el síndrome de infusión de propofol.' },
+          { t: 'Convulsión febril simple: sin estudio', d: 'Status febril: descartar meningitis',
+            say: 'En un servicio sin cuidados intensivos, das la benzodiacepina, aseguras la vía aérea y trasladas si no cede a los diez a veinte minutos. La convulsión febril simple, menor de quince minutos, generalizada y única en el día, no necesita tratamiento crónico ni neuroimagen. El status febril, en cambio, obliga a descartar meningitis con punción lumbar una vez estabilizado.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Complicaciones',
       title: 'El cuerpo también convulsiona',
@@ -249,6 +275,8 @@ module.exports = {
           say: 'Coma sin movimientos después de un estatus: electroencefalograma continuo. Asumir que la crisis terminó porque dejó de moverse es la trampa.' },
         { cells: ['Oliguria y alza de creatinina post-estatus', 'Rabdomiolisis: hidratación vigorosa', 'Culpar a los fármacos'],
           say: 'Y oliguria con alza de creatinina después del estatus: rabdomiolisis, y se hidrata con fuerza. No es toxicidad del lorazepam ni de la fenitoína.' },
+        { cells: ['Convulsión febril simple en el niño', 'Sin anticonvulsivante crónico ni neuroimagen', 'Pedir TAC y tratar de por vida'],
+          say: 'Y la convulsión febril simple, de menos de quince minutos, generalizada y única en el día: no lleva tratamiento crónico ni neuroimagen.' },
       ],
     },
 
@@ -319,6 +347,82 @@ module.exports = {
         options: 'Las opciones: fenitoína, sulfato de magnesio, diazepam, nifedipino o labetalol. Piénsalo.',
         answer: 'Es la B, sulfato de magnesio. Una embarazada hipertensa que convulsiona tiene una eclampsia, y ahí el anticonvulsivante de elección es el magnesio. El diazepam es el distractor que esta clase te hace elegir, y por eso esta pregunta es valiosa: antes de aplicar el protocolo, mira quién es el paciente. Después viene controlar la presión y evaluar la interrupción del embarazo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2022 · Pregunta 166",
+      "stem": "Mujer de 17 años presenta súbitamente desviación de la cabeza hacia la derecha y cae al suelo. Su madre presenció el hecho y observó que mantuvo la mirada conjugada hacia la derecha, tras lo cual presentó hipertonía de todo el cuerpo, seguida de movimientos rítmicos de las 4 extremidades. Se recupera somnolienta y adolorida, con signos de haberse mordido la lengua, con impresión de la arcada dentaria en la zona lateral de la lengua.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Crisis convulsiva primariamente generalizada"
+        },
+        {
+          "letter": "B",
+          "text": "Crisis focal secundariamente generalizada"
+        },
+        {
+          "letter": "C",
+          "text": "Síncope vasovagal"
+        },
+        {
+          "letter": "D",
+          "text": "Trastorno conversivo"
+        },
+        {
+          "letter": "E",
+          "text": "Trastorno facticio"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La desviación versiva inicial de la cabeza y la mirada indica un inicio focal (frontal, contralateral a la desviación), seguido de fases tónica y clónica generalizadas, con mordedura lateral de lengua y estado postictal: crisis focal con evolución a bilateral tónico-clónica. Ese inicio focal descarta que sea primariamente generalizada y obliga a buscar una lesión estructural.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veintidós. Una joven de diecisiete años gira bruscamente la cabeza y la mirada hacia la derecha, cae, se pone rígida y luego tiene sacudidas de las cuatro extremidades. Despierta somnolienta, con mordedura del borde lateral de la lengua.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: crisis primariamente generalizada, crisis focal secundariamente generalizada, síncope vasovagal, trastorno conversivo, o trastorno facticio. Piénsalo.",
+        "answer": "Es la B. El giro inicial de la cabeza y la mirada es un signo de inicio focal, y luego la crisis se generaliza. La crisis primariamente generalizada tienta por las sacudidas de las cuatro extremidades, pero no explica ese comienzo lateralizado."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.2.027 · Estatus convulsivo en el niño",
+      "stem": "Un niño de 4 años, con antecedente de epilepsia, lleva 6 minutos con una convulsión tónico-clónica generalizada. Se aseguró la vía aérea y recibe oxígeno, y la glicemia capilar es normal. No ha sido posible instalar una vía venosa.",
+      "question": "¿Cuál es el fármaco más adecuado en este momento?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fenitoína endovenosa"
+        },
+        {
+          "letter": "B",
+          "text": "Midazolam bucal, intranasal o intramuscular"
+        },
+        {
+          "letter": "C",
+          "text": "Ácido valproico oral"
+        },
+        {
+          "letter": "D",
+          "text": "Fenobarbital oral"
+        },
+        {
+          "letter": "E",
+          "text": "Esperar 30 minutos para definir status epiléptico"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Una convulsión de más de 5 minutos debe tratarse como status epiléptico inminente. La primera línea es una benzodiacepina: lorazepam o diazepam endovenoso si hay vía; sin vía, midazolam bucal, intranasal o intramuscular (o diazepam rectal). Si persiste tras dos dosis, se usa fármaco de segunda línea endovenoso (fenitoína, levetiracetam o valproato). La vía oral no es segura.",
+      "say": {
+        "stem": "Un niño de cuatro años con epilepsia lleva seis minutos convulsionando, con glicemia normal y sin vía venosa.",
+        "question": "¿Cuál es el fármaco más adecuado?",
+        "options": "Las opciones: fenitoína endovenosa, midazolam bucal, nasal o intramuscular, valproato oral, fenobarbital oral o esperar treinta minutos. Piénsalo.",
+        "answer": "Es la B. Tras cinco minutos se trata con benzodiacepina, y sin vía venosa se usa midazolam por vía bucal, nasal o intramuscular. La fenitoína tienta, pero es de segunda línea y además requiere vía venosa."
+      }
     },
 
     {

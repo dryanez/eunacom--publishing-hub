@@ -31,9 +31,11 @@ module.exports = {
       ],
       steps: [
         { show: ['bas'], note: 'Es la que tabula el INE',
-          say: 'Empecemos por la estructura. El certificado de defunción se llena hacia atrás, empezando por el final, pero se razona hacia adelante, desde la causa básica. La causa básica es la enfermedad o lesión inicial que echó a andar toda la cadena, por ejemplo un adenocarcinoma o una cirrosis. Es la que el Instituto Nacional de Estadísticas tabula para las estadísticas de salud del país.' },
+          say: 'Empecemos por la estructura. Mira este certificado de defunción vigente en Chile: se llena hacia atrás, empezando por el final, pero se razona hacia adelante, desde la causa básica. La causa básica es la enfermedad o lesión inicial que echó a andar toda la cadena, por ejemplo un adenocarcinoma o una cirrosis. Es la que el Instituto Nacional de Estadísticas tabula para las estadísticas de salud del país.',
+          photo: { src: 'biblioteca/16_salud_publica/sp-13/01_formulario_cmd__manual-cmd.jpg', label: 'Certificado vigente', at: 'Mira este certificado', credit: 'Manual correcto llenado CMD (ESP U. de Chile / Colegio Médico), Anexo 2' } },
         { show: ['int'], note: 'La complicación que la causa básica generó',
-          say: 'De esa causa básica nace la causa intermedia: la complicación que la enfermedad de base originó o facilitó. Por ejemplo, una cirrosis que genera hipertensión portal y várices esofágicas.' },
+          say: 'En esta secuencia se ve cómo, de esa causa básica, nace la causa intermedia: la complicación que la enfermedad de base originó o facilitó. Por ejemplo, una cirrosis que genera hipertensión portal y várices esofágicas.',
+          photo: { src: 'biblioteca/16_salud_publica/sp-13/02_secuencia_causas__manual-cmd.jpg', label: 'Secuencia de causas', at: 'En esta secuencia', credit: 'Manual correcto llenado CMD, Fig. 2' } },
         { show: ['inm'], note: 'Lo último antes de morir',
           say: 'Y de la causa intermedia nace la causa inmediata: la condición final que llevó directamente a la muerte, como una hemorragia masiva o un shock séptico. Fíjate en la lógica: tiene que existir una relación de causalidad real entre las tres, una lleva a la otra en orden descendente.' },
         { show: ['mue'], note: 'El desenlace de la cadena',
@@ -137,20 +139,81 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Certificado de defunción',
-      images: [
-        { src: 'biblioteca/16_salud_publica/sp-13/01_formulario_cmd__manual-cmd.jpg', label: 'Formulario', credit: 'Manual correcto llenado CMD (ESP U. de Chile / Colegio Médico), Anexo 2' },
-        { src: 'biblioteca/16_salud_publica/sp-13/02_secuencia_causas__manual-cmd.jpg', label: 'Secuencia de causas', credit: 'Manual correcto llenado CMD, Fig. 2' },
+      type: 'points',
+      kicker: 'Maltrato infantil',
+      title: 'Cuándo sospechar, qué hacer y cómo prevenir',
+      cards: [
+        { title: 'Sospéchalo ante', tag: 'Señales de alarma', kind: 'alert', items: [
+          { t: 'Lesión que no calza con el relato', d: 'Con el mecanismo o con la edad del niño',
+            say: 'Esta denuncia se junta con un caso muy frecuente: el maltrato infantil. Incluye el maltrato físico, el psicológico, la negligencia, el abuso sexual y la exposición a violencia intrafamiliar. Sospéchalo cuando la lesión no coincide con el mecanismo relatado o con la edad del niño.' },
+          { t: 'Equimosis en zonas protegidas', d: 'Orejas, cuello, tronco, glúteos, genitales; lactante que no camina',
+            say: 'También ante equimosis en zonas protegidas, como orejas, cuello, tronco, glúteos y genitales, o en un lactante que aún no camina; y lesiones de edades distintas.' },
+          { t: 'Fracturas y quemaduras sospechosas', d: 'Costales posteriores, metafisarias; inmersión',
+            say: 'Las fracturas costales posteriores o metafisarias, las quemaduras por inmersión, y el hematoma subdural con hemorragias retinianas, que es el niño sacudido. Y los relatos cambiantes o la consulta tardía.' },
+        ] },
+        { title: 'Manejo', tag: 'Qué haces tú', kind: 'key', items: [
+          { t: 'Examen completo y estudio por edad', d: 'Radiografías de esqueleto en menores de 2 años; fondo de ojo',
+            say: 'El manejo: examen completo y registro objetivo, y estudio según la edad, con radiografías de esqueleto en menores de dos años, fondo de ojo y neuroimagen.' },
+          { t: 'Hospitalizar si hay riesgo', d: 'Protección inmediata',
+            say: 'Si hay riesgo, hospitalización protectora.' },
+          { t: 'Denunciar en 24 horas', d: 'Y pedir medida de protección al Tribunal de Familia',
+            say: 'Y denuncia dentro de las veinticuatro horas, más la solicitud de una medida de protección al Tribunal de Familia.' },
+        ] },
+        { title: 'Prevención', tag: 'Tres niveles', kind: 'criteria', items: [
+          { t: 'Primaria: parentalidad positiva', d: 'Apego, Edimburgo, Chile Crece Contigo',
+            say: 'La prevención primaria promueve la parentalidad positiva, el apego, la pesquisa de depresión posparto con la escala de Edimburgo y el programa Chile Crece Contigo.' },
+          { t: 'Secundaria: familias de riesgo', d: 'Padres jóvenes, adicciones, violencia, hacinamiento',
+            say: 'La secundaria identifica familias de riesgo, con padres muy jóvenes, adicciones, violencia, hacinamiento o un hijo prematuro o con discapacidad, y refuerza las visitas domiciliarias.' },
+          { t: 'Terciaria: tratar y proteger', d: 'La detección es del equipo de atención primaria',
+            say: 'La terciaria trata, repara y protege al niño. Y la detección en el control de salud es responsabilidad del equipo de atención primaria.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Violencia intrafamiliar',
+      title: 'Detectar y manejar la violencia intrafamiliar',
+      nodes: [
+        { id: 'c1', col: 0, row: 0, k: 'cause', t: 'Acumulación de tensión', s: 'Fase uno del ciclo' },
+        { id: 'c2', col: 1, row: 1, k: 'alert', t: 'Explosión', s: 'La agresión' },
+        { id: 'c3', col: 2, row: 0, k: 'effect', t: 'Luna de miel', s: 'Arrepentimiento y promesas' },
+        { id: 'det', col: 2, row: 3, k: 'q', t: 'Pregunta directa y a solas', s: 'Lesiones inexplicadas, consultas repetidas, embarazo' },
+        { id: 'man', col: 4, row: 3, k: 'good', t: 'Riesgo vital, lesiones, derivar', s: 'SERNAMEG o tribunales; delito: denuncia' },
+      ],
+      edges: [
+        { from: 'c1', to: 'c2' }, { from: 'c2', to: 'c3' }, { from: 'c3', to: 'c1', label: 'se repite' },
+        { from: 'det', to: 'man' },
       ],
       steps: [
-        { note: 'El certificado vigente',
-          say: 'Este es el certificado médico de defunción vigente en Chile.' },
-        { note: 'De la inmediata a la originaria',
-          say: 'Las causas se escriben de la inmediata, arriba, a la originaria, abajo. La originaria es la que se tabula.' },
+        { show: ['c1', 'c2', 'c3'], note: 'Un ciclo que se repite',
+          say: 'La violencia intrafamiliar, regulada por la Ley veinte mil sesenta y seis, es todo maltrato a la vida o la integridad física o psíquica de quien tiene o tuvo una relación familiar o de convivencia con el agresor. Sigue un ciclo: acumulación de tensión, explosión, que es la agresión, y luna de miel. Y vuelve a empezar.' },
+        { show: ['det'], note: 'Preguntar siempre, a solas',
+          say: 'Para detectarla, pregunta directamente y a solas, sobre todo ante lesiones inexplicadas, consultas repetidas, embarazo, depresión o síntomas inespecíficos.' },
+        { show: ['man'], note: 'Riesgo, registro, derivación',
+          say: 'El manejo: evaluar el riesgo vital, atender y registrar las lesiones, informar sobre medidas de protección y derivar a los Centros de la Mujer del SERNAMEG o a los tribunales de familia. Si la violencia es grave y constituye delito, la denuncia es obligatoria, en veinticuatro horas. Y mientras exista riesgo, se evita la terapia de pareja y la mediación.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Fuentes de información',
+      title: 'De dónde sale la información en salud, y tu papel',
+      cards: [
+        { title: 'Fuentes', tag: 'Para el diagnóstico de salud', kind: 'key', items: [
+          { t: 'Estadísticas vitales y censos', d: 'Nacimientos y defunciones; el certificado es su origen; INE',
+            say: 'El certificado de defunción alimenta una de las fuentes de información en salud: las estadísticas vitales, de nacimientos y defunciones. Las otras son los censos de población, a cargo del INE.' },
+          { t: 'Encuestas y registros de servicios', d: 'ENS, CASEN, ENCAVI; egresos, REM, GES',
+            say: 'Las encuestas poblacionales, como la Encuesta Nacional de Salud, la CASEN y la ENCAVI. Y los registros de servicios: egresos hospitalarios, el REM y el GES.' },
+          { t: 'Vigilancia y registros poblacionales', d: 'EPIVIGILA, cáncer; estudios especiales',
+            say: 'La vigilancia epidemiológica, con EPIVIGILA, los registros poblacionales como el de cáncer, y los estudios especiales. El DEIS del Ministerio consolida la mayoría.' },
+        ] },
+        { title: 'Tu papel', tag: 'El médico genera el dato', kind: 'alert', items: [
+          { t: 'Llenas certificado, notificas, registras', d: 'Con rigor',
+            say: 'Y tú generas esa información: al llenar el certificado, notificar enfermedades y registrar diagnósticos en la ficha. Por eso debes hacerlo con rigor.' },
+          { t: 'Limitaciones: subregistro y causa mal escrita', d: 'Evita «paro cardiorrespiratorio»',
+            say: 'Sus limitaciones son el subregistro y la mala calidad de la causa de muerte, por ejemplo cuando se escribe paro cardiorrespiratorio. La licencia médica es el tercer documento que emites, controlado por la COMPIN y la SUSESO.' },
+        ] },
       ],
     },
 
@@ -233,6 +296,231 @@ module.exports = {
         options: 'Las opciones: cáncer de próstata, tromboembolismo pulmonar, paro cardíaco, falla respiratoria, o trombosis venosa profunda.',
         answer: 'Es la D, falla respiratoria. Arma la cadena completa como la vimos: el cáncer de próstata es la causa básica, el tromboembolismo pulmonar es la causa intermedia, y la falla respiratoria es la causa inmediata, la última condición real antes de morir. El paro cardíaco es exactamente el distractor que estudiamos: es lo último que ocurre, pero por ser un mecanismo universal, nunca se escribe en el certificado.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 167",
+      "stem": "Un médico recién titulado quiere conocer qué norma regula en Chile el ejercicio de las profesiones de la salud, incluida la medicina.",
+      "question": "¿Cuál es el cuerpo normativo que regula el ejercicio de la profesión médica en Chile?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Constitución Política de la República"
+        },
+        {
+          "letter": "B",
+          "text": "Código del Colegio Médico de Chile"
+        },
+        {
+          "letter": "C",
+          "text": "Ley que crea el Ministerio de Salud"
+        },
+        {
+          "letter": "D",
+          "text": "Ley de Derechos y Deberes del Paciente"
+        },
+        {
+          "letter": "E",
+          "text": "Código Sanitario"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El Código Sanitario regula el ejercicio de las profesiones de la salud, además del control de enfermedades transmisibles, medicamentos y establecimientos, con fiscalización de la SEREMI de Salud. El Código de Ética del Colegio Médico es gremial y solo obliga a sus colegiados; la Ley 20.584 regula los derechos del paciente.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro, sobre el marco legal del ejercicio médico.",
+        "question": "¿Cuál es el cuerpo normativo que regula el ejercicio de la profesión médica en Chile?",
+        "options": "Las opciones: la Constitución, el código del Colegio Médico, la ley que crea el Ministerio de Salud, la ley de derechos y deberes del paciente, o el Código Sanitario. Piénsalo.",
+        "answer": "Es la E. El Código Sanitario es el que regula el ejercicio de las profesiones de la salud en Chile. El código del Colegio Médico tienta, pero es un marco ético gremial que solo obliga a quienes están colegiados."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 5.01.3.008 · Maltrato infantil",
+      "stem": "Lactante de 4 meses es traído a urgencia por llanto e inmovilidad de la pierna derecha. Los padres refieren que se cayó del sofá hace 2 días. La radiografía muestra una fractura espiroidea de fémur. El lactante aún no logra girarse solo y tiene equimosis en el tórax.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hospitalizar para protección y estudio (serie ósea y fondo de ojo), registrar los hallazgos y denunciar"
+        },
+        {
+          "letter": "B",
+          "text": "Inmovilizar y dar de alta con control en traumatología"
+        },
+        {
+          "letter": "C",
+          "text": "Dar de alta y citar a control en una semana"
+        },
+        {
+          "letter": "D",
+          "text": "Realizar la denuncia y dar de alta con los padres"
+        },
+        {
+          "letter": "E",
+          "text": "Descartar osteogénesis imperfecta antes de adoptar cualquier medida"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Fractura de fémur en un lactante que no se desplaza, con mecanismo incoherente, consulta tardía y equimosis, es altamente sugerente de maltrato. Se hospitaliza para protegerlo y estudiarlo (serie ósea, fondo de ojo, eventual neuroimagen), se registra en la ficha y se denuncia, deber legal del médico. El estudio de diagnósticos diferenciales no retrasa la protección.",
+      "say": {
+        "stem": "Lactante de cuatro meses, que aún no se gira, con fractura espiroidea de fémur atribuida a una caída del sofá hace dos días y equimosis en el tórax.",
+        "question": "¿Cuál es la conducta?",
+        "options": "Las opciones: hospitalizar, estudiar y denunciar; inmovilizar y alta; control en una semana; denunciar y dar de alta con los padres; o descartar osteogénesis imperfecta primero. Piénsalo.",
+        "answer": "Es la A. El mecanismo no calza y hay que proteger al niño hospitalizándolo, estudiándolo y denunciando. Denunciar y dar de alta tienta, pero lo devuelve al mismo lugar donde ocurrió el posible maltrato."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 5.01.3.013 · Violencia intrafamiliar",
+      "stem": "Mujer de 35 años consulta en el servicio de urgencia de un hospital público por contusiones en la cara y los brazos. Relata que su pareja la golpea hace un año, que anoche la amenazó con un cuchillo y que teme por su vida. Tiene 2 hijos pequeños en casa.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Recomendar terapia de pareja"
+        },
+        {
+          "letter": "B",
+          "text": "Tratar las lesiones, evaluar el riesgo, registrar en la ficha, realizar la denuncia y activar la red de protección"
+        },
+        {
+          "letter": "C",
+          "text": "Tratar las lesiones y dar de alta sin registrar para proteger su privacidad"
+        },
+        {
+          "letter": "D",
+          "text": "Citar a la pareja para conversar con ambos"
+        },
+        {
+          "letter": "E",
+          "text": "Derivar a psicología con hora en 3 meses"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Ante violencia intrafamiliar se atiende la lesión, se evalúa el riesgo (amenaza con arma y temor por su vida son de alto riesgo), se registra en la ficha y se activa la red de protección. En un establecimiento público el médico tiene deber de denuncia de lesiones por delito. La terapia de pareja está contraindicada en violencia activa.",
+      "say": {
+        "stem": "Mujer con contusiones que relata que su pareja la golpea hace un año, que anoche la amenazó con un cuchillo y que teme por su vida.",
+        "question": "¿Cuál es la conducta?",
+        "options": "Las opciones: evaluar riesgo, tratar, registrar, denunciar y proteger; terapia de pareja; alta sin registrar; citar a la pareja; o psicología en tres meses. Piénsalo.",
+        "answer": "Es la B. Es violencia de alto riesgo, así que se trata, se registra, se denuncia y se activa la protección. La terapia de pareja tienta como mediación, pero en violencia activa está contraindicada y puede aumentar el riesgo."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.011 · Fuentes de información para el diagnóstico",
+      "stem": "Un equipo de salud pública quiere conocer las principales causas de muerte de la región en los últimos 5 años para su diagnóstico de situación de salud.",
+      "question": "¿Cuál es la fuente primaria de las estadísticas oficiales de mortalidad en Chile?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "El certificado médico de defunción"
+        },
+        {
+          "letter": "B",
+          "text": "La Encuesta Nacional de Salud"
+        },
+        {
+          "letter": "C",
+          "text": "El Censo de población"
+        },
+        {
+          "letter": "D",
+          "text": "Las fichas clínicas hospitalarias"
+        },
+        {
+          "letter": "E",
+          "text": "La encuesta CASEN"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Las estadísticas de mortalidad se construyen a partir del certificado médico de defunción, inscrito en el Registro Civil y procesado por el DEIS del Ministerio de Salud y el INE. La Encuesta Nacional de Salud entrega prevalencias de enfermedades y factores de riesgo; el Censo, datos poblacionales; y la CASEN, datos socioeconómicos.",
+      "say": {
+        "stem": "Un equipo quiere conocer las principales causas de muerte de su región para el diagnóstico de salud.",
+        "question": "¿De dónde salen las estadísticas oficiales de mortalidad?",
+        "options": "Las opciones: certificado de defunción, Encuesta Nacional de Salud, Censo, fichas clínicas o CASEN. Piénsalo.",
+        "answer": "Es la A. Todas las estadísticas de mortalidad nacen del certificado médico de defunción. La Encuesta Nacional de Salud tienta, pero esa mide prevalencias y factores de riesgo en personas vivas."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.050 · Rol del médico en la generación y uso de la información",
+      "stem": "Paciente de 74 años con diabetes mellitus tipo 2 de 20 años de evolución, que desarrolló enfermedad renal crónica terminal. Fallece por una hiperkalemia grave que le produjo un paro cardiorrespiratorio. El médico debe llenar el certificado de defunción.",
+      "question": "¿Cuál debe registrarse como causa básica de muerte?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diabetes mellitus tipo 2"
+        },
+        {
+          "letter": "B",
+          "text": "Paro cardiorrespiratorio"
+        },
+        {
+          "letter": "C",
+          "text": "Hiperkalemia"
+        },
+        {
+          "letter": "D",
+          "text": "Enfermedad renal crónica"
+        },
+        {
+          "letter": "E",
+          "text": "Vejez"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La causa básica es la enfermedad que inició la cadena de acontecimientos que llevó a la muerte, y es la que se usa en las estadísticas de mortalidad. Se anota en la última línea de la parte I, con las causas intermedias y la inmediata por encima. El paro cardiorrespiratorio es un mecanismo, no una causa, y no debe registrarse.",
+      "say": {
+        "stem": "Paciente diabético de larga data, con enfermedad renal terminal, que fallece por una hiperkalemia que le produjo un paro cardiorrespiratorio.",
+        "question": "¿Cuál es la causa básica de muerte en el certificado?",
+        "options": "Las opciones: diabetes tipo dos, paro cardiorrespiratorio, hiperkalemia, enfermedad renal crónica o vejez. Piénsalo.",
+        "answer": "Es la A. La causa básica es la que inició toda la cadena, aquí la diabetes. La enfermedad renal tienta, pero es una causa intermedia, consecuencia de la diabetes."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.3.010 · Prevención de maltrato y abuso infantil",
+      "stem": "Una niña de 6 años es traída por su madre, quien relata que la niña le contó que un familiar le tocó los genitales. Al examen no hay lesiones físicas.",
+      "question": "¿Cuál es la conducta más adecuada del médico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Interrogar a la niña en detalle varias veces para confirmar el relato"
+        },
+        {
+          "letter": "B",
+          "text": "Descartar el abuso por la ausencia de lesiones"
+        },
+        {
+          "letter": "C",
+          "text": "Proteger a la niña, registrar el relato textual y realizar la denuncia dentro de las 24 horas"
+        },
+        {
+          "letter": "D",
+          "text": "Citar al familiar para confrontarlo"
+        },
+        {
+          "letter": "E",
+          "text": "Esperar a que la madre decida si denuncia"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Ante sospecha de abuso sexual infantil, el médico debe proteger al niño, registrar textualmente lo relatado sin interrogatorios repetidos (para evitar revictimización) y denunciar: el Código Procesal Penal obliga a los profesionales de salud a hacerlo dentro de 24 horas. La ausencia de lesiones no descarta el abuso, que con frecuencia no deja hallazgos.",
+      "say": {
+        "stem": "Una madre cuenta que su hija de seis años le relató que un familiar le tocó los genitales; la niña no tiene lesiones.",
+        "question": "¿Cuál es la conducta más adecuada del médico?",
+        "options": "Las opciones: interrogar en detalle varias veces, descartar por falta de lesiones, proteger, registrar y denunciar en veinticuatro horas, confrontar al familiar o esperar la decisión materna. Piénsalo.",
+        "answer": "Es la C. El médico debe proteger a la niña, registrar el relato y denunciar dentro de veinticuatro horas. Esperar la decisión de la madre tienta por respeto a la familia, pero la denuncia es una obligación legal del médico."
+      }
     },
 
     {

@@ -53,7 +53,11 @@ module.exports = {
       cards: [
         { title: 'Carcinoma papilar', tag: 'El más frecuente', kind: 'key', items: [
           { t: 'Cuerpos de psamoma', d: 'Papilas y núcleos en vidrio esmerilado',
-            say: 'Veamos los diferenciados uno a uno. El papilar tiene una histología muy característica: papilas verdaderas, cuerpos de psamoma, que son calcificaciones concéntricas, y núcleos en vidrio esmerilado con hendiduras. Los psamomas son las microcalcificaciones que viste en la ecografía la clase pasada.' },
+            say: 'Veamos los diferenciados uno a uno. El papilar tiene una histología muy característica; mira este corte: papilas verdaderas, cuerpos de psamoma, que son calcificaciones concéntricas, y núcleos en vidrio esmerilado con hendiduras. Los psamomas son las microcalcificaciones que viste en la ecografía la clase pasada. Y así se ve en la ecografía: un nódulo hipoecogénico, de bordes irregulares.',
+            photos: [
+              { src: 'biblioteca/05_endocrinologia/endo-10/01_carcinoma_papilar_histologia__pathoma_p171.jpg', label: 'Histología del papilar', at: 'mira este corte', credit: 'Pathoma, Fig. 15.5' },
+              { src: 'biblioteca/05_endocrinologia/endo-10/02_eco_carcinoma_papilar__rumack_p738.jpg', label: 'Eco: nódulo hipoecogénico', at: 'Y así se ve en la ecografía', credit: 'Rumack, Diagnostic Ultrasound, Fig. 18-18 / p. 738' },
+            ] },
           { t: 'Vía linfática', d: 'Ganglios cervicales centrales y laterales',
             say: 'Se disemina por vía linfática, a los ganglios del cuello, primero del compartimento central y luego del lateral. Y ojo: tener ganglios comprometidos no empeora mucho la sobrevida global.' },
         ] },
@@ -199,17 +203,17 @@ module.exports = {
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Carcinoma papilar',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La tiroglobulina en el seguimiento',
       images: [
-        { src: 'biblioteca/05_endocrinologia/endo-10/01_carcinoma_papilar_histologia__pathoma_p171.jpg', label: 'Histología', credit: 'Pathoma, Fig. 15.5' },
+        { src: 'animaciones/endo-10/A1_tiroglobulina_seguimiento.mp4', label: 'Tiroglobulina', credit: 'Animación propia' },
       ],
       steps: [
-        { note: 'Núcleos en ojos de Annie y psamomas',
-          say: 'En la histología del carcinoma papilar los núcleos se ven vacíos, como los ojos de la huerfanita Annie, y aparecen cuerpos de psamoma, calcificaciones en capas. Es el cáncer de tiroides más frecuente.' },
+        { note: 'Indetectable: sin recidiva; si sube, buscarla',
+          say: 'Esta es la historia de la tiroglobulina. Antes de operar está alta, porque hay tumor y glándula. Con la tiroidectomía total cae, y después del radioyodo debería quedar indetectable, bajo cero coma dos. Desde ahí se vigila con la ecografía de cuello cada año. Si la curva vuelve a subir, es una recidiva o una metástasis. Y ojo: con anticuerpos antitiroglobulina la medición sale falsamente baja, por eso se piden juntos.' },
       ],
     },
-
     {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde la citología maligna hasta el seguimiento.',

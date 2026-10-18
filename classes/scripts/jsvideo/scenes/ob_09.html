@@ -1,0 +1,140 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Obstetricia 09: infección urinaria en el embarazo, sobre ilustración real.
+// Base: Blausen.com staff (2014) "Urinary System (Female)", CC BY 3.0; rótulos en inglés quitados
+// (assets/blausen/urinario_mujer.png, 377x655). Coordenadas en píxeles de esa imagen.
+//   ?v=itu   ob-09 A1: progesterona dilata el uréter, el útero comprime el derecho, la bacteria sube: bacteriuria → pielonefritis derecha
+const V = new URLSearchParams(location.search).get('v') || 'itu';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+
+const SRC = { x: 22, y: 58, w: 345, h: 560 }, DST = { x: 40, y: 128 }, S = 1.0;
+DST.w = SRC.w * S; DST.h = SRC.h * S;
+const P = (x, y) => [DST.x + (x - SRC.x) * S, DST.y + (y - SRC.y) * S];
+const PP = pts => pts.map(p => P(...p));
+
+// uréter derecho de la paciente (a la izquierda de la imagen) y uréter izquierdo: del riñón a la vejiga
+const R_IMG = [[92, 162], [100, 172], [103, 200], [102, 250], [103, 300], [105, 340], [100, 380], [90, 410], [83, 435], [82, 455], [88, 470], [100, 479]];
+const L_IMG = [[188, 165], [180, 180], [176, 230], [177, 300], [184, 340], [196, 380], [204, 410], [208, 440], [205, 465], [198, 485], [185, 492]];
+const URE_IMG = [[136, 566], [137, 545], [137, 522], [132, 505], [115, 490], [100, 479]];   // meato → cuello vesical → orificio ureteral derecho
+const RPATH = poly(PP(R_IMG)), LPATH = poly(PP(L_IMG));
+const UP = poly(PP(URE_IMG.concat(R_IMG.slice().reverse().slice(1))));                     // ruta ascendente de la bacteria
+const nU = URE_IMG.length;                                                                // índice del orificio dentro de la ruta
+function sAt(path, pts, idx) { // fracción de longitud acumulada hasta el punto idx
+  let tot = 0, acc = 0; for (let i = 1; i < pts.length; i++) tot += Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]);
+  for (let i = 1; i <= idx; i++) acc += Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]); return acc / tot;
+}
+const UPPTS = URE_IMG.concat(R_IMG.slice().reverse().slice(1));
+const S_BLAD = sAt(UP, UPPTS, nU - 1), S_PELVIS = 1;
+
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  ctx.drawImage(I('uri'), SRC.x, SRC.y, SRC.w, SRC.h, DST.x, DST.y, DST.w, DST.h); ctx.restore();
+}
+function clipLamina() { ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip(); }
+
+// uréter que se ensancha: capa sobre el uréter real (k = ensanchamiento 0..1; kmax del tramo)
+function dilate(path, k, kmax, from, to) {
+  if (k <= 0.01) return; ctx.save(); clipLamina(); ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  const w = 3.6 + kmax * k;
+  path.stroke(ctx, from, to, w + 2.4, 'rgba(120,62,56,0.85)');
+  path.stroke(ctx, from, to, w, '#C98F84');
+  path.stroke(ctx, from, to, Math.max(1.5, w * 0.35), 'rgba(255,225,215,0.75)', -w * 0.18);
+  ctx.restore();
+}
+function urineDrops(path, from, to, t, a, speed, n = 8, col = '#F2C230') {
+  if (a <= 0) return; ctx.save(); clipLamina(); ctx.fillStyle = col;
+  for (let i = 0; i < n; i++) { const u = (t * speed + i / n) % 1; const [x, y] = path.at(lerp(from, to, u));
+    ctx.globalAlpha = a * Math.min(1, u * 6, (1 - u) * 6); ctx.beginPath(); ctx.arc(x, y, 2.4, 0, 7); ctx.fill(); }
+  ctx.restore();
+}
+// orina acumulada (estasis) en el uréter derecho dilatado
+function pool(path, from, to, a, t) {
+  if (a <= 0) return; ctx.save(); clipLamina(); ctx.globalAlpha = a * 0.85; ctx.lineCap = 'round';
+  path.stroke(ctx, from, to, 7, 'rgba(244,196,48,0.7)'); ctx.restore();
+}
+function rod(x, y, ang, a, col = '#9BE15D') {
+  ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y); ctx.rotate(ang);
+  ctx.fillStyle = '#244018'; ctx.beginPath(); ctx.roundRect(-6.5, -3.6, 13, 7.2, 3.6); ctx.fill();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.roundRect(-5.5, -2.6, 11, 5.2, 2.6); ctx.fill(); ctx.restore();
+}
+// enjambre de bacterias que avanza por la ruta de s0 a s1
+function swarm(t0, dur, s0, s1, t, a = 1, n = 11) {
+  const adv = ease(clamp((t - t0) / dur, 0, 1)); if (adv <= 0) return; ctx.save(); clipLamina();
+  for (let i = 0; i < n; i++) { const lag = i * 0.035, s = clamp(lerp(s0, s1, adv) - lag, s0, s1);
+    if (s <= s0 && adv < 0.02) continue; const [x, y] = UP.at(s, (rnd(i) - 0.5) * 4); const [x2, y2] = UP.at(Math.min(1, s + 0.01));
+    rod(x, y, Math.atan2(y2 - y, x2 - x), a * Math.min(1, adv * 8)); }
+  ctx.restore();
+}
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function arrow(x0, y0, x1, y1, col, a, lw = 6) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = lw; ctx.lineCap = 'round';
+  const ang = Math.atan2(y1 - y0, x1 - x0); ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1 - Math.cos(ang) * 9, y1 - Math.sin(ang) * 9); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x1 - Math.cos(ang - 0.5) * 18, y1 - Math.sin(ang - 0.5) * 18); ctx.lineTo(x1 - Math.cos(ang + 0.5) * 18, y1 - Math.sin(ang + 0.5) * 18); ctx.closePath(); ctx.fill(); ctx.restore();
+}
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+// ---------- A1 ----------
+function itu(t) {
+  K.title('Infección urinaria en el embarazo', 'La orina se estanca y la bacteria sube', C.AMBER);
+  lamina(seg(t, 0, 0.7));
+  const dil = ease(seg(t, 1.2, 3.5));                       // progesterona: ambos uréteres
+  const comp = ease(seg(t, 6.5, 2.5));                      // útero: más a la derecha
+  dilate(LPATH, dil * 0.6, 6, 0, 1);
+  dilate(RPATH, dil * 0.8 + comp * 0.6, 9, 0, 0.86);
+  // estasis: la orina baja lento y se acumula
+  const slow = lerp(0.35, 0.08, ease(seg(t, 5, 4)));
+  urineDrops(LPATH, 0.02, 0.98, t, seg(t, 0.8, 0.4), slow * 1.4, 7);
+  urineDrops(RPATH, 0.02, 0.98, t, seg(t, 0.8, 0.4) * (1 - seg(t, 8, 2)), slow, 7);
+  pool(RPATH, 0.3, 0.9, seg(t, 8.5, 1.5), t);
+  // vejiga con bacteriuria
+  const bact = ease(seg(t, 14.4, 2));
+  if (bact > 0) { const [bx, by] = P(137, 492); ctx.save(); clipLamina(); ctx.globalAlpha = 0.38 * bact; ctx.fillStyle = '#E8D24A'; ctx.beginPath(); ctx.ellipse(bx, by, 56 * S, 28 * S, 0, 0, 7); ctx.fill(); ctx.restore(); }
+  // el útero que comprime: flechas desde la línea media hacia el uréter derecho (a la izquierda de la imagen)
+  const ua = fade(t, 6.4, 12.5, 0.5);
+  if (ua > 0) { const [x0, y0] = P(150, 392), [x1, y1] = P(98, 396); const k = 0.5 + 0.5 * Math.sin(t * 5);
+    arrow(x0 + 4 * k, y0, x1 + 4 * k, y1, C.AMBER, ua, 7); const [a0, b0] = P(150, 424), [a1, b1] = P(94, 424); arrow(a0 + 4 * k, b0, a1 + 4 * k, b1, C.AMBER, ua * 0.8, 6); }
+  label('Útero comprime el uréter derecho', 520, 330, C.AMBER, ...P(98, 400), ua);
+  label('Uréter dilatado', 500, 215, '#F2A9A0', ...P(103, 250), fade(t, 2.2, 6.2));
+  label('Orina estancada', 500, 520, '#F2C230', ...P(102, 360), seg(t, 9, 0.5) * (1 - seg(t, 13.5, 0.5)));
+  // la bacteria sube desde la uretra
+  swarm(10.2, 4.2, 0, S_BLAD, t, 1);
+  label('E. coli sube por la uretra', 520, 640, C.GREEN, ...P(137, 548), fade(t, 10.4, 14.4));
+  label('Bacteriuria asintomática', 520, 600, C.AMBER, ...P(160, 500), fade(t, 15.4, 19.6));
+  // sube por el uréter derecho hasta el riñón
+  swarm(17.2, 5.5, S_BLAD, 1, t, 1, 14);
+  // riñón derecho inflamado
+  const pyel = ease(seg(t, 21.2, 1.6));
+  if (pyel > 0) { const [kx, ky] = P(66, 160); ctx.save(); clipLamina(); K.glow(kx, ky, 80 + 8 * Math.sin(t * 5), '255,60,50', 0.6 * pyel); ctx.restore(); }
+  label('Pielonefritis derecha', 520, 170, C.RED, ...P(70, 185), seg(t, 22, 0.5));
+  // el enjambre sigue siendo visible en la pelvis renal
+  // tags de lado
+  ctx.save(); ctx.globalAlpha = seg(t, 0.4, 0.5); tag('Derecha', P(70, 60)[0], DST.y + 22, '#DDE7EE', 13); tag('Izquierda', P(240, 60)[0], DST.y + 22, '#DDE7EE', 13); ctx.restore();
+  // panel de la derecha
+  K.card(690, 135, 550, 104, C.AMBER, 'Progesterona', ['Relaja el músculo liso: el uréter se dilata', 'La orina baja más lento'], seg(t, 1.6, 0.5), 17);
+  K.card(690, 251, 550, 104, C.AMBER, 'Útero grávido, rotado a la derecha', ['Comprime el uréter derecho: estasis urinaria', 'Por eso la pielonefritis es más derecha'], seg(t, 6.8, 0.5), 17);
+  K.card(690, 367, 550, 104, C.GREEN, 'Bacteriuria asintomática', ['Más de 100.000 UFC de un germen, sin síntomas', 'En el embarazo se trata siempre'], seg(t, 14.8, 0.5), 17);
+  K.card(690, 483, 550, 104, C.RED, 'Pielonefritis aguda', ['Fiebre alta, calofríos, puñopercusión positiva', 'Se hospitaliza siempre'], seg(t, 22, 0.5), 17);
+  K.banner(690, 596, 550, 'Bacteriuria o cistitis: cefadroxilo, ambulatorio', C.GREEN, seg(t, 25.2, 0.5));
+  K.banner(690, 646, 550, 'Pielonefritis: ceftriaxona EV, hospitalizar', C.RED, seg(t, 27.4, 0.5));
+}
+
+const SCN = { itu: { f: itu, dur: 31 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({ uri: '../assets/blausen/urinario_mujer.png' });
+</script>
+</body></html>

@@ -29,16 +29,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -670,6 +671,20 @@ const bloque1 = [
         paragraphs: [
           '• <strong>Neuropatía Periférica Sensitiva (Pie Diabético):</strong> La pérdida de sensibilidad protectora al dolor favorece la aparición de ampollas, úlceras o fracturas por sobrecarga. Se debe desaconsejar el trote o caminatas descalzo en superficies irregulares, recomendando natación, remo o bicicleta estática, con <strong>inspección diaria minuciosa de los pies y uso de calzado ortopédico acolchado sin costuras internas</strong>.<br>' +
           '• <strong>Retinopatía Diabética Proliferativa Severa:</strong> Evitar ejercicios vigorosos con maniobra de Valsalva o levantamiento de pesas máximas por riesgo de desprendimiento de retina o hemorragia vítrea.',
+        ],
+      },
+      {
+        subhead: "4. Evaluación Previa al Ejercicio: Test de Esfuerzo",
+        paragraphs: [
+          "<strong>No todo diabético necesita un test de esfuerzo antes de hacer ejercicio.</strong> El paciente asintomático que inicia actividad de <strong>intensidad leve a moderada</strong> (caminata a paso ligero, aumento gradual) puede comenzar sin estudio previo. Se solicita un <strong>test de esfuerzo (ECG de esfuerzo en cinta, protocolo de Bruce)</strong> cuando se planea ejercicio <strong>vigoroso</strong> en un sedentario y existe alguno de estos elementos: edad &gt; 40 años con DM de más de 10 años de evolución, <strong>varios factores de riesgo cardiovascular</strong>, síntomas (disnea o dolor torácico de esfuerzo), ECG basal anormal, enfermedad arterial periférica, ERC o <strong>neuropatía autonómica</strong>. La razón es que la <strong>isquemia miocárdica silente</strong> es frecuente en diabetes: el paciente puede no sentir angina.",
+          "<strong>Cómo se emplea el informe:</strong><br/>• <strong>Positivo</strong> (descenso del ST ≥ 1 mm horizontal o descendente, angina, caída de la presión sistólica con el esfuerzo, arritmia ventricular compleja o capacidad funcional muy baja): <strong>no iniciar el programa de ejercicio</strong> y derivar a cardiología para estudio de isquemia (imagen de estrés o coronariografía).<br/>• <strong>Negativo con esfuerzo suficiente</strong> (alcanza ≥ 85% de la frecuencia cardíaca máxima teórica, 220 − edad): permite prescribir ejercicio sin restricción cardiovascular.<br/>• <strong>No concluyente o submáximo</strong> (no alcanza el 85%, por betabloqueo, mala condición física o neuropatía autonómica): <strong>no descarta isquemia</strong>; se complementa con imagen de estrés.<br/>En neuropatía autonómica la frecuencia cardíaca no es confiable para dosificar la intensidad: se usa la escala de esfuerzo percibido. El test está contraindicado en infarto reciente, angina inestable, estenosis aórtica severa sintomática, arritmias no controladas e insuficiencia cardíaca descompensada.",
+        ],
+      },
+      {
+        subhead: "5. Riesgo Cardiovascular en la Diabetes y Estrategias Nacionales de Control de Enfermedades Crónicas",
+        paragraphs: [
+          "La <strong>enfermedad cardiovascular ateroesclerótica es la principal causa de muerte del paciente con diabetes</strong>: la DM multiplica por 2 a 4 el riesgo de infarto, accidente cerebrovascular y enfermedad arterial periférica, y el infarto puede presentarse sin dolor típico por neuropatía autonómica. El riesgo se concentra en la <strong>dislipidemia aterogénica</strong> (triglicéridos altos, HDL bajo, LDL pequeñas y densas), la hipertensión, la obesidad abdominal y el tabaquismo. Por eso el manejo es <strong>integral y simultáneo</strong>, no solo glicémico: HbA1c individualizada (diab-04), <strong>PA &lt; 130/80 mmHg</strong> (diab-10), <strong>estatina</strong> según el riesgo (diab-23), abandono del tabaco, baja de peso y ejercicio. La aspirina 100 mg diaria se indica en <strong>prevención secundaria</strong>; en prevención primaria se individualiza por el riesgo de sangrado. Los iSGLT2 y los agonistas GLP-1 tienen beneficio cardiovascular demostrado (diab-08).",
+          "En Chile el control de las enfermedades crónicas prioritarias se organiza en la atención primaria. El <strong>Programa de Salud Cardiovascular (PSCV)</strong> ingresa a las personas con HTA, DM2 y dislipidemia, estratifica su <strong>riesgo cardiovascular</strong> (bajo, moderado, alto) y define la frecuencia de controles del equipo (médico, enfermera, nutricionista). La pesquisa parte del <strong>Examen de Medicina Preventiva del Adulto (EMPA)</strong>. Las <strong>GES</strong> garantizan acceso al tratamiento de la HTA, la DM1 y la DM2. La prevención poblacional se apoya en la <strong>Ley 20.606</strong> de etiquetado de alimentos (sellos «ALTO EN»), la <strong>Ley del Tabaco</strong> y el programa <strong>Elige Vida Sana</strong>. En cáncer, la <strong>Ley Nacional del Cáncer</strong> y los tamizajes del EMPA (Papanicolaou cada 3 años en mujeres de 25 a 64 años, mamografía cada 2 años entre los 50 y 69 años) completan la estrategia, dentro de la <strong>Estrategia Nacional de Salud 2021–2030</strong>.",
         ],
       },
     ],

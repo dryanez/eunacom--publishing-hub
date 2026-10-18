@@ -67,6 +67,30 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Luxaciones',
+      title: 'Luxación de hombro y principios de reducción',
+      cards: [
+        { title: 'Hombro', tag: 'Más del 95 % anterior', kind: 'key', items: [
+          { t: 'Brazo en abducción y rotación externa', d: 'Signo de la charretera',
+            say: 'La luxación de hombro es la más frecuente, y en más del noventa y cinco por ciento es anterior: una caída sobre el brazo en abducción y rotación externa. El paciente llega con el brazo ligeramente separado, sosteniéndolo con la otra mano, sin poder aducirlo, y con el deltoides aplanado y el acromion prominente. Es el signo de la charretera.' },
+          { t: 'Axilar y pulso antes y después', d: 'Parche deltoideo',
+            say: 'Siempre examinas el nervio axilar, con la sensibilidad del parche deltoideo, y el pulso radial, antes y después de reducir. En la radiografía la cabeza queda subcoracoidea, y se buscan la lesión de Hill-Sachs en la cabeza humeral y la de Bankart en el rodete glenoideo.' },
+          { t: 'Reducción cerrada precoz', d: 'Cabestrillo 2 a 3 semanas',
+            say: 'Se reduce de forma cerrada y precoz, con analgesia o sedación, y después radiografía de control y cabestrillo por dos a tres semanas. En menores de veinticinco años la recidiva es muy frecuente, y por eso se deriva a traumatología. La luxación posterior es rara y se asocia a convulsiones o electrocución.' },
+        ] },
+        { title: 'Principios para toda luxación', tag: 'Es una urgencia', kind: 'alert', items: [
+          { t: 'Diagnosticar, inmovilizar y derivar', d: 'En la posición hallada',
+            say: 'Toda luxación es una urgencia, más aún si hay compromiso neurovascular. El médico general diagnostica, evalúa pulsos, sensibilidad y movilidad, da analgesia, inmoviliza en la posición en que la encontró y deriva.' },
+          { t: 'Tracción suave y radiografía previa y posterior', d: 'Sin movimientos bruscos',
+            say: 'La reducción se hace con analgesia o sedación, con tracción suave y progresiva, y siempre con radiografía antes y después.' },
+          { t: 'Codo: cubital, mediano y braquial', d: 'Valva braquiopalmar a 90 grados',
+            say: 'La luxación de codo, habitualmente posterior, puede dañar el nervio cubital o el mediano y la arteria braquial, y se inmoviliza con valva braquiopalmar a noventa grados. Si el pulso está ausente y la derivación se demora, la reducción inmediata la hace el médico entrenado.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Miembro inferior y otras causas',
       title: 'Ciático y neuropatías por compresión',
       cards: [
@@ -107,6 +131,28 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Lesión vascular',
+      title: 'Isquemia aguda sin trauma: embolia o trombosis',
+      cards: [
+        { title: 'Cómo distinguirlas', tag: 'Misma clínica, distinto origen', kind: 'criteria', items: [
+          { t: 'Embolia: origen cardíaco', d: 'Fibrilación auricular, infarto, valvulopatía',
+            say: 'Además de la causa traumática, la oclusión arterial aguda puede ser embolia o trombosis. La embolia viene del corazón: fibrilación auricular, infarto reciente o valvulopatía. Aparece de golpe en una extremidad previamente sana, con pulsos normales en la otra pierna, y se atasca en una bifurcación, como la femoral común.' },
+          { t: 'Trombosis: sobre una placa', d: 'Claudicación previa, inicio gradual',
+            say: 'La trombosis ocurre in situ sobre una placa aterosclerótica. Hay claudicación previa, los pulsos del otro lado están disminuidos y el inicio es más gradual.' },
+        ] },
+        { title: 'Manejo inicial', tag: 'Ventana de unas 6 horas', kind: 'alert', items: [
+          { t: 'Heparina no fraccionada endovenosa', d: 'Bolo de 5.000 UI u 80 UI/kg',
+            say: 'La clínica son las seis P. El médico general inicia heparina no fraccionada endovenosa de inmediato, con un bolo de cinco mil unidades, o de ochenta unidades por kilo.' },
+          { t: 'Declive, abrigo sin calor y traslado urgente', d: 'A cirugía vascular',
+            say: 'Da analgesia, deja la extremidad en declive y abrigada, sin calor directo, y traslada de urgencia a cirugía vascular, porque el tiempo útil para revascularizar es de unas seis horas.' },
+          { t: 'Embolia: Fogarty. Trombosis: trombolisis o bypass', d: 'Cuidado con la reperfusión',
+            say: 'La embolia se trata con embolectomía con catéter de Fogarty, y la trombosis con trombolisis o bypass. Tras reperfundir hay riesgo de síndrome de reperfusión, con hiperkalemia y mioglobinuria, y de síndrome compartimental.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Manejo de urgencia',
       title: 'Hemorragia arterial: qué hacer primero',
       cards: [
@@ -121,6 +167,31 @@ module.exports = {
             say: 'El tratamiento definitivo es la reparación quirúrgica de la arteria por cirugía vascular.' },
           { t: 'Ligadura: último recurso', d: 'Luego, traslado urgente',
             say: 'La ligadura se deja para casos extremos, cuando la compresión no logra la hemostasia. Después se traslada de urgencia para revascularizar el miembro.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'En el niño',
+      title: 'Fracturas del niño y supracondílea de húmero',
+      cards: [
+        { title: 'El hueso inmaduro', tag: 'Remodela', kind: 'key', items: [
+          { t: 'Tallo verde, rodete y fisarias', d: 'Periostio grueso y placa de crecimiento',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-04/21_torus-radio-distal__sherman_p776.jpg', label: 'Rodete del radio distal', at: 'En estas radiografías', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 776' },
+            say: 'El hueso del niño tiene un periostio grueso y una placa de crecimiento abierta, y por eso tiene patrones propios: el tallo verde, con la cortical rota de un solo lado, y el rodete o torus, por compresión de la metáfisis. En estas radiografías las flechas señalan un rodete del radio distal. Además existen las fracturas fisarias, de Salter-Harris.' },
+          { t: 'Casi todas ortopédicas', d: 'Derivar desplazadas, articulares, fisarias y expuestas',
+            say: 'La mayoría se trata de forma ortopédica, porque el niño remodela el hueso. Das analgesia, valva, evalúas lo neurovascular y pides radiografías en dos proyecciones. Se derivan las desplazadas, las articulares, las fisarias y las expuestas.' },
+          { t: 'Sospechar maltrato', d: 'Lactante que no camina, fémur menor de 1 año',
+            say: 'Y sospecha maltrato ante una fractura en un lactante que no camina, una de fémur en menor de un año, fracturas en distintas etapas de consolidación, fracturas costales posteriores, o un mecanismo que no explica la lesión.' },
+        ] },
+        { title: 'Supracondílea de húmero', tag: 'Niño de 5 a 8 años', kind: 'alert', items: [
+          { t: 'Caída con la mano extendida', d: 'Codo doloroso, con edema y deformidad',
+            say: 'La fractura de codo más frecuente en el niño de cinco a ocho años es la supracondílea, por una caída con la mano extendida. La radiografía lateral muestra el fragmento distal desplazado hacia atrás.' },
+          { t: 'Braquial, mediano y Volkmann', d: 'Mano fría y sin pulso',
+            say: 'Es una urgencia porque se asocia a lesión de la arteria braquial, con mano fría y pulso ausente, a lesión del nervio mediano y a síndrome compartimental, con contractura de Volkmann.' },
+          { t: 'No forzar la extensión: derivar ya', d: 'Clavos percutáneos; mala reducción: cúbito varo',
+            say: 'Se inmoviliza en posición cómoda, sin forzar la extensión, se evalúa lo neurovascular y se deriva de inmediato para reducción y clavos percutáneos. Una mala reducción deja deformidad en varo, el cúbito varo.' },
         ] },
       ],
     },
@@ -141,6 +212,20 @@ module.exports = {
           say: 'Cubital: fractura de codo, falla la flexión del cuarto y quinto dedo.' },
         { cells: ['Ciático', 'Luxación posterior de cadera', 'No flecta rodilla ni dorsiflexiona', 'Cara posterior de muslo a pie'],
           say: 'Y ciático: luxación posterior de cadera, no flecta la rodilla ni hace dorsiflexión. Si asocias el nervio con su lesión, resuelves casi todas las preguntas de este tema.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Luxación anterior de hombro',
+      images: [
+        { src: 'animaciones/trauma-04/A1_luxacion_hombro.mp4', label: 'La cabeza del húmero sale por delante de la glenoides', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Luxación, nervio axilar y reducción',
+          say: 'Mira la articulación del hombro. En la luxación anterior, tras una caída con el brazo en abducción y rotación externa, la cabeza del húmero se sale por delante de la glenoides. Puede dejar la lesión de Hill-Sachs en la cabeza y la de Bankart en el rodete, y estirar el nervio axilar. Por eso examinas el nervio y el pulso antes y después de reducir. Se reduce de forma cerrada y precoz.' },
       ],
     },
 
@@ -239,6 +324,195 @@ module.exports = {
         options: 'Las opciones: hematoma subdural izquierdo; trombosis de la vena subclavia; neuropatía compresiva del radial; trombosis de la arteria subclavia; o hematoma capsular izquierdo. Piénsalo.',
         answer: 'Es la C. Es la parálisis del borracho: compresión del radial por dormir sobre el brazo. Los hematomas darían afasia o compromiso de la cara, y las trombosis vasculares no explican una mano caída aislada. Sin fractura, piensa en compresión.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2022 · Pregunta 131",
+      "stem": "Una paciente de 62 años sufre una caída a nivel, con una fractura del extremo distal del radio izquierdo, que es manejada ortopédicamente con un yeso braquiopalmar. A las 5 horas evoluciona con dolor intenso, EVA 10/10, que no responde a la analgesia y se asocia a dificultad para mover los dedos. Al examen físico, los dedos tienen llene capilar enlentecido.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Síndrome de dolor locorregional complejo"
+        },
+        {
+          "letter": "B",
+          "text": "Lesión de la arteria radial"
+        },
+        {
+          "letter": "C",
+          "text": "Trombosis venosa profunda"
+        },
+        {
+          "letter": "D",
+          "text": "Compresión del nervio mediano"
+        },
+        {
+          "letter": "E",
+          "text": "Síndrome compartimental"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Dolor desproporcionado que no cede con analgesia, dificultad para mover los dedos y llene capilar lento pocas horas después de enyesar una fractura son un síndrome compartimental. Se debe abrir o retirar el yeso de inmediato y, si no mejora, fasciotomía.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veintidós. Una mujer de sesenta y dos años tiene una fractura de radio distal enyesada. Cinco horas después tiene un dolor de diez sobre diez que no cede con analgésicos, le cuesta mover los dedos y el llene capilar está lento.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: síndrome de dolor locorregional complejo, lesión de la arteria radial, trombosis venosa profunda, compresión del nervio mediano o síndrome compartimental. Piénsalo.",
+        "answer": "Es la E. Dolor desproporcionado pocas horas después de un yeso, con dedos que se mueven mal y circulación lenta, es un síndrome compartimental. El dolor locorregional complejo tienta, pero aparece semanas después, no a las cinco horas."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.2.023 · Traumatismos vasculares",
+      "stem": "Hombre de 22 años sufre una herida por arma blanca en la cara medial del muslo derecho. Ingresa con un hematoma pulsátil que aumenta de tamaño, frémito palpable y ausencia de pulsos poplíteo y pedio en esa extremidad. PA 110/70 mmHg tras la reanimación inicial.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Medir el índice tobillo-brazo y reevaluar en 6 horas"
+        },
+        {
+          "letter": "B",
+          "text": "Exploración quirúrgica vascular inmediata"
+        },
+        {
+          "letter": "C",
+          "text": "AngioTAC electiva al día siguiente"
+        },
+        {
+          "letter": "D",
+          "text": "Vendaje compresivo y alta con control"
+        },
+        {
+          "letter": "E",
+          "text": "Ecografía Doppler venosa"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Los signos duros de lesión vascular (hemorragia pulsátil, hematoma expansivo, frémito o soplo, ausencia de pulsos distales o isquemia) indican exploración quirúrgica inmediata, sin necesidad de imágenes previas. El índice tobillo-brazo o la angioTAC se usan ante signos blandos, como un hematoma estable o un déficit neurológico vecino.",
+      "say": {
+        "stem": "Hombre de veintidós años con una herida por arma blanca en la cara interna del muslo derecho. Tiene un hematoma pulsátil que crece, frémito palpable y no se palpan los pulsos poplíteo ni pedio en esa pierna.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: índice tobillo brazo y reevaluar, exploración quirúrgica inmediata, angioTAC al día siguiente, vendaje compresivo y alta, o Doppler venoso. Piénsalo.",
+        "answer": "Es la B. Hematoma pulsátil que crece, frémito y ausencia de pulsos son signos duros de lesión arterial, y eso va directo a pabellón. La angioTAC tienta porque precisa la lesión, pero se reserva para los signos blandos, cuando hay tiempo para estudiar."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.2.009 · Fracturas",
+      "stem": "Un niño de 6 años cae de un columpio sobre la mano con el codo en extensión. Presenta dolor, aumento de volumen y deformidad del codo. La radiografía muestra una fractura supracondílea del húmero desplazada. La mano está pálida, fría y no se palpa el pulso radial.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inmovilización con yeso braquiopalmar y control en una semana"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar angiografía y esperar el resultado antes de cualquier maniobra"
+        },
+        {
+          "letter": "C",
+          "text": "Analgesia y cirugía electiva en 7 días"
+        },
+        {
+          "letter": "D",
+          "text": "Reducción e inmovilización urgente, con evaluación vascular inmediata"
+        },
+        {
+          "letter": "E",
+          "text": "Vendaje elástico y elevación de la extremidad"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La fractura supracondílea es la fractura de codo más frecuente en niños. Si está desplazada y hay compromiso vascular (lesión o compresión de la arteria braquial), es una urgencia: se reduce de inmediato, habitualmente en pabellón con fijación percutánea, y se reevalúa el pulso y la perfusión. Si no se resuelve, se explora la arteria.",
+      "say": {
+        "stem": "Un niño de seis años tiene una fractura supracondílea de húmero desplazada, con la mano pálida, fría y sin pulso radial.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: yeso y control, angiografía antes de todo, cirugía electiva, reducción urgente con evaluación vascular o vendaje elástico. Piénsalo.",
+        "answer": "Es la D. Una fractura supracondílea desplazada sin pulso es una urgencia y se reduce de inmediato, reevaluando la perfusión. La angiografía tienta, pero no debe retrasar la reducción, que muchas veces recupera el pulso."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 35",
+      "stem": "Paciente de 23 años sufre una caída mientras jugaba fútbol, cayendo con el hombro derecho contra el piso, con una luxación anterior de hombro derecho confirmada por radiografías que descartan fracturas.",
+      "question": "¿Qué evaluación debe realizarse obligatoriamente en el examen físico antes de proceder con las maniobras de reducción?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Buscar presencia de equimosis"
+        },
+        {
+          "letter": "B",
+          "text": "Buscar deformación en \"charretera\""
+        },
+        {
+          "letter": "C",
+          "text": "Explorar la sensibilidad de la zona deltoidea"
+        },
+        {
+          "letter": "D",
+          "text": "Evaluar la impotencia funcional"
+        },
+        {
+          "letter": "E",
+          "text": "Evaluar crépito óseo"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El nervio axilar es el más lesionado en la luxación anterior de hombro. Antes y después de reducir se debe documentar la sensibilidad de la cara lateral del hombro (zona del parche deltoideo) y los pulsos distales. La charretera e impotencia funcional confirman la luxación, pero no cambian la conducta.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Jugador de fútbol de veintitrés años con luxación anterior de hombro confirmada, sin fracturas.",
+        "question": "¿Qué debe evaluarse obligatoriamente antes de reducir?",
+        "options": "Las opciones: equimosis, signo de la charretera, sensibilidad de la zona deltoidea, impotencia funcional o crépito óseo. Piénsalo.",
+        "answer": "Es la C. Hay que explorar la sensibilidad del deltoides, porque el nervio axilar es el que más se lesiona y debe quedar documentado antes de reducir. La charretera tienta, pero solo confirma una luxación que ya está diagnosticada."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.5.003 · Reducción de luxaciones de codo, hombro e interfalángicas",
+      "stem": "Hombre de 30 años con luxación posterior de codo izquierdo tras caída, sin fracturas en la radiografía. Antes de reducir, el pulso radial está presente y la sensibilidad de la mano es normal. Se reduce mediante tracción longitudinal del antebrazo con contratracción del brazo y flexión progresiva.",
+      "question": "Inmediatamente después de la reducción, ¿cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dar de alta con analgesia, sin inmovilización"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar resonancia magnética urgente"
+        },
+        {
+          "letter": "C",
+          "text": "Inmovilizar con yeso en extensión por 6 semanas"
+        },
+        {
+          "letter": "D",
+          "text": "Reevaluar pulsos y función neurológica, controlar con radiografía y dejar férula braquiopalmar por un período corto"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar ejercicios de fuerza inmediatamente"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Tras toda reducción de una luxación se debe reexaminar el estado neurovascular (la arteria braquial y los nervios mediano y cubital pueden quedar atrapados), confirmar la reducción con radiografía e inmovilizar brevemente en flexión, con movilización precoz para evitar rigidez. Inmovilizar en extensión o por largo tiempo produce rigidez.",
+      "say": {
+        "stem": "Hombre de treinta años con luxación posterior de codo, sin fracturas, que se reduce con tracción y flexión. Antes estaba indemne en pulsos y sensibilidad.",
+        "question": "¿Qué hacer inmediatamente después de reducir?",
+        "options": "Las opciones: alta sin inmovilizar, resonancia urgente, yeso en extensión por seis semanas, reevaluar pulsos y nervios con radiografía y férula breve o ejercicios de fuerza inmediatos. Piénsalo.",
+        "answer": "Es la D. Siempre se reevalúa el estado neurovascular, se confirma con radiografía y se inmoviliza poco tiempo. El yeso prolongado tienta por dar seguridad, pero el codo se pone rígido con facilidad."
+      }
     },
 
     {

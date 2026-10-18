@@ -148,6 +148,30 @@ module.exports = {
       ],
     },
 
+
+    {
+      type: 'points',
+      kicker: 'Fobia específica',
+      title: 'Fobia específica: se trata con exposición',
+      cards: [
+        { title: 'Cómo se reconoce', tag: 'Sospecha', kind: 'criteria', items: [
+          { t: 'Miedo desproporcionado a algo concreto', d: 'Animales, alturas, avión, sangre, inyecciones',
+            say: 'La fobia específica es un miedo intenso y desproporcionado a un objeto o situación concretos: animales, alturas, tormentas, el avión, los ascensores, la sangre o las inyecciones. Provoca ansiedad casi inmediata, lleva a evitarlo, y dura al menos seis meses.' },
+          { t: 'La más frecuente: 7 a 9 % de la población', d: 'Inicio en la infancia',
+            say: 'Es el trastorno de ansiedad más frecuente, entre siete y nueve por ciento de la población, y parte en la infancia.' },
+          { t: 'Sangre e inyecciones: respuesta vasovagal', d: 'Bradicardia, hipotensión y síncope',
+            say: 'La fobia a la sangre y a las inyecciones es la única con respuesta vasovagal, con bradicardia, hipotensión y desmayo. Ahí se enseña la tensión muscular aplicada para evitar el síncope.' },
+        ] },
+        { title: 'Tratamiento', tag: 'Primera línea', kind: 'pharma', items: [
+          { t: 'Exposición gradual', d: 'In vivo, con desensibilización sistemática',
+            say: 'La primera línea es la terapia de exposición gradual, en vivo, con desensibilización sistemática. Logra remisión en la mayoría con pocas sesiones.' },
+          { t: 'Sin fármacos de mantención', d: 'Solo puntual: benzodiacepina o betabloqueador',
+            say: 'No hay indicación de fármacos de mantenimiento. Solo, de forma puntual y por indicación médica, una benzodiacepina o un betabloqueador antes de una situación inevitable y aislada, como un vuelo o un procedimiento.' },
+          { t: 'ISRS solo si hay comorbilidad', d: 'Depresión o ansiedad asociada; derivar si deteriora',
+            say: 'Se usa un ISRS únicamente si hay depresión o ansiedad comórbida. Y se deriva si la evitación deteriora la vida o hay comorbilidad importante.' },
+        ] },
+      ],
+    },
     {
       type: 'points',
       kicker: 'Tratamiento',
@@ -210,6 +234,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Exposición frente a evitación',
+      images: [
+        { src: 'animaciones/psiq-07/A1_exposicion_vs_evitacion.mp4', label: 'Fobia: exponerse apaga el miedo', credit: 'Gráfico y animación propios' },
+      ],
+      steps: [
+        { note: 'Quedarse en la situación reduce el pico cada vez',
+          say: 'Mira las dos curvas. Cuando el paciente evita, la ansiedad baja al instante porque huye, pero el miedo vuelve igual o más fuerte la próxima vez. Cuando se expone de forma gradual y se queda, la ansiedad sube y baja sola, y cada pico es menor. Por eso la fobia específica se trata con exposición, escalón por escalón, sin fármacos de mantención. Solo de forma puntual, una benzodiacepina o un betabloqueador antes de un vuelo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: de la ansiedad crónica al tratamiento correcto.',
     },
@@ -232,6 +270,8 @@ module.exports = {
           say: 'Miedo a un solo estímulo, como volar: fobia específica.' },
         { cells: ['Crisis bruscas con miedo a morir', 'Pánico, no TAG', 'Tratar como TAG'],
           say: 'Y si son crisis bruscas con miedo a morir, es pánico, que vimos la clase pasada.' },
+        { cells: ['Miedo intenso a volar o a las inyecciones', 'Exposición gradual', 'ISRS de mantención'],
+          say: 'En una fobia específica, la exposición gradual es la primera línea; un ISRS de mantención no corresponde si no hay comorbilidad.' },
       ],
     },
 
@@ -371,6 +411,44 @@ module.exports = {
         options: 'Las opciones: ansiedad generalizada; fobia específica; agorafobia; pánico; o ansiedad de separación. Piénsalo.',
         answer: 'Es la B. El miedo es a un estímulo concreto, volar, y se evita: fobia específica. No hay preocupación por muchos temas, como en el TAG, ni crisis imprevistas con evitación de lugares, como en pánico y agorafobia.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.140 · Trastornos de ansiedad generalizada",
+      "stem": "Un niño de 10 años presenta desde hace 8 meses preocupación excesiva y difícil de controlar por su rendimiento escolar, la salud de sus padres y eventos futuros. Se asocia a inquietud, dolor abdominal recurrente, cefalea tensional e insomnio de conciliación. Su examen físico es normal y el estudio de dolor abdominal fue negativo.",
+      "question": "¿Cuál es el tratamiento de primera línea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clonazepam diario"
+        },
+        {
+          "letter": "B",
+          "text": "Metilfenidato"
+        },
+        {
+          "letter": "C",
+          "text": "Terapia cognitivo-conductual"
+        },
+        {
+          "letter": "D",
+          "text": "Risperidona"
+        },
+        {
+          "letter": "E",
+          "text": "Propranolol"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Preocupación excesiva y generalizada, de más de 6 meses, con síntomas somáticos (dolor abdominal, cefalea, insomnio), corresponde a trastorno de ansiedad generalizada. En niños, el tratamiento de primera línea es la terapia cognitivo-conductual, incluyendo a la familia; si es moderado a grave o no responde, se agrega un ISRS. Las benzodiacepinas no se recomiendan de mantención en niños.",
+      "say": {
+        "stem": "Un niño de diez años se preocupa en exceso hace ocho meses por el colegio, la salud de sus padres y el futuro, con dolor abdominal, cefalea e insomnio, y estudio médico normal.",
+        "question": "¿Cuál es el tratamiento de primera línea?",
+        "options": "Las opciones: clonazepam, metilfenidato, terapia cognitivo conductual, risperidona o propranolol. Piénsalo.",
+        "answer": "Es la C. Es un trastorno de ansiedad generalizada y en niños se trata primero con terapia cognitivo conductual. El clonazepam tienta porque alivia la ansiedad rápido, pero no se recomienda de mantención en niños por dependencia y efectos adversos."
+      }
     },
 
     {

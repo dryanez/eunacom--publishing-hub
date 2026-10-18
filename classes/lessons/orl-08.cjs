@@ -46,6 +46,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La frente decide',
+      images: [
+        { src: 'animaciones/orl-08/A1_facial_central_vs_periferica.mp4', label: 'Parálisis facial central y periférica', credit: 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Central: la frente se salva; periférica: cae todo el hemirrostro',
+          say: 'Mira el núcleo facial: la parte que mueve la frente recibe fibras de los dos hemisferios, y la que mueve la boca, solo del hemisferio contrario. Si el infarto o la hemorragia daña un hemisferio, cae la mitad inferior de la cara, pero la frente se salva. En cambio, si se lesiona el nervio facial, cae todo el hemirrostro: la frente, el ojo y la boca. Siempre proteges la córnea.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Parálisis periférica',
       title: 'Cómo se reconoce',
@@ -54,9 +68,11 @@ module.exports = {
           { t: 'No arruga la frente', d: 'Borramiento de arrugas y de la ceja',
             say: 'El paciente con parálisis periférica no puede arrugar la frente ni levantar la ceja del lado afectado. Ese es el dato que la separa de la central.' },
           { t: 'Lagoftalmos y signo de Bell', d: 'El ojo sube y afuera al intentar cerrar',
-            say: 'No logra cerrar el ojo. Y al intentarlo, el globo ocular se desvía hacia arriba y afuera. Ese movimiento se llama signo de Bell.' },
+            say: 'No logra cerrar el ojo. Y al intentarlo, el globo ocular se desvía hacia arriba y afuera. Ese movimiento se llama signo de Bell. Mira esta paciente con una parálisis de Bell derecha: la comisura se desvía y el ojo no logra cerrarse, es el lagoftalmos.',
+            photo: { src: 'biblioteca/17_otorrino/orl-08/03_paralisis-facial-periferica-bell__amir-orl_p29.jpg', label: 'Bell derecha: lagoftalmos', at: 'Mira esta paciente', credit: 'Manual AMIR Otorrinolaringología, p. 29' } },
           { t: 'Cae la comisura bucal', d: 'Se escapan los líquidos',
-            say: 'Además cae la comisura de la boca, y por ahí se le escapan los líquidos al tomar.' },
+            say: 'Además cae la comisura de la boca, y por ahí se le escapan los líquidos al tomar. Mira la comisura al sonreír: de un lado se eleva, del otro no.',
+            photo: { src: 'biblioteca/17_otorrino/orl-08/01_asimetria-facial-al-sonreir__bailey-love_p736.jpg', label: 'Comisura que no se eleva', at: 'Mira la comisura al sonreír', credit: 'Bailey & Love 27.ª ed., Fig. 46.30a' } },
         ] },
         { title: 'Por qué importa', tag: 'Peligro para la córnea', kind: 'alert', items: [
           { t: 'Sin parpadeo, el ojo se seca', d: 'Queratitis por exposición',
@@ -96,7 +112,8 @@ module.exports = {
           { t: 'Reactivación en el ganglio geniculado', d: 'Segunda causa de periférica',
             say: 'El síndrome de Ramsay Hunt es la segunda causa de parálisis periférica. Es el virus varicela-zóster, que estaba latente en el ganglio geniculado del nervio facial, y se reactiva.' },
           { t: 'Parálisis, otalgia y vesículas', d: 'En concha, conducto o tímpano',
-            say: 'La tríada es una parálisis facial periférica severa, un dolor de oído intenso y quemante, y vesículas herpéticas dolorosas en la concha, el conducto auditivo externo o la membrana timpánica. A veces también en el paladar blando.' },
+            say: 'La tríada es una parálisis facial periférica severa, un dolor de oído intenso y quemante, y vesículas herpéticas dolorosas en la concha, el conducto auditivo externo o la membrana timpánica. A veces también en el paladar blando. Mira esta oreja: lesiones vesiculares y costrosas dentro de la concha. Si ves esto junto a una parálisis periférica, no es Bell, y cambia el tratamiento.',
+            photo: { src: 'biblioteca/17_otorrino/orl-08/02_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg', label: 'Vesículas en la concha', at: 'Mira esta oreja', credit: 'Bailey & Love 27.ª ed., Fig. 46.30b' } },
           { t: 'Puede afectar el VIII par', d: 'Hipoacusia y vértigo',
             say: 'Como el octavo par está pegado al facial, puede haber hipoacusia sensorioneural y vértigo. Conecta con la clase anterior: ante un vértigo con parálisis facial, mira la oreja.' },
         ] },
@@ -112,22 +129,27 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Ramsay Hunt: la cara y la oreja',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-08/01_asimetria-facial-al-sonreir__bailey-love_p736.jpg', label: 'Parálisis facial por herpes zóster: la comisura de un lado no se eleva', credit: 'Bailey & Love 27.ª ed., Fig. 46.30a' },
-        { src: 'biblioteca/17_otorrino/orl-08/03_paralisis-facial-periferica-bell__amir-orl_p29.jpg', label: 'Parálisis de Bell derecha: comisura desviada y lagoftalmos', credit: 'Manual AMIR Otorrinolaringología, p. 29' },
-        { src: 'biblioteca/17_otorrino/orl-08/02_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg', label: 'Ramsay Hunt: vesículas y costras en la concha', credit: 'Bailey & Love 27.ª ed., Fig. 46.30b' },
-      ],
-      steps: [
-        { note: 'Primero, la cara en movimiento',
-          say: 'Mira la comisura bucal al sonreír: de un lado se eleva, del otro no. Pero la foto sola no te dice si es central o periférica. Para eso tienes que pedirle al paciente que arrugue la frente y cierre los ojos con fuerza.' },
-        { note: 'Bell: lagoftalmos',
-          say: 'Y esta es una parálisis de Bell derecha, la causa más común de parálisis periférica. La comisura se desvía y el ojo de ese lado no logra cerrarse: es el lagoftalmos.' },
-        { note: 'Después, la oreja',
-          say: 'Esta es la oreja de un síndrome de Ramsay Hunt. Fíjate en las lesiones costrosas y vesiculares dentro de la concha, que llegan hacia el conducto. Si ves esto junto a una parálisis facial periférica, el diagnóstico está hecho: no es Bell, y cambia el tratamiento.' },
+      type: 'points',
+      kicker: 'Herpes zóster',
+      title: 'Herpes zóster: tratamiento y complicaciones',
+      cards: [
+        { title: 'Cómo se reconoce', tag: 'Un dermatoma', kind: 'key', items: [
+          { t: 'Vesículas agrupadas en un dermatoma', d: 'Dolor previo; no cruza la línea media',
+            say: 'El zóster es la reactivación del virus varicela-zóster, que estaba latente en un ganglio sensitivo. Primero hay dolor o parestesias, y después aparecen vesículas agrupadas sobre una base roja, en un dermatoma de un solo lado que no cruza la línea media. Mira este dermatoma lumbar. El Ramsay Hunt es su forma en el ganglio geniculado.',
+            photo: { src: 'biblioteca/17_otorrino/orl-08/04_herpes-zoster-dermatoma__nelson_p2565.jpg', label: 'Zóster en un dermatoma', at: 'Mira este dermatoma lumbar', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 2565' } },
+        ] },
+        { title: 'Tratamiento', tag: 'Antiviral y analgesia', kind: 'pharma', items: [
+          { t: 'Aciclovir o valaciclovir por 7 días', d: 'Ojalá en las primeras 72 horas',
+            say: 'El tratamiento es aciclovir ochocientos miligramos cinco veces al día, o valaciclovir un gramo cada ocho horas, por siete días, ojalá dentro de las primeras setenta y dos horas, aunque sirve mientras sigan saliendo lesiones nuevas. Más analgesia escalonada y cuidado de las lesiones.' },
+          { t: 'Endovenoso si es grave', d: 'Inmunosuprimidos con compromiso extenso',
+            say: 'En un inmunosuprimido con compromiso extenso o diseminado se usa aciclovir endovenoso. Y recuerda que las vesículas contagian varicela a quien no la ha tenido, hasta que se hacen costra.' },
+        ] },
+        { title: 'Complicaciones', tag: 'Lo que se pregunta', kind: 'alert', items: [
+          { t: 'Zóster oftálmico: signo de Hutchinson', d: 'Vesículas en la punta de la nariz: urgencia a oftalmología',
+            say: 'Si el zóster compromete la primera rama del trigémino, y hay vesículas en la punta de la nariz, el signo de Hutchinson, el ojo está en riesgo: derivas de urgencia a oftalmología.' },
+          { t: 'Neuralgia posherpética', d: 'Dolor más de 3 meses; sobre todo mayores de 60',
+            say: 'La complicación más frecuente es la neuralgia posherpética: dolor que persiste más de tres meses, sobre todo en mayores de sesenta años. Se trata con gabapentina o pregabalina, amitriptilina o parches de lidocaína. Y la vacuna recombinante está recomendada desde los cincuenta años.' },
+        ] },
       ],
     },
 
@@ -222,6 +244,44 @@ module.exports = {
         options: 'Las opciones: gotas de ciprofloxacino, valaciclovir con prednisona y protección ocular, cefazolina endovenosa, carbamazepina, o drenaje de las vesículas. Piénsalo.',
         answer: 'Es la B. Dolor de oído, parálisis periférica y vesículas: es un Ramsay Hunt, un herpes zóster ótico. Necesita valaciclovir más prednisona, y protección ocular. Las gotas antibióticas y la cefazolina tratan bacterias, y las vesículas nunca se drenan.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 5",
+      "stem": "Una mujer de 64 años consulta por dolor intercostal intenso de 3 semanas de evolución, que fue antecedido por la aparición de lesiones vesiculares en esa zona. En el examen físico se observa curación de las lesiones, algunas de las cuales dejaron cicatrices, sin otras alteraciones.",
+      "question": "¿Cuál es el tratamiento de elección para el manejo del dolor?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pregabalina"
+        },
+        {
+          "letter": "B",
+          "text": "Galantamina"
+        },
+        {
+          "letter": "C",
+          "text": "Amitriptilina"
+        },
+        {
+          "letter": "D",
+          "text": "Carbamazepina"
+        },
+        {
+          "letter": "E",
+          "text": "Fluoxetina"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Dolor persistente en un dermatomo tras un herpes zóster ya cicatrizado es una neuralgia postherpética. El tratamiento de primera línea es pregabalina o gabapentina; la amitriptilina y la carbamazepina, antes de primera línea, hoy son de segunda línea.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Mujer de sesenta y cuatro años con tres semanas de dolor intercostal intenso, que empezó con vesículas en esa zona. Hoy las lesiones ya curaron, algunas con cicatriz.",
+        "question": "¿Cuál es el tratamiento de elección para el dolor?",
+        "options": "Las opciones: pregabalina, galantamina, amitriptilina, carbamazepina, o fluoxetina. Piénsalo.",
+        "answer": "Es la A. Es una neuralgia postherpética, y la primera línea hoy son la pregabalina o la gabapentina. La amitriptilina tienta porque fue el clásico, pero hoy es de segunda línea por sus efectos anticolinérgicos, sobre todo en adultos mayores."
+      }
     },
 
     {

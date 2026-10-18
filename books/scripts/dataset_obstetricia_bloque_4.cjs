@@ -1019,6 +1019,23 @@ const rawClasses = [
           "  - <strong>Desaceleraciones Variables (DIP III):</strong> Descenso brusco (< 30 s hasta el nadir) con forma en 'V' o en 'W', asimétricas y sin relación fija con la contracción. Fisiopatología: <strong>Compresión transitoria del cordón umbilical</strong> (circulares, oligohidramnios). Son severas si duran > 60 s o bajan a < 70 lpm.",
           "  - <strong>Patrón Sinusoidal:</strong> Ondulación regular suave y oscilatoria sin aceleraciones. Patognomónico de <strong>Anemia Fetal Severa</strong> (isoinmunización Rh, rotura de vasa previa, fetopatía)."
         ]
+      },
+{
+        "subhead": "4. Presentaciones Fetales Anómalas: Podálica y Situación Transversa",
+        "paragraphs": [
+          "• <b>Definición y Frecuencia:</b> Se habla de presentación anómala cuando el polo que se ofrece al estrecho superior no es la cabeza flexionada. La <b>presentación podálica</b> ocurre en 3-4% de los embarazos de término y puede ser de nalgas puras (la más frecuente), completa o incompleta (con uno o ambos pies primero). La <b>situación transversa u oblicua</b> (eje fetal perpendicular al materno) es menos frecuente y se ve sobre todo en multíparas. También son anómalas la presentación de cara y de frente.",
+          "• <b>Factores Asociados:</b> Prematuridad (la podálica es más frecuente antes de las 32 semanas), polihidramnios u oligohidramnios, multiparidad, <b>placenta previa</b>, miomas o malformaciones uterinas, embarazo múltiple y malformaciones fetales (hidrocefalia, anencefalia).",
+          "• <b>Sospecha Clínica y Confirmación:</b> En la podálica la altura uterina es normal, el polo duro, redondo y balotable se palpa en el fondo (Leopold) y los latidos se auscultan sobre el ombligo; al tacto se palpan el sacro, las tuberosidades isquiáticas o los pies. En la transversa el útero es más ancho que alto, el fondo está vacío y la cabeza se palpa en un flanco. La <b>ecografía</b> confirma la presentación y descarta placenta previa, malformaciones y anomalías del útero.",
+          "• <b>Conducta Inicial:</b> A las <b>36-37 semanas</b> se ofrece la <b>versión externa cefálica</b> (éxito de 50-60%), con monitorización fetal, ecografía previa y tocolisis, si no hay contraindicaciones (placenta previa, rotura de membranas, oligohidramnios, sangrado, cicatriz uterina o embarazo múltiple); se administra anti-D a la Rh negativa. Si persiste la presentación anómala se programa <b>cesárea electiva a las 39 semanas</b>; el parto vaginal podálico solo se intenta en un centro con equipo entrenado y criterios estrictos. La <b>situación transversa en trabajo de parto no puede resolverse por vía vaginal: cesárea</b>, por el riesgo de prolapso de cordón y rotura uterina. En el trabajo de parto con rotura de membranas y presentación no encajada, el prolapso de cordón se resuelve con cesárea inmediata."
+        ]
+      },
+{
+        "subhead": "5. Prueba de Trabajo de Parto",
+        "paragraphs": [
+          "• <b>Definición y Objetivo (procedimiento: realizar):</b> Es la observación controlada de un trabajo de parto con feto cefálico en una paciente cuya vía de parto es dudosa, para decidir entre parto vaginal y cesárea según la <b>progresión de la dilatación y del descenso</b>. Se usa en la sospecha de desproporción céfalo-pélvica leve (pelvis límite, feto grande), en el trabajo de parto tras una cesárea segmentaria previa y en la primípara añosa con feto de peso límite.",
+          "• <b>Condiciones para Realizarla:</b> Feto único, cefálico y vivo, sin signos de hipoxia, <b>dinámica uterina adecuada</b> (3-5 contracciones en 10 minutos, con oxitocina si es insuficiente), rotura artificial de membranas si están íntegras y la paciente en fase activa (5 cm o más), con <b>monitorización cardiofetal continua</b>, analgesia y quirófano disponible.",
+          "• <b>Interpretación:</b> Se considera exitosa cuando hay progreso: dilatación de al menos 1 cm por hora y descenso de la presentación. Es una <b>prueba fracasada</b> y se indica cesárea si hay detención de la dilatación por 2 horas o más con dinámica adecuada (o 4 horas con dinámica inadecuada, o 6 horas con oxitocina), detención del descenso, signos de sufrimiento fetal o de rotura uterina inminente. No se realiza si hay desproporción evidente, placenta previa, presentación anómala o cicatriz uterina corporal."
+        ]
       }
     ],
     "table": {
@@ -1356,6 +1373,15 @@ const rawClasses = [
           "  - Administrar relajantes miometriales si es necesario (anestesia general inhalatoria o nitroglicerina).",
           "  - <strong>Reposición Manual Inmediata (Maniobra de Johnson):</strong> El operador empuja el fondo uterino con la palma de la mano hacia arriba a través del canal cervical hacia la cavidad abdominal.",
           "  - Una vez restituido el útero, se inician uterotónicos a altas dosis (oxitocina) para mantenerlo contraído y evitar que vuelva a invertirse."
+        ]
+      },
+{
+        "subhead": "5. Hemorragia Genital Aguda No Gestacional: Metrorragia Disfuncional y Cervicorragia por Cáncer",
+        "paragraphs": [
+          "• <b>Concepto y Primer Paso:</b> Fuera del puerperio, la hemorragia genital aguda se evalúa primero con los <b>signos vitales</b> (taquicardia, hipotensión, ortostatismo) y se <b>descarta embarazo</b> con β-hCG en toda mujer en edad fértil (aborto, ectópico, mola). Luego se hace un examen con espéculo para ubicar el origen del sangrado (cavidad uterina, cuello, vagina o vulva) y se piden hemograma, grupo sanguíneo, pruebas de coagulación y ecografía transvaginal.",
+          "• <b>Causas Principales:</b> <b>Metrorragia disfuncional</b> (sangrado uterino anormal por anovulación: adolescentes y perimenopausia, síndrome de ovario poliquístico), pólipos y miomas, hiperplasia o cáncer de endometrio (sobre todo en la posmenopausia), coagulopatías, DIU y fármacos anticoagulantes, y <b>cervicorragia por cáncer cervicouterino</b>: sangrado poscoital o intermenstrual, cuello con tumor friable, exofítico o ulcerado, que sangra al contacto.",
+          "• <b>Manejo Inicial de la Metrorragia Disfuncional Aguda:</b> En la paciente inestable, vía venosa, reposición de volumen y hospitalización. Hemostasia médica: <b>ácido tranexámico 1 g cada 8 horas</b> por 3-5 días, <b>anticonceptivo oral combinado cada 8 horas</b> por 7 días y luego uno al día (si no hay contraindicación a estrógenos), o un progestágeno oral (acetato de medroxiprogesterona o noretisterona) por 10 días. Si fracasa o hay inestabilidad: legrado uterino o histeroscopía. Se trata la anemia con hierro.",
+          "• <b>Cervicorragia por Cáncer:</b> Ante un cuello sospechoso se toma <b>biopsia</b> (o Papanicolaou y colposcopía) y se deriva con urgencia a la Unidad de Patología Cervical, porque el cáncer cervicouterino tiene garantía GES. La hemorragia activa se contiene con taponamiento vaginal compresivo con gasas y hemostáticos, reposición de volumen y, en el centro especializado, radioterapia hemostática. En posmenopáusicas el sangrado siempre exige descartar cáncer de endometrio con ecografía y biopsia endometrial."
         ]
       }
     ],

@@ -1,0 +1,158 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Dermatología, clases nuevas.
+//   ?v=hemangioma  derma-17 A1: historia natural del hemangioma infantil frente a la malformación vascular (gráfico solo de código,
+//                  con los tiempos del libro: aparece semanas después, prolifera 3-5 meses, involuciona; la malformación está al nacer y no involuciona)
+//   ?v=loxosceles  derma-18 A1: toxina → trombosis microvascular → placa livedoide → escara → úlcera, sobre Blausen "Skin" (derma_piel.png, 1344x1114)
+const V = new URLSearchParams(location.search).get('v') || 'hemangioma';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+
+// ====================== derma-17: hemangioma vs malformación ======================
+const GX = 90, GW = 660, GY = 150, GH = 340, GB = GY + GH;
+const ax = age => GX + GW * Math.sqrt(age / 10);
+const ay = v => GB - GH * v;
+const smooth = k => k * k * (3 - 2 * k);
+function hem(age) {
+  if (age < 0.04) return 0.03;
+  if (age < 0.417) { const u = (age - 0.04) / 0.377; return 0.03 + 0.97 * (1 - Math.pow(1 - u, 2)); }
+  if (age < 1) return 1;
+  return Math.max(0.05, Math.exp(-Math.pow((age - 1) / 4.5, 1.2)));
+}
+function mal(age) { return 0.18 + 0.5 * (1 - Math.exp(-age / 4)); }
+function curve(f, a0, a1, col, w, dash, t0, dur, t) {
+  const k = clamp((t - t0) / dur, 0, 1); if (k <= 0) return;
+  const amax = lerp(a0, a1, k); ctx.save(); ctx.strokeStyle = col; ctx.lineWidth = w; ctx.lineJoin = 'round'; ctx.lineCap = 'round'; if (dash) ctx.setLineDash([12, 8]);
+  ctx.beginPath(); for (let i = 0; i <= 160; i++) { const a = lerp(a0, amax, i / 160), X = ax(a), Y = ay(f(a)); i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); } ctx.stroke(); ctx.restore();
+}
+function hemangioma(t) {
+  K.title('Hemangioma frente a malformación vascular', 'Dos historias naturales distintas', C.RED);
+  const aa = seg(t, 0.3, 0.8);
+  ctx.save(); ctx.globalAlpha = aa;
+  ctx.strokeStyle = '#3A4350'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(GX, GY - 10); ctx.lineTo(GX, GB); ctx.lineTo(GX + GW + 14, GB); ctx.stroke();
+  text('Tamaño de la lesión (esquema)', GX + 6, GY - 20, 17, C.MUTED);
+  [[0, 'Nacimiento'], [0.06, '3 sem'], [0.417, '5 meses'], [1, '1 año'], [5, '5 años'], [7, '7 años'], [10, '10 años']].forEach(([a, l], i) => {
+    const X = ax(a); ctx.strokeStyle = '#3A4350'; ctx.beginPath(); ctx.moveTo(X, GB); ctx.lineTo(X, GB + 8); ctx.stroke();
+    const dy = (i === 1 ? 26 : i === 0 ? 26 : 26); text(l, X, GB + dy + (i % 2 === 1 && a < 1 ? 20 : 0), 16, C.MUTED, '', i === 0 ? 'left' : 'center'); });
+  ctx.restore();
+  // fases (fondo)
+  const ph = fade(t, 3.2, 14.5, 0.6);
+  if (ph > 0) { ctx.save(); ctx.globalAlpha = 0.10 * ph;
+    ctx.fillStyle = C.RED; ctx.fillRect(ax(0.06), GY, ax(0.417) - ax(0.06), GH);
+    ctx.fillStyle = C.AMBER; ctx.fillRect(ax(0.417), GY, ax(1) - ax(0.417), GH);
+    ctx.fillStyle = C.GREEN; ctx.fillRect(ax(1), GY, ax(10) - ax(1), GH); ctx.restore(); }
+  // hemangioma
+  curve(hem, 0, 10, C.RED, 5, false, 2.2, 12, t);
+  const hx = k => k;
+  if (t > 2.6) label('No está al nacer: mácula pálida', ax(0) + 20, GB - 64, C.RED, fade(t, 2.6, 7));
+  if (t > 4) label('Prolifera 3-5 meses', ax(0.22), GY + 14, C.RED, fade(t, 4.4, 9));
+  if (t > 6.4) label('Meseta', ax(0.7), GY + 14, C.AMBER, fade(t, 7, 11.5));
+  if (t > 9) label('Involución lenta, durante años', ax(3.2), GY + 36, C.GREEN, fade(t, 9.6, 20));
+  if (t > 10.6) { vline(5, '~50% involucionó', C.GREEN, fade(t, 10.6, 20)); }
+  if (t > 12.6) { vline(7, '~70% involucionó', C.GREEN, fade(t, 12.6, 20)); }
+  // malformación
+  curve(mal, 0, 10, C.VIOLET, 5, true, 15.2, 6, t);
+  if (t > 15.4) label('Está al nacer', ax(0) + 22, ay(0.18) - 30, C.VIOLET, fade(t, 15.4, 24));
+  if (t > 18.4) label('Crece con el niño y nunca involuciona', ax(4.2), ay(mal(4.2)) - 26, C.VIOLET, fade(t, 18.4, 28));
+  // paneles
+  K.card(790, 140, 450, 190, C.RED, 'Hemangioma infantil', ['Aparece semanas después del parto', 'GLUT-1 positivo: un tumor vascular', 'Observar; propranolol si hay riesgo funcional', '(ideal antes de los 5 meses) · ≥ 5: eco abdominal'], seg(t, 22, 0.5), 17);
+  K.card(790, 346, 450, 190, C.VIOLET, 'Malformación vascular', ['Presente desde el nacimiento', 'GLUT-1 negativa: un error del vaso', 'Vino de Oporto: láser (derivar)', 'En V1 (frente y párpado superior): Sturge-Weber'], seg(t, 24, 0.5), 17);
+  K.banner(790, 556, 450, 'Presente al nacer y no se va: malformación', C.AMBER, seg(t, 26.5, 0.5));
+}
+function label(s, x, y, col, a) { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; tag(s, clamp(x + 100, 150, 700), y, col, 16); ctx.restore(); }
+function vline(age, s, col, a) {
+  if (a <= 0) return; const X = ax(age); ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.setLineDash([6, 6]);
+  ctx.beginPath(); ctx.moveTo(X, GY + 54); ctx.lineTo(X, GB); ctx.stroke(); ctx.setLineDash([]); tag(s, X, GY + 64 + (age === 7 ? 34 : 0), col, 15); ctx.restore();
+}
+
+// ====================== derma-18: loxoscelismo ======================
+const SRC = { x: 50, y: 290, w: 580, h: 830 }, DSTL = { x: 36, y: 126 }, SL = 0.66;
+DSTL.w = SRC.w * SL; DSTL.h = SRC.h * SL;
+const PL = (x, y) => [DSTL.x + (x - SRC.x) * SL, DSTL.y + (y - SRC.y) * SL];
+const BITE = [262, 330];
+const THROMBI = [[258, 523], [120, 545], [165, 595], [327, 548], [205, 640], [365, 700]];
+const ZONE = [[118, 338], [300, 322], [500, 306], [562, 330], [562, 470], [545, 520], [300, 545], [130, 525], [100, 470]];
+const zonePath = (dy = 0) => { ctx.beginPath(); ZONE.forEach((p, i) => { const [x, y] = PL(p[0], p[1] + dy); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.closePath(); };
+function laminaL(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DSTL.x - 6, DSTL.y - 6, DSTL.w + 12, DSTL.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DSTL.x, DSTL.y, DSTL.w, DSTL.h, 14); ctx.clip();
+  ctx.drawImage(I('piel'), SRC.x, SRC.y, SRC.w, SRC.h, DSTL.x, DSTL.y, DSTL.w, DSTL.h); ctx.restore();
+}
+function clipL() { ctx.beginPath(); ctx.roundRect(DSTL.x, DSTL.y, DSTL.w, DSTL.h, 14); ctx.clip(); }
+function labelL(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill(); tag(s, x, y, col, size); ctx.restore();
+}
+function loxosceles(t) {
+  K.title('Loxoscelismo: de la mordedura a la escara', 'La toxina tapa los vasos y la piel se necrosa', C.RED);
+  laminaL(seg(t, 0, 0.7));
+  const [bx, by] = PL(...BITE);
+  // mordedura
+  const bite = seg(t, 1.2, 0.5);
+  if (bite > 0) { ctx.save(); clipL(); ctx.globalAlpha = bite; ctx.fillStyle = '#7A1020';
+    for (const dx of [-6, 6]) { ctx.beginPath(); ctx.arc(bx + dx, by + 6, 2.4, 0, 7); ctx.fill(); } ctx.restore(); }
+  labelL('Mordedura: casi indolora', 330, 160, C.AMBER, bx, by + 4, fade(t, 1.3, 4.2));
+  // veneno: gotas verdes que bajan por la dermis
+  const vA = seg(t, 1.8, 0.6) * (1 - seg(t, 8, 1.6));
+  if (vA > 0) { ctx.save(); clipL(); for (let i = 0; i < 18; i++) {
+      const u = clamp((t - 1.8 - i * 0.07) / 2.6, 0, 1); if (u <= 0) continue;
+      const tx = BITE[0] + (rnd(i * 3) - 0.5) * 300, ty = 470 + rnd(i * 5 + 1) * 190, [x0, y0] = PL(...BITE), [x1, y1] = PL(tx, ty);
+      const e = ease(u); const x = lerp(x0, x1, e), y = lerp(y0, y1, e);
+      ctx.globalAlpha = vA * 0.9; ctx.fillStyle = '#7CFF6B'; ctx.beginPath(); ctx.arc(x, y, 3.4, 0, 7); ctx.fill(); }
+    ctx.restore(); }
+  labelL('Esfingomielinasa D', 330, 215, '#7CFF6B', ...PL(300, 520), fade(t, 2.6, 8));
+  // trombos en los vasos de la dermis
+  THROMBI.forEach(([x, y], i) => {
+    const a = ease(seg(t, 4.4 + i * 0.42, 0.7)); if (a <= 0) return; const [cx, cy] = PL(x, y);
+    ctx.save(); clipL(); K.glow(cx, cy, 22 * a, '110,20,70', 0.65 * a); ctx.globalAlpha = a; ctx.fillStyle = '#4A1030'; ctx.strokeStyle = '#220818'; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.ellipse(cx, cy, 7.5 * a, 5.5 * a, 0.5, 0, 7); ctx.fill(); ctx.stroke(); ctx.restore(); });
+  labelL('Trombosis microvascular', 330, 520, '#C79BFF', ...PL(327, 548), fade(t, 5.4, 12));
+  // isquemia: pálida → violácea (placa livedoide)
+  const pale = ease(seg(t, 8, 2)), liv = ease(seg(t, 10, 2.5)), esc = ease(seg(t, 12.6, 2.6)), lift = ease(seg(t, 17, 2.4));
+  ctx.save(); clipL();
+  if (pale > 0) { zonePath(); ctx.fillStyle = `rgba(250,240,245,${0.55 * pale * (1 - liv * 0.5)})`; ctx.fill(); }
+  if (liv > 0) { zonePath(); ctx.fillStyle = `rgba(112,52,150,${0.5 * liv * (1 - esc * 0.6)})`; ctx.fill();
+    for (let i = 0; i < 9; i++) { const [px, py] = PL(130 + rnd(i * 7) * 400, 345 + rnd(i * 9 + 2) * 150); K.glow(px, py, 26, '245,235,240', 0.28 * liv * (1 - esc)); } }
+  // escara negra en la superficie (se levanta y se desprende)
+  if (esc > 0) { ctx.save(); ctx.translate(0, -lift * 34); ctx.globalAlpha = (1 - lift) ; zonePath(-0); ctx.clip();
+    const [x0, y0] = PL(100, 300), [x1, y1] = PL(580, 395); ctx.fillStyle = `rgba(28,18,18,${0.94 * esc})`; ctx.fillRect(x0, y0, (x1 - x0) * esc, y1 - y0); ctx.restore(); }
+  // úlcera de fondo fibrinoso
+  if (lift > 0) { zonePath(); ctx.fillStyle = `rgba(205,76,80,${0.55 * lift})`; ctx.fill();
+    for (let i = 0; i < 8; i++) { const [px, py] = PL(160 + rnd(i * 4) * 330, 350 + rnd(i * 6 + 3) * 110); K.glow(px, py, 20, '240,220,120', 0.5 * lift); } }
+  ctx.restore();
+  labelL('Placa livedoide: pálida y violácea', 330, 578, '#C79BFF', ...PL(300, 430), fade(t, 10.4, 13.4));
+  labelL('Escara negra', 330, 578, '#E8E8E8', ...PL(300, 340), fade(t, 13.4, 17.4));
+  labelL('Úlcera de cicatrización lenta', 330, 578, '#F7C531', ...PL(300, 430), seg(t, 19.4, 0.5));
+  // línea de tiempo (panel)
+  const TL = [['2-8 h', 'Dolor y eritema', 7.2], ['6-12 h', 'Placa livedoide', 10.4], ['24-72 h', 'Se extiende hacia abajo', 12.4], ['7-14 días', 'Escara demarcada', 15], ['Semanas', 'Úlcera lenta', 19.4]];
+  const px = 470, pw = 770;
+  ctx.save(); ctx.globalAlpha = seg(t, 5, 0.6); rrect(px, 132, pw, 150, 16, '#161B22'); text('Forma cutánea (80-90%)', px + 22, 166, 21, C.AMBER, 'bold');
+  ctx.strokeStyle = '#3A4350'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(px + 40, 214); ctx.lineTo(px + pw - 40, 214); ctx.stroke();
+  TL.forEach(([h, d, t0], i) => { const X = px + 80 + i * ((pw - 160) / 4), on = t >= t0 - 0.3, cur = on && (i === TL.length - 1 || t < TL[i + 1][2] - 0.3);
+    ctx.fillStyle = on ? (cur ? C.RED : '#8A5A5A') : '#2A2F38'; ctx.beginPath(); ctx.arc(X, 214, cur ? 11 : 8, 0, 7); ctx.fill();
+    text(h, X, 196 - 0, 17, on ? C.INK : C.MUTED, 'bold', 'center'); text(d, X, 246, 15, on ? C.INK : C.MUTED, '', 'center'); });
+  ctx.restore();
+  K.card(px, 298, pw, 118, '#C79BFF', 'Mecanismo', ['La toxina activa complemento, neutrófilos y plaquetas', 'Daña el endotelio: trombosis microvascular y necrosis isquémica'], seg(t, 5.2, 0.5), 18);
+  K.card(px, 432, pw, 108, C.RED, 'Forma cutáneo-visceral (1-15%): primeras 6-72 horas', ['Fiebre, exantema, hemólisis (orina oscura), CID, falla renal', 'Hospitalizar · hidratación y corticoide EV · suero en 24-48 h'], seg(t, 21.5, 0.5), 18);
+  K.banner(px, 556, pw, 'No operar de entrada: frío local, y debridar la escara a las 2-4 semanas', C.GREEN, seg(t, 25.5, 0.5));
+}
+
+const CRED_G = 'Gráfico propio con los tiempos del libro';
+const CRED_B = 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios';
+const SCN = { hemangioma: { f: hemangioma, dur: 30, cred: CRED_G }, loxosceles: { f: loxosceles, dur: 30, cred: CRED_B } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t);
+  ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text(SCN[V].cred, 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD(V === 'loxosceles' ? { piel: '../assets/blausen/derma_piel.png' } : {});
+</script>
+</body></html>

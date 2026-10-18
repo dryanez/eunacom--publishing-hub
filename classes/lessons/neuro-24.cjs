@@ -65,13 +65,28 @@ module.exports = {
       ],
       steps: [
         { show: ['f1', 'ea', 'f2'], note: 'El error: tratar el efecto adverso con otro fármaco',
-          say: 'Ahora un concepto que se pregunta mucho: la cascada de prescripción. Un fármaco produce un efecto adverso, el médico lo interpreta como una enfermedad nueva, y agrega un segundo fármaco para tratar un síntoma que causó el primero.' },
+          say: 'Ahora un concepto que se pregunta mucho: la cascada de prescripción. Un fármaco produce un efecto adverso, el médico lo interpreta como una enfermedad nueva, y agrega un segundo fármaco para tratar un síntoma que causó el primero. Mira este esquema de la cascada.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-24/S1_cascada-prescripcion__propio.svg', label: 'Cascada de prescripción', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['aml', 'aine'], note: 'Ejemplos cardiovasculares',
           say: 'Los ejemplos clásicos. El amlodipino da edema de tobillos, y se indica furosemida. Un antiinflamatorio no esteroidal, un AINE, sube la presión, y se agrega otro antihipertensivo.' },
         { show: ['don'], note: 'El ejemplo favorito del examen',
           say: 'Y el favorito del examen: el donepecilo, que se usa en el Alzheimer, es colinérgico, así que produce diarrea e incontinencia de urgencia. Si se agrega oxibutinina, que es anticolinérgica, se contrarresta el propio tratamiento de la demencia y se arriesga un delirium.' },
         { show: ['ok'], note: 'La respuesta: reconocer el efecto adverso',
           say: 'La respuesta correcta siempre es la misma: reconocer el efecto adverso, y bajar la dosis o retirar el primer fármaco, en vez de agregar otro.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Una cascada, tres ejemplos',
+      images: [
+        { src: 'animaciones/neuro-24/A1_cascada.mp4', label: 'Cascada de prescripción', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Un fármaco trata el efecto de otro',
+          say: 'Mira cómo se arma la cascada. El donepecilo produce incontinencia y diarrea, se lee como una vejiga hiperactiva, y se agrega oxibutinina, que anula al donepecilo y favorece el delirium. El amlodipino da edema, y viene la furosemida con su hipopotasemia. Un antiinflamatorio sube la presión, y se suma otro antihipertensivo. En todos, la respuesta correcta es la misma: reconocer el efecto adverso y retirar o bajar el primer fármaco.' },
       ],
     },
 
@@ -163,20 +178,6 @@ module.exports = {
           { t: 'Rebose: anticolinérgicos prohibidos', d: 'Desobstruir o cateterismo limpio intermitente',
             say: 'Y en la de rebose, regla de oro: los anticolinérgicos están contraindicados, porque apagan lo poco que se contrae la vejiga y provocan un globo vesical. Si es obstructiva, tamsulosina o resección transuretral; si la vejiga no se contrae, cateterismo limpio intermitente.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'La cascada de prescripción',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-24/S1_cascada-prescripcion__propio.svg', label: 'Cascada de prescripción', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Un fármaco trata el efecto de otro',
-          say: 'Un efecto adverso se confunde con un síntoma nuevo y se trata con otro fármaco, que a su vez da otro efecto. Antes de agregar, pregunta qué fármaco empezó primero.' },
       ],
     },
 
@@ -365,6 +366,44 @@ module.exports = {
         options: 'Las opciones son: cirugía, sonda Foley, cateterismo intermitente, anticolinérgicos, o colinérgicos. Piénsalo.',
         answer: 'Es la C, cateterismo intermitente. Un residuo de setecientos cincuenta es rebose, y en una diabética mal controlada la causa es una vejiga que no se contrae por neuropatía. Se vacía con cateterismo limpio intermitente. La trampa es la D: los anticolinérgicos están prohibidos en el rebose, porque empeoran la retención.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.1.012 · Incontinencia urinaria",
+      "stem": "Mujer de 73 años, autovalente, consulta por 8 meses de pérdidas de orina precedidas de un deseo súbito e imperioso de orinar, que no alcanza a contener; orina cada 1 a 2 horas en pequeña cantidad y se levanta 3 veces en la noche. No pierde orina al toser. Examen ginecológico sin prolapso significativo, orina completa y urocultivo normales, residuo posmiccional de 40 mL.",
+      "question": "¿Cuál es el tratamiento inicial más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Oxibutinina oral"
+        },
+        {
+          "letter": "B",
+          "text": "Sonda Foley permanente"
+        },
+        {
+          "letter": "C",
+          "text": "Entrenamiento vesical con micción programada, ejercicios de piso pélvico y manejo de líquidos y cafeína"
+        },
+        {
+          "letter": "D",
+          "text": "Cirugía con cinta suburetral"
+        },
+        {
+          "letter": "E",
+          "text": "Uso de pañal como única medida"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Urgencia, frecuencia y nicturia con orina normal y residuo bajo: incontinencia de urgencia por vejiga hiperactiva. El tratamiento inicial es conductual: entrenamiento vesical, micción programada, ejercicios de piso pélvico y reducir cafeína y líquidos nocturnos. Si no basta, se prefiere mirabegrón, ya que la oxibutinina es anticolinérgica (Beers). La cinta es para incontinencia de esfuerzo.",
+      "say": {
+        "stem": "Una mujer de setenta y tres años pierde orina tras un deseo súbito e imperioso de orinar, orina muy seguido y se levanta tres veces en la noche. No pierde orina al toser, la orina es normal y el residuo es bajo.",
+        "question": "¿Cuál es el tratamiento inicial más adecuado?",
+        "options": "Las opciones: oxibutinina, sonda Foley permanente, entrenamiento vesical con micción programada y piso pélvico, cinta suburetral o pañal como única medida. Piénsalo.",
+        "answer": "Es la C. Es una incontinencia de urgencia, y se parte con medidas conductuales y entrenamiento vesical. La oxibutinina tienta porque trata la vejiga hiperactiva, pero es anticolinérgica y en la persona mayor favorece confusión, caídas y constipación."
+      }
     },
 
     {

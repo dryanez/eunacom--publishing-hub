@@ -80,7 +80,8 @@ module.exports = {
           { t: 'Alcalosis metabólica hipoclorémica', d: 'Con potasio bajo, por vomitar tanto ácido',
             say: 'Pierde tanto ácido clorhídrico al vomitar que desarrolla una alteración muy característica: alcalosis metabólica, con el cloro y el potasio bajos.' },
           { t: 'Ecografía abdominal confirma', d: 'Músculo engrosado y canal alargado',
-            say: 'Y el examen que confirma el diagnóstico es la ecografía abdominal, que muestra el músculo pilórico engrosado y el canal alargado. No necesitas nada más invasivo.' },
+            say: 'Y el examen que confirma el diagnóstico es la ecografía abdominal. Mira esta imagen: el músculo pilórico engrosado y el canal alargado. No necesitas nada más invasivo.',
+            photo: { src: 'biblioteca/15_pediatria/ped-12/01_eco-piloro__cto-pediatria_p65.jpg', label: 'Píloro engrosado', at: 'Mira esta imagen', credit: 'Manual CTO Pediatría 14.ª ed., p. 65' } },
         ] },
         { title: 'Tratamiento', tag: 'Orden que se pregunta siempre', kind: 'pharma', items: [
           { t: 'Primero corriges el electrolito', d: 'Nunca operes con la alcalosis sin corregir',
@@ -117,9 +118,11 @@ module.exports = {
         { show: ['vom'], note: 'Empiezan alimentarios, después con bilis',
           say: 'Los vómitos empiezan siendo de contenido alimentario, y después se vuelven biliosos, porque la obstrucción ya es mecánica y más distal.' },
         { show: ['jal'], note: 'Un signo tardío, no esperes verlo siempre',
-          say: 'La deposición en jalea de grosella, con sangre oscura y moco, es un signo tardío. No necesitas esperarla para sospechar: la tríada del dolor cólico y los vómitos ya te tiene que alertar antes.' },
+          say: 'La deposición en jalea de grosella, con sangre oscura y moco, es un signo tardío. No necesitas esperarla para sospechar: la tríada del dolor cólico y los vómitos ya te tiene que alertar antes. Mira este pañal: la deposición viene manchada con sangre.',
+          photo: { src: 'biblioteca/15_pediatria/ped-12/04_invaginacion-sangre-panal__knoop_p500.jpg', label: 'Sangre en el pañal', at: 'Mira este pañal', credit: 'The Atlas of Emergency Medicine (Knoop), p. 500' } },
         { show: ['eco'], note: 'Imagen en diana, en dona, o en pseudoriñón',
-          say: 'El examen de elección es la ecografía abdominal, que muestra la clásica imagen en diana. Con eso confirmas el diagnóstico y decides el tratamiento, que viene ahora.' },
+          say: 'El examen de elección es la ecografía abdominal, que muestra la clásica imagen en diana: en esta ecografía se ven los anillos concéntricos del intestino que se metió dentro de otro. Con eso confirmas el diagnóstico y decides el tratamiento, que viene ahora.',
+          photo: { src: 'biblioteca/15_pediatria/ped-12/02_invaginacion-eco__cto-pediatria_p70.jpg', label: 'Imagen en diana', at: 'en esta ecografía', credit: 'Manual CTO Pediatría 14.ª ed., p. 70' } },
       ],
     },
 
@@ -140,19 +143,79 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Abdomen agudo pediátrico',
+      title: 'La edad orienta la causa',
+      cards: [
+        { title: 'Recién nacido', tag: 'Obstrucción y necrosis', kind: 'alert', items: [
+          { t: 'Vólvulo, atresias, Hirschsprung', d: 'Enterocolitis necrotizante, íleo meconial',
+            say: 'Cuando el vómito bilioso o el dolor abdominal se vuelve un abdomen agudo, la edad orienta la causa. En el recién nacido piensa en enterocolitis necrotizante, atresias, malrotación con vólvulo, enfermedad de Hirschsprung e íleo meconial.' },
+        ] },
+        { title: 'Lactante', tag: 'Tres a doce meses', kind: 'criteria', items: [
+          { t: 'Invaginación y hernia atascada', d: 'También vólvulo',
+            say: 'En el lactante, la invaginación intestinal que ya vimos, la hernia inguinal estrangulada y el vólvulo.' },
+        ] },
+        { title: 'Preescolar a adolescente', tag: 'Aparece la apendicitis', kind: 'key', items: [
+          { t: 'Apendicitis aguda', d: 'La causa quirúrgica más frecuente',
+            say: 'En el preescolar y el escolar, lo más frecuente es la apendicitis aguda, que es la causa quirúrgica número uno. Se suman la adenitis mesentérica, el divertículo de Meckel, la peritonitis primaria del síndrome nefrótico y el trauma.' },
+          { t: 'Adolescente: torsión, EIP, ectópico', d: 'Además de apendicitis',
+            say: 'En el adolescente, además de la apendicitis, piensa en torsión testicular u ovárica, enfermedad inflamatoria pélvica y embarazo ectópico.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Abdomen agudo pediátrico',
+      title: 'Claves, exámenes y primer manejo',
+      cards: [
+        { title: 'Claves de la evaluación', tag: 'Qué buscas', kind: 'key', items: [
+          { t: 'Vómito bilioso: obstrucción', d: 'Derivación urgente',
+            say: 'Primero, las claves. El vómito bilioso es obstrucción intestinal, malrotación con vólvulo, hasta que se demuestre lo contrario, y exige derivar de urgencia.' },
+          { t: 'En apendicitis, el dolor va primero', d: 'Migra a la fosa ilíaca derecha; en gastroenteritis, al revés',
+            say: 'En la apendicitis, el dolor precede a los vómitos: parte en el epigastrio o alrededor del ombligo y migra a la fosa ilíaca derecha. En la gastroenteritis ocurre lo contrario, primero vomita. Buscas defensa, rebote y los signos de Rovsing, del psoas y del obturador; y en el niño pequeño, miras cómo camina y si le duele al saltar o toser.' },
+          { t: 'Siempre genitales e ingles', d: 'Para no perder una torsión o una hernia',
+            say: 'Y siempre examinas los genitales y las regiones inguinales, para no perder una torsión o una hernia.' },
+        ] },
+        { title: 'Exámenes', tag: 'Eco primero', kind: 'criteria', items: [
+          { t: 'Ecografía abdominal', d: 'Apéndice > 6 mm, no compresible; diana en invaginación',
+            say: 'Los exámenes: hemograma, proteína C reactiva y orina completa. La ecografía abdominal muestra, en la apendicitis, un apéndice no compresible de más de seis milímetros con grasa alrededor brillante, y en la invaginación, el signo de la diana.' },
+          { t: 'Radiografía y TAC', d: 'TAC solo si hay duda o trauma',
+            say: 'La radiografía de abdomen muestra niveles hidroaéreos, neumoperitoneo o la doble burbuja de la atresia duodenal. Mira esta radiografía de un recién nacido: dos burbujas de aire, el estómago y el duodeno dilatado. El TAC lo reservas para cuando hay duda o trauma.',
+            photo: { src: 'biblioteca/15_pediatria/ped-12/03_doble-burbuja-atresia-duodenal__bailey_p155.jpg', label: 'Doble burbuja', at: 'Mira esta radiografía', credit: "Bailey & Love's Short Practice of Surgery, 27.ª ed., Fig. 9.24" } },
+        ] },
+        { title: 'Manejo inicial', tag: 'Inicial y derivar', kind: 'pharma', items: [
+          { t: 'Ayuno, vía venosa, analgesia', d: 'La analgesia no enmascara el cuadro',
+            say: 'El manejo inicial es ayuno, vía venosa e hidratación, y analgesia, que no enmascara el cuadro. Si sospechas apendicitis complicada o peritonitis, agregas ceftriaxona más metronidazol, y derivas a cirugía infantil.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Una nota del Perfil',
+      title: 'Displasia broncopulmonar: sospecha y derivación',
+      cards: [
+        { title: 'El código repetido', tag: '2.01.1.046', kind: 'criteria', items: [
+          { t: 'Dependencia de oxígeno en el prematuro', d: 'A los 28 días y a las 36 semanas postmenstruales',
+            say: 'Una nota rápida: en el Perfil de la prueba, este mismo código aparece también para la displasia broncopulmonar. Es la dependencia de oxígeno a los veintiocho días de vida y a las treinta y seis semanas de edad postmenstrual, en el prematuro menor de treinta y dos semanas.' },
+          { t: 'Sospecha y deriva', d: 'Taquipnea y retracciones con oxígeno persistente',
+            say: 'Se sospecha en todo prematuro que sigue con oxígeno, taquipnea y retracciones, y tu conducta es derivar a neonatología o a broncopulmonar. El desarrollo completo está en la clase de dificultad respiratoria neonatal.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Vómitos en el lactante',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: "Píloro engrosado",
       images: [
-        { src: 'biblioteca/15_pediatria/ped-12/01_eco-piloro__cto-pediatria_p65.jpg', label: 'Estenosis del píloro', credit: 'Manual CTO Pediatría 14.ª ed., p. 65' },
-        { src: 'biblioteca/15_pediatria/ped-12/02_invaginacion-eco__cto-pediatria_p70.jpg', label: 'Invaginación', credit: 'Manual CTO Pediatría 14.ª ed., p. 70' },
+        { src: 'animaciones/ped-12/A1_estenosis_piloro.mp4', label: "Por qué vomita a chorro", credit: "Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios" },
       ],
       steps: [
-        { note: 'Píloro engrosado',
-          say: 'Vómitos explosivos no biliosos a las tres semanas: píloro engrosado en la ecografía.' },
-        { note: 'Imagen en diana',
-          say: 'Y la invaginación da una imagen en diana.' },
+        { note: "La leche no pasa",
+          say: "Mira el píloro de este estómago: el músculo engrosado cierra el canal. La leche llena el estómago, y las ondas peristálticas empujan contra una puerta cerrada. Entonces sale hacia arriba, en proyectil y sin bilis, y el lactante pide comer de nuevo con desesperación. Por perder tanto ácido queda con alcalosis metabólica hipoclorémica. Primero corriges el electrolito; después, la piloromiotomía de Ramstedt." },
       ],
     },
 
@@ -175,6 +238,10 @@ module.exports = {
           say: 'Invaginación intestinal: dolor cólico en crisis, y jalea de grosella como signo tardío. Ecografía para confirmar, y reducción neumática para tratarla.' },
         { cells: ['Vómito bilioso en el recién nacido', 'Vólvulo por malrotación hasta descartarlo', 'Cirugía de urgencia inmediata'],
           say: 'Y el vómito bilioso en el recién nacido: es un vólvulo por malrotación hasta que lo descartes, y va a cirugía de urgencia inmediata.' },
+        { cells: ['Apendicitis (escolar)', 'Dolor que migra a fosa ilíaca derecha y luego vómitos', 'Ecografía, ayuno, antibiótico si es complicada, cirugía'],
+          say: 'En el escolar con abdomen agudo, la apendicitis: el dolor migra a la fosa ilíaca derecha y los vómitos vienen después. Ecografía, ayuno, y cirugía; con ceftriaxona más metronidazol si está complicada.' },
+        { cells: ['Dolor abdominal agudo en cualquier niño', 'Examinar genitales e ingles', 'Descartar torsión y hernia'],
+          say: 'Y en cualquier niño con dolor abdominal agudo, siempre examinas los genitales y las ingles, para no perder una torsión o una hernia.' },
       ],
     },
 
@@ -248,6 +315,81 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.2.019 · Obstrucción intestinal",
+      "stem": "Recién nacido de 5 días, de término, que venía alimentándose bien, presenta bruscamente vómitos de color verde, irritabilidad y distensión abdominal leve. Eliminó meconio el primer día. Está taquicárdico y con llene capilar de 3 segundos.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cambiar a fórmula sin lactosa y control en 48 horas"
+        },
+        {
+          "letter": "B",
+          "text": "Indicar domperidona y posición semisentada"
+        },
+        {
+          "letter": "C",
+          "text": "Régimen cero, sonda nasogástrica, hidratación endovenosa y estudio urgente con tránsito intestinal y evaluación por cirugía"
+        },
+        {
+          "letter": "D",
+          "text": "Ecografía de píloro electiva"
+        },
+        {
+          "letter": "E",
+          "text": "Enema con suero fisiológico y alta"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Todo vómito bilioso en un recién nacido es una urgencia quirúrgica: hay que descartar un vólvulo por malrotación intestinal, que puede necrosar el intestino en horas. Se descomprime, se hidrata, se estudia de inmediato y va a cirugía. La estenosis del píloro no da vómito bilioso.",
+      "say": {
+        "stem": "Recién nacido de cinco días, de término, que se alimentaba bien, empieza bruscamente con vómitos verdes, irritabilidad y algo de distensión. Eliminó meconio el primer día. Está taquicárdico y con llene capilar de tres segundos.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: fórmula sin lactosa, domperidona con posición semisentada, régimen cero con sonda, suero y estudio urgente con cirugía, ecografía de píloro electiva, o enema y alta. Piénsalo.",
+        "answer": "Es la C. Un vómito verde en el recién nacido es un vólvulo por malrotación hasta que lo descartes, y se maneja como urgencia quirúrgica. La ecografía de píloro tienta porque son vómitos en un lactante pequeño, pero el píloro nunca da vómito bilioso."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.2.001 · Abdomen agudo",
+      "stem": "Lactante de 8 meses, previamente sano, con crisis de llanto intenso y encogimiento de piernas cada 15 a 20 minutos desde hace 8 horas; entre las crisis está pálido y decaído. Ha vomitado 3 veces y hace 1 hora tuvo una deposición con sangre y mucosidad. Se palpa una masa alargada en el hemiabdomen derecho.",
+      "question": "¿Cuál es el diagnóstico más probable y su manejo inicial?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Invaginación intestinal; ecografía abdominal y reducción con enema hidrostático o neumático"
+        },
+        {
+          "letter": "B",
+          "text": "Cólico del lactante; tranquilizar y control"
+        },
+        {
+          "letter": "C",
+          "text": "Diarrea disentérica; cotrimoxazol oral"
+        },
+        {
+          "letter": "D",
+          "text": "Estenosis hipertrófica del píloro; piloromiotomía"
+        },
+        {
+          "letter": "E",
+          "text": "Apendicitis aguda; apendicectomía sin estudio"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Crisis de dolor cólico intermitente con palidez entre episodios, vómitos, deposición en jalea de grosella y masa palpable entre los 3 y 24 meses es invaginación intestinal. La ecografía muestra la imagen en diana y, sin peritonitis ni perforación, se reduce con enema; si falla, cirugía.",
+      "say": {
+        "stem": "Lactante de ocho meses, sano, que desde hace ocho horas tiene crisis de llanto intenso encogiendo las piernas cada quince a veinte minutos, y entre las crisis se ve pálido y decaído. Vomitó tres veces, hace una hora hizo una deposición con sangre y mucosidad, y se palpa una masa alargada a la derecha.",
+        "question": "¿Cuál es el diagnóstico más probable y su manejo inicial?",
+        "options": "Las opciones: invaginación intestinal con ecografía y reducción con enema, cólico del lactante, diarrea disentérica con antibiótico, estenosis del píloro o apendicitis con cirugía directa. Piénsalo.",
+        "answer": "Es la A. Dolor cólico que va y viene, palidez entre crisis, deposición con sangre y una masa a esta edad es invaginación, y se confirma con ecografía y se reduce con enema. La diarrea disentérica tienta por la sangre, pero no da crisis de dolor con un niño pálido y una masa palpable."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -257,6 +399,8 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Todo vómito bilioso es una urgencia hasta que la descartes.' },
           { t: 'Proyectil y hambriento', d: 'Piensa en estenosis del píloro',
             say: 'Vómito en proyectil, con un lactante hambriento: piensa en la estenosis del píloro.' },
+          { t: 'Abdomen agudo: la edad orienta', d: 'En el escolar, apendicitis',
+            say: 'Y en un abdomen agudo, la edad orienta la causa: en el escolar, lo más frecuente es la apendicitis.' },
         ] },
         { title: 'La otra urgencia', tag: 'Dolor en crisis', kind: 'alert', items: [
           { t: 'Dolor cólico que va y viene', d: 'Piensa en invaginación intestinal',

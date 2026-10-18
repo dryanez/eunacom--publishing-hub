@@ -55,7 +55,8 @@ module.exports = {
         ] },
         { title: 'Examen', tag: 'Dos signos clave', kind: 'alert', items: [
           { t: 'Epidídimo engrosado y doloroso', d: 'Primero la cola, luego todo',
-            say: 'Se palpa un epidídimo engrosado y muy doloroso, primero en la cola y luego en toda la glándula y el testículo, y por eso se llama orquiepididimitis.' },
+            say: 'Se palpa un epidídimo engrosado y muy doloroso, primero en la cola y luego en toda la glándula y el testículo, y por eso se llama orquiepididimitis. Mira esta ecografía Doppler: el epidídimo está engrosado y lleno de color, hipervascular, la huella de la inflamación.',
+            photo: { src: '_web/260_uro_Orquiepididimitis__Commons_3.jpg', label: 'Epidídimo hipervascular', at: 'Mira esta ecografía', credit: 'Wikimedia Commons, CC0' } },
           { t: 'Prehn positivo', d: 'Elevarlo alivia el dolor',
             say: 'El signo de Prehn es positivo: al elevar suavemente el testículo, el dolor se alivia. Es lo contrario de la torsión.' },
           { t: 'Cremastérico conservado', d: 'Ausente solo en torsión',
@@ -88,6 +89,50 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Transmisión sexual',
+      title: 'Uretritis: gonocócica o no gonocócica',
+      cards: [
+        { title: 'Cómo distinguirlas', tag: 'Disuria y secreción', kind: 'key', items: [
+          { t: 'Gonocócica: pus abundante', d: 'Incubación 2 a 5 días; diplococos en el Gram',
+            say: 'Con disuria y secreción por el meato, primero distingue el tipo. La gonocócica incuba de dos a cinco días y da una secreción purulenta abundante; el Gram uretral muestra diplococos gramnegativos dentro de los leucocitos. Mira esta fotografía: el pus que asoma por el meato.',
+            photo: { src: 'biblioteca/19_urologia/uro-06/01_secrecion-uretral-gonococica__nelson_p1602.jpg', label: 'Secreción uretral purulenta', at: 'Mira esta fotografía', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 1602 (Fig. 163.4)' } },
+          { t: 'No gonocócica: Chlamydia', d: 'Secreción escasa y mucoide',
+            say: 'La no gonocócica es sobre todo Chlamydia trachomatis, además de Mycoplasma, Ureaplasma y Trichomonas, con secreción escasa y mucoide. En la práctica se trata como las dos a la vez.' },
+        ] },
+        { title: 'Diagnóstico y conducta', tag: 'Tratamiento empírico', kind: 'pharma', items: [
+          { t: 'PCR en primera orina', d: 'O frotis uretral',
+            say: 'El diagnóstico se confirma con PCR en primera orina o con un frotis uretral.' },
+          { t: 'Ceftriaxona más azitromicina', d: '500 mg IM más 1 g oral, dosis única',
+            say: 'El tratamiento empírico cubre ambas: ceftriaxona quinientos miligramos intramuscular, más azitromicina un gramo oral, ambas en dosis única; o doxiciclina cien miligramos cada doce horas por siete días en lugar de la azitromicina.' },
+          { t: 'Tratar a la pareja', d: 'Últimos 60 días; VIH y VDRL',
+            say: 'Se trata y estudia a la pareja de los últimos sesenta días, se indica abstinencia hasta siete días después y se ofrece VIH y VDRL. La gonorrea y la sífilis son de notificación obligatoria. Sin tratamiento, evoluciona a epididimitis, prostatitis y estenosis uretral.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'table',
+      kicker: 'Transmisión sexual',
+      title: 'Úlceras y verrugas genitales',
+      head: ['Cuadro', 'Cómo es', 'Tratamiento'],
+      rows: [
+        { cells: ['Sífilis primaria', 'Chancro único, indoloro, duro', 'Penicilina benzatina 2,4 millones UI IM'],
+          say: 'La sífilis primaria da un chancro único, indoloro, de borde duro y fondo limpio, con adenopatía inguinal no dolorosa. Se confirma con VDRL y una prueba treponémica, y se trata con penicilina benzatina, dos coma cuatro millones de unidades, una dosis. En alérgicos, doxiciclina por catorce días.' },
+        { cells: ['Herpes genital', 'Vesículas agrupadas dolorosas', 'Aciclovir 400 mg cada 8 h, 7 a 10 días'],
+          say: 'El herpes da vesículas agrupadas y dolorosas que se ulceran y recurren. La primoinfección se trata con aciclovir cuatrocientos miligramos cada ocho horas por siete a diez días; las recurrencias, cinco días.' },
+        { cells: ['Chancroide', 'Úlcera dolorosa, blanda, fondo sucio', 'Adenopatía supurada'],
+          say: 'El chancroide, por Haemophilus ducreyi, es lo opuesto al chancro sifilítico: úlcera dolorosa, blanda y de fondo sucio, con adenopatía supurada.' },
+        { cells: ['Linfogranuloma venéreo', 'Úlcera fugaz y bubones inguinales', 'Doxiciclina 21 días'],
+          say: 'El linfogranuloma venéreo, por Chlamydia de los serotipos L uno a tres, deja una úlcera fugaz y bubones inguinales, y se trata con doxiciclina por veintiún días.' },
+        { cells: ['Condilomas (VPH 6 y 11)', 'Blandos, en cresta de gallo', 'Podofilotoxina, imiquimod o crioterapia'],
+          say: 'Las verrugas anogenitales las producen los tipos seis y once del virus papiloma: lesiones blandas, exofíticas, en cresta de gallo. Se tratan con podofilotoxina o imiquimod, crioterapia o electrocoagulación, y se previenen con la vacuna.' },
+        { cells: ['Tricomoniasis', 'Uretritis o flujo', 'Metronidazol 2 g, y a la pareja'],
+          say: 'La tricomoniasis se trata con metronidazol dos gramos en dosis única, también a la pareja. En toda ITS: consejería, preservativo, tamizaje de VIH y sífilis, y tratar a las parejas.' },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Manejo',
       title: 'Medidas generales y complicaciones',
       cards: [
@@ -103,6 +148,20 @@ module.exports = {
           { t: 'Duda con torsión: explorar', d: 'Ante la duda, pabellón',
             say: 'Y ojo con un punto: si en algún momento no puedes descartar una torsión, se explora. La epididimitis se diagnostica cuando el cuadro es claro.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El camino de la infección',
+      images: [
+        { src: 'animaciones/uro-06/A1_orquiepididimitis_ascenso.mp4', label: 'Cómo llega al epidídimo', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Cómo llega al epidídimo',
+          say: 'Mira el camino: las bacterias suben desde la uretra, pasan por la próstata y el conducto deferente, y llegan al epidídimo, que se inflama. En el menor de treinta y cinco años suele ser transmisión sexual, y en el mayor, enterobacterias. Al elevar el testículo el dolor alivia, es el signo de Prehn positivo, y el cremastérico está conservado.' },
       ],
     },
 
@@ -220,6 +279,44 @@ module.exports = {
         options: 'Las opciones: ceftriaxona intramuscular; ciprofloxacino oral; amoxicilina con clavulánico; doxiciclina oral; o exploración quirúrgica. Piénsalo.',
         answer: 'Es la D. Joven sexualmente activo, curso subagudo y secreción escasa: lo más probable es Chlamydia, y se trata con doxiciclina. La A es el gonococo, que da una secreción más purulenta. En la práctica, igual se cubren ambos con ceftriaxona más doxiciclina, como vimos. La B no cubre bien Chlamydia.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.1.006 · Enfermedades de transmisión sexual",
+      "stem": "Hombre de 30 años consulta por una úlcera en el glande de 10 días, indolora, de bordes indurados y fondo limpio, de 1 cm, con adenopatías inguinales bilaterales firmes e indoloras. Tuvo relaciones sexuales sin preservativo hace 4 semanas. No es alérgico a medicamentos. VDRL reactivo 1:16.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Penicilina benzatina 2.400.000 UI intramuscular por una vez, más estudio de VIH y tratamiento de la pareja"
+        },
+        {
+          "letter": "B",
+          "text": "Aciclovir 400 mg cada 8 horas por 7 días"
+        },
+        {
+          "letter": "C",
+          "text": "Ceftriaxona 500 mg intramuscular más doxiciclina"
+        },
+        {
+          "letter": "D",
+          "text": "Azitromicina 1 g oral por una vez"
+        },
+        {
+          "letter": "E",
+          "text": "Penicilina sódica endovenosa por 14 días"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Úlcera genital única, indolora e indurada, con adenopatías inguinales indoloras, es un chancro de sífilis primaria. El tratamiento es penicilina benzatina 2.400.000 UI intramuscular en dosis única, con notificación, estudio de VIH y otras ITS, y tratamiento de los contactos. La penicilina sódica endovenosa es para neurosífilis.",
+      "say": {
+        "stem": "Un hombre de treinta años tiene una úlcera en el glande de diez días, indolora, de bordes duros y fondo limpio, con ganglios inguinales firmes que no duelen. El VDRL es reactivo.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: penicilina benzatina intramuscular única con estudio de VIH y tratamiento de la pareja, aciclovir, ceftriaxona con doxiciclina, azitromicina o penicilina sódica endovenosa. Piénsalo.",
+        "answer": "Es la A. Una úlcera indolora e indurada es el chancro de la sífilis primaria, y se trata con una dosis de penicilina benzatina, estudiando VIH y tratando a la pareja. El aciclovir tienta por ser una lesión genital, pero el herpes da vesículas y úlceras dolorosas."
+      }
     },
 
     {

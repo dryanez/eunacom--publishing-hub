@@ -1,0 +1,59 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Obstetricia 01: calendario del control prenatal (gráfico sin anatomía). ?v=calendario
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+const W0 = -12, W1 = 40, X0 = 300, X1 = 1240, wx = w => lerp(X0, X1, (w - W0) / (W1 - W0));
+const ROWS = [
+  { n: 'Ácido fólico', sub: '3 meses antes hasta la semana 12', a: -12, b: 12, col: C.VIOLET, lab: '0,4 a 1 mg · alto riesgo 4 a 5 mg' },
+  { n: 'Batería de ingreso', sub: 'Grupo y Rh, VDRL, VIH, glicemia, orina', a: 6, b: 12, col: C.BLUE, lab: 'Antes de las 12' },
+  { n: 'Ecografía universal', sub: 'Translucencia y Doppler de uterinas', a: 11, b: 14, col: C.BLUE, lab: '11 a 14' },
+  { n: 'Carbonato de calcio', sub: '1.000 a 1.500 mg al día', a: 14, b: 40, col: C.GREEN, lab: 'Desde las 12 a 16', fade: true },
+  { n: 'Hierro oral', sub: '30 a 60 mg si Hb o ferritina al límite', a: 18, b: 40, col: C.AMBER, lab: 'Desde las 16 a 20', fade: true },
+  { n: 'PTGO con 75 g', sub: 'Diabetes gestacional: 140 a las 2 horas', a: 24, b: 28, col: C.RED, lab: '24 a 28' },
+  { n: 'Cultivo vaginorrectal', sub: 'Estreptococo grupo B: penicilina en el parto', a: 35, b: 37, col: C.RED, lab: '35 a 37' },
+];
+const RY0 = 192, RH = 60;
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(900, 696, 380, 24); text('Animación propia · Guía Perinatal MINSAL', 1268, 712, 13, C.MUTED, '', 'right'); }
+function calendario(t) {
+  K.title('Control prenatal', 'Cada examen y cada fármaco tiene su semana', C.GREEN);
+  // trimestres
+  const tri = [[0, 12, '1.er trimestre'], [13, 27, '2.º trimestre'], [28, 40, '3.er trimestre']];
+  tri.forEach(([a, b, s], i) => { rrect(wx(a), 142, wx(b) - wx(a), 36, 8, i % 2 ? '#1A212B' : '#151B24'); text(s, (wx(a) + wx(b)) / 2, 166, 17, C.MUTED, 'bold', 'center'); });
+  rrect(wx(-12), 142, wx(-0.2) - wx(-12), 36, 8, '#10151C'); text('Preconcepción', (wx(-12) + wx(0)) / 2, 166, 15, C.MUTED, '', 'center');
+  // eje
+  ctx.strokeStyle = '#2A2F38'; ctx.lineWidth = 1;
+  for (let w = -12; w <= 40; w += 4) { ctx.beginPath(); ctx.moveTo(wx(w), 180); ctx.lineTo(wx(w), RY0 + ROWS.length * RH); ctx.stroke(); text(String(w), wx(w), RY0 + ROWS.length * RH + 20, 13, C.MUTED, '', 'center'); }
+  text('semanas', 1240, RY0 + ROWS.length * RH + 40, 14, C.MUTED, '', 'right');
+  const week = lerp(-12, 40, clamp((t - 1) / 21, 0, 1));            // el cursor recorre el embarazo
+  ROWS.forEach((r, i) => {
+    const y = RY0 + i * RH, a = seg(t, 0.4 + i * 0.12, 0.5);
+    ctx.save(); ctx.globalAlpha = a;
+    text(r.n, 40, y + 28, 19, C.INK, 'bold'); text(r.sub, 40, y + 50, 13, C.MUTED);
+    const reach = clamp((week - r.a) / Math.max(1, (r.b - r.a)), 0, 1);       // la barra se llena al pasar el cursor
+    rrect(wx(r.a), y + 14, wx(r.b) - wx(r.a), 30, 8, '#1B2230');
+    if (reach > 0) {
+      const w = (wx(r.b) - wx(r.a)) * (r.fade ? 1 : reach);
+      const g = ctx.createLinearGradient(wx(r.a), 0, wx(r.b), 0); g.addColorStop(0, r.col); g.addColorStop(1, r.fade ? r.col + '55' : r.col);
+      rrect(wx(r.a), y + 14, r.fade ? wx(r.a) + (wx(r.b) - wx(r.a)) * reach - wx(r.a) : w, 30, 8, g);
+      if (reach >= 1 || r.fade) { ctx.font = 'bold 14px "Liberation Sans", Arial'; const tw = ctx.measureText(r.lab).width;
+        if (tw + 20 < wx(r.b) - wx(r.a)) text(r.lab, wx(r.a) + 10, y + 35, 14, '#0E1116', 'bold'); else text(r.lab, wx(r.b) + 10, y + 35, 14, r.col, 'bold'); }
+    }
+    ctx.restore();
+  });
+  // cursor
+  const cx = wx(week); ctx.strokeStyle = '#FFFFFF'; ctx.lineWidth = 2; ctx.globalAlpha = seg(t, 1, 0.5) * (1 - seg(t, 23, 0.6));
+  ctx.beginPath(); ctx.moveTo(cx, 186); ctx.lineTo(cx, RY0 + ROWS.length * RH); ctx.stroke();
+  tag(week < 0 ? 'Antes del embarazo' : 'Semana ' + Math.round(week), clamp(cx, 140, 1150), 206 - 6 + 0, '#FFFFFF', 14); ctx.globalAlpha = 1;
+  K.banner(300, 660, 580, 'Cada dato se pregunta con su semana exacta', C.GREEN, seg(t, 23.5, 0.5));
+}
+window.SCENE = { duration: 27, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); calendario(t); credit(); };
+LOAD({});
+</script>
+</body></html>

@@ -93,7 +93,8 @@ module.exports = {
         { show: ['pro'], note: 'Primero se pierde el freno',
           say: 'Entonces, durante los primeros días, el paciente pierde el freno antes que el acelerador. Paradójicamente, el anticoagulante lo deja en un estado protrombótico transitorio.' },
         { show: ['nec'], note: 'Trombosis de la piel',
-          say: 'Y ese estado se expresa como una trombosis microvascular masiva en la piel: la necrosis cutánea por cumarínicos.' },
+          say: 'Y ese estado se expresa como una trombosis microvascular masiva en la piel: la necrosis cutánea por cumarínicos. Mira esta piel necrótica, negra y rodeada de eritema.',
+          photo: { src: 'biblioteca/06_hematologia/hem-23/atlas_136_necrosis_cutanea_inducida_por_.jpg', label: 'Necrosis por cumarínicos', at: 'Mira esta piel', credit: 'Atlas EUNACOM 2026' } },
         { show: ['pue'], note: 'Heparina hasta que el cumarínico sea eficaz',
           say: 'La prevención es la misma regla de siempre: iniciar el cumarínico con un puente de heparina, que protege al paciente mientras el acenocumarol hace efecto completo.' },
       ],
@@ -110,7 +111,8 @@ module.exports = {
         ] },
         { title: 'Trombosis', tag: 'Criterio clínico 1', kind: 'alert', items: [
           { t: 'Arterial, venosa o de pequeño vaso', d: 'Documentada objetivamente',
-            say: 'El primer criterio clínico es la trombosis documentada. Y aquí está la gran diferencia con las hereditarias: en el SAF la trombosis puede ser venosa, como una trombosis venosa profunda, pero también arterial. Un accidente cerebrovascular isquémico en un paciente joven te tiene que hacer pensar en SAF.' },
+            say: 'El primer criterio clínico es la trombosis documentada. Y aquí está la gran diferencia con las hereditarias: en el SAF la trombosis puede ser venosa, como una trombosis venosa profunda, pero también arterial. Un accidente cerebrovascular isquémico en un paciente joven te tiene que hacer pensar en SAF. Y si es de pequeño vaso, se ve en la piel: mira esta red violácea en el tronco, el livedo reticularis.',
+            photo: { src: 'biblioteca/06_hematologia/hem-23/02_livedo_saf__fitzpatrick_p1652.jpg', label: 'Livedo reticularis', at: 'mira esta red violácea', credit: 'Fitzpatrick\'s Dermatology in General Medicine, p. 1652' } },
         ] },
         { title: 'Morbilidad obstétrica', tag: 'Criterio clínico 2', kind: 'criteria', items: [
           { t: '3 o más abortos antes de la semana 10', d: 'Consecutivos e inexplicados',
@@ -264,6 +266,7 @@ module.exports = {
       ],
     },
 
+
     {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un árbol: a quién estudiar, qué pedir, cuándo, y con qué tratar.',
@@ -380,6 +383,81 @@ module.exports = {
         options: 'Las opciones: panel de anticuerpos antifosfolípidos, cariotipo de los padres, histeroscopía, progesterona en fase lútea, o pruebas tiroideas. Piénsalo.',
         answer: 'Es la A. Tres abortos antes de la semana diez es exactamente el criterio obstétrico de Sydney. Entonces buscas los tres anticuerpos: anticoagulante lúpico, anticardiolipina y anti beta dos glicoproteína uno. Fíjate que esta pregunta viene de obstetricia: el SAF se pregunta también fuera de hematología. El cariotipo y la histeroscopía estudian otras causas, pero el SAF es la causa tratable más importante.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.4.006 · Estudio de trombofilia",
+      "stem": "Mujer de 25 años con trombosis venosa profunda poplítea izquierda no provocada, confirmada por eco-Doppler. No usa anticonceptivos ni ha tenido cirugías, viajes o inmovilización. Su madre tuvo una embolia pulmonar a los 38 años. Se inicia enoxaparina y se planifica el estudio de trombofilia.",
+      "question": "Respecto del estudio de trombofilia, ¿cuál es la afirmación correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Se debe medir proteína C, proteína S y antitrombina hoy, antes de la primera dosis de heparina"
+        },
+        {
+          "letter": "B",
+          "text": "Las pruebas genéticas de factor V Leiden y mutación G20210A de la protrombina pueden realizarse en cualquier momento, aun con anticoagulación"
+        },
+        {
+          "letter": "C",
+          "text": "El estudio está indicado en todo paciente con una primera trombosis provocada por cirugía"
+        },
+        {
+          "letter": "D",
+          "text": "Las proteínas C y S se miden de forma confiable durante el tratamiento con acenocumarol"
+        },
+        {
+          "letter": "E",
+          "text": "El anticoagulante lúpico se interpreta de forma confiable durante la infusión de heparina"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Las mutaciones (factor V Leiden, protrombina G20210A) se estudian por ADN y no se alteran con la trombosis ni con anticoagulantes. En cambio, proteína C, S y antitrombina se consumen en la fase aguda, la heparina baja la antitrombina y los cumarínicos bajan C y S: se miden lejos del evento y sin esos fármacos.",
+      "say": {
+        "stem": "Una mujer de veinticinco años tiene una trombosis venosa profunda sin causa aparente, y su madre tuvo una embolia pulmonar joven. Se inicia enoxaparina y se planifica el estudio de trombofilia.",
+        "question": "¿Cuál afirmación sobre el estudio de trombofilia es correcta?",
+        "options": "Las opciones: medir proteína C, S y antitrombina hoy, las pruebas genéticas sirven en cualquier momento, estudiar toda trombosis provocada, medir C y S con acenocumarol, o medir anticoagulante lúpico con heparina. Piénsalo.",
+        "answer": "Es la B. Las mutaciones se estudian en el ADN y no cambian con la trombosis ni con los anticoagulantes. Medir proteína C, S y antitrombina hoy tienta, pero en la fase aguda se consumen y darían falsos déficits."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 142",
+      "stem": "Paciente en tratamiento con acenocumarol por fibrilación auricular. INR actual 7,8 (meta 2–3). Sin sangrado activo.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Suspender el acenocumarol y administrar vitamina K1 oral 2,5–5 mg"
+        },
+        {
+          "letter": "B",
+          "text": "Transfusión urgente de plasma fresco congelado"
+        },
+        {
+          "letter": "C",
+          "text": "Solo suspender el anticoagulante y observar"
+        },
+        {
+          "letter": "D",
+          "text": "Administrar protamina"
+        },
+        {
+          "letter": "E",
+          "text": "Continuar la misma dosis y controlar en 1 semana"
+        }
+      ],
+      "correct": "A",
+      "explanation": "INR sobre 5 sin sangrado: se suspende el cumarínico y se da vitamina K1 oral en dosis baja para una reversión gradual, controlando el INR en 24 horas. El plasma o el complejo protrombínico se reservan para el sangrado grave; la protamina revierte la heparina, no los cumarínicos. No se busca revertir del todo, para no generar un estado protrombótico.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Un paciente con fibrilación auricular en tratamiento con acenocumarol tiene un INR de siete coma ocho, con meta de dos a tres, y no está sangrando.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: suspender y dar vitamina K oral en dosis baja, plasma fresco urgente, solo suspender y observar, protamina, o seguir igual y controlar en una semana. Piénsalo.",
+        "answer": "Es la A. Con INR sobre cinco y sin sangrado se suspende el anticoagulante y se da vitamina K oral en dosis baja, para bajar el INR de forma gradual. El plasma tienta, pero se reserva para el sangrado grave, y aquí no hay sangrado."
+      }
     },
 
     {

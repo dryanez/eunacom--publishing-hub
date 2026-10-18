@@ -134,6 +134,44 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Urodinamia',
+      title: 'Urodinamia: cuándo pedirla',
+      cards: [
+        { title: 'Qué mide y cuándo', tag: 'Centro especializado', kind: 'key', items: [
+          { t: 'Presiones de llenado y vaciado', d: 'Cistomanometría y presión-flujo',
+            say: 'La urodinamia estudia cómo trabajan la vejiga y la uretra al llenarse y al vaciarse. Mide la presión del detrusor y la presión abdominal. Es un examen de centro especializado, con urocultivo estéril previo, y tú trabajas con el informe.' },
+          { t: 'Incontinencia mixta o dudosa', d: 'Falla del tratamiento, antes de operar',
+            say: 'Se pide cuando la incontinencia es mixta o de causa dudosa, si falla el tratamiento inicial, antes de una cirugía antiincontinencia, sobre todo si ya hubo otra, y en la vejiga neurogénica.' },
+          { t: 'No de entrada en esfuerzo simple', d: 'Esfuerzo no complicada: no se pide',
+            say: 'Y lo que se pregunta: en una incontinencia de esfuerzo no complicada no es el primer examen.' },
+        ] },
+        { title: 'Cómo leer el informe', tag: 'Interpretación', kind: 'criteria', items: [
+          { t: 'Urgencia: contracciones del detrusor', d: 'Hiperactividad durante el llenado',
+            say: 'En la incontinencia de urgencia se ven contracciones involuntarias del detrusor durante el llenado: es la hiperactividad del detrusor.' },
+          { t: 'Esfuerzo: pérdida sin contracción', d: 'Con tos o Valsalva',
+            say: 'En la de esfuerzo, la orina se pierde cuando sube la presión abdominal, con la tos o la maniobra de Valsalva, sin que el detrusor se contraiga.' },
+          { t: 'Obstrucción: presión alta, flujo bajo', d: 'Detrusor hipoactivo: ambos bajos',
+            say: 'La obstrucción es presión alta del detrusor con flujo bajo; el detrusor hipoactivo es flujo bajo con presión baja. Y una presión sostenida sobre cuarenta centímetros de agua en la vejiga neurogénica pone en riesgo el riñón: tratamiento urgente.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Tres formas de perder orina',
+      images: [
+        { src: 'animaciones/uro-04/A1_incontinencia_tres_mecanismos.mp4', label: 'Esfuerzo, urgencia y rebalse', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Esfuerzo, urgencia y rebalse',
+          say: 'Mira cómo se escapa la orina. En el esfuerzo, la presión abdominal supera a un esfínter débil, sin deseo previo. En la urgencia, el detrusor se contrae solo y el deseo no da tiempo. En el rebalse, la vejiga está llena y gotea, con residuo sobre doscientos mililitros. Por eso lo primero es preguntar cuándo se escapa y medir el residuo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: de la pérdida de orina al tipo de incontinencia y su tratamiento.',
     },
@@ -293,6 +331,44 @@ module.exports = {
         options: 'Las opciones: cirugía; instalar una sonda Foley; cateterismo intermitente; anticolinérgicos; o colinérgicos. Piénsalo.',
         answer: 'Es la C. Un residuo de setecientos cincuenta en una diabética es una vejiga neurogénica atónica con rebalse, y se trata con autocateterismo limpio intermitente. La D es la gran trampa: un anticolinérgico empeoraría la retención.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.4.012 · Urodinamia",
+      "stem": "Mujer de 55 años con incontinencia urinaria mixta (esfuerzo y urgencia) que no mejoró con ejercicios de piso pélvico ni con antimuscarínicos. Se plantea cirugía antiincontinencia.",
+      "question": "¿Cuál es la principal utilidad del estudio urodinámico en esta paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Confirmar infección urinaria"
+        },
+        {
+          "letter": "B",
+          "text": "Objetivar el tipo de incontinencia (hiperactividad del detrusor vs incompetencia esfinteriana) y la función de vaciamiento antes de la cirugía"
+        },
+        {
+          "letter": "C",
+          "text": "Medir el volumen de la vejiga en reposo por ecografía"
+        },
+        {
+          "letter": "D",
+          "text": "Diagnosticar cáncer vesical"
+        },
+        {
+          "letter": "E",
+          "text": "Reemplazar el examen físico ginecológico"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La urodinamia (cistometría, estudio de flujo-presión) mide presiones vesicales y abdominales durante llenado y vaciamiento. No es necesaria en la incontinencia de esfuerzo pura no complicada, pero sí en la incontinencia mixta, refractaria o antes de cirugía, para documentar hiperactividad del detrusor o incompetencia esfinteriana y evitar cirugías que empeoren la urgencia o produzcan retención.",
+      "say": {
+        "stem": "Mujer de cincuenta y cinco años con incontinencia mixta, de esfuerzo y de urgencia, refractaria al tratamiento, en quien se plantea cirugía.",
+        "question": "¿Cuál es la principal utilidad de la urodinamia?",
+        "options": "Las opciones: confirmar infección, definir el tipo de incontinencia y el vaciamiento antes de operar, medir volumen por ecografía, diagnosticar cáncer o reemplazar el examen físico. Piénsalo.",
+        "answer": "Es la B. La urodinamia define si predomina la hiperactividad del detrusor o la falla del esfínter antes de operar. Medir la vejiga por ecografía tienta, pero no da las presiones que explican el tipo de incontinencia."
+      }
     },
 
     {

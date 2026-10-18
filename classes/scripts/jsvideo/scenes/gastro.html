@@ -186,10 +186,52 @@ function treitz(t) {
   K.card(700, 330, 540, 140, C.AMBER, 'Baja: después del Treitz', ['Hematoquecia: sangre roja'], seg(t, 8, 0.5), 17);
 }
 
+// ---- gastro-26 neumotórax hipertensivo, gastro-12 patología anal, gastro-05 cáncer gástrico: profundidad ----
+function neumot(t) {
+  K.title('Neumotórax hipertensivo', 'Se trata antes de la radiografía', C.RED);
+  const W0 = 420, H0 = W0 * 1218 / 1067, y0 = 430;
+  draw('tn', 300, y0, W0, 1);
+  const k = ease(seg(t, 1.5, 3)); draw('tx', 300, y0, W0, k);
+  ctx.globalAlpha = seg(t, 3, 0.5); tag('Aire atrapado: pulmón colapsado', 520, 330, C.BLUE, 14);
+  tag('Mediastino empujado al lado sano', 200, 300, C.AMBER, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 160, C.RED, 'Disnea, hipotensión, taquicardia', ['Yugulares ingurgitadas', 'Sin murmullo vesicular, timpanismo'], seg(t, 4, 0.5), 17);
+  const nd = ease(seg(t, 9, 1.5));
+  if (nd > 0) { const x1 = 640 - 150 * nd; ctx.strokeStyle = '#E6EDF3'; ctx.lineWidth = 5; ctx.beginPath(); ctx.moveTo(660, y0 + 10); ctx.lineTo(x1, y0 + 10); ctx.stroke(); ctx.fillStyle = C.RED; ctx.fillRect(656, y0 + 2, 26, 16);
+    const air = seg(t, 10.5, 2); for (let i = 0; i < 6; i++) { const u = ((t * 0.7) + i / 6) % 1; ctx.globalAlpha = air * (1 - u); ctx.fillStyle = '#9FD3F2'; ctx.beginPath(); ctx.arc(x1 + 20 + u * 50, y0 + 10 - u * 40, 5, 0, 7); ctx.fill(); } ctx.globalAlpha = 1;
+    ctx.globalAlpha = seg(t, 9, 0.5); tag('5.º espacio, delante de la línea axilar media', 560, y0 + 50, C.GREEN, 14); ctx.globalAlpha = 1; }
+  K.card(700, 330, 540, 120, C.GREEN, 'Descompresión con aguja gruesa', ['Después: tubo pleural con sello de agua'], seg(t, 9.5, 0.5), 17);
+  K.banner(700, 480, 540, 'Diagnóstico clínico: no esperar la radiografía', C.RED, seg(t, 14, 0.5));
+}
+function anal(t) {
+  K.title('Región anal: qué es cada cosa', 'Hemorroide, fisura y fístula', C.AMBER);
+  draw('rec', 300, 430, 330, seg(t, 0, 0.6));
+  const X = 300 - 165, Y = 430 - 216, W1 = 330, H1 = 432, P = (fx, fy) => [X + fx * W1, Y + fy * H1];
+  let [x, y] = P(0.18, 0.64); ctx.globalAlpha = seg(t, 2, 0.5); spot(x, y, 28, '70,140,255', 0.5); tag('Hemorroide', 110, y - 30, C.BLUE, 14);
+  [x, y] = P(0.5, 0.9); ctx.globalAlpha = seg(t, 6, 0.5); ctx.strokeStyle = C.RED; ctx.lineWidth = 5; ctx.beginPath(); ctx.moveTo(x - 6, y - 70); ctx.lineTo(x + 2, y); ctx.stroke(); tag('Fisura: herida', x - 80, y + 30, C.RED, 14);
+  const f = ease(seg(t, 10, 2.5)); ctx.globalAlpha = seg(t, 10, 0.4); ctx.strokeStyle = C.AMBER; ctx.lineWidth = 4; ctx.setLineDash([10, 7]); const [a1, b1] = P(0.62, 0.52), [a2, b2] = P(0.9, 0.9);
+  ctx.beginPath(); ctx.moveTo(a1, b1); ctx.quadraticCurveTo(a1 + 30, (b1 + b2) / 2, a1 + (a2 - a1) * f, b1 + (b2 - b1) * f); ctx.stroke(); ctx.setLineDash([]); tag('Fístula: trayecto', a2 - 60, b2 + 30, C.AMBER, 14); ctx.globalAlpha = 1;
+  K.card(700, 150, 540, 120, C.BLUE, 'Hemorroide interno', ['Sangra sin dolor', 'Trombosado externo: nódulo doloroso'], seg(t, 2.5, 0.5), 17);
+  K.card(700, 290, 540, 120, C.RED, 'Fisura anal', ['Desgarro doloroso: manejo médico'], seg(t, 6.5, 0.5), 17);
+  K.card(700, 430, 540, 120, C.AMBER, 'Fístula y absceso', ['Trayecto: manejo quirúrgico'], seg(t, 10.5, 0.5), 17);
+  K.banner(700, 580, 540, 'Fisura no es fístula', C.GREEN, seg(t, 14, 0.5));
+}
+function cgast(t) {
+  K.title('Cáncer gástrico: manda la profundidad', 'Incipiente vs avanzado', C.RED);
+  draw('estc', 300, 430, 420, seg(t, 0, 0.6));
+  const k = ease(seg(t, 2, 3)); const tx = 360, ty = 520; ctx.globalAlpha = seg(t, 1.5, 0.5); ctx.fillStyle = 'rgba(200,40,60,0.75)'; ctx.beginPath(); ctx.ellipse(tx, ty, 30 + 30 * k, 18 + 16 * k, 0.4, 0, 7); ctx.fill(); tag('Tumor', tx - 20, ty + 70, C.RED, 14); ctx.globalAlpha = 1;
+  const cap = ['Mucosa', 'Submucosa', 'Muscular propia', 'Serosa'], col = ['#E8A0A8', '#F0C8C0', '#C87070', '#F5E0D8'];
+  ctx.globalAlpha = seg(t, 5, 0.5); rrect(700, 150, 540, 260, 16, '#161B22'); text('Capas de la pared', 724, 186, 20, C.INK, 'bold');
+  const d = ease(seg(t, 6, 6)) * 4;
+  cap.forEach((n, i) => { const y = 206 + i * 44; ctx.fillStyle = col[i]; ctx.fillRect(724, y, 300, 38); if (d > i) { ctx.fillStyle = 'rgba(200,40,60,0.6)'; ctx.fillRect(724, y, 300 * Math.min(1, d - i), 38); } text(n, 1040, y + 26, 16, C.INK); }); ctx.globalAlpha = 1;
+  K.card(700, 430, 250, 130, C.GREEN, 'Incipiente', ['Hasta la submucosa', 'Resección'], seg(t, 7.5, 0.5), 16);
+  K.card(990, 430, 250, 130, C.RED, 'Avanzado', ['Pasa la muscular propia', 'Gastrectomía + D2'], seg(t, 10.5, 0.5), 16);
+  K.banner(700, 590, 540, 'Endoscopía a los 40 años o más (GES)', C.BLUE, seg(t, 14, 0.5));
+}
+
 window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
-  if (V === 'cu') colitis(t, false); else if (V === 'crohn') colitis(t, true); else ({ invag, bili, rge, hp, hernia, celiaca, hcc, panc, mesent, piloro, perfo, planes, treitz })[V](t);
+  if (V === 'cu') colitis(t, false); else if (V === 'crohn') colitis(t, true); else ({ neumot, anal, cgast, invag, bili, rge, hp, hernia, celiaca, hcc, panc, mesent, piloro, perfo, planes, treitz })[V](t);
   if (V === 'planes') text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); else K.credit(); };
-LOAD({ colon: '../assets/servier/colon.png', intd: '../assets/servier/intestino_delgado.png', rbc: '../assets/servier/hematie.png', hig: '../assets/servier/higado.png',
+LOAD({ tx: '../assets/servier/torax_neumotorax.png', rec: '../assets/servier/Rectum.png', estc: '../assets/servier/estomac_coupe.png', colon: '../assets/servier/colon.png', intd: '../assets/servier/intestino_delgado.png', rbc: '../assets/servier/hematie.png', hig: '../assets/servier/higado.png',
   rge: '../assets/servier/reflujo.png', est: '../assets/servier/estomago.png', herh: '../assets/servier/hernia_hiatal.png', herp: '../assets/servier/hernia_paraesofagica.png',
   vel: '../assets/servier/vellosidades.png', pan: '../assets/servier/pancreas.png', tn: '../assets/servier/torax_normal.png', dig: '../assets/servier/syst_dig_complet.png' });
 </script>

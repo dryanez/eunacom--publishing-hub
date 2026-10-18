@@ -79,13 +79,15 @@ module.exports = {
       cards: [
         { title: 'Pielotac', tag: 'Gold standard', kind: 'key', items: [
           { t: 'TAC sin contraste', d: 'Sensibilidad y especificidad sobre 98%',
-            say: 'El examen de elección es el pielotac, que es un TAC de abdomen y pelvis sin contraste. Su sensibilidad y su especificidad superan el noventa y ocho por ciento.' },
+            say: 'El examen de elección es el pielotac, que es un TAC de abdomen y pelvis sin contraste. Su sensibilidad y su especificidad superan el noventa y ocho por ciento. Mira este TAC sin contraste: en cada riñón hay un punto blanco muy brillante, un cálculo, nítido y medible.',
+            photo: { src: 'biblioteca/19_urologia/uro-01/02_tac-sin-contraste-calculos-renales__bailey-love_p1410.jpg', label: 'TAC: cálculos bilaterales', at: 'Mira este TAC', credit: 'Bailey & Love 27.ª ed., Fig. 75.21a' } },
           { t: 'Ve cualquier cálculo', d: 'Incluso los de ácido úrico',
             say: 'Detecta cálculos de cualquier composición, incluidos los de ácido úrico, que no se ven en una radiografía simple. Y mide el tamaño y muestra la hidronefrosis, que es lo que decide la conducta.' },
         ] },
         { title: 'Otros exámenes', tag: 'Trampas', kind: 'alert', items: [
           { t: 'Ecografía: embarazo y niños', d: 'O si no hay tomógrafo',
-            say: 'La ecografía renal queda reservada para embarazadas, niños o lugares sin tomógrafo, porque ve peor los cálculos del uréter.' },
+            say: 'La ecografía renal queda reservada para embarazadas, niños o lugares sin tomógrafo, porque ve peor los cálculos del uréter. Pero muestra muy bien la hidronefrosis: en esta ecografía la pelvis, la zona negra del centro, está dilatada, y los cálices también.',
+            photo: { src: 'biblioteca/19_urologia/uro-01/03_ecografia-hidronefrosis__bailey-love_p1433.jpg', label: 'Ecografía: hidronefrosis', at: 'en esta ecografía', credit: 'Bailey & Love 27.ª ed., Fig. 76.15' } },
           { t: 'Urotac y urografía: no', d: 'El urotac es para estudiar hematuria',
             say: 'No confundas pielotac con urotac. El urotac, con contraste, se usa para estudiar la hematuria cuando se sospecha un tumor. Y la urografía de eliminación ya no es el examen de elección.' },
         ] },
@@ -93,22 +95,23 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Cálculos en las imágenes',
-      images: [
-        { src: 'biblioteca/19_urologia/uro-01/01_rx-simple-calculo-renal__bailey-love_p1409.jpg', label: 'Radiografía simple de abdomen con un cálculo renal izquierdo', credit: 'Bailey & Love 27.ª ed., Fig. 75.20a' },
-        { src: 'biblioteca/19_urologia/uro-01/02_tac-sin-contraste-calculos-renales__bailey-love_p1410.jpg', label: 'TAC sin contraste: cálculos en ambos riñones', credit: 'Bailey & Love 27.ª ed., Fig. 75.21a' },
-        { src: 'biblioteca/19_urologia/uro-01/03_ecografia-hidronefrosis__bailey-love_p1433.jpg', label: 'Ecografía de un riñón hidronefrótico: pelvis y cálices dilatados', credit: 'Bailey & Love 27.ª ed., Fig. 76.15' },
-      ],
-      steps: [
-        { note: 'En la radiografía simple cuesta verlo',
-          say: 'Esta es una radiografía simple de abdomen. Busca una pequeña mancha blanca sobre el área renal izquierda: es el cálculo. Cuesta encontrarlo, y los de ácido úrico ni siquiera se verían. Por eso la radiografía simple no es el examen de elección.' },
-        { note: 'En el TAC se ven claros',
-          say: 'Y este es un TAC sin contraste. Mira los dos riñones: en cada uno hay un punto blanco muy brillante, un cálculo. Se ven nítidos, y puedes medir su tamaño.' },
-        { note: 'Ecografía: pelvis dilatada',
-          say: 'Y esta es una ecografía de un riñón con hidronefrosis. La pelvis, que es la zona negra del centro, está dilatada, y los cálices también. Es la huella que deja la obstrucción de la vía urinaria.' },
+      type: 'points',
+      kicker: 'Diagnóstico',
+      title: 'Radiografía, urografía y calciuria',
+      cards: [
+        { title: 'Radiografía simple', tag: 'Seguimiento', kind: 'key', items: [
+          { t: 'Solo ve los radiopacos', d: 'Calcio y estruvita sí; ácido úrico no',
+            say: 'La radiografía simple de abdomen muestra los cálculos radiopacos, los de oxalato y fosfato de calcio y los de estruvita. Pero no los de ácido úrico puro, que son radiolúcidos, ni los menores de dos o tres milímetros. Mira esta radiografía: la pequeña mancha blanca sobre el área renal izquierda es el cálculo, y cuesta encontrarla.',
+            photo: { src: 'biblioteca/19_urologia/uro-01/01_rx-simple-calculo-renal__bailey-love_p1409.jpg', label: 'Cálculo en Rx simple', at: 'Mira esta radiografía', credit: 'Bailey & Love 27.ª ed., Fig. 75.20a' } },
+          { t: 'Sensibilidad de 50 a 60 %', d: 'No reemplaza al TAC',
+            say: 'Su sensibilidad ronda el cincuenta o sesenta por ciento, así que no reemplaza al TAC. La usas para seguir un cálculo radiopaco que ya conoces y para decidir si la litotripsia extracorpórea lo podrá localizar. Ojo con los flebolitos pelvianos, redondos y de centro claro: no son cálculos.' },
+        ] },
+        { title: 'Urografía y calciuria', tag: 'Estudio', kind: 'alert', items: [
+          { t: 'Urografía: casi en desuso', d: 'La reemplaza el uro-TAC',
+            say: 'La urografía de eliminación, con contraste yodado, muestra el retraso de la excreción del lado obstruido y la columna de contraste que se detiene sobre el cálculo. Hoy la reemplaza el uro-TAC; tú la lees en el informe. Se evita con alergia al yodo, insuficiencia renal o embarazo.' },
+          { t: 'Calciuria de 24 h, semanas después', d: 'Hipercalciuria: más de 300 mg en el varón',
+            say: 'La calciuria de veinticuatro horas se pide de cuatro a seis semanas después del episodio, con dieta habitual y orina estéril. Hay hipercalciuria sobre doscientos cincuenta miligramos en la mujer o trescientos en el varón. Y en la hipercalciuria idiopática no se restringe el calcio: se indica dieta normocálcica, baja en sal y en proteína animal, más tiazidas.' },
+        ] },
       ],
     },
 
@@ -229,6 +232,20 @@ module.exports = {
           { t: 'Hipocitraturia o úrico: citrato de potasio', d: 'Quelantes de oxalato si es entérica',
             say: 'En hipocitraturia o en cálculos de ácido úrico, citrato de potasio. En hiperoxaluria entérica, quelantes de oxalato.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El cálculo y sus tres estrechamientos',
+      images: [
+        { src: 'animaciones/uro-01/A1_calculo_tres_estrechamientos.mp4', label: 'Un cálculo baja por el uréter', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Un cálculo baja por el uréter',
+          say: 'Un cálculo del riñón baja por el uréter y se detiene en uno de tres estrechamientos: la unión pieloureteral, el cruce con los vasos ilíacos y la unión con la vejiga. Mira el riñón: se distiende, y esa presión, con las prostaglandinas, es el dolor. Después el tamaño decide: bajo cinco milímetros sale solo, de cinco a diez tamsulosina, y sobre diez, urología.' },
       ],
     },
 
@@ -417,6 +434,417 @@ module.exports = {
         options: 'Las opciones: dieta baja en lácteos; hidroclorotiazida; aumentar la ingesta de agua; litotripsia extracorpórea; o estudio metabólico. Piénsalo.',
         answer: 'Es la C. Con un primer episodio y sin causa conocida, la medida que siempre sirve es tomar más agua. La B es la trampa: la tiazida se indica si hay hipercalciuria demostrada, no de entrada.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 50",
+      "stem": "Un paciente presenta dolor lumbar intenso irradiado al testículo, asociado a vómitos e inquietud psicomotora. Su sedimento de orina muestra microhematuria.",
+      "question": "¿Qué examen es el más adecuado para confirmar el diagnóstico en este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TAC de abdomen con contraste"
+        },
+        {
+          "letter": "B",
+          "text": "Ecografía abdominal"
+        },
+        {
+          "letter": "C",
+          "text": "PieloTAC"
+        },
+        {
+          "letter": "D",
+          "text": "Pielografía de eliminación"
+        },
+        {
+          "letter": "E",
+          "text": "Radiografía simple de abdomen y pelvis"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Ante un cólico renal típico, el examen de elección es el pieloTAC, una tomografía sin contraste que detecta cálculos de cualquier composición y localización, con sensibilidad y especificidad cercanas a 97%. La ecografía es alternativa en embarazadas y niños, pero ve mal el uréter.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Un paciente tiene dolor lumbar intenso irradiado al testículo, con vómitos e inquietud, y el sedimento de orina muestra microhematuria.",
+        "question": "¿Qué examen confirma el diagnóstico?",
+        "options": "Las opciones: tomografía con contraste, ecografía abdominal, pieloTAC, pielografía de eliminación o radiografía simple. Piénsalo.",
+        "answer": "Es la C. En el cólico renal el examen de elección es el pieloTAC, una tomografía sin contraste que ve casi todos los cálculos. La ecografía tienta por ser accesible, pero ve mal el uréter y queda para embarazadas y niños."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.4.011 · Calciuria",
+      "stem": "Un hombre de 38 años ha tenido 3 episodios de cólico renal en 2 años por cálculos de oxalato de calcio. Su calcemia, PTH y función renal son normales.",
+      "question": "¿Qué examen es el más importante para orientar la prevención de nuevos cálculos y cuál es el hallazgo más frecuente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Uricemia: hiperuricemia"
+        },
+        {
+          "letter": "B",
+          "text": "Calciuria de 24 horas: hipercalciuria idiopática"
+        },
+        {
+          "letter": "C",
+          "text": "Cistinuria: cistinuria"
+        },
+        {
+          "letter": "D",
+          "text": "Urocultivo: infección por Proteus"
+        },
+        {
+          "letter": "E",
+          "text": "Cintigrama renal: hidronefrosis"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La litiasis recurrente amerita estudio metabólico en orina de 24 horas (calcio, oxalato, citrato, ácido úrico, sodio, volumen). La alteración más frecuente en la litiasis cálcica es la hipercalciuria idiopática, con calcemia y PTH normales. Se maneja con abundante agua, dieta baja en sodio con calcio normal y, si persiste, tiazidas.",
+      "say": {
+        "stem": "Un hombre de treinta y ocho años ha tenido tres cólicos renales en dos años por cálculos de oxalato de calcio, con calcemia, PTH y función renal normales.",
+        "question": "¿Qué examen orienta mejor la prevención y cuál es el hallazgo más frecuente?",
+        "options": "Las opciones: uricemia, calciuria de veinticuatro horas con hipercalciuria idiopática, cistinuria, urocultivo por Proteus o cintigrama renal. Piénsalo.",
+        "answer": "Es la B. En la litiasis cálcica recurrente el hallazgo más frecuente es la hipercalciuria idiopática, que se detecta en orina de veinticuatro horas. La uricemia tienta, pero el ácido úrico en sangre no explica cálculos de oxalato de calcio."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 49",
+      "stem": "Un paciente ha presentado 5 episodios de litiasis ureteral en los últimos años.",
+      "question": "¿Cuál es la alteración metabólica más probable en este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hipercalciuria"
+        },
+        {
+          "letter": "B",
+          "text": "Hiperoxaluria"
+        },
+        {
+          "letter": "C",
+          "text": "Hiperuricosuria"
+        },
+        {
+          "letter": "D",
+          "text": "Hipocitraturia"
+        },
+        {
+          "letter": "E",
+          "text": "Cistinuria"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La mayoría de los cálculos urinarios son de oxalato de calcio, y la alteración metabólica más frecuente en litiásicos recurrentes es la hipercalciuria, idiopática en la mayoría de los casos, seguida de hipocitraturia e hiperoxaluria. La cistinuria es rara y genética. En la litiasis recurrente está indicado el estudio metabólico con orina de 24 horas.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Paciente con cinco episodios de litiasis ureteral en los últimos años.",
+        "question": "¿Qué alteración metabólica es la más probable?",
+        "options": "Las opciones: hipercalciuria, hiperoxaluria, hiperuricosuria, hipocitraturia, o cistinuria. Piénsalo.",
+        "answer": "Es la A. Hipercalciuria, la alteración más frecuente en litiásicos recurrentes. La hipocitraturia también es común, pero va detrás de la hipercalciuria."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.2.001 · Cólico nefrítico, urolitiasis y complicaciones:",
+      "stem": "Mujer de 40 años consulta por dolor lumbar derecho cólico irradiado a la ingle, con náuseas. La TAC sin contraste muestra un cálculo de 6 mm en el uréter distal derecho con hidronefrosis leve.",
+      "question": "¿Cuál de los siguientes hallazgos obliga a hospitalizar y resolver la obstrucción en forma urgente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hematuria microscópica"
+        },
+        {
+          "letter": "B",
+          "text": "Dolor que cede con ketorolaco"
+        },
+        {
+          "letter": "C",
+          "text": "Fiebre de 38,8 °C con escalofríos"
+        },
+        {
+          "letter": "D",
+          "text": "Cálculo menor de 10 mm"
+        },
+        {
+          "letter": "E",
+          "text": "Antecedente de un cólico renal previo"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Un cólico renal con fiebre sugiere uropatía obstructiva infectada, que puede evolucionar rápido a sepsis: requiere hospitalización, antibióticos y drenaje urgente de la vía urinaria con catéter doble J o nefrostomía. Otras indicaciones de hospitalizar son monorreno, falla renal, dolor refractario o vómitos incoercibles. La hematuria es esperable en el cólico.",
+      "say": {
+        "stem": "Mujer de cuarenta años con cólico renal derecho y un cálculo de seis milímetros en el uréter distal.",
+        "question": "¿Qué hallazgo obliga a hospitalizar y desobstruir de urgencia?",
+        "options": "Las opciones: hematuria microscópica, dolor que cede con analgesia, fiebre con escalofríos, cálculo pequeño o cólico previo. Piénsalo.",
+        "answer": "Es la C. La fiebre, porque una vía urinaria obstruida e infectada puede llevar a sepsis. La hematuria asusta, pero es esperable en todo cólico renal."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.003 · Pielo TAC",
+      "stem": "Hombre de 38 años con dolor lumbar izquierdo cólico intenso de inicio súbito, irradiado a la fosa ilíaca y al testículo, con hematuria microscópica. Afebril, con función renal normal.",
+      "question": "¿Cuál es el examen de elección para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía simple de abdomen"
+        },
+        {
+          "letter": "B",
+          "text": "Pielo TAC (TAC de abdomen y pelvis sin contraste)"
+        },
+        {
+          "letter": "C",
+          "text": "Pielografía de eliminación"
+        },
+        {
+          "letter": "D",
+          "text": "Cintigrama renal"
+        },
+        {
+          "letter": "E",
+          "text": "Resonancia magnética de abdomen"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La pielo TAC, tomografía sin contraste, es el examen de elección en el cólico renal: tiene sensibilidad y especificidad cercanas al 95% y muestra cálculos de cualquier composición, su tamaño y ubicación, la hidronefrosis y diagnósticos diferenciales. La radiografía no ve cálculos radiolúcidos y la pielografía requiere contraste y está en desuso. En embarazadas se prefiere la ecografía.",
+      "say": {
+        "stem": "Hombre de treinta y ocho años con cólico renal izquierdo irradiado al testículo y hematuria microscópica.",
+        "question": "¿Qué examen confirma el diagnóstico?",
+        "options": "Las opciones: radiografía de abdomen, pielo TAC sin contraste, pielografía de eliminación, cintigrama, o resonancia. Piénsalo.",
+        "answer": "Es la B. La pielo TAC sin contraste, que ve casi todos los cálculos. La radiografía es más simple, pero no detecta los cálculos radiolúcidos."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.004 · Radiografía renal y vesical simple",
+      "stem": "Hombre de 55 años con gota tofácea presenta un cólico renal. La pielo TAC muestra un cálculo de 7 mm en el uréter proximal derecho, pero en la radiografía simple renal y vesical no se observan imágenes radioopacas.",
+      "question": "¿Cuál es la composición más probable del cálculo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Oxalato de calcio"
+        },
+        {
+          "letter": "B",
+          "text": "Fosfato de calcio"
+        },
+        {
+          "letter": "C",
+          "text": "Estruvita"
+        },
+        {
+          "letter": "D",
+          "text": "Ácido úrico"
+        },
+        {
+          "letter": "E",
+          "text": "Cistina"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Los cálculos de ácido úrico son radiolúcidos: no se ven en la radiografía simple de riñón y vejiga, pero sí en la TAC. Se asocian a gota, hiperuricemia y orina ácida, y pueden disolverse alcalinizando la orina con citrato de potasio. Los cálculos de calcio y la estruvita son radioopacos, y la cistina es débilmente opaca.",
+      "say": {
+        "stem": "Hombre con gota y un cálculo ureteral que se ve en la TAC, pero no en la radiografía simple.",
+        "question": "¿De qué está hecho el cálculo?",
+        "options": "Las opciones: oxalato de calcio, fosfato de calcio, estruvita, ácido úrico o cistina. Piénsalo.",
+        "answer": "Es la D. Ácido úrico, radiolúcido y típico de la gota. El oxalato de calcio es el más frecuente en general, pero se vería en la radiografía."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.011 · Estudio metabólico de urolitiasis",
+      "stem": "Distintos pacientes consultan tras expulsar su primer cálculo urinario.",
+      "question": "¿En cuál de ellos está indicado un estudio metabólico completo de urolitiasis (orina de 24 horas, calcemia, PTH)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hombre de 40 años con un primer cálculo de 4 mm expulsado, sin otros antecedentes"
+        },
+        {
+          "letter": "B",
+          "text": "Hombre de 50 años con un único cólico hace 10 años"
+        },
+        {
+          "letter": "C",
+          "text": "Mujer de 35 años monorrena con un primer cálculo"
+        },
+        {
+          "letter": "D",
+          "text": "Mujer de 45 años con un cálculo único sin hidronefrosis"
+        },
+        {
+          "letter": "E",
+          "text": "Ningún paciente con litiasis requiere estudio metabólico"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El estudio metabólico completo se indica en pacientes de alto riesgo: litiasis recurrente, monorrenos, niños, cálculos bilaterales o múltiples, cálculos de ácido úrico, cistina o estruvita, enfermedades asociadas como hiperparatiroidismo, gota o malabsorción, y nefrocalcinosis. En un primer episodio no complicado basta un estudio básico y medidas generales como la hidratación.",
+      "say": {
+        "stem": "Varios pacientes acaban de expulsar su primer cálculo.",
+        "question": "¿A quién le haces estudio metabólico completo?",
+        "options": "Las opciones: hombre joven con cálculo pequeño, hombre con un cólico hace diez años, mujer monorrena, mujer con cálculo único sin hidronefrosis o a ninguno. Piénsalo.",
+        "answer": "Es la C. A la mujer monorrena, porque una nueva obstrucción podría dejarla sin función renal. Un primer cálculo sin factores de riesgo solo necesita estudio básico."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.5.003 · Instalación pigtail",
+      "stem": "Mujer de 45 años con un cálculo de 8 mm en el uréter proximal izquierdo e hidronefrosis moderada presenta fiebre de 39 °C, escalofríos, PA 95/60 mmHg y leucocitosis.",
+      "question": "Además de antibióticos y fluidos, ¿cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Litotripsia extracorpórea urgente"
+        },
+        {
+          "letter": "B",
+          "text": "Nefrectomía de urgencia"
+        },
+        {
+          "letter": "C",
+          "text": "Tamsulosina y esperar la expulsión"
+        },
+        {
+          "letter": "D",
+          "text": "Drenaje urgente de la vía urinaria con catéter ureteral doble J (pigtail) o nefrostomía"
+        },
+        {
+          "letter": "E",
+          "text": "Ureteroscopía con litotricia láser inmediata"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La pielonefritis obstructiva es una emergencia urológica: además de antibióticos, requiere descompresión urgente con catéter doble J (pigtail) por vía cistoscópica o con nefrostomía percutánea. El tratamiento definitivo del cálculo se difiere hasta resolver la infección, porque la litotripsia o la ureteroscopía en este contexto aumentan el riesgo de sepsis.",
+      "say": {
+        "stem": "Mujer de cuarenta y cinco años con un cálculo ureteral obstructivo, fiebre alta, escalofríos e hipotensión.",
+        "question": "Además de antibióticos y fluidos, ¿qué haces?",
+        "options": "Las opciones: litotripsia urgente, nefrectomía, tamsulosina, drenaje con catéter doble jota o nefrostomía o ureteroscopía inmediata. Piénsalo.",
+        "answer": "Es la D. Drenar la vía urinaria con catéter doble jota o nefrostomía. Romper el cálculo de inmediato parece resolutivo, pero con infección aumenta el riesgo de sepsis."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.1.026 · Uropatía alta",
+      "stem": "Mujer de 48 años con dolor lumbar derecho tipo cólico de 2 días, ahora con fiebre de 39 °C, calofríos y PA 95/60 mmHg. La TAC sin contraste muestra un cálculo de 8 mm en el uréter proximal derecho con hidronefrosis moderada. Creatinina 1,6 mg/dL. Se inician hemocultivos, volumen y antibióticos endovenosos.",
+      "question": "¿Cuál es la conducta más importante a continuación?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tamsulosina y esperar expulsión espontánea"
+        },
+        {
+          "letter": "B",
+          "text": "Litotricia extracorpórea de urgencia"
+        },
+        {
+          "letter": "C",
+          "text": "Derivación urgente de la vía urinaria (catéter doble J o nefrostomía percutánea)"
+        },
+        {
+          "letter": "D",
+          "text": "Ureteroscopía con extracción del cálculo en el mismo acto"
+        },
+        {
+          "letter": "E",
+          "text": "Completar 14 días de antibióticos y luego reevaluar"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Una pielonefritis obstructiva (uropatía obstructiva alta infectada) es una urgencia urológica: además de antibióticos y soporte, requiere descomprimir la vía urinaria de inmediato con catéter doble J o nefrostomía. El tratamiento definitivo del cálculo (litotricia o ureteroscopía) se difiere hasta resolver la infección, porque manipularlo infectado agrava la sepsis.",
+      "say": {
+        "stem": "Mujer de cuarenta y ocho años con un cálculo de ocho milímetros en el uréter derecho, hidronefrosis, fiebre alta, calofríos y presión baja. Ya se iniciaron antibióticos y volumen.",
+        "question": "¿Cuál es la conducta más importante ahora?",
+        "options": "Las opciones: tamsulosina y esperar, litotricia de urgencia, derivar urgente la vía urinaria con doble jota o nefrostomía, ureteroscopía con extracción o solo antibióticos. Piénsalo.",
+        "answer": "Es la C. Una obstrucción urinaria infectada se drena de urgencia con un catéter doble jota o una nefrostomía. Sacar el cálculo de inmediato tienta, pero manipularlo con orina infectada empeora la sepsis; eso se hace después."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.4.001 · Radiografía renal y vesical simple",
+      "stem": "Hombre de 40 años con cólico renal derecho. La TAC sin contraste muestra un cálculo de 6 mm en el uréter distal derecho, de densidad alta. Se decide manejo médico expulsivo y seguimiento.",
+      "question": "¿Cuál es el examen más adecuado para el seguimiento de la expulsión de este cálculo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía simple renal, ureteral y vesical (de abdomen), ya que la mayoría de los cálculos son radiopacos"
+        },
+        {
+          "letter": "B",
+          "text": "Pielografía de eliminación semanal"
+        },
+        {
+          "letter": "C",
+          "text": "Resonancia magnética de abdomen"
+        },
+        {
+          "letter": "D",
+          "text": "Cintigrama renal"
+        },
+        {
+          "letter": "E",
+          "text": "Cistoscopía"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Cerca del 90% de los cálculos urinarios (oxalato y fosfato de calcio) son radiopacos, por lo que la radiografía simple de abdomen (riñón, uréter y vejiga) sirve para el seguimiento de un cálculo visible, con menor radiación que repetir TAC. Los de ácido úrico son radiolúcidos y no se ven en la radiografía.",
+      "say": {
+        "stem": "Hombre de cuarenta años con un cálculo de seis milímetros, denso, en el uréter distal, en manejo médico para su expulsión.",
+        "question": "¿Cuál es el examen más adecuado para el seguimiento?",
+        "options": "Las opciones: radiografía simple de riñón, uréter y vejiga, pielografía semanal, resonancia, cintigrama o cistoscopía. Piénsalo.",
+        "answer": "Es la A. La radiografía simple basta porque la mayoría de los cálculos son radiopacos, y irradia menos que repetir la tomografía. La pielografía tienta por ser un estudio clásico, pero usa contraste y más radiación sin ganancia aquí."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.4.002 · Pielografía de eliminación",
+      "stem": "Se evalúa a un paciente para un estudio de la vía urinaria con medio de contraste yodado endovenoso (pielografía de eliminación o uroTAC).",
+      "question": "¿Cuál de las siguientes condiciones es la principal limitación o contraindicación relativa para este estudio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hipertensión arterial controlada"
+        },
+        {
+          "letter": "B",
+          "text": "Infección urinaria baja tratada"
+        },
+        {
+          "letter": "C",
+          "text": "Litiasis renal"
+        },
+        {
+          "letter": "D",
+          "text": "Hematuria macroscópica"
+        },
+        {
+          "letter": "E",
+          "text": "Insuficiencia renal con VFG menor de 30 mL/min o antecedente de reacción alérgica grave al medio de contraste"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La pielografía de eliminación (urografía excretora) depende de la excreción renal de contraste yodado, por lo que en insuficiencia renal la imagen es pobre y hay riesgo de nefropatía por contraste; la alergia grave al contraste también la contraindica. Hoy ha sido reemplazada en gran medida por el uroTAC, que comparte estas limitaciones.",
+      "say": {
+        "stem": "Un paciente será estudiado con pielografía de eliminación, que usa contraste yodado endovenoso.",
+        "question": "¿Cuál es la principal contraindicación relativa?",
+        "options": "Las opciones: hipertensión controlada, infección urinaria tratada, litiasis renal, hematuria macroscópica o insuficiencia renal avanzada o alergia grave al contraste. Piénsalo.",
+        "answer": "Es la E. Son la insuficiencia renal avanzada y la alergia grave al contraste, porque el estudio depende de que el riñón excrete el yodo. La litiasis tienta, pero es justamente una indicación del estudio, no una contraindicación."
+      }
     },
 
     {

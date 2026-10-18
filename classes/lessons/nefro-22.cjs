@@ -106,6 +106,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El corte que cambia la receta',
+      images: [
+        { src: 'animaciones/nefro-22/A1_cortes_tfg.mp4', label: 'Cortes de filtración', credit: 'Animación propia (gráfico)' },
+      ],
+      steps: [
+        { note: 'Metformina, aminoglucósidos, enoxaparina y AINE',
+          say: 'A medida que cae la filtración, cada fármaco cambia. La metformina baja a la mitad entre treinta y cuarenta y cuatro y se suspende bajo treinta. Los aminoglucósidos se espacian bajo sesenta, la enoxaparina se reduce bajo treinta, y los antiinflamatorios no se usan en la enfermedad renal. Para el contraste, hidratación isotónica; la furosemida y el manitol no protegen.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las decisiones en un árbol, partiendo por la filtración.',
     },

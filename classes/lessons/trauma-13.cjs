@@ -77,12 +77,16 @@ module.exports = {
       cards: [
         { title: 'Osteocondroma', tag: 'El benigno más frecuente', kind: 'key', items: [
           { t: 'Joven con bulto óseo indoloro', d: 'Muchas veces asintomático', say: 'El osteocondroma es el tumor óseo benigno más frecuente. Se ve en jóvenes, que están asintomáticos o consultan por un bulto duro que no duele.' },
-          { t: 'Radiografía: cachito de hueso', d: 'Crece hacia afuera de la metáfisis', say: 'En la radiografía parece un cachito de hueso que crece hacia afuera desde la metáfisis, como un hijo del hueso.' },
+          { t: 'Radiografía: cachito de hueso', d: 'Crece hacia afuera de la metáfisis',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-13/02_osteocondroma-perone__bailey-love_p560.jpg', label: 'Osteocondroma del peroné', at: 'Aquí un osteocondroma', credit: 'Bailey & Love 27.ª ed., Fig. 37.14' },
+            say: 'En la radiografía parece un cachito de hueso que crece hacia afuera desde la metáfisis, como un hijo del hueso. Aquí un osteocondroma en el peroné proximal: una proyección ósea con bordes nítidos que sale de la metáfisis. Es benigno.' },
           { t: 'Observación', d: 'Cirugía si comprime o duele por roce', say: 'Se observa. Solo se opera si comprime una estructura o duele por roce.' },
         ] },
         { title: 'Osteoma osteoide', tag: 'Dolor que cede con aspirina', kind: 'alert', items: [
           { t: 'Dolor nocturno en joven', d: 'Cede con aspirina o AINE', say: 'En el osteoma osteoide la pista es el dolor nocturno de un joven que cede con aspirina o con antiinflamatorios.' },
-          { t: 'Nidus radiolúcido con halo', d: 'Pequeño, en la cortical', say: 'La radiografía muestra una lesión pequeña y radiolúcida, el nidus, rodeada de un halo de esclerosis, típicamente en la cortical.' },
+          { t: 'Nidus radiolúcido con halo', d: 'Pequeño, en la cortical',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-13/03_osteoma-osteoide-tibia__bailey-love_p559.jpg', label: 'Osteoma osteoide de la tibia', at: 'este osteoma osteoide', credit: 'Bailey & Love 27.ª ed., Fig. 37.11' },
+            say: 'La radiografía muestra una lesión pequeña y radiolúcida, el nidus, rodeada de un halo de esclerosis, típicamente en la cortical. En este osteoma osteoide de la tibia, la cortical está engrosada por hueso reactivo alrededor de la lesión pequeña.' },
           { t: 'AINE; cirugía o ablación', d: 'Si el dolor no cede o es grande', say: 'Se trata con antiinflamatorios. Si no responde o la lesión es grande, se plantea cirugía o ablación por radiofrecuencia.' },
         ] },
       ],
@@ -129,7 +133,9 @@ module.exports = {
           { t: 'Metáfisis, cerca de la rodilla', d: 'Fémur distal y tibia proximal', say: 'Se ubica en la metáfisis de los huesos largos, sobre todo alrededor de la rodilla.' },
         ] },
         { title: 'Radiografía y tratamiento', tag: 'Agresivo', kind: 'alert', items: [
-          { t: 'Lesión heterogénea, sol naciente', d: 'Cortical rota y partes blandas invadidas', say: 'La radiografía es francamente maligna: heterogénea, con cortical interrumpida y reacción en sol naciente. Ojo que el examen muestra zonas que se destruyen y otras que se densifican.' },
+          { t: 'Lesión heterogénea, sol naciente', d: 'Cortical rota y partes blandas invadidas',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-13/01_osteosarcoma-esclerotico-femur-distal__bailey-love_p556.jpg', label: 'Osteosarcoma, fémur distal', at: 'Este es un osteosarcoma', credit: 'Bailey & Love 27.ª ed., Fig. 37.4' },
+            say: 'La radiografía es francamente maligna: heterogénea, con cortical interrumpida y reacción en sol naciente. Este es un osteosarcoma esclerótico del fémur distal de un niño: está en la metáfisis, junto a la rodilla, y el hueso se ve denso y mal delimitado. Hay zonas que se destruyen y otras que se densifican.' },
           { t: 'Cirugía radical más quimioterapia', d: 'A veces con conservación de la extremidad', say: 'Se trata con cirugía radical, que a veces conserva la extremidad, más quimioterapia.' },
         ] },
       ],
@@ -142,52 +148,19 @@ module.exports = {
       cards: [
         { title: 'Sarcoma de Ewing', tag: 'Niño y diáfisis', kind: 'alert', items: [
           { t: 'Niños y adolescentes', d: 'Diáfisis de huesos largos o pelvis', say: 'El sarcoma de Ewing es de niños y adolescentes. Su sitio clásico es la diáfisis de los huesos largos o la pelvis.' },
-          { t: 'Telas de cebolla', d: 'Reacción perióstica en capas', say: 'En la radiografía busca las telas de cebolla.' },
+          { t: 'Telas de cebolla', d: 'Reacción perióstica en capas',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-13/05_sarcoma-de-ewing-perone__bailey-love_p558.jpg', label: 'Ewing del peroné proximal', at: 'Mira el periostio', credit: 'Bailey & Love 27.ª ed., Fig. 37.8' },
+            say: 'En la radiografía busca las telas de cebolla. Mira el periostio levantado en capas finas a lo largo del peroné de este niño: es un sarcoma de Ewing.' },
           { t: 'Biopsia: células azules redondas', d: 'Parece un linfoma', say: 'La biopsia muestra células pequeñas, redondas y azules, parecidas a un linfoma.' },
           { t: 'Quimioterapia, cirugía y radioterapia', d: 'Pronóstico reservado, mejora hoy', say: 'Se trata con quimioterapia, cirugía y a veces radioterapia. El pronóstico es reservado, pero ha mejorado con los tratamientos actuales.' },
         ] },
         { title: 'Tumor de células gigantes', tag: 'Adulto, rodilla', kind: 'key', items: [
           { t: 'Adultos de 40 a 50 años', d: 'Fémur distal o tibia proximal', say: 'El tumor de células gigantes aparece en adultos de cuarenta a cincuenta años, en la epífisis y la metáfisis alrededor de la rodilla.' },
-          { t: 'Agresivo local, sin metástasis', d: 'Rompe cortical e invade partes blandas', say: 'Es localmente muy agresivo, rompe la cortical e invade partes blandas, pero generalmente no da metástasis. Biológicamente es benigno y radiológicamente parece maligno.' },
+          { t: 'Agresivo local, sin metástasis', d: 'Rompe cortical e invade partes blandas',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-13/04_tumor-celulas-gigantes-radio__bailey-love_p563.jpg', label: 'Células gigantes del radio', at: 'En esta radiografía', credit: 'Bailey & Love 27.ª ed., Fig. 37.22' },
+            say: 'Es localmente muy agresivo, rompe la cortical e invade partes blandas, pero generalmente no da metástasis. En esta radiografía es una lesión lítica que llega hasta el extremo del radio distal, cerca de la articulación. Biológicamente es benigno y radiológicamente parece maligno.' },
           { t: 'Legrado amplio', d: 'Curetaje quirúrgico', say: 'Se trata con cirugía: un legrado o curetaje amplio.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Tumores óseos en la radiografía',
-      images: [
-        { src: 'biblioteca/18_traumatologia/trauma-13/01_osteosarcoma-esclerotico-femur-distal__bailey-love_p556.jpg', label: 'Osteosarcoma esclerótico del fémur distal', credit: 'Bailey & Love 27.ª ed., Fig. 37.4' },
-        { src: 'biblioteca/18_traumatologia/trauma-13/02_osteocondroma-perone__bailey-love_p560.jpg', label: 'Osteocondroma del peroné proximal', credit: 'Bailey & Love 27.ª ed., Fig. 37.14' },
-        { src: 'biblioteca/18_traumatologia/trauma-13/05_sarcoma-de-ewing-perone__bailey-love_p558.jpg', label: 'Sarcoma de Ewing del peroné proximal: reacción perióstica en capas', credit: 'Bailey & Love 27.ª ed., Fig. 37.8' },
-      ],
-      steps: [
-        { note: 'Osteosarcoma: hueso denso en la metáfisis',
-          say: 'Este es un osteosarcoma esclerótico en el fémur distal de un niño. Fíjate en que está en la metáfisis, junto a la rodilla, y en que el hueso se ve denso y mal delimitado.' },
-        { note: 'Osteocondroma: crece hacia afuera',
-          say: 'Aquí un osteocondroma en el peroné proximal. Es una proyección ósea que sale hacia afuera de la metáfisis, con bordes nítidos. Es benigno.' },
-        { note: 'Ewing: reacción perióstica en capas',
-          say: 'Y un sarcoma de Ewing en el peroné de un niño. Mira el periostio levantado en capas finas a lo largo del hueso: es la imagen en telas de cebolla.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Otros tumores óseos',
-      images: [
-        { src: 'biblioteca/18_traumatologia/trauma-13/03_osteoma-osteoide-tibia__bailey-love_p559.jpg', label: 'Osteoma osteoide de la diáfisis tibial', credit: 'Bailey & Love 27.ª ed., Fig. 37.11' },
-        { src: 'biblioteca/18_traumatologia/trauma-13/04_tumor-celulas-gigantes-radio__bailey-love_p563.jpg', label: 'Tumor de células gigantes del radio distal', credit: 'Bailey & Love 27.ª ed., Fig. 37.22' },
-      ],
-      steps: [
-        { note: 'Osteoma osteoide en la diáfisis',
-          say: 'Este osteoma osteoide en la tibia muestra la cortical engrosada por hueso reactivo alrededor de una lesión pequeña. Es el joven con dolor nocturno que cede con aspirina.' },
-        { note: 'Células gigantes: lítico, cerca de la articulación',
-          say: 'Y este es un tumor de células gigantes en el radio distal, una lesión lítica que llega hasta el extremo del hueso, en un adulto. Cerca de la articulación es lo que se pregunta.' },
       ],
     },
 
@@ -330,6 +303,44 @@ module.exports = {
         options: 'Las opciones: fractura en maduración; hematoma calcificado; osteomielitis aguda; tumor óseo maligno; o condromalacia. Piénsalo.',
         answer: 'Es la D. Cortical rota, partes blandas calcificadas y reacción perióstica triangular son un tumor óseo maligno. La B es la trampa porque hay un golpe previo, pero un hematoma no destruye la cortical ni mezcla zonas líticas y densas.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.4.005 · Radiografía en tumores oseos",
+      "stem": "Adolescente de 15 años consulta por dolor en la rodilla izquierda de 2 meses, que lo despierta en la noche, y aumento de volumen. La radiografía muestra en la metáfisis distal del fémur una lesión de bordes mal definidos, con destrucción cortical, formación de hueso en rayos de sol y un triángulo de Codman.",
+      "question": "¿Cuál es la interpretación radiológica y el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lesión benigna de márgenes escleróticos; osteocondroma"
+        },
+        {
+          "letter": "B",
+          "text": "Nidus radiolúcido menor de 1 cm con esclerosis; osteoma osteoide"
+        },
+        {
+          "letter": "C",
+          "text": "Lesión lítica central bien delimitada; quiste óseo simple"
+        },
+        {
+          "letter": "D",
+          "text": "Lesión agresiva con reacción perióstica maligna; osteosarcoma"
+        },
+        {
+          "letter": "E",
+          "text": "Lesión epifisaria en pompas de jabón; tumor de células gigantes"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Bordes mal definidos, rotura cortical, reacción perióstica en rayos de sol y triángulo de Codman son signos radiológicos de agresividad. En la metáfisis de un adolescente, el diagnóstico más probable es osteosarcoma; se deriva para resonancia de todo el hueso, TC de tórax y biopsia en centro especializado.",
+      "say": {
+        "stem": "Un adolescente de quince años tiene dolor nocturno en la rodilla izquierda hace dos meses. La radiografía muestra en la metáfisis del fémur una lesión mal delimitada que rompe la cortical, con hueso en rayos de sol y triángulo de Codman.",
+        "question": "¿Cuál es la interpretación y el diagnóstico más probable?",
+        "options": "Las opciones: osteocondroma, osteoma osteoide, quiste óseo simple, osteosarcoma o tumor de células gigantes. Piénsalo.",
+        "answer": "Es la D. Bordes mal definidos, rotura de cortical, rayos de sol y triángulo de Codman son signos de agresividad, y en la metáfisis de un adolescente eso es un osteosarcoma. El osteoma osteoide tienta por el dolor nocturno, pero se ve como un nido pequeño rodeado de esclerosis, sin destrucción cortical."
+      }
     },
 
     {

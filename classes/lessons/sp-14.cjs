@@ -100,6 +100,56 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Salud ocupacional',
+      title: 'Riesgos laborales y cómo se controlan',
+      cards: [
+        { title: 'Cinco tipos de riesgo', tag: 'Condiciones de trabajo', kind: 'key', items: [
+          { t: 'Físicos y químicos', d: 'Ruido, radiación, calor; sílice, plomo, solventes, asbesto',
+            say: 'La licencia médica tiene un hermano: la salud ocupacional. Las condiciones de trabajo son los factores del ambiente laboral que influyen en la salud, y los riesgos son de cinco tipos. Los físicos: ruido, vibraciones, radiación, calor o frío. Los químicos: sílice, plomo, solventes, asbesto.' },
+          { t: 'Biológicos, ergonómicos, psicosociales', d: 'Posturas, repetición; ritmo, acoso, estrés',
+            say: 'Los biológicos. Los ergonómicos: cargas, posturas, movimientos repetitivos. Y los psicosociales: carga y ritmo de trabajo, acoso y estrés.' },
+        ] },
+        { title: 'Jerarquía de control', tag: 'De más a menos eficaz', kind: 'criteria', items: [
+          { t: 'Eliminar, sustituir, ingeniería', d: 'Primero actuar sobre la fuente',
+            say: 'El control sigue una jerarquía. Primero eliminar el riesgo, luego sustituirlo, luego controles de ingeniería.' },
+          { t: 'Administrativas y protección personal', d: 'Los elementos de protección van al final',
+            say: 'Después, medidas administrativas, y solo al final los elementos de protección personal. Es el orden que se pregunta: el casco y la mascarilla son la última barrera, no la primera.' },
+        ] },
+        { title: 'Normas', tag: 'Empresas', kind: 'normal', items: [
+          { t: 'DS 594', d: 'Condiciones sanitarias básicas del lugar de trabajo',
+            say: 'El decreto supremo quinientos noventa y cuatro fija las condiciones sanitarias y ambientales básicas de los lugares de trabajo.' },
+          { t: '25 trabajadores: comité paritario', d: '100 o más: departamento de prevención',
+            say: 'Las empresas de veinticinco o más trabajadores deben tener un comité paritario, y las de cien o más, un departamento de prevención de riesgos.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Ley 16.744',
+      title: 'Accidentes del trabajo y enfermedades profesionales',
+      cards: [
+        { title: 'Qué cubre la ley', tag: 'Seguro social obligatorio, 1968', kind: 'key', items: [
+          { t: 'Accidente del trabajo', d: 'A causa o con ocasión del trabajo; incapacidad o muerte',
+            say: 'La Ley dieciséis mil setecientos cuarenta y cuatro crea el seguro social obligatorio contra accidentes del trabajo y enfermedades profesionales. Accidente del trabajo es toda lesión que sufre una persona a causa o con ocasión del trabajo, y que le produce incapacidad o muerte.' },
+          { t: 'Accidente de trayecto', d: 'Camino directo entre casa y trabajo',
+            say: 'El accidente de trayecto es el ocurrido en el camino directo entre la habitación y el lugar de trabajo, o entre dos lugares de trabajo.' },
+          { t: 'Enfermedad profesional', d: 'Causada directamente por la profesión',
+            say: 'Y la enfermedad profesional es la causada directamente por el ejercicio de la profesión.' },
+        ] },
+        { title: 'Atención y trámites', tag: 'Organismo administrador', kind: 'alert', items: [
+          { t: 'Mutualidades o ISL', d: 'ACHS, Mutual de Seguridad, IST; atención gratuita hasta la curación',
+            say: 'La atención es gratuita, en el organismo administrador, que son las mutualidades, como ACHS, Mutual de Seguridad e IST, o el Instituto de Seguridad Laboral, hasta la curación.' },
+          { t: 'DIAT y DIEP', d: 'Las emite el empleador; si no, el trabajador o el médico',
+            say: 'Se hace la denuncia individual de accidente del trabajo, la DIAT, o de enfermedad profesional, la DIEP. La emite el empleador y, en su defecto, el trabajador o el médico tratante.' },
+          { t: 'Licencia tipo 5 o tipo 6', d: 'Accidente o trayecto; enfermedad profesional',
+            say: 'La licencia es tipo cinco si es accidente del trabajo o de trayecto, y tipo seis si es enfermedad profesional, y da derecho a subsidio. Si queda secuela hay indemnización o pensión de invalidez.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol de decisión frente a una solicitud de interrupción del embarazo.',
     },
@@ -191,6 +241,82 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.11.3.001 · Condiciones de trabajo",
+      "stem": "Mujer de 38 años, operaria de una planta de packing, consulta por dolor en el borde radial de la muñeca derecha de 2 meses, que relaciona con movimientos repetitivos en su trabajo. Prueba de Finkelstein positiva.",
+      "question": "Además del manejo clínico, ¿qué corresponde según la legislación chilena?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Derivar a la mutualidad u organismo administrador de la Ley 16.744 como posible enfermedad profesional"
+        },
+        {
+          "letter": "B",
+          "text": "Licencia médica común por enfermedad (FONASA o ISAPRE)"
+        },
+        {
+          "letter": "C",
+          "text": "Indicarle que cambie de trabajo por su cuenta"
+        },
+        {
+          "letter": "D",
+          "text": "Ninguna gestión, porque es una patología común"
+        },
+        {
+          "letter": "E",
+          "text": "Notificar a la SEREMI como enfermedad de notificación obligatoria"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La tenosinovitis de De Quervain por movimientos repetitivos puede ser una enfermedad profesional. Según la Ley 16.744, las enfermedades profesionales y los accidentes laborales se atienden en el organismo administrador (mutualidad o ISL), que cubre tratamiento, licencia y prestaciones y evalúa el puesto de trabajo. Corresponde la denuncia individual de enfermedad profesional, no una licencia común.",
+      "say": {
+        "stem": "Operaria de packing con tenosinovitis de De Quervain que relaciona con sus movimientos repetitivos en el trabajo.",
+        "question": "Además del manejo clínico, ¿qué corresponde por ley?",
+        "options": "Las opciones: derivar a la mutualidad por posible enfermedad profesional, licencia común, que cambie de trabajo por su cuenta, nada o notificación obligatoria a la SEREMI. Piénsalo.",
+        "answer": "Es la A. Derivarla al organismo administrador de la ley de accidentes del trabajo y enfermedades profesionales, como la mutualidad. La licencia común es la trampa, porque deja el costo en su previsión de salud y no evalúa el puesto de trabajo."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.3.001 · Accidentes del trabajo",
+      "stem": "Trabajadora de 40 años, contratada en una empresa, sufre una caída en la vía pública mientras se dirigía directamente desde su casa a su lugar de trabajo. Consulta en el servicio de urgencia de un hospital público por dolor en el tobillo; la radiografía muestra una fractura de maléolo lateral.",
+      "question": "Según la Ley 16.744, ¿cómo se clasifica y maneja este evento?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enfermedad común; licencia médica tipo 1 cubierta por FONASA o ISAPRE"
+        },
+        {
+          "letter": "B",
+          "text": "No tiene cobertura porque ocurrió fuera del lugar de trabajo"
+        },
+        {
+          "letter": "C",
+          "text": "Accidente de trayecto; se considera accidente del trabajo y debe ser cubierto por su organismo administrador (mutualidad o ISL)"
+        },
+        {
+          "letter": "D",
+          "text": "Enfermedad profesional; requiere evaluación por COMPIN"
+        },
+        {
+          "letter": "E",
+          "text": "Accidente escolar; cubierto por el seguro escolar"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La Ley 16.744 considera accidente del trabajo al ocurrido en el trayecto directo entre la habitación y el lugar de trabajo. Se notifica (DIAT) y la atención, el subsidio y la licencia tipo 5-6 son de cargo del organismo administrador del seguro (mutualidad o ISL), no de la previsión común.",
+      "say": {
+        "stem": "Trabajadora de cuarenta años que se fractura el tobillo al caer en la calle mientras iba directamente desde su casa al trabajo.",
+        "question": "Según la ley de accidentes del trabajo, ¿cómo se clasifica este evento?",
+        "options": "Las opciones: enfermedad común, sin cobertura, accidente de trayecto cubierto por la mutualidad, enfermedad profesional o accidente escolar. Piénsalo.",
+        "answer": "Es la C. Es un accidente de trayecto, que la ley asimila a accidente del trabajo y cubre el organismo administrador del seguro. Pensar que no tiene cobertura por ocurrir fuera de la empresa es el error tentador: el trayecto directo está protegido."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -200,6 +326,8 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Las causales de riesgo vital y de inviabilidad fetal no tienen límite de semanas; la de violación sí, doce semanas, o catorce si la víctima es una niña menor de catorce años.' },
           { t: 'Objeción de conciencia', d: 'Se suspende ante riesgo vital sin otro médico disponible',
             say: 'Y la objeción de conciencia es un derecho real, pero se suspende por ley cuando hay riesgo vital inminente y no hay otro médico disponible.' },
+          { t: 'Trayecto: tipo 5; profesional: tipo 6', d: 'Ley 16.744, atención en la mutualidad',
+            say: 'Y en salud ocupacional: el accidente de trayecto y del trabajo llevan licencia tipo cinco, la enfermedad profesional tipo seis, y la atención es gratuita en la mutualidad.' },
         ] },
         { title: 'Ejercicio y licencias', tag: 'Título y honestidad clínica', kind: 'alert', items: [
           { t: 'Sin título habilitante: delito', d: 'El Código Sanitario reserva el ejercicio médico',

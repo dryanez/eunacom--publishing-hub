@@ -84,7 +84,8 @@ module.exports = {
       cards: [
         { title: 'Examen inicial', tag: 'Buscar aire libre', kind: 'criteria', items: [
           { t: 'Radiografía de tórax de pie', d: 'Neumoperitoneo bajo el hemidiafragma derecho',
-            say: '¿Cómo lo confirmas? Con una radiografía de tórax de pie. Buscamos neumoperitoneo: el aire que escapó sube y queda bajo el diafragma, sobre todo bajo el hemidiafragma derecho, donde el hígado lo hace más visible.' },
+            say: '¿Cómo lo confirmas? Con una radiografía de tórax de pie. Buscamos neumoperitoneo: el aire que escapó sube y queda bajo el diafragma, sobre todo bajo el hemidiafragma derecho, donde el hígado lo hace más visible. Mira esta radiografía: bajo las cúpulas diafragmáticas hay una media luna negra de aire. En un dolor abdominal agudo, eso significa perforación hasta que se demuestre lo contrario.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-04/01_neumoperitoneo-bajo-diafragma__cto-digestivo_p65.jpg', label: 'Neumoperitoneo', at: 'Mira esta radiografía', credit: 'Manual CTO Digestivo 14.ª ed., p. 65' } },
           { t: 'Sin Rx de tórax: abdomen de pie', d: 'Alternativa si no está disponible',
             say: 'Si no tienes radiografía de tórax disponible, sirve la radiografía de abdomen de pie.' },
         ] },
@@ -155,7 +156,8 @@ module.exports = {
         { show: ['hem'], note: 'Si después sangra: Mallory-Weiss',
           say: 'Si después de los vómitos aparece hematemesis, sin enfisema ni fiebre, piensa en Mallory-Weiss. Es una causa de hemorragia digestiva alta que vas a volver a ver en la clase de hemorragia digestiva.' },
         { show: ['mw'], note: 'Solo se rompe la mucosa',
-          say: 'Es un desgarro que compromete solo la mucosa. La pared queda entera, así que no hay aire que escape.' },
+          say: 'Es un desgarro que compromete solo la mucosa. La pared queda entera, así que no hay aire que escape. Mira esta endoscopía: el desgarro de la mucosa en la unión gastroesofágica, que señala la flecha, con sangre fresca.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-04/02_mallory-weiss-endoscopia__atlas-eunacom.jpg', label: 'Mallory-Weiss', at: 'Mira esta endoscopía', credit: 'Atlas EUNACOM 2026' } },
         { show: ['mwt'], note: 'Aquí sí se endoscopia',
           say: 'Por eso aquí la endoscopía sí se hace: es el examen de elección. Suele ceder solo, y si sigue sangrando, se hace hemostasia endoscópica.' },
         { show: ['enf'], note: 'Si después duele y crepita: Boerhaave',
@@ -194,7 +196,8 @@ module.exports = {
       cards: [
         { title: 'Clínica', tag: 'Del labio al epigastrio', kind: 'key', items: [
           { t: 'Dolor y edema, sialorrea, disfagia', d: 'Desde los labios hasta el epigastrio',
-            say: 'Tercer cuadro, la ingesta de cáustico, típicamente soda cáustica. El cáustico quema todo lo que toca, así que el dolor y el edema van desde los labios hasta el epigastrio, con sialorrea y disfagia. El niño que babea y llora al tragar es el enunciado clásico.' },
+            say: 'Tercer cuadro, la ingesta de cáustico, típicamente soda cáustica. El cáustico quema todo lo que toca, así que el dolor y el edema van desde los labios hasta el epigastrio, con sialorrea y disfagia. El niño que babea y llora al tragar es el enunciado clásico. Mira esta endoscopía: la mucosa esofágica quemada, con exudado y estenosis incipiente.',
+            photos: [{ src: 'biblioteca/01_gastroenterologia/gastro-04/10_esofagitis-caustica-endoscopia__knoop_p633.jpg', label: 'Esofagitis cáustica', at: 'Mira esta endoscopía', credit: 'Knoop, Atlas of Emergency Medicine, p. 633' }] },
           { t: 'Hemorragia o perforación', d: 'Peritonitis o mediastinitis',
             say: 'En los casos graves puede haber hemorragia digestiva, o perforación, con peritonitis o mediastinitis.' },
         ] },
@@ -249,6 +252,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Radiología contrastada',
+      title: 'Estudios con contraste: cuándo y con qué medio',
+      cards: [
+        { title: 'Qué se pide', tag: 'Con bario', kind: 'key', items: [
+          { t: 'Esofagograma y tránsito con bario', d: 'Pico de pájaro, Zenker, estenosis, nicho',
+            say: 'Los estudios con contraste los pides y los lees por su informe. El esofagograma o tránsito esófago-gastro-duodenal con bario muestra la acalasia en pico de pájaro, el divertículo de Zenker, las estenosis y el nicho de una úlcera.' },
+          { t: 'Tránsito intestinal y enema baritada', d: 'Estenosis de Crohn; manzana mordida',
+            say: 'El tránsito intestinal muestra la estenosis del Crohn. Y la enema baritada, el cáncer en manzana mordida, los divertículos, el vólvulo y el megacolon.' },
+        ] },
+        { title: 'Cómo se lee', tag: 'Términos clave', kind: 'normal', items: [
+          { t: 'Defecto de llenado, nicho, estenosis', d: 'Masa o cuerpo extraño; úlcera; dilatación proximal',
+            say: 'El informe se lee por sus términos. Defecto de llenado: una masa o un cuerpo extraño. Nicho: una úlcera. Estenosis, con dilatación por encima.' },
+          { t: 'Extravasación del medio', d: 'Perforación',
+            say: 'Y si el medio de contraste sale de la luz, es una perforación.' },
+        ] },
+        { title: 'Regla de seguridad', tag: 'Sospecha de perforación', kind: 'alert', items: [
+          { t: 'Hidrosoluble, nunca bario', d: 'Bario en mediastino o peritoneo: infección grave',
+            say: 'La regla de seguridad: ante la sospecha de perforación, esofágica, gástrica o intestinal, se usa un medio hidrosoluble, no bario. El bario que sale al mediastino o al peritoneo causa mediastinitis o peritonitis graves. Con riesgo de aspiración, un medio no iónico.' },
+          { t: 'Enema baritada contraindicada', d: 'Colitis fulminante, megacolon tóxico, perforación colónica',
+            say: 'La enema baritada está contraindicada en la colitis fulminante, el megacolon tóxico y la perforación del colon. Y si sospechas una perforación, el estudio de elección es el TAC con contraste.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -259,19 +288,6 @@ module.exports = {
       steps: [
         { note: 'Endoscopía contraindicada',
           say: 'La úlcera perforada da un dolor en puñalada y el abdomen en tabla. La radiografía de tórax de pie muestra neumoperitoneo bajo el diafragma. La endoscopía está contraindicada, porque insufla aire, y el tratamiento es quirúrgico.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Aire libre bajo el diafragma',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-04/01_neumoperitoneo-bajo-diafragma__cto-digestivo_p65.jpg', label: 'Neumoperitoneo', credit: 'Manual CTO Digestivo 14.ª ed., p. 65' },
-      ],
-      steps: [
-        { note: 'Media luna de aire bajo el diafragma',
-          say: 'Mira bajo las cúpulas diafragmáticas: hay una media luna negra de aire. Eso es neumoperitoneo, y en un dolor abdominal agudo significa perforación hasta que se demuestre lo contrario.' },
       ],
     },
 
@@ -292,6 +308,8 @@ module.exports = {
           say: 'Perforación esofágica: radiografía de tórax, y si es negativa, TAC, buscando neumomediastino. Cirugía de urgencia, y tampoco endoscopía.' },
         { cells: ['Ingesta de cáustico', 'EDA precoz (gradúa el daño)', 'Según EDA · NO carbón, lavado ni vómito'],
           say: 'Ingesta de cáustico: aquí la endoscopía precoz es lo primero, y la conducta depende de lo que muestre. Prohibidos el carbón activado, el lavado gástrico y provocar el vómito.' },
+        { cells: ['Perforación sospechada y se necesita contraste', 'TAC con contraste o medio hidrosoluble', 'NO bario · NO enema baritada'],
+          say: 'Y si sospechas una perforación y necesitas contraste: TAC con contraste o un medio hidrosoluble. Nunca bario, y tampoco enema baritada.' },
         { cells: ['Mallory-Weiss', 'EDA', 'Suele ceder solo · hemostasia si sangra'],
           say: 'Y Mallory-Weiss: endoscopía, que suele mostrar un desgarro que cede solo, con hemostasia endoscópica si sigue sangrando.' },
       ],
@@ -410,6 +428,82 @@ module.exports = {
         options: 'Las alternativas: carbón activado, endoscopía digestiva alta, un agente alcalinizante, sonda nasogástrica para aspirar, o inducir el vómito. Piénsalo.',
         answer: 'Es la B, endoscopía digestiva alta. Es exactamente la regla que vimos: el daño ya ocurrió, así que carbón activado, neutralizantes, sonda para aspirar o provocar el vómito no ayudan y algunos lo empeoran. Lo único que sirve es graduar el daño con la endoscopía precoz, y de ahí decidir si se observa, se deja en régimen cero, o se opera.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.2.001 · Esofagitis cáustica",
+      "stem": "Mujer de 24 años llega a urgencias 2 horas después de ingerir, con intención suicida, un vaso de destapador de cañerías a base de soda cáustica. Presenta sialorrea, odinofagia y dolor retroesternal. PA 120/75 mmHg, FC 104 por minuto, sin enfisema subcutáneo ni signos peritoneales. Radiografía de tórax y abdomen sin aire libre.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inducir el vómito y administrar carbón activado"
+        },
+        {
+          "letter": "B",
+          "text": "Neutralizar con vinagre diluido por sonda nasogástrica"
+        },
+        {
+          "letter": "C",
+          "text": "Esofagectomía de urgencia"
+        },
+        {
+          "letter": "D",
+          "text": "Endoscopía digestiva alta diferida a las 3 semanas"
+        },
+        {
+          "letter": "E",
+          "text": "Régimen cero, hidratación endovenosa, analgesia y endoscopía digestiva alta en las primeras 12 a 24 horas"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Sin signos de perforación, se estabiliza con régimen cero y se hace endoscopía precoz (12–24 h, evitando el período de mayor fragilidad entre el día 3 y la semana 3) para graduar la lesión y definir el manejo. No se induce vómito, no se neutraliza ni se usa carbón. Requiere además evaluación psiquiátrica.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Mujer de veinticuatro años que, con intención suicida, tomó hace dos horas un vaso de destapador de cañerías con soda cáustica. Tiene sialorrea, dolor al tragar y dolor retroesternal. Está estable, sin enfisema subcutáneo ni signos peritoneales, y las radiografías no muestran aire libre.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: inducir el vómito con carbón activado, neutralizar con vinagre, esofagectomía de urgencia, endoscopía diferida a las tres semanas o régimen cero con endoscopía precoz. Piénsalo.",
+        "answer": "Es la E. Sin perforación, la endoscopía precoz, en las primeras veinticuatro horas, gradúa la quemadura y define el manejo. Diferirla es el error tentador: entre el tercer día y la tercera semana la pared está más frágil y el riesgo de perforar es mayor. Y nunca se induce el vómito ni se intenta neutralizar."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.4.008 · Radiografías contrastadas (EED, trànsito intestinal,",
+      "stem": "Hombre de 60 años presenta dolor retroesternal intenso, fiebre y enfisema subcutáneo cervical pocas horas después de vómitos violentos tras una comida copiosa con alcohol. Se sospecha una perforación esofágica.",
+      "question": "Si se decide realizar un estudio contrastado del esófago, ¿qué medio de contraste debe utilizarse inicialmente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bario, por su mejor definición de la mucosa"
+        },
+        {
+          "letter": "B",
+          "text": "No se usa contraste: basta una radiografía simple"
+        },
+        {
+          "letter": "C",
+          "text": "Aire, mediante endoscopía con insuflación"
+        },
+        {
+          "letter": "D",
+          "text": "Gadolinio"
+        },
+        {
+          "letter": "E",
+          "text": "Contraste hidrosoluble (yodado)"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Ante sospecha de perforación del tubo digestivo, el estudio contrastado debe hacerse con contraste hidrosoluble, porque el bario que escapa al mediastino o peritoneo produce una mediastinitis o peritonitis granulomatosa grave. Hoy la TAC con contraste oral hidrosoluble es el examen de elección en el síndrome de Boerhaave.",
+      "say": {
+        "stem": "Hombre de sesenta años que, pocas horas después de vómitos violentos tras una comida abundante con alcohol, tiene dolor retroesternal intenso, fiebre y enfisema subcutáneo en el cuello. Se sospecha una perforación esofágica.",
+        "question": "Si se hace un estudio contrastado del esófago, ¿qué contraste debe usarse?",
+        "options": "Las opciones: bario, ningún contraste, aire con endoscopía, gadolinio o contraste hidrosoluble yodado. Piénsalo.",
+        "answer": "Es la E. Si sospechas una perforación, el contraste debe ser hidrosoluble, porque el bario que se escapa al mediastino provoca una inflamación grave. El bario tienta porque dibuja mejor la mucosa, pero en una perforación es peligroso."
+      }
     },
 
     {

@@ -32,7 +32,8 @@ module.exports = {
         { show: ['bac'], note: 'Un bacilo ácido alcohol resistente',
           say: 'Partamos por el bacilo. Mycobacterium tuberculosis es un bacilo ácido alcohol resistente, un BAAR, y es aerobio estricto. Guarda ese dato de ácido alcohol resistente, porque es la base de la baciloscopía.' },
         { show: ['pri', 'dis'], note: 'Desde el pulmón viaja a otros órganos',
-          say: 'Después de la infección primaria, los bacilos pueden diseminarse por vía linfática y sanguínea, y sembrarse en otros órganos: la pleura, los ganglios, las meninges, la columna.' },
+          say: 'Después de la infección primaria, los bacilos pueden diseminarse por vía linfática y sanguínea, y sembrarse en otros órganos. Si la siembra es masiva, mira esta radiografía: tuberculosis miliar, con innumerables nódulos finos en ambos pulmones. Otros órganos de siembra son la pleura, los ganglios, las meninges, la columna.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-11/03_tbc-miliar-rx__cto-infecto_p66.jpg', label: 'Tuberculosis miliar (Rx)', at: 'mira esta radiografía', credit: 'Manual CTO Infecciosas 14.ª ed., p. 66' } },
         { show: ['lat'], note: 'Pueden quedar dormidos décadas',
           say: 'Y ahí pueden quedar latentes durante décadas, sin dar ningún síntoma.' },
         { show: ['ext'], note: 'Más frecuente cuanto peor la inmunidad',
@@ -47,7 +48,8 @@ module.exports = {
       cards: [
         { title: 'Pleuresía tuberculosa', tag: 'ADA > 40', kind: 'key', items: [
           { t: 'Exudado unilateral linfocítico', d: 'Linfocitos más de 80%',
-            say: 'Veamos las formas extrapulmonares, empezando por la pleura. La pleuresía tuberculosa es un derrame exudativo, unilateral, con predominio de linfocitos, típicamente más del ochenta por ciento.' },
+            say: 'Veamos las formas extrapulmonares, empezando por la pleura. La pleuresía tuberculosa es un derrame exudativo: mira esta radiografía, con el derrame unilateral que ocupa la base del hemitórax. Es un exudado, con predominio de linfocitos, típicamente más del ochenta por ciento.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-11/04_derrame-pleural__cto-neumo_p111.jpg', label: 'Derrame pleural unilateral', at: 'mira esta radiografía', credit: 'Manual CTO Neumología 14.ª ed., p. 111' } },
           { t: 'Adenosina deaminasa > 40 UI/L', d: 'Con clínica compatible, confirma',
             say: 'Y el examen clave es la adenosina deaminasa, el ADA. Si está sobre cuarenta unidades por litro, en un contexto clínico compatible, tiene valor diagnóstico confirmatorio. Exudado linfocítico con ADA alto es tuberculosis pleural: esa es la pregunta del tema.' },
         ] },
@@ -55,7 +57,8 @@ module.exports = {
           { t: 'Ganglios cervicales', d: 'Supraclaviculares y yugulares',
             say: 'La tuberculosis ganglionar, o escrófula, es la localización extrapulmonar más frecuente. Compromete típicamente los ganglios cervicales, supraclaviculares y yugulares.' },
           { t: 'Masas indoloras y frías', d: 'Coalescen y fistulizan a la piel',
-            say: 'Son masas indoloras y frías, sin los signos de inflamación de una adenitis bacteriana, que se van uniendo entre sí y pueden fistulizar a la piel, drenando material caseoso.' },
+            say: 'Mira este cuello: son masas indoloras y frías, sin los signos de inflamación de una adenitis bacteriana, que se van uniendo entre sí y pueden fistulizar a la piel, drenando material caseoso.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-11/02_escrofula-adenitis-tbc__amir-infecto_p112.jpg', label: 'Escrófula', at: 'Mira este cuello', credit: 'Manual AMIR Infecciosas, p. 112' } },
         ] },
       ],
     },
@@ -73,7 +76,8 @@ module.exports = {
         ] },
         { title: 'Mal de Pott', tag: 'Espondilodiscitis', kind: 'criteria', items: [
           { t: 'Columna torácica o lumbar', d: 'Destruye disco y vértebras vecinas',
-            say: 'Y el mal de Pott es la espondilodiscitis tuberculosa: compromete la columna torácica o lumbar, destruyendo el disco y los cuerpos vertebrales vecinos.' },
+            say: 'Y el mal de Pott es la espondilodiscitis tuberculosa: compromete la columna torácica o lumbar, destruyendo el disco y los cuerpos vertebrales vecinos, como ves en esta resonancia.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-11/01_mal-de-pott__cto-infecto_p69.jpg', label: 'Mal de Pott', at: 'como ves en esta resonancia', credit: 'Manual CTO Infecciosas 14.ª ed., p. 69' } },
           { t: 'Cifosis angular', d: 'Riesgo de compresión medular',
             say: 'Si avanza, colapsa las vértebras, produce una cifosis angular y puede comprimir la médula. Un lumbago que no cede, con parámetros inflamatorios altos, en un paciente con riesgo de tuberculosis, es Pott hasta demostrar lo contrario.' },
         ] },
@@ -98,7 +102,8 @@ module.exports = {
       ],
       steps: [
         { show: ['sos', 'bk'], note: 'Rápida y barata, pero poco sensible',
-          say: 'Pasemos al diagnóstico microbiológico. El método tradicional es la baciloscopía, con tinción de Ziehl Neelsen o fluorescencia con auramina, que busca los bacilos ácido alcohol resistentes. Es rápida y barata, pero necesita más de cinco mil bacilos por mililitro para verlos. Por eso una baciloscopía negativa no descarta la enfermedad.' },
+          say: 'Pasemos al diagnóstico microbiológico. El método tradicional es la baciloscopía, con tinción de Ziehl Neelsen o fluorescencia con auramina, que busca los bacilos ácido alcohol resistentes: mira esta baciloscopía, con bastoncitos rojos sobre fondo azul. Es rápida y barata, pero necesita más de cinco mil bacilos por mililitro para verlos. Por eso una baciloscopía negativa no descarta la enfermedad.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-11/03_ziehl-neelsen__commons.jpg', label: 'Ziehl-Neelsen', at: 'mira esta baciloscopía', credit: 'Wikimedia Commons, dominio público' } },
         { show: ['cul'], note: 'El único que da el antibiograma',
           say: 'El cultivo, en medio sólido de Lowenstein Jensen o líquido MGIT, sigue siendo el estándar de oro. Y tiene una ventaja que nadie más tiene: permite hacer el antibiograma. Un cultivo positivo es tuberculosis, aunque las baciloscopías hayan salido negativas.' },
         { show: ['gx'], note: 'Detecta el bacilo y su resistencia',
@@ -156,6 +161,30 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Fracaso y resistencia',
+      title: 'Fracaso, multirresistencia y TBC urinaria',
+      cards: [
+        { title: 'Fracaso de tratamiento', tag: 'Desde el 5.º mes', kind: 'alert', items: [
+          { t: 'Baciloscopía o cultivo (+) desde el 5.º mes', d: 'Causa más frecuente: mala adherencia',
+            say: 'Hablamos de fracaso cuando persiste la baciloscopía o el cultivo positivo desde el quinto mes de un esquema. La causa más frecuente es la mala adherencia.' },
+          { t: 'Cultivo con sensibilidad y GeneXpert', d: 'Nunca agregar un solo fármaco',
+            say: 'Se confirma la adherencia, se pide cultivo con sensibilidad y GeneXpert y se deriva. Nunca se agrega un solo fármaco a un esquema que falla.' },
+          { t: 'MDR: resistencia a H y R', d: 'Centro especializado, tratamiento supervisado',
+            say: 'La multirresistente, resistente a isoniacida y rifampicina, se sospecha en retratamientos, contactos de casos MDR y VIH. Se trata en centro especializado, siempre con tratamiento directamente observado.' },
+        ] },
+        { title: 'TBC genitourinaria', tag: 'Reactivación', kind: 'key', items: [
+          { t: 'Piuria ácida con urocultivo negativo', d: 'Piuria estéril, hematuria, disuria crónica',
+            say: 'La tuberculosis genitourinaria es una reactivación años después de la primoinfección. La pista es la piuria ácida con urocultivo corriente negativo, la piuria estéril, con hematuria y disuria crónicas.' },
+          { t: 'Cultivo de Koch en orina de 3 días', d: 'UroTAC: estenosis y calcificaciones',
+            say: 'Se confirma con cultivo de Koch en orina matinal de tres días seguidos y se estudia con UroTAC. Evoluciona a estenosis ureteral y vejiga contraída.' },
+          { t: 'Varón: epidídimo · mujer: trompas', d: 'Esquema estándar de 6 meses',
+            say: 'En el varón afecta epidídimo y próstata; en la mujer, las trompas, con infertilidad. Se trata con el esquema estándar de seis meses y se deriva a urología por las complicaciones.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -166,39 +195,6 @@ module.exports = {
       steps: [
         { note: 'Ganglios: la más frecuente',
           say: 'Después de la infección primaria, los bacilos se diseminan por vía linfática y sanguínea a la pleura, los ganglios, las meninges y la columna. Ahí pueden quedar latentes durante décadas. La ganglionar es la localización extrapulmonar más frecuente, y en las personas con VIH la forma extrapulmonar es más de la mitad de los casos.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Tuberculosis fuera del pulmón',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-11/01_mal-de-pott__cto-infecto_p69.jpg', label: 'Mal de Pott', credit: 'Manual CTO Infecciosas 14.ª ed., p. 69' },
-        { src: 'biblioteca/07_infectologia/infecto-11/02_escrofula-adenitis-tbc__amir-infecto_p112.jpg', label: 'Escrófula', credit: 'Manual AMIR Infecciosas, p. 112' },
-        { src: 'biblioteca/07_infectologia/infecto-11/04_derrame-pleural__cto-neumo_p111.jpg', label: 'Pleuresía: derrame unilateral', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
-      ],
-      steps: [
-        { note: 'Columna destruida',
-          say: 'El mal de Pott es la tuberculosis de la columna: destruye vértebras y discos.' },
-        { note: 'Adenitis cervical',
-          say: 'Y la escrófula es la adenitis tuberculosa del cuello, que puede fistulizar a la piel.' },
-        { note: 'Derrame unilateral: pide ADA',
-          say: 'Y la pleuresía tuberculosa: un derrame unilateral, que ocupa la base de un hemitórax. Es un exudado con predominio de linfocitos, y el ADA alto lo confirma.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-11/03_tbc-miliar-rx__cto-infecto_p66.jpg', label: 'Tuberculosis miliar (Rx)', credit: 'Manual CTO Infecciosas 14.ª ed., p. 66' },
-      ],
-      steps: [
-        { note: 'Tuberculosis miliar (Rx)',
-          say: 'Tuberculosis miliar: innumerables nódulos finos en ambos pulmones.' },
       ],
     },
 
@@ -387,6 +383,119 @@ module.exports = {
         options: 'Las opciones son: recaída; eliminación esporádica; fracaso; contaminación; o nocardiosis. Piénsalo.',
         answer: 'Es la C, fracaso. Dos baciloscopías positivas seguidas después del cuarto mes, con el paciente todavía en tratamiento, hacen sospechar un fracaso, y se confirma con cultivo y antibiograma, que es lo único que muestra la resistencia. La A es el distractor: la recaída es cuando la enfermedad vuelve después de terminar el tratamiento y quedar curado, no durante el tratamiento.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.1.013 · Derrame pleural por tuberculosis",
+      "stem": "Hombre de 28 años con 4 semanas de fiebre vespertina, tos seca, dolor pleurítico derecho y baja de 4 kg. Radiografía: derrame pleural derecho moderado. Toracocentesis: exudado con 85 % de linfocitos, glucosa 70 mg/dL, ADA 78 U/L y escasas células mesoteliales. Baciloscopía del líquido negativa.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibióticos para neumonía y control en 2 semanas"
+        },
+        {
+          "letter": "B",
+          "text": "Esperar el cultivo de Koch del líquido, de 6 a 8 semanas"
+        },
+        {
+          "letter": "C",
+          "text": "Pleurodesis con talco"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar tratamiento antituberculoso"
+        },
+        {
+          "letter": "E",
+          "text": "Toracoscopía con biopsia pleural antes de tratar"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Exudado linfocitario con ADA alto (sobre 60 U/L) en un adulto joven es diagnóstico de pleuresía tuberculosa y basta para iniciar tratamiento. La baciloscopía y el cultivo del líquido suelen ser negativos porque es una forma paucibacilar. La biopsia pleural se reserva para ADA dudoso o sospecha de cáncer.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de veintiocho años con un mes de fiebre en las tardes, tos seca, dolor pleurítico y baja de peso. Tiene un derrame pleural derecho, y el líquido es un exudado con predominio de linfocitos y ADA de setenta y ocho. La baciloscopía del líquido es negativa.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: antibióticos para neumonía, esperar el cultivo, pleurodesis, iniciar tratamiento antituberculoso o toracoscopía con biopsia. Piénsalo.",
+        "answer": "Es la D. Un exudado linfocitario con ADA alto en un joven es una pleuresía tuberculosa y se trata sin esperar más. Esperar el cultivo es la trampa: el derrame tuberculoso tiene pocos bacilos, así que el cultivo demora semanas y muchas veces sale negativo."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.1.037 · Tuberculosis pulmonar (fracaso de tratamiento)",
+      "stem": "Mujer de 40 años en tratamiento antituberculoso supervisado, con buena adherencia documentada. Sus baciloscopías de control fueron negativas en el 2.º y 3.º mes, pero vuelven a ser positivas en el 4.º y 5.º mes.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solicitar cultivo con estudio de susceptibilidad y prueba molecular de resistencia, y derivar al especialista del programa"
+        },
+        {
+          "letter": "B",
+          "text": "Prolongar el mismo esquema por 3 meses más"
+        },
+        {
+          "letter": "C",
+          "text": "Agregar levofloxacino al esquema actual"
+        },
+        {
+          "letter": "D",
+          "text": "Suspender el tratamiento y repetir las baciloscopías en un mes"
+        },
+        {
+          "letter": "E",
+          "text": "Cambiar a isoniazida en monoterapia"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Baciloscopías que se repositivizan después de negativizarse, desde el 4.º mes, definen fracaso de tratamiento y hacen sospechar resistencia. Se solicita cultivo con test de susceptibilidad y prueba molecular, y el caso lo maneja el especialista del Programa de Tuberculosis. Nunca se agrega un solo fármaco a un esquema que falla: genera más resistencia.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Mujer de cuarenta años en tratamiento antituberculoso supervisado, que lo toma bien. Sus baciloscopías se negativizaron al segundo y tercer mes, pero vuelven a salir positivas al cuarto y quinto mes.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: pedir cultivo con susceptibilidad y derivar al especialista, prolongar el mismo esquema, agregar levofloxacino, suspender y repetir baciloscopías o isoniazida sola. Piénsalo.",
+        "answer": "Es la A. Volver a positivizar desde el cuarto mes es un fracaso de tratamiento, y lo primero es estudiar la resistencia y derivar al programa. Agregar levofloxacino es la trampa: sumar un solo fármaco a un esquema que está fallando es la forma más rápida de crear más resistencia."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.1.016 · Infección urinaria específica",
+      "stem": "Hombre de 45 años, con antecedente de tuberculosis pulmonar tratada hace 10 años, consulta por disuria, polaquiuria y hematuria intermitente de 4 meses. Ha recibido 2 cursos de antibióticos sin mejoría. El sedimento urinario muestra leucocituria abundante con orina ácida, y los urocultivos convencionales han sido repetidamente negativos.",
+      "question": "¿Cuál es el estudio más adecuado para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Urocultivo con antibiograma nuevamente"
+        },
+        {
+          "letter": "B",
+          "text": "Citología urinaria"
+        },
+        {
+          "letter": "C",
+          "text": "Cultivo de orina para Mycobacterium tuberculosis (Koch) en muestras seriadas de primera orina de la mañana"
+        },
+        {
+          "letter": "D",
+          "text": "PCR para Chlamydia trachomatis en orina"
+        },
+        {
+          "letter": "E",
+          "text": "Ecografía testicular"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La piuria estéril (leucocituria con urocultivo convencional negativo) con orina ácida, hematuria y síntomas irritativos persistentes sugiere tuberculosis urogenital, más aún con antecedente de TBC. Se confirma con baciloscopía y cultivo de Koch en al menos 3 a 6 muestras seriadas de la primera orina matinal (o PCR para M. tuberculosis), y se estudia con uroTAC.",
+      "say": {
+        "stem": "Hombre de cuarenta y cinco años con tuberculosis pulmonar tratada en el pasado, que lleva cuatro meses con disuria, hematuria y leucocitos en la orina, pero con urocultivos siempre negativos pese a antibióticos.",
+        "question": "¿Cuál es el estudio que confirma el diagnóstico?",
+        "options": "Las opciones: repetir urocultivo, citología urinaria, cultivo de Koch en orinas seriadas, PCR para clamidia o ecografía testicular. Piénsalo.",
+        "answer": "Es la C. La piuria estéril en alguien con tuberculosis previa obliga a buscar tuberculosis urinaria con cultivo de Koch en varias muestras de orina matinal. La citología tienta por la hematuria, pero no explica la leucocituria con cultivos negativos."
+      }
     },
 
     {

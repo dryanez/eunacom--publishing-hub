@@ -70,7 +70,8 @@ module.exports = {
       cards: [
         { title: 'Ocular', tag: 'Lo más frecuente', kind: 'key', items: [
           { t: 'Ptosis asimétrica y diplopía', d: 'No calza con un solo par craneal',
-            say: 'Veamos cómo se presenta. Lo más frecuente es el ojo: la mitad de los pacientes debuta así, y más de ochenta y cinco por ciento lo tendrá en algún momento. Ptosis uni o bilateral asimétrica, y diplopía binocular que no calza con el territorio de un solo par craneal.' },
+            say: 'Veamos cómo se presenta. Lo más frecuente es el ojo: la mitad de los pacientes debuta así, y más de ochenta y cinco por ciento lo tendrá en algún momento. Ptosis uni o bilateral asimétrica, y diplopía binocular que no calza con el territorio de un solo par craneal. Mira este paciente: a la izquierda, un solo párpado caído, porque es asimétrica; a la derecha, después de revertirla, los dos ojos quedan iguales.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-17/01_ptosis_miastenia_reversion__commons.jpg', label: 'Ptosis: antes y después', at: 'Mira este paciente', credit: 'Wikimedia Commons' } },
           { t: 'Pupilas siempre normales', d: 'El músculo intrínseco no se toca',
             say: 'Y la regla de oro: las pupilas son normales, simétricas y reactivas. Siempre. La miastenia afecta la musculatura externa del ojo, nunca la intrínseca. Esa diferencia se pregunta.' },
         ] },
@@ -116,9 +117,11 @@ module.exports = {
       cards: [
         { title: 'Test del hielo', tag: 'El frío ayuda a la sinapsis', kind: 'criteria', items: [
           { t: 'Hielo sobre el párpado 2 a 3 min', d: 'Positivo si mejora 2 mm o más',
-            say: 'Hay dos pruebas que haces al lado de la cama. La primera es el test del hielo: pones una bolsa de hielo sobre el párpado caído por dos a tres minutos. Es positivo si la hendidura palpebral mejora dos milímetros o más.' },
+            say: 'Hay dos pruebas que haces al lado de la cama. La primera es el test del hielo: pones una bolsa de hielo sobre el párpado caído por dos a tres minutos. Es positivo si la hendidura palpebral mejora dos milímetros o más. Mira esta ptosis asimétrica, que empeora con el uso, y aquí el hielo aplicado sobre el párpado.',
+            photos: [{ src: 'biblioteca/09_neurologia/neuro-17/02_test_hielo_a_ptosis__kanski_p851.jpg', label: 'Ptosis miasténica', at: 'Mira esta ptosis', credit: 'Kanski, Oftalmología clínica 8.ª ed., p. 851' }, { src: 'biblioteca/09_neurologia/neuro-17/03_test_hielo_b_aplicacion__kanski_p851.jpg', label: 'Hielo sobre el párpado', at: 'aquí el hielo', credit: 'Kanski, Oftalmología clínica 8.ª ed., p. 851' }] },
           { t: 'Sensibilidad 80 a 90 %', d: 'Especificidad sobre 95 %',
-            say: '¿Por qué funciona? Porque el frío inhibe la acetilcolinesterasa, la enzima que degrada la acetilcolina. Queda más acetilcolina en la sinapsis, y el músculo recupera fuerza. Tiene una sensibilidad de ochenta a noventa por ciento en la ptosis miasténica.' },
+            say: '¿Por qué funciona? Porque el frío inhibe la acetilcolinesterasa, la enzima que degrada la acetilcolina. Queda más acetilcolina en la sinapsis, y el músculo recupera fuerza. Tiene una sensibilidad de ochenta a noventa por ciento en la ptosis miasténica. Y mira cómo queda: después del hielo, la ptosis mejora.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-17/04_test_hielo_c_mejoria__kanski_p851.jpg', label: 'La ptosis mejora', at: 'Y mira cómo queda', credit: 'Kanski, Oftalmología clínica 8.ª ed., p. 851' } },
         ] },
         { title: 'Test de Simpson', tag: 'Provocar la fatiga', kind: 'key', items: [
           { t: 'Mirar hacia arriba 60 segundos', d: 'La ptosis aparece o empeora',
@@ -152,9 +155,11 @@ module.exports = {
         { show: ['enr'], note: 'Cada estímulo da una respuesta menor',
           say: 'El segundo examen es la electromiografía con estimulación repetitiva a tres hertz. Estimulas el nervio varias veces seguidas y mides la respuesta del músculo. Es positiva si cae más de diez por ciento entre el primer y el cuarto o quinto potencial. Es la fatigabilidad medida en el laboratorio.' },
         { show: ['fib'], note: 'Para seronegativos con estimulación normal',
-          say: 'Y si todo lo anterior sale normal pero la sospecha sigue, la electromiografía de fibra aislada. Es la prueba más sensible, sobre noventa y cinco por ciento, y muestra un aumento del jitter, la variabilidad en la transmisión entre fibras de la misma unidad motora.' },
+          say: 'Y si todo lo anterior sale normal pero la sospecha sigue, la electromiografía de fibra aislada. Es la prueba más sensible, sobre noventa y cinco por ciento, y muestra un aumento del jitter, la variabilidad en la transmisión entre fibras de la misma unidad motora. Este es un registro de fibra única, con la variabilidad entre fibras.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-17/02_emg-fibra-unica__cto-neuro_p103.jpg', label: 'EMG de fibra única', at: 'Este es un registro', credit: 'Manual CTO Neurología 14.ª ed., p. 103' } },
         { show: ['tac'], note: 'Hiperplasia tímica 65 a 70 %',
-          say: 'Y un examen que se pide en todo paciente con miastenia: la tomografía de tórax con contraste, para mirar el timo. Diez a quince por ciento tiene un timoma, y sesenta y cinco a setenta por ciento, hiperplasia tímica. Si en una alternativa aparece TAC de tórax, no es un examen de más: es obligatorio.' },
+          say: 'Y un examen que se pide en todo paciente con miastenia: la tomografía de tórax con contraste, para mirar el timo. Diez a quince por ciento tiene un timoma, y sesenta y cinco a setenta por ciento, hiperplasia tímica. Si en una alternativa aparece TAC de tórax, no es un examen de más: es obligatorio. En este panel de masas del mediastino, el timoma es la imagen B.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-17/01_timoma-tc-mediastino__cto-radiologia_p22.jpg', label: 'Timoma (panel B)', at: 'En este panel', credit: 'Manual CTO Radiología 14.ª ed., p. 22' } },
       ],
     },
 
@@ -267,46 +272,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Miastenia gravis',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-17/02_test_hielo_a_ptosis__kanski_p851.jpg', label: 'Ptosis', credit: 'Kanski 8.ª ed., Fig. 19.87A' },
-        { src: 'biblioteca/09_neurologia/neuro-17/03_test_hielo_b_aplicacion__kanski_p851.jpg', label: 'Test del hielo', credit: 'Kanski 8.ª ed., Fig. 19.87B' },
-        { src: 'biblioteca/09_neurologia/neuro-17/04_test_hielo_c_mejoria__kanski_p851.jpg', label: 'Mejoría', credit: 'Kanski 8.ª ed., Fig. 19.87C' },
-      ],
-      steps: [
-        { note: 'Asimétrica y fatigable',
-          say: 'La ptosis de la miastenia es asimétrica y empeora con el uso.' },
-        { note: 'Hielo sobre el párpado',
-          say: 'Se pone hielo sobre el párpado por dos minutos.' },
-        { note: 'La ptosis mejora',
-          say: 'Y la ptosis mejora. El frío mejora la transmisión neuromuscular.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-17/01_ptosis_miastenia_reversion__commons.jpg', label: 'Ptosis miasténica: antes (a) y después (b) de revertirla', credit: 'Wikimedia Commons «Myasthenia gravis ptosis reversal.jpg», CC BY 2.0, Mohankumar Kurukumbi, Roger L Weir, Janaki Kalyana' },
-        { src: 'biblioteca/09_neurologia/neuro-17/02_emg-fibra-unica__cto-neuro_p103.jpg', label: 'EMG de fibra única', credit: 'Manual CTO Neurología 14.ª ed., p. 103' },
-        { src: 'biblioteca/09_neurologia/neuro-17/01_timoma-tc-mediastino__cto-radiologia_p22.jpg', label: 'Masas del mediastino: el timoma es el panel B', credit: 'Manual CTO Radiología 14.ª ed., p. 22' },
-      ],
-      steps: [
-        { note: 'Ptosis asimétrica que revierte',
-          say: 'Otra ptosis miasténica: a la izquierda, un solo párpado caído, porque es asimétrica. A la derecha, después de revertirla, los dos ojos quedan iguales.' },
-        { note: 'EMG de fibra única',
-          say: 'Electromiografía de fibra única: mide la variabilidad de la transmisión neuromuscular, el jitter.' },
-        { note: 'Buscar en el mediastino',
-          say: 'Y siempre se busca un timoma con tomografía de tórax. En este panel de masas del mediastino, el timoma es la imagen B.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },
@@ -399,6 +364,44 @@ module.exports = {
         options: 'Las opciones: accidente vascular encefálico, tumor cerebral, cáncer de pulmón con compromiso del ganglio estrellado, ptosis aponeurótica, o parálisis del tercer par. Piénsalo.',
         answer: 'Es la E, parálisis del tercer par, la mononeuropatía del diabético. La ptosis con falla de la aducción y la elevación de un mismo ojo sigue exactamente el territorio del tercer par. Y ahí está la diferencia con la miastenia: la diplopía miasténica no calza con un solo nervio y fluctúa durante el día. El cáncer de pulmón tentaría por la ptosis, pero daría un síndrome de Horner, sin compromiso de la motilidad.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 2",
+      "stem": "Mujer de 50 años consulta por parestesias en ambas manos, mayores a derecha, que la despiertan en la noche, por lo que debe sacudir las manos para aliviarse. Además presenta dificultad para tomar objetos con las manos.",
+      "question": "¿Cuál de los siguientes exámenes es el más adecuado para proseguir el estudio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ecografía de mano"
+        },
+        {
+          "letter": "B",
+          "text": "Electromiografía"
+        },
+        {
+          "letter": "C",
+          "text": "Prueba de estimulación con edrofonio"
+        },
+        {
+          "letter": "D",
+          "text": "Resonancia magnética de cuello"
+        },
+        {
+          "letter": "E",
+          "text": "Radiografía de mano"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Parestesias nocturnas que alivian al sacudir las manos: síndrome del túnel carpiano. Con debilidad para tomar objetos (compromiso motor), se confirma y gradúa con electromiografía y velocidades de conducción del nervio mediano, que además orientan la cirugía. La prueba de edrofonio estudia miastenia, que da fatigabilidad sin síntomas sensitivos.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Una mujer de cincuenta años tiene hormigueo nocturno en ambas manos, que alivia sacudiéndolas, y dificultad para tomar objetos.",
+        "question": "¿Cuál es el examen más adecuado para seguir el estudio?",
+        "options": "Las opciones: ecografía de mano, electromiografía, prueba de edrofonio, resonancia de cuello, o radiografía de mano. Piénsalo.",
+        "answer": "Es la B. Es un túnel carpiano con compromiso motor, y la electromiografía confirma y mide el daño del nervio mediano. El edrofonio tienta en esta clase de miastenia, pero la miastenia no produce síntomas sensitivos."
+      }
     },
 
     {

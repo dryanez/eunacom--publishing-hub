@@ -129,7 +129,8 @@ module.exports = {
         { show: ['hip'], note: 'Lo más frecuente es la hiperplasia',
           say: 'Y aquí hay un dato que se pregunta: la causa más frecuente no es el adenoma. Es la hiperplasia suprarrenal bilateral idiopática, con el sesenta a sesenta y cinco por ciento de los casos.' },
         { show: ['ade'], note: 'El Conn clásico: un nódulo en un lado',
-          say: 'El adenoma productor de aldosterona, el síndrome de Conn propiamente tal, es un tumor benigno, unilateral y bien delimitado, y explica el treinta a treinta y cinco por ciento.' },
+          say: 'El adenoma productor de aldosterona, el síndrome de Conn propiamente tal, es un tumor benigno, unilateral y bien delimitado: mira esta resonancia, un nódulo pequeño y homogéneo, que señala la flecha. Explica el treinta a treinta y cinco por ciento.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-14/01_adenoma_suprarrenal_rm__ctmri_p383.jpg', label: 'RM: adenoma suprarrenal', at: 'mira esta resonancia', credit: 'CT & MRI Pathology: A Pocket Atlas, p. 383' } },
         { show: ['cir'], note: 'Unilateral: se opera y se cura',
           say: 'Si es un adenoma unilateral, el tratamiento curativo es la suprarrenalectomía laparoscópica de ese lado. Normaliza el potasio y cura o mejora mucho la presión.' },
         { show: ['esp'], note: 'Bilateral: tratamiento médico de por vida',
@@ -152,7 +153,6 @@ module.exports = {
           say: 'La suprarrenal fabrica aldosterona sola. En el riñón retiene sodio y agua, y sube la presión; a cambio bota potasio e hidrogeniones: hipokalemia y alcalosis. El volumen expandido apaga la renina. Y la causa más frecuente es la hiperplasia bilateral, no el adenoma.' },
       ],
     },
-
     {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
@@ -292,6 +292,81 @@ module.exports = {
         options: 'Las opciones: cambiar el losartán por un IECA, reemplazar la tiazida por un antialdosterónico, agregar doxazosina, agregar espironolactona y estudiar hipertensión secundaria, o cambiar amlodipino por diltiazem. Piénsalo.',
         answer: 'Es la D. Tres fármacos a dosis plenas, uno diurético, con buena adherencia y el monitoreo confirmando: es una hipertensión resistente, el primer criterio de sospecha que vimos. Se agrega espironolactona como cuarto fármaco y se busca la causa secundaria. El distractor es la B: reemplazar la tiazida le quita un fármaco al esquema en vez de sumar, y no estudia la causa.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 1",
+      "stem": "Un paciente de 18 años consulta por cefalea de algunas semanas de evolución, que ha ido en aumento hasta alcanzar gran intensidad. En su examen físico destaca presión arterial de 170/100 mmHg, FC 72 lpm y presencia de un soplo abdominal en el flanco derecho.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Disección aórtica"
+        },
+        {
+          "letter": "B",
+          "text": "Aneurisma aórtico abdominal"
+        },
+        {
+          "letter": "C",
+          "text": "Hipertensión esencial"
+        },
+        {
+          "letter": "D",
+          "text": "Hipertensión renovascular"
+        },
+        {
+          "letter": "E",
+          "text": "Accidente vascular encefálico"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Hipertensión severa en un paciente muy joven obliga a buscar una causa secundaria, y el soplo abdominal lateralizado orienta a estenosis de la arteria renal. En jóvenes la causa típica es la displasia fibromuscular; en adultos mayores, la ateroesclerosis. El estudio inicial es la ecografía Doppler renal o el angioTAC.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Paciente de dieciocho años con cefalea progresiva de algunas semanas. Su presión es ciento setenta con cien y tiene un soplo abdominal en el flanco derecho.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: disección aórtica, aneurisma aórtico abdominal, hipertensión esencial, hipertensión renovascular, o accidente vascular. Piénsalo.",
+        "answer": "Es la D, hipertensión renovascular. Un joven con hipertensión severa ya sugiere una causa secundaria, y el soplo en el flanco apunta a la arteria renal, típicamente por displasia fibromuscular. El aneurisma tienta por el soplo, pero es una enfermedad de hombres mayores, no de un joven de dieciocho años."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.2.006 · Hipokalemia",
+      "stem": "Mujer de 68 años, hipertensa, en tratamiento con hidroclorotiazida 50 mg/día, con 4 días de diarrea acuosa. Consulta por debilidad muscular marcada y palpitaciones. Está lúcida, PA 120/70 mmHg. K 2,3 mEq/L, Na 136 mEq/L, creatinina 0,9 mg/dL. ECG: ondas U prominentes, depresión del ST y extrasístoles ventriculares frecuentes.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cloruro de potasio oral y control ambulatorio en 1 semana"
+        },
+        {
+          "letter": "B",
+          "text": "Bolo endovenoso directo de cloruro de potasio"
+        },
+        {
+          "letter": "C",
+          "text": "Cloruro de potasio endovenoso diluido en solución fisiológica, a no más de 10–20 mEq/h, con monitorización cardíaca, más corregir el magnesio"
+        },
+        {
+          "letter": "D",
+          "text": "Cloruro de potasio diluido en suero glucosado al 5 %"
+        },
+        {
+          "letter": "E",
+          "text": "Insulina con glucosa para mejorar el potasio"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Hipokalemia severa (menor de 2,5 mEq/L) con cambios en el ECG: KCl endovenoso diluido en suero fisiológico, máximo 10–20 mEq/h por vía periférica, con monitorización, suspendiendo la tiazida y corrigiendo el magnesio. El suero glucosado libera insulina y empeora la hipokalemia; el bolo directo puede causar paro.",
+      "say": {
+        "stem": "Mujer de sesenta y ocho años con hidroclorotiazida y cuatro días de diarrea. Tiene debilidad marcada y palpitaciones, con potasio de dos coma tres. El electrocardiograma muestra ondas U y extrasístoles ventriculares frecuentes.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: potasio oral ambulatorio, bolo endovenoso de potasio, potasio endovenoso diluido en suero fisiológico con monitorización y corregir el magnesio, potasio en suero glucosado, o insulina con glucosa. Piénsalo.",
+        "answer": "Es la C. Potasio bajo dos coma cinco con cambios en el electrocardiograma se repone por vena, lento, diluido en suero fisiológico y con monitor, corrigiendo también el magnesio. Diluirlo en glucosado tienta porque parece inocuo, pero la glucosa libera insulina y mete el potasio a la célula, empeorando la hipokalemia."
+      }
     },
 
     {

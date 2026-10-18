@@ -113,19 +113,66 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Urgencia',
+      title: 'Hematuria masiva: coágulos y retención',
+      cards: [
+        { title: 'Qué es y por qué', tag: 'Urgencia urológica', kind: 'alert', items: [
+          { t: 'Coágulos con inestabilidad o retención', d: 'Anemia aguda, globo vesical, dolor hipogástrico',
+            say: 'La hematuria masiva es un sangrado urinario con coágulos que causa inestabilidad hemodinámica, anemia aguda o una retención por coágulos, con dolor en el hipogastrio, globo vesical e imposibilidad de orinar.' },
+          { t: 'Tumor, HPB, cistitis hemorrágica', d: 'Litiasis, trauma, anticoagulación',
+            say: 'Las causas son el tumor de vejiga, la hiperplasia prostática, la cistitis hemorrágica por ciclofosfamida, radioterapia o virus BK, la litiasis, el trauma y la anticoagulación.' },
+        ] },
+        { title: 'Manejo en urgencia', tag: 'Lo haces tú', kind: 'key', items: [
+          { t: 'ABC, dos vías, exámenes', d: 'Corregir coagulopatía; transfundir si Hb bajo 7',
+            say: 'Parte por el ABC, dos vías venosas, hemograma, grupo y Rh, coagulación y creatinina. Corriges la coagulopatía y transfundes si hay inestabilidad o hemoglobina bajo siete.' },
+          { t: 'Sonda Foley de 3 vías, 20 a 24 Fr', d: 'Lavado manual hasta sacar coágulos',
+            say: 'Instalas una sonda Foley de tres vías y grueso calibre, de veinte a veinticuatro French, y haces un lavado manual con suero fisiológico y una jeringa grande hasta extraer los coágulos. Después, irrigación continua hasta que la orina aclare.' },
+          { t: 'Derivar a urología', d: 'Cistoscopía y Uro-TAC',
+            say: 'Luego derivas a urología para cistoscopía con evacuación y hemostasia, y para estudiar la causa con un uro-TAC.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Glomerular',
+      title: 'Síndrome nefrítico: la hematuria glomerular',
+      cards: [
+        { title: 'Cómo se reconoce', tag: 'Sedimento', kind: 'key', items: [
+          { t: 'Hematíes dismórficos', d: 'Sobre 80%: el origen es el glomérulo',
+            say: 'El síndrome nefrítico es la expresión clínica de la hematuria glomerular. En el sedimento, los glóbulos rojos se ven deformados, dismórficos. Mira estos glóbulos rojos: si pasan del ochenta por ciento, el origen es el glomérulo.',
+            photo: { src: 'biblioteca/19_urologia/uro-15/01_sedimento-hematies-dismorficos__cto-nefro_p33.jpg', label: 'Hematíes dismórficos', at: 'Mira estos glóbulos rojos', credit: 'Manual CTO Nefrología 14.ª ed., p. 33' } },
+          { t: 'Cilindros hemáticos', d: 'Glomerular: nefrología, no urología',
+            say: 'Y este es un cilindro hemático. Si lo ves en el sedimento, la hematuria es glomerular y el paciente va a nefrología, no a urología. Se suman hipertensión, edema periorbitario, oliguria, proteinuria bajo tres coma cinco gramos al día y alza de la creatinina.',
+            photo: { src: 'biblioteca/19_urologia/uro-15/02_cilindro-hematico__amir-nefro17_p46.jpg', label: 'Cilindro hemático', at: 'Y este es un cilindro', credit: 'Manual AMIR Nefrología 17.ª ed., p. 46' } },
+        ] },
+        { title: 'Causas y estudio', tag: 'Nefrítico', kind: 'criteria', items: [
+          { t: 'Postestreptocócica: C3 bajo, ASLO +', d: '2 a 3 semanas tras faringitis; 4 a 6 tras piel',
+            say: 'La causa clásica es la glomerulonefritis postestreptocócica, dos a tres semanas después de una faringitis o cuatro a seis tras una infección de la piel, con C tres bajo y ASLO positivo. La nefropatía por IgA aparece uno a tres días después de una infección respiratoria, con complemento normal. Y piensa también en lupus y vasculitis ANCA.' },
+          { t: 'Sedimento, C3 y C4, ANA, ANCA', d: 'Hepatitis B y C, VIH',
+            say: 'Estudias con sedimento, proteinuria, creatinina, C tres y C cuatro, ASLO, ANA, ANCA, hepatitis B y C, y VIH.' },
+        ] },
+        { title: 'Manejo inicial', tag: 'Y cuándo derivar', kind: 'pharma', items: [
+          { t: 'Reposo, sal y líquidos restringidos', d: 'Furosemida si hay sobrecarga',
+            say: 'El manejo inicial es reposo relativo, restricción de sal y de líquidos, furosemida si hay sobrecarga, antihipertensivos como un inhibidor de la enzima convertidora o un calcioantagonista, y penicilina si hay infección activa.' },
+          { t: 'Derivar de urgencia', d: 'Oliguria, creatinina en alza o hemoptisis',
+            say: 'Derivas a nefrología, y de urgencia si hay oliguria marcada, creatinina en rápido ascenso o hemoptisis, porque puede necesitar una biopsia renal.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'La hematuria glomerular en el sedimento',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dónde nace la hematuria',
       images: [
-        { src: 'biblioteca/19_urologia/uro-15/01_sedimento-hematies-dismorficos__cto-nefro_p33.jpg', label: 'Hematíes dismórficos', credit: 'Manual CTO Nefrología 14.ª ed., p. 33' },
-        { src: 'biblioteca/19_urologia/uro-15/02_cilindro-hematico__amir-nefro17_p46.jpg', label: 'Cilindro hemático', credit: 'Manual AMIR Nefrología 17.ª ed., p. 46' },
+        { src: 'animaciones/uro-15/A1_hematuria_origen.mp4', label: 'Urológica o glomerular', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Glóbulos rojos deformados',
-          say: 'En la hematuria glomerular, los glóbulos rojos del sedimento se ven deformados: son dismórficos. Si pasan del ochenta por ciento, el origen es el glomérulo.' },
-        { note: 'Cilindro hemático',
-          say: 'Y este es un cilindro hemático. Si lo ves en el sedimento, la hematuria es glomerular y el paciente va a nefrología, no a urología.' },
+        { note: 'Urológica o glomerular',
+          say: 'Mira las dos fuentes. En la urológica hay coágulos y se estudia con cistoscopía y uro-TAC. En la glomerular, los hematíes cruzan el glomérulo dañado, llegan deformados, dismórficos, y forman cilindros hemáticos: es un síndrome nefrítico y va a nefrología. Y primero siempre confirma con el sedimento, porque la tira reactiva puede engañar.' },
       ],
     },
 
@@ -220,6 +267,158 @@ module.exports = {
         options: 'Las opciones: glomerulonefritis postestreptocócica; lúpica; mesangial; por IgA; o por drogas. Piénsalo.',
         answer: 'Es la D. Los cilindros hemáticos confirman que la sangre es glomerular. Y la hematuria que aparece junto con la infección respiratoria, sin latencia, es la nefropatía por IgA, la enfermedad de Berger. La postestreptocócica aparece una a tres semanas después de la infección, no el mismo día. Fíjate que aquí basta un solo dato glomerular, el cilindro, para derivar a nefrología.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.4.011 · Examen de orina completo, urocultivo",
+      "stem": "Mujer de 28 años, no embarazada, consulta por disuria, polaquiuria y urgencia miccional de 2 días, sin fiebre ni dolor lumbar. Se toma orina de segundo chorro con aseo genital previo. Orina completa: nitritos positivos, leucocitos 25 a 30 por campo, bacterias abundantes. El urocultivo informa Escherichia coli 10.000 UFC/mL sensible a nitrofurantoína.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Urocultivo negativo porque no alcanza 100.000 UFC/mL; no corresponde tratar"
+        },
+        {
+          "letter": "B",
+          "text": "Contaminación de la muestra; repetir con punción suprapúbica"
+        },
+        {
+          "letter": "C",
+          "text": "Infección urinaria baja; en una mujer sintomática con piuria, un recuento desde 1.000 a 10.000 UFC/mL de un uropatógeno es significativo y se trata, por ejemplo con nitrofurantoína"
+        },
+        {
+          "letter": "D",
+          "text": "Bacteriuria asintomática; no requiere tratamiento"
+        },
+        {
+          "letter": "E",
+          "text": "Pielonefritis aguda; hospitalizar para antibióticos endovenosos"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El punto de corte de 100.000 UFC/mL se diseñó para bacteriuria asintomática. En una mujer con síntomas de cistitis y piuria, recuentos menores (desde 1.000 a 10.000 UFC/mL) de un uropatógeno como E. coli son significativos. Los nitritos positivos y la piuria apoyan el diagnóstico de cistitis, que se trata ambulatoriamente.",
+      "say": {
+        "stem": "Una mujer de veintiocho años tiene ardor al orinar y orina muy seguido hace dos días, sin fiebre. La orina completa tiene nitritos positivos y muchos leucocitos, y el urocultivo muestra Escherichia coli con diez mil unidades formadoras de colonias por mililitro.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: urocultivo negativo por no llegar a cien mil, contaminación de la muestra, cistitis significativa que se trata, bacteriuria asintomática o pielonefritis con hospitalización. Piénsalo.",
+        "answer": "Es la C. En una mujer con síntomas y leucocitos en la orina, recuentos menores de cien mil de Escherichia coli son significativos y se tratan. Considerarlo negativo tienta por el clásico corte de cien mil, pero ese corte es para pacientes sin síntomas."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 100",
+      "stem": "Un niño de 7 años se encuentra en el preoperatorio de una cirugía de fimosis. Entre los exámenes prequirúrgicos, el examen de orina reporta 2 a 5 leucocitos por campo, 10 a 15 eritrocitos por campo y proteínas 5 mg/dL.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solicitar índice albúmina/creatinina en orina"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar creatinina y calcio en una muestra de orina aislada"
+        },
+        {
+          "letter": "C",
+          "text": "Repetir el examen de orina"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar proteinuria en orina de 24 horas"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar títulos de antiestreptolisina O"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Microhematuria aislada, asintomática, sin proteinuria significativa, sin HTA ni edema, es un hallazgo frecuente y muchas veces transitorio. Lo primero es repetir el examen de orina (2 a 3 muestras en semanas). Solo si persiste se estudia: calciuria/creatininuria, función renal, imágenes y antecedentes familiares.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. En el preoperatorio de una fimosis, un niño de siete años tiene un examen de orina con diez a quince eritrocitos por campo, sin proteinuria significativa ni otros hallazgos.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: índice albúmina creatinina, calcio y creatinina urinarios, repetir la orina, proteinuria de veinticuatro horas o antiestreptolisina. Piénsalo.",
+        "answer": "Es la C. Una microhematuria aislada y asintomática primero se confirma repitiendo el examen de orina, porque suele ser transitoria. La calciuria tienta porque la hipercalciuria es una causa frecuente, pero se estudia solo si la hematuria persiste."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.013 · Examen de orina completa",
+      "stem": "Un hombre de 30 años presenta orina color 'coca-cola' y edema palpebral 2 semanas después de una faringitis. Su presión arterial es 150/95 mmHg.",
+      "question": "¿Qué hallazgo en el examen de orina completa confirma el origen glomerular de la hematuria?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cristales de oxalato de calcio"
+        },
+        {
+          "letter": "B",
+          "text": "Leucocitos abundantes con bacterias"
+        },
+        {
+          "letter": "C",
+          "text": "Nitritos positivos"
+        },
+        {
+          "letter": "D",
+          "text": "Cilindros hemáticos y glóbulos rojos dismórficos"
+        },
+        {
+          "letter": "E",
+          "text": "Hematuria con coágulos"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Los cilindros hemáticos y los glóbulos rojos dismórficos (acantocitos) indican sangrado de origen glomerular, aquí una probable glomerulonefritis postestreptocócica. La hematuria con coágulos sugiere origen urológico (vía urinaria), y nitritos con leucocitos y bacterias orientan a infección urinaria.",
+      "say": {
+        "stem": "Un hombre de treinta años tiene orina color coca cola, edema de párpados y presión alta dos semanas después de una faringitis.",
+        "question": "¿Qué hallazgo del examen de orina confirma el origen glomerular de la hematuria?",
+        "options": "Las opciones: cristales de oxalato, leucocitos con bacterias, nitritos positivos, cilindros hemáticos con glóbulos rojos dismórficos o hematuria con coágulos. Piénsalo.",
+        "answer": "Es la D. Los cilindros hemáticos y los glóbulos rojos dismórficos prueban que la sangre viene del glomérulo. Los coágulos tientan como signo de hematuria importante, pero apuntan a la vía urinaria, no al glomérulo."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.2.002 · Hematuria masiva",
+      "stem": "Hombre de 72 años, fumador, consulta por hematuria macroscópica con coágulos de 12 horas y ahora no puede orinar. Al examen tiene globo vesical doloroso. Está hemodinámicamente estable, Hb 11 g/dL.",
+      "question": "¿Cuál es la conducta inicial más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Instalar sonda Foley de 2 vías de calibre fino"
+        },
+        {
+          "letter": "B",
+          "text": "Instalar sonda vesical de 3 vías de grueso calibre, evacuar coágulos e iniciar irrigación vesical continua con suero fisiológico"
+        },
+        {
+          "letter": "C",
+          "text": "Cistostomía suprapúbica por punción"
+        },
+        {
+          "letter": "D",
+          "text": "Indicar ácido tranexámico y alta con control urológico"
+        },
+        {
+          "letter": "E",
+          "text": "Cistoscopía diagnóstica ambulatoria en 1 mes"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La hematuria masiva con retención por coágulos se maneja con sonda de 3 vías de grueso calibre (20 a 24 Fr), lavado manual para evacuar coágulos e irrigación continua, además de soporte y corrección de coagulopatía. Una sonda fina se obstruye con coágulos. Luego se estudia la causa (en fumador mayor, descartar cáncer vesical con cistoscopía y uroTAC).",
+      "say": {
+        "stem": "Hombre de setenta y dos años, fumador, con hematuria con coágulos y retención urinaria, estable.",
+        "question": "¿Cuál es la conducta inicial?",
+        "options": "Las opciones: sonda fina de dos vías, sonda gruesa de tres vías con evacuación de coágulos e irrigación continua, cistostomía, ácido tranexámico y alta, o cistoscopía en un mes. Piénsalo.",
+        "answer": "Es la B. Se instala una sonda gruesa de tres vías, se evacuan los coágulos y se irriga en forma continua. La sonda común de dos vías tienta por ser la habitual, pero los coágulos la tapan."
+      }
     },
 
     {

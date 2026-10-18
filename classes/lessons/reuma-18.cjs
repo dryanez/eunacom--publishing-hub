@@ -30,7 +30,8 @@ module.exports = {
       ],
       steps: [
         { show: ["pso", "ent", "dac"], note: "Desarrollo de dactilitis y compromiso periférico",
-          say: "Aproximadamente un tercio de los pacientes con psoriasis cutánea desarrollan artritis psoriásica. La lesión elemental es la entesitis de las inserciones tendinosas y ligamentosas digitales, provocando sinovitis articular y tenosinovitis que confluyen en la tumefacción global de todo el dedo, conocida como dactilitis." },
+          say: "Aproximadamente un tercio de los pacientes con psoriasis cutánea desarrollan artritis psoriásica. La lesión elemental es la entesitis de las inserciones tendinosas y ligamentosas digitales, provocando sinovitis articular y tenosinovitis que confluyen en la tumefacción global de todo el dedo, conocida como dactilitis. Mira esta piel: las placas rojas cubiertas de escamas blancas, en la rodilla y el codo, son la pista.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-18/04_psoriasis-en-placas__amir-derma_p39.jpg', label: 'Psoriasis en placas', at: 'Mira esta piel', credit: 'Manual AMIR Dermatología, p. 39' } },
         { show: ["ser"], note: "Seronegatividad y criterios CASPAR",
           say: "A diferencia de la artritis reumatoide, la artritis psoriásica es seronegativa: el factor reumatoide y los anticuerpos antipéptidos citrulinados son negativos. El diagnóstico se sustenta en los criterios CASPAR, donde la presencia o antecedente familiar de psoriasis cutánea suma el mayor puntaje." },
       ],
@@ -43,15 +44,18 @@ module.exports = {
       cards: [
         { title: "Dactilitis o dedo en salchicha", tag: "Signo patognomónico de espondiloartritis", kind: "alert", items: [
           { t: "Tumefacción difusa y cilíndrica", d: "Afectación de un rayo digital completo",
-            say: "La dactilitis es la hinchazón uniforme, eritematosa y dolorosa de todo un dedo de la mano o del pie, confiriéndole un aspecto de salchicha. Ocurre por la inflamación conjunta de las articulaciones interfalángicas y la vaina del tendón flexor subyacente." },
+            say: "La dactilitis es la hinchazón uniforme, eritematosa y dolorosa de todo un dedo de la mano o del pie, confiriéndole un aspecto de salchicha. Ocurre por la inflamación conjunta de las articulaciones interfalángicas y la vaina del tendón flexor subyacente. Mira este pie: el dedo hinchado de punta a base, como una salchicha.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-18/02_dactilitis__amir-reuma_p81.jpg', label: 'Dactilitis', at: 'Mira este pie', credit: 'Manual AMIR Reumatología, p. 81' } },
           { t: "Diferenciación con artritis reumatoide", d: "La artritis reumatoide jamás produce dactilitis",
             say: "Este signo clínico es crucial para el examen: la dactilitis es altamente sugerente de artritis psoriásica o reactiva, y jamás se observa en la artritis reumatoide convencional, donde la sinovitis se limita estrictamente a la cavidad articular sin tenosinovitis difusa." },
         ] },
         { title: "Compromiso de IFD y lesiones ungueales", tag: "Asociación anatómica estrecha", kind: "key", items: [
           { t: "Afectación de interfalángicas distales", d: "Articulación respetada en artritis reumatoide",
-            say: "La artritis de las articulaciones interfalángicas distales es un sello distintivo de la psoriasis articular, mientras que en la artritis reumatoide estas articulaciones distales están estrictamente preservadas." },
+            say: "La artritis de las articulaciones interfalángicas distales es un sello distintivo de la psoriasis articular, mientras que en la artritis reumatoide estas articulaciones distales están estrictamente preservadas. En estos dedos, las distales están rojas e hinchadas.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-18/01_artropatia-psoriasica-ifd__amir-reuma_p81.jpg', label: 'Interfalángicas distales', at: 'En estos dedos', credit: 'Manual AMIR Reumatología, p. 81' } },
           { t: "Distrofia ungueal en dedal o pitting", d: "Piqueteado, onicólisis y manchas en gota de aceite",
-            say: "La afección de las interfalángicas distales se asocia estrechamente a distrofia ungueal adyacente: pequeñas depresiones puntiformes en dedal o pitting, engrosamiento hiperqueratósico subungueal y onicólisis con manchas amarillentas en aceite." },
+            say: "La afección de las interfalángicas distales se asocia estrechamente a distrofia ungueal adyacente: pequeñas depresiones puntiformes en dedal o pitting, engrosamiento hiperqueratósico subungueal y onicólisis con manchas amarillentas en aceite. Mira esta uña: las depresiones puntiformes en dedal.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-18/03_pitting-ungueal__amir-derma_p40.jpg', label: 'Pitting ungueal', at: 'Mira esta uña', credit: 'Manual AMIR Dermatología, p. 40' } },
         ] },
       ],
     },
@@ -69,7 +73,8 @@ module.exports = {
         ] },
         { title: "Radiología: El signo del lápiz en copa", tag: "Erosión más proliferación ósea simultánea", kind: "alert", items: [
           { t: "Adelgazamiento y ensanchamiento óseo", d: "Pencil-in-cup característico en interfalángicas",
-            say: "En la radiografía destaca la imagen en lápiz en copa: el extremo proximal de la falange distal se ensancha de forma cóncava como una copa, mientras que el extremo de la falange media se afila como un lápiz, encajando en ella." },
+            say: "En la radiografía destaca la imagen en lápiz en copa: el extremo proximal de la falange distal se ensancha de forma cóncava como una copa, mientras que el extremo de la falange media se afila como un lápiz, encajando en ella. Mira esta radiografía: el extremo afilado de una falange entra en la copa de la siguiente.",
+          photo: { src: '_verificadas/051_reuma_Artritis_psoriásica_y_enteropá__HYallpdfsp_p1745_1.jpg', label: 'Lápiz en copa', at: 'Mira esta radiografía', credit: 'High-Yield review, p. 1745' } },
           { t: "Periostitis con neoformación ósea", d: "Aposición de hueso nuevo yuxtaarticular",
             say: "A diferencia de la artritis reumatoide, donde la lesión ósea es puramente lítica y desmineralizante, en la artritis psoriásica coexisten erosiones óseas con intensa proliferación perióstica y esclerosis de hueso nuevo." },
         ] },
@@ -120,6 +125,68 @@ module.exports = {
     },
 
     {
+      type: "points",
+      kicker: "Artropatía enteropática",
+      title: "Sospechar y estudiar la enfermedad inflamatoria intestinal",
+      cards: [
+        { title: "Cuándo sospecharla", tag: "En un paciente con artritis", kind: "key", items: [
+          { t: "Diarrea mayor de 4 semanas con sangre y moco", d: "Dolor abdominal, tenesmo, baja de peso, fiebre, anemia",
+            say: "Debe sospecharse enfermedad inflamatoria intestinal en un paciente con artritis periférica o sacroilitis que además tiene diarrea de más de cuatro semanas, con sangre y moco, dolor abdominal, tenesmo, baja de peso, fiebre o anemia." },
+          { t: "Manifestaciones extraintestinales", d: "Eritema nodoso, pioderma gangrenoso, uveítis, aftas",
+            say: "También si hay manifestaciones extraintestinales: eritema nodoso, pioderma gangrenoso, uveítis o aftas." },
+        ] },
+        { title: "Colitis ulcerosa o Crohn", tag: "Qué las distingue", kind: "criteria", items: [
+          { t: "Colitis ulcerosa", d: "Recto y colon, continua y superficial",
+            say: "La colitis ulcerosa compromete el recto y el colon de forma continua y superficial." },
+          { t: "Enfermedad de Crohn", d: "Cualquier segmento; transmural, discontinua; fístulas",
+            say: "El Crohn puede afectar cualquier segmento, sobre todo el íleon terminal, es transmural y discontinuo, y produce fístulas, estenosis y lesiones perianales." },
+        ] },
+        { title: "Estudio inicial", tag: "El examen que confirma", kind: "alert", items: [
+          { t: "Hemograma, VHS, PCR, albúmina, ferritina", d: "Coprocultivo y toxina de C. difficile",
+            say: "El estudio inicial incluye hemograma, velocidad de sedimentación, proteína C reactiva, albúmina y ferritina, y coprocultivo y toxina de Clostridioides difficile para descartar infección." },
+          { t: "Calprotectina fecal y colonoscopia con biopsias", d: "El examen diagnóstico",
+            say: "Se agrega la calprotectina fecal, y la colonoscopia con biopsias es el examen diagnóstico." },
+        ] },
+      ],
+    },
+
+    {
+      type: "points",
+      kicker: "Artropatía enteropática",
+      title: "Manejo inicial de la EII y la artritis",
+      cards: [
+        { title: "Colitis ulcerosa", tag: "Según gravedad", kind: "pharma", items: [
+          { t: "Leve a moderada: mesalazina oral y rectal", d: "5-ASA",
+            say: "En la colitis ulcerosa leve a moderada se inicia mesalazina, oral y rectal." },
+          { t: "Brote moderado a grave: corticoides", d: "Prednisona 40 mg; EV y hospitalizar si es grave",
+            say: "Los brotes moderados a graves requieren corticoides: prednisona cuarenta miligramos al día, o hidrocortisona o metilprednisolona endovenosa con hospitalización en el brote grave. Después vienen azatioprina o terapia biológica anti-TNF, según el especialista." },
+          { t: "La colectomía cura la colitis, no el Crohn", d: "Cirugía curativa solo en colitis ulcerosa",
+            say: "El tratamiento quirúrgico, la colectomía, es curativo para la colitis ulcerosa y no para el Crohn. Toda sospecha o diagnóstico de enfermedad inflamatoria intestinal se deriva a gastroenterología." },
+        ] },
+        { title: "Y la artritis", tag: "Evitar los AINEs prolongados", kind: "alert", items: [
+          { t: "AINEs prolongados pueden gatillar un brote", d: "Evitarlos en la enfermedad intestinal",
+            say: "En el paciente con artritis y enfermedad inflamatoria intestinal se evitan los antiinflamatorios no esteroidales de uso prolongado, porque pueden gatillar o agravar el brote." },
+          { t: "Periférica: sulfasalazina y anti-TNF", d: "Axial: anti-TNF; la sulfasalazina no sirve",
+            say: "En la artritis periférica son útiles la sulfasalazina y los anti-TNF, que tratan ambos cuadros. En la forma axial están indicados los anti-TNF, porque la sulfasalazina no es eficaz." },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dónde pega cada artritis',
+      images: [
+        { src: 'animaciones/reuma-18/A1_dactilitis_distales.mp4', label: 'Artritis reumatoide y psoriásica', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Mano',
+          say: 'Primero la artritis reumatoide: compromete en forma simétrica las metacarpofalángicas y las interfalángicas proximales, y respeta las distales. Ahora la artritis psoriásica: aquí se inflaman las interfalángicas distales, con pitting en las uñas, y un dedo completo puede hincharse de punta a base. Es la dactilitis, el dedo en salchicha, por artritis y tenosinovitis juntas. Es seronegativa, con factor reumatoide y anti-CCP negativos, y en la radiografía puede verse el lápiz en copa.' },
+      ],
+    },
+
+    {
       type: "table",
       kicker: "Trampas EUNACOM",
       title: "Diagnóstico diferencial: Artritis Periférica EII vs Afección Axial EII",
@@ -133,40 +200,6 @@ module.exports = {
           say: "Cirugía en colitis: la colectomía total cura la artritis periférica, pero no tiene ningún impacto sobre la progresión de la espondilitis axial." },
         { cells: ["Asociación con HLA-B27", "Baja (alrededor del diez por ciento)", "Muy ALTA (cincuenta a setenta por ciento)"],
           say: "Genética: la artritis periférica apenas se asocia a HLA-B veintisiete en un diez por ciento, mientras que la espondilitis axial se asocia en más del cincuenta por ciento." },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Artritis psoriásica',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-18/01_artropatia-psoriasica-ifd__amir-reuma_p81.jpg', label: 'Interfalángicas distales', credit: 'Manual AMIR Reumatología, p. 81' },
-        { src: 'biblioteca/08_reumatologia/reuma-18/02_dactilitis__amir-reuma_p81.jpg', label: 'Dactilitis', credit: 'Manual AMIR Reumatología, p. 81' },
-        { src: 'biblioteca/08_reumatologia/reuma-18/03_pitting-ungueal__amir-derma_p40.jpg', label: 'Pitting ungueal', credit: 'Manual AMIR Dermatología, p. 40' },
-      ],
-      steps: [
-        { note: 'Uñas y articulación distal',
-          say: 'La artritis psoriásica afecta las interfalángicas distales, junto a las uñas.' },
-        { note: 'Dedo en salchicha',
-          say: 'Y la dactilitis: un dedo entero hinchado, como una salchicha.' },
-        { note: 'Depresiones puntiformes en la uña',
-          say: 'Y en la uña, pequeñas depresiones puntiformes, en dedal: el pitting. Acompaña al compromiso de las interfalángicas distales.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'La piel que da la pista',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-18/04_psoriasis-en-placas__amir-derma_p39.jpg', label: 'Psoriasis en placas', credit: 'Manual AMIR Dermatología, p. 39' },
-      ],
-      steps: [
-        { note: 'Placas rojas con escamas blancas',
-          say: 'Y estas son placas de psoriasis: rojas, bien delimitadas y cubiertas de escamas blanquecinas. El metotrexato controla a la vez las placas y la artritis.' },
       ],
     },
 
@@ -257,6 +290,44 @@ module.exports = {
         options: "Las opciones: osteopenia yuxtaarticular aislada, deformidad en lápiz en copa, geodas subcondrales puras, condrocalcinosis, o subluxación atloaxoidea. Piénsalo.",
         answer: "Es la B. La imagen en lápiz en copa es la alteración radiológica patognomónica de la artritis psoriásica avanzada en las articulaciones interfalángicas distales.",
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2019 · Pregunta 72",
+      "stem": "Un paciente de 39 años, trabajador de la construcción, con IMC de 30 y psoriasis, consulta por dolor en la zona glútea profunda, de predominio nocturno, muy intenso, que va desapareciendo en la mañana a medida que realiza sus actividades. El dolor inició hace 3 meses y ha aumentado. Hace 2 meses presentó una uveítis derecha.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiculopatía S1"
+        },
+        {
+          "letter": "B",
+          "text": "Espondiloartritis"
+        },
+        {
+          "letter": "C",
+          "text": "Espondilodiscitis"
+        },
+        {
+          "letter": "D",
+          "text": "Hernia del núcleo pulposo con compresión del plexo lumbar"
+        },
+        {
+          "letter": "E",
+          "text": "Raquiestenosis"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Dolor glúteo profundo nocturno que mejora con la actividad es dolor inflamatorio de las sacroilíacas. Sumado a psoriasis y una uveítis reciente, apunta a una espondiloartritis. Se estudia con imagen de sacroilíacas y HLA-B27. La radiculopatía y la hernia son mecánicas: empeoran con el esfuerzo y mejoran con el reposo.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecinueve. Hombre de treinta y nueve años, trabajador de la construcción, obeso y con psoriasis, con tres meses de dolor glúteo profundo, de predominio nocturno, que cede en la mañana al moverse. Hace dos meses tuvo una uveítis derecha.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: radiculopatía S uno, espondiloartritis, espondilodiscitis, hernia del núcleo pulposo, o raquiestenosis. Piénsalo.",
+        "answer": "Es la B. Dolor que empeora en la noche y mejora al moverse es inflamatorio, y la uveítis más la psoriasis completan una espondiloartritis. La hernia lumbar tienta por el trabajo pesado, pero el dolor mecánico mejora en reposo y empeora con el esfuerzo, justo al revés."
+      }
     },
 
     {

@@ -346,6 +346,81 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 9",
+      "stem": "Una paciente embarazada de 32 semanas, con altura uterina de 38 cm e IMC de 33, se realiza una ecografía obstétrica que muestra feto creciendo en percentil 93, con ILA de 12. Se solicita test de tolerancia a la glucosa oral, que resulta 92 mg/dl basal y 170 mg/dl a las dos horas postcarga de glucosa.",
+      "question": "¿Cuál es la causa más probable de la condición fetal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diabetes mellitus gestacional"
+        },
+        {
+          "letter": "B",
+          "text": "Obesidad materna"
+        },
+        {
+          "letter": "C",
+          "text": "Diabetes mellitus pregestacional"
+        },
+        {
+          "letter": "D",
+          "text": "Incompatibilidad de grupo Rh"
+        },
+        {
+          "letter": "E",
+          "text": "Síndrome hipertensivo del embarazo"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Feto grande para la edad gestacional (percentil sobre 90) con PTGO de 2 horas ≥ 140 mg/dL: diabetes gestacional. La hiperglicemia materna produce hiperinsulinismo fetal y macrosomía. No es pregestacional, porque se diagnostica tarde y con valores bajo los de no embarazada.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Embarazada de treinta y dos semanas, altura uterina de treinta y ocho centímetros, índice de masa corporal de treinta y tres. La ecografía muestra un feto en percentil noventa y tres, con líquido amniótico normal. La curva de tolerancia da noventa y dos en ayunas y ciento setenta a las dos horas.",
+        "question": "¿Cuál es la causa más probable de la condición fetal?",
+        "options": "Las opciones: diabetes gestacional, obesidad materna, diabetes pregestacional, incompatibilidad Rh, o síndrome hipertensivo del embarazo. Piénsalo.",
+        "answer": "Es la A, diabetes gestacional. Un feto grande más una glicemia a las dos horas sobre ciento cuarenta es diabetes gestacional, y el hiperinsulinismo fetal explica la macrosomía. La obesidad materna tienta, pero aquí la curva ya demuestra la diabetes, que es la causa directa."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.024 · Test de tolerancia a la glucosa",
+      "stem": "Embarazada de 33 años, multípara de 2, cursando 32 semanas. Glicemia de ayuno de ingreso 84 mg/dL. PTGO con 75 g a las 26 semanas: 82 mg/dL basal y 128 mg/dL a las 2 horas. En la ecografía actual el feto está en percentil 95 de peso y el ILA es de 26 cm.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repetir la PTGO con 75 g ahora"
+        },
+        {
+          "letter": "B",
+          "text": "Mantener control prenatal habitual"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar insulina NPH nocturna"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar hemoglobina glicosilada"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar glicemia de ayuno cada 2 semanas"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La PTGO de las 24–28 semanas fue normal, pero aparecen factores de alto riesgo: feto grande y polihidramnios. En ese caso se repite la PTGO entre las 32 y 34 semanas para no pasar por alto una diabetes gestacional tardía. Sin diagnóstico no corresponde iniciar insulina.",
+      "say": {
+        "stem": "Embarazada de treinta y tres años, de treinta y dos semanas. Su curva de tolerancia a las veintiséis semanas fue normal: ochenta y dos en ayunas y ciento veintiocho a las dos horas. Ahora la ecografía muestra un feto en percentil noventa y cinco y un índice de líquido amniótico de veintiséis centímetros.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: repetir la curva de tolerancia ahora, control habitual, insulina nocturna, hemoglobina glicosilada o glicemias de ayuno seriadas. Piénsalo.",
+        "answer": "Es la A. Feto grande y polihidramnios son factores de alto riesgo, y con ellos se repite la curva entre las treinta y dos y treinta y cuatro semanas. El control habitual tienta porque la primera curva fue normal, pero esa curva no descarta una diabetes gestacional que apareció después."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',

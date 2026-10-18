@@ -60,7 +60,11 @@ module.exports = {
         ] },
         { title: 'Lo que lo acompaña', tag: 'Casi siempre', kind: 'key', items: [
           { t: 'Edema blando con fóvea', d: 'Matinal en párpados, vespertino en piernas',
-            say: 'Lo acompaña el edema blando con fóvea. Un detalle clínico que ayuda: en la mañana está en los párpados y la cara, y en la tarde baja a las piernas por gravedad.' },
+            say: 'Lo acompaña el edema blando con fóvea. Un detalle clínico que ayuda: en la mañana está en los párpados y la cara, y en la tarde baja a las piernas por gravedad. Mira este edema: al presionar con el dedo queda una fosa, la fóvea. Y en este niño, el edema aparece en los párpados y la cara.',
+            photos: [
+              { src: 'biblioteca/03_nefrologia/nefro-13/01_edema_fovea__bates_p559.jpg', label: 'Edema con fóvea', at: 'Mira este edema', credit: 'Bates 12.ª ed., Fig. 12-25' },
+              { src: 'biblioteca/03_nefrologia/nefro-13/02_edema_facial_nino_nefrosis__cdc-phil-3894.jpg', label: 'Edema facial y palpebral', at: 'Y en este niño', credit: 'Wikimedia Commons «Plasmodium falciparum nephrosis edema PHIL 3894 lores.jpg», Public domain, ver autor en Commons' }
+            ] },
           { t: 'Colesterol sobre 350–400 mg/dL', d: 'Dislipidemia mixta',
             say: 'Luego la dislipidemia mixta, con colesterol que suele pasar los trescientos cincuenta o cuatrocientos.' },
           { t: 'Cuerpos ovales grasos', d: 'Cruz de Malta con luz polarizada',
@@ -149,7 +153,8 @@ module.exports = {
           { t: 'Amiloidosis renal', d: 'Mayores de 65 · mieloma, gammapatía, infección crónica',
             say: 'La cuarta es la amiloidosis renal, del adulto mayor de sesenta y cinco años. Se asocia al mieloma múltiple, a la gammapatía monoclonal y a las infecciones crónicas.' },
           { t: 'Rojo Congo positivo', d: 'Birrefringencia verde manzana',
-            say: 'En la biopsia se ve un depósito amorfo que se tiñe con rojo Congo y brilla verde manzana con luz polarizada. Y se trata con quimioterapia, no con corticoides.' },
+            say: 'En la biopsia se ve un depósito amorfo que se tiñe con rojo Congo y brilla verde manzana con luz polarizada. Mira esta imagen: el amiloide teñido con rojo Congo y visto con luz polarizada. Y se trata con quimioterapia, no con corticoides.',
+            photo: { src: 'biblioteca/03_nefrologia/nefro-13/03_amiloide_rojo_congo_polarizada__goljan_p172.jpg', label: 'Rojo Congo y luz polarizada', at: 'Mira esta imagen', credit: 'Goljan, Rapid Review Pathology, Link 4-35' } },
         ] },
       ],
     },
@@ -205,6 +210,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Complicación',
+      title: 'Anasarca grave del nefrótico: se hospitaliza',
+      cards: [
+        { title: 'Cómo se presenta', tag: 'Albúmina < 2 g/dL', kind: 'alert', items: [
+          { t: 'Edema generalizado con derrames', d: 'Pleural, ascitis, edema genital, disnea y oliguria',
+            say: 'Cuando el edema del nefrótico se desborda, hablamos de anasarca grave: edema generalizado con derrame pleural, ascitis, edema genital, disnea y oliguria, casi siempre con albúmina bajo dos gramos por decilitro. Este paciente se maneja hospitalizado.' },
+        ] },
+        { title: 'Diurético en escalada', tag: 'Hospital', kind: 'pharma', items: [
+          { t: 'Reposo, sodio < 2 g/día, furosemida IV', d: '40–80 mg en bolo o infusión continua',
+            say: 'Se indica reposo, restricción de sodio bajo dos gramos al día, y de líquidos si hay hiponatremia, y furosemida endovenosa, de cuarenta a ochenta miligramos en bolo o en infusión continua.' },
+          { t: 'Asociar tiazida, metolazona o espironolactona', d: 'Bloqueo secuencial de la nefrona',
+            say: 'Como la hipoalbuminemia y la albuminuria reducen la respuesta al diurético, se asocia una tiazida, la metolazona o la espironolactona, para bloquear la nefrona en dos sitios.' },
+          { t: 'Albúmina 20–25 %: solo en refractarios', d: '25–50 g junto con la furosemida; efecto transitorio',
+            say: 'La albúmina al veinte o veinticinco por ciento, de veinticinco a cincuenta gramos junto con la furosemida, se reserva para el edema refractario con hipovolemia sintomática o albúmina muy baja. Y su efecto es transitorio.' },
+        ] },
+        { title: 'Metas y límites', tag: 'No pasarse', kind: 'key', items: [
+          { t: 'Perder 0,5–1 kg al día', d: 'Evitar hipovolemia: hipotensión, IRA prerrenal',
+            say: 'La meta es perder de medio a un kilo al día, sin pasarse, porque la hipovolemia produce hipotensión y una injuria renal prerrenal.' },
+          { t: 'Edema pulmonar o falla renal refractaria', d: 'Ultrafiltración o diálisis · mantener antitrombótico · derivar',
+            say: 'Si hay edema pulmonar o falla renal refractaria, se recurre a ultrafiltración o diálisis. Se mantiene la profilaxis antitrombótica y se deriva a Nefrología.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -215,23 +246,6 @@ module.exports = {
       steps: [
         { note: 'Albúmina a la orina, edema',
           say: 'Cuando se dañan los pies de los podocitos, la barrera deja pasar la albúmina a la orina, más de tres coma cinco gramos al día. La albúmina en sangre cae, aparece el edema, y sube el colesterol.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'El edema del síndrome nefrótico',
-      images: [
-        { src: 'biblioteca/03_nefrologia/nefro-13/01_edema_fovea__bates_p559.jpg', label: 'Edema con fóvea', credit: 'Bates 12.ª ed., Fig. 12-25' },
-        { src: 'biblioteca/03_nefrologia/nefro-13/02_edema_facial_nino_nefrosis__cdc-phil-3894.jpg', label: 'Edema facial y palpebral', credit: 'Wikimedia Commons «Plasmodium falciparum nephrosis edema PHIL 3894 lores.jpg», Public domain, ver autor en Commons' },
-      ],
-      steps: [
-        { note: 'La huella queda marcada',
-          say: 'Este es un edema con fóvea: al presionar, la huella queda marcada. En el nefrótico el edema parte en los párpados en la mañana y baja a las piernas durante el día.' },
-        { note: 'Párpados y cara hinchados',
-          say: 'Y así se ve el edema de la cara y los párpados en un niño con síndrome nefrótico: los ojos casi cerrados por la hinchazón.' },
       ],
     },
 
@@ -397,6 +411,232 @@ module.exports = {
         options: 'Las opciones son: nefrosis lipoidea, nefropatía diabética, amiloidosis primaria, enfermedad de Berger, o arteritis de la temporal. Piénsalo.',
         answer: 'Es la C, amiloidosis primaria. Tiene un síndrome nefrótico, tiene ochenta años, y hay dos pistas más: la VHS muy alta, que hace pensar en una gammapatía, y las equimosis periorbitarias espontáneas, clásicas del amiloide en los vasos. La nefrosis lipoidea, que es el otro nombre de cambios mínimos, es la causa típica del niño, no de un paciente de ochenta años.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.015 · Proteinuria",
+      "stem": "Hombre de 19 años, sano, en examen preocupacional presenta proteínas 1+ en la tira reactiva. La muestra se tomó en la tarde, tras un partido de fútbol. PA 118/72 mmHg, sin edema. Sedimento sin glóbulos rojos ni cilindros. Creatinina 0,8 mg/dL.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Biopsia renal"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar enalapril para reducir la proteinuria"
+        },
+        {
+          "letter": "C",
+          "text": "Derivar a nefrología como síndrome nefrótico"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar ANA, C3 y C4"
+        },
+        {
+          "letter": "E",
+          "text": "Repetir el examen en la primera orina de la mañana, en reposo"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En un joven sano la proteinuria aislada suele ser transitoria (ejercicio, fiebre) u ortostática. Se repite en la primera orina matinal: si es negativa, el pronóstico es benigno y no requiere estudio. Solo la proteinuria persistente en reposo merece cuantificación y estudio.",
+      "say": {
+        "stem": "Un hombre de diecinueve años, sano, tiene una cruz de proteínas en la tira de orina de un examen preocupacional, tomada en la tarde después de jugar fútbol. La presión es normal, no tiene edema, el sedimento es normal y la creatinina también.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: biopsia renal, enalapril, derivar como nefrótico, estudio inmunológico o repetir en la primera orina de la mañana. Piénsalo.",
+        "answer": "Es la E. En un joven sano, después de ejercicio o de estar de pie todo el día, la proteinuria suele ser transitoria u ortostática, y se aclara con la primera orina matinal. El estudio inmunológico tienta, pero no hay sangre en el sedimento ni nada que sugiera glomerulopatía."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.066 · Síndrome edematoso",
+      "stem": "Un niño de 5 años consulta por edema palpebral matinal de 5 días, que luego se extiende a las piernas. No tiene disnea, ictericia ni diarrea. Al examen la presión arterial es normal y el edema es blando, con fóvea.",
+      "question": "¿Cuál es el examen inicial más útil para orientar la causa del edema?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ecocardiograma"
+        },
+        {
+          "letter": "B",
+          "text": "TSH y T4 libre"
+        },
+        {
+          "letter": "C",
+          "text": "Pruebas hepáticas"
+        },
+        {
+          "letter": "D",
+          "text": "Ecografía abdominal"
+        },
+        {
+          "letter": "E",
+          "text": "Examen de orina completa con proteinuria"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En un niño con edema generalizado sin síntomas cardíacos ni hepáticos, la causa más frecuente es el síndrome nefrótico. El primer examen es la orina completa: proteinuria marcada (y luego índice proteinuria/creatininuria) junto con albuminemia y perfil lipídico. La hematuria e HTA orientan a síndrome nefrítico. Las causas cardíacas, hepáticas o por desnutrición se buscan si la orina es normal.",
+      "say": {
+        "stem": "Un niño de cinco años tiene edema de párpados en la mañana que se extiende a las piernas, con presión normal y sin otros síntomas.",
+        "question": "¿Cuál es el examen inicial más útil?",
+        "options": "Las opciones: ecocardiograma, pruebas tiroideas, pruebas hepáticas, ecografía abdominal o orina completa con proteinuria. Piénsalo.",
+        "answer": "Es la E. En un niño con edema la causa más frecuente es el síndrome nefrótico, y la orina completa con proteinuria es el primer examen. Las pruebas hepáticas tientan para buscar hipoalbuminemia, pero la causa renal es mucho más frecuente."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 60",
+      "stem": "Un niño de 2 años es traído por aumento de volumen facial y edema de las extremidades inferiores. La madre refiere orinas espumosas desde hace una semana. Al examen físico se observa edema blando de extremidades inferiores y cara, frecuencia cardíaca 80/min y presión arterial 87/54 mmHg. Exámenes: orina con 2 glóbulos rojos por campo y proteinuria 4+, creatinina 0,7 mg/dL, BUN 12 mg/dL, albuminemia 2,7 g/dL, colesterol total 310 mg/dL y triglicéridos 560 mg/dL.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar prednisona vía oral en dosis alta"
+        },
+        {
+          "letter": "B",
+          "text": "Derivar para biopsia renal"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar diuréticos"
+        },
+        {
+          "letter": "D",
+          "text": "Indicar dieta baja en sodio y en potasio"
+        },
+        {
+          "letter": "E",
+          "text": "Realizar hemodiálisis"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Edema, proteinuria masiva, hipoalbuminemia y dislipidemia sin hematuria, HTA ni falla renal es un síndrome nefrótico puro, que entre 1 y 10 años corresponde casi siempre a enfermedad de cambios mínimos. Se trata empíricamente con prednisona oral en dosis alta (60 mg/m2/día). La biopsia se reserva para corticorresistencia, edad atípica o síndrome impuro.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Un niño de dos años tiene edema facial y de piernas, orinas espumosas, proteinuria de cuatro cruces, albúmina baja y colesterol alto, con presión y creatinina normales y sin hematuria.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: prednisona oral en dosis alta, biopsia renal, diuréticos, dieta baja en sodio y potasio o hemodiálisis. Piénsalo.",
+        "answer": "Es la A. Es un síndrome nefrótico puro en un preescolar, casi siempre por cambios mínimos, y se trata con prednisona en dosis alta. La biopsia renal tienta, pero se reserva para los que no responden a corticoides o tienen un síndrome impuro."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.022 · Proteiuniria 24 horas",
+      "stem": "Un hombre de 35 años presenta edema progresivo de extremidades inferiores y palpebral de 3 semanas. Tiene orina espumosa, albúmina plasmática de 2,1 g/dL y colesterol total de 340 mg/dL. El sedimento urinario no muestra cilindros hemáticos.",
+      "question": "¿Qué resultado de proteinuria de 24 horas confirma el síndrome nefrótico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mayor de 3,5 g/24 h"
+        },
+        {
+          "letter": "B",
+          "text": "500 mg/24 h"
+        },
+        {
+          "letter": "C",
+          "text": "1,5 g/24 h"
+        },
+        {
+          "letter": "D",
+          "text": "150 mg/24 h"
+        },
+        {
+          "letter": "E",
+          "text": "Proteinuria negativa"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El síndrome nefrótico del adulto se define por proteinuria mayor de 3,5 g/24 horas, hipoalbuminemia bajo 3 g/dL, edema y dislipidemia. La proteinuria normal es menor de 150 mg/24 horas. Una alternativa práctica es el índice proteína/creatinina en orina aislada mayor de 3 a 3,5 g/g.",
+      "say": {
+        "stem": "Un hombre de treinta y cinco años tiene edema progresivo, orina espumosa, albúmina de dos coma uno y colesterol de trescientos cuarenta, sin cilindros hemáticos.",
+        "question": "¿Qué proteinuria de veinticuatro horas confirma el síndrome nefrótico?",
+        "options": "Las opciones: más de tres coma cinco gramos, quinientos miligramos, uno coma cinco gramos, ciento cincuenta miligramos o negativa. Piénsalo.",
+        "answer": "Es la A. El síndrome nefrótico requiere proteinuria sobre tres coma cinco gramos en veinticuatro horas. Uno coma cinco gramos tienta por ser claramente anormal, pero es rango no nefrótico."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2013 · Pregunta 135",
+      "stem": "Un deportista de 25 años corre un triatlón. Luego de la competencia, en el control de dopaje, se realiza un examen de orina que muestra proteinuria ++, sin presencia de drogas.",
+      "question": "¿Cuál de las siguientes es la causa más probable de su proteinuria?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proteinuria funcional"
+        },
+        {
+          "letter": "B",
+          "text": "Rabdomiólisis"
+        },
+        {
+          "letter": "C",
+          "text": "Deshidratación"
+        },
+        {
+          "letter": "D",
+          "text": "Acidosis metabólica"
+        },
+        {
+          "letter": "E",
+          "text": "Glomerulopatía membranosa"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El ejercicio intenso produce una proteinuria funcional transitoria por cambios hemodinámicos glomerulares, que desaparece en 24 a 48 horas. Se confirma repitiendo el examen en reposo; si persiste, se estudia. No hay clínica de rabdomiólisis (mialgias, orina oscura, CK elevada), y una glomerulopatía membranosa daría proteinuria persistente y edema.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil trece. Deportista de veinticinco años con proteinuria en un control tras correr un triatlón.",
+        "question": "¿Cuál es la causa más probable?",
+        "options": "Las opciones: proteinuria funcional, rabdomiólisis, deshidratación, acidosis metabólica, o glomerulopatía membranosa. Piénsalo.",
+        "answer": "Es la A. Proteinuria funcional por el ejercicio, transitoria. La rabdomiólisis tienta tras un triatlón, pero daría mialgias y orina oscura."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.2.003 · Edema generalizado grave (anasarca)",
+      "stem": "Hombre de 42 años con síndrome nefrótico por glomerulopatía membranosa presenta anasarca: edema de extremidades, pared abdominal y escroto, con ascitis. Proteinuria 9 g/24 h, albúmina 1,9 g/dL, creatinina 1,0 mg/dL, PA 140/88 mmHg.",
+      "question": "¿Cuál es el manejo más adecuado del edema?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Albúmina endovenosa diaria como tratamiento único"
+        },
+        {
+          "letter": "B",
+          "text": "Restricción de sodio y diurético de asa (furosemida)"
+        },
+        {
+          "letter": "C",
+          "text": "Restricción estricta de líquidos a 500 mL/día"
+        },
+        {
+          "letter": "D",
+          "text": "Paracentesis evacuadora diaria"
+        },
+        {
+          "letter": "E",
+          "text": "Espironolactona como única medida"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El edema nefrótico se maneja con restricción de sodio y diuréticos de asa en dosis altas, porque la hipoalbuminemia y la proteína tubular reducen su efecto; puede asociarse tiazida y, en casos refractarios, albúmina con furosemida. Además se indica IECA o ARA II para reducir la proteinuria y se evalúa anticoagulación por la albúmina muy baja.",
+      "say": {
+        "stem": "Hombre de cuarenta y dos años con síndrome nefrótico y anasarca, con albúmina de uno coma nueve.",
+        "question": "¿Cómo manejas el edema?",
+        "options": "Las opciones: solo albúmina, restricción de sodio con furosemida, restricción estricta de líquidos, paracentesis diaria, o solo espironolactona. Piénsalo.",
+        "answer": "Es la B. Restricción de sodio y furosemida. La albúmina sola tienta por la hipoalbuminemia, pero su efecto es transitorio porque se pierde por la orina."
+      }
     },
 
     {

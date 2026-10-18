@@ -55,7 +55,14 @@ const bloque4 = [
           'La LLA es la neoplasia maligna más común en pediatría, representando el 80% de las leucemias infantiles con un pico máximo entre los 2 y 5 años de edad. En Chile, bajo el protocolo nacional PINDA / GES N° 8, la sobrevida libre de enfermedad a 5 años supera el 85-90% de los niños. Requiere quimioterapia intensiva con profilaxis intratecal obligatoria de SNC (metotrexato, citarabina y dexametasona intratecal) debido a que los linfoblastos infiltran precozmente las meninges y los testículos, santuarios anatómicos inaccesibles para la quimioterapia sistémica clásica.',
           'Por su parte, la LMA es la leucemia aguda predominante en adultos mayores (edad mediana al diagnóstico: 68 años). Su tratamiento se inicia con el esquema clásico "7+3" (citarabina en infusión continua por 7 días más daunorrubicina por 3 días). En pacientes menores de 60 años con citogenética de alto riesgo o refractariedad, el tratamiento curativo definitivo de consolidación es el Trasplante Alogénico de Células Progenitoras Hematopoyéticas.'
         ]
-      }
+      },
+      {
+        subhead: "5. Mielograma y quimioterapia intratecal: indicaciones y derivación",
+        paragraphs: [
+          "<b>Mielograma (procedimiento: Derivar a especialista):</b> se solicita ante la sospecha de leucemia aguda (citopenias con blastos en el frotis, leucocitosis con blastos, síndrome anémico con sangrado e infecciones). Es la forma de confirmar el diagnóstico (<b>≥ 20% de blastos</b>) y se completa con <b>citometría de flujo, citogenética y biología molecular</b> (t(15;17), BCR-ABL1, FLT3, NPM1) y biopsia osteomedular si el aspirado es seco. No se realiza en APS ni se posterga por plaquetopenia o fiebre: la sospecha de leucemia aguda es una <b>urgencia de derivación inmediata</b> a un centro con hematología, y ante sospecha de LPA se inicia ATRA sin esperar el resultado.",
+          "<b>Quimioterapia intratecal (procedimiento: Derivar a especialista):</b> la administra el hematólogo u oncólogo mediante punción lumbar (metotrexato, citarabina y corticoide). Se indica como <b>profilaxis del SNC en toda LLA</b> (y en LMA de alto riesgo, como la hiperleucocitosis o el subtipo monocítico) y como <b>tratamiento</b> cuando hay infiltración meníngea (cefalea, compromiso de pares craneales, blastos en el LCR). También la reciben los linfomas agresivos de alto riesgo (Burkitt, linfoblástico). El médico general debe saber que la punción lumbar en el paciente leucémico se coordina con hematología (corrección previa de plaquetopenia y coagulopatía) y no se hace de rutina en un paciente no estabilizado."
+        ]
+      },
     ],
     table: {
       title: 'Diagnóstico Diferencial Clínico y Biológico: LMA vs LLA',
@@ -207,7 +214,14 @@ const bloque4 = [
           'El criterio diagnóstico exige una Linfocitosis clonal persistente en sangre periférica ≥ 5.000/uL durante al menos 3 meses, confirmada por citometría de flujo. En el frotis sanguíneo se observan linfocitos pequeños de apariencia madura con cromatina densa y las patognomónicas Sombras de Gümprecht (manchas nucleares frágiles desprovistas de citoplasma provocadas por la ruptura mecánica de las células leucémicas al confeccionar el frotis). Cursa con hipogammaglobulinemia progresiva (infecciones bacterianas respiratorias de repetición) y fenómenos autoinmunes paradójicos (anemia hemolítica autoinmune por anticuerpos calientes y PTI).',
           'Conducta terapéutica de examen EUNACOM: en pacientes con LLC asintomática en estadios tempranos (clasificación de Binet estadio A: solo linfocitosis con < 3 áreas ganglionares; o Rai estadio 0: linfocitosis aislada sin adenopatías ni anemia/plaquetopenia), el tratamiento precoz con quimioterapia NO prolonga la sobrevida y solo añade toxicidad. Por tanto, la conducta de elección es la OBSERVACIÓN CLÍNICA PERIÓDICA SIN TRATAMIENTO ("Watch and Wait"). El tratamiento farmacológico (con inhibidores de BTK como Ibrutinib o Acalabrutinib, o inhibidores de BCL-2 como Venetoclax) se reserva estrictamente para estadios avanzados con insuficiencia medular (Binet C / Rai III-IV con Hb < 10 o plaquetas < 100.000) o síntomas constitucionales B severos progresivos.'
         ]
-      }
+      },
+      {
+        subhead: "4. Reacción leucemoide y su diferencia con la leucemia mieloide crónica",
+        paragraphs: [
+          "<b>Reacción leucemoide (Dx Sospecha, Tx Inicial, Seguimiento Derivar):</b> leucocitosis reactiva intensa (> 50.000/uL) con desviación izquierda (bandas, metamielocitos, mielocitos) que simula una leucemia, sin clon neoplásico. Sus causas son <b>infecciones graves</b> (sepsis, tuberculosis, infección por C. difficile, neumonía), inflamación intensa, <b>hemorragia o hemólisis aguda</b>, fármacos (corticoides, litio, G-CSF), algunas neoplasias sólidas y la recuperación de una aplasia. También existe la forma linfoide (coqueluche, mononucleosis, tuberculosis).",
+          "<b>Diferencias con la LMC:</b> en la reacción leucemoide la <b>fosfatasa alcalina leucocitaria está elevada</b>, los neutrófilos tienen granulación tóxica y cuerpos de Döhle, <b>no hay basofilia ni eosinofilia</b> ni esplenomegalia masiva y el <b>BCR-ABL1 es negativo</b>; en la LMC la fosfatasa alcalina leucocitaria está baja, hay basofilia, eosinofilia y trombocitosis, esplenomegalia y t(9;22). <b>Conducta inicial:</b> buscar y tratar la causa (hemocultivos, cultivos, imágenes), repetir el hemograma con frotis y no iniciar citorreducción. <b>Se deriva</b> a hematología si la leucocitosis persiste sin causa, hay blastos, anemia o plaquetopenia asociadas o BCR-ABL1 positivo."
+        ]
+      },
     ],
     table: {
       title: 'Diagnóstico Diferencial: Leucemia Mieloide Crónica (LMC) vs Leucemia Linfática Crónica (LLC)',
@@ -325,7 +339,14 @@ const bloque4 = [
           'La etapificación clínica rige el tratamiento y se basa en la Clasificación de Ann Arbor (modificada por Cotswolds): 1) Estadio I: compromiso de una sola región ganglionar (ej. solo ganglios cervicales derechos) o una sola localización extraganglionar única (IE); 2) Estadio II: dos o más regiones ganglionares al mismo lado del diafragma (ambas por encima o ambas por debajo del músculo diafragma); 3) Estadio III: compromiso de regiones ganglionares a ambos lados del diafragma (por encima y por debajo, o ganglios abdominales más supradiafragmáticos); y 4) Estadio IV: diseminación difusa a uno o más órganos o tejidos extralinfáticos no contiguos (médula ósea, hígado, parénquima pulmonar).',
           'En Chile, bajo la garantía GES N° 38: el tratamiento estándar para Linfoma de Hodgkin en estadios tempranos y avanzados es el esquema poliquimioterápico ABVD (Adriamicina/Doxorrubicina + Bleomicina + Vinblastina + Dacarbazina), asociado o no a radioterapia de campo comprometido, alcanzando tasas globales de curación superiores al 85%. Para el Linfoma No Hodgkin agresivo B, el régimen garantizado es la inmunoquimioterapia R-CHOP.'
         ]
-      }
+      },
+      {
+        subhead: "6. Radiografía de tórax y linfomas cutáneos",
+        paragraphs: [
+          "<b>Radiografía de tórax en el linfoma (examen: Interpreta y emplea):</b> es el primer examen de etapificación y se pide en todo paciente con adenopatías o síntomas B. Se buscan <b>ensanchamiento mediastínico</b> (masa en el mediastino anterior o medio, típica del Hodgkin esclerosis nodular y del linfoma mediastínico primario de células B), <b>adenopatías hiliares</b>, derrame pleural y una <b>masa «bulky»</b> (que ocupa más de un tercio del diámetro torácico máximo, o mide más de 10 cm), que empeora el pronóstico y modifica el tratamiento. Una masa mediastínica con disnea, tos, ortopnea o <b>síndrome de vena cava superior</b> es una urgencia. La radiografía no reemplaza al TAC o al PET-CT para etapificar, y ante una masa mediastínica no se debe sedar ni acostar en decúbito supino sin evaluar la vía aérea.",
+          "<b>Linfomas cutáneos (Dx Sospecha, Tx Inicial, Seguimiento Derivar):</b> son linfomas no Hodgkin que debutan en la piel; el más frecuente es la <b>micosis fungoide</b> (linfoma T cutáneo), que evoluciona durante años desde <b>máculas y placas eritematoescamosas</b> pruriginosas, de predominio en zonas no fotoexpuestas (nalgas, tronco) y que se confunden con eccema, psoriasis o tiña, hasta placas infiltradas, tumores y eritrodermia; su variante leucémica es el <b>síndrome de Sézary</b> (eritrodermia, adenopatías y células de Sézary en sangre). Hay también linfomas B cutáneos (nódulos violáceos). <b>Conducta:</b> sospechar ante una dermatosis crónica refractaria al tratamiento habitual; <b>biopsia cutánea</b> (si es posible de varias lesiones y antes de usar corticoides tópicos potentes), emolientes y control del prurito mientras tanto, y <b>derivación</b> a dermatología y hematología para inmunohistoquímica, etapificación y terapia (corticoides tópicos, fototerapia, radioterapia o quimioterapia según el estadio)."
+        ]
+      },
     ],
     table: {
       title: 'Diagnóstico Diferencial: Linfoma de Hodgkin vs Linfomas No Hodgkin',
@@ -577,7 +598,15 @@ const bloque4 = [
           'La Mielofibrosis Primaria (MFP) es la NMC más agresiva. La proliferación clonal de megacariocitos atípicos libera PDGF y TGF-beta, estimulando a los fibroblastos medulares a depositar colágeno y fibrosis reticulínica difusa masiva. La médula ósea queda cicatrizada y afuncional, obligando a la hematopoyesis a migrar a bazo e hígado (metaplasia mieloide extramedular). Cursa con la tríada semiológica: 1) Esplenomegalia masiva gigante (bazo palpable hasta fosa ilíaca derecha); 2) Frotis con Leucoeritroblastosis y Dacriocitos (glóbulos rojos deformados con forma de gota o lágrima al exprimir su paso a través de la fibrosis medular); y 3) Aspirado de médula ósea "seco" (dry tap: no se obtiene material hemático), requiriendo obligatoriamente biopsia ósea.',
           'Los Síndromes Mielodisplásicos (SMD) son neoplasias clonales del adulto mayor caracterizadas por dishemopoyesis: la médula es hipercelular pero defectuosa, produciendo células displásicas que mueren dentro de la médula por apoptosis (hematopoyesis ineficaz), expresándose en sangre periférica como pancitopenia con macrocitosis, hipogranulación de neutrófilos (anomalía de Pelger-Huët) y riesgo elevado de transformación a Leucemia Mieloide Aguda.'
         ]
-      }
+      },
+      {
+        subhead: "4. Síndrome leucoeritroblástico y síndromes mielodisplásicos",
+        paragraphs: [
+          "<b>Síndrome leucoeritroblástico (Dx Sospecha, Tx Inicial, Seguimiento Derivar):</b> presencia en sangre periférica de <b>precursores mieloides inmaduros (mielocitos, metamielocitos) y eritroblastos</b>, habitualmente con dacriocitos, que indica una médula ocupada, fibrosada o sometida a estrés extremo. Sus causas son la <b>infiltración medular</b> (metástasis de cáncer de mama, próstata, pulmón o riñón; linfomas, mieloma, leucemias), la <b>mielofibrosis</b>, la tuberculosis miliar y la hemólisis o hemorragia aguda masiva. Ante el hallazgo se sospecha <b>invasión medular</b>: se busca el tumor primario (examen físico, mamografía, antígeno prostático, imágenes), se piden LDH, fosfatasa alcalina y calcio, y se <b>deriva</b> para mielograma y biopsia osteomedular.",
+          "<b>Síndromes mielodisplásicos (Dx Sospecha, Tx Inicial, Seguimiento Derivar):</b> neoplasias clonales del adulto mayor (mediana cercana a 70 años) con <b>citopenias persistentes</b> (típicamente anemia macrocítica refractaria, a veces neutropenia o plaquetopenia) y médula hipercelular con displasia y < 20% de blastos. Se sospecha ante una anemia macrocítica del anciano sin déficit de B12 o folato, hipotiroidismo, alcoholismo, hepatopatía ni fármacos; el frotis muestra <b>neutrófilos hipogranulares con núcleo pseudo-Pelger-Huët</b> y macroovalocitos. Se confirma con <b>mielograma, biopsia y citogenética</b> (del(5q), monosomía 7), y la quimioterapia o radioterapia previas y el benceno son factores de riesgo (SMD secundario).",
+          "<b>Manejo inicial en APS:</b> excluir causas reversibles de citopenia, transfundir glóbulos rojos si hay síntomas, tratar las infecciones y <b>derivar</b>. El riesgo es la evolución a <b>LMA</b> (cerca de un tercio de los casos) y la hemorragia o infección por citopenias; el tratamiento específico (apoyo transfusional, eritropoyetina, lenalidomida en del(5q), agentes hipometilantes, trasplante) lo define el hematólogo según el riesgo."
+        ]
+      },
     ],
     table: {
       title: 'Diagnóstico Diferencial: Policitemia Vera vs Poliglobulias Secundarias',

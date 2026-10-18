@@ -33,7 +33,8 @@ module.exports = {
         { show: ['dxa'], note: 'El estándar de oro es la DEXA axial',
           say: 'La osteoporosis es un hueso con menos masa y con una arquitectura dañada, que se rompe ante un golpe de baja energía. Para medirla, el estándar de oro es la absorciometría de rayos X de doble energía, la DEXA, en la columna lumbar y en la cadera.' },
         { show: ['ts'], note: 'Se compara con el pico de masa ósea del adulto joven',
-          say: 'El resultado que importa es el T-score: cuántas desviaciones estándar está el hueso del paciente por debajo del pico de masa ósea de un adulto joven. Y siempre manda el sitio más bajo.' },
+          say: 'El resultado que importa es el T-score, y este esquema lo resume: cuántas desviaciones estándar está el hueso del paciente por debajo del pico de masa ósea de un adulto joven. Y siempre manda el sitio más bajo.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-18/S1_dexa-t-score__propio.svg', label: 'T-score', at: 'y este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['nor', 'pen'], note: 'Osteopenia = baja masa ósea',
           say: 'Si el T-score es menos uno o más, es normal. Entre menos uno y menos dos coma cinco, es osteopenia, o baja masa ósea.' },
         { show: ['op'], note: 'Basta un solo sitio bajo -2,5',
@@ -50,9 +51,14 @@ module.exports = {
       cards: [
         { title: 'Fractura por fragilidad', tag: 'Diagnóstico clínico', kind: 'alert', items: [
           { t: 'Caída desde su propia altura', d: 'Traumatismo de baja energía',
-            say: '¿Qué es una fractura por fragilidad? Es la que ocurre ante un traumatismo de baja energía, típicamente una caída desde la propia altura. Un hueso sano no se rompe con eso.' },
+            say: '¿Qué es una fractura por fragilidad? Es la que ocurre ante un traumatismo de baja energía, típicamente una caída desde la propia altura, apoyando la mano: mira esta muñeca, una fractura de Colles, del extremo distal del radio. Un hueso sano no se rompe con eso.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-18/03_fractura_colles__sherman_p569.jpg', label: 'Fractura de Colles', at: 'mira esta muñeca', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 569' } },
           { t: 'Cadera, vértebra, húmero proximal', d: 'También muñeca, la fractura de Colles',
-            say: 'Los sitios típicos son la cadera, la vértebra por aplastamiento y el húmero proximal, además de la muñeca, la fractura de Colles.' },
+            say: 'Los sitios típicos son la cadera, aquí una fractura del cuello del fémur, la vértebra por aplastamiento, con varias vértebras dorsales colapsadas y la espalda encorvada, y el húmero proximal, además de la muñeca.',
+            photos: [
+              { src: 'biblioteca/05_endocrinologia/endo-18/02_rx_fractura_cuello_femur__commons.jpg', label: 'Fractura de cadera', at: 'aquí una fractura', credit: 'Wikimedia Commons «Cdm hip fracture 343.jpg», CC BY-SA 3.0, Booyabazooka' },
+              { src: 'biblioteca/05_endocrinologia/endo-18/01_aplastamientos-vertebrales__amir-reuma_p88.jpg', label: 'Aplastamientos vertebrales', at: 'varias vértebras dorsales', credit: 'Manual AMIR Reumatología, p. 88' },
+            ] },
           { t: 'Tratar aunque el T-score no llegue', d: 'Aunque la DEXA muestre osteopenia',
             say: 'Y aquí está la regla que más se pregunta. Un adulto mayor con una fractura por fragilidad mayor tiene osteoporosis, sin importar el T-score. Aunque la densitometría diga osteopenia, se trata. Esperar el número es la trampa.' },
         ] },
@@ -124,6 +130,51 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Osteoporosis secundaria',
+      title: 'Cuándo sospechar una causa y cuáles son',
+      cards: [
+        { title: 'Cuándo sospecharla', tag: 'Pistas', kind: 'key', items: [
+          { t: 'Hombre o mujer premenopáusica', d: 'Osteoporosis fuera del patrón habitual',
+            say: 'La mayoría de las osteoporosis son primarias, pero antes de tratar tienes que preguntarte si hay una causa detrás. Sospéchala en todo hombre con osteoporosis y en la mujer premenopáusica.' },
+          { t: 'Fractura con T-score poco bajo', d: 'Z-score de menos 2 o peor',
+            say: 'Y también cuando hay fracturas con un T-score poco descendido, un Z-score de menos dos o peor, pérdida acelerada en densitometrías seriadas, o mala respuesta al tratamiento.' },
+        ] },
+        { title: 'Fármacos', tag: 'La causa más frecuente', kind: 'pharma', items: [
+          { t: 'Glucocorticoides', d: 'El fármaco más frecuente',
+            say: 'Las causas más importantes son los fármacos. Parte por los glucocorticoides, el más frecuente. Siguen los inhibidores de aromatasa, la deprivación androgénica, los anticonvulsivantes, la heparina, el exceso de levotiroxina, los inhibidores de la bomba de protones y las glitazonas.' },
+        ] },
+        { title: 'Enfermedades', tag: 'Se buscan', kind: 'criteria', items: [
+          { t: 'Endocrinas y digestivas', d: 'Hiper e hipotiroidismo, hiperparatiroidismo, Cushing, celiaquía',
+            say: 'Entre las enfermedades: el hipertiroidismo, el hiperparatiroidismo primario, el hipogonadismo, el Cushing y la diabetes tipo uno. De las digestivas, la enfermedad celíaca, la enfermedad inflamatoria intestinal, la cirugía bariátrica y la hepatopatía crónica.' },
+          { t: 'Otras: vitamina D, riñón, mieloma, alcohol', d: 'Artritis reumatoide, anorexia',
+            say: 'Y además el déficit de vitamina D, la enfermedad renal crónica, el mieloma múltiple, la artritis reumatoide, el alcoholismo y la anorexia nerviosa.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Osteoporosis secundaria',
+      title: 'El estudio inicial y la conducta',
+      cards: [
+        { title: 'Antes de tratar', tag: 'A todo paciente', kind: 'criteria', items: [
+          { t: 'Laboratorio básico y 25-OH vitamina D', d: 'Hemograma, VHS, calcio, creatinina, TSH',
+            say: 'Antes de iniciar el tratamiento de cualquier paciente con osteoporosis, pides un estudio básico: hemograma y velocidad de sedimentación, calcemia, fosfemia, fosfatasas alcalinas, creatinina, perfil hepático, TSH, calciuria de veinticuatro horas y, muy importante, la veinticinco hidroxivitamina D. En el hombre, también testosterona total.' },
+          { t: 'Según la sospecha: PTH, mieloma, celiaquía', d: 'Anemia o VHS alta: electroforesis',
+            say: 'Según la sospecha, agregas la hormona paratiroidea, una electroforesis de proteínas si hay anemia, velocidad alta o fracturas vertebrales inexplicadas, por el mieloma, y los anticuerpos antitransglutaminasa.' },
+        ] },
+        { title: 'Conducta', tag: 'Qué haces tú', kind: 'key', items: [
+          { t: 'Corregir lo tratable', d: 'Déficit de vitamina D, fármaco causante',
+            say: 'Se corrige lo tratable: el déficit de vitamina D, y se suspende o reduce el fármaco causante si se puede. Cuando se identifica la causa, o la osteoporosis es grave o atípica, derivas a endocrinología o a la especialidad que corresponda.' },
+          { t: 'Prednisona 2,5 mg o más por 3 meses', d: 'Calcio, vitamina D y FRAX',
+            say: 'Y en quien va a recibir prednisona, dos coma cinco miligramos o más por tres meses o más, indicas calcio y vitamina D, evalúas el riesgo con FRAX y densitometría, y agregas un bifosfonato si el riesgo es moderado o alto.' },
+        ] },
+      ],
+    },
+
+
+    {
+      type: 'points',
       kicker: 'Tratamiento',
       title: 'Bifosfonatos: cómo actúan y cómo se toman',
       cards: [
@@ -163,9 +214,11 @@ module.exports = {
         ] },
         { title: 'Largo plazo', tag: 'Raro pero se pregunta', kind: 'alert', items: [
           { t: 'Osteonecrosis mandibular', d: 'Asociada a extracciones dentales',
-            say: 'Con el uso prolongado aparecen dos complicaciones raras. La osteonecrosis de la mandíbula, asociada a extracciones dentales.' },
+            say: 'Con el uso prolongado aparecen dos complicaciones raras. La osteonecrosis de la mandíbula, asociada a extracciones dentales: mira este hueso expuesto y necrótico en la boca, que no cierra.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-18/04_osteonecrosis_mandibular__commons.jpg', label: 'Osteonecrosis mandibular', at: 'mira este hueso', credit: 'Wikimedia Commons, CC BY-SA 4.0, ver autor en Commons' } },
           { t: 'Fractura atípica de fémur', d: 'Subtrocantérica, dolor en el muslo',
-            say: 'Y la fractura atípica subtrocantérica del fémur, que se anuncia con dolor en el muslo después de más de cinco años de uso.' },
+            say: 'Y la fractura atípica subtrocantérica del fémur. Mira la flecha, donde la cortical lateral se engrosa. Se anuncia con dolor en el muslo después de más de cinco años de uso.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-18/05_fractura_atipica_femur__helms_p165.jpg', label: 'Fractura atípica de fémur', at: 'Mira la flecha', credit: 'Fundamentals of Skeletal Radiology (Helms), p. 165' } },
           { t: 'Vacaciones terapéuticas a los 3–5 años', d: 'DEXA de control cada 1–2 años',
             say: 'Por eso, a los tres a cinco años de bifosfonatos se evalúan las vacaciones terapéuticas. Y el seguimiento se hace con una densitometría cada uno a dos años.' },
         ] },
@@ -191,6 +244,27 @@ module.exports = {
         ] },
       ],
     },
+    {
+      type: 'points',
+      kicker: 'Prevención',
+      title: 'Prevenir la osteoporosis desde temprano',
+      cards: [
+        { title: 'Para toda la población', tag: 'Pico de masa ósea', kind: 'normal', items: [
+          { t: 'Calcio: 1000 mg al día', d: '1200 en mujeres sobre 50 y hombres sobre 70',
+            say: 'Y cerramos con la prevención, que parte desde la infancia para lograr un buen pico de masa ósea. Calcio de mil miligramos al día en adultos, y mil doscientos en mujeres mayores de cincuenta años y hombres mayores de setenta, idealmente con lácteos.' },
+          { t: 'Vitamina D: 600 a 800 UI al día', d: 'Se suplementa en adultos mayores y poca exposición solar',
+            say: 'Vitamina D, seiscientas a ochocientas unidades al día, que se suplementa en adultos mayores, en institucionalizados y en quienes se exponen poco al sol.' },
+          { t: 'Ejercicio con carga, 150 minutos a la semana', d: 'Fuerza y equilibrio; sin tabaco ni exceso de alcohol',
+            say: 'Actividad física regular con carga de peso, ejercicios de fuerza y de equilibrio, al menos ciento cincuenta minutos a la semana. Y evitar el tabaco, el alcohol en exceso y el bajo peso.' },
+        ] },
+        { title: 'En el adulto mayor', tag: 'Lo que más evita fracturas', kind: 'key', items: [
+          { t: 'Prevenir caídas', d: 'Sedantes, visión, hogar, equilibrio',
+            say: 'En el adulto mayor la prioridad es prevenir las caídas: revisar los fármacos sedantes e hipotensores, corregir la visión, adecuar el hogar y practicar ejercicios de equilibrio.' },
+          { t: 'DEXA: mujer de 65 años o más', d: 'O posmenopáusica con factores de riesgo',
+            say: 'Se pide densitometría a toda mujer de sesenta y cinco años o más, y a las posmenopáusicas más jóvenes con factores de riesgo.' },
+        ] },
+      ],
+    },
 
     {
       type: 'image',
@@ -203,37 +277,6 @@ module.exports = {
       steps: [
         { note: 'T-score de menos dos coma cinco o menos',
           say: 'El osteoclasto cava y el osteoblasto rellena. Con la menopausia o los corticoides hay más osteoclastos, y el hueso pierde masa: el T-score cae. Bajo menos dos coma cinco es osteoporosis. El bifosfonato se pega al hueso y frena al osteoclasto, siempre con calcio y vitamina D.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Cómo leer la densitometría',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-18/S1_dexa-t-score__propio.svg', label: 'T-score', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Menos dos coma cinco es osteoporosis',
-          say: 'El T-score compara con un adulto joven. Hasta menos uno es normal; entre menos uno y menos dos coma cinco, osteopenia; bajo menos dos coma cinco, osteoporosis.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'La fractura por fragilidad',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-18/01_aplastamientos-vertebrales__amir-reuma_p88.jpg', label: 'Aplastamientos vertebrales dorsales', credit: 'Manual AMIR Reumatología, p. 88' },
-        { src: 'biblioteca/05_endocrinologia/endo-18/02_rx_fractura_cuello_femur__commons.jpg', label: 'Fractura de cadera', credit: 'Wikimedia Commons «Cdm hip fracture 343.jpg», CC BY-SA 3.0, Booyabazooka' },
-      ],
-      steps: [
-        { note: 'Vértebras acuñadas y más cifosis',
-          say: 'Esta es la fractura vertebral por aplastamiento: varias vértebras dorsales colapsadas, y la espalda se encorva. Una fractura por fragilidad ya es el diagnóstico de osteoporosis.' },
-        { note: 'Cuello del fémur fracturado',
-          say: 'Y esta es una fractura de cadera, en el cuello del fémur. Junto con la vértebra, la muñeca y el húmero proximal, son los sitios típicos.' },
       ],
     },
 
@@ -260,6 +303,8 @@ module.exports = {
           say: 'El alendronato se toma en ayunas, con agua de la llave, y erguido. Tomarlo con leche o justo antes de acostarse es la alternativa incorrecta clásica.' },
         { cells: ['Reflujo severo o esofagitis', 'Ácido zoledrónico EV anual', 'Alendronato oral igual'],
           say: 'Y si hay reflujo severo o esofagitis, el zoledrónico endovenoso anual, en vez de insistir con la vía oral.' },
+        { cells: ['Osteoporosis en hombre o premenopáusica', 'Descartar causa secundaria antes de tratar', 'Iniciar bifosfonato sin estudio'],
+          say: 'Osteoporosis en un hombre o en una mujer premenopáusica: busca una causa secundaria antes de tratar, con calcio, vitamina D, TSH, creatinina y testosterona. El error es partir directo con el bifosfonato.' },
       ],
     },
 
@@ -379,6 +424,157 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.4.002 · Densitometría ósea",
+      "stem": "Mujer de 38 años, con menstruaciones regulares, en tratamiento con prednisona 10 mg/día hace 14 meses por lupus. Se solicita densitometría ósea (DEXA): columna lumbar T-score −2,7 y Z-score −2,4; cuello femoral T-score −2,1 y Z-score −2,0. No tiene fracturas.",
+      "question": "¿Cuál es la interpretación correcta de la densitometría?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Osteoporosis, porque el T-score es menor de −2,5"
+        },
+        {
+          "letter": "B",
+          "text": "Osteopenia, porque el cuello femoral está sobre −2,5"
+        },
+        {
+          "letter": "C",
+          "text": "Densitometría normal"
+        },
+        {
+          "letter": "D",
+          "text": "Densidad mineral ósea baja para la edad, según el Z-score, que es el índice que se usa en mujeres premenopáusicas"
+        },
+        {
+          "letter": "E",
+          "text": "Osteoporosis severa"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El T-score compara con el adulto joven y diagnostica osteoporosis (≤ −2,5) en posmenopáusicas y hombres de 50 años o más. En premenopáusicas y hombres menores de 50 se usa el Z-score, que compara con la misma edad: ≤ −2,0 es densidad baja para la edad y obliga a buscar una causa secundaria, aquí los corticoides.",
+      "say": {
+        "stem": "Mujer de treinta y ocho años, con reglas normales, que toma prednisona hace catorce meses por un lupus. Su densitometría lumbar muestra un T-score de menos dos coma siete y un Z-score de menos dos coma cuatro.",
+        "question": "¿Cuál es la interpretación correcta de la densitometría?",
+        "options": "Las opciones: osteoporosis por el T-score, osteopenia, densitometría normal, densidad baja para la edad según el Z-score o osteoporosis severa. Piénsalo.",
+        "answer": "Es la D. En una mujer premenopáusica no se usa el T-score sino el Z-score, y un Z-score de menos dos o menos es una densidad baja para la edad, que obliga a buscar la causa. Decir osteoporosis tienta por el menos dos coma siete, pero ese criterio solo vale en posmenopáusicas y hombres de cincuenta o más."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.3.002 · Prevención de osteoporosis",
+      "stem": "Mujer de 54 años, menopáusica hace 3 años, fumadora de 10 cigarrillos al día, sedentaria, IMC 21. Ingiere un solo lácteo al día. Sin fracturas previas ni uso de corticoides. Su densitometría muestra T-score −1,4 en columna y −1,2 en cadera, con riesgo de fractura a 10 años bajo según FRAX.",
+      "question": "¿Cuál es la indicación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alendronato 70 mg semanal"
+        },
+        {
+          "letter": "B",
+          "text": "Asegurar 1.000–1.200 mg/día de calcio, idealmente con la dieta, vitamina D, ejercicio con carga, suspender el tabaco y moderar el alcohol"
+        },
+        {
+          "letter": "C",
+          "text": "Ácido zoledrónico anual"
+        },
+        {
+          "letter": "D",
+          "text": "Solo control densitométrico en 6 meses"
+        },
+        {
+          "letter": "E",
+          "text": "Calcitonina nasal"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Osteopenia con riesgo de fractura bajo: no tiene indicación de fármacos antirresortivos. Corresponde la prevención: aporte de calcio de 1.000–1.200 mg/día, idealmente con la dieta, vitamina D suficiente, ejercicio con carga y de fuerza, dejar el tabaco, moderar el alcohol y prevenir caídas. La densitometría de control se repite en 2 a 3 años, no a los 6 meses.",
+      "say": {
+        "stem": "Mujer de cincuenta y cuatro años, menopáusica hace tres años, fumadora, sedentaria y delgada, que toma un solo lácteo al día. Su densitometría muestra una osteopenia leve y su riesgo de fractura es bajo.",
+        "question": "¿Cuál es la indicación más adecuada?",
+        "options": "Las opciones: alendronato, calcio suficiente con vitamina D, ejercicio con carga y dejar el tabaco, ácido zoledrónico, control densitométrico en seis meses, o calcitonina. Piénsalo.",
+        "answer": "Es la B. Con osteopenia y riesgo bajo, lo que corresponde son las medidas de prevención: calcio, vitamina D, ejercicio con carga y dejar de fumar. El alendronato tienta porque la densitometría está alterada, pero no está indicado sin osteoporosis ni riesgo alto de fractura."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.1.019 · Osteoporosis secundaria",
+      "stem": "Un hombre de 45 años presenta una fractura vertebral por aplastamiento tras un esfuerzo mínimo. La densitometría muestra un Z-score de −3,0 en columna. No tiene antecedentes conocidos ni usa fármacos.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar bifosfonato sin otro estudio, porque es osteoporosis primaria"
+        },
+        {
+          "letter": "B",
+          "text": "Repetir la densitometría en 2 años"
+        },
+        {
+          "letter": "C",
+          "text": "Indicar solo calcio y vitamina D"
+        },
+        {
+          "letter": "D",
+          "text": "Buscar causas secundarias: calcio, fósforo, PTH, vitamina D, TSH, testosterona, función renal y hepática, hemograma y electroforesis de proteínas"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar terapia con estrógenos"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Osteoporosis en un hombre joven o con Z-score bajo −2 obliga a buscar causas secundarias: hipogonadismo, hiperparatiroidismo, hipertiroidismo, Cushing o corticoides, déficit de vitamina D, malabsorción (enfermedad celíaca), alcoholismo o mieloma, entre otras. Tratar la causa es parte central del manejo, junto al antirresortivo.",
+      "say": {
+        "stem": "Un hombre de cuarenta y cinco años, sin antecedentes ni fármacos, tiene una fractura vertebral por un esfuerzo mínimo y un Z score de menos tres en la densitometría.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: bifosfonato sin más estudio, repetir la densitometría en dos años, solo calcio y vitamina D, buscar causas secundarias con un panel de laboratorio o estrógenos. Piénsalo.",
+        "answer": "Es la D. Osteoporosis en un hombre joven con Z score bajo obliga a buscar causas secundarias, como hipogonadismo, hiperparatiroidismo, celíaca o mieloma. El bifosfonato directo tienta, pero dejaría sin tratar la causa."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.1.015 · Osteoporosis",
+      "stem": "Mujer de 74 años consulta por dolor dorsal tras levantar una bolsa de compras. La radiografía muestra una fractura por aplastamiento de la vértebra T12. No tiene antecedente de cáncer y la calcemia es normal.",
+      "question": "¿Cuál es la conducta más adecuada respecto de su osteoporosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Esperar el resultado de la densitometría para decidir si tratar"
+        },
+        {
+          "letter": "B",
+          "text": "Solo calcio y vitamina D, porque el bisfosfonato es para T-score menor de -3"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar bisfosfonato (alendronato) más calcio y vitamina D"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar terapia de reemplazo hormonal"
+        },
+        {
+          "letter": "E",
+          "text": "Reposo en cama por 6 semanas"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Una fractura vertebral por fragilidad establece el diagnóstico clínico de osteoporosis, independiente del T-score, y obliga a tratar con bisfosfonato (alendronato), calcio y vitamina D, además de prevenir caídas. La densitometría sirve como basal, pero no condiciona el inicio. La terapia hormonal no se usa con este fin a esta edad y el reposo prolongado acelera la pérdida ósea.",
+      "say": {
+        "stem": "Mujer de setenta y cuatro años con fractura por aplastamiento vertebral tras levantar una bolsa.",
+        "question": "¿Cómo manejas su osteoporosis?",
+        "options": "Las opciones: esperar la densitometría, solo calcio y vitamina D, bisfosfonato con calcio y vitamina D, terapia hormonal o reposo en cama. Piénsalo.",
+        "answer": "Es la C. Bisfosfonato con calcio y vitamina D, porque una fractura por fragilidad ya diagnostica osteoporosis. Esperar la densitometría parece ordenado, pero retrasa un tratamiento que está indicado igual."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -390,6 +586,8 @@ module.exports = {
             say: 'Y una fractura por fragilidad es osteoporosis, diga lo que diga la densitometría.' },
           { t: 'Osteopenia: decide el FRAX', d: 'Mayor ≥ 20 % o cadera ≥ 3 %',
             say: 'En la osteopenia sin fractura, decide el FRAX: veinte por ciento para fractura mayor o tres por ciento para cadera.' },
+          { t: 'Hombre o premenopáusica: buscar causa', d: 'Corticoides, vitamina D, TSH, mieloma',
+            say: 'Y en un hombre o una mujer premenopáusica con osteoporosis, busca una causa secundaria antes de tratar.' },
         ] },
         { title: 'Tratamiento', tag: 'Bifosfonato', kind: 'pharma', items: [
           { t: 'Alendronato 70 mg semanal', d: 'Más calcio y vitamina D siempre',

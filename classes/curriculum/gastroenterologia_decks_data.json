@@ -4,7 +4,8 @@
     "topicLabel": "1.1",
     "title": "Gastroenterologia 1.1: Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett",
     "perfilCodes": [
-      "1.06.1.027"
+      "1.06.1.027",
+      "1.06.4.007"
     ],
     "tier": 2,
     "realQuestionCount": 8,
@@ -14,7 +15,7 @@
         "type": "cover",
         "nav": "Portada & Códigos",
         "notes": "Bienvenidos a la clase de Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett, código oficial uno punto cero seis punto uno punto cero veintisiete. Este es un tema de alta rentabilidad con ocho preguntas reales evaluadas en el banco EUNACOM. Revisaremos los mecanismos del esfínter, los criterios para diferenciar la presentación típica de la atípica, las banderas rojas que obligan a endoscopía y el algoritmo terapéutico escalonado para el Esófago de Barrett.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.1.027",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.1.027, 1.06.4.007",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -400,7 +401,9 @@
     "topicLabel": "1.2",
     "title": "Gastroenterologia 1.2: Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
     "perfilCodes": [
-      "1.06.1.030"
+      "1.06.1.030",
+      "1.06.1.014",
+      "1.06.4.007"
     ],
     "tier": 2,
     "realQuestionCount": 8,
@@ -410,7 +413,7 @@
         "type": "cover",
         "nav": "Portada & Códigos",
         "notes": "Bienvenidos a la clase de Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori, código oficial uno punto cero seis punto uno punto cero treinta. Con ocho preguntas evaluadas en el banco EUNACOM, este tema exige dominar los criterios de Roma cuatro para dispepsia funcional, las diferencias anatómicas y biológicas entre úlcera duodenal y gástrica, los métodos diagnósticos para Helicobacter pylori y las pautas terapéuticas de erradicación con control post-tratamiento.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.1.030",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.1.030, 1.06.1.014, 1.06.4.007",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -796,7 +799,10 @@
     "topicLabel": "1.3",
     "title": "Gastroenterologia 1.3: Disfagia y Trastornos Motores del Esófago",
     "perfilCodes": [
-      "1.06.1.013"
+      "1.06.1.013",
+      "4.01.1.004",
+      "4.01.1.005",
+      "4.01.1.002"
     ],
     "tier": 2,
     "realQuestionCount": 11,
@@ -805,8 +811,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Disfagia y Trastornos Motores del Esófago. Código oficial Perfil V3: 1.06.1.013. Este tema ha sido evaluado en 11 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.1.013",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Disfagia y Trastornos Motores del Esófago. Código oficial Perfil V3: 1.06.1.013, 4.01.1.004, 4.01.1.005, 4.01.1.002. Este tema ha sido evaluado en 11 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.1.013, 4.01.1.004, 4.01.1.005, 4.01.1.002",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -855,7 +861,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.1.013",
+              "1.06.1.013, 4.01.1.004, 4.01.1.005, 4.01.1.002",
               "Disfagia y Trastornos Motores del Esófago",
               "Sospecha",
               "Inicial",
@@ -1056,7 +1062,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 175",
         "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 175.",
         "number": 3,
-        "caseText": "Una paciente de 50 años presenta disfagia intermitente desde hace 4 meses y recientemente presentó un episodio de dolor torácico intenso, opresivo, que inició en relación a una discusión familiar. En el servicio de urgencias se solicita electrocardiograma, que muestra ritmo sinusal sin signos de isquemia y troponinas plasmá8cas seriadas que resultan nega8vas. Actualmente se encuentra asintomá8ca, sin alteraciones en su examen Fsico. ¿Cuál es el examen de elección para proseguir el estudio?",
+        "caseText": "Una paciente de 50 años presenta disfagia intermitente desde hace 4 meses y recientemente presentó un episodio de dolor torácico intenso, opresivo, que inició en relación a una discusión familiar. En el servicio de urgencias se solicita electrocardiograma, que muestra ritmo sinusal sin signos de isquemia y troponinas plasmáticas seriadas que resultan negativas. Actualmente se encuentra asintomática, sin alteraciones en su examen físico. ¿Cuál es el examen de elección para proseguir el estudio?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -1085,7 +1091,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La disfagia intermitente hace pensar en una acalasia esofágica u otro trastorno motor del esófago, que se estudia con manometría esofágica como examen de elección. Se asocia al espasmo esofágico, que parece ser la causa del dolor torácico actual (el espasmo se asocia a reﬂujo y acalasia y clínicamente responde muy bien a nitritos). De todos modos, en el manejo del paciente es fundamental descartar un síndrome coronario u otra patología grave que pueda provocar el dolor torácico y no conﬁarse, por lo que fue del todo correcto hospitalizarlo y solicitar ECG y troponinas seriadas, así como también darle aspirina, oxígeno y nitroglicerina y hacer un test de esfuerzo antes del alta."
+        "explanation": "La disfagia intermitente hace pensar en una acalasia esofágica u otro trastorno motor del esófago, que se estudia con manometría esofágica como examen de elección. Se asocia al espasmo esofágico, que parece ser la causa del dolor torácico actual (el espasmo se asocia a reflujo y acalasia y clínicamente responde muy bien a nitritos). De todos modos, en el manejo del paciente es fundamental descartar un síndrome coronario u otra patología grave que pueda provocar el dolor torácico y no confiarse, por lo que fue del todo correcto hospitalizarlo y solicitar ECG y troponinas seriadas, así como también darle aspirina, oxígeno y nitroglicerina y hacer un test de esfuerzo antes del alta."
       },
       {
         "type": "question",
@@ -1150,7 +1156,10 @@
     "topicLabel": "1.4",
     "title": "Gastroenterologia 1.4: Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico",
     "perfilCodes": [
-      "1.06.2.002"
+      "1.06.1.030",
+      "4.01.2.019",
+      "4.01.2.001",
+      "4.01.2.003"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -1159,8 +1168,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico. Código oficial Perfil V3: 1.06.2.002. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.2.002",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico. Código oficial Perfil V3: 1.06.1.030, 4.01.2.019, 4.01.2.001, 4.01.2.003. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.1.030, 4.01.2.019, 4.01.2.001, 4.01.2.003",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1209,7 +1218,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.2.002",
+              "1.06.1.030, 4.01.2.019, 4.01.2.001, 4.01.2.003",
               "Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico",
               "Específico",
               "Inicial",
@@ -1465,7 +1474,9 @@
     "topicLabel": "1.5",
     "title": "Gastroenterologia 1.5: Cáncer de Esófago y Cáncer Gástrico",
     "perfilCodes": [
-      "1.06.1.004"
+      "1.06.1.004",
+      "4.01.1.005",
+      "1.06.3.003"
     ],
     "tier": 2,
     "realQuestionCount": 3,
@@ -1474,8 +1485,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Cáncer de Esófago y Cáncer Gástrico. Código oficial Perfil V3: 1.06.1.004. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.1.004",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Cáncer de Esófago y Cáncer Gástrico. Código oficial Perfil V3: 1.06.1.004, 4.01.1.005, 1.06.3.003. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.1.004, 4.01.1.005, 1.06.3.003",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1524,7 +1535,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.1.004",
+              "1.06.1.004, 4.01.1.005, 1.06.3.003",
               "Cáncer de Esófago y Cáncer Gástrico",
               "Sospecha",
               "Inicial",
@@ -1819,7 +1830,11 @@
     "id": "gastro-06",
     "topicLabel": "1.6",
     "title": "Gastroenterologia 1.6: Hernia Hiatal, Hernia Diafragmática y Tumores del Mediastino",
-    "perfilCodes": [],
+    "perfilCodes": [
+      "4.01.1.006",
+      "4.01.1.040",
+      "4.01.1.041"
+    ],
     "tier": 1,
     "realQuestionCount": 0,
     "slideCount": 10,
@@ -2352,7 +2367,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 157",
         "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 157.",
         "number": 3,
-        "caseText": "Una paciente de 45 años consulta por dolor abdominal de 4 meses de evolución, caracterizado por malestar abdominal difuso con exacerbaciones cólicas, que ha tenido una intensidad variable y que se asocia a deposiciones de consistencia dura, 8po Bristol 2, que se presentan cada 4 a 5 días, tras las cuales el dolor disminuye considerablemente. Sin embargo, también ha presentado episodios de diarrea de manera esporádica. Su examen Fsico muestra abdomen blando, sensible, sin masas, visceromegalia ni signos peritoneales. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Una paciente de 45 años consulta por dolor abdominal de 4 meses de evolución, caracterizado por malestar abdominal difuso con exacerbaciones cólicas, que ha tenido una intensidad variable y que se asocia a deposiciones de consistencia dura, tipo Bristol 2, que se presentan cada 4 a 5 días, tras las cuales el dolor disminuye considerablemente. Sin embargo, también ha presentado episodios de diarrea de manera esporádica. Su examen físico muestra abdomen blando, sensible, sin masas, visceromegalia ni signos peritoneales. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -2381,7 +2396,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "El síndrome de intestino irritable SII) se caracteriza por dolor abdominal, que suele disminuir con la evacuación y cambios en la frecuencia y consistencia de las deposiciones. No Gene signos de alarma que hagan pensar en patología orgánica. Aunque su consGpación es funcional, el diagnóstico “consGpación funcional” se uGliza en caso en que no Gene dolor abdominal y, por tanto, no cumple con los criterios de SII."
+        "explanation": "El síndrome de intestino irritable SII) se caracteriza por dolor abdominal, que suele disminuir con la evacuación y cambios en la frecuencia y consistencia de las deposiciones. No Gene signos de alarma que hagan pensar en patología orgánica. Aunque su constipación es funcional, el diagnóstico “constipación funcional” se utiliza en caso en que no Gene dolor abdominal y, por tanto, no cumple con los criterios de SII."
       },
       {
         "type": "question",
@@ -2445,7 +2460,9 @@
     "topicLabel": "2.2",
     "title": "Gastroenterologia 2.2: Diarrea Aguda, Diarrea Crónica y Constipación",
     "perfilCodes": [
-      "1.06.2.005"
+      "1.06.2.005",
+      "1.06.1.011",
+      "1.06.1.009"
     ],
     "tier": 1,
     "realQuestionCount": 1,
@@ -2454,8 +2471,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Diarrea Aguda, Diarrea Crónica y Constipación. Código oficial Perfil V3: 1.06.2.005. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.2.005",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Diarrea Aguda, Diarrea Crónica y Constipación. Código oficial Perfil V3: 1.06.2.005, 1.06.1.011, 1.06.1.009. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.2.005, 1.06.1.011, 1.06.1.009",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -2504,7 +2521,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.2.005",
+              "1.06.2.005, 1.06.1.011, 1.06.1.009",
               "Diarrea Aguda, Diarrea Crónica y Constipación",
               "Específico",
               "Completo",
@@ -2748,7 +2765,10 @@
     "topicLabel": "2.3",
     "title": "Gastroenterologia 2.3: Síndrome de Malabsorción, Enfermedad Celíaca e Intolerancia a la Lactosa",
     "perfilCodes": [
-      "1.06.1.015"
+      "1.06.1.015",
+      "1.06.1.028",
+      "1.06.1.023",
+      "1.06.4.013"
     ],
     "tier": 2,
     "realQuestionCount": 7,
@@ -2757,8 +2777,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome de Malabsorción, Enfermedad Celíaca e Intolerancia a la Lactosa. Código oficial Perfil V3: 1.06.1.015. Este tema ha sido evaluado en 7 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.1.015",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome de Malabsorción, Enfermedad Celíaca e Intolerancia a la Lactosa. Código oficial Perfil V3: 1.06.1.015, 1.06.1.028, 1.06.1.023, 1.06.4.013. Este tema ha sido evaluado en 7 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.1.015, 1.06.1.028, 1.06.1.023, 1.06.4.013",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -2807,7 +2827,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.1.015",
+              "1.06.1.015, 1.06.1.028, 1.06.1.023, 1.06.4.013",
               "Síndrome de Malabsorción, Enfermedad Celíaca e Intolerancia a la Lactosa",
               "Específico",
               "Completo",
@@ -3102,7 +3122,8 @@
     "topicLabel": "2.4",
     "title": "Gastroenterologia 2.4: Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn",
     "perfilCodes": [
-      "1.06.1.018"
+      "1.06.1.018",
+      "1.06.4.007"
     ],
     "tier": 2,
     "realQuestionCount": 21,
@@ -3111,8 +3132,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn. Código oficial Perfil V3: 1.06.1.018. Este tema ha sido evaluado en 21 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.1.018",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn. Código oficial Perfil V3: 1.06.1.018, 1.06.4.007. Este tema ha sido evaluado en 21 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.1.018, 1.06.4.007",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -3161,7 +3182,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.1.018",
+              "1.06.1.018, 1.06.4.007",
               "Enfermedad Inflamatoria Intestinal: Colitis Ulcerosa y Enfermedad de Crohn",
               "Sospecha",
               "Inicial",
@@ -3443,7 +3464,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 16",
         "notes": "[SLIDE 12] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 16.",
         "number": 5,
-        "caseText": "Un paciente de 35 años consulta por un cuadro de dolor abdominal y diarrea de 3 meses de evolución, con 8 a 10 deposiciones líquidas al día, tanto diurnas como nocturnas. Presenta dolor abdominal 8po cólico con exacerbación en el hemiabdomen derecho. Además, al interrogatorio, reﬁere visión borrosa con enrojecimiento del ojo derecho y ajas orales recurrentes. También, relata baja de peso y presencia ocasional de sangre en las deposiciones. Al examen Fsico se observa pálido, con frecuencia cardíaca 90 lpm, presión arterial 125/72 mmHg y temperatura 37,2 °C. El abdomen está blando y sensible de forma difusa, con dolor más intenso en la fosa ilíaca derecha, sin signos peritoneales. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente de 35 años consulta por un cuadro de dolor abdominal y diarrea de 3 meses de evolución, con 8 a 10 deposiciones líquidas al día, tanto diurnas como nocturnas. Presenta dolor abdominal tipo cólico con exacerbación en el hemiabdomen derecho. Además, al interrogatorio, refiere visión borrosa con enrojecimiento del ojo derecho y ajas orales recurrentes. También, relata baja de peso y presencia ocasional de sangre en las deposiciones. Al examen físico se observa pálido, con frecuencia cardíaca 90 lpm, presión arterial 125/72 mmHg y temperatura 37,2 °C. El abdomen está blando y sensible de forma difusa, con dolor más intenso en la fosa ilíaca derecha, sin signos peritoneales. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -3472,7 +3493,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Tiene clínica de una enfermedad inﬂamatoria intestinal (EII). Entre ellas, parece más enfermedad de Crohn, por el dolor en el lado derecho (la zona ileocecal es lo más frecuentemente afectado), las amas (el compromiso oral también se puede ver en la coliGs ulcerosa, pero orienta a Crohn) y el compromiso ocular (más frecuente en enfermedad de Crohn que en coliGs ulcerosa)."
+        "explanation": "Tiene clínica de una enfermedad inflamatoria intestinal (EII). Entre ellas, parece más enfermedad de Crohn, por el dolor en el lado derecho (la zona ileocecal es lo más frecuentemente afectado), las amas (el compromiso oral también se puede ver en la colitis ulcerosa, pero orienta a Crohn) y el compromiso ocular (más frecuente en enfermedad de Crohn que en colitis ulcerosa)."
       },
       {
         "type": "bento",
@@ -3500,7 +3521,10 @@
     "topicLabel": "2.5",
     "title": "Gastroenterologia 2.5: Pólipos y Cáncer Colorrectal · Tamizaje",
     "perfilCodes": [
-      "1.06.1.029"
+      "1.06.1.029",
+      "4.01.1.014",
+      "4.01.1.015",
+      "1.06.3.004"
     ],
     "tier": 2,
     "realQuestionCount": 10,
@@ -3509,8 +3533,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Pólipos y Cáncer Colorrectal · Tamizaje. Código oficial Perfil V3: 1.06.1.029. Este tema ha sido evaluado en 10 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.1.029",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Pólipos y Cáncer Colorrectal · Tamizaje. Código oficial Perfil V3: 1.06.1.029, 4.01.1.014, 4.01.1.015, 1.06.3.004. Este tema ha sido evaluado en 10 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.1.029, 4.01.1.014, 4.01.1.015, 1.06.3.004",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -3559,7 +3583,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.1.029",
+              "1.06.1.029, 4.01.1.014, 4.01.1.015, 1.06.3.004",
               "Pólipos y Cáncer Colorrectal · Tamizaje",
               "Específico",
               "Inicial",
@@ -3853,7 +3877,11 @@
     "id": "gastro-12",
     "topicLabel": "2.6",
     "title": "Gastroenterologia 2.6: Patología Perianal: Fisura, Hemorroides, Absceso y Fístula",
-    "perfilCodes": [],
+    "perfilCodes": [
+      "4.01.1.016",
+      "4.01.1.017",
+      "4.01.1.020"
+    ],
     "tier": 1,
     "realQuestionCount": 0,
     "slideCount": 10,
@@ -4133,7 +4161,10 @@
     "topicLabel": "3.1",
     "title": "Gastroenterologia 3.1: Ictericia y Colestasia: Enfrentamiento Diagnóstico",
     "perfilCodes": [
-      "1.06.1.007"
+      "1.06.1.007",
+      "4.01.1.026",
+      "1.06.1.002",
+      "1.06.4.006"
     ],
     "tier": 2,
     "realQuestionCount": 10,
@@ -4142,8 +4173,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Ictericia y Colestasia: Enfrentamiento Diagnóstico. Código oficial Perfil V3: 1.06.1.007. Este tema ha sido evaluado en 10 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.1.007",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Ictericia y Colestasia: Enfrentamiento Diagnóstico. Código oficial Perfil V3: 1.06.1.007, 4.01.1.026, 1.06.1.002, 1.06.4.006. Este tema ha sido evaluado en 10 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.1.007, 4.01.1.026, 1.06.1.002, 1.06.4.006",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4192,7 +4223,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.1.007",
+              "1.06.1.007, 4.01.1.026, 1.06.1.002, 1.06.4.006",
               "Ictericia y Colestasia: Enfrentamiento Diagnóstico",
               "Específico",
               "Inicial",
@@ -4493,7 +4524,10 @@
     "topicLabel": "3.2",
     "title": "Gastroenterologia 3.2: Hepatitis Aguda y Crónica",
     "perfilCodes": [
-      "1.06.1.019"
+      "1.06.1.019",
+      "1.06.1.020",
+      "1.06.1.021",
+      "1.06.4.012"
     ],
     "tier": 3,
     "realQuestionCount": 2,
@@ -4502,8 +4536,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Hepatitis Aguda y Crónica. Código oficial Perfil V3: 1.06.1.019. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.1.019",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Hepatitis Aguda y Crónica. Código oficial Perfil V3: 1.06.1.019, 1.06.1.020, 1.06.1.021, 1.06.4.012. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.1.019, 1.06.1.020, 1.06.1.021, 1.06.4.012",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4552,7 +4586,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.1.019",
+              "1.06.1.019, 1.06.1.020, 1.06.1.021, 1.06.4.012",
               "Hepatitis Aguda y Crónica",
               "Específico",
               "Completo",
@@ -4925,7 +4959,10 @@
     "topicLabel": "3.3",
     "title": "Gastroenterologia 3.3: Daño Hepático Crónico e Hipertensión Portal",
     "perfilCodes": [
-      "1.06.1.005"
+      "1.06.1.005",
+      "1.06.1.001",
+      "1.06.2.011",
+      "1.06.2.006"
     ],
     "tier": 3,
     "realQuestionCount": 0,
@@ -4934,8 +4971,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Daño Hepático Crónico e Hipertensión Portal. Código oficial Perfil V3: 1.06.1.005.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.1.005",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Daño Hepático Crónico e Hipertensión Portal. Código oficial Perfil V3: 1.06.1.005, 1.06.1.001, 1.06.2.011, 1.06.2.006.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.1.005, 1.06.1.001, 1.06.2.011, 1.06.2.006",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4978,7 +5015,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.1.005",
+              "1.06.1.005, 1.06.1.001, 1.06.2.011, 1.06.2.006",
               "Daño Hepático Crónico e Hipertensión Portal",
               "Específico",
               "Inicial",
@@ -5200,7 +5237,10 @@
     "topicLabel": "3.4",
     "title": "Gastroenterologia 3.4: Lesiones Hepáticas Focales y Pólipos Vesiculares",
     "perfilCodes": [
-      "1.06.1.024"
+      "1.06.1.024",
+      "4.01.1.023",
+      "4.01.1.022",
+      "1.06.1.003"
     ],
     "tier": 1,
     "realQuestionCount": 9,
@@ -5209,8 +5249,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Lesiones Hepáticas Focales y Pólipos Vesiculares. Código oficial Perfil V3: 1.06.1.024. Este tema ha sido evaluado en 9 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.1.024",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Lesiones Hepáticas Focales y Pólipos Vesiculares. Código oficial Perfil V3: 1.06.1.024, 4.01.1.023, 4.01.1.022, 1.06.1.003. Este tema ha sido evaluado en 9 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.1.024, 4.01.1.023, 4.01.1.022, 1.06.1.003",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -5259,7 +5299,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.1.024",
+              "1.06.1.024, 4.01.1.023, 4.01.1.022, 1.06.1.003",
               "Lesiones Hepáticas Focales y Pólipos Vesiculares",
               "Sospecha",
               "Inicial",
@@ -5561,7 +5601,10 @@
     "topicLabel": "4.1",
     "title": "Gastroenterologia 4.1: Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
     "perfilCodes": [
-      "1.06.1.006"
+      "1.06.1.006",
+      "1.06.2.004",
+      "1.06.2.003",
+      "1.06.4.004"
     ],
     "tier": 3,
     "realQuestionCount": 9,
@@ -5570,8 +5613,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis. Código oficial Perfil V3: 1.06.1.006. Este tema ha sido evaluado en 9 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.1.006",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis. Código oficial Perfil V3: 1.06.1.006, 1.06.2.004, 1.06.2.003, 1.06.4.004. Este tema ha sido evaluado en 9 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.1.006, 1.06.2.004, 1.06.2.003, 1.06.4.004",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -5620,7 +5663,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.1.006",
+              "1.06.1.006, 1.06.2.004, 1.06.2.003, 1.06.4.004",
               "Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
               "Específico",
               "Inicial",
@@ -5915,7 +5958,8 @@
     "topicLabel": "4.2",
     "title": "Gastroenterologia 4.2: Pancreatitis Aguda",
     "perfilCodes": [
-      "1.06.2.010"
+      "1.06.2.010",
+      "1.06.4.005"
     ],
     "tier": 3,
     "realQuestionCount": 4,
@@ -5924,8 +5968,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Pancreatitis Aguda. Código oficial Perfil V3: 1.06.2.010. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.2.010",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Pancreatitis Aguda. Código oficial Perfil V3: 1.06.2.010, 1.06.4.005. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.2.010, 1.06.4.005",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -5974,7 +6018,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.2.010",
+              "1.06.2.010, 1.06.4.005",
               "Pancreatitis Aguda",
               "Específico",
               "Inicial",
@@ -6280,7 +6324,9 @@
     "topicLabel": "5.1",
     "title": "Gastroenterologia 5.1: Abdomen Agudo: Apendicitis y Diverticulitis",
     "perfilCodes": [
-      "1.06.2.001"
+      "1.06.2.001",
+      "4.01.2.006",
+      "1.06.1.016"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -6289,8 +6335,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Abdomen Agudo: Apendicitis y Diverticulitis. Código oficial Perfil V3: 1.06.2.001. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.2.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Abdomen Agudo: Apendicitis y Diverticulitis. Código oficial Perfil V3: 1.06.2.001, 4.01.2.006, 1.06.1.016. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.2.001, 4.01.2.006, 1.06.1.016",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -6339,7 +6385,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.2.001",
+              "1.06.2.001, 4.01.2.006, 1.06.1.016",
               "Abdomen Agudo: Apendicitis y Diverticulitis",
               "Específico",
               "Inicial",
@@ -6540,7 +6586,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 18",
         "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 18.",
         "number": 3,
-        "caseText": "Un paciente presenta diarrea abundante, asociada a malestar general. En su tercer día de evolución, presenta dolor abdominal y distensión abdominal progresiva. Al examen Fsico se observa decaído, en malas condiciones generales, subfebril (37,6 °C), con abdomen distendido y doloroso a la palpación, sin signos peritoneales. Sus signos vitales muestran presión arterial 90/50 mmHg y frecuencia cardíaca 110 lpm. Se solicita radiograFa de abdomen, que revela dilatación de las asas del colon, alcanzando un diámetro de hasta 10 cm a la altura del ciego. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente presenta diarrea abundante, asociada a malestar general. En su tercer día de evolución, presenta dolor abdominal y distensión abdominal progresiva. Al examen físico se observa decaído, en malas condiciones generales, subfebril (37,6 °C), con abdomen distendido y doloroso a la palpación, sin signos peritoneales. Sus signos vitales muestran presión arterial 90/50 mmHg y frecuencia cardíaca 110 lpm. Se solicita radiografía de abdomen, que revela dilatación de las asas del colon, alcanzando un diámetro de hasta 10 cm a la altura del ciego. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -6569,7 +6615,7 @@
             "isCorrect": true
           }
         ],
-        "explanation": "Es un megacolon tóxico. El diagnóstico se conﬁrma por la tríada de: 1) antecedente de coliGs (diarrea), 2) dilatación colónica >6 cm en radiografía y 3) signos de toxicidad sistémica (hipotensión, taquicardia y ﬁebre). Es una emergencia médica que requiere descompresión y soporte hemodinámico agresivo."
+        "explanation": "Es un megacolon tóxico. El diagnóstico se confirma por la tríada de: 1) antecedente de colitis (diarrea), 2) dilatación colónica >6 cm en radiografía y 3) signos de toxicidad sistémica (hipotensión, taquicardia y fiebre). Es una emergencia médica que requiere descompresión y soporte hemodinámico agresivo."
       },
       {
         "type": "bento",
@@ -6598,6 +6644,7 @@
     "topicLabel": "5.2",
     "title": "Gastroenterologia 5.2: Isquemia Mesentérica y Abdomen Agudo de Origen Vascular",
     "perfilCodes": [
+      "4.01.2.007",
       "1.06.2.001"
     ],
     "tier": 3,
@@ -6607,8 +6654,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Isquemia Mesentérica y Abdomen Agudo de Origen Vascular. Código oficial Perfil V3: 1.06.2.001. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.2.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Isquemia Mesentérica y Abdomen Agudo de Origen Vascular. Código oficial Perfil V3: 4.01.2.007, 1.06.2.001. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.2.007, 1.06.2.001",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -6657,7 +6704,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.2.001",
+              "4.01.2.007, 1.06.2.001",
               "Isquemia Mesentérica y Abdomen Agudo de Origen Vascular",
               "Sospecha",
               "Inicial",
@@ -6848,7 +6895,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 18",
         "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 18.",
         "number": 3,
-        "caseText": "Un paciente presenta diarrea abundante, asociada a malestar general. En su tercer día de evolución, presenta dolor abdominal y distensión abdominal progresiva. Al examen Fsico se observa decaído, en malas condiciones generales, subfebril (37,6 °C), con abdomen distendido y doloroso a la palpación, sin signos peritoneales. Sus signos vitales muestran presión arterial 90/50 mmHg y frecuencia cardíaca 110 lpm. Se solicita radiograFa de abdomen, que revela dilatación de las asas del colon, alcanzando un diámetro de hasta 10 cm a la altura del ciego. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente presenta diarrea abundante, asociada a malestar general. En su tercer día de evolución, presenta dolor abdominal y distensión abdominal progresiva. Al examen físico se observa decaído, en malas condiciones generales, subfebril (37,6 °C), con abdomen distendido y doloroso a la palpación, sin signos peritoneales. Sus signos vitales muestran presión arterial 90/50 mmHg y frecuencia cardíaca 110 lpm. Se solicita radiografía de abdomen, que revela dilatación de las asas del colon, alcanzando un diámetro de hasta 10 cm a la altura del ciego. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -6877,7 +6924,7 @@
             "isCorrect": true
           }
         ],
-        "explanation": "Es un megacolon tóxico. El diagnóstico se conﬁrma por la tríada de: 1) antecedente de coliGs (diarrea), 2) dilatación colónica >6 cm en radiografía y 3) signos de toxicidad sistémica (hipotensión, taquicardia y ﬁebre). Es una emergencia médica que requiere descompresión y soporte hemodinámico agresivo."
+        "explanation": "Es un megacolon tóxico. El diagnóstico se confirma por la tríada de: 1) antecedente de colitis (diarrea), 2) dilatación colónica >6 cm en radiografía y 3) signos de toxicidad sistémica (hipotensión, taquicardia y fiebre). Es una emergencia médica que requiere descompresión y soporte hemodinámico agresivo."
       },
       {
         "type": "bento",
@@ -6905,7 +6952,8 @@
     "topicLabel": "5.3",
     "title": "Gastroenterologia 5.3: Hemorragia Digestiva Alta y Baja",
     "perfilCodes": [
-      "1.06.2.007"
+      "1.06.2.007",
+      "1.06.4.007"
     ],
     "tier": 3,
     "realQuestionCount": 9,
@@ -6914,8 +6962,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Hemorragia Digestiva Alta y Baja. Código oficial Perfil V3: 1.06.2.007. Este tema ha sido evaluado en 9 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.2.007",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Hemorragia Digestiva Alta y Baja. Código oficial Perfil V3: 1.06.2.007, 1.06.4.007. Este tema ha sido evaluado en 9 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.2.007, 1.06.4.007",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -6964,7 +7012,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.2.007",
+              "1.06.2.007, 1.06.4.007",
               "Hemorragia Digestiva Alta y Baja",
               "Específico",
               "Inicial",
@@ -7253,6 +7301,7 @@
     "topicLabel": "5.4",
     "title": "Gastroenterologia 5.4: Cuerpo Extraño Digestivo",
     "perfilCodes": [
+      "6.03.2.008",
       "1.06.2.002"
     ],
     "tier": 2,
@@ -7262,8 +7311,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Cuerpo Extraño Digestivo. Código oficial Perfil V3: 1.06.2.002. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.2.002",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Cuerpo Extraño Digestivo. Código oficial Perfil V3: 6.03.2.008, 1.06.2.002. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 6.03.2.008, 1.06.2.002",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -7312,7 +7361,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.2.002",
+              "6.03.2.008, 1.06.2.002",
               "Cuerpo Extraño Digestivo",
               "Específico",
               "Inicial",
@@ -7571,7 +7620,10 @@
     "topicLabel": "6.1",
     "title": "Gastroenterologia 6.1: Diarrea Aguda y Crónica en el Niño",
     "perfilCodes": [
-      "1.06.2.005"
+      "2.01.1.039",
+      "2.01.1.040",
+      "2.01.2.006",
+      "2.01.1.042"
     ],
     "tier": 2,
     "realQuestionCount": 1,
@@ -7580,8 +7632,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Diarrea Aguda y Crónica en el Niño. Código oficial Perfil V3: 1.06.2.005. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.2.005",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Diarrea Aguda y Crónica en el Niño. Código oficial Perfil V3: 2.01.1.039, 2.01.1.040, 2.01.2.006, 2.01.1.042. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 2.01.1.039, 2.01.1.040, 2.01.2.006, 2.01.1.042",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -7630,7 +7682,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.2.005",
+              "2.01.1.039, 2.01.1.040, 2.01.2.006, 2.01.1.042",
               "Diarrea Aguda y Crónica en el Niño",
               "Específico",
               "Completo",
@@ -7889,7 +7941,9 @@
     "topicLabel": "6.2",
     "title": "Gastroenterologia 6.2: Reflujo del Lactante, Dolor Abdominal Crónico y Constipación en el Niño",
     "perfilCodes": [
-      "1.06.1.027"
+      "2.01.1.046",
+      "2.01.1.041",
+      "2.01.1.038"
     ],
     "tier": 2,
     "realQuestionCount": 8,
@@ -7898,8 +7952,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Reflujo del Lactante, Dolor Abdominal Crónico y Constipación en el Niño. Código oficial Perfil V3: 1.06.1.027. Este tema ha sido evaluado en 8 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.1.027",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Reflujo del Lactante, Dolor Abdominal Crónico y Constipación en el Niño. Código oficial Perfil V3: 2.01.1.046, 2.01.1.041, 2.01.1.038. Este tema ha sido evaluado en 8 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 2.01.1.046, 2.01.1.041, 2.01.1.038",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -7948,7 +8002,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.1.027",
+              "2.01.1.046, 2.01.1.041, 2.01.1.038",
               "Reflujo del Lactante, Dolor Abdominal Crónico y Constipación en el Niño",
               "Específico",
               "Completo",
@@ -8236,7 +8290,12 @@
     "id": "gastro-25",
     "topicLabel": "6.3",
     "title": "Gastroenterologia 6.3: Cirugía Pediátrica Digestiva: Urgencias y Malformaciones",
-    "perfilCodes": [],
+    "perfilCodes": [
+      "2.01.1.116",
+      "2.01.2.019",
+      "4.01.1.003",
+      "2.01.1.133"
+    ],
     "tier": 3,
     "realQuestionCount": 0,
     "slideCount": 10,
@@ -8517,7 +8576,9 @@
     "topicLabel": "6.4",
     "title": "Gastroenterologia 6.4: Trauma Abdominal y Torácico",
     "perfilCodes": [
-      "1.06.2.002"
+      "4.01.2.010",
+      "4.01.2.016",
+      "1.05.2.011"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -8526,8 +8587,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Trauma Abdominal y Torácico. Código oficial Perfil V3: 1.06.2.002. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.06.2.002",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Trauma Abdominal y Torácico. Código oficial Perfil V3: 4.01.2.010, 4.01.2.016, 1.05.2.011. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.2.010, 4.01.2.016, 1.05.2.011",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -8576,7 +8637,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.06.2.002",
+              "4.01.2.010, 4.01.2.016, 1.05.2.011",
               "Trauma Abdominal y Torácico",
               "Específico",
               "Inicial",

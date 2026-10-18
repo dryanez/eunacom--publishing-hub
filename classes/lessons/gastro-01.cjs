@@ -39,7 +39,11 @@ module.exports = {
         { show: ['ref'], note: 'Por la puerta abierta, el contenido gástrico sube',
           say: 'Y por esa puerta abierta, el contenido del estómago sube al esófago. Eso es el reflujo.' },
         { show: ['sin'], note: 'Ácido sobre una mucosa que no está preparada',
-          say: 'Cuando ese ácido toca una mucosa que no está preparada para él, aparecen los síntomas: la pirosis, ese ardor que sube por detrás del esternón, y la regurgitación ácida. ¿Y por qué empeoran al acostarse o después de una comida abundante? Porque la gravedad deja de ayudar y el estómago está lleno. El mecanismo te explica la clínica.' },
+          say: 'Cuando ese ácido toca una mucosa que no está preparada para él, aparecen los síntomas: la pirosis, ese ardor que sube por detrás del esternón, y la regurgitación ácida. ¿Y por qué empeoran al acostarse o después de una comida abundante? Porque la gravedad deja de ayudar y el estómago está lleno. Mira esta endoscopía: erosiones lineales rojas justo sobre la unión con el estómago, el daño directo del ácido. Y en esta otra, la esofagitis vista de más cerca. El mecanismo te explica la clínica.',
+          photos: [
+            { src: 'biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_1__cto-digestivo_p26.jpg', label: 'Esofagitis erosiva', at: 'Mira esta endoscopía', credit: 'Manual CTO Digestivo 14.ª ed., p. 26' },
+            { src: 'biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_2__cto-digestivo_p26.jpg', label: 'Esofagitis (endoscopia)', at: 'Y en esta otra', credit: 'Manual CTO Digestivo 14.ª ed., p. 26' },
+          ] },
         { show: ['her'], note: 'Hernia hiatal: la barrera pierde el apoyo del diafragma',
           say: 'Hay factores que empeoran este escenario. El primero es la hernia hiatal: el cardias sube al tórax, pierde el apoyo del diafragma, y la barrera queda todavía más débil.' },
         { show: ['acl'], note: 'Si el esófago limpia lento, cada episodio daña más',
@@ -120,7 +124,7 @@ module.exports = {
           { t: 'Omeprazol en ayunas', d: '30 a 60 minutos antes del desayuno',
             say: 'Pero el pilar es el inhibidor de la bomba de protones: omeprazol, esomeprazol o lansoprazol. Y un detalle que se pregunta: se toma en ayunas, treinta a sesenta minutos antes del desayuno, para que esté actuando justo cuando la comida enciende las bombas de ácido.' },
           { t: 'Antagonistas H2: desplazados', d: 'No se combinan con el IBP',
-            say: '¿Y la ranitidina? Los antagonistas H2 quedaron desplazados. Si aparecen como tratamiento de primera línea, descártalos, y tampoco se combinan con el IBP.' },
+            say: '¿Y la ranitidina? Los antagonistas H dos quedaron desplazados. Si aparecen como tratamiento de primera línea, descártalos, y tampoco se combinan con el IBP.' },
         ] },
         { title: 'Cirugía antirreflujo', tag: 'Funduplicatura de Nissen', kind: 'alert', items: [
           { t: 'Joven dependiente de IBP', d: 'Con reflujo grave',
@@ -153,7 +157,11 @@ module.exports = {
         { show: ['aci'], note: 'Retomamos la conexión pendiente',
           say: 'Volvamos a la conexión que dejamos pendiente. Cuando el ácido baña el esófago durante años...' },
         { show: ['met'], note: 'Barrett = metaplasia intestinal en la biopsia',
-          say: '...el epitelio plano normal es reemplazado por un epitelio cilíndrico, de tipo intestinal. Eso es la metaplasia intestinal, y eso es el esófago de Barrett. Es asintomático: el paciente solo tiene los síntomas de su reflujo, y por eso lo encontramos cuando lo buscamos.' },
+          say: '...el epitelio plano normal es reemplazado por un epitelio cilíndrico, de tipo intestinal. Eso es la metaplasia intestinal, y eso es el esófago de Barrett. Es asintomático: el paciente solo tiene los síntomas de su reflujo, y por eso lo encontramos cuando lo buscamos. Mira esta endoscopía: lengüetas color salmón que suben sobre la mucosa pálida del esófago. Y en esta otra, el mismo cambio de color, que es la metaplasia y por eso se biopsia.',
+          photos: [
+            { src: 'biblioteca/01_gastroenterologia/gastro-01/01_esofago-de-barrett-endoscopia_1__cto-digestivo_p27.jpg', label: 'Esófago de Barrett', at: 'Mira esta endoscopía', credit: 'Manual CTO Digestivo 14.ª ed., p. 27' },
+            { src: 'biblioteca/01_gastroenterologia/gastro-01/01_esofago-de-barrett-endoscopia_alt1_1__cto-digestivo_p27.jpg', label: 'Lengüetas salmón', at: 'Y en esta otra', credit: 'Manual CTO Digestivo 14.ª ed., p. 27' },
+          ] },
         { show: ['bio'], note: 'Metaplasia y displasia son conceptos distintos',
           say: 'Su importancia es el riesgo de progresar a adenocarcinoma. Y aquí está la clave de todo el tema: la conducta no la define la metaplasia. La define la biopsia, y en particular, si hay o no displasia.' },
         { show: ['sin'], note: 'Sin displasia: no se opera',
@@ -176,40 +184,6 @@ module.exports = {
       steps: [
         { note: 'El esfínter se abre sin tragar',
           say: 'En el reflujo el problema no es que sobre ácido: el esfínter esofágico inferior se abre sin tragar y el ácido sube. Da pirosis y regurgitación, peor al acostarse y tras comer. Con los años puede aparecer Barrett, con riesgo de adenocarcinoma. El inhibidor de la bomba se toma de treinta a sesenta minutos antes del desayuno.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'El esófago en la endoscopía',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-01/01_esofago-de-barrett-endoscopia_1__cto-digestivo_p27.jpg', label: 'Esófago de Barrett', credit: 'Manual CTO Digestivo 14.ª ed., p. 27' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_1__cto-digestivo_p26.jpg', label: 'Esofagitis erosiva', credit: 'Manual CTO Digestivo 14.ª ed., p. 26' },
-      ],
-      steps: [
-        { note: 'Mucosa salmón que sube',
-          say: 'Esto es un esófago de Barrett: la mucosa rosada y pálida del esófago se reemplaza por lengüetas color salmón que suben desde la unión. Ese cambio de color es la metaplasia, y por eso se biopsia.' },
-        { note: 'Erosiones lineales sobre la unión',
-          say: 'Y esto es una esofagitis erosiva: erosiones lineales, rojas, justo sobre la unión con el estómago. Es el daño directo del ácido, y su extensión es la que clasifica la gravedad.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-01/01_esofago-de-barrett-endoscopia_alt1_1__cto-digestivo_p27.jpg', label: 'Esófago de Barrett: lengüetas salmón', credit: 'Manual CTO Digestivo 14.ª ed., p. 27' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_2__cto-digestivo_p26.jpg', label: 'Esofagitis (endoscopia)', credit: 'Manual CTO Digestivo 14.ª ed., p. 26' },
-      ],
-      steps: [
-        { note: 'Esófago de Barrett: lengüetas salmón',
-          say: 'Otro esófago de Barrett: lengüetas color salmón que suben sobre la mucosa pálida del esófago. Ese cambio de color es la metaplasia, y por eso se biopsia.' },
-        { note: 'Esofagitis (endoscopia)',
-          say: 'Esofagitis por reflujo vista en la endoscopia.' },
       ],
     },
 
@@ -283,6 +257,44 @@ module.exports = {
         options: 'Las opciones son: esófago de Barrett, hernia hiatal por deslizamiento, hernia paraesofágica, acalasia, o esofagitis erosiva.',
         answer: 'Es la B, hernia hiatal por deslizamiento. La línea Z, que marca la unión entre el esófago y el estómago, debería estar a la altura del diafragma. Aquí está diez centímetros más arriba: el cardias subió al tórax. Y fíjate en el distractor: Barrett suena tentador porque hay reflujo, pero el Barrett se diagnostica con biopsia, no con una regla.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.4.007 · Endoscopía digestiva alta y baja",
+      "stem": "Hombre de 56 años con 2 años de pirosis que trata con omeprazol a demanda. Hace 2 meses siente que los sólidos se le quedan detenidos tras el esternón y ha bajado 5 kg. Hemoglobina 11,2 g/dL.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Duplicar la dosis de omeprazol por 8 semanas"
+        },
+        {
+          "letter": "B",
+          "text": "Radiografía de tórax"
+        },
+        {
+          "letter": "C",
+          "text": "pH-metría esofágica de 24 horas"
+        },
+        {
+          "letter": "D",
+          "text": "Manometría esofágica"
+        },
+        {
+          "letter": "E",
+          "text": "Endoscopía digestiva alta con biopsias"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Disfagia, baja de peso, anemia e inicio después de los 50 años son signos de alarma: obligan a endoscopía digestiva alta con biopsias para descartar cáncer, Barrett o estenosis. Escalar el IBP sin estudiar retrasa el diagnóstico; la pH-metría y la manometría no muestran la mucosa.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de cincuenta y seis años con dos años de pirosis, que trata con omeprazol a demanda. Hace dos meses siente que los sólidos se le quedan detenidos detrás del esternón, bajó cinco kilos y tiene una hemoglobina de once coma dos.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: duplicar el omeprazol, radiografía de tórax, pH-metría, manometría o endoscopía digestiva alta con biopsias. Piénsalo.",
+        "answer": "Es la E. Tiene varios signos de alarma: disfagia, baja de peso, anemia y edad sobre cincuenta, y basta uno solo para pedir una endoscopía con biopsias. Duplicar el omeprazol es la trampa: puede aliviar los síntomas y esconder un cáncer."
+      }
     },
 
     {

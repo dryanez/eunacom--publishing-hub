@@ -192,6 +192,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cómo se rompe el círculo del TOC',
+      images: [
+        { src: 'animaciones/psiq-08/A1_circulo_toc_epr.mp4', label: 'Círculo del TOC y exposición con prevención de respuesta', credit: 'Gráfico y animación propios' },
+      ],
+      steps: [
+        { note: 'El ritual refuerza; la exposición sin ritual lo apaga',
+          say: 'Mira el círculo: la obsesión genera angustia, el ritual la alivia un rato, y cada vuelta refuerza el ritual, con picos de ansiedad cada vez mayores. La exposición con prevención de respuesta lo rompe: el paciente se expone al estímulo sin hacer el ritual, y la ansiedad baja sola. Junto con ISRS en dosis altas, que tardan ocho a doce semanas. Y tranquilizar una y otra vez, o ayudar con el ritual, solo refuerza el círculo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: de la obsesión al tratamiento del TOC.',
     },
@@ -353,6 +367,44 @@ module.exports = {
         options: 'Las opciones: bipolar; episodio psicótico; trastorno obsesivo compulsivo; depresión mayor; o trastorno de adaptación. Piénsalo.',
         answer: 'Es la C. Obsesión de causar daño, con compulsión evitativa de esconder cuchillos y no quedarse a solas con el hijo. No es un episodio psicótico, porque ella rechaza la idea. La tristeza es consecuencia del sufrimiento, y como hay ideas de morir, se evalúa además el riesgo suicida.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 79",
+      "stem": "Una paciente tiene relaciones interpersonales intensas e inestables y problemas frecuentes con las demás personas. Presenta antecedentes de 2 intoxicaciones medicamentosas y autoagresiones. Además, estuvo en tratamiento por bulimia hace 1 año. Tiene un sentimiento crónico de inutilidad y vacío, y es impulsiva en el consumo de alcohol y en las compras.",
+      "question": "¿A qué trastorno de la personalidad corresponde el cuadro?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Histriónico"
+        },
+        {
+          "letter": "B",
+          "text": "Limítrofe"
+        },
+        {
+          "letter": "C",
+          "text": "Narcisista"
+        },
+        {
+          "letter": "D",
+          "text": "Antisocial"
+        },
+        {
+          "letter": "E",
+          "text": "Dependiente"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Relaciones intensas e inestables, impulsividad (alcohol, compras, atracones), autoagresiones e intentos suicidas reiterados y sentimiento crónico de vacío son los rasgos nucleares del trastorno límite de la personalidad. El tratamiento de elección es la psicoterapia, como la terapia dialéctico-conductual.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Una paciente tiene relaciones intensas e inestables, dos intoxicaciones con medicamentos, autoagresiones, antecedente de bulimia, sensación crónica de vacío e impulsividad con el alcohol y las compras.",
+        "question": "¿A qué trastorno de la personalidad corresponde?",
+        "options": "Las opciones: histriónico, limítrofe, narcisista, antisocial o dependiente. Piénsalo.",
+        "answer": "Es la B. Inestabilidad en las relaciones, impulsividad, autoagresiones y vacío crónico definen el trastorno límite. El histriónico tienta por lo emocional, pero busca atención y seducción, sin autoagresiones repetidas ni vacío crónico."
+      }
     },
 
     {

@@ -152,6 +152,47 @@ module.exports = {
       ],
     },
 
+
+    {
+      type: 'table',
+      kicker: 'Tiroides y psiquiatría',
+      title: 'Leer la TSH y la T4 libre',
+      head: ['TSH y T4 libre', 'Interpretación', 'Qué simula o qué hacer'],
+      rows: [
+        { cells: ['TSH baja, T4L alta', 'Hipertiroidismo', 'Pánico, ansiedad generalizada o hipomanía'],
+          say: 'TSH baja con T cuatro libre alta es hipertiroidismo: ansiedad, palpitaciones, temblor, insomnio y baja de peso. Puede simular un pánico, una ansiedad generalizada o una hipomanía, y por eso se descarta antes de rotular.' },
+        { cells: ['TSH alta, T4L baja', 'Hipotiroidismo primario', 'Depresión o demencia'],
+          say: 'TSH alta con T cuatro libre baja es hipotiroidismo primario: apatía, ánimo bajo, lentitud y aumento de peso. Simula una depresión o una demencia.' },
+        { cells: ['TSH alta, T4L normal', 'Hipotiroidismo subclínico', 'Tratar si TSH mayor de 10 o con síntomas'],
+          say: 'TSH alta con T cuatro libre normal es hipotiroidismo subclínico. Se trata si la TSH pasa de diez o si hay síntomas.' },
+        { cells: ['TSH baja, T4L normal', 'Hipertiroidismo subclínico', 'Agregar T3 si hay clínica'],
+          say: 'TSH baja con T cuatro libre normal es hipertiroidismo subclínico, y se agrega T tres si hay clínica.' },
+        { cells: ['TSH baja o normal, T4L baja', 'Causa central', 'Estudiar la hipófisis'],
+          say: 'Y TSH baja o normal con T cuatro libre baja sugiere una causa central.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Tiroides y psiquiatría',
+      title: 'Cuándo pedirla y qué cambia',
+      cards: [
+        { title: 'Cuándo pedir TSH', tag: 'Indicación', kind: 'key', items: [
+          { t: 'Ansiedad o pánico de inicio tardío', d: 'Depresión, depresión resistente, manía de primer episodio',
+            say: 'Se pide TSH, con T cuatro libre si está alterada, ante ansiedad o pánico de inicio tardío, depresión, depresión resistente, manía de primer episodio y deterioro cognitivo.' },
+          { t: 'Antes de iniciar litio', d: 'Y luego cada 6 a 12 meses',
+            say: 'Y siempre antes de iniciar litio, repitiéndola luego cada seis a doce meses.' },
+        ] },
+        { title: 'Implicancias', tag: 'Conducta', kind: 'pharma', items: [
+          { t: 'Corregir la tiroides suele resolver el síntoma', d: 'Betabloqueador para temblor y ansiedad',
+            say: 'Corregir la disfunción tiroidea suele resolver el síntoma psiquiátrico. Mientras esperas el tratamiento específico del hipertiroidismo, un betabloqueador alivia el temblor y la ansiedad.' },
+          { t: 'El litio da hipotiroidismo y bocio', d: 'Hasta 20 %; se agrega levotiroxina, sin suspender',
+            say: 'El litio produce hipotiroidismo, hasta en uno de cada cinco pacientes, y bocio. Se maneja agregando levotiroxina, sin suspender el litio.' },
+          { t: 'No pedirla en enfermedad aguda grave', d: 'Síndrome del enfermo eutiroideo',
+            say: 'Y no se piden hormonas tiroideas en una enfermedad aguda grave sin sospecha, porque el síndrome del enfermo eutiroideo las altera.' },
+        ] },
+      ],
+    },
     {
       type: 'points',
       kicker: 'Crisis aguda',
@@ -239,6 +280,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Por qué el ISRS parte con media dosis',
+      images: [
+        { src: 'animaciones/psiq-06/A1_isrs_media_dosis.mp4', label: 'ISRS en pánico: dosis y puente', credit: 'Gráfico y animación propios' },
+      ],
+      steps: [
+        { note: 'Media dosis; benzodiacepina solo como puente',
+          say: 'Mira las dos curvas. Si el ISRS parte con dosis plena, el paciente con pánico empeora los primeros días, por una hipersensibilidad serotoninérgica: más temblor, más palpitaciones y más miedo, y muchos abandonan. Por eso se parte con la mitad, veinticinco miligramos de sertralina, una a dos semanas, y después se sube. La benzodiacepina es solo un puente de dos a cuatro semanas, con retiro gradual, nunca monoterapia.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: de la crisis en urgencias al tratamiento de fondo.',
     },
@@ -261,6 +316,8 @@ module.exports = {
           say: 'Crisis recurrentes más evitación: trastorno de pánico con agorafobia. Si el miedo es al juicio de otros, es fobia social, otro cuadro.' },
         { cells: ['Agorafobia', 'TCC con exposición en vivo', 'Hospitalización prolongada'],
           say: 'Para la agorafobia, la psicoterapia de elección es la terapia cognitivo-conductual con exposición gradual en vivo.' },
+        { cells: ['Pánico de inicio tardío, TSH baja y T4L alta', 'Tratar el hipertiroidismo', 'Iniciar ISRS sin estudiar'],
+          say: 'Si el pánico parte tarde en la vida y la TSH viene baja con T cuatro libre alta, tratas el hipertiroidismo; no partes con un ISRS sin estudiar.' },
       ],
     },
 
@@ -400,6 +457,44 @@ module.exports = {
         options: 'Las opciones: diazepam; citalopram; clorpromazina; risperidona; o mirtazapina. Piénsalo.',
         answer: 'Es la B. Miedo a aglomeraciones y lugares de los que no puede escapar, con evitación: agorafobia. Se trata con un ISRS, y aquí el banco eligió citalopram. El diazepam es la trampa: las benzodiacepinas se intentan evitar en el embarazo. En el embarazo la elección del fármaco se decide junto con obstetricia.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2013 · Pregunta 161",
+      "stem": "Un paciente de 30 años, sin antecedentes, consulta por fatigabilidad asociada a disminución de peso desde hace 3 meses. Al entrevistarlo de forma dirigida refiere que hace 3 meses tuvo una ruptura sentimental, y que desde entonces, además de los síntomas mencionados, ha estado con pena, insomnio y desconcentración. Su examen físico es normal y su índice de masa corporal es 22.",
+      "question": "¿Cuál es el examen de elección para descartar una causa orgánica en este caso?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tirotropina"
+        },
+        {
+          "letter": "B",
+          "text": "VDRL"
+        },
+        {
+          "letter": "C",
+          "text": "Hemograma"
+        },
+        {
+          "letter": "D",
+          "text": "Creatinina y enzimas hepáticas"
+        },
+        {
+          "letter": "E",
+          "text": "Glicemia de ayuno"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Ante un cuadro depresivo o ansioso, la principal causa orgánica a descartar es la disfunción tiroidea, y el mejor examen único es la TSH (tirotropina). El hemograma y la glicemia también se piden, pero la TSH es el más importante.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil trece. Un hombre de treinta años tiene fatiga y baja de peso hace tres meses, tras una ruptura sentimental, con pena, insomnio y desconcentración. Su examen físico es normal.",
+        "question": "¿Qué examen es el de elección para descartar una causa orgánica?",
+        "options": "Las opciones: tirotropina, VDRL, hemograma, creatinina con enzimas hepáticas, o glicemia de ayuno. Piénsalo.",
+        "answer": "Es la A. Ante una depresión, la causa orgánica que más importa descartar es la tiroidea, y el examen clave es la hormona estimulante del tiroides. El hemograma tienta y también se pide, pero no es el examen de elección."
+      }
     },
 
     {

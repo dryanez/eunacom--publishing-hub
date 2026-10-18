@@ -60,28 +60,12 @@ module.exports = {
         { show: ['a', 'b'], note: 'La cistoscopía confirma',
           say: 'Ante una hematuria macroscópica sin causa infecciosa, en un fumador, el examen que confirma el cáncer de vejiga es la cistoscopía, que muestra directamente la mucosa. La citología de orina complementa, pero no la reemplaza. El estudio ordenado de la hematuria lo vemos en la clase de hematuria.' },
         { show: ['c', 'd'], note: 'Se reseca en el mismo acto',
-          say: 'El tumor suele verse como una lesión papilar, vegetante, con frondas como helecho. Se reseca por vía transuretral en el mismo acto, y así el procedimiento es diagnóstico y terapéutico.' },
+          say: 'El tumor suele verse como una lesión papilar, vegetante, con frondas como helecho. Se reseca por vía transuretral en el mismo acto, y así el procedimiento es diagnóstico y terapéutico. Mira la superficie en esta cistoscopía: muchas frondas finas, como pequeños dedos, que salen de la mucosa. Es el tumor papilar no invasor.',
+          photo: { src: 'biblioteca/19_urologia/uro-12/01_cistoscopia-tumor-papilar-pTa__bailey-love_p1467.jpg', label: 'Tumor papilar pTa', at: 'Mira la superficie', credit: 'Bailey & Love 27.ª ed., Fig. 77.48' } },
         { show: ['e'], note: 'La muestra debe tener músculo',
           say: 'La resección debe llegar hasta el músculo detrusor, y el patólogo tiene que certificar que hay músculo en la muestra, porque eso define la profundidad de invasión y por lo tanto el tratamiento.' },
         { show: ['f'], note: 'Se estudia también la vía superior',
           say: 'Además se hace un uro-TAC, con fase de excreción, para ver cálices y uréteres, porque el urotelio es el mismo en toda la vía urinaria.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Tumor vesical por cistoscopía y RM',
-      images: [
-        { src: 'biblioteca/19_urologia/uro-12/01_cistoscopia-tumor-papilar-pTa__bailey-love_p1467.jpg', label: 'Cistoscopía: tumor papilar pTa antes de la resección', credit: 'Bailey & Love 27.ª ed., Fig. 77.48' },
-        { src: 'biblioteca/19_urologia/uro-12/02_rm-cancer-vesical-invasor__bailey-love_p1471.jpg', label: 'Resonancia: cáncer vesical que invade la pared', credit: 'Bailey & Love 27.ª ed., Fig. 77.51b' },
-      ],
-      steps: [
-        { note: 'Papilar y vegetante',
-          say: 'Mira la superficie: muchas frondas finas, como pequeños dedos, que salen de la mucosa. Es el aspecto del tumor papilar no invasor, el que se reseca por vía transuretral.' },
-        { note: 'Tumor que invade la pared',
-          say: 'Y esta es una resonancia de un cáncer que invade la pared de la vejiga: engrosamiento sólido en vez de frondas. Es el que va a requerir mucho más que una resección.' },
       ],
     },
 
@@ -117,12 +101,27 @@ module.exports = {
         ] },
         { title: 'Músculo invasivo', tag: 'Radical', kind: 'alert', items: [
           { t: 'Quimioterapia con cisplatino', d: 'Antes de la cirugía',
-            say: 'Quimioterapia neoadyuvante con cisplatino.' },
+            say: 'Quimioterapia neoadyuvante con cisplatino. Es para el cáncer que invade la pared. Mira esta resonancia: hay un engrosamiento sólido en vez de frondas. Es el que requiere mucho más que una resección.',
+            photo: { src: 'biblioteca/19_urologia/uro-12/02_rm-cancer-vesical-invasor__bailey-love_p1471.jpg', label: 'Cáncer que invade la pared', at: 'Mira esta resonancia', credit: 'Bailey & Love 27.ª ed., Fig. 77.51b' } },
           { t: 'Cistectomía radical', d: 'Más linfadenectomía pélvica',
             say: 'Y cistectomía radical. En el hombre se extirpan vejiga, próstata y vesículas seminales, y en la mujer, vejiga, útero, ovarios y parte de la vagina. Se reconstruye con conducto ileal de Bricker o neovejiga.' },
           { t: 'BCG se reserva', d: 'Falla del BCG o ≥ T2',
             say: 'La cistectomía también se usa cuando falla el BCG.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'De la mucosa al músculo',
+      images: [
+        { src: 'animaciones/uro-12/A1_cancer_vejiga_invasion.mp4', label: 'La profundidad de invasión', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'La profundidad de invasión',
+          say: 'Mira cómo avanza el tumor: nace en la mucosa como un tumor papilar, luego invade la lámina propia y después el músculo detrusor. Hasta T uno es no invasivo: resección transuretral y BCG. Desde T dos, músculo invasivo: cisplatino y cistectomía radical. Por eso la muestra debe incluir músculo.' },
       ],
     },
 
@@ -240,6 +239,44 @@ module.exports = {
         options: 'Las opciones: cistectomía radical inmediata; BCG intravesical; radioterapia pélvica; quimioterapia sistémica; u observación. Piénsalo.',
         answer: 'Es la B. Invade la lámina propia pero no el músculo: es un tumor no músculo invasivo, T uno. Después de resecarlo, se instila BCG. La cistectomía sería para falla del BCG o invasión muscular.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.5.001 · Cistoscopia",
+      "stem": "Hombre de 66 años, fumador de 40 paquetes-año, presenta en 2 ocasiones hematuria macroscópica total, indolora, con coágulos. Urocultivo negativo y función renal normal.",
+      "question": "¿Cuál es el examen fundamental para el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cistoscopía"
+        },
+        {
+          "letter": "B",
+          "text": "Citología urinaria como único examen"
+        },
+        {
+          "letter": "C",
+          "text": "Repetir orina completa en 3 meses"
+        },
+        {
+          "letter": "D",
+          "text": "Antígeno prostático específico"
+        },
+        {
+          "letter": "E",
+          "text": "Ecografía renal sin otro estudio"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La hematuria macroscópica indolora en un fumador mayor de 40 años es cáncer vesical hasta demostrar lo contrario. La cistoscopía visualiza directamente la vejiga y permite biopsiar; se complementa con uro-TAC para evaluar el tracto urinario alto. La citología tiene baja sensibilidad en tumores de bajo grado y no reemplaza la cistoscopía.",
+      "say": {
+        "stem": "Hombre de sesenta y seis años, gran fumador, con hematuria macroscópica indolora con coágulos.",
+        "question": "¿Qué examen es fundamental?",
+        "options": "Las opciones: cistoscopía, solo citología urinaria, repetir orina en tres meses, antígeno prostático, o solo ecografía. Piénsalo.",
+        "answer": "Es la A. La cistoscopía, porque hay que descartar cáncer vesical. La citología ayuda, pero no detecta los tumores de bajo grado."
+      }
     },
 
     {

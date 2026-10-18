@@ -20,7 +20,8 @@ module.exports = {
       cards: [
         { title: 'Test de Weber', tag: 'Diapasón en la frente', kind: 'key', items: [
           { t: 'Diapasón 512 Hz en la frente', d: 'Pregunta: ¿por qué oído lo oyes más?',
-            say: 'El Weber se hace con un diapasón de quinientos doce hertz apoyado en la frente, en el vértex o en los incisivos. Le preguntas al paciente por qué oído lo escucha más fuerte. Si la audición es normal o igual en los dos oídos, el sonido queda en el centro y no lateraliza.' },
+            say: 'El Weber se hace con un diapasón de quinientos doce hertz apoyado en la frente, en el vértex o en los incisivos. Le preguntas al paciente por qué oído lo escucha más fuerte. Mira cómo se hace: el diapasón vibra apoyado en la frente, justo en la línea media. Si la audición es normal o igual en los dos oídos, el sonido queda en el centro y no lateraliza.',
+            photo: { src: 'biblioteca/17_otorrino/orl-05/01_prueba-de-weber-diapason-en-la-frente__bates_p277.jpg', label: 'Prueba de Weber', at: 'Mira cómo se hace', credit: 'Bates, Guía de exploración física, Fig. 7-44' } },
           { t: 'Conducción: lateraliza al oído enfermo', d: 'El oído malo queda aislado del ruido',
             say: 'En una hipoacusia de conducción, el sonido se va hacia el oído enfermo. Parece raro, pero tiene lógica: ese oído está aislado del ruido ambiente, y la vibración que llega por el hueso se oye más fuerte.' },
           { t: 'Sensorioneural: lateraliza al oído sano', d: 'La cóclea enferma no transduce',
@@ -34,20 +35,6 @@ module.exports = {
           { t: 'Rinne negativo: hueso mayor que aire', d: 'Patognomónico de conducción',
             say: 'Si el hueso se oye mejor que el aire, el Rinne es negativo, y eso es patognomónico de hipoacusia de conducción. Es el dato que más se usa para decidir de qué lado está el problema.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Cómo se hace el Weber',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-05/01_prueba-de-weber-diapason-en-la-frente__bates_p277.jpg', label: 'Diapasón vibrando, apoyado en la frente del paciente (prueba de Weber)', credit: 'Bates, Guía de exploración física, Fig. 7-44' },
-      ],
-      steps: [
-        { note: 'Diapasón en la frente, línea media',
-          say: 'Fíjate en la posición: el diapasón vibra y se apoya en la frente, justo en la línea media. Desde ahí, el sonido le llega a los dos oídos por el hueso del cráneo. Tú solo preguntas hacia dónde se va, y con eso ya sabes si el problema es de conducción o sensorioneural.' },
       ],
     },
 
@@ -70,6 +57,20 @@ module.exports = {
           { t: 'Sensorioneural: cóclea o nervio', d: 'Presbiacusia, súbita, ototoxicidad, neurinoma',
             say: 'La pérdida sin brecha habla de células ciliadas o nervio coclear: presbiacusia, hipoacusia súbita, ototoxicidad y neurinoma del acústico. Esas las vemos en la próxima clase.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El audiograma, con Weber y Rinne',
+      images: [
+        { src: 'animaciones/orl-05/A1_audiograma_brecha_weber_rinne.mp4', label: 'Audiograma: normal, conducción, sensorioneural y mixta', credit: 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'La brecha óseo-aérea separa conducción de sensorioneural',
+          say: 'Mira el audiograma. En la audición normal, la vía aérea y la vía ósea van juntas, bajo veinticinco decibeles. En la hipoacusia de conducción el hueso sigue normal y el aire cae: esa brecha de quince decibeles o más es conducción; el Weber se va al oído enfermo y el Rinne es negativo. En la sensorioneural, aire y hueso bajan juntos, sin brecha, y el Weber se va al oído sano. Si hay descenso y además brecha, es mixta.' },
       ],
     },
 
@@ -211,6 +212,44 @@ module.exports = {
         options: 'Las opciones: curva A, curva As, curva B, curva C o curva Ad. Piénsalo.',
         answer: 'Es la opción C, que es la curva B de Jerger: plana, sin pico, porque el líquido no deja que el tímpano se mueva. La curva A es la normal. La As es de rigidez, como la otoesclerosis. La C de Jerger es de presión negativa, por la trompa. Y la Ad es de cadena interrumpida.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.101 · Hipoacusia",
+      "stem": "Una madre pregunta por el tamizaje auditivo de su recién nacido de término sano, que no tiene factores de riesgo de hipoacusia.",
+      "question": "¿Cuál es el examen de tamizaje auditivo neonatal más utilizado en recién nacidos sanos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Audiometría tonal"
+        },
+        {
+          "letter": "B",
+          "text": "Resonancia magnética de oído"
+        },
+        {
+          "letter": "C",
+          "text": "Impedanciometría"
+        },
+        {
+          "letter": "D",
+          "text": "Prueba de diapasones"
+        },
+        {
+          "letter": "E",
+          "text": "Emisiones otoacústicas"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El tamizaje auditivo neonatal busca detectar hipoacusia antes de los 3 meses e intervenir antes de los 6 meses. En recién nacidos sanos se usan las emisiones otoacústicas (rápidas, no invasivas); en prematuros o de alto riesgo se prefieren los potenciales evocados auditivos automatizados, porque detectan neuropatía auditiva. La audiometría tonal requiere cooperación, desde aproximadamente los 4 años.",
+      "say": {
+        "stem": "Una madre pregunta por el tamizaje auditivo de su recién nacido de término sano.",
+        "question": "¿Cuál es el examen más utilizado en el recién nacido sano?",
+        "options": "Las opciones: audiometría tonal, resonancia, impedanciometría, diapasones o emisiones otoacústicas. Piénsalo.",
+        "answer": "Es la E. El tamizaje auditivo del recién nacido sano se hace con emisiones otoacústicas. La audiometría tonal tienta porque es el examen auditivo clásico, pero requiere que el paciente coopere."
+      }
     },
 
     {

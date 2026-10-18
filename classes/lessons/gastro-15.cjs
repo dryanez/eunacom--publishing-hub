@@ -33,11 +33,16 @@ module.exports = {
       ],
       steps: [
         { show: ['cir'], note: 'Venga de donde venga',
-          say: 'Partamos por el mapa. La cirrosis puede venir del alcohol o de las hepatitis crónicas que vimos en la clase anterior, pero una vez instalada, descompensa siempre por dos vías.' },
+          say: 'Partamos por el mapa. La cirrosis puede venir del alcohol o de las hepatitis crónicas que vimos en la clase anterior, pero una vez instalada, descompensa siempre por dos vías. Mira esta ecografía de un hígado cirrótico: la superficie es irregular, señalada por las flechas.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-15/04_eco-cirrosis__cto-radiologia_p42.jpg', label: 'Ecografía en la cirrosis', at: 'Mira esta ecografía', credit: 'Manual CTO Radiología 14.ª ed., p. 42' } },
         { show: ['htp'], note: 'Primera vía: la presión',
           say: 'La primera vía es la hipertensión portal. El hígado fibrótico opone resistencia, la sangre del intestino no logra pasar, y la presión sube hacia atrás, en todo el territorio de la vena porta. Casi todo lo que vamos a ver hoy es consecuencia de esa presión.' },
         { show: ['var', 'asc'], note: 'Várices y ascitis',
-          say: 'Esa presión abre colaterales, que son las várices esofágicas, y empuja líquido al peritoneo, que es la ascitis. Y esa ascitis se puede infectar: la peritonitis bacteriana espontánea.' },
+          say: 'Esa presión abre colaterales, que son las várices esofágicas, y empuja líquido al peritoneo, que es la ascitis. Y esa ascitis se puede infectar: la peritonitis bacteriana espontánea. Mira esta portografía: se rellenan grandes colaterales venosas tortuosas. Y estas venas dilatadas alrededor del ombligo, en la pared del abdomen, son la cabeza de medusa.',
+          photos: [
+            { src: 'biblioteca/01_gastroenterologia/gastro-15/03_cabeza-de-medusa_2__cto-digestivo_p216.jpg', label: 'Portografía: colaterales', at: 'Mira esta portografía', credit: 'Manual CTO Digestivo 14.ª ed., p. 216' },
+            { src: 'biblioteca/01_gastroenterologia/gastro-15/03_cabeza-de-medusa_1__cto-digestivo_p216.jpg', label: 'Cabeza de medusa', at: 'Y estas venas dilatadas', credit: 'Manual CTO Digestivo 14.ª ed., p. 216' },
+          ] },
         { show: ['shr'], note: 'El riñón paga las consecuencias',
           say: 'Y en el cirrótico avanzado, la circulación está tan alterada que el riñón termina fallando sin estar enfermo: es el síndrome hepatorrenal. Guárdalo, porque la albúmina que vamos a indicar en varias situaciones existe justamente para prevenirlo.' },
         { show: ['ih'], note: 'Segunda vía: la función',
@@ -94,7 +99,8 @@ module.exports = {
         { show: ['atb'], note: 'La omisión más preguntada',
           say: 'Tercero, y aquí está la trampa: antibióticos, con ceftriaxona. El cirrótico que sangra tiene alto riesgo de infectarse, y el antibiótico es profilaxis de peritonitis bacteriana espontánea. Omitir los antibióticos es el error que buscan, y es la omisión más frecuente en las alternativas.' },
         { show: ['lig'], note: 'Diagnostica y trata',
-          say: 'Cuarto, endoscopía con ligadura de las várices, dentro de las primeras doce horas. La endoscopía confirma que el sangrado es variceal y, en el mismo acto, lo trata.' },
+          say: 'Cuarto, endoscopía con ligadura de las várices, dentro de las primeras doce horas. La endoscopía confirma que el sangrado es variceal y, en el mismo acto, lo trata. Mira esta endoscopía: una várice esofágica abultada, con la banda elástica de la ligadura puesta en su base.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-15/05_varices-esofagicas-ligadura__atlas-eunacom.jpg', label: 'Várice con ligadura', at: 'Mira esta endoscopía', credit: 'Atlas EUNACOM 2026' } },
         { show: ['tia'], note: 'No olvidar en el alcohólico',
           say: 'Y si el paciente es alcohólico, se agrega tiamina, como en todo paciente con consumo crónico de alcohol que llega a urgencias.' },
         { show: ['tips'], note: 'Rescate si todo falla',
@@ -115,13 +121,40 @@ module.exports = {
         ] },
         { title: 'A tensión', tag: 'Evacuar', kind: 'alert', items: [
           { t: 'Paracentesis evacuadora + albúmina', d: '~8 g de albúmina por litro extraído',
-            say: 'Si la ascitis está a tensión, se hace paracentesis evacuadora y se repone albúmina, cerca de ocho gramos por cada litro extraído. La albúmina evita que el paciente descompense su circulación al sacarle tanto líquido de golpe.' },
+            say: 'Si la ascitis está a tensión, se hace paracentesis evacuadora y se repone albúmina, cerca de ocho gramos por cada litro extraído. Mira esta ascitis a tensión: el abdomen globoso, tenso, con la piel brillante. La albúmina evita que el paciente descompense su circulación al sacarle tanto líquido de golpe.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-15/02_ascitis_tension_foto__commons.jpg', label: 'Ascitis a tensión', at: 'Mira esta ascitis a tensión', credit: 'Wikimedia Commons «Hepaticfailure.jpg», CC BY-SA 3.0, James Heilman, MD' } },
           { t: 'Antes: paracentesis diagnóstica', d: 'Descartar PBE antes de drenar',
             say: 'Pero ojo: antes de evacuar, siempre la paracentesis diagnóstica. Drenar sin descartar una peritonitis es una trampa clásica.' },
         ] },
         { title: 'Refractaria', tag: 'Últimos escalones', kind: 'key', items: [
           { t: 'Paracentesis seriadas con albúmina', d: 'Considerar TIPS o trasplante',
             say: 'Si la ascitis es refractaria a los diuréticos, se hacen paracentesis seriadas con albúmina, y se considera el TIPS o el trasplante hepático. Pero el TIPS no siempre se puede usar, y eso lo veremos en la encefalopatía.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Procedimiento',
+      title: 'Paracentesis: cómo se hace',
+      cards: [
+        { title: 'Dónde y cómo', tag: 'Técnica', kind: 'key', items: [
+          { t: 'Fosa ilíaca izquierda', d: '2 a 3 cm sobre y medial a la espina ilíaca',
+            say: 'Con consentimiento y la vejiga vacía, el paciente va semisentado o de lado. Se punciona en la fosa ilíaca izquierda, dos a tres centímetros sobre y por dentro de la espina ilíaca anterosuperior, o en la línea media bajo el ombligo. Se evitan las cicatrices y los vasos epigástricos.' },
+          { t: 'Asepsia, anestesia y técnica en Z', d: 'Para que no filtre líquido',
+            say: 'Con asepsia y anestesia local, y con técnica en Z, para que después no filtre líquido por el orificio.' },
+        ] },
+        { title: 'Qué se saca', tag: 'Dos tipos', kind: 'normal', items: [
+          { t: 'Diagnóstica: 30 a 60 mL', d: 'Recuento celular, albúmina, cultivo al lado de la cama',
+            say: 'La diagnóstica son treinta a sesenta mililitros: recuento celular, albúmina para el gradiente, y cultivo en frascos de hemocultivo, directamente junto a la cama.' },
+          { t: 'Evacuadora: albúmina si más de 5 L', d: '6 a 8 g por litro',
+            say: 'En la evacuadora, si se extraen más de cinco litros se repone albúmina, seis a ocho gramos por litro. Y no se corrige el INR ni las plaquetas de rutina.' },
+        ] },
+        { title: 'Complicaciones', tag: 'Raras', kind: 'alert', items: [
+          { t: 'Filtración y hematoma de pared', d: 'Perforación intestinal',
+            say: 'Pueden ocurrir filtración, hematoma de la pared, y, rara vez, perforación intestinal.' },
+          { t: 'Hipotensión posparacentesis', d: 'Disfunción circulatoria',
+            say: 'Y la hipotensión por disfunción circulatoria posparacentesis, que la albúmina ayuda a prevenir.' },
         ] },
       ],
     },
@@ -233,6 +266,58 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Manejo de base',
+      title: 'Dieta y cuidados del cirrótico',
+      cards: [
+        { title: 'Dieta', tag: 'Qué sí y qué no', kind: 'key', items: [
+          { t: 'Sodio menor de 2 g al día', d: 'Sin sal agregada ni procesados',
+            say: 'La dieta del cirrótico tiene una regla central: sodio menor de dos gramos al día. Sin sal agregada y sin alimentos procesados.' },
+          { t: 'No restringir líquidos ni proteínas', d: 'Líquidos: solo si sodio menor de 125',
+            say: 'No se restringen los líquidos, salvo que el sodio plasmático sea menor de ciento veinticinco. Y tampoco las proteínas: uno coma dos a uno coma cinco gramos por kilo, incluso en la encefalopatía.' },
+          { t: 'Colación nocturna; sin alcohol', d: '35 kcal/kg, comidas fraccionadas',
+            say: 'Se da un aporte calórico adecuado, comidas fraccionadas y una colación nocturna para evitar el catabolismo. Y abstinencia absoluta de alcohol.' },
+        ] },
+        { title: 'Insuficiencia hepática crónica', tag: 'Cómo se reconoce', kind: 'normal', items: [
+          { t: 'Ictericia, coagulopatía, edema, encefalopatía', d: 'Eritema palmar, arañas, ginecomastia',
+            say: 'La insuficiencia hepática crónica se reconoce por ictericia, coagulopatía, hipoalbuminemia con edema y ascitis, encefalopatía, eritema palmar, arañas vasculares, ginecomastia y atrofia testicular. Mira esta araña vascular: un punto rojo central del que salen pequeñas ramas, que desaparece si la presionas. Y este eritema palmar es el enrojecimiento de las eminencias tenar e hipotenar; junto con las arañas, refleja el exceso de estrógenos.',
+            photos: [
+              { src: 'biblioteca/01_gastroenterologia/gastro-15/01_aranas-vasculares__cto-digestivo_p211.jpg', label: 'Arañas vasculares', at: 'Mira esta araña vascular', credit: 'Manual CTO Digestivo 14.ª ed., p. 211' },
+              { src: 'biblioteca/01_gastroenterologia/gastro-15/02_eritema-palmar__cto-digestivo_p212.jpg', label: 'Eritema palmar', at: 'Y este eritema palmar', credit: 'Manual CTO Digestivo 14.ª ed., p. 212' },
+            ] },
+        ] },
+        { title: 'Medidas de base', tag: 'Ante una descompensación', kind: 'pharma', items: [
+          { t: 'Buscar el desencadenante', d: 'Infección, hemorragia, alcohol, fármacos, trombosis, hepatocarcinoma',
+            say: 'Ante una descompensación, siempre se busca el desencadenante: infección, hemorragia, alcohol, fármacos, trombosis portal o hepatocarcinoma.' },
+          { t: 'Vacunas, evitar AINE y sedantes', d: 'Hepatitis A y B, neumococo, influenza',
+            say: 'Se vacuna contra hepatitis A y B, neumococo e influenza, y se evitan los antiinflamatorios y los sedantes. Además, ecografía de vigilancia del hepatocarcinoma.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Pronóstico',
+      title: 'Child-Pugh y MELD',
+      cards: [
+        { title: 'Qué mide función', tag: 'Síntesis', kind: 'key', items: [
+          { t: 'Albúmina, INR y bilirrubina', d: 'Las transaminasas miden daño, no función',
+            say: 'La función del hígado se lee con la albúmina, el INR, que refleja los factores de coagulación, y la bilirrubina. Las transaminasas miden daño, no función. Esa diferencia se pregunta.' },
+        ] },
+        { title: 'Child-Pugh', tag: 'Cinco variables', kind: 'criteria', items: [
+          { t: 'Bilirrubina, albúmina, INR, ascitis, encefalopatía', d: 'A: 5 a 6 · B: 7 a 9 · C: 10 a 15',
+            say: 'El Child-Pugh suma cinco variables: bilirrubina, albúmina, INR, ascitis y encefalopatía. De cinco a seis puntos es A, compensado. De siete a nueve, B. Y de diez a quince, C, descompensado y de peor pronóstico.' },
+        ] },
+        { title: 'MELD', tag: 'Trasplante', kind: 'pharma', items: [
+          { t: 'Bilirrubina, INR, creatinina y sodio', d: 'Ordena la lista de espera',
+            say: 'El MELD usa bilirrubina, INR, creatinina y sodio, y es el que ordena la lista de espera de trasplante.' },
+          { t: 'Derivar a trasplante con una complicación mayor o MELD 15 o más', d: 'Evaluación en centro de trasplante',
+            say: 'Se deriva a evaluación de trasplante cuando aparece una complicación mayor o el MELD llega a quince o más.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -243,46 +328,6 @@ module.exports = {
       steps: [
         { note: 'La sangre busca otro camino',
           say: 'Normalmente la sangre del intestino y del bazo pasa por la porta y atraviesa el hígado. El hígado cirrótico frena ese paso y la presión portal sube. El bazo crece, y la sangre busca colaterales: várices esofágicas y cabeza de medusa. Y el líquido se filtra al abdomen: ascitis.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'El paciente cirrótico',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-15/02_ascitis_tension_foto__commons.jpg', label: 'Ascitis a tensión', credit: 'Wikimedia Commons «Hepaticfailure.jpg», CC BY-SA 3.0, James Heilman, MD' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-15/01_aranas-vasculares__cto-digestivo_p211.jpg', label: 'Arañas vasculares', credit: 'Manual CTO Digestivo 14.ª ed., p. 211' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-15/02_eritema-palmar__cto-digestivo_p212.jpg', label: 'Eritema palmar', credit: 'Manual CTO Digestivo 14.ª ed., p. 212' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-15/03_cabeza-de-medusa_1__cto-digestivo_p216.jpg', label: 'Cabeza de medusa', credit: 'Manual CTO Digestivo 14.ª ed., p. 216' },
-      ],
-      steps: [
-        { note: 'Abdomen globoso y tenso',
-          say: 'Esto es una ascitis a tensión: el abdomen está globoso, tenso, con la piel brillante. Es la complicación más frecuente de la cirrosis.' },
-        { note: 'Punto central con ramas',
-          say: 'Esta es una araña vascular: un punto rojo central del que salen pequeñas ramas. Si la presionas, desaparece.' },
-        { note: 'Palmas rojas en las eminencias',
-          say: 'El eritema palmar es el enrojecimiento de las eminencias tenar e hipotenar. Junto con las arañas, refleja el exceso de estrógenos.' },
-        { note: 'Venas alrededor del ombligo',
-          say: 'Y estas venas dilatadas en la pared del abdomen son la circulación colateral de la hipertensión portal.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-15/03_cabeza-de-medusa_2__cto-digestivo_p216.jpg', label: 'Portografía: colaterales portosistémicas', credit: 'Manual CTO Digestivo 14.ª ed., p. 216' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-15/04_eco-cirrosis__cto-radiologia_p42.jpg', label: 'Ecografía en la cirrosis', credit: 'Manual CTO Radiología 14.ª ed., p. 42' },
-      ],
-      steps: [
-        { note: 'Portografía: colaterales portosistémicas',
-          say: 'Portografía en la hipertensión portal: se rellenan grandes colaterales venosas tortuosas.' },
-        { note: 'Ecografía en la cirrosis',
-          say: 'Ecografía de un hígado cirrótico: superficie irregular, señalada por las flechas.' },
       ],
     },
 
@@ -307,6 +352,8 @@ module.exports = {
           say: 'Líquido con doscientos cincuenta polimorfonucleares o más: cefotaxima y albúmina. La trampa son los aminoglucósidos, que dañan un riñón que ya está en riesgo.' },
         { cells: ['Encefalopatía + ascitis refractaria', 'Lactulosa + tratar precipitante; NO TIPS', 'Indicar TIPS'],
           say: 'Y encefalopatía con ascitis refractaria: lactulosa y tratar el precipitante. La trampa es indicar un TIPS, que solo empeoraría la encefalopatía.' },
+        { cells: ['Dieta del cirrótico', 'Sodio menor de 2 g al día; sin restringir proteínas', 'Restringir proteínas en la encefalopatía'],
+          say: 'Y la dieta del cirrótico: sodio menor de dos gramos al día, sin restringir proteínas, ni siquiera en la encefalopatía. Restringir proteínas es la trampa.' },
       ],
     },
 
@@ -423,6 +470,306 @@ module.exports = {
         options: 'Las opciones: instalar el TIPS porque resuelve la ascitis y las várices, no instalarlo porque la encefalopatía lo contraindica, instalarlo con lactulosa profiláctica, instalarlo y suspender el betabloqueo, o instalarlo con anestesia general. Piénsalo.',
         answer: 'Es la B: no se instala. La encefalopatía contraindica el TIPS, porque la sangre saltaría el hígado y llevaría más amonio al cerebro. El distractor tentador es la A, porque el TIPS sí trataría la ascitis, pero a costa de un cerebro más intoxicado. Y la lactulosa no elimina la contraindicación. Este paciente sigue con paracentesis seriadas con albúmina y va a evaluación para trasplante.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 123",
+      "stem": "Paciente con antecedente de daño hepático crónico por alcohol presenta desorientación, lenguaje incoherente y tendencia a la somnolencia. Al examen físico tiene ictericia, arañas vasculares en la cara y el pecho, asterixis y compromiso cualitativo de conciencia.",
+      "question": "¿Qué fármaco es el más adecuado para su tratamiento?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amonio"
+        },
+        {
+          "letter": "B",
+          "text": "N-acetilcisteína"
+        },
+        {
+          "letter": "C",
+          "text": "Risperidona"
+        },
+        {
+          "letter": "D",
+          "text": "Donepezilo"
+        },
+        {
+          "letter": "E",
+          "text": "Lactulosa"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Compromiso de conciencia con asterixis en un cirrótico es una encefalopatía hepática. Se trata con lactulosa, buscando 2 a 3 deposiciones blandas al día, y corrigiendo el factor desencadenante: infección, hemorragia digestiva, trastorno electrolítico o constipación. La amonemia orienta el diagnóstico; no es un tratamiento.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Paciente con daño hepático crónico por alcohol, que está desorientado, con lenguaje incoherente y somnoliento. Tiene ictericia, arañas vasculares, asterixis y compromiso cualitativo de conciencia.",
+        "question": "¿Qué fármaco es el más adecuado para su tratamiento?",
+        "options": "Las opciones: amonio, N acetilcisteína, risperidona, donepezilo, o lactulosa. Piénsalo.",
+        "answer": "Es la E, lactulosa. Un cirrótico confuso y con asterixis tiene una encefalopatía hepática, y la lactulosa reduce la absorción de amonio en el intestino. Junto con ella hay que buscar siempre qué la descompensó, partiendo por las infecciones. La risperidona es la trampa: sedar a este paciente empeora la encefalopatía."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.3.009 · Conceptos generales de hipertensión portal",
+      "stem": "Hombre de 58 años con ascitis de reciente aparición. Se realiza una paracentesis diagnóstica: albúmina en líquido ascítico 1,0 g/dL, con albúmina plasmática de 3,2 g/dL. Proteínas totales del líquido 1,5 g/dL y 100 células/mm3.",
+      "question": "¿Qué indica el gradiente de albúmina sérica-ascítica de este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ascitis por carcinomatosis peritoneal"
+        },
+        {
+          "letter": "B",
+          "text": "Ascitis por hipertensión portal"
+        },
+        {
+          "letter": "C",
+          "text": "Ascitis por tuberculosis peritoneal"
+        },
+        {
+          "letter": "D",
+          "text": "Ascitis pancreática"
+        },
+        {
+          "letter": "E",
+          "text": "Peritonitis bacteriana secundaria"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El gradiente de albúmina sérica-ascítica es 3,2 menos 1,0, es decir 2,2 g/dL. Un gradiente de 1,1 g/dL o más indica hipertensión portal (cirrosis, insuficiencia cardíaca, síndrome de Budd-Chiari); uno menor de 1,1 sugiere causas peritoneales como carcinomatosis, tuberculosis o pancreatitis. Las proteínas bajas orientan a cirrosis más que a causa cardíaca.",
+      "say": {
+        "stem": "Hombre de cincuenta y ocho años con ascitis reciente. En la paracentesis, la albúmina del líquido es uno, la del plasma es tres coma dos, con proteínas bajas y cien células.",
+        "question": "¿Qué indica el gradiente de albúmina de este paciente?",
+        "options": "Las opciones: carcinomatosis peritoneal, hipertensión portal, tuberculosis peritoneal, ascitis pancreática, o peritonitis secundaria. Piénsalo.",
+        "answer": "Es la B. El gradiente es dos coma dos, y todo gradiente de uno coma uno o más indica hipertensión portal. La carcinomatosis tienta como causa de ascitis nueva en un hombre mayor, pero esa da un gradiente bajo, porque el problema está en el peritoneo y no en la presión portal."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.5.025 · Paracentesis",
+      "stem": "Hombre de 60 años con cirrosis y ascitis a tensión refractaria a diuréticos. Se realiza una paracentesis evacuadora, extrayendo 7 litros de líquido ascítico sin incidentes.",
+      "question": "¿Qué medida es fundamental para prevenir la disfunción circulatoria postparacentesis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Administrar furosemida endovenosa en dosis altas"
+        },
+        {
+          "letter": "B",
+          "text": "Administrar albúmina endovenosa, 6 a 8 g por litro extraído"
+        },
+        {
+          "letter": "C",
+          "text": "Administrar 3 litros de suero fisiológico"
+        },
+        {
+          "letter": "D",
+          "text": "Restringir completamente el sodio por 48 horas"
+        },
+        {
+          "letter": "E",
+          "text": "No se requiere ninguna medida adicional"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En paracentesis de más de 5 litros se debe reponer albúmina endovenosa, 6 a 8 g por cada litro extraído, para prevenir la disfunción circulatoria postparacentesis, que se asocia a hiponatremia, insuficiencia renal (síndrome hepatorrenal) y mayor mortalidad. Los cristaloides son menos eficaces como expansores en este contexto.",
+      "say": {
+        "stem": "Hombre de sesenta años con cirrosis y ascitis a tensión que no responde a diuréticos. Se le hace una paracentesis evacuadora de siete litros.",
+        "question": "¿Qué medida es fundamental para prevenir la disfunción circulatoria después del procedimiento?",
+        "options": "Las opciones: furosemida endovenosa en dosis altas, albúmina endovenosa de seis a ocho gramos por litro extraído, tres litros de suero fisiológico, restricción total de sodio, o nada adicional. Piénsalo.",
+        "answer": "Es la B. Cuando sacas más de cinco litros, repones albúmina, seis a ocho gramos por litro, para evitar la disfunción circulatoria y la falla renal. El suero fisiológico tienta porque también expande volumen, pero en el cirrótico es menos eficaz y se va al tercer espacio."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.3.010 · Regímenes dietéticos fundamentales",
+      "stem": "Un hombre de 58 años con cirrosis hepática por alcohol presenta ascitis moderada, sin encefalopatía. Su natremia es 136 mEq/L.",
+      "question": "¿Cuál es el régimen dietético más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Restricción hídrica bajo 500 mL/día"
+        },
+        {
+          "letter": "B",
+          "text": "Restricción proteica estricta, bajo 0,5 g/kg/día"
+        },
+        {
+          "letter": "C",
+          "text": "Régimen hiposódico (unos 2 g de sodio al día) con aporte proteico normal"
+        },
+        {
+          "letter": "D",
+          "text": "Régimen hipersódico para expandir el volumen"
+        },
+        {
+          "letter": "E",
+          "text": "Ayuno hasta resolver la ascitis"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En la ascitis cirrótica el pilar dietético es la restricción de sodio (unos 2 g de sodio, o 5 g de sal, al día) junto a diuréticos. El aporte proteico debe ser normal (1,2-1,5 g/kg/día), porque suelen estar desnutridos; la restricción proteica ya no se recomienda. La restricción hídrica solo se indica con natremia bajo 125 mEq/L.",
+      "say": {
+        "stem": "Un hombre de cincuenta y ocho años con cirrosis alcohólica tiene ascitis moderada, sin encefalopatía y con sodio plasmático normal.",
+        "question": "¿Cuál es el régimen dietético más adecuado?",
+        "options": "Las opciones: restricción hídrica severa, restricción proteica estricta, régimen hiposódico con proteínas normales, régimen hipersódico o ayuno. Piénsalo.",
+        "answer": "Es la C. La base es restringir el sodio, con un aporte de proteínas normal porque suelen estar desnutridos. La restricción proteica tienta por la cirrosis, pero empeora la desnutrición y ya no se recomienda."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.1.022 · Insuficiencia hepática crónica",
+      "stem": "Hombre de 59 años con cirrosis hepática alcohólica, en control en policlínico. Se desea estimar su pronóstico mediante la clasificación de Child-Pugh.",
+      "question": "¿Cuál de los siguientes parámetros NO forma parte de la clasificación de Child-Pugh?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bilirrubina total"
+        },
+        {
+          "letter": "B",
+          "text": "Creatinina plasmática"
+        },
+        {
+          "letter": "C",
+          "text": "Tiempo de protrombina o INR"
+        },
+        {
+          "letter": "D",
+          "text": "Albúmina plasmática"
+        },
+        {
+          "letter": "E",
+          "text": "Presencia y grado de ascitis"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Child-Pugh incluye bilirrubina, albúmina, tiempo de protrombina o INR, ascitis y encefalopatía. La creatinina no forma parte de Child-Pugh: está en el MELD (bilirrubina, INR, creatinina y sodio en el MELD-Na), que se usa para priorizar el trasplante hepático.",
+      "say": {
+        "stem": "Un paciente con cirrosis alcohólica, y quieres calcular su Child-Pugh.",
+        "question": "¿Qué parámetro no forma parte de Child-Pugh?",
+        "options": "Las opciones: bilirrubina, creatinina, protrombina o INR, albúmina o ascitis. Piénsalo.",
+        "answer": "Es la B. La creatinina es del MELD, no de Child-Pugh. Child-Pugh usa bilirrubina, albúmina, protrombina, ascitis y encefalopatía."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.4.011 · Estudio de función hepática",
+      "stem": "Paciente de 45 años con cirrosis hepática conocida presenta una descompensación aguda. Se desea evaluar precozmente la capacidad de síntesis del hígado.",
+      "question": "¿Cuál es el parámetro que refleja más rápidamente los cambios en la función de síntesis hepática?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tiempo de protrombina o INR"
+        },
+        {
+          "letter": "B",
+          "text": "Albúmina plasmática"
+        },
+        {
+          "letter": "C",
+          "text": "Transaminasas (GOT y GPT)"
+        },
+        {
+          "letter": "D",
+          "text": "Fosfatasa alcalina"
+        },
+        {
+          "letter": "E",
+          "text": "GGT"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Los factores de coagulación tienen vida media de horas (el factor VII, cerca de 6 horas), por lo que el tiempo de protrombina o INR refleja precozmente la función de síntesis. La albúmina tiene vida media cercana a 20 días y cambia lentamente. Las transaminasas indican necrosis hepatocelular, y FA y GGT, colestasia.",
+      "say": {
+        "stem": "Un paciente cirrótico se descompensa y quieres evaluar rápido la síntesis hepática.",
+        "question": "¿Qué parámetro cambia más rápido?",
+        "options": "Las opciones: protrombina o INR, albúmina, transaminasas, fosfatasa alcalina o GGT. Piénsalo.",
+        "answer": "Es la A. La protrombina, porque los factores de coagulación duran horas. La albúmina también mide síntesis, pero tarda semanas en bajar."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.5.001 · Paracentesis",
+      "stem": "Hombre de 61 años con cirrosis y ascitis presenta dolor abdominal difuso, fiebre de 38 °C y leve confusión. Se realiza paracentesis diagnóstica.",
+      "question": "¿Qué hallazgo del líquido ascítico confirma peritonitis bacteriana espontánea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Recuento de polimorfonucleares de 250/mm3 o más"
+        },
+        {
+          "letter": "B",
+          "text": "Proteínas mayores de 2,5 g/dL"
+        },
+        {
+          "letter": "C",
+          "text": "Gradiente de albúmina suero-ascitis mayor de 1,1 g/dL"
+        },
+        {
+          "letter": "D",
+          "text": "Glucosa menor de 50 mg/dL con múltiples gérmenes en el Gram"
+        },
+        {
+          "letter": "E",
+          "text": "Recuento de glóbulos rojos mayor de 10.000/mm3"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La PBE se define por 250 o más polimorfonucleares por mm3 en el líquido ascítico, sin foco quirúrgico. Se trata con cefotaxima o ceftriaxona y albúmina. Un GASA mayor de 1,1 indica hipertensión portal, no infección. Glucosa baja con flora polimicrobiana sugiere peritonitis secundaria por perforación, que requiere TAC y cirugía.",
+      "say": {
+        "stem": "Hombre cirrótico con ascitis, fiebre y leve confusión. Le haces una paracentesis.",
+        "question": "¿Qué hallazgo confirma peritonitis bacteriana espontánea?",
+        "options": "Las opciones: polimorfonucleares de doscientos cincuenta o más, proteínas altas, gradiente de albúmina alto, glucosa baja con varios gérmenes o muchos glóbulos rojos. Piénsalo.",
+        "answer": "Es la A. Doscientos cincuenta polimorfonucleares o más. La glucosa baja con varios gérmenes es tentadora, pero apunta a peritonitis secundaria por perforación."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.2.006 · Encefalopatías tóxico metabólicas (urémica, hepática, etc)",
+      "stem": "Hombre de 63 años con cirrosis alcohólica, abstinente, es traído por somnolencia y desorientación de 2 días. Al examen tiene asterixis, sin fiebre ni dolor abdominal, y refiere constipación de 5 días. Glicemia y electrolitos normales. La paracentesis no muestra signos de infección.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flumazenil"
+        },
+        {
+          "letter": "B",
+          "text": "Restricción proteica absoluta"
+        },
+        {
+          "letter": "C",
+          "text": "Benzodiacepinas para la agitación"
+        },
+        {
+          "letter": "D",
+          "text": "Lactulosa oral para lograr 2 a 3 deposiciones blandas al día"
+        },
+        {
+          "letter": "E",
+          "text": "Furosemida endovenosa"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Un compromiso de conciencia con asterixis en un cirrótico es una encefalopatía hepática, aquí precipitada por constipación. Se buscan y corrigen los precipitantes (infección, hemorragia, diuréticos, alteraciones electrolíticas) y se indica lactulosa para lograr 2 a 3 deposiciones blandas al día, agregando rifaximina si recurre. La restricción proteica ya no se recomienda y las benzodiacepinas la empeoran.",
+      "say": {
+        "stem": "Hombre cirrótico, somnoliento y desorientado, con asterixis y cinco días sin evacuar.",
+        "question": "¿Qué tratamiento indicas?",
+        "options": "Las opciones: flumazenil, restricción proteica absoluta, benzodiacepinas, lactulosa o furosemida. Piénsalo.",
+        "answer": "Es la D. Lactulosa hasta lograr dos a tres deposiciones blandas al día. La restricción proteica era la indicación clásica, pero hoy no se recomienda porque empeora la desnutrición."
+      }
     },
 
     {

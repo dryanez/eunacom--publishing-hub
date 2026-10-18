@@ -56,24 +56,11 @@ module.exports = {
         ] },
         { title: "Sedimento urinario activo", tag: "Hematuria glomerular", kind: "alert", items: [
           { t: "Cilindros hemáticos y acantocitos", d: "Cinco o más eritrocitos por campo dismórficos",
-            say: "El hallazgo de sedimento activo con hematuria dismórfica o cilindros hemáticos es una señal de alarma inmediata que exige biopsia urgente, ya que traduce glomerulonefritis proliferativa necrosante en curso." },
+            say: "El hallazgo de sedimento activo con hematuria dismórfica o cilindros hemáticos es una señal de alarma inmediata que exige biopsia urgente, ya que traduce glomerulonefritis proliferativa necrosante en curso. Mira este sedimento: los glóbulos rojos con espículas, los acantocitos, son hematíes dismórficos que vienen del glomérulo.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-09/01_sedimento-hematuria-glomerular__cto-nefro_p33.jpg', label: 'Hematíes dismórficos', at: 'Mira este sedimento', credit: 'Manual CTO Nefrología, p. 33' } },
           { t: "Deterioro inexplicable de función renal", d: "Alza aguda de creatinina sérica",
             say: "Una elevación de creatinina plasmática no atribuible a deshidratación o fármacos nefrotóxicos obliga a realizar la biopsia sin demora para rescatar masa nefronal viable." },
         ] },
-      ],
-    },
-
-    {
-      type: "image",
-      layout: "gallery",
-      kicker: "Así se ve",
-      title: "Sedimento activo: hematuria dismórfica",
-      images: [
-        { src: "biblioteca/08_reumatologia/reuma-09/01_sedimento-hematuria-glomerular__cto-nefro_p33.jpg", label: "Hematíes dismórficos", credit: "Manual CTO Nefrología 14.ª ed., p. 33" },
-      ],
-      steps: [
-        { note: "Glóbulos rojos deformados: origen glomerular",
-          say: "Así se ve un sedimento activo en el microscopio: glóbulos rojos deformados, con el borde irregular. Es la hematuria dismórfica, de origen glomerular, y en un paciente lúpico exige biopsia urgente." },
       ],
     },
 
@@ -198,6 +185,72 @@ module.exports = {
           { t: "Anticoagulación profiláctica con heparina", d: "Ante albúmina sérica menor a 2 g/dL",
             say: "Si la albúmina sérica cae por debajo de dos a dos coma cinco gramos por decilitro en síndrome nefrótico grave, se debe considerar anticoagulación profiláctica para prevenir fenómenos embólicos pulmonares." },
         ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Otros órganos mayores',
+      title: 'Lupus neuropsiquiátrico y hematológico',
+      cards: [
+        { title: 'Neuropsiquiátrico', tag: 'Antes, descartar otras causas', kind: 'alert', items: [
+          { t: 'Convulsiones, psicosis, ACV, mielitis', d: 'Confusión aguda, corea, neuropatía, cefalea',
+            say: 'El lupus neuropsiquiátrico se manifiesta con convulsiones, psicosis, síndrome confusional agudo, accidente cerebrovascular, que se asocia a anticuerpos antifosfolípidos, mielitis transversa, neuropatía periférica, corea o cefalea refractaria.' },
+          { t: 'Excluir infección, uremia y fármacos', d: 'La psicosis por esteroides es frecuente',
+            say: 'Antes de atribuirlo al lupus, hay que excluir infección del sistema nervioso, uremia, hipertensión, alteraciones metabólicas y fármacos: la psicosis esteroidal es frecuente. El estudio incluye resonancia, punción lumbar, electroencefalograma y anticuerpos antifosfolípidos.' },
+        ] },
+        { title: 'Hematológico', tag: 'Tres frentes', kind: 'criteria', items: [
+          { t: 'Anemia hemolítica autoinmune', d: 'Coombs directo positivo, LDH alta, haptoglobina baja',
+            say: 'En lo hematológico, el lupus puede dar anemia hemolítica autoinmune, con Coombs directo positivo, reticulocitos y LDH elevados y haptoglobina baja.' },
+          { t: 'Trombocitopenia inmune', d: 'Plaquetas bajo 30.000 o sangrado: prednisona 1 mg/kg',
+            say: 'La trombocitopenia inmune tiene riesgo hemorrágico con plaquetas bajo treinta mil por milímetro cúbico o con sangrado, y se trata con prednisona un miligramo por kilo al día, a veces con inmunoglobulina endovenosa.' },
+          { t: 'Leucopenia y linfopenia', d: 'Muy frecuentes, rara vez se tratan',
+            say: 'La leucopenia y la linfopenia son muy frecuentes y rara vez requieren tratamiento.' },
+        ] },
+        { title: 'La señal de alarma', tag: 'No confundir', kind: 'key', items: [
+          { t: 'Plaquetas bajas, anemia y esquistocitos', d: 'Descartar PTT y SAF catastrófico',
+            say: 'Y si hay plaquetopenia con anemia y esquistocitos, descarta una microangiopatía trombótica: la púrpura trombocitopénica trombótica o un síndrome antifosfolípido catastrófico.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Otros órganos mayores',
+      title: 'Lupus cardiopulmonar y regla del órgano mayor',
+      cards: [
+        { title: 'Tórax y corazón', tag: 'Lo más frecuente: serositis', kind: 'key', items: [
+          { t: 'Serositis: pleuritis y pericarditis', d: 'Responde a AINEs o prednisona moderada',
+            say: 'La serositis, es decir la pleuritis y la pericarditis, es la manifestación torácica más frecuente y responde a antiinflamatorios o a prednisona en dosis moderadas. El derrame pleural es un exudado con glucosa normal o baja.' },
+          { t: 'Hemorragia alveolar y neumonitis', d: 'Hemoptisis, anemia, infiltrados bilaterales',
+            say: 'Son graves la neumonitis lúpica aguda y la hemorragia alveolar difusa, con hemoptisis, anemia e infiltrados bilaterales: una emergencia de alta mortalidad.' },
+          { t: 'Libman-Sacks y ateroesclerosis', d: 'Endocarditis verrucosa, ligada al SAF',
+            say: 'Además están la hipertensión pulmonar, la miocarditis y la endocarditis verrucosa de Libman y Sacks, asociada al síndrome antifosfolípido. El lupus también acelera la ateroesclerosis, y en el abdomen puede dar vasculitis mesentérica o peritonitis.' },
+        ] },
+        { title: 'Regla del órgano mayor', tag: 'Hospitalizar', kind: 'alert', items: [
+          { t: 'Pulsos de metilprednisolona', d: '500 a 1.000 mg al día por 3 días',
+            say: 'La regla general: si se compromete un órgano mayor, como riñón, sistema nervioso, hemólisis grave, trombocitopenia grave o hemorragia alveolar, se hospitaliza y se indican pulsos de metilprednisolona, quinientos a mil miligramos al día por tres días.' },
+          { t: 'Luego prednisona e inmunosupresor', d: 'Ciclofosfamida, micofenolato o rituximab',
+            say: 'Después viene prednisona más un inmunosupresor, que puede ser ciclofosfamida, micofenolato o rituximab según el órgano, y se mantiene siempre la hidroxicloroquina.' },
+        ] },
+        { title: 'Compromiso leve', tag: 'Piel y articulaciones', kind: 'normal', items: [
+          { t: 'Hidroxicloroquina y fotoprotección', d: 'Prednisona en dosis bajas',
+            say: 'En cambio, en el compromiso leve de piel y articulaciones bastan hidroxicloroquina, fotoprotección y prednisona en dosis bajas.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dónde se depositan',
+      images: [
+        { src: 'animaciones/reuma-09/A1_depositos_glomerulo.mp4', label: 'Inmunocomplejos en el glomérulo', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Glomérulo con depósitos',
+          say: 'Acerquémonos al glomérulo. Cuando los inmunocomplejos se depositan por dentro de la pared capilar, en posición subendotelial, el complemento se activa y las células proliferan: son las clases tres y cuatro, con síndrome nefrítico, hematuria, hipertensión y alza de creatinina. Cuando se depositan por fuera, en posición subepitelial, la membrana se engruesa sin proliferar: es la clase cinco, membranosa, con síndrome nefrótico y riesgo de trombosis. Por eso se hace biopsia ante proteinuria o sedimento activo.' },
       ],
     },
 
@@ -334,6 +387,44 @@ module.exports = {
         options: "Las opciones: suspender todo de inmediato, mantener micofenolato o azatioprina por un mínimo de tres a cinco años, pulsos de ciclofosfamida de por vida, prednisona alta permanente sola, o biopsias renales mensuales. Piénsalo.",
         answer: "La respuesta correcta es la B. La fase de mantenimiento en nefritis lúpica debe prolongarse al menos tres a cinco años con micofenolato o azatioprina. Suspender antes el tratamiento provoca recaídas inflamatorias graves que conllevan fibrosis y diálisis.",
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 28",
+      "stem": "Una mujer de 30 años presenta un cuadro de malestar general y artralgias de varias semanas de evolución, asociado a febrícula ocasional. Al examen físico se aprecia rash facial, úlceras orales, alopecia difusa y artritis de varias articulaciones interfalángicas y metacarpofalángicas de ambas manos. En sus exámenes destaca hematocrito 30%, hemoglobina 10 g/dl, leucocitos 4.000 por mm3 con 15% de linfocitos, ANA positivo en dilución 1:640, anti-DNA de doble hebra positivo en dilución 1:160, C3 60 mg/dl, C4 11 mg/dl, factor reumatoide 65 U/ml y anti-CCP negativo.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Artritis reumatoide"
+        },
+        {
+          "letter": "B",
+          "text": "Púrpura trombocitopénico trombótico"
+        },
+        {
+          "letter": "C",
+          "text": "Lupus eritematoso sistémico"
+        },
+        {
+          "letter": "D",
+          "text": "Vasculitis"
+        },
+        {
+          "letter": "E",
+          "text": "Dermatomiositis"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Rash malar, úlceras orales, alopecia, artritis no erosiva de manos, anemia, leucopenia con linfopenia, ANA y anti-DNA positivos e hipocomplementemia: lupus eritematoso sistémico. El factor reumatoide puede ser positivo en el lupus; el anti-CCP negativo aleja la artritis reumatoide.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Mujer de treinta años con semanas de malestar, artralgias y febrícula. Tiene rash facial, úlceras orales, alopecia difusa y artritis de las manos. Los exámenes muestran anemia, leucopenia con linfopenia, anticuerpos antinucleares y anti-DNA positivos, complemento bajo, factor reumatoide positivo y anti-CCP negativo.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: artritis reumatoide, púrpura trombocitopénico trombótico, lupus eritematoso sistémico, vasculitis, o dermatomiositis. Piénsalo.",
+        "answer": "Es la C. Úlceras orales, rash malar, alopecia, citopenias, anti-DNA positivo y complemento bajo son lupus sistémico. La artritis reumatoide tienta por el factor reumatoide, pero este también sale positivo en el lupus, y el anti-CCP negativo la aleja."
+      }
     },
 
     {

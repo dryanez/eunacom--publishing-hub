@@ -1,0 +1,291 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// Pediatría, clases nuevas (ped-23 a ped-28). Anatomía sobre ilustración real (Blausen) o gráficos solo código.
+// ?v=civ        ped-23  comunicación interventricular: cortocircuito y caída de la resistencia pulmonar (Blausen, corazón)
+// ?v=rcp        ped-24  paro pediátrico: ritmo desfibrilable o no, y el ciclo de dos minutos (gráfico)
+// ?v=hemograma  ped-25  cruce de neutrófilos y linfocitos según la edad (gráfico)
+// ?v=down       ped-26  cariotipo del síndrome de Down: tres tipos y riesgo de recurrencia (gráfico)
+// ?v=enuresis   ped-27  enuresis: vejiga, ADH nocturna y alarma (Blausen, sistema urinario del niño)
+// ?v=maltrato   ped-28  maltrato: lesión que no calza con la historia (gráfico)
+const V = new URLSearchParams(location.search).get('v') || 'civ';
+const DUR = { civ: 30, rcp: 30, hemograma: 28, down: 28, enuresis: 30, maltrato: 28 };
+window.SCENE = { duration: DUR[V] || 28, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const G = GRAPH(L), K = KIT(L), { seg, fade } = K;
+const I = k => window.IMGS[k];
+const A = (a, f) => { if (a <= 0) return; ctx.save(); ctx.globalAlpha *= a; f(); ctx.restore(); };
+
+function chip(x, y, w, h, col, s, a = 1, size = 17, fill = 0.16) {
+  A(a, () => {
+    ctx.save(); ctx.globalAlpha *= fill; ctx.fillStyle = col; ctx.beginPath(); ctx.roundRect(x, y, w, h, 10); ctx.fill(); ctx.restore();
+    ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.roundRect(x, y, w, h, 10); ctx.stroke();
+    const ls = Array.isArray(s) ? s : [s], lh = size + 5, y0 = y + h / 2 - ((ls.length - 1) * lh) / 2 + size * 0.36;
+    ls.forEach((l, i) => text(l, x + w / 2, y0 + i * lh, size, C.INK, i === 0 ? 'bold' : '', 'center'));
+  });
+}
+function line(x0, y0, x1, y1, col, a = 1, w = 2, dash) {
+  A(a, () => { ctx.strokeStyle = col; ctx.lineWidth = w; if (dash) ctx.setLineDash(dash); ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1, y1); ctx.stroke(); });
+}
+function dot(x, y, r, col, a = 1) { A(a, () => { ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); }); }
+function arrow(x0, y0, x1, y1, col, a = 1, w = 4) {
+  A(a, () => { const an = Math.atan2(y1 - y0, x1 - x0); ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = w; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1 - Math.cos(an) * 8, y1 - Math.sin(an) * 8); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x1 - 16 * Math.cos(an - 0.4), y1 - 16 * Math.sin(an - 0.4)); ctx.lineTo(x1 - 16 * Math.cos(an + 0.4), y1 - 16 * Math.sin(an + 0.4)); ctx.fill(); });
+}
+function label(s, x, y, col, tx, ty, a, size = 16) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha *= a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill(); tag(s, x, y, col, size); ctx.restore();
+}
+function plate(x, y, w, h, a = 1) { A(a, () => rrect(x - 6, y - 6, w + 12, h + 12, 18, '#FFFFFF')); }
+const credGraf = () => text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right');
+const credBl = () => K.credit('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios');
+const hex = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+function lerp2(a, b, k) { const pa = hex(a), pb = hex(b); return `rgb(${Math.round(lerp(pa[0], pb[0], k))},${Math.round(lerp(pa[1], pb[1], k))},${Math.round(lerp(pa[2], pb[2], k))})`; }
+
+// ---------- ped-23: comunicación interventricular sobre Blausen (corazón, flujo normal) ----------
+const CS = { w: 490, h: 685 }, CD = { x: 60, y: 126 }, CK = 0.74;
+const cp = (x, y) => [CD.x + x * CK, CD.y + y * CK];
+const CIV_PATH = [[392, 468], [352, 470], [318, 470], [284, 462], [250, 440], [236, 395], [262, 330], [318, 262], [372, 212], [430, 198]];
+function civ(t) {
+  K.title('Comunicación interventricular', 'La sangre pasa de izquierda a derecha y, cuando cae la resistencia pulmonar, el pulmón se inunda', C.RED);
+  const w = CS.w * CK, h = CS.h * CK;
+  plate(CD.x, CD.y, w, h, seg(t, 0, 0.6));
+  A(seg(t, 0, 0.6), () => { ctx.save(); ctx.beginPath(); ctx.roundRect(CD.x, CD.y, w, h, 12); ctx.clip(); ctx.drawImage(I('heart'), 0, 0, CS.w, CS.h, CD.x, CD.y, w, h); ctx.restore(); });
+  label('Ventrículo derecho', 150, 618, C.BLUE, ...cp(190, 520), fade(t, 1.2, 99));
+  label('Ventrículo izquierdo', 330, 618, C.RED, ...cp(400, 520), fade(t, 1.7, 99));
+  label('Arteria pulmonar', 300, 160, C.BLUE, ...cp(365, 210), fade(t, 2.2, 99));
+  // el defecto en el tabique
+  const [dx, dy] = cp(318, 470);
+  const pulse = 0.5 + 0.5 * Math.sin(t * 5);
+  A(seg(t, 3, 0.6), () => { ctx.strokeStyle = C.AMBER; ctx.lineWidth = 4; ctx.beginPath(); ctx.arc(dx, dy, 13 + 4 * pulse, 0, 7); ctx.stroke(); });
+  A(seg(t, 3.4, 0.6), () => tag('CIV', dx + 78, dy + 52, C.AMBER, 17));
+  // flujo por el defecto: crece cuando cae la resistencia pulmonar
+  const res = G.smooth([[0, 1], [10, 1], [30, 0.25]]);
+  const T0 = 12, T1 = 22;
+  const rk = ease(seg(t, T0, T1 - T0));                                 // 0 = recién nacido, 1 = 6 semanas
+  const flow = lerp(0.16, 1, rk);
+  const P = L.poly(CIV_PATH.map(p => cp(...p)));
+  A(seg(t, 5, 0.6), () => {
+    for (let i = 0; i < 18; i++) {
+      if (i / 18 > flow) continue;
+      const u = (t * 0.2 + i / 18) % 1, [x, y] = P.at(u);
+      const late = u > 0.62;
+      ctx.fillStyle = late ? '#9A6BFF' : '#FF5A4E'; ctx.beginPath(); ctx.arc(x, y, 5.5, 0, 7); ctx.fill();
+    }
+  });
+  A(seg(t, 5, 0.5) * (1 - seg(t, 10.5, 0.5)), () => tag('Presión del VI mayor: la sangre pasa a la derecha', 830, 300, C.AMBER, 17));
+  A(seg(t, 5.5, 0.5) * (1 - seg(t, 10.5, 0.5)), () => tag('Al nacer, la resistencia pulmonar es alta: pasa poco', 830, 350, C.GREEN, 17));
+  // el pulmón se congestiona
+  A(seg(t, 18, 1.5) * (1 - seg(t, 27, 1)), () => K.glow(...cp(420, 205), 70 * (0.7 + 0.3 * pulse), '154,107,255', 0.5));
+  A(seg(t, 19, 0.5), () => tag('Hiperflujo pulmonar', ...cp(405, 150), '#9A6BFF', 15));
+  // gráfico de resistencia y flujo
+  const ax = G.axes({ x: 590, y: 240, w: 590, h: 200 }, [0, 10], [0, 1], { xt: [[0, 'Nace'], [2, '2'], [4, '4'], [6, '6'], [8, '8'], [10, '10']], xl: 'Semanas de vida', yl: 'Valor relativo' });
+  ax.draw(seg(t, 10.5, 0.6));
+  const fres = G.smooth([[0, 1], [1, 0.95], [3, 0.75], [5, 0.45], [7, 0.3], [10, 0.22]]);
+  const fflow = x => 1 - fres(x) * 0.88 + 0.06 - 0.06;
+  const kc = ease(seg(t, 11, 11));
+  const p1 = G.curve(ax, fres, kc, C.BLUE, 5, 0, 10); if (kc > 0 && kc < 1) G.head(p1, C.BLUE);
+  const p2 = G.curve(ax, fflow, kc, C.RED, 5, 0, 10); if (kc > 0 && kc < 1) G.head(p2, C.RED);
+  A(seg(t, 11, 0.5), () => { text('Resistencia vascular pulmonar', 590, 160, 18, C.BLUE, 'bold'); text('Cortocircuito izquierda-derecha', 590, 188, 18, C.RED, 'bold'); });
+  G.vline(ax, 6, C.AMBER, '4 a 8 semanas', seg(t, 21, 0.6));
+  K.card(590, 490, 600, 140, C.RED, 'Cuando el flujo pulmonar se multiplica', ['Cansancio y sudor al mamar, taquipnea', 'Hepatomegalia, galope, mal incremento', 'Radiografía: cardiomegalia y plétora'], seg(t, 22.5, 0.5), 17);
+  K.banner(110, 655, 1060, 'No es bronquiolitis: furosemida, alimentación fraccionada y ecocardiograma', C.RED, seg(t, 27, 0.5));
+  credBl();
+}
+
+// ---------- ped-24: ciclos de reanimación (gráfico solo código) ----------
+function rcp(t) {
+  K.title('Reanimación: ciclos de dos minutos', 'Se comprime sin parar y se revisa el ritmo al terminar cada ciclo', C.RED);
+  const X0 = 340, X1 = 1200, X = m => X0 + (X1 - X0) * m / 8;
+  const play = ease(seg(t, 3, 17)) * 8;                                   // minutos transcurridos (0 a 8)
+  // metrónomo de compresiones
+  const beat = 0.5 + 0.5 * Math.cos(t * Math.PI * 2 * 1.83);
+  A(seg(t, 0.5, 0.5), () => { dot(1160, 62, 12 + 9 * beat, C.RED, 0.9); text('Compresiones 100-120 por minuto', 1160, 112, 15, C.MUTED, '', 'center'); });
+  // eje de tiempo y bloques de 2 minutos
+  A(seg(t, 0.5, 0.6), () => {
+    for (let k = 0; k < 4; k++) { ctx.fillStyle = 'rgba(79,163,255,0.16)'; ctx.fillRect(X(2 * k) + 3, 180, X(2 * k + 2) - X(2 * k) - 6, 56);
+      ctx.strokeStyle = C.BLUE; ctx.lineWidth = 2; ctx.strokeRect(X(2 * k) + 3, 180, X(2 * k + 2) - X(2 * k) - 6, 56);
+      text('RCP 2 min', (X(2 * k) + X(2 * k + 2)) / 2, 214, 19, C.INK, 'bold', 'center');
+      text(`${2 * k} min`, X(2 * k), 170, 15, C.MUTED, '', 'center'); }
+    text('8 min', X(8), 170, 15, C.MUTED, '', 'center'); });
+  // carriles
+  const lanes = [
+    { y: 290, h: 130, col: C.AMBER, title: 'Ritmo no desfibrilable', sub: 'Asistolia o AESP · 85 a 90%', ev: [[0, 'Adrenalina', '0,01 mg/kg'], [4, 'Adrenalina', 'cada 3-5 min']] },
+    { y: 440, h: 130, col: C.RED, title: 'Ritmo desfibrilable', sub: 'FV o TV sin pulso · 5 a 15%', ev: [[0, 'Descarga', '2 J/kg'], [2, 'Descarga', '4 J/kg'], [4, 'Descarga + amiodarona', '5 mg/kg']] },
+  ];
+  lanes.forEach((ln, li) => {
+    const ka = seg(t, 1.5 + li * 0.5, 0.5);
+    A(ka, () => { rrect(30, ln.y, 1220, ln.h, 14, '#161B22'); ctx.fillStyle = ln.col; ctx.fillRect(30, ln.y, 6, ln.h);
+      text(ln.title, 52, ln.y + 36, 21, ln.col, 'bold'); text(ln.sub, 52, ln.y + 62, 15, C.MUTED); });
+    ln.ev.forEach(([m, a, b]) => {
+      const k = seg(play - m, 0, 0.12), cw = m === 4 && li === 1 ? 255 : 196, cx = X(m) + 6;
+      chip(cx, ln.y + 30, cw, 80, ln.col, [a, b], ka * k, 18, 0.22);
+      if (k > 0) A(ka * k, () => { ctx.fillStyle = ln.col; ctx.beginPath(); ctx.arc(X(m), ln.y + 16, 7, 0, 7); ctx.fill(); });
+    });
+  });
+  // cabezal
+  A(seg(t, 3, 0.5) * (play < 8 ? 1 : 0.5), () => { line(X(play), 176, X(play), 574, '#FFFFFF', 0.8, 3); });
+  A(fade(t, 3.5, 21, 0.5), () => tag('Pausas de menos de 10 segundos', X(1), 604, C.BLUE, 15));
+  A(seg(t, 24, 0.5), () => K.banner(110, 612, 1060, 'Mientras comprimes: busca la causa reversible (hipoxia, hipovolemia, hipoglicemia)', C.GREEN, 1));
+  credGraf();
+}
+
+// ---------- ped-25: cruce de la fórmula leucocitaria (gráfico solo código) ----------
+function hemograma(t) {
+  K.title('Hemograma del niño: la fórmula cambia con la edad', 'Esquema con valores aproximados: porcentaje de linfocitos y de neutrófilos', C.BLUE);
+  const ax = G.axes({ x: 110, y: 175, w: 640, h: 360 }, [0, 9], [0, 80], {
+    xt: [[0, 'Nace'], [1, '1 sem'], [2, '1 mes'], [3, '6 m'], [4, '1 año'], [5, '2 años'], [6, '4 años'], [7, '6 años'], [8, '10 años'], [9, '15 años']],
+    yt: [[20, '20%'], [40, '40%'], [60, '60%'], [80, '80%']], yl: 'Porcentaje de los leucocitos' });
+  ax.draw(seg(t, 0.8, 0.6));
+  const fl = G.smooth([[0, 30], [0.7, 46], [1, 52], [2, 60], [3, 62], [4, 60], [5, 57], [6, 46], [7, 38], [8, 34], [9, 31]]);
+  const fn = G.smooth([[0, 60], [0.7, 46], [1, 38], [2, 30], [3, 30], [4, 32], [5, 35], [6, 45], [7, 54], [8, 58], [9, 60]]);
+  // franja: los linfocitos dominan entre los dos cruces
+  A(seg(t, 14, 0.8), () => { ctx.fillStyle = 'rgba(79,163,255,0.12)'; ctx.fillRect(ax.X(0.7), ax.box.y, ax.X(6.02) - ax.X(0.7), ax.box.h); });
+  const k = ease(seg(t, 3, 9));
+  const p1 = G.curve(ax, fl, k, C.BLUE, 5, 0, 9), p2 = G.curve(ax, fn, k, C.AMBER, 5, 0, 9);
+  if (k > 0 && k < 1) { G.head(p1, C.BLUE); G.head(p2, C.AMBER); }
+  A(seg(t, 3.6, 0.5), () => { text('Linfocitos', ax.X(0.05) + 4, ax.Y(30) + 34, 18, C.BLUE, 'bold'); });
+  A(seg(t, 3.6, 0.5), () => { text('Neutrófilos', ax.X(0.05) + 4, ax.Y(60) - 14, 18, C.AMBER, 'bold'); });
+  // cruces
+  const xe = k * 9;
+  const c1 = [0.68, 45], c2 = [6.03, 45.5];
+  if (xe > c1[0]) { A(seg(t, 3 + (c1[0] / 9) * 9, 0.4) , () => { dot(ax.X(c1[0]), ax.Y(c1[1]), 9, '#fff'); tag('1.er cruce: 5 a 7 días', ax.X(c1[0]) + 100, ax.Y(c1[1]) + 66, C.GREEN, 16); }); }
+  if (xe > c2[0]) { A(seg(t, 3 + (c2[0] / 9) * 9, 0.4) , () => { dot(ax.X(c2[0]), ax.Y(c2[1]), 9, '#fff'); tag('2.º cruce: 4 a 6 años', ax.X(c2[0]) - 20, ax.Y(c2[1]) - 74, C.GREEN, 16); }); }
+  A(fade(t, 15.5, 22, 0.5), () => { dot(ax.X(3.4), ax.Y(fl(3.4)), 9, '#fff'); tag('Lactante con 60% de linfocitos: normal', ax.X(3.4), ax.Y(fl(3.4)) - 54, C.BLUE, 17); });
+  // hemoglobina
+  K.card(800, 175, 440, 190, C.RED, 'Hemoglobina: el corte cambia', ['Nadir fisiológico a los 2-3 meses: 10-11', '6 meses a 5 años: anemia si < 11 g/dL', '5 a 11 años: < 11,5 · adolescente: < 12'], seg(t, 17, 0.5), 17);
+  K.card(800, 385, 440, 150, C.GREEN, 'Un lactante con mayoría de linfocitos', ['No es leucemia ni infección viral', 'Mira el recuento absoluto y el frotis'], seg(t, 20.5, 0.5), 17);
+  K.banner(110, 600, 1130, 'Blastos, pancitopenia o dolor óseo: ahí sí, hematología urgente', C.RED, seg(t, 24, 0.5));
+  credGraf();
+}
+
+// ---------- ped-26: tres formas de síndrome de Down (gráfico solo código) ----------
+// cromosoma acrocéntrico: cápsula con un estrechamiento (centrómero) cerca de un extremo
+function chrom(x, y, len, col, a = 1, w = 16, ang = 0) {
+  A(a, () => { ctx.save(); ctx.translate(x, y); ctx.rotate(ang); ctx.fillStyle = col;
+    ctx.beginPath(); ctx.roundRect(-w / 2, 0, w, len, w / 2); ctx.fill();
+    ctx.fillStyle = C.BG; ctx.fillRect(-w / 2 - 1, len * 0.22, w + 2, 4); ctx.restore(); });
+}
+function down(t) {
+  K.title('Síndrome de Down: tres formas, un solo fenotipo', 'Todas tienen material extra del cromosoma 21; no todas se heredan igual', C.GREEN);
+  const cols = [
+    { x: 40, col: C.GREEN, title: 'Trisomía 21 libre', pct: 95, sub: 'No disyunción meiótica', k0: 2.0 },
+    { x: 450, col: C.AMBER, title: 'Translocación robertsoniana', pct: 3.5, sub: 'Habitualmente 14;21', k0: 7.0 },
+    { x: 860, col: C.BLUE, title: 'Mosaicismo', pct: 1.5, sub: 'Células con y sin trisomía', k0: 12.0 },
+  ];
+  cols.forEach((c, i) => {
+    const ka = seg(t, c.k0, 0.6);
+    A(ka, () => { rrect(c.x, 135, 380, 400, 16, '#161B22'); ctx.fillStyle = c.col; ctx.fillRect(c.x, 135, 380, 6);
+      text(c.title, c.x + 190, 178, 21, c.col, 'bold', 'center'); text(c.sub, c.x + 190, 204, 15, C.MUTED, '', 'center');
+      const v = c.pct * ease(seg(t, c.k0 + 0.3, 1.4)); text(`${i === 0 ? Math.round(v) : v.toFixed(1).replace('.', ',')}%`, c.x + 190, 268, 54, C.INK, 'bold', 'center'); });
+  });
+  // 1) trisomía libre: tres cromosomas 21 sueltos
+  [0, 1, 2].forEach(j => { const k = seg(t, 3.6 + j * 0.5, 0.5); chrom(cols[0].x + 100 + j * 90, 300 + (1 - ease(k)) * -20, 90, j === 2 ? C.RED : C.GREEN, k, 22); });
+  A(seg(t, 5.2, 0.5), () => { text('47 cromosomas', cols[0].x + 190, 438, 18, C.INK, 'bold', 'center'); text('Tres copias del 21', cols[0].x + 190, 464, 16, C.MUTED, '', 'center');
+    text('Riesgo con la edad materna: 1/350 a los 35, 1/100 a los 40', cols[0].x + 190, 510, 14, C.MUTED, '', 'center'); });
+  // 2) translocación: 14 y 21 unidos + un 21 libre + un 21 libre
+  const k2 = seg(t, 8.6, 0.6);
+  chrom(cols[1].x + 80, 300, 110, C.BLUE, k2, 22);
+  chrom(cols[1].x + 80, 410, 60, C.RED, k2, 22, Math.PI);       // 21 unido al 14 por el centrómero (formando una sola barra)
+  chrom(cols[1].x + 210, 300, 90, C.GREEN, seg(t, 9.1, 0.5), 22);
+  chrom(cols[1].x + 300, 300, 90, C.GREEN, seg(t, 9.4, 0.5), 22);
+  A(seg(t, 10, 0.5), () => { text('14 + 21 fusionados', cols[1].x + 80, 288, 14, C.MUTED, '', 'center'); text('Material extra del 21', cols[1].x + 190, 464, 16, C.INK, 'bold', 'center'); });
+  A(seg(t, 18, 0.6), () => { rrect(cols[1].x + 14, 478, 352, 46, 10, '#1B2230'); ctx.strokeStyle = C.AMBER; ctx.lineWidth = 2; ctx.beginPath(); ctx.roundRect(cols[1].x + 14, 478, 352, 46, 10); ctx.stroke();
+    text('Puede venir de un padre portador', cols[1].x + 190, 507, 17, C.INK, 'bold', 'center'); });
+  // 3) mosaico: células con 2 o con 3 cromosomas 21
+  for (let r = 0; r < 2; r++) for (let q = 0; q < 4; q++) {
+    const idx = r * 4 + q, kk = seg(t, 13 + idx * 0.18, 0.4), cx = cols[2].x + 70 + q * 80, cy = 330 + r * 90, tri = [0, 3, 5].includes(idx);
+    A(kk, () => { ctx.strokeStyle = '#5C6675'; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(cx, cy, 30, 0, 7); ctx.stroke();
+      [-9, 0, 9].forEach((dx, m) => { if (m < (tri ? 3 : 2)) { ctx.fillStyle = tri && m === 2 ? C.RED : C.GREEN; ctx.beginPath(); ctx.roundRect(cx + dx - (tri ? 4 : 6) + (tri ? 0 : 6), cy - 13, 7, 26, 3); ctx.fill(); } }); });
+  }
+  A(seg(t, 15, 0.5), () => { text('Fenotipo más leve, según la proporción', cols[2].x + 190, 510, 15, C.MUTED, '', 'center'); });
+  // recurrencia
+  A(seg(t, 20, 0.6), () => { K.card(450, 550, 380, 90, C.AMBER, 'Si el portador es', ['La madre: 10-15%  ·  El padre: 2-5%'], 1, 18); });
+  A(seg(t, 20, 0.6), () => { K.card(40, 550, 380, 90, C.GREEN, 'Trisomía libre', ['Recurrencia: alrededor de 1%'], 1, 18); });
+  K.banner(110, 656, 1060, 'Ante una translocación: cariograma de ambos padres y consejo genético', C.AMBER, seg(t, 24, 0.5));
+  credGraf();
+}
+
+// ---------- ped-27: enuresis sobre Blausen (sistema urinario del niño) ----------
+const ES = { x: 470, y: 600, w: 640, h: 680 }, ED = { x: 40, y: 126 }, EK = 0.72;
+const ep = (x, y) => [ED.x + (x - ES.x) * EK, ED.y + (y - ES.y) * EK];
+const E_UL = [[655, 810], [668, 880], [664, 960], [670, 1040], [690, 1100], [712, 1128]];
+const E_UR = [[818, 770], [812, 850], [815, 940], [820, 1030], [818, 1090], [800, 1122]];
+function enuresis(t) {
+  K.title('Enuresis: lo que pasa durante la noche', 'Más orina, una vejiga pequeña y un sueño que no avisa', C.BLUE);
+  const w = ES.w * EK, h = ES.h * EK;
+  plate(ED.x, ED.y, w, h, seg(t, 0, 0.6));
+  A(seg(t, 0, 0.6), () => { ctx.save(); ctx.beginPath(); ctx.roundRect(ED.x, ED.y, w, h, 12); ctx.clip(); ctx.drawImage(I('uri'), ES.x, ES.y, ES.w, ES.h, ED.x, ED.y, w, h); ctx.restore(); });
+  const PL = L.poly(E_UL.map(p => ep(...p))), PR = L.poly(E_UR.map(p => ep(...p)));
+  label('Riñón', 440, 168, C.RED, ...ep(880, 735), fade(t, 1, 99));
+  label('Uréter', 450, 320, C.AMBER, ...ep(820, 960), fade(t, 1.6, 99));
+  label('Vejiga', 440, 500, C.BLUE, ...ep(815, 1128), fade(t, 2.2, 99));
+  // fases: 3-10 niño sin enuresis; 10-21 enuresis
+  const normal = t >= 3 && t < 10, enur = t >= 10 && t < 22.5;
+  const level = normal ? 0.08 + 0.30 * seg(t, 3, 6.5) : enur ? 0.08 + 0.92 * ease(seg(t, 10.5, 9)) : (t >= 22.5 ? 0.08 + 0.92 * (1 - ease(seg(t, 21.2, 1.4))) * 0 : 0);
+  const lvl = t < 10 ? level : t < 20 ? level : (1 - ease(seg(t, 20.5, 1.5))) * 0.92 + 0.08 * ease(seg(t, 20.5, 1.5));
+  // gotas por los uréteres
+  const nd = enur ? 9 : 3, spd = enur ? 0.32 : 0.12;
+  A(seg(t, 3, 0.5) * (t < 21 ? 1 : 0), () => { [PL, PR].forEach((pp_, j) => { for (let i = 0; i < nd; i++) { const u = (t * spd + i / nd + j * 0.13) % 1, [x, y] = pp_.at(u);
+    ctx.fillStyle = `rgba(255,214,60,${0.95 * Math.min(1, u * 8, (1 - u) * 8)})`; ctx.beginPath(); ctx.arc(x, y, 4.5, 0, 7); ctx.fill(); } }); });
+  // llenado de la vejiga (anotación sobre la ilustración)
+  const [bx, by] = ep(760, 1113), brx = 64 * EK, bry = 38 * EK;
+  A(seg(t, 3, 0.5), () => { ctx.save(); ctx.beginPath(); ctx.ellipse(bx, by, brx, bry, 0, 0, 7); ctx.clip();
+    ctx.fillStyle = 'rgba(255,214,60,0.62)'; const top = by + bry - 2 * bry * clamp(lvl, 0, 1); ctx.fillRect(bx - brx, top, 2 * brx, by + bry - top); ctx.restore();
+    ctx.strokeStyle = 'rgba(255,255,255,0.9)'; ctx.setLineDash([5, 4]); ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(bx - brx - 8, by - bry + 3); ctx.lineTo(bx + brx + 8, by - bry + 3); ctx.stroke(); ctx.setLineDash([]); });
+  A(seg(t, 3.2, 0.5), () => text('Capacidad', bx - brx - 14, by - bry + 8, 13, '#FFFFFF', '', 'right'));
+  // rótulos de fase
+  A(fade(t, 3, 9.5, 0.4), () => tag('Con vasopresina de noche: poca orina', 250, 640, C.GREEN, 17));
+  A(fade(t, 10.2, 20, 0.4), () => tag('Poca vasopresina: poliuria nocturna', 250, 640, C.RED, 17));
+  A(fade(t, 17.5, 20.3, 0.3), () => tag('Sueño profundo: no despierta', 250, 600, C.VIOLET, 17));
+  A(fade(t, 20.8, 22.5, 0.3), () => tag('Se vacía: moja la cama', 250, 600, C.RED, 17));
+  // paneles de la derecha
+  A(fade(t, 3.2, 9.6, 0.4), () => K.card(540, 150, 700, 150, C.GREEN, 'Niño sin enuresis', ['Vasopresina nocturna alta: orina poco de noche', 'La vejiga tiene capacidad suficiente', 'Despierta o inhibe la micción'], 1, 18));
+  A(seg(t, 10.2, 0.5), () => K.card(540, 150, 700, 150, C.RED, 'Enuresis: tres mecanismos', ['Poliuria nocturna (menos vasopresina)', 'Vejiga hiperactiva o de baja capacidad', 'Sueño muy profundo que no avisa'], 1, 18));
+  A(seg(t, 22.5, 0.5), () => K.card(540, 330, 700, 170, C.AMBER, 'Manejo escalonado', ['1. Desculpabilizar, sin castigos · 2. Medidas conductuales', '3. Alarma de enuresis desde los 7 años: ~70% a largo plazo', '4. Desmopresina si falla o para situaciones puntuales'], 1, 18));
+  K.banner(110, 650, 1060, 'Enuresis monosintomática con examen y orina normales: sin imágenes', C.BLUE, seg(t, 26.5, 0.5));
+  credBl();
+}
+
+// ---------- ped-28: las ventanas de tiempo en el maltrato (gráfico solo código) ----------
+function maltrato(t) {
+  K.title('Maltrato infantil: qué se hace y en qué plazo', 'Las ventanas de tiempo que se preguntan, en horas desde que se conoce el hecho', C.RED);
+  const X0 = 400, X1 = 1220, X = h => X0 + (X1 - X0) * h / 120;
+  const play = ease(seg(t, 3, 18)) * 120;
+  A(seg(t, 0.5, 0.6), () => { line(X0, 190, X1, 190, '#3A424E', 1, 3);
+    [0, 24, 48, 72, 96, 120].forEach(h => { line(X(h), 184, X(h), 196, '#3A424E', 1, 2); text(`${h} h`, X(h), 172, 16, C.MUTED, '', 'center'); }); });
+  const lanes = [
+    { y: 220, col: C.AMBER, title: 'Denuncia obligatoria', sub: 'Art. 175 del Código Procesal Penal', lim: 24, end: 'Dentro de 24 horas' },
+    { y: 330, col: C.RED, title: 'Profilaxis post-exposición de VIH', sub: 'Abuso sexual agudo', lim: 72, end: 'Hasta 72 horas' },
+    { y: 440, col: C.BLUE, title: 'Anticoncepción de emergencia', sub: 'Abuso sexual agudo', lim: 120, end: 'Hasta 120 horas' },
+  ];
+  lanes.forEach((ln, i) => {
+    const ka = seg(t, 1.5 + i * 0.6, 0.5);
+    A(ka, () => { rrect(30, ln.y, 1220, 90, 14, '#161B22'); ctx.fillStyle = ln.col; ctx.fillRect(30, ln.y, 6, 90);
+      text(ln.title, 52, ln.y + 38, 21, ln.col, 'bold'); text(ln.sub, 52, ln.y + 66, 15, C.MUTED); });
+    const w = Math.min(play, ln.lim);
+    A(ka, () => { ctx.fillStyle = ln.col; ctx.globalAlpha *= 0.85; ctx.beginPath(); ctx.roundRect(X(0), ln.y + 28, X(w) - X(0), 34, 8); ctx.fill(); });
+    A(seg(play - ln.lim + 4, 0, 4) * ka, () => { dot(X(ln.lim), ln.y + 45, 9, '#FFFFFF'); tag(ln.end, Math.min(X(ln.lim) - 10, 1120), ln.y + 12, ln.col, 15); });
+  });
+  A(seg(t, 3, 0.5) * (play < 120 ? 1 : 0.4), () => line(X(play), 190, X(play), 540, '#FFFFFF', 0.7, 3));
+  // sospecha y protección inmediata
+  A(seg(t, 22, 0.6), () => { rrect(30, 556, 1220, 70, 14, '#161B22'); ctx.fillStyle = C.GREEN; ctx.fillRect(30, 556, 6, 70);
+    text('Desde el primer minuto: proteger al niño, hospitalizar si hay riesgo, avisar al asistente social', 52, 586, 19, C.INK, 'bold');
+    text('Pedir medida de protección al Tribunal de Familia · registrar el relato textual y fotografiar las lesiones', 52, 612, 16, C.MUTED); });
+  K.banner(110, 652, 1060, 'No se confronta al presunto agresor ni se interroga repetidamente al niño', C.RED, seg(t, 26, 0.5));
+  credGraf();
+}
+
+const SCENES = { civ, rcp, hemograma, down, enuresis, maltrato };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCENES[V](t); };
+const IMG = { civ: { heart: 'assets/blausen/corazon_flujo.png' }, enuresis: { uri: 'assets/blausen/urinario_nino.png' } };
+LOAD(Object.fromEntries(Object.entries(IMG[V] || {}).map(([k, v]) => [k, '../' + v])));
+</script>
+</body></html>

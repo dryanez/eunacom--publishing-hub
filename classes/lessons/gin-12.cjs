@@ -107,6 +107,44 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Sexualidad en la persona mayor',
+      title: 'Cambios, no fin de la sexualidad',
+      cards: [
+        { title: 'Qué cambia', tag: 'El interés se mantiene', kind: 'normal', items: [
+          { t: 'En la mujer: atrofia y sequedad', d: 'Dispareunia, menor lubricación, respuesta más lenta',
+            say: 'Cerremos con un tema que cae mucho en el examen: la sexualidad en la persona mayor. La actividad y el interés sexual se mantienen en gran parte de los adultos mayores: el envejecimiento trae cambios, no el fin de la sexualidad. En la mujer hay atrofia vulvovaginal, sequedad, dispareunia, menor lubricación y una respuesta más lenta.' },
+          { t: 'En el hombre: menos erección', d: 'Mayor período refractario; disfunción eréctil frecuente',
+            say: 'En el hombre baja la erección y se alarga el período refractario, y la disfunción eréctil es más frecuente por diabetes, hipertensión, enfermedad vascular, fármacos o una prostatectomía.' },
+        ] },
+        { title: 'Cómo se aborda', tag: 'Preguntar sin prejuicios', kind: 'key', items: [
+          { t: 'Preguntar y revisar causas', d: 'Fármacos, depresión, dolor, falta de pareja o privacidad',
+            say: 'El abordaje parte por incluir una pregunta sobre sexualidad en la anamnesis, sin prejuicios. Luego revisas los fármacos, como antihipertensivos, antidepresivos, antipsicóticos y benzodiacepinas, la depresión, el dolor, las comorbilidades, y la ausencia de pareja o de privacidad, por viudez o institucionalización.' },
+        ] },
+        { title: 'Tratamiento y prevención', tag: 'Local primero', kind: 'pharma', items: [
+          { t: 'Dispareunia: lubricantes y estriol local', d: 'Hidratantes y estrógenos vaginales',
+            say: 'Para la dispareunia, lubricantes, hidratantes y estrógenos vaginales locales, como el estriol. Para la disfunción eréctil, inhibidores de la fosfodiesterasa cinco, que están contraindicados con nitratos.' },
+          { t: 'Prevención de ITS', d: 'VIH y sífilis aumentan en mayores: condón y tamizaje',
+            say: 'Y educas sobre prevención de infecciones de transmisión sexual: el VIH y la sífilis están aumentando en los mayores, así que condón y tamizaje.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cuándo iniciar la terapia hormonal',
+      images: [
+        { src: 'animaciones/gin-12/A1_ventana_oportunidad.mp4', label: 'Ventana de oportunidad', credit: 'Gráfico esquemático propio' },
+      ],
+      steps: [
+        { note: 'Dentro o fuera de la ventana',
+          say: 'Este esquema muestra la idea: la ventana de oportunidad es menos de sesenta años, o menos de diez años desde la menopausia. Dentro, el beneficio sobre los bochornos y el hueso supera el riesgo. Fuera de ella, iniciar hormonas por primera vez aumenta el riesgo de infarto, accidente vascular y demencia. Y después, la pregunta que decide: con útero, estrógeno más progestágeno; sin útero, estrógeno solo.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un solo árbol de decisión.',
     },
@@ -218,6 +256,82 @@ module.exports = {
         options: 'Las opciones: estrógeno más progestágeno oral, estrógeno solo oral, estrógeno en parches, venlafaxina oral, o progestágenos tópicos. Piénsalo.',
         answer: 'Es la C. Al no tener útero, va estrógeno solo, así que ya puedes descartar la que lleva progestágeno. Y con los triglicéridos tan altos, la vía oral empeora el perfil lipídico: por eso prefieres el parche, que evita el paso por el hígado.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.1.011 · Síndrome climatérico",
+      "stem": "Mujer de 53 años, con menopausia hace 2 años, consulta por bochornos intensos, unos 10 al día, que alteran su sueño y su trabajo. Tiene antecedente de cáncer de mama con receptores hormonales positivos, operado hace 4 años, en tratamiento con anastrozol.",
+      "question": "¿Cuál es el tratamiento más adecuado para sus bochornos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Estradiol transdérmico más progesterona micronizada"
+        },
+        {
+          "letter": "B",
+          "text": "Venlafaxina"
+        },
+        {
+          "letter": "C",
+          "text": "Tibolona"
+        },
+        {
+          "letter": "D",
+          "text": "Estrógenos conjugados orales solos"
+        },
+        {
+          "letter": "E",
+          "text": "Esperar, porque los bochornos ceden solos en 6 meses"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El cáncer de mama hormonodependiente contraindica toda terapia hormonal, incluida la tibolona, que aumenta la recurrencia. Para bochornos moderados a severos se usan alternativas no hormonales: venlafaxina, ISRS (evitando paroxetina si usa tamoxifeno) o gabapentina, junto a medidas generales.",
+      "say": {
+        "stem": "Mujer de cincuenta y tres años, menopáusica hace dos años, con unos diez bochornos al día que le alteran el sueño. Tuvo un cáncer de mama con receptores hormonales positivos, operado hace cuatro años, y hoy toma anastrozol.",
+        "question": "¿Cuál es el tratamiento más adecuado para sus bochornos?",
+        "options": "Las opciones: estradiol transdérmico con progesterona, venlafaxina, tibolona, estrógenos orales solos o esperar seis meses. Piénsalo.",
+        "answer": "Es la B. Con un cáncer de mama con receptores hormonales positivos, cualquier hormona está contraindicada, y se usa un no hormonal como la venlafaxina. La tibolona tienta porque no es un estrógeno clásico, pero aumenta la recurrencia del cáncer de mama."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.3.010 · Sexualidad en personas mayores",
+      "stem": "Mujer de 67 años, con pareja estable, consulta por dolor en las relaciones sexuales y sequedad vaginal de 1 año. Al examen se observa mucosa vaginal pálida, delgada y con pérdida de pliegues. No tiene sangrado ni flujo anormal.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Explicar que la actividad sexual no es esperable a esta edad"
+        },
+        {
+          "letter": "B",
+          "text": "Biopsia de vulva"
+        },
+        {
+          "letter": "C",
+          "text": "Terapia hormonal sistémica con estrógenos y progestágeno"
+        },
+        {
+          "letter": "D",
+          "text": "Clotrimazol vaginal"
+        },
+        {
+          "letter": "E",
+          "text": "Estrógenos vaginales en dosis bajas, además de lubricantes"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La dispareunia por síndrome genitourinario de la menopausia (atrofia vulvovaginal) se trata con lubricantes, hidratantes y estrógenos vaginales en dosis bajas, de mínima absorción sistémica. La sexualidad sigue siendo una dimensión vigente en las personas mayores y debe abordarse sin prejuicios. La terapia sistémica no se indica solo por síntomas vaginales a esta edad.",
+      "say": {
+        "stem": "Mujer de sesenta y siete años, con pareja, con dispareunia y sequedad vaginal, y mucosa atrófica al examen.",
+        "question": "¿Qué le indicas?",
+        "options": "Las opciones: decirle que no es esperable a su edad, biopsia, terapia hormonal sistémica, clotrimazol o estrógenos vaginales en dosis bajas con lubricantes. Piénsalo.",
+        "answer": "Es la E. Estrógenos vaginales en dosis bajas y lubricantes para la atrofia. La terapia sistémica tienta, pero no se indica solo por síntomas vaginales a esta edad."
+      }
     },
 
     {

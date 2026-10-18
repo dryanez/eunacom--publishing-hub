@@ -34,29 +34,14 @@ module.exports = {
       ],
       steps: [
         { show: ['kie', 'ana'], note: 'Cuatro arterias confluyen en un punto',
-          say: 'Parte por la anatomía, porque define todo el manejo. En la parte anteroinferior del tabique, justo detrás del vestíbulo, confluyen cuatro arterias: la labial superior, la palatina mayor, la esfenopalatina y la etmoidal anterior. Esa red se llama plexo de Kiesselbach o área de Little, y es un lugar muy vascularizado y muy expuesto.' },
+          say: 'Parte por la anatomía, porque define todo el manejo. En la parte anteroinferior del tabique, justo detrás del vestíbulo, confluyen cuatro arterias: la labial superior, la palatina mayor, la esfenopalatina y la etmoidal anterior. Esa red se llama plexo de Kiesselbach o área de Little, y es un lugar muy vascularizado y muy expuesto. Mira el tabique visto de lado: adelante y abajo está el plexo, el punto que ves con el espéculo.',
+          photo: { src: 'biblioteca/17_otorrino/orl-11/01_irrigacion-tabique-plexo-kiesselbach__bailey-love_p738.jpg', label: 'Irrigación del tabique', at: 'Mira el tabique visto de lado', credit: 'Bailey & Love 27.ª ed., Fig. 46.36' } },
         { show: ['ant'], note: 'Casi toda epistaxis es anterior',
           say: 'Por eso más del noventa por ciento de las epistaxis son anteriores. Es la epistaxis del niño, del adolescente y del adulto joven, habitualmente benigna, que aparece por un hurgado nasal, por resequedad del ambiente o por una rinitis alérgica. Y como el punto está adelante, lo puedes ver y lo puedes tratar.' },
         { show: ['esf', 'hta'], note: 'La posterior es otra enfermedad',
-          say: 'La epistaxis posterior es otra historia. Nace de las ramas posteriores de la arteria esfenopalatina, o del plexo de Woodruff, en la pared posterolateral de la nariz. Ocurre en el adulto mayor, hipertenso, con ateroesclerosis o anticoagulado.' },
+          say: 'La epistaxis posterior es otra historia. Nace de las ramas posteriores de la arteria esfenopalatina, o del plexo de Woodruff, en la pared posterolateral de la nariz. Ocurre en el adulto mayor, hipertenso, con ateroesclerosis o anticoagulado. La arteria esfenopalatina entra por la parte posterior de la nariz: ese sangrado no lo alcanzas con el espéculo.' },
         { show: ['pos'], note: 'Profusa y hacia la faringe',
           say: 'Entre cinco y diez por ciento de los casos, pero es la que puede matar. El sangrado es profuso, difícil de controlar, y fluye hacia la orofaringe, con riesgo de shock hipovolémico y de aspiración.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Las arterias del tabique',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-11/01_irrigacion-tabique-plexo-kiesselbach__bailey-love_p738.jpg', label: 'Irrigación del tabique nasal izquierdo: plexo de Kiesselbach adelante, esfenopalatina atrás', credit: 'Bailey & Love 27.ª ed., Fig. 46.36 (rótulos traducidos)' },
-      ],
-      steps: [
-        { note: 'Adelante: el plexo de Kiesselbach',
-          say: 'Mira el tabique visto de lado. Adelante y abajo, donde llega la rama labial de la facial y se juntan las demás, está el plexo de Kiesselbach. Es el punto que ves con el espéculo y el que cauterizas en la epistaxis anterior.' },
-        { note: 'Atrás: la esfenopalatina',
-          say: 'Ahora fíjate atrás: la arteria esfenopalatina entra por la parte posterior de la nariz. Ese sangrado no lo alcanzas con el espéculo, por eso la epistaxis posterior necesita taponamiento posterior.' },
       ],
     },
 
@@ -149,6 +134,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La escalera completa',
+      images: [
+        { src: 'animaciones/orl-11/A1_epistaxis_escalera_anterior_posterior.mp4', label: 'Epistaxis: escalera anterior y taponamiento posterior con Foley', credit: 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Cuatro peldaños y, si falla, el taponamiento posterior',
+          say: 'Mira la escalera. Primero compresión digital, quince minutos, con la cabeza hacia adelante. Si sigue, algodón con vasoconstrictor. Si ves el vaso, nitrato de plata en un solo lado. Si no, tapón anterior por cuarenta y ocho horas. Y si la sangre cae por la faringe, es posterior: sonda Foley con el balón inflado con agua, más el tapón anterior, hospitalización y antibiótico.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Protocolo mandatorio',
       title: 'Con tapón posterior, se hospitaliza',
@@ -160,6 +159,32 @@ module.exports = {
             say: 'Segundo, antibiótico profiláctico sistémico, amoxicilina con ácido clavulánico o cefazolina. El tapón obstruye los ostium y favorece la rinosinusitis, y puede desencadenar el síndrome de shock tóxico estafilocócico. Esto se pregunta mucho: el taponamiento posterior siempre lleva antibiótico.' },
           { t: 'Retiro a las 48-72 horas', d: 'Por otorrino; si falla, ligadura endoscópica',
             say: 'Tercero, retiro programado del tapón a las cuarenta y ocho a setenta y dos horas por el especialista. Y si fracasa, la ligadura endoscópica de la arteria esfenopalatina en pabellón.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Epistaxis a repetición',
+      title: 'Epistaxis a repetición: buscar la causa',
+      cards: [
+        { title: 'Causas locales', tag: 'Lo más frecuente', kind: 'key', items: [
+          { t: 'Sequedad, rascado, rinitis, desviación septal', d: 'Plexo irritado; telangiectasias de Rendu-Osler-Weber',
+            say: 'Cuando la epistaxis se repite, buscas la causa. Las locales más frecuentes son la sequedad y el rascado del plexo de Kiesselbach, la rinitis, la desviación septal y las telangiectasias de la enfermedad de Rendu-Osler-Weber.' },
+          { t: 'Unilateral con obstrucción: pensar en tumor', d: 'Adolescente varón: angiofibroma juvenil; adulto: tumor nasosinusal',
+            say: 'Un adolescente varón con epistaxis unilateral y obstrucción nasal es un angiofibroma nasofaríngeo juvenil hasta demostrar lo contrario; en el adulto, piensa en un tumor nasosinusal.' },
+        ] },
+        { title: 'Causas sistémicas', tag: 'Preguntar y medir', kind: 'alert', items: [
+          { t: 'Hipertensión y coagulopatías', d: 'Von Willebrand, hemofilia, plaquetas, hígado, riñón, leucemias',
+            say: 'Las sistémicas son la hipertensión, las coagulopatías como von Willebrand y hemofilia, la trombocitopenia, la hepatopatía, la insuficiencia renal y las leucemias.' },
+          { t: 'Fármacos', d: 'Anticoagulantes, antiagregantes, AINE',
+            say: 'Y los fármacos: anticoagulantes, antiagregantes y antiinflamatorios.' },
+        ] },
+        { title: 'Estudio y manejo', tag: 'Qué haces tú', kind: 'pharma', items: [
+          { t: 'Presión, rinoscopía, hemograma, TP, TTPK', d: 'Función hepática y renal; revisar fármacos',
+            say: 'Estudias con presión arterial, rinoscopía anterior, hemograma con plaquetas, TP, TTPK, función hepática y renal, y revisión de fármacos.' },
+          { t: 'Cauterizar, emolientes, humedad', d: 'Derivar si es unilateral recurrente, sin foco o con otros sangrados',
+            say: 'Si ves el punto sangrante, lo cauterizas con nitrato de plata, indicas pomadas emolientes, humidificación y lavados con suero, y evitas el rascado. Derivas a endoscopía si es unilateral y recurrente sin foco evidente, si sospechas un tumor, o si hay otras manifestaciones hemorrágicas.' },
         ] },
       ],
     },
@@ -257,6 +282,157 @@ module.exports = {
         options: 'Las opciones: alta inmediata y retiro a las doce horas; hospitalización con monitorización y antibiótico profiláctico; balón con veinticinco mililitros de aire; suspender la hidratación y mantener la presión alta; o cauterizar a ciegas la pared posterior. Piénsalo.',
         answer: 'Es la B. Todo taponamiento posterior se hospitaliza con monitorización y lleva antibiótico profiláctico, para prevenir el síndrome de shock tóxico y la rinosinusitis. La C es doblemente errada: el balón se insufla con ocho a diez mililitros de agua, nunca con aire, y veinticinco mililitros sería excesivo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.5.012 · Taponamiento nasal anterior",
+      "stem": "Una mujer de 45 años consulta por epistaxis izquierda activa de 30 minutos. Está hemodinámicamente estable. Se realizó compresión bidigital por 15 minutos con la cabeza hacia adelante y luego se dejó un algodón con vasoconstrictor, pero persiste el sangrado y con espéculo nasal no se logra ubicar el vaso sangrante. No cae sangre por la orofaringe.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cauterización a ciegas con nitrato de plata de ambos lados del tabique"
+        },
+        {
+          "letter": "B",
+          "text": "Ligadura quirúrgica de la arteria esfenopalatina"
+        },
+        {
+          "letter": "C",
+          "text": "Taponamiento posterior con sonda Foley"
+        },
+        {
+          "letter": "D",
+          "text": "Taponamiento nasal anterior con gasa vaselinada o Merocel por 48 horas"
+        },
+        {
+          "letter": "E",
+          "text": "Inclinar la cabeza hacia atrás y dar de alta"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Si la compresión y el vasoconstrictor fallan y no se ubica el vaso para cauterizarlo, sigue el taponamiento anterior: gasa orillada con vaselina en capas hacia el piso de la fosa nasal, o Merocel, por 48 horas, con control ambulatorio. El taponamiento posterior se reserva para cuando falla el anterior y la sangre cae a la faringe.",
+      "say": {
+        "stem": "Mujer de cuarenta y cinco años, estable, con epistaxis izquierda de media hora. Ya fallaron la compresión por quince minutos y el algodón con vasoconstrictor, y no se logra ver el vaso que sangra. No cae sangre por la faringe.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: cauterizar a ciegas ambos lados del tabique, ligadura de la esfenopalatina, taponamiento posterior con sonda Foley, taponamiento anterior con gasa o Merocel o cabeza atrás y alta. Piénsalo.",
+        "answer": "Es la D. Si fallan la compresión y el vasoconstrictor y no ves el vaso, el siguiente paso es el taponamiento anterior, con gasa vaselinada o Merocel por cuarenta y ocho horas. El taponamiento posterior tienta, pero se reserva para cuando falla el anterior y la sangre cae por la faringe."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.099 · Epistaxis",
+      "stem": "Un niño de 7 años presenta sangrado nasal por la fosa derecha de 5 minutos, tras rascarse la nariz. Está tranquilo, hemodinámicamente estable y no tiene antecedentes de sangrado ni de uso de fármacos.",
+      "question": "¿Cuál es la primera medida?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inclinar la cabeza hacia atrás y aplicar hielo en la frente"
+        },
+        {
+          "letter": "B",
+          "text": "Taponamiento posterior"
+        },
+        {
+          "letter": "C",
+          "text": "Compresión digital continua de las alas nasales por 10 minutos, con la cabeza inclinada hacia adelante"
+        },
+        {
+          "letter": "D",
+          "text": "Cauterización con nitrato de plata como primera medida"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar pruebas de coagulación urgentes"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La epistaxis en niños es casi siempre anterior, del plexo de Kiesselbach, gatillada por grataje o sequedad. La primera medida es comprimir las alas nasales contra el tabique en forma continua por 10 minutos, con la cabeza inclinada hacia adelante para no deglutir sangre. Si persiste o recurre se cauteriza.",
+      "say": {
+        "stem": "Un niño de siete años sangra por la fosa nasal derecha hace cinco minutos tras rascarse, y está estable.",
+        "question": "¿Cuál es la primera medida?",
+        "options": "Las opciones: cabeza atrás con hielo, taponamiento posterior, compresión digital diez minutos con la cabeza adelante, cauterización o pruebas de coagulación. Piénsalo.",
+        "answer": "Es la C. La epistaxis infantil es anterior y se controla comprimiendo las alas nasales diez minutos, con la cabeza hacia adelante. Inclinar la cabeza hacia atrás tienta porque es una creencia popular, pero hace tragar o aspirar la sangre."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.2.008 · Epistaxis",
+      "stem": "Un adolescente varón de 14 años consulta por epistaxis recurrentes unilaterales por la fosa derecha, abundantes, asociadas a obstrucción nasal progresiva de ese lado en los últimos meses. A la rinoscopía se observa una masa rojiza en la región posterior de la fosa nasal.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Biopsia de la masa en el box"
+        },
+        {
+          "letter": "B",
+          "text": "Cauterización con nitrato de plata"
+        },
+        {
+          "letter": "C",
+          "text": "Estudio con imágenes (TAC o RM con contraste) y derivación a otorrinolaringología, sin biopsiar"
+        },
+        {
+          "letter": "D",
+          "text": "Corticoide nasal y control en 3 meses"
+        },
+        {
+          "letter": "E",
+          "text": "Taponamiento anterior y alta"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Epistaxis recurrente unilateral con obstrucción nasal en un adolescente varón sugiere angiofibroma nasofaríngeo juvenil, un tumor benigno muy vascularizado. Se diagnostica con TAC o RM con contraste y su manejo es quirúrgico, a menudo con embolización previa. La biopsia está contraindicada por el riesgo de hemorragia masiva.",
+      "say": {
+        "stem": "Un adolescente varón de catorce años tiene epistaxis unilaterales repetidas y obstrucción nasal progresiva, con una masa rojiza en la parte posterior de la fosa.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: biopsia en el box, cauterización, imágenes con contraste y derivación sin biopsiar, corticoide nasal o taponamiento y alta. Piénsalo.",
+        "answer": "Es la C. Se sospecha un angiofibroma nasofaríngeo juvenil, que se estudia con imágenes y se deriva sin biopsiar. La biopsia tienta para confirmar, pero puede provocar una hemorragia masiva."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.1.011 · Epistaxis a repetición",
+      "stem": "Niño de 9 años con episodios de epistaxis anterior derecha 2 a 3 veces por semana en el último mes, autolimitados con compresión, especialmente en invierno. Se rasca la nariz con frecuencia. Al examen hay vasos prominentes y costras en el área de Kiesselbach derecha. Sin hematomas ni otros sangrados, hemograma normal.",
+      "question": "¿Cuál es el manejo más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Taponamiento posterior"
+        },
+        {
+          "letter": "B",
+          "text": "Humectación nasal (vaselina o suero), evitar el rascado y cauterización química con nitrato de plata del área de Kiesselbach si persiste"
+        },
+        {
+          "letter": "C",
+          "text": "Estudio de coagulación completo y derivación a hematología de inmediato"
+        },
+        {
+          "letter": "D",
+          "text": "Ligadura de la arteria esfenopalatina"
+        },
+        {
+          "letter": "E",
+          "text": "TAC de cavidades paranasales"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La epistaxis recurrente anterior en niños se origina en el plexo de Kiesselbach, favorecida por sequedad, rascado y rinitis. Se maneja con humectación, tratamiento de la rinitis y cauterización con nitrato de plata de los vasos visibles. Se estudia coagulación ante sangrados en otros sitios, antecedentes familiares o anemia; en un adolescente varón con epistaxis unilateral grave, sospechar nasoangiofibroma.",
+      "say": {
+        "stem": "Niño de nueve años con epistaxis anteriores frecuentes, que ceden con compresión, con vasos prominentes y costras en la zona anterior del tabique, sin otros sangrados y hemograma normal.",
+        "question": "¿Cuál es el manejo más adecuado?",
+        "options": "Las opciones: taponamiento posterior, humectar, no rascarse y cauterizar con nitrato de plata, estudio de coagulación inmediato, ligadura de esfenopalatina o TAC. Piénsalo.",
+        "answer": "Es la B. La epistaxis anterior recurrente se maneja humectando, evitando el rascado y cauterizando los vasos con nitrato de plata. El estudio de coagulación tienta, pero sin otros sangrados ni anemia no está indicado de entrada."
+      }
     },
 
     {

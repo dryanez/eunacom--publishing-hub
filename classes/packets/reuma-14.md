@@ -268,7 +268,7 @@ Un paciente de 40 años, con antecedente de reemplazo valvular, secundario a una
 - D) Síndrome de Wolff Parkinson White
 - E) Taquicardia auricular
 **Correcta: C**
-Explicación del banco: Con las maniobras vagales baja la frecuencia, se ven las ondas de serrucho y luego vuelve a aumentar la frecuencia. Es lo clásico del ﬂutter auricular.
+Explicación del banco: Con las maniobras vagales baja la frecuencia, se ven las ondas de serrucho y luego vuelve a aumentar la frecuencia. Es lo clásico del flutter auricular.
 
 ### [9] EUNACOM Julio 2016 · Pregunta 132 · confianza 0.92
 Una paciente de 54 años ha presentado dolores simétricos en pequeñas y grandes articulaciones, con compromiso de las articulaciones metacarpofalángicas e interfalángicas proximales, que iniciaron hace un año, y que se asocian a rigidez matinal de más de una hora y a sensación de arenilla y sequedad ocular. Se solicitan exámenes que muestran PCR: 10, factor reumatoideo: negativo, anticuerpos antinucleares: negativo y anticuerpos anti- CCP negativos. ¿Cuál es el diagnóstico más probable?
@@ -411,14 +411,14 @@ Hombre de 55 años asintomático con calcio sérico 11.2 mg/dL, fósforo 2.1 mg/
 Explicación del banco: Hipercalcemia + hipofosforemia + PTH inapropiadamente elevada en paciente asintomático = hiperparatiroidismo primario. Es la causa más frecuente de hipercalcemia en pacientes ambulatorios. PTH suprimida en malignidad.
 
 ### [23] EUNACOM Diciembre 2025 · Pregunta 19 · confianza 0.8
-Una paciente de 45 años con antecedente de artri8s reumatoide, en tratamiento con micofenolato y terapia biológica, consulta por dolor ocular, epífora y ojo rojo bilateral asociado a fotofobia. Reﬁere que los síntomas empeoran en la tarde, al término de su jornada laboral. ¿Cuál es el diagnós8co más probable?
+Una paciente de 45 años con antecedente de artritis reumatoide, en tratamiento con micofenolato y terapia biológica, consulta por dolor ocular, epífora y ojo rojo bilateral asociado a fotofobia. Refiere que los síntomas empeoran en la tarde, al término de su jornada laboral. ¿Cuál es el diagnóstico más probable?
 - A) Quera22s
 - B) Uveí2s
 - C) Glaucoma agudo
 - D) Conjun2vi2s viral
 - E) Celuli2s orbitaria
 **Correcta: A**
-Explicación del banco: Aunque la artriGs reumatoide se asocia a escleriGs y uveíGs, también puede producir ojo seco, por síndrome de Sjögren secundario, el que se asocia a queraGGs. En este caso, la clínica orienta a una queraGGs sicca clásica.
+Explicación del banco: Aunque la artritis reumatoide se asocia a escleritis y uveítis, también puede producir ojo seco, por síndrome de Sjögren secundario, el que se asocia a queraGGs. En este caso, la clínica orienta a una queraGGs sicca clásica.
 
 ### [24] EUNACOM Diciembre 2019 · Pregunta 140 · confianza 0.8
 Un paciente de 64 años, con antecedente de insuficiencia renal crónica, con clearence de 40 ml/min se realiza exámenes de control que muestran fósforo: 4,0 mg/dl, calcio: 8,5, PTH: 120 pg/ml (VN: menor a 55) y TSH: 4,0 UI/L. ¿Cuál es el examen de elección para proseguir el estudio?

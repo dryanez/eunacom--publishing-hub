@@ -52,7 +52,8 @@ module.exports = {
       cards: [
         { title: 'El más frecuente', tag: 'Sello', kind: 'alert', items: [
           { t: 'Micosis genitales', d: 'Candidiasis vulvovaginal y balanitis',
-            say: 'Los efectos adversos salen del mismo mecanismo. El más frecuente, y el que más se pregunta, son las infecciones micóticas genitales: candidiasis vulvovaginal en la mujer y balanitis en el hombre. Una orina cargada de glucosa es un buen medio para los hongos.' },
+            say: 'Los efectos adversos salen del mismo mecanismo. El más frecuente, y el que más se pregunta, son las infecciones micóticas genitales: candidiasis vulvovaginal en la mujer y balanitis en el hombre. Una orina cargada de glucosa es un buen medio para los hongos. En esta imagen se ven las placas blanquecinas sobre la mucosa enrojecida de una vulvovaginitis candidiásica.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-08/01_candidiasis-genital__kumar_p1587.jpg', label: 'Candidiasis vaginal', at: 'En esta imagen', credit: 'Kumar and Clark, Clinical Medicine, p. 1587' }] },
         ] },
         { title: 'Por la pérdida de volumen', tag: 'Adulto mayor', kind: 'criteria', items: [
           { t: 'Depleción de volumen', d: 'Hipotensión ortostática en ancianos',

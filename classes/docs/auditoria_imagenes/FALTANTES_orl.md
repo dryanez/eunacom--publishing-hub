@@ -26,3 +26,16 @@ Ya cubiertos y excluidos: parálisis de Bell (orl-08), amigdalitis de la mononuc
 | orl-17 | Epiglotitis | Rx lateral de cuello con "signo del pulgar" (epiglotis engrosada) | Rx | media |
 | orl-18 | Cuerpos extraños | Rx con pila de botón (doble contorno) en esófago o nariz | Rx | baja |
 | orl-20 | Masa cervical | masa cervical lateral metastásica en adulto mayor de cuarenta años | foto clínica | baja |
+
+## Adenda (18-oct, completar libro ORL): imágenes que los párrafos nuevos necesitan y no se encontraron
+
+Buscado en `_candidatas` (pies en inglés) y en el atlas verificado; agregadas 5 (otohematoma, mucormicosis rinoorbitaria, zóster, laringomalacia, TAC de colesteatoma congénito; ver `books/data/atlas_add/otorrino.json`). Siguen sin imagen utilizable:
+
+| clase | tema | imagen que falta | tipo | prioridad |
+|---|---|---|---|---|
+| orl-05 | Audiometría | audiograma de hipoacusia de conducción vs sensorioneural (la única candidata, Meneghello p1052, es una página escaneada, no la figura aislada) | audiograma | media |
+| orl-10 | TAC de cavidades perinasales | TAC coronal con ocupación del complejo osteomeatal / rinosinusitis crónica o poliposis | TAC | media |
+| orl-15 | Radiografía de cavum | Rx lateral de cavum con hipertrofia adenoidea (columna de aire reducida) | Rx | media |
+| orl-09 | Pruebas cutáneas | prick test con pápulas y controles positivo/negativo | foto clínica | baja |
+| orl-12 | Trauma nasal | nariz en silla de montar por necrosis septal | foto clínica | baja |
+| orl-08 | Herpes zóster oftálmico | signo de Hutchinson (vesículas en la punta de la nariz); la figura de Kanski p202 salió recortada sin la nariz | foto clínica | baja |

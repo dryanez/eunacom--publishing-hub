@@ -148,6 +148,30 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Atención primaria',
+      title: 'Tamizaje y seguimiento con PHQ',
+      nodes: [
+        { id: 'a', col: 0, row: 1, k: 'start', t: 'Factor de riesgo', s: 'Enfermedad crónica, embarazo, duelo, violencia' },
+        { id: 'b', col: 1, row: 1, k: 'q', t: 'PHQ-2 positivo', s: '3 o más de 6 puntos' },
+        { id: 'c', col: 2, row: 1, k: 'mech', t: 'PHQ-9', s: '10 o más: moderado a grave' },
+        { id: 'd', col: 2, row: 3, k: 'alert', t: 'Ítem 9 positivo', s: 'Evaluar riesgo suicida en el acto' },
+        { id: 'e', col: 3, row: 1, k: 'effect', t: 'Control a las 2 semanas', s: 'Luego cada 2 a 4 semanas' },
+        { id: 'f', col: 4, row: 1, k: 'good', t: 'Respuesta y remisión', s: 'Baja de 50 %; luego menos de 5' },
+      ],
+      edges: [
+        { from: 'a', to: 'b' }, { from: 'b', to: 'c' }, { from: 'c', to: 'd' }, { from: 'c', to: 'e' }, { from: 'e', to: 'f' },
+      ],
+      steps: [
+        { show: ['a', 'b'], note: 'Primero una pregunta corta de dos ítems',
+          say: 'En el control de salud, a quien tiene factores de riesgo, como una enfermedad crónica, el embarazo, un duelo, el desempleo o la violencia, se le aplica primero el PHQ dos: ánimo deprimido y anhedonia en las últimas dos semanas. Es positivo con tres o más puntos de seis.' },
+        { show: ['c', 'd'], note: 'El ítem 9 no se deja para después',
+          say: 'Si es positivo, sigues con el PHQ nueve. Diez puntos o más sugiere un episodio moderado a grave. Y fíjate: si el ítem nueve, el de los pensamientos de muerte, sale positivo, el riesgo suicida se evalúa en ese mismo momento.' },
+        { show: ['e', 'f'], note: 'Respuesta es la mitad; remisión, menos de 5',
+          say: 'Al iniciar el tratamiento, control presencial a las dos semanas y después cada dos a cuatro semanas, repitiendo el PHQ nueve. Respuesta es una baja de al menos cincuenta por ciento del puntaje; remisión es un puntaje menor de cinco. Sin mejoría a las cuatro a seis semanas, con dosis adecuada y adherencia, se ajusta el tratamiento o se deriva.' },
+      ],
+    },
+    {
       type: 'points',
       kicker: 'Tratamiento',
       title: 'Primera línea: los ISRS',
@@ -197,6 +221,27 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Recurrencia',
+      title: 'Cuando la depresión vuelve',
+      cards: [
+        { title: 'Depresión recurrente', tag: 'Diagnóstico', kind: 'key', items: [
+          { t: 'Dos o más episodios mayores', d: 'Separados por 2 meses sin síntomas',
+            say: 'Hablamos de depresión recurrente cuando hay dos o más episodios depresivos mayores, separados por al menos dos meses seguidos sin síntomas importantes. Y siempre sin antecedente de manía o hipomanía, porque si la hubo, el diagnóstico pasa a bipolar.' },
+          { t: 'Recaída: 50, 70 y 90 %', d: 'Tras el primer, segundo y tercer episodio',
+            say: 'El riesgo de volver a caer sube con cada episodio: cerca de cincuenta por ciento tras el primero, setenta tras el segundo y noventa tras el tercero. Pesan más los síntomas residuales, el inicio precoz y la ansiedad o el consumo asociados.' },
+        ] },
+        { title: 'Mantenimiento', tag: 'Conducta', kind: 'pharma', items: [
+          { t: 'Nuevo episodio: reiniciar el fármaco', d: 'El que funcionó, a dosis plena; PHQ-9 a 4-6 semanas',
+            say: 'Ante un nuevo episodio no se inventa nada: se reinicia el antidepresivo al que el paciente respondió, a dosis plena, y se reevalúa con el PHQ nueve a las cuatro a seis semanas.' },
+          { t: 'Dos episodios: al menos 2 años', d: 'Con tres o más: mantenimiento indefinido',
+            say: 'Después de la remisión, con dos o más episodios que dejaron deterioro funcional, el mantenimiento dura al menos dos años. Con tres o más episodios es indefinido, siempre con la misma dosis con que se logró la remisión.' },
+          { t: 'Derivar si recae en tratamiento', d: 'O falla a dos antidepresivos, psicosis, riesgo',
+            say: 'Se deriva a psiquiatría al paciente que recae estando en mantenimiento, al que no responde a dos antidepresivos, y al que tiene síntomas psicóticos, riesgo suicida o sospecha de bipolaridad.' },
+        ] },
+      ],
+    },
+    {
       type: 'table',
       kicker: 'Otros antidepresivos',
       title: 'Segunda línea y perlas',
@@ -211,6 +256,29 @@ module.exports = {
       ],
     },
 
+    {
+      type: 'points',
+      kicker: 'Infancia y adolescencia',
+      title: 'Depresión en niños y adolescentes',
+      cards: [
+        { title: 'Cómo se presenta', tag: 'Sospecha', kind: 'criteria', items: [
+          { t: 'Irritabilidad en vez de tristeza', d: 'Síntoma cardinal bajo los 18 años',
+            say: 'Los criterios son los mismos, cinco de nueve por dos semanas, pero en el menor de dieciocho años la irritabilidad puede reemplazar al ánimo triste. Es un síntoma cardinal.' },
+          { t: 'Dolor de cabeza o abdominal, mal rendimiento', d: 'Aislamiento, rechazo al colegio, conductas de riesgo',
+            say: 'Predominan las quejas somáticas, como cefalea o dolor abdominal, la caída del rendimiento escolar, el aislamiento y el rechazo a ir al colegio. Y en vez de bajar de peso, puede no alcanzar el peso esperado.' },
+          { t: 'Descartar otras causas', d: 'Bipolaridad, hipotiroidismo, maltrato, bullying',
+            say: 'Antes de rotular, descarta bipolaridad, por antecedente familiar o episodios de euforia, hipotiroidismo, anemia, consumo de sustancias, y también maltrato, abuso sexual y bullying.' },
+        ] },
+        { title: 'Manejo inicial', tag: 'Conducta', kind: 'pharma', items: [
+          { t: 'Leve: psicoeducación y control', d: 'Familia, colegio, activación conductual, sueño',
+            say: 'En el episodio leve, psicoeducación a la familia y al colegio, activación conductual, higiene del sueño y control en dos a cuatro semanas.' },
+          { t: 'Moderada: psicoterapia, luego fluoxetina', d: 'TCC o interpersonal; fluoxetina desde los 8 años',
+            say: 'En el episodio moderado o grave, o si no hay respuesta, psicoterapia cognitivo conductual o interpersonal, y si persiste, fluoxetina, el ISRS con mejor evidencia en menores, desde los ocho años. Los tricíclicos no sirven en niños.' },
+          { t: 'Control semanal las primeras 4 semanas', d: 'Todo ISRS bajo 25 años; GES parte a los 15',
+            say: 'Todo ISRS en menores de veinticinco años exige control semanal las primeras cuatro semanas, por el riesgo de activación e ideación suicida. Y el GES parte a los quince años: en menores se deriva a psiquiatría infantil si es grave, hay riesgo o no responde.' },
+        ] },
+      ],
+    },
     {
       type: 'points',
       kicker: 'GES y derivación',
@@ -230,6 +298,20 @@ module.exports = {
           { t: 'Refractaria o con comorbilidad grave', d: 'Falla de 2 esquemas; abuso de sustancias',
             say: 'También si la depresión es refractaria, es decir, falló en dos esquemas bien indicados, si hay abuso de sustancias importante, o si es una depresión grave en embarazo o puerperio con rechazo alimentario.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El ISRS en el tiempo',
+      images: [
+        { src: 'animaciones/psiq-01/A1_isrs_en_el_tiempo.mp4', label: 'PHQ-9 con ISRS a dosis plena', credit: 'Gráfico y animación propios' },
+      ],
+      steps: [
+        { note: 'Evaluar a las 4 a 6 semanas; mantener 6 a 12 meses',
+          say: 'Mira la curva del PHQ nueve. El ISRS no hace nada de inmediato: a las dos semanas se controla adherencia y tolerancia, pero la respuesta real se evalúa entre las cuatro y las seis semanas. Respuesta es bajar a la mitad el puntaje; remisión es quedar bajo cinco. Si la mejoría es parcial, subes la dosis; si falla en dosis máxima, cambias. Y tras la remisión no se suspende: se mantiene la misma dosis seis a doce meses.' },
       ],
     },
 
@@ -256,6 +338,10 @@ module.exports = {
           say: 'La depresión psicótica con rechazo alimentario es una urgencia: hospitalización y evaluación de terapia electroconvulsiva.' },
         { cells: ['Síntomas de menos de 2 semanas o estresor claro', 'Considerar adaptativo', 'Diagnosticar depresión mayor'],
           say: 'Y si el cuadro no cumple los cinco síntomas o el tiempo, y hay un gatillante claro, piensa en trastorno adaptativo.' },
+        { cells: ['Tres o más episodios depresivos', 'Mantenimiento indefinido', 'Suspender a los 12 meses'],
+          say: 'En la depresión recurrente, con tres o más episodios, el mantenimiento no tiene fecha de término, y siempre con la misma dosis que logró la remisión.' },
+        { cells: ['Adolescente con depresión moderada', 'Psicoterapia; fluoxetina si persiste', 'Tricíclico o ISRS sin control semanal'],
+          say: 'En el adolescente, psicoterapia primero y fluoxetina si persiste, con control semanal el primer mes. Los tricíclicos no sirven en menores.' },
       ],
     },
 
@@ -395,6 +481,120 @@ module.exports = {
         options: 'Las opciones: terapia electroconvulsiva; iniciar sertralina; hospitalizar con mirtazapina; clorpromazina; o hospitalizar con amitriptilina. Piénsalo.',
         answer: 'Es la A. Con un minimental normal, las quejas de memoria no sugieren demencia, y las ideas delirantes con ánimo bajo orientan a una depresión psicótica. Con intentos previos y delirios, el riesgo es alto, y la terapia electroconvulsiva es la opción más segura y de respuesta más rápida. Sertralina sola no basta, y amitriptilina y clorpromazina son mala idea en el adulto mayor por sus efectos anticolinérgicos y cardiovasculares.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 5.01.1.034 · Trastornos del ánimo en niños",
+      "stem": "Adolescente de 14 años, desde hace 2 meses está irritable, con explosiones de rabia en casa, ha dejado el fútbol que le gustaba, duerme mal, bajó sus notas y dice que nada vale la pena. Niega ideación suicida. Se diagnostica un episodio depresivo moderado y se decide, junto a la psicoterapia, iniciar un antidepresivo.",
+      "question": "¿Cuál es el fármaco de elección?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amitriptilina"
+        },
+        {
+          "letter": "B",
+          "text": "Fluoxetina"
+        },
+        {
+          "letter": "C",
+          "text": "Paroxetina"
+        },
+        {
+          "letter": "D",
+          "text": "Venlafaxina"
+        },
+        {
+          "letter": "E",
+          "text": "Carbonato de litio"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En niños y adolescentes la depresión puede manifestarse con irritabilidad en vez de tristeza. El tratamiento es psicoterapia y, en cuadros moderados a graves, un ISRS, siendo la fluoxetina el de mayor evidencia y de elección según la guía GES. Los tricíclicos no son eficaces y son letales en sobredosis; paroxetina y venlafaxina tienen peor perfil en jóvenes.",
+      "say": {
+        "stem": "Adolescente de catorce años con dos meses de irritabilidad, pérdida de interés, insomnio y bajo rendimiento, diagnosticado con depresión moderada.",
+        "question": "Si se agrega un antidepresivo, ¿cuál es el de elección?",
+        "options": "Las opciones: amitriptilina, fluoxetina, paroxetina, venlafaxina o litio. Piénsalo.",
+        "answer": "Es la B. En adolescentes el antidepresivo con mejor evidencia es la fluoxetina. La paroxetina tienta por ser también un inhibidor de recaptación, pero en jóvenes tiene peor perfil y no se recomienda."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.136 · Depresión",
+      "stem": "Una adolescente de 15 años presenta desde hace 2 meses ánimo bajo e irritable, anhedonia, insomnio, baja de rendimiento escolar, aislamiento y sentimientos de culpa. Niega ideación suicida. Ha recibido 8 sesiones de psicoterapia sin mejoría y los síntomas son de intensidad moderada a grave.",
+      "question": "¿Cuál es el fármaco de elección?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amitriptilina"
+        },
+        {
+          "letter": "B",
+          "text": "Fluoxetina"
+        },
+        {
+          "letter": "C",
+          "text": "Clonazepam"
+        },
+        {
+          "letter": "D",
+          "text": "Litio"
+        },
+        {
+          "letter": "E",
+          "text": "Quetiapina"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Depresión moderada a grave en adolescentes que no responde a psicoterapia requiere agregar antidepresivo. El de elección, con mejor evidencia y recomendado por la guía GES de depresión, es la fluoxetina, manteniendo psicoterapia y vigilando ideación suicida al inicio. Los tricíclicos no son eficaces en adolescentes y son letales en sobredosis.",
+      "say": {
+        "stem": "Una adolescente de quince años tiene hace dos meses ánimo bajo, anhedonia, insomnio, aislamiento y culpa, sin ideación suicida, y no mejoró con psicoterapia.",
+        "question": "¿Cuál es el fármaco de elección?",
+        "options": "Las opciones: amitriptilina, fluoxetina, clonazepam, litio o quetiapina. Piénsalo.",
+        "answer": "Es la B. En la depresión del adolescente el antidepresivo de elección es la fluoxetina, junto a la psicoterapia. La amitriptilina tienta porque es un antidepresivo clásico, pero no es eficaz en adolescentes y es muy tóxica en sobredosis."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.1.004 · Depresión",
+      "stem": "Mujer de 79 años con glaucoma de ángulo estrecho y constipación crónica presenta ánimo bajo, anhedonia, insomnio y baja de peso de 2 meses. Escala de Yesavage de 11 puntos. Sin ideación suicida ni síntomas psicóticos.",
+      "question": "¿Cuál es el tratamiento farmacológico de primera línea más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amitriptilina"
+        },
+        {
+          "letter": "B",
+          "text": "Litio"
+        },
+        {
+          "letter": "C",
+          "text": "Clonazepam"
+        },
+        {
+          "letter": "D",
+          "text": "Imipramina"
+        },
+        {
+          "letter": "E",
+          "text": "Sertralina"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En el adulto mayor con depresión, los ISRS como sertralina o escitalopram son de primera línea por su buena tolerancia. Los tricíclicos (amitriptilina, imipramina) producen efectos anticolinérgicos, hipotensión y arritmias, y empeoran el glaucoma de ángulo estrecho y la constipación. Las benzodiacepinas no tratan la depresión y aumentan caídas y confusión.",
+      "say": {
+        "stem": "Mujer de setenta y nueve años con glaucoma de ángulo estrecho y constipación, con una depresión mayor sin psicosis.",
+        "question": "¿Qué antidepresivo indicas?",
+        "options": "Las opciones: amitriptilina, litio, clonazepam, imipramina o sertralina. Piénsalo.",
+        "answer": "Es la E. Sertralina, un inhibidor selectivo de la recaptación de serotonina, bien tolerado en adultos mayores. La amitriptilina ayuda a dormir, pero es anticolinérgica y empeora el glaucoma y la constipación."
+      }
     },
 
     {

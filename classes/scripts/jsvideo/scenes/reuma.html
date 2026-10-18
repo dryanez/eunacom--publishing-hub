@@ -3,12 +3,13 @@
 <style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
 </head><body>
 <canvas id="c" width="1280" height="720"></canvas>
-<script src="../lib.js"></script><script src="../kit.js"></script>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
 <script>
 // Reumatología sobre ilustraciones reales (Servier Medical Art, CC BY 4.0) y gráficos propios.
+// ?v=sacro (17) sjogren (15) nefritis (09) uv (10) patergia (20) dactilitis (18) chapel (22) | gráficos: still (05) mtx (07) reactiva (19) pmr (23)
 // ?v=pannus (reuma-06) raynaud (14) liquidos (01) septica (02) lupus (08) entesis (16) temporal (21) al (11) esclero (12)
 const V = new URLSearchParams(location.search).get('v') || 'pannus';
-window.SCENE = { duration: 21, fps: 30 };
+window.SCENE = { duration: ({ sacro: 24, sjogren: 23, nefritis: 24, uv: 23, patergia: 22, dactilitis: 22, chapel: 23, still: 22, mtx: 22, reactiva: 22, pmr: 22 })[V] || 21, fps: 30 };
 const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
 const K = KIT(L), { seg, fade, rnd } = K;
 const I = k => window.IMGS[k];
@@ -142,11 +143,270 @@ function esclero(t) {
     K.card(620, 150, 620, 120, C.RED, 'Colágeno en piel, pulmón, riñón', ['Anti-ARN polimerasa tres: crisis renal'], seg(t, 11, 0.5), 17); }
 }
 
+
+// ---- Variantes nuevas (reuma-05, 07, 09, 10, 15, 17, 18, 19, 20, 22, 23) ----
+const G = GRAPH(L);
+const fx = (a, b, t, d) => seg(t, a, d);   // alias legible
+const flash = (t, f = 3) => 0.85 + 0.15 * Math.sin(t * f);
+function note(t, a, b, s, x, y, col = C.AMBER, size = 14) { const k = fade(t, a, b, 0.5); if (k > 0) { ctx.globalAlpha = k; tag(s, x, y, col, size); ctx.globalAlpha = 1; } }
+
+// reuma-17: de la sacroilíaca a la columna en caña de bambú. pelvis 256x294 a 420 px: (90+px, 179+py)
+function sacro(t) {
+  K.title('Espondilitis anquilosante: de la sacroilitis a la columna', 'La inflamación sube y el hueso nuevo une las vértebras', C.AMBER);
+  const X = px => 90 + px, Y = py => 179 + py;
+  draw('bassin', 300, 420, 420, seg(t, 0, 0.6));
+  const s1 = ease(seg(t, 1.5, 3));
+  [[165, 192], [256, 192]].forEach(([px, py]) => spot(X(px), Y(py), 28 + 26 * s1, '255,120,40', 0.85 * s1 * flash(t)));
+  note(t, 2.5, 7, 'Sacroilitis bilateral y simétrica', 300, 150, C.AMBER);
+  // inflamación ascendente: discos lumbares (py 133, 100, 50)
+  [[133, 7.5], [100, 9], [50, 10.5]].forEach(([py, a]) => { const k = ease(seg(t, a, 1.5)); spot(X(210), Y(py), 26 + 12 * k, '255,120,40', 0.8 * k * flash(t, 4)); });
+  note(t, 8, 13, 'Sube vértebra por vértebra', 300, 150, C.RED);
+  // sindesmofitos: puentes óseos a ambos lados de la columna, de abajo hacia arriba
+  const b = ease(seg(t, 12.5, 4));
+  if (b > 0) { ctx.save(); ctx.strokeStyle = 'rgba(255,248,225,0.95)'; ctx.lineWidth = 9; ctx.lineCap = 'round'; ctx.shadowColor = 'rgba(255,255,255,0.9)'; ctx.shadowBlur = 10;
+    [X(186), X(234)].forEach(x => { ctx.beginPath(); ctx.moveTo(x, Y(142)); ctx.lineTo(x, Y(142 - 124 * b)); ctx.stroke(); }); ctx.restore(); }
+  note(t, 15, 21, 'Sindesmofitos: caña de bambú', 300, 150, C.INK);
+  K.card(620, 150, 620, 120, C.AMBER, 'HLA-B27 y sacroilitis', ['Siempre bilateral y simétrica', 'La puerta de entrada del cuadro'], seg(t, 2, 0.5), 17);
+  K.card(620, 290, 620, 120, C.RED, 'Progresión ascendente', ['De las sacroilíacas a lumbar, dorsal y cervical', 'Rigidez y pérdida de movilidad'], seg(t, 8, 0.5), 17);
+  K.card(620, 430, 620, 120, C.BLUE, 'Anquilosis', ['Osificación del anillo fibroso y de ligamentos', 'La columna se vuelve un hueso rígido'], seg(t, 13, 0.5), 17);
+  K.banner(620, 590, 620, 'Metotrexato NO sirve en el compromiso axial', C.GREEN, seg(t, 19, 0.5));
+}
+
+// reuma-15: Sjögren. glándulas 895x1062 a 420 px: (80+px, 171+py)
+function sjogren(t) {
+  K.title('Síndrome de Sjögren: glándulas que se secan', 'El linfocito rodea el conducto y el ácino se atrofia', C.BLUE);
+  const X = px => 80 + px, Y = py => 171 + py;
+  draw('glan', 290, 420, 420, seg(t, 0, 0.6));
+  const inf = ease(seg(t, 2, 6)), atr = ease(seg(t, 9, 5));
+  // saliva: gotas que salen de la parótida hacia la boca, cada vez menos
+  const P = poly([[X(150), Y(250)], [X(230), Y(270)], [X(330), Y(280)]]);
+  dots(P, 6, t, 'rgba(120,200,255,0.95)', 0.25, 5, (1 - atr) * seg(t, 0.5, 0.5));
+  // linfocitos que llegan a la parótida y a la submandibular
+  const rn = K.rnd;
+  for (let i = 0; i < 12; i++) { const k = clamp(inf * 1.3 - rn(i) * 0.3, 0, 1); if (k <= 0) continue;
+    const gx = i < 8 ? X(110 + rn(i + 3) * 70) : X(170 + rn(i + 3) * 60), gy = i < 8 ? Y(190 + rn(i + 7) * 90) : Y(340 + rn(i + 7) * 25);
+    const sx = i < 8 ? X(20) : X(60), sy = i < 8 ? Y(330 - i * 25) : Y(470);
+    draw('lin', lerp(sx, gx, k), lerp(sy, gy, k), 26, Math.min(1, k * 4)); }
+  // atrofia: se apaga el color de las glándulas
+  if (atr > 0) [[210, 406, 46, 76, -0.2], [270, 523, 62, 24, 0.12], [348, 493, 48, 20, -0.25]].forEach(([ex, ey, rx, ry, rot]) => { ctx.save(); ctx.beginPath(); ctx.ellipse(ex, ey, rx, ry, rot, 0, 7); ctx.clip(); draw('glan', 290, 420, 420, 0.92 * atr, 'saturate(0.08) brightness(0.72)'); ctx.restore(); });
+  note(t, 3, 9, 'Infiltrado linfocitario periductal', 280, 140, C.BLUE);
+  note(t, 10, 16, 'Atrofia acinar: boca seca', 280, 140, C.AMBER);
+  const ey = seg(t, 12, 1); if (ey > 0) { ctx.globalAlpha = ey; tag('Ojo seco: arenilla', 490, 270, C.AMBER, 14); ctx.globalAlpha = 1; }
+  K.card(620, 150, 620, 120, C.BLUE, 'Autoinmunidad epiteliotrópica', ['Anti-Ro (SSA) y anti-La (SSB)', 'Linfocitos B hiperreactivos'], seg(t, 3, 0.5), 17);
+  K.card(620, 290, 620, 120, C.AMBER, 'Síndrome sicca', ['Xeroftalmia y xerostomía', 'Test de Schirmer y biopsia de glándula salival menor'], seg(t, 10, 0.5), 17);
+  K.card(620, 430, 620, 120, C.RED, 'Alerta: linfoma MALT', ['Parótida dura o asimétrica que persiste', 'Riesgo de linfoma de células B'], seg(t, 15, 0.5), 17);
+  K.banner(620, 590, 620, 'Anti-Ro de la madre: lupus neonatal y bloqueo', C.VIOLET, seg(t, 19, 0.5));
+}
+
+// reuma-09: glomérulo (zoom). nefrona 570x825 a 360 px: (50+px, 170+py)
+function nefritis(t) {
+  K.title('Nefritis lúpica: dónde se depositan los inmunocomplejos', 'El sitio del depósito define la clase y el síndrome', C.VIOLET);
+  draw('nef', 220, 430, 360, seg(t, 0, 0.6));
+  // lente sobre el glomérulo: centro del glomérulo en dibujo (95,95) → (50+95, 170+95)
+  const lk = ease(seg(t, 1.5, 1.2)), cx = 700, cy = 360, R = 190 * lk;
+  if (lk > 0) { const gx = 50 + 95, gy = 170 + 95; ctx.strokeStyle = C.VIOLET; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(gx, gy, 46, 0, 7); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(gx + 46, gy); ctx.lineTo(cx - R, cy); ctx.stroke();
+    ctx.save(); ctx.beginPath(); ctx.arc(cx, cy, R, 0, 7); ctx.clip(); ctx.fillStyle = '#161B22'; ctx.fillRect(cx - R, cy - R, 2 * R, 2 * R);
+    const im = I('nef'), sc = 570 / 360, sx = 95 * sc - 78, sy = 95 * sc - 78; ctx.drawImage(im, sx, sy, 156, 156, cx - 190, cy - 190, 380, 380); ctx.restore();
+    ctx.strokeStyle = '#B388FF'; ctx.lineWidth = 4; ctx.beginPath(); ctx.arc(cx, cy, R, 0, 7); ctx.stroke(); }
+  const dep = (a, b, col, pts) => { const k = ease(seg(t, a, b)); pts.forEach(([x, y], i) => { const kk = clamp(k * 1.4 - i * 0.06, 0, 1); if (kk <= 0) return;
+    ctx.globalAlpha = kk; ctx.fillStyle = col; ctx.beginPath(); ctx.arc(cx + x, cy + y, 7, 0, 7); ctx.fill(); ctx.strokeStyle = '#fff'; ctx.lineWidth = 1.5; ctx.stroke(); ctx.globalAlpha = 1; }); };
+  // subendotelial (dentro del asa capilar): clase III y IV
+  if (lk > 0.95) {
+    dep(4, 3, '#FF5A4E', [[-70, -20], [-50, 20], [-20, 40], [10, 20], [30, -20], [0, -50], [-40, -60], [50, 30], [-10, 70], [-80, 40]]);
+    spot(cx, cy, 130, '255,90,70', 0.35 * ease(seg(t, 7, 3)) * flash(t));
+  }
+  note(t, 4, 12, 'Subendotelial: proliferativa (clases III y IV)', 700, 140, C.RED, 16);
+  // subepitelial: clase V (puntos fuera del asa, más afuera)
+  if (lk > 0.95) dep(12.5, 3, '#4FA3FF', [[-120, 0], [-110, 50], [-90, -60], [100, -40], [120, 20], [90, 80], [20, -110], [-30, 110], [-70, 90], [60, -90]]);
+  note(t, 13, 21, 'Subepitelial: membranosa (clase V)', 700, 140, C.BLUE, 16);
+  K.card(940, 190, 320, 130, C.RED, 'Clases III y IV', ['Síndrome nefrítico', 'Hematuria, HTA, creatinina'], seg(t, 8, 0.5), 17);
+  K.card(940, 340, 320, 130, C.BLUE, 'Clase V', ['Síndrome nefrótico', 'Proteinuria masiva; riesgo trombótico'], seg(t, 15, 0.5), 17);
+  K.banner(500, 640, 700, 'Biopsia renal ante proteinuria o sedimento activo', C.VIOLET, seg(t, 19.5, 0.5));
+}
+
+// reuma-10: lupus cutáneo subagudo y la luz UV. epidermis 714x1079 a 380 px: (40+px*0.905, 105+py*0.905)
+function uv(t) {
+  K.title('Lupus cutáneo subagudo: la luz ultravioleta', 'La luz expone el Ro en el queratinocito y el anticuerpo lo marca', C.AMBER);
+  const ex = px => 40 + px * 0.905, ey = py => 112 + py * 0.905;
+  draw('epi', 230, 415, 380, seg(t, 0, 0.6));
+  // rayos UV
+  const u = seg(t, 1.5, 1) * (1 - seg(t, 8, 1));
+  for (let i = 0; i < 7; i++) { const x = 70 + i * 55, p = (t * 1.2 + i * 0.3) % 1; ctx.globalAlpha = u * 0.9; ctx.strokeStyle = '#FFD84A'; ctx.lineWidth = 4; ctx.beginPath();
+    ctx.moveTo(x - 40, 118); for (let k = 0; k < 6; k++) ctx.lineTo(x - 40 + k * 8 + (k % 2 ? 8 : -2), 118 + k * 20 * (0.4 + p)); ctx.stroke(); }
+  ctx.globalAlpha = 1;
+  note(t, 2, 8, 'Luz UV', 740, 135, C.AMBER);
+  // queratinocitos diana (centros aprox. en el dibujo de 420)
+  const cells = [[190, 185], [305, 235], [150, 300], [260, 345], [70, 360]];
+  const ro = ease(seg(t, 3.5, 2.5));
+  cells.forEach(([px, py], i) => { for (let a = 0; a < 6; a++) { const ang = a * 1.05 + i; ctx.globalAlpha = ro; ctx.fillStyle = '#3DDC84'; ctx.beginPath(); ctx.arc(ex(px) + Math.cos(ang) * 38, ey(py) + Math.sin(ang) * 30, 4.5, 0, 7); ctx.fill(); } ctx.globalAlpha = 1; });
+  note(t, 4.5, 9.5, 'Antígeno Ro en la superficie', 740, 135, C.GREEN);
+  // anticuerpos anti-Ro que llegan
+  const ab = ease(seg(t, 8, 3));
+  cells.forEach(([px, py], i) => { const k = clamp(ab * 1.4 - i * 0.1, 0, 1); if (k > 0) draw('ac', lerp(ex(px) + 160, ex(px) + 40, k), lerp(ey(py) - 140, ey(py) - 20, k), 34, Math.min(1, k * 3)); });
+  note(t, 9, 14, 'Anti-Ro (SSA)', 740, 135, C.VIOLET);
+  const ap = ease(seg(t, 12, 4));
+  cells.forEach(([px, py]) => spot(ex(px), ey(py), 52 * ap, '255,60,60', 0.45 * ap * flash(t)));
+  note(t, 13, 20, 'Apoptosis e inflamación: placa anular', 740, 135, C.RED);
+  K.card(500, 170, 740, 130, C.AMBER, 'Lesión fotosensible', ['Placas anulares o papuloescamosas en cuello y escote', 'Respeta la cara; cura sin cicatriz'], seg(t, 4, 0.5), 18);
+  K.card(500, 320, 740, 130, C.VIOLET, 'Anti-Ro y embarazo', ['La madre con anti-Ro puede tener un hijo con lupus neonatal', 'Bloqueo cardíaco: daño permanente'], seg(t, 11, 0.5), 18);
+  K.card(500, 470, 740, 130, C.BLUE, 'Cuidado con el sistémico', ['Pedir ANA, anti-dsDNA, complemento, hemograma y orina', 'Todo lupus cutáneo: descartar compromiso de órganos'], seg(t, 15, 0.5), 18);
+  K.banner(500, 640, 740, 'Fotoprotección y derivar a dermatología', C.GREEN, seg(t, 19, 0.5));
+}
+
+// reuma-20: patergia. epidermis a 380 px
+function patergia(t) {
+  K.title('Behçet: el fenómeno de patergia', 'Un pinchazo estéril y el neutrófilo responde de más', C.RED);
+  const ex = px => 40 + px * 0.905, ey = py => 112 + py * 0.905;
+  draw('epi', 230, 415, 380, seg(t, 0, 0.6));
+  // aguja: baja desde arriba hasta la dermis y sale
+  const nk = ease(seg(t, 1.5, 1.5)) * (1 - ease(seg(t, 4, 1.2)));
+  const nx = 230, ny = 100 + nk * 330;
+  if (nk > 0.001) { ctx.save(); ctx.beginPath(); ctx.rect(0, 120, 1280, 600); ctx.clip(); ctx.strokeStyle = '#F2F5F8'; ctx.lineWidth = 7; ctx.shadowColor = 'rgba(0,0,0,0.8)'; ctx.shadowBlur = 6; ctx.beginPath(); ctx.moveTo(nx, ny - 160); ctx.lineTo(nx, ny); ctx.stroke(); ctx.shadowBlur = 0; ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.moveTo(nx - 6, ny); ctx.lineTo(nx + 6, ny); ctx.lineTo(nx, ny + 20); ctx.fill(); ctx.restore(); }
+  note(t, 2, 6, 'Pinchazo con aguja estéril', 740, 135, C.INK);
+  // neutrófilos que convergen al sitio (hacia 230, 330)
+  const nk2 = ease(seg(t, 5, 7));
+  for (let i = 0; i < 9; i++) { const k = clamp(nk2 * 1.3 - i * 0.05, 0, 1); if (k <= 0) continue; const a = i * 0.7;
+    draw('neu', lerp(230 + Math.cos(a) * 190, 230 + Math.cos(a) * 30, k), lerp(430 + Math.sin(a) * 150, 330 + Math.sin(a) * 24, k), 52, Math.min(1, k * 3)); }
+  note(t, 6, 13, 'Hiperquimiotaxis neutrofílica', 740, 135, C.AMBER);
+  // reloj 0 → 48 h y pústula
+  const h = Math.round(lerp(0, 48, seg(t, 6, 8)));
+  if (t > 5.5) { ctx.globalAlpha = seg(t, 5.5, 0.5); rrect(500, 175, 230, 70, 14, '#161B22'); text(`${h} horas`, 615, 223, 34, h >= 24 ? C.RED : C.INK, 'bold', 'center'); ctx.globalAlpha = 1; }
+  const pu = ease(seg(t, 11, 4));
+  if (pu > 0) { spot(230, 330, 60 * pu, '255,250,210', 0.95 * pu); spot(230, 330, 34 * pu, '255,255,255', 0.9 * pu); }
+  note(t, 12, 20, 'Pústula estéril mayor de 2 mm', 740, 135, C.RED);
+  K.card(500, 230, 740, 130, C.RED, 'Prueba positiva', ['A las 24 a 48 horas: pápula o pústula estéril', 'Mayor de dos milímetros en el pinchazo'], seg(t, 13, 0.5), 18);
+  K.card(500, 380, 740, 130, C.AMBER, 'Sello neutrofílico', ['Behçet es una vasculitis de vaso variable', 'Asociada a HLA-B51'], seg(t, 15, 0.5), 18);
+  K.banner(500, 560, 740, 'Aftas orales y genitales + uveítis con hipopión + patergia', C.VIOLET, seg(t, 17, 0.5));
+}
+
+// reuma-18: dactilitis. mano 269x467 a 270 px: (115+px, 196+py)
+function dactilitis(t) {
+  const aps = t >= 10;
+  K.title(aps ? 'Artritis psoriásica: la interfalángica distal y el dedo en salchicha' : 'Artritis reumatoide: manos simétricas, sin distales', aps ? 'Dactilitis y uñas en dedal' : 'Metacarpofalángicas e interfalángicas proximales', aps ? C.AMBER : C.BLUE);
+  const X = px => 115 + px, Y = py => 196 + py;
+  draw('mano', 250, 430, 270, 1);
+  if (!aps) {
+    const k = ease(seg(t, 1.5, 2));
+    [[92, 205], [142, 205], [205, 215], [248, 215], [95, 108], [142, 103], [214, 132], [252, 178]].forEach(([px, py]) => spot(X(px), Y(py), 22 + 12 * k, '90,160,255', 0.8 * k * flash(t)));
+    note(t, 3, 8.5, 'Respeta las interfalángicas distales', 250, 150, C.GREEN);
+    K.card(520, 170, 720, 130, C.BLUE, 'Artritis reumatoide', ['Simétrica de metacarpofalángicas y proximales', 'Las distales están preservadas'], seg(t, 2.5, 0.5), 18);
+  } else {
+    const k = ease(seg(t, 10.5, 2));
+    [[93, 80], [145, 73], [212, 104]].forEach(([px, py]) => spot(X(px), Y(py), 20 + 12 * k, '255,170,40', 0.85 * k * flash(t)));
+    const d = ease(seg(t, 13, 2.5));
+    if (d > 0) { ctx.save(); ctx.globalAlpha = 0.55 * d * flash(t, 4); ctx.fillStyle = '#FF6A3C'; ctx.beginPath(); ctx.roundRect(X(124) - 6 * d, Y(-4) - 6 * d, 56 + 12 * d, 200 + 8 * d, 30); ctx.fill();
+      ctx.globalAlpha = d; ctx.strokeStyle = '#FF8A5C'; ctx.lineWidth = 3; ctx.stroke(); ctx.restore(); }
+    note(t, 11, 15, 'Interfalángicas distales', 250, 150, C.AMBER);
+    note(t, 14, 21, 'Dactilitis: todo el dedo, como una salchicha', 250, 150, C.RED);
+    K.card(520, 170, 720, 130, C.AMBER, 'Artritis psoriásica', ['Interfalángicas distales y pitting ungueal', 'Dactilitis por artritis y tenosinovitis'], seg(t, 11, 0.5), 18);
+  }
+  K.card(520, 330, 720, 120, C.VIOLET, 'Seronegativa', ['Factor reumatoide y anti-CCP negativos', 'Criterios CASPAR'], seg(t, 12.5, 0.5), 18);
+  K.card(520, 470, 720, 120, C.RED, 'Imagen en lápiz en copa', ['Destrucción de la interfalángica distal', 'Metotrexato; anti-TNF si falla'], seg(t, 16, 0.5), 18);
+}
+
+// reuma-22: vasculitis de vaso pequeño. vaso 784x302 a 520 px
+function chapel(t) {
+  K.title('Vasculitis de vaso pequeño: ANCA frente a IgA', 'Dos mecanismos distintos en el mismo tamaño de vaso', C.RED);
+  const vy1 = 250, vy2 = 520;
+  draw('vaso', 300, vy1, 520, seg(t, 0, 0.6)); draw('vaso', 300, vy2, 520, seg(t, 0.4, 0.6));
+  ctx.globalAlpha = seg(t, 0.6, 0.6); text('ANCA: pauciinmune', 40, 160, 22, C.RED, 'bold'); text('IgA: Henoch-Schönlein', 40, 430, 22, C.AMBER, 'bold'); ctx.globalAlpha = 1;
+  // ANCA: neutrófilo activado por el anticuerpo, degranula y necrosa la pared
+  const nk = ease(seg(t, 2, 3));
+  draw('neu', lerp(120, 270, nk), lerp(150, vy1 + 30, nk), 54, Math.min(1, nk * 3));
+  if (nk > 0.9) { draw('ac', 306, vy1 - 8, 42, seg(t, 4.8, 0.5)); }
+  const nec = ease(seg(t, 5.5, 3));
+  spot(270, vy1 + 40, 60 * nec, '40,20,20', 0.85 * nec); spot(270, vy1 + 40, 45 * nec, '255,60,60', 0.45 * nec * flash(t));
+  for (let i = 0; i < 8; i++) { const k = clamp(seg(t, 8, 4) * 1.4 - i * 0.07, 0, 1); if (k <= 0) continue; ctx.globalAlpha = k; ctx.fillStyle = '#FF3030'; ctx.beginPath(); ctx.arc(250 + (i - 4) * 14, vy1 + 40 + k * (50 + i * 6), 5, 0, 7); ctx.fill(); ctx.globalAlpha = 1; }
+  note(t, 6, 13, 'Capilaritis necrotizante y sangrado', 400, 188, C.RED);
+  // IgA: depósitos en la pared
+  for (let i = 0; i < 10; i++) { const k = clamp(seg(t, 11, 4) * 1.3 - i * 0.06, 0, 1); if (k <= 0) continue; ctx.globalAlpha = k; ctx.fillStyle = '#FFC247'; ctx.beginPath(); ctx.arc(120 + i * 38, vy2 + 62 - Math.abs(Math.sin(i)) * 14 - (i > 5 ? i * 6 : 0), 8, 0, 7); ctx.fill(); ctx.strokeStyle = '#fff'; ctx.lineWidth = 1.5; ctx.stroke(); ctx.globalAlpha = 1; }
+  note(t, 12, 19, 'Depósitos de inmunocomplejos IgA', 400, 458, C.AMBER);
+  K.card(640, 150, 600, 110, C.RED, 'GPA: c-ANCA (PR3)', ['Vía aérea superior, nódulos cavitados, riñón'], seg(t, 4, 0.5), 17);
+  K.card(640, 270, 600, 110, C.RED, 'PAM: p-ANCA (MPO)', ['Riñón y pulmón, sin vía aérea superior'], seg(t, 6, 0.5), 17);
+  K.card(640, 390, 600, 110, C.GREEN, 'EGPA', ['Asma, pólipos y eosinofilia'], seg(t, 8, 0.5), 17);
+  K.card(640, 510, 600, 110, C.AMBER, 'Henoch-Schönlein', ['Púrpura palpable, artralgias, dolor abdominal, nefritis'], seg(t, 13, 0.5), 17);
+  K.banner(640, 640, 600, 'Inducción grave: cotrimoxazol de profilaxis', C.VIOLET, seg(t, 19, 0.5));
+}
+
+// ---- gráficos sin anatomía ----
+function still(t) {
+  K.title('Enfermedad de Still: fiebre en agujas', 'Sube a 39 o más una o dos veces al día y baja a lo normal', C.RED);
+  const ax = G.axes({ x: 110, y: 170, w: 700, h: 380 }, [0, 6], [36, 41], { xt: [0, 1, 2, 3, 4, 5, [6, '6 días']], yt: [36, 37, 38, 39, 40], yl: 'Temperatura (°C)', xl: 'Días' });
+  ax.draw(seg(t, 0, 0.7));
+  const f = x => { const d = x % 1; return 36.8 + 3.1 * Math.exp(-Math.pow((d - 0.7) / 0.07, 2)) + 0.5 * Math.exp(-Math.pow((d - 0.2) / 0.05, 2)); };
+  const k = seg(t, 1, 9); const p = G.curve(ax, f, k, C.RED, 4); if (k < 1) G.head(p, C.RED);
+  G.hline(ax, 39, C.AMBER, '39 °C', seg(t, 2, 0.8), 'left');
+  // exantema evanescente: puntos salmón que aparecen con cada pico y se van
+  const e = (x0) => clamp(seg(t, 1 + 9 * x0 / 6, 0.6) * (1 - seg(t, 1 + 9 * (x0 + 0.5) / 6, 0.6)), 0, 1);
+  [0.7, 1.7, 2.7, 3.7, 4.7].forEach(x => { const a = e(x); if (a > 0) { ctx.globalAlpha = a; ctx.fillStyle = '#FF9A8A'; ctx.beginPath(); ctx.arc(ax.X(x), ax.Y(40.5), 9, 0, 7); ctx.fill(); ctx.globalAlpha = 1; } });
+  note(t, 3, 11, 'Exantema salmón: con la fiebre y se va', 460, 150, '#FF9A8A', 16);
+  K.card(850, 170, 390, 130, C.RED, 'Yamaguchi (mayores)', ['Fiebre de 39 °C o más por una semana', 'Artralgias, rash, leucocitosis'], seg(t, 4, 0.5), 17);
+  K.card(850, 320, 390, 130, C.AMBER, 'Ferritina muy alta', ['Mil a cinco mil o más', 'Ferritina glicosilada baja'], seg(t, 8, 0.5), 17);
+  K.card(850, 470, 390, 110, C.VIOLET, 'Urgencia: SAM', ['Citopenias y VHS que cae', 'Pulsos de metilprednisolona'], seg(t, 14, 0.5), 17);
+  K.banner(110, 620, 700, 'Fiebre en agujas + exantema evanescente = pensar en Still', C.GREEN, seg(t, 18, 0.5));
+}
+
+function mtx(t) {
+  K.title('Artritis reumatoide: el puente de corticoide', 'El metotrexato tarda semanas; la prednisona cubre el hueco y se retira', C.BLUE);
+  const ax = G.axes({ x: 110, y: 170, w: 720, h: 380 }, [0, 24], [0, 100], { xt: [0, 6, 12, 18, [24, '24 sem']], yt: [0, 50, 100], yl: 'Actividad y dosis (relativas)', xl: 'Semanas' });
+  ax.draw(seg(t, 0, 0.7));
+  const act = G.smooth([[0, 100], [2, 92], [6, 78], [9, 56], [12, 38], [18, 25], [24, 20]]);
+  const pred = G.smooth([[0, 70], [3, 62], [6, 50], [9, 28], [12, 10], [14, 0], [24, 0]]);
+  const mtxc = G.smooth([[0, 5], [6, 30], [12, 80], [18, 95], [24, 100]]);
+  G.band(ax, 0, 100, 'rgba(255,194,71,0.14)', seg(t, 2.2, 0.6), null, 6, 12);
+  if (seg(t, 2.2, 0.6) > 0) { ctx.globalAlpha = seg(t, 2.2, 0.6); text('Latencia: 6 a 12 semanas', ax.X(9), ax.Y(100) + 24, 17, C.AMBER, 'bold', 'center'); ctx.globalAlpha = 1; }
+  const k1 = seg(t, 1, 12), p1 = G.curve(ax, mtxc, k1, C.BLUE, 4); if (k1 < 1) G.head(p1, C.BLUE);
+  const k2 = seg(t, 3, 11), p2 = G.curve(ax, pred, k2, C.AMBER, 4); if (k2 < 1) G.head(p2, C.AMBER);
+  const k3 = seg(t, 5, 12), p3 = G.curve(ax, act, k3, C.RED, 5); if (k3 < 1) G.head(p3, C.RED);
+  [['Efecto del metotrexato', C.BLUE], ['Prednisona (puente)', C.AMBER], ['Actividad de la enfermedad', C.RED]].forEach(([s, c], i) => { ctx.fillStyle = c; ctx.fillRect(130, 600 + i * 0 - 0, 0, 0); });
+  [['Metotrexato semanal + ácido fólico', C.BLUE, 104], ['Prednisona menor de 10 mg: solo puente', C.AMBER, 134], ['Actividad: remisión o baja', C.RED, 164]].forEach(([s, c, dy], i) => { ctx.globalAlpha = seg(t, 1 + i, 0.5); ctx.fillStyle = c; ctx.fillRect(870, 104 + i * 30 + 70 - 20 + 0, 14, 14); text(s, 892, 104 + i * 30 + 70 - 8, 16, C.INK); ctx.globalAlpha = 1; });
+  K.card(870, 290, 380, 130, C.AMBER, 'Regla de oro', ['Los corticoides nunca solos', 'Se retiran cuando el FARME actúa'], seg(t, 8, 0.5), 17);
+  K.card(870, 440, 380, 130, C.GREEN, 'Meta', ['Remisión o baja actividad', 'Revisar cada tres meses'], seg(t, 14, 0.5), 17);
+  K.banner(110, 620, 720, 'Ventana de oportunidad: iniciar el FARME en las primeras 12 semanas', C.VIOLET, seg(t, 18, 0.5));
+}
+
+function reactiva(t) {
+  K.title('Artritis reactiva: la infección se fue, la artritis llega', 'Una a cuatro semanas después, con el líquido estéril', C.AMBER);
+  const ax = G.axes({ x: 110, y: 200, w: 760, h: 300 }, [0, 24], [0, 100], { xt: [0, 4, 8, 12, 16, 20, [24, '24 sem']], yt: [], xl: 'Semanas' });
+  ax.draw(seg(t, 0, 0.7));
+  const inf = G.smooth([[0, 100], [1, 70], [2, 20], [3, 0], [24, 0]]);
+  const art = G.smooth([[0, 0], [2, 5], [3, 40], [5, 80], [8, 85], [14, 60], [20, 25], [24, 10]]);
+  G.band(ax, 0, 100, 'rgba(255,194,71,0.13)', seg(t, 3, 0.6), null, 1, 4);
+  if (seg(t, 3, 0.6) > 0) { ctx.globalAlpha = seg(t, 3, 0.6); text('◂ Latencia inmune: 1 a 4 semanas', ax.X(4.4), ax.Y(22), 17, C.AMBER, 'bold', 'left'); ctx.globalAlpha = 1; }
+  const k1 = seg(t, 1, 3), p1 = G.curve(ax, inf, k1, C.RED, 5, 0, 24); const k2 = seg(t, 5, 10), p2 = G.curve(ax, art, k2, C.BLUE, 5, 0, 24); if (k2 < 1) G.head(p2, C.BLUE);
+  ctx.globalAlpha = seg(t, 1.5, 0.5); text('Uretritis o diarrea', ax.X(0.4), ax.Y(inf(0.4)) - 14, 17, C.RED, 'bold'); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 7, 0.5); text('Artritis estéril: HLA-B27', ax.X(8), ax.Y(art(8)) - 16, 17, C.BLUE, 'bold', 'center'); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 13, 0.5); text('Autolimitada: 3 a 6 meses', ax.X(18), ax.Y(art(18) + 30), 17, C.GREEN, 'bold', 'center'); ctx.globalAlpha = 1;
+  K.card(110, 530, 370, 130, C.AMBER, 'Tríada clásica', ['Uretritis, conjuntivitis y artritis', 'Balanitis circinada, queratodermia'], seg(t, 9, 0.5), 17);
+  K.card(500, 530, 370, 130, C.BLUE, 'Tratamiento', ['AINEs a dosis plenas', 'Sulfasalazina si pasa de 3 meses'], seg(t, 14, 0.5), 17);
+  K.card(900, 200, 340, 150, C.RED, 'Joven con derrame', ['Artrocentesis siempre:', 'descartar artritis séptica gonocócica'], seg(t, 6, 0.5), 17);
+  K.banner(900, 380, 340, 'Cultivo del líquido: negativo', C.GREEN, seg(t, 16, 0.5));
+}
+
+function pmr(t) {
+  K.title('Polimialgia reumática: prednisona en dosis baja', 'Respuesta espectacular en horas y descenso lento por años', C.AMBER);
+  const ax = G.axes({ x: 110, y: 170, w: 720, h: 360 }, [0, 24], [0, 25], { xt: [0, 6, 12, 18, [24, '24 meses']], yt: [0, 5, 10, 15, 20, 25], yl: 'Prednisona (mg al día)', xl: 'Meses' });
+  ax.draw(seg(t, 0, 0.7));
+  const dose = x => x < 1 ? 17.5 : Math.max(2.5, 17.5 - (x - 1) * 1.0);
+  const k = seg(t, 1.5, 11), p = G.curve(ax, dose, k, C.AMBER, 5); if (k < 1) G.head(p, C.AMBER);
+  ctx.globalAlpha = seg(t, 2, 0.5); tag('15 a 20 mg al inicio', ax.X(2.5), ax.Y(21), C.AMBER, 15); ctx.globalAlpha = 1;
+  G.vline(ax, 0.1, C.GREEN, '', seg(t, 2.5, 0.5));
+  note(t, 3, 9, 'Mejora en 48 a 72 horas: prueba terapéutica', 330, 585, C.GREEN, 15);
+  ctx.globalAlpha = seg(t, 8, 0.5); tag('Baja 1 a 2 mg por mes', ax.X(14), ax.Y(12), C.BLUE, 15); ctx.globalAlpha = 1;
+  K.card(870, 170, 370, 140, C.GREEN, 'Si no mejora en una semana', ['Casi descarta polimialgia', 'Pensar en otro diagnóstico'], seg(t, 5, 0.5), 17);
+  K.card(870, 330, 370, 130, C.RED, 'Tratar 1 a 2 años', ['Calcio y vitamina D, bifosfonato', 'Nunca suspender de golpe'], seg(t, 11, 0.5), 17);
+  K.card(870, 480, 370, 120, C.BLUE, 'Con recaídas', ['Metotrexato o tocilizumab', 'Con reumatología'], seg(t, 16, 0.5), 17);
+  K.banner(110, 620, 720, 'Mayor de 50, rigidez en cinturas, VHS alta y fuerza normal', C.VIOLET, seg(t, 18, 0.5));
+}
+
 window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
-  ({ pannus, raynaud, liquidos, septica, lupus, entesis, temporal, al, esclero })[V](t);
-  if (V === 'liquidos') text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); else K.credit(); };
+  ({ pannus, raynaud, liquidos, septica, lupus, entesis, temporal, al, esclero, sacro, sjogren, nefritis, uv, patergia, dactilitis, chapel, still, mtx, reactiva, pmr })[V](t);
+  if (['liquidos', 'still', 'mtx', 'reactiva', 'pmr'].includes(V)) text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); else K.credit(); };
 LOAD({ art: '../assets/servier/articulacion_ar.png', manoar: '../assets/servier/mano_ar.png', mano: '../assets/servier/mano.png', codo: '../assets/servier/codo.png',
   nef: '../assets/servier/nefrona.png', epi: '../assets/servier/epidermis.png', pul: '../assets/servier/pulmones.png', cab: '../assets/servier/arterias_cabeza.png',
-  ojo: '../assets/servier/fondo_ojo.png', trombo: '../assets/servier/vasos_trombo.png', sil: '../assets/servier/silueta_nino.png' });
+  ojo: '../assets/servier/fondo_ojo.png', trombo: '../assets/servier/vasos_trombo.png', sil: '../assets/servier/silueta_nino.png',
+  bassin: '../assets/servier/bassin_05.png', glan: '../assets/servier/Glandes_salivaires.png', lin: '../assets/servier/linfocito.png', epi: '../assets/servier/epidermis.png',
+  ac: '../assets/servier/anticuerpo.png', neu: '../assets/servier/neutrofilo.png', vaso: '../assets/servier/vaso_curvo.png' });
 </script>
 </body></html>

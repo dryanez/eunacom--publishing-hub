@@ -68,13 +68,15 @@ module.exports = {
         { show: ['pro'], note: 'El pródromo antecede a las lesiones',
           say: 'Uno a tres días antes de las lesiones, el paciente hace un cuadro pseudogripal: fiebre sobre treinta y ocho y medio, malestar general, dolor faríngeo y un ardor ocular que ya anuncia el compromiso de mucosas que viene.' },
         { show: ['dia'], note: 'Diana atípica: solo 2 anillos, no 3',
-          say: 'Después aparecen las lesiones cutáneas, y aquí hay un detalle fino que se pregunta: son dianas atípicas, con solo dos anillos concéntricos y un centro purpúrico o ampollar, a diferencia de la diana clásica de tres anillos del eritema multiforme, que vemos en la próxima clase. Y el dolor cutáneo es intenso, desproporcionado para lo que se ve al examinar.' },
+          say: 'Después aparecen las lesiones cutáneas, y aquí hay un detalle fino que se pregunta: son dianas atípicas, con solo dos anillos concéntricos y un centro purpúrico o ampollar, a diferencia de la diana clásica de tres anillos del eritema multiforme, que vemos en la próxima clase. Y el dolor cutáneo es intenso, desproporcionado para lo que se ve al examinar. Mira estas lesiones: anillos planos de dos zonas, con el centro purpúrico.',
+            photo: { src: '_verificadas/282_derma_Dianas_atípicas_del_SSJ__HarrisonsP_p414_1.jpg', label: 'Dianas atípicas', at: 'Mira estas lesiones', credit: 'Harrison\'s Principles of Internal Medicine, 21.ª ed., p. 414' } },
         { show: ['fli'], note: 'Ampollas flácidas que confluyen',
           say: 'Esas lesiones confluyen y forman grandes ampollas flácidas, que se rompen con facilidad y dejan la dermis roja y denudada, con aspecto de escaldadura térmica.' },
         { show: ['nik'], note: 'La maniobra que confirma el diagnóstico al examen físico',
           say: 'Y aquí está el signo que más se pregunta: el signo de Nikolsky. Al deslizar el dedo con una fricción suave sobre piel eritematosa que parece intacta, la epidermis se despega en sábana y deja la dermis húmeda al descubierto. Existe también el signo de Asboe-Hansen: al comprimir el centro de una ampolla intacta, el líquido se extiende hacia los lados.' },
         { show: ['muc'], note: 'El riesgo ocular es el que deja secuela',
-          say: 'Y en más del noventa por ciento de los casos hay compromiso severo de al menos dos mucosas: la oral, con costras hemáticas gruesas en los labios; la ocular, con riesgo de simbléfaron y ceguera; y la urogenital. Por eso la interconsulta oftalmológica es urgente, desde el primer día.' },
+          say: 'Y en más del noventa por ciento de los casos hay compromiso severo de al menos dos mucosas: la oral, con costras hemáticas gruesas en los labios; la ocular, con riesgo de simbléfaron y ceguera; y la urogenital. Por eso la interconsulta oftalmológica es urgente, desde el primer día. Mira esta boca y estos labios: erosiones y costras hemorrágicas que le impiden comer y hablar.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-09/01_necrolisis_mucosa_oral__fitzpatrick_p390.jpg', label: 'Mucosa oral y labios', at: 'Mira esta boca', credit: 'Fitzpatrick 7.ª ed., p. 390' } },
       ],
     },
 
@@ -85,7 +87,8 @@ module.exports = {
       cards: [
         { title: 'Síndrome de Stevens-Johnson', tag: 'Menos del 10 por ciento', kind: 'criteria', items: [
           { t: 'Desprendimiento menor al 10% de la BSA', d: 'Con compromiso grave de 2 o más mucosas',
-            say: 'La distinción entre estos cuadros no depende de la gravedad clínica que impresiona al ojo: es estrictamente cuantitativa, según el porcentaje de superficie corporal total con desprendimiento franco. Si es menos del diez por ciento, con compromiso de dos o más mucosas, hablamos de Síndrome de Stevens-Johnson.' },
+            say: 'La distinción entre estos cuadros no depende de la gravedad clínica que impresiona al ojo: es estrictamente cuantitativa, según el porcentaje de superficie corporal total con desprendimiento franco. Si es menos del diez por ciento, con compromiso de dos o más mucosas, hablamos de Síndrome de Stevens-Johnson. Mira estos labios con erosiones y costras: en el Stevens-Johnson las mucosas se comprometen casi siempre, aunque la piel desprendida sea poca.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-09/02_ssj_labios__fitzpatrick_p685.jpg', label: 'Stevens-Johnson: labios', at: 'Mira estos labios', credit: 'Fitzpatrick 7.ª ed., p. 685' } },
         ] },
         { title: 'Superposición SSJ / NET', tag: 'Entre el 10 y el 30 por ciento', kind: 'alert', items: [
           { t: 'Zona intermedia de gravedad', d: 'Mortalidad entre 10 y 15 por ciento',
@@ -93,7 +96,8 @@ module.exports = {
         ] },
         { title: 'Necrólisis Epidérmica Tóxica', tag: 'Más del 30 por ciento', kind: 'alert', items: [
           { t: 'Puede llegar al 70 u 80% de la piel', d: 'Mortalidad de 30 a 50 por ciento',
-            say: 'Y sobre el treinta por ciento, es Necrólisis Epidérmica Tóxica, o síndrome de Lyell, que puede llegar a comprometer hasta el ochenta por ciento de toda la piel, con una mortalidad de treinta a cincuenta por ciento por sepsis y shock. Guarda este corte: menos de diez, Stevens-Johnson; más de treinta, NET.' },
+            say: 'Y sobre el treinta por ciento, es Necrólisis Epidérmica Tóxica, o síndrome de Lyell, que puede llegar a comprometer hasta el ochenta por ciento de toda la piel, con una mortalidad de treinta a cincuenta por ciento por sepsis y shock. Guarda este corte: menos de diez, Stevens-Johnson; más de treinta, NET. Mira esta espalda: la epidermis se despega en láminas y deja la dermis roja y húmeda, como en un gran quemado.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-09/01_net__amir-derma_p105.jpg', label: 'Necrólisis epidérmica', at: 'Mira esta espalda', credit: 'Manual AMIR Dermatología, p. 105' } },
         ] },
       ],
     },
@@ -149,32 +153,30 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Stevens-Johnson y necrólisis',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-09/01_necrolisis_mucosa_oral__fitzpatrick_p390.jpg', label: 'Mucosas', credit: 'Fitzpatrick 7.ª ed., p. 390 (figura completa, ~480 px)' },
-        { src: 'biblioteca/11_dermatologia/derma-09/01_net__amir-derma_p105.jpg', label: 'Necrólisis epidérmica', credit: 'Manual AMIR Dermatología, p. 105' },
-      ],
-      steps: [
-        { note: 'Erosiones en labios y boca',
-          say: 'El Stevens Johnson compromete las mucosas: erosiones en labios y boca.' },
-        { note: 'La piel se desprende',
-          say: 'Y en la necrólisis la piel se desprende en láminas. Se suspende el fármaco y se trata en unidad de quemados.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Las mucosas en el Stevens-Johnson',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-09/02_ssj_labios__fitzpatrick_p685.jpg', label: 'Labios y boca en el Stevens-Johnson', credit: 'Fitzpatrick 7.ª ed., p. 685 (figura completa, ~480 px)' },
-      ],
-      steps: [
-        { note: 'Labios con erosiones y costras',
-          say: 'Otra vez las mucosas: labios con erosiones y costras. En el Stevens Johnson las mucosas se comprometen en más del noventa por ciento de los casos.' },
+      type: 'points',
+      kicker: 'El gran imitador',
+      title: 'Síndrome de piel escaldada por estafilococos',
+      cards: [
+        { title: 'Mecanismo y quién lo sufre', tag: 'Toxinas exfoliativas', kind: 'key', items: [
+          { t: 'Toxinas A y B cortan la desmogleína 1', d: 'Clivaje superficial, en el estrato granuloso',
+            say: 'El síndrome de piel escaldada por estafilococos lo producen las toxinas exfoliativas A y B del Staphylococcus aureus, que cortan la desmogleína uno en el estrato granuloso. Por eso el clivaje es muy superficial y las ampollas son flácidas y se rompen con facilidad.' },
+          { t: 'Recién nacidos y menores de 6 años', d: 'En adultos: insuficiencia renal o inmunosupresión',
+            say: 'Afecta a recién nacidos y niños menores de cinco a seis años, porque su riñón depura mal la toxina y aún no tienen anticuerpos. En adultos solo aparece con insuficiencia renal o inmunosupresión.' },
+        ] },
+        { title: 'Cómo se presenta', tag: 'Foco distante', kind: 'alert', items: [
+          { t: 'Foco infeccioso y luego eritema doloroso', d: 'Conjuntivitis, impétigo, onfalitis, otitis',
+            say: 'Primero hay un foco infeccioso lejano, como una conjuntivitis, un impétigo o una onfalitis, y luego fiebre, irritabilidad y un eritema escarlatiniforme muy doloroso en cara, cuello, axilas e ingles. Mira a este niño: costras radiadas alrededor de la boca y erosiones húmedas, como escaldadas.',
+            photo: { src: 'biblioteca/19_dermatologia/derma-09/10_sspe-nikolsky__harrison_p1225.jpg', label: 'Piel escaldada', at: 'Mira a este niño', credit: "Harrison's Principles of Internal Medicine, 21.ª ed., p. 1225" } },
+          { t: 'Nikolsky positivo, mucosas respetadas', d: 'Sin dianas atípicas; cura en 5 a 7 días',
+            say: 'Aquí está la diferencia con el Stevens-Johnson y la necrólisis: las mucosas están respetadas, no hay dianas atípicas, la lesión es más superficial y cura en cinco a siete días sin cicatriz. El signo de Nikolsky es positivo, como ves en este recién nacido. Los cultivos de las ampollas son estériles, y el cultivo se toma del foco primario.',
+            photo: { src: '_verificadas/280_derma_Signo_de_Nikolsky__nelsontext_p5312_1.jpg', label: 'Nikolsky positivo', at: 'como ves en este recién nacido', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 5312' } },
+        ] },
+        { title: 'Conducta inicial', tag: 'Hospitalizar', kind: 'pharma', items: [
+          { t: 'Cloxacilina endovenosa', d: 'Vancomicina si hay sospecha de SARM; clindamicina asociada',
+            say: 'Ante la sospecha en un lactante o preescolar, se hospitaliza: antibiótico antiestafilocócico endovenoso, cloxacilina, o vancomicina si se sospecha SARM, a veces con clindamicina para frenar la síntesis de toxina.' },
+          { t: 'Cuidados de quemado superficial', d: 'Sin corticoides ni AINE; pronóstico excelente en niños',
+            say: 'Se agregan analgesia, hidratación, control de la temperatura y curaciones con emolientes y apósitos no adhesivos. Se evitan los corticoides y los AINE. En niños el pronóstico es excelente, con mortalidad menor del cinco por ciento, y se trata el foco primario y a los portadores en brotes.' },
+        ] },
       ],
     },
 
@@ -199,6 +201,8 @@ module.exports = {
           say: 'Un bicarbonato de dieciséis suma un punto en el SCORTEN, porque el corte es bajo veinte. El error es mirar solo la piel y olvidar que el laboratorio también define el pronóstico.' },
         { cells: ['Diana de 2 anillos y desprendimiento cutáneo', 'Pensar en SSJ o NET', 'Confundirlo con eritema multiforme'],
           say: 'Y la última, que conecta con la próxima clase: una diana de solo dos anillos, con dolor intenso y desprendimiento, es SSJ o NET, no eritema multiforme. El eritema multiforme tiene tres anillos y nunca despega la piel.' },
+        { cells: ['Niño con ampollas flácidas, Nikolsky positivo y mucosas respetadas', 'Piel escaldada por estafilococos: hospitalizar y dar cloxacilina endovenosa', 'Tratarlo como Stevens-Johnson, con corticoides'],
+          say: 'Y un niño con ampollas flácidas, Nikolsky positivo y mucosas respetadas es una piel escaldada por estafilococos: se hospitaliza y se da cloxacilina endovenosa. El error es tratarlo como un Stevens-Johnson, con corticoides.' },
       ],
     },
 
@@ -269,6 +273,82 @@ module.exports = {
         options: 'Las opciones: psoriasis eritrodérmica, escarlatina quirúrgica, pustulosis exantemática, necrólisis epidérmica tóxica, o pénfigo. Piénsalo.',
         answer: 'Es la D, Necrólisis Epidérmica Tóxica. La cirugía es la pista de los fármacos: antibióticos perioperatorios, con una latencia de dos semanas. El dolor cutáneo desproporcionado, el eritema generalizado, el compromiso de mucosas y las ampollas que se generalizan describen exactamente el cuadro que vimos hoy. El pénfigo da ampollas flácidas también, pero sin este pródromo febril agudo ni esta latencia farmacológica tan característica.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.1.025 · Reacciones cutáneas por drogas (rush, toxidermia fija)",
+      "stem": "Mujer de 30 años consulta por tercera vez en un año por una mancha redonda de 3 cm en el dorso de la mano, eritematoviolácea, con ardor, que aparece siempre en el mismo sitio unas horas después de tomar ibuprofeno por dismenorrea. Al resolverse deja una mancha café grisácea. No tiene compromiso de mucosas ni fiebre.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Eritema multiforme menor"
+        },
+        {
+          "letter": "B",
+          "text": "Dermatitis de contacto alérgica"
+        },
+        {
+          "letter": "C",
+          "text": "Urticaria aguda"
+        },
+        {
+          "letter": "D",
+          "text": "Síndrome de Stevens-Johnson"
+        },
+        {
+          "letter": "E",
+          "text": "Eritema pigmentado fijo"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La toxidermia fija o eritema pigmentado fijo es una placa eritematoviolácea que reaparece siempre en el mismo sitio tras reexponerse al mismo fármaco, típicamente AINEs, cotrimoxazol o tetraciclinas, y deja hiperpigmentación residual. El tratamiento es suspender y evitar el fármaco.",
+      "say": {
+        "stem": "Mujer de treinta años que consulta por tercera vez en un año por una mancha redonda de tres centímetros en el dorso de la mano, rojo violácea y con ardor, que aparece siempre en el mismo lugar unas horas después de tomar ibuprofeno. Al resolverse deja una mancha café grisácea. No tiene compromiso de mucosas ni fiebre.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: eritema multiforme menor, dermatitis de contacto, urticaria aguda, Stevens-Johnson o eritema pigmentado fijo. Piénsalo.",
+        "answer": "Es la E. Misma lesión, mismo sitio, mismo fármaco y una mancha residual: eso es el eritema pigmentado fijo. El eritema multiforme tienta por la forma redonda, pero sus lesiones en diana son múltiples, simétricas, suelen seguir a un herpes y no se repiten siempre en el mismo punto."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.2.014 · Síndrome de piel escaldada por estafilococos",
+      "stem": "Niño de 3 años con fiebre e irritabilidad de 2 días tras una conjuntivitis purulenta. Presenta eritema difuso, doloroso al tacto, más intenso en pliegues y periorificial, con costras radiadas alrededor de la boca y ampollas flácidas que se rompen dejando áreas denudadas. Nikolsky positivo. Las mucosas oral y conjuntival no tienen erosiones.",
+      "question": "¿Cuál es el diagnóstico y el tratamiento?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Síndrome de piel escaldada por estafilococo; hospitalización y cloxacilina (o cefazolina) endovenosa con soporte"
+        },
+        {
+          "letter": "B",
+          "text": "Necrólisis epidérmica tóxica; suspender fármacos e inmunoglobulina"
+        },
+        {
+          "letter": "C",
+          "text": "Impétigo ampollar localizado; mupirocina"
+        },
+        {
+          "letter": "D",
+          "text": "Escarlatina; amoxicilina oral"
+        },
+        {
+          "letter": "E",
+          "text": "Pénfigo vulgar; corticoides sistémicos"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En niños pequeños, una toxina exfoliativa del S. aureus produce despegamiento intraepidérmico superficial (granuloso) a distancia del foco: eritema doloroso, Nikolsky positivo y costras periorificiales, sin compromiso de mucosas. Se hospitaliza y trata con antiestafilocócico endovenoso y soporte (hidratación, analgesia). En la NET hay mucosas comprometidas y antecedente de fármaco.",
+      "say": {
+        "stem": "Niño de tres años con fiebre, eritema doloroso, costras alrededor de la boca, ampollas flácidas que se despegan y Nikolsky positivo, sin lesiones en las mucosas, tras una conjuntivitis purulenta.",
+        "question": "¿Cuál es el diagnóstico y el tratamiento?",
+        "options": "Las opciones: síndrome de piel escaldada con cloxacilina endovenosa, necrólisis epidérmica tóxica, impétigo ampollar, escarlatina o pénfigo vulgar. Piénsalo.",
+        "answer": "Es la A. Es un síndrome de piel escaldada por toxina estafilocócica y se trata con antibiótico antiestafilocócico endovenoso y soporte. La necrólisis epidérmica tóxica tienta por el despegamiento, pero compromete las mucosas y se asocia a fármacos."
+      }
     },
 
     {

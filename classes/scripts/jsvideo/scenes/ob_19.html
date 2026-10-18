@@ -1,0 +1,122 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Obstetricia (ob-19) sobre ilustración real: mama con su árbol de conductos (Blausen «Breast Cancer», sin el tumor ni rótulos;
+// recorte ampliado: assets/blausen/ob_mama_conductos.png). Coordenadas de trabajo en un cuadro de 714x714.
+//   ?v=mastitis   A1: leche estancada en un conducto + grieta del pezón → infección → mastitis → vaciar y antibiótico
+const V = new URLSearchParams(location.search).get('v') || 'mastitis';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+
+const S = 0.82, DST = { x: 40, y: 124, w: 714 * S, h: 714 * S };
+const P = (x, y) => [DST.x + x * S, DST.y + y * S];
+const NIP = [398, 303];
+// conductos: del lobulillo al pezón
+const DUCTS = [
+  [[215, 215], [262, 235], [305, 262], [345, 285], [388, 298]],      // 0: lobulillo superoexterno (el que se obstruye)
+  [[385, 175], [392, 230], [396, 280], [398, 296]],
+  [[490, 230], [450, 275], [418, 296], [404, 300]],
+  [[240, 470], [300, 420], [350, 370], [386, 322], [396, 308]],
+  [[330, 545], [350, 450], [388, 340], [397, 310]],
+  [[440, 510], [430, 430], [412, 345], [402, 310]],
+  [[500, 450], [462, 385], [425, 330], [405, 308]],
+].map(d => poly(d.map(p => P(...p))));
+const BLOCK = [305, 262];
+
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  ctx.drawImage(I('mama'), DST.x, DST.y, DST.w, DST.h); ctx.restore();
+}
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function milk(t, d, a, dir, speed, stop, n = 7) {            // gotas de leche por un conducto (dir -1 hacia el pezón, 1 hacia afuera)
+  if (a <= 0) return; const path = DUCTS[d];
+  for (let i = 0; i < n; i++) {
+    let u = ((t * speed) + i / n) % 1; if (stop != null) u = Math.min(u, stop); // se acumulan detrás de la obstrucción
+    const [x, y] = path.at(dir < 0 ? 1 - u : u);
+    ctx.globalAlpha = a * Math.min(1, u * 8, (1 - u) * 8 + (stop != null ? 1 : 0)); ctx.fillStyle = '#FFF6DC'; ctx.strokeStyle = 'rgba(160,120,60,0.7)'; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.arc(x, y, 3.8, 0, 7); ctx.fill(); ctx.stroke();
+  }
+  ctx.globalAlpha = 1;
+}
+function bacteria(x, y, a, ang) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y); ctx.rotate(ang);
+  ctx.fillStyle = '#6FD36B'; ctx.strokeStyle = '#1F6B2B'; ctx.lineWidth = 1.2; ctx.beginPath(); ctx.ellipse(0, 0, 8, 5, 0, 0, 7); ctx.fill(); ctx.stroke(); ctx.restore();
+}
+function arrow(x0, y0, x1, y1, col, a, w = 6) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = w; ctx.lineCap = 'round';
+  const ang = Math.atan2(y1 - y0, x1 - x0), hx = x1 - Math.cos(ang) * 13, hy = y1 - Math.sin(ang) * 13;
+  ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(hx, hy); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(hx - Math.sin(ang) * 10, hy + Math.cos(ang) * 10); ctx.lineTo(hx + Math.sin(ang) * 10, hy - Math.cos(ang) * 10); ctx.closePath(); ctx.fill(); ctx.restore();
+}
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+function mastitis(t) {
+  K.title('Mastitis: conducto obstruido que se infecta', 'La leche estancada es el terreno; el estafilococo, la chispa', C.RED);
+  lamina(seg(t, 0, 0.7));
+  ctx.save(); ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  // flujo normal de leche hacia el pezón
+  const stasis = seg(t, 4.2, 1), cleared = ease(seg(t, 17.5, 2.5));
+  const blocked = stasis * (1 - cleared);
+  for (let d = 1; d < DUCTS.length; d++) milk(t + d * 0.13, d, seg(t, 0.8, 0.6) * (1 - 0.35 * seg(t, 5, 1) * (1 - cleared)), -1, 0.22, null, 6);
+  if (blocked < 0.5) milk(t, 0, seg(t, 0.8, 0.6) * (1 - stasis * 2 + 0), -1, 0.22, null, 6);
+  if (stasis > 0 && cleared < 1) milk(t, 0, 1, -1, 0.2, 0.34, 7);
+  if (cleared > 0) milk(t, 0, cleared, -1, 0.26, null, 7);
+  // lobulillo con leche retenida
+  const swell = ease(seg(t, 5, 3)) * (1 - ease(seg(t, 18, 3)));
+  if (swell > 0) { const [lx, ly] = P(232, 228); const g = ctx.createRadialGradient(lx, ly, 5, lx, ly, 64 * (0.6 + 0.5 * swell));
+    g.addColorStop(0, `rgba(255,248,222,${0.85 * swell})`); g.addColorStop(1, 'rgba(255,248,222,0)'); ctx.fillStyle = g; ctx.fillRect(lx - 90, ly - 90, 180, 180); }
+  // inflamación
+  const inf = ease(seg(t, 11.5, 3)) * (1 - ease(seg(t, 18.5, 3.5)));
+  if (inf > 0) { const [fx, fy] = P(252, 245); K.glow(fx, fy, 150 * (0.85 + 0.15 * Math.sin(t * 3)), '255,40,40', 0.62 * inf); }
+  // bacterias que suben por el conducto desde la grieta
+  const bt = seg(t, 8, 1) * (1 - ease(seg(t, 18, 3)));
+  if (bt > 0) for (let i = 0; i < 6; i++) { const u = clamp(ease(seg(t, 8.4 + i * 0.25, 3.2)), 0, 1); const [x, y] = DUCTS[0].at(1 - u * 0.78); bacteria(x + (i % 2 ? 4 : -4), y + (i % 3 - 1) * 4, bt, i); }
+  // grieta del pezón
+  const fis = seg(t, 7.2, 0.6) * (1 - ease(seg(t, 19, 2)));
+  if (fis > 0) { const [nx, ny] = P(...NIP); ctx.globalAlpha = fis; ctx.strokeStyle = '#7A0C1E'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(nx - 9, ny - 8); ctx.lineTo(nx - 2, ny - 1); ctx.lineTo(nx - 8, ny + 4); ctx.lineTo(nx + 2, ny + 11); ctx.stroke(); ctx.globalAlpha = 1; }
+  // obstrucción
+  if (blocked > 0.01) { const [bx, by] = P(...BLOCK); ctx.globalAlpha = blocked; ctx.strokeStyle = C.RED; ctx.lineWidth = 6; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(bx - 11, by - 11); ctx.lineTo(bx + 11, by + 11); ctx.moveTo(bx + 11, by - 11); ctx.lineTo(bx - 11, by + 11); ctx.stroke(); ctx.globalAlpha = 1; }
+  // vaciamiento: leche y flechas hacia afuera del pezón
+  const em = seg(t, 15.5, 0.8);
+  if (em > 0) { const [nx, ny] = P(...NIP); arrow(nx + 10, ny - 8, nx + 78, ny - 56, C.GREEN, em); arrow(nx + 14, ny + 4, nx + 88, ny - 16, C.GREEN, em); }
+  ctx.restore();
+  // rótulos
+  label('Conductos y lobulillos', 300, 640, C.BLUE, ...P(330, 440), fade(t, 1.4, 4.8));
+  label('Pezón', 540, 170, C.MUTED, ...P(...NIP), fade(t, 1.8, 4.6));
+  label('Conducto obstruido: leche estancada', 330, 160, C.AMBER, ...P(...BLOCK), fade(t, 4.8, 11));
+  label('Grieta del pezón: puerta de entrada', 520, 640, C.RED, ...P(396, 312), fade(t, 7.6, 12.5));
+  label('Placa roja y caliente', 150, 380, C.RED, ...P(258, 252), fade(t, 12.8, 18));
+  label('Antibiótico y vaciar la mama', 440, 160, C.GREEN, ...P(468, 258), fade(t, 15.6, 21));
+  // píldoras
+  const ph = seg(t, 15, 0.5) * (1 - seg(t, 19, 0.6));
+  if (ph > 0) for (let i = 0; i < 4; i++) { const u = ((t * 0.5) + i / 4) % 1; const [px, py] = P(lerp(150, 235, u), lerp(100, 225, u)); K.pill(px, py, '#E9F2FF', '#4FA3FF', ph * Math.min(1, u * 5, (1 - u) * 5), -0.5 + u); }
+  // panel derecho
+  const temp = lerp(36.8, 39.2, ease(seg(t, 11.5, 3))) - 2.2 * ease(seg(t, 18, 3));
+  const vac = lerp(100, 35, ease(seg(t, 4.2, 3.5))) + 60 * ease(seg(t, 17.5, 3));
+  rrect(700, 112, 550, 150, 16, '#161B22');
+  K.bar(722, 152, 506, 'Vaciamiento de la mama', Math.min(100, vac), 100, '%', vac < 60 ? C.AMBER : C.GREEN);
+  K.bar(722, 216, 506, 'Temperatura', temp, 40, '°C', temp > 38 ? C.RED : C.GREEN, [[38, '38 °C']], v => v.toFixed(1).replace('.', ','));
+  K.card(700, 280, 550, 108, C.AMBER, '1 · Estasis de leche', ['Un conducto se obstruye y la leche se estanca', 'Aparece en la 2.ª a 4.ª semana'], seg(t, 4.6, 0.5), 17);
+  K.card(700, 400, 550, 108, C.RED, '2 · Infección: mastitis', ['Estafilococo dorado por la grieta del pezón', 'Una sola mama: placa roja, fiebre, calofríos'], seg(t, 10, 0.5), 17);
+  K.card(700, 520, 550, 108, C.GREEN, '3 · Tratamiento', ['Cloxacilina oral por 10 a 14 días', 'Seguir amamantando y vaciar la mama'], seg(t, 15.2, 0.5), 17);
+  K.banner(700, 640, 550, 'Nunca suspendas la lactancia', C.GREEN, seg(t, 20.5, 0.5));
+}
+const SCN = { mastitis: { f: mastitis, dur: 24 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({ mama: '../assets/blausen/ob_mama_conductos.png' });
+</script>
+</body></html>

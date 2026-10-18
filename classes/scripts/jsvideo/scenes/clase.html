@@ -30,7 +30,17 @@ const seg = (t, a, d) => clamp((t - a) / d, 0, 1);
 
 // ---------- texto ----------
 const wrapCache = new Map();
+let HY = false;   // con fotos en contexto (columnas angostas): una palabra con guion que no cabe se corta en el guion
+function wrapHy(s, maxW, font) {
+  ctx.font = font; const lines = []; let cur = '', toks = [];
+  for (const w of String(s).split(/\s+/)) {
+    if (ctx.measureText(w).width > maxW && w.includes('-')) w.split(/(?<=-)/).forEach((p, i) => toks.push([p, i > 0])); else toks.push([w, false]);
+  }
+  for (const [w, glue] of toks) { const tr = cur ? cur + (glue ? '' : ' ') + w : w; if (ctx.measureText(tr).width > maxW && cur) { lines.push(cur); cur = w; } else cur = tr; }
+  if (cur) lines.push(cur); return lines;
+}
 function wrap(s, maxW, font) {
+  if (HY) { const k = 'hy|' + font + '|' + maxW + '|' + s; if (!wrapCache.has(k)) wrapCache.set(k, wrapHy(s, maxW, font)); return wrapCache.get(k); }
   const key = font + '|' + maxW + '|' + s; if (wrapCache.has(key)) return wrapCache.get(key);
   ctx.font = font; const lines = []; let cur = '';
   for (const w of String(s).split(/\s+/)) {
@@ -112,13 +122,13 @@ function footer(t) {
   ctx.fillStyle = '#1A1F27'; ctx.fillRect(0, 716, W, 4); ctx.fillStyle = C.CYAN; ctx.fillRect(0, 716, W * k, 4);
   text(`AEE · ${D.spec} ${D.topic} · ${D.title}`, 40, 702, F(13, 500), C.MUTED, 'left', 0.8);
 }
-function caption(s, t0, t, color = C.CYAN) {
+function caption(s, t0, t, color = C.CYAN, cx = 640, mw = 980) {
   if (!s) return; const a = seg(t, t0, 0.4);
   ctx.save(); ctx.globalAlpha *= a; ctx.font = F(20, 600);
-  const L = wrap(s, 980, F(20, 600)), w = Math.max(...L.map(l => ctx.measureText(l).width)) + 48, h = 22 + L.length * 26;
+  const L = wrap(s, mw, F(20, 600)), w = Math.max(...L.map(l => ctx.measureText(l).width)) + 48, h = 22 + L.length * 26;
   const y = 662 - h + (1 - out(a)) * 10;
-  rr(640 - w / 2, y, w, h, 14, 'rgba(14,17,22,0.92)', color, 2);
-  L.forEach((l, i) => text(l, 640, y + 33 + i * 26, F(20, 600), C.INK, 'center'));
+  rr(cx - w / 2, y, w, h, 14, 'rgba(14,17,22,0.92)', color, 2);
+  L.forEach((l, i) => text(l, cx, y + 33 + i * 26, F(20, 600), C.INK, 'center'));
   ctx.restore();
 }
 
@@ -191,8 +201,8 @@ function cover(s, t, lt, a) {
 }
 
 // ---------- diagrama de flujo ----------
-function flow(s, idx, lt, a) {
-  const NW = 250, NH = 108;
+function flow(s, idx, lt, a, AW = 1200, ca = 1) {
+  const NW = 250, NH = 108, fs = AW / 1200;
   const maxC = Math.max(1, ...s.nodes.map(n => n.col)), maxR = Math.max(1, ...s.nodes.map(n => n.row));
   const pos = {}; s.nodes.forEach(n => (pos[n.id] = [40 + n.col * ((1200 - NW) / maxC), 160 + n.row * ((410 - NH) / maxR)]));
   const beats = SLIDE_BEATS[idx].map(i => B[i]), t0 = beats[0].t0;
@@ -200,6 +210,7 @@ function flow(s, idx, lt, a) {
   beats.forEach(b => (s.steps[b.step].show || []).forEach((id, j) => { if (appear[id] == null) { appear[id] = sayT(b) - t0 + j * 0.35; stepOf[id] = b.step; } }));
   const cur = beats.filter(b => b.t0 - t0 <= lt).pop();
   ctx.save(); ctx.globalAlpha = a;
+  if (fs < 1) { ctx.translate(40, 160 + 410 * (1 - fs) / 2); ctx.scale(fs, fs); ctx.translate(-40, -160); }   // con fotos: diagrama a escala
   // aristas
   for (const e of s.edges) {
     if (appear[e.from] == null || appear[e.to] == null) continue;
@@ -232,12 +243,12 @@ function flow(s, idx, lt, a) {
     ctx.restore();
   }
   ctx.restore();
-  if (cur) caption(s.steps[cur.step].note, sayT(cur) - t0 + 0.3, lt);
+  if (cur) { ctx.save(); ctx.globalAlpha = ca; caption(s.steps[cur.step].note, sayT(cur) - t0 + 0.3, lt, C.CYAN, 40 + AW / 2, AW - 220); ctx.restore(); }
 }
 
 // ---------- tarjetas ----------
-function points(s, idx, lt, a) {
-  const n = s.cards.length, gap = 22, cw = (1200 - gap * (n - 1)) / n, top = 150;
+function points(s, idx, lt, a, AW = 1200) {
+  const n = s.cards.length, gap = 22, cw = (AW - gap * (n - 1)) / n, top = 150;
   const need = c => 62 + wrap(c.title, cw - 44, F(24, 800)).length * 29 + (c.tag ? 34 : 0) + 8 + c.items.reduce((h, it) =>
     h + wrap(it.t, cw - 70, F(21, 700)).length * 26 + wrap(it.d || '', cw - 70, F(17)).length * 22 + 22, 0) + 4;
   const bot = Math.min(676, top + Math.max(300, ...s.cards.map(need)));
@@ -276,11 +287,11 @@ function points(s, idx, lt, a) {
 }
 
 // ---------- tabla ----------
-function table(s, idx, lt, a) {
+function table(s, idx, lt, a, AW = 1200) {
   const beats = SLIDE_BEATS[idx].map(i => B[i]), t0 = beats[0].t0, cur = beats.filter(b => b.t0 - t0 <= lt).pop();
-  const cw = [470, 365, 365], x0 = 40; let y = 150;
+  const cw = [470, 365, 365].map(v => v * AW / 1200), x0 = 40; let y = 150;
   ctx.save(); ctx.globalAlpha = a;
-  rr(x0, y, 1200, 46, 12, C.CARD2);
+  rr(x0, y, AW, 46, 12, C.CARD2);
   let x = x0; s.head.forEach((h, i) => { text(h.toUpperCase(), x + 20, y + 30, F(14, 800), [C.MUTED, C.GREEN, C.RED][i]); x += cw[i]; });
   y += 56;
   const rowH = s.rows.map(r => Math.max(...r.cells.map((c, i) => wrap(c, cw[i] - 56, F(19, i ? 600 : 700)).length)) * 25 + 26);
@@ -288,7 +299,7 @@ function table(s, idx, lt, a) {
   s.rows.forEach((r, ri) => {
     const b = beats.find(b => b.row === ri), k = out(seg(lt, sayT(b) - t0, 0.45)), act = cur && cur.row === ri, h = rowH[ri] * sc;
     ctx.save(); ctx.globalAlpha = a * (k > 0 ? k * (act ? 1 : 0.62) : 0.1);
-    rr(x0, y, 1200, h, 12, act ? C.CARD2 : C.CARD, act ? hexA(C.CYAN, 0.7) : null, 2);
+    rr(x0, y, AW, h, 12, act ? C.CARD2 : C.CARD, act ? hexA(C.CYAN, 0.7) : null, 2);
     let xx = x0;
     r.cells.forEach((c, i) => {
       if (i) text(i === 1 ? '✓' : '✗', xx + 14, y + 13 + 21 * sc, F(20 * sc, 800), i === 1 ? C.GREEN : C.RED);
@@ -442,6 +453,83 @@ function photos(s, idx, lt, a, t0, beats) {
   });
 }
 
+// ---------- fotos en contexto ----------
+// Un ítem (points), un paso (flow) o una fila (table) puede traer photo: { src, label, at? } o photos: [..] (máx. 2).
+// En su beat la foto aparece grande al centro (fondo oscurecido), luego se achica y vuela a una columna a la derecha;
+// el contenido se reacomoda a un ancho menor mientras el fondo está oscuro. Sin fotos: todo igual que antes.
+const PCOL = { x: 900, w: 340, top: 150, bot: 676, gap: 18 }, PAW = PCOL.x - 24 - 40;   // ancho del contenido con fotos
+const POP = { in: 0.5, hold: 1.75, fly: 0.75 };
+const photoList = it => !it ? [] : (it.photos || (it.photo ? [it.photo] : [])).slice(0, 2);
+function slideItem(s, b) {
+  if (s.type === 'points' && b.kind === 'item') return s.cards[b.card].items[b.item];
+  if (s.type === 'flow') return s.steps[b.step];
+  if (s.type === 'table') return s.rows[b.row];
+  return null;
+}
+const CTXP = {};
+function ctxPhotos(idx) {
+  if (CTXP[idx]) return CTXP[idx];
+  const s = D.slides[idx], beats = SLIDE_BEATS[idx].map(i => B[i]), t0 = beats[0].t0, L = [];
+  if (['points', 'flow', 'table'].includes(s.type)) beats.forEach(b => {
+    const ps = photoList(slideItem(s, b));
+    ps.forEach((p, k) => L.push({ ...p, b, tp: sayT(b) - t0 + 0.15 + clamp(typeof p.at === 'number' ? p.at : k / ps.length, 0, 0.9) * (b.ad || 0) }));
+  });
+  const n = Math.min(3, L.length), sh = n ? (PCOL.bot - PCOL.top - PCOL.gap * (n - 1)) / n : 0;
+  L.splice(3); L.forEach((e, i) => (e.slot = { x: PCOL.x, y: PCOL.top + i * (sh + PCOL.gap), w: PCOL.w, h: sh }));
+  return (CTXP[idx] = L);
+}
+// cuánto del contenido ya pasó al ancho reducido (0 = ancho completo, 1 = reducido)
+function ctxNarrow(L, lt) {
+  if (!L.length) return 0;
+  if (L[0].tp < 1.6) return 1;                              // foto en el primer ítem: la diapositiva parte reducida
+  return ease(seg(lt, L[0].tp + 0.25, 0.9));
+}
+function drawCtxPhotos(L, lt, a) {
+  const st = L.map(e => {
+    const im = photoImg(e.src), u = lt - e.tp;
+    if (!im || u < 0) return null;
+    const pin = out(seg(u, 0, POP.in)), fly = ease(seg(u, POP.hold, POP.fly));
+    // grande al centro: cabe en 780×450, sin agrandar más de 2,2× (fotos de libro pequeñas)
+    const sb = Math.min(780 / im.width, 450 / im.height, 2.2), bw = im.width * sb, bh = im.height * sb;
+    const big = { x: 640 - bw / 2, y: 372 - bh / 2 - 18, w: bw, h: bh };
+    const lab = e.label ? 40 : 0, ss = Math.min(e.slot.w / im.width, (e.slot.h - lab) / im.height, 2.2);
+    const sw = im.width * ss, shh = im.height * ss;
+    const small = { x: e.slot.x + (e.slot.w - sw) / 2, y: e.slot.y + (e.slot.h - shh - lab) / 2, w: sw, h: shh };
+    const z = lerp(0.84, 1, pin);
+    const r = { x: lerp(big.x, small.x, fly), y: lerp(big.y, small.y, fly), w: lerp(big.w, small.w, fly), h: lerp(big.h, small.h, fly) };
+    if (fly === 0) { const cx = r.x + r.w / 2, cy = r.y + r.h / 2; r.w *= z; r.h *= z; r.x = cx - r.w / 2; r.y = cy - r.h / 2; }
+    return { e, im, r, pin, fly, dim: 0.62 * pin * (1 - fly) };
+  });
+  const dim = Math.max(0, ...st.map(p => (p ? p.dim : 0)));
+  const one = p => {
+    const { e, im, r, pin, fly } = p, al = a * pin;
+    ctx.save(); ctx.globalAlpha = al;
+    ctx.shadowColor = 'rgba(0,0,0,0.6)'; ctx.shadowBlur = lerp(48, 18, fly); ctx.shadowOffsetY = lerp(14, 6, fly);
+    rr(r.x, r.y, r.w, r.h, lerp(16, 12, fly), C.CARD); ctx.shadowColor = 'transparent';
+    ctx.beginPath(); ctx.roundRect(r.x, r.y, r.w, r.h, lerp(16, 12, fly)); ctx.save(); ctx.clip();
+    ctx.drawImage(im, r.x, r.y, r.w, r.h); ctx.restore();
+    rr(r.x, r.y, r.w, r.h, lerp(16, 12, fly), null, hexA(C.CYAN, lerp(0.85, 0.45, fly)), lerp(3, 2, fly));
+    if (e.label) {
+      const fz = lerp(21, 15, fly), f = F(fz, 700); ctx.font = f;
+      const tw = ctx.measureText(e.label).width + lerp(36, 26, fly), th = lerp(38, 30, fly), ly = r.y + r.h + lerp(14, 9, fly);
+      rr(r.x + r.w / 2 - tw / 2, ly, tw, th, th / 2, C.BG); rr(r.x + r.w / 2 - tw / 2, ly, tw, th, th / 2, hexA(C.CYAN, 0.16));
+      text(e.label, r.x + r.w / 2, ly + th / 2 + fz * 0.36, f, C.CYAN, 'center');
+    }
+    ctx.restore();
+  };
+  st.forEach(p => p && p.fly >= 1 && one(p));                 // ya acomodadas
+  if (dim > 0) { ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = `rgba(6,8,11,${dim})`; ctx.fillRect(0, 0, W, 712); ctx.restore(); }
+  st.forEach(p => p && p.fly < 1 && one(p));                  // la que está apareciendo o volando
+}
+function withPhotos(fn, s, idx, lt, a) {
+  const L = ctxPhotos(idx);
+  if (!L.length) return fn(s, idx, lt, a);
+  const nk = ctxNarrow(L, lt);
+  if (nk < 1) fn(s, idx, lt, a * (1 - nk), 1200, 1 - nk);
+  if (nk > 0) { HY = true; fn(s, idx, lt, a * nk, PAW, nk); HY = false; }
+  drawCtxPhotos(L, lt, a);
+}
+
 // ---------- render ----------
 window.SCENE = { duration: D.total, fps: 30 };
 window.render = async function (t) {
@@ -457,9 +545,9 @@ window.render = async function (t) {
   if (s.type === 'cover') cover(s, t, lt, a);
   else {
     chrome(s, t, a);
-    if (s.type === 'flow') flow(s, idx, lt, a);
-    else if (s.type === 'points') points(s, idx, lt, a);
-    else if (s.type === 'table') table(s, idx, lt, a);
+    if (s.type === 'flow') withPhotos(flow, s, idx, lt, a);
+    else if (s.type === 'points') withPhotos(points, s, idx, lt, a);
+    else if (s.type === 'table') withPhotos(table, s, idx, lt, a);
     else if (s.type === 'quiz') quiz(s, idx, lt, a);
     else if (s.type === 'pathway') pathway(s, idx, lt, a);
   }
@@ -469,6 +557,7 @@ window.render = async function (t) {
 Promise.all([loadImg('../assets/neurona_alpha.png'), document.fonts.load('800 20px Syne'), document.fonts.load('700 20px Inter'),
   document.fonts.load('400 20px Inter'), document.fonts.load('20px DMMono')]).then(() => document.fonts.ready)
   .then(() => Promise.all(D.slides.filter(s => s.type === 'image').flatMap(s => s.images).filter(i => !D.media[i.src])
+    .concat(D.slides.flatMap(s => [...(s.cards || []).flatMap(c => c.items), ...(s.type === 'flow' ? s.steps : []), ...(s.rows || [])]).flatMap(photoList))
     .map(i => loadImg('../../../media/' + i.src).then(im => PH[i.src] = { im }).catch(() => {}))))
   .then(async () => { await window.render(0); window.READY = true; });
 </script>

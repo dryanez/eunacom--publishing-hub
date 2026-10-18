@@ -1,0 +1,131 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Cirugía 11.5: úlcera que se perfora → aire libre bajo el diafragma (signo de Jobert, Rx de tórax de pie).
+// Base: Blausen.com staff (2014) "Abdominal Organs Anatomy", CC BY 3.0; rótulos en inglés quitados
+// (assets/blausen/abdomen_organos.png, 750x1500). Coordenadas en píxeles de esa imagen.
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+
+const SRC = { x: 130, y: 470, w: 500, h: 640 }, DST = { x: 40, y: 128 }, S = 0.9;
+DST.w = SRC.w * S; DST.h = SRC.h * S;
+const P = (x, y) => [DST.x + (x - SRC.x) * S, DST.y + (y - SRC.y) * S];
+const HOLE = [342, 846];                                                     // antro/duodeno
+// contorno superior del hígado (cúpula derecha), de lateral a medial
+const DOME = [[200, 772], [214, 748], [238, 730], [270, 719], [305, 713], [338, 716], [362, 730]];
+const BUB_PATH = [[342, 846], [326, 812], [300, 782], [272, 756], [262, 738]];
+
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  ctx.drawImage(I('abd'), SRC.x, SRC.y, SRC.w, SRC.h, DST.x, DST.y, DST.w, DST.h); ctx.restore();
+}
+function clipLamina() { ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip(); }
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function bubble(x, y, r, a) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  const g = ctx.createRadialGradient(x - r * 0.35, y - r * 0.4, r * 0.1, x, y, r);
+  g.addColorStop(0, 'rgba(255,255,255,0.95)'); g.addColorStop(0.6, 'rgba(170,225,255,0.55)'); g.addColorStop(1, 'rgba(120,190,240,0.7)');
+  ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill();
+  ctx.strokeStyle = 'rgba(255,255,255,0.9)'; ctx.lineWidth = 1.2; ctx.stroke(); ctx.restore();
+}
+// el trazo de burbujas sigue BUB_PATH (en px de pantalla)
+const BP = BUB_PATH.map(p => P(...p));
+function pathAt(s) {
+  const n = BP.length - 1, f = clamp(s, 0, 1) * n, i = Math.min(n - 1, Math.floor(f)), k = f - i;
+  return [lerp(BP[i][0], BP[i + 1][0], k), lerp(BP[i][1], BP[i + 1][1], k)];
+}
+// medialuna de aire entre el diafragma y la cúpula hepática; k 0..1 = cuánto ha crecido
+function crescent(k, t) {
+  if (k <= 0) return; const pts = DOME.map(p => P(...p));
+  ctx.save(); clipLamina();
+  const top = pts.map(([x, y], i) => { const m = Math.sin(Math.PI * i / (pts.length - 1)); return [x, y - 26 * k * m * S - 2 * k]; });
+  ctx.beginPath(); pts.forEach(([x, y], i) => i ? ctx.lineTo(x, y) : ctx.moveTo(x, y));
+  for (let i = top.length - 1; i >= 0; i--) ctx.lineTo(top[i][0], top[i][1]); ctx.closePath();
+  const g = ctx.createLinearGradient(0, top[3][1], 0, pts[3][1]);
+  g.addColorStop(0, 'rgba(210,240,255,0.95)'); g.addColorStop(1, 'rgba(120,200,255,0.75)');
+  ctx.fillStyle = g; ctx.fill(); ctx.strokeStyle = 'rgba(255,255,255,0.95)'; ctx.lineWidth = 2; ctx.stroke();
+  ctx.restore();
+}
+function diaphragm(a) {                                 // línea del diafragma derecho sobre la cúpula
+  if (a <= 0) return; const pts = DOME.map(p => P(...p));
+  ctx.save(); ctx.globalAlpha = a; clipLamina(); ctx.setLineDash([7, 5]); ctx.strokeStyle = '#7A3E5A'; ctx.lineWidth = 2.5; ctx.beginPath();
+  pts.forEach(([x, y], i) => i ? ctx.lineTo(x, y - 3) : ctx.moveTo(x, y - 3)); ctx.stroke(); ctx.restore();
+}
+function waves(x, y, t, col, a) {                          // percusión: ondas que se expanden
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.lineWidth = 3;
+  for (let i = 0; i < 3; i++) { const u = ((t * 0.8) + i / 3) % 1; ctx.globalAlpha = a * (1 - u); ctx.beginPath(); ctx.arc(x, y, 8 + 34 * u, 0, 7); ctx.stroke(); }
+  ctx.restore();
+}
+function finger(x, y, tt, a) {                               // dos golpecitos de percusión
+  if (a <= 0) return; const dy = -Math.abs(Math.sin(tt * 7)) * 12;
+  ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y + dy - 20); ctx.rotate(-0.35);
+  rrect(-8, -34, 16, 40, 8, '#F2C9A5'); ctx.fillStyle = 'rgba(0,0,0,0.12)'; ctx.fillRect(-8, -4, 16, 3); ctx.restore();
+}
+
+const DUR = 27;
+function scene(t) {
+  K.title('Úlcera perforada', 'El aire sale del tubo digestivo y sube bajo el diafragma', C.RED);
+  lamina(seg(t, 0, 0.7));
+  const [hx, hy] = P(...HOLE);
+  // rótulos de órganos
+  label('Pulmón derecho', 175, 180, '#D9D2C3', ...P(205, 600), fade(t, 0.8, 6.5));
+  label('Hígado', 135, 540, '#D9D2C3', ...P(222, 800), fade(t, 1.2, 12));
+  label('Estómago y duodeno', 405, 590, '#D9D2C3', ...P(420, 812), fade(t, 1.6, 6.5));
+  diaphragm(fade(t, 2, 18, 0.7));
+  label('Diafragma derecho', 150, 250, '#E7A6C3', ...P(228, 738), fade(t, 2.2, 18));
+  // úlcera: pulsa y luego se rompe
+  const pre = fade(t, 3, 7.2, 0.5), burst = seg(t, 7, 0.6);
+  if (pre > 0) { K.glow(hx, hy, 26 + 6 * Math.sin(t * 5), '255,60,50', 0.55 * pre); }
+  label('Úlcera: AINE, H. pylori', 545, 640, C.RED, hx + 4, hy, fade(t, 3.2, 7.2));
+  if (burst > 0) {
+    ctx.save(); ctx.globalAlpha = (1 - seg(t, 7, 1.6)) ; ctx.strokeStyle = '#FFE08A'; ctx.lineWidth = 4;
+    ctx.beginPath(); ctx.arc(hx, hy, 8 + 40 * ease(seg(t, 7, 1.4)), 0, 7); ctx.stroke(); ctx.restore();
+    ctx.save(); clipLamina(); ctx.fillStyle = '#4A1018'; ctx.beginPath(); ctx.arc(hx, hy, 5, 0, 7); ctx.fill(); ctx.restore();
+  }
+  label('Perforación', 545, 640, C.RED, hx + 4, hy, fade(t, 7.2, 13));
+  // burbujas de aire que suben (paciente de pie)
+  const rise = seg(t, 7.2, 8);
+  if (t > 7.2) {
+    for (let i = 0; i < 14; i++) {
+      const delay = i * 0.38, u = clamp((t - 7.4 - delay) / 5.2, 0, 1); if (u <= 0) continue;
+      const e = ease(u), [x, y] = pathAt(e), wob = Math.sin(t * 3 + i * 2.1) * 7 * (1 - u) + (rnd(i) - 0.5) * 24 * (1 - u);
+      bubble(x + wob, y, 7 + 4 * rnd(i + 9), u > 0.97 ? Math.max(0, 1 - (u - 0.97) * 30) : 1);
+    }
+    // gotas de contenido gástrico que quedan abajo
+    for (let i = 0; i < 6; i++) { const u = ((t * 0.5) + i / 6) % 1; if (t < 7.6) break; const a = Math.min(1, u * 5, (1 - u) * 3) * seg(t, 7.6, 0.6);
+      ctx.globalAlpha = a * 0.8; ctx.fillStyle = '#C9A227'; ctx.beginPath(); ctx.arc(hx - 10 + rnd(i) * 22, hy + 6 + u * 46, 3.2, 0, 7); ctx.fill(); ctx.globalAlpha = 1; }
+  }
+  const grow = ease(seg(t, 10.5, 4));
+  crescent(grow, t);
+  label('Aire libre bajo el diafragma', 300, 310, '#9ADBFF', ...P(285, 712), seg(t, 12.5, 0.6) * (1 - seg(t, 20.5, 0.6)));
+  // Jobert: percusión sobre el hígado
+  const jb = seg(t, 15.5, 0.5) * (1 - seg(t, 21.5, 0.6));
+  if (jb > 0) {
+    const [px, py] = P(246, 796), air = seg(t, 18, 1);
+    waves(px, py, t, air > 0.5 ? C.AMBER : C.GREEN, jb);
+    tag(air > 0.5 ? 'Timpanismo' : 'Matidez hepática', px, py + 52, air > 0.5 ? C.AMBER : C.GREEN, 15);
+  }
+  // panel derecho
+  K.card(640, 140, 600, 126, C.RED, 'Úlcera péptica que se perfora', ['Dolor en puñalada que se generaliza', 'Abdomen en tabla, paciente inmóvil'], seg(t, 3.4, 0.5), 18);
+  K.card(640, 282, 600, 126, '#9ADBFF', 'El aire se junta bajo el diafragma', ['De pie, sube a la cúpula derecha', 'Eso es el neumoperitoneo'], seg(t, 11, 0.5), 18);
+  K.card(640, 424, 600, 126, C.AMBER, 'Signo de Jobert', ['Desaparece la matidez hepática', 'Donde estaba el hígado hay aire'], seg(t, 17, 0.5), 18);
+  K.banner(640, 568, 600, 'Primer examen: radiografía de tórax de pie', '#9ADBFF', seg(t, 21.5, 0.5));
+  K.banner(640, 630, 600, 'Nunca endoscopía · Cirugía: parche de Graham', C.RED, seg(t, 23.5, 0.5));
+}
+window.SCENE = { duration: DUR, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); scene(t); K.credit('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios'); };
+LOAD({ abd: '../assets/blausen/abdomen_organos.png' });
+</script>
+</body></html>

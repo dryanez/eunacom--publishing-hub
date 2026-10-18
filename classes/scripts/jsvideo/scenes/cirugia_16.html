@@ -1,0 +1,64 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// cirugia-16 (gráfico sin anatomía): el día postoperatorio decide la causa de la fiebre (cinco W) y la PCR sube
+// fisiológicamente hasta el día 2-3 (100-150 mg/L en cirugía mayor); un valor persistente o un segundo ascenso después del día 3-4 sugiere complicación infecciosa.
+window.SCENE = { duration: 25, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const G = GRAPH(L), K = KIT(L), { seg } = K;
+
+const ax = G.axes({ x: 200, y: 150, w: 970, h: 240 }, [0, 10], [0, 300],
+  { xt: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, [10, 'día 10']], yt: [0, 50, 100, 150, 200], yl: 'PCR (mg/L)', xl: 'Día postoperatorio' });
+const normal = G.smooth([[0, 5], [0.5, 40], [1, 100], [2, 150], [3, 110], [4, 60], [5, 35], [6, 22], [7, 14], [8, 10], [10, 8]]);
+const comp = G.smooth([[3, 110], [4, 105], [5, 130], [6, 170], [7, 205], [8, 235]]);
+const LANES = [
+  ['Wind', 'Atelectasia', 1, 2, C.BLUE], ['Water', 'Infección urinaria', 2.5, 3.5, C.GREEN],
+  ['Wound', 'Herida', 5, 7, C.AMBER], ['Walking', 'TVP / TEP', 7, 10, C.RED], ['Wonder drugs', 'Fármacos', 7, 10, C.VIOLET],
+];
+const laneY = i => 440 + i * 46;
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  K.title('Fiebre postoperatoria: el día manda', 'Las cinco W según el día, y la proteína C reactiva como tendencia', C.AMBER);
+  ax.draw(seg(t, 0, 0.7));
+  const day = lerp(0, 10, ease(seg(t, 1.5, 12)));
+  // curva normal hasta el cursor
+  const k = day / 10;
+  if (k > 0) { const p = G.curve(ax, normal, k, C.BLUE, 5); if (k < 1) G.head(p, C.BLUE); }
+  // etiquetas de la curva normal
+  const a1 = seg(t, 4.2, 0.5); if (a1 > 0) { ctx.globalAlpha = a1; tag('Normal: sube hasta el día 2 o 3', ax.X(3.6), ax.Y(150) - 4, C.BLUE, 17); ctx.globalAlpha = 1; }
+  const a2 = seg(t, 7.5, 0.5); if (a2 > 0) { ctx.globalAlpha = a2; tag('Después baja sola', ax.X(6.2), ax.Y(60), C.GREEN, 17); ctx.globalAlpha = 1; }
+  // cursor del día
+  if (t > 1.5 && t < 14.5) {
+    ctx.strokeStyle = 'rgba(255,255,255,0.35)'; ctx.lineWidth = 2; ctx.setLineDash([5, 6]);
+    ctx.beginPath(); ctx.moveTo(ax.X(day), 150); ctx.lineTo(ax.X(day), 670); ctx.stroke(); ctx.setLineDash([]);
+  }
+  // carriles de las W
+  LANES.forEach(([w, s, d0, d1, col], i) => {
+    const a = seg(t, 0.8 + i * 0.15, 0.5); if (a <= 0) return;
+    ctx.globalAlpha = a;
+    text(w, 30, laneY(i) + 22, 21, col, 'bold'); text(s, 30, laneY(i) + 40, 13, C.MUTED);
+    rrect(ax.X(0), laneY(i) + 4, ax.X(10) - ax.X(0), 34, 8, '#161B22');
+    ctx.globalAlpha = 1;
+    const f = clamp((day - d0) / (d1 - d0), 0, 1);
+    if (f > 0) {
+      ctx.globalAlpha = 0.9; rrect(ax.X(d0), laneY(i) + 4, (ax.X(d1) - ax.X(d0)) * f, 34, 8, col);
+      ctx.globalAlpha = 1; if (f > 0.6) text(d0 === 2.5 ? 'día 3' : `día ${d0} a ${d1}`, (ax.X(d0) + ax.X(d1)) / 2, laneY(i) + 27, 17, C.BG, 'bold', 'center');
+    }
+  });
+  // segundo ascenso
+  const kc = ease(seg(t, 15.5, 4.5));
+  if (kc > 0) {
+    ctx.globalAlpha = 0.95; const p = G.curve(ax, comp, kc, C.RED, 5, 3, 8, [10, 8]); ctx.globalAlpha = 1; if (kc < 1) G.head(p, C.RED);
+  }
+  const a3 = seg(t, 18.5, 0.5); if (a3 > 0) { ctx.globalAlpha = a3; tag('Segundo ascenso después del día 3 a 4: fuga, absceso o herida', ax.X(4.6), ax.Y(275), C.RED, 17); ctx.globalAlpha = 1; }
+  K.banner(200, 676, 700, 'El día decide la causa; la PCR, la tendencia', C.AMBER, seg(t, 21.5, 0.5));
+  text('Gráfico propio · Animación propia', 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({});
+</script>
+</body></html>

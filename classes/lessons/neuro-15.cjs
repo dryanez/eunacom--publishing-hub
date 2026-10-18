@@ -37,7 +37,8 @@ module.exports = {
         { show: ['mul', 'est'], note: 'Muchos infartos, o uno en el lugar preciso',
           say: 'Ese daño llega por tres caminos. Infartos corticales que se repiten, la demencia multi-infarto. O un solo infarto, pero en un punto clave: el tálamo paramediano, la rodilla de la cápsula interna o la circunvolución angular.' },
         { show: ['peq'], note: 'Leucoaraiosis por hipertensión y diabetes',
-          say: 'Y el tercero, el más silencioso: la enfermedad de pequeño vaso subcortical, o enfermedad de Binswanger. Años de hipertensión y diabetes dañan las arterias pequeñas, y la resonancia muestra la sustancia blanca periventricular difusamente alterada, la leucoaraiosis.' },
+          say: 'Y el tercero, el más silencioso: la enfermedad de pequeño vaso subcortical, o enfermedad de Binswanger. Años de hipertensión y diabetes dañan las arterias pequeñas, y la resonancia muestra la sustancia blanca periventricular difusamente alterada, la leucoaraiosis. En esta resonancia, las flechas marcan la sustancia blanca alrededor de los ventrículos, blanca y confluente.',
+            photo: { src: '_verificadas/152_neuro_Parkinsonismo_vascular_demenci__HarrisonsP_p234_1.jpg', label: 'Leucoaraiosis', at: 'En esta resonancia', credit: 'Harrison, Principios de Medicina Interna 21.ª ed., p. 234' } },
         { show: ['esc'], note: 'El curso escalonado es la firma',
           say: 'Ahora, lo que se pregunta. Si cada evento vascular es un golpe, el deterioro no es una rampa, es una escalera: una caída brusca después de cada evento, y luego una meseta, incluso con algo de recuperación. Ese curso escalonado es la firma de la demencia vascular.' },
         { show: ['eje', 'foc'], note: 'Ejecutivo lento + examen neurológico alterado',
@@ -163,7 +164,8 @@ module.exports = {
           { t: 'Semántica y no fluente', d: 'Pierde el significado o habla con esfuerzo',
             say: 'Las otras variantes afectan el lenguaje. En la semántica, el paciente habla fluido pero pierde el significado de las palabras: no sabe qué es un martillo. En la no fluente, habla con esfuerzo y con errores gramaticales.' },
           { t: 'Atrofia en filo de cuchillo', d: 'Frontal y temporal anterior, asimétrica',
-            say: 'Y la resonancia muestra una atrofia focal y asimétrica de los lóbulos frontales y temporales anteriores, la llamada atrofia en filo de cuchillo.' },
+            say: 'Y la resonancia muestra una atrofia focal y asimétrica de los lóbulos frontales y temporales anteriores, la llamada atrofia en filo de cuchillo. Mira esta resonancia: los lóbulos frontales y temporales anteriores están adelgazados.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-15/01_rm_demencia_frontotemporal__harrison_p3420.jpg', label: 'Demencia frontotemporal', at: 'Mira esta resonancia', credit: 'Harrison, Principios de Medicina Interna 21.ª ed., p. 3420' } },
         ] },
       ],
     },
@@ -201,19 +203,6 @@ module.exports = {
       steps: [
         { note: 'Vascular en escalones',
           say: 'El Alzheimer cae en pendiente, lento y progresivo. La demencia vascular cae en escalones: un golpe con cada infarto, y luego una meseta.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Otras demencias',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-15/01_rm_demencia_frontotemporal__harrison_p3420.jpg', label: 'Demencia frontotemporal', credit: 'Harrison 21.ª ed., p. 3420' },
-      ],
-      steps: [
-        { note: 'Atrofia frontal y temporal',
-          say: 'La demencia frontotemporal atrofia los lóbulos frontales y temporales, y debuta con cambios de conducta o lenguaje, no con memoria.' },
       ],
     },
 

@@ -109,7 +109,11 @@ module.exports = {
           { t: 'Lo protege la T4 materna', d: 'Que pasó por la placenta',
             say: 'Y aquí está la trampa clínica: más del noventa y cinco por ciento de estos niños nacen sin síntomas, porque todavía tienen la T cuatro de la madre que atravesó la placenta.' },
           { t: 'Síntomas tardíos', d: 'Ictericia prolongada, macroglosia, hernia umbilical',
-            say: 'Los signos clásicos, como la ictericia que dura más de dos semanas, el llanto ronco, la lengua grande, la hernia umbilical, la fontanela posterior amplia, la piel moteada y la hipotonía, aparecen tarde, cuando el daño cerebral ya ocurrió. Por eso no se puede esperar la clínica: hay que buscarlo en todos.' },
+            say: 'Los signos clásicos, como la ictericia que dura más de dos semanas, el llanto ronco, la lengua grande, la hernia umbilical, la fontanela posterior amplia, la piel moteada y la hipotonía, aparecen tarde, cuando el daño cerebral ya ocurrió. Mira a este lactante de seis meses sin tratar: lengua grande, facies tosca, piel infiltrada. Y el mismo niño ya tratado: la facies se normaliza, pero el daño neurológico solo se evita si se trata en las primeras semanas. Por eso no se puede esperar la clínica: hay que buscarlo en todos.',
+            photos: [
+              { src: 'biblioteca/05_endocrinologia/endo-04/01_hipotiroidismo_congenito__nelson_p4372.jpg', label: 'Sin tratamiento', at: 'Mira a este lactante', credit: 'Nelson 22.ª ed., p. 4372' },
+              { src: 'biblioteca/05_endocrinologia/endo-04/02_hipotiroidismo_tratado__nelson_p4372.jpg', label: 'Con tratamiento', at: 'Y el mismo niño ya tratado', credit: 'Nelson 22.ª ed., p. 4372' },
+            ] },
         ] },
       ],
     },
@@ -157,24 +161,6 @@ module.exports = {
           say: 'En el primer trimestre la TSH debe estar bajo dos coma cinco, y bajo tres después. La que ya toma levotiroxina sube su dosis un veinte a treinta por ciento apenas sabe que está embarazada. En el recién nacido, la TSH de talón se toma a las cuarenta a cuarenta y ocho horas, y si sale alta, se confirma y se trata antes de los quince días.' },
       ],
     },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Hipotiroidismo congénito',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-04/01_hipotiroidismo_congenito__nelson_p4372.jpg', label: 'Sin tratamiento', credit: 'Nelson 22.ª ed., p. 4372' },
-        { src: 'biblioteca/05_endocrinologia/endo-04/02_hipotiroidismo_tratado__nelson_p4372.jpg', label: 'Con tratamiento', credit: 'Nelson 22.ª ed., p. 4372' },
-      ],
-      steps: [
-        { note: 'Macroglosia, facies tosca',
-          say: 'Este lactante de seis meses no fue tratado: lengua grande, facies tosca, piel infiltrada. Esto es lo que el tamizaje de talón previene.' },
-        { note: 'El mismo niño tras levotiroxina',
-          say: 'Y el mismo niño después del tratamiento. La facies se normaliza, pero el daño neurológico solo se evita si se trata en las primeras semanas.' },
-      ],
-    },
-
     {
       type: 'pathway',
       intro: 'Juntemos a la madre y al recién nacido en un solo árbol.',
@@ -289,6 +275,44 @@ module.exports = {
         options: 'Las opciones: suspender la levotiroxina, subirla, repetir la TSH en seis semanas, disminuir la dosis, o cintigrafía. Piénsalo.',
         answer: 'Es la D, disminuir la dosis. Es el termostato de la primera clase: TSH suprimida con T cuatro libre alta significa que sobra hormona, y el lactante está sobretratado. La A es la trampa: en un hipotiroidismo congénito la glándula no se va a recuperar, así que no se suspende, se ajusta. Y repetir sin cambiar nada deja al niño con exceso de hormona.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.024 · Pruebas tiroideas",
+      "stem": "El programa de tamizaje neonatal informa que un recién nacido de 7 días tiene TSH elevada en la muestra de sangre en papel filtro. Está asintomático.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repetir el tamizaje en papel filtro a los 2 meses"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar cintigrafía tiroidea antes de cualquier tratamiento"
+        },
+        {
+          "letter": "C",
+          "text": "Esperar la aparición de síntomas para tratar"
+        },
+        {
+          "letter": "D",
+          "text": "Citar de inmediato para confirmar con TSH y T4 libre en sangre venosa e iniciar levotiroxina sin esperar síntomas"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar propiltiouracilo"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El hipotiroidismo congénito suele ser asintomático al nacer y es una causa prevenible de discapacidad intelectual. Ante un tamizaje alterado se confirma de inmediato con TSH y T4 libre séricas y, si se confirma, se inicia levotiroxina idealmente antes de los 15 días de vida. Los estudios etiológicos (ecografía, cintigrafía) no deben retrasar el tratamiento.",
+      "say": {
+        "stem": "El tamizaje neonatal informa una TSH elevada en un recién nacido de siete días asintomático.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: repetir a los dos meses, cintigrafía antes de tratar, esperar síntomas, confirmar de inmediato con TSH y T cuatro libre e iniciar levotiroxina o propiltiouracilo. Piénsalo.",
+        "answer": "Es la D. Se confirma de inmediato con TSH y T cuatro libre en sangre venosa y se inicia levotiroxina sin esperar síntomas. La cintigrafía tienta para conocer la causa, pero nunca debe retrasar el tratamiento."
+      }
     },
 
     {

@@ -50,15 +50,18 @@ module.exports = {
       cards: [
         { title: 'Colitis ulcerosa', tag: 'Solo colon', kind: 'normal', items: [
           { t: 'Desde el recto, continua', d: 'Rectitis en el 100 %, sin mucosa sana intercalada',
-            say: 'Ahora, cómo se lee la colonoscopía. La colitis ulcerosa compromete solo el colon, siempre parte desde el recto, y avanza de forma continua, sin mucosa sana entremedio.' },
+            say: 'Ahora, cómo se lee la colonoscopía. La colitis ulcerosa compromete solo el colon, siempre parte desde el recto, y avanza de forma continua, sin mucosa sana entremedio. Mira esta endoscopía: la mucosa inflamada de forma continua, roja y friable, sin zonas sanas.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-10/01_colitis-ulcerosa-endoscopia_1__cto-digestivo_p103.jpg', label: 'Colitis ulcerosa', at: 'Mira esta endoscopía', credit: 'Manual CTO Digestivo 14.ª ed., p. 103' } },
           { t: 'Solo la mucosa', d: 'Eritematosa, granular, friable, pseudopólipos',
             say: 'La inflamación se limita a la mucosa, que se ve eritematosa, granular, friable y con pseudopólipos. Y como el recto siempre está tomado, la clínica trae pujo y tenesmo.' },
         ] },
         { title: 'Enfermedad de Crohn', tag: 'Boca a ano', kind: 'key', items: [
           { t: 'En parches, típico íleon distal', d: 'Puede respetar el recto',
-            say: 'El Crohn, en cambio, puede tomar cualquier parte del tubo digestivo, de la boca al ano, típicamente el íleon distal y la unión ileocecal. Va en parches, las llamadas lesiones salteadas, y puede respetar el recto.' },
+            say: 'El Crohn, en cambio, puede tomar cualquier parte del tubo digestivo, de la boca al ano, típicamente el íleon distal y la unión ileocecal. Va en parches, las llamadas lesiones salteadas, y puede respetar el recto. En esta endoscopía del Crohn se ven úlceras con fibrina blanquecina sobre una mucosa enrojecida e irregular: lesiones que aparecen en parches.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-10/02_crohn-endoscopia__cto-digestivo_p104.jpg', label: 'Crohn', at: 'En esta endoscopía del Crohn', credit: 'Manual CTO Digestivo 14.ª ed., p. 104' } },
           { t: 'Transmural', d: 'Úlceras aftosas, empedrado',
-            say: 'La inflamación es transmural, atraviesa toda la pared. En la endoscopía se ven úlceras aftosas y un aspecto en empedrado, con mucosa normal entre las lesiones.' },
+            say: 'La inflamación es transmural, atraviesa toda la pared. En la endoscopía se ven úlceras aftosas y un aspecto en empedrado, con mucosa normal entre las lesiones. Mira esta tomografía: el íleon terminal con la pared engrosada, donde apunta la flecha roja.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-10/03_crohn-ileal-tc-signo-de-la-cuerda_1__cto-radiologia_p40.jpg', label: 'Crohn: íleon engrosado (TC)', at: 'Mira esta tomografía', credit: 'Manual CTO Radiología 14.ª ed., p. 40' } },
         ] },
         { title: 'Regla de oro', tag: 'Se pregunta siempre', kind: 'alert', items: [
           { t: 'Basta UNA característica de Crohn', d: 'Íleon, parches, recto sano, fístula, masa, perianal',
@@ -82,7 +85,8 @@ module.exports = {
         ] },
         { title: 'Piel e hígado', tag: 'Se preguntan', kind: 'key', items: [
           { t: 'Eritema nodoso', d: 'El más frecuente en piel; también pioderma',
-            say: 'En la piel, el más frecuente es el eritema nodoso, esos nódulos dolorosos en las piernas, y el otro es el pioderma gangrenoso.' },
+            say: 'En la piel, el más frecuente es el eritema nodoso, esos nódulos dolorosos en las piernas, y el otro es el pioderma gangrenoso. Mira estas piernas con nódulos rojos dolorosos, y este pioderma gangrenoso, una úlcera de bordes violáceos.',
+            photos: [{ src: 'biblioteca/01_gastroenterologia/gastro-10/10_eritema-nodoso-piernas__knoop_p415.jpg', label: 'Eritema nodoso', at: 'Mira estas piernas', credit: 'Knoop, Atlas of Emergency Medicine, p. 415' }, { src: 'biblioteca/01_gastroenterologia/gastro-10/11_pioderma-gangrenoso__knoop_p413.jpg', label: 'Pioderma gangrenoso', at: 'y este pioderma gangrenoso', credit: 'Knoop, Atlas of Emergency Medicine, p. 413' }] },
           { t: 'Colangitis esclerosante primaria', d: 'Fuertemente asociada a la CU',
             say: 'Y en el hígado, la colangitis esclerosante primaria, fuertemente asociada a la colitis ulcerosa. La vas a volver a ver en la clase de colestasia.' },
         ] },
@@ -116,7 +120,8 @@ module.exports = {
         { show: ['fis', 'est'], note: 'Fístulas, abscesos, obstrucción',
           say: 'Por eso hace fístulas y abscesos perianales, y al cicatrizar deja estenosis que obstruyen el intestino. Si toma el intestino delgado, además da malabsorción, como vimos en la clase anterior.' },
         { show: ['cu', 'meg'], note: 'Urgencia vital',
-          say: 'La colitis ulcerosa se queda en la mucosa, pero puede dar la complicación más grave: el megacolon tóxico, un colon dilatado sobre seis centímetros con sepsis. Es una urgencia vital.' },
+          say: 'La colitis ulcerosa se queda en la mucosa, pero puede dar la complicación más grave: el megacolon tóxico, un colon dilatado sobre seis centímetros con sepsis. Es una urgencia vital. Mira esta radiografía de abdomen: a la derecha, un colon muy dilatado, lleno de gas, en un paciente tóxico.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-10/05_megacolon-toxico-rx__amir-cirugia_p115.jpg', label: 'Megacolon tóxico', at: 'Mira esta radiografía', credit: 'Manual AMIR Cirugía, p. 115' } },
         { show: ['cc'], note: 'Riesgo desde los 8–10 años de enfermedad',
           say: 'Y a largo plazo, tras ocho a diez años de enfermedad, aumenta el riesgo de cáncer colorrectal, sobre todo rectal. Esto conecta directo con la próxima clase.' },
         { show: ['vig'], note: 'Se pregunta: colonoscopía completa',
@@ -172,6 +177,57 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Ileostomía',
+      title: 'Ileostomía: terminal o en asa',
+      nodes: [
+        { id: 'def', col: 0, row: 0, k: 'start', t: 'Proctocolectomía total', s: 'Colitis ulcerosa o Crohn colónico grave' },
+        { id: 'ter', col: 1, row: 0, k: 'mech', t: 'Ileostomía terminal', s: 'Definitiva' },
+        { id: 'tmp', col: 0, row: 2, k: 'start', t: 'Proteger una anastomosis', s: 'O el reservorio ileoanal' },
+        { id: 'asa', col: 1, row: 2, k: 'mech', t: 'Ileostomía en asa', s: 'Temporal, hasta que cicatrice' },
+        { id: 'fid', col: 3, row: 1, k: 'effect', t: 'Fosa ilíaca derecha', s: 'Borde evertido, «en rosa»' },
+        { id: 'prt', col: 4, row: 1, k: 'good', t: 'Protege la piel', s: 'El efluente tiene enzimas' },
+      ],
+      edges: [
+        { from: 'def', to: 'ter' }, { from: 'tmp', to: 'asa' }, { from: 'ter', to: 'fid' }, { from: 'asa', to: 'fid' }, { from: 'fid', to: 'prt' },
+      ],
+      steps: [
+        { show: ['fid', 'prt'], note: 'Íleon exteriorizado en la fosa ilíaca derecha',
+          say: 'Una ileostomía es sacar el íleon por la pared del abdomen, habitualmente en la fosa ilíaca derecha. Se deja con el borde evertido, como una rosa, para que el contenido, rico en enzimas, no dañe la piel.' },
+        { show: ['def', 'ter'], note: 'Terminal: acompaña a la colectomía total',
+          say: 'La ileostomía terminal es definitiva y acompaña a la proctocolectomía total, en una colitis ulcerosa o en un Crohn colónico grave.' },
+        { show: ['tmp', 'asa'], note: 'En asa: temporal',
+          say: 'La ileostomía en asa, en cambio, es temporal. Protege una anastomosis o el reservorio ileoanal hasta que cicatrice, y después se cierra.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Ileostomía',
+      title: 'Ileostomía: cuidados y complicaciones',
+      cards: [
+        { title: 'Lo normal', tag: 'Débito', kind: 'normal', items: [
+          { t: 'Líquido-pastoso: 500 a 1.000 mL al día', d: 'Más de 1.500 mL es alto débito',
+            say: 'Lo normal es un efluente líquido o pastoso, de quinientos a mil mililitros al día. Más de mil quinientos es un alto débito.' },
+        ] },
+        { title: 'Alto débito', tag: 'La complicación que se pregunta', kind: 'alert', items: [
+          { t: 'Deshidratación y falla renal prerrenal', d: 'Hiponatremia, hipopotasemia, hipomagnesemia',
+            say: 'El alto débito produce deshidratación, hiponatremia, hipopotasemia, hipomagnesemia e insuficiencia renal prerrenal. Es la complicación que más se pregunta.' },
+          { t: 'Hidratar, sales orales hipertónicas, loperamida, IBP', d: 'Se corrige el volumen y el sodio',
+            say: 'Se trata hidratando, con sales de rehidratación oral hipertónicas, loperamida y un IBP.' },
+        ] },
+        { title: 'Otras complicaciones', tag: 'Y educación', kind: 'key', items: [
+          { t: 'Prolapso, retracción, estenosis, hernia paraestomal', d: 'Dermatitis periestomal',
+            say: 'Otras complicaciones son el prolapso, la retracción, la estenosis, la hernia paraestomal y la dermatitis por filtración. Al paciente se le enseña a recortar el dispositivo al tamaño del estoma y a cuidar la piel.' },
+          { t: 'Estoma oscuro: urgencia quirúrgica', d: 'Necrosis isquémica precoz',
+            say: 'Un estoma oscuro, en los primeros días, es una necrosis isquémica, y es una urgencia quirúrgica.' },
+          { t: 'Íleon terminal resecado: falta B12 y sales biliares', d: 'Litiasis biliar',
+            say: 'Y si se resecó el íleon terminal, faltan vitamina B doce y sales biliares, con riesgo de litiasis biliar.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -189,49 +245,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Colitis ulcerosa y Crohn',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-10/01_colitis-ulcerosa-endoscopia_1__cto-digestivo_p103.jpg', label: 'Colitis ulcerosa', credit: 'Manual CTO Digestivo 14.ª ed., p. 103' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-10/02_crohn-endoscopia__cto-digestivo_p104.jpg', label: 'Crohn', credit: 'Manual CTO Digestivo 14.ª ed., p. 104' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-10/03_crohn-ileal-tc-signo-de-la-cuerda_1__cto-radiologia_p40.jpg', label: 'Crohn: íleon terminal engrosado (TC)', credit: 'Manual CTO Radiología 14.ª ed., p. 40' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-10/05_megacolon-toxico-rx__amir-cirugia_p115.jpg', label: 'Megacolon tóxico', credit: 'Manual AMIR Cirugía, p. 115' },
-      ],
-      steps: [
-        { note: 'Mucosa continua, friable',
-          say: 'En la colitis ulcerosa la mucosa está inflamada de forma continua, sin zonas sanas, roja y friable. Parte en el recto y sube.' },
-        { note: 'Úlceras con mucosa sana entre medio',
-          say: 'En el Crohn, en cambio, hay úlceras separadas por mucosa sana: son las lesiones salteadas. Esa diferencia se pregunta.' },
-        { note: 'Íleon terminal engrosado',
-          say: 'Esta tomografía muestra el íleon terminal con la pared engrosada, donde apunta la flecha roja. Es la localización típica del Crohn.' },
-        { note: 'Colon muy dilatado',
-          say: 'Y esta es la complicación que mata: un colon transverso muy dilatado en un paciente tóxico. Es el megacolon tóxico, una urgencia quirúrgica.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-10/01_colitis-ulcerosa-endoscopia_2__cto-digestivo_p103.jpg', label: 'Colitis ulcerosa: mucosa inflamada y respetada', credit: 'Manual CTO Digestivo 14.ª ed., p. 103' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-10/03_crohn-ileal-tc-signo-de-la-cuerda_2__cto-radiologia_p40.jpg', label: 'Enfermedad de Crohn: íleon engrosado (TC)', credit: 'Manual CTO Radiología 14.ª ed., p. 40' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-10/04_cu-enema-colon-sin-haustras__cto-radiologia_p40.jpg', label: 'Colitis ulcerosa: colon sin haustras (enema)', credit: 'Manual CTO Radiología 14.ª ed., p. 40' },
-      ],
-      steps: [
-        { note: 'Colitis ulcerosa: mucosa inflamada y respetada',
-          say: 'Colitis ulcerosa en la endoscopia: se distingue la zona inflamada de la mucosa respetada.' },
-        { note: 'Enfermedad de Crohn: íleon engrosado (TC)',
-          say: 'Tomografía en la enfermedad de Crohn: asa ileal con pared engrosada, señalada por las flechas.' },
-        { note: 'Colitis ulcerosa: colon sin haustras (enema)',
-          say: 'Enema baritado en la colitis ulcerosa de larga evolución: el colon pierde las haustras y queda como un tubo liso.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },
@@ -243,7 +256,8 @@ module.exports = {
       head: ['Rasgo', 'Colitis ulcerosa', 'Enfermedad de Crohn'],
       rows: [
         { cells: ['Localización', 'Solo colon, desde el recto', 'Boca a ano (típico íleon distal)'],
-          say: 'Repasemos en una tabla. Localización: la colitis ulcerosa, solo colon y desde el recto; el Crohn, de la boca al ano, típicamente el íleon distal.' },
+          say: 'Repasemos en una tabla. Localización: la colitis ulcerosa, solo colon y desde el recto; el Crohn, de la boca al ano, típicamente el íleon distal. Mira este enema baritado: en la colitis ulcerosa de larga evolución el colon pierde las haustras y queda como un tubo liso.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-10/04_cu-enema-colon-sin-haustras__cto-radiologia_p40.jpg', label: 'CU: colon sin haustras', at: 'Mira este enema baritado', credit: 'Manual CTO Radiología 14.ª ed., p. 40' } },
         { cells: ['Distribución y profundidad', 'Continua, mucosa', 'En parches, transmural'],
           say: 'Distribución y profundidad: continua y mucosa en la colitis; en parches y transmural en el Crohn.' },
         { cells: ['Anticuerpos', 'p-ANCA', 'ASCA'],
@@ -345,6 +359,82 @@ module.exports = {
         options: 'Las opciones: colitis isquémica, colitis ulcerosa, intestino irritable, colitis infecciosa, o enfermedad de Crohn. Piénsalo.',
         answer: 'Es la B, colitis ulcerosa. Esta vez date vuelta la pregunta: no hay ni una sola característica de Crohn. Es continua, parte del recto, no hay parches ni mucosa sana intercalada. Por descarte, y porque cumple todos los requisitos de la colitis ulcerosa, esa es la respuesta. La misma regla te sirve para afirmar un diagnóstico y para descartarlo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.4.007 · Endoscopía digestiva alta y baja",
+      "stem": "Mujer de 29 años con colitis ulcerosa conocida consulta por 10 deposiciones con sangre al día, fiebre de 38,6 °C y FC 115 por minuto. Abdomen distendido y sensible. La radiografía de abdomen muestra el colon transverso dilatado a 7 cm.",
+      "question": "Respecto de la endoscopía, ¿cuál es la conducta correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Colonoscopía total urgente para evaluar la extensión"
+        },
+        {
+          "letter": "B",
+          "text": "No realizar colonoscopía; hospitalizar con corticoides endovenosos y evaluación quirúrgica precoz"
+        },
+        {
+          "letter": "C",
+          "text": "Colonoscopía con biopsias para descartar citomegalovirus antes de tratar"
+        },
+        {
+          "letter": "D",
+          "text": "Enema baritado de doble contraste"
+        },
+        {
+          "letter": "E",
+          "text": "Endoscopía digestiva alta para descartar compromiso gástrico"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Es un megacolon tóxico: colon de más de 6 cm con toxicidad sistémica. La colonoscopía y el enema baritado están contraindicados por el alto riesgo de perforación. Se hospitaliza con régimen cero, corticoides endovenosos y evaluación quirúrgica precoz; a lo más, una rectoscopía cuidadosa con mínima insuflación.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Mujer de veintinueve años con colitis ulcerosa, que tiene diez deposiciones con sangre al día, fiebre de treinta y ocho coma seis y taquicardia de ciento quince. La radiografía muestra el colon transverso dilatado a siete centímetros.",
+        "question": "Respecto de la endoscopía, ¿cuál es la conducta correcta?",
+        "options": "Las opciones: colonoscopía total urgente, no hacer colonoscopía y tratar con corticoides y cirugía, colonoscopía para buscar citomegalovirus, enema baritado, o endoscopía alta. Piénsalo.",
+        "answer": "Es la B. Esto es un megacolon tóxico, y meter un colonoscopio e insuflar aire en un colon dilatado y frágil puede perforarlo. La colonoscopía total es la trampa, porque en una crisis leve sí se usa para evaluar extensión, pero aquí lo que manda es el tratamiento médico y el cirujano."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.3.015 · Ileostomías",
+      "stem": "Mujer de 32 años con colitis ulcerosa grave refractaria es sometida a colectomía total con ileostomía terminal. Al cuarto día postoperatorio, la ileostomía drena 2.000 mL al día. Presenta sed, mareos, sequedad de mucosas y creatinina que sube de 0,7 a 1,6 mg/dL.",
+      "question": "¿Cuál es la complicación más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Obstrucción intestinal por hernia paraestomal"
+        },
+        {
+          "letter": "B",
+          "text": "Deshidratación con insuficiencia renal aguda prerrenal por ileostomía de alto débito"
+        },
+        {
+          "letter": "C",
+          "text": "Necrosis del estoma"
+        },
+        {
+          "letter": "D",
+          "text": "Síndrome de intestino corto"
+        },
+        {
+          "letter": "E",
+          "text": "Infección de sitio quirúrgico"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Las ileostomías pierden agua y sodio, y un débito mayor de 1,5 a 2 L al día produce deshidratación, hiponatremia, hipokalemia e insuficiencia renal aguda prerrenal, la complicación metabólica precoz más frecuente. Se maneja con reposición hidroelectrolítica, soluciones de rehidratación oral, restricción de líquidos hipotónicos y antidiarreicos como loperamida.",
+      "say": {
+        "stem": "Mujer de treinta y dos años operada de colectomía total con ileostomía terminal por colitis ulcerosa grave. Al cuarto día la ileostomía drena dos litros diarios, tiene sed, mareos, mucosas secas, y su creatinina subió de cero coma siete a uno coma seis.",
+        "question": "¿Cuál es la complicación más probable?",
+        "options": "Las opciones: obstrucción por hernia paraestomal, deshidratación con falla renal prerrenal por alto débito, necrosis del estoma, intestino corto, o infección de herida. Piénsalo.",
+        "answer": "Es la B. La ileostomía de alto débito pierde agua y sodio, y lleva a deshidratación con falla renal prerrenal, que es lo que muestra la creatinina. El intestino corto tienta por la diarrea abundante, pero aquí el intestino delgado está completo; solo se sacó el colon."
+      }
     },
 
     {

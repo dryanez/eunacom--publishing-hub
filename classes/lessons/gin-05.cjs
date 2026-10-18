@@ -74,20 +74,63 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Dolor pelviano',
+      title: 'Dismenorrea primaria: la que no tiene causa',
+      cards: [
+        { title: 'Cómo es', tag: 'Exceso de prostaglandinas', kind: 'key', items: [
+          { t: 'Cólico hipogástrico con la regla', d: 'Dura entre 8 y 72 horas, irradia a la espalda y los muslos',
+            say: 'Antes de entrar de lleno a la endometriosis, separa lo primario de lo secundario. La dismenorrea primaria es un dolor cólico hipogástrico que comienza con el sangrado o pocas horas antes, dura entre ocho y setenta y dos horas, e irradia a la región lumbar y los muslos, a veces con náuseas, diarrea o cefalea.' },
+          { t: 'Aparece 6 a 12 meses tras la menarquia', d: 'Examen físico y ecografía normales',
+            say: 'Aparece seis a doce meses después de la menarquia, cuando se instalan los ciclos ovulatorios, y el examen físico y la ecografía son normales. La causa es el exceso de prostaglandina F dos alfa endometrial.' },
+        ] },
+        { title: 'Tratamiento', tag: 'AINE al inicio del dolor', kind: 'pharma', items: [
+          { t: 'Antiinflamatorio desde el inicio', d: 'Ibuprofeno 400 mg cada 8 h, naproxeno 500 mg cada 12 h, ácido mefenámico 500 mg cada 8 h',
+            say: 'Se trata con antiinflamatorios, que bloquean la prostaglandina, iniciados al comenzar el dolor o el sangrado: ibuprofeno cuatrocientos miligramos cada ocho horas, naproxeno quinientos cada doce, o ácido mefenámico quinientos cada ocho. Se suman calor local y ejercicio.' },
+          { t: 'Anticonceptivos hormonales', d: 'Si desea anticoncepción o fallan los AINE',
+            say: 'Los anticonceptivos hormonales se usan si además desea anticoncepción o si falla el antiinflamatorio. Y si no responde en tres meses, deja de pensar que es primaria y busca una causa secundaria, con laparoscopía.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Dolor pelviano',
+      title: 'Secundaria y crónico: el dolor que cambia el patrón',
+      cards: [
+        { title: 'Dismenorrea secundaria', tag: 'Progresiva y de inicio tardío', kind: 'alert', items: [
+          { t: 'Dolor progresivo, a veces no cíclico', d: 'Endometriosis, adenomiosis, miomas, EIP, DIU de cobre',
+            say: 'La dismenorrea secundaria es la que tiene una causa: endometriosis, adenomiosis, miomas, enfermedad inflamatoria pélvica, DIU de cobre, estenosis cervical o malformaciones müllerianas obstructivas. La pista es que el dolor es progresivo, de inicio tardío y a veces ya no es cíclico.' },
+        ] },
+        { title: 'Dolor pelviano crónico', tag: 'Más de seis meses', kind: 'criteria', items: [
+          { t: 'Ginecológicas', d: 'Endometriosis, adherencias por EIP, congestión pélvica, ovario residual',
+            say: 'El dolor pelviano crónico es el que dura más de seis meses, y tiene muchas causas. Las ginecológicas: endometriosis, adherencias por enfermedad inflamatoria pélvica, congestión pélvica y ovario residual.' },
+          { t: 'Urinarias, digestivas y musculares', d: 'Cistitis intersticial, colon irritable, miofascial, neuralgia del pudendo',
+            say: 'Pero también las urinarias, como la cistitis intersticial o síndrome de vejiga dolorosa; las digestivas, como el colon irritable y la constipación; y las musculoesqueléticas, como el dolor miofascial o la neuralgia del pudendo.' },
+          { t: 'Psicosociales y estudio', d: 'Antecedente de abuso; anamnesis, tacto, eco TV, laparoscopía',
+            say: 'Sin olvidar lo psicosocial, como el antecedente de abuso. El estudio es anamnesis dirigida, tacto bimanual, ecografía transvaginal y, si persiste, laparoscopía, y se deriva a ginecología.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Diagnóstico',
       title: '¿Con qué confirmas lo que sospechas?',
       cards: [
         { title: 'Ecografía transvaginal', tag: 'Primer examen', kind: 'key', items: [
           { t: 'Vidrio esmerilado', d: 'Ecos finos y homogéneos',
-            say: 'Pide primero una ecografía transvaginal. El endometrioma se ve como un quiste con ecos finos y homogéneos, la clásica imagen en vidrio esmerilado.' },
+            say: 'Pide primero una ecografía transvaginal. El endometrioma se ve como un quiste con ecos finos y homogéneos, la clásica imagen en vidrio esmerilado. Mira esta ecografía: el quiste de contenido homogéneo, el quiste de chocolate.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-05/01_endometrioma-eco__cto-gyo_p74.jpg', label: 'Endometrioma', at: 'Mira esta ecografía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 74' } },
           { t: 'Sin papilas ni Doppler', d: 'Eso descarta cáncer',
-            say: 'Fíjate en algo importante: sin papilas sólidas ni vascularización al Doppler. Eso es lo que te permite descartarte del cáncer de ovario.' },
+            say: 'Fíjate en algo importante: sin papilas sólidas ni vascularización al Doppler. Eso es lo que te permite descartarte del cáncer de ovario. En este otro endometrioma, con Doppler, el contenido es esmerilado, no hay papilas y no hay flujo en su interior.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-05/01_endometrioma-eco_alt1__amir-gyo_p101.jpg', label: 'Endometrioma con Doppler', at: 'En este otro endometrioma', credit: 'Manual AMIR Ginecología y Obstetricia, p. 101' } },
         ] },
         { title: 'Cuando la eco no basta', tag: 'Enfermedad profunda', kind: 'alert', items: [
           { t: 'Resonancia magnética pélvica', d: 'Mapea uterosacros y tabique',
             say: 'Si sospechas endometriosis profunda infiltrante, la resonancia magnética es tu siguiente paso: mapea los uterosacros, el tabique rectovaginal, la vejiga o el colon.' },
           { t: 'Laparoscopía con biopsia', d: 'El estándar de oro definitivo',
-            say: 'Y el diagnóstico definitivo, el estándar de oro, es la laparoscopía con biopsia, donde vas a ver esas lesiones que parecen quemaduras de pólvora.' },
+            say: 'Y el diagnóstico definitivo, el estándar de oro, es la laparoscopía con biopsia, donde vas a ver esas lesiones que parecen quemaduras de pólvora. Mira esta laparoscopía: los implantes sobre el peritoneo pélvico.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-05/02_endometriosis-laparoscopia__cto-gyo_p75.jpg', label: 'Implantes en laparoscopía', at: 'Mira esta laparoscopía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 75' } },
         ] },
       ],
     },
@@ -107,7 +150,8 @@ module.exports = {
           { t: 'Útero grande, blando, globoso', d: 'Duele parejo, no en un punto',
             say: 'Al examinarla, el útero está aumentado de tamaño de forma difusa, blando y globuloso, y duele parejo, no en un nódulo puntual como en la endometriosis.' },
           { t: 'Miometrio en rayos de sol', d: 'Heterogéneo y asimétrico',
-            say: 'La ecografía muestra un miometrio heterogéneo, con esas estriaciones que se describen como rayos de sol, y una asimetría entre ambas paredes.' },
+            say: 'La ecografía muestra un miometrio heterogéneo, con esas estriaciones que se describen como rayos de sol, y una asimetría entre ambas paredes. Mira esta ecografía: el miometrio es heterogéneo y el endometrio queda desdibujado.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-05/03_adenomiosis-eco__commons.jpg', label: 'Adenomiosis (eco)', at: 'Mira esta ecografía: el miometrio', credit: 'Wikimedia Commons, CC0' } },
         ] },
         { title: 'Tratamiento', tag: 'Médico primero', kind: 'pharma', items: [
           { t: 'DIU con levonorgestrel', d: 'Primera opción médica',
@@ -177,31 +221,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Endometriosis',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Endometriosis: la teoría de Sampson',
       images: [
-        { src: 'biblioteca/13_ginecologia/gin-05/01_endometrioma-eco__cto-gyo_p74.jpg', label: 'Endometrioma', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 74' },
-        { src: 'biblioteca/13_ginecologia/gin-05/02_endometriosis-laparoscopia__cto-gyo_p75.jpg', label: 'Laparoscopía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 75' },
+        { src: 'animaciones/gin-05/A1_menstruacion_retrograda.mp4', label: 'Menstruación retrógrada', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Quiste en vidrio esmerilado',
-          say: 'El endometrioma es un quiste de contenido homogéneo, en vidrio esmerilado, el quiste de chocolate.' },
-        { note: 'Implantes en el peritoneo',
-          say: 'Y la laparoscopía muestra los implantes, que confirman el diagnóstico.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'El endometrioma con Doppler',
-      images: [
-        { src: 'biblioteca/13_ginecologia/gin-05/01_endometrioma-eco_alt1__amir-gyo_p101.jpg', label: 'Endometrioma: vidrio esmerilado, sin flujo interno', credit: 'Manual AMIR Ginecología y Obstetricia, p. 101' },
-      ],
-      steps: [
-        { note: 'Sin papilas ni Doppler',
-          say: 'Otro endometrioma, ahora con Doppler: contenido en vidrio esmerilado, sin papilas y sin flujo en su interior. No es un cáncer.' },
+        { note: 'Refluyen fragmentos por las trompas',
+          say: 'Durante la regla, parte del flujo no sale por la vagina: refluye por las trompas hacia la cavidad peritoneal. Mira cómo esos fragmentos caen y se implantan en el ovario, en el fondo de saco de Douglas y en los ligamentos uterosacros, y generan inflamación crónica dependiente del estrógeno. Por eso duele con cada regla, y por eso aparece la tríada: dismenorrea progresiva, dispareunia profunda e infertilidad.' },
       ],
     },
 
@@ -296,6 +324,44 @@ module.exports = {
         options: 'Las opciones: carcinoma epitelial, endometrioma ovárico, teratoma maduro, disgerminoma, o quiste folicular. Piénsalo.',
         answer: 'Es la B, endometrioma ovárico. Y aquí está la trampa: el Ca ciento veinticinco elevado te tienta hacia el cáncer, pero ese marcador también sube en la endometriosis, porque es un proceso inflamatorio peritoneal. La imagen manda: vidrio esmerilado, sin papilas, en una mujer joven con dismenorrea progresiva, es endometrioma.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.1.014 · Dolor pelviano y dismenorrea",
+      "stem": "Adolescente de 16 años, menarquia a los 12 años, con ciclos regulares cada 28 días. Desde hace un año presenta dolor hipogástrico tipo cólico que comienza el primer día de la menstruación y dura 48 horas, con náuseas, que la obliga a faltar al colegio. No ha iniciado actividad sexual. No tiene dolor fuera de la menstruación ni dispareunia. Examen abdominal y ecografía pelviana transabdominal normales.",
+      "question": "¿Cuál es el tratamiento de primera línea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Laparoscopía diagnóstica"
+        },
+        {
+          "letter": "B",
+          "text": "Opioides en los días de dolor"
+        },
+        {
+          "letter": "C",
+          "text": "Análogos de GnRH"
+        },
+        {
+          "letter": "D",
+          "text": "Dienogest continuo"
+        },
+        {
+          "letter": "E",
+          "text": "Antiinflamatorios no esteroidales iniciados al comienzo del dolor o 1 a 2 días antes de la menstruación"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Dolor que coincide con la menstruación, desde poco después de la menarquia, con examen y ecografía normales: dismenorrea primaria, por exceso de prostaglandinas endometriales. La primera línea son los AINE (ibuprofeno, naproxeno, ácido mefenámico); si no responden o necesita anticoncepción, anticonceptivos combinados. La laparoscopía se reserva para la dismenorrea refractaria con sospecha de endometriosis.",
+      "say": {
+        "stem": "Adolescente de dieciséis años con ciclos regulares y un año de dolor cólico que empieza con la regla y dura dos días, sin dolor fuera de la menstruación. El examen y la ecografía son normales.",
+        "question": "¿Cuál es el tratamiento de primera línea?",
+        "options": "Las opciones: laparoscopía, opioides, análogos de GnRH, dienogest o antiinflamatorios desde el inicio del dolor o uno a dos días antes de la regla. Piénsalo.",
+        "answer": "Es la E. Es una dismenorrea primaria, causada por prostaglandinas, y los antiinflamatorios las bloquean, sobre todo si se inician temprano. La laparoscopía tienta por la sospecha de endometriosis, pero solo corresponde si el dolor no responde a antiinflamatorios ni a anticonceptivos."
+      }
     },
 
     {

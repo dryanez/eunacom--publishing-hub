@@ -26,7 +26,8 @@ module.exports = {
           { t: 'Frutos secos y uvas', d: 'También trozos de salchicha',
             say: 'Lo que más se atora son los alimentos: maní, nueces, uvas enteras, trozos de salchicha. Casi siempre son alimentos, más que juguetes.' },
           { t: 'Va al bronquio derecho', d: 'Es más ancho y más vertical',
-            say: 'Y por la anatomía, el objeto casi siempre termina en el bronquio derecho, que es más ancho, más vertical, y sigue casi en línea recta la tráquea.' },
+            say: 'Y por la anatomía, el objeto casi siempre termina en el bronquio derecho, que es más ancho, más vertical, y sigue casi en línea recta la tráquea. Mira esta radiografía: el cuerpo extraño quedó en el bronquio derecho.',
+            photo: { src: 'biblioteca/15_pediatria/ped-08/01_cuerpo-extrano-bronquial-rx__cto-pediatria_p59.jpg', label: 'Bronquio derecho', at: 'Mira esta radiografía', credit: 'Manual CTO Pediatría 14.ª ed., p. 59' } },
         ] },
       ],
     },
@@ -55,9 +56,11 @@ module.exports = {
         { show: ['sil'], note: 'Aquí sí actúas de inmediato',
           say: 'Pero si ya no tose con fuerza, no llora, no emite ningún sonido, la obstrucción es completa, y ahí actúas de inmediato. Y la maniobra que uses depende de una sola cosa: la edad.' },
         { show: ['men'], note: 'Nunca Heimlich en este grupo',
-          say: 'En el menor de un año: cinco golpes firmes entre los omóplatos, con el niño boca abajo sobre tu antebrazo, y luego cinco compresiones en el pecho. Repites esa secuencia hasta que salga el objeto o pierda el conocimiento.' },
+          say: 'En el menor de un año: cinco golpes firmes entre los omóplatos, con el niño boca abajo sobre tu antebrazo, y luego cinco compresiones en el pecho. Mira la posición del lactante en este dibujo. Repites esa secuencia hasta que salga el objeto o pierda el conocimiento.',
+          photo: { src: 'biblioteca/15_pediatria/ped-08/01_lactante_golpes_compresiones__commons.jpg', label: 'Lactante', at: 'Mira la posición', credit: 'Wikimedia Commons «Heimlich Infant.png», CC BY-SA 4.0, BruceBlaus' } },
         { show: ['may'], note: 'La maniobra clásica del adulto',
-          say: 'En el mayor de un año, la maniobra es la de Heimlich: compresiones abdominales hacia adentro y hacia arriba, con el rescatador parado detrás del niño.' },
+          say: 'En el mayor de un año, la maniobra es la de Heimlich: compresiones abdominales hacia adentro y hacia arriba, con el rescatador parado detrás del niño, como ves en este dibujo.',
+          photo: { src: 'biblioteca/15_pediatria/ped-08/02_heimlich_adulto_nino__commons.jpg', label: 'Niño y adulto', at: 'como ves en este dibujo', credit: 'Wikimedia Commons «Heimlich Adult & Child.png», CC BY-SA 4.0, BruceBlaus' } },
       ],
     },
 
@@ -111,7 +114,11 @@ module.exports = {
         { show: ['sib'], note: 'Unilateral y no responde a nada',
           say: 'Semanas después, aparece tos y sibilancias que suenan solo de un lado, y que no mejoran con el salbutamol. Esa falta de respuesta, y que sea unilateral, es lo que te tiene que hacer sospechar.' },
         { show: ['rx3'], note: 'El signo indirecto clásico',
-          say: 'La radiografía en espiración muestra el signo clave: el pulmón del lado del cuerpo extraño no se desinfla, porque el objeto actúa como una válvula que deja entrar el aire pero no salir, y eso empuja el mediastino hacia el lado sano.' },
+          say: 'Compara dos radiografías del mismo niño, con un maní en el bronquio derecho. Esta es en inspiración. Y en esta otra, en espiración, está el signo clave: el pulmón del lado del cuerpo extraño no se desinfla, porque el objeto actúa como una válvula que deja entrar el aire pero no salir, y eso empuja el mediastino hacia el lado sano.',
+          photos: [
+            { src: 'biblioteca/15_pediatria/ped-08/02_mani-bronquio-derecho-inspiracion__cxr_p210.jpg', label: 'Maní: inspiración', at: 'Esta es en inspiración', credit: 'CXR, Fig. 14.13 (a)' },
+            { src: 'biblioteca/15_pediatria/ped-08/03_mani-bronquio-derecho-espiracion__cxr_p210.jpg', label: 'Misma placa en espiración', at: 'en espiración, está el signo clave', credit: 'CXR, Fig. 14.13 (b)' },
+          ] },
         { show: ['bro'], note: 'Diagnostica y extrae en el mismo acto',
           say: 'Y con esa sospecha, el paso siguiente es la broncoscopía rígida, en pabellón, que es a la vez el examen que confirma el diagnóstico y el procedimiento que extrae el objeto.' },
       ],
@@ -128,44 +135,6 @@ module.exports = {
       steps: [
         { note: 'Más vertical y más ancho',
           say: 'Sigue el objeto: baja por la tráquea y, al llegar a la carina, sigue casi en línea recta hacia el bronquio derecho, que es más ancho y más vertical.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Desobstrucción de la vía aérea',
-      images: [
-        { src: 'biblioteca/15_pediatria/ped-08/01_lactante_golpes_compresiones__commons.jpg', label: 'Lactante', credit: 'Wikimedia Commons «Heimlich Infant.png», CC BY-SA 4.0, BruceBlaus' },
-        { src: 'biblioteca/15_pediatria/ped-08/02_heimlich_adulto_nino__commons.jpg', label: 'Niño y adulto', credit: 'Wikimedia Commons «Heimlich Adult & Child.png», CC BY-SA 4.0, BruceBlaus' },
-      ],
-      steps: [
-        { note: 'Cinco golpes y cinco compresiones',
-          say: 'En el lactante: cinco golpes en la espalda y cinco compresiones torácicas.' },
-        { note: 'Heimlich',
-          say: 'Y en el niño mayor y el adulto, compresiones abdominales: la maniobra de Heimlich, que no se usa en lactantes.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'El cuerpo extraño en la radiografía',
-      images: [
-        { src: 'biblioteca/15_pediatria/ped-08/01_cuerpo-extrano-bronquial-rx__cto-pediatria_p59.jpg', label: 'Cuerpo extraño en el bronquio derecho', credit: 'Manual CTO Pediatría 14.ª ed., p. 59' },
-        { src: 'biblioteca/15_pediatria/ped-08/02_mani-bronquio-derecho-inspiracion__cxr_p210.jpg', label: 'Maní en bronquio derecho: inspiración', credit: 'CXR, Fig. 14.13 (a)' },
-        { src: 'biblioteca/15_pediatria/ped-08/03_mani-bronquio-derecho-espiracion__cxr_p210.jpg', label: 'Misma radiografía en espiración: el aire queda atrapado', credit: 'CXR, Fig. 14.13 (b)' },
-      ],
-      steps: [
-        { note: 'Va al bronquio derecho',
-          say: 'El objeto aspirado suele ir al bronquio derecho, más ancho y más vertical.' },
-        { note: 'En inspiración',
-          say: 'Ahora compara dos radiografías del mismo niño. Esta es en inspiración.' },
-        { note: 'Un pulmón que no se desinfla',
-          say: 'Pero en espiración, el pulmón del lado del cuerpo extraño no se desinfla: el objeto actúa como una válvula que deja entrar el aire pero no salir.' },
       ],
     },
 
@@ -260,6 +229,195 @@ module.exports = {
         options: 'Las opciones: laringitis viral, bronquiolitis aguda, neumonía atípica, cuerpo extraño bronquial, o traqueítis bacteriana.',
         answer: 'Es la D, cuerpo extraño bronquial. Fíjate en las tres pistas juntas: no respondió al antibiótico, las sibilancias son de un solo lado, y hay atelectasia justo en el lóbulo medio derecho, la localización clásica. Ese conjunto no es asma ni infección: es un objeto tapando el bronquio, y la conducta es la broncoscopía rígida.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 73",
+      "stem": "Un niño de 7 años, mientras estaba comiendo, presenta agitación súbita, asociada a imposibilidad de respirar. No puede toser, hablar ni llorar.",
+      "question": "¿Cuál es la maniobra más adecuada en este momento?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Realizar respiración boca a boca"
+        },
+        {
+          "letter": "B",
+          "text": "Meterle los dedos en la boca y retirar el cuerpo extraño"
+        },
+        {
+          "letter": "C",
+          "text": "Dar golpes en la región interescapular"
+        },
+        {
+          "letter": "D",
+          "text": "Abrazarlo por detrás y realizar compresiones subxifoideas"
+        },
+        {
+          "letter": "E",
+          "text": "Realizar compresiones en el pecho, en decúbito supino"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Obstrucción completa de la vía aérea por cuerpo extraño en un niño consciente mayor de 1 año: maniobra de Heimlich, con compresiones abdominales subxifoideas desde atrás. Los golpes interescapulares con compresiones torácicas son para el menor de 1 año, y el barrido a ciegas está contraindicado.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Un niño de siete años, mientras comía, se agita bruscamente y no puede respirar. No puede toser, hablar ni llorar.",
+        "question": "¿Cuál es la maniobra más adecuada en este momento?",
+        "options": "Las opciones: respiración boca a boca, sacar el cuerpo extraño con los dedos, golpes interescapulares, abrazarlo por detrás con compresiones bajo el esternón, o compresiones en el pecho acostado. Piénsalo.",
+        "answer": "Es la D. Es una obstrucción completa en un niño consciente mayor de un año, y la maniobra es la de Heimlich, con compresiones abdominales desde atrás. Los golpes interescapulares tientan, pero esos son para el lactante menor de un año."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 64",
+      "stem": "Niño de 3 años presenta tos súbita, sibilancias unilaterales y disminución del murmullo pulmonar en el hemitórax derecho. Los padres refieren que estaba comiendo maní. La radiografía de tórax muestra hiperinsuflación derecha.",
+      "question": "¿Cuál es el tratamiento definitivo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Broncoscopía virtual por TAC"
+        },
+        {
+          "letter": "B",
+          "text": "Broncoscopía rígida con extracción del cuerpo extraño"
+        },
+        {
+          "letter": "C",
+          "text": "Espirometría"
+        },
+        {
+          "letter": "D",
+          "text": "TAC de tórax y observación"
+        },
+        {
+          "letter": "E",
+          "text": "Antibióticos y kinesioterapia"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Tos súbita mientras comía maní, con sibilancias y murmullo disminuidos unilaterales e hiperinsuflación (efecto valvular), indica cuerpo extraño bronquial. El tratamiento definitivo es la broncoscopía rígida bajo anestesia general, que permite ventilar y extraer el objeto. La fibrobroncoscopía flexible es útil para diagnóstico; la broncoscopía virtual no es terapéutica.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Niño de tres años con tos súbita mientras comía maní, con sibilancias y murmullo disminuido en el lado derecho, y una radiografía con hiperinsuflación derecha.",
+        "question": "¿Cuál es el tratamiento definitivo?",
+        "options": "Las opciones: broncoscopía virtual, broncoscopía rígida con extracción, espirometría, TAC y observación, o antibióticos con kinesioterapia. Piénsalo.",
+        "answer": "Es la B. Es un cuerpo extraño bronquial que hace efecto de válvula, y se saca con broncoscopía rígida, que además permite ventilar al niño durante el procedimiento. La broncoscopía virtual tienta porque suena a broncoscopía, pero es una reconstrucción de TAC y no extrae nada."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.2.002 · Aspiración de cuerpo extraño con asfixia",
+      "stem": "Un hombre de 50 años se atraganta con un trozo de carne en un restaurante. Se toma el cuello, no puede hablar ni toser y está cianótico. Tras varias compresiones abdominales, pierde la conciencia y cae al suelo.",
+      "question": "¿Cuál es la conducta inmediata más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Continuar las compresiones abdominales en el suelo"
+        },
+        {
+          "letter": "B",
+          "text": "Darle agua para desatascar"
+        },
+        {
+          "letter": "C",
+          "text": "Realizar barrido digital a ciegas"
+        },
+        {
+          "letter": "D",
+          "text": "Esperar a que recupere la conciencia"
+        },
+        {
+          "letter": "E",
+          "text": "Activar el sistema de emergencia e iniciar RCP con compresiones torácicas, revisando la boca antes de ventilar"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En la obstrucción completa de vía aérea con paciente consciente se hacen compresiones abdominales. Si pierde la conciencia, se activa la emergencia y se inicia RCP con compresiones torácicas, que también ayudan a expulsar el cuerpo extraño. Antes de ventilar se mira la boca y se retira el objeto solo si es visible; el barrido digital a ciegas está contraindicado.",
+      "say": {
+        "stem": "Un hombre de cincuenta años se atraganta con carne, no puede hablar ni toser y está cianótico. Tras varias compresiones abdominales, pierde la conciencia y cae.",
+        "question": "¿Cuál es la conducta inmediata más adecuada?",
+        "options": "Las opciones: seguir compresiones abdominales en el suelo, darle agua, barrido digital a ciegas, esperar que despierte o activar emergencias e iniciar reanimación con compresiones torácicas. Piénsalo.",
+        "answer": "Es la E. Al perder la conciencia se inicia reanimación con compresiones torácicas, que además ayudan a expulsar el objeto. El barrido digital tienta, pero a ciegas puede empujar el cuerpo extraño más adentro."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.2.003 · Aspiración de cuerpo extraño sin asfixia",
+      "stem": "Un niño de 2 años, mientras comía maní, presentó un episodio súbito de tos intensa y ahogo. Ahora está consciente, rosado, tose en forma efectiva y llora. A la auscultación hay disminución del murmullo pulmonar y sibilancias en el hemitórax derecho.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Realizar la maniobra de Heimlich de inmediato"
+        },
+        {
+          "letter": "B",
+          "text": "No interferir con su tos y derivar para broncoscopía rígida"
+        },
+        {
+          "letter": "C",
+          "text": "Dar golpes interescapulares"
+        },
+        {
+          "letter": "D",
+          "text": "Realizar barrido digital"
+        },
+        {
+          "letter": "E",
+          "text": "Indicar salbutamol y control ambulatorio"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Si el niño respira y tose en forma efectiva, la obstrucción es parcial: no se hacen maniobras de desobstrucción, que podrían volverla completa. Se le deja toser, en la posición que prefiera, y se traslada con oxígeno. El síndrome de penetración con signos unilaterales obliga a broncoscopía rígida, diagnóstica y terapéutica. El salbutamol no resuelve un cuerpo extraño.",
+      "say": {
+        "stem": "Un niño de dos años, comiendo maní, tuvo tos súbita y ahogo. Ahora está consciente, rosado, tose bien y llora, y tiene menos murmullo y sibilancias a derecha.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: Heimlich inmediato, dejarlo toser y derivar a broncoscopía rígida, golpes en la espalda, barrido digital o salbutamol y control ambulatorio. Piénsalo.",
+        "answer": "Es la B. Si tose en forma efectiva, la obstrucción es parcial y no se hacen maniobras; se deriva a broncoscopía rígida. La maniobra de Heimlich tienta, pero podría transformar una obstrucción parcial en completa."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.5.011 · Maniobra de Heimlich",
+      "stem": "Hombre de 40 años se atraganta comiendo carne en un restaurante. Se lleva las manos al cuello, no puede hablar ni toser y se pone cianótico, pero sigue consciente.",
+      "question": "¿Cuál es la conducta inmediata más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Darle agua para que trague"
+        },
+        {
+          "letter": "B",
+          "text": "Barrido digital a ciegas"
+        },
+        {
+          "letter": "C",
+          "text": "Realizar compresiones abdominales subdiafragmáticas (maniobra de Heimlich) desde atrás, repetidas hasta expulsar el cuerpo extraño o que pierda la conciencia"
+        },
+        {
+          "letter": "D",
+          "text": "Esperar a que tosa espontáneamente"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar compresiones torácicas de inmediato aunque esté consciente"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Obstrucción grave de la vía aérea (no habla, no tose) en un adulto consciente: compresiones abdominales (Heimlich) desde atrás, con el puño sobre el epigastrio; algunas guías intercalan golpes interescapulares. En embarazadas y obesos, compresiones torácicas. Si pierde la conciencia, RCP. Si la tos es efectiva, solo estimularla. No hacer barrido digital a ciegas.",
+      "say": {
+        "stem": "Hombre de cuarenta años que se atraganta con carne, no puede hablar ni toser y se pone cianótico, pero sigue consciente.",
+        "question": "¿Cuál es la conducta inmediata?",
+        "options": "Las opciones: darle agua, barrido digital a ciegas, compresiones abdominales de Heimlich hasta expulsar el objeto o que pierda la conciencia, esperar que tosa o compresiones torácicas estando consciente. Piénsalo.",
+        "answer": "Es la C. Si no puede toser ni hablar, se hace la maniobra de Heimlich hasta expulsar el objeto o que pierda la conciencia. Esperar a que tosa tienta, pero eso solo vale cuando la tos es efectiva."
+      }
     },
 
     {

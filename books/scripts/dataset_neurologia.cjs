@@ -92,7 +92,9 @@ const neurologiaClasses = rawClasses.map(c => {
   };
 });
 
+const { applyExtra } = require('./neurologia_extra/index.cjs');
+
 module.exports = {
-  neurologiaClasses,
+  neurologiaClasses: applyExtra(neurologiaClasses),
   flow: b1.flow
 };

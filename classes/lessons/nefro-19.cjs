@@ -121,7 +121,8 @@ module.exports = {
         { show: ['hue'], note: 'Resorción ósea',
           say: 'Esa PTH alta saca calcio del hueso: resorción ósea acelerada, osteítis fibrosa quística, fragilidad y dolor óseo.' },
         { show: ['vas'], note: 'Lo más grave',
-          say: 'Y ese calcio y fósforo terminan donde no deben: calcificaciones de la capa media de las arterias, y su forma más grave, la calcifilaxis. También explica el prurito urémico intratable.' },
+          say: 'Y ese calcio y fósforo terminan donde no deben: calcificaciones de la capa media de las arterias, y su forma más grave, la calcifilaxis. También explica el prurito urémico intratable. Mira esta piel: una úlcera necrótica y dolorosa, que aparece cuando el calcio y el fósforo se depositan en las arteriolas.',
+            photo: { src: 'biblioteca/07_nefrologia/nefro-19/atlas_323_calcifilaxis_arteriolopatia_ur.jpg', label: 'Calcifilaxis', at: 'Mira esta piel', credit: 'Atlas EUNACOM 2026' } },
       ],
     },
 
@@ -189,6 +190,68 @@ module.exports = {
           { t: 'Se acumulan aniones', d: 'Fosfatos, sulfatos y uratos',
             say: 'Solo en la etapa terminal, con filtración bajo quince, se acumulan fosfatos, sulfatos y uratos, y ahí el anion gap sube. Es la uremia de la regla nemotécnica de las acidosis con anion gap elevado.' },
         ] },
+        { title: 'Por qué importa y qué se hace', tag: 'Bicarbonato < 22', kind: 'pharma', items: [
+          { t: 'Músculo, hueso, potasio y progresión', d: 'Catabolismo, CKD-MBD, hiperkalemia',
+            say: 'La acidosis no es solo un número. Favorece el catabolismo muscular y la desnutrición, la pérdida de masa ósea, que empeora el CKD-MBD, la hiperkalemia y la progresión de la enfermedad renal.' },
+          { t: 'Bicarbonato de sodio oral', d: '0,5–1 mEq/kg/día · meta 22–26 mEq/L',
+            say: 'Si el bicarbonato es menor de veintidós de forma sostenida, se da bicarbonato de sodio oral, de medio a un miliequivalente por kilo al día, con meta entre veintidós y veintiséis, y una dieta rica en frutas y verduras.' },
+          { t: 'Vigilar sodio: edema e hipertensión', d: 'Grave o con hiperkalemia: derivar',
+            say: 'Se vigila la sobrecarga de sodio, con edema o hipertensión. La acidosis grave, o la que viene con hiperkalemia, se deriva.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Hiperkalemia',
+      title: 'Hiperkalemia en la ERC: causas y manejo crónico',
+      cards: [
+        { title: 'Cuándo aparece', tag: 'TFG < 15–30', kind: 'key', items: [
+          { t: 'Con TFG < 15–30 mL/min', d: 'Antes si hay nefropatía diabética',
+            say: 'La hiperkalemia es frecuente cuando la filtración baja de quince a treinta mililitros por minuto, y antes en la nefropatía diabética, por el hipoaldosteronismo hiporreninémico.' },
+          { t: 'Acidosis, dieta y fármacos', d: 'IECA/ARA-II, espironolactona, AINE, betabloqueadores, trimetoprim, heparina',
+            say: 'La agravan la acidosis, la dieta rica en potasio y fármacos como los IECA y ARA dos, la espironolactona, los antiinflamatorios, los betabloqueadores, el trimetoprim y la heparina.' },
+          { t: 'Descartar pseudohiperkalemia y tomar ECG', d: 'Hemólisis · T picudas, QRS ancho',
+            say: 'Se descarta la pseudohiperkalemia por hemólisis y se toma un electrocardiograma: ondas T picudas y QRS ancho.' },
+        ] },
+        { title: 'Manejo crónico', tag: 'Bajar el potasio', kind: 'pharma', items: [
+          { t: 'Dieta baja en potasio', d: 'Plátano, cítricos, frutos secos, sustitutos de sal con KCl',
+            say: 'El manejo crónico parte por la dieta baja en potasio: evitar plátano, cítricos, frutos secos y los sustitutos de sal con cloruro de potasio.' },
+          { t: 'Corregir acidosis y usar diurético de asa', d: 'Retirar fármacos agravantes',
+            say: 'Se corrige la acidosis, se usa un diurético de asa si hay sobrecarga de volumen, y se retiran los fármacos agravantes.' },
+          { t: 'Captadores de potasio', d: 'Poliestireno sulfonato de calcio, patiromer, ciclosilicato de sodio y zirconio',
+            say: 'Y se emplean resinas o captadores de potasio, como el poliestireno sulfonato de calcio, el patiromer o el ciclosilicato de sodio y zirconio, que permiten mantener el IECA o el ARA dos.' },
+        ] },
+        { title: 'Urgencia', tag: 'K ≥ 6,5 mEq/L', kind: 'alert', items: [
+          { t: 'K ≥ 6,5 o cambios en el ECG', d: 'Gluconato de calcio, insulina con glucosa, salbutamol · derivar',
+            say: 'Con potasio de seis coma cinco o más, o con cambios en el electrocardiograma, es una urgencia: gluconato de calcio, insulina con glucosa y salbutamol, como vimos en la clase de hiperkalemia. Y se deriva.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Nutrición',
+      title: 'Desnutrición en la ERC',
+      cards: [
+        { title: 'Por qué ocurre', tag: '30–50 % en diálisis', kind: 'alert', items: [
+          { t: 'Anorexia urémica, acidosis, inflamación', d: 'Restricciones excesivas y pérdida de aminoácidos en la diálisis',
+            say: 'La desnutrición afecta a treinta a cincuenta por ciento de los pacientes en diálisis. Sus causas son la anorexia urémica, la acidosis, la inflamación crónica, las restricciones dietéticas excesivas, la pérdida de aminoácidos y proteínas durante la diálisis, las comorbilidades y la depresión.' },
+          { t: 'Pérdida de peso > 5 % en 3 meses', d: 'IMC, albúmina < 3,5–4 g/dL, evaluación global subjetiva',
+            say: 'Se evalúa con el peso y el índice de masa corporal, una pérdida de peso sobre cinco por ciento en tres meses, la albúmina, que es un marcador inespecífico, y la evaluación global subjetiva.' },
+        ] },
+        { title: 'Metas de aporte', tag: 'Nutricionista renal', kind: 'pharma', items: [
+          { t: 'Energía 30–35 kcal/kg/día', d: 'Suplementos orales o enterales si no alcanza',
+            say: 'El manejo es con nutricionista renal. La energía es de treinta a treinta y cinco kilocalorías por kilo al día, con suplementos orales o enterales si la ingesta no alcanza.' },
+          { t: 'Proteínas 0,6–0,8 g/kg/día sin diálisis', d: 'G3–G5 no dializada, de alto valor biológico',
+            say: 'Las proteínas dependen de la etapa. En la enfermedad renal G tres a G cinco sin diálisis, de cero coma seis a cero coma ocho gramos por kilo al día, de alto valor biológico.' },
+          { t: 'Más proteínas en diálisis', d: 'Hemodiálisis 1,0–1,2 · peritoneodiálisis 1,2–1,3 g/kg/día',
+            say: 'Pero en hemodiálisis se sube a uno a uno coma dos gramos por kilo, y en peritoneodiálisis a uno coma dos a uno coma tres, porque la diálisis pierde proteínas.' },
+        ] },
+        { title: 'Lo que no se olvida', tag: 'Trampa', kind: 'key', items: [
+          { t: 'No restringir proteínas al desnutrido', d: 'Corregir acidosis, anemia y depresión; dosis adecuada de diálisis',
+            say: 'La restricción proteica no se aplica al paciente que ya está desnutrido. Se corrigen la acidosis, la anemia y la depresión, y se asegura una dosis adecuada de diálisis.' },
+        ] },
       ],
     },
 
@@ -203,6 +266,20 @@ module.exports = {
       steps: [
         { note: 'Anemia, hueso, ácido, potasio, presión',
           say: 'Cuando cae el filtrado aparecen las complicaciones: anemia por falta de eritropoyetina, enfermedad ósea por falta de calcitriol, acidosis, hiperkalemia e hipertensión con edema.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Lo que el riñón deja de fabricar',
+      images: [
+        { src: 'animaciones/nefro-19/A1_epo_pth.mp4', label: 'Eritropoyetina y calcitriol', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Anemia y alteración mineral y ósea',
+          say: 'El riñón sano fabrica eritropoyetina, que estimula a la médula ósea a producir glóbulos rojos. Cuando se pierde riñón, la eritropoyetina cae y aparece la anemia. Además falta calcitriol, el fósforo se retiene, sube la PTH y el hueso se enferma. Primero hierro, después eritropoyetina.' },
       ],
     },
 
@@ -299,6 +376,44 @@ module.exports = {
         options: 'Las opciones: acumulación de ácidos orgánicos, disminución de la producción de bicarbonato, cetosis, acumulación de ácido úrico, o intoxicación por medicamentos. Piénsalo.',
         answer: 'Es la B. Bicarbonato bajo con anion gap de diez, que es normal: una acidosis hiperclorémica. En la etapa tres, el riñón con menos nefronas fabrica menos amonio y regenera menos bicarbonato. La A es la trampa: la acumulación de ácidos orgánicos subiría el anion gap, y eso en la enfermedad renal aparece recién en la etapa cinco.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.3.003 · Desnutrición en insuficiencia renal crónica",
+      "stem": "Hombre de 66 años en hemodiálisis trisemanal hace 2 años presenta baja de peso, albúmina 3,1 g/dL e inapetencia. Mantiene una dieta con restricción proteica de 0,6 g/kg/día indicada antes de iniciar diálisis.",
+      "question": "¿Cuál es la recomendación proteica más adecuada en esta etapa?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aumentar a 1,0-1,2 g/kg/día"
+        },
+        {
+          "letter": "B",
+          "text": "Reducir a 0,4 g/kg/día"
+        },
+        {
+          "letter": "C",
+          "text": "Mantener 0,6 g/kg/día"
+        },
+        {
+          "letter": "D",
+          "text": "Dieta sin proteínas los días de diálisis"
+        },
+        {
+          "letter": "E",
+          "text": "Eliminar toda restricción de sodio y potasio"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La desnutrición calórico-proteica es frecuente en la ERC y predice mortalidad. Antes de diálisis se indica una restricción moderada (0,6-0,8 g/kg/día) para retardar la progresión, pero en hemodiálisis la pérdida de aminoácidos y el catabolismo obligan a aumentar a 1,0-1,2 g/kg/día, manteniendo restricción de sodio, potasio, fósforo y líquidos.",
+      "say": {
+        "stem": "Hombre de sesenta y seis años en hemodiálisis, con baja de peso y albúmina baja, que sigue con la restricción proteica de antes de dializarse.",
+        "question": "¿Cuánta proteína le indicas?",
+        "options": "Las opciones: subir a uno a uno coma dos gramos por kilo, bajar a cero coma cuatro, mantener cero coma seis, nada los días de diálisis o eliminar toda restricción de sodio y potasio. Piénsalo.",
+        "answer": "Es la A. Subir a uno a uno coma dos gramos por kilo, porque la diálisis aumenta las pérdidas proteicas. Mantener la restricción es el error: era útil antes de la diálisis, no ahora."
+      }
     },
 
     {

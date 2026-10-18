@@ -126,6 +126,51 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Relación médico-paciente',
+      title: 'Cuatro modelos de relación',
+      cards: [
+        { title: 'Emanuel y Emanuel', tag: 'Quién decide', kind: 'key', items: [
+          { t: 'Paternalista', d: 'El médico decide lo mejor',
+            say: 'La relación médico-paciente se describe en cuatro modelos, de Emanuel y Emanuel. El paternalista: el médico decide lo que considera mejor para el paciente.' },
+          { t: 'Informativo', d: 'El médico informa, el paciente decide',
+            say: 'El informativo: el médico entrega los datos y el paciente decide solo.' },
+          { t: 'Interpretativo', d: 'El médico aclara los valores del paciente',
+            say: 'El interpretativo: el médico ayuda al paciente a aclarar sus propios valores.' },
+          { t: 'Deliberativo', d: 'Discuten juntos qué es lo mejor',
+            say: 'Y el deliberativo: médico y paciente discuten juntos qué es lo mejor. El que promueve la Ley veinte mil quinientos ochenta y cuatro y el modelo de salud familiar es el centrado en la persona, con decisiones compartidas, cercano al deliberativo.' },
+        ] },
+        { title: 'La familia', tag: 'Apoyo, no reemplazo', kind: 'alert', items: [
+          { t: 'Red de apoyo y sujeto de atención', d: 'No sustituye al paciente competente',
+            say: 'La familia es la red de apoyo y también un sujeto de atención, pero no sustituye al paciente competente. La información clínica se entrega a quien el paciente autorice. Esa es la regla que se pregunta.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Comunicación',
+      title: 'Dar malas noticias: el protocolo SPIKES',
+      nodes: [
+        { id: 's', col: 0, row: 0, k: 'start', t: 'S: preparar el entorno', s: 'Privacidad, tiempo, sentarse' },
+        { id: 'p', col: 1, row: 1, k: 'mech', t: 'P: percepción', s: 'Qué sabe el paciente' },
+        { id: 'i', col: 2, row: 0, k: 'mech', t: 'I: invitación', s: 'Cuánto quiere saber' },
+        { id: 'k', col: 3, row: 1, k: 'effect', t: 'K: conocimiento', s: 'Información en porciones pequeñas' },
+        { id: 'e', col: 4, row: 0, k: 'alert', t: 'E: emociones', s: 'Responder con empatía' },
+        { id: 'st', col: 4, row: 3, k: 'good', t: 'S: estrategia', s: 'Acordar un plan' },
+      ],
+      edges: [
+        { from: 's', to: 'p' }, { from: 'p', to: 'i' }, { from: 'i', to: 'k' }, { from: 'k', to: 'e' }, { from: 'e', to: 'st' },
+      ],
+      steps: [
+        { show: ['s', 'p', 'i'], note: 'Preparar, explorar, invitar',
+          say: 'Para dar malas noticias existe un protocolo, SPIKES, y cada letra es un paso en orden. La primera es preparar el entorno: privacidad y tiempo. Luego, explorar la percepción: qué sabe ya el paciente. Y la invitación: averiguar cuánto quiere saber.' },
+        { show: ['k', 'e', 'st'], note: 'Informar, contener, acordar',
+          say: 'Después das la información, el conocimiento, en porciones pequeñas. Respondes a las emociones. Y cierras con una estrategia: acordar un plan. Detrás de todo, la comunicación efectiva: escucha activa, preguntas abiertas, lenguaje claro sin tecnicismos y verificar lo que el paciente entendió. Eso mejora la adherencia y reduce los reclamos.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo en un solo árbol, tal como lo vas a razonar en el examen.',
     },
@@ -146,6 +191,10 @@ module.exports = {
           say: 'Y dolor refractario en fase de agonía: titulas opioides a dosis plena bajo el principio del doble efecto, porque la intención es aliviar, no provocar la muerte.' },
         { cells: ['Adulto con voluntad anticipada', 'Respetar la directriz ya formalizada', 'Expresión autónoma previa, válida'],
           say: 'Y si el adulto dejó una voluntad anticipada en un documento notarial válido, respetas esa directriz aunque el paciente ya no pueda repetirla, porque es una expresión autónoma que se formalizó antes.' },
+        { cells: ['El médico decide sin preguntar, por el bien del paciente', 'Modelo paternalista', 'Aceptarlo en la Ley 20.584'],
+          say: 'Si el médico decide sin preguntar, pensando en el bien del paciente, es el modelo paternalista. La ley chilena promueve decisiones compartidas.' },
+        { cells: ['Familiar pide información de un adulto competente', 'Solo si el paciente lo autoriza', 'Entregarla por ser familiar'],
+          say: 'Cuando un familiar pide información de un adulto competente, solo se la entregas si el paciente lo autoriza.' },
       ],
     },
 
@@ -216,6 +265,44 @@ module.exports = {
         options: 'Las opciones: principio del doble efecto, autonomía paternalista, eutanasia pasiva voluntaria, justicia conmutativa, o no maleficencia inversa.',
         answer: 'Es la A, el principio del doble efecto. Hay un efecto bueno que se busca, aliviar el dolor refractario, y un efecto malo que no se busca, el riesgo de depresión respiratoria, y eso es lícito porque el acto es bueno en sí mismo y la intención exclusiva es el alivio. No es eutanasia: en la eutanasia la intención es provocar la muerte, y acá la intención es exactamente lo contrario, calmar el sufrimiento.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.3.013 · Relación médico-paciente-familia",
+      "stem": "Un niño de 8 años llega a urgencia con hemorragia masiva tras un accidente y requiere transfusión inmediata para salvar su vida. Sus padres, por motivos religiosos, se oponen a la transfusión.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Respetar la decisión de los padres y no transfundir"
+        },
+        {
+          "letter": "B",
+          "text": "Transfundir, ya que en una urgencia con riesgo vital de un menor prima su derecho a la vida, informando y dejando registro"
+        },
+        {
+          "letter": "C",
+          "text": "Esperar una orden judicial antes de cualquier acción"
+        },
+        {
+          "letter": "D",
+          "text": "Trasladar al niño a otro centro"
+        },
+        {
+          "letter": "E",
+          "text": "Pedir al niño que decida"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Los padres representan a sus hijos, pero su decisión debe resguardar el mejor interés del niño. La Ley 20.584 permite actuar sin consentimiento ante una urgencia con riesgo vital inminente. Se debe intentar dialogar con la familia, transfundir, registrar en la ficha y, si la situación no es urgente, solicitar autorización judicial o del comité de ética.",
+      "say": {
+        "stem": "Un niño de ocho años con hemorragia masiva necesita una transfusión inmediata, y sus padres se oponen por motivos religiosos.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: respetar a los padres, transfundir por riesgo vital e informar, esperar orden judicial, trasladar o que decida el niño. Piénsalo.",
+        "answer": "Es la B. En una urgencia con riesgo vital de un menor prima su derecho a la vida y se transfunde, informando y registrando. Esperar una orden judicial tienta por el respaldo legal, pero en una hemorragia masiva el niño moriría esperando."
+      }
     },
 
     {

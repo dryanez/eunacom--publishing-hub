@@ -184,6 +184,42 @@ module.exports = {
           say: 'La única excepción es el delirium tremens, o la abstinencia de benzodiacepinas. Ahí son el tratamiento de primera línea, porque compensan la hiperexcitabilidad de rebote: diazepam de cinco a diez miligramos endovenoso lento, o lorazepam de uno a dos miligramos.' },
       ],
     },
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Delirium: agudo y fluctuante',
+      images: [
+        { src: 'animaciones/neuro-21/A1_delirium_fluctua.mp4', label: 'Atención en el tiempo', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Cae de golpe y fluctúa',
+          say: 'Mira la atención en el tiempo. La persona sana se mantiene alta, y el paciente con demencia está más bajo, pero estable. En el delirium la atención se desploma en horas, cuando aparece la infección u otro gatillo, y después sube y baja durante el día, con las peores horas en la noche. Inicio agudo, curso fluctuante e inatención: eso es delirium, y obliga a buscar la causa.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'La hospitalización',
+      title: 'Otras complicaciones del adulto mayor hospitalizado',
+      cards: [
+        { title: 'Qué pasa', tag: 'Un tercio sale peor', kind: 'alert', items: [
+          { t: 'Declive funcional asociado a la hospitalización', d: 'Aunque la enfermedad aguda se resuelva',
+            say: 'La hospitalización es un evento de alto riesgo en el anciano: cerca de un tercio sale con un declive funcional que no tenía al ingreso, aunque la enfermedad aguda se haya resuelto.' },
+          { t: 'Ocho complicaciones prevenibles', d: 'Además del delirium',
+            say: 'Además del delirium, las más frecuentes son: caídas y fracturas, úlceras por presión, infecciones nosocomiales como la urinaria por sonda, la neumonía y el Clostridioides difficile, desacondicionamiento por reposo, trombosis venosa y embolia pulmonar, desnutrición y deshidratación, retención urinaria, incontinencia y fecaloma, y reacciones adversas por polifarmacia.' },
+        ] },
+        { title: 'Paquete de prevención', tag: 'Cuidados geriátricos', kind: 'key', items: [
+          { t: 'Movilizar desde el primer día', d: 'Retirar sondas y vías; evitar contenciones',
+            say: 'La prevención es un paquete. Movilización desde el primer día: levantar al sillón y caminar acompañado, sin reposo por rutina. Retirar lo antes posible sondas, vías y monitores innecesarios, y evitar las contenciones.' },
+          { t: 'Lentes, audífonos, nutrición, posición', d: 'Sueño, ruido, profilaxis de trombosis',
+            say: 'Mantener lentes, audífonos y prótesis dentales, nutrición e hidratación sin ayunos largos, cambios de posición y superficies que alivien la presión, y profilaxis de tromboembolismo según riesgo. Controla el ruido y el sueño.' },
+          { t: 'Revisar fármacos y planificar el alta', d: 'Beers y STOPP; control en APS en pocos días',
+            say: 'Concilia y revisa los fármacos al ingreso y al alta, con los criterios de Beers y STOPP. Evalúa lo funcional y lo social temprano, para un alta segura con indicaciones escritas y control en atención primaria en los primeros días. Las unidades geriátricas de agudos reducen el delirium, el declive y la institucionalización.' },
+        ] },
+      ],
+    },
+
 
     {
       type: 'pathway',
@@ -324,6 +360,82 @@ module.exports = {
         options: 'Las opciones son: delirium tremens con diazepam, tiamina y corrección hidroelectrolítica; psicosis alcohólica con haloperidol; meningoencefalitis con antibióticos; hipoglicemia con glucosa; o ACV con trombolisis. Piénsalo.',
         answer: 'Es la A, delirium tremens. Es la excepción que te pedí recordar: aquí las benzodiacepinas son el tratamiento de elección, porque compensan la hiperexcitabilidad de rebote. Se suma la tiamina, para prevenir la encefalopatía de Wernicke. El distractor es el haloperidol: sirve en el delirium común, pero en la abstinencia no trata la causa.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.2.004 · Estado confusional agudo (alcohólico, tóxico metabólico)",
+      "stem": "Hombre de 52 años, bebedor de 1 litro de destilado al día, desnutrido, es traído a urgencia por 2 días de confusión e inestabilidad. Desorientado, apático, con nistagmo horizontal, paresia bilateral del recto lateral y ataxia de marcha que le impide caminar sin ayuda. Afebril, PA 128/80 mmHg, glicemia 94 mg/dL, sin signos de abstinencia.",
+      "question": "¿Cuál es la conducta inmediata más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Suero glucosado al 30 % EV en bolo"
+        },
+        {
+          "letter": "B",
+          "text": "Haloperidol 5 mg IM"
+        },
+        {
+          "letter": "C",
+          "text": "Tiamina EV en dosis altas, antes o junto con cualquier aporte de glucosa"
+        },
+        {
+          "letter": "D",
+          "text": "Lorazepam EV como única medida"
+        },
+        {
+          "letter": "E",
+          "text": "Punción lumbar urgente"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Confusión, oftalmoplejía y ataxia en un alcohólico desnutrido: encefalopatía de Wernicke por déficit de tiamina, una emergencia que basta sospechar. Se administra tiamina EV en dosis altas (por ejemplo, 500 mg cada 8 horas) antes o junto con la glucosa, ya que la glucosa sin tiamina puede precipitar o agravar el cuadro y evolucionar a síndrome de Korsakoff.",
+      "say": {
+        "stem": "Un hombre de cincuenta y dos años, bebedor intenso y desnutrido, llega confuso, con nistagmo, parálisis de la mirada lateral de ambos ojos y una ataxia que le impide caminar. Su glicemia es normal y no tiene signos de abstinencia.",
+        "question": "¿Cuál es la conducta inmediata más adecuada?",
+        "options": "Las opciones: suero glucosado concentrado, haloperidol, tiamina endovenosa en dosis altas antes o junto con la glucosa, lorazepam solo o punción lumbar. Piénsalo.",
+        "answer": "Es la C. Confusión, oftalmoplejía y ataxia en un alcohólico es una encefalopatía de Wernicke, y se trata con tiamina endovenosa de inmediato. El suero glucosado tienta en todo paciente confuso, pero darlo sin tiamina puede empeorar la encefalopatía."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.3.002 · Complicaciones en el adulto mayor hospitalizado",
+      "stem": "Mujer de 82 años se hospitaliza para cirugía de fractura de cadera. Usa lentes y audífonos y tiene deterioro cognitivo leve. El equipo quiere reducir el riesgo de la complicación más frecuente del adulto mayor hospitalizado en este contexto.",
+      "question": "¿Cuál es la medida más eficaz para prevenir el delirium?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Haloperidol profiláctico nocturno"
+        },
+        {
+          "letter": "B",
+          "text": "Benzodiacepina para asegurar el sueño"
+        },
+        {
+          "letter": "C",
+          "text": "Medidas no farmacológicas: reorientación, uso de lentes y audífonos, movilización precoz, higiene del sueño e hidratación"
+        },
+        {
+          "letter": "D",
+          "text": "Contención física preventiva"
+        },
+        {
+          "letter": "E",
+          "text": "Mantener la luz encendida toda la noche para vigilancia"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El delirium es la complicación más frecuente del adulto mayor hospitalizado, sobre todo tras una fractura de cadera. Las intervenciones no farmacológicas multicomponente (reorientación, lentes y audífonos, movilización, sueño nocturno, hidratación, evitar sondas y contenciones) reducen su incidencia en cerca de un tercio. El haloperidol profiláctico no ha demostrado beneficio y las benzodiacepinas lo precipitan.",
+      "say": {
+        "stem": "Mujer de ochenta y dos años, con lentes, audífonos y deterioro cognitivo leve, hospitalizada por fractura de cadera.",
+        "question": "¿Cómo previenes el delirium?",
+        "options": "Las opciones: haloperidol profiláctico, benzodiacepina, medidas no farmacológicas multicomponente, contención física, o luz encendida toda la noche. Piénsalo.",
+        "answer": "Es la C. Con medidas no farmacológicas como reorientarla, usar sus lentes y audífonos, movilizarla y cuidar su sueño. El haloperidol profiláctico parece proactivo, pero no ha demostrado prevenirlo."
+      }
     },
 
     {

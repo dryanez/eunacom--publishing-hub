@@ -65,9 +65,11 @@ module.exports = {
         { show: ['grueso'], note: 'El corte sube si usa hormonas',
           say: 'Pero si mide cuatro a cinco milímetros o más, o si la paciente usa terapia de reemplazo hormonal, el corte sube a ocho milímetros. Ojo con ese matiz, porque se pregunta seguido.' },
         { show: ['biopsia'], note: 'Ambulatoria, con cánula de Pipelle',
-          say: 'Con el endometrio engrosado, la biopsia endometrial es obligatoria, y se hace de forma ambulatoria, con la cánula de Pipelle.' },
+          say: 'Con el endometrio engrosado, la biopsia endometrial es obligatoria, y se hace de forma ambulatoria, con la cánula de Pipelle. Mira esta ecografía transvaginal: el endometrio engrosado, de cuatro a cinco milímetros o más, en una paciente con sangrado.',
+          photo: { src: 'biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia__cto-gyo_p69.jpg', label: 'Endometrio engrosado', at: 'Mira esta ecografía transvaginal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 69' } },
         { show: ['histero'], note: 'Cuando el Pipelle no alcanza',
-          say: 'Si esa muestra sale insuficiente, o hay sospecha de un pólipo, el siguiente paso es la histeroscopía, con biopsia dirigida.' },
+          say: 'Si esa muestra sale insuficiente, o hay sospecha de un pólipo, el siguiente paso es la histeroscopía, con biopsia dirigida. Mira esta imagen histeroscópica: el tumor se ve directamente, y se toma la biopsia sobre la lesión.',
+          photo: { src: 'biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia_alt1__cto-gyo_p69.jpg', label: 'Histeroscopía: cáncer', at: 'Mira esta imagen histeroscópica', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 69' } },
       ],
     },
 
@@ -106,7 +108,11 @@ module.exports = {
           { t: 'Síntomas digestivos vagos', d: 'Distensión, saciedad precoz, dolor sordo',
             say: 'Y la razón es que los primeros síntomas son vagos y digestivos: distensión, saciedad precoz, dolor pélvico sordo. Se confunden fácil con un colon irritable.' },
           { t: 'Aumento del abdomen y polaquiuria', d: 'Por la masa que comprime la vejiga',
-            say: 'También puede aparecer un aumento del perímetro abdominal, y polaquiuria, porque la masa comprime la vejiga desde afuera.' },
+            say: 'También puede aparecer un aumento del perímetro abdominal, y polaquiuria, porque la masa comprime la vejiga desde afuera. Mira estas tomografías: una gran masa pélvica, y en el corte coronal, cómo ocupa el abdomen.',
+            photos: [
+              { src: 'biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_1__cto-radiologia_p141.jpg', label: 'Masa pélvica (TC)', at: 'Mira estas tomografías', credit: 'Manual CTO Radiología 14.ª ed., p. 141' },
+              { src: 'biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_2__cto-radiologia_p141.jpg', label: 'Carcinoma de ovario (TC)', at: 'en el corte coronal', credit: 'Manual CTO Radiología 14.ª ed., p. 141' },
+            ] },
         ] },
         { title: 'Histología', tag: 'La más frecuente', kind: 'criteria', items: [
           { t: 'Carcinoma seroso de alto grado', d: 'Se origina en la fimbria tubárica',
@@ -122,13 +128,15 @@ module.exports = {
       cards: [
         { title: 'Signos de benignidad', tag: 'Quiste simple', kind: 'criteria', items: [
           { t: 'Unilocular y anecoico', d: 'Sin tabiques ni componente sólido',
-            say: 'Para leer la ecografía de una masa anexial, están las reglas IOTA. Del lado benigno: un quiste unilocular, anecoico, sin tabiques ni componente sólido.' },
+            say: 'Para leer la ecografía de una masa anexial, están las reglas IOTA. Del lado benigno: un quiste unilocular, anecoico, sin tabiques ni componente sólido. Mira este quiste simple: pared delgada y contenido negro, es benigno.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-15/02_quiste-simple-de-ovario__cto-gyo_p80.jpg', label: 'Quiste simple', at: 'Mira este quiste simple', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 80' } },
           { t: 'Sin flujo Doppler', d: 'Control ecográfico en 6 a 12 semanas',
             say: 'Sin flujo Doppler, y sin ascitis. Ahí la conducta es control ecográfico en seis a doce semanas, porque suele ser un quiste funcional.' },
         ] },
         { title: 'Signos de malignidad', tag: 'Reglas M de IOTA', kind: 'alert', items: [
           { t: 'Papilas mayores a 3 mm', d: 'Sólidas, proyectándose dentro del quiste',
-            say: 'Del lado maligno: proyecciones papilares sólidas de más de tres milímetros dentro del quiste, y tabiques gruesos, también de más de tres milímetros.' },
+            say: 'Del lado maligno: proyecciones papilares sólidas de más de tres milímetros dentro del quiste, y tabiques gruesos, también de más de tres milímetros. Mira esta masa: tiene partes sólidas, tabiques gruesos y flujo, y es sospechosa de cáncer de ovario.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-15/01_masa-anexial-sospechosa-eco__cto-gyo_p80.jpg', label: 'Masa sospechosa', at: 'Mira esta masa', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 80' } },
           { t: 'Ascitis y Doppler central', d: 'Flujo vascular intenso dentro del tumor',
             say: 'Súmale la ascitis, y un flujo Doppler central intenso dentro de la masa. Con esos signos, la derivación a ginecología oncológica es directa.' },
         ] },
@@ -194,42 +202,42 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Masas anexiales',
-      images: [
-        { src: 'biblioteca/13_ginecologia/gin-15/02_quiste-simple-de-ovario__cto-gyo_p80.jpg', label: 'Quiste simple', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 80' },
-        { src: 'biblioteca/13_ginecologia/gin-15/01_masa-anexial-sospechosa-eco__cto-gyo_p80.jpg', label: 'Masa sospechosa', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 80' },
-        { src: 'biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia__cto-gyo_p69.jpg', label: 'Endometrio engrosado en la postmenopausia', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 69' },
-      ],
-      steps: [
-        { note: 'Pared delgada, anecogénico',
-          say: 'El quiste simple, de pared delgada y contenido negro, es benigno.' },
-        { note: 'Sólida, tabiques, flujo',
-          say: 'La masa con partes sólidas, tabiques gruesos y flujo es sospechosa de cáncer de ovario.' },
-        { note: 'Cuatro a cinco milímetros o más',
-          say: 'Y en el sangrado postmenopáusico, un endometrio de cuatro a cinco milímetros o más en la ecografía transvaginal obliga a la biopsia.' },
+      type: 'points',
+      kicker: 'Oncología ginecológica',
+      title: 'Etapificación y tratamientos: los conceptos',
+      cards: [
+        { title: 'Etapificación', tag: 'Define tratamiento y pronóstico', kind: 'key', items: [
+          { t: 'TNM y FIGO', d: 'Quirúrgica en endometrio y ovario; clínica con imagen en cuello',
+            say: 'Cerremos con los conceptos generales. La etapificación clasifica la extensión del cáncer para elegir el tratamiento y estimar el pronóstico. Se usa el sistema TNM, tumor, ganglios y metástasis, y en ginecología la etapificación FIGO, que es quirúrgica en endometrio y ovario, y clínica con imagen en el cuello uterino.' },
+          { t: 'Se complementa', d: 'Grado histológico, marcadores, receptores hormonales, ECOG',
+            say: 'Se complementa con el grado histológico, biomarcadores como el CA ciento veinticinco en ovario y los receptores hormonales, y el estado funcional, la escala ECOG.' },
+        ] },
+        { title: 'Cirugía y radioterapia', tag: 'Local y regional', kind: 'pharma', items: [
+          { t: 'Cirugía curativa si está localizada', d: 'Histerectomía con salpingooforectomía; citorreducción en ovario',
+            say: 'La cirugía es curativa en la enfermedad localizada: histerectomía con salpingooforectomía y linfadenectomía o ganglio centinela en el endometrio, y citorreducción óptima en el ovario.' },
+          { t: 'Radioterapia externa y braquiterapia', d: 'Cistitis y proctitis; estenosis vaginal, fístulas, menopausia precoz',
+            say: 'La radioterapia, externa y braquiterapia, se usa en cuello y endometrio, como tratamiento radical o adyuvante. Sus efectos agudos son cistitis, proctitis y diarrea, y los tardíos, estenosis vaginal, fístulas y menopausia precoz.' },
+        ] },
+        { title: 'Quimioterapia e intención', tag: 'Sistémico', kind: 'alert', items: [
+          { t: 'Carboplatino más paclitaxel', d: 'Ovario y endometrio avanzado; cisplatino con radioterapia en cuello',
+            say: 'La quimioterapia es carboplatino más paclitaxel en ovario y en endometrio avanzado, y cisplatino concomitante con radioterapia en el cuello uterino localmente avanzado. Sus efectos son neutropenia febril, náuseas, neuropatía y, con el cisplatino, nefrotoxicidad.' },
+          { t: 'Adyuvante, neoadyuvante, curativo o paliativo', d: 'El médico general sospecha, deriva y acompaña',
+            say: 'La intención puede ser adyuvante, después de la cirugía; neoadyuvante, antes; curativa o paliativa. Tu papel como médico general es sospechar, derivar al comité oncológico, y encargarte del seguimiento sintomático, el apoyo psicosocial y los cuidados paliativos.' },
+        ] },
       ],
     },
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cortes para biopsiar',
       images: [
-        { src: 'biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_1__cto-radiologia_p141.jpg', label: 'Adenocarcinoma de ovario', credit: 'Manual CTO Radiología 14.ª ed., p. 141' },
-        { src: 'biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_2__cto-radiologia_p141.jpg', label: 'Carcinoma de ovario (TC coronal)', credit: 'Manual CTO Radiología 14.ª ed., p. 141' },
-        { src: 'biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia_alt1__cto-gyo_p69.jpg', label: 'Histeroscopía: cáncer de endometrio', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 69' },
+        { src: 'animaciones/gin-15/A1_grosor_endometrial.mp4', label: 'El grosor que decide', credit: 'Gráfico esquemático propio' },
       ],
       steps: [
-        { note: 'Adenocarcinoma de ovario',
-          say: 'Tomografía de un adenocarcinoma de ovario: una gran masa pélvica.' },
-        { note: 'Carcinoma de ovario (TC coronal)',
-          say: 'Tomografía coronal en un carcinoma de ovario.' },
-        { note: 'Biopsia dirigida',
-          say: 'Y si la muestra con Pipelle no alcanza, la histeroscopía permite ver la lesión y hacer una biopsia dirigida.' },
+        { note: 'Sangrado postmenopáusico',
+          say: 'Mira cómo sube el grosor del endometrio en cada situación. Sin terapia hormonal y con sangrado, el corte es de cuatro a cinco milímetros: sobre eso, biopsia con Pipelle. Con terapia de reemplazo, el corte sube a ocho milímetros. Y si es un hallazgo en una paciente sin sangrado, sube a once. Mientras menos alarma clínica, más grueso debe estar el endometrio. Pero todo sangrado postmenopáusico se estudia.' },
       ],
     },
 
@@ -349,6 +357,82 @@ module.exports = {
         options: 'Las opciones: quiste funcional, mioma uterino, cáncer de ovario, cáncer de colon, o endometriosis. Piénsalo.',
         answer: 'Es la C. Esto calza exactamente con lo que vimos: una mujer mayor, con síntomas vagos y progresivos, baja de peso, y una masa anexial firme. Un quiste funcional no ocurre a esta edad, un mioma no explica la baja de peso, y la endometriosis no aparece recién en la postmenopausia.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.4.005 · Ecotomografía ginecológica",
+      "stem": "Mujer de 28 años, asintomática, con ciclos regulares, se realiza una ecografía transvaginal de control que muestra un quiste en el ovario derecho de 4 cm, unilocular, anecoico, de pared fina, sin tabiques, papilas ni flujo al Doppler. El útero y el ovario izquierdo son normales y el test de embarazo es negativo.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Laparoscopía con quistectomía"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar CA-125 y resonancia magnética de pelvis"
+        },
+        {
+          "letter": "C",
+          "text": "Control con ecografía transvaginal en 6 a 8 semanas, en la primera fase del ciclo"
+        },
+        {
+          "letter": "D",
+          "text": "Punción ecoguiada del quiste"
+        },
+        {
+          "letter": "E",
+          "text": "Anticonceptivos orales por 6 meses como tratamiento obligatorio"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Un quiste simple (unilocular, anecoico, pared fina, sin papilas ni flujo) menor de 5 cm en edad fértil es casi siempre funcional y se resuelve solo. Se controla con ecografía transvaginal en 6 a 8 semanas, en fase folicular. La cirugía se reserva para persistencia, crecimiento o rasgos sospechosos.",
+      "say": {
+        "stem": "Mujer de veintiocho años, sin síntomas, a la que una ecografía transvaginal de control muestra un quiste de cuatro centímetros en el ovario derecho: una sola cavidad, contenido anecoico, pared fina, sin tabiques, papilas ni flujo.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: laparoscopía con quistectomía, CA ciento veinticinco con resonancia, ecografía de control en seis a ocho semanas, punción del quiste, o anticonceptivos por seis meses. Piénsalo.",
+        "answer": "Es la C. Un quiste simple de cuatro centímetros en una mujer joven casi siempre es funcional y desaparece solo, así que basta una ecografía de control en seis a ocho semanas. Pedir el CA ciento veinticinco tienta, pero en edad fértil sube por muchas causas benignas y aquí no está indicado."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2013 · Pregunta 4",
+      "stem": "Una paciente de 60 años es diagnosticada de cistoadenocarcinoma seroso de ovario con diseminación difusa en el peritoneo, por lo cual no es operable.",
+      "question": "¿Cuál es la conducta más adecuada en este caso?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cuidados paliativos"
+        },
+        {
+          "letter": "B",
+          "text": "Radioterapia"
+        },
+        {
+          "letter": "C",
+          "text": "Hormonoterapia"
+        },
+        {
+          "letter": "D",
+          "text": "Quimioterapia"
+        },
+        {
+          "letter": "E",
+          "text": "Inmunoterapia"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El cáncer epitelial de ovario avanzado es muy quimiosensible: cuando la carga tumoral impide una citorreducción óptima, se indica quimioterapia sistémica con carboplatino y paclitaxel (neoadyuvante, evaluando cirugía de intervalo). La radioterapia no se usa en enfermedad peritoneal difusa, y derivar solo a cuidados paliativos negaría un tratamiento eficaz.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil trece. Mujer de sesenta años con cáncer seroso de ovario diseminado en el peritoneo y no operable.",
+        "question": "¿Qué tratamiento indicas?",
+        "options": "Las opciones: cuidados paliativos, radioterapia, hormonoterapia, quimioterapia, o inmunoterapia. Piénsalo.",
+        "answer": "Es la D. Quimioterapia, porque el cáncer de ovario es muy quimiosensible incluso diseminado. Los cuidados paliativos exclusivos tientan por lo avanzado, pero negarían un tratamiento eficaz."
+      }
     },
 
     {

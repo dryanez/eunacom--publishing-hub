@@ -119,6 +119,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La meta cambia según el paciente',
+      images: [
+        { src: 'animaciones/diab-04/A1_metas_hba1c.mp4', label: 'Metas de HbA1c', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Más estricta en el joven, más laxa en el frágil',
+          say: 'Mira cómo sube la meta a medida que el paciente es más frágil: menos de seis coma cinco en el joven recién diagnosticado, menos de siete como meta estándar, menos de siete coma cinco en el adulto mayor activo, y ocho a ocho coma cinco en el frágil. Y bajo seis, más mortalidad por las hipoglicemias. Si ya está en meta, se mantiene.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, tal como lo vas a razonar en el examen.',
     },
@@ -232,6 +246,119 @@ module.exports = {
         options: 'Las opciones: suspender la glibenclamida, bajarla a una dosis diaria, suspender la metformina, bajar la metformina, o mantener sin cambios. Piénsalo.',
         answer: 'Es la A, suspender la glibenclamida. Los números son idénticos a la pregunta anterior, y la respuesta cambia, porque cambió el paciente. Un anciano frágil, con deterioro cognitivo, tiene meta bajo ocho a ocho coma cinco; con seis coma nueve está sobretratado, y la glibenclamida es justamente el fármaco que le puede provocar una hipoglicemia grave. Mantener, que era correcto en el joven, aquí es el distractor.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.017 · Hemoglobina glicosilada",
+      "stem": "Mujer de 52 años con DM2 de 3 años de evolución, en tratamiento con metformina 850 mg cada 12 horas. Antecedente de mioma uterino con metrorragia abundante, por lo que recibió 2 unidades de glóbulos rojos hace 3 semanas. Trae HbA1c de 6,1 %, pero su registro de glicemias capilares de ayuno muestra valores entre 180 y 220 mg/dL.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Está en meta; mantener el tratamiento"
+        },
+        {
+          "letter": "B",
+          "text": "La HbA1c está falsamente baja por la transfusión y la pérdida de sangre"
+        },
+        {
+          "letter": "C",
+          "text": "El glucómetro está mal calibrado; confiar en la HbA1c"
+        },
+        {
+          "letter": "D",
+          "text": "Debe reducirse la metformina por riesgo de hipoglicemia"
+        },
+        {
+          "letter": "E",
+          "text": "La HbA1c está falsamente alta por la anemia ferropénica"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La HbA1c refleja la glucosa unida a la hemoglobina durante la vida del glóbulo rojo. La hemorragia y la transfusión reciente renuevan los eritrocitos y la bajan falsamente. Aquí manda el registro de glicemias capilares; se repite la HbA1c en 2–3 meses.",
+      "say": {
+        "stem": "Mujer de cincuenta y dos años, diabética tipo dos, con metformina. Hace tres semanas recibió dos unidades de glóbulos rojos por una metrorragia de un mioma. Su hemoglobina glicosilada es seis coma uno, pero sus glicemias capilares de ayuno van de ciento ochenta a doscientos veinte.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: está en meta, glicosilada falsamente baja por la transfusión, glucómetro mal calibrado, reducir la metformina, o glicosilada falsamente alta por ferropenia. Piénsalo.",
+        "answer": "Es la B. La hemoglobina glicosilada depende de la vida del glóbulo rojo, y la hemorragia con transfusión reciente la baja falsamente. El distractor es decir que está en meta, pero las glicemias capilares muestran un mal control que el número no está reflejando."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.3.005 · Prevención de complicaciones crónicas de la diabetes",
+      "stem": "Hombre de 58 años con DM2 de 6 años de evolución, en tratamiento con metformina, HbA1c 7,2 %. Presión arterial 126/78 mmHg. En su control anual se detecta una razón albúmina/creatinina urinaria de 85 mg/g, que se confirma en una segunda muestra 2 meses después. Creatinina 0,9 mg/dL, VFG 88 mL/min.",
+      "question": "¿Cuál es la conducta más adecuada para prevenir la progresión de la nefropatía?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cambiar la metformina por glibenclamida"
+        },
+        {
+          "letter": "B",
+          "text": "Restringir las proteínas a 0,4 g/kg/día"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar enalapril o losartán"
+        },
+        {
+          "letter": "D",
+          "text": "Controlar la albuminuria en un año, ya que la presión es normal"
+        },
+        {
+          "letter": "E",
+          "text": "Agregar amlodipino"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Albuminuria moderadamente elevada confirmada (30–300 mg/g) en diabético: se indica IECA o ARA II aunque la presión sea normal, porque reducen la albuminuria y retrasan la nefropatía. La restricción proteica extrema no se recomienda y el amlodipino no tiene efecto antiproteinúrico.",
+      "say": {
+        "stem": "Hombre de cincuenta y ocho años, diabético tipo dos, con presión arterial normal. En su control anual tiene una razón albúmina creatinina de ochenta y cinco, confirmada en una segunda muestra. Su función renal es normal.",
+        "question": "¿Cuál es la conducta más adecuada para prevenir la progresión de la nefropatía?",
+        "options": "Las opciones: cambiar a glibenclamida, restricción proteica estricta, enalapril o losartán, controlar en un año o agregar amlodipino. Piénsalo.",
+        "answer": "Es la C. Una albuminuria confirmada entre treinta y trescientos en un diabético indica bloquear el sistema renina angiotensina, aunque la presión sea normal. El distractor es esperar porque está normotenso, pero el beneficio del enalapril o el losartán aquí es renal, no solo de presión."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.1.005 · Diabetes mellitus tipo 2",
+      "stem": "Hombre de 84 años con DM2 de 20 años de evolución, demencia moderada, dependencia para actividades básicas y caídas frecuentes. Usa metformina y glibenclamida. Su HbA1c es 6,4% y su cuidadora refiere episodios matinales de sudoración y confusión.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener el tratamiento, ya que la HbA1c está en meta"
+        },
+        {
+          "letter": "B",
+          "text": "Suspender la glibenclamida y aceptar una meta de HbA1c cercana a 8%"
+        },
+        {
+          "letter": "C",
+          "text": "Agregar insulina NPH nocturna"
+        },
+        {
+          "letter": "D",
+          "text": "Aumentar la glibenclamida para lograr una HbA1c menor de 6%"
+        },
+        {
+          "letter": "E",
+          "text": "Reemplazar la metformina por glibenclamida en dosis máxima"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En el adulto mayor frágil, con demencia y dependencia, la meta de HbA1c se relaja a cerca de 8% para evitar hipoglicemias, que causan caídas, arritmias y deterioro cognitivo. Sus síntomas sugieren hipoglicemias por glibenclamida, una sulfonilurea de acción prolongada que debe suspenderse. Una HbA1c de 6,4% aquí refleja sobretratamiento.",
+      "say": {
+        "stem": "Hombre de ochenta y cuatro años con diabetes tipo dos, demencia y dependencia, que usa glibenclamida, tiene hemoglobina glicada de seis coma cuatro y episodios de sudoración y confusión.",
+        "question": "¿Qué haces?",
+        "options": "Las opciones: mantener, suspender glibenclamida y aceptar una meta cercana a ocho, agregar insulina, aumentar glibenclamida, o reemplazar la metformina por glibenclamida. Piénsalo.",
+        "answer": "Es la B. Suspender la glibenclamida y relajar la meta, porque está teniendo hipoglicemias. Mantener porque la glicada está en meta es la trampa: en un adulto frágil ese valor es sobretratamiento."
+      }
     },
 
     {

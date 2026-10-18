@@ -51,13 +51,15 @@ module.exports = {
       cards: [
         { title: 'Periféricos', tag: 'Lejos del hilio', kind: 'key', items: [
           { t: 'Adenocarcinoma: 40–50 %', d: 'El más frecuente, también en no fumadores',
-            say: 'Veamos los cuatro tipos, y fíjate en un truco: se ordenan por dónde crecen. El adenocarcinoma es el más frecuente, entre el cuarenta y el cincuenta por ciento. Es periférico, nace en los bronquiolos terminales, y es el más frecuente también en mujeres y en no fumadores.' },
+            say: 'Veamos los cuatro tipos, y fíjate en un truco: se ordenan por dónde crecen. El adenocarcinoma es el más frecuente, entre el cuarenta y el cincuenta por ciento. Es periférico, nace en los bronquiolos terminales, y es el más frecuente también en mujeres y en no fumadores. Mira esta histología: el adenocarcinoma forma glándulas.',
+            photo: { src: 'biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_1__cto-neumo_p125.jpg', label: 'Adenocarcinoma', at: 'Mira esta histología', credit: 'Manual CTO Neumología 14.ª ed., p. 125' } },
           { t: 'Células grandes: 10 %', d: 'Periférico, indiferenciado y agresivo',
             say: 'El carcinoma de células grandes es cerca del diez por ciento. También es periférico, muy indiferenciado y agresivo.' },
         ] },
         { title: 'Centrales', tag: 'Cerca del hilio', kind: 'alert', items: [
           { t: 'Epidermoide: 25–30 %', d: 'Muy ligado al tabaco, tiende a cavitar',
-            say: 'Los centrales crecen en los bronquios principales. El epidermoide, o escamoso, es entre el veinticinco y el treinta por ciento, está muy ligado al tabaco y tiende a necrosarse y cavitarse en el centro. Masa hiliar cavitada en un fumador: piensa en epidermoide.' },
+            say: 'Los centrales crecen en los bronquios principales. El epidermoide, o escamoso, es entre el veinticinco y el treinta por ciento, está muy ligado al tabaco y tiende a necrosarse y cavitarse en el centro. Masa hiliar cavitada en un fumador: piensa en epidermoide. Y en esta histología, el epidermoide, con sus puentes y queratina.',
+            photo: { src: 'biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_2__cto-neumo_p125.jpg', label: 'Carcinoma epidermoide', at: 'Y en esta histología', credit: 'Manual CTO Neumología 14.ª ed., p. 125' } },
           { t: 'Microcítico: 15 %', d: 'Perihiliar, casi solo en fumadores pesados',
             say: 'Y el microcítico, también central y perihiliar, casi exclusivo de fumadores pesados. Esa ubicación central explica, como vamos a ver, por qué comprime el mediastino.' },
         ] },
@@ -96,7 +98,8 @@ module.exports = {
         { show: ['epi', 'hca'], note: 'Hipercalcemia con PTH suprimida = epidermoide',
           say: 'El epidermoide tiene una firma propia: secreta péptido relacionado con la hormona paratiroidea, y produce hipercalcemia sin metástasis óseas. La clave del laboratorio es que la PTH verdadera está suprimida. Calcio alto, PTH baja y masa central: epidermoide.' },
         { show: ['ade', 'ost'], note: 'Dedos en palillo de tambor',
-          say: 'El adenocarcinoma se asocia a la osteoartropatía hipertrófica pulmonar: acropaquia, o dedos en palillo de tambor, con periostitis dolorosa bilateral.' },
+          say: 'El adenocarcinoma se asocia a la osteoartropatía hipertrófica pulmonar: acropaquia, o dedos en palillo de tambor, con periostitis dolorosa bilateral. Mira estas manos: las acropaquias.',
+            photo: { src: 'biblioteca/02_neumologia/resp-17/03_acropaquias__amir-reuma_p113.jpg', label: 'Acropaquias', at: 'Mira estas manos', credit: 'Manual AMIR Reumatología, p. 113' } },
         { show: ['cgr'], note: 'Menos preguntado, pero existe',
           say: 'Y el de células grandes, en la tabla del libro, se asocia a ginecomastia por secreción de gonadotrofina coriónica. Si te preguntan un síndrome paraneoplásico, primero identifica la histología, y el síndrome sale solo.' },
       ],
@@ -109,15 +112,18 @@ module.exports = {
       cards: [
         { title: 'Tumor de Pancoast', tag: 'Vértice pulmonar', kind: 'alert', items: [
           { t: 'Dolor en territorio C8–T1', d: 'Cara interna del brazo',
-            say: 'Además de los síndromes a distancia, hay síndromes por invasión local. El primero es el tumor de Pancoast, del surco superior, en el vértice del pulmón. Suele ser un epidermoide o un adenocarcinoma, e invade el plexo braquial: el paciente consulta por dolor de hombro que baja por la cara interna del brazo, en el territorio de las raíces C ocho y T uno.' },
+            say: 'Además de los síndromes a distancia, hay síndromes por invasión local. El primero es el tumor de Pancoast, del surco superior, en el vértice del pulmón. Suele ser un epidermoide o un adenocarcinoma, e invade el plexo braquial: el paciente consulta por dolor de hombro que baja por la cara interna del brazo, en el territorio de las raíces C ocho y T uno. Mira esta radiografía: la masa en el vértice derecho, escondida detrás de las costillas.',
+            photo: { src: 'biblioteca/02_neumologia/resp-17/03_rx_tumor_apical_derecho__cxr_p152.jpg', label: 'Tumor apical', at: 'Mira esta radiografía', credit: 'The Chest X-Ray: A Survival Guide, Fig. 10.7' } },
           { t: 'Síndrome de Horner ipsilateral', d: 'Ptosis, miosis, enoftalmos, anhidrosis',
-            say: 'Y como también invade la cadena simpática, aparece un síndrome de Horner del mismo lado: ptosis, miosis, enoftalmos y anhidrosis facial. Dolor del brazo con un párpado caído en un fumador es Pancoast hasta demostrar lo contrario.' },
+            say: 'Y como también invade la cadena simpática, aparece un síndrome de Horner del mismo lado: ptosis, miosis, enoftalmos y anhidrosis facial. Dolor del brazo con un párpado caído en un fumador es Pancoast hasta demostrar lo contrario. Mira este ojo: párpado caído y pupila pequeña.',
+            photo: { src: 'biblioteca/02_neumologia/resp-17/02_sindrome_horner__kanski_p821.jpg', label: 'Síndrome de Horner', at: 'Mira este ojo', credit: 'Kanski 8.ª ed., Fig. 19.35A' } },
         ] },
         { title: 'Vena cava superior', tag: 'Tumor central', kind: 'criteria', items: [
           { t: 'Compresión mediastínica', d: 'Microcítico central o adenopatías',
-            say: 'El segundo es el síndrome de vena cava superior. Aquí vuelve la ubicación: un tumor central, típicamente el microcítico, o sus adenopatías, comprime la vena cava en el mediastino.' },
+            say: 'El segundo es el síndrome de vena cava superior. Aquí vuelve la ubicación: un tumor central, típicamente el microcítico, o sus adenopatías, comprime la vena cava en el mediastino.', },
           { t: 'Edema en esclavina', d: 'Cianosis facial y venas torácicas dilatadas',
-            say: 'La sangre de la mitad superior del cuerpo no puede volver, y aparece el edema en esclavina, en cara, cuello y brazos, con cianosis facial y venas colaterales dilatadas en el tórax.' },
+            say: 'La sangre de la mitad superior del cuerpo no puede volver, y aparece el edema en esclavina, en cara, cuello y brazos, con cianosis facial y venas colaterales dilatadas en el tórax. Mira estas venas colaterales dilatadas en el tórax,.',
+            photos: [{ src: 'biblioteca/02_neumologia/resp-17/10_sindrome-vena-cava-superior-torax__knoop_p193.jpg', label: 'Colaterales torácicas', at: 'Mira estas venas colaterales', credit: 'Knoop, Atlas of Emergency Medicine, p. 193' }] },
         ] },
       ],
     },
@@ -141,7 +147,8 @@ module.exports = {
       ],
       steps: [
         { show: ['sos'], note: 'El paciente del examen',
-          say: 'Juntemos esto en el manejo. El paciente llega como fumador mayor con tos crónica, hemoptisis, baja de peso o disnea, y una masa en la radiografía o en el scanner.' },
+          say: 'Juntemos esto en el manejo. El paciente llega como fumador mayor con tos crónica, hemoptisis, baja de peso o disnea, y una masa en la radiografía o en el scanner. Mira esta tomografía: una masa pulmonar, la imagen que da la sospecha.',
+            photo: { src: 'biblioteca/02_neumologia/resp-17/01_masa-pulmonar-tc__cto-neumo_p139.jpg', label: 'Masa en la TC', at: 'Mira esta tomografía', credit: 'Manual CTO Neumología 14.ª ed., p. 139' } },
         { show: ['bio'], note: 'Sin histología no hay tratamiento',
           say: 'El paso que no se salta es la biopsia con inmunohistoquímica. Sin histología no sabes en cuál de los dos universos estás, y el tratamiento es completamente distinto.' },
         { show: ['eta'], note: 'Etapificar antes de operar',
@@ -150,6 +157,32 @@ module.exports = {
           say: 'En etapas uno y dos, la opción curativa es la cirugía: lobectomía con linfadenectomía mediastínica.' },
         { show: ['qt', 'rt'], note: 'Microcítico: tratamiento sistémico',
           say: 'Si es microcítico, como ya es sistémico, el tratamiento es quimioterapia con cisplatino y etopósido, más radioterapia torácica y radioterapia holocraneal profiláctica. ¿Por qué al cerebro, si no hay metástasis? Porque el microcítico lo invade precozmente.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Metástasis cerebrales',
+      title: 'El cerebro, destino frecuente del cáncer pulmonar',
+      cards: [
+        { title: 'Cómo debutan', tag: 'Microcítico y adenocarcinoma', kind: 'key', items: [
+          { t: 'Cefalea progresiva, crisis, déficit focal', d: 'O alteración cognitiva o HIC',
+            say: 'El cáncer de pulmón es la causa más frecuente de metástasis cerebrales, sobre todo el microcítico y el adenocarcinoma. Debutan con cefalea progresiva, convulsiones, déficit focal, alteración cognitiva o signos de hipertensión intracraneana.' },
+          { t: 'Múltiples, en la unión gris-blanca', d: 'Con edema perilesional',
+            say: 'Los tumores son múltiples, se ubican en la unión de la sustancia gris y la blanca, y tienen edema alrededor.' },
+        ] },
+        { title: 'Estudio', tag: 'Sospecha', kind: 'criteria', items: [
+          { t: 'Resonancia con gadolinio', d: 'TAC con contraste si no hay resonancia',
+            say: 'Se sospecha con resonancia magnética con gadolinio, o con TAC con contraste si no hay resonancia disponible.' },
+        ] },
+        { title: 'Manejo inicial', tag: 'Y derivar', kind: 'pharma', items: [
+          { t: 'Dexametasona + protección gástrica', d: 'Para el edema',
+            say: 'El manejo inicial es dexametasona para el edema, con protección gástrica.' },
+          { t: 'Anticonvulsivante solo si hay crisis', d: 'No es profiláctico',
+            say: 'Se da anticonvulsivante solo si hay crisis, no como profilaxis.' },
+          { t: 'Neurocirugía y oncología', d: 'Cirugía si única; radiocirugía o holocraneana',
+            say: 'Y se deriva a neurocirugía y oncología: cirugía si la lesión es única y accesible, y radiocirugía o radioterapia holocraneana en el resto. En el microcítico, además, se ofrece radioterapia craneal profiláctica.' },
+        ] },
       ],
     },
 
@@ -164,46 +197,6 @@ module.exports = {
       steps: [
         { note: 'Vena cava superior',
           say: 'Los tumores se ordenan por dónde crecen. El adenocarcinoma, el más frecuente, es periférico. El epidermoide y el de células pequeñas son centrales, y un tumor central puede comprimir la vena cava superior: edema de la cara y los brazos.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Cáncer pulmonar',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-17/03_rx_tumor_apical_derecho__cxr_p152.jpg', label: 'Tumor apical', credit: 'The Chest X-Ray: A Survival Guide, Fig. 10.7' },
-        { src: 'biblioteca/02_neumologia/resp-17/02_sindrome_horner__kanski_p821.jpg', label: 'Síndrome de Horner', credit: 'Kanski 8.ª ed., Fig. 19.35A' },
-        { src: 'biblioteca/02_neumologia/resp-17/01_masa-pulmonar-tc__cto-neumo_p139.jpg', label: 'Masa en la TC', credit: 'Manual CTO Neumología 14.ª ed., p. 139' },
-        { src: 'biblioteca/02_neumologia/resp-17/03_acropaquias__amir-reuma_p113.jpg', label: 'Acropaquias', credit: 'Manual AMIR Reumatología, p. 113' },
-      ],
-      steps: [
-        { note: 'Oculto detrás de las costillas',
-          say: 'Las flechas muestran una masa en el vértice derecho, escondida detrás de las costillas. Un tumor en el vértice puede invadir el plexo braquial y la cadena simpática: es el tumor de Pancoast.' },
-        { note: 'Ptosis y miosis del mismo lado',
-          say: 'Y este es el síndrome de Horner que produce: párpado caído y pupila pequeña en el mismo lado del tumor.' },
-        { note: 'La tomografía estadifica',
-          say: 'La tomografía muestra la masa y los ganglios del mediastino. Pero el tratamiento lo decide la biopsia: microcítico o no microcítico.' },
-        { note: 'Dedos en palillo de tambor',
-          say: 'Y estos son dedos en palillo de tambor, con uñas en vidrio de reloj. En un fumador, obligan a buscar un cáncer pulmonar.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_1__cto-neumo_p125.jpg', label: 'Adenocarcinoma (histología)', credit: 'Manual CTO Neumología 14.ª ed., p. 125' },
-        { src: 'biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_2__cto-neumo_p125.jpg', label: 'Carcinoma epidermoide (histología)', credit: 'Manual CTO Neumología 14.ª ed., p. 125' },
-      ],
-      steps: [
-        { note: 'Adenocarcinoma (histología)',
-          say: 'Adenocarcinoma de pulmón: las células forman glándulas.' },
-        { note: 'Carcinoma epidermoide (histología)',
-          say: 'Carcinoma epidermoide de pulmón: nidos sólidos de células escamosas.' },
       ],
     },
 
@@ -346,6 +339,156 @@ module.exports = {
         options: 'Las opciones: Kartagener, Pancoast con Horner, vena cava superior, miopatía tiroidea, o neuralgia postherpética. Piénsalo.',
         answer: 'Es la B. Vértice pulmonar, dolor en el territorio del plexo braquial inferior y un Horner del mismo lado: tumor de Pancoast que invade el ganglio estrellado. La C tienta porque también es invasión local, pero el síndrome de vena cava da edema y cianosis de la cara, no dolor del brazo ni ptosis.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.1.034 · Síndromes mediastínicos",
+      "stem": "Hombre de 63 años, fumador de 50 paquetes-año, con 3 semanas de edema facial y de ambos brazos que empeora al agacharse, disnea leve y cefalea matinal. Ingurgitación yugular sin pulso y circulación colateral en la pared torácica anterior. Sin estridor ni compromiso de conciencia. Radiografía: ensanchamiento mediastínico superior derecho.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radioterapia de urgencia antes de cualquier estudio"
+        },
+        {
+          "letter": "B",
+          "text": "Esternotomía exploradora de urgencia"
+        },
+        {
+          "letter": "C",
+          "text": "Corticoides en altas dosis y alta"
+        },
+        {
+          "letter": "D",
+          "text": "Trombólisis sistémica"
+        },
+        {
+          "letter": "E",
+          "text": "TAC de tórax con contraste y obtener diagnóstico histológico antes de tratar"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Síndrome de vena cava superior subagudo, sin estridor ni edema cerebral: no es una emergencia que impida estudiar. Se hace TAC con contraste y se obtiene histología (broncoscopía, biopsia de adenopatía) antes de tratar, porque linfoma y cáncer microcítico se tratan con quimioterapia. La radioterapia empírica arruina la biopsia.",
+      "say": {
+        "stem": "Un hombre de sesenta y tres años, gran fumador, tiene hace tres semanas la cara y los brazos hinchados, peor al agacharse, con yugulares ingurgitadas y circulación colateral en el pecho. No tiene estridor ni compromiso de conciencia. La radiografía muestra el mediastino superior ensanchado.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: radioterapia de urgencia, esternotomía, corticoides y alta, trombólisis o tomografía con contraste y biopsia antes de tratar. Piénsalo.",
+        "answer": "Es la E. Es un síndrome de vena cava superior, pero sin estridor ni edema cerebral hay tiempo para estudiar, y la histología manda el tratamiento. La radioterapia de urgencia tienta porque alivia rápido, pero puede borrar el diagnóstico de un linfoma o un cáncer microcítico."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.1.016 · Síndrome paraneoplásico",
+      "stem": "Hombre de 64 años, fumador de 50 paquetes-año, con masa hiliar central en la radiografía de tórax, presenta náuseas y somnolencia. Sodio 119 mEq/L, osmolalidad plasmática 250 mOsm/kg, osmolalidad urinaria 520 mOsm/kg, sodio urinario 60 mEq/L. Está euvolémico y la función tiroidea y el cortisol son normales.",
+      "question": "¿Cuál es el tipo histológico más probablemente asociado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adenocarcinoma"
+        },
+        {
+          "letter": "B",
+          "text": "Carcinoma escamoso"
+        },
+        {
+          "letter": "C",
+          "text": "Carcinoma de células pequeñas"
+        },
+        {
+          "letter": "D",
+          "text": "Carcinoma de células grandes"
+        },
+        {
+          "letter": "E",
+          "text": "Tumor carcinoide periférico"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Hiponatremia hipotónica euvolémica con orina concentrada y sodio urinario alto es un SIADH, síndrome paraneoplásico clásico del carcinoma pulmonar de células pequeñas, tumor central de fumadores, que también produce ACTH ectópica y síndrome de Lambert-Eaton. El carcinoma escamoso se asocia típicamente a hipercalcemia por PTHrP.",
+      "say": {
+        "stem": "Hombre fumador con masa hiliar central e hiponatremia euvolémica con orina concentrada, compatible con secreción inadecuada de hormona antidiurética.",
+        "question": "¿Qué tipo histológico sospechas?",
+        "options": "Las opciones: adenocarcinoma, escamoso, células pequeñas, células grandes o carcinoide. Piénsalo.",
+        "answer": "Es la C. Carcinoma de células pequeñas, el que clásicamente produce secreción inadecuada de hormona antidiurética. El escamoso también es central, pero su síndrome paraneoplásico típico es la hipercalcemia."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.2.008 · Síndrome vena cava superior",
+      "stem": "Hombre de 58 años, fumador, consulta por edema de cara y cuello, plétora facial y disnea leve de 2 semanas, que empeora al agacharse. Se observa circulación colateral en la pared torácica anterior. Está vigil, sin estridor. La radiografía muestra ensanchamiento mediastínico superior derecho. No tiene diagnóstico oncológico previo.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radioterapia de urgencia antes de cualquier estudio"
+        },
+        {
+          "letter": "B",
+          "text": "TAC de tórax con contraste y obtención de diagnóstico histológico antes de tratar"
+        },
+        {
+          "letter": "C",
+          "text": "Corticoides empíricos en dosis altas y alta"
+        },
+        {
+          "letter": "D",
+          "text": "Diuréticos endovenosos como tratamiento definitivo"
+        },
+        {
+          "letter": "E",
+          "text": "Trombolisis sistémica"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Un síndrome de vena cava superior sin compromiso de vía aérea ni edema cerebral permite estudiar: se realiza TAC de tórax con contraste y biopsia, porque el tratamiento depende de la histología (quimioterapia en células pequeñas o linfoma). La radioterapia o los corticoides empíricos pueden impedir el diagnóstico. Si hay estridor o confusión, se instala un stent endovascular.",
+      "say": {
+        "stem": "Hombre fumador con edema facial, plétora y circulación colateral torácica, sin estridor ni confusión, y sin diagnóstico oncológico.",
+        "question": "¿Qué haces?",
+        "options": "Las opciones: radioterapia urgente, TAC con contraste y biopsia antes de tratar, corticoides empíricos, diuréticos o trombolisis. Piénsalo.",
+        "answer": "Es la B. TAC con contraste y diagnóstico histológico, porque está estable y el tratamiento depende del tipo de tumor. La radioterapia urgente era la respuesta clásica, pero hoy puede arruinar la biopsia."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.1.029 · Tumores primarios y metastásicos SNC",
+      "stem": "Hombre de 61 años, fumador, con adenocarcinoma pulmonar recién diagnosticado, consulta por cefalea matinal progresiva, vómitos y paresia leve de la mano derecha. La resonancia cerebral muestra 3 lesiones redondeadas con realce en anillo en la unión córtico-subcortical, rodeadas de extenso edema vasogénico.",
+      "question": "¿Cuál es el tratamiento inicial más adecuado de los síntomas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dexametasona"
+        },
+        {
+          "letter": "B",
+          "text": "Manitol en infusión continua por 2 semanas"
+        },
+        {
+          "letter": "C",
+          "text": "Antibióticos por absceso cerebral"
+        },
+        {
+          "letter": "D",
+          "text": "Anticoagulación"
+        },
+        {
+          "letter": "E",
+          "text": "Punción lumbar evacuadora"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Lesiones múltiples con realce en anillo en la unión córtico-subcortical, en un paciente con cáncer pulmonar, corresponden a metástasis cerebrales, los tumores intracraneales más frecuentes del adulto. Los síntomas por edema vasogénico se tratan con dexametasona; luego se define radiocirugía, radioterapia o cirugía. La punción lumbar está contraindicada por el efecto de masa.",
+      "say": {
+        "stem": "Hombre fumador con adenocarcinoma pulmonar, cefalea matinal, vómitos y tres lesiones cerebrales con realce en anillo y mucho edema.",
+        "question": "¿Cómo tratas sus síntomas al inicio?",
+        "options": "Las opciones: dexametasona, manitol continuo, antibióticos, anticoagulación, o punción lumbar evacuadora. Piénsalo.",
+        "answer": "Es la A. Dexametasona, para el edema de las metástasis. El realce en anillo hace pensar en absceso, pero con cáncer pulmonar y lesiones múltiples lo esperable son metástasis."
+      }
     },
 
     {

@@ -141,9 +141,89 @@ module.exports = {
       ],
       steps: [
         { show: ["lumb", "rx"], note: "Radiografía convencional de pelvis",
-          say: "El primer estudio de imagen que debe solicitarse en atención primaria es la radiografía de pelvis centrada en articulaciones sacroilíacas. Permite pesquisar erosiones óseas, esclerosis del borde articular o fusión completa en casos avanzados." },
+          say: "El primer estudio de imagen que debe solicitarse en atención primaria es la radiografía de pelvis centrada en articulaciones sacroilíacas. Permite pesquisar erosiones óseas, esclerosis del borde articular o fusión completa en casos avanzados. Mira esta radiografía: las sacroilíacas pierden su borde nítido y se ven blancas, esclerosadas.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-16/01_sacroilitis-rx__amir-reuma_p79.jpg', label: 'Sacroilitis en la Rx', at: 'Mira esta radiografía', credit: 'Manual AMIR Reumatología, p. 79' } },
         { show: ["rm", "der"], note: "Resonancia magnética y tratamiento",
-          say: "En etapas precoces la radiografía puede ser totalmente normal. Ante sospecha fundada con radiografía negativa, la resonancia magnética con secuencias STIR detecta edema óseo subcondral activo. Se indican AINEs continuos y se deriva a especialista." },
+          say: "En etapas precoces la radiografía puede ser totalmente normal. Ante sospecha fundada con radiografía negativa, la resonancia magnética con secuencias STIR detecta edema óseo subcondral activo. Se indican AINEs continuos y se deriva a especialista. Aquí, en la resonancia, las flechas marcan el edema óseo junto a la sacroilíaca.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-16/02_sacroilitis-rm-stir__amir-reuma_p79.jpg', label: 'RM STIR: sacroilitis activa', at: 'Aquí, en la resonancia', credit: 'Manual AMIR Reumatología, p. 79' } },
+      ],
+    },
+
+    {
+      type: "points",
+      kicker: "Lumbago mecánico",
+      title: "Tratar el lumbago mecánico y seguirlo",
+      cards: [
+        { title: "Agudo: menos de 6 semanas", tag: "Casi todos mejoran", kind: "key", items: [
+          { t: "Mantener la actividad habitual", d: "El reposo en cama más de 2 días retrasa",
+            say: "La gran mayoría mejora en cuatro a seis semanas. El tratamiento es mantener la actividad habitual apenas el dolor lo permita: el reposo en cama de más de dos días retrasa la recuperación. Se agrega calor local." },
+          { t: "AINE por pocos días, relajante hasta 1 semana", d: "Naproxeno 500 mg cada 12 horas o ibuprofeno",
+            say: "Se dan antiinflamatorios a dosis plenas por pocos días, por ejemplo naproxeno quinientos miligramos cada doce horas o ibuprofeno cuatrocientos a seiscientos cada ocho, con protección gástrica si hay riesgo, y un relajante muscular nocturno por no más de una semana si hay contractura intensa." },
+          { t: "Evitar opioides, corticoides, reposo e imágenes", d: "Sin banderas rojas",
+            say: "Sin banderas rojas se evitan los opioides, los corticoides sistémicos, el reposo prolongado y los estudios de imágenes. Se educa sobre el buen pronóstico, la ergonomía y el retorno laboral precoz, con licencia médica lo más corta posible." },
+        ] },
+        { title: "Seguimiento", tag: "Subagudo y crónico", kind: "criteria", items: [
+          { t: "Reevaluar a las 2 a 4 semanas", d: "Más de 6 semanas: ejercicio y kinesioterapia",
+            say: "Se reevalúa a las dos a cuatro semanas. Si el dolor pasa de seis semanas, subagudo, o de doce, crónico, se agrega ejercicio terapéutico y kinesioterapia, manejo del peso y de los factores psicosociales, y se pueden usar duloxetina o antidepresivos tricíclicos en dosis bajas. Si no hay mejoría entre seis y doce semanas, se deriva a fisiatría o traumatología." },
+        ] },
+        { title: "Lumbociática", tag: "Dolor bajo la rodilla", kind: "alert", items: [
+          { t: "Lasègue positivo a 30 a 70 grados", d: "Hernia L4-L5 o L5-S1",
+            say: "En la lumbociática el dolor se irradia bajo la rodilla y el signo de Lasègue es positivo entre treinta y setenta grados. La causa habitual es una hernia del núcleo pulposo L cuatro L cinco o L cinco S uno." },
+          { t: "Mejora en 6 a 12 semanas", d: "Se opera solo con déficit progresivo, cauda equina o dolor intratable",
+            say: "Mejora en seis a doce semanas con antiinflamatorios y actividad. Se opera solo si hay déficit motor progresivo, síndrome de cauda equina o dolor intratable. La resonancia se pide solo ante banderas rojas, déficit neurológico o candidatos a cirugía." },
+        ] },
+      ],
+    },
+
+    {
+      type: "points",
+      kicker: "Columna dolorosa",
+      title: "Banderas rojas y causas de la columna dolorosa",
+      cards: [
+        { title: "Banderas rojas", tag: "Estudio inmediato o derivación urgente", kind: "alert", items: [
+          { t: "Edad bajo 20 o sobre 50, trauma, cáncer, fiebre", d: "Baja de peso, inmunosupresión, drogas endovenosas",
+            say: "Son banderas rojas la edad menor de veinte o mayor de cincuenta años al inicio, un trauma significativo, el antecedente de cáncer, la fiebre, la baja de peso, la inmunosupresión y el uso de drogas endovenosas." },
+          { t: "Dolor nocturno, déficit progresivo, cauda equina", d: "Anestesia en silla de montar, retención urinaria, incontinencia fecal",
+            say: "También el dolor nocturno o no mecánico que no cede con el reposo, el déficit neurológico progresivo y los síntomas de cauda equina: anestesia en silla de montar, retención urinaria e incontinencia fecal. Todo esto exige hemograma, velocidad de sedimentación, proteína C reactiva, radiografía o resonancia según el caso, o derivación urgente." },
+        ] },
+        { title: "Causas frecuentes", tag: "Mecánica, inflamatoria, infecciosa", kind: "criteria", items: [
+          { t: "Mecánica degenerativa", d: "Discopatía, facetas, estenosis con claudicación neurógena",
+            say: "Las causas son, primero, la mecánica degenerativa: discopatía, artrosis facetaria y estenosis del canal, con claudicación neurogénica que mejora al inclinarse hacia adelante." },
+          { t: "Inflamatoria: espondiloartritis", d: "Menor de 45 años, rigidez matinal, mejora con ejercicio",
+            say: "Segundo, la inflamatoria, la espondiloartritis: dolor antes de los cuarenta y cinco años, con rigidez matinal y mejoría con el ejercicio." },
+          { t: "Infecciosa: espondilodiscitis", d: "S. aureus o tuberculosis; fiebre y VHS alta",
+            say: "Tercero, la infecciosa, la espondilodiscitis por estafilococo áureo o tuberculosis, con fiebre y velocidad de sedimentación elevada." },
+        ] },
+        { title: "Otras causas", tag: "No olvidar", kind: "key", items: [
+          { t: "Neoplásica y fractura por compresión", d: "Mama, próstata, pulmón, riñón, mieloma; adulto mayor",
+            say: "Cuarto, la neoplásica: metástasis de mama, próstata, pulmón y riñón, o mieloma múltiple. Quinto, la fractura osteoporótica por compresión, en el adulto mayor con dolor súbito y localizado." },
+          { t: "Dolor referido visceral", d: "Aneurisma aórtico, pancreatitis, litiasis renal, pelvis",
+            say: "Y sexto, el dolor referido de origen visceral: aneurisma aórtico, pancreatitis, litiasis renal o patología pélvica." },
+        ] },
+      ],
+    },
+
+    {
+      type: "points",
+      kicker: "Columna dolorosa",
+      title: "Cuello, espalda dorsal y vértebra osteoporótica",
+      cards: [
+        { title: "Cervicalgia", tag: "Mecánica y radiculopatía", kind: "criteria", items: [
+          { t: "Calor, AINEs, kinesioterapia", d: "Evitar posturas forzadas",
+            say: "La cervicalgia mecánica se maneja con calor, antiinflamatorios, kinesioterapia y evitando posturas forzadas." },
+          { t: "Radiculopatía C6 C7 mejora sola; mielopatía se opera", d: "Torpeza de manos o marcha espástica: neurocirugía",
+            say: "La radiculopatía cervical, con dolor, parestesias y debilidad en el brazo, mejora en la mayoría con tratamiento conservador. Pero la mielopatía cervical, con torpeza de las manos o marcha espástica, requiere derivación neuroquirúrgica." },
+        ] },
+        { title: "Dorsalgia y fractura", tag: "Menos frecuentes", kind: "alert", items: [
+          { t: "La dorsalgia obliga a descartar", d: "Tumor, fractura e infección",
+            say: "La dorsalgia es menos frecuente y obliga a descartar tumor, fractura e infección." },
+          { t: "Fractura vertebral osteoporótica", d: "Analgesia, movilización precoz, calcio, vitamina D",
+            say: "La fractura vertebral osteoporótica se maneja con analgesia, movilización precoz, calcio, vitamina D y tratamiento antiosteoporótico." },
+        ] },
+        { title: "En todos los casos", tag: "Seguimiento", kind: "key", items: [
+          { t: "Control a las 2 a 4 semanas", d: "Educar sobre alarmas; derivar si evoluciona mal",
+            say: "En todos los casos se controla a las dos a cuatro semanas, se educa sobre las alarmas para consultar temprano y se deriva si hay mala evolución o sospecha de causa inflamatoria, infecciosa o neoplásica." },
+        ] },
       ],
     },
 
@@ -175,23 +255,6 @@ module.exports = {
       steps: [
         { note: 'Talón: Aquiles y fascia plantar',
           say: 'En la artritis reumatoide la diana es la membrana sinovial; en las espondiloartritis es la entesis, donde el tendón se inserta en el hueso. La entesitis periférica más frecuente está en la inserción del tendón de Aquiles o en la fascia plantar, con talalgia al levantarse. Y en el esqueleto axial da sacroilitis y espondilitis.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Sacroilitis',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-16/01_sacroilitis-rx__amir-reuma_p79.jpg', label: 'Sacroilitis (Rx)', credit: 'Manual AMIR Reumatología, p. 79' },
-        { src: 'biblioteca/08_reumatologia/reuma-16/02_sacroilitis-rm-stir__amir-reuma_p79.jpg', label: 'RM T1 y STIR: sacroilitis activa', credit: 'Manual AMIR Reumatología, p. 79' },
-      ],
-      steps: [
-        { note: 'Bordes borrosos y esclerosis',
-          say: 'En la radiografía, las sacroilíacas pierden su borde nítido y se esclerosan. Es el sello de las espondiloartritis.' },
-        { note: 'Edema óseo en STIR',
-          say: 'Y si la radiografía es normal en una etapa precoz, la resonancia con secuencia STIR detecta el edema óseo activo junto a la sacroilíaca, donde apuntan las flechas.' },
       ],
     },
 
@@ -282,6 +345,44 @@ module.exports = {
         options: "Las opciones: sinovitis proliferativa con pannus, entesitis, tromboflebitis superficial, neuroma de Morton, u osteocondritis disecante. Piénsalo.",
         answer: "Es la B. La entesitis o inflamación de la inserción ósea del tendón es la lesión patológica cardinal de las espondiloartritis, siendo la entesitis aquiliana un motivo de consulta muy característico.",
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.11.1.006 · Columna dolorosa",
+      "stem": "Hombre de 26 años consulta por dolor lumbar de 6 meses, de inicio insidioso, que lo despierta en la segunda mitad de la noche y se acompaña de rigidez matinal de 1 hora.",
+      "question": "¿Cuál característica adicional apoya más un origen inflamatorio del dolor?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mejoría con el reposo"
+        },
+        {
+          "letter": "B",
+          "text": "Inicio súbito tras levantar peso"
+        },
+        {
+          "letter": "C",
+          "text": "Mejoría con el ejercicio"
+        },
+        {
+          "letter": "D",
+          "text": "Dolor que aumenta al final del día con la actividad"
+        },
+        {
+          "letter": "E",
+          "text": "Irradiación por el dermatoma L5 con Lasègue positivo"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El dolor lumbar inflamatorio (criterios ASAS) se caracteriza por inicio antes de los 40 años, comienzo insidioso, duración mayor de 3 meses, dolor nocturno, rigidez matinal prolongada y mejoría con el ejercicio pero no con el reposo. Sugiere espondiloartritis y se estudia con HLA-B27 y resonancia de sacroilíacas. El dolor mecánico empeora con la actividad y mejora con el reposo.",
+      "say": {
+        "stem": "Hombre de veintiséis años con lumbago insidioso de seis meses, que lo despierta de noche y con una hora de rigidez matinal.",
+        "question": "¿Qué característica apoya un origen inflamatorio?",
+        "options": "Las opciones: mejora con reposo, inicio súbito al levantar peso, mejora con ejercicio, empeora al final del día o irradiación radicular. Piénsalo.",
+        "answer": "Es la C. Que mejore con el ejercicio, lo típico de la espondiloartritis. Mejorar con el reposo es justamente el patrón del dolor mecánico."
+      }
     },
 
     {

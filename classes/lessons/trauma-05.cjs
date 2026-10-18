@@ -88,6 +88,29 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Columna y radiología',
+      title: 'Cómo se lee la trilogía',
+      cards: [
+        { title: 'Cervical y tórax', tag: 'Sin retrasar la reanimación', kind: 'criteria', items: [
+          { t: 'Cervical lateral: 7 vértebras y C7-T1', d: 'Si no se ve la unión, TAC',
+            say: 'La trilogía se toma en la sala de reanimación, sin retrasar la reanimación. En la columna cervical lateral deben verse las siete vértebras y la unión de la séptima vértebra cervical con la primera torácica; si no se ve, pides tomografía. Revisas las cuatro líneas de alineación, la distancia atlantodental, menor de tres milímetros en adultos, y el espacio prevertebral.' },
+          { t: 'Espacio prevertebral: más de 7 mm en C2', d: 'Más de 21 mm en C6: hematoma',
+            say: 'Un espacio prevertebral aumentado, más de siete milímetros a nivel de la segunda vértebra cervical, o más de veintiuno a nivel de la sexta, sugiere hematoma.' },
+          { t: 'Tórax: mediastino mayor de 8 cm', d: 'Sospecha de lesión aórtica',
+            say: 'En el tórax buscas neumotórax, hemotórax, fracturas costales, contusión pulmonar, la posición de los tubos y, ojo, un mediastino ensanchado de más de ocho centímetros, que hace sospechar una lesión de la aorta.' },
+        ] },
+        { title: 'Pelvis anteroposterior', tag: 'Hallazgos que cambian la conducta', kind: 'key', items: [
+          { t: 'Sínfisis ensanchada más de 2,5 cm', d: 'O sacroilíacas asimétricas',
+            say: 'En la pelvis buscas el ensanchamiento de la sínfisis del pubis, más de dos coma cinco centímetros, y asimetría o ensanchamiento de las articulaciones sacroilíacas. Eso es una pelvis inestable.' },
+          { t: 'Ramas y acetábulo', d: 'Línea de Shenton alterada',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-05/21_pelvis-ramas-pubicas__sherman_p645.jpg', label: 'Fractura de ramas púbicas', at: 'En esta radiografía', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 645' },
+            say: 'También buscas fracturas de las ramas y del acetábulo, y una línea de Shenton alterada. En esta radiografía las flechas marcan las fracturas de las ramas púbicas superior e inferior derechas. Los hallazgos orientan el manejo: drenaje pleural, estabilización pélvica o tomografía de la columna.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Fractura de pelvis',
       title: 'Evaluar la pelvis sin empeorarla',
       cards: [
@@ -123,7 +146,8 @@ module.exports = {
       ],
       steps: [
         { show: ['fx', 've'], note: 'El sangrado es sobre todo venoso',
-          say: 'Esta es la causa principal de muerte inmediata. Cuando la pelvis se rompe y se abre, como un libro, aumenta el espacio donde puede acumularse sangre. Y el sangrado viene sobre todo de los plexos venosos pélvicos, aunque también puede haber compromiso arterial.' },
+          photo: { src: 'biblioteca/18_traumatologia/trauma-05/01_pelvis-antes-de-faja__atls_p150.jpg', label: 'Pelvis inestable, muy ancha', at: 'Mira esta radiografía', credit: 'ATLS 10.ª ed., Fig. 5-9C' },
+          say: 'Esta es la causa principal de muerte inmediata. Mira esta radiografía de una lesión inestable: las alas ilíacas están separadas y la pelvis se ve ancha, abierta como un libro. Ese es el espacio donde puede acumularse sangre. Y el sangrado viene sobre todo de los plexos venosos pélvicos, aunque también puede haber compromiso arterial.' },
         { show: ['sh'], note: 'Es una urgencia vital',
           say: 'El resultado es un shock hipovolémico: paciente hipotenso, taquicárdico, que se te puede ir en minutos.' },
         { show: ['es', 'vo'], note: 'Cerrar la pelvis y reponer',
@@ -138,7 +162,11 @@ module.exports = {
       cards: [
         { title: 'Medios de estabilización', tag: 'Según los recursos', kind: 'key', items: [
           { t: 'Sábana pélvica', d: 'Apretada sobre los trocánteres mayores',
-            say: 'La sábana pélvica es la solución en atención primaria o donde no hay recursos. Enrollas una sábana y la aprietas alrededor de los trocánteres mayores, para cerrar el espacio de la pelvis. Es lo que más se pregunta.' },
+            photos: [
+              { src: 'biblioteca/18_traumatologia/trauma-05/03_sabana-pelvica__atls_p150.jpg', label: 'Pelvis atada con una sábana', at: 'Mira esta sábana', credit: 'ATLS 10.ª ed., Fig. 5-9B' },
+              { src: 'biblioteca/18_traumatologia/trauma-05/02_pelvis-despues-de-faja__atls_p150.jpg', label: 'Anillo cerrado tras la faja', at: 'Y esta es la misma pelvis', credit: 'ATLS 10.ª ed., Fig. 5-9D' },
+            ],
+            say: 'La sábana pélvica es la solución en atención primaria o donde no hay recursos. Mira esta sábana enrollada y apretada alrededor de los trocánteres mayores, para cerrar el espacio de la pelvis. Y esta es la misma pelvis de antes, ya con la faja puesta: el anillo se ve más cerrado y se frena el sangrado venoso. Es lo que más se pregunta.' },
           { t: 'Hamaca pélvica', d: 'Alternativa simple de campo',
             say: 'La hamaca pélvica cumple la misma idea: contener y comprimir la pelvis desde afuera.' },
           { t: 'Tutores externos', d: 'Dispositivo quirúrgico',
@@ -166,45 +194,13 @@ module.exports = {
         ] },
         { title: 'Diagnóstico y conducta', tag: 'Contraindicación absoluta', kind: 'key', items: [
           { t: 'Uretrocistografía retrógrada', d: 'Es el examen diagnóstico',
-            say: 'El diagnóstico se hace con uretrocistografía retrógrada.' },
+            photo: { src: 'biblioteca/18_traumatologia/trauma-05/04_uretrografia-lesion-uretral__bailey-love_p227.jpg', label: 'Contraste que se escapa', at: 'En esta uretrografía', credit: 'Bailey & Love 27.ª ed., Fig. 14.28' },
+            say: 'El diagnóstico se hace con uretrocistografía retrógrada. En esta uretrografía, en un paciente con fracturas extensas de pelvis, la flecha marca la zona donde el contraste se escapa fuera de la uretra. Es una lesión uretral, y por eso nunca pasas una sonda a ciegas.' },
           { t: 'Prohibida la sonda Foley', d: 'Falsa vía y más daño',
             say: 'Ojo con la contraindicación absoluta: no se instala sonda Foley, porque puede agravar la lesión o crear una falsa vía.' },
           { t: 'Cistostomía suprapúbica', d: 'Drena el globo vesical',
             say: 'Si hay globo vesical, el manejo inicial es una cistostomía suprapúbica. Después viene la reparación quirúrgica de la uretra.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Pelvis cerrada y uretra lesionada',
-      images: [
-        { src: 'biblioteca/18_traumatologia/trauma-05/01_pelvis-antes-de-faja__atls_p150.jpg', label: 'Pelvis fracturada antes de colocar la faja pélvica', credit: 'ATLS 10.ª ed., Fig. 5-9C' },
-        { src: 'biblioteca/18_traumatologia/trauma-05/03_sabana-pelvica__atls_p150.jpg', label: 'Estabilización de la pelvis con una sábana', credit: 'ATLS 10.ª ed., Fig. 5-9B' },
-        { src: 'biblioteca/18_traumatologia/trauma-05/04_uretrografia-lesion-uretral__bailey-love_p227.jpg', label: 'Uretrografía retrógrada: contraste que se escapa (flecha)', credit: 'Bailey & Love 27.ª ed., Fig. 14.28' },
-      ],
-      steps: [
-        { note: 'Antes: la pelvis abierta',
-          say: 'Esta es una radiografía de pelvis de un paciente con una lesión inestable, antes de colocar la faja pélvica. Fíjate en cómo las alas ilíacas están separadas y la pelvis se ve ancha: ese es el espacio donde se acumula la sangre.' },
-        { note: 'Sábana: el recurso sin material',
-          say: 'Cuando no hay faja comercial, la idea es la misma con una sábana enrollada y apretada. Es la solución que el examen espera en atención primaria o en lugares sin recursos.' },
-        { note: 'Uretra: el contraste se extravasa',
-          say: 'Y esta es una uretrografía retrógrada en un paciente con fracturas extensas de pelvis. La flecha marca la zona donde el contraste se escapa fuera de la uretra: es una lesión uretral. Por eso nunca pasas una sonda a ciegas.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'La pelvis después de la faja',
-      images: [
-        { src: 'biblioteca/18_traumatologia/trauma-05/02_pelvis-despues-de-faja__atls_p150.jpg', label: 'La misma pelvis después de colocar la faja', credit: 'ATLS 10.ª ed., Fig. 5-9D' },
-      ],
-      steps: [
-        { note: 'Después: el anillo se cierra',
-          say: 'Esta es la misma pelvis de antes, ya con la faja puesta. El anillo se ve más cerrado. Eso es lo que buscas en la práctica: reducir el volumen pélvico para frenar el sangrado venoso.' },
       ],
     },
 
@@ -222,6 +218,20 @@ module.exports = {
           say: 'Hemorragia externa activa: comprimes primero, antes de instalar la vía venosa.' },
         { cells: ['Politrauma, cualquier estabilidad', 'Cuello, tórax y pelvis', 'Solo tórax si está estable'],
           say: 'Y en el politraumatizado, aunque esté estable, pides las tres radiografías: cuello lateral, tórax y pelvis.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Pelvis en libro abierto',
+      images: [
+        { src: 'animaciones/trauma-05/A1_pelvis_libro_abierto.mp4', label: 'Pelvis inestable, hemorragia y sábana pélvica', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'La sábana cierra el anillo',
+          say: 'Esta es la pelvis en libro abierto. Un golpe de alta energía abre la sínfisis del pubis, más de dos coma cinco centímetros, y el anillo ya no contiene la sangre de los plexos venosos. El resultado es un shock hipovolémico. La solución en atención primaria es una sábana pélvica apretada sobre los trocánteres mayores, que cierra el anillo y frena el sangrado, junto con reposición de volumen. No repitas las maniobras de estabilidad.' },
       ],
     },
 
@@ -389,6 +399,44 @@ module.exports = {
         options: 'Las opciones: tórax, abdomen y rodilla; cuello lateral, tórax y pelvis; tórax, tomografía de cerebro y pelvis; solo tórax si está estable; o todos los huesos largos y tórax. Piénsalo.',
         answer: 'Es la B. Cuello lateral, tórax anteroposterior y pelvis anteroposterior. Y se piden siempre, aunque esté estable. La D es la trampa: la estabilidad no te exime de la trilogía.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 134",
+      "stem": "Un niño de 8 años es atropellado mientras cruzaba la calle, con golpe en la espalda y las extremidades. Ingresa con marcada disnea, saturando 85% con aire ambiental, taquicardia de 150 latidos por minuto y presión arterial 70/40 mmHg. Se observan múltiples equimosis y, en el examen pulmonar, asimetría del murmullo pulmonar, con abolición del murmullo izquierdo.",
+      "question": "¿Cuál de las siguientes es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Realizar intubación orotraqueal"
+        },
+        {
+          "letter": "B",
+          "text": "Administrar oxígeno por mascarilla de recirculación"
+        },
+        {
+          "letter": "C",
+          "text": "Puncionar el espacio pleural izquierdo"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar radiografía de tórax"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar TAC de tórax"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Politraumatizado con insuficiencia respiratoria, shock y abolición del murmullo unilateral: neumotórax a tensión, diagnóstico clínico que se resuelve en la B del ABC con descompresión inmediata (punción o toracostomía), sin esperar imágenes.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Un niño de ocho años es atropellado. Llega con mucha dificultad para respirar, saturando ochenta y cinco por ciento, frecuencia cardíaca de ciento cincuenta, presión de setenta con cuarenta, y sin murmullo pulmonar a la izquierda.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: intubar, oxígeno con mascarilla de recirculación, puncionar el espacio pleural izquierdo, radiografía de tórax o tomografía de tórax. Piénsalo.",
+        "answer": "Es la C. Disnea, shock y ausencia de murmullo de un lado en un politraumatizado es un neumotórax a tensión, y se descomprime de inmediato. La radiografía tienta, pero el diagnóstico es clínico y esperar la imagen puede costarle la vida."
+      }
     },
 
     {

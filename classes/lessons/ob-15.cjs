@@ -36,7 +36,8 @@ module.exports = {
         { show: ['cer'], note: 'Vejiga vacía, por vía transvaginal',
           say: 'Y el segundo dato lo da la cervicometría transvaginal, que mide el largo del cuello con la vejiga vacía.' },
         { show: ['cor'], note: 'El predictor independiente más fuerte',
-          say: 'Un cuello menor a veinticinco milímetros es el predictor independiente más fuerte de parto prematuro que existe, y es justo el corte que se pregunta.' },
+          say: 'Un cuello menor a veinticinco milímetros es el predictor independiente más fuerte de parto prematuro que existe, y es justo el corte que se pregunta. Mira esta ecografía transvaginal: las cruces marcan el largo del cuello, que es lo que se mide.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-15/01_cervicometria-cervix-corto__cto-gyo_p159.jpg', label: 'Cervicometría', at: 'Mira esta ecografía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 159' } },
         { show: ['app'], note: 'Contracciones más cuello corto',
           say: 'Con contracciones frecuentes y ese cuello acortado, entre las veintidós y las treinta y cuatro semanas, confirmas la amenaza de parto prematuro.' },
         { show: ['lar'], note: 'La progesterona previene, no trata',
@@ -113,14 +114,15 @@ module.exports = {
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Parto prematuro',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El cuello que se acorta y las 48 horas',
       images: [
-        { src: 'biblioteca/14_obstetricia/ob-15/01_cervicometria-cervix-corto__cto-gyo_p159.jpg', label: 'Cervicometría', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 159' },
+        { src: 'animaciones/ob-15/A1_cuello_tocolisis.mp4', label: 'Cuello y tocolisis', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Cuello corto',
-          say: 'Un cuello corto en la ecografía transvaginal predice parto prematuro.' },
+        { note: 'Contracciones más cuello corto',
+          say: 'Mira el cuello del útero. Con contracciones frecuentes, cuatro o más en veinte minutos, el cuello se acorta y se abre desde arriba. Si la cervicometría mide menos de veinticinco milímetros, es el predictor más fuerte de parto prematuro. Entonces frenas la dinámica con nifedipino, y esas cuarenta y ocho horas se usan para dar betametasona, dos dosis separadas por veinticuatro horas, y sulfato de magnesio si es menor de treinta y dos semanas.' },
       ],
     },
 

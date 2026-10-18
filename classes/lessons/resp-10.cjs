@@ -31,7 +31,8 @@ module.exports = {
       ],
       steps: [
         { show: ['sr'], note: '15 días o más de tos con expectoración',
-          say: 'Todo parte de una definición operativa, y se pregunta tal cual. Sintomático respiratorio es toda persona que consulta con tos y expectoración por dos semanas o más, es decir, quince días o más. No importa por qué consultó: si cumple eso, se estudia.' },
+          say: 'Todo parte de una definición operativa, y se pregunta tal cual. Sintomático respiratorio es toda persona que consulta con tos y expectoración por dos semanas o más, es decir, quince días o más. No importa por qué consultó: si cumple eso, se estudia. Mira esta radiografía: una cavidad en el vértice, la imagen clásica de la tuberculosis cavitada.',
+            photo: { src: 'biblioteca/02_neumologia/resp-10/01_tbc-ghon-cavitacion__cto-radiologia_p14.jpg', label: 'Cavitación', at: 'Mira esta radiografía', credit: 'Manual CTO Radiología 14.ª ed., p. 14' } },
         { show: ['est'], note: 'Es una obligación, no una opción',
           say: 'Y el estudio es inmediato. Es una obligación clínica y de salud pública: muestras de expectoración para la prueba molecular, la baciloscopía y el cultivo. Enseguida vemos qué aporta cada una.' },
         { show: ['pos'], note: 'Caso confirmado',
@@ -76,7 +77,8 @@ module.exports = {
         ] },
         { title: 'Baciloscopía', tag: 'Ziehl-Neelsen o auramina', kind: 'criteria', items: [
           { t: '2 muestras de esputo', d: 'Una inmediata y otra matinal al día siguiente',
-            say: 'La baciloscopía busca bacilos ácido alcohol resistentes. Se piden dos muestras: una inmediata, en la misma consulta, y otra matinal, en ayunas, al día siguiente.' },
+            say: 'La baciloscopía busca bacilos ácido alcohol resistentes. Se piden dos muestras: una inmediata, en la misma consulta, y otra matinal, en ayunas, al día siguiente. Mira esta tinción de Ziehl-Neelsen: los bacilos ácido alcohol resistentes se ven rojos o morados sobre el fondo azul.',
+            photo: { src: '_web/164_resp_Tuberculosis__Commons_2.jpg', label: 'Baciloscopía (Ziehl-Neelsen)', at: 'Mira esta tinción', credit: 'Wikimedia Commons, CC0' } },
           { t: 'Cuantifica la baciliferia', d: 'Estima cuánto contagia',
             say: 'Su valor es que cuantifica la baciliferia: mientras más cruces, más bacilos y más contagioso es el paciente.' },
         ] },
@@ -133,7 +135,8 @@ module.exports = {
           { t: 'Pleural: 6 meses, sin cambios', d: 'Exudado linfocítico con ADA > 40',
             say: 'La pleural, en cambio, se trata igual que la pulmonar, seis meses. Se sospecha con un exudado linfocítico con ADA mayor a cuarenta, y eso lo retomamos en la próxima clase de derrame pleural.' },
           { t: 'Miliar: 6 a 12 meses', d: 'Patrón en grano de mijo',
-            say: 'Y la miliar, con su patrón micronodular difuso en grano de mijo, se trata de seis a doce meses según el compromiso.' },
+            say: 'Y la miliar, con su patrón micronodular difuso en grano de mijo, se trata de seis a doce meses según el compromiso. Mira esta radiografía y esta tomografía: el patrón micronodular difuso, en grano de mijo.',
+            photos: [{ src: 'biblioteca/02_neumologia/resp-10/02_tbc-miliar_alt1__cto-infecto_p66.jpg', label: 'Miliar (RX)', at: 'Mira esta radiografía', credit: 'Manual CTO Infecciosas 14.ª ed., p. 66' }, { src: 'biblioteca/02_neumologia/resp-10/02_tbc-miliar__cto-radiologia_p13.jpg', label: 'Miliar (TC)', at: 'y esta tomografía', credit: 'Manual CTO Radiología 14.ª ed., p. 13' }] },
         ] },
       ],
     },
@@ -240,6 +243,30 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Vacunas',
+      title: 'BCG y vacunas del paciente respiratorio',
+      cards: [
+        { title: 'BCG', tag: 'Programa nacional', kind: 'key', items: [
+          { t: 'Una dosis al recién nacido ≥ 2.000 g', d: 'No se revacuna',
+            say: 'La BCG se da en una dosis al recién nacido de dos mil gramos o más, y no se revacuna.' },
+          { t: 'Protege las formas graves de la infancia', d: 'Meníngea y miliar',
+            say: 'Protege contra las formas graves de la infancia, la meníngea y la miliar. No evita la infección ni la tuberculosis del adulto, y se contraindica en inmunosuprimidos, como el VIH sintomático.' },
+        ] },
+        { title: 'Quién más se vacuna', tag: 'Enfermedad respiratoria crónica', kind: 'pharma', items: [
+          { t: 'Influenza anual', d: 'Asma, EPOC, bronquiectasias, fibrosis, > 65 años',
+            say: 'Los pacientes con asma, EPOC, bronquiectasias o fibrosis, los mayores de sesenta y cinco años y las personas de riesgo, reciben influenza todos los años.' },
+          { t: 'Neumococo y SARS-CoV-2', d: 'Conjugada + 23-valente; antes de 65 si EPOC o asma grave',
+            say: 'Neumococo, con la vacuna conjugada y la polisacárida de veintitrés serotipos según esquema, desde los sesenta y cinco años y antes si hay EPOC, asma grave u otra comorbilidad. Y la vacuna contra el coronavirus, con esquema primario y refuerzos.' },
+        ] },
+        { title: 'Dato que se pregunta', tag: 'EPOC y embarazo', kind: 'alert', items: [
+          { t: 'En EPOC reducen exacerbaciones', d: 'Y hospitalizaciones',
+            say: 'En el EPOC, la vacunación contra influenza y neumococo reduce las exacerbaciones y las hospitalizaciones. Y las vacunas inactivadas no están contraindicadas en el embarazo.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -250,26 +277,6 @@ module.exports = {
       steps: [
         { note: 'Dos baciloscopías',
           say: 'El bacilo llega al pulmón y el cuerpo lo encierra en un granuloma con necrosis caseosa. Si se reactiva, el centro se vacía y queda una caverna en el vértice, llena de bacilos: el paciente contagia. Ante tos de más de dos semanas, dos baciloscopías, prueba molecular y cultivo.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Tuberculosis en las imágenes',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-10/01_tbc-ghon-cavitacion__cto-radiologia_p14.jpg', label: 'Cavitación', credit: 'Manual CTO Radiología 14.ª ed., p. 14' },
-        { src: 'biblioteca/02_neumologia/resp-10/02_tbc-miliar_alt1__cto-infecto_p66.jpg', label: 'Tuberculosis miliar (RX)', credit: 'Manual CTO Infecciosas 14.ª ed., p. 66' },
-        { src: 'biblioteca/02_neumologia/resp-10/02_tbc-miliar__cto-radiologia_p13.jpg', label: 'Tuberculosis miliar (TC)', credit: 'Manual CTO Radiología 14.ª ed., p. 13' },
-      ],
-      steps: [
-        { note: 'Cavidad en el lóbulo superior',
-          say: 'La tuberculosis de reactivación cavita en los lóbulos superiores, como en estas imágenes. Una cavidad apical en un paciente con tos de más de dos semanas es tuberculosis hasta que se demuestre lo contrario.' },
-        { note: 'Miles de nódulos pequeños',
-          say: 'Y esta es la miliar en la radiografía: innumerables nódulos pequeños, como granos de mijo, en todo el pulmón. Es diseminación por la sangre, típica del inmunosuprimido.' },
-        { note: 'Los mismos nódulos en la TC',
-          say: 'En la tomografía se ven aún mejor: puntitos pequeños repartidos por igual en los dos pulmones.' },
       ],
     },
 
@@ -433,6 +440,156 @@ module.exports = {
         options: 'Las opciones: esquema de cuatro fármacos, repetir el PPD, dar de alta, PCR en lavado broncoalveolar, o isoniazida por seis meses. Piénsalo.',
         answer: 'Es la E. Asintomático y con radiografía normal: no tiene enfermedad activa. Pero el PPD muy positivo dice que está infectado, y por eso recibe terapia preventiva con isoniazida por seis meses. La A es la trampa: cuatro fármacos es para la enfermedad activa. Y dar de alta a alguien infectado, después de un año expuesto, es perder la oportunidad de prevenir.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2016 · Pregunta 152",
+      "stem": "Un paciente de 42 años, fumador de 2,6 paquetes-año, presenta un cuadro de 3 meses de compromiso del estado general, astenia y baja de peso de 3 kilogramos, asociado a tos y expectoración mucopurulenta, que en ocasiones es hemoptoica. Su examen físico no aporta mayor información. Se solicita una radiografía de tórax, que muestra zonas de relleno alveolar en el lóbulo superior derecho.",
+      "question": "¿Con qué examen(es) se debe proseguir el estudio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Baciloscopías de expectoración y cultivo para micobacterias"
+        },
+        {
+          "letter": "B",
+          "text": "ELISA para VIH"
+        },
+        {
+          "letter": "C",
+          "text": "Biopsia pulmonar por videotoracoscopía"
+        },
+        {
+          "letter": "D",
+          "text": "Lavado broncoalveolar por broncoscopía"
+        },
+        {
+          "letter": "E",
+          "text": "TAC de tórax"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Tos productiva de más de 2 semanas, baja de peso y hemoptoicos con compromiso del lóbulo superior: sospecha de tuberculosis pulmonar. El estudio inicial es la baciloscopía seriada de expectoración más cultivo de Koch (hoy junto a prueba molecular). Los estudios invasivos se reservan si la expectoración no es diagnóstica.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil dieciséis. Un hombre de cuarenta y dos años lleva tres meses con compromiso del estado general, baja de peso, tos con expectoración y a veces sangre. La radiografía muestra relleno alveolar en el lóbulo superior derecho.",
+        "question": "¿Con qué examen se debe proseguir el estudio?",
+        "options": "Las opciones: baciloscopías con cultivo, test de VIH, biopsia por videotoracoscopía, lavado broncoalveolar o tomografía. Piénsalo.",
+        "answer": "Es la A. Cuadro subagudo, baja de peso, hemoptoicos y lóbulo superior es tuberculosis hasta demostrar lo contrario, y se estudia con baciloscopías y cultivo de expectoración. La tomografía tienta, pero no da el diagnóstico microbiológico, que es lo que define el tratamiento."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2017 · Pregunta 17",
+      "stem": "Un paciente presenta 2 meses de malestar general, tos con expectoración, sensación febril, baja de peso y sudoración. En el último tiempo ha aumentado la tos y ha presentado expectoración hemoptoica. El hemograma muestra leucocitosis de 15.000/mm³ y la radiografía de tórax AP muestra compromiso de ambos lóbulos superiores, mayor al lado izquierdo, con una banda atelectásica en el ápice izquierdo.",
+      "question": "¿Cuál es el examen más adecuado ante la sospecha diagnóstica?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Broncoscopía"
+        },
+        {
+          "letter": "B",
+          "text": "Baciloscopías de expectoración más cultivo de Koch"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de tórax"
+        },
+        {
+          "letter": "D",
+          "text": "Cultivo de expectoración"
+        },
+        {
+          "letter": "E",
+          "text": "Hemocultivos"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Tos productiva prolongada, baja de peso, sudoración, hemoptisis y compromiso de lóbulos superiores sugieren tuberculosis pulmonar. Se estudia en expectoración con baciloscopías (o PCR para TBC, cada vez más usada como examen inicial) más cultivo de Koch. El cultivo corriente de expectoración no detecta Mycobacterium tuberculosis.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Un paciente tiene dos meses de tos con expectoración, fiebre, baja de peso y sudoración, ahora con expectoración con sangre. La radiografía muestra compromiso de ambos lóbulos superiores.",
+        "question": "¿Cuál es el examen más adecuado ante la sospecha diagnóstica?",
+        "options": "Las opciones: broncoscopía, baciloscopías más cultivo de Koch, TAC de tórax, cultivo de expectoración o hemocultivos. Piénsalo.",
+        "answer": "Es la B. Se sospecha tuberculosis y se estudia con baciloscopías y cultivo de Koch de la expectoración. El cultivo de expectoración tienta, pero el cultivo corriente no detecta el bacilo de Koch."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Agosto 2021 · Pregunta 149",
+      "stem": "Un paciente de 35 años, en situación de calle, presenta un cuadro de 6 meses de evolución de tos con expectoración mucosa y mucopurulenta, en ocasiones hemoptoica, asociada a malestar general, disnea de esfuerzos, baja de peso y sensación febril. Al examen físico está enflaquecido y pálido, con T° 37,5 °C, FC 87 por minuto, PA 110/70 mmHg y FR 18 por minuto; su examen pulmonar muestra crépitos bilaterales y algunas sibilancias. Hemograma: hematocrito 32%, hemoglobina 10,6 g/dL, leucocitos 15.600/mm³, VHS 60 mm/h; PCR 120 mg/L; ELISA VIH negativo; PCR para COVID-19 negativa; baciloscopías de expectoración negativas, con muestra hemorrágica; PPD 20 mm. La radiografía de tórax muestra infiltrados de lóbulos superiores sugerentes de tuberculosis.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solicitar TAC de tórax"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar cultivo para Mycobacterium tuberculosis en medio sólido"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar reacción de polimerasa en cadena para tuberculosis en expectoración"
+        },
+        {
+          "letter": "D",
+          "text": "Repetir la PCR de COVID-19 en muestra nasofaríngea"
+        },
+        {
+          "letter": "E",
+          "text": "Realizar fibrobroncoscopía con lavado broncoalveolar"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La clínica y la radiografía sugieren tuberculosis, pero las baciloscopías fueron negativas (muestra hemorrágica, sensibilidad limitada). La PCR para M. tuberculosis en expectoración es más sensible, informa en horas y detecta resistencia a rifampicina; en Chile se recomienda incluso como examen inicial. El cultivo también sirve, pero tarda semanas.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Un hombre de treinta y cinco años en situación de calle tiene seis meses de tos con expectoración a veces con sangre, fiebre y baja de peso, con radiografía sugerente de tuberculosis. Sus baciloscopías salieron negativas con muestra hemorrágica y el PPD es de veinte milímetros.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: TAC de tórax, cultivo en medio sólido, PCR para tuberculosis en expectoración, repetir PCR de COVID, o fibrobroncoscopía con lavado. Piénsalo.",
+        "answer": "Es la C. Con alta sospecha y baciloscopías negativas, la PCR para tuberculosis es más sensible, rápida y detecta resistencia a rifampicina. El cultivo tienta por ser el estándar, pero tarda semanas en informar."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.3.005 · Vacunación (tuberculosis, influenza, Coronavirus SARS-CoV-2 y neumococo)",
+      "stem": "Una madre consulta en el control de su hijo de 1 mes por la vacuna BCG que este recibió antes del alta de la maternidad.",
+      "question": "¿Cuál es el principal beneficio de la vacuna BCG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Previene totalmente la tuberculosis pulmonar del adulto"
+        },
+        {
+          "letter": "B",
+          "text": "Protege contra las formas graves de tuberculosis en la infancia, como la meningitis tuberculosa y la tuberculosis miliar"
+        },
+        {
+          "letter": "C",
+          "text": "Previene la infección por micobacterias atípicas"
+        },
+        {
+          "letter": "D",
+          "text": "Reemplaza el estudio y tratamiento de los contactos"
+        },
+        {
+          "letter": "E",
+          "text": "Protege contra la influenza"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La BCG, incluida en el PNI chileno, se administra al recién nacido. Su principal beneficio demostrado es la protección contra las formas graves y diseminadas de tuberculosis en niños (meningitis tuberculosa y miliar); su protección contra la tuberculosis pulmonar del adulto es variable y limitada. Por ser de bacterias vivas atenuadas, se contraindica en inmunodeficiencias.",
+      "say": {
+        "stem": "Una madre pregunta por la vacuna BCG que recibió su recién nacido antes del alta.",
+        "question": "¿Cuál es el principal beneficio de la BCG?",
+        "options": "Las opciones: previene toda la tuberculosis pulmonar del adulto, protege contra formas graves infantiles como meningitis y miliar, previene micobacterias atípicas, reemplaza el estudio de contactos, o protege contra la influenza. Piénsalo.",
+        "answer": "Es la B. La BCG protege sobre todo contra la meningitis tuberculosa y la tuberculosis miliar en niños. La protección total del adulto tienta, pero su efecto contra la tuberculosis pulmonar adulta es limitado."
+      }
     },
 
     {

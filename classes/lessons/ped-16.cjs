@@ -42,7 +42,8 @@ module.exports = {
       cards: [
         { title: 'Test de Capurro', tag: 'Desde las 29 semanas', kind: 'key', items: [
           { t: '5 signos somáticos', d: 'Oreja, mama, pezón, piel, pliegues',
-            say: 'Cuando no tienes una fecha de última regla confiable ni una ecografía precoz, estimas la edad con el examen físico. El test de Capurro, desde las veintinueve semanas, evalúa cinco signos: la oreja, la mama, el pezón, la piel y los pliegues plantares.' },
+            say: 'Cuando no tienes una fecha de última regla confiable ni una ecografía precoz, estimas la edad con el examen físico. El test de Capurro, desde las veintinueve semanas, evalúa cinco signos: la oreja, la mama, el pezón, la piel y los pliegues plantares. Mira esta tabla: cada signo tiene sus casillas con puntaje, y la suma se traduce en semanas.',
+            photo: { src: 'biblioteca/15_pediatria/ped-16/01_test_capurro__usuario.jpg', label: 'Test de Capurro', at: 'Mira esta tabla', credit: 'Test de Capurro (esquema docente)' } },
         ] },
         { title: 'Test de Ballard', tag: 'Prematuros extremos', kind: 'criteria', items: [
           { t: 'Suma signos neuromusculares', d: 'Postura, ángulo poplíteo, bufanda',
@@ -76,16 +77,91 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Manejo del pequeño y del grande',
+      title: 'PEG y GEG: qué haces con cada uno',
+      cards: [
+        { title: 'PEG asimétrico y simétrico', tag: 'Según cuándo actuó la noxa', kind: 'criteria', items: [
+          { t: 'Asimétrico', d: 'Insuficiencia placentaria tardía; cabeza preservada',
+            say: 'En el pequeño para la edad distingues dos tipos. El asimétrico viene de una insuficiencia placentaria tardía, por preeclampsia o hipertensión: la cabeza está preservada y el crecimiento posterior es mejor.' },
+          { t: 'Simétrico', d: 'Noxa precoz: cromosomopatía, TORCH, tóxicos',
+            say: 'El simétrico viene de una noxa precoz, como cromosomopatías, infecciones TORCH o tóxicos, y tiene perímetro craneano, peso y talla bajos.' },
+        ] },
+        { title: 'Manejo del PEG', tag: 'Alimentar y vigilar', kind: 'pharma', items: [
+          { t: 'Alimentación en la primera hora', d: 'Control frecuente de glicemia',
+            say: 'Para el pequeño: alimentación precoz, en la primera hora, control frecuente de la glicemia, prevención de la hipotermia, hematocrito entre las dos y las cuatro horas por el riesgo de policitemia, y vigilancia de hipocalcemia.' },
+          { t: 'Crecimiento recuperador', d: '85–90% antes de los 2 años',
+            say: 'Entre el ochenta y cinco y el noventa por ciento logra crecimiento recuperador antes de los dos años. Si no lo logra, derivas a endocrinología por la hormona de crecimiento. Y tienen más riesgo de síndrome metabólico de adultos.' },
+        ] },
+        { title: 'Manejo del GEG', tag: 'Peso sobre p90 o más de 4.000 g', kind: 'alert', items: [
+          { t: 'Descartar madre diabética', d: 'Glicemia desde el nacimiento',
+            say: 'En el grande, o macrosomía sobre cuatro mil gramos, lo primero es descartar que sea hijo de madre diabética y controlar la glicemia desde el nacimiento.' },
+          { t: 'Parálisis de Erb', d: 'Examina plexo braquial y clavícula',
+            say: 'Revisas el plexo braquial y la clavícula: la parálisis braquial de Erb compromete las raíces cervicales cinco y seis, y se asocia a distocia de hombros. También vigilas policitemia, hipocalcemia e ictericia durante las primeras veinticuatro a cuarenta y ocho horas.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Una causa evitable de ceguera',
+      title: 'Retinopatía del prematuro',
+      cards: [
+        { title: 'Quién y por qué', tag: 'Retina inmadura', kind: 'key', items: [
+          { t: 'Menos de 32 semanas o 1.500 g', d: 'La vascularización retinal termina cerca del término',
+            say: 'La retinopatía del prematuro es una vasoproliferación anormal de una retina inmadura, porque los vasos terminan de formarse cerca del término. El riesgo está en los menores de treinta y dos semanas o bajo mil quinientos gramos.' },
+          { t: 'Hiperoxia, sepsis, transfusiones', d: 'Saturación meta 90–95%',
+            say: 'Empeoran el riesgo la oxigenoterapia prolongada o con hiperoxia, por eso la meta de saturación es entre noventa y noventa y cinco por ciento, además de la sepsis y las transfusiones. Avanzada, causa desprendimiento de retina y ceguera.' },
+        ] },
+        { title: 'Pesquisa', tag: 'Fondo de ojo por oftalmólogo', kind: 'alert', items: [
+          { t: 'Fondo de ojo a las 4 a 6 semanas', d: 'O a las 31 semanas postmenstruales',
+            say: 'Todo prematuro bajo treinta y dos semanas o mil quinientos gramos, y los mayores si estuvieron inestables, necesita fondo de ojo por oftalmólogo entre las cuatro y las seis semanas de vida, o a las treinta y una semanas de edad postmenstrual, con controles hasta la vascularización completa.' },
+          { t: 'Asegurar el control antes del alta', d: 'Es tu responsabilidad como médico general',
+            say: 'Tu rol es asegurar que el prematuro llegue a su control oftalmológico antes del alta.' },
+        ] },
+        { title: 'Tratamiento', tag: 'En pocos días', kind: 'pharma', items: [
+          { t: 'Láser o antiangiogénico', d: 'Fotocoagulación o inyección intravítrea',
+            say: 'La forma que requiere tratamiento se trata en pocos días, con fotocoagulación con láser o un antiangiogénico intravítreo. Mira este fondo de ojo justo después del láser: se ven las marcas de la fotocoagulación en la retina periférica.',
+            photo: { src: 'biblioteca/15_pediatria/ped-16/02_rop-post-laser__kanski_p577.jpg', label: 'Fondo de ojo post láser', at: 'Mira este fondo de ojo', credit: 'Kanski, Clinical Ophthalmology 8.ª ed., p. 577 (Fig. 13.52B)' } },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Después del nacimiento',
+      title: 'Manejo y seguimiento del prematuro',
+      cards: [
+        { title: 'Antes y durante el parto', tag: 'Estrategias perinatales', kind: 'key', items: [
+          { t: 'Corticoides prenatales', d: 'Betametasona 12 mg IM c/24 h, 2 dosis (24–34 sem)',
+            say: 'Para prevenir las complicaciones, entre las veinticuatro y las treinta y cuatro semanas se dan corticoides prenatales: betametasona, doce miligramos intramuscular cada veinticuatro horas, dos dosis.' },
+          { t: 'Sulfato de magnesio', d: 'Neuroprotección bajo 32 semanas',
+            say: 'Bajo treinta y dos semanas agregas sulfato de magnesio como neuroprotección. Además, clampeo tardío del cordón y traslado de la madre a un centro de nivel adecuado.' },
+        ] },
+        { title: 'Cuidados', tag: 'En la unidad neonatal', kind: 'normal', items: [
+          { t: 'Termorregulación y canguro', d: 'Leche materna, fortificada si es muy prematuro',
+            say: 'Después cuidas la temperatura, usas contacto piel a piel o método canguro, y leche materna, fortificada en el muy prematuro. Si no tolera la vía enteral, nutrición parenteral, y cafeína para las apneas.' },
+        ] },
+        { title: 'Suplementos y seguimiento', tag: 'Edad corregida', kind: 'pharma', items: [
+          { t: 'Vitamina D y hierro', d: '400–800 UI/día; hierro 2–4 mg/kg/día desde el mes',
+            say: 'Entregas vitamina D, cuatrocientas a ochocientas unidades al día, y hierro, de dos a cuatro miligramos por kilo al día, desde el mes de vida.' },
+          { t: 'Vacunas por edad cronológica', d: 'Desarrollo por edad corregida hasta los 2 años',
+            say: 'Las vacunas se ponen según la edad cronológica, no la corregida. El desarrollo, en cambio, se evalúa con la edad corregida hasta los dos años: edad cronológica menos las semanas que faltaron para las cuarenta. Controlas oftalmología, audición, crecimiento y neurodesarrollo.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Test de Capurro',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: "La matriz edad por peso",
       images: [
-        { src: 'biblioteca/15_pediatria/ped-16/01_test_capurro__usuario.jpg', label: 'Capurro', credit: 'Aportada por el usuario (fuente web, licencia por verificar)' },
+        { src: 'animaciones/ped-16/A1_matriz_edad_peso.mp4', label: "Edad gestacional y peso", credit: "Animación propia" },
       ],
       steps: [
-        { note: 'Cinco criterios físicos',
-          say: 'El Capurro estima la edad gestacional con cinco criterios: oreja, glándula mamaria, pezón, textura de la piel y pliegues plantares.' },
+        { note: "Pequeño, adecuado o grande",
+          say: "Mira el gráfico: semanas de gestación abajo, peso al nacer a la izquierda, y los percentiles diez y noventa. Bajo el diez, pequeño para la edad gestacional: hipoglicemia, hipotermia y poliglobulia. Entre diez y noventa, adecuado, riesgo bajo. Sobre el noventa, grande: hipoglicemia por hiperinsulinismo y trauma obstétrico. Y primero defines la edad: pretérmino bajo treinta y siete semanas, término hasta cuarenta y uno más seis días." },
       ],
     },
 
@@ -157,6 +233,82 @@ module.exports = {
         options: 'Las opciones: fórmula hipercalórica, sonda nasogástrica, ayuno de seis horas y luego fórmula de prematuro, pecho materno precoz con control de glicemia, o suero glucosado endovenoso.',
         answer: 'Es la D. Ya sabes que el riesgo cardinal del pequeño para la edad gestacional es la hipoglicemia por falta de reservas. La conducta no es el ayuno ni la sonda: es alimentarlo precozmente al pecho materno y controlar la glicemia a las dos horas de vida.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.123 · Prematurez",
+      "stem": "Recién nacido de 30 semanas, con peso de nacimiento de 1.250 gramos, hospitalizado en neonatología. Recibió surfactante y oxígeno durante las primeras 2 semanas. Hoy tiene 4 semanas de vida, está estable, sin apoyo ventilatorio y en ganancia de peso.",
+      "question": "Según las garantías GES para el prematuro, ¿qué evaluación corresponde realizar ahora?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Electroencefalograma de rutina"
+        },
+        {
+          "letter": "B",
+          "text": "Cariograma"
+        },
+        {
+          "letter": "C",
+          "text": "Fondo de ojo por oftalmólogo para pesquisa de retinopatía del prematuro"
+        },
+        {
+          "letter": "D",
+          "text": "Densitometría ósea"
+        },
+        {
+          "letter": "E",
+          "text": "Resonancia magnética de cerebro de rutina"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El prematuro menor de 32 semanas o menor de 1.500 gramos tiene garantía GES de pesquisa de retinopatía del prematuro con fondo de ojo por oftalmólogo, habitualmente desde las 4 semanas de vida; el oxígeno recibido es un factor de riesgo adicional. También tiene garantía de pesquisa de hipoacusia.",
+      "say": {
+        "stem": "Prematuro de treinta semanas, que pesó mil doscientos cincuenta gramos, recibió surfactante y oxígeno las primeras dos semanas. Hoy tiene cuatro semanas de vida, está estable, sin apoyo ventilatorio, y subiendo de peso.",
+        "question": "Según las garantías GES para el prematuro, ¿qué evaluación corresponde ahora?",
+        "options": "Las opciones: electroencefalograma, cariograma, fondo de ojo por oftalmólogo, densitometría ósea o resonancia de cerebro. Piénsalo.",
+        "answer": "Es la C. Todo prematuro menor de treinta y dos semanas o de mil quinientos gramos tiene garantizada la pesquisa de retinopatía con fondo de ojo, y a las cuatro semanas ya corresponde. La resonancia tienta por la prematurez extrema, pero no es un examen de rutina garantizado."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.1.022 · Retinopatía del prematuro",
+      "stem": "Recién nacido de 29 semanas de gestación y 1.150 g de peso al nacer, que requirió oxigenoterapia prolongada. Se encuentra en la unidad de neonatología a las 4 semanas de vida.",
+      "question": "Respecto de la retinopatía del prematuro, ¿cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No requiere evaluación, porque está en oxígeno controlado"
+        },
+        {
+          "letter": "B",
+          "text": "Evaluar al alta, a los 6 meses de edad"
+        },
+        {
+          "letter": "C",
+          "text": "Evaluar solo si presenta leucocoria"
+        },
+        {
+          "letter": "D",
+          "text": "Examen de fondo de ojo con pupila dilatada por oftalmólogo, según GES, en prematuros menores de 32 semanas o menores de 1.500 g"
+        },
+        {
+          "letter": "E",
+          "text": "Indicar vitamina A como tratamiento"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La retinopatía del prematuro es una vasculopatía proliferativa de la retina inmadura, favorecida por prematurez, bajo peso e hiperoxia. Es GES: se tamiza con fondo de ojo dilatado por oftalmólogo a todo prematuro menor de 1.500 g o de 32 semanas, desde las 4 semanas de vida, y se trata con láser o antiangiogénicos.",
+      "say": {
+        "stem": "Prematuro de veintinueve semanas y mil ciento cincuenta gramos, con oxígeno prolongado, de cuatro semanas de vida.",
+        "question": "Respecto de la retinopatía del prematuro, ¿cuál es la conducta?",
+        "options": "Las opciones: no evaluar, evaluar a los seis meses, evaluar solo si hay leucocoria, fondo de ojo dilatado por oftalmólogo según GES o vitamina A. Piénsalo.",
+        "answer": "Es la D. Todo prematuro menor de treinta y dos semanas o de mil quinientos gramos se tamiza con fondo de ojo por oftalmólogo desde las cuatro semanas. Esperar la leucocoria tienta, pero significa llegar con la retina ya desprendida."
+      }
     },
 
     {

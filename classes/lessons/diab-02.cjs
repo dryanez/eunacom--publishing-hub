@@ -76,7 +76,8 @@ module.exports = {
         ] },
         { title: 'Resistencia a la insulina', tag: 'No es diabetes', kind: 'key', items: [
           { t: 'HOMA-IR > 2,6', d: 'Glicemia × insulina de ayuno / 405',
-            say: 'Aparte está la resistencia a la insulina, que se mide con el índice HOMA: glicemia de ayuno por insulina de ayuno, dividido por cuatrocientos cinco. En adultos chilenos, un valor sobre dos coma seis certifica resistencia a la insulina. Pero no es un criterio de diabetes ni de prediabetes: es el mecanismo de la tipo dos que vimos la clase pasada, medido en un número.' },
+            say: 'Aparte está la resistencia a la insulina, que se mide con el índice HOMA: glicemia de ayuno por insulina de ayuno, dividido por cuatrocientos cinco. En adultos chilenos, un valor sobre dos coma seis certifica resistencia a la insulina. Pero no es un criterio de diabetes ni de prediabetes: es el mecanismo de la tipo dos que vimos la clase pasada, medido en un número. Mira esta axila: piel oscura y aterciopelada, acantosis nigricans.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-02/01_acantosis-nigricans__amir-derma_p30.jpg', label: 'Acantosis nigricans', at: 'Mira esta axila', credit: 'Manual AMIR Dermatología, p. 30' }] },
         ] },
       ],
     },
@@ -230,19 +231,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'La resistencia a la insulina en la piel',
-      images: [
-        { src: 'biblioteca/04_diabetes/diab-02/01_acantosis-nigricans__amir-derma_p30.jpg', label: 'Acantosis nigricans', credit: 'Manual AMIR Dermatología, p. 30' },
-      ],
-      steps: [
-        { note: 'Piel oscura y aterciopelada',
-          say: 'Esto es una acantosis nigricans: piel oscura, engrosada y aterciopelada en los pliegues, aquí en la axila. Es un marcador de resistencia a la insulina.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, tal como lo vas a razonar en el examen.',
     },
@@ -381,6 +369,193 @@ module.exports = {
         options: 'Las opciones: iniciar insulina, dieta y ejercicio, metformina, pedir una curva de tolerancia, o metformina más glibenclamida. Piénsalo.',
         answer: 'Es la B. Calcula el HOMA: noventa y seis por veintitrés, dividido por cuatrocientos cinco, da cerca de cinco coma cinco. Está sobre dos coma seis, así que hay resistencia a la insulina. Pero con glicemia bajo cien no hay diabetes ni glicemia alterada, y la curva no está indicada. Corresponde dieta y ejercicio. Los fármacos son el distractor: tratan un diagnóstico que el paciente no tiene.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 30",
+      "stem": "Hombre de 48 años con glicemia de ayuno de 115 mg/dL en dos ocasiones. IMC 28. Sin otros factores de riesgo.",
+      "question": "¿Cuál es la intervención más importante para reducir la progresión a diabetes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dieta estricta baja en carbohidratos"
+        },
+        {
+          "letter": "B",
+          "text": "Metformina 500 mg dos veces al día"
+        },
+        {
+          "letter": "C",
+          "text": "Ejercicio aeróbico 150 minutos por semana"
+        },
+        {
+          "letter": "D",
+          "text": "Orlistat"
+        },
+        {
+          "letter": "E",
+          "text": "Insulina basal"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Glicemia de ayuno alterada (100–125 mg/dL): prediabetes. Lo que más reduce la progresión a diabetes es el cambio de estilo de vida, con actividad física moderada de al menos 150 minutos semanales y dieta saludable (reducción cercana al 58 % en el DPP). La metformina queda como segunda línea en alto riesgo.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Hombre de cuarenta y ocho años con glicemia de ayuno de ciento quince en dos ocasiones, índice de masa corporal de veintiocho y sin otros factores de riesgo.",
+        "question": "¿Cuál es la intervención más importante para reducir la progresión a diabetes?",
+        "options": "Las opciones: dieta estricta baja en carbohidratos, metformina, ejercicio aeróbico ciento cincuenta minutos por semana, orlistat, o insulina basal. Piénsalo.",
+        "answer": "Es la C. Esto es una glicemia de ayuno alterada, una prediabetes, y lo que más frena la progresión es el estilo de vida, con al menos ciento cincuenta minutos semanales de ejercicio. La metformina tienta, pero es segunda línea y se reserva para pacientes de alto riesgo."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 106",
+      "stem": "Un paciente de 66 años es hospitalizado por una neumonía adquirida en la comunidad. En su hemoglucotest de ingreso, se constata una glicemia capilar de 256 mg/dl.",
+      "question": "¿Cuál de los siguientes exámenes confirma el diagnóstico de diabetes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glicemia de ayuno > 126 mg/dl"
+        },
+        {
+          "letter": "B",
+          "text": "Prueba de tolerancia a la glucosa > 200 mg/dl, postcarga de glucosa"
+        },
+        {
+          "letter": "C",
+          "text": "Hemoglobina glicosilada > 6,5%"
+        },
+        {
+          "letter": "D",
+          "text": "Prueba HOMA > 2,6"
+        },
+        {
+          "letter": "E",
+          "text": "Albuminuria/creatininuria > 0,3"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En un paciente con enfermedad aguda, la glicemia y la PTGO se alteran por el estrés. La HbA1c refleja los 2–3 meses previos y no se modifica por la neumonía, por eso es el examen que confirma la diabetes en el hospitalizado.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Paciente de sesenta y seis años hospitalizado por una neumonía. Su hemoglucotest de ingreso marca doscientos cincuenta y seis.",
+        "question": "¿Cuál de los siguientes exámenes confirma el diagnóstico de diabetes?",
+        "options": "Las opciones: glicemia de ayuno, prueba de tolerancia a la glucosa, hemoglobina glicosilada, índice HOMA, o razón albúmina creatinina. Piénsalo.",
+        "answer": "Es la C, hemoglobina glicosilada. Con una enfermedad aguda la glicemia sube por estrés, y la hemoglobina glicosilada mira los dos a tres meses previos. La curva de tolerancia tienta, pero en plena neumonía puede salir falsamente alterada, además de ser impracticable."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.01.1.023 · Síndrome metabólico",
+      "stem": "Un hombre de 48 años asiste a control de salud. Tiene circunferencia de cintura de 106 cm, presión arterial 136/86 mmHg, glicemia de ayuno 108 mg/dL, triglicéridos 190 mg/dL y colesterol HDL 36 mg/dL. No usa fármacos.",
+      "question": "¿Cuál es el diagnóstico más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diabetes mellitus tipo 2"
+        },
+        {
+          "letter": "B",
+          "text": "Síndrome metabólico"
+        },
+        {
+          "letter": "C",
+          "text": "Hipertensión arterial etapa 1"
+        },
+        {
+          "letter": "D",
+          "text": "Hipercolesterolemia familiar"
+        },
+        {
+          "letter": "E",
+          "text": "Síndrome de Cushing"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Cumple los 5 criterios de síndrome metabólico (bastan 3): obesidad abdominal, PA ≥130/85 mmHg, glicemia de ayuno ≥100 mg/dL, triglicéridos ≥150 mg/dL y HDL bajo 40 mg/dL en hombres. No tiene diabetes (ayuno bajo 126) ni hipertensión (bajo 140/90). Implica alto riesgo cardiovascular.",
+      "say": {
+        "stem": "Un hombre de cuarenta y ocho años tiene cintura de ciento seis centímetros, presión de ciento treinta y seis sobre ochenta y seis, glicemia de ayuno de ciento ocho, triglicéridos de ciento noventa y HDL de treinta y seis.",
+        "question": "¿Cuál es el diagnóstico más adecuado?",
+        "options": "Las opciones: diabetes tipo dos, síndrome metabólico, hipertensión etapa uno, hipercolesterolemia familiar o Cushing. Piénsalo.",
+        "answer": "Es la B. Cumple los cinco criterios de síndrome metabólico, y basta con tres. La diabetes tienta, pero su glicemia de ayuno no llega a ciento veintiséis; es una glicemia alterada de ayuno."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2017 · Pregunta 42",
+      "stem": "Un paciente de 30 años, con IMC de 30 kg/m², consulta por hiperpigmentación de la piel de las axilas y el cuello, asociada a la aparición de acrocordones en los pliegues inguinales, cervicales y axilares.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enfermedad de Cushing"
+        },
+        {
+          "letter": "B",
+          "text": "Hipotiroidismo"
+        },
+        {
+          "letter": "C",
+          "text": "Síndrome paraneoplásico"
+        },
+        {
+          "letter": "D",
+          "text": "Insuficiencia suprarrenal"
+        },
+        {
+          "letter": "E",
+          "text": "Resistencia a la insulina"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La acantosis nigricans en pliegues con acrocordones en un paciente obeso es el marcador cutáneo clásico de resistencia a la insulina, eje del síndrome metabólico. La forma paraneoplásica es rara, brusca, extensa y en mayores que bajan de peso. La insuficiencia suprarrenal hiperpigmenta mucosas y cicatrices, sin acrocordones.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Un paciente obeso de treinta años tiene oscurecimiento de la piel de axilas y cuello, y acrocordones en los pliegues.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: Cushing, hipotiroidismo, síndrome paraneoplásico, insuficiencia suprarrenal o resistencia a la insulina. Piénsalo.",
+        "answer": "Es la E. La acantosis nigricans con acrocordones en un obeso joven es el marcador clásico de resistencia a la insulina. El paraneoplásico tienta, pero es raro y aparece brusco en adultos mayores que bajan de peso."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.016 · Glicemia venosa",
+      "stem": "Un hombre de 52 años, asintomático, se realiza en un examen preventivo una glicemia venosa de ayuno, que resulta 132 mg/dL.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repetir la glicemia venosa de ayuno otro día para confirmar"
+        },
+        {
+          "letter": "B",
+          "text": "Diagnosticar diabetes e iniciar insulina"
+        },
+        {
+          "letter": "C",
+          "text": "Diagnosticar prediabetes"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar una glicemia capilar para confirmar"
+        },
+        {
+          "letter": "E",
+          "text": "Descartar diabetes por estar asintomático"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El diagnóstico de diabetes requiere glicemia venosa de ayuno ≥126 mg/dL en 2 ocasiones en días distintos, o glicemia al azar ≥200 mg/dL con síntomas, o PTGO a las 2 horas ≥200 mg/dL. En un asintomático con un solo valor alterado se confirma repitiendo la glicemia venosa. La glicemia capilar no sirve para diagnosticar.",
+      "say": {
+        "stem": "Un hombre de cincuenta y dos años, asintomático, tiene en un examen preventivo una glicemia venosa de ayuno de ciento treinta y dos.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: repetir la glicemia venosa de ayuno otro día, diagnosticar diabetes e iniciar insulina, diagnosticar prediabetes, confirmar con glicemia capilar o descartar diabetes por no tener síntomas. Piénsalo.",
+        "answer": "Es la A. En un asintomático, una glicemia de ayuno sobre ciento veintiséis debe confirmarse con una segunda muestra venosa otro día. La glicemia capilar tienta por rápida, pero no sirve para diagnosticar."
+      }
     },
 
     {

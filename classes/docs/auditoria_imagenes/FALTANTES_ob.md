@@ -23,3 +23,8 @@ Ya cubiertos y excluidos: desaceleraciones precoces y variables reales (ob-17), 
 | ob-10 | Aborto | ecografía de aborto completo: cavidad vacía con endometrio fino | eco | baja |
 | ob-17 | Distocia de hombros | signo de la tortuga: cabeza fetal retraída contra el periné | foto clínica | baja |
 | ob-11 | Embarazo ectópico | ecografía con líquido libre / hemoperitoneo en el fondo de saco de Douglas (ectópico roto) | eco | baja |
+
+## Pasada de fotos m3 (19-oct-2026)
+✅ ya estaban: ob-04 Doppler umbilical/ACM/ductus, ob-13 previa y vasa previa, ob-10 restos con Doppler, ob-17 tortuga, ob-18 inversión uterina, ob-11 líquido libre.
+Nuevas: ✅ ob-21 signo lambda (obgynus p137), signo T (p81), TTTS eco (p143) · ✅ ob-20 hidrops fetal (Nelson p1437) · ✅ ob-07 macrosomía, grasa subcutánea (obgynus p131).
+❌ no hay en ninguna fuente: ob-17 CTG sinusoidal, ob-03 RBNE no reactivo, ob-02 Doppler de uterinas con notch, ob-16 planos de Hodge, ob-10 aborto completo, ob-17 podálica (esquema), ob-21 estenosis mitral gestacional (solo Harrison, sin usar), amniocentesis ya en clase.

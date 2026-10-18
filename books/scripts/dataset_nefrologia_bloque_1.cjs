@@ -35,16 +35,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -140,6 +141,8 @@ const bloque1 = [
           'El primer paso ineludible en toda elevación aguda de creatinina es <strong>descartar causa postrenal (obstructiva)</strong> mediante ecografía renal y vesical o palpación/cateterismo vesical. La hidronefrosis bilateral o el globo vesical orientan de inmediato a obstrucción.',
           'Descartada la causa urológica, la distinción entre <strong>IRA prerrenal e intrínseca</strong> descansa en la capacidad tubular de reabsorber agua y sodio: un túbulo sano y ávido de sodio (prerrenal) concentra la orina y retiene sodio; un túbulo necrótico (NTA) pierde sodio y genera orina isostenúrica (densidad 1.010, similar al plasma).',
           'El índice de referencia es la <strong>Fracción Excretada de Sodio (FeNa)</strong>: $FeNa = (Na_u \\times Cr_p) / (Na_p \\times Cr_u) \\times 100$. Un <strong>FeNa < 1%</strong> y un <strong>Na urinario < 20 mEq/L</strong> confirman origen prerrenal. En pacientes que han recibido diuréticos de asa (que fuerzan natriuresis e invalidan el FeNa), se calcula la <strong>Fracción Excretada de Urea (FeUrea)</strong>: un <strong>FeUrea < 35%</strong> certifica el origen prerrenal.',
+          '<b>Relación BUN/creatinina (nitrógeno ureico):</b> el valor habitual es de <b>10 a 15:1</b> (ambos en mg/dL). En la <b>IRA prerrenal</b> la hipoperfusión estimula la reabsorción tubular de urea junto con sodio y agua (acción de la ADH), mientras la creatinina casi no se reabsorbe: la relación sube a <b>&gt; 20:1</b>. En la <b>necrosis tubular aguda</b> el túbulo dañado deja de reabsorber urea y la relación se mantiene en 10–15:1 o menos. Limitaciones: también se eleva con <b>hemorragia digestiva alta, corticoides, catabolismo intenso y dieta hiperproteica</b>, y baja en hepatopatía grave o desnutrición. Se <b>interpreta siempre junto con FeNa/FeUrea, sedimento y clínica</b>, nunca como dato aislado.',
+          '<b>IRA postrenal (obstructiva):</b> representa 5–10% de los casos y exige obstrucción bilateral de la vía urinaria o de un riñón único. Causas más frecuentes: <b>hiperplasia o cáncer de próstata</b> (hombre mayor), <b>litiasis bilateral o en riñón único</b>, estenosis uretral, vejiga neurogénica, tumores pélvicos (cuello uterino, vejiga), fibrosis retroperitoneal, coágulos y fármacos anticolinérgicos u opioides. Se sospecha ante anuria u oliguria con diuresis alternante, <b>globo vesical</b>, dolor suprapúbico o lumbar, y se confirma con ecografía (hidronefrosis). <b>Manejo inicial:</b> instalar <b>sonda Foley</b> si hay globo vesical; si la obstrucción es alta o no cede, <b>derivar de urgencia a Urología</b> para catéter doble J o nefrostomía percutánea. Tras la descompresión vigilar la <b>diuresis postobstructiva</b> (&gt; 200 mL/h por 2 horas o &gt; 3 L/día) con reposición de volumen y control de Na, K y Mg. La recuperación de la función es mayor cuanto más precoz la descompresión.',
         ],
       },
       {
@@ -467,6 +470,13 @@ const bloque1 = [
         paragraphs: [
           'El tratamiento médico de elección para el SHR-IRA es la combinación de <strong>vasoconstrictores esplácnicos + expansor coloidal</strong>: <strong>Terlipresina</strong> (análogo de vasopresina IV en bolos de 1-2 mg cada 4-6 h o infusión continua) asociada a <strong>Albúmina al 20% (20 a 40 g/día)</strong>. Como alternativa en UCI se utiliza Noradrenalina IV + Albúmina.',
           'La terlipresina revierte la vasodilatación mesentérica y redistribuye el flujo sanguíneo hacia el lecho renal. No obstante, la terapia definitiva y curativa del síndrome hepatorrenal es el <strong>Trasplante Hepático</strong>.',
+        ],
+      },
+      {
+        subhead: '4. Insuficiencia Cardíaca: Diagnóstico y Tratamiento de Base',
+        paragraphs: [
+          '<b>Diagnóstico de la insuficiencia cardíaca (IC):</b> síndrome clínico con <b>disnea de esfuerzo, ortopnea, disnea paroxística nocturna, edema de extremidades inferiores, ingurgitación yugular, tercer ruido y crepitaciones</b> (criterios de Framingham: 2 mayores o 1 mayor y 2 menores). El <b>BNP (&gt; 100 pg/mL) o NT-proBNP (&gt; 300 pg/mL)</b> apoya el diagnóstico en el cuadro agudo y un valor normal prácticamente lo descarta; en la ERC ambos péptidos se elevan por menor depuración, por lo que se interpretan con cautela. La confirmación es el <b>ecocardiograma</b>, que define la fracción de eyección (FEVI): <b>reducida ≤ 40%</b>, levemente reducida 41–49% y preservada ≥ 50%. Se completa con ECG, radiografía de tórax, creatinina, electrolitos, hemograma y TSH, y se busca la causa (isquemia, hipertensión, valvulopatía, miocardiopatía).',
+          '<b>Tratamiento inicial de la IC:</b> en IC con FEVI reducida los cuatro pilares son <b>IECA/ARA-II (o sacubitrilo-valsartán)</b>, <b>betabloqueador</b> (carvedilol, bisoprolol o metoprolol succinato), <b>antagonista mineralocorticoide</b> (espironolactona) e <b>iSGLT2</b> (dapagliflozina o empagliflozina); los <b>diuréticos de asa</b> se usan solo para aliviar la congestión. Medidas generales: restricción de sodio, peso diario, vacunación y actividad física supervisada. En la <b>IC aguda descompensada</b>: oxígeno si SpO<sub>2</sub> &lt; 90%, <b>furosemida IV</b> y vasodilatadores si la presión lo permite. En el paciente con riñón comprometido se acepta un alza de creatinina de hasta 30% al iniciar IECA/ARA-II; con K &gt; 5,5 mEq/L o deterioro mayor se reevalúa la dosis. <b>Seguimiento:</b> control de peso, creatinina y potasio a las 1–2 semanas de cada ajuste, y derivación a Cardiología para fenotipo, titulación y evaluación de dispositivos (CDI/resincronizador si FEVI ≤ 35% persistente).',
         ],
       },
     ],

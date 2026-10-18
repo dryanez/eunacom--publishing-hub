@@ -68,24 +68,34 @@ module.exports = {
             say: 'Y la radiografía incluye la articulación de arriba y la de abajo del hueso, para no perder una luxación o una fractura asociada.' },
           { t: 'TAC si hay rasgo articular', d: 'Define el desplazamiento y el plan',
             say: 'Si el rasgo llega a la articulación, o hay luxación asociada, se complementa con un escáner.' },
+          { t: 'Signos sutiles: almohadilla grasa', d: 'Codo: derrame que sugiere fractura oculta',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-01/24_codo-almohadilla-grasa__sherman_p770.jpg', label: 'Almohadilla grasa del codo', at: 'Mira esta radiografía de codo', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 770' },
+            say: 'Al informar una radiografía buscas también signos sutiles: una interrupción de la cortical, una línea radiolúcida o el rodete en el niño. Mira esta radiografía de codo: la flecha señala la almohadilla grasa posterior elevada, que es un derrame y sugiere una fractura oculta. Y si la radiografía sale normal pero la clínica es sugerente, inmovilizas como fractura y repites la imagen a los siete a diez días.' },
         ] },
       ],
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Inmovilizar y cuidar la piel',
-      images: [
-        { src: 'biblioteca/18_traumatologia/trauma-01/01_ferula-fractura-tobillo__atls_p217.jpg', label: 'Férula de yeso posterior y en estribo en fractura de tobillo', credit: 'ATLS 10.ª ed., Fig. 8-10' },
-        { src: 'biblioteca/18_traumatologia/trauma-01/02_piel-palida-luxofractura-tobillo__atls_p209.jpg', label: 'Tobillo deformado con piel pálida y tensa', credit: 'ATLS 10.ª ed., Fig. 8-5' },
-      ],
-      steps: [
-        { note: 'Férula acolchada, no yeso circular',
-          say: 'Esta es una inmovilización provisoria bien hecha: férulas de yeso con mucho acolchado, sujetas con una venda elástica. Se deja una férula, no un yeso circular, porque el miembro se va a hinchar. Esa idea la vamos a necesitar en la clase de síndrome compartimental.' },
-        { note: 'Piel pálida: reducir pronto',
-          say: 'Y aquí un tobillo luxado con la piel pálida y tensa sobre el maléolo. Una piel así se necrosa rápido. Por eso se reduce pronto y se vuelve a revisar la circulación y los nervios después de la maniobra.' },
+      type: 'points',
+      kicker: 'Inmovilización',
+      title: 'Inmovilizar de urgencia: la valva',
+      cards: [
+        { title: 'Antes de trasladar', tag: 'Procedimiento', kind: 'criteria', items: [
+          { t: 'Retirar anillos y reloj', d: 'Antes de que aparezca el edema',
+            say: 'Toda sospecha de fractura se inmoviliza antes de mover al paciente. Primero retiras anillos, reloj y ropa ajustada, porque después del edema ya no salen.' },
+          { t: 'Articulación proximal y distal', d: 'En la posición en que está',
+            say: 'La inmovilización incluye la articulación de arriba y la de abajo del foco, en la posición en que se encuentra. Con analgesia, frío local y elevación, y el paciente en ayunas por si necesita pabellón.' },
+          { t: 'Valva acolchada, no yeso circular', d: 'Deja espacio para el edema',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-01/01_ferula-fractura-tobillo__atls_p217.jpg', label: 'Valva posterior y en estribo', at: 'Mira esta inmovilización', credit: 'ATLS 10.ª ed., Fig. 8-10' },
+            say: 'La inmovilización de elección en la urgencia es la valva de yeso. Mira esta inmovilización bien hecha: férulas con mucho acolchado, sujetas con una venda elástica sin apretar. Es una valva y no un yeso circular, porque el miembro se va a hinchar. El yeso circular se reserva para cuando el edema ya cedió, entre veinticuatro y setenta y dos horas después, y lo coloca el equipo de traumatología.' },
+        ] },
+        { title: 'Cuidar la piel y la circulación', tag: 'Alarma', kind: 'alert', items: [
+          { t: 'Piel pálida y tensa', d: 'Reducir pronto y revisar pulsos',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-01/02_piel-palida-luxofractura-tobillo__atls_p209.jpg', label: 'Piel pálida sobre el maléolo', at: 'Y aquí un tobillo', credit: 'ATLS 10.ª ed., Fig. 8-5' },
+            say: 'Y aquí un tobillo luxado con la piel pálida y tensa sobre el maléolo. Una piel así se necrosa rápido. Por eso se reduce pronto y se vuelve a revisar la circulación y los nervios después de la maniobra.' },
+          { t: 'No se reduce en terreno', d: 'Tracción suave solo si no hay pulso',
+            say: 'En terreno no se intenta reducir ni se reintroduce hueso expuesto. La única excepción es una extremidad muy angulada y sin pulso: ahí se alinea con tracción suave y continua, sin forzar.' },
+        ] },
       ],
     },
 
@@ -111,6 +121,30 @@ module.exports = {
             say: 'Y la fractura inestable es la que, aunque la reduzcas, no se mantiene en posición con un yeso.' },
           { t: 'Más energía, más complicaciones', d: 'Peor daño de partes blandas',
             say: 'Una regla que sirve para todo: cuanto mayor es la energía del trauma y el daño de músculo, piel y vasos, más probable es que se necesite cirugía y que la consolidación se complique.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Tratamiento',
+      title: 'Tratamiento ortopédico y complicaciones del yeso',
+      cards: [
+        { title: 'Si no se opera', tag: 'Cerrada, estable, extraarticular', kind: 'key', items: [
+          { t: 'Reducción cerrada e inmovilización', d: 'Incluye la articulación proximal y la distal',
+            say: 'Cuando no hay indicación quirúrgica, la fractura es cerrada, estable, poco desplazada y extraarticular, y el tratamiento es ortopédico. Si hay desplazamiento, se hace una reducción cerrada con tracción y contratracción, y se inmoviliza incluyendo la articulación de arriba y la de abajo.' },
+          { t: 'Control radiográfico a los 5 a 7 días', d: 'El yeso se afloja al ceder el edema',
+            say: 'A los cinco a siete días se repite la radiografía, porque al ceder el edema el yeso se afloja y la fractura puede desplazarse.' },
+          { t: 'Retiro: 4 a 6 semanas, tibia 8 a 12', d: 'Más corto en niños; luego kinesiterapia',
+            say: 'El yeso se retira a las cuatro a seis semanas en antebrazo y muñeca, y a las ocho a doce en la tibia, más corto en niños. Después viene la kinesiterapia para recuperar rango y fuerza. Típicamente ortopédicas son las fracturas del niño, de clavícula, de metacarpianos y de costillas.' },
+        ] },
+        { title: 'Complicaciones del yeso', tag: 'Se preguntan', kind: 'alert', items: [
+          { t: 'Compartimental por yeso apretado', d: 'Abrir el yeso de inmediato',
+            say: 'La complicación más grave es el síndrome compartimental por un yeso apretado: dolor desproporcionado que aumenta al estirar los dedos, parestesias y dedos fríos o azulados. La conducta es abrir el yeso de inmediato, cortando todas las capas, incluido el algodón, y reevaluar.' },
+          { t: 'Úlcera por presión', d: 'Talón, maléolos, cabeza del peroné',
+            say: 'Si hay dolor localizado bajo el yeso, mal olor o secreción, piensa en una úlcera por presión, y se hace una ventana o se cambia el yeso.' },
+          { t: 'Nervio peroneo y cubital', d: 'Compresión en el peroné y en el codo',
+            say: 'La compresión nerviosa afecta sobre todo al peroneo en la cabeza del peroné, y al cubital en el codo. Y no olvides la trombosis venosa profunda en la extremidad inferior. El paciente debe saber que dolor intenso o dedos fríos y azulados son motivo de consulta inmediata, después de elevar la extremidad.' },
         ] },
       ],
     },
@@ -145,6 +179,31 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Dos fracturas de la muñeca',
+      title: 'Colles y escafoides',
+      cards: [
+        { title: 'Radio distal', tag: 'Adulto mayor osteoporótico', kind: 'key', items: [
+          { t: 'Colles: dorso de tenedor', d: 'Caída sobre la mano extendida',
+            photos: [
+              { src: 'biblioteca/18_traumatologia/trauma-01/21_colles-dorso-de-tenedor__sherman_p569.jpg', label: 'Dorso de tenedor', at: 'Mira esta muñeca', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 569' },
+              { src: 'biblioteca/18_traumatologia/trauma-01/22_radio-distal-rx__sherman_p569.jpg', label: 'Radio distal, AP y lateral', at: 'En estas radiografías', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 569' },
+            ],
+            say: 'La fractura más frecuente del adulto mayor osteoporótico es la del radio distal, por caída sobre la mano extendida. Mira esta muñeca: el desplazamiento dorsal le da la forma de dorso de tenedor. Es la fractura de Colles. En estas radiografías ves el acortamiento del radio y la pérdida de la inclinación palmar. La de Smith es la inversa, con desplazamiento volar, y la de Barton compromete el borde articular.' },
+          { t: 'Valva y buscar el mediano', d: 'Parestesias de los tres primeros dedos',
+            say: 'El manejo inicial es analgesia, valva antebraquiopalmar, radiografías anteroposterior y lateral, y buscar compresión del nervio mediano. Si es estable y poco desplazada, yeso por cuatro a seis semanas; si es desplazada, inestable o intraarticular, se deriva para osteosíntesis.' },
+        ] },
+        { title: 'Escafoides', tag: 'Adulto joven', kind: 'alert', items: [
+          { t: 'Dolor en la tabaquera anatómica', d: 'La radiografía inicial puede ser normal',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-01/23_escafoides-rx__sherman_p662.jpg', label: 'Escafoides en la radiografía', at: 'En esta radiografía', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 662' },
+            say: 'Un adulto joven que cae sobre la mano y duele en la tabaquera anatómica tiene un escafoides fracturado hasta que se demuestre lo contrario. En esta radiografía la fractura es sutil, y la imagen inicial puede incluso salir normal.' },
+          { t: 'Espica de pulgar y repetir', d: 'Imagen a los 10 a 14 días o resonancia',
+            say: 'Con clínica compatible, inmovilizas con yeso en espica de pulgar y repites la imagen a los diez a catorce días, o pides resonancia. Por su irrigación retrógrada, el polo proximal puede sufrir necrosis avascular y pseudoartrosis, así que toda fractura confirmada se deriva.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'table',
       kicker: 'Trampas EUNACOM',
       title: 'Enfrentamiento de una fractura',
@@ -156,8 +215,24 @@ module.exports = {
           say: 'En radiología, siempre dos proyecciones. Si el rasgo es articular o hay una luxación asociada, se reduce pronto o se pide un escáner.' },
         { cells: ['Analgesia', 'Paracetamol, AINE u opioide', 'Dolor refractario o desproporcionado', 'Sospechar síndrome compartimental'],
           say: 'En la analgesia, la alarma es el dolor que no cede o que es desproporcionado. Eso te hace sospechar un síndrome compartimental.' },
+        { cells: ['Muñeca y yeso', 'Colles o tabaquera dolorosa', 'Radiografía normal con clínica; dedos fríos bajo el yeso', 'Valva o espica y repetir imagen; abrir el yeso'],
+          say: 'En la muñeca, una radiografía normal con la tabaquera dolorosa no descarta el escafoides: inmovilizas y repites la imagen. Y si los dedos se ponen fríos bajo el yeso, lo abres de inmediato.' },
         { cells: ['Cirugía', 'Desplazada, inestable o expuesta', 'Lesión vascular o nerviosa aguda', 'Cirugía urgente'],
           say: 'Y la cirugía se indica por desplazamiento inaceptable, inestabilidad o exposición. Si hay lesión vascular o nerviosa aguda, la cirugía es urgente.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La valva de urgencia',
+      images: [
+        { src: 'animaciones/trauma-01/A1_valva_de_yeso.mp4', label: 'Valva acolchada que deja espacio al edema', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Valva, no yeso circular',
+          say: 'Mira la inmovilización de urgencia. Es una valva de yeso sobre un buen acolchado, sujeta con una venda elástica sin apretar, e incluye la articulación de arriba y la de abajo. Cuando el edema crece, la valva se abre y deja espacio. Un yeso circular, en cambio, aprieta y produce un síndrome compartimental. Antes y después de inmovilizar, revisa pulsos, llene capilar, sensibilidad y motilidad.' },
       ],
     },
 
@@ -302,6 +377,157 @@ module.exports = {
         options: 'Las opciones: síndrome compartimental; compresión del nervio mediano; lesión del musculocutáneo; atrapamiento del cubital; o lesión del nervio radial. Piénsalo.',
         answer: 'Es la E. El nervio radial recorre la diáfisis del húmero, así que una fractura o una cirugía ahí lo daña, y el signo es no poder extender la muñeca. Por eso en toda fractura se examina la función nerviosa distal antes y después de tratarla.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.5.001 · Inmovilizaciones de urgencia",
+      "stem": "Mujer de 34 años se cae de una bicicleta y llega al SAPU con dolor y deformidad en el tercio medio de la pierna izquierda. La piel está indemne, pulsos pedios presentes, llene capilar menor de 2 segundos y sensibilidad conservada. Debe ser trasladada al hospital, a 40 minutos.",
+      "question": "¿Cuál es la inmovilización de urgencia más adecuada antes del traslado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yeso circular cerrado desde el muslo hasta el pie"
+        },
+        {
+          "letter": "B",
+          "text": "Vendaje elástico compresivo solo sobre el foco de fractura"
+        },
+        {
+          "letter": "C",
+          "text": "Férula que incluya la articulación proximal y distal (rodilla y tobillo), previa alineación suave y con control neurovascular antes y después"
+        },
+        {
+          "letter": "D",
+          "text": "No inmovilizar para no retrasar el traslado"
+        },
+        {
+          "letter": "E",
+          "text": "Reducción forzada bajo anestesia local y luego traslado sin férula"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La inmovilización de urgencia debe incluir la articulación por encima y por debajo de la fractura, alinear con tracción suave, usar férulas acolchadas no circulares y registrar el estado neurovascular antes y después. El yeso circular en agudo está contraindicado por el edema y el riesgo de síndrome compartimental.",
+      "say": {
+        "stem": "Una mujer de treinta y cuatro años se cae en bicicleta y tiene deformidad en la mitad de la pierna izquierda, con piel indemne y buenos pulsos. Hay que trasladarla al hospital.",
+        "question": "¿Cuál es la mejor inmovilización antes del traslado?",
+        "options": "Las opciones: yeso circular cerrado, vendaje elástico solo en el foco, férula que incluya rodilla y tobillo con control neurovascular, no inmovilizar o reducción forzada sin férula. Piénsalo.",
+        "answer": "Es la C. Se alinea suavemente y se usa una férula que tome la articulación de arriba y la de abajo, revisando pulsos y sensibilidad antes y después. El yeso circular tienta, pero en agudo el edema puede provocar un síndrome compartimental."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 57",
+      "stem": "Mujer de 40 años con fractura de muñeca que fue enyesada. 3 horas después refiere dolor intenso y progresivo en el antebrazo que no cede con analgesia, parestesias y sensación de tensión bajo el yeso.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Síndrome compartimental agudo"
+        },
+        {
+          "letter": "B",
+          "text": "Trombosis venosa profunda"
+        },
+        {
+          "letter": "C",
+          "text": "Reacción alérgica al yeso"
+        },
+        {
+          "letter": "D",
+          "text": "Fractura secundaria"
+        },
+        {
+          "letter": "E",
+          "text": "Distrofia simpática refleja"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Dolor desproporcionado que no cede con analgesia, parestesias y tensión bajo un yeso recién puesto sugieren síndrome compartimental agudo. Es una emergencia: abrir o retirar el yeso de inmediato y, si no mejora, fasciotomía. La pérdida de pulso es un signo tardío.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. A una mujer de cuarenta años le enyesan una fractura de muñeca. Tres horas después tiene dolor intenso y creciente en el antebrazo que no cede con analgésicos, hormigueo y sensación de tensión bajo el yeso.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: síndrome compartimental agudo, trombosis venosa profunda, alergia al yeso, fractura secundaria o distrofia simpática refleja. Piénsalo.",
+        "answer": "Es la A. Dolor desproporcionado, parestesias y tensión bajo un yeso reciente son un síndrome compartimental, y hay que retirar el yeso de inmediato. La distrofia simpática refleja tienta por el dolor, pero aparece semanas después, no a las tres horas."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.5.032 · Vendajes e inmovilizaciones con férulas",
+      "stem": "Hombre de 30 años sufre una fractura de radio distal no desplazada hace 3 horas. Presenta edema moderado de la muñeca y antebrazo. Se decide tratamiento ortopédico.",
+      "question": "¿Cuál es la inmovilización inicial más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yeso circular cerrado ajustado"
+        },
+        {
+          "letter": "B",
+          "text": "Sin inmovilización, con analgesia"
+        },
+        {
+          "letter": "C",
+          "text": "Vendaje elástico compresivo exclusivo"
+        },
+        {
+          "letter": "D",
+          "text": "Férula (valva) de yeso antebraquiopalmar, no circular, con extremidad elevada"
+        },
+        {
+          "letter": "E",
+          "text": "Yeso braquiopalmar circular cerrado"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En una fractura aguda con edema, la inmovilización inicial debe ser una férula o valva no circular, que inmoviliza las articulaciones vecinas y permite el aumento de volumen sin comprimir, previniendo un síndrome compartimental. Se indica elevar la extremidad, mover los dedos y vigilar dolor y perfusión; el yeso circular se coloca cuando cede el edema.",
+      "say": {
+        "stem": "Hombre de treinta años con una fractura no desplazada del radio distal de tres horas de evolución, con edema moderado de muñeca y antebrazo, que se tratará en forma ortopédica.",
+        "question": "¿Cuál es la inmovilización inicial más adecuada?",
+        "options": "Las opciones: yeso circular cerrado ajustado, sin inmovilización, solo vendaje elástico, férula de yeso no circular con la extremidad elevada o yeso circular desde el brazo. Piénsalo.",
+        "answer": "Es la D. En una fractura reciente con edema se usa una férula no circular, que deja espacio para que se hinche sin comprimir. El yeso circular tienta porque inmoviliza mejor, pero con el edema puede apretar y provocar un síndrome compartimental."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 141",
+      "stem": "Paciente de 70 años sufre una caída a nivel, con apoyo de la extremidad superior en extensión contra el suelo. Evoluciona con dolor en la muñeca que le impide moverla. Consulta al día siguiente con la muñeca deformada en \"dorso de tenedor\", equimosis palmar y dorsal, y dolor a la compresión del radio distal.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Esguince de muñeca"
+        },
+        {
+          "letter": "B",
+          "text": "Fractura de la epífisis distal del radio"
+        },
+        {
+          "letter": "C",
+          "text": "Disyunción del extremo distal del radio"
+        },
+        {
+          "letter": "D",
+          "text": "Luxofractura de Monteggia"
+        },
+        {
+          "letter": "E",
+          "text": "Fractura de escafoides carpiano"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Adulto mayor que cae sobre la mano en extensión y presenta deformidad en dorso de tenedor tiene una fractura de radio distal con desplazamiento dorsal (Colles), típica de hueso osteoporótico. La disyunción ocurre en niños con fisis abierta; el escafoides duele en la tabaquera anatómica sin esta deformidad.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Paciente de setenta años que cae sobre la mano extendida y queda con la muñeca deformada en dorso de tenedor y dolor en el radio distal.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: esguince, fractura de la epífisis distal del radio, disyunción del radio distal, Monteggia o fractura de escafoides. Piénsalo.",
+        "answer": "Es la B. La deformidad en dorso de tenedor tras caer sobre la mano extendida es la fractura de radio distal tipo Colles. La disyunción tienta, pero solo ocurre en niños con el cartílago de crecimiento abierto."
+      }
     },
 
     {

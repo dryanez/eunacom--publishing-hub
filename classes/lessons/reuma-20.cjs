@@ -43,7 +43,8 @@ module.exports = {
       cards: [
         { title: "Aftas orales: Universales y sin cicatriz", tag: "Criterio obligatorio de sospecha", kind: "criteria", items: [
           { t: "Úlceras orales recurrentes y dolorosas", d: "Al menos tres episodios en un año",
-            say: "Las aftas bucales son la manifestación más temprana y constante de la enfermedad, estando presentes en el cien por ciento de los pacientes. Son úlceras superficiales dolorosas de fondo blanquecino y halo eritematoso en labios, encías o lengua." },
+            say: "Las aftas bucales son la manifestación más temprana y constante de la enfermedad, estando presentes en el cien por ciento de los pacientes. Son úlceras superficiales dolorosas de fondo blanquecino y halo eritematoso en labios, encías o lengua. Mira esta imagen: en la parte A, las aftas de la boca; la parte B es un fondo de ojo, que retomaremos al hablar de la visión.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-20/01_aftas-orales-behcet__amir-reuma_p41.jpg', label: 'Aftas orales y fondo de ojo', at: 'Mira esta imagen', credit: 'Manual AMIR Reumatología, p. 41' } },
           { t: "Curación completa sin dejar cicatriz", d: "Resuelven espontáneamente en una a dos semanas",
             say: "Esta es una regla cardinal de semiología: las aftas orales en Behçet curan en siete a catorce días de forma completa, sin dejar jamás cicatriz residual en la mucosa de la boca." },
         ] },
@@ -63,7 +64,8 @@ module.exports = {
       cards: [
         { title: "Compromiso ocular: Uveítis con hipopión", tag: "Principal causa de discapacidad y ceguera", kind: "alert", items: [
           { t: "Uveítis anterior con hipopión estéril", d: "Nivel de exudado leucocitario en cámara anterior",
-            say: "El compromiso ocular más temido es la panuveítis y la uveítis anterior aguda con hipopión: un nivel horizontal blanquecino de pus estéril en la cámara anterior del ojo. Ocurre por acumulación masiva de neutrófilos sin infección bacteriana activa." },
+            say: "El compromiso ocular más temido es la panuveítis y la uveítis anterior aguda con hipopión: un nivel horizontal blanquecino de pus estéril en la cámara anterior del ojo. Ocurre por acumulación masiva de neutrófilos sin infección bacteriana activa. Mira este ojo: el enrojecimiento alrededor de la córnea, y abajo la línea blanquecina del hipopión.",
+          photo: { src: '_verificadas/049_reuma_EA_Behçet__KumarClark_p1099.jpg', label: 'Uveítis con hipopión', at: 'Mira este ojo', credit: 'Kumar and Clark\'s Clinical Medicine, p. 1099' } },
           { t: "Vasculitis retiniana y riesgo de ceguera", d: "Edema macular y oclusiones vasculares de retina",
             say: "La vasculitis retiniana recurrente puede provocar isquemia de retina, neovascularización y pérdida irreversible de la agudeza visual si no se instala de inmediato un tratamiento inmunosupresor agresivo por oftalmología." },
         ] },
@@ -71,7 +73,8 @@ module.exports = {
           { t: "Punción dérmica con aguja estéril", d: "Microtraumatismo en la piel del antebrazo",
             say: "El fenómeno de patergia evalúa la respuesta inflamatoria ante un traumatismo mínimo: se pincha la piel volar del antebrazo con una aguja estéril de calibre veinte de forma oblicua." },
           { t: "Aparición de pústula estéril en 24 a 48 horas", d: "Pápula eritematosa o pústula aséptica positiva",
-            say: "La prueba se considera francamente positiva si al cabo de veinticuatro a cuarenta y ocho horas se desarrolla una pápula eritematosa o una pústula estéril de más de dos milímetros en el sitio del pinchazo, reflejando hiperquimiotaxis neutrofílica." },
+            say: "La prueba se considera francamente positiva si al cabo de veinticuatro a cuarenta y ocho horas se desarrolla una pápula eritematosa o una pústula estéril de más de dos milímetros en el sitio del pinchazo, reflejando hiperquimiotaxis neutrofílica. Aquí se ve la reacción en el lugar del pinchazo.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-20/01_prueba_patergia__usuario.jpg', label: 'Prueba de patergia', at: 'Aquí se ve la reacción', credit: 'Aportada por el usuario (fuente web, licencia por verificar)' } },
         ] },
       ],
     },
@@ -120,6 +123,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La prueba de patergia',
+      images: [
+        { src: 'animaciones/reuma-20/A1_patergia.mp4', label: 'Un pinchazo y el neutrófilo responde de más', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Piel y neutrófilos',
+          say: 'Esta es la prueba de patergia. Se pincha la piel con una aguja estéril, y los neutrófilos del paciente con Behçet responden de más: migran hacia el sitio del pinchazo en una hiperquimiotaxis exagerada. A las veinticuatro a cuarenta y ocho horas aparece una pápula o una pústula estéril de más de dos milímetros. Es un sello neutrofílico de la enfermedad, que junto con las aftas orales y genitales y la uveítis con hipopión orienta al diagnóstico.' },
+      ],
+    },
+
+    {
       type: "table",
       kicker: "Trampas EUNACOM",
       title: "Criterios Internacionales para la Enfermedad de Behçet (ICBD)",
@@ -133,23 +150,6 @@ module.exports = {
           say: "Lesiones oculares: suman dos puntos; uveítis con hipopión estéril y vasculitis retiniana amenazante." },
         { cells: ["Fenómeno de Patergia / Piel", "1 punto cada uno", "Pústula estéril a 24-48h · Eritema nodoso en piernas"],
           say: "Patergia y piel: suman un punto cada uno; pústula estéril tras pinchazo con aguja y eritema nodoso." },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Enfermedad de Behçet',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-20/01_aftas-orales-behcet__amir-reuma_p41.jpg', label: 'Aftas orales (A) y fondo de ojo (B)', credit: 'Manual AMIR Reumatología, p. 41' },
-        { src: 'biblioteca/08_reumatologia/reuma-20/01_prueba_patergia__usuario.jpg', label: 'Patergia', credit: 'Aportada por el usuario (fuente web, licencia por verificar)' },
-      ],
-      steps: [
-        { note: 'Recurrentes y dolorosas',
-          say: 'Arriba, las aftas orales recurrentes, el criterio obligatorio de Behçet. Abajo, un fondo de ojo con compromiso de la retina: el ojo es la complicación más temida, con uveítis y vasculitis retiniana.' },
-        { note: 'Pústula tras el pinchazo',
-          say: 'Y la patergia: un pinchazo con aguja produce una pápula o pústula a las veinticuatro o cuarenta y ocho horas.' },
       ],
     },
 

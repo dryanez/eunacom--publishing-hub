@@ -99,9 +99,11 @@ module.exports = {
         { show: ['neg'], note: 'Alta sensibilidad: si son normales, descarta',
           say: 'Esa sensibilidad tiene una consecuencia práctica: si las metanefrinas son rigurosamente normales, el feocromocitoma está virtualmente descartado, y buscas otra causa de las crisis.' },
         { show: ['tc'], note: 'La imagen, después de confirmar',
-          say: 'Si están elevadas, recién ahí localizas con tomografía o resonancia de abdomen y pelvis. El feocromocitoma suele ser una masa grande, de más de tres centímetros, muy vascularizada y heterogénea, con áreas quísticas o necróticas. En la resonancia brilla en T dos, la clásica imagen en bombilla eléctrica.' },
+          say: 'Si están elevadas, recién ahí localizas con tomografía o resonancia de abdomen y pelvis. Mira esta resonancia: una masa grande en la suprarrenal derecha. El feocromocitoma suele ser una masa grande, de más de tres centímetros, muy vascularizada y heterogénea, con áreas quísticas o necróticas. En la resonancia brilla en T dos, la clásica imagen en bombilla eléctrica.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg__amir-endocrino_p59.jpg', label: 'RM: masa suprarrenal', at: 'Mira esta resonancia', credit: 'Manual AMIR Endocrinología, p. 59' } },
         { show: ['mib'], note: 'Imagen funcional en casos seleccionados',
-          say: 'Y si sospechas un paraganglioma extraadrenal, malignidad, o el tumor mide más de cinco centímetros, se agrega una imagen funcional: cintigrafía con MIBG, o PET con DOPA.' },
+          say: 'Y si sospechas un paraganglioma extraadrenal, malignidad, o el tumor mide más de cinco centímetros, se agrega una imagen funcional: cintigrafía con MIBG, donde el tumor aparece como un foco que capta, como en esta imagen, o PET con DOPA.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg_alt1__amir-endocrino_p58.jpg', label: 'Gammagrafía MIBG', at: 'como en esta imagen', credit: 'Manual AMIR Endocrinología, p. 58' } },
       ],
     },
 
@@ -187,21 +189,65 @@ module.exports = {
           say: 'El tumor de la médula suprarrenal descarga catecolaminas: por los receptores alfa uno contrae las arteriolas, y por los beta uno acelera el corazón. Si das un betabloqueador solo, se pierde la vasodilatación beta dos, el alfa queda sin oposición y la presión se dispara. Por eso primero se bloquea alfa, con fenoxibenzamina o doxazosina, y recién después beta.' },
       ],
     },
-
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Feocromocitoma en la imagen',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg__amir-endocrino_p59.jpg', label: 'RM: masa suprarrenal derecha', credit: 'Manual AMIR Endocrinología, p. 59' },
-        { src: 'biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg_alt1__amir-endocrino_p58.jpg', label: 'Gammagrafía MIBG', credit: 'Manual AMIR Endocrinología, p. 58' },
+      type: 'flow',
+      kicker: 'Incidentaloma suprarrenal',
+      title: 'Masa suprarrenal hallada por casualidad: ¿es maligna?',
+      nodes: [
+        { id: 'inc', col: 0, row: 2, k: 'start', t: 'Masa suprarrenal de 1 cm o más', s: 'Hallada en un examen por otro motivo' },
+        { id: 'tc', col: 1, row: 2, k: 'q', t: 'TC sin contraste', s: 'Mide la densidad en unidades Hounsfield' },
+        { id: 'ben', col: 2, row: 0, k: 'good', t: 'Homogénea, bajo 4 cm, 10 UH o menos', s: 'Adenoma benigno: sin más imágenes' },
+        { id: 'ind', col: 2, row: 2, k: 'mech', t: 'Imagen indeterminada', s: 'Repetir la TC en 6 a 12 meses' },
+        { id: 'sos', col: 2, row: 4, k: 'alert', t: 'Sobre 4 cm, más de 20 UH, heterogénea', s: 'Necrosis, bordes irregulares, crece rápido' },
+        { id: 'cir', col: 3, row: 4, k: 'refer', t: 'Derivar a cirugía', s: 'Posible carcinoma, metástasis o feocromocitoma' },
+        { id: 'bio', col: 4, row: 4, k: 'trap', t: 'Biopsia percutánea', s: 'Casi nunca; antes descartar feocromocitoma' },
+      ],
+      edges: [
+        { from: 'inc', to: 'tc' },
+        { from: 'tc', to: 'ben', label: '10 UH o menos' },
+        { from: 'tc', to: 'ind', label: 'dudosa' },
+        { from: 'tc', to: 'sos', label: 'rasgos de alarma' },
+        { from: 'sos', to: 'cir' },
+        { from: 'cir', to: 'bio', label: 'no' },
       ],
       steps: [
-        { note: 'Primero la anatomía',
-          say: 'Después de confirmar con metanefrinas, se localiza el tumor con tomografía o resonancia. Aquí, la resonancia muestra una masa grande en la suprarrenal derecha.' },
-        { note: 'La suprarrenal que capta',
-          say: 'Y en casos seleccionados se agrega la gammagrafía con MIBG: el tumor aparece como un foco que capta, sobre la suprarrenal.' },
+        { show: ['inc'], note: 'Un hallazgo muy frecuente',
+          say: 'Una última situación, que además se pregunta. Pides una tomografía por otro motivo, y aparece una masa suprarrenal de un centímetro o más. Es el incidentaloma suprarrenal, y se ve en alrededor de uno de cada veinte adultos. La gran mayoría, cerca del ochenta por ciento, son adenomas benignos que no producen hormonas. Frente a cualquiera te haces dos preguntas: ¿es maligno? y ¿es funcionante?' },
+        { show: ['tc'], note: 'La TC sin contraste es el examen clave',
+          say: 'Para saber si es maligno, el examen clave es la tomografía sin contraste. Lo que mide es la densidad en unidades Hounsfield.' },
+        { show: ['ben'], note: 'Rica en lípidos: benigna',
+          say: 'Una masa homogénea, de bordes regulares, menor de cuatro centímetros y con diez unidades o menos, es rica en lípidos. Es un adenoma benigno, y no necesita más imágenes. Mira esta tomografía: una masa suprarrenal pequeña, bien delimitada y homogénea, el aspecto típico del adenoma.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-15/02_adenoma_suprarrenal_tc__ctmri_p382.jpg', label: 'Adenoma suprarrenal en TAC', at: 'Mira esta tomografía', credit: 'CT & MRI Pathology: A Pocket Atlas, p. 382' } },
+        { show: ['ind'], note: 'Si queda duda, se repite',
+          say: 'Si la imagen es indeterminada, se repite la tomografía a los seis a doce meses.' },
+        { show: ['sos', 'cir'], note: 'Rasgos de alarma: cirugía',
+          say: 'Ahora, lo que hace sospechar un carcinoma, una metástasis o un feocromocitoma: más de cuatro centímetros, más de veinte unidades, heterogeneidad, necrosis, bordes irregulares o crecimiento rápido. Esas masas se derivan a cirugía.' },
+        { show: ['bio'], note: 'No se punciona',
+          say: 'Y ojo: la biopsia casi nunca se indica. Solo si sospechas una metástasis en alguien con un cáncer conocido, y siempre después de descartar un feocromocitoma, porque puncionarlo puede desencadenar una crisis.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Incidentaloma suprarrenal',
+      title: '¿Es funcionante? Y qué haces con él',
+      cards: [
+        { title: 'Estudio hormonal', tag: 'A todos', kind: 'criteria', items: [
+          { t: 'Dexametasona 1 mg: cortisol sobre 1,8', d: 'Secreción autónoma de cortisol',
+            say: 'Para saber si es funcionante, se piden tres cosas. Primero, el test de supresión con un miligramo de dexametasona en la noche. Si el cortisol de las ocho de la mañana queda sobre uno coma ocho, hay secreción autónoma de cortisol, aunque el paciente no tenga cara de Cushing.' },
+          { t: 'Metanefrinas', d: 'Se pueden omitir si es 10 UH o menos',
+            say: 'Segundo, metanefrinas, plasmáticas o en orina de veinticuatro horas, para descartar un feocromocitoma. Se pueden omitir si la masa mide diez unidades o menos.' },
+          { t: 'Aldosterona y renina si hay HTA o hipokalemia', d: 'Bilateral: 17-OH-progesterona',
+            say: 'Y tercero, si el paciente es hipertenso o tiene el potasio bajo, la relación aldosterona renina. Si las masas son bilaterales, se agrega la diecisiete hidroxiprogesterona, por una hiperplasia suprarrenal congénita.' },
+        ] },
+        { title: 'Conducta', tag: 'Qué haces tú', kind: 'key', items: [
+          { t: 'Cirugía: funcionante, sospechoso o sobre 4 cm', d: 'Feocromocitoma: bloqueo alfa antes',
+            say: 'Se opera, por vía laparoscópica, todo incidentaloma funcionante, con una imagen sospechosa o mayor de cuatro centímetros. Y si es un feocromocitoma, antes viene el bloqueo alfa que ya conoces.' },
+          { t: 'Adenoma bajo 4 cm, no funcionante: alta', d: 'Sin imágenes ni hormonas de seguimiento',
+            say: 'El adenoma menor de cuatro centímetros, de diez unidades o menos y no funcionante, no necesita seguimiento con imágenes ni con hormonas.' },
+          { t: 'Tú pides TC sin contraste y exámenes, y derivas', d: 'Endocrinología decide el resto',
+            say: 'Tu papel es pedir la tomografía sin contraste y los exámenes hormonales, y derivar a endocrinología. La secreción autónoma leve de cortisol se maneja controlando la hipertensión, la diabetes y la osteoporosis, y la cirugía la decide el especialista.' },
+        ] },
       ],
     },
 
@@ -228,6 +274,8 @@ module.exports = {
           say: 'Carcinoma medular con feocromocitoma: primero el feocromocitoma.' },
         { cells: ['Masa suprarrenal > 3 cm con crisis', 'Feocromocitoma', 'Confundir con adenoma de Conn'],
           say: 'Y una masa suprarrenal grande con crisis adrenérgicas es feocromocitoma, no un adenoma de Conn, que da hipokalemia y no crisis paroxísticas. Esa es justamente la pregunta real que viene.' },
+        { cells: ['Incidentaloma de 10 UH o menos, bajo 4 cm', 'Test de dexametasona y metanefrinas; sin más imágenes', 'Biopsiar o repetir imágenes cada año'],
+          say: 'Un incidentaloma de diez unidades o menos y bajo cuatro centímetros es un adenoma benigno: estudio hormonal y nada más. El error es biopsiarlo o seguirlo con imágenes cada año.' },
       ],
     },
 
@@ -301,6 +349,44 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.1.022 · Incidentaloma suprarrenal",
+      "stem": "A una mujer de 55 años, normotensa, se le encuentra en una TAC solicitada por cólico renal una masa suprarrenal izquierda de 2,5 cm, homogénea, de 8 UH sin contraste. No tiene signos de síndrome de Cushing.",
+      "question": "¿Cuál es el estudio hormonal mínimo más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ningún estudio, por ser pequeño y homogéneo"
+        },
+        {
+          "letter": "B",
+          "text": "Test de supresión con 1 mg de dexametasona y metanefrinas plasmáticas o urinarias"
+        },
+        {
+          "letter": "C",
+          "text": "Solo cortisol libre urinario"
+        },
+        {
+          "letter": "D",
+          "text": "Biopsia percutánea de la masa"
+        },
+        {
+          "letter": "E",
+          "text": "Solo aldosterona y renina plasmáticas"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Todo incidentaloma suprarrenal requiere estudio funcional: supresión nocturna con 1 mg de dexametasona (Cushing subclínico) y metanefrinas (feocromocitoma); aldosterona y renina se agregan si hay HTA o hipokalemia. Menos de 10 UH sugiere adenoma rico en lípidos. La biopsia no se recomienda y es peligrosa si es feocromocitoma.",
+      "say": {
+        "stem": "A una mujer normotensa de cincuenta y cinco años se le encuentra en una TAC una masa suprarrenal de dos coma cinco centímetros, homogénea y de baja densidad, sin signos de Cushing.",
+        "question": "¿Cuál es el estudio hormonal mínimo más adecuado?",
+        "options": "Las opciones: ningún estudio, supresión con dexametasona más metanefrinas, solo cortisol urinario, biopsia percutánea, o solo aldosterona y renina. Piénsalo.",
+        "answer": "Es la B. Todo incidentaloma suprarrenal se estudia al menos con supresión con dexametasona y metanefrinas, aunque se vea benigno. No estudiar tienta por su aspecto de adenoma, pero puede ser funcionante."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -310,6 +396,8 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. La tríada paroxística de cefalea, sudoración y palpitaciones con hipertensión es la sospecha.' },
           { t: 'Metanefrinas, luego TC o RM', d: 'Normales: virtualmente descartado',
             say: 'Se confirma con metanefrinas, y solo después se localiza con tomografía o resonancia. Si las metanefrinas son normales, está virtualmente descartado.' },
+          { t: 'Incidentaloma: TC sin contraste y estudio hormonal', d: '10 UH o menos y bajo 4 cm: benigno',
+            say: 'Y ante un incidentaloma, tomografía sin contraste y estudio hormonal: diez unidades o menos y bajo cuatro centímetros es benigno.' },
         ] },
         { title: 'Tratamiento', tag: 'Regla de oro', kind: 'alert', items: [
           { t: 'Alfa primero, beta después', d: 'Nunca betabloqueo solo',

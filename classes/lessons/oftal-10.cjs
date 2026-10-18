@@ -40,7 +40,11 @@ module.exports = {
         { show: ['des'], note: 'La retina, del griego rhegma, se rompe',
           say: 'El problema aparece si, al separarse, el vítreo queda pegado a una zona de retina periférica más delgada, y la traccionan hasta romperla. Eso es el desgarro o la rotura retiniana, de donde viene el nombre regmatógeno, del griego rhegma, que significa rotura.' },
         { show: ['flu', 'drr'], note: 'Como despegar un papel mural húmedo',
-          say: 'Y por ese orificio, el vítreo ya licuado se cuela hacia el espacio que hay entre la retina y el epitelio pigmentario, y la va despegando, como si despegaras un papel mural húmedo. Ese es el desprendimiento de retina regmatógeno, y es la forma más frecuente, más del noventa por ciento de los casos.' },
+          say: 'Y por ese orificio, el vítreo ya licuado se cuela hacia el espacio que hay entre la retina y el epitelio pigmentario, y la va despegando, como si despegaras un papel mural húmedo. Ese es el desprendimiento de retina regmatógeno, y es la forma más frecuente, más del noventa por ciento de los casos. Mira este fondo de ojo: el desgarro en herradura, y alrededor la retina levantada, que pierde su color rojizo.',
+          photos: [
+            { src: 'biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo_alt1__amir-oftalmo_p13.jpg', label: 'Desgarro en herradura', at: 'Mira este fondo de ojo', credit: 'Manual AMIR Oftalmología, p. 13' },
+            { src: 'biblioteca/12_oftalmologia/oftal-10/54_desprendimiento-retina-desgarro__kanski_p698.jpg', label: 'Desgarro y retina levantada', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 698" },
+          ] },
         { show: ['mio', 'cx'], note: 'El dato que se pregunta: factores de riesgo',
           say: 'Los factores de riesgo se preguntan mucho: primero, la miopía magna, porque el ojo alargado tiene una retina periférica más delgada y con más tracciones. También la cirugía de catarata previa, y el traumatismo ocular.' },
       ],
@@ -86,7 +90,11 @@ module.exports = {
       ],
       steps: [
         { show: ['fo', 'hal'], note: 'La imagen que confirma el diagnóstico',
-          say: 'El diagnóstico se confirma con oftalmoscopía indirecta y pupila dilatada. Se ve la retina levantada, móvil y de un color pálido o grisáceo, que hace protrusión hacia la cavidad vítrea, con los vasos retinianos que se ven tortuosos y oscuros sobre la zona desprendida.' },
+          say: 'El diagnóstico se confirma con oftalmoscopía indirecta y pupila dilatada. Se ve la retina levantada, móvil y de un color pálido o grisáceo, que hace protrusión hacia la cavidad vítrea, con los vasos retinianos que se ven tortuosos y oscuros sobre la zona desprendida. Mira este fondo de ojo, con la retina levantada, y esta ecografía, donde la retina desprendida es una membrana que flota dentro del ojo.',
+          photos: [
+            { src: 'biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo__cto-oftalmo_p65.jpg', label: 'Fondo de ojo', at: 'Mira este fondo de ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 65' },
+            { src: 'biblioteca/12_oftalmologia/oftal-10/02_ecografia-dr__cto-oftalmo_p66.jpg', label: 'Ecografía', at: 'esta ecografía', credit: 'Manual CTO Oftalmología 14.ª ed., p. 66' },
+          ] },
         { show: ['tra'], note: 'Sin desgarro: es traccional, no regmatógeno',
           say: 'Pero no todo desprendimiento es regmatógeno, y esa es una trampa clásica. El traccional no tiene desgarro: son bandas fibrovasculares que traccionan mecánicamente la retina hacia adelante, y es típico de la retinopatía diabética proliferativa avanzada.' },
         { show: ['exu'], note: 'Sin desgarro ni tracción: piensa en tumor o inflamación',
@@ -124,33 +132,32 @@ module.exports = {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
-      title: 'Lo que ve el paciente',
+      title: 'Lo que pasa en el ojo, y lo que ve el paciente',
       images: [
-        { src: 'animaciones/oftal-10/A1_campo_visual.mp4', label: 'La secuencia', credit: 'Animación propia' },
+        { src: 'animaciones/oftal-10/A1_desprendimiento.mp4', label: 'Desprendimiento de retina', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · capas y rótulos propios' },
       ],
       steps: [
         { note: 'Moscas, destellos, cortina',
-          say: 'Primero aparecen moscas volantes, después destellos de luz, y luego una cortina oscura que avanza desde un borde. Esa secuencia es un desprendimiento de retina: se deriva el mismo día.' },
+          say: 'Esto es lo que pasa en el ojo, y lo que ve el paciente. El vítreo licuado traciona la retina periférica hasta formar un desgarro. Por ese desgarro entra líquido que despega la retina. El paciente primero ve moscas, luego destellos, y después una cortina que avanza desde abajo. Mientras la mácula siga aplicada, hay que operar en veinticuatro a cuarenta y ocho horas; si se desprende, el pronóstico queda reservado.' },
       ],
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Desprendimiento de retina',
-      images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo__cto-oftalmo_p65.jpg', label: 'Fondo de ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 65' },
-        { src: 'biblioteca/12_oftalmologia/oftal-10/02_ecografia-dr__cto-oftalmo_p66.jpg', label: 'Ecografía', credit: 'Manual CTO Oftalmología 14.ª ed., p. 66' },
-        { src: 'biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo_alt1__amir-oftalmo_p13.jpg', label: 'Desgarro en herradura con retina levantada', credit: 'Manual AMIR Oftalmología, p. 13' },
-      ],
-      steps: [
-        { note: 'Retina desprendida',
-          say: 'La retina desprendida se ve gris y ondulada.' },
-        { note: 'Membrana flotante',
-          say: 'Y en la ecografía, una membrana que flota dentro del ojo.' },
-        { note: 'El desgarro',
-          say: 'Aquí se ve el origen: un desgarro periférico por tracción del vítreo. Por ese desgarro pasa el vítreo líquido y despega la retina.' },
+      type: 'table',
+      kicker: 'Diagnóstico diferencial',
+      title: 'Pérdida visual súbita: ¿es un desprendimiento?',
+      head: ['Causa', 'La pista', 'Qué haces'],
+      rows: [
+        { cells: ['Desprendimiento de retina', 'Moscas, destellos y cortina periférica; ojo blanco e indoloro', 'Reposo con cabecera elevada; derivar el mismo día'],
+          say: 'Cerremos comparando el desprendimiento con las otras causas de pérdida visual súbita. A diferencia de la catarata o los vicios de refracción, que son lentos, aquí el cuadro es de horas a días y siempre unilateral. Moscas, destellos y una cortina que avanza desde la periferia, con ojo blanco, indoloro y pupila normal. Si es extenso, puede haber defecto pupilar aferente.' },
+        { cells: ['Oclusión de la arteria central', 'Ceguera casi total en segundos; mancha rojo cereza', 'Urgencia vascular: fuente embólica y arteritis'],
+          say: 'La oclusión de la arteria central da ceguera casi total en segundos, con retina pálida y mancha rojo cereza en la mácula. Es una urgencia vascular: se busca la fuente embólica y se descarta una arteritis de células gigantes.' },
+        { cells: ['Oclusión de la vena central', 'Hemorragias en cuatro cuadrantes y edema de papila', 'Derivar a oftalmología'],
+          say: 'La oclusión de la vena central da hemorragias en los cuatro cuadrantes y edema de papila.' },
+        { cells: ['Hemorragia vítrea', 'Lluvia de puntos oscuros o bruma roja; fondo no visible', 'Sospechar retinopatía diabética proliferativa'],
+          say: 'La hemorragia vítrea da una lluvia de puntos oscuros o una bruma roja, y no se ve el fondo de ojo. Es frecuente en la retinopatía diabética proliferativa.' },
+        { cells: ['Neuritis óptica o glaucoma agudo', 'Dolor al mover el ojo y colores alterados; o dolor, ojo rojo y halos', 'Derivar de urgencia'],
+          say: 'Y completan el diagnóstico diferencial la neuritis óptica, subaguda, con dolor al mover el ojo y alteración de los colores, y el glaucoma agudo, con dolor, ojo rojo y halos. La conducta común: medir agudeza, pupilas y fondo de ojo, reposo con la cabecera elevada y derivar el mismo día. Mientras más precoz, mejor el pronóstico con la mácula aún adherida.' },
       ],
     },
 
@@ -281,6 +288,44 @@ module.exports = {
         options: 'Las opciones: que el desprendimiento esté en los cuadrantes superiores, que la mácula esté desprendida por más de una semana, tener menos de cuarenta años, haber usado lentes de contacto blandos, o haber tenido miodesopsias antes de operarse. Piénsalo.',
         answer: 'Es la B. Esto cierra el tema exactamente donde lo abrimos: lo que decide la visión final no es la ubicación del desprendimiento ni la edad del paciente, es cuánto tiempo estuvo la mácula sin su epitelio pigmentario. Si el desprendimiento foveal dura más de una a dos semanas, los conos de la fóvea se dañan de forma irreversible, y la retina puede quedar anatómicamente perfecta, pero la visión central fina ya no vuelve del todo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.2.004 · Disminución de la visión (lenta vs súbita)",
+      "stem": "Hombre de 70 años, fumador, consulta porque hace 4 días nota en el ojo derecho que las líneas rectas, como los marcos de las puertas, se ven onduladas, y una mancha oscura en el centro de la visión. No tiene dolor ni ojo rojo. Agudeza visual 20/100 en el ojo derecho, que no mejora con agujero estenopeico.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Catarata senil"
+        },
+        {
+          "letter": "B",
+          "text": "Glaucoma crónico"
+        },
+        {
+          "letter": "C",
+          "text": "Degeneración macular relacionada con la edad neovascular"
+        },
+        {
+          "letter": "D",
+          "text": "Vicio de refracción"
+        },
+        {
+          "letter": "E",
+          "text": "Conjuntivitis viral"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Metamorfopsia y escotoma central de instalación en días, en un adulto mayor fumador, sugieren degeneración macular neovascular, o húmeda. Es una pérdida visual subaguda que requiere derivación urgente a oftalmología para terapia antiangiogénica intravítrea. La catarata y el glaucoma crónico producen pérdida lenta y sin metamorfopsia.",
+      "say": {
+        "stem": "Hombre de setenta años, fumador, que hace cuatro días ve con el ojo derecho las líneas rectas onduladas, como los marcos de las puertas, y una mancha oscura en el centro. No tiene dolor ni ojo rojo, y su visión no mejora con el agujero estenopeico.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: catarata senil, glaucoma crónico, degeneración macular neovascular, vicio de refracción o conjuntivitis viral. Piénsalo.",
+        "answer": "Es la C. Líneas onduladas y mancha central de pocos días son la firma de la degeneración macular húmeda, que se deriva con urgencia para tratamiento intravítreo. La catarata tienta por la edad, pero quita la visión en forma lenta, difusa y sin distorsionar las líneas."
+      }
     },
 
     {

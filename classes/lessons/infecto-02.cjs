@@ -53,7 +53,8 @@ module.exports = {
       cards: [
         { title: 'Tríada clásica', tag: 'Sospecha', kind: 'key', items: [
           { t: 'Fiebre, cefalea y rigidez de nuca', d: 'La inflamación irrita las meninges',
-            say: 'Veamos cómo llega el paciente. La tríada clásica es fiebre, cefalea y rigidez de nuca. La rigidez se explica por la inflamación de las meninges: mover el cuello estira una membrana inflamada, y eso duele.' },
+            say: 'Veamos cómo llega el paciente. La tríada clásica es fiebre, cefalea y rigidez de nuca. La rigidez se explica por la inflamación de las meninges: mira cómo el cuello flectado encuentra resistencia, porque mover el cuello estira una membrana inflamada, y eso duele.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-02/02_rigidez_nuca__bates_p906.jpg', label: 'Rigidez de nuca', at: 'mira cómo el cuello', credit: 'Bates 12.ª ed., Fig. 18-72' } },
           { t: 'Completa en menos del 50 %', d: 'No esperes verla entera',
             say: 'Pero ojo: la tríada completa aparece en menos de la mitad de los casos. No esperes tenerla entera para sospechar la enfermedad.' },
           { t: 'Sin ninguno de los 3: casi se descarta', d: 'Su ausencia tiene alto valor',
@@ -61,7 +62,8 @@ module.exports = {
         ] },
         { title: 'Signos meníngeos', tag: 'Al examen', kind: 'criteria', items: [
           { t: 'Kernig y Brudzinski', d: 'Maniobras que estiran las meninges',
-            say: 'Al examen buscas los signos meníngeos, Kernig y Brudzinski, que son maniobras que estiran las meninges inflamadas. Los vas a ver en casi todos los enunciados.' },
+            say: 'Al examen buscas los signos meníngeos, Kernig y Brudzinski, que son maniobras que estiran las meninges inflamadas. Mira el signo de Kernig: con la cadera flectada, extender la rodilla duele y ofrece resistencia. Los vas a ver en casi todos los enunciados.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-02/01_signo_kernig__bates_p795.jpg', label: 'Kernig', at: 'Mira el signo de Kernig', credit: 'Bates 12.ª ed., Fig. 17-62' } },
           { t: 'Fotofobia y vómitos', d: 'Acompañan a la cefalea',
             say: 'Y suele acompañarse de fotofobia y vómitos. Si además hay compromiso de conciencia, piensa que la presión intracraneana ya está subiendo.' },
         ] },
@@ -162,6 +164,57 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Meningococcemia',
+      title: 'Meningococcemia: no se espera la punción',
+      cards: [
+        { title: 'Cómo se presenta', tag: 'Urgencia', kind: 'alert', items: [
+          { t: 'Petequias que se vuelven púrpura', d: 'Fiebre alta brusca, hipotensión, CID',
+            say: 'La meningococcemia es la sepsis por Neisseria meningitidis, con o sin meningitis. Fiebre alta de inicio brusco, mialgias y petequias que en horas se convierten en equimosis y púrpura fulminante; mira esta púrpura extensa que no blanquea. Hay hipotensión y coagulación intravascular.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-02/01_purpura-meningococica__cto-infecto_p38.jpg', label: 'Púrpura meningocócica', at: 'mira esta púrpura extensa', credit: 'Manual CTO Infecciosas 14.ª ed., p. 38' } },
+          { t: 'Waterhouse-Friderichsen', d: 'Hemorragia suprarrenal bilateral y shock',
+            say: 'Si además hay hemorragia suprarrenal bilateral, es el síndrome de Waterhouse-Friderichsen: shock refractario por insuficiencia suprarrenal aguda.' },
+        ] },
+        { title: 'Conducta inmediata', tag: 'Sin esperar la PL', kind: 'pharma', items: [
+          { t: 'Hemocultivos y ceftriaxona 2 g EV', d: 'Volumen, UCI, corticoide si shock refractario',
+            say: 'Ante la sospecha no se espera la punción lumbar: hemocultivos, ceftriaxona dos gramos endovenosa de inmediato, volumen, y UCI. Corticoide si el shock es refractario.' },
+          { t: 'Gotitas, notificación y profilaxis', d: 'Aislamiento hasta 24 h de tratamiento',
+            say: 'Se aísla por gotitas hasta las veinticuatro horas de tratamiento, se notifica de inmediato y se da quimioprofilaxis a los contactos íntimos.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Punción lumbar',
+      title: 'Punción lumbar: técnica y cultivo',
+      cards: [
+        { title: 'Antes de pinchar', tag: 'Contraindicaciones', kind: 'alert', items: [
+          { t: 'Descartar efecto de masa', d: 'Plaquetas bajo 50.000 o INR sobre 1,5',
+            say: 'Antes de la punción lumbar descartas efecto de masa, infección en la piel del sitio y coagulopatía: plaquetas bajo cincuenta mil o INR sobre uno coma cinco.' },
+        ] },
+        { title: 'Técnica', tag: 'Línea de Tuffier', kind: 'key', items: [
+          { t: 'L3–L4 en decúbito lateral', d: 'Línea que une las crestas ilíacas',
+            say: 'Paciente de lado en posición fetal. El espacio entre ele tres y ele cuatro se ubica con la línea que une ambas crestas ilíacas, la línea de Tuffier.' },
+          { t: 'Presión de apertura y 4 tubos', d: 'Normal 10–20 cmH₂O · glicemia simultánea',
+            say: 'Con asepsia y anestesia local, entras con el bisel paralelo a las fibras de la duramadre. Mides la presión de apertura, normal de diez a veinte, y recoges cuatro tubos, más una glicemia simultánea.' },
+          { t: 'Cefalea postpunción', d: 'Reposo, hidratación; parche hemático',
+            say: 'La complicación más frecuente es la cefalea postpunción. Se trata con reposo, hidratación y cafeína; si persiste, parche hemático.' },
+        ] },
+        { title: 'Cultivo del LCR', tag: 'No refrigerar', kind: 'criteria', items: [
+          { t: 'Procesar de inmediato, a temperatura ambiente', d: 'Meningococo y Haemophilus mueren con el frío',
+            say: 'El líquido se procesa de inmediato y a temperatura ambiente. No se refrigera, porque el meningococo y el Haemophilus son lábiles al frío.' },
+          { t: 'Agar sangre y chocolate', d: 'Gram directo orienta en minutos',
+            say: 'Se siembra en agar sangre y agar chocolate. El Gram directo orienta en minutos; mira este Gram del líquido, con neutrófilos y cocos entre ellos. Diplococos grampositivos lanceolados son neumococo; diplococos gramnegativos, meningococo.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-02/03_gram-lcr-diplococos__commons.jpg', label: 'Gram del LCR', at: 'mira este Gram', credit: 'Wikimedia Commons, CC BY-SA 4.0' } },
+          { t: 'Tinta china', d: 'Levaduras encapsuladas: criptococo',
+            say: 'En un paciente inmunodeprimido, otra tinción útil es la tinta china. Mira estas levaduras con una cápsula clara alrededor: es el criptococo.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-02/02_tinta-china-criptococo__cto-infecto_p142.jpg', label: 'Criptococo con tinta china', at: 'Mira estas levaduras', credit: 'Manual CTO Infecciosas 14.ª ed., p. 142' } },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -172,39 +225,6 @@ module.exports = {
       steps: [
         { note: 'La glucosa desempata',
           say: 'El neumococo y el meningococo inflaman las meninges. En el líquido, la bacteriana tiene polimorfonucleares, glucosa bajo cero coma cuatro de la sanguínea, y proteínas sobre cien. La viral tiene mononucleares y glucosa normal. Y mononucleares con glucosa muy baja, bajo cero coma tres, hacen pensar en tuberculosis.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Meningitis',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-02/01_purpura-meningococica__cto-infecto_p38.jpg', label: 'Púrpura meningocócica', credit: 'Manual CTO Infecciosas 14.ª ed., p. 38' },
-        { src: 'biblioteca/07_infectologia/infecto-02/01_signo_kernig__bates_p795.jpg', label: 'Kernig', credit: 'Bates 12.ª ed., Fig. 17-62' },
-        { src: 'biblioteca/07_infectologia/infecto-02/02_rigidez_nuca__bates_p906.jpg', label: 'Rigidez de nuca', credit: 'Bates 12.ª ed., Fig. 18-72' },
-      ],
-      steps: [
-        { note: 'Lesiones que no blanquean',
-          say: 'Esta púrpura extensa es de la meningococcemia. Con este cuadro, el antibiótico va de inmediato, sin esperar nada.' },
-        { note: 'Dolor al extender la rodilla',
-          say: 'El signo de Kernig: con la cadera flectada, extender la rodilla produce dolor y resistencia.' },
-        { note: 'Resistencia a flectar el cuello',
-          say: 'Y la rigidez de nuca: al flectar el cuello hay resistencia. Si las rodillas se flectan solas, es el signo de Brudzinski.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-02/02_tinta-china-criptococo__cto-infecto_p142.jpg', label: 'Criptococo con tinta china', credit: 'Manual CTO Infecciosas 14.ª ed., p. 142' },
-      ],
-      steps: [
-        { note: 'Criptococo con tinta china',
-          say: 'Tinción con tinta china: levaduras con una cápsula clara alrededor. Es el criptococo.' },
       ],
     },
 
@@ -345,6 +365,269 @@ module.exports = {
         options: 'Las opciones son: ceftriaxona con vancomicina endovenosa, ciprofloxacino, doxiciclina oral, azitromicina oral, o amoxicilina oral. Piénsalo.',
         answer: 'Es la A, ceftriaxona más vancomicina. Tiene diez años, está dentro del rango de tres meses a cincuenta años, así que no necesita ampicilina. Cualquier alternativa oral queda fuera de inmediato: una meningitis bacteriana se trata siempre por vía endovenosa y hospitalizada.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.4.006 · Estudio citoquímico de LCR",
+      "stem": "Hombre de 30 años con 5 días de cefalea, fiebre de 38 °C y rigidez de nuca, sin compromiso de conciencia ni focalidad. LCR: claro, 180 células/mm³ con 90 % de linfocitos, proteínas 0,7 g/L, glucosa 60 mg/dL con glicemia de 100 mg/dL, y Gram sin bacterias.",
+      "question": "¿Cuál es el agente etiológico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enterovirus"
+        },
+        {
+          "letter": "B",
+          "text": "Streptococcus pneumoniae"
+        },
+        {
+          "letter": "C",
+          "text": "Mycobacterium tuberculosis"
+        },
+        {
+          "letter": "D",
+          "text": "Listeria monocytogenes"
+        },
+        {
+          "letter": "E",
+          "text": "Neisseria meningitidis"
+        }
+      ],
+      "correct": "A",
+      "explanation": "LCR claro con pleocitosis linfocitaria moderada, proteínas levemente elevadas y glucosa normal (índice LCR/plasma 0,6) es un patrón de meningitis viral, y el agente más frecuente es enterovirus. La bacteriana da neutrófilos y glucosa baja; la tuberculosa, linfocitos con glucosa muy baja y proteínas muy altas.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de treinta años con cinco días de cefalea, fiebre y rigidez de nuca, lúcido y sin focalidad. El líquido es claro, con ciento ochenta células, casi todas linfocitos, proteínas apenas elevadas y glucosa normal, y el Gram no muestra bacterias.",
+        "question": "¿Cuál es el agente etiológico más probable?",
+        "options": "Las opciones: enterovirus, neumococo, Mycobacterium tuberculosis, Listeria o meningococo. Piénsalo.",
+        "answer": "Es la A. Linfocitos con glucosa normal y proteínas casi normales es el patrón viral, y el virus más frecuente es el enterovirus. La tuberculosis es el distractor: también da linfocitos, pero con la glucosa muy baja y las proteínas muy altas."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.5.002 · Punción lumbar",
+      "stem": "Mujer de 70 años con fiebre de 39 °C, cefalea y rigidez de nuca, que además presenta una crisis convulsiva y hemiparesia derecha. Glasgow 12.",
+      "question": "Respecto de la punción lumbar, ¿cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Punción lumbar inmediata y antibióticos según el Gram"
+        },
+        {
+          "letter": "B",
+          "text": "Hemocultivos, dexametasona y antibióticos empíricos, y luego TAC de cerebro antes de la punción lumbar"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de cerebro y esperar su resultado para iniciar antibióticos"
+        },
+        {
+          "letter": "D",
+          "text": "Contraindicar definitivamente la punción lumbar"
+        },
+        {
+          "letter": "E",
+          "text": "Punción lumbar con la paciente sentada, sin imágenes previas"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Focalidad neurológica, convulsiones, compromiso de conciencia, inmunosupresión o papiledema obligan a TAC antes de la punción por riesgo de herniación. Pero el antibiótico no se retrasa: hemocultivos, dexametasona y antibióticos empíricos primero; luego TAC y, si no hay efecto de masa, punción lumbar.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Mujer de setenta años con fiebre, cefalea y rigidez de nuca, que además convulsionó y tiene una hemiparesia derecha. Su Glasgow es doce.",
+        "question": "Respecto de la punción lumbar, ¿cuál es la conducta más adecuada?",
+        "options": "Las opciones: punción inmediata, hemocultivos con dexametasona y antibióticos y luego tomografía antes de puncionar, tomografía y esperar para dar antibióticos, no puncionar nunca, o puncionar sentada sin imágenes. Piénsalo.",
+        "answer": "Es la B. La focalidad y la convulsión obligan a una tomografía antes de puncionar, por riesgo de herniación, pero el antibiótico va primero. La C es la trampa: esperar la tomografía para dar el antibiótico retrasa el tratamiento y aumenta la mortalidad."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 80",
+      "stem": "Escolar de 10 años con fiebre alta, rigidez de nuca, fotofobia y petequias en la piel. Se sospecha meningitis bacteriana.",
+      "question": "¿Cuál es el esquema antibiótico empírico de elección?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ceftriaxona + vancomicina EV"
+        },
+        {
+          "letter": "B",
+          "text": "Ciprofloxacino EV"
+        },
+        {
+          "letter": "C",
+          "text": "Doxiciclina oral"
+        },
+        {
+          "letter": "D",
+          "text": "Azitromicina oral"
+        },
+        {
+          "letter": "E",
+          "text": "Amoxicilina oral"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Sobre los 3 meses, los agentes de meningitis bacteriana son S. pneumoniae y N. meningitidis. El esquema empírico es cefalosporina de tercera generación (ceftriaxona o cefotaxima) más vancomicina por la posibilidad de neumococo resistente, idealmente con dexametasona antes o junto con la primera dosis. Las petequias orientan a meningococo, cubierto por la ceftriaxona.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Un escolar de diez años tiene fiebre alta, rigidez de nuca, fotofobia y petequias, con sospecha de meningitis bacteriana.",
+        "question": "¿Cuál es el esquema antibiótico empírico de elección?",
+        "options": "Las opciones: ceftriaxona más vancomicina, ciprofloxacino, doxiciclina, azitromicina o amoxicilina. Piénsalo.",
+        "answer": "Es la A. Sobre los tres meses la meningitis bacteriana se trata empíricamente con ceftriaxona más vancomicina, por el neumococo resistente. El ciprofloxacino tienta porque se usa en meningococo, pero solo como profilaxis de contactos, no como tratamiento."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.2.016 · Meningococcemia",
+      "stem": "Una niña de 4 años presenta fiebre de 39,5 °C de 8 horas de evolución, decaimiento y lesiones purpúricas que no blanquean a la presión, que se extienden rápidamente en tronco y extremidades. Al examen tiene FC 160/min, llene capilar de 4 segundos y extremidades frías.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Realizar punción lumbar antes de iniciar antibióticos"
+        },
+        {
+          "letter": "B",
+          "text": "Administrar ceftriaxona endovenosa de inmediato y reanimar con fluidos"
+        },
+        {
+          "letter": "C",
+          "text": "Esperar el resultado del hemograma y la PCR"
+        },
+        {
+          "letter": "D",
+          "text": "Indicar amoxicilina oral y control en 24 horas"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar TAC de cerebro antes de cualquier tratamiento"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Fiebre con púrpura que progresa rápidamente y signos de shock es meningococcemia (enfermedad meningocócica invasora) hasta demostrar lo contrario, con alta mortalidad en horas. Se inicia ceftriaxona endovenosa (o intraósea) de inmediato, sin esperar exámenes ni punción lumbar, junto con reanimación con fluidos. Es de notificación inmediata y requiere quimioprofilaxis de contactos cercanos.",
+      "say": {
+        "stem": "Una niña de cuatro años tiene ocho horas de fiebre alta y púrpura que se extiende rápidamente, con taquicardia y mala perfusión.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: punción lumbar antes, ceftriaxona endovenosa inmediata con fluidos, esperar exámenes, amoxicilina oral o TAC antes de tratar. Piénsalo.",
+        "answer": "Es la B. Es una meningococcemia con shock, y la ceftriaxona endovenosa inmediata con reanimación salva vidas. La punción lumbar tienta para confirmar, pero en un niño inestable retrasa el antibiótico y no debe hacerse."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.5.003 · Sembrar muestras para cultivo",
+      "stem": "Se realiza una punción lumbar a las 3 de la madrugada a un paciente de 25 años con sospecha de meningitis bacteriana. El laboratorio de microbiología procesará la muestra en 2 horas.",
+      "question": "¿Cuál es el manejo más adecuado de la muestra de LCR para cultivo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantenerla a temperatura ambiente (o en estufa a 35-37 °C) y enviarla lo antes posible"
+        },
+        {
+          "letter": "B",
+          "text": "Refrigerarla a 4 °C hasta su procesamiento"
+        },
+        {
+          "letter": "C",
+          "text": "Congelarla"
+        },
+        {
+          "letter": "D",
+          "text": "Agregarle suero fisiológico para conservarla"
+        },
+        {
+          "letter": "E",
+          "text": "Sembrarla al día siguiente"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El LCR para cultivo no se refrigera, porque N. meningitidis y H. influenzae son lábiles al frío. Se envía de inmediato a temperatura ambiente o se mantiene en estufa a 35-37 °C. En cambio, la orina para urocultivo sí se refrigera si no se siembra dentro de 2 horas, para evitar la multiplicación bacteriana.",
+      "say": {
+        "stem": "A un joven de veinticinco años con sospecha de meningitis bacteriana se le hace una punción lumbar de madrugada, y el laboratorio procesará la muestra en dos horas.",
+        "question": "¿Cómo se maneja correctamente el líquido cefalorraquídeo para cultivo?",
+        "options": "Las opciones: mantenerlo a temperatura ambiente o en estufa y enviarlo pronto, refrigerarlo, congelarlo, diluirlo con suero o sembrarlo al día siguiente. Piénsalo.",
+        "answer": "Es la A. El meningococo y el Haemophilus son sensibles al frío, así que el líquido cefalorraquídeo no se refrigera. Refrigerar tienta porque así se hace con la orina, pero aquí mata a los gérmenes buscados."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.5.006 · Punción lumbar",
+      "stem": "Hombre de 45 años con fiebre, cefalea y rigidez de nuca de 12 horas. Al examen presenta paresia braquiocrural izquierda y papiledema. Glasgow 14.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Punción lumbar inmediata y luego antibióticos según el Gram"
+        },
+        {
+          "letter": "B",
+          "text": "Hemocultivos, dexametasona y antibióticos empíricos inmediatos, y luego TAC de cerebro antes de la punción lumbar"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de cerebro y esperar el resultado para iniciar antibióticos"
+        },
+        {
+          "letter": "D",
+          "text": "Resonancia magnética y punción lumbar al día siguiente"
+        },
+        {
+          "letter": "E",
+          "text": "Punción lumbar sin TAC porque el Glasgow es mayor de 13"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Ante déficit focal, papiledema, convulsiones, inmunosupresión o compromiso de conciencia se hace TAC antes de la punción lumbar por riesgo de herniación. Pero los antibióticos y la dexametasona no deben retrasarse: se toman hemocultivos y se inicia tratamiento empírico antes del TAC, porque retrasar el antibiótico aumenta la mortalidad.",
+      "say": {
+        "stem": "Hombre de cuarenta y cinco años con fiebre, rigidez de nuca, paresia izquierda y papiledema.",
+        "question": "¿Qué haces?",
+        "options": "Las opciones: punción lumbar inmediata, hemocultivos con dexametasona y antibióticos y luego TAC antes de la punción, TAC y esperar para el antibiótico, resonancia y punción al día siguiente, o punción sin TAC. Piénsalo.",
+        "answer": "Es la B. Hemocultivos, dexametasona y antibióticos de inmediato, y luego TAC antes de puncionar por el déficit focal. Esperar la TAC para dar antibióticos es el error más peligroso."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.2.016 · Síndromes meníngeos con meningitis purulenta o bacteriana",
+      "stem": "Hombre de 68 años, diabético, presenta fiebre de 39 °C, cefalea intensa, rigidez de nuca y somnolencia de 12 horas, sin déficit focal. Punción lumbar: líquido turbio, 2.800 leucocitos/mm3 con 90% polimorfonucleares, proteínas 210 mg/dL y glucosa 15 mg/dL (glicemia 160 mg/dL).",
+      "question": "¿Cuál es el tratamiento empírico más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ceftriaxona sola"
+        },
+        {
+          "letter": "B",
+          "text": "Penicilina sódica sola"
+        },
+        {
+          "letter": "C",
+          "text": "Aciclovir endovenoso"
+        },
+        {
+          "letter": "D",
+          "text": "Ceftriaxona más ampicilina, junto con dexametasona"
+        },
+        {
+          "letter": "E",
+          "text": "Ciprofloxacino oral"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Un LCR con pleocitosis neutrofílica, proteínas altas y glucosa muy baja confirma una meningitis bacteriana. En mayores de 50 años, embarazadas o inmunosuprimidos se agrega ampicilina a la ceftriaxona para cubrir Listeria, junto con dexametasona antes o con la primera dosis; vancomicina se suma según la resistencia local del neumococo. El aciclovir corresponde a encefalitis herpética.",
+      "say": {
+        "stem": "Hombre de sesenta y ocho años, diabético, con meningitis bacteriana: líquido turbio, muchos neutrófilos y glucosa muy baja.",
+        "question": "¿Qué tratamiento empírico indicas?",
+        "options": "Las opciones: solo ceftriaxona, solo penicilina, aciclovir, ceftriaxona con ampicilina y dexametasona o ciprofloxacino oral. Piénsalo.",
+        "answer": "Es la D. Ceftriaxona más ampicilina y dexametasona, porque sobre los cincuenta años hay que cubrir Listeria. La ceftriaxona sola es la trampa, porque no cubre Listeria."
+      }
     },
 
     {

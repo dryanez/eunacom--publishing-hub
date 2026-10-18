@@ -35,7 +35,8 @@ module.exports = {
         { show: ['hg', 'hf'], note: 'El daño parte por un glomérulo que trabaja de más',
           say: 'Partamos por el mecanismo, porque explica el tratamiento. La hiperglicemia crónica hace que el glomérulo filtre de más: la hiperfiltración glomerular. Y filtrar de más significa trabajar con una presión intraglomerular alta.' },
         { show: ['mb', 'kw'], note: 'La presión alta deforma el glomérulo',
-          say: 'Esa presión, sostenida por años, engruesa la membrana basal, hace crecer el mesangio, y termina en la lesión clásica de la anatomía patológica: la glomeruloesclerosis nodular de Kimmelstiel-Wilson.' },
+          say: 'Esa presión, sostenida por años, engruesa la membrana basal, hace crecer el mesangio, y termina en la lesión clásica de la anatomía patológica: la glomeruloesclerosis nodular de Kimmelstiel-Wilson. Mira este esquema: nódulos de matriz dentro del mesangio, que ocupan el ovillo glomerular.',
+          photo: { src: 'biblioteca/04_diabetes/diab-20/01_glomeruloesclerosis_nodular_esquema__goljan_p1050.jpg', label: 'Glomeruloesclerosis nodular', at: 'Mira este esquema', credit: 'Goljan, Rapid Review Pathology, Link 20-48' } },
         { show: ['alb'], note: 'La albúmina es lo primero que se escapa',
           say: 'Mucho antes de que suba la creatinina, un glomérulo sometido a presión deja escapar albúmina a la orina. Esa albuminuria es el primer signo que podemos detectar, y por eso es lo que se busca en el tamizaje.' },
         { show: ['erc'], note: 'Sin intervención, avanza a diálisis',
@@ -225,6 +226,82 @@ module.exports = {
         options: 'Las opciones son: metformina, glibenclamida, vildagliptina, dapagliflozina o semaglutida. Piénsalo.',
         answer: 'La respuesta del examen es la E, semaglutida. Descarta por la función renal: con un clearance de doce, la metformina y la glibenclamida están contraindicadas. La D es el distractor más tentador, porque acabamos de decir que los inhibidores de SGLT dos protegen el riñón. Pero necesitan una filtración sobre veinte a veinticinco para indicarse, y esta paciente está muy por debajo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.004 · Relación albuminuria / creatininuria",
+      "stem": "Mujer de 61 años con DM2 de 9 años de evolución, PA 126/78 mmHg, sin albuminuria en controles previos. En su control anual se solicita razón albúmina/creatinina urinaria (RAC) en orina matinal: 140 mg/g. Ese día refiere disuria, polaquiuria y fiebre de 38,2 °C desde hace 2 días; el sedimento urinario muestra abundantes leucocitos y bacterias.",
+      "question": "¿Cuál es la conducta más adecuada respecto a la RAC?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar losartán por albuminuria moderadamente elevada"
+        },
+        {
+          "letter": "B",
+          "text": "Derivar a nefrología por nefropatía diabética"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar orina de 24 horas para proteinuria"
+        },
+        {
+          "letter": "D",
+          "text": "Tratar la infección urinaria y repetir la RAC una vez resuelta"
+        },
+        {
+          "letter": "E",
+          "text": "Suspender la metformina por daño renal"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La RAC en orina matinal aislada es el examen de tamizaje de la nefropatía diabética, pero se eleva transitoriamente con infección urinaria, fiebre, ejercicio intenso, hiperglicemia marcada o insuficiencia cardíaca descompensada. Se trata la infección y se repite la RAC; solo 2 de 3 muestras alteradas confirman albuminuria.",
+      "say": {
+        "stem": "Mujer de sesenta y un años, diabética, con una razón albúmina creatinina de ciento cuarenta. Ese mismo día tiene disuria, fiebre de treinta y ocho y un sedimento con leucocitos y bacterias.",
+        "question": "¿Cuál es la conducta más adecuada respecto a la razón albúmina creatinina?",
+        "options": "Las opciones: iniciar losartán, derivar a nefrología, orina de veinticuatro horas, tratar la infección y repetir el examen o suspender la metformina. Piénsalo.",
+        "answer": "Es la D. La infección urinaria y la fiebre elevan la albuminuria en forma transitoria, así que este valor no es interpretable; se trata la infección y se repite. Iniciar losartán tienta por el valor de ciento cuarenta, pero la albuminuria aún no está confirmada."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.019 · Microalbuminuria",
+      "stem": "Una mujer de 55 años con DM2 de 6 años, sin síntomas urinarios ni ejercicio intenso reciente, tiene en su control una relación albúmina/creatinina urinaria (RAC) de 85 mg/g, con VFG estimada de 80 mL/min/1,73 m². Es la primera vez que resulta alterada.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diagnosticar nefropatía diabética e iniciar diálisis"
+        },
+        {
+          "letter": "B",
+          "text": "Confirmar repitiendo la RAC: se requieren 2 de 3 muestras alteradas en 3 a 6 meses"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar biopsia renal"
+        },
+        {
+          "letter": "D",
+          "text": "Descartar el hallazgo porque la VFG es normal"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar solo una ecografía renal"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Una RAC de 30 a 300 mg/g es albuminuria moderadamente elevada (antes 'microalbuminuria'), marcador precoz de nefropatía diabética y de riesgo cardiovascular. Por su variabilidad (ejercicio, fiebre, ITU, descompensación) se confirma con 2 de 3 muestras alteradas en 3 a 6 meses. Confirmada, se indica IECA o ARA II y se considera iSGLT2.",
+      "say": {
+        "stem": "Una mujer diabética de cincuenta y cinco años tiene por primera vez una relación albúmina creatinina urinaria de ochenta y cinco, con filtración glomerular normal.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: diagnosticar nefropatía e iniciar diálisis, confirmar con dos de tres muestras alteradas en tres a seis meses, biopsia renal, descartar porque la filtración es normal, o solo ecografía renal. Piénsalo.",
+        "answer": "Es la B. La albuminuria varía mucho, así que se confirma con dos de tres muestras alteradas antes de rotular nefropatía. Descartarla tienta porque la filtración es normal, pero la albuminuria es justamente el marcador más precoz."
+      }
     },
 
     {

@@ -46,11 +46,13 @@ module.exports = {
           { t: "Sinusitis crónica y epistaxis recurrente", d: "Rinosinusitis purulenta rebelde a antibióticos comunes",
             say: "La granulomatosis con poliangeítis compromete la vía respiratoria alta en más del noventa por ciento de los pacientes. Debutan con rinosinusitis purulenta o sanguinolenta crónica rebelde a antibióticos, costras nasales fétidas, otitis media recurrente y dolorosas úlceras orales." },
           { t: "Nariz en silla de montar", d: "Destrucción osteocartilaginosa del tabique nasal",
-            say: "La inflamación granulomatosa necrotizante erosiona y perfora progresivamente el cartílago del tabique nasal, produciendo el colapso del puente óseo de la nariz con la clásica deformidad cosmética y funcional en nariz en silla de montar." },
+            say: "La inflamación granulomatosa necrotizante erosiona y perfora progresivamente el cartílago del tabique nasal, produciendo el colapso del puente óseo de la nariz con la clásica deformidad cosmética y funcional en nariz en silla de montar. Mira este perfil: el dorso de la nariz hundido.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-22/01_nariz_silla_montar__commons.jpg', label: 'Nariz en silla de montar', at: 'Mira este perfil', credit: 'Wikimedia Commons «Saddle nose 38.jpg», CC BY-SA 4.0' } },
         ] },
         { title: "Pulmón y nódulos cavitados bilaterales", tag: "Marcador serológico c-ANCA / anti-PR3", kind: "alert", items: [
           { t: "Nódulos pulmonares múltiples cavitados", d: "Infiltrados radiológicos con cavitaciones de pared gruesa",
-            say: "En el parénquima pulmonar produce nódulos bilaterales que se cavitan típicamente en su interior, semejando cavernas tuberculosas, acompañados de hemoptisis, tos persistente y disnea de esfuerzo progresiva por necrosis tisular." },
+            say: "En el parénquima pulmonar produce nódulos bilaterales que se cavitan típicamente en su interior, semejando cavernas tuberculosas, acompañados de hemoptisis, tos persistente y disnea de esfuerzo progresiva por necrosis tisular. Mira este corte de tomografía: la cavidad con pared gruesa en un pulmón.",
+          photo: { src: '_verificadas/228_reuma_Vasculitis_de_pequeño_vaso__BrantHelms_p528.jpg', label: 'GPA: nódulos cavitados', at: 'Mira este corte', credit: 'Brant and Helms, Fundamentals of Diagnostic Radiology, p. 528' } },
           { t: "Asociación extrema con c-ANCA anti-PR3", d: "Sensibilidad y especificidad superiores al noventa por ciento",
             say: "El marcador de laboratorio cardinal es el patrón c-ANCA citoplasmático por inmunofluorescencia indirecta, dirigido específicamente contra la enzima proteinasa tres en los gránulos de neutrófilos, con positividad en el noventa por ciento de los casos activos." },
         ] },
@@ -113,7 +115,8 @@ module.exports = {
       ],
       steps: [
         { show: ["ins", "pul", "ren"], note: "La catástrofe del síndrome riñón-pulmón",
-          say: "El síndrome riñón-pulmón se manifiesta con disnea aguda, hemoptisis súbita, caída brusca del hematocrito e infiltrados alveolares algodonosos bilaterales en la tomografía, combinado con falla renal aguda oligoanúrica con sedimento de orina activo lleno de hematíes dismórficos y cilindros hemáticos." },
+          say: "El síndrome riñón-pulmón se manifiesta con disnea aguda, hemoptisis súbita, caída brusca del hematocrito e infiltrados alveolares algodonosos bilaterales en la tomografía, combinado con falla renal aguda oligoanúrica con sedimento de orina activo lleno de hematíes dismórficos y cilindros hemáticos. Mira esta radiografía: el pulmón velado, con infiltrados algodonosos en ambos lados.",
+          photo: { src: '_verificadas/229_reuma_Vasculitis_de_pequeño_vaso__BrantHelms_p445.jpg', label: 'Hemorragia alveolar', at: 'Mira esta radiografía', credit: 'Brant and Helms, Fundamentals of Diagnostic Radiology, p. 445' } },
         { show: ["res"], note: "Manejo urgente en unidad de pacientes críticos",
           say: "Constituye una emergencia extrema de riesgo vital inmediato por asfixia y uremia aguda. Requiere ingreso prioritario a cuidados intensivos para soporte ventilatorio protector, corrección dialítica urgente y comienzo inmediato del esquema de inducción inmunosupresora agresiva." },
       ],
@@ -191,7 +194,8 @@ module.exports = {
       cards: [
         { title: "Púrpura palpable no trombocitopénico", tag: "Plaquetas estrictamente normales", kind: "alert", items: [
           { t: "Erupción purpúrica sobreelevada palpable", d: "Localizada en extremidades inferiores y nalgas",
-            say: "El púrpura de Henoch-Schönlein debuta con lesiones purpúricas eritematovioláceas sobreelevadas palpables que no desaparecen a la vitropresión, distribuidas simétricamente en piernas y nalgas tras un cuadro respiratorio infeccioso previo." },
+            say: "El púrpura de Henoch-Schönlein debuta con lesiones purpúricas eritematovioláceas sobreelevadas palpables que no desaparecen a la vitropresión, distribuidas simétricamente en piernas y nalgas tras un cuadro respiratorio infeccioso previo. Mira esta pierna: las manchas rojas, sobreelevadas, sin desaparecer al presionar.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-22/01_purpura-palpable__amir-reuma_p38.jpg', label: 'Púrpura palpable', at: 'Mira esta pierna', credit: 'Manual AMIR Reumatología, p. 38' } },
           { t: "Recuento plaquetario rigurosamente normal", d: "Diferenciación crucial con PTI y meningococcemia",
             say: "La regla de oro de laboratorio es que el recuento de plaquetas es rigurosamente normal o incluso elevado. Si las plaquetas están bajas no es Henoch-Schönlein, orientando hacia púrpura trombocitopénico inmune o coagulopatía." },
         ] },
@@ -223,6 +227,75 @@ module.exports = {
     },
 
     {
+      type: "points",
+      kicker: "Vasculitis de vaso mediano",
+      title: "Enfermedad de Kawasaki: sospechar y tratar",
+      cards: [
+        { title: "Quién y cómo se diagnostica", tag: "Menor de 5 años", kind: "key", items: [
+          { t: "Fiebre de 5 o más días", d: "Más 4 de 5 criterios clásicos",
+            say: "El Kawasaki es una vasculitis de vaso mediano que afecta sobre todo a lactantes y preescolares, niños menores de cinco años. El diagnóstico clásico exige fiebre de cinco o más días más al menos cuatro de cinco criterios." },
+          { t: "Ojos, boca, piel, manos y cuello", d: "Conjuntivitis, lengua en frutilla, exantema, edema, adenopatía",
+            say: "Primero, inyección conjuntival bilateral no exudativa. Mira este ojo: enrojecido, sin secreción. Segundo, cambios orales: labios rojos y fisurados, y lengua en frutilla. Mira esta lengua: roja, con las papilas prominentes. Tercero, exantema polimorfo. Cuarto, edema y eritema de manos y pies, con descamación alrededor de las uñas más tarde. Y quinto, adenopatía cervical de más de uno coma cinco centímetros, habitualmente de un solo lado.",
+            photos: [
+              { src: "biblioteca/08_reumatologia/reuma-22/11_kawasaki-conjuntivitis__nelson_p1968.jpg", label: "Conjuntivitis bilateral", at: "Mira este ojo", credit: "Nelson Textbook of Pediatrics, 22.ª ed., p. 1968" },
+              { src: "biblioteca/08_reumatologia/reuma-22/10_kawasaki-lengua-frutilla__nelson_p1967.jpg", label: "Lengua en frutilla", at: "Mira esta lengua", credit: "Nelson Textbook of Pediatrics, 22.ª ed., p. 1967" },
+            ] },
+        ] },
+        { title: "Laboratorio y complicación", tag: "El corazón", kind: "alert", items: [
+          { t: "VHS y PCR altas, piuria estéril, plaquetas altas", d: "Trombocitosis en la 2.ª a 3.ª semana",
+            say: "Hay formas incompletas, sobre todo en lactantes. El laboratorio muestra velocidad de sedimentación y proteína C reactiva elevadas, anemia, leucocitosis, piuria estéril y trombocitosis en la segunda a tercera semana." },
+          { t: "Aneurismas coronarios", d: "Hasta 25% sin tratamiento, menos de 5% con él",
+            say: "La complicación son los aneurismas coronarios: hasta el veinticinco por ciento sin tratamiento y menos del cinco por ciento con tratamiento oportuno. Por eso se pide un ecocardiograma al diagnóstico y a las dos y seis semanas." },
+        ] },
+        { title: "Tratamiento inicial", tag: "Idealmente en los primeros 10 días", kind: "pharma", items: [
+          { t: "Inmunoglobulina EV 2 g/kg, dosis única", d: "Más ácido acetilsalicílico",
+            say: "El tratamiento, idealmente en los primeros diez días de fiebre, es inmunoglobulina endovenosa dos gramos por kilo en dosis única, más ácido acetilsalicílico: dosis antiinflamatoria al inicio y luego tres a cinco miligramos por kilo al día hasta normalizar las plaquetas y descartar aneurismas." },
+          { t: "Sigue la fiebre: repetir o corticoides", d: "Diferir vacunas vivas unos 11 meses; evitar ibuprofeno",
+            say: "Si persiste la fiebre, se repite la inmunoglobulina o se agregan corticoides. Tras la inmunoglobulina se difieren las vacunas de virus vivos, sarampión y varicela, unos once meses, y se evita el ibuprofeno en quienes reciben ácido acetilsalicílico. Se deriva de inmediato a un centro pediátrico con cardiología." },
+        ] },
+      ],
+    },
+
+    {
+      type: "points",
+      kicker: "Vasculitis cutáneas",
+      title: "Vasculitis cutánea leucocitoclástica",
+      cards: [
+        { title: "Cómo se presenta", tag: "Púrpura palpable", kind: "key", items: [
+          { t: "Púrpura palpable en piernas y zonas declives", d: "A veces vesículas, úlceras o livedo",
+            say: "Las vasculitis cutáneas se manifiestan por púrpura palpable en las piernas y las zonas declives, a veces con vesículas, úlceras o livedo. Mira estas lesiones: manchas rojo oscuro, elevadas, que no se borran al presionar.",
+            photo: { src: "biblioteca/08_reumatologia/reuma-22/01_purpura-palpable_alt1__cto-derma_p8.jpg", label: "Púrpura palpable", at: "Mira estas lesiones", credit: "Manual CTO Dermatología, p. 8" } },
+          { t: "Neutrófilos fragmentados y necrosis fibrinoide", d: "En las vénulas",
+            say: "En la histología hay infiltración de neutrófilos con fragmentación nuclear, la leucocitoclasia, y necrosis fibrinoide de las vénulas." },
+        ] },
+        { title: "Causas", tag: "Un tercio es idiopático", kind: "criteria", items: [
+          { t: "Fármacos, 7 a 10 días después", d: "Penicilinas, sulfas, AINEs",
+            say: "Las causas son fármacos, como penicilinas, sulfas y antiinflamatorios, que aparece siete a diez días después de iniciarlos, infecciones como estreptococo, hepatitis B y C y VIH, enfermedades autoinmunes, crioglobulinemia, vasculitis ANCA y neoplasias. Un tercio es idiopático." },
+        ] },
+        { title: "Enfoque", tag: "Biopsia y descartar órgano", kind: "alert", items: [
+          { t: "Biopsia con inmunofluorescencia directa", d: "De una lesión de menos de 48 horas",
+            say: "Se confirma con biopsia cutánea con inmunofluorescencia directa, idealmente de una lesión de menos de cuarenta y ocho horas, y se descarta compromiso sistémico con hemograma, creatinina, orina completa, ANCA, factor reumatoide, anticuerpos antinucleares, complemento, crioglobulinas y serologías de hepatitis B y C." },
+          { t: "Suspender causa; esteroides solo si es grave", d: "Reposo con piernas elevadas; AINEs o colchicina en leves",
+            say: "El tratamiento es suspender el fármaco o tratar la infección, reposo con elevación de las piernas y antiinflamatorios o colchicina en las formas leves. Los corticoides sistémicos se reservan para las formas graves, ulceradas o con compromiso sistémico. Se deriva a dermatología o reumatología si hay compromiso orgánico o evolución crónica." },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'ANCA frente a IgA',
+      images: [
+        { src: 'animaciones/reuma-22/A1_anca_iga.mp4', label: 'Dos mecanismos en el vaso pequeño', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Vaso pequeño',
+          say: 'Compara los dos mecanismos. Arriba, el anticuerpo ANCA activa al neutrófilo y daña la pared: capilaritis necrotizante, pauciinmune, con sangrado, hemorragia alveolar y glomerulonefritis. Con c-ANCA piensa en granulomatosis con poliangeítis; con p-ANCA, en poliangeítis microscópica; y en la EGPA, asma y eosinofilia. Abajo, en Henoch-Schönlein, lo que se deposita es IgA: púrpura palpable, artralgias, dolor abdominal y nefritis. Y en la inducción grave, cotrimoxazol de profilaxis.' },
+      ],
+    },
+
+    {
       type: "table",
       kicker: "Trampas EUNACOM",
       title: "Diagnóstico diferencial: GPA vs PAM vs EGPA vs Henoch-Schönlein",
@@ -236,23 +309,6 @@ module.exports = {
           say: "Granulomatosis eosinofílica: p-ANCA en la mitad de los casos, asma grave refractaria del adulto, poliposis nasal recidivante, eosinofilia periférica masiva y miocardiopatía restrictiva." },
         { cells: ["Henoch-Schönlein (Vasculitis IgA)", "ANCA negativos · IgA mesangial", "Completamente respetada", "Excepcional sangrado · Púrpura en nalgas y plaquetas normales"],
           say: "Púrpura de Henoch-Schönlein: ANCA negativos, depósitos mesangiales de inmunoglobulina A, púrpura palpable en nalgas y extremidades inferiores con plaquetas rigurosamente normales." },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Vasculitis de pequeño vaso',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-22/01_purpura-palpable__amir-reuma_p38.jpg', label: 'Púrpura palpable', credit: 'Manual AMIR Reumatología, p. 38' },
-        { src: 'biblioteca/08_reumatologia/reuma-22/01_nariz_silla_montar__commons.jpg', label: 'Nariz en silla de montar', credit: 'Wikimedia Commons «Saddle nose 38.jpg», CC BY-SA 4.0, ver autor en Commons' },
-      ],
-      steps: [
-        { note: 'Pápulas que no blanquean',
-          say: 'La púrpura palpable en las piernas es el signo de vasculitis de pequeño vaso.' },
-        { note: 'Destrucción del tabique',
-          say: 'Y la nariz en silla de montar, por destrucción del cartílago, sugiere granulomatosis con poliangeítis.' },
       ],
     },
 
@@ -343,6 +399,82 @@ module.exports = {
         options: "Las opciones: púrpura trombocitopénico inmune, meningococcemia fulminante, púrpura de Henoch-Schönlein con reposo, paracetamol y seguimiento ambulatorio, síndrome urémico hemolítico, o lupus pediátrico. Piénsalo.",
         answer: "Es la C. Púrpura palpable en nalgas y extremidades inferiores con dolor cólico y recuento plaquetario rigurosamente normal confirma Henoch-Schönlein o vasculitis por IgA. Se maneja con reposo, paracetamol y seguimiento periódico de presión arterial y orina.",
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.1.013 · Púrpuras vasculares",
+      "stem": "Niño de 6 años, con infección respiratoria alta hace 2 semanas, presenta lesiones purpúricas palpables en glúteos y extremidades inferiores, dolor abdominal cólico y artralgias de tobillos. Plaquetas 320.000/mm3 y pruebas de coagulación normales.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Púrpura trombocitopénica inmune"
+        },
+        {
+          "letter": "B",
+          "text": "Meningococcemia"
+        },
+        {
+          "letter": "C",
+          "text": "Leucemia linfoblástica aguda"
+        },
+        {
+          "letter": "D",
+          "text": "Púrpura de Schönlein-Henoch (vasculitis por IgA)"
+        },
+        {
+          "letter": "E",
+          "text": "Hemofilia A"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Púrpura palpable con plaquetas y coagulación normales indica una púrpura vascular. En un niño, con distribución en glúteos y piernas, dolor abdominal y artralgias, corresponde a vasculitis por IgA (Schönlein-Henoch). Deben controlarse orina y presión arterial por riesgo de nefritis. La PTI cursa con plaquetopenia y púrpura no palpable.",
+      "say": {
+        "stem": "Niño de seis años con púrpura palpable en glúteos y piernas, dolor abdominal y artralgias, con plaquetas y coagulación normales.",
+        "question": "¿Cuál es el diagnóstico?",
+        "options": "Las opciones: PTI, meningococcemia, leucemia, Schönlein Henoch o hemofilia. Piénsalo.",
+        "answer": "Es la D. Púrpura palpable con plaquetas normales es vasculitis, y en un niño es Schönlein Henoch. La PTI es la gran trampa, pero tendría plaquetas bajas."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.1.033 · Vasculitis cutáneas",
+      "stem": "Hombre de 40 años con lesiones en ambas piernas de 5 días, que aparecieron 1 semana después de iniciar amoxicilina por una sinusitis. Al examen se observan pápulas purpúricas palpables, que no desaparecen a la vitropresión, en ambas piernas y tobillos. Plaquetas normales, función renal y sedimento urinario normales.",
+      "question": "¿Cuál es el diagnóstico más probable y la conducta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Púrpura trombocitopénica inmune; corticoides"
+        },
+        {
+          "letter": "B",
+          "text": "Vasculitis leucocitoclástica (de pequeño vaso) por fármacos; suspender el antibiótico y confirmar con biopsia de piel"
+        },
+        {
+          "letter": "C",
+          "text": "Meningococcemia; ceftriaxona"
+        },
+        {
+          "letter": "D",
+          "text": "Escorbuto; vitamina C"
+        },
+        {
+          "letter": "E",
+          "text": "Dermatitis de contacto; corticoide tópico"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La púrpura palpable en extremidades inferiores con plaquetas normales es la lesión típica de la vasculitis cutánea de pequeño vaso (leucocitoclástica), frecuentemente por fármacos o infecciones. Se suspende el agente gatillante, se confirma con biopsia y se buscan compromiso renal, digestivo y articular. La púrpura de la trombocitopenia no es palpable.",
+      "say": {
+        "stem": "Hombre de cuarenta años con pápulas purpúricas palpables en las piernas, una semana después de iniciar amoxicilina, con plaquetas, riñón y orina normales.",
+        "question": "¿Cuál es el diagnóstico y la conducta?",
+        "options": "Las opciones: púrpura trombocitopénica inmune, vasculitis leucocitoclástica por fármacos, meningococcemia, escorbuto o dermatitis de contacto. Piénsalo.",
+        "answer": "Es la B. La púrpura palpable con plaquetas normales es una vasculitis de pequeño vaso, aquí probablemente por el antibiótico, que se suspende y se confirma con biopsia. La púrpura trombocitopénica tienta, pero tiene plaquetas bajas y la púrpura no se palpa."
+      }
     },
 
     {

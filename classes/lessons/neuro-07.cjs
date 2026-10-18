@@ -39,7 +39,8 @@ module.exports = {
         { show: ['tri', 'dol'], note: 'El trigémino da el dolor',
           say: 'Desde el hipotálamo se activa un reflejo: el trigémino genera el dolor, estrictamente unilateral, alrededor o detrás del ojo y en la sien, taladrante, tan atroz que se le llama cefalea suicida. Cada crisis dura entre quince y ciento ochenta minutos.' },
         { show: ['aut'], note: 'El parasimpático da el cortejo',
-          say: 'Y al mismo tiempo se activa la vía parasimpática craneal, por el ganglio esfenopalatino. De ahí salen los síntomas autonómicos, siempre del mismo lado del dolor: ojo rojo, lagrimeo, rinorrea o congestión nasal, edema del párpado, y un síndrome de Horner transitorio, con ptosis y miosis.' },
+          say: 'Y al mismo tiempo se activa la vía parasimpática craneal, por el ganglio esfenopalatino. De ahí salen los síntomas autonómicos, siempre del mismo lado del dolor: ojo rojo, lagrimeo, rinorrea o congestión nasal, edema del párpado, y un síndrome de Horner transitorio, con ptosis y miosis. Mira este paciente: del lado del dolor, el párpado caído y la pupila pequeña.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-07/01_sindrome_horner__kanski_p821.jpg', label: 'Síndrome de Horner', at: 'Mira este paciente', credit: 'Kanski, Oftalmología clínica 8.ª ed., Fig. 19.35A' } },
         { show: ['agi'], note: 'Lo opuesto a la migraña',
           say: 'Y un dato conductual que se pregunta. El migrañoso se acuesta quieto a oscuras. El paciente con racimos no tolera acostarse: camina inquieto, se balancea, incluso se golpea la cabeza.' },
       ],
@@ -124,7 +125,8 @@ module.exports = {
           { t: 'Lancinante, como un choque eléctrico', d: 'Fracciones de segundo a 2 minutos',
             say: 'Veamos la clínica. El dolor es unilateral, lancinante, como un choque eléctrico de alto voltaje, y dura desde fracciones de segundo hasta un máximo de dos minutos.' },
           { t: 'Ramas V2 y V3', d: 'Mejilla, maxilar, mandíbula, arcada dental',
-            say: 'Se limita al territorio del trigémino, sobre todo la segunda rama, maxilar, y la tercera, mandibular: la mejilla, el ala de la nariz, el labio, la encía y la arcada dental. Por eso muchos pacientes llegan primero al dentista.' },
+            say: 'Se limita al territorio del trigémino, sobre todo la segunda rama, maxilar, y la tercera, mandibular: la mejilla, el ala de la nariz, el labio, la encía y la arcada dental. Por eso muchos pacientes llegan primero al dentista. Mira este mapa de la cara: la primera rama es la oftálmica, la segunda la maxilar y la tercera la mandibular.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-07/02_distribucion_sensitiva_trigemino__fitzpatrick_p2330.jpg', label: 'V1, V2 y V3', at: 'Mira este mapa', credit: 'Fitzpatrick Dermatología, p. 2330' } },
         ] },
         { title: 'El sello diagnóstico', tag: 'Zonas gatillo', kind: 'criteria', items: [
           { t: 'Lo gatilla un estímulo inocuo', d: 'Lavarse la cara, afeitarse, cepillarse, masticar, brisa',
@@ -190,19 +192,6 @@ module.exports = {
       steps: [
         { note: 'Zona gatillo y carbamazepina',
           say: 'Un asa arterial, casi siempre la cerebelosa superior, comprime la raíz del trigémino y la desmieliniza. Un roce inocente salta a las fibras del dolor: es un cortocircuito. Por eso hay zonas gatillo, y la primera línea es la carbamazepina.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Horner en la cefalea en racimos',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-07/01_sindrome_horner__kanski_p821.jpg', label: 'Síndrome de Horner', credit: 'Kanski 8.ª ed., Fig. 19.35A' },
-      ],
-      steps: [
-        { note: 'Ptosis y miosis',
-          say: 'Durante una crisis de cefalea en racimos puede aparecer ptosis y miosis del lado del dolor.' },
       ],
     },
 

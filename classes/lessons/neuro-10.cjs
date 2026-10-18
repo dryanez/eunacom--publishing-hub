@@ -109,7 +109,8 @@ module.exports = {
         { cells: ['Movimientos', 'Mioclonías tras caer, menos de 15 s', 'Ausentes o mioclonías breves', 'Tónica 10–20 s, luego clonías rítmicas'],
           say: 'Los movimientos: en el síncope, mioclonías breves después de caer. En la crisis, una secuencia estereotipada: fase tónica de diez a veinte segundos, y luego clonías rítmicas y sincrónicas.' },
         { cells: ['Lengua', 'Punta, si se golpea', 'Punta, si se golpea', 'Borde lateral, profunda'],
-          say: 'La lengua, que se pregunta mucho. En el síncope, si hay mordedura, es en la punta, por el golpe de la mandíbula al caer. En la crisis, la contracción de los músculos masticatorios muerde el borde lateral, y eso es prácticamente patognomónico.' },
+          say: 'La lengua, que se pregunta mucho. En el síncope, si hay mordedura, es en la punta, por el golpe de la mandíbula al caer. En la crisis, la contracción de los músculos masticatorios muerde el borde lateral, y eso es prácticamente patognomónico. Mira esta lengua: las marcas en el borde lateral son la mordedura típica de una crisis.',
+            photo: { src: '_web/337_neuro_Primera_crisis_vs_síncope__Commons_1.jpg', label: 'Mordedura lateral de lengua', at: 'Mira esta lengua', credit: 'Wikimedia Commons, CC BY-SA 3.0' } },
         { cells: ['Color', 'Pálido como papel, sudoroso', 'Palidez cérea o cianosis', 'Cianosis peribucal'],
           say: 'El color: el sincopal está blanco como el papel y sudoroso. El que convulsiona está cianótico, porque el espasmo de los músculos respiratorios lo deja en apnea.' },
         { cells: ['Esfínteres', 'Muy infrecuente', 'Infrecuente', 'Frecuente'],
@@ -162,6 +163,30 @@ module.exports = {
         ] },
       ],
     },
+    {
+      type: 'points',
+      kicker: 'Epilepsia',
+      title: 'Sospechar epilepsia y derivar',
+      cards: [
+        { title: 'Crisis focal', tag: 'Empieza localizada', kind: 'key', items: [
+          { t: 'Aura, sacudida, trastorno visual', d: 'Temporal, motora u occipital',
+            say: 'Tras una primera crisis, la sospecha de epilepsia se apoya en lo que cuentan los testigos. La crisis focal empieza con síntomas localizados: un aura epigástrica o de déjà vu en el lóbulo temporal, sacudidas de una mano en la corteza motora, un trastorno visual en el occipital.' },
+          { t: 'Conciencia conservada o alterada', d: 'Mirada fija, automatismos, amnesia',
+            say: 'Puede conservar la conciencia, y es focal simple, o alterarla: mirada fija, automatismos con la boca y amnesia.' },
+        ] },
+        { title: 'Crisis generalizada', tag: 'Ambos hemisferios', kind: 'criteria', items: [
+          { t: 'Tónico-clónica o ausencias', d: 'Cianosis, mordedura lateral, postictal',
+            say: 'La generalizada afecta ambos hemisferios desde el inicio: tónico-clónica, con pérdida de conciencia, cianosis, mordedura lateral de lengua y estado postictal, o ausencias breves con mirada fija, típicas del niño.' },
+        ] },
+        { title: 'Qué hace el médico general', tag: 'Sospechar y derivar', kind: 'alert', items: [
+          { t: 'Examen, TAC, EEG, laboratorio', d: 'Medidas de seguridad',
+            say: 'Con examen neurológico, TAC, electroencefalograma y laboratorio básico, sospechas la epilepsia, indicas medidas de seguridad: no conducir, no nadar solo, no trabajar en alturas.' },
+          { t: 'Derivar al neurólogo', d: 'Confirma y elige el fármaco',
+            say: 'Y derivas al neurólogo para confirmar el diagnóstico y definir el antiepiléptico. La selección del fármaco la vemos en la clase de epilepsia.' },
+        ] },
+      ],
+    },
+
 
     {
       type: 'points',
@@ -188,6 +213,32 @@ module.exports = {
         ] },
       ],
     },
+    {
+      type: 'points',
+      kicker: 'En el lactante',
+      title: 'BRUE y muerte súbita del lactante',
+      cards: [
+        { title: 'BRUE', tag: 'Reemplaza al ALTE', kind: 'key', items: [
+          { t: 'Menor de 1 año, < 1 minuto, resuelto', d: 'Cianosis, apnea, cambio de tono o de respuesta',
+            say: 'El antiguo ALTE se reemplazó por el BRUE: un evento breve resuelto inexplicado. Es un episodio súbito, de menos de un minuto, en un lactante menor de un año, con cianosis o palidez, respiración ausente o irregular, cambio marcado del tono o de la respuesta, que no tiene explicación tras una buena anamnesis y examen.' },
+          { t: 'Si hay causa, ya no es BRUE', d: 'Reflujo, convulsión, infección, maltrato',
+            say: 'Si encuentras una causa, como reflujo con atragantamiento, una convulsión, una bronquiolitis o maltrato, ya no es un BRUE. Por eso se busca el relato de los padres, los antecedentes, la alimentación, el ambiente de sueño y signos de maltrato: hematomas, frenillo lesionado, hemorragias retinianas.' },
+        ] },
+        { title: 'Riesgo', tag: 'Estratificar', kind: 'criteria', items: [
+          { t: 'Bajo riesgo: todo debe cumplirse', d: '> 60 días · ≥ 32 semanas · evento único < 1 min · sin RCP · examen normal',
+            say: 'Es de bajo riesgo si cumple todo: más de sesenta días de vida, nacido a las treinta y dos semanas o más, un solo evento, menos de un minuto, sin reanimación por personal de salud, sin antecedentes relevantes y examen normal. Se educa a los padres, se les enseña reanimación, se observa con oximetría un rato y se controla pronto, sin exámenes de rutina.' },
+          { t: 'Alto riesgo: hospitalizar y estudiar', d: '< 60 días, prematuro, repetido o prolongado',
+            say: 'Los de alto riesgo, menores de sesenta días, prematuros o con eventos repetidos o prolongados, se hospitalizan y se estudian según la sospecha: infección, convulsiones, causa cardíaca o metabólica, reflujo, apnea y maltrato.' },
+        ] },
+        { title: 'Muerte súbita', tag: 'SMSL: prevención', kind: 'alert', items: [
+          { t: 'Boca arriba, cuna firme, sin objetos', d: 'Máxima incidencia entre los 2 y 4 meses',
+            say: 'La muerte súbita del lactante es el fallecimiento inesperado de un menor de un año que no se explica ni con la autopsia ni con la revisión de la escena. Su máxima incidencia es entre los dos y los cuatro meses. La prevención es simple: dormir siempre boca arriba, en cuna con colchón firme y sin almohadas ni peluches.' },
+          { t: 'Misma pieza, no la misma cama', d: 'Lactancia, chupete, sin humo, vacunas al día',
+            say: 'Compartir la pieza, pero no la cama, sobre todo si los padres fuman, toman alcohol o sedantes. Lactancia materna, chupete al dormir, evitar el sobrearropamiento, nada de humo de tabaco y vacunas al día.' },
+        ] },
+      ],
+    },
+
 
     {
       type: 'image',
@@ -342,6 +393,194 @@ module.exports = {
         options: 'Las opciones: Holter de veinticuatro horas, ecocardiograma, TAC de cerebro, resonancia de cerebro o electrocardiograma. Piénsalo.',
         answer: 'Es la E, el electrocardiograma. Síncope en reposo, sin pródromos y con bradicardia: es cardiogénico hasta demostrar lo contrario, y el primer examen es el electrocardiograma, que puede mostrar un bloqueo. El Holter tienta, pero el primer paso es el electrocardiograma. Y conecta con la clase: el electrocardiograma se pide a todo paciente con una primera pérdida de conciencia.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2019 · Pregunta 41",
+      "stem": "Adolescente de 16 años convulsiona al despertar, en la mañana siguiente de haber estado jugando videojuegos hasta tarde. Además refiere mioclonías matinales frecuentes desde hace algunos meses. Su examen físico es normal, al igual que su examen neurológico.",
+      "question": "¿Cuál es el tratamiento de elección?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Suspender por completo los videojuegos"
+        },
+        {
+          "letter": "B",
+          "text": "Ácido valproico"
+        },
+        {
+          "letter": "C",
+          "text": "Carbamazepina"
+        },
+        {
+          "letter": "D",
+          "text": "Melatonina en la noche"
+        },
+        {
+          "letter": "E",
+          "text": "Diazepam si convulsiona nuevamente"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Mioclonías matinales más una crisis tónico-clónica al despertar tras privación de sueño: epilepsia mioclónica juvenil, una epilepsia generalizada que requiere tratamiento prolongado. El ácido valproico es de elección en varones (en mujeres en edad fértil se prefiere levetiracetam o lamotrigina). La carbamazepina agrava mioclonías y ausencias; evitar trasnochar ayuda, pero no reemplaza el fármaco.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Un adolescente de dieciséis años convulsiona al despertar, después de trasnochar con videojuegos, y hace meses tiene sacudidas musculares en las mañanas. El examen neurológico es normal.",
+        "question": "¿Cuál es el tratamiento de elección?",
+        "options": "Las opciones: suspender los videojuegos, ácido valproico, carbamazepina, melatonina, o diazepam si vuelve a convulsionar. Piénsalo.",
+        "answer": "Es la B. Es una epilepsia mioclónica juvenil, y en un varón el ácido valproico es el fármaco de elección. La carbamazepina tienta porque es un antiepiléptico clásico, pero empeora las mioclonías de las epilepsias generalizadas."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.4.005 · Electroencefalograma",
+      "stem": "Hombre de 31 años, sano, presenta una primera crisis tónico-clónica generalizada no provocada, presenciada, con mordedura lateral de lengua y confusión postictal de 20 minutos. Examen neurológico y exámenes generales normales; RM de encéfalo normal. El EEG interictal de rutina, realizado a los 5 días, es normal.",
+      "question": "¿Cuál es la interpretación más adecuada del EEG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No descarta epilepsia: un EEG interictal es normal en una proporción relevante de pacientes, y puede repetirse con privación de sueño"
+        },
+        {
+          "letter": "B",
+          "text": "Descarta epilepsia y permite dar el alta sin controles"
+        },
+        {
+          "letter": "C",
+          "text": "Confirma una crisis psicógena no epiléptica"
+        },
+        {
+          "letter": "D",
+          "text": "Indica que la crisis fue un síncope convulsivo"
+        },
+        {
+          "letter": "E",
+          "text": "Obliga a iniciar fenitoína de inmediato"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El EEG interictal de rutina detecta descargas epileptiformes solo en una parte de los pacientes con epilepsia; su sensibilidad aumenta con registros repetidos, privación de sueño o video-EEG. Un EEG normal no descarta epilepsia, y uno anormal tras una primera crisis aumenta el riesgo de recurrencia y apoya iniciar tratamiento. El diagnóstico sigue siendo clínico.",
+      "say": {
+        "stem": "Un hombre de treinta y un años tiene una primera crisis tónico clónica con mordedura lateral de lengua y confusión posterior. La resonancia es normal y el electroencefalograma de rutina a los cinco días también.",
+        "question": "¿Cómo se interpreta este electroencefalograma normal?",
+        "options": "Las opciones: no la descarta y puede repetirse con privación de sueño, descarta epilepsia, confirma una crisis psicógena, indica un síncope o obliga a iniciar fenitoína. Piénsalo.",
+        "answer": "Es la A. El electroencefalograma entre crisis sale normal en muchos epilépticos, así que no descarta nada, y se puede repetir con privación de sueño. Pensar que lo descarta es el error tentador, pero el diagnóstico de una crisis es clínico."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.053 · Síncope",
+      "stem": "Una adolescente de 14 años, sana, presentó pérdida de conciencia de 20 segundos mientras estaba de pie en un acto escolar con calor. Antes sintió náuseas, calor, visión borrosa y palidez; tras caer se recuperó completamente en segundos, sin confusión. No tiene antecedentes familiares de muerte súbita. Su examen cardiovascular y neurológico y el electrocardiograma son normales.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solicitar electroencefalograma"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar TAC de cerebro"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar Holter de ritmo y ecocardiograma"
+        },
+        {
+          "letter": "D",
+          "text": "Educar sobre síncope vasovagal: hidratación y maniobras de contrapresión"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar ácido valproico"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Pérdida de conciencia breve, con gatillante (bipedestación prolongada, calor), pródromo autonómico y recuperación rápida sin período postictal, con examen y ECG normales, es un síncope vasovagal, la causa más frecuente en adolescentes. Se maneja con educación, hidratación, sal y maniobras de contrapresión.",
+      "say": {
+        "stem": "Una adolescente de catorce años se desmayó veinte segundos estando de pie con calor, tras náuseas y visión borrosa, y se recuperó al tiro. Su examen y electrocardiograma son normales.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: electroencefalograma, TAC de cerebro, Holter y ecocardiograma, educar sobre síncope vasovagal o ácido valproico. Piénsalo.",
+        "answer": "Es la D. Es un síncope vasovagal típico y se maneja con educación e hidratación. El Holter y el ecocardiograma tientan, pero se reservan para síncopes con ejercicio, palpitaciones, electrocardiograma anormal o muerte súbita familiar."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2016 · Pregunta 162",
+      "stem": "Un niño de 24 meses ha presentado 3 episodios de llanto de breve duración, seguidos de apnea y luego pérdida de conciencia, recuperándose al poco tiempo. Al examen físico no tiene alteraciones.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Instruir a los padres en reanimación cardiopulmonar"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar TAC de cerebro"
+        },
+        {
+          "letter": "C",
+          "text": "Educar a los padres en el manejo de las emociones del niño"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar electroencefalograma"
+        },
+        {
+          "letter": "E",
+          "text": "Indicar monitor cardíaco"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Llanto o enojo seguido de apnea, cianosis o palidez y breve pérdida de conciencia con recuperación espontánea, entre los 6 meses y 5 años, son espasmos del sollozo (apneas emotivas): eventos benignos sin riesgo vital. Se tranquiliza y educa a los padres y se descarta anemia ferropénica, que los aumenta. No requieren EEG ni neuroimagen.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil dieciséis. Un niño de dos años ha tenido tres episodios en que llora, deja de respirar y pierde la conciencia brevemente, recuperándose solo, con examen normal.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: enseñar reanimación, TAC de cerebro, educar en el manejo de las emociones, electroencefalograma o monitor cardíaco. Piénsalo.",
+        "answer": "Es la C. Son espasmos del sollozo, benignos, y basta educar a los padres. El electroencefalograma tienta por la pérdida de conciencia, pero el gatillante emocional claro y la recuperación rápida no sugieren epilepsia."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.1.022 · Síndromes convulsivos sintomáticos",
+      "stem": "Hombre de 62 años, diabético usuario de insulina, presenta una crisis tónico-clónica generalizada en su casa. Al llegar el SAMU tiene glicemia capilar de 28 mg/dL; se administra glucosa endovenosa y recupera completamente la conciencia. Examen neurológico normal.",
+      "question": "¿Cuál es la conducta más adecuada respecto de la crisis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar ácido valproico de mantención"
+        },
+        {
+          "letter": "B",
+          "text": "Diagnosticar epilepsia del adulto"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar levetiracetam por al menos 2 años"
+        },
+        {
+          "letter": "D",
+          "text": "Resonancia y electroencefalograma antes de reiniciar la insulina"
+        },
+        {
+          "letter": "E",
+          "text": "Corregir la causa y ajustar el tratamiento de la diabetes, sin fármaco antiepiléptico crónico"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Una crisis desencadenada por una alteración metabólica aguda (hipoglicemia, hiponatremia, hipocalcemia, abstinencia alcohólica) es una crisis sintomática aguda, no epilepsia. Se trata corrigiendo la causa y previniendo que se repita; no requiere antiepiléptico de mantención, porque el riesgo de recurrencia depende de la causa.",
+      "say": {
+        "stem": "Hombre diabético con insulina que convulsiona con una glicemia de veintiocho y se recupera por completo con glucosa.",
+        "question": "¿Qué haces respecto a la crisis?",
+        "options": "Las opciones: valproato de mantención, diagnosticar epilepsia, levetiracetam por años, estudiar antes de reiniciar insulina o corregir la causa sin antiepiléptico. Piénsalo.",
+        "answer": "Es la E. Corregir la causa y ajustar la diabetes, sin antiepilépticos. Es una crisis sintomática aguda por hipoglicemia, no una epilepsia."
+      }
     },
 
     {

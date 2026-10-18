@@ -106,7 +106,8 @@ module.exports = {
       ],
       steps: [
         { show: ['ret'], note: 'Los reticulocitos miden la respuesta de la médula',
-          say: 'Ahora la segunda pregunta, que es la que más ordena el diagnóstico: ¿la médula está respondiendo? Para saberlo miramos los reticulocitos, los glóbulos rojos recién salidos de la médula. Si hay anemia y la médula está sana, debería estar fabricando más.' },
+          say: 'Ahora la segunda pregunta, que es la que más ordena el diagnóstico: ¿la médula está respondiendo? Para saberlo miramos los reticulocitos, los glóbulos rojos recién salidos de la médula. Si hay anemia y la médula está sana, debería estar fabricando más. Mira esta tinción: los reticulocitos son los glóbulos rojos con puntos y filamentos azules en su interior.',
+          photo: { src: 'biblioteca/06_hematologia/hem-01/02_reticulocitos_azul_metileno__harrison_p467.jpg', label: 'Reticulocitos teñidos', at: 'Mira esta tinción', credit: 'Harrison, Principios de Medicina Interna, Fig. 62-2' } },
         { show: ['cor'], note: 'El porcentaje crudo engaña en la anemia grave',
           say: 'El problema es que el porcentaje de reticulocitos engaña. Si hay pocos glóbulos rojos, cualquier cantidad de reticulocitos parece un porcentaje alto. Por eso se corrige: se multiplica el porcentaje por el hematocrito del paciente dividido por cuarenta y cinco, que es el hematocrito normal.' },
         { show: ['fac'], note: 'Hto 36 o más: 1 · 26–35: 1,5 · 16–25: 2 · menos de 15: 2,5',
@@ -156,25 +157,6 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'La forma del glóbulo rojo',
-      layout: 'gallery',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-01/01_frotis-microcitico-hipocromo__amir-hemato_p16.jpg', label: 'Microcitosis e hipocromía (ferropenia)', credit: 'Manual AMIR Hematología, p. 16' },
-        { src: 'biblioteca/06_hematologia/hem-01/01_frotis-macroovalocitos-hipersegmentado__amir-hemato_p29.jpg', label: 'Macroovalocitos y neutrófilo hipersegmentado (megaloblástica)', credit: 'Manual AMIR Hematología, p. 29' },
-        { src: 'biblioteca/06_hematologia/hem-01/01_frotis-esferocitos__amir-hemato_p34.jpg', label: 'Esferocitos (hemólisis)', credit: 'Manual AMIR Hematología, p. 34' },
-      ],
-      steps: [
-        { note: 'Chicos y pálidos: microcítica',
-          say: 'El frotis muestra la forma de los glóbulos rojos, y cada forma orienta a una causa. Aquí son pequeños y pálidos: es la anemia microcítica, y la causa más frecuente es la ferropenia.' },
-        { note: 'Grandes y ovalados: megaloblástica',
-          say: 'Aquí los glóbulos son grandes y ovalados, y el neutrófilo tiene muchos lóbulos. Macroovalocitos y neutrófilos hipersegmentados: es una anemia megaloblástica.' },
-        { note: 'Esferas sin centro claro: hemólisis',
-          say: 'Y aquí, las flechas marcan esferocitos: glóbulos pequeños, redondos, sin el centro pálido. En una anemia regenerativa orientan a la anemia hemolítica autoinmune.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -188,13 +170,16 @@ module.exports = {
       head: ['VCM', 'Reticulocitos', 'Causas principales', 'Pista clave'],
       rows: [
         { cells: ['Microcítica (< 80 fL)', 'IRC < 2 %', 'Ferropenia, rasgo talasémico, sideroblástica', 'RDW alto en ferropenia'],
-          say: 'Repasemos con la tabla completa. Microcítica y arregenerativa: ferropenia, rasgo talasémico o anemia sideroblástica. La pista para separar la ferropenia es el RDW alto.' },
+          say: 'Repasemos con la tabla completa. Microcítica y arregenerativa: ferropenia, rasgo talasémico o anemia sideroblástica. Mira este frotis: glóbulos pequeños y pálidos. La pista para separar la ferropenia es el RDW alto.',
+          photo: { src: 'biblioteca/06_hematologia/hem-01/01_frotis-microcitico-hipocromo__amir-hemato_p16.jpg', label: 'Microcitosis e hipocromía', at: 'Mira este frotis', credit: 'Manual AMIR Hematología, p. 16' } },
         { cells: ['Normocítica (80–100 fL)', 'IRC < 2 %', 'Enfermedad crónica, ERC, mieloma, aplasia', 'Rouleaux en el mieloma; ferritina alta en inflamación'],
           say: 'Normocítica y arregenerativa: enfermedad crónica o inflamatoria, enfermedad renal crónica, mieloma múltiple o aplasia. Si en el frotis ves glóbulos apilados como monedas, el rouleaux, piensa en mieloma. Y en la inflamación la ferritina está alta, que es justo lo que vemos en la próxima clase.' },
         { cells: ['Normocítica (80–100 fL)', 'IRC > 2 %', 'Hemólisis aguda, hemorragia aguda reciente', 'Esquistocitos en PTT o SHU; esferocitos en AHAI'],
-          say: 'Normocítica y regenerativa: hemólisis aguda o hemorragia aguda reciente. El frotis orienta: esquistocitos, que son glóbulos rotos, en la microangiopatía, y esferocitos en la anemia hemolítica autoinmune.' },
+          say: 'Normocítica y regenerativa: hemólisis aguda o hemorragia aguda reciente. Aquí el frotis orienta: esquistocitos, que son glóbulos rotos, en la microangiopatía, y estos esferocitos, pequeños y redondos sin centro pálido, en la anemia hemolítica autoinmune.',
+          photo: { src: 'biblioteca/06_hematologia/hem-01/01_frotis-esferocitos__amir-hemato_p34.jpg', label: 'Esferocitos (hemólisis)', at: 'estos esferocitos', credit: 'Manual AMIR Hematología, p. 34' } },
         { cells: ['Macrocítica (> 100 fL)', 'IRC < 2 %', 'Déficit de B12 o folato, alcohol, hipotiroidismo', 'Neutrófilos hipersegmentados, macroovalocitos'],
-          say: 'Macrocítica y arregenerativa: déficit de B doce o folato, alcohol o hipotiroidismo. Si el frotis muestra neutrófilos hipersegmentados y macroovalocitos, es megaloblástica.' },
+          say: 'Macrocítica y arregenerativa: déficit de B doce o folato, alcohol o hipotiroidismo. Mira este frotis: macroovalocitos y un neutrófilo con muchos lóbulos. Neutrófilos hipersegmentados y macroovalocitos: es megaloblástica.',
+          photo: { src: 'biblioteca/06_hematologia/hem-01/01_frotis-macroovalocitos-hipersegmentado__amir-hemato_p29.jpg', label: 'Macroovalocitos (B12)', at: 'Mira este frotis', credit: 'Manual AMIR Hematología, p. 29' } },
         { cells: ['Macrocítica (> 100 fL)', 'IRC > 2 %', 'Crisis hemolítica intensa', 'Reticulocitos grandes elevan el VCM'],
           say: 'Y macrocítica pero regenerativa: la crisis hemolítica intensa, donde los reticulocitos grandes suben el VCM. El error es tratarla como un déficit de B doce.' },
       ],

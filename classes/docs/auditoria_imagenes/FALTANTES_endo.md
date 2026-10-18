@@ -44,3 +44,16 @@ Ya cubiertos y excluidos: gammagrafías de Graves / adenoma tóxico / BMN (endo-
 | endo-17 | Hipocalcemia | TAC con calcificación de ganglios basales; catarata hipocalcémica | TAC / foto clínica |
 | endo-21 | Hiperprolactinemia | galactorrea | foto clínica |
 | endo-22 | Acromegalia | RM del adenoma productor de GH | RM |
+
+## Audit de imágenes del libro al completar los códigos V3 (18-oct-2026)
+
+Agregadas al libro (atlas, dentro del texto, solo pie): `biblioteca/05_endocrinologia/endo-09/03_bocio_multinodular_grande__bailey_p827.jpg` («Bocio multinodular grande», tema 7.9 §6) y `biblioteca/05_endocrinologia/endo-06/04_tc_orbitopatia_tiroidea__kanski_p98.jpg` («TC coronal de órbitas: músculos extraoculares engrosados en la orbitopatía tiroidea», tema 7.6 §6). Ambas de baja resolución nativa (325 y 494 px de ancho).
+
+Sin imagen adecuada en `_candidatas` (buscar en Harrison/CTO/AMIR o hacer dibujo propio):
+
+| clase | tema | imagen que falta | tipo | prioridad |
+|---|---|---|---|---|
+| endo-25 | Ginecomastia (tema nuevo 7.25) | ginecomastia bilateral con disco retroareolar, idealmente junto a seudoginecomastia (lipomastia) | foto clínica | alta |
+| endo-20 | Campo visual por confrontación (6.02.5.002) | técnica: examinador frente al paciente, cada uno con el ojo opuesto tapado, estímulo en los cuatro cuadrantes | esquema / foto | media |
+| endo-13 | Hiperplasia suprarrenal congénita | vía de la esteroidogénesis con el bloqueo de 21-hidroxilasa (dibujo propio) o escala de Prader; no se usaron las fotos de genitales de menores de Nelson p. 4430 | esquema | media |
+| endo-15 | Incidentaloma suprarrenal | TC sin contraste de adenoma suprarrenal rico en lípidos (≤ 10 UH) frente a carcinoma; Harrison p. 3005 tiene 4 TC pero sin rótulos visibles en la imagen | TAC | media |

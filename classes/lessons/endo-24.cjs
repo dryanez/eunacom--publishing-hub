@@ -207,11 +207,13 @@ module.exports = {
           { t: 'Carcinoma medular de tiroides', d: 'Penetrancia 100 %, bilateral',
             say: 'La tipo dos se debe al protooncogén RET. En la dos A, o síndrome de Sipple, el carcinoma medular de tiroides aparece en el cien por ciento, multicéntrico y bilateral.' },
           { t: 'Feocromocitoma 50 % + HPT 20–30 %', d: 'Operar el feocromocitoma primero',
-            say: 'Se suman el feocromocitoma, en la mitad de los casos y bilateral, y el hiperparatiroidismo primario en el veinte a treinta por ciento. Y la regla quirúrgica: antes de operar el tiroides se descarta y se opera el feocromocitoma. Si no, la crisis de catecolaminas en la anestesia puede ser fatal.' },
+            say: 'Se suman el feocromocitoma, en la mitad de los casos y bilateral: en esta tomografía es una masa en la suprarrenal derecha; y el hiperparatiroidismo primario en el veinte a treinta por ciento. Y la regla quirúrgica: antes de operar el tiroides se descarta y se opera el feocromocitoma. Si no, la crisis de catecolaminas en la anestesia puede ser fatal.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-24/01_feocromocitoma-men-2a__amir-endocrino_p126.jpg', label: 'MEN 2A: feocromocitoma', at: 'en esta tomografía', credit: 'Manual AMIR Endocrinología, p. 126' } },
         ] },
         { title: 'NEM 2B · Gorlin', tag: 'Protooncogén RET', kind: 'criteria', items: [
           { t: 'Medular precoz + feocromocitoma', d: 'Neuromas mucosos, hábito marfanoide',
-            say: 'En la dos B, o síndrome de Gorlin, el carcinoma medular es muy precoz y agresivo, con feocromocitoma en el cincuenta por ciento, neuromas mucosos en lengua, labios y conjuntivas, hábito marfanoide y ganglioneuromatosis intestinal.' },
+            say: 'En la dos B, o síndrome de Gorlin, el carcinoma medular es muy precoz y agresivo, con feocromocitoma en el cincuenta por ciento, neuromas mucosos en lengua, labios y conjuntivas: mira esta lengua, con nódulos desde la infancia. Hábito marfanoide y ganglioneuromatosis intestinal.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-24/02_neuromas_mucosos_men2b__nelson_p4054.jpg', label: 'MEN 2B: neuromas mucosos', at: 'mira esta lengua', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 4054' } },
           { t: 'Sin hiperparatiroidismo', d: 'Tiroidectomía profiláctica el primer año',
             say: 'Y la diferencia que se pregunta: la dos B no tiene hiperparatiroidismo. Por lo agresivo del cáncer, se indica tiroidectomía profiláctica en el primer año de vida.' },
         ] },
@@ -234,20 +236,6 @@ module.exports = {
           say: 'En el SIADH sobra ADH: el colector reabsorbe agua sin parar, la orina sale poca y concentrada, y el sodio plasmático se diluye. Se trata restringiendo agua.' },
       ],
     },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Neoplasia endocrina múltiple',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-24/01_feocromocitoma-men-2a__amir-endocrino_p126.jpg', label: 'MEN dos A', credit: 'Manual AMIR Endocrinología, p. 126' },
-      ],
-      steps: [
-        { note: 'Feocromocitoma bilateral',
-          say: 'En el MEN dos A se asocian carcinoma medular de tiroides, feocromocitoma e hiperparatiroidismo. En esta tomografía el feocromocitoma es una masa en la suprarrenal derecha; en el MEN también puede ser bilateral.' },
-      ],
-    },
-
     {
       type: 'pathway',
       intro: 'Juntemos la parte del agua en un árbol de decisión.',

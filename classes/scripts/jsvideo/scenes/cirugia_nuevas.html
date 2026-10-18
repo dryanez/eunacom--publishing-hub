@@ -1,0 +1,271 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Clases nuevas de cirugía (cirugia-19, 20, 21), animaciones sobre ilustración real. Variantes: ?v=varices | bariatrica | onicocriptosis
+//   varices         cirugia-19 A1: válvula continente frente a incompetente, reflujo, hipertensión venosa y sus consecuencias.
+//                   Base: Blausen.com staff (2014) "Varicose Vein", CC BY 3.0; rótulos en inglés y flechas quitados (assets/blausen/varices_valvula.png, 1024x768).
+//   bariatrica      cirugia-20 A1: manga gástrica (resección de ~80%) y bypass en Y de Roux sobre ilustración de Servier Medical Art, CC BY 4.0.
+//   onicocriptosis  cirugia-21 A1: borde de la uña que penetra el pliegue, onicectomía parcial y fenol sobre Blausen "Finger Nail Anatomy".
+const V = new URLSearchParams(location.search).get('v') || 'varices';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade } = K;
+const I = k => window.IMGS[k];
+
+// ---------- utilidades comunes ----------
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function drop(x, y, a, col) { if (a <= 0) return; ctx.globalAlpha = a; ctx.fillStyle = col; ctx.beginPath(); ctx.moveTo(x, y - 9); ctx.quadraticCurveTo(x + 7, y + 2, x, y + 6); ctx.quadraticCurveTo(x - 7, y + 2, x, y - 9); ctx.fill(); ctx.globalAlpha = 1; }
+function arrow(x0, y0, x1, y1, col, w, a) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = w; ctx.lineCap = 'round';
+  const ang = Math.atan2(y1 - y0, x1 - x0), h = w * 3.2;
+  ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1 - Math.cos(ang) * h * 0.6, y1 - Math.sin(ang) * h * 0.6); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x1 - Math.cos(ang - 0.45) * h, y1 - Math.sin(ang - 0.45) * h);
+  ctx.lineTo(x1 - Math.cos(ang + 0.45) * h, y1 - Math.sin(ang + 0.45) * h); ctx.closePath(); ctx.fill(); ctx.restore();
+}
+const bump = (t, a, b, d = 0.5) => seg(t, a, d) * (1 - seg(t, b, d));
+function credit(s) { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(560, 696, 720, 24); text(s, 1268, 712, 13, C.MUTED, '', 'right'); }
+
+// ---------- A1 cirugia-19: várices ----------
+const VX = { x: 40, y: 128, S: 0.68, w: 1024, h: 768 };
+const PV = (x, y) => [VX.x + x * VX.S, VX.y + y * VX.S];
+// eje de la luz de cada vena (px de la imagen), de abajo hacia arriba (sentido del flujo)
+const NORM = poly([[120, 548], [165, 480], [215, 410], [262, 360], [300, 322], [350, 262], [420, 185], [490, 118]].map(p => PV(...p)));
+const VAR = poly([[615, 548], [665, 485], [715, 420], [758, 372], [790, 335], [840, 275], [905, 200], [965, 126]].map(p => PV(...p)));
+const VALVE_N = PV(300, 330), VALVE_V = PV(790, 342);
+function sOfPt(path, q) { let best = 0, d0 = 1e9; for (let s = 0; s <= 1; s += 0.002) { const [x, y] = path.at(s); const d = Math.hypot(x - q[0], y - q[1]); if (d < d0) { d0 = d; best = s; } } return best; }
+const SV_N = sOfPt(NORM, VALVE_N), SV_V = sOfPt(VAR, VALVE_V);
+function laminaV(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(VX.x - 6, VX.y - 6, VX.w * VX.S + 12, VX.h * VX.S + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(VX.x, VX.y, VX.w * VX.S, VX.h * VX.S, 14); ctx.clip();
+  ctx.drawImage(I('vv'), VX.x, VX.y, VX.w * VX.S, VX.h * VX.S); ctx.restore();
+}
+function dilate(center, R, k, a) {
+  if (k <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.beginPath(); ctx.arc(center[0], center[1], R, 0, 7); ctx.clip();
+  const f = 1 + 0.13 * k; ctx.translate(center[0], center[1]); ctx.scale(f, f); ctx.translate(-center[0], -center[1]);
+  ctx.drawImage(I('vv'), VX.x, VX.y, VX.w * VX.S, VX.h * VX.S); ctx.restore();
+  ctx.save(); ctx.globalAlpha = a * 0.5 * k; ctx.strokeStyle = '#6B7BD8'; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(center[0], center[1], R, 0, 7); ctx.stroke(); ctx.restore();
+}
+function blood(path, sv, t, mode, a) {
+  if (a <= 0) return; const n = 12;
+  for (let i = 0; i < n; i++) {
+    const u = ((t * 0.11) + i / n) % 1; let s = 0.04 + u * 0.92;
+    if (mode === 'norm') {                               // al relajarse el músculo, la válvula frena el retroceso
+      const r = bump(t, 6.2, 9.2, 0.4);
+      if (s < sv) s = lerp(s, Math.min(s, sv - 0.035 - 0.012 * (i % 4)), r);
+    } else {                                             // reflujo a través de la válvula incompetente
+      const r = bump(t, 13.2, 17.4, 0.5);
+      s = clamp(s - r * 0.30, 0.02, 0.98);
+    }
+    const [x, y] = path.at(s), off = ((i * 37) % 11 - 5) * 1.4;
+    ctx.globalAlpha = a * Math.min(1, u * 8, (1 - u) * 8); ctx.fillStyle = '#E3263A'; ctx.beginPath(); ctx.arc(x + off, y + off * 0.6, 5.2, 0, 7); ctx.fill();
+    ctx.globalAlpha = a * 0.5; ctx.fillStyle = '#FF8A94'; ctx.beginPath(); ctx.arc(x + off - 1.5, y + off * 0.6 - 1.5, 1.8, 0, 7); ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+}
+function pressBar(x, y, w, name, v, col, a) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  text(name, x, y, 17, C.INK, 'bold'); rrect(x, y + 10, w, 16, 8, '#222833'); rrect(x, y + 10, Math.max(8, w * v), 16, 8, col); ctx.restore();
+}
+function varices(t) {
+  K.title('Várices: la válvula que falla', 'Reflujo, hipertensión venosa y piel', '#B388FF');
+  laminaV(seg(t, 0, 0.7));
+  const a1 = fade(t, 1.0, 9.6, 0.5), a2 = fade(t, 9.8, 22, 0.5);
+  // vena normal
+  blood(NORM, SV_N, t, 'norm', seg(t, 1.2, 0.6));
+  label('Vena normal', 150, 195, C.GREEN, ...PV(215, 410), a1);
+  label('Válvula continente: un solo sentido', 340, 590, C.GREEN, ...VALVE_N, fade(t, 3.4, 6.6, 0.4));
+  label('Bomba muscular: empuja hacia arriba', 250, 250, C.GREEN, ...PV(215, 410), bump(t, 4.4, 6.4, 0.4));
+  { const r = bump(t, 6.8, 9.2, 0.4); if (r > 0) { ctx.save(); ctx.globalAlpha = r; ctx.strokeStyle = C.GREEN; ctx.lineWidth = 5; ctx.beginPath(); ctx.arc(VALVE_N[0], VALVE_N[1], 24 + 3 * Math.sin(t * 8), 0, 7); ctx.stroke(); ctx.restore(); } }
+  label('Al relajarse, la válvula cierra: no vuelve', 340, 590, C.GREEN, ...VALVE_N, bump(t, 6.8, 9.6, 0.4));
+  // vena con várice
+  dilate(VALVE_V, 78, ease(seg(t, 10.4, 3)) * (1 - seg(t, 23, 1)), 1);
+  blood(VAR, SV_V, t, 'var', seg(t, 9.8, 0.6));
+  { const k = seg(t, 10, 2.5); if (k > 0) { ctx.save(); ctx.globalAlpha = 0.9 * k * (t < 22.5 ? 1 : 1 - seg(t, 22.5, 1)); ctx.strokeStyle = C.RED; ctx.lineWidth = 4;
+    ctx.beginPath(); ctx.arc(VALVE_V[0], VALVE_V[1], 30 + 4 * Math.sin(t * 6), 0, 7); ctx.stroke(); ctx.restore(); } }
+  label('Vena con várice', 640, 180, C.RED, ...PV(715, 420), a2);
+  label('Válvula incompetente', 640, 560, C.RED, ...VALVE_V, fade(t, 10.6, 22, 0.5));
+  { const r = bump(t, 13.6, 17.2, 0.4); if (r > 0) { const [x0, y0] = VAR.at(0.70, 22), [x1, y1] = VAR.at(0.40, 22);
+    arrow(x0, y0, x1, y1, C.RED, 5, r); label('Reflujo: la sangre vuelve a bajar', 600, 300, C.RED, (x0 + x1) / 2, (y0 + y1) / 2, r); } }
+  // panel derecho
+  K.card(770, 128, 480, 114, C.GREEN, 'Vena normal', ['Las válvulas dejan pasar la sangre', 'solo hacia el corazón'], seg(t, 1.0, 0.5), 17);
+  K.card(770, 256, 480, 114, C.RED, 'Válvula incompetente', ['La sangre refluye y se acumula:', 'dilatación de la vena (várice)'], seg(t, 10.0, 0.5), 17);
+  { const a = seg(t, 17.6, 0.5); if (a > 0) { ctx.save(); ctx.globalAlpha = a; rrect(770, 384, 480, 112, 16, '#161B22'); ctx.fillStyle = C.AMBER; ctx.fillRect(770, 384, 6, 112);
+    text('Presión venosa al caminar', 792, 414, 20, C.AMBER, 'bold'); ctx.restore();
+    pressBar(792, 438, 190, 'Normal', lerp(0.95, 0.25, ease(seg(t, 18.4, 2.5))), C.GREEN, a);
+    pressBar(1014, 438, 190, 'Con várices', lerp(0.95, 0.85, ease(seg(t, 18.4, 2.5))), C.RED, a); } }
+  K.card(770, 510, 480, 96, C.VIOLET, 'Consecuencias', ['Edema vespertino · pigmentación', 'lipodermatoesclerosis · úlcera maleolar medial'], seg(t, 21.2, 0.5), 17);
+  K.banner(770, 622, 480, 'Simples: ejercicio, elevar y medias de compresión', C.GREEN, seg(t, 24.2, 0.5));
+}
+
+// ---------- A1 cirugia-20: manga gástrica y bypass en Y de Roux ----------
+const BX = { x: 40, y: 128, w: 700, h: 560 };
+const SG = { x: 70, y: 150, S: 0.92, w: 377, h: 391 };               // estómago (Servier, 377x391)
+const IN = { x: 450, y: 402, S: 0.52, w: 488, h: 452 };              // intestino delgado (Servier, 488x452), extremo cortado arriba
+const PS = (x, y) => [SG.x + x * SG.S, SG.y + y * SG.S];
+const PI = (x, y) => [IN.x + x * IN.S, IN.y + y * IN.S];
+// manga: tubo a lo largo de la curvatura menor (px de la imagen del estómago)
+const TUBE = [[118, 28], [132, 62], [158, 95], [184, 118], [188, 150], [180, 190], [158, 232], [125, 262], [80, 268], [40, 258], [10, 240], [-12, 255], [-12, 320],
+  [20, 345], [60, 372], [110, 394], [150, 394], [150, 330], [190, 300], [222, 256], [245, 205], [246, 150], [228, 108], [196, 70], [176, 48], [165, 28]];
+const STAPLE = [[165, 30], [176, 48], [196, 70], [228, 108], [246, 150], [245, 205], [222, 256], [190, 300], [150, 330]];
+// bypass: reservorio pequeño bajo el cardias
+const POUCH = [[116, 26], [168, 26], [200, 56], [236, 92], [214, 124], [178, 118], [152, 98], [130, 64]];
+function polyPath(pts, f) { pts.forEach((p, i) => { const [x, y] = f(...p); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.closePath(); }
+function card0(a) { ctx.save(); ctx.globalAlpha = a; rrect(BX.x - 6, BX.y - 6, BX.w + 12, BX.h + 12, 18, '#FFFFFF'); ctx.restore(); }
+const OFF = document.createElement('canvas'); OFF.width = 1280; OFF.height = 720; const octx = OFF.getContext('2d');
+function stomachPart(mode, a, dx = 0, dy = 0, tint) {            // mode: 'all' | 'tube' | 'rest' | 'pouch' | 'remnant'
+  if (a <= 0) return;
+  octx.setTransform(1, 0, 0, 1, 0, 0); octx.clearRect(0, 0, 1280, 720); octx.save();
+  octx.beginPath();
+  const pp = (pts) => pts.forEach((p, i) => { const [x, y] = PS(...p); i ? octx.lineTo(x, y) : octx.moveTo(x, y); });
+  if (mode === 'tube' || mode === 'pouch') { pp(mode === 'tube' ? TUBE : POUCH); octx.closePath(); }
+  else if (mode === 'rest' || mode === 'remnant') { octx.rect(0, 0, 1280, 720); pp(mode === 'rest' ? TUBE : POUCH); octx.closePath(); }
+  else octx.rect(0, 0, 1280, 720);
+  octx.clip(mode === 'rest' || mode === 'remnant' ? 'evenodd' : 'nonzero');
+  octx.drawImage(I('st'), SG.x, SG.y, SG.w * SG.S, SG.h * SG.S);
+  if (tint) { octx.globalCompositeOperation = 'source-atop'; octx.fillStyle = tint; octx.fillRect(0, 0, 1280, 720); }
+  octx.restore();
+  ctx.save(); ctx.globalAlpha = a; ctx.drawImage(OFF, dx, dy); ctx.restore();
+}
+function dashed(pts, f, prog, col, w) {
+  const P = poly(pts.map(p => f(...p))); ctx.save(); ctx.lineCap = 'round'; ctx.setLineDash([9, 7]); P.stroke(ctx, 0, prog, w, col); ctx.restore();
+}
+function food(path, t, n, a, sp = 0.3, col = '#F7C531') {
+  if (a <= 0) return; for (let i = 0; i < n; i++) { const u = ((t * sp) + i / n) % 1, [x, y] = path.at(u); ctx.globalAlpha = a * Math.min(1, u * 8, (1 - u) * 8);
+    ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x, y, 4.6, 0, 7); ctx.fill(); } ctx.globalAlpha = 1;
+}
+function bariatrica(t) {
+  K.title('Cirugía bariátrica', 'Manga gástrica y bypass en Y de Roux', C.BLUE);
+  card0(seg(t, 0, 0.7));
+  // ---- fase 1: manga ----
+  const p1 = 1 - seg(t, 12.2, 0.6);
+  if (p1 > 0) {
+    const a = seg(t, 0.3, 0.6) * p1;
+    const sep = ease(seg(t, 6.2, 2.4));
+    stomachPart('tube', a);
+    stomachPart('rest', a * (1 - 0.8 * seg(t, 6.0, 3.4)), 150 * sep, 40 * sep, sep > 0 || t > 5 ? `rgba(120,120,130,${0.55 * seg(t, 5.2, 1)})` : null);
+    const sp = ease(seg(t, 3.3, 2.4)); if (sp > 0) { ctx.globalAlpha = a; dashed(STAPLE, PS, sp, '#2F6FD6', 4.5); ctx.globalAlpha = 1; }
+    ctx.globalAlpha = a;
+    label('Se reseca cerca del 80%', 560, 250, C.AMBER, ...PS(290, 190), fade(t, 4.2, 9.2, 0.5) * p1);
+    label('Línea de grapas', 470, 560, '#7FB2FF', ...PS(246, 160), fade(t, 4.8, 9.2, 0.5) * p1);
+    label('Tubo gástrico angosto', 250, 590, C.GREEN, ...PS(150, 240), fade(t, 8.6, 12.4, 0.5) * p1);
+    label('Reflujo: su complicación típica', 560, 560, C.RED, ...PS(176, 130), fade(t, 10.2, 12.4, 0.5) * p1);
+    ctx.globalAlpha = 1;
+  }
+  K.card(770, 128, 480, 128, C.BLUE, 'Manga gástrica', ['Gastrectomía vertical: restrictiva', 'La técnica más realizada'], seg(t, 1.0, 0.5) * (1 - seg(t, 12.4, 0.4)), 17);
+  K.card(770, 270, 480, 112, C.RED, 'Complicaciones propias', ['Reflujo, fuga de la línea de grapas, estenosis'], seg(t, 9.2, 0.5) * (1 - seg(t, 12.4, 0.4)), 17);
+  // ---- fase 2: bypass en Y de Roux ----
+  const p2 = seg(t, 12.8, 0.6);
+  if (p2 > 0) {
+    ctx.save(); ctx.globalAlpha = p2;
+    ctx.drawImage(I('in'), IN.x, IN.y, IN.w * IN.S, IN.h * IN.S);                 // intestino delgado real, con su extremo cortado
+    const cut = seg(t, 14.2, 1.6);
+    stomachPart('pouch', p2);
+    stomachPart('remnant', p2, 0, 0, `rgba(110,110,120,${0.62 * seg(t, 15.2, 1)})`);
+    if (cut > 0) { ctx.globalAlpha = p2; dashed([...POUCH.slice(3, 7)], PS, cut, '#2F6FD6', 4.5); }
+    ctx.restore();
+    // el asa de Roux: del reservorio al yeyuno (extremo cortado del intestino)
+    const tip = PS(192, 118), end = PI(322, 62);
+    const LIMB = poly([tip, [tip[0] + 40, tip[1] + 36], [tip[0] + 150, tip[1] + 72], [end[0] - 70, end[1] - 60], [end[0] - 18, end[1] - 22], end]);
+    const lk = ease(seg(t, 17, 2.2));
+    if (lk > 0) { ctx.save(); ctx.globalAlpha = p2; ctx.lineCap = 'round'; ctx.lineJoin = 'round'; LIMB.stroke(ctx, 0, lk, 20, '#2B2B2B'); LIMB.stroke(ctx, 0, lk, 15, '#EDB9C3'); LIMB.stroke(ctx, 0, lk, 4, '#F7DDE2', -3); ctx.restore(); }
+    // alimento: esófago → reservorio → asa → yeyuno, sin pasar por el estómago excluido ni el duodeno
+    const FOOD = poly([PS(143, 30), PS(150, 62), PS(180, 88), tip, [tip[0] + 40, tip[1] + 36], [tip[0] + 150, tip[1] + 72], [end[0] - 70, end[1] - 60], [end[0] - 18, end[1] - 22], PI(310, 120), PI(240, 190)]);
+    food(FOOD, t, 9, seg(t, 19.2, 0.5) * p2, 0.17);
+    label('Reservorio gástrico pequeño', 480, 190, C.GREEN, ...PS(190, 80), fade(t, 15.0, 27, 0.5) * p2);
+    label('Estómago y duodeno excluidos', 300, 580, C.RED, ...PS(130, 300), fade(t, 15.8, 27, 0.5) * p2);
+    label('Asa de Roux al yeyuno', 600, 330, C.AMBER, ...LIMB.at(0.5), fade(t, 18.2, 27, 0.5) * p2);
+    label('Llega rápido y hiperosmolar', 600, 620, C.RED, ...PI(300, 130), fade(t, 21.6, 27, 0.5) * p2);
+  }
+  K.card(770, 128, 480, 128, C.GREEN, 'Bypass en Y de Roux', ['Reservorio pequeño y exclusión del duodeno', 'Más pérdida de peso, sostenida'], seg(t, 13.4, 0.5), 17);
+  K.card(770, 270, 480, 112, C.AMBER, 'Elección en reflujo y diabetes', ['Remisión de la diabetes tipo 2 en la mayoría'], seg(t, 17.6, 0.5), 17);
+  K.card(770, 396, 480, 128, C.RED, 'Dumping', ['Precoz: 10 a 30 min, vasomotor y diarrea', 'Tardío: 1 a 3 h, hipoglicemia reactiva'], seg(t, 21.8, 0.5), 17);
+  K.banner(770, 540, 480, 'Comidas pequeñas, sin azúcares simples', C.GREEN, seg(t, 25.2, 0.5));
+  K.banner(770, 600, 480, 'Suplementos de por vida: B12, hierro, calcio, D', C.BLUE, seg(t, 27.4, 0.5));
+}
+
+// ---------- A1 cirugia-21: uña encarnada (onicocriptosis) ----------
+// Base: Blausen.com staff (2014) "Nail Anatomy", CC BY 3.0 (assets/blausen/una_anatomia.png, 750x1500, rótulos quitados). Se usa la vista dorsal (recorte).
+const NX = { sx: 285, sy: 0, sw: 375, sh: 450, x: 60, y: 138, S: 1.15 };
+const PN = (x, y) => [NX.x + (x - NX.sx) * NX.S, NX.y + (y - NX.sy) * NX.S];   // px de la imagen -> pantalla
+const NAIL = { x0: 428, x1: 597, y0: 45, y1: 210 };                                // lámina ungueal en px de la imagen
+function laminaN(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(BX.x - 6, BX.y - 6, BX.w + 12, BX.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(BX.x, BX.y, BX.w, BX.h, 14); ctx.clip();
+  ctx.drawImage(I('na'), NX.sx, NX.sy, NX.sw, NX.sh, NX.x, NX.y, NX.sw * NX.S, NX.sh * NX.S); ctx.restore();
+}
+function nodule(x, y, r, a, col = '#D7263D') { if (a <= 0) return; ctx.globalAlpha = a; const g = ctx.createRadialGradient(x - r * 0.3, y - r * 0.3, r * 0.1, x, y, r);
+  g.addColorStop(0, '#F27A86'); g.addColorStop(1, col); ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); ctx.globalAlpha = 1; }
+function onicocriptosis(t) {
+  K.title('Uña encarnada', 'Borde lateral que penetra el pliegue: estadios y onicectomía parcial', C.AMBER);
+  laminaN(seg(t, 0, 0.7));
+  const fold = PN(NAIL.x1 + 4, 300), edgeTop = PN(NAIL.x1 - 6, NAIL.y0 + 36), edgeBot = PN(NAIL.x1 - 6, NAIL.y1 - 10);
+  // inflamación del pliegue lateral derecho (estadio I), pus (II), granulación (III)
+  const st1 = ease(seg(t, 6.5, 2.4)), st2 = ease(seg(t, 9.6, 1.6)), st3 = ease(seg(t, 12.2, 1.6));
+  const clear = ease(seg(t, 22.0, 1.2));                            // se reseca la cuña y el tejido de granulación
+  const sp = ease(seg(t, 5.2, 1.6));                                // el borde penetra
+  ctx.save(); ctx.beginPath(); ctx.roundRect(BX.x, BX.y, BX.w, BX.h, 14); ctx.clip();
+  if (st1 > 0) { const [fx, fy] = PN(NAIL.x1 + 8, 128); K.glow(fx, fy, 70 + 10 * Math.sin(t * 5), '255,60,60', 0.5 * st1 * (1 - 0.8 * clear)); }
+  // espícula de uña clavada
+  if (sp * (1 - clear) > 0) { const [x, y] = PN(NAIL.x1 - 3, 128 - 8); ctx.globalAlpha = 1 - clear; ctx.fillStyle = '#F4E8F0'; ctx.strokeStyle = '#7A5C6E'; ctx.lineWidth = 1.6;
+    ctx.beginPath(); ctx.moveTo(x - 4, y - 18); ctx.lineTo(x + 9 * sp, y + 2); ctx.lineTo(x - 4, y + 18); ctx.closePath(); ctx.fill(); ctx.stroke(); ctx.globalAlpha = 1; }
+  // pus
+  for (let i = 0; i < 4; i++) { const [x, y] = PN(NAIL.x1 + 14 + (i % 2) * 7, 112 + i * 18); if (st2 * (1 - clear) > 0) { ctx.globalAlpha = st2 * (1 - clear); ctx.fillStyle = '#F6D84B'; ctx.beginPath(); ctx.arc(x + 4, y, 5.5, 0, 7); ctx.fill(); ctx.globalAlpha = 1; } }
+  // granulación
+  for (let i = 0; i < 4; i++) { const [x, y] = PN(NAIL.x1 + 12 + (i % 2) * 6, 100 + i * 22); nodule(x + 3, y, 9 + (i % 2) * 2, st3 * (1 - clear)); }
+  ctx.restore();
+  // causas: corte curvo
+  { const a = fade(t, 3.0, 5.4, 0.4); if (a > 0) { ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = C.AMBER; ctx.lineWidth = 4; ctx.setLineDash([8, 6]); ctx.lineCap = 'round';
+    for (const [x0, sg] of [[NAIL.x0 + 4, 1], [NAIL.x1 - 4, -1]]) { const [ax, ay] = PN(x0, NAIL.y0 + 6), [bx, by] = PN(x0 + sg * 26, NAIL.y0 + 46); ctx.beginPath(); ctx.moveTo(ax, ay); ctx.quadraticCurveTo(ax + sg * 4, by - 4, bx, by); ctx.stroke(); }
+    ctx.restore(); } }
+  label('Lámina ungueal', 190, 560, '#D9D2C3', ...PN(NAIL.x0 + 60, 170), fade(t, 1.0, 3.2, 0.4));
+  label('Pliegue ungueal lateral', 540, 560, '#D9D2C3', ...PN(NAIL.x1 + 14, 220), fade(t, 1.4, 3.2, 0.4));
+  label('Corte curvo: las esquinas se clavan', 300, 612, C.AMBER, ...PN(NAIL.x1 - 18, NAIL.y0 + 24), fade(t, 3.1, 5.4, 0.4));
+  label('El borde penetra el pliegue', 560, 600, C.RED, ...PN(NAIL.x1 + 2, 128), fade(t, 5.8, 12.8, 0.5));
+  label('Pus: infección', 620, 330, '#F6D84B', ...PN(NAIL.x1 + 16, 150), fade(t, 10.0, 14.2, 0.5) * (1 - clear));
+  label('Tejido de granulación', 600, 500, C.RED, ...PN(NAIL.x1 + 14, 170), fade(t, 12.8, 21.6, 0.5));
+  // tratamiento: torniquete en la base del dedo + bloqueo digital
+  { const a = fade(t, 15.4, 27.6, 0.5); if (a > 0) { const [x, y] = PN(NAIL.x0 - 66, 345); ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = '#6B7684'; ctx.strokeStyle = '#2B3340'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.roundRect(x, y, 262, 22, 6); ctx.fill(); ctx.stroke(); ctx.restore(); label('Torniquete y bloqueo digital: lidocaína sin adrenalina', 400, 640, C.BLUE, x + 131, y + 11, a * fade(t, 15.4, 18.6, 0.4) / Math.max(a, 0.001)); } }
+  // cuña lateral: línea de corte y resección
+  { const cut = ease(seg(t, 18.4, 1.6)), out = ease(seg(t, 20.0, 2.0)); const [ax, ay] = PN(NAIL.x1 - 28, NAIL.y0 + 4), [bx, by] = PN(NAIL.x1 - 28, NAIL.y1 + 8);
+    if (cut > 0 && out < 1) { ctx.save(); ctx.globalAlpha = 1 - out * 0.9; ctx.strokeStyle = '#2F6FD6'; ctx.lineWidth = 4; ctx.setLineDash([9, 7]); ctx.lineCap = 'round';
+      ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(ax, ay + (by - ay) * cut); ctx.stroke(); ctx.restore(); }
+    if (cut >= 1) { const [wx0] = PN(NAIL.x1 - 28, 0), [wx1] = PN(NAIL.x1 + 1, 0); ctx.save(); ctx.globalAlpha = 1 - out;
+      ctx.translate(70 * out, -34 * out); ctx.fillStyle = '#F2E4EE'; ctx.strokeStyle = '#7A5C6E'; ctx.lineWidth = 2; ctx.beginPath(); ctx.rect(wx0, ay, wx1 - wx0, by - ay); ctx.fill(); ctx.stroke(); ctx.restore(); } }
+  label('Se reseca la cuña lateral con el borde encarnado', 400, 640, C.GREEN, ...PN(NAIL.x1 - 14, 100), fade(t, 19.0, 22.8, 0.5));
+  // matricectomía química con fenol en el cuerno lateral de la matriz
+  { const [mx, my] = PN(NAIL.x1 - 8, NAIL.y1 + 22); const g = seg(t, 22.8, 1.0) * (1 - seg(t, 28.6, 1));
+    if (g > 0) { ctx.save(); ctx.beginPath(); ctx.roundRect(BX.x, BX.y, BX.w, BX.h, 14); ctx.clip(); K.glow(mx, my, 44, '170,60,200', 0.7 * g); ctx.restore(); }
+    label('Matriz lateral', 250, 600, '#C77DFF', mx, my, fade(t, 22.8, 28.6, 0.4));
+    const n = Math.floor(clamp((t - 23.2) / 1.9, 0, 3)); const dr = ((t - 23.2) % 1.9) / 1.9;
+    if (t > 23.2 && t < 28.6) { drop(mx + 36 - 20 * Math.min(1, dr * 2), my - 70 + 60 * Math.min(1, dr * 2), 1, '#B28DFF'); }
+    if (t > 23.2) { ctx.globalAlpha = fade(t, 23.2, 28.6, 0.4); tag(`Fenol al 88%: aplicación ${Math.min(3, n + 1)} de 3 (30 s)`, 400, 650, '#B28DFF', 15); ctx.globalAlpha = 1; } }
+  // panel derecho
+  K.card(770, 128, 480, 112, C.AMBER, 'Onicocriptosis', ['El borde lateral de la uña penetra el pliegue', 'Casi siempre el ortejo mayor'], seg(t, 1.0, 0.5), 17);
+  K.card(770, 254, 480, 80, C.BLUE, 'Favorecen', ['Corte curvo, calzado estrecho, sudor, trauma'], seg(t, 3.2, 0.5), 17);
+  const chips = [[6.6, 'Estadio I', 'Eritema, edema y dolor', '#FFC247'], [9.8, 'Estadio II', 'Supuración e infección', '#FF8A3D'], [12.4, 'Estadio III', 'Tejido de granulación hipertrófico', C.RED]];
+  chips.forEach(([at, a1, a2, col], i) => { const a = seg(t, at, 0.5); if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; const y = 348 + i * 54;
+    rrect(770, y, 480, 46, 12, '#161B22'); ctx.fillStyle = col; ctx.fillRect(770, y, 6, 46); text(a1, 790, y + 29, 19, col, 'bold'); text(a2, 920, y + 29, 17, C.INK); ctx.restore(); });
+  K.card(770, 516, 480, 100, C.GREEN, 'Estadio I: conservador', ['Baños tibios, elevar el borde con algodón,', 'corte recto y calzado amplio'], seg(t, 14.6, 0.5) * (1 - seg(t, 18.0, 0.4)), 17);
+  K.card(770, 516, 480, 100, C.GREEN, 'Estadios II y III o recidiva', ['Onicectomía parcial + matricectomía con fenol', 'Recidiva < 5%'], seg(t, 18.4, 0.5), 17);
+  K.banner(770, 630, 480, 'No se saca la uña entera: solo la cuña lateral', C.GREEN, seg(t, 25.4, 0.5));
+}
+
+const SCN = { onicocriptosis: { f: onicocriptosis, dur: 31, credit: () => credit('Ilustración: uña (dedo de la mano; igual en el ortejo), Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios'), imgs: { na: '../assets/blausen/una_anatomia.png' } },
+  bariatrica: { f: bariatrica, dur: 31, credit: () => credit('Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios'), imgs: { st: '../assets/servier/estomago.png', in: '../assets/servier/intestino_delgado.png' } },
+  varices: { f: varices, dur: 28, credit: () => credit('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios'), imgs: { vv: '../assets/blausen/varices_valvula.png' } } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); SCN[V].credit(); };
+LOAD(SCN[V].imgs);
+</script>
+</body></html>

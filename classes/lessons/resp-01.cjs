@@ -42,7 +42,8 @@ module.exports = {
       cards: [
         { title: 'Define la obstrucción', tag: 'Paso 1', kind: 'key', items: [
           { t: 'VEF1/CVF < 0,70', d: 'O bajo el límite inferior de normalidad',
-            say: 'Ahora el primer paso de la lectura. Hay patrón obstructivo cuando la relación VEF uno sobre CVF es menor de cero coma setenta, o está bajo el límite inferior de normalidad. La lógica es simple: en la obstrucción el aire sale lento, entonces en el primer segundo sale una fracción menor del total.' },
+            say: 'Ahora el primer paso de la lectura. Hay patrón obstructivo cuando la relación VEF uno sobre CVF es menor de cero coma setenta, o está bajo el límite inferior de normalidad. La lógica es simple: en la obstrucción el aire sale lento, entonces en el primer segundo sale una fracción menor del total. Mira estas tres curvas flujo-volumen: la obstructiva se hunde y se vuelve cóncava, y la restrictiva es una normal en miniatura.',
+            photo: { src: 'biblioteca/02_neumologia/resp-01/S1_flujo-volumen__propio.svg', label: 'Las tres curvas', at: 'Mira estas tres curvas', credit: 'Dibujo propio (esquema)' } },
           { t: 'Sin relación baja, no hay obstrucción', d: 'Aunque el VEF1 esté bajo',
             say: 'Y ojo: sin relación baja no hay obstrucción, aunque el VEF uno esté bajo. Un VEF uno bajo con relación normal es otra historia, que vemos al final.' },
         ] },
@@ -119,6 +120,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Espirometría normal',
+      title: 'Provocación bronquial con metacolina',
+      cards: [
+        { title: 'Cuándo se pide', tag: 'Sospecha de asma', kind: 'key', items: [
+          { t: 'Clínica de asma, curva normal', d: 'Sin obstrucción ni reversibilidad',
+            say: 'Hay un paciente que se te va a aparecer: tiene tos, disnea o sibilancias que van y vienen, pero la espirometría salió normal y no revierte con broncodilatador. Entre crisis, el asmático puede tener la curva perfecta.' },
+          { t: 'Mide hiperreactividad', d: 'Metacolina o histamina en dosis crecientes',
+            say: 'Para eso existe la prueba de provocación bronquial. Se hace inhalar metacolina en concentraciones crecientes, con una espirometría después de cada dosis, y se mide cuánto cuesta que el bronquio se cierre.' },
+        ] },
+        { title: 'Cómo se lee', tag: 'Valor predictivo negativo', kind: 'criteria', items: [
+          { t: 'Positiva: VEF1 cae 20% o más', d: 'PC20 bajo el umbral del laboratorio',
+            say: 'Es positiva si el VEF uno cae veinte por ciento o más respecto del basal.' },
+          { t: 'Negativa: descarta el asma', d: 'En paciente sin tratamiento',
+            say: 'Y aquí está su valor: una prueba negativa, en un paciente que no usa tratamiento, prácticamente descarta asma. Es una prueba de exclusión.' },
+          { t: 'Positiva sola no confirma', d: 'También en rinitis, EPOC o infección viral',
+            say: 'Ojo con el sentido contrario: una prueba positiva no confirma el asma por sí sola, porque también puede dar positiva en rinitis alérgica, en EPOC o después de una infección viral.' },
+        ] },
+        { title: 'Quién la hace', tag: 'Laboratorio', kind: 'alert', items: [
+          { t: 'Solo laboratorio de función pulmonar', d: 'VEF1 basal > 70%, sin crisis reciente',
+            say: 'La realiza el especialista, en un laboratorio de función pulmonar, con VEF uno basal sobre setenta por ciento y sin una crisis reciente. Tú no la haces: la interpretas y la usas en el algoritmo diagnóstico.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -135,20 +162,6 @@ module.exports = {
           say: 'En la obstrucción el pico es más bajo y la rama de bajada se hunde hacia adentro, como una cuchara. Esa concavidad es la vía aérea que se cierra antes de tiempo.' },
         { note: 'Forma normal, más pequeña',
           say: 'En la restricción la forma se conserva, pero toda la curva es más pequeña: el pulmón no se llena. La capacidad vital forzada está baja.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Las curvas flujo-volumen',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-01/S1_flujo-volumen__propio.svg', label: 'Normal, obstructiva y restrictiva', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'La forma de la curva diagnostica',
-          say: 'Esta es la curva flujo volumen. La normal sube rápido y baja en línea recta. En la obstructiva, la rama de bajada se excava, como una cuchara. En la restrictiva, la curva tiene forma normal pero es pequeña: el volumen está reducido.' },
       ],
     },
 
@@ -243,6 +256,44 @@ module.exports = {
         options: 'Las opciones: fibrosis pulmonar, insuficiencia cardíaca derecha, EPOC, asma o bronquiectasias. Piénsalo.',
         answer: 'Es la C, EPOC. La relación es muy baja: hay obstrucción. No mejora con el broncodilatador: es fija. Eso es EPOC, y con un VEF uno de cincuenta por ciento, la limitación es moderada. La fibrosis cae porque da un patrón restrictivo, con relación normal. Y fíjate que la relación tan baja no te dice la severidad; eso lo dice el VEF uno.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 163",
+      "stem": "Una paciente de 19 años presenta disnea asociada a tos y ocasionalmente sibilancias. Refiere que sus síntomas suelen ser más frecuentes e intensos durante la noche, y ha notado aumento de su intensidad y frecuencia desde que adoptó un gato hace un mes. Sus signos vitales son normales, satura 98% con FiO2 ambiental y su examen cardiopulmonar es normal. La radiografía de tórax es normal. Se realiza una espirometría basal y post broncodilatador que muestra parámetros dentro de la normalidad.",
+      "question": "¿Cuál es el examen de elección para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "IgE sérica total"
+        },
+        {
+          "letter": "B",
+          "text": "TAC de tórax"
+        },
+        {
+          "letter": "C",
+          "text": "Prueba de provocación bronquial con metacolina"
+        },
+        {
+          "letter": "D",
+          "text": "Prueba cutánea para alérgenos inhalados"
+        },
+        {
+          "letter": "E",
+          "text": "Serología para Mycoplasma pneumoniae"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Ante síntomas sugerentes de asma con espirometría normal, se busca hiperreactividad bronquial con la prueba de provocación con metacolina: una caída del VEF1 de 20% con dosis bajas apoya el asma, y una prueba negativa prácticamente lo descarta. El prick test demuestra sensibilización al gato, pero no confirma asma.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Una joven de diecinueve años tiene disnea, tos y sibilancias de predominio nocturno, que empeoraron desde que adoptó un gato. Su examen, su radiografía y su espirometría con broncodilatador son normales.",
+        "question": "¿Cuál es el examen de elección para confirmar el diagnóstico?",
+        "options": "Las opciones: IgE total, TAC de tórax, provocación bronquial con metacolina, prueba cutánea para alérgenos o serología para Mycoplasma. Piénsalo.",
+        "answer": "Es la C. Con sospecha de asma y espirometría normal, la metacolina demuestra la hiperreactividad bronquial. La prueba cutánea tienta por el gato, pero solo muestra sensibilización, no asma."
+      }
     },
 
     {

@@ -151,7 +151,8 @@ module.exports = {
         ] },
         { title: 'Hueso y abdomen', tag: 'Bones · groans', kind: 'criteria', items: [
           { t: 'Dolor óseo, osteoporosis cortical', d: 'Radio distal; osteítis fibrosa quística',
-            say: 'En el hueso, dolores difusos y osteoporosis de predominio cortical, típicamente en el radio distal. En casos avanzados, osteítis fibrosa quística con tumores pardos.' },
+            say: 'En el hueso, dolores difusos y osteoporosis de predominio cortical, típicamente en el radio distal. En casos avanzados, osteítis fibrosa quística con tumores pardos: mira esta radiografía de falanges, con lesiones quísticas por reabsorción del hueso.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-16/03_osteitis_fibrosa_falanges__helms_p15.jpg', label: 'Osteítis fibrosa quística', at: 'mira esta radiografía', credit: 'Fundamentals of Skeletal Radiology (Helms), p. 15' } },
           { t: 'Constipación, náuseas, vómitos', d: 'Pancreatitis y úlcera péptica',
             say: 'En el abdomen, constipación pertinaz, náuseas, vómitos y anorexia, además de pancreatitis aguda y úlcera péptica.' },
         ] },
@@ -159,7 +160,11 @@ module.exports = {
           { t: 'Fatiga, depresión, letargia', d: 'Hiporreflexia, hasta el coma',
             say: 'En lo neuropsiquiátrico, fatiga, debilidad, hiporreflexia, depresión, y en los casos graves psicosis, letargia y coma.' },
           { t: 'QT corto', d: 'HTA y arritmias ventriculares',
-            say: 'Y en el electrocardiograma, un dato que se pregunta: el intervalo QT acortado, además de hipertensión y arritmias ventriculares.' },
+            say: 'Y en el electrocardiograma, un dato que se pregunta: el intervalo QT acortado: mira este esquema, la hipercalcemia lo acorta y la hipocalcemia lo alarga, y este electrocardiograma, con la T casi pegada al QRS. Además, hipertensión y arritmias ventriculares.',
+            photos: [
+              { src: 'biblioteca/05_endocrinologia/endo-16/01_qt_calcio_esquema__ecg-basics_p331.jpg', label: 'QT y calcio', at: 'mira este esquema', credit: 'ECG from Basics to Essentials, p. 331' },
+              { src: 'biblioteca/05_endocrinologia/endo-16/02_ecg_hipercalcemia_qt_corto__ecg-basics_p331.jpg', label: 'ECG de hipercalcemia', at: 'y este electrocardiograma', credit: 'ECG from Basics to Essentials, p. 331' },
+            ] },
         ] },
       ],
     },
@@ -224,7 +229,8 @@ module.exports = {
           { t: 'Litiasis, osteoporosis, fracturas', d: 'Paratiroidectomía: única cura',
             say: 'Volvamos al hiperparatiroidismo primario. La paratiroidectomía es el único tratamiento curativo, y en el paciente sintomático, con litiasis, osteoporosis o fracturas, es mandatoria.' },
           { t: 'Localizar antes de operar', d: 'Cintigrama sestamibi y ecografía cervical',
-            say: 'Antes de operar se localiza el adenoma con cintigrama con sestamibi y ecografía cervical, lo que permite una cirugía focalizada. Ojo: la localización es para planificar la cirugía, no para diagnosticar. El diagnóstico ya lo hizo la bioquímica.' },
+            say: 'Antes de operar se localiza el adenoma con cintigrama con sestamibi, donde el adenoma se ve como un foco que sigue captando, el que señala la flecha, y ecografía cervical, lo que permite una cirugía focalizada. Ojo: la localización es para planificar la cirugía, no para diagnosticar. El diagnóstico ya lo hizo la bioquímica.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-16/04_sestamibi_adenoma_paratiroideo__brant_p1466.jpg', label: 'Cintigrama con sestamibi', at: 'donde el adenoma', credit: 'Fundamentals of Diagnostic Radiology (Brant and Helms), p. 1466' } },
         ] },
         { title: 'Asintomático', tag: 'Basta un criterio', kind: 'criteria', items: [
           { t: 'Menor de 50 años', d: 'O calcio > 1 mg/dL sobre el límite',
@@ -254,25 +260,6 @@ module.exports = {
           say: 'Las paratiroides liberan PTH, que tiene una sola meta: subir el calcio. Estimula a los osteoclastos, hace que el riñón retenga calcio y bote fósforo, y activa la vitamina D para que el intestino absorba calcio. Por eso el hiperparatiroidismo tiene el calcio alto y el fósforo bajo. Con la PTH suprimida, piensa en un cáncer.' },
       ],
     },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'El calcio en el ECG',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-16/01_qt_calcio_esquema__ecg-basics_p331.jpg', label: 'QT y calcio', credit: 'ECG from Basics to Essentials, p. 331' },
-        { src: 'biblioteca/05_endocrinologia/endo-16/02_ecg_hipercalcemia_qt_corto__ecg-basics_p331.jpg', label: 'ECG de hipercalcemia', credit: 'ECG from Basics to Essentials, p. 331' },
-      ],
-      steps: [
-        { note: 'Hipercalcemia acorta, hipocalcemia alarga',
-          say: 'El calcio cambia el QT. La hipercalcemia lo acorta; la hipocalcemia lo alarga.' },
-        { note: 'QT corto',
-          say: 'Este es un electrocardiograma de hipercalcemia: el QT es corto, la T aparece casi pegada al QRS.' },
-      ],
-    },
-
     {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
@@ -435,6 +422,81 @@ module.exports = {
         options: 'Las opciones: resonancia magnética, cintigrafía con sestamibi, hidratación con suero fisiológico, paratiroidectomía de urgencia, o carbonato de calcio. Piénsalo.',
         answer: 'Es la C. Esta pregunta enseña algo distinto a la anterior: aunque la PTH alta ya te diga que es un hiperparatiroidismo, la urgencia es la misma, hidratar con suero fisiológico. El distractor es el sestamibi, o la cirugía, porque tratan la causa; pero la localización y la paratiroidectomía son electivas, una vez que el paciente está estable.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.4.010 · PTH, calcemia",
+      "stem": "Mujer de 79 años, hospitalizada por desnutrición y una neumonía, sin síntomas neuromusculares. Signos de Chvostek y Trousseau negativos. Exámenes: calcio plasmático total 7,8 mg/dL (VN 8,5–10,5), albúmina 2,0 g/dL, fósforo 3,5 mg/dL, magnesio 2,0 mg/dL, creatinina 0,8 mg/dL.",
+      "question": "¿Cuál es la interpretación más adecuada de la calcemia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hipocalcemia verdadera; iniciar gluconato de calcio endovenoso"
+        },
+        {
+          "letter": "B",
+          "text": "Déficit de vitamina D; iniciar colecalciferol en dosis altas"
+        },
+        {
+          "letter": "C",
+          "text": "Hipoparatiroidismo; solicitar PTH e iniciar calcitriol"
+        },
+        {
+          "letter": "D",
+          "text": "Calcemia corregida normal (cerca de 9,4 mg/dL), por hipoalbuminemia; no requiere tratamiento de calcio"
+        },
+        {
+          "letter": "E",
+          "text": "Hipocalcemia por hipomagnesemia"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El calcio total se une en un 40 % a la albúmina. Calcio corregido = calcio medido + 0,8 × (4 − albúmina) = 7,8 + 1,6 = 9,4 mg/dL: normal. Es una pseudohipocalcemia por hipoalbuminemia, asintomática; si hay duda, se mide el calcio iónico. La PTH solo se estudia ante una hipocalcemia verdadera.",
+      "say": {
+        "stem": "Mujer de setenta y nueve años, desnutrida y hospitalizada por neumonía, sin síntomas. Su calcio total es siete coma ocho, pero su albúmina es solo dos.",
+        "question": "¿Cuál es la interpretación más adecuada de la calcemia?",
+        "options": "Las opciones: hipocalcemia verdadera con gluconato de calcio, déficit de vitamina D, hipoparatiroidismo, calcio corregido normal por hipoalbuminemia o hipocalcemia por magnesio bajo. Piénsalo.",
+        "answer": "Es la D. Por cada gramo que baja la albúmina se suman cero coma ocho al calcio, y aquí el corregido queda en nueve coma cuatro, normal. El gluconato de calcio tienta por el siete coma ocho, pero la paciente no tiene síntomas y su calcio libre es normal."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2016 · Pregunta 156",
+      "stem": "Un paciente de 64 años, con antecedente de haber sido tratado por un mieloma con buena respuesta, consulta ahora por un cuadro de astenia, constipación y aumento del volumen urinario, al que luego se agrega desorientación. Al examen físico se aprecia soporoso y pálido. En sus exámenes presenta hematocrito 27%, Hb 9 g/dl, VHS 93 mm/h, proteínas plasmáticas 7,8 g/dl, albúmina 3,7 g/dl, sodio 140 mEq/L, potasio 4,8 mEq/L y calcio 14,3 mg/dl.",
+      "question": "En este momento, ¿qué debe recibir?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Calcitonina"
+        },
+        {
+          "letter": "B",
+          "text": "Solución salina al 0,9%"
+        },
+        {
+          "letter": "C",
+          "text": "Vitamina D"
+        },
+        {
+          "letter": "D",
+          "text": "Bifosfonatos"
+        },
+        {
+          "letter": "E",
+          "text": "Corticoides"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Hipercalcemia severa sintomática (calcio sobre 14 mg/dL con compromiso de conciencia) por recaída del mieloma. La primera medida es la hidratación con solución fisiológica al 0,9 %, porque la hipercalcemia produce poliuria y deshidratación. Luego se agregan bifosfonatos para mantener el efecto; la calcitonina es de rescate y los corticoides son complementarios.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil dieciséis. Paciente de sesenta y cuatro años, tratado por un mieloma, con astenia, constipación, poliuria y luego desorientación. Está soporoso y pálido, con anemia, VHS de noventa y tres y calcio de catorce coma tres.",
+        "question": "En este momento, ¿qué debe recibir?",
+        "options": "Las opciones: calcitonina, solución salina, vitamina D, bifosfonatos, o corticoides. Piénsalo.",
+        "answer": "Es la B, solución salina. La hipercalcemia produce poliuria y deshidrata, y lo primero es reponer volumen con suero fisiológico. Los bifosfonatos tientan porque son el tratamiento específico, pero tardan dos a cuatro días en actuar y se agregan después de hidratar."
+      }
     },
 
     {

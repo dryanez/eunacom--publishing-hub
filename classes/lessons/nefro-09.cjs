@@ -64,7 +64,8 @@ module.exports = {
         { show: ['pr'], note: 'Se afecta la aurícula',
           say: 'Luego se alarga el PR y la onda P se va aplanando, entre seis coma cinco y siete.' },
         { show: ['qrs'], note: 'Desaparece la P, se ensancha el QRS',
-          say: 'Entre siete y ocho, la P desaparece por completo y el QRS se ensancha. Aquí ya estás frente a un corazón al borde del paro.' },
+          say: 'Entre siete y ocho, la P desaparece por completo y el QRS se ensancha. Aquí ya estás frente a un corazón al borde del paro. Mira estos electrocardiogramas del mismo paciente: con potasio de seis coma ocho, de nueve coma uno, y después de la diálisis.',
+            photo: { src: 'nefro-09/ecg_hiperk.jpg', label: 'ECG antes y tras diálisis', at: 'Mira estos electrocardiogramas', credit: 'Manual CTO Nefrología, 14.ª ed.' } },
         { show: ['sin', 'fv'], note: 'El final: onda sinusoidal y paro',
           say: 'Después viene el ritmo idioventricular, la bradicardia extrema, el bloqueo auriculoventricular avanzado y el patrón en onda sinusoidal. El último paso es la fibrilación ventricular o la asistolia. Fíjate en la palabra traicionera: no siempre se recorren todas las etapas, y el paciente puede saltar al paro desde cualquiera.' },
       ],
@@ -98,35 +99,14 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      light: true,
-      kicker: 'ECG real',
-      title: 'La progresión en un paciente',
-      images: [{ src: 'nefro-09/ecg_hiperk.jpg', credit: 'Manual CTO Nefrología, 14.ª ed.', alt: 'ECG con hiperpotasemia a 6,8 y 9,1 y tras diálisis' }],
-      steps: [
-        { note: 'K 6,8: T alta y picuda',
-          marks: [{ x: 13, y: 29, w: 9, h: 13, label: 'T picuda' }],
-          say: 'Veamos el mismo paciente en tres momentos. Primero, con potasio de seis coma ocho. Mira la derivación V tres: la onda T es alta, picuda, de base angosta. Es el primer signo.' },
-        { note: 'K 9,1: T gigante',
-          marks: [{ x: 41, y: 35, w: 11, h: 17, label: 'T gigante' }],
-          say: 'Ahora con potasio de nueve coma uno. La T se volvió gigante, más alta que el propio QRS.' },
-        { note: 'K 9,1: QRS ancho, sin P',
-          marks: [{ x: 41, y: 63, w: 10, h: 20, label: 'QRS ancho', labelTop: true }],
-          say: 'Y el QRS se ensanchó tanto que empieza a fusionarse con la T. Ya no ves onda P. Este trazado está a un paso de la onda sinusoidal y del paro: es calcio endovenoso ahora.' },
-        { note: 'Tras diálisis: vuelve a la normalidad',
-          marks: [{ x: 68, y: 4, w: 31, h: 92, shape: 'box', label: 'Tras diálisis' }],
-          say: 'Y este es el mismo paciente después de la diálisis. QRS angosto, T normal. Todo lo que viste era reversible: por eso el electrocardiograma decide la urgencia.' },
-      ],
-    },
-
-    {
       type: 'points',
       kicker: 'Clínica',
       title: '¿Cómo llega el paciente con hiperkalemia grave?',
       cards: [
         { title: 'Corazón', tag: 'Lo que mata', kind: 'alert', items: [
           { t: 'Bradicardia con QRS ancho', d: 'Hiperkalemia hasta demostrar lo contrario',
-            say: 'Veamos cómo llega. En el corazón, el cuadro típico es la bradicardia severa con QRS ancho. Y una regla que se pregunta: en un paciente renal crónico o dializado, bradicardia con QRS ancho es hiperkalemia hasta que se demuestre lo contrario.' },
+            say: 'Veamos cómo llega. En el corazón, el cuadro típico es la bradicardia severa con QRS ancho. Y una regla que se pregunta: en un paciente renal crónico o dializado, bradicardia con QRS ancho es hiperkalemia hasta que se demuestre lo contrario. Y en este trazado, ondas T altas y picudas y un QRS ancho.',
+            photo: { src: 'biblioteca/03_nefrologia/nefro-09/01_ecg-hiperpotasemia-t-picudas-sinusoidal_alt1__cto-cardio_p19.jpg', label: 'T picudas y QRS ancho', at: 'Y en este trazado', credit: 'Manual CTO Cardiología 14.ª ed., p. 19' } },
           { t: 'Hipotensión, síncope, paro', d: 'Por bloqueo y bajo gasto',
             say: 'Esa bradicardia puede dar hipotensión, síncope y, al final, el paro. Por eso ante la sospecha, lo primero es un monitor y un electrocardiograma, que están disponibles en segundos.' },
         ] },
@@ -298,15 +278,15 @@ module.exports = {
 
     {
       type: 'image',
-      light: true,
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cada fármaco, su tiempo',
       images: [
-        { src: 'biblioteca/03_nefrologia/nefro-09/01_ecg-hiperpotasemia-t-picudas-sinusoidal_alt1__cto-cardio_p19.jpg', label: 'Hiperpotasemia grave: T picudas y QRS ancho', credit: 'Manual CTO Cardiología 14.ª ed., p. 19' },
+        { src: 'animaciones/nefro-09/A1_tiempos_hiperkalemia.mp4', label: 'Tiempos de acción', credit: 'Animación propia (gráfico)' },
       ],
       steps: [
-        { note: 'ECG en la hiperpotasemia',
-          say: 'Y este es otro paciente, con hiperpotasemia grave: ondas T altas y picudas, ya no se ve la onda P, y el QRS está ancho. Es calcio endovenoso ya.' },
+        { note: 'El calcio compra tiempo; otros bajan el potasio',
+          say: 'El gluconato de calcio actúa en uno a tres minutos y protege la membrana, pero no baja el potasio. La insulina con glucosa y el salbutamol lo redistribuyen a los quince a treinta minutos. La furosemida lo elimina si el paciente orina, y la hemodiálisis lo elimina de forma masiva y definitiva.' },
       ],
     },
 
@@ -403,6 +383,81 @@ module.exports = {
         options: 'Las opciones: síndrome de Guillain-Barré, hipokalemia, hiperkalemia, hipocalcemia, o hiperfosfatemia. Piénsalo.',
         answer: 'Es la C, hiperkalemia. Junta las tres piezas: un dializado que omite su sesión, una tetraparesia flácida y una bradicardia. El distractor es el Guillain-Barré, que también da debilidad ascendente, pero no explica la bradicardia ni el contexto. Y la hipokalemia también da debilidad, pero un dializado que faltó a su sesión acumula potasio, no lo pierde. El paso siguiente es el electrocardiograma y el calcio.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 180",
+      "stem": "Un paciente de 70 años, sin antecedentes de importancia, presenta un síncope de reposo sin pródromo, con recuperación completa. Al examen físico se encuentra orientado, con Glasgow 15 y frecuencia cardíaca de 40 latidos por minuto.",
+      "question": "¿Cuál es el examen de elección para iniciar el estudio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Monitoreo electrocardiográfico de 24 horas"
+        },
+        {
+          "letter": "B",
+          "text": "Ecocardiograma"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de cerebro"
+        },
+        {
+          "letter": "D",
+          "text": "Resonancia magnética de cerebro"
+        },
+        {
+          "letter": "E",
+          "text": "Electrocardiograma"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Síncope sin pródromo, en reposo y con bradicardia sugiere causa cardíaca arrítmica. El ECG de 12 derivaciones es el examen inicial: muestra bloqueos AV, disfunción sinusal y signos de trastornos electrolíticos como la hiperkalemia. El Holter se pide si el ECG no es concluyente.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Un hombre de setenta años, sano, tiene un síncope en reposo, sin aviso, y se recupera por completo. Está orientado y con frecuencia cardíaca de cuarenta por minuto.",
+        "question": "¿Cuál es el examen de elección para iniciar el estudio?",
+        "options": "Las opciones: Holter de veinticuatro horas, ecocardiograma, tomografía de cerebro, resonancia de cerebro o electrocardiograma. Piénsalo.",
+        "answer": "Es la E, el electrocardiograma. Un síncope sin pródromo con bradicardia es arritmia hasta demostrar lo contrario, y el electrocardiograma muestra el bloqueo o el potasio alto al instante. El Holter tienta, pero va después, cuando el electrocardiograma no aclara."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.010 · Electrolitos plasmáticos",
+      "stem": "Hombre de 62 años, asintomático, con policitemia vera y trombocitosis de 1.100.000/mm³. En exámenes de control, K 6,7 mEq/L, creatinina 0,9 mg/dL, HCO3 24 mEq/L. No usa fármacos que eleven el potasio. ECG: ritmo sinusal, sin ondas T picudas ni alteraciones del QRS.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repetir el potasio en plasma con heparina, sin torniquete prolongado"
+        },
+        {
+          "letter": "B",
+          "text": "Insulina con glucosa IV y salbutamol nebulizado"
+        },
+        {
+          "letter": "C",
+          "text": "Hemodiálisis de urgencia"
+        },
+        {
+          "letter": "D",
+          "text": "Gluconato de calcio IV de inmediato"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar resinas de intercambio y dieta sin potasio"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Hiperkalemia sin causa, con función renal y ECG normales, en un paciente con trombocitosis extrema: sospechar seudohiperkalemia, porque las plaquetas liberan potasio al coagular la muestra en el tubo. Se confirma midiendo potasio en plasma (tubo heparinizado), que será normal. Tratar sin confirmar es un error.",
+      "say": {
+        "stem": "Un hombre de sesenta y dos años, sin síntomas, con policitemia vera y más de un millón de plaquetas, tiene un potasio de seis coma siete en un control. La creatinina es normal, no usa fármacos que suban el potasio, y el electrocardiograma es completamente normal.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: repetir el potasio en plasma, insulina con glucosa, hemodiálisis, calcio o resinas con dieta. Piénsalo.",
+        "answer": "Es la A. Tantas plaquetas liberan potasio cuando la sangre coagula en el tubo, y el número sube solo en la muestra; se repite en plasma con heparina. El calcio tienta por el valor alto, pero sin cambios en el electrocardiograma y sin causa, primero se confirma que la hiperkalemia sea real."
+      }
     },
 
     {

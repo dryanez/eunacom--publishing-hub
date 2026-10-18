@@ -79,7 +79,8 @@ module.exports = {
         ] },
         { title: 'Estudio posterior', tag: 'Cuando ya está tratado', kind: 'key', items: [
           { t: 'RMN de CAI y ángulo pontocerebeloso', d: 'Con gadolinio, ya iniciado el tratamiento',
-            say: 'Una vez que el paciente está tratado, se pide una resonancia del conducto auditivo interno y del ángulo pontocerebeloso con gadolinio. La razón es descartar un schwannoma vestibular, el neurinoma del acústico, que está presente en uno a tres por ciento de los casos.' },
+            say: 'Una vez que el paciente está tratado, se pide una resonancia del conducto auditivo interno y del ángulo pontocerebeloso con gadolinio. La razón es descartar un schwannoma vestibular, el neurinoma del acústico, que está presente en uno a tres por ciento de los casos. Mira esta resonancia con gadolinio: una masa redondeada que capta el contraste, junto al tronco, en el ángulo pontocerebeloso.',
+            photo: { src: 'biblioteca/17_otorrino/orl-06/01_schwannoma-vestibular-rm-con-contraste__bailey-love_p687.jpg', label: 'Schwannoma vestibular en RM', at: 'Mira esta resonancia', credit: 'Bailey & Love 27.ª ed., p. 687' } },
           { t: 'Es el examen de elección', d: 'Ve tumores menores de 5 mm',
             say: 'La resonancia es el examen de elección para el neurinoma, porque detecta tumores pequeños dentro del conducto que el TAC no ve.' },
         ] },
@@ -164,25 +165,95 @@ module.exports = {
           { t: 'GES para 65 años o más', d: 'Hipoacusia bilateral',
             say: 'En Chile, la hipoacusia bilateral en personas de sesenta y cinco años y más tiene garantía explícita en salud, la número cincuenta y seis.' },
           { t: 'Audífonos bilaterales y rehabilitación', d: 'Incluye confirmación diagnóstica',
-            say: 'Garantiza la confirmación diagnóstica, la entrega e implementación de audífonos en ambos oídos y la rehabilitación auditiva.' },
+            say: 'Garantiza la confirmación diagnóstica, la entrega e implementación de audífonos en ambos oídos y la rehabilitación auditiva. Este es un audífono retroauricular, el que se apoya detrás de la oreja.',
+            photo: { src: 'biblioteca/17_otorrino/orl-06/02_audifono-retroauricular__bailey-love_p734.jpg', label: 'Audífono retroauricular', at: 'Este es un audífono retroauricular', credit: 'Bailey & Love 27.ª ed., p. 734' } },
         ] },
       ],
     },
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Neurinoma en la resonancia y audífono',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Las células ciliadas que no se regeneran',
       images: [
-        { src: 'biblioteca/17_otorrino/orl-06/01_schwannoma-vestibular-rm-con-contraste__bailey-love_p687.jpg', label: 'Resonancia con contraste, corte coronal: masa redondeada en el ángulo pontocerebeloso (schwannoma vestibular)', credit: 'Bailey & Love 27.ª ed., p. 687' },
-        { src: 'biblioteca/17_otorrino/orl-06/02_audifono-retroauricular__bailey-love_p734.jpg', label: 'Audífono retroauricular colocado sobre la oreja', credit: 'Bailey & Love 27.ª ed., p. 734' },
+        { src: 'animaciones/orl-06/A1_ruido_presbiacusia_sordera_subita.mp4', label: 'Órgano de Corti: ruido, presbiacusia y sordera súbita', credit: 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'El neurinoma capta contraste',
-          say: 'Esta es la resonancia con gadolinio que se pide en toda hipoacusia súbita. Fíjate en la masa redondeada que capta el contraste, ubicada junto al tronco, en el ángulo pontocerebeloso. Eso es un schwannoma vestibular, y por eso la resonancia es el examen de elección.' },
-        { note: 'El audífono se apoya detrás de la oreja',
-          say: 'Y este es un audífono retroauricular, el tipo de ayuda que entrega la garantía GES a los mayores de sesenta y cinco años con presbiacusia bilateral.' },
+        { note: 'Muesca en 4000 hercios, caída de agudos, caída súbita',
+          say: 'Mira el órgano de Corti. Con ruido sobre ochenta y cinco decibeles, las células ciliadas externas se destruyen y el audiograma muestra una muesca en cuatro mil hertz. En la presbiacusia caen los agudos en ambos oídos: el paciente oye, pero no entiende. Y la súbita cae treinta decibeles o más en menos de setenta y dos horas: urgencia, con corticoides.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Tinitus',
+      title: 'Tinitus: qué es, qué lo causa y cuándo derivar',
+      cards: [
+        { title: 'Qué es y qué orienta', tag: 'Acúfeno', kind: 'key', items: [
+          { t: 'Sonido sin fuente externa', d: 'El 95 % es subjetivo: solo lo oye el paciente',
+            say: 'El tinitus, o acúfeno, es percibir un sonido sin fuente externa. En el noventa y cinco por ciento es subjetivo, solo lo oye el paciente, y se asocia a hipoacusia sensorioneural, presbiacusia, trauma acústico, Ménière, cerumen, otosclerosis y fármacos ototóxicos como aspirina en dosis altas, aminoglucósidos, furosemida y cisplatino.' },
+          { t: 'Pulsátil: sospecha vascular', d: 'Sincrónico con el pulso; de clic: mioclonías',
+            say: 'Si el tinitus late con el pulso, piensa en una causa vascular: tumor glómico, estenosis carotídea, malformación arteriovenosa o hipertensión intracraneal idiopática. Y si es un clic, sugiere mioclonías del paladar o del músculo del estribo.' },
+        ] },
+        { title: 'Qué haces tú', tag: 'Manejo inicial', kind: 'pharma', items: [
+          { t: 'Otoscopía, ototóxicos y audiometría', d: 'Retirar el cerumen; suspender el fármaco',
+            say: 'Haces otoscopía para sacar un tapón o detectar una otitis, suspendes el fármaco ototóxico, pides audiometría y tratas la causa.' },
+          { t: 'Explicar y evitar el silencio absoluto', d: 'Ruido de fondo; menos cafeína y tabaco; tratar ansiedad e insomnio',
+            say: 'Explicas que en la mayoría es benigno, recomiendas ruido de fondo y no el silencio absoluto, menos cafeína y tabaco, y tratas la ansiedad y el insomnio. No existe un fármaco que lo cure.' },
+        ] },
+        { title: 'Cuándo derivar', tag: 'Banderas rojas', kind: 'alert', items: [
+          { t: 'Unilateral o asimétrico', d: 'Descartar schwannoma vestibular con resonancia',
+            say: 'Se deriva a otorrino el tinitus unilateral o asimétrico, para descartar un schwannoma vestibular con resonancia.' },
+          { t: 'Pulsátil, súbito, con vértigo o déficit', d: 'O muy invalidante',
+            say: 'También el pulsátil, el que acompaña una hipoacusia súbita, vértigo o signos neurológicos, y el que es muy invalidante.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Trauma del oído',
+      title: 'Barotrauma y perforación timpánica traumática',
+      cards: [
+        { title: 'Barotrauma ótico', tag: 'Cambios de presión', kind: 'key', items: [
+          { t: 'Trompa que no ventila', d: 'Avión, buceo, ascensor: presión negativa',
+            say: 'El barotrauma ótico ocurre cuando la trompa de Eustaquio no ventila durante un cambio de presión, al descender en avión, bucear o en un ascensor. La presión negativa retrae el tímpano, y el paciente tiene otalgia, plenitud, hipoacusia de conducción y a veces acúfeno.' },
+          { t: 'Valsalva suave y descongestionante', d: 'Corticoide nasal, analgesia; no volar ni bucear',
+            say: 'En la otoscopía ves el tímpano retraído, con vasos inyectados en el mango del martillo, y a veces hemotímpano. Tratas con maniobras suaves de Valsalva o Toynbee, descongestionante nasal tópico por no más de tres días, corticoide nasal y analgesia, y el paciente no vuela ni bucea hasta resolver.' },
+          { t: 'Vértigo o sordera tras bucear: urgencia', d: 'Fístula perilinfática o daño del oído interno',
+            say: 'Pero si después de bucear hay vértigo o hipoacusia sensorioneural, sospecha una fístula perilinfática o una enfermedad por descompresión del oído interno. Eso se deriva de urgencia.' },
+        ] },
+        { title: 'Perforación traumática', tag: 'Hisopo, golpe, explosión', kind: 'alert', items: [
+          { t: 'Otalgia súbita y otorragia escasa', d: 'Bordes irregulares, a veces con coágulos',
+            say: 'La perforación traumática, por un hisopo, una bofetada o una explosión, da otalgia súbita intensa, poca sangre, hipoacusia de conducción y acúfeno. La otoscopía muestra una perforación de bordes irregulares, a menudo con coágulos.' },
+          { t: 'Oído seco: no lavar, no gotas ototóxicas', d: 'Algodón con vaselina al ducharse',
+            say: 'La conducta es mantener el oído seco, con algodón con vaselina al ducharse, no lavar ni irrigar, y no poner gotas ototóxicas; si necesitas, solo ciprofloxacino ótico. Más del noventa por ciento de las perforaciones pequeñas cierran solas en cuatro a ocho semanas.' },
+          { t: 'Derivar si hay vértigo, sordera o facial', d: 'O si no cierra a los 3 meses',
+            say: 'Derivas si hay vértigo, hipoacusia sensorioneural, parálisis facial, una perforación extensa, o si no cierra a los tres meses, porque necesitará timpanoplastia.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Prevención y estudio',
+      title: 'Prevenir el trauma acústico y estudiar el VIII par',
+      cards: [
+        { title: 'Prevención del trauma acústico', tag: 'Jerarquía de control', kind: 'pharma', items: [
+          { t: 'Primero la fuente, el protector al final', d: 'Reducir el ruido, aislar el puesto, luego tapones u orejeras',
+            say: 'La prevención sigue una jerarquía: primero reducir el ruido en la fuente, después aislar el puesto, y solo como último recurso entregar protectores auditivos, con capacitación.' },
+          { t: '85 dB(A) por 8 horas', d: 'Cada 3 dB de aumento, la mitad del tiempo',
+            say: 'En Chile, el decreto supremo quinientos noventa y cuatro fija el límite en ochenta y cinco decibeles ponderados por ocho horas, y cada tres decibeles de aumento reduce a la mitad el tiempo permitido. El protocolo PREXOR del Minsal vigila al trabajador expuesto con audiometrías periódicas, y la hipoacusia laboral es enfermedad profesional.' },
+          { t: 'Regla 60/60 con audífonos', d: 'Hasta 60 % del volumen, 60 minutos seguidos',
+            say: 'En la población general se educa la regla sesenta sesenta: audífonos hasta el sesenta por ciento del volumen y no más de sesenta minutos seguidos.' },
+        ] },
+        { title: 'Estudio del VIII par', tag: 'Sospecha retrococlear', kind: 'key', items: [
+          { t: 'Qué pruebas lo componen', d: 'Audiometría, impedanciometría, PEAT, RM con gadolinio',
+            say: 'El estudio del octavo par suma audiometría y logoaudiometría, impedanciometría con reflejos estapediales, potenciales evocados de tronco, resonancia con gadolinio del conducto auditivo y pruebas vestibulares. Tú usas el informe.' },
+          { t: 'Pistas de lesión retrococlear', d: 'Asimetría de 15 dB o más; reflejo ausente; tinitus unilateral',
+            say: 'Sospecha una lesión retrococlear si hay hipoacusia asimétrica de quince decibeles o más, discriminación del habla muy baja, ausencia de reflejo estapedial, latencias prolongadas en los potenciales de tronco y tinitus unilateral. La resonancia con gadolinio es el estándar para descartar un schwannoma vestibular.' },
+        ] },
       ],
     },
 
@@ -321,6 +392,193 @@ module.exports = {
         options: 'Las opciones: pérdida de conducción con curva B, caída en graves, muesca en cuatro mil hertz, brecha de treinta decibeles, o caída plana en un solo oído. Piénsalo.',
         answer: 'Es la C, la muesca simétrica en cuatro mil hertz. El ruido daña las células ciliadas de esa zona de la cóclea, con recuperación parcial en ocho mil. Una curva B o una brecha óseo-aérea son de conducción, y el ruido produce daño sensorioneural.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 90",
+      "stem": "Una paciente de 33 años consulta por otalgia y sensación de oído tapado, mayor a derecha. Refiere que el día anterior estuvo nadando, sumergiéndose a 1,5 metros de profundidad.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Otitis media aguda"
+        },
+        {
+          "letter": "B",
+          "text": "Otitis media con efusión"
+        },
+        {
+          "letter": "C",
+          "text": "Perforación timpánica"
+        },
+        {
+          "letter": "D",
+          "text": "Otitis externa"
+        },
+        {
+          "letter": "E",
+          "text": "Barotrauma"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Otalgia y oído tapado justo después de un cambio brusco de presión, como el buceo, un vuelo o un cambio de altitud, es un barotrauma ótico. Se maneja con analgesia, descongestionantes y evitando nuevos cambios de presión hasta que se resuelva.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Mujer de treinta y tres años con dolor y sensación de oído tapado, mayor a derecha, que el día anterior estuvo nadando y sumergiéndose a un metro y medio de profundidad.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: otitis media aguda, otitis media con efusión, perforación timpánica, otitis externa, o barotrauma. Piénsalo.",
+        "answer": "Es la E. La clave es el cambio brusco de presión al sumergirse, seguido de dolor con oído tapado. La otitis externa tienta porque estuvo nadando, pero da dolor al traccionar el pabellón y secreción, y aquí lo que manda es la inmersión."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.3.007 · Prevención de trauma acústico y daño por exposición a ruidos",
+      "stem": "Un hombre de 30 años ingresa a trabajar a una maestranza donde el ruido medido en su puesto es de 92 dB durante la jornada de 8 horas. Su audiometría de ingreso es normal y no tiene síntomas.",
+      "question": "¿Cuál es la medida preventiva más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Protectores auditivos durante toda la exposición y audiometrías periódicas de vigilancia"
+        },
+        {
+          "letter": "B",
+          "text": "Ninguna, hasta que aparezca hipoacusia"
+        },
+        {
+          "letter": "C",
+          "text": "Corticoides orales profilácticos en los períodos de más ruido"
+        },
+        {
+          "letter": "D",
+          "text": "Audífonos desde el ingreso"
+        },
+        {
+          "letter": "E",
+          "text": "Lavados óticos mensuales"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Sobre 85 dB por 8 horas hay riesgo de hipoacusia laboral, cuyo daño no revierte. Se previene reduciendo el ruido en la fuente, usando protectores auditivos durante toda la exposición y vigilando con audiometrías periódicas (protocolo PREXOR del MINSAL), buscando precozmente la muesca en 4000 Hz.",
+      "say": {
+        "stem": "Hombre de treinta años que entra a trabajar a una maestranza con noventa y dos decibeles de ruido durante su jornada de ocho horas. Su audiometría de ingreso es normal.",
+        "question": "¿Cuál es la medida preventiva más adecuada?",
+        "options": "Las opciones: protectores con audiometrías periódicas, ninguna hasta que aparezca hipoacusia, corticoides profilácticos, audífonos desde el ingreso o lavados óticos mensuales. Piénsalo.",
+        "answer": "Es la A. Sobre ochenta y cinco decibeles hay riesgo de daño, y como ese daño no se revierte, se previene con protectores durante toda la exposición y audiometrías periódicas. Esperar a que aparezca la hipoacusia tienta porque está sano, pero cuando aparece ya es permanente."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.1.031 · Tinitus",
+      "stem": "Mujer de 55 años con tinnitus en el oído izquierdo de 6 meses, asociado a hipoacusia progresiva del mismo lado y leve inestabilidad. La otoscopía es normal. La audiometría muestra hipoacusia sensorioneural izquierda con discriminación de palabras desproporcionadamente baja.",
+      "question": "¿Cuál es el estudio más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ninguno; indicar enmascaradores de ruido"
+        },
+        {
+          "letter": "B",
+          "text": "TAC de oídos sin contraste"
+        },
+        {
+          "letter": "C",
+          "text": "Resonancia magnética de conductos auditivos internos y ángulo pontocerebeloso con gadolinio"
+        },
+        {
+          "letter": "D",
+          "text": "Ecografía Doppler carotídea"
+        },
+        {
+          "letter": "E",
+          "text": "Impedanciometría"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El tinnitus unilateral con hipoacusia sensorioneural asimétrica y mala discriminación es la forma de presentación típica del schwannoma vestibular (neurinoma del acústico). Debe estudiarse con resonancia magnética con gadolinio de conductos auditivos internos. El tinnitus pulsátil orienta a causas vasculares. El tinnitus bilateral con presbiacusia simétrica no requiere imágenes.",
+      "say": {
+        "stem": "Mujer de cincuenta y cinco años con zumbido del oído izquierdo de seis meses, hipoacusia progresiva del mismo lado y otoscopía normal. La audiometría muestra hipoacusia sensorioneural izquierda con mala discriminación de palabras.",
+        "question": "¿Cuál es el estudio más adecuado?",
+        "options": "Las opciones: ninguno, TAC de oídos, resonancia con gadolinio de conductos auditivos internos, Doppler carotídeo o impedanciometría. Piénsalo.",
+        "answer": "Es la C. El tinnitus con hipoacusia sensorioneural asimétrica obliga a descartar un neurinoma del acústico con resonancia con gadolinio. La TAC tienta por estudiar el oído, pero no ve bien el nervio."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Enero 2023 · Pregunta 138",
+      "stem": "Paciente usuaria habitual de cotonito (hisopo) consulta por otalgia e hipoacusia leve tras su uso. En la otoscopía se observa una perforación timpánica traumática.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Control en 1 mes (resolución espontánea)"
+        },
+        {
+          "letter": "B",
+          "text": "Tapón de algodón y antibiótico tópico ótico"
+        },
+        {
+          "letter": "C",
+          "text": "Miringoplastía inmediata"
+        },
+        {
+          "letter": "D",
+          "text": "TAC de hueso temporal"
+        },
+        {
+          "letter": "E",
+          "text": "Derivar a ORL urgente"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La mayoría de las perforaciones timpánicas traumáticas pequeñas cierran espontáneamente en semanas. Se indica mantener el oído seco (no mojar, no lavar, no usar gotas salvo infección), analgesia, y control otoscópico y audiométrico. Se deriva con urgencia si hay vértigo, hipoacusia sensorioneural, parálisis facial u otorrea; si no cierra en 2 a 3 meses, timpanoplastía.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de enero de dos mil veintitrés. Paciente que usa cotonitos y presenta una perforación timpánica traumática con dolor e hipoacusia leve.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: control en un mes, tapón con antibiótico ótico, miringoplastía inmediata, TAC de hueso temporal o derivar urgente. Piénsalo.",
+        "answer": "Es la A. La perforación traumática pequeña cierra sola: se mantiene el oído seco y se controla. Las gotas antibióticas tientan, pero sin otorrea no se necesitan, y la urgencia se reserva para vértigo, parálisis facial o hipoacusia sensorioneural."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.4.011 · Estudio de VIII par",
+      "stem": "Hombre de 45 años con hipoacusia súbita del oído izquierdo de 2 días, con tinnitus y sensación de oído tapado. Otoscopía normal. Weber lateraliza a la derecha y Rinne positivo bilateral.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lavado de oídos"
+        },
+        {
+          "letter": "B",
+          "text": "Antibiótico oral"
+        },
+        {
+          "letter": "C",
+          "text": "Audiometría urgente, corticoides sistémicos precoces y resonancia magnética de conductos auditivos internos con gadolinio para descartar patología retrococlear"
+        },
+        {
+          "letter": "D",
+          "text": "Observación por 1 mes"
+        },
+        {
+          "letter": "E",
+          "text": "Descongestionante nasal"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Weber hacia el oído sano con Rinne positivo indica hipoacusia sensorioneural del oído afectado. La hipoacusia sensorioneural súbita es una urgencia: se confirma con audiometría, se inician corticoides sistémicos precozmente y se estudia el VIII par con resonancia con gadolinio por la posibilidad de schwannoma vestibular. El estudio puede complementarse con potenciales evocados auditivos.",
+      "say": {
+        "stem": "Hombre de cuarenta y cinco años con hipoacusia súbita del oído izquierdo y tinnitus, otoscopía normal, Weber hacia la derecha y Rinne positivo en ambos oídos.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: lavado de oídos, antibiótico, audiometría urgente con corticoides y resonancia de conductos auditivos internos, observar un mes o descongestionante. Piénsalo.",
+        "answer": "Es la C. Es una hipoacusia sensorioneural súbita: se confirma con audiometría, se dan corticoides precoces y se pide resonancia para descartar un neurinoma. Observar tienta porque algunas mejoran solas, pero el tratamiento precoz mejora la recuperación."
+      }
     },
 
     {

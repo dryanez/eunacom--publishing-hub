@@ -4,7 +4,8 @@
     "topicLabel": "19.1",
     "title": "Obstetricia 19.1: Control Prenatal de Bajo Riesgo: Calendario, Suplementación (Ácido Fólico, Calcio, Fierro) y Exámenes por Trimestre",
     "perfilCodes": [
-      "3.01.3.001"
+      "3.01.3.001",
+      "3.01.3.003"
     ],
     "tier": 2,
     "realQuestionCount": 14,
@@ -13,8 +14,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Control Prenatal de Bajo Riesgo: Calendario, Suplementación (Ácido Fólico, Calcio, Fierro) y Exámenes por Trimestre. Código oficial Perfil V3: 3.01.3.001. Este tema ha sido evaluado en 14 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.3.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Control Prenatal de Bajo Riesgo: Calendario, Suplementación (Ácido Fólico, Calcio, Fierro) y Exámenes por Trimestre. Código oficial Perfil V3: 3.01.3.001, 3.01.3.003. Este tema ha sido evaluado en 14 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.3.001, 3.01.3.003",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -63,7 +64,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.3.001",
+              "3.01.3.001, 3.01.3.003",
               "Control Prenatal de Bajo Riesgo: Calendario, Suplementación (Ácido Fólico, Calcio, Fierro) y Exámenes por Trimestre",
               "Específico",
               "Completo",
@@ -293,7 +294,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 42",
         "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 42.",
         "number": 3,
-        "caseText": "Una paciente de 35 años, cursando un embarazo de 42 semanas acude a control. No presenta dinámica uterina y la altura uterina es acorde a la edad gestacional. Los la8dos cardiofetales son de 125 lpm. Se realiza ecograFa obstétrica que es8ma un peso fetal de 3.600 g, y visualiza un bolsillo mayor de líquido amnió8co de 3 cm. El Doppler fetal es normal. ¿Cuál es la conducta más adecuada?",
+        "caseText": "Una paciente de 35 años, cursando un embarazo de 42 semanas acude a control. No presenta dinámica uterina y la altura uterina es acorde a la edad gestacional. Los latidos cardiofetales son de 125 lpm. Se realiza ecografía obstétrica que estima un peso fetal de 3.600 g, y visualiza un bolsillo mayor de líquido amniótico de 3 cm. El Doppler fetal es normal. ¿Cuál es la conducta más adecuada?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -330,7 +331,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 38",
         "notes": "[SLIDE 11] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 38.",
         "number": 4,
-        "caseText": "Una paciente de 25 años, vegana estricta, con antecedente de parto hace 6 meses, con un hijo con mielomeningocele, consulta porque desea planiﬁcar un nuevo embarazo. ¿Qué suplemento alimen8cio debe indicarse de manera prioritaria?",
+        "caseText": "Una paciente de 25 años, vegana estricta, con antecedente de parto hace 6 meses, con un hijo con mielomeningocele, consulta porque desea planificar un nuevo embarazo. ¿Qué suplemento alimenticio debe indicarse de manera prioritaria?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -359,7 +360,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Pregunta difícil, ya que la dieta vegana se asocia principalmente a déﬁcit de vitamina B12, que debe ser suplementada y cuya deﬁciencia también se asocia a defectos del tubo neural. Además, en Chile, el ácido fólico está presente en las harinas, por lo que su deﬁciencia es muy rara. Sin embargo, ante un antecedente de defectos del tubo neural, sin duda alguna, lo más importante es suplementar folatos en dosis altas (4 mg al día vs. 0,4 mg al día en pacientes sin factores de riesgo). Se debe iniciar idealmente 3 meses antes del embarazo, hasta la semana 12 de gestación. Las dosis altas también se indican en pacientes diabéticas embarazadas o que desean embarazarse."
+        "explanation": "Pregunta difícil, ya que la dieta vegana se asocia principalmente a déficit de vitamina B12, que debe ser suplementada y cuya deficiencia también se asocia a defectos del tubo neural. Además, en Chile, el ácido fólico está presente en las harinas, por lo que su deficiencia es muy rara. Sin embargo, ante un antecedente de defectos del tubo neural, sin duda alguna, lo más importante es suplementar folatos en dosis altas (4 mg al día vs. 0,4 mg al día en pacientes sin factores de riesgo). Se debe iniciar idealmente 3 meses antes del embarazo, hasta la semana 12 de gestación. Las dosis altas también se indican en pacientes diabéticas embarazadas o que desean embarazarse."
       },
       {
         "type": "bento",
@@ -389,7 +390,9 @@
     "topicLabel": "19.2",
     "title": "Obstetricia 19.2: Ecografía Obstétrica: 11-14 Semanas (Aneuploidías y Doppler Uterino) & 20-24 Semanas (Morfológica y Cervicometría)",
     "perfilCodes": [
-      "3.01.4.003"
+      "3.01.4.003",
+      "3.01.4.004",
+      "3.01.5.003"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -398,8 +401,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Ecografía Obstétrica: 11-14 Semanas (Aneuploidías y Doppler Uterino) & 20-24 Semanas (Morfológica y Cervicometría). Código oficial Perfil V3: 3.01.4.003.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.4.003",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Ecografía Obstétrica: 11-14 Semanas (Aneuploidías y Doppler Uterino) & 20-24 Semanas (Morfológica y Cervicometría). Código oficial Perfil V3: 3.01.4.003, 3.01.4.004, 3.01.5.003.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.4.003, 3.01.4.004, 3.01.5.003",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -442,7 +445,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.4.003",
+              "3.01.4.003, 3.01.4.004, 3.01.5.003",
               "Ecografía Obstétrica: 11-14 Semanas (Aneuploidías y Doppler Uterino) & 20-24 Semanas (Morfológica y Cervicometría)",
               "Específico",
               "Inicial",
@@ -658,7 +661,10 @@
     "topicLabel": "19.3",
     "title": "Obstetricia 19.3: Evaluación del Bienestar Fetal: Registro Basal No Estresante (RBNE), Perfil Biofísico (Manning) y Doppler Fetal",
     "perfilCodes": [
-      "3.01.5.009"
+      "3.01.5.009",
+      "3.01.5.011",
+      "3.01.5.005",
+      "3.01.5.003"
     ],
     "tier": 2,
     "realQuestionCount": 3,
@@ -667,8 +673,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Evaluación del Bienestar Fetal: Registro Basal No Estresante (RBNE), Perfil Biofísico (Manning) y Doppler Fetal. Código oficial Perfil V3: 3.01.5.009. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.5.009",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Evaluación del Bienestar Fetal: Registro Basal No Estresante (RBNE), Perfil Biofísico (Manning) y Doppler Fetal. Código oficial Perfil V3: 3.01.5.009, 3.01.5.011, 3.01.5.005, 3.01.5.003. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.5.009, 3.01.5.011, 3.01.5.005, 3.01.5.003",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -717,7 +723,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.5.009",
+              "3.01.5.009, 3.01.5.011, 3.01.5.005, 3.01.5.003",
               "Evaluación del Bienestar Fetal: Registro Basal No Estresante (RBNE), Perfil Biofísico (Manning) y Doppler Fetal",
               "Específico",
               "Inicial",
@@ -1016,7 +1022,9 @@
     "topicLabel": "19.4",
     "title": "Obstetricia 19.4: Restricción del Crecimiento Fetal (RCF): Fisiopatología, RCF Precoz vs Tardío y Velocimetría Doppler",
     "perfilCodes": [
-      "3.01.1.010"
+      "3.01.1.010",
+      "3.01.5.003",
+      "3.01.4.004"
     ],
     "tier": 3,
     "realQuestionCount": 10,
@@ -1025,8 +1033,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Restricción del Crecimiento Fetal (RCF): Fisiopatología, RCF Precoz vs Tardío y Velocimetría Doppler. Código oficial Perfil V3: 3.01.1.010. Este tema ha sido evaluado en 10 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.010",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Restricción del Crecimiento Fetal (RCF): Fisiopatología, RCF Precoz vs Tardío y Velocimetría Doppler. Código oficial Perfil V3: 3.01.1.010, 3.01.5.003, 3.01.4.004. Este tema ha sido evaluado en 10 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.1.010, 3.01.5.003, 3.01.4.004",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1075,7 +1083,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.010",
+              "3.01.1.010, 3.01.5.003, 3.01.4.004",
               "Restricción del Crecimiento Fetal (RCF): Fisiopatología, RCF Precoz vs Tardío y Velocimetría Doppler",
               "Específico",
               "Inicial",
@@ -1795,7 +1803,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 173",
         "notes": "[SLIDE 11] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 173.",
         "number": 4,
-        "caseText": "Una paciente de 25 años cursando su primer embarazo de 37 semanas acude a control. En el examen Fsico se observa ligero edema de extremidades inferiores y sus signos vitales muestran frecuencia cardíaca de 70 la8dos por minuto y presión arterial de 140/90 mmHg. No ha presentado moles8as y se auscultan la8dos cardiofetales a 125 la8dos por minuto. ¿Qué examen es más adecuado para precisar el diagnós8co?",
+        "caseText": "Una paciente de 25 años cursando su primer embarazo de 37 semanas acude a control. En el examen físico se observa ligero edema de extremidades inferiores y sus signos vitales muestran frecuencia cardíaca de 70 latidos por minuto y presión arterial de 140/90 mmHg. No ha presentado molestias y se auscultan latidos cardiofetales a 125 latidos por minuto. ¿Qué examen es más adecuado para precisar el diagnóstico?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -1824,7 +1832,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Aunque dan una única toma, Gene un probable síndrome hipertensivo del embarazo (SHE), que en la práctica corresponde a PA mayor o igual a 140/90 mmHg, que persiste durante una observación de 4 a 6 horas. Por estar en buenas condiciones maternofetales, lo más adecuado es solicitar la proteinuria, a ﬁn de identiﬁcar la causa, diferenciando la preclamsia (proteinuria positiva) de la hipertensión gestacional (proteinuria negativa). El edema orienta a preclamsia, pero la proteinuria es lo que la deﬁne. También habría sido correcto realizar tomas reiteradas de PA para conﬁrmar el SHE."
+        "explanation": "Aunque dan una única toma, Gene un probable síndrome hipertensivo del embarazo (SHE), que en la práctica corresponde a PA mayor o igual a 140/90 mmHg, que persiste durante una observación de 4 a 6 horas. Por estar en buenas condiciones maternofetales, lo más adecuado es solicitar la proteinuria, a fin de identificar la causa, diferenciando la preclamsia (proteinuria positiva) de la hipertensión gestacional (proteinuria negativa). El edema orienta a preclamsia, pero la proteinuria es lo que la define. También habría sido correcto realizar tomas reiteradas de PA para confirmar el SHE."
       },
       {
         "type": "bento",
@@ -1854,7 +1862,9 @@
     "topicLabel": "19.6",
     "title": "Obstetricia 19.6: Emergencias Hipertensivas en el Embarazo: Preeclampsia Severa, Eclampsia, Síndrome HELLP y Sulfato de Magnesio",
     "perfilCodes": [
-      "3.01.2.004"
+      "3.01.2.004",
+      "3.01.2.003",
+      "3.01.1.011"
     ],
     "tier": 3,
     "realQuestionCount": 3,
@@ -1863,8 +1873,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Emergencias Hipertensivas en el Embarazo: Preeclampsia Severa, Eclampsia, Síndrome HELLP y Sulfato de Magnesio. Código oficial Perfil V3: 3.01.2.004. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.2.004",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Emergencias Hipertensivas en el Embarazo: Preeclampsia Severa, Eclampsia, Síndrome HELLP y Sulfato de Magnesio. Código oficial Perfil V3: 3.01.2.004, 3.01.2.003, 3.01.1.011. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.2.004, 3.01.2.003, 3.01.1.011",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1913,7 +1923,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.2.004",
+              "3.01.2.004, 3.01.2.003, 3.01.1.011",
               "Emergencias Hipertensivas en el Embarazo: Preeclampsia Severa, Eclampsia, Síndrome HELLP y Sulfato de Magnesio",
               "Específico",
               "Completo",
@@ -2289,7 +2299,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 48",
         "notes": "[SLIDE 14] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 48.",
         "number": 5,
-        "caseText": "Una paciente de 25 años, primigesta con 32 semanas de gestación, presenta cefalea intensa y malestar general. Al examen Fsico destaca una presión arterial de 170/110 mmHg, por lo que se administra labetalol endovenoso, logrando cifras tensionales de 140/90 mmHg. Sin embargo, dos horas después presenta una convulsión tónico-clónica de 2 minutos de duración. ¿Cuál es la conducta más adecuada?",
+        "caseText": "Una paciente de 25 años, primigesta con 32 semanas de gestación, presenta cefalea intensa y malestar general. Al examen físico destaca una presión arterial de 170/110 mmHg, por lo que se administra labetalol endovenoso, logrando cifras tensionales de 140/90 mmHg. Sin embargo, dos horas después presenta una convulsión tónico-clónica de 2 minutos de duración. ¿Cuál es la conducta más adecuada?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -2386,7 +2396,8 @@
     "topicLabel": "19.7",
     "title": "Obstetricia 19.7: Diabetes Gestacional y Pregestacional: Tamizaje PTGO 75g (24-28 sem), Metas Glucémicas e Insulinoterapia",
     "perfilCodes": [
-      "3.01.1.004"
+      "3.01.1.004",
+      "3.01.1.009"
     ],
     "tier": 3,
     "realQuestionCount": 5,
@@ -2395,8 +2406,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Diabetes Gestacional y Pregestacional: Tamizaje PTGO 75g (24-28 sem), Metas Glucémicas e Insulinoterapia. Código oficial Perfil V3: 3.01.1.004. Este tema ha sido evaluado en 5 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.004",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Diabetes Gestacional y Pregestacional: Tamizaje PTGO 75g (24-28 sem), Metas Glucémicas e Insulinoterapia. Código oficial Perfil V3: 3.01.1.004, 3.01.1.009. Este tema ha sido evaluado en 5 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.1.004, 3.01.1.009",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -2445,7 +2456,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.004",
+              "3.01.1.004, 3.01.1.009",
               "Diabetes Gestacional y Pregestacional: Tamizaje PTGO 75g (24-28 sem), Metas Glucémicas e Insulinoterapia",
               "Específico",
               "Completo",
@@ -3281,7 +3292,8 @@
     "topicLabel": "19.9",
     "title": "Obstetricia 19.9: Infección del Tracto Urinario en el Embarazo: Bacteriuria Asintomática, Cistitis y Pielonefritis Aguda",
     "perfilCodes": [
-      "3.01.1.019"
+      "3.01.1.019",
+      "1.09.2.011"
     ],
     "tier": 2,
     "realQuestionCount": 15,
@@ -3290,8 +3302,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Infección del Tracto Urinario en el Embarazo: Bacteriuria Asintomática, Cistitis y Pielonefritis Aguda. Código oficial Perfil V3: 3.01.1.019. Este tema ha sido evaluado en 15 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.019",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Infección del Tracto Urinario en el Embarazo: Bacteriuria Asintomática, Cistitis y Pielonefritis Aguda. Código oficial Perfil V3: 3.01.1.019, 1.09.2.011. Este tema ha sido evaluado en 15 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.1.019, 1.09.2.011",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -3340,7 +3352,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.019",
+              "3.01.1.019, 1.09.2.011",
               "Infección del Tracto Urinario en el Embarazo: Bacteriuria Asintomática, Cistitis y Pielonefritis Aguda",
               "Específico",
               "Completo",
@@ -3626,7 +3638,9 @@
     "topicLabel": "19.10",
     "title": "Obstetricia 19.10: Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030",
     "perfilCodes": [
-      "3.01.1.001"
+      "3.01.1.001",
+      "3.01.2.001",
+      "3.01.3.002"
     ],
     "tier": 3,
     "realQuestionCount": 13,
@@ -3635,8 +3649,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030. Código oficial Perfil V3: 3.01.1.001. Este tema ha sido evaluado en 13 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030. Código oficial Perfil V3: 3.01.1.001, 3.01.2.001, 3.01.3.002. Este tema ha sido evaluado en 13 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.1.001, 3.01.2.001, 3.01.3.002",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -3685,7 +3699,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.001",
+              "3.01.1.001, 3.01.2.001, 3.01.3.002",
               "Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030",
               "Específico",
               "Completo",
@@ -4099,7 +4113,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 97",
         "notes": "[SLIDE 15] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 97.",
         "number": 5,
-        "caseText": "Una paciente de 21 años consulta por ﬁebre hasta 38,9 °C asociada a dolor hipogástrico intenso y sangrado vaginal de mal olor, que inició hace 48 horas. Al examen Fsico 8ene frecuencia cardíaca 120 la8dos por minuto, presión arterial 90/60 mmHg y temperatura 38,7 °C. En el examen ginecológico se observa en la especuloscopía sangre y restos ovulares de mal olor en el canal vaginal. Además, se aprecia útero muy doloroso a la palpación y dolor a la palpación hipogástrica por vía abdominal. Se solicita ecograFa transvaginal que muestra contenido uterino irregular de 18 mm de diámetro. ¿Cuál es la conducta más adecuada?",
+        "caseText": "Una paciente de 21 años consulta por fiebre hasta 38,9 °C asociada a dolor hipogástrico intenso y sangrado vaginal de mal olor, que inició hace 48 horas. Al examen físico tiene frecuencia cardíaca 120 latidos por minuto, presión arterial 90/60 mmHg y temperatura 38,7 °C. En el examen ginecológico se observa en la especuloscopía sangre y restos ovulares de mal olor en el canal vaginal. Además, se aprecia útero muy doloroso a la palpación y dolor a la palpación hipogástrica por vía abdominal. Se solicita ecografía transvaginal que muestra contenido uterino irregular de 18 mm de diámetro. ¿Cuál es la conducta más adecuada?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -4197,7 +4211,9 @@
     "topicLabel": "19.11",
     "title": "Obstetricia 19.11: Embarazo Ectópico: Localizaciones, Diagnóstico con β-hCG Cuantitativa, Manejo Médico (Metotrexato) vs Quirúrgico",
     "perfilCodes": [
-      "3.01.1.002"
+      "3.01.1.006",
+      "3.01.2.005",
+      "3.01.4.008"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -4206,8 +4222,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Embarazo Ectópico: Localizaciones, Diagnóstico con β-hCG Cuantitativa, Manejo Médico (Metotrexato) vs Quirúrgico. Código oficial Perfil V3: 3.01.1.002. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.002",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Embarazo Ectópico: Localizaciones, Diagnóstico con β-hCG Cuantitativa, Manejo Médico (Metotrexato) vs Quirúrgico. Código oficial Perfil V3: 3.01.1.006, 3.01.2.005, 3.01.4.008. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.1.006, 3.01.2.005, 3.01.4.008",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4256,7 +4272,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.002",
+              "3.01.1.006, 3.01.2.005, 3.01.4.008",
               "Embarazo Ectópico: Localizaciones, Diagnóstico con β-hCG Cuantitativa, Manejo Médico (Metotrexato) vs Quirúrgico",
               "Específico",
               "Completo",
@@ -4700,7 +4716,8 @@
     "topicLabel": "19.12",
     "title": "Obstetricia 19.12: Enfermedad Trofoblástica Gestacional: Mola Completa vs Parcial, Criterios de Neoplasia Trofoblástica Gestacional (NTG) y Seguimiento",
     "perfilCodes": [
-      "3.01.1.003"
+      "3.01.1.008",
+      "3.01.4.008"
     ],
     "tier": 2,
     "realQuestionCount": 6,
@@ -4709,8 +4726,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Enfermedad Trofoblástica Gestacional: Mola Completa vs Parcial, Criterios de Neoplasia Trofoblástica Gestacional (NTG) y Seguimiento. Código oficial Perfil V3: 3.01.1.003. Este tema ha sido evaluado en 6 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.003",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Enfermedad Trofoblástica Gestacional: Mola Completa vs Parcial, Criterios de Neoplasia Trofoblástica Gestacional (NTG) y Seguimiento. Código oficial Perfil V3: 3.01.1.008, 3.01.4.008. Este tema ha sido evaluado en 6 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.1.008, 3.01.4.008",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4759,7 +4776,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.003",
+              "3.01.1.008, 3.01.4.008",
               "Enfermedad Trofoblástica Gestacional: Mola Completa vs Parcial, Criterios de Neoplasia Trofoblástica Gestacional (NTG) y Seguimiento",
               "Específico",
               "Inicial",
@@ -5111,7 +5128,9 @@
     "topicLabel": "19.13",
     "title": "Obstetricia 19.13: Metrorragias de la Segunda Mitad del Embarazo: Placenta Previa, DPPNI, Rotura Uterina y Rotura de Vasa Previa",
     "perfilCodes": [
-      "3.01.1.004"
+      "3.01.2.011",
+      "3.01.2.010",
+      "3.01.2.015"
     ],
     "tier": 3,
     "realQuestionCount": 5,
@@ -5120,8 +5139,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Metrorragias de la Segunda Mitad del Embarazo: Placenta Previa, DPPNI, Rotura Uterina y Rotura de Vasa Previa. Código oficial Perfil V3: 3.01.1.004. Este tema ha sido evaluado en 5 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.004",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Metrorragias de la Segunda Mitad del Embarazo: Placenta Previa, DPPNI, Rotura Uterina y Rotura de Vasa Previa. Código oficial Perfil V3: 3.01.2.011, 3.01.2.010, 3.01.2.015. Este tema ha sido evaluado en 5 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.2.011, 3.01.2.010, 3.01.2.015",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -5170,7 +5189,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.004",
+              "3.01.2.011, 3.01.2.010, 3.01.2.015",
               "Metrorragias de la Segunda Mitad del Embarazo: Placenta Previa, DPPNI, Rotura Uterina y Rotura de Vasa Previa",
               "Específico",
               "Completo",
@@ -5701,7 +5720,7 @@
     "topicLabel": "19.14",
     "title": "Obstetricia 19.14: Rotura Prematura de Membranas (RPM), Latencia, Profilaxis Antibiótica y Corioamnionitis",
     "perfilCodes": [
-      "3.01.1.005"
+      "3.01.2.014"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -5710,8 +5729,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Rotura Prematura de Membranas (RPM), Latencia, Profilaxis Antibiótica y Corioamnionitis. Código oficial Perfil V3: 3.01.1.005. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.005",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Rotura Prematura de Membranas (RPM), Latencia, Profilaxis Antibiótica y Corioamnionitis. Código oficial Perfil V3: 3.01.2.014. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.2.014",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -5760,7 +5779,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.005",
+              "3.01.2.014",
               "Rotura Prematura de Membranas (RPM), Latencia, Profilaxis Antibiótica y Corioamnionitis",
               "Específico",
               "Completo",
@@ -6188,7 +6207,7 @@
     "topicLabel": "19.15",
     "title": "Obstetricia 19.15: Síndrome de Parto Prematuro: Amenaza de Parto Prematuro (APP), Tocolíticos, Maduración Pulmonar y Neuroprotección",
     "perfilCodes": [
-      "3.01.1.006"
+      "3.01.2.012"
     ],
     "tier": 3,
     "realQuestionCount": 13,
@@ -6197,8 +6216,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome de Parto Prematuro: Amenaza de Parto Prematuro (APP), Tocolíticos, Maduración Pulmonar y Neuroprotección. Código oficial Perfil V3: 3.01.1.006. Este tema ha sido evaluado en 13 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.006",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome de Parto Prematuro: Amenaza de Parto Prematuro (APP), Tocolíticos, Maduración Pulmonar y Neuroprotección. Código oficial Perfil V3: 3.01.2.012. Este tema ha sido evaluado en 13 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.2.012",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -6247,7 +6266,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.006",
+              "3.01.2.012",
               "Síndrome de Parto Prematuro: Amenaza de Parto Prematuro (APP), Tocolíticos, Maduración Pulmonar y Neuroprotección",
               "Específico",
               "Completo",
@@ -6666,7 +6685,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 155",
         "notes": "[SLIDE 15] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 155.",
         "number": 5,
-        "caseText": "Una paciente de 27 años consulta por dolor abdominal bajo de 5 horas de evolución. Al examen Fsico 8ene frecuencia cardíaca de 80 la8dos por minuto, presión arterial 110/70 mmHg, examen cardiopulmonar normal y abdomen blando, sin signos peritoneales, con dolor a la palpación del hipogastrio. Se solicita subunidad beta de gonadotropina coriónica que resulta en 1.000 UI/L y se realiza ecograFa transvaginal que muestra endometrio de 17 mm, sin lesiones anexiales ni visualización de líquido libre en la pelvis. Además de hospitalizar, ¿cuál es la conducta más adecuada?",
+        "caseText": "Una paciente de 27 años consulta por dolor abdominal bajo de 5 horas de evolución. Al examen físico tiene frecuencia cardíaca de 80 latidos por minuto, presión arterial 110/70 mmHg, examen cardiopulmonar normal y abdomen blando, sin signos peritoneales, con dolor a la palpación del hipogastrio. Se solicita subunidad beta de gonadotropina coriónica que resulta en 1.000 UI/L y se realiza ecografía transvaginal que muestra endometrio de 17 mm, sin lesiones anexiales ni visualización de líquido libre en la pelvis. Además de hospitalizar, ¿cuál es la conducta más adecuada?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -6695,7 +6714,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "La sospecha es un embarazo ectópico (prueba de embarazo positiva + ecografía negativa) no complicado (hemodinamia estable y ausencia de líquido libre). Por tener HCG menor a 3.500 UI/L también puede tratarse de un embarazo normal intrauterino, pero pequeño. Se debe controlar con HCG en 48 horas. Si aumenta al menos un 66% probablemente sea un embarazo normal; si eleva menos que eso, se conﬁrma el embarazo ectópico y se puede tratar con metotrexato u observación, si la HCG se mantiene menor a 1.000. Si hubiese tenido compromiso hemodinámico o líquido libre, la sospecha habría sido un embarazo ectópico roto, por lo que se procedería a la laparoscopía o laparotomía de urgencia. En este caso, la hospitalización está indicada por el dolor, que no permite descartar que esté empezando a complicarse."
+        "explanation": "La sospecha es un embarazo ectópico (prueba de embarazo positiva + ecografía negativa) no complicado (hemodinamia estable y ausencia de líquido libre). Por tener HCG menor a 3.500 UI/L también puede tratarse de un embarazo normal intrauterino, pero pequeño. Se debe controlar con HCG en 48 horas. Si aumenta al menos un 66% probablemente sea un embarazo normal; si eleva menos que eso, se confirma el embarazo ectópico y se puede tratar con metotrexato u observación, si la HCG se mantiene menor a 1.000. Si hubiese tenido compromiso hemodinámico o líquido libre, la sospecha habría sido un embarazo ectópico roto, por lo que se procedería a la laparoscopía o laparotomía de urgencia. En este caso, la hospitalización está indicada por el dolor, que no permite descartar que esté empezando a complicarse."
       },
       {
         "type": "question",
@@ -6764,7 +6783,8 @@
     "topicLabel": "19.16",
     "title": "Obstetricia 19.16: Trabajo de Parto Normal, Mecanismos del Parto en Cefálica, Score de Bishop y Manejo Activo del Alumbramiento",
     "perfilCodes": [
-      "3.01.1.007"
+      "3.01.5.010",
+      "3.01.5.006"
     ],
     "tier": 2,
     "realQuestionCount": 3,
@@ -6773,8 +6793,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Trabajo de Parto Normal, Mecanismos del Parto en Cefálica, Score de Bishop y Manejo Activo del Alumbramiento. Código oficial Perfil V3: 3.01.1.007. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.007",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Trabajo de Parto Normal, Mecanismos del Parto en Cefálica, Score de Bishop y Manejo Activo del Alumbramiento. Código oficial Perfil V3: 3.01.5.010, 3.01.5.006. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.5.010, 3.01.5.006",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -6823,7 +6843,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.007",
+              "3.01.5.010, 3.01.5.006",
               "Trabajo de Parto Normal, Mecanismos del Parto en Cefálica, Score de Bishop y Manejo Activo del Alumbramiento",
               "Específico",
               "Completo",
@@ -7164,7 +7184,10 @@
     "topicLabel": "19.17",
     "title": "Obstetricia 19.17: Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO)",
     "perfilCodes": [
-      "3.01.1.008"
+      "3.01.2.021",
+      "3.01.5.006",
+      "3.01.2.017",
+      "3.01.5.009"
     ],
     "tier": 3,
     "realQuestionCount": 7,
@@ -7173,8 +7196,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO). Código oficial Perfil V3: 3.01.1.008. Este tema ha sido evaluado en 7 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.008",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO). Código oficial Perfil V3: 3.01.2.021, 3.01.5.006, 3.01.2.017, 3.01.5.009. Este tema ha sido evaluado en 7 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.2.021, 3.01.5.006, 3.01.2.017, 3.01.5.009",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -7223,7 +7246,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.008",
+              "3.01.2.021, 3.01.5.006, 3.01.2.017, 3.01.5.009",
               "Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO)",
               "Específico",
               "Completo",
@@ -7596,7 +7619,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 82",
         "notes": "[SLIDE 14] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 82.",
         "number": 5,
-        "caseText": "Una paciente de 25 años acude al servicio de urgencia por metrorragia abundante de 2 días de evolución. Tiene antecedente de atraso menstrual de 4 semanas, dudoso debido a reglas irregulares que ocurren cada 30 a 45 días. Al examen Fsico se realiza especuloscopía con visualización de sangre que sale del oriﬁcio cervical externo, y la palpación uterina muestra un útero aumentado de tamaño como para un embarazo de 12 semanas. Se solicita subunidad beta de gonadotroﬁna coriónica humana, que resulta 200.000 U/L, y se realiza ecograFa transvaginal que muestra imagen en “tormenta de nieve”. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Una paciente de 25 años acude al servicio de urgencia por metrorragia abundante de 2 días de evolución. Tiene antecedente de atraso menstrual de 4 semanas, dudoso debido a reglas irregulares que ocurren cada 30 a 45 días. Al examen físico se realiza especuloscopía con visualización de sangre que sale del orificio cervical externo, y la palpación uterina muestra un útero aumentado de tamaño como para un embarazo de 12 semanas. Se solicita subunidad beta de gonadotrofina coriónica humana, que resulta 200.000 U/L, y se realiza ecografía transvaginal que muestra imagen en “tormenta de nieve”. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -7625,7 +7648,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Es un embarazo molar, conﬁrmado con la ecografía. La HCG muy elevada también la sugiere, al igual que el útero de tamaño mucho mayor al esperado para su edad gestacional (suprapúbico equivale a 12 semanas)."
+        "explanation": "Es un embarazo molar, confirmado con la ecografía. La HCG muy elevada también la sugiere, al igual que el útero de tamaño mucho mayor al esperado para su edad gestacional (suprapúbico equivale a 12 semanas)."
       },
       {
         "type": "question",
@@ -7694,7 +7717,7 @@
     "topicLabel": "19.18",
     "title": "Obstetricia 19.18: Hemorragia Postparto Inmediata (HPI), Código Rojo, Regla de las 4T y Algoritmo Terapéutico Escalonado",
     "perfilCodes": [
-      "3.01.1.009"
+      "3.01.2.008"
     ],
     "tier": 3,
     "realQuestionCount": 2,
@@ -7703,8 +7726,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Hemorragia Postparto Inmediata (HPI), Código Rojo, Regla de las 4T y Algoritmo Terapéutico Escalonado. Código oficial Perfil V3: 3.01.1.009. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.009",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Hemorragia Postparto Inmediata (HPI), Código Rojo, Regla de las 4T y Algoritmo Terapéutico Escalonado. Código oficial Perfil V3: 3.01.2.008. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.2.008",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -7753,7 +7776,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.009",
+              "3.01.2.008",
               "Hemorragia Postparto Inmediata (HPI), Código Rojo, Regla de las 4T y Algoritmo Terapéutico Escalonado",
               "Específico",
               "Completo",
@@ -8169,7 +8192,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 40",
         "notes": "[SLIDE 15] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 40.",
         "number": 5,
-        "caseText": "Una paciente de 32 años ingresa en trabajo de parto con 38 semanas de gestación. Al examen obstétrico, presenta buena dinámica uterina y se palpa feto en presentación cefálica apoyada y dilatación cervical de 3 cm. El peso fetal es8mado es de 4.200 g. Tiene antecedente de un parto vaginal previo a las 39 semanas, con retención de hombros y un peso al nacer de 3.900 g. ¿Cuál es la conducta más adecuada?",
+        "caseText": "Una paciente de 32 años ingresa en trabajo de parto con 38 semanas de gestación. Al examen obstétrico, presenta buena dinámica uterina y se palpa feto en presentación cefálica apoyada y dilatación cervical de 3 cm. El peso fetal estimado es de 4.200 g. Tiene antecedente de un parto vaginal previo a las 39 semanas, con retención de hombros y un peso al nacer de 3.900 g. ¿Cuál es la conducta más adecuada?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -8198,7 +8221,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Es una pregunta muy discuGble. Actualmente está en trabajo de parto, por lo que se debe elegir entre hacer una cesárea o dejar a evolución espontánea. El antecedente de distocia de hombros previa aumenta el riesgo de una nueva retención de hombros, pero no es indicación absoluta de cesárea. Por el contrario, la mayoría de las guías internacionales plantean conversarlo con la paciente y determinar la vía de parto de manera conjunta e individualizada. Sin embargo, en el caso concreto, en que pesa 300 gramos más que en el parto anterior con retención de hombros, parece del todo razonable hacer una cesárea."
+        "explanation": "Es una pregunta muy discutible. Actualmente está en trabajo de parto, por lo que se debe elegir entre hacer una cesárea o dejar a evolución espontánea. El antecedente de distocia de hombros previa aumenta el riesgo de una nueva retención de hombros, pero no es indicación absoluta de cesárea. Por el contrario, la mayoría de las guías internacionales plantean conversarlo con la paciente y determinar la vía de parto de manera conjunta e individualizada. Sin embargo, en el caso concreto, en que pesa 300 gramos más que en el parto anterior con retención de hombros, parece del todo razonable hacer una cesárea."
       },
       {
         "type": "question",
@@ -8267,7 +8290,9 @@
     "topicLabel": "19.19",
     "title": "Obstetricia 19.19: Infecciones Puerperales: Endometritis Puerperal y Patología Mamaria (Mastitis Congestiva vs Infecciosa vs Absceso)",
     "perfilCodes": [
-      "3.01.1.010"
+      "3.01.2.006",
+      "3.01.2.009",
+      "3.01.2.020"
     ],
     "tier": 2,
     "realQuestionCount": 10,
@@ -8276,8 +8301,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Infecciones Puerperales: Endometritis Puerperal y Patología Mamaria (Mastitis Congestiva vs Infecciosa vs Absceso). Código oficial Perfil V3: 3.01.1.010. Este tema ha sido evaluado en 10 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.010",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Infecciones Puerperales: Endometritis Puerperal y Patología Mamaria (Mastitis Congestiva vs Infecciosa vs Absceso). Código oficial Perfil V3: 3.01.2.006, 3.01.2.009, 3.01.2.020. Este tema ha sido evaluado en 10 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.2.006, 3.01.2.009, 3.01.2.020",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -8326,7 +8351,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.010",
+              "3.01.2.006, 3.01.2.009, 3.01.2.020",
               "Infecciones Puerperales: Endometritis Puerperal y Patología Mamaria (Mastitis Congestiva vs Infecciosa vs Absceso)",
               "Específico",
               "Completo",
@@ -8658,7 +8683,7 @@
     "topicLabel": "19.20",
     "title": "Obstetricia 19.20: Aloinmunización Rh e Incompatibilidad de Grupo Materno-Fetal: Profilaxis con Inmunoglobulina Anti-D y Manejo de la Gestante Sensibilizada",
     "perfilCodes": [
-      "3.01.1.012"
+      "3.01.3.009"
     ],
     "tier": 2,
     "realQuestionCount": 11,
@@ -8667,8 +8692,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Aloinmunización Rh e Incompatibilidad de Grupo Materno-Fetal: Profilaxis con Inmunoglobulina Anti-D y Manejo de la Gestante Sensibilizada. Código oficial Perfil V3: 3.01.1.012. Este tema ha sido evaluado en 11 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 3.01.1.012",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Aloinmunización Rh e Incompatibilidad de Grupo Materno-Fetal: Profilaxis con Inmunoglobulina Anti-D y Manejo de la Gestante Sensibilizada. Código oficial Perfil V3: 3.01.3.009. Este tema ha sido evaluado en 11 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 3.01.3.009",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -8717,7 +8742,7 @@
           {
             "highlight": true,
             "cells": [
-              "3.01.1.012",
+              "3.01.3.009",
               "Aloinmunización Rh e Incompatibilidad de Grupo Materno-Fetal: Profilaxis con Inmunoglobulina Anti-D y Manejo de la Gestante Sensibilizada",
               "Específico",
               "Completo",
@@ -8941,7 +8966,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 113",
         "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 113.",
         "number": 3,
-        "caseText": "Una paciente de 18 años consulta por amenorrea primaria. Reﬁere que inició su vida sexual hace algunos meses, pero presenta dolor durante la penetración. En su examen Fsico 8ene desarrollo mamario y puberal normal, con genitales externos femeninos sin alteraciones. Se realiza especuloscopía y se observa vagina corta y estrecha, sin poder visualizar el cuello uterino. ¿Cuál es la conducta más adecuada?",
+        "caseText": "Una paciente de 18 años consulta por amenorrea primaria. Refiere que inició su vida sexual hace algunos meses, pero presenta dolor durante la penetración. En su examen físico tiene desarrollo mamario y puberal normal, con genitales externos femeninos sin alteraciones. Se realiza especuloscopía y se observa vagina corta y estrecha, sin poder visualizar el cuello uterino. ¿Cuál es la conducta más adecuada?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -8970,7 +8995,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Se debe estudiar con una ecografía pélvica, tanto por tener una amenorrea primaria (cuyo estudio inicia con ecografía), como por la vagina corta (que hace sospechar una agenesia mulleriana, que también se estudia con ecografía, la que muestra ausencia de útero). En caso de que no se identiﬁque el útero, se sigue el estudio con cariograma, para diferenciar la agenesia mulleriana (46XX) de la insensibilidad a los andrógenos (46XY). Vale la pena mencionar que el desarrollo mamario y puberal normal hace poco probable una alteración hormonal."
+        "explanation": "Se debe estudiar con una ecografía pélvica, tanto por tener una amenorrea primaria (cuyo estudio inicia con ecografía), como por la vagina corta (que hace sospechar una agenesia mulleriana, que también se estudia con ecografía, la que muestra ausencia de útero). En caso de que no se identifique el útero, se sigue el estudio con cariograma, para diferenciar la agenesia mulleriana (46XX) de la insensibilidad a los andrógenos (46XY). Vale la pena mencionar que el desarrollo mamario y puberal normal hace poco probable una alteración hormonal."
       },
       {
         "type": "question",
@@ -9028,6 +9053,458 @@
               "Título crítico de anticuerpos en sensibilizada: Habitualmente 1:16 a 1:32.",
               "Diagnóstico de anemia fetal no invasivo: Velocidad sistólica máxima en Arteria Cerebral Media (ACM) ≥ 1.5 MoM.",
               "Tratamiento de anemia fetal grave: Transfusión intravascular intrauterina por cordocentesis."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ob-21": {
+    "id": "ob-21",
+    "topicLabel": "19.21",
+    "title": "Obstetricia 19.21: Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica: Riesgo Materno, Corionicidad y Manejo Inicial",
+    "perfilCodes": [
+      "1.01.3.002, 3.01.1.007, 3.01.2.007"
+    ],
+    "tier": 2,
+    "realQuestionCount": 7,
+    "slideCount": 14,
+    "slides": [
+      {
+        "type": "cover",
+        "nav": "Portada & Códigos",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica: Riesgo Materno, Corionicidad y Manejo Inicial. Código oficial Perfil V3: 1.01.3.002, 3.01.1.007, 3.01.2.007. Este tema ha sido evaluado en 7 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.01.3.002, 3.01.1.007, 3.01.2.007",
+        "badges": [
+          {
+            "label": "EUNACOM 2026",
+            "bg": "#ffe4e6",
+            "color": "#e11d48",
+            "border": "#f43f5e"
+          },
+          {
+            "label": "Patologías Médicas del Embarazo",
+            "bg": "#ede9fe",
+            "color": "#0284c7",
+            "border": "#c4b5fd"
+          },
+          {
+            "label": "Perfil V3 Oficial",
+            "bg": "#dcfce7",
+            "color": "#16a34a",
+            "border": "#4ade80"
+          },
+          {
+            "label": "7 Preguntas Reales (2013-2025)",
+            "bg": "#fef3c7",
+            "color": "#b45309",
+            "border": "#f59e0b"
+          }
+        ],
+        "title": "Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica: Riesgo Materno, Corionicidad y Manejo Inicial",
+        "subtitle": "Frecuencia: Alta rentabilidad · doxilamina más piridoxina como primera línea de las náuseas y vómitos, interrupción del gemelar según corionicidad y contraindicación del embarazo en hipertensión pulmonar severa"
+      },
+      {
+        "type": "table",
+        "nav": "Matriz Perfil V3",
+        "notes": "[SLIDE 2] Exigencia legal según Perfil de Conocimientos ASOFAMECh: Diagnóstico: Sospecha / Específico, Tratamiento: Inicial, Seguimiento: Derivar.",
+        "title": "Matriz de Auditoría Legal: Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica: Riesgo Materno, Corionicidad y Manejo Inicial",
+        "subtitle": "Nivel de competencia médica exigible por ley en Chile (EUNACOM 2026).",
+        "headers": [
+          "Código",
+          "Situación Clínica",
+          "Diagnóstico",
+          "Tratamiento",
+          "Seguimiento"
+        ],
+        "highlightCol": 1,
+        "pearl": "⚠️ ALERTA APS: Esta patología exige derivación obligatoria al nivel secundario tras la sospecha o estabilización inicial.",
+        "rows": [
+          {
+            "highlight": true,
+            "cells": [
+              "1.01.3.002, 3.01.1.007, 3.01.2.007",
+              "Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica: Riesgo Materno, Corionicidad y Manejo Inicial",
+              "Sospecha / Específico",
+              "Inicial",
+              "Derivar"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Cardiopatía y Embarazo: Cambios Hemodiná",
+        "notes": "[SLIDE 3] • Cambios Hemodinámicos Normales: El volumen plasmático aumenta 40-50% y el gasto cardíaco 30-50% (máximo entre las 28 y 32 semanas), con alza de la frecuencia cardíaca de 10-20 lpm y descenso de la resistencia vascular sistémica. Durante el trabajo de parto el gasto cardíaco sube otro 50% con las contracciones y, tras el alumbramiento, la autotransfusión por la retracción uterina lo eleva de nuevo: las primeras 24-72 horas del puerperio son el período más peligroso. • Cuándo Sospechar Cardiopatía: Soplo diastólico, soplo sistólico de grado 3/6 o más, cianosis, arritmia sostenida, cardiomegalia, disnea progresiva o de reposo, ortopnea, hemoptisis y síncope de esfuerzo. El soplo sistólico suave, la disnea leve y el edema de piernas son normales en el embarazo. Se confirma con ECG y ecocardiograma; el estudio y el manejo son en equipo con cardiología, obstetricia y anestesia. • Lesiones de Riesgo Muy Alto (clase IV de la OMS modificada), que contraindican el embarazo: hipertensión pulmonar severa o síndrome de Eisenmenger (mortalidad materna de 30-50%), estenosis mitral o aórtica severa sintomática, miocardiopatía con fracción de eyección menor de 30% o antecedente de miocardiopatía periparto con disfunción residual, síndrome de Marfan con raíz aórtica dilatada (más de 45 mm) y coartación aórtica severa. Se recomienda anticoncepción segura y, si la paciente ya está embarazada, interrupción terapéutica en las causales de la Ley 21.030. • Lesiones Bien Toleradas: Comunicación interauricular o interventricular pequeñas o corregidas, ductus pequeño, prolapso mitral sin insuficiencia significativa, insuficiencias valvulares leves o moderadas y arritmias benignas, porque el descenso de la resistencia sistémica alivia las insuficiencias. La estenosis mitral es la valvulopatía que más descompensa (la taquicardia reduce el llenado y causa edema pulmonar): se usan betabloqueadores y diuréticos. • Manejo: Control preconcepcional, reposo relativo, tratar anemia, infección e hipertensión, y vigilar la insuficiencia cardíaca con diuréticos (furosemida), betabloqueadores (metoprolol; evitar atenolol) y digoxina. Contraindicados: IECA, ARA-II, amiodarona y estatinas. Las válvulas mecánicas exigen anticoagulación estricta (warfarina tiene riesgo de embriopatía entre las 6 y 12 semanas, por lo que se reemplaza por heparina de bajo peso molecular según la dosis, bajo control de cardiología) y se suspende antes del parto. • Parto y Puerperio: El parto vaginal es de elección, con analgesia epidural precoz y expulsivo acortado con fórceps; la cesárea se reserva para indicaciones obstétricas y para Marfan con aorta dilatada, estenosis aórtica severa, insuficiencia cardíaca y anticoagulación oral. Se evita la metilergonovina y los bolos de oxitocina (vasodilatación e hipotensión) y se monitoriza a la paciente al menos 48-72 horas después del parto. La profilaxis antibiótica de endocarditis solo se indica en válvula protésica, endocarditis previa o cardiopatía congénita cianótica.",
+        "title": "1. Cardiopatía y Embarazo: Cambios Hemodinámicos y Riesgo Materno",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "• Cambios Hemodinámicos Normales: El volumen plasmático aumenta 40-50% y el gasto cardíaco 30-50% (máximo entre las 28 y 32 semanas), con alza de la frecuencia cardíaca de 10-20 lpm y descenso de la resistencia vascular sistémica. Durante el trabajo de parto el gasto cardíaco sube otro 50% con las contracciones y, tras el alumbramiento, la autotransfusión por la retracción uterina lo eleva de nuevo: las primeras 24-72 horas del puerperio son el período más peligroso.",
+              "• Cuándo Sospechar Cardiopatía: Soplo diastólico, soplo sistólico de grado 3/6 o más, cianosis, arritmia sostenida, cardiomegalia, disnea progresiva o de reposo, ortopnea, hemoptisis y síncope de esfuerzo. El soplo sistólico suave, la disnea leve y el edema de piernas son normales en el embarazo. Se confirma con ECG y ecocardiograma; el estudio y el manejo son en equipo con cardiología, obstetricia y anestesia.",
+              "• Lesiones de Riesgo Muy Alto (clase IV de la OMS modificada), que contraindican el embarazo: hipertensión pulmonar severa o síndrome de Eisenmenger (mortalidad materna de 30-50%), estenosis mitral o aórtica severa sintomática, miocardiopatía con fracción de eyección menor de 30% o antecedente de miocardiopatía periparto con disfunción residual, síndrome de Marfan con raíz aórtica dilatada (más de 45 mm) y coartación aórtica severa. Se recomienda anticoncepción segura y, si la paciente ya está embarazada, interrupción terapéutica en las causales de la Ley 21.030.",
+              "• Lesiones Bien Toleradas: Comunicación interauricular o interventricular pequeñas o corregidas, ductus pequeño, prolapso mitral sin insuficiencia significativa, insuficiencias valvulares leves o moderadas y arritmias benignas, porque el descenso de la resistencia sistémica alivia las insuficiencias. La estenosis mitral es la valvulopatía que más descompensa (la taquicardia reduce el llenado y causa edema pulmonar): se usan betabloqueadores y diuréticos.",
+              "• Manejo: Control preconcepcional, reposo relativo, tratar anemia, infección e hipertensión, y vigilar la insuficiencia cardíaca con diuréticos (furosemida), betabloqueadores (metoprolol; evitar atenolol) y digoxina. Contraindicados: IECA, ARA-II, amiodarona y estatinas. Las válvulas mecánicas exigen anticoagulación estricta (warfarina tiene riesgo de embriopatía entre las 6 y 12 semanas, por lo que se reemplaza por heparina de bajo peso molecular según la dosis, bajo control de cardiología) y se suspende antes del parto.",
+              "• Parto y Puerperio: El parto vaginal es de elección, con analgesia epidural precoz y expulsivo acortado con fórceps; la cesárea se reserva para indicaciones obstétricas y para Marfan con aorta dilatada, estenosis aórtica severa, insuficiencia cardíaca y anticoagulación oral. Se evita la metilergonovina y los bolos de oxitocina (vasodilatación e hipotensión) y se monitoriza a la paciente al menos 48-72 horas después del parto. La profilaxis antibiótica de endocarditis solo se indica en válvula protésica, endocarditis previa o cardiopatía congénita cianótica."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Embarazo Múltiple: Corionicidad, Complic",
+        "notes": "[SLIDE 4] • Sospecha y Diagnóstico: Altura uterina mayor que la edad gestacional, hiperemesis, aumento exagerado de peso, dos polos fetales palpables y dos focos de latidos. El diagnóstico se confirma con ecografía. Dos tercios de los gemelos son dicigotos (siempre bicoriales y biamnióticos); los monocigotos pueden ser bicoriales, monocoriales biamnióticos o monocoriales monoamnióticos, según el día de la división. Son factores de riesgo la edad materna, las técnicas de reproducción asistida y los antecedentes familiares. • Corionicidad: lo Más Importante. Se determina entre las 11 y 14 semanas: el signo lambda (extensión triangular de tejido placentario entre las membranas) indica gestación bicorial; el signo T (membrana delgada que sale en ángulo recto) indica gestación monocorial. Los monocoriales comparten placenta y vasos, por lo que su riesgo perinatal es mayor. • Complicaciones Fetales: Parto prematuro (la mitad nace antes de las 37 semanas), restricción de crecimiento y discordancia de peso mayor de 20-25%, malformaciones (el doble). En los monocoriales: síndrome de transfusión feto-fetal (donante con oligohidramnios y receptor con polihidramnios; tratamiento con láser fetoscópico), anemia-policitemia, enredo de cordones en los monoamnióticos y, ante la muerte de un gemelo, riesgo de daño o muerte del sobreviviente. En el bicorial con un gemelo muerto en el 2.° o 3.er trimestre se vigila con pruebas de bienestar fetal y de coagulación, por el riesgo de coagulopatía. • Complicaciones Maternas: Hiperemesis, anemia, preeclampsia (3 veces más frecuente), diabetes gestacional, colestasia intrahepática, hemorragia postparto por atonía y mayor tasa de cesárea. Se suplementa hierro y ácido fólico, y se hace aspirina 150 mg nocturna desde el 1.er trimestre si hay riesgo de preeclampsia. • Control y Derivación: Todo embarazo múltiple se deriva a ARO. La vigilancia ecográfica es más frecuente: cada 2 semanas desde las 16 en los monocoriales y cada 4 semanas desde las 20 en los bicoriales, con medición de crecimiento, líquido amniótico y Doppler. Se administran corticoides antenatales si hay riesgo de parto antes de las 34 semanas. • Momento y Vía del Parto: Bicorial biamniótico sin complicaciones: interrupción alrededor de las 38 semanas. Monocorial biamniótico: 36 semanas. Monoamniótico: 32-34 semanas, por cesárea. Si el primer gemelo está en presentación cefálica y es biamniótico, se puede intentar parto vaginal; si el primer gemelo no es cefálico, si es monoamniótico o si hay tres o más fetos, se hace cesárea. En el puerperio se previene la atonía uterina con oxitocina.",
+        "title": "2. Embarazo Múltiple: Corionicidad, Complicaciones y Momento de Interrupción",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "• Sospecha y Diagnóstico: Altura uterina mayor que la edad gestacional, hiperemesis, aumento exagerado de peso, dos polos fetales palpables y dos focos de latidos. El diagnóstico se confirma con ecografía. Dos tercios de los gemelos son dicigotos (siempre bicoriales y biamnióticos); los monocigotos pueden ser bicoriales, monocoriales biamnióticos o monocoriales monoamnióticos, según el día de la división. Son factores de riesgo la edad materna, las técnicas de reproducción asistida y los antecedentes familiares.",
+              "• Corionicidad: lo Más Importante. Se determina entre las 11 y 14 semanas: el signo lambda (extensión triangular de tejido placentario entre las membranas) indica gestación bicorial; el signo T (membrana delgada que sale en ángulo recto) indica gestación monocorial. Los monocoriales comparten placenta y vasos, por lo que su riesgo perinatal es mayor.",
+              "• Complicaciones Fetales: Parto prematuro (la mitad nace antes de las 37 semanas), restricción de crecimiento y discordancia de peso mayor de 20-25%, malformaciones (el doble). En los monocoriales: síndrome de transfusión feto-fetal (donante con oligohidramnios y receptor con polihidramnios; tratamiento con láser fetoscópico), anemia-policitemia, enredo de cordones en los monoamnióticos y, ante la muerte de un gemelo, riesgo de daño o muerte del sobreviviente. En el bicorial con un gemelo muerto en el 2.° o 3.er trimestre se vigila con pruebas de bienestar fetal y de coagulación, por el riesgo de coagulopatía.",
+              "• Complicaciones Maternas: Hiperemesis, anemia, preeclampsia (3 veces más frecuente), diabetes gestacional, colestasia intrahepática, hemorragia postparto por atonía y mayor tasa de cesárea. Se suplementa hierro y ácido fólico, y se hace aspirina 150 mg nocturna desde el 1.er trimestre si hay riesgo de preeclampsia.",
+              "• Control y Derivación: Todo embarazo múltiple se deriva a ARO. La vigilancia ecográfica es más frecuente: cada 2 semanas desde las 16 en los monocoriales y cada 4 semanas desde las 20 en los bicoriales, con medición de crecimiento, líquido amniótico y Doppler. Se administran corticoides antenatales si hay riesgo de parto antes de las 34 semanas.",
+              "• Momento y Vía del Parto: Bicorial biamniótico sin complicaciones: interrupción alrededor de las 38 semanas. Monocorial biamniótico: 36 semanas. Monoamniótico: 32-34 semanas, por cesárea. Si el primer gemelo está en presentación cefálica y es biamniótico, se puede intentar parto vaginal; si el primer gemelo no es cefálico, si es monoamniótico o si hay tres o más fetos, se hace cesárea. En el puerperio se previene la atonía uterina con oxitocina."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Hiperemesis Gravídica: Diagnóstico, Hosp",
+        "notes": "[SLIDE 5] • Definición y Cuadro: Las náuseas y vómitos afectan a 50-80% de las embarazadas; comienzan hacia las 4-6 semanas, alcanzan su máximo a las 9-12 y ceden a las 16-20. La hiperemesis gravídica es la forma grave: vómitos persistentes e incoercibles, pérdida de más de 5% del peso previo, deshidratación, cetonuria y alteraciones hidroelectrolíticas (hipokalemia, alcalosis metabólica hipoclorémica). Se asocia a niveles altos de β-hCG, por lo que es más frecuente en el embarazo múltiple y la mola hidatidiforme. • Estudio: Es un diagnóstico de exclusión. Se piden electrolitos plasmáticos y creatinina, glicemia, cetonuria y orina completa con urocultivo, pruebas hepáticas (transaminasas con alza leve), amilasa o lipasa y TSH con T4 libre (hipertiroidismo gestacional transitorio) y una ecografía para confirmar un embarazo intrauterino, descartar mola y detectar gemelos. Se descartan otras causas: gastroenteritis, hepatitis, pancreatitis, colecistitis, apendicitis e infección urinaria. En la segunda mitad del embarazo, el vómito con hipertensión sugiere HELLP, no hiperemesis. • Tratamiento Ambulatorio de Náuseas y Vómitos Leves a Moderados: Comidas pequeñas y frecuentes, evitar olores desencadenantes y reposo. Primera línea farmacológica: doxilamina más piridoxina (vitamina B6) por vía oral. Si no basta, antieméticos como metoclopramida, dimenhidrinato u ondansetrón. El jengibre puede ayudar. • Hospitalización (hiperemesis): Indicada si no tolera líquidos, hay deshidratación, cetonuria, baja de peso mayor de 5% o alteraciones electrolíticas. Se hidrata con suero fisiológico o Ringer, con dextrosa y potasio según los exámenes, antieméticos endovenosos y tiamina 100 mg EV antes o junto con la glucosa, para prevenir la encefalopatía de Wernicke (oftalmoplejía, ataxia y confusión). Se corrige el sodio lentamente (riesgo de mielinólisis pontina). En casos refractarios se usa nutrición enteral o parenteral. • Complicaciones: Encefalopatía de Wernicke, desgarro esofágico de Mallory-Weiss, desnutrición y déficit de vitaminas, trombosis venosa por deshidratación y, si es prolongada, menor peso fetal. No se interrumpe el embarazo por hiperemesis salvo casos excepcionales refractarios. No requiere seguimiento especializado una vez resuelta.",
+        "title": "3. Hiperemesis Gravídica: Diagnóstico, Hospitalización y Tratamiento",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "• Definición y Cuadro: Las náuseas y vómitos afectan a 50-80% de las embarazadas; comienzan hacia las 4-6 semanas, alcanzan su máximo a las 9-12 y ceden a las 16-20. La hiperemesis gravídica es la forma grave: vómitos persistentes e incoercibles, pérdida de más de 5% del peso previo, deshidratación, cetonuria y alteraciones hidroelectrolíticas (hipokalemia, alcalosis metabólica hipoclorémica). Se asocia a niveles altos de β-hCG, por lo que es más frecuente en el embarazo múltiple y la mola hidatidiforme.",
+              "• Estudio: Es un diagnóstico de exclusión. Se piden electrolitos plasmáticos y creatinina, glicemia, cetonuria y orina completa con urocultivo, pruebas hepáticas (transaminasas con alza leve), amilasa o lipasa y TSH con T4 libre (hipertiroidismo gestacional transitorio) y una ecografía para confirmar un embarazo intrauterino, descartar mola y detectar gemelos. Se descartan otras causas: gastroenteritis, hepatitis, pancreatitis, colecistitis, apendicitis e infección urinaria. En la segunda mitad del embarazo, el vómito con hipertensión sugiere HELLP, no hiperemesis.",
+              "• Tratamiento Ambulatorio de Náuseas y Vómitos Leves a Moderados: Comidas pequeñas y frecuentes, evitar olores desencadenantes y reposo. Primera línea farmacológica: doxilamina más piridoxina (vitamina B6) por vía oral. Si no basta, antieméticos como metoclopramida, dimenhidrinato u ondansetrón. El jengibre puede ayudar.",
+              "• Hospitalización (hiperemesis): Indicada si no tolera líquidos, hay deshidratación, cetonuria, baja de peso mayor de 5% o alteraciones electrolíticas. Se hidrata con suero fisiológico o Ringer, con dextrosa y potasio según los exámenes, antieméticos endovenosos y tiamina 100 mg EV antes o junto con la glucosa, para prevenir la encefalopatía de Wernicke (oftalmoplejía, ataxia y confusión). Se corrige el sodio lentamente (riesgo de mielinólisis pontina). En casos refractarios se usa nutrición enteral o parenteral.",
+              "• Complicaciones: Encefalopatía de Wernicke, desgarro esofágico de Mallory-Weiss, desnutrición y déficit de vitaminas, trombosis venosa por deshidratación y, si es prolongada, menor peso fetal. No se interrumpe el embarazo por hiperemesis salvo casos excepcionales refractarios. No requiere seguimiento especializado una vez resuelta."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Cardiopatía, Embarazo Múltiple",
+        "notes": "[SLIDE 6] Cardiopatía, Embarazo Múltiple e Hiperemesis: Conducta Inicial.",
+        "title": "Cardiopatía, Embarazo Múltiple e Hiperemesis: Conducta Inicial",
+        "headers": [
+          "Situación",
+          "Dato Clínico Clave",
+          "Conducta del Médico General",
+          "Cuándo Derivar"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Cardiopatía de riesgo muy alto",
+              "Hipertensión pulmonar severa o Eisenmenger, estenosis severa sintomática, Marfan con aorta dilatada",
+              "Desaconsejar o interrumpir el embarazo (Ley 21.030) y dar anticoncepción segura",
+              "Siempre a centro terciario"
+            ]
+          },
+          {
+            "cells": [
+              "Cardiopatía bien tolerada",
+              "CIA/CIV pequeña, prolapso mitral, insuficiencia leve",
+              "Control habitual con ecocardiograma, tratar anemia e HTA",
+              "Si aparece disnea o arritmia"
+            ]
+          },
+          {
+            "cells": [
+              "Gemelar bicorial",
+              "Signo lambda, 2 placentas",
+              "Control ARO, interrupción a las 38 semanas si no hay complicaciones",
+              "Todo embarazo múltiple"
+            ]
+          },
+          {
+            "cells": [
+              "Gemelar monocorial",
+              "Signo T, riesgo de transfusión feto-fetal",
+              "Eco cada 2 semanas desde las 16; interrupción a las 36 semanas (biamniótico)",
+              "Siempre; monoamniótico 32-34 semanas por cesárea"
+            ]
+          },
+          {
+            "cells": [
+              "Náuseas y vómitos leves",
+              "Tolera líquidos, sin cetonuria",
+              "Dieta fraccionada y doxilamina más piridoxina",
+              "Si no responde"
+            ]
+          },
+          {
+            "cells": [
+              "Hiperemesis gravídica",
+              "Baja de peso mayor de 5%, cetonuria, hipokalemia",
+              "Hospitalizar, SF o Ringer con dextrosa y potasio, tiamina y antiemético EV",
+              "Si es refractaria o hay Wernicke"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "figura",
+        "nav": "Algoritmo",
+        "notes": "[SLIDE 7] Algoritmo de Manejo de las Náuseas y Vómitos del Embarazo",
+        "title": "Algoritmo de Manejo de las Náuseas y Vómitos del Embarazo",
+        "svg": "<svg viewBox=\"0 0 620 257\" width=\"100%\" style=\"max-width:620px;font-family:'IBM Plex Sans',system-ui,sans-serif\">\n  <defs><marker id=\"ar_9d174d\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#9d174d\"/></marker></defs>\n  <style>\n    .b{fill:#fff;stroke:#cbd5e1;stroke-width:1}\n    .t{font-size:10px;fill:#15181d}\n    .sub{font-size:8px;fill:#475569}.lbl{font-size:7.5px;fill:#9d174d;font-weight:700}\n    .acc{fill:#9d174d;stroke:#700d36}.accT{fill:#fff}.accS{font-size:8px;fill:#fce7f3}\n    .dec{fill:#fdf2f8;stroke:#94a3b8;stroke-width:1}\n    .warn{fill:#fef2f2;stroke:#fecaca;stroke-width:1}.warnT{fill:#991b1b}\n    .crit{fill:#fff1f2;stroke:#f43f5e;stroke-width:1}\n    .ln{stroke:#9d174d;stroke-width:1.2;fill:none;marker-end:url(#ar_9d174d)}\n  </style>\n  <rect class=\"acc\" x=\"100\" y=\"8\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"310\" y=\"23\" text-anchor=\"middle\" font-weight=\"700\">Náuseas y vómitos en el 1.er trimestre</text>\n  <text class=\"accS\" x=\"310\" y=\"35\" text-anchor=\"middle\">Descartar otras causas: ITU, gastroenteritis, mola y gemelar (ecografía), hipertiroidismo</text>\n  <path class=\"ln\" d=\"M310,47 V69\"/>\n  <text class=\"sub\" x=\"317\" y=\"61\">Evaluar gravedad</text>\n  <rect class=\"dec\" x=\"70\" y=\"69\" width=\"480\" height=\"29\" rx=\"3\"/>\n  <text class=\"t t\" x=\"310\" y=\"84\" text-anchor=\"middle\" font-weight=\"700\">Tolera líquidos, sin cetonuria ni pérdida de más de 5% del peso</text>\n  <path class=\"ln\" d=\"M310,98 V128 H158 V138\"/>\n  <path class=\"ln\" d=\"M310,128 H462 V138\"/>\n  <text class=\"lbl\" x=\"158\" y=\"123\" text-anchor=\"middle\">Sí: náuseas y vómitos leves-moderados</text>\n  <text class=\"lbl\" x=\"462\" y=\"123\" text-anchor=\"middle\">No: hiperemesis gravídica</text>\n  <rect class=\"warn\" x=\"12\" y=\"138\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"158\" y=\"153\" text-anchor=\"middle\" font-weight=\"700\">MANEJO AMBULATORIO</text>\n  <text class=\"warnT sub\" x=\"158\" y=\"165\" text-anchor=\"middle\">Comidas pequeñas y frecuentes · Doxilamina más piridoxina oral</text>\n  <text class=\"warnT sub\" x=\"158\" y=\"176\" text-anchor=\"middle\">Metoclopramida u ondansetrón si no responde</text>\n  <rect class=\"crit\" x=\"316\" y=\"138\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"462\" y=\"153\" text-anchor=\"middle\" font-weight=\"700\">HIPEREMESIS GRAVÍDICA</text>\n  <text class=\"warnT sub\" x=\"462\" y=\"165\" text-anchor=\"middle\">Hospitalizar · Suero con dextrosa y potasio</text>\n  <text class=\"warnT sub\" x=\"462\" y=\"176\" text-anchor=\"middle\">TIAMINA antes de la glucosa · Antiemético EV</text>\n  <path class=\"ln\" d=\"M158,188 V198 H310 V210\"/>\n  <path class=\"ln\" d=\"M462,188 V198 H310 V210\"/>\n  <rect class=\"acc\" x=\"100\" y=\"210\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"310\" y=\"225\" text-anchor=\"middle\" font-weight=\"700\">Seguimiento</text>\n  <text class=\"accS\" x=\"310\" y=\"237\" text-anchor=\"middle\">Electrolitos, cetonuria y peso · Nutrición enteral o parenteral si es refractaria</text>\n</svg>",
+        "steps": [
+          "1. Náuseas y vómitos en el 1.er trimestre",
+          "2. Tolera líquidos, sin cetonuria ni pérdida de más de 5% del peso",
+          "3. MANEJO AMBULATORIO · HIPEREMESIS GRAVÍDICA · Seguimiento"
+        ]
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 1",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 8] Caso clínico de aplicación número 1.",
+        "number": 1,
+        "caseText": "Una paciente de 39 años, cursando un embarazo gemelar bicorial biamniótico de 36 semanas, acude a control. Se encuentra en buenas condiciones generales, sin síntomas, con signos vitales normales. La ecografía muestra al primer gemelo con un peso fetal estimado de 2.850 g y al segundo con 2.750 g, con líquido amniótico normal. ¿Cuál es la conducta más adecuada?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Realizar control ecográfico en una semana",
+            "isCorrect": true
+          },
+          {
+            "id": "B",
+            "text": "Programar cesárea electiva a las 38 semanas",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Inducir el parto de inmediato",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Solicitar ecografía Doppler de arterias uterinas",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Realizar cesárea de urgencia",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Un gemelar bicorial biamniótico sin complicaciones, con crecimiento concordante y bienestar conservado, se vigila y se interrumpe alrededor de las 38 semanas, por lo que a las 36 semanas se mantiene el control ecográfico. La vía del parto depende de la presentación del primer gemelo (si es cefálico y biamniótico, puede ser vaginal), no del embarazo gemelar en sí. Los monocoriales biamnióticos se interrumpen a las 36 semanas y los monoamnióticos a las 32-34 semanas."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 2",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 9] Caso clínico de aplicación número 2.",
+        "number": 2,
+        "caseText": "Una paciente de 24 años, primigesta de 12 semanas, consulta porque presenta náuseas y vómitos que afectan significativamente su calidad de vida. ¿Cuál de los siguientes tratamientos es más adecuado para el manejo inicial de esta paciente?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Corticoides orales",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Omeprazol oral",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Doxilamina más piridoxina oral",
+            "isCorrect": true
+          },
+          {
+            "id": "D",
+            "text": "Metoclopramida oral",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Ondansetrón oral",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "La primera línea de las náuseas y vómitos del embarazo que afectan la calidad de vida es la combinación de doxilamina (antihistamínico) más piridoxina (vitamina B6) por vía oral, junto con medidas dietéticas. La metoclopramida y el ondansetrón son segunda línea si no hay respuesta; los corticoides se reservan para casos refractarios y el omeprazol no trata el cuadro."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 3",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 10] Caso clínico de aplicación número 3.",
+        "number": 3,
+        "caseText": "Una paciente de 18 años, cursando un embarazo de 11 semanas, presenta vómitos frecuentes desde el inicio del embarazo, que han ido en aumento. Hace 24 horas ha empeorado, al punto que no ha podido ingerir líquidos adecuadamente, por lo que acude al servicio de urgencia. El diagnóstico más probable es:",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Gastroparesia gestacional",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Cólico biliar",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Hepatitis",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Hiperemesis gravídica",
+            "isCorrect": true
+          },
+          {
+            "id": "E",
+            "text": "Síndrome de HELLP",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Los vómitos persistentes del primer trimestre que impiden tolerar líquidos y llevan a deshidratación definen la hiperemesis gravídica, relacionada con los niveles altos de β-hCG. Se maneja con hospitalización, hidratación endovenosa, reposición de electrolitos, tiamina y antieméticos. El HELLP aparece en la segunda mitad del embarazo, con hipertensión, hemólisis y trombocitopenia."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 4",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 11] Caso clínico de aplicación número 4.",
+        "number": 4,
+        "caseText": "Una mujer de 28 años, con una cardiopatía conocida, consulta en control preconcepcional porque desea embarazarse. ¿En cuál de las siguientes condiciones se debe desaconsejar el embarazo por su alta mortalidad materna?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Comunicación interauricular reparada",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Prolapso de válvula mitral sin insuficiencia significativa",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Hipertensión arterial pulmonar severa (síndrome de Eisenmenger)",
+            "isCorrect": true
+          },
+          {
+            "id": "D",
+            "text": "Extrasistolía ventricular benigna",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Insuficiencia mitral leve",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "La hipertensión arterial pulmonar severa, incluido el síndrome de Eisenmenger, tiene una mortalidad materna de 30-50% (clase IV de la OMS modificada) y contraindica el embarazo. Las lesiones reparadas, el prolapso mitral sin insuficiencia y las insuficiencias valvulares leves se toleran bien, porque el embarazo disminuye la resistencia vascular sistémica."
+      },
+      {
+        "type": "question",
+        "nav": "Pregunta Real EUNACOM",
+        "badge": "EUNACOM Enero 2023 · Pregunta 56",
+        "notes": "[SLIDE 12] Pregunta oficial del banco EUNACOM: EUNACOM Enero 2023 · Pregunta 56.",
+        "number": 5,
+        "caseText": "Embarazada con náuseas y vómitos importantes que impactan su calidad de vida. ¿Cuál es el tratamiento más adecuado?",
+        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Metoclopramida oral",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Ondansetrón endovenoso",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Dieta fraccionada y observación",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Dimenhidrinato oral",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Doxilamina y piridoxina",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "Conducta / Tratamiento indicado: **Doxilamina y piridoxina** (opción **E**). Doxilamina y piridoxina. Tratamiento Escalonado De acuerdo con las guías ministeriales de Chile, esta es la intervención que reduce morbilidad y mortalidad."
+      },
+      {
+        "type": "question",
+        "nav": "Pregunta Real EUNACOM",
+        "badge": "EUNACOM Agosto 2021 · Pregunta 143",
+        "notes": "[SLIDE 13] Pregunta oficial del banco EUNACOM: EUNACOM Agosto 2021 · Pregunta 143.",
+        "number": 6,
+        "caseText": "ecografía-doppler, que muestra discordancia de crecimiento de 28%, perfil biofísico tranquilizador y doppler con aumento de la resistencia umbilical y flujo presente en diástole. Ambos fetos se encuentran en posición cefálica. ¿Cuál es la conducta más adecuada?",
+        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Realizar cesárea ahora",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Inducir el parto ahora",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Realizar control seriado con doppler fetal",
+            "isCorrect": true
+          },
+          {
+            "id": "D",
+            "text": "Administrar corticoides antenatales",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Repetir el perfil biofísico",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Tiene gemelos discordantes (uno es 25% más chico que el otro), que, aunque la mayoría además cumple con que uno de ellos es RCIU, en este caso no se menciona. De todos modos, el manejo es similar al RCIU. En este caso, tiene un doppler con alteraciones, pero, de baja gravedad (aumento de la resistencia), ya que aún hay flujo en diástole. Por tanto, no es necesario interrumpir aún y se debe seguir con el Doppler. Eso sí,"
+      },
+      {
+        "type": "bento",
+        "nav": "Reglas de Oro",
+        "notes": "[SLIDE 14] Repasemos las reglas de oro de este tema para no fallar en el EUNACOM.",
+        "title": "Reglas de Oro del Examen EUNACOM",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "Hipertensión pulmonar severa o Eisenmenger (mortalidad materna de 30-50%) contraindica el embarazo; las lesiones reparadas y las insuficiencias leves se toleran bien.",
+              "El gasto cardíaco sube 30-50% en el embarazo y el período más riesgoso es el postparto inmediato (24-72 horas); el parto vaginal es de elección en la cardiópata.",
+              "IECA, ARA-II, amiodarona y estatinas están contraindicados; la estenosis mitral es la valvulopatía que más descompensa.",
+              "En el gemelar se determina la corionicidad a las 11-14 semanas: signo lambda es bicorial, signo T es monocorial.",
+              "Interrupción del gemelar: bicorial a las 38 semanas, monocorial biamniótico a las 36 y monoamniótico a las 32-34 semanas por cesárea.",
+              "La vía del parto gemelar depende de la presentación del primer gemelo; si no es cefálico o es monoamniótico, cesárea.",
+              "Primera línea de las náuseas y vómitos del embarazo: doxilamina más piridoxina oral.",
+              "Hiperemesis: hospitalizar, hidratar con potasio y dar tiamina antes o con la glucosa para prevenir la encefalopatía de Wernicke."
             ]
           }
         ]

@@ -29,16 +29,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -305,6 +306,13 @@ const bloque2 = [
           'El paciente <strong>DEBE ser hospitalizado en observación bajo infusión continua de solución glucosada al 10% durante al menos 24 horas</strong>, ya que el fármaco continúa circulando y gatillará una nueva hipoglicemia profunda tan pronto como cese el aporte agudo de azúcar.',
         ],
       },
+      {
+        subhead: "4. Acidosis Láctica Asociada a Metformina (MALA): Diagnóstico y Manejo Inicial",
+        paragraphs: [
+          "La acidosis láctica es la complicación más grave de la metformina. Es <strong>muy infrecuente</strong> (3 a 10 casos por 100.000 pacientes-año) y casi siempre hay un <strong>factor precipitante</strong> que reduce la depuración del fármaco o aumenta el lactato: <strong>insuficiencia renal aguda o VFG &lt; 30</strong>, sepsis, shock o hipoperfusión, hipoxemia, insuficiencia hepática, alcoholismo agudo o medio de contraste yodado. La clínica es inespecífica: náuseas, vómitos, dolor abdominal, <strong>respiración de Kussmaul</strong>, hipotensión y compromiso de conciencia. El diagnóstico es de laboratorio: <strong>acidosis metabólica con anion gap elevado (pH &lt; 7.35) y lactato &gt; 5 mmol/L</strong>, con glicemia normal o poco elevada y <strong>cetonemia negativa</strong>, lo que la distingue de la cetoacidosis diabética. La creatinina suele estar elevada.",
+          "<strong>Manejo inicial y derivación:</strong> suspender la metformina, hospitalizar de inmediato en una unidad de paciente crítico (<strong>derivar</strong>), tratar la causa desencadenante (sepsis, hipoperfusión), reanimación con cristaloides, oxígeno y monitoreo. El <strong>bicarbonato</strong> se reserva para acidemia grave (pH &lt; 7.1) con inestabilidad. La <strong>hemodiálisis</strong> elimina la metformina y el lactato y se indica en acidosis grave (pH &lt; 7.0), lactato muy elevado, falla renal severa o falta de respuesta al tratamiento. La mortalidad alcanza 30–50%; la prevención es <strong>respetar el ajuste por VFG</strong> y suspender el fármaco ante contraste, sepsis o deshidratación.",
+        ],
+      },
     ],
     table: {
       title: 'Comparación Farmacológica: Metformina vs Glibenclamida',
@@ -506,6 +514,13 @@ const bloque2 = [
         paragraphs: [
           '• <strong>Fármaco de elección:</strong> <strong>Insulina Humana (NPH y Cristalina)</strong>, categoría B en el embarazo. No atraviesan la barrera placentaria en cantidades significativas y son absolutamente seguras para el embrión y feto. Si la alteración es solo de ayuno: Insulina NPH nocturna (0.1–0.2 UI/kg). Si la alteración es postprandial: Insulina Cristalina o análogos ultrarrápidos (Lispro o Aspart) pre-comidas.<br>' +
           '• <strong>Fármacos Prohibidos:</strong> Las <strong>sulfonilureas (glibenclamida)</strong> atraviesan activamente la placenta, estimulan el páncreas fetal y provocan <strong>hiperinsulinismo fetal masivo, macrosomía grave e hipoglicemia neonatal profunda y refractaria</strong>. Están formalmente contraindicadas.',
+        ],
+      },
+      {
+        subhead: "4. Técnica de la Glicemia Capilar y su Interpretación en la Gestante",
+        paragraphs: [
+          "La glicemia capilar se realiza con glucómetro y tira reactiva, y todo médico debe saber hacerla y enseñarla. <strong>Técnica:</strong> 1) lavar las manos con agua tibia y jabón y <strong>secarlas bien</strong> (restos de azúcar o de alcohol falsean el resultado); 2) verificar que la tira esté vigente y bien conservada e insertarla en el equipo; 3) puncionar con lanceta desechable la <strong>cara lateral del pulpejo</strong> del dedo medio, anular o meñique (menos dolor que el centro), rotando los sitios; 4) dejar formar una gota sin comprimir el dedo (el «ordeñe» diluye la sangre con líquido tisular); 5) aplicar la gota a la tira, leer y <strong>registrar</strong> en la libreta; 6) eliminar la lanceta en un contenedor cortopunzante.",
+          "<strong>Interpretación en la gestante:</strong> el automonitoreo de 4 a 6 puntos al día (ayunas y 1 o 2 horas después del inicio de cada comida) se compara con las metas del embarazo: <strong>ayunas &lt; 95 mg/dL, 1 hora postprandial &lt; 140 mg/dL y 2 horas &lt; 120 mg/dL</strong>. Los valores se usan para decidir la insulina (criterio del 20% de valores sobre la meta). <strong>Fuentes de error:</strong> tiras vencidas o mal cerradas, manos contaminadas, hematocrito muy alto o bajo, hipoperfusión o shock (en que el capilar no es confiable y se confirma con glicemia venosa). Un valor discordante de la clínica se repite o se confirma en el laboratorio.",
         ],
       },
     ],

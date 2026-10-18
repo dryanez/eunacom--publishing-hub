@@ -1,0 +1,499 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Traumatología sobre ilustración real (Blausen, CC BY 3.0, rótulos en inglés quitados con blausen_clean.py).
+// Una escena por mecanismo; capas animadas propias encima o sobre recortes de la misma ilustración.
+//   ?v=pelvis    trauma-05  A1: pelvis en libro abierto → hemorragia venosa → sábana/faja cierra el anillo
+//   ?v=acl       trauma-08  A1: rotura del LCA → hemartrosis → cajón anterior
+//   ?v=hombro    trauma-04  A1: luxación anterior de hombro → nervio axilar → reducción
+//   ?v=cadera    trauma-10  A1: fractura de cuello femoral desplazada → necrosis → prótesis
+//   ?v=artrosis  trauma-12  A1: artrosis de rodilla: cartílago, osteofitos, líquido no inflamatorio
+//   ?v=escoliosis trauma-14 A1: ángulo de Cobb y tratamiento por grados
+//   ?v=disco     trauma-15  A1: hernia discal → compresión radicular → lumbociática
+//   ?v=codo      trauma-11  A1: epicondilalgia lateral (codo de tenista)
+//   ?v=aquiles   trauma-09  A1: rotura del Aquiles y maniobra de Thompson
+//   ?v=huesos    trauma-06  A1: diáfisis (cortical) contra metáfisis (esponjosa): por qué consolidan distinto
+//   ?v=ferula    trauma-01  A1: valva de yeso acolchada: deja espacio al edema; yeso circular aprieta
+//   ?v=compart   trauma-03  A1: síndrome compartimental (gráfico de tiempo, sin anatomía)
+const V = new URLSearchParams(location.search).get('v') || 'pelvis';
+const DUR = { huesos: 26, ferula: 25, pelvis: 27, acl: 27, hombro: 27, cadera: 28, artrosis: 25, escoliosis: 25, disco: 26, codo: 25, aquiles: 24, compart: 26 };
+window.SCENE = { duration: DUR[V], fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade } = K;
+const I = k => window.IMGS[k];
+const A = '../assets/blausen/';
+const CRED = 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios';
+
+// ---- lámina: recorte animable de una imagen real sobre tarjeta blanca ----
+function Plate(key, dst, view) {            // dst {x,y,w,h}; view {x,y,w,h} en px de la imagen
+  const p = { key, dst, view: { ...view } };
+  p.s = () => Math.min(dst.w / p.view.w, dst.h / p.view.h);
+  p.ox = () => dst.x + (dst.w - p.view.w * p.s()) / 2; p.oy = () => dst.y + (dst.h - p.view.h * p.s()) / 2;
+  p.P = (x, y) => [p.ox() + (x - p.view.x) * p.s(), p.oy() + (y - p.view.y) * p.s()];
+  p.card = (a = 1) => { ctx.save(); ctx.globalAlpha = a; rrect(dst.x - 6, dst.y - 6, dst.w + 12, dst.h + 12, 18, '#FFFFFF'); ctx.restore(); };
+  p.clip = () => { ctx.beginPath(); ctx.roundRect(dst.x, dst.y, dst.w, dst.h, 14); ctx.clip(); };
+  // dibuja la imagen entera (o un sprite alterno `k2`), con transformación en px de imagen: dx,dy, rot (rad) alrededor de (px,py)
+  p.draw = (k2, o = {}) => {
+    const im = I(k2 || key), s = p.s(), [x0, y0] = p.P(0, 0);
+    ctx.save(); p.clip(); ctx.globalAlpha *= (o.a == null ? 1 : o.a);
+    if (o.rot || o.dx || o.dy) { const [qx, qy] = p.P(o.px || 0, o.py || 0); ctx.translate(qx + (o.dx || 0) * s, qy + (o.dy || 0) * s); ctx.rotate(o.rot || 0); ctx.translate(-qx, -qy); }
+    ctx.drawImage(im, x0, y0, im.width * s, im.height * s);
+    ctx.restore();
+  };
+  // región poligonal de la imagen: dibujada desplazada/rotada; `hole` deja el hueco blanco en el original
+  p.region = (pts, o = {}) => {
+    const im = I(key), s = p.s(), [x0, y0] = p.P(0, 0), sp = pts.map(q => p.P(...q));
+    ctx.save(); p.clip(); ctx.globalAlpha *= (o.a == null ? 1 : o.a);
+    const [qx, qy] = p.P(o.px || 0, o.py || 0);
+    ctx.translate(qx + (o.dx || 0) * s, qy + (o.dy || 0) * s); ctx.rotate(o.rot || 0); ctx.translate(-qx, -qy);
+    if (o.scale && o.scale !== 1) { ctx.translate(qx, qy); ctx.scale(o.scale, o.scale); ctx.translate(-qx, -qy); }
+    ctx.beginPath(); sp.forEach(([x, y], i) => i ? ctx.lineTo(x, y) : ctx.moveTo(x, y)); ctx.closePath(); ctx.clip();
+    ctx.drawImage(im, x0, y0, im.width * s, im.height * s);
+    if (o.tint) { ctx.fillStyle = o.tint; ctx.fillRect(dst.x - 400, dst.y - 400, dst.w + 800, dst.h + 800); }
+    ctx.restore();
+  };
+  p.ghost = (pts, a) => { if (a <= 0) return; const sp = pts.map(q => p.P(...q)); ctx.save(); p.clip(); ctx.fillStyle = `rgba(255,255,255,${a})`;
+    ctx.beginPath(); sp.forEach(([x, y], i) => i ? ctx.lineTo(x, y) : ctx.moveTo(x, y)); ctx.closePath(); ctx.fill(); ctx.strokeStyle = 'rgba(120,120,130,0.8)'; ctx.setLineDash([7, 6]); ctx.lineWidth = 2; ctx.stroke(); ctx.restore(); };
+  p.base = (holes = []) => {     // imagen con huecos poligonales (evenodd)
+    const im = I(key), s = p.s(), [x0, y0] = p.P(0, 0);
+    ctx.save(); p.clip();
+    if (holes.length) { ctx.beginPath(); ctx.rect(dst.x - 2, dst.y - 2, dst.w + 4, dst.h + 4);
+      holes.forEach(h => h.forEach((q, i) => { const [x, y] = p.P(...q); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }));
+      ctx.clip('evenodd'); }
+    ctx.drawImage(im, x0, y0, im.width * s, im.height * s); ctx.restore();
+  };
+  return p;
+}
+
+// ---- marcas sobre la lámina ----
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function ring(x, y, r, col, a, t = 0) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.lineWidth = 3.5;
+  ctx.beginPath(); ctx.arc(x, y, r + 2 * Math.sin(t * 5), 0, 7); ctx.stroke(); ctx.restore();
+}
+function arrow(x1, y1, x2, y2, col, a, w = 5) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = w; ctx.lineCap = 'round';
+  const ang = Math.atan2(y2 - y1, x2 - x1), h = 7 + w * 1.6;
+  ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2 - Math.cos(ang) * h * 0.6, y2 - Math.sin(ang) * h * 0.6); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(x2, y2); ctx.lineTo(x2 - h * Math.cos(ang - 0.45), y2 - h * Math.sin(ang - 0.45)); ctx.lineTo(x2 - h * Math.cos(ang + 0.45), y2 - h * Math.sin(ang + 0.45)); ctx.closePath(); ctx.fill();
+  ctx.restore();
+}
+function polyline(pts, col, w, a, k = 1) {      // dibuja la polilínea hasta la fracción k
+  if (a <= 0 || k <= 0) return; const P = poly(pts); ctx.save(); ctx.globalAlpha = a; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  P.stroke(ctx, 0, k, w + 3, 'rgba(14,17,22,0.7)'); P.stroke(ctx, 0, k, w, col); ctx.restore();
+}
+function dashed(pts, col, w, a) { if (a <= 0) return; ctx.save(); ctx.setLineDash([9, 7]); polyline(pts, col, w, a); ctx.restore(); }
+function glow(x, y, r, rgb, a) { K.glow(x, y, r, rgb, a); }
+function credit(s = CRED) { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(640, 696, 628, 24); text(s, 1268, 712, 13, C.MUTED, '', 'right'); }
+function panel(x, y, w, h, col, title, lines, a, size = 17) { K.card(x, y, w, h, col, title, lines, a, size); }
+
+// ========== trauma-05: pelvis en libro abierto ==========
+function pelvis(t) {
+  K.title('Pelvis en libro abierto', 'Fractura de alta energía: la sangre se acumula en el anillo', C.RED);
+  const pl = Plate('pel', { x: 40, y: 128, w: 640, h: 548 }, { x: 0, y: 0, w: 1076, h: 922 });
+  pl.card(seg(t, 0, 0.7));
+  const open = ease(seg(t, 5, 3)) * (1 - ease(seg(t, 16.5, 3.5)));       // 0..1 apertura
+  const ang = 0.085 * open;
+  ctx.save(); ctx.globalAlpha = seg(t, 0, 0.7);
+  pl.draw('pelL', { rot: ang, px: 290, py: 360 }); pl.draw('pelR', { rot: -ang, px: 585, py: 360 }); pl.draw('pelC'); ctx.restore();
+  const s = pl.s();
+  label('Sacro', 120, 160, '#9DCB6B', ...pl.P(500, 260), fade(t, 1, 5));
+  label('Sínfisis del pubis', 120, 650, '#8FC1E3', ...pl.P(525, 690), fade(t, 1.4, 5.5));
+  label('Ala ilíaca', 590, 160, '#E3B25B', ...pl.P(830, 200), fade(t, 1.8, 5));
+  // flechas del impacto (compresión anteroposterior): las alas se abren
+  const ar = fade(t, 5, 12, 0.5);
+  arrow(...pl.P(120, 330), ...pl.P(20, 330), C.RED, ar); arrow(...pl.P(960, 330), ...pl.P(1060, 330), C.RED, ar);
+  // espacio de la sínfisis
+  const gap = open; if (gap > 0.05) { const [gx, gy] = pl.P(525, 690); ctx.save(); ctx.globalAlpha = Math.min(1, gap * 1.4); ctx.strokeStyle = C.RED; ctx.lineWidth = 3;
+    const w2 = 14 * s + 38 * s * gap; ctx.beginPath(); ctx.moveTo(gx - w2, gy + 70 * s); ctx.lineTo(gx + w2, gy + 70 * s); ctx.stroke(); ctx.restore();
+    tag('Sínfisis más de 2,5 cm', gx, gy + 100 * s + 8, C.RED, 14); }
+  // sangrado venoso hacia el anillo
+  const bl = seg(t, 9, 1) * (1 - ease(seg(t, 18.5, 2.5)) * 0.85);
+  if (bl > 0) { const [bx, by] = pl.P(525, 560); glow(bx, by, 150 * s * 1.6, '255,40,40', 0.8 * bl * (0.8 + 0.2 * Math.sin(t * 5)));
+    for (let i = 0; i < 9; i++) { const u = ((t * 0.35) + i / 9) % 1, a0 = i * 2.3; const x = bx + Math.cos(a0) * 70 * s * (0.4 + u), y = by + Math.sin(a0) * 45 * s * (0.4 + u);
+      ctx.globalAlpha = bl * Math.min(1, u * 5, (1 - u) * 5); ctx.fillStyle = '#C8102E'; ctx.beginPath(); ctx.arc(x, y, 4, 0, 7); ctx.fill(); } ctx.globalAlpha = 1; }
+  label('Sangran los plexos venosos', 330, 420, '#FF8A80', ...pl.P(480, 540), fade(t, 9.4, 17.5));
+  // faja o sábana sobre los trocánteres mayores
+  const bd = seg(t, 13.5, 1.6);
+  if (bd > 0) { const [x1, y1] = pl.P(70, 735), [x2, y2] = pl.P(985, 735); ctx.save(); ctx.globalAlpha = bd; ctx.lineCap = 'round';
+    ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 17; ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(lerp(x1, x2, bd), y1 + 4); ctx.stroke();
+    ctx.strokeStyle = '#E8F1F8'; ctx.lineWidth = 12; ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(lerp(x1, x2, bd), y1 + 4); ctx.stroke(); ctx.restore();
+    const cl = ease(seg(t, 16.5, 3.5)); arrow(...pl.P(80, 790), ...pl.P(80 + 120 * cl, 790), C.GREEN, bd * fade(t, 16, 22)); arrow(...pl.P(975, 790), ...pl.P(975 - 120 * cl, 790), C.GREEN, bd * fade(t, 16, 22));
+    label('Sábana o faja sobre los trocánteres', 330, 700, '#E8F1F8', ...pl.P(300, 735), fade(t, 14, 24)); }
+  // paneles
+  panel(700, 140, 540, 120, C.RED, 'Pelvis inestable', ['Alta energía: se abre como un libro', 'El espacio pélvico admite mucha sangre'], seg(t, 4.5, 0.5));
+  panel(700, 276, 540, 120, C.RED, 'Shock hipovolémico', ['Primera causa de muerte inmediata', 'Sangrado sobre todo venoso, a veces arterial'], seg(t, 9.5, 0.5));
+  panel(700, 412, 540, 120, C.GREEN, 'Cerrar el anillo', ['Sábana pélvica apretada: frena el sangrado', 'Y reponer volumen dentro del ABC'], seg(t, 15, 0.5));
+  K.banner(700, 556, 540, 'No repetir las maniobras de estabilidad pélvica', C.AMBER, seg(t, 21, 0.5));
+  K.banner(700, 616, 540, 'Sangre en el meato: sin sonda, uretra primero', C.RED, seg(t, 23.5, 0.5));
+}
+
+// ========== trauma-08: rotura del LCA ==========
+function acl(t) {
+  K.title('Rotura del ligamento cruzado anterior', 'Giro con el pie fijo: la rodilla se va', C.AMBER);
+  const pl = Plate('acl', { x: 34, y: 130, w: 740, h: 400 }, { x: 0, y: 0, w: 1200, h: 646 });
+  pl.card(seg(t, 0, 0.7)); ctx.save(); ctx.globalAlpha = seg(t, 0, 0.7);
+  const TIB = [[745, 650], [745, 455], [790, 452], [835, 405], [850, 375], [900, 360], [935, 335], [1000, 330], [1065, 365], [1100, 480], [1112, 650]];
+  const sh = 52 * ease(seg(t, 14, 2.2)) * (1 - ease(seg(t, 23.5, 1.5)) * 0);   // desplazamiento anterior de la tibia (px de imagen)
+  pl.base();
+  if (sh > 0.5) { pl.ghost(TIB, 0.6); pl.region(TIB, { dx: sh, dy: 0 }); }
+  ctx.restore();
+  label('LCA íntegro', 160, 175, C.GREEN, ...pl.P(262, 265), fade(t, 1, 8));
+  label('LCA roto', 640, 175, C.RED, ...pl.P(915, 320), fade(t, 1.4, 14));
+  label('Rótula', 760, 175, '#D9D2C3', ...pl.P(1070, 250), fade(t, 2, 6)); label('Tibia', 160, 480, '#D9D2C3', ...pl.P(300, 520), fade(t, 2, 6));
+  const [rx, ry] = pl.P(915, 322); ring(rx, ry, 30, C.RED, fade(t, 1.4, 6) * 0.9, t);
+  // mecanismo: giro
+  const tw = fade(t, 3.5, 9.5, 0.5);
+  if (tw > 0) { const [cx, cy] = pl.P(930, 470); ctx.save(); ctx.globalAlpha = tw; ctx.strokeStyle = C.AMBER; ctx.lineWidth = 6; ctx.lineCap = 'round';
+    const a0 = -2.7 + (t * 1.6 % 6.28) * 0.0, sweep = 3.6 * Math.min(1, seg(t, 3.5, 2.5)); ctx.beginPath(); ctx.ellipse(cx, cy, 120, 36, 0, Math.PI, Math.PI + sweep); ctx.stroke();
+    const ea = Math.PI + sweep, ex = cx + 120 * Math.cos(ea), ey = cy + 36 * Math.sin(ea); ctx.fillStyle = C.AMBER; ctx.beginPath(); ctx.arc(ex, ey, 7, 0, 7); ctx.fill(); ctx.restore();
+    label('Giro con el pie fijo o hiperextensión', 600, 560, C.AMBER, cx + 60, cy + 30, tw); }
+  // hemartrosis: derrame en horas
+  const hm = fade(t, 8.5, 14, 0.8); if (hm > 0) { const [hx, hy] = pl.P(930, 330); ctx.save(); pl.clip(); glow(hx, hy, 150, '230,30,40', 0.5 * hm * (0.85 + 0.15 * Math.sin(t * 4))); ctx.restore();
+    label('Hemartrosis: derrame en las primeras horas', 600, 470, '#FF8A80', hx + 20, hy + 20, hm); }
+  // cajón anterior
+  const cj = seg(t, 14.5, 0.8);
+  if (cj > 0) { const y0 = pl.P(0, 500)[1]; arrow(...pl.P(800, 560), ...pl.P(800 + sh * 1.5 + 10, 560), C.RED, cj * fade(t, 14.5, 22));
+    label('Cajón anterior: la tibia se adelanta', 420, 500, C.RED, ...pl.P(960 + sh, 540), fade(t, 15, 22));
+    }
+  // medidor de desplazamiento
+  K.bar(60, 592, 600, 'Desplazamiento anterior de la tibia', sh, 52, '', sh > 20 ? C.RED : C.GREEN, [], v => v > 20 ? 'excesivo' : 'normal');
+  // paneles
+  panel(800, 140, 440, 110, C.AMBER, 'Síntoma cardinal', ['Inestabilidad: "la rodilla se me va"', 'Edema rápido: hemartrosis'], seg(t, 4, 0.5), 17);
+  panel(800, 264, 440, 130, C.BLUE, 'Examen y estudio', ['Cajón anterior y Lachman positivos', 'Confirma la resonancia: no se ve en la Rx'], seg(t, 16, 0.5), 17);
+  panel(800, 408, 440, 130, C.GREEN, 'Tratamiento', ['Joven y activo: reconstrucción artroscópica', 'El cruzado posterior: manejo conservador'], seg(t, 20, 0.5), 17);
+  K.banner(800, 560, 440, 'Cajón anterior: cirugía, no solo reposo', C.RED, seg(t, 23.5, 0.5));
+}
+
+// ========== trauma-04: luxación anterior de hombro ==========
+function hombro(t) {
+  K.title('Luxación anterior de hombro', 'La más frecuente: más del 95 % es anterior', C.RED);
+  const pl = Plate('hom', { x: 40, y: 128, w: 560, h: 560 }, { x: 0, y: 0, w: 1171, h: 1210 });
+  pl.card(seg(t, 0, 0.7));
+  const HEAD = [[20, 470], [70, 430], [130, 400], [200, 390], [255, 415], [300, 470], [330, 540], [345, 620], [345, 700], [335, 780], [310, 850], [275, 895], [235, 925], [200, 1000], [185, 1075], [150, 1050], [90, 960], [40, 840], [20, 700]];
+  const out = ease(seg(t, 5, 3)) * (1 - ease(seg(t, 18, 3)));
+  ctx.save(); ctx.globalAlpha = seg(t, 0, 0.7);
+  pl.base();
+  const dx = -55 * out, dy = 85 * out;
+  if (out > 0.01) pl.ghost(HEAD, 0.55 * Math.min(1, out * 3));
+  pl.region(HEAD, { dx, dy, rot: -0.12 * out, px: 150, py: 700 });
+  ctx.restore();
+  const s = pl.s();
+  label('Cabeza del húmero', 130, 190, '#E3C27B', ...pl.P(150 + dx, 650 + dy), fade(t, 1, 6) + fade(t, 6, 25) * 0);
+  label('Glenoides', 570, 190, '#E3C27B', ...pl.P(520, 560), fade(t, 1.4, 25));
+  label('Cartílago', 560, 640, '#D9A0E0', ...pl.P(330, 600), fade(t, 1.8, 5));
+  // mecanismo
+  const mc = fade(t, 3, 8, 0.5); if (mc > 0) { arrow(...pl.P(150, 250), ...pl.P(380, 150), C.AMBER, mc, 6); tag('Abducción y rotación externa', 330, 150, C.AMBER, 14); }
+  // Hill-Sachs y Bankart
+  const hb = fade(t, 9.5, 17, 0.6);
+  if (hb > 0) { const [h1x, h1y] = pl.P(250 + dx, 520 + dy); ring(h1x, h1y, 20, C.RED, hb, t); label('Hill-Sachs (cabeza)', 90, 400, C.RED, h1x, h1y, hb);
+    const [b1x, b1y] = pl.P(360, 780); ring(b1x, b1y, 22, C.RED, hb, t); label('Bankart (rodete)', 560, 600, C.RED, b1x, b1y, hb); }
+  // nervio axilar: se estira con la cabeza
+  const na = seg(t, 10, 0.8) * (1 - seg(t, 24, 1));
+  if (na > 0) { const A0 = pl.P(420, 905), B = pl.P(300 + dx * 0.9, 960 + dy * 0.75), C0 = pl.P(215, 1065);
+    const taut = out; ctx.save(); ctx.globalAlpha = na; ctx.lineCap = 'round'; ctx.lineWidth = 7; ctx.strokeStyle = '#14100A'; ctx.beginPath(); ctx.moveTo(...A0); ctx.quadraticCurveTo(B[0], B[1], C0[0], C0[1]); ctx.stroke();
+    ctx.lineWidth = 4; ctx.strokeStyle = taut > 0.4 ? C.RED : C.AMBER; ctx.beginPath(); ctx.moveTo(...A0); ctx.quadraticCurveTo(B[0], B[1], C0[0], C0[1]); ctx.stroke(); ctx.restore();
+    label('Nervio axilar: parche deltoideo', 330, 700, C.AMBER, ...B, na); }
+  // paneles
+  panel(640, 140, 600, 112, C.RED, 'Clínica', ['Brazo en ligera abducción y rotación externa', 'Signo de la charretera: acromion prominente'], seg(t, 4, 0.5), 17);
+  panel(640, 266, 600, 112, C.AMBER, 'Antes y después de reducir', ['Nervio axilar (sensibilidad deltoidea)', 'Pulso radial y radiografía de control'], seg(t, 10.5, 0.5), 17);
+  panel(640, 392, 600, 112, C.GREEN, 'Reducción cerrada precoz', ['Analgesia o sedación; tracción y contratracción', 'Cabestrillo por 2 a 3 semanas'], seg(t, 18.5, 0.5), 17);
+  K.banner(640, 530, 600, 'Menor de 25 años: recidiva frecuente, derivar', C.AMBER, seg(t, 22.5, 0.5));
+  K.banner(640, 590, 600, 'Posterior: rara; piensa en convulsión o electrocución', C.BLUE, seg(t, 24.2, 0.5));
+}
+
+// ========== trauma-10: fractura de cuello femoral → necrosis → prótesis ==========
+function cadera(t) {
+  K.title('Fractura de cuello femoral', 'Intracapsular y desplazada: la cabeza se queda sin sangre', C.RED);
+  const zm = ease(seg(t, 2.8, 2)) * (1 - ease(seg(t, 18, 2.5)));
+  const pl = Plate('cad', { x: 40, y: 128, w: 520, h: 420 }, { x: lerp(0, 395, zm), y: lerp(420, 440, zm), w: lerp(768, 375, zm), h: lerp(490, 360, zm) });
+  pl.card(seg(t, 0, 0.7));
+  const NECK = [[569, 626], [621, 570]];
+  const SHAFT = [[569, 626], [621, 570], [640, 568], [668, 575], [705, 600], [722, 650], [716, 780], [714, 1080], [598, 1080], [602, 780], [612, 720], [596, 700], [580, 668]];
+  const fr = seg(t, 3.5, 1.6), dis = ease(seg(t, 7, 2.5));
+  ctx.save(); ctx.globalAlpha = seg(t, 0, 0.7);
+  pl.base();
+  if (dis > 0.01) pl.ghost(SHAFT, 0.55 * Math.min(1, dis * 3));
+  pl.region(SHAFT, { dx: 22 * dis, dy: -40 * dis, rot: 0.1 * dis, px: 620, py: 600 });
+  ctx.restore();
+  const s = pl.s();
+  label('Cabeza femoral', 330, 160, '#B79AE6', ...pl.P(553, 560), fade(t, 1, 4.5));
+  label('Cuello', 500, 330, '#B79AE6', ...pl.P(600, 600), fade(t, 1.5, 4));
+  label('Prótesis (otra cadera)', 140, 170, '#D8D8E0', ...pl.P(75, 600), fade(t, 1, 3.5));
+  // trazo de fractura
+  if (fr > 0) { const [a1x, a1y] = pl.P(...NECK[0]), [a2x, a2y] = pl.P(...NECK[1]);
+    ctx.save(); ctx.strokeStyle = C.RED; ctx.lineWidth = 6; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(a2x, a2y); ctx.lineTo(lerp(a2x, a1x, fr), lerp(a2y, a1y, fr)); ctx.stroke(); ctx.restore(); }
+  label('Fractura de cuello: intracapsular', 400, 505, C.RED, ...pl.P(595, 598), fade(t, 4, 12));
+  // circunflejas: dos arterias alrededor del cuello; el flujo se corta con el desplazamiento
+  const vs = seg(t, 5.5, 0.6) * (1 - seg(t, 24, 1));
+  if (vs > 0) { const flowOn = 1 - dis; const ptsA = [pl.P(520, 650), pl.P(560, 625), pl.P(600, 600), pl.P(632, 580)], ptsB = [pl.P(520, 520), pl.P(560, 508), pl.P(600, 520), pl.P(635, 545)];
+    [ptsA, ptsB].forEach((pts, k) => { const pp = poly(pts); ctx.save(); ctx.globalAlpha = vs; ctx.lineCap = 'round'; pp.stroke(ctx, 0, 1, 6, '#1B2230'); pp.stroke(ctx, 0, 1, 3.5, dis > 0.6 ? '#6B6B73' : '#E53935');
+      if (flowOn > 0.05) for (let i = 0; i < 5; i++) { const u = (t * 0.6 + i / 5 + k * 0.3) % 1, [x, y] = pp.at(u); ctx.globalAlpha = vs * flowOn; ctx.fillStyle = '#FF8A80'; ctx.beginPath(); ctx.arc(x, y, 3.5, 0, 7); ctx.fill(); } ctx.restore(); });
+    label('Circunflejas', 120, 500, '#FF8A80', ...pl.P(540, 640), fade(t, 5.8, 13)); }
+  // necrosis de la cabeza
+  const nc = ease(seg(t, 11, 5)); if (nc > 0.02) { const [hx, hy] = pl.P(553, 556); ctx.save(); pl.clip(); ctx.globalAlpha = 0.65 * nc; const g = ctx.createRadialGradient(hx, hy, 2, hx, hy, 52 * s * 1.6); g.addColorStop(0, 'rgba(40,20,50,0.9)'); g.addColorStop(1, 'rgba(40,20,50,0)'); ctx.fillStyle = g; ctx.fillRect(hx - 90, hy - 90, 180, 180); ctx.restore();
+    label('Necrosis avascular', 330, 250, '#E1BEE7', hx, hy, fade(t, 12, 19)); }
+  // solución: prótesis
+  const pr = seg(t, 17.5, 1); if (pr > 0) { const [px, py] = pl.P(95, 575); ring(px, py, 52, C.GREEN, pr * fade(t, 17.5, 26), t);
+    dashed([pl.P(520, 610), pl.P(330, 560), pl.P(150, 580)], C.GREEN, 3, pr * fade(t, 18, 26)); }
+  // paneles
+  panel(590, 140, 650, 112, C.RED, 'Por qué se necrosa', ['La cabeza se irriga por las circunflejas del cuello', 'Si el cuello se desplaza, se cortan'], seg(t, 4.5, 0.5), 17);
+  panel(590, 266, 650, 140, C.AMBER, 'Prótesis de entrada: tres condiciones juntas', ['Fractura de cuello femoral (intracapsular)', 'Desplazada', 'Paciente mayor de 65 años'], seg(t, 14, 0.5), 17);
+  panel(590, 420, 650, 112, C.BLUE, 'Si no cumple, se fija el hueso', ['Intertrocantérica: tornillo dinámico (DHS)', 'Cuello no desplazado o joven: tornillos canulados'], seg(t, 19.5, 0.5), 17);
+  K.banner(590, 556, 650, 'Siempre cirugía, y cuanto antes: menos de 48 horas', C.GREEN, seg(t, 23, 0.5));
+  K.banner(590, 616, 650, 'Postrado crónico: Girdlestone, solo para evitar el dolor', C.MUTED, seg(t, 25, 0.5));
+}
+
+// ========== trauma-12: artrosis de rodilla ==========
+function artrosis(t) {
+  K.title('Artrosis de rodilla', 'Degeneración del cartílago: dolor mecánico, líquido no inflamatorio', C.AMBER);
+  const pl = Plate('art', { x: 34, y: 130, w: 720, h: 486 }, { x: 0, y: 0, w: 1200, h: 810 });
+  pl.card(seg(t, 0, 0.7)); ctx.save(); ctx.globalAlpha = seg(t, 0, 0.7);
+  pl.draw();                                        // las dos rodillas
+  const wear = ease(seg(t, 3, 6));                  // la rodilla sana "se desgasta" hasta quedar como la artrósica
+  ctx.save(); pl.clip(); const s = pl.s();
+  // rodilla sana encima de la derecha (desplazada 600 px de imagen), se desvanece
+  ctx.beginPath(); { const [x0, y0] = pl.P(640, 0), [x1, y1] = pl.P(1200, 810); ctx.rect(x0, y0, x1 - x0, y1 - y0); } ctx.clip();
+  ctx.globalAlpha = 1 - wear; { const [x0, y0] = pl.P(0, 0), im = I('art'); ctx.drawImage(im, x0 + 600 * s, y0, im.width * s, im.height * s); }
+  ctx.restore(); ctx.restore();
+  label('Rodilla normal', 150, 190, C.GREEN, ...pl.P(290, 280), fade(t, 0.8, 4));
+  label('Artrosis', 640, 190, C.RED, ...pl.P(900, 280), fade(t, 0.8, 4) * 0 + seg(t, 9, 0.6));
+  const hot = seg(t, 9.2, 1);
+  label('Cartílago erosionado', 560, 330, C.RED, ...pl.P(880, 330), hot);
+  label('Interlínea disminuida', 560, 520, C.AMBER, ...pl.P(880, 455), fade(t, 10.2, 22));
+  label('Osteofitos en los bordes', 160, 560, C.AMBER, ...pl.P(660, 520), fade(t, 11, 22)); const [o2x, o2y] = pl.P(1090, 500); ring(o2x, o2y, 22, C.AMBER, fade(t, 11, 22) * 0.9, t);
+  // gráfico de uso y dolor
+  const gx = 60, gy = 640; text('Dolor mecánico', gx, gy - 20, 17, C.INK, 'bold');
+  const act = 0.5 + 0.5 * Math.sin(t * 1.3); const pain = 0.12 + 0.78 * act * seg(t, 10, 2);
+  K.bar(gx, gy + 6, 360, 'Con el uso', pain * 100, 100, '', pain > 0.5 ? C.RED : C.GREEN, [], v => v > 50 ? 'más dolor' : 'mejora con reposo');
+  // líquido sinovial
+  const sf = seg(t, 13, 0.5);
+  panel(790, 140, 450, 132, C.BLUE, 'Líquido sinovial no inflamatorio', ['Menos de 2.000 leucocitos por mm³', 'Transparente y amarillo: sin cristales'], sf, 17);
+  if (sf > 0) { ctx.save(); ctx.globalAlpha = sf; K.bar(810, 316, 410, 'Leucocitos del líquido', lerp(300, 1500, seg(t, 13.5, 2)), 60000, '', C.GREEN, [[2000, '2.000'], [50000, '50.000']], v => Math.round(v / 100) * 100); ctx.restore(); }
+  panel(790, 390, 450, 124, C.AMBER, 'Clínica', ['Rigidez matinal de pocos minutos', 'Coxartrosis: dolor inguinal, pierde rotación interna'], seg(t, 16, 0.5), 17);
+  panel(790, 528, 450, 110, C.GREEN, 'Manejo escalonado', ['Paracetamol y ejercicio primero', 'Con IRC o úlcera: sin AINE, tramadol'], seg(t, 19, 0.5), 17);
+  K.banner(790, 654, 450, 'Anquilosis: rigidez total, la etapa final', C.MUTED, seg(t, 22, 0.5));
+}
+
+// ========== trauma-14: escoliosis ==========
+function escoliosis(t) {
+  K.title('Escoliosis y ángulo de Cobb', 'Desviación lateral con rotación de las vértebras', C.VIOLET);
+  const pl = Plate('esc', { x: 60, y: 120, w: 330, h: 580 }, { x: 0, y: 0, w: 750, h: 1395 });
+  pl.card(seg(t, 0, 0.7)); ctx.save(); ctx.globalAlpha = seg(t, 0, 0.7); pl.draw(); ctx.restore();
+  const SP = [[385, 280], [398, 380], [392, 470], [372, 560], [345, 650], [318, 740], [300, 830], [302, 920], [315, 1010]];
+  const hl = fade(t, 1.5, 22, 0.8); polyline(SP.map(p => pl.P(...p)), C.AMBER, 4, hl * 0.9, ease(seg(t, 1.5, 3)));
+  label('Columna torácica', 560, 200, C.AMBER, ...pl.P(392, 470), fade(t, 2, 7));
+  // construcción del ángulo de Cobb: tangentes en las vértebras límite
+  const k = ease(seg(t, 6, 5)); const A = -0.349 * k, B = 0.349 * k;          // ±20°: Cobb 40°
+  const [ux, uy] = pl.P(395, 425), [lx, ly] = pl.P(310, 880);
+  const line = (x, y, ang, col) => { ctx.save(); ctx.strokeStyle = col; ctx.lineWidth = 4; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(x - Math.cos(ang) * 95, y - Math.sin(ang) * 95); ctx.lineTo(x + Math.cos(ang) * 95, y + Math.sin(ang) * 95); ctx.stroke(); ctx.restore(); };
+  const lv = seg(t, 6, 0.6) * fade(t, 6, 22); if (lv > 0) { ctx.save(); ctx.globalAlpha = lv; line(ux, uy, A, C.RED); line(lx, ly, B, C.RED); ctx.restore();
+  }
+  const ang = Math.round(40 * k);
+  if (k > 0.05) { tag(`Cobb ${ang}°`, 580, 540, ang >= 30 ? C.RED : C.GREEN, 24); text('Tangentes en las vértebras límite superior e inferior', 690, 548, 16, C.MUTED); }
+  // Adams: giba costal
+  const ad = fade(t, 12, 16, 0.5); if (ad > 0) { arrow(...pl.P(470, 520), ...pl.P(430, 600), C.AMBER, ad); label('Test de Adams: giba costal', 590, 460, C.AMBER, ...pl.P(450, 580), ad); }
+  // escalera de tratamiento
+  const base = 420; const steps = [['Menos de 30°', 'Ejercicios y observación', C.GREEN, 12.5], ['30° a 50°', 'Corsé (ortesis rígida)', C.AMBER, 15.5], ['Más de 50°', 'Cirugía: artrodesis', C.RED, 18.5]];
+  steps.forEach(([a, b, col, t0], i) => { const al = seg(t, t0, 0.5); if (al > 0) { ctx.save(); ctx.globalAlpha = al; const y = 250 + i * 84, hit = (i === 0 && ang < 30) || (i === 1 && ang >= 30 && ang <= 50) || (i === 2 && ang > 50);
+    rrect(460, y, 780, 70, 14, '#161B22'); ctx.fillStyle = col; ctx.fillRect(460, y, 7, 70); text(a, 484, y + 30, 22, col, 'bold'); text(b, 484, y + 56, 18, C.INK);
+    if (hit && t > 11) { ctx.strokeStyle = col; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.roundRect(460, y, 780, 70, 14); ctx.stroke(); }
+    ctx.restore(); } });
+  panel(460, 130, 780, 100, C.VIOLET, 'Diagnóstico clínico', ['Test de Adams: se inclina hacia adelante y aparece la giba costal', 'Giba presente: estructural. Sin giba: actitud escoliótica'], seg(t, 11, 0.5), 17);
+  K.banner(460, 590, 780, 'Curva izquierda, dolor o déficit: pedir resonancia', C.AMBER, seg(t, 21, 0.5));
+  K.banner(460, 646, 780, 'Adolescente: Risser y crecimiento restante', C.MUTED, seg(t, 23, 0.5));
+}
+
+// ========== trauma-15: hernia discal y lumbociática ==========
+function disco(t) {
+  K.title('Hernia discal y lumbociática', 'El disco comprime la raíz: dolor que baja bajo la rodilla', C.RED);
+  const zoom = ease(seg(t, 6, 2.5)) * (1 - ease(seg(t, 18, 2.5)));
+  const view = { x: lerp(0, 880, zoom), y: lerp(0, 0, zoom), w: lerp(1500, 620, zoom), h: lerp(1410, 580, zoom) };
+  const pl = Plate('dis', { x: 40, y: 128, w: 560, h: 556 }, view);
+  pl.card(seg(t, 0, 0.7)); ctx.save(); ctx.globalAlpha = seg(t, 0, 0.7);
+  // el disco se abomba hacia el nervio
+  const bulge = ease(seg(t, 8.5, 3));
+  pl.draw();
+  const DISC = [[1150, 320], [1195, 300], [1240, 330], [1250, 400], [1225, 455], [1180, 460], [1150, 410]];
+  if (bulge > 0.02) pl.region(DISC, { scale: 1 + 0.55 * bulge, px: 1190, py: 380, dx: 20 * bulge });
+  ctx.restore();
+  // zona lumbar roja (vista general)
+  const g1 = fade(t, 0.8, 8, 0.6); if (g1 > 0) { const [gx, gy] = pl.P(430, 850); ctx.save(); pl.clip(); glow(gx, gy, 90 * pl.s() * 2.2, '255,50,40', 0.5 * g1 * (0.8 + 0.2 * Math.sin(t * 5))); ctx.restore(); }
+  label('Región lumbar L4-L5, L5-S1', 300, 170, C.RED, ...pl.P(430, 850), fade(t, 1.2, 6.5, 0.4));
+  const nv = seg(t, 9.5, 1); if (nv > 0) { const [nx, ny] = pl.P(1290, 410); ring(nx, ny, 28 * pl.s() * 1.3 + 8, C.RED, nv * fade(t, 9.5, 18), t);
+    label('Raíz comprimida', 120, 640, C.RED, nx, ny, fade(t, 10, 18)); }
+  label('Núcleo pulposo herniado', 250, 190, '#C9A2F2', ...pl.P(1205, 380), fade(t, 8.5, 17));
+  // dolor irradiado
+  const ir = seg(t, 20.5, 2.5); if (ir > 0) { const a = pl.P(560, 870), b = pl.P(640, 1090), c = pl.P(700, 1300); polyline([a, b, c], C.AMBER, 5, fade(t, 20.5, 26, 0.3), ir);
+    label('Ciática: baja por la pierna', 150, 600, C.AMBER, ...b, fade(t, 21.5, 26, 0.3)); }
+  // Lasègue
+  const ls = fade(t, 22.5, 26, 0.4); if (ls > 0) { ctx.save(); ctx.globalAlpha = ls; tag('Lasègue a 30°-70°', 400, 520, C.RED, 14); ctx.restore(); }
+  panel(640, 140, 600, 128, C.AMBER, 'Semiología por raíz', ['L5: cara lateral de la pierna; marcha de talones', 'S1: planta; reflejo aquíleo disminuido; puntillas', 'L4: muslo anterior; reflejo rotuliano disminuido'], seg(t, 11, 0.5), 17);
+  panel(640, 282, 600, 100, C.RED, 'Signos de compresión radicular', ['Lasègue positivo (cruzado: más específico)', 'Dolor bajo la rodilla, siguiendo el dermatoma'], seg(t, 14.5, 0.5), 17);
+  panel(640, 396, 600, 100, C.GREEN, 'Manejo inicial', ['AINE, analgesia y mantener la actividad', '80 a 90 % mejora en 6 a 12 semanas'], seg(t, 19, 0.5), 17);
+  K.banner(640, 520, 600, 'Resonancia solo con déficit progresivo o alarma', C.BLUE, seg(t, 21.2, 0.5));
+  K.banner(640, 580, 600, 'Cauda equina: silla de montar, retención: urgencia', C.RED, seg(t, 23, 0.5));
+}
+
+// ========== trauma-11: epicondilalgia lateral ==========
+function codo(t) {
+  K.title('Epicondilalgia lateral', 'Codo de tenista: tendinopatía por sobrecarga de los extensores', C.AMBER);
+  const pl = Plate('cod', { x: 40, y: 128, w: 600, h: 560 }, { x: 0, y: 0, w: 1020, h: 984 });
+  pl.card(seg(t, 0, 0.7)); ctx.save(); ctx.globalAlpha = seg(t, 0, 0.7);
+  const FORE = [[300, 100], [1000, 0], [1000, 235], [440, 218], [320, 205]];
+  const sw = Math.sin(t * 2.4) * 0.05 * seg(t, 3, 1) * (1 - seg(t, 12, 1));
+  pl.base([FORE]); pl.region(FORE, { rot: sw, px: 330, py: 160 });
+  ctx.restore();
+  label('Epicóndilo lateral', 150, 380, C.RED, ...pl.P(335, 165), fade(t, 1, 12));
+  const [ex, ey] = pl.P(335, 165); ring(ex, ey, 38, C.RED, fade(t, 2, 13) * 0.9, t);
+  glow(ex, ey, 90, '255,60,50', 0.35 * fade(t, 4, 14) * (0.8 + 0.2 * Math.sin(t * 6)));
+  label('Extensores del antebrazo', 520, 330, '#FF8A80', ...pl.P(600, 140), fade(t, 1.6, 12));
+  label('Sobrecarga repetida: el tendón se degenera', 360, 600, C.AMBER, ...pl.P(780, 700), fade(t, 5, 14));
+  // la extensión resistida reproduce el dolor
+  const ex2 = fade(t, 8, 13, 0.4); if (ex2 > 0) { arrow(...pl.P(900, 260), ...pl.P(900, 190), C.AMBER, ex2); arrow(...pl.P(960, 60), ...pl.P(960, 130), C.RED, ex2, 4);
+    tag('Extensión resistida: duele', 470, 470, C.RED, 14); }
+  // cincha epicondílea
+  const bn = seg(t, 15, 1); if (bn > 0) { const [b1x, b1y] = pl.P(430, 105), [b2x, b2y] = pl.P(425, 215); ctx.save(); ctx.globalAlpha = bn; ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 17; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(b1x, b1y); ctx.lineTo(b2x, b2y); ctx.stroke();
+    ctx.strokeStyle = C.GREEN; ctx.lineWidth = 12; ctx.beginPath(); ctx.moveTo(b1x, b1y); ctx.lineTo(b2x, b2y); ctx.stroke(); ctx.restore(); label('Cincha o banda epicondílea', 440, 280, C.GREEN, b2x - 4, b2y + 4, fade(t, 15.5, 22)); }
+  // ampliación (círculo) con el desgarro
+  const rz = fade(t, 6, 14, 0.5); if (rz > 0) { const [zx, zy] = pl.P(620, 690); ring(zx, zy, 150 * pl.s() * 1.25, C.AMBER, rz * 0.0); }
+  panel(670, 140, 570, 118, C.AMBER, 'Clínica', ['Dolor en el epicóndilo al agarrar y levantar', 'Codo con movilidad normal; la radiografía no aporta'], seg(t, 4, 0.5), 17);
+  panel(670, 272, 570, 106, C.BLUE, 'Medial: codo de golfista', ['Epitroclealgia: flexión y pronación resistidas', 'Flexores y pronadores en el epicóndilo medial'], seg(t, 11, 0.5), 17);
+  panel(670, 392, 570, 130, C.GREEN, 'Tratamiento: autolimitado, 6 a 12 meses', ['Reposo relativo, frío y AINE por pocos días', 'Cincha y ejercicios excéntricos'], seg(t, 16, 0.5), 17);
+  K.banner(670, 548, 570, 'Corticoide: alivia hoy y empeora a largo plazo', C.RED, seg(t, 20.5, 0.5));
+  K.banner(670, 608, 570, 'Irradiación o déficit: radiculopatía C6 o túnel radial', C.MUTED, seg(t, 22.5, 0.5));
+}
+
+// ========== trauma-09: rotura del Aquiles ==========
+function aquiles(t) {
+  K.title('Rotura del tendón de Aquiles', 'Una pedrada en el talón al correr: se deriva, no es un esguince', C.RED);
+  const pl = Plate('aqu', { x: 40, y: 128, w: 640, h: 560 }, { x: 0, y: 0, w: 1200, h: 1080 });
+  pl.card(seg(t, 0, 0.7)); ctx.save(); ctx.globalAlpha = seg(t, 0, 0.7); pl.draw(); ctx.restore();
+  const s = pl.s();
+  label('Gemelos y sóleo', 120, 190, '#E57373', ...pl.P(240, 260), fade(t, 1, 8));
+  label('Tendón de Aquiles', 120, 330, '#E3B25B', ...pl.P(310, 470), fade(t, 1.4, 8));
+  const [tx, ty] = pl.P(325, 598); ring(tx, ty, 26, C.RED, fade(t, 3, 24) * 0.9, t);
+  label('Rotura', 100, 560, C.RED, tx, ty, fade(t, 3, 24));
+  { const [zx, zy] = pl.P(943, 757); ring(zx, zy, 40, C.RED, fade(t, 3, 24) * 0.9, t); label('Fibras desgarradas', 590, 610, C.RED, zx, zy + 30, fade(t, 3.5, 24)); }
+  // mecanismo
+  const mc = fade(t, 4, 9, 0.4); if (mc > 0) { arrow(...pl.P(400, 780), ...pl.P(330, 700), C.AMBER, mc); tag('Despegue brusco: "pedrada"', 520, 640, C.AMBER, 14); }
+  // Thompson: apretar la pantorrilla y el pie no se mueve
+  const th = seg(t, 10, 1);
+  if (th > 0) { const sq = 0.5 + 0.5 * Math.sin((t - 10) * 3.2);
+    const [cx, cy] = pl.P(250, 330); ctx.save(); ctx.globalAlpha = th * fade(t, 10, 20); ctx.strokeStyle = C.BLUE; ctx.lineWidth = 6; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(cx - 95 + 24 * sq, cy); ctx.lineTo(cx - 45 + 24 * sq, cy); ctx.stroke(); ctx.beginPath(); ctx.moveTo(cx + 95 - 24 * sq, cy); ctx.lineTo(cx + 45 - 24 * sq, cy); ctx.stroke();
+    ctx.fillStyle = C.BLUE; [[cx - 45 + 24 * sq, -1], [cx + 45 - 24 * sq, 1]].forEach(([x, d]) => { ctx.beginPath(); ctx.moveTo(x, cy); ctx.lineTo(x - d * 14, cy - 10); ctx.lineTo(x - d * 14, cy + 10); ctx.fill(); }); ctx.restore();
+    label('Maniobra de Thompson: se comprime la pantorrilla', 400, 190, C.BLUE, cx + 60, cy - 5, th * fade(t, 10, 20));
+    const [fx, fy] = pl.P(130, 745); const nomove = seg(t, 13, 1) * fade(t, 13, 20);
+    if (nomove > 0) { ctx.save(); ctx.globalAlpha = nomove; ctx.strokeStyle = C.RED; ctx.lineWidth = 6; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(fx - 22, fy - 22); ctx.lineTo(fx + 22, fy + 22); ctx.moveTo(fx + 22, fy - 22); ctx.lineTo(fx - 22, fy + 22); ctx.stroke(); ctx.restore();
+      label('El pie no hace flexión plantar', 330, 650, C.RED, fx + 18, fy, nomove); } }
+  panel(710, 140, 530, 120, C.RED, 'Cuadro clásico', ['Deportista de 40 años, "pedrada" en el talón', 'No puede caminar; Thompson alterado'], seg(t, 3.5, 0.5), 17);
+  panel(710, 276, 530, 120, C.AMBER, 'Diagnóstico clínico', ['Maniobra de Thompson alterada', 'No lo confundas con un esguince de tobillo'], seg(t, 11, 0.5), 17);
+  panel(710, 412, 530, 106, C.GREEN, 'Conducta', ['Inmovilizar, analgesia y derivar', 'El libro indica cirugía urgente'], seg(t, 17, 0.5), 17);
+  K.banner(710, 540, 530, 'Esguince: inversión y ligamentos laterales', C.MUTED, seg(t, 20.5, 0.5));
+}
+
+
+// ========== trauma-06: diáfisis y metáfisis ==========
+function huesos(t) {
+  K.title('Diáfisis y metáfisis', 'Hueso cortical contra hueso esponjoso: consolidan a distinto ritmo', C.AMBER);
+  const pl = Plate('hue', { x: 40, y: 130, w: 1200, h: 250 }, { x: 0, y: 0, w: 1500, h: 300 });
+  pl.card(seg(t, 0, 0.7)); ctx.save(); ctx.globalAlpha = seg(t, 0, 0.7); pl.draw(); ctx.restore();
+  const s = pl.s();
+  // zonas bajo el hueso
+  const zones = [[150, 330, 'Metáfisis', C.GREEN, 3], [330, 1000, 'Diáfisis', C.AMBER, 1.2], [1000, 1150, 'Metáfisis', C.GREEN, 3]];
+  zones.forEach(([a, b, nm, col, t0]) => { const al = seg(t, t0, 0.6); if (al > 0) { const [x0, y0] = pl.P(a, 262), [x1] = pl.P(b, 262); ctx.save(); ctx.globalAlpha = al; ctx.strokeStyle = col; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x0, y0 + 12); ctx.lineTo(x1, y0 + 12); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(x0, y0 + 4); ctx.lineTo(x0, y0 + 20); ctx.moveTo(x1, y0 + 4); ctx.lineTo(x1, y0 + 20); ctx.stroke(); tag(nm, (x0 + x1) / 2, y0 + 38, col, 15); ctx.restore(); } });
+  const ep = seg(t, 2, 0.6); if (ep > 0) { const [x0, y0] = pl.P(0, 262), [x1] = pl.P(150, 262), [x2] = pl.P(1150, 262), [x3] = pl.P(1480, 262); ctx.save(); ctx.globalAlpha = ep * 0.9; tag('Epífisis', (x0 + x1) / 2 + 20, y0 + 38, '#9AA0A6', 14); tag('Epífisis', (x2 + x3) / 2, y0 + 38, '#9AA0A6', 14); ctx.restore(); }
+  // metáfisis: esponjosa y bien vascularizada
+  const m = fade(t, 4, 9.5, 0.6); if (m > 0) { const [mx, my] = pl.P(240, 170), [m2x, m2y] = pl.P(1075, 150); ctx.save(); pl.clip(); glow(mx, my, 130, '61,220,132', 0.4 * m); glow(m2x, m2y, 110, '61,220,132', 0.4 * m); ctx.restore(); }
+  const d = fade(t, 9.5, 15, 0.6); if (d > 0) { const [dx, dy] = pl.P(660, 150); ctx.save(); pl.clip(); glow(dx, dy, 280, '255,194,71', 0.38 * d); ctx.restore(); }
+  // fracturas
+  const f1 = seg(t, 14.5, 1), f2 = seg(t, 15.5, 1);
+  const crack = (x, y, h, col, k) => { const [cx, cy] = pl.P(x, y); ctx.save(); ctx.strokeStyle = col; ctx.lineWidth = 5; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(cx, cy - h * k); ctx.lineTo(cx + 6, cy - h * k * 0.4); ctx.lineTo(cx - 6, cy + h * k * 0.3); ctx.lineTo(cx + 2, cy + h * k); ctx.stroke(); ctx.restore(); };
+  if (f1 > 0) crack(660, 150, 62 * s * 1.1, C.RED, f1); if (f2 > 0) crack(245, 175, 58 * s * 1.1, C.RED, f2);
+  // callo: crece más rápido en la metáfisis
+  const call = (x, y, rx, ry, k, col) => { if (k <= 0.02) return; const [cx, cy] = pl.P(x, y); ctx.save(); pl.clip(); ctx.globalAlpha = 0.55 * Math.min(1, k * 1.5); ctx.fillStyle = col; ctx.beginPath(); ctx.ellipse(cx, cy, rx * s * k, ry * s * Math.min(1, 0.5 + k), 0, 0, 7); ctx.fill(); ctx.restore(); };
+  const kM = ease(seg(t, 17, 3)), kD = ease(seg(t, 17, 9)) * 0.9;
+  call(245, 170, 85, 62, kM, 'rgba(61,220,132,0.9)'); call(660, 150, 130, 70, kD, 'rgba(255,194,71,0.9)');
+  // barras de consolidación
+  const b = seg(t, 16.5, 0.5); if (b > 0) { ctx.save(); ctx.globalAlpha = b; K.bar(60, 468, 540, 'Metáfisis: consolidación', kM * 100, 100, '%', C.GREEN, [], v => Math.round(v)); K.bar(60, 548, 540, 'Diáfisis: consolidación', kD * 100, 100, '%', C.AMBER, [], v => Math.round(v)); ctx.restore(); }
+  // paneles
+  panel(640, 410, 600, 104, C.GREEN, 'Metáfisis: esponjosa y muy irrigada', ['Consolida rápido; si está impactada, es estable', 'Poco desplazada: yeso'], seg(t, 4.5, 0.5), 17);
+  panel(640, 526, 600, 104, C.AMBER, 'Diáfisis: cortical, poca irrigación', ['Consolida lento: retardo y pseudoartrosis (tibia)', 'Fémur y tibia: clavo endomedular'], seg(t, 10, 0.5), 17);
+  K.banner(640, 646, 600, 'Antebrazo: placa y tornillos. Húmero: férula; vigilar el radial', C.BLUE, seg(t, 20.5, 0.5));
+  panel(60, 612, 540, 70, C.RED, 'Retardo o pseudoartrosis: no es lo mismo', [], seg(t, 22, 0.5), 17);
+}
+
+// ========== trauma-01: valva de yeso ==========
+function ferula(t) {
+  K.title('Inmovilizar de urgencia: la valva', 'Acolchada, abierta y sin apretar: deja espacio al edema', C.AMBER);
+  const pl = Plate('fer', { x: 40, y: 128, w: 520, h: 560 }, { x: 0, y: 0, w: 930, h: 1275 });
+  pl.card(seg(t, 0, 0.7)); ctx.save(); ctx.globalAlpha = seg(t, 0, 0.7); pl.draw(); ctx.restore();
+  const s = pl.s();
+  label('Acolchado de algodón', 450, 175, '#D9D2C3', ...pl.P(220, 330), fade(t, 1, 8));
+  label('Valva de yeso (8 a 12 capas)', 430, 300, '#7FD6D6', ...pl.P(560, 420), fade(t, 2, 8));
+  label('Venda elástica sin apretar', 440, 600, C.AMBER, ...pl.P(500, 520), fade(t, 3, 8));
+  // edema: la pierna se hincha y la venda cede
+  const ed = ease(seg(t, 8, 6)); if (ed > 0.02) { const [ex, ey] = pl.P(420, 640); ctx.save(); pl.clip(); ctx.globalAlpha = 0.6 * Math.min(1, ed * 1.6) * fade(t, 8, 17, 0.5); const g = ctx.createRadialGradient(ex, ey, 10, ex, ey, 190 * s * 1.7); g.addColorStop(0, 'rgba(255,60,60,0.7)'); g.addColorStop(1, 'rgba(255,60,60,0)'); ctx.fillStyle = g; ctx.fillRect(ex - 260, ey - 260, 520, 520); ctx.restore();
+    const [a1x, a1y] = pl.P(390, 540); const [a2x] = pl.P(640, 540); arrow(a1x - 25 * ed, a1y + 130, a1x - 25 - 55 * ed, a1y + 130, C.RED, fade(t, 8, 17), 5); arrow(a2x + 25 * ed, a1y + 130, a2x + 25 + 55 * ed, a1y + 130, C.RED, fade(t, 8, 17), 5);
+    label('El edema crece: la valva se abre', 330, 660, C.RED, a2x + 30, a1y + 130, fade(t, 9, 17)); }
+  // dedos y circulación
+  const dd = fade(t, 17, 24, 0.5); if (dd > 0) { const [fx, fy] = pl.P(420, 1150); ring(fx, fy, 70 * s * 1.4, C.GREEN, dd, t); label('Pulsos, llene capilar, sensibilidad y motilidad', 300, 650, C.GREEN, fx + 30, fy - 20, dd); }
+  panel(600, 140, 640, 136, C.AMBER, 'Cómo se coloca', ['Retirar anillos y reloj; cubrir heridas con apósito estéril', 'Incluir la articulación de arriba y la de abajo', 'Moldear con la palma de la mano, no con los dedos'], seg(t, 3, 0.5), 17);
+  panel(600, 290, 640, 118, C.RED, 'Yeso circular: solo tras 24 a 72 horas', ['Si el edema sigue, aprieta: síndrome compartimental', 'Dolor al estirar los dedos o dedos fríos: abrir el yeso'], seg(t, 9, 0.5), 17);
+  panel(600, 422, 640, 118, C.GREEN, 'Antes y después de inmovilizar', ['Examen neurovascular registrado', 'Analgesia, frío local, elevación y ayuno por si va a pabellón'], seg(t, 17.5, 0.5), 17);
+  K.banner(600, 560, 640, 'No se reduce en terreno ni se reintroduce hueso expuesto', C.BLUE, seg(t, 21, 0.5));
+  K.banner(600, 620, 640, 'Muñeca: valva antebraquiopalmar. Escafoides: espica de pulgar', C.MUTED, seg(t, 22.5, 0.5));
+}
+
+// ========== trauma-03: síndrome compartimental (gráfico de tiempo; sin anatomía) ==========
+function compart(t) {
+  K.title('Síndrome compartimental agudo', 'Se decide en horas: el dolor desproporcionado manda', C.RED);
+  const gx = 90, gy = 150, gw = 760, gh = 380;
+  rrect(gx - 30, gy - 24, gw + 60, gh + 110, 18, '#161B22');
+  ctx.strokeStyle = C.GRID; ctx.lineWidth = 1.5;
+  ctx.beginPath(); ctx.moveTo(gx, gy); ctx.lineTo(gx, gy + gh); ctx.lineTo(gx + gw, gy + gh); ctx.stroke();
+  text('Tiempo desde el yeso o el trauma →', gx + gw, gy + gh + 28, 15, C.MUTED, '', 'right'); text('Presión en el compartimento', gx + 10, gy + 18, 15, C.MUTED);
+  const T = seg(t, 1, 14);                                  // avance de las curvas
+  const pres = x => 0.1 + 0.85 * Math.pow(x, 1.7), perf = x => 0.9 - 0.85 * Math.pow(x, 1.7);
+  const draw = (f, col, nm) => { ctx.save(); ctx.strokeStyle = col; ctx.lineWidth = 5; ctx.lineCap = 'round'; ctx.beginPath(); for (let i = 0; i <= 80; i++) { const x = i / 80 * T; const X = gx + x * gw, Y = gy + gh - f(x) * gh; i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); } ctx.stroke(); ctx.restore(); };
+  draw(pres, C.RED); draw(perf, C.BLUE);
+  const xe = gx + T * gw; tag('Presión', xe - 30, gy + gh - pres(T) * gh - 22, C.RED, 14); tag('Perfusión', xe - 30, gy + gh - perf(T) * gh + 22, C.BLUE, 14);
+  // etapas clínicas sobre el eje
+  const ev = [[0.13, 'Dolor desproporcionado', C.AMBER, 3], [0.38, 'Dolor al estirar pasivamente', C.AMBER, 6], [0.62, 'Parestesias', C.RED, 9], [0.88, 'Palidez y sin pulso: tarde', C.RED, 12]];
+  ev.forEach(([x, s0, col, t0], i) => { const a = seg(t, t0, 0.5); if (a > 0) { ctx.save(); ctx.globalAlpha = a; const X = gx + x * gw; ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.setLineDash([5, 5]); ctx.beginPath(); ctx.moveTo(X, gy + 30); ctx.lineTo(X, gy + gh); ctx.stroke(); ctx.setLineDash([]);
+    tag(s0, X, gy + 46 + (i % 2) * 40, col, 14); ctx.restore(); } });
+  // conducta
+  const a1 = seg(t, 15.5, 0.6); if (a1 > 0) { ctx.save(); ctx.globalAlpha = a1; ctx.fillStyle = 'rgba(61,220,132,0.14)'; ctx.fillRect(gx + 8, gy + gh + 44, gw - 16, 40); text('Ante la sospecha: retirar el yeso y los vendajes, y reevaluar', gx + gw / 2, gy + gh + 71, 19, C.GREEN, 'bold', 'center'); ctx.restore(); }
+  panel(890, 150, 350, 136, C.RED, 'Por qué', ['El compartimento no se expande', 'El edema sube la presión y cae la perfusión'], seg(t, 2, 0.5), 16);
+  panel(890, 300, 350, 130, C.AMBER, 'Diagnóstico clínico', ['Dolor que no cede con analgesia', 'Se actúa sin esperar un examen'], seg(t, 5.5, 0.5), 16);
+  panel(890, 444, 350, 130, C.GREEN, 'Tratamiento', ['1. Retirar el yeso y reevaluar', '2. Sin mejoría: fasciotomía amplia'], seg(t, 16.5, 0.5), 16);
+  K.banner(890, 596, 350, 'Elevar no es la respuesta', C.RED, seg(t, 20.5, 0.5));
+  K.banner(890, 652, 350, 'Volkmann: secuela tardía', C.MUTED, seg(t, 22.5, 0.5));
+}
+
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  ({ huesos, ferula, pelvis, acl, hombro, cadera, artrosis, escoliosis, disco, codo, aquiles, compart })[V](t);
+  if (V !== 'compart') credit(); else { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 570, 24); text('Gráfico esquemático propio; sin anatomía', 1268, 712, 13, C.MUTED, '', 'right'); }
+};
+const IMGS = {
+  huesos: { hue: A + 'tr_hueso_h.png' }, ferula: { fer: A + 'tr_ferula.png' },
+  pelvis: { pel: A + 'tr_pelvis.png', pelL: A + 'tr_pelvis_izq.png', pelR: A + 'tr_pelvis_der.png', pelC: A + 'tr_pelvis_resto.png' },
+  acl: { acl: A + 'tr_acl.png' }, hombro: { hom: A + 'tr_hombro.png' }, cadera: { cad: A + 'tr_protesis.png' }, artrosis: { art: A + 'tr_artrosis.png' },
+  escoliosis: { esc: A + 'tr_escoliosis.png' }, disco: { dis: A + 'tr_disco.png' }, codo: { cod: A + 'tr_codo.png' }, aquiles: { aqu: A + 'tr_aquiles.png' }, compart: { z: A + 'tr_acl.png' },
+};
+LOAD(IMGS[V]);
+</script>
+</body></html>

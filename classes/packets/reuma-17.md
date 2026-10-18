@@ -372,14 +372,14 @@ Un paciente de 39 años, trabajador de la construcción, con IMC de 30, psoriát
 Explicación del banco: Tiene una espondilitis anquilosante clásica tanto por el lumbago inflamatorio (mayor en la noche y en el reposo) como por la uveítis.
 
 ### [6] EUNACOM Diciembre 2025 · Pregunta 1 · confianza 0.95
-Una paciente de 45 años, con antecedente de enfermedad reumá8ca en la infancia, consulta por un cuadro de 3 meses de evolución de disnea de esfuerzos en capacidad funcional II, que actualmente ha progresado a disnea de mínimos esfuerzos. Al examen Fsico, su presión arterial es de 120/78 mmHg, su frecuencia cardíaca es de 92 la8dos por minuto y su saturación de oxígeno es de 93% a aire ambiental. Se ausculta un soplo holosistólico en el ápex, irradiado a la axila y se palpa el choque de la punta hiperdinámico a la altura del quinto espacio intercostal. El examen pulmonar muestra crepitaciones basales bilaterales. ¿Cuál es el diagnós8co más probable?
-- A) Insuﬁciencia mitral
-- B) Insuﬁciencia aór2ca
+Una paciente de 45 años, con antecedente de enfermedad reumática en la infancia, consulta por un cuadro de 3 meses de evolución de disnea de esfuerzos en capacidad funcional II, que actualmente ha progresado a disnea de mínimos esfuerzos. Al examen físico, su presión arterial es de 120/78 mmHg, su frecuencia cardíaca es de 92 latidos por minuto y su saturación de oxígeno es de 93% a aire ambiental. Se ausculta un soplo holosistólico en el ápex, irradiado a la axila y se palpa el choque de la punta hiperdinámico a la altura del quinto espacio intercostal. El examen pulmonar muestra crepitaciones basales bilaterales. ¿Cuál es el diagnóstico más probable?
+- A) Insuficiencia mitral
+- B) Insuficiencia aór2ca
 - C) Estenosis mitral
 - D) Estenosis aór2ca
 - E) Ductus arterioso persistente
 **Correcta: A**
-Explicación del banco: Es una insuﬁciencia mitral clásica, con clínica de insuﬁciencia cardiaca izquierda (disnea y crépitos), soplo holosistólico y desplazamiento del choque de la punta, que sugiere cardiomegalia. Revisar resumen de semiología cardiaca.
+Explicación del banco: Es una insuficiencia mitral clásica, con clínica de insuficiencia cardiaca izquierda (disnea y crépitos), soplo holosistólico y desplazamiento del choque de la punta, que sugiere cardiomegalia. Revisar resumen de semiología cardiaca.
 
 ### [7] EUNACOM Julio 2024 · Pregunta 74 · confianza 0.95
 Una paciente de 38 años, profesora de enseñanza básica, consulta por debilidad y mialgias generalizadas, que iniciaron hace un mes. Además, refiere ptosis a derecha, que suele ser mayor en las tardes. Al examen físico se constata ptosis bilateral, mayor a derecha, con normalidad de los reflejos osteotendíneos y la sensibilidad. ¿Cuál es el diagnóstico más probable?
@@ -472,14 +472,14 @@ Paciente masculino, de 71 años de edad, con un cuadro de 2 años de evolución 
 Explicación del banco: Es el cuadro típico del temblor esencial: temblor bilateral que aumenta al adoptar una postura y disminuye con el alcohol y las BDZ (benzodiacepinas).
 
 ### [16] EUNACOM Diciembre 2025 · Pregunta 9 · confianza 0.92
-Un paciente de 40 años, con antecedente de neumonías a repe8ción y consumo de tabaco de 5 paquetes-año, consulta por tos frecuente y produc8va, mayor durante las mañanas, con expectoración mucosa y, en ocasiones, hemoptoica. Al examen Fsico presenta dedos en palillo de tambor (acropaquias), frecuencia cardíaca 75 lpm y presión arterial 110/70 mmHg. La auscultación cardiopulmonar revela ritmo regular en dos tonos sin soplos, murmullo pulmonar presente y simétrico, con auscultación de crepitaciones y estertores bilaterales. ¿Cuál es el diagnós8co más probable?
+Un paciente de 40 años, con antecedente de neumonías a repetición y consumo de tabaco de 5 paquetes-año, consulta por tos frecuente y productiva, mayor durante las mañanas, con expectoración mucosa y, en ocasiones, hemoptoica. Al examen físico presenta dedos en palillo de tambor (acropaquias), frecuencia cardíaca 75 lpm y presión arterial 110/70 mmHg. La auscultación cardiopulmonar revela ritmo regular en dos tonos sin soplos, murmullo pulmonar presente y simétrico, con auscultación de crepitaciones y estertores bilaterales. ¿Cuál es el diagnóstico más probable?
 - A) Bronqui2s crónica
 - B) Bronquiectasias
 - C) Carcinoma broncogénico
 - D) Tuberculosis pulmonar
-- E) Insuﬁciencia cardíaca conges2va
+- E) Insuficiencia cardíaca conges2va
 **Correcta: B**
-Explicación del banco: Tiene un cuadro compaGble con bronquiectasias. Se debe revisar el resumen de semiología respiratoria. El diagnóstico se conﬁrma con TAC de tórax de alta resolución.
+Explicación del banco: Tiene un cuadro compatible con bronquiectasias. Se debe revisar el resumen de semiología respiratoria. El diagnóstico se confirma con TAC de tórax de alta resolución.
 
 ### [17] EUNACOM Diciembre 2019 · Pregunta 125 · confianza 0.92
 Un paciente está hospitalizado por un infarto agudo al miocardio, con supradesnivel del segmento ST, de dos días de evolución. Presenta deterioro del estado general y disnea de reposo, con tendencia a la hipotensión arterial. En su examen físico tiene FC: 115x’, PA: 80/50 mmHg, examen pulmonar con crepitaciones bilaterales intensos y examen cardíaco con ritmo regular en 2 tonos, con soplo sistólico intenso, de localización precordial. El diagnóstico más probable es:
@@ -519,7 +519,7 @@ Mujer de 58 años, fumadora e hipertensa, consulta por historia de un año de di
 - D) Cáncer pulmonar
 - E) Tromboembolismo pulmonar crónico
 **Correcta: C**
-Explicación del banco: Diagnóstico: **Enfermedad pulmonar intersticial difusa** (opción **C**). Es una ﬁbrosis pulmonar.. Esta clase aborda la varicela y el herpes zóster, ambos causados por el virus varicela-zóster (VVZ). Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.
+Explicación del banco: Diagnóstico: **Enfermedad pulmonar intersticial difusa** (opción **C**). Es una fibrosis pulmonar.. Esta clase aborda la varicela y el herpes zóster, ambos causados por el virus varicela-zóster (VVZ). Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.
 
 ### [21] EUNACOM Julio 2013 · Pregunta 65 · confianza 0.92
 Paciente de 34 años, sin antecedentes, consulta por atraso menstrual asociado a metrorragia abundante, náuseas y vómitos. Al examen físico se aprecian mucosas pálidas, útero a nivel suprapúbico y se palpan masas anexiales bilaterales no sensibles. El diagnóstico más probable es:
@@ -542,14 +542,14 @@ Un paciente de 34 años, sin antecedentes, sufre caída mientras subía una esca
 Explicación del banco: Conducta / Tratamiento indicado: **Drenaje quirúrgico urgente** (opción **C**). Es un hematoma del tabique. La resolución quirúrgica urgente constituye la única medida definitiva capaz de controlar el foco séptico, revertir la isquemia o evitar la muerte materna/fetal frente a este compromiso clínico severo.
 
 ### [23] EUNACOM Diciembre 2025 · Pregunta 54 · confianza 0.9
-Un paciente de 23 años consulta por ﬁebre de 7 días de evolución asociada a odinofagia intensa y malestar general. Al examen Fsico se observa paciente febril, con temperatura: 38,1 °C, frecuencia cardíaca: 100 por minuto y presión arterial: 118/78 mmHg; presenta faringe eritematosa con amígdalas aumentadas de tamaño, se palpan adenopa`as cervicales anteriores bilaterales y, en el examen abdominal, se palpa el hígado 2 cm por debajo del reborde costal. Se solicitan exámenes, destacando: hemograma con hematocrito 39%, hemoglobina 13 g/dL, VCM 88 fL, glóbulos blancos 15.600/mm³ con 70% linfocitos, 20% neutróﬁlos y 10% monocitos; pruebas hepá8cas con SGOT: 262 U/L, SGPT: 214 U/L, GGT: 90 U/L, fosfatasas alcalinas: 95 U/L y bilirrubina total: 1,2 mg/dL. ¿Cuál es el diagnós8co más probable?
+Un paciente de 23 años consulta por fiebre de 7 días de evolución asociada a odinofagia intensa y malestar general. Al examen físico se observa paciente febril, con temperatura: 38,1 °C, frecuencia cardíaca: 100 por minuto y presión arterial: 118/78 mmHg; presenta faringe eritematosa con amígdalas aumentadas de tamaño, se palpan adenopa`as cervicales anteriores bilaterales y, en el examen abdominal, se palpa el hígado 2 cm por debajo del reborde costal. Se solicitan exámenes, destacando: hemograma con hematocrito 39%, hemoglobina 13 g/dL, VCM 88 fL, glóbulos blancos 15.600/mm³ con 70% linfocitos, 20% neutrófilos y 10% monocitos; pruebas hepáticas con SGOT: 262 U/L, SGPT: 214 U/L, GGT: 90 U/L, fosfatasas alcalinas: 95 U/L y bilirrubina total: 1,2 mg/dL. ¿Cuál es el diagnóstico más probable?
 - A) Infección por virus hepa22s A
 - B) Leucemia aguda
 - C) Toxoplasmosis aguda
 - D) Mononucleosis infecciosa
 - E) Amigdali2s bacteriana
 **Correcta: D**
-Explicación del banco: Tiene una mononucleosis clásica, con el síndrome mononucleósico (odinofagia, adenopaVas y ﬁebre), más los elementos clásicos: linfocitosis, hepatoesplenomegalia y hepaGGs (faltó el rash morbiliforme espontáneo o posterior al uso de aminopenicilinas).
+Explicación del banco: Tiene una mononucleosis clásica, con el síndrome mononucleósico (odinofagia, adenopatías y fiebre), más los elementos clásicos: linfocitosis, hepatoesplenomegalia y hepaGGs (faltó el rash morbiliforme espontáneo o posterior al uso de aminopenicilinas).
 
 ### [24] EUNACOM Julio 2025 · Pregunta 11 · confianza 0.9
 Niño de 8 años con fiebre de 39°C por 7 días de evolución, exantema polimorfo, adenopatías cervicales, conjuntivitis bilateral no exudativa y lengua en fresa. ¿Cuál es el diagnóstico más probable?

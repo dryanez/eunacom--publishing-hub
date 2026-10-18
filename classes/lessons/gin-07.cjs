@@ -55,14 +55,61 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Factor masculino',
+      title: 'El hombre infértil: causas y conducta',
+      cards: [
+        { title: 'Cuánto pesa y cómo se estudia', tag: '35 a 50 % de la infertilidad de pareja', kind: 'key', items: [
+          { t: 'Espermiograma y examen genital', d: 'Dos muestras; volumen testicular, varicocele con Valsalva, deferentes',
+            say: 'El factor masculino es responsable de entre el treinta y cinco y el cincuenta por ciento de la infertilidad de pareja. Se estudia con dos espermiogramas, con tres a cinco días de abstinencia, y con un examen genital: volumen testicular, varicocele con maniobra de Valsalva y palpación de los vasos deferentes. Y se agregan las hormonas: FSH, LH y testosterona.' },
+        ] },
+        { title: 'Causas', tag: 'La corregible es el varicocele', kind: 'alert', items: [
+          { t: 'Varicocele', d: 'Corregible; 35-40 % de la infertilidad primaria, preferentemente izquierdo',
+            say: 'La causa corregible más frecuente es el varicocele, entre el treinta y cinco y el cuarenta por ciento de la infertilidad primaria, preferentemente izquierdo.' },
+          { t: 'Testiculares, tóxicas y genéticas', d: 'Criptorquidia, parotiditis, tabaco, anabólicos, Klinefelter, microdeleciones Y, CFTR',
+            say: 'Después, la criptorquidia, la orquitis por parotiditis, los tóxicos y el calor, como el tabaco, el alcohol, los anabólicos y el sauna, la quimio y la radioterapia. Y las genéticas: Klinefelter, microdeleciones del cromosoma Y, y la ausencia congénita de deferentes por mutación del CFTR. Sin olvidar la obstrucción de la vía seminal.' },
+        ] },
+        { title: 'Conducta', tag: 'Derivar a urología o andrología', kind: 'pharma', items: [
+          { t: 'Quitar causas y corregir', d: 'Suspender tóxicos y gonadotóxicos, tratar infecciones, varicocelectomía',
+            say: 'La conducta es suspender los tóxicos y fármacos gonadotóxicos, tratar las infecciones, y hacer varicocelectomía si el varicocele es clínico y el espermiograma está alterado. Y se deriva a urología o andrología.' },
+          { t: 'Azoospermia con espermatogénesis conservada', d: 'Extracción testicular y ICSI',
+            say: 'En la oligoastenozoospermia severa, o en la azoospermia con espermatogénesis conservada, se hace extracción testicular y fertilización con inyección de un espermatozoide, ICSI.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'table',
+      kicker: 'Hormonas y fertilidad',
+      title: 'LH, FSH y testosterona: qué te dicen',
+      head: ['Hallazgo', 'Interpretación', 'Ejemplos'],
+      rows: [
+        { cells: ['Testosterona baja, LH y FSH altas', 'Hipogonadismo primario (testicular)', 'Klinefelter, orquitis, criptorquidia'],
+          say: 'En el hombre infértil, la testosterona baja con LH y FSH altas es un hipogonadismo primario: el problema está en el testículo, como en el Klinefelter, la orquitis o la criptorquidia.' },
+        { cells: ['Testosterona baja, LH y FSH bajas', 'Hipogonadismo central', 'Hipopituitarismo, prolactinoma, Kallmann'],
+          say: 'Si la testosterona está baja pero la LH y la FSH también, el problema es central: hipopituitarismo, prolactinoma o Kallmann.' },
+        { cells: ['Azoospermia con FSH elevada', 'Falla espermatogénica primaria', 'Testículos pequeños'],
+          say: 'La azoospermia con FSH elevada indica falla espermatogénica primaria, con testículos pequeños.' },
+        { cells: ['Azoospermia con FSH normal', 'Obstrucción de la vía seminal', 'Volumen testicular normal'],
+          say: 'En cambio, azoospermia con FSH normal y volumen testicular normal sugiere una obstrucción.' },
+        { cells: ['Pico de LH en la orina', 'Ovulación en 24 a 36 horas', 'Programar relaciones o inseminación'],
+          say: 'En la mujer, el pico de LH en la orina precede a la ovulación en veinticuatro a treinta y seis horas, y sirve para programar las relaciones o la inseminación. La relación LH sobre FSH mayor de dos es frecuente en el ovario poliquístico, pero no es criterio diagnóstico.' },
+        { cells: ['Testosterona total sobre 150-200 ng/dL', 'Sospecha de tumor', 'Normal en la mujer: 15 a 70'],
+          say: 'Y una testosterona total en la mujer sobre ciento cincuenta a doscientos nanogramos por decilitro obliga a descartar un tumor; lo normal es entre quince y setenta.' },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Estudio básico',
       title: 'Pilar tres y cuatro: las trompas, y el útero',
       cards: [
         { title: 'Histerosalpingografía', tag: 'Estudia las trompas', kind: 'key', items: [
           { t: 'Contraste por el cuello uterino', d: 'Se ve si pasa a la cavidad peritoneal',
-            say: 'Para las trompas, la histerosalpingografía: inyectas contraste por el cuello uterino y ves si pasa libremente a la cavidad peritoneal.' },
+            say: 'Para las trompas, la histerosalpingografía: inyectas contraste por el cuello uterino y ves si pasa libremente a la cavidad peritoneal. Mira esta histerosalpingografía normal: el contraste rellena la cavidad del útero, en forma de triángulo.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_2__cto-gyo_p50.jpg', label: 'Histerosalpingografía', at: 'Mira esta histerosalpingografía normal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 50' } },
           { t: 'Prueba de Cotte positiva', d: 'Confirma que la trompa es permeable',
-            say: 'Si el contraste se dispersa por ambos lados, la prueba de Cotte sale positiva, y eso confirma que las trompas están permeables.' },
+            say: 'Si el contraste se dispersa por ambos lados, la prueba de Cotte sale positiva, y eso confirma que las trompas están permeables. En esta otra imagen el contraste recorre las dos trompas y sale hacia el peritoneo. Si no sale, la trompa está obstruida.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_1__cto-gyo_p50.jpg', label: 'Trompas permeables', at: 'En esta otra imagen', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 50' } },
         ] },
         { title: 'Factor uterino', tag: 'La cavidad donde se implanta', kind: 'normal', items: [
           { t: 'Ecografía transvaginal', d: 'Busca miomas, pólipos o adenomiosis',
@@ -96,7 +143,8 @@ module.exports = {
         { show: ['iiu'], note: 'De bajo costo, ambulatoria',
           say: 'Si ambas se cumplen, vas a la inseminación intrauterina: es de baja complejidad, ambulatoria, y bastante más económica.' },
         { show: ['obs'], note: 'Aquí la inseminación no tiene ningún sentido',
-          say: 'Pero si las trompas están obstruidas de los dos lados, o el factor masculino es severo, la inseminación no tiene ninguna posibilidad de funcionar.' },
+          say: 'Pero si las trompas están obstruidas de los dos lados, o el factor masculino es severo, la inseminación no tiene ninguna posibilidad de funcionar. Mira esta ecografía del anexo izquierdo: la trompa dilatada y llena de líquido, un hidrosálpinx, que es una causa de obstrucción.',
+          photo: { src: 'biblioteca/13_ginecologia/gin-07/02_hidrosalpinx-eco__us-obgyn_p272.jpg', label: 'Hidrosálpinx (ecografía)', at: 'Mira esta ecografía del anexo izquierdo', credit: 'Ultrasound in Obstetrics and Gynecology: A Practical Approach, p. 272' } },
         { show: ['fiv'], note: 'Salta el problema por completo',
           say: 'Ahí vas directo a fertilización in vitro, o a inyección intracitoplasmática de un solo espermatozoide si el factor masculino es muy severo. La ventaja de estas técnicas es que saltan por completo el problema de la trompa: el óvulo se une al espermatozoide en el laboratorio.' },
       ],
@@ -120,27 +168,15 @@ module.exports = {
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Histerosalpingografía',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Qué necesita cada técnica',
       images: [
-        { src: 'biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_1__cto-gyo_p50.jpg', label: 'Normal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 50' },
+        { src: 'animaciones/gin-07/A1_fecundacion_tecnicas.mp4', label: 'Fecundación, IIU y FIV', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Contraste que sale por las trompas',
-          say: 'En una histerosalpingografía normal el contraste llena el útero, recorre las trompas y sale al peritoneo. Si no sale, la trompa está obstruida.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_2__cto-gyo_p50.jpg', label: 'Histerosalpingografía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 50' },
-      ],
-      steps: [
-        { note: 'Histerosalpingografía',
-          say: 'Histerosalpingografía: el contraste rellena la cavidad uterina.' },
+        { note: 'Del encuentro natural a la FIV',
+          say: 'Mira cómo nadan muchos espermatozoides y llegan pocos al óvulo, en la trompa. En la inseminación intrauterina se deposita semen capacitado en la cavidad: exige al menos una trompa permeable y tres millones o más de espermatozoides móviles. Con obstrucción bilateral o factor masculino severo, la inseminación no sirve: se hace fertilización in vitro, donde el encuentro ocurre en el laboratorio y se salta la trompa.' },
       ],
     },
 
@@ -233,6 +269,44 @@ module.exports = {
         options: 'Las opciones: histeroscopía, laparoscopía, histerosalpingografía, hormona antimülleriana, o seguimiento folicular. Piénsalo.',
         answer: 'Es la C. Ya tienes dos de los cuatro pilares resueltos: ovula, y el semen de él es normal. Lo que sigue en el orden del estudio es el factor tuboperitoneal, y ahí el examen es la histerosalpingografía. La laparoscopía queda para el final, solo si todo lo anterior sale normal y sigues sin causa.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.4.009 · LH, testosterona",
+      "stem": "Un hombre de 28 años consulta por infertilidad conyugal de 2 años. Es alto, con escaso vello corporal, ginecomastia leve y testículos pequeños y firmes (3 mL). El espermiograma muestra azoospermia y la testosterona total es baja (180 ng/dL).",
+      "question": "¿Qué resultado de LH y FSH es esperable y cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "LH y FSH bajas: hipogonadismo hipogonadotrópico (Kallmann)"
+        },
+        {
+          "letter": "B",
+          "text": "LH y FSH normales: obstrucción de conductos deferentes"
+        },
+        {
+          "letter": "C",
+          "text": "LH y FSH elevadas: hipogonadismo primario, probable síndrome de Klinefelter"
+        },
+        {
+          "letter": "D",
+          "text": "LH baja y FSH alta: prolactinoma"
+        },
+        {
+          "letter": "E",
+          "text": "LH alta y FSH baja: uso de esteroides anabólicos"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Testículos pequeños y firmes, azoospermia, ginecomastia y hábito eunucoide con testosterona baja y gonadotropinas elevadas (hipogonadismo hipergonadotrópico) sugieren síndrome de Klinefelter (47,XXY), que se confirma con cariograma. En el hipogonadismo central (Kallmann, tumor hipofisario) LH y FSH están bajas o inapropiadamente normales; los anabólicos las suprimen.",
+      "say": {
+        "stem": "Un hombre de veintiocho años con dos años de infertilidad es alto, con poco vello, ginecomastia leve, testículos pequeños y firmes, azoospermia y testosterona baja.",
+        "question": "¿Qué LH y FSH se esperan y cuál es el diagnóstico más probable?",
+        "options": "Las opciones: ambas bajas por Kallmann, ambas normales por obstrucción, ambas altas por Klinefelter, LH baja con FSH alta por prolactinoma o LH alta con FSH baja por anabólicos. Piénsalo.",
+        "answer": "Es la C. Testosterona baja con gonadotropinas altas es un hipogonadismo primario, y este fenotipo es el de Klinefelter. Kallmann tienta, pero ahí las gonadotropinas están bajas y suele haber anosmia."
+      }
     },
 
     {

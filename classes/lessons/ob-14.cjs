@@ -44,7 +44,8 @@ module.exports = {
         { show: ['duda'], note: 'La mayoría de las veces basta con esto',
           say: 'Si con eso ya viste el líquido, no necesitas nada más. Pero si la duda persiste, recién ahí pides un examen de apoyo.' },
         { show: ['test'], note: 'La microglobulina es el de mayor rendimiento',
-          say: 'El test de la microglobulina placentaria, y el de la cristalización en hoja de helecho, son los que mejor confirman el diagnóstico cuando la clínica no basta.' },
+          say: 'El test de la microglobulina placentaria, y el de la cristalización en hoja de helecho, son los que mejor confirman el diagnóstico cuando la clínica no basta. Mira esta muestra al microscopio: el líquido seco cristaliza en forma de hoja de helecho.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-14/01_cristalizacion_helecho__commons.jpg', label: 'Test de helecho', at: 'Mira esta muestra', credit: 'Wikimedia Commons «Positive Fern Test.jpg», CC BY-SA 2.0, ver autor en Commons' } },
       ],
     },
 
@@ -125,14 +126,15 @@ module.exports = {
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Rotura de membranas',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La bolsa rota y la infección que sube',
       images: [
-        { src: 'biblioteca/14_obstetricia/ob-14/01_cristalizacion_helecho__commons.jpg', label: 'Test de helecho', credit: 'Wikimedia Commons «Positive Fern Test.jpg», CC BY-SA 2.0, ver autor en Commons' },
+        { src: 'animaciones/ob-14/A1_rotura_infeccion.mp4', label: 'Rotura de membranas', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Cristalización del líquido',
-          say: 'El líquido amniótico cristaliza en forma de helecho al secarse. Confirma la rotura de membranas.' },
+        { note: 'Sin bolsa, las bacterias suben',
+          say: 'Mientras la bolsa está íntegra, el feto está protegido. Cuando se rompe, el líquido claro sale por el cuello y la vagina, y deja de haber barrera. Las bacterias pueden subir desde la vagina hacia el útero, y por eso no se hace tacto digital: las arrastra hacia el cuello. Si la infección se instala, es una corioamnionitis, y ahí se interrumpe el embarazo.' },
       ],
     },
 

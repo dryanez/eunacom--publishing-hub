@@ -57,7 +57,8 @@ module.exports = {
       cards: [
         { title: 'Cambios físicos', tag: 'La pista del examen', kind: 'key', items: [
           { t: 'Manos y pies que crecen', d: 'Cambia de zapatos, no se saca los anillos',
-            say: 'El enunciado típico te lo cuenta con detalles cotidianos: el paciente ha tenido que cambiar varias veces de número de zapatos, o ya no puede sacarse el anillo de matrimonio.' },
+            say: 'El enunciado típico te lo cuenta con detalles cotidianos: el paciente ha tenido que cambiar varias veces de número de zapatos, o ya no puede sacarse el anillo de matrimonio. Mira este paciente: las manos grandes, la nariz ancha, los dientes separados y las rodillas con artropatía.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-22/01_fenotipo-acromegalico__cto-endocrino_p33.jpg', label: 'Fenotipo acromegálico', at: 'Mira este paciente', credit: 'Manual CTO Endocrinología 14.ª ed., p. 33' } },
           { t: 'Rasgos faciales toscos', d: 'Nariz ancha, arcos supraciliares prominentes',
             say: 'La cara se vuelve tosca: nariz ancha y frente y arcos supraciliares prominentes.' },
           { t: 'Prognatismo con diastema', d: 'Dientes separados, maloclusión y macroglosia',
@@ -174,20 +175,6 @@ module.exports = {
           say: 'El adenoma somatotropo libera hormona de crecimiento, y el hígado fabrica IGF uno, que hace crecer huesos y partes blandas. Se pide primero la IGF uno; si está alta, se confirma con la prueba de glucosa: en el sano la hormona de crecimiento baja, en el tumor no baja de uno.' },
       ],
     },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Acromegalia',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-22/01_fenotipo-acromegalico__cto-endocrino_p33.jpg', label: 'Fenotipo acromegálico', credit: 'Manual CTO Endocrinología 14.ª ed., p. 33' },
-      ],
-      steps: [
-        { note: 'Manos y rasgos grandes',
-          say: 'La acromegalia agranda manos, pies, nariz, mandíbula y lengua, lentamente, durante años. El paciente nota que le quedan chicos los anillos y los zapatos.' },
-      ],
-    },
-
     {
       type: 'pathway',
       intro: 'Juntemos todo en el árbol de decisión que vas a usar en el examen.',

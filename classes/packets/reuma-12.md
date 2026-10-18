@@ -353,14 +353,14 @@ Escribe `classes/lessons/reuma-12.cjs` siguiendo el PAQUETE COMÚN. El `id` es "
 Elige las que sean del tema de esta clase. Algunas pueden ser de otro tema: descártalas.
 
 ### [1] EUNACOM Diciembre 2025 · Pregunta 9 · confianza 0.92
-Un paciente de 40 años, con antecedente de neumonías a repe8ción y consumo de tabaco de 5 paquetes-año, consulta por tos frecuente y produc8va, mayor durante las mañanas, con expectoración mucosa y, en ocasiones, hemoptoica. Al examen Fsico presenta dedos en palillo de tambor (acropaquias), frecuencia cardíaca 75 lpm y presión arterial 110/70 mmHg. La auscultación cardiopulmonar revela ritmo regular en dos tonos sin soplos, murmullo pulmonar presente y simétrico, con auscultación de crepitaciones y estertores bilaterales. ¿Cuál es el diagnós8co más probable?
+Un paciente de 40 años, con antecedente de neumonías a repetición y consumo de tabaco de 5 paquetes-año, consulta por tos frecuente y productiva, mayor durante las mañanas, con expectoración mucosa y, en ocasiones, hemoptoica. Al examen físico presenta dedos en palillo de tambor (acropaquias), frecuencia cardíaca 75 lpm y presión arterial 110/70 mmHg. La auscultación cardiopulmonar revela ritmo regular en dos tonos sin soplos, murmullo pulmonar presente y simétrico, con auscultación de crepitaciones y estertores bilaterales. ¿Cuál es el diagnóstico más probable?
 - A) Bronqui2s crónica
 - B) Bronquiectasias
 - C) Carcinoma broncogénico
 - D) Tuberculosis pulmonar
-- E) Insuﬁciencia cardíaca conges2va
+- E) Insuficiencia cardíaca conges2va
 **Correcta: B**
-Explicación del banco: Tiene un cuadro compaGble con bronquiectasias. Se debe revisar el resumen de semiología respiratoria. El diagnóstico se conﬁrma con TAC de tórax de alta resolución.
+Explicación del banco: Tiene un cuadro compatible con bronquiectasias. Se debe revisar el resumen de semiología respiratoria. El diagnóstico se confirma con TAC de tórax de alta resolución.
 
 ### [2] EUNACOM Julio 2016 · Pregunta 119 · confianza 0.92
 Un paciente de 26 años de edad presenta un cuadro de tos con expectoración de algunos años de evolución, mayor en las mañana y que ha presentado hemoptisis. Su examen físico presenta acropaquias y a la auscultación pulmonar hay crepitaciones y estertores bilaterales. El diagnóstico más probable es:
@@ -433,14 +433,14 @@ Mujer de 35 años con placas eritematosas bien delimitadas, cubiertas de escamas
 Explicación del banco: Placas eritematosas con escamas plateadas en superficies extensoras + fenómeno de Auspitz (sangrado puntiforme al retirar escama) = psoriasis en placas. Compromiso 10% = psoriasis moderada.
 
 ### [9] EUNACOM Diciembre 2025 · Pregunta 94 · confianza 0.95
-Un paciente de 24 años, con antecedente de consumo frecuente de cocaína, presenta dolor peneano de 5 horas de evolución asociado a una erección constante. Al examen Fsico se obje8va erección de los cuerpos cavernosos, con ﬂacidez del glande y el cuerpo esponjoso. ¿Cuál es la conducta inicial más adecuada?
+Un paciente de 24 años, con antecedente de consumo frecuente de cocaína, presenta dolor peneano de 5 horas de evolución asociado a una erección constante. Al examen físico se objetiva erección de los cuerpos cavernosos, con flacidez del glande y el cuerpo esponjoso. ¿Cuál es la conducta inicial más adecuada?
 - A) Administrar adrenalina intracavernosa
 - B) Propranolol vía oral
 - C) Doxasozina vía oral
 - D) Derivación cavernoesponjosa quirúrgica
 - E) Administrar fenilefrina intracavernosa
 **Correcta: E**
-Explicación del banco: Tiene un priapismo isquémico o verdadero (erección dolorosa y mantenida, limitada a los cuerpos cavernosos). El tratamiento sigue el siguiente orden: 1. Fenilefrina intracavernosa, 2. Procedimientos invasivos (drenaje de los cuerpos cavernosos con suero ﬁsiológico o derivación cavernoesponjosa). Además, se debe buscar la presencia de leucemia y anemia de células falciformes (rara en Chile), aunque en este caso la causa más probable parece estar relacionada con el consumo de cocaína.
+Explicación del banco: Tiene un priapismo isquémico o verdadero (erección dolorosa y mantenida, limitada a los cuerpos cavernosos). El tratamiento sigue el siguiente orden: 1. Fenilefrina intracavernosa, 2. Procedimientos invasivos (drenaje de los cuerpos cavernosos con suero fisiológico o derivación cavernoesponjosa). Además, se debe buscar la presencia de leucemia y anemia de células falciformes (rara en Chile), aunque en este caso la causa más probable parece estar relacionada con el consumo de cocaína.
 
 ### [10] EUNACOM Diciembre 2019 · Pregunta 68 · confianza 0.95
 Un hombre de 42 años presenta dolor en el hombro derecho, de dos semanas de evolución, que inició en relación a un partido de tenis y que limita sus actividades, en especial, los movimientos de abducción y elevación. Al examen físico tiene dolor a la palpación subacromial, con dolor a la abducción y elevación del hombro, que dificulta estos movimientos, por sobre 80°. Se solicitan radiografías de hombro, que muestran esclerosis del acromion y leve ascenso de la cabeza humeral. El diagnóstico más probable es:
@@ -523,14 +523,14 @@ Una paciente de 26 años, con antecedente de esclerosis múltiple consulta por d
 Explicación del banco: Tanto la clínica (amaurosis más defecto pupilar aferente o escape pupilar), como la esclerosis múltiple, orientan a Neuritis óptica. La causa más frecuente es autoinmune.
 
 ### [18] EUNACOM Diciembre 2025 · Pregunta 154 · confianza 0.85
-Un hombre de 35 años consulta por palpitaciones intensas, que iniciaron tras 4 días de consumo abundante de alcohol. Al examen Fsico se palpa pulso irregular a 160 la8dos por minuto y se constata presión arterial de 105/67 mmHg. ¿Cuál es el diagnós8co más probable?
+Un hombre de 35 años consulta por palpitaciones intensas, que iniciaron tras 4 días de consumo abundante de alcohol. Al examen físico se palpa pulso irregular a 160 latidos por minuto y se constata presión arterial de 105/67 mmHg. ¿Cuál es el diagnóstico más probable?
 - A) Taquicardia sinusal
 - B) Taquicardia paroxís2ca supraventricular
 - C) Taquicardia ventricular
 - D) Fibrilación auricular
 - E) Taquicardia auricular mul2focal
 **Correcta: D**
-Explicación del banco: Por ser irregular, lo más probable es que sea una ﬁbrilación auricular (FA), que, por cierto es muy frecuente. La taquicardia sinusal y la TPSV son regulares. La taquicardia ventricular puede ser regular o irregular, pero suele ser mucho más grave y tener alguna patología de base. La TAMF es irregular, pero es mucho menos frecuente. De todos modos, se debe realizar un electrocardiograma para conﬁrmar el diagnóstico. El manejo de la FA aguda es 0. Si hemodinamia inestable: cardioversión eléctrica inmediata. Si hemodinamia estable: 1. An<coagular (en la práctica se anticoagulan todos los pacientes con FA aguda o "de reciente comienzo" en la actualidad: única excepción es la autolimitada de corta duración); la necesidad de conGnuar con TACO dependerá del CHADS2, igual que en la FA crónica. 2. Bajar la frecuencia cardíaca (verapamilo, betabloqueo o dilGazem) y 3. Cardiover<r farmacológicamente (amiodarona), cuando sea seguro: 3.1. después de descartar trombos con una ecocardiografía transesofágica o 3.2. después de 3-4 semanas, 3.3. siendo discuGble si se puede hacer sin la ecocardiografía, si es que ha pasado menos de 48 horas.
+Explicación del banco: Por ser irregular, lo más probable es que sea una fibrilación auricular (FA), que, por cierto es muy frecuente. La taquicardia sinusal y la TPSV son regulares. La taquicardia ventricular puede ser regular o irregular, pero suele ser mucho más grave y tener alguna patología de base. La TAMF es irregular, pero es mucho menos frecuente. De todos modos, se debe realizar un electrocardiograma para confirmar el diagnóstico. El manejo de la FA aguda es 0. Si hemodinamia inestable: cardioversión eléctrica inmediata. Si hemodinamia estable: 1. An<coagular (en la práctica se anticoagulan todos los pacientes con FA aguda o "de reciente comienzo" en la actualidad: única excepción es la autolimitada de corta duración); la necesidad de continuar con TACO dependerá del CHADS2, igual que en la FA crónica. 2. Bajar la frecuencia cardíaca (verapamilo, betabloqueo o diltiazem) y 3. Cardiover<r farmacológicamente (amiodarona), cuando sea seguro: 3.1. después de descartar trombos con una ecocardiografía transesofágica o 3.2. después de 3-4 semanas, 3.3. siendo discutible si se puede hacer sin la ecocardiografía, si es que ha pasado menos de 48 horas.
 
 ### [19] EUNACOM Julio 2024 · Pregunta 16 · confianza 0.85
 Una paciente de 47 años consulta por pirosis y regurgitación de dos años de evolución, asociada a disfagia alta intermitente, que ha ido en aumento. Al examen físico, presenta signos vitales normales, se observan telangiectasias en el tórax y esclerosis de la piel de los dedos. Su examen cardiopulmonar y abdominal es normal. ¿Cuál es el diagnóstico más probable?
@@ -573,14 +573,14 @@ Una paciente, con antecedente de esclerosis múltiple, consulta por dolor ocular
 Explicación del banco: Es una neuritis óptica tanto por el antecedente de EM, como por la cínica, aunque tenía AV normal y no mencionaban el RFM.
 
 ### [23] EUNACOM Diciembre 2025 · Pregunta 89 · confianza 0.8
-Un paciente de 75 años, con antecedente de EPOC en tratamiento con broncodilatadores inhalados y bromhexina 8mg cada 8h, más consumo de alcohol de una botella de vino de 750 cc durante los ﬁnes de semana, consulta por diﬁcultades para caminar y hablar de 3 meses de evolución, progresivas, asociadas a torpeza de las extremidades. No ha presentado náuseas ni cefalea. Al examen Fsico, se aprecia ataxia de la marcha, habla disártrica y dismetría de las extremidades superiores, con imposibilidad de realizar movimientos alternantes de forma coordinada. ¿Cuál es el diagnós8co más probable?
+Un paciente de 75 años, con antecedente de EPOC en tratamiento con broncodilatadores inhalados y bromhexina 8mg cada 8h, más consumo de alcohol de una botella de vino de 750 cc durante los fines de semana, consulta por dificultades para caminar y hablar de 3 meses de evolución, progresivas, asociadas a torpeza de las extremidades. No ha presentado náuseas ni cefalea. Al examen físico, se aprecia ataxia de la marcha, habla disártrica y dismetría de las extremidades superiores, con imposibilidad de realizar movimientos alternantes de forma coordinada. ¿Cuál es el diagnóstico más probable?
 - A) Toxicidad cerebelosa por bromhexina
 - B) Degeneración cerebelosa alcohólica
 - C) Esclerosis múl2ple
 - D) Síndrome paraneoplásico
 - E) Tumor cerebeloso
 **Correcta: D**
-Explicación del banco: Pregunta muy difícil, aunque Gene un claro síndrome cerebeloso. Sin embargo, no queda clara la causa. Tiene factores de riesgo para cáncer pulmonar, que puede producir una cerebeliGs autoinmune, siendo compaGble el cuadro con la velocidad que se instauró. No Gene náuseas ni cefalea para pensar en un tumor. El consumo de alcohol no es muy grande y el daño cerebeloso por alcohol suele ser de instalación mucho más lenta. La bromhexina no suele producir toxcicidad cerebelosa y, en caso de hacerlo, es muy raro. El ACV cerebeloso (no está en las opciones) suele instalarse de forma súbita. La esclerosis múlGple también se instala más rápido en algunos pocos días. En resumen, la velocidad con la que progresa hace pensar en una cerebeliGs autoinmune paraneoplásica.
+Explicación del banco: Pregunta muy difícil, aunque Gene un claro síndrome cerebeloso. Sin embargo, no queda clara la causa. Tiene factores de riesgo para cáncer pulmonar, que puede producir una cerebelitis autoinmune, siendo compatible el cuadro con la velocidad que se instauró. No Gene náuseas ni cefalea para pensar en un tumor. El consumo de alcohol no es muy grande y el daño cerebeloso por alcohol suele ser de instalación mucho más lenta. La bromhexina no suele producir toxcicidad cerebelosa y, en caso de hacerlo, es muy raro. El ACV cerebeloso (no está en las opciones) suele instalarse de forma súbita. La esclerosis múltiple también se instala más rápido en algunos pocos días. En resumen, la velocidad con la que progresa hace pensar en una cerebelitis autoinmune paraneoplásica.
 
 ### [24] EUNACOM Julio 2024 · Pregunta 35 · confianza 0.8
 Una paciente de 48 años consulta por hipoacusia bilateral de 10 años de evolución, progresiva, que aumentó especialmente durante su último embarazo. Su otoscopía es normal y el examen neurológico no muestra alteraciones vestibulares ni cerebelosas. Se realiza test de diapasones, que muestra prueba de Rinne negativo bilateral y prueba de Weber que no lateraliza. ¿Cuál es el diagnóstico más probable?

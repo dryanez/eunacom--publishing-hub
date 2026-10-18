@@ -107,7 +107,8 @@ module.exports = {
           { t: 'Coprocultivo + parasitológico seriado', d: 'Giardia, Entamoeba; rotatest',
             say: 'Si la diarrea pasa las dos semanas, ahora sí buscamos el agente: coprocultivo, parasitológico seriado buscando Giardia y Entamoeba, y rotatest.' },
           { t: 'Post antibiótico: C. difficile', d: 'PCR de toxina · metronidazol → vancomicina',
-            say: 'Y si usó antibióticos en el último mes, sospecha Clostridioides difficile. Se diagnostica con PCR de toxina y se trata con metronidazol, y si falla, vancomicina oral. Ojo: la respuesta se evalúa por la clínica, no repitiendo la PCR.' },
+            say: 'Y si usó antibióticos en el último mes, sospecha Clostridioides difficile. Se diagnostica con PCR de toxina y se trata con metronidazol, y si falla, vancomicina oral. Ojo: la respuesta se evalúa por la clínica, no repitiendo la PCR. Mira esta colonoscopía: placas amarillentas, las seudomembranas, sobre la mucosa.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-08/03_colitis-pseudomembranosa-cdifficile__atlas-eunacom.jpg', label: 'C. difficile en colonoscopía', at: 'Mira esta colonoscopía', credit: 'Atlas EUNACOM 2026' } },
         ] },
         { title: 'Crónica: 4 semanas o más', tag: 'Según la clínica', kind: 'criteria', items: [
           { t: 'Funcional, malabsorción, EII', d: 'SII · Sudán, D-xilosa · colonoscopía',
@@ -118,6 +119,63 @@ module.exports = {
         { title: 'Constipación', tag: 'Casi siempre funcional', kind: 'normal', items: [
           { t: 'Fibra, agua, educación', d: 'Proquinéticos si hace falta',
             say: 'La constipación casi siempre es funcional: educación, fibra, agua y proquinéticos. Pero en un adulto mayor con signos de alarma, la conducta es la misma que en la diarrea: colonoscopía.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Parasitosis',
+      title: 'Parasitosis intestinales del adulto',
+      cards: [
+        { title: 'Cómo se diagnostican', tag: 'Parasitológico seriado', kind: 'key', items: [
+          { t: 'Tres muestras, días distintos', d: 'Con conservante; eosinofilia como pista',
+            say: 'El diagnóstico es el parasitológico seriado de deposiciones: tres muestras en días distintos, con conservante. La eosinofilia en el hemograma es una pista.' },
+          { t: 'Test de Graham para oxiuros', d: 'Cinta adhesiva perianal',
+            say: 'Para los oxiuros no sirve el parasitológico: se usa el test de Graham, con una cinta adhesiva en la región perianal.' },
+        ] },
+        { title: 'Protozoos', tag: 'Tratamiento', kind: 'pharma', items: [
+          { t: 'Giardia: tinidazol o metronidazol', d: 'Tinidazol 2 g en dosis única',
+            say: 'Giardia da flatulencia, dolor cólico y diarrea con malabsorción. Mira estos trofozoítos al microscopio, con forma de pera y flagelos. Se trata con tinidazol, dos gramos en dosis única, o con metronidazol por cinco días.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-08/04_giardia-trofozoitos__atlas-eunacom.jpg', label: 'Trofozoítos de Giardia', at: 'Mira estos trofozoítos', credit: 'Atlas EUNACOM 2026' } },
+          { t: 'Entamoeba: metronidazol y amebicida luminal', d: 'Disentería y absceso hepático',
+            say: 'Entamoeba histolytica causa disentería y absceso hepático. Se trata con metronidazol por siete a diez días, seguido de un amebicida luminal.' },
+        ] },
+        { title: 'Helmintos', tag: 'Tratamiento', kind: 'pharma', items: [
+          { t: 'Áscaris y tricocéfalo: albendazol', d: 'Dosis única en áscaris; tres días en tricocéfalo',
+            say: 'Áscaris y tricocéfalo se tratan con albendazol o mebendazol: una dosis única en el áscaris, tres días en el tricocéfalo. Este es el huevo de Ascaris, redondeado y de cubierta irregular. Y este es el del tricocéfalo, alargado como un barril, con un tapón claro en cada extremo.',
+            photos: [
+              { src: 'biblioteca/01_gastroenterologia/gastro-08/01_huevo-ascaris__nelson_p2813.jpg', label: 'Huevo de Ascaris', at: 'Este es el huevo de Ascaris', credit: 'Nelson 22.ª ed., p. 2813' },
+              { src: 'biblioteca/01_gastroenterologia/gastro-08/02_huevo-trichuris__nelson_p2820.jpg', label: 'Huevo de tricocéfalo', at: 'Y este es el del tricocéfalo', credit: 'Nelson 22.ª ed., p. 2820' },
+            ] },
+          { t: 'Oxiuros: repetir y tratar a la familia', d: 'Repetir a las 2 semanas',
+            say: 'En los oxiuros se repite el tratamiento a las dos semanas y se trata a todo el grupo familiar.' },
+          { t: 'Teniasis: praziquantel · Strongyloides: ivermectina', d: 'Riesgo de hiperinfección en inmunosuprimidos',
+            say: 'La teniasis se trata con praziquantel. Y Strongyloides, que da diarrea y eosinofilia y puede hiperinfectar a un inmunosuprimido, con ivermectina.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Constipación',
+      title: 'Fecaloma: la diarrea que engaña',
+      cards: [
+        { title: 'Quién y cómo se presenta', tag: 'Adulto mayor', kind: 'alert', items: [
+          { t: 'Postrado, con opioides o anticolinérgicos', d: 'Masa dura en el recto',
+            say: 'El fecaloma es una masa de deposición endurecida en el recto. Es propio del adulto mayor postrado o que usa opioides, anticolinérgicos, o tiene constipación crónica.' },
+          { t: 'Diarrea por rebosamiento', d: 'Incontinencia, retención urinaria, delirium',
+            say: 'La trampa es que puede dar diarrea por rebosamiento, la llamada diarrea paradójica. También produce incontinencia fecal, retención urinaria, dolor y delirium.' },
+        ] },
+        { title: 'Diagnóstico', tag: 'Tacto rectal', kind: 'key', items: [
+          { t: 'Tacto rectal', d: 'Masa dura y ampolla llena',
+            say: 'Se diagnostica con el tacto rectal: masa dura y ampolla llena. La radiografía de abdomen lo confirma si el fecaloma está alto.' },
+        ] },
+        { title: 'Tratamiento', tag: 'Y después prevenir', kind: 'pharma', items: [
+          { t: 'Desimpactar', d: 'Enema, supositorios de glicerina, fragmentación manual',
+            say: 'Primero se desimpacta: enema, supositorios de glicerina o fragmentación manual.' },
+          { t: 'Prevenir', d: 'Fibra, agua, movilización, laxante osmótico',
+            say: 'Después se previene con fibra, hidratación, movilización, revisando los fármacos constipantes y con un laxante osmótico de mantención. Si no se trata, puede llegar a la obstrucción o a una úlcera con perforación.' },
         ] },
       ],
     },
@@ -246,6 +304,268 @@ module.exports = {
         options: 'Las opciones: sangre oculta en deposiciones, ecografía abdominal, TAC de abdomen y pelvis, colonoscopía, o rectosigmoidoscopía. Piénsalo.',
         answer: 'Es la D, colonoscopía. Setenta años y un cambio del hábito intestinal, que alterna constipación con diarrea, son dos señales de alarma: la edad de inicio y el cambio reciente del patrón. Aunque el hematocrito casi no esté alterado, esa combinación en un adulto mayor obliga a descartar cáncer de colon con colonoscopía.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.1.011 · Diarrea crónica",
+      "stem": "Mujer de 45 años con 4 meses de diarrea acuosa, 4 a 5 veces al día, que la despierta en la noche, con baja de 6 kg. No ha viajado. Al examen hay palidez leve. Hemoglobina 10,5 g/dL y VCM 76 fL.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diagnosticar síndrome de intestino irritable e indicar dieta baja en FODMAP"
+        },
+        {
+          "letter": "B",
+          "text": "Loperamida y control en 3 meses"
+        },
+        {
+          "letter": "C",
+          "text": "Coprocultivo como único examen"
+        },
+        {
+          "letter": "D",
+          "text": "Estudio de diarrea crónica orgánica, con exámenes de laboratorio y colonoscopía con biopsias"
+        },
+        {
+          "letter": "E",
+          "text": "Metronidazol empírico por 7 días"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Diarrea de más de 4 semanas con signos de alarma —nocturna, baja de peso y anemia— es orgánica hasta demostrar lo contrario. Se estudia con laboratorio (hemograma, PCR, serología celíaca, parasitológico) y colonoscopía con biopsias. El intestino irritable no despierta en la noche ni produce anemia.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Mujer de cuarenta y cinco años con cuatro meses de diarrea acuosa, cuatro a cinco veces al día, que la despierta en la noche. Bajó seis kilos, está algo pálida y tiene una anemia microcítica, con hemoglobina de diez coma cinco.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: diagnosticar intestino irritable, loperamida y control, coprocultivo solo, estudio de diarrea orgánica con colonoscopía o metronidazol empírico. Piénsalo.",
+        "answer": "Es la D. Una diarrea crónica que despierta en la noche, con baja de peso y anemia, tiene signos de alarma y se estudia como orgánica, incluyendo colonoscopía con biopsias. El intestino irritable es la trampa: nunca despierta al paciente ni da anemia."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 119",
+      "stem": "Mujer de 27 años con constipación de 3 años de evolución, con deposiciones caprinas y duras, que evacua una vez a la semana. Se realiza una radiografía de abdomen que muestra dolicocolon, con contenido fecal en toda su extensión.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Laxantes osmóticos"
+        },
+        {
+          "letter": "B",
+          "text": "Laxantes de contacto"
+        },
+        {
+          "letter": "C",
+          "text": "Cambios de hábitos"
+        },
+        {
+          "letter": "D",
+          "text": "Proquinéticos"
+        },
+        {
+          "letter": "E",
+          "text": "Cirugía"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En una paciente joven sin signos de alarma, la constipación funcional se trata primero con cambios de hábitos: fibra, líquidos, actividad física y horario defecatorio. El dolicocolon es un hallazgo sin relevancia terapéutica y no justifica cirugía. Los laxantes quedan como segunda línea si las medidas fallan.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Mujer de veintisiete años con tres años de constipación, deposiciones duras en bolitas y una evacuación por semana. La radiografía de abdomen muestra un colon largo, o dolicocolon, con deposiciones en todo su trayecto.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: laxantes osmóticos, laxantes de contacto, cambios de hábitos, proquinéticos, o cirugía. Piénsalo.",
+        "answer": "Es la C, cambios de hábitos. Es una constipación funcional en una mujer joven sin alarma, y lo primero es fibra, agua, actividad física y un horario para ir al baño. La cirugía tienta por el dolicocolon, pero ese hallazgo no explica ni cambia el tratamiento."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 128",
+      "stem": "Una paciente está en tratamiento con ciprofloxacino por una infección urinaria. Al séptimo día inicia diarrea acuosa, abundante, asociada a dolor abdominal. Al examen físico se constata dolor a la palpación abdominal, sin irritación peritoneal, con aumento de los ruidos hidroaéreos. Los leucocitos fecales resultan positivos.",
+      "question": "¿Cuál es el agente etiológico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Escherichia coli"
+        },
+        {
+          "letter": "B",
+          "text": "Clostridioides (Clostridium) difficile"
+        },
+        {
+          "letter": "C",
+          "text": "Shigella flexneri"
+        },
+        {
+          "letter": "D",
+          "text": "Rotavirus"
+        },
+        {
+          "letter": "E",
+          "text": "Campylobacter jejuni"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Diarrea inflamatoria durante un tratamiento antibiótico obliga a sospechar C. difficile, la principal causa de diarrea asociada a antibióticos (fluoroquinolonas, clindamicina, cefalosporinas). Se confirma con toxinas o PCR en deposiciones y se suspende el antibiótico si es posible. Hoy se trata con vancomicina oral o fidaxomicina; el metronidazol es alternativa.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Una mujer en tratamiento con ciprofloxacino por infección urinaria inicia al séptimo día diarrea acuosa abundante con dolor abdominal y leucocitos fecales positivos.",
+        "question": "¿Cuál es el agente etiológico?",
+        "options": "Las opciones: Escherichia coli, Clostridioides difficile, Shigella, rotavirus o Campylobacter. Piénsalo.",
+        "answer": "Es la B. La diarrea inflamatoria durante un antibiótico es Clostridioides difficile hasta demostrar lo contrario. Shigella tienta por los leucocitos fecales, pero el contexto antibiótico apunta claramente a difficile."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 101",
+      "stem": "Paciente de 45 años con diarrea crónica de 6 meses. Se realiza una colonoscopía que muestra parásitos filiformes adheridos a la mucosa del colon ascendente.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Giardia lamblia"
+        },
+        {
+          "letter": "B",
+          "text": "Entamoeba histolytica"
+        },
+        {
+          "letter": "C",
+          "text": "Trichuris trichiura"
+        },
+        {
+          "letter": "D",
+          "text": "Ascaris lumbricoides"
+        },
+        {
+          "letter": "E",
+          "text": "Cryptosporidium"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Trichuris trichiura (tricocéfalo) es un nematodo en forma de látigo que se adhiere a la mucosa del ciego y colon ascendente, visible en colonoscopía; causa diarrea crónica y, en infecciones masivas, disentería y prolapso rectal. Giardia vive en el duodeno, Ascaris en el intestino delgado, y los protozoos son microscópicos. Se trata con albendazol o mebendazol.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Un paciente de cuarenta y cinco años con diarrea crónica de seis meses tiene en la colonoscopía pequeños gusanos filiformes adheridos a la mucosa del colon ascendente.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: Giardia, Entamoeba histolytica, Trichuris trichiura, Ascaris o Cryptosporidium. Piénsalo.",
+        "answer": "Es la C. El tricocéfalo es un gusano en forma de látigo que se ve adherido al ciego y colon ascendente. Ascaris tienta por ser un gusano visible, pero vive en el intestino delgado."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 110",
+      "stem": "Puérpera de 5 días, hospitalizada durante el parto, presenta deposiciones líquidas múltiples con moco y sangre, calambres abdominales y fiebre de 38,5 °C.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Infección por Clostridioides difficile"
+        },
+        {
+          "letter": "B",
+          "text": "Gastroenteritis viral"
+        },
+        {
+          "letter": "C",
+          "text": "Colitis ulcerosa de novo"
+        },
+        {
+          "letter": "D",
+          "text": "Salmonelosis"
+        },
+        {
+          "letter": "E",
+          "text": "Síndrome de intestino irritable postinfeccioso"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La hospitalización y los antibióticos del periparto (profilaxis o cesárea) son el principal factor de riesgo de Clostridioides difficile, que causa diarrea con fiebre, dolor cólico y a veces sangre. Se confirma con toxinas o PCR en deposiciones y se trata con vancomicina o fidaxomicina oral. Una gastroenteritis viral rara vez es disentérica.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Puérpera de cinco días, hospitalizada en el parto, con diarrea líquida con moco y sangre, cólicos y fiebre.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: Clostridioides difficile, gastroenteritis viral, colitis ulcerosa de novo, salmonelosis, o intestino irritable postinfeccioso. Piénsalo.",
+        "answer": "Es la A. La hospitalización y los antibióticos del parto son el gran factor de riesgo para Clostridioides difficile. La gastroenteritis viral es tentadora, pero casi nunca da diarrea con sangre."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2019 · Pregunta 178",
+      "stem": "Un paciente de 65 años estuvo hospitalizado por una neumonía y, al cuarto día después del alta, inicia dolor abdominal asociado a diarrea acuosa, malestar general e incontinencia fecal, que han ido empeorando en los 7 días siguientes. Al examen tiene abdomen distendido, doloroso a la palpación, sin signos de irritación peritoneal y con ruidos hidroaéreos aumentados.",
+      "question": "¿Cuál es el examen de elección para el estudio inicial de este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Colonoscopía"
+        },
+        {
+          "letter": "B",
+          "text": "Coprocultivo"
+        },
+        {
+          "letter": "C",
+          "text": "Recuento de leucocitos fecales"
+        },
+        {
+          "letter": "D",
+          "text": "Parasitológico de deposiciones"
+        },
+        {
+          "letter": "E",
+          "text": "Toxinas A y B de Clostridioides difficile en deposiciones"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Diarrea acuosa tras una hospitalización con antibióticos sugiere Clostridioides difficile. El estudio inicial es la detección de toxinas A y B o PCR en deposiciones, a menudo junto con GDH. El coprocultivo habitual no detecta toxinas y la colonoscopía se reserva para casos dudosos o graves. El tratamiento actual es vancomicina o fidaxomicina oral.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecinueve. Hombre de sesenta y cinco años que, días después del alta por una neumonía tratada con antibióticos, presenta diarrea acuosa y dolor abdominal.",
+        "question": "¿Qué examen pides?",
+        "options": "Las opciones: colonoscopía, coprocultivo, leucocitos fecales, parasitológico, o toxinas de Clostridioides difficile. Piénsalo.",
+        "answer": "Es la E. Toxinas A y B de Clostridioides difficile. El coprocultivo tienta, pero el cultivo habitual no busca este germen ni sus toxinas."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.1.002 · Constipación y fecalomas",
+      "stem": "Mujer de 86 años, postrada y usuaria de opioides por artrosis, es traída por \"diarrea\" de 5 días: escurrimiento de deposiciones líquidas en pequeña cantidad, con distensión y dolor abdominal leve. No elimina deposiciones formadas hace 10 días. Al tacto rectal se palpa una masa de deposiciones duras en la ampolla.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Loperamida"
+        },
+        {
+          "letter": "B",
+          "text": "Coprocultivo y ciprofloxacino"
+        },
+        {
+          "letter": "C",
+          "text": "Colonoscopía urgente"
+        },
+        {
+          "letter": "D",
+          "text": "Desimpactación (extracción manual y enemas) seguida de laxantes osmóticos"
+        },
+        {
+          "letter": "E",
+          "text": "Ayuno y suero endovenoso"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Es un fecaloma con diarrea por rebalse: el líquido escurre alrededor de la impactación. Se trata con desimpactación (extracción digital y enemas) y luego laxantes osmóticos regulares, revisando fármacos constipantes como los opioides. La loperamida empeoraría el cuadro y los antibióticos no tienen indicación.",
+      "say": {
+        "stem": "Mujer de ochenta y seis años, postrada y con opioides, con escurrimiento de deposiciones líquidas y una masa de heces duras al tacto rectal.",
+        "question": "¿Qué haces?",
+        "options": "Las opciones: loperamida, coprocultivo y antibiótico, colonoscopía urgente, desimpactación seguida de laxantes o ayuno con suero. Piénsalo.",
+        "answer": "Es la D. Es un fecaloma con diarrea por rebalse, así que se desimpacta y luego se dan laxantes. La loperamida parece lógica ante una diarrea, pero agravaría la impactación."
+      }
     },
 
     {

@@ -56,15 +56,18 @@ module.exports = {
         ] },
         { title: 'Manos y nódulos', tag: 'Examen físico', kind: 'criteria', items: [
           { t: 'Nódulos de Heberden en distales', d: 'Interfalángicas distales de las manos',
-            say: 'En las manos se forman nódulos óseos duros e indoloros: los nódulos de Heberden en las articulaciones interfalángicas distales.' },
+            say: 'En las manos se forman nódulos óseos duros e indoloros: los nódulos de Heberden en las articulaciones interfalángicas distales. Mira estas manos: los nódulos duros en la punta de los dedos son los de Heberden.',
+          photo: { src: 'biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_1__cto-reuma_p64.jpg', label: 'Nódulos de Heberden', at: 'Mira estas manos', credit: 'Manual CTO Reumatología 14.ª ed., p. 64' } },
           { t: 'Nódulos de Bouchard en proximales', d: 'Y rizartrosis en la base del pulgar',
-            say: 'Y los nódulos de Bouchard en las interfalángicas proximales. El compromiso de la primera carpometacarpiana o rizartrosis deforma la base del pulgar.' },
+            say: 'Y los nódulos de Bouchard en las interfalángicas proximales. El compromiso de la primera carpometacarpiana o rizartrosis deforma la base del pulgar. En esta otra mano se ven los nódulos de Bouchard, en la articulación del medio del dedo.',
+          photo: { src: 'biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_alt1__amir-reuma_p124.jpg', label: 'Nódulos de Bouchard', at: 'En esta otra mano', credit: 'Manual AMIR Reumatología, p. 124' } },
         ] },
         { title: 'Rodilla y cadera', tag: 'Grandes articulaciones', kind: 'alert', items: [
           { t: 'Gonartrosis con crepitación ósea', d: 'Crujido palpable al movilizar',
             say: 'En la rodilla destaca el crujido o crepitación palpable a la flexoextensión, con atrofia del cuádriceps.' },
           { t: 'Coxartrosis: dolor en la ingle', d: 'O referido hacia la rodilla',
-            say: 'En la cadera el dolor se ubica típicamente en la región inguinal y la cara anterior del muslo, limitando la rotación interna. Recuerda siempre que la cadera puede doler como una gonalgia referida.' },
+            say: 'En la cadera el dolor se ubica típicamente en la región inguinal y la cara anterior del muslo, limitando la rotación interna. Recuerda siempre que la cadera puede doler como una gonalgia referida. Mira esta radiografía de pelvis: la cadera derecha pinzada, con el hueso blanco y osteofitos.',
+          photo: { src: 'biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_2__cto-reuma_p64.jpg', label: 'Artrosis de cadera (pelvis)', at: 'Mira esta radiografía de pelvis', credit: 'Manual CTO Reumatología 14.ª ed., p. 64' } },
         ] },
       ],
     },
@@ -93,9 +96,14 @@ module.exports = {
         { show: ['rx'], note: 'Radiografía de pie',
           say: 'Para diagnosticar artrosis no necesitas resonancia ni exámenes sofisticados: la radiografía simple bilateral y en carga es el examen de elección.' },
         { show: ['pin', 'esc'], note: 'Pinzamiento y esclerosis',
-          say: 'Los primeros dos hallazgos son la disminución asimétrica del espacio articular por desgaste focal del cartílago, y la esclerosis subcondral, que se ve como una línea blanca densa en la zona de mayor presión.' },
+          say: 'Los primeros dos hallazgos son la disminución asimétrica del espacio articular por desgaste focal del cartílago, y la esclerosis subcondral, que se ve como una línea blanca densa en la zona de mayor presión. Mira esta rodilla: el espacio se angosta de un lado y el hueso bajo el cartílago se ve blanco. Y en esta otra, el mismo desgaste con más osteofitos.',
+          photos: [
+            { src: 'biblioteca/08_reumatologia/reuma-04/02_artrosis-de-rodilla-rx_1__amir-reuma_p124.jpg', label: 'Rodilla con artrosis', at: 'Mira esta rodilla', credit: 'Manual AMIR Reumatología, p. 124' },
+            { src: 'biblioteca/08_reumatologia/reuma-04/02_artrosis-de-rodilla-rx_alt1__cto-reuma_p64.jpg', label: 'Pinzamiento y osteofitos', at: 'Y en esta otra', credit: 'Manual CTO Reumatología 14.ª ed., p. 64' },
+          ] },
         { show: ['ost', 'geo'], note: 'Osteofitos y geodas',
-          say: 'Se suman los osteofitos en los bordes de la articulación y las geodas o quistes subcondrales en el hueso esponjoso.' },
+          say: 'Se suman los osteofitos en los bordes de la articulación y las geodas o quistes subcondrales en el hueso esponjoso. En esta cadera se ven los osteofitos en el borde y el hueso esclerótico bajo el cartílago.',
+          photo: { src: 'biblioteca/08_reumatologia/reuma-04/02_artrosis-de-rodilla-rx_2__amir-reuma_p124.jpg', label: 'Artrosis de cadera', at: 'En esta cadera', credit: 'Manual AMIR Reumatología, p. 124' } },
         { show: ['tra'], note: 'Lo que NO debe aparecer',
           say: 'Y fíjate en lo que nunca aparece: en la artrosis no hay osteopenia yuxtaarticular ni erosiones marginales en sacabocado. Si ves erosiones, estás frente a artritis reumatoide o microcristales.' },
       ],
@@ -163,40 +171,6 @@ module.exports = {
       steps: [
         { note: 'Cartílago que se gasta',
           say: 'En la rodilla sana, el cartílago cubre los cóndilos y el platillo. En la artrosis se gasta, sobre todo en el compartimento medial, y el espacio articular se estrecha. El hueso responde: crecen osteofitos en los bordes y el hueso bajo el cartílago se esclerosa.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Artrosis',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_1__cto-reuma_p64.jpg', label: 'Heberden y Bouchard', credit: 'Manual CTO Reumatología 14.ª ed., p. 64' },
-        { src: 'biblioteca/08_reumatologia/reuma-04/02_artrosis-de-rodilla-rx_1__amir-reuma_p124.jpg', label: 'Radiografía', credit: 'Manual AMIR Reumatología, p. 124' },
-      ],
-      steps: [
-        { note: 'Nódulos en interfalángicas',
-          say: 'Los nódulos de Heberden en las interfalángicas distales y de Bouchard en las proximales son típicos de la artrosis.' },
-        { note: 'Pinzamiento, osteofitos, esclerosis',
-          say: 'Y en la radiografía: pinzamiento del espacio articular, osteofitos y esclerosis del hueso bajo el cartílago.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_2__cto-reuma_p64.jpg', label: 'Artrosis de cadera (Rx de pelvis)', credit: 'Manual CTO Reumatología 14.ª ed., p. 64' },
-        { src: 'biblioteca/08_reumatologia/reuma-04/02_artrosis-de-rodilla-rx_2__amir-reuma_p124.jpg', label: 'Artrosis de cadera (Rx)', credit: 'Manual AMIR Reumatología, p. 124' },
-      ],
-      steps: [
-        { note: 'Artrosis de cadera (Rx de pelvis)',
-          say: 'Radiografía de pelvis con artrosis de cadera: pinzamiento del espacio articular, esclerosis y osteofitos.' },
-        { note: 'Artrosis de cadera (Rx)',
-          say: 'Otra artrosis de cadera: espacio articular estrecho y hueso subcondral esclerótico.' },
       ],
     },
 
@@ -311,6 +285,82 @@ module.exports = {
         options: 'Las opciones: ibuprofeno oral, pregabalina oral, ketorolaco oral, lidocaína en parches, o tramadol oral. Piénsalo.',
         answer: 'Es la E. Si bien los antiinflamatorios no esteroidales son la segunda línea analgésica tradicional, en un paciente con insuficiencia cardíaca en capacidad funcional tres están absolutamente contraindicados porque retienen sodio, elevan la presión y desencadenan edema pulmonar o falla renal. Por eso, el escalón correcto en este paciente frágil es un opioide débil como el tramadol.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.11.4.004 · Radiografía de columna y articulaciones",
+      "stem": "Mujer de 68 años con dolor mecánico de rodilla derecha de 3 años, rigidez matinal menor de 30 minutos y crépitos al examen. Se solicita radiografía de rodilla con carga.",
+      "question": "¿Cuál conjunto de hallazgos radiológicos es característico de la artrosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Disminución asimétrica del espacio articular, osteofitos, esclerosis subcondral y quistes subcondrales"
+        },
+        {
+          "letter": "B",
+          "text": "Osteopenia yuxtaarticular, disminución simétrica del espacio y erosiones marginales"
+        },
+        {
+          "letter": "C",
+          "text": "Erosiones en sacabocado con borde sobresaliente"
+        },
+        {
+          "letter": "D",
+          "text": "Calcificación lineal del cartílago sin otros cambios"
+        },
+        {
+          "letter": "E",
+          "text": "Reacción perióstica en capas de cebolla"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La radiografía con carga es el examen de imagen inicial en la artrosis: muestra disminución asimétrica del espacio articular, osteofitos, esclerosis y quistes subcondrales. La osteopenia yuxtaarticular con erosiones marginales y estrechamiento simétrico es propia de la artritis reumatoide; las erosiones en sacabocado, de la gota, y la condrocalcinosis, de la pseudogota.",
+      "say": {
+        "stem": "Mujer de sesenta y ocho años con dolor mecánico de rodilla, rigidez breve y crépitos. Pides una radiografía con carga.",
+        "question": "¿Qué hallazgos son característicos de artrosis?",
+        "options": "Las opciones: pinzamiento asimétrico con osteofitos, esclerosis y quistes subcondrales, osteopenia con erosiones marginales, erosiones en sacabocado, calcificación del cartílago, o reacción perióstica en capas de cebolla. Piénsalo.",
+        "answer": "Es la A. Pinzamiento asimétrico, osteofitos, esclerosis y quistes subcondrales. La osteopenia con erosiones marginales es la trampa: corresponde a artritis reumatoide."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.3.003 · Factores de riesgo de artrosis",
+      "stem": "Mujer de 62 años consulta por dolor mecánico de ambas rodillas de 2 años de evolución, rigidez matinal menor de 30 minutos y crujidos. IMC 34 kg/m2. Trabajó 30 años como empleada doméstica. Su madre tuvo artrosis de rodillas.",
+      "question": "¿Cuál de sus factores de riesgo de artrosis de rodilla es modificable y su intervención tiene mayor impacto en los síntomas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sexo femenino"
+        },
+        {
+          "letter": "B",
+          "text": "Obesidad"
+        },
+        {
+          "letter": "C",
+          "text": "Edad mayor de 60 años"
+        },
+        {
+          "letter": "D",
+          "text": "Antecedente familiar de artrosis"
+        },
+        {
+          "letter": "E",
+          "text": "Antecedente laboral"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La obesidad es el principal factor de riesgo modificable de artrosis de rodilla: aumenta la carga articular y tiene efecto inflamatorio. Bajar al menos 5% a 10% del peso, junto con ejercicio de fortalecimiento de cuádriceps, reduce dolor y mejora función. Edad, sexo y genética no son modificables.",
+      "say": {
+        "stem": "Mujer de sesenta y dos años con artrosis de ambas rodillas, obesidad, trabajo físico prolongado y madre con artrosis.",
+        "question": "¿Cuál de sus factores de riesgo es modificable y su intervención más mejora los síntomas?",
+        "options": "Las opciones: sexo femenino, obesidad, edad, antecedente familiar o antecedente laboral. Piénsalo.",
+        "answer": "Es la B. Es la obesidad: bajar de peso reduce la carga sobre la rodilla y mejora el dolor. El antecedente laboral tienta, pero ya ocurrió y su modificación ahora tiene mucho menor impacto que el peso."
+      }
     },
 
     {

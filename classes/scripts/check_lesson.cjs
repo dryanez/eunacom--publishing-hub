@@ -33,6 +33,24 @@ function check(id) {
     if (t.split(/\s+/).length > 80) warns.push(`${where}: say de ${t.split(/\s+/).length} palabras (dividir)`);
   };
 
+  // fotos en contexto: photo: { src, label, at?, credit } o photos: [..] (máx. 2) en un ítem, paso o fila
+  const MEDIA_DIR = path.join(ROOT, 'classes', 'media');
+  const photos = (where, it) => {
+    if (!it || (!it.photo && !it.photos)) return;
+    if (it.photo && it.photos) errors.push(`${where}: usar photo o photos, no ambos`);
+    const L = it.photos || [it.photo];
+    if (!Array.isArray(L) || !L.length) { errors.push(`${where}: photos debe ser una lista`); return; }
+    if (L.length > 2) errors.push(`${where}: máximo 2 fotos por ítem`);
+    L.forEach(p => {
+      if (!p || !p.src || !fs.existsSync(path.join(MEDIA_DIR, p.src))) errors.push(`${where}: falta la foto classes/media/${p && p.src}`);
+      else if (/\.(mp4|webm)$/i.test(p.src)) errors.push(`${where}: photo es solo para imágenes fijas (${p.src})`);
+      if (!p || !p.label) warns.push(`${where}: foto sin rótulo (label)`);
+      else if (p.label.length > 28) warns.push(`${where}: rótulo largo "${p.label}" (máx. ~28 caracteres)`);
+      if (p && !p.credit) warns.push(`${where}: foto sin crédito (${p.src})`);
+      if (p && typeof p.at === 'string' && !(it.say || '').includes(p.at)) errors.push(`${where}: at "${p.at}" no aparece en el say`);
+      if (p && typeof p.at === 'number' && (p.at < 0 || p.at > 0.9)) errors.push(`${where}: at debe ir entre 0 y 0,9`);
+    });
+  };
   const slides = lesson.slides || [];
   if (slides[0]?.type !== 'cover') errors.push('la primera diapositiva debe ser cover');
   if (slides.at(-1)?.type !== 'points') errors.push('la última diapositiva debe ser points (cierre)');
@@ -44,9 +62,12 @@ function check(id) {
       const ids = new Set((s.nodes || []).map(n => n.id));
       (s.nodes || []).forEach(n => { if (!FLOW_K.has(n.k)) errors.push(`${w}: k inválido "${n.k}"`); if (n.col > 4 || n.row > 4) errors.push(`${w}: nodo ${n.id} fuera de la grilla 5×5`); });
       (s.edges || []).forEach(e => { if (!ids.has(e.from) || !ids.has(e.to)) errors.push(`${w}: arista a nodo inexistente ${e.from}→${e.to}`); });
-      (s.steps || []).forEach((st, j) => { st.show.forEach(x => { if (!ids.has(x)) errors.push(`${w}: paso ${j + 1} muestra nodo inexistente ${x}`); }); say(`${w} paso ${j + 1}`, st.say); });
+      (s.steps || []).forEach((st, j) => { st.show.forEach(x => { if (!ids.has(x)) errors.push(`${w}: paso ${j + 1} muestra nodo inexistente ${x}`); }); say(`${w} paso ${j + 1}`, st.say); photos(`${w} paso ${j + 1}`, st); });
     } else if (s.type === 'points') {
-      (s.cards || []).forEach(c => { if (!CARD_KIND.has(c.kind)) errors.push(`${w}: kind inválido "${c.kind}"`); c.items.forEach((it, j) => say(`${w} ${c.title} ${j + 1}`, it.say)); });
+      (s.cards || []).forEach(c => { if (!CARD_KIND.has(c.kind)) errors.push(`${w}: kind inválido "${c.kind}"`); c.items.forEach((it, j) => { say(`${w} ${c.title} ${j + 1}`, it.say); photos(`${w} ${c.title} ${j + 1}`, it); }); });
+      const np = (s.cards || []).flatMap(c => c.items).reduce((n, it) => n + (it.photos || (it.photo ? [1] : [])).length, 0);
+      if (np > 3) errors.push(`${w}: máximo 3 fotos en contexto por diapositiva`);
+      if (np && (s.cards || []).length > 3) warns.push(`${w}: fotos en contexto con más de 3 tarjetas (queda estrecho)`);
     } else if (s.type === 'pathway') {
       pathways++;
       const pw = lesson.pathway || PATHWAYS[id];
@@ -57,7 +78,7 @@ function check(id) {
         (n.kids || []).forEach(([, c]) => walk(c, d + 1));
       })(pw.root, 0);
     } else if (s.type === 'table') {
-      (s.rows || []).forEach((r, j) => { if (r.cells.length !== s.head.length || s.head.length < 2 || s.head.length > 4) errors.push(`${w}: fila ${j + 1} con ${r.cells.length} celdas`); say(`${w} fila ${j + 1}`, r.say); });
+      (s.rows || []).forEach((r, j) => { if (r.cells.length !== s.head.length || s.head.length < 2 || s.head.length > 4) errors.push(`${w}: fila ${j + 1} con ${r.cells.length} celdas`); say(`${w} fila ${j + 1}`, r.say); photos(`${w} fila ${j + 1}`, r); });
     } else if (s.type === 'quiz') {
       if ((s.options || []).length !== 5) errors.push(`${w}: debe tener 5 alternativas`);
       if (!(s.options || []).some(o => o.letter === s.correct)) errors.push(`${w}: correct "${s.correct}" no está en las alternativas`);

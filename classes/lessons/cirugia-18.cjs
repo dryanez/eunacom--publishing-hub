@@ -10,7 +10,55 @@ module.exports = {
     {
       type: 'cover',
       subtitle: 'Qué heridas se suturan, cuáles no, y quién necesita la vacuna del tétanos',
-      say: 'Bienvenido a la última clase de cirugía. Terminamos con las heridas traumáticas y las mordeduras, un tema que se pregunta casi siempre con el mismo formato: te dan una herida y un estado de vacunación, y tienes que decidir vacuna, inmunoglobulina, o las dos. Aquí no hay que memorizar mil casos, hay dos preguntas que ordenan todo, y hoy te las voy a dejar bien claras, junto con lo que cambia cuando la herida es una mordedura.',
+      say: 'Bienvenido a la última clase de cirugía. Terminamos con las heridas traumáticas y las mordeduras. Primero, cómo se maneja y se sutura una herida menor. Y después, un formato que el examen repite: te dan una herida y un estado de vacunación, y decides vacuna, inmunoglobulina, o las dos. Dos preguntas ordenan todo, y te las dejo claras.',
+    },
+
+    {
+      type: 'points',
+      kicker: 'Herida menor',
+      title: 'Irrigar, explorar y decidir si se cierra',
+      cards: [
+        { title: 'Contusión', tag: 'Sin herida abierta', kind: 'normal', items: [
+          { t: 'Reposo, hielo, compresión, elevación', d: 'Hielo 15 a 20 min cada 2 a 3 h por 48 h',
+            say: 'Empecemos por lo simple. En una contusión se indican reposo, hielo de quince a veinte minutos cada dos o tres horas durante las primeras cuarenta y ocho horas, compresión, elevación y analgesia.' },
+        ] },
+        { title: 'Herida menor', tag: 'Nivel completo', kind: 'key', items: [
+          { t: 'Anestesiar e irrigar a presión', d: 'Suero fisiológico; desbridar lo mínimo',
+            say: 'En la herida abierta, primero preguntas mecanismo, hora y vacunación, anestesias, controlas la hemostasia, e irrigas abundantemente con suero fisiológico a presión. Exploras y desbridas solo lo mínimo necesario.' },
+          { t: 'Limpia y reciente: se cierra', d: 'Antes de 6 a 8 h; en la cara hasta 24 h',
+            say: 'Se cierra de inmediato si es limpia y reciente, idealmente antes de seis a ocho horas; en la cara, hasta veinticuatro horas.' },
+          { t: 'Sucia, punzante o mordedura: abierta', d: 'Cierre diferido a los 3 a 5 días',
+            say: 'Las heridas sucias, antiguas, punzantes o por mordedura no se suturan: se dejan abiertas y se cierran de forma diferida a los tres a cinco días si no hay infección. Y no se dan antibióticos profilácticos de rutina.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Técnica',
+      title: 'Sutura, retiro de puntos y hemostasia',
+      cards: [
+        { title: 'Sutura', tag: 'Nivel realizar', kind: 'key', items: [
+          { t: 'Hilo según el plano y la zona', d: 'Piel: no reabsorbible; profundo: reabsorbible',
+            say: 'En la piel se usan hilos no reabsorbibles monofilamento, como nylon o polipropileno, y en los planos profundos, reabsorbibles, para eliminar el espacio muerto. El calibre depende de la zona: hilo fino, cinco ceros o seis ceros, en la cara, y tres ceros o cuatro ceros en tronco y extremidades.' },
+          { t: 'Punto simple con eversión', d: 'A 0,5-1 cm del borde; nudo cuadrado',
+            say: 'En el punto simple la aguja entra perpendicular, a medio o un centímetro del borde, y sale simétrica, logrando eversión de los bordes. Se anuda con nudo cuadrado sin estrangular, con el nudo a un lado de la herida.' },
+        ] },
+        { title: 'Retiro de puntos', tag: 'Se pregunta', kind: 'criteria', items: [
+          { t: 'Cara: 3 a 5 días', d: 'Cuero cabelludo: 7 días',
+            say: 'El retiro de puntos depende de la zona. En la cara, a los tres a cinco días; en el cuero cabelludo, a los siete.' },
+          { t: 'Tronco: 7 a 10 días', d: 'Extremidades y manos: 10 a 14 días',
+            say: 'En el tronco, de siete a diez días, y en extremidades y manos, de diez a catorce, con más tiempo sobre las articulaciones.' },
+        ] },
+        { title: 'Hemostasia', tag: 'Nivel realizar', kind: 'alert', items: [
+          { t: 'Presión directa 10 a 15 minutos', d: 'Y elevar el miembro',
+            say: 'Para la hemostasia, la primera medida es la presión directa firme con una compresa, diez a quince minutos, y elevar el miembro.' },
+          { t: 'Torniquete si es exanguinante', d: '5 a 7 cm sobre la herida; anotar la hora',
+            say: 'Si fracasa, o es una hemorragia exanguinante de extremidad, se coloca un torniquete cinco a siete centímetros sobre la herida, anotando la hora, y solo se retira en pabellón.' },
+          { t: 'Ligadura bajo visión', d: 'Nunca pinzar a ciegas: nervios',
+            say: 'Y para ligar, identificas el vaso bajo visión. Nunca pinzas a ciegas en el fondo de la herida, por el riesgo de lesionar nervios en el cuello, la axila o la mano.' },
+        ] },
+      ],
     },
 
     {
@@ -74,9 +122,11 @@ module.exports = {
       cards: [
         { title: 'Quién muerde qué', tag: 'Distintos gérmenes', kind: 'normal', items: [
           { t: 'Gato: colmillos finos', d: 'Inoculan Pasteurella muy profundo',
-            say: 'Las mordeduras cambian según quién muerde, y eso llega a tener hasta la mitad de riesgo de infección de una a otra. El gato tiene colmillos finos que actúan como agujas, e inoculan la Pasteurella muy profundo, en tendones y hueso: es la que más se infecta de las tres.' },
+            say: 'Las mordeduras cambian según quién muerde, y eso llega a tener hasta la mitad de riesgo de infección de una a otra. El gato tiene colmillos finos que actúan como agujas, e inoculan la Pasteurella muy profundo, en tendones y hueso: es la que más se infecta de las tres. Mira esta mano: una punción pequeña, y sin embargo ya hinchada y enrojecida por la infección.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-18/atlas_358_mordedura_gato_mano.jpg', label: 'Mordedura de gato infectada', at: 'Mira esta mano', credit: 'Open-i (NLM), CC BY' } },
           { t: 'Perro: desgarro y aplastamiento', d: 'Más daño de tejido, menos infección',
-            say: 'El perro produce más desgarro y aplastamiento del tejido, con gérmenes distintos, pero se infecta un poco menos que la del gato, porque sus colmillos no penetran tan profundo.' },
+            say: 'El perro produce más desgarro y aplastamiento del tejido, con gérmenes distintos, pero se infecta un poco menos que la del gato, porque sus colmillos no penetran tan profundo. Esta mordedura de perro en la cara de un niño muestra lo grave que puede ser el desgarro.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-18/01_mordedura_perro__bailey_p48.jpg', label: 'Mordedura de perro', at: 'Esta mordedura de perro', credit: 'Bailey & Love 27.ª ed., Fig. 3.4' } },
           { t: 'Humana: la más agresiva', d: 'Flora oral con Eikenella',
             say: 'Y la mordedura humana es la más agresiva de todas, por su flora oral rica en Eikenella y anaerobios, sobre todo cuando es en la mano, con el puño cerrado contra un diente.' },
         ] },
@@ -101,26 +151,59 @@ module.exports = {
             say: 'Dijimos que la mordedura no se sutura, pero hay una excepción: la herida facial extensa, donde el resultado estético importa mucho.' },
           { t: 'Lavado masivo primero', d: 'Y cobertura antibiótica estricta',
             say: 'Ahí se puede cerrar en forma laxa, pero solo después de un lavado quirúrgico masivo, y con cobertura antibiótica estricta desde el inicio.' },
+          { t: 'Buscar lesiones asociadas', d: 'Nervio facial, conducto de Stenon, párpado',
+            say: 'En cualquier herida profunda de la cara, busca lesiones asociadas: nervio facial y conducto de Stenon en la mejilla, fracturas, el canalículo lagrimal o el párpado, y hematoma septal o auricular. Se derivan las que tienen lesión nerviosa o de conductos, pérdida de tejido o compromiso del borde labial o palpebral.' },
         ] },
         { title: 'Profilaxis antirrábica', tag: 'Depende del animal', kind: 'key', items: [
           { t: 'Perro observable diez días', d: 'Se espera antes de vacunar',
             say: 'Y sobre la rabia: si el perro que muerde se puede observar por diez días y se mantiene sano, no necesitas vacunar.' },
           { t: 'Animal no ubicable o silvestre', d: 'Vacunas de inmediato, sin esperar',
             say: 'Pero si es un animal silvestre, un murciélago, o simplemente no lo puedes ubicar para observarlo, vacunas de inmediato, sin esperar ningún plazo.' },
+          { t: 'Lavar 10 a 15 minutos y notificar', d: 'Agua y jabón; el reservorio es el murciélago',
+            say: 'En todos los casos, lavas la herida de inmediato con abundante agua y jabón, al menos diez a quince minutos, y notificas. En Chile, el reservorio es sobre todo el murciélago.' },
+          { t: 'Vacuna: días 0, 3, 7 y 14', d: 'Exposición grave: más inmunoglobulina',
+            say: 'La profilaxis es con vacuna antirrábica de cultivo celular, cuatro dosis intramusculares, en los días cero, tres, siete y catorce. Si la exposición es grave, en cabeza, cuello, mucosas, mordeduras múltiples o por murciélago, se suma inmunoglobulina antirrábica humana, veinte unidades por kilo, infiltrada en la herida y el resto por vía intramuscular.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Mano y cicatrices',
+      title: 'Herida de la mano y cicatrices viciosas',
+      cards: [
+        { title: 'Herida de la mano', tag: 'Nivel completo', kind: 'key', items: [
+          { t: 'Examinar antes de anestesiar', d: 'Sensibilidad, tendón flexor y perfusión',
+            say: 'Antes de anestesiar una herida de la mano, examinas la sensibilidad con discriminación de dos puntos, la función de los tendones flexores flexionando las interfalángicas, y la perfusión. Si no, no sabrás qué estaba dañado antes de tocarla.' },
+          { t: 'Complicada: se deriva', d: 'Tendón, nervio, vasos, fractura expuesta',
+            say: 'Son complicadas, y se derivan, las que tienen sección de tendón, de nervio digital o de vasos, fractura expuesta, aplastamiento, inyección a presión o amputación. Mira esta herida avulsiva de la mano: bordes irregulares y pérdida de tejido, un ejemplo de herida complicada.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-18/06_herida-avulsiva-mano__bailey-love_p047.jpg', label: 'Herida avulsiva de la mano', at: 'Mira esta herida avulsiva', credit: 'Bailey & Love 27.ª ed., p. 47' } },
+          { t: 'Parte amputada: gasa, bolsa, hielo', d: 'Sin contacto directo con el hielo',
+            say: 'La parte amputada se envuelve en gasa húmeda con suero, se pone en una bolsa, y esa bolsa va sobre hielo, nunca en contacto directo con el hielo.' },
+          { t: 'Herida sobre los nudillos', d: 'Mordedura humana hasta demostrar lo contrario',
+            say: 'Y una trampa clásica: una herida sobre los nudillos tras un golpe de puño es una mordedura humana hasta demostrar lo contrario. Se trata abierta, con amoxicilina más ácido clavulánico.' },
+        ] },
+        { title: 'Cicatrices viciosas', tag: 'Sospechar y derivar', kind: 'normal', items: [
+          { t: 'Hipertrófica o queloide', d: 'El queloide sobrepasa el borde y no regresa',
+            say: 'Las cicatrices viciosas son las anormales. La hipertrófica es elevada pero se limita a la herida; el queloide sobrepasa el borde y no regresa. Mira este queloide del lóbulo de la oreja tras una perforación.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-18/05_queloide-lobulo__nelson_p5268.jpg', label: 'Queloide del lóbulo', at: 'Mira este queloide', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 5268' } },
+          { t: 'Prevención y tratamiento', d: 'Cierre sin tensión; silicona; corticoide',
+            say: 'Se favorecen por tensión, infección, cierre por segunda intención y localización, como el esternón. Se previenen con buen aseo y cierre sin tensión; el tratamiento incluye láminas de silicona, presoterapia y corticoide intralesional, y plastía en Z en las contracturas. La escisión simple de un queloide recidiva, así que se deriva.' },
         ] },
       ],
     },
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Mordeduras',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Las dos preguntas del tétanos',
       images: [
-        { src: 'biblioteca/10_cirugia/cirugia-18/01_mordedura_perro__bailey_p48.jpg', label: 'Mordedura de perro', credit: 'Bailey & Love 27.ª ed., Fig. 3.4' },
+        { src: 'animaciones/cirugia-18/A1_tetanos_decision.mp4', label: 'Esquema previo y tipo de herida', credit: 'Gráfico propio · Animación propia' },
       ],
       steps: [
-        { note: 'Lavar, evaluar profilaxis',
-          say: 'Esta mordedura de perro en la cara de un niño muestra lo grave que puede ser. Se lava con abundante agua y se evalúa la profilaxis antirrábica y antitetánica.' },
+        { note: 'Dosis previas y tipo de herida',
+          say: 'Mira cómo se arma la decisión. Primero, las dosis previas: con esquema completo hay memoria inmunológica, y con esquema incompleto o desconocido no la hay. Después, el tipo de herida. Solo cuando no hay memoria y la herida es sucia aparecen juntas la vacuna y la inmunoglobulina.' },
       ],
     },
 
@@ -193,6 +276,268 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.3.002 · Mordeduras de animales",
+      "stem": "Hombre de 30 años es mordido en el dorso de la mano por su perro, que está vacunado y es observable. Consulta 3 horas después con dos heridas punzantes de 0,5 cm, sin compromiso tendíneo. Tiene esquema antitetánico completo, con refuerzo hace 3 años.",
+      "question": "Además del aseo profuso de la herida, ¿cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sutura primaria de las heridas y alta sin antibióticos"
+        },
+        {
+          "letter": "B",
+          "text": "Vacunación antirrábica inmediata"
+        },
+        {
+          "letter": "C",
+          "text": "Dejar las heridas abiertas, indicar amoxicilina con ácido clavulánico profiláctica y observar al perro por 10 días"
+        },
+        {
+          "letter": "D",
+          "text": "Cefadroxilo oral y cierre con adhesivo tisular"
+        },
+        {
+          "letter": "E",
+          "text": "Inmunoglobulina antitetánica y vacuna antitetánica"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Las mordeduras en la mano y las heridas punzantes tienen alto riesgo de infección, por lo que no se suturan y se indica amoxicilina con ácido clavulánico, que cubre Pasteurella y anaerobios. Con un perro vacunado y observable no se vacuna contra la rabia: se observa al animal 10 días. Con refuerzo antitetánico hace 3 años no requiere profilaxis.",
+      "say": {
+        "stem": "Hombre de treinta años mordido en el dorso de la mano por su propio perro, vacunado y observable. Consulta a las tres horas con dos heridas punzantes pequeñas, sin lesión de tendones. Su último refuerzo antitetánico fue hace tres años.",
+        "question": "Además del aseo profuso, ¿cuál es la conducta más adecuada?",
+        "options": "Las opciones: suturar y dar el alta sin antibióticos, vacuna antirrábica inmediata, dejar abiertas con amoxicilina clavulánico y observar al perro diez días, cefadroxilo con adhesivo, o inmunoglobulina y vacuna antitetánica. Piénsalo.",
+        "answer": "Es la C. Mano y herida punzante son alto riesgo de infección, así que no se cierran y se cubren con amoxicilina con clavulánico. La vacuna antirrábica tienta, pero con un perro conocido, vacunado y observable basta con vigilarlo diez días."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.2.025 · Heridas y contusiones menores",
+      "stem": "Hombre de 40 años consulta por una herida cortante de 5 cm en la pierna, producida con un vidrio sucio hace 20 horas. Los bordes están levemente eritematosos, con restos de tierra, sin compromiso de estructuras profundas. Tiene esquema antitetánico completo con refuerzo hace 2 años.",
+      "question": "¿Cuál es el manejo más adecuado de la herida?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sutura primaria inmediata tras un aseo breve"
+        },
+        {
+          "letter": "B",
+          "text": "Antibiótico oral y sutura primaria"
+        },
+        {
+          "letter": "C",
+          "text": "Cierre con adhesivo tisular"
+        },
+        {
+          "letter": "D",
+          "text": "Aseo quirúrgico con debridamiento, no cerrar en forma primaria, curaciones y cierre diferido o por segunda intención"
+        },
+        {
+          "letter": "E",
+          "text": "Vendaje compresivo sin aseo"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Una herida contaminada y de más de 12 a 24 horas de evolución, en zona no facial, tiene alto riesgo de infección si se cierra primariamente. Se realiza aseo profuso y debridamiento, se deja abierta con curaciones y se cierra en forma diferida o por segunda intención.",
+      "say": {
+        "stem": "Hombre de cuarenta años con una herida cortante de cinco centímetros en la pierna, hecha con un vidrio sucio hace veinte horas. Los bordes están algo rojos y con tierra, sin lesión profunda. Su refuerzo antitetánico fue hace dos años.",
+        "question": "¿Cuál es el manejo más adecuado de la herida?",
+        "options": "Las opciones: sutura primaria tras un aseo breve, antibiótico con sutura, adhesivo tisular, aseo con debridamiento sin cierre primario o vendaje sin aseo. Piénsalo.",
+        "answer": "Es la D. Contaminada y con veinte horas, esta herida no se cierra de entrada: aseo, debridamiento, curaciones y cierre diferido. Suturarla tienta para que quede estética, pero encerrar bacterias en una herida vieja y sucia es la receta para un absceso."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.5.009 · Curación de heridas, sutura y aseo",
+      "stem": "Mujer de 25 años con una herida cortante limpia de 2 cm en la mejilla, producida hace 2 horas, que se sutura con puntos simples de material no absorbible fino.",
+      "question": "¿En cuántos días se deben retirar los puntos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Entre 5 y 7 días"
+        },
+        {
+          "letter": "B",
+          "text": "Entre 10 y 12 días"
+        },
+        {
+          "letter": "C",
+          "text": "Entre 14 y 21 días"
+        },
+        {
+          "letter": "D",
+          "text": "A los 30 días"
+        },
+        {
+          "letter": "E",
+          "text": "No se retiran porque se reabsorben"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En la cara, por su excelente irrigación, los puntos se retiran a los 5 a 7 días, lo que evita las marcas de los puntos. El cuero cabelludo se retira a los 7 a 10 días, el tronco y las extremidades entre 10 y 14, y sobre articulaciones hasta 14 días. El material no absorbible sí debe retirarse.",
+      "say": {
+        "stem": "Mujer de veinticinco años con una herida limpia de dos centímetros en la mejilla, de dos horas, suturada con puntos simples de material fino no absorbible.",
+        "question": "¿En cuántos días se deben retirar los puntos?",
+        "options": "Las opciones: cinco a siete días, diez a doce, catorce a veintiuno, treinta días, o no se retiran. Piénsalo.",
+        "answer": "Es la A. La cara cicatriza rápido por su gran irrigación, y retirar a los cinco a siete días evita las marcas de los puntos. Diez a doce días tienta porque es lo habitual en tronco y extremidades, pero en la cara deja cicatriz en riel."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.057 · Cicatrices viciosas",
+      "stem": "Mujer de 20 años consulta por una lesión firme, brillante y pruriginosa en el lóbulo de la oreja izquierda, que apareció 4 meses después de una perforación para aros y ha seguido creciendo, sobrepasando los límites de la herida original.",
+      "question": "¿Cuál es el tratamiento inicial más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Resección quirúrgica simple aislada"
+        },
+        {
+          "letter": "B",
+          "text": "Infiltración intralesional de corticoides"
+        },
+        {
+          "letter": "C",
+          "text": "Crema antibiótica"
+        },
+        {
+          "letter": "D",
+          "text": "Observación, porque regresa espontáneamente"
+        },
+        {
+          "letter": "E",
+          "text": "Radioterapia exclusiva"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Una cicatriz que crece más allá de los bordes de la herida original y no regresa es un queloide; la cicatriz hipertrófica se limita a la herida y tiende a mejorar. El tratamiento inicial es la infiltración intralesional de corticoides, asociada a presoterapia o láminas de silicona. La resección aislada tiene una recurrencia muy alta.",
+      "say": {
+        "stem": "Mujer de veinte años con una lesión firme, brillante y con picazón en el lóbulo de la oreja, que apareció cuatro meses después de perforarse para un aro y sigue creciendo más allá de la herida original.",
+        "question": "¿Cuál es el tratamiento inicial más adecuado?",
+        "options": "Las opciones: resección simple, infiltración de corticoides en la lesión, crema antibiótica, observar, o radioterapia sola. Piénsalo.",
+        "answer": "Es la B. Si sobrepasa los bordes de la herida es un queloide, y se parte con corticoides inyectados en la lesión. Resecarlo tienta porque parece lo más definitivo, pero la cirugía sola hace que reaparezca casi siempre, a menudo más grande."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.2.014 · Heridas de cara",
+      "stem": "Hombre de 25 años consulta 2 horas después de una caída en bicicleta con una herida cortante limpia de 2 cm en el labio superior, que cruza el borde bermellón. No hay compromiso dentario ni otras lesiones.",
+      "question": "¿Cuál es el paso más importante en la reparación de esta herida?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dejar cicatrizar por segunda intención"
+        },
+        {
+          "letter": "B",
+          "text": "Colocar el primer punto alineando exactamente el borde bermellón"
+        },
+        {
+          "letter": "C",
+          "text": "Afrontar con cianoacrilato"
+        },
+        {
+          "letter": "D",
+          "text": "Suturar solo la mucosa con material reabsorbible"
+        },
+        {
+          "letter": "E",
+          "text": "Diferir la sutura 72 horas para disminuir el riesgo de infección"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En las heridas de cara que cruzan el borde bermellón, el primer punto debe alinear exactamente la unión cutáneo-mucosa, porque un desnivel de apenas 1 mm produce una deformidad visible. La cara tiene excelente irrigación, por lo que estas heridas pueden suturarse en forma primaria incluso hasta 24 horas o más.",
+      "say": {
+        "stem": "Hombre de veinticinco años que, dos horas después de caer en bicicleta, tiene una herida cortante limpia de dos centímetros en el labio superior que cruza el borde bermellón.",
+        "question": "¿Cuál es el paso más importante en la reparación?",
+        "options": "Las opciones: dejar cicatrizar por segunda intención, primer punto alineando el bermellón, cianoacrilato, suturar solo la mucosa o diferir la sutura tres días. Piénsalo.",
+        "answer": "Es la B. Cuando una herida cruza el bermellón, el primer punto va justo en ese borde, porque un desnivel mínimo deja un escalón visible en el labio. Diferir la sutura tienta para evitar infección, pero la cara está tan bien irrigada que se cierra en forma primaria sin problema."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 30",
+      "stem": "Hombre de 28 años sufre un accidente con un vidrio y resulta con una herida cortante de 10 cm en el muslo izquierdo, que sangra profusamente.",
+      "question": "¿Cuál es la mejor forma de manejar inicialmente la hemorragia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aplicación de torniquete"
+        },
+        {
+          "letter": "B",
+          "text": "Compresión directa de la herida"
+        },
+        {
+          "letter": "C",
+          "text": "Identificar y ligar el vaso sangrante"
+        },
+        {
+          "letter": "D",
+          "text": "Compresión de la arteria femoral"
+        },
+        {
+          "letter": "E",
+          "text": "Cubrir la herida con apósitos"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La primera medida para controlar la hemorragia externa es la compresión directa y sostenida sobre la herida, que controla la gran mayoría de los sangrados. El torniquete se reserva para hemorragias de extremidades que no ceden con compresión directa o amenazan la vida. Pinzar o ligar vasos a ciegas en urgencia puede dañar nervios y estructuras vecinas.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Hombre de veintiocho años con una herida cortante de diez centímetros en el muslo izquierdo, hecha con un vidrio, que sangra profusamente.",
+        "question": "¿Cuál es la mejor forma de manejar inicialmente la hemorragia?",
+        "options": "Las opciones: torniquete, compresión directa de la herida, ligar el vaso sangrante, comprimir la arteria femoral, o cubrir con apósitos. Piénsalo.",
+        "answer": "Es la B. Lo primero frente a cualquier hemorragia externa es la compresión directa y sostenida, que controla casi todos los sangrados. El torniquete tienta porque el sangrado es profuso, pero se reserva para cuando la compresión fracasa."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.2.009 · Heridas de la mano no complicadas",
+      "stem": "Hombre de 30 años se corta la palma de la mano con un cuchillo de cocina hace 2 horas. Herida lineal limpia de 2 cm en la eminencia tenar, sangrado controlado con compresión. La flexión y extensión de todos los dedos contra resistencia es normal, la sensibilidad de los pulpejos (discriminación de 2 puntos) está conservada y el llene capilar es normal. Vacuna antitetánica completa hace 4 años.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vacuna antitetánica y gammaglobulina antitetánica"
+        },
+        {
+          "letter": "B",
+          "text": "Derivar a cirugía de mano para exploración en pabellón"
+        },
+        {
+          "letter": "C",
+          "text": "Dejar la herida abierta para cierre por segunda intención"
+        },
+        {
+          "letter": "D",
+          "text": "Cierre con puntos y cefazolina oral por 7 días"
+        },
+        {
+          "letter": "E",
+          "text": "Aseo, exploración bajo anestesia local y sutura con puntos simples de nylon"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Una herida limpia de la mano, reciente, con tendones, nervios digitales y perfusión indemnes es una herida no complicada: se maneja en urgencia con aseo, exploración bajo anestesia local y sutura. No requiere antibióticos. Con vacuna completa hace menos de 5 años no necesita refuerzo antitetánico.",
+      "say": {
+        "stem": "Hombre de treinta años con un corte limpio de dos centímetros en la palma, de dos horas. La función de los tendones, la sensibilidad de los dedos y la perfusión son normales, y tiene la vacuna antitetánica al día.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: vacuna con gammaglobulina, derivar a cirugía de mano, cierre por segunda intención, sutura con antibiótico o aseo y sutura en urgencia. Piénsalo.",
+        "answer": "Es la E. Con tendones, nervios y perfusión indemnes, es una herida no complicada que se asea, explora y sutura en urgencia. Derivar a cirugía de mano tienta, pero se reserva para lesión tendinosa, nerviosa o vascular."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -202,6 +547,12 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Todo se decide con dos preguntas: cuántas dosis previas tiene, y si la herida es limpia o sucia.' },
           { t: 'Inmunoglobulina solo si es incompleto', d: 'Y la herida es sucia',
             say: 'La inmunoglobulina solo entra si el esquema es incompleto y además la herida es sucia. Con esquema completo, nunca la necesitas.' },
+        ] },
+        { title: 'Antes de suturar', tag: 'Cerrar o no cerrar', kind: 'normal', items: [
+          { t: 'Limpia y reciente: se cierra', d: 'Sucia, punzante o mordedura: abierta',
+            say: 'Antes de suturar, irriga a presión. Se cierra la herida limpia y reciente; la sucia, la punzante y la mordedura se dejan abiertas y se cierran diferido.' },
+          { t: 'Presión, torniquete, ligadura a la vista', d: 'Nunca pinzar a ciegas',
+            say: 'Y si sangra: presión directa, torniquete si es exanguinante y ligadura siempre bajo visión.' },
         ] },
         { title: 'Mordeduras', tag: 'No se suturan', kind: 'alert', items: [
           { t: 'Lavado a presión, sin sutura', d: 'Amoxicilina con ácido clavulánico',

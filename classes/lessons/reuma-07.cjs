@@ -199,6 +199,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El puente de corticoide',
+      images: [
+        { src: 'animaciones/reuma-07/A1_puente_corticoide.mp4', label: 'Metotrexato y prednisona en el tiempo', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Tres curvas',
+          say: 'Mira las tres curvas. El metotrexato tarda de seis a doce semanas en alcanzar su efecto completo, y en ese hueco la enfermedad sigue activa. Por eso se da prednisona en dosis baja, menor de diez miligramos al día, solo como puente. Apenas el metotrexato actúa, la prednisona se retira de forma gradual. La regla de oro: el corticoide nunca va solo. Y se revisa la respuesta cada tres meses.' },
+      ],
+    },
+
+    {
       type: "pathway",
       intro: "Veamos el algoritmo terapéutico escalonado completo de la artritis reumatoide.",
     },

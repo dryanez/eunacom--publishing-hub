@@ -19,3 +19,20 @@ Fecha: 2026-10-12. Vacíos de `oftal.md` que siguen sin ninguna imagen utilizabl
 | oftal-05 | Escleritis necrotizante | escleromalacia perforante: esclera adelgazada con úvea azulada visible | foto clínica | baja |
 | oftal-17 | Trombosis del seno cavernoso | trombosis séptica del seno cavernoso: proptosis y oftalmoplejía bilateral / TAC con contraste | foto clínica | baja |
 | oftal-18 | Neuritis óptica | RM de órbita con gadolinio: realce del nervio óptico en neuritis óptica | RM | baja |
+
+## Fotos aún sin encontrar tras completar el libro (18-oct-2026, tarea «completar libro»)
+
+Agregadas desde Kanski 8.ª ed. (via `books/data/atlas_add/oftalmologia.json`): pterigión (oftal-01), carcinoma basocelular palpebral (oftal-03), queratitis bacteriana con hipopión (oftal-04), glaucoma agudo (oftal-06), glaucoma congénito (oftal-07), test de Hirschberg y hemangioma palpebral (oftal-09), desprendimiento de retina (oftal-10), hifema (oftal-15).
+
+Sin imagen utilizable (no estaba en `_candidatas` o el recorte no coincidía con su pie):
+
+| clase | tema | imagen que falta |
+|---|---|---|
+| oftal-09 | Retinoblastoma | leucocoria (reflejo pupilar blanco); los recortes de Kanski fig. 12.38 son otros paneles |
+| oftal-09 | Estrabismo | esotropía congénita / exotropía intermitente de frente (Kanski 18.48–18.56 existen pero no se pudo verificar el panel) |
+| oftal-12 | Hemorragia vítrea | foto de fondo de ojo con hemorragia vítrea (Kanski fig. 17.1 solo extrajo ecografías B) |
+| oftal-14 | DMAE | fondo de ojo con drusas (el recorte de fig. 14.40 es una OCT) |
+| oftal-18 | Papiledema | fondo de ojo con edema de papila (Kanski cap. 19 solo extrajo gráficos de ecografía) |
+| oftal-04 | Leucoma corneal | cicatriz corneal blanca |
+| oftal-03 | Tumores de conjuntiva | nevo/papiloma/neoplasia escamosa conjuntival (Kanski figs. 12.1–12.12 existen en `_candidatas`, sin revisar) |
+| oftal-15 | Heridas de párpados | laceración del margen palpebral |

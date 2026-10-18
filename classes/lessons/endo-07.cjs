@@ -59,11 +59,16 @@ module.exports = {
         { show: ['hip'], note: 'El betabloqueo va desde el primer día',
           say: 'Veamos la lógica de la decisión. Confirmado el hipertiroidismo, si el paciente tiene síntomas adrenérgicos, se inicia betabloqueo con propranolol o atenolol, sea cual sea el camino que elijas después.' },
         { show: ['gra'], note: 'En Graves, primero se intenta con fármacos',
-          say: 'Si es un primer episodio de Graves, sobre todo en un paciente joven, se parte con tiamazol por doce a dieciocho meses, esperando la remisión.' },
+          say: 'Si es un primer episodio de Graves, sobre todo en un paciente joven, se parte con tiamazol por doce a dieciocho meses, esperando la remisión. Mira esta gammagrafía: en Graves toda la glándula capta, de forma difusa y aumentada.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-07/02_gammagrafia-graves-captacion-difusa__amir-endocrino_p44.jpg', label: 'Graves: captación difusa', at: 'Mira esta gammagrafía', credit: 'Manual AMIR Endocrinología, p. 44' } },
         { show: ['rec'], note: 'La recaída cambia el plan',
           say: 'Si después de un ciclo completo el paciente recae, ya no insistimos con otro ciclo largo: pasamos a un tratamiento definitivo.' },
         { show: ['nod'], note: 'Lo nodular no remite',
-          say: 'Ahora, el bocio multinodular tóxico y el adenoma tóxico son otra historia. Se deben a mutaciones del receptor, no a un anticuerpo, y no logran remisión a largo plazo con fármacos. Por eso el tratamiento definitivo es obligatorio desde el comienzo.' },
+          say: 'Ahora, el bocio multinodular tóxico y el adenoma tóxico son otra historia. En esta gammagrafía un nódulo capta mucho y apaga al resto: adenoma tóxico. Y aquí hay varias zonas que captan y otras que no: bocio multinodular tóxico. Se deben a mutaciones del receptor, no a un anticuerpo, y no logran remisión a largo plazo con fármacos. Por eso el tratamiento definitivo es obligatorio desde el comienzo.',
+            photos: [
+              { src: 'biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn__cto-endocrino_p57.jpg', label: 'Adenoma tóxico', at: 'En esta gammagrafía un nódulo', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
+              { src: 'biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn_alt1_1__amir-endocrino_p44.jpg', label: 'Bocio multinodular tóxico', at: 'Y aquí hay varias zonas', credit: 'Manual AMIR Endocrinología, p. 44' },
+            ] },
         { show: ['def'], note: 'Dos opciones, y cada una tiene sus indicaciones',
           say: 'Y el tratamiento definitivo tiene dos opciones: radioyodo o cirugía. Veamos cuándo corresponde cada uno.' },
       ],
@@ -104,7 +109,8 @@ module.exports = {
           { t: 'Síntomas compresivos', d: 'Disfagia, disfonía, estridor, compresión traqueal',
             say: 'La cirugía va primero cuando hay compresión: disfagia, disfonía, estridor, o compresión traqueal demostrada en el TAC. Un bocio que aprieta no se trata esperando semanas a que haga efecto el radioyodo.' },
           { t: 'Bocio mayor a 80 g', d: 'Bocio masivo',
-            say: 'Cuando el bocio es masivo, sobre ochenta gramos.' },
+            say: 'Cuando el bocio es masivo, sobre ochenta gramos: mira este bocio gigante, que puede desviar la tráquea y comprimir.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-07/atlas_100_bocio_compresivo_gigante_con_d.jpg', label: 'Bocio compresivo gigante', at: 'mira este bocio gigante', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 4381' } },
           { t: 'Nódulo sospechoso de cáncer', d: 'Bethesda IV, V o VI',
             say: 'Cuando coexiste un nódulo sospechoso de malignidad, con citología Bethesda cuatro, cinco o seis. Eso lo veremos en la clase de nódulo tiroideo.' },
           { t: 'Orbitopatía moderada a severa', d: 'Si se rechaza o contraindica el radioyodo',
@@ -182,23 +188,6 @@ module.exports = {
           say: 'El yodo entra a la tiroides y la peroxidasa lo usa para fabricar hormona. El tiamazol bloquea esa enzima, y la hormona que sale cae; es la primera elección, pero la mitad recae. El propiltiouracilo queda para el primer trimestre y la tormenta. Y el radioyodo destruye la glándula: es la opción tras la recaída, y deja hipotiroidismo.' },
       ],
     },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'La gammagrafía tiroidea',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn__cto-endocrino_p57.jpg', label: 'Adenoma tóxico: nódulo caliente', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
-        { src: 'biblioteca/05_endocrinologia/endo-07/02_gammagrafia-graves-captacion-difusa__amir-endocrino_p44.jpg', label: 'Graves: captación difusa', credit: 'Manual AMIR Endocrinología, p. 44' },
-        { src: 'biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn_alt1_1__amir-endocrino_p44.jpg', label: 'Bocio multinodular: zonas calientes y frías', credit: 'Manual AMIR Endocrinología, p. 44' },
-      ],
-      steps: [
-        { note: 'Captación focal vs difusa',
-          say: 'La gammagrafía separa las causas de hipertiroidismo: captación difusa en Graves, un nódulo que capta y apaga al resto en el adenoma tóxico, varios nódulos en el bocio multinodular.' },
-      ],
-    },
-
     {
       type: 'pathway',
       intro: 'Pongamos todo en un árbol, como vas a razonar frente al enunciado.',

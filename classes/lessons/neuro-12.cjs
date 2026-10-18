@@ -111,7 +111,8 @@ module.exports = {
         ] },
         { title: 'Imagen', tag: 'RM axial', kind: 'key', items: [
           { t: 'Signo de la cruz caliente', d: 'Atrofia pontina en T2',
-            say: 'En la resonancia, la atrofia de la protuberancia dibuja una cruz en los cortes axiales: el signo de la cruz caliente, o hot cross bun.' },
+            say: 'En la resonancia, la atrofia de la protuberancia dibuja una cruz en los cortes axiales: el signo de la cruz caliente, o hot cross bun. Mira esta resonancia: en la protuberancia se dibuja la cruz.',
+            photo: { src: '_web/151_neuro_Parkinsonismos_atípicos__Commons_1.jpg', label: 'Cruz caliente (protuberancia)', at: 'Mira esta resonancia', credit: 'Wikimedia Commons, CC BY-SA 4.0' } },
         ] },
       ],
     },
@@ -131,7 +132,8 @@ module.exports = {
         ] },
         { title: 'Parkinsonismo vascular', tag: 'Tren inferior', kind: 'alert', items: [
           { t: 'Infartos lacunares múltiples', d: 'Hipertenso y diabético',
-            say: 'Y por último, el parkinsonismo vascular. Se debe a múltiples infartos lacunares subcorticales, o a leucoaraiosis, en un paciente con hipertensión y diabetes de años.' },
+            say: 'Y por último, el parkinsonismo vascular. Se debe a múltiples infartos lacunares subcorticales, o a leucoaraiosis, en un paciente con hipertensión y diabetes de años. En esta resonancia, las flechas marcan la leucoaraiosis: sustancia blanca blanca y confluente alrededor de los ventrículos.',
+            photo: { src: '_verificadas/152_neuro_Parkinsonismo_vascular_demenci__HarrisonsP_p234_1.jpg', label: 'Leucoaraiosis e infartos', at: 'En esta resonancia', credit: 'Harrison, Principios de Medicina Interna 21.ª ed., p. 234' } },
           { t: 'Marcha magnética a pequeños pasos', d: 'Braceo conservado, sin temblor',
             say: 'Es un parkinsonismo del tren inferior: marcha a pequeños pasos, con los pies pegados al suelo y base ancha. Pero las manos se ven bien: el braceo está conservado y no hay temblor.' },
           { t: 'Signos piramidales', d: 'Hiperreflexia, Babinski, incontinencia',

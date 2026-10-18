@@ -61,29 +61,9 @@ module.exports = {
           { t: 'Línea de pleura visceral', d: 'Despegada de la pared costal',
             say: 'El diagnóstico se confirma con la radiografía de tórax. Lo que buscas es la línea de la pleura visceral, despegada de la pared costal.' },
           { t: 'Sin trama en la periferia', d: 'Ausencia de trama broncovascular',
-            say: 'Y por fuera de esa línea, no hay trama broncovascular: solo aire. Pero la radiografía no solo confirma. También te da el dato que más importa para decidir: el tamaño.' },
+            say: 'Y por fuera de esa línea, no hay trama broncovascular: solo aire. Pero la radiografía no solo confirma. También te da el dato que más importa para decidir: el tamaño. Y en esta imagen, en inspiración y en espiración: en espiración el neumotórax se hace más evidente.',
+            photo: { src: 'biblioteca/02_neumologia/resp-13/01_neumotorax_alt1__cto-radiologia_p23.jpg', label: 'Inspiración y espiración', at: 'Y en esta imagen', credit: 'Manual CTO Radiología 14.ª ed., p. 23' } },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'La radiografía',
-      title: 'Cómo se ve un neumotórax',
-      images: [{ src: 'resp-13/neumotorax.jpg', label: 'Neumotórax derecho', credit: 'Manual CTO Neumología, 14.ª ed.', alt: 'Radiografía de tórax con neumotórax derecho' }],
-      steps: [
-        { note: 'Periferia negra, sin trama vascular',
-          marks: [{ x: 17, y: 14, w: 17, h: 46, label: 'Sin trama' }],
-          say: 'Veamos una radiografía real. Recuerda que el lado derecho del paciente queda a tu izquierda. Mira la periferia de ese hemitórax: está negra, y solo ves las costillas. No hay vasos. Eso es aire en la pleura.' },
-        { note: 'El pulmón colapsado, separado de la pared',
-          marks: [{ x: 33, y: 22, w: 12, h: 30, label: 'Pulmón colapsado', labelTop: true }],
-          say: 'Hacia adentro está el pulmón, colapsado hacia el hilio. Su borde es la línea de la pleura visceral, despegada de la pared costal. Esa línea es la que confirma el diagnóstico.' },
-        { note: 'Mediastino en la línea media',
-          marks: [{ x: 46.5, y: 12, w: 8, h: 56, label: 'Mediastino centrado' }],
-          say: 'Ahora fíjate en el mediastino. Está en la línea media, no está desplazado hacia el otro lado. Eso te dice que no es un neumotórax a tensión.' },
-        { note: 'Compara con el lado sano',
-          marks: [{ x: 60, y: 22, w: 22, h: 40, label: 'Trama normal' }],
-          say: 'Y compara con el lado sano: ahí sí ves la trama broncovascular llegando hasta la periferia. Esa comparación, lado a lado, es la forma más rápida de verlo en el examen.' },
       ],
     },
 
@@ -142,19 +122,6 @@ module.exports = {
           { t: 'Profesiones de riesgo', d: 'Pilotos comerciales, buzos profesionales',
             say: 'Y por último, las profesiones de riesgo, como pilotos comerciales o buzos profesionales, donde un neumotórax en el trabajo puede ser fatal. Fíjate que el primer episodio que se resolvió bien no está en la lista.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-13/01_neumotorax_alt1__cto-radiologia_p23.jpg', label: 'Neumotórax derecho en inspiración y en espiración', credit: 'Manual CTO Radiología 14.ª ed., p. 23' },
-      ],
-      steps: [
-        { note: 'La línea de la pleura visceral',
-          say: 'Otro neumotórax derecho, en inspiración y en espiración. La línea punteada marca el borde del pulmón colapsado, la pleura visceral despegada de la pared. Por fuera de esa línea no hay trama vascular.' },
       ],
     },
 

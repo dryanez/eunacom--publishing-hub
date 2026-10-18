@@ -281,14 +281,14 @@ Paciente de 35 años sufre traumatismo en la región posterior del húmero. Al e
 Explicación del banco: Fractura de húmero + caída de muñeca (wrist drop) = lesión del nervio radial en el canal de torsión (surco espiral). Inerva extensores de muñeca y dedos (ECC, ECD, ELP).
 
 ### [4] EUNACOM Diciembre 2025 · Pregunta 35 · confianza 0.95
-Un paciente de 23 años sufre una caída mientras jugaba fútbol, cayendo con el hombro derecho contra el piso y resultando en una luxación anterior de hombro derecho, la cual es conﬁrmada con radiograFas de hombro, las cuales descartan la presencia de fracturas. ¿Qué evaluación debe realizarse obligatoriamente en el examen Fsico antes de proceder con las maniobras de reducción?
+Un paciente de 23 años sufre una caída mientras jugaba fútbol, cayendo con el hombro derecho contra el piso y resultando en una luxación anterior de hombro derecho, la cual es confirmada con radiografías de hombro, las cuales descartan la presencia de fracturas. ¿Qué evaluación debe realizarse obligatoriamente en el examen físico antes de proceder con las maniobras de reducción?
 - A) Buscar presencia de equimosis
 - B) Buscar deformación en “charretera”
 - C) Explorar la sensibilidad de la zona deltoidea
 - D) Evaluar la impotencia funcional
 - E) Evaluar crépito óseo
 **Correcta: C**
-Explicación del banco: La luxación anterior se asocia a lesión del nervio axilar o circunﬂejo, que inerva al deltoides (abducción del hombro) y la sensibilidad en la zona deltoidea. Se debe consignar su alteración antes de la reducción, para que no se culpe luego al médico de haberla causado durante la reducción. Las demás opciones ya han sido evaluadas mediante la clínica (la luxación Gene hombro “en charretera”, impotencia funcional) y la radiografía.
+Explicación del banco: La luxación anterior se asocia a lesión del nervio axilar o circunflejo, que inerva al deltoides (abducción del hombro) y la sensibilidad en la zona deltoidea. Se debe consignar su alteración antes de la reducción, para que no se culpe luego al médico de haberla causado durante la reducción. Las demás opciones ya han sido evaluadas mediante la clínica (la luxación Gene hombro “en charretera”, impotencia funcional) y la radiografía.
 
 ### [5] EUNACOM Agosto 2021 · Pregunta 99 · confianza 0.95
 Un paciente de 26 años, sufre un accidente automovilístico de alta energía, como conductor. Llega a la urgencia entablillado y con hemodinamia estable. Destaca la extremidad inferior derecha en flexión y aducción, dolorosa, con imposibilidad de caminar. Se realiza radiografía anteroposterior de pelvis, que se muestra a continuación (fuente: radiopaedia): ¿Cuál es el diagnóstico más probable?
@@ -341,7 +341,7 @@ Un paciente de 70 años, sufre una caída a nivel, con apoyo de la extremidad su
 Explicación del banco: Diagnóstico: **Fractura de la epífisis distal del radio** (opción **B**). Es una fractura de muñeca clásica.. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).
 
 ### [10] EUNACOM Diciembre 2025 · Pregunta 138 · confianza 0.9
-Un paciente de 21 años sufre accidente en esquí con caída y torsión del tobillo derecho, evolucionando con dolor e impotencia funcional. Se solicita radiograFa de tobillo que se muestra a con8nuación: ¿Cuál es la conducta inicial más adecuada?
+Un paciente de 21 años sufre accidente en esquí con caída y torsión del tobillo derecho, evolucionando con dolor e impotencia funcional. Se solicita radiografía de tobillo que se muestra a continuación: ¿Cuál es la conducta inicial más adecuada?
 - A) Reposo con extremidad en elevación
 - B) Reducción cerrada e inmovilización con valva de yeso
 - C) Analgésicos y apoyo progresivo con mínima carga
@@ -438,7 +438,7 @@ Un paciente de 28 años sufre un accidente de tránsito de alta intensidad, por 
 - D) Instalar sábana pélvica
 - E) Solicitar TAC de pelvis
 **Correcta: D**
-Explicación del banco: Tiene una probable fractura de pelvis, pero por tener compromiso hemodinámico, lo más urgente es poner una vía venosa, administrar ﬂuidos y estabilizar la pelvis (por ejemplo con una sábana pélvica).
+Explicación del banco: Tiene una probable fractura de pelvis, pero por tener compromiso hemodinámico, lo más urgente es poner una vía venosa, administrar fluidos y estabilizar la pelvis (por ejemplo con una sábana pélvica).
 
 ### [20] EUNACOM Julio 2016 · Pregunta 26 · confianza 0.85
 Un paciente de 30 años sufre una caída de altura, desde 15 metros, golpéandose contra el suelo. Al examen físico está orientado, con FC: 80x' y PA: 120/80 mmHg, con mucho dolor a la compresión de la pelvis, mayor a izquierda. Se solicita una radiografía de pelvis AP, que se muestra a continuación: ¿Cuál es la conducta inicial más adecuada?

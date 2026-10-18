@@ -76,7 +76,8 @@ module.exports = {
         { show: ['cft'], note: 'Secreción de cloruro y agua',
           say: 'Ese AMP cíclico abre los canales CFTR de cloruro y bloquea la absorción de sodio. El cloruro sale al lumen y el agua lo sigue. Es como abrir un grifo en la pared del intestino.' },
         { show: ['arr'], note: 'La diarrea que se reconoce a simple vista',
-          say: 'Por eso la diarrea es acuosa, blanquecina, sin sangre y sin olor fétido: la clásica diarrea en agua de arroz. Y fíjate que no hay dolor importante ni fiebre, porque no hay inflamación.' },
+          say: 'Por eso la diarrea es acuosa, blanquecina, sin sangre y sin olor fétido: la clásica diarrea en agua de arroz: mira estas heces líquidas, con grumos blanquecinos como granos de arroz. Y fíjate que no hay dolor importante ni fiebre, porque no hay inflamación.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-08/01_colera-agua-arroz__atlas200.jpg', label: 'Heces en agua de arroz', at: 'mira estas heces', credit: 'Atlas EUNACOM 2026' } },
         { show: ['sho'], note: 'Mata por deshidratación, en horas',
           say: 'Lo grave es el volumen. Las pérdidas pueden llegar a un litro por hora, y sin rehidratación el paciente cae en shock hipovolémico y muere en menos de doce horas.' },
       ],
@@ -167,6 +168,33 @@ module.exports = {
       steps: [
         { note: 'El tiempo delata el mecanismo',
           say: 'Menos de seis horas: toxina ya formada en el alimento, con vómitos. De ocho a dieciséis horas: toxina producida en el intestino, con diarrea. Más de dieciséis: invasión, a veces con fiebre.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Prevención',
+      title: 'Cortar la vía fecal-oral',
+      cards: [
+        { title: 'Agua y manos', tag: 'Lo básico', kind: 'key', items: [
+          { t: 'Agua potable o clorada', d: 'En emergencia, hervir 1 minuto',
+            say: 'La prevención de las enfermedades entéricas es cortar la vía fecal-oral. Agua segura, potable o clorada, y hervida un minuto en emergencias.' },
+          { t: 'Lavado de manos con jabón', d: 'Tras el baño y antes de comer',
+            say: 'Lavado de manos con jabón después de ir al baño y antes de comer o preparar alimentos, y eliminación sanitaria de excretas.' },
+        ] },
+        { title: 'Alimentos', tag: 'Cocción y frío', kind: 'criteria', items: [
+          { t: 'Cocción completa y cadena de frío', d: 'Refrigerar bajo 5 °C',
+            say: 'En los alimentos: cocción completa, no mezclar crudos con cocidos y cadena de frío, bajo cinco grados.' },
+          { t: 'Verduras de riego contaminado', d: 'Cólera, tifoidea, hepatitis A, hidatidosis',
+            say: 'En Chile las verduras regadas con aguas servidas pueden transmitir cólera, tifoidea, hepatitis A e hidatidosis. Se lavan y desinfectan.' },
+          { t: 'Nada de conservas caseras ni miel en el lactante', d: 'Botulismo',
+            say: 'Evita conservas caseras mal esterilizadas y la miel bajo el año de vida, por el botulismo. Mira a este lactante con botulismo: hipotonía y cara poco expresiva.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-08/02_botulismo-lactante__atlas201.jpg', label: 'Botulismo del lactante', at: 'Mira a este lactante', credit: 'Atlas EUNACOM 2026' } },
+        ] },
+        { title: 'Vacunas', tag: 'Complemento', kind: 'pharma', items: [
+          { t: 'Hepatitis A, tifoidea Vi, cólera oral', d: 'Zonas endémicas, brotes y viajeros',
+            say: 'Se complementa con vacuna contra hepatitis A, antitifoídica Vi para zonas endémicas y vacuna oral anticolérica en brotes. Los brotes de enfermedades transmitidas por alimentos se notifican.' },
+        ] },
       ],
     },
 
@@ -309,6 +337,82 @@ module.exports = {
         options: 'Las opciones son: plasmaféresis por Guillain-Barré; unidad de cuidados intensivos, vigilar la ventilación y antitoxina botulínica; ceftriaxona por meningitis; piridostigmina por miastenia; o metilprednisolona por esclerosis múltiple. Piénsalo.',
         answer: 'Es la B. Conserva casera, pares craneanos, pupilas dilatadas y una parálisis que baja: botulismo. El distractor más tentador es la A, pero el Guillain-Barré sube desde las piernas y no da midriasis. La miastenia tampoco dilata la pupila. Y la antitoxina va de inmediato, porque solo neutraliza la toxina que aún circula.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.1.007 · Cólera",
+      "stem": "Hombre de 35 años regresó hace 2 días de Haití. Presenta diarrea acuosa muy abundante, con aspecto de agua de arroz, sin fiebre ni dolor importante, y vómitos. PA 80/50 mmHg, FC 125 por minuto, mucosas secas y signo del pliegue positivo.",
+      "question": "¿Cuál es la medida más importante del tratamiento?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Esperar el coprocultivo antes de iniciar el tratamiento"
+        },
+        {
+          "letter": "B",
+          "text": "Loperamida para frenar las pérdidas"
+        },
+        {
+          "letter": "C",
+          "text": "Ciprofloxacino como única medida"
+        },
+        {
+          "letter": "D",
+          "text": "Rehidratación endovenosa enérgica con Ringer lactato"
+        },
+        {
+          "letter": "E",
+          "text": "Vancomicina oral"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Diarrea acuosa profusa tipo agua de arroz después de estar en zona endémica sugiere cólera. Lo que salva la vida es la rehidratación: endovenosa enérgica con Ringer lactato si hay shock y luego sales orales. El antibiótico, como doxiciclina o azitromicina en dosis única, solo acorta la diarrea. Es de notificación inmediata.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de treinta y cinco años que volvió hace dos días de Haití, con diarrea acuosa muy abundante, como agua de arroz, sin fiebre, y con vómitos. Está hipotenso, taquicárdico, con mucosas secas y signo del pliegue.",
+        "question": "¿Cuál es la medida más importante del tratamiento?",
+        "options": "Las opciones: esperar el coprocultivo, loperamida, ciprofloxacino solo, rehidratación endovenosa enérgica con Ringer lactato o vancomicina oral. Piénsalo.",
+        "answer": "Es la D. En el cólera la muerte viene de la deshidratación, así que lo primero es reponer volumen en forma enérgica. El antibiótico tienta, pero solo acorta la diarrea y no corrige el shock. Y recuerda que es de notificación inmediata."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.3.004 · Prevención de enfermedades entéricas",
+      "stem": "En una comunidad rural sin red de agua potable se registra un aumento de casos de diarrea aguda y de hepatitis A en niños.",
+      "question": "¿Cuál es la medida de prevención más efectiva a nivel poblacional?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibióticos profilácticos a todos los niños"
+        },
+        {
+          "letter": "B",
+          "text": "Antiparasitarios mensuales a toda la población"
+        },
+        {
+          "letter": "C",
+          "text": "Vacuna BCG"
+        },
+        {
+          "letter": "D",
+          "text": "Suplementación con hierro"
+        },
+        {
+          "letter": "E",
+          "text": "Acceso a agua potable y saneamiento, con lavado de manos e higiene de los alimentos"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Las enfermedades entéricas (diarreas bacterianas y virales, hepatitis A, fiebre tifoidea) se transmiten por vía fecal-oral. Lo más efectivo es el agua potable y la eliminación sanitaria de excretas, junto a lavado de manos, cocción y lavado de alimentos. La vacuna de hepatitis A del PNI refuerza la prevención; los antibióticos profilácticos no están indicados.",
+      "say": {
+        "stem": "En una comunidad rural sin agua potable aumentan los casos de diarrea aguda y de hepatitis A en niños.",
+        "question": "¿Cuál es la medida de prevención más efectiva a nivel poblacional?",
+        "options": "Las opciones: antibióticos profilácticos, antiparasitarios mensuales, vacuna BCG, hierro o agua potable y saneamiento con lavado de manos e higiene de alimentos. Piénsalo.",
+        "answer": "Es la E. Estas infecciones son de transmisión fecal oral, y el agua potable con saneamiento e higiene es lo que más las previene. Los antibióticos profilácticos tientan como solución rápida, pero no previenen y generan resistencia."
+      }
     },
 
     {

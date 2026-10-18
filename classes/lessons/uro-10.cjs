@@ -40,6 +40,28 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Factor de riesgo',
+      title: 'Criptorquidia: el riesgo que no se va',
+      cards: [
+        { title: 'Diagnóstico y cirugía', tag: 'Niño', kind: 'key', items: [
+          { t: 'Escroto vacío, testículo en el canal', d: 'O impalpable',
+            say: 'La criptorquidia se diagnostica con el examen físico: un escroto hipoplásico y vacío, con el testículo palpable en el canal inguinal o impalpable.' },
+          { t: 'Orquidopexia entre 6 y 12 meses', d: 'Máximo a los 18 meses',
+            say: 'Se opera entre los seis y los doce meses de vida, a más tardar a los dieciocho. Mejora la fertilidad y permite palpar el testículo, pero no elimina el riesgo de cáncer.' },
+        ] },
+        { title: 'Seguimiento de por vida', tag: 'Riesgo persistente', kind: 'alert', items: [
+          { t: 'También el testículo contralateral', d: 'El más frecuente: seminoma',
+            say: 'El riesgo sigue aumentado y se extiende al testículo del otro lado. El tumor más frecuente en el testículo criptorquídeo es el seminoma.' },
+          { t: 'Autoexamen mensual desde la adolescencia', d: 'Examen anual; eco ante cualquier cambio',
+            say: 'El seguimiento incluye el autoexamen testicular cada mes desde la adolescencia, el examen clínico una vez al año y una ecografía ante cualquier cambio de tamaño o consistencia.' },
+          { t: 'Adulto con testículo abdominal', d: 'Se plantea la orquiectomía',
+            say: 'Y en el adulto con un testículo intraabdominal no descendido, se plantea la orquiectomía.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Clínica y diagnóstico',
       title: 'Masa sólida, dura e indolora',
       cards: [
@@ -53,28 +75,9 @@ module.exports = {
           { t: 'Ecografía Doppler testicular', d: 'Sensibilidad cercana al 100%',
             say: 'La ecografía Doppler testicular es el examen de primera línea y es obligatoria. Distingue lo que está dentro del testículo, que es maligno en más del noventa y cinco por ciento, de lo que está fuera, como el epidídimo o el hidrocele.' },
           { t: 'Masa hipoecogénica heterogénea', d: 'Con flujo aumentado',
-            say: 'El patrón típico es una masa sólida, hipoecogénica, con más flujo. Toda masa sólida intratesticular se considera maligna hasta demostrar lo contrario.' },
+            say: 'El patrón típico es una masa sólida, hipoecogénica, con más flujo. Toda masa sólida intratesticular se considera maligna hasta demostrar lo contrario. Mira la zona más oscura y redonda dentro del tejido testicular: es el tumor, un nódulo hipoecogénico en pleno parénquima, y eso lo diferencia de una lesión del epidídimo.',
+            photo: { src: 'biblioteca/19_urologia/uro-10/01_ecografia-tumor-testicular-pequeno__bailey-love_p1528.jpg', label: 'Nódulo hipoecogénico', at: 'Mira la zona más oscura', credit: 'Bailey & Love 27.ª ed., Fig. 80.16' } },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Ecografía y metástasis del tumor testicular',
-      images: [
-        { src: 'biblioteca/19_urologia/uro-10/01_ecografia-tumor-testicular-pequeno__bailey-love_p1528.jpg', label: 'Ecografía testicular: nódulo intratesticular hipoecogénico', credit: 'Bailey & Love 27.ª ed., Fig. 80.16' },
-        { src: 'biblioteca/19_urologia/uro-10/02_metastasis-pulmonares-bala-de-canon__bailey-love_p1529.jpg', label: 'Radiografía de tórax: metástasis pulmonares en bala de cañón', credit: 'Bailey & Love 27.ª ed., Fig. 80.19' },
-        { src: 'biblioteca/19_urologia/uro-10/03_tac-masa-retroperitoneal-residual__bailey-love_p1530.jpg', label: 'TAC: masa retroperitoneal residual tras quimioterapia', credit: 'Bailey & Love 27.ª ed., Fig. 80.20' },
-      ],
-      steps: [
-        { note: 'El tumor está dentro del parénquima',
-          say: 'Mira la zona más oscura y redonda dentro del tejido testicular: es el tumor, un nódulo hipoecogénico en pleno parénquima. Eso es lo que diferencia un tumor de una lesión del epidídimo.' },
-        { note: 'Metástasis pulmonares',
-          say: 'Y esta es la radiografía de un tumor testicular diseminado: múltiples nódulos redondos en ambos pulmones, las llamadas balas de cañón. Es la forma de metástasis a distancia.' },
-        { note: 'Masa residual después de quimioterapia',
-          say: 'Aquí, en el TAC, una masa grande en el retroperitoneo después de la quimioterapia. Los ganglios retroperitoneales son el primer escalón de la diseminación, y estas masas residuales pueden requerir cirugía.' },
       ],
     },
 
@@ -179,9 +182,25 @@ module.exports = {
         { cells: ['I', 'Solo testículo, N0 M0', 'Vigilancia o carboplatino', 'Vigilancia o BEP 1 ciclo'],
           say: 'En estadio uno, el tumor está solo en el testículo y los marcadores se normalizan. El seminoma se vigila o recibe carboplatino. El no seminoma se vigila o recibe un ciclo de BEP si hay invasión vascular.' },
         { cells: ['II', 'Ganglios retroperitoneales', 'Radioterapia o BEP x3', 'BEP x3 ± linfadenectomía'],
-          say: 'En estadio dos hay ganglios retroperitoneales. El seminoma recibe radioterapia retroperitoneal o tres ciclos de BEP. El no seminoma, tres ciclos de BEP y, si quedan masas ganglionares residuales, linfadenectomía retroperitoneal.' },
+          say: 'En estadio dos hay ganglios retroperitoneales. El seminoma recibe radioterapia retroperitoneal o tres ciclos de BEP. El no seminoma, tres ciclos de BEP y, si quedan masas ganglionares residuales, linfadenectomía retroperitoneal. Mira esta masa grande en el retroperitoneo, en el TAC, después de la quimioterapia: los ganglios retroperitoneales son el primer escalón de la diseminación.',
+          photo: { src: 'biblioteca/19_urologia/uro-10/03_tac-masa-retroperitoneal-residual__bailey-love_p1530.jpg', label: 'Masa retroperitoneal', at: 'Mira esta masa', credit: 'Bailey & Love 27.ª ed., Fig. 80.20' } },
         { cells: ['III', 'Pulmón, ganglios sobre diafragma o vísceras', 'BEP 3-4 ciclos', 'BEP 3-4 ciclos'],
-          say: 'En estadio tres, con metástasis pulmonares, supradiafragmáticas o viscerales, se da quimioterapia de inducción con BEP, de tres a cuatro ciclos según el riesgo.' },
+          say: 'En estadio tres, con metástasis pulmonares, supradiafragmáticas o viscerales, se da quimioterapia de inducción con BEP, de tres a cuatro ciclos según el riesgo. Mira estos nódulos redondos en ambos pulmones, en la radiografía de un tumor diseminado: son las balas de cañón.',
+          photo: { src: 'biblioteca/19_urologia/uro-10/02_metastasis-pulmonares-bala-de-canon__bailey-love_p1529.jpg', label: 'Balas de cañón', at: 'Mira estos nódulos', credit: 'Bailey & Love 27.ª ed., Fig. 80.19' } },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Marcadores tras la orquiectomía',
+      images: [
+        { src: 'animaciones/uro-10/A1_marcadores_tumorales.mp4', label: 'Hacia la normalidad', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Hacia la normalidad',
+          say: 'Mira las curvas: tras la orquiectomía la beta hCG baja con una vida media de veinticuatro a treinta y seis horas, y la alfafetoproteína, de cinco a siete días. Si bajan y se normalizan, bien. Si no bajan, queda enfermedad y el paciente va a oncología. Por eso los marcadores se miden antes y después de operar.' },
       ],
     },
 
@@ -276,6 +295,118 @@ module.exports = {
         options: 'Las opciones: es normal en seminomas; el seminoma puro nunca produce alfafetoproteína; es por necrosis; es por la anestesia; o es un teratoma benigno. Piénsalo.',
         answer: 'Es la B. El seminoma puro no produce alfafetoproteína. Si está elevada, hay un componente no seminomatoso que la biopsia no vio, y se trata como no seminoma, con quimioterapia.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.4.008 · Ecotomografía testicular",
+      "stem": "Hombre de 28 años nota hace 3 semanas un nódulo en el testículo izquierdo, levemente molesto. Al examen se palpa un nódulo duro de 1,5 cm que parece depender del testículo, no transilumina, sin signos inflamatorios. Afebril y sin síntomas urinarios.",
+      "question": "¿Cuál es el examen inicial más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Biopsia testicular por punción transescrotal"
+        },
+        {
+          "letter": "B",
+          "text": "Ecografía testicular con Doppler"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de tórax, abdomen y pelvis"
+        },
+        {
+          "letter": "D",
+          "text": "Tratamiento antibiótico por 2 semanas y luego reevaluar"
+        },
+        {
+          "letter": "E",
+          "text": "Resonancia magnética de pelvis"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Ante toda masa escrotal, el examen inicial es la ecografía testicular: distingue lesión intratesticular sólida, sospechosa de cáncer, de lesiones extratesticulares benignas como quistes del epidídimo o hidrocele, con sensibilidad cercana a 100%. La punción transescrotal está contraindicada por riesgo de diseminación.",
+      "say": {
+        "stem": "Un hombre de veintiocho años tiene hace tres semanas un nódulo duro de un centímetro y medio que parece depender del testículo izquierdo, sin inflamación y sin fiebre.",
+        "question": "¿Cuál es el examen inicial más adecuado?",
+        "options": "Las opciones: biopsia por punción escrotal, ecografía testicular con Doppler, tomografía de tórax, abdomen y pelvis, antibióticos y reevaluar, o resonancia de pelvis. Piénsalo.",
+        "answer": "Es la B. Toda masa escrotal se estudia primero con ecografía, que distingue si es sólida dentro del testículo, sospechosa de cáncer, o una lesión benigna por fuera. La biopsia por punción tienta, pero está contraindicada porque puede diseminar el tumor al escroto."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.3.003 · Epidemiologia del cáncer testicular",
+      "stem": "En una clase de urología, el docente revisa la epidemiología del cáncer testicular para orientar la sospecha clínica en la atención primaria.",
+      "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Más del 90% corresponde a tumores de estroma gonadal, como el de células de Leydig"
+        },
+        {
+          "letter": "B",
+          "text": "Su incidencia máxima ocurre sobre los 70 años"
+        },
+        {
+          "letter": "C",
+          "text": "Es el tumor sólido más frecuente en hombres de 15 a 35 años, y la criptorquidia es su principal factor de riesgo"
+        },
+        {
+          "letter": "D",
+          "text": "La orquidopexia precoz elimina por completo el riesgo de cáncer en el testículo descendido"
+        },
+        {
+          "letter": "E",
+          "text": "Tiene baja tasa de curación incluso en etapas precoces"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El cáncer testicular es el tumor sólido más frecuente en hombres jóvenes, de 15 a 35 años. Alrededor del 95% son tumores de células germinales. El principal factor de riesgo es la criptorquidia; la orquidopexia reduce pero no elimina el riesgo. Tiene tasas de curación sobre 90% incluso con enfermedad avanzada, y en Chile tiene garantía GES.",
+      "say": {
+        "stem": "En una clase de urología se revisa la epidemiología del cáncer testicular.",
+        "question": "¿Qué afirmación es correcta?",
+        "options": "Las opciones: la mayoría son tumores del estroma, su máximo es sobre los setenta años, es el tumor sólido más frecuente entre los quince y los treinta y cinco años y su mayor factor de riesgo es la criptorquidia, la orquidopexia elimina el riesgo o se cura poco. Piénsalo.",
+        "answer": "Es la C. Es el tumor sólido más frecuente en hombres jóvenes y la criptorquidia es su principal factor de riesgo. La orquidopexia tienta como protección total, pero solo reduce el riesgo, no lo elimina."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.1.004 · Criptorquídea",
+      "stem": "Lactante de 9 meses en control de salud. Desde el nacimiento no se palpa el testículo derecho en el escroto; se palpa en el canal inguinal y no logra descenderse al escroto con maniobras suaves. El testículo izquierdo está en posición normal. Pene y meato normales.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Observar hasta los 5 años, porque puede descender espontáneamente"
+        },
+        {
+          "letter": "B",
+          "text": "Orquiectomía derecha inmediata"
+        },
+        {
+          "letter": "C",
+          "text": "Tratamiento con gonadotrofina coriónica como terapia de elección y control en la pubertad"
+        },
+        {
+          "letter": "D",
+          "text": "Derivar a cirugía infantil para orquidopexia, idealmente antes de los 12 a 18 meses de vida"
+        },
+        {
+          "letter": "E",
+          "text": "Tranquilizar porque es un testículo retráctil"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El descenso espontáneo ocurre casi siempre en los primeros 6 meses. Un testículo no descendido después de esa edad se deriva para orquidopexia, idealmente entre los 6 y 18 meses, para preservar la fertilidad, facilitar el autoexamen y disminuir el riesgo de cáncer y torsión. El testículo retráctil, en cambio, sí desciende con la maniobra.",
+      "say": {
+        "stem": "Un lactante de nueve meses tiene el testículo derecho en el canal inguinal desde que nació, y no baja al escroto con maniobras suaves.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: observar hasta los cinco años, orquiectomía inmediata, gonadotrofina coriónica como elección, derivar para orquidopexia antes de los doce a dieciocho meses o tranquilizar por testículo retráctil. Piénsalo.",
+        "answer": "Es la D. Si a los seis meses no ha descendido, ya no lo hará, y se opera idealmente antes del año y medio para proteger la fertilidad y facilitar la detección de cáncer. El testículo retráctil tienta, pero ese sí baja al escroto con la maniobra."
+      }
     },
 
     {

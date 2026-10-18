@@ -74,7 +74,8 @@ module.exports = {
           { t: 'Cavidad redondeada de pared gruesa', d: 'Márgenes irregulares',
             say: 'El diagnóstico se hace con la imagen. En la radiografía y en la TAC de tórax se ve una cavidad redondeada, de pared gruesa y márgenes irregulares.' },
           { t: 'Nivel hidroaéreo evidente', d: 'Aire arriba, pus abajo',
-            say: 'Y adentro, un nivel hidroaéreo evidente: aire arriba y pus abajo, con una línea horizontal. Cavidad de pared gruesa con nivel hidroaéreo: esa es la frase que tienes que asociar con absceso.' },
+            say: 'Y adentro, un nivel hidroaéreo evidente: aire arriba y pus abajo, con una línea horizontal. Cavidad de pared gruesa con nivel hidroaéreo: esa es la frase que tienes que asociar con absceso. Mira esta imagen: la cavidad con aire arriba y pus abajo, separados por una línea horizontal.',
+            photo: { src: 'biblioteca/02_neumologia/resp-09/01_absceso-pulmonar__cto-radiologia_p16.jpg', label: 'Absceso con nivel', at: 'Mira esta imagen', credit: 'Manual CTO Radiología 14.ª ed., p. 16' } },
         ] },
         { title: 'Localización', tag: 'Segmentos dependientes', kind: 'criteria', items: [
           { t: 'Posteriores de lóbulos superiores', d: 'Y apicales de lóbulos inferiores',
@@ -169,19 +170,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Absceso pulmonar',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-09/01_absceso-pulmonar__cto-radiologia_p16.jpg', label: 'Absceso pulmonar', credit: 'Manual CTO Radiología 14.ª ed., p. 16' },
-      ],
-      steps: [
-        { note: 'Cavidad con nivel hidroaéreo',
-          say: 'Esto es un absceso pulmonar: una cavidad de pared gruesa con un nivel hidroaéreo adentro, la línea recta entre el líquido y el aire. Se trata con antibióticos por semanas.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol, desde la sospecha hasta la cirugía.',
     },
@@ -270,6 +258,81 @@ module.exports = {
         options: 'Las opciones: derrame pleural tuberculoso, hidatidosis pulmonar, absceso pulmonar, neumonía, o carcinoma broncogénico. Piénsalo.',
         answer: 'Es la B, hidatidosis pulmonar. Fíjate en tres pistas: una vómica de sabor salado, que es el líquido del quiste roto; la base derecha, que es donde predomina; y la eosinofilia, que es de parásito. El absceso es el distractor, porque también da vómica, pero la suya es purulenta y fétida, con fiebre y semanas de compromiso del estado general. Esa diferencia es la tabla que acabamos de ver.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.2.017 · Supuración pulmonar",
+      "stem": "Hombre de 50 años, alcohólico, en tratamiento por absceso pulmonar periférico del lóbulo inferior derecho. Al día 6 presenta bruscamente dolor torácico derecho intenso, disnea y fiebre de 39 °C. FR 30/min, SatO2 89 %. Radiografía: nivel hidroaéreo amplio en el espacio pleural derecho, con colapso pulmonar parcial.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener antibióticos y repetir radiografía en 48 horas"
+        },
+        {
+          "letter": "B",
+          "text": "Punción con aguja en el 2.º espacio intercostal y alta"
+        },
+        {
+          "letter": "C",
+          "text": "Fibrobroncoscopía para drenar el absceso"
+        },
+        {
+          "letter": "D",
+          "text": "Instalar tubo de drenaje pleural de urgencia"
+        },
+        {
+          "letter": "E",
+          "text": "Lobectomía inferior derecha de urgencia como primera medida"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La ruptura de un absceso periférico a la pleura produce un pioneumotórax: aire y pus en el espacio pleural, con nivel hidroaéreo pleural. Es una supuración pleuropulmonar que exige drenaje pleural con tubo grueso de inmediato, además de antibióticos. La cirugía queda para fracaso del drenaje.",
+      "say": {
+        "stem": "Un hombre de cincuenta años, alcohólico, en tratamiento por un absceso pulmonar periférico, al sexto día tiene dolor torácico brusco, disnea y fiebre alta. La radiografía muestra un nivel hidroaéreo amplio en el espacio pleural y el pulmón parcialmente colapsado.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: mantener y controlar, punción con aguja y alta, broncoscopía, tubo pleural de urgencia o lobectomía. Piénsalo.",
+        "answer": "Es la D, el tubo pleural. El absceso se rompió a la pleura y hay aire y pus juntos, un pioneumotórax, y el pus en la pleura siempre se drena. Mantener solo antibióticos tienta porque el absceso venía respondiendo, pero ahora el problema está en la pleura y ahí el antibiótico no basta."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.5.005 · Fibrobroncoscopia",
+      "stem": "Hombre de 67 años, fumador de 50 paquetes-año, desdentado total, sin alcoholismo ni trastornos de conciencia ni de deglución. Consulta por 4 semanas de fiebre y tos purulenta. Radiografía: cavidad de 5 cm con nivel hidroaéreo en el lóbulo superior derecho. Baciloscopías negativas.",
+      "question": "Además de iniciar antibióticos, ¿cuál es el estudio más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ninguno: es un absceso por aspiración típico"
+        },
+        {
+          "letter": "B",
+          "text": "Fibrobroncoscopía para descartar una neoplasia endobronquial obstructiva"
+        },
+        {
+          "letter": "C",
+          "text": "Cintigrafía pulmonar"
+        },
+        {
+          "letter": "D",
+          "text": "Ecocardiograma transesofágico"
+        },
+        {
+          "letter": "E",
+          "text": "Prueba de tuberculina"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Un absceso sin factores de aspiración, en un desdentado (sin dientes no hay flora anaerobia gingival abundante), en un gran fumador mayor, obliga a descartar un cáncer bronquial que obstruye y abscede el pulmón distal, o un carcinoma cavitado. La fibrobroncoscopía visualiza la vía aérea y permite biopsia.",
+      "say": {
+        "stem": "Un hombre de sesenta y siete años, gran fumador y sin dientes, sin alcohol ni problemas para tragar, tiene un mes de fiebre y tos purulenta, con una cavidad con nivel hidroaéreo en el lóbulo superior derecho. Las baciloscopías son negativas.",
+        "question": "Además de los antibióticos, ¿cuál es el estudio más adecuado?",
+        "options": "Las opciones: ninguno, fibrobroncoscopía, cintigrafía, ecocardiograma transesofágico o tuberculina. Piénsalo.",
+        "answer": "Es la B, la fibrobroncoscopía. Un absceso en alguien que no aspira y que no tiene dientes no se explica por la boca, y en un gran fumador hay que buscar un tumor que tapa el bronquio. Pensar en un absceso aspirativo típico tienta, pero aquí faltan justamente los factores de aspiración."
+      }
     },
 
     {

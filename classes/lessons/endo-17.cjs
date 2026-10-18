@@ -60,13 +60,16 @@ module.exports = {
         ] },
         { title: 'Signos latentes', tag: 'Se preguntan', kind: 'key', items: [
           { t: 'Chvostek', d: 'Percutir el facial: se contrae la cara',
-            say: 'Si la tetania todavía no es evidente, la buscas. El signo de Chvostek: percutes el nervio facial por delante del trago, y se contrae el labio o el ala nasal del mismo lado.' },
+            say: 'Si la tetania todavía no es evidente, la buscas. El signo de Chvostek: mira esta cara, percutes el nervio facial por delante del trago, y se contrae el labio o el ala nasal del mismo lado.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-17/03_signo_chvostek__commons.jpg', label: 'Chvostek', at: 'mira esta cara', credit: 'Wikimedia Commons «Facial spasm (Chvostek\'s symptom).jpg», Public domain, Alfred Loomis & William Thompson' } },
           { t: 'Trousseau: más sensible y específico', d: 'Manguito sobre la sistólica por 3 min',
-            say: 'Y el signo de Trousseau: inflas el manguito de presión sobre la sistólica durante tres minutos, y aparece el espasmo carpopedal. Ojo, que esto se pregunta: el Trousseau es más sensible y más específico que el Chvostek.' },
+            say: 'Y el signo de Trousseau: mira esta mano, inflas el manguito de presión sobre la sistólica durante tres minutos, y aparece el espasmo carpopedal. Ojo, que esto se pregunta: el Trousseau es más sensible y más específico que el Chvostek.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-17/01_signo_trousseau__commons.jpg', label: 'Trousseau', at: 'mira esta mano', credit: 'Wikimedia Commons «Trousseau\'s Sign of Latent Tetany.jpg», CC BY-SA 4.0, ver autor en Commons' } },
         ] },
         { title: 'Electrocardiograma', tag: 'Monitor siempre', kind: 'alert', items: [
           { t: 'QT prolongado', d: 'Por alargamiento del ST',
-            say: 'Y en el electrocardiograma, lo característico es el QT prolongado, a expensas del segmento ST. Ese QT largo es el riesgo de arritmias ventriculares, como la torsión de puntas, y es la razón por la que todo el tratamiento se hace con monitor.' },
+            say: 'Y en el electrocardiograma, lo característico es el QT prolongado, como muestra este esquema, a expensas del segmento ST. Ese QT largo es el riesgo de arritmias ventriculares, como la torsión de puntas, y es la razón por la que todo el tratamiento se hace con monitor.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-17/02_qt_calcio_esquema__ecg-basics_p331.jpg', label: 'QT largo', at: 'como muestra este esquema', credit: 'ECG from Basics to Essentials, p. 331' } },
         ] },
       ],
     },
@@ -129,25 +132,17 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Los signos de la tetania',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El rescate del calcio, paso a paso',
       images: [
-        { src: 'biblioteca/05_endocrinologia/endo-17/01_signo_trousseau__commons.jpg', label: 'Trousseau', credit: 'Wikimedia Commons «Trousseau\'s Sign of Latent Tetany.jpg», CC BY-SA 4.0, ver autor en Commons' },
-        { src: 'biblioteca/05_endocrinologia/endo-17/03_signo_chvostek__commons.jpg', label: 'Chvostek', credit: 'Wikimedia Commons «Facial spasm (Chvostek\'s symptom).jpg», Public domain, Alfred Loomis & William Thompson' },
-        { src: 'biblioteca/05_endocrinologia/endo-17/02_qt_calcio_esquema__ecg-basics_p331.jpg', label: 'QT largo', credit: 'ECG from Basics to Essentials, p. 331' },
+        { src: 'animaciones/endo-17/A1_calcio_bolo_infusion_magnesio.mp4', label: 'Calcio y magnesio', credit: 'Animación propia' },
       ],
       steps: [
-        { note: 'Mano de partero con el manguito',
-          say: 'Este es el signo de Trousseau: al inflar el manguito sobre la presión sistólica, la mano se contrae en mano de partero. Es el signo más específico de hipocalcemia.' },
-        { note: 'Espasmo facial al percutir',
-          say: 'Y este es el Chvostek: al percutir el nervio facial delante de la oreja, se contrae la comisura del mismo lado.' },
-        { note: 'La hipocalcemia alarga el QT',
-          say: 'Y en el electrocardiograma, la hipocalcemia alarga el QT.' },
+        { note: 'Bolo, infusión y magnesio',
+          say: 'Mira qué pasa con el calcio. Tras la tiroidectomía cae hasta la zona de tetania. El bolo de gluconato de calcio lo rescata, pero dura poco y vuelve a bajar. Por eso después viene la infusión continua, que lo mantiene. Ahora, con el magnesio bajo, el calcio endovenoso casi no lo sube. Solo cuando repones el sulfato de magnesio el calcio responde. En la hipocalcemia refractaria, mide el magnesio.' },
       ],
     },
-
     {
       type: 'image',
       light: true,
@@ -274,6 +269,44 @@ module.exports = {
         options: 'Las opciones: suero fisiológico, TAC de cerebro, calcio endovenoso, lorazepam endovenoso, o calcitonina. Piénsalo.',
         answer: 'Es la C, calcio endovenoso. Fíjate en la pista del fósforo: calcio bajo con fósforo alto es la firma de la falta de paratohormona, y el antecedente de tiroidectomía cierra el diagnóstico. La convulsión es una forma grave de hipocalcemia. El TAC y el lorazepam tientan porque convulsionó, pero no tratan la causa. Y la calcitonina es el error más grave: baja todavía más el calcio.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.4.010 · PTH, calcemia",
+      "stem": "Hombre de 66 años, fumador de 45 paquetes-año, con 3 semanas de constipación, poliuria, baja de peso y somnolencia. Calcio total 13,2 mg/dL con albúmina 4,0 g/dL, fósforo 2,4 mg/dL, creatinina 1,3 mg/dL. PTH intacta 6 pg/mL (VN 15–65). La radiografía de tórax muestra una masa hiliar derecha.",
+      "question": "¿Cuál es el mecanismo más probable de la hipercalcemia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hiperparatiroidismo primario por adenoma paratiroideo"
+        },
+        {
+          "letter": "B",
+          "text": "Intoxicación por vitamina D"
+        },
+        {
+          "letter": "C",
+          "text": "Secreción de péptido relacionado con la PTH (PTHrP) por un carcinoma escamoso pulmonar"
+        },
+        {
+          "letter": "D",
+          "text": "Hiperparatiroidismo terciario"
+        },
+        {
+          "letter": "E",
+          "text": "Hipercalcemia hipocalciúrica familiar"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El primer paso ante una hipercalcemia es medir la PTH. PTH elevada o inapropiadamente normal indica hiperparatiroidismo primario; PTH suprimida indica una causa no paratiroidea, y en un fumador con masa pulmonar lo más probable es la hipercalcemia humoral maligna por PTHrP, típica del carcinoma escamoso. El PTHrP no se detecta en el ensayo de PTH intacta.",
+      "say": {
+        "stem": "Hombre de sesenta y seis años, gran fumador, con constipación, poliuria, baja de peso y somnolencia. Su calcio es trece coma dos, la PTH está suprimida en seis, y la radiografía muestra una masa hiliar derecha.",
+        "question": "¿Cuál es el mecanismo más probable de la hipercalcemia?",
+        "options": "Las opciones: hiperparatiroidismo primario, intoxicación por vitamina D, péptido relacionado con la PTH por un carcinoma escamoso, hiperparatiroidismo terciario o hipercalcemia hipocalciúrica familiar. Piénsalo.",
+        "answer": "Es la C. Con la PTH suprimida la paratiroides no es la culpable, y un fumador con masa pulmonar sugiere un tumor que secreta péptido relacionado con la PTH. El hiperparatiroidismo primario tienta porque es la causa más frecuente de hipercalcemia, pero en él la PTH está alta, no suprimida."
+      }
     },
 
     {

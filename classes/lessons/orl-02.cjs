@@ -20,7 +20,8 @@ module.exports = {
       cards: [
         { title: 'Qué es', tag: 'Hipoacusia silenciosa', kind: 'key', items: [
           { t: 'Líquido no purulento, tímpano íntegro', d: 'Sin fiebre ni dolor',
-            say: 'La otitis media con efusión, que también se llama otitis serosa, es líquido no purulento en el oído medio, con el tímpano intacto y sin signos de infección aguda. Es decir, no hay fiebre ni dolor. Y aquí está el truco: el niño solo no oye bien.' },
+            say: 'La otitis media con efusión, que también se llama otitis serosa, es líquido no purulento en el oído medio, con el tímpano intacto y sin signos de infección aguda. Mira este tímpano: está entero, de color amarillento, y detrás se ve una línea de líquido con burbujas de aire. No hay fiebre ni dolor, y aquí está el truco: el niño solo no oye bien.',
+            photo: { src: 'biblioteca/17_otorrino/orl-02/01_otitis-media-con-efusion-nivel-hidroaereo__bates_p318.jpg', label: 'Efusión: nivel de líquido', at: 'Mira este tímpano', credit: 'Bates, Guía de exploración física, Tabla 7-20' } },
           { t: 'Trompa de Eustaquio sin ventilar', d: 'Adenoides o rinitis alérgica',
             say: 'La causa es la misma disfunción de la trompa de Eustaquio que viste en la otitis aguda, pero aquí sin infección. En el niño se relaciona con hipertrofia de adenoides, y en general con rinitis alérgica.' },
           { t: 'Primera causa de hipoacusia conductiva', d: 'En preescolares y escolares',
@@ -32,7 +33,8 @@ module.exports = {
           { t: 'Sin antibióticos, antihistamínicos ni corticoides', d: 'Formalmente desaconsejados',
             say: 'Y mientras observas, nada de antibióticos, antihistamínicos, descongestionantes ni corticoides. Es una trampa muy frecuente: las alternativas con fármacos suenan activas, pero no sirven.' },
           { t: 'Persiste más de 3 meses', d: 'Con pérdida sobre 25 a 30 dB: colleras',
-            say: 'Si persiste más de tres meses con hipoacusia de conducción bilateral documentada, con umbral sobre veinticinco a treinta decibeles, se hace miringotomía con tubos de ventilación timpánica, las colleras. Primero observas y después operas, nunca al revés.' },
+            say: 'Si persiste más de tres meses con hipoacusia de conducción bilateral documentada, con umbral sobre veinticinco a treinta decibeles, se hace miringotomía con tubos de ventilación timpánica, las colleras. Mira esta: es un tubito que atraviesa el tímpano y devuelve la ventilación al oído medio, por eso la audición se normaliza casi de inmediato. Primero observas y después operas, nunca al revés.',
+            photo: { src: 'biblioteca/17_otorrino/orl-02/03_tubo-de-ventilacion-timpanica-colleras__bailey-love_p731.jpg', label: 'Collera en el tímpano', at: 'Mira esta', credit: 'Bailey & Love 27.ª ed., Fig. 46.20' } },
         ] },
       ],
     },
@@ -44,7 +46,8 @@ module.exports = {
       cards: [
         { title: 'Cómo se reconoce', tag: 'Perforación central', kind: 'criteria', items: [
           { t: 'Perforación permanente en la pars tensa', d: 'Respeta el annulus fibroso',
-            say: 'La otitis media crónica simple, o supurada benigna, es una inflamación crónica de la mucosa del oído medio con una perforación permanente en el centro del tímpano, en la pars tensa. La clave es que respeta el borde del tímpano, el annulus fibroso. Esa palabra, central, es la que la distingue de lo que viene después.' },
+            say: 'La otitis media crónica simple, o supurada benigna, es una inflamación crónica de la mucosa del oído medio con una perforación permanente en el centro del tímpano, en la pars tensa. La clave es que respeta el borde del tímpano, el annulus fibroso. Mira cómo el agujero está en el centro y deja un borde de membrana a su alrededor. Esa palabra, central, es la que la distingue de lo que viene después.',
+            photo: { src: 'biblioteca/17_otorrino/orl-02/02_perforacion-timpanica-central__bates_p317.jpg', label: 'Perforación central', at: 'Mira cómo el agujero', credit: 'Bates, Guía de exploración física, Tabla 7-20' } },
           { t: 'Otorrea indolora, 6 a 12 semanas', d: 'Intermitente o persistente',
             say: 'Se manifiesta como otorrea que no duele, intermitente o persistente, durante más de seis a doce semanas, más una hipoacusia.' },
           { t: 'Pseudomonas y Staphylococcus aureus', d: 'Los gérmenes habituales',
@@ -58,26 +61,6 @@ module.exports = {
           { t: 'Fase seca: timpanoplastia electiva', d: 'Cierra la perforación y recupera audición',
             say: 'Y cuando el oído está seco, el tratamiento definitivo es quirúrgico, una timpanoplastia electiva, que cierra la membrana y recupera la audición.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Oído con líquido, perforación y collera',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-02/01_otitis-media-con-efusion-nivel-hidroaereo__bates_p318.jpg', label: 'Efusión serosa: tímpano íntegro, color ámbar, con nivel de líquido y burbujas', credit: 'Bates, Guía de exploración física, Tabla 7-20' },
-        { src: 'biblioteca/17_otorrino/orl-02/02_perforacion-timpanica-central__bates_p317.jpg', label: 'Perforación central del tímpano, en la pars tensa', credit: 'Bates, Guía de exploración física, Tabla 7-20' },
-        { src: 'biblioteca/17_otorrino/orl-02/03_tubo-de-ventilacion-timpanica-colleras__bailey-love_p731.jpg', label: 'Tubo de ventilación timpánica (collera) en el tímpano izquierdo', credit: 'Bailey & Love 27.ª ed., Fig. 46.20' },
-      ],
-      steps: [
-        { note: 'Tímpano íntegro, ámbar, con burbujas',
-          say: 'Primero la efusión. Fíjate que el tímpano está entero, de color amarillento, y detrás se ve una línea de líquido con burbujas de aire. Eso, sin fiebre ni dolor, es una otitis con efusión.' },
-        { note: 'Perforación central, lejos del borde',
-          say: 'Ahora la otitis crónica simple. Mira cómo el agujero está en el centro del tímpano y deja un borde de membrana a su alrededor. Esa perforación central es la que no compromete el borde óseo.' },
-        { note: 'La collera ventila el oído medio',
-          say: 'Y esta es una collera. Es un tubito que atraviesa el tímpano y devuelve la ventilación al oído medio, y por eso la audición se normaliza casi de inmediato. Se indica cuando la efusión persiste más de tres meses con hipoacusia.' },
       ],
     },
 
@@ -113,6 +96,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El colesteatoma que come hueso',
+      images: [
+        { src: 'animaciones/orl-02/A1_colesteatoma_erosion_osea.mp4', label: 'Colesteatoma: del bolsillo de retracción a la erosión del hueso', credit: 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Una bolsa de queratina que destruye en orden',
+          say: 'Mira el tímpano: en su parte superior se forma un bolsillo de retracción, y ahí se acumulan escamas de queratina. El saco crece hacia el ático y la mastoides, y sus enzimas disuelven el hueso. Primero cae la cadena de huesecillos, con hipoacusia. Después el canal del nervio facial, con parálisis. Luego el canal semicircular, con vértigo, y por último el techo del oído, con meningitis. Por eso se opera siempre.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Colesteatoma',
       title: 'Cómo se reconoce y cómo se trata',
@@ -121,7 +118,8 @@ module.exports = {
           { t: 'Perforación marginal o atical', d: 'Pars flácida o bolsillo de retracción',
             say: 'La otoscopía lo delata. En lugar de una perforación central, hay una perforación marginal, que compromete el borde del tímpano, o atical, en la pars flácida, o un bolsillo de retracción en esa zona.' },
           { t: 'Escamas nacaradas y otorrea fétida', d: 'Refractaria a antibióticos',
-            say: 'Por el agujero asoman escamas blanquecinas nacaradas de queratina, con una otorrea purulenta de olor fétido, que no responde a los antibióticos. Fetidez, escamas y borde: quédate con esas tres palabras.' },
+            say: 'Por el agujero asoman escamas blanquecinas nacaradas de queratina, con una otorrea purulenta de olor fétido, que no responde a los antibióticos. Mira esta otoscopía: una masa blanca nacarada, queratina acumulada, detrás del tímpano. Fetidez, escamas y borde: quédate con esas tres palabras.',
+            photo: { src: 'biblioteca/17_otorrino/orl-02/05_colesteatoma-otoscopia__nelson_p5122.jpg', label: 'Masa blanco nacarada', at: 'Mira esta otoscopía', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 5122' } },
           { t: 'Signo de la fístula', d: 'Vértigo y nistagmo al comprimir el trago',
             say: 'Y si al comprimir el trago el paciente se marea y tiene nistagmo, significa que ya erosionó el canal semicircular lateral. Es el signo de la fístula.' },
         ] },
@@ -130,6 +128,29 @@ module.exports = {
             say: 'El examen de elección es el TAC de peñasco de alta resolución, sin contraste, que muestra la extensión de la erosión ósea.' },
           { t: 'Timpanomastoidectomía', d: 'Derivar al especialista',
             say: 'El tratamiento es siempre quirúrgico: una timpanomastoidectomía, radical o conservadora. Los antibióticos tópicos solo controlan la sobreinfección, pero no sacan el colesteatoma.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Colesteatoma',
+      title: 'Qué te dice la TAC de oídos',
+      cards: [
+        { title: 'Lo que describe el informe', tag: 'Sin contraste', kind: 'key', items: [
+          { t: 'Masa de partes blandas en el ático', d: 'Erosión del scutum y del aditus ad antrum ensanchado',
+            say: 'Pides la TAC de oídos sin contraste ante una otitis crónica con sospecha de colesteatoma, o ante cualquier complicación. Tú no la lees corte a corte: usas el informe. En el colesteatoma describe una masa de partes blandas en el ático o el antro, con erosión del scutum y el aditus ad antrum ensanchado. Mira este corte: una masa de partes blandas rodea los huesecillos, en el oído medio.',
+            photo: { src: 'biblioteca/17_otorrino/orl-02/04_colesteatoma-congenito-tac__nelson_p5104.jpg', label: 'TAC: masa en el oído medio', at: 'Mira este corte', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 5104' } },
+          { t: 'Erosión de la cadena osicular', d: 'Sobre todo la apófisis larga del yunque',
+            say: 'También informa la erosión de los huesecillos, sobre todo la apófisis larga del yunque y el estribo, y una mastoides poco neumatizada o llena de tejido inflamatorio.' },
+        ] },
+        { title: 'Hallazgos que te hacen derivar urgente', tag: 'Complicación', kind: 'alert', items: [
+          { t: 'Tegmen, canal semicircular, canal facial', d: 'Meningitis, vértigo, parálisis facial',
+            say: 'Los hallazgos que cambian la conducta son los de complicación: erosión del tegmen, con riesgo de meningitis o absceso temporal; fístula del canal semicircular lateral, con vértigo; y dehiscencia del canal del nervio facial. Cualquiera de ellos obliga a derivar de urgencia.' },
+          { t: 'Pared del seno sigmoides', d: 'Riesgo de trombosis',
+            say: 'La erosión de la pared del seno sigmoides anuncia una trombosis del seno.' },
+          { t: 'TAC normal no descarta', d: 'RM con difusión: residual o intracraneal',
+            say: 'Y ojo: una TAC normal no descarta un colesteatoma pequeño; manda la otoscopía. La resonancia con difusión se reserva para el colesteatoma residual o la sospecha de complicación intracraneal.' },
         ] },
       ],
     },
@@ -269,6 +290,44 @@ module.exports = {
         options: 'Las opciones: corticoides orales, amoxicilina con clavulánico por tres semanas, colleras, mastoidectomía, o antihistamínicos con descongestionantes. Piénsalo.',
         answer: 'Es la C. Es una otitis con efusión que ya pasó los tres meses de observación y tiene hipoacusia documentada, por lo que corresponde poner colleras. Las opciones con fármacos son la trampa clásica, porque están formalmente desaconsejadas. Y la mastoidectomía se reserva para el colesteatoma o la mastoiditis.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.4.005 · TAC de oídos sin medio de contraste",
+      "stem": "Hombre de 40 años con otorrea fétida crónica del oído derecho e hipoacusia progresiva. La otoscopía muestra una perforación timpánica marginal posterosuperior con material blanquecino descamativo. Se planifica cirugía.",
+      "question": "¿Cuál es el examen de imagen de elección para evaluar la extensión de la lesión?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Audiometría solamente"
+        },
+        {
+          "letter": "B",
+          "text": "Radiografía de Schüller"
+        },
+        {
+          "letter": "C",
+          "text": "Resonancia magnética de cerebro con contraste como primer examen"
+        },
+        {
+          "letter": "D",
+          "text": "Ecografía de mastoides"
+        },
+        {
+          "letter": "E",
+          "text": "TAC de oídos (hueso temporal) sin medio de contraste"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Una perforación marginal o atical con escamas blanquecinas y otorrea fétida es un colesteatoma. La TAC de hueso temporal sin contraste, de alta resolución, es el examen de elección para evaluar la erosión ósea (cadena osicular, canal semicircular lateral, tegmen, canal del facial) y planificar la cirugía. La resonancia se usa ante sospecha de complicación intracraneana o recidiva.",
+      "say": {
+        "stem": "Hombre de cuarenta años con otorrea fétida crónica, hipoacusia y una perforación marginal con escamas blanquecinas. Se planifica cirugía.",
+        "question": "¿Cuál es el examen de elección para ver la extensión?",
+        "options": "Las opciones: solo audiometría, radiografía de Schüller, resonancia como primer examen, ecografía o TAC de hueso temporal sin contraste. Piénsalo.",
+        "answer": "Es la E. Es un colesteatoma y la TAC de hueso temporal sin contraste muestra la erosión ósea para planificar la cirugía. La resonancia tienta por ser más moderna, pero se reserva para complicaciones intracraneanas o recidiva."
+      }
     },
 
     {

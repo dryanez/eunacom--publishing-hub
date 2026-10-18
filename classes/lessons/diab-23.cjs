@@ -144,6 +144,49 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Prevención',
+      title: 'Controla todo el riesgo, no un número',
+      cards: [
+        { title: 'Factores de riesgo vascular', tag: 'Diabético y ERC', kind: 'key', items: [
+          { t: 'Tabaco: consejería, reemplazo, vareniclina', d: 'Cesación en cada control',
+            say: 'Vamos a la prevención, que en el diabético y en el paciente con enfermedad renal crónica es la base del manejo. Se parte por la cesación del tabaco, con consejería breve, terapia de reemplazo de nicotina o vareniclina.' },
+          { t: 'PA < 130/80 con IECA o ARA-II si hay albuminuria', d: 'HbA1c individualizada, LDL según riesgo',
+            say: 'Presión bajo ciento treinta sobre ochenta, con IECA o ARA dos si hay albuminuria; hemoglobina glicosilada individualizada y LDL según el riesgo.' },
+          { t: '150 min/semana, dieta mediterránea', d: 'Sal < 5 g/día, alcohol limitado',
+            say: 'Peso saludable y cintura controlada, ciento cincuenta minutos semanales de actividad física, alimentación mediterránea con menos de cinco gramos de sal al día y alcohol limitado.' },
+        ] },
+        { title: 'Lo que se evita o se agrega', tag: 'Regla', kind: 'criteria', items: [
+          { t: 'En ERC: evitar AINE, agregar iSGLT2', d: 'Aspirina 100 mg solo en prevención secundaria',
+            say: 'En enfermedad renal crónica se evitan los antiinflamatorios no esteroidales y se agrega un inhibidor de SGLT dos cuando corresponde. La aspirina se reserva para prevención secundaria. La regla es tratar el riesgo global y no un valor aislado.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Prevención',
+      title: 'Prevenir las dislipidemias',
+      cards: [
+        { title: 'Pesquisa y medidas', tag: 'Prevención primaria', kind: 'normal', items: [
+          { t: 'Perfil lipídico periódico en el EMPA', d: 'Hijos de familias con HF desde la infancia',
+            say: 'Para prevenir las dislipidemias, el perfil lipídico se pesquisa de forma periódica en el adulto en el EMPA, con más frecuencia si hay factores de riesgo o antecedente familiar. En familias con hipercolesterolemia familiar se tamiza a los hijos desde la infancia.' },
+          { t: 'Depósitos de colesterol al examen', d: 'Xantelasma y xantomas tendinosos',
+            say: 'Al examinar, busca los depósitos de colesterol. Mira este párpado: las placas amarillas son xantelasmas, que pueden verse con colesterol normal pero obligan a medirlo. Y en este tendón de Aquiles, el xantoma tendinoso sí es específico: sugiere hipercolesterolemia familiar.',
+            photos: [{ src: 'biblioteca/04_diabetes/diab-23/01_xantelasma__amir-endocrino_p120.jpg', label: 'Xantelasma', at: 'Mira este párpado', credit: 'Manual AMIR Endocrinología, p. 120' }, { src: 'biblioteca/04_diabetes/diab-23/01_xantomas_tendinosos__fitzpatrick_p1311.jpg', label: 'Xantoma tendinoso', at: 'Y en este tendón de Aquiles', credit: 'Fitzpatrick 7.ª ed., Fig. 135-4' }] },
+          { t: 'Menos grasa saturada, más fibra y pescado', d: 'Bajar 5–10 % del peso baja TG cerca de 20 %',
+            say: 'Las medidas: reducir grasas saturadas y trans, aumentar fibra y pescado, y bajar entre cinco y diez por ciento del peso, que reduce los triglicéridos cerca de veinte por ciento. El ejercicio aeróbico sube el HDL y baja los triglicéridos, y dejar el tabaco también sube el HDL.' },
+        ] },
+        { title: 'Antes de decir «primaria»', tag: 'Causas secundarias', kind: 'alert', items: [
+          { t: 'Hipotiroidismo, nefrótico, colestasis', d: 'DM descompensada, alcohol, fármacos',
+            say: 'Y antes de rotular una dislipidemia como primaria, se corrigen las causas secundarias: hipotiroidismo, síndrome nefrótico, colestasis, diabetes descompensada y alcohol.' },
+          { t: 'Fármacos: tiazidas, betabloqueadores, corticoides', d: 'Anticonceptivos, retinoides, inhibidores de proteasa',
+            say: 'Entre los fármacos que las producen están las tiazidas, los betabloqueadores, los corticoides, los anticonceptivos, los retinoides y los inhibidores de proteasa.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -154,23 +197,6 @@ module.exports = {
       steps: [
         { note: 'La meta es el LDL según el riesgo',
           say: 'El LDL entra a la pared de la arteria y la placa crece; si su cápsula es delgada, puede romperse y causar un infarto. La estatina baja el LDL y engruesa la cápsula. La meta depende del riesgo: mientras más alto, más bajo el LDL. Y si no se llega con la dosis máxima, se agrega ezetimiba.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Depósitos de colesterol',
-      images: [
-        { src: 'biblioteca/04_diabetes/diab-23/01_xantelasma__amir-endocrino_p120.jpg', label: 'Xantelasma', credit: 'Manual AMIR Endocrinología, p. 120' },
-        { src: 'biblioteca/04_diabetes/diab-23/01_xantomas_tendinosos__fitzpatrick_p1311.jpg', label: 'Xantomas tendinosos', credit: 'Fitzpatrick 7.ª ed., Fig. 135-4' },
-      ],
-      steps: [
-        { note: 'Placas amarillas en los párpados',
-          say: 'Los xantelasmas son placas amarillas en los párpados. Pueden verse con colesterol normal, pero obligan a medirlo.' },
-        { note: 'Engrosamiento del tendón de Aquiles',
-          say: 'Y estos son xantomas tendinosos en el tendón de Aquiles. Ellos sí son específicos: sugieren hipercolesterolemia familiar.' },
       ],
     },
 
@@ -197,6 +223,8 @@ module.exports = {
           say: 'Mialgias con estatinas: primero la CK. Ni suspender a ciegas, ni irse a exámenes reumatológicos.' },
         { cells: ['CK más de 10 veces, orina color coñac', 'Rabdomiólisis: suspender', 'Llamarlo mialgia simple'],
           say: 'Y CK más de diez veces lo normal con orina color coñac es rabdomiólisis: se suspende la estatina, y ojo con la falla renal aguda.' },
+        { cells: ['Dislipidemia en usuario de tiazidas, corticoides o con hipotiroidismo', 'Corregir la causa secundaria primero', 'Rotularla de primaria e indicar fármaco'],
+          say: 'Y la dislipidemia en alguien con hipotiroidismo, síndrome nefrótico o corticoides: primero se corrige la causa secundaria. La trampa es rotularla de primaria y partir con un fármaco.' },
       ],
     },
 
@@ -336,6 +364,306 @@ module.exports = {
         options: 'Las opciones son: miopatía diabética, polineuropatía diabética, miopatía por estatinas, polimiositis, o polimialgia reumática. Piénsalo.',
         answer: 'Es la C, miopatía por estatinas. Hay dolor y debilidad proximal con la CK elevada varias veces sobre lo normal, en un usuario de atorvastatina: una miositis por estatinas, que exige suspenderla. La polimiositis también da debilidad proximal con CK alta, pero aquí el fármaco lo explica todo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.3.013 · Riesgo cardiovascular global",
+      "stem": "Mujer de 46 años, no fumadora, sin diabetes, consulta en el CESFAM para ingresar al Programa de Salud Cardiovascular. En 3 controles distintos tiene presión arterial promedio de 166/104 mmHg. Perfil lipídico: colesterol total 205 mg/dL, HDL 52 mg/dL, LDL 128 mg/dL. Creatinina 0,7 mg/dL, sin albuminuria.",
+      "question": "Según el MINSAL, ¿cómo se clasifica su riesgo cardiovascular?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bajo, porque es mujer menor de 50 años y no fuma"
+        },
+        {
+          "letter": "B",
+          "text": "Moderado, según las tablas de Framingham adaptadas a Chile"
+        },
+        {
+          "letter": "C",
+          "text": "No se puede clasificar sin una prueba de esfuerzo"
+        },
+        {
+          "letter": "D",
+          "text": "Alto, directamente, sin necesidad de usar tablas, por presión arterial de 160/100 mmHg o más"
+        },
+        {
+          "letter": "E",
+          "text": "Alto solo si el LDL supera 190 mg/dL"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En el Programa de Salud Cardiovascular algunas condiciones clasifican directamente como alto riesgo, sin tablas: enfermedad cardiovascular previa, diabetes, ERC etapa 3b o más, LDL 190 mg/dL o más y presión arterial persistente de 160/100 mmHg o más. En los demás se usa la tabla de Framingham adaptada a Chile.",
+      "say": {
+        "stem": "Mujer de cuarenta y seis años, no fumadora y sin diabetes, que en tres controles tiene una presión promedio de ciento sesenta y seis con ciento cuatro. Su LDL es ciento veintiocho y su función renal es normal.",
+        "question": "Según el ministerio, ¿cómo se clasifica su riesgo cardiovascular?",
+        "options": "Las opciones: bajo, moderado según tablas, requiere prueba de esfuerzo, alto directo por presión de ciento sesenta con cien o más o alto solo con LDL sobre ciento noventa. Piénsalo.",
+        "answer": "Es la D. Una presión persistente de ciento sesenta con cien o más clasifica como alto riesgo de inmediato, sin calcular tablas. Usar la tabla de Framingham tienta porque es una mujer joven sin otros factores, pero la tabla solo se usa cuando no hay una condición de alto riesgo directo."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.021 · Perfil lipídico",
+      "stem": "Hombre de 52 años con obesidad y consumo diario de alcohol, en control de salud. Perfil lipídico en ayunas de 12 horas: colesterol total 260 mg/dL, HDL 34 mg/dL, triglicéridos 520 mg/dL. El informe del laboratorio no entrega el valor de LDL.",
+      "question": "¿Cuál es la interpretación más adecuada respecto al colesterol LDL?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Calcular el LDL con la fórmula de Friedewald: 122 mg/dL"
+        },
+        {
+          "letter": "B",
+          "text": "El LDL no tiene importancia en este paciente"
+        },
+        {
+          "letter": "C",
+          "text": "Repetir el perfil sin ayuno para obtener el LDL"
+        },
+        {
+          "letter": "D",
+          "text": "El LDL es igual al colesterol total menos el HDL"
+        },
+        {
+          "letter": "E",
+          "text": "Con triglicéridos sobre 400 mg/dL la fórmula de Friedewald no es válida; se usa LDL medido en forma directa o el colesterol no HDL"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La fórmula de Friedewald (LDL = colesterol total − HDL − triglicéridos/5) solo es válida con triglicéridos bajo 400 mg/dL. Sobre ese valor sobreestima las VLDL y subestima el LDL. Se pide LDL directo o se usa el colesterol no HDL (aquí 226 mg/dL). Además, con triglicéridos sobre 500 la prioridad es prevenir la pancreatitis.",
+      "say": {
+        "stem": "Hombre de cincuenta y dos años, obeso y bebedor diario. Su perfil lipídico en ayunas muestra colesterol total doscientos sesenta, HDL treinta y cuatro y triglicéridos quinientos veinte. El laboratorio no informa el LDL.",
+        "question": "¿Cuál es la interpretación más adecuada respecto al colesterol LDL?",
+        "options": "Las opciones: calcularlo con Friedewald, el LDL no importa, repetir sin ayuno, colesterol total menos HDL es el LDL o Friedewald no válida y pedir LDL directo o usar el no HDL. Piénsalo.",
+        "answer": "Es la E. La fórmula de Friedewald solo sirve con triglicéridos bajo cuatrocientos; con quinientos veinte el LDL calculado sale falsamente bajo. Calcularlo igual tienta porque el laboratorio no lo dio, pero ese ciento veintidós no es real. El total menos el HDL es el colesterol no HDL, no el LDL."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.002 · Dislipidemias",
+      "stem": "Un niño de 11 años es derivado por colesterol LDL de 205 mg/dL, confirmado en dos mediciones. Su padre tuvo un infarto agudo al miocardio a los 42 años. Lleva 6 meses con dieta y actividad física supervisadas, con LDL de control de 198 mg/dL. Su IMC es normal y no tiene otras enfermedades.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener solo dieta y controlar en un año"
+        },
+        {
+          "letter": "B",
+          "text": "Indicar suplementos de omega 3 como única medida"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar fibratos"
+        },
+        {
+          "letter": "D",
+          "text": "Esperar hasta los 18 años para iniciar fármacos"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar una estatina en dosis baja manteniendo la dieta"
+        }
+      ],
+      "correct": "E",
+      "explanation": "LDL de 190 mg/dL o más persistente tras 6 meses de dieta, en un niño de 10 años o más, sugiere hipercolesterolemia familiar y es indicación de estatina, sobre todo con antecedente de enfermedad coronaria precoz. Se inicia en dosis baja, manteniendo cambios de estilo de vida y vigilando CK y transaminasas. Los fibratos son para hipertrigliceridemia.",
+      "say": {
+        "stem": "Un niño de once años tiene un colesterol LDL cercano a doscientos que no baja tras seis meses de dieta, y su padre tuvo un infarto a los cuarenta y dos años.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: solo dieta, omega tres, fibratos, esperar a los dieciocho años o estatina en dosis baja. Piénsalo.",
+        "answer": "Es la E. Un LDL sobre ciento noventa que persiste pese a la dieta en un niño de diez años o más, con infarto precoz familiar, indica estatina. Mantener solo la dieta tienta, pero ya fracasó y el riesgo cardiovascular es alto."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.019 · Perfil lipídico",
+      "stem": "En el control de salud de un niño de 5 años, sano y con IMC normal, la madre refiere que el padre del niño tuvo un infarto agudo al miocardio a los 45 años y tiene colesterol total de 320 mg/dL.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No solicitar exámenes hasta los 18 años"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar solo glicemia"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar estatina empírica"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar perfil lipídico en ayunas"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar perfil lipídico solo si desarrolla obesidad"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Se recomienda tamizaje selectivo con perfil lipídico desde los 2 años en niños con antecedente familiar de enfermedad cardiovascular precoz (hombres menores de 55 años, mujeres menores de 65) o dislipidemia familiar, además de un tamizaje universal entre los 9 y 11 años. Así se pesquisa la hipercolesterolemia familiar, que requiere manejo precoz. Las estatinas no se usan sin diagnóstico.",
+      "say": {
+        "stem": "Un niño de cinco años sano tiene un padre con infarto a los cuarenta y cinco años y colesterol muy alto.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: esperar a los dieciocho años, solo glicemia, estatina empírica, perfil lipídico o perfil lipídico solo si engorda. Piénsalo.",
+        "answer": "Es la D. Con antecedente familiar de enfermedad coronaria precoz se pide perfil lipídico desde los dos años. Iniciar estatina tienta por el riesgo, pero no corresponde sin confirmar una dislipidemia."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 53",
+      "stem": "Un paciente hipertenso y diabético se realiza un perfil lipídico, que muestra triglicéridos de 350 mg/dL, colesterol LDL de 230 mg/dL y colesterol HDL de 37 mg/dL.",
+      "question": "¿Qué tratamiento debe indicarse?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Atorvastatina"
+        },
+        {
+          "letter": "B",
+          "text": "Gemfibrozilo"
+        },
+        {
+          "letter": "C",
+          "text": "Insulina"
+        },
+        {
+          "letter": "D",
+          "text": "Lovastatina más gemfibrozilo"
+        },
+        {
+          "letter": "E",
+          "text": "Ezetimibe"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En un diabético hipertenso, de alto riesgo, el objetivo primario es el LDL; con triglicéridos bajo 500 mg/dL no se prioriza el fibrato. Corresponde una estatina potente como atorvastatina. La combinación de estatina con gemfibrozilo aumenta el riesgo de miopatía y rabdomiólisis.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Un paciente hipertenso y diabético tiene triglicéridos de trescientos cincuenta, LDL de doscientos treinta y HDL de treinta y siete.",
+        "question": "¿Qué tratamiento debe indicarse?",
+        "options": "Las opciones: atorvastatina, gemfibrozilo, insulina, lovastatina más gemfibrozilo o ezetimibe. Piénsalo.",
+        "answer": "Es la A. Con triglicéridos bajo quinientos el blanco es el LDL, y en un diabético de alto riesgo va una estatina potente. El gemfibrozilo tienta por los triglicéridos, pero no es la prioridad y combinado con estatina aumenta la miopatía."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.01.4.013 · Perfil lipídico",
+      "stem": "Un hombre de 50 años se realiza un perfil lipídico con 12 horas de ayuno: colesterol total 260 mg/dL, HDL 40 mg/dL y triglicéridos 600 mg/dL. El laboratorio no informa el LDL calculado.",
+      "question": "¿Por qué no se informa el colesterol LDL?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Porque el ayuno fue insuficiente"
+        },
+        {
+          "letter": "B",
+          "text": "Porque el LDL solo se mide en diabéticos"
+        },
+        {
+          "letter": "C",
+          "text": "Porque el HDL es bajo"
+        },
+        {
+          "letter": "D",
+          "text": "Porque el colesterol total es normal"
+        },
+        {
+          "letter": "E",
+          "text": "Porque la fórmula de Friedewald no es válida con triglicéridos sobre 400 mg/dL"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El LDL suele calcularse con Friedewald: LDL = CT − HDL − TG/5. Con triglicéridos sobre 400 mg/dL la fórmula pierde validez y se mide el LDL directo o se usa el colesterol no-HDL (CT − HDL), aquí 220 mg/dL. Con TG sobre 500, la prioridad es bajarlos para prevenir pancreatitis.",
+      "say": {
+        "stem": "Un hombre de cincuenta años tiene en ayuno colesterol total de doscientos sesenta, HDL de cuarenta y triglicéridos de seiscientos. El laboratorio no informa el LDL.",
+        "question": "¿Por qué no se informa el LDL?",
+        "options": "Las opciones: ayuno insuficiente, el LDL solo se mide en diabéticos, HDL bajo, colesterol total normal o la fórmula de Friedewald no sirve con triglicéridos sobre cuatrocientos. Piénsalo.",
+        "answer": "Es la E. La fórmula de Friedewald pierde validez con triglicéridos sobre cuatrocientos, así que se usa el colesterol no HDL o el LDL directo. El ayuno insuficiente tienta, pero él tenía doce horas de ayuno."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.3.007 · Prevención de dislipidemias",
+      "stem": "Un hombre de 42 años, con colesterol LDL de 145 mg/dL, sin otros factores de riesgo y con riesgo cardiovascular bajo, pregunta qué cambio alimentario reduce más su LDL.",
+      "question": "¿Cuál es la medida dietética más efectiva para reducir el colesterol LDL?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Suprimir todas las grasas, incluidos el aceite de oliva y los frutos secos"
+        },
+        {
+          "letter": "B",
+          "text": "Eliminar completamente los huevos"
+        },
+        {
+          "letter": "C",
+          "text": "Aumentar el consumo de azúcares simples"
+        },
+        {
+          "letter": "D",
+          "text": "Consumir más carnes rojas procesadas"
+        },
+        {
+          "letter": "E",
+          "text": "Reducir las grasas saturadas y trans, reemplazándolas por grasas insaturadas"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Las grasas saturadas (carnes grasas, mantequilla, embutidos) y trans son los principales determinantes dietéticos del LDL. Reemplazarlas por grasas insaturadas (aceite de oliva o canola, frutos secos, pescado), sumando fibra soluble y actividad física, es la base de la prevención. El colesterol del huevo influye menos.",
+      "say": {
+        "stem": "Un hombre de cuarenta y dos años con LDL de ciento cuarenta y cinco y riesgo cardiovascular bajo pregunta qué cambio alimentario le baja más el LDL.",
+        "question": "¿Cuál es la medida dietética más efectiva?",
+        "options": "Las opciones: suprimir todas las grasas, eliminar los huevos, más azúcares simples, más carnes procesadas o reemplazar grasas saturadas y trans por insaturadas. Piénsalo.",
+        "answer": "Es la E. Lo que más sube el LDL son las grasas saturadas y trans, y reemplazarlas por insaturadas es lo más eficaz. Eliminar los huevos tienta, pero el colesterol dietario pesa menos que las grasas saturadas."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.3.002 · Control de factores de riesgo de enfermedad vascular",
+      "stem": "Hombre de 58 años con DM2, hipertensión y tabaquismo activo, sin eventos cardiovasculares previos, tiene colesterol LDL de 132 mg/dL. Se clasifica como de riesgo cardiovascular alto.",
+      "question": "¿Cuál es la meta de colesterol LDL más adecuada para este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Menor de 190 mg/dL"
+        },
+        {
+          "letter": "B",
+          "text": "Menor de 160 mg/dL"
+        },
+        {
+          "letter": "C",
+          "text": "Menor de 130 mg/dL"
+        },
+        {
+          "letter": "D",
+          "text": "Menor de 70 mg/dL"
+        },
+        {
+          "letter": "E",
+          "text": "No requiere meta de LDL, solo control glicémico"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En pacientes de riesgo cardiovascular alto, como diabéticos con otros factores de riesgo, la meta de LDL es menor de 70 mg/dL, idealmente con una reducción de al menos 50%, usando estatinas de alta intensidad. El control integral de factores de riesgo incluye cesación tabáquica, control de presión y glicemia; dejar de fumar es la medida aislada de mayor impacto.",
+      "say": {
+        "stem": "Hombre de cincuenta y ocho años, diabético, hipertenso y fumador, con riesgo cardiovascular alto y LDL de ciento treinta y dos.",
+        "question": "¿Cuál es su meta de LDL?",
+        "options": "Las opciones: bajo ciento noventa, bajo ciento sesenta, bajo ciento treinta, bajo setenta, o sin meta. Piénsalo.",
+        "answer": "Es la D. Bajo setenta, por ser de riesgo alto. Bajo ciento treinta sirve para riesgo bajo, pero en este paciente es insuficiente."
+      }
     },
 
     {

@@ -55,7 +55,8 @@ module.exports = {
         ] },
         { title: 'Tratamiento', tag: 'Mecánico, sin fármacos', kind: 'pharma', items: [
           { t: 'Maniobra de Epley o Semont', d: 'En la misma consulta',
-            say: 'El tratamiento de elección no son los fármacos, son las maniobras de reposición de partículas, la de Epley o la de Semont. Se hacen en el box y devuelven los cristales al utrículo.' },
+            say: 'El tratamiento de elección no son los fármacos, son las maniobras de reposición de partículas, la de Epley o la de Semont. Se hacen en el box y devuelven los cristales al utrículo. Mira la secuencia: el paciente parte sentado, se acuesta con la cabeza girada hacia el oído afectado, se gira la cabeza al otro lado, luego el cuerpo, y se sienta.',
+            photo: { src: 'biblioteca/17_otorrino/orl-07/01_maniobra-de-epley-modificada__harrison_p202.jpg', label: 'Maniobra de Epley', at: 'Mira la secuencia', credit: 'Harrison 21.ª ed., Fig. 22-1' } },
           { t: 'Cura a más del 90%', d: 'Sin cinarizina ni sedantes',
             say: 'Curan a más del noventa por ciento de los pacientes. La cinarizina, la flunarizina y los sedantes vestibulares no corrigen la causa mecánica y dan somnolencia, y parkinsonismo en adultos mayores. Esa es la trampa clásica.' },
         ] },
@@ -64,15 +65,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Maniobra de Epley paso a paso',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La piedrita, Epley y cuánto dura cada vértigo',
       images: [
-        { src: 'biblioteca/17_otorrino/orl-07/01_maniobra-de-epley-modificada__harrison_p202.jpg', label: 'Secuencia de la maniobra de Epley modificada: fila superior para el oído derecho, fila inferior para el izquierdo', credit: 'Harrison 21.ª ed., Fig. 22-1' },
+        { src: 'animaciones/orl-07/A1_vppb_otoconias_epley_duracion.mp4', label: 'VPPB: otoconias en el canal posterior y maniobra de Epley', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Giros de cabeza en cuatro tiempos',
-          say: 'Mira la secuencia, de izquierda a derecha. El paciente parte sentado, se acuesta con la cabeza girada hacia el oído afectado, luego se gira la cabeza hacia el otro lado, después el cuerpo y la cabeza, y finalmente se vuelve a sentar. En cada posición se espera a que ceda el nistagmo. Con esos giros, la partícula recorre el canal y sale de vuelta al utrículo.' },
+        { note: 'Canalitiasis, Epley y duración de los vértigos',
+          say: 'Mira el canal semicircular posterior. Las otoconias se sueltan del utrículo y caen al canal. Cuando la cabeza cambia de posición se mueven, arrastran la endolinfa, y la cúpula manda una señal falsa de giro: vértigo de diez a sesenta segundos, con latencia, y un nistagmo que se agota. La maniobra de Epley devuelve las partículas al utrículo. Y la duración se pregunta: segundos en el VPPB, horas en el Ménière, días en la neuronitis.' },
       ],
     },
 

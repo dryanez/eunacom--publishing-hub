@@ -34,11 +34,16 @@ module.exports = {
         { show: ['hip'], note: 'Sin riesgo',
           say: 'El pólipo hiperplásico no es premaligno. No evoluciona a cáncer, así que se observa y listo. No necesita cirugía ni vigilancia especial.' },
         { show: ['ade'], note: 'El velloso es el de mayor riesgo',
-          say: 'El adenomatoso, en cambio, es la lesión precursora del cáncer. Puede ser tubular, tubulovelloso o velloso, y el velloso es el de mayor riesgo.' },
+          say: 'El adenomatoso, en cambio, es la lesión precursora del cáncer. Puede ser tubular, tubulovelloso o velloso, y el velloso es el de mayor riesgo. Mira este pólipo pediculado: una cabeza sobre un tallo. Y este es sésil, con base ancha y sin tallo: es más difícil de resecar y tiene más riesgo de degenerar.',
+          photos: [
+            { src: 'biblioteca/01_gastroenterologia/gastro-11/02_polipo_pediculado__harrison_p2433.jpg', label: 'Pólipo pediculado', at: 'Mira este pólipo pediculado', credit: 'Harrison 21.ª ed., p. 2433' },
+            { src: 'biblioteca/01_gastroenterologia/gastro-11/01_polipo_sesil__harrison_p2433.jpg', label: 'Pólipo sésil', at: 'Y este es sésil', credit: 'Harrison 21.ª ed., p. 2433' },
+          ] },
         { show: ['sec'], note: 'La ventana del tamizaje',
           say: 'El paso de adenoma a carcinoma tarda alrededor de diez años. Esa es la ventana que aprovecha el tamizaje: encontrar el adenoma antes de que se transforme.' },
         { show: ['pe'], note: 'Resecar el adenoma previene el cáncer',
-          say: 'Por eso el adenoma se reseca en la misma colonoscopía, con polipectomía, y se controla con una nueva colonoscopía en uno a tres años, según el número, el tamaño y la histología. Resecar adenomas es prevenir cáncer. Fíjate que aquí la colonoscopía no solo diagnostica: también trata.' },
+          say: 'Por eso el adenoma se reseca en la misma colonoscopía, con polipectomía, y se controla con una nueva colonoscopía en uno a tres años, según el número, el tamaño y la histología. Resecar adenomas es prevenir cáncer. Fíjate que aquí la colonoscopía no solo diagnostica: también trata. Mira este otro pólipo en la colonoscopía, redondeado y rojizo, de los que se resecan con asa.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-11/01_polipo-pediculado_1__cto-digestivo_p119.jpg', label: 'Pólipo en colonoscopía', at: 'Mira este otro pólipo', credit: 'Manual CTO Digestivo 14.ª ed., p. 119' } },
       ],
     },
 
@@ -101,7 +106,8 @@ module.exports = {
       cards: [
         { title: 'Poliposis adenomatosa familiar', tag: '100 % maligniza', kind: 'alert', items: [
           { t: 'Cientos de pólipos', d: '"Innumerables pólipos" en paciente joven',
-            say: 'Hay dos síndromes hereditarios que se preguntan. El primero es la poliposis adenomatosa familiar: cientos de pólipos adenomatosos. Si el enunciado dice innumerables pólipos, ya sabes qué es.' },
+            say: 'Hay dos síndromes hereditarios que se preguntan. El primero es la poliposis adenomatosa familiar: cientos de pólipos adenomatosos. Si el enunciado dice innumerables pólipos, ya sabes qué es. Mira este colon tapizado de pólipos, no uno ni dos.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-11/04_poliposis-adenomatosa-familiar__atlas-eunacom.jpg', label: 'Poliposis familiar', at: 'Mira este colon', credit: 'Atlas EUNACOM 2026' } },
           { t: 'Colectomía total profiláctica', d: 'Resecar uno a uno es inviable',
             say: 'Como el cien por ciento maligniza, la conducta es la colectomía total profiláctica. Sacar los pólipos uno a uno es imposible y no elimina el riesgo.' },
         ] },
@@ -123,7 +129,8 @@ module.exports = {
           { t: 'Hemicolectomía derecha o izquierda', d: 'Según la localización',
             say: 'El tratamiento del cáncer de colon es quirúrgico: hemicolectomía derecha o izquierda según dónde esté el tumor.' },
           { t: 'También en enfermedad avanzada', d: 'Para evitar la obstrucción',
-            say: 'Y se opera siempre, incluso en enfermedad avanzada, para evitar que el tumor termine obstruyendo el colon. Recuerda que la obstrucción es su complicación más frecuente.' },
+            say: 'Y se opera siempre, incluso en enfermedad avanzada, para evitar que el tumor termine obstruyendo el colon. Recuerda que la obstrucción es su complicación más frecuente. Esta radiografía muestra asas de colon muy dilatadas: una obstrucción.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-11/03_obstruccion-de-colon__cto-radiologia_p26.jpg', label: 'Obstrucción de colon', at: 'Esta radiografía muestra', credit: 'Manual CTO Radiología 14.ª ed., p. 26' } },
         ] },
         { title: 'Quimioterapia', tag: 'Muy eficaz', kind: 'pharma', items: [
           { t: 'Puede curar con metástasis hepáticas', d: 'Si son resecables',
@@ -179,46 +186,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Pólipos de colon',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-11/02_polipo_pediculado__harrison_p2433.jpg', label: 'Pólipo pediculado', credit: 'Harrison 21.ª ed., p. 2433' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-11/01_polipo_sesil__harrison_p2433.jpg', label: 'Pólipo sésil', credit: 'Harrison 21.ª ed., p. 2433' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-11/02_tipos-de-polipos__cto-digestivo_p119.jpg', label: 'Otros pólipos', credit: 'Manual CTO Digestivo 14.ª ed., p. 119' },
-      ],
-      steps: [
-        { note: 'Cabeza sobre un tallo',
-          say: 'Este es un pólipo pediculado: una cabeza sobre un tallo. Se reseca con asa en la misma colonoscopía.' },
-        { note: 'Base ancha, sin tallo',
-          say: 'Y este es sésil: se apoya sobre la pared con una base ancha, sin tallo. Es más difícil de resecar y tiene más riesgo de degenerar.' },
-        { note: 'Distintas formas y tamaños',
-          say: 'Recuerda la regla: mientras más grande, más velloso y más displásico, más riesgo de cáncer.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más pólipos y la obstrucción',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-11/01_polipo-pediculado_1__cto-digestivo_p119.jpg', label: 'Pólipo pediculado', credit: 'Manual CTO Digestivo 14.ª ed., p. 119' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-11/01_polipo-pediculado_2__cto-digestivo_p119.jpg', label: 'Pólipo grande, lobulado', credit: 'Manual CTO Digestivo 14.ª ed., p. 119' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-11/03_obstruccion-de-colon__cto-radiologia_p26.jpg', label: 'Obstrucción de colon', credit: 'Manual CTO Radiología 14.ª ed., p. 26' },
-      ],
-      steps: [
-        { note: 'Cabeza sobre un tallo',
-          say: 'Otro pólipo pediculado, ahora en la colonoscopía: una cabeza roja que cuelga de su tallo. Se reseca con asa en la misma colonoscopía.' },
-        { note: 'Mientras más grande, más riesgo',
-          say: 'Y este es un pólipo grande, de superficie lobulada. Mientras más grande, más riesgo de cáncer: resecar adenomas es prevenir cáncer.' },
-        { note: 'Asas de colon dilatadas',
-          say: 'Esta radiografía muestra asas de colon muy dilatadas: una obstrucción. Recuerda que la obstrucción es la complicación más frecuente del cáncer de colon.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Ahora pongamos todo en un solo árbol de decisión.',
     },
@@ -232,7 +199,11 @@ module.exports = {
         { cells: ['Pólipo hiperplásico', 'Nulo', 'Observar'],
           say: 'Repasemos en una tabla. Pólipo hiperplásico: riesgo nulo, se observa.' },
         { cells: ['Pólipo adenomatoso', 'Premaligno', 'Polipectomía + colonoscopía en 1–3 años'],
-          say: 'Pólipo adenomatoso: premaligno, se hace polipectomía y colonoscopía de control en uno a tres años.' },
+          say: 'Pólipo adenomatoso: premaligno, se hace polipectomía y colonoscopía de control en uno a tres años. Mira este pólipo grande, de superficie lobulada: mientras más grande, más riesgo de cáncer. Y esta lesión plana, de superficie granular y con una zona central cubierta de fibrina amarillenta, es otra forma que puede tomar; ese aspecto ulcerado hace sospechar malignidad.',
+          photos: [
+            { src: 'biblioteca/01_gastroenterologia/gastro-11/01_polipo-pediculado_2__cto-digestivo_p119.jpg', label: 'Pólipo grande, lobulado', at: 'Mira este pólipo grande', credit: 'Manual CTO Digestivo 14.ª ed., p. 119' },
+            { src: 'biblioteca/01_gastroenterologia/gastro-11/02_tipos-de-polipos__cto-digestivo_p119.jpg', label: 'Lesión plana, granular', at: 'Y esta lesión plana', credit: 'Manual CTO Digestivo 14.ª ed., p. 119' },
+          ] },
         { cells: ['Poliposis adenomatosa familiar', '100 % evoluciona a cáncer', 'Colectomía total profiláctica'],
           say: 'Poliposis adenomatosa familiar: el cien por ciento evoluciona a cáncer, colectomía total profiláctica.' },
         { cells: ['Síndrome de Lynch', 'Alto, pocos pólipos', 'Vigilancia colonoscópica intensiva'],
@@ -309,6 +280,120 @@ module.exports = {
         options: 'Las opciones: polipectomía de los pólipos mayores con control anual, colectomía total profiláctica, quimioprevención con antiinflamatorios, CEA seriado cada seis meses, o colonoscopía de control en tres años. Piénsalo.',
         answer: 'La respuesta es la B, colectomía total profiláctica. Innumerables pólipos adenomatosos en un joven con historia familiar es una poliposis adenomatosa familiar, y el cien por ciento maligniza. El distractor tentador es la polipectomía de los más grandes, que suena conservadora, pero con ciento cincuenta pólipos es inviable y no elimina el riesgo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.3.004 · Métodos de tamizaje para cáncer de colon y hepatocarcinoma",
+      "stem": "Hombre de 55 años, asintomático, sin antecedentes personales ni familiares de cáncer ni de pólipos, consulta en su CESFAM para un examen preventivo.",
+      "question": "¿Cuál es el método de tamizaje de cáncer colorrectal recomendado en este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Colonoscopía virtual por TAC cada 2 años"
+        },
+        {
+          "letter": "B",
+          "text": "Antígeno carcinoembrionario anual"
+        },
+        {
+          "letter": "C",
+          "text": "Test inmunológico de sangre oculta en deposiciones y, si es positivo, colonoscopía"
+        },
+        {
+          "letter": "D",
+          "text": "Tacto rectal anual"
+        },
+        {
+          "letter": "E",
+          "text": "Enema baritado cada 5 años"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En población de riesgo promedio desde los 50 años, el tamizaje en Chile se hace con test inmunológico de hemorragia oculta en deposiciones; si es positivo, colonoscopía. El CEA no sirve para tamizaje, solo para seguimiento del cáncer tratado. En hepatocarcinoma, en cambio, se tamiza al cirrótico con ecografía cada 6 meses.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de cincuenta y cinco años, sin síntomas y sin antecedentes personales ni familiares de cáncer o pólipos, consulta en su CESFAM para un examen preventivo.",
+        "question": "¿Cuál es el método de tamizaje de cáncer colorrectal recomendado en este paciente?",
+        "options": "Las opciones: colonoscopía virtual, antígeno carcinoembrionario, test inmunológico de sangre oculta y colonoscopía si es positivo, tacto rectal o enema baritado. Piénsalo.",
+        "answer": "Es la C. En riesgo promedio, desde los cincuenta años se tamiza con un test inmunológico de sangre oculta en deposiciones, y solo si resulta positivo se hace colonoscopía. El antígeno carcinoembrionario es la trampa: es un marcador de seguimiento, no de tamizaje. Y recuerda que en el cirrótico el tamizaje de hepatocarcinoma es con ecografía cada seis meses."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.5.006 · Colonoscopía",
+      "stem": "Hombre de 55 años, asintomático, se realiza un test inmunoquímico de sangre oculta en deposiciones como tamizaje de cáncer colorrectal, que resulta positivo.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repetir el test en 1 año"
+        },
+        {
+          "letter": "B",
+          "text": "Colonoscopía completa"
+        },
+        {
+          "letter": "C",
+          "text": "Rectosigmoidoscopía flexible exclusiva"
+        },
+        {
+          "letter": "D",
+          "text": "TAC de abdomen y pelvis"
+        },
+        {
+          "letter": "E",
+          "text": "Antígeno carcinoembrionario"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Un test de sangre oculta positivo en el tamizaje de cáncer colorrectal obliga a realizar una colonoscopía completa, que permite visualizar todo el colon, tomar biopsias y resecar pólipos en el mismo procedimiento. La rectosigmoidoscopía no evalúa el colon proximal, y el antígeno carcinoembrionario no sirve para diagnóstico ni tamizaje.",
+      "say": {
+        "stem": "Hombre de cincuenta y cinco años, asintomático, con un test inmunoquímico de sangre oculta en deposiciones positivo en su tamizaje de cáncer colorrectal.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: repetir el test en un año, colonoscopía completa, solo rectosigmoidoscopía, TAC de abdomen, o antígeno carcinoembrionario. Piénsalo.",
+        "answer": "Es la B. Un test de sangre oculta positivo siempre se sigue con colonoscopía completa, que diagnostica y además permite sacar pólipos. Repetir el test tienta para confirmar, pero un positivo no se anula con un negativo posterior y solo retrasa el diagnóstico."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.4.009 · Sangre oculta en deposiciones",
+      "stem": "Hombre de 56 años, asintomático y sin antecedentes familiares de cáncer, participa en un programa de tamizaje de cáncer colorrectal. El test inmunoquímico de sangre oculta en deposiciones resulta positivo.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repetir el test en 1 año"
+        },
+        {
+          "letter": "B",
+          "text": "Repetir el test en 3 muestras más y decidir según el resultado"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar antígeno carcinoembrionario"
+        },
+        {
+          "letter": "D",
+          "text": "Colonoscopía completa"
+        },
+        {
+          "letter": "E",
+          "text": "Rectoscopía rígida"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Un test de sangre oculta positivo en tamizaje obliga a colonoscopía completa, que identifica pólipos o cáncer y permite resecar y biopsiar. Repetir el test o pedir CEA retrasa el diagnóstico, y el CEA no sirve para tamizaje. La rectoscopía solo explora el recto y no descarta lesiones proximales.",
+      "say": {
+        "stem": "Hombre de cincuenta y seis años, asintomático, con test inmunoquímico de sangre oculta positivo en tamizaje.",
+        "question": "¿Qué haces?",
+        "options": "Las opciones: repetir en un año, repetir en más muestras, antígeno carcinoembrionario, colonoscopía completa o rectoscopía. Piénsalo.",
+        "answer": "Es la D. Colonoscopía completa. Repetir el test para confirmarlo es tentador, pero un negativo posterior no descarta el pólipo que sangró."
+      }
     },
 
     {

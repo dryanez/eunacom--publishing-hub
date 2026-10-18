@@ -1,0 +1,77 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Obstetricia 14 · sobre ilustración real: Blausen.com staff (2014) "Pregnancy", CC BY 3.0 (corte sagital, rótulos en inglés quitados).
+//   ?v=rpm   A1_rotura_infeccion: bolsa íntegra → rotura → líquido sale → bacterias suben → corioamnionitis
+const V = new URLSearchParams(location.search).get('v') || 'rpm';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade } = K;
+const I = k => window.IMGS[k];
+const S = 0.45, DST = { x: 40, y: 128, w: 1140 * 0.45, h: 1260 * 0.45 };
+const P = (x, y) => [DST.x + x * S, DST.y + y * S];
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip(); ctx.drawImage(I('emb'), DST.x, DST.y, DST.w, DST.h); ctx.restore();
+}
+function clip() { ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip(); }
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+const PATH = poly([[700, 805], [750, 835], [790, 885], [805, 935], [775, 1035], [725, 1150]].map(p => P(...p)));
+const RUP = P(692, 802);
+function flow(t, a, col, rev, n, sp, r) {
+  if (a <= 0) return; ctx.save(); clip();
+  for (let i = 0; i < n; i++) { const u = ((t * sp) + i / n) % 1, s = rev ? 1 - u : u, [x, y] = PATH.at(s, 5 * Math.sin(i * 2.3));
+    ctx.globalAlpha = a * Math.min(1, u * 6, (1 - u) * 6); ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); }
+  ctx.restore();
+}
+function bacteria(t, a, spread) {
+  if (a <= 0) return; ctx.save(); clip();
+  for (let i = 0; i < 16; i++) {
+    const u = clamp(((t * 0.22) - i * 0.045) % 1.4, 0, 1.4); let x, y;
+    if (u < 1) [x, y] = PATH.at(1 - u, 4 * Math.sin(i * 3)); else { const k = (u - 1) / 0.4, [bx, by] = PATH.at(0); x = bx - k * 40 * (1 + (i % 4)) * spread; y = by - k * (28 + 9 * (i % 5)) * spread; }
+    ctx.globalAlpha = a; ctx.fillStyle = '#B8E04A'; ctx.beginPath(); ctx.ellipse(x, y, 5.5, 3.2, i, 0, 7); ctx.fill();
+    ctx.strokeStyle = '#3E5A12'; ctx.lineWidth = 1; ctx.stroke(); }
+  ctx.restore();
+}
+function tear(a, grow) {
+  if (a <= 0) return; const [x, y] = RUP; ctx.save(); ctx.globalAlpha = a; K.glow(x, y, 34 + 14 * grow, '255,70,60', 0.55);
+  ctx.strokeStyle = '#B3122E'; ctx.lineWidth = 3.5; ctx.beginPath();
+  [[-12, -8], [-4, -2], [-10, 5], [-2, 10], [-8, 16]].forEach(([dx, dy], i) => { const X = x + dx * (1 + grow * 0.7), Y = y + dy * (1 + grow * 0.7); i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); });
+  ctx.stroke(); ctx.restore();
+}
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+function rpm(t) {
+  K.title('Rotura prematura de membranas', 'La bolsa deja de ser barrera: el líquido sale y las bacterias suben', C.BLUE);
+  lamina(seg(t, 0, 0.7));
+  label('Bolsa íntegra: protege al feto', 410, 190, C.GREEN, ...P(300, 760), fade(t, 0.8, 5.2));
+  label('Cuello del útero', 400, 560, C.AMBER, ...P(765, 850), fade(t, 1.5, 5.2));
+  tear(fade(t, 5, 22, 0.4), seg(t, 5, 3));
+  label('Rotura de membranas', 330, 580, C.RED, ...RUP, fade(t, 5.3, 12));
+  flow(t, seg(t, 6, 0.6) * (1 - 0.7 * seg(t, 12, 1)), 'rgba(120,190,255,0.95)', false, 8, 0.35, 4.5);
+  label('Líquido claro, olor a cloro', 330, 650, C.BLUE, ...PATH.at(0.8), fade(t, 7, 12.5));
+  bacteria(t, seg(t, 12.5, 0.6), seg(t, 17, 3));
+  label('Bacterias suben desde la vagina', 330, 650, '#B8E04A', ...PATH.at(0.75), fade(t, 13, 18));
+  // corioamnionitis: la zona baja de la bolsa se inflama
+  const ch = seg(t, 18, 1.5); if (ch > 0) { ctx.save(); clip(); K.glow(...P(520, 760), 190, '255,150,40', 0.5 * ch * (0.8 + 0.2 * Math.sin(t * 4))); ctx.restore(); }
+  label('Corioamnionitis', 340, 600, C.AMBER, ...P(560, 780), seg(t, 18.5, 0.5));
+  K.card(570, 140, 670, 112, C.BLUE, 'Rotura prematura de membranas', ['Pérdida de líquido claro antes del trabajo de parto', 'Se confirma con especuloscopía estéril'], seg(t, 5.5, 0.5), 18);
+  K.card(570, 270, 670, 112, C.RED, 'Tacto vaginal digital: no', ['Arrastra bacterias hacia el cuello', 'Acorta la latencia y trae infección'], seg(t, 13.2, 0.5), 18);
+  K.card(570, 400, 670, 130, C.AMBER, 'Corioamnionitis', ['Fiebre de 38 o más, más 2 criterios menores', 'Se interrumpe el embarazo y se dan antibióticos'], seg(t, 18.5, 0.5), 18);
+  K.banner(570, 560, 670, 'Especuloscopía, nunca tacto digital', C.GREEN, seg(t, 21.5, 0.5));
+}
+const SCN = { rpm: { f: rpm, dur: 25 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({ emb: '../assets/blausen/embarazo_sagital.png' });
+</script>
+</body></html>

@@ -8,9 +8,12 @@
 // ?v=levo (endo-02): dosis plena 1,6 µg/kg en el joven; el mayor o coronario parte con 25 a 50 y sube 12,5 a 25 cada 6 a 8 semanas.
 // ?v=embarazo (endo-04): TSH bajo 2,5 en el 1er trimestre y bajo 3 después; subir 20 a 30 % al confirmar; talón a las 40-48 h,
 //   TSH sobre 15 a 20 → confirmar; levotiroxina 10 a 15 µg/kg antes de los 15 días.
+// ?v=coma (endo-03): hidrocortisona 100 mg EV antes o junto con la levotiroxina; sola, acelera el metabolismo y gasta el cortisol.
+// ?v=tg (endo-10): tiroglobulina tras tiroidectomía total + I-131: indetectable (< 0,2 ng/mL); si sube, recidiva; anti-Tg la falsean.
+// ?v=calcio (endo-17): gluconato de calcio en bolo dura poco → infusión continua; si no sube, medir y reponer magnesio.
 // ?v=nodulo (endo-09): TSH primero; baja → cintigrama (caliente: no se punciona); normal → eco TI-RADS y PAAF por tamaño.
 const V = new URLSearchParams(location.search).get('v') || 'levo';
-window.SCENE = { duration: 22, fps: 30 };
+window.SCENE = { duration: ({ coma: 24, tg: 24, calcio: 26 })[V] || 22, fps: 30 };
 const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
 const G = GRAPH(L), K = KIT(L), { seg, fade } = K;
 
@@ -82,7 +85,104 @@ function nodulo(t) {
   K.banner(80, 640, 600, 'Con TSH normal nunca se pide cintigrama', C.AMBER, seg(t, 18.5, 0.5));
 }
 
-window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); ({ levo, embarazo, nodulo })[V](t); text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); };
+
+function coma(t) {
+  K.title('Coma mixedematoso: el orden del rescate', 'El cortisol tiene que llegar antes que la hormona tiroidea', C.RED);
+  const ax = G.axes({ x: 110, y: 170, w: 700, h: 400 }, [0, 12], [0, 10], { xt: [0, 3, 6, 9, [12, 'Horas']], yt: [], yl: 'Demanda de cortisol y reserva de la suprarrenal' });
+  ax.draw(seg(t, 0, 0.7));
+  const S = G.smooth;
+  const dem = S([[0, 1], [2, 1], [2.8, 1.5], [3.5, 3.4], [5, 6], [7, 8], [12, 8.6]]);
+  const demB = S([[0, 1], [2.4, 1], [3.2, 1.5], [3.8, 3.4], [5.2, 6], [7, 7.5], [12, 8]]);
+  const resB = S([[0, 3], [0.8, 3], [1.2, 4.2], [1.6, 7.4], [2.2, 9], [12, 9.3]]);
+  const A = t < 11.5, a = A ? 1 : 1 - seg(t, 11.5, 0.5);
+  ctx.save(); ctx.globalAlpha = a;
+  if (t < 12) {
+    G.hline(ax, 3, C.AMBER, null, seg(t, 1, 0.8));
+    if (t > 1.5) { ctx.globalAlpha = a * seg(t, 1.5, 0.5); text('Reserva suprarrenal limítrofe', ax.X(11.9), ax.Y(3) + 26, 17, C.AMBER, 'bold', 'right'); ctx.globalAlpha = a; }
+    const k = ease(seg(t, 3, 6));
+    const x1 = lerp(0, 12, k);
+    if (k > 0) {   // zona de déficit: la demanda pasa sobre la reserva
+      ctx.fillStyle = 'rgba(255,90,78,0.28)'; ctx.beginPath(); ctx.moveTo(ax.X(3.4), ax.Y(3));
+      for (let x = 3.4; x <= x1; x += 0.05) ctx.lineTo(ax.X(x), ax.Y(dem(x)));
+      ctx.lineTo(ax.X(Math.max(3.4, x1)), ax.Y(3)); ctx.closePath(); ctx.fill();
+    }
+    const p = G.curve(ax, dem, k, C.RED, 5); if (k < 1) G.head(p, C.RED);
+    if (t > 3) { ctx.globalAlpha = a * seg(t, 3, 0.5); tag('Levotiroxina sola', ax.X(2), ax.Y(1) + 52, C.RED, 15); ctx.globalAlpha = a; }
+    if (t > 7.2) { ctx.globalAlpha = a * seg(t, 7.2, 0.5); tag('Crisis adisoniana', ax.X(7.4), ax.Y(9.2), C.RED, 18); ctx.globalAlpha = a; }
+    K.card(840, 170, 400, 190, C.RED, 'Levotiroxina sola', ['Acelera el metabolismo', 'y gasta el poco cortisol que queda', 'Colapso vascular y paro'], seg(t, 4, 0.5) * a);
+  }
+  ctx.restore();
+  if (t >= 12) {
+    const b = seg(t, 12, 0.6);
+    ctx.globalAlpha = b; G.hline(ax, 3, 'rgba(255,194,71,0.45)', null, 1); ctx.globalAlpha = 1;
+    const kr = seg(t, 13, 2.2); G.curve(ax, resB, ease(kr), C.GREEN, 5, 0, 12, [10, 6]);
+    if (t > 13) { ctx.globalAlpha = seg(t, 13, 0.5); tag('Hidrocortisona EV', ax.X(1.1), ax.Y(3) + 44, C.GREEN, 15); ctx.globalAlpha = 1; }
+    const k = ease(seg(t, 16, 5)); const p = G.curve(ax, demB, k, C.BLUE, 5); if (k < 1) G.head(p, C.BLUE);
+    if (t > 16) { ctx.globalAlpha = seg(t, 16, 0.5); tag('Levotiroxina EV', ax.X(2.6), ax.Y(1) + 52, C.BLUE, 15); ctx.globalAlpha = 1; }
+    if (t > 20) { ctx.globalAlpha = seg(t, 20, 0.5); tag('La reserva cubre la demanda', ax.X(8.5), ax.Y(5), C.GREEN, 18); ctx.globalAlpha = 1; }
+    K.card(840, 170, 400, 210, C.GREEN, 'Hidrocortisona primero', ['100 mg EV en bolo', 'luego 100 mg cada 8 horas', 'Levotiroxina EV después o junto'], seg(t, 13.5, 0.5));
+    K.banner(110, 640, 1130, 'Primero hidrocortisona, después levotiroxina: nunca la levotiroxina sola', C.RED, seg(t, 21, 0.5));
+  }
+}
+
+function tg(t) {
+  K.title('Carcinoma diferenciado: el seguimiento', 'La tiroglobulina es el marcador de recidiva', C.AMBER);
+  const ax = G.axes({ x: 110, y: 170, w: 760, h: 400 }, [0, 48], [0, 10], { xt: [[12, '1 año'], [24, '2 años'], [36, '3 años'], [48, '4 años']], yt: [[0.2, '0,2'], [5, '5'], [10, '10']], yl: 'Tiroglobulina (ng/mL)' });
+  ax.draw(seg(t, 0, 0.7));
+  const f = G.smooth([[0, 8], [1.5, 8], [2.4, 1.4], [3.5, 1.0], [4.6, 0.3], [6, 0.12], [28, 0.12], [36, 1.6], [43, 5.4], [48, 7.2]]);
+  G.band(ax, 0, 0.2, 'rgba(61,220,132,0.28)', seg(t, 1, 0.6), null);
+  if (t > 1) { ctx.globalAlpha = seg(t, 1, 0.6); text('Indetectable: menos de 0,2', ax.X(8), ax.Y(0.2) - 14, 16, C.GREEN, 'bold'); ctx.globalAlpha = 1; }
+  const k = ease(seg(t, 2, 15)); const p = G.curve(ax, f, k, C.AMBER, 5, 0, 48);
+  if (k > 0.72) { const k2 = clamp((k - 0.72) / 0.28, 0, 1); G.curve(ax, f, k2, C.RED, 5, 28, 48 > 28 ? 28 + 20 * k2 : 48); }
+  if (k < 1) G.head(p, C.AMBER);
+  const ev = [[2.2, 'Tiroidectomía total', C.BLUE, 4.2, 100, 9.3], [4.4, 'I-131 ablativo', C.VIOLET, 5.6, 76, 8.0]];
+  ev.forEach(([x, lab, col, tt, dx, yy]) => { if (t > tt) { G.vline(ax, x, col, null, seg(t, tt, 0.5)); ctx.globalAlpha = seg(t, tt, 0.5); tag(lab, ax.X(x) + dx, ax.Y(yy), col, 15); ctx.globalAlpha = 1; } });
+  [12, 24, 36, 48].forEach((x, i) => { const a = seg(t, 9 + i * 1.6, 0.4); if (a > 0) { ctx.globalAlpha = a; ctx.fillStyle = C.GREEN; ctx.beginPath(); ctx.moveTo(ax.X(x), ax.Y(0.9)); ctx.lineTo(ax.X(x) - 9, ax.Y(1.5)); ctx.lineTo(ax.X(x) + 9, ax.Y(1.5)); ctx.fill(); ctx.globalAlpha = 1; } });
+  if (t > 8.5) { ctx.globalAlpha = seg(t, 8.5, 0.5); text('Ecografía de cuello anual', ax.X(19), ax.Y(2.1), 16, C.GREEN, 'bold', 'center'); ctx.globalAlpha = 1; }
+  if (t > 15.5) { ctx.globalAlpha = seg(t, 15.5, 0.5); tag('Sube: recidiva o metástasis', ax.X(33), ax.Y(5.2), C.RED, 18); ctx.globalAlpha = 1; }
+  K.card(900, 170, 340, 150, C.AMBER, 'Después de operar', ['Tiroidectomía total + I-131', 'La Tg debería quedar en cero'], seg(t, 5.5, 0.5));
+  K.card(900, 340, 340, 170, C.RED, 'Ojo', ['Los anti-Tg falsean la Tg:', 'la dejan artificialmente baja.', 'Se piden siempre juntos'], seg(t, 17.5, 0.5));
+  K.banner(110, 640, 1130, 'Medular: calcitonina y CEA. La tiroglobulina no sirve', C.VIOLET, seg(t, 20.5, 0.5));
+}
+
+function calcio(t) {
+  K.title('Hipocalcemia sintomática: el rescate', 'El bolo rescata, pero dura poco; y sin magnesio no sube', C.BLUE);
+  const ax = G.axes({ x: 110, y: 170, w: 700, h: 400 }, [0, 12], [0, 10], { xt: [0, 3, 6, 9, [12, 'Horas']], yt: [], yl: 'Calcio sérico' });
+  ax.draw(seg(t, 0, 0.7));
+  const S = G.smooth;
+  G.band(ax, 0, 3.2, 'rgba(255,90,78,0.20)', seg(t, 0.5, 0.6), null);
+  G.band(ax, 5.2, 6.1, 'rgba(61,220,132,0.20)', seg(t, 0.5, 0.6), null);
+  ctx.globalAlpha = seg(t, 0.8, 0.5); text('Zona de tetania', ax.X(11.9), ax.Y(0.4) , 16, C.RED, 'bold', 'right'); text('Meta crónica: 8,0 a 8,5', ax.X(11.9), ax.Y(6.1) - 8, 16, C.GREEN, 'bold', 'right'); ctx.globalAlpha = 1;
+  const base = S([[0, 7], [1, 6.6], [2.5, 3.8], [4, 2.2]]);
+  const solo = S([[4, 2.2], [4.4, 6.4], [5, 6.0], [6.5, 4.0], [8, 2.6], [12, 2.2]]);
+  const inf = S([[4, 2.2], [4.4, 6.4], [5, 6.1], [6, 5.7], [12, 5.7]]);
+  const baseB = base;
+  const sinMg = S([[4, 2.2], [4.4, 3.3], [5, 2.9], [6.5, 2.6], [8, 2.4]]);
+  const conMg = S([[8, 2.4], [9, 4.2], [10, 5.6], [12, 5.9]]);
+  if (t < 12.5) {
+    const a = 1 - seg(t, 12, 0.5); ctx.globalAlpha = a;
+    const k1 = ease(seg(t, 1.2, 2.6)); const p = G.curve(ax, base, k1, C.BLUE, 5, 0, 4); if (k1 < 1) G.head(p, C.BLUE);
+    if (t > 3.5) { ctx.globalAlpha = a * seg(t, 3.5, 0.5); tag('Tetania: Trousseau y QT largo', ax.X(5.7), ax.Y(1.4), C.RED, 16); ctx.globalAlpha = a; }
+    if (t > 4.8) { ctx.globalAlpha = a * seg(t, 4.8, 0.4); tag('Gluconato de calcio 10 % EV lento', ax.X(2.8), ax.Y(8.8), C.GREEN, 15); G.vline(ax, 4, C.GREEN, null, seg(t, 4.8, 0.4)); ctx.globalAlpha = a; }
+    const k2 = ease(seg(t, 5.2, 1.6)); G.curve(ax, solo, k2, C.AMBER, 4, 4, 12, [9, 7]);
+    if (t > 7.8) { ctx.globalAlpha = a * seg(t, 7.8, 0.5); tag('Solo el bolo: cae de nuevo', ax.X(9), ax.Y(3.9), C.AMBER, 16); ctx.globalAlpha = a; }
+    const k3 = ease(seg(t, 8.8, 2.4)); const p3 = G.curve(ax, inf, k3, C.GREEN, 6, 4, 12); if (k3 > 0 && k3 < 1) G.head(p3, C.GREEN);
+    if (t > 10.2) { ctx.globalAlpha = a * seg(t, 10.2, 0.5); tag('Con infusión continua se mantiene', ax.X(8), ax.Y(7.2), C.GREEN, 16); ctx.globalAlpha = a; }
+    ctx.globalAlpha = 1;
+    K.card(840, 170, 400, 170, C.GREEN, 'Con magnesio normal', ['Bolo de gluconato de calcio', 'más infusión continua:', '10 ampollas en 1000 mL de SG 5 %'], seg(t, 5, 0.5) * a);
+  } else {
+    const b = seg(t, 12.5, 0.5); ctx.globalAlpha = b; text('Ahora, con magnesio bajo', ax.X(0.2), ax.Y(9.6), 20, C.AMBER, 'bold'); ctx.globalAlpha = 1;
+    const k1 = ease(seg(t, 13, 2)); G.curve(ax, baseB, k1, C.BLUE, 5, 0, 4);
+    if (t > 15.1) { ctx.globalAlpha = seg(t, 15.1, 0.5); tag('Calcio EV: no sube', ax.X(5.4), ax.Y(4.6), C.RED, 17); G.vline(ax, 4, C.GREEN, null, seg(t, 15.1, 0.4)); ctx.globalAlpha = 1; }
+    const k2 = ease(seg(t, 15.2, 2.4)); const p2 = G.curve(ax, sinMg, k2, C.RED, 5, 4, 8); if (k2 > 0 && k2 < 1) G.head(p2, C.RED);
+    if (t > 18.5) { ctx.globalAlpha = seg(t, 18.5, 0.5); tag('Sulfato de magnesio EV: 1 a 2 g', ax.X(8), ax.Y(8.6), C.VIOLET, 16); G.vline(ax, 8, C.VIOLET, null, seg(t, 18.5, 0.4)); ctx.globalAlpha = 1; }
+    const k3 = ease(seg(t, 19, 2.6)); const p3 = G.curve(ax, conMg, k3, C.GREEN, 6, 8, 12); if (k3 > 0 && k3 < 1) G.head(p3, C.GREEN);
+    K.card(840, 170, 400, 190, C.RED, 'Refractaria al calcio', ['Sin magnesio no hay PTH', 'Si el calcio no sube,', 'mide el magnesio'], seg(t, 16.5, 0.5));
+    K.banner(110, 640, 1130, 'Hipocalcemia refractaria: medir y reponer el magnesio', C.VIOLET, seg(t, 22.5, 0.5));
+  }
+}
+
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); ({ levo, embarazo, nodulo, coma, tg, calcio })[V](t); text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); };
 LOAD({});
 </script>
 </body></html>

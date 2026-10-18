@@ -100,7 +100,8 @@ module.exports = {
         ] },
         { title: 'Esencial vs Parkinson', tag: 'El contraste clásico', kind: 'key', items: [
           { t: 'Esencial: acción, bilateral, cabeza', d: 'No cede al moverse, sin bradicinesia',
-            say: 'Y el contraste más preguntado. El temblor esencial es de acción, bilateral y simétrico, no cede con el movimiento, afecta la cabeza, y no hay bradicinesia ni rigidez.' },
+            say: 'Y el contraste más preguntado. El temblor esencial es de acción, bilateral y simétrico, no cede con el movimiento, afecta la cabeza, y no hay bradicinesia ni rigidez. Mira esta espiral dibujada por un paciente con temblor esencial, a la izquierda: el trazo oscila en todo el recorrido; a la derecha, una espiral normal. Es la espiral de Arquímedes, la que se usa para registrar el temblor.',
+            photos: [{ src: 'biblioteca/09_neurologia/neuro-13/02_espiral_temblor_real__commons.jpg', label: 'Espiral con temblor', at: 'Mira esta espiral', credit: 'Wikimedia Commons, CC BY-SA 4.0' }, { src: 'biblioteca/09_neurologia/neuro-13/S1_espiral-arquimedes__propio.svg', label: 'Espiral de Arquímedes', at: 'Es la espiral de Arquímedes', credit: 'Dibujo propio (esquema)' }] },
           { t: 'Parkinson: reposo, asimétrico', d: 'Bradicinesia, rueda dentada, hipomimia',
             say: 'El del Parkinson es de reposo, asimétrico, cede con el movimiento, y siempre se acompaña de bradicinesia, hipomimia y rigidez en rueda dentada.' },
           { t: 'Pierna que tiembla en reposo', d: 'Es Parkinson, no esencial',
@@ -108,6 +109,20 @@ module.exports = {
         ] },
       ],
     },
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: '¿Cuándo tiembla?',
+      images: [
+        { src: 'animaciones/neuro-13/A1_temblor.mp4', label: 'Reposo, postura e intención', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'El momento del temblor señala la causa',
+          say: 'Mira los tres registros. El temblor del Parkinson aparece con la mano en reposo y se apaga cuando la mueves. El esencial es el contrario: casi no hay en reposo y aparece al sostener el vaso o al escribir. Y el cerebeloso es de intención: no hay en reposo, pero crece al acercarte al blanco. Con una sola pregunta, cuándo tiembla, clasificas el temblor.' },
+      ],
+    },
+
 
     {
       type: 'flow',
@@ -134,39 +149,12 @@ module.exports = {
         { show: ['d2', 'ach'], note: 'Se rompe el equilibrio dopamina–acetilcolina',
           say: 'El mecanismo explica el tratamiento. El bloqueo agudo de los receptores D dos del estriado deja a la acetilcolina sin contrapeso: hay una hiperactividad colinérgica muscarínica relativa.' },
         { show: ['ocu', 'tor', 'len'], note: 'Contracciones tónicas, sostenidas y dolorosas',
-          say: 'Y aparecen contracciones tónicas, sostenidas y muy dolorosas. La crisis oculógira, con la mirada fija hacia arriba. La tortícolis aguda, por contracción del esternocleidomastoideo. La protrusión de la lengua, el trismus, o el opistótonos, con la columna en hiperextensión.' },
+          say: 'Y aparecen contracciones tónicas, sostenidas y muy dolorosas. La crisis oculógira, con la mirada fija hacia arriba. La tortícolis aguda, por contracción del esternocleidomastoideo. La protrusión de la lengua, el trismus, o el opistótonos, con la columna en hiperextensión. Mira este paciente: en la primera foto los globos oculares se van hacia arriba, es la crisis oculógira; la segunda es el mismo paciente con los ojos abiertos.',
+            photo: { src: '_web/153_neuro_Temblor_y_distonía_aguda__Open-i_1.jpg', label: 'Crisis oculógira', at: 'Mira este paciente', credit: 'Open-i (NLM), CC BY' } },
         { show: ['bip'], note: 'Si sobra acetilcolina, se da un anticolinérgico',
           say: 'Si el problema es un exceso de acetilcolina, la solución es un anticolinérgico central: biperideno, dos coma cinco a cinco miligramos intramuscular o endovenoso lento. O difenhidramina si no hay biperideno. El alivio es dramático, en diez a quince minutos. No es una crisis epiléptica, ni un ataque cerebrovascular, ni un cuadro psicógeno, y no necesita un TAC.' },
         { show: ['vo'], note: 'Evitar la recurrencia',
           say: 'Y un detalle que se pregunta: después se deja biperideno oral, dos miligramos cada ocho a doce horas, por veinticuatro a cuarenta y ocho horas, para que la distonía no vuelva mientras se elimina el fármaco bloqueador.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'El temblor dibujado',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-13/02_espiral_temblor_real__commons.jpg', label: 'Espiral con temblor', credit: 'Wikimedia Commons «Spiral drawing - essential tremor.jpg», CC BY-SA 4.0, Undescribed' },
-      ],
-      steps: [
-        { note: 'Oscilación en todo el trazo',
-          say: 'La espiral de Arquímedes muestra el temblor de acción: el trazo oscila en todo el recorrido. Es el temblor esencial.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-13/S1_espiral-arquimedes__propio.svg', label: 'Espiral de Arquímedes', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Espiral de Arquímedes',
-          say: 'La espiral de Arquímedes se usa para registrar y comparar el temblor.' },
       ],
     },
 
@@ -334,6 +322,44 @@ module.exports = {
         options: 'Las opciones: hipertermia maligna anestésica, síndrome serotoninérgico, crisis distónica aguda, síndrome neuroléptico maligno, o encefalitis autoinmune. Piénsalo.',
         answer: 'Es la D, síndrome neuroléptico maligno. La crisis distónica es el distractor, porque también viene de un neuroléptico, pero la distonía aguda es focal, sin fiebre, sin rigidez generalizada y con el paciente lúcido. Aquí hay fiebre, rigidez de todas las extremidades y compromiso de conciencia: es otro cuadro, mucho más grave.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.1.016 · Temblor",
+      "stem": "Mujer de 76 años consulta por temblor de ambas manos de 2 meses, que aparece al sostener la taza y al escribir y desaparece en reposo. Refiere además palpitaciones, insomnio y baja de 3 kg. Usa levotiroxina 150 µg/día, cuya dosis se aumentó hace 3 meses. Examen: temblor postural fino y simétrico, sin rigidez ni bradicinesia, FC 104 lpm. TSH 0,04 mUI/L (VN 0,4–4,5).",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar propranolol de forma indefinida por temblor esencial"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar levodopa/carbidopa"
+        },
+        {
+          "letter": "C",
+          "text": "Reducir la dosis de levotiroxina y controlar la TSH en 6 a 8 semanas"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar RM de encéfalo"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar clonazepam nocturno"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Ante un temblor postural de inicio reciente en una persona mayor, primero se buscan causas secundarias: fármacos (levotiroxina, salbutamol, litio, valproato), hipertiroidismo, cafeína o abstinencia. Aquí la TSH suprimida tras subir la levotiroxina explica un temblor fisiológico exagerado: se ajusta la dosis. No es Parkinson (sin reposo ni bradicinesia) y no corresponde rotularlo como esencial.",
+      "say": {
+        "stem": "Una mujer de setenta y seis años tiene temblor fino de ambas manos al sostener objetos, con palpitaciones y baja de peso, desde que le subieron la levotiroxina hace tres meses. Su hormona estimulante de tiroides está suprimida.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: propranolol indefinido, levodopa, bajar la levotiroxina y controlar la tiroides, resonancia de encéfalo, o clonazepam. Piénsalo.",
+        "answer": "Es la C. Es un temblor postural secundario a exceso de hormona tiroidea, y se corrige ajustando la dosis. El propranolol tienta porque alivia el temblor postural, pero tratar el síntoma sin corregir la causa es un error en la persona mayor."
+      }
     },
 
     {

@@ -45,11 +45,16 @@ module.exports = {
           { t: "Cuerpo extraño ocular crónico", d: "Ardor, ojo rojo y dificultad con pantallas",
             say: "La xeroftalmia se manifiesta como una molesta sensación constante de cuerpo extraño o arenilla bajo los párpados. Los pacientes sufren ardor, fotofobia, hiperemia conjuntival y gran fatiga visual al leer o mirar pantallas por evaporación lagrimal acelerada." },
           { t: "Erosiones corneales por desecación", d: "Riesgo de queratopatía punteada",
-            say: "La pérdida de la película lagrimal deja expuesto el epitelio corneal al roce mecánico, originando microerosiones que pueden evolucionar a úlceras corneales e infecciones bacterianas graves si no se lubrican adecuadamente." },
+            say: "La pérdida de la película lagrimal deja expuesto el epitelio corneal al roce mecánico, originando microerosiones que pueden evolucionar a úlceras corneales e infecciones bacterianas graves si no se lubrican adecuadamente. Mira esta tinción con rosa de Bengala, que marca en púrpura las células dañadas de la conjuntiva. Y con fluoresceína, la zona dañada se ve verde.",
+          photos: [
+            { src: 'biblioteca/08_reumatologia/reuma-15/11_tincion-rosa-bengala-ojo-seco__kanski_p135.jpg', label: 'Rosa de Bengala', at: 'Mira esta tinción', credit: 'Kanski, Clinical Ophthalmology, p. 135' },
+            { src: 'biblioteca/08_reumatologia/reuma-15/12_tincion-fluoresceina-ojo-seco__kanski_p135.jpg', label: 'Fluoresceína', at: 'Y con fluoresceína', credit: 'Kanski, Clinical Ophthalmology, p. 135' },
+          ] },
         ] },
         { title: "Xerostomía y aumento parotídeo", tag: "Caries cervicales e hipertrofia", kind: "alert", items: [
           { t: "Boca seca y necesidad de líquidos", d: "Imposibilidad de tragar alimentos secos",
-            say: "La xerostomía severa obliga a los pacientes a beber agua constantemente para humedecer la mucosa y poder deglutir alimentos secos como pan o galletas, despertándose con frecuencia por las noches debido a la sequedad oral extrema." },
+            say: "La xerostomía severa obliga a los pacientes a beber agua constantemente para humedecer la mucosa y poder deglutir alimentos secos como pan o galletas, despertándose con frecuencia por las noches debido a la sequedad oral extrema. Mira esta lengua: seca, sin brillo y con fisuras.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-15/10_lengua-seca-sjogren__kanski_p134.jpg', label: 'Lengua seca y fisurada', at: 'Mira esta lengua', credit: 'Kanski, Clinical Ophthalmology, p. 134' } },
           { t: "Caries cervicales y aumento de parótidas", d: "Pérdida de la protección antibacteriana de saliva",
             say: "La falta de saliva barre la protección enzimática bucal, generando múltiples caries en el cuello de los dientes y candidiasis oral recurrente. En un tercio de los pacientes se palpa un aumento de volumen indoloro y blando de ambas glándulas parótidas." },
         ] },
@@ -112,7 +117,8 @@ module.exports = {
         ] },
         { title: "Banderas rojas de linfoma B activo", tag: "Signos de alarma hematológica", kind: "alert", items: [
           { t: "Parotidomegalia unilateral dura o persistente", d: "Crecimiento asimétrico tumoral",
-            say: "Si una parótida se torna dura, nodular o crece de forma marcadamente asimétrica, se debe sospechar de inmediato una transformación linfomatosa maligna y solicitar una biopsia tisular guiada por imágenes." },
+            say: "Si una parótida se torna dura, nodular o crece de forma marcadamente asimétrica, se debe sospechar de inmediato una transformación linfomatosa maligna y solicitar una biopsia tisular guiada por imágenes. Mira a esta paciente: la mejilla derecha abultada por la parótida aumentada de tamaño.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-15/01_parotida-en-sjogren__amir-reuma_p121.jpg', label: 'Parótida aumentada', at: 'Mira a esta paciente', credit: 'Manual AMIR Reumatología, p. 121' } },
           { t: "Púrpura palpable e hipocomplementemia", d: "Crioglobulinemia mixta tipo dos",
             say: "La aparición de púrpura palpable en extremidades inferiores, descenso brusco del complemento sérico y pico monoclonal en la electroforesis de proteínas son claros heraldos de proliferación linfoide clonal neoplásica." },
         ] },
@@ -146,6 +152,72 @@ module.exports = {
     },
 
     {
+      type: "points",
+      kicker: "Tratamiento inicial",
+      title: "Manejo inicial del ojo seco",
+      cards: [
+        { title: "Dos tipos de ojo seco", tag: "Acuosodeficiente o evaporativo", kind: "key", items: [
+          { t: "Acuosodeficiente", d: "Sjögren, menopausia, anticolinérgicos",
+            say: "El ojo seco puede ser acuosodeficiente, por Sjögren, menopausia o fármacos anticolinérgicos, o evaporativo." },
+          { t: "Evaporativo", d: "Glándulas de Meibomio, blefaritis, pantallas",
+            say: "El evaporativo viene de la disfunción de las glándulas de Meibomio, de la blefaritis o del uso de pantallas con parpadeo reducido." },
+        ] },
+        { title: "Tratamiento escalonado", tag: "Primero lo simple", kind: "pharma", items: [
+          { t: "Lágrimas sin conservantes, 4 a 6 veces al día", d: "Geles o ungüento lubricante de noche",
+            say: "Se parte con lágrimas artificiales sin conservantes, cuatro a seis veces al día o más, y geles o ungüentos lubricantes de noche." },
+          { t: "Higiene palpebral, compresas, ambiente húmedo", d: "Suspender antihistamínicos, tricíclicos, diuréticos",
+            say: "Se agregan higiene palpebral y compresas tibias, sobre todo en el tipo evaporativo, humidificar el ambiente, parpadear conscientemente y suspender los fármacos que resecan, como antihistamínicos, antidepresivos tricíclicos y diuréticos." },
+          { t: "Ciclosporina tópica 0,05%", d: "La indica el oftalmólogo si persiste",
+            say: "Si persiste, el oftalmólogo indica ciclosporina tópica, lifitegrast, oclusión de los puntos lagrimales o suero autólogo en las formas graves." },
+        ] },
+        { title: "Derivar a oftalmología", tag: "Alarmas", kind: "alert", items: [
+          { t: "Dolor intenso, fotofobia, baja de visión", d: "Ojo rojo unilateral",
+            say: "Se deriva a oftalmología ante dolor intenso, fotofobia, disminución de la agudeza visual, ojo rojo unilateral o sospecha de queratitis o úlcera corneal." },
+        ] },
+      ],
+    },
+
+    {
+      type: "points",
+      kicker: "Tratamiento inicial",
+      title: "Boca seca y manejo sistémico del Sjögren",
+      cards: [
+        { title: "Xerostomía", tag: "Proteger los dientes", kind: "criteria", items: [
+          { t: "Agua, chicles sin azúcar, saliva artificial", d: "Higiene con flúor tópico",
+            say: "En la boca seca se indican sorbos frecuentes de agua, chicles o caramelos sin azúcar, saliva artificial y buena higiene bucal con flúor tópico para prevenir caries. La candidiasis oral se trata de inmediato con nistatina o fluconazol." },
+          { t: "Pilocarpina 5 mg cada 8 horas", d: "Cuidado en asma, glaucoma de ángulo estrecho y bradicardia",
+            say: "Los sialogogos, pilocarpina cinco miligramos cada ocho horas o cevimelina, mejoran el flujo salival, con cautela en asma no controlada, glaucoma de ángulo estrecho y bradicardia." },
+        ] },
+        { title: "Compromiso sistémico", tag: "Según gravedad", kind: "pharma", items: [
+          { t: "Hidroxicloroquina en artralgias y fatiga", d: "Evidencia limitada",
+            say: "Para el compromiso sistémico se usa hidroxicloroquina en artralgias y fatiga, aunque con evidencia limitada." },
+          { t: "Corticoides, inmunosupresores o rituximab", d: "Vasculitis, neuropatía, glomerulonefritis, citopenias",
+            say: "En las manifestaciones extraglandulares graves, como vasculitis, neuropatía, glomerulonefritis o citopenias, se usan corticoides con inmunosupresores o rituximab." },
+        ] },
+        { title: "Seguimiento", tag: "Vigilar el linfoma", kind: "alert", items: [
+          { t: "Control cada 6 a 12 meses", d: "Parótida persistente, púrpura palpable, C4 bajo",
+            say: "Se controla al menos cada seis a doce meses vigilando el linfoma. Parotidomegalia persistente, púrpura palpable, crioglobulinemia, C cuatro bajo, esplenomegalia o adenopatías obligan a derivar." },
+          { t: "Manejo en equipo", d: "Reumatología, oftalmología y odontología",
+            say: "Todo paciente con Sjögren se maneja en conjunto con reumatología, oftalmología y odontología." },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La glándula que se seca',
+      images: [
+        { src: 'animaciones/reuma-15/A1_glandula_seca.mp4', label: 'Sjögren: del infiltrado a la atrofia', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Glándulas salivales',
+          say: 'Observa las glándulas salivales. En el Sjögren, los linfocitos rodean los conductos y destruyen poco a poco los ácinos: la glándula se atrofia, la saliva disminuye y la boca se seca. Lo mismo ocurre con la glándula lagrimal, y de ahí el ojo con arenilla. Los anticuerpos anti-Ro y anti-La acompañan el cuadro. Vigila la parótida: si se pone dura o asimétrica y persiste, piensa en linfoma de células B, el MALT.' },
+      ],
+    },
+
+    {
       type: "table",
       kicker: "Trampas EUNACOM",
       title: "Diagnóstico diferencial: Sjögren vs EMTC vs Lupus Eritematoso",
@@ -157,19 +229,6 @@ module.exports = {
           say: "La enfermedad mixta combina Raynaud, dedos tumefactos y miositis, con anticuerpos anti-U uno RNP muy elevados y la hipertensión pulmonar como principal causa de muerte." },
         { cells: ["Lupus Eritematoso Sistémico", "Eritema malar + Fotosensibilidad + Artritis", "Anti-ADN doble hebra y Anti-Smith", "Nefritis lúpica proliferativa difusa"],
           say: "El lupus eritematoso sistémico destaca por eritema en mariposa, anticuerpos anti-ADN de doble cadena y anti-Smith, con la nefritis lúpica como mayor amenaza de falla orgánica." },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Síndrome de Sjögren',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-15/01_parotida-en-sjogren__amir-reuma_p121.jpg', label: 'Sjögren: linfoma de parótida', credit: 'Manual AMIR Reumatología, p. 121' },
-      ],
-      steps: [
-        { note: 'Crecimiento glandular',
-          say: 'Esta paciente con Sjögren tiene una parótida muy aumentada, de un solo lado: era un linfoma. Si una parótida se pone dura o crece de forma asimétrica, sospecha linfoma y pide biopsia.' },
       ],
     },
 
@@ -260,6 +319,44 @@ module.exports = {
         options: "Las opciones: glomerulonefritis rápidamente progresiva, hipertensión arterial pulmonar, hemorragia alveolar, crisis renal esclerodérmica, o tromboembolismo pulmonar. Piénsalo.",
         answer: "Es la B. La hipertensión arterial pulmonar es la causa número uno de fallecimiento en la enfermedad mixta. Su progresión silenciosa obliga a realizar un ecocardiograma Doppler de control cada doce meses.",
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 114",
+      "stem": "Paciente de 40 años con ojo rojo, sensación de arenilla, lagrimeo y fotofobia desde hace 3 meses. Usa lentes de contacto hace años. Tiene antecedente de artritis reumatoide.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Síndrome de ojo seco (queratoconjuntivitis sicca)"
+        },
+        {
+          "letter": "B",
+          "text": "Conjuntivitis bacteriana"
+        },
+        {
+          "letter": "C",
+          "text": "Úlcera corneal por Acanthamoeba"
+        },
+        {
+          "letter": "D",
+          "text": "Escleritis"
+        },
+        {
+          "letter": "E",
+          "text": "Glaucoma agudo"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Arenilla, lagrimeo reflejo y fotofobia crónicos, en usuaria de lentes de contacto con artritis reumatoide (posible Sjögren secundario), es una queratoconjuntivitis sicca. Se objetiva con test de Schirmer y tinción con fluoresceína, y se trata con lágrimas artificiales sin preservantes.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Paciente de cuarenta años, usuaria de lentes de contacto y con artritis reumatoide, con tres meses de ojo rojo, sensación de arenilla, lagrimeo y fotofobia.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: ojo seco, conjuntivitis bacteriana, úlcera corneal por acantameba, escleritis, o glaucoma agudo. Piénsalo.",
+        "answer": "Es la A. Tres meses de arenilla con fotofobia, más lentes de contacto y artritis reumatoide, apuntan a ojo seco, que puede ser un Sjögren secundario. El lagrimeo confunde, pero es reflejo, por irritación de la córnea seca; la conjuntivitis bacteriana es aguda y con secreción purulenta."
+      }
     },
 
     {

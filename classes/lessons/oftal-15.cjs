@@ -56,7 +56,8 @@ module.exports = {
       cards: [
         { title: 'Deformidad y colapso del globo', tag: 'Herniación del contenido interno', kind: 'alert', items: [
           { t: 'Pupila en gota o lágrima', d: 'El iris se hernia y la pupila apunta hacia la herida',
-            say: 'Cualquiera de estos signos certifica la sospecha de globo abierto. El primero es la pupila en gota o lágrima: el iris se hernia a través de la herida, y el vértice de la pupila queda apuntando directo hacia el sitio de la perforación.' },
+            say: 'Cualquiera de estos signos certifica la sospecha de globo abierto. El primero es la pupila en gota o lágrima: el iris se hernia a través de la herida, y el vértice de la pupila queda apuntando directo hacia el sitio de la perforación. Mira este ojo: la pupila alargada en gota, con el iris herniado hacia la herida.',
+            photo: { src: '_verificadas/079_oftal_Globo_ocular_abierto__Knoop_p93.jpg', label: 'Pupila en gota', at: 'Mira este ojo', credit: 'The Atlas of Emergency Medicine (Knoop), p. 93' } },
           { t: 'Cámara anterior anormal', d: 'Muy plana por vaciamiento de humor acuoso, o muy profunda',
             say: 'El segundo es una cámara anterior anormal: excesivamente estrecha, porque el humor acuoso se vació por la herida, o, con menos frecuencia, patológicamente profunda.' },
           { t: 'Hipotonía ocular marcada', d: 'El ojo se siente muy blando a la estimulación cuidadosa',
@@ -114,7 +115,8 @@ module.exports = {
       ],
       steps: [
         { show: ['gol', 'san'], note: 'Es un trauma cerrado, no un globo abierto',
-          say: 'Ahora, una lesión más frecuente y de trauma cerrado: el hipema. Un golpe contuso, como un puñetazo o el impacto de una pelota, rompe los vasos de la raíz del iris o del cuerpo ciliar, y la sangre se acumula en la cámara anterior, visible como un nivel hemático en el tercio inferior del ojo.' },
+          say: 'Ahora, una lesión más frecuente y de trauma cerrado: el hipema. Un golpe contuso, como un puñetazo o el impacto de una pelota, rompe los vasos de la raíz del iris o del cuerpo ciliar, y la sangre se acumula en la cámara anterior, visible como un nivel hemático en el tercio inferior del ojo. Mira esta foto: un hipema extenso, con la sangre rojo oscuro llenando la cámara anterior por delante del iris.',
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-15/01_hipema__kanski_p882.jpg', label: 'Hipema', at: 'Mira esta foto', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 882" } },
         { show: ['rep'], note: 'La gravedad juega a tu favor si la cabecera está elevada',
           say: 'El manejo es reposo con la cabecera elevada, entre treinta y cuarenta y cinco grados, para que los glóbulos rojos decanten hacia abajo por gravedad, en vez de tapar el eje pupilar y ocluir la malla trabecular.' },
         { show: ['evi'], note: 'Alteran las plaquetas y favorecen el sangrado',
@@ -125,19 +127,127 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Trauma cerrado',
+      title: 'Contusión ocular: se examina de adelante hacia atrás',
+      cards: [
+        { title: 'Qué buscar', tag: 'Del párpado a la coroides', kind: 'criteria', items: [
+          { t: 'Párpado, conjuntiva, córnea e iris', d: 'Ojo en tinta, erosión, hifema, pupila alterada',
+            say: 'Un golpe con un objeto romo, un balón, un puño, un tapón, transmite la energía al globo y a la órbita, y el examen se hace de adelante hacia atrás. Primero el hematoma palpebral, el ojo en tinta, la hemorragia subconjuntival y la erosión corneal. Luego el hifema, la midriasis o la miosis traumática y la iridodiálisis.' },
+          { t: 'Cristalino, vítreo y retina', d: 'Luxación, catarata, hemorragia, edema de Berlin, desgarro',
+            say: 'Más atrás, la luxación o subluxación del cristalino, la catarata traumática, la hemorragia vítrea, el edema de Berlin, que es una commotio retinae, el desgarro o el desprendimiento de retina, y la ruptura de coroides o de esclera. Y esa ruptura, el globo abierto, es lo primero que se descarta.' },
+        ] },
+        { title: 'Fractura en estallido', tag: 'Blow-out', kind: 'alert', items: [
+          { t: 'Diplopía vertical y mirada arriba limitada', d: 'Atrapa el recto inferior; enoftalmos, hipoestesia infraorbitaria',
+            say: 'Cuando el golpe revienta el piso de la órbita, el recto inferior queda atrapado: diplopía vertical, limitación de la mirada hacia arriba, enoftalmos, hipoestesia infraorbitaria y a veces enfisema palpebral. Mira esta tomografía: el piso orbitario roto, con el contenido de la órbita herniado hacia el seno. Se confirma con TAC de órbitas.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-15/01_fractura-suelo-orbitario-tc__cto-oftalmo_p94.jpg', label: 'Fractura del piso orbitario', at: 'Mira esta tomografía', credit: 'Manual CTO Oftalmología 14.ª ed., p. 94' } },
+        ] },
+        { title: 'Conducta', tag: 'Derivar', kind: 'pharma', items: [
+          { t: 'Medir, proteger y analgesia sin AINE', d: 'Frío local y cabecera elevada',
+            say: 'Mides agudeza, pupilas, motilidad y fondo de ojo, sin presionar el globo si hay sospecha de herida abierta. Frío local, cabecera elevada, analgesia sin antiinflamatorios y protector rígido.' },
+          { t: 'Derivar si hay hifema, baja visual o diplopía', d: 'Control tardío: glaucoma por recesión angular',
+            say: 'Se deriva siempre ante hifema, disminución visual, diplopía, alteración pupilar o sospecha de fractura. Y hay que controlar a largo plazo, por el riesgo de glaucoma por recesión angular.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Trauma facial',
+      title: 'Trauma maxilofacial y heridas de los párpados',
+      cards: [
+        { title: 'Trauma maxilofacial', tag: 'Primero el ABCDE', kind: 'alert', items: [
+          { t: 'Vía aérea con control cervical', d: 'Sangre, edema, dientes: pueden obstruirla',
+            say: 'En todo trauma facial grave se aplica el esquema ABCDE: vía aérea con control de la columna cervical, porque el sangrado, el edema y los dientes o fragmentos pueden obstruirla, control de hemorragias, evaluación neurológica y recién después el examen facial.' },
+          { t: 'Escalones, maloclusión, enfisema, diplopía', d: 'Hipoestesia infraorbitaria, epistaxis, líquido por la nariz',
+            say: 'Sospecha cuando hay equimosis, deformidad o escalones en los rebordes, maloclusión, trismo, enfisema subcutáneo, hipoestesia del nervio infraorbitario, epistaxis o salida de líquido por la nariz, y diplopía.' },
+          { t: 'TAC, y examinar siempre los ojos', d: 'Lesión ocular asociada hasta en una cuarta parte',
+            say: 'Se pide TAC de macizo facial y órbitas sin contraste. Siempre examina los ojos antes de inmovilizar o de operar, porque hasta una cuarta parte tiene lesión ocular asociada. Se asegura la vía aérea, analgesia, profilaxis antitetánica, y se indica no sonarse la nariz en las fracturas orbitarias.' },
+        ] },
+        { title: 'Heridas de párpado', tag: 'Primero descartar el globo', kind: 'criteria', items: [
+          { t: 'Simples: lavar, anestesiar y suturar', d: 'Nylon 6-0, puntos fuera a los 5 días',
+            say: 'En una herida de párpado, lo primero es descartar siempre una lesión del globo o una herida penetrante de la órbita. Si es simple, solo piel y orbicular, lejos del margen y del canto interno, se lava con suero, se anestesia, se sutura con nylon seis cero y se retiran los puntos a los cinco días, con profilaxis antitetánica.' },
+          { t: 'Derivar en 24 a 48 horas', d: 'Margen, canto interno, elevador, septum o pérdida de tejido',
+            say: 'Se derivan a oculoplástica, en menos de veinticuatro a cuarenta y ocho horas, las que comprometen el margen palpebral, para alinear la línea gris; el canto interno con el canalículo, que requiere intubación; el músculo elevador, con ptosis; el septum orbitario, con grasa visible; o con pérdida de tejido. En niños con mordedura de perro se cierra precoz y con antibiótico. Y no se ocluye con apósito compresivo.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Procedimientos',
+      title: 'Eversión del párpado y cuerpo extraño',
+      cards: [
+        { title: 'Eversión del párpado superior', tag: 'Procedimiento «Realizar»', kind: 'key', items: [
+          { t: 'Para qué: cuerpo extraño subtarsal', d: 'Erosiones verticales en la córnea; quemaduras químicas',
+            say: 'La eversión del párpado superior es indispensable si hay dolor, sensación de arenilla y erosiones verticales múltiples en la córnea, y para limpiar los fondos de saco en una quemadura química.' },
+          { t: 'Anestésico, mirar abajo, plegar sobre el aplicador', d: 'Si hay globo abierto, no se evierte',
+            say: 'Instilas una gota de anestésico y pides que mire hacia abajo todo el tiempo. Sujetas las pestañas entre pulgar e índice, tiras suavemente hacia abajo y adelante, y con un aplicador apoyado en el borde superior del tarso pliegas el párpado hacia arriba, hasta ver la conjuntiva tarsal. Retiras el cuerpo extraño con una torula húmeda o irrigas. Y si hay sospecha de globo abierto, no se evierte ni se presiona.' },
+        ] },
+        { title: 'Cuerpo extraño superficial', tag: 'Procedimiento «Realizar»', kind: 'criteria', items: [
+          { t: 'Anestésico, torula húmeda o irrigación', d: 'Teñir y ungüento antibiótico 3 a 5 días',
+            say: 'Con dolor intenso, lagrimeo y erosiones lineales verticales, mide primero la visión. Instila proparacaína o tetracaína, y el alivio confirma la causa. Everte, retira con torula o irrigación, tiñe con fluoresceína para ver la erosión y aplica ungüento antibiótico por tres a cinco días.' },
+          { t: 'Nunca anestésico para la casa; no se parcha', d: 'Retrasa la cicatrización y daña la córnea',
+            say: 'No se entrega anestésico tópico para usar en el domicilio, porque retrasa la cicatrización y daña la córnea, y una erosión por cuerpo extraño no se parcha.' },
+          { t: 'Derivar si está incrustado o es intraocular', d: 'Anillo de óxido, martillo contra metal: TAC, no extraer',
+            say: 'Se deriva si está incrustado en la córnea, si deja anillo de óxido, si persisten los síntomas a las veinticuatro horas, o si hay sospecha de cuerpo extraño intraocular: martilleo de metal contra metal, esmeril o proyectil. En ese caso se pide TAC y no se extrae.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Procedimiento',
+      title: 'El sello ocular, paso a paso',
+      cards: [
+        { title: 'Cómo se coloca', tag: 'Protector rígido', kind: 'key', items: [
+          { t: 'Concha de Fox o copa de plástico', d: 'Apoyada en los rebordes óseos, sin tocar el globo',
+            say: 'Ante la sospecha de globo abierto, la protección es un protector rígido: una concha de Fox, una copa de plástico, o un vaso de papel recortado, que no toque el globo. Se apoya sobre los rebordes óseos de la órbita, frente y mejilla, y se fija con tela adhesiva en cruz, de la frente a la mejilla.' },
+        ] },
+        { title: 'Lo que no se hace', tag: 'Prohibiciones', kind: 'alert', items: [
+          { t: 'Sin parche compresivo, colirios ni ungüentos', d: 'No lavar ni reposicionar iris o vítreo',
+            say: 'No se usa parche compresivo, no se aplican colirios ni ungüentos, no se lava ni se intenta reposicionar el iris o el vítreo que salió, no se mide la presión y no se retiran cuerpos extraños empalados.' },
+        ] },
+        { title: 'Después del sello', tag: 'Traslado', kind: 'pharma', items: [
+          { t: 'Ayuno, cabecera a 30 grados, antiemético', d: 'Antibiótico sistémico y cirugía en 24 horas',
+            say: 'Se mantiene en ayuno y reposo con la cabecera a treinta grados, con antiemético, analgesia y antibiótico sistémico, y se traslada con urgencia a oftalmología, para cirugía en las primeras veinticuatro horas.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Trauma laboral',
+      title: 'Accidentes del trabajo y el ojo',
+      cards: [
+        { title: 'Ley 16.744', tag: 'Cobertura sin costo', kind: 'key', items: [
+          { t: 'Atención en la mutualidad', d: 'ACHS, IST, Mutual de Seguridad o ISL',
+            say: 'Los accidentes oculares laborales, el esmerilado, la soldadura, el martilleo, las partículas proyectadas y las salpicaduras químicas, son una causa importante de ceguera prevenible en el adulto joven. La Ley dieciséis mil setecientos cuarenta y cuatro cubre la atención sin costo en el organismo administrador: las mutualidades, o el ISL.' },
+          { t: 'Denuncia DIAT y licencia', d: 'Si el empleador no la emite, la hace el médico',
+            say: 'El empleador debe emitir la denuncia individual de accidente del trabajo, la DIAT, y si no lo hace, la hace el médico que atiende. El trabajador se deriva a su mutualidad para continuar el tratamiento, con licencia médica por accidente laboral.' },
+        ] },
+        { title: 'El ojo de soldador', tag: 'Queratitis actínica', kind: 'criteria', items: [
+          { t: 'Dolor 6 a 12 horas después', d: 'Erosión punteada bilateral; cura en 24 a 48 horas',
+            say: 'Un ejemplo frecuente es la queratitis actínica: dolor intenso, fotofobia y lagrimeo entre seis y doce horas después de exponerse a la luz ultravioleta del arco de soldadura, con erosión punteada bilateral. Se trata con analgesia, lubricantes, ungüento antibiótico y reposo, y resuelve en veinticuatro a cuarenta y ocho horas.' },
+        ] },
+        { title: 'Prevención', tag: 'Lo que se pregunta', kind: 'pharma', items: [
+          { t: 'Lentes de seguridad y estaciones de lavado', d: 'Máscaras con filtro y capacitación',
+            say: 'La prevención es el uso obligatorio de lentes de seguridad y máscaras con filtro, estaciones de lavado ocular y capacitación.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Trauma ocular',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cómo se reconoce un globo abierto',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-15/01_hipema__kanski_p882.jpg', label: 'Hipema', credit: 'Kanski, p. 882' },
-        { src: 'biblioteca/12_oftalmologia/oftal-15/01_fractura-suelo-orbitario-tc__cto-oftalmo_p94.jpg', label: 'Fractura del piso orbitario', credit: 'Manual CTO Oftalmología 14.ª ed., p. 94' },
+        { src: 'animaciones/oftal-15/A1_globo_abierto.mp4', label: 'Globo abierto', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · capas y rótulos propios' },
       ],
       steps: [
-        { note: 'Sangre en la cámara anterior',
-          say: 'El hipema es sangre en la cámara anterior.' },
-        { note: 'TC',
-          say: 'Y la fractura del piso orbitario se ve en la tomografía.' },
+        { note: 'Se reconoce, se protege, no se toca',
+          say: 'Así se reconoce un globo abierto: la pupila en gota apunta a la herida, con el iris herniado. Con fluoresceína, el signo de Seidel muestra el humor acuoso escurriendo como un río verde. Y la conducta es protegerlo con una concha rígida fenestrada que se apoya en el reborde óseo: nada de presión, ni pomadas, ni parche compresivo, y cirugía en las primeras veinticuatro horas.' },
       ],
     },
 
@@ -312,6 +422,305 @@ module.exports = {
         options: 'Las opciones: prevenir la absorción sistémica de toxinas de la flora conjuntival, evitar las náuseas y el vómito porque la maniobra de Valsalva eleva bruscamente la presión intraocular, inducir miosis para sellar la herida, facilitar la penetración de colirios, o disminuir la producción de humor acuoso. Piénsalo.',
         answer: 'Es la B. Durante el vómito o las arcadas se genera una maniobra de Valsalva, con un aumento brusco de la presión venosa central que se transmite de inmediato al ojo. En un globo abierto, ese pico de presión actúa como un émbolo que expulsa el iris, el cristalino o el vítreo hacia afuera, convirtiendo una herida reparable en una pérdida definitiva. Por eso la antiemesis no es un detalle de confort: es una medida de rescate.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.1.014 · Hifema",
+      "stem": "Hombre de 22 años recibe un pelotazo de fútbol en el ojo izquierdo hace 3 horas. Refiere visión borrosa. Al examen: agudeza visual 20/50, nivel de sangre de 2 mm en la cámara anterior inferior, córnea transparente, sin laceraciones ni deformación pupilar. No tiene antecedentes de anemia de células falciformes ni usa anticoagulantes.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reposo con cabecera elevada a 30-45 grados, protector ocular rígido, evitar AINE y derivar a oftalmología para control de presión intraocular"
+        },
+        {
+          "letter": "B",
+          "text": "Alta con ibuprofeno para el dolor y control en una semana"
+        },
+        {
+          "letter": "C",
+          "text": "Masaje ocular para redistribuir la sangre y parche compresivo"
+        },
+        {
+          "letter": "D",
+          "text": "Drenaje inmediato de la cámara anterior en el servicio de urgencia"
+        },
+        {
+          "letter": "E",
+          "text": "Colirio de pilocarpina cada 6 horas y control en 48 horas"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El hifema traumático se maneja con reposo semisentado, protector rígido (sin compresión), evitar AINE y aspirina por riesgo de resangrado y derivación a oftalmología, que vigila la presión intraocular y la tinción hemática corneal. El drenaje quirúrgico se reserva para casos complicados.",
+      "say": {
+        "stem": "Un hombre de veintidós años recibe un pelotazo en el ojo izquierdo. Tiene visión borrosa y un nivel de sangre de dos milímetros en la parte baja de la cámara anterior, sin heridas en la córnea ni pupila deformada.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: reposo semisentado con protector rígido y derivación, alta con ibuprofeno, masaje ocular con parche compresivo, drenaje inmediato en urgencia o pilocarpina. Piénsalo.",
+        "answer": "Es la A. El hifema se maneja con reposo con la cabecera elevada, un protector rígido que no comprima, sin antiinflamatorios ni aspirina, y derivación al oftalmólogo para vigilar la presión del ojo. El ibuprofeno tienta, pero aumenta el riesgo de resangrado."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.2.002 · Contusión ocular",
+      "stem": "Mujer de 35 años recibe un puñetazo en el ojo derecho hace 2 horas. Presenta equimosis y edema palpebral. Al examen: agudeza visual 20/25, diplopía al mirar hacia arriba, limitación de la elevación del ojo derecho e hipoestesia de la mejilla y el labio superior derecho. Cámara anterior sin sangre y pupilas isocóricas reactivas.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Desprendimiento de retina traumático"
+        },
+        {
+          "letter": "B",
+          "text": "Fractura por estallido del piso de la órbita con atrapamiento del recto inferior"
+        },
+        {
+          "letter": "C",
+          "text": "Parálisis del tercer par craneano"
+        },
+        {
+          "letter": "D",
+          "text": "Hifema traumático"
+        },
+        {
+          "letter": "E",
+          "text": "Neuropatía óptica traumática"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Tras una contusión orbitaria, la diplopía con limitación de la mirada hacia arriba (atrapamiento del recto inferior) y la hipoestesia infraorbitaria (lesión del nervio infraorbitario) son típicas de la fractura por estallido del piso orbitario. Se confirma con tomografía computada de órbitas.",
+      "say": {
+        "stem": "Una mujer de treinta y cinco años recibe un puñetazo en el ojo derecho. Tiene visión casi normal, pero ve doble al mirar hacia arriba, el ojo no sube bien y tiene adormecida la mejilla y el labio superior de ese lado.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: desprendimiento de retina, fractura del piso de la órbita, parálisis del tercer par, hifema o neuropatía óptica traumática. Piénsalo.",
+        "answer": "Es la B. La diplopía al mirar hacia arriba por atrapamiento del recto inferior y la hipoestesia del nervio infraorbitario delatan una fractura por estallido del piso orbitario. La parálisis del tercer par tienta, pero no explica la mejilla adormecida y daría ptosis y midriasis."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.5.003 · Colocación de sello ocular",
+      "stem": "Hombre de 30 años, soldador, consulta en el SAPU por sensación de cuerpo extraño en el ojo derecho. Se le extrae un cuerpo extraño corneal superficial y la tinción con fluoresceína muestra una erosión corneal de 2 mm. No usa lentes de contacto. Se decide ocluir el ojo para su traslado y comodidad.",
+      "question": "Respecto de la colocación del sello ocular, ¿cuál afirmación es correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Se debe ocluir con el ojo abierto para permitir la salida de lágrimas"
+        },
+        {
+          "letter": "B",
+          "text": "Se recomienda en usuarios de lentes de contacto con erosión corneal"
+        },
+        {
+          "letter": "C",
+          "text": "Está indicado en toda causticación ocular antes de irrigar"
+        },
+        {
+          "letter": "D",
+          "text": "Se pone con el párpado cerrado, gasas sobre el ojo y tela adhesiva oblicua desde la frente al pómulo, sin presionar el globo si se sospecha perforación"
+        },
+        {
+          "letter": "E",
+          "text": "Debe mantenerse al menos 7 días sin retirarlo"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El sello se coloca con el párpado cerrado, gasa doblada sobre el ojo y cintas adhesivas oblicuas de frente a pómulo, firme pero sin presión si existe riesgo de perforación (en ese caso, concha rígida). Está contraindicado en usuarios de lentes de contacto por riesgo de Pseudomonas y nunca reemplaza la irrigación en causticaciones.",
+      "say": {
+        "stem": "A un soldador de treinta años se le extrae un cuerpo extraño de la córnea y queda con una erosión pequeña. Se decide ponerle un sello ocular.",
+        "question": "¿Cuál afirmación sobre el sello ocular es correcta?",
+        "options": "Las opciones: con el ojo abierto, en usuarios de lentes de contacto, en toda causticación antes de irrigar, con el párpado cerrado y cintas oblicuas sin presionar o por siete días. Piénsalo.",
+        "answer": "Es la D. El sello se pone con el párpado cerrado, gasa encima y cintas oblicuas de la frente al pómulo, sin presionar si se sospecha perforación. Usarlo en portadores de lentes de contacto tienta, pero está contraindicado por el riesgo de infección por Pseudomonas."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.2.015 · Trauma maxilofacial",
+      "stem": "Hombre de 30 años recibe un puñetazo en el ojo izquierdo. Consulta por diplopía al mirar hacia arriba. Al examen presenta hematoma periorbitario, enoftalmos, limitación de la elevación del ojo izquierdo e hipoestesia de la mejilla y del labio superior ipsilaterales. Agudeza visual conservada.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fractura del piso de la órbita (por estallido)"
+        },
+        {
+          "letter": "B",
+          "text": "Fractura de huesos propios nasales"
+        },
+        {
+          "letter": "C",
+          "text": "Fractura de mandíbula"
+        },
+        {
+          "letter": "D",
+          "text": "Parálisis del VI par craneal"
+        },
+        {
+          "letter": "E",
+          "text": "Desprendimiento de retina traumático"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Un golpe directo sobre el globo aumenta la presión intraorbitaria y fractura el piso orbitario (blow-out), con atrapamiento del recto inferior (diplopía en la mirada superior), enoftalmos e hipoestesia infraorbitaria por lesión del nervio infraorbitario. Se confirma con TAC de órbitas. La parálisis del VI par limita la abducción, no la elevación.",
+      "say": {
+        "stem": "Hombre de treinta años que recibe un puñetazo en el ojo izquierdo y tiene visión doble al mirar hacia arriba. Presenta hematoma periorbitario, ojo hundido, limitación para elevarlo y adormecimiento de la mejilla y el labio superior del mismo lado, con agudeza visual conservada.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: fractura del piso de la órbita, fractura nasal, fractura de mandíbula, parálisis del sexto par, o desprendimiento de retina. Piénsalo.",
+        "answer": "Es la A. Diplopía al mirar arriba, enoftalmos y mejilla adormecida es la fractura por estallido del piso orbitario, con el recto inferior atrapado y el nervio infraorbitario lesionado. La parálisis del sexto par tienta por la diplopía, pero esa limita mirar hacia afuera, no hacia arriba."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.2.008 · Heridas de párpados",
+      "stem": "Niño de 6 años sufre mordedura de perro en la cara. Tiene una herida de espesor completo en el tercio medial del párpado inferior derecho, entre el punto lagrimal y el canto interno. El globo ocular parece indemne.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sutura simple de piel en el servicio de urgencia"
+        },
+        {
+          "letter": "B",
+          "text": "Parche ocular compresivo y control en 1 semana"
+        },
+        {
+          "letter": "C",
+          "text": "Dejar cicatrizar por segunda intención"
+        },
+        {
+          "letter": "D",
+          "text": "Cierre con adhesivo tisular"
+        },
+        {
+          "letter": "E",
+          "text": "Aseo, profilaxis antibiótica y antirrábica según corresponda, y derivación a oftalmología para reparación con evaluación y reconstrucción de la vía lagrimal (canalículo)"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Las heridas palpebrales mediales al punto lagrimal pueden seccionar el canalículo, y las que comprometen el borde libre o son de espesor completo requieren reparación por especialista para evitar epífora crónica y deformidades. Ante una herida palpebral siempre se descarta lesión del globo. Las mordeduras requieren además aseo, antibiótico (amoxicilina-clavulánico) y evaluación de profilaxis antirrábica y antitetánica.",
+      "say": {
+        "stem": "Niño de seis años mordido por un perro, con una herida de espesor completo en la parte interna del párpado inferior, cerca del punto lagrimal, con el ojo aparentemente indemne.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: sutura simple en urgencia, parche compresivo, segunda intención, adhesivo tisular o aseo con profilaxis y derivación a oftalmología para reparar la vía lagrimal. Piénsalo.",
+        "answer": "Es la E. Una herida medial al punto lagrimal puede cortar el canalículo y se deriva para reparación especializada, además de aseo y profilaxis. La sutura simple en urgencia tienta, pero dejaría un lagrimeo crónico si el canalículo queda sin reparar."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.3.001 · Accidentes del trabajo",
+      "stem": "Hombre de 35 años, trabajador de una maestranza, consulta en urgencia por sensación de cuerpo extraño en el ojo derecho tras usar un esmeril sin lentes de protección hace 3 horas. Al examen hay un cuerpo extraño metálico superficial en la córnea con anillo de óxido incipiente.",
+      "question": "Además del manejo del cuerpo extraño, ¿cuál es la conducta administrativa y preventiva correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Considerarlo accidente del trabajo: emitir la Denuncia Individual de Accidente del Trabajo (DIAT) y derivar a su organismo administrador (mutual o ISL); reforzar el uso obligatorio de protección ocular"
+        },
+        {
+          "letter": "B",
+          "text": "Licencia por enfermedad común con cargo a su previsión de salud"
+        },
+        {
+          "letter": "C",
+          "text": "No requiere notificación porque es una lesión leve"
+        },
+        {
+          "letter": "D",
+          "text": "Derivar a COMPIN para calificar enfermedad profesional"
+        },
+        {
+          "letter": "E",
+          "text": "Recomendar al trabajador cambiar de oficio"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Las lesiones oculares por esmeril, soldadura o químicos en el trabajo son accidentes del trabajo (Ley 16.744): se emite la DIAT y la atención, licencia y prestaciones son de cargo del organismo administrador. Son prevenibles con elementos de protección personal (lentes o careta), que el empleador debe proporcionar. Con radiografía se descarta cuerpo extraño intraocular si hubo alta velocidad.",
+      "say": {
+        "stem": "Trabajador de una maestranza con un cuerpo extraño metálico en la córnea tras usar un esmeril sin lentes protectores.",
+        "question": "Además de extraer el cuerpo extraño, ¿cuál es la conducta administrativa y preventiva?",
+        "options": "Las opciones: accidente del trabajo con denuncia y derivación a la mutual reforzando la protección ocular, licencia por enfermedad común, no notificar por ser leve, derivar a COMPIN o cambiar de oficio. Piénsalo.",
+        "answer": "Es la A. Es un accidente del trabajo: se hace la denuncia, se deriva a la mutual y se refuerza el uso de protección ocular. No notificar por ser leve tienta, pero toda lesión laboral debe denunciarse, sin importar su gravedad."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2013 · Pregunta 91",
+      "stem": "Paciente de 50 años, sin antecedentes, consulta por ojo rojo izquierdo desde ayer, asociado a dolor, blefaroespasmo y fotofobia. Por el dolor, el examen es dificultoso, por lo que se administra anestésico local; se aprecia ojo rojo y, al aplicar fluoresceína, se tiñen múltiples erosiones lineales verticales en la mitad superior de la córnea.",
+      "question": "¿Cuál es la conducta más apropiada en este caso?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Evertir el párpado superior"
+        },
+        {
+          "letter": "B",
+          "text": "Aplicar colirio de gentamicina"
+        },
+        {
+          "letter": "C",
+          "text": "Poner parche ocular y controlar"
+        },
+        {
+          "letter": "D",
+          "text": "Aplicar colirio con atropina"
+        },
+        {
+          "letter": "E",
+          "text": "Realizar aseo local"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Erosiones corneales lineales verticales en la mitad superior sugieren un cuerpo extraño alojado en la conjuntiva tarsal superior, que raspa la córnea con cada parpadeo. Se debe evertir el párpado superior para buscarlo y extraerlo con hisopo húmedo. Luego se indica antibiótico tópico. El parche sin retirar el cuerpo extraño perpetúa el daño.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil trece. Paciente de cincuenta años con ojo rojo doloroso, fotofobia y blefaroespasmo. Con fluoresceína se tiñen erosiones lineales verticales en la mitad superior de la córnea.",
+        "question": "¿Cuál es la conducta más apropiada?",
+        "options": "Las opciones: evertir el párpado superior, gentamicina en colirio, parche ocular, atropina en colirio o aseo local. Piénsalo.",
+        "answer": "Es la A. Las erosiones verticales superiores delatan un cuerpo extraño bajo el párpado superior, que se busca evirtiéndolo. El parche tienta por tratar la erosión, pero si el cuerpo extraño sigue ahí, continúa raspando la córnea."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.5.007 · Extracción de cuerpo extraño tarsal",
+      "stem": "Mujer de 30 años con sensación de arenilla en el ojo derecho tras andar en bicicleta. Al evertir el párpado superior se observa una partícula negra adherida a la conjuntiva tarsal. La córnea muestra erosiones lineales superficiales con fluoresceína.",
+      "question": "¿Cuál es la técnica de extracción más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Extraer con una aguja de calibre 18 sin anestesia"
+        },
+        {
+          "letter": "B",
+          "text": "Lavar con agua de la llave y no evertir"
+        },
+        {
+          "letter": "C",
+          "text": "Bajo anestesia tópica, retirar la partícula con un hisopo de algodón humedecido en suero, luego indicar antibiótico tópico"
+        },
+        {
+          "letter": "D",
+          "text": "Dejar que salga sola con el parpadeo y control en 48 horas"
+        },
+        {
+          "letter": "E",
+          "text": "Indicar corticoide tópico y parche"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El cuerpo extraño tarsal superior se extrae evirtiendo el párpado y barriéndolo con un hisopo de algodón húmedo, tras anestesia tópica. Las agujas se reservan para cuerpos extraños corneales incrustados y en manos entrenadas. Después se indica antibiótico tópico y se controla la erosión corneal. Los corticoides tópicos y el uso de anestésico como tratamiento están contraindicados.",
+      "say": {
+        "stem": "Mujer de treinta años con arenilla en el ojo. Al evertir el párpado superior hay una partícula negra adherida a la conjuntiva tarsal.",
+        "question": "¿Cuál es la técnica de extracción más adecuada?",
+        "options": "Las opciones: aguja sin anestesia, lavar sin evertir, hisopo húmedo bajo anestesia tópica y luego antibiótico, esperar que salga sola o corticoide con parche. Piénsalo.",
+        "answer": "Es la C. Se retira con un hisopo humedecido tras anestesia tópica y se indica antibiótico. La aguja tienta, pero se reserva para cuerpos extraños incrustados en la córnea."
+      }
     },
 
     {

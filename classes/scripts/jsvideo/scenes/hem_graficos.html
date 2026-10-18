@@ -10,6 +10,7 @@
 // ?v=neutro (hem-21) nadir día 7 a 14; RAN bajo 500 + fiebre 38,3: antibiótico EV antes de 60 minutos (cefepime).
 // ?v=trombo (hem-23) acelerador (factor V Leiden, protrombina) vs freno (antitrombina, proteínas C y S).
 // ?v=reti (hem-01)   reticulocitos: médula que responde (hemólisis, sangrado) vs que no responde (falta de materia prima o médula).
+// ?v=aplasia (hem-05) la médula deja de fabricar: cae primero lo que vive poco (neutrófilos, plaquetas); los glóbulos rojos, después.
 const V = new URLSearchParams(location.search).get('v') || 'hierro';
 window.SCENE = { duration: 21, fps: 30 };
 const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
@@ -117,7 +118,28 @@ function reti(t) {
   K.banner(40, 640, 1200, 'El porcentaje engaña: se corrige por el hematocrito y la maduración', C.AMBER, seg(t, 12, 0.5));
 }
 
-window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); ({ hierro, abo, neutro, trombo, reti })[V](t); text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); };
+function aplasia(t) {
+  K.title('Cuando la médula deja de fabricar', 'Cada serie cae según cuánto vive en la sangre', C.RED);
+  const ax = G.axes({ x: 110, y: 170, w: 660, h: 340 }, [0, 30], [0, 100], { xt: [0, 10, 20, [30, '30 días']], yt: [[0, '0'], [50, '50 %'], [100, '100 %']], yl: '% del valor normal', xl: 'Días desde que la médula se apaga' });
+  ax.draw(seg(t, 0, 0.7));
+  G.vline(ax, 0, C.VIOLET, null, seg(t, 1, 0.5));
+  if (t > 1) { ctx.globalAlpha = seg(t, 1, 0.5); tag('Día 0: la médula se apaga', ax.X(17), ax.Y(52), C.VIOLET, 15); ctx.globalAlpha = 1; }
+  const neu = x => 100 * Math.exp(-x / 1.1), pla = x => Math.max(3, 100 * (1 - x / 11)), gr = x => 100 * (1 - x / 120);
+  const k1 = seg(t, 2, 3), k2 = seg(t, 5, 5), k3 = seg(t, 10, 6);
+  let p = G.curve(ax, neu, k1, C.RED, 5); if (k1 > 0 && k1 < 1) G.head(p, C.RED);
+  p = G.curve(ax, pla, k2, C.AMBER, 5); if (k2 > 0 && k2 < 1) G.head(p, C.AMBER);
+  p = G.curve(ax, gr, k3, C.BLUE, 5); if (k3 > 0 && k3 < 1) G.head(p, C.BLUE);
+  if (k1 >= 1) { ctx.globalAlpha = seg(t, 5, 0.5); text('Neutrófilos', ax.X(2.2), ax.Y(30), 18, C.RED, 'bold'); ctx.globalAlpha = 1; }
+  if (k2 >= 1) { ctx.globalAlpha = seg(t, 10, 0.5); text('Plaquetas', ax.X(11.5), ax.Y(12), 18, C.AMBER, 'bold'); ctx.globalAlpha = 1; }
+  if (k3 >= 1) { ctx.globalAlpha = seg(t, 16, 0.5); text('Glóbulos rojos', ax.X(30) - 4, ax.Y(gr(30)) + 30, 18, C.BLUE, 'bold', 'right'); ctx.globalAlpha = 1; }
+  K.card(820, 170, 420, 108, C.RED, 'Neutrófilos: horas de vida', ['Caen primero: infecciones graves'], seg(t, 4, 0.5), 17);
+  K.card(820, 292, 420, 108, C.AMBER, 'Plaquetas: una semana o más', ['Siguen: petequias y sangrado'], seg(t, 8, 0.5), 17);
+  K.card(820, 414, 420, 108, C.BLUE, 'Glóbulos rojos: unos 120 días', ['Caen al final: síndrome anémico'], seg(t, 13, 0.5), 17);
+  K.banner(110, 590, 1130, 'Pancitopenia sin esplenomegalia: sospecha una aplasia', C.RED, seg(t, 16.5, 0.5));
+  K.banner(110, 650, 1130, 'Aplasia grave: neutrófilos < 500 · plaquetas < 20.000 · reticulocitos < 20.000', C.AMBER, seg(t, 18.5, 0.5));
+}
+
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); ({ hierro, abo, neutro, trombo, reti, aplasia })[V](t); text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); };
 LOAD({});
 </script>
 </body></html>

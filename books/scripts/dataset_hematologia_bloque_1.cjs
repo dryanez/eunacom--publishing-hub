@@ -29,16 +29,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -230,7 +231,14 @@ const bloque1 = [
           'En el rasgo talasémico menor, el perfil de hierro es estrictamente normal o muestra sobrecarga ligera (ferritina normal o alta, transferrina normal, IST normal); iniciar hierro en un paciente talasémico es una mala práctica médica evaluada negativamente.',
           'En la hemocromatosis hereditaria, los depósitos están sobresaturados: ferritina > 500-1.000 ng/mL, IST > 50-60%, transferrina baja y ferremia marcadamente elevada. En la enfermedad de Still del adulto o en el síndrome de activación macrofágica (SAM), la ferritina alcanza concentraciones extremas diagnósticas (> 3.000 a 10.000 ng/mL), diferenciándose de otros cuadros reumatológicos comunes.'
         ]
-      }
+      },
+      {
+        subhead: "4. Del perfil de hierro a la conducta: tratamiento y seguimiento",
+        paragraphs: [
+          "<b>Anemia ferropénica (Dx Específico, Tx Completo, Seguimiento Completo):</b> cuando el perfil confirma ferropenia (ferritina < 30 ng/mL, o < 100 ng/mL en contexto inflamatorio, con IST < 20%), el paso siguiente no es indicar hierro «a ciegas», sino <b>buscar y tratar la causa</b> (pérdidas ginecológicas o digestivas, dieta, malabsorción, embarazo). Se inicia hierro oral, <b>40 a 100 mg de hierro elemental al día</b> (o en días alternos), y se controla la respuesta: <b>reticulocitos</b> a los 5-7 días, <b>hemoglobina</b> con alza de 1-2 g/dL cada 2-3 semanas y <b>ferritina</b> al final. Se mantiene <b>3 a 6 meses después de normalizada la hemoglobina</b> para reponer los depósitos. Si la hemoglobina no sube al menos 1 g/dL a las 4 semanas, se revisa adherencia, pérdidas persistentes, malabsorción o un diagnóstico erróneo (talasemia, inflamación). El detalle de dosis, efectos adversos e indicaciones de hierro endovenoso se desarrolla en el tema siguiente.",
+          "<b>Cuando el perfil es de inflamación (anemia de las enfermedades crónicas: Sospecha, Tx Inicial, Seguimiento Completo):</b> ferritina normal o alta con IST bajo y TIBC baja no se trata con hierro. Se <b>trata la enfermedad de base</b> (infección, enfermedad autoinmune, neoplasia, ERC), se controlan el hemograma y el perfil de hierro a medida que la enfermedad cede, y se deriva si la anemia es significativa, progresiva o no se explica. Si coexisten ambas situaciones (ferritina < 100 ng/mL con PCR elevada), se trata además la ferropenia asociada."
+        ]
+      },
     ],
     table: {
       title: 'Patrones Diagnósticos del Perfil Marcial en Patologías Frecuentes',
@@ -512,7 +520,14 @@ const bloque1 = [
           'La meta terapéutica de hemoglobina en pacientes con ERC tratados con EPO es de 10.0 a 11.5 g/dL (con un límite máximo de seguridad de 12.0 g/dL). Este rango reduce la necesidad de transfusiones sanguíneas y alivia sustancialmente la astenia y la hipertrofia ventricular izquierda asociada a la sobrecarga hiperdinámica.',
           'Múltiples ensayos clínicos aleatorizados mayores (estudios CHOIR, CREATE y TREAT) demostraron de forma concluyente que intentar normalizar la hemoglobina a valores de población sana (> 13.0 g/dL) mediante dosis elevadas de eritropoyetina aumenta de manera estadísticamente significativa el riesgo de accidente cerebrovascular (ACV) isquémico, eventos trombóticos mayores de la fístula arteriovenosa de hemodiálisis, hipertensión arterial refractaria grave y mortalidad cardiovascular global. Por tanto, si la hemoglobina supera los 11.5 a 12.0 g/dL, la conducta inmediata es reducir la dosis de EPO en un 25-50% o suspenderla transitoriamente.'
         ]
-      }
+      },
+      {
+        subhead: "6. Tratamiento inicial y seguimiento de la anemia de la inflamación",
+        paragraphs: [
+          "El pilar del manejo es <b>tratar la enfermedad de base</b> (controlar la infección, inducir remisión de la artritis o del lupus, tratar la neoplasia o la insuficiencia cardíaca): al ceder la inflamación bajan la IL-6 y la hepcidina y la hemoglobina se recupera en semanas o meses. La anemia suele ser leve a moderada (Hb 9-11 g/dL) y poco sintomática, por lo que <b>no requiere hierro ni transfusión</b> si no hay ferropenia asociada; la transfusión se reserva para anemia sintomática o inestabilidad hemodinámica (habitualmente Hb < 7 g/dL).",
+          "El hierro oral rinde poco con hepcidina alta: se indica solo si hay <b>ferropenia absoluta o mixta</b> (ferritina < 100 ng/mL con IST < 20%); en la ERC el manejo es hierro más AEE, como se vio. <b>Seguimiento (Completo):</b> hemograma y reticulocitos cada 4-8 semanas al inicio y perfil de hierro si la anemia no mejora al controlar la enfermedad. Una anemia que empeora, se vuelve microcítica o no guarda proporción con la enfermedad obliga a descartar sangrado, déficit de B12 o folato, hipotiroidismo y mielodisplasia."
+        ]
+      },
     ],
     table: {
       title: 'Diagnóstico Diferencial: Anemia Ferropénica vs Enfermedad Crónica vs ERC',
@@ -661,7 +676,14 @@ const bloque1 = [
           'Ante la sospecha de aplasia medular en APS, la conducta inicial obligada consiste en: 1) Suspender de inmediato todo fármaco potencialmente mielotóxico; 2) Manejo profiláctico estricto de infecciones (aislamiento protector, evitar inyecciones intramusculares por riesgo de hematomas profundos); 3) Soporte transfusional restrictivo con glóbulos rojos y plaquetas desleucocitados e irradiados (para evitar la aloinmunización frente a antígenos HLA si el paciente es candidato a trasplante); y 4) Derivación inmediata a centro de hematología terciario.',
           'El tratamiento curativo de elección en pacientes jóvenes (< 40-50 años) con donante hermano HLA idéntico es el Trasplante Alogénico de Progenitores Hematopoyéticos. En pacientes mayores o sin donante familiar, la terapia de elección es la Inmunosupresión Intensa con Globulina Antitimocito (ATG) más Ciclosporina A y eltrombopag (agonista del receptor de trombopoyetina).'
         ]
-      }
+      },
+      {
+        subhead: "4. Biopsia osteomedular: cuándo derivar",
+        paragraphs: [
+          "<b>Biopsia de médula ósea (procedimiento: Derivar a especialista):</b> la realiza el hematólogo, junto con el mielograma, en la cresta ilíaca posterior. Se deriva toda <b>pancitopenia o bicitopenia sin causa evidente</b> (fármacos, déficit de B12 o folato, hiperesplenismo, infección), la sospecha de aplasia medular (para confirmar celularidad < 25% y descartar mielodisplasia, leucemia aguda hipoplásica o infiltración) y cualquier citopenia con blastos o células anormales en el frotis. La biopsia es necesaria porque el aspirado de una médula aplásica o fibrótica puede ser «seco» o hemodiluido, y permite medir la celularidad y la reticulina.",
+          "<b>Antes de derivar</b> se envían hemograma con frotis, reticulocitos, B12, folato, función hepática y renal, serología viral (VHB, VHC, VIH) y la lista completa de fármacos y exposiciones. La plaquetopenia no contraindica el procedimiento (se compensa con presión local prolongada); una coagulopatía grave sin corregir sí obliga a corregirla antes. Mientras se espera, se suspenden los fármacos sospechosos y se aplican las medidas de soporte descritas."
+        ]
+      },
     ],
     table: {
       title: 'Diagnóstico Diferencial de la Pancitopenia en Sangre Periférica',

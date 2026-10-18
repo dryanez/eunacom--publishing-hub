@@ -4,7 +4,10 @@
     "topicLabel": "1.1",
     "title": "Nefrologia 1.1: Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
     "perfilCodes": [
-      "1.09.2.010, 1.09.2.008, 1.09.4.009, 1.09.4.016"
+      "1.09.2.010",
+      "1.09.2.004",
+      "1.09.2.009",
+      "1.09.4.016"
     ],
     "tier": 3,
     "realQuestionCount": 4,
@@ -13,8 +16,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca. Código oficial Perfil V3: 1.09.2.010, 1.09.2.008, 1.09.4.009, 1.09.4.016. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.2.010, 1.09.2.008, 1.09.4.009, 1.09.4.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca. Código oficial Perfil V3: 1.09.2.010, 1.09.2.004, 1.09.2.009, 1.09.4.016. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.2.010, 1.09.2.004, 1.09.2.009, 1.09.4.016",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -63,7 +66,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.2.010, 1.09.2.008, 1.09.4.009, 1.09.4.016",
+              "1.09.2.010, 1.09.2.004, 1.09.2.009, 1.09.4.016",
               "Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
               "Específico",
               "Inicial",
@@ -506,7 +509,9 @@
     "topicLabel": "1.2",
     "title": "Nefrologia 1.2: Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)",
     "perfilCodes": [
-      "1.09.2.004, 1.09.1.013"
+      "1.09.2.004",
+      "1.09.1.013",
+      "1.09.4.012"
     ],
     "tier": 2,
     "realQuestionCount": 3,
@@ -850,7 +855,8 @@
     "topicLabel": "1.3",
     "title": "Nefrologia 1.3: Síndrome Urémico y Urgencias Dialíticas (Criterios AEIOU)",
     "perfilCodes": [
-      "1.09.1.023, 1.09.3.004, 1.09.5.003"
+      "1.09.1.023",
+      "1.09.3.004"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -859,8 +865,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Urémico y Urgencias Dialíticas (Criterios AEIOU). Código oficial Perfil V3: 1.09.1.023, 1.09.3.004, 1.09.5.003.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.1.023, 1.09.3.004, 1.09.5.003",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Urémico y Urgencias Dialíticas (Criterios AEIOU). Código oficial Perfil V3: 1.09.1.023, 1.09.3.004.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.1.023, 1.09.3.004",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -903,7 +909,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.1.023, 1.09.3.004, 1.09.5.003",
+              "1.09.1.023, 1.09.3.004",
               "Síndrome Urémico y Urgencias Dialíticas (Criterios AEIOU)",
               "Sospecha",
               "Inicial",
@@ -1119,7 +1125,8 @@
     "topicLabel": "1.4",
     "title": "Nefrologia 1.4: Síndrome Cardiorrenal y Síndrome Hepatorrenal",
     "perfilCodes": [
-      "1.09.1.020, 1.09.2.003"
+      "1.06.2.012",
+      "1.01.1.018"
     ],
     "tier": 1,
     "realQuestionCount": 1,
@@ -1128,8 +1135,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Cardiorrenal y Síndrome Hepatorrenal. Código oficial Perfil V3: 1.09.1.020, 1.09.2.003. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.1.020, 1.09.2.003",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Cardiorrenal y Síndrome Hepatorrenal. Código oficial Perfil V3: 1.06.2.012, 1.01.1.018. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.06.2.012, 1.01.1.018",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1178,7 +1185,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.1.020, 1.09.2.003",
+              "1.06.2.012, 1.01.1.018",
               "Síndrome Cardiorrenal y Síndrome Hepatorrenal",
               "Sospecha",
               "Inicial",
@@ -1420,7 +1427,9 @@
     "topicLabel": "2.1",
     "title": "Nefrologia 2.1: Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica",
     "perfilCodes": [
-      "1.09.2.007, 1.09.2.008, 1.09.4.016"
+      "1.09.2.007",
+      "1.09.1.010",
+      "1.09.4.016"
     ],
     "tier": 3,
     "realQuestionCount": 4,
@@ -1429,8 +1438,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica. Código oficial Perfil V3: 1.09.2.007, 1.09.2.008, 1.09.4.016. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.2.007, 1.09.2.008, 1.09.4.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica. Código oficial Perfil V3: 1.09.2.007, 1.09.1.010, 1.09.4.016. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.2.007, 1.09.1.010, 1.09.4.016",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1479,7 +1488,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.2.007, 1.09.2.008, 1.09.4.016",
+              "1.09.2.007, 1.09.1.010, 1.09.4.016",
               "Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica",
               "Específico",
               "Completo",
@@ -1921,7 +1930,9 @@
     "topicLabel": "2.2",
     "title": "Nefrologia 2.2: SIADH vs Síndrome Pierde Sal Cerebral y Polidipsia Primaria",
     "perfilCodes": [
-      "1.09.1.010, 1.09.2.007"
+      "1.09.1.010",
+      "1.09.2.007",
+      "1.09.4.016"
     ],
     "tier": 2,
     "realQuestionCount": 4,
@@ -2258,7 +2269,8 @@
     "topicLabel": "2.3",
     "title": "Nefrologia 2.3: Hipernatremia y Diabetes Insípida (Central vs Nefrogénica)",
     "perfilCodes": [
-      "1.09.1.007, 1.09.2.008"
+      "1.09.1.007",
+      "1.03.1.015"
     ],
     "tier": 2,
     "realQuestionCount": 4,
@@ -2267,8 +2279,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Hipernatremia y Diabetes Insípida (Central vs Nefrogénica). Código oficial Perfil V3: 1.09.1.007, 1.09.2.008. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.1.007, 1.09.2.008",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Hipernatremia y Diabetes Insípida (Central vs Nefrogénica). Código oficial Perfil V3: 1.09.1.007, 1.03.1.015. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.1.007, 1.03.1.015",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -2317,7 +2329,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.1.007, 1.09.2.008",
+              "1.09.1.007, 1.03.1.015",
               "Hipernatremia y Diabetes Insípida (Central vs Nefrogénica)",
               "Específico",
               "Completo",
@@ -2580,7 +2592,9 @@
     "topicLabel": "2.4",
     "title": "Nefrologia 2.4: Fluidoterapia y Terapia Diurética en la Práctica Clínica",
     "perfilCodes": [
-      "1.09.2.008, 1.09.1.020, 1.09.3.009"
+      "1.09.2.008",
+      "1.09.1.020",
+      "1.09.3.009"
     ],
     "tier": 1,
     "realQuestionCount": 5,
@@ -2918,7 +2932,9 @@
     "topicLabel": "3.1",
     "title": "Nefrologia 3.1: Hiperkalemia Grave y Algoritmo de Estabilización de Membrana",
     "perfilCodes": [
-      "1.09.2.005, 1.09.4.016"
+      "1.09.2.005",
+      "1.01.4.007",
+      "1.09.4.010"
     ],
     "tier": 3,
     "realQuestionCount": 4,
@@ -2927,8 +2943,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Hiperkalemia Grave y Algoritmo de Estabilización de Membrana. Código oficial Perfil V3: 1.09.2.005, 1.09.4.016. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.2.005, 1.09.4.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Hiperkalemia Grave y Algoritmo de Estabilización de Membrana. Código oficial Perfil V3: 1.09.2.005, 1.01.4.007, 1.09.4.010. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.2.005, 1.01.4.007, 1.09.4.010",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -2977,7 +2993,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.2.005, 1.09.4.016",
+              "1.09.2.005, 1.01.4.007, 1.09.4.010",
               "Hiperkalemia Grave y Algoritmo de Estabilización de Membrana",
               "Específico",
               "Completo",
@@ -3331,7 +3347,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 151",
         "notes": "[SLIDE 15] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 151.",
         "number": 5,
-        "caseText": "Un paciente de 27 años, con antecedente de insuﬁciencia renal crónica en hemodiálisis, no asiste a su sesión dialí8ca del día sábado, debido a que acude a una ﬁesta con abundante consumo de comida y bebidas. El día lunes amanece con marcado malestar general y diﬁcultad para mover las extremidades, por lo que es llevado al servicio de urgencia. Al examen Fsico se constata tetraparesia y frecuencia cardíaca de 40 la8dos por minuto. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente de 27 años, con antecedente de insuficiencia renal crónica en hemodiálisis, no asiste a su sesión dialítica del día sábado, debido a que acude a una fiesta con abundante consumo de comida y bebidas. El día lunes amanece con marcado malestar general y dificultad para mover las extremidades, por lo que es llevado al servicio de urgencia. Al examen físico se constata tetraparesia y frecuencia cardíaca de 40 latidos por minuto. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -3428,7 +3444,8 @@
     "topicLabel": "3.2",
     "title": "Nefrologia 3.2: Hipokalemia y Reposición Segura de Potasio",
     "perfilCodes": [
-      "1.09.2.006, 1.09.3.009"
+      "1.09.2.006",
+      "1.09.4.010"
     ],
     "tier": 2,
     "realQuestionCount": 3,
@@ -3437,8 +3454,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Hipokalemia y Reposición Segura de Potasio. Código oficial Perfil V3: 1.09.2.006, 1.09.3.009. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.2.006, 1.09.3.009",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Hipokalemia y Reposición Segura de Potasio. Código oficial Perfil V3: 1.09.2.006, 1.09.4.010. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.2.006, 1.09.4.010",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -3487,7 +3504,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.2.006, 1.09.3.009",
+              "1.09.2.006, 1.09.4.010",
               "Hipokalemia y Reposición Segura de Potasio",
               "Específico",
               "Completo",
@@ -3776,7 +3793,8 @@
     "topicLabel": "3.3",
     "title": "Nefrologia 3.3: Acidosis Metabólica: Anion Gap, Brecha Osmolar y Bicarbonatoterapia",
     "perfilCodes": [
-      "1.09.1.001, 1.09.4.016"
+      "1.09.1.002",
+      "1.09.4.008"
     ],
     "tier": 3,
     "realQuestionCount": 2,
@@ -3785,8 +3803,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Acidosis Metabólica: Anion Gap, Brecha Osmolar y Bicarbonatoterapia. Código oficial Perfil V3: 1.09.1.001, 1.09.4.016. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.1.001, 1.09.4.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Acidosis Metabólica: Anion Gap, Brecha Osmolar y Bicarbonatoterapia. Código oficial Perfil V3: 1.09.1.002, 1.09.4.008. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.1.002, 1.09.4.008",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -3835,7 +3853,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.1.001, 1.09.4.016",
+              "1.09.1.002, 1.09.4.008",
               "Acidosis Metabólica: Anion Gap, Brecha Osmolar y Bicarbonatoterapia",
               "Específico",
               "Completo",
@@ -4279,7 +4297,8 @@
     "topicLabel": "3.4",
     "title": "Nefrologia 3.4: Alcalosis Metabólica y Trastornos Ácido-Base Mixtos",
     "perfilCodes": [
-      "1.09.2.008, 1.09.4.016"
+      "1.09.1.003",
+      "1.05.4.010"
     ],
     "tier": 2,
     "realQuestionCount": 2,
@@ -4288,8 +4307,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Alcalosis Metabólica y Trastornos Ácido-Base Mixtos. Código oficial Perfil V3: 1.09.2.008, 1.09.4.016. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.2.008, 1.09.4.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Alcalosis Metabólica y Trastornos Ácido-Base Mixtos. Código oficial Perfil V3: 1.09.1.003, 1.05.4.010. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.1.003, 1.05.4.010",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4338,7 +4357,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.2.008, 1.09.4.016",
+              "1.09.1.003, 1.05.4.010",
               "Alcalosis Metabólica y Trastornos Ácido-Base Mixtos",
               "Específico",
               "Completo",
@@ -4599,7 +4618,8 @@
     "topicLabel": "4.1",
     "title": "Nefrologia 4.1: Síndrome Nefrótico y Complicaciones Trombóticas",
     "perfilCodes": [
-      "1.09.1.022, 1.09.4.016"
+      "1.09.1.022",
+      "1.09.4.015"
     ],
     "tier": 3,
     "realQuestionCount": 8,
@@ -4608,8 +4628,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Nefrótico y Complicaciones Trombóticas. Código oficial Perfil V3: 1.09.1.022, 1.09.4.016. Este tema ha sido evaluado en 8 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.1.022, 1.09.4.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Nefrótico y Complicaciones Trombóticas. Código oficial Perfil V3: 1.09.1.022, 1.09.4.015. Este tema ha sido evaluado en 8 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.1.022, 1.09.4.015",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4658,7 +4678,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.1.022, 1.09.4.016",
+              "1.09.1.022, 1.09.4.015",
               "Síndrome Nefrótico y Complicaciones Trombóticas",
               "Específico",
               "Inicial",
@@ -5427,7 +5447,8 @@
     "topicLabel": "4.3",
     "title": "Nefrologia 4.3: Síndrome Nefrítico y Glomerulonefritis Postestreptocócica (GNPE)",
     "perfilCodes": [
-      "1.09.1.021"
+      "1.09.1.021",
+      "1.09.4.012"
     ],
     "tier": 2,
     "realQuestionCount": 6,
@@ -5436,8 +5457,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Nefrítico y Glomerulonefritis Postestreptocócica (GNPE). Código oficial Perfil V3: 1.09.1.021. Este tema ha sido evaluado en 6 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.1.021",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Nefrítico y Glomerulonefritis Postestreptocócica (GNPE). Código oficial Perfil V3: 1.09.1.021, 1.09.4.012. Este tema ha sido evaluado en 6 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.1.021, 1.09.4.012",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -5486,7 +5507,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.1.021",
+              "1.09.1.021, 1.09.4.012",
               "Síndrome Nefrítico y Glomerulonefritis Postestreptocócica (GNPE)",
               "Específico",
               "Completo",
@@ -5775,7 +5796,8 @@
     "topicLabel": "4.4",
     "title": "Nefrologia 4.4: Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA",
     "perfilCodes": [
-      "1.09.2.013, 1.09.4.016"
+      "1.09.2.013",
+      "1.11.1.025"
     ],
     "tier": 3,
     "realQuestionCount": 2,
@@ -5784,8 +5806,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA. Código oficial Perfil V3: 1.09.2.013, 1.09.4.016. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.2.013, 1.09.4.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA. Código oficial Perfil V3: 1.09.2.013, 1.11.1.025. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.2.013, 1.11.1.025",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -5834,7 +5856,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.2.013, 1.09.4.016",
+              "1.09.2.013, 1.11.1.025",
               "Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA",
               "Específico",
               "Inicial",
@@ -6146,7 +6168,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 164",
         "notes": "[SLIDE 13] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 164.",
         "number": 5,
-        "caseText": "Un paciente de 71 años presenta desde hace dos meses malestar general, mialgias y febrícula ocasional, además de episodios de hematuria, especialmente en el úl8mo 8empo. Al examen Fsico, presenta frecuencia cardíaca 82 la8dos por minuto, presión arterial 176/111 mmHg, edema bimaleolar y disminución del volumen de orina. El examen cardiopulmonar muestra ritmo regular en dos 8empos sin soplos y murmullo pulmonar presente con crépitos bibasales, sin otros ruidos. En los exámenes de laboratorio destacan crea8ninemia: 4,34 mg/dL, BUN: 72 mg/dL, sedimento de orina: 10 leucocitos por campo y 60 hema`es por campo, con 10% de acantocitos. ¿Qué examen es el más adecuado para conﬁrmar el diagnós8co?",
+        "caseText": "Un paciente de 71 años presenta desde hace dos meses malestar general, mialgias y febrícula ocasional, además de episodios de hematuria, especialmente en el último tiempo. Al examen físico, presenta frecuencia cardíaca 82 latidos por minuto, presión arterial 176/111 mmHg, edema bimaleolar y disminución del volumen de orina. El examen cardiopulmonar muestra ritmo regular en dos tiempos sin soplos y murmullo pulmonar presente con crépitos bibasales, sin otros ruidos. En los exámenes de laboratorio destacan creatininemia: 4,34 mg/dL, BUN: 72 mg/dL, sedimento de orina: 10 leucocitos por campo y 60 hema`es por campo, con 10% de acantocitos. ¿Qué examen es el más adecuado para confirmar el diagnóstico?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -6161,7 +6183,7 @@
           },
           {
             "id": "C",
-            "text": "An2cuerpos an2citoplasma de neutróﬁlos (ANCA)",
+            "text": "An2cuerpos an2citoplasma de neutrófilos (ANCA)",
             "isCorrect": false
           },
           {
@@ -6175,7 +6197,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Tiene los siguientes diagnósticos: insuﬁciencia renal aguda, síndrome nefrítico, glomerulonefriGs rápidamente progresiva (GNRP) e hipertensión secundaria. La principal sospecha es una micropoliangeíGs o poliangeíGs microscópica (PAM), que es una vasculiGs grave (alta letalidad sin tratamiento), clásica del adulto mayor. Es ANCA positivo en patrón perinuclear (ANCA-p). Biopsia renal y ANCA aparecen como opciones adecuadas, pero la pregunta especíﬁca es el examen adecuado para “conﬁrmar el diagnóstico”, por lo que la respuesta correcta es la biopsia renal (examen de elección para el estudio de las GNRP). Sin embargo, es posible que quien redactó la pregunta haya intentado preguntar los ANCA, evaluando la capacidad de identiﬁcar el cuadro clínico. Se trata con corticoides sistémicos más rituximab (más usado hoy) o ciclofosfamida. Las recurrencias se evitan con rituximab."
+        "explanation": "Tiene los siguientes diagnósticos: insuficiencia renal aguda, síndrome nefrítico, glomerulonefritis rápidamente progresiva (GNRP) e hipertensión secundaria. La principal sospecha es una micropoliangeítis o poliangeítis microscópica (PAM), que es una vasculitis grave (alta letalidad sin tratamiento), clásica del adulto mayor. Es ANCA positivo en patrón perinuclear (ANCA-p). Biopsia renal y ANCA aparecen como opciones adecuadas, pero la pregunta específica es el examen adecuado para “confirmar el diagnóstico”, por lo que la respuesta correcta es la biopsia renal (examen de elección para el estudio de las GNRP). Sin embargo, es posible que quien redactó la pregunta haya intentado preguntar los ANCA, evaluando la capacidad de identificar el cuadro clínico. Se trata con corticoides sistémicos más rituximab (más usado hoy) o ciclofosfamida. Las recurrencias se evitan con rituximab."
       },
       {
         "type": "question",
@@ -6243,7 +6265,8 @@
     "topicLabel": "4.5",
     "title": "Nefrologia 4.5: Nefropatía Lúpica: Clasificación ISN/RPS y Conducta Terapéutica",
     "perfilCodes": [
-      "1.09.1.006, 1.09.4.016"
+      "1.09.1.006",
+      "1.11.1.014"
     ],
     "tier": 2,
     "realQuestionCount": 1,
@@ -6252,8 +6275,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Nefropatía Lúpica: Clasificación ISN/RPS y Conducta Terapéutica. Código oficial Perfil V3: 1.09.1.006, 1.09.4.016. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.1.006, 1.09.4.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Nefropatía Lúpica: Clasificación ISN/RPS y Conducta Terapéutica. Código oficial Perfil V3: 1.09.1.006, 1.11.1.014. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.1.006, 1.11.1.014",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -6302,7 +6325,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.1.006, 1.09.4.016",
+              "1.09.1.006, 1.11.1.014",
               "Nefropatía Lúpica: Clasificación ISN/RPS y Conducta Terapéutica",
               "Específico",
               "Inicial",
@@ -6555,7 +6578,10 @@
     "topicLabel": "5.1",
     "title": "Nefrologia 5.1: Enfermedad Renal Crónica (KDIGO) y Garantías Explícitas en Salud (GES)",
     "perfilCodes": [
-      "1.09.1.014, 1.09.1.001, 1.09.4.005, 1.09.4.016"
+      "1.09.1.012",
+      "1.09.3.008",
+      "1.09.1.017",
+      "1.09.3.004"
     ],
     "tier": 3,
     "realQuestionCount": 8,
@@ -6564,8 +6590,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Enfermedad Renal Crónica (KDIGO) y Garantías Explícitas en Salud (GES). Código oficial Perfil V3: 1.09.1.014, 1.09.1.001, 1.09.4.005, 1.09.4.016. Este tema ha sido evaluado en 8 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.1.014, 1.09.1.001, 1.09.4.005, 1.09.4.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Enfermedad Renal Crónica (KDIGO) y Garantías Explícitas en Salud (GES). Código oficial Perfil V3: 1.09.1.012, 1.09.3.008, 1.09.1.017, 1.09.3.004. Este tema ha sido evaluado en 8 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.1.012, 1.09.3.008, 1.09.1.017, 1.09.3.004",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -6614,7 +6640,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.1.014, 1.09.1.001, 1.09.4.005, 1.09.4.016",
+              "1.09.1.012, 1.09.3.008, 1.09.1.017, 1.09.3.004",
               "Enfermedad Renal Crónica (KDIGO) y Garantías Explícitas en Salud (GES)",
               "Específico",
               "Completo",
@@ -7060,7 +7086,9 @@
     "topicLabel": "5.2",
     "title": "Nefrologia 5.2: Complicaciones de la ERC: Anemia, Trastorno Mineral Óseo (CKD-MBD) y Acidosis",
     "perfilCodes": [
-      "1.09.1.015, 1.09.1.001"
+      "1.09.1.004",
+      "1.09.1.015",
+      "1.09.1.001"
     ],
     "tier": 2,
     "realQuestionCount": 3,
@@ -7391,7 +7419,8 @@
     "topicLabel": "5.3",
     "title": "Nefrologia 5.3: Hipertensión Secundaria y Estenosis de la Arteria Renal",
     "perfilCodes": [
-      "1.09.1.009"
+      "1.09.1.009",
+      "4.01.1.045"
     ],
     "tier": 2,
     "realQuestionCount": 3,
@@ -7400,8 +7429,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Hipertensión Secundaria y Estenosis de la Arteria Renal. Código oficial Perfil V3: 1.09.1.009. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.1.009",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Hipertensión Secundaria y Estenosis de la Arteria Renal. Código oficial Perfil V3: 1.09.1.009, 4.01.1.045. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.1.009, 4.01.1.045",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -7450,7 +7479,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.1.009",
+              "1.09.1.009, 4.01.1.045",
               "Hipertensión Secundaria y Estenosis de la Arteria Renal",
               "Específico",
               "Inicial",
@@ -7741,7 +7770,9 @@
     "topicLabel": "5.4",
     "title": "Nefrologia 5.4: Pielonefritis Aguda e Infecciones Urinarias Altas en el Adulto",
     "perfilCodes": [
-      "1.09.2.011, 1.09.1.016"
+      "1.09.1.016",
+      "1.09.2.011",
+      "1.09.4.017"
     ],
     "tier": 2,
     "realQuestionCount": 3,
@@ -8092,7 +8123,8 @@
     "topicLabel": "5.5",
     "title": "Nefrologia 5.5: Ajuste de Fármacos en Insuficiencia Renal y Nefrotoxicidad Prevenible",
     "perfilCodes": [
-      "1.09.1.014, 1.09.2.008, 1.09.4.016"
+      "1.09.3.001",
+      "1.09.3.007"
     ],
     "tier": 1,
     "realQuestionCount": 7,
@@ -8101,8 +8133,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Ajuste de Fármacos en Insuficiencia Renal y Nefrotoxicidad Prevenible. Código oficial Perfil V3: 1.09.1.014, 1.09.2.008, 1.09.4.016. Este tema ha sido evaluado en 7 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.09.1.014, 1.09.2.008, 1.09.4.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Ajuste de Fármacos en Insuficiencia Renal y Nefrotoxicidad Prevenible. Código oficial Perfil V3: 1.09.3.001, 1.09.3.007. Este tema ha sido evaluado en 7 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.09.3.001, 1.09.3.007",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -8151,7 +8183,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.09.1.014, 1.09.2.008, 1.09.4.016",
+              "1.09.3.001, 1.09.3.007",
               "Ajuste de Fármacos en Insuficiencia Renal y Nefrotoxicidad Prevenible",
               "Específico",
               "Completo",

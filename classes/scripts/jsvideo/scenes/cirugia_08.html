@@ -1,0 +1,67 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Cirugía 11.8: absceso cutáneo: colección que fluctúa → incisión en el punto de máxima fluctuación → drenaje, rotura de tabiques, lavado.
+// Base: Blausen.com staff (2014) "Abscess", CC BY 3.0; rótulos en inglés quitados (assets/blausen/absceso_piel.png, 825x660).
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+const W0 = 825, H0 = 660, S = 0.78, DST = { x: 40, y: 140, w: W0 * S, h: H0 * S };
+const P = (x, y) => [DST.x + x * S, DST.y + y * S];
+const PUS = [440, 205], CUT = [440, 52];
+function clipL() { ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip(); }
+function lamina(a) { ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF'); clipL(); ctx.drawImage(I('a'), DST.x, DST.y, DST.w, DST.h); ctx.restore(); }
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill(); tag(s, x, y, col, size); ctx.restore();
+}
+function waves(x, y, t, col, a) { if (a <= 0) return; ctx.save(); ctx.strokeStyle = col; ctx.lineWidth = 3;
+  for (let i = 0; i < 3; i++) { const u = ((t * 0.8) + i / 3) % 1; ctx.globalAlpha = a * (1 - u); ctx.beginPath(); ctx.arc(x, y, 8 + 40 * u, 0, 7); ctx.stroke(); } ctx.restore(); }
+function finger(x, y, tt, a) { if (a <= 0) return; const dy = Math.abs(Math.sin(tt * 6)) * -10; ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y + dy - 20); ctx.rotate(-0.35); rrect(-8, -34, 16, 40, 8, '#F2C9A5'); ctx.restore(); }
+function blob(x, y, r, a, col) { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); ctx.restore(); }
+const DUR = 28;
+function scene(t) {
+  K.title('Absceso cutáneo', 'Una colección con pus se trata drenándola', C.AMBER || '#FFB020');
+  lamina(seg(t, 0, 0.7));
+  const [px, py] = P(...PUS), [cx, cy] = P(...CUT);
+  const drained = ease(seg(t, 12, 5));                 // 0 → 1 : se vacía la cavidad
+  // la colección crece un poco antes de abrir (tensión)
+  if (t < 9) K.glow(px, py, 70 + 8 * Math.sin(t * 3) * seg(t, 2, 1), '255,210,60', 0.35 * seg(t, 1, 1));
+  label('Pus: colección fluctuante', 560, 190, '#FFE08A', px + 40, py - 10, fade(t, 1.5, 11));
+  label('Piel', 150, 170, '#D9D2C3', ...P(300, 80), fade(t, 1.8, 11));
+  // palpación: fluctuación
+  const fl = fade(t, 4, 8.5, 0.5);
+  if (fl > 0) { waves(px, py, t, '#FFE08A', fl); finger(px - 90, py - 56, t, fl); finger(px + 90, py - 56, t + 0.25, fl);
+    tag('Fluctuación', px, py + 105, '#FFE08A', 16); }
+  // incisión
+  const inc = ease(seg(t, 9, 1.2));
+  if (inc > 0) { ctx.save(); clipL(); ctx.strokeStyle = '#3A0808'; ctx.lineWidth = 5; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(cx - 60 * inc, cy + 2); ctx.lineTo(cx + 60 * inc, cy - 2); ctx.stroke();
+    ctx.strokeStyle = '#B01818'; ctx.lineWidth = 2; ctx.stroke(); ctx.restore(); }
+  if (inc > 0) label('Incisión en el punto de máxima fluctuación', 640, 180, '#FF8A80', cx + 60, cy, fade(t, 9.4, 14));
+  // salida de pus
+  if (t > 11) for (let i = 0; i < 14; i++) { const u = clamp((t - 11.2 - i * 0.28) / 1.6, 0, 1); if (u <= 0 || u >= 1) continue;
+    const x = cx + (rnd(i) - 0.5) * 60 + (u * 30) * (rnd(i + 4) - 0.3), y = cy - 6 - Math.sin(u * Math.PI) * 38 + u * u * 120; blob(x, y, 5 + 4 * rnd(i + 2), 1 - u * 0.6, '#E6C229'); }
+  // cavidad que se vacía: cubre la bola de pus con el tono del tejido y la encoge
+  if (drained > 0) { ctx.save(); clipL(); const g = ctx.createRadialGradient(px, py, 5, px, py, 105); g.addColorStop(0, `rgba(212,100,88,${0.97 * drained})`); g.addColorStop(0.8, `rgba(212,100,88,${0.9 * drained})`); g.addColorStop(1, 'rgba(212,100,88,0)'); ctx.fillStyle = g; ctx.fillRect(px - 120, py - 120, 240, 240); ctx.restore(); }
+  // romper tabiques / lavar
+  if (t > 17.5 && t < 22) { const a = fade(t, 17.5, 22, 0.5); ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = '#FFFFFF'; ctx.lineWidth = 3;
+    const sw = Math.sin((t - 17.5) * 5) * 24; ctx.beginPath(); ctx.moveTo(cx + sw, cy - 40); ctx.lineTo(px + sw * 0.6, py + 10); ctx.stroke(); ctx.fillStyle = '#FFFFFF'; ctx.beginPath(); ctx.arc(px + sw * 0.6, py + 10, 6, 0, 7); ctx.fill(); ctx.restore();
+    tag('Rompes tabiques y lavas', px, py + 112, '#9ADBFF', 16); }
+  // panel derecho
+  K.card(730, 140, 510, 118, '#FFE08A', 'Absceso: colección que fluctúa', ['Calor, eritema, dolor y masa blanda'], seg(t, 4, 0.5), 17);
+  K.card(730, 272, 510, 118, '#FF8A80', 'Tratamiento: incisión y drenaje', ['Anestesia local, incisión amplia, lavado,', 'cavidad abierta (mecha si es grande)'], seg(t, 11, 0.5), 17);
+  K.card(730, 404, 510, 118, '#9ADBFF', 'Antibiótico solo si hay razón', ['Celulitis extensa, fiebre, inmunosupresión,', 'cara o riesgo de SAMR'], seg(t, 18.5, 0.5), 17);
+  K.banner(730, 540, 510, 'Flegmón (sin colección): antibiótico', C.GREEN || '#7CE0A0', seg(t, 23, 0.5));
+  K.banner(730, 600, 510, 'Ántrax en la nuca: pide glicemia', '#FFB020', seg(t, 25, 0.5));
+}
+window.SCENE = { duration: DUR, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); scene(t); K.credit('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios'); };
+LOAD({ a: '../assets/blausen/absceso_piel.png' });
+</script>
+</body></html>

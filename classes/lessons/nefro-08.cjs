@@ -94,6 +94,62 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Edema generalizado',
+      title: 'Anasarca: de dónde viene y cómo se evalúa',
+      cards: [
+        { title: 'Por qué se forma', tag: 'Cuatro mecanismos', kind: 'key', items: [
+          { t: 'Más presión hidrostática o menos oncótica', d: 'Más permeabilidad capilar, o retención renal de sodio',
+            say: 'Con diuréticos en la mano, miremos al paciente que los necesita. El edema generalizado, la anasarca, es líquido acumulado en el intersticio por cuatro mecanismos: más presión hidrostática, menos presión oncótica, más permeabilidad capilar, o retención renal de sodio.' },
+          { t: 'Edema con fóvea bilateral', d: 'Aumento de peso; ascitis, derrame y edema genital',
+            say: 'Se ve como edema con fóvea bilateral y aumento de peso, y en el grado extremo, con ascitis, derrame pleural y edema genital.' },
+        ] },
+        { title: 'Causas principales', tag: 'Qué buscar en cada una', kind: 'criteria', items: [
+          { t: 'Corazón e hígado', d: 'Yugulares y disnea · ascitis y estigmas de hepatopatía',
+            say: 'La causa se orienta por la clínica. La insuficiencia cardíaca trae yugulares ingurgitadas y disnea, y la cirrosis, ascitis y estigmas de hepatopatía.' },
+          { t: 'Riñón', d: 'Nefrótico: edema periorbitario, proteinuria sobre 3,5 g/día, albúmina baja · nefrítico y ERC: retención de sodio',
+            say: 'El síndrome nefrótico da edema periorbitario, proteinuria sobre tres coma cinco gramos al día y albúmina baja. El nefrítico y la enfermedad renal crónica retienen sodio.' },
+          { t: 'Otras', d: 'Desnutrición, enteropatía, hipotiroidismo',
+            say: 'Y también la desnutrición, la enteropatía perdedora de proteínas y el hipotiroidismo.' },
+        ] },
+        { title: 'Fármacos y estudio inicial', tag: 'No olvidarlos', kind: 'alert', items: [
+          { t: 'Dihidropiridinas, AINE, corticoides, glitazonas', d: 'Retirar o ajustar',
+            say: 'Y no olvides los fármacos que lo causan: los calcioantagonistas dihidropiridínicos, los antiinflamatorios, los corticoides y las glitazonas.' },
+          { t: 'Peso, PA, orina, creatinina, albúmina', d: 'Perfil hepático, ECG y BNP',
+            say: 'La evaluación inicial es peso, presión arterial, examen de orina con proteinuria, creatinina, albúmina, perfil hepático, electrocardiograma y BNP.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Edema generalizado',
+      title: 'Manejo inicial de la anasarca',
+      cards: [
+        { title: 'Primero lo básico', tag: 'Causa y sodio', kind: 'key', items: [
+          { t: 'Tratar la causa y retirar fármacos', d: 'Y elevar las piernas',
+            say: 'El manejo parte por lo básico: tratar la causa, retirar los fármacos que favorecen el edema y elevar las piernas.' },
+          { t: 'Sodio < 2 g/día', d: 'Unos 5 g de sal',
+            say: 'Y restringir el sodio a menos de dos gramos al día, que equivalen a unos cinco gramos de sal.' },
+        ] },
+        { title: 'Diurético de asa', tag: 'De elección', kind: 'pharma', items: [
+          { t: 'Furosemida 20–40 mg/día VO', d: '40–80 mg IV si hay anasarca, congestión grave o TFG baja',
+            say: 'El diurético de elección es el de asa. Furosemida de veinte a cuarenta miligramos al día por vía oral, o de cuarenta a ochenta endovenosos si hay anasarca, congestión grave o filtración baja, que exige dosis mayores.' },
+          { t: 'Meta: bajar 0,5–1 kg/día', d: 'Si hay resistencia: tiazida o espironolactona',
+            say: 'La meta es bajar de medio a un kilo al día. Si hay resistencia, se asocia una tiazida o espironolactona, y así se bloquea la nefrona en dos sitios.' },
+          { t: 'Cirrosis con ascitis: espironolactona', d: 'Con furosemida en proporción 100:40',
+            say: 'En la cirrosis con ascitis cambia el orden: parte la espironolactona, con furosemida en proporción de cien a cuarenta.' },
+        ] },
+        { title: 'Vigilar y derivar', tag: 'Seguridad', kind: 'alert', items: [
+          { t: 'Potasio, sodio, creatinina, hipovolemia', d: 'Hipotensión, alcalosis por contracción',
+            say: 'Se vigilan el potasio, el sodio, la creatinina y la hipovolemia, con hipotensión o alcalosis metabólica por contracción.' },
+          { t: 'Derivar si es grave o refractario', d: 'Anasarca grave, falla renal, edema pulmonar',
+            say: 'Y se deriva si hay anasarca grave, edema refractario, deterioro de la función renal o edema pulmonar.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -199,6 +255,44 @@ module.exports = {
         options: 'Las opciones: clortalidona, hidroclorotiazida, furosemida, indapamida, o espironolactona. Piénsalo.',
         answer: 'Es la C, furosemida. Hay edema con la función renal disminuida, y ahí el diurético de asa sigue funcionando, mientras que las tiazidas pierden su efecto. Fíjate que tres alternativas son tiazidas o parecidas, y se descartan juntas. Y la espironolactona es el distractor peligroso: con un potasio de cinco coma tres, lo subiría todavía más.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.3.009 · Terapia diurética",
+      "stem": "Hombre de 56 años con cirrosis alcohólica Child-Pugh B, en abstinencia, consulta por aumento progresivo del perímetro abdominal. Ascitis moderada sin signos de peritonitis; paracentesis diagnóstica con GASA 1,8 g/dL y 90 PMN/mm³. Creatinina 0,8 mg/dL, Na 136 mEq/L, K 4,1 mEq/L.",
+      "question": "¿Cuál es el esquema diurético inicial más adecuado, junto a la restricción de sodio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Furosemida 80 mg/día en monoterapia"
+        },
+        {
+          "letter": "B",
+          "text": "Hidroclorotiazida 50 mg/día"
+        },
+        {
+          "letter": "C",
+          "text": "Espironolactona 100 mg/día más furosemida 40 mg/día"
+        },
+        {
+          "letter": "D",
+          "text": "Acetazolamida 250 mg cada 12 horas"
+        },
+        {
+          "letter": "E",
+          "text": "Paracentesis evacuadora semanal sin diuréticos"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En la ascitis cirrótica el motor es el hiperaldosteronismo secundario, por eso la base es la espironolactona; se combina con furosemida en proporción 100:40 para mantener el potasio y acelerar la respuesta. La furosemida sola es poco eficaz y produce hipokalemia, que precipita encefalopatía.",
+      "say": {
+        "stem": "Un hombre de cincuenta y seis años, con cirrosis por alcohol y en abstinencia, tiene ascitis moderada sin infección; el gradiente de albúmina es alto. La función renal y el potasio son normales.",
+        "question": "Además de la restricción de sal, ¿cuál es el esquema diurético inicial?",
+        "options": "Las opciones: furosemida sola, hidroclorotiazida, espironolactona más furosemida, acetazolamida o solo paracentesis. Piénsalo.",
+        "answer": "Es la C: espironolactona cien con furosemida cuarenta. La ascitis del cirrótico vive de la aldosterona, así que el antagonista es la base y el asa lo acompaña. La furosemida sola tienta por ser el diurético más potente, pero rinde poco aquí y baja el potasio, lo que gatilla encefalopatía."
+      }
     },
 
     {

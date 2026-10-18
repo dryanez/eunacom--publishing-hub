@@ -33,6 +33,89 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Epidemiología descriptiva',
+      title: 'Persona, lugar y tiempo',
+      cards: [
+        { title: 'Cómo se describe', tag: 'Para formular hipótesis', kind: 'key', items: [
+          { t: 'Persona', d: 'Edad, sexo, etnia, ocupación, nivel socioeconómico',
+            say: 'Ahora que ya sabes medir, aprendamos a describir. La epidemiología descriptiva caracteriza la ocurrencia de la enfermedad según tres ejes. Persona: edad, sexo, etnia, ocupación y nivel socioeconómico.' },
+          { t: 'Lugar', d: 'País, comuna, urbano o rural, agrupamiento',
+            say: 'Lugar: el país, la región, la comuna, lo urbano o rural y si los casos se agrupan.' },
+          { t: 'Tiempo', d: 'Tendencia secular, ciclos, estacionalidad, epidemias',
+            say: 'Y tiempo: la tendencia secular, la variación cíclica y estacional, y las epidemias. Ojo con esto: describir sirve para formular hipótesis, no para probarlas.' },
+        ] },
+        { title: 'Términos clave', tag: 'Se confunden', kind: 'alert', items: [
+          { t: 'Endemia', d: 'Presencia habitual en un área',
+            say: 'Cuatro términos que el examen mezcla. Endemia es la presencia habitual de una enfermedad en un área.' },
+          { t: 'Epidemia y brote', d: 'Sobre lo esperado; el brote es localizado',
+            say: 'Epidemia es un aumento por sobre lo esperado. Y el brote es una epidemia localizada en el espacio y en el tiempo.' },
+          { t: 'Pandemia', d: 'Epidemia que cruza continentes',
+            say: 'Y pandemia es una epidemia que cruza continentes.' },
+        ] },
+        { title: 'Descripción sistemática', tag: 'En este orden', kind: 'criteria', items: [
+          { t: 'Magnitud, distribución, gravedad', d: 'Luego tendencia, determinantes e impacto',
+            say: 'Para describir un problema de salud se sigue un orden. Primero su magnitud, con prevalencia, incidencia y mortalidad. Segundo, su distribución por persona, lugar y tiempo. Tercero, su gravedad, con letalidad, años de vida perdidos y discapacidad.' },
+          { t: 'Tendencia, determinantes, impacto', d: 'Base para priorizar',
+            say: 'Después, su tendencia y sus determinantes, y por último su impacto social y económico y su vulnerabilidad a la intervención. Es la base para priorizar en el diagnóstico de salud.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'table',
+      kicker: 'Indicadores de nivel de salud',
+      title: 'Qué se divide por qué',
+      head: ['Indicador', 'Fórmula', 'Detalle'],
+      rows: [
+        { cells: ['Tasa bruta de mortalidad', 'Defunciones del año / población a mitad de año × 1.000', 'Por mil habitantes'],
+          say: 'Ahora los indicadores de nivel de salud. La tasa bruta de mortalidad son las defunciones del año divididas por la población a mitad de año, por mil.' },
+        { cells: ['Mortalidad infantil', 'Muertes de menores de 1 año / nacidos vivos × 1.000', 'Neonatal: 0 a 27 días; precoz: 0 a 6; post-neonatal: 28 días a 11 meses'],
+          say: 'La mortalidad infantil son las muertes de menores de un año divididas por los nacidos vivos, por mil. Se subdivide en neonatal, los primeros veintisiete días, neonatal precoz, de cero a seis días, y post-neonatal, de veintiocho días a once meses.' },
+        { cells: ['Letalidad', 'Muertes por la enfermedad / enfermos × 100', 'Mide gravedad, no frecuencia'],
+          say: 'La letalidad son las muertes por una enfermedad divididas por los enfermos de esa enfermedad, por cien. Mide gravedad, no frecuencia. El denominador son los enfermos, no la población.' },
+        { cells: ['Mortalidad proporcional', 'Muertes por una causa / muertes totales × 100', 'Peso de una causa'],
+          say: 'La mortalidad proporcional son las muertes por una causa divididas por las muertes totales: el peso de esa causa.' },
+        { cells: ['Esperanza de vida al nacer', 'Años que se espera viva un recién nacido', 'Chile: cerca de 80 años'],
+          say: 'La esperanza de vida al nacer son los años que se espera que viva un recién nacido con la mortalidad actual. En Chile, cerca de ochenta.' },
+        { cells: ['AVPP y AVISA', 'Años perdidos por muerte prematura; más discapacidad', 'AVISA = mortalidad prematura + discapacidad'],
+          say: 'Los AVPP son los años de vida potencialmente perdidos. Los AVISA suman la mortalidad prematura y la discapacidad.' },
+        { cells: ['Índice de Swaroop', 'Muertes de 50 años o más / muertes totales × 100', 'Sube cuando mejora la salud'],
+          say: 'Y el índice de Swaroop son las muertes de cincuenta años o más divididas por las muertes totales. Crece cuando mejora el nivel de salud, porque más gente muere vieja.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Salud materno-infantil',
+      title: 'Mortalidad materna y perinatal, con un ejemplo',
+      cards: [
+        { title: 'Muerte materna', tag: 'Por 100.000 nacidos vivos', kind: 'key', items: [
+          { t: 'Hasta 42 días tras el término', d: 'Causa relacionada o agravada por el embarazo; no accidental',
+            say: 'La muerte materna ocurre durante el embarazo o dentro de los cuarenta y dos días tras su término, por causas relacionadas o agravadas por el embarazo, y no accidentales. Se mide con la razón: muertes maternas divididas por nacidos vivos, por cien mil.' },
+          { t: 'Hipertensión, hemorragia, sepsis, aborto', d: 'Las causas',
+            say: 'Sus causas son la hipertensión, la hemorragia, la sepsis y el aborto.' },
+        ] },
+        { title: 'Mortalidad perinatal', tag: 'Por 1.000', kind: 'criteria', items: [
+          { t: '(Fetales tardías + neonatales precoces) / (vivos + fetales tardías)', d: 'Por mil',
+            say: 'La mortalidad perinatal suma las muertes fetales tardías y las neonatales precoces, y las divide por los nacidos vivos más las muertes fetales tardías, por mil. Fíjate en el denominador: se suman las fetales tardías.' },
+          { t: 'Ejemplo: 52.000 vivos, 9 maternas', d: '200 fetales tardías, 180 neonatales precoces',
+            say: 'Un ejemplo. Un año hay cincuenta y dos mil nacidos vivos, nueve muertes maternas, doscientas muertes fetales tardías y ciento ochenta neonatales precoces. La razón materna es nueve dividido por cincuenta y dos mil, por cien mil: diecisiete coma tres por cien mil. La tasa perinatal es trescientos ochenta dividido por cincuenta y dos mil doscientos, por mil: siete coma tres por mil.' },
+          { t: 'Causas perinatales', d: 'Malformaciones, prematurez, asfixia',
+            say: 'Y las causas de la perinatal son las malformaciones congénitas, la prematurez y la asfixia.' },
+        ] },
+        { title: 'Salud perinatal e infantil', tag: 'Chile y el mundo', kind: 'normal', items: [
+          { t: 'Control prenatal y tamizaje', d: 'Chile Crece Contigo; VIH, sífilis, bacteriuria, diabetes',
+            say: 'Las acciones perinatales incluyen control preconcepcional y prenatal precoz, con Chile Crece Contigo, tamizaje de VIH, sífilis, bacteriuria y diabetes gestacional, parto profesional, tamizaje neonatal, BCG y hepatitis B al nacer y apoyo a la lactancia.' },
+          { t: 'Mortalidad infantil de Chile: cerca de 6 por 1.000', d: 'Perinatales y malformaciones; luego, accidentes',
+            say: 'La mortalidad infantil de Chile es de las más bajas de América Latina, cerca de seis por mil, con afecciones perinatales y malformaciones como causas principales. Después del año, predominan los accidentes. En el mundo, en menores de cinco años, mueren por prematurez, neumonía, diarrea, malaria y desnutrición.' },
+          { t: 'ODS 3.2 al 2030', d: 'Menores de 5: 25 por mil o menos; neonatal: 12 o menos',
+            say: 'La meta del Objetivo de Desarrollo Sostenible tres punto dos pide para dos mil treinta una mortalidad de menores de cinco años de veinticinco por mil o menos, y neonatal de doce por mil o menos.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'La base de todo cálculo',
       title: 'La tabla dos por dos: memorízala así',
       cards: [
@@ -159,6 +242,10 @@ module.exports = {
           say: 'Si te preguntan por el beneficio real de un tratamiento, la medida es la reducción absoluta y el número necesario a tratar. El error clásico es quedarse solo con la reducción relativa, que siempre parece más grande e impresionante.' },
         { cells: ['Si un intervalo de confianza es significativo', 'Ver si incluye el valor nulo', 'Fijarse solo en el valor puntual del estimador'],
           say: 'Y si te preguntan si un resultado es significativo, revisa si el intervalo de confianza incluye el valor nulo. El error clásico es mirar solo el número puntual, como uno coma tres, e ignorar que su intervalo pasa por el uno.' },
+        { cells: ['Muertes por una enfermedad entre los enfermos', 'Letalidad', 'Dividir por la población total'],
+          say: 'Si te dan muertes por una enfermedad y te piden gravedad, es la letalidad, y el denominador son los enfermos, no la población.' },
+        { cells: ['Muertes perinatales', 'Fetales tardías más neonatales precoces', 'Olvidar sumar las fetales tardías al denominador'],
+          say: 'En la tasa perinatal, al denominador se le suman las muertes fetales tardías. Es el error de cálculo más común.' },
       ],
     },
 
@@ -248,6 +335,231 @@ module.exports = {
         question: '¿Cuál de las siguientes afirmaciones es correcta con estos resultados?',
         options: 'Las opciones: que tienen uno coma tres veces más riesgo, que tienen treinta por ciento más riesgo, que existe asociación pero no es significativa, que las que tienen cáncer estuvieron más expuestas, o que la asociación se probó pero no es extrapolable.',
         answer: 'Es la C. El punto estimado de uno coma tres parece sugerir más riesgo, pero su intervalo de confianza va de cero coma ochenta y seis a dos coma uno, y ese intervalo incluye el uno. Eso significa que no se puede descartar que el resultado se deba solamente al azar. Las opciones A y B caen en la misma trampa: afirman el riesgo como si fuera un hecho probado, ignorando que el intervalo cruza el valor nulo.' },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 98",
+      "stem": "En una región del país, una enfermedad infecciosa presenta año tras año un número de casos similar, con aumentos esperables en invierno.",
+      "question": "¿Qué significa que una enfermedad sea endémica?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Que mantiene una frecuencia relativamente estable en la zona, con sus variaciones estacionales"
+        },
+        {
+          "letter": "B",
+          "text": "Que presenta muchos más casos que los habituales para la zona geográfica"
+        },
+        {
+          "letter": "C",
+          "text": "Que se extiende a todos los lugares del planeta"
+        },
+        {
+          "letter": "D",
+          "text": "Que presenta varios casos, relacionados entre sí, en un corto período de tiempo"
+        },
+        {
+          "letter": "E",
+          "text": "Que presenta casos escasos, sin poder identificar un patrón"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Endemia es la presencia habitual de una enfermedad en una zona, con frecuencia relativamente estable y sus variaciones estacionales. Epidemia es un exceso de casos sobre lo esperado, pandemia es una epidemia de extensión mundial y brote son casos relacionados en un tiempo corto.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. En una región, una enfermedad infecciosa tiene cada año un número de casos parecido, con alzas esperables en invierno.",
+        "question": "¿Qué significa que una enfermedad sea endémica?",
+        "options": "Las opciones: frecuencia estable en la zona con variación estacional, muchos más casos de lo habitual, extensión a todo el planeta, varios casos relacionados en poco tiempo, o casos escasos sin patrón. Piénsalo.",
+        "answer": "Es la A. Endemia es la presencia habitual y estable de una enfermedad en una zona, con sus variaciones de temporada. La opción de muchos más casos de lo habitual tienta, pero esa es la definición de epidemia."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.3.007 · Mortalidad perinatal y materna",
+      "stem": "El equipo de estadísticas de un Servicio de Salud debe calcular la mortalidad materna regional del último año, considerando las muertes de mujeres durante el embarazo o dentro de los 42 días siguientes a su término, por causas relacionadas con este o agravadas por él.",
+      "question": "¿Cuál es el denominador utilizado para calcular la razón de mortalidad materna?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nacidos vivos, expresado por 100.000"
+        },
+        {
+          "letter": "B",
+          "text": "Mujeres en edad fértil"
+        },
+        {
+          "letter": "C",
+          "text": "Total de embarazos registrados"
+        },
+        {
+          "letter": "D",
+          "text": "Total de partos atendidos, por 1.000"
+        },
+        {
+          "letter": "E",
+          "text": "Población femenina total"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La razón (habitualmente llamada tasa) de mortalidad materna se calcula como muertes maternas dividido por nacidos vivos del mismo período y lugar, por 100.000. Se usa nacidos vivos porque el total de embarazos no se conoce con exactitud. Incluye muertes hasta 42 días posparto por causas obstétricas directas o indirectas.",
+      "say": {
+        "stem": "Un Servicio de Salud quiere calcular su mortalidad materna del último año.",
+        "question": "¿Qué va en el denominador de la razón de mortalidad materna?",
+        "options": "Las opciones: nacidos vivos por cien mil, mujeres en edad fértil, total de embarazos, total de partos por mil o población femenina. Piénsalo.",
+        "answer": "Es la A. Se divide por los nacidos vivos y se expresa por cien mil. El total de embarazos tienta porque sería más lógico, pero no se puede medir con exactitud, y por eso se usan los nacidos vivos."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.3.012 · Salud pública perinatal",
+      "stem": "En las últimas décadas Chile redujo drásticamente su mortalidad infantil gracias al control de la desnutrición y de las infecciones, y hoy tiene tasas cercanas a las de países desarrollados.",
+      "question": "¿Qué componente concentra actualmente la mayor parte de la mortalidad infantil en Chile?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mortalidad por enfermedades diarreicas"
+        },
+        {
+          "letter": "B",
+          "text": "Mortalidad postneonatal (28 días a 11 meses)"
+        },
+        {
+          "letter": "C",
+          "text": "Mortalidad neonatal (menores de 28 días)"
+        },
+        {
+          "letter": "D",
+          "text": "Mortalidad por desnutrición"
+        },
+        {
+          "letter": "E",
+          "text": "Mortalidad por accidentes en el hogar"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En Chile, como en países desarrollados, la mayor parte de la mortalidad infantil es neonatal, asociada a prematurez, malformaciones congénitas y afecciones perinatales. Por eso las estrategias actuales apuntan al período perinatal: control prenatal precoz, atención profesional del parto, regionalización neonatal y Chile Crece Contigo.",
+      "say": {
+        "stem": "Chile bajó mucho su mortalidad infantil al controlar la desnutrición y las infecciones.",
+        "question": "¿Qué componente concentra hoy la mayor parte de esas muertes?",
+        "options": "Las opciones: diarrea, postneonatal, neonatal, desnutrición o accidentes. Piénsalo.",
+        "answer": "Es la C. Hoy la mayoría de las muertes infantiles ocurre en el primer mes, por prematurez y malformaciones. La postneonatal tienta, pero esa fue la que más bajó al controlar infecciones y desnutrición."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.009 · Indicadores de nivel de salud: cálculo e interpretación",
+      "stem": "En una comuna, durante un año, hubo 2.000 nacidos vivos y 16 defunciones de menores de 1 año. De estas, 10 ocurrieron en menores de 28 días.",
+      "question": "¿Cuál es la tasa de mortalidad infantil de la comuna?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0,8 por 1.000 nacidos vivos"
+        },
+        {
+          "letter": "B",
+          "text": "5 por 1.000 nacidos vivos"
+        },
+        {
+          "letter": "C",
+          "text": "3 por 1.000 nacidos vivos"
+        },
+        {
+          "letter": "D",
+          "text": "8 por 100.000 nacidos vivos"
+        },
+        {
+          "letter": "E",
+          "text": "8 por 1.000 nacidos vivos"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Tasa de mortalidad infantil = defunciones de menores de 1 año / nacidos vivos del mismo período × 1.000 = 16/2.000 × 1.000 = 8 por mil. La neonatal (menores de 28 días) sería 10/2.000 × 1.000 = 5 por mil, y la postneonatal 6/2.000 × 1.000 = 3 por mil.",
+      "say": {
+        "stem": "En una comuna hubo dos mil nacidos vivos y dieciséis muertes de menores de un año en el año, diez de ellas en el primer mes.",
+        "question": "¿Cuál es la tasa de mortalidad infantil?",
+        "options": "Las opciones: cero coma ocho por mil, cinco por mil, tres por mil, ocho por cien mil o ocho por mil. Piénsalo.",
+        "answer": "Es la E. Dieciséis muertes de menores de un año sobre dos mil nacidos vivos, por mil, da ocho por mil. El cinco por mil tienta, pero esa es la neonatal, que solo cuenta las diez muertes del primer mes."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.029 · Descripción sistemática de problemas",
+      "stem": "Un equipo de salud detecta un aumento de casos de tuberculosis en su comuna y decide describir sistemáticamente el problema antes de plantear hipótesis sobre su causa.",
+      "question": "¿Qué variables utiliza la epidemiología para describir sistemáticamente un problema de salud?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Persona, lugar y tiempo"
+        },
+        {
+          "letter": "B",
+          "text": "Sensibilidad, especificidad y valores predictivos"
+        },
+        {
+          "letter": "C",
+          "text": "Riesgo relativo, odds ratio y riesgo atribuible"
+        },
+        {
+          "letter": "D",
+          "text": "Agente, vector y reservorio exclusivamente"
+        },
+        {
+          "letter": "E",
+          "text": "Costo, beneficio y utilidad"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La descripción sistemática de un problema responde quién se enferma (persona: edad, sexo, ocupación), dónde (lugar) y cuándo (tiempo: tendencias, estacionalidad, conglomerados). Esto cuantifica su magnitud, identifica grupos de riesgo y genera hipótesis. Las medidas de asociación corresponden a la etapa analítica y la sensibilidad a la evaluación de pruebas diagnósticas.",
+      "say": {
+        "stem": "Un equipo ve que aumentó la tuberculosis en su comuna y quiere describir el problema antes de buscar causas.",
+        "question": "¿Qué variables usa?",
+        "options": "Las opciones: persona, lugar y tiempo; sensibilidad y especificidad; riesgo relativo y odds ratio; agente, vector y reservorio; o costo y beneficio. Piénsalo.",
+        "answer": "Es la A. Describir es contar quién, dónde y cuándo: persona, lugar y tiempo. El riesgo relativo tienta, pero eso ya es analítico, para probar hipótesis de causa."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.3.014 · Salud infantil en Chile y el mundo",
+      "stem": "En un informe sobre salud infantil en Chile se analiza la tasa de mortalidad infantil, que actualmente es cercana a 6 por 1.000.",
+      "question": "¿Cómo se calcula la tasa de mortalidad infantil y cuál es su principal causa en Chile?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Muertes de menores de 5 años por 1.000 habitantes; causa principal: infecciones respiratorias"
+        },
+        {
+          "letter": "B",
+          "text": "Muertes de menores de 1 año por 1.000 habitantes; causa principal: diarrea"
+        },
+        {
+          "letter": "C",
+          "text": "Muertes de menores de 1 año por 1.000 nacidos vivos; causa principal: afecciones originadas en el período perinatal"
+        },
+        {
+          "letter": "D",
+          "text": "Muertes de menores de 28 días por 1.000 nacidos vivos; causa principal: accidentes"
+        },
+        {
+          "letter": "E",
+          "text": "Muertes fetales por 1.000 partos; causa principal: malformaciones"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La tasa de mortalidad infantil es el número de muertes de menores de 1 año en un período, dividido por los nacidos vivos del mismo período, por 1.000. Chile tiene una de las tasas más bajas de Latinoamérica. Sus principales causas son las afecciones originadas en el período perinatal (prematurez) y las malformaciones congénitas; las infecciones disminuyeron drásticamente.",
+      "say": {
+        "stem": "Un informe analiza la mortalidad infantil en Chile, que hoy es cercana a seis por mil.",
+        "question": "¿Cómo se calcula y cuál es su principal causa?",
+        "options": "Las opciones: menores de cinco años por habitantes, menores de un año por habitantes, menores de un año por nacidos vivos con causa perinatal, menores de veintiocho días con accidentes o muertes fetales. Piénsalo.",
+        "answer": "Es la C. Se calcula con las muertes de menores de un año por mil nacidos vivos, y su causa principal son las afecciones perinatales. Las infecciones respiratorias tientan porque fueron la causa principal en el pasado, pero hoy pesan mucho menos."
+      }
     },
 
     {

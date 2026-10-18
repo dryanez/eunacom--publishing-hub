@@ -91,6 +91,16 @@ const rawClasses = [
         "paragraphs": [
           "La Red Asistencial se organiza en tres niveles de atención complementarios basados en el principio de referencia y contrarreferencia:\n• Nivel Primario (APS): Centros de Salud Familiar (CESFAM), Centros Comunitarios de Salud Familiar (CECOSF), Postas de Salud Rural (PSR), Servicios de Atención Primaria de Urgencia (SAPU) y Servicios de Alta Resolutividad (SAR). Resuelve entre el 80% y 90% de los problemas de salud de la población, con énfasis en promoción, prevención, control de crónicos y tamizaje poblacional.\n• Nivel Secundario: Centros de Referencia de Salud (CRS), Centros de Diagnóstico y Tratamiento (CDT) y Consultorios Adosados de Especialidades (CAE). Brinda atención médica especializada ambulatoria y procedimientos diagnósticos complejos de derivación.\n• Nivel Terciario: Hospitales de Alta Complejidad e Institutos Especializados (p. ej., Instituto Nacional del Cáncer, Instituto de Neurocirugía). Provee hospitalización, camas críticas (UPC: UCI/UTI), cirugía mayor y subespecialidades complejas."
         ]
+      },
+      {
+        "subhead": "4. Funciones Esenciales, Funciones del Sistema, Seguridad Social y Política Sanitaria",
+        "paragraphs": [
+          "Las <b>funciones esenciales de la salud pública (FESP)</b>, definidas por la OPS/OMS, son once: (1) monitoreo y análisis de la situación de salud; (2) vigilancia, investigación y control de riesgos y daños; (3) promoción de la salud; (4) participación social en salud; (5) desarrollo de políticas y capacidad institucional de planificación y gestión; (6) regulación y fiscalización; (7) acceso equitativo a los servicios de salud necesarios; (8) desarrollo de recursos humanos; (9) garantía y mejoría de la calidad; (10) investigación en salud pública; (11) reducción del impacto de emergencias y desastres. En Chile las ejerce la autoridad sanitaria: el MINSAL a nivel central y las SEREMI de Salud a nivel regional.",
+          "Todo sistema de salud cumple <b>cuatro funciones</b> (OMS, 2000): <b>rectoría</b> (conducción, regulación y fiscalización; en Chile, MINSAL y Superintendencia de Salud), <b>financiamiento</b> (recaudar, reunir fondos y asignarlos; cotización del 7%, impuestos generales y copagos, canalizados por FONASA e ISAPRES), <b>provisión de servicios</b> (red pública de Servicios de Salud y atención primaria municipal, más prestadores privados) y <b>generación de recursos</b> (formación de personal, infraestructura, tecnología y medicamentos). Sus objetivos finales son mejorar el nivel de salud, la capacidad de respuesta al usuario y la protección financiera (equidad en el aporte).",
+          "La <b>seguridad social</b> es el conjunto de medidas con que la sociedad protege a las personas frente a contingencias (enfermedad, accidente, invalidez, vejez, cesantía, maternidad y muerte). Sus principios son <b>universalidad</b>, <b>solidaridad</b>, <b>integralidad</b>, <b>unidad</b>, <b>igualdad</b> y <b>participación</b>. Existen tres grandes modelos: el <b>bismarckiano</b> (seguro social por cotizaciones de trabajadores y empleadores; Alemania, 1883), el <b>beveridgiano</b> (servicio nacional de salud financiado con impuestos generales y cobertura universal; Reino Unido, 1942-1948) y el <b>de mercado</b> (seguros privados, EE.UU.). Chile partió con el modelo bismarckiano y hoy tiene un sistema mixto, con un pilar solidario público (FONASA) y otro de seguros privados (ISAPRES).",
+          "<b>Hitos históricos en Chile:</b>\n• 1924: Ley 4.054 del Seguro Obrero Obligatorio, primera ley de seguridad social.\n• 1942: Servicio Médico Nacional de Empleados (SERMENA) y Ley de Medicina Preventiva.\n• 1952: creación del Servicio Nacional de Salud (SNS), que integró el seguro obrero y la beneficencia en un sistema único estatal.\n• 1979-1981: reforma estructural; el SNS se divide en el Sistema Nacional de Servicios de Salud, nace FONASA, aparecen las ISAPRES y la atención primaria pasa a los municipios.\n• 2004: Ley 19.937 de Autoridad Sanitaria y Gestión y Ley 19.966, que crea el régimen de garantías explícitas (GES).\n• 2012: Ley 20.584 de derechos y deberes de los pacientes; 2015: Ley 20.850 (Ricarte Soto).",
+          "La <b>política sanitaria</b> es la conducción que define el Estado para mejorar la salud de la población, y se expresa en los <b>objetivos sanitarios</b> de la década: metas medibles que el MINSAL fija cada diez años. Los de 2011-2020 fueron cuatro: mejorar la salud de la población, disminuir las desigualdades en salud, aumentar la satisfacción de la población con los servicios y asegurar la calidad de las intervenciones sanitarias. La <b>Estrategia Nacional de Salud 2021-2030</b> los renueva con metas de impacto por ejes temáticos (por ejemplo alimentación y actividad física, tabaco, enfermedades transmisibles, enfermedades crónicas, salud mental y emergencias) y se alinea con el Objetivo de Desarrollo Sostenible 3 de la ONU."
+        ]
       }
     ],
     "table": {
@@ -338,6 +348,21 @@ const rawClasses = [
           "2. FONASA o la ISAPRE tienen un plazo legal estricto e improrrogable de 48 horas hábiles para designar un Segundo Prestador de reemplazo (institución pública o privada en convenio).",
           "3. El Segundo Prestador designado tiene un plazo perentorio legal de hasta 10 días corridos (ampliable a 30 días en prestaciones electivas complejas) para otorgar la prestación retrasada.",
           "4. Si el asegurador no designa el segundo prestador en 48 horas, o si el segundo prestador incumple el plazo adicional, el paciente debe acudir a la Superintendencia de Salud. La Superintendencia designará un Tercer Prestador en el plazo perentorio de 48 horas hábiles, con cargo financiero directo al asegurador incumplidor."
+        ]
+      },
+      {
+        "subhead": "4. Otros Derechos GES: Salud Oral, Ayudas Técnicas y Agresión Sexual Aguda",
+        "paragraphs": [
+          "<b>Salud oral GES.</b> El régimen GES incluye la <b>salud oral integral</b> de cuatro grupos priorizados: niños de 6 años, adolescentes de 12 años, embarazadas y adultos de 60 años; además, la <b>urgencia odontológica ambulatoria</b> para toda la población. A los 6 años erupciona el primer molar permanente, por eso es la edad de la atención integral (sellantes de fosas y fisuras, obturaciones y alta odontológica). La prevención se apoya en la fluoración del agua potable, el barniz de flúor, el cepillado supervisado en párvulos y la educación sobre alimentación.",
+          "<b>Ayudas técnicas GES para mayores de 65 años.</b> El GES garantiza <b>órtesis o ayudas técnicas</b> a las personas de 65 años o más que las necesiten (bastones, andadores, sillas de ruedas, cojines y colchones antiescaras, entre otras), previa indicación del médico tratante. El médico general debe conocer el derecho, indicar la ayuda según la discapacidad y dejar constancia de la notificación GES para que el paciente acceda a la garantía de oportunidad y a la protección financiera.",
+          "<b>Agresión sexual aguda (derecho GES a atención integral).</b> Es una <b>urgencia</b>: se atiende de inmediato, con acogida, privacidad y sin juicios, sin condicionar la atención a la denuncia. Incluye: examen y registro de las lesiones; toma de muestras con cadena de custodia; <b>anticoncepción de emergencia</b> con levonorgestrel (idealmente dentro de las 72 h y hasta 120 h); <b>profilaxis antirretroviral</b> contra VIH (dentro de las 72 h, por 28 días); profilaxis de otras ITS; vacunación contra hepatitis B y tétanos si corresponde; apoyo psicológico y seguimiento. El equipo debe <b>denunciar</b> el hecho (plazo de 24 horas, ver tema 21.13) y, si la víctima es un menor, solicitar además medidas de protección."
+        ]
+      },
+      {
+        "subhead": "5. Auditoría y Acreditación de Prestadores",
+        "paragraphs": [
+          "La <b>auditoría</b> es la revisión sistemática e independiente de una actividad frente a un estándar, para detectar brechas y corregirlas. La <b>auditoría clínica</b> revisa fichas, procesos y resultados (por ejemplo mortalidad hospitalaria, infecciones asociadas a la atención, cumplimiento de guías); también hay auditoría de gestión y financiera. Cuando ocurre un <b>evento adverso</b> (daño no intencional asociado a la atención) o un <b>evento centinela</b> (evento grave, con muerte o daño permanente), el prestador debe investigarlo con un análisis causal y notificarlo.",
+          "La <b>acreditación</b> es el proceso, a cargo de la Superintendencia de Salud, que verifica que un <b>prestador institucional</b> (hospital, clínica, centro) cumple estándares de calidad. Se evalúa mediante <b>entidades acreditadoras</b> autorizadas, contra las características obligatorias del Estándar General, y tiene vigencia de <b>3 años</b>. No es lo mismo que la <b>autorización sanitaria</b> (SEREMI de Salud), que es el permiso básico de funcionamiento. En el GES, las prestaciones deben otorgarse por prestadores acreditados e inscritos en el registro correspondiente."
         ]
       }
     ],
@@ -774,6 +799,15 @@ const rawClasses = [
         "paragraphs": [
           "Ante una ENO Inmediata, la Autoridad Sanitaria (SEREMI de Salud) despliega acciones de bloqueo epidemiológico:\n• Enfermedad Meningocócica: Quimioprofilaxis de contactos estrechos (personas que pernoctaron en la misma habitación o compartieron fluidos orales en los últimos 10 días) con Rifampicina (600 mg c/12 h x 2 días en adultos) o Ciprofloxacino (500 mg VO dosis única) o Ceftriaxona (250 mg IM dosis única en gestantes).\n• Coqueluche: Quimioprofilaxis de contactos domiciliarios con Azitromicina o Claritromicina por 7 a 14 días.\n• Brotes de ETA: Inspección sanitaria inmediata del casino o restaurante, decomiso de alimentos sospechosos, toma de coprocultivos y sumario sanitario."
         ]
+      },
+      {
+        "subhead": "5. Usos de la Epidemiología, Control de Enfermedades Infecciosas e Investigación de Brotes",
+        "paragraphs": [
+          "La epidemiología se usa en el control de enfermedades para: (1) <b>describir</b> la distribución de los problemas (persona, lugar y tiempo); (2) <b>identificar</b> causas y factores de riesgo; (3) <b>vigilar</b> la tendencia y detectar epidemias; (4) <b>evaluar</b> la eficacia de intervenciones, vacunas y programas; (5) <b>investigar brotes</b>; y (6) apoyar la planificación de servicios. El ejemplo histórico es John Snow en 1854: al mapear los casos de cólera de Londres, vinculó la enfermedad con una bomba de agua y la inhabilitó, antes de conocerse el agente.",
+          "Las <b>estrategias de control</b> de una enfermedad infecciosa actúan sobre un eslabón de la cadena de transmisión:\n• <b>Fuente o reservorio:</b> diagnóstico y tratamiento de los casos, aislamiento, control de animales (rabia, hantavirus).\n• <b>Vía de transmisión:</b> saneamiento básico, cloración del agua, control de vectores, higiene de manos, mascarillas y precauciones estándar.\n• <b>Huésped susceptible:</b> vacunación (Programa Nacional de Inmunizaciones), quimioprofilaxis y educación.\nSegún el resultado buscado se habla de <b>control</b> (reducir la incidencia a un nivel aceptable), <b>eliminación</b> (cero casos en un área geográfica, con vigilancia activa) y <b>erradicación</b> (desaparición global del agente; solo la viruela, en 1980). El <b>aislamiento</b> separa a los enfermos y la <b>cuarentena</b> restringe a los sanos expuestos durante el período de incubación.",
+          "<b>Investigación epidemiológica de un brote</b>, en orden:\n1. Confirmar que hay un brote (más casos que los esperados) y verificar el diagnóstico.\n2. Definir <b>caso</b> (clínica, tiempo, lugar y persona) y buscar casos activamente.\n3. Describir por <b>tiempo</b> (curva epidémica), <b>lugar</b> (mapa) y <b>persona</b>.\n4. Plantear hipótesis sobre fuente y mecanismo de transmisión.\n5. Probarla con un estudio analítico: cohorte en un grupo cerrado (banquete, casino) con cálculo de <b>tasa de ataque</b> (enfermos / expuestos) y riesgo relativo, o casos y controles si la población es abierta.\n6. Aplicar medidas de control sin esperar el final del estudio.\n7. Informar y comunicar.\nLa <b>curva epidémica</b> orienta: pico único dentro de un período de incubación indica fuente común puntual (comida contaminada); meseta, fuente común continua; picos sucesivos separados por un período de incubación, transmisión de persona a persona.",
+          "La notificación es uno de los <b>tres documentos médico-legales de salud pública</b>. Los otros dos son el <b>certificado médico de defunción</b>, que alimenta las estadísticas de mortalidad y que el clínico firma solo en las muertes naturales (tema 21.13), y la <b>licencia médica</b>, que certifica incapacidad laboral transitoria y está sujeta a control de COMPIN y SUSESO (tema 21.14). Los tres son deberes del médico y su incumplimiento tiene sanción sanitaria o penal."
+        ]
       }
     ],
     "table": {
@@ -1005,6 +1039,28 @@ const rawClasses = [
           "El Análisis de Situación de Salud (ASIS) es el proceso analítico-sintético que caracteriza y mide el perfil epidemiológico, sociodemográfico y de determinantes sociales de una población territorial asignada.",
           "• Etapas del Diagnóstico Comunitario:\n  1. Recolección y análisis de datos sociodemográficos y sanitarios (censos, estadísticas vitales, REM del CESFAM).\n  2. Diagnóstico Participativo con la comunidad (talleres con juntas de vecinos, consejos de desarrollo local - CDL, organizaciones de usuarios).\n  3. Priorización de Problemas de Salud (empleando métodos objetivos como Método de Hanlon, evaluando magnitud, gravedad, eficacia y factibilidad).\n  4. Elaboración y ejecución del Plan de Acción Intersectorial en el territorio.\n  5. Monitoreo y evaluación continua de los indicadores de impacto."
         ]
+      },
+      {
+        "subhead": "4. Conceptos de Salud Pública, Determinantes de la Salud y Promoción",
+        "paragraphs": [
+          "La <b>salud</b> es, según la OMS (1948), el estado de completo bienestar físico, mental y social y no solo la ausencia de enfermedad. La <b>salud pública</b> (Winslow, 1920) es la ciencia y el arte de prevenir la enfermedad, prolongar la vida y promover la salud mediante el esfuerzo organizado de la comunidad. Su objeto es la <b>población</b> (la medicina clínica trabaja con el individuo) y su ciencia básica es la epidemiología. La Declaración de <b>Alma-Ata</b> (1978) estableció la atención primaria como estrategia para alcanzar la «salud para todos».",
+          "Los <b>determinantes de la salud</b> son los factores que explican el nivel de salud de una población. <b>Lalonde</b> (Canadá, 1974) los agrupó en cuatro: biología humana, medio ambiente, estilo de vida y organización de la atención de salud. El modelo de <b>Dahlgren y Whitehead</b> los ordena en capas: edad, sexo y genética en el centro; luego estilos de vida; redes sociales y comunitarias; condiciones de vida y trabajo; y, en la capa externa, las condiciones socioeconómicas, culturales y ambientales. La Comisión de Determinantes Sociales de la OMS (2008) distingue determinantes <b>estructurales</b> (ingreso, educación, ocupación, género, etnia) e <b>intermediarios</b> (condiciones de vida, conductas, sistema de salud). Las <b>inequidades</b> son las diferencias en salud evitables e injustas que generan.",
+          "La <b>promoción de la salud</b> es el proceso que capacita a las personas para aumentar el control sobre su salud (Carta de <b>Ottawa</b>, 1986). Sus cinco líneas son: políticas públicas saludables, entornos favorables, refuerzo de la acción comunitaria, desarrollo de habilidades personales y reorientación de los servicios de salud. En Chile se concretan, por ejemplo, en la Ley 20.606 de etiquetado de alimentos (sellos «alto en») y la Ley 20.660 sobre tabaco. La <b>prevención</b> busca evitar la aparición o el avance de la enfermedad (niveles en el tema 21.10); ambas forman parte del continuo que el MAIS articula con curación, rehabilitación y cuidados paliativos."
+        ]
+      },
+      {
+        "subhead": "5. Ciclo Vital Familiar y Crisis",
+        "paragraphs": [
+          "El <b>ciclo vital familiar</b> describe las etapas por las que pasa una familia y las tareas de cada una. El modelo de <b>Duvall</b> distingue ocho: (1) pareja sin hijos; (2) familia con hijo recién nacido; (3) con hijos preescolares; (4) con hijos escolares; (5) con hijos adolescentes; (6) plataforma de lanzamiento (salida de los hijos); (7) «nido vacío» o etapa media; (8) envejecimiento, con jubilación y viudez. Conocer la etapa permite anticipar los problemas de salud esperables y orientar la consejería.",
+          "Los cambios de etapa son <b>crisis normativas</b> (esperables: nacimiento del primer hijo, adolescencia, nido vacío, jubilación). Las <b>crisis no normativas</b> son inesperadas: enfermedad grave o muerte prematura, separación, cesantía, migración o violencia. La crisis es un momento de mayor vulnerabilidad, pero también de oportunidad para intervenir. En la práctica el equipo de cabecera integra el ciclo vital con el genograma, el ecomapa y el APGAR para evaluar el riesgo familiar y planificar visitas domiciliarias y consejería familiar."
+        ]
+      },
+      {
+        "subhead": "6. Usos de la Epidemiología en el ASIS y Métodos de Priorización",
+        "paragraphs": [
+          "En el diagnóstico de situación de salud la epidemiología sirve para: <b>describir</b> el perfil de salud de la población (por persona, lugar y tiempo), <b>identificar</b> grupos y territorios de mayor riesgo e inequidades, <b>estimar</b> la magnitud y tendencia de los problemas, <b>priorizar</b> y <b>evaluar</b> el impacto de lo que se hace. Las fuentes usuales son las estadísticas vitales (DEIS-MINSAL e INE), el censo, las encuestas poblacionales (Encuesta Nacional de Salud, CASEN), los registros del CESFAM (REM) y la vigilancia EPIVIGILA.",
+          "La <b>priorización</b> de problemas usa criterios como la <b>magnitud</b> (cuántos afecta), la <b>gravedad</b> o trascendencia (mortalidad, discapacidad), la <b>vulnerabilidad</b> o capacidad de intervenir y el <b>costo</b>. El <b>método de Hanlon</b> los combina en una fórmula: puntaje = (A + B) × C × D, donde A es la magnitud (0 a 10), B la gravedad (0 a 20), C la eficacia de la intervención (0,5 a 1,5) y D la factibilidad (0 o 1; criterios PEARL: pertinencia, economía, aceptabilidad, recursos y legalidad). Si D es 0, el problema no es prioritario. Otros métodos son el <b>CENDES-OPS</b> (magnitud, trascendencia, vulnerabilidad y costo) y las técnicas de consenso: <b>grupo nominal</b>, <b>Delphi</b> y la votación ponderada con la comunidad, que aporta el diagnóstico participativo."
+        ]
       }
     ],
     "table": {
@@ -1111,6 +1167,282 @@ const rawClasses = [
         "correcta": "A",
         "explicacion": "A) Correcta. El Ecomapa es la herramienta gráfica diseñada específicamente para visualizar a la familia en el centro de su entorno o ecosistema relacional, trazando líneas que representan los vínculos con instituciones comunitarias (CESFAM, escuela, trabajo, organizaciones religiosas, juntas vecinales) y distinguiendo si dichas relaciones son de apoyo enriquecedor, débiles o generadoras de tensión.\nB) Incorrecta. El genograma mapea la estructura interna e intergeneracional de la familia.\nC) Incorrecta. El APGAR mide la percepción de funcionalidad familiar interna.\nD) Incorrecta. La escala de Zarit mide la sobrecarga del cuidador de pacientes dependientes.\nE) Incorrecta. El cuestionario de Duke-UNC evalúa el apoyo social percibido individual.",
         "recTag": "Banco Oficial AEE · Perfil V3 7.01.3.001"
+      }
+    ]
+  },
+  {
+    "id": "sp-15",
+    "classId": "sp-15",
+    "tier": 3,
+    "blockNum": 1,
+    "blockName": "Sistema de Salud Chileno, Red Asistencial & Vigilancia Epidemiológica",
+    "topicLabel": "21.15",
+    "title": "Gestión y Administración en Salud: Demografía, Planificación, Programación, Organización y Dirección",
+    "perfilCode": "7.01.3.007, 7.01.3.041, 7.01.3.042, 7.01.3.043, 7.01.3.044, 7.01.3.045, 7.01.3.055",
+    "dx": "Gestión en Salud",
+    "tx": "Planificación y Organización",
+    "seg": "Evaluación y Control",
+    "ges": "Sin garantía GES · Marco legal: Ley 19.937 (Autoridad Sanitaria y gestión de la red; establecimientos de autogestión)",
+    "reconstrucciones": "",
+    "frecuencia": "Tema agregado para cubrir los códigos de demografía y administración del Perfil V3; sin reconstrucciones oficiales identificadas",
+    "svg": null,
+    "algoTitle": "Ciclo de Gestión de un Programa de Salud: del Diagnóstico a la Evaluación",
+    "diagramRows": [
+      {
+        "t": "Diagnóstico de situación de salud y demografía de la población a cargo",
+        "s": "Magnitud, tendencia, estructura por edad y sexo, priorización de problemas",
+        "type": "crit"
+      },
+      {
+        "t": "Planificación: objetivos, metas y estrategias",
+        "s": "Plan estratégico a mediano plazo (misión, visión, objetivos) · metas medibles y con plazo",
+        "type": "acc"
+      },
+      {
+        "t": "Programación y formulación del programa",
+        "s": "Población objetivo, actividades, recursos, concentración y rendimiento, cronograma, responsables",
+        "type": "acc"
+      },
+      {
+        "k": "split",
+        "q": "Ejecución del programa: ¿qué dos funciones la sostienen?",
+        "al": "Organización vs Dirección",
+        "ll": "Organización",
+        "left": {
+          "t": "Organización",
+          "s": "Estructura, división del trabajo, jerarquía, tramo de control, organigrama",
+          "type": "acc"
+        },
+        "rl": "Dirección",
+        "right": {
+          "t": "Dirección",
+          "s": "Liderazgo, motivación, comunicación, coordinación y toma de decisiones",
+          "type": "warn"
+        }
+      },
+      {
+        "t": "Evaluación y control: indicadores de estructura, proceso y resultado",
+        "s": "Compara lo logrado con lo planificado y retroalimenta la planificación (ciclo continuo)",
+        "type": "acc"
+      }
+    ],
+    "contexto": "La salud pública se ejerce a través de organizaciones y programas que deben planificarse, organizarse, dirigirse y evaluarse. El médico general que trabaja en un CESFAM o en un hospital se desempeña dentro de una estructura administrativa, formula metas con su equipo y se mide con indicadores de gestión. La demografía entrega el denominador y la estructura de la población (edad, sexo, natalidad, mortalidad, envejecimiento) con que se planifican las necesidades de salud. Este tema reúne los conceptos básicos que el Perfil V3 exige conocer: demografía, administración y gestión, planificación y programación, formulación de programas, organización, dirección y administración de establecimientos.",
+    "contentSections": [
+      {
+        "subhead": "1. Demografía y Salud Pública",
+        "paragraphs": [
+          "La <b>demografía</b> estudia el tamaño, la estructura y la dinámica de las poblaciones. Entrega a la salud pública los denominadores de sus tasas y la información para planificar. Sus componentes son la <b>natalidad</b> y la <b>fecundidad</b> (tasa global de fecundidad: hijos por mujer; el nivel de reemplazo es 2,1), la <b>mortalidad</b>, la <b>migración</b> y el <b>crecimiento natural</b> (natalidad menos mortalidad). Las fuentes son el <b>censo</b>, las proyecciones del INE y las estadísticas vitales.",
+          "La <b>estructura por edad y sexo</b> se representa en la <b>pirámide de población</b>: <b>expansiva</b> (base ancha, alta natalidad y mortalidad), <b>estacionaria</b> (forma de campana) y <b>constrictiva</b> (base angosta, población envejecida). Indicadores: <b>índice de envejecimiento</b> = población de 65 años o más / menores de 15 × 100; <b>razón de dependencia</b> = (menores de 15 + 65 o más) / población de 15 a 64 × 100.",
+          "La <b>transición demográfica</b> es el paso de natalidad y mortalidad altas a natalidad y mortalidad bajas, con envejecimiento. Se acompaña de la <b>transición epidemiológica</b> (Omran): las enfermedades infecciosas y la desnutrición ceden ante las <b>crónicas no transmisibles</b>, el cáncer y las lesiones. Chile está en una fase avanzada: tasa de fecundidad bajo el nivel de reemplazo, esperanza de vida cercana a 80 años y población que envejece. Esto obliga a priorizar las enfermedades crónicas, la dependencia y los cuidados del adulto mayor."
+        ]
+      },
+      {
+        "subhead": "2. Conceptos de Administración y Gestión; Administración de Establecimientos",
+        "paragraphs": [
+          "La <b>administración</b> es el proceso de planificar, organizar, dirigir y controlar el uso de los recursos de una organización para lograr sus objetivos (Fayol). La <b>gestión</b> es su aplicación práctica para obtener resultados. Se evalúa con tres criterios: <b>eficacia</b> (se cumple el objetivo), <b>eficiencia</b> (con el menor uso de recursos) y <b>efectividad</b> (logro del objetivo en condiciones reales). Hay niveles <b>estratégico</b> (alta dirección: metas y políticas), <b>táctico</b> (jefaturas intermedias) y <b>operativo</b> (ejecución diaria).",
+          "La <b>administración de establecimientos de salud</b> gestiona recursos <b>humanos, físicos y financieros</b>. Conceptos básicos: <b>costos fijos</b> (no cambian con la producción; sueldos, arriendo) y <b>variables</b> (insumos); <b>presupuesto</b> (plan financiero anual); y formas de pago: <b>per cápita</b> en atención primaria (por inscrito), <b>pago por prestación</b> y <b>por grupos relacionados por el diagnóstico (GRD)</b> en hospitales. Los hospitales de mayor complejidad son <b>establecimientos de autogestión en red</b> (Ley 19.937), con autonomía de gestión.",
+          "<b>Indicadores de gestión hospitalaria</b>:\n• <b>Índice ocupacional</b> = días cama ocupados / días cama disponibles × 100.\n• <b>Promedio de días de estada</b> = días de estada de los egresos / número de egresos.\n• <b>Rotación o giro de camas</b> = egresos / número promedio de camas disponibles.\n• <b>Letalidad hospitalaria</b> = fallecidos / egresos × 100.\n• <b>Porcentaje de cesáreas</b> = cesáreas / partos totales × 100."
+        ]
+      },
+      {
+        "subhead": "3. Planificación y Programación en Salud",
+        "paragraphs": [
+          "La <b>planificación</b> define a dónde se quiere llegar y cómo, a partir de un diagnóstico. Puede ser <b>normativa</b> (un técnico define lo que debe hacerse y se supone un entorno estable) o <b>estratégica y situacional</b> (Matus; considera a los actores y el contexto cambiante). El <b>plan estratégico</b> parte de la <b>misión</b> (para qué existe la organización), la <b>visión</b> (qué quiere ser) y el análisis <b>FODA</b> (fortalezas, oportunidades, debilidades y amenazas). Se ordena en una jerarquía: <b>política</b>, <b>plan</b>, <b>programa</b>, <b>proyecto</b> y <b>actividad</b>.",
+          "Las etapas de la planificación son: (1) diagnóstico; (2) determinación de prioridades; (3) fijación de <b>objetivos</b> (qué se quiere lograr) y <b>metas</b> (cuánto y para cuándo; deben ser específicas, medibles, alcanzables, relevantes y con plazo); (4) estrategias y actividades; (5) asignación de recursos; (6) ejecución; (7) evaluación. La <b>programación</b> traduce el plan en actividades concretas, con su <b>concentración</b> (número de actividades por persona), <b>rendimiento</b> (actividades por hora del recurso) y el cálculo de las horas necesarias; se ordena en una carta Gantt."
+        ]
+      },
+      {
+        "subhead": "4. Formulación de Programas",
+        "paragraphs": [
+          "Un <b>programa de salud</b> se formula siguiendo una estructura: (1) <b>diagnóstico y justificación</b> (problema y magnitud); (2) <b>población objetivo</b> (a quiénes está dirigido); (3) <b>objetivos</b> general y específicos; (4) <b>metas</b> cuantificadas con plazo; (5) <b>actividades</b> y su programación; (6) <b>recursos</b> humanos, físicos y financieros; (7) <b>organización</b> y responsables; (8) <b>evaluación</b> con indicadores y medios de verificación.",
+          "El <b>marco lógico</b> ordena el programa en cuatro niveles: <b>fin</b> (el impacto de largo plazo al que contribuye), <b>propósito</b> (el cambio que se logra en la población objetivo), <b>componentes</b> (productos o servicios entregados) y <b>actividades</b>. Para cada nivel se definen indicadores, <b>medios de verificación</b> y <b>supuestos</b> (condiciones externas necesarias). Los indicadores se clasifican en de <b>estructura</b> (recursos), de <b>proceso</b> (actividades realizadas y cobertura) y de <b>resultado</b> (efecto en salud)."
+        ]
+      },
+      {
+        "subhead": "5. Organización: Principios y Características Estructurales",
+        "paragraphs": [
+          "La <b>organización</b> es la función que agrupa las actividades, define quién hace qué y establece las relaciones de autoridad. Sus principios: <b>división del trabajo</b> y especialización; <b>jerarquía</b> o cadena de mando; <b>unidad de mando</b> (cada persona responde ante un solo jefe); <b>tramo de control</b> (número de subordinados que un jefe puede supervisar); <b>autoridad y responsabilidad</b> proporcionales; <b>delegación</b>; y <b>coordinación</b>.",
+          "Características estructurales: <b>complejidad</b> (número de niveles y unidades), <b>formalización</b> (normas escritas, manuales), <b>centralización</b> o <b>descentralización</b> de las decisiones y <b>departamentalización</b> (por función, producto, territorio o proceso). La estructura formal se representa en el <b>organigrama</b>; la <b>informal</b> surge de las relaciones personales. Tipos: <b>lineal</b>, <b>funcional</b>, <b>matricial</b> y <b>por procesos</b>. En la red asistencial chilena el MINSAL conduce, los Servicios de Salud articulan la red de su territorio y la atención primaria es municipal o dependiente del Servicio."
+        ]
+      },
+      {
+        "subhead": "6. Dirección: Liderazgo, Comunicación y Coordinación",
+        "paragraphs": [
+          "La <b>dirección</b> es la función que pone en acción a las personas para cumplir los objetivos: toma de decisiones, <b>motivación</b>, <b>liderazgo</b>, <b>comunicación</b> y <b>coordinación</b>. Estilos de liderazgo: <b>autocrático</b> (el jefe decide solo), <b>democrático o participativo</b> (consulta al equipo) y <b>laissez-faire</b> (deja hacer). El liderazgo puede ser <b>transaccional</b> (intercambio de metas y recompensas) o <b>transformacional</b> (inspira y desarrolla al equipo); el <b>situacional</b> adapta el estilo al nivel de madurez del equipo.",
+          "La <b>comunicación</b> en la organización es <b>formal</b> (por canales oficiales) o <b>informal</b>, y fluye <b>descendente</b> (instrucciones), <b>ascendente</b> (retroalimentación) y <b>horizontal</b> (entre pares). La <b>coordinación</b> sincroniza las tareas de las distintas unidades; en la red asistencial se concreta en la referencia y contrarreferencia entre niveles de atención. La <b>motivación</b> se explica, entre otras, por las teorías de Maslow (jerarquía de necesidades) y Herzberg (factores higiénicos y motivadores). El <b>trabajo en equipo</b> y el manejo constructivo de los conflictos son competencias del médico general."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Las Funciones del Proceso Administrativo",
+      "headers": [
+        "Función",
+        "Pregunta que responde",
+        "Herramientas y Productos",
+        "Ejemplo en un CESFAM"
+      ],
+      "rows": [
+        [
+          "Planificación",
+          "¿Qué haremos y cómo?",
+          "Diagnóstico, FODA, objetivos, metas, plan",
+          "Plan anual para subir la cobertura de control de hipertensos"
+        ],
+        [
+          "Programación",
+          "¿Cuántas actividades y con qué recursos?",
+          "Concentración, rendimiento, carta Gantt",
+          "Horas médicas y de enfermería para 600 hipertensos"
+        ],
+        [
+          "Organización",
+          "¿Quién hace qué?",
+          "Organigrama, división del trabajo, tramo de control",
+          "Equipos de cabecera por sector con un jefe"
+        ],
+        [
+          "Dirección",
+          "¿Cómo se pone en marcha al equipo?",
+          "Liderazgo, motivación, comunicación, coordinación",
+          "Reuniones de equipo y retroalimentación"
+        ],
+        [
+          "Evaluación y control",
+          "¿Se logró lo planificado?",
+          "Indicadores de estructura, proceso y resultado",
+          "Porcentaje de hipertensos compensados"
+        ]
+      ]
+    },
+    "severityTable": {
+      "title": "Pirámides de Población y Fase Demográfica",
+      "headers": [
+        "Tipo de Pirámide",
+        "Forma",
+        "Natalidad y Mortalidad",
+        "Característica"
+      ],
+      "rows": [
+        [
+          "Expansiva",
+          "Base ancha y cúspide estrecha (triángulo)",
+          "Altas ambas",
+          "Población joven; países de ingreso bajo"
+        ],
+        [
+          "Estacionaria",
+          "Forma de campana, lados casi verticales",
+          "Natalidad en descenso, mortalidad baja",
+          "Crecimiento lento"
+        ],
+        [
+          "Constrictiva",
+          "Base angosta y cuerpo ancho",
+          "Natalidad muy baja",
+          "Envejecimiento; índice de dependencia en aumento (Chile)"
+        ]
+      ]
+    },
+    "treatmentTable": {
+      "title": "Indicadores de Gestión Hospitalaria",
+      "headers": [
+        "Indicador",
+        "Fórmula",
+        "Qué Mide"
+      ],
+      "rows": [
+        [
+          "Índice ocupacional",
+          "Días cama ocupados / días cama disponibles × 100",
+          "Uso de la capacidad instalada"
+        ],
+        [
+          "Promedio de días de estada",
+          "Días de estada de los egresos / egresos",
+          "Duración media de la hospitalización"
+        ],
+        [
+          "Rotación (giro) de camas",
+          "Egresos / camas disponibles",
+          "Cuántos pacientes usan una cama en el período"
+        ],
+        [
+          "Letalidad hospitalaria",
+          "Fallecidos / egresos × 100",
+          "Resultado y gravedad de los casos atendidos"
+        ]
+      ]
+    },
+    "vignette": {
+      "text": "Usted es el director de un CESFAM con 20.000 inscritos y debe elaborar el programa anual para mejorar el control de los hipertensos. Un hospital de la red informa que durante el año tuvo 5.000 egresos, 30.000 días cama ocupados y 100 camas disponibles todo el año (36.500 días cama disponibles).",
+      "conducta": "Primero se hace el diagnóstico de la población bajo control, se definen objetivos y metas medibles con plazo (por ejemplo, 80% de hipertensos compensados), se programan las actividades con su concentración y rendimiento, se organizan los equipos de cabecera, se dirige y coordina al equipo y se evalúa con indicadores de proceso y resultado. En el hospital, el índice ocupacional es 30.000 / 36.500 × 100 = 82%, el promedio de días de estada es 30.000 / 5.000 = 6 días y el giro de camas es 5.000 / 100 = 50 egresos por cama."
+    },
+    "explicacion": "La gestión de un programa sigue el ciclo planificar, programar, organizar, dirigir y evaluar. La demografía entrega la estructura de la población (edad, sexo, envejecimiento) para planificar, y los indicadores de gestión hospitalaria permiten medir la eficiencia del uso de la capacidad instalada. En el ejemplo, un índice ocupacional del 82% con una estada media de 6 días indica un uso alto pero razonable de las camas.",
+    "keyPoints": [
+      "Proceso administrativo: planificar, organizar, dirigir y controlar (evaluar); la evaluación retroalimenta la planificación.",
+      "Objetivo: qué se quiere lograr; meta: cuánto y para cuándo (medible y con plazo).",
+      "Marco lógico: fin, propósito, componentes y actividades, con indicadores, medios de verificación y supuestos.",
+      "Organización: unidad de mando, jerarquía, tramo de control, división del trabajo; el organigrama representa la estructura formal.",
+      "Dirección: liderazgo (autocrático, democrático, laissez-faire), motivación, comunicación y coordinación.",
+      "Índice ocupacional = días cama ocupados / días cama disponibles × 100; giro de camas = egresos / camas; estada = días de estada / egresos.",
+      "Pirámide expansiva (base ancha), estacionaria (campana) y constrictiva (base angosta, envejecimiento); Chile tiene población que envejece."
+    ],
+    "questions": [
+      {
+        "stem": "Un hospital tuvo en un año 4.380 egresos, 21.900 días de estada y 80 camas disponibles todo el año (29.200 días cama disponibles). ¿Cuál es su promedio de días de estada y su índice ocupacional?",
+        "options": [
+          {
+            "id": "A",
+            "text": "5 días y 75%"
+          },
+          {
+            "id": "B",
+            "text": "5 días y 50%"
+          },
+          {
+            "id": "C",
+            "text": "4 días y 75%"
+          },
+          {
+            "id": "D",
+            "text": "6 días y 60%"
+          },
+          {
+            "id": "E",
+            "text": "5 días y 100%"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "A) Correcta. Promedio de días de estada = 21.900 / 4.380 = 5 días. Índice ocupacional = días cama ocupados / días cama disponibles × 100 = 21.900 / 29.200 × 100 = 75%.\nB) Incorrecta. El índice ocupacional no es 50%.\nC) Incorrecta. La estada media es de 5 días, no de 4.\nD) Incorrecta. Ambos valores están mal calculados.\nE) Incorrecta. Una ocupación del 100% supondría 29.200 días cama ocupados.",
+        "recTag": "Pregunta de práctica redactada para este manual · Perfil V3 7.01.3.055"
+      },
+      {
+        "stem": "En la formulación de un programa de salud, ¿cuál es la diferencia correcta entre objetivo y meta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "El objetivo es cuantificado y con plazo; la meta es cualitativa"
+          },
+          {
+            "id": "B",
+            "text": "El objetivo expresa lo que se quiere lograr; la meta lo cuantifica en cantidad y tiempo"
+          },
+          {
+            "id": "C",
+            "text": "Ambos términos son sinónimos"
+          },
+          {
+            "id": "D",
+            "text": "La meta describe las actividades y el objetivo, los recursos"
+          },
+          {
+            "id": "E",
+            "text": "La meta corresponde al fin del marco lógico"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "B) Correcta. El objetivo describe el cambio que se quiere lograr; la meta establece cuánto y para cuándo, de modo que sea medible.\nA) Incorrecta. Está invertido.\nC) Incorrecta. Son conceptos distintos.\nD) Incorrecta. Las actividades y los recursos son otros componentes del programa.\nE) Incorrecta. El fin es el nivel más alto del marco lógico; la meta cuantifica los objetivos.",
+        "recTag": "Pregunta de práctica redactada para este manual · Perfil V3 7.01.3.043"
       }
     ]
   }

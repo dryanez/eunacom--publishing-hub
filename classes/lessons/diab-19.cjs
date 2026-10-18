@@ -253,6 +253,44 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.2.007 · Síndrome hiperosmolar no cetósico",
+      "stem": "Hombre de 81 años, postrado, con DM2, hospitalizado por estado hiperglicémico hiperosmolar secundario a una neumonía: glicemia 920 mg/dL, osmolaridad efectiva 352 mOsm/L, sin cetosis. Se inicia hidratación con suero fisiológico, insulina en infusión endovenosa y antibióticos. Plaquetas 210.000/mm³, sin sangrado activo ni contraindicaciones.",
+      "question": "Además del tratamiento indicado, ¿qué medida corresponde agregar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bicarbonato de sodio endovenoso"
+        },
+        {
+          "letter": "B",
+          "text": "Fosfato de potasio endovenoso de rutina"
+        },
+        {
+          "letter": "C",
+          "text": "Profilaxis de trombosis venosa con heparina de bajo peso molecular"
+        },
+        {
+          "letter": "D",
+          "text": "Manitol profiláctico"
+        },
+        {
+          "letter": "E",
+          "text": "Restricción de líquidos para evitar edema cerebral"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La deshidratación extrema, la hiperviscosidad y la inmovilidad hacen del estado hiperosmolar un cuadro con alto riesgo trombótico, tanto venoso como arterial. Se indica profilaxis con heparina de bajo peso molecular salvo contraindicación. El bicarbonato no se usa porque no hay acidosis, y el fosfato solo se repone si es menor de 1 mg/dL.",
+      "say": {
+        "stem": "Hombre de ochenta y un años, postrado, con un estado hiperosmolar por neumonía, con glicemia de novecientos veinte y osmolaridad de trescientos cincuenta y dos. Ya recibe suero fisiológico, insulina en bomba y antibióticos, y no tiene contraindicación de anticoagular.",
+        "question": "Además del tratamiento indicado, ¿qué medida corresponde agregar?",
+        "options": "Las opciones: bicarbonato, fosfato de rutina, profilaxis con heparina de bajo peso molecular, manitol profiláctico o restricción de líquidos. Piénsalo.",
+        "answer": "Es la C. El hiperosmolar deja la sangre espesa en un paciente inmóvil, y la trombosis es una complicación frecuente, así que se indica heparina profiláctica. El manitol tienta por el miedo al edema cerebral, pero no se usa de forma profiláctica, y el edema se previene corrigiendo la osmolaridad lentamente."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',

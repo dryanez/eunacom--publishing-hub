@@ -58,7 +58,11 @@ module.exports = {
           { t: 'Lipasa o amilasa > 3 veces', d: 'Sobre el límite superior normal',
             say: 'El segundo es la lipasa o la amilasa elevada a más de tres veces el límite superior normal. No basta con que esté alta: tiene que triplicar el valor normal.' },
           { t: 'Imagen compatible', d: 'TAC con contraste, ecografía o resonancia',
-            say: 'Y el tercero es una imagen compatible con pancreatitis, ya sea tomografía con contraste, ecografía o resonancia.' },
+            photos: [
+              { src: 'biblioteca/01_gastroenterologia/gastro-18/01_pancreatitis-edematosa-tc_1__cto-digestivo_p258.jpg', label: 'Pancreatitis edematosa', at: 'Mira esta tomografía', credit: 'Manual CTO Digestivo 14.ª ed., p. 258' },
+              { src: 'biblioteca/01_gastroenterologia/gastro-18/01_pancreatitis-edematosa-tc_alt1__cto-radiologia_p46.jpg', label: 'Páncreas edematoso (TC)', at: 'y en este otro corte', credit: 'Manual CTO Radiología 14.ª ed., p. 46' },
+            ],
+            say: 'Y el tercero es una imagen compatible con pancreatitis, ya sea tomografía con contraste, ecografía o resonancia. Mira esta tomografía: el páncreas está aumentado de tamaño y la grasa vecina se ve borrada por la inflamación; y en este otro corte se ve lo mismo.' },
         ] },
         { title: 'Lipasa vs amilasa', tag: 'Se pregunta', kind: 'key', items: [
           { t: 'Lipasa: la mejor', d: 'Más sensible, más específica, dura más días',
@@ -133,7 +137,11 @@ module.exports = {
         ] },
         { title: 'Grave', tag: 'Persistente', kind: 'alert', items: [
           { t: 'Falla orgánica > 48 h', d: 'Persistente',
-            say: 'Y la grave es la que tiene una falla orgánica persistente, más allá de cuarenta y ocho horas. Fíjate que la línea divisoria es el tiempo que dura la falla, no la cifra de la lipasa.' },
+            photos: [
+              { src: 'biblioteca/01_gastroenterologia/gastro-18/01_signo_grey_turner__commons.jpg', label: 'Grey Turner', at: 'mira este flanco', credit: 'Wikimedia Commons «Hemorrhagic pancreatitis - Grey Turner\'s sign.jpg», CC BY 2.0, Herbert L. Fred, MD and Hendrik A. van Dijk' },
+              { src: 'biblioteca/01_gastroenterologia/gastro-18/02_signo_cullen__commons.jpg', label: 'Cullen', at: 'y este ombligo', credit: 'Wikimedia Commons «Cullen\'s sign.jpg», CC BY 2.0, Herbert L. Fred, MD and Hendrik A. van Dijk' },
+            ],
+            say: 'Y la grave es la que tiene una falla orgánica persistente, más allá de cuarenta y ocho horas. Fíjate que la línea divisoria es el tiempo que dura la falla, no la cifra de la lipasa. En las formas hemorrágicas, la sangre del retroperitoneo llega a la piel: mira este flanco, es el signo de Grey Turner; y este ombligo, el signo de Cullen.' },
         ] },
       ],
     },
@@ -151,7 +159,8 @@ module.exports = {
         ] },
         { title: 'Las señales de alarma', tag: 'A las 24 h', kind: 'alert', items: [
           { t: 'Hematocrito alto y en ascenso', d: 'Predice necrosis',
-            say: 'Pero la señal de alarma más útil es simple. Un hematocrito elevado y que sigue subiendo a las veinticuatro horas predice necrosis y mala evolución. Y tiene toda la lógica del mecanismo: la sangre se está concentrando porque el volumen se va al tercer espacio.' },
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-18/02_pancreatitis-necrotizante-tc__cto-radiologia_p47.jpg', label: 'Necrotizante', at: 'Mira esta tomografía', credit: 'Manual CTO Radiología 14.ª ed., p. 47' },
+            say: 'Mira esta tomografía: hay zonas del páncreas sin captación de contraste, tejido que murió, la forma necrotizante. Y la señal de alarma más útil es simple. Un hematocrito elevado y que sigue subiendo a las veinticuatro horas predice necrosis y mala evolución. Y tiene toda la lógica del mecanismo: la sangre se está concentrando porque el volumen se va al tercer espacio.' },
           { t: 'BUN que sube', d: 'Mismo significado',
             say: 'Lo mismo vale para un nitrógeno ureico que sube. Ambos te dicen que el paciente sigue perdiendo volumen y que tu reposición no está alcanzando.' },
         ] },
@@ -239,6 +248,65 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Pancreatitis crónica',
+      title: 'Pancreatitis crónica: la glándula que se fibrosa',
+      nodes: [
+        { id: 'alc', col: 0, row: 0, k: 'cause', t: 'Alcohol y tabaco', s: 'La causa más frecuente' },
+        { id: 'otr', col: 0, row: 2, k: 'cause', t: 'Otras causas', s: 'Genética, triglicéridos, calcio, obstrucción, IgG4' },
+        { id: 'fib', col: 1, row: 1, k: 'mech', t: 'Inflamación crónica y fibrosis', s: 'Se pierde la glándula' },
+        { id: 'dol', col: 2, row: 0, k: 'effect', t: 'Dolor epigástrico al dorso', s: 'Peor con la comida' },
+        { id: 'est', col: 2, row: 1, k: 'effect', t: 'Esteatorrea y baja de peso', s: 'Falla exocrina' },
+        { id: 'dia', col: 2, row: 2, k: 'effect', t: 'Diabetes', s: 'Falla endocrina' },
+        { id: 'tri', col: 4, row: 1, k: 'alert', t: 'Calcificaciones + esteatorrea + diabetes', s: 'La tríada clásica' },
+      ],
+      edges: [
+        { from: 'alc', to: 'fib' }, { from: 'otr', to: 'fib' }, { from: 'fib', to: 'dol' }, { from: 'fib', to: 'est' }, { from: 'fib', to: 'dia' },
+        { from: 'est', to: 'tri' },
+      ],
+      steps: [
+        { show: ['alc', 'otr', 'fib'], note: 'Inflamación crónica con fibrosis',
+          say: 'La pancreatitis crónica es una inflamación que dura años y deja fibrosis, con pérdida progresiva de la función de la glándula. La causa más frecuente es el alcohol, junto con el tabaco. Otras son la genética, los triglicéridos altos, la hipercalcemia, la obstrucción y la forma autoinmune por IgG cuatro.' },
+        { show: ['dol'], note: 'Dolor crónico o en crisis',
+          say: 'La clínica parte con dolor epigástrico, crónico o en crisis, que se irradia al dorso y empeora con la comida.' },
+        { show: ['est', 'dia'], note: 'Con los años falla lo exocrino y lo endocrino',
+          say: 'Con los años aparecen la esteatorrea y la baja de peso, porque se pierde la función exocrina, y después la diabetes, por la pérdida endocrina.' },
+        { show: ['tri'], note: 'La tríada clásica',
+          say: 'La tríada clásica es calcificaciones pancreáticas, esteatorrea y diabetes.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Pancreatitis crónica',
+      title: 'Pancreatitis crónica: diagnóstico y manejo',
+      cards: [
+        { title: 'Diagnóstico', tag: 'Por imágenes', kind: 'key', items: [
+          { t: 'Amilasa y lipasa suelen ser normales', d: 'No sirven para diagnosticarla',
+            say: 'Aquí la amilasa y la lipasa suelen ser normales, así que no sirven para diagnosticarla.' },
+          { t: 'Calcificaciones en Rx o TAC', d: 'Wirsung dilatado; elastasa fecal baja',
+            say: 'Se diagnostica por imágenes: calcificaciones en la radiografía o el TAC, que son casi patognomónicas, atrofia con el conducto de Wirsung dilatado, y una elastasa fecal baja.' },
+        ] },
+        { title: 'Tratamiento inicial', tag: 'Médico general', kind: 'pharma', items: [
+          { t: 'Abstinencia de alcohol y tabaco', d: 'Dieta fraccionada, grasa moderada',
+            say: 'El tratamiento parte con abstinencia de alcohol y tabaco, y una dieta fraccionada con grasa moderada.' },
+          { t: 'Enzimas pancreáticas con cada comida', d: 'Vitaminas liposolubles y B12; insulina si hay diabetes',
+            say: 'Se dan enzimas pancreáticas con cada comida, vitaminas liposolubles y B doce, e insulina si hay diabetes. El dolor se maneja de forma escalonada: paracetamol, luego tramadol u opioides.' },
+        ] },
+        { title: 'Cuándo derivar', tag: 'Y estar alerta', kind: 'alert', items: [
+          { t: 'Dolor refractario, estenosis, seudoquiste sintomático', d: 'Endoscopía o cirugía',
+            photos: [
+              { src: 'biblioteca/01_gastroenterologia/gastro-18/01_pancreatitis-edematosa-tc_2__cto-digestivo_p258.jpg', label: 'Colecciones líquidas (TC)', at: 'En esta tomografía', credit: 'Manual CTO Digestivo 14.ª ed., p. 258' },
+              { src: 'biblioteca/01_gastroenterologia/gastro-18/03_seudoquiste__cto-digestivo_p261.jpg', label: 'Seudoquiste', at: 'este es un seudoquiste', credit: 'Manual CTO Digestivo 14.ª ed., p. 261' },
+            ],
+            say: 'Si el dolor es refractario, hay una estenosis del colédoco o un seudoquiste sintomático, se deriva para endoscopía o cirugía. En esta tomografía hay grandes colecciones líquidas de pared fina junto al páncreas, y este es un seudoquiste.' },
+          { t: 'Más riesgo de cáncer de páncreas', d: 'Cambio del dolor o baja de peso rápida: re-estudiar',
+            say: 'Y estos pacientes tienen más riesgo de cáncer de páncreas. Un cambio en el dolor o una baja de peso rápida obligan a re-estudiar.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -249,46 +317,6 @@ module.exports = {
       steps: [
         { note: 'Dos de tres criterios',
           say: 'Un cálculo biliar o el alcohol activan la tripsina dentro del páncreas, y la glándula se digiere a sí misma. Se diagnostica con dos de tres criterios: dolor epigástrico en faja al dorso, lipasa o amilasa sobre tres veces lo normal, e imagen compatible. Se prefiere la lipasa, porque dura más días elevada.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Pancreatitis aguda',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-18/01_pancreatitis-edematosa-tc_1__cto-digestivo_p258.jpg', label: 'Pancreatitis edematosa', credit: 'Manual CTO Digestivo 14.ª ed., p. 258' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-18/02_pancreatitis-necrotizante-tc__cto-radiologia_p47.jpg', label: 'Necrotizante', credit: 'Manual CTO Radiología 14.ª ed., p. 47' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-18/01_signo_grey_turner__commons.jpg', label: 'Grey Turner', credit: 'Wikimedia Commons «Hemorrhagic pancreatitis - Grey Turner\'s sign.jpg», CC BY 2.0, Herbert L. Fred, MD and Hendrik A. van Dijk' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-18/02_signo_cullen__commons.jpg', label: 'Cullen', credit: 'Wikimedia Commons «Cullen\'s sign.jpg», CC BY 2.0, Herbert L. Fred, MD and Hendrik A. van Dijk' },
-      ],
-      steps: [
-        { note: 'Páncreas aumentado, sin necrosis',
-          say: 'Esta tomografía muestra un páncreas aumentado de tamaño, con inflamación alrededor, pero que capta contraste completo. Es la forma edematosa, la más frecuente.' },
-        { note: 'Zonas sin captación',
-          say: 'En la forma necrotizante, partes del páncreas no captan contraste: ese tejido murió. Es la que se complica.' },
-        { note: 'Equimosis en los flancos',
-          say: 'Y estos son signos de sangrado retroperitoneal: equimosis en los flancos, el signo de Grey Turner.' },
-        { note: 'Equimosis periumbilical',
-          say: 'Y la equimosis alrededor del ombligo es el signo de Cullen. Ambos son raros, pero se preguntan.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-18/01_pancreatitis-edematosa-tc_2__cto-digestivo_p258.jpg', label: 'Colecciones líquidas pancreáticas (TC)', credit: 'Manual CTO Digestivo 14.ª ed., p. 258' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-18/03_seudoquiste__cto-digestivo_p261.jpg', label: 'Seudoquiste', credit: 'Manual CTO Digestivo 14.ª ed., p. 261' },
-      ],
-      steps: [
-        { note: 'Colecciones líquidas pancreáticas (TC)',
-          say: 'Tomografía con grandes colecciones líquidas de pared fina junto al páncreas.' },
-        { note: 'Seudoquiste',
-          say: 'Mira esta imagen: seudoquiste. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],
     },
 
@@ -408,6 +436,194 @@ module.exports = {
         options: 'Las opciones: CPRE urgente, colecistectomía en el mismo ingreso, alta con cirugía programada en seis a ocho semanas, colangiorresonancia y luego CPRE, o manejo médico sin cirugía. Piénsalo.',
         answer: 'Es la B. Pancreatitis biliar leve que ya se está resolviendo: la vesícula se saca en el mismo ingreso. El distractor tentador es la C, operar en seis a ocho semanas, pero en ese intervalo recurren la pancreatitis, la colecistitis o la colangitis. La CPRE urgente no corresponde, porque no hay colangitis ni obstrucción. Y con una vía biliar normal, la colangiorresonancia no agrega nada.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.4.005 · TAC abdominal",
+      "stem": "Mujer de 45 años ingresa con dolor epigástrico intenso irradiado en cinturón, lipasa 8 veces el valor normal y ecografía con colelitiasis. A las 12 horas está hemodinámicamente estable, con buena respuesta a la analgesia y a la hidratación.",
+      "question": "¿Cuándo está indicada la TAC de abdomen con contraste en esta paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "De inmediato, para confirmar el diagnóstico"
+        },
+        {
+          "letter": "B",
+          "text": "Antes de iniciar la hidratación"
+        },
+        {
+          "letter": "C",
+          "text": "Siempre a las 24 horas, para calcular el índice de Balthazar"
+        },
+        {
+          "letter": "D",
+          "text": "Nunca, porque el contraste empeora la pancreatitis"
+        },
+        {
+          "letter": "E",
+          "text": "Solo si hay duda diagnóstica o mala evolución, idealmente después de 72 horas"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El diagnóstico ya está hecho con 2 de 3 criterios (dolor típico y lipasa sobre 3 veces lo normal), por lo que la TAC no se necesita al ingreso. Se pide ante duda diagnóstica o mala evolución, después de 72 horas, cuando la necrosis ya es evaluable y se puede calcular el índice de Balthazar.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Mujer de cuarenta y cinco años con dolor epigástrico intenso en cinturón, lipasa ocho veces sobre lo normal y cálculos en la vesícula. A las doce horas está estable y responde bien a la analgesia y a la hidratación.",
+        "question": "¿Cuándo está indicada la tomografía de abdomen con contraste en esta paciente?",
+        "options": "Las opciones: de inmediato, antes de hidratar, siempre a las veinticuatro horas, nunca o solo si hay duda o mala evolución después de setenta y dos horas. Piénsalo.",
+        "answer": "Es la E. El diagnóstico ya está hecho con la clínica y la lipasa, así que la tomografía no aporta al ingreso. Se pide si hay dudas o si la paciente evoluciona mal, y después de setenta y dos horas, porque antes la necrosis todavía no se ve bien. Pedirla de inmediato es el error más frecuente."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.029 · Pancreatitis crónica",
+      "stem": "Hombre de 50 años, con consumo excesivo de alcohol desde hace 15 años, consulta por dolor epigástrico crónico irradiado al dorso, baja de peso de 8 kg y deposiciones abundantes, aceitosas y fétidas. Glicemia en ayunas de 160 mg/dL. La TAC muestra calcificaciones pancreáticas difusas y un conducto pancreático irregular.",
+      "question": "Además de suspender el alcohol y el tabaco, ¿cuál es el tratamiento más adecuado para la esteatorrea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dieta sin gluten"
+        },
+        {
+          "letter": "B",
+          "text": "Enzimas pancreáticas junto con las comidas"
+        },
+        {
+          "letter": "C",
+          "text": "Metronidazol"
+        },
+        {
+          "letter": "D",
+          "text": "Octreotide"
+        },
+        {
+          "letter": "E",
+          "text": "Pancreatectomía total"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Dolor, esteatorrea y diabetes con calcificaciones pancreáticas definen una pancreatitis crónica con insuficiencia exocrina y endocrina. La esteatorrea se trata con enzimas pancreáticas administradas junto con las comidas. La dieta sin gluten trata la enfermedad celíaca, que no explica las calcificaciones.",
+      "say": {
+        "stem": "Hombre de cincuenta años con consumo excesivo de alcohol desde hace quince años, con dolor epigástrico crónico hacia el dorso, baja de ocho kilos y deposiciones abundantes, aceitosas y fétidas. Su glicemia en ayunas es ciento sesenta, y la TAC muestra calcificaciones pancreáticas difusas.",
+        "question": "Además de suspender alcohol y tabaco, ¿cuál es el mejor tratamiento para la esteatorrea?",
+        "options": "Las opciones: dieta sin gluten, enzimas pancreáticas con las comidas, metronidazol, octreotide, o pancreatectomía total. Piénsalo.",
+        "answer": "Es la B. Dolor, esteatorrea, diabetes y calcificaciones es una pancreatitis crónica, y las enzimas que faltan se reponen dándolas con cada comida. La dieta sin gluten tienta por la malabsorción, pero la enfermedad celíaca no calcifica el páncreas."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.2.013 · Pancreatitis aguda",
+      "stem": "Mujer de 45 años es hospitalizada por pancreatitis aguda leve de origen biliar. Evoluciona favorablemente: al tercer día no tiene dolor, tolera régimen oral y sus pruebas hepáticas se normalizan. La ecografía muestra colelitiasis múltiple sin dilatación de la vía biliar.",
+      "question": "¿Cuál es la conducta más adecuada respecto de la colelitiasis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ácido ursodesoxicólico y control"
+        },
+        {
+          "letter": "B",
+          "text": "Colecistectomía electiva en 6 meses"
+        },
+        {
+          "letter": "C",
+          "text": "CPRE con papilotomía y alta"
+        },
+        {
+          "letter": "D",
+          "text": "Colecistectomía laparoscópica durante la misma hospitalización"
+        },
+        {
+          "letter": "E",
+          "text": "No operar, porque el cuadro ya se resolvió"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En la pancreatitis biliar leve, la colecistectomía debe realizarse durante la misma hospitalización, una vez resuelto el cuadro, porque diferirla aumenta significativamente el riesgo de recurrencia de pancreatitis y otras complicaciones biliares. En la pancreatitis grave con colecciones, en cambio, se difiere. La CPRE solo se indica ante colangitis o coledocolitiasis persistente.",
+      "say": {
+        "stem": "Mujer de cuarenta y cinco años hospitalizada por una pancreatitis aguda leve de origen biliar. Al tercer día no tiene dolor, come bien y sus pruebas hepáticas se normalizaron. La ecografía muestra colelitiasis múltiple con vía biliar no dilatada.",
+        "question": "¿Qué conducta corresponde respecto de los cálculos?",
+        "options": "Las opciones: ácido ursodesoxicólico, colecistectomía electiva en seis meses, CPRE con papilotomía y alta, colecistectomía en la misma hospitalización o no operar. Piénsalo.",
+        "answer": "Es la D. En la pancreatitis biliar leve se saca la vesícula en la misma hospitalización, porque esperar aumenta mucho el riesgo de una nueva pancreatitis. La cirugía electiva en seis meses tienta porque parece más prudente, pero es justamente el período en que recurren."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.3.001 · Alimentación en enfermedades digestivas",
+      "stem": "Hombre de 50 años cursa con una pancreatitis aguda grave de origen alcohólico. Al tercer día persiste con dolor, íleo leve e intolerancia a la vía oral; está hemodinámicamente estable.",
+      "question": "¿Cuál es la forma de soporte nutricional más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nutrición enteral por sonda nasogástrica o nasoyeyunal"
+        },
+        {
+          "letter": "B",
+          "text": "Nutrición parenteral total como primera opción"
+        },
+        {
+          "letter": "C",
+          "text": "Ayuno prolongado hasta que normalice la amilasa"
+        },
+        {
+          "letter": "D",
+          "text": "Régimen oral completo hipergrasos"
+        },
+        {
+          "letter": "E",
+          "text": "Solo suero glucosado por 2 semanas"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En la pancreatitis aguda grave, la nutrición enteral precoz (por sonda nasogástrica o nasoyeyunal) es preferible a la parenteral: mantiene la barrera intestinal, reduce la translocación bacteriana, las infecciones y la mortalidad. La nutrición parenteral se reserva para cuando la vía enteral no es posible o es insuficiente; el ayuno prolongado no está indicado.",
+      "say": {
+        "stem": "Hombre de cincuenta años con una pancreatitis aguda grave alcohólica. Al tercer día sigue con dolor, un íleo leve y no tolera la vía oral, aunque está hemodinámicamente estable.",
+        "question": "¿Cuál es la forma de soporte nutricional más adecuada?",
+        "options": "Las opciones: nutrición enteral por sonda, nutrición parenteral total, ayuno hasta que baje la amilasa, régimen oral completo o solo suero glucosado. Piénsalo.",
+        "answer": "Es la A. En la pancreatitis grave se alimenta precozmente por el intestino, con sonda, porque así se protege la barrera intestinal y bajan las infecciones. La parenteral tienta para dejar el páncreas en reposo, pero tiene más infecciones y se reserva para cuando la enteral no es posible."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 140",
+      "stem": "Hombre de 55 años, alcohólico crónico y fumador, con dolor epigástrico irradiado a la espalda, que aparece con la ingesta de alimentos y se calma al inclinarse hacia adelante. Ha bajado 8 kg de peso. Transaminasas y amilasa levemente elevadas. La radiografía muestra calcificaciones en el epigastrio.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Úlcera gástrica perforada"
+        },
+        {
+          "letter": "B",
+          "text": "Obstrucción intestinal"
+        },
+        {
+          "letter": "C",
+          "text": "Pancreatitis crónica"
+        },
+        {
+          "letter": "D",
+          "text": "Colecistitis aguda"
+        },
+        {
+          "letter": "E",
+          "text": "Hepatitis alcohólica"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Dolor epigástrico posprandial irradiado al dorso, alivio en flexión, baja de peso y calcificaciones pancreáticas en un alcohólico son típicos de pancreatitis crónica. La amilasa puede ser normal o levemente elevada por pérdida de parénquima. Se confirma con TAC. La úlcera perforada da abdomen agudo con neumoperitoneo, no calcificaciones.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Hombre alcohólico de cincuenta y cinco años con dolor epigástrico al dorso que se alivia inclinándose hacia adelante, baja de peso y calcificaciones en el epigastrio.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: úlcera perforada, obstrucción intestinal, pancreatitis crónica, colecistitis aguda, o hepatitis alcohólica. Piénsalo.",
+        "answer": "Es la C. Las calcificaciones pancreáticas en un alcohólico con dolor posprandial y baja de peso son pancreatitis crónica. La hepatitis alcohólica daría ictericia y transaminasas altas, no calcificaciones."
+      }
     },
 
     {

@@ -48,3 +48,5 @@ Ya cubiertos y excluidos: tinta china y toxoplasmosis múltiple (infecto-10), de
 | infecto-18 | Brucelosis | sacroileítis | Rx |
 | infecto-19 | Carbunco | Gram con bacilos en "caña de bambú" | frotis |
 | infecto-22 | Kawasaki | ecocardiograma con aneurisma coronario | eco |
+
+> Pasada m1b (19-oct-2026): al revisar los rotulos actuales de lessons/infecto-*.cjs, la mayoria de las filas de esta lista ya tienen foto en la clase (lista desactualizada). Solo se agregaron las marcadas con ✅ arriba.

@@ -1,0 +1,65 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Obstetricia, clases nuevas. Gráficos solo de código (sin anatomía): las semanas son las del libro.
+//   ?v=gemelar  ob-21 A1: controles ecográficos e interrupción según la corionicidad
+const V = new URLSearchParams(location.search).get('v') || 'gemelar';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+const W0 = 10, W1 = 40, X0 = 250, X1 = 1220;
+const wx = w => lerp(X0, X1, (w - W0) / (W1 - W0));
+const ROWS = [
+  { y: 250, col: '#FF9A3D', name: 'Monocorial biamniótico', sub: 'Signo T', eco: [16, 36, 2], end: 36, endTxt: 'Interrupción: 36 semanas', t0: 6 },
+  { y: 370, col: '#4FA3FF', name: 'Bicorial biamniótico', sub: 'Signo lambda', eco: [20, 36, 4], end: 38, endTxt: 'Interrupción: 38 semanas', t0: 11 },
+  { y: 490, col: '#E5384F', name: 'Monoamniótico', sub: 'Un solo saco', eco: [16, 32, 2], end: [32, 34], endTxt: 'Cesárea: 32-34 semanas', t0: 16 },
+];
+function scene(t) {
+  K.title('Gemelar: controlar e interrumpir según la corionicidad', 'La ecografía de las 11-14 semanas lo define todo', C.AMBER);
+  // eje
+  const aa = seg(t, 0.3, 0.8); ctx.save(); ctx.globalAlpha = aa;
+  ctx.strokeStyle = '#3A4350'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(X0, 560); ctx.lineTo(X1 + 10, 560); ctx.stroke();
+  for (let w = 10; w <= 40; w += 2) { const X = wx(w); ctx.beginPath(); ctx.moveTo(X, 560); ctx.lineTo(X, 568); ctx.stroke(); if (w % 4 === 2 || w === 10) text(String(w), X, 590, 16, C.MUTED, '', 'center'); }
+  text('semanas de gestación', X1, 616, 16, C.MUTED, '', 'right');
+  ctx.restore();
+  // 11-14 semanas: corionicidad
+  const a1 = fade(t, 1.4, 99, 0.6);
+  if (a1 > 0) { ctx.save(); ctx.globalAlpha = 0.14 * a1; ctx.fillStyle = C.VIOLET; ctx.fillRect(wx(11), 150, wx(14) - wx(11), 410); ctx.restore();
+    ctx.save(); ctx.globalAlpha = a1; tag('Eco 11-14 semanas: corionicidad', wx(12.5) + 40, 160, C.VIOLET, 16); ctx.restore(); }
+  ROWS.forEach(r => {
+    const a = seg(t, r.t0 - 0.4, 0.6); if (a <= 0) return;
+    ctx.save(); ctx.globalAlpha = a;
+    rrect(24, r.y - 40, 214, 80, 12, '#161B22'); ctx.fillStyle = r.col; ctx.fillRect(24, r.y - 40, 6, 80);
+    text(r.name, 42, r.y - 8, 17, r.col, 'bold'); text(r.sub, 42, r.y + 20, 17, C.INK);
+    ctx.strokeStyle = '#2A2F38'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(X0, r.y); ctx.lineTo(X1, r.y); ctx.stroke();
+    ctx.restore();
+    // ecografías de control
+    const [e0, e1, st] = r.eco, n = Math.floor((e1 - e0) / st) + 1;
+    for (let i = 0; i < n; i++) { const w = e0 + i * st, tt = r.t0 + 0.3 + i * (4 / n); const k = ease(seg(t, tt, 0.4)); if (k <= 0) continue;
+      ctx.save(); ctx.globalAlpha = k; ctx.fillStyle = r.col; ctx.beginPath(); ctx.arc(wx(w), r.y, 9 * k, 0, 7); ctx.fill(); ctx.restore(); }
+    // interrupción
+    const te = r.t0 + 5, ek = ease(seg(t, te, 0.6));
+    if (ek > 0) { ctx.save(); ctx.globalAlpha = ek;
+      if (Array.isArray(r.end)) { rrect(wx(r.end[0]), r.y - 16, wx(r.end[1]) - wx(r.end[0]), 32, 8, r.col); }
+      else { ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.moveTo(wx(r.end), r.y - 22); ctx.lineTo(wx(r.end) + 14, r.y); ctx.lineTo(wx(r.end), r.y + 22); ctx.lineTo(wx(r.end) - 14, r.y); ctx.closePath(); ctx.fill(); ctx.strokeStyle = r.col; ctx.lineWidth = 3; ctx.stroke(); }
+      tag(r.endTxt, clamp(wx(Array.isArray(r.end) ? r.end[0] : r.end), 380, 1080), r.y - 46, r.col, 16); ctx.restore(); }
+  });
+  // etiquetas de frecuencia
+  if (t > 6.5) { ctx.save(); ctx.globalAlpha = fade(t, 6.5, 99, 0.5); text('Eco cada 2 semanas desde las 16', wx(16), 304, 16, '#FF9A3D'); ctx.restore(); }
+  if (t > 11.5) { ctx.save(); ctx.globalAlpha = fade(t, 11.5, 99, 0.5); text('Eco cada 4 semanas desde las 20', wx(20), 424, 16, '#4FA3FF'); ctx.restore(); }
+  K.card(24, 622, 616, 66, '#FF9A3D', '', [], seg(t, 22, 0.5), 17);
+  if (t > 22) { ctx.save(); ctx.globalAlpha = seg(t, 22, 0.5); text('Monocoriales: transfusión feto-fetal', 46, 648, 19, '#FF9A3D', 'bold'); ctx.restore(); }
+  K.banner(660, 628, 560, 'Vía: depende del primer gemelo', C.GREEN, seg(t, 25, 0.5));
+  if (t > 22.2) { ctx.save(); ctx.globalAlpha = seg(t, 22.3, 0.5); text('Donante: oligohidramnios · receptor: polihidramnios → láser', 46, 674, 16, C.INK); ctx.restore(); }
+}
+window.SCENE = { duration: 29, fps: 30 };
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); scene(t);
+  ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Gráfico propio con los controles y las semanas del libro', 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({});
+</script>
+</body></html>

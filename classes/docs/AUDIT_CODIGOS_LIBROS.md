@@ -1,0 +1,740 @@
+# Audit: ¿cada tema del libro enseña sus códigos V3? (18-oct-2026)
+
+Fuente: agentes Sonnet leyeron cada párrafo de los 21 libros (`~/fotos_tools/v3/sec/out_<libro>.json`); resultado en `books/data/v3_section_codes.json` (códigos al margen del párrafo).
+
+- Asignaciones código→tema revisadas: 1737 · no cubiertas: 314 · parciales: 370
+- Códigos del Perfil que NO se enseñan en ningún párrafo de ningún libro: **301** (de 1556; 89 ni siquiera están asignados a un tema del libro).
+- Asignaciones no cubiertas pero el código sí se enseña en otro tema: 12 → basta con quitar la asignación sobrante.
+
+## 1. Códigos que no se enseñan en ningún libro (hay que escribir contenido)
+
+### Cardiología (5)
+- 1.01.1.004 Corazón pulmonar crónico — asignado a neumologia|resp-05
+- 1.01.1.023 Síndrome metabólico — asignado a diabetes|diab-02
+- 1.01.3.001 Alimentación saludable — asignado a diabetes|diab-05
+- 1.01.3.004 Obesidad y sobrepeso — asignado a diabetes|diab-05
+- 1.01.5.003 Cateterismo venoso central — asignado a infectologia|infecto-07
+
+### Cirugía general y anestesia (33)
+- 4.01.1.007 Tumores gástricos benignos — asignado a gastroenterologia|gastro-05
+- 4.01.1.009 Tumores del intestino delgado — asignado a gastroenterologia|gastro-21
+- 4.01.1.011 Fístulas del intestino delgado — asignado a cirugia|cirugia-17
+- 4.01.1.019 Cáncer anal — asignado a cirugia|cirugia-07
+- 4.01.1.025 Colecistitis crónica — asignado a cirugia|cirugia-02
+- 4.01.1.029 Pancreatitis crónica — asignado a gastroenterologia|gastro-18
+- 4.01.1.042 Mesotelioma pleural — asignado a neumologia|resp-15
+- 4.01.1.052 Escaras — asignado a neurologia|neuro-22
+- 4.01.1.056 Secuelas de quemaduras — asignado a cirugia|cirugia-13
+- 4.01.1.057 Cicatrices viciosas — asignado a cirugia|cirugia-18
+- 4.01.2.009 Prolapso rectal — asignado a cirugia|cirugia-07
+- 4.01.2.015 Trauma maxilofacial — asignado a oftalmologia|oftal-15
+- 4.01.2.024 Hemorragia aguda post operatoria. — asignado a cirugia|cirugia-01
+- 4.01.3.003 Asepsia y antisepsia — asignado a cirugia|cirugia-17
+- 4.01.3.006 Concepto de paciente quirúrgico ambulatorio — asignado a cirugia|cirugia-14
+- 4.01.3.008 Conceptos de manejo en situación de catástrofe (triage, extricación, inmovilización y transporte) — asignado a cirugia|cirugia-09
+- 4.01.3.014 Evaluación nutricional — asignado a cirugia|cirugia-14
+- 4.01.3.015 Ileostomías — asignado a gastroenterologia|gastro-10
+- 4.01.4.003 Radiografía de cráneo — asignado a cirugia|cirugia-12
+- 4.01.4.004 Radiografía de columna cervical — asignado a cirugia|cirugia-09
+- 4.01.4.005 Radiografía de columna dorsal y lumbar — asignado a traumatologia|trauma-15
+- 4.01.4.008 Radiografías contrastadas (EED, trànsito intestinal, enema baritada y pielografía). — asignado a gastroenterologia|gastro-04
+- 4.01.5.002 Anestesia troncular de dedos y ortejos — asignado a cirugia|cirugia-15
+- 4.01.5.003 Anoscopía — asignado a cirugia|cirugia-07
+- 4.01.5.004 Ayudantía quirúrgica (nociones básicas) — asignado a cirugia|cirugia-17
+- 4.01.5.008 Curación básica de quemaduras — asignado a cirugia|cirugia-13
+- 4.01.5.010 Denudación venosa — asignado a cirugia|cirugia-09
+- 4.01.5.017 Hemostasia con ligaduras y taponamiento de heridas sangrantes — asignado a cirugia|cirugia-18
+- 4.01.5.019 Intubación nasogástrica — asignado a cirugia|cirugia-12
+- 4.01.5.020 Inyecciones subcutáneas, intramusculares e intravenosas — asignado a pediatria|ped-03
+- 4.01.5.030 Traqueostomía y cricoidostomía — asignado a neumologia|resp-21
+- 4.01.5.031 Traslado del traumatizado — asignado a cirugia|cirugia-09
+- 4.01.5.032 Vendajes e inmovilizaciones con férulas — asignado a traumatologia|trauma-01
+
+### Dermatología (19)
+- 6.01.1.005 Dermatitis del pañal — asignado a dermatologia|derma-07
+- 6.01.1.009 Eritema nodoso / Eritema indurado de Bazin — asignado a dermatologia|derma-01
+- 6.01.1.011 Fotodermatosis — asignado a dermatologia|derma-07
+- 6.01.1.012 Granuloma piogénico — asignado a cirugia|cirugia-08
+- 6.01.1.014 Linfomas cutáneos — asignado a hematologia|hem-18
+- 6.01.1.015 Líquen plano — asignado a dermatologia|derma-05
+- 6.01.1.022 Pitiriasis Rosada de Gilbert — asignado a dermatologia|derma-16
+- 6.01.1.023 Prúrigo infantil agudo, picadura de insectos — asignado a dermatologia|derma-16
+- 6.01.1.032 Vitiligo — asignado a dermatologia|derma-01
+- 6.01.2.002 Ántrax — asignado a infectologia|infecto-20
+- 6.01.2.006 Hemangiomas y malformaciones vasculares del recién nacido — asignado a oftalmologia|oftal-09
+- 6.01.2.012 Sífilis congénita — asignado a infectologia|infecto-12
+- 6.01.2.014 Síndrome de piel escaldada por estafilococos — asignado a dermatologia|derma-09
+- 6.01.3.001 Fotoprotección — asignado a dermatologia|derma-14
+- 6.01.3.003 Manifestaciones cutáneas de enfermedades sistémicas — asignado a dermatologia|derma-01
+- 6.01.4.001 Acarotest — asignado a dermatologia|derma-16
+- 6.01.4.002 Dermatoscopía — asignado a dermatologia|derma-13
+- 6.01.4.003 Gram y cultivo — asignado a infectologia|infecto-20
+- 6.01.4.006 Test TZANCK — asignado a dermatologia|derma-12
+
+### Diabetes y nutrición (13)
+- 1.02.1.006 Diabetes por corticoides — asignado a diabetes|diab-13
+- 1.02.1.012 Obesidad — asignado a diabetes|diab-05
+- 1.02.1.013 Obesidad mórbida — asignado a diabetes|diab-05
+- 1.02.1.016 Síndrome metabólico — asignado a diabetes|diab-02
+- 1.02.3.001 Alimentación saludable — asignado a diabetes|diab-05
+- 1.02.3.006 Prevención de Diabetes Mellitus tipo 2 — asignado a diabetes|diab-02
+- 1.02.3.012 Regímenes dietéticos para obesidad — asignado a diabetes|diab-05
+- 1.02.3.014 Síndrome metabólico — asignado a diabetes|diab-05
+- 1.02.4.001 Arteriografia extremidades inferiores — asignado a diabetes|diab-22
+- 1.02.4.003 Albúmina plasmática — asignado a cirugia|cirugia-14
+- 1.02.4.008 Doppler vascular periférico — asignado a diabetes|diab-22
+- 1.02.4.009 Electrocardiograma — asignado a diabetes|diab-17
+- 1.02.5.002 Evaluacion nutricional subjetiva — asignado a cirugia|cirugia-14
+
+### Endocrinología (4)
+- 1.03.1.001 Bocio — asignado a endocrinologia|endo-09
+- 1.03.1.022 Incidentaloma suprarrenal — asignado a endocrinologia|endo-15
+- 1.03.3.001 Pubertad normal — asignado a ginecologia|gin-01
+- 1.03.4.009 LH, testosterona — asignado a ginecologia|gin-07
+
+### Enfermedades infecciosas (16)
+- 1.04.1.001 Adenitis, adenoflegmón — asignado a infectologia|infecto-04
+- 1.04.1.005 Candidiasis oral y esofágica — asignado a infectologia|infecto-10
+- 1.04.1.021 Osteomielitis — asignado a reumatologia|reuma-02
+- 1.04.1.022 Parasitosis intestinales — asignado a gastroenterologia|gastro-08
+- 1.04.1.024 Síndrome febril prolongado — asignado a infectologia|infecto-24
+- 1.04.2.011 Enfermedad grave por SARS Cov 2 COVID 19 — asignado a neumologia|resp-22
+- 1.04.3.003 Prevención de enfermedades de transmisión sexual — asignado a infectologia|infecto-13
+- 1.04.3.004 Prevención de enfermedades entéricas — asignado a infectologia|infecto-08
+- 1.04.3.006 Prevención de infecciones oportunistas en VIH (+) — asignado a infectologia|infecto-10
+- 1.04.3.011 Uso y abuso de antibióticos — asignado a infectologia|infecto-07
+- 1.04.4.002 Cultivo de heridas o abscesos — asignado a cirugia|cirugia-17
+- 1.04.4.003 Cultivos de hongos — asignado a dermatologia|derma-16
+- 1.04.4.005 Detección de agentes virales por inmunofluorescencia — asignado a pediatria|ped-05
+- 1.04.4.008 Gram — asignado a neumologia|resp-08
+- 1.04.4.012 Proteína C reactiva — asignado a cirugia|cirugia-16
+- 1.04.5.003 Sembrar muestras para cultivo — asignado a infectologia|infecto-02
+
+### Enfermedades respiratorias (16)
+- 1.05.1.005 Bronquitis aguda — asignado a neumologia|resp-06
+- 1.05.1.006 Bronquitis crónica — asignado a neumologia|resp-04
+- 1.05.1.008 Corazón pulmonar crónico — asignado a neumologia|resp-04
+- 1.05.1.023 Insuficiencia respiratoria crónica — asignado a neumologia|resp-21
+- 1.05.1.025 Metástasis pulmonares — asignado a neumologia|resp-16
+- 1.05.1.026 Neumoconiosis — asignado a neumologia|resp-18
+- 1.05.1.035 Tos crónica — asignado a neumologia|resp-03
+- 1.05.1.037 Tuberculosis pulmonar (fracaso de tratamiento) — asignado a infectologia|infecto-11
+- 1.05.2.008 Insuficiencia respiratoria aguda o crónica reagudizada que requiere ventilación mecánica — asignado a neumologia|resp-21
+- 1.05.2.014 Traumatismo torácico simple — asignado a cirugia|cirugia-10
+- 1.05.3.002 Prevención de daño pulmonar por inhalantes domésticos y laborales — asignado a neumologia|resp-18
+- 1.05.3.005 Vacunación (tuberculosis, influenza, Coronavirus SARS-CoV-2 y neumococo) — asignado a neumologia|resp-10
+- 1.05.4.006 Examen microbiológico de expectoración — asignado a neumologia|resp-06
+- 1.05.4.012 Prueba de provocación bronquial con fármacos — asignado a neumologia|resp-01
+- 1.05.4.013 Pruebas cutáneas de alergia — asignado a otorrino|orl-09
+- 1.05.5.007 Intubación traqueal — asignado a neumologia|resp-21
+
+### Gastroenterología (4)
+- 1.06.1.012 Diarrea en inmunosuprimidos — asignado a infectologia|infecto-10
+- 1.06.1.025 Pancreatitis crónica — asignado a gastroenterologia|gastro-18
+- 1.06.3.005 Antiinflamatorios no esteroidales y tracto gastrontestinal — asignado a gastroenterologia|gastro-02
+- 1.06.4.003 Enema barritada — asignado a gastroenterologia|gastro-25
+
+### Geriatría (7)
+- 1.07.1.007 Escaras o úlceras por presión — asignado a neurologia|neuro-22
+- 1.07.1.013 Inmovilidad — asignado a neurologia|neuro-22
+- 1.07.2.001 Abdomen agudo en adulto mayor — asignado a gastroenterologia|gastro-20
+- 1.07.3.001 Alteración de la termoregulación — asignado a infectologia|infecto-01
+- 1.07.3.005 Envejecimiento saludable y promoción del autocuidado — asignado a neurologia|neuro-14
+- 1.07.3.006 Inmunizaciones en personas mayores — asignado a pediatria|ped-03
+- 1.07.3.012 Derecho GES a ayudas técnicas para personas de 65 años o más, como órtesis — asignado a saludpublica|sp-02
+
+### Hémato-oncología (10)
+- 1.08.1.014 Reacción leucemoide — asignado a hematologia|hem-17
+- 1.08.3.002 Conceptos generales de etapificación, radioterapia y quimioterapia — asignado a ginecologia|gin-15
+- 1.08.3.004 Actividad física en pacientes con riesgo de trombosis — asignado a neumologia|resp-19
+- 1.08.3.010 Prevención de infecciones con énfasis en inmunosuprimidos — asignado a infectologia|infecto-10
+- 1.08.4.001 Radiografía de tórax — asignado a hematologia|hem-18
+- 1.08.4.002 Cintigrafía ósea y cintigrafía con galio — asignado a urologia|uro-08
+- 1.08.4.007 Estudio de trombopatías — asignado a hematologia|hem-11
+- 1.08.5.003 Biopsia hepática — asignado a gastroenterologia|gastro-16
+- 1.08.5.004 Cateterismo venoso central — asignado a infectologia|infecto-07
+- 1.08.5.007 Punción venosa — asignado a infectologia|infecto-05
+
+### Nefrología (17)
+- 1.09.1.001 Acidosis e hiperkalemia en Insuficiencia renal crónica — asignado a nefrologia|nefro-19
+- 1.09.1.005 Bacteriuria asintomática — asignado a nefrologia|nefro-21
+- 1.09.1.008 Hipertensión arterial esencial — asignado a nefrologia|nefro-20
+- 1.09.1.011 Infección urinaria baja (cistitis) — asignado a nefrologia|nefro-21
+- 1.09.1.020 Edema generalizado (anasarca) — asignado a nefrologia|nefro-08
+- 1.09.3.002 Control de factores de riesgo de enfermedad vascular — asignado a diabetes|diab-23
+- 1.09.3.003 Desnutrición en insuficiencia renal crónica — asignado a nefrologia|nefro-19
+- 1.09.3.005 Función renal en el embarazo — asignado a obstetricia|ob-05
+- 1.09.3.006 Higiene para prevención de infección urinaria — asignado a nefrologia|nefro-21
+- 1.09.3.010 Tratamiento no medicamentoso de la hipertensión arterial — asignado a nefrologia|nefro-20
+- 1.09.4.004 Radiografía renal y vesical simple — asignado a urologia|uro-01
+- 1.09.4.006 Ecografía vésico-prostática básica — asignado a urologia|uro-03
+- 1.09.4.013 Holter de presión arterial: conocimientos básicos — asignado a nefrologia|nefro-20
+- 1.09.4.014 Nitrogeno ureico (relación bun/creatinina — asignado a nefrologia|nefro-01
+- 1.09.5.004 Instalación y cuidado de sonda Foley — asignado a infectologia|infecto-07
+- 1.09.5.005 Nefrostomia percutánea — asignado a urologia|uro-02
+- 1.09.5.006 Tacto ginecológico para masas u alteraciones obstructivas — asignado a ginecologia|gin-04
+
+### Neurología (3)
+- 1.10.1.004 Cuadros deficitarios de funciones cerebrales superiores (afasia, apraxia, agnosia, etc) — asignado a neurologia|neuro-01
+- 1.10.1.029 Tumores primarios y metastásicos SNC — asignado a neumologia|resp-17
+- 1.10.2.018 Status migrañoso — asignado a neurologia|neuro-06
+
+### Obstetricia y ginecología (13)
+- 3.01.1.005 Embarazo con edad gestacional dudosa — asignado a obstetricia|ob-02
+- 3.01.1.031 VIH en ginecobstetricia — asignado a infectologia|infecto-09
+- 3.01.2.013 Presentaciones fetales anómalas — asignado a obstetricia|ob-17
+- 3.01.3.006 Métodos naturales para la regulación de la fecundidad — asignado a ginecologia|gin-08
+- 3.01.3.007 Mortalidad perinatal y materna — asignado a saludpublica|sp-07
+- 3.01.3.010 Prevención de enfermedades de transmisión sexual — asignado a infectologia|infecto-13
+- 3.01.3.011 Pubertad (adolescencia) — asignado a ginecologia|gin-01
+- 3.01.3.012 Salud pública perinatal — asignado a saludpublica|sp-07
+- 3.01.5.001 Amniocentesis — asignado a obstetricia|ob-02
+- 3.01.5.007 Examen ginecológico, especuloscopia y tacto bimanual — asignado a ginecologia|gin-09
+- 3.01.5.012 Prueba de trabajo de parto — asignado a obstetricia|ob-17
+- 3.01.5.013 Taponaje vaginal — asignado a ginecologia|gin-13
+- 3.01.5.014 Toma de Papanicolau (incluye hacer el frotis) — asignado a ginecologia|gin-13
+
+### Oftalmología (24)
+- 6.02.1.006 Conjuntivitis bacteriana crónica — asignado a oftalmologia|oftal-02
+- 6.02.1.012 Glaucoma congénito — asignado a oftalmologia|oftal-07
+- 6.02.1.015 Leucoma corneal — asignado a oftalmologia|oftal-04
+- 6.02.1.020 Pterigion — asignado a oftalmologia|oftal-01
+- 6.02.1.022 Retinopatía del prematuro — asignado a pediatria|ped-16
+- 6.02.1.026 Tumores de la vía óptica — asignado a oftalmologia|oftal-18
+- 6.02.1.027 Tumores de órbita — asignado a oftalmologia|oftal-17
+- 6.02.1.028 Tumores de párpado — asignado a oftalmologia|oftal-03
+- 6.02.1.029 Tumores endoculares (retinoblastoma y otros) — asignado a oftalmologia|oftal-09
+- 6.02.2.008 Heridas de párpados — asignado a oftalmologia|oftal-15
+- 6.02.3.001 Accidentes del trabajo — asignado a oftalmologia|oftal-15
+- 6.02.3.003 Examen visual en adulto — asignado a oftalmologia|oftal-09
+- 6.02.3.004 Examen visual preventivo en niños — asignado a oftalmologia|oftal-09
+- 6.02.4.002 Cultivo de secreción conjuntival — asignado a oftalmologia|oftal-02
+- 6.02.5.001 Aplicación de ungüentos — asignado a oftalmologia|oftal-02
+- 6.02.5.002 Campo visual por confrontación — asignado a endocrinologia|endo-20
+- 6.02.5.004 Cover test — asignado a oftalmologia|oftal-09
+- 6.02.5.005 Eversión palpebral — asignado a oftalmologia|oftal-15
+- 6.02.5.006 Examen de rojo pupilar con oftalmoscopio — asignado a oftalmologia|oftal-09
+- 6.02.5.007 Extracción de cuerpo extraño tarsal — asignado a oftalmologia|oftal-15
+- 6.02.5.008 Extracción de pestañas distiquiásicas — asignado a oftalmologia|oftal-03
+- 6.02.5.009 Instilación de colirios — asignado a oftalmologia|oftal-07
+- 6.02.5.013 Test de Hirschberg (imagen especular de la córnea) — asignado a oftalmologia|oftal-09
+- 6.02.5.014 Toma de visión — asignado a oftalmologia|oftal-09
+
+### Otorrinolaringología (11)
+- 6.03.1.011 Epistaxis a repetición — asignado a otorrino|orl-11
+- 6.03.1.030 Sinusopatías crónicas — asignado a otorrino|orl-10
+- 6.03.1.031 Tinitus — asignado a otorrino|orl-06
+- 6.03.1.032 Trastorno de deglución — asignado a gastroenterologia|gastro-03
+- 6.03.2.005 Atresia coanal congénita — asignado a pediatria|ped-15
+- 6.03.2.016 Perforación timpánica traumática — asignado a otorrino|orl-06
+- 6.03.3.003 Prevención de alergias nasosinusales — asignado a otorrino|orl-09
+- 6.03.3.005 Prevención de cuerpo extraño en niños — asignado a otorrino|orl-18
+- 6.03.4.002 Radiografía de cavum — asignado a otorrino|orl-15
+- 6.03.4.010 Pruebas cutáneas de alergia — asignado a otorrino|orl-09
+- 6.03.5.010 Lavado de oídos — asignado a otorrino|orl-03
+
+### Pediatría general (40)
+- 2.01.1.004 Adenitis cervical — asignado a otorrino|orl-20
+- 2.01.1.006 Coqueluche — asignado a pediatria|ped-05
+- 2.01.1.015 Meningoencefalitis/ Meningitis bacteriana aguda — asignado a infectologia|infecto-03
+- 2.01.1.021 Enfermedad pulmonar crónica — asignado a pediatria|ped-18
+- 2.01.1.027 Resfrío común — asignado a otorrino|orl-13
+- 2.01.1.061 Hipertensión arterial — asignado a nefrologia|nefro-20
+- 2.01.1.072 Alteraciones del desarrollo puberal — asignado a pediatria|ped-01
+- 2.01.1.074 Hiperplasia suprarrenal congénita — asignado a endocrinologia|endo-13
+- 2.01.1.078 Encefalopatía hipóxico-isquémica — asignado a pediatria|ped-15
+- 2.01.1.079 Macro y microcefalia — asignado a pediatria|ped-01
+- 2.01.1.083 Síndrome hipertónico — asignado a pediatria|ped-02
+- 2.01.1.085 Trastornos aprendizaje — asignado a psiquiatria|psiq-18
+- 2.01.1.087 Tumores SNC — asignado a oftalmologia|oftal-18
+- 2.01.1.088 Criptorquidia — asignado a urologia|uro-07
+- 2.01.1.105 Alteraciones pigmentarias — asignado a pediatria|ped-04
+- 2.01.1.108 Dermatitis del pañal y de contacto — asignado a dermatologia|derma-16
+- 2.01.1.113 Apneas — asignado a pediatria|ped-18
+- 2.01.1.114 Asfixia neonatal — asignado a pediatria|ped-15
+- 2.01.1.117 Estridor congénito — asignado a otorrino|orl-17
+- 2.01.1.122 Poliglobulia — asignado a pediatria|ped-20
+- 2.01.1.142 Trastornos neuropsiquiátricos — asignado a psiquiatria|psiq-18
+- 2.01.2.016 Meningococcemia — asignado a infectologia|infecto-02
+- 2.01.2.017 Muerte súbita-ALTE, BRUE — asignado a neurologia|neuro-10
+- 2.01.2.027 Estatus convulsivo en el niño — asignado a neurologia|neuro-09
+- 2.01.3.010 Prevención de maltrato y abuso infantil — asignado a saludpublica|sp-13
+- 2.01.3.014 Salud infantil en Chile y el mundo — asignado a saludpublica|sp-07
+- 2.01.3.015 Salud oral — asignado a saludpublica|sp-02
+- 2.01.3.016 Supervisión de salud- adolescente — asignado a saludpublica|sp-12
+- 2.01.3.017 Supervisión de salud- escolar — asignado a pediatria|ped-01
+- 2.01.4.004 Radiografía de cavum — asignado a otorrino|orl-15
+- 2.01.4.005 Radiografía de cráneo — asignado a cirugia|cirugia-12
+- 2.01.4.006 Radiografía de edad ósea — asignado a pediatria|ped-01
+- 2.01.4.009 Radiografía esófago- estómago- duodeno — asignado a gastroenterologia|gastro-25
+- 2.01.4.014 Gases en sangre arterial — asignado a pediatria|ped-05
+- 2.01.4.016 Orina completa — asignado a pediatria|ped-13
+- 2.01.4.025 Serología y técnicas de aislamiento viral y bacteriano — asignado a pediatria|ped-05
+- 2.01.4.026 Test del sudor — asignado a neumologia|resp-20
+- 2.01.5.005 Osteoclisis — asignado a pediatria|ped-11
+- 2.01.5.007 Proctoclisis — asignado a gastroenterologia|gastro-24
+- 2.01.5.009 Punción pleural — asignado a neumologia|resp-12
+
+### Psiquiatría general (21)
+- 5.01.1.011 Consumo perjudicial de alcohol y drogas — asignado a psiquiatria|psiq-16
+- 5.01.1.020 Trastornos somatomorfos — asignado a psiquiatria|psiq-05
+- 5.01.1.021 Trastornos disociativos — asignado a psiquiatria|psiq-09
+- 5.01.1.023 Trastorno del espectro autista — asignado a psiquiatria|psiq-18
+- 5.01.1.024 Trastorno específico del aprendizaje escolar — asignado a psiquiatria|psiq-18
+- 5.01.1.025 Retardo mental — asignado a psiquiatria|psiq-18
+- 5.01.1.026 Enuresis — asignado a psiquiatria|psiq-18
+- 5.01.1.029 Intento de suicidio en niños y adolescentes — asignado a psiquiatria|psiq-03
+- 5.01.1.030 Trastorno conducta oposicionista desafiante — asignado a psiquiatria|psiq-18
+- 5.01.1.031 Trastorno conducta disocial — asignado a psiquiatria|psiq-18
+- 5.01.1.033 Trastornos ansiosos en niños — asignado a psiquiatria|psiq-18
+- 5.01.1.034 Trastornos del ánimo en niños — asignado a psiquiatria|psiq-01
+- 5.01.1.035 Consumo perjudicial de drogas en niños y adolescentes — asignado a psiquiatria|psiq-16
+- 5.01.3.004 Higiene de la alimentación — asignado a pediatria|ped-04
+- 5.01.3.007 Maltrato en el adulto mayor — asignado a neurologia|neuro-22
+- 5.01.3.010 Personalidad: Concepto y medición. Principales teorías en psicología de la personalidad — asignado a psiquiatria|psiq-17
+- 5.01.3.011 Prevención: Alcohol, tabaco, drogas. Modelo de prevención primaria. — asignado a psiquiatria|psiq-16
+- 5.01.4.002 Exámenes de orina para el control de drogas de abuso — asignado a psiquiatria|psiq-16
+- 5.01.4.004 Tests WAIS y WISC — asignado a psiquiatria|psiq-18
+- 5.01.5.001 EBBA (Escala breve de Beber Anormal) — asignado a psiquiatria|psiq-15
+- 5.01.5.002 Examen físico y neurológico: control de neurolépticos de depósito — asignado a psiquiatria|psiq-10, psiquiatria|psiq-13
+
+### Reumatología (5)
+- 1.11.1.008 Epicondilalgia, epitroclealgias — asignado a traumatologia|trauma-11
+- 1.11.1.012 Lumbago infeccioso y tumoral — asignado a traumatologia|trauma-11
+- 1.11.3.001 Condiciones de trabajo — asignado a saludpublica|sp-14
+- 1.11.3.002 Prevención de complicaciones de la terapia esteroidal — asignado a reumatologia|reuma-23
+- 1.11.3.003 Riesgos deportivos — asignado a traumatologia|trauma-08
+
+### Salud pública (13)
+- 7.01.3.001 Conceptos y definiciones de Salud Pública — asignado a saludpublica|sp-05
+- 7.01.3.002 Funciones esenciales de la Salud Pública — asignado a saludpublica|sp-01
+- 7.01.3.004 Niveles de prevención — asignado a saludpublica|sp-10
+- 7.01.3.006 Determinantes del nivel de salud — asignado a saludpublica|sp-05
+- 7.01.3.013 Concepto y campo de la epidemiología — asignado a saludpublica|sp-06
+- 7.01.3.015 Usos de la epidemiología en el control de enfermedades — asignado a saludpublica|sp-04
+- 7.01.3.027 Investigación epidemiológica — asignado a saludpublica|sp-04
+- 7.01.3.029 Descripción sistemática de problemas — asignado a saludpublica|sp-07
+- 7.01.3.032 Estrategias de control de enfermedades crónicas prioritarias (cáncer, cardiovasculares) — asignado a diabetes|diab-05
+- 7.01.3.034 Desarrollo histórico de seguridad social y atención de salud — asignado a saludpublica|sp-01
+- 7.01.3.037 Política sanitaria y objetivos sanitarios en Chile — asignado a saludpublica|sp-01
+- 7.01.3.046 Evaluación y control: conceptos, tipos de evaluación — asignado a saludpublica|sp-10
+- 7.01.3.053 Derecho GES a atención integral de salud en agresión sexual aguda — asignado a saludpublica|sp-02
+
+### Traumatología (13)
+- 4.02.1.004 Infecciones osteoarticulares — asignado a traumatologia|trauma-11
+- 4.02.1.007 Pie plano — asignado a traumatologia|trauma-14
+- 4.02.2.002 Disyunción-fractura del niño — asignado a traumatologia|trauma-14
+- 4.02.2.005 Fractura de la muñeca — asignado a traumatologia|trauma-01
+- 4.02.2.009 Heridas de la mano no complicadas — asignado a cirugia|cirugia-18
+- 4.02.2.012 Luxación del hombro — asignado a traumatologia|trauma-04
+- 4.02.3.001 Accidentes del trabajo — asignado a saludpublica|sp-14
+- 4.02.3.002 Complicaciones de la inmovilización con yeso — asignado a traumatologia|trauma-01
+- 4.02.3.007 Triage — asignado a cirugia|cirugia-09
+- 4.02.4.001 Radiografía de columna vertebral — asignado a traumatologia|trauma-15
+- 4.02.4.007 Citoquimico de líquido articular — asignado a traumatologia|trauma-12
+- 4.02.5.003 Reducción de luxaciones de codo, hombro e interfalángicas — asignado a traumatologia|trauma-04
+- 4.02.5.004 Tracción de partes blandas — asignado a traumatologia|trauma-10
+
+### Urología (14)
+- 4.03.1.012 Hidronefrosis — asignado a urologia|uro-02
+- 4.03.1.016 Infección urinaria específica — asignado a infectologia|infecto-11
+- 4.03.2.002 Hematuria masiva — asignado a urologia|uro-15
+- 4.03.2.003 Parafimosis — asignado a urologia|uro-02
+- 4.03.3.002 Epidemiología del adenoma de próstata — asignado a urologia|uro-03
+- 4.03.3.004 Factores de riesgo y prevención de ETS — asignado a infectologia|infecto-13
+- 4.03.4.001 Radiografía renal y vesical simple — asignado a urologia|uro-01
+- 4.03.4.002 Pielografía de eliminación — asignado a urologia|uro-01
+- 4.03.4.005 Uretrocistografía — asignado a urologia|uro-02
+- 4.03.4.007 Ecotomografía de vejiga y próstata — asignado a urologia|uro-03
+- 4.03.4.012 Urodinamia — asignado a urologia|uro-04
+- 4.03.4.013 Uroflujometría — asignado a urologia|uro-03
+- 4.03.5.003 Cistostomía abierta — asignado a urologia|uro-02
+- 4.03.5.006 Reducción de parafimosis — asignado a urologia|uro-02
+
+## 2. Asignados a un tema que no los enseña, pero se enseñan en otro
+
+- dermatologia|derma-11: 6.01.5.001 Biopsia de piel → se enseña en dermatologia|derma-13
+- diabetes|diab-05: 1.02.3.003 Diabetes y riesgo cardiovascular → se enseña en diabetes|diab-08
+- endocrinologia|endo-17: 1.03.4.010 PTH, calcemia → se enseña en endocrinologia|endo-16
+- infectologia|infecto-10: 1.04.1.019 Micosis invasora (aspergillosis, candidiasis, mucormicosis) → se enseña en infectologia|infecto-24
+- neumologia|resp-02: 1.05.1.002 Asma bronquial grave → se enseña en neumologia|resp-03
+- obstetricia|ob-03: 3.01.5.003 Doppler materno-fetal → se enseña en obstetricia|ob-02, obstetricia|ob-04
+- obstetricia|ob-16: 3.01.5.006 Evaluación intraparto → se enseña en obstetricia|ob-17
+- otorrino|orl-13: 1.04.1.025 Síndrome mononucleósico → se enseña en infectologia|infecto-21
+- traumatologia|trauma-01: 4.02.4.003 Radiografía huesos largos ante sospecha de fractura → se enseña en traumatologia|trauma-07
+- traumatologia|trauma-01: 4.02.5.001 Inmovilizaciones de urgencia → se enseña en traumatologia|trauma-02
+- traumatologia|trauma-03: 4.01.1.049 Trombosis venosa profunda y tromboflebitis → se enseña en cardiologia|5.5
+- traumatologia|trauma-09: 4.01.1.049 Trombosis venosa profunda y tromboflebitis → se enseña en cardiologia|5.5
+
+## 3. Cubiertos a medias (no alcanzan el nivel oficial)
+
+- cardiologia|2.1: 1.01.4.001 Coronariografía — Se enseñan indicaciones de coronariografía y elección de revascularización, pero no la interpretación de hallazgos angiográficos (nivel Interpreta y emplea).
+- cardiologia|4.2: 1.01.1.017 Insuficiencia aórtica — Solo fisiopatología y semiología periférica; el texto visible no enseña tratamiento ni indicación quirúrgica de la insuficiencia aórtica.
+- cirugia|cirugia-02: 4.01.1.027 Litiasis biliar — Solo se toca el cólico biliar para diferenciarlo y la coledocolitiasis; no se explica diagnóstico ni manejo electivo de la litiasis vesicular no complicada.
+- cirugia|cirugia-03: 4.01.3.004 Colostomías — Se nombra la colostomía terminal en Hartmann, pero sin indicaciones generales, tipos ni cuidados/cierre del estoma.
+- cirugia|cirugia-05: 1.06.1.030 Úlcera péptica — Solo se trata la úlcera perforada (Graham); no diagnóstico, H. pylori ni tratamiento médico de la úlcera péptica.
+- cirugia|cirugia-06: 4.01.1.021 Hernias, eventraciones y evisceraciones — Cubre hernias inguinal/crural; eventraciones y evisceraciones solo se mencionan de pasada (incisional en imágenes).
+- cirugia|cirugia-08: 4.01.1.055 Abscesos, forúnculos, panadizos, flegmones — Se tocan absceso pilonidal, hidrosadenitis y quiste infectado, pero no forúnculo, panadizo ni flegmón.
+- cirugia|cirugia-09: 4.01.2.020 Traumatismo raquimedular — Solo menciona control cervical y log-roll; no sospecha clínica ni manejo del trauma raquimedular.
+- cirugia|cirugia-09: 1.10.2.021 Traumatismo raquimedular — Solo control cervical y log-roll; no sospecha/derivación de TRM.
+- cirugia|cirugia-09: 4.02.2.015 Trauma raquimedular — Solo control cervical y log-roll; no sospecha/derivación de TRM.
+- cirugia|cirugia-09: 4.01.5.007 Cricoidostomía — La cricotiroidotomía se nombra como rescate sin describir la técnica (nivel Realizar).
+- cirugia|cirugia-09: 1.05.5.003 Cricoidostomía — La cricotiroidotomía se nombra como rescate sin describir la técnica (nivel Realizar).
+- cirugia|cirugia-09: 6.03.5.015 Traqueostomía y cricoidostomía — Solo se nombra la cricotiroidotomía; no traqueostomía.
+- cirugia|cirugia-09: 4.01.5.018 Intubación traqueal — Se dan criterios de vía aérea definitiva pero no la técnica de intubación (nivel Realizar).
+- cirugia|cirugia-09: 1.01.5.005 Intubación traqueal — Solo criterios de intubación; sin técnica.
+- cirugia|cirugia-09: 6.03.5.008 Intubacion traqueal — Solo criterios de intubación; sin técnica.
+- cirugia|cirugia-09: 4.01.2.031 Shock — Solo shock hemorrágico en la C de la evaluación primaria; sin clasificación de shock.
+- cirugia|cirugia-09: 4.01.5.022 Manejo de vía aérea y columna cervical en trauma — Se enseña control cervical y criterios de vía aérea, pero no maniobras de apertura de vía aérea.
+- cirugia|cirugia-10: 4.01.5.026 Drenaje pleural — Se indica la pleurostomía y sus calibres, pero sin técnica de drenaje (nivel derivar).
+- cirugia|cirugia-11: 4.03.2.008 Trauma urológico — Solo se menciona riñón dentro del manejo no operatorio de víscera sólida; sin trauma vesical/uretral ni hematuria.
+- cirugia|cirugia-12: 1.10.1.002 Compromiso de conciencia — Solo se usa Glasgow para clasificar; no enfoque general del compromiso de conciencia.
+- cirugia|cirugia-12: 6.03.2.015 Otorragia — Se menciona otorraquia como signo de fractura de base; sin enfoque diagnóstico/terapéutico de otorragia.
+- cirugia|cirugia-12: 1.10.2.019 Traumatismo encéfalo craneano leve — Se enseña indicación de TAC pero no el manejo/alta ni observación del TEC leve.
+- cirugia|cirugia-12: 1.10.2.009 Hipertensión endocraneana — Se enseñan Monro-Kellie y terapia hiperosmolar/medidas, sin clínica de HTE.
+- cirugia|cirugia-13: 4.01.3.011 Conceptos generales sobre injertos y colgajos — Solo se nombra escarectomía y autoinjerto como cobertura de 3er grado; sin conceptos de injertos/colgajos.
+- cirugia|cirugia-13: 6.01.2.011 Quemadura solar — Solo se cita la quemadura solar como ejemplo de 1er grado; sin manejo.
+- cirugia|cirugia-15: 4.01.5.001 Anestesia local por infiltración — Solo dosis máximas de lidocaína; sin técnica de infiltración local (nivel Realizar).
+- cirugia|cirugia-15: 4.01.3.017 Manejo del dolor — Solo se toca analgesia epidural postoperatoria; sin manejo del dolor (escalera analgésica, etc.).
+- cirugia|cirugia-17: 4.01.1.021 Hernias, eventraciones y evisceraciones — Se enseña evisceración/dehiscencia; no hernias de pared ni eventraciones (cubiertas en cirugia-06).
+- cirugia|cirugia-17: 4.01.3.016 Infección quirúrgica e intrahospitalaria — Se clasifica la herida y la profilaxis, pero no diagnóstico/manejo de ISQ ni infección intrahospitalaria (la ISQ está solo de pasada en cirugia-16).
+- cirugia|cirugia-18: 4.01.3.018 Tratamiento antitetánico y antirrábico — Antitetánico completo; profilaxis antirrábica solo se nombra en una línea.
+- cirugia|cirugia-18: 4.01.2.025 Heridas y contusiones menores — Solo principios de aseo/cierre en mordeduras; no manejo de heridas y contusiones menores no mordeduras.
+- cirugia|cirugia-18: 4.01.5.009 Curación de heridas, sutura y aseo — Se enseña aseo, desbridamiento y regla de cierre, pero no técnica de sutura.
+- cirugia|cirugia-18: 4.01.2.014 Heridas de cara — Solo la excepción de sutura de heridas faciales en mordeduras.
+- dermatologia|derma-05: 1.11.1.001 Artritis psoriática — artritis psoriásica solo descrita en clínica básica (IFD, dactilitis, entesitis); sin dx ni manejo
+- dermatologia|derma-05: 6.01.2.004 Eritrodermia — eritrodermia solo nombrada como forma grave de psoriasis, sin enfoque propio
+- dermatologia|derma-09: 6.01.1.025 Reacciones cutáneas por drogas (rush, toxidermia fija) — solo se abordan las toxidermias graves (SSJ/NET); no rash simple ni toxidermia fija
+- dermatologia|derma-10: 6.01.1.025 Reacciones cutáneas por drogas (rush, toxidermia fija) — solo el DRESS como reacción grave; no rash simple ni toxidermia fija
+- dermatologia|derma-12: 6.01.1.031 Verrugas, herpes simplex, herpes zoster, moluscos — solo el herpes simplex como causa y su aciclovir en el eritema multiforme; no verrugas, zóster ni moluscos
+- dermatologia|derma-14: 6.01.1.003 Cáncer de piel no melanoma (carcinoma basocelular y espinocelular) — falta el tratamiento y la derivación (cirugía/Mohs); solo clínica y comportamiento biológico
+- dermatologia|derma-15: 6.01.1.029 Tumores premalignos (queratosis actínicas, Bowen) — solo queratosis actínica y cuerno cutáneo; no se trata la enfermedad de Bowen
+- dermatologia|derma-16: 6.01.4.004 Micológico directo de piel, pelos y uñas — solo se menciona el KOH en pitiriasis versicolor; no su toma ni interpretación general en tiñas/uñas
+- dermatologia|derma-16: 6.01.1.019 Pediculosis — pediculosis solo en una línea (permetrina 1% y peine fino); sin clínica ni diferencias entre tipos
+- diabetes|diab-07: 1.02.2.001 Acidosis láctica — La acidosis láctica solo se menciona como riesgo de la metformina en insuficiencia renal; no se enseña su diagnóstico ni manejo.
+- diabetes|diab-09: 1.02.4.015 Glicemia capilar — Se usa el automonitoreo capilar (4-6 puntos/día) y sus metas, pero no se enseña a realizar la glicemia capilar.
+- diabetes|diab-12: 1.02.4.015 Glicemia capilar — Se usan valores de glicemia capilar para titular, pero no se enseña a realizar la glicemia capilar.
+- diabetes|diab-13: 1.02.4.015 Glicemia capilar — Se usa la glicemia capilar para la escala de corrección, pero no se enseña cómo realizarla.
+- diabetes|diab-14: 1.02.4.015 Glicemia capilar — Se indica repetir la glicemia capilar tras 15 min, pero no la técnica.
+- diabetes|diab-14: 2.01.2.004 Compromiso de conciencia — Solo se enseña el rescate del paciente inconsciente por hipoglicemia; no el enfrentamiento general del compromiso de conciencia.
+- diabetes|diab-15: 1.02.4.006 Cuerpos cetónicos en orina (semicuantitativo) — Se interpreta la cetonuria (++ / +++) como criterio, pero no se enseña a realizarla.
+- diabetes|diab-21: 1.02.5.003 Fondo de ojo — Se nombra el fondo de ojo como método de tamizaje, pero no se enseña la técnica de realizarlo.
+- diabetes|diab-22: 1.02.1.019 Vasculopatía periférica — La enfermedad arterial periférica solo se nombra como componente del pie diabético; no se enseña su diagnóstico ni manejo.
+- diabetes|diab-22: 4.01.1.047 Insuficiencia arterial crónica — La isquemia solo se nombra como componente del pie diabético; no se enseña la insuficiencia arterial crónica.
+- diabetes|diab-22: 1.02.5.001 Curaciones básicas del pié diabético — Se mencionan curaciones avanzadas y desbridamiento, pero no la técnica de curación básica.
+- diabetes|diab-23: 1.02.3.007 Prevención de dislipidemias — Solo se indican estatinas según riesgo; no se enseñan medidas de prevención de dislipidemias.
+- diabetes|diab-24: 1.06.2.010 Pancreatitis aguda — La pancreatitis aguda solo se trata como complicación de la hipertrigliceridemia; no se enseñan su diagnóstico ni manejo.
+- diabetes|diab-24: 1.02.3.011 Regímenes dietéticos para dislipidemias — Solo se menciona dieta con restricción de grasas y alcohol; no se detalla un régimen dietético.
+- endocrinologia|endo-06: 6.02.3.006 Orbitopatía tiroidea — Se nombran proptosis/diplopía como signo de Graves y la profilaxis con prednisona antes del I-131; no se enseña el diagnóstico ni el tratamiento de la orbitopatía en sí.
+- endocrinologia|endo-13: 1.03.1.007 Insuficiencia suprarrenal crónica — Solo se menciona el reinicio de fludrocortisona en Addison y la diferencia de piel; la insuficiencia suprarrenal crónica se enseña en endo-12.
+- endocrinologia|endo-13: 1.03.3.003 Complicaciones del tratamiento esteroidal — El abandono de corticoides solo se nombra como gatillante de la crisis; no se enseñan las complicaciones del tratamiento esteroidal.
+- endocrinologia|endo-14: 1.09.2.006 Hipokalemia — La hipokalemia solo se menciona como clave de sospecha y condición a corregir antes del tamizaje; su manejo se enseña en nefro-10 (libro de nefrología).
+- endocrinologia|endo-18: 1.03.1.019 Osteoporosis secundaria — Solo se nombran causas de osteoporosis secundaria como factores de riesgo de FRAX y el uso crónico de corticoides; no se enseña su estudio ni manejo.
+- endocrinologia|endo-18: 1.03.3.002 Prevención de osteoporosis — La suplementación con calcio y vitamina D se menciona dentro del tratamiento, pero no se enseñan medidas de prevención (ejercicio, estilo de vida).
+- endocrinologia|endo-19: 1.03.1.020 Hipercalcemias e hipocalcemias — Solo se menciona el calcio normal-bajo dentro del perfil de osteomalacia; el diagnóstico y manejo de la hipocalcemia se enseña en endo-17.
+- endocrinologia|endo-20: 1.03.1.014 Hipopituitarismo — El hipopituitarismo solo aparece como insuficiencia corticotropa en la apoplejía y como parte del estudio hormonal; se enseña en endo-23.
+- endocrinologia|endo-23: 1.03.1.012 Hipogonadismo masculino — Solo se menciona testosterona baja con FSH/LH bajas y reemplazo androgénico en el contexto de panhipopituitarismo; no se enseña el hipogonadismo masculino.
+- gastroenterologia|gastro-02: 4.01.5.012 Endoscopía digestiva alta — Se enseña cuándo solicitar la endoscopía (indicación), no la técnica; coherente con Derivar, pero poco desarrollado.
+- gastroenterologia|gastro-05: 1.06.3.003 Epidemiología de los cánceres digestivos — Solo epidemiología del cáncer gástrico; no de otros cánceres digestivos.
+- gastroenterologia|gastro-05: 4.01.3.013 Epidemiología del cáncer. — Solo dato epidemiológico del cáncer gástrico en Chile.
+- gastroenterologia|gastro-08: 1.07.1.002 Constipación y fecalomas — Constipación general; no se trata el fecaloma (diagnóstico ni desimpactación).
+- gastroenterologia|gastro-13: 1.06.1.002 Cáncer de páncreas — Se enseña presentación y estudio, no el tratamiento del cáncer de páncreas en este tema.
+- gastroenterologia|gastro-13: 4.01.1.030 Cáncer de páncreas y otros tumores preampulares — Sin tratamiento ni otros tumores preampulares (ampolla, colédoco).
+- gastroenterologia|gastro-14: 1.02.4.002 Ecotomografia abdominal — Solo se menciona el hígado hiperecogénico de NASH; no hay uso sistemático de la ecografía hepática.
+- gastroenterologia|gastro-14: 1.06.4.008 Biopsia hepática — Solo se alude a biopsia para estadificar/diagnosticar; no se enseña interpretación del informe.
+- gastroenterologia|gastro-14: 1.06.2.008 Hepatitis aguda A complicada — Complicaciones de VHA descritas brevemente (colestásica, recurrente, fulminante).
+- gastroenterologia|gastro-15: 4.01.5.025 Paracentesis — Se enseñan indicaciones, líquido ascítico y albúmina, pero no la técnica de la paracentesis.
+- gastroenterologia|gastro-15: 1.06.5.001 Paracentesis — Se enseñan indicaciones, líquido ascítico y albúmina, pero no la técnica de la paracentesis.
+- gastroenterologia|gastro-15: 1.02.3.010 Regímenes dietéticos fundamentales — Solo restricción de sodio; no otros regímenes dietéticos.
+- gastroenterologia|gastro-15: 1.06.4.011 Estudio de función hepática — Solo INR/trombopenia; sin interpretación sistemática de la función hepática (albúmina, bilirrubina, Child-Pugh).
+- gastroenterologia|gastro-15: 1.06.1.022 Insuficiencia hepática crónica — Solo coagulopatía e hiperesplenismo; sin enfoque global de insuficiencia hepática crónica.
+- gastroenterologia|gastro-16: 1.06.1.003 Cáncer de vesícula y vías biliares — Solo pólipos vesiculares y cirugía radical si hay cáncer invasor; no cáncer de vías biliares.
+- gastroenterologia|gastro-16: 4.01.1.028 Cáncer de vesícula y vías biliares — Solo pólipos vesiculares y cirugía radical si hay cáncer invasor; no cáncer de vías biliares.
+- gastroenterologia|gastro-22: 1.06.2.002 Afagia aguda — Solo impactación alimentaria con disfagia aguda; no otras causas de afagia aguda.
+- gastroenterologia|gastro-23: 2.01.4.017 Parasitológico de deposiciones — Se indica parasitológico seriado (3 muestras), pero no la interpretación de resultados.
+- gastroenterologia|gastro-23: 1.04.4.011 Parasitológico de deposiciones — Se indica parasitológico seriado (3 muestras), pero no la interpretación de resultados.
+- gastroenterologia|gastro-23: 2.01.1.007 Enteroparasitosis — Solo giardiasis; otras enteroparasitosis pediátricas no se tratan.
+- gastroenterologia|gastro-23: 1.06.1.026 Parasitosis intestinales — Solo giardiasis.
+- gastroenterologia|gastro-23: 2.01.1.042 Fibrosis quística — Solo presentación digestiva y test del sudor; sin manejo integral.
+- gastroenterologia|gastro-24: 5.01.1.032 Trastorno somatización en niños — Solo el dolor abdominal funcional por estrés; sin enfoque de somatización en niños.
+- gastroenterologia|gastro-24: 5.01.1.027 Encopresis — Encopresis solo como consecuencia del fecaloma; sin manejo conductual específico.
+- gastroenterologia|gastro-25: 2.01.4.002 Radiografía de abdomen simple — Solo neumatosis y doble burbuja; no interpretación sistemática de la radiografía abdominal.
+- gastroenterologia|gastro-25: 4.01.1.012 Megacolon — Solo Hirschsprung; no megacolon chagásico, tóxico ni otras causas.
+- gastroenterologia|gastro-26: 1.05.2.011 Neumotórax hipertensivo — Solo se menciona neumotórax con tubo pleural; no el diagnóstico clínico ni la descompresión del neumotórax hipertensivo.
+- ginecologia|gin-01: 1.03.1.016 Hiperprolactinemia — Solo se pide prolactina/RMN en el estudio de amenorrea; no se explica diagnóstico etiológico ni tratamiento de la hiperprolactinemia
+- ginecologia|gin-01: 1.03.4.008 FSH, estradiol y prolactina — Se interpretan FSH y prolactina en amenorrea, pero no estradiol ni su uso general
+- ginecologia|gin-02: 1.03.1.008 Hirsutismo — Hirsutismo tratado solo como componente del SOP (Ferriman, ACO, espironolactona); sin estudio de otras causas
+- ginecologia|gin-03: 3.01.2.008 Hemorragia genital aguda (metrorragia disfuncional-cervicorragia por Cáncer C.U.) — Solo se enseña la hemorragia uterina aguda disfuncional; no la cervicorragia por cáncer cervicouterino
+- ginecologia|gin-03: 3.01.1.023 Patología benigna del endometrio (hiperplasia, pólipos…) — Pólipos e hiperplasia se tocan como causa de SUA y vía biopsia; no se explica el manejo de la hiperplasia endometrial
+- ginecologia|gin-05: 3.01.1.014 Dolor pelviano y dismenorrea — Dismenorrea y dolor pélvico solo en contexto de endometriosis; no se enseña dismenorrea primaria ni otras causas de dolor pelviano
+- ginecologia|gin-07: 4.03.1.017 Infertilidad masculina — Solo espermiograma e indicación de ICSI; sin estudio ni tratamiento específico de las causas de infertilidad masculina (varicocele, azoospermia)
+- ginecologia|gin-09: 3.01.1.017 Enfermedades de transmisión sexual — Solo tricomoniasis y cervicitis por clamidia/gonococo; sin sífilis, herpes, VPH, etc.
+- ginecologia|gin-09: 3.01.5.008 Flujo vaginal (pH) — El pH vaginal se usa como criterio diagnóstico, pero no se enseña como examen en sí
+- ginecologia|gin-11: 3.01.2.018 Pelviperitonitis — Pelviperitonitis solo como estadio Monif II/IV de la EIP; no se enseña como cuadro quirúrgico/abdomen agudo ginecológico independiente
+- ginecologia|gin-12: 1.07.3.010 Sexualidad en personas mayores — Solo dispareunia/atrofia vaginal posmenopáusica; no se aborda la sexualidad en el adulto mayor
+- ginecologia|gin-13: 3.01.3.013 Screening ginecológico: Papanicolau, mamografía — Se enseña el tamizaje de cáncer cervicouterino; la mamografía de tamizaje está en gin-14
+- ginecologia|gin-14: 3.01.4.006 Ecotomografía mamaria — La ecografía mamaria se menciona como complemento y para fibroadenoma, sin enseñar indicaciones ni criterios ecográficos en detalle
+- ginecologia|gin-14: 3.01.3.013 Screening ginecológico: Papanicolau, mamografía — Se enseña mamografía de tamizaje; el PAP está en gin-13
+- hematologia|hem-02: 1.08.1.002 Anemia ferropénica — Solo interpretación del perfil de hierro (dx); tratamiento y seguimiento se ven en hem-03
+- hematologia|hem-02: 1.08.1.001 Anemia de las enfermedades crónicas — Solo interpretación de ferritina/transferrina en inflamación; sin tratamiento ni seguimiento (ver hem-04)
+- hematologia|hem-04: 1.08.1.001 Anemia de las enfermedades crónicas — Tratamiento inicial/seguimiento: no se explicita tratar la enfermedad de base; solo fisiopatología y diagnóstico diferencial
+- hematologia|hem-05: 1.08.5.001 Biopsia de médula ósea — Solo indica que el diagnóstico exige biopsia osteomedular; no detalla indicaciones de derivación para biopsia
+- hematologia|hem-08: 1.08.4.010 Pruebas de hemólisis — Solo pruebas confirmatorias específicas (fragilidad osmótica, G6PD, citometría); los marcadores generales de hemólisis están en hem-07
+- hematologia|hem-10: 2.01.1.067 Síndrome hemolítico urémico — Dx Específico: solo tríada y patogenia; el manejo del SHU (soporte renal, hidratación, diálisis) no se desarrolla, solo la contraindicación de plaquetas
+- hematologia|hem-16: 1.08.5.005 Mielograma — Solo se dice que el dx exige aspirado medular (>=20% blastos); no se explican indicaciones de derivación para mielograma
+- hematologia|hem-16: 1.08.5.008 Quimioterapia intratecal — Se nombra la profilaxis intratecal obligatoria en LLA, sin detallar la técnica ni indicaciones más allá de la LLA
+- hematologia|hem-20: 1.08.1.015 Síndrome leucoeritroblástico — Leucoeritroblastosis solo como hallazgo del frotis en mielofibrosis; no se aborda el síndrome como entidad ni sus otras causas
+- hematologia|hem-20: 1.08.1.017 Síndromes mielodisplásicos — Un solo párrafo de definición/hemograma; sin diagnóstico ni manejo
+- hematologia|hem-22: 1.10.2.011 Paraplejia aguda — Paraparesia solo como manifestación de compresión medular neoplásica; no se aborda la paraplejia aguda de otras causas
+- infectologia|infecto-01: 1.04.4.009 Hemocultivo — Solo se indica tomar 2 frascos antes de los antibióticos; no se enseña la interpretación del resultado (nivel Interpreta y emplea).
+- infectologia|infecto-02: 1.04.5.002 Punción lumbar — Solo indicaciones de TAC previo; no se enseña la técnica del procedimiento (nivel Realizar).
+- infectologia|infecto-02: 1.08.5.006 Punción lumbar — Solo indicaciones de TAC previo; no se enseña la técnica del procedimiento (nivel Realizar).
+- infectologia|infecto-04: 1.04.2.004 Flegmón submaxilar, submandibular y del piso de la boca — Se explica la angina de Ludwig, pero no otros flegmones del piso de la boca/submandibulares.
+- infectologia|infecto-05: 1.05.4.011 PPD — Se dan umbrales de PPD solo para decidir tratamiento; no se enseña técnica ni lectura detallada.
+- infectologia|infecto-06: 1.04.3.002 Mordeduras de animales — Solo profilaxis antirrábica y antitetánica de mordeduras; no manejo local de la herida ni antibióticos.
+- infectologia|infecto-06: 1.04.3.012 Vacunas especiales (neumococo, influenza, hepatitis A y B, varicela, rabia, meningococo) — Solo la vacuna antirrábica entre las vacunas especiales listadas.
+- infectologia|infecto-10: 1.04.4.004 Deteccción de antígeno de Cryptococcus en LCR y test de tinta china — Se nombra tinta china y CrAg como diagnóstico de criptococosis, pero no se detalla la interpretación de resultados.
+- infectologia|infecto-12: 1.04.1.023 Sífilis secundaria, terciaria y congénita — Sífilis secundaria/terciaria se describen, pero la sífilis congénita no se enseña.
+- infectologia|infecto-12: 1.04.1.010 Enfermedades de transmisión sexual — Solo sífilis; otras ITS no se tratan en este tema.
+- infectologia|infecto-12: 6.01.1.008 Enfermedades de transmisión sexual — Solo sífilis; otras ITS no se tratan en este tema.
+- infectologia|infecto-13: 1.04.5.004 Tinción de Gram — Se enseña la interpretación del Gram uretral, no la técnica de realización (nivel Realizar).
+- infectologia|infecto-15: 1.01.1.020 Miocardiopatías — Solo cardiopatía chagásica como forma de miocardiopatía; no se tratan las demás miocardiopatías.
+- infectologia|infecto-17: 4.01.1.037 Hidatidosis pulmonar — Solo se menciona localización pulmonar y manejo general; sin cuadro clínico, radiología ni cirugía pulmonar.
+- infectologia|infecto-17: 1.05.1.020 Hidatidosis pulmonar — Solo se menciona localización pulmonar y manejo general; sin cuadro clínico, radiología ni cirugía pulmonar.
+- infectologia|infecto-20: 1.04.5.001 Drenaje de abscesos superficiales — Solo se menciona drenaje espontáneo o quirúrgico del forúnculo; no se enseña la técnica (nivel Realizar).
+- infectologia|infecto-20: 6.01.1.021 Piodermias superficiales y profundas (no linfáticas) — Se cubren foliculitis y forúnculo; no ántrax/hidradenitis ni otras piodermias.
+- infectologia|infecto-21: 1.04.4.010 Hemograma y velocidad de hemosedimentación (VHS) — Solo linfocitos atípicos en el hemograma; no se enseña VHS ni interpretación general del hemograma.
+- infectologia|infecto-21: 2.01.1.030 Adenopatías — Adenopatías solo en el contexto de mononucleosis/toxoplasmosis; no hay enfoque general.
+- infectologia|infecto-21: 2.01.1.018 Síndrome febril prolongado — Solo el CMV como causa de síndrome febril prolongado; no hay enfoque diagnóstico general.
+- infectologia|infecto-22: 1.04.1.011 Enfermedades eruptivas no complicadas (varicela, herpes zoster...) — Sarampión y rubéola; varicela y zóster se enseñan en infecto-23.
+- infectologia|infecto-22: 2.01.1.058 Vasculitis: PSH, Kawasaki, otros — Solo Kawasaki; no PSH ni otras vasculitis.
+- infectologia|infecto-24: 1.04.1.019 Micosis invasora (aspergillosis, candidiasis, mucormicosis) — Solo aspergilosis/candidiasis en neutropénico; no mucormicosis.
+- nefrologia|nefro-01: 1.09.2.009 Insuficiencia renal aguda obstructiva — Se enseña a descartarla con ecografía/globo vesical, pero no su causa ni su manejo (derivación, sonda).
+- nefrologia|nefro-04: 1.01.1.018 Insuficiencia cardíaca — Solo se trata la insuficiencia cardíaca como causa de disfunción renal (cardiorrenal, descongestión con furosemida); no se enseña su diagnóstico ni tratamiento.
+- nefrologia|nefro-06: 1.09.2.007 Hiponatremia aguda grave — Solo se menciona el suero hipertónico 3% si el síndrome pierde sal es severo; el manejo de urgencia está en nefro-05.
+- nefrologia|nefro-13: 1.09.2.003 Edema generalizado grave (anasarca) — Se nombra la progresión a anasarca (con ascitis y derrame pleural) pero no se enseña el manejo del edema generalizado grave (diuréticos, albúmina).
+- nefrologia|nefro-15: 2.01.2.007 Emergencia hipertensiva — Solo se menciona furosemida IV si hay crisis hipertensiva; no se define ni se enseña el manejo de la emergencia hipertensiva.
+- nefrologia|nefro-18: 1.09.3.004 Diálisis y complicaciones — Se garantiza hemodiálisis/peritoneodiálisis y preparación de FAV, pero no se enseñan las complicaciones de la diálisis.
+- nefrologia|nefro-18: 1.09.3.011 Trasplante renal, indicaciones y complicaciones — Solo se menciona la incorporación a lista de espera de trasplante; no indicaciones ni complicaciones.
+- nefrologia|nefro-18: 4.03.3.006 Trasplante renal, indicaciones y complicaciones — Solo se menciona la incorporación a lista de espera de trasplante; no indicaciones ni complicaciones.
+- nefrologia|nefro-18: 1.09.4.009 Clearence de creatinina — Se usa la TFGe por CKD-EPI, pero no se enseña el clearance de creatinina medido (orina de 24 h/Cockcroft-Gault).
+- nefrologia|nefro-21: 4.03.1.015 Infección urinaria alta y baja — Solo se enseña la infección urinaria alta (pielonefritis); la baja no se aborda.
+- neumologia|resp-02: 1.05.4.009 Flujo espiratorio máximo (PEF: Peak Expiratory Flow) — Se usan valores de PEF para estratificar y dar de alta, pero no se enseña cómo realizar la maniobra (nivel Realiza).
+- neumologia|resp-02: 1.05.5.008 Nebulizaciones — Solo se nombra la dosis de ipratropio nebulizado y se compara MDI vs nebulización; no se enseña la técnica de nebulización.
+- neumologia|resp-03: 1.05.1.002 Asma bronquial grave — Solo se menciona el escalón 5 (tiotropio, biológicos previa derivación); no se define ni maneja el asma grave.
+- neumologia|resp-03: 1.05.5.006 Inhalación de aerosoles presurizados — Se menciona el MDI y revisar la técnica del inhalador, sin enseñar la técnica de inhalación.
+- neumologia|resp-04: 1.05.3.004 Tabaquismo: prevención, cesación y efectos nocivos para la salud — Solo se afirma que el cese del tabaco es la intervención más costo-efectiva; no se enseña la cesación.
+- neumologia|resp-04: 1.01.3.007 Tabaquismo: prevención, cesación y efectos nocivos para la salud — Solo se afirma que el cese del tabaco es la intervención más costo-efectiva; no se enseña prevención ni cesación.
+- neumologia|resp-08: 4.01.2.017 Supuración pulmonar — Se trata la neumonía aspirativa por anaerobios, pero no se describe la supuración pulmonar (necrosis/cavitación) como tal.
+- neumologia|resp-11: 1.05.5.009 Punción pleural — Se indica cuándo hacer la toracocentesis (espesor >10 mm, guía ecográfica) pero no se enseña la técnica.
+- neumologia|resp-11: 4.01.5.029 Punción pleural — Se indica cuándo hacer la toracocentesis (espesor >10 mm, guía ecográfica) pero no se enseña la técnica.
+- neumologia|resp-20: 1.05.1.019 Hemoptisis leve y mediana — Solo se define hemoptisis y se diferencia de hematemesis; no se enseña el manejo de la hemoptisis leve/mediana.
+- neumologia|resp-21: 1.05.5.011 Ventilación mecánica invasiva — El apartado se titula VMNI vs VMI pero el texto visible solo detalla oxigenoterapia y VMNI; no se ven indicaciones de VMI.
+- neumologia|resp-21: 4.01.5.023 Manejo ventilatorio básico — Se describen cánula nasal, Venturi y CNAF, pero no el manejo ventilatorio básico (ajustes, técnica).
+- neumologia|resp-24: 1.05.1.024 Intoxicación leve por CO y otros gases — Solo se trata la intoxicación grave por CO; no se distingue el manejo de intoxicación leve ni de otros gases/humo (cianuro) pese al título.
+- neurologia|neuro-03: 1.10.2.009 Hipertensión endocraneana — HTE solo como riesgo de herniación y DVE en hidrocefalia; no se explica manejo de la hipertensión endocraneana (cabecera, osmoterapia, etc.)
+- neurologia|neuro-04: 1.10.5.002 Punción lumbar — Punción lumbar nivel Realizar: indicación y momento óptimo, pero no la técnica del procedimiento
+- neurologia|neuro-04: 6.02.2.009 Parálisis III par + midriasis — Solo como signo de aneurisma de comunicante posterior; sin otras causas de parálisis del III par
+- neurologia|neuro-06: 1.10.1.001 Cefalea tensional — Nivel Completo: solo criterios diagnósticos de cefalea tensional; sin tratamiento ni seguimiento
+- neurologia|neuro-06: 2.01.2.011 Hipertensión endocraneana — HTE solo como bandera roja de cefalea (empeora al acostarse/toser, papiledema)
+- neurologia|neuro-10: 1.10.1.007 Epilepsia — Solo diagnóstico tras primera crisis y decisión de iniciar FAE; el tratamiento está en neuro-08
+- neurologia|neuro-11: 1.10.1.027 Trastornos del sueño — Solo trastorno conductual del sueño REM como síntoma prodrómico; sin otros trastornos del sueño (insomnio, apnea, hipersomnia)
+- neurologia|neuro-14: 1.10.5.003 Aplicación de tests neurocognitivos de screening (MoCA, Mini-Cog, Mini-Mental) — Nivel Realizar: describe qué miden MMSE/MoCA/reloj y puntos de corte, pero no cómo aplicarlos paso a paso
+- neurologia|neuro-14: 5.01.5.004 Mini mental test, MoCA test — Nivel Realizar: sin instrucciones de aplicación del MMSE/MoCA
+- neurologia|neuro-14: 1.07.5.002 Valoración cognitiva — Se describe el proceso de valoración pero no cuándo derivar al especialista
+- neurologia|neuro-14: 1.07.2.004 Agitación y agresividad — Agitación solo como BPSD de demencia
+- neurologia|neuro-19: 1.02.4.010 Electromiografía — EMG solo mencionada como confirmación previa a cirugía de túnel carpiano; no se interpreta el informe
+- neurologia|neuro-19: 1.10.1.014 Neuropatías por atrapamiento — Sólo túnel carpiano y nervio peroneo; otros atrapamientos (cubital, etc.) no se tratan
+- neurologia|neuro-20: 1.10.1.018 Síndrome atáxico — Ataxia solo como rasgo del vértigo central; no se aborda síndrome atáxico (cerebeloso, sensitivo) en general
+- neurologia|neuro-21: 1.07.3.002 Complicaciones en el adulto mayor hospitalizado — Delirium y sujeciones como complicaciones del anciano hospitalizado; no se tratan otras (caídas, escaras, infecciones nosocomiales)
+- neurologia|neuro-22: 1.07.5.004 Valoración funcional — Nivel Realizar: describe Barthel, Lawton, Katz pero no cómo aplicarlos
+- neurologia|neuro-22: 1.07.5.001 Valoración afectiva — Solo cita Yesavage (GDS-15) como cribado; sin criterios de derivación
+- neurologia|neuro-22: 1.02.1.001 Desnutrición — Desnutrición solo vía MNA y proteínas; sin diagnóstico/manejo detallado
+- neurologia|neuro-22: 1.07.1.014 Malnutrición — Malnutrición solo vía MNA y aporte proteico; sin manejo completo (nivel Completo)
+- neurologia|neuro-23: 1.07.1.010 Hipotensión postural — Nivel Completo: solo definición y como factor de caída; sin estudio, tratamiento ni seguimiento de la hipotensión postural
+- neurologia|neuro-23: 1.07.1.017 Trastornos de la marcha — Trastornos de la marcha sólo desde evaluación (TUG, unipodal); sin diagnóstico diferencial por tipo de marcha
+- obstetricia|ob-01: 3.01.1.002 Anemia y embarazo — Solo profilaxis con hierro y meta de Hb; no explica diagnóstico ni tratamiento de la anemia del embarazo
+- obstetricia|ob-07: 3.01.1.009 Macrosomía fetal — Se trata como complicación de diabetes (fisiopatología, distocia de hombros); falta diagnóstico ecográfico y manejo obstétrico de la macrosomía en general
+- obstetricia|ob-10: 3.01.2.001 Aborto provocado — Se enseña el aborto séptico y el marco legal IVE; el aborto provocado como entidad (clandestino, complicaciones) se toca solo por el cuadro séptico
+- obstetricia|ob-11: 3.01.2.005 Embarazo ectópico complicado — Se menciona rotura/shock y cirugía, pero no el manejo de reanimación del ectópico roto
+- obstetricia|ob-13: 3.01.5.002 Cesárea — Solo se mencionan indicaciones de cesárea (previa oclusiva, DPPNI, rotura, vasa previa); no se enseña la técnica ni el manejo perioperatorio
+- obstetricia|ob-18: 3.01.2.008 Hemorragia genital aguda (metrorragia disfuncional-cervicorragia por Cáncer C.U.) — El código apunta a hemorragia genital aguda (metrorragia disfuncional, cervicorragia por cáncer); el tema enseña solo la hemorragia postparto, no esas etiologías
+- oftalmologia|oftal-01: 6.02.1.030 Uveítis anterior o posterior — solo clínica en diagnóstico diferencial; sin tratamiento ni derivación detallada
+- oftalmologia|oftal-01: 6.02.1.021 Queratitis — solo clínica en diagnóstico diferencial; se desarrolla en oftal-04
+- oftalmologia|oftal-01: 6.02.2.005 Glaucoma agudo — solo clínica en diagnóstico diferencial; manejo en oftal-06
+- oftalmologia|oftal-03: 6.02.1.018 Obstrucción completa de la vía lacrimal — solo se nombra la dacrioestenosis como causa de dacriocistitis y DCR; sin dx/manejo propio
+- oftalmologia|oftal-07: 6.02.4.001 Campo visual — describe patrones de defecto campimétrico y nombra la campimetría Humphrey, pero sin enseñar a interpretarla
+- oftalmologia|oftal-07: 6.02.5.010 Oftalmoscopía directa — describe hallazgos del fondo de ojo, no la técnica de oftalmoscopía directa
+- oftalmologia|oftal-08: 6.02.2.004 Disminución de la visión (lenta vs súbita) — solo la forma lenta/progresiva (catarata); falta el contraste con pérdida súbita
+- oftalmologia|oftal-09: 6.02.1.011 Estrabismo — estrabismo solo como causa de ambliopía; sin clínica ni diagnóstico propio
+- oftalmologia|oftal-09: 2.01.1.096 Estrabismo — estrabismo solo como causa de ambliopía; sin clínica ni diagnóstico propio
+- oftalmologia|oftal-09: 6.02.1.031 Vicios de refracción en personas de 65 años o más — presbicia explicada, pero sin foco en el adulto mayor de 65 años
+- oftalmologia|oftal-10: 6.02.2.004 Disminución de la visión (lenta vs súbita) — solo la pérdida visual del desprendimiento de retina; sin enfoque comparativo lenta vs súbita
+- oftalmologia|oftal-12: 6.02.2.006 Hemorragia vítrea — la hemorragia vítrea solo se nombra como complicación de la RDP; sin manejo
+- oftalmologia|oftal-13: 6.02.5.010 Oftalmoscopía directa — describe hallazgos del fondo de ojo, no la técnica de oftalmoscopía directa
+- oftalmologia|oftal-15: 6.02.2.002 Contusión ocular — la contusión ocular se aborda solo a través del hifema y la clasificación BETT
+- oftalmologia|oftal-15: 6.02.5.003 Colocación de sello ocular — describe protector rígido/concha fenestrada, no la técnica de colocación del sello
+- oftalmologia|oftal-18: 1.10.1.008 Esclerosis múltiple — esclerosis múltiple solo como asociación de la neuritis óptica; sin dx ni seguimiento propio
+- oftalmologia|oftal-18: 1.10.1.019 Síndrome de hipertensión endocraneana — papiledema/HTE se aborda solo desde el fondo de ojo y la conducta de neuroimagen previa a punción
+- oftalmologia|oftal-18: 1.10.5.001 Papiloscopia (fondo de ojo) — describe hallazgos del fondo de ojo, no la técnica de papiloscopía
+- otorrino|orl-02: 6.03.4.005 TAC de oídos sin medio de contraste — Solo se menciona que el colesteatoma se confirma con TAC de peñascos; sin hallazgos de informe.
+- otorrino|orl-03: 1.02.1.014 Pié diabético y otras infecciones en diabetes — Solo otitis externa maligna del diabético; no pie diabético ni otras infecciones del diabético.
+- otorrino|orl-03: 6.03.3.006 Prevención de otitis externa — Se mencionan factores predisponentes y no mojar el oído, sin sección de prevención.
+- otorrino|orl-04: 6.03.5.001 Drenaje de absceso mastoídeo — Se indica mastoidectomía con drenaje pero sin técnica (nivel derivar).
+- otorrino|orl-06: 6.03.2.006 Barotrauma ótico y trauma acústico agudo — Solo trauma acústico (agudo y crónico); no barotrauma ótico.
+- otorrino|orl-06: 6.03.3.007 Prevención de trauma acústico y daño por exposición a ruidos — Se define el umbral de exposición de riesgo (>85 dB) pero no medidas de prevención.
+- otorrino|orl-06: 6.03.4.011 Estudio de VIII par — Solo se indica RM de CAI/APC y audiometría en la hipoacusia súbita; sin estudio completo del VIII par.
+- otorrino|orl-08: 1.10.1.009 Herpes zoster — Solo herpes zóster ótico (Ramsay Hunt); no zóster en general ni neuralgia posherpética.
+- otorrino|orl-09: 6.03.1.025 Rinorrea crónica — Solo rinorrea acuosa de la rinitis alérgica y rinitis medicamentosa; sin enfoque de rinorrea crónica.
+- otorrino|orl-10: 2.01.4.008 Radiografía de senos paranasales — Solo se dice que la radiografía NO está indicada, sin interpretación.
+- otorrino|orl-10: 6.03.4.001 Radiografía de cavidades perinasales — Solo se dice que no está indicada; sin interpretación.
+- otorrino|orl-10: 6.03.4.003 TAC de cavidades perinasales — Solo se indica TAC con contraste ante complicación orbitaria; sin informe.
+- otorrino|orl-10: 1.05.1.022 Infecciones de las vías aéreas superiores — Solo rinosinusitis; faringitis en orl-13, resfrío no enseñado.
+- otorrino|orl-10: 6.03.1.026 Rinorreas agudas — Rinorrea aguda se aborda solo como RSA viral/bacteriana.
+- otorrino|orl-12: 6.03.5.004 Drenaje de hematoma nasoseptal — Se describe incisión, aspiración y taponamiento de forma general (nivel derivar).
+- otorrino|orl-13: 1.01.1.008 Enfermedad reumática activa — Solo prevención primaria de fiebre reumática con penicilina; no diagnóstico (Jones) ni tratamiento de la enfermedad activa.
+- otorrino|orl-13: 1.04.4.014 Pruebas rápidas para diagnóstico de estreptococo grupo A — Se indica el uso del test rápido según McIsaac, sin interpretación de sensibilidad/especificidad.
+- otorrino|orl-14: 6.03.4.004 TAC cervical con contraste — Solo se indica TAC con contraste como examen definitivo; sin hallazgos de informe.
+- otorrino|orl-15: 6.03.1.028 Síndrome respirador bucal — Se enseña fisiopatología y facies adenoidea; el manejo del respirador bucal sale solo de las indicaciones quirúrgicas.
+- otorrino|orl-16: 6.03.5.009 Laringoscopía indirecta — Se nombra telelaringoscopía/nasofibroscopía como estudio, sin laringoscopía indirecta.
+- otorrino|orl-16: 6.03.1.009 Disfonías agudas — Solo se dice que las disfonías agudas son virales/fonotraumáticas y autolimitadas; sin manejo.
+- otorrino|orl-17: 6.03.1.013 Estridor laríngeo — Estridor en croup y epiglotitis; no estridor laríngeo crónico (laringomalacia).
+- otorrino|orl-18: 6.03.2.008 Cuerpo extraño en el esófago — Solo pila de botón; no otros cuerpos extraños esofágicos (monedas, impactación alimentaria).
+- otorrino|orl-20: 6.03.1.006 Cáncer nasosinusal — Solo se nombra cavum como sospecha ante obstrucción nasal unilateral; sin cáncer nasosinusal.
+- otorrino|orl-20: 6.03.3.004 Prevención de cáncer laríngeo — Solo factores de riesgo (tabaco, alcohol); sin medidas preventivas.
+- otorrino|orl-20: 6.03.1.018 Odinofagias crónicas — Solo disfagia/odinofagia unilateral como bandera roja.
+- otorrino|orl-20: 6.03.1.004 Cáncer de boca, labios y orofaringe — Se enseñan factores de riesgo y banderas rojas; sin manejo.
+- otorrino|orl-20: 6.03.1.005 Cáncer laríngeo e hipofaríngeo — Se enseñan factores de riesgo y bandera roja disfonía; sin manejo.
+- pediatria|ped-01: 2.01.1.001 Desnutrición — clasifica y da conducta inicial de APS, pero no manejo completo (realimentación, tratamiento de desnutrición severa)
+- pediatria|ped-01: 2.01.1.003 Obesidad — criterios y medidas de estilo de vida; no comorbilidades ni tratamiento completo
+- pediatria|ped-01: 2.01.1.076 Talla baja — solo definición por T/E; sin estudio ni diferenciación de causas (constitucional, endocrina)
+- pediatria|ped-01: 2.01.3.018 Supervisión de salud- lactante — solo el componente de crecimiento de la supervisión del lactante
+- pediatria|ped-01: 2.01.3.011 Promoción de salud y estilos de vida saludables — solo medidas anti-obesidad (bebidas azucaradas, juego activo)
+- pediatria|ped-02: 2.01.1.141 Trastornos del desarrollo — solo banderas rojas de retraso global/TEA; sin diagnóstico diferencial ni manejo
+- pediatria|ped-02: 5.01.3.003 Desarrollo cognitivo, afectivo y social a lo largo del ciclo vital — solo desarrollo psicomotor 0-24 meses, no todo el ciclo vital
+- pediatria|ped-02: 2.01.1.084 Síndrome hipotónico — solo hipotonía axial como bandera roja; sin síndrome hipotónico (causas, estudio)
+- pediatria|ped-02: 2.01.1.086 Trastornos del lenguaje — solo hitos de lenguaje como bandera roja
+- pediatria|ped-02: 6.03.1.033 Trastornos de habla y lenguaje — solo alertas de lenguaje; sin diagnóstico ni tratamiento
+- pediatria|ped-02: 6.03.3.002 Pesquisa de trastornos del lenguaje — TEPSI incluye lenguaje, pero no se detalla pesquisa específica
+- pediatria|ped-03: 1.06.3.001 Vacunación de hepatitis A y B — solo las dosis del calendario; sin vacunación en adultos/contactos ni profilaxis post-exposición
+- pediatria|ped-04: 3.01.3.004 Lactancia — lactancia solo desde el punto de vista del lactante; sin técnica, problemas mamarios ni apoyo a la madre
+- pediatria|ped-04: 2.01.3.007 Lactancia materna — beneficios y contraindicaciones; falta técnica, extracción y destete
+- pediatria|ped-05: 2.01.5.006 Oxigenoterapia — indica oxígeno y meta de saturación ≥93%, pero no técnica ni dispositivos de oxigenoterapia
+- pediatria|ped-09: 2.01.4.020 Proteína C reactiva cuantitativa — la PCR solo se nombra como parte del estudio séptico; sin valores de corte ni interpretación
+- pediatria|ped-10: 2.01.1.009 Exantemas virales — sarampión y rubéola no se enseñan; solo roséola, eritema infeccioso y varicela
+- pediatria|ped-11: 2.01.1.047 Síndrome disentérico — disentería solo como antecedente del SHU y contraindicación de antibióticos por STEC; sin manejo antibiótico de shigelosis
+- pediatria|ped-11: 2.01.1.067 Síndrome hemolítico urémico — falta manejo de soporte del SHU (diálisis, control de PA)
+- pediatria|ped-12: 2.01.1.046 Displasia broncopulmonar / Reflujo gastroesofágico y vómitos del lactante (código repetido en el Perfil oficial) — solo reflujo/vómitos del lactante; no displasia broncopulmonar
+- pediatria|ped-12: 2.01.2.001 Abdomen agudo — abdomen agudo solo a través de la invaginación intestinal
+- pediatria|ped-13: 2.01.1.065 Malformaciones urogenitales — solo hidronefrosis y valvas de uretra posterior como hallazgos a estudiar; sin estudio de malformaciones en general
+- pediatria|ped-13: 4.03.1.019 Malformaciones congénitas nefrourológicas — solo valvas de uretra posterior y displasia; no se enseña malformaciones nefrourológicas
+- pediatria|ped-13: 4.03.1.021 Reflujo vésico ureteral — RVU se diagnostica con UCG pero no se enseña manejo (profilaxis, cirugía) ni grados
+- pediatria|ped-13: 2.01.4.011 Cultivos y antibiograma — criterios de recuento de colonias; sin interpretación de antibiograma
+- pediatria|ped-13: 2.01.5.003 Cateterismo vesical — menciona el sondeo como método de elección, no su técnica
+- pediatria|ped-13: 1.09.4.007 Cintigrama renal — DMSA y cicatrices; sin informe detallado
+- pediatria|ped-14: 2.01.2.024 Síndrome convulsivo — no se enseña manejo agudo (benzodiacepinas en crisis activa) ni estado epiléptico
+- pediatria|ped-14: 2.01.5.008 Punción lumbar — indicaciones de PL; sin técnica ni interpretación de LCR
+- pediatria|ped-15: 3.01.3.016 Vínculo y apego — solo contacto piel a piel y lactancia en primera hora
+- pediatria|ped-15: 2.01.1.112 Alteraciones de la termorregulación — solo mantener normotermia en reanimación; sin hipotermia/hipertermia neonatal ni manejo
+- pediatria|ped-16: 2.01.1.123 Prematurez — clasificación y estimación de EG; sin complicaciones ni manejo del prematuro (excepto suplementación en ped-04)
+- pediatria|ped-16: 2.01.1.128 RN PEG-GEG — riesgos clínicos de PEG/GEG; sin manejo (ej. hipoglicemia)
+- pediatria|ped-17: 2.01.4.023 Pruebas hepáticas — solo bilirrubina directa/indirecta como criterio de ictericia; sin transaminasas ni otras pruebas hepáticas
+- pediatria|ped-18: 2.01.1.123 Prematurez — solo la EMH como complicación del prematuro; sin otras complicaciones
+- pediatria|ped-20: 2.01.1.118 Hijo madre diabética — solo hipoglicemia e hipocalcemia del HMD; sin otras complicaciones (macrosomía, miocardiopatía, policitemia)
+- pediatria|ped-20: 2.01.1.115 Convulsiones neonatales — convulsiones solo como síntoma de hipoglicemia/hipocalcemia; sin estudio etiológico de convulsiones neonatales
+- pediatria|ped-21: 2.01.1.050 Cardiopatías congénitas frecuentes — solo tamizaje por oximetría; sin tipos de cardiopatías congénitas ni manejo
+- pediatria|ped-21: 6.03.1.014 Hipoacusia neonatal — tamizaje y confirmación; sin causas ni factores de riesgo
+- pediatria|ped-21: 6.03.4.007 Emisiones otoacústicas — indica EOA y PEATC, no interpretación de resultados
+- psiquiatria|psiq-01: 5.01.1.008 Trastorno depresivo (recurrente) — solo se menciona mantenimiento indefinido en ≥3 episodios; sin criterios propios de trastorno depresivo recurrente
+- psiquiatria|psiq-01: 2.01.1.136 Depresión — completo para adultos, pero sin tamizaje/seguimiento específico de APS más allá del PHQ-9
+- psiquiatria|psiq-02: 5.01.4.003 Niveles plasmáticos de estabilizadores del ánimo — interpreta litemia y rango de valproato, pero sin niveles de otros estabilizadores (carbamazepina) ni oportunidad de toma más allá de litio
+- psiquiatria|psiq-03: 5.01.5.003 Intervención en crisis — intervención en crisis solo como criterios de hospitalización y medidas de seguridad; sin técnica de intervención
+- psiquiatria|psiq-04: 5.01.1.010 Esquizofrenia y otros trastornos psicòticos — solo psicosis puerperal; no esquizofrenia ni otros trastornos psicóticos
+- psiquiatria|psiq-05: 5.01.1.008 Trastorno depresivo (recurrente) — distimia/depresión doble, no el trastorno depresivo recurrente propiamente tal
+- psiquiatria|psiq-06: 5.01.4.001 Estudio de hormonas tiroídeas — solo se pide TSH para descartar hipertiroidismo; sin interpretación de hormonas tiroideas
+- psiquiatria|psiq-07: 5.01.1.003 Trastornos fóbicos (fobia social y fobia específica) — solo fobia social; no se enseña fobia específica
+- psiquiatria|psiq-08: 5.01.1.016 Trastornos de la personalidad — solo el trastorno de personalidad obsesivo-compulsiva como diferencial; no otros trastornos de personalidad
+- psiquiatria|psiq-09: 5.01.5.003 Intervención en crisis — solo menciona primeros auxilios psicológicos y evitar debriefing; sin técnica de intervención en crisis
+- psiquiatria|psiq-09: 5.01.1.005 Trastorno agudo por estrés — manejo agudo breve; sin criterios completos del trastorno por estrés agudo
+- psiquiatria|psiq-11: 5.01.1.010 Esquizofrenia y otros trastornos psicòticos — enfoque en esquizofrenia refractaria y clozapina; no diagnóstico ni manejo general
+- psiquiatria|psiq-11: 1.08.4.008 Hemograma — interpreta hemograma/RAN solo en el contexto de clozapina
+- psiquiatria|psiq-14: 5.01.1.014 Delirium — delirium solo como causa de agitación y su manejo en el anciano; sin criterios diagnósticos ni estudio etiológico completo
+- psiquiatria|psiq-15: 1.10.2.004 Estado confusional agudo (alcohólico, tóxico metabólico) — solo delirium tremens y Wernicke; sin estudio etiológico de otros estados confusionales tóxico-metabólicos
+- psiquiatria|psiq-15: 1.02.2.004 Déficit agudo de tiamina — se enseña la prevención/rol de la tiamina, pero sin dosis ni vía de administración
+- psiquiatria|psiq-16: 5.01.2.003 Intoxicación por sustancias psicoactivas — solo cocaína, benzodiacepinas y cannabis; no opioides, alcohol ni otras drogas
+- psiquiatria|psiq-16: 5.01.1.013 Dependencia de otras drogas — solo abstinencia a BZD y hiperemesis cannabinoide; sin enfoque general de dependencia
+- psiquiatria|psiq-16: 1.10.2.002 Complicaciones neurológicas de abuso de sustancias — solo ACV como complicación de cocaína y convulsiones por abstinencia
+- psiquiatria|psiq-18: 5.01.1.018 Trastornos de la conducta alimentaria — anorexia y bulimia; no trastorno por atracones
+- psiquiatria|psiq-18: 2.01.1.139 Trastornos de alimentación — anorexia y bulimia; sin trastornos de alimentación de la infancia
+- reumatologia|reuma-01: 1.11.5.001 Punción articular de rodilla — Se indica cuándo hacer artrocentesis y contraindicaciones, pero no la técnica de punción de rodilla
+- reumatologia|reuma-01: 4.02.4.009 Gram líquido articular — Gram solo como parte del estudio del líquido; no se interpretan patrones de tinción
+- reumatologia|reuma-02: 1.11.5.001 Punción articular de rodilla — Solo menciona punciones evacuadoras de rodilla; sin técnica de punción
+- reumatologia|reuma-03: 1.11.1.007 Condrocalcinosis — Dx Específico cubierto; el tratamiento inicial de la pseudogota no se explicita (las pautas son de gota)
+- reumatologia|reuma-05: 1.11.1.019 Poliartritis — Solo poliartritis de AIJ y Still; no se aborda el enfrentamiento general de poliartritis (ver reuma-06)
+- reumatologia|reuma-06: 1.11.1.003 Artritis reumatoídea — Nivel Inicial de tratamiento: este tema no trata la terapia (se ve en reuma-07)
+- reumatologia|reuma-09: 1.11.1.014 Lupus eritematoso sistémico — El tema solo desarrolla el compromiso renal; otros órganos mayores (neuropsiquiátrico, hematológico, etc.) no se tratan
+- reumatologia|reuma-10: 1.11.1.014 Lupus eritematoso sistémico — Solo contrasta lupus cutáneo/farmacológico con LES (anticuerpos, órganos); el LES se enseña en reuma-08/09
+- reumatologia|reuma-11: 1.08.1.019 Trombofilias — Solo trombofilia adquirida (SAF); trombofilias hereditarias se ven en hem-23
+- reumatologia|reuma-12: 1.05.1.018 Enfermedades del intersticio pulmonar — Enfermedad intersticial solo en el contexto de esclerodermia (sin otras causas)
+- reumatologia|reuma-14: 1.11.1.009 Esclerosis sistémica progresiva — Solo Raynaud secundario y patrón capilaroscópico esclerodérmico; el diagnóstico de esclerosis sistémica está en reuma-12
+- reumatologia|reuma-15: 1.11.1.022 Síndrome de Sjögren — Falta tratamiento inicial del síndrome seco (lágrimas artificiales, sialogogos)
+- reumatologia|reuma-15: 6.02.1.024 Síndrome de ojo seco — Solo diagnóstico (Schirmer, tinción); sin manejo del ojo seco
+- reumatologia|reuma-16: 1.11.1.013 Lumbago mecánico — Nivel Completo: solo describe el comportamiento clínico del lumbago mecánico; sin tratamiento ni seguimiento
+- reumatologia|reuma-16: 1.11.1.006 Columna dolorosa — Nivel Completo: solo diferencia inflamatorio vs mecánico; sin estudio, tratamiento ni seguimiento de columna dolorosa
+- reumatologia|reuma-17: 6.02.1.030 Uveítis anterior o posterior — Solo uveítis anterior asociada a EA; no se aborda uveítis posterior ni otras etiologías
+- reumatologia|reuma-18: 1.06.1.018 Enfermedad inflamatoria intestinal — Solo las manifestaciones articulares de la EII; no se tratan diagnóstico ni manejo intestinal
+- reumatologia|reuma-19: 1.04.1.010 Enfermedades de transmisión sexual — ETS nivel Completo: solo infección por Chlamydia en contexto de artritis reactiva; no cubre otras ETS ni manejo sindrómico
+- reumatologia|reuma-19: 1.11.1.016 Oligoartritis — Solo oligoartritis reactiva; sin enfrentamiento general de oligoartritis
+- reumatologia|reuma-22: 2.01.1.058 Vasculitis: PSH, Kawasaki, otros — Cubre Henoch-Schönlein; Kawasaki no se menciona
+- reumatologia|reuma-22: 6.01.1.033 Vasculitis cutáneas — Solo púrpura palpable de HSP/EGPA; sin enfoque dermatológico de vasculitis cutánea (biopsia, vasculitis leucocitoclástica)
+- saludpublica|sp-01: 7.01.3.035 Funciones de los sistemas de atención de salud — Se describen rectoría, financiamiento y provisión sin plantearlos como funciones de los sistemas de salud
+- saludpublica|sp-01: 7.01.3.033 Bases conceptuales de la seguridad social — Solo se menciona la cotización obligatoria del 7%; no se enseñan las bases conceptuales de la seguridad social
+- saludpublica|sp-02: 7.01.3.047 Auditoría y acreditación — Solo se nombra la garantía de calidad y la acreditación de prestadores; sin auditoría ni proceso de acreditación
+- saludpublica|sp-04: 7.01.3.051 Certificado de defunción, licencia médica, notificación de enfermedades — Solo notificación de enfermedades (plazos y listas); no se enseñan certificado de defunción ni licencia médica
+- saludpublica|sp-04: 7.01.3.031 Estrategias de control de enfermedades infecciosas — Solo bloqueo y quimioprofilaxis de contactos en brotes; sin estrategias generales de control de enfermedades infecciosas
+- saludpublica|sp-05: 2.01.3.005 Familia y ciclo vital — Se enseñan genograma, ecomapa y APGAR, pero no el ciclo vital familiar ni sus crisis
+- saludpublica|sp-05: 7.01.3.005 Promoción de salud y prevención de enfermedades — Solo se nombra el continuo promoción-prevención dentro del MAIS; no se desarrolla
+- saludpublica|sp-05: 7.01.3.017 Usos de la epidemiología en el diagnóstico de situación de salud — El ASIS se describe en general; no se explican los usos de la epidemiología
+- saludpublica|sp-05: 7.01.3.030 Criterios de priorización de problemas — Solo se nombra el método de Hanlon con sus criterios; sin desarrollo de otros métodos de priorización
+- saludpublica|sp-07: 7.01.3.014 Epidemiología descriptiva — Solo prevalencia e incidencia; sin descripción por persona, lugar y tiempo
+- saludpublica|sp-07: 7.01.3.009 Indicadores de nivel de salud: cálculo e interpretación — Solo prevalencia e incidencia; faltan tasas de mortalidad, esperanza de vida y otros indicadores de nivel de salud
+- saludpublica|sp-10: 7.01.3.003 Historia natural de la enfermedad — Solo se nombra la fase latente/presintomática y el conocimiento de la historia natural como criterios de tamizaje; no se enseña el concepto
+- saludpublica|sp-11: 2.01.3.013 Relación médico-paciente-familia — Solo el consentimiento informado como proceso dialógico; no la relación médico-paciente-familia ni comunicación
+- saludpublica|sp-13: 5.01.3.008 Maltrato infantil — Solo el deber de denuncia ante maltrato; sin diagnóstico ni manejo del maltrato infantil
+- saludpublica|sp-13: 5.01.3.013 Violencia intrafamiliar — Solo el deber de denuncia ante VIF grave; sin manejo de la violencia intrafamiliar
+- saludpublica|sp-13: 7.01.3.011 Fuentes de información para el diagnóstico — El CMD se menciona como fuente estadística; no se enseñan las fuentes de información en general
+- saludpublica|sp-13: 7.01.3.051 Certificado de defunción, licencia médica, notificación de enfermedades — Solo certificado de defunción y notificación; licencia médica está en sp-14
+- traumatologia|trauma-01: 4.02.2.007 Fracturas de diáfisis y metáfisis — Enseña clínica, indicaciones quirúrgicas y complicaciones de consolidación; las opciones de tratamiento ortopédico/inmovilización solo tienen encabezado.
+- traumatologia|trauma-02: 4.02.5.001 Inmovilizaciones de urgencia — Se indica valva de yeso larga abierta y cubrir herida; sin técnica de inmovilización de urgencia en general.
+- traumatologia|trauma-02: 4.02.5.005 Traslado del traumatizado — Se dan condiciones de traslado de la fractura expuesta, no el traslado del traumatizado en general.
+- traumatologia|trauma-03: 4.02.2.001 Complicaciones de los traumatismos: sistémicas y vasculares — Cubre síndrome compartimental, SDR, Volkmann y embolia grasa; TEP/TVP quedan tratados solo parcialmente.
+- traumatologia|trauma-04: 2.01.2.009 Fracturas — Solo asocia fracturas con lesiones neurovasculares; no diagnóstico ni manejo general de fracturas.
+- traumatologia|trauma-04: 4.01.2.021 Insufic. arterial aguda: embolia, trombosis, traumatismos — Se enseña isquemia aguda traumática (6P); no embolia ni trombosis.
+- traumatologia|trauma-05: 4.02.4.006 Set radiológico de trauma en conjunto (columna cervical, tórax, pelvis y columna) — Se pide la trilogía radiográfica (columna cervical, tórax, pelvis) pero no se enseña su interpretación.
+- traumatologia|trauma-06: 4.02.2.007 Fracturas de diáfisis y metáfisis — Solo complicaciones de consolidación; no clínica ni manejo de la fractura diafisaria en sí.
+- traumatologia|trauma-07: 4.02.2.013 Luxofractura del tobillo — Se menciona fractura de tobillo y maléolos con osteosíntesis; no luxofractura ni derivación.
+- traumatologia|trauma-07: 4.02.4.003 Radiografía huesos largos ante sospecha de fractura — Se indica radiografía de fémur, sin enseñar interpretación.
+- traumatologia|trauma-07: 4.02.2.003 Esguince grado1 (acromioclavicular, dedos, rodilla y tobillo) — Se diferencia esguince de fractura y se pide radiografía, pero el texto no describe grados ni tratamiento completo.
+- traumatologia|trauma-08: 4.02.2.011 Lesiones de partes blandas (contusiones, hematomas, desgarros) — Cubre lesiones meniscales/ligamentarias y patelofemoral, no contusiones ni hematomas (trauma-09).
+- traumatologia|trauma-11: 4.02.3.005 Lumbociática radicular — Solo se define la lumbociática y se dice que su manejo inicial es igual al lumbago; sin radiculopatía ni signos de compresión radicular.
+- traumatologia|trauma-12: 4.02.5.002 Punción articular de rodilla — Solo se dice que se debe hacer artrocentesis; sin técnica de punción de rodilla.
+- traumatologia|trauma-12: 1.11.1.015 Monoartritis — Se indica artrocentesis y se trata la pseudogota/podagra, pero el análisis del líquido sinovial y la artritis séptica son solo encabezados sin contenido.
+- traumatologia|trauma-12: 1.11.2.002 Gota aguda — Tratamiento y profilaxis de gota cubiertos; sección diagnóstica de gota sin contenido.
+- traumatologia|trauma-14: 2.01.1.091 Alteraciones de los pies — Solo pie bot; no pie plano ni otras alteraciones de los pies.
+- traumatologia|trauma-15: 4.02.1.006 Lumbociática radicular — Se enseña manejo (cirugía solo ante fracaso o déficit neurológico); no clínica radicular.
+- traumatologia|trauma-15: 1.10.1.011 Lumbociáticas y cervicobraquialgias. — Se equiparan lumbociática y cervicobraquialgia al lumbago; sin semiología específica.
+- urologia|uro-01: 1.03.4.011 Calciuria — Solo se nombra hipercalciuria idiopática tratada con tiazidas; sin medición ni interpretación de calciuria.
+- urologia|uro-01: 1.09.5.003 Instalación pigtail — Se menciona catéter Doble J como descompresión urgente, sin técnica (nivel derivar).
+- urologia|uro-02: 4.03.5.004 Cistostomía por punción — Se enseñan las indicaciones de la cistostomía por punción, no la técnica.
+- urologia|uro-02: 1.09.5.002 Cistostomía de urgencia — Se enseñan las indicaciones de la cistostomía, no la técnica.
+- urologia|uro-02: 4.03.1.008 Estenosis uretral — La estenosis uretral aparece como causa de RAO e indicación de cistostomía, sin diagnóstico ni manejo.
+- urologia|uro-03: 1.09.5.007 Tacto rectal para reconocimiento básico de crecimiento prostático — Se describe qué se espera en el tacto rectal (HPB vs neoplasia), sin técnica de realización.
+- urologia|uro-03: 4.03.1.027 Uropatía obstructiva baja — Solo se aborda la obstrucción baja por HPB.
+- urologia|uro-06: 4.03.1.006 Enfermedades de transmisión sexual — Solo el tratamiento dual de ETS en la epididimitis del joven; sin uretritis, síndromes ni otras ETS.
+- urologia|uro-08: 4.03.5.001 Biopsia prostática — Se explica indicación y técnica de biopsia (nivel derivar); suficiente.
+- urologia|uro-10: 4.03.1.004 Criptorquídea — Solo se menciona como factor de riesgo de tumor y la orquidopexia precoz; sin diagnóstico ni manejo de la criptorquidia.
+- urologia|uro-11: 2.01.1.037 Tumores sólidos — Solo el tumor sólido renal del adulto; no tumores sólidos en general.
+- urologia|uro-12: 4.03.5.002 Cistoscopia — Se enseña qué muestra la cistoscopía y su indicación; no técnica (nivel derivar, suficiente).
+- urologia|uro-12: 1.09.5.001 Cistoscopia — Igual: indicación sin técnica.
+- urologia|uro-12: 4.03.1.010 Hematuria — Aquí solo hematuria de origen vesical; el enfoque general está en uro-15.
+- urologia|uro-15: 1.09.1.021 Síndrome nefrítico — Solo se describe la hematuria glomerular (dismórficos, cilindros hemáticos); no el síndrome nefrítico completo (HTA, edema, oliguria).

@@ -1,0 +1,57 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Clases nuevas de salud pública. Variante: ?v=piramides
+//   piramides  sp-15 A1 (gráfico solo código, sin anatomía): la pirámide de población pasa de expansiva a estacionaria y a constrictiva
+//              (forma esquemática, no datos reales), con las medidas de salud pública de cada una. Cifras y conceptos del libro (sp-15).
+const V = new URLSearchParams(location.search).get('v') || 'piramides';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+const AGES = 17;                                                    // grupos de 5 años: 0-4 ... 80 y más
+// anchura relativa (0-1) de cada grupo para cada tipo (esquemática)
+const SHAPES = {
+  exp: i => Math.max(0.06, 1 - i * 0.058),
+  est: i => i < 12 ? 0.82 - Math.abs(i - 5) * 0.012 : Math.max(0.1, 0.8 - (i - 11) * 0.14),
+  con: i => i < 4 ? 0.52 + i * 0.07 : i < 13 ? 0.82 + 0.1 * Math.sin((i - 4) / 9 * 3.14) : Math.max(0.2, 0.8 - (i - 12) * 0.12),
+};
+const KEYS = ['exp', 'est', 'con'];
+const INFO = {
+  exp: { name: 'Expansiva', col: '#FFC247', l1: 'Base ancha, cima estrecha', l2: 'Natalidad y mortalidad altas', m: 'Planificación familiar, saneamiento básico y vacunación' },
+  est: { name: 'Estacionaria', col: '#4FA3FF', l1: 'Forma de campana', l2: 'Natalidad en descenso, mortalidad baja', m: 'Fase de transición: crecimiento lento' },
+  con: { name: 'Constrictiva', col: '#B388FF', l1: 'Base angosta, cuerpo ancho', l2: 'Natalidad muy baja: envejecimiento', m: 'Crónicas, dependencia y cuidados del adulto mayor' },
+};
+function width(i, t) {
+  const k = clamp((t - 2.5) / 5, 0, 2), a = Math.floor(Math.min(k, 1.9999)), f = ease(k - a);   // 0 → exp, 1 → est, 2 → con
+  return lerp(SHAPES[KEYS[a]](i), SHAPES[KEYS[Math.min(2, a + 1)]](i), a >= 2 ? 0 : f);
+}
+function pir(t) {
+  K.title('Pirámide de población', 'Cómo cambia la forma cuando baja la natalidad y sube la esperanza de vida', '#B388FF');
+  const cx = 330, y0 = 160, bh = 25, gap = 4, maxW = 270;
+  rrect(40, 128, 580, 560, 16, '#161B22');
+  const k = clamp((t - 2.5) / 5, 0, 2), idx = k < 0.5 ? 0 : k < 1.5 ? 1 : 2, I0 = INFO[KEYS[idx]];
+  for (let i = 0; i < AGES; i++) {
+    const y = y0 + (AGES - 1 - i) * (bh + gap) + 10, w = width(i, t) * maxW * seg(t, 0.2 + i * 0.05, 0.6);
+    ctx.fillStyle = '#4FA3FF'; ctx.fillRect(cx - w, y, w, bh); ctx.fillStyle = '#FF7AA8'; ctx.fillRect(cx, y, w, bh);
+    ctx.fillStyle = 'rgba(255,255,255,0.18)'; ctx.fillRect(cx - w, y, w, 4); ctx.fillRect(cx, y, w, 4);
+    if (i % 4 === 0) text(i === 16 ? '80+' : `${i * 5}`, cx + 6 + maxW + 4, y + 21, 14, C.MUTED);
+  }
+  text('Hombres', 60, 150, 16, '#4FA3FF', 'bold'); text('Mujeres', 600, 150, 16, '#FF7AA8', 'bold', 'right');
+  tag(I0.name, cx, 146, I0.col, 22);
+  // tarjetas
+  const stages = [[1.0, 'exp'], [6.5, 'est'], [11.5, 'con']];
+  stages.forEach(([at, key], i) => { const a = seg(t, at, 0.5); if (a <= 0) return; const s = INFO[key]; ctx.save(); ctx.globalAlpha = a; const y = 128 + i * 150;
+    rrect(650, y, 600, 138, 14, '#161B22'); ctx.fillStyle = s.col; ctx.fillRect(650, y, 6, 138);
+    text(s.name, 672, y + 34, 22, s.col, 'bold'); text(s.l1, 672, y + 64, 17, C.INK); text(s.l2, 672, y + 90, 17, C.INK); text('Medidas: ' + s.m, 672, y + 120, 15, C.MUTED); ctx.restore(); });
+  K.banner(650, 590, 600, 'Chile: fase avanzada, fecundidad bajo 2,1 hijos por mujer', '#B388FF', seg(t, 14.5, 0.5));
+  K.credit('Gráfico con código propio · forma esquemática, no datos reales');
+}
+const SCN = { piramides: { f: pir, dur: 22 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); };
+LOAD({});
+</script>
+</body></html>

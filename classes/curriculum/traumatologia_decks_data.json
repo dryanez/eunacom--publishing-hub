@@ -4,7 +4,10 @@
     "topicLabel": "12.1",
     "title": "Traumatologia 12.1: Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
     "perfilCodes": [
-      "4.01.1.001"
+      "4.02.2.007",
+      "4.02.5.001",
+      "4.02.3.002",
+      "4.02.4.003"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -13,8 +16,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Principios Generales de Fracturas, Consolidación Ósea & Inmovilización. Código oficial Perfil V3: 4.01.1.001.",
-        "kicker": "CÓDIGO PERFIL V3: 4.01.1.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Principios Generales de Fracturas, Consolidación Ósea & Inmovilización. Código oficial Perfil V3: 4.02.2.007, 4.02.5.001, 4.02.3.002, 4.02.4.003.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.2.007, 4.02.5.001, 4.02.3.002, 4.02.4.003",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -57,7 +60,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.01.1.001",
+              "4.02.2.007, 4.02.5.001, 4.02.3.002, 4.02.4.003",
               "Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
               "Específico",
               "Inicial y Completo",
@@ -69,14 +72,14 @@
       {
         "type": "bento",
         "nav": "Fisiopatología y Principios Diagnósticos",
-        "notes": "[SLIDE 3] :::important\n4.01.1.001 | Fracturas: Generalidades | Dx: Específico | Tx: Inicial | Seg: Completo\n*(Nota: El código corresponde a la sección de Cirugía/Traumatología del perfil EUNACOM)*\n::: Las fracturas son una de las consultas más frecuentes en los servicios de urgencia y una piedra angular de la traumatología. Para el examen EUNACOM, se suelen incluir aproximadamente 5 preguntas de esta especialidad, las cuales tienden a ser de dificultad moderada si se dominan los conceptos generales y las indicaciones quirúrgicas. ## Clínica de las Fracturas El diagnóstico de una fractura es fundamentalmente clínico, aunque requiere confirmación de imagen. Los signos y síntomas clásicos incluyen: - **Dolor intenso**: Localizado en el foco de la lesión, que aumenta con la movilización.\n- **Deformidad y desviación de los ejes**: Alteración de la anatomía normal del miembro.\n- **Equimosis y aumento de volumen**: Debido al hematoma fracturario y la inflamación de partes blandas.\n- **Impotencia funcional**: Incapacidad para utilizar la extremidad.\n- **Crepitación ósea**: Es el signo más característico. Es la sensación táctil o auditiva del roce de los fragmentos óseos fracturados. :::tip\nLa **crepitación** o los crépitos óseos son patognomónicos de fractura, pero no se deben buscar intencionadamente de forma vigorosa para evitar mayor daño a partes blandas, vasos o nervios.\n:::",
+        "notes": "[SLIDE 3] :::important\n4.02.2.007, 4.02.5.001, 4.02.3.002, 4.02.4.003 | Fracturas: Generalidades | Dx: Específico | Tx: Inicial | Seg: Completo\n*(Nota: El código corresponde a la sección de Cirugía/Traumatología del perfil EUNACOM)*\n::: Las fracturas son una de las consultas más frecuentes en los servicios de urgencia y una piedra angular de la traumatología. Para el examen EUNACOM, se suelen incluir aproximadamente 5 preguntas de esta especialidad, las cuales tienden a ser de dificultad moderada si se dominan los conceptos generales y las indicaciones quirúrgicas. ## Clínica de las Fracturas El diagnóstico de una fractura es fundamentalmente clínico, aunque requiere confirmación de imagen. Los signos y síntomas clásicos incluyen: - **Dolor intenso**: Localizado en el foco de la lesión, que aumenta con la movilización.\n- **Deformidad y desviación de los ejes**: Alteración de la anatomía normal del miembro.\n- **Equimosis y aumento de volumen**: Debido al hematoma fracturario y la inflamación de partes blandas.\n- **Impotencia funcional**: Incapacidad para utilizar la extremidad.\n- **Crepitación ósea**: Es el signo más característico. Es la sensación táctil o auditiva del roce de los fragmentos óseos fracturados. :::tip\nLa **crepitación** o los crépitos óseos son patognomónicos de fractura, pero no se deben buscar intencionadamente de forma vigorosa para evitar mayor daño a partes blandas, vasos o nervios.\n:::",
         "title": "1. Fisiopatología y Principios Diagnósticos de Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              ":::important\n4.01.1.001 | Fracturas: Generalidades | Dx: Específico | Tx: Inicial | Seg: Completo\n*(Nota: El código corresponde a la sección de Cirugía/Traumatología del perfil EUNACOM)*\n:::",
+              ":::important\n4.02.2.007, 4.02.5.001, 4.02.3.002, 4.02.4.003 | Fracturas: Generalidades | Dx: Específico | Tx: Inicial | Seg: Completo\n*(Nota: El código corresponde a la sección de Cirugía/Traumatología del perfil EUNACOM)*\n:::",
               "Las fracturas son una de las consultas más frecuentes en los servicios de urgencia y una piedra angular de la traumatología. Para el examen EUNACOM, se suelen incluir aproximadamente 5 preguntas de esta especialidad, las cuales tienden a ser de dificultad moderada si se dominan los conceptos generales y las indicaciones quirúrgicas.",
               "## Clínica de las Fracturas",
               "El diagnóstico de una fractura es fundamentalmente clínico, aunque requiere confirmación de imagen. Los signos y síntomas clásicos incluyen:",
@@ -285,7 +288,9 @@
     "topicLabel": "12.2",
     "title": "Traumatologia 12.2: Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente",
     "perfilCodes": [
-      "1.12.2.001"
+      "4.02.2.008",
+      "4.02.5.001",
+      "4.02.5.005"
     ],
     "tier": 3,
     "realQuestionCount": 0,
@@ -294,8 +299,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente. Código oficial Perfil V3: 1.12.2.001.",
-        "kicker": "CÓDIGO PERFIL V3: 1.12.2.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente. Código oficial Perfil V3: 4.02.2.008, 4.02.5.001, 4.02.5.005.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.2.008, 4.02.5.001, 4.02.5.005",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -338,7 +343,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.12.2.001",
+              "4.02.2.008, 4.02.5.001, 4.02.5.005",
               "Fracturas Expuestas: Clasificación Gustilo-Anderson, Antibioticoterapia EV & Aseo Quirúrgico Urgente",
               "Específico",
               "Inicial",
@@ -350,14 +355,14 @@
       {
         "type": "bento",
         "nav": "Fisiopatología y Principios Diagnósticos",
-        "notes": "[SLIDE 3] :::important\n1.12.2.001 | Fractura expuesta | Dx: Específico | Tx: Inicial | Seg: Derivar\n::: Una **fractura expuesta** se define como la solución de continuidad de un hueso (fractura) que se asocia a una herida de las partes blandas, permitiendo que el foco de fractura entre en contacto directo con el medio ambiente (aire, agua, contaminantes). Es considerada una **urgencia traumatológica no derivable** en su fase inicial. Esto significa que, si bien el tratamiento definitivo es quirúrgico y requiere un especialista, el médico general debe realizar el manejo inmediato para disminuir drásticamente el riesgo de complicaciones graves. ## Riesgos y Complicaciones\nEl principal problema de una fractura expuesta no es la fractura en sí, sino la exposición. Los riesgos principales son:\n- **Infección y [[Osteomielitis]]**: Es la complicación más específica y temida, ya que puede impedir la consolidación ósea y llevar a la pérdida de la extremidad.\n- **Lesiones neurovasculares**: Daño a nervios o vasos sanguíneos adyacentes.\n- **[[Síndrome Compartimental]]**: Debido al trauma de alta energía y el edema.\n- **Retardo en la consolidación** o pseudoartrosis. ## Diagnóstico\nEl diagnóstico es fundamentalmente **clínico**. \n1.  **Examen físico**: Presencia de una herida que comunica con el hueso fracturado.\n2.  **Radiografía**: Confirma la fractura, su morfología y la presencia de aire en los tejidos o cuerpos extraños. :::tip\nToda herida en la cercanía de una fractura debe considerarse una fractura expuesta hasta que se demuestre lo contrario, incluso si el hueso no es visible a simple vista.\n:::",
+        "notes": "[SLIDE 3] :::important\n4.02.2.008, 4.02.5.001, 4.02.5.005 | Fractura expuesta | Dx: Específico | Tx: Inicial | Seg: Derivar\n::: Una **fractura expuesta** se define como la solución de continuidad de un hueso (fractura) que se asocia a una herida de las partes blandas, permitiendo que el foco de fractura entre en contacto directo con el medio ambiente (aire, agua, contaminantes). Es considerada una **urgencia traumatológica no derivable** en su fase inicial. Esto significa que, si bien el tratamiento definitivo es quirúrgico y requiere un especialista, el médico general debe realizar el manejo inmediato para disminuir drásticamente el riesgo de complicaciones graves. ## Riesgos y Complicaciones\nEl principal problema de una fractura expuesta no es la fractura en sí, sino la exposición. Los riesgos principales son:\n- **Infección y [[Osteomielitis]]**: Es la complicación más específica y temida, ya que puede impedir la consolidación ósea y llevar a la pérdida de la extremidad.\n- **Lesiones neurovasculares**: Daño a nervios o vasos sanguíneos adyacentes.\n- **[[Síndrome Compartimental]]**: Debido al trauma de alta energía y el edema.\n- **Retardo en la consolidación** o pseudoartrosis. ## Diagnóstico\nEl diagnóstico es fundamentalmente **clínico**. \n1.  **Examen físico**: Presencia de una herida que comunica con el hueso fracturado.\n2.  **Radiografía**: Confirma la fractura, su morfología y la presencia de aire en los tejidos o cuerpos extraños. :::tip\nToda herida en la cercanía de una fractura debe considerarse una fractura expuesta hasta que se demuestre lo contrario, incluso si el hueso no es visible a simple vista.\n:::",
         "title": "1. Fisiopatología y Principios Diagnósticos de Fracturas Expuestas",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              ":::important\n1.12.2.001 | Fractura expuesta | Dx: Específico | Tx: Inicial | Seg: Derivar\n:::",
+              ":::important\n4.02.2.008, 4.02.5.001, 4.02.5.005 | Fractura expuesta | Dx: Específico | Tx: Inicial | Seg: Derivar\n:::",
               "Una **fractura expuesta** se define como la solución de continuidad de un hueso (fractura) que se asocia a una herida de las partes blandas, permitiendo que el foco de fractura entre en contacto directo con el medio ambiente (aire, agua, contaminantes).",
               "Es considerada una **urgencia traumatológica no derivable** en su fase inicial. Esto significa que, si bien el tratamiento definitivo es quirúrgico y requiere un especialista, el médico general debe realizar el manejo inmediato para disminuir drásticamente el riesgo de complicaciones graves.",
               "## Riesgos y Complicaciones\nEl principal problema de una fractura expuesta no es la fractura en sí, sino la exposición. Los riesgos principales son:\n- **Infección y [[Osteomielitis]]**: Es la complicación más específica y temida, ya que puede impedir la consolidación ósea y llevar a la pérdida de la extremidad.\n- **Lesiones neurovasculares**: Daño a nervios o vasos sanguíneos adyacentes.\n- **[[Síndrome Compartimental]]**: Debido al trauma de alta energía y el edema.\n- **Retardo en la consolidación** o pseudoartrosis.",
@@ -716,7 +721,9 @@
     "topicLabel": "12.3",
     "title": "Traumatologia 12.3: Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
     "perfilCodes": [
-      "1.01.1.006"
+      "4.02.2.001",
+      "1.01.1.006",
+      "4.01.1.049"
     ],
     "tier": 3,
     "realQuestionCount": 0,
@@ -725,8 +732,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente. Código oficial Perfil V3: 1.01.1.006.",
-        "kicker": "CÓDIGO PERFIL V3: 1.01.1.006",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente. Código oficial Perfil V3: 4.02.2.001, 1.01.1.006, 4.01.1.049.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.2.001, 1.01.1.006, 4.01.1.049",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -769,7 +776,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.01.1.006",
+              "4.02.2.001, 1.01.1.006, 4.01.1.049",
               "Síndrome Compartimental Agudo: Signos Cardinales (5P), Presión Intracompartimental & Fasciotomía Urgente",
               "Específico",
               "Inicial",
@@ -781,14 +788,14 @@
       {
         "type": "bento",
         "nav": "Fisiopatología y Principios Diagnósticos",
-        "notes": "[SLIDE 3] :::important\n**Perfil EUNACOM:** Aunque el tema principal es de Traumatología, sus complicaciones se evalúan con frecuencia en Medicina Interna y Cirugía.\n- **Tromboembolismo Pulmonar:** 1.01.1.006 | Dx: Sospecha | Tx: Inicial | Seg: Derivar\n- **Síndrome Compartimental / Embolia Grasa:** Requieren sospecha y manejo inicial de urgencia.\n::: Las complicaciones de las [[Fracturas]] son un tema de alta rentabilidad en el examen EUNACOM, con presencia habitual de 2 a 3 preguntas por versión. Es fundamental distinguir entre complicaciones precoces (horas/días) y tardías (semanas/meses), así como sus características clínicas diferenciales. ## 1. Distrofia Simpático Refleja (SDR)\nTambién conocida bajo otros nombres que el alumno debe reconocer en las alternativas: | Nombre Alternativo | Descripción |\n| :--- | :--- |\n| **Atrofia ósea de Sudeck** | Enfoque en los cambios óseos radiológicos. |\n| **Síndrome de Dolor Regional Complejo (SDRC)** | Denominación moderna y fisiopatológica. | ### Clínica\nEs una complicación de aparición **tardía** (semanas a meses después de la lesión). Sus pilares clínicos son:\n- **Dolor neuropático:** De carácter urente (quemante), con presencia de alodinia e hiperalgesia.\n- **Aumento con movilidad distal:** El dolor empeora al mover los dedos o ortejos.\n- **Cambios tróficos:** Alteraciones en piel (color), fanéreos (aumento o disminución de vello) y uñas (engrosamiento o fragilidad).\n- **Signos óseos:** Radiológicamente se observa una **osteoporosis moteada** o con lesiones en \"sacabocado\". :::note\n**Fisiopatología:** Se cree que existe una interacción o \"cortocircuito\" entre las fibras del dolor y las fibras del sistema nervioso simpático, gatillada frecuentemente por un mal manejo de la analgesia inicial.\n:::",
+        "notes": "[SLIDE 3] :::important\n**Perfil EUNACOM:** Aunque el tema principal es de Traumatología, sus complicaciones se evalúan con frecuencia en Medicina Interna y Cirugía.\n- **Tromboembolismo Pulmonar:** 4.02.2.001, 1.01.1.006, 4.01.1.049 | Dx: Sospecha | Tx: Inicial | Seg: Derivar\n- **Síndrome Compartimental / Embolia Grasa:** Requieren sospecha y manejo inicial de urgencia.\n::: Las complicaciones de las [[Fracturas]] son un tema de alta rentabilidad en el examen EUNACOM, con presencia habitual de 2 a 3 preguntas por versión. Es fundamental distinguir entre complicaciones precoces (horas/días) y tardías (semanas/meses), así como sus características clínicas diferenciales. ## 1. Distrofia Simpático Refleja (SDR)\nTambién conocida bajo otros nombres que el alumno debe reconocer en las alternativas: | Nombre Alternativo | Descripción |\n| :--- | :--- |\n| **Atrofia ósea de Sudeck** | Enfoque en los cambios óseos radiológicos. |\n| **Síndrome de Dolor Regional Complejo (SDRC)** | Denominación moderna y fisiopatológica. | ### Clínica\nEs una complicación de aparición **tardía** (semanas a meses después de la lesión). Sus pilares clínicos son:\n- **Dolor neuropático:** De carácter urente (quemante), con presencia de alodinia e hiperalgesia.\n- **Aumento con movilidad distal:** El dolor empeora al mover los dedos o ortejos.\n- **Cambios tróficos:** Alteraciones en piel (color), fanéreos (aumento o disminución de vello) y uñas (engrosamiento o fragilidad).\n- **Signos óseos:** Radiológicamente se observa una **osteoporosis moteada** o con lesiones en \"sacabocado\". :::note\n**Fisiopatología:** Se cree que existe una interacción o \"cortocircuito\" entre las fibras del dolor y las fibras del sistema nervioso simpático, gatillada frecuentemente por un mal manejo de la analgesia inicial.\n:::",
         "title": "1. Fisiopatología y Principios Diagnósticos de Síndrome Compartimental Agudo",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              ":::important\n**Perfil EUNACOM:** Aunque el tema principal es de Traumatología, sus complicaciones se evalúan con frecuencia en Medicina Interna y Cirugía.\n- **Tromboembolismo Pulmonar:** 1.01.1.006 | Dx: Sospecha | Tx: Inicial | Seg: Derivar\n- **Síndrome Compartimental / Embolia Grasa:** Requieren sospecha y manejo inicial de urgencia.\n:::",
+              ":::important\n**Perfil EUNACOM:** Aunque el tema principal es de Traumatología, sus complicaciones se evalúan con frecuencia en Medicina Interna y Cirugía.\n- **Tromboembolismo Pulmonar:** 4.02.2.001, 1.01.1.006, 4.01.1.049 | Dx: Sospecha | Tx: Inicial | Seg: Derivar\n- **Síndrome Compartimental / Embolia Grasa:** Requieren sospecha y manejo inicial de urgencia.\n:::",
               "Las complicaciones de las [[Fracturas]] son un tema de alta rentabilidad en el examen EUNACOM, con presencia habitual de 2 a 3 preguntas por versión. Es fundamental distinguir entre complicaciones precoces (horas/días) y tardías (semanas/meses), así como sus características clínicas diferenciales.",
               "## 1. Distrofia Simpático Refleja (SDR)\nTambién conocida bajo otros nombres que el alumno debe reconocer en las alternativas:",
               "| Nombre Alternativo | Descripción |\n| :--- | :--- |\n| **Atrofia ósea de Sudeck** | Enfoque en los cambios óseos radiológicos. |\n| **Síndrome de Dolor Regional Complejo (SDRC)** | Denominación moderna y fisiopatológica. |",
@@ -1147,7 +1154,9 @@
     "topicLabel": "12.4",
     "title": "Traumatologia 12.4: Lesiones Neurovasculares de las Fracturas: Seddon, Nervio Radial & Lesión Arterial",
     "perfilCodes": [
-      "1.01.2.007"
+      "4.02.2.010",
+      "4.01.2.021",
+      "4.02.2.001"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -1156,8 +1165,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Complicaciones Graves de Fracturas: Embolia Grasa, Pseudoartrosis & Osteomielitis Postraumática. Código oficial Perfil V3: 1.01.2.007.",
-        "kicker": "CÓDIGO PERFIL V3: 1.01.2.007",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Complicaciones Graves de Fracturas: Embolia Grasa, Pseudoartrosis & Osteomielitis Postraumática. Código oficial Perfil V3: 4.02.2.010, 4.01.2.021, 4.02.2.001.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.2.010, 4.01.2.021, 4.02.2.001",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1200,7 +1209,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.01.2.007",
+              "4.02.2.010, 4.01.2.021, 4.02.2.001",
               "Complicaciones Graves de Fracturas: Embolia Grasa, Pseudoartrosis & Osteomielitis Postraumática",
               "Específico",
               "Inicial",
@@ -1212,14 +1221,14 @@
       {
         "type": "bento",
         "nav": "Fisiopatología y Principios Diagnósticos",
-        "notes": "[SLIDE 3] :::important\nSITUACIONES DE URGENCIA:\n1.01.2.007 | Shock (y compromiso vascular periférico) | Dx: Específico | Tx: Inicial | Seg: Derivar\n*Nota: Este tema también se integra con Traumatología (Lesiones de nervio periférico y compromiso vascular).*\n::: Las complicaciones neurovasculares en el contexto de [[Fracturas: Generalidades]] y luxaciones son emergencias que requieren una detección clínica precoz para evitar secuelas funcionales permanentes o la pérdida de la extremidad. ## Lesiones Nerviosas Las lesiones de los nervios periféricos suelen ocurrir de forma inmediata al momento del trauma (fractura o luxación). ### Clínica General\nEl diagnóstico es **estrictamente clínico** y se caracteriza por un déficit neurológico distal a la lesión:\n- **Alteración Motora:** Paresia (debilidad) o plejia (parálisis).\n- **Alteración Sensitiva:** Hipoestesia (disminución) o anestesia (pérdida total).\n- **Reflejos:** Eventual arreflexia si el nervio participa en un arco reflejo específico. ### Clasificación de Seddon (Pronóstico)",
+        "notes": "[SLIDE 3] :::important\nSITUACIONES DE URGENCIA:\n4.02.2.010, 4.01.2.021, 4.02.2.001 | Shock (y compromiso vascular periférico) | Dx: Específico | Tx: Inicial | Seg: Derivar\n*Nota: Este tema también se integra con Traumatología (Lesiones de nervio periférico y compromiso vascular).*\n::: Las complicaciones neurovasculares en el contexto de [[Fracturas: Generalidades]] y luxaciones son emergencias que requieren una detección clínica precoz para evitar secuelas funcionales permanentes o la pérdida de la extremidad. ## Lesiones Nerviosas Las lesiones de los nervios periféricos suelen ocurrir de forma inmediata al momento del trauma (fractura o luxación). ### Clínica General\nEl diagnóstico es **estrictamente clínico** y se caracteriza por un déficit neurológico distal a la lesión:\n- **Alteración Motora:** Paresia (debilidad) o plejia (parálisis).\n- **Alteración Sensitiva:** Hipoestesia (disminución) o anestesia (pérdida total).\n- **Reflejos:** Eventual arreflexia si el nervio participa en un arco reflejo específico. ### Clasificación de Seddon (Pronóstico)",
         "title": "1. Fisiopatología y Principios Diagnósticos de Complicaciones Graves de Fracturas",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              ":::important\nSITUACIONES DE URGENCIA:\n1.01.2.007 | Shock (y compromiso vascular periférico) | Dx: Específico | Tx: Inicial | Seg: Derivar\n*Nota: Este tema también se integra con Traumatología (Lesiones de nervio periférico y compromiso vascular).*\n:::",
+              ":::important\nSITUACIONES DE URGENCIA:\n4.02.2.010, 4.01.2.021, 4.02.2.001 | Shock (y compromiso vascular periférico) | Dx: Específico | Tx: Inicial | Seg: Derivar\n*Nota: Este tema también se integra con Traumatología (Lesiones de nervio periférico y compromiso vascular).*\n:::",
               "Las complicaciones neurovasculares en el contexto de [[Fracturas: Generalidades]] y luxaciones son emergencias que requieren una detección clínica precoz para evitar secuelas funcionales permanentes o la pérdida de la extremidad.",
               "## Lesiones Nerviosas",
               "Las lesiones de los nervios periféricos suelen ocurrir de forma inmediata al momento del trauma (fractura o luxación).",
@@ -1428,7 +1437,10 @@
     "topicLabel": "12.5",
     "title": "Traumatologia 12.5: Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
     "perfilCodes": [
-      "1.01.2.007"
+      "4.02.2.006",
+      "4.02.2.014",
+      "4.03.2.009",
+      "4.02.4.006"
     ],
     "tier": 3,
     "realQuestionCount": 0,
@@ -1437,8 +1449,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz. Código oficial Perfil V3: 1.01.2.007.",
-        "kicker": "CÓDIGO PERFIL V3: 1.01.2.007",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz. Código oficial Perfil V3: 4.02.2.006, 4.02.2.014, 4.03.2.009, 4.02.4.006.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.2.006, 4.02.2.014, 4.03.2.009, 4.02.4.006",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1481,7 +1493,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.01.2.007",
+              "4.02.2.006, 4.02.2.014, 4.03.2.009, 4.02.4.006",
               "Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
               "Específico",
               "Inicial",
@@ -1493,14 +1505,14 @@
       {
         "type": "bento",
         "nav": "Fisiopatología y Principios Diagnósticos",
-        "notes": "[SLIDE 3] :::important\n1.01.2.007 | Shock | Dx: Específico | Tx: Inicial | Seg: Derivar\n*Nota: Aunque el politraumatismo es de manejo quirúrgico/traumatológico, su manejo inicial es la base de la medicina de urgencias en el EUNACOM.*\n::: El **politraumatismo** se define como la lesión de al menos **tres sistemas** (ej. gastrointestinal, geniturinario y locomotor) o la afectación de tres o más órganos de sistemas diferentes que ponen en riesgo la vida del paciente. Su manejo debe ser sistemático, priorizando siempre la estabilidad vital sobre las lesiones evidentes pero no letales. ## Etiología y Epidemiología\nLas causas más frecuentes de politraumatismo en Chile son:\n1. **Accidentes de tránsito:** Es la causa principal. Los atropellos son especialmente letales, siendo los ocurridos en carretera los de mayor mortalidad, seguidos por los de ciudad.\n2. **Caídas de altura:** Frecuentes en contextos laborales o accidentales.\n3. **Agresiones:** Heridas por arma blanca o de fuego. ## Evaluación Inicial: El ABCDE del Trauma\nEl manejo del paciente politraumatizado sigue un orden estricto de prioridades. No se debe avanzar al siguiente paso sin haber resuelto el anterior. | Letra | Significado | Acciones Clave |\n| :--- | :--- | :--- |\n| **A** | *Airway* (Vía aérea) | Asegurar permeabilidad de la vía aérea e **instalación de collar cervical**. |\n| **B** | *Breathing* (Ventilación) | Asegurar que el paciente ventile. Uso de Ambú o ventilación mecánica si es necesario. |\n| **C** | *Circulation* (Circulación) | Instalar 2 vías venosas gruesas, infusión de cristaloides (Suero Fisiológico) y **compresión de hemorragias externas**. |\n| **D** | *Disability* (Déficit neurológico) | Realizar examen neurológico completo (Escala de Glasgow, pupilas) para descartar lesión medular o TEC. |\n| **E** | *Exposure* (Exposición) | Desvestir completamente al paciente para buscar lesiones ocultas, evitando la hipotermia. | :::tip\nEn el manejo de la circulación (**C**), si te preguntan qué es más urgente entre comprimir una hemorragia activa o instalar la vía venosa, la respuesta suele ser **comprimir primero** para detener la pérdida de volemia.\n:::",
+        "notes": "[SLIDE 3] :::important\n4.02.2.006, 4.02.2.014, 4.03.2.009, 4.02.4.006 | Shock | Dx: Específico | Tx: Inicial | Seg: Derivar\n*Nota: Aunque el politraumatismo es de manejo quirúrgico/traumatológico, su manejo inicial es la base de la medicina de urgencias en el EUNACOM.*\n::: El **politraumatismo** se define como la lesión de al menos **tres sistemas** (ej. gastrointestinal, geniturinario y locomotor) o la afectación de tres o más órganos de sistemas diferentes que ponen en riesgo la vida del paciente. Su manejo debe ser sistemático, priorizando siempre la estabilidad vital sobre las lesiones evidentes pero no letales. ## Etiología y Epidemiología\nLas causas más frecuentes de politraumatismo en Chile son:\n1. **Accidentes de tránsito:** Es la causa principal. Los atropellos son especialmente letales, siendo los ocurridos en carretera los de mayor mortalidad, seguidos por los de ciudad.\n2. **Caídas de altura:** Frecuentes en contextos laborales o accidentales.\n3. **Agresiones:** Heridas por arma blanca o de fuego. ## Evaluación Inicial: El ABCDE del Trauma\nEl manejo del paciente politraumatizado sigue un orden estricto de prioridades. No se debe avanzar al siguiente paso sin haber resuelto el anterior. | Letra | Significado | Acciones Clave |\n| :--- | :--- | :--- |\n| **A** | *Airway* (Vía aérea) | Asegurar permeabilidad de la vía aérea e **instalación de collar cervical**. |\n| **B** | *Breathing* (Ventilación) | Asegurar que el paciente ventile. Uso de Ambú o ventilación mecánica si es necesario. |\n| **C** | *Circulation* (Circulación) | Instalar 2 vías venosas gruesas, infusión de cristaloides (Suero Fisiológico) y **compresión de hemorragias externas**. |\n| **D** | *Disability* (Déficit neurológico) | Realizar examen neurológico completo (Escala de Glasgow, pupilas) para descartar lesión medular o TEC. |\n| **E** | *Exposure* (Exposición) | Desvestir completamente al paciente para buscar lesiones ocultas, evitando la hipotermia. | :::tip\nEn el manejo de la circulación (**C**), si te preguntan qué es más urgente entre comprimir una hemorragia activa o instalar la vía venosa, la respuesta suele ser **comprimir primero** para detener la pérdida de volemia.\n:::",
         "title": "1. Fisiopatología y Principios Diagnósticos de Fracturas de Pelvis & Shock Hipovolémico Pelviano",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              ":::important\n1.01.2.007 | Shock | Dx: Específico | Tx: Inicial | Seg: Derivar\n*Nota: Aunque el politraumatismo es de manejo quirúrgico/traumatológico, su manejo inicial es la base de la medicina de urgencias en el EUNACOM.*\n:::",
+              ":::important\n4.02.2.006, 4.02.2.014, 4.03.2.009, 4.02.4.006 | Shock | Dx: Específico | Tx: Inicial | Seg: Derivar\n*Nota: Aunque el politraumatismo es de manejo quirúrgico/traumatológico, su manejo inicial es la base de la medicina de urgencias en el EUNACOM.*\n:::",
               "El **politraumatismo** se define como la lesión de al menos **tres sistemas** (ej. gastrointestinal, geniturinario y locomotor) o la afectación de tres o más órganos de sistemas diferentes que ponen en riesgo la vida del paciente. Su manejo debe ser sistemático, priorizando siempre la estabilidad vital sobre las lesiones evidentes pero no letales.",
               "## Etiología y Epidemiología\nLas causas más frecuentes de politraumatismo en Chile son:\n1. **Accidentes de tránsito:** Es la causa principal. Los atropellos son especialmente letales, siendo los ocurridos en carretera los de mayor mortalidad, seguidos por los de ciudad.\n2. **Caídas de altura:** Frecuentes en contextos laborales o accidentales.\n3. **Agresiones:** Heridas por arma blanca o de fuego.",
               "## Evaluación Inicial: El ABCDE del Trauma\nEl manejo del paciente politraumatizado sigue un orden estricto de prioridades. No se debe avanzar al siguiente paso sin haber resuelto el anterior.",
@@ -1859,7 +1871,7 @@
     "topicLabel": "12.6",
     "title": "Traumatologia 12.6: Retardo de Consolidación, Pseudoartrosis & Consolidación Viciosa",
     "perfilCodes": [
-      "4.01.2.020"
+      "4.02.2.007"
     ],
     "tier": 3,
     "realQuestionCount": 0,
@@ -1868,8 +1880,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular. Código oficial Perfil V3: 4.01.2.020.",
-        "kicker": "CÓDIGO PERFIL V3: 4.01.2.020",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular. Código oficial Perfil V3: 4.02.2.007.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.2.007",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1912,7 +1924,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.01.2.020",
+              "4.02.2.007",
               "Trauma Raquimedular: Clasificación ASIA, Inmovilización Cervical, Shock Neurogénico vs Medular",
               "Específico",
               "Inicial",
@@ -1924,14 +1936,14 @@
       {
         "type": "bento",
         "nav": "Fisiopatología y Principios Diagnósticos",
-        "notes": "[SLIDE 3] :::important\n1.08.1.001 | Fracturas: Generalidades y Complicaciones | Dx: Específico | Tx: Inicial | Seg: Completo\n::: En el proceso de recuperación de una fractura, la consolidación ósea es el objetivo final. Sin embargo, diversos factores pueden interferir con este proceso biológico, dando lugar a complicaciones que alteran la función y la anatomía del paciente. Es fundamental distinguir entre el **retardo de la consolidación**, la **pseudoartrosis** y la **consolidación viciosa**, ya que sus manejos y pronósticos son radicalmente distintos. ## 1. Retardo de la Consolidación (Retraso de la Unión) Se define como un proceso de curación que se prolonga más allá del tiempo promedio esperado para una fractura específica y una localización determinada, pero que **mantiene la capacidad de consolidar** por sí solo si se eliminan los factores que lo frenan. ### Clínica y Fisiopatología\n- **Dolor persistente:** A diferencia de una consolidación normal, el dolor en el foco de fractura persiste por más tiempo de lo habitual.\n- **Causas principales:**\n    - **Inmovilización inadecuada:** El exceso de micromovimientos impide que el callo óseo se estabilice.\n    - **Uso de AINEs:** Los antiinflamatorios no esteroideos pueden reducir el flujo sanguíneo hacia el hueso y alterar la cascada inflamatoria necesaria para la osteogénesis.\n    - **Factores sistémicos:** Tabaquismo, diabetes o desnutrición. :::note\nEl hueso tiene una notable capacidad de regeneración, pero requiere estabilidad y una respuesta inflamatoria inicial adecuada. Los **AINEs**, al inhibir las prostaglandinas, pueden frenar el reclutamiento de células osteogénicas en las etapas iniciales del callo.\n:::",
+        "notes": "[SLIDE 3] :::important\n4.02.2.007 | Fracturas: Generalidades y Complicaciones | Dx: Específico | Tx: Inicial | Seg: Completo\n::: En el proceso de recuperación de una fractura, la consolidación ósea es el objetivo final. Sin embargo, diversos factores pueden interferir con este proceso biológico, dando lugar a complicaciones que alteran la función y la anatomía del paciente. Es fundamental distinguir entre el **retardo de la consolidación**, la **pseudoartrosis** y la **consolidación viciosa**, ya que sus manejos y pronósticos son radicalmente distintos. ## 1. Retardo de la Consolidación (Retraso de la Unión) Se define como un proceso de curación que se prolonga más allá del tiempo promedio esperado para una fractura específica y una localización determinada, pero que **mantiene la capacidad de consolidar** por sí solo si se eliminan los factores que lo frenan. ### Clínica y Fisiopatología\n- **Dolor persistente:** A diferencia de una consolidación normal, el dolor en el foco de fractura persiste por más tiempo de lo habitual.\n- **Causas principales:**\n    - **Inmovilización inadecuada:** El exceso de micromovimientos impide que el callo óseo se estabilice.\n    - **Uso de AINEs:** Los antiinflamatorios no esteroideos pueden reducir el flujo sanguíneo hacia el hueso y alterar la cascada inflamatoria necesaria para la osteogénesis.\n    - **Factores sistémicos:** Tabaquismo, diabetes o desnutrición. :::note\nEl hueso tiene una notable capacidad de regeneración, pero requiere estabilidad y una respuesta inflamatoria inicial adecuada. Los **AINEs**, al inhibir las prostaglandinas, pueden frenar el reclutamiento de células osteogénicas en las etapas iniciales del callo.\n:::",
         "title": "1. Fisiopatología y Principios Diagnósticos de Trauma Raquimedular",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              ":::important\n1.08.1.001 | Fracturas: Generalidades y Complicaciones | Dx: Específico | Tx: Inicial | Seg: Completo\n:::",
+              ":::important\n4.02.2.007 | Fracturas: Generalidades y Complicaciones | Dx: Específico | Tx: Inicial | Seg: Completo\n:::",
               "En el proceso de recuperación de una fractura, la consolidación ósea es el objetivo final. Sin embargo, diversos factores pueden interferir con este proceso biológico, dando lugar a complicaciones que alteran la función y la anatomía del paciente. Es fundamental distinguir entre el **retardo de la consolidación**, la **pseudoartrosis** y la **consolidación viciosa**, ya que sus manejos y pronósticos son radicalmente distintos.",
               "## 1. Retardo de la Consolidación (Retraso de la Unión)",
               "Se define como un proceso de curación que se prolonga más allá del tiempo promedio esperado para una fractura específica y una localización determinada, pero que **mantiene la capacidad de consolidar** por sí solo si se eliminan los factores que lo frenan.",
@@ -2290,7 +2302,10 @@
     "topicLabel": "12.7",
     "title": "Traumatologia 12.7: Fracturas de Extremidad Inferior: Pierna, Tobillo & Esguince",
     "perfilCodes": [
-      "1.14.1.001"
+      "4.02.2.013",
+      "4.02.2.003",
+      "4.02.2.007",
+      "4.02.4.003"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -2299,8 +2314,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Lesiones de Hombro, Clavícula y Miembro Superior: Luxación Glenohumeral, Fractura de Colles & Escafoides. Código oficial Perfil V3: 1.14.1.001.",
-        "kicker": "CÓDIGO PERFIL V3: 1.14.1.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Lesiones de Hombro, Clavícula y Miembro Superior: Luxación Glenohumeral, Fractura de Colles & Escafoides. Código oficial Perfil V3: 4.02.2.013, 4.02.2.003, 4.02.2.007, 4.02.4.003.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.2.013, 4.02.2.003, 4.02.2.007, 4.02.4.003",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -2343,7 +2358,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.14.1.001",
+              "4.02.2.013, 4.02.2.003, 4.02.2.007, 4.02.4.003",
               "Lesiones de Hombro, Clavícula y Miembro Superior: Luxación Glenohumeral, Fractura de Colles & Escafoides",
               "Específico",
               "Completo",
@@ -2355,14 +2370,14 @@
       {
         "type": "bento",
         "nav": "Fisiopatología y Principios Diagnósticos",
-        "notes": "[SLIDE 3] :::important\n1.14.1.001 | Fracturas de extremidad inferior | Dx: Específico | Tx: Inicial | Seg: Derivar\n1.14.1.002 | Esguince de tobillo | Dx: Específico | Tx: Completo | Seg: Completo\n::: Las lesiones traumáticas de las extremidades inferiores son un motivo de consulta extremadamente frecuente en los servicios de urgencia. Para el examen EUNACOM, es fundamental distinguir entre aquellas que requieren un manejo quirúrgico inmediato y aquellas que pueden ser tratadas de forma ortopédica, así como identificar las complicaciones potencialmente graves. ## Generalidades de las Fracturas de Extremidad Inferior Independientemente del hueso afectado, las fracturas de extremidad inferior comparten una clínica común que debe hacer sospechar el diagnóstico de inmediato: - **Dolor intenso** de inicio súbito tras el trauma.\n- **Impotencia funcional** (incapacidad para la marcha o el apoyo).\n- **Deformidad y desviación de los ejes** anatómicos.\n- **Crepitación ósea** al movimiento o palpación.\n- **Equimosis y aumento de volumen** local. :::tip\nComo regla general para el EUNACOM: Las fracturas de **fémur, pierna (tibia/peroné) y tobillo** se consideran de tratamiento **quirúrgico**. El manejo ortopédico es la excepción y suele reservarse para casos muy específicos o pacientes con contraindicación quirúrgica absoluta.\n:::",
+        "notes": "[SLIDE 3] :::important\n4.02.2.013, 4.02.2.003, 4.02.2.007, 4.02.4.003 | Fracturas de extremidad inferior | Dx: Específico | Tx: Inicial | Seg: Derivar\n4.02.2.013, 4.02.2.003, 4.02.2.007, 4.02.4.003 | Esguince de tobillo | Dx: Específico | Tx: Completo | Seg: Completo\n::: Las lesiones traumáticas de las extremidades inferiores son un motivo de consulta extremadamente frecuente en los servicios de urgencia. Para el examen EUNACOM, es fundamental distinguir entre aquellas que requieren un manejo quirúrgico inmediato y aquellas que pueden ser tratadas de forma ortopédica, así como identificar las complicaciones potencialmente graves. ## Generalidades de las Fracturas de Extremidad Inferior Independientemente del hueso afectado, las fracturas de extremidad inferior comparten una clínica común que debe hacer sospechar el diagnóstico de inmediato: - **Dolor intenso** de inicio súbito tras el trauma.\n- **Impotencia funcional** (incapacidad para la marcha o el apoyo).\n- **Deformidad y desviación de los ejes** anatómicos.\n- **Crepitación ósea** al movimiento o palpación.\n- **Equimosis y aumento de volumen** local. :::tip\nComo regla general para el EUNACOM: Las fracturas de **fémur, pierna (tibia/peroné) y tobillo** se consideran de tratamiento **quirúrgico**. El manejo ortopédico es la excepción y suele reservarse para casos muy específicos o pacientes con contraindicación quirúrgica absoluta.\n:::",
         "title": "1. Fisiopatología y Principios Diagnósticos de Lesiones de Hombro, Clavícula y Miembro Superior",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              ":::important\n1.14.1.001 | Fracturas de extremidad inferior | Dx: Específico | Tx: Inicial | Seg: Derivar\n1.14.1.002 | Esguince de tobillo | Dx: Específico | Tx: Completo | Seg: Completo\n:::",
+              ":::important\n4.02.2.013, 4.02.2.003, 4.02.2.007, 4.02.4.003 | Fracturas de extremidad inferior | Dx: Específico | Tx: Inicial | Seg: Derivar\n4.02.2.013, 4.02.2.003, 4.02.2.007, 4.02.4.003 | Esguince de tobillo | Dx: Específico | Tx: Completo | Seg: Completo\n:::",
               "Las lesiones traumáticas de las extremidades inferiores son un motivo de consulta extremadamente frecuente en los servicios de urgencia. Para el examen EUNACOM, es fundamental distinguir entre aquellas que requieren un manejo quirúrgico inmediato y aquellas que pueden ser tratadas de forma ortopédica, así como identificar las complicaciones potencialmente graves.",
               "## Generalidades de las Fracturas de Extremidad Inferior",
               "Independientemente del hueso afectado, las fracturas de extremidad inferior comparten una clínica común que debe hacer sospechar el diagnóstico de inmediato:",
@@ -2571,7 +2586,7 @@
     "topicLabel": "12.8",
     "title": "Traumatologia 12.8: Lesiones de Rodilla: Meniscos, Ligamentos Cruzados y Colaterales & Dolor Patelofemoral",
     "perfilCodes": [
-      "1.01.1.021"
+      "4.02.2.011"
     ],
     "tier": 2,
     "realQuestionCount": 1,
@@ -2580,8 +2595,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Lesiones de Tobillo y Pie: Fracturas Maleolares, Reglas de Ottawa & Rotura del Tendón de Aquiles. Código oficial Perfil V3: 1.01.1.021. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.01.1.021",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Lesiones de Tobillo y Pie: Fracturas Maleolares, Reglas de Ottawa & Rotura del Tendón de Aquiles. Código oficial Perfil V3: 4.02.2.011. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.2.011",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -2630,7 +2645,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.01.1.021",
+              "4.02.2.011",
               "Lesiones de Tobillo y Pie: Fracturas Maleolares, Reglas de Ottawa & Rotura del Tendón de Aquiles",
               "Específico",
               "Completo",
@@ -2642,14 +2657,14 @@
       {
         "type": "bento",
         "nav": "Fisiopatología y Principios Diagnósticos",
-        "notes": "[SLIDE 3] :::important\n3.01.1.001 | Lesiones de rodilla (Meniscales y Ligamentosas) | Dx: Específico | Tx: Inicial/Completo | Seg: Derivar/Completo\n::: Las lesiones de rodilla son un motivo de consulta extremadamente frecuente en la práctica clínica y en el examen EUNACOM. Aunque cada estructura tiene una presentación particular, comparten elementos comunes: todas cursan con **dolor de rodilla** e **impotencia funcional**. Dado que los meniscos y ligamentos son tejido conectivo y fibrocartílago, no son visibles en la radiografía convencional. Por lo tanto, el estándar de oro para el diagnóstico de partes blandas es la **Resonancia Magnética Nuclear (RMN)**. ## 1. Lesiones Meniscales Los meniscos (medial y lateral) actúan como amortiguadores y estabilizadores de la rodilla. Su lesión suele ocurrir por mecanismos de **torsión brusca** (giros con el pie fijo en el suelo). ### Clínica Específica\n- **Bloqueo articular:** Sensación de que la rodilla se queda \"atascada\" o trabada al caminar.\n- **Dolor en la interlínea articular:** Dolor a la palpación directa del espacio entre el fémur y la tibia.\n- **Sensación de inestabilidad.**",
+        "notes": "[SLIDE 3] :::important\n4.02.2.011 | Lesiones de rodilla (Meniscales y Ligamentosas) | Dx: Específico | Tx: Inicial/Completo | Seg: Derivar/Completo\n::: Las lesiones de rodilla son un motivo de consulta extremadamente frecuente en la práctica clínica y en el examen EUNACOM. Aunque cada estructura tiene una presentación particular, comparten elementos comunes: todas cursan con **dolor de rodilla** e **impotencia funcional**. Dado que los meniscos y ligamentos son tejido conectivo y fibrocartílago, no son visibles en la radiografía convencional. Por lo tanto, el estándar de oro para el diagnóstico de partes blandas es la **Resonancia Magnética Nuclear (RMN)**. ## 1. Lesiones Meniscales Los meniscos (medial y lateral) actúan como amortiguadores y estabilizadores de la rodilla. Su lesión suele ocurrir por mecanismos de **torsión brusca** (giros con el pie fijo en el suelo). ### Clínica Específica\n- **Bloqueo articular:** Sensación de que la rodilla se queda \"atascada\" o trabada al caminar.\n- **Dolor en la interlínea articular:** Dolor a la palpación directa del espacio entre el fémur y la tibia.\n- **Sensación de inestabilidad.**",
         "title": "1. Fisiopatología y Principios Diagnósticos de Lesiones de Tobillo y Pie",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              ":::important\n3.01.1.001 | Lesiones de rodilla (Meniscales y Ligamentosas) | Dx: Específico | Tx: Inicial/Completo | Seg: Derivar/Completo\n:::",
+              ":::important\n4.02.2.011 | Lesiones de rodilla (Meniscales y Ligamentosas) | Dx: Específico | Tx: Inicial/Completo | Seg: Derivar/Completo\n:::",
               "Las lesiones de rodilla son un motivo de consulta extremadamente frecuente en la práctica clínica y en el examen EUNACOM. Aunque cada estructura tiene una presentación particular, comparten elementos comunes: todas cursan con **dolor de rodilla** e **impotencia funcional**.",
               "Dado que los meniscos y ligamentos son tejido conectivo y fibrocartílago, no son visibles en la radiografía convencional. Por lo tanto, el estándar de oro para el diagnóstico de partes blandas es la **Resonancia Magnética Nuclear (RMN)**.",
               "## 1. Lesiones Meniscales",
@@ -2895,7 +2910,9 @@
     "topicLabel": "12.9",
     "title": "Traumatologia 12.9: Lesiones de Partes Blandas: Contusiones, Hematomas, Esguinces & Rotura del Aquiles",
     "perfilCodes": [
-      "4.02.2.004"
+      "4.02.2.011",
+      "4.02.2.003",
+      "4.01.1.049"
     ],
     "tier": 3,
     "realQuestionCount": 6,
@@ -2904,8 +2921,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h. Código oficial Perfil V3: 4.02.2.004. Este tema ha sido evaluado en 6 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 4.02.2.004",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h. Código oficial Perfil V3: 4.02.2.011, 4.02.2.003, 4.01.1.049. Este tema ha sido evaluado en 6 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.2.011, 4.02.2.003, 4.01.1.049",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -2954,7 +2971,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.02.2.004",
+              "4.02.2.011, 4.02.2.003, 4.01.1.049",
               "Fracturas de Cadera en el Adulto Mayor: Cuello Femoral vs Transtrocantérica & Protocolo Quirúrgico GES < 48 h",
               "Específico",
               "Inicial",
@@ -3406,7 +3423,9 @@
     "topicLabel": "12.10",
     "title": "Traumatologia 12.10: Fractura de Cadera en el Adulto Mayor: Clasificación, Imágenes & Cirugía",
     "perfilCodes": [
-      "8.01.1.003"
+      "4.02.2.004",
+      "4.02.4.002",
+      "1.07.2.003"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -3415,8 +3434,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Lesiones Ligamentosas y Meniscales de Rodilla: LCA (Lachman), Meniscos (McMurray) & Hemartrosis Aguda. Código oficial Perfil V3: 8.01.1.003.",
-        "kicker": "CÓDIGO PERFIL V3: 8.01.1.003",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Lesiones Ligamentosas y Meniscales de Rodilla: LCA (Lachman), Meniscos (McMurray) & Hemartrosis Aguda. Código oficial Perfil V3: 4.02.2.004, 4.02.4.002, 1.07.2.003.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.2.004, 4.02.4.002, 1.07.2.003",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -3459,7 +3478,7 @@
           {
             "highlight": true,
             "cells": [
-              "8.01.1.003",
+              "4.02.2.004, 4.02.4.002, 1.07.2.003",
               "Lesiones Ligamentosas y Meniscales de Rodilla: LCA (Lachman), Meniscos (McMurray) & Hemartrosis Aguda",
               "Específico",
               "Inicial y Completo",
@@ -3471,14 +3490,14 @@
       {
         "type": "bento",
         "nav": "Fisiopatología y Principios Diagnósticos",
-        "notes": "[SLIDE 3] :::important\n8.01.1.003 | Fractura de cadera | Dx: Específico | Tx: Inicial | Seg: Completo\n::: La **fractura de cadera** es una patología crítica en la práctica clínica, situada en la intersección de la traumatología y la geriatría. Representa una de las principales causas de morbimortalidad en el adulto mayor; se estima que la mortalidad a los dos años de ocurrida la fractura alcanza el **50%**. Por ello, su enfoque no solo es quirúrgico, sino también preventivo y rehabilitador. ## Epidemiología y Factores de Riesgo La fractura de cadera es considerada una **fractura osteoporótica** por excelencia. - **En adultos mayores:** El mecanismo habitual es un trauma de baja energía, como una **caída de propia altura** (tropiezo o resbalón) sobre el costado del cuerpo. El sustrato fisiopatológico es la [[Osteoporosis]].\n- **En pacientes jóvenes:** Se requiere un trauma de **muy alto impacto** (accidentes de tránsito, caídas de gran altura) para fracturar el fémur proximal. ## Clínica y Examen Físico",
+        "notes": "[SLIDE 3] :::important\n4.02.2.004, 4.02.4.002, 1.07.2.003 | Fractura de cadera | Dx: Específico | Tx: Inicial | Seg: Completo\n::: La **fractura de cadera** es una patología crítica en la práctica clínica, situada en la intersección de la traumatología y la geriatría. Representa una de las principales causas de morbimortalidad en el adulto mayor; se estima que la mortalidad a los dos años de ocurrida la fractura alcanza el **50%**. Por ello, su enfoque no solo es quirúrgico, sino también preventivo y rehabilitador. ## Epidemiología y Factores de Riesgo La fractura de cadera es considerada una **fractura osteoporótica** por excelencia. - **En adultos mayores:** El mecanismo habitual es un trauma de baja energía, como una **caída de propia altura** (tropiezo o resbalón) sobre el costado del cuerpo. El sustrato fisiopatológico es la [[Osteoporosis]].\n- **En pacientes jóvenes:** Se requiere un trauma de **muy alto impacto** (accidentes de tránsito, caídas de gran altura) para fracturar el fémur proximal. ## Clínica y Examen Físico",
         "title": "1. Fisiopatología y Principios Diagnósticos de Lesiones Ligamentosas y Meniscales de Rodilla",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              ":::important\n8.01.1.003 | Fractura de cadera | Dx: Específico | Tx: Inicial | Seg: Completo\n:::",
+              ":::important\n4.02.2.004, 4.02.4.002, 1.07.2.003 | Fractura de cadera | Dx: Específico | Tx: Inicial | Seg: Completo\n:::",
               "La **fractura de cadera** es una patología crítica en la práctica clínica, situada en la intersección de la traumatología y la geriatría. Representa una de las principales causas de morbimortalidad en el adulto mayor; se estima que la mortalidad a los dos años de ocurrida la fractura alcanza el **50%**. Por ello, su enfoque no solo es quirúrgico, sino también preventivo y rehabilitador.",
               "## Epidemiología y Factores de Riesgo",
               "La fractura de cadera es considerada una **fractura osteoporótica** por excelencia.",
@@ -3687,7 +3706,9 @@
     "topicLabel": "12.11",
     "title": "Traumatologia 12.11: Patología Osteomuscular No Traumática: Lumbago, Hombro Doloroso, Tendinitis & Bursitis",
     "perfilCodes": [
-      "1.01.1.021"
+      "4.02.1.008",
+      "4.02.1.005",
+      "1.11.1.024"
     ],
     "tier": 2,
     "realQuestionCount": 1,
@@ -3696,8 +3717,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES). Código oficial Perfil V3: 1.01.1.021. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.01.1.021",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES). Código oficial Perfil V3: 4.02.1.008, 4.02.1.005, 1.11.1.024. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.1.008, 4.02.1.005, 1.11.1.024",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -3746,7 +3767,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.01.1.021",
+              "4.02.1.008, 4.02.1.005, 1.11.1.024",
               "Lesiones de Partes Blandas, Artrosis & Patología Degenerativa Articular (Coxartrosis / Gonartrosis GES)",
               "Específico",
               "Completo",
@@ -4011,7 +4032,10 @@
     "topicLabel": "12.12",
     "title": "Traumatologia 12.12: Artrosis & Monoartritis Aguda: Líquido Sinovial, Gota, Pseudogota & Artritis Séptica",
     "perfilCodes": [
-      "1.08.1.001"
+      "4.02.1.001",
+      "1.11.1.015",
+      "1.11.2.002",
+      "4.02.4.007"
     ],
     "tier": 2,
     "realQuestionCount": 1,
@@ -4020,8 +4044,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Traumatología Infantil: Fracturas en Tallo Verde, Epifisiolisis (Salter-Harris) & Codo de Niñera (Pronación Dolorosa). Código oficial Perfil V3: 1.08.1.001. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Traumatología Infantil: Fracturas en Tallo Verde, Epifisiolisis (Salter-Harris) & Codo de Niñera (Pronación Dolorosa). Código oficial Perfil V3: 4.02.1.001, 1.11.1.015, 1.11.2.002, 4.02.4.007. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.1.001, 1.11.1.015, 1.11.2.002, 4.02.4.007",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4070,7 +4094,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.001",
+              "4.02.1.001, 1.11.1.015, 1.11.2.002, 4.02.4.007",
               "Traumatología Infantil: Fracturas en Tallo Verde, Epifisiolisis (Salter-Harris) & Codo de Niñera (Pronación Dolorosa)",
               "Específico",
               "Completo",
@@ -4082,14 +4106,14 @@
       {
         "type": "bento",
         "nav": "Fisiopatología y Principios Diagnósticos",
-        "notes": "[SLIDE 3] :::important\n1.08.1.001 | Artrosis | Dx: Específico | Tx: Completo | Seg: Completo\n1.08.2.001 | Artritis Séptica | Dx: Específico | Tx: Inicial | Seg: Derivar\n1.08.1.005 | Gota y Artritis por Cristales | Dx: Específico | Tx: Completo | Seg: Completo\n::: Este artículo aborda las patologías más frecuentes de la reumatología clínica y de urgencias: la **Artrosis** (enfermedad degenerativa) y el enfrentamiento de la **Monartritis Aguda**, que incluye las artritis por cristales y la artritis séptica. ## Artrosis (Osteoartritis) La artrosis es una enfermedad degenerativa caracterizada por la destrucción progresiva del **cartílago articular**. Es fundamental entender que el cartílago no tiene capacidad de regeneración. ### Etiología\n- **Primaria:** Causa degenerativa idiopática con un fuerte componente genético.\n- **Secundaria:** Resulta de un daño previo en la articulación, como:\n    - Luxaciones crónicas.\n    - Fracturas con rasgo intraarticular.\n    - [[Artritis Reumatoide]].\n    - Secuelas de [[Artritis Séptica]]. ### Clínica\nEl síntoma cardinal es el **dolor articular**. \n- El dolor suele ser de tipo mecánico (empeora con el uso, mejora con el reposo).\n- Puede evolucionar a la **anquilosis** (rigidez total de la articulación).\n- Puede presentar derrame articular de tipo **no inflamatorio**.",
+        "notes": "[SLIDE 3] :::important\n4.02.1.001, 1.11.1.015, 1.11.2.002, 4.02.4.007 | Artrosis | Dx: Específico | Tx: Completo | Seg: Completo\n4.02.1.001, 1.11.1.015, 1.11.2.002, 4.02.4.007 | Artritis Séptica | Dx: Específico | Tx: Inicial | Seg: Derivar\n4.02.1.001, 1.11.1.015, 1.11.2.002, 4.02.4.007 | Gota y Artritis por Cristales | Dx: Específico | Tx: Completo | Seg: Completo\n::: Este artículo aborda las patologías más frecuentes de la reumatología clínica y de urgencias: la **Artrosis** (enfermedad degenerativa) y el enfrentamiento de la **Monartritis Aguda**, que incluye las artritis por cristales y la artritis séptica. ## Artrosis (Osteoartritis) La artrosis es una enfermedad degenerativa caracterizada por la destrucción progresiva del **cartílago articular**. Es fundamental entender que el cartílago no tiene capacidad de regeneración. ### Etiología\n- **Primaria:** Causa degenerativa idiopática con un fuerte componente genético.\n- **Secundaria:** Resulta de un daño previo en la articulación, como:\n    - Luxaciones crónicas.\n    - Fracturas con rasgo intraarticular.\n    - [[Artritis Reumatoide]].\n    - Secuelas de [[Artritis Séptica]]. ### Clínica\nEl síntoma cardinal es el **dolor articular**. \n- El dolor suele ser de tipo mecánico (empeora con el uso, mejora con el reposo).\n- Puede evolucionar a la **anquilosis** (rigidez total de la articulación).\n- Puede presentar derrame articular de tipo **no inflamatorio**.",
         "title": "1. Fisiopatología y Principios Diagnósticos de Traumatología Infantil",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              ":::important\n1.08.1.001 | Artrosis | Dx: Específico | Tx: Completo | Seg: Completo\n1.08.2.001 | Artritis Séptica | Dx: Específico | Tx: Inicial | Seg: Derivar\n1.08.1.005 | Gota y Artritis por Cristales | Dx: Específico | Tx: Completo | Seg: Completo\n:::",
+              ":::important\n4.02.1.001, 1.11.1.015, 1.11.2.002, 4.02.4.007 | Artrosis | Dx: Específico | Tx: Completo | Seg: Completo\n4.02.1.001, 1.11.1.015, 1.11.2.002, 4.02.4.007 | Artritis Séptica | Dx: Específico | Tx: Inicial | Seg: Derivar\n4.02.1.001, 1.11.1.015, 1.11.2.002, 4.02.4.007 | Gota y Artritis por Cristales | Dx: Específico | Tx: Completo | Seg: Completo\n:::",
               "Este artículo aborda las patologías más frecuentes de la reumatología clínica y de urgencias: la **Artrosis** (enfermedad degenerativa) y el enfrentamiento de la **Monartritis Aguda**, que incluye las artritis por cristales y la artritis séptica.",
               "## Artrosis (Osteoartritis)",
               "La artrosis es una enfermedad degenerativa caracterizada por la destrucción progresiva del **cartílago articular**. Es fundamental entender que el cartílago no tiene capacidad de regeneración.",
@@ -4335,7 +4359,8 @@
     "topicLabel": "12.13",
     "title": "Traumatologia 12.13: Tumores Óseos Benignos y Malignos: Osteocondroma, Osteoma Osteoide, Osteosarcoma & Ewing",
     "perfilCodes": [
-      "1.08.1.001"
+      "4.02.1.009",
+      "4.02.4.005"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -4344,8 +4369,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES. Código oficial Perfil V3: 1.08.1.001. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES. Código oficial Perfil V3: 4.02.1.009, 4.02.4.005. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.1.009, 4.02.4.005",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4394,7 +4419,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.001",
+              "4.02.1.009, 4.02.4.005",
               "Displasia del Desarrollo de la Cadera (DDC): Maniobras de Ortolani/Barlow, Screening Ecográfico & Correas de Pavlik GES",
               "Específico",
               "Inicial",
@@ -4406,14 +4431,14 @@
       {
         "type": "bento",
         "nav": "Fisiopatología y Principios Diagnósticos",
-        "notes": "[SLIDE 3] :::important\n1.01.1.021 | Tumores Óseos (Generalidades y tipos frecuentes) | Dx: Específico | Tx: Inicial | Seg: Derivar\n::: Los tumores óseos son un tema de baja frecuencia en el EUNACOM, pero cuando aparecen, las preguntas suelen ser muy específicas sobre la **radiología**, la **edad del paciente** y la **localización anatómica**. ## Generalidades y Clínica La mayoría de los tumores óseos comparten una presentación clínica similar, lo que dificulta el diagnóstico basado únicamente en los síntomas. Los tres escenarios principales son: - **Asintomáticos**: Hallazgo incidental en una radiografía solicitada por otro motivo (frecuente en tumores benignos).\n- **Dolor**: Puede ser sordo, persistente o nocturno.\n- **Fractura en hueso patológico**: El tumor debilita la cortical hasta que el hueso falla ante un traumatismo mínimo. :::tip\nPara el diagnóstico diferencial en el examen, fíjate siempre en tres factores:\n1. **Edad** del paciente.\n2. **Localización** en el hueso (Epífisis, Metáfisis o Diáfisis).\n3. **Aspecto radiológico** (Signos de benignidad vs. malignidad).\n:::",
+        "notes": "[SLIDE 3] :::important\n4.02.1.009, 4.02.4.005 | Tumores Óseos (Generalidades y tipos frecuentes) | Dx: Específico | Tx: Inicial | Seg: Derivar\n::: Los tumores óseos son un tema de baja frecuencia en el EUNACOM, pero cuando aparecen, las preguntas suelen ser muy específicas sobre la **radiología**, la **edad del paciente** y la **localización anatómica**. ## Generalidades y Clínica La mayoría de los tumores óseos comparten una presentación clínica similar, lo que dificulta el diagnóstico basado únicamente en los síntomas. Los tres escenarios principales son: - **Asintomáticos**: Hallazgo incidental en una radiografía solicitada por otro motivo (frecuente en tumores benignos).\n- **Dolor**: Puede ser sordo, persistente o nocturno.\n- **Fractura en hueso patológico**: El tumor debilita la cortical hasta que el hueso falla ante un traumatismo mínimo. :::tip\nPara el diagnóstico diferencial en el examen, fíjate siempre en tres factores:\n1. **Edad** del paciente.\n2. **Localización** en el hueso (Epífisis, Metáfisis o Diáfisis).\n3. **Aspecto radiológico** (Signos de benignidad vs. malignidad).\n:::",
         "title": "1. Fisiopatología y Principios Diagnósticos de Displasia del Desarrollo de la Cadera (DDC)",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              ":::important\n1.01.1.021 | Tumores Óseos (Generalidades y tipos frecuentes) | Dx: Específico | Tx: Inicial | Seg: Derivar\n:::",
+              ":::important\n4.02.1.009, 4.02.4.005 | Tumores Óseos (Generalidades y tipos frecuentes) | Dx: Específico | Tx: Inicial | Seg: Derivar\n:::",
               "Los tumores óseos son un tema de baja frecuencia en el EUNACOM, pero cuando aparecen, las preguntas suelen ser muy específicas sobre la **radiología**, la **edad del paciente** y la **localización anatómica**.",
               "## Generalidades y Clínica",
               "La mayoría de los tumores óseos comparten una presentación clínica similar, lo que dificulta el diagnóstico basado únicamente en los síntomas. Los tres escenarios principales son:",
@@ -4809,7 +4834,10 @@
     "topicLabel": "12.14",
     "title": "Traumatologia 12.14: Ortopedia Infantil: Displasia de Cadera, Escoliosis, Pie Bot & Cadera Dolorosa del Niño",
     "perfilCodes": [
-      "4.02.1.009"
+      "4.02.1.002",
+      "4.02.1.003",
+      "2.01.1.091",
+      "4.02.4.004"
     ],
     "tier": 2,
     "realQuestionCount": 12,
@@ -4818,8 +4846,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Tumores Óseos Benignos y Malignos: Osteosarcoma (Sol Naciente), Sarcoma de Ewing (Capas de Cebolla) & Metástasis. Código oficial Perfil V3: 4.02.1.009. Este tema ha sido evaluado en 12 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 4.02.1.009",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Tumores Óseos Benignos y Malignos: Osteosarcoma (Sol Naciente), Sarcoma de Ewing (Capas de Cebolla) & Metástasis. Código oficial Perfil V3: 4.02.1.002, 4.02.1.003, 2.01.1.091, 4.02.4.004. Este tema ha sido evaluado en 12 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.1.002, 4.02.1.003, 2.01.1.091, 4.02.4.004",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4868,7 +4896,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.02.1.009",
+              "4.02.1.002, 4.02.1.003, 2.01.1.091, 4.02.4.004",
               "Tumores Óseos Benignos y Malignos: Osteosarcoma (Sol Naciente), Sarcoma de Ewing (Capas de Cebolla) & Metástasis",
               "Específico",
               "Inicial",
@@ -5170,7 +5198,10 @@
     "topicLabel": "12.15",
     "title": "Traumatologia 12.15: Lumbago, Cervicalgia & Hombro Doloroso: Manguito Rotador y Capsulitis Adhesiva",
     "perfilCodes": [
-      "1.10.1.001"
+      "4.02.1.005",
+      "4.02.1.008",
+      "1.11.1.005",
+      "4.02.1.006"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -5179,8 +5210,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica). Código oficial Perfil V3: 1.10.1.001. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.10.1.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica). Código oficial Perfil V3: 4.02.1.005, 4.02.1.008, 1.11.1.005, 4.02.1.006. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.02.1.005, 4.02.1.008, 1.11.1.005, 4.02.1.006",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -5229,7 +5260,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.10.1.001",
+              "4.02.1.005, 4.02.1.008, 1.11.1.005, 4.02.1.006",
               "Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica)",
               "Específico",
               "Completo",
@@ -5241,14 +5272,14 @@
       {
         "type": "bento",
         "nav": "Fisiopatología y Principios Diagnósticos",
-        "notes": "[SLIDE 3] :::important\n1.10.1.001 | Lumbago (Sindrome de dolor lumbar) | Dx: Específico | Tx: Completo | Seg: Completo\n1.10.1.002 | Patología de partes blandas (Hombro, codo, etc.) | Dx: Específico | Tx: Inicial | Seg: Completo\n1.10.1.003 | Fibromialgia | Dx: Específico | Tx: Completo | Seg: Completo\n::: Este artículo aborda el manejo clínico de las patologías musculoesqueléticas no articulares más frecuentes en la práctica del médico general y muy preguntadas en el examen EUNACOM. Se agrupan bajo el concepto de reumatismo de partes blandas. ## Lumbago y Lumbociática El **lumbago** se define como dolor en la zona lumbar. La causa más frecuente es el **lumbago mecánico**, secundario a debilidad de la musculatura axial (lumbar y abdominal), lo que genera posiciones viciosas e irritación de estructuras articulares, musculares o nerviosas. ### Clasificación Clínica | Tipo de Lumbago | Características | Manejo |\n| :--- | :--- | :--- |\n| **Mecánico** | Aumenta con movimiento, disminuye con reposo. | Médico (AINEs + Kine). |\n| **Inflamatorio** | Aumenta con reposo, disminuye con ejercicio. Sugiere [[Espondilitis Anquilosante]]. | Estudio con imágenes y derivación. |\n| **Lumbociática** | Dolor irradiado a extremidades inferiores. | Igual al lumbago (salvo compromiso neurológico). |",
+        "notes": "[SLIDE 3] :::important\n4.02.1.005, 4.02.1.008, 1.11.1.005, 4.02.1.006 | Lumbago (Sindrome de dolor lumbar) | Dx: Específico | Tx: Completo | Seg: Completo\n4.02.1.005, 4.02.1.008, 1.11.1.005, 4.02.1.006 | Patología de partes blandas (Hombro, codo, etc.) | Dx: Específico | Tx: Inicial | Seg: Completo\n4.02.1.005, 4.02.1.008, 1.11.1.005, 4.02.1.006 | Fibromialgia | Dx: Específico | Tx: Completo | Seg: Completo\n::: Este artículo aborda el manejo clínico de las patologías musculoesqueléticas no articulares más frecuentes en la práctica del médico general y muy preguntadas en el examen EUNACOM. Se agrupan bajo el concepto de reumatismo de partes blandas. ## Lumbago y Lumbociática El **lumbago** se define como dolor en la zona lumbar. La causa más frecuente es el **lumbago mecánico**, secundario a debilidad de la musculatura axial (lumbar y abdominal), lo que genera posiciones viciosas e irritación de estructuras articulares, musculares o nerviosas. ### Clasificación Clínica | Tipo de Lumbago | Características | Manejo |\n| :--- | :--- | :--- |\n| **Mecánico** | Aumenta con movimiento, disminuye con reposo. | Médico (AINEs + Kine). |\n| **Inflamatorio** | Aumenta con reposo, disminuye con ejercicio. Sugiere [[Espondilitis Anquilosante]]. | Estudio con imágenes y derivación. |\n| **Lumbociática** | Dolor irradiado a extremidades inferiores. | Igual al lumbago (salvo compromiso neurológico). |",
         "title": "1. Fisiopatología y Principios Diagnósticos de Lumbago Mecánico vs Inflamatorio, Hernia Discal Lumbar & Síndrome de Cauda Equina (Urgencia Quirúrgica)",
         "tiles": [
           {
             "colSpan": 3,
             "gridColumns": 1,
             "bullets": [
-              ":::important\n1.10.1.001 | Lumbago (Sindrome de dolor lumbar) | Dx: Específico | Tx: Completo | Seg: Completo\n1.10.1.002 | Patología de partes blandas (Hombro, codo, etc.) | Dx: Específico | Tx: Inicial | Seg: Completo\n1.10.1.003 | Fibromialgia | Dx: Específico | Tx: Completo | Seg: Completo\n:::",
+              ":::important\n4.02.1.005, 4.02.1.008, 1.11.1.005, 4.02.1.006 | Lumbago (Sindrome de dolor lumbar) | Dx: Específico | Tx: Completo | Seg: Completo\n4.02.1.005, 4.02.1.008, 1.11.1.005, 4.02.1.006 | Patología de partes blandas (Hombro, codo, etc.) | Dx: Específico | Tx: Inicial | Seg: Completo\n4.02.1.005, 4.02.1.008, 1.11.1.005, 4.02.1.006 | Fibromialgia | Dx: Específico | Tx: Completo | Seg: Completo\n:::",
               "Este artículo aborda el manejo clínico de las patologías musculoesqueléticas no articulares más frecuentes en la práctica del médico general y muy preguntadas en el examen EUNACOM. Se agrupan bajo el concepto de reumatismo de partes blandas.",
               "## Lumbago y Lumbociática",
               "El **lumbago** se define como dolor en la zona lumbar. La causa más frecuente es el **lumbago mecánico**, secundario a debilidad de la musculatura axial (lumbar y abdominal), lo que genera posiciones viciosas e irritación de estructuras articulares, musculares o nerviosas.",

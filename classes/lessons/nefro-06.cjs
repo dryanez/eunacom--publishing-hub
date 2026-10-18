@@ -137,6 +137,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Urgencia',
+      title: 'Hiponatremia aguda grave: sea cual sea la causa',
+      cards: [
+        { title: 'Cuándo es emergencia', tag: 'Sintomática', kind: 'alert', items: [
+          { t: 'Convulsiones, coma, vómitos o confusión', d: 'O instalación en menos de 48 horas',
+            say: 'Un último punto que vale para los tres cuadros. Si el paciente tiene convulsiones, coma, vómitos o confusión, o si el sodio bajó en menos de cuarenta y ocho horas, es una emergencia, sea cual sea la causa: SIADH, polidipsia o déficit de cortisol.' },
+        ] },
+        { title: 'Qué se hace', tag: 'Hipertónico', kind: 'pharma', items: [
+          { t: 'Suero 3 %: 100–150 mL IV en 10 minutos', d: 'Repetible hasta 2 veces',
+            say: 'Se administra suero hipertónico al tres por ciento, cien a ciento cincuenta mililitros endovenosos en un bolo de diez minutos, repetible hasta dos veces.' },
+          { t: 'Natremia cada 20–60 minutos', d: 'Hasta que ceda el cuadro o el Na suba 4–6 mEq/L',
+            say: 'Se controla la natremia cada veinte a sesenta minutos, hasta que ceda la sintomatología o el sodio suba entre cuatro y seis miliequivalentes por litro. Y el paciente se deriva a la unidad de paciente crítico.' },
+          { t: 'Perdedor de sal: hipertónico solo si es grave', d: 'El esquema completo está en la clase de hiponatremia',
+            say: 'En el perdedor de sal cerebral, el hipertónico se usa solo si el cuadro es grave. El esquema detallado lo viste en la clase de hiponatremia.' },
+        ] },
+        { title: 'El límite que no se cruza', tag: 'Corrección', kind: 'key', items: [
+          { t: 'Máximo 8–10 mEq/L en 24 horas', d: 'Máximo 8 si hay riesgo de desmielinización',
+            say: 'Después del rescate, la corrección no puede pasar de ocho a diez miliequivalentes en veinticuatro horas, y de ocho si hay riesgo de desmielinización osmótica: alcoholismo, desnutrición, hipokalemia o hepatopatía.' },
+          { t: 'Si se pasó: desmopresina y glucosado 5 %', d: 'Para rescatar la sobrecorrección',
+            say: 'Si te pasaste, se rescata con desmopresina y suero glucosado al cinco por ciento.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -241,6 +267,81 @@ module.exports = {
         options: 'Las opciones: polidipsia psicógena, diabetes insípida nefrogénica, diabetes insípida central, hipercalcemia, o diabetes mellitus tipo uno. Piénsalo.',
         answer: 'Es la A, polidipsia psicógena. La clave es la osmolaridad plasmática baja: el plasma está diluido porque entra demasiada agua. Y cuando se le quita el agua, todo se normaliza, porque el riñón y la hormona antidiurética funcionan bien. El distractor es la diabetes insípida: ahí el paciente pierde agua, la osmolaridad plasmática tiende a subir, y la poliuria sigue aunque no beba. Eso lo vemos en la próxima clase.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 92",
+      "stem": "Un paciente de 72 años, fumador de 40 paquetes-año, con diagnóstico de cáncer pulmonar de células pequeñas sin tratamiento actual, presenta un cuadro de 7 días de evolución de cefalea y tendencia a la desorientación. En sus exámenes destaca una concentración sérica de sodio de 121 mEq/L, sin focalidad neurológica.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SIADH (síndrome de secreción inapropiada de hormona antidiurética)"
+        },
+        {
+          "letter": "B",
+          "text": "Metástasis cerebrales"
+        },
+        {
+          "letter": "C",
+          "text": "Síndrome carcinoide"
+        },
+        {
+          "letter": "D",
+          "text": "Accidente vascular encefálico"
+        },
+        {
+          "letter": "E",
+          "text": "Hipercalcemia"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El carcinoma de células pequeñas es la causa paraneoplásica clásica de SIADH. Hiponatremia de 121 mEq/L con cefalea y desorientación, sin focalidad, explica el cuadro. Las metástasis cerebrales suelen dar focalidad y la hipercalcemia paraneoplásica se asocia más al carcinoma escamoso.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Un hombre de setenta y dos años, gran fumador, con un cáncer pulmonar de células pequeñas no tratado, lleva una semana con cefalea y tendencia a desorientarse. El sodio es ciento veintiuno y no hay focalidad neurológica.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: secreción inapropiada de hormona antidiurética, metástasis cerebrales, síndrome carcinoide, accidente vascular o hipercalcemia. Piénsalo.",
+        "answer": "Es la A. El cáncer de células pequeñas fabrica hormona antidiurética, el sodio cae y aparece la cefalea con confusión. Las metástasis tientan, pero darían focalidad, y la hipercalcemia paraneoplásica es más propia del carcinoma escamoso."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.016 · Sodio urinario",
+      "stem": "Hombre de 74 años con insuficiencia cardíaca de fracción de eyección reducida, en control irregular, que suspendió sus diuréticos hace 1 mes. Consulta por disnea y aumento de volumen de piernas. Ingurgitación yugular, crépitos bibasales, edema hasta las rodillas. Na 127 mEq/L, K 4,4 mEq/L, creatinina 1,2 mg/dL. Sodio urinario 11 mEq/L.",
+      "question": "¿Cuál es la interpretación más adecuada de la hiponatremia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SIADH, por ser una hiponatremia con orina concentrada"
+        },
+        {
+          "letter": "B",
+          "text": "Hiponatremia hipovolémica por pérdidas digestivas"
+        },
+        {
+          "letter": "C",
+          "text": "Pérdida renal de sal por nefropatía"
+        },
+        {
+          "letter": "D",
+          "text": "Hiponatremia hipervolémica por bajo volumen circulante efectivo"
+        },
+        {
+          "letter": "E",
+          "text": "Seudohiponatremia por hiperlipidemia"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Edema con sodio urinario bajo: el riñón percibe hipoperfusión (volumen circulante efectivo bajo) y retiene sodio y agua por aldosterona y hormona antidiurética. Es la hiponatremia hipervolémica de la insuficiencia cardíaca o la cirrosis. Se maneja con restricción hídrica y diurético de asa, no con suero.",
+      "say": {
+        "stem": "Un hombre de setenta y cuatro años, con insuficiencia cardíaca, dejó sus diuréticos hace un mes. Llega con disnea, yugulares ingurgitadas, crépitos y edema hasta las rodillas. El sodio plasmático es ciento veintisiete y el sodio urinario es once.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: secreción inapropiada, hipovolemia digestiva, pérdida renal de sal, hiponatremia hipervolémica por bajo volumen circulante efectivo o seudohiponatremia. Piénsalo.",
+        "answer": "Es la D. El paciente tiene agua de sobra, pero el riñón siente poca perfusión y guarda sodio, por eso el sodio urinario es bajo. La secreción inapropiada tienta, pero ahí no hay edema y el sodio urinario es alto."
+      }
     },
 
     {

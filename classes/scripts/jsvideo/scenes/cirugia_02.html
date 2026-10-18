@@ -1,0 +1,101 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Cirugía 11.2: colecistitis aguda. Cálculo que se enclava en el cuello → vesícula distendida e inflamada → signo de Murphy.
+// Base: Blausen.com staff (2014) "The Gallbladder", CC BY 3.0; rótulos quitados (assets/blausen/vesicula_organo.png, 1200x1200).
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade } = K;
+const I = k => window.IMGS[k];
+function LAM(crop, box) {
+  const [bx, by, bw, bh] = box, s = Math.min(bw / crop[2], bh / crop[3]);
+  const w = crop[2] * s, h = crop[3] * s, x0 = bx + (bw - w) / 2, y0 = by + (bh - h) / 2;
+  const o = { s, x: x0, y: y0, w, h, P: (x, y) => [x0 + (x - crop[0]) * s, y0 + (y - crop[1]) * s],
+    clip() { ctx.beginPath(); ctx.roundRect(x0, y0, w, h, 14); ctx.clip(); },
+    draw(a = 1) { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; rrect(x0 - 6, y0 - 6, w + 12, h + 12, 18, '#FFFFFF');
+      o.clip(); ctx.drawImage(I('img'), crop[0], crop[1], crop[2], crop[3], x0, y0, w, h); ctx.restore(); },
+    bulge(pts, anchor, kx, ky, tint) {
+      const [ax, ay] = o.P(...anchor); ctx.save(); o.clip(); ctx.translate(ax, ay); ctx.scale(kx, ky); ctx.translate(-ax, -ay);
+      ctx.beginPath(); pts.forEach((p, i) => { const [x, y] = o.P(...p); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.closePath(); ctx.clip();
+      ctx.drawImage(I('img'), crop[0], crop[1], crop[2], crop[3], x0, y0, w, h);
+      if (tint) { ctx.fillStyle = tint; ctx.fillRect(x0, y0, w, h); } ctx.restore(); },
+  };
+  return o;
+}
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill(); tag(s, x, y, col, size); ctx.restore();
+}
+function pain(x, y, r, col, a, t) {
+  if (a <= 0) return; K.glow(x, y, r * 2.4, col, 0.55 * a);
+  for (let i = 0; i < 2; i++) { const u = ((t * 0.9) + i / 2) % 1; ctx.save(); ctx.globalAlpha = a * (1 - u); ctx.strokeStyle = `rgb(${col})`; ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.arc(x, y, r + 22 * u, 0, 7); ctx.stroke(); ctx.restore(); }
+  ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = `rgb(${col})`; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); ctx.restore();
+}
+
+const G = LAM([150, 130, 540, 400], [40, 128, 700, 520]);
+const GB = [[215,355],[223,309],[257,247],[311,203],[373,186],[427,194],[458,221],[504,229],[525,252],[535,278],[461,255],[427,249],[392,262],[378,295],[368,340],[345,385],[311,417],[284,425],[238,409]];
+const NECK = [520, 262], STONE_PATH = poly([[262,352],[282,302],[322,252],[382,218],[442,218],[500,240],[524,262]]);
+const DUR = 27;
+function gbOutline(k, col, w, a) {
+  if (a <= 0) return; const [ax, ay] = G.P(...NECK); ctx.save(); ctx.globalAlpha = a; G.clip();
+  ctx.translate(ax, ay); ctx.scale(k, k); ctx.translate(-ax, -ay); ctx.strokeStyle = col; ctx.lineWidth = w / k; ctx.lineJoin = 'round';
+  ctx.beginPath(); GB.forEach((p, i) => { const [x, y] = G.P(...p); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.closePath(); ctx.stroke(); ctx.restore();
+}
+function stone(x, y, r, a) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; const g = ctx.createRadialGradient(x - r * 0.3, y - r * 0.3, 1, x, y, r);
+  g.addColorStop(0, '#F3E3B0'); g.addColorStop(1, '#A68B4F'); ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill();
+  ctx.strokeStyle = '#6E5A2E'; ctx.lineWidth = 1.5; ctx.stroke(); ctx.restore();
+}
+function hand(x, y, a) {            // dedos que comprimen bajo el reborde costal (empujan hacia arriba)
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.translate(x, y); ctx.rotate(0.25); ctx.scale(1.5, 1.5);
+  for (let i = 0; i < 3; i++) rrect(-30 + i * 20, 0, 18, 70, 9, '#F2C9A5');
+  rrect(-34, 56, 76, 46, 14, '#EDB892'); ctx.restore();
+}
+function grid(){ if(!location.search.includes('grid')) return; ctx.save(); G.clip(); ctx.font='11px sans-serif'; for(let x=100;x<=800;x+=20){const [a,b]=G.P(x,0);ctx.strokeStyle=x%100?'rgba(0,0,255,.25)':'rgba(255,0,0,.7)';ctx.beginPath();ctx.moveTo(a,0);ctx.lineTo(a,720);ctx.stroke(); if(x%100==0){ctx.fillStyle='red';ctx.fillText(x,a+2,150);}} for(let y=100;y<=560;y+=20){const [a,b]=G.P(0,y);ctx.strokeStyle=y%100?'rgba(0,0,255,.25)':'rgba(255,0,0,.7)';ctx.beginPath();ctx.moveTo(0,b);ctx.lineTo(1280,b);ctx.stroke(); if(y%100==0){ctx.fillStyle='red';ctx.fillText(y,50,b-2);}} ctx.restore(); }
+function scene(t) {
+  K.title('Colecistitis aguda', 'Del cálculo enclavado a la vesícula inflamada y al signo de Murphy', C.AMBER);
+  G.draw(seg(t, 0, 0.7)); grid();
+  label('Vesícula biliar', 150, 168, '#D9D2C3', ...G.P(250, 330), fade(t, 0.8, 6));
+  label('Conducto cístico', 640, 190, '#D9D2C3', ...G.P(536, 290), fade(t, 1.2, 6));
+  // 1) cálculo se desplaza y se enclava
+  const mv = ease(seg(t, 2.5, 3.2));
+  const [sx, sy] = STONE_PATH.at(mv);
+  // 2) distensión + inflamación
+  const dis = ease(seg(t, 6.5, 3.5)), inf = ease(seg(t, 10.5, 3));
+  const k = 1 + 0.2 * dis;
+  if (dis > 0) G.bulge(GB, NECK, k, k, `rgba(240,170,60,${0.28 * dis})`);
+  if (inf > 0) G.bulge(GB, NECK, k, k, `rgba(235,50,50,${0.34 * inf})`);
+  gbOutline(k, '#C0392B', 2 + 5 * inf, inf);
+  stone(sx, sy, 9 + 2 * (1 - mv), seg(t, 2.2, 0.5));
+  label('Cálculo enclavado', 640, 100 + 54, C.AMBER, sx, sy, fade(t, 5.7, 20));
+  label('Bilis estancada: la vesícula se distiende', 420, 165, C.AMBER, ...G.P(330, 340), fade(t, 7.2, 10.5));
+  label('Pared > 4 mm · inflamación y bacterias', 420, 165, C.RED, ...G.P(340, 205), fade(t, 11.2, 20));
+  // 3) Murphy
+  const mu = seg(t, 15, 0.6) * (1 - seg(t, 22, 0.6));
+  if (mu > 0) {
+    const insp = 0.5 - 0.5 * Math.cos(Math.min(1, seg(t, 16, 4)) * Math.PI);   // inspiración: la vesícula baja sobre la mano
+    const [hx, hy] = G.P(285, 430 - 6 * insp);
+    hand(hx - 6, hy + 4 - 14 * insp, mu);
+    const [ax0, ay0] = G.P(250, 330); ctx.save(); ctx.globalAlpha = mu; ctx.strokeStyle = C.BLUE; ctx.fillStyle = C.BLUE; ctx.lineWidth = 4;
+    ctx.beginPath(); ctx.moveTo(ax0 + 90, ay0 - 40); ctx.lineTo(ax0 + 90, ay0 + 36 * insp + 4); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(ax0 + 90, ay0 + 36 * insp + 22); ctx.lineTo(ax0 + 78, ay0 + 36 * insp + 4); ctx.lineTo(ax0 + 102, ay0 + 36 * insp + 4); ctx.fill(); ctx.restore();
+    tag('Inspira profundo', ax0 + 160, ay0 - 30, C.BLUE, 16);
+    const pk = seg(t, 19.6, 0.4); if (pk > 0) { K.glow(hx, hy - 30, 120, '255,70,60', 0.7 * pk); tag('Dolor: corta la inspiración', hx + 180, hy + 20, C.RED, 18); }
+  }
+  K.card(770, 140, 470, 100, C.AMBER, '1 · El cálculo no se suelta', ['Se enclava en el cuello o en el cístico'], seg(t, 3, 0.5), 18);
+  K.card(770, 252, 470, 100, C.AMBER, '2 · Se estanca la bilis', ['Inflamación química, luego bacterias (E. coli)'], seg(t, 7, 0.5), 18);
+  K.card(770, 364, 470, 100, C.RED, '3 · Murphy positivo', ['Dolor continuo de más de 6 horas, con fiebre'], seg(t, 15.5, 0.5), 18);
+  K.banner(770, 500, 470, 'Tokio I-II: operar antes de 72 h', C.GREEN, seg(t, 23, 0.5));
+  K.banner(770, 560, 470, 'Tokio III: drenar, no operar', C.RED, seg(t, 24.5, 0.5));
+}
+window.SCENE = { duration: DUR, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); scene(t); K.credit('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios'); };
+LOAD({ img: '../assets/blausen/vesicula_organo.png' });
+</script>
+</body></html>

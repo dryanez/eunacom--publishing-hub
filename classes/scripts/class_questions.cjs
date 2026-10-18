@@ -28,7 +28,8 @@ const CODE = /\d\.\d{2}\.\d\.\d{3}/g;
 function classCodes(classId) {
   const codes = new Set();
   const cur = path.join(ROOT, 'classes', 'curriculum');
-  for (const f of fs.readdirSync(cur).filter(f => f.endsWith('_decks_data.json'))) {
+  // cardio_decks_data.json = mazo antiguo de cardiología (cardio-00..20): sus ids chocan con los 38 temas nuevos (cardiologia_decks_data.json)
+  for (const f of fs.readdirSync(cur).filter(f => f.endsWith('_decks_data.json') && f !== 'cardio_decks_data.json')) {
     const deck = JSON.parse(fs.readFileSync(path.join(cur, f), 'utf8'))[classId];
     if (deck) {
       (deck.perfilCodes || []).forEach(c => (String(c).match(CODE) || []).forEach(x => codes.add(x)));

@@ -41,11 +41,13 @@ module.exports = {
         { show: ['tp53'], note: 'Biológicamente, ya es un carcinoma espinocelular incipiente',
           say: 'Esa radiación produce mutaciones en un gen supresor de tumores clave, dentro de los queratinocitos de la capa basal, que se vuelven displásicos. Y por eso se considera, biológicamente, un carcinoma espinocelular in situ incipiente.' },
         { show: ['mac'], note: 'El aforismo que más se pregunta',
-          say: 'Clínicamente es una mácula o pápula eritematosa, poco delimitada, cubierta por una escama seca y muy adherente. Pero el dato que más se pregunta es táctil: la queratosis actínica se palpa antes de verse. Si pasas la yema del dedo sobre la piel, sientes una aspereza característica, igual a papel de lija.' },
+          say: 'Clínicamente es una mácula o pápula eritematosa, poco delimitada, cubierta por una escama seca y muy adherente. Pero el dato que más se pregunta es táctil: la queratosis actínica se palpa antes de verse. Si pasas la yema del dedo sobre la piel, sientes una aspereza característica, igual a papel de lija. Mira esta lesión: rosada, con escama amarillenta adherida.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-15/01_queratosis-actinica__cto-derma_p96.jpg', label: 'Queratosis actínica', at: 'Mira esta lesión', credit: 'Manual CTO Dermatología 14.ª ed., p. 96' } },
         { show: ['loc'], note: 'Siempre en la piel que más sol recibió',
           say: 'Aparece en las zonas más fotoexpuestas: la cara, sobre todo frente, mejillas y nariz, los pabellones auriculares, el dorso de las manos, los antebrazos, y el cuero cabelludo calvo en los hombres.' },
         { show: ['cue'], note: 'No es un diagnóstico, es una forma',
-          say: 'Y hay una presentación particular que se pregunta aparte: el cuerno cutáneo, una protrusión cónica y compacta que parece un pequeño cuerno. No es un diagnóstico histológico, es solo una descripción de forma. En su base, lo más frecuente, en el sesenta por ciento, es una queratosis actínica. Pero en uno de cada cinco casos esconde un carcinoma espinocelular ya invasor, así que todo cuerno cutáneo se biopsia.' },
+          say: 'Y hay una presentación particular que se pregunta aparte: el cuerno cutáneo, una protrusión cónica y compacta. No es un diagnóstico histológico, es solo una forma. En su base, lo más frecuente, en el sesenta por ciento, es una queratosis actínica. Pero en uno de cada cinco casos esconde un carcinoma espinocelular ya invasor, así que todo cuerno cutáneo se biopsia. Mira este cuerno, que sale de una base rosada: esa base es la que se biopsia.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-15/01_cuerno_cutaneo__fitzpatrick_p66.jpg', label: 'Cuerno cutáneo', at: 'Mira este cuerno', credit: 'Fitzpatrick 7.ª ed., p. 66' } },
       ],
     },
 
@@ -78,7 +80,8 @@ module.exports = {
       cards: [
         { title: 'Qué es, y qué no es', tag: 'Marcador de riesgo, no lesión maligna', kind: 'criteria', items: [
           { t: 'Nevo con atipia clínica según ABCDE', d: 'Asimetría, bordes, color y diámetro alterados',
-            say: 'Cambiemos de lesión premaligna. El nevo displásico, o atípico, es un nevo melanocítico que, al mirarlo con los mismos criterios del ABCDE que ya conoces, tiene algún grado de asimetría, bordes menos definidos, o más de un tono de color.' },
+            say: 'Cambiemos de lesión premaligna. El nevo displásico, o atípico, es un nevo melanocítico que, al mirarlo con los mismos criterios del ABCDE que ya conoces, tiene algún grado de asimetría, bordes menos definidos, o más de un tono de color. Mira esta espalda: muchos nevos de tamaños y tonos distintos, algunos mayores de seis milímetros y de bordes irregulares.',
+            photo: { src: '_web/279_derma_Nevo_displásico__Commons_1.jpg', label: 'Nevos displásicos', at: 'Mira esta espalda', credit: 'Wikimedia Commons, CC BY-SA 3.0' } },
           { t: 'No es cáncer: es un marcador de riesgo', d: 'Aumenta la probabilidad de melanoma en cualquier parte de la piel',
             say: 'Y aquí está el matiz importante: el nevo displásico no es en sí mismo un cáncer. Es un marcador de riesgo, tanto de que ese nevo puntual se transforme, como de que aparezca un melanoma en cualquier otra parte de la piel de esa persona.' },
         ] },
@@ -90,19 +93,29 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Lesiones premalignas',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-15/01_queratosis-actinica__cto-derma_p96.jpg', label: 'Queratosis actínica', credit: 'Manual CTO Dermatología 14.ª ed., p. 96' },
-        { src: 'biblioteca/11_dermatologia/derma-15/01_cuerno_cutaneo__fitzpatrick_p66.jpg', label: 'Cuerno cutáneo', credit: 'Fitzpatrick 7.ª ed., p. 66 (figura completa, ~480 px)' },
-      ],
-      steps: [
-        { note: 'Áspera en zonas expuestas',
-          say: 'La queratosis actínica es una lesión áspera en zonas expuestas al sol.' },
-        { note: 'Se biopsia la base',
-          say: 'Y el cuerno cutáneo: se biopsia la base, porque puede esconder un espinocelular.' },
+      type: 'points',
+      kicker: 'Cuando la displasia ya es total',
+      title: 'Enfermedad de Bowen',
+      cards: [
+        { title: 'Qué es', tag: 'Carcinoma espinocelular in situ', kind: 'key', items: [
+          { t: 'Displasia de todo el espesor, sin invadir dermis', d: 'Distinta de la queratosis actínica',
+            say: 'La enfermedad de Bowen es un carcinoma espinocelular in situ: la displasia compromete todo el espesor de la epidermis, sin invadir la dermis. La queratosis actínica, en cambio, es premaligna y no compromete todo el espesor.' },
+          { t: 'Placa eritematosa, escamosa y solitaria', d: 'Crece en años; piernas de mujeres, cabeza y cuello',
+            say: 'Clínicamente es una placa eritematosa, bien delimitada, escamosa o costrosa, solitaria y de crecimiento lento, en áreas fotoexpuestas, sobre todo las piernas de las mujeres y la cabeza y el cuello. Mira esta pierna: una sola placa redonda, rosada y escamosa.',
+            photo: { src: 'biblioteca/19_dermatologia/derma-15/10_enfermedad-de-bowen__fitzpatrick_p2300.jpg', label: 'Enfermedad de Bowen', at: 'Mira esta pierna', credit: "Fitzpatrick's Dermatology in General Medicine, p. 2300" } },
+        ] },
+        { title: 'Causas y trampa', tag: 'No es eccema', kind: 'alert', items: [
+          { t: 'UV, arsénico, VPH 16, inmunosupresión', d: 'Arsénico: aguas del norte de Chile',
+            say: 'Sus causas son la radiación ultravioleta, el arsénico, por exposición crónica en aguas del norte de Chile, con queratosis palmoplantares y lesiones múltiples, el virus papiloma tipo dieciséis en la región genital y la inmunosupresión.' },
+          { t: 'Placa solitaria que no responde: biopsia', d: 'Error clásico: tratarla como eccema, psoriasis o tiña',
+            say: 'El error clásico es tratarla como eccema numular, psoriasis o tiña. Toda placa solitaria que no responde a corticoides ni a antifúngicos debe biopsiarse.' },
+        ] },
+        { title: 'Conducta', tag: 'Tratar siempre', kind: 'pharma', items: [
+          { t: 'Hasta 5% invade', d: 'Por eso se trata',
+            say: 'Hasta un tres a cinco por ciento progresa a carcinoma espinocelular invasor, por eso se trata.' },
+          { t: 'Escisión, curetaje, crioterapia, 5-FU, imiquimod', d: 'Seguimiento anual con examen de toda la piel',
+            say: 'Las opciones son escisión con margen, curetaje y electrodesecación, crioterapia, fluorouracilo o imiquimod tópicos y terapia fotodinámica. El seguimiento es anual, con examen completo de la piel.' },
+        ] },
       ],
     },
 
@@ -125,6 +138,8 @@ module.exports = {
           say: 'Y si una lesión tiene base indurada, o duele, o crece rápido, no es una queratosis actínica típica: hay que biopsiarla para descartar que ya progresó a un carcinoma espinocelular invasor.' },
         { cells: ['Cuerno cutáneo en cualquier paciente', 'Biopsiar siempre la base', 'Asumir que es benigno por su forma'],
           say: 'Y el cuerno cutáneo se biopsia siempre. Asumir que es benigno solo por su forma es el error, porque en uno de cada cinco casos esconde un cáncer ya invasor.' },
+        { cells: ['Placa eritematosa solitaria en la pierna que no cede con corticoides ni antifúngicos', 'Biopsia: enfermedad de Bowen; escisión, 5-fluorouracilo o imiquimod', 'Tratarla como eccema, psoriasis o tiña'],
+          say: 'Y una placa solitaria, roja y escamosa en la pierna que no cede con corticoides ni antifúngicos es una enfermedad de Bowen hasta demostrar lo contrario: se biopsia. El error es tratarla como eccema, psoriasis o tiña.' },
         { cells: ['Nevo displásico con atipia leve y estable', 'Seguimiento fotográfico seriado', 'Biopsiar todos los nevos atípicos de una vez'],
           say: 'Y un nevo displásico con atipia leve y estable en el tiempo se sigue con fotografías seriadas, no se biopsia de entrada. El error es querer sacar todos los nevos atípicos de una persona que tiene muchos: ahí lo que corresponde es vigilar y educar en autoexamen.' },
       ],

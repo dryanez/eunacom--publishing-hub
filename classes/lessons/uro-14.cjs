@@ -72,7 +72,8 @@ module.exports = {
       head: ['Categoría', 'Hallazgo en TAC', 'Malignidad', 'Conducta'],
       rows: [
         { cells: ['I', 'Pared fina, agua, sin realce', '0%', 'Alta, sin control'],
-          say: 'Bosniak uno es el quiste simple: pared fina, densidad de agua, sin tabiques ni realce. Es benigno y no requiere seguimiento.' },
+          say: 'Bosniak uno es el quiste simple: pared fina, densidad de agua, sin tabiques ni realce. Es benigno y no requiere seguimiento. Mira este quiste: uno solo, redondo, de contenido homogéneo, del color del agua, con una pared que casi no se ve. Aquí no se hace nada más.',
+          photo: { src: 'biblioteca/19_urologia/uro-14/01_quiste-renal-simple-tac__bailey-love_p1412.jpg', label: 'Quiste simple en el TAC', at: 'Mira este quiste', credit: 'Bailey & Love 27.ª ed., Fig. 75.24 (panel de quiste simple)' } },
         { cells: ['II', 'Tabiques < 1 mm, calcio fino', '0%', 'Sin seguimiento'],
           say: 'Bosniak dos tiene tabiques muy delgados o calcio fino, o un quiste hiperdenso pequeño que no realza. También es benigno y no se sigue.' },
         { cells: ['IIF', 'Varios tabiques, hiperdenso > 3 cm', '~5%', 'TAC a 6 y 12 meses'],
@@ -106,7 +107,11 @@ module.exports = {
         { show: ['f', 'g'], note: 'Dos genes, dos ritmos',
           say: 'PKD uno, en el cromosoma dieciséis, causa el ochenta y cinco por ciento de los casos y es más severo. PKD dos, en el cromosoma cuatro, es menos frecuente y de inicio más tardío.' },
         { show: ['c', 'd'], note: 'Aparece a los 30 a 40 años',
-          say: 'Se manifiesta entre la tercera y cuarta década, con hipertensión precoz, dolor lumbar sordo bilateral, hematuria por rotura de quistes y grandes masas renales bilaterales que se palpan en el examen.' },
+          say: 'Se manifiesta entre la tercera y cuarta década, con hipertensión precoz, dolor lumbar sordo bilateral, hematuria por rotura de quistes y grandes masas renales bilaterales que se palpan en el examen. Mira esta pieza de un riñón poliquístico, abierto: no queda parénquima normal, solo quistes de distinto tamaño por todas partes. Y en el TAC, los dos riñones son enormes y ocupan buena parte del abdomen.',
+          photos: [
+            { src: 'biblioteca/19_urologia/uro-14/02_rinon-poliquistico-pieza-quirurgica__harrison_p2394.jpg', label: 'Riñón poliquístico abierto', at: 'Mira esta pieza', credit: 'Harrison 21.ª ed., Fig. 315-2' },
+            { src: 'biblioteca/19_urologia/uro-14/03_poliquistosis-renal-tac__bailey-love_p1571.jpg', label: 'Ambos riñones enormes', at: 'Y en el TAC', credit: 'Bailey & Love 27.ª ed., Fig. 82.23' },
+          ] },
         { show: ['e'], note: 'Progresa a insuficiencia renal',
           say: 'Con los años los quistes reemplazan el parénquima y el paciente progresa a insuficiencia renal terminal.' },
       ],
@@ -140,22 +145,15 @@ module.exports = {
 
     {
       type: 'image',
-      light: true,
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Quiste simple y poliquistosis',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El riñón que se llena de quistes',
       images: [
-        { src: 'biblioteca/19_urologia/uro-14/01_quiste-renal-simple-tac__bailey-love_p1412.jpg', label: 'TAC: quiste renal simple grande, pared fina y contenido homogéneo', credit: 'Bailey & Love 27.ª ed., Fig. 75.24 (panel de quiste simple)' },
-        { src: 'biblioteca/19_urologia/uro-14/02_rinon-poliquistico-pieza-quirurgica__harrison_p2394.jpg', label: 'Riñón poliquístico abierto: el parénquima está lleno de quistes', credit: 'Harrison 21.ª ed., Fig. 315-2' },
-        { src: 'biblioteca/19_urologia/uro-14/03_poliquistosis-renal-tac__bailey-love_p1571.jpg', label: 'TAC: ambos riñones poliquísticos, enormes, hasta las fosas ilíacas', credit: 'Bailey & Love 27.ª ed., Fig. 82.23' },
+        { src: 'animaciones/uro-14/A1_poliquistosis_renal.mp4', label: 'Normal y poliquístico', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Un solo quiste, de pared fina',
-          say: 'Mira la imagen: un solo quiste redondo, con contenido homogéneo, del color del agua, y una pared que casi no se ve. Es un quiste simple, sin tabiques ni nódulos. Aquí no se hace nada más.' },
-        { note: 'El riñón lleno de quistes',
-          say: 'Esta es la pieza de un riñón con poliquistosis, abierto. No queda parénquima normal: son quistes de distinto tamaño por todas partes.' },
-        { note: 'Nefromegalia bilateral',
-          say: 'Y en el TAC, los dos riñones son enormes y ocupan buena parte del abdomen. Por eso en el examen físico se palpan masas bilaterales.' },
+        { note: 'Normal y poliquístico',
+          say: 'Compara el riñón normal con el poliquístico: los quistes reemplazan el parénquima y el riñón crece, con masas bilaterales que se palpan. Es hereditaria, por PKD uno o PKD dos. Cursa con hipertensión precoz, hematuria y falla renal, y la complicación grave es el aneurisma de Berry: ante una cefalea súbita, TAC de cerebro.' },
       ],
     },
 

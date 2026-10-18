@@ -161,6 +161,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Tres cuadros en la línea del tiempo',
+      images: [
+        { src: 'animaciones/psiq-04/A1_linea_de_tiempo_posparto.mp4', label: 'Posparto: blues, psicosis y depresión', credit: 'Gráfico y animación propios' },
+      ],
+      steps: [
+        { note: 'El cuadro lo decide el momento y la clínica',
+          say: 'Mira el cursor avanzar desde el parto. Entre el tercer y el quinto día, un llanto fácil con vínculo preservado es la tristeza materna, y se resuelve sola antes de las dos semanas. En esa misma ventana, un insomnio total con delirios sobre el bebé es psicosis puerperal, una urgencia. Y desde la segunda semana, con anhedonia y culpa, es depresión posparto: si pasan más de dos semanas, ya no es blues.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: de la puérpera con cambios del ánimo a la conducta.',
     },

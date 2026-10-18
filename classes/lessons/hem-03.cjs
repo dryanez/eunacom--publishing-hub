@@ -75,9 +75,14 @@ module.exports = {
         ] },
         { title: 'Falta de hierro en los tejidos', tag: 'Propios de la ferropenia', kind: 'key', items: [
           { t: 'Coiloniquia', d: 'Uñas en cuchara',
-            say: 'La segunda parte es propia de la ferropenia, porque el hierro no solo sirve para la hemoglobina: también lo necesitan los epitelios. La coiloniquia, las uñas en cuchara, es el signo clásico.' },
+            say: 'La segunda parte es propia de la ferropenia, porque el hierro no solo sirve para la hemoglobina: también lo necesitan los epitelios. La coiloniquia, las uñas en cuchara, es el signo clásico. Mira estas uñas: cóncavas, con el borde elevado, como una cuchara.',
+            photo: { src: 'biblioteca/06_hematologia/hem-03/01_coiloniquia__commons.jpg', label: 'Coiloniquia', at: 'Mira estas uñas', credit: 'Wikimedia Commons «Koilonychia iron deficiency anemia.jpg», CC BY 2.0, CHeitz' } },
           { t: 'Queilitis angular y glositis atrófica', d: 'Lengua lisa y dolorosa, sin papilas',
-            say: 'También la queilitis angular, las grietas en las comisuras, y la glositis atrófica: una lengua lisa, dolorosa, que perdió sus papilas.' },
+            say: 'También la queilitis angular: mira estas grietas en las comisuras de la boca. Y la glositis atrófica: en esta lengua lisa, dolorosa, que perdió sus papilas.',
+            photos: [
+              { src: 'biblioteca/06_hematologia/hem-03/atlas_120_queilitis_angular_estomatitis_.jpg', label: 'Queilitis angular', at: 'mira estas grietas', credit: 'Atlas EUNACOM 2026' },
+              { src: 'biblioteca/06_hematologia/hem-03/01_glositis_ferropenia__commons.jpg', label: 'Glositis atrófica', at: 'en esta lengua', credit: 'Wikimedia Commons «Glossitis in Iron-deficiency Anaemia, a Thai female patient (2025).jpg», CC BY 4.0, Chainwit.' },
+            ] },
           { t: 'Pica', d: 'Hielo (pagofagia), tierra o almidón',
             say: 'Y la pica, el deseo compulsivo de comer cosas que no son alimento: tierra, almidón, o hielo, que se llama pagofagia. Si un caso te cuenta que la paciente mastica hielo todo el día, piensa en hierro.' },
         ] },
@@ -91,7 +96,11 @@ module.exports = {
       cards: [
         { title: 'Hemograma y frotis', tag: 'Microcítica hipocrómica', kind: 'criteria', items: [
           { t: 'VCM < 80 fL, HCM < 27 pg', d: 'Microcitosis, poiquilocitosis, dianocitos ocasionales',
-            say: 'La confirmación de laboratorio junta lo que ya sabes. En el hemograma, VCM bajo ochenta y HCM bajo veintisiete. En el frotis, microcitosis, glóbulos de formas variadas y algunos dianocitos.' },
+            say: 'La confirmación de laboratorio junta lo que ya sabes. En el hemograma, VCM bajo ochenta y HCM bajo veintisiete. En el frotis, microcitosis, glóbulos de formas variadas y algunos dianocitos. Mira este frotis: glóbulos pequeños y pálidos, con el centro claro agrandado. Y aquí, comparado con uno normal, el ferropénico.',
+            photos: [
+              { src: 'biblioteca/06_hematologia/hem-03/01_anemia-ferropenica-microcitica-frotis__amir-hemato_p16.jpg', label: 'Frotis microcítico', at: 'Mira este frotis', credit: 'Manual AMIR Hematología, p. 16' },
+              { src: 'biblioteca/06_hematologia/hem-03/atlas_121_frotis_demostrativo_de_anemia_.jpg', label: 'Normal vs ferropénico', at: 'comparado con uno normal', credit: 'Atlas EUNACOM 2026' },
+            ] },
         ] },
         { title: 'Perfil de hierro', tag: 'La ferritina decide', kind: 'key', items: [
           { t: 'Ferritina < 30 ng/mL', d: 'Confirma sin médula',
@@ -137,7 +146,8 @@ module.exports = {
         { show: ['cau'], note: 'Cáncer hasta demostrar lo contrario',
           say: '¿Qué buscamos? Sobre todo un cáncer: de colon derecho, que sangra en forma silenciosa, o un adenocarcinoma gástrico. También angiodisplasias, úlceras pépticas o pólipos avanzados. En este paciente, la ferropenia es cáncer digestivo hasta demostrar lo contrario.' },
         { show: ['neg', 'cel'], note: 'La otra puerta: el duodeno',
-          say: 'Y si las dos endoscopías salen negativas, y el paciente tiene síntomas de malabsorción o no responde al hierro oral, piensa en la otra causa: la puerta de entrada. Hay que descartar enfermedad celíaca, con anticuerpos antitransglutaminasa tisular IgA y biopsia duodenal.' },
+          say: 'Y si las dos endoscopías salen negativas, y el paciente tiene síntomas de malabsorción o no responde al hierro oral, piensa en la otra causa: la puerta de entrada. Hay que descartar enfermedad celíaca, con anticuerpos antitransglutaminasa tisular IgA y biopsia duodenal. Mira esta biopsia: a la izquierda, la mucosa perdió sus vellosidades; a la derecha, un duodeno normal. Sin vellosidades, el hierro no se absorbe.',
+          photo: { src: 'biblioteca/06_hematologia/hem-03/02_atrofia-vellositaria-celiaca__pathoma_p114.jpg', label: 'Atrofia vellositaria', at: 'Mira esta biopsia', credit: 'Pathoma, Fig. 10.18' } },
       ],
     },
 
@@ -263,38 +273,7 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Anemia ferropénica',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-03/01_anemia-ferropenica-microcitica-frotis__amir-hemato_p16.jpg', label: 'Frotis', credit: 'Manual AMIR Hematología, p. 16' },
-        { src: 'biblioteca/06_hematologia/hem-03/01_coiloniquia__commons.jpg', label: 'Coiloniquia', credit: 'Wikimedia Commons «Koilonychia iron deficiency anemia.jpg», CC BY 2.0, CHeitz' },
-        { src: 'biblioteca/06_hematologia/hem-03/01_glositis_ferropenia__commons.jpg', label: 'Glositis atrófica ferropénica', credit: 'Wikimedia Commons «Glossitis in Iron-deficiency Anaemia, a Thai female patient (2025).jpg», CC BY 4.0, Chainwit.' },
-      ],
-      steps: [
-        { note: 'Glóbulos pequeños y pálidos',
-          say: 'En la ferropenia los glóbulos rojos son pequeños y pálidos, con el centro claro agrandado: microcitosis e hipocromía.' },
-        { note: 'Uñas en cuchara',
-          say: 'Y la coiloniquia: uñas cóncavas, en cuchara. Es un signo clásico de ferropenia de larga evolución.' },
-        { note: 'Lengua lisa, sin papilas',
-          say: 'Y la glositis atrófica: una lengua lisa, que perdió sus papilas. También la produce la falta de hierro en los epitelios.' },
-      ],
-    },
 
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-03/02_atrofia-vellositaria-celiaca__pathoma_p114.jpg', label: 'Biopsia duodenal: atrofia vellositaria (izquierda) vs normal (derecha)', credit: 'Pathoma, Fig. 10.18' },
-      ],
-      steps: [
-        { note: 'Celíaca: el duodeno sin vellosidades',
-          say: 'Si las endoscopías salen negativas, piensa en la enfermedad celíaca. En la biopsia duodenal, a la izquierda, la mucosa perdió sus vellosidades; a la derecha, un duodeno normal. Sin vellosidades, el hierro no se absorbe.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -458,6 +437,44 @@ module.exports = {
         options: 'Las opciones: hierro oral, hierro endovenoso, transfusión, un uterotónico, o ácido fólico con vitamina B doce. Piénsalo.',
         answer: 'Es la A, hierro oral. Perdió sangre, y con ella hierro, así que hay que reponerlo. El sangrado ya se controló, y no hay inestabilidad, angina ni disnea de reposo: la transfusión no se decide por el número. Tampoco hay malabsorción ni intolerancia que justifique la vena. Entonces, primera línea: hierro oral.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 115",
+      "stem": "Un niño de 9 meses tiene palidez de piel y mucosas, por lo que se solicita un hemograma, que muestra hemoglobina 9 g/dL, hematocrito 28%, VCM 68 fL, glóbulos blancos 6.500/mm3 y plaquetas 450.000/mm3.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anemia ferropriva"
+        },
+        {
+          "letter": "B",
+          "text": "Anemia de enfermedades crónicas"
+        },
+        {
+          "letter": "C",
+          "text": "Trombocitosis esencial"
+        },
+        {
+          "letter": "D",
+          "text": "Hemoglobinopatía"
+        },
+        {
+          "letter": "E",
+          "text": "Microesferocitosis familiar"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Anemia microcítica en un lactante de 6 a 24 meses es, por lejos, ferropriva: se agotan las reservas fetales y la dieta aporta poco hierro. La trombocitosis leve es reactiva al déficit de hierro. La esferocitosis da VCM normal o alto y las hemoglobinopatías son raras en Chile. Se confirma con ferritina y se trata con hierro oral.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Un lactante de nueve meses está pálido y su hemograma muestra hemoglobina de nueve, volumen corpuscular bajo y plaquetas algo elevadas.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: anemia ferropriva, anemia de enfermedad crónica, trombocitosis esencial, hemoglobinopatía o esferocitosis. Piénsalo.",
+        "answer": "Es la A. Una anemia microcítica en un lactante es ferropriva hasta demostrar lo contrario, y la trombocitosis es reactiva. La trombocitosis esencial tienta por las plaquetas, pero es rarísima en niños y no explica la anemia microcítica."
+      }
     },
 
     {

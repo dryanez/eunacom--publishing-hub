@@ -1,0 +1,121 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Dermatología sobre ilustración real (Blausen.com staff, 2014, CC BY 3.0; rótulos en inglés quitados con inpainting).
+// Láminas: assets/blausen/derma_epidermis.png (inset de capas de la epidermis, 830x752),
+//          derma_foliculo.png (folículo piloso y glándula sebácea, 544x880), derma_piel.png (bloque de piel, 1344x1114).
+//   ?v=psoriasis   derma-05 A1: recambio epidermico de 28 a 4 dias, paraqueratosis y raspado de Brocq (Auspitz)
+const V = new URLSearchParams(location.search).get('v') || 'psoriasis';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+const CRED = 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios';
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text(CRED, 1268, 712, 13, C.MUTED, '', 'right'); }
+
+// lámina genérica: imagen `key` dibujada en (dx, dy) con escala s; P convierte px de la imagen a px del lienzo
+function sheet(key, dx, dy, s) {
+  const im = I(key), w = im.width * s, h = im.height * s;
+  return {
+    w, h, P: (x, y) => [dx + x * s, dy + y * s],
+    draw(a) { ctx.save(); ctx.globalAlpha = a; rrect(dx - 6, dy - 6, w + 12, h + 12, 18, '#FFFFFF');
+      ctx.beginPath(); ctx.roundRect(dx, dy, w, h, 14); ctx.clip(); ctx.drawImage(im, dx, dy, w, h); ctx.restore(); },
+    clip() { ctx.beginPath(); ctx.roundRect(dx, dy, w, h, 14); ctx.clip(); },
+  };
+}
+// rótulo con línea guía (igual que uro.html)
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+const frac = v => v - Math.floor(v);
+
+// ---------- derma-05 A1: psoriasis ----------
+function psoriasis(t) {
+  K.title('Psoriasis: la epidermis que no madura', 'Recambio de 28 a 4 días y signo de Auspitz', C.RED);
+  const S = sheet('epi', 40, 156, 0.69), P = S.P; S.draw(seg(t, 0, 0.7));
+  // progreso acumulado de los queratinocitos (normal lento, psoriasis 7 veces más rápido)
+  const vN = 1 / 13, vP = 7 / 13;
+  const pr = vN * clamp(t - 1.5, 0, 9) + vP * clamp(t - 10.5, 0, 7);
+  const psor = ease(seg(t, 10.5, 1.2)), brocq = seg(t, 17.5, 0.5);
+  const Y0 = 625, Y1 = 28;                                  // desde la capa basal hasta la superficie (px de la imagen)
+  const N = 24;
+  ctx.save(); S.clip();
+  // la capa granulosa desaparece en la psoriasis (se aclara)
+  if (psor > 0) { const [gx, gy] = P(0, 150), [gx2, gy2] = P(830, 262); ctx.globalAlpha = 0.5 * psor * (1 - seg(t, 24, 1));
+    ctx.fillStyle = '#F4C7C0'; ctx.fillRect(gx, gy, gx2 - gx, gy2 - gy); }
+  for (let i = 0; i < N * (1 + psor); i++) {
+    const idx = i % N, second = i >= N;
+    if (second && i - N >= N * psor) continue;
+    const x = 30 + rnd(idx * 3 + (second ? 91 : 5)) * 770;
+    const u = frac(pr + (idx + (second ? 0.5 : 0)) / N + rnd(idx) * 0.02);
+    if (t < 1.5) continue;
+    const y = lerp(Y0 - rnd(idx + 7) * 40, Y1 + rnd(idx + 3) * 30, u);
+    const [cx, cy] = P(x, y);
+    const nucleus = psor > 0.5 ? true : u < 0.6;              // psoriasis: conserva el núcleo hasta el córneo (paraqueratosis)
+    const flat = u > 0.62 && !(psor > 0.5);
+    ctx.globalAlpha = 0.95 * Math.min(1, u * 8, (1 - u) * 8);
+    ctx.lineWidth = 2; ctx.strokeStyle = 'rgba(255,255,255,0.95)'; ctx.fillStyle = flat ? 'rgba(255,238,224,0.75)' : 'rgba(255,255,255,0.28)';
+    ctx.beginPath(); ctx.ellipse(cx, cy, flat ? 13 : 10, flat ? 4 : 10, 0, 0, 7); ctx.fill(); ctx.stroke();
+    if (nucleus) { ctx.fillStyle = psor > 0.5 && u > 0.62 ? '#5B1D86' : '#7A2E9E'; ctx.beginPath(); ctx.arc(cx, cy, 3.8, 0, 7); ctx.fill(); }
+  }
+  ctx.globalAlpha = 1;
+  // linfocitos T y citoquinas que aceleran la mitosis de la capa basal
+  const tc = fade(t, 10.5, 17.2, 0.8);
+  if (tc > 0) { ctx.globalAlpha = tc;
+    for (let k = 0; k < 3; k++) { const [x, y] = P(120 + k * 270, 705); ctx.fillStyle = '#FFC247'; ctx.beginPath(); ctx.arc(x, y, 15, 0, 7); ctx.fill();
+      ctx.strokeStyle = '#7A4B00'; ctx.lineWidth = 2; ctx.stroke(); text('T', x, y + 6, 17, '#3A2400', 'bold', 'center');
+      for (let j = 0; j < 4; j++) { const u = frac(t * 0.9 + j / 4 + k * 0.2), [bx, by] = P(120 + k * 270 + (j - 1.5) * 18, lerp(690, 600, u));
+        ctx.globalAlpha = tc * (1 - u); ctx.fillStyle = '#FF8A3D'; ctx.beginPath(); ctx.arc(bx, by, 3.2, 0, 7); ctx.fill(); ctx.globalAlpha = tc; } }
+    ctx.globalAlpha = 1; }
+  ctx.restore();
+  // escama nacarada que se acumula sobre el córneo; se raspa en el método de Brocq
+  const thick = 40 * ease(seg(t, 11.2, 5.5)) * (1 - 0.75 * ease(seg(t, 18, 1.8)));
+  if (thick > 1) { const [sx, sy] = P(0, 0); ctx.save(); ctx.beginPath(); ctx.rect(sx - 6, sy - 56, S.w + 12, 70); ctx.clip();
+    for (let i = 0; i < 26; i++) { const w = S.w / 26; ctx.fillStyle = i % 2 ? '#F3F1EC' : '#E4E1DA'; ctx.beginPath();
+      ctx.roundRect(sx + i * w, sy + 6 - thick * (0.75 + 0.25 * rnd(i + 40)), w + 1, thick * (0.75 + 0.25 * rnd(i + 40)) + 4, 3); ctx.fill(); }
+    ctx.restore(); }
+  // curetaje: bujía (escamas que saltan), membrana, Auspitz (rocío hemático)
+  if (t > 17.5) {
+    const cx0 = P(40, 0)[0], cx1 = P(790, 0)[0];
+    const sweep = ease(seg(t, 17.6, 2.2)), xs = lerp(cx0, cx1, sweep), ys = P(0, 0)[1] - 6;
+    if (t < 20.2) { ctx.save(); ctx.translate(xs, ys - 30); ctx.rotate(0.6); rrect(-4, -42, 8, 60, 4, '#9FA8B3'); ctx.fillStyle = '#C9D1D9'; ctx.beginPath(); ctx.arc(0, 22, 11, 0, 7); ctx.fill(); ctx.restore(); }
+    for (let i = 0; i < 30; i++) { const b = 17.8 + rnd(i) * 1.8; if (t < b || t > b + 1.2) continue; const u = (t - b) / 1.2;
+      ctx.globalAlpha = (1 - u); ctx.fillStyle = '#F3F1EC'; const fx = lerp(cx0, cx1, rnd(i + 20)); ctx.fillRect(fx + u * 20, ys - 10 - 26 * (1 - u) * (1 - u) + u * 60, 6, 3); }
+    ctx.globalAlpha = 1;
+    const mem = fade(t, 19.4, 21.2, 0.4);                                   // membrana de Duncan-Buzzi: lámina fina transparente
+    if (mem > 0) { ctx.save(); ctx.globalAlpha = 0.85 * mem; ctx.strokeStyle = '#FFFFFF'; ctx.lineWidth = 2.5; ctx.setLineDash([9, 6]); ctx.beginPath();
+      for (let i = 0; i <= 40; i++) { const x = lerp(cx0, cx1, i / 40), y = P(0, 0)[1] - 4 - 10 * ease(seg(t, 19.4, 1.2)) - 4 * Math.sin(i * 0.9 + t * 3); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); } ctx.stroke(); ctx.restore(); }
+    const au = seg(t, 21, 1.6);
+    if (au > 0) for (let k = 0; k < 9; k++) { const x = 60 + k * 85 + rnd(k) * 20, [dx, dy] = P(x, 60); const g = au * (0.7 + 0.3 * Math.sin(t * 5 + k));
+      K.glow(dx, dy, 22, '200,20,35', 0.55 * au); ctx.globalAlpha = Math.min(1, au * 1.4); ctx.fillStyle = '#C8102E';
+      ctx.beginPath(); ctx.arc(dx, dy, 3.5 + 3 * g, 0, 7); ctx.fill();
+      const u = frac(t * 0.6 + k * 0.37); ctx.globalAlpha = au * (1 - u); ctx.beginPath(); ctx.arc(dx + 3, dy + u * 24, 2.4, 0, 7); ctx.fill(); ctx.globalAlpha = 1; }
+  }
+  // rótulos
+  label('Estrato córneo', 130, 200, '#F0B8A8', ...P(640, 55), fade(t, 1.4, 9.8));
+  label('Granuloso: pierden el núcleo', 190, 250, C.VIOLET, ...P(560, 215), fade(t, 1.8, 9.8));
+  label('Capa basal: nacen las células', 190, 560, C.RED, ...P(520, 610), fade(t, 2.2, 9.8));
+  label('Núcleos hasta el córneo', 190, 210, C.RED, ...P(500, 70), fade(t, 12.4, 17.2));
+  label('Escama nacarada', 330, 140, '#E4E1DA', ...P(300, -6), fade(t, 14.2, 17.4));
+  label('Auspitz: rocío sangrante', 330, 215, C.RED, ...P(480, 60), seg(t, 22.4, 0.5));
+  // panel
+  K.card(660, 132, 580, 106, C.GREEN, 'Epidermis normal', ['Recambio de 28 días', 'El queratinocito pierde el núcleo en el granuloso'], seg(t, 1.6, 0.5), 17);
+  K.bar(684, 292, 532, 'Recambio de la epidermis', lerp(28, 4, ease(seg(t, 10.8, 3))), 30, 'días', lerp(0, 1, psor) > 0.5 ? C.RED : C.GREEN, [[4, '4'], [28, '28']]);
+  K.card(660, 362, 580, 106, C.RED, 'Psoriasis: células inmaduras', ['T colaboradores Th1 y Th17: interleuquinas 23 y 17', 'Llegan al córneo con núcleo: paraqueratosis'], seg(t, 11, 0.5), 17);
+  K.card(660, 484, 580, 128, C.AMBER, 'Raspado metódico de Brocq', ['1. Bujía: las escamas saltan', '2. Membrana de Duncan-Buzzi', '3. Auspitz: rocío sangrante'], seg(t, 17.7, 0.5), 17);
+  K.banner(660, 632, 580, 'Auspitz es patognomónico de la psoriasis', C.RED, seg(t, 23, 0.5));
+}
+
+const SCN = { psoriasis: { f: psoriasis, dur: 27 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({ epi: '../assets/blausen/derma_epidermis.png', fol: '../assets/blausen/derma_foliculo.png', skin: '../assets/blausen/derma_piel.png' });
+</script>
+</body></html>

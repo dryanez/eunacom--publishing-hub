@@ -38,7 +38,8 @@ module.exports = {
         { show: ['fla'], note: 'El techo es solo la epidermis superior: por eso es tan frágil',
           say: 'Como el techo de esa ampolla es solo la capa superior de la epidermis, queda muy delgado y frágil. Por eso la ampolla del pénfigo es flácida, de contenido claro, y se rompe con el mínimo roce, dejando erosiones dolorosas que no cicatrizan.' },
         { show: ['nik'], note: 'La misma maniobra que vimos en SSJ, ahora por otra causa',
-          say: 'Y por esa misma fragilidad, el signo de Nikolsky es positivo: al frotar la piel sana cercana con el dedo, la epidermis se desprende. Es el mismo signo que viste en Stevens-Johnson, pero aquí la causa no es un fármaco, es un autoanticuerpo.' },
+          say: 'Y por esa misma fragilidad, el signo de Nikolsky es positivo: al frotar la piel sana cercana con el dedo, la epidermis se desprende. Es el mismo signo que viste en Stevens-Johnson, pero aquí la causa no es un fármaco, es un autoanticuerpo. Mira a este recién nacido: la epidermis se despega al roce y deja la piel roja y húmeda por debajo.',
+            photo: { src: '_verificadas/280_derma_Signo_de_Nikolsky__nelsontext_p5312_1.jpg', label: 'Nikolsky positivo', at: 'Mira a este recién nacido', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 5312' } },
       ],
     },
 
@@ -49,11 +50,13 @@ module.exports = {
       cards: [
         { title: 'Población y debut', tag: '40 a 60 años', kind: 'criteria', items: [
           { t: 'Úlceras orales dolorosas primero', d: 'En 70 a 90% de los casos, meses antes',
-            say: 'El pénfigo vulgar afecta típicamente a adultos de cuarenta a sesenta años, sin predominio marcado de sexo. Y en la gran mayoría de los casos, el debut no es en la piel: son erosiones y úlceras orales muy dolorosas, en el paladar y las encías, que llevan semanas sin sanar y que el paciente ya consultó por ellas antes de tener ninguna lesión cutánea.' },
+            say: 'El pénfigo vulgar afecta típicamente a adultos de cuarenta a sesenta años, sin predominio marcado de sexo. Y en la gran mayoría de los casos, el debut no es en la piel: son erosiones y úlceras orales muy dolorosas, en el paladar y las encías, que llevan semanas sin sanar y que el paciente ya consultó por ellas antes de tener ninguna lesión cutánea. Mira esta boca: erosiones en la mucosa, porque las ampollas se rompen apenas se forman.',
+            photo: { src: 'biblioteca/19_dermatologia/derma-11/atlas_082_penfigo_vulgar_oral_erosiones_.jpg', label: 'Pénfigo vulgar oral', at: 'Mira esta boca', credit: 'Atlas EUNACOM 2026' } },
         ] },
         { title: 'La piel', tag: 'Erosiones que no cicatrizan', kind: 'alert', items: [
           { t: 'Ampollas flácidas sobre piel sana', d: 'Se rompen y dejan costras que sangran',
-            say: 'Cuando aparecen las ampollas en la piel, son flácidas, sobre piel de aspecto sano, y se rompen con tanta facilidad que rara vez las ves intactas: lo que encuentras son erosiones extensas, dolorosas, que sangran y no cicatrizan solas.' },
+            say: 'Cuando aparecen las ampollas en la piel, son flácidas, sobre piel de aspecto sano, y se rompen con tanta facilidad que rara vez las ves intactas: lo que encuentras son erosiones extensas, dolorosas, que sangran y no cicatrizan solas. En esta espalda no ves ampollas intactas, sino erosiones con costras sobre piel de aspecto sano.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-11/01_penfigo-vulgar__amir-derma_p49.jpg', label: 'Pénfigo vulgar', at: 'En esta espalda', credit: 'Manual AMIR Dermatología, p. 49' } },
           { t: 'Signo de Asboe-Hansen', d: 'Al comprimir el centro, la ampolla se extiende al lado',
             say: 'Hay otra maniobra que refuerza el diagnóstico: el signo de Asboe-Hansen. Si comprimes verticalmente el centro de una ampolla todavía intacta, el líquido se extiende hacia los lados y despega la piel vecina, porque esa cohesión también está rota.' },
         ] },
@@ -97,7 +100,8 @@ module.exports = {
         ] },
         { title: 'La piel y las mucosas', tag: 'Respeta la boca', kind: 'normal', items: [
           { t: 'Ampollas en abdomen, ingles y flexuras', d: 'Compromiso oral excepcional, menor a 20%',
-            say: 'Las ampollas asientan sobre todo en el abdomen inferior, las ingles, las axilas y los pliegues de flexión, sobre una base roja o eccematosa, y suele haber eosinofilia periférica y en el líquido de la ampolla. Y a diferencia del pénfigo, el penfigoide respeta casi siempre la mucosa oral: el compromiso mucoso es la excepción, no la regla.' },
+            say: 'Las ampollas asientan sobre todo en el abdomen inferior, las ingles, las axilas y los pliegues de flexión, sobre una base roja o eccematosa, y suele haber eosinofilia periférica y en el líquido de la ampolla. Y a diferencia del pénfigo, el penfigoide respeta casi siempre la mucosa oral: el compromiso mucoso es la excepción, no la regla. Mira este brazo: ampollas grandes, tensas, de contenido claro. Y en esta pierna también están íntegras.',
+            photos: [{ src: 'biblioteca/11_dermatologia/derma-11/02_penfigoide-ampolloso-tensas__cto-derma_p72.jpg', label: 'Ampollas tensas', at: 'Mira este brazo', credit: 'Manual CTO Dermatología 14.ª ed., p. 72' }, { src: 'biblioteca/11_dermatologia/derma-11/02_penfigoide-ampolloso-tensas_alt1_1__amir-derma_p49.jpg', label: 'Ampollas íntegras', at: 'Y en esta pierna', credit: 'Manual AMIR Dermatología, p. 49' }] },
         ] },
       ],
     },
@@ -109,7 +113,8 @@ module.exports = {
       cards: [
         { title: 'Pénfigo vulgar', tag: 'Depósito intercelular', kind: 'alert', items: [
           { t: 'Patrón en red de pescar o panal de abejas', d: 'IgG y complemento entre los queratinocitos',
-            say: 'La clínica orienta, pero la confirmación es histológica. En el pénfigo vulgar, la inmunofluorescencia directa muestra un depósito de inmunoglobulina G y complemento entre las células, rodeando cada queratinocito, en un patrón que se describe como red de pescar o panal de abejas.' },
+            say: 'La clínica orienta, pero la confirmación es histológica. En el pénfigo vulgar, la inmunofluorescencia directa muestra un depósito de inmunoglobulina G y complemento entre las células, rodeando cada queratinocito, en un patrón que se describe como red de pescar o panal de abejas. Mira esta imagen: el depósito verde fluorescente dibuja una red alrededor de cada célula de la epidermis.',
+            photo: { src: '_web/281_derma_Inmunofluorescencia_directa__Commons_1.jpg', label: 'IFD de pénfigo vulgar', at: 'Mira esta imagen', credit: 'Wikimedia Commons, CC BY 3.0' } },
           { t: 'Hilera de lápidas sepulcrales', d: 'La capa basal queda pegada a la dermis',
             say: 'Y en la histología convencional se ve la fila de células basales, todavía ancladas a la membrana basal por sus hemidesmosomas intactos, mientras el resto de la epidermis se despegó por encima: es la imagen clásica de hilera de lápidas sepulcrales.' },
         ] },
@@ -155,19 +160,24 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Enfermedades ampollares',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-11/01_penfigo-vulgar__amir-derma_p49.jpg', label: 'Pénfigo vulgar', credit: 'Manual AMIR Dermatología, p. 49' },
-        { src: 'biblioteca/11_dermatologia/derma-11/02_penfigoide-ampolloso-tensas__cto-derma_p72.jpg', label: 'Penfigoide ampolloso', credit: 'Manual CTO Dermatología 14.ª ed., p. 72' },
-      ],
-      steps: [
-        { note: 'Ampollas flácidas y erosiones',
-          say: 'El pénfigo da ampollas flácidas que se rompen, y compromete mucosas.' },
-        { note: 'Ampollas tensas',
-          say: 'El penfigoide, en el adulto mayor, da ampollas tensas que no se rompen fácilmente.' },
+      type: 'points',
+      kicker: 'Qué indica el médico general',
+      title: 'Cómo se toman la biopsia y la inmunofluorescencia',
+      cards: [
+        { title: 'Dos muestras, dos destinos', tag: 'Punch de 3 a 4 mm', kind: 'key', items: [
+          { t: 'Borde de una ampolla reciente', d: 'Menos de 24 horas; en formalina, hematoxilina-eosina',
+            say: 'En el pénfigo y el penfigoide, el diagnóstico de certeza exige biopsia, que el médico general indica y deriva al especialista. Se hacen dos muestras con punch de tres a cuatro milímetros bajo anestesia local. La primera, del borde de una ampolla de menos de veinticuatro horas, nunca de una antigua ni solo del techo, en formalina, para hematoxilina-eosina: distingue la ampolla acantolítica intraepidérmica del pénfigo de la subepidérmica del penfigoide.' },
+          { t: 'Piel sana a 1 cm de la ampolla', d: 'En medio de Michel o suero, no en formalina',
+            say: 'La segunda muestra es de la piel perilesional de aspecto sano, a un centímetro de la ampolla. Esa no va en formalina, sino en medio de Michel o suero fisiológico, y se envía rápido, porque es para la inmunofluorescencia directa.' },
+        ] },
+        { title: 'Qué esperar', tag: 'Y el suero', kind: 'criteria', items: [
+          { t: 'Pénfigo: red de IgG y C3', d: 'Penfigoide: línea en la membrana basal',
+            say: 'En el pénfigo ves depósito intercelular de inmunoglobulina G y complemento, en red; en el penfigoide, un depósito lineal en la membrana basal.' },
+          { t: 'Suero: desmogleínas 1 y 3, o BP180 y BP230', d: 'Inmunofluorescencia indirecta o ELISA',
+            say: 'En el suero se pide inmunofluorescencia indirecta o ELISA contra desmogleínas uno y tres en el pénfigo, y contra BP ciento ochenta y BP doscientos treinta en el penfigoide.' },
+          { t: 'Antes de biopsiar: anticoagulantes y anestésicos', d: 'Sutura o hemostasia simple',
+            say: 'Y antes de biopsiar preguntas por anticoagulantes y alergia a anestésicos, y cierras con sutura o hemostasia simple.' },
+        ] },
       ],
     },
 
@@ -196,6 +206,8 @@ module.exports = {
           say: 'La inmunofluorescencia directa: depósito entre las células, en red de pescar, en el pénfigo; depósito lineal continuo en la membrana basal, en el penfigoide.' },
         { cells: ['Tratamiento inicial', 'Prednisona oral en dosis altas', 'Clobetasol tópico de alta potencia'],
           say: 'Y el tratamiento inicial: corticoide sistémico en dosis altas en el pénfigo; corticoide tópico potente en el penfigoide. Confundir estas dos indicaciones es el error más grave de todo el tema, porque en el anciano frágil, la prednisona oral en dosis altas aumenta el riesgo de mortalidad por otras causas.' },
+        { cells: ['Toma de biopsia', 'Borde de ampolla reciente en formalina; piel sana vecina en medio de Michel', 'Una sola muestra, del techo de una ampolla antigua'],
+          say: 'Y la biopsia: dos muestras, una del borde de una ampolla reciente en formalina y otra de la piel sana vecina en medio de Michel, para la inmunofluorescencia. El error es tomar una sola muestra del techo de una ampolla antigua.' },
       ],
     },
 
@@ -243,6 +255,44 @@ module.exports = {
         options: 'Las opciones: pénfigo vulgar, penfigoide ampollar, necrólisis epidérmica tóxica, dermatitis herpetiforme, o epidermólisis bullosa simple. Piénsalo.',
         answer: 'Es la B, penfigoide ampollar. Todo calza con lo que vimos hoy: edad avanzada con antecedente neurológico, prurito intenso antes de las ampollas, ampollas tensas y resistentes, Nikolsky negativo, y boca respetada. El pénfigo se ve en pacientes más jóvenes, con ampollas flácidas, Nikolsky positivo, y casi siempre compromiso oral desde el inicio.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.5.001 · Biopsia de piel",
+      "stem": "Hombre de 72 años presenta hace 3 semanas ampollas tensas de contenido seroso sobre placas eritematosas en el abdomen y las caras internas de los muslos, con prurito intenso y sin compromiso de mucosas. Se sospecha una enfermedad ampollar autoinmune.",
+      "question": "¿Cuál es el estudio más adecuado para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cultivo del contenido de la ampolla"
+        },
+        {
+          "letter": "B",
+          "text": "Biopsia de una ampolla reciente para histología y biopsia de piel perilesional para inmunofluorescencia directa"
+        },
+        {
+          "letter": "C",
+          "text": "Test de Tzanck"
+        },
+        {
+          "letter": "D",
+          "text": "Biopsia del centro de una erosión antigua"
+        },
+        {
+          "letter": "E",
+          "text": "Examen micológico directo"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En enfermedades ampollares autoinmunes se toman dos muestras: una ampolla reciente e intacta para histología, que muestra el nivel de separación, y piel perilesional sana para inmunofluorescencia directa, que muestra el depósito de anticuerpos. Las erosiones antiguas no sirven porque el tejido está destruido.",
+      "say": {
+        "stem": "Hombre de setenta y dos años con tres semanas de ampollas tensas sobre placas rojas en el abdomen y los muslos, con mucho prurito y sin lesiones en mucosas. Se sospecha una enfermedad ampollar autoinmune.",
+        "question": "¿Cuál es el estudio más adecuado para confirmar el diagnóstico?",
+        "options": "Las opciones: cultivo de la ampolla, biopsia de ampolla reciente más biopsia perilesional para inmunofluorescencia directa, test de Tzanck, biopsia de una erosión antigua, o micológico directo. Piénsalo.",
+        "answer": "Es la B. La ampolla nueva muestra a qué nivel se separa la piel, y la piel vecina sana muestra los anticuerpos depositados con inmunofluorescencia directa. Biopsiar una erosión antigua tienta porque es lo más visible, pero ese tejido ya está destruido y no permite diagnosticar."
+      }
     },
 
     {

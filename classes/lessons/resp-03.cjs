@@ -35,7 +35,8 @@ module.exports = {
         { show: ['esp'], note: 'La clínica sola no confirma',
           say: 'Por eso el diagnóstico exige las dos cosas: clínica compatible y la demostración de esa variabilidad en el flujo. El primer examen es la espirometría con broncodilatador, que ya sabes leer.' },
         { show: ['bd'], note: 'Reversibilidad',
-          say: 'Si el VEF uno sube más de doce por ciento y más de doscientos mililitros después del broncodilatador, el asma está confirmada.' },
+          say: 'Si el VEF uno sube más de doce por ciento y más de doscientos mililitros después del broncodilatador, el asma está confirmada. Mira este esquema: antes y después del salbutamol, la curva sube y el VEF uno gana volumen.',
+            photo: { src: 'biblioteca/02_neumologia/resp-03/S1_prueba-broncodilatadora__propio.svg', label: 'Antes y después', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['nor'], note: 'El asmático sin crisis puede tener espirometría normal',
           say: 'Pero ojo: el asmático que consulta sin síntomas ese día puede tener una espirometría perfectamente normal. Eso no descarta el asma.' },
         { show: ['pef', 'met'], note: 'Otras formas de demostrar variabilidad',
@@ -134,6 +135,57 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Asma grave',
+      title: 'Antes de rotularla, descarta lo difícil',
+      cards: [
+        { title: 'Definición', tag: 'Escalón 4–5', kind: 'key', items: [
+          { t: 'No controlada pese a CI dosis alta + LABA', d: 'O solo controlada con ese nivel',
+            say: 'Asma grave es la que sigue sin control a pesar del escalón cuatro o cinco, corticoide inhalado en dosis alta más LABA, o que solo se controla con ese nivel de tratamiento.' },
+        ] },
+        { title: 'Primero, el asma difícil', tag: 'Descartar', kind: 'alert', items: [
+          { t: 'Técnica y adherencia', d: 'La causa más frecuente',
+            say: 'Pero antes de decir grave hay que descartar el asma difícil. Primero la técnica del inhalador y la adherencia, que son la causa más frecuente de falta de control.' },
+          { t: 'Exposición persistente', d: 'Alérgenos, tabaco, ocupacional',
+            say: 'Después, la exposición que se mantiene: alérgenos, tabaco o el ambiente laboral.' },
+          { t: 'Comorbilidades', d: 'Rinosinusitis, reflujo, obesidad, apnea',
+            say: 'Y las comorbilidades: rinosinusitis, reflujo, obesidad y apnea del sueño. Sin olvidar los diagnósticos alternativos, como EPOC o disfunción de cuerdas vocales.' },
+        ] },
+        { title: 'Qué hace el médico general', tag: 'Y a quién deriva', kind: 'pharma', items: [
+          { t: 'Optimiza el escalón y trata comorbilidades', d: 'CI-formoterol medio o alto, agregar tiotropio',
+            say: 'Tu parte es optimizar el escalón, con corticoide inhalado y formoterol en dosis media o alta, agregar tiotropio, y tratar las comorbilidades. Y evitar los ciclos repetidos de corticoide oral.' },
+          { t: 'Deriva al broncopulmonar', d: 'Eosinófilos, IgE; biológicos o termoplastía',
+            say: 'Se deriva al broncopulmonar para fenotipificar, con eosinófilos e inmunoglobulina E, y evaluar un biológico, anti IgE, anti interleucina cinco o anti interleucina cuatro y trece, o una termoplastía.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Técnica',
+      title: 'El inhalador presurizado con aerocámara',
+      cards: [
+        { title: 'Siete pasos', tag: 'MDI + aerocámara', kind: 'key', items: [
+          { t: 'Agitar y acoplar a la aerocámara', d: 'Exhalar suave antes de partir',
+            say: 'La técnica del inhalador se pregunta. Primero se agita el inhalador, se acopla a la aerocámara y se exhala suavemente.' },
+          { t: 'Boquilla sellada, un disparo', d: 'Mascarilla en niños y adultos mayores',
+            say: 'Se sellan los labios sobre la boquilla, o se usa mascarilla en niños y adultos mayores, y se dispara una sola vez. Mira esta imagen: los labios sellan la boquilla de la aerocámara y el inhalador va acoplado en el otro extremo.',
+            photo: { src: '_web/160_resp_Crisis_asmática_Asma_crónica__Commons_1.jpg', label: 'Inhalador con aerocámara', at: 'Mira esta imagen', credit: 'Blausen.com staff (2014), CC BY 3.0 · Wikimedia Commons' } },
+          { t: '4–6 respiraciones tranquilas', d: 'O inspiración lenta y apnea de 10 segundos',
+            say: 'Luego se respira lento y profundo, o cuatro a seis respiraciones tranquilas a volumen corriente, y si puede, se aguanta la respiración diez segundos.' },
+          { t: 'Esperar 30–60 segundos entre puff', d: 'Enjuagar la boca si es corticoide',
+            say: 'Entre un puff y el siguiente se esperan treinta a sesenta segundos, y al terminar un corticoide inhalado se enjuaga la boca.' },
+        ] },
+        { title: 'Dos detalles', tag: 'Trampas', kind: 'alert', items: [
+          { t: 'Sin cámara hay que coordinar', d: 'Revisar la técnica en cada control',
+            say: 'Sin aerocámara el paciente debe coordinar el disparo con la inspiración, por eso la técnica se revisa en cada control. La cámara se limpia con detergente una vez por semana.' },
+          { t: 'Polvo seco: al revés', d: 'Inspiración rápida y profunda; no se agita',
+            say: 'Y los inhaladores de polvo seco, turbuhaler o accuhaler, son al revés: exigen una inspiración rápida y profunda, y no se agitan.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -148,16 +200,31 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Prueba broncodilatadora positiva',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-03/S1_prueba-broncodilatadora__propio.svg', label: 'Antes y después del salbutamol', credit: 'Dibujo propio (esquema)' },
+      type: 'flow',
+      kicker: 'Tos crónica',
+      title: 'Más de 8 semanas: tres causas y una respuesta',
+      nodes: [
+        { id: 'tos', col: 0, row: 1, k: 'start', t: 'Tos > 8 semanas', s: 'Historia, examen y radiografía' },
+        { id: 'ieca', col: 1, row: 0, k: 'trap', t: 'IECA o tabaco', s: 'Suspender: cede en 1–4 semanas' },
+        { id: 'rx', col: 1, row: 2, k: 'q', t: 'Radiografía normal', s: 'Sin IECA ni tabaco' },
+        { id: 'tres', col: 2, row: 2, k: 'cause', t: 'Goteo posterior, asma, reflujo', s: 'Las tres más frecuentes' },
+        { id: 'emp', col: 3, row: 2, k: 'good', t: 'Tratamiento empírico', s: 'Se confirma por la respuesta' },
+        { id: 'alar', col: 3, row: 0, k: 'alert', t: 'Banderas rojas', s: 'Hemoptisis, baja de peso, disnea, > 20 paq-año' },
+        { id: 'tac', col: 4, row: 0, k: 'refer', t: 'TAC de tórax', s: 'Cáncer o tuberculosis' },
+      ],
+      edges: [
+        { from: 'tos', to: 'ieca' }, { from: 'tos', to: 'rx' }, { from: 'rx', to: 'tres' },
+        { from: 'tres', to: 'emp' }, { from: 'tos', to: 'alar' }, { from: 'alar', to: 'tac' },
       ],
       steps: [
-        { note: 'El VEF1 sube sobre el corte',
-          say: 'Aquí se superponen dos curvas, antes y después del broncodilatador. La segunda sube más: el volumen espirado en el primer segundo aumenta sobre el corte de reversibilidad. Eso apoya el asma.' },
+        { show: ['tos', 'ieca'], note: 'Primero, descartar lo obvio',
+          say: 'La tos crónica es la que dura más de ocho semanas en el adulto. Se parte con la historia, el examen y una radiografía de tórax. Si el paciente toma un inhibidor de la enzima convertidora, se suspende: la tos suele ceder en una a cuatro semanas.' },
+        { show: ['rx', 'tres'], note: 'Radiografía normal: tres sospechosos',
+          say: 'Si la radiografía es normal y no hay IECA ni tabaco, las tres causas más frecuentes son el goteo posterior por rinosinusitis, el asma, incluida la variante tusígena, y el reflujo gastroesofágico.' },
+        { show: ['emp'], note: 'Se trata en ese orden',
+          say: 'Se trata de forma empírica, en ese orden: antihistamínico con descongestionante o corticoide nasal, corticoide inhalado con formoterol, e inhibidor de la bomba de protones. Y el diagnóstico se confirma por la respuesta. Se pide también espirometría con broncodilatador.' },
+        { show: ['alar', 'tac'], note: 'Con banderas rojas, imagen',
+          say: 'Pero si hay hemoptisis, baja de peso, disnea, más de veinte paquetes-año o una radiografía anormal, no se trata a ciegas: se pide una TAC de tórax y se piensa en cáncer o tuberculosis. Y si la tos persiste sin causa, se deriva.' },
       ],
     },
 
@@ -252,6 +319,194 @@ module.exports = {
         options: 'Las opciones: evitar alérgenos por tres meses, salmeterol, salbutamol cada seis horas, fluticasona cada doce horas, o desensibilización. Piénsalo.',
         answer: 'Es la D, el corticoide inhalado. Tiene síntomas frecuentes y nocturnos, y lo que le falta es el antiinflamatorio de base. Lo ideal sería con un broncodilatador de rescate, pero de las opciones, la piedra angular es la fluticasona. El salbutamol en horario es la trampa del SABA solo. Y el salmeterol solo tampoco sirve: un LABA en asma siempre va con corticoide.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.1.002 · Asma bronquial grave",
+      "stem": "Hombre de 42 años con asma, en tratamiento con fluticasona/salmeterol en dosis media. Refiere síntomas diurnos casi diarios, despertares nocturnos semanales y 2 crisis en el año. Al observarlo usar su inhalador presurizado, dispara sin coordinar con la inspiración y no hace apnea. Retira sus inhaladores en forma irregular.",
+      "question": "Antes de catalogarlo como asma grave y subir de escalón, ¿cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Agregar prednisona oral en dosis bajas permanentes"
+        },
+        {
+          "letter": "B",
+          "text": "Corregir la técnica inhalatoria (por ejemplo, con aerocámara) y reforzar la adherencia"
+        },
+        {
+          "letter": "C",
+          "text": "Derivar de inmediato para terapia biológica"
+        },
+        {
+          "letter": "D",
+          "text": "Agregar montelukast y teofilina"
+        },
+        {
+          "letter": "E",
+          "text": "Cambiar a salbutamol nebulizado en horario"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La mayoría del asma 'difícil' no es grave: es mala técnica, mala adherencia o comorbilidades no tratadas. Antes de subir de escalón o hablar de asma grave hay que corregir la técnica (aerocámara con el presurizado), reforzar la adherencia y reevaluar en semanas.",
+      "say": {
+        "stem": "Un hombre de cuarenta y dos años, con asma, usa un inhalador combinado en dosis media pero sigue con síntomas casi diarios y despertares. Al mirarlo usar el inhalador, dispara sin coordinar con la inspiración, y retira sus remedios en forma irregular.",
+        "question": "Antes de catalogarlo como asma grave, ¿qué corresponde hacer?",
+        "options": "Las opciones: prednisona crónica, corregir técnica y adherencia, terapia biológica, montelukast con teofilina o salbutamol en horario. Piénsalo.",
+        "answer": "Es la B. Antes de llamar grave a un asma hay que ver si el remedio está llegando al bronquio, y aquí no llega. La terapia biológica tienta por el mal control, pero es para el asma grave real, que se define solo después de corregir técnica y adherencia."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.005 · Espirometría",
+      "stem": "Mujer de 24 años con episodios de tos nocturna, sibilancias y disnea con el ejercicio desde hace 1 año. Espirometría: VEF1/CVF 0,68; VEF1 2,10 L (74 % del predicho). Tras 400 mcg de salbutamol: VEF1 2,46 L.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Espirometría normal"
+        },
+        {
+          "letter": "B",
+          "text": "Patrón restrictivo"
+        },
+        {
+          "letter": "C",
+          "text": "Obstrucción con respuesta broncodilatadora significativa, compatible con asma"
+        },
+        {
+          "letter": "D",
+          "text": "EPOC por VEF1/CVF menor de 0,70"
+        },
+        {
+          "letter": "E",
+          "text": "Obstrucción fija sin respuesta broncodilatadora"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Hay obstrucción (VEF1/CVF bajo 0,70) y el VEF1 sube 360 mL, un 17 %: supera el umbral de respuesta broncodilatadora significativa (12 % y 200 mL). En una joven con síntomas variables, confirma asma. En la EPOC la obstrucción persiste tras el broncodilatador.",
+      "say": {
+        "stem": "Una mujer de veinticuatro años tiene tos nocturna y sibilancias con el ejercicio. La espirometría muestra una relación entre volumen espiratorio del primer segundo y capacidad vital de cero coma sesenta y ocho, con un volumen del primer segundo de dos coma diez litros, que sube a dos coma cuarenta y seis tras el salbutamol.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: normal, restricción, obstrucción con respuesta broncodilatadora compatible con asma, EPOC o obstrucción fija. Piénsalo.",
+        "answer": "Es la C. Hay obstrucción, y el volumen del primer segundo sube trescientos sesenta mililitros, cerca de diecisiete por ciento: pasa el umbral de doce por ciento y doscientos mililitros. La EPOC tienta por la relación bajo cero coma setenta, pero en una joven con síntomas variables y gran respuesta, es asma."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.019 · Asma bronquial",
+      "stem": "Un niño de 8 años con asma usa salbutamol inhalado a demanda. En el último mes ha tenido síntomas diurnos 4 días por semana, despertares nocturnos por tos 2 veces por semana y limitación para hacer deporte. Su técnica inhalatoria con aerocámara es correcta.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener salbutamol a demanda"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar corticoide inhalado en dosis baja de mantención"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar prednisona oral por 5 días"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar montelukast como monoterapia de primera línea"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar teofilina oral"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Un asma no controlada (síntomas más de 2 veces por semana, despertares nocturnos, limitación de actividad) requiere tratamiento de mantención. De acuerdo con la guía GES de asma en menores de 15 años y GINA, el pilar es el corticoide inhalado en dosis baja (ej. budesonida o fluticasona) con aerocámara, más salbutamol de rescate.",
+      "say": {
+        "stem": "Un niño de ocho años con asma, solo con salbutamol, tiene síntomas cuatro días a la semana, despierta de noche y no puede hacer deporte.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: solo salbutamol, corticoide inhalado en dosis baja, prednisona oral, montelukast solo o teofilina. Piénsalo.",
+        "answer": "Es la B. Es un asma no controlada y necesita mantención con corticoide inhalado en dosis baja. El montelukast tienta porque es oral y cómodo, pero es menos eficaz y queda como alternativa."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.1.035 · Tos crónica",
+      "stem": "Una mujer de 58 años, no fumadora, consulta por tos seca persistente de 3 meses. Hace 4 meses inició enalapril por hipertensión arterial. Su radiografía de tórax es normal y no tiene síntomas de reflujo, rinitis ni sibilancias.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar omeprazol empírico"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar TAC de tórax"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar un corticoide inhalado"
+        },
+        {
+          "letter": "D",
+          "text": "Suspender el enalapril y cambiar a un ARA II (como losartán)"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar codeína a permanencia"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La tos crónica (más de 8 semanas) en no fumadores con radiografía normal se debe principalmente a goteo postnasal, asma y reflujo, pero siempre debe descartarse el uso de IECA, que causa tos seca en 5 a 20% de los usuarios por acumulación de bradicinina. Se cambia a un ARA II y la tos cede en 1 a 4 semanas.",
+      "say": {
+        "stem": "Una mujer de cincuenta y ocho años, no fumadora, tiene tos seca hace tres meses. Comenzó enalapril un mes antes de la tos. Su radiografía es normal y no tiene reflujo, rinitis ni sibilancias.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: omeprazol empírico, TAC de tórax, corticoide inhalado, cambiar el enalapril por un antagonista del receptor de angiotensina o codeína. Piénsalo.",
+        "answer": "Es la D. El enalapril, como todo inhibidor de la enzima convertidora, causa tos seca por bradicinina, y se cambia por losartán u otro similar. El omeprazol tienta porque el reflujo es causa frecuente, pero aquí no hay síntomas de reflujo y sí un fármaco culpable."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.5.006 · Inhalación de aerosoles presurizados",
+      "stem": "Un niño de 6 años con asma usa salbutamol en inhalador presurizado de dosis medida. La madre refiere que no mejora durante las crisis. Al observar la técnica, el niño dispara el inhalador directamente en la boca y respira rápidamente.",
+      "question": "¿Cuál es la indicación más adecuada para mejorar la técnica?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cambiar a salbutamol en jarabe"
+        },
+        {
+          "letter": "B",
+          "text": "Indicar nebulizaciones diarias permanentes"
+        },
+        {
+          "letter": "C",
+          "text": "Aumentar el número de puffs sin cambiar la técnica"
+        },
+        {
+          "letter": "D",
+          "text": "Usar aerocámara (espaciador), con mascarilla o boquilla según la edad, y realizar varias respiraciones tras cada puff"
+        },
+        {
+          "letter": "E",
+          "text": "Disparar el inhalador hacia la nariz"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La mayoría de los pacientes, especialmente los niños, no coordina el disparo con la inspiración, y gran parte del fármaco queda en la orofaringe. La aerocámara mejora el depósito pulmonar y reduce efectos locales: se agita el inhalador, se dispara un puff en la aerocámara y se respira 5 a 6 veces por puff. Los jarabes no se recomiendan.",
+      "say": {
+        "stem": "Un niño asmático de seis años usa salbutamol en inhalador presurizado y no mejora en las crisis. Al observarlo, dispara el inhalador directo en la boca y respira rápido.",
+        "question": "¿Qué indicación mejora más su técnica?",
+        "options": "Las opciones: cambiar a jarabe, nebulizaciones diarias, más puffs con la misma técnica, usar aerocámara con varias respiraciones por puff o dispararlo hacia la nariz. Piénsalo.",
+        "answer": "Es la D. La aerocámara evita el problema de coordinación y lleva mucho más fármaco al pulmón. Aumentar los puffs tienta, pero con mala técnica el fármaco sigue quedando en la boca."
+      }
     },
 
     {

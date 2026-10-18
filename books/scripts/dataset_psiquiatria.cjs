@@ -39,16 +39,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -163,6 +164,16 @@ const psiquiatriaClasses = [
         "paragraphs": [
           "<strong>Regla de Oro de Mantenimiento:</strong> Una vez alcanzada la remisión sintomática completa, el tratamiento farmacológico <strong>DEBE mantenerse a la misma dosis eficaz durante un período mínimo de 6 a 12 meses</strong> en un primer episodio depresivo para prevenir recaídas tempranas. En pacientes con 3 o más episodios recurrentes o factores de alto riesgo, el mantenimiento puede ser indefinido.",
           "<strong>Criterios de Derivación Inmediata a Nivel Secundario (COSAM / Psiquiatría):</strong> 1) Riesgo suicida moderado o alto; 2) Presencia de síntomas psicóticos; 3) Sospecha de trastorno bipolar (antecedente de manía/hipomanía); 4) Depresión severa refractaria (falla a 2 esquemas antidepresivos bien indicados); 5) Depresión con comorbilidad grave por abuso de sustancias; y 6) Depresión grave en el embarazo o puerperio con rechazo alimentario."
+        ]
+      },
+      {
+        "subhead": "6. Depresión Recurrente, Tamizaje en APS y Depresión en Niños y Adolescentes",
+        "paragraphs": [
+          "El <strong>trastorno depresivo recurrente</strong> (CIE-10 F33) se diagnostica cuando hay <strong>dos o más episodios depresivos mayores separados por al menos 2 meses consecutivos sin síntomas significativos</strong> y sin antecedente de manía o hipomanía (si lo hay, el diagnóstico pasa a trastorno bipolar). El riesgo de recaída es cercano al 50% tras el primer episodio, 70% tras el segundo y 90% tras el tercero, y aumenta con síntomas residuales, inicio precoz, gravedad del episodio y comorbilidad ansiosa o por sustancias.",
+          "<em>Nivel de resolución (sospecha, tratamiento inicial, derivación):</em> ante un nuevo episodio se reinicia el antidepresivo al que el paciente respondió, a dosis plena, y se reevalúa con PHQ-9 a las 4-6 semanas. El <strong>mantenimiento</strong> se plantea tras remisión con <strong>2 o más episodios con deterioro funcional (mínimo 2 años)</strong> y es <strong>indefinido con 3 o más episodios</strong>, siempre con la misma dosis con que se logró la remisión. Se deriva a psiquiatría a quien recae en tratamiento de mantenimiento, no responde a dos antidepresivos, tiene síntomas psicóticos, riesgo suicida o sospecha de bipolaridad.",
+          "<strong>Tamizaje y seguimiento en APS.</strong> En el control de salud de personas con factores de riesgo (enfermedad crónica, embarazo y posparto, duelo, desempleo, violencia, antecedentes familiares) se aplica primero el <strong>PHQ-2</strong> (ánimo deprimido y anhedonia en las últimas 2 semanas; positivo con 3 o más puntos de 6) y, si es positivo, el <strong>PHQ-9</strong> (10 o más puntos sugiere episodio moderado a grave; el ítem 9 obliga a evaluar riesgo suicida en el mismo acto). Tras iniciar tratamiento, control presencial a las 2 semanas y luego cada 2-4 semanas con PHQ-9 seriado: <strong>respuesta</strong> es una baja de al menos 50% del puntaje y <strong>remisión</strong> un puntaje menor de 5. Sin mejoría a las 4-6 semanas con dosis adecuada y adherencia, se ajusta el tratamiento o se deriva.",
+          "<strong>Depresión en niños y adolescentes</strong> (nivel: sospecha, tratamiento inicial y seguimiento). Los criterios DSM-5 son los mismos (5 de 9 síntomas por 2 semanas), pero la presentación cambia: predominan la <strong>irritabilidad</strong> (reconocida como síntoma cardinal en menores de 18 años), las <strong>quejas somáticas</strong> (cefalea, dolor abdominal), la caída del rendimiento escolar, el aislamiento, el rechazo a ir al colegio y las conductas de riesgo; en lugar de pérdida de peso puede haber fracaso en alcanzar el peso esperado. La prevalencia es de 2-3% en escolares y 6-8% en adolescentes, y se dispara en la pubertad, sobre todo en mujeres. Descartar bipolaridad (antecedente familiar, activación, episodios previos de euforia), hipotiroidismo, anemia, mononucleosis, consumo de sustancias, maltrato, abuso sexual y bullying.",
+          "<em>Manejo inicial:</em> en el episodio leve, psicoeducación a la familia y al colegio, activación conductual, higiene del sueño y control a las 2-4 semanas. En el episodio moderado o grave, o si no hay respuesta, <strong>psicoterapia (TCC o interpersonal)</strong> y, si persiste, <strong>fluoxetina</strong> (el ISRS con mejor evidencia en menores de 18 años, desde los 8 años; 10 mg al día, subiendo a 20 mg tras 1-2 semanas). Los tricíclicos no son eficaces en niños. Todo ISRS en menores de 25 años exige <strong>control semanal las primeras 4 semanas</strong> por el riesgo de activación e ideación suicida. El GES de depresión parte a los 15 años; en menores de esa edad se maneja en el programa de salud mental de APS con <strong>derivación a psiquiatría infantil</strong> ante depresión grave o psicótica, riesgo suicida, sospecha de bipolaridad o falta de respuesta, y se hospitaliza si el riesgo es inminente."
         ]
       }
     ],
@@ -498,6 +509,14 @@ const psiquiatriaClasses = [
           "• <strong>Valproato de Sodio / Ácido Valproico:</strong> Excelente en manía disfórica, episodios mixtos y ciclado rápido. Rango terapéutico: <strong>50 a 100 µg/mL</strong>. Exige control de función hepática y hemograma (riesgo de trombocitopenia y pancreatitis). <em>Alerta teratogénica:</em> Altamente teratogénico (espina bífida, defectos del tubo neural, retraso cognitivo en el feto), contraindicado en mujeres en edad fértil sin anticoncepción rigurosa.",
           "• <strong>Lamotrigina:</strong> Profilaxis de recaídas depresivas. Requiere inicio con 25 mg/día y titulación quincenal escalonada debido al riesgo de rash cutáneo grave (Síndrome de Stevens-Johnson / NET)."
         ]
+      },
+      {
+        "subhead": "6. Niveles Plasmáticos de Estabilizadores del Ánimo: Qué Pedir y Cuándo",
+        "paragraphs": [
+          "La <strong>litemia</strong> se mide como nivel valle, <strong>12 horas después de la última dosis</strong> y tras 5 días de dosis estable. El resto de los estabilizadores sigue la misma lógica: muestra <strong>antes de la dosis matinal</strong> (valle) y una vez alcanzado el estado estacionario (4-5 vidas medias, 5-7 días). Rangos de referencia: <strong>litio 0,6-1,2 mEq/L</strong> (0,8-1,2 en la manía aguda, 0,6-0,8 en mantenimiento); <strong>valproato 50-125 µg/mL</strong> (80-125 en manía); <strong>carbamazepina 4-12 µg/mL</strong>. La lamotrigina no requiere niveles de rutina.",
+          "<strong>Carbamazepina:</strong> es inductora de su propio metabolismo (autoinducción), por lo que el nivel cae a las 3-4 semanas y debe repetirse; se piden además hemograma (leucopenia, agranulocitosis, anemia aplástica), sodio (hiponatremia por SIADH) y pruebas hepáticas. La toxicidad se manifiesta con diplopía, nistagmo, ataxia, mareo y somnolencia. Es inductora enzimática: baja los niveles de anticonceptivos orales, warfarina y de otros fármacos, y en pacientes de ascendencia asiática se pide HLA-B*1502 antes de iniciarla por el riesgo de Stevens-Johnson.",
+          "<em>Cuándo solicitar niveles:</em> al ajustar la dosis, ante sospecha de toxicidad (temblor grueso, vómitos, ataxia, confusión), falta de respuesta o sospecha de mala adherencia, embarazo, deshidratación o enfermedad renal, y cuando se agrega un fármaco que los modifica (con litio: AINE, tiazidas, IECA y ARA II lo elevan; con valproato: carbapenémicos lo bajan; con carbamazepina: macrólidos, fluoxetina, verapamilo y diltiazem lo elevan). El nivel se interpreta junto con la clínica, no solo por el número."
+        ]
       }
     ],
     "table": {
@@ -826,6 +845,15 @@ const psiquiatriaClasses = [
           "• <strong>Ketamina / Esketamina intranasal:</strong> Rápida reducción de la ideación suicida aguda (en horas) en depresión resistente, utilizada como terapia puente bajo estricta monitorización hospitalaria.",
           "• <strong>Terapia Electroconvulsiva (TEC):</strong> Intervención de rescate de máxima efectividad y rapidez en ideación suicida inminente con rechazo alimentario o depresión psicótica refractaria.",
           "• <strong>Medidas de seguridad física:</strong> Retiro absoluto de fármacos del domicilio (entrega administrada por terceros), armas, elementos cortantes y venenos; prohibición de armas en el entorno familiar."
+        ]
+      },
+      {
+        "subhead": "6. Intento de Suicidio en Adolescentes e Intervención en Crisis",
+        "paragraphs": [
+          "<strong>Intento de suicidio en niños y adolescentes</strong> (nivel: sospecha y tratamiento inicial, con derivación). El suicidio es una de las primeras causas de muerte en el adolescente chileno. Los <strong>intentos</strong> son más frecuentes en mujeres y los <strong>suicidios consumados</strong> en hombres (métodos más letales, como el ahorcamiento). Factores de riesgo: intento previo (el mayor predictor), depresión, trastorno de conducta, consumo de sustancias, abuso sexual o maltrato, bullying y ciberacoso, conflictos familiares, discriminación por orientación sexual o identidad de género, acceso a medios letales y exposición a un suicidio cercano (contagio). El intento suele ser impulsivo y gatillado por un conflicto interpersonal (pelea con la pareja, humillación, castigo).",
+          "<em>Conducta:</em> todo intento es una urgencia. Primero la <strong>estabilización médica</strong> (la intoxicación medicamentosa es el método más común: pedir paracetamolemia aunque el adolescente esté asintomático); luego entrevista a solas con el adolescente y por separado con los padres (la confidencialidad tiene el límite de la seguridad), evaluación del plan, la letalidad y el arrepentimiento, <strong>nunca dejarlo solo</strong> y <strong>retirar del hogar los medios letales</strong> (fármacos, armas). Antes del alta debe evaluarlo psiquiatría infantojuvenil; se hospitaliza si persiste la ideación, el intento fue planificado o de alta letalidad, hay psicopatología grave o la red de apoyo es insuficiente. Se acuerda un plan de seguridad escrito, control precoz (dentro de la primera semana) y seguimiento sostenido; la línea de prevención del suicidio es el <strong>*4141</strong>.",
+          "<strong>Intervención en crisis</strong> (procedimiento: realizar). Es una intervención breve, centrada en el aquí y ahora, que se hace en las primeras horas o días tras un evento que desbordó la capacidad de afrontamiento (intento suicida, pérdida, violencia, desastre). Comienza con los <strong>primeros auxilios psicológicos</strong> (mirar, escuchar y conectar) y sigue seis pasos: <strong>1)</strong> establecer contacto y calma con escucha activa; <strong>2)</strong> evaluar el riesgo suicida u homicida y la seguridad; <strong>3)</strong> explorar el problema y validar las emociones; <strong>4)</strong> examinar alternativas y recursos de apoyo; <strong>5)</strong> acordar un plan de acción concreto y pequeño, con responsables; <strong>6)</strong> pactar el seguimiento y el cierre.",
+          "<em>Principios de la técnica:</em> inmediatez, cercanía al lugar de la crisis, expectativa de recuperación y duración breve (1-6 sesiones, habitualmente menos de 6 semanas). Se evita minimizar («no es para tanto»), dar consejos moralizantes, prometer confidencialidad absoluta o forzar a hablar del trauma. Se deriva a psiquiatría cuando hay riesgo vital, psicosis, intoxicación o un trastorno mental de base que explique la crisis."
         ]
       }
     ],
@@ -1290,6 +1318,14 @@ const psiquiatriaClasses = [
           "• Si el ánimo es crónicamente bajo por ≥ 2 años sin cumplir TDM continuo: <strong>Distimia</strong> (ISRS a largo plazo + TCC).",
           "• Si tras la pérdida de un ser querido hay tristeza normal, llanto y dolor sin culpa patológica ni ideación de muerte: <strong>Duelo no complicado</strong> (proceso normal, no requiere intervención médica)."
         ]
+      },
+      {
+        "subhead": "4. Trastornos Somatomorfos (de Síntomas Somáticos y Disociativo-Conversivos): Sospecha y Manejo Inicial",
+        "paragraphs": [
+          "Los <strong>trastornos somatomorfos</strong> (CIE-10 F45; «trastorno de síntomas somáticos» y «trastorno de ansiedad por enfermedad» en DSM-5) se sospechan ante <strong>síntomas físicos que causan malestar y deterioro sin una causa orgánica que los explique</strong>, con pensamientos y conductas desproporcionados (preocupación, búsqueda reiterada de atención, exámenes repetidos). Formas: <strong>somatización</strong> (múltiples síntomas en varios sistemas, inicio antes de los 30 años, curso crónico, más frecuente en mujeres), <strong>hipocondría</strong> (miedo a tener una enfermedad grave pese a estudios normales), <strong>dolor somatomorfo persistente</strong> y disfunción autonómica somatomorfa. Son <strong>involuntarios</strong>: el paciente no finge, y ahí está la diferencia con el trastorno facticio y la simulación.",
+          "El <strong>trastorno conversivo</strong> (síntomas neurológicos funcionales) produce déficit motor o sensitivo incompatible con una lesión (parálisis, afonía, ceguera, convulsiones no epilépticas) tras un estrés psicológico; el examen muestra inconsistencias (por ejemplo, signo de Hoover positivo) y la imagen y los exámenes son normales. Tiene buen pronóstico si se explica con claridad y se rehabilita; no debe llamarse «cosa de la cabeza» ni tratarse como simulación.",
+          "<em>Manejo inicial en APS:</em> una evaluación orgánica razonable y <strong>no repetir exámenes</strong> sin nueva indicación clínica; reconocer el sufrimiento y explicar que el síntoma es real; <strong>controles programados y regulares</strong> (no a demanda) con un mismo médico; tratar la depresión o ansiedad comórbida con ISRS y ofrecer TCC; <strong>evitar benzodiacepinas y opioides</strong>. Se deriva a psiquiatría ante mala respuesta, riesgo suicida, comorbilidad grave o diagnóstico dudoso."
+        ]
       }
     ],
     "table": {
@@ -1472,6 +1508,13 @@ const psiquiatriaClasses = [
         "paragraphs": [
           "La <strong>Terapia Cognitivo-Conductual (TCC)</strong> es tan eficaz como la farmacoterapia y presenta una <strong>tasa significativamente menor de recaídas a largo plazo tras el retiro del tratamiento</strong>.",
           "Sus componentes clave son: 1) Psicoeducación sobre el origen benigno de los síntomas fisiológicos del miedo; 2) Reestructuración cognitiva de pensamientos catastróficos (\"el corazón acelerado no significa que tendré un paro cardíaco\"); y 3) <strong>Exposición interoceptiva y en vivo</strong> (inducir voluntariamente hiperventilación o taquicardia para romper el condicionamiento del miedo, y exposición gradual a los sitios agorafóbicos evitados)."
+        ]
+      },
+      {
+        "subhead": "6. Interpretación de las Hormonas Tiroideas en el Paciente Psiquiátrico",
+        "paragraphs": [
+          "En psiquiatría la <strong>TSH</strong> (con <strong>T4 libre</strong> si está alterada) se pide ante ansiedad o pánico de inicio tardío, depresión, depresión resistente, manía de primer episodio, deterioro cognitivo y <strong>antes de iniciar litio</strong> (y luego cada 6-12 meses). Interpretación: <strong>TSH baja con T4L alta</strong> es hipertiroidismo (ansiedad, palpitaciones, temblor, insomnio, baja de peso; puede simular pánico, TAG o hipomanía); <strong>TSH alta con T4L baja</strong> es hipotiroidismo primario (apatía, ánimo bajo, lentitud, aumento de peso; simula depresión o demencia); TSH alta con T4L normal es hipotiroidismo subclínico (tratar si TSH mayor de 10 o con síntomas); TSH baja con T4L normal es hipertiroidismo subclínico (agregar T3 si hay clínica); TSH baja o normal con T4L baja sugiere causa central.",
+          "<em>Implicancias:</em> corregir la disfunción tiroidea suele resolver el síntoma psiquiátrico; el <strong>litio</strong> produce hipotiroidismo (hasta 20%) y bocio, y se maneja agregando levotiroxina sin suspenderlo. En la depresión resistente se puede potenciar el antidepresivo con T3, y en el hipertiroidismo los betabloqueadores alivian el temblor y la ansiedad mientras se espera el tratamiento específico. No se piden hormonas tiroideas en enfermedad aguda grave sin sospecha, porque el síndrome del enfermo eutiroideo las altera."
         ]
       }
     ],
@@ -1767,6 +1810,13 @@ const psiquiatriaClasses = [
           "• <strong>Fobia Social de Actuación / Desempeño Circunscrito:</strong> El tratamiento farmacológico de rescate de elección es un <strong>betabloqueador: Propranolol en dosis de 10 a 40 mg vía oral administrado 30 a 60 minutos antes del evento</strong>. Bloquea los síntomas periféricos simpáticos (taquicardia, temblor distal, rubor, sudoración) permitiendo el desempeño.",
           "• <strong>Regla EUNACOM sobre Benzodiacepinas:</strong> Están estrictamente desaconsejadas como tratamiento crónico. En el TAG, su uso continuado > 4-8 semanas genera tolerancia, dependencia física y deterioro de memoria, sin tratar la etiología de la preocupación.",
           "• <strong>Pregabalina:</strong> Fármaco modulador gabaérgico de segunda línea útil en TAG en casos de intolerancia o falta de respuesta a ISRS."
+        ]
+      },
+      {
+        "subhead": "4. Fobia Específica",
+        "paragraphs": [
+          "La <strong>fobia específica</strong> (nivel: sospecha y tratamiento inicial) es un miedo intenso y desproporcionado a un objeto o situación concretos (animales, alturas, tormentas, <strong>sangre, inyecciones o heridas</strong>, vuelo en avión, ascensores o espacios cerrados) que provoca ansiedad casi inmediata, conduce a evitarlo o soportarlo con malestar, y dura al menos 6 meses. Es el trastorno de ansiedad más frecuente (7-9% de la población), de inicio en la infancia. Se diferencia de la fobia social (miedo a la evaluación de otros) y de la agorafobia (múltiples situaciones, con temor a no poder escapar y crisis de pánico). La fobia a la sangre y las inyecciones es la única con respuesta <strong>vasovagal</strong> (bradicardia, hipotensión y síncope).",
+          "<em>Tratamiento:</em> la primera línea es la <strong>terapia de exposición gradual</strong> (in vivo, con desensibilización sistemática), que logra remisión en la mayoría con pocas sesiones. No hay indicación de fármacos de mantenimiento; solo, de forma puntual y por indicación médica, una benzodiacepina o un betabloqueador antes de una situación inevitable y aislada (un vuelo, un procedimiento). Se usa ISRS únicamente si hay depresión o ansiedad comórbida. En la fobia a la sangre se enseña la tensión muscular aplicada para evitar el síncope. Se deriva si la evitación deteriora la vida o hay comorbilidad."
         ]
       }
     ],
@@ -2093,6 +2143,15 @@ const psiquiatriaClasses = [
           "• <strong>Tratamiento de las Pesadillas Traumáticas: Prazosina</strong> (antagonista alfa-1 adrenérgico central; dosis 1 a 5 mg al acostarse). Muy eficaz para suprimir las pesadillas y el insomnio refractario al reducir la hiperactividad noradrenérgica nocturna.",
           "• <strong>Contraindicación EUNACOM de Oro:</strong> Las <strong>benzodiacepinas están formalmente desaconsejadas</strong> en el trauma agudo y TEPT. No previenen el TEPT, potencian el condicionamiento del miedo, interfieren con la extinción psicológica del trauma en la psicoterapia y conllevan alto riesgo de dependencia en pacientes traumatizados."
         ]
+      },
+      {
+        "subhead": "4. Criterios Completos del Trastorno por Estrés Agudo y Trastornos Disociativos",
+        "paragraphs": [
+          "<strong>Trastorno por estrés agudo (criterios y manejo completo).</strong> Exige exposición a muerte, lesión grave o violencia sexual (vivida, presenciada, conocida de un cercano o de exposición repetida a detalles aversivos) y <strong>9 o más de 14 síntomas</strong> de cinco categorías: intrusión (recuerdos, pesadillas, flashbacks, malestar ante señales), ánimo negativo (incapacidad de sentir emociones positivas), disociación (embotamiento, desrealización, amnesia del evento), evitación y activación (insomnio, irritabilidad, hipervigilancia, sobresalto). Dura <strong>desde 3 días hasta 1 mes</strong> después del trauma; si pasa de un mes y persisten los síntomas, es TEPT.",
+          "<em>Tratamiento y seguimiento:</em> seguridad, primeros auxilios psicológicos, psicoeducación, apoyo social y restablecer el sueño y la rutina; <strong>no se hace debriefing psicológico de sesión única</strong> y se evitan las benzodiacepinas de rutina (no previenen el TEPT y pueden empeorar su evolución). Si persisten los síntomas, <strong>TCC centrada en el trauma</strong> breve y control a las 2-4 semanas; un hipnótico por pocos días solo si el insomnio es incapacitante. Cerca de la mitad evoluciona a TEPT, por lo que se hace seguimiento y se deriva a quien no mejora.",
+          "Los <strong>trastornos disociativos</strong> (nivel: sospecha, tratamiento inicial y derivación) son una pérdida parcial o total de la integración de la memoria, la identidad, la percepción y el control motor, casi siempre ligada a trauma o estrés intenso. Incluyen la <strong>amnesia disociativa</strong> (olvido de información autobiográfica, más allá del olvido normal), la <strong>fuga disociativa</strong> (viaje inesperado con amnesia de la identidad), el <strong>trastorno de identidad disociativo</strong> (2 o más estados de identidad; antecedente de abuso infantil grave) y la <strong>despersonalización y desrealización</strong>. En la CIE-10 también se clasifican aquí los cuadros conversivos (déficits motores o sensitivos sin causa orgánica).",
+          "<em>Conducta:</em> es un diagnóstico por exclusión; antes se descartan TEC, epilepsia, intoxicación o abstinencia, hipoglicemia, tumor y la amnesia global transitoria (glicemia, tóxicos y, según el caso, neuroimagen y EEG). En el manejo inicial se asegura un ambiente seguro, se evita confrontar o forzar el recuerdo, se explica el cuadro con claridad y se deriva a psicoterapia especializada; no existe un fármaco específico y los ISRS se usan solo para la depresión o ansiedad comórbidas."
+        ]
       }
     ],
     "table": {
@@ -2276,6 +2335,14 @@ const psiquiatriaClasses = [
           "• <strong>Acatisia:</strong> Sensación subjetiva de inquietud motora intolerable con necesidad imperiosa de moverse (no poder quedarse sentado). Tratamiento: <strong>Propranolol 20 a 80 mg/día</strong> o benzodiacepinas.",
           "• <strong>Discinesia Tardía:</strong> Movimientos coreoatetoides involuntarios oro-facio-linguales (masticación, protrusión de lengua) tras años de tratamiento con antipsicóticos. El biperideno la empeora; se maneja rotando a Clozapina.",
           "• <strong>Duración del Mantenimiento:</strong> Tras la remisión de un <strong>primer episodio psicótico</strong>, el tratamiento antipsicótico debe mantenerse de forma continua durante al menos <strong>1 a 2 años</strong>. En pacientes con recaídas múltiples, el tratamiento es indefinido."
+        ]
+      },
+      {
+        "subhead": "6. Control del Paciente con Antipsicótico de Depósito: Examen Físico y Neurológico",
+        "paragraphs": [
+          "Los antipsicóticos de <strong>depósito</strong> o de acción prolongada se indican en esquizofrenia con mala adherencia a la vía oral: <strong>decanoato de flufenazina</strong> (12,5-50 mg cada 2-4 semanas), <strong>decanoato de haloperidol</strong> (cada 4 semanas), <strong>decanoato de zuclopentixol</strong> (cada 2-4 semanas), <strong>risperidona de liberación prolongada</strong> (cada 2 semanas) y <strong>palmitato de paliperidona</strong> (mensual o trimestral). Se inyectan por vía <strong>intramuscular profunda glútea</strong> (técnica en Z, máximo 2-3 mL por sitio), rotando el lado. La respuesta y los efectos adversos pueden demorar semanas en aparecer y en desaparecer.",
+          "<strong>Control antes de cada inyección (procedimiento: realizar):</strong> peso, IMC, perímetro de cintura, presión arterial y frecuencia cardíaca; temperatura (descartar SNM); inspección del sitio de inyección (dolor, nódulos, abscesos); y <strong>examen neurológico dirigido</strong>: busca <strong>parkinsonismo</strong> (rigidez en rueda dentada, temblor de reposo, bradicinesia, marcha en bloque, disminución del braceo), <strong>acatisia</strong> (inquietud motora, imposibilidad de permanecer sentado), <strong>distonía</strong> (espasmos de cuello, mandíbula u ojos) y <strong>discinesia tardía</strong> (movimientos involuntarios de lengua, labios y mandíbula, con la escala AIMS cada 6 meses). Se pregunta por síntomas de hiperprolactinemia (galactorrea, amenorrea, disfunción sexual), sedación, hipotensión ortostática y adherencia.",
+          "<em>Exámenes de seguimiento y conducta:</em> glicemia y perfil lipídico basal, a los 3 meses y luego anual; ECG si hay factores de riesgo de QT largo (haloperidol); prolactina si hay síntomas. Los efectos extrapiramidales se manejan reduciendo la dosis o cambiando el fármaco, con biperideno por períodos breves (no de rutina), y la acatisia con propranolol; ante fiebre, rigidez y alteración de conciencia se sospecha SNM y se deriva a urgencia. La discinesia tardía obliga a revisar la indicación con el especialista."
         ]
       }
     ],
@@ -3260,6 +3327,14 @@ const psiquiatriaClasses = [
           "• Las benzodiacepinas están <strong>formalmente contraindicadas</strong> en monoterapia (salvo abstinencia alcohólica) porque empeoran la desorientación, inducen efecto paradójico y duplican el riesgo de caídas y broncoaspiración.",
           "• El fármaco de elección para el control de la agitación severa en el anciano es <strong>Haloperidol a dosis muy bajas: 0.5 a 1 mg VO/IM</strong>, o antipsicóticos atípicos como Quetiapina 25 mg VO."
         ]
+      },
+      {
+        "subhead": "6. Delirium: Criterios Diagnósticos y Estudio Etiológico",
+        "paragraphs": [
+          "El <strong>delirium</strong> (síndrome confusional agudo) es una disfunción cerebral aguda y reversible de causa médica. Criterios DSM-5: <strong>A)</strong> alteración de la <strong>atención</strong> y de la conciencia (menor orientación al entorno); <strong>B)</strong> inicio agudo (horas a días), con <strong>curso fluctuante</strong> y cambio respecto del nivel basal; <strong>C)</strong> otra alteración cognitiva (memoria, desorientación, lenguaje, percepción con alucinaciones visuales); <strong>D)</strong> no se explica por una demencia ni por un coma; <strong>E)</strong> evidencia de una causa médica, intoxicación, abstinencia o fármaco. Hay formas <strong>hiperactiva</strong> (agitación), <strong>hipoactiva</strong> (la más frecuente, subdiagnosticada y de peor pronóstico) y mixta. Se tamiza con el <strong>CAM</strong>: inicio agudo y curso fluctuante, inatención, y pensamiento desorganizado o alteración del nivel de conciencia.",
+          "<em>Diferencial:</em> la demencia es de inicio insidioso, sin fluctuación ni alteración de la atención (aunque puede coexistir y es el principal factor de riesgo); la depresión y la psicosis conservan la atención y el nivel de conciencia. <strong>Estudio etiológico</strong> (busca las causas más frecuentes): signos vitales, saturación y glicemia capilar; hemograma, electrolitos (sodio, calcio), función renal y hepática, gases; orina completa y urocultivo; ECG y radiografía de tórax; tóxicos y niveles de fármacos; TSH y vitamina B12 según el caso. <strong>TAC de cerebro</strong> si hay focalidad, trauma o causa no aclarada; punción lumbar si hay fiebre y signos meníngeos; EEG (enlentecimiento difuso) si el diagnóstico es dudoso.",
+          "<em>Causas a buscar siempre:</em> fármacos (anticolinérgicos, benzodiacepinas, opioides, corticoides, antihistamínicos), infección (urinaria, neumonía), hipoxia, deshidratación y trastornos hidroelectrolíticos, retención urinaria, fecaloma, dolor, abstinencia de alcohol o sedantes y falla orgánica. El tratamiento es <strong>tratar la causa</strong> y las medidas no farmacológicas (reorientación, luz natural, sueño, lentes y audífonos, movilización, acompañante familiar, evitar contenciones y sondas). El haloperidol en dosis bajas (0,5-1 mg) se reserva para la agitación que pone en riesgo al paciente; las benzodiacepinas solo en la abstinencia alcohólica o de sedantes. Se deriva o se hospitaliza si la causa no está clara o no puede tratarse en el nivel."
+        ]
       }
     ],
     "table": {
@@ -3512,6 +3587,379 @@ const psiquiatriaClasses = [
     "vignetteText": "Hombre de 26 años con antecedente de esquizofrenia paranoide con abandono de tratamiento hace 3 meses, es trasladado al servicio de urgencias por personal de SAMU y Carabineros debido a que en su domicilio se encerró con un cuchillo, rompió mobiliario y amenazó de muerte a su madre afirmando que \"estaba poseída por un demonio\". Al ingresar al box de urgencias se encuentra en extremo hostil, gritando insultos, en posición de guardia con puños cerrados, lanzando patadas contra las camillas e intentando golpear a cualquier persona que se acerque. El médico intenta una desescalada verbal manteniendo la distancia, pero el paciente responde con mayor agresividad verbal y lanza una bandeja metálica hacia la enfermera, amenazando con \"romperles el cuello a todos\"."
   },
   {
+    "id": "psiq-19",
+    "classId": "psiq-19",
+    "tier": 2,
+    "blockNum": 3,
+    "blockName": "Trastornos Psicóticos & Urgencias Psiquiátricas",
+    "topicLabel": "17.19",
+    "title": "Psiquiatría General: Clasificaciones (DSM-5/CIE-10), Higiene del Sueño, Trastornos Facticios y Nociones de Psiquiatría Forense",
+    "perfilCode": "5.01.3.001, 5.01.3.005, 5.01.1.022, 5.01.3.009",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Sin garantía GES específica · Ley 21.331 de derechos de las personas en atención de salud mental y Ley 20.584 de derechos del paciente.",
+    "reconstrucciones": "EUNACOM Agosto 2021 (Q#163) · EUNACOM Diciembre 2024 (Q#94)",
+    "frecuencia": "Media · trastorno facticio vs simulación vs somatomorfo, higiene del sueño como primera medida del insomnio y CIE-10 como clasificación oficial en Chile",
+    "svg": null,
+    "algoTitle": "Algoritmo Diagnóstico del Síntoma Físico Producido o Exagerado",
+    "diagram": {
+      "title": "Diagnóstico Diferencial del Síntoma Físico sin Causa Orgánica",
+      "svg": "<svg viewBox=\"0 0 620 357\" width=\"100%\" style=\"max-width:620px;font-family:'IBM Plex Sans',system-ui,sans-serif\">\n  <defs><marker id=\"ar\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#7e22ce\"/></marker></defs>\n  <style>\n    .b{fill:#fff;stroke:#cbd5e1;stroke-width:1}\n    .t{font-size:10px;fill:#15181d}\n    .sub{font-size:8px;fill:#475569}.lbl{font-size:7.5px;fill:#7e22ce;font-weight:700}\n    .acc{fill:#7e22ce;stroke:#6b21a8}.accT{fill:#fff}.accS{font-size:8px;fill:#f3e8ff}\n    .dec{fill:#faf5ff;stroke:#d8b4fe;stroke-width:1}\n    .warn{fill:#fef2f2;stroke:#fecaca;stroke-width:1}.warnT{fill:#991b1b}\n    .crit{fill:#fff1f2;stroke:#f43f5e;stroke-width:1}\n    .ln{stroke:#7e22ce;stroke-width:1.2;fill:none;marker-end:url(#ar)}\n  </style>\n  <rect class=\"warn\" x=\"100\" y=\"8\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"310\" y=\"23\" text-anchor=\"middle\" font-weight=\"700\">Síntomas físicos sin causa orgánica demostrable</text>\n  <text class=\"warnT sub\" x=\"310\" y=\"35\" text-anchor=\"middle\">Estudio razonable negativo · inconsistencias en la historia</text>\n  <path class=\"ln\" d=\"M310,47 V69\"/>\n  <rect class=\"dec\" x=\"70\" y=\"69\" width=\"480\" height=\"39\" rx=\"3\"/>\n  <text class=\"t t\" x=\"310\" y=\"84\" text-anchor=\"middle\" font-weight=\"700\">¿El paciente produce o exagera el síntoma de forma consciente?</text>\n  <text class=\"sub\" x=\"310\" y=\"96\" text-anchor=\"middle\">Preguntar sin acusar · revisar ficha y hospitalizaciones previas</text>\n  <path class=\"ln\" d=\"M310,108 V138 H158 V148\"/>\n  <path class=\"ln\" d=\"M310,138 H462 V148\"/>\n  <text class=\"lbl\" x=\"158\" y=\"133\" text-anchor=\"middle\">No: síntomas involuntarios</text>\n  <text class=\"lbl\" x=\"462\" y=\"133\" text-anchor=\"middle\">Sí: intencional</text>\n  <rect class=\"acc\" x=\"12\" y=\"148\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"158\" y=\"163\" text-anchor=\"middle\" font-weight=\"700\">Somatomorfo / Conversivo</text>\n  <text class=\"accS\" x=\"158\" y=\"175\" text-anchor=\"middle\">Sufrimiento real, sin engaño</text>\n  <text class=\"accS\" x=\"158\" y=\"186\" text-anchor=\"middle\">Controles regulares · TCC · no repetir exámenes</text>\n  <rect class=\"dec\" x=\"316\" y=\"148\" width=\"292\" height=\"39\" rx=\"3\"/>\n  <text class=\"t t\" x=\"462\" y=\"163\" text-anchor=\"middle\" font-weight=\"700\">¿Hay un beneficio externo evidente?</text>\n  <text class=\"sub\" x=\"462\" y=\"175\" text-anchor=\"middle\">Licencia, dinero, evitar la cárcel, obtener drogas</text>\n  <path class=\"ln\" d=\"M158,198 V208 H310 V220\"/>\n  <path class=\"ln\" d=\"M462,198 V208 H310 V220\"/>\n  <rect class=\"dec\" x=\"70\" y=\"220\" width=\"480\" height=\"39\" rx=\"3\"/>\n  <text class=\"t t\" x=\"310\" y=\"235\" text-anchor=\"middle\" font-weight=\"700\">Beneficio externo presente o ausente</text>\n  <text class=\"sub\" x=\"310\" y=\"247\" text-anchor=\"middle\">Define simulación vs facticio</text>\n  <path class=\"ln\" d=\"M310,259 V289 H158 V299\"/>\n  <path class=\"ln\" d=\"M310,289 H462 V299\"/>\n  <text class=\"lbl\" x=\"158\" y=\"284\" text-anchor=\"middle\">Sí: simulación</text>\n  <text class=\"lbl\" x=\"462\" y=\"284\" text-anchor=\"middle\">No: rol de enfermo</text>\n  <rect class=\"crit\" x=\"12\" y=\"299\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"158\" y=\"314\" text-anchor=\"middle\" font-weight=\"700\">Simulación (no es enfermedad mental)</text>\n  <text class=\"warnT sub\" x=\"158\" y=\"326\" text-anchor=\"middle\">Motivo externo consciente</text>\n  <text class=\"warnT sub\" x=\"158\" y=\"337\" text-anchor=\"middle\">Documentar · no confrontar sin pruebas</text>\n  <rect class=\"warn\" x=\"316\" y=\"299\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"462\" y=\"314\" text-anchor=\"middle\" font-weight=\"700\">Trastorno Facticio</text>\n  <text class=\"warnT sub\" x=\"462\" y=\"326\" text-anchor=\"middle\">Asumir el rol de enfermo es el único fin</text>\n  <text class=\"warnT sub\" x=\"462\" y=\"337\" text-anchor=\"middle\">Interconsulta psiquiátrica · evitar procedimientos</text>\n</svg>"
+    },
+    "contexto": "Este tema reúne cuatro contenidos de la psiquiatría general que el médico general usa a diario. Los sistemas de clasificación (DSM-5 y CIE-10) ordenan el diagnóstico y la CIE-10 es el oficial en Chile para la ficha, el GES y las licencias. La higiene del sueño es la primera medida de todo insomnio y se prefiere a los hipnóticos. Los trastornos facticios, en que el paciente produce síntomas de forma intencional sin ganancia externa, se separan de la simulación y de los trastornos somatomorfos. Por último, las nociones de psiquiatría forense (imputabilidad, capacidad y hospitalización involuntaria) entregan el marco legal con que se trabaja en urgencias.",
+    "contentSections": [
+      {
+        "subhead": "1. Clasificaciones en Psiquiatría: DSM-5, CIE-10 y CIE-11",
+        "paragraphs": [
+          "El diagnóstico psiquiátrico es <strong>sindromático y clínico</strong>: se basa en la entrevista, el examen mental (apariencia, conciencia, atención, orientación, memoria, lenguaje, curso y contenido del pensamiento, sensopercepción, afecto, conducta, juicio e introspección) y en criterios operativos, no en un examen de laboratorio confirmatorio. Los dos sistemas vigentes son el <strong>DSM-5</strong> (Asociación Americana de Psiquiatría; descriptivo, categorial, con criterios detallados; eliminó el sistema multiaxial) y la <strong>CIE-10</strong> (OMS; capítulo V, códigos F00-F99).",
+          "La <strong>CIE-10</strong> es la clasificación oficial en Chile para la ficha clínica, las estadísticas, las licencias médicas y el GES; el DSM-5 se usa más como referencia de criterios diagnósticos. La CIE-11 (vigente desde 2022) reorganiza el capítulo y saca la incongruencia de género de los trastornos mentales. Capítulos de la CIE-10: <strong>F0</strong> orgánicos (demencia, delirium), <strong>F1</strong> sustancias, <strong>F2</strong> esquizofrenia y psicosis, <strong>F3</strong> del ánimo, <strong>F4</strong> neuróticos, ligados al estrés y somatomorfos, <strong>F5</strong> síndromes conductuales con disfunción fisiológica (alimentación, sueño, sexuales), <strong>F6</strong> personalidad, <strong>F7</strong> retardo mental, <strong>F8</strong> desarrollo psicológico y <strong>F9</strong> de inicio en la infancia."
+        ]
+      },
+      {
+        "subhead": "2. Insomnio e Higiene del Sueño",
+        "paragraphs": [
+          "El adulto duerme 7-9 horas en ciclos de unos 90 minutos de sueño NREM (etapas 1 a 3) y REM. El <strong>insomnio crónico</strong> es la dificultad para conciliar, mantener el sueño o el despertar precoz, al menos 3 noches por semana durante 3 meses, con repercusión diurna. Antes de tratarlo se buscan sus causas: depresión (despertar precoz), ansiedad, apnea del sueño, síndrome de piernas inquietas, dolor, abuso de cafeína, alcohol o estimulantes, y fármacos (corticoides, broncodilatadores, ISRS, betabloqueadores).",
+          "La <strong>higiene del sueño</strong> es la primera medida, y la única que corresponde en el insomnio leve o sin causa clara: horarios fijos para acostarse y levantarse, incluidos los fines de semana; usar la cama solo para dormir y para la actividad sexual; <strong>evitar siestas</strong> de más de 30 minutos o después de las 15 horas; no tomar cafeína en las 6-8 horas previas ni fumar de noche; <strong>evitar el alcohol</strong> (fragmenta el sueño); cena liviana; ejercicio regular, no en las 3 horas previas; dormitorio oscuro, silencioso y fresco; apagar pantallas 1 hora antes; y si no se duerme en 20 minutos, salir de la cama y volver cuando haya sueño (control de estímulos).",
+          "Si persiste, la primera línea es la <strong>terapia cognitivo-conductual para el insomnio</strong> (control de estímulos y restricción del sueño). Los fármacos son de segunda línea y por <strong>períodos cortos</strong> (zolpidem o zopiclona por 2-4 semanas como máximo); se evitan las benzodiacepinas de vida media larga y los antipsicóticos sedantes, como la quetiapina, para un insomnio simple. Si hay depresión o ansiedad, se trata la enfermedad de base."
+        ]
+      },
+      {
+        "subhead": "3. Trastornos Facticios: Diferencias con Simulación y Somatomorfos",
+        "paragraphs": [
+          "El <strong>trastorno facticio</strong> consiste en <strong>producir o falsificar intencionalmente síntomas físicos o psicológicos</strong> (o inducirse una enfermedad o lesión) con engaño, para <strong>asumir el rol de enfermo</strong>, sin una recompensa externa evidente. La forma crónica y grave es el síndrome de Münchhausen. Se sospecha ante una historia dramática pero inconsistente, múltiples hospitalizaciones y cicatrices quirúrgicas, conocimiento médico o trabajo en salud, síntomas que no responden o se agravan al tratamiento y que mejoran cuando el paciente no es observado. Ejemplos: ingesta de laxantes o insulina (glicemia baja con insulina alta y <strong>péptido C bajo</strong>), anticoagulantes (hemorragia con INR prolongado), manipulación del termómetro (fiebre facticia) y lesiones cutáneas autoinfligidas.",
+          "<em>Diagnóstico diferencial:</em> en la <strong>simulación</strong> el engaño es consciente y hay un <strong>motivo externo claro</strong> (licencia médica, dinero, evitar la cárcel o el trabajo, obtener drogas); no es una enfermedad mental. En los trastornos <strong>somatomorfos y conversivos</strong> los síntomas son involuntarios y no hay engaño. En el <strong>trastorno facticio impuesto a otro</strong> (antes, Münchhausen por poder) un cuidador, casi siempre la madre, provoca la enfermedad de un niño: es una forma de abuso infantil y obliga a proteger al menor y a notificar a la justicia de familia.",
+          "<em>Conducta (nivel: sospecha, tratamiento inicial y derivación):</em> no confrontar de modo acusatorio; coordinar al equipo y mantener una ficha única; <strong>evitar exámenes y procedimientos invasivos innecesarios</strong>; pedir interconsulta de psiquiatría; y plantear al paciente con empatía que el sufrimiento es real y que existen ayudas. El pronóstico es reservado y el paciente suele abandonar el centro cuando es descubierto."
+        ]
+      },
+      {
+        "subhead": "4. Nociones de Psiquiatría Forense y Marco Legal en Salud Mental",
+        "paragraphs": [
+          "La psiquiatría forense aplica los conocimientos clínicos a preguntas de la justicia. La más importante es la <strong>imputabilidad</strong>: la capacidad de comprender el carácter ilícito del acto y de actuar conforme a esa comprensión. En el Código Penal chileno el «loco o demente» queda exento de responsabilidad penal (<strong>inimputabilidad por enajenación mental</strong>) salvo que haya actuado en un intervalo lúcido; se aplican <strong>medidas de seguridad</strong> (internación en un establecimiento psiquiátrico) y no una pena. Un paciente psicótico que mata por un delirio y órdenes alucinatorias en pleno brote es típicamente inimputable; el mero consumo de alcohol o drogas no lo es, y los trastornos de la personalidad tampoco.",
+          "Otras nociones: <strong>capacidad civil</strong> (la interdicción por demencia declara incapaz a quien no puede administrar sus bienes), <strong>capacidad para consentir</strong> (comprender, apreciar, razonar y expresar una elección), <strong>peritaje psiquiátrico</strong> (lo realiza un perito, habitualmente del Servicio Médico Legal, y es distinto del rol del médico tratante, que no debe peritar a su propio paciente) y <strong>deber de denuncia</strong> (el médico debe denunciar los delitos que conozca en el ejercicio de sus funciones, como lesiones graves o abuso sexual, sin que esto vulnere el secreto médico).",
+          "La <strong>Ley 21.331</strong> (2021) reconoce los derechos de las personas en atención de salud mental: consentimiento informado, atención en el medio menos restrictivo y la hospitalización y la contención como último recurso. La <strong>hospitalización involuntaria</strong> solo procede por indicación de un médico psiquiatra cuando hay un riesgo cierto e inminente para la persona o terceros y no existe una alternativa menos restrictiva; se informa a la autoridad sanitaria y queda sujeta a revisión por una comisión regional. La contención física debe registrarse en la ficha y mantener la dignidad del paciente."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Facticio, Simulación, Somatomorfo y Conversivo: Cómo Distinguirlos",
+      "headers": [
+        "Entidad",
+        "¿Es intencional?",
+        "Motivación",
+        "Conducta del Médico General"
+      ],
+      "rows": [
+        [
+          "Trastorno facticio",
+          "Sí, con engaño",
+          "Asumir el rol de enfermo (ganancia psicológica)",
+          "Evitar procedimientos, interconsulta psiquiátrica, no acusar"
+        ],
+        [
+          "Simulación",
+          "Sí, consciente",
+          "Beneficio externo: licencia, dinero, drogas, evitar un castigo",
+          "Documentar objetivamente; no es enfermedad mental"
+        ],
+        [
+          "Somatomorfo",
+          "No",
+          "Sufrimiento por síntomas físicos sin causa orgánica",
+          "Controles regulares, no repetir exámenes, ISRS/TCC"
+        ],
+        [
+          "Conversivo",
+          "No",
+          "Déficit neurológico funcional ligado a un estrés",
+          "Explicar con claridad, rehabilitación, derivar"
+        ],
+        [
+          "Facticio impuesto a otro",
+          "Sí, hacia un tercero",
+          "Rol de cuidador de un niño enfermo",
+          "Proteger al menor y notificar a la justicia de familia"
+        ]
+      ]
+    },
+    "severityTable": {
+      "title": "Capítulos de la CIE-10 para Trastornos Mentales (Clasificación Oficial en Chile)",
+      "headers": [
+        "Código",
+        "Grupo",
+        "Ejemplos"
+      ],
+      "rows": [
+        [
+          "F00-F09",
+          "Trastornos orgánicos",
+          "Demencia, delirium"
+        ],
+        [
+          "F10-F19",
+          "Uso de sustancias",
+          "Alcohol, cocaína, cannabis"
+        ],
+        [
+          "F20-F29",
+          "Esquizofrenia y trastornos delirantes",
+          "Esquizofrenia, psicosis breve"
+        ],
+        [
+          "F30-F39",
+          "Trastornos del ánimo",
+          "Depresión, bipolar, distimia"
+        ],
+        [
+          "F40-F48",
+          "Neuróticos, estrés y somatomorfos",
+          "Pánico, TOC, TEPT, disociativos, somatomorfos"
+        ],
+        [
+          "F50-F59",
+          "Conductuales con disfunción fisiológica",
+          "Anorexia, insomnio no orgánico, disfunción sexual"
+        ],
+        [
+          "F60-F69",
+          "Personalidad y conducta del adulto",
+          "Límite, antisocial, parafilias"
+        ],
+        [
+          "F70-F79",
+          "Retardo mental",
+          "Leve a profundo"
+        ],
+        [
+          "F80-F89",
+          "Desarrollo psicológico",
+          "Autismo, trastornos del aprendizaje"
+        ],
+        [
+          "F90-F98",
+          "De inicio en la infancia",
+          "TDAH, conducta, enuresis"
+        ]
+      ]
+    },
+    "treatmentTable": {
+      "title": "Insomnio: Escalones de Manejo",
+      "headers": [
+        "Escalón",
+        "Medida",
+        "Clave de Examen"
+      ],
+      "rows": [
+        [
+          "Causas",
+          "Depresión, ansiedad, apnea, dolor, cafeína, alcohol y fármacos",
+          "Tratar la causa antes del hipnótico"
+        ],
+        [
+          "Higiene del sueño",
+          "Horarios fijos, cama solo para dormir, sin siestas largas ni cafeína, sin alcohol, sin pantallas",
+          "Primera medida siempre"
+        ],
+        [
+          "TCC para insomnio",
+          "Control de estímulos y restricción del sueño",
+          "Primera línea del insomnio crónico"
+        ],
+        [
+          "Fármacos",
+          "Zolpidem o zopiclona por 2-4 semanas como máximo",
+          "Evitar benzodiacepinas de vida media larga"
+        ],
+        [
+          "Evitar",
+          "Quetiapina u otros antipsicóticos sedantes para el insomnio simple",
+          "Sin indicación ni evidencia"
+        ]
+      ]
+    },
+    "vignette": "Enfermera de 31 años, hospitalizada hace dos semanas por diarrea, vómitos y dolor abdominal de difícil manejo, es sorprendida por el personal ingiriendo laxantes a escondidas y manipulando el termómetro. Los exámenes descartan patología orgánica y no tiene licencia, juicio pendiente ni beneficio económico aparente; en el interrogatorio relata varias hospitalizaciones previas en otros centros.",
+    "explicacion": "Es un trastorno facticio: produce síntomas de forma intencional (laxantes, termómetro) sin beneficio externo evidente, con el único fin de asumir el rol de enfermo, a diferencia de la simulación (hay un motivo externo) y de los trastornos somatomorfos (síntomas involuntarios). La conducta es no confrontar de manera acusatoria, evitar exámenes y procedimientos innecesarios, coordinar al equipo con una ficha única y pedir interconsulta de psiquiatría.",
+    "keyPoints": [
+      "El diagnóstico psiquiátrico es clínico y sindromático; la CIE-10 (F00-F99) es la clasificación oficial en Chile para ficha, GES y licencias, y el DSM-5 aporta los criterios.",
+      "Higiene del sueño: horarios fijos, cama solo para dormir, sin siestas largas, cafeína ni alcohol; es la primera medida, antes de cualquier hipnótico.",
+      "La TCC para insomnio es la primera línea del insomnio crónico; los hipnóticos se usan solo 2-4 semanas y no se usa quetiapina para el insomnio simple.",
+      "Trastorno facticio: produce síntomas de forma intencional para asumir el rol de enfermo, sin beneficio externo; la simulación sí tiene un motivo externo y no es enfermedad mental.",
+      "Los trastornos somatomorfos y conversivos son involuntarios; el facticio impuesto a otro (cuidador a un niño) es abuso infantil y obliga a proteger y notificar.",
+      "Imputabilidad: el «loco o demente» es inimputable y recibe medidas de seguridad, no una pena; el consumo de alcohol o drogas no lo exime.",
+      "La Ley 21.331 reconoce el consentimiento informado y la hospitalización involuntaria como último recurso, indicada por psiquiatra por riesgo cierto e inminente."
+    ],
+    "questions": [
+      {
+        "stem": "Una paciente de 22 años es hospitalizada por un cuadro de diarrea, vómitos y dolor abdominal de difícil manejo. Durante la hospitalización es sorprendida ingiriendo laxantes, autoinduciéndose vómitos y adulterando la temperatura del termómetro. Se solicitan exámenes, descartándose patología orgánica. Además, luego de indagar, no se encuentra ninguna ganancia evidente con estos síntomas. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Trastorno conversivo"
+          },
+          {
+            "id": "B",
+            "text": "Trastorno facticio"
+          },
+          {
+            "id": "C",
+            "text": "Trastorno delirante"
+          },
+          {
+            "id": "D",
+            "text": "Trastorno bipolar"
+          },
+          {
+            "id": "E",
+            "text": "Trastorno de la conducta alimentaria"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Tiene un trastorno facticio clásico, del tipo Múnchausen, ya que se autoprovoca síntomas (no solo los finge). No tiene ganancias económicas (así que no es simulación, sino facticio, cuya ganancia es afectiva, aunque no se muestre en la pregunta).",
+        "recTag": "EUNACOM Agosto 2021 · Pregunta 163"
+      },
+      {
+        "stem": "Una paciente de 30 años, diabética tipo 1, con historia de 5 hospitalizaciones en el último año por cuadros de hipoglicemia severa. Actualmente ingresa en shock hipogli- cémico, el que es manejado adecuadamente. Durante su hospitalización, es sorprendida en el baño inyectándose una dosis de insulina que no le correspondía, lo cual ella poste- riormente niega. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Trastorno disociativo"
+          },
+          {
+            "id": "B",
+            "text": "Trastorno somatomorfo"
+          },
+          {
+            "id": "C",
+            "text": "Trastorno hipocondriaco"
+          },
+          {
+            "id": "D",
+            "text": "Trastorno por simulación"
+          },
+          {
+            "id": "E",
+            "text": "Trastorno facticio"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "Diagnóstico: **Trastorno facticio** (opción **E**). Es un trastorno facticio clásico. No es por simulación, porque no hay un fin económico.. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).",
+        "recTag": "EUNACOM Julio 2017 · Pregunta 47"
+      },
+      {
+        "stem": "Un paciente presenta dolor abdominal y vómitos desde hace 5 días, y tiene una actitud muy demandante y agresiva, solicitando la realización de exámenes y administración de medicamentos. En una ocasión fue sorprendido tomando laxantes y adulterando la temperatura del termómetro. Además, hace un año estuvo hospitalizado por un cuadro similar, hecho que él no refirió en la consulta. Al indagar un poco más, se concluye que no tiene una causa orgánica que explique sus síntomas, pero que tampoco hay una ganancia evidente para él. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Trastorno por hipocondría"
+          },
+          {
+            "id": "B",
+            "text": "Trastorno de somatización"
+          },
+          {
+            "id": "C",
+            "text": "Trastorno delirante crónico"
+          },
+          {
+            "id": "D",
+            "text": "Episodio psicótico breve"
+          },
+          {
+            "id": "E",
+            "text": "Trastorno facticio"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "Diagnóstico: **Trastorno facticio** (opción **E**). Al hacerlo intencionalmente, es un trastorno facticio clásico.. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).",
+        "recTag": "EUNACOM Diciembre 2017 · Pregunta 102"
+      },
+      {
+        "stem": "Enfermera luego de su turnos de urgencia le cuesta dormir y se automedica con diazepam, conducta:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Clotiazepam antes de dormir"
+          },
+          {
+            "id": "B",
+            "text": "Quetiapina"
+          },
+          {
+            "id": "C",
+            "text": "Higiene del sueño/ control ambiental"
+          },
+          {
+            "id": "D",
+            "text": "Zolpidem"
+          },
+          {
+            "id": "E",
+            "text": "Observación clínica"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Conducta / Tratamiento indicado: **Higiene del sueño/ control ambiental** (opción **C**). Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención.",
+        "recTag": "EUNACOM Diciembre 2024 · Pregunta 94"
+      },
+      {
+        "stem": "Un médico de un CESFAM debe registrar el diagnóstico de un paciente con depresión para efectos estadísticos, de licencia médica y de notificación GES, según el sistema oficial usado por el Ministerio de Salud de Chile. ¿Qué sistema de clasificación corresponde utilizar?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Escala de depresión de Hamilton"
+          },
+          {
+            "id": "B",
+            "text": "Manual Diagnóstico y Estadístico DSM-5 de la Asociación Americana de Psiquiatría"
+          },
+          {
+            "id": "C",
+            "text": "Escala de Evaluación de la Actividad Global (GAF)"
+          },
+          {
+            "id": "D",
+            "text": "Clasificación de Kraepelin"
+          },
+          {
+            "id": "E",
+            "text": "Clasificación Internacional de Enfermedades (CIE) de la OMS"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "En Chile, las estadísticas oficiales, licencias médicas y registros del sistema de salud usan la Clasificación Internacional de Enfermedades (CIE) de la OMS. El DSM-5, de la Asociación Americana de Psiquiatría, es muy usado en clínica e investigación, y abandonó el sistema multiaxial. Las escalas GAF y Hamilton miden gravedad, no clasifican.",
+        "recTag": "Pregunta de práctica · Perfil V3 5.01.3.001"
+      },
+      {
+        "stem": "Hombre de 28 años con esquizofrenia, sin tratamiento hace 6 meses, agrede gravemente a su vecino. En el peritaje se constata que al momento del hecho cursaba un episodio psicótico agudo, con delirio de persecución en el que el vecino lo iba a matar, y alucinaciones auditivas que le ordenaban defenderse. ¿Qué concepto pericial corresponde a su condición al momento del delito?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Simulación"
+          },
+          {
+            "id": "B",
+            "text": "Inimputabilidad por enajenación mental"
+          },
+          {
+            "id": "C",
+            "text": "Imputabilidad plena"
+          },
+          {
+            "id": "D",
+            "text": "Trastorno facticio"
+          },
+          {
+            "id": "E",
+            "text": "Responsabilidad penal agravada por la enfermedad"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La imputabilidad es la capacidad de comprender la ilicitud de un acto y autodeterminarse según esa comprensión. Un episodio psicótico agudo que priva totalmente de razón al momento del hecho determina inimputabilidad (Código Penal, loco o demente). No exime de consecuencias: el tribunal puede imponer medidas de seguridad, como internación o tratamiento.",
+        "recTag": "Pregunta de práctica · Perfil V3 5.01.3.009"
+      }
+    ]
+  },
+  {
     "id": "psiq-15",
     "classId": "psiq-15",
     "tier": 3,
@@ -3575,6 +4023,14 @@ const psiquiatriaClasses = [
           "  - <strong>Naltrexona:</strong> Antagonista opioide que bloquea los receptores mu-opioides en el sistema de recompensa límbico, reduciendo el \"craving\" (deseo compulsivo) y el placer derivado del consumo de alcohol. Contraindicado en falla hepática aguda o uso concomitante de opioides.",
           "  - <strong>Disulfiram:</strong> Inhibidor irreversible de la aldehído deshidrogenasa. Si el paciente bebe alcohol, se acumula acetaldehído en minutos produciendo una reacción aversiva severa (náuseas, vómitos incoercibles, rubor, hipotensión y taquicardia). Requiere un paciente altamente motivado y supervisión estricta.",
           "  - <strong>Acamprosato:</strong> Modulador de la transmisión glutamatérgica NMDA que reduce la disforia protracted de la abstinencia; seguro en insuficiencia hepática ya que se excreta por vía renal."
+        ]
+      },
+      {
+        "subhead": "5. EBBA, Estado Confusional Agudo del Alcohólico y Tiamina: Dosis y Vía",
+        "paragraphs": [
+          "La <strong>Escala Breve de Beber Anormal (EBBA)</strong> es un cuestionario de tamizaje de aplicación rápida en entrevista, con preguntas de respuesta sí/no sobre la pérdida de control, el uso para aliviar malestar, las consecuencias y la dificultad para dejar el alcohol; un puntaje sobre el punto de corte orienta a <strong>beber anormal</strong> y obliga a ahondar con el AUDIT y los criterios DSM-5. Es un instrumento de tamizaje: no diagnostica el trastorno por uso de alcohol por sí sola. Se aplica a solas, sin juicios, y el resultado se registra y se usa para decidir entre intervención breve (riesgo) y derivación (probable dependencia).",
+          "<strong>Estado confusional agudo del paciente alcohólico y de otras causas tóxico-metabólicas.</strong> Además del delirium tremens (a las 48-96 horas de la última copa, con fiebre y hiperactividad autonómica) y de la encefalopatía de Wernicke (confusión, oftalmoplejía, ataxia), el alcohólico confuso puede tener <strong>hipoglicemia, encefalopatía hepática, hiponatremia, uremia, hemorragia subdural por caídas, infección o intoxicación por otras sustancias o fármacos</strong>. Se pide glicemia capilar de inmediato, electrolitos, función hepática y renal, amonemia, tóxicos, gases y TAC de cerebro si hay trauma, focalidad o sin causa clara, y se trata la causa mientras se da tiamina.",
+          "<strong>Tiamina:</strong> en la sospecha de Wernicke se administra <strong>tiamina 500 mg endovenosa, 3 veces al día, por 2-3 días</strong>, y luego 250 mg al día por vía IV o IM durante 3-5 días más, seguida de 100 mg oral diarios. <strong>Siempre antes del suero glucosado</strong> (la glucosa consume tiamina y puede precipitar o agravar la encefalopatía). Como profilaxis en todo alcohólico hospitalizado o con desnutrición se dan 100-250 mg al día IM o IV. La vía oral absorbe mal en el alcohólico y no sirve para tratar el Wernicke."
         ]
       }
     ],
@@ -3874,6 +4330,19 @@ const psiquiatriaClasses = [
           "• <strong>Intoxicación Aguda:</strong> Euforia inicial seguida de relajación, alteración de la memoria a corto plazo, distorsión témporo-espacial, aumento del apetito (\"bajón\"), taquicardia sinusal e <strong>hiperemia conjuntival (inyección conjuntival bilateral característica)</strong>. En personas con labilidad o dosis altas puede gatillar crisis de angustia paroxísticas o brotes psicóticos agudos (\"psicosis inducida por cannabis\").",
           "• <strong>Síndrome de Hiperemesis Cannabinoide:</strong> Cuadro clínico paradójico en consumidores crónicos pesados (> 1 año de uso diario) caracterizado por <strong>episodios cíclicos recurrentes de náuseas incoercibles, vómitos explosivos y dolor abdominal epigástrico</strong>. <em>Signo patognomónico:</em> <strong>Compulsión por tomar baños o duchas prolongadas con agua muy caliente</strong>, lo cual alivia los síntomas al modular los receptores TRPV1 cutáneos. El único tratamiento definitivo es la <strong>cesación permanente del cannabis</strong>."
         ]
+      },
+      {
+        "subhead": "4. Consumo Perjudicial y Dependencia de Drogas: Enfoque General, Otras Intoxicaciones, Examen de Orina y Prevención",
+        "paragraphs": [
+          "<strong>Consumo perjudicial y dependencia (enfoque general).</strong> El <strong>consumo perjudicial</strong> (CIE-10 F1x.1) es el uso que ya causó daño físico o mental sin cumplir criterios de dependencia. La <strong>dependencia</strong> exige 3 o más de 6 criterios en el último año: deseo intenso de consumir, dificultad para controlar el consumo, síndrome de abstinencia, tolerancia, abandono de otros intereses y persistencia pese al daño. El DSM-5 los unifica como <strong>trastorno por uso de sustancias</strong>: leve (2-3 criterios), moderado (4-5) y grave (6 o más). El tamizaje se hace con <strong>ASSIST</strong> (drogas), <strong>AUDIT</strong> (alcohol) y <strong>CRAFFT</strong> (adolescentes).",
+          "<em>Conducta (nivel completo):</em> entrevista motivacional según la etapa de cambio (precontemplación, contemplación, preparación, acción, mantención), <strong>intervención breve</strong> en el consumo de riesgo, tratamiento ambulatorio básico o intensivo en los programas de tratamiento y rehabilitación (GES para menores de 20 años) y derivación a centro de tratamiento cuando hay dependencia grave, comorbilidad psiquiátrica o fracaso ambulatorio. Se tratan la abstinencia y las comorbilidades, se ofrece reducción de daños y se hace seguimiento prolongado: la recaída es parte del curso de la enfermedad y no un fracaso.",
+          "<strong>Consumo perjudicial de drogas en niños y adolescentes.</strong> Las sustancias más usadas son alcohol, tabaco y cannabis, y cuanto más precoz el inicio mayor es el riesgo de dependencia y de comorbilidad (depresión, TDAH, trastorno de conducta). El <strong>CRAFFT</strong> (Car, Relax, Alone, Forget, Friends, Trouble) tiene 6 preguntas, y <strong>2 o más respuestas afirmativas</strong> indican alto riesgo. En el adolescente se mantiene la confidencialidad con el límite de la seguridad, se involucra a la familia (terapia familiar), se evalúa el rendimiento escolar y la comorbilidad psiquiátrica, y se deriva a los programas de tratamiento para menores de 20 años cuando hay dependencia o consumo perjudicial.",
+          "<strong>Otras intoxicaciones (nivel: sospecha y manejo inicial).</strong> <strong>Opioides:</strong> la tríada de coma, <strong>miosis</strong> y depresión respiratoria; se ventila y se administra <strong>naloxona</strong> (0,4-2 mg IV, IM o intranasal, repetible), con observación prolongada porque su efecto es más corto que el del opioide. <strong>Alcohol:</strong> ataxia, disartria, desinhibición y, en exceso, depresión respiratoria; se pide glicemia y se da tiamina. <strong>Anfetaminas y éxtasis (MDMA):</strong> cuadro simpaticomimético con hipertermia e hiponatremia. <strong>Alucinógenos (LSD, ketamina):</strong> alucinaciones y despersonalización, con manejo de contención verbal. <strong>Inhalantes:</strong> ebriedad breve, riesgo de arritmia y daño neurológico.",
+          "<strong>Abstinencia de opioides:</strong> bostezos, lagrimeo, rinorrea, <strong>midriasis</strong>, piloerección, mialgias, diarrea y vómitos, sin alteración de la conciencia. Es muy molesta pero rara vez grave. El tratamiento es de soporte, con clonidina para los síntomas autonómicos y sustitución con buprenorfina o metadona en un programa especializado.",
+          "<strong>Complicaciones neurológicas del abuso de sustancias.</strong> <strong>Convulsiones</strong> (cocaína, anfetaminas, tramadol, y la abstinencia de alcohol y benzodiacepinas), <strong>ACV isquémico o hemorrágico</strong> (cocaína, anfetaminas), <strong>encefalopatía y leucoencefalopatía</strong> (inhalantes como el tolueno, heroína inhalada), mielopatía y neuropatía por óxido nitroso (déficit funcional de B12), rabdomiólisis e hipertermia (éxtasis, anfetaminas) y síndrome serotoninérgico. Ante déficit focal o cefalea súbita se pide TAC de cerebro, y las convulsiones por estimulantes o abstinencia se tratan con benzodiacepinas.",
+          "<strong>Examen de orina para drogas de abuso.</strong> Es un inmunoensayo cualitativo (tira rápida) que detecta el metabolito en orina: <strong>cocaína</strong> (benzoilecgonina) 2-4 días; <strong>cannabis</strong> (THC-COOH) 3-7 días en uso ocasional y hasta un mes en el crónico; <strong>benzodiacepinas</strong> 2-5 días (con falsos negativos para clonazepam y lorazepam); <strong>opioides</strong> 2-3 días (fentanilo y metadona no se detectan con la prueba estándar); <strong>anfetaminas</strong> 2-3 días. Los falsos positivos (pseudoefedrina para anfetaminas, semillas de amapola o quinolonas para opioides) obligan a <strong>confirmar con cromatografía y espectrometría de masas</strong>. Un resultado positivo indica exposición, no intoxicación ni dependencia, y uno negativo no la excluye (muestra diluida o ventana corta). Se solicita con consentimiento del paciente, salvo en urgencia.",
+          "<strong>Prevención del consumo de alcohol, tabaco y drogas.</strong> La <strong>prevención primaria</strong> evita el inicio: es <strong>universal</strong> (toda la población: impuestos, restricción de venta y publicidad, Ley del Tabaco 20.660, programas escolares), <strong>selectiva</strong> (grupos de riesgo, como hijos de consumidores o jóvenes vulnerables) e <strong>indicada</strong> (consumo incipiente, con intervención breve). La secundaria detecta y trata precozmente y la terciaria rehabilita. Los factores protectores son el vínculo familiar, el apego escolar y las habilidades sociales; los de riesgo, el inicio precoz, el consumo en pares y la disponibilidad."
+        ]
       }
     ],
     "table": {
@@ -4034,6 +4503,14 @@ const psiquiatriaClasses = [
           "• <strong>Manejo de Crisis en Urgencias:</strong> Curación quirúrgica limpia de heridas; actitud del médico firme, empática y neutra, <strong>evitando reforzar conductas desadaptativas ni emitir juicios punitivos</strong>. Evaluación estricta de riesgo suicida letal real.",
           "• <strong>Tratamiento Psicoterapéutico de Elección: Terapia Dialéctico-Conductual (DBT)</strong> desarrollada por Marsha Linehan. Enseña regulación emocional, tolerancia al malestar, efectividad interpersonal y mindfulness, reduciendo drásticamente las hospitalizaciones y suicidios.",
           "• <strong>Farmacoterapia:</strong> No cura el trastorno; se utiliza solo como apoyo sintomático acotado (estabilizadores del ánimo como lamotrigina/valproato para impulsividad o antipsicóticos atípicos a dosis bajas para disforia y micropsicosis)."
+        ]
+      },
+      {
+        "subhead": "3. Concepto de Personalidad, su Medición y Principales Teorías",
+        "paragraphs": [
+          "La <strong>personalidad</strong> es el patrón relativamente estable de pensamientos, emociones y conductas que caracteriza a una persona. Se compone del <strong>temperamento</strong> (base biológica y heredada) y del <strong>carácter</strong> (lo aprendido en la historia y en la cultura). Un <strong>trastorno de personalidad</strong> aparece cuando los rasgos son rígidos, desadaptativos, de inicio en la adolescencia o adultez temprana, estables en el tiempo y generan deterioro o malestar.",
+          "<em>Medición:</em> inventarios de autoinforme como el <strong>MMPI-2</strong> (Minnesota, 567 ítems), el <strong>NEO-PI-R</strong> (Cinco Grandes: neuroticismo, extraversión, apertura, amabilidad y responsabilidad), el <strong>16PF</strong> de Cattell y el <strong>MCMI</strong> de Millon (trastornos de personalidad); y pruebas proyectivas como el <strong>Rorschach</strong> (manchas de tinta) y el <strong>TAT</strong>. Las pruebas las aplica el psicólogo y el médico las usa como apoyo, no como diagnóstico único.",
+          "<em>Teorías:</em> la <strong>psicoanalítica</strong> de Freud (ello, yo y superyó; etapas psicosexuales oral, anal, fálica, latencia y genital) y la de Erikson (ocho etapas psicosociales); la de Jung (introversión y extraversión); las teorías del <strong>rasgo</strong> de Eysenck (extraversión, neuroticismo, psicoticismo), Cattell y los Cinco Grandes de Costa y McCrae; la <strong>conductual</strong> de Skinner y del aprendizaje social de Bandura; la <strong>humanista</strong> de Maslow y Rogers; y el modelo psicobiológico de <strong>Cloninger</strong> (búsqueda de novedad ligada a la dopamina, evitación del daño a la serotonina y dependencia de la recompensa a la noradrenalina)."
         ]
       }
     ],
@@ -4243,6 +4720,35 @@ const psiquiatriaClasses = [
           "• <strong>Bulimia Nervosa:</strong> Episodios recurrentes de <strong>atracones de comida</strong> (ingesta voraz y rápida en un período < 2 horas de una cantidad desmesurada de comida, con sensación de pérdida de control) seguidos de <strong>conductas compensatorias inapropiadas</strong> para evitar engordar (vómitos autoinducidos, uso de laxantes/diuréticos, ayuno compensatorio o ejercicio extenuante), al menos 1 vez por semana durante 3 meses. A diferencia de la anorexia, las pacientes con bulimia <strong>presentan habitualmente PESO NORMAL O SOBREPESO</strong>. Signos físicos: erosiones del esmalte dental lingual, hipertrofia parotídea bilateral (asialia) y <strong>Signo de Russell</strong> (callosidades en nudillos por provocar el vómito). <em>Fármaco aprobado:</em> <strong>Fluoxetina en dosis altas de 60 mg/día</strong> reduce la frecuencia de atracones y purgas.",
           "• <strong>Síndrome de Realimentación (Refeeding Syndrome):</strong> Emergencia metabólica potencialmente mortal que ocurre al reintroducir hidratos de carbono bruscamente en un paciente caquéctico. El estímulo de la insulina promueve la entrada masiva de glucosa, potasio y fósforo al interior celular, desatando una <strong>HIPOFOSFATEMIA SEVERA AGUDA</strong> que causa paro cardíaco, edema pulmonar agudo, convulsiones y rabdomiólisis. <em>Prevención:</em> Realimentación enteral lenta y progresiva (iniciar con 1.000-1.200 kcal/día) con suplementación profiláctica de fósforo, magnesio y tiamina."
         ]
+      },
+      {
+        "subhead": "4. Trastorno del Espectro Autista, Discapacidad Intelectual y Trastornos del Aprendizaje",
+        "paragraphs": [
+          "<strong>Trastorno del espectro autista (TEA)</strong> (nivel: sospecha y derivación). El DSM-5 exige dos dominios: <strong>déficit persistente en la comunicación e interacción social</strong> (reciprocidad, comunicación no verbal, relaciones) y <strong>patrones restringidos y repetitivos</strong> (estereotipias, rigidez ante cambios, intereses fijos, hiper o hiporreactividad sensorial), con inicio en la infancia temprana. Es 4 veces más frecuente en varones y su prevalencia ronda 1 de cada 36 niños. <strong>Señales de alerta:</strong> sin balbuceo ni gestos a los 12 meses, sin palabras a los 16 meses, sin frases de dos palabras a los 24 meses y cualquier pérdida de lenguaje o habilidades sociales a cualquier edad.",
+          "<em>Conducta:</em> tamizaje con <strong>M-CHAT-R/F</strong> entre los 16 y 30 meses (controles de 18 y 24 meses); descartar hipoacusia con audiometría y evaluar el lenguaje; <strong>derivar</strong> a neurología o psiquiatría infantil para confirmar con ADOS-2 y ADI-R; y comenzar la <strong>intervención temprana intensiva</strong> (conductual, fonoaudiología, terapia ocupacional) sin esperar el diagnóstico definitivo. No hay fármaco para el núcleo del trastorno; risperidona o aripiprazol se reservan, por el especialista, para la irritabilidad o agresividad graves. Las vacunas no causan autismo. En Chile la Ley 21.545 (2023) garantiza la inclusión y la atención integral de las personas con TEA.",
+          "<strong>Discapacidad intelectual (retardo mental)</strong> (nivel: sospecha y derivación). Requiere un <strong>CI menor de 70</strong> (2 desviaciones estándar bajo la media), <strong>déficit de la conducta adaptativa</strong> e inicio en el período del desarrollo. Gravedad: leve (CI 50-69, cerca del 85%), moderada (35-49), grave (20-34) y profunda (menor de 20). Se sospecha por retraso en los hitos del desarrollo psicomotor (tamizaje con EEDP bajo 2 años y TEPSI de 2 a 5 años) o por fracaso escolar. Causas: genéticas (síndrome de Down, X frágil), prenatales (alcohol, TORCH), perinatales (asfixia, prematuridad), hipotiroidismo congénito y fenilcetonuria (pesquisados con el tamizaje neonatal), plomo, desnutrición y TEC. Se estudia con audición, visión, TSH, cariotipo y X frágil, y se deriva a neuropediatría y apoyo educativo (programa de integración escolar).",
+          "<strong>Trastorno específico del aprendizaje</strong> (nivel: sospecha y derivación). Son dificultades persistentes (6 meses o más, pese a una intervención adecuada) en la <strong>lectura</strong> (dislexia: decodifica lento y con errores, confunde b y d), la <strong>escritura</strong> (disortografía, disgrafía) o el <strong>cálculo</strong> (discalculia), con rendimiento muy inferior al esperado para la edad y la inteligencia, que se hacen evidentes al ingresar a la escuela. Antes de diagnosticarlo se descartan déficit visual o auditivo, TDAH, ansiedad o depresión, privación sociocultural y mala escolarización. Se confirma con la evaluación psicopedagógica y el WISC; el manejo es la intervención psicopedagógica y las adecuaciones curriculares (programa de integración escolar).",
+          "<strong>WAIS y WISC (emplea informe).</strong> Son las escalas de inteligencia de Wechsler que aplica el psicólogo: <strong>WPPSI</strong> (preescolares), <strong>WISC-V</strong> (6-16 años) y <strong>WAIS-IV</strong> (adultos). Entregan un <strong>CI total</strong> (media 100, desviación estándar 15; rango promedio 90-109) e índices (comprensión verbal, visoespacial, razonamiento fluido, memoria de trabajo y velocidad de procesamiento). El médico usa el informe así: un CI menor de 70 más déficit adaptativo define discapacidad intelectual; un CI de 70-84 es limítrofe; las diferencias marcadas entre índices sugieren un trastorno específico (la memoria de trabajo y la velocidad de procesamiento bajas son típicas del TDAH). Un CI aislado nunca diagnostica por sí solo."
+        ]
+      },
+      {
+        "subhead": "5. Trastornos de Conducta, Ansiedad en la Infancia y Trastornos Neuropsiquiátricos",
+        "paragraphs": [
+          "<strong>Trastorno oposicionista desafiante (TOD).</strong> Patrón de al menos 6 meses de <strong>enojo e irritabilidad, actitud discutidora y desafiante, y actitud vengativa</strong> (4 o más síntomas), dirigido a figuras de autoridad, sin violar los derechos de los demás. El <strong>trastorno disocial</strong> es más grave: patrón de violación de los derechos de otros y de las normas sociales (agresión a personas o animales, destrucción de propiedad, engaño o robo, fugas y ausentismo antes de los 13 años), con 3 o más criterios en 12 meses. El TOD puede evolucionar a disocial y este, después de los 18 años, a un trastorno antisocial de la personalidad; el inicio antes de los 10 años empeora el pronóstico.",
+          "<em>Manejo (sospecha, tratamiento inicial y derivación):</em> hay comorbilidad frecuente con TDAH, depresión y consumo de sustancias, y los factores familiares pesan (maltrato, disciplina inconsistente, violencia intrafamiliar). La base del tratamiento es el <strong>entrenamiento a los padres</strong> y la intervención escolar y familiar multisistémica, no los fármacos. El metilfenidato trata el TDAH asociado; los antipsicóticos (risperidona) se dejan, por el especialista, para la agresión grave. Se deriva el disocial y el TOD que no responde.",
+          "<strong>Ansiedad en niños.</strong> Los cuadros más frecuentes son la <strong>ansiedad por separación</strong> (miedo excesivo a la separación de las figuras de apego por 4 semanas o más en niños; con pico a los 7-9 años y cefalea o dolor abdominal matinal que cede el fin de semana, con <strong>rechazo escolar</strong>), el <strong>mutismo selectivo</strong> (no habla en situaciones sociales específicas, pese a hacerlo en casa, por más de un mes), la fobia específica, la fobia social y la ansiedad generalizada. Se evalúa con entrevista al niño y a los padres y con la escala SCARED, y se descartan causas médicas (hipertiroidismo, asma, arritmias, cafeína o estimulantes), maltrato y bullying.",
+          "<em>Tratamiento y seguimiento:</em> psicoeducación a la familia y al colegio, <strong>TCC con exposición gradual</strong> como primera línea y retorno rápido a clases (no se refuerza la evitación). En los cuadros moderados a graves se agrega un ISRS (sertralina o fluoxetina) con control semanal inicial, y se evitan las benzodiacepinas. Se hace seguimiento mensual y se deriva a psiquiatría infantil si no hay respuesta o hay comorbilidad.",
+          "<strong>Enuresis</strong> (nivel específico, tratamiento y seguimiento completos). Es la emisión involuntaria de orina, de día o de noche, al menos 2 veces por semana durante 3 meses, en un niño de <strong>5 años o más</strong>. Es <strong>primaria</strong> si nunca hubo control por 6 meses y <strong>secundaria</strong> si reaparece tras un período seco de 6 meses (buscar ITU, diabetes mellitus, diabetes insípida, apnea del sueño, estreñimiento, epilepsia y estrés psicosocial como abuso o nacimiento de un hermano); y <strong>monosintomática</strong> (solo nocturna) o no monosintomática (con síntomas diurnos). La causa habitual es la poliuria nocturna por menor ADH, la baja capacidad vesical y el sueño profundo, con fuerte carga familiar. Se pide orina completa y densidad urinaria, urocultivo si hay síntomas y glicemia si hay poliuria, y se examinan genitales y columna lumbosacra.",
+          "<em>Tratamiento:</em> educación sin castigos, diario miccional, ingesta de líquidos concentrada en el día, vaciar la vejiga antes de acostarse y tratar el estreñimiento. La <strong>alarma de enuresis</strong> es la primera línea y la de mejor resultado a largo plazo (desde los 7 años, 6-8 semanas hasta 3 meses); la <strong>desmopresina</strong> (0,2-0,4 mg oral nocturna, con restricción de líquidos desde 1 hora antes por el riesgo de hiponatremia) sirve en la poliuria nocturna o para ocasiones puntuales. La oxibutinina se agrega si hay urgencia diurna, y la imipramina queda como última línea por su cardiotoxicidad. Se deriva a urología o nefrología ante enuresis diurna resistente, anomalías anatómicas o ITU recurrente.",
+          "<strong>Trastornos neuropsiquiátricos de la infancia: tics y síndrome de Tourette</strong> (nivel: sospecha y derivación). Los <strong>tics</strong> son movimientos o vocalizaciones bruscos, rápidos y no rítmicos; los transitorios (menos de un año) son frecuentes y se observan. En el <strong>síndrome de Tourette</strong> hay 2 o más tics motores y al menos un tic vocal durante más de un año, con inicio antes de los 18 años; se asocia a TDAH y TOC. El manejo es psicoeducación y terapia conductual (CBIT), y solo si interfieren con la vida se usan fármacos (aripiprazol, risperidona, clonidina) por el especialista. El TEA, el TDAH y la discapacidad intelectual completan este grupo de trastornos del neurodesarrollo."
+        ]
+      },
+      {
+        "subhead": "6. Trastornos de Alimentación: Atracones y Alteraciones de la Infancia",
+        "paragraphs": [
+          "El <strong>trastorno por atracones</strong> se caracteriza por episodios recurrentes (al menos 1 por semana durante 3 meses) de ingesta de una cantidad muy grande de comida en poco tiempo con <strong>pérdida de control</strong>, hasta sentirse mal, sin hambre y con vergüenza, <strong>sin conductas compensatorias</strong> (la diferencia con la bulimia). Se asocia a obesidad, depresión y ansiedad. El tratamiento es la TCC, con ISRS como apoyo y el manejo de la obesidad y de sus comorbilidades; se deriva a salud mental.",
+          "<strong>Trastornos de la alimentación en la infancia</strong> (nivel: sospecha y derivación). La <strong>pica</strong> es la ingesta persistente (un mes o más) de sustancias no nutritivas, como tierra o yeso, frecuente en el retraso del desarrollo y en la anemia ferropénica; se piden hemograma, ferritina, plumbemia y estudio de parásitos. El <strong>trastorno de rumiación</strong> es la regurgitación repetida con remasticación. El <strong>trastorno de evitación o restricción de la ingesta</strong> (ARFID) es la restricción por desinterés, aversión sensorial o miedo a atragantarse, con falla de crecimiento y sin distorsión de la imagen corporal. Antes de etiquetar una alteración conductual se descartan causas orgánicas (reflujo, alergia, estreñimiento, anemia), se grafica el crecimiento en las curvas OMS y se educa a los padres: comidas regulares y sin pantallas, sin forzar. Se deriva si hay falla de crecimiento."
+        ]
       }
     ],
     "table": {
@@ -4361,6 +4867,329 @@ const psiquiatriaClasses = [
       }
     ],
     "vignetteText": "Adolescente de 15 años es llevada a la consulta médica por su madre debido a una baja de peso alarmante de 14 kg en los últimos 4 meses. La madre relata que la joven come exclusivamente lechuga y agua, cuenta obsesivamente las calorías de cada alimento, se pesa cuatro veces al día y realiza abdominales intensos en su pieza por más de 3 horas diarias. Al examen físico: estatura 1.62 m, peso 36 kg (IMC 13.7 kg/m², desnutrición severa), piel amarillenta y seca, presencia de vello fino tipo lanugo en la espalda, manos frías y cianóticas. Signos vitales: PA 80/50 mmHg, FC 36 lpm (bradicardia sinusal marcada), temperatura axilar de 35.2 °C. Al ser examinada, la paciente llora airadamente diciendo que \"sus padres exageran y que ella todavía tiene las piernas y el abdomen deformes por exceso de grasa\". El electrocardiograma revela bradicardia sinusal extrema e intervalo QTc prolongado de 480 ms."
+  },
+  {
+    "id": "psiq-20",
+    "classId": "psiq-20",
+    "tier": 2,
+    "blockNum": 4,
+    "blockName": "Adicciones, Personalidad & Salud Mental Infanto-Juvenil",
+    "topicLabel": "17.20",
+    "title": "Sexualidad Humana: Respuesta Sexual, Disfunciones Sexuales, Parafilias, Disforia de Género y Diversidad",
+    "perfilCode": "5.01.1.017, 5.01.1.019, 5.01.3.012, 5.01.3.006, 3.01.3.014",
+    "dx": "Sospecha",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "Sin garantía GES específica · Ley 21.120 de identidad de género · Ley 21.057 de entrevista videograbada a niños víctimas de delitos sexuales.",
+    "reconstrucciones": "EUNACOM Julio 2024 (Q#162)",
+    "frecuencia": "Media · disfunciones sexuales por DSM-5, fases de la respuesta sexual, parafilias y conceptos de sexo, género y orientación",
+    "svg": null,
+    "algoTitle": "Algoritmo de Enfrentamiento de la Disfunción Sexual",
+    "diagram": {
+      "title": "Enfrentamiento de la Disfunción Sexual en APS",
+      "svg": "<svg viewBox=\"0 0 620 357\" width=\"100%\" style=\"max-width:620px;font-family:'IBM Plex Sans',system-ui,sans-serif\">\n  <defs><marker id=\"ar\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#7e22ce\"/></marker></defs>\n  <style>\n    .b{fill:#fff;stroke:#cbd5e1;stroke-width:1}\n    .t{font-size:10px;fill:#15181d}\n    .sub{font-size:8px;fill:#475569}.lbl{font-size:7.5px;fill:#7e22ce;font-weight:700}\n    .acc{fill:#7e22ce;stroke:#6b21a8}.accT{fill:#fff}.accS{font-size:8px;fill:#f3e8ff}\n    .dec{fill:#faf5ff;stroke:#d8b4fe;stroke-width:1}\n    .warn{fill:#fef2f2;stroke:#fecaca;stroke-width:1}.warnT{fill:#991b1b}\n    .crit{fill:#fff1f2;stroke:#f43f5e;stroke-width:1}\n    .ln{stroke:#7e22ce;stroke-width:1.2;fill:none;marker-end:url(#ar)}\n  </style>\n  <rect class=\"warn\" x=\"100\" y=\"8\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"310\" y=\"23\" text-anchor=\"middle\" font-weight=\"700\">Consulta por problema sexual</text>\n  <text class=\"warnT sub\" x=\"310\" y=\"35\" text-anchor=\"middle\">Historia sexual, de pareja y de fármacos · examen físico</text>\n  <path class=\"ln\" d=\"M310,47 V69\"/>\n  <rect class=\"dec\" x=\"70\" y=\"69\" width=\"480\" height=\"39\" rx=\"3\"/>\n  <text class=\"t t\" x=\"310\" y=\"84\" text-anchor=\"middle\" font-weight=\"700\">¿Persiste 6 meses o más, con malestar clínico, en 75% o más de las ocasiones?</text>\n  <text class=\"sub\" x=\"310\" y=\"96\" text-anchor=\"middle\">Criterios generales del DSM-5</text>\n  <path class=\"ln\" d=\"M310,108 V138 H158 V148\"/>\n  <path class=\"ln\" d=\"M310,138 H462 V148\"/>\n  <text class=\"lbl\" x=\"158\" y=\"133\" text-anchor=\"middle\">No: dificultad ocasional</text>\n  <text class=\"lbl\" x=\"462\" y=\"133\" text-anchor=\"middle\">Sí: disfunción sexual</text>\n  <rect class=\"acc\" x=\"12\" y=\"148\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"158\" y=\"163\" text-anchor=\"middle\" font-weight=\"700\">Educación y consejería</text>\n  <text class=\"accS\" x=\"158\" y=\"175\" text-anchor=\"middle\">Normalizar · reducir ansiedad de desempeño</text>\n  <text class=\"accS\" x=\"158\" y=\"186\" text-anchor=\"middle\">Control</text>\n  <rect class=\"dec\" x=\"316\" y=\"148\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"t t\" x=\"462\" y=\"163\" text-anchor=\"middle\" font-weight=\"700\">¿Causa orgánica o fármaco?</text>\n  <text class=\"sub\" x=\"462\" y=\"175\" text-anchor=\"middle\">Diabetes, vasculopatía, hipogonadismo,</text>\n  <text class=\"sub\" x=\"462\" y=\"186\" text-anchor=\"middle\">ISRS, antihipertensivos, antipsicóticos</text>\n  <path class=\"ln\" d=\"M158,198 V208 H310 V220\"/>\n  <path class=\"ln\" d=\"M462,198 V208 H310 V220\"/>\n  <rect class=\"dec\" x=\"70\" y=\"220\" width=\"480\" height=\"39\" rx=\"3\"/>\n  <text class=\"t t\" x=\"310\" y=\"235\" text-anchor=\"middle\" font-weight=\"700\">Orgánica / fármaco vs psicógena</text>\n  <text class=\"sub\" x=\"310\" y=\"247\" text-anchor=\"middle\">Erecciones nocturnas o matinales conservadas orientan a causa psicógena</text>\n  <path class=\"ln\" d=\"M310,259 V289 H158 V299\"/>\n  <path class=\"ln\" d=\"M310,289 H462 V299\"/>\n  <text class=\"lbl\" x=\"158\" y=\"284\" text-anchor=\"middle\">Orgánica o farmacológica</text>\n  <text class=\"lbl\" x=\"462\" y=\"284\" text-anchor=\"middle\">Psicógena</text>\n  <rect class=\"acc\" x=\"12\" y=\"299\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"158\" y=\"314\" text-anchor=\"middle\" font-weight=\"700\">Tratar la causa</text>\n  <text class=\"accS\" x=\"158\" y=\"326\" text-anchor=\"middle\">Cambiar o ajustar el fármaco · iPDE5 si hay disfunción eréctil</text>\n  <text class=\"accS\" x=\"158\" y=\"337\" text-anchor=\"middle\">Control de factores de riesgo</text>\n  <rect class=\"acc\" x=\"316\" y=\"299\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"462\" y=\"314\" text-anchor=\"middle\" font-weight=\"700\">Terapia sexual y de pareja</text>\n  <text class=\"accS\" x=\"462\" y=\"326\" text-anchor=\"middle\">Focalización sensorial · parada-inicio en eyaculación precoz</text>\n  <text class=\"accS\" x=\"462\" y=\"337\" text-anchor=\"middle\">Derivar a psiquiatría o terapia sexual</text>\n</svg>"
+    },
+    "contexto": "La sexualidad humana es un tema transversal del médico general. Este tema recorre la fisiología de la respuesta sexual (fases de Masters y Johnson), las disfunciones sexuales del DSM-5 con su enfrentamiento inicial, las parafilias y su límite con el trastorno parafílico, y el vocabulario de sexo, género, orientación sexual y disforia de género, con el marco chileno de atención sin discriminación. Se trabaja siempre a nivel de sospecha, tratamiento inicial y derivación.",
+    "contentSections": [
+      {
+        "subhead": "1. Respuesta Sexual Humana: Fases y Fisiología",
+        "paragraphs": [
+          "Masters y Johnson describieron cuatro fases: <strong>excitación</strong> (vasocongestión genital, erección y lubricación), <strong>meseta</strong> (máxima tensión sexual), <strong>orgasmo</strong> (contracciones rítmicas y descarga) y <strong>resolución</strong> (retorno al estado basal). El hombre tiene un <strong>período refractario</strong> en la resolución en que no puede tener otro orgasmo; la mujer puede ser multiorgásmica. El modelo de Kaplan agrega el <strong>deseo</strong> como fase inicial (deseo, excitación y orgasmo), y el DSM-5 une deseo y excitación en la mujer.",
+          "La erección es un fenómeno vascular bajo control parasimpático (S2-S4, óxido nítrico y relajación del músculo liso cavernoso); la emisión depende del simpático (T11-L2) y la eyaculación y el orgasmo, de los nervios pudendos (S2-S4). Con la edad la respuesta se hace más lenta y el período refractario más largo. La testosterona sostiene el deseo en ambos sexos, y la respuesta sexual se altera por enfermedades crónicas, fármacos (ISRS, antihipertensivos, antipsicóticos), alcohol y factores psicológicos y de pareja."
+        ]
+      },
+      {
+        "subhead": "2. Disfunciones Sexuales (DSM-5): Clasificación y Manejo Inicial",
+        "paragraphs": [
+          "Para el diagnóstico de una <strong>disfunción sexual</strong> el DSM-5 exige que el síntoma dure <strong>6 meses o más</strong>, ocurra en el <strong>75-100%</strong> de las ocasiones y cause malestar clínicamente significativo. Las masculinas son el trastorno del deseo sexual hipoactivo, el <strong>trastorno eréctil</strong>, la <strong>eyaculación precoz</strong> (cerca de 1 minuto tras la penetración, antes de lo deseado) y la eyaculación retardada. Las femeninas son el trastorno del interés y la excitación sexual, el <strong>trastorno orgásmico</strong> y el <strong>trastorno de dolor genitopélvico y de la penetración</strong> (dispareunia y vaginismo: contracción involuntaria de la musculatura vaginal). Se clasifican además como de por vida o adquiridas, y generalizadas o situacionales, y existe la forma inducida por sustancias o fármacos.",
+          "<em>Enfrentamiento:</em> historia sexual y de pareja, fármacos y consumo de alcohol o drogas, antecedentes de abuso, examen genital, y estudio dirigido (glicemia, perfil lipídico, testosterona). Si las <strong>erecciones nocturnas o matinales están conservadas</strong>, o el inicio es brusco y situacional, la causa es más bien psicógena; si es gradual y generalizada, orgánica (diabetes, vasculopatía, hipogonadismo, neuropatía). Causas farmacológicas frecuentes: ISRS (retardo del orgasmo), antipsicóticos (por hiperprolactinemia), betabloqueadores, tiazidas y espironolactona.",
+          "<em>Manejo inicial:</em> educación y consejería, reducir la ansiedad de desempeño, tratar la causa, ajustar o cambiar el fármaco (por ejemplo, bupropión o mirtazapina en lugar de un ISRS), <strong>iPDE5</strong> en la disfunción eréctil (contraindicados con nitratos), ejercicios de focalización sensorial de Masters y Johnson, técnicas de parada-inicio o de compresión y, en la eyaculación precoz, un ISRS o dapoxetina; dilatadores vaginales y terapia en el vaginismo. Se deriva a terapia sexual, psiquiatría, urología o ginecología según el caso, y ante el fracaso del manejo inicial."
+        ]
+      },
+      {
+        "subhead": "3. Sexualidad Humana y sus Alteraciones: Parafilias y Trastornos Parafílicos",
+        "paragraphs": [
+          "La identidad de género se establece a los 2-3 años y la orientación sexual se consolida en la adolescencia. Las <strong>parafilias</strong> son intereses sexuales atípicos e intensos; se diagnostica un <strong>trastorno parafílico</strong> cuando, durante <strong>6 meses o más</strong>, el patrón causa malestar o deterioro, o se ha ejecutado con una persona que no consiente o no puede consentir. Los principales: <strong>exhibicionismo</strong> (exponer los genitales a desconocidos), <strong>voyeurismo</strong> (observar a otros sin su conocimiento), <strong>frotteurismo</strong> (tocar o rozar a alguien sin su consentimiento), <strong>pedofilia</strong> (atracción por niños prepúberes, en una persona de 16 años o más y al menos 5 años mayor), <strong>fetichismo</strong>, <strong>sadismo y masoquismo sexuales</strong> y <strong>trastorno de travestismo</strong>.",
+          "<em>Conducta:</em> la conducta con un menor o con una persona que no consiente es un delito y obliga a la denuncia; la entrevista a un niño víctima se hace según la Ley 21.057 (videograbada, por personal capacitado). Para el trastorno parafílico se deriva a psiquiatría para psicoterapia y, si procede, tratamiento farmacológico (ISRS o antiandrógenos) bajo supervisión del especialista. La <strong>orientación homosexual o bisexual no es un trastorno</strong> (la OMS la retiró de la CIE en 1990) y no requiere tratamiento."
+        ]
+      },
+      {
+        "subhead": "4. Disforia de Género, Sexualidad, Género y Diversidad en la Atención de Salud",
+        "paragraphs": [
+          "Conceptos que el médico debe distinguir: <strong>sexo asignado al nacer</strong> (biológico), <strong>identidad de género</strong> (cómo se vive y se identifica la persona), <strong>expresión de género</strong> (cómo se manifiesta socialmente) y <strong>orientación sexual</strong> (hacia quién se siente atracción afectiva y sexual); una persona <strong>cisgénero</strong> se identifica con el sexo asignado y una <strong>trans</strong> no. La <strong>disforia de género</strong> es el malestar clínicamente significativo por la incongruencia marcada, de al menos 6 meses, entre el género vivido y el asignado; la no conformidad de género por sí sola no es un trastorno (la CIE-11 la ubica fuera de los trastornos mentales, como «incongruencia de género»).",
+          "<em>Manejo:</em> ambiente afirmativo y respetuoso (llamar a la persona por su nombre social), evaluación psicosocial y del <strong>riesgo suicida y de depresión</strong> (más frecuentes en estas personas, sobre todo si hay rechazo familiar), apoyo a la familia y derivación a un equipo especializado, que decide el bloqueo puberal y la hormonización; el médico general no los inicia. Las <strong>terapias de conversión</strong> (para cambiar la orientación o la identidad) no tienen eficacia, causan daño y no son aceptables. La Ley 21.120 (2018) permite el cambio registral de nombre y sexo.",
+          "<strong>Diversidad en la consulta:</strong> la anamnesis sexual se hace de forma abierta y sin supuestos, preguntando por prácticas y parejas en lugar de suponer heterosexualidad. Las mujeres que tienen sexo con mujeres también requieren Papanicolaou y tamizaje de ITS; los hombres que tienen sexo con hombres tienen más riesgo de VIH y otras ITS, y se les ofrece tamizaje periódico, vacunación (hepatitis B, VPH) y profilaxis cuando corresponde; en las personas trans se mantiene el tamizaje según los órganos que conservan. La discriminación misma es un determinante de la salud mental."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Disfunciones Sexuales del DSM-5: Entidad y Manejo Inicial",
+      "headers": [
+        "Entidad",
+        "Definición Clave",
+        "Manejo Inicial"
+      ],
+      "rows": [
+        [
+          "Trastorno eréctil",
+          "Dificultad para obtener o mantener la erección",
+          "Estudio de factores de riesgo vascular · iPDE5 (contraindicados con nitratos)"
+        ],
+        [
+          "Eyaculación precoz",
+          "Eyaculación cerca de 1 minuto de la penetración, antes de lo deseado",
+          "Parada-inicio o compresión · ISRS o dapoxetina"
+        ],
+        [
+          "Eyaculación retardada",
+          "Retardo o ausencia de eyaculación",
+          "Revisar fármacos (ISRS) · terapia sexual"
+        ],
+        [
+          "Deseo hipoactivo (masculino) / interés y excitación (femenino)",
+          "Falta de deseo o de excitación",
+          "Buscar depresión, fármacos, hipogonadismo y problemas de pareja"
+        ],
+        [
+          "Trastorno orgásmico femenino",
+          "Retardo o ausencia de orgasmo o intensidad muy reducida",
+          "Educación · focalización sensorial · terapia sexual"
+        ],
+        [
+          "Dolor genitopélvico / penetración",
+          "Dolor, miedo o contracción de la musculatura pélvica en la penetración",
+          "Descartar causa orgánica · dilatadores y terapia · fisioterapia del piso pélvico"
+        ]
+      ]
+    },
+    "severityTable": {
+      "title": "Conceptos de Sexo, Género y Orientación",
+      "headers": [
+        "Concepto",
+        "Qué Describe",
+        "Ejemplo"
+      ],
+      "rows": [
+        [
+          "Sexo asignado al nacer",
+          "Clasificación biológica al nacer",
+          "Hombre, mujer, intersexual"
+        ],
+        [
+          "Identidad de género",
+          "Cómo se vive y se identifica la persona",
+          "Cisgénero, trans, no binario"
+        ],
+        [
+          "Expresión de género",
+          "Manifestación social del género",
+          "Vestimenta, nombre, conducta"
+        ],
+        [
+          "Orientación sexual",
+          "Atracción afectiva y sexual",
+          "Heterosexual, homosexual, bisexual"
+        ],
+        [
+          "Disforia de género",
+          "Malestar por incongruencia (6 meses o más)",
+          "Único componente que puede requerir atención clínica"
+        ]
+      ]
+    },
+    "treatmentTable": {
+      "title": "Parafilias: Qué las Define y Conducta",
+      "headers": [
+        "Parafilia",
+        "Definición",
+        "Clave de Examen"
+      ],
+      "rows": [
+        [
+          "Exhibicionismo",
+          "Exponer los genitales a desconocidos",
+          "Impulsos recurrentes por 6 meses · derivar"
+        ],
+        [
+          "Voyeurismo",
+          "Observar a una persona desnuda sin su conocimiento",
+          "Distinto del exhibicionismo: aquí la persona mira"
+        ],
+        [
+          "Frotteurismo",
+          "Tocar o rozar a una persona sin consentimiento",
+          "Delito · en lugares concurridos"
+        ],
+        [
+          "Pedofilia",
+          "Atracción por niños prepúberes (agente de 16 años o más y 5 años mayor)",
+          "Denuncia obligatoria si hay delito"
+        ],
+        [
+          "Fetichismo y travestismo",
+          "Objetos inanimados o vestirse con ropa del otro sexo con excitación",
+          "Trastorno solo si hay malestar o deterioro"
+        ],
+        [
+          "Sadismo y masoquismo",
+          "Excitación por infligir o recibir sufrimiento",
+          "Trastorno solo si hay daño o falta de consentimiento"
+        ]
+      ]
+    },
+    "vignette": "Mujer de 33 años consulta por dolor intenso durante la penetración, de 6 meses de evolución, por lo que ha dejado de tener relaciones sexuales en el último mes. Relata contracción involuntaria de los músculos vaginales al intentar la penetración, con mucho miedo. El examen físico y ginecológico es normal; no hay infección ni lesión visible, y tiene deseo y orgasmo conservados.",
+    "explicacion": "Corresponde a un trastorno de dolor genitopélvico y de la penetración (vaginismo y dispareunia): dolor y contracción involuntaria durante la penetración por más de 6 meses, con malestar y evitación, sin causa orgánica. No es un trastorno orgásmico (no hay ausencia de orgasmo) ni un trastorno del deseo. El manejo inicial es educación, descartar causa orgánica, dilatadores vaginales y terapia sexual, con derivación a ginecología o psiquiatría si no mejora.",
+    "keyPoints": [
+      "Las fases de Masters y Johnson son excitación, meseta, orgasmo y resolución; el período refractario masculino ocurre en la resolución.",
+      "Disfunción sexual en el DSM-5: 6 meses o más, en 75-100% de las ocasiones y con malestar significativo.",
+      "Erecciones nocturnas o matinales conservadas orientan a causa psicógena; inicio gradual y generalizado, a causa orgánica o de fármacos.",
+      "ISRS retrasan el orgasmo, los antipsicóticos reducen el deseo por hiperprolactinemia y los iPDE5 están contraindicados con nitratos.",
+      "Trastorno parafílico: patrón de 6 meses o más con malestar, deterioro o falta de consentimiento; exhibicionismo no es lo mismo que voyeurismo ni que frotteurismo.",
+      "La orientación homosexual o bisexual no es un trastorno; la disforia de género es el malestar por la incongruencia y la no conformidad por sí sola no lo es.",
+      "No se hacen terapias de conversión; se evalúa el riesgo suicida y se deriva a un equipo especializado para el bloqueo puberal y la hormonización."
+    ],
+    "questions": [
+      {
+        "stem": "Una paciente de 33 años consulta por un cuadro de 6 meses de evolución de dolor durante la penetración en las relaciones sexuales, por lo cual se ha negado a mantenerlas en el último mes. Su examen físico no muestra alteraciones. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Trastorno orgásmico femenino"
+          },
+          {
+            "id": "B",
+            "text": "Trastorno por dolor genito-pélvico/penetración"
+          },
+          {
+            "id": "C",
+            "text": "Trastorno depresivo mayor"
+          },
+          {
+            "id": "D",
+            "text": "Trastorno por somatización"
+          },
+          {
+            "id": "E",
+            "text": "Trastorno del deseo sexual hipoactivo"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Dolor durante la penetración por más de 6 meses, con evitación de las relaciones sexuales, examen físico normal y sin alteración del deseo ni del orgasmo: trastorno de dolor genitopélvico y de la penetración (dispareunia y vaginismo). El trastorno orgásmico se define por ausencia o retardo del orgasmo y el del deseo hipoactivo por falta de interés sexual, y ninguno de los dos cursa con dolor; no hay criterios de depresión mayor ni de somatización. El manejo inicial es educación, descartar causa orgánica, dilatadores vaginales y terapia sexual.",
+        "recTag": "EUNACOM Julio 2024 · Pregunta 161"
+      },
+      {
+        "stem": "Hombre de 30 años, derivado por orden judicial. Desde hace 2 años presenta fantasías e impulsos sexuales intensos y recurrentes de mostrar sus genitales a mujeres desconocidas en la vía pública, y lo ha hecho en varias ocasiones. Refiere culpa posterior. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Trastorno frotteurista"
+          },
+          {
+            "id": "B",
+            "text": "Trastorno voyeurista"
+          },
+          {
+            "id": "C",
+            "text": "Trastorno exhibicionista"
+          },
+          {
+            "id": "D",
+            "text": "Trastorno fetichista"
+          },
+          {
+            "id": "E",
+            "text": "Trastorno de travestismo"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "Las parafilias son intereses sexuales atípicos; se diagnostican como trastorno parafílico cuando por al menos 6 meses causan malestar, deterioro o se han ejecutado con personas que no consienten. Exponer los genitales a desconocidos es exhibicionismo; observar a otros desnudarse es voyeurismo y tocar o rozar a alguien sin consentimiento es frotteurismo.",
+        "recTag": "Pregunta de práctica · Perfil V3 5.01.1.019"
+      },
+      {
+        "stem": "En una clase sobre el modelo de respuesta sexual humana de Masters y Johnson se describen cuatro fases sucesivas: excitación, meseta, orgasmo y resolución. ¿En qué fase aparece el período refractario masculino, durante el cual no es posible un nuevo orgasmo?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Excitación"
+          },
+          {
+            "id": "B",
+            "text": "Meseta"
+          },
+          {
+            "id": "C",
+            "text": "Orgasmo"
+          },
+          {
+            "id": "D",
+            "text": "Resolución"
+          },
+          {
+            "id": "E",
+            "text": "Deseo"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "Según Masters y Johnson, tras el orgasmo viene la resolución, en que el organismo vuelve al estado basal; en el hombre incluye un período refractario, que se prolonga con la edad. La mujer puede tener orgasmos múltiples sin período refractario. La fase de deseo fue incorporada después por Kaplan y no es parte del modelo original.",
+        "recTag": "Pregunta de práctica · Perfil V3 5.01.3.012"
+      },
+      {
+        "stem": "Adolescente de 15 años, asignado hombre al nacer, consulta con su madre. Desde hace más de 2 años se identifica de manera persistente como mujer, siente intenso malestar con sus caracteres sexuales secundarios y ha bajado su rendimiento escolar. Su madre la apoya. Niega ideación suicida. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Indicar una terapia orientada a cambiar su identidad de género"
+          },
+          {
+            "id": "B",
+            "text": "Derivar a evaluación especializada multidisciplinaria, con acompañamiento psicosocial y evaluación de salud mental"
+          },
+          {
+            "id": "C",
+            "text": "Iniciar estrógenos en atención primaria"
+          },
+          {
+            "id": "D",
+            "text": "Esperar que la situación se resuelva con la madurez"
+          },
+          {
+            "id": "E",
+            "text": "Iniciar antipsicóticos por sospecha de delirio"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "La incongruencia de género no es una enfermedad mental; la disforia de género alude al malestar asociado. Corresponde acompañamiento respetuoso y derivación a un equipo especializado multidisciplinario (en Chile, programa de acompañamiento de identidad de género), evaluando comorbilidad como depresión o riesgo suicida. Las terapias de conversión son dañinas y la terapia hormonal requiere evaluación especializada.",
+        "recTag": "Pregunta de práctica · Perfil V3 5.01.3.006"
+      },
+      {
+        "stem": "Adolescente de 16 años, asignada mujer al nacer, consulta en control de salud. Refiere que se identifica como mujer, se siente cómoda con su cuerpo y desde los 13 años siente atracción afectiva y sexual solo hacia otras mujeres. ¿Qué concepto describe la atracción que relata la paciente?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Identidad de género"
+          },
+          {
+            "id": "B",
+            "text": "Sexo asignado al nacer"
+          },
+          {
+            "id": "C",
+            "text": "Expresión de género"
+          },
+          {
+            "id": "D",
+            "text": "Orientación sexual"
+          },
+          {
+            "id": "E",
+            "text": "Disforia de género"
+          }
+        ],
+        "correcta": "D",
+        "explicacion": "La orientación sexual es hacia quién se dirige la atracción afectiva y sexual. La identidad de género es la vivencia interna de ser mujer, hombre u otra; la expresión de género, cómo se manifiesta externamente. Ser lesbiana no es un trastorno; la disforia implica malestar por incongruencia con el sexo asignado, ausente aquí.",
+        "recTag": "Pregunta de práctica · Perfil V3 3.01.3.014"
+      }
+    ]
   }
 ];
 

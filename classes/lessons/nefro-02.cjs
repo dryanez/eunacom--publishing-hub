@@ -36,7 +36,8 @@ module.exports = {
         { show: ['pig'], note: 'Rabdomiólisis y hemólisis masiva',
           say: 'Y la tercera son los pigmentos que produce el propio cuerpo: la mioglobina en la rabdomiólisis y la hemoglobina en una hemólisis intravascular masiva.' },
         { show: ['nta', 'sed'], note: 'El túbulo muerto se ve en la orina',
-          say: 'Por cualquiera de estas vías, el epitelio tubular muere y se desprende. Y eso se ve en la orina: cilindros granulosos pardos, una FeNa sobre dos por ciento y una orina isostenúrica, tal como lo vimos en la clase anterior.' },
+          say: 'Por cualquiera de estas vías, el epitelio tubular muere y se desprende. Y eso se ve en la orina: cilindros granulosos pardos, una FeNa sobre dos por ciento y una orina isostenúrica, tal como lo vimos en la clase anterior. Mira estos cilindros: el granuloso, color café, es el de la necrosis tubular; el leucocitario, el hialino y el hemático cuentan otras historias.',
+            photo: { src: 'biblioteca/03_nefrologia/nefro-02/01_tipos-de-cilindros_alt1_2__cto-nefro_p34.jpg', label: 'Tipos de cilindros', at: 'Mira estos cilindros', credit: 'Manual CTO Nefrología 14.ª ed., p. 34' } },
       ],
     },
 
@@ -85,9 +86,11 @@ module.exports = {
         { show: ['hip'], note: 'No es tóxico: es inmunológico',
           say: 'Fíjate en la diferencia con la necrosis tubular. Aquí el fármaco no intoxica el túbulo: el sistema inmune reacciona contra él dentro del intersticio renal. Es una hipersensibilidad.' },
         { show: ['tri'], note: 'La tríada clásica es la excepción',
-          say: 'Por eso puede dar una tríada alérgica clásica: fiebre, exantema maculopapular y eosinofilia. Pero ojo, que es la trampa: solo aparece en el diez a quince por ciento de los casos. Si esperas la tríada completa, se te pasa la mayoría.' },
+          say: 'Por eso puede dar una tríada alérgica clásica: fiebre, exantema maculopapular y eosinofilia. Pero ojo, que es la trampa: solo aparece en el diez a quince por ciento de los casos. Si esperas la tríada completa, se te pasa la mayoría. Mira este exantema maculopapular en el tronco: es la pista alérgica.',
+            photo: { src: 'biblioteca/03_nefrologia/nefro-02/03_exantema-por-farmaco__cto-derma_p9.jpg', label: 'Exantema por fármaco', at: 'Mira este exantema', credit: 'Manual CTO Dermatología 14.ª ed., p. 9' } },
         { show: ['pio'], note: 'El hallazgo más constante',
-          say: 'Lo más constante está en la orina: piuria estéril, es decir, leucocitos en la orina con urocultivo negativo, además de cilindros leucocitarios y microhematuria.' },
+          say: 'Lo más constante está en la orina: piuria estéril, es decir, leucocitos en la orina con urocultivo negativo, además de cilindros leucocitarios y microhematuria. Y este sedimento está lleno de leucocitos, en una nefritis intersticial.',
+            photo: { src: 'biblioteca/03_nefrologia/nefro-02/02_sedimento-leucocituria-nia__cto-nefro_p33.jpg', label: 'Leucocituria en NIA', at: 'Y este sedimento', credit: 'Manual CTO Nefrología 14.ª ed., p. 33' } },
         { show: ['eos'], note: 'Apoya, pero no confirma',
           say: 'Y la eosinofiluria, con la tinción de Hansel, es sugerente, pero no es específica. Suma, pero no hace el diagnóstico por sí sola.' },
       ],
@@ -133,26 +136,6 @@ module.exports = {
       steps: [
         { note: 'Cilindros granulosos y FeNa sobre dos',
           say: 'Con la isquemia o los tóxicos, el epitelio del túbulo muere y se desprende, y forma cilindros granulosos pardos. El túbulo ya no retiene sodio ni concentra: la FeNa sube sobre dos por ciento y la orina es isostenúrica. En la prerrenal, en cambio, la FeNa es baja y el sedimento, limpio.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Los cilindros urinarios',
-      images: [
-        { src: 'biblioteca/03_nefrologia/nefro-02/01_tipos-de-cilindros_alt1_2__cto-nefro_p34.jpg', label: 'Cilindros leucocitario, hialino, hemático y granuloso', credit: 'Manual CTO Nefrología 14.ª ed., p. 34' },
-        { src: 'biblioteca/03_nefrologia/nefro-02/02_sedimento-leucocituria-nia__cto-nefro_p33.jpg', label: 'Leucocituria en nefritis intersticial', credit: 'Manual CTO Nefrología 14.ª ed., p. 33' },
-        { src: 'biblioteca/03_nefrologia/nefro-02/03_exantema-por-farmaco__cto-derma_p9.jpg', label: 'Exantema por fármaco', credit: 'Manual CTO Dermatología 14.ª ed., p. 9' },
-      ],
-      steps: [
-        { note: 'Cada cilindro, una enfermedad',
-          say: 'Los cilindros se forman dentro del túbulo. Los granulosos, color café, sugieren necrosis tubular aguda. Los leucocitarios, nefritis intersticial o pielonefritis. Los hemáticos, glomerulonefritis.' },
-        { note: 'Leucocitos con urocultivo negativo',
-          say: 'Este sedimento está lleno de leucocitos, en una nefritis intersticial aguda. Con urocultivo negativo es la piuria estéril, lo más constante de la nefritis intersticial.' },
-        { note: 'La pista alérgica',
-          say: 'Y este exantema maculopapular en el tronco es la pista alérgica: con fiebre y eosinofilia completa la tríada, aunque solo aparece en una minoría de los pacientes.' },
       ],
     },
 
@@ -293,6 +276,44 @@ module.exports = {
         options: 'Las opciones: embolias renales, nefritis intersticial por penicilina, necrosis tubular por gentamicina, glomerulonefritis por complejos inmunes, o síndrome hemolítico urémico. Piénsalo.',
         answer: 'Es la D. El enunciado te pone dos fármacos tentadores, una penicilina y un aminoglucósido, para que caigas en la B o en la C. Pero el sedimento manda: cilindros hemáticos y hematíes dismórficos son glomerulares. La nefritis intersticial daría cilindros leucocitarios, y la gentamicina, cilindros granulosos. El complemento bajo apunta a complejos inmunes de la endocarditis.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.012 · Examen de orina y sedimento urinario",
+      "stem": "Hombre de 24 años consulta 36 horas después de una competencia de crossfit por mialgias intensas y orina color coca-cola. Creatinina 1,8 mg/dL, CK 48.000 U/L. Orina completa: tira reactiva con sangre +++; sedimento con 0 a 2 glóbulos rojos por campo y cilindros granulosos pigmentados.",
+      "question": "¿Cuál es la interpretación del examen de orina?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hematuria glomerular por glomerulonefritis aguda"
+        },
+        {
+          "letter": "B",
+          "text": "Mioglobinuria por rabdomiólisis"
+        },
+        {
+          "letter": "C",
+          "text": "Hemoglobinuria por hemólisis intravascular"
+        },
+        {
+          "letter": "D",
+          "text": "Hematuria de origen urológico"
+        },
+        {
+          "letter": "E",
+          "text": "Error de laboratorio; repetir la muestra"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La tira detecta el grupo hemo, tanto de hemoglobina como de mioglobina. Tira con sangre positiva y sedimento sin glóbulos rojos, con CK muy elevada tras ejercicio extremo, es mioglobinuria por rabdomiólisis. La hemólisis no explica la CK ni las mialgias.",
+      "say": {
+        "stem": "Un hombre de veinticuatro años, después de una competencia de crossfit, tiene dolores musculares intensos y orina color coca-cola. La creatinina es uno coma ocho y la creatinquinasa cuarenta y ocho mil. La tira de orina marca sangre en tres cruces, pero el sedimento casi no tiene glóbulos rojos.",
+        "question": "¿Cuál es la interpretación del examen de orina?",
+        "options": "Las opciones: hematuria glomerular, mioglobinuria, hemoglobinuria, hematuria urológica o error de laboratorio. Piénsalo.",
+        "answer": "Es la B, mioglobinuria. La tira reconoce el grupo hemo y no distingue de dónde viene; sin glóbulos rojos en el sedimento y con la creatinquinasa por las nubes, es músculo roto. La hemoglobinuria tienta, pero no explica las mialgias ni la creatinquinasa."
+      }
     },
 
     {

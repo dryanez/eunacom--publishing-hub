@@ -1,0 +1,169 @@
+{
+  "id": "endo-13",
+  "lesson": "endo-13",
+  "spec": "Endocrinología",
+  "source": "Pregunta real EUNACOM · Dic 2018",
+  "hook": {
+    "top": "Hipotensión que no responde",
+    "big": "Piensa en esto",
+    "say": "Hipotensión que no responde. Piensa en esto.",
+    "frame": 7.5
+  },
+  "case": [
+    {
+      "t": "3 días de diarrea y vómitos",
+      "say": "Pregunta real del EUNACOM. 3 días de diarrea y vómitos."
+    },
+    {
+      "t": "PA 70/40 · FC 110",
+      "say": "Presión 70 con 40, pulso 110."
+    },
+    {
+      "t": "Na 126 · K 4,7 · Glicemia 58",
+      "say": "Sodio 126, glicemia 58."
+    },
+    {
+      "t": "3 litros de suero… y no sube",
+      "hl": true,
+      "say": "Le pasan 3 litros de suero, y no sube."
+    }
+  ],
+  "question": {
+    "t": "¿Cuál es el diagnóstico más probable?",
+    "say": "¿Cuál es el diagnóstico? Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Insuficiencia renal aguda"
+    },
+    {
+      "letter": "B",
+      "text": "Shigelosis"
+    },
+    {
+      "letter": "C",
+      "text": "Peritonitis aguda"
+    },
+    {
+      "letter": "D",
+      "text": "Insuficiencia suprarrenal aguda"
+    },
+    {
+      "letter": "E",
+      "text": "ACV hemorrágico"
+    }
+  ],
+  "correct": "D",
+  "answer": {
+    "t": "Insuficiencia suprarrenal aguda",
+    "say": "Es la D. Crisis suprarrenal."
+  },
+  "clip": {
+    "src": "animaciones/endo-13/A1_shock_sin_cortisol.mp4",
+    "panels": [
+      {
+        "crop": [
+          40,
+          145,
+          410,
+          360
+        ]
+      },
+      {
+        "crop": [
+          560,
+          150,
+          680,
+          170
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "Sin cortisol, las arteriolas no responden a la noradrenalina.",
+      "clip": [
+        3.5,
+        8.5
+      ],
+      "zoom": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "chip": "Sin cortisol, la noradrenalina no sirve"
+    },
+    {
+      "say": "Por eso no cede con suero, y bajan el sodio y la glucosa.",
+      "clip": [
+        8.5,
+        11.0
+      ],
+      "zoom": [
+        0.5,
+        0.5,
+        1.08
+      ],
+      "chip": "Shock refractario + Na↓ + glicemia↓"
+    },
+    {
+      "say": "Solución: hidrocortisona 100 miligramos endovenosa en bolo, sin esperar exámenes.",
+      "clip": [
+        11.0,
+        18.0
+      ],
+      "zoom": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "chip": "Hidrocortisona 100 mg EV en bolo"
+    }
+  ],
+  "rule": {
+    "t": "Shock refractario + Na y glicemia bajos: *hidrocortisona YA*",
+    "s": "Sin esperar el cortisol",
+    "say": "Regla de oro: shock refractario, con sodio y glicemia bajos: hidrocortisona ya."
+  },
+  "cta": {
+    "keyword": "CRISIS",
+    "t": "y te mando las 10 preguntas reales de Endocrinología",
+    "say": "Comenta crisis y te mando las 10 preguntas reales de Endocrinología."
+  },
+  "loop": {
+    "say": "Y si te llega una…"
+  },
+  "highlight": [
+    "hipotension",
+    "no responde",
+    "piensa",
+    "suero",
+    "no sube",
+    "crisis",
+    "suprarrenal",
+    "cortisol",
+    "noradrenalina",
+    "arteriolas",
+    "sodio",
+    "glucosa",
+    "hidrocortisona",
+    "100",
+    "miligramos",
+    "bolo",
+    "ya",
+    "refractario",
+    "bajan"
+  ],
+  "post": {
+    "text": "Hipotensión que no sube ni con 3 litros de suero, sodio bajo y glicemia baja… ¿en qué piensas? 🧠 Pregunta real del EUNACOM (Dic 2018): es una crisis suprarrenal. Sin cortisol la noradrenalina no funciona; lo que revierte el shock es hidrocortisona 100 mg EV en bolo, sin esperar exámenes.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\nComenta CRISIS y te mando las 10 preguntas reales de Endocrinología.",
+    "hashtags": [
+      "#EUNACOM",
+      "#endocrinologia",
+      "#medicina",
+      "#estudiantesdemedicina",
+      "#urgencias"
+    ],
+    "credit": "Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0. Rótulos y animación: Academia Examen EUNACOM."
+  }
+}

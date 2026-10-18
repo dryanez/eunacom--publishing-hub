@@ -284,14 +284,14 @@ Se realiza un estudio donde se comparan dos grupos de personas mayores de 60 añ
 Explicación del banco: Diagnóstico: **Cohorte** (opción **D**). Se siguen al futuro dos grupos: expuestos y no expuestos a un FR (HTA en este caso). El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).
 
 ### [7] EUNACOM Diciembre 2025 · Pregunta 94 · confianza 0.95
-Un paciente de 24 años, con antecedente de consumo frecuente de cocaína, presenta dolor peneano de 5 horas de evolución asociado a una erección constante. Al examen Fsico se obje8va erección de los cuerpos cavernosos, con ﬂacidez del glande y el cuerpo esponjoso. ¿Cuál es la conducta inicial más adecuada?
+Un paciente de 24 años, con antecedente de consumo frecuente de cocaína, presenta dolor peneano de 5 horas de evolución asociado a una erección constante. Al examen físico se objetiva erección de los cuerpos cavernosos, con flacidez del glande y el cuerpo esponjoso. ¿Cuál es la conducta inicial más adecuada?
 - A) Administrar adrenalina intracavernosa
 - B) Propranolol vía oral
 - C) Doxasozina vía oral
 - D) Derivación cavernoesponjosa quirúrgica
 - E) Administrar fenilefrina intracavernosa
 **Correcta: E**
-Explicación del banco: Tiene un priapismo isquémico o verdadero (erección dolorosa y mantenida, limitada a los cuerpos cavernosos). El tratamiento sigue el siguiente orden: 1. Fenilefrina intracavernosa, 2. Procedimientos invasivos (drenaje de los cuerpos cavernosos con suero ﬁsiológico o derivación cavernoesponjosa). Además, se debe buscar la presencia de leucemia y anemia de células falciformes (rara en Chile), aunque en este caso la causa más probable parece estar relacionada con el consumo de cocaína.
+Explicación del banco: Tiene un priapismo isquémico o verdadero (erección dolorosa y mantenida, limitada a los cuerpos cavernosos). El tratamiento sigue el siguiente orden: 1. Fenilefrina intracavernosa, 2. Procedimientos invasivos (drenaje de los cuerpos cavernosos con suero fisiológico o derivación cavernoesponjosa). Además, se debe buscar la presencia de leucemia y anemia de células falciformes (rara en Chile), aunque en este caso la causa más probable parece estar relacionada con el consumo de cocaína.
 
 ### [8] EUNACOM Enero 2023 · Pregunta 94 · confianza 0.95
 Paciente con dolor articular en MCF e IFP, con rigidez matinal importante. ¿Cuál es el examen específico a solicitar?
@@ -384,24 +384,24 @@ Una paciente de 54 años ha presentado dolores simétricos en pequeñas y grande
 Explicación del banco: Diagnóstico: **Artritis reumatoidea** (opción **A**). Aunque los marcadores estén negativos, es una AR clásica. Tiene además un Sjögren secundario.. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).
 
 ### [17] EUNACOM Diciembre 2025 · Pregunta 2 · confianza 0.9
-Un paciente de 55 años, con antecedentes de diabetes mellitus 8po 2, hipertensión arterial y tabaquismo de 20 paquetes-año, consulta por dolor torácico de localización precordial y carácter opresivo. El cuadro inició hace tres semanas, presentándose el dolor en relación con la ac8vidad Fsica y desapareciendo rápidamente con el reposo. Sus signos vitales muestran presión arterial 148/92 mmHg, frecuencia cardíaca 81 la8dos por minuto y saturación arterial de oxígeno de 96%. Su examen cardiopulmonar no muestra alteraciones. ¿Cuál es el examen de elección para precisar el diagnós8co?
+Un paciente de 55 años, con antecedentes de diabetes mellitus tipo 2, hipertensión arterial y tabaquismo de 20 paquetes-año, consulta por dolor torácico de localización precordial y carácter opresivo. El cuadro inició hace tres semanas, presentándose el dolor en relación con la actividad física y desapareciendo rápidamente con el reposo. Sus signos vitales muestran presión arterial 148/92 mmHg, frecuencia cardíaca 81 latidos por minuto y saturación arterial de oxígeno de 96%. Su examen cardiopulmonar no muestra alteraciones. ¿Cuál es el examen de elección para precisar el diagnóstico?
 - A) Coronariogra:a
 - B) Cin2gra:a miocárdica
 - C) Angiorresonancia de arterias coronarias
 - D) Test de esfuerzo
 - E) Electrocardiograma de 24 horas (Holter)
 **Correcta: D**
-Explicación del banco: Es una angina crónica estable. Su diagnóstico es clínico y su estudio comienza con una prueba de esfuerzo, generalmente el ECG de esfuerzo. En los casos en que no se puede realizar (amputados o pacientes que no toleran el ejercicio) y en los casos en que el electrocardiograma es ilegible (ej. BCRI), se uGlizan otras pruebas de esfuerzo, como la ecocardiografía, con dobutamina o la cintigrafía cardiaca con talio y dipiridamol. Si alguna de estas pruebas de esfuerzo resulta alterada, se procede a la coronariografía para determinar la vía de revascularización. La regla general es que se uGlice un stent cuando hay compromiso de uno o dos vasos, y se uGlice un bypass coronario cuando hay compromiso de tres vasos o de dos vasos incluyendo la arteria descendente anterior (ADA).
+Explicación del banco: Es una angina crónica estable. Su diagnóstico es clínico y su estudio comienza con una prueba de esfuerzo, generalmente el ECG de esfuerzo. En los casos en que no se puede realizar (amputados o pacientes que no toleran el ejercicio) y en los casos en que el electrocardiograma es ilegible (ej. BCRI), se utilizan otras pruebas de esfuerzo, como la ecocardiografía, con dobutamina o la cintigrafía cardiaca con talio y dipiridamol. Si alguna de estas pruebas de esfuerzo resulta alterada, se procede a la coronariografía para determinar la vía de revascularización. La regla general es que se utilice un stent cuando hay compromiso de uno o dos vasos, y se utilice un bypass coronario cuando hay compromiso de tres vasos o de dos vasos incluyendo la arteria descendente anterior (ADA).
 
 ### [18] EUNACOM Diciembre 2025 · Pregunta 170 · confianza 0.9
-Un paciente de 70 años, con antecedentes de hipertensión arterial, diabetes mellitus 8po 2 y revascularización coronaria hace 3 años, consulta porque hace pocas horas notó que, de forma súbita, dejó de ver su pierna derecha con el ojo derecho. Al examen Fsico presenta inspección ocular normal, agudeza visual 20/30 en el ojo derecho y 20/20 en el ojo izquierdo, pupilas isocóricas con defecto pupilar aferente rela8vo, y en la campimetría por confrontación se observa hemianopsia inferior del ojo derecho. El diagnós8co más probable es:
+Un paciente de 70 años, con antecedentes de hipertensión arterial, diabetes mellitus tipo 2 y revascularización coronaria hace 3 años, consulta porque hace pocas horas notó que, de forma súbita, dejó de ver su pierna derecha con el ojo derecho. Al examen físico presenta inspección ocular normal, agudeza visual 20/30 en el ojo derecho y 20/20 en el ojo izquierdo, pupilas isocóricas con defecto pupilar aferente relativo, y en la campimetría por confrontación se observa hemianopsia inferior del ojo derecho. El diagnóstico más probable es:
 - A) Neuri2s óp2ca isquémica
 - B) Infarto del lóbulo occipital
 - C) Desprendimiento de re2na
 - D) Glaucoma
 - E) Degeneración macular relacionada con la edad
 **Correcta: A**
-Explicación del banco: Tanto por el inicio súbito, con factores de riesgo cardiovascular, como por el defecto pupilar aferente relativo (DPAR), es una neuropaVa óptica isquémica, con afectación de la zona superior del nervio óptico derecho (inerva la zona superior de la reGna y corresponde a la zona inferior del campo visual). El DPAR se ve también en la neuriGs óptica desmielinizante y en el desprendimiento de reGna extenso o en la oclusión de la arteria central de la reGna.
+Explicación del banco: Tanto por el inicio súbito, con factores de riesgo cardiovascular, como por el defecto pupilar aferente relativo (DPAR), es una neuropatía óptica isquémica, con afectación de la zona superior del nervio óptico derecho (inerva la zona superior de la retina y corresponde a la zona inferior del campo visual). El DPAR se ve también en la neuritis óptica desmielinizante y en el desprendimiento de retina extenso o en la oclusión de la arteria central de la retina.
 
 ### [19] EUNACOM Julio 2025 · Pregunta 149 · confianza 0.9
 Mujer de 35 años con exoftalmo bilateral, palpitaciones, pérdida de peso y temblor fino en manos. TSH suprimida, T4 libre elevada. Bocio difuso. ¿Cuál es el diagnóstico?

@@ -221,7 +221,8 @@ module.exports = {
         { show: ['rap', 'oli'], note: 'Retomamos la conexión del inicio',
           say: 'Volvamos a la conexión que dejamos pendiente. Si el sodio sube más rápido que el límite, el plasma se hipertoniza bruscamente y deshidrata a los oligodendrocitos, que pierden la mielina, sobre todo en el puente. Eso es la mielinolisis pontina central.' },
         { show: ['cli'], note: 'Aparece días después: el paciente parecía mejorar',
-          say: 'Lo traicionero es que no aparece de inmediato. El paciente mejora con la corrección, y dos a seis días después aparece disartria, disfagia, compromiso de conciencia y cuadriparesia.' },
+          say: 'Lo traicionero es que no aparece de inmediato. El paciente mejora con la corrección, y dos a seis días después aparece disartria, disfagia, compromiso de conciencia y cuadriparesia. Así se ve en la resonancia: las flechas marcan la lesión en el centro del puente.',
+            photo: { src: 'biblioteca/07_nefrologia/nefro-05/atlas_111_rm_de_mielinolisis_pontina_cen.jpg', label: 'Mielinólisis pontina', at: 'Así se ve en la resonancia', credit: 'Atlas EUNACOM 2026' } },
         { show: ['loc'], note: 'El daño es irreversible',
           say: 'En su forma más grave, el síndrome de enclaustramiento: el paciente está despierto pero no puede moverse ni hablar. Y es irreversible. Por eso la velocidad de corrección se pregunta tanto.' },
         { show: ['sob'], note: 'Típico: hipovolémico que recibe suero fisiológico',
@@ -368,6 +369,81 @@ module.exports = {
         options: 'Las opciones: nefroesclerosis hipertensiva, hidroclorotiazida, nefropatía diabética, enalapril, o aspirina. Piénsalo.',
         answer: 'Es la B, la hidroclorotiazida. Explica las dos alteraciones a la vez: la hiponatremia, porque bloquea el segmento que diluye la orina, y la hipokalemia, por la pérdida renal de potasio. El distractor es el enalapril, pero ese fármaco tiende a subir el potasio, no a bajarlo. Y la creatinina normal descarta que el problema sea una nefropatía.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2017 · Pregunta 49",
+      "stem": "Una paciente de 60 años, con antecedente de hipotiroidismo, hipertensión y depresión, en tratamiento con levotiroxina, enalapril y citalopram, se realiza exámenes de control, entre los que destacan sodio plasmático de 127 mEq/L, potasio plasmático de 4,1 mEq/L, creatinina plasmática de 0,9 mg/dL y sodio urinario de 60 mEq/L.",
+      "question": "¿Cuál es la causa más probable de su hiponatremia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Uso del enalapril"
+        },
+        {
+          "letter": "B",
+          "text": "Reacción secundaria al citalopram"
+        },
+        {
+          "letter": "C",
+          "text": "Síndrome paraneoplásico"
+        },
+        {
+          "letter": "D",
+          "text": "Insuficiencia suprarrenal"
+        },
+        {
+          "letter": "E",
+          "text": "Hipotiroidismo descompensado"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Hiponatremia asintomática con sodio urinario alto, potasio normal y sin datos de hipovolemia: perfil de SIADH. Los inhibidores selectivos de recaptura de serotonina, como el citalopram, son una causa farmacológica clásica, sobre todo en mujeres mayores. El hipotiroidismo en tratamiento rara vez la explica.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Una mujer de sesenta años, hipotiroidea, hipertensa y deprimida, usa levotiroxina, enalapril y citalopram. En un control tiene sodio de ciento veintisiete, potasio normal, creatinina normal y sodio urinario de sesenta.",
+        "question": "¿Cuál es la causa más probable de su hiponatremia?",
+        "options": "Las opciones: enalapril, citalopram, síndrome paraneoplásico, insuficiencia suprarrenal o hipotiroidismo. Piénsalo.",
+        "answer": "Es la B, el citalopram. Sodio urinario alto en una paciente euvolémica es un síndrome de secreción inapropiada de hormona antidiurética, y los antidepresivos de esta familia lo causan con frecuencia. El hipotiroidismo tienta, pero está tratado y rara vez baja tanto el sodio."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.016 · Sodio urinario",
+      "stem": "Mujer de 82 años, autovalente, con 4 días de diarrea acuosa y escasa ingesta de líquidos. Está lúcida, sin focalidad. PA 100/60 mmHg con ortostatismo, mucosas secas. No usa diuréticos. Na 126 mEq/L, K 3,5 mEq/L, glicemia 95 mg/dL, creatinina 1,3 mg/dL. Sodio urinario 9 mEq/L.",
+      "question": "¿Cuál es el diagnóstico y la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SIADH; restricción hídrica"
+        },
+        {
+          "letter": "B",
+          "text": "Insuficiencia suprarrenal; hidrocortisona"
+        },
+        {
+          "letter": "C",
+          "text": "Pérdida renal de sal; tabletas de NaCl"
+        },
+        {
+          "letter": "D",
+          "text": "Polidipsia primaria; restricción de agua libre"
+        },
+        {
+          "letter": "E",
+          "text": "Hiponatremia hipovolémica por pérdidas extrarrenales; suero fisiológico 0,9 %"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Sodio urinario menor de 20 a 30 mEq/L en una paciente deshidratada indica que el riñón ahorra sodio: la pérdida es extrarrenal, aquí la diarrea. Se repone volumen con suero fisiológico. En el SIADH y en la pérdida renal el sodio urinario es alto.",
+      "say": {
+        "stem": "Una mujer de ochenta y dos años lleva cuatro días con diarrea y toma poco líquido. Está lúcida, hipotensa con ortostatismo y con mucosas secas, y no usa diuréticos. El sodio plasmático es ciento veintiséis y el sodio urinario es nueve.",
+        "question": "¿Cuál es el diagnóstico y la conducta más adecuada?",
+        "options": "Las opciones: secreción inapropiada con restricción hídrica, insuficiencia suprarrenal, pérdida renal de sal, polidipsia o hipovolemia por pérdidas extrarrenales con suero fisiológico. Piénsalo.",
+        "answer": "Es la E. Un sodio urinario bajo en una paciente seca significa riñón sano que guarda sodio, así que la pérdida es intestinal y se repone con suero fisiológico. La secreción inapropiada tienta, pero ahí el sodio urinario es alto y la paciente no está deshidratada."
+      }
     },
 
     {

@@ -44,6 +44,9 @@ module.exports = {
           say: 'Al examinar las pupilas encuentras un defecto pupilar aferente relativo marcado, la pupila de Marcus Gunn, en el ojo afectado.' },
         { show: ['rce'], note: 'El hallazgo que responde la pregunta por sí solo',
           say: 'Y el fondo de ojo es patognomónico: la retina se ve intensamente pálida, edematosa, lechosa, por el infarto de la capa de fibras nerviosas, y en el centro brilla la mancha rojo cereza. La fóvea no tiene capa ganglionar, se nutre directo de la coroides sana, y por eso mantiene su color rojo natural mientras todo alrededor está blanco. Si el examen te da esta imagen, la respuesta es esta, sin dudar.' },
+        { show: ['rce'], note: 'Retina pálida y mancha roja central',
+          say: 'Mira este fondo de ojo: la retina blanquecina y, en el centro, la mancha roja.',
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-11/01_mancha-rojo-cereza-oacr__cto-oftalmo_p70.jpg', label: 'Mancha rojo cereza', at: 'Mira este fondo de ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 70' } },
       ],
     },
 
@@ -91,7 +94,11 @@ module.exports = {
         { show: ['clin2'], note: 'Menos profunda y más lenta que la arterial',
           say: 'La clínica también es indolora, pero suele ser subaguda o menos brusca que la arterial, y la pérdida visual habitualmente es menos profunda.' },
         { show: ['piz'], note: 'Retina en tormenta',
-          say: 'El fondo de ojo también es patognomónico, pero completamente distinto: hemorragias retinianas masivas en llamarada, distribuidas en los cuatro cuadrantes, con venas dilatadas, tortuosas y congestivas, y exudados algodonosos. A esta imagen se le llama tormenta retiniana, o pizza marinara.' },
+          say: 'El fondo de ojo también es patognomónico, pero completamente distinto: hemorragias retinianas masivas en llamarada, distribuidas en los cuatro cuadrantes, con venas dilatadas, tortuosas y congestivas, y exudados algodonosos. A esta imagen se le llama tormenta retiniana, o pizza marinara. Mira estos dos fondos de ojo: las hemorragias rojas, en forma de llama, repartidas por toda la retina, y la papila con los bordes borrados.',
+          photos: [
+            { src: 'biblioteca/12_oftalmologia/oftal-11/02_ovcr-hemorragias-en-llama__amir-oftalmo_p15.jpg', label: 'Hemorragias en llama', at: 'Mira estos dos fondos de ojo', credit: 'Manual AMIR Oftalmología, p. 15' },
+            { src: 'biblioteca/12_oftalmologia/oftal-11/02_ovcr-hemorragias-en-llama_alt1__cto-oftalmo_p71.jpg', label: 'Oclusión venosa central', credit: 'Manual CTO Oftalmología 14.ª ed., p. 71' },
+          ] },
         { show: ['vegf', 'neo'], note: 'El dato que más se pregunta de esta mitad de la clase',
           say: 'Y aquí está la complicación que más se pregunta: cuando la oclusión es de tipo isquémica, la falta de perfusión libera grandes cantidades de factor de crecimiento del endotelio vascular, el VEGF, que genera neovasos en el iris y en el ángulo. Esos neovasos bloquean la salida del humor acuoso, y producen un glaucoma neovascular, doloroso y refractario, que aparece típicamente alrededor de los tres meses: el glaucoma de los cien días.' },
       ],
@@ -115,18 +122,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Oclusiones vasculares de la retina',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Arterial contra venosa',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-11/01_mancha-rojo-cereza-oacr__cto-oftalmo_p70.jpg', label: 'Oclusión arterial', credit: 'Manual CTO Oftalmología 14.ª ed., p. 70' },
-        { src: 'biblioteca/12_oftalmologia/oftal-11/02_ovcr-hemorragias-en-llama__amir-oftalmo_p15.jpg', label: 'Oclusión venosa', credit: 'Manual AMIR Oftalmología, p. 15' },
+        { src: 'animaciones/oftal-11/A1_oclusiones.mp4', label: 'Oclusiones de la retina', credit: 'Fondo de ojo: Servier Medical Art, CC BY 4.0 · capas y rótulos propios' },
       ],
       steps: [
-        { note: 'Mancha rojo cereza',
-          say: 'La oclusión de la arteria central deja la retina pálida con una mancha rojo cereza en la mácula.' },
-        { note: 'Hemorragias en llama',
-          say: 'Y la oclusión venosa da hemorragias en llama por toda la retina.' },
+        { note: 'El fondo de ojo decide',
+          say: 'Dos accidentes vasculares del ojo, los dos indoloros. En la oclusión de la arteria central, la retina se pone pálida y la mácula destaca como una mancha rojo cereza, porque se nutre de la coroides. En la oclusión de la vena central, la retina se llena de hemorragias en llama, con la papila edematosa. Y recuerda que la forma isquémica puede terminar en un glaucoma neovascular a los cien días.' },
       ],
     },
 

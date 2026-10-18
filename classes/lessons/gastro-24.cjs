@@ -85,7 +85,8 @@ module.exports = {
       ],
       steps: [
         { show: ['pil'], note: 'No desde el nacimiento',
-          say: 'Antes de etiquetar un reflujo, hay un diferencial que no puedes pasar por alto: la estenosis hipertrófica del píloro. El músculo del píloro se engruesa y cierra la salida del estómago. Y fíjate en el momento: aparece entre la segunda y la sexta semana de vida, no desde el nacimiento.' },
+          say: 'Antes de etiquetar un reflujo, hay un diferencial que no puedes pasar por alto: la estenosis hipertrófica del píloro. El músculo del píloro se engruesa y cierra la salida del estómago, como muestra este dibujo. Y fíjate en el momento: aparece entre la segunda y la sexta semana de vida, no desde el nacimiento.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-24/01_eco-piloro-ehp_alt1__cto-pediatria_p65.jpg', label: 'Músculo pilórico engrosado', at: 'como muestra este dibujo', credit: 'Manual CTO Pediatría 14.ª ed., p. 65' } },
         { show: ['vom'], note: 'Vomita y quiere comer de nuevo',
           say: 'Como el estómago no se puede vaciar, el lactante vomita de forma explosiva y proyectiva. Y un detalle muy típico: después de vomitar sigue con hambre, está ávido por comer. No es un lactante enfermo que rechaza la comida.' },
         { show: ['alc'], note: 'Pierde ácido clorhídrico',
@@ -93,7 +94,8 @@ module.exports = {
         { show: ['des'], note: 'Vómitos repetidos: deshidratación',
           say: 'Y con tantos vómitos, se deshidrata.' },
         { show: ['eco'], note: 'La oliva pilórica',
-          say: 'El diagnóstico se hace con ecografía abdominal, que muestra el píloro engrosado, la llamada oliva pilórica.' },
+          say: 'El diagnóstico se hace con ecografía abdominal. Mira esta ecografía: las marcas miden el píloro, alargado y con el músculo engrosado, la llamada oliva pilórica.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-24/01_eco-piloro-ehp__cto-pediatria_p65.jpg', label: 'Ecografía: oliva pilórica', at: 'Mira esta ecografía', credit: 'Manual CTO Pediatría 14.ª ed., p. 65' } },
         { show: ['ram'], note: 'Primero hidratar, después operar',
           say: 'Y el tratamiento tiene un orden: primero se corrige la hidratación y los electrolitos, y recién después se opera, con la pilorotomía de Ramstedt. Nunca se opera a un lactante deshidratado y alcalótico.' },
         { show: ['hsc'], note: 'El laboratorio al revés cambia el diagnóstico',
@@ -121,6 +123,28 @@ module.exports = {
         { title: 'Conducta', tag: 'Sin exámenes', kind: 'normal', items: [
           { t: 'Explicar, tranquilizar, manejar el estrés', d: 'Con examen físico normal, no hacen falta exámenes',
             say: 'La conducta es explicar, tranquilizar, y manejar el estrés. Si el examen físico es normal, no hacen falta exámenes. Pedir una batería de estudios a un niño sin alarma es la respuesta equivocada.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Dolor funcional',
+      title: 'Dolor abdominal funcional y somatización',
+      cards: [
+        { title: 'Cuándo sospecharlo', tag: 'Sin signos de alarma', kind: 'key', items: [
+          { t: 'Recurrente, periumbilical, sin alarma', d: 'Con estrés: colegio, bullying, conflicto familiar',
+            say: 'Se sospecha somatización cuando el dolor es recurrente, periumbilical, sin signos de alarma, y hay un contexto de estrés: el colegio, el bullying, un conflicto familiar o el ausentismo escolar.' },
+        ] },
+        { title: 'Cómo se maneja', tag: 'Sin exámenes de más', kind: 'normal', items: [
+          { t: 'Validar el síntoma: el dolor es real', d: 'Evitar exámenes innecesarios',
+            say: 'El manejo parte por validar el síntoma. El dolor es real, aunque no haya una lesión. Y se evitan los exámenes innecesarios.' },
+          { t: 'Explorar estresores, diario de síntomas', d: 'Mantener la asistencia escolar',
+            say: 'Se exploran los estresores, se lleva un diario de síntomas y se mantiene la asistencia al colegio.' },
+        ] },
+        { title: 'Cuándo derivar', tag: 'Salud mental', kind: 'alert', items: [
+          { t: 'Deterioro funcional importante', d: 'Ansiedad o depresión',
+            say: 'Se deriva a salud mental si hay un deterioro funcional importante, o ansiedad o depresión.' },
         ] },
       ],
     },
@@ -178,6 +202,52 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Procedimiento',
+      title: 'Enema evacuador: cómo se hace',
+      cards: [
+        { title: 'Técnica', tag: 'Paso a paso', kind: 'key', items: [
+          { t: 'Decúbito lateral izquierdo, rodillas flexionadas', d: 'Sonda lubricada 3 a 5 cm',
+            say: 'El niño va en decúbito lateral izquierdo, con las rodillas flexionadas. Se introduce una sonda rectal lubricada, tres a cinco centímetros, y menos en el lactante.' },
+          { t: 'Suero fisiológico tibio: 10 mL/kg', d: 'Pasa lento, por gravedad',
+            say: 'Se instila suero fisiológico tibio, diez mililitros por kilo, que pasa lento por gravedad. Después se mantienen los glúteos juntos unos minutos.' },
+        ] },
+        { title: 'Qué evitar', tag: 'Seguridad', kind: 'alert', items: [
+          { t: 'No usar agua sola', d: 'Riesgo de hiponatremia',
+            say: 'Nunca agua sola, por el riesgo de hiponatremia.' },
+          { t: 'Fosfato: no en menores de 2 años ni en Hirschsprung', d: 'Se evita',
+            say: 'El enema de fosfato se evita en menores de dos años y en la enfermedad de Hirschsprung.' },
+        ] },
+        { title: 'Contraindicaciones', tag: 'No se hace si…', kind: 'normal', items: [
+          { t: 'Obstrucción mecánica o abdomen agudo', d: 'Sospecha de ambos',
+            say: 'No se hace si se sospecha una obstrucción mecánica o un abdomen agudo.' },
+          { t: 'Enterocolitis necrotizante, neutropenia, cirugía anorrectal reciente', d: 'Contraindicado',
+            say: 'Tampoco en la enterocolitis necrotizante, en la neutropenia o después de una cirugía anorrectal reciente.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Encopresis',
+      title: 'Encopresis: el escape que no es voluntario',
+      cards: [
+        { title: 'Qué es', tag: '4 años o más', kind: 'key', items: [
+          { t: 'Escape involuntario de deposición', d: 'Casi siempre retentiva',
+            say: 'La encopresis es el escape involuntario de deposición en un niño de cuatro años o más. Casi siempre es retentiva: el escape es un rebosamiento por un fecaloma.' },
+        ] },
+        { title: 'Manejo', tag: 'Conductual', kind: 'pharma', items: [
+          { t: 'Desimpactar y laxante', d: 'Como en la constipación',
+            say: 'Primero se desimpacta y se da el laxante, igual que en la constipación.' },
+          { t: 'Sentarlo 5 a 10 minutos tras las comidas', d: 'Con apoyo para los pies',
+            say: 'Después viene lo conductual: sentarlo en el baño cinco a diez minutos después de las comidas, con apoyo para los pies, y llevar un registro de logros con refuerzo positivo.' },
+          { t: 'Sin castigo ni reproche', d: 'Derivar si hay problemas de conducta o ánimo',
+            say: 'Y sin castigo ni reproche. Se deriva a salud mental si hay problemas de conducta o de ánimo asociados, o si no responde.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -188,23 +258,6 @@ module.exports = {
       steps: [
         { note: 'Oliva pilórica en la ecografía',
           say: 'El músculo del píloro se engruesa y cierra la salida del estómago. Entre la segunda y la sexta semana de vida, el lactante hambriento hace vómitos explosivos y proyectivos, con alcalosis hipoclorémica y deshidratación. La ecografía muestra la oliva pilórica.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Estenosis hipertrófica del píloro',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-24/01_eco-piloro-ehp__cto-pediatria_p65.jpg', label: 'Ecografía: píloro alargado y engrosado', credit: 'Manual CTO Pediatría 14.ª ed., p. 65' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-24/01_eco-piloro-ehp_alt1__cto-pediatria_p65.jpg', label: 'El músculo pilórico engrosado (dibujo)', credit: 'Manual CTO Pediatría 14.ª ed., p. 65' },
-      ],
-      steps: [
-        { note: 'La oliva pilórica en la ecografía',
-          say: 'Esta es la ecografía, el examen que muestra la oliva pilórica. Las marcas miden el píloro: está alargado y con el músculo engrosado.' },
-        { note: 'El músculo cierra la salida del estómago',
-          say: 'Y este dibujo muestra lo mismo por dentro: el músculo del píloro engrosado, que cierra la salida del estómago. Por eso el lactante hambriento vomita de forma explosiva.' },
       ],
     },
 
@@ -320,6 +373,157 @@ module.exports = {
         options: 'Las opciones: dosis insuficiente de laxante, dieta baja en fibra, enfermedad de Hirschsprung, presencia de fecaloma, o patología psiquiátrica concomitante. Piénsalo.',
         answer: 'Es la D. El manchado fecal es la pista: no es que el laxante esté fallando por la dosis, es que ya hay un fecaloma, y el líquido se escurre alrededor por rebosamiento. Un laxante de mantención no desimpacta nada; primero hay que sacarlo con polietilenglicol, y recién después mantener.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.041 · Dolor abdominal recurrente",
+      "stem": "Escolar de 8 años con 6 meses de episodios de dolor periumbilical varias veces por semana, que no lo despiertan en la noche y suelen aparecer antes de ir al colegio. Crece en percentil 50 de peso y talla. Examen físico, hemograma, VHS, orina completa y parasitológico seriado normales.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Endoscopía digestiva alta con biopsias"
+        },
+        {
+          "letter": "B",
+          "text": "TAC de abdomen y pelvis"
+        },
+        {
+          "letter": "C",
+          "text": "Omeprazol empírico por 3 meses"
+        },
+        {
+          "letter": "D",
+          "text": "Diagnosticar dolor abdominal funcional, educar a la familia y abordar los factores psicosociales"
+        },
+        {
+          "letter": "E",
+          "text": "Erradicación empírica de Helicobacter pylori"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Dolor periumbilical recurrente, sin signos de alarma (dolor nocturno o lejos del ombligo, baja de peso, vómitos, sangrado, fiebre) y con exámenes básicos normales es un dolor abdominal funcional. Se maneja con educación, validación del síntoma y apoyo psicosocial, evitando estudios invasivos innecesarios.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Escolar de ocho años con seis meses de dolor alrededor del ombligo, varias veces por semana, que no lo despierta y aparece sobre todo antes de ir al colegio. Crece bien y su examen y exámenes básicos son normales.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: endoscopía con biopsias, tomografía de abdomen, omeprazol empírico, diagnosticar dolor abdominal funcional y educar o erradicar Helicobacter. Piénsalo.",
+        "answer": "Es la D. Dolor periumbilical, en un niño que crece bien, sin signos de alarma y con exámenes normales, es un dolor abdominal funcional, y el tratamiento es educar y abordar lo emocional. La endoscopía tienta para quedarse tranquilo, pero sin alarma solo expone al niño a un procedimiento innecesario."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 5.01.1.027 · Encopresis",
+      "stem": "Niño de 6 años, controla esfínteres desde los 3 años. Desde hace 4 meses ensucia su ropa interior casi a diario con deposiciones blandas. Defeca deposiciones duras y voluminosas cada 5 días, con dolor. Al examen se palpa masa fecal en hipogastrio y el tacto rectal muestra ampolla llena de heces duras.",
+      "question": "¿Cuál es el manejo más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Loperamida para controlar el escurrimiento"
+        },
+        {
+          "letter": "B",
+          "text": "Desimpactación fecal, luego polietilenglicol de mantención y entrenamiento de hábito defecatorio"
+        },
+        {
+          "letter": "C",
+          "text": "Psicoterapia exclusiva, sin tratamiento laxante"
+        },
+        {
+          "letter": "D",
+          "text": "Dieta sin gluten"
+        },
+        {
+          "letter": "E",
+          "text": "Biopsia rectal por sospecha de enfermedad de Hirschsprung"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La encopresis retentiva es la más frecuente: la constipación funcional con fecaloma produce escurrimiento de heces por rebalse. Se trata con desimpactación (polietilenglicol en dosis altas o enemas), mantención con polietilenglicol por meses, educación sin castigo y hábito defecatorio postprandial. El Hirschsprung se sospecha con inicio neonatal y ampolla vacía.",
+      "say": {
+        "stem": "Niño de seis años que ensucia la ropa interior a diario, con deposiciones duras cada cinco días y ampolla rectal llena de heces.",
+        "question": "¿Cuál es el manejo?",
+        "options": "Las opciones: loperamida, desimpactar y mantener con polietilenglicol más hábito, solo psicoterapia, dieta sin gluten o biopsia rectal. Piénsalo.",
+        "answer": "Es la B. Es una encopresis retentiva por constipación con fecaloma, y se trata desimpactando y manteniendo laxante con hábito. La loperamida tienta porque parece diarrea, pero el escurrimiento es por rebalse y empeoraría la retención."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 5.01.1.032 · Trastorno somatización en niños",
+      "stem": "Niña de 9 años con 4 meses de dolor abdominal periumbilical y cefalea recurrentes, que aparecen en las mañanas de días de colegio y ceden los fines de semana. Ha faltado mucho a clases. Coincide con la separación de sus padres. Crecimiento normal, sin baja de peso, fiebre, sangrado ni despertar nocturno por dolor. Examen físico, hemograma y orina normales.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Explicar el origen funcional, validar los síntomas y abordar los estresores con la familia y el colegio, favoreciendo el retorno a clases"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar endoscopía digestiva alta"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar TAC de abdomen y pelvis"
+        },
+        {
+          "letter": "D",
+          "text": "Indicar reposo en casa hasta que ceda el dolor"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar benzodiacepinas"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En niños, la somatización se expresa típicamente con dolor abdominal y cefalea recurrentes, ligados a estrés (escuela, conflictos familiares). Sin signos de alarma no se piden más estudios. Se legitima el dolor, se explica su naturaleza, se trabajan los estresores y se promueve la asistencia escolar; el ausentismo refuerza el cuadro.",
+      "say": {
+        "stem": "Niña de nueve años con dolor abdominal y cefalea en las mañanas de colegio, que ceden el fin de semana, tras la separación de sus padres, sin signos de alarma y con exámenes normales.",
+        "question": "¿Cuál es la conducta?",
+        "options": "Las opciones: explicar, validar y abordar estresores con retorno a clases, endoscopía, scanner, reposo en casa o benzodiacepinas. Piénsalo.",
+        "answer": "Es la A. Son síntomas somáticos ligados al estrés, sin signos de alarma, así que se valida, se explica y se trabajan los estresores. El reposo en casa tienta para aliviarla, pero el ausentismo refuerza los síntomas."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.5.007 · Proctoclisis",
+      "stem": "Un niño de 5 años con constipación crónica presenta dolor abdominal y escurrimiento fecal. Al examen se palpa masa fecal en hipogastrio y el tacto rectal confirma impactación fecal. Se planifica desimpactación con proctoclisis (enema).",
+      "question": "¿En cuál de las siguientes situaciones está contraindicada la proctoclisis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Constipación funcional con fecaloma"
+        },
+        {
+          "letter": "B",
+          "text": "Escurrimiento fecal (encopresis por rebalse)"
+        },
+        {
+          "letter": "C",
+          "text": "Neutropenia grave por quimioterapia"
+        },
+        {
+          "letter": "D",
+          "text": "Antecedente de fisura anal cicatrizada"
+        },
+        {
+          "letter": "E",
+          "text": "Dieta pobre en fibra"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La desimpactación fecal puede hacerse con polietilenglicol oral en dosis altas o por vía rectal (proctoclisis o enemas). La manipulación rectal está contraindicada en pacientes neutropénicos o inmunosuprimidos (riesgo de bacteriemia), con sospecha de abdomen agudo u obstrucción, enterocolitis o cirugía colorrectal reciente. El escurrimiento por rebalse es justamente una indicación de desimpactar.",
+      "say": {
+        "stem": "Un niño de cinco años con constipación crónica tiene un fecaloma y se planifica desimpactar con proctoclisis.",
+        "question": "¿En qué situación estaría contraindicada?",
+        "options": "Las opciones: constipación funcional con fecaloma, escurrimiento fecal, neutropenia grave, fisura cicatrizada o dieta pobre en fibra. Piénsalo.",
+        "answer": "Es la C. La manipulación rectal está contraindicada en la neutropenia grave por riesgo de bacteriemia. El escurrimiento fecal tienta como contraindicación, pero es un rebalse por el fecaloma y es justamente una razón para desimpactar."
+      }
     },
 
     {

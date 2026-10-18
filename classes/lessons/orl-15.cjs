@@ -35,9 +35,24 @@ module.exports = {
         { show: ['wa', 'hi'], note: 'Crecimiento desproporcionado del tejido linfoide',
           say: 'El anillo linfático de Waldeyer, que incluye las adenoides en el cavum y las amígdalas palatinas, tiene su mayor desarrollo entre los dos y los seis años. Si crece de forma desproporcionada, produce una obstrucción mecánica fija de la vía aérea y digestiva alta. Es la causa más frecuente de obstrucción de la vía aérea superior en pediatría.' },
         { show: ['rb', 'fa'], note: 'Boca entreabierta, paladar ojival, ojeras',
-          say: 'Si el niño respira por la boca durante años, cambia el desarrollo de su cara. Es la facies adenoidea: cara alargada y estrecha, boca siempre entreabierta, labio superior corto, labio inferior evertido, paladar ojival, mandíbula pequeña, maloclusión dentaria y ojeras oscuras por la estasis venosa.' },
+          say: 'Si el niño respira por la boca durante años, cambia el desarrollo de su cara. Es la facies adenoidea: cara alargada y estrecha, boca siempre entreabierta, labio superior corto, labio inferior evertido, paladar ojival, mandíbula pequeña, maloclusión dentaria y ojeras oscuras por la estasis venosa. Mira a este niño: la boca entreabierta, la cara alargada y las ojeras.',
+          photo: { src: 'biblioteca/17_otorrino/orl-15/02_facies-adenoidea__zitelli_p952.jpg', label: 'Facies adenoidea', at: 'Mira a este niño', credit: "Zitelli and Davis' Atlas of Pediatric Physical Diagnosis, p. 952" } },
         { show: ['sa'], note: 'De noche, la obstrucción se hace peligrosa',
           say: 'Y de noche, con los músculos relajados, la obstrucción se vuelve más crítica. Ahí aparece el ronquido y, en los casos importantes, las apneas.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Adenoides, amígdalas y Brodsky',
+      images: [
+        { src: 'animaciones/orl-15/A1_adenoides_brodsky_sahos.mp4', label: 'Hipertrofia adenoamigdalina: obstrucción, Brodsky e indicaciones', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Adenoides que cierran el cavum y amígdalas que se tocan',
+          say: 'Mira el cavum: las adenoides crecen y cierran el paso del aire por la nariz, así que el niño respira por la boca, ronca y hace apneas. Y en la boca, las amígdalas crecen hacia la línea media: grados uno a cuatro de Brodsky; en el cuatro se tocan. La cirugía es obligada con apnea del sueño o grado cuatro, y relativa con siete, cinco o tres episodios según Paradise.' },
       ],
     },
 
@@ -78,7 +93,28 @@ module.exports = {
         { cells: ['3', '50 a 75%', 'Más de la mitad de la orofaringe', 'Respirador bucal; evaluar SAHOS'],
           say: 'En el grado tres ocupan más de la mitad del espacio orofaríngeo. Es el respirador bucal frecuente y obliga a buscar apnea del sueño.' },
         { cells: ['4', 'Más de 75%', 'Se tocan en la línea media', 'Alta indicación quirúrgica'],
-          say: 'En el grado cuatro, las amígdalas se tocan en la línea media: son las amígdalas en beso. Ocupan más de tres cuartos de la vía aérea y tienen alta indicación quirúrgica por el riesgo de apneas obstructivas.' },
+          say: 'En el grado cuatro, las amígdalas se tocan en la línea media: son las amígdalas en beso. Ocupan más de tres cuartos de la vía aérea y tienen alta indicación quirúrgica por el riesgo de apneas obstructivas. Mira estas amígdalas: grandes, rojas, que se tocan en la línea media.',
+          photo: { src: 'biblioteca/17_otorrino/orl-15/01_hipertrofia-amigdalina-grado4__bull_p200.jpg', label: 'Amígdalas grado 4', at: 'Mira estas amígdalas', credit: 'Color Atlas of ENT Diagnosis (Bull), p. 200' } },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Respirador bucal',
+      title: 'Radiografía de cavum y manejo del respirador bucal',
+      cards: [
+        { title: 'Radiografía lateral de cavum', tag: 'Apoyo diagnóstico', kind: 'criteria', items: [
+          { t: 'Columna de aire reducida o ausente', d: 'Cuello en leve extensión, boca cerrada',
+            say: 'La radiografía lateral de cavum se toma con el cuello en leve extensión y la boca cerrada. Se informa la columna de aire de la nasofaringe reducida o ausente, y la relación entre adenoides y nasofaringe, el índice de Fujioka: sobre cero coma ocho es obstructiva.' },
+          { t: 'Depende de la técnica; la nasofibroscopía es más precisa', d: 'En el adulto no se pide: endoscopía para descartar tumor de cavum',
+            say: 'Sirve en el niño con respiración bucal, ronquido y otitis con efusión, pero depende de la colaboración. En un adulto con obstrucción unilateral u otitis con efusión unilateral no se pide radiografía: se hace endoscopía para descartar un tumor del cavum.' },
+        ] },
+        { title: 'Síndrome del respirador bucal', tag: 'Buscar la causa', kind: 'key', items: [
+          { t: 'Causas y consecuencias', d: 'Adenoides, rinitis, desviación, pólipos, atresia de coanas',
+            say: 'Primero identificas por qué respira por la boca: hipertrofia adenoidea o amigdalina, rinitis alérgica, desviación septal, pólipos o atresia de coanas. Las consecuencias son la facies adenoidea, el paladar ojival, la maloclusión, el sueño inquieto, la otitis con efusión y el bajo rendimiento escolar.' },
+          { t: 'Tratar la causa y derivar', d: 'ORL si hay ronquido persistente, apnea u otitis con efusión recurrente',
+            say: 'Tratas la causa: corticoide nasal y lavados en la rinitis, adenoamigdalectomía si hay obstrucción importante, apnea o infecciones recurrentes, y rehabilitación miofuncional y ortodoncia. Derivas ante ronquido persistente, apnea del sueño u otitis con efusión recurrente.' },
+        ] },
       ],
     },
 
@@ -201,6 +237,119 @@ module.exports = {
         options: 'Las opciones: dos episodios de amigdalitis en un año; siete episodios documentados y tratados en un año; ronquido sólo durante los resfríos; caseum amigdalino sin fiebre; o un único episodio viral por adenovirus. Piénsalo.',
         answer: 'Es la B. Siete episodios documentados en el último año es el primero de los tres criterios. Fíjate en lo que hace trampa en las otras: pocos episodios, episodios virales, o caseum, que es una condición benigna sin fiebre ni odinofagia.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.004 · Radiografía de cavum",
+      "stem": "Un niño de 4 años ronca todas las noches, respira por la boca, tiene voz nasal y rinorrea persistente. Sus padres han notado pausas respiratorias durante el sueño. A la orofaringe las amígdalas son pequeñas.",
+      "question": "¿Qué examen permite evaluar el tamaño del tejido adenoideo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía de senos paranasales"
+        },
+        {
+          "letter": "B",
+          "text": "Radiografía de tórax"
+        },
+        {
+          "letter": "C",
+          "text": "Radiografía lateral de cavum"
+        },
+        {
+          "letter": "D",
+          "text": "TAC de cerebro"
+        },
+        {
+          "letter": "E",
+          "text": "Audiometría"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Ronquido, respiración bucal, voz nasal y apneas con amígdalas pequeñas sugieren hipertrofia adenoidea. La radiografía lateral de cavum permite estimar la relación adenoides/nasofaringe y la obstrucción de la vía aérea; también puede usarse la nasofibroscopía. Con SAHOS y adenoides obstructivos, el tratamiento es la adenoidectomía (o adenoamigdalectomía).",
+      "say": {
+        "stem": "Un niño de cuatro años ronca, respira por la boca, tiene voz nasal y pausas respiratorias al dormir, con amígdalas pequeñas.",
+        "question": "¿Qué examen evalúa el tamaño de los adenoides?",
+        "options": "Las opciones: radiografía de senos paranasales, radiografía de tórax, radiografía lateral de cavum, TAC de cerebro o audiometría. Piénsalo.",
+        "answer": "Es la C. La radiografía lateral de cavum muestra el tamaño de los adenoides y cuánto obstruyen la nasofaringe. La radiografía de senos tienta por la rinorrea, pero no evalúa la nasofaringe y tiene poca utilidad en niños."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.1.003 · Amigdalitis crónica",
+      "stem": "Niño de 8 años con 8 episodios de faringoamigdalitis estreptocócica documentados y tratados en el último año, con ausentismo escolar importante. Entre episodios está asintomático.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Penicilina benzatina mensual indefinida"
+        },
+        {
+          "letter": "B",
+          "text": "Tratar cada episodio y controlar sin otra medida"
+        },
+        {
+          "letter": "C",
+          "text": "Derivar a otorrinolaringología para evaluar amigdalectomía"
+        },
+        {
+          "letter": "D",
+          "text": "Amigdalectomía solo si presenta absceso periamigdalino"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar ASO mensual"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La amigdalitis recurrente documentada con 7 o más episodios en 1 año, 5 o más por año en 2 años o 3 o más por año en 3 años (criterios de Paradise) indica evaluar amigdalectomía, al igual que el SAHOS por hipertrofia o el absceso periamigdalino recurrente. La penicilina profiláctica es para prevenir recurrencia de fiebre reumática.",
+      "say": {
+        "stem": "Niño de ocho años con ocho faringoamigdalitis estreptocócicas documentadas en el último año.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: penicilina benzatina mensual, tratar cada episodio sin más, derivar para evaluar amigdalectomía, operar solo si hay absceso o ASO mensual. Piénsalo.",
+        "answer": "Es la C. Siete o más episodios documentados en un año cumplen criterios para amigdalectomía y se deriva. La penicilina mensual tienta, pero se usa para prevenir la recurrencia de fiebre reumática, no las amigdalitis."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 23",
+      "stem": "Niño de 5 años presenta infecciones respiratorias a repetición, asociadas a rinorrea bilateral frecuente y obstrucción nasal con respiración bucal habitual. La madre relata roncopatía y dificultades para dormir. Recientemente ha presentado 2 episodios de otitis media aguda que respondieron a amoxicilina.",
+      "question": "¿Cuál es el examen de elección para iniciar el estudio en este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía de cavum"
+        },
+        {
+          "letter": "B",
+          "text": "TAC de cavidades paranasales"
+        },
+        {
+          "letter": "C",
+          "text": "Nasofibroscopía"
+        },
+        {
+          "letter": "D",
+          "text": "Polisomnografía"
+        },
+        {
+          "letter": "E",
+          "text": "Niveles plasmáticos de IgE específica contra alérgenos respiratorios"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Respiración bucal, ronquido, rinorrea y otitis recurrentes en un preescolar sugieren hipertrofia adenoidea. La radiografía lateral de cavum es un examen simple y accesible para iniciar el estudio, al mostrar la relación adenoides-nasofaringe. La nasofibroscopía la confirma en el nivel especializado y la polisomnografía se reserva para dudas sobre la gravedad del SAHOS.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Niño de cinco años con respiración bucal, obstrucción nasal, ronquido, infecciones respiratorias frecuentes y otitis recientes.",
+        "question": "¿Cuál es el examen para iniciar el estudio?",
+        "options": "Las opciones: radiografía de cavum, TAC de cavidades paranasales, nasofibroscopía, polisomnografía o IgE específica. Piénsalo.",
+        "answer": "Es la A. Se sospecha hipertrofia adenoidea y el estudio inicial es la radiografía lateral de cavum. La nasofibroscopía tienta por ser más precisa, pero se realiza en el nivel especialista, no para iniciar el estudio."
+      }
     },
 
     {

@@ -27,7 +27,8 @@ module.exports = {
       cards: [
         { title: 'Zonas de McNeal', tag: 'Dónde nace cada cosa', kind: 'key', items: [
           { t: 'Zona de transición: HPB', d: 'Rodea la uretra proximal; 95% de las HPB',
-            say: 'La hiperplasia benigna nace en la zona de transición, la que rodea la uretra proximal. De ahí sale el noventa y cinco por ciento de los casos.' },
+            say: 'La hiperplasia benigna nace en la zona de transición, la que rodea la uretra proximal. De ahí sale el noventa y cinco por ciento de los casos. Mira esta vista por cistoscopio de la uretra prostática: a ambos lados, los lóbulos de la próstata protruyen hacia la luz y la estrechan.',
+            photo: { src: 'biblioteca/19_urologia/uro-03/01_uretra-prostatica-lobulos-cistoscopia__bailey-love_p1404.jpg', label: 'Lóbulos que cierran uretra', at: 'Mira esta vista', credit: 'Bailey & Love 27.ª ed., Fig. 75.10' } },
           { t: 'Zona periférica: cáncer', d: 'Origen de 75 a 80% de los cánceres',
             say: 'El cáncer, en cambio, nace en la zona periférica, de setenta y cinco a ochenta por ciento de los casos. Esa diferencia de zonas es la que se aprovecha en el tacto rectal.' },
         ] },
@@ -65,7 +66,8 @@ module.exports = {
         { show: ['s'], note: 'Primero, síntomas de vaciado',
           say: 'La dificultad de salida produce los síntomas obstructivos o de vaciado: chorro débil, latencia para empezar a orinar, esfuerzo, intermitencia y goteo terminal.' },
         { show: ['d', 'i'], note: 'Después, síntomas de llenado',
-          say: 'Para vencer la obstrucción, el detrusor se hipertrofia y forma una vejiga de lucha, con trabéculas y pseudodivertículos. Ese músculo irritable produce los síntomas irritativos o de llenado: polaquiuria diurna, nicturia más de dos veces, urgencia e incontinencia de urgencia.' },
+          say: 'Para vencer la obstrucción, el detrusor se hipertrofia y forma una vejiga de lucha, con trabéculas y pseudodivertículos. Ese músculo irritable produce los síntomas irritativos o de llenado: polaquiuria diurna, nicturia más de dos veces, urgencia e incontinencia de urgencia. Mira esta pared de la vejiga por dentro: las bandas musculares marcadas son la trabeculación, la huella de años de esfuerzo.',
+          photo: { src: 'biblioteca/19_urologia/uro-03/02_vejiga-trabeculada-cistoscopia__bailey-love_p1404.jpg', label: 'Vejiga trabeculada', at: 'Mira esta pared', credit: 'Bailey & Love 27.ª ed., Fig. 75.9' } },
         { show: ['c'], note: 'Si no se trata, complica',
           say: 'Y si la obstrucción progresa, aparecen las complicaciones: retención aguda, infecciones, litiasis vesical, y daño del riñón. Esas complicaciones son las que mandan a cirugía.' },
       ],
@@ -92,22 +94,51 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'La próstata y la vejiga que lucha',
-      images: [
-        { src: 'biblioteca/19_urologia/uro-03/01_uretra-prostatica-lobulos-cistoscopia__bailey-love_p1404.jpg', label: 'Cistoscopía de la uretra prostática: lóbulos laterales que protruyen y verumontanum', credit: 'Bailey & Love 27.ª ed., Fig. 75.10' },
-        { src: 'biblioteca/19_urologia/uro-03/02_vejiga-trabeculada-cistoscopia__bailey-love_p1404.jpg', label: 'Cistoscopía: pared vesical con trabeculación', credit: 'Bailey & Love 27.ª ed., Fig. 75.9' },
-        { src: 'biblioteca/19_urologia/uro-03/03_rm-lobulo-medio-protruye-vejiga__bailey-love_p1482.jpg', label: 'Resonancia magnética: lóbulo medio que protruye hacia la vejiga', credit: 'Bailey & Love 27.ª ed., Fig. 78.11' },
+      type: 'points',
+      kicker: 'Evaluación',
+      title: 'Frecuencia, ecografía y uroflujometría',
+      cards: [
+        { title: 'Quién la tiene', tag: 'Epidemiología', kind: 'key', items: [
+          { t: 'Tumor benigno más frecuente', d: '50% a los 60 años; 80 a 90% a los 80',
+            say: 'La hiperplasia prostática es el tumor benigno más frecuente del hombre y la causa más común de síntomas urinarios bajos. Aparece desde los cuarenta años: afecta a cerca de la mitad a los sesenta, y a ocho o nueve de cada diez a los ochenta, aunque solo una parte tiene síntomas.' },
+          { t: 'Andrógenos y envejecimiento', d: 'No aparece si se castró antes de la pubertad',
+            say: 'Necesita dihidrotestosterona y envejecimiento: no se desarrolla en quien fue castrado antes de la pubertad. Se asocia además a obesidad, síndrome metabólico, sedentarismo y antecedente familiar.' },
+        ] },
+        { title: 'Ecografía vésico-prostática', tag: 'Con vejiga llena y vacía', kind: 'criteria', items: [
+          { t: 'Volumen y lóbulo medio', d: 'Aumentada si pasa de 30 a 40 cc',
+            say: 'La ecografía suprapúbica estima el volumen de la próstata, que está aumentada sobre treinta a cuarenta centímetros cúbicos, y muestra el lóbulo medio. Mira esta resonancia: la masa de la próstata se proyecta hacia dentro de la vejiga, es el lóbulo medio, y explica por qué una próstata no tan grande puede dar una obstrucción importante.',
+            photo: { src: 'biblioteca/19_urologia/uro-03/03_rm-lobulo-medio-protruye-vejiga__bailey-love_p1482.jpg', label: 'Lóbulo medio en la vejiga', at: 'Mira esta resonancia', credit: 'Bailey & Love 27.ª ed., Fig. 78.11' } },
+          { t: 'Residuo mayor de 100 mL', d: 'Trabéculas, divertículos, hidronefrosis',
+            say: 'Después de orinar mide el residuo, que es significativo sobre cien mililitros, y busca trabeculación, divertículos, cálculos y hidronefrosis. La ecografía transrectal se reserva para guiar la biopsia.' },
+        ] },
+        { title: 'Uroflujometría', tag: 'Flujo máximo', kind: 'alert', items: [
+          { t: 'Qmax menor de 10: obstrucción', d: 'Mayor de 15 mL/s es normal',
+            say: 'La uroflujometría registra una micción espontánea de al menos ciento cincuenta mililitros. Un flujo máximo sobre quince es normal, y bajo diez sugiere obstrucción, con una curva aplanada y prolongada en vez de la campana normal.' },
+          { t: 'No distingue el detrusor débil', d: 'Se lee junto con residuo e IPSS',
+            say: 'Ojo: no separa la obstrucción de un detrusor poco contráctil. Por eso se interpreta junto con el residuo y el IPSS.' },
+        ] },
       ],
-      steps: [
-        { note: 'Lóbulos que cierran la uretra',
-          say: 'Esta es una vista por cistoscopio de la uretra prostática. Mira a ambos lados: los lóbulos de la próstata protruyen hacia la luz y la estrechan. En la parte baja de la imagen se ve el verumontanum.' },
-        { note: 'Vejiga trabeculada',
-          say: 'Y esta es la pared de la vejiga por dentro. Se ven las bandas musculares marcadas, es la trabeculación: la huella de un detrusor que lleva años haciendo fuerza contra una salida obstruida.' },
-        { note: 'Lóbulo medio hacia la vejiga',
-          say: 'Y esta es una resonancia. Fíjate en la masa de la próstata que se proyecta hacia dentro de la vejiga: es el lóbulo medio. Explica por qué una próstata no tan grande puede dar una obstrucción severa.' },
+    },
+
+    {
+      type: 'points',
+      kicker: 'Evaluación',
+      title: 'Tacto rectal y obstrucción baja',
+      cards: [
+        { title: 'La técnica del tacto', tag: 'La realizas tú', kind: 'key', items: [
+          { t: 'Decúbito lateral izquierdo', d: 'Rodillas flectadas; explica antes',
+            say: 'Primero explicas el procedimiento y colocas al paciente en decúbito lateral izquierdo con las rodillas flectadas. Inspeccionas la región perianal, lubricas el dedo y lo apoyas sobre el esfínter hasta que se relaje, antes de introducirlo.' },
+          { t: 'Cara posterior de la próstata', d: 'Normal 3 a 4 cm, como una nuez',
+            say: 'Con la cara palmar hacia adelante palpas la cara posterior de la próstata: tamaño, que normalmente es de tres a cuatro centímetros, simetría, surco medio, consistencia, nódulos y dolor. Si sospechas prostatitis aguda, no hay masaje.' },
+          { t: 'Registrar y sumar el APE', d: 'No reemplaza al antígeno',
+            say: 'Registras el hallazgo y lo complementas con el APE; uno no reemplaza al otro.' },
+        ] },
+        { title: 'Uropatía obstructiva baja', tag: 'Del cuello al meato', kind: 'alert', items: [
+          { t: 'En el adulto mayor, casi siempre HPB', d: 'Pero también estenosis, cáncer, cálculos',
+            say: 'Es la dificultad para vaciar por un obstáculo desde el cuello vesical hasta el meato. En el hombre mayor la causa más frecuente es la hiperplasia, pero piensa también en estenosis uretral, cáncer de próstata, cálculos y fimosis. En el niño, las válvulas de uretra posterior.' },
+          { t: 'Sonda, creatinina, urocultivo y eco', d: 'Luego derivar a urología',
+            say: 'Si hay retención, pasas una sonda; pides creatinina, orina completa y urocultivo, haces una ecografía y derivas. Sus complicaciones son la infección, la litiasis vesical, la retención aguda y la insuficiencia renal.' },
+        ] },
       ],
     },
 
@@ -290,6 +321,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La uretra se estrecha',
+      images: [
+        { src: 'animaciones/uro-03/A1_hpb_uretra_estrecha.mp4', label: 'De la próstata normal a la obstrucción', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'De la próstata normal a la obstrucción',
+          say: 'Compara la próstata normal con la hiperplásica. Cuando el adenoma de la zona de transición crece, la uretra se estrecha y el chorro se adelgaza: el flujo máximo cae bajo diez mililitros por segundo. El detrusor se hipertrofia y aparecen los síntomas de llenado. Y recuerda los dos componentes: el estático, que trata el finasteride, y el dinámico, que relaja la tamsulosina.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: de los síntomas urinarios del hombre mayor al tratamiento según IPSS, volumen y complicaciones.',
     },
@@ -405,6 +450,231 @@ module.exports = {
         options: 'Las opciones: accidente cerebrovascular embólico; síndrome de RTUP; shock séptico; hematoma retroperitoneal; o reacción alérgica a la anestesia. Piénsalo.',
         answer: 'Es la B. Una cirugía monopolar larga, con sodio muy bajo, hipertensión y bradicardia: el síndrome de RTUP. La C y la D darían hipotensión y taquicardia, y aquí ocurre lo contrario.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.1.027 · Uropatía obstructiva baja",
+      "stem": "Hombre de 76 años con síntomas urinarios bajos de años, sin tratamiento, consulta por goteo urinario continuo, día y noche, de 2 meses, y decaimiento. Al examen hay un globo vesical palpable indoloro. Creatinina 2,8 mg/dL (hace 1 año 1,0 mg/dL). La ecografía muestra hidroureteronefrosis bilateral y vejiga distendida con 900 mL.",
+      "question": "¿Cuál es la conducta inicial más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Descompresión vesical con sonda Foley, control de diuresis y electrolitos por riesgo de poliuria postobstructiva, y derivar a urología"
+        },
+        {
+          "letter": "B",
+          "text": "Oxibutinina por incontinencia de urgencia"
+        },
+        {
+          "letter": "C",
+          "text": "Nefrostomía percutánea bilateral urgente"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar tamsulosina y control en 3 meses"
+        },
+        {
+          "letter": "E",
+          "text": "Biopsia renal por insuficiencia renal de causa desconocida"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El goteo continuo con globo vesical es incontinencia por rebalse, y la hidronefrosis bilateral con alza de creatinina indica uropatía obstructiva baja con daño renal. Se descomprime la vejiga con sonda, vigilando la poliuria postobstructiva y los electrolitos, y luego se trata la causa. La nefrostomía no es necesaria si la obstrucción es infravesical.",
+      "say": {
+        "stem": "Un hombre de setenta y seis años con síntomas prostáticos antiguos tiene goteo de orina continuo, un globo vesical indoloro, creatinina que subió a dos coma ocho, y en la ecografía ambos riñones dilatados con la vejiga muy llena.",
+        "question": "¿Cuál es la conducta inicial más adecuada?",
+        "options": "Las opciones: sonda Foley vigilando la diuresis y los electrolitos, oxibutinina, nefrostomía bilateral, tamsulosina con control en tres meses o biopsia renal. Piénsalo.",
+        "answer": "Es la A. Es una obstrucción infravesical con daño renal, y se resuelve vaciando la vejiga con sonda, atentos a la poliuria posterior a la obstrucción. La oxibutinina tienta porque se escapa la orina, pero es incontinencia por rebalse y ese fármaco empeora la retención."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.3.002 · Epidemiología del adenoma de próstata",
+      "stem": "En una charla para la comunidad, un médico de un CESFAM explica los aspectos epidemiológicos de la hiperplasia prostática benigna a un grupo de hombres adultos.",
+      "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Es una lesión premaligna que evoluciona a cáncer de próstata en la mayoría de los casos"
+        },
+        {
+          "letter": "B",
+          "text": "Es más frecuente en hombres castrados antes de la pubertad"
+        },
+        {
+          "letter": "C",
+          "text": "Se origina principalmente en la zona periférica de la próstata"
+        },
+        {
+          "letter": "D",
+          "text": "Su prevalencia histológica aumenta con la edad, alcanzando alrededor de 50% a los 60 años y cerca de 80 a 90% a los 80 años, y requiere andrógenos testiculares para desarrollarse"
+        },
+        {
+          "letter": "E",
+          "text": "El tamaño de la próstata se correlaciona estrechamente con la intensidad de los síntomas"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La hiperplasia prostática benigna es muy frecuente y dependiente de la edad y de la dihidrotestosterona: no ocurre en castrados prepuberales. Nace en la zona de transición, no es premaligna, y el tamaño glandular se correlaciona mal con los síntomas. El cáncer, en cambio, nace en la zona periférica.",
+      "say": {
+        "stem": "Un médico del CESFAM da una charla a hombres adultos sobre la epidemiología del crecimiento benigno de la próstata.",
+        "question": "¿Qué afirmación es correcta?",
+        "options": "Las opciones: es premaligna, es más común en castrados, nace en la zona periférica, su frecuencia aumenta con la edad y depende de los andrógenos o el tamaño se correlaciona con los síntomas. Piénsalo.",
+        "answer": "Es la D. Su frecuencia sube con la edad, llegando a cerca de la mitad de los hombres a los sesenta, y depende de los andrógenos testiculares. La zona periférica tienta, pero ahí nace el cáncer; la hiperplasia nace en la zona de transición."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.006 · Ecografía vésico-prostática básica",
+      "stem": "Hombre de 70 años con síntomas urinarios bajos moderados: chorro débil, nicturia y sensación de vaciado incompleto. Al tacto rectal, la próstata está aumentada de tamaño, lisa y elástica. Función renal normal.",
+      "question": "¿Cuál es el examen de imagen más útil en la evaluación inicial?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pielografía de eliminación"
+        },
+        {
+          "letter": "B",
+          "text": "Resonancia magnética de pelvis"
+        },
+        {
+          "letter": "C",
+          "text": "Cistografía miccional"
+        },
+        {
+          "letter": "D",
+          "text": "TAC de abdomen con contraste"
+        },
+        {
+          "letter": "E",
+          "text": "Ecografía vésico-prostática con medición del residuo postmiccional"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En la hiperplasia prostática benigna, la ecografía vésico-prostática estima el volumen prostático, evalúa la pared vesical y la presencia de litiasis, y mide el residuo postmiccional; un residuo significativo (mayor de 100-150 mL) indica vaciamiento incompleto y riesgo de retención. La RM se usa ante sospecha de cáncer, y la TAC y la pielografía no son rutinarias.",
+      "say": {
+        "stem": "Hombre de setenta años con chorro débil, nicturia y próstata aumentada, lisa y elástica.",
+        "question": "¿Qué imagen pides primero?",
+        "options": "Las opciones: pielografía, resonancia de pelvis, cistografía, TAC con contraste o ecografía vésico prostática con residuo. Piénsalo.",
+        "answer": "Es la E. Ecografía vésico prostática con residuo postmiccional. La resonancia es útil cuando se sospecha cáncer, no en una evaluación inicial de hiperplasia."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.5.007 · Tacto rectal para reconocimiento básico de crecimiento prostático",
+      "stem": "Hombre de 68 años con nicturia y chorro débil. Se realiza tacto rectal para evaluar la próstata.",
+      "question": "¿Cuál de los siguientes hallazgos es característico de la hiperplasia prostática benigna?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Próstata aumentada de tamaño, de superficie lisa, consistencia elástica y surco medio borrado"
+        },
+        {
+          "letter": "B",
+          "text": "Nódulo pétreo e irregular en un lóbulo"
+        },
+        {
+          "letter": "C",
+          "text": "Próstata muy dolorosa, caliente y fluctuante"
+        },
+        {
+          "letter": "D",
+          "text": "Próstata fija a planos profundos"
+        },
+        {
+          "letter": "E",
+          "text": "Próstata de tamaño normal con induración difusa"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En la hiperplasia prostática benigna el tacto muestra una próstata aumentada de volumen, simétrica y lisa, de consistencia elástica (similar a la eminencia tenar) y con surco medio borrado. Un nódulo pétreo, irregular o fijo sugiere cáncer y obliga a biopsia aun con APE normal. Una próstata muy dolorosa sugiere prostatitis aguda, en la que no se debe masajear.",
+      "say": {
+        "stem": "Hombre de sesenta y ocho años con nicturia y chorro débil, al que le haces un tacto rectal.",
+        "question": "¿Qué hallazgo es típico de hiperplasia benigna?",
+        "options": "Las opciones: próstata grande, lisa, elástica y con surco borrado, nódulo pétreo, próstata dolorosa y fluctuante, próstata fija, o induración difusa. Piénsalo.",
+        "answer": "Es la A. Una próstata aumentada, lisa, elástica y con surco medio borrado. El nódulo pétreo corresponde a cáncer y obliga a biopsia."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.4.007 · Ecotomografía de vejiga y próstata",
+      "stem": "Hombre de 68 años con síntomas urinarios bajos obstructivos moderados (IPSS 18), tacto rectal con próstata aumentada de tamaño, lisa, elástica y sin nódulos. Creatinina normal.",
+      "question": "¿Qué información principal aporta la ecotomografía vesical y prostática en este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diagnóstico histológico de cáncer de próstata"
+        },
+        {
+          "letter": "B",
+          "text": "Volumen prostático, residuo postmiccional y repercusión vesical (engrosamiento de pared, divertículos, cálculos)"
+        },
+        {
+          "letter": "C",
+          "text": "Medición del flujo urinario máximo"
+        },
+        {
+          "letter": "D",
+          "text": "Presión del detrusor durante la micción"
+        },
+        {
+          "letter": "E",
+          "text": "Etapificación ganglionar"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En la HPB, la ecografía vesicoprostática (suprapúbica) mide el volumen prostático, el residuo postmiccional y muestra repercusión vesical (vejiga de lucha, divertículos, litiasis); la ecografía renal descarta hidronefrosis. No diagnostica cáncer (requiere APE y biopsia) ni mide flujo (uroflujometría) ni presiones (urodinamia).",
+      "say": {
+        "stem": "Hombre de sesenta y ocho años con síntomas obstructivos moderados y próstata grande, lisa y sin nódulos.",
+        "question": "¿Qué información principal aporta la ecografía de vejiga y próstata?",
+        "options": "Las opciones: diagnóstico de cáncer, volumen prostático con residuo postmiccional y daño vesical, flujo urinario, presión del detrusor o compromiso ganglionar. Piénsalo.",
+        "answer": "Es la B. Aporta el volumen de la próstata, el residuo después de orinar y el daño de la pared vesical. Medir el flujo tienta, pero eso lo hace la uroflujometría, no la ecografía."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.4.013 · Uroflujometría",
+      "stem": "Hombre de 65 años con chorro débil y sensación de vaciamiento incompleto. Se realiza uroflujometría con volumen miccional de 250 mL.",
+      "question": "¿Qué resultado sugiere obstrucción del tracto urinario inferior?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flujo máximo (Qmáx) mayor de 15 mL/s con curva en campana"
+        },
+        {
+          "letter": "B",
+          "text": "Volumen miccional de 250 mL"
+        },
+        {
+          "letter": "C",
+          "text": "Flujo máximo menor de 10 mL/s con curva aplanada y prolongada"
+        },
+        {
+          "letter": "D",
+          "text": "Residuo postmiccional de 10 mL"
+        },
+        {
+          "letter": "E",
+          "text": "Tiempo miccional de 15 segundos"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La uroflujometría mide el flujo urinario; es válida con volumen miccional mayor de 150 mL. Un Qmáx menor de 10 mL/s con curva aplanada y prolongada sugiere obstrucción (HPB, estenosis uretral) o hipocontractilidad del detrusor; mayor de 15 mL/s es normal. Para diferenciarlas se requiere estudio de flujo-presión.",
+      "say": {
+        "stem": "Hombre de sesenta y cinco años con chorro débil. Se hace una uroflujometría con un volumen orinado adecuado.",
+        "question": "¿Qué resultado sugiere obstrucción?",
+        "options": "Las opciones: flujo máximo sobre quince con curva en campana, volumen de doscientos cincuenta, flujo máximo bajo diez con curva aplanada y larga, residuo de diez o tiempo de quince segundos. Piénsalo.",
+        "answer": "Es la C. Un flujo máximo menor de diez mililitros por segundo con curva aplanada sugiere obstrucción. La curva en campana con flujo sobre quince tienta por ser un dato concreto, pero es normal."
+      }
     },
 
     {

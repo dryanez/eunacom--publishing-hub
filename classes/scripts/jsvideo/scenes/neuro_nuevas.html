@@ -1,0 +1,180 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Neurología y geriatría, clases nuevas.
+//   ?v=coronaria  neuro-25 A1: oclusión de la arteria descendente anterior (tiempo es músculo), ECG y reperfusión
+//                 Base: Blausen.com staff (2014) "Coronary Circulation (Anterior)", CC BY 3.0; rótulos en inglés quitados con inpainting
+//                 (assets/blausen/coronarias_anterior.png, 1594x1413). Coordenadas en píxeles de esa imagen.
+//   ?v=escalera   neuro-26 A1: escalera analgésica de la OMS y titulación de morfina (gráfico solo de código)
+const V = new URLSearchParams(location.search).get('v') || 'coronaria';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade } = K;
+const I = k => window.IMGS[k];
+const CRED_B = 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios';
+const CRED_G = 'Gráfico propio con las dosis del libro';
+let CRED = CRED_B;
+
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+
+// ====================== neuro-25: coronaria ======================
+const DST = { x: 24, y: 122 }, S = 0.385;
+const HW = 1594 * S, HH = 1413 * S;
+const P = (x, y) => [DST.x + x * S, DST.y + y * S];
+const LAD_IMG = [[885, 575], [878, 620], [872, 670], [868, 720], [878, 770], [897, 820], [912, 870], [918, 930], [922, 990], [930, 1050], [946, 1110], [975, 1150]];
+const LAD = poly(LAD_IMG.map(p => P(...p)));
+const S_OCC = 0.3;                                          // posición de la oclusión sobre la arteria (0..1)
+const CATH = poly([[610, 0], [622, 200], [640, 380], [720, 500], [800, 545], [860, 565]].concat(LAD_IMG.slice(0, 4)).map(p => P(...p)));
+const TERR = [[865, 760], [960, 720], [1070, 740], [1135, 810], [1165, 920], [1160, 1040], [1120, 1160], [1050, 1225], [965, 1245], [915, 1210], [915, 1100], [890, 980], [872, 860]];
+const terrPath = () => { ctx.beginPath(); TERR.forEach((p, i) => { const [x, y] = P(...p); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.closePath(); };
+
+function ecgBeat(u, e) {                                    // forma de un latido, u en [0,1); e = supradesnivel del ST (0..1)
+  const g = (x, m, w) => Math.exp(-((x - m) * (x - m)) / (2 * w * w));
+  let y = 0.10 * g(u, 0.14, 0.025);                         // P
+  y += -0.12 * g(u, 0.285, 0.008) + 1.0 * g(u, 0.31, 0.010) - 0.22 * g(u, 0.335, 0.009);   // QRS
+  const st = u > 0.345 && u < 0.62 ? Math.sin(Math.PI * clamp((u - 0.345) / 0.275, 0, 1)) : 0;
+  y += e * (0.34 * st + 0.16 * (u > 0.345 && u < 0.62 ? 1 : 0) * (1 - Math.abs((u - 0.48) / 0.14)) * 0);
+  y += 0.26 * g(u, 0.70, 0.045) * (1 + 0.5 * e);            // T
+  return y;
+}
+function ecgPanel(x, y, w, h, t, e, a) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  rrect(x, y, w, h, 16, '#161B22');
+  text('Electrocardiograma · derivaciones precordiales', x + 20, y + 30, 18, C.MUTED);
+  ctx.strokeStyle = '#222A35'; ctx.lineWidth = 1;
+  for (let gx = x + 20; gx < x + w - 10; gx += 24) { ctx.beginPath(); ctx.moveTo(gx, y + 44); ctx.lineTo(gx, y + h - 12); ctx.stroke(); }
+  for (let gy = y + 44; gy < y + h - 10; gy += 24) { ctx.beginPath(); ctx.moveTo(x + 14, gy); ctx.lineTo(x + w - 14, gy); ctx.stroke(); }
+  const base = y + h - 46, amp = 78, bw = 150;
+  const col = e > 0.25 ? C.RED : C.GREEN;
+  ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.lineJoin = 'round'; ctx.beginPath();
+  ctx.save(); ctx.beginPath(); ctx.rect(x + 14, y + 40, w - 28, h - 46); ctx.clip(); ctx.beginPath();
+  const off = (t * 70) % bw;
+  for (let px = -bw; px < w; px += 2) {
+    const u = (((px + off) % bw) + bw) % bw / bw, X = x + 20 + px, Y = base - amp * ecgBeat(u, e);
+    px === -bw ? ctx.moveTo(X, Y) : ctx.lineTo(X, Y);
+  }
+  ctx.stroke(); ctx.restore();
+  ctx.restore();
+}
+function clockPanel(x, y, w, min, a) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  rrect(x, y, w, 118, 16, '#161B22');
+  text('Minutos desde el primer contacto', x + 20, y + 30, 18, C.MUTED);
+  text(String(Math.round(min)) + ' min', x + w - 20, y + 36, 32, min > 90 ? C.RED : C.AMBER, 'bold', 'right');
+  const bx = x + 20, bw = w - 40, mx = 130;
+  rrect(bx, y + 56, bw, 14, 7, '#222833'); rrect(bx, y + 56, bw * clamp(min / mx, 0, 1), 14, 7, min > 90 ? C.RED : C.AMBER);
+  [[90, 'ACTP < 90'], [120, 'Trombólisis 120']].forEach(([m, lab]) => { const X = bx + bw * m / mx; ctx.fillStyle = '#ddd'; ctx.fillRect(X - 1, y + 50, 2, 26); text(lab, X, y + 98, 15, C.MUTED, '', 'center'); });
+  ctx.restore();
+}
+function coronaria(t) {
+  K.title('Infarto: tiempo es músculo', 'Oclusión de la arteria descendente anterior y reperfusión', C.RED);
+  // lámina
+  const la = seg(t, 0, 0.7);
+  ctx.save(); ctx.globalAlpha = la; rrect(DST.x - 6, DST.y - 6, HW + 12, HH + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, HW, HH, 14); ctx.clip(); ctx.drawImage(I('cor'), DST.x, DST.y, HW, HH); ctx.restore();
+  // tiempos
+  const occ = ease(seg(t, 3.6, 1.4));                       // trombo
+  const open = ease(seg(t, 20.2, 1.0));                     // se abre la arteria
+  const isc = clamp(ease(seg(t, 5.5, 14.5)) * 0.8, 0, 0.8) * (1 - open * 0.72);   // isquemia del territorio
+  const e = clamp(ease(seg(t, 6, 12)), 0, 1) * (1 - ease(seg(t, 21.0, 4.5)));      // supradesnivel del ST
+  const min = t < 6 ? 0 : Math.min(88, (t - 6) * 5.9);
+  // territorio isquémico
+  if (isc > 0) { ctx.save(); ctx.beginPath(); ctx.roundRect(DST.x, DST.y, HW, HH, 14); ctx.clip(); ctx.filter = 'blur(9px)'; terrPath();
+    const [cx, cy] = P(1040, 980); const g = ctx.createRadialGradient(cx, cy, 10, cx, cy, 300 * S / 0.425);
+    g.addColorStop(0, `rgba(70,20,70,${0.85 * isc})`); g.addColorStop(1, `rgba(110,40,90,${0.65 * isc})`);
+    ctx.fillStyle = g; ctx.fill(); ctx.restore(); }
+  // arteria resaltada
+  const ha = fade(t, 1.2, 4.2, 0.6); if (ha > 0) { ctx.save(); ctx.globalAlpha = ha * 0.7; ctx.lineCap = 'round'; LAD.stroke(ctx, 0, 1, 11, 'rgba(255,230,120,0.9)'); ctx.restore(); }
+  label('Arteria descendente anterior', 430, 170, C.AMBER, ...P(878, 700), fade(t, 1.4, 4.4));
+  // flujo: antes de la oclusión recorre toda la arteria; ocluida, solo antes del trombo; abierta de nuevo, todo
+  const reflow = open;
+  const sMax = occ < 0.1 || open > 0.5 ? 1 : S_OCC - 0.01;
+  if (t > 1.5) for (let i = 0; i < 10; i++) {
+    const u = ((t * 0.28) + i / 10) % 1, s = u * sMax; const [x, y] = LAD.at(s);
+    ctx.globalAlpha = Math.min(1, u * 6, (1 - u) * 6) * 0.95; ctx.fillStyle = '#FF3B30'; ctx.beginPath(); ctx.arc(x, y, 3.8, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+  // trombo
+  const [tx, ty] = LAD.at(S_OCC), clot = occ * (1 - open);
+  if (clot > 0.02) { K.glow(tx, ty, 34 * clot, '120,10,40', 0.8 * clot);
+    ctx.save(); ctx.globalAlpha = clot; ctx.fillStyle = '#5A0F2E'; ctx.strokeStyle = '#2B0716'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.ellipse(tx, ty, 12 * clot + 2, 8 * clot + 2, 0.6, 0, 7); ctx.fill(); ctx.stroke(); ctx.restore(); }
+  label('Trombo: oclusión', 250, 330, C.RED, tx - 4, ty, fade(t, 4.4, 19.3));
+  label('Músculo isquémico', 470, 650, '#C79BFF', ...P(1050, 1010), fade(t, 9, 21));
+  // catéter y balón
+  const cA = seg(t, 15.2, 0.6), cS = ease(seg(t, 15.4, 4.4));
+  if (cA > 0) { ctx.save(); ctx.globalAlpha = cA; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    CATH.stroke(ctx, 0, cS, 8, '#56616E'); CATH.stroke(ctx, 0, cS, 5, '#EEF2F5'); ctx.restore();
+    if (t > 19.4 && t < 21.4) { const r = 11 * Math.sin(Math.PI * clamp((t - 19.4) / 2, 0, 1)); const [bx, by] = CATH.at(cS);
+      ctx.save(); ctx.globalAlpha = 0.9; ctx.fillStyle = '#DDE7EE'; ctx.strokeStyle = '#56616E'; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.arc(bx, by, r, 0, 7); ctx.fill(); ctx.stroke(); ctx.restore(); }
+    if (t > 21.4) { ctx.save(); ctx.globalAlpha = cA * (1 - seg(t, 22.4, 0.8)); ctx.lineCap = 'round'; CATH.stroke(ctx, 0, cS, 8, '#56616E'); CATH.stroke(ctx, 0, cS, 5, '#EEF2F5'); ctx.restore(); } }
+  label('Angioplastia: balón en el trombo', 250, 330, C.GREEN, tx - 4, ty, seg(t, 19.9, 0.5) * (1 - seg(t, 22.8, 0.5)));
+  // panel derecho
+  ecgPanel(660, 126, 580, 188, t, e, seg(t, 1, 0.6));
+  if (e > 0.3) { ctx.save(); ctx.globalAlpha = clamp((e - 0.3) / 0.3, 0, 1); tag('Supradesnivel del ST', 1080, 296, C.RED, 17); ctx.restore(); }
+  clockPanel(660, 332, 580, min, seg(t, 5.5, 0.6));
+  K.card(660, 466, 580, 108, C.RED, 'IAM con supradesnivel del ST o BRI nuevo', ['Reperfusión urgente (GES número 5)', 'ACTP primaria en < 90 min o trombólisis si no hay hemodinamia en 120'], seg(t, 14.5, 0.5) * (1 - 0), 17);
+  K.card(660, 588, 580, 96, C.GREEN, 'La edad no contraindica reperfundir', ['> 75 años: mitad de dosis de tenecteplasa, sin bolo de enoxaparina'], seg(t, 24.5, 0.5), 17);
+}
+
+// ====================== neuro-26: escalera analgésica ======================
+function escalera(t) {
+  K.title('La escalera analgésica de la OMS', 'Tres peldaños, adyuvantes en todos y morfina que se titula', C.AMBER);
+  const base = 640, W = 250, x0 = 50;
+  const steps = [
+    { n: '1', head: 'No opioides', sub: 'Paracetamol · AINE', h: 90, col: '#4FA3FF', pain: 'Dolor leve 1-3', t0: 1.2 },
+    { n: '2', head: 'Opioide débil', sub: 'Tramadol · codeína ± no opioide', h: 190, col: '#FFC247', pain: 'Moderado 4-6', t0: 4.2 },
+    { n: '3', head: 'Opioide potente', sub: 'Morfina · fentanilo · oxicodona · metadona', h: 290, col: '#E5384F', pain: 'Intenso 7-10', t0: 7.2 },
+  ];
+  steps.forEach((s, i) => {
+    const gr = ease(seg(t, s.t0, 1.4)); if (gr <= 0) return;
+    const x = x0 + i * W, hh = s.h * gr;
+    ctx.save(); ctx.globalAlpha = 0.95; rrect(x, base - hh, W - 8, hh, 10, s.col); ctx.restore();
+    if (gr > 0.85) {
+      ctx.save(); ctx.globalAlpha = (gr - 0.85) / 0.15;
+      text(s.n + '. ' + s.head, x + 16, base - s.h + 38, 25, C.BG, 'bold');
+      // texto del subtítulo en dos líneas si es largo
+      const words = s.sub.split(' · '); const lines = i === 2 ? ['Morfina · fentanilo', 'oxicodona · metadona'] : i === 1 ? ['Tramadol · codeína', '± no opioide'] : ['Paracetamol · AINE'];
+      lines.forEach((l, j) => text(l, x + 16, base - s.h + 68 + j * 24, 19, C.BG));
+      ctx.restore();
+      tag(s.pain, x + (W - 8) / 2, base - s.h - 22, s.col, 17);
+    }
+  });
+  // adyuvantes
+  const ad = seg(t, 10.2, 0.8);
+  if (ad > 0) { ctx.save(); ctx.globalAlpha = ad; const y = base + 20; ctx.strokeStyle = C.VIOLET; ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.moveTo(x0, y - 8); ctx.lineTo(x0, y); ctx.lineTo(x0 + 3 * W - 8, y); ctx.lineTo(x0 + 3 * W - 8, y - 8); ctx.stroke();
+    text('Adyuvantes en todos los peldaños', x0 + 3 * W / 2 - 4, y + 26, 19, C.VIOLET, 'bold', 'center');
+    text('gabapentinoides · antidepresivos · dexametasona · radioterapia', x0 + 3 * W / 2 - 4, y + 46, 15, C.MUTED, '', 'center'); ctx.restore(); }
+  // saltar peldaños
+  const sk = fade(t, 12.8, 16.2);
+  if (sk > 0) { ctx.save(); ctx.globalAlpha = sk; ctx.strokeStyle = C.RED; ctx.lineWidth = 4; ctx.lineCap = 'round'; ctx.setLineDash([10, 8]);
+    const ax = x0 + 24, ay = base - 6, ty = base - 290 - 54, tx = x0 + 2 * W + 110; ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(ax, base - 400); ctx.lineTo(tx, base - 400); ctx.lineTo(tx, ty); ctx.stroke(); ctx.setLineDash([]);
+    ctx.beginPath(); ctx.moveTo(tx - 12, ty - 14); ctx.lineTo(tx, ty); ctx.lineTo(tx + 12, ty - 14); ctx.stroke();
+    tag('Dolor intenso desde el inicio: partir en el peldaño 3', x0 + 330, base - 400, C.RED, 17); ctx.restore(); }
+  // panel de morfina
+  const px = 822, pw = 418;
+  K.card(px, 128, pw, 150, C.RED, 'Morfina oral de liberación inmediata', ['5 mg cada 4 horas (2,5 mg en frágil)', '6 tomas × 5 mg = 30 mg/día'], seg(t, 15.5, 0.5), 17);
+  K.card(px, 292, pw, 120, C.AMBER, 'Rescate: 1/6 de la dosis diaria', ['30 mg / 6 = 5 mg por dosis de rescate', 'Titular cada día hasta controlar'], seg(t, 18.5, 0.5), 17);
+  K.card(px, 426, pw, 104, C.BLUE, 'Vía subcutánea: la mitad de la oral', ['30 mg oral = 15 mg SC al día', 'Luego pasar a liberación prolongada'], seg(t, 21.5, 0.5), 17);
+  K.banner(px, 546, pw, 'Siempre: laxante regular desde el inicio', C.GREEN, seg(t, 24.5, 0.5));
+  K.banner(px, 606, pw, 'Falla renal: evitar morfina', C.RED, seg(t, 27, 0.5));
+}
+
+const SCN = { coronaria: { f: coronaria, dur: 31, cred: CRED_B }, escalera: { f: escalera, dur: 31, cred: CRED_G } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t);
+  ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text(SCN[V].cred, 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD(V === 'coronaria' ? { cor: '../assets/blausen/coronarias_anterior.png' } : {});
+</script>
+</body></html>

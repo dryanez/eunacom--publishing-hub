@@ -48,7 +48,8 @@ module.exports = {
           { t: 'Fiebre alta 3 a 4 días', d: 'El niño se ve bien entre los picos',
             say: 'Empecemos por el exantema súbito, causado por el herpesvirus humano seis. Afecta a lactantes de seis a dieciocho meses, con fiebre alta durante tres o cuatro días, en un niño que se ve bien y juega entre los picos.' },
           { t: 'La fiebre cede, sale el exantema', d: 'Maculopapular rosado en el tronco',
-            say: 'Y aquí está la clave que te van a preguntar siempre: la fiebre cede de forma brusca, y justo en ese momento aparece un exantema rosado en el tronco, que respeta la cara.' },
+            say: 'Y aquí está la clave que te van a preguntar siempre: la fiebre cede de forma brusca, y justo en ese momento aparece un exantema rosado en el tronco, que respeta la cara. Mira esta piel: manchas rosadas y finas, sin nada de la fiebre de días antes.',
+            photo: { src: 'biblioteca/15_pediatria/ped-10/03_exantema-subito__cto-pediatria_p101.jpg', label: 'Exantema súbito', at: 'Mira esta piel', credit: 'Manual CTO Pediatría 14.ª ed., p. 101' } },
         ] },
         { title: 'Datos que se preguntan', tag: 'Ojo', kind: 'alert', items: [
           { t: 'Causa de convulsión febril', d: 'Es la más frecuente en este grupo',
@@ -66,7 +67,8 @@ module.exports = {
       cards: [
         { title: 'Clínica', tag: 'Escolar de 5 a 15 años', kind: 'criteria', items: [
           { t: 'Signo de la bofetada', d: 'Mejillas rojas, respeta la boca',
-            say: 'El eritema infeccioso lo causa el parvovirus B diecinueve, y afecta a escolares. Empieza con la cara roja, el clásico signo de la bofetada, que respeta la zona alrededor de la boca.' },
+            say: 'El eritema infeccioso lo causa el parvovirus B diecinueve, y afecta a escolares. Empieza con la cara roja, el clásico signo de la bofetada, que respeta la zona alrededor de la boca. Mira estas mejillas: rojas, como abofeteadas.',
+            photo: { src: 'biblioteca/15_pediatria/ped-10/01_eritema_infeccioso__nelson_p2548.jpg', label: 'Signo de la bofetada', at: 'Mira estas mejillas', credit: 'Nelson 22.ª ed., p. 2548' } },
           { t: 'Exantema en encaje', d: 'Reticular, en tronco y extremidades',
             say: 'Después viene un exantema en encaje, reticular, en el tronco y las extremidades, con fiebre baja o ausente. Y puede reaparecer por semanas con el sol o el ejercicio.' },
         ] },
@@ -86,9 +88,11 @@ module.exports = {
       cards: [
         { title: 'Clínica', tag: 'Estreptococo del grupo A', kind: 'criteria', items: [
           { t: 'Faringoamigdalitis con fiebre alta', d: 'El exantema sale junto con la fiebre',
-            say: 'La escarlatina la produce el estreptococo pyogenes, con toxinas que dan el exantema. Parte como una faringoamigdalitis con fiebre alta, y el exantema aparece al mismo tiempo, no después.' },
+            say: 'La escarlatina la produce el estreptococo pyogenes, con toxinas que dan el exantema. Parte como una faringoamigdalitis con fiebre alta, y el exantema aparece al mismo tiempo, no después. Al inicio, mira esta lengua: cubierta de una capa blanca con bordes rojos.',
+            photo: { src: 'biblioteca/15_pediatria/ped-10/04_escarlatina_2__cto-pediatria_p102.jpg', label: 'Lengua saburral inicial', at: 'mira esta lengua', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' } },
           { t: 'Piel de lija, signo de Pastia', d: 'Y lengua aframbuesada, roja y con papilas',
-            say: 'El exantema se siente como lija al tacto, con el signo de Pastia en los pliegues, y la lengua pasa a verse aframbuesada, roja y con las papilas marcadas.' },
+            say: 'El exantema se siente como lija al tacto, con el signo de Pastia en los pliegues, y la lengua pasa a verse aframbuesada. Mira esta otra lengua: roja y con las papilas marcadas.',
+            photo: { src: 'biblioteca/15_pediatria/ped-10/04_escarlatina_1__cto-pediatria_p102.jpg', label: 'Lengua aframbuesada', at: 'Mira esta otra lengua', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' } },
         ] },
         { title: 'Tratamiento', tag: 'Por qué importa', kind: 'pharma', items: [
           { t: 'Amoxicilina o penicilina, 10 días', d: 'Completos, no puedes acortarlos',
@@ -106,13 +110,83 @@ module.exports = {
       cards: [
         { title: 'Clínica', tag: 'Virus varicela zóster', kind: 'criteria', items: [
           { t: 'Mácula, pápula, vesícula, costra', d: 'Todo conviviendo al mismo tiempo',
-            say: 'La varicela la causa el virus varicela zóster, muy contagioso. El exantema es pruriginoso, y pasa por mácula, pápula, vesícula y costra, pero lo característico es que conviven todos los estadios a la vez: eso es el patrón en cielo estrellado.' },
+            say: 'La varicela la causa el virus varicela zóster, muy contagioso. El exantema es pruriginoso, y pasa por mácula, pápula, vesícula y costra, pero lo característico es que conviven todos los estadios a la vez: eso es el patrón en cielo estrellado. Mira esta piel: de todo un poco, a la vez. Y de cerca, estas vesículas, que pican y terminan en costra.',
+            photos: [
+              { src: 'biblioteca/15_pediatria/ped-10/07_varicela_alt1__cto-infecto_p127.jpg', label: 'Todos los estadios a la vez', at: 'Mira esta piel', credit: 'Manual CTO Infecciosas 14.ª ed., p. 127' },
+              { src: 'biblioteca/15_pediatria/ped-10/07_varicela__cto-derma_p16.jpg', label: 'Vesículas', at: 'estas vesículas', credit: 'Manual CTO Dermatología 14.ª ed., p. 16' },
+            ] },
         ] },
         { title: 'Lo que nunca se indica', tag: 'Contraindicación absoluta', kind: 'alert', items: [
           { t: 'Nunca ácido acetilsalicílico', d: 'Riesgo de síndrome de Reye',
             say: 'Y aquí viene una regla que se pregunta siempre: nunca le des aspirina a un niño con varicela, por el riesgo de síndrome de Reye, una falla hepática y cerebral grave.' },
           { t: 'Paracetamol para la fiebre', d: 'Es el antipirético seguro',
             say: 'El antipirético seguro es el paracetamol. Y si el niño se sobreinfecta la piel, eso es la complicación más frecuente, casi siempre por estafilococo o el mismo estreptococo.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Sarampión',
+      title: 'Tres C, manchas de Koplik y un exantema que baja',
+      cards: [
+        { title: 'Clínica', tag: 'Notificación inmediata', kind: 'criteria', items: [
+          { t: 'Tos, coriza y conjuntivitis', d: 'Fiebre alta 3–4 días; Koplik en la mucosa yugal',
+            say: 'Ahora el sarampión, que es de notificación inmediata y exige aislamiento aéreo desde cuatro días antes hasta cuatro días después del exantema. Primero viene un pródromo de tres a cuatro días con fiebre alta y las tres C: tos, coriza y conjuntivitis. Y dentro de la boca, las manchas de Koplik: puntos blanco azulados sobre una base roja en la mucosa de la mejilla, que son patognomónicas. Mira esta mucosa.',
+            photo: { src: 'biblioteca/15_pediatria/ped-10/10_manchas-de-koplik__zitelli_p492.jpg', label: 'Manchas de Koplik', at: 'Mira esta mucosa', credit: "Zitelli y Davis, Atlas of Pediatric Physical Diagnosis, Fig. 12-1" } },
+          { t: 'Exantema céfalo-caudal', d: 'Confluente; cara y retroauricular primero',
+            say: 'Después aparece el exantema, que baja de la cabeza a los pies. Mira este torso: manchas rojas que se juntan unas con otras, es lo que llamamos morbiliforme confluente. Parte por la cara y detrás de las orejas, dura tres a cuatro días y deja una descamación fina.',
+            photo: { src: 'biblioteca/15_pediatria/ped-10/01_sarampion__cto-pediatria_p97.jpg', label: 'Exantema morbiliforme', at: 'Mira este torso', credit: 'Manual CTO Pediatría 14.ª ed., p. 97' } },
+        ] },
+        { title: 'Complicaciones', tag: 'Lo que mata', kind: 'alert', items: [
+          { t: 'Neumonía: causa de muerte', d: 'La otitis media es la más frecuente',
+            say: 'La complicación más frecuente es la otitis media, pero la que mata es la neumonía: es la primera causa de muerte por sarampión. También puede dar diarrea, laringitis y encefalitis.' },
+          { t: 'Panencefalitis y ceguera', d: 'PEES años después; vitamina A baja, ceguera',
+            say: 'Y años después puede aparecer la panencefalitis esclerosante subaguda. Además, la deficiencia de vitamina A causa ceguera, y eso nos lleva al tratamiento.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Sarampión',
+      title: 'Diagnóstico, vitamina A y profilaxis',
+      cards: [
+        { title: 'Diagnóstico y tratamiento', tag: 'Soporte más vitamina A', kind: 'pharma', items: [
+          { t: 'IgM específica y PCR', d: 'En suero; PCR en faringe u orina',
+            say: 'El diagnóstico se confirma con la inmunoglobulina M específica en el suero, y con PCR en la secreción de la faringe o en la orina.' },
+          { t: 'Vitamina A por 2 días', d: '200.000 UI >12 m; 100.000 UI 6–11 m; 50.000 UI <6 m',
+            say: 'No hay antiviral: el tratamiento es de soporte más vitamina A por dos días. La dosis es de doscientas mil unidades en mayores de doce meses, cien mil entre seis y once meses, y cincuenta mil en menores de seis meses.' },
+        ] },
+        { title: 'Si hubo contacto', tag: 'Profilaxis post-exposición', kind: 'key', items: [
+          { t: 'Vacuna antes de 72 horas', d: 'Dentro de las primeras 72 horas del contacto',
+            say: 'Si un susceptible tuvo contacto, tienes dos opciones. La vacuna, si estás dentro de las primeras setenta y dos horas.' },
+          { t: 'Inmunoglobulina hasta el día 6', d: 'Embarazadas, inmunodeprimidos, menores de 6 meses',
+            say: 'Y la inmunoglobulina, hasta el sexto día, que es lo que se usa en embarazadas, inmunodeprimidos y menores de seis meses, porque ellos no pueden recibir la vacuna de virus vivos.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Rubéola',
+      title: 'Leve en el niño, grave en la embarazada',
+      cards: [
+        { title: 'Clínica', tag: 'Togavirus', kind: 'criteria', items: [
+          { t: 'Exantema rosado fino de 3 días', d: 'Fiebre baja; adenopatías retroauriculares',
+            say: 'La rubéola, en cambio, es un cuadro leve: fiebre baja y un exantema rosado fino de tres días, que también va de la cara al tronco. Mira esta piel: manchas finas y separadas, no confluentes como en el sarampión. Lo característico son las adenopatías retroauriculares, occipitales y cervicales posteriores.',
+            photo: { src: 'biblioteca/15_pediatria/ped-10/02_rubeola__cto-pediatria_p98.jpg', label: 'Exantema fino y rosado', at: 'Mira esta piel', credit: 'Manual CTO Pediatría 14.ª ed., p. 98' } },
+        ] },
+        { title: 'Rubéola congénita', tag: 'Primer trimestre', kind: 'alert', items: [
+          { t: 'Sordera, cataratas, cardiopatía', d: 'Ductus, estenosis pulmonar, microcefalia',
+            say: 'Su gravedad está en la embarazada infectada en el primer trimestre, que produce el síndrome de rubéola congénita: sordera, cataratas, cardiopatía como ductus arterioso y estenosis pulmonar, y microcefalia. Mira los ojos de este lactante: las dos pupilas blancas son cataratas.',
+            photo: { src: 'biblioteca/15_pediatria/ped-10/08_rubeola-congenita-cataratas__nelson_p2524.jpg', label: 'Cataratas congénitas', at: 'Mira los ojos de este lactante', credit: 'Nelson 22.ª ed., p. 2524' } },
+        ] },
+        { title: 'Diagnóstico y prevención', tag: 'Vacuna tresvírica', kind: 'pharma', items: [
+          { t: 'IgM; tratamiento sintomático', d: 'Vacuna tresvírica a los 12 meses y 1.º básico',
+            say: 'El diagnóstico es por inmunoglobulina M y el tratamiento es sintomático. Se previene con la vacuna tresvírica, a los doce meses y en primero básico. Como es de virus vivos, está contraindicada en el embarazo y en la inmunosupresión grave.' },
+          { t: 'La regla para diferenciar', d: 'Sarampión: grave, con tos y conjuntivitis',
+            say: 'Y para diferenciarlas: el sarampión es un cuadro febril y grave, con tos y conjuntivitis; la rubéola es leve, con adenopatías retroauriculares.' },
         ] },
       ],
     },
@@ -140,9 +214,11 @@ module.exports = {
         { show: ['oju'], note: 'Bilateral y sin pus',
           say: 'Con esa fiebre, necesitas al menos cuatro de cinco criterios. El primero es la inyección conjuntival bilateral, pero sin secreción purulenta.' },
         { show: ['boc'], note: 'Labios secos y fisurados',
-          say: 'El segundo son los cambios en la boca: labios rojos, secos y fisurados, y la lengua aframbuesada.' },
+          say: 'El segundo son los cambios en la boca: labios rojos, secos y fisurados, y la lengua aframbuesada. Mira estos labios: rojos, agrietados, con la lengua enrojecida.',
+          photo: { src: 'biblioteca/15_pediatria/ped-10/09_kawasaki-labios-lengua__openi.jpg', label: 'Labios y lengua rojos', at: 'Mira estos labios', credit: 'Open-i (NLM), CC BY' } },
         { show: ['ext'], note: 'Doloroso, en la fase aguda',
-          say: 'El tercero, los cambios en las extremidades: edema y eritema en palmas y plantas, doloroso.' },
+          say: 'El tercero, los cambios en las extremidades: edema y eritema en palmas y plantas, doloroso. Más adelante, en la segunda o tercera semana, la piel de los dedos se descama, como ves en esta mano.',
+          photo: { src: 'biblioteca/15_pediatria/ped-10/06_kawasaki__cto-pediatria_p103.jpg', label: 'Descamación de los dedos', at: 'como ves en esta mano', credit: 'Manual CTO Pediatría 14.ª ed., p. 103' } },
         { show: ['exa'], note: 'Cualquier forma, menos vesicular',
           say: 'El cuarto es el exantema, que puede tomar cualquier forma, generalizado, pero nunca vesicular ni petequial.' },
         { show: ['gan'], note: 'El criterio menos frecuente',
@@ -187,66 +263,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Exantemas que se reconocen a la vista',
-      images: [
-        { src: 'biblioteca/15_pediatria/ped-10/01_eritema_infeccioso__nelson_p2548.jpg', label: 'Eritema infeccioso: signo de la bofetada', credit: 'Nelson 22.ª ed., p. 2548' },
-        { src: 'biblioteca/15_pediatria/ped-10/04_escarlatina_1__cto-pediatria_p102.jpg', label: 'Escarlatina: lengua aframbuesada', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
-        { src: 'biblioteca/15_pediatria/ped-10/07_varicela_alt1__cto-infecto_p127.jpg', label: 'Varicela: todos los estadios a la vez', credit: 'Manual CTO Infecciosas 14.ª ed., p. 127' },
-      ],
-      steps: [
-        { note: 'Mejillas abofeteadas',
-          say: 'El eritema infeccioso da mejillas rojas, como abofeteadas.' },
-        { note: 'Roja y con papilas marcadas',
-          say: 'En la escarlatina la lengua se ve aframbuesada, roja y con las papilas marcadas.' },
-        { note: 'Cielo estrellado',
-          say: 'Y en la varicela conviven todos los estadios a la vez, mácula, pápula, vesícula y costra: el cielo estrellado.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Exantema súbito, Kawasaki y escarlatina',
-      images: [
-        { src: 'biblioteca/15_pediatria/ped-10/03_exantema-subito__cto-pediatria_p101.jpg', label: 'Exantema súbito', credit: 'Manual CTO Pediatría 14.ª ed., p. 101' },
-        { src: 'biblioteca/15_pediatria/ped-10/06_kawasaki__cto-pediatria_p103.jpg', label: 'Kawasaki: descamación de los dedos', credit: 'Manual CTO Pediatría 14.ª ed., p. 103' },
-        { src: 'biblioteca/15_pediatria/ped-10/04_escarlatina_2__cto-pediatria_p102.jpg', label: 'Escarlatina: lengua saburral inicial', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
-      ],
-      steps: [
-        { note: 'Aparece cuando cae la fiebre',
-          say: 'El exantema súbito aparece justo cuando baja la fiebre.' },
-        { note: 'Manos y pies',
-          say: 'En Kawasaki se comprometen las manos y los pies, uno de los cinco criterios. Y recuerda que exige fiebre de cinco días o más.' },
-        { note: 'Escarlatina: lengua saburral inicial',
-          say: 'Escarlatina al inicio: lengua cubierta por una capa blanca con bordes rojos.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/15_pediatria/ped-10/01_sarampion__cto-pediatria_p97.jpg', label: 'Sarampión', credit: 'Manual CTO Pediatría 14.ª ed., p. 97' },
-        { src: 'biblioteca/15_pediatria/ped-10/02_rubeola__cto-pediatria_p98.jpg', label: 'Rubéola', credit: 'Manual CTO Pediatría 14.ª ed., p. 98' },
-        { src: 'biblioteca/15_pediatria/ped-10/07_varicela__cto-derma_p16.jpg', label: 'Varicela: vesículas', credit: 'Manual CTO Dermatología 14.ª ed., p. 16' },
-      ],
-      steps: [
-        { note: 'Sarampión',
-          say: 'Mira esta imagen: sarampión. Aquí el exantema sale en el peak de la fiebre.' },
-        { note: 'Rubéola',
-          say: 'Mira esta imagen: rubéola. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Varicela: vesículas',
-          say: 'Y de cerca, las vesículas de la varicela, que pican y terminan en costra.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Ahora juntemos los cinco cuadros en un solo árbol, usando la relación entre la fiebre y el exantema.',
     },
@@ -267,6 +283,10 @@ module.exports = {
           say: 'En la varicela, la fiebre es moderada y manda la piel. El error grave, que no puedes cometer nunca, es indicar aspirina.' },
         { cells: ['Kawasaki', 'Fiebre de 5 días o más, obligatoria', 'Diagnosticarlo con menos de 5 días de fiebre'],
           say: 'Y en Kawasaki, la fiebre tiene que llegar a cinco días. Diagnosticarlo antes, aunque tenga varios de los otros signos, es el error que el examen te pone para ver si conoces la regla.' },
+        { cells: ['Sarampión', 'Tres C y Koplik, luego exantema que baja', 'No notificar ni dar vitamina A'],
+          say: 'En el sarampión, primero vienen las tres C y las manchas de Koplik, y después el exantema que baja de la cabeza a los pies. El error es olvidarse de la notificación inmediata y de la vitamina A.' },
+        { cells: ['Rubéola', 'Leve, con adenopatías retroauriculares', 'Vacunar a la embarazada'],
+          say: 'En la rubéola, cuadro leve con adenopatías retroauriculares. La trampa es la vacuna: es de virus vivos y no se da en el embarazo; la embarazada infectada en el primer trimestre es la que preocupa.' },
       ],
     },
 
@@ -372,6 +392,8 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Si la fiebre cae y ahí sale el exantema, piensa en exantema súbito.' },
           { t: 'Fiebre alta junto al exantema', d: 'Es escarlatina',
             say: 'Si la fiebre alta viene junto con el exantema, piensa en escarlatina.' },
+          { t: 'Tres C y Koplik', d: 'Sarampión: notificar y dar vitamina A',
+            say: 'Si hay tos, coriza, conjuntivitis y manchas de Koplik, es sarampión: se notifica de inmediato y se da vitamina A.' },
         ] },
         { title: 'Las dos urgencias', tag: 'No te las puedes perder', kind: 'alert', items: [
           { t: 'Kawasaki: 5 días de fiebre', d: 'Más 4 de 5 criterios, sin excepción',
@@ -397,6 +419,10 @@ module.exports = {
           'Faringoamigdalitis con exantema áspero al tacto. Tratas con amoxicilina o penicilina diez días, para prevenir la fiebre reumática.')],
         ['Vesículas en todos los estadios', N('alert', 'Varicela', 'Nunca aspirina: síndrome de Reye',
           'Exantema en cielo estrellado, con mácula, pápula, vesícula y costra conviviendo a la vez. El antipirético seguro es el paracetamol.')],
+        ['Tos, coriza, conjuntivitis y Koplik', N('alert', 'Sarampión', 'Notificación inmediata y vitamina A',
+          'Pródromo con las tres C y manchas de Koplik, y luego un exantema confluente que baja de la cabeza a los pies. Aislamiento aéreo, vitamina A y notificación inmediata.')],
+        ['Exantema fino y adenopatías retroauriculares', N('do', 'Rubéola', 'Leve; peligrosa en la embarazada',
+          'Cuadro leve con adenopatías retroauriculares. El riesgo es la embarazada del primer trimestre: síndrome de rubéola congénita. Se previene con la vacuna tresvírica.')],
         ['5 días de fiebre o más', N('alert', 'Kawasaki: 4 de 5 criterios', 'Inmunoglobulina + aspirina, antes del día 10',
           'Ojos rojos sin secreción, labios fisurados, exantema polimorfo, edema en manos y pies, y adenopatía cervical. Con cuatro de cinco, confirmas el diagnóstico.')])]),
   },

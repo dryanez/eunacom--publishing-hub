@@ -101,7 +101,8 @@ module.exports = {
       cards: [
         { title: 'Hiperkalemia', tag: 'Lo que mata primero', kind: 'alert', items: [
           { t: 'Gluconato de calcio 10% EV lento', d: 'Estabiliza la membrana cardíaca',
-            say: 'Si la lisis ya ocurrió, el orden importa. Lo primero es proteger el corazón de la hiperkalemia: gluconato de calcio al diez por ciento, endovenoso lento, que estabiliza la membrana del miocardio.' },
+            say: 'Si la lisis ya ocurrió, el orden importa. Lo primero es proteger el corazón de la hiperkalemia: gluconato de calcio al diez por ciento, endovenoso lento, que estabiliza la membrana del miocardio. Mira este electrocardiograma: en el panel del centro, ondas T picudas y QRS ancho, el potasio ya está tocando el corazón.',
+            photo: { src: 'biblioteca/06_hematologia/hem-22/01_ecg-hiperpotasemia-t-picudas__cto-nefro_p23.jpg', label: 'ECG de hiperkalemia', at: 'Mira este electrocardiograma', credit: 'Manual CTO Nefrología 14.ª ed., p. 23' } },
           { t: 'Insulina + glucosa · salbutamol', d: 'Meten el potasio a la célula',
             say: 'Luego, bajar el potasio rápido: insulina cristalina con glucosa hipertónica, y salbutamol nebulizado.' },
         ] },
@@ -173,7 +174,39 @@ module.exports = {
         { show: ['dex'], note: 'La conducta que se pregunta',
           say: 'Por eso, esta es la conducta que el examen pregunta: ante la simple sospecha, se administra de inmediato dexametasona endovenosa en dosis altas, dieciséis a veinticuatro miligramos en bolo. Reduce el edema alrededor de la médula y salva la función neurológica.' },
         { show: ['rm', 'rt'], note: 'Confirmar y descomprimir',
-          say: 'En paralelo, se coordina la resonancia magnética de columna completa y la radioterapia descompresiva urgente. Fíjate en el orden: la dexametasona no espera a la resonancia.' },
+          say: 'En paralelo, se coordina la resonancia magnética de columna completa y la radioterapia descompresiva urgente. Fíjate en el orden: la dexametasona no espera a la resonancia. En esta resonancia, una metástasis comprime la médula. Y en esta otra, la flecha marca una vértebra destruida que se hunde hacia el canal.',
+          photos: [
+            { src: 'biblioteca/06_hematologia/hem-22/01_rm_compresion_medular__harrison_p3489.jpg', label: 'Compresión medular', at: 'En esta resonancia', credit: 'Harrison 21.ª ed., p. 3489' },
+            { src: 'biblioteca/06_hematologia/hem-22/atlas_333_metastasis_vertebral_litica_co.jpg', label: 'RM: metástasis vertebral', at: 'Y en esta otra', credit: 'Atlas EUNACOM 2026' },
+          ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Paraplejia aguda',
+      title: 'Diferenciales y conducta inicial',
+      cards: [
+        { title: 'Cómo se presenta', tag: 'Urgencia', kind: 'key', items: [
+          { t: 'Debilidad de ambas piernas en horas o días', d: 'Nivel sensitivo y esfínteres comprometidos',
+            say: 'Una paraplejia o paraparesia aguda es debilidad de ambas piernas en horas a pocos días, con un nivel sensitivo, compromiso de esfínteres y signos de motoneurona superior: hiperreflexia y Babinski. En la fase de shock espinal, los reflejos están abolidos.' },
+        ] },
+        { title: 'Qué más pensar', tag: 'Diferenciales', kind: 'criteria', items: [
+          { t: 'Compresión neoplásica, trauma y absceso epidural', d: 'Absceso: fiebre y dolor raquídeo',
+            say: 'En el paciente oncológico, la causa más frecuente es la compresión medular neoplásica, que acabamos de ver. Pero también piensa en el trauma raquimedular y en el absceso epidural o la espondilodiscitis, con fiebre, dolor raquídeo y un factor de riesgo.' },
+          { t: 'Hematoma epidural, mielitis e infarto medular', d: 'Anticoagulación, cirugía o disección aórtica',
+            say: 'El hematoma epidural en el paciente anticoagulado, la mielitis transversa, y el infarto medular después de una cirugía o de una disección aórtica.' },
+          { t: 'Guillain-Barré: el principal diferencial', d: 'Arreflexia ascendente, sin nivel sensitivo',
+            say: 'Y el síndrome de Guillain-Barré, el principal diferencial: arreflexia ascendente y sin nivel sensitivo.' },
+        ] },
+        { title: 'Conducta inicial', tag: 'No esperar', kind: 'alert', items: [
+          { t: 'Inmovilizar si hay trauma, y estabilizar', d: 'Vía aérea, hemodinamia, documentar el nivel',
+            say: 'Inmoviliza la columna si hay trauma o inestabilidad, asegura la vía aérea y la hemodinamia, y documenta el nivel y el estado neurológico.' },
+          { t: 'Dexametasona si se sospecha tumor, no en trauma', d: 'Sonda vesical y profilaxis tromboembólica',
+            say: 'Se indica dexametasona endovenosa si sospechas compresión tumoral, pero no en el trauma. Además, sonda vesical y profilaxis tromboembólica según el contexto.' },
+          { t: 'RM de columna total urgente y traslado', d: 'Centro con neurocirugía y radioterapia',
+            say: 'Pides resonancia de columna total urgente, o tomografía si no hay resonancia, y trasladas de inmediato a un centro con neurocirugía y radioterapia. Quien lleva más de veinticuatro a cuarenta y ocho horas parapléjico rara vez recupera la marcha, así que no se retrasa el traslado esperando exámenes.' },
+        ] },
       ],
     },
 
@@ -191,21 +224,6 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Compresión medular e hiperkalemia',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-22/01_rm_compresion_medular__harrison_p3489.jpg', label: 'Compresión medular', credit: 'Harrison 21.ª ed., p. 3489' },
-        { src: 'biblioteca/06_hematologia/hem-22/01_ecg-hiperpotasemia-t-picudas__cto-nefro_p23.jpg', label: 'ECG de hiperkalemia: T picudas y QRS ancho (panel B)', credit: 'Manual CTO Nefrología 14.ª ed., p. 23' },
-      ],
-      steps: [
-        { note: 'La metástasis comprime la médula',
-          say: 'En esta resonancia una metástasis comprime la médula. Dolor de espalda en un paciente con cáncer obliga a pedirla, antes de que aparezca la debilidad.' },
-        { note: 'Lisis tumoral: el potasio mata primero',
-          say: 'Y este es el electrocardiograma que te preocupa en la lisis tumoral. En el panel del centro, ondas T picudas y QRS ancho: el potasio ya está tocando el corazón. Lo primero es el gluconato de calcio.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -228,6 +246,8 @@ module.exports = {
           say: 'En la prevención, ya no se alcaliniza con bicarbonato, porque precipita el fosfato cálcico.' },
         { cells: ['Hipercalcemia sintomática', 'Suero fisiológico, luego zoledrónico', 'Bifosfonato como primer paso'],
           say: 'Hipercalcemia sintomática: primero suero fisiológico, después ácido zoledrónico. El bifosfonato como primera medida es el error, porque tarda dos a tres días.' },
+        { cells: ['Paraplejia aguda con fiebre y dolor raquídeo', 'Pensar en absceso epidural: RM urgente y traslado', 'Dar por hecho compresión tumoral y esperar'],
+          say: 'No toda paraplejia aguda es tumoral. Con fiebre y dolor raquídeo, piensa en un absceso epidural: resonancia urgente y traslado a un centro con neurocirugía.' },
         { cells: ['Cáncer + dolor dorsal + paraparesia', 'Dexametasona EV de inmediato', 'Esperar la resonancia'],
           say: 'Y cáncer con dolor de espalda y debilidad de piernas: dexametasona endovenosa de inmediato. Esperar la resonancia para empezar es la trampa.' },
       ],
@@ -346,6 +366,119 @@ module.exports = {
         options: 'Las opciones son: resonancia de columna con gadolinio, mielografía, cintigrama óseo, radiografía de columna, o scanner. Piénsalo.',
         answer: 'Es la A, la resonancia magnética de columna con gadolinio, idealmente de columna completa, porque puede haber más de un nivel comprimido. El distractor tentador es la cintigrafía, porque el paciente tiene metástasis óseas. Pero la cintigrafía muestra hueso, no la médula. Y recuerda que si la pregunta fuera por la primera medida, la respuesta sería la dexametasona.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Enero 2023 · Pregunta 105",
+      "stem": "Paciente con cáncer de próstata y calcemia de 14 mg/dL.",
+      "question": "¿Cuál es la conducta inicial más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bifosfonatos endovenosos (ácido zoledrónico)"
+        },
+        {
+          "letter": "B",
+          "text": "Suero fisiológico endovenoso (hidratación agresiva)"
+        },
+        {
+          "letter": "C",
+          "text": "Calcitonina intranasal"
+        },
+        {
+          "letter": "D",
+          "text": "Prednisona oral 40 mg/día"
+        },
+        {
+          "letter": "E",
+          "text": "Diálisis de urgencia"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Hipercalcemia maligna severa: lo primero es corregir la deshidratación por diuresis osmótica con suero fisiológico EV abundante. Luego se agrega ácido zoledrónico, que tarda 2 a 4 días en actuar. La calcitonina es un puente rápido y breve; los corticoides sirven en linfomas y mieloma; la diálisis queda para falla renal o cardíaca que impida hidratar.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de enero de dos mil veintitrés. Un paciente con cáncer de próstata tiene una calcemia de catorce.",
+        "question": "¿Cuál es la conducta inicial más adecuada?",
+        "options": "Las opciones: bifosfonatos endovenosos, suero fisiológico en volumen abundante, calcitonina intranasal, prednisona oral, o diálisis de urgencia. Piénsalo.",
+        "answer": "Es la B. La hipercalcemia produce poliuria y deshidratación, así que lo primero siempre es hidratar con suero fisiológico. Los bifosfonatos tientan porque son el tratamiento de fondo, pero tardan días en actuar y se agregan después."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.2.007 · Síndrome de compresión medular",
+      "stem": "Hombre de 71 años con cáncer de próstata con metástasis óseas conocidas. Hace 3 semanas presenta dorsalgia progresiva que empeora al acostarse y lo despierta de noche. Desde hace 24 horas tiene debilidad de ambas piernas y dificultad para orinar. Examen: paraparesia 4/5, hipoestesia con nivel sensitivo en T10, reflejos aumentados en extremidades inferiores y globo vesical.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía de columna dorsal y analgesia con opioides en domicilio"
+        },
+        {
+          "letter": "B",
+          "text": "Cintigrafía ósea ambulatoria"
+        },
+        {
+          "letter": "C",
+          "text": "Punción lumbar para citología"
+        },
+        {
+          "letter": "D",
+          "text": "Dexametasona EV, resonancia magnética de toda la columna urgente y evaluación por radioterapia y neurocirugía"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar bloqueo androgénico y control en 1 semana"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Dolor dorsal en un paciente oncológico con déficit motor, nivel sensitivo y retención urinaria: compresión medular metastásica, una emergencia. Se inicia dexametasona EV de inmediato, se solicita RM de toda la columna (puede haber varios niveles) y se decide radioterapia o descompresión quirúrgica en horas. El pronóstico depende de la función motora al inicio.",
+      "say": {
+        "stem": "Un hombre de setenta y un años con cáncer de próstata metastásico tiene dorsalgia nocturna de tres semanas y, desde ayer, debilidad de ambas piernas, nivel sensitivo en dorsal diez y globo vesical.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: radiografía y analgesia en domicilio, cintigrafía ambulatoria, punción lumbar, dexametasona endovenosa con resonancia urgente de toda la columna y evaluación por radioterapia y neurocirugía o bloqueo hormonal y control en una semana. Piénsalo.",
+        "answer": "Es la D. Es una compresión medular metastásica, y cada hora cuenta: corticoides de inmediato, resonancia de toda la columna y tratamiento definitivo con radioterapia o cirugía. La radiografía tienta, pero no ve la médula y retrasa el diagnóstico."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.2.011 · Paraplejia aguda",
+      "stem": "Hombre de 72 años con cáncer de próstata metastásico presenta dolor dorsal de 3 semanas que empeora en decúbito y, desde hace 24 horas, debilidad de ambas piernas, con nivel sensitivo en T10 y retención urinaria.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aumentar opioides y control en 1 semana"
+        },
+        {
+          "letter": "B",
+          "text": "Radiografía de columna y control ambulatorio"
+        },
+        {
+          "letter": "C",
+          "text": "Punción lumbar"
+        },
+        {
+          "letter": "D",
+          "text": "Kinesioterapia motora"
+        },
+        {
+          "letter": "E",
+          "text": "Dexametasona endovenosa y resonancia magnética urgente de toda la columna"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Una paraplejia aguda con nivel sensitivo y alteración esfinteriana en un paciente oncológico es una compresión medular neoplásica, emergencia oncológica. Se inicia dexametasona de inmediato y se realiza una resonancia urgente de toda la columna para definir radioterapia o cirugía descompresiva. El pronóstico funcional depende del estado neurológico al iniciar el tratamiento.",
+      "say": {
+        "stem": "Hombre con cáncer de próstata metastásico, dolor dorsal y, desde ayer, debilidad de ambas piernas, nivel sensitivo y retención urinaria.",
+        "question": "¿Qué haces?",
+        "options": "Las opciones: subir opioides, radiografía y control, punción lumbar, kinesioterapia o dexametasona y resonancia urgente de toda la columna. Piénsalo.",
+        "answer": "Es la E. Dexametasona y resonancia urgente, porque es una compresión medular neoplásica. La radiografía es más rápida de pedir, pero no muestra la médula y retrasa el tratamiento."
+      }
     },
 
     {

@@ -234,24 +234,24 @@ Un paciente de 68 años, con antecedente de diabetes mellitus tipo 2, consulta p
 Explicación del banco: Diagnóstico: **Catarata** (opción **C**). Es una catarata inicial.. La pérdida súbita de visión es una emergencia oftalmológica que puede tener múltiples etiologías, cada una con características clínicas y hallazgos específicos que permiten orientar el diagnóstico. Los hallazgos descritos en el caso concuerdan exactamente con esta entidad clínica en el marco del Perfil V3 ASOFAMECh.
 
 ### [5] EUNACOM Diciembre 2025 · Pregunta 156 · confianza 0.92
-Una paciente de 42 años consulta por dolor ocular derecho, asociado a ojo rojo que inició hace 5 horas y se ha vuelto muy intenso. Al examen Fsico, presenta epífora y ojo rojo derecho de 8po central. Como antecedente, 8ene as8gma8smo y es usuaria de lentes de contacto. ¿Cuál de los siguientes exámenes es más adecuado para conﬁrmar la sospecha diagnós8ca?
+Una paciente de 42 años consulta por dolor ocular derecho, asociado a ojo rojo que inició hace 5 horas y se ha vuelto muy intenso. Al examen físico, presenta epífora y ojo rojo derecho de tipo central. Como antecedente, tiene astigmatismo y es usuaria de lentes de contacto. ¿Cuál de los siguientes exámenes es más adecuado para confirmar la sospecha diagnóstica?
 - A) Fondo de ojo
 - B) Tonometría ocular
 - C) TAC de órbitas
-- D) Tinción con ﬂuoresceína
+- D) Tinción con fluoresceína
 - E) Gonioscopía
 **Correcta: D**
-Explicación del banco: La sospecha clínica es una queraGGs o una erosión corneal. El uso de lentes de contacto podría ser la causa. Con la Gnción con ﬂuoresceína se pueden ver mejor las úlceras y erosiones corneales. La genioscopía es úGl en la evaluación del glaucoma agudo.
+Explicación del banco: La sospecha clínica es una queraGGs o una erosión corneal. El uso de lentes de contacto podría ser la causa. Con la Gnción con fluoresceína se pueden ver mejor las úlceras y erosiones corneales. La genioscopía es útil en la evaluación del glaucoma agudo.
 
 ### [6] EUNACOM Diciembre 2025 · Pregunta 170 · confianza 0.9
-Un paciente de 70 años, con antecedentes de hipertensión arterial, diabetes mellitus 8po 2 y revascularización coronaria hace 3 años, consulta porque hace pocas horas notó que, de forma súbita, dejó de ver su pierna derecha con el ojo derecho. Al examen Fsico presenta inspección ocular normal, agudeza visual 20/30 en el ojo derecho y 20/20 en el ojo izquierdo, pupilas isocóricas con defecto pupilar aferente rela8vo, y en la campimetría por confrontación se observa hemianopsia inferior del ojo derecho. El diagnós8co más probable es:
+Un paciente de 70 años, con antecedentes de hipertensión arterial, diabetes mellitus tipo 2 y revascularización coronaria hace 3 años, consulta porque hace pocas horas notó que, de forma súbita, dejó de ver su pierna derecha con el ojo derecho. Al examen físico presenta inspección ocular normal, agudeza visual 20/30 en el ojo derecho y 20/20 en el ojo izquierdo, pupilas isocóricas con defecto pupilar aferente relativo, y en la campimetría por confrontación se observa hemianopsia inferior del ojo derecho. El diagnóstico más probable es:
 - A) Neuri2s óp2ca isquémica
 - B) Infarto del lóbulo occipital
 - C) Desprendimiento de re2na
 - D) Glaucoma
 - E) Degeneración macular relacionada con la edad
 **Correcta: A**
-Explicación del banco: Tanto por el inicio súbito, con factores de riesgo cardiovascular, como por el defecto pupilar aferente relativo (DPAR), es una neuropaVa óptica isquémica, con afectación de la zona superior del nervio óptico derecho (inerva la zona superior de la reGna y corresponde a la zona inferior del campo visual). El DPAR se ve también en la neuriGs óptica desmielinizante y en el desprendimiento de reGna extenso o en la oclusión de la arteria central de la reGna.
+Explicación del banco: Tanto por el inicio súbito, con factores de riesgo cardiovascular, como por el defecto pupilar aferente relativo (DPAR), es una neuropatía óptica isquémica, con afectación de la zona superior del nervio óptico derecho (inerva la zona superior de la retina y corresponde a la zona inferior del campo visual). El DPAR se ve también en la neuritis óptica desmielinizante y en el desprendimiento de retina extenso o en la oclusión de la arteria central de la retina.
 
 ### [7] EUNACOM Diciembre 2024 · Pregunta 2 · confianza 0.9
 Mujer 30 años con aparición de Placa eritematodescamativa de 2 meses de evolución en pómulo derecho de 3 cm de diámetro y otra similar en cuero cabelludo (zona parietal izquierda) con alopecia central.
@@ -311,7 +311,7 @@ Un niño de 8 años, es traído por presentar mal olor axilar desde hace semanas
 - D) Hiperplasia suprarrenal
 - E) Adrenarquia temprana
 **Correcta: A**
-Explicación del banco: Tiene una pubertad precoz (menos de 9 años en varones), con testículos de 4 cc, por lo que están estimulados por las gonadotropinas. Como hay elevación de gonadotropinas, es porque está activado el eje hipotálamo hipóﬁsis, es decir, es central.
+Explicación del banco: Tiene una pubertad precoz (menos de 9 años en varones), con testículos de 4 cc, por lo que están estimulados por las gonadotropinas. Como hay elevación de gonadotropinas, es porque está activado el eje hipotálamo hipófisis, es decir, es central.
 
 ### [13] EUNACOM Julio 2025 · Pregunta 35 · confianza 0.8
 Niño de 8 años con otorrea crónica serosa, hipoacusia conductiva bilateral y tímpano con perforación central. ¿Cuál es el manejo inicial más adecuado?
@@ -324,14 +324,14 @@ Niño de 8 años con otorrea crónica serosa, hipoacusia conductiva bilateral y 
 Explicación del banco: Perforación timpánica crónica con hipoacusia conductiva: audiometría para evaluar pérdida auditiva y derivación a ORL para considerar timpanoplastía. No se tapona el oído perforado.
 
 ### [14] EUNACOM Diciembre 2025 · Pregunta 29 · confianza 0.8
-Un paciente de 67 años, con antecedente de hipertensión arterial sin tratamiento, consulta por vér8go intenso de inicio súbito hace 2 horas, asociado a diﬁcultades en la marcha que le impiden mantenerse de pie. Al examen Fsico se observa hipotónico, con dismetría de extremidades y nistagmus mul8direccional. ¿Cuál es la conducta más adecuada?
+Un paciente de 67 años, con antecedente de hipertensión arterial sin tratamiento, consulta por vértigo intenso de inicio súbito hace 2 horas, asociado a dificultades en la marcha que le impiden mantenerse de pie. Al examen físico se observa hipotónico, con dismetría de extremidades y nistagmus multidireccional. ¿Cuál es la conducta más adecuada?
 - A) Iniciar difenidol
 - B) Realizar examen de VIII par
 - C) Solicitar prueba calórica
 - D) Solicitar resonancia magné2ca nuclear de troncoencéfalo
 - E) Solicitar TAC de cerebro
 **Correcta: E**
-Explicación del banco: Tiene un vérGgo de Gpo central, por el nistagmo mulGdireccional y la dismetría (propio de los síndromes cerebelosos). Con ello, se debe solicitar una neuroimagen. Si bien la RMN ve mejor la fosa posterior y, probablemente, se solicite después, lo más urgente es la TAC de cerebro, ya que es un examen rápido y la primera sospecha es un ACV cerebeloso o del sistema vertebrobasilar, que está dentro de la ventana de trombólisis, en caso de que sea isquémico.
+Explicación del banco: Tiene un vértigo de Gpo central, por el nistagmo multidireccional y la dismetría (propio de los síndromes cerebelosos). Con ello, se debe solicitar una neuroimagen. Si bien la RMN ve mejor la fosa posterior y, probablemente, se solicite después, lo más urgente es la TAC de cerebro, ya que es un examen rápido y la primera sospecha es un ACV cerebeloso o del sistema vertebrobasilar, que está dentro de la ventana de trombólisis, en caso de que sea isquémico.
 
 ### [15] EUNACOM Julio 2016 · Pregunta 89 · confianza 0.8
 Un paciente de 45 años, diagnosticado de VIH, presenta sangrado rectal ocasional. Al examen físico, se observa lesión solevantada en los margenes anales, de 4 cm, que se introduce en el recto, sobrepasando la línea pectínea, con una con una ulceración central, con escaso sangrado. El diagnóstico más probable es:

@@ -92,7 +92,8 @@ module.exports = {
       cards: [
         { title: "Livedo reticularis cutánea", tag: "Microtrombosis capilar persistente", kind: "normal", items: [
           { t: "Patrón violáceo en malla o encaje", d: "En extremidades inferiores y tronco",
-            say: "La livedo reticularis es un hallazgo dermatológico muy común en el síndrome antifosfolípido. Se observa como una red violácea en forma de malla en piernas y brazos que no desaparece con el calor ambiental." },
+            say: "La livedo reticularis es un hallazgo dermatológico muy común en el síndrome antifosfolípido. Se observa como una red violácea en forma de malla en piernas y brazos que no desaparece con el calor ambiental. Mira esta piel: la red violácea en las piernas es la livedo reticularis.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-11/01_livedo-reticularis__amir-reuma_p39.jpg', label: 'Livedo reticularis', at: 'Mira esta piel', credit: 'Manual AMIR Reumatología, p. 39' } },
           { t: "Marcador de compromiso microvascular", d: "Asociado a accidentes isquémicos transitorios",
             say: "Refleja la estasis y microtrombosis en las vénulas dérmicas, y su presencia suele asociarse a mayor carga trombótica y riesgo de compromiso neurológico." },
         ] },
@@ -178,6 +179,54 @@ module.exports = {
 
     {
       type: "points",
+      kicker: "Trombofilias hereditarias",
+      title: "Cuándo sospechar una trombofilia hereditaria",
+      cards: [
+        { title: "Qué son", tag: "Genéticas, no adquiridas", kind: "key", items: [
+          { t: "Factor V de Leiden y protrombina G20210A", d: "Las más frecuentes",
+            say: "A diferencia del síndrome antifosfolípido, que es una trombofilia adquirida, las hereditarias son estados de hipercoagulabilidad de origen genético. Las más frecuentes son la mutación del factor V de Leiden, que da resistencia a la proteína C activada, y la mutación G veinte mil doscientos diez A de la protrombina." },
+          { t: "Antitrombina, proteína C y proteína S", d: "Menos frecuentes, pero más trombogénicas",
+            say: "Menos frecuentes, pero más trombogénicos, son los déficits de antitrombina, de proteína C y de proteína S. La hiperhomocisteinemia es otra causa." },
+        ] },
+        { title: "Cuándo sospecharla", tag: "Banderas rojas", kind: "alert", items: [
+          { t: "Trombosis antes de los 45 a 50 años sin causa", d: "O recurrente, o en lugar inusual",
+            say: "Se sospecha ante una trombosis venosa antes de los cuarenta y cinco a cincuenta años sin factor desencadenante, una trombosis recurrente, o en una localización inusual: venas cerebrales, mesentéricas, porta o síndrome de Budd-Chiari." },
+          { t: "Familiar de primer grado, necrosis por warfarina", d: "Y complicaciones obstétricas recurrentes",
+            say: "También ante antecedente familiar de trombosis en parientes de primer grado, necrosis cutánea por warfarina, que sugiere déficit de proteína C o S, y complicaciones obstétricas recurrentes." },
+        ] },
+        { title: "Estudio y conducta", tag: "Qué se pide y cuándo", kind: "criteria", items: [
+          { t: "No de rutina tras un primer evento provocado", d: "Cirugía, inmovilización o trauma",
+            say: "No se estudia la trombofilia de rutina en un primer evento claramente provocado, por cirugía, inmovilización o trauma." },
+          { t: "Pruebas funcionales fuera de la fase aguda", d: "La warfarina baja C y S; la heparina, la antitrombina",
+            say: "Los estudios genéticos se pueden pedir en cualquier momento. Pero las pruebas funcionales de proteína C, S y antitrombina se alteran con la trombosis aguda y con los anticoagulantes: la warfarina baja las proteínas C y S, y la heparina y la trombosis aguda bajan la antitrombina. Se piden fuera de la fase aguda. Los anticuerpos antifosfolípidos se estudian siempre." },
+          { t: "La anticoagulación depende del evento", d: "No de la trombofilia en sí",
+            say: "La duración de la anticoagulación depende del evento, tres a seis meses si fue provocado, prolongada si fue no provocado o recurrente, más que de la trombofilia. El portador heterocigoto de factor V de Leiden no requiere anticoagulación indefinida solo por serlo." },
+        ] },
+      ],
+    },
+
+    {
+      type: "points",
+      kicker: "Trombofilias hereditarias",
+      title: "Estrógenos, embarazo y derivación",
+      cards: [
+        { title: "Qué se evita", tag: "Tras una trombosis", kind: "alert", items: [
+          { t: "Estrógenos", d: "Anticonceptivos orales y terapia hormonal",
+            say: "En quien ya tuvo una trombosis se evitan los estrógenos: anticonceptivos orales y terapia hormonal." },
+        ] },
+        { title: "Qué se indica", tag: "Embarazo y puerperio", kind: "pharma", items: [
+          { t: "Profilaxis con HBPM", d: "Según el antecedente de trombosis",
+            say: "En el embarazo y el puerperio se indica profilaxis con heparina de bajo peso molecular, según el antecedente." },
+        ] },
+        { title: "A quién derivar", tag: "Hematología", kind: "key", items: [
+          { t: "Derivar a hematología", d: "Ver el tomo de Hematología",
+            say: "Y se deriva a hematología. Ahí se confirma el estudio y se define el tratamiento." },
+        ] },
+      ],
+    },
+
+    {
+      type: "points",
       kicker: "Portadores asintomáticos",
       title: "Conducta preventiva ante anticuerpos positivos sin trombosis",
       cards: [
@@ -226,19 +275,6 @@ module.exports = {
       steps: [
         { note: 'Alarga el TTPK y produce trombosis',
           say: 'En el tubo de ensayo, el anticoagulante lúpico alarga el tiempo de tromboplastina parcial activada, y parece un anticoagulante. Pero en el paciente es procoagulante: produce trombosis venosas y arteriales, aun con plaquetas bajas. Por eso la anticoagulación se mantiene de forma indefinida.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Síndrome antifosfolípido',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-11/01_livedo-reticularis__amir-reuma_p39.jpg', label: 'Livedo reticularis', credit: 'Manual AMIR Reumatología, p. 39' },
-      ],
-      steps: [
-        { note: 'Red violácea en la piel',
-          say: 'La livedo reticularis, una red violácea en la piel, es un signo asociado al síndrome antifosfolípido.' },
       ],
     },
 

@@ -110,6 +110,54 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Otros derechos GES',
+      title: 'Salud oral, ayudas técnicas y agresión sexual',
+      cards: [
+        { title: 'Salud oral', tag: 'Cuatro grupos', kind: 'key', items: [
+          { t: 'Niños de 6, jóvenes de 12', d: 'Embarazadas y adultos de 60',
+            say: 'El GES incluye más que enfermedades. La salud oral integral está garantizada para cuatro grupos: niños de seis años, adolescentes de doce, embarazadas y adultos de sesenta años. Además, la urgencia odontológica ambulatoria es para toda la población.' },
+          { t: 'A los 6 años: primer molar permanente', d: 'Sellantes, obturaciones y alta',
+            say: 'Se atiende a los seis años porque en ese momento erupciona el primer molar permanente. Ahí se hacen los sellantes de fosas y fisuras, las obturaciones y el alta odontológica. La prevención se apoya en el agua fluorada, el barniz de flúor y el cepillado supervisado.' },
+        ] },
+        { title: 'Ayudas técnicas', tag: '65 años o más', kind: 'criteria', items: [
+          { t: 'Bastones, andadores, sillas de ruedas', d: 'Y colchones antiescaras',
+            say: 'Segundo, las ayudas técnicas para personas de sesenta y cinco años o más: bastones, andadores, sillas de ruedas, cojines y colchones antiescaras. Con indicación del médico tratante.' },
+          { t: 'Tú indicas y dejas constancia', d: 'Notificación GES',
+            say: 'Tu papel es conocer el derecho, indicar la ayuda según la discapacidad y dejar constancia de la notificación GES. Sin ese registro, el paciente no accede a la garantía.' },
+        ] },
+        { title: 'Agresión sexual aguda', tag: 'Urgencia', kind: 'alert', items: [
+          { t: 'Se atiende de inmediato', d: 'Sin condicionarla a la denuncia',
+            say: 'Y la agresión sexual aguda es una urgencia. Se atiende de inmediato, con acogida y privacidad, y sin exigir que la víctima denuncie primero.' },
+          { t: 'Anticoncepción y profilaxis', d: 'Levonorgestrel y antirretrovirales en 72 horas',
+            say: 'La atención integral incluye examen y registro de lesiones, muestras con cadena de custodia, anticoncepción de emergencia con levonorgestrel, idealmente dentro de las setenta y dos horas, y profilaxis antirretroviral dentro de las setenta y dos horas, por veintiocho días. Suma profilaxis de otras infecciones de transmisión sexual, vacunas y apoyo psicológico.' },
+          { t: 'El equipo denuncia en 24 horas', d: 'Si es menor, medidas de protección',
+            say: 'El equipo debe denunciar el hecho dentro de las veinticuatro horas, y si la víctima es menor, pedir además medidas de protección.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Calidad',
+      title: 'Auditoría y acreditación de prestadores',
+      cards: [
+        { title: 'Auditoría', tag: 'Contra un estándar', kind: 'key', items: [
+          { t: 'Revisión sistemática e independiente', d: 'Detecta brechas y las corrige',
+            say: 'Cerremos con calidad. La auditoría es la revisión sistemática e independiente de una actividad frente a un estándar, para encontrar brechas y corregirlas. La auditoría clínica revisa fichas, procesos y resultados, como la mortalidad o las infecciones asociadas a la atención.' },
+          { t: 'Evento adverso y evento centinela', d: 'Se investigan y se notifican',
+            say: 'Si ocurre un evento adverso, un daño no intencional asociado a la atención, o un evento centinela, que es grave, con muerte o daño permanente, el prestador debe hacer un análisis causal y notificarlo.' },
+        ] },
+        { title: 'Acreditación', tag: 'Superintendencia de Salud', kind: 'criteria', items: [
+          { t: 'Verifica estándares de calidad', d: 'Vigencia de 3 años',
+            say: 'La acreditación la hace la Superintendencia de Salud a través de entidades acreditadoras, contra el estándar general, y dura tres años.' },
+          { t: 'No es la autorización sanitaria', d: 'Esa la da la SEREMI de Salud',
+            say: 'Ojo: no es lo mismo que la autorización sanitaria, que otorga la SEREMI y es el permiso básico para funcionar. En el GES, las prestaciones deben darlas prestadores acreditados e inscritos en el registro.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos las cuatro garantías en un solo árbol de decisión.',
     },
@@ -128,6 +176,10 @@ module.exports = {
           say: 'Si el plazo de una cirugía garantizada se vence, es la Garantía de Oportunidad, y la vía es el reclamo administrativo ante el asegurador, no un recurso judicial directo.' },
         { cells: ['ISAPRE cobra copago de diez por ciento en prestación GES', 'Ninguna: está dentro del tope de veinte por ciento', 'Decir que se vulneró la Garantía Financiera'],
           say: 'Y si la ISAPRE cobra un copago de diez por ciento en una prestación GES, no hay vulneración, porque el tope legal es veinte por ciento. La trampa es asumir que cualquier copago ya es un incumplimiento.' },
+        { cells: ['Prestador funciona con autorización de la SEREMI, sin acreditar', 'Falta la acreditación de la Superintendencia', 'Decir que la autorización sanitaria basta para el GES'],
+          say: 'La autorización sanitaria de la SEREMI es el permiso básico para funcionar. La acreditación es otra cosa: la da la Superintendencia, dura tres años y el GES la exige.' },
+        { cells: ['Víctima de agresión sexual sin denuncia previa', 'Se atiende de inmediato igual', 'Exigir la denuncia antes de atender'],
+          say: 'A una víctima de agresión sexual se la atiende de inmediato. La denuncia la hace el equipo después, dentro de las veinticuatro horas, y no condiciona la atención.' },
       ],
     },
 
@@ -195,6 +247,157 @@ module.exports = {
         question: '¿Cuál es la conducta correcta que debe seguir el paciente?',
         options: 'Las opciones: reclamar por incumplimiento de Garantía de Oportunidad ante FONASA, ir directo a un tribunal civil, operarse por su cuenta en una clínica privada y pedir reembolso, pedir una mediación ante el Consejo de Defensa del Estado, o exigir una compensación diaria. Piénsalo.',
         answer: 'Es la A, el mismo procedimiento que ya conoces: reclamo ante el asegurador, y cuarenta y ocho horas para el segundo prestador. El tribunal civil y la mediación ante el Consejo de Defensa del Estado son para otro tipo de conflicto, como una demanda por mala praxis, no para activar una garantía GES vencida. Y la ley no contempla compensaciones económicas diarias por el atraso.' },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 96",
+      "stem": "En el sistema de salud chileno existen instituciones encargadas de garantizar la calidad de los prestadores.",
+      "question": "¿Qué institución es la encargada de acreditar y autorizar a los prestadores individuales de salud y a los centros de salud?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La Superintendencia de Seguridad Social"
+        },
+        {
+          "letter": "B",
+          "text": "La autoridad regional sanitaria"
+        },
+        {
+          "letter": "C",
+          "text": "La Superintendencia de Salud"
+        },
+        {
+          "letter": "D",
+          "text": "FONASA"
+        },
+        {
+          "letter": "E",
+          "text": "La municipalidad"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La Superintendencia de Salud, a través de su Intendencia de Prestadores, acredita a los prestadores institucionales y lleva el Registro Nacional de Prestadores Individuales, ambos parte de la garantía de calidad GES. La autorización sanitaria de funcionamiento de un establecimiento la otorga la SEREMI de Salud, por lo que el enunciado mezcla ambos conceptos.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Sobre la calidad de los prestadores en Chile.",
+        "question": "¿Qué institución acredita a prestadores individuales y centros de salud?",
+        "options": "Las opciones: Superintendencia de Seguridad Social, autoridad sanitaria regional, Superintendencia de Salud, FONASA o municipalidad. Piénsalo.",
+        "answer": "Es la C. La Superintendencia de Salud acredita a los prestadores institucionales y registra a los individuales. La autoridad regional tienta porque da la autorización sanitaria de funcionamiento, pero no acredita calidad."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.053 · Derecho GES a atención integral de salud en agresión sexual aguda",
+      "stem": "Mujer de 22 años consulta en un servicio de urgencia 12 horas después de haber sido víctima de una violación con penetración vaginal sin preservativo, por un desconocido. Está hemodinámicamente estable, con lesiones leves.",
+      "question": "Según la garantía GES de atención integral en agresión sexual aguda, ¿cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Derivarla al Servicio Médico Legal sin atenderla"
+        },
+        {
+          "letter": "B",
+          "text": "Atención integral: anticoncepción de emergencia, profilaxis de ITS y VIH, vacuna de hepatitis B, toma de muestras forenses, apoyo psicológico y denuncia"
+        },
+        {
+          "letter": "C",
+          "text": "Esperar un test de embarazo en 2 semanas antes de indicar anticoncepción"
+        },
+        {
+          "letter": "D",
+          "text": "Indicar profilaxis de VIH solo si se confirma que el agresor es VIH positivo"
+        },
+        {
+          "letter": "E",
+          "text": "Indicar solo analgesia y control en atención primaria"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La garantía GES asegura atención integral oportuna a víctimas de agresión sexual aguda: manejo de lesiones, anticoncepción de emergencia, profilaxis de ITS, VIH (idealmente antes de 72 horas) y hepatitis B, toma y custodia de muestras, apoyo psicosocial y seguimiento. La atención de salud no se posterga por el peritaje, y el establecimiento debe hacer la denuncia.",
+      "say": {
+        "stem": "Mujer de veintidós años que consulta doce horas después de una violación por un desconocido, sin preservativo.",
+        "question": "¿Cuál es la conducta según la garantía GES?",
+        "options": "Las opciones: derivar sin atender, atención integral con anticoncepción y profilaxis, esperar test de embarazo, profilaxis solo si el agresor tiene VIH o solo analgesia. Piénsalo.",
+        "answer": "Es la B. La garantía exige atención integral inmediata: anticoncepción de emergencia, profilaxis de infecciones, muestras, apoyo y denuncia. Derivar al Servicio Médico Legal tienta por el peritaje, pero la atención de salud no se puede postergar."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.3.015 · Salud oral",
+      "stem": "Una madre consulta qué atención dental cubre el GES para su hijo.",
+      "question": "¿Qué grupo de edad pediátrico tiene garantizada por el GES la salud oral integral?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Preescolares de 4 años solamente"
+        },
+        {
+          "letter": "B",
+          "text": "Lactantes de 6 meses"
+        },
+        {
+          "letter": "C",
+          "text": "Adolescentes de 15 años"
+        },
+        {
+          "letter": "D",
+          "text": "Todos los menores de 18 años"
+        },
+        {
+          "letter": "E",
+          "text": "Niños y niñas de 6 años"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El GES incluye \"Salud oral integral para niños y niñas de 6 años\", que cubre examen, educación, prevención (sellantes, flúor) y tratamiento de caries, en el momento en que erupcionan los primeros molares definitivos. Otras garantías odontológicas son la salud oral de la embarazada y la urgencia odontológica ambulatoria.",
+      "say": {
+        "stem": "Una madre pregunta qué atención dental cubre el GES para su hijo.",
+        "question": "¿Qué edad pediátrica tiene garantizada la salud oral integral?",
+        "options": "Las opciones: solo cuatro años, seis meses, quince años, todos los menores de dieciocho o seis años. Piénsalo.",
+        "answer": "Es la E. El GES garantiza salud oral integral a los niños de seis años, cuando erupcionan los primeros molares definitivos. Todos los menores de dieciocho tienta por parecer lógico, pero la garantía es específica para esa edad."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.3.012 · Derecho GES a ayudas técnicas para personas de 65 años o más, como órtesis",
+      "stem": "Hombre de 72 años, beneficiario de FONASA, con artrosis de cadera y alteración del equilibrio, tiene dificultad para desplazarse en forma segura. Su médico considera que necesita una ayuda técnica.",
+      "question": "¿Cuál de los siguientes elementos está garantizado por el GES de órtesis o ayudas técnicas para personas de 65 años y más?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Silla salvaescaleras"
+        },
+        {
+          "letter": "B",
+          "text": "Cama clínica eléctrica"
+        },
+        {
+          "letter": "C",
+          "text": "Andador"
+        },
+        {
+          "letter": "D",
+          "text": "Scooter eléctrico"
+        },
+        {
+          "letter": "E",
+          "text": "Plantillas ortopédicas de silicona"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El GES de órtesis o ayudas técnicas para personas de 65 años y más garantiza, según indicación médica, bastones, andadores (incluido el andador de paseo), sillas de ruedas y cojín y colchón antiescaras, con plazos definidos de entrega. Camas eléctricas, salvaescaleras y scooters no forman parte de esta garantía.",
+      "say": {
+        "stem": "Hombre de setenta y dos años, de FONASA, con artrosis de cadera e inestabilidad, que necesita una ayuda técnica.",
+        "question": "¿Qué elemento garantiza el GES de ayudas técnicas?",
+        "options": "Las opciones: silla salvaescaleras, cama clínica eléctrica, andador, scooter eléctrico o plantillas de silicona. Piénsalo.",
+        "answer": "Es la C. El andador, junto con bastones, sillas de ruedas y cojín y colchón antiescaras. La cama eléctrica puede parecer razonable, pero no está en la garantía."
+      }
     },
 
     {

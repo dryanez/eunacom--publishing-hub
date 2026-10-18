@@ -34,7 +34,8 @@ module.exports = {
         { show: ['fa', 'vi'], note: 'Adenovirus, rinovirus, coronavirus, influenza, Epstein-Barr',
           say: 'Parte por el número: más del setenta por ciento de las faringitis en adultos y más de la mitad en niños son virales. Los culpables son adenovirus, rinovirus, coronavirus, influenza y el virus de Epstein-Barr, que causa la mononucleosis.' },
         { show: ['sv'], note: 'Si hay síntomas respiratorios, es viral',
-          say: 'Y los virus dejan una huella: tos, coriza o rinorrea, disfonía, conjuntivitis, aftas orales y diarrea. Si tu paciente tiene alguno de estos, prácticamente descartaste el estreptococo.' },
+          say: 'Y los virus dejan una huella: tos, coriza o rinorrea, disfonía, conjuntivitis, aftas orales y diarrea. Si tu paciente tiene alguno de estos, prácticamente descartaste el estreptococo. Mira esta faringe enrojecida sin exudado: tiene causas virales y bacterianas, y sin fiebre ni adenopatías la probabilidad de estreptococo baja.',
+          photo: { src: 'biblioteca/17_otorrino/orl-13/03_faringitis-sin-exudado__bates_p322.jpg', label: 'Faringe roja sin exudado', at: 'Mira esta faringe', credit: 'Bates, Guía de exploración física, Tabla 7-23' } },
         { show: ['sb', 'tr'], note: 'El único blanco bacteriano',
           say: 'El único patógeno bacteriano común que justifica tratamiento formal es el Streptococcus pyogenes, el estreptococo betahemolítico del grupo A. Causa entre quince y treinta por ciento de los casos en niños de tres a catorce años, y solo cinco a diez por ciento en adultos. En menores de tres años es extraordinariamente raro y casi nunca se asocia a fiebre reumática.' },
       ],
@@ -49,7 +50,11 @@ module.exports = {
           { t: 'Fiebre mayor de 38 °C', d: 'Medida axilar',
             say: 'El exudado blanco en las amígdalas aparece tanto en infecciones bacterianas como virales, sobre todo por adenovirus o por mononucleosis. Por eso se usa la escala de McIsaac, que estima la probabilidad de estreptococo. Cada criterio suma un punto. Primero, fiebre medida mayor de treinta y ocho grados axilar.' },
           { t: 'Exudado amigdalino', d: 'O amígdalas muy tumefactas',
-            say: 'Segundo, exudado amigdalino o amígdalas intensamente tumefactas.' },
+            say: 'Segundo, exudado amigdalino o amígdalas intensamente tumefactas. Mira estas placas blancas en las criptas: se ven igual en una infección bacteriana y en una viral. Y aquí, una garganta roja con exudado blanco: junto con fiebre y adenopatías sube la probabilidad de estreptococo o de mononucleosis.',
+            photos: [
+              { src: 'biblioteca/17_otorrino/orl-13/01_amigdalitis-aguda-folicular__bailey-love_p756.jpg', label: 'Placas en las criptas', at: 'Mira estas placas', credit: 'Bailey & Love 27.ª ed., Fig. 47.21' },
+              { src: 'biblioteca/17_otorrino/orl-13/02_amigdalitis-exudativa__bates_p322.jpg', label: 'Garganta roja con exudado', at: 'Y aquí, una garganta roja', credit: 'Bates, Guía de exploración física, Tabla 7-23' },
+            ] },
           { t: 'Adenopatías anteriores dolorosas', d: 'Cervicales anteriores, sensibles',
             say: 'Tercero, adenopatías cervicales anteriores dolorosas a la palpación.' },
           { t: 'Ausencia de tos', d: 'La tos orienta a virus',
@@ -59,6 +64,20 @@ module.exports = {
           { t: '3 a 14 años: +1 punto', d: '15 a 44: cero; 45 o más: menos uno',
             say: 'McIsaac agrega la edad: de tres a catorce años suma un punto, de quince a cuarenta y cuatro años no suma nada, y desde los cuarenta y cinco años resta un punto. Por eso el niño escolar tiene tanto riesgo, y el adulto mayor tan poco.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Contar los puntos de McIsaac',
+      images: [
+        { src: 'animaciones/orl-13/A1_mcisaac_amigdalitis.mp4', label: 'Faringoamigdalitis: escala de McIsaac y conducta', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Cinco criterios y qué hacer según el puntaje',
+          say: 'Mira la garganta enferma frente a la normal: amígdala tumefacta con exudado blanco. Cuenta los puntos: fiebre sobre treinta y ocho grados, exudado, adenopatías anteriores dolorosas, ausencia de tos, y la edad de tres a catorce años. Con cero o uno, no haces nada; con dos o tres, test rápido o cultivo; con cuatro o más, tratas con penicilina o amoxicilina diez días, para evitar la fiebre reumática.' },
       ],
     },
 
@@ -80,35 +99,20 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Amígdalas: exudado y sin exudado',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-13/01_amigdalitis-aguda-folicular__bailey-love_p756.jpg', label: 'Amigdalitis aguda folicular: placas blancas en las criptas', credit: 'Bailey & Love 27.ª ed., Fig. 47.21' },
-        { src: 'biblioteca/17_otorrino/orl-13/02_amigdalitis-exudativa__bates_p322.jpg', label: 'Garganta roja con exudado blanco en las amígdalas', credit: 'Bates, Guía de exploración física, Tabla 7-23 (amigdalitis exudativa)' },
-        { src: 'biblioteca/17_otorrino/orl-13/03_faringitis-sin-exudado__bates_p322.jpg', label: 'Faringe enrojecida sin exudado', credit: 'Bates, Guía de exploración física, Tabla 7-23 (faringitis)' },
-      ],
-      steps: [
-        { note: 'Placas blancas en las criptas',
-          say: 'Esta es una amigdalitis aguda con exudado blanco en las criptas. Fíjate que se ve igual en una infección bacteriana y en una viral, como adenovirus o mononucleosis. Por eso la foto sola no decide: necesitas la escala.' },
-        { note: 'Rojo con exudado, más fiebre y adenopatías',
-          say: 'Aquí, una garganta roja con exudado blanco. Según Bates, esto junto con fiebre y adenopatías cervicales aumenta la probabilidad de estreptococo o de mononucleosis. Las adenopatías anteriores sugieren estreptococo, y las posteriores, mononucleosis.' },
-        { note: 'Roja sin exudado: no descarta nada por sí sola',
-          say: 'Y aquí una faringe enrojecida sin exudado. Tiene causas virales y bacterianas. Si además no hay fiebre ni adenopatías, la probabilidad de estreptococo o de Epstein-Barr baja.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'La amigdalitis de la mononucleosis',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-13/04_amigdalitis-mononucleosica__cto-orl_p71.jpg', label: 'Amigdalitis de la mononucleosis: amígdalas grandes con exudado', credit: 'Manual CTO Otorrinolaringología 14.ª ed., p. 71' },
-      ],
-      steps: [
-        { note: 'Exudado en una viral',
-          say: 'Y esta es la amigdalitis de la mononucleosis, causada por el virus de Epstein-Barr. El exudado blanco es tan llamativo como en el estreptococo: por eso la foto sola no decide.' },
+      type: 'points',
+      kicker: 'Test rápido',
+      title: 'El test rápido de estreptococo',
+      cards: [
+        { title: 'Qué valor tiene', tag: 'Antígeno estreptocócico', kind: 'key', items: [
+          { t: 'Especificidad sobre 95 %, sensibilidad 70 a 90 %', d: 'Si es positivo, confirma',
+            say: 'El test rápido de antígeno estreptocócico tiene especificidad sobre noventa y cinco por ciento y sensibilidad de setenta a noventa. Es decir, si sale positivo, confirma la faringitis estreptocócica.' },
+        ] },
+        { title: 'Cuándo y cómo se usa', tag: 'McIsaac de 2 a 3', kind: 'criteria', items: [
+          { t: 'Positivo: tratar sin cultivo', d: 'Puntaje intermedio, 2 a 3 puntos',
+            say: 'Se aplica con un puntaje intermedio, dos a tres puntos. Positivo: tratas sin pedir cultivo.' },
+          { t: 'Negativo: adulto viral; niño, cultivo', d: 'Por la menor sensibilidad',
+            say: 'Negativo en un adulto: asumes etiología viral. Pero en un niño con sospecha alta lo confirmas con cultivo faríngeo, por la menor sensibilidad. Y con McIsaac de cuatro o más, puedes tratar de forma empírica.' },
+        ] },
       ],
     },
 
@@ -126,6 +130,29 @@ module.exports = {
           say: 'Las adenopatías son la clave para separar los dos últimos: anteriores y dolorosas en el estreptococo; posteriores, axilares y con esplenomegalia en la mononucleosis.' },
         { cells: ['Con amoxicilina', 'Sin cambio', 'Cura en 24 a 48 horas', 'Exantema máculo-papular pruriginoso'],
           say: 'Y la amoxicilina da la pista final. En el estreptococo cura en veinticuatro a cuarenta y ocho horas. En la mononucleosis produce un exantema máculo-papular pruriginoso, en más del noventa por ciento. Esa asociación es un clásico del examen.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Otras causas de garganta',
+      title: 'Mononucleosis y resfrío común pediátrico',
+      cards: [
+        { title: 'Mononucleosis infecciosa', tag: 'Epstein-Barr', kind: 'alert', items: [
+          { t: 'Adolescente con exudado, adenopatías posteriores y fatiga', d: 'Esplenomegalia en 30 a 50 %',
+            say: 'La mononucleosis por virus de Epstein-Barr afecta a adolescentes y adultos jóvenes: fiebre, faringoamigdalitis exudativa, adenopatías cervicales, incluso posteriores, fatiga y esplenomegalia en treinta a cincuenta por ciento. Mira esta amigdalitis: amígdalas grandes con exudado tan llamativo como en el estreptococo, por eso la foto sola no decide.',
+            photo: { src: 'biblioteca/17_otorrino/orl-13/04_amigdalitis-mononucleosica__cto-orl_p71.jpg', label: 'Amigdalitis mononucleósica', at: 'Mira esta amigdalitis', credit: 'Manual CTO Otorrinolaringología 14.ª ed., p. 71' } },
+          { t: 'Hemograma con linfocitos atípicos', d: 'Más de 10 %; Monospot o IgM anti-VCA',
+            say: 'Se confirma con hemograma, con más de diez por ciento de linfocitos atípicos, y anticuerpos heterófilos, que pueden ser falsos negativos en niños pequeños, o IgM anti VCA.' },
+          { t: 'Soporte; sin amoxicilina ni deporte de contacto', d: 'Corticoides solo si hay obstrucción de vía aérea o citopenias graves',
+            say: 'El tratamiento es de soporte. Se evita la amoxicilina, porque da exantema, y no se hace deporte de contacto tres a cuatro semanas por el riesgo de rotura esplénica. Los corticoides se reservan para obstrucción de la vía aérea, anemia hemolítica o trombocitopenia graves.' },
+        ] },
+        { title: 'Resfrío común pediátrico', tag: 'Viral', kind: 'key', items: [
+          { t: 'Seis a ocho episodios al año', d: 'Rinorrea, obstrucción, tos, fiebre baja 7 a 10 días',
+            say: 'El resfrío común en el preescolar es viral, con seis a ocho episodios al año: rinorrea, obstrucción nasal, tos y fiebre baja por siete a diez días.' },
+          { t: 'Lavados, hidratación, paracetamol', d: 'Sin antibióticos, antitusivos, descongestionantes ni mucolíticos bajo 6 años',
+            say: 'Se maneja con lavados nasales, hidratación y paracetamol o ibuprofeno. No se usan antibióticos, antitusivos, descongestionantes ni mucolíticos en menores de seis años. Alarma: dificultad respiratoria, fiebre más de tres días, otalgia, rechazo alimentario o pausas respiratorias.' },
+        ] },
       ],
     },
 
@@ -171,6 +198,26 @@ module.exports = {
           say: 'El antibiótico previene también las complicaciones supurativas, como el absceso periamigdalino.' },
         { show: ['gn'], note: 'La glomerulonefritis ocurre igual',
           say: 'Pero ojo con la trampa: el antibiótico no previene la glomerulonefritis postestreptocócica, porque se desencadena por inmunocomplejos, independientemente del tratamiento. Si te preguntan qué complicación se evita con el tratamiento, es la fiebre reumática.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Fiebre reumática',
+      title: 'La secuela: enfermedad reumática activa',
+      cards: [
+        { title: 'Diagnóstico', tag: 'Criterios de Jones', kind: 'criteria', items: [
+          { t: 'Infección estreptocócica previa más criterios', d: '2 mayores, o 1 mayor y 2 menores',
+            say: 'La enfermedad reumática activa es una secuela inmune de la faringitis por estreptococo del grupo A. Se diagnostica con los criterios de Jones: evidencia de infección previa, con ASO, anti DNasa B, cultivo o test rápido, más dos criterios mayores, o uno mayor y dos menores.' },
+          { t: 'Mayores: carditis, artritis migratoria, corea, eritema marginado, nódulos', d: 'Menores: fiebre, artralgias, VHS o PCR altas, PR largo',
+            say: 'Los mayores son carditis, poliartritis migratoria, corea de Sydenham, eritema marginado y nódulos subcutáneos. Los menores, fiebre, artralgias, VHS o PCR elevadas y PR prolongado.' },
+        ] },
+        { title: 'Tratamiento y prevención', tag: 'Penicilina benzatina', kind: 'pharma', items: [
+          { t: 'Reposo, penicilina, AAS y corticoides', d: 'AAS en artritis; corticoides en carditis moderada a grave',
+            say: 'Reposo y penicilina benzatina para erradicar el estreptococo, aspirina en la artritis, corticoides en la carditis moderada a grave y manejo sintomático de la corea.' },
+          { t: 'Profilaxis secundaria cada 3 semanas', d: 'Hasta los 21 años, más si hay daño valvular',
+            say: 'Después, profilaxis secundaria con penicilina benzatina cada tres semanas, por años: hasta los veintiún años como mínimo, y más tiempo si quedó daño valvular.' },
+        ] },
       ],
     },
 
@@ -337,6 +384,194 @@ module.exports = {
         options: 'Las opciones: angina de Ludwig, faringitis estreptocócica, absceso periamigdalino, mononucleosis infecciosa, o epiglotitis. Piénsalo.',
         answer: 'Es la C. El trismus y la úvula desviada son las dos palabras clave del absceso periamigdalino, una complicación supurativa de la amigdalitis. Recuerda que el tratamiento antibiótico de la amigdalitis ayuda a prevenirla, pero no lo hace imposible.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.1.017 · Odinofagias agudas",
+      "stem": "Una mujer de 24 años consulta por odinofagia de 2 días, con temperatura de 37,8 °C, rinorrea, tos, disfonía y conjuntivas enrojecidas. Al examen tiene faringe eritematosa sin exudado y no hay adenopatías cervicales dolorosas.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amoxicilina oral por 10 días"
+        },
+        {
+          "letter": "B",
+          "text": "Penicilina benzatina intramuscular"
+        },
+        {
+          "letter": "C",
+          "text": "Tratamiento sintomático, hidratación y consulta si aparecen signos de alarma"
+        },
+        {
+          "letter": "D",
+          "text": "Hemograma y serología para virus Epstein-Barr"
+        },
+        {
+          "letter": "E",
+          "text": "Azitromicina oral por 5 días"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La mayoría de las odinofagias agudas son virales. Tos, rinorrea, disfonía y conjuntivitis orientan a virus, y con McIsaac de 0 no se estudia ni se dan antibióticos: solo sintomáticos. Se educa en signos de alarma: trismus, sialorrea, voz apagada, disnea o fiebre que persiste más de 3 a 5 días.",
+      "say": {
+        "stem": "Mujer de veinticuatro años con dos días de dolor de garganta, febrícula de treinta y siete coma ocho, rinorrea, tos, disfonía y ojos rojos. La faringe está roja pero sin exudado, y no tiene adenopatías dolorosas.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: amoxicilina por diez días, penicilina benzatina, tratamiento sintomático con signos de alarma, hemograma con serología de Epstein Barr, o azitromicina. Piénsalo.",
+        "answer": "Es la C. Tos, rinorrea, disfonía y conjuntivitis son virales, y con McIsaac cero no se dan antibióticos. La amoxicilina tienta porque la garganta está roja, pero sin exudado, sin adenopatías y con tos, la probabilidad de estreptococo es mínima."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2017 · Pregunta 147",
+      "stem": "Un niño de 3 años presenta congestión nasal, con rinorrea serosa, asociada a tos y ligera odinofagia. Al examen físico tiene temperatura de 37,3 °C, faringe congestiva rosada y rinorrea abundante.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solución salina intranasal"
+        },
+        {
+          "letter": "B",
+          "text": "Amoxicilina oral"
+        },
+        {
+          "letter": "C",
+          "text": "Corticoides nasales"
+        },
+        {
+          "letter": "D",
+          "text": "Diclofenaco oral"
+        },
+        {
+          "letter": "E",
+          "text": "Azitromicina oral"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Rinorrea serosa, tos, odinofagia leve y temperatura normal corresponden a un resfrío común viral. El manejo es sintomático: aseo nasal con solución salina, hidratación y paracetamol si hay fiebre o molestias. Los antibióticos no acortan el cuadro ni previenen complicaciones, y los AINE como el diclofenaco no se recomiendan en preescolares para este fin.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Un niño de tres años tiene congestión nasal con rinorrea serosa, tos y leve dolor de garganta, sin fiebre.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: solución salina nasal, amoxicilina, corticoide nasal, diclofenaco o azitromicina. Piénsalo.",
+        "answer": "Es la A. Es un resfrío común viral y el manejo es sintomático con aseo nasal con suero. La amoxicilina tienta por la faringe congestiva, pero los antibióticos no sirven en una infección viral."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.01.1.008 · Enfermedad reumática activa",
+      "stem": "Un niño de 9 años consulta por dolor e inflamación de la rodilla derecha que luego migra al codo izquierdo y al tobillo, de 5 días de evolución, con fiebre de 38,5 °C. Hace 3 semanas tuvo odinofagia febril que no fue tratada. Al examen se ausculta un soplo holosistólico apical leve, nuevo. La VHS es 80 mm/h y la ASO está elevada.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amoxicilina por 7 días y paracetamol"
+        },
+        {
+          "letter": "B",
+          "text": "Reposo y AINE por 5 días, sin seguimiento"
+        },
+        {
+          "letter": "C",
+          "text": "Prednisona sola por 2 semanas, sin antibióticos"
+        },
+        {
+          "letter": "D",
+          "text": "Ceftriaxona endovenosa por 4 semanas"
+        },
+        {
+          "letter": "E",
+          "text": "Penicilina benzatina, ácido acetilsalicílico en dosis antiinflamatorias y luego profilaxis secundaria con penicilina benzatina"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Cumple criterios de Jones: poliartritis migratoria y carditis (mayores), fiebre y VHS alta (menores), con infección estreptocócica previa (ASO). Se erradica el estreptococo con penicilina benzatina, se trata la inflamación y se indica profilaxis secundaria prolongada, porque las recurrencias agravan la valvulopatía.",
+      "say": {
+        "stem": "Un niño de nueve años tiene artritis que migra de rodilla a codo y tobillo, fiebre y un soplo apical nuevo, tres semanas después de una faringitis no tratada. La VHS y la ASO están elevadas.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: amoxicilina y paracetamol, reposo con antiinflamatorios sin seguimiento, prednisona sola, ceftriaxona endovenosa prolongada o penicilina benzatina con aspirina y luego profilaxis secundaria. Piénsalo.",
+        "answer": "Es la E. Es una fiebre reumática activa: se erradica el estreptococo, se controla la inflamación y se deja profilaxis secundaria con penicilina benzatina por años. La amoxicilina tienta, pero no previene las recurrencias que dañan las válvulas."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.01.3.005 · Prevención de enfermedad reumática",
+      "stem": "Un niño de 8 años presenta fiebre de 39 °C, odinofagia, exudado amigdalino, adenopatías cervicales anteriores dolorosas y ausencia de tos. El test rápido para estreptococo grupo A es positivo. No tiene alergias.",
+      "question": "¿Cuál es el tratamiento que, además de aliviar los síntomas, previene la fiebre reumática?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azitromicina por 3 días"
+        },
+        {
+          "letter": "B",
+          "text": "Ibuprofeno y control en 48 horas"
+        },
+        {
+          "letter": "C",
+          "text": "Cefadroxilo por 3 días"
+        },
+        {
+          "letter": "D",
+          "text": "Amoxicilina por 10 días"
+        },
+        {
+          "letter": "E",
+          "text": "Amoxicilina por 3 días"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La prevención primaria de la fiebre reumática es tratar la faringoamigdalitis estreptocócica con amoxicilina por 10 días o penicilina benzatina intramuscular en dosis única; previene la enfermedad aun iniciada hasta 9 días después del inicio. Los cursos de 3 días no erradican de forma confiable el estreptococo; los macrólidos se reservan para alérgicos.",
+      "say": {
+        "stem": "Un niño de ocho años tiene fiebre alta, exudado amigdalino, adenopatías cervicales dolorosas, sin tos, y un test rápido positivo para estreptococo.",
+        "question": "¿Qué tratamiento previene además la fiebre reumática?",
+        "options": "Las opciones: azitromicina por tres días, solo ibuprofeno, cefadroxilo por tres días, amoxicilina por diez días o amoxicilina por tres días. Piénsalo.",
+        "answer": "Es la D. Amoxicilina por diez días, o penicilina benzatina en dosis única, erradica el estreptococo y previene la fiebre reumática. Los esquemas de tres días tientan por comodidad, pero no erradican de forma confiable."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.4.014 · Pruebas rápidas para diagnóstico de estreptococo grupo A",
+      "stem": "Una niña de 7 años presenta fiebre de 38,8 °C, odinofagia, exudado amigdalino y adenopatías cervicales anteriores dolorosas, sin tos ni coriza. El test rápido de antígeno para estreptococo grupo A resulta negativo.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar amoxicilina de todas formas"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar cultivo faríngeo, por la sensibilidad imperfecta del test rápido en niños"
+        },
+        {
+          "letter": "C",
+          "text": "Descartar definitivamente la etiología estreptocócica"
+        },
+        {
+          "letter": "D",
+          "text": "Indicar azitromicina"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar ASO"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El test rápido tiene alta especificidad (cerca de 95%), por lo que un positivo permite tratar, pero su sensibilidad es menor (70-90%). En niños, con alta prevalencia de estreptococo y riesgo de fiebre reumática, un negativo con clínica sugerente se confirma con cultivo faríngeo; en adultos no suele ser necesario. La ASO no sirve en el cuadro agudo.",
+      "say": {
+        "stem": "Una niña de siete años tiene fiebre, odinofagia, exudado amigdalino y adenopatías cervicales dolorosas, sin tos ni coriza. El test rápido para estreptococo grupo A sale negativo.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: amoxicilina igual, cultivo faríngeo, descartar el estreptococo, azitromicina o ASO. Piénsalo.",
+        "answer": "Es la B. El test rápido es muy específico pero no tan sensible, así que en niños un negativo con clínica sugerente se confirma con cultivo. Descartar el estreptococo tienta, pero se pasarían por alto varios casos verdaderos."
+      }
     },
 
     {

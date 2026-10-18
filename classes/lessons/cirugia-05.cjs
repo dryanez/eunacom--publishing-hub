@@ -49,6 +49,74 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'La úlcera de fondo',
+      title: 'Úlcera péptica: causa, clínica y diagnóstico',
+      cards: [
+        { title: 'Causas', tag: 'Dos grandes culpables', kind: 'key', items: [
+          { t: 'Helicobacter pylori', d: '90 % de las duodenales, 70 % de las gástricas',
+            say: 'Antes de ver cómo se perfora, veamos de dónde viene la úlcera. La causa principal es la bacteria Helicobacter pylori: está detrás de cerca del noventa por ciento de las duodenales y del setenta por ciento de las gástricas.' },
+          { t: 'AINE', d: 'Menos frecuentes: estrés, tabaco, Zollinger-Ellison',
+            say: 'La segunda causa son los antiinflamatorios, los AINE. Más raras son el estrés crítico, el tabaco y el síndrome de Zollinger-Ellison.' },
+        ] },
+        { title: 'Clínica', tag: 'Epigastralgia urente', kind: 'criteria', items: [
+          { t: 'Duodenal: calma al comer', d: 'Y despierta de noche',
+            say: 'El dolor es epigástrico y urente. En la úlcera duodenal calma con la comida y es nocturno.' },
+          { t: 'Gástrica: empeora al comer', d: 'Con baja de peso',
+            say: 'En la gástrica es al revés: empeora con la ingesta y se acompaña de baja de peso. Esa diferencia se pregunta.' },
+        ] },
+        { title: 'Diagnóstico', tag: 'Endoscopía digestiva alta', kind: 'alert', items: [
+          { t: 'Toda gástrica se biopsia', d: 'Descartar cáncer y controlar hasta cicatrizar',
+            say: 'El diagnóstico es por endoscopía digestiva alta. Y toda úlcera gástrica se biopsia, para descartar cáncer, y se controla hasta que cicatrice.' },
+          { t: 'Confirmar H. pylori', d: 'Ureasa, antígeno fecal o test de aliento',
+            say: 'La infección se confirma con test de ureasa en la biopsia, antígeno fecal o test de aliento con urea. La serología no sirve para controlar la erradicación.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Tratamiento',
+      title: 'Erradicar H. pylori y cerrar la úlcera',
+      cards: [
+        { title: 'Base del tratamiento', tag: 'Para todos', kind: 'pharma', items: [
+          { t: 'Suspender AINE y tabaco', d: 'IBP por 4 a 8 semanas',
+            say: 'Primero, suspender los antiinflamatorios y el tabaco, y dar un inhibidor de la bomba de protones por cuatro a ocho semanas.' },
+        ] },
+        { title: 'Si hay H. pylori', tag: '14 días', kind: 'pharma', items: [
+          { t: 'IBP + amoxicilina + claritromicina', d: '1 g y 500 mg, cada 12 horas',
+            say: 'Si hay Helicobacter, se agrega la terapia de erradicación por catorce días: inhibidor de la bomba, amoxicilina un gramo y claritromicina quinientos miligramos, cada doce horas.' },
+          { t: 'Cuádruple con bismuto', d: 'Alergia a penicilina o fracaso',
+            say: 'La terapia cuádruple con bismuto es la alternativa si hay alergia a la penicilina o si falló el primer esquema.' },
+        ] },
+        { title: 'Control', tag: 'Confirmar la erradicación', kind: 'criteria', items: [
+          { t: 'Aliento o antígeno fecal', d: '4 semanas sin antibióticos y 2 sin IBP',
+            say: 'La erradicación se controla con test de aliento o antígeno fecal, al menos cuatro semanas después de terminar los antibióticos y dos semanas sin inhibidor de la bomba.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Cuando la úlcera se complica',
+      title: 'Hemorragia y cirugía en la úlcera',
+      cards: [
+        { title: 'Úlcera hemorrágica', tag: 'Manejo inicial', kind: 'key', items: [
+          { t: 'Reanimar, IBP en dosis alta', d: 'Y endoscopía terapéutica',
+            say: 'La úlcera que sangra se maneja con reanimación, inhibidor de la bomba en dosis alta y endoscopía terapéutica.' },
+        ] },
+        { title: 'Indicaciones de cirugía', tag: 'Se reserva para', kind: 'alert', items: [
+          { t: 'Perforación', d: 'La que vimos hoy',
+            say: 'La cirugía se reserva para la perforación, que es la que estamos viendo hoy.' },
+          { t: 'Hemorragia que no cede', d: 'A la endoscopía',
+            say: 'También para la hemorragia que no cede a la endoscopía.' },
+          { t: 'Obstrucción pilórica', d: 'Y úlcera refractaria o sospechosa de cáncer',
+            say: 'Y para la obstrucción pilórica, y la úlcera refractaria o sospechosa de malignidad.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Abdomen perforativo',
       title: 'La clínica de la úlcera que se rompió',
       cards: [
@@ -85,7 +153,8 @@ module.exports = {
       ],
       steps: [
         { show: ['sos', 'rx'], note: 'El examen más rápido primero',
-          say: 'Con esta clínica, el primer examen no es el más sofisticado, sino el más rápido: la radiografía de tórax de pie. Busca la semiluna de aire libre bajo el diafragma, y la encuentra en más de tres de cada cuatro casos.' },
+          say: 'Con esta clínica, el primer examen no es el más sofisticado, sino el más rápido: la radiografía de tórax de pie. Busca la semiluna de aire libre bajo el diafragma, y la encuentra en más de tres de cada cuatro casos. Mira esta radiografía: bajo la cúpula del diafragma hay una franja oscura de aire.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-05/01_neumoperitoneo__cto-digestivo_p65.jpg', label: 'Neumoperitoneo', at: 'Mira esta radiografía', credit: 'Manual CTO Digestivo 14.ª ed., p. 65' } },
         { show: ['tac'], note: 'Confirma cuando la radiografía no basta',
           say: 'Si la radiografía sale dudosa pero tú sigues sospechando, el paso siguiente es el TAC de abdomen, que confirma hasta las burbujas de aire más pequeñas y te dice dónde está la perforación.' },
         { show: ['rea'], note: 'No se pierde tiempo mientras se confirma',
@@ -97,14 +166,15 @@ module.exports = {
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Perforación',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cómo sube el aire bajo el diafragma',
       images: [
-        { src: 'biblioteca/10_cirugia/cirugia-05/01_neumoperitoneo__cto-digestivo_p65.jpg', label: 'Neumoperitoneo', credit: 'Manual CTO Digestivo 14.ª ed., p. 65' },
+        { src: 'animaciones/cirugia-05/A1_ulcera_perforada.mp4', label: 'Úlcera perforada', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Aire bajo el diafragma',
-          say: 'Aire bajo el diafragma: hay una víscera perforada.' },
+        { note: 'La úlcera se rompe y el aire sube',
+          say: 'Mira cómo se produce el neumoperitoneo. La úlcera se perfora y el aire del tubo digestivo escapa a la cavidad peritoneal. Con el paciente de pie, ese aire sube y se junta bajo el diafragma derecho, sobre el hígado. Por eso desaparece la matidez hepática, el signo de Jobert, y por eso la radiografía de tórax de pie muestra la semiluna de aire. El examen inicial es esa radiografía, nunca una endoscopía.' },
       ],
     },
 
@@ -127,6 +197,10 @@ module.exports = {
           say: 'Con neumoperitoneo confirmado, vas a laparotomía urgente con parche de Graham. Tratar solo con antibióticos, sin operar, deja el foco sin controlar.' },
         { cells: ['Fiebre persistente 48 horas tras operar', 'Sospechar peritonitis terciaria', 'Asumir que la cirugía ya resolvió todo'],
           say: 'Y si el paciente sigue con fiebre cuarenta y ocho horas después de una peritonitis secundaria ya operada, sospecha una peritonitis terciaria, con gérmenes distintos.' },
+        { cells: ['Úlcera gástrica en la endoscopía', 'Biopsia y control hasta cicatrizar', 'Tratarla sin biopsia'],
+          say: 'Si la endoscopía muestra una úlcera gástrica, siempre se biopsia, para descartar cáncer, y se controla hasta que cicatrice.' },
+        { cells: ['Control de erradicación de H. pylori', 'Aliento o antígeno fecal, 4 semanas tras antibióticos', 'Pedir serología'],
+          say: 'Y para confirmar la erradicación de Helicobacter, test de aliento o antígeno fecal, cuatro semanas después de los antibióticos. La serología no sirve para el control.' },
       ],
     },
 
@@ -223,6 +297,81 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2013 · Pregunta 12",
+      "stem": "Paciente de 27 años, sin antecedentes mórbidos, consulta por cuadro de 3 meses de dolor epigástrico tipo urente que aumenta durante los periodos de ayuno y estrés, asociado ocasionalmente a pirosis. Se realiza endoscopía digestiva alta que objetiva úlcera duodenal activa y se realiza test de ureasa que resulta negativo.",
+      "question": "¿Cuál es la conducta más adecuada en este caso?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar omeprazol, amoxicilina y claritromicina"
+        },
+        {
+          "letter": "B",
+          "text": "Indicar omeprazol y controlar con nueva endoscopía en 6 semanas"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar nueva endoscopía digestiva alta con test de ureasa"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar omeprazol, bismuto y metronidazol"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar medidas antirreflujo y omeprazol a permanencia"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Úlcera duodenal activa en un paciente que no usa AINEs: se asume Helicobacter pylori, que explica cerca del 90% de estos casos, aunque el test de ureasa sea negativo, porque este tiene falsos negativos. Se erradica con terapia triple: omeprazol, amoxicilina y claritromicina.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil trece. Paciente de veintisiete años, sano, con tres meses de dolor epigástrico urente que empeora con el ayuno y el estrés. La endoscopía muestra una úlcera duodenal activa, y el test de ureasa resulta negativo.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: omeprazol con amoxicilina y claritromicina, omeprazol con endoscopía de control, repetir la endoscopía con ureasa, omeprazol con bismuto y metronidazol, o medidas antirreflujo con omeprazol permanente. Piénsalo.",
+        "answer": "Es la A. Una úlcera duodenal en alguien que no usa antiinflamatorios es por Helicobacter casi siempre, así que se erradica igual, aunque la ureasa salga negativa. Repetir la endoscopía tienta, pero es innecesario: a diferencia de la úlcera gástrica, la duodenal no requiere biopsia para descartar cáncer."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.2.002 · Abdomen agudo",
+      "stem": "Mujer de 24 años consulta por 8 horas de dolor en el hipogastrio y la fosa ilíaca derecha. Afebril, presión arterial 110/70, frecuencia cardíaca 92. Tiene dolor a la palpación profunda de la fosa ilíaca derecha, sin signos peritoneales. Su última menstruación fue hace 7 semanas y no usa anticoncepción.",
+      "question": "¿Cuál es el primer examen que se debe solicitar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TAC de abdomen y pelvis con contraste"
+        },
+        {
+          "letter": "B",
+          "text": "Amilasa y lipasa"
+        },
+        {
+          "letter": "C",
+          "text": "Radiografía simple de abdomen"
+        },
+        {
+          "letter": "D",
+          "text": "Subunidad beta de gonadotrofina coriónica"
+        },
+        {
+          "letter": "E",
+          "text": "Colonoscopía"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En toda mujer en edad fértil con abdomen agudo, lo primero es descartar embarazo con subunidad beta. Con atraso menstrual, un embarazo ectópico debe descartarse antes que cualquier otra causa, y el resultado además condiciona el uso de radiación como la TAC.",
+      "say": {
+        "stem": "Mujer de veinticuatro años con ocho horas de dolor en el hipogastrio y la fosa ilíaca derecha. Está afebril y estable, con dolor a la palpación profunda, sin signos peritoneales. Su última regla fue hace siete semanas y no usa anticoncepción.",
+        "question": "¿Cuál es el primer examen que se debe pedir?",
+        "options": "Las opciones: TAC de abdomen y pelvis, amilasa y lipasa, radiografía simple, subunidad beta o colonoscopía. Piénsalo.",
+        "answer": "Es la D. En una mujer en edad fértil con dolor abdominal, y más aún con atraso menstrual, lo primero es descartar embarazo, porque un ectópico puede matarla y además el resultado define si puedes irradiar. La TAC tienta por pensar en apendicitis, pero nunca va antes de la subunidad beta."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -241,7 +390,9 @@ module.exports = {
         ] },
         { title: 'Tratamiento quirúrgico', tag: 'Parche de Graham', kind: 'alert', items: [
           { t: 'Lavado más parche de epiplón', d: 'Cierra la perforación',
-            say: 'Y el tratamiento quirúrgico es lavado de toda la cavidad y parche de epiplón para cerrar la perforación. Si te llevas una sola idea de hoy: primero decide si es primaria o secundaria, porque de eso depende si operas o no. Nos vemos en la próxima clase.' },
+            say: 'Y el tratamiento quirúrgico es lavado de toda la cavidad y parche de epiplón para cerrar la perforación.' },
+          { t: 'Úlcera: erradicar H. pylori', d: 'IBP más dos antibióticos por 14 días',
+            say: 'Y la úlcera de fondo se trata erradicando el Helicobacter pylori, catorce días de inhibidor de la bomba más dos antibióticos. Si te llevas una sola idea de hoy: primero decide si es primaria o secundaria, porque de eso depende si operas o no. Nos vemos en la próxima clase.' },
         ] },
       ],
     },

@@ -1,0 +1,351 @@
+[
+ {
+  "libro": "cardiologia",
+  "bloque": 4,
+  "accion": "nuevo",
+  "tema": "Endocarditis infecciosa: Duke, tratamiento y profilaxis",
+  "codigos": [
+   "1.01.1.007",
+   "1.04.2.003",
+   "1.04.3.007"
+  ]
+ },
+ {
+  "libro": "cardiologia",
+  "bloque": 1,
+  "accion": "nuevo",
+  "tema": "Extrasístoles ventriculares benignas y Holter de ritmo",
+  "codigos": [
+   "1.01.1.011",
+   "1.01.4.014"
+  ]
+ },
+ {
+  "libro": "cardiologia",
+  "bloque": 5,
+  "accion": "integrar en 5.1 HTA",
+  "tema": "Holter de presión arterial (MAPA)",
+  "codigos": [
+   "1.01.4.011"
+  ]
+ },
+ {
+  "libro": "cardiologia",
+  "bloque": 1,
+  "accion": "integrar en 1.2 Paro/ACLS",
+  "tema": "PCR y RCP (códigos de otras especialidades)",
+  "codigos": [
+   "1.05.2.012",
+   "1.05.5.010",
+   "4.01.2.030",
+   "4.01.5.028"
+  ]
+ },
+ {
+  "libro": "obstetricia",
+  "bloque": 2,
+  "accion": "nuevo",
+  "tema": "Cardiopatía, embarazo múltiple e hiperemesis gravídica",
+  "codigos": [
+   "1.01.3.002",
+   "3.01.1.007",
+   "3.01.2.007"
+  ]
+ },
+ {
+  "libro": "diabetes",
+  "bloque": 5,
+  "accion": "nuevo",
+  "tema": "Nutrición clínica: evaluación nutricional, balance nitrogenado y TCA",
+  "codigos": [
+   "1.02.4.012",
+   "1.02.4.020",
+   "1.02.1.018",
+   "1.02.3.002"
+  ]
+ },
+ {
+  "libro": "diabetes",
+  "bloque": 2,
+  "accion": "integrar en 6.5 Ejercicio",
+  "tema": "Test de esfuerzo antes de iniciar ejercicio",
+  "codigos": [
+   "1.02.4.023"
+  ]
+ },
+ {
+  "libro": "endocrinologia",
+  "bloque": 5,
+  "accion": "nuevo",
+  "tema": "Ginecomastia",
+  "codigos": [
+   "1.03.1.023"
+  ]
+ },
+ {
+  "libro": "infectologia",
+  "bloque": 5,
+  "accion": "nuevo",
+  "tema": "Virus respiratorios: influenza y COVID-19 (adulto y niño)",
+  "codigos": [
+   "1.04.1.016",
+   "1.04.1.029",
+   "2.01.2.144"
+  ]
+ },
+ {
+  "libro": "infectologia",
+  "bloque": 3,
+  "accion": "integrar en 2.10 Oportunistas VIH",
+  "tema": "Antigenemia (CMV)",
+  "codigos": [
+   "1.04.4.001"
+  ]
+ },
+ {
+  "libro": "neumologia",
+  "bloque": 5,
+  "accion": "nuevo",
+  "tema": "Ahogamiento e hipotermia accidental",
+  "codigos": [
+   "1.05.2.001",
+   "1.07.1.011"
+  ]
+ },
+ {
+  "libro": "neumologia",
+  "bloque": 5,
+  "accion": "integrar en 4.24 CO / 4.21 IRA",
+  "tema": "Contaminación ambiental; aspiración traqueal",
+  "codigos": [
+   "1.05.3.001",
+   "1.05.5.001"
+  ]
+ },
+ {
+  "libro": "neurologia",
+  "bloque": 5,
+  "accion": "nuevo",
+  "tema": "Cardiovascular en el adulto mayor: HTA y evento coronario",
+  "codigos": [
+   "1.07.1.009",
+   "1.07.2.002"
+  ]
+ },
+ {
+  "libro": "neurologia",
+  "bloque": 5,
+  "accion": "nuevo",
+  "tema": "Cuidados paliativos, dolor crónico y final de vida",
+  "codigos": [
+   "1.07.3.003",
+   "1.08.3.007",
+   "1.08.3.008"
+  ]
+ },
+ {
+  "libro": "pediatria",
+  "bloque": 2,
+  "accion": "nuevo",
+  "tema": "Cardiología pediátrica: soplos, cardiopatías, IC, arritmias, endocarditis y ECG",
+  "codigos": [
+   "2.01.1.054",
+   "2.01.1.052",
+   "2.01.2.012",
+   "2.01.1.049",
+   "2.01.1.051",
+   "2.01.4.012"
+  ]
+ },
+ {
+  "libro": "pediatria",
+  "bloque": 2,
+  "accion": "nuevo",
+  "tema": "RCP pediátrica, intoxicaciones y prevención de accidentes",
+  "codigos": [
+   "2.01.2.020",
+   "2.01.5.012",
+   "2.01.2.014",
+   "2.01.3.008"
+  ]
+ },
+ {
+  "libro": "pediatria",
+  "bloque": 3,
+  "accion": "nuevo",
+  "tema": "Inmunodeficiencias, infecciones recurrentes, hepatomegalia y hemograma",
+  "codigos": [
+   "2.01.1.056",
+   "2.01.1.014",
+   "2.01.1.044",
+   "2.01.4.015"
+  ]
+ },
+ {
+  "libro": "pediatria",
+  "bloque": 1,
+  "accion": "nuevo",
+  "tema": "Genética y dismorfias: trisomía 21",
+  "codigos": [
+   "2.01.1.134",
+   "2.01.1.132"
+  ]
+ },
+ {
+  "libro": "pediatria",
+  "bloque": 3,
+  "accion": "nuevo",
+  "tema": "Uroginecología pediátrica: fimosis, sinequias vulvares y enuresis",
+  "codigos": [
+   "2.01.1.089",
+   "2.01.1.131",
+   "2.01.1.059"
+  ]
+ },
+ {
+  "libro": "pediatria",
+  "bloque": 1,
+  "accion": "nuevo",
+  "tema": "Pediatría psicosocial: maltrato, entrevista, conductas de riesgo y psiquiatría de enlace",
+  "codigos": [
+   "2.01.1.138",
+   "2.01.3.004",
+   "2.01.3.009",
+   "2.01.3.012"
+  ]
+ },
+ {
+  "libro": "traumatologia",
+  "bloque": 4,
+  "accion": "integrar en 12.14 Ortopedia infantil",
+  "tema": "Patología de columna en el niño",
+  "codigos": [
+   "2.01.1.094"
+  ]
+ },
+ {
+  "libro": "dermatologia",
+  "bloque": 4,
+  "accion": "nuevo",
+  "tema": "Tumores benignos de piel, hemangiomas y malformaciones vasculares",
+  "codigos": [
+   "6.01.1.028",
+   "6.01.1.013",
+   "2.01.1.111"
+  ]
+ },
+ {
+  "libro": "dermatologia",
+  "bloque": 4,
+  "accion": "nuevo",
+  "tema": "Loxoscelismo y prevención en la vivienda",
+  "codigos": [
+   "6.01.2.008",
+   "6.01.3.002"
+  ]
+ },
+ {
+  "libro": "cirugia",
+  "bloque": 2,
+  "accion": "nuevo",
+  "tema": "Patología vascular periférica: aneurismas, várices y úlceras de piernas",
+  "codigos": [
+   "4.01.1.044",
+   "4.01.1.048",
+   "4.01.1.050"
+  ]
+ },
+ {
+  "libro": "cirugia",
+  "bloque": 2,
+  "accion": "nuevo",
+  "tema": "Obesidad mórbida y cirugía bariátrica",
+  "codigos": [
+   "4.01.1.060"
+  ]
+ },
+ {
+  "libro": "cirugia",
+  "bloque": 4,
+  "accion": "nuevo",
+  "tema": "Procedimientos de cirugía menor: punción venosa, drenajes, onicocriptosis",
+  "codigos": [
+   "1.01.5.008",
+   "4.01.5.027",
+   "4.01.5.021",
+   "4.01.1.059",
+   "4.01.5.024"
+  ]
+ },
+ {
+  "libro": "urologia",
+  "bloque": 2,
+  "accion": "nuevo",
+  "tema": "Patología peneana: fimosis, balanitis, priapismo y disfunción eréctil",
+  "codigos": [
+   "4.03.1.009",
+   "4.03.1.001",
+   "4.03.2.004",
+   "4.03.1.005"
+  ]
+ },
+ {
+  "libro": "psiquiatria",
+  "bloque": 4,
+  "accion": "nuevo",
+  "tema": "Sexualidad humana, disfunciones sexuales y diversidad",
+  "codigos": [
+   "5.01.1.017",
+   "5.01.1.019",
+   "5.01.3.012",
+   "5.01.3.006",
+   "3.01.3.014"
+  ]
+ },
+ {
+  "libro": "psiquiatria",
+  "bloque": 3,
+  "accion": "nuevo",
+  "tema": "Psiquiatría general: clasificaciones, sueño, facticios y psiquiatría forense",
+  "codigos": [
+   "5.01.3.001",
+   "5.01.3.005",
+   "5.01.1.022",
+   "5.01.3.009"
+  ]
+ },
+ {
+  "libro": "oftalmologia",
+  "bloque": 1,
+  "accion": "integrar en 15.3 Párpados",
+  "tema": "Tumores de conjuntiva",
+  "codigos": [
+   "6.02.1.025"
+  ]
+ },
+ {
+  "libro": "otorrino",
+  "bloque": 1,
+  "accion": "integrar en 14.3 Oído externo",
+  "tema": "Otohematoma y su drenaje",
+  "codigos": [
+   "6.03.2.014",
+   "6.03.5.005"
+  ]
+ },
+ {
+  "libro": "saludpublica",
+  "bloque": 1,
+  "accion": "nuevo",
+  "tema": "Gestión y administración en salud; demografía",
+  "codigos": [
+   "7.01.3.007",
+   "7.01.3.041",
+   "7.01.3.042",
+   "7.01.3.043",
+   "7.01.3.044",
+   "7.01.3.045",
+   "7.01.3.055"
+  ]
+ }
+]

@@ -53,7 +53,8 @@ module.exports = {
       cards: [
         { title: 'Regla de oro', tag: 'Sin imágenes', kind: 'alert', items: [
           { t: 'Diagnóstico estrictamente clínico', d: 'Pedir radiografía está contraindicado',
-            say: 'De ese mecanismo sale la regla de oro de la clase, la que más se pregunta. El diagnóstico del neumotórax a tensión es estrictamente clínico. Pedir o esperar una radiografía en un paciente inestable está contraindicado, porque la demora lo mata en minutos.' },
+            say: 'De ese mecanismo sale la regla de oro de la clase, la que más se pregunta. El diagnóstico del neumotórax a tensión es estrictamente clínico. Pedir o esperar una radiografía en un paciente inestable está contraindicado, porque la demora lo mata en minutos. Mira esta imagen: el pulmón colapsado y el mediastino desplazado. Pero cuando llegues a ver una radiografía así, el paciente ya debió ser descomprimido.',
+            photo: { src: 'biblioteca/02_neumologia/resp-14/01_neumotorax-a-tension-tc-rx__cto-cirugia_p71.jpg', label: 'Neumotórax a tensión', at: 'Mira esta imagen', credit: 'Manual CTO Cirugía 14.ª ed., p. 71' } },
         ] },
         { title: 'La tétrada', tag: 'Lo que ves al lado de la camilla', kind: 'criteria', items: [
           { t: 'Shock e hipotensión grave', d: 'Taquicardia extrema o bradicardia preparo',
@@ -120,7 +121,8 @@ module.exports = {
         { show: ['san'], note: 'Definición: 1.500 mL o un tercio de la volemia',
           say: 'Se define como la acumulación rápida de mil quinientos mililitros de sangre o más en la cavidad pleural, o más de un tercio de la volemia del paciente. Esa cifra, mil quinientos, la vas a volver a ver en la conducta.' },
         { show: ['mat'], note: 'Líquido: matidez, no timpanismo',
-          say: 'Al examen, el hemitórax tiene el murmullo disminuido o abolido, igual que en el neumotórax. Pero a la percusión hay matidez franca, porque lo que hay es líquido, no aire.' },
+          say: 'Al examen, el hemitórax tiene el murmullo disminuido o abolido, igual que en el neumotórax. Pero a la percusión hay matidez franca, porque lo que hay es líquido, no aire. Mira esta radiografía: el hemitórax derecho ocupado por sangre.',
+            photo: { src: 'biblioteca/02_neumologia/resp-14/02_hemotorax-masivo-rx__cto-neumo_p111.jpg', label: 'Hemotórax masivo', at: 'Mira esta radiografía', credit: 'Manual CTO Neumología 14.ª ed., p. 111' } },
         { show: ['hip'], note: 'El shock es por pérdida de sangre',
           say: 'Y el shock tiene otro mecanismo: aquí el problema no es una obstrucción, es que el paciente perdió su sangre en el tórax. Es un shock hipovolémico, hemorrágico.' },
         { show: ['pla'], note: 'La diferencia clave: las venas del cuello',
@@ -188,22 +190,6 @@ module.exports = {
           say: 'Mira el pulmón derecho: el aire atrapado en la pleura lo colapsa, y la presión empuja el corazón y la tráquea hacia el otro lado. Eso es la tensión.' },
         { note: 'Segundo espacio, línea medioclavicular',
           say: 'La aguja entra en el segundo espacio intercostal, en la línea medioclavicular. El aire sale, el pulmón se reexpande y el mediastino vuelve al centro.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Neumotórax a tensión y hemotórax',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-14/01_neumotorax-a-tension-tc-rx__cto-cirugia_p71.jpg', label: 'Neumotórax a tensión', credit: 'Manual CTO Cirugía 14.ª ed., p. 71' },
-        { src: 'biblioteca/02_neumologia/resp-14/02_hemotorax-masivo-rx__cto-neumo_p111.jpg', label: 'Ocupación pleural masiva derecha: en el trauma, hemotórax', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
-      ],
-      steps: [
-        { note: 'Mediastino desplazado al otro lado',
-          say: 'Aquí el neumotórax empuja el mediastino hacia el lado contrario. Esa desviación es la tensión. Pero ojo: en la vida real no se espera esta imagen, el diagnóstico es clínico y se descomprime de inmediato.' },
-        { note: 'Blanco en vez de negro',
-          say: 'Y el otro cuadro de hoy: en un traumatizado, un hemitórax casi completamente blanco es sangre en la pleura, un hemotórax masivo. Con yugulares planas y matidez, va tubo pleural y hemoderivados.' },
       ],
     },
 
@@ -392,6 +378,44 @@ module.exports = {
         options: 'Las alternativas: un segundo tubo pleural, pinzar el tubo, toracotomía de urgencia, embolización en veinticuatro horas, o ácido tranexámico y observación. Piénsalo.',
         answer: 'Es la C, toracotomía de urgencia. Cumple los dos criterios de débito: más de mil quinientos mililitros al instalar el tubo, y más de doscientos por hora durante dos horas. El distractor peligroso es pinzar el tubo: la sangre no deja de salir del vaso, solo se acumula en el tórax, y lo conviertes en un hemotórax a tensión.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.2.011 · Neumotórax hipertensivo",
+      "stem": "Hombre de 25 años, motociclista, traído tras una caída a alta velocidad. Agitado, FR 36/min, SatO2 82 %, PA 70/40 mmHg, FC 140 lpm. Yugulares ingurgitadas, tráquea desviada a la izquierda, hemitórax derecho hiperinsuflado, timpánico y sin murmullo pulmonar.",
+      "question": "¿Cuál es la conducta inmediata?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía de tórax portátil para confirmar el diagnóstico"
+        },
+        {
+          "letter": "B",
+          "text": "Intubación orotraqueal y ventilación con presión positiva antes de cualquier otra medida"
+        },
+        {
+          "letter": "C",
+          "text": "Pericardiocentesis subxifoidea"
+        },
+        {
+          "letter": "D",
+          "text": "Descompresión inmediata con aguja en el hemitórax derecho y luego tubo pleural"
+        },
+        {
+          "letter": "E",
+          "text": "Tubo pleural en el hemitórax izquierdo"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Shock obstructivo con yugulares ingurgitadas, tráquea desviada al lado contrario y hemitórax timpánico sin murmullo: neumotórax a tensión. Es un diagnóstico clínico y se descomprime de inmediato con aguja (2.º espacio intercostal en la línea medioclavicular, o 5.º en la axilar), seguido de tubo pleural. La radiografía no debe retrasarlo.",
+      "say": {
+        "stem": "Un motociclista de veinticinco años, tras una caída, llega en shock, con saturación de ochenta y dos por ciento, yugulares ingurgitadas, tráquea desviada a la izquierda y el lado derecho del tórax timpánico y sin murmullo.",
+        "question": "¿Cuál es la conducta inmediata?",
+        "options": "Las opciones: radiografía portátil, intubar primero, pericardiocentesis, descompresión con aguja a derecha y luego tubo o tubo a izquierda. Piénsalo.",
+        "answer": "Es la D. Es un neumotórax a tensión, se diagnostica con las manos y se descomprime con aguja en ese momento, para después poner el tubo. La pericardiocentesis tienta por las yugulares ingurgitadas y el shock, pero el taponamiento no desvía la tráquea ni deja un hemitórax timpánico y mudo."
+      }
     },
 
     {

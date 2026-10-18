@@ -26,9 +26,30 @@ module.exports = {
         ] },
         { title: 'Confirmación', tag: 'Solo espirometría', kind: 'key', items: [
           { t: 'VEF1/CVF < 0,70 post-BD', d: 'Obstrucción que no revierte',
-            say: 'Pero la sospecha no basta. El diagnóstico se confirma exclusivamente con la espirometría: relación VEF uno sobre CVF bajo cero coma setenta después del broncodilatador. Es la obstrucción fija de la primera clase.' },
+            say: 'Pero la sospecha no basta. El diagnóstico se confirma exclusivamente con la espirometría: relación VEF uno sobre CVF bajo cero coma setenta después del broncodilatador. Es la obstrucción fija de la primera clase. Y en la radiografía de un EPOC avanzado, mira esta imagen: pulmones hiperinsuflados con el diafragma aplanado. Y en este esquema, los tipos de enfisema según la parte del acino que se destruye.',
+            photos: [{ src: 'biblioteca/02_neumologia/resp-04/01_epoc_hiperinsuflacion__cxr_p292.jpg', label: 'Hiperinsuflación', at: 'mira esta imagen', credit: 'The Chest X-Ray: A Survival Guide, Fig. 22.2' }, { src: 'biblioteca/02_neumologia/resp-04/01_tipos-de-enfisema__cto-neumo_p43.jpg', label: 'Tipos de enfisema', at: 'Y en este esquema', credit: 'Manual CTO Neumología 14.ª ed., p. 43' }] },
           { t: 'Fumador con espirometría normal', d: 'No es EPOC',
             say: 'La consecuencia se pregunta: un fumador con tos y expectoración, pero con espirometría normal, no tiene EPOC. Puede tener una bronquitis crónica, pero sin obstrucción no hay EPOC.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Bronquitis crónica',
+      title: 'Una definición clínica, no espirométrica',
+      cards: [
+        { title: 'Definición', tag: 'Fenotipo mucoso', kind: 'key', items: [
+          { t: 'Tos con expectoración ≥ 3 meses al año', d: 'Por 2 años seguidos, sin otra causa',
+            say: 'La bronquitis crónica se define por la clínica: tos con expectoración la mayor parte de los días, por al menos tres meses al año, durante dos años consecutivos, una vez descartadas otras causas como bronquiectasias, tuberculosis o insuficiencia cardíaca.' },
+          { t: 'Hipersecreción y daño ciliar', d: 'Casi siempre tabaco o biomasa',
+            say: 'El mecanismo es la hipertrofia de las glándulas mucosas, con hipersecreción y daño de los cilios, casi siempre por tabaco o por humo de leña.' },
+        ] },
+        { title: 'El límite con el EPOC', tag: 'Lo que se pregunta', kind: 'alert', items: [
+          { t: 'Sin obstrucción no hay EPOC', d: 'VEF1/CVF < 0,70 post-broncodilatador',
+            say: 'No toda bronquitis crónica es EPOC. La espirometría decide: si la relación VEF uno sobre CVF postbroncodilatador es menor de cero coma setenta, además es EPOC. Si es normal, es bronquitis crónica sin obstrucción.' },
+          { t: 'El manejo es el del EPOC', d: 'Cese del tabaco, vacunas, rehabilitación',
+            say: 'El tratamiento es el mismo: dejar de fumar, broncodilatadores si hay obstrucción, vacunas y rehabilitación, y las exacerbaciones se manejan según Anthonisen.' },
         ] },
       ],
     },
@@ -105,6 +126,30 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Cesación del tabaco',
+      title: 'Dejar de fumar: cómo se logra',
+      cards: [
+        { title: 'En cada consulta', tag: 'Las 5 A', kind: 'key', items: [
+          { t: 'Preguntar, aconsejar, evaluar', d: 'Consejo breve con fecha de cese',
+            say: 'Dejar de fumar es la única medida que enlentece la caída del VEF uno y la que más sobrevida da. Por eso se aplica en cada consulta la estrategia de las cinco A: preguntar si fuma, aconsejar dejarlo, evaluar si está dispuesto.' },
+          { t: 'Ayudar y acordar seguimiento', d: 'Programa de cesación en APS',
+            say: 'Y luego ayudar, con apoyo conductual y fármacos, y acordar el seguimiento. En el sistema público hay consejería y programas de cesación en atención primaria.' },
+        ] },
+        { title: 'Fármacos', tag: '8 a 12 semanas', kind: 'pharma', items: [
+          { t: 'Reemplazo de nicotina', d: 'Parche más goma o pastilla',
+            say: 'El tratamiento farmacológico duplica la tasa de abstinencia. Primera opción: reemplazo de nicotina, con parche más goma o pastilla.' },
+          { t: 'Bupropión o vareniclina', d: 'Bupropión: no en convulsiones ni conducta alimentaria',
+            say: 'Otras dos: bupropión, que está contraindicado en convulsiones y en trastornos de la conducta alimentaria, y vareniclina. Todos por ocho a doce semanas, junto con apoyo conductual.' },
+        ] },
+        { title: 'Por qué importa', tag: 'Daño del tabaco', kind: 'alert', items: [
+          { t: 'Más que el pulmón', d: 'Cáncer, coronarias, ACV, bajo peso al nacer',
+            say: 'El tabaco causa cáncer de pulmón, laringe y vejiga, EPOC, enfermedad coronaria, accidente cerebrovascular y bajo peso al nacer. Y el humo ajeno agrava el asma de los niños.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Sobrevida',
       title: 'Lo único que alarga la vida',
       cards: [
@@ -152,6 +197,30 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Corazón pulmonar crónico',
+      title: 'Cuando el pulmón enferma al ventrículo derecho',
+      cards: [
+        { title: 'Qué es', tag: 'Cor pulmonale', kind: 'key', items: [
+          { t: 'Hipertrofia y dilatación del VD', d: 'Por hipertensión pulmonar de causa pulmonar',
+            say: 'El corazón pulmonar crónico es la hipertrofia y dilatación del ventrículo derecho secundaria a hipertensión pulmonar por una enfermedad del pulmón. La causa más frecuente es el EPOC avanzado, por la vasoconstricción de la hipoxemia crónica.' },
+          { t: 'Edema, yugulares, hepatomegalia', d: 'R2 fuerte, soplo tricuspídeo, poliglobulia',
+            say: 'Se sospecha por disnea con edema de las piernas, yugulares ingurgitadas, hígado grande, segundo ruido pulmonar fuerte, soplo de insuficiencia tricuspídea y poliglobulia. El ECG muestra onda P pulmonar y eje derecho; se confirma con ecocardiograma.' },
+        ] },
+        { title: 'Tratamiento', tag: 'Lo que cambia el curso', kind: 'pharma', items: [
+          { t: 'Oxígeno domiciliario > 15 h/día', d: 'Meta SatO2 ≥ 90%',
+            say: 'Lo más eficaz es la oxigenoterapia domiciliaria continua, más de quince horas al día, con meta de saturación de noventa por ciento o más, junto con el manejo del EPOC.' },
+          { t: 'Diuréticos con cuidado', d: 'Alcalosis metabólica reduce el impulso respiratorio',
+            say: 'Los diuréticos se usan solo si hay congestión, y con cuidado, porque la alcalosis metabólica que producen reduce el impulso respiratorio. La flebotomía queda para la poliglobulia sintomática con hematocrito sobre cincuenta y cinco a sesenta por ciento.' },
+        ] },
+        { title: 'Pronóstico', tag: 'Nivel del Perfil', kind: 'alert', items: [
+          { t: 'Su aparición marca mal pronóstico', d: 'Diagnóstico, tratamiento inicial y derivación',
+            say: 'Cuando aparece el cor pulmonale, el pronóstico empeora. Tu nivel es diagnóstico específico, tratamiento inicial y derivación.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -162,23 +231,6 @@ module.exports = {
       steps: [
         { note: 'Tabiques rotos, aire atrapado',
           say: 'En el enfisema se rompen los tabiques entre los alvéolos: quedan espacios grandes, con menos superficie de intercambio. En cada espiración una parte del aire no alcanza a salir, y el pulmón queda hiperinsuflado.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'EPOC en la radiografía',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-04/01_epoc_hiperinsuflacion__cxr_p292.jpg', label: 'Hiperinsuflación', credit: 'The Chest X-Ray: A Survival Guide, Fig. 22.2' },
-        { src: 'biblioteca/02_neumologia/resp-04/01_tipos-de-enfisema__cto-neumo_p43.jpg', label: 'Tipos de enfisema', credit: 'Manual CTO Neumología 14.ª ed., p. 43' },
-      ],
-      steps: [
-        { note: 'Diafragmas aplanados, pulmón negro',
-          say: 'En la EPOC la radiografía muestra pulmones hiperinsuflados: los diafragmas bajos y aplanados, más espacios intercostales, y un corazón largo y estrecho. Pero recuerda: el diagnóstico es con espirometría, no con la radiografía.' },
-        { note: 'Centrolobulillar vs panacinar',
-          say: 'Y este esquema muestra los tipos de enfisema. El centrolobulillar, del fumador, destruye el centro del lobulillo en los lóbulos superiores; el panacinar, del déficit de alfa uno antitripsina, destruye todo el acino en las bases.' },
       ],
     },
 
@@ -296,6 +348,193 @@ module.exports = {
         options: 'Las opciones: hipertensión pulmonar primaria, insuficiencia cardíaca congestiva, exacerbación de EPOC, cor pulmonale descompensado, o tromboembolismo pulmonar. Piénsalo.',
         answer: 'Es la D, cor pulmonale. La hipoxemia crónica de la EPOC sube la presión pulmonar, y el ventrículo derecho termina fallando: edema e ingurgitación, con el izquierdo normal. La A cae porque la hipertensión pulmonar no es primaria, es secundaria a la EPOC. Y conéctalo con los criterios de oxígeno: el cor pulmonale es justamente lo que indica oxígeno domiciliario con una presión de oxígeno entre cincuenta y seis y cincuenta y nueve.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.005 · Espirometría",
+      "stem": "Hombre de 58 años, fumador de 30 paquetes-año, con tos matinal y disnea de grandes esfuerzos. Espirometría basal: VEF1/CVF 0,66; VEF1 82 % del predicho. Tras 400 mcg de salbutamol: VEF1/CVF 0,74; VEF1 91 % del predicho.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "EPOC GOLD 1 confirmada"
+        },
+        {
+          "letter": "B",
+          "text": "Patrón restrictivo"
+        },
+        {
+          "letter": "C",
+          "text": "EPOC GOLD 2 por VEF1 basal bajo 85 %"
+        },
+        {
+          "letter": "D",
+          "text": "No se confirma EPOC: la relación VEF1/CVF posbroncodilatador es mayor de 0,70"
+        },
+        {
+          "letter": "E",
+          "text": "Asma grave"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El diagnóstico de EPOC exige obstrucción persistente: VEF1/CVF menor de 0,70 después del broncodilatador. Aquí la obstrucción revierte (0,74), así que no se confirma EPOC. Igual corresponde indicar cesación tabáquica y reevaluar, porque tiene síntomas y factor de riesgo.",
+      "say": {
+        "stem": "Un hombre de cincuenta y ocho años, fumador, tiene tos matinal. En la espirometría basal la relación entre volumen espiratorio del primer segundo y capacidad vital es cero coma sesenta y seis, pero después del salbutamol sube a cero coma setenta y cuatro.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: EPOC leve confirmada, restricción, EPOC moderada, no se confirma EPOC o asma grave. Piénsalo.",
+        "answer": "Es la D. La EPOC se diagnostica con la relación posbroncodilatador bajo cero coma setenta, y aquí queda sobre ese valor. Diagnosticar EPOC leve tienta porque el valor basal es bajo, pero el que manda es el posterior al broncodilatador."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.3.004 · Tabaquismo: prevención, cesación y efectos nocivos para la salud",
+      "stem": "Hombre de 62 años, fumador activo de 20 cigarrillos al día (40 paquetes-año), con EPOC GOLD 2 recién diagnosticada. Pregunta qué puede hacer para que su enfermedad avance más lento.",
+      "question": "¿Cuál de las siguientes intervenciones ha demostrado enlentecer la caída anual del VEF1?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tiotropio inhalado"
+        },
+        {
+          "letter": "B",
+          "text": "Corticoide inhalado en dosis alta"
+        },
+        {
+          "letter": "C",
+          "text": "Dejar de fumar"
+        },
+        {
+          "letter": "D",
+          "text": "Vacuna antineumocócica"
+        },
+        {
+          "letter": "E",
+          "text": "Rehabilitación pulmonar"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La cesación tabáquica es la única intervención que normaliza la velocidad de caída del VEF1 y, junto al oxígeno domiciliario en hipoxémicos, la que reduce mortalidad. Broncodilatadores y corticoides mejoran síntomas y exacerbaciones, pero no cambian la historia natural. Se debe ofrecer consejería más fármacos.",
+      "say": {
+        "stem": "Un hombre de sesenta y dos años, que fuma veinte cigarrillos al día, tiene una EPOC moderada recién diagnosticada y pregunta qué puede hacer para que avance más lento.",
+        "question": "¿Qué intervención ha demostrado enlentecer la caída anual de la función pulmonar?",
+        "options": "Las opciones: tiotropio, corticoide inhalado, dejar de fumar, vacuna antineumocócica o rehabilitación. Piénsalo.",
+        "answer": "Es la C, dejar de fumar. Es lo único que vuelve la caída de la función pulmonar a la velocidad normal, y con el oxígeno es lo que alarga la vida. El tiotropio tienta porque mejora mucho los síntomas, pero no cambia la pendiente de la enfermedad."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.01.3.007 · Tabaquismo: prevención, cesación y efectos nocivos para la salud",
+      "stem": "Una mujer de 52 años fuma 20 cigarrillos al día desde los 18 años. En el control refiere que quiere dejar de fumar en las próximas semanas. Fuma el primer cigarrillo a los 5 minutos de despertar. No tiene antecedentes de convulsiones ni de enfermedad psiquiátrica.",
+      "question": "Además de la consejería, ¿cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fijar una fecha de cese e indicar farmacoterapia (vareniclina o terapia de reemplazo de nicotina)"
+        },
+        {
+          "letter": "B",
+          "text": "Indicar reducir gradualmente a 10 cigarrillos y reevaluar en 1 año"
+        },
+        {
+          "letter": "C",
+          "text": "Cambiar a cigarrillo electrónico en forma indefinida"
+        },
+        {
+          "letter": "D",
+          "text": "Indicar benzodiacepinas para la ansiedad"
+        },
+        {
+          "letter": "E",
+          "text": "Esperar que lo intente sola antes de indicar fármacos"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Está en etapa de preparación y tiene alta dependencia (primer cigarrillo antes de 30 minutos). Se indica consejería, fecha de cese y farmacoterapia de primera línea: vareniclina, terapia de reemplazo de nicotina o bupropión. Combinar consejería y fármacos multiplica las tasas de abstinencia; solo reducir no es cesación.",
+      "say": {
+        "stem": "Una mujer de cincuenta y dos años fuma veinte cigarrillos al día desde joven, quiere dejarlo en las próximas semanas y fuma el primero a los cinco minutos de despertar.",
+        "question": "Además de la consejería, ¿qué conducta es la más adecuada?",
+        "options": "Las opciones: fijar fecha de cese con vareniclina o reemplazo de nicotina, solo reducir el número de cigarrillos, cigarrillo electrónico indefinido, benzodiacepinas o esperar que lo intente sola. Piénsalo.",
+        "answer": "Es la A. Está preparada para dejarlo y tiene alta dependencia, así que se fija fecha y se agrega farmacoterapia, lo que multiplica el éxito. Reducir gradualmente tienta, pero no es cesación y casi no baja el riesgo."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2016 · Pregunta 155",
+      "stem": "Un paciente de 66 años, fumador de 40 paquetes-año, presenta tos con expectoración mucosa de 4 años de evolución. Tiene broncorrea, mayor en la mañana, y presenta 2 infecciones respiratorias al año que requieren antibióticos. Su radiografía de tórax y su espirometría son normales.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cáncer de pulmón"
+        },
+        {
+          "letter": "B",
+          "text": "Tuberculosis pulmonar"
+        },
+        {
+          "letter": "C",
+          "text": "Fibrosis pulmonar"
+        },
+        {
+          "letter": "D",
+          "text": "EPOC"
+        },
+        {
+          "letter": "E",
+          "text": "Bronquitis crónica"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La bronquitis crónica es tos productiva al menos 3 meses al año por 2 años consecutivos, descartadas otras causas. Sin obstrucción en la espirometría (VEF1/CVF post broncodilatador sobre 0,7) no puede diagnosticarse EPOC, y la radiografía normal hace improbables cáncer, TBC y fibrosis. Lo clave es dejar de fumar.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil dieciséis. Un hombre de sesenta y seis años, gran fumador, tiene tos con expectoración mucosa matinal desde hace cuatro años, con dos infecciones respiratorias al año. Su radiografía y su espirometría son normales.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: cáncer de pulmón, tuberculosis, fibrosis pulmonar, EPOC o bronquitis crónica. Piénsalo.",
+        "answer": "Es la E. Tos productiva crónica en un fumador es bronquitis crónica. El EPOC tienta, pero sin obstrucción en la espirometría no se puede diagnosticar."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.1.008 · Corazón pulmonar crónico",
+      "stem": "Un hombre de 70 años con EPOC grave presenta edema de extremidades inferiores, ingurgitación yugular y hepatomegalia. El ecocardiograma muestra dilatación del ventrículo derecho y presión de arteria pulmonar estimada de 55 mmHg, con FEVI normal. Gases arteriales en reposo: PaO2 52 mmHg.",
+      "question": "¿Cuál es la intervención que ha demostrado mejorar la sobrevida en esta condición?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Digoxina"
+        },
+        {
+          "letter": "B",
+          "text": "Oxigenoterapia crónica domiciliaria más de 15 horas al día"
+        },
+        {
+          "letter": "C",
+          "text": "Betabloqueadores"
+        },
+        {
+          "letter": "D",
+          "text": "Anticoagulación oral"
+        },
+        {
+          "letter": "E",
+          "text": "Sildenafil en todos los casos"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El cor pulmonale por EPOC con hipoxemia crónica (PaO2 ≤55 mmHg, o 56-59 con cor pulmonale o poliglobulia) tiene indicación de oxigenoterapia crónica domiciliaria más de 15 horas al día, única intervención que mejora la sobrevida al revertir la vasoconstricción hipóxica. Los diuréticos alivian el edema; la digoxina no se indica salvo FA.",
+      "say": {
+        "stem": "Un hombre de setenta años con EPOC grave tiene edema, ingurgitación yugular y hepatomegalia, con ventrículo derecho dilatado, presión pulmonar elevada y una presión arterial de oxígeno de cincuenta y dos.",
+        "question": "¿Qué intervención ha demostrado mejorar la sobrevida?",
+        "options": "Las opciones: digoxina, oxígeno domiciliario más de quince horas al día, betabloqueadores, anticoagulación o sildenafil. Piénsalo.",
+        "answer": "Es la B. En el cor pulmonale hipoxémico, el oxígeno domiciliario por más de quince horas diarias es lo único que mejora la sobrevida. La digoxina tienta por ser insuficiencia cardíaca, pero no mejora la sobrevida en la falla derecha."
+      }
     },
 
     {

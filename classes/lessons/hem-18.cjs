@@ -28,7 +28,8 @@ module.exports = {
           { t: 'Cervical, supraclavicular, axilar', d: 'Las localizaciones más frecuentes',
             say: 'Las cadenas más comprometidas son la cervical, la supraclavicular y la axilar.' },
           { t: 'Supraclavicular izquierdo: Virchow', d: 'Neoplásico hasta demostrar lo contrario',
-            say: 'Y ojo con una en particular: el ganglio supraclavicular izquierdo, el de Virchow. Siempre es neoplásico hasta demostrar lo contrario. Si aparece en un caso, la respuesta nunca es observar.' },
+            say: 'Y ojo con una en particular: el ganglio supraclavicular izquierdo, el de Virchow. Siempre es neoplásico hasta demostrar lo contrario. Si aparece en un caso, la respuesta nunca es observar. Mira este cuello: un ganglio supraclavicular aumentado de tamaño, visible sobre la clavícula.',
+            photo: { src: 'biblioteca/06_hematologia/hem-18/06_adenopatia_supraclavicular__knoop_p193.jpg', label: 'Adenopatía supraclavicular', at: 'Mira este cuello', credit: 'Knoop, Atlas of Emergency Medicine, p. 193' } },
         ] },
       ],
     },
@@ -107,7 +108,8 @@ module.exports = {
         ] },
         { title: 'Reed-Sternberg', tag: 'La célula diagnóstica', kind: 'criteria', items: [
           { t: 'Gigante, binucleada, "ojos de búho"', d: 'Núcleos en espejo, nucléolos grandes',
-            say: 'La célula que hace el diagnóstico es la de Reed-Sternberg: una célula gigante, con dos o más núcleos en imagen de espejo y nucléolos prominentes. Por eso se describe como ojos de búho.' },
+            say: 'La célula que hace el diagnóstico es la de Reed-Sternberg: una célula gigante, con dos o más núcleos en imagen de espejo y nucléolos prominentes. Por eso se describe como ojos de búho. Mira esta célula: dos núcleos con nucléolos grandes.',
+            photo: { src: 'biblioteca/06_hematologia/hem-18/01_celula-de-reed-sternberg__cto-hemato_p69.jpg', label: 'Reed-Sternberg', at: 'Mira esta célula', credit: 'Manual CTO Hematología 14.ª ed., p. 69' } },
           { t: 'CD30+, CD15+, CD45−', d: 'Inmunofenotipo clásico',
             say: 'Su inmunofenotipo clásico es CD treinta positivo, CD quince positivo, y CD cuarenta y cinco negativo.' },
         ] },
@@ -184,9 +186,34 @@ module.exports = {
       cards: [
         { title: 'Linfoma gástrico MALT', tag: 'Helicobacter pylori', kind: 'key', items: [
           { t: 'Linfoma extraganglionar del estómago', d: 'Asociado a Helicobacter pylori',
-            say: 'Un caso especial de no Hodgkin extraganglionar, que conecta con gastroenterología: el linfoma gástrico MALT, del tejido linfoide asociado a mucosas. Está asociado a la infección por Helicobacter pylori.' },
+            say: 'Un caso especial de no Hodgkin extraganglionar, que conecta con gastroenterología: el linfoma gástrico MALT, del tejido linfoide asociado a mucosas. Está asociado a la infección por Helicobacter pylori. Así se ve en la endoscopia: una lesión ulcerada e irregular en la mucosa.',
+            photo: { src: 'biblioteca/06_hematologia/hem-18/05_malt-gastrico-endoscopia__commons.jpg', label: 'MALT gástrico', at: 'Así se ve en la endoscopia', credit: 'Wikimedia Commons, CC BY-SA 3.0' } },
           { t: 'Temprano: erradicar H. pylori', d: 'IBP + claritromicina + amoxicilina',
             say: 'Y su tratamiento en estadio temprano es la erradicación de la bacteria: inhibidor de la bomba de protones, claritromicina y amoxicilina. Con eso se cura más del setenta y cinco por ciento. Si en el examen ves un linfoma MALT gástrico temprano, la respuesta es erradicar, no la quimioterapia.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Linfomas cutáneos',
+      title: 'Micosis fungoide: la dermatosis que no se va',
+      cards: [
+        { title: 'Qué es', tag: 'Linfoma T cutáneo', kind: 'key', items: [
+          { t: 'Linfoma no Hodgkin que debuta en la piel', d: 'El más frecuente: micosis fungoide',
+            say: 'Otro no Hodgkin extraganglionar, pero ahora en la piel. Los linfomas cutáneos nacen en la piel, y el más frecuente es la micosis fungoide, un linfoma T que evoluciona durante años.' },
+          { t: 'Máculas y placas escamosas, con prurito', d: 'Nalgas y tronco, zonas sin sol',
+            say: 'Empieza con máculas y placas rojas, escamosas y pruriginosas, sobre todo en zonas no expuestas al sol, como las nalgas y el tronco. Después vienen las placas infiltradas, los tumores y la eritrodermia.' },
+          { t: 'Variante leucémica: síndrome de Sézary', d: 'Eritrodermia, adenopatías, células de Sézary',
+            say: 'Su variante leucémica es el síndrome de Sézary, con eritrodermia, adenopatías y células de Sézary en la sangre. También existen linfomas B cutáneos, con nódulos violáceos.' },
+        ] },
+        { title: 'Cómo se sospecha y se maneja', tag: 'Conducta', kind: 'alert', items: [
+          { t: 'Sospechar: dermatosis crónica refractaria', d: 'Parece eccema, psoriasis o tiña',
+            say: 'Se confunde con eccema, psoriasis o tiña. La pista es que no responde al tratamiento habitual y pasan los meses o los años.' },
+          { t: 'Biopsia cutánea antes de corticoides potentes', d: 'De varias lesiones, si se puede',
+            say: 'La conducta es biopsiar la piel, de varias lesiones si es posible, y antes de usar corticoides tópicos potentes, que pueden esconder el diagnóstico. Mientras tanto, emolientes y control del prurito.' },
+          { t: 'Derivar a hematología y dermatología', d: 'El tratamiento lo define el especialista',
+            say: 'Y se deriva. Tú sospechas, tomas la biopsia y derivas; el tratamiento lo define el especialista según el estadio.' },
         ] },
       ],
     },
@@ -221,7 +248,8 @@ module.exports = {
       head: ['Estadio', 'Definición', 'Pronóstico y abordaje'],
       rows: [
         { cells: ['I', 'Una sola región ganglionar (o un sitio extraganglionar: IE)', 'Localizado: ABVD abreviado + radioterapia'],
-          say: 'Veamos la etapificación de Ann Arbor, que rige el tratamiento. La referencia es el diafragma. Estadio uno: una sola región ganglionar, por ejemplo solo los ganglios cervicales derechos, o un solo sitio extraganglionar.' },
+          say: 'Veamos la etapificación de Ann Arbor, que rige el tratamiento. La referencia es el diafragma. Mira este esquema: el diafragma separa la enfermedad de uno o de ambos lados. Estadio uno: una sola región ganglionar, por ejemplo solo los ganglios cervicales derechos, o un solo sitio extraganglionar.',
+          photo: { src: 'biblioteca/06_hematologia/hem-18/03_ann-arbor__cto-hemato_p70.jpg', label: 'Estadificación de Ann Arbor', at: 'Mira este esquema', credit: 'Manual CTO Hematología 14.ª ed., p. 70' } },
         { cells: ['II', 'Dos o más regiones, mismo lado del diafragma', 'Localizado: curación sobre 90%'],
           say: 'Estadio dos: dos o más regiones, pero al mismo lado del diafragma, ambas arriba o ambas abajo. Sigue siendo enfermedad localizada, con curación sobre noventa por ciento.' },
         { cells: ['III', 'Regiones a ambos lados del diafragma (± bazo)', 'Avanzado: ABVD completo, 6 ciclos'],
@@ -230,6 +258,32 @@ module.exports = {
           say: 'Estadio cuatro: compromiso difuso de órganos fuera del sistema linfático, no contiguos, como la médula ósea, el hígado o el pulmón.' },
         { cells: ['Sufijos', 'A/B: síntomas B · E: extraganglionar contiguo · X: bulky > 10 cm', 'Bulky mediastínico: agregar radioterapia'],
           say: 'A cada estadio se le agrega la letra A o B según los síntomas B. Además, la E marca extensión extraganglionar contigua, y la X una masa voluminosa, de más de diez centímetros. Una masa mediastínica voluminosa obliga a sumar radioterapia.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Radiografía de tórax',
+      title: 'El primer examen de etapificación',
+      cards: [
+        { title: 'Qué buscas', tag: 'Interpretar y emplear', kind: 'criteria', items: [
+          { t: 'Ensanchamiento mediastínico', d: 'Hodgkin esclerosis nodular, linfoma mediastínico B',
+            say: 'La radiografía de tórax se pide en todo paciente con adenopatías o síntomas B. Buscas ensanchamiento del mediastino, una masa anterior o media, típica del Hodgkin esclerosis nodular y del linfoma mediastínico primario de células B. Mira esta radiografía: el mediastino ensanchado por la masa.',
+            photo: { src: 'biblioteca/06_hematologia/hem-18/02_ensanchamiento-mediastinico-hodgkin__cto-hemato_p71.jpg', label: 'Masa mediastínica', at: 'Mira esta radiografía', credit: 'Manual CTO Hematología 14.ª ed., p. 71' } },
+          { t: 'Adenopatías hiliares y derrame pleural', d: 'También ayudan a etapificar',
+            say: 'También miras las adenopatías hiliares y el derrame pleural, que cambian la etapa.' },
+          { t: 'Masa bulky: más de un tercio del tórax', d: 'O más de 10 centímetros',
+            say: 'Y la masa voluminosa, o bulky: la que ocupa más de un tercio del diámetro torácico máximo, o mide más de diez centímetros. Empeora el pronóstico y cambia el tratamiento.' },
+        ] },
+        { title: 'Lo que no debes olvidar', tag: 'Urgencia', kind: 'alert', items: [
+          { t: 'Masa con disnea o vena cava superior', d: 'Es una urgencia',
+            say: 'Una masa mediastínica con disnea, tos, ortopnea o síndrome de vena cava superior es una urgencia.' },
+          { t: 'No sedar ni acostar sin evaluar la vía aérea', d: 'Riesgo de colapso respiratorio',
+            say: 'En esos pacientes no se sedan ni se acuestan en decúbito supino sin evaluar antes la vía aérea, porque la masa puede comprimirla.' },
+          { t: 'No reemplaza al TAC ni al PET-CT', d: 'Es solo el primer paso',
+            say: 'Y recuerda que la radiografía no reemplaza al TAC ni al PET para etapificar. Es el primer paso, no el último. Este es un PET en un Hodgkin: las flechas marcan los ganglios captantes.',
+            photo: { src: 'biblioteca/06_hematologia/hem-18/04_pet-en-hodgkin__amir-hemato_p80.jpg', label: 'PET en Hodgkin', at: 'Este es un PET', credit: 'Manual AMIR Hematología, p. 80' } },
+        ] },
       ],
     },
 
@@ -273,40 +327,7 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Linfoma de Hodgkin',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-18/01_celula-de-reed-sternberg__cto-hemato_p69.jpg', label: 'Reed-Sternberg', credit: 'Manual CTO Hematología 14.ª ed., p. 69' },
-        { src: 'biblioteca/06_hematologia/hem-18/02_ensanchamiento-mediastinico-hodgkin__cto-hemato_p71.jpg', label: 'Masa mediastínica', credit: 'Manual CTO Hematología 14.ª ed., p. 71' },
-      ],
-      steps: [
-        { note: 'Célula con ojos de búho',
-          say: 'La célula de Reed Sternberg tiene dos núcleos con nucléolos grandes, como ojos de búho.' },
-        { note: 'Mediastino ensanchado',
-          say: 'Y el Hodgkin se presenta a menudo como una masa en el mediastino.' },
-      ],
-    },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-18/03_ann-arbor__cto-hemato_p70.jpg', label: 'Estadificación de Ann Arbor', credit: 'Manual CTO Hematología 14.ª ed., p. 70' },
-        { src: 'biblioteca/06_hematologia/hem-18/04_pet-en-hodgkin__amir-hemato_p80.jpg', label: 'PET en el linfoma de Hodgkin', credit: 'Manual AMIR Hematología, p. 80' },
-      ],
-      steps: [
-        { note: 'Estadificación de Ann Arbor',
-          say: 'Estadificación de Ann Arbor: el diafragma separa la enfermedad de uno o de ambos lados.' },
-        { note: 'PET en el linfoma de Hodgkin',
-          say: 'PET en el linfoma de Hodgkin: las flechas marcan los ganglios captantes.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -329,6 +350,10 @@ module.exports = {
           say: 'Ganglios a ambos lados del diafragma es estadio tres. El cuatro requiere órganos extralinfáticos como médula, hígado o pulmón.' },
         { cells: ['Linfoma folicular asintomático', 'Observar', 'Quimioterapia de entrada'],
           say: 'Folicular asintomático: se observa. La quimioterapia de entrada no lo cura.' },
+        { cells: ['Masa mediastínica con disnea o vena cava superior', 'Urgencia: vía aérea primero, sin sedar ni acostar', 'Pedir TAC en decúbito sin evaluar la vía aérea'],
+          say: 'Una masa mediastínica con disnea es una urgencia. Primero la vía aérea: no se seda ni se acuesta al paciente sin evaluarla, y se deriva.' },
+        { cells: ['Dermatosis crónica refractaria con placas escamosas', 'Biopsia cutánea: sospechar micosis fungoide', 'Seguir con corticoides potentes meses'],
+          say: 'Y una dermatosis crónica que no responde, con placas escamosas pruriginosas: piensa en micosis fungoide y haz una biopsia, antes de usar corticoides potentes.' },
         { cells: ['MALT gástrico temprano', 'Erradicar H. pylori', 'Quimioterapia o gastrectomía'],
           say: 'Y MALT gástrico temprano: erradicación del Helicobacter, no quimioterapia ni cirugía.' },
       ],
@@ -447,6 +472,120 @@ module.exports = {
         options: 'Las opciones son: biopsia de médula ósea, serologías virales, biopsia aspirativa de la adenopatía, biopsia ganglionar excisional, o hemocultivos. Piénsalo.',
         answer: 'Es la D, la biopsia ganglionar excisional. Por la edad, probablemente es un no Hodgkin, pero eso lo decide el patólogo con el ganglio entero. El distractor está puesto a propósito: la biopsia aspirativa. Suena a biopsia, pero es la punción con aguja fina y no muestra la arquitectura. Y fíjate: el hemograma normal no descarta un linfoma.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.033 · Linfomas",
+      "stem": "Un adolescente de 15 años consulta por una adenopatía supraclavicular izquierda indolora, de consistencia elástica, de 3 cm, que crece desde hace 6 semanas. Refiere sudoración nocturna y baja de 5 kg de peso. La radiografía de tórax muestra ensanchamiento mediastínico.",
+      "question": "¿Cuál es el examen que confirma el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Punción aspirativa con aguja fina del ganglio"
+        },
+        {
+          "letter": "B",
+          "text": "Mielograma"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de tórax, abdomen y pelvis"
+        },
+        {
+          "letter": "D",
+          "text": "Serología para virus Epstein-Barr"
+        },
+        {
+          "letter": "E",
+          "text": "Biopsia excisional del ganglio"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Adenopatía supraclavicular, síntomas B y masa mediastínica en un adolescente sugieren linfoma de Hodgkin. El diagnóstico requiere biopsia excisional del ganglio completo, que permite ver la arquitectura y las células de Reed-Sternberg. La punción con aguja fina no basta para clasificar un linfoma. El TAC y el PET sirven para etapificar, después de confirmar.",
+      "say": {
+        "stem": "Un adolescente de quince años tiene una adenopatía supraclavicular que crece, sudoración nocturna, baja de peso y ensanchamiento del mediastino.",
+        "question": "¿Qué examen confirma el diagnóstico?",
+        "options": "Las opciones: punción con aguja fina, mielograma, TAC de etapificación, serología para Epstein-Barr o biopsia excisional. Piénsalo.",
+        "answer": "Es la E. Se sospecha un linfoma y se confirma con biopsia excisional del ganglio. La punción con aguja fina tienta por ser menos invasiva, pero no muestra la arquitectura ganglionar necesaria para clasificar el linfoma."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.4.001 · Radiografía de tórax",
+      "stem": "Mujer de 22 años con fiebre vespertina, sudoración nocturna, prurito y baja de peso de 3 meses. Al examen presenta adenopatías supraclaviculares indoloras, de consistencia gomosa. Se solicita radiografía de tórax.",
+      "question": "¿Cuál es el hallazgo radiológico más esperable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ensanchamiento del mediastino por masa mediastínica anterior"
+        },
+        {
+          "letter": "B",
+          "text": "Cavitación en el lóbulo superior derecho"
+        },
+        {
+          "letter": "C",
+          "text": "Patrón intersticial reticular basal bilateral"
+        },
+        {
+          "letter": "D",
+          "text": "Nódulo pulmonar periférico calcificado"
+        },
+        {
+          "letter": "E",
+          "text": "Neumotórax espontáneo"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Una mujer joven con síntomas B, prurito y adenopatías supraclaviculares orienta a linfoma de Hodgkin esclerosis nodular, que con frecuencia presenta masa mediastínica anterior, vista como ensanchamiento del mediastino. Una masa voluminosa empeora el pronóstico y debe evaluarse antes de sedar por riesgo de compresión de la vía aérea. El diagnóstico requiere biopsia excisional del ganglio.",
+      "say": {
+        "stem": "Mujer de veintidós años con fiebre, sudoración nocturna, prurito, baja de peso y adenopatías supraclaviculares gomosas.",
+        "question": "¿Qué esperas ver en la radiografía de tórax?",
+        "options": "Las opciones: masa mediastínica anterior, cavitación apical, patrón intersticial, nódulo calcificado, o neumotórax. Piénsalo.",
+        "answer": "Es la A. Ensanchamiento mediastínico por una masa anterior, típica del linfoma de Hodgkin. La cavitación apical tienta por la fiebre y sudoración, pero apunta a tuberculosis."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2024 · Pregunta 113",
+      "stem": "Paciente con prurito intenso, eritema y descamación difusos de la piel incluyendo ambas manos, que se ven eritematosas y descamativas, engrosamiento de las uñas de manos y pies, y aumento de volumen inguinal bilateral por adenopatías.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Linfoma cutáneo (síndrome de Sézary)"
+        },
+        {
+          "letter": "B",
+          "text": "Sarna noruega"
+        },
+        {
+          "letter": "C",
+          "text": "Psoriasis"
+        },
+        {
+          "letter": "D",
+          "text": "Dermatitis crónica"
+        },
+        {
+          "letter": "E",
+          "text": "Dermatitis atópica"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La tríada de eritrodermia pruriginosa, adenopatías y células de Sézary (linfocitos T atípicos) circulantes define el síndrome de Sézary, la forma leucémica del linfoma T cutáneo (relacionado con micosis fungoide). Se acompaña de queratodermia palmoplantar y onicodistrofia. Se confirma con biopsia de piel, frotis y citometría de flujo.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticuatro. Paciente con prurito intenso, piel roja y descamada en forma difusa incluyendo las manos, uñas engrosadas y ganglios inguinales aumentados.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: síndrome de Sézary, sarna noruega, psoriasis, dermatitis crónica o dermatitis atópica. Piénsalo.",
+        "answer": "Es la A. Eritrodermia pruriginosa con adenopatías orienta a un linfoma cutáneo de células T, el síndrome de Sézary. La psoriasis tienta porque también puede dar eritrodermia y alterar uñas, pero no explica las adenopatías ni el prurito tan intenso."
+      }
     },
 
     {

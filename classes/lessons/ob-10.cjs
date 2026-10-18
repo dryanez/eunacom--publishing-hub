@@ -43,13 +43,18 @@ module.exports = {
         { show: ['lcf'], note: 'Amenaza de aborto',
           say: 'Si la ecografía muestra un embrión con latidos, es una amenaza de aborto: el embarazo sigue vivo.' },
         { show: ['sin'], note: 'Aborto retenido',
-          say: 'Si el embrión no tiene latidos, o hay un saco sin ningún embrión adentro, y la cavidad no está vacía, es un aborto retenido: el embarazo ya murió, pero el cuerpo todavía no lo expulsó.' },
+          say: 'Si el embrión no tiene latidos, o hay un saco sin ningún embrión adentro, como este saco que ves en la ecografía, y la cavidad no está vacía, es un aborto retenido: el embarazo ya murió, pero el cuerpo todavía no lo expulsó.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-10/01_aborto-precoz-tardio-gestacion-interrump_alt2__cto-gyo_p124.jpg', label: 'Saco sin embrión', at: 'como este saco', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 124' } },
         { show: ['vac'], note: 'Aborto completo',
           say: 'Y si la cavidad está vacía, con un endometrio fino y regular, es un aborto completo: ya se expulsó todo, y el cuello volvió a cerrarse.' },
         { show: ['abi'], note: 'Abierto siempre significa que algo se está vaciando',
           say: 'Ahora, si el orificio está abierto, la cavidad se está vaciando en este momento, o ya perdió su contenido de forma incompleta.' },
         { show: ['res'], note: 'Aborto incompleto',
-          say: 'Con restos ovulares todavía dentro del útero, es un aborto incompleto. Y si además hay fiebre y mal olor, guarda esa alarma, porque volvemos a ella enseguida.' },
+          say: 'Con restos ovulares todavía dentro del útero, es un aborto incompleto. Mira esta ecografía con Doppler: los restos se ven como una masa con flujo dentro de la cavidad. Y esto otro es lo que se expulsa en un aborto precoz: el embrión y los restos ovulares. Si además hay fiebre y mal olor, guarda esa alarma, porque volvemos a ella enseguida.',
+          photos: [
+            { src: 'biblioteca/14_obstetricia/ob-10/092_ob_Aborto__Rumack_p1116.jpg', label: 'Restos con Doppler', at: 'Mira esta ecografía', credit: 'Diagnostic Ultrasound (Rumack), p. 1116' },
+            { src: 'biblioteca/14_obstetricia/ob-10/01_aborto-precoz-tardio-gestacion-interrump__cto-gyo_p123.jpg', label: 'Embrión y restos expulsados', at: 'lo que se expulsa', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 123' },
+          ] },
       ],
     },
 
@@ -149,19 +154,62 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Aborto provocado',
+      title: 'Fuera de las tres causales, es inseguro',
+      cards: [
+        { title: 'Definición', tag: 'Antes de las 22 semanas', kind: 'key', items: [
+          { t: 'Interrupción deliberada', d: 'Antes de 22 semanas o fetos de menos de 500 gramos',
+            say: 'Aborto provocado es la interrupción deliberada del embarazo antes de las veintidós semanas, o con un feto de menos de quinientos gramos. Fuera de las tres causales de la ley, es un delito en Chile, y por eso ocurre en condiciones clandestinas e inseguras.' },
+          { t: 'Causa evitable de muerte materna', d: 'Sondas, sustancias, misoprostol sin control',
+            say: 'Se hace con sondas o instrumentos, con sustancias introducidas, o con misoprostol sin ningún control. El aborto inseguro es una causa evitable de mortalidad materna, y debes sospecharlo en toda mujer en edad fértil con metrorragia, dolor y fiebre, aunque lo niegue.' },
+        ] },
+        { title: 'Complicaciones', tag: 'Se preguntan', kind: 'alert', items: [
+          { t: 'Hemorragia y aborto incompleto', d: 'Por restos retenidos',
+            say: 'La complicación más frecuente es la hemorragia, por restos retenidos, es decir, un aborto incompleto.' },
+          { t: 'Perforación uterina', d: 'Lesión de asas, vejiga o vasos',
+            say: 'Si hubo instrumentos, puede haber perforación del útero con lesión de asas intestinales, de la vejiga o de vasos.' },
+          { t: 'Sepsis, Asherman, infertilidad', d: 'Por infección y enfermedad inflamatoria pélvica',
+            say: 'Y después vienen la infección y el aborto séptico, las sinequias de Asherman, la infertilidad por enfermedad inflamatoria pélvica, y en el peor caso, la muerte materna.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Aborto provocado',
+      title: 'Qué haces tú, paso a paso',
+      cards: [
+        { title: 'Primero', tag: 'Estabilizar y confirmar', kind: 'key', items: [
+          { t: 'Vía venosa, volumen, grupo y Rh', d: 'Descartar perforación o sepsis',
+            say: 'Primero estabilizas: vía venosa, volumen, grupo y Rh, hemograma. Descartas perforación o sepsis, buscando abdomen agudo y fiebre, y confirmas con una ecografía.' },
+        ] },
+        { title: 'Luego', tag: 'Evacuar y proteger', kind: 'pharma', items: [
+          { t: 'Evacuar: AMEU o misoprostol', d: 'Según edad gestacional y estabilidad',
+            say: 'Evacúas el útero con aspiración manual o con misoprostol, según la edad gestacional y la estabilidad. Si sospechas infección, antibióticos de amplio espectro, antes de evacuar.' },
+          { t: 'Anti D si es Rh negativa', d: 'Y derivar si hay perforación o sepsis',
+            say: 'A la paciente Rh negativa le das inmunoglobulina anti D. Y la derivas a nivel secundario si hay perforación, sepsis o falla del tratamiento.' },
+        ] },
+        { title: 'Antes del alta', tag: 'Sin juicio', kind: 'alert', items: [
+          { t: 'Consejería y anticoncepción', d: 'DIU o método hormonal antes del alta',
+            say: 'Antes del alta, siempre ofreces consejería y anticoncepción: un dispositivo intrauterino o un método hormonal, y apoyo psicosocial.' },
+          { t: 'Sin condicionar a confesión', d: 'Se resguarda la confidencialidad',
+            say: 'Y la atención nunca se condiciona a una confesión ni a una denuncia: se atiende sin juicio, y se resguarda la confidencialidad.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Aborto: la ecografía y los restos',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cuello y ecografía en cada forma',
       images: [
-        { src: 'biblioteca/14_obstetricia/ob-10/01_aborto-precoz-tardio-gestacion-interrump_alt2__cto-gyo_p124.jpg', label: 'Aborto retenido: gestación sin latido', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 124' },
-        { src: 'biblioteca/14_obstetricia/ob-10/01_aborto-precoz-tardio-gestacion-interrump__cto-gyo_p123.jpg', label: 'Aborto precoz: embrión y restos expulsados', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 123' },
+        { src: 'animaciones/ob-10/A1_formas_aborto.mp4', label: 'Las cinco formas de aborto', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Gestación detenida',
-          say: 'En el aborto retenido el cuello está cerrado y la ecografía muestra una gestación sin latidos: el embarazo ya murió, pero el cuerpo todavía no lo expulsó.' },
-        { note: 'Lo que se expulsa',
-          say: 'Y esto es lo que se expulsa en un aborto: el embrión y los restos ovulares. Si quedan restos en la cavidad, es un aborto incompleto.' },
+        { note: 'Cerrado, cerrado, cerrado; abierto, abierto',
+          say: 'Mira el útero y fíjate en el orificio cervical interno. En la amenaza el cuello está cerrado y el embrión tiene latidos. En el aborto retenido sigue cerrado, pero ya no hay latidos. En el completo, el cuello se abre para expulsar todo y vuelve a cerrarse, y la cavidad queda vacía. En el incompleto el cuello está abierto y quedan restos adentro. Y en el séptico, además, hay fiebre y mal olor: ahí primero va el antibiótico.' },
       ],
     },
 
@@ -279,6 +327,44 @@ module.exports = {
         options: 'Las opciones: informar que no procede y derivar a consejería, realizar la interrupción por su sola solicitud, derivar a matrona, hospitalizar para observación, o referir a un comité de ética. Piénsalo.',
         answer: 'Es la A. La ley chilena solo despenaliza tres causales, y ninguna está presente aquí. No procede la interrupción, y tu rol es informarle esto con claridad, orientarla, y derivarla a apoyo psicosocial. No hay comité que pueda autorizar una cuarta causal que la ley no contempla.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.2.001 · Aborto provocado",
+      "stem": "Mujer de 24 años, con 10 semanas de amenorrea, consulta en urgencia por metrorragia abundante, fiebre de 38,9 °C y dolor hipogástrico. Reconoce haberse introducido comprimidos de misoprostol comprados por internet hace 3 días. PA 95/60 mmHg, FC 112 lpm. Útero sensible, flujo de mal olor por el orificio cervical abierto.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dar de alta con misoprostol adicional para completar el aborto"
+        },
+        {
+          "letter": "B",
+          "text": "Denunciar a Fiscalía y diferir el tratamiento hasta su declaración"
+        },
+        {
+          "letter": "C",
+          "text": "Hospitalizar, iniciar antibióticos endovenosos de amplio espectro y evacuar el útero, resguardando el secreto profesional"
+        },
+        {
+          "letter": "D",
+          "text": "Indicar antibióticos orales y control en 7 días"
+        },
+        {
+          "letter": "E",
+          "text": "Realizar histerectomía de urgencia como primera medida"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Es un aborto séptico por un aborto provocado: hospitalizar, estabilizar, antibióticos endovenosos (por ejemplo clindamicina más gentamicina) y evacuación uterina. La atención no puede condicionarse a una confesión ni a una denuncia; rige el secreto profesional. La histerectomía queda para la falla del tratamiento.",
+      "say": {
+        "stem": "Mujer de veinticuatro años, con diez semanas de amenorrea, llega con sangrado abundante, fiebre de treinta y ocho coma nueve y dolor en el hipogastrio. Cuenta que se introdujo misoprostol comprado por internet hace tres días. Está taquicárdica, con presión de noventa y cinco con sesenta, útero sensible y flujo de mal olor.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: alta con más misoprostol, denunciar y diferir el tratamiento, hospitalizar con antibióticos endovenosos y evacuación uterina resguardando el secreto, antibióticos orales y control, o histerectomía de entrada. Piénsalo.",
+        "answer": "Es la C. Es un aborto séptico: hospitalizas, das antibióticos endovenosos de amplio espectro y evacúas el útero, y lo haces resguardando el secreto profesional. Denunciar o condicionar la atención es incorrecto y además pone en riesgo su vida; la histerectomía solo se plantea si el tratamiento falla."
+      }
     },
 
     {

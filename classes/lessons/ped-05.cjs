@@ -47,11 +47,13 @@ module.exports = {
           { t: 'Coriza y tos', d: 'Dos a tres días antes',
             say: 'Casi siempre empieza igual: dos a tres días de coriza, congestión y tos seca, con poca fiebre. Un cuadro catarral común, sin nada llamativo todavía.' },
           { t: 'Luego, dificultad para respirar', d: 'Y rechazo de la alimentación',
-            say: 'Y ahí, de forma progresiva, se agrega la dificultad respiratoria y el niño empieza a rechazar el pecho o la mamadera. Ese cambio es la señal de que hay que examinarlo con más cuidado.' },
+            say: 'Y ahí, de forma progresiva, se agrega la dificultad respiratoria y el niño empieza a rechazar el pecho o la mamadera. Mira a este lactante: respira con esfuerzo, con retracciones y aleteo nasal. Ese cambio es la señal de que hay que examinarlo con más cuidado.',
+            photo: { src: 'biblioteca/15_pediatria/ped-05/01_distres-en-bronquiolitis__cto-pediatria_p52.jpg', label: 'Dificultad respiratoria', at: 'Mira a este lactante', credit: 'Manual CTO Pediatría 14.ª ed., p. 52' } },
         ] },
         { title: 'Diagnóstico', tag: 'Es clínico', kind: 'key', items: [
           { t: 'No se pide radiografía siempre', d: 'Solo si hay duda o complicación',
-            say: 'El diagnóstico es clínico, y esto se pregunta harto: no le pidas radiografía de tórax a todo lactante con sibilancias. La reservas para cuando hay duda diagnóstica, o sospechas una complicación como atelectasia o neumotórax. Pedirla de rutina no cambia la conducta y solo expone al niño a radiación innecesaria, así que si te la ofrecen como primera opción en una pregunta, casi siempre es la alternativa incorrecta.' },
+            say: 'El diagnóstico es clínico, y esto se pregunta harto: no le pidas radiografía de tórax a todo lactante con sibilancias. La reservas para cuando hay duda diagnóstica, o sospechas una complicación como atelectasia o neumotórax. Cuando la pides, esta es la radiografía típica: tórax hiperinsuflado. Pedirla de rutina no cambia la conducta, así que si te la ofrecen como primera opción en una pregunta, casi siempre es la alternativa incorrecta.',
+            photo: { src: 'biblioteca/15_pediatria/ped-05/02_rx-bronquiolitis__cto-pediatria_p52.jpg', label: 'Rx: hiperinsuflación', at: 'esta es la radiografía típica', credit: 'Manual CTO Pediatría 14.ª ed., p. 52' } },
         ] },
       ],
     },
@@ -149,6 +151,134 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Coqueluche',
+      title: 'Tos convulsiva: tres fases',
+      nodes: [
+        { id: 'bp', col: 0, row: 1, k: 'cause', t: 'Bordetella pertussis', s: 'Gotitas; notificación inmediata' },
+        { id: 'cat', col: 1, row: 1, k: 'mech', t: 'Fase catarral', s: '1 a 2 semanas, como un resfrío' },
+        { id: 'par', col: 2, row: 1, k: 'alert', t: 'Fase paroxística', s: '2 a 6 semanas: quintas y gallito' },
+        { id: 'con', col: 3, row: 1, k: 'good', t: 'Convaleciente', s: 'La tos va cediendo' },
+        { id: 'lac', col: 2, row: 3, k: 'risk', t: 'Lactante menor de 3 a 6 meses', s: 'Apnea y cianosis, sin gallito' },
+      ],
+      edges: [
+        { from: 'bp', to: 'cat' }, { from: 'cat', to: 'par' }, { from: 'par', to: 'con' }, { from: 'par', to: 'lac' },
+      ],
+      steps: [
+        { show: ['bp'], note: 'Se notifica de inmediato',
+          say: 'Además de la bronquiolitis, otra causa de tos en el lactante que se pregunta es el coqueluche, la tos convulsiva, producida por Bordetella pertussis. Se transmite por gotitas y es de notificación obligatoria inmediata.' },
+        { show: ['cat', 'par'], note: 'Catarral, luego paroxística',
+          say: 'Tiene tres fases. La catarral dura una a dos semanas y parece un resfrío. Después viene la paroxística, de dos a seis semanas, con tos en quintas, un estridor inspiratorio que llaman gallito, cianosis y vómitos después de toser.' },
+        { show: ['con'], note: 'Convaleciente',
+          say: 'Y por último la fase convaleciente, en que la tos va cediendo poco a poco.' },
+        { show: ['lac'], note: 'El grupo de mayor riesgo',
+          say: 'Ojo con el lactante menor de tres a seis meses: muchas veces no tiene gallito, y predominan las apneas y la cianosis. Es el grupo con más complicaciones, como neumonía, hipertensión pulmonar, convulsiones y encefalopatía, y el de mayor mortalidad.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Coqueluche',
+      title: 'Diagnóstico, tratamiento y prevención',
+      cards: [
+        { title: 'Diagnóstico', tag: 'Tos de más de 2 semanas con paroxismos', kind: 'key', items: [
+          { t: 'Linfocitosis marcada', d: 'Sobre 20.000 por mm³; mal pronóstico sobre 50.000',
+            say: 'Sospéchalo ante una tos de más de dos semanas con paroxismos. El hemograma muestra leucocitosis con linfocitosis marcada, sobre veinte mil, y cifras sobre cincuenta mil se asocian a mal pronóstico.' },
+          { t: 'PCR en aspirado nasofaríngeo', d: 'De elección en las primeras 3 a 4 semanas',
+            say: 'La confirmación es con PCR de Bordetella pertussis en aspirado nasofaríngeo, que es lo mejor en las primeras tres a cuatro semanas, o con cultivo.' },
+        ] },
+        { title: 'Tratamiento', tag: 'Macrólido', kind: 'pharma', items: [
+          { t: 'Azitromicina 10 mg/kg/día por 5 días', d: 'De elección en menores de 6 meses',
+            say: 'Se trata con un macrólido, que acorta el período de contagio, pero cambia poco la tos si se da tarde. De elección, azitromicina, diez miligramos por kilo al día por cinco días, sobre todo en menores de seis meses. Evita la eritromicina en menores de un mes por el riesgo de estenosis hipertrófica del píloro.' },
+          { t: 'Hospitalizar menores de 3 a 6 meses', d: 'Y todo niño con apnea, cianosis o neumonía',
+            say: 'Hospitalizas a los menores de tres a seis meses y a todo niño con apneas, cianosis, neumonía o convulsiones, con aislamiento de gotitas hasta completar cinco días de tratamiento.' },
+        ] },
+        { title: 'Prevención', tag: 'Vacuna y contactos', kind: 'normal', items: [
+          { t: 'Hexavalente y dTpa', d: '2, 4, 6 meses y refuerzo a los 18; embarazada desde 28 semanas',
+            say: 'La prevención es la vacuna hexavalente a los dos, cuatro y seis meses con refuerzo a los dieciocho, la dTpa en primero y octavo básico, y la dTpa a la embarazada desde las veintiocho semanas.' },
+          { t: 'Quimioprofilaxis a contactos', d: 'Con el mismo macrólido',
+            say: 'Y los contactos cercanos, sobre todo si hay lactantes o embarazadas en el hogar, reciben quimioprofilaxis con el mismo macrólido.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Oxigenoterapia',
+      title: 'Cuándo dar oxígeno y con qué dispositivo',
+      cards: [
+        { title: 'Indicación y meta', tag: 'Saturometría continua', kind: 'key', items: [
+          { t: 'Saturación bajo 93% al aire', d: 'Meta de 93 a 97%',
+            say: 'El oxígeno se indica con saturación bajo noventa y tres por ciento al aire ambiente, con cianosis, dificultad respiratoria grave, shock o paro. La meta es de noventa y tres a noventa y siete por ciento.' },
+          { t: 'Prematuro: evitar hiperoxia', d: 'Meta de 90 a 95%',
+            say: 'En el recién nacido prematuro evitas la hiperoxia, con meta de noventa a noventa y cinco, por el riesgo de retinopatía y displasia broncopulmonar. Siempre con saturometría continua y reevaluando a los treinta a sesenta minutos.' },
+        ] },
+        { title: 'Dispositivos', tag: 'De menor a mayor FiO₂', kind: 'criteria', items: [
+          { t: 'Cánula nasal: hasta 4 L/min', d: 'FiO₂ de 24 a 40%',
+            say: 'La cánula nasal es de bajo flujo: hasta dos litros por minuto en el lactante y cuatro en el niño, con una fracción inspirada de veinticuatro a cuarenta por ciento.' },
+          { t: 'Mascarilla simple y con reservorio', d: '5 a 10 L/min; 10 a 15 L/min',
+            say: 'La mascarilla simple va de cinco a diez litros, con mínimo cinco para evitar reinhalación. La con reservorio, de diez a quince litros, llega a una fracción de hasta noventa y cinco por ciento.' },
+          { t: 'Alto flujo en bronquiolitis moderada a grave', d: 'Humidificado y calentado, 1 a 2 L/kg/min',
+            say: 'Y la cánula de alto flujo, humidificada y calentada, se indica en la bronquiolitis moderada a grave con hipoxemia o trabajo respiratorio persistente a pesar del oxígeno convencional. Si no basta, CPAP o ventilación mecánica.' },
+        ] },
+        { title: 'Técnica y retiro', tag: 'Seguro y gradual', kind: 'normal', items: [
+          { t: 'Retiro gradual', d: 'Saturación estable sobre 93%',
+            say: 'Verificas la fuente y el flujómetro, humidificas si el flujo es alto, fijas el dispositivo sin comprimir la piel y revisas las fosas nasales. El retiro es gradual, cuando mantiene más de noventa y tres por ciento de forma estable.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Gases en sangre arterial',
+      title: 'Gasometría en el niño con dificultad respiratoria',
+      cards: [
+        { title: 'Cómo se lee', tag: 'En orden', kind: 'key', items: [
+          { t: 'pH, luego componente primario', d: 'pH 7,35-7,45; PaCO₂ 35-45; HCO₃ 22-26',
+            say: 'Los valores normales son pH de siete coma treinta y cinco a siete coma cuarenta y cinco, presión de dióxido de carbono de treinta y cinco a cuarenta y cinco, y bicarbonato de veintidós a veintiséis. Se lee en orden: primero el pH, después el componente primario, presión de dióxido de carbono o bicarbonato, y por último la compensación.' },
+        ] },
+        { title: 'Dos tipos de insuficiencia', tag: 'Hipoxémica o hipercápnica', kind: 'criteria', items: [
+          { t: 'Tipo I: PaO₂ bajo 60', d: 'PaCO₂ normal o baja; neumonía, bronquiolitis',
+            say: 'La insuficiencia tipo uno es hipoxémica: presión de oxígeno bajo sesenta, con presión de dióxido de carbono normal o baja, típica de neumonía y bronquiolitis.' },
+          { t: 'Tipo II: PaCO₂ sobre 50', d: 'Acidosis respiratoria por fatiga',
+            say: 'La tipo dos es hipercápnica: presión de dióxido de carbono sobre cincuenta, con acidosis respiratoria por fatiga muscular.' },
+        ] },
+        { title: 'La trampa del agotamiento', tag: 'Se pregunta', kind: 'alert', items: [
+          { t: 'PaCO₂ "normal" en un niño taquipneico', d: 'Falla ventilatoria inminente',
+            say: 'Aquí está la trampa. En un niño con bronquiolitis o síndrome obstructivo grave que venía taquipneico, una presión de dióxido de carbono normal, o que sube, es signo de agotamiento y de falla ventilatoria inminente.' },
+          { t: 'pH bajo 7,30 o PaCO₂ sobre 55-60', d: 'UCI y soporte ventilatorio',
+            say: 'Con pH bajo siete coma treinta, o presión de dióxido de carbono sobre cincuenta y cinco a sesenta, va a la unidad de cuidados intensivos con soporte ventilatorio. Y recuerda que la saturometría no detecta la retención de dióxido de carbono: no reemplaza al gas.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Estudio etiológico',
+      title: 'Qué examen pedir para el virus y la bacteria',
+      cards: [
+        { title: 'Inmunofluorescencia directa', tag: 'Aspirado nasofaríngeo', kind: 'key', items: [
+          { t: 'Resultado en 2 a 4 horas', d: 'VRS, influenza, adenovirus, parainfluenza',
+            say: 'La inmunofluorescencia directa detecta virus respiratorio sincicial, influenza, adenovirus, parainfluenza y metapneumovirus en dos a cuatro horas. Es muy específica, sobre noventa y cinco por ciento, con sensibilidad moderada: si es positiva confirma, pero si es negativa no descarta.' },
+          { t: 'No de rutina en lo ambulatorio', d: 'Se pide al hospitalizar, para cohortes',
+            say: 'No se pide de rutina en la bronquiolitis ambulatoria, porque no cambia el manejo. Se solicita en los hospitalizados, para agrupar pacientes en cohortes y aislamiento y para vigilancia epidemiológica.' },
+        ] },
+        { title: 'PCR y serología', tag: 'Más sensible; infección reciente', kind: 'criteria', items: [
+          { t: 'PCR múltiple: más sensible', d: 'Detecta coinfecciones; puede seguir positiva semanas',
+            say: 'El panel de PCR múltiple es más sensible, detecta coinfecciones y virus menos frecuentes, pero puede quedar positivo semanas después del cuadro.' },
+          { t: 'IgM reciente; IgG sube 4 veces', d: 'Menor de 6 meses: IgG es materna',
+            say: 'En la serología, la IgM indica infección reciente, como en Mycoplasma. Y un aumento de IgG de cuatro veces entre dos muestras confirma de forma retrospectiva. En menores de seis meses la IgG es materna y no sirve.' },
+        ] },
+        { title: 'Bacterias y aislamiento', tag: 'Qué cultivar y cómo aislar', kind: 'alert', items: [
+          { t: 'Hemocultivo y líquido pleural; esputo no', d: 'El niño pequeño no expectora',
+            say: 'Para bacterias, hemocultivo, cultivo de líquido pleural y tinción de Gram. El esputo no sirve, porque el niño pequeño no expectora.' },
+          { t: 'Gotitas para VRS; aéreo para sarampión', d: 'Aéreo: presión negativa y N95; varicela, TBC',
+            say: 'Y el aislamiento: contacto más gotitas para el virus respiratorio sincicial y la influenza. Precauciones aéreas, con presión negativa y mascarilla ene noventa y cinco, para sarampión, varicela y tuberculosis pulmonar.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -159,23 +289,6 @@ module.exports = {
       steps: [
         { note: 'Entra pero no sale',
           say: 'En el lactante, el bronquiolo es muy pequeño. El edema y el moco lo estrechan, y al espirar se cierra todavía más: el aire entra pero no alcanza a salir y queda atrapado. Por eso aparecen sibilancias y retracciones.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Bronquiolitis',
-      images: [
-        { src: 'biblioteca/15_pediatria/ped-05/01_distres-en-bronquiolitis__cto-pediatria_p52.jpg', label: 'Dificultad respiratoria', credit: 'Manual CTO Pediatría 14.ª ed., p. 52' },
-        { src: 'biblioteca/15_pediatria/ped-05/02_rx-bronquiolitis__cto-pediatria_p52.jpg', label: 'Radiografía', credit: 'Manual CTO Pediatría 14.ª ed., p. 52' },
-      ],
-      steps: [
-        { note: 'Retracciones',
-          say: 'El lactante con bronquiolitis tiene retracciones y aleteo nasal.' },
-        { note: 'Hiperinsuflación',
-          say: 'La radiografía muestra hiperinsuflación, pero no se pide de rutina.' },
       ],
     },
 
@@ -293,6 +406,231 @@ module.exports = {
         options: 'Las opciones: nebulizar con salbutamol, nebulizar con budesonida, dar corticoides orales, dar oxígeno por mascarilla, o corticoides endovenosos.',
         answer: 'Es la D, oxígeno. Este paciente está hipoxémico, y ante eso lo primero siempre es corregir la oxigenación. Conecta esto con lo que dijimos antes: en la bronquiolitis pura, el broncodilatador y el corticoide tienen un beneficio marginal, y lo que de verdad cambia el pronóstico es el oxígeno.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.028 · Síndrome bronquial obstructivo",
+      "stem": "Lactante de 18 meses, con 4 episodios de obstrucción bronquial con sibilancias en los últimos 12 meses, todos tratados con salbutamol y uno que requirió hospitalización. Entre los episodios está asintomático y con buen incremento ponderal. Hoy consulta en control, sin dificultad respiratoria.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salbutamol inhalado diario de forma permanente"
+        },
+        {
+          "letter": "B",
+          "text": "Amoxicilina profiláctica durante el invierno"
+        },
+        {
+          "letter": "C",
+          "text": "Prednisona oral diaria por 3 meses"
+        },
+        {
+          "letter": "D",
+          "text": "Corticoide inhalado de mantención con aerocámara y seguimiento"
+        },
+        {
+          "letter": "E",
+          "text": "No requiere tratamiento, porque hoy está asintomático"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Tres o más episodios obstructivos en el año en un menor de 2 años definen un síndrome bronquial obstructivo recurrente. Con episodios frecuentes o severos se indica corticoide inhalado de mantención con aerocámara. El salbutamol es solo de rescate y el corticoide oral crónico no se usa.",
+      "say": {
+        "stem": "Lactante de dieciocho meses, con cuatro episodios de obstrucción bronquial con sibilancias en el último año, todos tratados con salbutamol y uno con hospitalización. Entre los episodios está bien, y hoy viene a control sin dificultad respiratoria.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: salbutamol diario permanente, amoxicilina profiláctica, prednisona oral por tres meses, corticoide inhalado de mantención con aerocámara o nada porque está asintomático. Piénsalo.",
+        "answer": "Es la D. Tres o más episodios en un año es un síndrome bronquial obstructivo recurrente, y con crisis frecuentes y una hospitalización corresponde un corticoide inhalado de mantención. No tratar porque hoy está bien tienta, pero el objetivo es prevenir la próxima crisis."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.5.006 · Oxigenoterapia",
+      "stem": "Lactante de 4 meses con bronquiolitis de 3 días de evolución. Al examen: FR 62 rpm, tiraje subcostal e intercostal, sibilancias espiratorias y saturación de 89% con aire ambiental. Está alerta y se alimenta con dificultad.",
+      "question": "Respecto del oxígeno, ¿cuál es la indicación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No indicar oxígeno hasta que la saturación baje de 85%"
+        },
+        {
+          "letter": "B",
+          "text": "Nebulizar salbutamol con aire comprimido en vez de oxígeno"
+        },
+        {
+          "letter": "C",
+          "text": "Oxígeno al 100% con mascarilla con reservorio para lograr saturación de 100%"
+        },
+        {
+          "letter": "D",
+          "text": "Intubación y ventilación mecánica inmediatas"
+        },
+        {
+          "letter": "E",
+          "text": "Oxígeno por naricera de bajo flujo, ajustado para mantener saturación de 93% o más"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Una saturación bajo 93% en un lactante con bronquiolitis es criterio de hospitalización y de oxigenoterapia. Se usa naricera de bajo flujo, titulada para saturar 93% o más. No se busca saturar 100% y el niño está alerta, sin criterio de ventilación mecánica.",
+      "say": {
+        "stem": "Lactante de cuatro meses con bronquiolitis de tres días. Respira a sesenta y dos por minuto, tiene tiraje subcostal e intercostal, sibilancias, y satura ochenta y nueve por ciento con aire ambiental. Está alerta, pero le cuesta alimentarse.",
+        "question": "Respecto del oxígeno, ¿cuál es la indicación más adecuada?",
+        "options": "Las opciones: esperar a que sature menos de ochenta y cinco, nebulizar con aire en vez de oxígeno, mascarilla con reservorio para saturar cien, intubar de inmediato o naricera de bajo flujo para saturar noventa y tres o más. Piénsalo.",
+        "answer": "Es la E. Bajo noventa y tres por ciento, el lactante con bronquiolitis necesita oxígeno, y se da por naricera de bajo flujo titulando a noventa y tres o más. La mascarilla al cien por ciento tienta, pero no se busca saturar cien, y en la bronquiolitis el oxígeno bien titulado es lo que cambia el pronóstico."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2017 · Pregunta 72",
+      "stem": "Un recién nacido de 2 semanas es hospitalizado por presentar apneas. La madre refiere tos de 3 semanas de evolución, en crisis, que en ocasiones la hace vomitar.",
+      "question": "¿Cuál es el tratamiento farmacológico más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amoxicilina"
+        },
+        {
+          "letter": "B",
+          "text": "Azitromicina"
+        },
+        {
+          "letter": "C",
+          "text": "Ceftriaxona"
+        },
+        {
+          "letter": "D",
+          "text": "Oseltamivir"
+        },
+        {
+          "letter": "E",
+          "text": "Aciclovir"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Apneas en un recién nacido con una madre con tos paroxística emetizante de 3 semanas sugieren coqueluche (Bordetella pertussis). El tratamiento es un macrólido; en menores de 1 mes se prefiere azitromicina por el menor riesgo de estenosis hipertrófica del píloro. Se confirma con PCR y se trata también a los contactos.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecisiete. Un recién nacido de dos semanas se hospitaliza por apneas. Su madre tiene tos en crisis hace tres semanas, que a veces la hace vomitar.",
+        "question": "¿Cuál es el tratamiento farmacológico más adecuado?",
+        "options": "Las opciones: amoxicilina, azitromicina, ceftriaxona, oseltamivir o aciclovir. Piénsalo.",
+        "answer": "Es la B. Es un coqueluche, que en el recién nacido se presenta con apneas, y se trata con azitromicina, el macrólido preferido en menores de un mes. La ceftriaxona tienta por la gravedad, pero no cubre bien la Bordetella."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.014 · Gases en sangre arterial",
+      "stem": "Un lactante de 10 meses con síndrome bronquial obstructivo lleva 3 horas en tratamiento con salbutamol y oxígeno. Está cada vez más somnoliento, con menor esfuerzo respiratorio y murmullo pulmonar disminuido. Los gases arteriales muestran pH 7,22, presión de dióxido de carbono 62 mmHg, HCO3- 24 mEq/L y presión de oxígeno 58 mmHg.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Acidosis respiratoria aguda con hipoxemia: falla respiratoria global"
+        },
+        {
+          "letter": "B",
+          "text": "Alcalosis respiratoria compensada"
+        },
+        {
+          "letter": "C",
+          "text": "Acidosis metabólica compensada"
+        },
+        {
+          "letter": "D",
+          "text": "Gases normales para la edad"
+        },
+        {
+          "letter": "E",
+          "text": "Alcalosis metabólica"
+        }
+      ],
+      "correct": "A",
+      "explanation": "pH bajo con presión de dióxido de carbono elevada y bicarbonato normal es acidosis respiratoria aguda (sin compensación renal). Junto con hipoxemia, somnolencia y menor esfuerzo, indica insuficiencia respiratoria global por agotamiento. En una obstrucción bronquial, una presión de dióxido de carbono normal o alta es signo de gravedad. Requiere unidad de paciente crítico y probable soporte ventilatorio.",
+      "say": {
+        "stem": "Un lactante con obstrucción bronquial está cada vez más somnoliento, con pH de siete coma veintidós, CO dos de sesenta y dos y bicarbonato normal.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: acidosis respiratoria aguda con hipoxemia, alcalosis respiratoria, acidosis metabólica, gases normales o alcalosis metabólica. Piénsalo.",
+        "answer": "Es la A. pH bajo con CO dos alto y bicarbonato normal es una acidosis respiratoria aguda, que con la hipoxemia indica falla respiratoria global. La acidosis metabólica tienta porque el pH está bajo, pero el bicarbonato es normal y el problema es la retención de CO dos."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.025 · Serología y técnicas de aislamiento viral y bacteriano",
+      "stem": "Un lactante de 3 meses, en época invernal, presenta coriza, tos y luego dificultad respiratoria con sibilancias y crepitaciones difusas. Se hospitaliza y se desea identificar el agente viral para cohortear a los pacientes.",
+      "question": "¿Cuál es el examen más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Serología IgM para virus respiratorios"
+        },
+        {
+          "letter": "B",
+          "text": "Inmunofluorescencia o PCR viral en aspirado o hisopado nasofaríngeo"
+        },
+        {
+          "letter": "C",
+          "text": "Hemocultivo"
+        },
+        {
+          "letter": "D",
+          "text": "Cultivo de expectoración"
+        },
+        {
+          "letter": "E",
+          "text": "Recuento de eosinófilos"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El diagnóstico etiológico de las infecciones respiratorias virales agudas se realiza con detección de antígenos (inmunofluorescencia) o PCR en muestra nasofaríngea, rápida y sensible. En la bronquiolitis el agente más frecuente es el virus respiratorio sincicial. La serología es tardía y poco útil en infecciones agudas; el hemocultivo y el cultivo de expectoración son para bacterias.",
+      "say": {
+        "stem": "Un lactante de tres meses hospitalizado en invierno por bronquiolitis requiere identificar el virus para agrupar pacientes.",
+        "question": "¿Cuál es el examen más adecuado?",
+        "options": "Las opciones: serología IgM, inmunofluorescencia o PCR nasofaríngea, hemocultivo, cultivo de expectoración o eosinófilos. Piénsalo.",
+        "answer": "Es la B. Los virus respiratorios se identifican con inmunofluorescencia o PCR en muestra nasofaríngea. La serología tienta porque es un examen viral, pero tarda semanas en positivizarse y no sirve en la infección aguda."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.4.005 · Detección de agentes virales por inmunofluorescencia",
+      "stem": "Un lactante de 4 meses es hospitalizado en julio por bronquiolitis con requerimiento de oxígeno. Se solicita panel viral por inmunofluorescencia en aspirado nasofaríngeo.",
+      "question": "¿Cuál es la principal utilidad de este examen en este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Decidir el uso de antibióticos de rutina"
+        },
+        {
+          "letter": "B",
+          "text": "Identificar el virus (VRS, influenza, adenovirus, parainfluenza, metapneumovirus) para aislar y cohortar pacientes, y para vigilancia epidemiológica"
+        },
+        {
+          "letter": "C",
+          "text": "Confirmar el diagnóstico de bronquiolitis, que no puede hacerse sin él"
+        },
+        {
+          "letter": "D",
+          "text": "Indicar corticoides"
+        },
+        {
+          "letter": "E",
+          "text": "Evaluar la gravedad del cuadro"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La bronquiolitis es un diagnóstico clínico. En hospitalizados, la inmunofluorescencia del aspirado nasofaríngeo identifica el virus en horas, lo que permite cohortar pacientes, aplicar precauciones de contacto o gotitas y hacer vigilancia epidemiológica; si muestra influenza, orienta a oseltamivir. No define la gravedad ni justifica antibióticos o corticoides.",
+      "say": {
+        "stem": "Un lactante de cuatro meses es hospitalizado en invierno por bronquiolitis con oxígeno, y se pide inmunofluorescencia viral en aspirado nasofaríngeo.",
+        "question": "¿Cuál es la principal utilidad de este examen?",
+        "options": "Las opciones: decidir antibióticos, identificar el virus para aislar, cohortar y vigilar, confirmar el diagnóstico de bronquiolitis, indicar corticoides o evaluar gravedad. Piénsalo.",
+        "answer": "Es la B. La inmunofluorescencia identifica el virus rápido y sirve para aislar y cohortar a los hospitalizados. Confirmar la bronquiolitis tienta, pero ese diagnóstico es clínico."
+      }
     },
 
     {

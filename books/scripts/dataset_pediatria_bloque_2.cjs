@@ -95,6 +95,39 @@ const rawClasses = [
           "• <strong>SBO Severo (Tal 9 a 12):</strong> Hospitalización inmediata. Oxígeno suplementario para saturación ≥ 93%, corticoide sistémico parenteral, nebulización con salbutamol/adrenalina y considerar cánula nasal de alto flujo (CNAF) o ventilación mecánica en UCI.",
           "<em>Aclaración terapéutica en Bronquiolitis típica:</em> Las guías internacionales y chilenas destacan que en la bronquiolitis viral primaria pura los broncodilatadores y corticoides tienen beneficio marginal, siendo el pilar el soporte de oxígeno e hidratación. Sin embargo, en lactantes con SBO recurrente o sospecha de hiperreactividad bronquial, la prueba terapéutica con salbutamol inhalado está firmemente indicada."
         ]
+      },
+      {
+        "subhead": "4. Coqueluche (Tos Convulsiva): Diagnóstico, Tratamiento y Prevención",
+        "paragraphs": [
+          "El <strong>coqueluche</strong> es causado por <em>Bordetella pertussis</em>, de transmisión por gotitas, y es una enfermedad de <strong>notificación obligatoria inmediata</strong>. Tiene tres fases: <em>catarral</em> (1 a 2 semanas, similar a un resfrío), <em>paroxística</em> (2 a 6 semanas: tos en «quintas», <strong>estridor inspiratorio («gallito»)</strong>, cianosis y vómitos post-tusivos) y <em>convaleciente</em>. En el <strong>lactante menor de 3 a 6 meses</strong> es frecuente que no haya «gallito» y que predominen las <strong>apneas y la cianosis</strong>; es el grupo con más complicaciones (neumonía, hipertensión pulmonar, convulsiones, encefalopatía) y mortalidad.",
+          "<em>Diagnóstico:</em> sospecha clínica ante tos de más de 2 semanas con paroxismos. El hemograma muestra <strong>leucocitosis con linfocitosis</strong> marcada (> 20.000/mm³; cifras > 50.000 a 100.000 se asocian a mal pronóstico). La confirmación es por <strong>PCR de Bordetella pertussis en aspirado nasofaríngeo</strong> (de elección en las primeras 3 a 4 semanas) o cultivo; la radiografía puede mostrar infiltrado perihiliar con «corazón peludo».",
+          "<em>Tratamiento:</em> <strong>macrólido</strong>, que acorta el período de contagio pero cambia poco la tos si se da tarde: azitromicina 10 mg/kg/día por 5 días (de elección en menores de 6 meses, evitando la eritromicina en menores de 1 mes por riesgo de estenosis hipertrófica del píloro), o claritromicina 15 mg/kg/día en dos dosis por 7 días; alternativa: cotrimoxazol en mayores de 2 meses. <strong>Hospitalizar</strong> a los menores de 3 a 6 meses, y a todo niño con apneas, cianosis, neumonía o convulsiones. Aislamiento de gotitas hasta completar 5 días de tratamiento.",
+          "<em>Prevención:</em> vacuna hexavalente (2, 4 y 6 meses, refuerzo a los 18 meses), dTpa en 1.° y 8.° básico y <strong>dTpa a la embarazada desde las 28 semanas</strong>. A los contactos cercanos (especialmente si hay lactantes o embarazadas en el hogar) se les da <strong>quimioprofilaxis con el mismo macrólido</strong>."
+        ]
+      },
+      {
+        "subhead": "5. Gases en Sangre Arterial: Interpretación en el Niño con Dificultad Respiratoria",
+        "paragraphs": [
+          "Valores normales: <strong>pH 7,35 a 7,45; PaCO₂ 35 a 45 mmHg; PaO₂ 80 a 100 mmHg; HCO₃ 22 a 26 mEq/L; exceso de base ±2</strong>. Se interpreta en orden: pH (acidemia o alcalemia), componente primario (PaCO₂ o HCO₃) y compensación. Una muestra capilar arterializada es aceptable en el lactante; la arterial requiere punción radial con prueba de Allen, jeringa heparinizada sin burbujas y análisis dentro de 15 minutos.",
+          "• <strong>Insuficiencia respiratoria tipo I (hipoxémica):</strong> PaO₂ < 60 mmHg (o PaO₂/FiO₂ < 300) con PaCO₂ normal o baja, típica de neumonía y bronquiolitis. • <strong>Tipo II (hipercápnica):</strong> PaCO₂ > 50 mmHg con acidosis respiratoria por fatiga muscular. En el niño con bronquiolitis, SBO grave o croup, una <strong>PaCO₂ «normal» o que sube en un paciente que estaba taquipneico es un signo de agotamiento</strong> y de falla ventilatoria inminente (pH < 7,30 o PaCO₂ > 55 a 60 mmHg: UCI y soporte ventilatorio).",
+          "Se solicita en dificultad respiratoria grave, fatiga, alteración de conciencia, saturación < 90% con oxígeno o antes de decidir ventilación no invasiva o intubación. La saturometría no reemplaza al gas en la evaluación de la ventilación (no detecta retención de CO₂)."
+        ]
+      },
+      {
+        "subhead": "6. Estudio Etiológico Respiratorio: Inmunofluorescencia, PCR, Serología y Técnicas de Aislamiento",
+        "paragraphs": [
+          "<strong>Inmunofluorescencia directa (IFD) en aspirado nasofaríngeo:</strong> detecta antígeno de <strong>VRS, influenza A y B, adenovirus, parainfluenza y metapneumovirus</strong> en 2 a 4 horas. Tiene <strong>alta especificidad (> 95%) y sensibilidad moderada (70 a 90%)</strong>: un resultado positivo confirma la etiología viral, pero uno <strong>negativo no la descarta</strong>. La calidad de la muestra (aspirado con células ciliadas) condiciona el resultado. Se solicita en niños hospitalizados para ubicar a los pacientes en <strong>cohortes y aislamiento</strong> y para vigilancia epidemiológica; <strong>no se pide de rutina</strong> en la bronquiolitis ambulatoria, porque no cambia el manejo.",
+          "• <strong>PCR multiplex (panel respiratorio):</strong> más sensible que la IFD, detecta coinfecciones y virus menos frecuentes, pero puede persistir positiva semanas después del cuadro. • <strong>Serología:</strong> la <strong>IgM</strong> indica infección reciente (Mycoplasma, Chlamydia trachomatis) y un aumento de IgG de 4 veces entre dos muestras separadas por 2 a 4 semanas confirma retrospectivamente; en menores de 6 meses la IgG es materna y no sirve. En el lactante expuesto a VIH se usa PCR, no anticuerpos.",
+          "• <strong>Aislamiento bacteriano:</strong> hemocultivo, cultivo de líquido pleural y tinción de Gram; el esputo no es útil porque el niño pequeño no expectora. • <strong>Precauciones de aislamiento:</strong> contacto más gotitas para VRS e influenza; precauciones <strong>aéreas</strong> (habitación con presión negativa y mascarilla N95) para sarampión, varicela y tuberculosis pulmonar."
+        ]
+      },
+      {
+        "subhead": "7. Oxigenoterapia: Indicaciones, Dispositivos y Titulación",
+        "paragraphs": [
+          "<strong>Indicación:</strong> saturación < 93% al aire ambiente (meta 93 a 97%), cianosis, dificultad respiratoria grave, shock o paro. En neonatos prematuros se evita la hiperoxia (meta de 90 a 95%) por el riesgo de retinopatía y displasia broncopulmonar. Siempre se usa <strong>saturometría continua</strong> y se reevalúa a los 30 a 60 minutos.",
+          "• <strong>Cánula nasal (bajo flujo):</strong> 0,25 a 2 L/min en lactantes y hasta 4 L/min en niños; FiO₂ 24 a 40%. • <strong>Mascarilla simple:</strong> 5 a 10 L/min (mínimo 5 para evitar reinhalación), FiO₂ 35 a 60%. • <strong>Mascarilla con reservorio:</strong> 10 a 15 L/min, FiO₂ 60 a 95%. • <strong>Campana cefálica:</strong> en recién nacidos y lactantes pequeños. • <strong>Cánula nasal de alto flujo (CNAF)</strong> humidificada y calentada (1 a 2 L/kg/min): indicada en bronquiolitis moderada a grave con hipoxemia o trabajo respiratorio persistente a pesar de oxígeno convencional. • CPAP y ventilación mecánica en falla respiratoria.",
+          "<em>Técnica:</em> verificar la fuente y el flujómetro, humidificar si el flujo es alto, elegir el dispositivo de tamaño adecuado, fijarlo sin comprimir la piel, ajustar el flujo para alcanzar la meta de saturación, revisar las fosas nasales y registrar flujo, FiO₂ y saturación. El retiro es gradual cuando mantiene saturación > 93% de forma estable. Se corrige la técnica si hay sequedad nasal, epistaxis o distensión gástrica."
+        ]
       }
     ],
     "table": {
@@ -1203,6 +1236,726 @@ const rawClasses = [
         "correcta": "C",
         "explicacion": "A) Incorrecta. El salbutamol no resolverá la obstrucción mecánica.\nB) Incorrecta. Los antibióticos no resuelven la causa subyacente y retrasan el tratamiento definitivo.\nC) Correcta. La presencia de sibilancias fijas unilaterales tras un episodio de atragantamiento con maní, sumado a hiperinsuflación unilateral por mecanismo de válvula en la Rx de tórax, es confirmatoria de aspiración de cuerpo extraño bronquial. El procedimiento de elección estándar de oro para el diagnóstico y extracción es la Broncoscopía Rígida bajo anestesia general en pabellón quirúrgico.\nD) Incorrecta. Las maniobras de Heimlich son solo para asfixia aguda inmediata; en fase subaguda son ineficaces y peligrosas.\nE) Incorrecta. La KNT torácica está contraindicada porque puede movilizar el cuerpo extraño hacia la tráquea causando obstrucción total.",
         "recTag": "Banco Oficial AEE · Perfil V3 2.01.2.003"
+      }
+    ]
+  },
+  {
+    "id": "ped-23",
+    "classId": "ped-23",
+    "tier": 2,
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "18.23",
+    "title": "Cardiología Pediátrica: Soplos, Insuficiencia Cardíaca, Arritmias, Endocarditis y Electrocardiograma",
+    "perfilCode": "2.01.1.054, 2.01.1.052, 2.01.2.012, 2.01.1.049, 2.01.1.051, 2.01.4.012",
+    "dx": "Específico",
+    "tx": "Inicial",
+    "seg": "Derivar",
+    "ges": "GES N° 4: Cardiopatías congénitas operables en menores de 15 años (confirmación y tratamiento). Sin garantía GES específica para soplos inocentes, arritmias ni endocarditis.",
+    "reconstrucciones": "EUNACOM Julio 2015 (Q#154) · EUNACOM Julio 2013 (Q#173)",
+    "frecuencia": "Alta rentabilidad · soplo inocente vs patológico, insuficiencia cardíaca del lactante (furosemida), taquicardia supraventricular inestable (cardioversión) y hemocultivos antes del antibiótico en la endocarditis",
+    "svg": null,
+    "algoTitle": "Algoritmo de Evaluación del Soplo y del Paciente Pediátrico con Sospecha de Cardiopatía",
+    "diagramRows": [
+      {
+        "t": "Niño con soplo cardíaco o sospecha de cardiopatía",
+        "s": "Anamnesis (cansancio al mamar, sudoración, mal incremento ponderal, síncope), saturación, pulsos femorales y presión en 4 extremidades",
+        "type": "acc"
+      },
+      {
+        "t": "Caracterización del soplo y examen cardiovascular",
+        "s": "Sistólico/diastólico · intensidad · frémito · segundo ruido · cianosis · hepatomegalia",
+        "type": "dec"
+      },
+      {
+        "k": "split",
+        "q": "¿Soplo con criterios de inocente?",
+        "al": "Soplo inocente",
+        "ll": "Sí",
+        "left": {
+          "t": "Soplo inocente (Still, flujo pulmonar, zumbido venoso)",
+          "s": "Sistólico corto, ≤ II/VI, vibratorio, cambia con la posición, niño asintomático, pulsos y segundo ruido normales · No requiere estudio: tranquilizar",
+          "type": "acc"
+        },
+        "rl": "No",
+        "right": {
+          "t": "Soplo patológico o dudoso",
+          "s": "Diastólico, holosistólico, ≥ III/VI, frémito, click, S2 fijo o único, cianosis, pulsos femorales débiles, insuficiencia cardíaca, síncope",
+          "type": "crit"
+        }
+      },
+      {
+        "t": "Estudio inicial y derivación",
+        "s": "ECG y radiografía de tórax · saturación pre y postductal · ecocardiograma · derivar a cardiología pediátrica (GES si es cardiopatía congénita operable)",
+        "type": "warn"
+      }
+    ],
+    "contexto": "El médico general debe resolver en el control de salud una pregunta frecuente: ¿este soplo es inocente o hay una cardiopatía? La gran mayoría de los soplos infantiles son inocentes y no requieren estudio, pero cuatro situaciones exigen actuar rápido: la insuficiencia cardíaca del lactante (que se confunde con bronquiolitis), la taquicardia supraventricular con compromiso hemodinámico, la fiebre prolongada en un niño con cardiopatía (endocarditis) y las alteraciones electrocardiográficas que predisponen a muerte súbita. Este tema integra el enfoque inicial, el manejo de urgencia y la derivación oportuna.",
+    "contentSections": [
+      {
+        "subhead": "1. Soplos: Inocente vs Patológico",
+        "paragraphs": [
+          "Hasta el 50 a 70% de los niños tiene un soplo inocente en algún momento. Un <strong>soplo inocente</strong> es sistólico, de baja intensidad (≤ II/VI), de timbre vibratorio o musical, localizado, que cambia con la posición, la fiebre o el ejercicio, <strong>sin frémito</strong>, con segundo ruido normal, pulsos y presión arterial normales, y en un niño asintomático y con buen crecimiento. No requiere ECG, radiografía ni ecocardiograma: se tranquiliza a la familia.",
+          "• <strong>Soplo de Still (vibratorio):</strong> el más frecuente en escolares (3 a 7 años); sistólico, musical, entre el borde esternal izquierdo y el ápex, disminuye al sentarse. • <strong>Soplo pulmonar de flujo:</strong> eyectivo suave en el foco pulmonar, en niños delgados y adolescentes. • <strong>Zumbido venoso:</strong> continuo, supraclavicular o infraclavicular derecho, desaparece al acostar al niño o al comprimir la yugular. • <strong>Estenosis pulmonar periférica fisiológica</strong> del lactante: soplo sistólico en axilas y espalda, que desaparece a los 6 meses.",
+          "<strong>Signos de alarma</strong> de soplo patológico: soplo <strong>diastólico</strong> o <strong>holosistólico</strong>, intensidad ≥ III/VI, <strong>frémito</strong>, chasquido (click), <strong>segundo ruido único o con desdoblamiento fijo</strong>, cianosis, pulsos femorales débiles o diferencia de presión entre brazos y piernas, taquicardia, hepatomegalia, mal incremento ponderal, cansancio al alimentarse, síncope o dolor torácico de esfuerzo. Los soplos del recién nacido o lactante con síntomas deben estudiarse siempre.",
+          "Principales soplos patológicos: <strong>comunicación interventricular</strong> (holosistólico en borde esternal izquierdo bajo, a veces con frémito; los defectos grandes producen insuficiencia cardíaca a las 4 a 8 semanas), <strong>comunicación interauricular</strong> (sistólico eyectivo pulmonar con desdoblamiento fijo del segundo ruido; suele ser asintomática), <strong>ductus arterioso persistente</strong> (continuo «en maquinaria» y pulsos saltones), <strong>estenosis pulmonar o aórtica</strong> (eyectivos con frémito y click), <strong>coartación de la aorta</strong> (pulsos femorales disminuidos e hipertensión en brazos) y <strong>tetralogía de Fallot</strong> (soplo eyectivo pulmonar con cianosis). <em>Conducta (Inicial/Derivar):</em> ECG, radiografía de tórax, saturación en mano derecha y pie, <strong>ecocardiograma</strong> y derivación a cardiología pediátrica; la cardiopatía congénita operable está cubierta por GES."
+        ]
+      },
+      {
+        "subhead": "2. Insuficiencia Cardíaca y Edema Pulmonar en el Niño",
+        "paragraphs": [
+          "En el <strong>recién nacido</strong> la insuficiencia cardíaca (IC) se debe a cardiopatías obstructivas izquierdas dependientes del ductus (coartación crítica, corazón izquierdo hipoplásico) y se presenta como shock a los 7 a 14 días de vida. En el <strong>lactante</strong> es típica de los cortocircuitos izquierda-derecha grandes (comunicación interventricular, canal auriculoventricular, ductus), que se manifiestan cuando cae la resistencia vascular pulmonar, a las 4 a 8 semanas. En el <strong>escolar y adolescente</strong> predominan la miocarditis, las miocardiopatías y la cardiopatía reumática.",
+          "<strong>Clínica del lactante:</strong> cansancio y sudoración al mamar, tomas prolongadas, mal incremento ponderal, <strong>taquipnea y taquicardia</strong>, galope, soplo, <strong>hepatomegalia</strong> y crepitaciones; los edemas periféricos son tardíos. Se confunde con bronquiolitis o neumonía; la hepatomegalia, la cardiomegalia en la radiografía y el galope orientan a la causa cardíaca. En el escolar aparecen disnea, ortopnea, edemas, ingurgitación yugular y dolor abdominal por congestión hepática.",
+          "<strong>Manejo inicial (Inicial/Derivar):</strong> posición semisentada, oxígeno si hay hipoxemia, <strong>furosemida 1 mg/kg EV</strong> (repetible), alimentación fraccionada hipercalórica, tratamiento de la causa (infección, anemia, arritmia), y luego <strong>IECA</strong> (captopril, enalapril), espironolactona y, según el caso, digoxina; el especialista decide la cirugía o el cateterismo. En el <strong>edema pulmonar agudo</strong> (disnea, ortopnea, crepitaciones, espuma rosada) se agregan oxígeno a flujo alto o ventilación no invasiva, furosemida EV y vasodilatadores o inotrópicos (dobutamina) si hay bajo gasto; el <strong>shock cardiogénico</strong> se maneja en UCI. En la miocarditis aguda (niño previamente sano con IC tras cuadro viral) se evitan los bolos de volumen y se confirma con troponina, ECG y ecocardiograma."
+        ]
+      },
+      {
+        "subhead": "3. Arritmias: Taquicardia Supraventricular y Otras Alteraciones del Ritmo",
+        "paragraphs": [
+          "La <strong>taquicardia supraventricular (TSV)</strong> es la arritmia sintomática más frecuente del lactante: frecuencia cardíaca <strong>fija, > 220/min</strong> (> 180 en el niño mayor), regular, <strong>QRS estrecho y sin ondas P visibles</strong>, de inicio y término bruscos. Se diferencia de la taquicardia sinusal (fiebre, dolor, hipovolemia) porque en esta la FC es < 220, variable y hay ondas P. En el lactante se manifiesta por rechazo alimentario, palidez y sudoración, y puede progresar a insuficiencia cardíaca.",
+          "<strong>Tratamiento:</strong> <em>paciente estable:</em> <strong>maniobras vagales</strong> (en el lactante bolsa con hielo y agua sobre la cara por 15 a 30 segundos; en el mayor, Valsalva modificado); si fallan, <strong>adenosina 0,1 mg/kg en bolo rápido EV</strong> seguida de suero (máx. 6 mg; segunda dosis de 0,2 mg/kg). <em>Paciente inestable</em> (shock, compromiso de conciencia, hipotensión): <strong>cardioversión eléctrica sincronizada 0,5 a 1 J/kg</strong> (luego 2 J/kg), sin retrasarla por obtener una vía venosa. Se deriva a cardiología para el estudio y la profilaxis.",
+          "• <strong>Síndrome de Wolff-Parkinson-White:</strong> vía accesoria; el ECG basal muestra PR corto y onda delta. Es causa de TSV y, si se asocia a fibrilación auricular, de muerte súbita; se evita verapamilo y digoxina, y se deriva para ablación. • <strong>Bloqueo AV completo congénito:</strong> bradicardia < 60/min, asociado a lupus materno (anti-Ro/La). • <strong>Síndrome de QT largo:</strong> síncope con el ejercicio, el susto o ruidos intensos, a veces con sordera o antecedente familiar de muerte súbita. • <strong>Taquicardia ventricular y fibrilación ventricular:</strong> raras; sin pulso se manejan como paro con desfibrilación (4 J/kg)."
+        ]
+      },
+      {
+        "subhead": "4. Endocarditis Infecciosa: Sospecha, Diagnóstico y Profilaxis",
+        "paragraphs": [
+          "Se sospecha endocarditis en todo niño con <strong>fiebre prolongada y cardiopatía congénita</strong> (sobre todo cortocircuitos, válvulas o material protésico), cirugía cardíaca previa o catéter venoso central. Los agentes más frecuentes son <strong>estreptococos del grupo viridans</strong> (tras procedimientos dentales; curso subagudo) y <strong><em>Staphylococcus aureus</em></strong> (curso agudo, en recién nacidos, catéteres o corazón sano), además de enterococo y bacilos HACEK.",
+          "<strong>Clínica:</strong> fiebre, soplo nuevo o que cambia, esplenomegalia, baja de peso y fenómenos vasculares (petequias, <strong>hemorragias en astilla</strong> subungueales, lesiones de Janeway) e inmunológicos (<strong>nódulos de Osler</strong>, manchas de Roth, glomerulonefritis). <strong>Diagnóstico:</strong> criterios de Duke modificados; se obtienen <strong>al menos 3 hemocultivos de sitios y momentos distintos antes de iniciar antibióticos</strong> y un <strong>ecocardiograma</strong> (vegetaciones, abscesos, regurgitación). Tratamiento: antibióticos EV por 4 a 6 semanas según germen (penicilina o ceftriaxona con gentamicina para viridans; cloxacilina para <em>S. aureus</em> sensible; vancomicina si es meticilino-resistente) y cirugía en caso de insuficiencia cardíaca refractaria, abscesos, embolias repetidas o vegetaciones grandes. Se deriva a cardiología y hospitaliza.",
+          "<strong>Profilaxis antibiótica</strong>: solo en pacientes de <strong>alto riesgo</strong> (válvula o material protésico, endocarditis previa, cardiopatía congénita cianótica no reparada o con defectos residuales junto a material protésico, y trasplante cardíaco con valvulopatía) que se someten a procedimientos dentales que manipulan la encía o la región periapical: <strong>amoxicilina 50 mg/kg VO</strong> (máx. 2 g) 30 a 60 minutos antes (clindamicina o azitromicina si hay alergia). <strong>No</strong> se indica en soplos inocentes, comunicaciones interauriculares o interventriculares sin complicaciones, ni en procedimientos digestivos o urinarios. La mejor prevención es la higiene dental."
+        ]
+      },
+      {
+        "subhead": "5. Electrocardiograma Pediátrico: Valores Normales e Indicaciones",
+        "paragraphs": [
+          "El ECG se interpreta en orden: <strong>ritmo, frecuencia, eje, intervalos (PR, QRS, QT corregido), hipertrofia y repolarización</strong>. La frecuencia cardíaca normal varía con la edad: recién nacido 120 a 160/min, lactante 100 a 150, 1 a 3 años 90 a 140, 4 a 5 años 80 a 120, escolar 70 a 110 y adolescente 60 a 100. El PR normal es de hasta 0,16 a 0,18 s, el QRS es estrecho (< 0,09 a 0,10 s) y el <strong>QTc (Bazett) normal es < 0,44 s</strong> (≥ 0,46 s es prolongado).",
+          "<strong>Particularidades del niño:</strong> en el recién nacido hay <strong>eje desviado a la derecha</strong> y predominio ventricular derecho (R alta en V1); el «<strong>patrón juvenil</strong>» con ondas T negativas en V1 a V3 es normal hasta la adolescencia, y la arritmia sinusal respiratoria también es normal. Son anormales: PR corto con onda delta (WPW), bloqueos AV, QTc prolongado, QRS ancho, ondas T picudas (hiperkalemia), supradesnivel difuso del ST (pericarditis) y signos de hipertrofia ventricular (R alta en V1 con eje derecho: obstrucción derecha; R alta en V5-V6 con T invertida: obstrucción izquierda).",
+          "<strong>Se solicita ECG</strong> en síncope, palpitaciones, dolor torácico de esfuerzo, soplo patológico, antecedente familiar de muerte súbita, QT largo o miocardiopatía, enfermedad de Kawasaki, miocarditis o pericarditis, intoxicaciones y alteraciones hidroelectrolíticas. El médico general debe <strong>interpretar y emplear</strong> el trazado para decidir derivación urgente (arritmias, QT largo, WPW con síntomas) o seguimiento."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Soplo Inocente vs Soplo Patológico en el Niño",
+      "headers": [
+        "Característica",
+        "Soplo Inocente",
+        "Soplo Patológico",
+        "Conducta"
+      ],
+      "rows": [
+        [
+          "Intensidad y momento",
+          "≤ II/VI, sistólico, corto",
+          "≥ III/VI, holosistólico o diastólico",
+          "Inocente: tranquilizar · Patológico: ecocardiograma"
+        ],
+        [
+          "Frémito / click",
+          "Ausente",
+          "Presente (estenosis valvulares)",
+          "Derivar a cardiología"
+        ],
+        [
+          "Segundo ruido",
+          "Normal, con desdoblamiento fisiológico",
+          "Único, fuerte o con desdoblamiento fijo (CIA)",
+          "ECG y ecocardiograma"
+        ],
+        [
+          "Variación",
+          "Cambia con la posición, fiebre o ejercicio",
+          "Fijo",
+          "Registrar y controlar"
+        ],
+        [
+          "Síntomas y examen",
+          "Asintomático, pulsos normales, crecimiento normal",
+          "Cianosis, hepatomegalia, mal incremento, pulsos femorales débiles",
+          "Estudio completo y derivación"
+        ],
+        [
+          "Ejemplos",
+          "Still, flujo pulmonar, zumbido venoso",
+          "CIV, CIA, DAP, estenosis, coartación, Fallot",
+          "GES si la cardiopatía es operable"
+        ]
+      ]
+    },
+    "treatmentTable": {
+      "title": "Taquicardia Supraventricular: Manejo según Estabilidad Hemodinámica",
+      "headers": [
+        "Situación",
+        "Medida",
+        "Dosis",
+        "Observación"
+      ],
+      "rows": [
+        [
+          "Estable, QRS estrecho",
+          "Maniobras vagales",
+          "Hielo sobre la cara 15 a 30 s (lactante) · Valsalva modificado (mayor)",
+          "No presionar los globos oculares"
+        ],
+        [
+          "Estable, no cede",
+          "Adenosina EV rápida",
+          "0,1 mg/kg (máx. 6 mg) · segunda dosis 0,2 mg/kg (máx. 12 mg)",
+          "Vía venosa proximal y bolo de suero; vida media de segundos"
+        ],
+        [
+          "Inestable (shock, compromiso de conciencia)",
+          "Cardioversión sincronizada",
+          "0,5 a 1 J/kg; si falla, 2 J/kg",
+          "No retrasar por buscar vía venosa; sedar si hay vía"
+        ],
+        [
+          "Wolff-Parkinson-White",
+          "Derivar a cardiología",
+          "Estudio electrofisiológico y ablación",
+          "Evitar verapamilo y digoxina"
+        ]
+      ]
+    },
+    "vignette": "Lactante de 3 meses, alimentado con lactancia materna, es traído a control porque se cansa y suda al mamar, con tomas prolongadas y bajo incremento ponderal (peso cayó dos canales). Al examen: FR 62 por minuto con tiraje subcostal, FC 170 por minuto, saturación 94%, soplo holosistólico III/VI en el borde esternal izquierdo bajo con frémito, galope, crepitaciones basales escasas y hepatomegalia de 4 cm bajo el reborde costal. La radiografía muestra cardiomegalia y plétora pulmonar.",
+    "explicacion": "Es una insuficiencia cardíaca del lactante por un cortocircuito izquierda-derecha grande (comunicación interventricular), que se manifiesta cuando cae la resistencia vascular pulmonar. Los datos que la distinguen de una bronquiolitis son la hepatomegalia, el galope, la cardiomegalia y el soplo con frémito. El manejo inicial es oxígeno si hay hipoxemia, furosemida EV y alimentación fraccionada hipercalórica, y se solicita ecocardiograma y derivación a cardiología pediátrica (GES de cardiopatía congénita operable) para tratamiento definitivo.",
+    "keyPoints": [
+      "Un soplo inocente es sistólico, ≤ II/VI, vibratorio, sin frémito, con segundo ruido normal y en un niño asintomático; no requiere estudio.",
+      "Son signos de soplo patológico: diastólico, holosistólico, ≥ III/VI, frémito, click, S2 fijo o único, cianosis, pulsos femorales débiles o insuficiencia cardíaca.",
+      "La insuficiencia cardíaca del lactante se presenta con cansancio al mamar, taquipnea, hepatomegalia y mal incremento ponderal; el manejo inicial es furosemida EV y oxígeno si hay hipoxemia.",
+      "En la taquicardia supraventricular (FC > 220 con QRS estrecho): maniobras vagales y adenosina 0,1 mg/kg si está estable; cardioversión sincronizada 0,5 a 1 J/kg si está inestable.",
+      "En la endocarditis infecciosa se toman al menos 3 hemocultivos antes de los antibióticos y luego ecocardiograma; la profilaxis dental es solo para cardiopatías de alto riesgo.",
+      "El ECG pediátrico tiene eje a la derecha en el recién nacido y patrón juvenil (T negativa en V1-V3) normal; QTc ≥ 0,46 s es prolongado."
+    ],
+    "questions": [
+      {
+        "stem": "Un niño de 13 años acude a control médico, por una infección respiratoria alta. En su examen físico se ausculta un soplo paraesternal izquierdo, sistólico, de intensidad II/VI, sin otras alteraciones. El diagnóstico más probable es:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Soplo inocente"
+          },
+          {
+            "id": "B",
+            "text": "Ductus arterioso persistente"
+          },
+          {
+            "id": "C",
+            "text": "Miocardiopatía hipertrófica obstructiva"
+          },
+          {
+            "id": "D",
+            "text": "Estenosis aórtica"
+          },
+          {
+            "id": "E",
+            "text": "Coartación aórtica"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "A) Correcta. Un soplo sistólico suave (II/VI), paraesternal, en un niño asintomático y sin otros hallazgos es un soplo inocente (de flujo o de Still); no requiere estudio.\nB) Incorrecta. El ductus produce un soplo continuo «en maquinaria» con pulsos saltones.\nC) Incorrecta. La miocardiopatía hipertrófica obstructiva se acompaña de disnea, síncope o antecedente familiar de muerte súbita, y el soplo aumenta con el Valsalva.\nD) Incorrecta. La estenosis aórtica da un soplo eyectivo más intenso, con frémito y click.\nE) Incorrecta. La coartación se sospecha por pulsos femorales débiles e hipertensión en los brazos.",
+        "recTag": "EUNACOM Julio 2015 · Pregunta 154"
+      },
+      {
+        "stem": "Lactante de 4 meses de edad, sin antecedentes conocidos, alimentado con lactancia materna de forma exclusiva, es traído por presentar bajo incremento ponderal, asociado a cansancio al alimentarse y decaimiento. Se aprecia decaído, saturación arterial de 90%, examen cardiaco con ritmo regular en dos tiempos, con presencia de soplo sistólico, y pulmonar que muestra murmullo pulmonar disminuido en bases, asociado a crepitaciones finas bilaterales. El manejo inicial más adecuado en este caso es:",
+        "options": [
+          {
+            "id": "A",
+            "text": "Administrar furosemida endovenosa"
+          },
+          {
+            "id": "B",
+            "text": "Administrar vasodilatadores endovenosos"
+          },
+          {
+            "id": "C",
+            "text": "Administrar epinefrina endovenosa"
+          },
+          {
+            "id": "D",
+            "text": "Realizar intubación endotraqueal y ventilación mecánica"
+          },
+          {
+            "id": "E",
+            "text": "Administrar betabloqueadores endovenosos"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "A) Correcta. El cuadro corresponde a una insuficiencia cardíaca congestiva del lactante (cansancio al comer, soplo, crepitaciones y mal incremento); el manejo inicial es el diurético de asa EV, más oxígeno si hay hipoxemia.\nB) Incorrecta. Los vasodilatadores EV se reservan para bajo gasto con presión conservada y en la unidad de cuidados intensivos.\nC) Incorrecta. La epinefrina se usa en shock o paro, no en esta insuficiencia cardíaca estable.\nD) Incorrecta. No hay falla respiratoria que obligue a intubar; primero se trata la congestión.\nE) Incorrecta. Los betabloqueadores están contraindicados en la IC descompensada aguda.",
+        "recTag": "EUNACOM Julio 2013 · Pregunta 173"
+      },
+      {
+        "stem": "Un escolar de 9 años, que hace 10 días tuvo un cuadro respiratorio viral, consulta por cansancio, disnea progresiva, ortopnea y dolor abdominal. Al examen tiene FC 140/min, ritmo de galope, crepitaciones bibasales y hepatomegalia dolorosa. La radiografía de tórax muestra cardiomegalia y congestión pulmonar. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Miocarditis viral con insuficiencia cardíaca"
+          },
+          {
+            "id": "B",
+            "text": "Neumonía bilateral"
+          },
+          {
+            "id": "C",
+            "text": "Crisis asmática"
+          },
+          {
+            "id": "D",
+            "text": "Pericarditis aguda sin compromiso miocárdico"
+          },
+          {
+            "id": "E",
+            "text": "Hepatitis viral aguda"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "A) Correcta. Insuficiencia cardíaca aguda (taquicardia, galope, congestión pulmonar, hepatomegalia y cardiomegalia) en un niño previamente sano, tras una infección viral, sugiere miocarditis. Se confirma con troponinas, ECG y ecocardiograma; se maneja con diuréticos y soporte, en unidad crítica si hay shock.\nB) Incorrecta. La neumonía no explica la cardiomegalia, el galope ni la hepatomegalia.\nC) Incorrecta. En el asma hay sibilancias y no hay galope ni cardiomegalia.\nD) Incorrecta. La pericarditis sin miocarditis cursa con dolor torácico y roce, sin congestión pulmonar.\nE) Incorrecta. La hepatitis no produce disnea ni congestión pulmonar.",
+        "recTag": "Banco Oficial AEE · Perfil V3 2.01.2.012"
+      },
+      {
+        "stem": "Un lactante de 4 meses es traído por rechazo alimentario, palidez y sudoración. Al examen está soporoso, con llene capilar de 5 segundos, pulsos periféricos débiles y frecuencia cardíaca de 280/min. El monitor muestra una taquicardia regular de QRS estrecho, sin ondas P visibles. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Maniobras vagales con hielo en la cara"
+          },
+          {
+            "id": "B",
+            "text": "Adenosina en bolo endovenoso rápido como única opción, aunque demore la vía"
+          },
+          {
+            "id": "C",
+            "text": "Cardioversión eléctrica sincronizada"
+          },
+          {
+            "id": "D",
+            "text": "Amiodarona oral"
+          },
+          {
+            "id": "E",
+            "text": "Observar y controlar con ECG en 24 horas"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "A) Incorrecta. Las maniobras vagales son para el paciente estable; aquí hay shock.\nB) Incorrecta. La adenosina es útil solo si hay una vía venosa inmediata y no debe retrasar el tratamiento de un paciente inestable.\nC) Correcta. Es una taquicardia supraventricular (FC fija > 220, QRS estrecho, sin ondas P) con compromiso hemodinámico (soporoso, llene capilar lento): corresponde cardioversión sincronizada de 0,5 a 1 J/kg, luego 2 J/kg.\nD) Incorrecta. La amiodarona oral no es una medida de urgencia.\nE) Incorrecta. Observar a un lactante en shock es inaceptable.",
+        "recTag": "Banco Oficial AEE · Perfil V3 2.01.1.049"
+      },
+      {
+        "stem": "Un niño de 9 años con antecedente de comunicación interventricular no operada presenta fiebre de 2 semanas, decaimiento y baja de peso. Hace un mes se realizó una extracción dental. Al examen tiene soplo holosistólico de mayor intensidad que en controles previos, esplenomegalia leve y hemorragias en astilla subungueales. ¿Cuál es el examen más importante para iniciar el estudio?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Electrocardiograma"
+          },
+          {
+            "id": "B",
+            "text": "Proteína C reactiva"
+          },
+          {
+            "id": "C",
+            "text": "Radiografía de tórax"
+          },
+          {
+            "id": "D",
+            "text": "Serología para Bartonella"
+          },
+          {
+            "id": "E",
+            "text": "Hemocultivos seriados antes de iniciar antibióticos"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "A) Incorrecta. El ECG no confirma ni descarta una endocarditis.\nB) Incorrecta. La PCR es inespecífica.\nC) Incorrecta. La radiografía no aporta al diagnóstico.\nD) Incorrecta. La serología para Bartonella se considera si los hemocultivos son negativos.\nE) Correcta. Fiebre prolongada en un niño con cardiopatía congénita, soplo que cambia, esplenomegalia y fenómenos vasculares sugiere endocarditis infecciosa (criterios de Duke). Lo fundamental es obtener 3 hemocultivos de punciones separadas antes de los antibióticos y luego un ecocardiograma. El germen más probable es un estreptococo del grupo viridans.",
+        "recTag": "Banco Oficial AEE · Perfil V3 2.01.1.051"
+      },
+      {
+        "stem": "Un adolescente de 14 años consulta por episodios de palpitaciones de inicio y término brusco. Entre crisis, el electrocardiograma muestra intervalo PR corto, onda delta (empastamiento inicial del QRS) y QRS levemente ensanchado. ¿Cuál es el diagnóstico más probable?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bloqueo auriculoventricular de primer grado"
+          },
+          {
+            "id": "B",
+            "text": "Síndrome de Wolff-Parkinson-White"
+          },
+          {
+            "id": "C",
+            "text": "Síndrome de QT largo"
+          },
+          {
+            "id": "D",
+            "text": "Hipertrofia ventricular izquierda"
+          },
+          {
+            "id": "E",
+            "text": "Bloqueo completo de rama derecha"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "A) Incorrecta. El bloqueo AV de primer grado tiene PR prolongado, no corto.\nB) Correcta. PR corto con onda delta y QRS ancho es la preexcitación por vía accesoria (Wolff-Parkinson-White), causa de taquicardia supraventricular paroxística. Se deriva a cardiología para estratificación y ablación, por el riesgo de muerte súbita si se asocia a fibrilación auricular.\nC) Incorrecta. El QT largo se define por el intervalo QTc prolongado.\nD) Incorrecta. La hipertrofia ventricular izquierda produce voltajes altos, no preexcitación.\nE) Incorrecta. El bloqueo de rama derecha tiene un patrón rSR' en V1 sin PR corto.",
+        "recTag": "Banco Oficial AEE · Perfil V3 2.01.4.012"
+      }
+    ]
+  },
+  {
+    "id": "ped-24",
+    "classId": "ped-24",
+    "tier": 3,
+    "blockNum": 2,
+    "blockName": "Respiratorio Pediátrico & Urgencias",
+    "topicLabel": "18.24",
+    "title": "Reanimación Cardiopulmonar Pediátrica, Intoxicaciones y Prevención de Accidentes",
+    "perfilCode": "2.01.2.020, 2.01.5.012, 2.01.2.014, 2.01.3.008",
+    "dx": "Específico",
+    "tx": "Completo",
+    "seg": "Derivar",
+    "ges": "Sin garantía GES específica · Intoxicaciones: notificación a CITUC (consulta toxicológica telefónica 24 horas) · Prevención de accidentes: eje del Programa Nacional de Salud de la Infancia",
+    "reconstrucciones": "EUNACOM Julio 2017 (Q#108) · EUNACOM Julio 2019 (Q#41) · EUNACOM Julio 2016 (Q#95)",
+    "frecuencia": "Alta rentabilidad · adrenalina 0,01 mg/kg en el paro no desfibrilable, relación 15:2 con dos reanimadores, N-acetilcisteína en la intoxicación por paracetamol, atropina en el síndrome colinérgico y endoscopía tras ingestión de cáusticos",
+    "svg": null,
+    "algoTitle": "Algoritmo de Reanimación Cardiopulmonar Pediátrica (Soporte Vital Avanzado)",
+    "diagramRows": [
+      {
+        "t": "Niño que no responde, no respira normalmente o solo jadea",
+        "s": "Seguridad de la escena · estimular · pedir ayuda y desfibrilador · palpar pulso braquial (lactante) o carotídeo/femoral (niño) por máximo 10 segundos",
+        "type": "acc"
+      },
+      {
+        "t": "Sin pulso o FC < 60/min con mala perfusión: iniciar RCP",
+        "s": "Compresiones (≥ un tercio del tórax, 100-120/min) y ventilaciones con oxígeno · 30:2 un reanimador · 15:2 dos reanimadores",
+        "type": "dec"
+      },
+      {
+        "k": "split",
+        "q": "Monitor o DEA: análisis del ritmo",
+        "al": "Ritmo desfibrilable",
+        "ll": "FV / TV sin pulso",
+        "left": {
+          "t": "Desfibrilar y continuar RCP 2 minutos",
+          "s": "2 J/kg, luego 4 J/kg · adrenalina 0,01 mg/kg cada 3-5 min desde la 2.ª descarga · amiodarona 5 mg/kg tras la 3.ª",
+          "type": "crit"
+        },
+        "rl": "Asistolia / AESP",
+        "right": {
+          "t": "No desfibrilable (el más frecuente en niños)",
+          "s": "Adrenalina 0,01 mg/kg EV/IO lo antes posible y cada 3-5 min · RCP de alta calidad",
+          "type": "warn"
+        }
+      },
+      {
+        "t": "Buscar y tratar causas reversibles (Hs y Ts)",
+        "s": "Hipoxia · hipovolemia · hipoglicemia · hipo/hiperkalemia · hipotermia · neumotórax a tensión · taponamiento · tóxicos · trombosis",
+        "type": "acc"
+      }
+    ],
+    "contexto": "En el niño, el paro cardiorrespiratorio rara vez es de origen cardíaco primario: casi siempre es la etapa final de una hipoxia por falla respiratoria o de un shock, por lo que el ritmo inicial es una asistolia o una actividad eléctrica sin pulso. El médico general debe saber realizar una RCP de calidad, reconocer los toxidromes y usar el antídoto correcto en las intoxicaciones, y ejercer la prevención de accidentes, que son la primera causa de muerte después del año de vida. Este tema agrupa los tres pilares de la atención de urgencia y la prevención en pediatría.",
+    "contentSections": [
+      {
+        "subhead": "1. Paro Cardiorrespiratorio Pediátrico: Causas y Reconocimiento",
+        "paragraphs": [
+          "El paro pediátrico es secundario a <strong>hipoxia</strong> (asfixia, atoro, ahogamiento, neumonía, SMSL), a shock hipovolémico o séptico, a intoxicaciones y a trauma. El ritmo más frecuente es <strong>no desfibrilable (asistolia o actividad eléctrica sin pulso, 85-90%)</strong>; la fibrilación ventricular o la taquicardia ventricular sin pulso (5-15%) se ve en cardiopatías, trastornos del QT, intoxicaciones y en el niño mayor con colapso súbito. El pronóstico es mejor cuando la causa es una arritmia con testigo y peor cuando la hipoxia es prolongada.",
+          "<strong>Reconocimiento:</strong> niño que no responde, <strong>no respira o solo jadea</strong>, y sin pulso central (braquial en el lactante; carotídeo o femoral en el niño) palpado por <strong>no más de 10 segundos</strong>. También se inicia RCP si hay <strong>frecuencia cardíaca < 60/min con mala perfusión</strong> (cianosis, palidez, hipotonía) a pesar de ventilación. Cadena de supervivencia: prevención, RCP precoz de alta calidad, activación del sistema de emergencia, soporte vital avanzado y cuidados posparo."
+        ]
+      },
+      {
+        "subhead": "2. RCP Pediátrica: Técnica de Compresiones, Ventilación y Desfibrilación",
+        "paragraphs": [
+          "<strong>Secuencia C-A-B:</strong> comprobar seguridad, estimular, pedir ayuda y desfibrilador y comenzar las compresiones. <strong>Compresiones:</strong> sobre la mitad inferior del esternón, a una profundidad de <strong>al menos un tercio del diámetro anteroposterior del tórax (~4 cm en el lactante, ~5 cm en el niño)</strong>, a una frecuencia de <strong>100 a 120/min</strong>, permitiendo la reexpansión completa y con interrupciones menores de 10 segundos. Técnica: <strong>lactante</strong> con dos dedos (un reanimador) o <strong>dos pulgares con las manos rodeando el tórax</strong> (dos reanimadores); <strong>niño</strong> con el talón de una o dos manos.",
+          "<strong>Relación compresiones-ventilaciones:</strong> <strong>30:2</strong> con un reanimador y <strong>15:2</strong> con dos reanimadores (la relación 3:1 es solo para el recién nacido en sala de partos). Se abre la vía aérea con extensión suave de la cabeza (posición neutra en el lactante) o elevación del mentón, y se ventila con bolsa-máscara y oxígeno al 100% hasta ver elevarse el tórax. Con vía aérea avanzada: compresiones continuas y <strong>1 ventilación cada 6 segundos</strong>. La reanimación sin ventilaciones solo es aceptable si el reanimador no puede o no sabe ventilar.",
+          "<strong>Desfibrilación:</strong> se usa DEA con parches pediátricos (atenuador de energía) en menores de 8 años. En ritmo desfibrilable: descarga de <strong>2 J/kg</strong>, luego 4 J/kg, y se retoma la RCP por 2 minutos sin evaluar el pulso. <strong>Fármacos (EV o intraóseo):</strong> <strong>adrenalina 0,01 mg/kg</strong> (0,1 mL/kg de la dilución 1:10.000) cada 3 a 5 minutos, lo antes posible en el ritmo no desfibrilable; <strong>amiodarona 5 mg/kg</strong> (o lidocaína) tras la tercera descarga en FV/TV refractaria. El bicarbonato, el calcio y la atropina no se usan de rutina. Se corrigen las causas reversibles (Hs y Ts), en especial la hipoxia, la hipovolemia y la hipoglicemia.",
+          "<strong>Cuidados posparo:</strong> ventilación para saturación de 94 a 99% (evitar hiperoxia), normocapnia, control de la presión arterial, glicemia y temperatura (evitar fiebre), y traslado a una unidad de cuidados intensivos. La reanimación se suspende cuando no hay respuesta tras 20 a 30 minutos, salvo hipotermia o intoxicación, en que se prolonga."
+        ]
+      },
+      {
+        "subhead": "3. Intoxicaciones en el Niño: Enfoque General, Toxidromes y Antídotos",
+        "paragraphs": [
+          "<strong>Enfoque general:</strong> ABC y estabilización, glicemia capilar, historia dirigida (qué, cuánto, cuándo, cómo), identificar el envase y <strong>consultar al CITUC</strong> (centro toxicológico de la UC, atención 24 horas). Si la ingestión fue hace menos de 1 a 2 horas, la vía aérea está protegida y el tóxico se adsorbe, se da <strong>carbón activado 1 g/kg</strong>; no sirve para metales, hierro, litio, alcoholes ni cáusticos. <strong>No se induce el vómito</strong> (jarabe de ipecacuana) y el lavado gástrico no es de rutina. Se observa por el tiempo que corresponda según la sustancia (el paracetamol tarda 24 horas en dar síntomas).",
+          "• <strong>Síndrome colinérgico (organofosforados y carbamatos):</strong> miosis, sialorrea, broncorrea, bradicardia, diarrea, vómitos, fasciculaciones y compromiso de conciencia. Se retira la ropa y se lava la piel, y se administra <strong>atropina</strong> (0,02 a 0,05 mg/kg, repetida hasta secar las secreciones) y <strong>pralidoxima</strong>. • <strong>Anticolinérgico:</strong> midriasis, piel seca y caliente, taquicardia, delirio; soporte y benzodiacepinas. • <strong>Opioides:</strong> miosis, depresión respiratoria y coma; <strong>naloxona</strong> (0,1 mg/kg, máx. 2 mg). • <strong>Simpaticomiméticos</strong> (cocaína, anfetaminas): midriasis, hipertermia, hipertensión; benzodiacepinas.",
+          "• <strong>Paracetamol</strong> (la intoxicación medicamentosa más frecuente): 24 a 72 horas sin síntomas o con vómitos, luego <strong>hepatotoxicidad</strong> (ictericia, transaminasas muy altas). Dosis tóxica > 150 mg/kg; se mide el nivel a las 4 horas (nomograma de Rumack-Matthew) y se administra <strong>N-acetilcisteína</strong> EV u oral, idealmente dentro de las primeras 8 a 10 horas, y también si ya hay daño hepático. • <strong>Salicilatos:</strong> taquipnea, tinnitus, fiebre, acidosis metabólica con alcalosis respiratoria; alcalinización de la orina, hemodiálisis en casos graves. • <strong>Hierro:</strong> vómitos y diarrea sanguinolentos; deferoxamina. • <strong>Antidepresivos tricíclicos:</strong> QRS ancho, convulsiones, arritmias; bicarbonato de sodio.",
+          "• <strong>Monóxido de carbono:</strong> cefalea y compromiso de conciencia con saturación normal; oxígeno al 100% (cámara hiperbárica en casos graves). • <strong>Hidrocarburos:</strong> riesgo de neumonitis por aspiración; no se induce vómito. • <strong>Cáusticos</strong> (soda cáustica, cloro, ácidos): sialorrea, odinofagia, dolor retroesternal o abdominal, estridor; <strong>no se induce vómito ni se neutraliza</strong>, se deja en ayuno y se solicita <strong>endoscopía digestiva alta</strong> dentro de las primeras 12 a 48 horas, porque la ausencia de lesiones orales no descarta lesión esofágica. • <strong>Benzodiacepinas:</strong> sedación sin depresión respiratoria severa; el flumazenil se evita. • <strong>Alcohol etílico:</strong> en el niño produce hipoglicemia y coma."
+        ]
+      },
+      {
+        "subhead": "4. Prevención de Accidentes: Consejería por Edad",
+        "paragraphs": [
+          "Los accidentes son la <strong>primera causa de muerte en los niños mayores de un año</strong> y la mayoría es prevenible. La consejería anticipatoria se entrega en cada control de salud, adaptada a la edad: • <strong>Menor de 1 año:</strong> <strong>sueño seguro</strong> (supino, colchón firme, sin almohadas ni peluches), prevención de caídas del cambiador y de la cama, temperatura del agua del baño ≤ 38 °C, evitar objetos pequeños y bolsas plásticas (asfixia y atoro), guardar medicamentos y productos de aseo.",
+          "• <strong>1 a 5 años:</strong> <strong>ahogamiento</strong> (cerco de piscinas y supervisión directa a distancia de un brazo; nunca dejar al niño solo en la tina), quemaduras (mangos de ollas hacia el interior, cocinas con protección, líquidos calientes fuera de alcance), <strong>intoxicaciones</strong> (medicamentos, cloro y plaguicidas bajo llave y en su envase original; teléfono del CITUC visible), caídas (ventanas y escaleras con protección), atoros (frutos secos, uvas y trozos redondos) y atropellos.",
+          "• <strong>Transporte:</strong> sistema de retención infantil adecuado a la edad y al peso, en el asiento trasero: <strong>mirando hacia atrás el mayor tiempo posible (idealmente hasta los 2 años o más)</strong>, luego con arnés hacia adelante y luego alzador, hasta que el cinturón de seguridad calce bien; nunca en brazos ni delante de un airbag activo. • <strong>Escolares y adolescentes:</strong> casco en bicicleta y moto, cinturón de seguridad, educación vial, no conducir con alcohol, prevención de violencia y acceso a armas, y deportes con equipo de protección. Cada control debe incluir el registro de los riesgos del hogar."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Intoxicaciones Frecuentes: Toxidrome, Clave Clínica y Antídoto",
+      "headers": [
+        "Tóxico / Toxidrome",
+        "Clave Clínica",
+        "Tratamiento Específico",
+        "Advertencia"
+      ],
+      "rows": [
+        [
+          "Organofosforados / colinérgico",
+          "Miosis, sialorrea, broncorrea, bradicardia, fasciculaciones",
+          "Atropina (hasta secar secreciones) + pralidoxima; descontaminar piel",
+          "El personal debe protegerse del contacto"
+        ],
+        [
+          "Paracetamol",
+          "Asintomático 24 h; luego ictericia y alza de transaminasas",
+          "N-acetilcisteína · nivel a las 4 h (Rumack-Matthew)",
+          "Dosis tóxica > 150 mg/kg; tratar aunque haya daño hepático"
+        ],
+        [
+          "Opioides",
+          "Miosis, depresión respiratoria, coma",
+          "Naloxona 0,1 mg/kg (máx. 2 mg)",
+          "Su vida media es corta: puede haber renarcotización"
+        ],
+        [
+          "Salicilatos",
+          "Taquipnea, tinnitus, fiebre, acidosis metabólica",
+          "Alcalinizar orina · hemodiálisis si es grave",
+          "Evitar intubar sin hiperventilar"
+        ],
+        [
+          "Cáusticos",
+          "Sialorrea, dolor torácico o abdominal, estridor",
+          "Ayuno + endoscopía digestiva alta en 12-48 h",
+          "No inducir vómito ni neutralizar"
+        ],
+        [
+          "Monóxido de carbono",
+          "Cefalea, compromiso de conciencia, saturación normal",
+          "Oxígeno 100% · cámara hiperbárica si es grave",
+          "La oximetría de pulso es falsamente normal"
+        ]
+      ]
+    },
+    "treatmentTable": {
+      "title": "RCP Pediátrica: Parámetros según Edad",
+      "headers": [
+        "Parámetro",
+        "Lactante (< 1 año)",
+        "Niño (1 año a pubertad)",
+        "Recién Nacido (sala de partos)"
+      ],
+      "rows": [
+        [
+          "Pulso para decidir RCP",
+          "Braquial",
+          "Carotídeo o femoral",
+          "Frecuencia cardíaca por auscultación"
+        ],
+        [
+          "Técnica de compresión",
+          "2 dedos o 2 pulgares con manos rodeando el tórax",
+          "Talón de 1 o 2 manos",
+          "2 pulgares sobre el tercio inferior del esternón"
+        ],
+        [
+          "Profundidad",
+          "≥ un tercio del tórax (~4 cm)",
+          "≥ un tercio del tórax (~5 cm)",
+          "Un tercio del tórax"
+        ],
+        [
+          "Relación compresión:ventilación",
+          "30:2 (1 reanimador) · 15:2 (2 reanimadores)",
+          "30:2 (1 reanimador) · 15:2 (2 reanimadores)",
+          "3:1"
+        ],
+        [
+          "Adrenalina",
+          "0,01 mg/kg EV/IO cada 3-5 min",
+          "0,01 mg/kg EV/IO cada 3-5 min",
+          "0,01-0,03 mg/kg EV"
+        ],
+        [
+          "Desfibrilación",
+          "2 J/kg, luego 4 J/kg",
+          "2 J/kg, luego 4 J/kg",
+          "No aplica de rutina"
+        ]
+      ]
+    },
+    "vignette": "Niño de 3 años que hace 40 minutos fue encontrado en su casa con un frasco de jarabe vacío. Está somnoliento, con vómitos y sialorrea. Al examen: FC 52 por minuto, FR 36 por minuto con roncus y sibilancias difusas, pupilas puntiformes, fasciculaciones en la lengua y piel húmeda. La madre refiere que guardaba un insecticida en el patio, en un envase de bebida.",
+    "explicacion": "Presenta un síndrome colinérgico (miosis, sialorrea, broncorrea, bradicardia y fasciculaciones) por un organofosforado o carbamato. El tratamiento es retirar la ropa y lavar la piel, asegurar la vía aérea y oxígeno, y administrar atropina (0,02-0,05 mg/kg, repetida hasta secar las secreciones) y pralidoxima. No se induce el vómito. Se consulta al CITUC y se hospitaliza. La prevención incluye guardar los plaguicidas bajo llave y en su envase original, nunca en envases de bebidas.",
+    "keyPoints": [
+      "El paro pediátrico suele ser secundario a hipoxia o shock; el ritmo más frecuente es no desfibrilable (asistolia o AESP), y se trata con RCP de calidad y adrenalina 0,01 mg/kg cada 3 a 5 minutos.",
+      "Compresiones de al menos un tercio del tórax, 100 a 120/min; relación 30:2 con un reanimador y 15:2 con dos; en el lactante, técnica de dos pulgares con manos rodeando el tórax.",
+      "Desfibrilación pediátrica: 2 J/kg, luego 4 J/kg; amiodarona 5 mg/kg en la FV/TV refractaria.",
+      "En el síndrome colinérgico se usa atropina hasta secar secreciones y pralidoxima; en el paracetamol, N-acetilcisteína; en opioides, naloxona.",
+      "Ante cáusticos no se induce vómito ni se neutraliza: ayuno y endoscopía digestiva alta en 12 a 48 horas.",
+      "Los accidentes son la primera causa de muerte después del año: sueño seguro, cerco de piscinas, medicamentos bajo llave y silla de auto mirando hacia atrás en el asiento trasero."
+    ],
+    "questions": [
+      {
+        "stem": "Un lactante de 8 meses es encontrado en paro cardiorrespiratorio después de un episodio de atoro. Se inicia reanimación con compresiones y ventilación. El monitor muestra asistolia. Se logra un acceso intraóseo. ¿Cuál es el fármaco y dosis inicial más adecuados?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Atropina 0,02 mg/kg"
+          },
+          {
+            "id": "B",
+            "text": "Desfibrilación con 4 J/kg"
+          },
+          {
+            "id": "C",
+            "text": "Amiodarona 5 mg/kg"
+          },
+          {
+            "id": "D",
+            "text": "Bicarbonato de sodio 1 mEq/kg como primera medida"
+          },
+          {
+            "id": "E",
+            "text": "Adrenalina 0,01 mg/kg (0,1 mL/kg de solución 1:10.000), repetida cada 3 a 5 minutos"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "A) Incorrecta. La atropina no se usa de rutina en el paro.\nB) Incorrecta. La asistolia es un ritmo no desfibrilable.\nC) Incorrecta. La amiodarona es para FV o TV sin pulso refractarias.\nD) Incorrecta. El bicarbonato no es de uso inicial.\nE) Correcta. En pediatría el paro suele ser secundario a hipoxia y el ritmo más frecuente es no desfibrilable (asistolia o actividad eléctrica sin pulso). Se mantiene RCP de alta calidad y se administra adrenalina 0,01 mg/kg EV o intraósea lo antes posible, repitiendo cada 3 a 5 minutos.",
+        "recTag": "Banco Oficial AEE · Perfil V3 2.01.2.020"
+      },
+      {
+        "stem": "Usted y un colega encuentran a un lactante de 6 meses que no responde, no respira y no tiene pulso braquial. Inician la reanimación cardiopulmonar. ¿Cuál es la relación compresiones-ventilaciones y la técnica de compresión recomendada para dos reanimadores?",
+        "options": [
+          {
+            "id": "A",
+            "text": "30:2 con el talón de una mano sobre el esternón"
+          },
+          {
+            "id": "B",
+            "text": "15:2 con técnica de dos pulgares y manos rodeando el tórax, comprimiendo un tercio del diámetro anteroposterior"
+          },
+          {
+            "id": "C",
+            "text": "5:1 con dos dedos"
+          },
+          {
+            "id": "D",
+            "text": "3:1 como en el recién nacido"
+          },
+          {
+            "id": "E",
+            "text": "Solo compresiones, sin ventilaciones"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "A) Incorrecta. La relación 30:2 es para un reanimador; en el lactante no se usa el talón de la mano.\nB) Correcta. Con dos reanimadores la relación es 15:2 y en el lactante se prefiere la técnica de dos pulgares con las manos rodeando el tórax, comprimiendo al menos un tercio del diámetro anteroposterior (unos 4 cm), a 100-120 por minuto.\nC) Incorrecta. La relación 5:1 ya no se usa.\nD) Incorrecta. El 3:1 es para la reanimación neonatal en sala de partos.\nE) Incorrecta. En un paro de causa respiratoria las ventilaciones son esenciales.",
+        "recTag": "Banco Oficial AEE · Perfil V3 2.01.5.012"
+      },
+      {
+        "stem": "Un niño de 4 años, hace 24 horas ingiere 7 comprimidos de algún medicamento desconocido, evolucionando con malestar general, vómitos e ictericia. Se solicitan exámenes, en los que destaca GOT: 403 UI/L, GPT: 390 UI/L, bilirrubina plasmática total: 5,2 mg/dl. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Administrar L-carnitina endovenosa"
+          },
+          {
+            "id": "B",
+            "text": "Administrar deferoxamina endovenosa"
+          },
+          {
+            "id": "C",
+            "text": "Administrar N-acetil-cisteína endovenosa"
+          },
+          {
+            "id": "D",
+            "text": "Administrar carbón activado vía oral"
+          },
+          {
+            "id": "E",
+            "text": "Administrar piridoxina vía oral"
+          }
+        ],
+        "correcta": "C",
+        "explicacion": "A) Incorrecta. La L-carnitina es antídoto de la intoxicación por valproato.\nB) Incorrecta. La deferoxamina es el antídoto del hierro.\nC) Correcta. Un cuadro de vómitos, ictericia y alza de transaminasas a las 24 horas de la ingestión de comprimidos corresponde a la hepatotoxicidad del paracetamol; el antídoto es la N-acetilcisteína, que se indica también cuando ya hay daño hepático.\nD) Incorrecta. A las 24 horas el carbón activado no es útil.\nE) Incorrecta. La piridoxina se usa en la intoxicación por isoniazida.",
+        "recTag": "EUNACOM Julio 2017 · Pregunta 108"
+      },
+      {
+        "stem": "Un niño de edad presenta un cuadro de agitación, alternado con obnubilación, asociado a vómitos, sialorrea, diarrea, dolor abdominal, taquicardia, tos, temblor y sudoración. Se sospecha que haya ingerido algún tóxico. ¿Cuál es la conducta inicial?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Administrar antieméticos"
+          },
+          {
+            "id": "B",
+            "text": "Administrar omeprazol"
+          },
+          {
+            "id": "C",
+            "text": "Administrar solución glucosada al 10%"
+          },
+          {
+            "id": "D",
+            "text": "Administrar N-acetil.cisteína"
+          },
+          {
+            "id": "E",
+            "text": "Administrar atropina"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "A) Incorrecta. Los antieméticos no tratan la causa y no son la prioridad.\nB) Incorrecta. El omeprazol no tiene lugar en el manejo inicial de un toxidrome.\nC) Incorrecta. La glucosa solo se da si hay hipoglicemia documentada.\nD) Incorrecta. La N-acetilcisteína es el antídoto del paracetamol.\nE) Correcta. Sialorrea, vómitos, diarrea, sudoración, tos y compromiso de conciencia configuran un síndrome colinérgico (organofosforados o carbamatos), cuyo tratamiento inicial es la atropina, más pralidoxima, junto con el soporte vital.",
+        "recTag": "EUNACOM Julio 2019 · Pregunta 41"
+      },
+      {
+        "stem": "Una niña de 5 años, ingiere accidentalmente soda cáustica, hace 45 minutos. Evoluciona con sialorrea y dolor abdominal y torácico. ¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Administrar carbon activado"
+          },
+          {
+            "id": "B",
+            "text": "Solicitar endoscopía digestiva alta"
+          },
+          {
+            "id": "C",
+            "text": "Administrar agente alcalinizante"
+          },
+          {
+            "id": "D",
+            "text": "Instalar una sonda nasogástrica y aspirar el contenido"
+          },
+          {
+            "id": "E",
+            "text": "Inducir los vómitos"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "A) Incorrecta. El carbón activado no adsorbe cáusticos y dificulta la endoscopía.\nB) Correcta. En la ingestión de un cáustico con síntomas se deja en ayuno y se realiza endoscopía digestiva alta precoz (dentro de las primeras 12 a 48 horas) para evaluar y graduar la lesión esofágica.\nC) Incorrecta. Con una sustancia alcalina no se administran neutralizantes; agravan la lesión por reacción exotérmica.\nD) Incorrecta. La sonda nasogástrica a ciegas puede perforar el esófago lesionado.\nE) Incorrecta. Inducir el vómito reexpone el esófago al cáustico y puede causar aspiración.",
+        "recTag": "EUNACOM Julio 2016 · Pregunta 95"
+      },
+      {
+        "stem": "En el control de salud de un lactante de 6 meses, los padres preguntan cómo deben trasladarlo en el automóvil. ¿Cuál es la recomendación correcta?",
+        "options": [
+          {
+            "id": "A",
+            "text": "En brazos de un adulto en el asiento trasero"
+          },
+          {
+            "id": "B",
+            "text": "En silla de auto en el asiento delantero frente al airbag"
+          },
+          {
+            "id": "C",
+            "text": "En silla de auto mirando hacia adelante, en el asiento delantero"
+          },
+          {
+            "id": "D",
+            "text": "Con el cinturón de seguridad del adulto"
+          },
+          {
+            "id": "E",
+            "text": "En silla de auto mirando hacia atrás, en el asiento trasero"
+          }
+        ],
+        "correcta": "E",
+        "explicacion": "A) Incorrecta. Nunca debe viajar en brazos: en una frenada el adulto no puede sujetarlo.\nB) Incorrecta. El airbag activo puede causar lesiones graves o la muerte.\nC) Incorrecta. Antes de los 2 años debe ir mirando hacia atrás, y siempre en el asiento trasero.\nD) Incorrecta. El cinturón del adulto no se ajusta a un lactante.\nE) Correcta. Los lactantes deben viajar en un sistema de retención infantil mirando hacia atrás, en el asiento trasero, idealmente hasta los 2 años o más, porque protege cabeza y cuello.",
+        "recTag": "Banco Oficial AEE · Perfil V3 2.01.3.008"
       }
     ]
   }

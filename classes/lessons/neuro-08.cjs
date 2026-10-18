@@ -95,7 +95,8 @@ module.exports = {
           { t: 'Desconexión de 5 a 15 segundos', d: 'Sin caída ni confusión posterior',
             say: 'La ausencia típica: una detención súbita, con la mirada fija, de cinco a quince segundos. No se cae, no queda confuso, y retoma lo que hacía de inmediato. Por eso puede pasar como un niño distraído.' },
           { t: 'EEG: punta-onda a 3 Hz', d: 'Patognomónico',
-            say: 'Y en el electroencefalograma tiene un hallazgo patognomónico: descargas generalizadas de punta-onda a tres por segundo.' },
+            say: 'Y en el electroencefalograma tiene un hallazgo patognomónico: descargas generalizadas de punta-onda a tres por segundo. Mira este registro: las descargas de punta onda, generalizadas y a tres por segundo. El fármaco es la etosuximida o el valproato.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-08/01_eeg-punta-onda-3-hz__cto-neuro_p73.jpg', label: 'Punta onda a tres hertz', at: 'Mira este registro', credit: 'Manual CTO Neurología 14.ª ed., p. 73' } },
         ] },
         { title: 'Mioclónicas', tag: 'Epilepsia mioclónica juvenil', kind: 'alert', items: [
           { t: 'Sacudidas bruscas al despertar', d: 'En brazos, bilaterales, breves',
@@ -139,7 +140,8 @@ module.exports = {
         ] },
         { title: 'Carbamazepina', tag: 'Focales', kind: 'pharma', items: [
           { t: 'Stevens-Johnson, hiponatremia, agranulocitosis', d: 'Controlar sodio y hemograma',
-            say: 'La carbamazepina bloquea canales de sodio y es el clásico de las crisis focales. Su toxicidad: Stevens-Johnson y necrólisis epidérmica, asociados a un alelo HLA en población asiática; hiponatremia por secreción inadecuada de hormona antidiurética, sobre todo en el adulto mayor; y aplasia y agranulocitosis.' },
+            say: 'La carbamazepina bloquea canales de sodio y es el clásico de las crisis focales. Su toxicidad: Stevens-Johnson y necrólisis epidérmica, asociados a un alelo HLA en población asiática; hiponatremia por secreción inadecuada de hormona antidiurética, sobre todo en el adulto mayor; y aplasia y agranulocitosis. Mira esta boca: erosiones y costras en los labios y las mucosas, es el Stevens Johnson, que también se ve con la lamotrigina.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-08/02_stevens-johnson-mucosas__fitzpatrick_p390.jpg', label: 'Stevens-Johnson en mucosas', at: 'Mira esta boca', credit: 'Fitzpatrick 7.ª ed., p. 390' } },
           { t: 'Inductor enzimático potente', d: 'Baja anticonceptivos, warfarina, estatinas',
             say: 'Es un inductor enzimático potente de los citocromos hepáticos: baja los niveles de anticonceptivos, warfarina y estatinas. Y el peligro que más se pregunta: empeora las ausencias y las mioclonías.' },
         ] },
@@ -147,7 +149,8 @@ module.exports = {
           { t: 'Cinética no lineal · 10–20 mcg/mL', d: 'Un pequeño aumento dispara el nivel',
             say: 'La fenitoína tiene una cinética de saturación: a dosis terapéuticas su metabolismo se satura, y un pequeño aumento de dosis dispara el nivel a rango tóxico. Su rango es estrecho, de diez a veinte microgramos por mililitro.' },
           { t: 'Hiperplasia gingival, hirsutismo, ataxia', d: 'Neuropatía, osteomalacia, anemia megaloblástica',
-            say: 'Y a largo plazo da hiperplasia gingival, hirsutismo, facies tosca, neuropatía, osteomalacia, anemia megaloblástica por déficit de folato, y atrofia cerebelosa con ataxia y nistagmo irreversibles. Por eso quedó en segunda o tercera línea.' },
+            say: 'Y a largo plazo da hiperplasia gingival, hirsutismo, facies tosca, neuropatía, osteomalacia, anemia megaloblástica por déficit de folato, y atrofia cerebelosa con ataxia y nistagmo irreversibles. Por eso quedó en segunda o tercera línea. Mira estas encías: el crecimiento exagerado de la encía es la hiperplasia gingival por fenitoína.',
+            photo: { src: '_verificadas/149_neuro_Epilepsia_y_fármacos__knoopepub_p174_1.jpg', label: 'Hiperplasia gingival', at: 'Mira estas encías', credit: 'The Atlas of Emergency Medicine (Knoop), p. 174' } },
         ] },
       ],
     },
@@ -239,23 +242,6 @@ module.exports = {
       steps: [
         { note: 'Se extiende',
           say: 'La crisis empieza en un foco, por ejemplo en la corteza motora izquierda, y da síntomas de esa zona: sacudidas de la mano derecha. Si se propaga por el hemisferio avanza como una marcha. Y si pasa al otro hemisferio, se vuelve bilateral tónico clónica y el paciente pierde la conciencia.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Ausencias en el EEG y toxicidad cutánea',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-08/01_eeg-punta-onda-3-hz__cto-neuro_p73.jpg', label: 'Punta onda a tres hertz', credit: 'Manual CTO Neurología 14.ª ed., p. 73' },
-        { src: 'biblioteca/09_neurologia/neuro-08/02_stevens-johnson-mucosas__fitzpatrick_p390.jpg', label: 'Stevens-Johnson / necrólisis: lesiones en mucosas', credit: 'Fitzpatrick 7.ª ed., p. 390 (figura completa, ~480 px)' },
-      ],
-      steps: [
-        { note: 'Patrón de las ausencias',
-          say: 'Las ausencias muestran en el electroencefalograma descargas generalizadas de punta onda a tres por segundo. El fármaco es el etosuximida o el valproato.' },
-        { note: 'Toxicidad grave: Stevens-Johnson',
-          say: 'Y esta es la toxicidad que más asusta de la carbamazepina y la lamotrigina: el Stevens Johnson y la necrólisis epidérmica, con erosiones y costras en la boca, los labios y los ojos.' },
       ],
     },
 
@@ -400,6 +386,44 @@ module.exports = {
         options: 'Las opciones: electroencefalograma, TAC, resonancia, psicometría, o control sano habitual. Piénsalo.',
         answer: 'Es la A, electroencefalograma, que muestra la punta-onda generalizada a tres por segundo, patognomónica de la ausencia. La psicometría es el distractor, porque la ausencia se confunde con un problema de atención o de conducta. Y la imagen no es el estudio de una epilepsia generalizada.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.4.005 · Electroencefalograma",
+      "stem": "Niña de 7 años, con buen desarrollo, es derivada porque su profesora nota que varias veces al día se queda con la mirada fija por unos 10 segundos, con parpadeo, sin caerse, y retoma la actividad sin confusión. En la consulta se reproduce un episodio al pedirle que hiperventile.",
+      "question": "¿Qué hallazgo del electroencefalograma es esperable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Trazado normal, que descarta epilepsia"
+        },
+        {
+          "letter": "B",
+          "text": "Hipsarritmia"
+        },
+        {
+          "letter": "C",
+          "text": "Puntas centrotemporales que aumentan con el sueño"
+        },
+        {
+          "letter": "D",
+          "text": "Complejos periódicos de ondas agudas"
+        },
+        {
+          "letter": "E",
+          "text": "Descargas generalizadas de punta-onda a 3 Hz"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Desconexiones breves y frecuentes, sin período postictal y gatilladas por hiperventilación: epilepsia de ausencia infantil. El EEG característico muestra descargas generalizadas y simétricas de punta-onda a 3 Hz. La hipsarritmia corresponde al síndrome de West; las puntas centrotemporales a la epilepsia rolándica; los complejos periódicos a la enfermedad de Creutzfeldt-Jakob.",
+      "say": {
+        "stem": "Una niña de siete años se queda con la mirada fija unos diez segundos varias veces al día, sin confusión posterior, y en la consulta se reproduce el episodio al hiperventilar.",
+        "question": "¿Qué hallazgo del electroencefalograma es esperable?",
+        "options": "Las opciones: un trazado normal, hipsarritmia, puntas centrotemporales, complejos periódicos o punta onda generalizada a tres por segundo. Piénsalo.",
+        "answer": "Es la E. Son crisis de ausencia típicas, y su firma en el electroencefalograma es la punta onda generalizada a tres ciclos por segundo. Las puntas centrotemporales tientan porque también son de la edad escolar, pero son de la epilepsia rolándica, con crisis nocturnas de la cara."
+      }
     },
 
     {

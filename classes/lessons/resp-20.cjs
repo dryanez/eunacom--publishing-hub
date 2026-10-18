@@ -122,12 +122,37 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Hemoptisis leve y mediana',
+      title: 'Cuando no amenaza la vida, igual se estudia',
+      cards: [
+        { title: 'Cantidades', tag: 'En 24 horas', kind: 'criteria', items: [
+          { t: 'Leve: < 30 mL, estrías', d: 'Mediana: 30 a 150–200 mL',
+            say: 'La hemoptisis leve es de menos de treinta mililitros en veinticuatro horas, con estrías de sangre. La mediana, de treinta a ciento cincuenta o doscientos mililitros.' },
+        ] },
+        { title: 'Estudio', tag: 'Paso a paso', kind: 'key', items: [
+          { t: 'Confirmar que es hemoptisis y evaluar estabilidad', d: 'No hematemesis ni sangrado nasofaríngeo',
+            say: 'Primero se confirma que es hemoptisis y no hematemesis ni sangrado nasofaríngeo, y se evalúan la estabilidad hemodinámica y la saturación.' },
+          { t: 'Rx, hemograma, coagulación, función renal', d: 'TAC de tórax, idealmente con angio, y fibrobroncoscopia',
+            say: 'Se piden radiografía de tórax, hemograma, coagulación y función renal, y TAC de tórax, idealmente con angiografía, más fibrobroncoscopia. Las causas son bronquitis, bronquiectasias, tuberculosis, cáncer y neumonía necrotizante; hasta treinta por ciento queda sin causa.' },
+        ] },
+        { title: 'Manejo', tag: 'Y cuándo hospitalizar', kind: 'pharma', items: [
+          { t: 'Reposo, ácido tranexámico, tratar la causa', d: 'Suspender antiagregantes si se puede',
+            say: 'Reposo, ácido tranexámico oral o nebulizado, tratar la causa y suspender antiagregantes o anticoagulantes si es posible.' },
+          { t: 'Hospitalizar si mediana, recurrente o sospecha de cáncer o TBC', d: 'Si sospecha TBC: aislamiento y baciloscopía',
+            say: 'Se hospitaliza si es mediana, recurrente, hay comorbilidad o se sospecha cáncer o tuberculosis. Con sospecha de tuberculosis, aislamiento y baciloscopía. Y se deriva al broncopulmonar.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Bronquiectasias',
       title: 'Bronquios que ya no vuelven atrás',
       cards: [
         { title: 'Qué son', tag: 'Irreversibles', kind: 'key', items: [
           { t: 'Dilatación permanente de bronquios', d: 'De mediano calibre',
-            say: 'Pasemos a las bronquiectasias. Son dilataciones anormales, permanentes e irreversibles de los bronquios de mediano calibre.' },
+            say: 'Pasemos a las bronquiectasias. Son dilataciones anormales, permanentes e irreversibles de los bronquios de mediano calibre. Mira esta tomografía: los bronquios más anchos que la arteria que los acompaña. Y en esta otra, bronquiectasias graves en corte longitudinal y transversal.',
+            photos: [{ src: 'biblioteca/02_neumologia/resp-20/01_bronquiectasias-tc__cto-neumo_p68.jpg', label: 'Bronquiectasias', at: 'Mira esta tomografía', credit: 'Manual CTO Neumología 14.ª ed., p. 68' }, { src: 'biblioteca/02_neumologia/resp-20/10_bronquiectasias-tac__harrison_p2216.jpg', label: 'Bronquiectasias graves', at: 'Y en esta otra', credit: 'Harrison, Principios de Medicina Interna, 21.ª ed., p. 2216' }] },
           { t: 'Ciclo infección–inflamación', d: 'Destruye la pared elástica y muscular',
             say: '¿Cómo se forman? Por un círculo vicioso: la infección inflama, la inflamación destruye el componente elástico y muscular de la pared, el bronquio dilatado acumula secreciones, y esas secreciones se vuelven a infectar.' },
         ] },
@@ -167,6 +192,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Test del sudor',
+      title: 'El examen de la fibrosis quística',
+      cards: [
+        { title: 'Cómo se hace', tag: 'Iontoforesis', kind: 'key', items: [
+          { t: 'Pilocarpina estimula el sudor', d: 'Se mide el cloro',
+            say: 'El test del sudor es el examen diagnóstico de la fibrosis quística: se estimula el sudor con pilocarpina, por iontoforesis, y se mide el cloro.' },
+        ] },
+        { title: 'Cómo se lee', tag: 'Cloro en sudor', kind: 'criteria', items: [
+          { t: '> 60 mmol/L: diagnóstico', d: 'En un cuadro compatible',
+            say: 'Cloro mayor de sesenta milimoles por litro es diagnóstico, si el cuadro es compatible.' },
+          { t: '30–59: dudoso', d: 'Repetir y estudio genético CFTR',
+            say: 'Entre treinta y cincuenta y nueve es dudoso: se repite y se hace estudio genético del CFTR. Y menos de treinta la hace improbable.' },
+          { t: 'Se confirma con dos pruebas', d: 'Dos pruebas positivas',
+            say: 'El diagnóstico se confirma con dos pruebas.' },
+        ] },
+        { title: 'Cuándo pedirlo', tag: 'Sospecha', kind: 'alert', items: [
+          { t: 'Íleo meconial, esteatorrea, mal desarrollo', d: 'Bronquiectasias o infecciones respiratorias recurrentes',
+            say: 'Se pide ante íleo meconial, esteatorrea y mal desarrollo, bronquiectasias o infecciones respiratorias recurrentes.' },
+          { t: 'Sinusitis crónica, azoospermia, pesquisa neonatal +', d: 'Tripsina inmunorreactiva',
+            say: 'También con sinusitis crónica, azoospermia obstructiva o una pesquisa neonatal positiva, con tripsina inmunorreactiva. El médico general lo interpreta y lo emplea.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -177,19 +228,6 @@ module.exports = {
       steps: [
         { note: 'El lado que sangra hacia abajo',
           say: 'En la hemoptisis masiva el riesgo es la asfixia. Casi siempre sangran las arterias bronquiales. Primero se acuesta al paciente con el lado que sangra hacia abajo, para proteger el pulmón sano, y se intuba con un tubo grueso para la broncoscopía.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Bronquiectasias',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-20/01_bronquiectasias-tc__cto-neumo_p68.jpg', label: 'Bronquiectasias', credit: 'Manual CTO Neumología 14.ª ed., p. 68' },
-      ],
-      steps: [
-        { note: 'Bronquios dilatados en la TC',
-          say: 'En la tomografía, los bronquios se ven más anchos que la arteria que los acompaña: eso es una bronquiectasia. Son causa frecuente de hemoptisis.' },
       ],
     },
 
@@ -330,6 +368,120 @@ module.exports = {
         options: 'Las opciones: broncoscopía con biopsia, provocación con metacolina, espirometría, test del sudor, o baciloscopías. Piénsalo.',
         answer: 'Es la D. Fíjate en el giro: aquí las bronquiectasias ya se ven, así que la pregunta no es confirmarlas sino buscar su causa. Bronquiectasias bilaterales en un joven con infecciones desde niño hacen pensar en fibrosis quística, una de las causas que vimos, y se estudia con test del sudor. La broncoscopía con biopsia tienta, pero no busca la causa de base.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.1.019 · Hemoptisis leve y mediana",
+      "stem": "Hombre de 58 años, fumador de 40 paquetes-año, consulta por 1 semana de expectoración con estrías de sangre, menos de 20 mL al día. Hemodinámicamente estable, SatO2 97 % ambiental, sin fiebre. Examen pulmonar normal. Radiografía de tórax normal. Pruebas de coagulación normales.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Estudio ambulatorio con TAC de tórax y fibrobroncoscopía"
+        },
+        {
+          "letter": "B",
+          "text": "Alta sin estudio, porque la radiografía es normal"
+        },
+        {
+          "letter": "C",
+          "text": "Hospitalizar en UCI y embolización de arterias bronquiales"
+        },
+        {
+          "letter": "D",
+          "text": "Ácido tranexámico y control solo si se repite"
+        },
+        {
+          "letter": "E",
+          "text": "Antibiótico por bronquitis y alta sin control"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Hemoptisis leve en un paciente estable se estudia en forma ambulatoria. Mayor de 40 años y gran fumador tiene alto riesgo de cáncer bronquial aun con radiografía normal: se completa con TAC de tórax y fibrobroncoscopía. La embolización se reserva para la hemoptisis masiva.",
+      "say": {
+        "stem": "Un hombre de cincuenta y ocho años, gran fumador, lleva una semana con estrías de sangre en la expectoración, en poca cantidad. Está estable, sin fiebre, con examen y radiografía de tórax normales.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: estudio ambulatorio con tomografía y broncoscopía, alta sin estudio, embolización en intensivo, ácido tranexámico solo o antibiótico y alta. Piénsalo.",
+        "answer": "Es la A. La hemoptisis es leve y no requiere hospitalizar, pero un fumador de esa edad puede tener un cáncer bronquial que la radiografía no muestra. El alta sin estudio tienta porque la radiografía es normal, y ese es justamente el error que retrasa el diagnóstico."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.2.018 · Hemoptisis masiva",
+      "stem": "Hombre de 50 años con bronquiectasias en el lóbulo inferior izquierdo presenta hemoptisis de aproximadamente 400 mL en 6 horas. Está consciente, con SatO2 de 91% y PA 120/75 mmHg.",
+      "question": "¿Cuál es la medida inicial más adecuada mientras se gestiona el estudio y tratamiento definitivo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Posición de Trendelenburg"
+        },
+        {
+          "letter": "B",
+          "text": "Posición en decúbito lateral derecho"
+        },
+        {
+          "letter": "C",
+          "text": "Posición en decúbito lateral izquierdo, sobre el lado que sangra"
+        },
+        {
+          "letter": "D",
+          "text": "Nebulización con broncodilatadores"
+        },
+        {
+          "letter": "E",
+          "text": "Kinesioterapia respiratoria con percusión"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En la hemoptisis masiva lo prioritario es proteger la vía aérea del pulmón sano: se ubica al paciente en decúbito lateral sobre el lado que sangra para evitar la aspiración de sangre al pulmón contralateral, con oxígeno y eventual intubación. Luego, broncoscopía y angioTAC permiten localizar la lesión para embolización de arterias bronquiales o cirugía.",
+      "say": {
+        "stem": "Hombre de cincuenta años con bronquiectasias en la base izquierda, que tiene una hemoptisis de unos cuatrocientos mililitros en seis horas. Está consciente, con saturación de noventa y uno por ciento y presión normal.",
+        "question": "¿Cuál es la medida inicial más adecuada?",
+        "options": "Las opciones: Trendelenburg, decúbito lateral derecho, decúbito lateral izquierdo sobre el lado que sangra, broncodilatadores nebulizados o kinesioterapia con percusión. Piénsalo.",
+        "answer": "Es la C. Lo que mata en la hemoptisis masiva es la asfixia, así que acuestas al paciente sobre el pulmón que sangra para que la sangre no inunde el pulmón sano. El decúbito derecho tienta porque parece dejar libre el lado enfermo, pero hace exactamente lo contrario: la sangre cae hacia el pulmón bueno."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.026 · Test del sudor",
+      "stem": "Un niño de 2 años presenta neumonías y bronquitis obstructivas a repetición, tos productiva crónica, deposiciones abundantes, grasosas y malolientes, y mal incremento ponderal pese a buen apetito. Su madre nota que su piel es muy salada al besarlo.",
+      "question": "¿Cuál es el examen de elección para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cuantificación de inmunoglobulinas"
+        },
+        {
+          "letter": "B",
+          "text": "Espirometría"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de tórax"
+        },
+        {
+          "letter": "D",
+          "text": "Anticuerpos antitransglutaminasa"
+        },
+        {
+          "letter": "E",
+          "text": "Test del sudor (cloro en sudor)"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Infecciones respiratorias recurrentes con tos productiva, esteatorrea por insuficiencia pancreática, falla de crecimiento y piel salada sugieren fibrosis quística. El examen de elección es el test del sudor por iontoforesis con pilocarpina: cloro en sudor de 60 mmol/L o más en dos muestras confirma; entre 30 y 59 es limítrofe y requiere estudio genético del gen CFTR.",
+      "say": {
+        "stem": "Un niño de dos años tiene neumonías a repetición, tos productiva, deposiciones grasosas y malolientes, mal incremento de peso y piel salada.",
+        "question": "¿Cuál es el examen de elección para confirmar?",
+        "options": "Las opciones: inmunoglobulinas, espirometría, TAC de tórax, antitransglutaminasa o test del sudor. Piénsalo.",
+        "answer": "Es la E. Se sospecha una fibrosis quística y se confirma con el test del sudor. La antitransglutaminasa tienta por la malabsorción, pero la celiaquía no explica las infecciones respiratorias ni la piel salada."
+      }
     },
 
     {

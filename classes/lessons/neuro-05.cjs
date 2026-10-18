@@ -84,7 +84,8 @@ module.exports = {
         ] },
         { title: 'Hipertensión endocraneana', tag: 'Fondo de ojo', kind: 'alert', items: [
           { t: 'Vómitos matinales y papiledema', d: 'Oscurecimientos visuales transitorios',
-            say: 'Se suma el síndrome de hipertensión endocraneana: náuseas, vómitos explosivos de predominio matinal, oscurecimientos visuales transitorios, y el dato que tienes que buscar: papiledema bilateral en el fondo de ojo.' },
+            say: 'Se suma el síndrome de hipertensión endocraneana: náuseas, vómitos explosivos de predominio matinal, oscurecimientos visuales transitorios, y el dato que tienes que buscar: papiledema bilateral en el fondo de ojo. Mira este fondo de ojo: el borde de la papila se borra y se hincha.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-05/02_papiledema__cto-oftalmo_p88.jpg', label: 'Papiledema', at: 'Mira este fondo de ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 88' } },
         ] },
         { title: 'Lo que la separa de otros ACV', tag: 'Ojo en el examen', kind: 'criteria', items: [
           { t: 'Convulsiones en 35–40 %', d: 'Mucho más que en el infarto arterial',
@@ -126,11 +127,13 @@ module.exports = {
         ] },
         { title: 'TAC con contraste', tag: 'Signo clásico', kind: 'criteria', items: [
           { t: 'Delta vacío', d: 'Seno sagital superior, tercio posterior',
-            say: 'Con contraste aparece el signo clásico: el delta vacío. En el tercio posterior del seno sagital superior se ve un triángulo oscuro, que es el trombo, rodeado por las paredes del seno, que sí captan contraste.' },
+            say: 'Con contraste aparece el signo clásico: el delta vacío. En el tercio posterior del seno sagital superior se ve un triángulo oscuro, que es el trombo, rodeado por las paredes del seno, que sí captan contraste. Mira esta resonancia: en el panel D, la flecha marca el seno con el trombo, y en el corte lateral las flechas siguen el seno ocupado.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-05/01_trombosis-de-seno-signo-delta_alt1__cto-radiologia_p64.jpg', label: 'Seno sagital trombosado', at: 'Mira esta resonancia', credit: 'Manual CTO Radiología 14.ª ed., p. 64' } },
         ] },
         { title: 'Examen de elección', tag: 'Gold standard no invasivo', kind: 'key', items: [
           { t: 'Angio-RM venosa', d: 'O AngioTAC en fase venosa',
-            say: 'Pero el examen de elección es la angiorresonancia venosa, o la AngioTAC en fase venosa. Muestran que no hay flujo en el seno trombosado y permiten ver el trombo directamente. La idea es simple: si sospechas un problema de las venas, tienes que pedir un examen que mire las venas.' },
+            say: 'Pero el examen de elección es la angiorresonancia venosa, o la AngioTAC en fase venosa. Muestran que no hay flujo en el seno trombosado y permiten ver el trombo directamente. Mira esta venografía por tomografía: el seno sagital superior muestra un defecto de relleno, que es el trombo. La idea es simple: si sospechas un problema de las venas, tienes que pedir un examen que mire las venas.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-05/03_tc_venografia_seno_sagital__ctmri_p100.jpg', label: 'Defecto de relleno venoso', at: 'Mira esta venografía', credit: 'CT & MRI Pathology: A Pocket Atlas, p. 100' } },
         ] },
       ],
     },
@@ -198,22 +201,6 @@ module.exports = {
       steps: [
         { note: 'Se anticoagula aunque sangre',
           say: 'Un trombo tapa un seno venoso: la sangre llega, pero no puede salir. Aparece el edema, un infarto venoso que puede ser bilateral, y muchas veces una hemorragia, que viene del drenaje tapado. Por eso igual se anticoagula.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Trombosis de senos venosos',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-05/01_trombosis-de-seno-signo-delta_alt1__cto-radiologia_p64.jpg', label: 'Trombosis del seno longitudinal superior (RM): delta vacío en D, flechas en D y F', credit: 'Manual CTO Radiología 14.ª ed., p. 64' },
-        { src: 'biblioteca/09_neurologia/neuro-05/02_papiledema__cto-oftalmo_p88.jpg', label: 'Papiledema', credit: 'Manual CTO Oftalmología 14.ª ed., p. 88' },
-      ],
-      steps: [
-        { note: 'Seno con trombo',
-          say: 'El signo delta vacío: el seno venoso no se llena de contraste porque está trombosado. En la resonancia, la flecha del panel D marca el seno con el trombo, y en el corte lateral las flechas siguen el seno ocupado.' },
-        { note: 'Hipertensión intracraneana',
-          say: 'Y como la sangre no puede salir, sube la presión intracraneana. En el fondo de ojo aparece el papiledema: el borde de la papila se borra y se hincha.' },
       ],
     },
 
@@ -308,6 +295,81 @@ module.exports = {
         options: 'Las opciones: migraña por anticonceptivos, infarto cerebral extenso, infarto lacunar, epilepsia con parálisis de Todd, o trombosis venosa cerebral. Piénsalo.',
         answer: 'Es la E. Fíjate que es la pregunta anterior, pero completa: a la cefalea con hipertensión endocraneana se suman la convulsión, el compromiso de conciencia y el déficit focal. Ese es el cuadro completo de la trombosis venosa. El infarto extenso tienta por la paresia, pero se instala de golpe. Y la parálisis de Todd explica la paresia, pero no cinco días de cefalea que va en aumento.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 169",
+      "stem": "Paciente de 45 años, con antecedente de hipertensión arterial y migraña tratada con antiinflamatorios y ergotamínicos, consulta por cefalea más intensa de lo habitual desde hace 2 meses, que inicialmente predominaba en la mañana, pero que ha aumentado en intensidad durante todo el día y se ha asociado a náuseas y vómitos explosivos. Refiere no haber tenido respuesta a pesar del uso frecuente de analgésicos y ergotamínicos.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Síndrome de hipertensión endocraneana"
+        },
+        {
+          "letter": "B",
+          "text": "Hemorragia subaracnoídea"
+        },
+        {
+          "letter": "C",
+          "text": "Encefalopatía hipertensiva"
+        },
+        {
+          "letter": "D",
+          "text": "Tumor cerebral"
+        },
+        {
+          "letter": "E",
+          "text": "Cefalea por ergotamínicos"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Cefalea progresiva de predominio matinal, con náuseas y vómitos explosivos y sin respuesta a analgésicos: síndrome de hipertensión endocraneana (cefalea matinal, vómitos y edema de papila). Obliga a fondo de ojo y neuroimagen. El tumor es una causa posible, pero el diagnóstico sindromático es la HTEC; la hemorragia subaracnoídea es súbita, no de 2 meses.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Una mujer de cuarenta y cinco años, hipertensa y con migraña, consulta por una cefalea distinta de dos meses, al principio matinal y luego todo el día, con náuseas y vómitos explosivos, que no responde a analgésicos ni ergotamínicos.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: síndrome de hipertensión endocraneana, hemorragia subaracnoídea, encefalopatía hipertensiva, tumor cerebral, o cefalea por ergotamínicos. Piénsalo.",
+        "answer": "Es la A. Cefalea progresiva, matinal y con vómitos explosivos es el síndrome de hipertensión endocraneana, y obliga a fondo de ojo e imagen. El tumor tienta porque es una causa posible, pero lo que el cuadro permite afirmar es el síndrome, no su causa."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.4.002 · Resonancia magnética de encéfalo y columna",
+      "stem": "Mujer de 32 años, usuaria de anticonceptivos orales combinados y fumadora, consulta por 5 días de cefalea holocránea progresiva que empeora con el decúbito, con vómitos y visión borrosa transitoria. Fondo de ojo: edema de papila bilateral. Sin déficit focal. TAC de encéfalo sin contraste: normal.",
+      "question": "¿Cuál es el examen más adecuado para confirmar el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Resonancia magnética de encéfalo con venografía por resonancia"
+        },
+        {
+          "letter": "B",
+          "text": "Punción lumbar con medición de presión de apertura"
+        },
+        {
+          "letter": "C",
+          "text": "Electroencefalograma"
+        },
+        {
+          "letter": "D",
+          "text": "Repetir el TAC sin contraste en 48 horas"
+        },
+        {
+          "letter": "E",
+          "text": "Eco-Doppler carotídeo"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Cefalea progresiva con hipertensión endocraneana en una mujer con anticonceptivos y tabaco: sospecha de trombosis venosa cerebral. El TAC sin contraste suele ser normal; se confirma con RM más venografía por RM (o angio-TAC venoso), que muestran el seno trombosado. La punción lumbar no se hace antes de la imagen adecuada, y no diagnostica la trombosis.",
+      "say": {
+        "stem": "Una mujer de treinta y dos años, con anticonceptivos y tabaquismo, tiene cefalea progresiva de cinco días que empeora acostada, vómitos y edema de papila, con tomografía sin contraste normal.",
+        "question": "¿Cuál es el examen más adecuado para confirmar el diagnóstico?",
+        "options": "Las opciones: resonancia con venografía, punción lumbar con presión de apertura, electroencefalograma, repetir la tomografía en dos días o Doppler carotídeo. Piénsalo.",
+        "answer": "Es la A. Se sospecha una trombosis venosa cerebral, y la resonancia con venografía muestra el seno ocluido. La punción lumbar tienta por el edema de papila, pero no diagnostica la trombosis y se reserva para cuando la imagen la descarta."
+      }
     },
 
     {

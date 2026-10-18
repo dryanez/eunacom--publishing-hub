@@ -130,6 +130,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La bacteria sube por el uréter',
+      images: [
+        { src: 'animaciones/ob-09/A1_itu_embarazo.mp4', label: 'De la bacteriuria a la pielonefritis', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Estasis, ascenso y pielonefritis derecha',
+          say: 'Mira los dos uréteres: la progesterona los dilata, y el útero grávido, rotado hacia la derecha, comprime sobre todo el derecho. La orina baja lento y se estanca. Entonces la Escherichia coli sube por la uretra, llega a la vejiga y ahí está la bacteriuria asintomática, que tratas siempre. Si sigue subiendo por el uréter derecho, llega al riñón: pielonefritis, con fiebre y puñopercusión positiva, y se hospitaliza.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo en un solo árbol de decisión.',
     },

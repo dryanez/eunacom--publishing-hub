@@ -38,7 +38,8 @@ module.exports = {
         { show: ['fie'], note: 'Fiebre sin foco en este paciente = bacteriemia hasta demostrar lo contrario',
           say: 'Por eso la fiebre suele ser la única alarma. Fíjate que en este paciente, una fiebre sin foco no es tranquilizadora: es justamente lo que esperas ver en una bacteriemia.' },
         { show: ['pse'], note: 'El germen más temido',
-          say: 'Y el germen más temido es Pseudomonas aeruginosa, capaz de llevar a un shock séptico fulminante en menos de doce horas. Guarda este nombre, porque va a decidir qué antibiótico elegimos.' },
+          say: 'Y el germen más temido es Pseudomonas aeruginosa, capaz de llevar a un shock séptico fulminante en menos de doce horas, y de dar en la piel esta úlcera de centro negro, el ectima gangrenoso. Guarda este nombre, porque va a decidir qué antibiótico elegimos.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-24/03_ectima-gangrenoso__atlas040.jpg', label: 'Ectima gangrenoso', at: 'esta úlcera de centro negro', credit: 'Atlas EUNACOM 2026' } },
       ],
     },
 
@@ -168,11 +169,57 @@ module.exports = {
         { show: ['hon'], note: 'La causa más frecuente: un hongo',
           say: 'La causa más frecuente es una infección fúngica invasora: aspergilosis pulmonar o candidiasis. Tiene lógica: le quitamos las bacterias con los antibióticos, pero sigue sin neutrófilos, y el hongo aprovecha.' },
         { show: ['tac'], note: 'Signo del halo = Aspergillus',
-          say: 'La conducta tiene dos partes, y las dos son obligatorias. Primero, TAC de tórax de alta resolución, buscando el signo del halo: un nódulo rodeado de un halo, que es característico del Aspergillus.' },
+          say: 'La conducta tiene dos partes, y las dos son obligatorias. Primero, TAC de tórax de alta resolución, buscando el signo del halo, como ves en esta tomografía: un nódulo rodeado de un halo, que es característico del Aspergillus.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-24/01_signo-halo-tac__brant_p497.jpg', label: 'Signo del halo', at: 'como ves en esta tomografía', credit: 'Brant & Helms, Fundamentals of Diagnostic Radiology, p. 497' } },
         { show: ['vor'], note: 'Antifúngico EV inmediato',
           say: 'Y segundo, iniciar de inmediato un antifúngico endovenoso: voriconazol, o una equinocandina como la caspofungina.' },
         { show: ['tra'], note: 'Trampa: seguir moviendo antibióticos',
           say: 'La trampa es seguir moviendo antibióticos, cambiarlos a vancomicina o suspenderlos para observar. Ninguna de esas opciones trata un hongo.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Mucormicosis',
+      title: 'Mucormicosis: el hongo que no cubre el voriconazol',
+      cards: [
+        { title: 'Quién y cómo', tag: 'Angioinvasor', kind: 'alert', items: [
+          { t: 'Cetoacidosis, neutropenia, corticoides, hierro', d: 'Trasplante, COVID-19 grave',
+            say: 'La mucormicosis afecta a pacientes con cetoacidosis diabética, neutropenia prolongada, trasplante, corticoides, sobrecarga de hierro o COVID grave. El hongo invade los vasos y causa necrosis.' },
+          { t: 'Rinocerebral: escara negra y proptosis', d: 'Dolor facial, secreción sanguinolenta, oftalmoplejía',
+            say: 'Mira este paciente: la forma rinocerebral da dolor facial, secreción nasal con sangre, escara negra en paladar o cornetes, edema periorbitario, proptosis y oftalmoplejía.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-24/02_mucormicosis__fitzpatrick_p1882.jpg', label: 'Mucormicosis rinocerebral', at: 'Mira este paciente', credit: 'Fitzpatrick, Dermatology in General Medicine, p. 1882' } },
+          { t: 'Empeora con voriconazol', d: 'No tiene actividad contra mucorales',
+            say: 'La pista de examen: el paciente con necrosis empeora con voriconazol, porque no cubre a los mucorales.' },
+        ] },
+        { title: 'Conducta', tag: 'Urgente', kind: 'pharma', items: [
+          { t: 'Biopsia: hifas anchas en ángulo recto', d: 'Aseptadas',
+            say: 'El diagnóstico es urgente, con biopsia: hifas anchas, sin tabiques, que se ramifican en ángulo recto.' },
+          { t: 'Desbridar + anfotericina B liposomal', d: '5–10 mg/kg/día · corregir acidosis y glicemia',
+            say: 'Se desbrida ampliamente, se da anfotericina B liposomal, se corrige la acidosis y la glicemia y se reduce la inmunosupresión. Posaconazol o isavuconazol son de rescate. La mortalidad es cercana a cincuenta por ciento, así que se deriva de inmediato.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Fiebre sin foco',
+      title: 'Fiebre sin foco y fiebre prolongada del adulto',
+      cards: [
+        { title: 'Menos de 7 días', tag: 'Habitualmente viral', kind: 'key', items: [
+          { t: 'Examen y exámenes básicos normales', d: 'Hemograma, PCR, orina, Rx de tórax',
+            say: 'La fiebre de menos de siete días con examen físico y exámenes básicos normales es habitualmente viral: manejo sintomático y control.' },
+          { t: 'Alarmas: inmunosupresión, catéter, prótesis', d: 'Neutropenia, compromiso hemodinámico, edad extrema',
+            say: 'Son signos de alarma la inmunosupresión, la neutropenia, el catéter o la prótesis, el compromiso hemodinámico y las edades extremas.' },
+        ] },
+        { title: 'Más de 3 semanas', tag: 'Estudio escalonado', kind: 'criteria', items: [
+          { t: 'Hemocultivos × 3, imágenes, PPD o IGRA', d: 'Serologías: VIH, EBV, CMV, Brucella',
+            say: 'La fiebre sobre treinta y ocho coma tres por más de tres semanas se estudia de forma escalonada: tres hemocultivos, hemograma, PCR y VHS, perfil hepático, imágenes, PPD o IGRA y serologías.' },
+          { t: 'TBC, endocarditis, arteritis, Still, linfoma', d: 'Ecocardiograma si hay soplo',
+            say: 'Las causas son infecciosas, como tuberculosis y endocarditis; inflamatorias, como la arteritis de células gigantes en el anciano y Still; y neoplasias, como el linfoma. Con soplo, ecocardiograma.' },
+          { t: 'Sin antibiótico ni corticoide empírico', d: 'Sospechar, estudiar, derivar',
+            say: 'Y de nuevo la regla: sin diagnóstico no se dan antibióticos ni corticoides empíricos. Se sospecha, se inicia el estudio y se deriva.' },
+        ] },
       ],
     },
 
@@ -329,6 +376,82 @@ module.exports = {
         options: 'Las opciones: Pseudomonas aeruginosa, Aspergillus, Staphylococcus aureus, Candida albicans, o Mycobacterium tuberculosis. Piénsalo.',
         answer: 'Es la B, Aspergillus. Quimioterapia, fiebre y una lesión con halo en la TAC es la aspergilosis pulmonar invasora: justamente lo que buscas en la TAC cuando la fiebre no cede. Pseudomonas tienta porque es el germen más temido del neutropénico, pero es la amenaza de las primeras horas, no de una lesión con halo. Y Candida también es una micosis invasora, pero el halo es la firma del Aspergillus.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 58",
+      "stem": "Un niño de 7 años, diagnosticado de leucemia linfoblástica aguda, inició sus ciclos de quimioterapia hace 7 días. Consulta por fiebre asociada a malestar general. Al examen físico presenta temperatura 38,5 °C y frecuencia cardíaca 110/min, sin alteraciones en el examen físico segmentario.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Administrar ceftriaxona intramuscular y controlar en 24 horas"
+        },
+        {
+          "letter": "B",
+          "text": "Indicar antipiréticos y controlar en caso de persistencia de la fiebre"
+        },
+        {
+          "letter": "C",
+          "text": "Administrar antibióticos de amplio espectro por vía endovenosa"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar serología para virus de Epstein-Barr y citomegalovirus"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar amoxicilina por vía oral"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Fiebre en un niño en quimioterapia (nadir esperado a los 7 a 14 días) se maneja como neutropenia febril: es una urgencia. Se hospitaliza, se toman hemocultivos y se inician antibióticos endovenosos de amplio espectro con cobertura antipseudomónica (ej. cefepime o piperacilina-tazobactam) dentro de la primera hora, sin esperar el recuento.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Un niño de siete años con leucemia linfoblástica aguda empezó quimioterapia hace siete días y consulta por fiebre de treinta y ocho y medio, sin foco al examen.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: ceftriaxona intramuscular y control, antipiréticos, antibióticos endovenosos de amplio espectro, serologías virales o amoxicilina oral. Piénsalo.",
+        "answer": "Es la C. Es una neutropenia febril hasta demostrar lo contrario, y exige antibióticos endovenosos de amplio espectro con cobertura de pseudomona dentro de la primera hora. La ceftriaxona ambulatoria tienta, pero no cubre pseudomona y el paciente debe hospitalizarse."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.1.024 · Síndrome febril prolongado",
+      "stem": "Una mujer de 50 años presenta fiebre sobre 38,3 °C de 4 semanas de evolución. Tras una semana de estudio hospitalizada (hemograma, perfil bioquímico, examen de orina, hemocultivos, urocultivo, radiografía de tórax y VIH) no se ha encontrado la causa.",
+      "question": "¿Cuál es el grupo de causas clásicamente más frecuente de este síndrome en adultos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Infecciones (como tuberculosis, endocarditis y abscesos)"
+        },
+        {
+          "letter": "B",
+          "text": "Fiebre facticia"
+        },
+        {
+          "letter": "C",
+          "text": "Fármacos, exclusivamente"
+        },
+        {
+          "letter": "D",
+          "text": "Enfermedades genéticas"
+        },
+        {
+          "letter": "E",
+          "text": "Simulación"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Fiebre sobre 38,3 °C por más de 3 semanas sin diagnóstico tras un estudio inicial adecuado define el síndrome febril prolongado. Sus causas se agrupan en infecciones (clásicamente las más frecuentes: tuberculosis, abscesos, endocarditis), neoplasias (linfomas), enfermedades inflamatorias no infecciosas (arteritis de células gigantes, Still) y misceláneas.",
+      "say": {
+        "stem": "Una mujer de cincuenta años lleva cuatro semanas con fiebre sobre treinta y ocho coma tres, y tras una semana de estudio hospitalario básico no se encuentra la causa.",
+        "question": "¿Cuál es el grupo de causas clásicamente más frecuente en adultos?",
+        "options": "Las opciones: infecciones como tuberculosis, endocarditis y abscesos, fiebre facticia, solo fármacos, enfermedades genéticas o simulación. Piénsalo.",
+        "answer": "Es la A. En el síndrome febril prolongado las infecciones son clásicamente el grupo más frecuente, seguidas por neoplasias y enfermedades inflamatorias. La fiebre facticia tienta en casos sin explicación, pero es una causa rara."
+      }
     },
 
     {

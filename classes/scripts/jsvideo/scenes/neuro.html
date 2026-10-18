@@ -209,12 +209,95 @@ function fragilidad(t) {
   K.card(800, 420, 440, 120, C.GREEN, '1 a 2: prefrágil', ['Intervenir: ejercicio y nutrición'], seg(t, 11, 0.5), 17);
 }
 
+function temblor(t) {
+  K.title('¿Cuándo tiembla?', 'El momento del temblor señala la enfermedad', C.AMBER);
+  const sm = (x, a, b) => Math.max(0, Math.min(1, (x - a) / (b - a)));
+  const rows = [
+    ['Parkinson', C.RED, x => 40 * (1 - sm(x, 4.6, 5.4)) * Math.sin(x * 2 * Math.PI * 1.1 * 5 / 2.2)],
+    ['Esencial', C.AMBER, x => (4 + 38 * sm(x, 4.6, 5.4)) * Math.sin(x * 2 * Math.PI * 1.1 * 7 / 2.2)],
+    ['Cerebelo', C.BLUE, x => 46 * sm(x, 6, 10) * sm(x, 5.4, 6.2) * Math.sin(x * 2 * Math.PI * 1.1 * 3 / 2.2)]];
+  rows.forEach(([name, col, f], i) => {
+    const y0 = 170 + i * 150, a0 = seg(t, 0.5 + i * 0.4, 0.6);
+    const ax = G.axes({ x: 170, y: y0, w: 560, h: 110 }, [0, 10], [-50, 50], {}); ax.draw(a0);
+    ctx.globalAlpha = a0; ctx.fillStyle = 'rgba(255,255,255,0.05)'; ctx.fillRect(ax.X(5), y0, ax.X(10) - ax.X(5), 110);
+    text(name, 150, y0 + 62, 20, col, 'bold', 'right'); ctx.globalAlpha = 1;
+    const k = ease(seg(t, 2.5 + i * 5, 4.5)); const p = G.curve(ax, f, k, col, 4); if (p && k < 1) G.head(p, col);
+  });
+  ctx.globalAlpha = seg(t, 1, 0.6); text('En reposo', 170 + 140, 150, 17, C.MUTED, 'bold', 'center'); text('Al actuar: sostener o apuntar', 170 + 420, 150, 17, C.MUTED, 'bold', 'center'); ctx.globalAlpha = 1;
+  K.card(780, 170, 460, 120, C.RED, 'Parkinson: de reposo', ['Se apaga al mover la mano'], seg(t, 7, 0.5), 17);
+  K.card(780, 310, 460, 120, C.AMBER, 'Esencial: postural y de acción', ['Aparece al sostener el vaso'], seg(t, 12, 0.5), 17);
+  K.card(780, 450, 460, 120, C.BLUE, 'Cerebeloso: de intención', ['Crece al acercarse al blanco'], seg(t, 17, 0.5), 17);
+}
+
+// ---- VPPB: cristales en el canal posterior (laberinto de Blausen, CC BY 3.0) ----
+const OI = { x: 50, y: 100, s: 0.78 }, OP = (x, y) => [OI.x + x * OI.s, OI.y + y * OI.s];
+const RING = { cx: 254, cy: 480, rx: 112, ry: 100 };
+function ringPt(a) { const r = a * Math.PI / 180; return OP(RING.cx + RING.rx * Math.cos(r), RING.cy + RING.ry * Math.sin(r)); }
+function vppb(t) {
+  K.title('Vértigo posicional paroxístico benigno', 'Cristales sueltos en el canal posterior', C.CYAN || '#0BD9E7');
+  const im = I('oido'); ctx.save(); ctx.globalAlpha = seg(t, 0, 0.7); ctx.drawImage(im, OI.x, OI.y, 570 * OI.s, 740 * OI.s); ctx.restore();
+  if (false) { ctx.strokeStyle = '#f0f'; ctx.lineWidth = 2; ctx.beginPath(); for (let a = 0; a <= 360; a += 5) { const [x, y] = ringPt(a); a ? ctx.lineTo(x, y) : ctx.moveTo(x, y); } ctx.stroke(); }
+  // ángulo del grupo de cristales: 90 = fondo del canal (reposo) · al girar la cabeza se mueve al fondo opuesto
+  const A_REST = 105, A_AMP = 40, A_UTR = 330;
+  let ang = A_REST;
+  if (t >= 5.5 && t < 9) ang = lerp(A_REST, 175, ease(seg(t, 5.5, 2.5)));           // Dix-Hallpike: caen por el canal
+  else if (t >= 9 && t < 11) ang = 175;
+  else if (t >= 11) ang = lerp(175, A_UTR + 360 * 0 - 30, ease(seg(t, 11, 7)));         // Epley: vuelven al vestíbulo
+  const n = 9, px = [], rnd2 = K.rnd;
+  for (let i = 0; i < n; i++) { const da = (i - n / 2) * 3.2 + Math.sin(i * 7.1) * 2, [x, y] = ringPt(ang + da); px.push([x + Math.cos(i * 2.3) * 5, y + Math.sin(i * 1.7) * 5]); }
+  ctx.save(); ctx.globalAlpha = seg(t, 2, 0.6);
+  px.forEach(([x, y], i) => { ctx.fillStyle = '#FFE08A'; ctx.beginPath(); ctx.arc(x, y, 5.5 + (i % 3), 0, 7); ctx.fill(); ctx.strokeStyle = '#8A6A00'; ctx.lineWidth = 1.2; ctx.stroke(); }); ctx.restore();
+  const [lx, ly] = ringPt(ang);
+  ctx.globalAlpha = seg(t, 2.5, 0.5); tag('Otolitos: cristales de carbonato de calcio', 280, 700, '#FFE08A', 14); ctx.globalAlpha = 1;
+  if (t >= 5.5 && t < 11) { ctx.globalAlpha = seg(t, 6, 0.5); tag('Vértigo con nistagmo: segundos', lx + 150, ly - 20, C.RED, 16); ctx.globalAlpha = 1; }
+  K.card(620, 150, 620, 110, C.AMBER, '1 · Dix-Hallpike: lo diagnostica', ['Cabeza girada y acostar: vértigo y nistagmo de segundos'], seg(t, 5.5, 0.5), 17);
+  K.card(620, 280, 620, 110, C.GREEN, '2 · Epley: lo trata', ['Cuatro posiciones: los cristales vuelven al utrículo'], seg(t, 11, 0.5), 17);
+  K.banner(620, 420, 620, 'Se cura en la consulta, sin fármacos ni estudio de imágenes', C.GREEN, seg(t, 17.5, 0.5));
+}
+
+function delirium(t) {
+  K.title('Delirium frente a demencia', 'Inicio agudo, curso fluctuante, atención que falla', C.AMBER);
+  const ax = G.axes({ x: 110, y: 170, w: 700, h: 380 }, [0, 72], [0, 100], { xt: [0, 12, 24, 36, 48, 60, [72, '72 h']], yt: [], yl: 'Atención', xl: 'Horas' }); ax.draw(seg(t, 0, 0.7));
+  const sm = (x, a, b) => Math.max(0, Math.min(1, (x - a) / (b - a)));
+  const norm = x => 88;
+  const dem = x => 62;
+  const del = x => 88 - 52 * sm(x, 14, 18) + 20 * Math.sin((x - 14) * Math.PI / 12 + 1.2) * sm(x, 14, 22) * (1 - 0.5 * sm(x, 56, 70));
+  G.curve(ax, norm, ease(seg(t, 1, 2)), C.GREEN, 4);
+  G.curve(ax, dem, ease(seg(t, 3, 2)), C.VIOLET, 4);
+  const k = ease(seg(t, 5.5, 8)); const p = G.curve(ax, del, k, C.RED, 5); if (p && k < 1) G.head(p, C.RED);
+  ctx.globalAlpha = seg(t, 1, 0.5); text('Normal', ax.X(62), ax.Y(88) - 12, 16, C.GREEN, 'bold'); ctx.globalAlpha = 1;
+  ctx.globalAlpha = seg(t, 3, 0.5); text('Demencia: estable', ax.X(48), ax.Y(62) + 26, 16, C.VIOLET, 'bold'); ctx.globalAlpha = 1;
+  if (t > 6.5) { ctx.globalAlpha = seg(t, 6.5, 0.5); G.vline(ax, 14, C.AMBER, 'Infección', seg(t, 6.5, 0.6)); ctx.globalAlpha = 1; }
+  if (t > 11) { ctx.globalAlpha = seg(t, 11, 0.5); text('Delirium: sube y baja', ax.X(30), ax.Y(8), 16, C.RED, 'bold'); ctx.globalAlpha = 1; }
+  K.card(860, 170, 380, 130, C.RED, 'Delirium', ['Inicio en horas o días', 'Fluctúa, peor de noche'], seg(t, 9, 0.5), 17);
+  K.card(860, 320, 380, 130, C.VIOLET, 'Demencia', ['Inicio insidioso', 'Atención conservada al comienzo'], seg(t, 14, 0.5), 17);
+  K.banner(860, 470, 380, 'Busca la causa: I WATCH DEATH', C.AMBER, seg(t, 17, 0.5));
+}
+
+function cascada(t) {
+  K.title('Cascada de prescripción', 'Un fármaco trata el efecto adverso de otro', C.RED);
+  const rows = [
+    [['Donepecilo', 'Alzheimer', C.VIOLET], ['Incontinencia y diarrea', 'Efecto colinérgico', C.AMBER], ['Oxibutinina', 'Anticolinérgico', C.RED], ['Delirium', 'Anula al donepecilo', C.RED]],
+    [['Amlodipino', 'Antihipertensivo', C.VIOLET], ['Edema de tobillos', 'Efecto adverso', C.AMBER], ['Furosemida', 'Diurético', C.RED], ['Hipopotasemia', 'Caídas, arritmias', C.RED]],
+    [['AINE', 'Para el dolor', C.VIOLET], ['Sube la presión', 'Efecto adverso', C.AMBER], ['Otro antihipertensivo', 'Segundo fármaco', C.RED], ['Más reacciones', 'Polifarmacia', C.RED]]];
+  const W = 250, H = 88, X0 = 40, GAP = 40;
+  rows.forEach((row, r) => row.forEach(([a, b, col], i) => {
+    const t0 = 1 + r * 4.2 + i * 0.9, al = seg(t, t0, 0.5); if (al <= 0) return;
+    const x = X0 + i * (W + GAP), y = 160 + r * 130;
+    ctx.save(); ctx.globalAlpha = al; rrect(x, y, W, H, 14, '#161B22'); ctx.strokeStyle = col; ctx.lineWidth = 2.5; ctx.beginPath(); ctx.roundRect(x, y, W, H, 14); ctx.stroke();
+    text(a, x + W / 2, y + 38, 21, C.INK, 'bold', 'center'); text(b, x + W / 2, y + 66, 15, C.MUTED, '', 'center');
+    if (i > 0) { ctx.strokeStyle = i === 2 ? C.RED : C.MUTED; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(x - GAP + 6, y + H / 2); ctx.lineTo(x - 8, y + H / 2); ctx.stroke(); ctx.fillStyle = ctx.strokeStyle; ctx.beginPath(); ctx.moveTo(x - 2, y + H / 2); ctx.lineTo(x - 12, y + H / 2 - 7); ctx.lineTo(x - 12, y + H / 2 + 7); ctx.fill(); }
+    ctx.restore(); }));
+  if (t > 13) { ctx.globalAlpha = seg(t, 13, 0.5); text('Error: agregar B', X0 + 2 * (W + GAP) - GAP / 2 - 30, 148, 15, C.RED, 'bold', 'center'); ctx.globalAlpha = 1; }
+  K.banner(240, 570, 800, 'Correcto: reconocer el efecto adverso y retirar o bajar el fármaco A', C.GREEN, seg(t, 15.5, 0.6));
+}
+
 window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
   if (V === 'facial_c') facial(t, true); else if (V === 'facial_p') facial(t, false);
-  else ({ penumbra, hematoma, seno, migrana, trigemino, alzheimer, em, d2, demencias, abcd, sincope, fragilidad })[V](t);
-  if (['demencias', 'abcd', 'sincope', 'fragilidad'].includes(V)) text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); else K.credit(); };
+  else ({ penumbra, hematoma, seno, migrana, trigemino, alzheimer, em, d2, demencias, abcd, sincope, fragilidad, temblor, vppb, delirium, cascada })[V](t);
+  if (['demencias', 'abcd', 'sincope', 'fragilidad', 'temblor', 'delirium', 'cascada'].includes(V)) text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); else K.credit(V === 'vppb' ? 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' : undefined); };
 LOAD({ cor: '../assets/servier/cerebro_coronal_avc.png', sup: '../assets/servier/cerebro_superior.png', sag: '../assets/servier/cerebro_sagital.png',
   lcr: '../assets/servier/lcr_sagital.png', art: '../assets/servier/arterias_cabeza.png', hip: '../assets/servier/hipocampo.png', gb: '../assets/servier/ganglios_basales.png',
-  cara: '../assets/servier/cara.png', vaso: '../assets/servier/vaso_curvo.png' });
+  cara: '../assets/servier/cara.png', oido: '../assets/blausen/oido_laberinto.png', vaso: '../assets/servier/vaso_curvo.png' });
 </script>
 </body></html>

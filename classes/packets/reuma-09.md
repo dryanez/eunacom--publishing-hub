@@ -363,7 +363,7 @@ Un paciente ingresa al servicio de urgencia, por un cuadro de disnea marcada y s
 - D) Desfibrilación
 - E) Cardioversión eléctrica
 **Correcta: E**
-Explicación del banco: Por tener compromiso hemodinámico, da igual de qué taquiarritmia se trate y se debe cardiovertir eléctricamente (no confundir con la desﬁbrilación, que se usa en el paro con FV o TVSP).
+Explicación del banco: Por tener compromiso hemodinámico, da igual de qué taquiarritmia se trate y se debe cardiovertir eléctricamente (no confundir con la desfibrilación, que se usa en el paro con FV o TVSP).
 
 ### [4] EUNACOM Julio 2018 · Pregunta 66 · confianza 0.97
 Un hombre de 34 años presenta erección dolorosa, desde hace 8 horas. Al examen tiene cuerpos cavernosos duros, pero con glande y cuerpos esponjosos blandos. ¿Cuál es la conducta inicial más adecuada?
@@ -496,24 +496,24 @@ Una paciente de 48 años consulta por sangrado uterino, que no ha cesado desde s
 Explicación del banco: Conducta / Tratamiento indicado: **Biopsia de endometrio** (opción **E**). Según los consensos y guías clínicas del MINSAL, esta constituye la conducta estándar de primera línea recomendada para este nivel de atención. Las opciones alternativas (Histerectomía, Ácido tranexámico endovenoso) corresponden a conductas secundarias, exámenes no prioritarios o diagnósticos diferenciales que no concuerdan con la presentación del paciente.
 
 ### [17] EUNACOM Diciembre 2025 · Pregunta 21 · confianza 0.93
-Un paciente de 29 años presenta ictericia, disnea y compromiso marcado del estado general. Su examen Fsico solo muestra ictericia de escleras y piel, sin alteraciones relevantes en el examen segmentario. Sus exámenes de laboratorio muestran hemograma con hematocrito: 12%, hemoglobina: 4,1 g/dL, plaquetas: 250.000/mm³, glóbulos blancos 7.800/mm³, VCM: 103 fL y CHCM: 32 pg; en el fro8s se observa presencia de microesferocitos. Las pruebas hepá8cas muestran GOT: 52 U/L, GPT: 56 U/L, bilirrubina total: 4,1 mg/dL, bilirrubina directa 0,5: mg/dL, GGT: 50 U/L, fosfatasas alcalinas: 211 U/L y LDH: 960 U/L. ¿Cuál es el diagnós8co más probable?
+Un paciente de 29 años presenta ictericia, disnea y compromiso marcado del estado general. Su examen físico solo muestra ictericia de escleras y piel, sin alteraciones relevantes en el examen segmentario. Sus exámenes de laboratorio muestran hemograma con hematocrito: 12%, hemoglobina: 4,1 g/dL, plaquetas: 250.000/mm³, glóbulos blancos 7.800/mm³, VCM: 103 fL y CHCM: 32 pg; en el frotis se observa presencia de microesferocitos. Las pruebas hepáticas muestran GOT: 52 U/L, GPT: 56 U/L, bilirrubina total: 4,1 mg/dL, bilirrubina directa 0,5: mg/dL, GGT: 50 U/L, fosfatasas alcalinas: 211 U/L y LDH: 960 U/L. ¿Cuál es el diagnóstico más probable?
 - A) Hepa22s A
-- B) Anemia por déﬁcit de vitamina B12
+- B) Anemia por déficit de vitamina B12
 - C) Hemólisis
 - D) Anemia aplásica
 - E) Mielodisplasia
 **Correcta: C**
-Explicación del banco: Es una anemia hemolítica clásica, probablemente autoinmune (AHAI). Orientan la anemia aguda y severa, con hiperbilirrubinemia indirecta, elevación de LDH. El VCM se puede elevar, por aumento de los reGculocitos. Los microesferocitos se ven en la AHAI, por el daño que sufren los glóbulos; en cambio, la microesferocitosis familiar suele ser un cuadro crónico, menos grave, con esplenomegalia y exacerbación durante los cuadros agudos. La prueba de Coombs directo está positiva en la AHAI y negativa en la mayoría de las otras causas de hemólisis.
+Explicación del banco: Es una anemia hemolítica clásica, probablemente autoinmune (AHAI). Orientan la anemia aguda y severa, con hiperbilirrubinemia indirecta, elevación de LDH. El VCM se puede elevar, por aumento de los reticulocitos. Los microesferocitos se ven en la AHAI, por el daño que sufren los glóbulos; en cambio, la microesferocitosis familiar suele ser un cuadro crónico, menos grave, con esplenomegalia y exacerbación durante los cuadros agudos. La prueba de Coombs directo está positiva en la AHAI y negativa en la mayoría de las otras causas de hemólisis.
 
 ### [18] EUNACOM Diciembre 2025 · Pregunta 16 · confianza 0.92
-Un paciente de 35 años consulta por un cuadro de dolor abdominal y diarrea de 3 meses de evolución, con 8 a 10 deposiciones líquidas al día, tanto diurnas como nocturnas. Presenta dolor abdominal 8po cólico con exacerbación en el hemiabdomen derecho. Además, al interrogatorio, reﬁere visión borrosa con enrojecimiento del ojo derecho y ajas orales recurrentes. También, relata baja de peso y presencia ocasional de sangre en las deposiciones. Al examen Fsico se observa pálido, con frecuencia cardíaca 90 lpm, presión arterial 125/72 mmHg y temperatura 37,2 °C. El abdomen está blando y sensible de forma difusa, con dolor más intenso en la fosa ilíaca derecha, sin signos peritoneales. ¿Cuál es el diagnós8co más probable?
+Un paciente de 35 años consulta por un cuadro de dolor abdominal y diarrea de 3 meses de evolución, con 8 a 10 deposiciones líquidas al día, tanto diurnas como nocturnas. Presenta dolor abdominal tipo cólico con exacerbación en el hemiabdomen derecho. Además, al interrogatorio, refiere visión borrosa con enrojecimiento del ojo derecho y ajas orales recurrentes. También, relata baja de peso y presencia ocasional de sangre en las deposiciones. Al examen físico se observa pálido, con frecuencia cardíaca 90 lpm, presión arterial 125/72 mmHg y temperatura 37,2 °C. El abdomen está blando y sensible de forma difusa, con dolor más intenso en la fosa ilíaca derecha, sin signos peritoneales. ¿Cuál es el diagnóstico más probable?
 - A) Coli2s ulcerosa
 - B) Coli2s infecciosa
 - C) Cáncer de colon
 - D) Enfermedad de Crohn
 - E) Síndrome de intes2no irritable con predominio de diarrea Mortalidad Mortalidad proporcional Mortalidad Mortalidad proporcional Patología cardiovascular 60/1000 50% 150/1000 71,4% Cáncer 30/1000 25% 30/1000 14,3% Otras causas de muerte 30/1000 25% 30/1000 14,3% Total 120/1000 100% 210/1000 100% Periodo inicial Periodo tardío
 **Correcta: D**
-Explicación del banco: Tiene clínica de una enfermedad inﬂamatoria intestinal (EII). Entre ellas, parece más enfermedad de Crohn, por el dolor en el lado derecho (la zona ileocecal es lo más frecuentemente afectado), las amas (el compromiso oral también se puede ver en la coliGs ulcerosa, pero orienta a Crohn) y el compromiso ocular (más frecuente en enfermedad de Crohn que en coliGs ulcerosa).
+Explicación del banco: Tiene clínica de una enfermedad inflamatoria intestinal (EII). Entre ellas, parece más enfermedad de Crohn, por el dolor en el lado derecho (la zona ileocecal es lo más frecuentemente afectado), las amas (el compromiso oral también se puede ver en la colitis ulcerosa, pero orienta a Crohn) y el compromiso ocular (más frecuente en enfermedad de Crohn que en colitis ulcerosa).
 
 ### [19] EUNACOM Julio 2024 · Pregunta 120 · confianza 0.92
 Una paciente de 68 años, nulípara, con antecedente de menopausia a los 50 años, consulta debido a sangrado genital intermitente de 2 meses de evolución, con cuantía variable. Se realiza una ecografía transvaginal que muestra un endometrio de 13 mm de grosor de aspecto heterogénea, con áreas microquísticas. ¿Cuál es el diagnóstico más probable?

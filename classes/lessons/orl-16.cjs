@@ -23,7 +23,8 @@ module.exports = {
           { t: 'Cambio en tono, timbre o intensidad', d: 'O fatiga vocal',
             say: 'La disfonía es cualquier alteración del tono, el timbre o la intensidad de la voz, o la fatiga al hablar. La gran mayoría de las disfonías agudas, de menos de dos semanas, son laringitis virales o fonotraumáticas, y se resuelven solas.' },
           { t: 'Más de 2 a 3 semanas', d: 'Se sospecha cáncer hasta demostrar lo contrario',
-            say: 'Pero si la disfonía dura más de dos a tres semanas, se considera sospechosa de carcinoma epidermoide de laringe hasta demostrar lo contrario. Más aún si el paciente es fumador o consume alcohol.' },
+            say: 'Pero si la disfonía dura más de dos a tres semanas, se considera sospechosa de carcinoma epidermoide de laringe hasta demostrar lo contrario. Más aún si el paciente es fumador o consume alcohol. Mira esta laringoscopía: una lesión blanquecina e irregular en la cuerda, el aspecto de un carcinoma glótico.',
+            photo: { src: 'biblioteca/17_otorrino/orl-16/04_carcinoma-cuerda-vocal__kumar-clark_p640.jpg', label: 'Carcinoma de cuerda vocal', at: 'Mira esta laringoscopía', credit: "Kumar and Clark's Clinical Medicine, p. 640" } },
           { t: 'Nasofibroscopía obligatoria', d: 'O telelaringoscopía rígida',
             say: 'Y lo que corresponde es ver la laringe: nasofibroscopía flexible o telelaringoscopía rígida, por el otorrinolaringólogo. No se prueba con antibióticos ni con reposo, sin mirar antes.' },
         ] },
@@ -57,13 +58,28 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cuatro lesiones de la cuerda',
+      images: [
+        { src: 'animaciones/orl-16/A1_cuerdas_vocales_lesiones.mp4', label: 'Cuerdas vocales: nódulos, pólipo, edema de Reinke y carcinoma', credit: 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Cuatro lesiones, cuatro conductas',
+          say: 'Mira las cuerdas vocales al cerrarse. Los nódulos son bilaterales y simétricos, en la unión del tercio anterior con los posteriores, y dejan un cierre en reloj de arena: fonoaudiología. El pólipo es de un solo lado: microcirugía. En el edema de Reinke las dos cuerdas están gelatinosas, en una mujer fumadora. Y si la disfonía pasa de tres semanas en un fumador, la lesión irregular obliga a nasofibroscopía y biopsia.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Lesiones benignas',
       title: 'Nódulos, pólipo y edema de Reinke',
       cards: [
         { title: 'Nódulos vocales', tag: 'Callos de la voz', kind: 'key', items: [
           { t: 'Bilaterales y simétricos', d: 'Unión del tercio anterior con los dos posteriores',
-            say: 'Los nódulos se ven como engrosamientos blanquecinos o rosados, bilaterales y simétricos, en la unión del tercio anterior con los dos tercios posteriores del borde libre de las cuerdas.' },
+            say: 'Los nódulos se ven como engrosamientos blanquecinos o rosados, bilaterales y simétricos, en la unión del tercio anterior con los dos tercios posteriores del borde libre de las cuerdas. Mira esta laringoscopía: dos engrosamientos simétricos en ese punto.',
+            photo: { src: 'biblioteca/17_otorrino/orl-16/01_nodulos-vocales__bailey-love_p771.jpg', label: 'Nódulos vocales', at: 'Mira esta laringoscopía', credit: 'Bailey & Love 27.ª ed., p. 771' } },
           { t: 'Voz soplada, cierre en reloj', d: 'La glotis no cierra completa',
             say: 'Impiden el cierre completo de la glotis, con un cierre en reloj de arena, y por eso la voz es soplada y se escapa aire.' },
           { t: 'Tratamiento: fonoaudiología', d: 'Cirugía inicial contraindicada',
@@ -71,9 +87,11 @@ module.exports = {
         ] },
         { title: 'Pólipo y edema de Reinke', tag: 'Unilateral vs difuso', kind: 'criteria', items: [
           { t: 'Pólipo: unilateral', d: 'Voz bitonal; microcirugía laríngea',
-            say: 'El pólipo es unilateral, pediculado o sésil, y da una disfonía constante con voz bitonal. No responde a la fonoaudiología: su tratamiento es la microcirugía laríngea, y después se complementa con fonoaudiología.' },
+            say: 'El pólipo es unilateral, pediculado o sésil, y da una disfonía constante con voz bitonal. No responde a la fonoaudiología: su tratamiento es la microcirugía laríngea, y después se complementa con fonoaudiología. Mira este pólipo: una masa roja en una sola cuerda.',
+            photo: { src: 'biblioteca/17_otorrino/orl-16/02_polipo-vocal__bailey-love_p771.jpg', label: 'Pólipo vocal', at: 'Mira este pólipo', credit: 'Bailey & Love 27.ª ed., p. 771' } },
           { t: 'Reinke: mujer fumadora, voz grave', d: 'Edema gelatinoso difuso de ambas cuerdas',
-            say: 'El edema de Reinke es un acúmulo de líquido gelatinoso en todo el espacio de Reinke de ambas cuerdas. Afecta a mujeres adultas con tabaquismo crónico intenso y reflujo, y da una voz marcadamente grave y áspera, de tabernero.' },
+            say: 'El edema de Reinke es un acúmulo de líquido gelatinoso en todo el espacio de Reinke de ambas cuerdas. Afecta a mujeres adultas con tabaquismo crónico intenso y reflujo, y da una voz marcadamente grave y áspera, de tabernero. Mira estas cuerdas: edematosas y translúcidas, a la derecha, comparadas con la laringe normal.',
+            photo: { src: 'biblioteca/17_otorrino/orl-16/03_edema-de-reinke__bull_p229.jpg', label: 'Edema de Reinke', at: 'Mira estas cuerdas', credit: 'Color Atlas of ENT Diagnosis (Bull), p. 229' } },
           { t: 'Dejar el tabaco y operar', d: 'Decorticación de las cuerdas',
             say: 'Su tratamiento es abandonar el tabaco, que perpetúa el edema, y la decorticación quirúrgica de las cuerdas. En grados avanzados puede dar disnea y estridor.' },
         ] },
@@ -81,19 +99,22 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Nódulos y pólipo en la laringoscopía',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-16/01_nodulos-vocales__bailey-love_p771.jpg', label: 'Nódulos vocales: bilaterales y simétricos', credit: 'Bailey & Love 27.ª ed., Fig. 47.44' },
-        { src: 'biblioteca/17_otorrino/orl-16/02_polipo-vocal__bailey-love_p771.jpg', label: 'Pólipo vocal: una sola cuerda', credit: 'Bailey & Love 27.ª ed., Fig. 47.45' },
-      ],
-      steps: [
-        { note: 'Nódulos: los dos lados, simétricos',
-          say: 'Así se ven los nódulos desde arriba: un engrosamiento pequeño en el borde libre de ambas cuerdas, uno frente al otro. Como chocan entre sí, la glotis no cierra completa y la voz sale soplada.' },
-        { note: 'Pólipo: un solo lado',
-          say: 'Compara con el pólipo: una masa en una sola cuerda. Esa asimetría es la clave. El nódulo se trata con fonoaudiología; el pólipo, con microcirugía.' },
+      type: 'points',
+      kicker: 'Laringoscopía y disfonía aguda',
+      title: 'Laringoscopía indirecta y manejo de la disfonía aguda',
+      cards: [
+        { title: 'Laringoscopía indirecta', tag: 'Se deriva a ORL', kind: 'key', items: [
+          { t: 'Espejo laríngeo, luz frontal y lengua traccionada', d: 'El paciente dice «iii»',
+            say: 'La laringoscopía indirecta usa un espejo laríngeo precalentado, luz frontal y la lengua traccionada con una gasa. Con el paciente diciendo i, se ven la epiglotis, las bandas, las cuerdas vocales, los aritenoides y los senos piriformes. Hoy se complementa con la nasofibrolaringoscopía flexible.' },
+          { t: 'Derivar si la disfonía pasa de 3 a 4 semanas', d: 'O antes: tabaco, odinofagia, disfagia, hemoptisis, masa cervical, intubación',
+            say: 'Es un procedimiento que derivas: ante una disfonía de más de tres a cuatro semanas, o antes si hay tabaquismo, odinofagia, disfagia, hemoptisis, una masa cervical o el antecedente de intubación o cirugía cervical.' },
+        ] },
+        { title: 'Disfonía aguda', tag: 'Casi siempre benigna', kind: 'pharma', items: [
+          { t: 'Laringitis viral o fonotrauma', d: 'Reposo vocal relativo, hidratación, sin tabaco, sin antibióticos',
+            say: 'La disfonía aguda es una laringitis viral o un fonotrauma. Reposo vocal relativo, evitando gritar y susurrar, hidratación, humidificación, suprimir el tabaco y analgesia. No requiere antibióticos, y se trata el reflujo laringofaríngeo si existe.' },
+          { t: 'Hemorragia de cuerda en un cantante', d: 'Reposo absoluto y derivación',
+            say: 'La hemorragia de una cuerda vocal en un cantante exige reposo vocal absoluto y derivación. Y si no mejora en tres a cuatro semanas, se estudia con laringoscopía.' },
+        ] },
       ],
     },
 
@@ -232,6 +253,82 @@ module.exports = {
         options: 'Las opciones: esomeprazol; prednisona oral; endoscopía digestiva alta; radiografías contrastadas de esófago, estómago y duodeno; o escáner de cuello. Piénsalo.',
         answer: 'Es la A. El patrón es de reflujo: peor por la mañana, fluctuante, sin los factores de riesgo de un cáncer. Se hace una prueba terapéutica con inhibidor de la bomba de protones. Recuerda que esto no contradice la regla de oro: aquí la disfonía fluctúa y no hay tabaco ni adenopatías. Ante la duda, igual se mira la laringe.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.5.009 · Laringoscopía indirecta",
+      "stem": "Un hombre de 58 años, fumador, consulta en un servicio de urgencia rural por disfonía de 5 semanas. No hay nasofibroscopio disponible, por lo que decides examinar su laringe mediante laringoscopía indirecta con espejo laríngeo.",
+      "question": "¿Cuál es la técnica correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paciente en decúbito supino con el cuello flectado y el espejo frío"
+        },
+        {
+          "letter": "B",
+          "text": "Pedir al paciente que trague durante el examen para ver las cuerdas vocales"
+        },
+        {
+          "letter": "C",
+          "text": "Introducir el espejo hasta apoyarlo en la pared posterior de la faringe para ver mejor"
+        },
+        {
+          "letter": "D",
+          "text": "Paciente sentado e inclinado hacia adelante, lengua traccionada con una gasa, espejo entibiado apoyado en la úvula y el velo, pidiéndole que diga «i»"
+        },
+        {
+          "letter": "E",
+          "text": "Si la laringoscopía indirecta es normal, se descarta un cáncer laríngeo y no requiere derivación"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En la laringoscopía indirecta el paciente se sienta erguido e inclinado hacia adelante; se tracciona la lengua con una gasa, se entibia el espejo para que no se empañe y se apoya en la úvula, sin tocar la faringe, para no gatillar náuseas. Al decir «i» las cuerdas se aducen. Una disfonía persistente en fumador igual se deriva a otorrinolaringología.",
+      "say": {
+        "stem": "Hombre de cincuenta y ocho años, fumador, con cinco semanas de disfonía, en una urgencia rural sin nasofibroscopio. Decides mirar su laringe con laringoscopía indirecta, con espejo.",
+        "question": "¿Cuál es la técnica correcta?",
+        "options": "Las opciones: acostado con el espejo frío, pedirle que trague, apoyar el espejo en la pared posterior, sentado e inclinado adelante con la lengua traccionada y el espejo tibio en el velo o que un examen normal descarta cáncer. Piénsalo.",
+        "answer": "Es la D. Paciente sentado e inclinado hacia adelante, lengua traccionada con una gasa, espejo tibio apoyado en el velo, y pedirle que diga i para ver aducir las cuerdas. Tocar la pared posterior tienta para ver mejor, pero gatilla el reflejo nauseoso y arruina el examen."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 149",
+      "stem": "Paciente de 27 años sufrió atoro con un trozo de alimento hace 7 días, que obstruyó la vía aérea y requirió maniobra de Heimlich para su desobstrucción. Desde entonces ha persistido con disfonía y carraspera.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solicitar endoscopía digestiva alta"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar radiografías de cuello"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar TAC de cuello"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar nasofibrolaringoscopía"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar videodeglución"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Una disfonía que persiste tras un evento laríngeo (cuerpo extraño, maniobras de desobstrucción, intubación) puede deberse a lesión de cuerdas vocales, hematoma, restos de cuerpo extraño o luxación aritenoidea. El examen de elección es la visualización directa de la laringe mediante nasofibrolaringoscopía. Las imágenes y la endoscopía digestiva no evalúan la movilidad cordal.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Mujer de veintisiete años con disfonía y carraspera persistentes una semana después de un atoro que requirió maniobra de Heimlich.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: endoscopía digestiva, radiografía de cuello, TAC de cuello, nasofibrolaringoscopía o videodeglución. Piénsalo.",
+        "answer": "Es la D. La disfonía tras un evento laríngeo se estudia viendo directamente las cuerdas vocales con nasofibrolaringoscopía. La TAC tienta para buscar restos del cuerpo extraño, pero no muestra la movilidad ni la mucosa de las cuerdas."
+      }
     },
 
     {

@@ -52,7 +52,11 @@ module.exports = {
       ],
       steps: [
         { show: ['opa', 'av'], note: 'Lenta, bilateral, y sin dolor',
-          say: 'La clínica es reconocible a distancia. La agudeza visual baja de forma lenta, bilateral, y estrictamente indolora, sin ojo rojo.' },
+          say: 'La clínica es reconocible a distancia. La agudeza visual baja de forma lenta, bilateral, y estrictamente indolora, sin ojo rojo. Mira estos ojos: detrás de la pupila, el cristalino se ve blanquecino, y en la catarata madura, completamente blanco.',
+          photos: [
+            { src: 'biblioteca/12_oftalmologia/oftal-08/01_catarata_1__amir-oftalmo_p40.jpg', label: 'Catarata', at: 'Mira estos ojos', credit: 'Manual AMIR Oftalmología, p. 40' },
+            { src: '_verificadas/272_oftal_Catarata__2017BatesG_p1022_1.jpg', label: 'Catarata madura blanca', at: 'completamente blanco', credit: "Bates' Guide to Physical Examination, p. 1022" },
+          ] },
         { show: ['des'], note: 'Molestia clásica al conducir de noche',
           say: 'El paciente se queja de deslumbramiento y fotofobia, sobre todo al conducir de noche frente a las luces de otros autos.' },
         { show: ['mio'], note: 'La trampa clásica de examen',
@@ -72,6 +76,9 @@ module.exports = {
             say: 'El tratamiento es cien por ciento quirúrgico: no hay ningún colirio que prevenga, retrase o revierta una catarata.' },
           { t: 'Impacto en la vida del paciente', d: 'Leer, conducir, riesgo de caídas',
             say: 'Y ya no se espera a que la catarata madure. La indicación hoy la define el impacto en la calidad de vida y la autonomía: si le dificulta leer, conducir, o le aumenta el riesgo de caídas, se opera.' },
+          { t: 'Pupila blanca: leucocoria', d: 'Catarata congénita o retinoblastoma',
+            say: 'Ojo con el niño. Mira esta pupila blanca: es la leucocoria. En un niño puede ser una catarata congénita, que se opera precoz para evitar la ambliopía, pero también un retinoblastoma, y por eso toda leucocoria se deriva de inmediato.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-08/02_leucocoria__amir-oftalmo_p55.jpg', label: 'Leucocoria', at: 'Mira esta pupila blanca', credit: 'Manual AMIR Oftalmología, p. 55' } },
         ] },
         { title: 'Facoemulsificación', tag: 'La técnica de elección', kind: 'criteria', items: [
           { t: 'Microincisión y lente intraocular', d: 'Ultrasonido fragmenta el núcleo; se implanta una lente plegable',
@@ -86,24 +93,40 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Catarata',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La luz en una catarata',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-08/01_catarata_1__amir-oftalmo_p40.jpg', label: 'Catarata', credit: 'Manual AMIR Oftalmología, p. 40' },
-        { src: 'biblioteca/12_oftalmologia/oftal-08/02_leucocoria__amir-oftalmo_p55.jpg', label: 'Leucocoria', credit: 'Manual AMIR Oftalmología, p. 55' },
+        { src: 'animaciones/oftal-08/A1_catarata.mp4', label: 'Catarata y facoemulsificación', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · capas y rótulos propios' },
       ],
       steps: [
-        { note: 'Cristalino opaco',
-          say: 'La catarata es la opacidad del cristalino. Se trata con cirugía.' },
-        { note: 'Pupila blanca en un niño',
-          say: 'Y la leucocoria, pupila blanca en un niño, obliga a descartar retinoblastoma.' },
+        { note: 'Del cristalino opaco a la lente',
+          say: 'Veamos qué le pasa a la luz en una catarata. Con el cristalino transparente, los rayos convergen en la mácula. Cuando el cristalino se opaca, la luz se dispersa y la visión se nubla; y si el núcleo se engruesa, el foco se adelanta, y el présbita vuelve a leer sin lentes. El tratamiento es quirúrgico: por una microincisión, el ultrasonido fragmenta el cristalino, se aspira, y se implanta una lente intraocular plegable.' },
       ],
     },
 
     {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
+    },
+
+    {
+      type: 'table',
+      kicker: 'Diagnóstico diferencial',
+      title: 'Mala visión: lo primero es el ritmo',
+      head: ['Cómo se instala', 'Causas que debes nombrar', 'Conducta'],
+      rows: [
+        { cells: ['Lenta, indolora, semanas a años', 'Vicio de refracción, catarata, glaucoma crónico, DMAE seca, retinopatía diabética', 'Derivación programada'],
+          say: 'Cerremos con una pregunta que ordena todo: cuando alguien dice que ve mal, lo primero es el ritmo. Si es lenta, indolora, de semanas a años, piensa en un vicio de refracción, que corriges con el estenopeico, en catarata, en glaucoma crónico, en degeneración macular seca o en retinopatía diabética. Se deriva de forma programada.' },
+        { cells: ['Súbita, indolora, ojo blanco', 'Oclusión arterial o venosa, desprendimiento, hemorragia vítrea, neuropatía isquémica, DMAE húmeda', 'Urgencia oftalmológica en horas'],
+          say: 'Si es súbita, de minutos a horas, indolora y con el ojo blanco, es urgencia: oclusión de la arteria central, con su mancha rojo cereza; oclusión de la vena central, con hemorragias en tormenta de nieve; desprendimiento de retina, con cortina y fotopsias; hemorragia vítrea, con lluvia de moscas; y degeneración macular húmeda, con las líneas rectas distorsionadas.' },
+        { cells: ['Súbita en mayor de 50 años, con cefalea', 'Neuropatía óptica isquémica: arteritis de células gigantes', 'VHS y PCR, y corticoide en dosis altas sin esperar la biopsia'],
+          say: 'Y en un mayor de cincuenta años con cefalea, claudicación mandibular y velocidad de sedimentación alta, piensa en arteritis de células gigantes. El corticoide en dosis altas se inicia sin esperar la biopsia.' },
+        { cells: ['Súbita, dolorosa, ojo rojo', 'Glaucoma agudo, queratitis, uveítis, endoftalmitis', 'Derivación urgente'],
+          say: 'Si la pérdida es súbita y dolorosa, con ojo rojo, son los cuatro que ya conoces: glaucoma agudo, queratitis, uveítis y endoftalmitis.' },
+        { cells: ['Transitoria, monocular, minutos', 'Amaurosis fugaz: ateroma carotídeo o embolia', 'Estudiar como un accidente isquémico transitorio'],
+          say: 'Y la pérdida transitoria de un solo ojo, como un telón que baja y sube en minutos, es amaurosis fugaz: ateroma carotídeo o embolia, y se estudia como un accidente isquémico transitorio. En todos los casos mides la agudeza visual con y sin estenopeico, buscas el defecto pupilar aferente y miras el fondo de ojo.' },
+      ],
     },
 
     {
@@ -213,6 +236,44 @@ module.exports = {
         options: 'Las opciones: opacidad de medios como una catarata, error refractivo no corregido, ambliopía, glaucoma, o degeneración macular. Piénsalo.',
         answer: 'Es la A, opacidad de medios. El agujero estenopeico es una prueba simple: si la visión mejora al mirar por el orificio, el problema es un error refractivo, algo que unos lentes corrigen. Si no mejora, como en este caso, el problema no es refractivo, sino una opacidad en el camino de la luz, o una patología retinal o neural. En un paciente de edad, la causa más probable de esa opacidad es la catarata.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.2.004 · Disminución de la visión (lenta vs súbita)",
+      "stem": "Mujer de 74 años con catarata bilateral conocida, en lista de espera de cirugía, consulta porque hace 6 horas perdió casi por completo la visión del ojo derecho, en forma brusca y sin dolor. Hasta ayer veía con dificultad, pero en forma estable. Agudeza visual: cuenta dedos a 1 metro en el ojo derecho.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Atribuirlo a progresión de la catarata y mantener la espera habitual"
+        },
+        {
+          "letter": "B",
+          "text": "Adelantar la cirugía de catarata en forma electiva"
+        },
+        {
+          "letter": "C",
+          "text": "Indicar lentes nuevos y control en 3 meses"
+        },
+        {
+          "letter": "D",
+          "text": "Derivar a oftalmología de urgencia el mismo día"
+        },
+        {
+          "letter": "E",
+          "text": "Colirio lubricante y control en 1 semana"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La catarata produce pérdida visual lenta y progresiva en meses o años, nunca en horas. Una disminución súbita e indolora obliga a buscar otra causa, como oclusión arterial o venosa retiniana, hemorragia vítrea o desprendimiento de retina, y requiere evaluación oftalmológica urgente.",
+      "say": {
+        "stem": "Mujer de setenta y cuatro años con catarata en ambos ojos, en espera de cirugía, que hace seis horas perdió casi toda la visión del ojo derecho, de golpe y sin dolor. Hasta ayer veía mal, pero estable. Ahora solo cuenta dedos a un metro con ese ojo.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: atribuirlo a la catarata y mantener la espera, adelantar la cirugía de catarata, lentes nuevos, derivar a oftalmología de urgencia el mismo día o lubricante. Piénsalo.",
+        "answer": "Es la D. La catarata quita la visión lento, en meses o años; una pérdida de horas es otra cosa, como una oclusión vascular o un desprendimiento de retina, y es urgencia. La opción A tienta porque ya tiene el diagnóstico de catarata, pero ese anclaje es justamente el error que hace perder el ojo."
+      }
     },
 
     {

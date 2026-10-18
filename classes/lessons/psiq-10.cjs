@@ -234,7 +234,8 @@ module.exports = {
       head: ['Efecto', 'Cuándo', 'Qué se ve', 'Tratamiento'],
       rows: [
         { cells: ['Distonía aguda', '24 a 48 horas', 'Tortícolis, crisis oculógira, trismus', 'Biperideno 5 mg IM o EV'],
-          say: 'La distonía aguda aparece en las primeras veinticuatro a cuarenta y ocho horas: espasmo doloroso del cuello, desviación de la mirada o trismus. Es una urgencia y se trata con biperideno cinco miligramos intramuscular o endovenoso, repetible a los treinta minutos.' },
+          say: 'La distonía aguda aparece en las primeras veinticuatro a cuarenta y ocho horas: espasmo doloroso del cuello, desviación de la mirada o trismus. Mira a esta niña: los ojos desviados hacia arriba, la crisis oculógira, y la boca entreabierta con la lengua protruida. Es una urgencia y se trata con biperideno cinco miligramos intramuscular o endovenoso, repetible a los treinta minutos.',
+          photo: { src: 'biblioteca/20_psiquiatria/psiq-10/atlas_378_distonia_aguda.jpg', label: 'Crisis oculógira', at: 'Mira a esta niña', credit: 'The Atlas of Emergency Medicine (Knoop), p. 506' } },
         { cells: ['Acatisia', 'Días a semanas', 'Inquietud intolerable, no puede sentarse', 'Propranolol 20 a 80 mg; bajar dosis'],
           say: 'La acatisia es una inquietud interna intolerable con necesidad de moverse. Se trata con propranolol de veinte a ochenta miligramos al día o con una benzodiacepina, y reduciendo la dosis del antipsicótico.' },
         { cells: ['Parkinsonismo', 'Semanas a meses', 'Temblor de reposo, rigidez, bradicinesia', 'Bajar dosis, rotar a atípico, biperideno temporal'],
@@ -260,6 +261,69 @@ module.exports = {
       ],
     },
 
+
+    {
+      type: 'table',
+      kicker: 'Antipsicóticos de depósito',
+      title: 'Cuando falla la adherencia oral',
+      head: ['Depósito', 'Frecuencia', 'Dato'],
+      rows: [
+        { cells: ['Flufenazina decanoato', '12,5 a 50 mg cada 2 a 4 semanas', 'Intramuscular profunda glútea'],
+          say: 'Los antipsicóticos de depósito se indican en la esquizofrenia con mala adherencia a la vía oral. El decanoato de flufenazina se usa de doce coma cinco a cincuenta miligramos cada dos a cuatro semanas.' },
+        { cells: ['Haloperidol decanoato', 'Cada 4 semanas', 'Vigilar QT y síntomas motores'],
+          say: 'El decanoato de haloperidol, cada cuatro semanas. Con él se pide electrocardiograma si hay factores de riesgo de QT largo.' },
+        { cells: ['Zuclopentixol decanoato', 'Cada 2 a 4 semanas', 'Técnica en Z, máximo 2 a 3 mL por sitio'],
+          say: 'El decanoato de zuclopentixol, cada dos a cuatro semanas. Todos se inyectan por vía intramuscular profunda glútea, con técnica en Z, máximo dos a tres mililitros por sitio, y rotando el lado.' },
+        { cells: ['Risperidona de liberación prolongada', 'Cada 2 semanas', 'Respuesta y efectos tardan semanas'],
+          say: 'La risperidona de liberación prolongada, cada dos semanas.' },
+        { cells: ['Paliperidona palmitato', 'Mensual o trimestral', 'Los efectos también tardan en irse'],
+          say: 'Y el palmitato de paliperidona, mensual o trimestral. Recuerda que la respuesta, pero también los efectos adversos, pueden demorar semanas en aparecer y en desaparecer.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Control antes de cada inyección',
+      title: 'Examen físico y neurológico',
+      cards: [
+        { title: 'Examen físico', tag: 'Procedimiento: realizar', kind: 'key', items: [
+          { t: 'Peso, IMC, cintura, presión, pulso', d: 'Y temperatura para descartar SNM',
+            say: 'Antes de cada inyección se miden peso, IMC, perímetro de cintura, presión arterial y frecuencia cardíaca, y la temperatura para descartar un síndrome neuroléptico maligno.' },
+          { t: 'Inspeccionar el sitio de inyección', d: 'Dolor, nódulos, abscesos',
+            say: 'Se inspecciona el sitio de la inyección, buscando dolor, nódulos o abscesos. Y se pregunta por galactorrea, amenorrea, disfunción sexual, sedación, hipotensión ortostática y adherencia.' },
+        ] },
+        { title: 'Examen neurológico dirigido', tag: 'Cuatro cosas', kind: 'criteria', items: [
+          { t: 'Parkinsonismo', d: 'Rueda dentada, temblor de reposo, bradicinesia',
+            say: 'Buscas parkinsonismo: rigidez en rueda dentada, temblor de reposo, bradicinesia, marcha en bloque y menor braceo.' },
+          { t: 'Acatisia y distonía', d: 'No puede estar sentado; espasmos de cuello u ojos',
+            say: 'Acatisia, la inquietud motora con imposibilidad de permanecer sentado. Y distonía, con espasmos de cuello, mandíbula u ojos.' },
+          { t: 'Discinesia tardía', d: 'Lengua, labios, mandíbula; escala AIMS cada 6 meses',
+            say: 'Y discinesia tardía: movimientos involuntarios de lengua, labios y mandíbula, que se cuantifican con la escala AIMS cada seis meses.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Seguimiento del depósito',
+      title: 'Exámenes y conducta',
+      cards: [
+        { title: 'Exámenes', tag: 'Calendario', kind: 'pharma', items: [
+          { t: 'Glicemia y lípidos: basal, 3 meses, anual', d: 'Mismo calendario de los atípicos',
+            say: 'Glicemia y perfil lipídico basal, a los tres meses y luego cada año.' },
+          { t: 'ECG si hay riesgo de QT largo', d: 'Prolactina si hay síntomas',
+            say: 'Electrocardiograma si hay factores de riesgo de QT largo, sobre todo con haloperidol, y prolactina si hay síntomas.' },
+        ] },
+        { title: 'Conducta', tag: 'Qué hacer', kind: 'alert', items: [
+          { t: 'Extrapiramidal: bajar dosis o cambiar', d: 'Biperideno breve, no de rutina; propranolol en acatisia',
+            say: 'Los efectos extrapiramidales se manejan bajando la dosis o cambiando el fármaco, con biperideno por períodos breves, no de rutina, y la acatisia con propranolol.' },
+          { t: 'Fiebre, rigidez, alteración de conciencia', d: 'Sospechar SNM: urgencia',
+            say: 'Ante fiebre, rigidez y alteración de conciencia, sospecha un síndrome neuroléptico maligno y deriva a urgencia.' },
+          { t: 'Discinesia tardía: revisar la indicación', d: 'Con el especialista',
+            say: 'Y si aparece discinesia tardía, hay que revisar la indicación con el especialista.' },
+        ] },
+      ],
+    },
     {
       type: 'points',
       kicker: 'Después del primer brote',
@@ -277,6 +341,20 @@ module.exports = {
           { t: 'Sin respuesta tras 2 ensayos', d: 'Pensar en clozapina',
             say: 'Y si la persona no responde a dos antipsicóticos bien usados, se piensa en esquizofrenia refractaria. Eso es la clase siguiente.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cuatro vías, un solo bloqueo',
+      images: [
+        { src: 'animaciones/psiq-10/A1_vias_dopaminergicas_D2.mp4', label: 'Vías dopaminérgicas y bloqueo D2', credit: 'Gráfico y animación propios' },
+      ],
+      steps: [
+        { note: 'El bloqueo D2 explica el beneficio y los efectos adversos',
+          say: 'Mira las cuatro vías. En la esquizofrenia la mesolímbica está hiperactiva y la mesocortical, hipoactiva; la nigroestriada y la tuberoinfundibular están normales. El antipsicótico bloquea el receptor D dos en todas ellas. En la mesolímbica mejora delirios y alucinaciones; en la mesocortical, los síntomas negativos responden poco; en la nigroestriada produce síntomas extrapiramidales; y en la tuberoinfundibular, hiperprolactinemia.' },
       ],
     },
 
@@ -303,6 +381,8 @@ module.exports = {
           say: 'Peso y glicemia altos con olanzapina: se trata y se rota a un fármaco neutro. Suspender sin reemplazo es el error.' },
         { cells: ['Discinesia tardía', 'Rotar; evitar anticolinérgicos', 'Dar biperideno'],
           say: 'En discinesia tardía, el biperideno la empeora. Es la trampa preferida.' },
+        { cells: ['Mala adherencia a la vía oral', 'Antipsicótico de depósito', 'Subir la dosis oral'],
+          say: 'Con mala adherencia a la vía oral, el paso lógico es un antipsicótico de depósito, no subir la dosis oral.' },
       ],
     },
 
@@ -534,6 +614,44 @@ module.exports = {
         options: 'Las opciones: suspender ya; mantener al menos uno a dos años; tomarlo solo cuando oiga voces; suspender a las cuatro semanas; o tres meses y luego benzodiacepinas. Piénsalo.',
         answer: 'Es la B. Mantener de forma continua al menos uno a dos años tras la remisión. Suspender antes, o tomarlo solo cuando hay síntomas, se asocia a recaídas, y cada recaída deja deterioro. Las benzodiacepinas no tratan la psicosis.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 5.01.5.002 · Examen físico y neurológico: control de neurolépticos de depósito",
+      "stem": "Hombre de 52 años con esquizofrenia, estable hace 8 años con flufenazina decanoato intramuscular cada 3 semanas. En su control de inyección en el CESFAM, la enfermera nota que mueve la lengua y los labios en forma repetitiva, como si masticara, y que tamborilea los dedos. El paciente no lo percibe. Sin síntomas psicóticos activos.",
+      "question": "¿Cuál es la interpretación y la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Discinesia tardía; registrar con un examen neurológico dirigido, no agregar anticolinérgicos y derivar a psiquiatría para evaluar el cambio a un antipsicótico atípico o clozapina"
+        },
+        {
+          "letter": "B",
+          "text": "Distonía aguda; administrar biperideno intramuscular y mantener igual"
+        },
+        {
+          "letter": "C",
+          "text": "Recaída psicótica con estereotipias; aumentar la dosis de flufenazina"
+        },
+        {
+          "letter": "D",
+          "text": "Acatisia; indicar propranolol"
+        },
+        {
+          "letter": "E",
+          "text": "Síndrome neuroléptico maligno; hospitalizar en UCI"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Movimientos coreoatetósicos orolinguales y de dedos tras años de un neuroléptico típico de depósito son discinesia tardía. Por eso cada control de depósito incluye examen neurológico buscando extrapiramidalismo y discinesias. Los anticolinérgicos la empeoran; se deriva para reducir o cambiar el antipsicótico.",
+      "say": {
+        "stem": "Un hombre de cincuenta y dos años con esquizofrenia recibe flufenazina de depósito hace ocho años. En su control, la enfermera ve que mueve la lengua y los labios como masticando y tamborilea los dedos, sin que él lo note.",
+        "question": "¿Cuál es la interpretación y la conducta?",
+        "options": "Las opciones: discinesia tardía con derivación para cambiar el antipsicótico, distonía aguda con biperideno, recaída con más flufenazina, acatisia con propranolol o síndrome neuroléptico maligno. Piénsalo.",
+        "answer": "Es la A. Movimientos involuntarios de boca y dedos tras años de un neuroléptico típico son discinesia tardía, y por eso cada control de depósito incluye examen neurológico. La distonía aguda con biperideno tienta, pero aparece en los primeros días y el anticolinérgico empeora la discinesia tardía."
+      }
     },
 
     {

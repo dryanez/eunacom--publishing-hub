@@ -65,7 +65,11 @@ module.exports = {
         ] },
         { title: 'Ecografía', tag: 'El patrón que la confirma', kind: 'criteria', items: [
           { t: 'Tormenta de nieve', d: 'Sin ningún saco ni embrión',
-            say: 'La ecografía muestra el patrón que le da nombre a la clase: la imagen en tormenta de nieve, con múltiples quistes pequeños ocupando la cavidad, y sin ningún saco gestacional ni embrión.' },
+            say: 'La ecografía muestra el patrón que le da nombre a la clase: la imagen en tormenta de nieve. Mira esta ecografía: el útero lleno de un patrón granular, sin ningún saco gestacional ni embrión. Y en esta otra se ven de cerca los múltiples quistes pequeños, las vesículas, ocupando la cavidad.',
+            photos: [
+              { src: 'biblioteca/14_obstetricia/ob-12/01_mola-en-tormenta-de-nieve-eco__cto-gyo_p129.jpg', label: 'Tormenta de nieve', at: 'Mira esta ecografía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 129' },
+              { src: 'biblioteca/14_obstetricia/ob-12/02_mola-vesiculas__amir-gyo_p33.jpg', label: 'Vesículas, sin embrión', at: 'en esta otra', credit: 'Manual AMIR Ginecología y Obstetricia, p. 33' },
+            ] },
         ] },
       ],
     },
@@ -116,18 +120,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Mola hidatidiforme',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El seguimiento de la beta-hCG',
       images: [
-        { src: 'biblioteca/14_obstetricia/ob-12/01_mola-en-tormenta-de-nieve-eco__cto-gyo_p129.jpg', label: 'Tormenta de nieve', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 129' },
-        { src: 'biblioteca/14_obstetricia/ob-12/02_mola-vesiculas__amir-gyo_p33.jpg', label: 'Múltiples vesículas, sin embrión', credit: 'Manual AMIR Ginecología y Obstetricia, p. 33' },
+        { src: 'animaciones/ob-12/A1_seguimiento_hcg.mp4', label: 'Seguimiento normal y neoplasia', credit: 'Gráfico propio' },
       ],
       steps: [
-        { note: 'Ecografía',
-          say: 'La mola completa da una imagen en tormenta de nieve.' },
-        { note: 'Múltiples quistes pequeños',
-          say: 'Y aquí se ven de cerca los múltiples quistes pequeños ocupando la cavidad, sin ningún saco gestacional ni embrión.' },
+        { note: 'Baja, se normaliza, y se vigila seis meses',
+          say: 'Mira la curva verde. Tras evacuar la mola, la beta-hCG parte altísima y debe bajar. La mides cada semana hasta tener tres valores seguidos normales, y después una vez al mes durante seis meses, siempre con anticoncepción. La curva roja es la alarma: la beta-hCG se estanca en una meseta, o vuelve a subir. Eso es neoplasia trofoblástica gestacional, y necesita quimioterapia.' },
       ],
     },
 
@@ -243,6 +244,44 @@ module.exports = {
         options: 'Las opciones: metotrexato, esperar evolución espontánea, legrado, resonancia de pelvis, o histerectomía. Piénsalo.',
         answer: 'Es la E. Fíjate en el tiempo: dos meses de una mola que nunca se trató, con la beta-hCG todavía altísima, ya no es una mola simple que evacúas y sigues. Es una neoplasia trofoblástica ya establecida, y por eso el manejo salta directo a la histerectomía, con quimioterapia después. Este caso te muestra lo que pasa exactamente cuando no haces el seguimiento que vimos hoy.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.4.008 · HCG cuantitativa",
+      "stem": "Mujer de 28 años, a quien se le realizó aspiración endouterina por mola hidatiforme completa hace 6 semanas. Está asintomática, usando anticonceptivos orales. Sus controles semanales de beta-hCG cuantitativa en las últimas 3 semanas fueron: 1.250, 1.230, 1.260 y 1.240 UI/L.",
+      "question": "¿Cuál es la interpretación y conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Descenso normal; continuar controles mensuales"
+        },
+        {
+          "letter": "B",
+          "text": "Neoplasia trofoblástica gestacional; etapificar e iniciar quimioterapia"
+        },
+        {
+          "letter": "C",
+          "text": "Nuevo embarazo; ecografía obstétrica"
+        },
+        {
+          "letter": "D",
+          "text": "Resultado falso positivo; suspender el seguimiento"
+        },
+        {
+          "letter": "E",
+          "text": "Mola residual; histerectomía inmediata"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Tras evacuar una mola, la beta-hCG debe caer hasta negativizarse. Cuatro valores en meseta durante 3 semanas (o un alza en 2 semanas) definen neoplasia trofoblástica gestacional: se etapifica y se trata con quimioterapia, habitualmente metotrexato. No es descenso normal ni embarazo, porque usa anticoncepción.",
+      "say": {
+        "stem": "Mujer de veintiocho años, a quien se le aspiró una mola completa hace seis semanas. Está asintomática y usa anticonceptivos. Sus beta hCG semanales de las últimas tres semanas son: mil doscientos cincuenta, mil doscientos treinta, mil doscientos sesenta y mil doscientos cuarenta.",
+        "question": "¿Cuál es la interpretación y la conducta más adecuada?",
+        "options": "Las opciones: descenso normal y control mensual, neoplasia trofoblástica con etapificación y quimioterapia, nuevo embarazo, falso positivo, o mola residual con histerectomía. Piénsalo.",
+        "answer": "Es la B. La beta hCG tiene que bajar hasta negativizarse, y aquí lleva cuatro valores estancados en tres semanas: eso es neoplasia trofoblástica gestacional, y se etapifica y trata con quimioterapia. Pensar en un nuevo embarazo tienta, pero usa anticoncepción y además la cifra no se duplica, está en meseta."
+      }
     },
 
     {

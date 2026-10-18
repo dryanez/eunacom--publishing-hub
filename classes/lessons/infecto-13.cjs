@@ -36,7 +36,8 @@ module.exports = {
         { show: ['sin'], note: 'Disuria, prurito en el meato y secreción',
           say: 'Partamos por la descarga uretral. El paciente llega con disuria, prurito en el meato y secreción por la uretra. Eso es una uretritis, y detrás hay dos grandes grupos de gérmenes.' },
         { show: ['ug', 'ugc'], note: 'Incubación corta, secreción purulenta',
-          say: 'El primero es el gonococo, la Neisseria gonorrhoeae. Da una uretritis ruidosa: incubación corta, de dos a siete días, y una secreción abundante, espesa, purulenta y amarilloverdosa.' },
+          say: 'El primero es el gonococo, la Neisseria gonorrhoeae. Da una uretritis ruidosa, como en esta fotografía: incubación corta, de dos a siete días, y una secreción abundante, espesa, purulenta y amarilloverdosa.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-13/04_uretritis-gonococica__nelson_p1602.jpg', label: 'Uretritis gonocócica', at: 'como en esta fotografía', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 1602' } },
         { show: ['ugg'], note: 'El dato que confirma el gonococo',
           say: 'Y el Gram de esa secreción es muy rendidor: muestra diplococos Gram negativos dentro de los polimorfonucleares, con una sensibilidad sobre el noventa y cinco por ciento en hombres. Si el enunciado te da ese Gram, el germen es el gonococo.' },
         { show: ['ung', 'ungc'], note: 'Incubación larga, secreción escasa',
@@ -97,11 +98,14 @@ module.exports = {
         { show: ['q'], note: 'El dolor manda',
           say: 'Ese dato es el dolor. Antes de mirar el fondo o contar las lesiones, pregúntate si la úlcera duele.' },
         { show: ['sif'], note: 'Lo vimos en la clase anterior',
-          say: 'Si no duele, es el chancro duro de la sífilis primaria: úlcera única, de base indurada, fondo limpio, con adenopatía también indolora. Es lo que vimos en la clase anterior.' },
+          say: 'Si no duele, mira esta úlcera: es el chancro duro de la sífilis primaria: úlcera única, de base indurada, fondo limpio, con adenopatía también indolora. Es lo que vimos en la clase anterior.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-13/01_chancro-sifilitico__cdc-phil-6803.jpg', label: 'Chancro sifilítico', at: 'mira esta úlcera', credit: 'CDC PHIL 6803 (CDC/M. Rein), dominio público' } },
         { show: ['her'], note: 'La causa más frecuente',
-          say: 'Si duele, hay dos opciones. La más frecuente de todas las úlceras genitales es el herpes: vesículas agrupadas en racimo sobre una base eritematosa, que se rompen y dejan úlceras superficiales muy dolorosas.' },
+          say: 'Si duele, hay dos opciones. La más frecuente de todas las úlceras genitales es el herpes: mira estas vesículas agrupadas en racimo sobre una base eritematosa, que se rompen y dejan úlceras superficiales muy dolorosas.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-13/01_herpes-genital__cto-derma_p15.jpg', label: 'Herpes genital', at: 'mira estas vesículas', credit: 'Manual CTO Dermatología 14.ª ed., p. 15' } },
         { show: ['cha'], note: 'Duele, está sucia y fistuliza',
-          say: 'La otra úlcera dolorosa es el chancroide, o chancro blando, por Haemophilus ducreyi. Aquí la úlcera es sucia, con exudado necrótico y bordes deshilachados, y se acompaña de un bubón inguinal doloroso que tiende a fistulizar. Duro e indoloro, sífilis; blando, sucio y doloroso, chancroide.' },
+          say: 'La otra úlcera dolorosa es el chancroide, o chancro blando, por Haemophilus ducreyi. Mira esta úlcera: es sucia, con exudado necrótico y bordes deshilachados, y se acompaña de un bubón inguinal doloroso que tiende a fistulizar. Duro e indoloro, sífilis; blando, sucio y doloroso, chancroide.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-13/01_chancroide__cdc-phil-3728.jpg', label: 'Chancroide', at: 'Mira esta úlcera', credit: 'CDC PHIL 3728 (CDC/Joe Miller), dominio público' } },
       ],
     },
 
@@ -155,9 +159,13 @@ module.exports = {
       cards: [
         { title: 'Bajo riesgo', tag: 'Genotipos 6 y 11', kind: 'normal', items: [
           { t: 'Condilomas acuminados', d: 'Verrugas exofíticas "en cresta de gallo"',
-            say: 'El último síndrome es el virus papiloma humano, que tiene dos caras. Los genotipos de bajo riesgo, el seis y el once, dan los condilomas acuminados: verrugas exofíticas en cresta de gallo, en el glande, la vulva o la zona perianal.' },
+            say: 'El último síndrome es el virus papiloma humano, que tiene dos caras. Los genotipos de bajo riesgo, el seis y el once, dan los condilomas acuminados; mira estas verrugas exofíticas en cresta de gallo, en el glande, la vulva o la zona perianal.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-13/02_condilomas-acuminados-verrugas-vph__cto-derma_p18.jpg', label: 'Condilomas acuminados', at: 'mira estas verrugas', credit: 'Manual CTO Dermatología 14.ª ed., p. 18' } },
           { t: 'Podofilotoxina 0,5 % · imiquimod 5 %', d: 'O crioterapia',
             say: 'Se tratan con podofilotoxina tópica, imiquimod o crioterapia. Y no los confundas con los condilomas planos de la sífilis secundaria: esos son planos, y estos son exofíticos.' },
+          { t: 'Molusco contagioso', d: 'Pápulas con centro umbilicado',
+            say: 'Otra lesión que puede aparecer en la zona genital, y que no hay que confundir con una verruga, es el molusco contagioso. Mira estas pápulas redondeadas, con el centro deprimido.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-13/03_molusco-contagioso__amir-derma_p61.jpg', label: 'Molusco contagioso', at: 'Mira estas pápulas', credit: 'Manual AMIR Dermatología, p. 61' } },
         ] },
         { title: 'Alto riesgo', tag: 'Genotipos 16 y 18', kind: 'alert', items: [
           { t: '70 % del cáncer cervical', d: 'Displasia intraepitelial asintomática',
@@ -173,39 +181,46 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Úlceras genitales',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-13/01_chancroide__cdc-phil-3728.jpg', label: 'Chancroide', credit: 'CDC PHIL 3728 (CDC/Joe Miller), dominio público' },
-        { src: 'biblioteca/07_infectologia/infecto-13/01_herpes-genital__cto-derma_p15.jpg', label: 'Herpes genital', credit: 'Manual CTO Dermatología 14.ª ed., p. 15' },
-        { src: 'biblioteca/07_infectologia/infecto-13/01_chancro-sifilitico__cdc-phil-6803.jpg', label: 'Chancro sifilítico', credit: 'CDC PHIL 6803 (CDC/M. Rein), dominio público' },
-      ],
-      steps: [
-        { note: 'Úlcera dolorosa, sucia',
-          say: 'El chancroide es una úlcera dolorosa, de bordes irregulares y fondo sucio. El dolor la separa del chancro sifilítico.' },
-        { note: 'Vesículas y erosiones dolorosas',
-          say: 'El herpes genital da vesículas agrupadas que se rompen y dejan erosiones dolorosas.' },
-        { note: 'Fondo limpio, no duele',
-          say: 'Y este es el chancro de la sífilis primaria: una úlcera de fondo limpio y base indurada, que no duele. Duro e indoloro, sífilis.' },
+      type: 'points',
+      kicker: 'Enfoque sindrómico',
+      title: 'Se trata el síndrome, no el germen',
+      cards: [
+        { title: 'Los síndromes', tag: 'Sin esperar el cultivo', kind: 'key', items: [
+          { t: 'Úlcera, secreción uretral, flujo', d: 'Dolor abdominal bajo, bubón, verrugas',
+            say: 'El enfoque sindrómico de las infecciones de transmisión sexual se actúa por síndrome y no por agente: úlcera genital, secreción uretral, flujo vaginal, dolor abdominal bajo, bubón inguinal y verrugas.' },
+          { t: 'Ofrecer VIH, hepatitis B y sífilis', d: 'Consejería y preservativo',
+            say: 'En todo paciente con una infección de transmisión sexual se ofrece estudio de VIH, hepatitis B y sífilis, y consejería con uso de preservativo.' },
+          { t: 'Tratar a las parejas de 60–90 días', d: 'Y notificar',
+            say: 'Se trata y estudia a las parejas de los últimos sesenta a noventa días, y se notifica. Recuerda que la sífilis facilita la transmisión del VIH.' },
+        ] },
+        { title: 'Tinción de Gram uretral', tag: 'Realizar', kind: 'criteria', items: [
+          { t: 'Primera gota matinal, rodar el frotis', d: 'Fijar al calor · observar a 1.000×',
+            say: 'El Gram uretral se toma con la primera gota de la mañana, o al menos dos horas sin orinar. Se rueda la tórula en el portaobjetos, no se frota, se seca y se fija con calor.' },
+          { t: '≥ 5 polimorfonucleares por campo', d: 'Uretritis confirmada',
+            say: 'Cinco o más polimorfonucleares por campo confirman uretritis.' },
+          { t: 'Diplococos intracelulares = gonococo', d: 'Sin diplococos: no gonocócica',
+            say: 'Si además hay diplococos gramnegativos intracelulares, es gonorrea, con más de noventa por ciento de sensibilidad en el varón sintomático. Si hay polimorfonucleares sin diplococos, se trata como uretritis no gonocócica. En la mujer el Gram endocervical es poco sensible: se prefiere PCR.' },
+        ] },
+        { title: 'Prevenir', tag: 'Qué protege', kind: 'pharma', items: [
+          { t: 'Preservativo: VIH, gonococo, clamidia', d: 'Protege menos contra herpes, VPH, sífilis',
+            say: 'El preservativo protege muy bien contra VIH, gonococo y clamidia, y menos contra herpes, VPH y sífilis, que se transmiten por piel.' },
+          { t: 'Vacunas VPH y hepatitis B · tamizaje', d: 'PrEP en alto riesgo · pareja: abstinencia 7 días',
+            say: 'Se suman las vacunas contra VPH y hepatitis B, el tamizaje de clamidia en mujeres jóvenes, la profilaxis preexposición en alto riesgo y abstinencia hasta siete días después de que la pareja complete el tratamiento.' },
+        ] },
       ],
     },
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Dos gérmenes, doble cobertura',
       images: [
-        { src: 'biblioteca/07_infectologia/infecto-13/02_condilomas-acuminados-verrugas-vph__cto-derma_p18.jpg', label: 'Condilomas acuminados', credit: 'Manual CTO Dermatología 14.ª ed., p. 18' },
-        { src: 'biblioteca/07_infectologia/infecto-13/03_molusco-contagioso__amir-derma_p61.jpg', label: 'Molusco contagioso', credit: 'Manual AMIR Dermatología, p. 61' },
+        { src: 'animaciones/infecto-13/A1_doble_cobertura.mp4', label: 'Uretritis', credit: 'Animación propia' },
       ],
       steps: [
-        { note: 'Verrugas exofíticas por VPH',
-          say: 'Estos son condilomas acuminados: verrugas exofíticas en cresta de gallo, por virus papiloma de bajo riesgo.' },
-        { note: 'Molusco contagioso',
-          say: 'Mira esta imagen: molusco contagioso. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Por qué se cubren los dos',
+          say: 'El gonococo aparece a los dos a siete días y da una secreción purulenta abundante; la clamidia tarda una a tres semanas y da una secreción escasa y serosa. Como la coinfección llega a veinte a cuarenta por ciento y no puedes saber cuál es sin el laboratorio, toda uretritis se trata con doble cobertura: ceftriaxona intramuscular más doxiciclina o azitromicina. El ciprofloxacino no se usa por la resistencia, y se trata a las parejas.' },
       ],
     },
 
@@ -394,6 +409,195 @@ module.exports = {
         options: 'Las opciones: descartar otras infecciones de transmisión sexual; genotipificar el virus papiloma; rectosigmoidoscopía; tratamiento con podofilino; o aciclovir. Piénsalo.',
         answer: 'Es la A. Los condilomas son de genotipos de bajo riesgo y no tienen mayores complicaciones; lo importante es que una infección de transmisión sexual es la puerta para buscar las otras, como el VIH y la sífilis. El podofilino es el distractor tentador, porque sí es un tratamiento válido, pero no es lo más importante. Y el aciclovir es para el herpes.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.058 · Condilomas",
+      "stem": "Mujer de 24 años, cursando un embarazo de 20 semanas, consulta por múltiples verrugas exofíticas pequeñas e indoloras en la vulva. El resto del examen es normal.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Podofilina tópica"
+        },
+        {
+          "letter": "B",
+          "text": "Crioterapia o ácido tricloroacético"
+        },
+        {
+          "letter": "C",
+          "text": "Imiquimod tópico"
+        },
+        {
+          "letter": "D",
+          "text": "Cesárea programada por los condilomas"
+        },
+        {
+          "letter": "E",
+          "text": "Aciclovir oral"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Los condilomas acuminados, por VPH 6 y 11, se tratan en la embarazada con métodos locales físicos o químicos: crioterapia, ácido tricloroacético o resección. La podofilina y la podofilotoxina están contraindicadas por toxicidad fetal, y el imiquimod no se recomienda. La cesárea solo se indica si las lesiones obstruyen el canal o hay riesgo de sangrado.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Mujer de veinticuatro años, embarazada de veinte semanas, con varias verrugas pequeñas e indoloras en la vulva. El resto del examen es normal.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: podofilina, crioterapia o ácido tricloroacético, imiquimod, cesárea programada, o aciclovir. Piénsalo.",
+        "answer": "Es la B. En el embarazo los condilomas se tratan con métodos locales seguros, como la crioterapia o el ácido tricloroacético. La podofilina es la trampa: es un tratamiento clásico de condilomas, pero es tóxica para el feto y está contraindicada."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.3.010 · Prevención de enfermedades de transmisión sexual",
+      "stem": "Joven de 19 años, que inició actividad sexual hace un año y ha tenido 3 parejas, consulta en el CESFAM porque quiere saber cómo prevenir infecciones de transmisión sexual, incluido el VIH. Usa anticonceptivos orales combinados.",
+      "question": "¿Cuál es la medida más eficaz para prevenir la transmisión sexual de estas infecciones?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener los anticonceptivos orales combinados"
+        },
+        {
+          "letter": "B",
+          "text": "Uso correcto y consistente del preservativo en cada relación"
+        },
+        {
+          "letter": "C",
+          "text": "Ducha vaginal después de cada relación"
+        },
+        {
+          "letter": "D",
+          "text": "Antibiótico profiláctico después de cada relación sexual"
+        },
+        {
+          "letter": "E",
+          "text": "Cambiar a un dispositivo intrauterino de cobre"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El preservativo, usado de forma correcta y en todas las relaciones, es el método de barrera que reduce eficazmente la transmisión del VIH y de la mayoría de las ITS. Los anticonceptivos hormonales y el DIU previenen embarazo, pero no ITS. Se complementa con vacunación contra VPH y hepatitis B y testeo periódico.",
+      "say": {
+        "stem": "Joven de diecinueve años, usuaria de anticonceptivos orales, quiere saber cómo prevenir infecciones de transmisión sexual.",
+        "question": "¿Cuál es la medida más eficaz?",
+        "options": "Las opciones: mantener los anticonceptivos, preservativo en cada relación, ducha vaginal, antibiótico después de cada relación o DIU de cobre. Piénsalo.",
+        "answer": "Es la B. El preservativo usado siempre y bien es la barrera que previene el VIH y casi todas las demás infecciones. Seguir con los anticonceptivos tienta, pero solo evitan el embarazo y no protegen de infecciones."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.3.003 · Prevención de enfermedades de transmisión sexual",
+      "stem": "Una mujer de 24 años consulta 24 horas después de una relación sexual sin preservativo con una pareja ocasional de estado VIH desconocido y con conductas de riesgo. Está asintomática.",
+      "question": "Además de la anticoncepción de emergencia y el tamizaje de ITS, ¿cuál es la medida preventiva más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Penicilina benzatina como única medida"
+        },
+        {
+          "letter": "B",
+          "text": "Esperar una serología de VIH a los 6 meses, sin otra medida"
+        },
+        {
+          "letter": "C",
+          "text": "Vacuna contra el VIH"
+        },
+        {
+          "letter": "D",
+          "text": "Profilaxis post exposición (PEP) para VIH, iniciada antes de 72 horas y mantenida por 28 días"
+        },
+        {
+          "letter": "E",
+          "text": "Ninguna medida, por tratarse de una exposición única"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Tras una exposición sexual de riesgo, la profilaxis post exposición con antirretrovirales debe iniciarse lo antes posible, siempre antes de 72 horas, por 28 días. Se complementa con tamizaje de VIH, sífilis y hepatitis B y C, vacuna de hepatitis B si no está inmunizada, consejería en uso de preservativo y PrEP si mantiene conductas de riesgo.",
+      "say": {
+        "stem": "Una mujer de veinticuatro años consulta un día después de una relación sexual sin preservativo con una pareja ocasional de riesgo y estado VIH desconocido.",
+        "question": "Además de la anticoncepción de emergencia y el tamizaje, ¿qué medida preventiva es la más adecuada?",
+        "options": "Las opciones: solo penicilina benzatina, esperar una serología en seis meses, vacuna contra VIH, profilaxis post exposición para VIH antes de setenta y dos horas o ninguna medida. Piénsalo.",
+        "answer": "Es la D. Tras una exposición de riesgo se inicia profilaxis post exposición lo antes posible, siempre antes de setenta y dos horas, por veintiocho días. Esperar la serología tienta, pero pierde la ventana en que la profilaxis funciona."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.5.004 · Tinción de Gram",
+      "stem": "Un hombre de 25 años consulta por secreción uretral purulenta abundante y disuria de 3 días, tras una relación sexual sin preservativo. Se realiza tinción de Gram de la secreción uretral.",
+      "question": "¿Qué hallazgo confirma el diagnóstico de uretritis gonocócica?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cocos grampositivos en racimos"
+        },
+        {
+          "letter": "B",
+          "text": "Bacilos grampositivos"
+        },
+        {
+          "letter": "C",
+          "text": "Diplococos gramnegativos intracelulares dentro de polimorfonucleares"
+        },
+        {
+          "letter": "D",
+          "text": "Levaduras con pseudohifas"
+        },
+        {
+          "letter": "E",
+          "text": "Ausencia de leucocitos"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En hombres con uretritis sintomática, el Gram de la secreción con diplococos gramnegativos intracelulares en polimorfonucleares tiene alta sensibilidad y especificidad para gonorrea. Leucocitos sin diplococos indican uretritis no gonocócica (Chlamydia, Mycoplasma). Se trata con ceftriaxona más cobertura de Chlamydia, como doxiciclina.",
+      "say": {
+        "stem": "Un hombre de veinticinco años tiene secreción uretral purulenta abundante y disuria tras una relación sin preservativo, y se hace Gram de la secreción.",
+        "question": "¿Qué hallazgo confirma una uretritis gonocócica?",
+        "options": "Las opciones: cocos grampositivos en racimos, bacilos grampositivos, diplococos gramnegativos dentro de los polimorfonucleares, levaduras o ausencia de leucocitos. Piénsalo.",
+        "answer": "Es la C. Los diplococos gramnegativos intracelulares en polimorfonucleares confirman gonococo en el hombre. Los leucocitos sin diplococos tientan como uretritis, pero ese hallazgo corresponde a una uretritis no gonocócica."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.3.004 · Factores de riesgo y prevención de ETS",
+      "stem": "Joven de 19 años consulta para orientación sobre prevención de infecciones de transmisión sexual. Tiene 2 parejas sexuales en el último año y uso inconsistente de preservativo.",
+      "question": "¿Cuál es la medida de prevención más efectiva frente a la mayoría de las ITS bacterianas y el VIH en su caso?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vacuna contra VPH, que previene todas las ITS"
+        },
+        {
+          "letter": "B",
+          "text": "Lavado genital después de cada relación"
+        },
+        {
+          "letter": "C",
+          "text": "Uso de anticonceptivos orales"
+        },
+        {
+          "letter": "D",
+          "text": "Uso correcto y consistente del preservativo en todas las relaciones sexuales"
+        },
+        {
+          "letter": "E",
+          "text": "Antibiótico profiláctico mensual"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El preservativo usado de forma correcta y consistente es la medida de barrera más efectiva contra VIH, gonorrea, clamidia y otras ITS. Se complementa con reducción de parejas, tamizaje periódico (VIH, sífilis), vacunas contra VPH y hepatitis B, y PrEP en personas con alto riesgo. Los anticonceptivos orales y el lavado genital no protegen.",
+      "say": {
+        "stem": "Joven de diecinueve años con dos parejas en el último año y uso irregular de condón, que pide orientación para prevenir infecciones de transmisión sexual.",
+        "question": "¿Cuál es la medida de prevención más efectiva?",
+        "options": "Las opciones: vacuna contra el papiloma, lavado genital, anticonceptivos orales, preservativo correcto y consistente o antibiótico mensual. Piénsalo.",
+        "answer": "Es la D. El preservativo en todas las relaciones es la medida más efectiva contra el VIH y la mayoría de las infecciones bacterianas. La vacuna contra el papiloma tienta, pero solo protege contra ese virus."
+      }
     },
 
     {

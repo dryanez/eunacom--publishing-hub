@@ -52,7 +52,8 @@ module.exports = {
           { t: '1. Inicio en ≤ 7 días', d: 'Tras un insulto clínico conocido',
             say: 'Para diagnosticar distrés se tienen que cumplir los cuatro criterios de Berlín a la vez. El primero es el tiempo: comienzo agudo dentro de una semana desde el insulto conocido, o desde que empeoran los síntomas respiratorios.' },
           { t: '2. Opacidades bilaterales', d: 'En radiografía o TAC',
-            say: 'El segundo es la imagen: opacidades bilaterales en la radiografía o en el TAC, que no se expliquen del todo por derrames, atelectasias lobares o nódulos.' },
+            say: 'El segundo es la imagen: opacidades bilaterales en la radiografía o en el TAC, que no se expliquen del todo por derrames, atelectasias lobares o nódulos. Mira esta radiografía: el infiltrado bilateral del distrés.',
+            photo: { src: 'biblioteca/02_neumologia/resp-22/01_sdra-infiltrado-bilateral__cto-neumo_p35.jpg', label: 'Distrés (SDRA)', at: 'Mira esta radiografía', credit: 'Manual CTO Neumología 14.ª ed., p. 35' } },
           { t: '3. No explicado por el corazón', d: 'Ni por sobrecarga de volumen',
             say: 'El tercero es el origen: la insuficiencia respiratoria no se explica completamente por falla cardíaca ni por sobrecarga de fluidos. Para eso se necesita una evaluación objetiva, habitualmente un ecocardiograma.' },
           { t: '4. PaFi ≤ 300 con PEEP ≥ 5', d: 'Medida con PEEP o CPAP de al menos 5 cmH2O',
@@ -83,7 +84,8 @@ module.exports = {
         { show: ['pac', 'eco'], note: 'Dos cuadros que se ven igual en la radiografía',
           say: 'La diferencia que más se pregunta es con el edema pulmonar cardiogénico. Los dos tienen hipoxemia y opacidades bilaterales, y en la radiografía se pueden ver iguales. Lo que los separa es el corazón, y por eso el ecocardiograma es clave.' },
         { show: ['car'], note: 'Si el corazón lo explica, no es distrés',
-          say: 'Si el ecocardiograma muestra una falla cardíaca que explica el cuadro, es un edema hidrostático, y se trata como tal: diurético de asa, como furosemida, vasodilatador, como nitroglicerina, y presión positiva no invasiva con CPAP.' },
+          say: 'Si el ecocardiograma muestra una falla cardíaca que explica el cuadro, es un edema hidrostático, y se trata como tal: diurético de asa, como furosemida, vasodilatador, como nitroglicerina, y presión positiva no invasiva con CPAP. Mira esta radiografía de un edema cardiogénico clásico, con el corazón grande. Y estas líneas B de Kerley: edema intersticial por presión.',
+            photos: [{ src: 'biblioteca/04_respiratorio/resp-22/atlas_029_rx_de_edema_pulmonar_cardiogen.jpg', label: 'Edema cardiogénico', at: 'Mira esta radiografía', credit: 'Atlas EUNACOM 2026' }, { src: 'biblioteca/02_neumologia/resp-22/02_lineas-b-kerley__cto-radiologia_p11.jpg', label: 'Líneas B de Kerley', at: 'Y estas líneas B', credit: 'Manual CTO Radiología 14.ª ed., p. 11' }] },
         { show: ['sdra'], note: 'Corazón normal: distrés',
           say: 'Si el corazón es normal y se cumplen los otros criterios, es distrés respiratorio agudo. Y el paso siguiente es clasificarlo por la PaFi, siempre medida con PEEP de cinco o más.' },
         { show: ['lev', 'mod'], note: 'Cortes cada 100',
@@ -118,6 +120,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'COVID-19 grave',
+      title: 'Cuando el virus llega al pulmón: hipoxemia y SDRA',
+      cards: [
+        { title: 'Definición', tag: 'Grave o crítica', kind: 'criteria', items: [
+          { t: 'SatO2 < 90% al aire, FR > 30', d: 'PaO2/FiO2 < 300 o infiltrados > 50%',
+            say: 'La enfermedad grave por coronavirus se define por saturación bajo noventa por ciento al aire, frecuencia respiratoria sobre treinta, presión arterial de oxígeno sobre fracción inspirada de oxígeno menor de trescientos, o infiltrados en más de la mitad del pulmón.' },
+          { t: 'Crítica: SDRA, shock, falla multiorgánica', d: 'Riesgo: edad, obesidad, diabetes, HTA, inmunosupresión, sin vacuna',
+            say: 'La forma crítica incluye distrés respiratorio, shock o falla de varios órganos. El riesgo aumenta con la edad, obesidad, diabetes, hipertensión, inmunosupresión y falta de vacunación.' },
+        ] },
+        { title: 'Cómo se sospecha', tag: 'Varios días después', kind: 'key', items: [
+          { t: 'Disnea e hipoxemia días tras fiebre y tos', d: 'Vidrio esmerilado bilateral periférico',
+            say: 'Se sospecha por disnea e hipoxemia varios días después de empezar la fiebre y la tos, con vidrio esmerilado bilateral periférico en la TAC.' },
+          { t: 'Linfopenia, dímero D, ferritina y PCR altos', d: 'Apoyan la sospecha',
+            say: 'El laboratorio muestra linfopenia y elevación de dímero D, ferritina y proteína C reactiva.' },
+        ] },
+        { title: 'Manejo', tag: 'Derivar a UCI', kind: 'pharma', items: [
+          { t: 'Oxígeno, alto flujo o VMNI', d: 'Pronación vigil o en VMI según SDRA',
+            say: 'Se da oxígeno, con cánula de alto flujo o ventilación no invasiva, y pronación vigil o en ventilación mecánica según el distrés.' },
+          { t: 'Dexametasona 6 mg por 10 días', d: 'Si requiere oxígeno; anticoagulación profiláctica',
+            say: 'Dexametasona seis miligramos al día por diez días en quienes requieren oxígeno, y anticoagulación profiláctica. Los antivirales o inmunomoduladores los define el especialista. Tu nivel: diagnóstico específico, tratamiento inicial y derivación a la UCI.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -128,22 +156,6 @@ module.exports = {
       steps: [
         { note: 'Sin aire no hay intercambio',
           say: 'En el distrés, los alvéolos se llenan de líquido rico en proteínas. El aire no entra, no hay intercambio, y la hipoxemia no mejora con oxígeno. Se ventila de forma protectora: volumen corriente bajo, presión meseta bajo treinta, y PEEP alta para mantener abiertos los alvéolos.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Distrés respiratorio agudo',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-22/01_sdra-infiltrado-bilateral__cto-neumo_p35.jpg', label: 'SDRA', credit: 'Manual CTO Neumología 14.ª ed., p. 35' },
-        { src: 'biblioteca/02_neumologia/resp-22/02_lineas-b-kerley__cto-radiologia_p11.jpg', label: 'Líneas B de Kerley: edema intersticial', credit: 'Manual CTO Radiología 14.ª ed., p. 11' },
-      ],
-      steps: [
-        { note: 'Infiltrados bilaterales',
-          say: 'El distrés muestra infiltrados en ambos pulmones, con un corazón de tamaño normal. Ese es uno de los criterios de Berlín: no se explica por insuficiencia cardíaca.' },
-        { note: 'Compáralo con el cardiogénico',
-          say: 'Compáralo con el edema cardiogénico, donde el líquido sale porque la presión es alta. Aquí la flecha marca líneas finas y horizontales junto a la pleura, en la base: son las líneas B de Kerley, del edema del intersticio.' },
       ],
     },
 
@@ -238,6 +250,81 @@ module.exports = {
         options: 'Las opciones: presión peak, presión plateau, PEEP, presión de oclusión de la arteria pulmonar, o presión venosa central. Piénsalo.',
         answer: 'Es la B, la presión plateau. Se mide con una pausa al final de la inspiración, cuando no hay flujo, y por eso refleja lo que soporta el alvéolo. La peak es el distractor tentador, porque también es una presión del ventilador, pero incluye la resistencia de la vía aérea: puede subir por un tubo acodado sin que el alvéolo esté sobredistendido.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.01.4.003 · Radiografía de tórax",
+      "stem": "Un hombre de 70 años con antecedente de infarto antiguo consulta por disnea progresiva y ortopnea. La radiografía de tórax muestra índice cardiotorácico de 0,6, redistribución de flujo hacia los vértices, líneas B de Kerley y derrame pleural bilateral pequeño.",
+      "question": "¿Cuál es la interpretación más probable de la radiografía?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Edema pulmonar cardiogénico por insuficiencia cardíaca"
+        },
+        {
+          "letter": "B",
+          "text": "Neumonía bilateral"
+        },
+        {
+          "letter": "C",
+          "text": "Síndrome de distrés respiratorio agudo"
+        },
+        {
+          "letter": "D",
+          "text": "Fibrosis pulmonar"
+        },
+        {
+          "letter": "E",
+          "text": "Derrame pleural tuberculoso"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Cardiomegalia (índice cardiotorácico sobre 0,5), redistribución de flujo a los vértices, líneas B de Kerley y derrame bilateral son signos clásicos de congestión por insuficiencia cardíaca. En el SDRA el edema es no cardiogénico: corazón de tamaño normal, sin redistribución ni líneas de Kerley y con infiltrados más periféricos.",
+      "say": {
+        "stem": "Un hombre de setenta años con infarto antiguo tiene disnea y ortopnea. La radiografía muestra cardiomegalia, redistribución de flujo hacia los vértices, líneas B de Kerley y un pequeño derrame bilateral.",
+        "question": "¿Cuál es la interpretación más probable?",
+        "options": "Las opciones: edema pulmonar cardiogénico, neumonía bilateral, distrés respiratorio agudo, fibrosis pulmonar o derrame tuberculoso. Piénsalo.",
+        "answer": "Es la A. Cardiomegalia, redistribución, líneas de Kerley y derrame bilateral son congestión por insuficiencia cardíaca. El distrés tienta, pero cursa con corazón de tamaño normal y sin redistribución."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.2.011 · Enfermedad grave por SARS Cov 2 COVID 19",
+      "stem": "Una mujer de 68 años, diabética, cursa su día 8 de COVID-19. Presenta disnea, FR 30 por minuto y saturación de 88% ambiental. La radiografía muestra infiltrados bilaterales periféricos en vidrio esmerilado. Se inicia oxígeno.",
+      "question": "¿Cuál de las siguientes terapias ha demostrado reducir la mortalidad en este contexto?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azitromicina"
+        },
+        {
+          "letter": "B",
+          "text": "Hidroxicloroquina"
+        },
+        {
+          "letter": "C",
+          "text": "Dexametasona 6 mg/día por hasta 10 días"
+        },
+        {
+          "letter": "D",
+          "text": "Ivermectina"
+        },
+        {
+          "letter": "E",
+          "text": "Plasma convaleciente de rutina"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En COVID-19 con hipoxemia que requiere oxígeno o ventilación, la dexametasona 6 mg diarios por hasta 10 días redujo la mortalidad (estudio RECOVERY). Se asocia tromboprofilaxis y, en casos seleccionados, inmunomoduladores como tocilizumab. Hidroxicloroquina, azitromicina, ivermectina y plasma convaleciente de rutina no mostraron beneficio.",
+      "say": {
+        "stem": "Una mujer diabética de sesenta y ocho años, en su octavo día de COVID, tiene disnea, frecuencia respiratoria de treinta, saturación de ochenta y ocho e infiltrados en vidrio esmerilado bilaterales. Se inicia oxígeno.",
+        "question": "¿Qué terapia ha demostrado reducir la mortalidad en este contexto?",
+        "options": "Las opciones: azitromicina, hidroxicloroquina, dexametasona, ivermectina o plasma convaleciente de rutina. Piénsalo.",
+        "answer": "Es la C. En COVID con requerimiento de oxígeno, la dexametasona por hasta diez días reduce la mortalidad. La azitromicina tienta por los infiltrados, pero no mostró beneficio sin una sobreinfección bacteriana."
+      }
     },
 
     {

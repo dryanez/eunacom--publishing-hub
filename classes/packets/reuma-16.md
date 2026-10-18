@@ -212,14 +212,14 @@ Un paciente de 39 años, trabajador de la construcción, con IMC de 30, psoriát
 Explicación del banco: Tiene una espondilitis anquilosante clásica tanto por el lumbago inflamatorio (mayor en la noche y en el reposo) como por la uveítis.
 
 ### [3] EUNACOM Diciembre 2025 · Pregunta 143 · confianza 0.95
-¿A qué concepto corresponde la siguiente deﬁnición: “Conjunto de medidas des8nadas a evitar que una enfermedad ocurra, actuando antes de que exista la enfermedad o el daño causado por esta”?
+¿A qué concepto corresponde la siguiente definición: “Conjunto de medidas destinadas a evitar que una enfermedad ocurra, actuando antes de que exista la enfermedad o el daño causado por esta”?
 - A) Prevención primaria
 - B) Prevención secundaria
 - C) Prevención terciaria
 - D) Prevención cuaternaria
 - E) Promoción de la salud
 **Correcta: A**
-Explicación del banco: Prevención primaria actúa antes de que exista la enfermedad (ej. vacunas con papiloma). Prevención secundaria actúa cuando ya existe la enfermedad, pero todavía no hay síntomas, permiGendo un diagnóstico oportuno (ej. PAP). Prevención terciaria actúa cuando la enfermedad ya Gene síntomas, para recuperar la salud y evitar complicaciones y recidivas (ej. histerectomía radical). Prevención cuaternaria enfrenta los síntomas, en ausencia de una patología orgánica (ej. psicoterapia de trastorno somatomorfo). Promoción de la salud consiste en enseñar hábitos de vida saludables, por lo que se enmarca dentro de la prevención primaria, pero su deﬁnición es especíﬁca.
+Explicación del banco: Prevención primaria actúa antes de que exista la enfermedad (ej. vacunas con papiloma). Prevención secundaria actúa cuando ya existe la enfermedad, pero todavía no hay síntomas, permitiendo un diagnóstico oportuno (ej. PAP). Prevención terciaria actúa cuando la enfermedad ya Gene síntomas, para recuperar la salud y evitar complicaciones y recidivas (ej. histerectomía radical). Prevención cuaternaria enfrenta los síntomas, en ausencia de una patología orgánica (ej. psicoterapia de trastorno somatomorfo). Promoción de la salud consiste en enseñar hábitos de vida saludables, por lo que se enmarca dentro de la prevención primaria, pero su definición es específica.
 
 ### [4] EUNACOM Julio 2017 · Pregunta 121 · confianza 0.95
 Una paciente de 64 años consulta por artralgias de las manos, caderas y rodillas. Al examen físico presenta aumento de volumen de las articulaciones interfalángicas, con nódulos de Heberden. Además tiene limitación de los movimientos de las rodillas, con dolor y crepitación articular, sin signos inflamatorios y limitación a la abducción ambas caderas. ¿Cuál es el tratamiento inicial más adecuado?

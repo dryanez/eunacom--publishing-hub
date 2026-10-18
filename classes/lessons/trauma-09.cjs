@@ -111,7 +111,8 @@ module.exports = {
         { cells: ['II', 'Rotura parcial', 'Equimosis; sin inestabilidad'],
           say: 'El grado dos es una rotura parcial. Aparece equimosis, pero la articulación sigue estable.' },
         { cells: ['III', 'Rotura total', 'Equimosis e inestabilidad articular'],
-          say: 'El grado tres es la rotura total del ligamento. Hay equimosis y, lo que lo define, inestabilidad de la articulación. Esa es la clave del examen: equimosis más inestabilidad es grado tres.' },
+          photo: { src: 'biblioteca/18_traumatologia/trauma-09/01_cajon-anterior-tobillo__bailey-love_p482.jpg', label: 'Cajón anterior del tobillo', at: 'Mira esta prueba', credit: 'Bailey & Love 27.ª ed., Fig. 31.40' },
+          say: 'El grado tres es la rotura total del ligamento. Mira esta prueba del cajón anterior: con el pie apoyado, el examinador sujeta la tibia con una mano y tira del talón hacia adelante. Si el pie se desliza más que el del lado sano, hay inestabilidad. Hay equimosis y, lo que lo define, inestabilidad de la articulación. Esa es la clave del examen: equimosis más inestabilidad es grado tres.' },
       ],
     },
 
@@ -132,20 +133,6 @@ module.exports = {
           { t: 'Nunca sin descartar fractura', d: 'Radiografía de tobillo primero',
             say: 'Y no clasificas el esguince ni lo tratas hasta haber descartado la fractura con radiografía.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Cajón anterior del tobillo',
-      images: [
-        { src: 'biblioteca/18_traumatologia/trauma-09/01_cajon-anterior-tobillo__bailey-love_p482.jpg', label: 'Prueba del cajón anterior del tobillo', credit: 'Bailey & Love 27.ª ed., Fig. 31.40' },
-      ],
-      steps: [
-        { note: 'Se prueba la laxitud del ligamento',
-          say: 'Esta es la prueba del cajón anterior del tobillo. Con el pie apoyado, el examinador sujeta la parte baja de la tibia con una mano y con la otra tira del talón hacia adelante. Si el pie se desliza más que el del lado sano, hay un ligamento roto: eso es inestabilidad, la clave del esguince grado tres.' },
       ],
     },
 
@@ -263,6 +250,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Rotura del tendón de Aquiles',
+      images: [
+        { src: 'animaciones/trauma-09/A1_rotura_aquiles.mp4', label: 'La pedrada en el talón y la maniobra de Thompson', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Thompson alterado: se deriva',
+          say: 'Mira el tendón de Aquiles. Un deportista siente una pedrada en el talón y no puede caminar: las fibras del tendón se desgarran. La maniobra de Thompson lo confirma. Al comprimir la pantorrilla, el pie debería hacer flexión plantar, y aquí no se mueve. No es un esguince de tobillo. Inmovilizas, das analgesia y derivas, porque el libro indica cirugía urgente.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: del paciente con dolor de partes blandas al diagnóstico y la conducta.',
     },
@@ -357,6 +358,81 @@ module.exports = {
         options: 'Las opciones: grado uno con solo analgesia; grado dos con reposo, hielo, compresión, elevación y órtesis; grado tres con lo mismo; grado tres con cirugía urgente; o grado uno con reposo y sin radiografía. Piénsalo.',
         answer: 'Es la C. Equimosis más inestabilidad es una rotura total, grado tres, y se maneja con reposo, hielo, compresión, elevación y órtesis removible. La D es la trampa: la cirugía no es el tratamiento inicial, se considera solo si la inestabilidad persiste. Y antes de todo, radiografía para descartar fractura.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.2.003 · Esguince grado1",
+      "stem": "Hombre de 29 años recibe un golpe en la cara externa de la rodilla derecha jugando fútbol hace 1 día. Camina con leve cojera. Al examen: dolor a la palpación del ligamento colateral medial, sin derrame articular. El bostezo en valgo a 30 grados de flexión es doloroso pero sin apertura de la interlínea y con tope firme. Lachman y cajón anterior negativos, sin bloqueo.",
+      "question": "¿Cuál es el diagnóstico y el manejo más adecuados?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Esguince grado 3 del colateral medial; cirugía de reparación"
+        },
+        {
+          "letter": "B",
+          "text": "Esguince grado 1 del colateral medial; frío local, analgesia, carga según tolerancia y fortalecimiento precoz, sin inmovilización rígida"
+        },
+        {
+          "letter": "C",
+          "text": "Rotura de menisco medial; resonancia magnética urgente"
+        },
+        {
+          "letter": "D",
+          "text": "Rotura del ligamento cruzado anterior; derivar a cirugía artroscópica"
+        },
+        {
+          "letter": "E",
+          "text": "Esguince grado 2; yeso inguinopédico por 6 semanas"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En el esguince grado 1 hay distensión de fibras sin pérdida de continuidad: dolor a la palpación y al estrés, pero sin laxitud y con tope firme. Se maneja con frío, analgesia, carga precoz y ejercicios, sin inmovilización rígida. La laxitud con tope firme sería grado 2 y sin tope, grado 3.",
+      "say": {
+        "stem": "Un hombre de veintinueve años recibe un golpe en la cara externa de la rodilla jugando fútbol. Le duele el ligamento colateral medial y la maniobra en valgo es dolorosa, pero la rodilla no se abre y tiene un tope firme. No hay derrame ni inestabilidad.",
+        "question": "¿Cuál es el diagnóstico y el manejo?",
+        "options": "Las opciones: esguince grado tres con cirugía, esguince grado uno con frío, analgesia y carga precoz, rotura meniscal con resonancia, rotura del cruzado anterior, o grado dos con yeso. Piénsalo.",
+        "answer": "Es la B. Dolor sin laxitud y con tope firme es un esguince grado uno, que se trata con frío, analgesia y movilización precoz. El grado dos tienta, pero en él la articulación sí se abre algo, aunque conserve un tope."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.049 · Trombosis venosa profunda y tromboflebitis",
+      "stem": "Mujer de 48 años con várices en ambas piernas consulta por un cordón indurado, rojo, caliente y doloroso en la cara medial de la pierna derecha, bajo la rodilla, de 3 días de evolución, tras un golpe con el pedal de la bicicleta. Sin fiebre ni edema de la extremidad. La ecografía doppler muestra trombosis de un segmento de la vena safena mayor a 15 cm de la unión safenofemoral, con venas profundas permeables.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibióticos endovenosos por celulitis"
+        },
+        {
+          "letter": "B",
+          "text": "Anticoagulación oral con warfarina por 6 meses"
+        },
+        {
+          "letter": "C",
+          "text": "Calor local, AINE, compresión elástica y deambulación, con control clínico"
+        },
+        {
+          "letter": "D",
+          "text": "Reposo absoluto en cama con la pierna en alto por 2 semanas"
+        },
+        {
+          "letter": "E",
+          "text": "Instalar un filtro de vena cava inferior"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Una tromboflebitis superficial corta, alejada más de 3 cm de la unión safenofemoral y sin trombosis profunda, se trata con calor local, AINE, compresión y deambulación. Se anticoagula si el segmento mide 5 cm o más, está cerca del cayado o se asocia a TVP. El reposo absoluto favorece la progresión.",
+      "say": {
+        "stem": "Una mujer de cuarenta y ocho años con várices tiene un cordón rojo, duro y doloroso bajo la rodilla, después de un golpe. La ecografía muestra un trombo en la safena, lejos de la ingle, con las venas profundas libres.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: antibióticos endovenosos, warfarina por seis meses, calor local con antiinflamatorios, compresión y caminar, reposo absoluto, o filtro de vena cava. Piénsalo.",
+        "answer": "Es la C. Una tromboflebitis superficial corta y lejos de la unión con la vena femoral se trata con calor, antiinflamatorios, compresión y deambulación. El reposo absoluto tienta, pero inmovilizar favorece que el trombo progrese hacia el sistema profundo."
+      }
     },
 
     {

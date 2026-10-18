@@ -1,0 +1,501 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// Pediatría. Gráficos y líneas de tiempo (solo código) y anatomía sobre ilustración real (Servier / Blausen).
+// ?v=curva      ped-01  peso para la edad: el niño que cae de canal (curvas OMS, esquema)
+// ?v=hitos      ped-02  hitos del desarrollo mes a mes y banderas rojas
+// ?v=calendario ped-03  calendario PNI del lactante: vivas contra inactivadas
+// ?v=suplementos ped-04 vitamina D, hierro y alimentación complementaria en el primer año
+// ?v=croup      ped-06  edema subglótico sobre la laringe real (Servier)
+// ?v=taquipnea  ped-07  umbral de taquipnea según la edad
+// ?v=fiebre     ped-09  fiebre sin foco: el riesgo según la edad
+// ?v=deshidrata ped-11  signos de deshidratación según el grado
+// ?v=piloro     ped-12  estenosis hipertrófica del píloro sobre Blausen
+// ?v=vur        ped-13  reflujo vesicoureteral sobre Blausen (sistema urinario infantil)
+// ?v=convulsion ped-14  convulsión febril simple y compleja
+// ?v=matriz     ped-16  edad gestacional por peso: PEG, AEG, GEG
+// ?v=silverman  ped-18  Silverman-Andersen: de cero a diez
+// ?v=sepsis     ped-19  sepsis neonatal precoz y tardía (corte a las 72 horas)
+// ?v=glicemia   ped-20  glicemia del recién nacido y escalones de manejo
+// ?v=tamizaje   ped-21  tamizaje neonatal: por qué se hace a todos
+// ?v=cadera     ped-22  Hilgenreiner y Perkin sobre la cadera (Blausen)
+const V = new URLSearchParams(location.search).get('v') || 'curva';
+const DUR = { curva: 26, hitos: 30, calendario: 30, suplementos: 28, croup: 30, taquipnea: 24, fiebre: 28, deshidrata: 28, piloro: 30,
+  vur: 30, convulsion: 26, matriz: 28, silverman: 28, sepsis: 28, glicemia: 28, tamizaje: 26, cadera: 30 };
+window.SCENE = { duration: DUR[V] || 26, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const G = GRAPH(L), K = KIT(L), { seg, fade } = K;
+const I = k => window.IMGS[k];
+const W = 1280;
+const A = (a, f) => { if (a <= 0) return; ctx.save(); ctx.globalAlpha *= a; f(); ctx.restore(); };
+
+// pastilla con borde de color; s puede ser una lista de líneas
+function chip(x, y, w, h, col, s, a = 1, size = 17, fill = 0.16) {
+  A(a, () => {
+    ctx.save(); ctx.globalAlpha *= fill; ctx.fillStyle = col; ctx.beginPath(); ctx.roundRect(x, y, w, h, 10); ctx.fill(); ctx.restore();
+    ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.roundRect(x, y, w, h, 10); ctx.stroke();
+    const ls = Array.isArray(s) ? s : [s], lh = size + 5, y0 = y + h / 2 - ((ls.length - 1) * lh) / 2 + size * 0.36;
+    ls.forEach((l, i) => text(l, x + w / 2, y0 + i * lh, size, C.INK, i === 0 ? 'bold' : '', 'center'));
+  });
+}
+function line(x0, y0, x1, y1, col, a = 1, w = 2, dash) {
+  A(a, () => { ctx.strokeStyle = col; ctx.lineWidth = w; if (dash) ctx.setLineDash(dash); ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1, y1); ctx.stroke(); });
+}
+function dot(x, y, r, col, a = 1) { A(a, () => { ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); }); }
+function arrow(x0, y0, x1, y1, col, a = 1, w = 4) {
+  A(a, () => { const an = Math.atan2(y1 - y0, x1 - x0); ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = w; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1 - Math.cos(an) * 8, y1 - Math.sin(an) * 8); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x1 - 16 * Math.cos(an - 0.4), y1 - 16 * Math.sin(an - 0.4)); ctx.lineTo(x1 - 16 * Math.cos(an + 0.4), y1 - 16 * Math.sin(an + 0.4)); ctx.fill(); });
+}
+// rótulo con línea guía hasta un punto de la ilustración
+function label(s, x, y, col, tx, ty, a, size = 16) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha *= a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill(); tag(s, x, y, col, size); ctx.restore();
+}
+function plate(x, y, w, h, a = 1) { A(a, () => rrect(x - 6, y - 6, w + 12, h + 12, 18, '#FFFFFF')); }
+const credGraf = () => text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right');
+const credBl = () => K.credit('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios');
+const credSv = () => K.credit('Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios');
+
+// ---------- ped-01: curva de peso ----------
+function curva(t) {
+  K.title('Curva de crecimiento: el niño que cae de canal', 'Peso para la edad · esquema con las curvas OMS (varón)', C.BLUE);
+  const ax = G.axes({ x: 110, y: 170, w: 640, h: 400 }, [0, 24], [2, 16], { xt: [0, 6, 12, 18, 24], yt: [4, 8, 12, 16], yl: 'Peso (kg)', xl: 'Edad (meses)' });
+  ax.draw(seg(t, 0, 0.7));
+  const ref = [['+2 DE', [[0, 4.4], [6, 9.8], [12, 12.0], [18, 13.7], [24, 15.3]], '#5C6675'], ['Mediana', [[0, 3.3], [6, 7.9], [12, 9.6], [18, 10.9], [24, 12.2]], C.GREEN],
+    ['−1 DE', [[0, 2.9], [6, 7.1], [12, 8.6], [18, 9.8], [24, 10.8]], C.AMBER], ['−2 DE', [[0, 2.5], [6, 6.4], [12, 7.7], [18, 8.8], [24, 9.7]], C.RED]];
+  const fs = ref.map(r => G.smooth(r[1]));
+  ref.forEach((r, i) => { const k = ease(seg(t, 0.6 + i * 0.35, 1.2)); G.curve(ax, fs[i], k, r[2], i === 1 ? 4 : 3, 0, 24, i === 1 ? null : [10, 7]);
+    if (k >= 1) text(r[0], ax.X(24) + 10, ax.Y(fs[i](24)) + 5, 16, r[2], 'bold'); });
+  const child = G.smooth([[0, 3.3], [3, 6.2], [5, 7.2], [8, 7.6], [12, 7.9], [18, 8.3], [24, 8.6]]);
+  const k = ease(seg(t, 3.5, 12));
+  const p = G.curve(ax, child, k, C.BLUE, 6); if (k < 1) G.head(p, C.BLUE);
+  let xr = 24, xd = 24; for (let x = 1; x <= 24; x += 0.1) { if (xr === 24 && child(x) < fs[2](x)) xr = x; if (xd === 24 && child(x) < fs[3](x)) { xd = x; break; } }
+  const xe = k * 24;
+  A(fade(t, 6, 99, 0.5) * (xe > 4 ? 1 : 0), () => tag('Se aplana: ya cayó de canal', ax.X(6.5), ax.Y(8.3) - 60, C.BLUE, 16));
+  if (xe >= xr) { dot(ax.X(xr), ax.Y(child(xr)), 9, C.AMBER); A(seg(t, 3.5 + (xr / 24) * 12, 0.4), () => tag('Riesgo de desnutrición', ax.X(xr) + 70, ax.Y(child(xr)) + 52, C.AMBER, 15)); }
+  if (xe >= xd) { dot(ax.X(xd), ax.Y(child(xd)), 9, C.RED); A(seg(t, 3.5 + (xd / 24) * 12, 0.4), () => tag('Desnutrición', ax.X(xd) + 20, ax.Y(child(xd)) + 62, C.RED, 15)); }
+  K.card(840, 170, 400, 150, C.BLUE, 'Lo más sensible', ['La velocidad de crecimiento:', 'si el niño se aplana o cae de canal,', 'busca una causa, aunque aún sea normal'], seg(t, 2, 0.5));
+  K.card(840, 340, 400, 170, C.AMBER, 'Qué haces con el resultado', ['Revisar técnica de alimentación', 'Control abreviado a 15 a 30 días', 'Si no gana peso, derivar a pediatría'], seg(t, 15, 0.5));
+  K.banner(110, 640, 1130, 'En menores de 5 años manda el peso para la talla; la curva avisa antes', C.BLUE, seg(t, 20, 0.5));
+  credGraf();
+}
+
+// ---------- ped-02: hitos ----------
+function hitos(t) {
+  K.title('Hitos del desarrollo: el camino esperado', 'Y la edad en que dejan de ser una variante normal', C.GREEN);
+  const X0 = 80, X1 = 1120, ay = 372, X = m => X0 + (X1 - X0) * m / 24;
+  A(seg(t, 0, 0.6), () => { line(X0, ay, X1 + 40, ay, '#3A424E', 1, 4);
+    [0, 3, 6, 9, 12, 18, 24].forEach(m => { line(X(m), ay - 6, X(m), ay + 6, '#3A424E', 1, 2); text(m === 0 ? 'Nace' : m + ' m', X(m), ay + 28, 17, C.MUTED, '', 'center'); }); });
+  const hit = [[3, 1, 'Sostén cefálico', 'Sonrisa social'], [6, 2, 'Se sienta con apoyo', 'Pasa objetos de mano'], [8.5, 1, 'Se sienta solo', 'Pinza gruesa'],
+    [12, 2, 'De pie con apoyo', '1 o 2 palabras'], [18, 1, 'Camina solo', 'Señala para pedir'], [24, 2, 'Corre, sube escaleras', 'Frases de 2 palabras']];
+  hit.forEach(([m, tier, a, b], i) => { const ka = seg(t, 1.5 + i * 2.6, 0.5), cw = 196, cx = clamp(X(m) - cw / 2, 30, 1250 - cw), cy = tier === 1 ? 230 : 130;
+    line(X(m), cy + 64, X(m), ay, C.GREEN, ka * 0.7, 2, [4, 5]); dot(X(m), ay, 8, C.GREEN, ka);
+    chip(cx, cy, cw, 64, C.GREEN, [a, b], ka, 17); });
+  const t0 = 18.5;
+  const flag = [[3, 1, 'Sin sonrisa social'], [4, 2, 'Sin sostén cefálico'], [9, 1, 'No se sienta solo'], [18, 2, 'No camina solo']];
+  flag.forEach(([m, tier, s], i) => { const ka = seg(t, t0 + i * 1.8, 0.5), cw = 196, cx = clamp(X(m) - cw / 2, 30, 1250 - cw), cy = tier === 1 ? 430 : 520;
+    line(X(m), ay, X(m), cy, C.RED, ka * 0.7, 2, [4, 5]); dot(X(m), ay, 8, C.RED, ka * 0.9);
+    chip(cx, cy, cw, 46, C.RED, s, ka, 17); });
+  A(seg(t, 18, 0.5), () => text('Banderas rojas', 1240, 460, 20, C.RED, 'bold', 'right'));
+  const kk = seg(t, 26, 0.6);
+  K.banner(110, 640, 1130, 'A los 18 meses sin marcha: nunca es normal · pierde una habilidad: alarma máxima', C.RED, kk);
+  A(seg(t, 21.5, 0.5) * (1 - seg(t, 25.5, 0.4)), () => tag('18 meses: el límite máximo', X(18), 600, C.RED, 16));
+  credGraf();
+}
+
+// ---------- ped-03: calendario ----------
+function calendario(t) {
+  K.title('Calendario PNI del lactante', 'Qué vacunas son vivas y por qué importa', C.BLUE);
+  const cols = [['Recién nacido', ['BCG*', 'Hepatitis B']], ['2 meses', ['Hexavalente', 'Neumocócica']], ['4 meses', ['Hexavalente', 'Neumocócica']],
+    ['6 meses', ['Hexavalente']], ['12 meses', ['Tresvírica*', 'Meningocócica', 'Neumocócica']], ['18 meses', ['Hexavalente', 'Hepatitis A', 'Varicela*']]];
+  const cw = 190, gap = 14, x0 = 40, y0 = 150;
+  cols.forEach(([h, vs], i) => { const ka = seg(t, 0.8 + i * 2.2, 0.5), x = x0 + i * (cw + gap);
+    A(ka, () => { rrect(x, y0, cw, 300, 14, '#161B22'); text(h, x + cw / 2, y0 + 32, 20, C.INK, 'bold', 'center'); });
+    vs.forEach((v, j) => { const live = v.endsWith('*'), kb = seg(t, 1.2 + i * 2.2 + j * 0.25, 0.4);
+      const phase = seg(t, 16, 1), col = live ? lerp2(C.BLUE, C.AMBER, phase) : lerp2(C.BLUE, C.GREEN, phase);
+      chip(x + 12, y0 + 52 + j * 70, cw - 24, 56, col, v.replace('*', ''), ka * kb, 18, 0.2);
+      if (live && phase > 0) A(phase * ka, () => tag('VIVA', x + cw - 44, y0 + 52 + j * 70 + 6, C.AMBER, 12)); }); });
+  A(seg(t, 15.5, 0.6), () => { K.card(40, 470, 600, 140, C.AMBER, 'Vivas: BCG, tresvírica y varicela', ['Contraindicadas en embarazo e', 'inmunosupresión grave (quimioterapia,', 'corticoides en dosis altas por más de 2 semanas)'], 1, 17); });
+  A(seg(t, 18.5, 0.6), () => { K.card(660, 470, 580, 140, C.GREEN, 'Todas las demás: seguras', ['Inactivadas o de fragmentos: no se replican.', 'Se pueden dar también en el inmunosuprimido'], 1, 17); });
+  const f = seg(t, 22, 0.6);
+  K.banner(40, 640, 1200, 'Falsas contraindicaciones: resfrío, fiebre baja, antibióticos, alergia al huevo, prematurez', C.GREEN, f);
+  A(seg(t, 26, 0.5), () => { ctx.fillStyle = 'rgba(14,17,22,0.92)'; ctx.fillRect(40, 636, 1200, 58); K.banner(40, 640, 1200, 'Prematuro: se vacuna por edad cronológica, no corregida', C.BLUE, 1); });
+  text('* vacuna viva', 1240, 135, 16, C.AMBER, 'bold', 'right');
+  credGraf();
+}
+function lerp2(a, b, k) { const pa = hex(a), pb = hex(b); return `rgb(${Math.round(lerp(pa[0], pb[0], k))},${Math.round(lerp(pa[1], pb[1], k))},${Math.round(lerp(pa[2], pb[2], k))})`; }
+function hex(h) { return [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16)); }
+
+// ---------- ped-04: suplementos ----------
+function suplementos(t) {
+  K.title('Primer año: suplementos y alimentación', 'Cuándo parte cada cosa y hasta cuándo', C.AMBER);
+  const X0 = 330, X1 = 1220, X = m => X0 + (X1 - X0) * m / 12;
+  A(seg(t, 0, 0.6), () => { [0, 1, 2, 4, 6, 8, 9, 12].forEach(m => { line(X(m), 170, X(m), 590, 'rgba(255,255,255,0.07)', 1, 1); text(m === 0 ? 'Nace' : m + ' m', X(m), 160, 16, C.MUTED, '', 'center'); }); });
+  const rows = [
+    ['Vitamina D', '400 UI al día, todos', 1, 12, C.BLUE, 'Desde el mes hasta los 12 meses', 1.0],
+    ['Hierro, de término', '1 mg/kg al día', 4, 12, C.GREEN, 'Desde los 4 meses hasta el año', 4.0],
+    ['Hierro, prematuro', '2 a 3 mg/kg al día', 2, 12, C.VIOLET, 'Menos de 37 sem o menos de 2.500 g', 8.0],
+    ['Papilla del almuerzo', 'Con aceite vegetal crudo', 6, 12, C.AMBER, 'A los 6 meses cumplidos', 12.0],
+    ['Papilla de la cena', 'Misma lógica', 8.5, 12, C.AMBER, 'Entre los 8 y 9 meses', 14.5],
+    ['Miel', 'Riesgo de botulismo', 0, 12, C.RED, 'Nunca en el primer año', 17.0],
+    ['Leche de vaca, sal, azúcar', 'Carga renal de solutos', 0, 12, C.RED, 'No en el primer año', 20.0]];
+  rows.forEach(([n, d, m0, m1, col, note, ta], i) => { const y = 190 + i * 58, ka = seg(t, ta, 0.5), kb = ease(seg(t, ta + 0.3, 1.1));
+    A(ka, () => { text(n, 40, y + 22, 19, C.INK, 'bold'); text(d, 40, y + 44, 15, C.MUTED); });
+    A(ka, () => { const x0 = X(m0), w = (X(m1) - X(m0)) * kb; rrect(x0, y + 6, w, 36, 10, col);
+      if (col === C.RED) { ctx.save(); ctx.beginPath(); ctx.roundRect(x0, y + 6, w, 36, 10); ctx.clip(); ctx.strokeStyle = 'rgba(14,17,22,0.45)'; ctx.lineWidth = 5;
+        for (let q = -40; q < w + 40; q += 18) { ctx.beginPath(); ctx.moveTo(x0 + q, y + 42); ctx.lineTo(x0 + q + 36, y + 6); ctx.stroke(); } ctx.restore(); }
+      if (kb > 0.9) { if (col === C.RED) rrect(x0 + 6, y + 12, note.length * 8.6 + 16, 24, 8, 'rgba(14,17,22,0.85)'); text(note, x0 + 14, y + 30, 16, col === C.RED ? C.INK : C.BG, 'bold'); } }); });
+  K.banner(110, 640, 1130, 'Prematuro: el hierro parte antes y en mayor dosis, porque sus depósitos son menores', C.VIOLET, seg(t, 23.5, 0.5));
+  credGraf();
+}
+
+// ---------- ped-07: taquipnea ----------
+function taquipnea(t) {
+  K.title('Taquipnea: el umbral baja con la edad', 'Frecuencia respiratoria por minuto que define neumonía con fiebre y tos', C.BLUE);
+  const gr = [['Menor de 2 meses', 60], ['2 a 11 meses', 50], ['1 a 4 años', 40], ['5 años o más', 30]];
+  const bx = 110, bw = 620;
+  gr.forEach(([n, v], i) => { const y = 190 + i * 100, ka = seg(t, 1 + i * 2.2, 0.5), kb = ease(seg(t, 1.2 + i * 2.2, 1.3));
+    A(ka, () => { text(n, bx, y, 22, C.INK, 'bold'); rrect(bx, y + 14, bw, 36, 12, '#222833'); rrect(bx, y + 14, bw * (v / 70) * kb, 36, 12, v >= 50 ? C.RED : C.AMBER);
+      text('≥ ' + v + ' /min', bx + bw + 20, y + 42, 26, C.INK, 'bold'); }); });
+  const kk = seg(t, 11, 0.6);
+  A(kk, () => { const y = 190 + 1 * 100; ctx.strokeStyle = C.GREEN; ctx.lineWidth = 4; ctx.setLineDash([8, 6]); ctx.beginPath(); ctx.roundRect(bx - 12, y - 32, bw + 230, 96, 14); ctx.stroke(); ctx.setLineDash([]); });
+  // contador de frecuencia respiratoria de un lactante de 6 meses
+  const fr = Math.round(lerp(34, 56, ease(seg(t, 12, 5))));
+  A(kk, () => { rrect(900, 190, 340, 190, 16, '#161B22'); text('Lactante de 6 meses', 1070, 226, 20, C.MUTED, 'bold', 'center');
+    text(String(fr), 1070, 310, 84, fr >= 50 ? C.RED : C.INK, 'bold', 'center'); text('respiraciones por minuto', 1070, 346, 17, C.MUTED, '', 'center'); });
+  A(seg(t, 17.5, 0.5), () => tag('Taquipnea para su edad', 1070, 410, C.RED, 18));
+  K.banner(110, 560, 1130, 'Fiebre + tos + taquipnea + crépitos localizados: neumonía; el diagnóstico es clínico', C.BLUE, seg(t, 19, 0.5));
+  K.banner(110, 626, 1130, 'El lactante pequeño respira más rápido normalmente: por eso su corte es más alto', C.AMBER, seg(t, 21.5, 0.5));
+  credGraf();
+}
+
+// ---------- ped-09: fiebre sin foco ----------
+function fiebre(t) {
+  K.title('Fiebre sin foco: la edad decide la conducta', 'Mientras más pequeño, más riesgo de infección bacteriana grave', C.RED);
+  const X0 = 90, X1 = 1190, y0 = 170, h = 120;
+  const segs = [[0, 0.28, C.RED, 'Menor de 28 días'], [0.28, 0.62, C.AMBER, '29 a 90 días'], [0.62, 1, C.GREEN, 'Mayor de 3 meses']];
+  segs.forEach(([a, b, col, n], i) => { const ka = seg(t, 1 + i * 1.2, 0.6), x = X0 + (X1 - X0) * a, w = (X1 - X0) * (b - a) - 8;
+    A(ka, () => { rrect(x, y0, w, h, 16, col); text(n, x + w / 2, y0 + 70, 26, C.BG, 'bold', 'center'); }); });
+  A(seg(t, 4, 0.8), () => { text('Más pequeño: más riesgo', X0 + 8, y0 + h + 44, 20, C.RED, 'bold'); text('Menos riesgo', X1 - 8, y0 + h + 44, 20, C.GREEN, 'bold', 'right'); arrow(X0 + 270, y0 + h + 38, X1 - 170, y0 + h + 38, C.MUTED, 1, 3); });
+  K.card(70, 330, 380, 190, C.RED, 'Hospitalizar siempre', ['Aunque se vea bien y mame', 'Hemograma, hemocultivos, orina por', 'sondeo y punción lumbar', 'Ampicilina + cefotaxima'], seg(t, 8, 0.5), 17);
+  K.card(470, 330, 390, 190, C.AMBER, 'Criterios de Rochester', ['Cumple TODOS: ambulatorio, control', 'presencial a las 24 horas', 'Falla uno solo: hospitalizar y', 'estudiar como el neonato'], seg(t, 13, 0.5), 17);
+  K.card(880, 330, 340, 190, C.GREEN, 'Buen estado general', ['Casi siempre es un virus', 'Cazar la infección urinaria', 'escondida'], seg(t, 19, 0.5), 17);
+  K.banner(110, 560, 1130, 'Nunca ceftriaxona en el recién nacido: desplaza la bilirrubina y da kernicterus', C.RED, seg(t, 23, 0.5));
+  credGraf();
+}
+
+// ---------- ped-11: deshidratación ----------
+function deshidrata(t) {
+  K.title('Deshidratación: cuatro signos, tres grados', 'Se clasifica con la clínica, sin exámenes', C.BLUE);
+  const cx = [330, 640, 950], cw = 290;
+  const hd = [['Sin deshidratación', 'Menos del 5 % del peso', C.GREEN, 'Plan A'], ['Moderada', 'Del 5 al 10 %', C.AMBER, 'Plan B'], ['Grave', 'Más del 10 % o shock', C.RED, 'Plan C']];
+  hd.forEach(([n, s, col, p], i) => { const ka = seg(t, 1 + i * 0.4, 0.5);
+    A(ka, () => { rrect(cx[i], 140, cw, 78, 14, '#161B22'); ctx.fillStyle = col; ctx.fillRect(cx[i], 140, cw, 6); text(n, cx[i] + cw / 2, 175, 22, col, 'bold', 'center'); text(s, cx[i] + cw / 2, 203, 16, C.MUTED, '', 'center'); }); });
+  const rows = [['Conciencia', ['Alerta', 'Inquieto, irritable', 'Letárgico']], ['Ojos y lágrimas', ['Normales', 'Hundidos', 'Muy hundidos y secos']],
+    ['Boca y sed', ['Húmeda, sed normal', 'Seca, sed ávida', 'Muy seca, no puede beber']], ['Signo del pliegue', ['Rápido', 'Lento', 'Muy lento']]];
+  rows.forEach(([n, vs], r) => { const y = 238 + r * 72, ka = seg(t, 2.5 + r * 3.2, 0.4);
+    A(ka, () => text(n, 40, y + 38, 20, C.INK, 'bold'));
+    vs.forEach((v, c) => chip(cx[c], y + 4, cw, 56, hd[c][2], v, seg(t, 2.8 + r * 3.2 + c * 0.7, 0.4), 18, 0.2)); });
+  const kk = seg(t, 17, 0.5);
+  [['Plan A', 'Más líquido en casa; sigue la lactancia'], ['Plan B', 'Sales orales 50 a 100 mL/kg en 4 h'], ['Plan C', 'Ringer o fisiológico EV, 100 mL/kg']].forEach(([p, s], i) => {
+    const ka = seg(t, 17 + i * 1.6, 0.5); A(ka, () => { rrect(cx[i], 540, cw, 70, 14, '#161B22'); ctx.strokeStyle = hd[i][2]; ctx.lineWidth = 2; ctx.beginPath(); ctx.roundRect(cx[i], 540, cw, 70, 14); ctx.stroke();
+      text(p, cx[i] + 16, 568, 20, hd[i][2], 'bold'); text(s, cx[i] + 16, 596, 15, C.INK); }); });
+  A(seg(t, 17, 0.5), () => text('Conducta', 40, 580, 20, C.INK, 'bold'));
+  K.banner(110, 640, 1130, 'Antidiarreicos: nunca · Vómitos incoercibles: sonda nasogástrica antes de la vena', C.BLUE, seg(t, 23, 0.5));
+  credGraf();
+}
+
+// ---------- ped-14: convulsión febril ----------
+function convulsion(t) {
+  K.title('Convulsión febril: simple o compleja', 'La fiebre sube rápido en un cerebro inmaduro (6 meses a 5 años)', C.VIOLET);
+  const ax = G.axes({ x: 110, y: 170, w: 680, h: 290 }, [0, 12], [36, 41], { xt: [0, 3, 6, 9, [12, '12 h']], yt: [36, 38, 40], yl: 'Temperatura (°C)', xl: 'Tiempo' });
+  ax.draw(seg(t, 0, 0.7));
+  G.hline(ax, 38, C.AMBER, 'gatillo: más de 38 °C', seg(t, 1, 0.6), 'left');
+  const f = G.smooth([[0, 36.8], [3, 37.2], [5, 38.0], [6.5, 39.6], [8, 40.2], [12, 38.6]]);
+  const k = ease(seg(t, 1.5, 6)); const p = G.curve(ax, f, k, C.RED, 5); if (k < 1) G.head(p, C.RED);
+  const sx = 6.6; const ka = seg(t, 1.5 + 6 * (sx / 12) / 1, 0.3);
+  if (k * 12 > sx) { dot(ax.X(sx), ax.Y(f(sx)), 10, C.VIOLET); A(seg(t, 4.8, 0.4), () => tag('Convulsión', ax.X(sx) + 20, ax.Y(f(sx)) - 50, C.VIOLET, 18)); }
+  // duraciones
+  A(seg(t, 9, 0.5), () => { text('Duración de la crisis', 110, 528, 18, C.INK, 'bold'); rrect(110, 540, 600, 20, 10, '#222833'); });
+  A(seg(t, 9.5, 0.5), () => { rrect(110, 540, 600 * 0.35 * ease(seg(t, 9.5, 1.2)), 20, 10, C.GREEN); line(110 + 600 * 0.5, 532, 110 + 600 * 0.5, 604, C.INK, 1, 3); text('15 min', 110 + 600 * 0.5 + 8, 592, 16, C.INK, 'bold'); if (seg(t, 10.7, 0.3) > 0) text('Simple', 110 + 600 * 0.35 + 12, 556, 16, C.GREEN, 'bold'); });
+  A(seg(t, 12.5, 0.5), () => { rrect(110, 574, 600 * ease(seg(t, 12.5, 1.5)) * 0.8, 20, 10, C.RED); if (seg(t, 14, 0.3) > 0) text('Compleja: más de 15 min', 110 + 600 * 0.8 + 12, 590, 16, C.RED, 'bold'); });
+  K.card(820, 170, 420, 150, C.GREEN, 'Simple: 70 a 80 %', ['Generalizada, menos de 15 minutos', 'Una sola vez en 24 horas', 'Recuperación completa'], seg(t, 9, 0.5), 17);
+  K.card(820, 336, 420, 170, C.RED, 'Compleja: 20 a 30 %', ['Basta UN criterio: inicio focal,', 'más de 15 minutos, se repite en 24 h', 'o deja paresia transitoria (Todd)'], seg(t, 13, 0.5), 17);
+  K.card(820, 522, 420, 110, C.AMBER, 'Punción lumbar si', ['Signos meníngeos · letargia persistente · antibiótico previo', 'lactante sin vacunas completas'], seg(t, 18, 0.5), 15);
+  K.banner(110, 636, 1130, 'Simple: alta sin electroencefalograma ni TAC ni anticonvulsivante de mantención', C.VIOLET, seg(t, 22, 0.5));
+  credGraf();
+}
+
+// ---------- ped-16: matriz edad gestacional por peso ----------
+function matriz(t) {
+  K.title('Edad gestacional por peso: la matriz', 'Pequeño, adecuado o grande para la edad gestacional', C.GREEN);
+  const ax = G.axes({ x: 110, y: 170, w: 740, h: 400 }, [28, 44], [0, 100], { xt: [28, 32, 34, 37, 41, 42, 44], yl: 'Peso al nacer', xl: 'Semanas de gestación' });
+  ax.draw(seg(t, 0, 0.7));
+  const p10 = G.smooth([[28, 8], [32, 17], [37, 31], [40, 38], [44, 40]]), p90 = G.smooth([[28, 32], [32, 45], [37, 65], [40, 76], [44, 80]]);
+  // zonas de edad
+  const zones = [[28, 37, 'Pretérmino', C.AMBER], [37, 42, 'Término', C.GREEN], [42, 44, 'Postérmino', C.RED]];
+  zones.forEach(([a, b, n, col], i) => { const ka = seg(t, 0.8 + i * 0.5, 0.6); A(ka, () => { ctx.fillStyle = col; ctx.globalAlpha *= 0.09; ctx.fillRect(ax.X(a), ax.box.y, ax.X(b) - ax.X(a), ax.box.h); }); A(ka, () => text(n, (ax.X(a) + ax.X(b)) / 2, ax.box.y + 22, 18, col, 'bold', 'center')); });
+  const k1 = ease(seg(t, 3, 2)), k2 = ease(seg(t, 4.5, 2));
+  G.curve(ax, p10, k1, C.RED, 4, 28, 44); G.curve(ax, p90, k2, C.BLUE, 4, 28, 44);
+  A(k1 > 0.99 ? 1 : 0, () => text('percentil 10', ax.X(44) - 6, ax.Y(p10(44)) + 24, 16, C.RED, 'bold', 'right'));
+  A(k2 > 0.99 ? 1 : 0, () => text('percentil 90', ax.X(44) - 6, ax.Y(p90(44)) - 12, 16, C.BLUE, 'bold', 'right'));
+  A(seg(t, 7, 0.6), () => tag('PEG', ax.X(40), ax.Y(24), C.RED, 20));
+  A(seg(t, 10, 0.6), () => tag('AEG', ax.X(40), ax.Y(57), C.GREEN, 20));
+  A(seg(t, 13, 0.6), () => tag('GEG', ax.X(40), ax.Y(88), C.BLUE, 20));
+  K.card(880, 170, 360, 130, C.RED, 'PEG: bajo percentil 10', ['Hipoglicemia (poco glucógeno)', 'Hipotermia y poliglobulia'], seg(t, 7.5, 0.5), 17);
+  K.card(880, 316, 360, 100, C.GREEN, 'AEG: entre 10 y 90', ['Riesgo neonatal bajo'], seg(t, 10.5, 0.5), 17);
+  K.card(880, 432, 360, 150, C.BLUE, 'GEG: sobre percentil 90', ['Hipoglicemia por hiperinsulinismo', 'Trauma: distocia de hombros,', 'fractura de clavícula'], seg(t, 13.5, 0.5), 17);
+  K.banner(110, 640, 1130, 'Sin fecha confiable: edad por examen físico (Capurro: 5 signos somáticos; Ballard suma neuromusculares)', C.GREEN, seg(t, 19, 0.5));
+  credGraf();
+}
+
+// ---------- ped-18: Silverman-Andersen ----------
+function silverman(t) {
+  K.title('Silverman-Andersen: de 0 a 10', 'Al revés que el Apgar: cero es sin dificultad', C.BLUE);
+  const signs = ['Movimiento toracoabdominal', 'Tiraje intercostal', 'Retracción xifoidea', 'Aleteo nasal', 'Quejido espiratorio'];
+  // el recién nacido empeora: puntaje de cada signo a lo largo del tiempo
+  const prog = [[0, 0, 0, 0, 0], [1, 1, 0, 0, 1], [1, 1, 1, 1, 1], [2, 2, 2, 1, 2], [2, 2, 2, 2, 2]];
+  const T = [3, 8, 13, 18];
+  let idx = 0, u = 0; for (let i = 0; i < T.length; i++) if (t >= T[i]) { idx = i + 1; } u = idx < 4 ? 0 : 0;
+  const cur = i => { let a = prog[idx], b = prog[Math.min(4, idx + 1)]; const tt = idx < 4 ? seg(t, T[idx] , 0.8) : 0; return lerp(a[i], b[i], idx < 4 ? 0 : 0); };
+  const val = i => { const stepT = [0, 3, 8, 13, 18]; let s = 0; for (let k = 4; k >= 0; k--) if (t >= stepT[k]) { s = k; break; } const nxt = Math.min(4, s + 1); const kk = s < 4 ? 0 : 0; return prog[s][i]; };
+  let total = 0;
+  signs.forEach((n, i) => { const y = 180 + i * 70, v = val(i); total += v;
+    text(n, 40, y + 28, 20, C.INK, 'bold');
+    for (let q = 0; q < 3; q++) { const col = q === 0 ? C.GREEN : q === 1 ? C.AMBER : C.RED; const on = v === q;
+      chip(430 + q * 130, y, 118, 48, col, q + (q === 1 ? ' punto' : ' puntos'), 1, 16, on ? 0.7 : 0.08); }
+  });
+  A(seg(t, 0.5, 0.5), () => { rrect(870, 180, 370, 260, 16, '#161B22'); text('Puntaje total', 1055, 224, 22, C.MUTED, 'bold', 'center');
+    const col = total >= 7 ? C.RED : total >= 4 ? C.AMBER : C.GREEN;
+    text(String(total), 1055, 340, 120, col, 'bold', 'center');
+    text(total === 0 ? 'Sin dificultad' : total <= 3 ? 'Leve' : total <= 6 ? 'Moderada' : 'Grave: soporte de inmediato', 1055, 400, 22, col, 'bold', 'center'); });
+  A(seg(t, 19.5, 0.5), () => { chip(870, 460, 120, 56, C.GREEN, ['1 a 3', 'leve'], 1, 17); chip(1000, 460, 120, 56, C.AMBER, ['4 a 6', 'moderada'], 1, 17); chip(1130, 460, 110, 56, C.RED, ['7 o más', 'grave'], 1, 17); });
+  K.banner(40, 560, 1200, 'Quejido: el recién nacido cierra la glotis para sostener presión y que el alvéolo no colapse', C.BLUE, seg(t, 7, 0.5) * (1 - seg(t, 15, 0.5)));
+  K.banner(40, 560, 1200, '7 puntos o más: dificultad grave, necesita soporte respiratorio', C.RED, seg(t, 20, 0.5));
+  credGraf();
+}
+
+// ---------- ped-19: sepsis precoz y tardía ----------
+function sepsis(t) {
+  K.title('Sepsis neonatal: antes o después de las 72 horas', 'La pregunta que decide el germen y el esquema', C.RED);
+  const X0 = 70, X1 = 1210, XM = 640;
+  A(seg(t, 0, 0.6), () => { rrect(X0, 160, XM - X0 - 6, 40, 12, 'rgba(255,90,78,0.9)'); rrect(XM + 6, 160, X1 - XM - 6, 40, 12, 'rgba(255,194,71,0.9)');
+    text('Precoz: menos de 72 horas', (X0 + XM) / 2, 188, 21, C.BG, 'bold', 'center'); text('Tardía: más de 72 horas', (XM + X1) / 2, 188, 21, C.BG, 'bold', 'center'); });
+  line(XM, 150, XM, 520, C.INK, seg(t, 0.8, 0.6), 3, [8, 6]);
+  A(seg(t, 0.8, 0.6), () => tag('72 horas', XM, 140, C.INK, 17));
+  // izquierda: transmisión vertical
+  const left = [['Rotura de membranas', 'más de 18 horas'], ['Corioamnionitis materna', 'fiebre, útero doloroso'], ['Madre con estreptococo B', 'sin profilaxis completa']];
+  left.forEach(([a, b], i) => chip(X0, 230 + i * 70, 400, 58, C.RED, [a, b], seg(t, 2 + i * 1.8, 0.5), 17));
+  A(seg(t, 7.5, 0.5), () => arrow(X0 + 200, 230 + 3 * 70 - 6, X0 + 200, 452, C.RED, 1, 4));
+  chip(X0 + 70, 460, 260, 56, C.RED, ['Se contamina en el parto', 'canal del parto'], seg(t, 8, 0.5), 17, 0.3);
+  chip(X0 + 420, 230, 140, 56, C.RED, ['E. coli'], seg(t, 10, 0.5), 18, 0.25);
+  chip(X0 + 420, 300, 140, 56, C.RED, ['Estreptococo B'], seg(t, 9.5, 0.5), 18, 0.25);
+  A(seg(t, 9, 0.5), () => text('Gérmenes', X0 + 490, 214, 16, C.RED, 'bold', 'center'));
+  // derecha: nosocomial
+  const right = [['Catéteres y tubos', 'vía venosa, ventilador'], ['Manos del personal', 'transmisión nosocomial'], ['Prematuro en UCIN', 'estadía prolongada']];
+  right.forEach(([a, b], i) => chip(XM + 40, 230 + i * 70, 400, 58, C.AMBER, [a, b], seg(t, 12 + i * 1.8, 0.5), 17));
+  chip(XM + 40, 460, 270, 56, C.AMBER, ['Staphylococcus', 'coagulasa negativo'], seg(t, 18, 0.5), 17, 0.3);
+  chip(XM + 330, 460, 110, 56, C.AMBER, ['Enterobac-', 'terias'], seg(t, 18.6, 0.5), 15, 0.3);
+  K.banner(110, 560, 1130, 'Clínica sutil: hipotermia (no fiebre), apneas, mala succión, llene capilar mayor de 3 segundos', C.BLUE, seg(t, 21, 0.5));
+  K.banner(110, 626, 1130, 'Leucopenia bajo 5.000 y plaquetas bajo 100.000 son los marcadores más graves', C.RED, seg(t, 24, 0.5));
+  credGraf();
+}
+
+// ---------- ped-20: glicemia neonatal ----------
+function glicemia(t) {
+  K.title('Hipoglicemia neonatal: la glucosa cae al cortar el cordón', 'El cerebro del recién nacido vive de la glucosa que circula', C.AMBER);
+  const ax = G.axes({ x: 110, y: 170, w: 640, h: 390 }, [0, 6], [0, 100], { xt: [0, 1, 2, 3, 4, 5, [6, '6 h']], yt: [0, 20, 40, 60, 80, 100], yl: 'Glicemia (mg/dL)', xl: 'Horas desde el parto' });
+  ax.draw(seg(t, 0, 0.7));
+  G.band(ax, 0, 35, 'rgba(255,90,78,0.13)', seg(t, 0.8, 0.6), null, 0, 6);
+  G.band(ax, 35, 45, 'rgba(255,194,71,0.12)', seg(t, 1.0, 0.6), null, 0, 6);
+  G.hline(ax, 45, C.AMBER, 'corte: 45', seg(t, 1.2, 0.6), 'left');
+  G.hline(ax, 35, C.RED, '35', seg(t, 1.4, 0.6), 'left');
+  const sano = G.smooth([[0, 80], [1, 55], [2, 56], [4, 62], [6, 68]]), riesgo = G.smooth([[0, 80], [1, 44], [2, 26], [4, 22], [6, 24]]);
+  const k1 = ease(seg(t, 2, 4)), k2 = ease(seg(t, 7, 5));
+  const p1 = G.curve(ax, sano, k1, C.GREEN, 5); if (k1 < 1) G.head(p1, C.GREEN);
+  const p2 = G.curve(ax, riesgo, k2, C.RED, 5); if (k2 < 1) G.head(p2, C.RED);
+  A(seg(t, 5.5, 0.5), () => tag('Recién nacido sano', ax.X(4.2), ax.Y(72), C.GREEN, 16));
+  A(seg(t, 10, 0.5), () => tag('Prematuro, PEG o hijo de madre diabética', ax.X(3.6), ax.Y(12), C.RED, 16));
+  K.card(780, 170, 460, 110, C.RED, 'Por qué cae', ['Reservas mínimas de glucógeno', 'o insulina fetal aún alta (madre diabética)'], seg(t, 8, 0.5), 17);
+  K.card(780, 296, 460, 120, C.AMBER, 'Entre 35 y 44, sin síntomas', ['Alimentar de inmediato', 'Control a los 30 a 60 minutos'], seg(t, 14, 0.5), 17);
+  K.card(780, 432, 460, 150, C.RED, 'Menos de 35 o con síntomas', ['Bolo de suero glucosado al 10 %:', '2 mL/kg en 5 minutos', 'y luego infusión continua (6 a 8 mg/kg/min)'], seg(t, 18, 0.5), 17);
+  K.banner(110, 640, 1130, 'Nunca bolo de suero al 20 % ni al 50 %: dispara la insulina de rebote', C.RED, seg(t, 23, 0.5));
+  credGraf();
+}
+
+// ---------- ped-21: tamizaje ----------
+function tamizaje(t) {
+  K.title('Tamizaje neonatal: se busca antes del síntoma', 'Hipotiroidismo congénito y fenilcetonuria', C.VIOLET);
+  const X0 = 60, X1 = 1220, y = 238;
+  A(seg(t, 0, 0.6), () => line(X0, y, X1, y, '#3A424E', 1, 4));
+  const ev = [[190, 'Se ve sano', 'El 95 % no tiene síntomas', C.GREEN, '0 h', 1.2], [470, 'Muestra de talón', 'Ya con leche, en la maternidad', C.BLUE, '40 a 48 h', 3.5],
+    [770, 'Si es positivo', 'Confirma: TSH y T4 libre venosa', C.AMBER, 'Días', 8], [1070, 'Levotiroxina', 'Antes de los 15 días', C.GREEN, '15 días', 11]];
+  ev.forEach(([x, a, b, col, lab, ta]) => { const ka = seg(t, ta, 0.5), cw = 262;
+    line(x, 214, x, y, col, ka * 0.7, 2, [4, 5]); dot(x, y, 8, col, ka); chip(x - cw / 2, 150, cw, 64, col, [a, b], ka, 16); A(ka, () => text(lab, x, y + 28, 16, C.MUTED, '', 'center')); });
+  // pronóstico según el inicio del tratamiento
+  const ax = G.axes({ x: 110, y: 330, w: 560, h: 230 }, [0, 90], [0, 100], { xt: [0, 15, 30, 60, [90, '90 d']], yt: [], yl: 'Pronóstico intelectual', xl: 'Edad de inicio del tratamiento (días)' });
+  ax.draw(seg(t, 12, 0.6));
+  const f = G.smooth([[0, 92], [15, 90], [30, 70], [60, 40], [90, 20]]);
+  const k = ease(seg(t, 13, 3)); const p = G.curve(ax, f, k, C.VIOLET, 5); if (k < 1) G.head(p, C.VIOLET);
+  A(seg(t, 16.5, 0.5), () => { dot(ax.X(15), ax.Y(f(15)), 9, C.GREEN); tag('Antes de los 15 días', ax.X(15) + 110, ax.Y(f(15)) + 40, C.GREEN, 15); });
+  A(seg(t, 18, 0.5), () => text('Esquema ilustrativo', ax.X(90), ax.Y(5), 14, C.MUTED, '', 'right'));
+  K.card(710, 330, 530, 110, C.VIOLET, 'Fenilcetonuria', ['Falta una enzima: la fenilalanina se acumula', 'Tratamiento: dieta sin fenilalanina de por vida'], seg(t, 19, 0.5), 17);
+  K.card(710, 456, 530, 110, C.RED, 'Trampa clásica', ['Muestra antes de la primera mamada:', 'la fenilalanina aún no sube, falso normal'], seg(t, 21, 0.5), 17);
+  K.banner(110, 640, 1130, 'Se pesquisa a todos porque el daño avanza en silencio y no se recupera', C.VIOLET, seg(t, 23.5, 0.4));
+  credGraf();
+}
+
+// ============== con ilustración real ==============
+// ---------- ped-06: croup sobre la laringe (Servier, corte frontal) ----------
+// imagen 338x720; se muestra el recorte y 250..570 (cuerdas vocales y subglotis). Coordenadas en píxeles de la imagen.
+const LX = 50, LY = 130, LS = 1.55;
+const lp = (x, y) => [LX + x * LS, LY + (y - 250) * LS];
+function croup(t) {
+  K.title('Croup: por qué un poco de edema hace tanto ruido', 'Edema subglótico bajo las cuerdas vocales · virus parainfluenza', C.RED);
+  const W_ = 338 * LS, H_ = 320 * LS;
+  plate(LX, LY, W_, H_, seg(t, 0, 0.6));
+  const clip = () => { ctx.beginPath(); ctx.roundRect(LX, LY, W_, H_, 12); ctx.clip(); };
+  A(seg(t, 0, 0.6), () => { ctx.save(); clip(); ctx.drawImage(I('lar'), 0, 250, 338, 320, LX, LY, W_, H_); ctx.restore(); });
+  const ed = ease(seg(t, 5, 4)) * (1 - 0.85 * ease(seg(t, 22, 4)));          // edema subglótico
+  A(1, () => { ctx.save(); clip();
+    [[106, 1], [240, -1]].forEach(([wx, dir]) => { const pts = []; for (let i = 0; i <= 16; i++) { const yy = 392 + 80 * i / 16, b = 36 * ed * Math.pow(Math.sin(Math.PI * i / 16), 0.8); pts.push(lp(wx + dir * b, yy)); }
+      ctx.beginPath(); pts.forEach(([x, y], i) => i ? ctx.lineTo(x, y) : ctx.moveTo(x, y)); const [xe, ye] = lp(wx - dir * 12, 472), [xs, ys] = lp(wx - dir * 12, 392); ctx.lineTo(xe, ye); ctx.lineTo(xs, ys); ctx.closePath();
+      ctx.fillStyle = `rgba(255,60,60,${0.6 * Math.min(1, ed * 2.5)})`; ctx.fill(); ctx.strokeStyle = `rgba(255,200,200,${0.8 * Math.min(1, ed * 2.5)})`; ctx.lineWidth = 2; ctx.stroke(); });
+    ctx.restore(); });
+  // aire que entra por la vía aérea (se aprieta y se turbulenta en la subglotis)
+  A(seg(t, 2, 0.6), () => { ctx.save(); clip();
+    for (let i = 0; i < 22; i++) { const u = ((t * 0.5) + i / 22) % 1, yy = lerp(255, 566, u), inSub = yy > 392 && yy < 472;
+      const half = inSub ? 60 - 36 * ed * Math.sin(Math.PI * (yy - 392) / 80) * 0.8 : 62, rs = ((i * 53) % 21 - 10) / 10, jit = inSub ? Math.sin(t * 28 + i * 5) * 5 * ed : 0;
+      const [x, y] = lp(172 + rs * half * 0.85 + jit, yy); ctx.fillStyle = `rgba(79,163,255,${0.95 * Math.min(1, u * 6, (1 - u) * 6)})`; ctx.beginPath(); ctx.arc(x, y, 4, 0, 7); ctx.fill(); }
+    ctx.restore(); });
+  label('Cuerdas vocales', 640, 215, C.BLUE, ...lp(225, 355), fade(t, 1.2, 29));
+  label('Cricoides: anillo rígido', 640, 540, C.AMBER, ...lp(256, 500), fade(t, 3, 29));
+  label('Edema subglótico', 640, 400, C.RED, ...lp(232, 430), fade(t, 6.5, 22));
+  // ondas de estridor sobre la vía aérea
+  A(seg(t, 10, 0.5) * (1 - seg(t, 22, 0.5)), () => { ctx.save(); clip(); for (let i = 0; i < 3; i++) { const u = ((t * 0.9) + i / 3) % 1; ctx.strokeStyle = `rgba(255,194,71,${0.9 * (1 - u)})`; ctx.lineWidth = 4;
+    const [cx, cy] = lp(172, 270); ctx.beginPath(); ctx.arc(cx, cy + 60, 30 + u * 80, -2.3, -0.84); ctx.stroke(); } ctx.restore(); });
+  A(seg(t, 10.2, 0.5) * (1 - seg(t, 22, 0.5)), () => tag('Estridor', ...lp(172, 282), C.AMBER, 15));
+  K.card(760, 140, 480, 140, C.RED, 'El anillo no se estira', ['Un milímetro de edema achica el área por', 'donde pasa el aire en tres cuartas partes', 'y la resistencia al flujo se multiplica'], seg(t, 6, 0.5), 17);
+  K.card(760, 296, 480, 120, C.AMBER, 'La tríada', ['Disfonía o llanto ronco · tos perruna', 'Estridor inspiratorio, casi siempre de noche'], seg(t, 11, 0.5), 17);
+  K.card(760, 432, 480, 130, C.GREEN, 'Tratamiento', ['Dexametasona oral en todos los grados', 'Adrenalina nebulizada desde el grado 2 sintomático', 'y observar 2 horas: el efecto rebota'], seg(t, 16, 0.5), 17);
+  K.banner(760, 580, 480, 'Sin tos perruna, tóxico y babeando: epiglotitis', C.RED, seg(t, 24, 0.5));
+  credSv();
+}
+
+// ---------- ped-12: estenosis hipertrófica del píloro (Blausen) ----------
+// imagen 1024x768; panel izquierdo = estenosis, derecho = normal. Recorte del panel izquierdo.
+const PS = { x: 0, y: 70, w: 500, h: 470 }, PD = { x: 60, y: 150 }, PK = 1.0;
+const pp = (x, y) => [PD.x + (x - PS.x) * PK, PD.y + (y - PS.y) * PK];
+function piloro(t) {
+  K.title('Estenosis hipertrófica del píloro', 'El músculo pilórico engrosado no deja pasar la leche', C.AMBER);
+  const w = PS.w * PK, h = PS.h * PK;
+  plate(PD.x, PD.y, w, h, seg(t, 0, 0.6));
+  A(seg(t, 0, 0.6), () => { ctx.save(); ctx.beginPath(); ctx.roundRect(PD.x, PD.y, w, h, 12); ctx.clip(); ctx.drawImage(I('pil'), PS.x, PS.y, PS.w, PS.h, PD.x, PD.y, w, h); ctx.restore(); });
+  // leche que baja por el esófago y se acumula en el estómago
+  const fill = ease(seg(t, 3, 7));
+  A(seg(t, 3, 0.4), () => { ctx.save(); ctx.beginPath(); ctx.roundRect(PD.x, PD.y, w, h, 12); ctx.clip();
+    for (let i = 0; i < 10; i++) { const u = ((t - 3) * 0.5 + i / 10) % 1; if (u < 0 || t < 3) continue; const pts = [[118, 80], [135, 150], [200, 200]]; const k = u < 0.5 ? u / 0.5 : 1;
+      const [x0, y0] = pp(...(k < 0.5 ? pts[0] : pts[1])); const [x1, y1] = pp(...(k < 0.5 ? pts[1] : pts[2])); const kk = k < 0.5 ? k * 2 : (k - 0.5) * 2;
+      ctx.fillStyle = `rgba(255,248,230,${fill > 0.95 ? 0.2 : 0.85})`; ctx.beginPath(); ctx.arc(lerp(x0, x1, kk), lerp(y0, y1, kk), 4, 0, 7); ctx.fill(); }
+    // nivel de leche en el estómago
+    const [sx, sy] = pp(330, 440); ctx.beginPath(); ctx.ellipse(...pp(340, 330), 150 * PK * fill, 135 * PK * fill, 0, 0, 7); ctx.fillStyle = 'rgba(255,250,235,0.45)'; ctx.fill();
+    ctx.restore(); });
+  // onda peristáltica que no logra pasar
+  A(seg(t, 8, 0.4) * (1 - seg(t, 17, 0.5)), () => { for (let i = 0; i < 3; i++) { const u = ((t * 0.5) + i / 3) % 1; const [x, y] = pp(lerp(430, 200, u), lerp(330, 395, u)); arrow(x + 30, y - 12, x, y, C.BLUE, 0.9 * Math.min(1, u * 4), 4); } });
+  A(seg(t, 12, 0.5), () => { const [x, y] = pp(150, 385); ctx.strokeStyle = C.RED; ctx.lineWidth = 5; ctx.beginPath(); ctx.moveTo(x - 24, y - 24); ctx.lineTo(x + 24, y + 24); ctx.moveTo(x + 24, y - 24); ctx.lineTo(x - 24, y + 24); ctx.stroke(); });
+  // vómito en proyectil: la leche sale por el esófago
+  A(seg(t, 17, 0.4) * (1 - seg(t, 24, 0.5)), () => { for (let i = 0; i < 12; i++) { const u = ((t - 17) * 1.6 + i / 12) % 1; const [x, y] = pp(lerp(250, 118, u), lerp(190, 70, Math.pow(u, 1.2))); dot(x, y, 5, 'rgba(255,248,225,0.95)'); }
+    const [ax_, ay] = pp(118, 90); arrow(ax_ + 30, ay + 70, ax_ + 4, ay - 10, C.RED, 1, 6); });
+  label('Píloro engrosado', 540, 270, C.RED, ...pp(150, 345), fade(t, 1.2, 28));
+  label('Esófago', 440, 170, C.BLUE, ...pp(126, 120), fade(t, 1.8, 28));
+  label('Estómago', 600, 400, C.GREEN, ...pp(330, 220), fade(t, 2.4, 28));
+  K.card(720, 150, 520, 150, C.AMBER, 'Quién y cuándo', ['Varones, entre las 3 y 5 semanas de vida', 'Vómito en proyectil, nunca bilioso,', 'y pide comer de nuevo con desesperación'], seg(t, 9, 0.5), 17);
+  K.card(720, 316, 520, 130, C.RED, 'Pierde ácido clorhídrico', ['Alcalosis metabólica hipoclorémica', 'con potasio bajo'], seg(t, 14, 0.5), 17);
+  K.card(720, 462, 520, 120, C.GREEN, 'Diagnóstico y tratamiento', ['Ecografía: músculo engrosado, canal largo', 'Corregir electrolitos y luego Ramstedt'], seg(t, 19, 0.5), 17);
+  K.banner(110, 640, 1130, 'Nunca operar con la alcalosis sin corregir: riesgo de apnea postoperatoria', C.RED, seg(t, 24.5, 0.5));
+  credBl();
+}
+
+// ---------- ped-13: reflujo vesicoureteral (Blausen, sistema urinario infantil) ----------
+// imagen 1500x1500; recorte del aparato urinario
+const US = { x: 470, y: 600, w: 640, h: 680 }, UD = { x: 40, y: 130 }, UK = 0.72;
+const up = (x, y) => [UD.x + (x - US.x) * UK, UD.y + (y - US.y) * UK];
+const URE_L = [[655, 810], [668, 880], [664, 960], [670, 1040], [690, 1100], [712, 1128]];
+const URE_R = [[818, 770], [812, 850], [815, 940], [820, 1030], [818, 1090], [800, 1122]];
+const URETRA = [[760, 1280], [760, 1230], [758, 1180]];
+function vur(t) {
+  K.title('Reflujo vesicoureteral', 'La orina sube por el uréter al orinar y lleva las bacterias al riñón', C.BLUE);
+  const w = US.w * UK, h = US.h * UK;
+  plate(UD.x, UD.y, w, h, seg(t, 0, 0.6));
+  A(seg(t, 0, 0.6), () => { ctx.save(); ctx.beginPath(); ctx.roundRect(UD.x, UD.y, w, h, 12); ctx.clip(); ctx.drawImage(I('uri'), US.x, US.y, US.w, US.h, UD.x, UD.y, w, h); ctx.restore(); });
+  const P = L.poly(URE_R.map(p => up(...p))), Pl = L.poly(URE_L.map(p => up(...p))), Pu = L.poly(URETRA.map(p => up(...p)));
+  // bacterias (E. coli) suben por la uretra hacia la vejiga
+  const asc = seg(t, 3, 3);
+  A(asc > 0 ? 1 : 0, () => { for (let i = 0; i < 6; i++) { const s = clamp(asc * 1.3 - i * 0.06, 0, 1); const [x, y] = Pu.at(1 - s); ctx.fillStyle = C.GREEN; ctx.beginPath(); ctx.roundRect(x - 6, y - 3, 12, 6, 3); ctx.fill(); } });
+  // al orinar: la vejiga se contrae y la orina retrocede por el uréter
+  const mic = seg(t, 9, 1), flow = (t - 9);
+  A(seg(t, 9, 0.5) * (1 - seg(t, 20, 0.6)), () => { [Pl, P].forEach((pp_, j) => { for (let i = 0; i < 10; i++) { const u = ((flow * 0.35) + i / 10) % 1; const [x, y] = pp_.at(1 - u * (j ? 1 : 0.95));
+      ctx.fillStyle = `rgba(255,214,60,${0.95 * Math.min(1, u * 6, (1 - u) * 6)})`; ctx.beginPath(); ctx.arc(x, y, 4, 0, 7); ctx.fill(); } }); });
+  A(seg(t, 11, 0.6) * (1 - seg(t, 20, 0.6)), () => { [Pl, P].forEach((pp_, j) => { for (let i = 0; i < 4; i++) { const u = ((flow * 0.3) + i / 4 + j * 0.2) % 1; const [x, y] = pp_.at(1 - u); ctx.fillStyle = C.GREEN; ctx.beginPath(); ctx.roundRect(x - 6, y - 3, 12, 6, 3); ctx.fill(); } }); });
+  // riñón que se inflama y cicatriza
+  A(seg(t, 14, 1) * (1 - seg(t, 24, 0.6)), () => { [[560, 775], [830, 765]].forEach(([x, y], i) => { const [cx, cy] = up(x, y); const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, 70); g.addColorStop(0, 'rgba(255,90,78,0.5)'); g.addColorStop(1, 'rgba(255,90,78,0)'); ctx.fillStyle = g; ctx.fillRect(cx - 80, cy - 80, 160, 160); }); });
+  A(seg(t, 24, 0.8), () => { [[560, 775], [830, 765]].forEach(([x, y]) => { const [cx, cy] = up(x, y); ctx.strokeStyle = 'rgba(255,255,255,0.9)'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(cx - 12, cy - 6); ctx.lineTo(cx + 4, cy + 12); ctx.stroke(); }); });
+  label('Riñón', 400, 175, C.RED, ...up(580, 700), fade(t, 1.2, 28));
+  label('Uréter', 420, 380, C.AMBER, ...up(665, 960), fade(t, 1.8, 28));
+  label('Vejiga', 470, 520, C.BLUE, ...up(765, 1140), fade(t, 2.4, 28));
+  A(seg(t, 3, 0.5) * (1 - seg(t, 9, 0.5)), () => tag('E. coli sube por la uretra', 250, 600, C.GREEN, 16));
+  A(seg(t, 9.5, 0.5) * (1 - seg(t, 20, 0.5)), () => tag('Al orinar, la orina sube', 270, 590, C.AMBER, 16));
+  A(seg(t, 14.5, 0.5) * (1 - seg(t, 23, 0.5)), () => tag('Pielonefritis', 300, 215, C.RED, 18));
+  A(seg(t, 24.5, 0.5), () => tag('Cicatriz renal', 300, 215, '#FFFFFF', 18));
+  K.card(640, 150, 600, 150, C.RED, 'Después del primer episodio febril', ['Ecografía renal y vesical a todos', 'Si sale alterada, es atípica o recurrente:', 'uretrocistografía miccional (busca el reflujo)'], seg(t, 8, 0.5), 17);
+  K.card(640, 316, 600, 110, C.AMBER, 'A los 6 meses', ['Cintigrama DMSA: muestra si quedó', 'una cicatriz permanente en el riñón'], seg(t, 17, 0.5), 17);
+  K.card(640, 442, 600, 130, C.BLUE, 'La muestra de orina', ['Sondeo vesical: 10.000 UFC o más', 'La bolsa recolectora no confirma ni se trata:', 'solo sirve para descartar si sale normal'], seg(t, 21, 0.5), 17);
+  K.banner(110, 640, 1130, 'Nitrofurantoína solo en la cistitis: no alcanza el parénquima renal', C.RED, seg(t, 25.5, 0.5));
+  credBl();
+}
+
+// ---------- ped-22: Hilgenreiner y Perkin (Blausen, cadera) ----------
+// imagen 1024x768 (cadera derecha del adulto); recorte desde x=272
+const HS = { x: 272, y: 140, w: 500, h: 560 }, HD = { x: 60, y: 120 }, HK = 0.9;
+const hp = (x, y) => [HD.x + (x - HS.x) * HK, HD.y + (y - HS.y) * HK];
+function cadera(t) {
+  K.title('Cadera: Hilgenreiner, Perkin y el núcleo femoral', 'La radiografía a los 3 meses; antes, ecografía', C.BLUE);
+  const w = HS.w * HK, h = HS.h * HK;
+  plate(HD.x, HD.y, w, h, seg(t, 0, 0.6));
+  A(seg(t, 0, 0.6), () => { ctx.save(); ctx.beginPath(); ctx.roundRect(HD.x, HD.y, w, h, 12); ctx.clip(); ctx.drawImage(I('hip'), HS.x, HS.y, HS.w, HS.h, HD.x, HD.y, w, h); ctx.restore(); });
+  // líneas de referencia
+  const yH = 455, xP = 372;                         // Hilgenreiner (horizontal, cartílago en Y) y Perkin (vertical, borde lateral del techo)
+  const kh = ease(seg(t, 2, 1.2)), kp = ease(seg(t, 4, 1.2));
+  A(kh, () => { const [x0, y0] = hp(290, yH), [x1] = hp(640, yH); ctx.strokeStyle = C.BLUE; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(lerp(x0, x1, kh), y0); ctx.stroke(); });
+  A(kp, () => { const [x0, y0] = hp(xP, 150), [, y1] = hp(xP, 700); ctx.strokeStyle = C.AMBER; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x0, lerp(y0, y1, kp)); ctx.stroke(); });
+  A(seg(t, 3.2, 0.5), () => tag('Hilgenreiner', ...hp(560, yH - 24), C.BLUE, 16));
+  A(seg(t, 5.2, 0.5), () => tag('Perkin', ...hp(xP - 4, 190), C.AMBER, 16));
+  // núcleo de la cabeza femoral: normal (inferior e interno) y luxado (superior y externo)
+  const nx0 = 420, ny0 = 520, nx1 = 318, ny1 = 395;
+  const mv = ease(seg(t, 14, 3)), back = ease(seg(t, 22, 2));
+  const m = mv * (1 - back);
+  const [cx, cy] = hp(lerp(nx0, nx1, m), lerp(ny0, ny1, m));
+  A(seg(t, 7, 0.5), () => { ctx.fillStyle = m > 0.5 ? C.RED : C.GREEN; ctx.globalAlpha *= 0.9; ctx.beginPath(); ctx.arc(cx, cy, 20, 0, 7); ctx.fill(); ctx.globalAlpha = 1; ctx.strokeStyle = '#fff'; ctx.lineWidth = 3; ctx.stroke(); });
+  A(seg(t, 7.5, 0.5) * (1 - seg(t, 13, 0.5)), () => tag('Normal: cuadrante inferior e interno', ...hp(540, 590), C.GREEN, 16));
+  A(seg(t, 17.5, 0.5) * (1 - seg(t, 21.5, 0.5)), () => tag('Displasia: cuadrante superior y externo', ...hp(500, 330), C.RED, 16));
+  K.card(740, 150, 500, 130, C.GREEN, 'Cadera normal', ['Núcleo en el cuadrante inferior e interno', 'Ángulo acetabular de 30 grados o menos'], seg(t, 8, 0.5), 17);
+  K.card(740, 296, 500, 130, C.RED, 'Displasia', ['Núcleo en el cuadrante superior y externo', 'Ángulo acetabular sobre 30 grados'], seg(t, 17, 0.5), 17);
+  A(seg(t, 8, 0.5), () => text('Ilustración de adulto: en el lactante el núcleo femoral es un punto', 740, 606, 14, C.MUTED));
+  K.card(740, 442, 500, 130, C.BLUE, 'Qué imagen, a qué edad', ['Bajo 3 meses: ecografía (el hueso es cartílago)', 'A los 3 meses: radiografía de pelvis a todos (GES)'], seg(t, 22, 0.5), 17);
+  K.banner(110, 640, 1130, 'Antes de los 6 meses: arnés de Pavlik · abducción forzada sobre 70°: necrosis avascular', C.BLUE, seg(t, 25.5, 0.5));
+  credBl();
+}
+
+const SCENES = { curva, hitos, calendario, suplementos, croup, taquipnea, fiebre, deshidrata, piloro, vur, convulsion, matriz, silverman, sepsis, glicemia, tamizaje, cadera };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCENES[V](t); };
+const IMG = { croup: { lar: 'assets/servier/larynx-front-cut.png' }, piloro: { pil: 'assets/blausen/piloro.png' }, vur: { uri: 'assets/blausen/urinario_nino.png' }, cadera: { hip: 'assets/blausen/cadera_anat.png' } };
+LOAD(Object.fromEntries(Object.entries(IMG[V] || {}).map(([k, v]) => [k, '../' + v])));
+</script>
+</body></html>

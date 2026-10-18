@@ -101,7 +101,8 @@ module.exports = {
       cards: [
         { title: 'Sensibilidad contra uno menos especificidad', tag: 'Para pruebas cuantitativas', kind: 'key', items: [
           { t: 'Cada punto de la curva es un punto de corte distinto', d: 'El mejor está más cerca de la esquina superior izquierda',
-            say: 'La curva ROC sirve para pruebas que entregan un número continuo, como una glicemia o un antígeno. Grafica la sensibilidad contra uno menos la especificidad, probando distintos puntos de corte, y el punto de corte óptimo es el que queda más cerca de la esquina superior izquierda del gráfico.' },
+            say: 'La curva ROC sirve para pruebas que entregan un número continuo, como una glicemia o un antígeno. Mira este gráfico: grafica la sensibilidad contra uno menos la especificidad, probando distintos puntos de corte, y el punto de corte óptimo es el que queda más cerca de la esquina superior izquierda.',
+            photo: { src: 'biblioteca/16_salud_publica/sp-08/S1_curva-roc__propio.svg', label: 'Curva ROC', at: 'Mira este gráfico', credit: 'Dibujo propio (esquema)' } },
         ] },
         { title: 'Área bajo la curva', tag: 'AUC', kind: 'normal', items: [
           { t: 'Cero coma cinco es el azar', d: 'Sobre cero coma noventa es excelente, uno es la prueba perfecta',
@@ -140,20 +141,6 @@ module.exports = {
           say: 'Fíjate en la línea blanca: es el punto de corte. Si la corres hacia la izquierda, detectas a casi todos los enfermos, pero también marcas a muchos sanos. Si la corres a la derecha, pasa lo contrario. Cada posición es un punto en la curva ROC.' },
         { note: 'El VPP cambia con la prevalencia',
           say: 'Con la misma prueba, en una población con poca enfermedad la mayoría de los positivos son falsos. En una consulta con síntomas, la mayoría son verdaderos. El valor predictivo positivo depende de la prevalencia.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Curva ROC',
-      images: [
-        { src: 'biblioteca/16_salud_publica/sp-08/S1_curva-roc__propio.svg', label: 'Curva ROC', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Área bajo la curva',
-          say: 'La curva ROC grafica sensibilidad contra uno menos especificidad. Más cerca de la esquina superior izquierda, mejor el examen.' },
       ],
     },
 

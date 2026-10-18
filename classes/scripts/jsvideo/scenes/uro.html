@@ -1,0 +1,234 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Urología sobre ilustración real: corte sagital de la pelvis masculina.
+// Base: Blausen.com staff (2014) "Male Pelvic Muscles", CC BY 3.0; rótulos en inglés quitados
+// (assets/blausen/pelvis_masculina_sagital.png, limpiada con inpainting). Coordenadas en píxeles de esa imagen (1500x1500).
+//   ?v=foley        uro-02 A1: HPB → globo vesical → Foley (primero orina, después el balón) → descompresión y volumen
+//   ?v=cistostomia  uro-02 A2: trauma uretral → la sonda está contraindicada → cistostomía suprapúbica por punción
+const V = new URLSearchParams(location.search).get('v') || 'foley';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+
+// lámina: recorte de la imagen fuente en una tarjeta blanca
+const SRC = { x: 0, y: 175, w: 960, h: 1065 }, DST = { x: 40, y: 128 }, S = 0.545;
+DST.w = SRC.w * S; DST.h = SRC.h * S;
+const P = (x, y) => [DST.x + (x - SRC.x) * S, DST.y + (y - SRC.y) * S];
+
+// estructuras (px de la imagen)
+const NECK = [684, 600];                                     // cuello vesical: ancla de la distensión
+const PROST = { c: [712, 665], rx: 93, ry: 86 };
+const BLADDER = [[262, 340], [298, 302], [400, 289], [550, 285], [700, 295], [792, 322], [834, 368], [836, 432], [823, 502],
+  [792, 553], [742, 588], [702, 607], [650, 614], [560, 607], [468, 578], [398, 538], [337, 492], [292, 442], [265, 392]];
+// uretra desde fuera del meato hasta dentro de la vejiga (sentido de entrada de la sonda)
+const URE_IMG = [[18, 1250], [40, 1226], [62, 1210], [80, 1200], [100, 1180], [130, 1140], [160, 1080], [185, 1010], [205, 950],
+  [225, 890], [240, 840], [250, 800], [265, 776], [285, 766], [310, 768], [350, 779], [400, 790], [450, 801], [500, 812],
+  [550, 822], [600, 826], [645, 822], [680, 808], [700, 792], [713, 770], [718, 740], [712, 700], [700, 660], [690, 625],
+  [684, 600], [678, 575], [672, 548]];
+const TEAR = [692, 801];          // uretra membranosa-bulbar, bajo el ápice prostático
+const PUBIS = [350, 625], SKIN = [178, 455];
+
+function scaleAbout(p, c, kx, ky) { return [c[0] + (p[0] - c[0]) * kx, c[1] + (p[1] - c[1]) * ky]; }
+// la uretra prostática se mueve con la próstata cuando crece
+function prostWarp(p, k) {
+  const dx = (p[0] - PROST.c[0]) / PROST.rx, dy = (p[1] - PROST.c[1]) / PROST.ry, r = Math.hypot(dx, dy);
+  const f = r < 0.8 ? 1 : r > 1.35 ? 0 : 1 - (r - 0.8) / 0.55;
+  return scaleAbout(p, PROST.c, 1 + (k - 1) * f, 1 + (k - 1) * f);
+}
+const urethra = kp => poly(URE_IMG.map(p => P(...prostWarp(p, kp))));
+function sOf(path, pt) { const q = P(...pt); let best = 0, d0 = 1e9; for (let s = 0; s <= 1; s += 0.002) { const [x, y] = path.at(s); const d = Math.hypot(x - q[0], y - q[1]); if (d < d0) { d0 = d; best = s; } } return best; }
+const fmtN = v => String(Math.round(v / 10) * 10).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+
+// ---------- capas sobre la lámina ----------
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  ctx.drawImage(I('pel'), SRC.x, SRC.y, SRC.w, SRC.h, DST.x, DST.y, DST.w, DST.h); ctx.restore();
+}
+function clipLamina() { ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip(); }
+// recorte de la ilustración real, agrandado alrededor de un ancla (vejiga que se distiende, próstata que crece)
+function sprite(shape, anchor, kx, ky, a, tint) {
+  if (kx === 1 && ky === 1 && !tint) return;
+  const [ax, ay] = P(...anchor);
+  ctx.save(); ctx.globalAlpha = a; clipLamina();
+  ctx.translate(ax, ay); ctx.scale(kx, ky); ctx.translate(-ax, -ay);
+  ctx.beginPath(); shape(); ctx.clip();
+  ctx.drawImage(I('pel'), SRC.x, SRC.y, SRC.w, SRC.h, DST.x, DST.y, DST.w, DST.h);
+  if (tint) { ctx.fillStyle = tint; ctx.fillRect(DST.x, DST.y, DST.w, DST.h); }
+  ctx.restore();
+}
+const bladderShape = () => BLADDER.forEach((p, i) => { const [x, y] = P(...p); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); });
+const prostShape = () => { const [x, y] = P(...PROST.c); ctx.ellipse(x, y, PROST.rx * S, PROST.ry * S, 0, 0, 7); };
+const LUMEN = [[318, 372], [345, 334], [420, 318], [560, 314], [700, 322], [766, 348], [798, 392], [798, 445], [788, 488],
+  [748, 532], [700, 572], [672, 588], [630, 590], [560, 578], [470, 545], [400, 500], [350, 452], [322, 410]];
+const lumenShape = () => LUMEN.forEach((p, i) => { const [x, y] = P(...p); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); });
+// fill 0..1: orina retenida (tono amarillo más intenso); level 1..0: nivel de orina que baja al drenar
+function bladder(kx, ky, fill, level = 1) {
+  sprite(bladderShape, NECK, kx, ky, 1, fill > 0 ? `rgba(255,214,90,${0.22 * fill})` : null);
+  if (level >= 1) return;
+  const [ax, ay] = P(...NECK); ctx.save(); clipLamina(); ctx.translate(ax, ay); ctx.scale(kx, ky); ctx.translate(-ax, -ay);
+  ctx.beginPath(); lumenShape(); ctx.clip();
+  const top = P(0, 310)[1], bot = P(0, 592)[1], yl = lerp(bot, top, level);
+  const g = ctx.createLinearGradient(0, top, 0, yl); g.addColorStop(0, 'rgba(226,150,150,0.86)'); g.addColorStop(1, 'rgba(240,186,176,0.8)');
+  ctx.fillStyle = g; ctx.fillRect(DST.x, top - 10, DST.w, yl - top + 10);
+  ctx.strokeStyle = 'rgba(255,236,150,0.95)'; ctx.lineWidth = 2.5 / ky; ctx.beginPath(); ctx.moveTo(DST.x, yl); ctx.lineTo(DST.x + DST.w, yl); ctx.stroke();
+  ctx.restore();
+}
+function prostate(k, glowA) {
+  sprite(prostShape, PROST.c, k, k, 1);
+  if (glowA > 0) { const [x, y] = P(...PROST.c); ctx.save(); ctx.globalAlpha = glowA; ctx.strokeStyle = C.AMBER; ctx.lineWidth = 4;
+    ctx.beginPath(); ctx.ellipse(x, y, PROST.rx * S * k + 4, PROST.ry * S * k + 4, 0, 0, 7); ctx.stroke(); ctx.restore(); }
+}
+// rótulo con línea guía
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function catheter(path, s0, s1, a, dashed) {
+  if (a <= 0 || s1 <= s0) return; ctx.save(); ctx.globalAlpha = a; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  if (dashed) ctx.setLineDash([10, 7]);
+  path.stroke(ctx, s0, s1, 9, '#56616E'); path.stroke(ctx, s0, s1, 6, '#EEF2F5'); ctx.setLineDash([]);
+  ctx.globalAlpha = a * 0.7; path.stroke(ctx, s0, s1, 1.6, '#FFFFFF', -1.5);
+  const [x, y] = path.at(s1); ctx.globalAlpha = a; ctx.fillStyle = '#EEF2F5'; ctx.strokeStyle = '#56616E'; ctx.lineWidth = 1.5;
+  ctx.beginPath(); ctx.arc(x, y, 4.2, 0, 7); ctx.fill(); ctx.stroke(); ctx.restore();
+}
+function urineFlow(path, s0, s1, t, a, n = 9, sp = 0.5) {
+  if (a <= 0) return; for (let i = 0; i < n; i++) { const u = ((t * sp) + i / n) % 1, s = lerp(s1, s0, u); const [x, y] = path.at(s);
+    ctx.globalAlpha = a * Math.min(1, u * 6, (1 - u) * 6); ctx.fillStyle = '#F7C531'; ctx.beginPath(); ctx.arc(x, y, 3.2, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+}
+function balloon(cx, cy, r, a) {
+  if (a <= 0 || r <= 0.5) return; ctx.save(); ctx.globalAlpha = a;
+  const g = ctx.createRadialGradient(cx - r * 0.35, cy - r * 0.4, r * 0.1, cx, cy, r);
+  g.addColorStop(0, 'rgba(255,255,255,0.95)'); g.addColorStop(0.7, 'rgba(214,228,238,0.85)'); g.addColorStop(1, 'rgba(150,170,186,0.9)');
+  ctx.fillStyle = g; ctx.beginPath(); ctx.arc(cx, cy, r, 0, 7); ctx.fill(); ctx.strokeStyle = '#56616E'; ctx.lineWidth = 1.5; ctx.stroke(); ctx.restore();
+}
+function drop(x, y, a, col) { if (a <= 0) return; ctx.globalAlpha = a; ctx.fillStyle = col; ctx.beginPath(); ctx.moveTo(x, y - 7); ctx.quadraticCurveTo(x + 5.5, y + 1.5, x, y + 5); ctx.quadraticCurveTo(x - 5.5, y + 1.5, x, y - 7); ctx.fill(); ctx.globalAlpha = 1; }
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right'); }
+function bars(t, a, vej, evac) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; rrect(620, 284, 620, 150, 16, '#161B22');
+  K.bar(644, 324, 572, 'Orina en la vejiga', vej, 1600, 'mL', vej > 900 ? C.AMBER : C.GREEN, [], fmtN);
+  K.bar(644, 390, 572, 'Orina evacuada por la sonda', evac, 1600, 'mL', evac > 1000 ? C.RED : C.BLUE, [[1000, '1.000']], fmtN);
+  ctx.restore();
+}
+
+// ---------- A1: retención por HPB y sonda Foley ----------
+function foley(t) {
+  K.title('Retención aguda: sonda Foley', 'Sin trauma, la vejiga se vacía por la uretra', C.AMBER);
+  lamina(seg(t, 0, 0.7));
+  const kp = 1 + 0.13 * ease(seg(t, 1, 3));                                   // la próstata crece
+  const dist = ease(seg(t, 1.5, 4.5)) * (1 - ease(seg(t, 17, 6)));            // globo vesical
+  bladder(1 + 0.1 * dist, 1 + 0.22 * dist, dist, 1 - 0.93 * ease(seg(t, 17, 6.2)));
+  prostate(kp, fade(t, 1, 7.5) * (0.6 + 0.4 * Math.sin(t * 4)));
+  const U = urethra(kp), sNeck = sOf(U, NECK);
+  // la uretra prostática estrechada
+  if (t > 2.5 && t < 8) { ctx.save(); ctx.globalAlpha = fade(t, 2.5, 7.5); const [x, y] = U.at(lerp(sNeck, sOf(U, [718, 740]), 0.45));
+    ctx.strokeStyle = C.RED; ctx.lineWidth = 3.5; ctx.lineCap = 'round';
+    for (const sx of [-1, 1]) { ctx.beginPath(); ctx.moveTo(x + sx * 26, y); ctx.lineTo(x + sx * 9, y); ctx.moveTo(x + sx * 15, y - 6); ctx.lineTo(x + sx * 9, y); ctx.lineTo(x + sx * 15, y + 6); ctx.stroke(); }
+    ctx.restore(); }
+  label('Próstata grande', 530, 345, C.AMBER, ...P(790, 640), fade(t, 1.3, 7.5));
+  label('Globo vesical: sobrepasa el pubis', 300, 150, '#F7C531', ...P(470, 300), fade(t, 3.6, 9));
+  label('Pubis', 92, 420, '#D9D2C3', ...P(318, 600), fade(t, 4.2, 9));
+  // lidocaína en jalea a lo largo de la uretra
+  const gel = fade(t, 7, 9.5, 0.6); if (gel > 0) { ctx.save(); ctx.globalAlpha = 0.55 * gel; ctx.lineCap = 'round'; U.stroke(ctx, 0.03, sNeck, 13, '#7FC8FF'); ctx.restore(); }
+  label('Lidocaína en jalea', 190, 640, '#7FC8FF', ...U.at(0.12), fade(t, 7.2, 9.4));
+  // la sonda avanza del meato a la vejiga
+  const sTip = lerp(0, 1, ease(seg(t, 8.3, 4.7)));
+  catheter(U, 0, sTip, seg(t, 8, 0.4));
+  // primero orina...
+  urineFlow(U, 0, 1, t, seg(t, 13.1, 0.5));
+  label('1. Primero sale orina', 190, 640, '#F7C531', ...U.at(0.06), fade(t, 13.3, 16.4));
+  // ...después el balón
+  const [bx, by] = P(677, 566);
+  balloon(bx, by, 13 * ease(seg(t, 16.2, 1.3)), seg(t, 16.2, 0.2));
+  label('2. Después, el balón con agua bidestilada', 330, 212, '#DDE7EE', bx + 6, by - 10, fade(t, 16.4, 20.5));
+  label('Descompresión continua, sin clampeo', 330, 212, C.GREEN, bx + 6, by - 10, seg(t, 20.5, 0.5));
+  // panel
+  K.card(620, 140, 620, 128, C.AMBER, 'Retención aguda de orina', ['Próstata grande: la uretra se estrecha', 'Globo vesical doloroso y mate sobre el pubis'], seg(t, 1.6, 0.5), 17);
+  const vej = lerp(450, 1450, ease(seg(t, 1.5, 4.5))) - 1400 * ease(seg(t, 16.8, 6.2));
+  bars(t, seg(t, 2, 0.5), Math.max(50, vej), 1400 * ease(seg(t, 16.8, 6.2)));
+  K.card(620, 450, 620, 128, C.BLUE, 'Sin trauma: sonda Foley 16 a 18 Fr', ['Lidocaína en jalea al 2 %, avanzar sin forzar', 'Primero orina, después el balón'], seg(t, 7.6, 0.5), 17);
+  K.banner(620, 598, 620, 'Más de 1.000 mL: vigilar la diuresis postobstructiva', C.RED, seg(t, 20.8, 0.5));
+}
+
+// ---------- A2: trauma uretral → cistostomía por punción ----------
+function cistostomia(t) {
+  K.title('Trauma uretral: cistostomía', 'Sangre en el meato: no se sonda, se punciona sobre el pubis', C.RED);
+  lamina(seg(t, 0, 0.7));
+  const dist = 1 - ease(seg(t, 15.5, 6.5));
+  bladder(1 + 0.1 * dist, 1 + 0.22 * dist, dist, 1 - 0.9 * ease(seg(t, 15.5, 6.7)));
+  const U = urethra(1), sTear = sOf(U, TEAR);
+  // fractura de pelvis
+  const fr = seg(t, 1, 0.8);
+  if (fr > 0) { ctx.save(); clipLamina(); ctx.strokeStyle = C.RED; ctx.lineWidth = 3.5; ctx.lineJoin = 'round'; ctx.beginPath();
+    const pts = [[352, 548], [338, 578], [356, 600], [334, 632], [352, 660], [338, 700]].map(p => P(...p)); const n = Math.max(1, Math.round(fr * (pts.length - 1)));
+    pts.slice(0, n + 1).forEach(([x, y], i) => i ? ctx.lineTo(x, y) : ctx.moveTo(x, y)); ctx.stroke(); ctx.restore(); }
+  label('Fractura de pelvis', 110, 470, C.RED, ...P(345, 640), fade(t, 1.3, 10.5));
+  // desgarro de la uretra (se agranda si se intenta sondar)
+  const tear = seg(t, 2, 0.8), widen = ease(seg(t, 8.2, 1.2)); const [tx, ty] = P(...TEAR);
+  if (tear > 0) { ctx.save(); ctx.globalAlpha = tear; K.glow(tx, ty, 22 + 10 * widen, '255,60,50', 0.55);
+    ctx.strokeStyle = '#B3122E'; ctx.lineWidth = 3 + 2 * widen; ctx.beginPath();
+    [[-9, -10], [-3, -3], [-8, 2], [-1, 8], [-5, 13]].forEach(([x, y], i) => { const X = tx + x * (1 + widen * 0.6), Y = ty + y * (1 + widen * 0.6); i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); });
+    ctx.stroke(); ctx.restore(); }
+  label('Desgarro de la uretra', 520, 470, C.RED, tx + 8, ty, fade(t, 2.3, 10.5));
+  // sangre que baja por la uretra hasta el meato
+  const bl = seg(t, 3, 0.5) * (1 - 0.5 * seg(t, 10.5, 1)); if (bl > 0) { for (let i = 0; i < 8; i++) { const u = ((t * 0.32) + i / 8) % 1, [x, y] = U.at(lerp(sTear, 0.05, u)); ctx.globalAlpha = bl * Math.min(1, u * 6, (1 - u) * 6); ctx.fillStyle = '#C8102E'; ctx.beginPath(); ctx.arc(x, y, 3.4, 0, 7); ctx.fill(); }
+    ctx.globalAlpha = 1; const [mx, my] = U.at(0.05); for (let i = 0; i < 3; i++) { const u = ((t * 0.7) + i / 3) % 1; drop(mx - 4 - 6 * u, my + 4 + 22 * u, bl * (1 - u), '#C8102E'); } }
+  label('Sangre en el meato', 200, 640, C.RED, ...U.at(0.06), fade(t, 3.6, 10.5));
+  // hematoma perineal
+  const hm = seg(t, 4.2, 1.2); if (hm > 0) { ctx.save(); clipLamina(); K.glow(...P(640, 915), 62 * hm, '150,20,40', 0.75 * hm); ctx.restore(); }
+  label('Hematoma perineal', 500, 590, '#E0607A', ...P(650, 905), fade(t, 4.6, 10.5));
+  // la sonda a ciegas: se detiene en el desgarro
+  const gA = fade(t, 6, 9.8, 0.4), gS = lerp(0, sTear, ease(seg(t, 6.2, 2))) ;
+  catheter(U, 0, gS, gA * 0.8, true);
+  const xA = fade(t, 8.3, 10.4, 0.3); if (xA > 0) { ctx.save(); ctx.globalAlpha = xA; ctx.strokeStyle = C.RED; ctx.lineWidth = 6; ctx.lineCap = 'round';
+    const r = 16; ctx.beginPath(); ctx.moveTo(tx - r - 18, ty - r - 22); ctx.lineTo(tx + r - 18, ty + r - 22); ctx.moveTo(tx + r - 18, ty - r - 22); ctx.lineTo(tx - r - 18, ty + r - 22); ctx.stroke(); ctx.restore(); }
+  label('Sonda a ciegas: completa el desgarro', 330, 545, C.RED, tx - 18, ty - 22, fade(t, 8.5, 10.5));
+  // punción suprapúbica
+  const [ex, ey] = P(...SKIN), tip0 = P(150, 452), tip1 = P(430, 482), hub = P(60, 446);
+  const pin = ease(seg(t, 11, 2.6)), pout = ease(seg(t, 14, 1));
+  const tip = [lerp(tip0[0], tip1[0], pin), lerp(tip0[1], tip1[1], pin)];
+  const trA = seg(t, 10.8, 0.4) * (1 - pout);
+  if (trA > 0) { ctx.save(); clipLamina(); ctx.globalAlpha = trA; ctx.lineCap = 'round';
+    const back = [tip[0] - (tip1[0] - hub[0]), tip[1] - (tip1[1] - hub[1])];
+    ctx.strokeStyle = '#4A525C'; ctx.lineWidth = 7; ctx.beginPath(); ctx.moveTo(...back); ctx.lineTo(...tip); ctx.stroke();
+    ctx.strokeStyle = '#C9D1D9'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(...back); ctx.lineTo(...tip); ctx.stroke();
+    ctx.fillStyle = '#2E7DD7'; ctx.save(); ctx.translate(...back); ctx.rotate(Math.atan2(tip1[1] - hub[1], tip1[0] - hub[0])); rrect(-26, -9, 30, 18, 4, '#2E7DD7'); ctx.restore();
+    ctx.restore(); }
+  // queda la sonda de cistostomía con su balón
+  const tubeA = seg(t, 13.8, 0.6); const tubeEnd = P(415, 480), tubeOut = P(0, 430);
+  const T = poly([[DST.x - 4, tubeOut[1] - 6], [DST.x + 30, tubeOut[1] + 6], [ex, ey], tubeEnd]);
+  catheter(T, 0, 1, tubeA);
+  balloon(tubeEnd[0] + 4, tubeEnd[1] + 1, 9 * ease(seg(t, 14.6, 1)), tubeA);
+  urineFlow(T, 0, 0.97, t, seg(t, 15.4, 0.5) * (1 - seg(t, 23, 1)), 7, 0.6);
+  // 2 a 3 cm sobre el pubis
+  const brA = fade(t, 11.2, 18.5); if (brA > 0) { const top = ey, bot = P(330, 548)[1], x = ex - 22; ctx.save(); ctx.globalAlpha = brA; ctx.strokeStyle = C.GREEN; ctx.lineWidth = 2.5;
+    ctx.beginPath(); ctx.moveTo(x - 6, top); ctx.lineTo(x + 6, top); ctx.moveTo(x, top); ctx.lineTo(x, bot); ctx.moveTo(x - 6, bot); ctx.lineTo(x + 6, bot); ctx.stroke(); ctx.restore();
+    ctx.globalAlpha = brA; tag('2 a 3 cm', x - 2, bot + 24, C.GREEN, 14); ctx.globalAlpha = 1; }
+  label('Globo vesical: la vejiga llena aleja el intestino', 300, 150, '#F7C531', ...P(520, 300), fade(t, 11.6, 16.5));
+  label('Orina por la cistostomía', 300, 150, C.GREEN, ...T.at(0.3), seg(t, 16.5, 0.5) * (1 - seg(t, 23.5, 0.5)));
+  // panel
+  K.card(620, 140, 620, 146, C.RED, 'Sospecha de trauma uretral', ['Sangre en el meato (uretrorragia)', 'Hematoma perineal o escrotal', 'Fractura de pelvis'], seg(t, 1.2, 0.5), 17);
+  K.card(620, 300, 620, 122, C.RED, 'No pasar la sonda Foley', ['A ciegas, un desgarro parcial', 'se puede volver una sección completa'], seg(t, 7.2, 0.5), 17);
+  K.card(620, 436, 620, 150, C.GREEN, 'Cistostomía suprapúbica por punción', ['Línea media, 2 a 3 cm sobre el pubis', 'Solo con globo palpable o vejiga llena en la eco', 'Aspirar orina antes de avanzar el trócar'], seg(t, 11, 0.5), 17);
+  K.banner(620, 600, 620, 'Después: uretrocistografía retrógrada', C.AMBER, seg(t, 19.5, 0.5));
+}
+
+</script>
+<script src="uro_ilus.js"></script>
+<script>
+// escenas de uro_ilus.js (ilustración real + capas animadas): ?v=calculo, hpb, ...
+const SCN = Object.assign({ foley: { f: foley, dur: 25 }, cistostomia: { f: cistostomia, dur: 26 } }, window.URO_EXTRA || {});
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); (SCN[V].credit || credit)(); };
+LOAD(Object.assign({ pel: '../assets/blausen/pelvis_masculina_sagital.png' }, window.URO_IMGS || {}));
+</script>
+</body></html>

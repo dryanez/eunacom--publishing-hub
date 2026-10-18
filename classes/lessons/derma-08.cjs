@@ -38,7 +38,8 @@ module.exports = {
         { show: ['mas', 'vas'], note: 'El mecanismo mastocitario',
           say: 'El habón de la urticaria se produce por la degranulación de mastocitos dérmicos, que liberan histamina, leucotrienos y prostaglandinas. Eso induce vasodilatación arteriolar y aumento transitorio de la permeabilidad capilar, con edema de la dermis papilar y media.' },
         { show: ['hab'], note: 'La lesión elemental',
-          say: 'El resultado es el habón o roncha: una lesión sobreelevada, eritematosa, muy pruriginosa, con un halo pálido característico.' },
+          say: 'El resultado es el habón o roncha: una lesión sobreelevada, eritematosa, muy pruriginosa, con un halo pálido característico. Mira estos habones: elevaciones rosadas, de bordes geográficos y centro más pálido, que duran menos de veinticuatro horas.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-08/01_habones__cto-derma_p49.jpg', label: 'Habones', at: 'Mira estos habones', credit: 'Manual CTO Dermatología 14.ª ed., p. 49' } },
         { show: ['eva'], note: 'El criterio patognomónico absoluto de examen',
           say: 'Y aquí está el criterio que define todo: cada habón individual aparece en minutos, dura entre media hora y pocas horas, y desaparece por completo en menos de veinticuatro horas, sin dejar huella ni cicatriz. Ese carácter evanescente es lo que hay que confirmar siempre.' },
         { show: ['fij'], note: 'La regla de oro que descarta urticaria común',
@@ -53,7 +54,8 @@ module.exports = {
       cards: [
         { title: 'Angioedema', tag: 'Dermis profunda y submucosas', kind: 'criteria', items: [
           { t: 'Tumefacción tensa de párpados, labios o lengua', d: 'Sensación de tensión o dolor, más que prurito',
-            say: 'El angioedema es el mismo proceso, pero originado en la dermis profunda, el tejido celular subcutáneo y las submucosas. Se ve como una tumefacción difusa, tensa y deformante de párpados, labios, lengua o genitales, con sensación de tensión o dolor, más que prurito, y tarda de dos a tres días en reabsorberse.' },
+            say: 'El angioedema es el mismo proceso, pero originado en la dermis profunda, el tejido celular subcutáneo y las submucosas. Se ve como una tumefacción difusa, tensa y deformante de párpados, labios, lengua o genitales, con sensación de tensión o dolor, más que prurito, y tarda de dos a tres días en reabsorberse. Mira a este paciente: los labios hinchados, tensos y brillantes, sin la ronchita rosada de la urticaria.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-08/02_angioedema__cto-derma_p50.jpg', label: 'Angioedema labial', at: 'Mira a este paciente', credit: 'Manual CTO Dermatología 14.ª ed., p. 50' } },
         ] },
         { title: 'Banderas rojas de anafilaxia', tag: 'Emergencia vital', kind: 'alert', items: [
           { t: 'Compromiso respiratorio o hemodinámico', d: 'Estridor, disnea, hipotensión, síncope',
@@ -87,23 +89,6 @@ module.exports = {
           { t: 'Nunca como mantenimiento crónico', d: 'Solo ciclos ultracortos de rescate',
             say: 'Y la trampa grave de examen: los corticoides orales nunca se usan como tratamiento de mantenimiento en la urticaria crónica. Solo se permiten ciclos ultracortos, de máximo tres a cinco días, como rescate en una exacerbación aguda severa.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Urticaria y angioedema',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-08/01_habones__cto-derma_p49.jpg', label: 'Habones', credit: 'Manual CTO Dermatología 14.ª ed., p. 49' },
-        { src: 'biblioteca/11_dermatologia/derma-08/02_angioedema__cto-derma_p50.jpg', label: 'Angioedema', credit: 'Manual CTO Dermatología 14.ª ed., p. 50' },
-      ],
-      steps: [
-        { note: 'Duran menos de un día',
-          say: 'Los habones son elevaciones rosadas que duran menos de veinticuatro horas.' },
-        { note: 'Edema profundo',
-          say: 'Y el angioedema es más profundo: hincha labios y párpados. Si compromete la vía aérea, adrenalina.' },
       ],
     },
 
@@ -196,6 +181,120 @@ module.exports = {
         options: 'Las opciones: adrenalina intramuscular, difenhidramina endovenosa, hidrocortisona endovenosa, clorfenamina oral, o salbutamol inhalado. Piénsalo.',
         answer: 'Es la A, adrenalina intramuscular. Habones más angioedema de labios, taquicardia y dolor abdominal son las banderas rojas de anafilaxia que vimos hoy: hay compromiso hemodinámico y digestivo, no solo cutáneo. El tratamiento inicial inmediato es siempre la adrenalina intramuscular. Los antihistamínicos y los corticoides son fármacos secundarios, que tardan horas en actuar y nunca sustituyen a la adrenalina en este escenario.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.2.001 · Angioedema de Quinque",
+      "stem": "Hombre de 28 años consulta 30 minutos después de comer mariscos por hinchazón progresiva de labios y lengua, con voz ronca y sensación de cierre de la garganta. Presión arterial 118/76, frecuencia cardíaca 104, saturación 95%. No tiene habones.",
+      "question": "¿Cuál es la conducta inmediata más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clorfenamina oral y observación"
+        },
+        {
+          "letter": "B",
+          "text": "Inhibidor C1 esterasa endovenoso"
+        },
+        {
+          "letter": "C",
+          "text": "Prednisona oral y control al día siguiente"
+        },
+        {
+          "letter": "D",
+          "text": "Adrenalina 0,5 mg intramuscular en la cara anterolateral del muslo"
+        },
+        {
+          "letter": "E",
+          "text": "Alta con loratadina por 7 días"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Angioedema alérgico de labios y lengua con disfonía y sensación de cierre faríngeo indica compromiso de la vía aérea: es una emergencia. El tratamiento inmediato es adrenalina intramuscular, 0,5 mg en el adulto, en el muslo, repetible a los 5 a 15 minutos. Antihistamínicos y corticoides son coadyuvantes y no la reemplazan.",
+      "say": {
+        "stem": "Hombre de veintiocho años que, media hora después de comer mariscos, nota hinchazón progresiva de labios y lengua, con voz ronca y sensación de que se le cierra la garganta. Está con presión normal, algo taquicárdico, y no tiene ronchas.",
+        "question": "¿Cuál es la conducta inmediata más adecuada?",
+        "options": "Las opciones: clorfenamina oral, inhibidor de C uno esterasa, prednisona oral, adrenalina intramuscular en el muslo o alta con loratadina. Piénsalo.",
+        "answer": "Es la D. Lengua hinchada con voz ronca es vía aérea en riesgo, y eso se trata con adrenalina intramuscular de inmediato. La clorfenamina tienta porque es una reacción alérgica, pero demora y no revierte el edema laríngeo; el inhibidor de C uno es para el angioedema hereditario, que no se gatilla con alimentos."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Agosto 2021 · Pregunta 34",
+      "stem": "Un niño de 4 años presenta ronchas evanescentes en el tronco y las extremidades desde hace 4 días. Además, desde hace algunos días presentaba congestión nasal, con coriza y estornudos. Al examen físico se observan habones en el tórax y dermografismo en las extremidades inferiores.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Indicar corticoides orales"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar prick test"
+        },
+        {
+          "letter": "C",
+          "text": "Indicar antihistamínicos orales"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar IgE sérica total"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar test de parches"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Habones evanescentes de pocos días en un niño con un cuadro viral reciente corresponden a urticaria aguda, cuya causa más frecuente en pediatría son las infecciones virales. El tratamiento es antihistamínico H1 oral de segunda generación (ej. cetirizina). No requiere estudio alérgico; los corticoides quedan para casos graves o refractarios.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Un niño de cuatro años tiene ronchas evanescentes en tronco y extremidades hace cuatro días, después de un resfrío, con habones y dermografismo.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: corticoides orales, prick test, antihistamínicos orales, inmunoglobulina E total o test de parches. Piénsalo.",
+        "answer": "Es la C. Es una urticaria aguda, probablemente gatillada por el virus, y se trata con antihistamínicos orales. El prick test tienta para buscar un alérgeno, pero la urticaria aguda no requiere estudio alérgico."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.2.016 · Urticaria y angioedema",
+      "stem": "Mujer de 30 años presenta, 1 hora después de tomar ibuprofeno, habones pruriginosos generalizados y edema de labios y párpados. No tiene disfonía, estridor, disnea, sibilancias, vómitos ni hipotensión. PA 120/75 mmHg, saturación 98%.",
+      "question": "¿Cuál es el manejo más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adrenalina intramuscular y hospitalización en UCI"
+        },
+        {
+          "letter": "B",
+          "text": "Concentrado de inhibidor de C1 esterasa"
+        },
+        {
+          "letter": "C",
+          "text": "Intubación orotraqueal profiláctica"
+        },
+        {
+          "letter": "D",
+          "text": "Suspender el AINE, antihistamínico H1 de segunda generación y eventual curso corto de corticoide oral, con observación y educación sobre signos de anafilaxia"
+        },
+        {
+          "letter": "E",
+          "text": "Antibiótico oral"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Urticaria aguda con angioedema sin compromiso de vía aérea, respiratorio, digestivo ni hemodinámico no es anafilaxia: se suspende el desencadenante y se indican antihistamínicos H1 de segunda generación (pueden aumentarse hasta 4 veces la dosis), con corticoide oral breve si es extensa. La adrenalina IM se reserva para anafilaxia o angioedema laríngeo.",
+      "say": {
+        "stem": "Mujer de treinta años con ronchas generalizadas y edema de labios y párpados una hora después de tomar ibuprofeno, sin dificultad respiratoria, sin estridor y con presión normal.",
+        "question": "¿Cuál es el manejo más adecuado?",
+        "options": "Las opciones: adrenalina intramuscular con UCI, inhibidor de C uno esterasa, intubación, suspender el antiinflamatorio con antihistamínico y eventual corticoide oral o antibiótico. Piénsalo.",
+        "answer": "Es la D. Sin compromiso de vía aérea ni hemodinámico no es anafilaxia, así que basta suspender el fármaco y dar antihistamínicos. La adrenalina tienta por el edema de labios, pero se reserva para anafilaxia o edema de laringe."
+      }
     },
 
     {

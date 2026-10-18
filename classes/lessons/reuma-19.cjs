@@ -63,13 +63,18 @@ module.exports = {
       cards: [
         { title: "Balanitis circinada en genitales", tag: "Erosiones no dolorosas en el glande", kind: "key", items: [
           { t: "Erosiones superficiales serpiginosas", d: "Placas eritematosas con borde sobreelevado en prepucio",
-            say: "La balanitis circinada consiste en pequeñas vesículas o erosiones eritematosas superficiales no dolorosas que confluyen formando placas serpiginosas en el glande y surco balanoprepucial, siendo un signo altamente orientador." },
+            say: "La balanitis circinada consiste en pequeñas vesículas o erosiones eritematosas superficiales no dolorosas que confluyen formando placas serpiginosas en el glande y surco balanoprepucial, siendo un signo altamente orientador. Mira esta lesión en el glande: erosiones rojas, superficiales y sin dolor.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_1__amir-reuma_p83.jpg', label: 'Balanitis circinada', at: 'Mira esta lesión', credit: 'Manual AMIR Reumatología, p. 83' } },
           { t: "Indolora y autolimitada", d: "Diferente de las úlceras dolorosas de herpes",
             say: "A diferencia de las lesiones dolorosas causadas por el virus herpes simple, la balanitis circinada es indolora para el enfermo y suele pasar inadvertida a menos que el médico examine prolijamente la zona genital." },
         ] },
         { title: "Queratodermia blenorrágica palmoplantar", tag: "Placas hiperqueratósicas costrosas", kind: "alert", items: [
           { t: "Lesiones pustulo-costrosas en palmas y plantas", d: "Pápulas amarillentas que semejan psoriasis pustulosa",
-            say: "La queratodermia blenorrágica se caracteriza por pápulas o placas hiperqueratósicas amarillentas con centro costroso localizadas en las palmas de las manos y plantas de los pies, histológicamente idénticas a la psoriasis." },
+            say: "La queratodermia blenorrágica se caracteriza por pápulas o placas hiperqueratósicas amarillentas con centro costroso localizadas en las palmas de las manos y plantas de los pies, histológicamente idénticas a la psoriasis. Mira estas plantas: las pápulas con costra, y aquí otro paciente con las mismas lesiones.",
+          photos: [
+            { src: 'biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_2__amir-reuma_p83.jpg', label: 'Queratodermia plantar', at: 'Mira estas plantas', credit: 'Manual AMIR Reumatología, p. 83' },
+            { src: 'biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_alt1__cto-reuma_p40.jpg', label: 'Queratodermia: otro caso', at: 'aquí otro paciente', credit: 'Manual CTO Reumatología 14.ª ed., p. 40' },
+          ] },
           { t: "Aftas orales asintomáticas", d: "Úlceras superficiales en mucosa oral y lengua",
             say: "Muchos pacientes presentan además pequeñas erosiones o aftas superficiales no dolorosas en la mucosa del paladar duro y lengua, que curan espontáneamente sin dejar cicatrización residual." },
         ] },
@@ -140,6 +145,69 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Primero la infección, después la artritis',
+      images: [
+        { src: 'animaciones/reuma-19/A1_latencia_reactiva.mp4', label: 'Línea de tiempo de la artritis reactiva', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Línea de tiempo',
+          say: 'Mira la línea del tiempo. Primero la infección, urogenital o digestiva, que se resuelve. Después, entre una y cuatro semanas de latencia inmune, aparece una artritis estéril en una persona con HLA B veintisiete: el líquido está inflamado, pero el cultivo es negativo. Dura de tres a seis meses y se trata con antiinflamatorios, y con sulfasalazina si pasa de tres meses. Ante un joven con derrame, igual se punciona siempre, para descartar una artritis séptica gonocócica.' },
+      ],
+    },
+
+    {
+      type: "table",
+      kicker: "Oligoartritis",
+      title: "Oligoartritis: el patrón orienta la causa",
+      head: ["Patrón", "Orienta a", "Qué pedir o hacer"],
+      rows: [
+        { cells: ["Asimétrica de piernas, entesitis, dactilitis, uretritis o diarrea previa", "Espondiloartritis o reactiva", "HLA-B27 y radiografías"],
+          say: "Ante una oligoartritis, de dos a cuatro articulaciones, lo primero es la artrocentesis, para descartar infección y cristales. Después se agrupa por patrón. Asimétrica de las piernas, con entesitis, dactilitis, lumbago inflamatorio, y una uretritis o diarrea previa: espondiloartritis, artritis reactiva, psoriásica o asociada a enfermedad intestinal, con HLA B veintisiete." },
+        { cells: ["Migratoria con tenosinovitis y pústulas, adulto joven activo sexualmente", "Infección gonocócica diseminada", "Cultivos de uretra, cérvix, faringe y recto"],
+          say: "Migratoria, con tenosinovitis y lesiones pustulosas, en un adulto joven sexualmente activo: infección gonocócica diseminada, con cultivos de uretra, cérvix, faringe y recto. Mira estas lesiones: pústulas hemorrágicas en la punta de los dedos y en la piel.",
+          photo: { src: "_verificadas/349_reuma_Artritis_reactiva__HarrisonsP_p1279_1.jpg", label: "Gonococcemia diseminada", at: "Mira estas lesiones", credit: "Harrison, Principios de Medicina Interna, 21.ª ed., p. 1279" } },
+        { cells: ["Migratoria de grandes articulaciones tras faringitis", "Fiebre reumática", "Criterios de Jones"],
+          say: "Migratoria de grandes articulaciones después de una faringitis estreptocócica: fiebre reumática, con los criterios de Jones." },
+        { cells: ["Pocas articulaciones con uveítis en un niño", "AIJ oligoarticular", "ANA y lámpara de hendidura"],
+          say: "Pocas articulaciones con uveítis en una niña o un niño: artritis idiopática juvenil oligoarticular." },
+        { cells: ["Eritema nodoso con adenopatías hiliares y tobillos", "Síndrome de Löfgren: sarcoidosis", "Radiografía de tórax"],
+          say: "Eritema nodoso con adenopatías hiliares y artritis de los tobillos: síndrome de Löfgren, de la sarcoidosis. Mira esas piernas: los nódulos rojos y dolorosos son el eritema nodoso.",
+          photo: { src: "biblioteca/08_reumatologia/reuma-19/10_eritema-nodoso__fitzpatrick_p611.jpg", label: "Eritema nodoso", at: "Mira esas piernas", credit: "Fitzpatrick, Dermatology in General Medicine, Fig. 68-4" } },
+        { cells: ["Gota, pseudogota o artrosis con derrame", "Cristales o mecánica", "Líquido sinovial"],
+          say: "Y no olvides la gota, la pseudogota y la artrosis con derrame. El estudio incluye hemograma, velocidad de sedimentación, proteína C reactiva, ácido úrico, HLA B veintisiete, VIH, VDRL y radiografías. El tratamiento inicial son antiinflamatorios y reposo relativo, con infiltración de corticoide solo si se descartó infección." },
+      ],
+    },
+
+    {
+      type: "points",
+      kicker: "ITS en atención primaria",
+      title: "Manejo sindrómico de las infecciones de transmisión sexual",
+      cards: [
+        { title: "Flujo uretral y cervicitis", tag: "Cubrir gonorrea y clamidia", kind: "pharma", items: [
+          { t: "Ceftriaxona IM más azitromicina 1 g", d: "O doxiciclina 100 mg cada 12 h por 7 días",
+            say: "La norma del Minsal trata en la primera consulta con los agentes más probables, sin esperar el laboratorio. En el flujo uretral y la cervicitis se cubren gonorrea y clamidia: ceftriaxona intramuscular en dosis única más azitromicina un gramo oral en dosis única, o doxiciclina cien miligramos cada doce horas por siete días." },
+        ] },
+        { title: "Úlcera genital y flujo vaginal", tag: "Según el síndrome", kind: "criteria", items: [
+          { t: "Úlcera: sífilis y herpes", d: "Penicilina benzatina 2,4 millones UI; aciclovir 400 mg cada 8 h",
+            say: "En la úlcera genital se cubren la sífilis, con penicilina benzatina dos coma cuatro millones de unidades en dosis única en la sífilis primaria, y el herpes genital, con aciclovir cuatrocientos miligramos cada ocho horas por siete a diez días en el primer episodio. Si hay chancroide, azitromicina un gramo." },
+          { t: "Flujo vaginal y dolor abdominal bajo", d: "Metronidazol, clotrimazol o fluconazol; EPI: esquema amplio",
+            say: "En el flujo vaginal: metronidazol en la tricomoniasis y la vaginosis bacteriana, y clotrimazol o fluconazol en la candidiasis. En el dolor abdominal bajo con sospecha de enfermedad inflamatoria pélvica, un esquema que cubra gonococo, clamidia y anaerobios." },
+        ] },
+        { title: "Pilares de toda ITS", tag: "Seguimiento", kind: "key", items: [
+          { t: "Consejería, preservativo y parejas", d: "Parejas de los últimos 2 a 3 meses",
+            say: "Todo manejo incluye consejería y preservativo, y estudio y tratamiento de las parejas sexuales de los últimos dos a tres meses. También tamizaje del resto de las infecciones: VIH, VDRL y hepatitis B." },
+          { t: "Abstinencia 7 días y notificación", d: "Gonorrea, sífilis y VIH; vacunas hepatitis B y VPH",
+            say: "Abstinencia hasta siete días después de completar el tratamiento, notificación obligatoria de gonorrea, sífilis y VIH, entre otras, y vacunación contra hepatitis B y virus del papiloma humano." },
+          { t: "Control de sífilis y clamidia", d: "VDRL a 3, 6 y 12 meses; clamidia a los 3 meses",
+            say: "En la sífilis se controla el VDRL cuantitativo a los tres, seis y doce meses, y se espera una caída de cuatro veces o más en seis a doce meses; en la gestante el tratamiento es urgente para prevenir la sífilis congénita. La clamidia se vuelve a buscar a los tres meses por la alta tasa de reinfección. Sin tratamiento, hay riesgo de enfermedad inflamatoria pélvica, infertilidad, embarazo ectópico, artritis reactiva e infección gonocócica diseminada." },
+        ] },
+      ],
+    },
+
+    {
       type: "table",
       kicker: "Trampas EUNACOM",
       title: "Espectro Clínico del Síndrome de Reiter / Artritis Reactiva",
@@ -153,36 +221,6 @@ module.exports = {
           say: "Ocular: conjuntivitis estéril leve o uveítis anterior aguda unilateral dolorosa con fotofobia." },
         { cells: ["Cutáneo y Mucoso", "Balanitis circinada y queratodermia", "Erosiones en glande y placas queratósicas en plantas"],
           say: "Cutáneo y mucoso: balanitis circinada indolora en glande y queratodermia descamativa en plantas de pies." },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Artritis reactiva: la piel y las mucosas',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_1__amir-reuma_p83.jpg', label: 'Balanitis circinada', credit: 'Manual AMIR Reumatología, p. 83' },
-        { src: 'biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_alt1__cto-reuma_p40.jpg', label: 'Queratodermia blenorrágica', credit: 'Manual CTO Reumatología 14.ª ed., p. 40' },
-      ],
-      steps: [
-        { note: 'Erosiones indoloras en el glande',
-          say: 'Esta es la balanitis circinada: erosiones rojas y superficiales en el glande. No duele, y por eso pasa inadvertida si no se examina la zona genital.' },
-        { note: 'Placas hiperqueratósicas en las plantas',
-          say: 'Y esta es la queratodermia blenorrágica: placas engrosadas y descamativas en las plantas de los pies. Junto con la balanitis, confirman la artritis reactiva.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_2__amir-reuma_p83.jpg', label: 'Queratodermia blenorrágica', credit: 'Manual AMIR Reumatología, p. 83' },
-      ],
-      steps: [
-        { note: 'Queratodermia blenorrágica',
-          say: 'Otro caso de queratodermia blenorrágica: pápulas y placas con costras en ambas plantas, típicas de la artritis reactiva.' },
       ],
     },
 
@@ -273,6 +311,44 @@ module.exports = {
         options: "Las opciones: Gram con diplococos gramnegativos, líquido inflamatorio pero rigurosamente estéril al cultivo, líquido no inflamatorio mecánico, cristales de urato, o microhemorragias masivas. Piénsalo.",
         answer: "Es la B. El líquido sinovial es francamente inflamatorio pero estéril en los cultivos bacterianos, reflejando una sinovitis reactiva inmunológica mediada a distancia.",
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.11.1.016 · Oligoartritis",
+      "stem": "Mujer de 22 años, sexualmente activa sin preservativo, con 4 días de fiebre de 38,4 °C y poliartralgias migratorias, que evoluciona con artritis de la rodilla derecha y la muñeca izquierda, tenosinovitis dorsal de la mano izquierda y 4 pústulas hemorrágicas en las extremidades. La artrocentesis de rodilla muestra 35.000 leucocitos por mm3 con predominio polimorfonuclear y Gram sin bacterias.",
+      "question": "¿Cuál es el diagnóstico más probable y su tratamiento?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Artritis reactiva; AINEs"
+        },
+        {
+          "letter": "B",
+          "text": "Infección gonocócica diseminada; ceftriaxona endovenosa, estudio de otras ITS y tratamiento de la pareja"
+        },
+        {
+          "letter": "C",
+          "text": "Artritis reumatoide; metotrexato"
+        },
+        {
+          "letter": "D",
+          "text": "Gota; colchicina"
+        },
+        {
+          "letter": "E",
+          "text": "Fiebre reumática; penicilina benzatina"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Oligoartritis asimétrica febril en una joven sexualmente activa, con tenosinovitis y pústulas hemorrágicas, es una infección gonocócica diseminada. El Gram y el cultivo del líquido suelen ser negativos; se cultivan sangre, cuello uterino, recto y faringe. Se trata con ceftriaxona endovenosa. La artritis reactiva aparece semanas después y no da pústulas.",
+      "say": {
+        "stem": "Mujer de veintidós años, sexualmente activa sin preservativo, con cuatro días de fiebre y dolores articulares migratorios, que luego hace artritis de rodilla y muñeca, tenosinovitis en el dorso de la mano y pústulas hemorrágicas en la piel. El líquido articular es inflamatorio y el Gram no muestra bacterias.",
+        "question": "¿Cuál es el diagnóstico más probable y su tratamiento?",
+        "options": "Las opciones: artritis reactiva con antiinflamatorios, gonococia diseminada con ceftriaxona endovenosa, artritis reumatoide con metotrexato, gota con colchicina, o fiebre reumática con penicilina benzatina. Piénsalo.",
+        "answer": "Es la B. Fiebre, tenosinovitis, pústulas en la piel y oligoartritis en una joven sexualmente activa es una gonococia diseminada, y se trata con ceftriaxona endovenosa. La artritis reactiva tienta por el contexto sexual, pero aparece semanas después de la uretritis, es estéril y no da esas pústulas."
+      }
     },
 
     {

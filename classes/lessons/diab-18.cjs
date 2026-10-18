@@ -125,6 +125,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Primero el pinchazo, después se apaga la bomba',
+      images: [
+        { src: 'animaciones/diab-18/A1_traslape_insulina.mp4', label: 'El traslape', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'La endovenosa desaparece en minutos',
+          say: 'La insulina endovenosa desaparece en minutos y la subcutánea tarda una a dos horas en actuar. Si pinchas y apagas la bomba a la vez, queda una ventana sin insulina que reactiva la lipólisis y puede devolver al paciente a la cetoacidosis. Por eso se pincha primero, y una a dos horas después se apaga la bomba.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ordenemos la decisión de apagar la bomba en un solo árbol.',
     },
@@ -217,6 +231,44 @@ module.exports = {
         options: 'La A tiene glicemia doscientos veinte y pH siete coma veintiséis. La B, glicemia ciento ochenta, pH siete coma treinta y dos, bicarbonato diecinueve y anion gap diez. La C, glicemia ciento cuarenta con pH siete coma dieciocho. La D, glicemia noventa y cinco con cetonuria y pH siete coma veinte. Y la E, glicemia doscientos cincuenta con bicarbonato quince. Piénsalo.',
         answer: 'Es la B: glicemia bajo doscientos, pH sobre siete coma treinta, bicarbonato sobre dieciocho y anion gap bajo doce. Cumple todo. Fíjate en la C y la D: tienen las glicemias más bajas de todas, y justamente por eso son los distractores. Siguen acidóticas. Es la misma trampa del caso anterior: la glicemia no define la resolución.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.2.007 · Síndrome hiperosmolar no cetósico",
+      "stem": "Mujer de 76 años con DM2, hospitalizada hace 30 horas por estado hiperglicémico hiperosmolar, con insulina cristalina en infusión endovenosa y suero glucosado. Control actual: glicemia 240 mg/dL, Na 141 mEq/L, osmolaridad efectiva 309 mOsm/L, pH 7,38, K 4,0 mEq/L. Está lúcida, orientada como antes del cuadro, y pide comer.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener la infusión endovenosa hasta lograr glicemia bajo 140 mg/dL"
+        },
+        {
+          "letter": "B",
+          "text": "Administrar insulina basal subcutánea y mantener la infusión endovenosa 1 a 2 horas más antes de suspenderla"
+        },
+        {
+          "letter": "C",
+          "text": "Suspender la bomba y controlar con hemoglucotest sin insulina"
+        },
+        {
+          "letter": "D",
+          "text": "Suspender la bomba y administrar solo insulina cristalina subcutánea según hemoglucotest"
+        },
+        {
+          "letter": "E",
+          "text": "Mantener régimen cero y la infusión por 24 horas más"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El estado hiperosmolar está resuelto: osmolaridad efectiva bajo 315 mOsm/L, glicemia bajo 250–300 mg/dL y paciente lúcida que tolera la vía oral. Se pasa a insulina subcutánea traslapando: se inyecta la basal y la bomba se mantiene 1 a 2 horas, porque la insulina endovenosa dura solo minutos.",
+      "say": {
+        "stem": "Mujer de setenta y seis años, hospitalizada hace treinta horas por un estado hiperosmolar, con insulina en bomba. Ahora su glicemia es doscientos cuarenta, la osmolaridad efectiva trescientos nueve, y está lúcida y pide comer.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: mantener la bomba hasta ciento cuarenta, insulina basal subcutánea con traslape de una a dos horas, suspender la bomba sin insulina, solo cristalina según hemoglucotest o régimen cero un día más. Piénsalo.",
+        "answer": "Es la B. Osmolaridad bajo trescientos quince y paciente lúcida: el hiperosmolar está resuelto, y se pasa a insulina subcutánea con traslape. Suspender la bomba sin más tienta, pero deja un hueco sin insulina, porque la endovenosa se acaba en minutos y la subcutánea tarda horas."
+      }
     },
 
     {

@@ -149,16 +149,32 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'El potasio bajo en el ECG',
-      images: [
-        { src: 'biblioteca/04_diabetes/diab-17/01_ecg-hipopotasemia__cto-nefro_p22.jpg', label: 'Onda U', credit: 'Manual CTO Nefrología 14.ª ed., p. 22' },
-      ],
-      steps: [
-        { note: 'T aplanada y onda U',
-          say: 'Cuando la insulina mete el potasio a las células, puede aparecer hipokalemia: T aplanada y onda U. Por eso la insulina no parte si el potasio está bajo.' },
+      type: 'points',
+      kicker: 'ECG',
+      title: 'El ECG orienta antes que el laboratorio',
+      cards: [
+        { title: 'Hipokalemia', tag: 'K < 3,5 mEq/L', kind: 'alert', items: [
+          { t: 'T aplanada, ST descendido, onda U', d: 'QT/QU largo',
+            say: 'Todo paciente con cetoacidosis o estado hiperosmolar debe tener un electrocardiograma al ingreso y monitoreo continuo mientras el potasio esté alterado, porque el ECG orienta antes de que llegue el laboratorio. En la hipokalemia, bajo tres coma cinco, la onda T se aplana, el segmento ST desciende y aparece una onda U prominente después de la T. Mira este trazado: después de la T aparece la onda U, lo típico de la hipokalemia.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-17/01_ecg-hipopotasemia__cto-nefro_p22.jpg', label: 'Onda U', at: 'Mira este trazado', credit: 'Manual CTO Nefrología 14.ª ed., p. 22' }] },
+          { t: 'Grave: extrasístoles, torsades, FV', d: 'Fibrilación ventricular',
+            say: 'En grados severos aparecen extrasístoles ventriculares, torsades de pointes y fibrilación ventricular.' },
+        ] },
+        { title: 'Hiperkalemia', tag: 'K > 5,5 mEq/L', kind: 'alert', items: [
+          { t: 'T altas, picudas y simétricas', d: 'Base angosta: lo primero',
+            say: 'En la hiperkalemia, sobre cinco coma cinco, lo primero son las ondas T altas, picudas y simétricas, de base angosta. Mira este trazado: ondas T altas y puntiagudas en las derivaciones precordiales.',
+            photo: { src: 'biblioteca/04_diabetes/diab-17/02_ecg-hiperpotasemia-t-picudas__cto-cardio_p19.jpg', label: 'T picudas', at: 'Mira este trazado', credit: 'Manual CTO Cardiología 14.ª ed., p. 19' } },
+          { t: 'Luego PR largo, P plana, QRS ancho', d: 'Patrón sinusoidal, asistolia',
+            say: 'Después el PR se alarga, la onda P se aplana y el QRS se ensancha, hasta un patrón sinusoidal, con riesgo de fibrilación ventricular y asistolia.' },
+        ] },
+        { title: 'Cómo se emplea', tag: 'Conducta', kind: 'criteria', items: [
+          { t: 'T picudas en CAD con K > 5,2', d: 'No se aporta potasio; se monitoriza',
+            say: 'Una onda T picuda en una cetoacidosis no cambia la regla de no aportar potasio con potasio sobre cinco coma dos, pero obliga a monitorizar.' },
+          { t: 'K < 3,3 o U con arritmia', d: 'Potasio antes de la insulina',
+            say: 'Con potasio bajo tres coma tres, o un ECG con onda U y arritmia, se repone potasio antes de la insulina.' },
+          { t: 'Hiperkalemia con QRS ancho o PR largo', d: 'Gluconato de calcio 10 %, 10 ml EV en 2–3 min',
+            say: 'Y si hay hiperkalemia con cambios electrocardiográficos, se da de inmediato gluconato de calcio al diez por ciento, diez mililitros endovenosos en dos a tres minutos, para estabilizar la membrana, sin esperar el laboratorio. Luego se baja el potasio con insulina más glucosa y salbutamol. Ojo: un ECG normal no descarta potasio alterado; no reemplaza la medición sérica.' },
+        ] },
       ],
     },
 
@@ -183,6 +199,8 @@ module.exports = {
           say: 'Si la glicemia no bajó cincuenta en la primera hora, se duplica la infusión.' },
         { cells: ['pH 7,08 con Kussmaul', 'Sin bicarbonato', 'Bicarbonato por la acidosis'],
           say: 'Y un pH de siete coma cero ocho, aunque sea una acidosis severa y el paciente respire con Kussmaul: no lleva bicarbonato. El corte es seis coma nueve, y solo el pH decide.' },
+        { cells: ['Hiperkalemia con QRS ancho o PR largo', 'Gluconato de calcio EV de inmediato', 'Esperar el potasio de laboratorio'],
+          say: 'Y hiperkalemia con QRS ancho o PR largo: gluconato de calcio endovenoso de inmediato, sin esperar el laboratorio.' },
       ],
     },
 
@@ -230,6 +248,119 @@ module.exports = {
         options: 'Las opciones son: suero fisiológico a veinte centímetros cúbicos por kilo, insulina endovenosa, adrenalina, cloruro de potasio, u oxígeno. Piénsalo.',
         answer: 'Es la A, el suero fisiológico: como vimos en la clase anterior, lo primero es siempre el volumen. Pero sigamos al paciente con lo de hoy. Su potasio es cinco coma uno, entre tres coma tres y cinco coma dos, así que después del suero va la insulina, con cloruro de potasio en los sueros. La insulina es el distractor tentador, pero no es lo primero. Y con pH de siete coma once, nada de bicarbonato.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 16",
+      "stem": "Un joven de 14 años, deportista de alto rendimiento, consulta por un cuadro de polidipsia y poliuria de 3 semanas de evolución, al que hace 7 días se agrega astenia, náuseas y malestar general. Refiere marcada debilidad después de realizar ejercicio. Se solicitan exámenes, en los que destaca glicemia 312 mg/dl, Na+ 132 mEq/L, K+ 5,0 mEq/L, pH sanguíneo 7,26, bicarbonato plasmático 11 mEq/L, exceso de base −13.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hiperglicemia secundaria al ejercicio"
+        },
+        {
+          "letter": "B",
+          "text": "Cetoacidosis diabética"
+        },
+        {
+          "letter": "C",
+          "text": "Debut de diabetes tipo 2"
+        },
+        {
+          "letter": "D",
+          "text": "Diabetes insípida descompensada"
+        },
+        {
+          "letter": "E",
+          "text": "Coma hiperosmolar"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Poliuria y polidipsia con baja de energía en un adolescente, glicemia sobre 250 mg/dL y acidosis metabólica (pH bajo 7,30, bicarbonato bajo 18 mEq/L): cetoacidosis diabética como debut de una DM1. El coma hiperosmolar tiene glicemias sobre 600 mg/dL sin acidosis importante.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Joven de catorce años, deportista, con tres semanas de poliuria y polidipsia, y una semana de astenia, náuseas y debilidad. Glicemia trescientos doce, potasio cinco, pH siete coma veintiséis y bicarbonato once.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: hiperglicemia por ejercicio, cetoacidosis diabética, debut de diabetes tipo dos, diabetes insípida, o coma hiperosmolar. Piénsalo.",
+        "answer": "Es la B. Glicemia sobre doscientos cincuenta con acidosis metabólica en un adolescente es una cetoacidosis, el debut típico de la diabetes tipo uno. El coma hiperosmolar tienta por la poliuria, pero requiere glicemias sobre seiscientos y no tiene esta acidosis."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.2.007 · Síndrome hiperosmolar no cetósico",
+      "stem": "Hombre de 74 años en tratamiento por estado hiperglicémico hiperosmolar (glicemia de ingreso 840 mg/dL, sin cetosis). Ya recibió la reposición inicial de volumen y está con NaCl 0,45 % e insulina cristalina en infusión endovenosa continua. K 4,2 mEq/L. A las 8 horas la glicemia es de 290 mg/dL, la osmolaridad efectiva 326 mOsm/L y aún está somnoliento.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Agregar suero glucosado al 5 % y reducir la infusión de insulina"
+        },
+        {
+          "letter": "B",
+          "text": "Suspender la insulina hasta que la glicemia vuelva a subir"
+        },
+        {
+          "letter": "C",
+          "text": "Mantener la misma infusión hasta lograr glicemia bajo 150 mg/dL"
+        },
+        {
+          "letter": "D",
+          "text": "Pasar a insulina NPH subcutánea"
+        },
+        {
+          "letter": "E",
+          "text": "Administrar un bolo de insulina para acelerar la corrección"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En el estado hiperosmolar, cuando la glicemia llega a 300 mg/dL se agrega suero glucosado al 5 % y se reduce la insulina a 0,02–0,05 UI/kg/h, manteniendo la glicemia entre 250 y 300 mg/dL hasta que la osmolaridad baje de 315 y el paciente esté lúcido. Así se evita una caída brusca de la osmolaridad.",
+      "say": {
+        "stem": "Hombre de setenta y cuatro años en tratamiento por un estado hiperosmolar, con insulina en bomba. A las ocho horas su glicemia es doscientos noventa, la osmolaridad efectiva trescientos veintiséis, y sigue somnoliento.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: agregar suero glucosado y bajar la insulina, suspender la insulina, mantener la infusión hasta ciento cincuenta, pasar a NPH o dar un bolo de insulina. Piénsalo.",
+        "answer": "Es la A. En el hiperosmolar, al llegar a trescientos se agrega suero glucosado y se baja la insulina, porque aún falta corregir la osmolaridad sin hacerlo de golpe. Suspender la insulina tienta, pero el cuadro no está resuelto: la osmolaridad sigue sobre trescientos quince y el paciente no está lúcido."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.009 · Electrocardiograma",
+      "stem": "Un paciente de 30 años con DM1 ingresa con cetoacidosis diabética: glicemia 520 mg/dL, pH 7,08 y bicarbonato 6 mEq/L. Se inicia hidratación con suero fisiológico. El potasio aún no está disponible, pero el ECG muestra ondas T aplanadas, depresión del ST y ondas U prominentes.",
+      "question": "¿Cuál es la conducta más adecuada respecto de la insulina?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Postergar la insulina y reponer potasio, porque el ECG sugiere hipokalemia"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar insulina en bolo inmediatamente"
+        },
+        {
+          "letter": "C",
+          "text": "Administrar bicarbonato antes de todo"
+        },
+        {
+          "letter": "D",
+          "text": "Administrar gluconato de calcio por hiperkalemia"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar insulina subcutánea"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Ondas T aplanadas, depresión del ST y ondas U sugieren hipokalemia. La insulina introduce potasio a las células y puede precipitar arritmias graves. Mientras llega el potasio, el ECG orienta: si sugiere hipokalemia (o K bajo 3,3 mEq/L) se repone potasio antes de iniciar insulina. Las T picudas sugerirían hiperkalemia.",
+      "say": {
+        "stem": "Un joven de treinta años con diabetes tipo uno llega en cetoacidosis grave. Se inicia suero fisiológico y, mientras llega el potasio, el electrocardiograma muestra ondas T aplanadas, depresión del ST y ondas U prominentes.",
+        "question": "¿Cuál es la conducta más adecuada respecto de la insulina?",
+        "options": "Las opciones: postergar la insulina y reponer potasio, bolo de insulina inmediato, bicarbonato primero, gluconato de calcio o insulina subcutánea. Piénsalo.",
+        "answer": "Es la A. El electrocardiograma sugiere hipokalemia, y la insulina bajaría aún más el potasio con riesgo de arritmia. El gluconato de calcio tienta, pero es para hiperkalemia, que daría ondas T picudas."
+      }
     },
 
     {

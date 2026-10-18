@@ -55,7 +55,8 @@ module.exports = {
         { show: ['t', 'st'], note: 'Se altera la repolarización',
           say: 'En el electrocardiograma, el potasio bajo altera la repolarización. Lo primero es una onda T que se aplana o se invierte, y luego un infradesnivel del segmento ST.' },
         { show: ['u'], note: 'El signo que se pregunta',
-          say: 'Y aparece el signo que el examen quiere que reconozcas: la onda U, una pequeña deflexión positiva que sigue a la T, más visible entre V dos y V cuatro.' },
+          say: 'Y aparece el signo que el examen quiere que reconozcas: la onda U, una pequeña deflexión positiva que sigue a la T, más visible entre V dos y V cuatro. Mira este electrocardiograma: tras la onda T se ve la onda U.',
+            photo: { src: 'biblioteca/03_nefrologia/nefro-10/01_ecg-hipopotasemia-ondas-u__cto-nefro_p22.jpg', label: 'Onda U', at: 'Mira este electrocardiograma', credit: 'Manual CTO Nefrología 14.ª ed., p. 22' } },
         { show: ['qu'], note: 'El QT largo es en realidad un QU',
           say: 'Cuando la T se aplana y la U crece, parece que el QT se alarga. En realidad estás midiendo un intervalo QU.' },
         { show: ['arr'], note: 'De la ectopia a la fibrilación',
@@ -166,15 +167,15 @@ module.exports = {
 
     {
       type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Hipokalemia en el ECG',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El ECG de la hipokalemia',
       images: [
-        { src: 'biblioteca/03_nefrologia/nefro-10/01_ecg-hipopotasemia-ondas-u__cto-nefro_p22.jpg', label: 'Onda U', credit: 'Manual CTO Nefrología 14.ª ed., p. 22' },
+        { src: 'animaciones/nefro-10/A1_ecg_hipokalemia.mp4', label: 'ECG con potasio bajo', credit: 'Animación propia (gráfico)' },
       ],
       steps: [
-        { note: 'Onda después de la T',
-          say: 'En la hipokalemia la onda T se aplana y aparece una onda U, una pequeña onda después de la T. Si ves ondas U, mide el potasio y también el magnesio.' },
+        { note: 'De la T aplanada a la torsades',
+          say: 'A medida que baja el potasio, la onda T se aplana, el ST se deprime y aparece la onda U, que hace parecer largo el QT cuando en realidad es un intervalo QU. Si sigue bajando, aparecen las ectopias y la taquicardia ventricular polimorfa, la torsades de pointes.' },
       ],
     },
 
@@ -271,6 +272,44 @@ module.exports = {
         options: 'Las opciones: feocromocitoma, hipertensión esencial, hipertensión renovascular, hipertensión por insuficiencia renal, o hiperaldosteronismo primario. Piénsalo.',
         answer: 'Es la E, hiperaldosteronismo primario. Es la fila de la fuga renal con hipertensión: un paciente joven, con hipertensión resistente, hipokalemia sintomática y un adenoma suprarrenal. El distractor es el feocromocitoma, que también es un tumor suprarrenal, pero da crisis paroxísticas, no hipokalemia. Y no te confundas con la tiazida: puede sumar, pero no explica el tumor ni la resistencia.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.010 · Electrolitos plasmáticos",
+      "stem": "Hombre de 44 años con hipertensión arterial de difícil manejo pese a amlodipino 10 mg y losartán 100 mg diarios; no usa diuréticos. Refiere calambres ocasionales. PA 168/102 mmHg. K 3,0 mEq/L, Na 143 mEq/L, HCO3 31 mEq/L, creatinina 0,9 mg/dL. Potasio urinario 45 mEq/L.",
+      "question": "¿Cuál es el estudio más adecuado a continuación?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Metanefrinas plasmáticas"
+        },
+        {
+          "letter": "B",
+          "text": "Aldosterona y actividad de renina plasmáticas"
+        },
+        {
+          "letter": "C",
+          "text": "Cortisol libre urinario de 24 horas"
+        },
+        {
+          "letter": "D",
+          "text": "Ecografía Doppler renal como único estudio"
+        },
+        {
+          "letter": "E",
+          "text": "TSH y T4 libre"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Hipertensión resistente con hipokalemia espontánea, alcalosis metabólica y pérdida renal de potasio (K urinario mayor de 20 a 30 mEq/L) es la tríada del hiperaldosteronismo primario. El tamizaje es la razón aldosterona/renina. Corregir el potasio antes, porque la hipokalemia falsea la aldosterona.",
+      "say": {
+        "stem": "Un hombre de cuarenta y cuatro años tiene hipertensión resistente con dos fármacos, sin diuréticos. El potasio es tres, el bicarbonato treinta y uno y el potasio urinario cuarenta y cinco: el riñón está botando potasio.",
+        "question": "¿Cuál es el estudio más adecuado a continuación?",
+        "options": "Las opciones: metanefrinas, aldosterona con renina, cortisol urinario, solo Doppler renal, o pruebas tiroideas. Piénsalo.",
+        "answer": "Es la B, aldosterona y renina. Hipertensión resistente, potasio bajo sin diuréticos, alcalosis y pérdida renal de potasio dibujan un hiperaldosteronismo primario. El Doppler renal tienta, porque la enfermedad renovascular también sube la aldosterona, pero ahí la renina estaría alta y el tamizaje igual es la razón aldosterona renina."
+      }
     },
 
     {

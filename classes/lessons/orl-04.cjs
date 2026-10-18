@@ -41,6 +41,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El pus busca salida',
+      images: [
+        { src: 'animaciones/orl-04/A1_mastoiditis_pus_a_complicaciones.mp4', label: 'Mastoiditis: del oído medio al absceso y a las complicaciones', credit: 'Ilustración: Servier Medical Art (smart.servier.com), CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Pus a presión: hacia afuera o hacia adentro',
+          say: 'Mira cómo el pus del oído medio pasa por el aditus ad antrum hacia las celdas mastoideas. A presión, las trabéculas se disuelven y las celdas se funden en una sola cavidad: mastoiditis coalescente. El pus puede romper hacia afuera y formar el absceso subperióstico, que despega la oreja. O ir hacia adentro: seno sigmoide, meninges y cerebro. Por eso toda mastoiditis se hospitaliza.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Clínica',
       title: 'La tríada retroauricular',
@@ -57,7 +71,8 @@ module.exports = {
           { t: 'Borramiento del surco retroauricular', d: 'Por el edema y la colección',
             say: 'Segundo, el surco que normalmente existe entre la oreja y el cráneo se borra.' },
           { t: 'Pabellón desplazado hacia adelante y abajo', d: 'Oreja despegada o en asa',
-            say: 'Y tercero, el pabellón auricular se desplaza hacia adelante y hacia abajo, la oreja en asa. Con eso solo ya puedes hacer el diagnóstico.' },
+            say: 'Y tercero, el pabellón auricular se desplaza hacia adelante y hacia abajo, la oreja en asa. Mira esta oreja: está despegada, empujada hacia adelante, con el surco retroauricular borrado. Con eso solo ya puedes hacer el diagnóstico.',
+            photo: { src: 'biblioteca/17_otorrino/orl-04/01_mastoiditis-pabellon-desplazado__sherman_p229.jpg', label: 'Pabellón despegado', at: 'Mira esta oreja', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 229' } },
         ] },
         { title: 'Otoscopía', tag: 'Acompañante', kind: 'criteria', items: [
           { t: 'Tímpano abombado o perforado', d: 'Otorrea purulenta profusa',
@@ -73,7 +88,8 @@ module.exports = {
       cards: [
         { title: 'Examen de elección', tag: 'TAC con contraste', kind: 'key', items: [
           { t: 'TAC de peñasco con contraste', d: 'Incluye cerebro; confirma la coalescencia',
-            say: 'Ante la sospecha de mastoiditis, el examen de elección es el TAC de peñasco y cerebro con contraste endovenoso. Muestra las celdas ocupadas, la pérdida de trabéculas, el absceso subperióstico, y permite descartar complicaciones dentro del cráneo.' },
+            say: 'Ante la sospecha de mastoiditis, el examen de elección es el TAC de peñasco y cerebro con contraste endovenoso. Muestra las celdas ocupadas, la pérdida de trabéculas, el absceso subperióstico, y permite descartar complicaciones dentro del cráneo. Mira este corte del peñasco: las celdas mastoideas están ocupadas y las trabéculas se están disolviendo, la mastoiditis coalescente.',
+            photo: { src: 'biblioteca/17_otorrino/orl-04/atlas_265_tac_de_penasco_con_mastoiditis.jpg', label: 'TAC: mastoiditis coalescente', at: 'Mira este corte del peñasco', credit: 'Atlas EUNACOM 2026' } },
         ] },
         { title: 'Tromboflebitis del seno', tag: 'Complicación temible', kind: 'alert', items: [
           { t: 'Fiebre en picos de sierra', d: 'Calofríos, cefalea, hipertensión endocraneana',
@@ -104,6 +120,32 @@ module.exports = {
             say: 'La segunda, si no responde tras veinticuatro a cuarenta y ocho horas de antibióticos endovenosos.' },
           { t: 'Complicaciones neurológicas', d: 'Cirugía inmediata por ORL',
             say: 'Y la tercera, si aparece cualquier complicación neurológica. Fíjate en la lógica: primero antibióticos y miringotomía, y cirugía cuando hay colección o falla.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Absceso mastoídeo',
+      title: 'Absceso mastoídeo: qué haces tú y qué hace el especialista',
+      cards: [
+        { title: 'Cuándo lo sospechas', tag: 'Absceso subperióstico', kind: 'alert', items: [
+          { t: 'Tumefacción fluctuante retroauricular', d: 'Dolorosa, eritematosa, con fiebre',
+            say: 'El drenaje del absceso mastoídeo no lo haces tú: se deriva. Lo que sí haces es sospecharlo. Es una mastoiditis con absceso subperióstico: tumefacción fluctuante, dolorosa y roja detrás de la oreja, el pabellón desplazado, fiebre y el antecedente de una otitis media.' },
+        ] },
+        { title: 'Tu conducta', tag: 'Nivel primario', kind: 'key', items: [
+          { t: 'Hospitalizar o trasladar de urgencia', d: 'Ceftriaxona endovenosa desde el inicio',
+            say: 'Tu conducta es hospitalizar o trasladar de urgencia, y partir con antibiótico endovenoso, ceftriaxona.' },
+          { t: 'TAC con contraste si hay complicación', d: 'Cefalea intensa, signos meníngeos, parálisis facial, vértigo',
+            say: 'Pides TAC con contraste si hay signos de complicación: cefalea intensa, signos meníngeos, parálisis facial o vértigo.' },
+          { t: 'No puncionar ni incidir', d: 'La colección se drena en el hospital',
+            say: 'Y no punciones ni incidas la colección en el nivel primario. Esa es la trampa.' },
+        ] },
+        { title: 'El especialista', tag: 'Cirugía', kind: 'pharma', items: [
+          { t: 'Miringotomía con tubo', d: 'Y mastoidectomía con drenaje si hay absceso',
+            say: 'El especialista hace una miringotomía con tubo de ventilación, y en el absceso subperióstico o la mastoiditis coalescente, una mastoidectomía con drenaje de la colección.' },
+          { t: 'Lo que apura la cirugía', d: 'Trombosis del seno sigmoides, absceso cerebral, meningitis, parálisis facial',
+            say: 'Lo que justifica la urgencia son las complicaciones: la trombosis del seno sigmoides, el absceso cerebeloso o temporal, la meningitis y la parálisis facial.' },
         ] },
       ],
     },
@@ -245,6 +287,44 @@ module.exports = {
         options: 'Las opciones: signo de la cuerda en la arteria cerebral media, signo del delta vacío, realce leptomeníngeo difuso, hiperdensidad del clivus, o neumoencéfalo. Piénsalo.',
         answer: 'Es la B, el signo del delta vacío. El trombo no capta contraste, queda como un defecto central, y la pared del seno realza alrededor. El signo de la cuerda es de la arteria cerebral media, en el ictus, y no tiene nada que ver con una otitis.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.5.001 · Drenaje de absceso mastoídeo",
+      "stem": "Un niño de 3 años, con otitis media aguda izquierda hace 10 días, presenta fiebre de 39 °C, tumefacción retroauricular fluctuante y pabellón auricular desplazado hacia adelante. Lleva 24 horas con ceftriaxona endovenosa. El TAC de peñasco con contraste muestra ocupación de las celdillas mastoídeas y un absceso subperióstico de 2 cm, sin complicaciones intracraneales.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cambiar a amoxicilina con ácido clavulánico oral y dar de alta"
+        },
+        {
+          "letter": "B",
+          "text": "Mastoidectomía radical con vaciamiento del oído medio"
+        },
+        {
+          "letter": "C",
+          "text": "Mastoidectomía simple con drenaje del absceso, miringotomía y mantener el antibiótico endovenoso"
+        },
+        {
+          "letter": "D",
+          "text": "Solo gotas óticas de ciprofloxacino"
+        },
+        {
+          "letter": "E",
+          "text": "Observar 7 días más con el mismo antibiótico, sin procedimientos"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Un absceso subperióstico documentado es indicación de cirugía: mastoidectomía simple, cortical, con drenaje de la colección, junto con miringotomía para descomprimir el oído medio y cultivar, manteniendo el antibiótico endovenoso. La mastoidectomía radical es para el colesteatoma, no para la mastoiditis aguda.",
+      "say": {
+        "stem": "Niño de tres años con una otitis media hace diez días, que ahora tiene fiebre de treinta y nueve, una tumefacción fluctuante detrás de la oreja izquierda y el pabellón desplazado hacia adelante. Lleva un día con ceftriaxona, y el TAC muestra un absceso subperióstico de dos centímetros, sin complicaciones dentro del cráneo.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: pasar a antibiótico oral y alta, mastoidectomía radical, mastoidectomía simple con drenaje y miringotomía, solo gotas óticas o observar siete días más. Piénsalo.",
+        "answer": "Es la C. Un absceso subperióstico documentado se drena: mastoidectomía simple con drenaje, más miringotomía, sin suspender el antibiótico endovenoso. Seguir solo con el antibiótico tienta porque lleva apenas un día, pero una colección de pus no se resuelve sin drenarla."
+      }
     },
 
     {

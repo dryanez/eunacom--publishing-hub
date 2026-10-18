@@ -26,13 +26,15 @@ module.exports = {
         ] },
         { title: 'Enantema', tag: 'Patognomónico', kind: 'alert', items: [
           { t: 'Manchas de Koplik', d: 'Mucosa yugal, frente al 2.º molar superior',
-            say: 'Y aquí está su firma: las manchas de Koplik. Son pápulas blanquecinas milimétricas en la mucosa de la mejilla, frente al segundo molar superior.' },
+            say: 'Y aquí está su firma: las manchas de Koplik. Mira estas manchas: son pápulas blanquecinas milimétricas en la mucosa de la mejilla, frente al segundo molar superior.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-22/01_manchas_koplik__cdc-phil-6111.jpg', label: 'Manchas de Koplik', at: 'Mira estas manchas', credit: 'CDC PHIL 6111, dominio público' } },
           { t: 'Preceden al exantema', d: 'En 24 a 48 horas',
             say: 'Aparecen uno a dos días antes del exantema. Por eso, si miras la boca a tiempo, haces el diagnóstico antes de que salga el rash.' },
         ] },
         { title: 'Exantema', tag: 'Céfalo-caudal lento', kind: 'normal', items: [
           { t: 'Maculopapular confluente', d: 'Parte detrás de las orejas',
-            say: 'El exantema es maculopapular y confluente. Parte detrás de las orejas y baja lentamente, de la cabeza a los pies.' },
+            say: 'El exantema es maculopapular y confluente, como ves en esta piel. Parte detrás de las orejas y baja lentamente, de la cabeza a los pies.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-22/01_sarampion__cto-pediatria_p97.jpg', label: 'Sarampión', at: 'como ves en esta piel', credit: 'Manual CTO Pediatría 14.ª ed., p. 97' } },
           { t: 'Descama en salvado', d: 'Deja pigmentación parduzca',
             say: 'Y al irse descama en láminas finas, en salvado, dejando una pigmentación parduzca.' },
         ] },
@@ -52,7 +54,8 @@ module.exports = {
         ] },
         { title: 'Exantema', tag: 'Sarampión de 3 días', kind: 'normal', items: [
           { t: 'Máculas rosadas no confluentes', d: 'Progresión céfalo-caudal rápida',
-            say: 'El exantema son máculas rosadas que no confluyen, y bajan de la cabeza a los pies, pero rápido.' },
+            say: 'El exantema son estas máculas rosadas que no confluyen, y bajan de la cabeza a los pies, pero rápido.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-22/02_rubeola__cto-pediatria_p98.jpg', label: 'Rubéola', at: 'estas máculas rosadas', credit: 'Manual CTO Pediatría 14.ª ed., p. 98' } },
           { t: 'Desaparece en 3 días', d: 'Enantema: manchas de Forchheimer',
             say: 'Desaparece en unos tres días, por eso le dicen el sarampión de tres días. En la boca puede haber manchas de Forchheimer, que son petequias en el paladar blando.' },
         ] },
@@ -76,11 +79,16 @@ module.exports = {
         ] },
         { title: 'Signos patognomónicos', tag: 'Se preguntan', kind: 'alert', items: [
           { t: 'Líneas de Pastia', d: 'En pliegues antecubitales e inguinales',
-            say: 'Tiene tres signos que se preguntan. Las líneas de Pastia: hiperpigmentación petequial lineal en los pliegues del codo y de la ingle.' },
+            say: 'Tiene tres signos que se preguntan. Mira las líneas de Pastia: hiperpigmentación petequial lineal en los pliegues del codo y de la ingle.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-22/03_escarlatina-lengua-pastia_alt1__cto-pediatria_p102.jpg', label: 'Líneas de Pastia', at: 'Mira las líneas de Pastia', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' } },
           { t: 'Facies de Filatov', d: 'Mejillas rojas con palidez peribucal',
             say: 'La facies de Filatov: mejillas y frente muy rojas, con palidez alrededor de la boca.' },
           { t: 'Lengua en fresa, luego frambuesa', d: 'Blanca los 2 primeros días, roja al día 4–5',
-            say: 'Y la lengua: primero en fresa blanca, los dos primeros días, y luego en frambuesa roja descamada, hacia el cuarto o quinto día.' },
+            say: 'Y la lengua: primero en fresa blanca, los dos primeros días, como en esta imagen, y luego en frambuesa roja descamada, hacia el cuarto o quinto día, como ves aquí.',
+            photos: [
+              { src: 'biblioteca/07_infectologia/infecto-22/03_escarlatina-lengua-pastia_2__cto-pediatria_p102.jpg', label: 'Lengua saburral inicial', at: 'como en esta imagen', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
+              { src: 'biblioteca/07_infectologia/infecto-22/03_escarlatina-lengua-pastia_1__cto-pediatria_p102.jpg', label: 'Lengua en frambuesa', at: 'como ves aquí', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
+            ] },
         ] },
         { title: 'Tratamiento', tag: 'Prevenir fiebre reumática', kind: 'pharma', items: [
           { t: 'Amoxicilina 50 mg/kg/día', d: '10 días completos',
@@ -98,7 +106,8 @@ module.exports = {
       cards: [
         { title: 'Clínica', tag: 'Quinta enfermedad', kind: 'key', items: [
           { t: 'Signo de la bofetada', d: 'Ambas mejillas rojo encendido',
-            say: 'El eritema infeccioso, o quinta enfermedad, lo produce el parvovirus B diecinueve. Parte con el signo de la bofetada: las dos mejillas de un rojo encendido y brillante, con palidez alrededor de la boca.' },
+            say: 'El eritema infeccioso, o quinta enfermedad, lo produce el parvovirus B diecinueve. Parte con el signo de la bofetada, como ves en esta cara: las dos mejillas de un rojo encendido y brillante, con palidez alrededor de la boca.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-22/05_eritema_infeccioso__nelson_p2548.jpg', label: 'Signo de la bofetada', at: 'como ves en esta cara', credit: 'Nelson 22.ª ed., p. 2548' } },
           { t: 'Exantema reticulado en encaje', d: 'A los 2–3 días, tronco y extremidades',
             say: 'A los dos o tres días aparece un exantema en el tronco y las extremidades con un patrón reticulado, en encaje.' },
           { t: 'Recidiva con calor o sol', d: 'Dato de examen',
@@ -149,19 +158,49 @@ module.exports = {
       cards: [
         { title: 'Ojos y boca', tag: 'Criterios 1 y 2', kind: 'criteria', items: [
           { t: 'Conjuntivitis bulbar bilateral', d: 'No exudativa: sin pus',
-            say: 'Los criterios son fiebre de cinco días o más, más al menos cuatro de cinco signos. El primero, inyección conjuntival bilateral, bulbar, y sin pus. Ojo rojo seco.' },
+            say: 'Los criterios son fiebre de cinco días o más, más al menos cuatro de cinco signos. El primero, inyección conjuntival bilateral, bulbar, y sin pus, como en este ojo. Ojo rojo seco.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-22/12_kawasaki-conjuntival__atlas042.jpg', label: 'Conjuntivitis sin pus', at: 'como en este ojo', credit: 'Atlas EUNACOM 2026' } },
           { t: 'Labios fisurados y lengua en frambuesa', d: 'Más eritema faríngeo',
-            say: 'El segundo, cambios en la boca: labios rojos y fisurados, faringe eritematosa y lengua en frambuesa. Fíjate que la lengua en frambuesa también aparece en la escarlatina: no te sirve sola para separarlas.' },
+            say: 'El segundo, cambios en la boca: labios rojos y fisurados, faringe eritematosa y lengua en frambuesa, como esta. Fíjate que la lengua en frambuesa también aparece en la escarlatina: no te sirve sola para separarlas.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-22/11_kawasaki-lengua__nelson_p1967.jpg', label: 'Lengua en frambuesa', at: 'como esta', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 1967' } },
         ] },
         { title: 'Piel y extremidades', tag: 'Criterios 3 y 4', kind: 'criteria', items: [
           { t: 'Edema indurado de manos y pies', d: 'Luego descamación en dedo de guante',
-            say: 'El tercero, las extremidades: edema duro y eritema en palmas y plantas en la fase aguda, y después descamación alrededor de las uñas, en dedo de guante.' },
+            say: 'El tercero, las extremidades: edema duro y eritema en palmas y plantas en la fase aguda, como en esta mano, y después descamación alrededor de las uñas, en dedo de guante.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-22/13_kawasaki-manos__atlas043.jpg', label: 'Edema de manos', at: 'como en esta mano', credit: 'Atlas EUNACOM 2026' } },
           { t: 'Exantema polimorfo', d: 'Nunca vesicular',
             say: 'El cuarto, un exantema polimorfo difuso, que puede ser de cualquier tipo menos vesicular.' },
         ] },
         { title: 'Cuello', tag: 'Criterio 5', kind: 'criteria', items: [
           { t: 'Adenopatía cervical unilateral', d: '≥ 1,5 cm, no purulenta',
             say: 'Y el quinto, una adenopatía cervical única, unilateral, de uno coma cinco centímetros o más, que no supura.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Vasculitis infantil',
+      title: 'Schönlein-Henoch: púrpura con plaquetas normales',
+      cards: [
+        { title: 'Tétrada', tag: 'Vasculitis por IgA', kind: 'key', items: [
+          { t: 'Púrpura palpable en piernas y glúteos', d: 'Plaquetas y coagulación normales',
+            say: 'La púrpura de Schönlein-Henoch es la vasculitis más frecuente del niño, entre tres y quince años, y suele seguir a una infección respiratoria. Su sello es la púrpura palpable, que ves aquí, en extensores de piernas y glúteos, con plaquetas y coagulación normales.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-22/10_purpura-palpable-schonlein-henoch__fitzpatrick_p1639.jpg', label: 'Púrpura de Schönlein-Henoch', at: 'que ves aquí', credit: 'Fitzpatrick, Dermatology in General Medicine, p. 1639' } },
+          { t: 'Artritis, dolor abdominal, riñón', d: 'Rodillas y tobillos · cólico · hematuria',
+            say: 'Se completa con artritis de rodillas y tobillos, dolor abdominal cólico y compromiso renal con hematuria y proteinuria.' },
+          { t: 'Cuidado con la invaginación', d: 'Y la hemorragia digestiva',
+            say: 'El dolor abdominal puede complicarse con invaginación o hemorragia digestiva.' },
+        ] },
+        { title: 'Conducta', tag: 'Clínico', kind: 'pharma', items: [
+          { t: 'Reposo y analgesia', d: 'Corticoide si el dolor abdominal es intenso',
+            say: 'El diagnóstico es clínico. Se trata con reposo y analgesia, y corticoides si el dolor abdominal es intenso.' },
+          { t: 'Controlar presión y orina 6–12 meses', d: 'Derivar si hay proteinuria nefrótica',
+            say: 'Se controla presión arterial y orina por seis a doce meses, y se deriva si hay proteinuria nefrótica, hemorragia digestiva o sospecha de invaginación.' },
+        ] },
+        { title: 'Diferenciar', tag: 'Trampas', kind: 'alert', items: [
+          { t: 'Meningococcemia: petequias con fiebre tóxica', d: 'PTI: plaquetas bajas',
+            say: 'Se diferencia de la meningococcemia, con petequias y fiebre tóxica, y de la PTI, que tiene plaquetas bajas. Otras vasculitis del niño: Kawasaki, poliarteritis nodosa y Takayasu.' },
         ] },
       ],
     },
@@ -186,54 +225,11 @@ module.exports = {
       kicker: 'Así se ve',
       title: 'Exantemas de la infancia',
       images: [
-        { src: 'biblioteca/07_infectologia/infecto-22/01_manchas_koplik__cdc-phil-6111.jpg', label: 'Manchas de Koplik', credit: 'CDC PHIL 6111, dominio público' },
-        { src: 'biblioteca/07_infectologia/infecto-22/01_sarampion__cto-pediatria_p97.jpg', label: 'Sarampión', credit: 'Manual CTO Pediatría 14.ª ed., p. 97' },
-        { src: 'biblioteca/07_infectologia/infecto-22/03_escarlatina-lengua-pastia_1__cto-pediatria_p102.jpg', label: 'Escarlatina', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
         { src: 'biblioteca/07_infectologia/infecto-22/04_kawasaki-conjuntivitis-descamacion__cto-pediatria_p103.jpg', label: 'Kawasaki: descamación de los dedos', credit: 'Manual CTO Pediatría 14.ª ed., p. 103' },
       ],
       steps: [
-        { note: 'Puntos blancos en la mucosa',
-          say: 'Las manchas de Koplik, puntos blancos en la mucosa de la mejilla, aparecen antes del exantema del sarampión.' },
-        { note: 'Exantema que baja desde la cara',
-          say: 'El exantema del sarampión parte en la cara y baja.' },
-        { note: 'Lengua aframbuesada',
-          say: 'La escarlatina da lengua aframbuesada y piel áspera como lija.' },
-        { note: 'Conjuntivitis y descamación',
-          say: 'Y en Kawasaki, después de la fase aguda, la piel descama alrededor de las uñas, en dedo de guante. Lo grave es el corazón.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-22/02_rubeola__cto-pediatria_p98.jpg', label: 'Rubéola', credit: 'Manual CTO Pediatría 14.ª ed., p. 98' },
-        { src: 'biblioteca/07_infectologia/infecto-22/03_escarlatina-lengua-pastia_2__cto-pediatria_p102.jpg', label: 'Escarlatina: lengua saburral inicial', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
-        { src: 'biblioteca/07_infectologia/infecto-22/05_eritema_infeccioso__nelson_p2548.jpg', label: 'Eritema infeccioso: signo de la bofetada', credit: 'Nelson 22.ª ed., p. 2548' },
-      ],
-      steps: [
-        { note: 'Rubéola',
-          say: 'Este es el exantema de la rubéola: manchas rosadas que no confluyen y duran unos tres días. Busca los ganglios retroauriculares.' },
-        { note: 'Escarlatina: lengua saburral inicial',
-          say: 'Escarlatina al inicio: lengua cubierta por una capa blanca con bordes rojos, antes de la lengua en frambuesa.' },
-        { note: 'Mejillas rojas, palidez alrededor de la boca',
-          say: 'Y este es el eritema infeccioso, por parvovirus B diecinueve: el signo de la bofetada, las dos mejillas de un rojo encendido con palidez alrededor de la boca.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Escarlatina: líneas de Pastia',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-22/03_escarlatina-lengua-pastia_alt1__cto-pediatria_p102.jpg', label: 'Líneas de Pastia en el pliegue del codo', credit: 'Manual CTO Pediatría 14.ª ed., p. 102' },
-      ],
-      steps: [
-        { note: 'Petequias lineales en el pliegue',
-          say: 'En el pliegue del codo se ven las líneas de Pastia: una hiperpigmentación petequial lineal en los pliegues. Es uno de los tres signos de la escarlatina que se preguntan.' },
+        { note: 'Descamación de los dedos',
+          say: 'En Kawasaki, después de la fase aguda, la piel descama alrededor de las uñas, en dedo de guante. Lo grave es el corazón.' },
       ],
     },
 
@@ -420,6 +416,44 @@ module.exports = {
         options: 'Las opciones: daño coronario permanente, recurrencia esporádica, resolución completa sin secuelas, daño vascular periférico, o daño valvular. Piénsalo.',
         answer: 'Es la C, resolución completa. Es un Kawasaki, y con inmunoglobulina y aspirina el riesgo de aneurismas cae a menos del tres a cinco por ciento. La A es la trampa: el daño coronario es la complicación temida, pero es lo que ocurre sin tratamiento, no lo más probable con él.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2013 · Pregunta 118",
+      "stem": "Hombre de 18 años, sin antecedentes, con 3 días de compromiso del estado general, sensación febril, tos y coriza, que durante el último día se asocia a prurito generalizado. Al examen físico destacan lesiones papulares y vesículas muy pruriginosas en el tronco y las extremidades, sin otros hallazgos.",
+      "question": "¿Cuál es el tratamiento de elección en este caso?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clorfenamina oral"
+        },
+        {
+          "letter": "B",
+          "text": "Aspirina oral"
+        },
+        {
+          "letter": "C",
+          "text": "Aciclovir oral"
+        },
+        {
+          "letter": "D",
+          "text": "Vacuna contra virus herpes 3"
+        },
+        {
+          "letter": "E",
+          "text": "Inmunoglobulina G no específica"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Pápulas y vesículas pruriginosas tras un pródromo es una varicela. En mayores de 12 años, que tienen más riesgo de complicaciones como la neumonía, se indica aciclovir oral, idealmente en las primeras 24 horas del exantema. La aspirina está contraindicada por el riesgo de síndrome de Reye; la clorfenamina solo alivia el prurito.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil trece. Hombre de dieciocho años con tres días de malestar, sensación febril, tos y coriza, y desde ayer picazón en todo el cuerpo. Tiene pápulas y vesículas muy pruriginosas en el tronco y las extremidades.",
+        "question": "¿Cuál es el tratamiento de elección en este caso?",
+        "options": "Las opciones: clorfenamina, aspirina, aciclovir, vacuna contra la varicela, o inmunoglobulina. Piénsalo.",
+        "answer": "Es la C, aciclovir. Es una varicela en un adulto, y sobre los doce años se trata con aciclovir porque las complicaciones son más frecuentes. La clorfenamina tienta porque alivia la picazón, pero no trata la infección; y la aspirina está prohibida por el riesgo de síndrome de Reye."
+      }
     },
 
     {

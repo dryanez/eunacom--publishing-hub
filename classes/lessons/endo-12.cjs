@@ -80,7 +80,11 @@ module.exports = {
         ] },
         { title: 'Lo que las separa', tag: 'Muy preguntado', kind: 'alert', items: [
           { t: 'Piel: oscura vs pálida', d: 'Pliegues palmares, cicatrices, mucosa oral',
-            say: 'Y ahora lo que las separa. Primero la piel. En el Addison hay hiperpigmentación de piel y mucosas: pliegues de las manos, cicatrices recientes, mucosa de la boca y pezones. En la secundaria la piel es pálida, casi de alabastro.' },
+            say: 'Y ahora lo que las separa. Primero la piel. En el Addison hay hiperpigmentación de piel y mucosas, por el exceso de ACTH: mira esta piel oscurecida, y estos pliegues de las palmas, oscuros. Pliegues de las manos, cicatrices recientes, mucosa de la boca y pezones. En la secundaria la piel es pálida, casi de alabastro.',
+            photos: [
+              { src: 'biblioteca/05_endocrinologia/endo-12/01_addison_hiperpigmentacion__fitzpatrick_p1517.jpg', label: 'Hiperpigmentación', at: 'mira esta piel', credit: 'Fitzpatrick 7.ª ed., Fig. 152-16A' },
+              { src: 'biblioteca/05_endocrinologia/endo-12/02_addison_b__fitzpatrick_p1517.jpg', label: 'Pliegues palmares', at: 'estos pliegues de las palmas', credit: 'Fitzpatrick 7.ª ed., Fig. 152-16B' },
+            ] },
           { t: 'Potasio: alto vs normal', d: 'Hiperkalemia solo en la primaria',
             say: 'Segundo, el potasio. La hiperkalemia orienta con fuerza al Addison, porque falta la aldosterona. En la secundaria el potasio es normal. Si ves hiperkalemia, piensa en primaria.' },
           { t: 'Sodio bajo en ambas, por distinto motivo', d: 'Primaria: pierde sal · secundaria: ADH',
@@ -182,24 +186,6 @@ module.exports = {
           say: 'En la secundaria falla la hipófisis: la ACTH está baja y el cortisol cae, pero no hay pigmento. La glomerulosa sigue funcionando porque depende de la renina, así que la aldosterona se conserva y no hay hiperkalemia.' },
       ],
     },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'La piel del Addison',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-12/01_addison_hiperpigmentacion__fitzpatrick_p1517.jpg', label: 'Hiperpigmentación', credit: 'Fitzpatrick 7.ª ed., Fig. 152-16A' },
-        { src: 'biblioteca/05_endocrinologia/endo-12/02_addison_b__fitzpatrick_p1517.jpg', label: 'Pliegues palmares', credit: 'Fitzpatrick 7.ª ed., Fig. 152-16B' },
-      ],
-      steps: [
-        { note: 'Piel oscura, más en zonas expuestas',
-          say: 'En el Addison la piel se oscurece, sobre todo en zonas expuestas, cicatrices y mucosas. Se debe al exceso de ACTH.' },
-        { note: 'Los pliegues se oscurecen',
-          say: 'Fíjate en los pliegues de las palmas, oscuros. Esa hiperpigmentación no aparece en la insuficiencia secundaria, porque ahí la ACTH está baja.' },
-      ],
-    },
-
     {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, desde la sospecha hasta el tratamiento de cada tipo.',

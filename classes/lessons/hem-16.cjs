@@ -58,7 +58,8 @@ module.exports = {
           { t: 'Hepatoesplenomegalia y adenopatías', d: 'Más en la LLA',
             say: 'La hepatoesplenomegalia y las adenopatías cervicales también orientan más a la linfoblástica.' },
           { t: 'Hiperplasia gingival', d: 'LMA mielomonocítica y monocítica',
-            say: 'Y la hiperplasia de las encías es típica de los subtipos mielomonocítico y monocítico de la mieloide, la eme cuatro y la eme cinco.' },
+            say: 'Y la hiperplasia de las encías es típica de los subtipos mielomonocítico y monocítico de la mieloide, la eme cuatro y la eme cinco. Mira estas encías engrosadas por la infiltración.',
+            photo: { src: 'biblioteca/06_hematologia/hem-16/03_infiltracion-gingival__cto-hemato_p63.jpg', label: 'Infiltración gingival', at: 'Mira estas encías', credit: 'Manual CTO Hematología 14.ª ed., p. 63' } },
         ] },
         { title: 'Diagnóstico diferencial', tag: 'Ojo en el examen', kind: 'alert', items: [
           { t: 'Trombocitopenia aislada no es leucemia', d: 'Eso es PTI',
@@ -106,9 +107,14 @@ module.exports = {
         { cells: ['Edad', 'Adulto mayor (mediana 68 años)', 'Niños (pico 2 a 5 años)'],
           say: 'Comparemos las dos. La edad es la primera pista: la mieloide aguda es la leucemia aguda del adulto mayor, con una mediana de sesenta y ocho años. La linfoblástica es la del niño, con un pico entre los dos y los cinco años.' },
         { cells: ['Blastos', 'Grandes, citoplasma amplio, gránulos', 'Medianos, citoplasma escaso, sin gránulos'],
-          say: 'En el frotis, el mieloblasto es grande, con citoplasma amplio y gránulos azurófilos. El linfoblasto es más pequeño, con poco citoplasma y sin gránulos.' },
+          say: 'En el frotis, el mieloblasto es grande, con citoplasma amplio y gránulos azurófilos. El linfoblasto es más pequeño, con poco citoplasma y sin gránulos. Mira este frotis: linfoblastos rodeados de glóbulos rojos normales, para que compares el tamaño. Y aquí, blastos tipo Burkitt, con citoplasma basófilo y vacuolas.',
+          photos: [
+            { src: 'biblioteca/06_hematologia/hem-16/04_lal-frotis-blastos__commons.jpg', label: 'Blastos linfoides', at: 'Mira este frotis', credit: 'Wikimedia Commons, CC BY-SA 3.0' },
+            { src: 'biblioteca/06_hematologia/hem-16/02_lal-tipo-burkitt__amir-hemato_p44.jpg', label: 'Blastos tipo Burkitt', at: 'blastos tipo Burkitt', credit: 'Manual AMIR Hematología, p. 44' },
+          ] },
         { cells: ['Bastones de Auer', 'Presentes: patognomónicos', 'Nunca'],
-          say: 'Los bastones de Auer solo existen en la mieloide. Son patognomónicos: si los ves, descartaste una linfoblástica.' },
+          say: 'Los bastones de Auer solo existen en la mieloide. Mira estos blastos: los bastones son patognomónicos, y si los ves, descartaste una linfoblástica.',
+          photo: { src: 'biblioteca/06_hematologia/hem-16/01_leucemia-aguda-promielocitica-auer__amir-hemato_p44.jpg', label: 'Bastones de Auer', at: 'Mira estos blastos', credit: 'Manual AMIR Hematología, p. 44' } },
         { cells: ['Citoquímica', 'Mieloperoxidasa y Sudán negro positivos', 'MPO negativa · TdT positiva'],
           say: 'La mieloide es positiva para mieloperoxidasa y Sudán negro. La linfoblástica es negativa para mieloperoxidasa y expresa la enzima TdT en más del noventa y cinco por ciento de los casos.' },
         { cells: ['Infiltración', 'Encías, cloromas (M4/M5)', 'Sistema nervioso central y testículos'],
@@ -223,6 +229,34 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Mielograma e intratecal',
+      title: 'Quién los pide, cuándo y quién los hace',
+      cards: [
+        { title: 'Mielograma', tag: 'Derivar a especialista', kind: 'key', items: [
+          { t: 'Confirma la leucemia aguda: 20% o más de blastos', d: 'Más citometría, citogenética y biología molecular',
+            say: 'El mielograma es el examen que confirma la leucemia aguda, con veinte por ciento o más de blastos. Se completa con citometría de flujo, citogenética y biología molecular, buscando la translocación quince diecisiete, el BCR-ABL uno, F L T tres y N P M uno. Si el aspirado sale seco, se agrega la biopsia osteomedular.' },
+          { t: 'No se hace en APS ni se posterga', d: 'Ni por plaquetas bajas ni por fiebre',
+            say: 'Esto es de conducta: el mielograma no lo haces tú en atención primaria, y tampoco se posterga por plaquetopenia o por fiebre. La sospecha de leucemia aguda es una urgencia de derivación inmediata a un centro con hematología.' },
+          { t: 'Sospecha de LPA: ATRA sin esperar', d: 'No se espera el resultado del PCR',
+            say: 'Y si sospechas una leucemia promielocítica, el ATRA se inicia sin esperar el resultado del mielograma.' },
+        ] },
+        { title: 'Quimioterapia intratecal', tag: 'Derivar a especialista', kind: 'pharma', items: [
+          { t: 'La da el hematólogo por punción lumbar', d: 'Metotrexato, citarabina y corticoide',
+            say: 'La quimioterapia intratecal la administra el hematólogo o el oncólogo por punción lumbar, con metotrexato, citarabina y un corticoide.' },
+          { t: 'Profilaxis: toda LLA y LMA de alto riesgo', d: 'Hiperleucocitosis o subtipo monocítico',
+            say: 'Se indica como profilaxis del sistema nervioso central en toda leucemia linfoblástica, y en la mieloide de alto riesgo, como la hiperleucocitosis o el subtipo monocítico.' },
+          { t: 'Tratamiento si hay infiltración meníngea', d: 'Cefalea, pares craneales, blastos en el LCR',
+            say: 'Y como tratamiento cuando hay infiltración de las meninges: cefalea, compromiso de pares craneales o blastos en el líquido cefalorraquídeo. También la reciben los linfomas agresivos de alto riesgo, como el Burkitt y el linfoblástico.' },
+        ] },
+        { title: 'Lo que tú debes saber', tag: 'Ojo', kind: 'alert', items: [
+          { t: 'La punción lumbar se coordina con hematología', d: 'Corregir plaquetas y coagulopatía antes',
+            say: 'La punción lumbar en un paciente leucémico se coordina con hematología, porque antes hay que corregir la plaquetopenia y la coagulopatía. No se hace de rutina en un paciente que no está estabilizado.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -236,39 +270,7 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Leucemias agudas',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-16/01_leucemia-aguda-promielocitica-auer__amir-hemato_p44.jpg', label: 'Bastones de Auer', credit: 'Manual AMIR Hematología, p. 44' },
-        { src: 'biblioteca/06_hematologia/hem-16/03_infiltracion-gingival__cto-hemato_p63.jpg', label: 'Infiltración gingival', credit: 'Manual CTO Hematología 14.ª ed., p. 63' },
-      ],
-      steps: [
-        { note: 'Leucemia promielocítica',
-          say: 'Estos blastos tienen bastones de Auer: es una leucemia mieloide, y si hay muchos, la promielocítica, que produce coagulación intravascular.' },
-        { note: 'Encías engrosadas',
-          say: 'Y la infiltración de las encías es típica de las leucemias monocíticas.' },
-      ],
-    },
 
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-16/02_lal-tipo-burkitt__amir-hemato_p44.jpg', label: 'Blastos tipo Burkitt', credit: 'Manual AMIR Hematología, p. 44' },
-        { src: 'biblioteca/06_hematologia/hem-16/01_leucemia-aguda-promielocitica-auer_alt1__cto-hemato_p64.jpg', label: 'Leucemia promielocítica: promielocitos', credit: 'Manual CTO Hematología 14.ª ed., p. 64' },
-      ],
-      steps: [
-        { note: 'Blastos tipo Burkitt',
-          say: 'Blastos tipo Burkitt: citoplasma basófilo con vacuolas.' },
-        { note: 'Promielocítica: urgencia',
-          say: 'Y estas son las células de una leucemia promielocítica. Si las ves con sangrado y fibrinógeno bajo, se inicia el ATRA de inmediato, sin esperar la genética.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -290,7 +292,8 @@ module.exports = {
         { cells: ['Bastones de Auer', 'LMA', 'Pensar en LLA'],
           say: 'Bastones de Auer: siempre mieloide.' },
         { cells: ['Auer abundantes + sangrado + fibrinógeno bajo', 'ATRA inmediato + soporte de la CID', 'Esperar el PCR de t(15;17)'],
-          say: 'Bastones de Auer abundantes, sangrado y fibrinógeno bajo: ATRA inmediato con soporte de la CID. El error que mata es esperar el PCR.' },
+          say: 'Bastones de Auer abundantes, sangrado y fibrinógeno bajo: ATRA inmediato con soporte de la CID. Estas son las células de una leucemia promielocítica. El error que mata es esperar el PCR.',
+          photo: { src: 'biblioteca/06_hematologia/hem-16/01_leucemia-aguda-promielocitica-auer_alt1__cto-hemato_p64.jpg', label: 'Promielocitos', at: 'Estas son las células', credit: 'Manual CTO Hematología 14.ª ed., p. 64' } },
         { cells: ['LLA infantil', 'Quimioterapia + profilaxis intratecal', 'Omitir la profilaxis del SNC'],
           say: 'Linfoblástica infantil: quimioterapia con profilaxis intratecal. Omitir la profilaxis deja a los blastos escondidos en las meninges.' },
       ],
@@ -409,6 +412,119 @@ module.exports = {
         options: 'Las opciones son: cintigrafía ósea, hemograma, biopsia esplénica, electroforesis de proteínas, o mielograma. Piénsalo.',
         answer: 'Es la E, el mielograma. Compárala con la pregunta anterior: allá pedían el examen para continuar el estudio, y era el hemograma. Aquí piden el que confirma, y es el mielograma, con veinte por ciento de blastos o más. El hemograma es el distractor: inicia el estudio, pero no confirma. Lee bien qué verbo usa la pregunta.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 27",
+      "stem": "Un niño de 8 años presenta dolores óseos generalizados, malestar general y fiebre de 3 semanas de evolución. Al examen físico se palpa el bazo aumentado de tamaño, se constatan poliadenopatías indoloras y se observan petequias y equimosis generalizadas, mayores en las extremidades inferiores.",
+      "question": "¿Cuál es el examen de elección para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cintigrafía ósea"
+        },
+        {
+          "letter": "B",
+          "text": "Hemograma"
+        },
+        {
+          "letter": "C",
+          "text": "Biopsia esplénica"
+        },
+        {
+          "letter": "D",
+          "text": "Mielograma"
+        },
+        {
+          "letter": "E",
+          "text": "Cuantificación de inmunoglobulinas"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Dolor óseo, fiebre, adenopatías, esplenomegalia y sangrado cutáneo en un escolar sugieren leucemia aguda, probablemente linfoblástica. El hemograma orienta (citopenias, blastos), pero la confirmación requiere estudio de médula ósea: mielograma (con inmunofenotipo y citogenética), que demuestra 20% o más de blastos.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Un niño de ocho años tiene tres semanas de dolores óseos, fiebre y malestar, con esplenomegalia, adenopatías, petequias y equimosis.",
+        "question": "¿Cuál es el examen de elección para confirmar el diagnóstico?",
+        "options": "Las opciones: cintigrafía ósea, hemograma, biopsia esplénica, mielograma o inmunoglobulinas. Piénsalo.",
+        "answer": "Es la D. El cuadro sugiere una leucemia aguda y se confirma con el mielograma. El hemograma tienta porque es el primer examen, pero solo orienta; la confirmación exige estudiar la médula ósea."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.5.005 · Mielograma",
+      "stem": "Niño de 4 años con palidez, fiebre, petequias y dolor óseo de 3 semanas. Hemoglobina 6,8 g/dL, leucocitos 32.000/mm3 con 60% de blastos, plaquetas 18.000/mm3.",
+      "question": "¿Cuál es el examen de elección para confirmar el diagnóstico y clasificar la enfermedad?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mielograma con inmunofenotipo por citometría de flujo"
+        },
+        {
+          "letter": "B",
+          "text": "Biopsia de ganglio linfático"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de tórax, abdomen y pelvis"
+        },
+        {
+          "letter": "D",
+          "text": "Punción lumbar como primer examen"
+        },
+        {
+          "letter": "E",
+          "text": "Electroforesis de proteínas"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La sospecha es leucemia linfoblástica aguda, el cáncer más frecuente en la infancia. Se confirma con mielograma (aspirado de médula ósea) con 20% o más de blastos, complementado con inmunofenotipo por citometría de flujo y citogenética para clasificar y estratificar el riesgo. La punción lumbar se hace después, para evaluar compromiso del SNC.",
+      "say": {
+        "stem": "Niño de cuatro años con palidez, fiebre, petequias, dolor óseo y blastos en el hemograma.",
+        "question": "¿Qué examen confirma y clasifica la enfermedad?",
+        "options": "Las opciones: mielograma con inmunofenotipo, biopsia ganglionar, TAC, punción lumbar primero, o electroforesis de proteínas. Piénsalo.",
+        "answer": "Es la A. Mielograma con inmunofenotipo, que confirma la leucemia y la clasifica. La punción lumbar también se hace, pero después, para ver compromiso del sistema nervioso."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.5.008 · Quimioterapia intratecal",
+      "stem": "Niña de 7 años con leucemia linfoblástica aguda en fase de inducción. Según el protocolo, debe recibir profilaxis del sistema nervioso central.",
+      "question": "¿Cuál es el fármaco que se administra por vía intratecal con este fin?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vincristina"
+        },
+        {
+          "letter": "B",
+          "text": "Doxorrubicina"
+        },
+        {
+          "letter": "C",
+          "text": "Metotrexato"
+        },
+        {
+          "letter": "D",
+          "text": "L-asparaginasa"
+        },
+        {
+          "letter": "E",
+          "text": "Imatinib"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El SNC es un santuario donde la quimioterapia sistémica penetra poco, por lo que en la LLA se administra quimioterapia intratecal, principalmente metotrexato, solo o con citarabina e hidrocortisona. La vincristina es mortal por vía intratecal y solo se usa endovenosa; por eso ambos fármacos se preparan y administran por separado, con doble chequeo.",
+      "say": {
+        "stem": "Niña de siete años con leucemia linfoblástica aguda que necesita profilaxis del sistema nervioso central.",
+        "question": "¿Qué fármaco se da por vía intratecal?",
+        "options": "Las opciones: vincristina, doxorrubicina, metotrexato, asparaginasa o imatinib. Piénsalo.",
+        "answer": "Es la C. Metotrexato. La vincristina está en el mismo protocolo, pero por vía intratecal es mortal: solo se usa endovenosa."
+      }
     },
 
     {

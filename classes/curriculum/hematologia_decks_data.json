@@ -4,7 +4,7 @@
     "topicLabel": "8.1",
     "title": "Hematología 8.1: Síndrome Anémico: Definición, Índices Eritrocitarios (VCM, HCM) e Índice Reticulocitario",
     "perfilCodes": [
-      "1.08.1.001"
+      "1.08.4.008"
     ],
     "tier": 2,
     "realQuestionCount": 1,
@@ -13,8 +13,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Anémico: Definición, Índices Eritrocitarios (VCM, HCM) e Índice Reticulocitario. Código oficial Perfil V3: 1.08.1.001. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome Anémico: Definición, Índices Eritrocitarios (VCM, HCM) e Índice Reticulocitario. Código oficial Perfil V3: 1.08.4.008. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.4.008",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -63,7 +63,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.001",
+              "1.08.4.008",
               "Síndrome Anémico: Definición, Índices Eritrocitarios (VCM, HCM) e Índice Reticulocitario",
               "Específico",
               "Inicial",
@@ -324,7 +324,8 @@
     "topicLabel": "8.2",
     "title": "Hematología 8.2: Perfil de Cinética de Hierro: Ferritina, Transferrina, TIBC y Saturación de Transferrina",
     "perfilCodes": [
-      "1.08.1.002"
+      "1.08.1.002",
+      "1.08.1.001"
     ],
     "tier": 2,
     "realQuestionCount": 3,
@@ -333,8 +334,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Perfil de Cinética de Hierro: Ferritina, Transferrina, TIBC y Saturación de Transferrina. Código oficial Perfil V3: 1.08.1.002. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.002",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Perfil de Cinética de Hierro: Ferritina, Transferrina, TIBC y Saturación de Transferrina. Código oficial Perfil V3: 1.08.1.002, 1.08.1.001. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.002, 1.08.1.001",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -383,7 +384,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.002",
+              "1.08.1.002, 1.08.1.001",
               "Perfil de Cinética de Hierro: Ferritina, Transferrina, TIBC y Saturación de Transferrina",
               "Específico",
               "Inicial",
@@ -1171,7 +1172,8 @@
     "topicLabel": "8.4",
     "title": "Hematología 8.4: Anemia de la Enfermedad Crónica / Inflamación vs Anemia en la Enfermedad Renal Crónica (EPO y Manejo)",
     "perfilCodes": [
-      "1.08.1.001"
+      "1.08.1.001",
+      "1.09.1.004"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -1180,8 +1182,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Anemia de la Enfermedad Crónica / Inflamación vs Anemia en la Enfermedad Renal Crónica (EPO y Manejo). Código oficial Perfil V3: 1.08.1.001. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Anemia de la Enfermedad Crónica / Inflamación vs Anemia en la Enfermedad Renal Crónica (EPO y Manejo). Código oficial Perfil V3: 1.08.1.001, 1.09.1.004. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.001, 1.09.1.004",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1230,7 +1232,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.001",
+              "1.08.1.001, 1.09.1.004",
               "Anemia de la Enfermedad Crónica / Inflamación vs Anemia en la Enfermedad Renal Crónica (EPO y Manejo)",
               "Específico",
               "Inicial",
@@ -1636,7 +1638,9 @@
     "topicLabel": "8.5",
     "title": "Hematología 8.5: Aplasia Medular e Hipofunción Medular Adquirida vs Fármacos Mielotóxicos",
     "perfilCodes": [
-      "1.08.1.008"
+      "1.08.1.008",
+      "1.08.3.003",
+      "1.08.4.003"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -1645,8 +1649,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Aplasia Medular e Hipofunción Medular Adquirida vs Fármacos Mielotóxicos. Código oficial Perfil V3: 1.08.1.008.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.008",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Aplasia Medular e Hipofunción Medular Adquirida vs Fármacos Mielotóxicos. Código oficial Perfil V3: 1.08.1.008, 1.08.3.003, 1.08.4.003.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.008, 1.08.3.003, 1.08.4.003",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1689,7 +1693,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.008",
+              "1.08.1.008, 1.08.3.003, 1.08.4.003",
               "Aplasia Medular e Hipofunción Medular Adquirida vs Fármacos Mielotóxicos",
               "Sospecha",
               "Inicial",
@@ -2331,7 +2335,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 133",
         "notes": "[SLIDE 14] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 133.",
         "number": 3,
-        "caseText": "Un paciente de 71 años consulta por malestar general y disnea progresiva, que actualmente es de pequeños esfuerzos. Al examen Fsico se observa pálido, con examen cardiopulmonar que muestra ritmo regular en dos 8empos, sin soplos, con frecuencia cardíaca 120 la8dos por minuto; y examen pulmonar que constata murmullo pulmonar simétrico sin otros ruidos. Se solicita hemograma que se informa con hematocrito: 16%, hemoglobina: 5,2 g/dL, VCM: 118 fL, CHCM: 40 g/dL, re8culocitos: 0,8%, plaquetas: 60.000/mm³ y glóbulos blancos: 3.300/mm³. Además, se solicita GOT: 52 U/L, bilirrubina total: 3,5 mg/dL y bilirrubina directa: 0,2 mg/dL. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente de 71 años consulta por malestar general y disnea progresiva, que actualmente es de pequeños esfuerzos. Al examen físico se observa pálido, con examen cardiopulmonar que muestra ritmo regular en dos tiempos, sin soplos, con frecuencia cardíaca 120 latidos por minuto; y examen pulmonar que constata murmullo pulmonar simétrico sin otros ruidos. Se solicita hemograma que se informa con hematocrito: 16%, hemoglobina: 5,2 g/dL, VCM: 118 fL, CHCM: 40 g/dL, reticulocitos: 0,8%, plaquetas: 60.000/mm³ y glóbulos blancos: 3.300/mm³. Además, se solicita GOT: 52 U/L, bilirrubina total: 3,5 mg/dL y bilirrubina directa: 0,2 mg/dL. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -2360,7 +2364,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Tiene una anemia megaloblástica por déﬁcit de vitamina B12. El VCM tan elevado la sugiere fuertemente. Tanto anemia hemolítica como el déﬁcit de B12 pueden tener VCM elevado, hiperbilirrubinemia indirecta y LDH elevada, pero los reGculocitos bajos son incompaGbles con una anemia hemolítica. Dada la gravedad que Gene, con hemoglobina bajo 7 g/dl, probablemente requiere de una transfusión de glóbulos rojos, además del tratamiento con vitamina B12 intramuscular. La causa más frecuente de déﬁcit de vitamina B12 es la anemia perniciosa, de origen autoinmune, con anticuerpos contra las células parietales gástricas, que hace que no se produzca el “factor intrínseco”, necesario para la absorción de B12. Por ello, se debe suplementar por vía intramuscular y no oral. En cambio, el déﬁcit de B12 asociado a dietas vegetarianas y veganas sí se trata por vía oral."
+        "explanation": "Tiene una anemia megaloblástica por déficit de vitamina B12. El VCM tan elevado la sugiere fuertemente. Tanto anemia hemolítica como el déficit de B12 pueden tener VCM elevado, hiperbilirrubinemia indirecta y LDH elevada, pero los reticulocitos bajos son incompatibles con una anemia hemolítica. Dada la gravedad que Gene, con hemoglobina bajo 7 g/dl, probablemente requiere de una transfusión de glóbulos rojos, además del tratamiento con vitamina B12 intramuscular. La causa más frecuente de déficit de vitamina B12 es la anemia perniciosa, de origen autoinmune, con anticuerpos contra las células parietales gástricas, que hace que no se produzca el “factor intrínseco”, necesario para la absorción de B12. Por ello, se debe suplementar por vía intramuscular y no oral. En cambio, el déficit de B12 asociado a dietas vegetarianas y veganas sí se trata por vía oral."
       },
       {
         "type": "question",
@@ -2428,7 +2432,8 @@
     "topicLabel": "8.7",
     "title": "Hematología 8.7: Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo",
     "perfilCodes": [
-      "1.08.1.003"
+      "1.08.1.003",
+      "1.08.4.010"
     ],
     "tier": 3,
     "realQuestionCount": 2,
@@ -2437,8 +2442,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo. Código oficial Perfil V3: 1.08.1.003. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.003",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo. Código oficial Perfil V3: 1.08.1.003, 1.08.4.010. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.003, 1.08.4.010",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -2487,7 +2492,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.003",
+              "1.08.1.003, 1.08.4.010",
               "Anemia Hemolítica Autoinmune (AHAI: Anticuerpos Calientes IgG vs Crioaglutininas IgM) y Test de Coombs Directo",
               "Sospecha",
               "Inicial",
@@ -2839,7 +2844,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 21",
         "notes": "[SLIDE 14] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 21.",
         "number": 3,
-        "caseText": "Un paciente de 29 años presenta ictericia, disnea y compromiso marcado del estado general. Su examen Fsico solo muestra ictericia de escleras y piel, sin alteraciones relevantes en el examen segmentario. Sus exámenes de laboratorio muestran hemograma con hematocrito: 12%, hemoglobina: 4,1 g/dL, plaquetas: 250.000/mm³, glóbulos blancos 7.800/mm³, VCM: 103 fL y CHCM: 32 pg; en el fro8s se observa presencia de microesferocitos. Las pruebas hepá8cas muestran GOT: 52 U/L, GPT: 56 U/L, bilirrubina total: 4,1 mg/dL, bilirrubina directa 0,5: mg/dL, GGT: 50 U/L, fosfatasas alcalinas: 211 U/L y LDH: 960 U/L. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente de 29 años presenta ictericia, disnea y compromiso marcado del estado general. Su examen físico solo muestra ictericia de escleras y piel, sin alteraciones relevantes en el examen segmentario. Sus exámenes de laboratorio muestran hemograma con hematocrito: 12%, hemoglobina: 4,1 g/dL, plaquetas: 250.000/mm³, glóbulos blancos 7.800/mm³, VCM: 103 fL y CHCM: 32 pg; en el frotis se observa presencia de microesferocitos. Las pruebas hepáticas muestran GOT: 52 U/L, GPT: 56 U/L, bilirrubina total: 4,1 mg/dL, bilirrubina directa 0,5: mg/dL, GGT: 50 U/L, fosfatasas alcalinas: 211 U/L y LDH: 960 U/L. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -2849,7 +2854,7 @@
           },
           {
             "id": "B",
-            "text": "Anemia por déﬁcit de vitamina B12",
+            "text": "Anemia por déficit de vitamina B12",
             "isCorrect": false
           },
           {
@@ -2868,7 +2873,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Es una anemia hemolítica clásica, probablemente autoinmune (AHAI). Orientan la anemia aguda y severa, con hiperbilirrubinemia indirecta, elevación de LDH. El VCM se puede elevar, por aumento de los reGculocitos. Los microesferocitos se ven en la AHAI, por el daño que sufren los glóbulos; en cambio, la microesferocitosis familiar suele ser un cuadro crónico, menos grave, con esplenomegalia y exacerbación durante los cuadros agudos. La prueba de Coombs directo está positiva en la AHAI y negativa en la mayoría de las otras causas de hemólisis."
+        "explanation": "Es una anemia hemolítica clásica, probablemente autoinmune (AHAI). Orientan la anemia aguda y severa, con hiperbilirrubinemia indirecta, elevación de LDH. El VCM se puede elevar, por aumento de los reticulocitos. Los microesferocitos se ven en la AHAI, por el daño que sufren los glóbulos; en cambio, la microesferocitosis familiar suele ser un cuadro crónico, menos grave, con esplenomegalia y exacerbación durante los cuadros agudos. La prueba de Coombs directo está positiva en la AHAI y negativa en la mayoría de las otras causas de hemólisis."
       },
       {
         "type": "question",
@@ -2936,7 +2941,8 @@
     "topicLabel": "8.8",
     "title": "Hematología 8.8: Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN)",
     "perfilCodes": [
-      "1.08.1.003"
+      "1.08.1.003",
+      "1.08.4.010"
     ],
     "tier": 2,
     "realQuestionCount": 2,
@@ -2945,8 +2951,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN). Código oficial Perfil V3: 1.08.1.003. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.003",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN). Código oficial Perfil V3: 1.08.1.003, 1.08.4.010. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.003, 1.08.4.010",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -2995,7 +3001,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.003",
+              "1.08.1.003, 1.08.4.010",
               "Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN)",
               "Sospecha",
               "Inicial",
@@ -3206,7 +3212,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 21",
         "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 21.",
         "number": 3,
-        "caseText": "Un paciente de 29 años presenta ictericia, disnea y compromiso marcado del estado general. Su examen Fsico solo muestra ictericia de escleras y piel, sin alteraciones relevantes en el examen segmentario. Sus exámenes de laboratorio muestran hemograma con hematocrito: 12%, hemoglobina: 4,1 g/dL, plaquetas: 250.000/mm³, glóbulos blancos 7.800/mm³, VCM: 103 fL y CHCM: 32 pg; en el fro8s se observa presencia de microesferocitos. Las pruebas hepá8cas muestran GOT: 52 U/L, GPT: 56 U/L, bilirrubina total: 4,1 mg/dL, bilirrubina directa 0,5: mg/dL, GGT: 50 U/L, fosfatasas alcalinas: 211 U/L y LDH: 960 U/L. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente de 29 años presenta ictericia, disnea y compromiso marcado del estado general. Su examen físico solo muestra ictericia de escleras y piel, sin alteraciones relevantes en el examen segmentario. Sus exámenes de laboratorio muestran hemograma con hematocrito: 12%, hemoglobina: 4,1 g/dL, plaquetas: 250.000/mm³, glóbulos blancos 7.800/mm³, VCM: 103 fL y CHCM: 32 pg; en el frotis se observa presencia de microesferocitos. Las pruebas hepáticas muestran GOT: 52 U/L, GPT: 56 U/L, bilirrubina total: 4,1 mg/dL, bilirrubina directa 0,5: mg/dL, GGT: 50 U/L, fosfatasas alcalinas: 211 U/L y LDH: 960 U/L. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -3216,7 +3222,7 @@
           },
           {
             "id": "B",
-            "text": "Anemia por déﬁcit de vitamina B12",
+            "text": "Anemia por déficit de vitamina B12",
             "isCorrect": false
           },
           {
@@ -3235,7 +3241,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Es una anemia hemolítica clásica, probablemente autoinmune (AHAI). Orientan la anemia aguda y severa, con hiperbilirrubinemia indirecta, elevación de LDH. El VCM se puede elevar, por aumento de los reGculocitos. Los microesferocitos se ven en la AHAI, por el daño que sufren los glóbulos; en cambio, la microesferocitosis familiar suele ser un cuadro crónico, menos grave, con esplenomegalia y exacerbación durante los cuadros agudos. La prueba de Coombs directo está positiva en la AHAI y negativa en la mayoría de las otras causas de hemólisis."
+        "explanation": "Es una anemia hemolítica clásica, probablemente autoinmune (AHAI). Orientan la anemia aguda y severa, con hiperbilirrubinemia indirecta, elevación de LDH. El VCM se puede elevar, por aumento de los reticulocitos. Los microesferocitos se ven en la AHAI, por el daño que sufren los glóbulos; en cambio, la microesferocitosis familiar suele ser un cuadro crónico, menos grave, con esplenomegalia y exacerbación durante los cuadros agudos. La prueba de Coombs directo está positiva en la AHAI y negativa en la mayoría de las otras causas de hemólisis."
       },
       {
         "type": "question",
@@ -3573,7 +3579,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 21",
         "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 21.",
         "number": 3,
-        "caseText": "Un paciente de 29 años presenta ictericia, disnea y compromiso marcado del estado general. Su examen Fsico solo muestra ictericia de escleras y piel, sin alteraciones relevantes en el examen segmentario. Sus exámenes de laboratorio muestran hemograma con hematocrito: 12%, hemoglobina: 4,1 g/dL, plaquetas: 250.000/mm³, glóbulos blancos 7.800/mm³, VCM: 103 fL y CHCM: 32 pg; en el fro8s se observa presencia de microesferocitos. Las pruebas hepá8cas muestran GOT: 52 U/L, GPT: 56 U/L, bilirrubina total: 4,1 mg/dL, bilirrubina directa 0,5: mg/dL, GGT: 50 U/L, fosfatasas alcalinas: 211 U/L y LDH: 960 U/L. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente de 29 años presenta ictericia, disnea y compromiso marcado del estado general. Su examen físico solo muestra ictericia de escleras y piel, sin alteraciones relevantes en el examen segmentario. Sus exámenes de laboratorio muestran hemograma con hematocrito: 12%, hemoglobina: 4,1 g/dL, plaquetas: 250.000/mm³, glóbulos blancos 7.800/mm³, VCM: 103 fL y CHCM: 32 pg; en el frotis se observa presencia de microesferocitos. Las pruebas hepáticas muestran GOT: 52 U/L, GPT: 56 U/L, bilirrubina total: 4,1 mg/dL, bilirrubina directa 0,5: mg/dL, GGT: 50 U/L, fosfatasas alcalinas: 211 U/L y LDH: 960 U/L. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -3583,7 +3589,7 @@
           },
           {
             "id": "B",
-            "text": "Anemia por déﬁcit de vitamina B12",
+            "text": "Anemia por déficit de vitamina B12",
             "isCorrect": false
           },
           {
@@ -3602,7 +3608,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Es una anemia hemolítica clásica, probablemente autoinmune (AHAI). Orientan la anemia aguda y severa, con hiperbilirrubinemia indirecta, elevación de LDH. El VCM se puede elevar, por aumento de los reGculocitos. Los microesferocitos se ven en la AHAI, por el daño que sufren los glóbulos; en cambio, la microesferocitosis familiar suele ser un cuadro crónico, menos grave, con esplenomegalia y exacerbación durante los cuadros agudos. La prueba de Coombs directo está positiva en la AHAI y negativa en la mayoría de las otras causas de hemólisis."
+        "explanation": "Es una anemia hemolítica clásica, probablemente autoinmune (AHAI). Orientan la anemia aguda y severa, con hiperbilirrubinemia indirecta, elevación de LDH. El VCM se puede elevar, por aumento de los reticulocitos. Los microesferocitos se ven en la AHAI, por el daño que sufren los glóbulos; en cambio, la microesferocitosis familiar suele ser un cuadro crónico, menos grave, con esplenomegalia y exacerbación durante los cuadros agudos. La prueba de Coombs directo está positiva en la AHAI y negativa en la mayoría de las otras causas de hemólisis."
       },
       {
         "type": "question",
@@ -3670,6 +3676,8 @@
     "topicLabel": "8.10",
     "title": "Hematología 8.10: Microangiopatías Trombóticas (MAT): PTT (Déficit ADAMTS13 / Plasmaféresis) vs SHU",
     "perfilCodes": [
+      "1.08.1.012",
+      "2.01.1.067",
       "1.08.1.003"
     ],
     "tier": 2,
@@ -3679,8 +3687,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Microangiopatías Trombóticas (MAT): PTT (Déficit ADAMTS13 / Plasmaféresis) vs SHU. Código oficial Perfil V3: 1.08.1.003. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.003",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Microangiopatías Trombóticas (MAT): PTT (Déficit ADAMTS13 / Plasmaféresis) vs SHU. Código oficial Perfil V3: 1.08.1.012, 2.01.1.067, 1.08.1.003. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.012, 2.01.1.067, 1.08.1.003",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -3729,7 +3737,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.003",
+              "1.08.1.012, 2.01.1.067, 1.08.1.003",
               "Microangiopatías Trombóticas (MAT): PTT (Déficit ADAMTS13 / Plasmaféresis) vs SHU",
               "Sospecha",
               "Inicial",
@@ -3942,7 +3950,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 21",
         "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 21.",
         "number": 3,
-        "caseText": "Un paciente de 29 años presenta ictericia, disnea y compromiso marcado del estado general. Su examen Fsico solo muestra ictericia de escleras y piel, sin alteraciones relevantes en el examen segmentario. Sus exámenes de laboratorio muestran hemograma con hematocrito: 12%, hemoglobina: 4,1 g/dL, plaquetas: 250.000/mm³, glóbulos blancos 7.800/mm³, VCM: 103 fL y CHCM: 32 pg; en el fro8s se observa presencia de microesferocitos. Las pruebas hepá8cas muestran GOT: 52 U/L, GPT: 56 U/L, bilirrubina total: 4,1 mg/dL, bilirrubina directa 0,5: mg/dL, GGT: 50 U/L, fosfatasas alcalinas: 211 U/L y LDH: 960 U/L. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente de 29 años presenta ictericia, disnea y compromiso marcado del estado general. Su examen físico solo muestra ictericia de escleras y piel, sin alteraciones relevantes en el examen segmentario. Sus exámenes de laboratorio muestran hemograma con hematocrito: 12%, hemoglobina: 4,1 g/dL, plaquetas: 250.000/mm³, glóbulos blancos 7.800/mm³, VCM: 103 fL y CHCM: 32 pg; en el frotis se observa presencia de microesferocitos. Las pruebas hepáticas muestran GOT: 52 U/L, GPT: 56 U/L, bilirrubina total: 4,1 mg/dL, bilirrubina directa 0,5: mg/dL, GGT: 50 U/L, fosfatasas alcalinas: 211 U/L y LDH: 960 U/L. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -3952,7 +3960,7 @@
           },
           {
             "id": "B",
-            "text": "Anemia por déﬁcit de vitamina B12",
+            "text": "Anemia por déficit de vitamina B12",
             "isCorrect": false
           },
           {
@@ -3971,7 +3979,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Es una anemia hemolítica clásica, probablemente autoinmune (AHAI). Orientan la anemia aguda y severa, con hiperbilirrubinemia indirecta, elevación de LDH. El VCM se puede elevar, por aumento de los reGculocitos. Los microesferocitos se ven en la AHAI, por el daño que sufren los glóbulos; en cambio, la microesferocitosis familiar suele ser un cuadro crónico, menos grave, con esplenomegalia y exacerbación durante los cuadros agudos. La prueba de Coombs directo está positiva en la AHAI y negativa en la mayoría de las otras causas de hemólisis."
+        "explanation": "Es una anemia hemolítica clásica, probablemente autoinmune (AHAI). Orientan la anemia aguda y severa, con hiperbilirrubinemia indirecta, elevación de LDH. El VCM se puede elevar, por aumento de los reticulocitos. Los microesferocitos se ven en la AHAI, por el daño que sufren los glóbulos; en cambio, la microesferocitosis familiar suele ser un cuadro crónico, menos grave, con esplenomegalia y exacerbación durante los cuadros agudos. La prueba de Coombs directo está positiva en la AHAI y negativa en la mayoría de las otras causas de hemólisis."
       },
       {
         "type": "question",
@@ -4038,7 +4046,8 @@
     "topicLabel": "8.11",
     "title": "Hematología 8.11: Fisiología de la Hemostasia y Evaluación de Laboratorio: Recuento Plaquetario, TP/INR, TTPK y Fibrinógeno",
     "perfilCodes": [
-      "1.08.1.005"
+      "1.08.4.005",
+      "1.08.4.007"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -4047,8 +4056,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Fisiología de la Hemostasia y Evaluación de Laboratorio: Recuento Plaquetario, TP/INR, TTPK y Fibrinógeno. Código oficial Perfil V3: 1.08.1.005.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.005",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Fisiología de la Hemostasia y Evaluación de Laboratorio: Recuento Plaquetario, TP/INR, TTPK y Fibrinógeno. Código oficial Perfil V3: 1.08.4.005, 1.08.4.007.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.4.005, 1.08.4.007",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4091,7 +4100,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.005",
+              "1.08.4.005, 1.08.4.007",
               "Fisiología de la Hemostasia y Evaluación de Laboratorio: Recuento Plaquetario, TP/INR, TTPK y Fibrinógeno",
               "Sospecha",
               "Inicial",
@@ -4307,7 +4316,9 @@
     "topicLabel": "8.12",
     "title": "Hematología 8.12: Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño: Criterios, Sangrado y Terapia GES",
     "perfilCodes": [
-      "1.08.1.012"
+      "1.08.1.012",
+      "1.08.2.009",
+      "2.01.1.035"
     ],
     "tier": 3,
     "realQuestionCount": 8,
@@ -4316,8 +4327,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño: Criterios, Sangrado y Terapia GES. Código oficial Perfil V3: 1.08.1.012. Este tema ha sido evaluado en 8 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.012",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño: Criterios, Sangrado y Terapia GES. Código oficial Perfil V3: 1.08.1.012, 1.08.2.009, 2.01.1.035. Este tema ha sido evaluado en 8 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.012, 1.08.2.009, 2.01.1.035",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4366,7 +4377,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.012",
+              "1.08.1.012, 1.08.2.009, 2.01.1.035",
               "Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño: Criterios, Sangrado y Terapia GES",
               "Sospecha",
               "Inicial",
@@ -4826,7 +4837,9 @@
     "topicLabel": "8.13",
     "title": "Hematología 8.13: Coagulopatías Congénitas: Hemofilia A (Factor VIII), Hemofilia B (Factor IX) y Enfermedad de von Willebrand",
     "perfilCodes": [
-      "1.08.1.006"
+      "1.08.1.006",
+      "1.08.2.003",
+      "1.08.4.005"
     ],
     "tier": 3,
     "realQuestionCount": 5,
@@ -4835,8 +4848,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Coagulopatías Congénitas: Hemofilia A (Factor VIII), Hemofilia B (Factor IX) y Enfermedad de von Willebrand. Código oficial Perfil V3: 1.08.1.006. Este tema ha sido evaluado en 5 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.006",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Coagulopatías Congénitas: Hemofilia A (Factor VIII), Hemofilia B (Factor IX) y Enfermedad de von Willebrand. Código oficial Perfil V3: 1.08.1.006, 1.08.2.003, 1.08.4.005. Este tema ha sido evaluado en 5 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.006, 1.08.2.003, 1.08.4.005",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4885,7 +4898,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.006",
+              "1.08.1.006, 1.08.2.003, 1.08.4.005",
               "Coagulopatías Congénitas: Hemofilia A (Factor VIII), Hemofilia B (Factor IX) y Enfermedad de von Willebrand",
               "Sospecha",
               "Inicial",
@@ -5354,7 +5367,10 @@
     "topicLabel": "8.14",
     "title": "Hematología 8.14: Coagulopatías Adquiridas: Hepatopatía Crónica, Déficit de Vitamina K y Manejo de Anticoagulantes",
     "perfilCodes": [
-      "1.08.1.005"
+      "1.08.1.005",
+      "1.08.2.002",
+      "1.08.3.012",
+      "1.08.3.006"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -5363,8 +5379,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Coagulopatías Adquiridas: Hepatopatía Crónica, Déficit de Vitamina K y Manejo de Anticoagulantes. Código oficial Perfil V3: 1.08.1.005.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.005",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Coagulopatías Adquiridas: Hepatopatía Crónica, Déficit de Vitamina K y Manejo de Anticoagulantes. Código oficial Perfil V3: 1.08.1.005, 1.08.2.002, 1.08.3.012, 1.08.3.006.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.005, 1.08.2.002, 1.08.3.012, 1.08.3.006",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -5407,7 +5423,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.005",
+              "1.08.1.005, 1.08.2.002, 1.08.3.012, 1.08.3.006",
               "Coagulopatías Adquiridas: Hepatopatía Crónica, Déficit de Vitamina K y Manejo de Anticoagulantes",
               "Sospecha",
               "Inicial",
@@ -5633,7 +5649,8 @@
     "topicLabel": "8.15",
     "title": "Hematología 8.15: Coagulación Intravascular Diseminada (CID): Criterios ISTH, Sepsis/Obstetricia y Manejo",
     "perfilCodes": [
-      "1.08.2.001"
+      "1.08.2.001",
+      "1.08.3.005"
     ],
     "tier": 2,
     "realQuestionCount": 1,
@@ -5642,8 +5659,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Coagulación Intravascular Diseminada (CID): Criterios ISTH, Sepsis/Obstetricia y Manejo. Código oficial Perfil V3: 1.08.2.001. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.2.001",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Coagulación Intravascular Diseminada (CID): Criterios ISTH, Sepsis/Obstetricia y Manejo. Código oficial Perfil V3: 1.08.2.001, 1.08.3.005. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.2.001, 1.08.3.005",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -5692,7 +5709,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.2.001",
+              "1.08.2.001, 1.08.3.005",
               "Coagulación Intravascular Diseminada (CID): Criterios ISTH, Sepsis/Obstetricia y Manejo",
               "Sospecha",
               "Inicial",
@@ -5949,7 +5966,8 @@
     "topicLabel": "8.16",
     "title": "Hematología 8.16: Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante",
     "perfilCodes": [
-      "1.08.1.009"
+      "1.08.1.009",
+      "1.08.4.009"
     ],
     "tier": 3,
     "realQuestionCount": 4,
@@ -5958,8 +5976,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante. Código oficial Perfil V3: 1.08.1.009. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.009",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante. Código oficial Perfil V3: 1.08.1.009, 1.08.4.009. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.009, 1.08.4.009",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -6008,7 +6026,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.009",
+              "1.08.1.009, 1.08.4.009",
               "Leucemias Agudas: Mieloide Aguda (LMA) y Linfoblástica Aguda (LLA): Blastos >20%, Bastones de Auer y Trasplante",
               "Sospecha",
               "Inicial",
@@ -6808,7 +6826,8 @@
     "topicLabel": "8.18",
     "title": "Hematología 8.18: Linfomas: Linfoma de Hodgkin (Reed-Sternberg, Ann Arbor, Síntomas B) vs Linfomas No Hodgkin (LDGCB y Folicular)",
     "perfilCodes": [
-      "1.08.1.011"
+      "1.08.1.011",
+      "1.08.5.002"
     ],
     "tier": 3,
     "realQuestionCount": 5,
@@ -6817,8 +6836,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Linfomas: Linfoma de Hodgkin (Reed-Sternberg, Ann Arbor, Síntomas B) vs Linfomas No Hodgkin (LDGCB y Folicular). Código oficial Perfil V3: 1.08.1.011. Este tema ha sido evaluado en 5 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.011",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Linfomas: Linfoma de Hodgkin (Reed-Sternberg, Ann Arbor, Síntomas B) vs Linfomas No Hodgkin (LDGCB y Folicular). Código oficial Perfil V3: 1.08.1.011, 1.08.5.002. Este tema ha sido evaluado en 5 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.011, 1.08.5.002",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -6867,7 +6886,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.011",
+              "1.08.1.011, 1.08.5.002",
               "Linfomas: Linfoma de Hodgkin (Reed-Sternberg, Ann Arbor, Síntomas B) vs Linfomas No Hodgkin (LDGCB y Folicular)",
               "Sospecha",
               "Inicial",
@@ -7212,7 +7231,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 140",
         "notes": "[SLIDE 14] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 140.",
         "number": 3,
-        "caseText": "Un paciente de 15 años consulta por tos de 7 días de evolución asociada a cefalea y malestar general, que en los úl8mos día ha evolucionado con empeoramiento de los síntomas, diﬁcultad respiratoria y edema de la cara. Al examen Fsico se observa agitado, con eritema facial, edema de párpados y lengua de mayor tamaño que lo normal. Se aprecian yugulares visibles en el cuello y se palpan adenopa`as cervicales múl8ples, de hasta 2 cm de diámetro. Se solicita radiograFa de tórax que muestra presencia de una masa medias`nica. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente de 15 años consulta por tos de 7 días de evolución asociada a cefalea y malestar general, que en los últimos día ha evolucionado con empeoramiento de los síntomas, dificultad respiratoria y edema de la cara. Al examen físico se observa agitado, con eritema facial, edema de párpados y lengua de mayor tamaño que lo normal. Se aprecian yugulares visibles en el cuello y se palpan adenopa`as cervicales múltiples, de hasta 2 cm de diámetro. Se solicita radiografía de tórax que muestra presencia de una masa medias`nica. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -7241,7 +7260,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Tiene un síndrome de vena cava superior, cuyas causas más frecuentes son el cáncer de células pequeñas y el linfoma. Por la edad y las adenopaVas, lo más probable, por lejos es un linfoma de Hodgkin. Si hubiese sido un adulto mayor fumador, sería más probable el carcinoma broncogénico."
+        "explanation": "Tiene un síndrome de vena cava superior, cuyas causas más frecuentes son el cáncer de células pequeñas y el linfoma. Por la edad y las adenopatías, lo más probable, por lejos es un linfoma de Hodgkin. Si hubiese sido un adulto mayor fumador, sería más probable el carcinoma broncogénico."
       },
       {
         "type": "question",
@@ -7249,7 +7268,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 102",
         "notes": "[SLIDE 15] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 102.",
         "number": 4,
-        "caseText": "Un paciente de 55 años presenta un cuadro de 3 meses de evolución de astenia y baja de peso de 5 kg, a lo que se ha agregado sudoración en la noche y ﬁebre intermitente hasta 38,5 °C que ha manejado con paracetamol. Al examen Fsico está hemodinámicamente estable, con signos vitales dentro de rango normal, y se palpan adenopa`as cervicales de consistencia gomosa en ambos lados de la zona anterior del cuello. Se solicita hemograma que muestra hematocrito: 37%, hemoglobina: 12,2 g/dL, glóbulos blancos: 5.600/mm³ y plaquetas: 160.000/mm³. Se solicita radiograFa de tórax que muestra múl8ples adenopa`as medias`nicas y TAC de abdomen y pelvis que muestra presencia de múl8ples adenopa`as retroperitoneales. ¿Cuál es el examen de elección para determinar el diagnós8co en este caso?",
+        "caseText": "Un paciente de 55 años presenta un cuadro de 3 meses de evolución de astenia y baja de peso de 5 kg, a lo que se ha agregado sudoración en la noche y fiebre intermitente hasta 38,5 °C que ha manejado con paracetamol. Al examen físico está hemodinámicamente estable, con signos vitales dentro de rango normal, y se palpan adenopa`as cervicales de consistencia gomosa en ambos lados de la zona anterior del cuello. Se solicita hemograma que muestra hematocrito: 37%, hemoglobina: 12,2 g/dL, glóbulos blancos: 5.600/mm³ y plaquetas: 160.000/mm³. Se solicita radiografía de tórax que muestra múltiples adenopa`as medias`nicas y TAC de abdomen y pelvis que muestra presencia de múltiples adenopa`as retroperitoneales. ¿Cuál es el examen de elección para determinar el diagnóstico en este caso?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -7309,7 +7328,8 @@
     "topicLabel": "8.19",
     "title": "Hematología 8.19: Mieloma Múltiple: Criterios CRAB, Pico Monoclonal, Gammapatía Monoclonal Incierta (GMSI)",
     "perfilCodes": [
-      "1.08.1.007"
+      "1.08.1.007",
+      "1.08.4.004"
     ],
     "tier": 2,
     "realQuestionCount": 2,
@@ -7318,8 +7338,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Mieloma Múltiple: Criterios CRAB, Pico Monoclonal, Gammapatía Monoclonal Incierta (GMSI). Código oficial Perfil V3: 1.08.1.007. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.007",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Mieloma Múltiple: Criterios CRAB, Pico Monoclonal, Gammapatía Monoclonal Incierta (GMSI). Código oficial Perfil V3: 1.08.1.007, 1.08.4.004. Este tema ha sido evaluado en 2 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.007, 1.08.4.004",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -7368,7 +7388,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.007",
+              "1.08.1.007, 1.08.4.004",
               "Mieloma Múltiple: Criterios CRAB, Pico Monoclonal, Gammapatía Monoclonal Incierta (GMSI)",
               "Sospecha",
               "Inicial",
@@ -7629,7 +7649,7 @@
             "isCorrect": false
           }
         ],
-        "explanation": "Diagnóstico: **Mieloma múltiple** (opción **A**). Anemia, insuﬁciencia renal, dolores óseos. Es un mieloma.. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL)."
+        "explanation": "Diagnóstico: **Mieloma múltiple** (opción **A**). Anemia, insuficiencia renal, dolores óseos. Es un mieloma.. El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL)."
       },
       {
         "type": "bento",
@@ -7659,7 +7679,8 @@
     "topicLabel": "8.20",
     "title": "Hematología 8.20: Neoplasias Mieloproliferativas (Policitemia Vera JAK2, TE, Mielofibrosis) y Mielodisplasia",
     "perfilCodes": [
-      "1.08.1.018"
+      "1.08.1.018",
+      "1.08.1.017"
     ],
     "tier": 2,
     "realQuestionCount": 1,
@@ -7668,8 +7689,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Neoplasias Mieloproliferativas (Policitemia Vera JAK2, TE, Mielofibrosis) y Mielodisplasia. Código oficial Perfil V3: 1.08.1.018. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.018",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Neoplasias Mieloproliferativas (Policitemia Vera JAK2, TE, Mielofibrosis) y Mielodisplasia. Código oficial Perfil V3: 1.08.1.018, 1.08.1.017. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.018, 1.08.1.017",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -7718,7 +7739,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.018",
+              "1.08.1.018, 1.08.1.017",
               "Neoplasias Mieloproliferativas (Policitemia Vera JAK2, TE, Mielofibrosis) y Mielodisplasia",
               "Sospecha",
               "Inicial",
@@ -7998,7 +8019,8 @@
     "topicLabel": "8.21",
     "title": "Hematología 8.21: Neutropenia Febril en Oncología: Estratificación MASCC, Monoterapia Antipseudomónica y Urgencia Médica",
     "perfilCodes": [
-      "1.08.2.006"
+      "1.08.2.006",
+      "1.04.1.020"
     ],
     "tier": 3,
     "realQuestionCount": 4,
@@ -8007,8 +8029,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Neutropenia Febril en Oncología: Estratificación MASCC, Monoterapia Antipseudomónica y Urgencia Médica. Código oficial Perfil V3: 1.08.2.006. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.2.006",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Neutropenia Febril en Oncología: Estratificación MASCC, Monoterapia Antipseudomónica y Urgencia Médica. Código oficial Perfil V3: 1.08.2.006, 1.04.1.020. Este tema ha sido evaluado en 4 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.2.006, 1.04.1.020",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -8057,7 +8079,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.2.006",
+              "1.08.2.006, 1.04.1.020",
               "Neutropenia Febril en Oncología: Estratificación MASCC, Monoterapia Antipseudomónica y Urgencia Médica",
               "Sospecha",
               "Inicial",
@@ -8472,7 +8494,9 @@
     "topicLabel": "8.22",
     "title": "Hematología 8.22: Síndrome de Lisis Tumoral (Cairo-Bishop), Hipercalcemia de Neoplasia y Compresión Medular",
     "perfilCodes": [
-      "1.08.2.005"
+      "1.08.2.005",
+      "1.08.2.004",
+      "1.08.2.007"
     ],
     "tier": 2,
     "realQuestionCount": 3,
@@ -8481,8 +8505,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome de Lisis Tumoral (Cairo-Bishop), Hipercalcemia de Neoplasia y Compresión Medular. Código oficial Perfil V3: 1.08.2.005. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.2.005",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Síndrome de Lisis Tumoral (Cairo-Bishop), Hipercalcemia de Neoplasia y Compresión Medular. Código oficial Perfil V3: 1.08.2.005, 1.08.2.004, 1.08.2.007. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.2.005, 1.08.2.004, 1.08.2.007",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -8531,7 +8555,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.2.005",
+              "1.08.2.005, 1.08.2.004, 1.08.2.007",
               "Síndrome de Lisis Tumoral (Cairo-Bishop), Hipercalcemia de Neoplasia y Compresión Medular",
               "Específico",
               "Inicial",
@@ -8728,7 +8752,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 20",
         "notes": "[SLIDE 10] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 20.",
         "number": 3,
-        "caseText": "Un paciente de 55 años, diagnos8cado con un linfoma no Hodgkin con múl8ples masas medias`nicas y abdominales de gran tamaño, de hasta 25 cm, inicia quimioterapia endovenosa. Al tercer día evoluciona con malestar general marcado, obnubilación y disnea. Al examen Fsico, se aprecia desorientado en el 8empo y el espacio, en malas condiciones generales y se solicitan exámenes de laboratorio, entre los que destacan ácido úrico: 13 mg/dL, sodio: 140 mEq/L, potasio: 5,9 mEq/L, fósforo: 6,5 mg/dl, crea8nina plasmá8ca: 2,1 mg/dl y hematocrito 22%. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente de 55 años, diagnosticado con un linfoma no Hodgkin con múltiples masas medias`nicas y abdominales de gran tamaño, de hasta 25 cm, inicia quimioterapia endovenosa. Al tercer día evoluciona con malestar general marcado, obnubilación y disnea. Al examen físico, se aprecia desorientado en el tiempo y el espacio, en malas condiciones generales y se solicitan exámenes de laboratorio, entre los que destacan ácido úrico: 13 mg/dL, sodio: 140 mEq/L, potasio: 5,9 mEq/L, fósforo: 6,5 mg/dl, creatinina plasmática: 2,1 mg/dl y hematocrito 22%. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -8757,7 +8781,7 @@
             "isCorrect": true
           }
         ],
-        "explanation": "Es un síndrome de lisis tumoral clásico, con rotura celular masiva, que se reﬂeja en hiperuricemia, hiperkalemia, hiperfosfemia, hipocalcemia, acidosis, falla renal, compromiso de conciencia, compromiso hemodinámico. Se trata con hidratación, hipouricemiantes (ej. alopurinol) y manejo de los electrolitos según las alteraciones (ej. Bicarbonato, calcio, furosemida, insulina más glucosa, resinas de intercambio como el sulfonato de poliestireno, etc.)."
+        "explanation": "Es un síndrome de lisis tumoral clásico, con rotura celular masiva, que se refleja en hiperuricemia, hiperkalemia, hiperfosfemia, hipocalcemia, acidosis, falla renal, compromiso de conciencia, compromiso hemodinámico. Se trata con hidratación, hipouricemiantes (ej. alopurinol) y manejo de los electrolitos según las alteraciones (ej. Bicarbonato, calcio, furosemida, insulina más glucosa, resinas de intercambio como el sulfonato de poliestireno, etc.)."
       },
       {
         "type": "question",
@@ -8823,7 +8847,10 @@
     "topicLabel": "8.23",
     "title": "Hematología 8.23: Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF: Cuándo Estudiar y Manejo",
     "perfilCodes": [
-      "1.08.1.019"
+      "1.08.1.019",
+      "1.11.1.021",
+      "1.08.4.006",
+      "1.08.3.012"
     ],
     "tier": 2,
     "realQuestionCount": 3,
@@ -8832,8 +8859,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF: Cuándo Estudiar y Manejo. Código oficial Perfil V3: 1.08.1.019. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.1.019",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF: Cuándo Estudiar y Manejo. Código oficial Perfil V3: 1.08.1.019, 1.11.1.021, 1.08.4.006, 1.08.3.012. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.1.019, 1.11.1.021, 1.08.4.006, 1.08.3.012",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -8882,7 +8909,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.1.019",
+              "1.08.1.019, 1.11.1.021, 1.08.4.006, 1.08.3.012",
               "Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF: Cuándo Estudiar y Manejo",
               "Sospecha",
               "Inicial",
@@ -9190,7 +9217,8 @@
     "topicLabel": "8.24",
     "title": "Hematología 8.24: Medicina Transfusional y Manejo de Hemocomponentes: Glóbulos Rojos, Plaquetas, Plasma y Reacciones Adversas",
     "perfilCodes": [
-      "1.08.3.005"
+      "1.08.3.005",
+      "1.08.3.011"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -9199,8 +9227,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Medicina Transfusional y Manejo de Hemocomponentes: Glóbulos Rojos, Plaquetas, Plasma y Reacciones Adversas. Código oficial Perfil V3: 1.08.3.005.",
-        "kicker": "CÓDIGO PERFIL V3: 1.08.3.005",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Medicina Transfusional y Manejo de Hemocomponentes: Glóbulos Rojos, Plaquetas, Plasma y Reacciones Adversas. Código oficial Perfil V3: 1.08.3.005, 1.08.3.011.",
+        "kicker": "CÓDIGO PERFIL V3: 1.08.3.005, 1.08.3.011",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -9243,7 +9271,7 @@
           {
             "highlight": true,
             "cells": [
-              "1.08.3.005",
+              "1.08.3.005, 1.08.3.011",
               "Medicina Transfusional y Manejo de Hemocomponentes: Glóbulos Rojos, Plaquetas, Plasma y Reacciones Adversas",
               "Específico",
               "Inicial",

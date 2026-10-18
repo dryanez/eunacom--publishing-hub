@@ -34,7 +34,8 @@ module.exports = {
         { show: ['tra'], note: 'Primer mecanismo: el trauma cerrado',
           say: 'Partamos por el trauma abdominal cerrado, el del choque automovilístico, la caída o el golpe. Aquí no hay herida que explorar, así que la pregunta es cómo sabemos si hay algo roto por dentro. Un detalle antes: no hay garantía GES específica, el manejo sigue el protocolo ATLS.' },
         { show: ['fas'], note: 'Dos herramientas: la clínica y la eco-FAST',
-          say: 'Usamos dos herramientas. La clínica, es decir, si el paciente está estable y si tiene signos peritoneales. Y la eco FAST, la ecografía focalizada en trauma, que se hace al lado de la camilla y busca una sola cosa: líquido libre en el abdomen.' },
+          say: 'Usamos dos herramientas. La clínica, es decir, si el paciente está estable y si tiene signos peritoneales. Y la eco FAST, la ecografía focalizada en trauma, que se hace al lado de la camilla y busca una sola cosa: líquido libre en el abdomen. Mira esta ecografía: la línea negra entre el hígado y el riñón es líquido libre.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-26/01_fast_liquido_libre__atls_p144.jpg', label: 'FAST positivo', at: 'Mira esta ecografía', credit: 'ATLS 10.ª ed., p. 144' } },
         { show: ['est'], note: 'Todo negativo: se observa',
           say: 'Si el paciente está estable, sin signos peritoneales y con la FAST negativa, la conducta es la observación, con monitorización y reevaluaciones clínicas seriadas. No se opera a ciegas.' },
         { show: ['tac'], note: 'Alta energía: se agrega TAC',
@@ -51,13 +52,15 @@ module.exports = {
       cards: [
         { title: 'Víscera hueca', tag: 'Intestino', kind: 'alert', items: [
           { t: 'Peritonitis y neumoperitoneo', d: 'El contenido intestinal sale al peritoneo',
-            say: 'Veamos qué se puede romper. Si se rompe una víscera hueca, como el intestino, lo que sale es contenido intestinal y aire: el paciente hace peritonitis y neumoperitoneo. Es la misma lógica de la úlcera perforada que vimos en la clase de urgencias del tubo digestivo alto: aire libre significa víscera hueca rota, y eso se opera.' },
+            say: 'Veamos qué se puede romper. Si se rompe una víscera hueca, como el intestino, lo que sale es contenido intestinal y aire: el paciente hace peritonitis y neumoperitoneo. Es la misma lógica de la úlcera perforada que vimos en la clase de urgencias del tubo digestivo alto: aire libre significa víscera hueca rota, y eso se opera. Mira esta radiografía: bajo el diafragma, una delgada media luna negra.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-26/04_neumoperitoneo__cto-digestivo_p65.jpg', label: 'Neumoperitoneo', at: 'Mira esta radiografía', credit: 'Manual CTO Digestivo 14.ª ed., p. 65' } },
         ] },
         { title: 'Víscera sólida', tag: 'Bazo e hígado', kind: 'key', items: [
           { t: 'Hemoperitoneo', d: 'Sangre libre en el abdomen',
             say: 'Si se rompe una víscera sólida, el bazo o el hígado, lo que sale es sangre: hemoperitoneo. Y eso es justamente lo que detecta la FAST como líquido libre.' },
           { t: 'Manejo conservador si está estable', d: 'No toda lesión de bazo se opera',
-            say: 'Pero ojo, que esto se pregunta: el bazo y el hígado lesionados se manejan de forma conservadora si el paciente está estable. Lo que decide la cirugía no es el órgano roto, es la estabilidad del paciente.' },
+            say: 'Pero ojo, que esto se pregunta: el bazo y el hígado lesionados se manejan de forma conservadora si el paciente está estable. Lo que decide la cirugía no es el órgano roto, es la estabilidad del paciente. Mira esta tomografía: una rotura del bazo en un paciente estable.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-26/01_rotura-esplenica-tc__cto-cirugia_p69.jpg', label: 'Rotura esplénica', at: 'Mira esta tomografía', credit: 'Manual CTO Cirugía 14.ª ed., p. 69' } },
         ] },
         { title: 'Lavado peritoneal diagnóstico', tag: 'Obsoleto', kind: 'normal', items: [
           { t: 'Reemplazado por la eco-FAST', d: 'Si aparece como alternativa, descártalo',
@@ -170,7 +173,11 @@ module.exports = {
         { show: ['tor', 'rx'], note: 'Ahora el tórax: clínica y radiografía',
           say: 'Pasemos al tórax. En el trauma torácico cerrado y en el por arma blanca, la evaluación es la clínica más la radiografía de tórax. Y el manejo no es operar de entrada, sino tratar la complicación que encuentres.' },
         { show: ['neu', 'tub'], note: 'Aire o sangre en la pleura: tubo pleural',
-          say: 'Si hay neumotórax o hemotórax, aire o sangre en la pleura, se instala un tubo pleural. Y ese tubo no solo trata: además mide cuánta sangre sale, y ese número va a ser clave en un momento. En el tórax hay dos cifras que tienes que llevarte sí o sí, y salen justamente de ese tubo.' },
+          say: 'Si hay neumotórax o hemotórax, aire o sangre en la pleura, se instala un tubo pleural. Y ese tubo no solo trata: además mide cuánta sangre sale, y ese número va a ser clave en un momento. Mira esta radiografía: un neumotórax derecho, con el pulmón retraído hacia el hilio y alrededor un espacio negro, sin trama pulmonar. Y en esta otra, una opacidad blanca que ocupa la base del hemitórax derecho: es líquido, un hemotórax.',
+          photos: [
+            { src: 'biblioteca/01_gastroenterologia/gastro-26/02_neumotorax-rx__cto-neumo_p116.jpg', label: 'Neumotórax', at: 'Mira esta radiografía', credit: 'Manual CTO Neumología 14.ª ed., p. 116' },
+            { src: 'biblioteca/01_gastroenterologia/gastro-26/03_hemotorax-derrame-rx__cto-neumo_p111.jpg', label: 'Hemotórax: líquido pleural', at: 'Y en esta otra', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
+          ] },
         { show: ['con', 'sop'], note: 'Contusión: soporte',
           say: 'Si hay contusión pulmonar, es decir, el pulmón golpeado sin que haya aire ni sangre en la pleura, no hay nada que drenar. El tratamiento es soporte respiratorio.' },
         { show: ['tap', 'per'], note: 'Taponamiento: descomprimir',
@@ -191,7 +198,8 @@ module.exports = {
         ] },
         { title: 'Otras indicaciones', tag: 'Toracotomía', kind: 'alert', items: [
           { t: 'Taponamiento', d: 'Además de descomprimir',
-            say: 'Las otras indicaciones de toracotomía son tres. La primera es el taponamiento cardíaco: la pericardiocentesis descomprime, pero la fuente del sangrado hay que resolverla.' },
+            say: 'Las otras indicaciones de toracotomía son tres. La primera es el taponamiento cardíaco: la pericardiocentesis descomprime, pero la fuente del sangrado hay que resolverla. Mira esta ecografía: el líquido negro alrededor del corazón es el derrame pericárdico.',
+            photos: [{ src: 'biblioteca/01_gastroenterologia/gastro-26/05_taponamiento-eco-derrame-pericardico__knoop_p185.jpg', label: 'Derrame pericárdico', at: 'Mira esta ecografía', credit: 'Knoop, Atlas of Emergency Medicine, p. 185' }] },
           { t: 'Lesión de grandes vasos o vía aérea', d: 'Sangrado o fuga que no se controla con tubo',
             say: 'La segunda, la lesión de los grandes vasos o de la vía aérea, que ningún tubo pleural va a reparar.' },
           { t: 'Todo trauma torácico por arma de fuego', d: 'Igual que en el abdomen',
@@ -201,41 +209,47 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Trauma abdominal y torácico',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-26/01_fast_liquido_libre__atls_p144.jpg', label: 'FAST positivo', credit: 'ATLS 10.ª ed., p. 144' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-26/01_rotura-esplenica-tc__cto-cirugia_p69.jpg', label: 'Rotura esplénica', credit: 'Manual CTO Cirugía 14.ª ed., p. 69' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-26/02_neumotorax-rx__cto-neumo_p116.jpg', label: 'Neumotórax', credit: 'Manual CTO Neumología 14.ª ed., p. 116' },
+      type: 'flow',
+      kicker: 'Neumotórax hipertensivo',
+      title: 'Neumotórax hipertensivo: se trata antes de la radiografía',
+      nodes: [
+        { id: 'tra', col: 0, row: 1, k: 'cause', t: 'Trauma o ventilación a presión', s: 'El aire entra y no sale' },
+        { id: 'cli', col: 1, row: 1, k: 'effect', t: 'Disnea, hipotensión, taquicardia', s: 'Yugulares ingurgitadas' },
+        { id: 'exa', col: 2, row: 1, k: 'mech', t: 'Sin murmullo vesicular y timpanismo', s: 'Tráquea desviada: signo tardío' },
+        { id: 'agu', col: 3, row: 0, k: 'alert', t: 'Descompresión con aguja', s: '5.º espacio, por delante de la línea axilar media' },
+        { id: 'tub', col: 4, row: 0, k: 'good', t: 'Tubo pleural', s: 'Sello de agua y oxígeno' },
+        { id: 'rx', col: 4, row: 2, k: 'trap', t: 'Radiografía después', s: 'No se espera para tratar' },
+      ],
+      edges: [
+        { from: 'tra', to: 'cli' }, { from: 'cli', to: 'exa' }, { from: 'exa', to: 'agu', label: 'clínico' }, { from: 'agu', to: 'tub' }, { from: 'exa', to: 'rx' },
       ],
       steps: [
-        { note: 'Líquido libre en Morrison',
-          say: 'En la ecografía FAST, la línea negra entre el hígado y el riñón es líquido libre en el espacio de Morrison. En un paciente inestable, eso significa pabellón.' },
-        { note: 'Bazo lacerado en la TC',
-          say: 'Y en un paciente estable, la tomografía muestra la lesión: aquí, una rotura del bazo.' },
-        { note: 'Aire en la pleura: tubo pleural',
-          say: 'Pasando al tórax, esta radiografía muestra un neumotórax: un hemitórax negro, sin trama, con el pulmón colapsado hacia el hilio. Si hay aire en la pleura, se instala un tubo pleural.' },
+        { show: ['tra', 'cli'], note: 'Una urgencia clínica',
+          say: 'El neumotórax hipertensivo es una urgencia clínica, que no se confirma con radiografía. Tras un trauma o una ventilación con presión positiva, aparecen disnea progresiva, hipotensión, taquicardia e ingurgitación yugular.' },
+        { show: ['exa'], note: 'Qué encuentras al examen',
+          say: 'Al examen no hay murmullo vesicular y el tórax suena timpánico de un lado. La desviación de la tráquea hacia el lado sano es un signo tardío. El aire atrapado comprime el mediastino y reduce el retorno venoso.' },
+        { show: ['agu', 'tub'], note: 'Descomprimir de inmediato',
+          say: 'El tratamiento es descomprimir de inmediato, con una aguja o un catéter grueso, de catorce a dieciséis, en el quinto espacio intercostal, por delante de la línea axilar media, sobre el borde superior de la costilla. También se acepta el segundo espacio en la línea medioclavicular. Después, un tubo pleural definitivo con sello de agua, y oxígeno.' },
+        { show: ['rx'], note: 'La radiografía va después',
+          say: 'La radiografía se pide después, y la causa, trauma, fístula o barotrauma, se maneja luego. Esperar la imagen para tratar es la trampa.' },
       ],
     },
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Sangre en la pleura y aire en el abdomen',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El aire que no sale',
       images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-26/03_hemotorax-derrame-rx__cto-neumo_p111.jpg', label: 'Hemotórax: líquido en la pleura', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-26/04_neumoperitoneo__cto-digestivo_p65.jpg', label: 'Neumoperitoneo', credit: 'Manual CTO Digestivo 14.ª ed., p. 65' },
+        { src: 'animaciones/gastro-26/A1_neumotorax_hipertensivo.mp4', label: 'Neumotórax hipertensivo', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Opacidad pleural: tubo que trata y mide',
-          say: 'Aquí un hemitórax está ocupado por una opacidad blanca: líquido en la pleura, que en el trauma es un hemotórax. Se instala un tubo pleural, que además mide cuánta sangre sale.' },
-        { note: 'Víscera hueca rota: aire libre',
-          say: 'Y si se rompe una víscera hueca, como el intestino, sale aire: bajo el diafragma se ve una delgada media luna negra, el neumoperitoneo. Es la misma lógica de la úlcera perforada.' },
+        { note: 'Pulmón colapsado y mediastino desplazado',
+          say: 'Mira cómo el aire queda atrapado en la pleura: el pulmón se colapsa y el mediastino es empujado hacia el lado sano. Eso reduce el retorno venoso, y por eso hay hipotensión. Se diagnostica con la clínica, y se descomprime con una aguja gruesa en el quinto espacio intercostal, antes de pedir la radiografía.' },
       ],
     },
+
+
 
     {
       type: 'pathway',
@@ -351,6 +365,44 @@ module.exports = {
         options: 'Las opciones: mantener el tubo y observar, toracotomía, transfundir y reevaluar en seis horas, cambiar el tubo por uno de mayor calibre, o TAC de tórax antes de decidir. Piénsalo.',
         answer: 'Es la B, toracotomía. Mil ochocientos mililitros de entrada supera el corte de mil quinientos: es un hemotórax masivo, con una hemorragia activa que el tubo no va a detener. El distractor tentador es transfundir y reevaluar, pero reponer sangre sin controlar la fuente lleva al shock. Y el TAC solo retrasa una cirugía que ya está indicada. Cambiar el tubo por uno más grueso tampoco resuelve nada: el problema no es el drenaje, es la fuente del sangrado.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.2.011 · Neumotórax hipertensivo",
+      "stem": "Hombre de 25 años, motorista, tras un choque presenta disnea intensa. FR 36 por minuto, SatO2 82 %, PA 75/40 mmHg, FC 140 por minuto, ingurgitación yugular, tráquea desviada a la derecha, murmullo pulmonar abolido e hipersonoridad en el hemitórax izquierdo.",
+      "question": "¿Cuál es la conducta inmediata?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía de tórax urgente para confirmar"
+        },
+        {
+          "letter": "B",
+          "text": "TAC de tórax"
+        },
+        {
+          "letter": "C",
+          "text": "Intubación y ventilación a presión positiva antes de descomprimir"
+        },
+        {
+          "letter": "D",
+          "text": "Pericardiocentesis"
+        },
+        {
+          "letter": "E",
+          "text": "Descompresión inmediata del hemitórax izquierdo con aguja o toracostomía digital, seguida de tubo pleural"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El neumotórax a tensión es un diagnóstico clínico: shock, ingurgitación yugular, desviación traqueal contralateral, murmullo abolido e hipersonoridad. Se descomprime de inmediato, sin esperar imágenes, con aguja o toracostomía digital, y luego se instala tubo pleural. Ventilar a presión positiva antes de descomprimir lo agrava.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Motorista de veinticinco años que, tras un choque, tiene disnea intensa, saturación de ochenta y dos, presión de setenta y cinco sobre cuarenta y frecuencia cardíaca de ciento cuarenta. Tiene las yugulares ingurgitadas, la tráquea desviada a la derecha y, en el lado izquierdo, murmullo abolido e hipersonoridad.",
+        "question": "¿Cuál es la conducta inmediata?",
+        "options": "Las opciones: radiografía de tórax urgente, tomografía de tórax, intubar antes de descomprimir, pericardiocentesis o descompresión inmediata seguida de tubo pleural. Piénsalo.",
+        "answer": "Es la E. Es un neumotórax a tensión, y su diagnóstico es clínico: se descomprime en el acto y después se pone el tubo pleural. La radiografía es la trampa: pedirla es perder minutos en un paciente que se está muriendo por un problema que el examen físico ya mostró."
+      }
     },
 
     {

@@ -33,3 +33,16 @@ Ya cubiertos y excluidos: edema macular (diab-21), úlcera neuropática y amputa
 | diab-22 | Pie diabético | gangrena seca de ortejos (Wagner 4) | foto clínica |
 | diab-23 | Dislipidemia y estatinas | orina color coñac en rabdomiólisis por estatinas | foto clínica |
 | diab-24 | Hipertrigliceridemia | TAC de pancreatitis aguda por hipertrigliceridemia | TAC |
+
+## Agregado 18-oct (completar_prompt, párrafos nuevos y diab-25)
+
+No se encontró en las candidatas locales (anotar para la búsqueda en Descargas):
+
+| clase | tema | imagen que falta | tipo | prioridad |
+|---|---|---|---|---|
+| diab-25 | Anorexia nerviosa | lanugo, acrocianosis o aspecto caquéctico (Harrison / psiquiatría) | foto clínica | media |
+| diab-25 | Bulimia nerviosa | signo de Russell (callosidades en el dorso de la mano) o erosión dental | foto clínica | media |
+| diab-25 | Obesidad | circunferencia de cintura: técnica de medición | otro | baja |
+| diab-21 | Fondo de ojo | técnica de oftalmoscopía directa (posición del examinador) | otro | baja |
+| diab-22 | Pie diabético | arteriografía de extremidades inferiores con oclusión tibial | angiografía | media |
+| diab-17 | Alteraciones del potasio | ECG con ondas T picudas (hiperkalemia) y onda U (hipokalemia) | ECG | alta |

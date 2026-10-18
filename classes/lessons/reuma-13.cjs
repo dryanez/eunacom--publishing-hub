@@ -66,13 +66,16 @@ module.exports = {
       cards: [
         { title: "Eritema en heliotropo", tag: "Párpados violáceos patognomónicos", kind: "alert", items: [
           { t: "Coloración violácea periorbitaria", d: "Con edema blando palpebral bilateral",
-            say: "El eritema en heliotropo consiste en una coloración violácea característica en los párpados superiores y la zona periorbitaria, habitualmente acompañada de edema blando que confiere un aspecto aborregado muy llamativo a la mirada del enfermo." },
+            say: "El eritema en heliotropo consiste en una coloración violácea característica en los párpados superiores y la zona periorbitaria, habitualmente acompañada de edema blando que confiere un aspecto aborregado muy llamativo a la mirada del enfermo. Mira esta cara: los párpados violáceos e hinchados.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-13/03_heliotropo__cto-derma_p119.jpg', label: 'Heliotropo', at: 'Mira esta cara', credit: 'Manual CTO Dermatología, p. 119' } },
           { t: "Patognomónico de dermatomiositis", d: "Presente en la gran mayoría de los casos",
-            say: "Es una lesión dermatológica prácticamente patognomónica que permite establecer el diagnóstico clínico certero de dermatomiositis desde la inspección inicial, mucho antes de recibir las enzimas musculares o el informe de la biopsia." },
+            say: "Es una lesión dermatológica prácticamente patognomónica que permite establecer el diagnóstico clínico certero de dermatomiositis desde la inspección inicial, mucho antes de recibir las enzimas musculares o el informe de la biopsia. Y en esta paciente se ve el heliotropo junto a las pápulas de Gottron en la mano.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-13/01_papulas-de-gottron_alt1_2__cto-reuma_p109.jpg', label: 'Heliotropo y Gottron', at: 'Y en esta paciente', credit: 'Manual CTO Reumatología 14.ª ed., p. 109' } },
         ] },
         { title: "Pápulas y signo de Gottron", tag: "Erupciones en nudillos articulares", kind: "key", items: [
           { t: "Pápulas violáceas en articulaciones de manos", d: "Sobre metacarpofalángicas e interfalángicas",
-            say: "Las pápulas de Gottron son placas o pápulas eritematovioláceas sobreelevadas y descamativas que se ubican simétricamente sobre el dorso de las articulaciones metacarpofalángicas e interfalángicas de las manos, respetando las falanges intermedias." },
+            say: "Las pápulas de Gottron son placas o pápulas eritematovioláceas sobreelevadas y descamativas que se ubican simétricamente sobre el dorso de las articulaciones metacarpofalángicas e interfalángicas de las manos, respetando las falanges intermedias. Mira estas manos: las placas violáceas sobre los nudillos.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-13/01_papulas-de-gottron__amir-reuma_p127.jpg', label: 'Pápulas de Gottron', at: 'Mira estas manos', credit: 'Manual AMIR Reumatología, p. 127' } },
           { t: "Signo de Gottron en codos y rodillas", d: "Superficies extensoras articulares",
             say: "Cuando estas lesiones eritematosas descamativas aparecen en las superficies extensoras de los codos o las rodillas se denominan signo de Gottron, sumándose al signo del chal en la espalda superior y al signo en uve en el escote anterior." },
         ] },
@@ -118,7 +121,8 @@ module.exports = {
       ],
       steps: [
         { show: ["ana", "jo1", "epi"], note: "El Síndrome Antisintetasa",
-          say: "El anticuerpo anti-Jo uno es el más frecuente y define el temido síndrome antisintetasa: una combinación de miositis inflamatoria, enfermedad pulmonar intersticial difusa de rápida progresión, fenómeno de Raynaud, artritis no erosiva y manos de mecánico con dolorosas fisuras laterales." },
+          say: "El anticuerpo anti-Jo uno es el más frecuente y define el temido síndrome antisintetasa: una combinación de miositis inflamatoria, enfermedad pulmonar intersticial difusa de rápida progresión, fenómeno de Raynaud, artritis no erosiva y manos de mecánico con dolorosas fisuras laterales. Mira estas manos: la piel áspera y agrietada en los costados de los dedos.",
+          photo: { src: '_web/222_reuma_Dermatomiositis_y_polimiosit__Open-i_2.jpg', label: 'Manos de mecánico', at: 'Mira estas manos', credit: 'Open-i (NLM), CC BY' } },
         { show: ["mi2"], note: "Anti-Mi dos y excelente respuesta",
           say: "El anticuerpo anti-Mi dos es altamente específico de la dermatomiositis cutánea clásica. Se correlaciona clínicamente con un eritema florido, una respuesta terapéutica muy favorable al uso de corticoides y un riesgo notablemente bajo de neoplasia oculta." },
         { show: ["tif"], note: "Anti-TIF uno gamma y sospecha tumoral",
@@ -232,36 +236,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Dermatomiositis',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-13/01_papulas-de-gottron__amir-reuma_p127.jpg', label: 'Pápulas de Gottron', credit: 'Manual AMIR Reumatología, p. 127' },
-        { src: 'biblioteca/08_reumatologia/reuma-13/03_heliotropo__cto-derma_p119.jpg', label: 'Heliotropo', credit: 'Manual CTO Dermatología 14.ª ed., p. 119' },
-      ],
-      steps: [
-        { note: 'Sobre los nudillos',
-          say: 'Las pápulas de Gottron, violáceas sobre los nudillos, son el signo más específico.' },
-        { note: 'Párpados violáceos',
-          say: 'Y el heliotropo: coloración violácea de los párpados, con edema.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-13/01_papulas-de-gottron_alt1_2__cto-reuma_p109.jpg', label: 'Gottron y heliotropo en la misma paciente', credit: 'Manual CTO Reumatología 14.ª ed., p. 109' },
-      ],
-      steps: [
-        { note: 'Las dos lesiones juntas',
-          say: 'Aquí las dos lesiones en la misma paciente: arriba, pápulas de Gottron sobre los nudillos; abajo, el heliotropo violáceo de los párpados. Juntas confirman la dermatomiositis.' },
-      ],
-    },
-
-    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",
@@ -370,6 +344,44 @@ module.exports = {
         options: "Las opciones: deltoides y supraespinoso, psoas y cuádriceps, flexores del cuello, músculos extraoculares, o constrictores de la faringe. Piénsalo.",
         answer: "Es la D. Los músculos extraoculares están estrictamente respetados en las miopatías inflamatorias. La presencia de diplopía o ptosis palpebral debe hacer sospechar inmediatamente una miastenia gravis con CPK normal.",
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2019 · Pregunta 163",
+      "stem": "Un niño de 12 años consulta por cansancio, artralgias, dolores musculares generalizados y fiebre. Refiere que las mialgias son intensas, al punto que limitan su actividad física. Al examen físico presenta dolor a la palpación de las masas musculares, en especial en la espalda alta y los hombros. Además, tiene eritema violáceo en los párpados superiores.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Artritis reumatoide juvenil"
+        },
+        {
+          "letter": "B",
+          "text": "Distrofia muscular"
+        },
+        {
+          "letter": "C",
+          "text": "Dermatomiositis"
+        },
+        {
+          "letter": "D",
+          "text": "Triquinosis"
+        },
+        {
+          "letter": "E",
+          "text": "Lupus infantil"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Debilidad y dolor muscular proximal con eritema heliotropo (violáceo palpebral) es dermatomiositis; en niños es la miopatía inflamatoria más frecuente. Se apoya con CK elevada, resonancia o biopsia muscular. A diferencia del adulto, la forma juvenil no se asocia a cáncer, pero sí a calcinosis y vasculopatía. La triquinosis da edema palpebral, no eritema heliotropo.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Un niño de doce años tiene fiebre, artralgias y mialgias intensas de hombros y espalda que limitan su actividad, con eritema violáceo en los párpados superiores.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: artritis juvenil, distrofia muscular, dermatomiositis, triquinosis o lupus. Piénsalo.",
+        "answer": "Es la C. Compromiso muscular proximal con eritema heliotropo en los párpados es una dermatomiositis. La triquinosis tienta por las mialgias y la fiebre, pero da edema palpebral, no eritema violáceo."
+      }
     },
 
     {

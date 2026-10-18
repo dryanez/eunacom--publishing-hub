@@ -44,6 +44,60 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Insuficiencia cardíaca',
+      title: 'Cómo se confirma la insuficiencia cardíaca',
+      cards: [
+        { title: 'Clínica', tag: 'Framingham', kind: 'criteria', items: [
+          { t: 'Disnea, ortopnea, edema', d: 'Yugulares, tercer ruido, crepitaciones',
+            say: 'Antes de hablar del riñón del cardiópata, confirmemos la insuficiencia cardíaca. Es un síndrome clínico: disnea de esfuerzo, ortopnea, disnea paroxística nocturna, edema de las piernas, yugulares ingurgitadas, tercer ruido y crepitaciones.' },
+          { t: '2 mayores o 1 mayor y 2 menores', d: 'Criterios de Framingham',
+            say: 'Los criterios de Framingham piden dos criterios mayores, o uno mayor y dos menores.' },
+        ] },
+        { title: 'Péptidos y ecocardiograma', tag: 'Confirmación', kind: 'key', items: [
+          { t: 'BNP > 100 · NT-proBNP > 300 pg/mL', d: 'Normal casi descarta; en ERC suben igual',
+            say: 'El péptido natriurético tipo B, el BNP, sobre cien, o su fragmento NT-proBNP sobre trescientos, apoya el diagnóstico en el cuadro agudo, y un valor normal prácticamente lo descarta. Pero en la enfermedad renal crónica ambos suben por menor depuración, así que se interpretan con cautela.' },
+          { t: 'Ecocardiograma: la FEVI', d: 'Reducida ≤ 40 % · levemente reducida 41–49 % · preservada ≥ 50 %',
+            say: 'La confirmación es el ecocardiograma, que mide la fracción de eyección. Reducida si es de cuarenta por ciento o menos, levemente reducida entre cuarenta y uno y cuarenta y nueve, y preservada desde cincuenta.' },
+        ] },
+        { title: 'Completar el estudio', tag: 'Y buscar la causa', kind: 'normal', items: [
+          { t: 'ECG, radiografía, laboratorio', d: 'Creatinina, electrolitos, hemograma, TSH',
+            say: 'Se completa con electrocardiograma, radiografía de tórax, creatinina, electrolitos, hemograma y TSH.' },
+          { t: 'Causa: isquemia, HTA, válvulas', d: 'Y miocardiopatías',
+            say: 'Y siempre se busca la causa: isquemia, hipertensión, valvulopatía o miocardiopatía.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Insuficiencia cardíaca',
+      title: 'Tratamiento de base: los cuatro pilares',
+      cards: [
+        { title: 'FEVI reducida', tag: 'Cuatro pilares', kind: 'pharma', items: [
+          { t: 'IECA/ARA-II o sacubitrilo-valsartán', d: 'Y betabloqueador: carvedilol, bisoprolol, metoprolol succinato',
+            say: 'En la insuficiencia cardíaca con fracción de eyección reducida hay cuatro pilares. Primero, un IECA o un ARA dos, o el sacubitrilo con valsartán. Segundo, un betabloqueador: carvedilol, bisoprolol o metoprolol succinato.' },
+          { t: 'Espironolactona e iSGLT2', d: 'Dapagliflozina o empagliflozina',
+            say: 'Tercero, un antagonista mineralocorticoide, la espironolactona. Y cuarto, un inhibidor del cotransportador sodio glucosa tipo dos, dapagliflozina o empagliflozina.' },
+          { t: 'Diuréticos de asa solo para congestión', d: 'No mejoran el pronóstico',
+            say: 'Los diuréticos de asa no son un pilar: se usan solo para aliviar la congestión.' },
+        ] },
+        { title: 'Descompensada y riñón', tag: 'Qué hacer', kind: 'alert', items: [
+          { t: 'IC aguda: O₂, furosemida IV', d: 'Vasodilatadores si la presión lo permite',
+            say: 'En la insuficiencia cardíaca aguda descompensada se da oxígeno si la saturación es menor de noventa por ciento, furosemida endovenosa y vasodilatadores si la presión lo permite.' },
+          { t: 'Al iniciar IECA/ARA-II: creatinina hasta +30 %', d: 'Si K > 5,5 o más alza: reevaluar la dosis',
+            say: 'Y en el paciente con riñón comprometido, al iniciar un IECA o un ARA dos se acepta un alza de creatinina de hasta treinta por ciento. Si el potasio pasa de cinco coma cinco, o el deterioro es mayor, se reevalúa la dosis.' },
+        ] },
+        { title: 'Medidas y seguimiento', tag: 'Control', kind: 'key', items: [
+          { t: 'Sal baja, peso diario, vacunas', d: 'Actividad física supervisada',
+            say: 'Las medidas generales son restringir el sodio, pesarse a diario, vacunarse y hacer actividad física supervisada.' },
+          { t: 'Creatinina y K a las 1–2 semanas', d: 'Cardiología: titulación y dispositivos si FEVI ≤ 35 %',
+            say: 'Se controlan peso, creatinina y potasio a la una o dos semanas de cada ajuste, y se deriva a Cardiología para titular y evaluar dispositivos, como el desfibrilador o el resincronizador, si la fracción de eyección sigue en treinta y cinco por ciento o menos.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Síndrome hepatorrenal',
       title: 'Un riñón sano engañado por la vasodilatación',
@@ -198,6 +252,44 @@ module.exports = {
         options: 'Las opciones: hemodiálisis trisemanal, terlipresina con albúmina, dopamina en dosis renales, un bolo de furosemida, o una paracentesis de ocho litros sin reposición. Piénsalo.',
         answer: 'Es la B, terlipresina con albúmina. Pasó la prueba de albúmina sin mejorar, así que es hepatorrenal. La dopamina en dosis renales es un distractor clásico que no tiene lugar aquí. Y la paracentesis masiva sin reponer albúmina empeora justamente la hipovolemia efectiva que causa el problema.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 153",
+      "stem": "Un paciente de 68 años con antecedentes de infarto de miocardio, hipertensión arterial y tabaquismo se encuentra en tratamiento con aspirina, atorvastatina, enalapril 20 mg cada 12 horas, carvedilol 12,5 mg al día y furosemida 40 mg cada 12 horas. Actualmente presenta disnea de pequeños esfuerzos. Al examen físico tiene FC 65 lpm, PA 110/70 mmHg y saturación de oxígeno de 96 %; se auscultan crépitos pulmonares bibasales y ritmo cardíaco regular en dos tiempos, con un soplo sistólico III/VI. El choque de la punta se palpa en la línea axilar media y presenta edema de extremidades inferiores.",
+      "question": "¿Cuál de las siguientes medidas es la más adecuada para este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Agregar losartán"
+        },
+        {
+          "letter": "B",
+          "text": "Agregar hidralazina"
+        },
+        {
+          "letter": "C",
+          "text": "Agregar isosorbide"
+        },
+        {
+          "letter": "D",
+          "text": "Agregar espironolactona"
+        },
+        {
+          "letter": "E",
+          "text": "Agregar amiodarona"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Insuficiencia cardíaca sintomática pese a IECA y betabloqueo: el siguiente fármaco que aumenta la sobrevida es la espironolactona. Losartán no se suma al enalapril: el doble bloqueo del sistema renina-angiotensina aumenta la hiperkalemia y la falla renal sin beneficio.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Un hombre de sesenta y ocho años, con infarto previo, usa enalapril, carvedilol y furosemida. Tiene disnea de pequeños esfuerzos, crépitos en ambas bases, un soplo sistólico, el choque de la punta desplazado a la línea axilar media y edema de piernas.",
+        "question": "¿Cuál es la medida más adecuada?",
+        "options": "Las opciones: agregar losartán, hidralazina, isosorbide, espironolactona o amiodarona. Piénsalo.",
+        "answer": "Es la D, espironolactona. Con inhibidor de enzima convertidora y betabloqueo ya puestos, el antagonista de aldosterona es el siguiente que alarga la vida. El losartán tienta, pero sumarlo al enalapril es doble bloqueo: más hiperkalemia y más falla renal, sin beneficio."
+      }
     },
 
     {

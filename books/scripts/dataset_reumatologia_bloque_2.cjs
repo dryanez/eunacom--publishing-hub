@@ -94,6 +94,12 @@ const bloque2Classes = [
           '• <strong>Vasculitis Reumatoidea:</strong> Vasculitis necrotizante de vasos pequeños/medianos con úlceras isquémicas en extremidades inferiores, púrpura palpable y mononeuritis múltiple.',
           '• <strong>Síndrome de Felty:</strong> Tríada clásica consistente en: <strong>1) Artritis Reumatoide severa; 2) Esplenomegalia; y 3) Neutropenia (< 1.500/mm³)</strong>. Conlleva un alto riesgo de infecciones bacterianas piógenas graves recurrentes.'
         ]
+      },
+      {
+        subhead: '6. Conducta Inicial ante Sospecha de Artritis Reumatoide en la Red Asistencial',
+        paragraphs: [
+          '<strong>Tratamiento inicial en atención primaria y derivación (GES AR ≥ 15 años):</strong> se sospecha AR ante sinovitis de una o más articulaciones, especialmente pequeñas y simétricas, con rigidez matinal > 1 hora y evolución de 6 semanas o más sin otra causa. Se solicitan hemograma, VHS, PCR, FR, anti-CCP, función hepática y renal, y radiografías de manos y pies; los exámenes normales no descartan la enfermedad. Se <strong>deriva de forma preferente a reumatología</strong>, ya que el beneficio máximo se logra iniciando FARME dentro de los primeros 3-6 meses (la derivación no debe esperar a que aparezcan erosiones). Mientras tanto: AINEs a dosis plenas con protección gástrica y/o prednisona en dosis baja (≤ 10 mg/día) como puente, sabiendo que no modifican la evolución. El FARME de inicio es el <strong>metotrexato semanal con ácido fólico</strong> (véase tema 9.7), previa verificación de hemograma, transaminasas, creatinina y serologías de hepatitis B y C. Medidas generales: educación, ejercicio y kinesioterapia, suspensión del tabaco (empeora la enfermedad y la respuesta), vacunación antiinfluenza y antineumocócica y control cardiovascular. La meta es la remisión o baja actividad (DAS28 < 3,2) y se controla la actividad cada 1-3 meses hasta alcanzarla.'
+        ]
       }
     ],
     table: {
@@ -617,6 +623,13 @@ const bloque2Classes = [
           '• Se asocian dosis bajas de Prednisona (2.5 a 5 mg/día) y se mantiene Hidroxicloroquina.',
           '• <strong>Duración de la mantención:</strong> Mínimo <strong>3 a 5 años de tratamiento continuo</strong> antes de considerar una reducción muy lenta y tentativa de la inmunosupresión.'
         ]
+      },
+      {
+        subhead: '5. Compromiso Orgánico Mayor Extrarrenal del LES: Neuropsiquiátrico, Hematológico y Cardiopulmonar',
+        paragraphs: [
+          '<strong>Lupus neuropsiquiátrico y compromiso hematológico:</strong> el LES neuropsiquiátrico se manifiesta con <strong>convulsiones, psicosis, síndrome confusional agudo, accidente cerebrovascular</strong> (asociado a anticuerpos antifosfolípidos), mielitis transversa, neuropatía periférica, corea o cefalea refractaria. Antes de atribuirlo al lupus hay que excluir infección del SNC, uremia, hipertensión, alteraciones metabólicas y fármacos (la psicosis esteroidal es frecuente). El estudio incluye resonancia cerebral, punción lumbar, EEG y anticuerpos antifosfolípidos. En lo hematológico, el LES puede producir <strong>anemia hemolítica autoinmune</strong> (Coombs directo positivo, reticulocitos y LDH elevados, haptoglobina baja), <strong>trombocitopenia inmune</strong> (riesgo hemorrágico con plaquetas < 30.000/mm³ o sangrado: prednisona 1 mg/kg/día, a veces inmunoglobulina endovenosa) y leucopenia o linfopenia (muy frecuentes, rara vez requieren tratamiento). Ante plaquetopenia con anemia y esquistocitos se debe descartar una microangiopatía trombótica (púrpura trombocitopénica trombótica, SAF catastrófico).',
+          '<strong>Compromiso cardiopulmonar y principios de tratamiento del órgano mayor:</strong> la <strong>serositis</strong> (pleuritis y pericarditis) es la manifestación torácica más frecuente y responde a AINEs o prednisona en dosis moderadas; el derrame pleural es exudado con glucosa normal o baja. Son graves la <strong>neumonitis lúpica aguda</strong> y la <strong>hemorragia alveolar difusa</strong> (hemoptisis, anemia, infiltrados bilaterales; emergencia con alta mortalidad), la hipertensión pulmonar, la miocarditis y la endocarditis verrucosa de Libman-Sacks (asociada a SAF); el LES además acelera la ateroesclerosis. En la afección digestiva destacan la vasculitis mesentérica y la peritonitis lúpica (dolor abdominal con elevación de reactantes). <strong>Regla general:</strong> en el compromiso de un órgano mayor (riñón, SNC, hemólisis grave, trombocitopenia grave, hemorragia alveolar) se hospitaliza al paciente, se indican <strong>pulsos de metilprednisolona</strong> (500-1.000 mg/día por 3 días) seguidos de prednisona más un inmunosupresor (ciclofosfamida, micofenolato o rituximab según el órgano) y se mantiene la hidroxicloroquina; en el compromiso leve (piel, articulaciones) bastan hidroxicloroquina, fotoprotección y prednisona en dosis bajas. Todo LES con afección orgánica mayor se <strong>deriva</strong> a reumatología.'
+        ]
       }
     ],
     table: {
@@ -776,7 +789,8 @@ const bloque2Classes = [
           '• ANA positivos en el 100%.',
           '• <strong>Anti-dsDNA y Anti-Smith: NEGATIVOS</strong> (su presencia confirma LES idiopático, no farmacológico).',
           '• Niveles de complemento C3 y C4 normales.',
-          '<strong>Manejo:</strong> La conducta de elección es la <strong>suspensión inmediata del fármaco responsable</strong>. Los síntomas clínicos ceden en semanas y los anticuerpos se negativizan en meses. Se pueden usar AINEs o cursos breves de corticoides en dosis bajas para acelerar el alivio sintomático.'
+          '<strong>Manejo:</strong> La conducta de elección es la <strong>suspensión inmediata del fármaco responsable</strong>. Los síntomas clínicos ceden en semanas y los anticuerpos se negativizan en meses. Se pueden usar AINEs o cursos breves de corticoides en dosis bajas para acelerar el alivio sintomático.',
+          '<strong>Cómo descartar compromiso sistémico en todo paciente con lupus cutáneo:</strong> la lesión de piel puede ser la primera manifestación del LES, por lo que se interroga por artralgias, fotosensibilidad, aftas, serositis y síntomas neuropsiquiátricos y se solicitan <strong>hemograma con plaquetas, creatinina, orina completa con relación proteinuria/creatininuria, ANA, anti-dsDNA, anti-Sm, anti-Ro/La, complemento (C3, C4) y anticuerpos antifosfolípidos</strong>. La biopsia cutánea con inmunofluorescencia directa muestra depósito granular de inmunoglobulinas y complemento en la unión dermoepidérmica (banda lúpica). El riesgo de evolucionar a LES es bajo en el lupus discoide aislado (5-10%) y mayor en el lupus subagudo (cerca de la mitad cumple criterios de LES, habitualmente de curso leve). Quien tenga ANA positivos, anti-dsDNA, hipocomplementemia, citopenias o proteinuria debe ser manejado como LES (tema 9.8 y 9.9); el resto se controla al menos cada 6-12 meses con orina y hemograma. Todo lupus cutáneo se deriva a dermatología y, si hay datos sistémicos, a reumatología.'
         ]
       }
     ],

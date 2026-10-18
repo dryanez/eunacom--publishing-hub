@@ -107,7 +107,8 @@ module.exports = {
           { t: 'Hemosiderina: sinovitis crónica', d: 'Destruye el cartílago',
             say: '¿Y por qué importa tanto tratar cada episodio? Porque la sangre repetida deja hemosiderina en la sinovial, y eso gatilla una sinovitis crónica que destruye el cartílago.' },
           { t: 'Anquilosis y atrofia muscular', d: 'Invalidante',
-            say: 'El final es la artropatía hemofílica: pinzamiento, anquilosis, atrofia muscular y una articulación invalidada. Todo el tratamiento apunta a evitar llegar ahí.' },
+            say: 'El final es la artropatía hemofílica: pinzamiento, anquilosis, atrofia muscular y una articulación invalidada. Mira este dibujo histórico de la rodilla de un hemofílico, destruida por sangrados repetidos. Todo el tratamiento apunta a evitar llegar ahí.',
+            photo: { src: 'biblioteca/06_hematologia/hem-13/01_rodilla_hemofilico__commons-wellcome.jpg', label: 'Artropatía hemofílica', at: 'Mira este dibujo', credit: 'Wikimedia Commons «Knee joint of a haemophiliac Wellcome L0062595.jpg», CC BY 4.0, Godart, Thomas' } },
         ] },
       ],
     },
@@ -119,7 +120,8 @@ module.exports = {
       cards: [
         { title: 'Hematoma del psoas', tag: 'Engaña', kind: 'alert', items: [
           { t: 'Dolor lumbar o en fosa ilíaca', d: 'Con cadera en flexión',
-            say: 'Además de las hemartrosis, hay hematomas musculares profundos que pueden ser graves. El clásico es el hematoma del psoas ilíaco: dolor lumbar o en la fosa ilíaca, con la cadera flectada por reflejo.' },
+            say: 'Además de las hemartrosis, hay hematomas musculares profundos que pueden ser graves. El clásico es el hematoma del psoas ilíaco: dolor lumbar o en la fosa ilíaca, con la cadera flectada por reflejo. Mira esta tomografía: el hematoma del psoas, un sangrado profundo sin herida visible.',
+            photo: { src: 'biblioteca/06_hematologia/hem-13/02_hematoma_psoas_tc__nelson_p3858.jpg', label: 'Hematoma del psoas', at: 'Mira esta tomografía', credit: 'Nelson Textbook of Pediatrics, 22nd ed., p. 3858' } },
           { t: 'Parestesias del nervio femoral', d: 'Por compresión',
             say: 'Y puede comprimir el nervio femoral, dando parestesias en el muslo. En un hemofílico con dolor en la fosa ilíaca, piensa en esto antes que en una apendicitis.' },
         ] },
@@ -286,19 +288,6 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Hemofilia',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-13/01_rodilla_hemofilico__commons-wellcome.jpg', label: 'Artropatía hemofílica', credit: 'Wikimedia Commons «Knee joint of a haemophiliac Wellcome L0062595.jpg», CC BY 4.0, Godart, Thomas' },
-      ],
-      steps: [
-        { note: 'La articulación destruida',
-          say: 'Este dibujo histórico muestra la rodilla de un hemofílico, destruida por sangrados repetidos. La hemartrosis es el sello de la hemofilia.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -439,6 +428,82 @@ module.exports = {
         options: 'Las opciones son: mielograma, citometría de flujo para la glicoproteína dos b tres a, estudio de von Willebrand, factores ocho y nueve, o electroforesis de proteínas. Piénsalo.',
         answer: 'Es la C, el estudio de von Willebrand. Mujer, sangrado de mucosas desde niña y menorragia desde la menarquia: es el perfil exacto del tipo uno. El tiempo de sangría largo confirma que falla la hemostasia primaria, con plaquetas normales. El distractor son los factores ocho y nueve, pero eso es para la hemofilia, y aquí el TTPA es normal. Recuerda: un TTPA normal no descarta von Willebrand.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2017 · Pregunta 28",
+      "stem": "Paciente de 20 años que desde los 7 años presenta epistaxis frecuentes y equimosis ante pequeños traumatismos; desde su menarquia a los 14 años tiene sangrados menstruales abundantes. Hemograma: hematocrito 45 %, VCM 90 fL, leucocitos 6.000/mm³, plaquetas 250.000/mm³. TTPK normal, protrombinemia 85 % y tiempo de sangría mayor de 8 minutos.",
+      "question": "¿Cuál es el examen de elección para proseguir el estudio en este caso?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mielograma"
+        },
+        {
+          "letter": "B",
+          "text": "Citometría de flujo para el receptor plaquetario IIb/IIIa"
+        },
+        {
+          "letter": "C",
+          "text": "Estudio de enfermedad de von Willebrand"
+        },
+        {
+          "letter": "D",
+          "text": "Niveles plasmáticos de factor VIII y factor IX de la coagulación"
+        },
+        {
+          "letter": "E",
+          "text": "Electroforesis de proteínas en sangre"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Sangrado mucocutáneo desde la infancia con plaquetas normales y tiempo de sangría prolongado: alteración de la hemostasia primaria. La causa hereditaria más frecuente es la enfermedad de von Willebrand; se estudia con factor von Willebrand antigénico, su actividad y factor VIII. Un TTPK normal no la descarta.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecisiete. Una mujer de veinte años con epistaxis y moretones fáciles desde los siete años, y reglas abundantes desde la menarquia. Tiene plaquetas normales, coagulación normal y tiempo de sangría prolongado.",
+        "question": "¿Cuál es el examen de elección para seguir el estudio?",
+        "options": "Las opciones: mielograma, citometría para el receptor dos b tres a, estudio de von Willebrand, factores ocho y nueve, o electroforesis de proteínas. Piénsalo.",
+        "answer": "Es la C. Sangrado de mucosas con plaquetas normales y sangría prolongada apunta a la hemostasia primaria, y la causa hereditaria más común es von Willebrand. Los factores ocho y nueve tientan, pero las hemofilias dan hemartrosis y alargan el tiempo de tromboplastina, no la sangría."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2019 · Pregunta 159",
+      "stem": "Un niño de 2 años presenta tendencia a las hemorragias, ya que sangra con facilidad y presenta múltiples equimosis. En el examen físico se observan extremidades inferiores con equimosis en distinto grado de resolución, algunas de gran tamaño. Los exámenes muestran recuento de plaquetas normal, TP normal y TTPA alargado.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Púrpura trombocitopénica inmune"
+        },
+        {
+          "letter": "B",
+          "text": "Hemofilia"
+        },
+        {
+          "letter": "C",
+          "text": "Enfermedad de von Willebrand"
+        },
+        {
+          "letter": "D",
+          "text": "Enfermedad de Glanzmann"
+        },
+        {
+          "letter": "E",
+          "text": "Púrpura trombocitopénica trombótica"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Un niño varón con sangrados de tipo coagulopatía (equimosis grandes, luego hemartrosis y hematomas musculares), plaquetas y TP normales y TTPA prolongado sugiere hemofilia A o B (déficit de factor VIII o IX, herencia ligada al X). El von Willebrand da sangrado mucocutáneo y el TTPA suele ser normal o levemente prolongado.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Un niño de dos años sangra con facilidad y tiene múltiples equimosis grandes. Sus plaquetas y su tiempo de protrombina son normales, pero el TTPA está alargado.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: púrpura trombocitopénica inmune, hemofilia, von Willebrand, Glanzmann o púrpura trombótica. Piénsalo.",
+        "answer": "Es la B. Un niño varón con equimosis grandes y solo el TTPA prolongado tiene una hemofilia. El von Willebrand tienta porque también puede alargar el TTPA, pero da sobre todo sangrado de mucosas y la prolongación es leve."
+      }
     },
 
     {

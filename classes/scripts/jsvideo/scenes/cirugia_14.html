@@ -1,0 +1,49 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// cirugia-14 (evaluación preoperatoria). ?v=farmacos  línea de tiempo: cuándo se suspende cada fármaco crónico (gráfico, sin anatomía).
+// Cifras del libro: clopidogrel 5 a 7 días; metformina 24 a 48 horas; IECA/ARA II 24 horas (se omite la dosis de la mañana);
+// betabloqueadores y estatinas se mantienen con un sorbo de agua; aspirina por stent se mantiene (salvo neurocirugía u ojo).
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+const X0 = 330, X1 = 1130, D0 = -7;                       // eje: -7 días ... 0 (cirugía)
+const hx = d => X0 + (X1 - X0) * (d - D0) / (0 - D0);
+const ROWS = [
+  { n: 'Clopidogrel', sub: 'Inhibición plaquetaria irreversible', from: -7, to: -5, col: C.RED, why: 'Si sigue: sangrado quirúrgico', st: 'Suspender 5 a 7 días antes', t0: 3 },
+  { n: 'Metformina', sub: 'Más aún si hay contraste yodado', from: -2, to: -1, col: C.RED, why: 'Si sigue: acidosis láctica', st: 'Suspender 24 a 48 horas antes', t0: 8 },
+  { n: 'IECA o ARA dos', sub: 'Se omite la dosis de la mañana', from: -1, to: 0, col: C.AMBER, why: 'Si sigue: hipotensión refractaria', st: 'Suspender 24 horas antes', t0: 13 },
+  { n: 'Betabloqueador', sub: 'Nunca se suspende', from: -7, to: 0, col: C.GREEN, why: 'Si lo quitas: taquicardia de rebote', st: 'Se toma hasta la mañana de pabellón', t0: 18 },
+  { n: 'Estatina y levotiroxina', sub: 'Con un sorbo de agua', from: -7, to: 0, col: C.GREEN, why: '', st: 'Se mantienen', t0: 21.5 },
+  { n: 'Aspirina por stent', sub: 'Salvo neurocirugía u ojo', from: -7, to: 0, col: C.GREEN, why: 'La trombosis del stent pesa más', st: 'Se mantiene en cirugía general', t0: 24.5 },
+];
+function farmacos(t) {
+  K.title('¿Qué se suspende y cuándo?', 'Días antes de la cirugía · hasta la mañana de pabellón', C.AMBER);
+  rrect(40, 130, 1200, 540, 18, '#161B22');
+  for (let d = -7; d <= 0; d++) { const x = hx(d); ctx.fillStyle = '#2A2F38'; ctx.fillRect(x - 1, 170, 2, 470); text(d === 0 ? 'Cirugía' : String(d), x, 160, 16, d === 0 ? C.AMBER : C.MUTED, d === 0 ? 'bold' : '', 'center'); }
+  text('días', X0 - 14, 160, 16, C.MUTED, '', 'right');
+  ROWS.forEach((r, i) => {
+    const y = 178 + i * 70, a = seg(t, r.t0 - 0.6, 0.5);
+    if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+    text(r.n, 60, y + 22, 21, C.INK, 'bold'); text(r.sub, 60, y + 46, 14, C.MUTED);
+    rrect(X0, y + 6, X1 - X0, 40, 8, '#1E242D');
+    const k = ease(seg(t, r.t0, 1.6));
+    if (r.col === C.GREEN) { rrect(X0, y + 6, (X1 - X0) * k, 40, 8, '#1E7B4B'); if (k > 0.7) text(r.st, (X0 + X1) / 2, y + 33, 17, C.INK, 'bold', 'center'); }
+    else {
+      if (hx(r.from) - X0 > 80) { rrect(X0, y + 6, hx(r.from) - X0, 40, 8, '#1E7B4B'); if (hx(0) - hx(r.from) > 330) text('Lo toma', (X0 + hx(r.from)) / 2, y + 33, 15, C.INK, '', 'center'); }
+      const w = (hx(0) - hx(r.from)) * k; rrect(hx(r.from), y + 6, w, 40, 8, r.col === C.RED ? '#A93A33' : '#B07F12');
+      if (k > 0.8) { if (hx(0) - hx(r.from) > 330) text(r.st, (hx(r.from) + hx(0)) / 2, y + 33, 16, C.INK, 'bold', 'center'); else text(r.st + ' →', hx(r.from) - 14, y + 33, 16, C.INK, 'bold', 'right'); }
+    }
+    if (r.why && seg(t, r.t0 + 1.8, 0.5) > 0) { ctx.globalAlpha = a * seg(t, r.t0 + 1.8, 0.5); text(r.why, X1, y + 66, 14, r.col === C.GREEN ? C.GREEN : r.col, 'bold', 'right'); }
+    ctx.restore();
+  });
+  K.banner(290, 622, 720, 'Primero: ¿aguanta el corazón? Después, fármaco por fármaco', C.BLUE, seg(t, 28, 0.6));
+}
+window.SCENE = { duration: 33, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); farmacos(t); };
+LOAD({});
+</script>
+</body></html>

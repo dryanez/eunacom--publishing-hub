@@ -13,7 +13,7 @@
   "specKey": "1.01",
   "name": "Bloqueos aurículo-ventriculares",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -22,7 +22,7 @@
   "specKey": "1.01",
   "name": "Cardiopatía congénita en adulto",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -40,7 +40,7 @@
   "specKey": "1.01",
   "name": "Dislipidemias",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -58,7 +58,7 @@
   "specKey": "1.01",
   "name": "Endocarditis infecciosa y no infecciosa",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -130,7 +130,7 @@
   "specKey": "1.01",
   "name": "Hipertensión arterial esencial",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -139,7 +139,7 @@
   "specKey": "1.01",
   "name": "Hipertensión arterial secundaria",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -166,7 +166,7 @@
   "specKey": "1.01",
   "name": "Insuficiencia mitral",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -175,7 +175,7 @@
   "specKey": "1.01",
   "name": "Miocardiopatías",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -184,7 +184,7 @@
   "specKey": "1.01",
   "name": "Paciente con soplo",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -193,7 +193,7 @@
   "specKey": "1.01",
   "name": "Pericarditis aguda",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "No requiere"
  },
@@ -211,7 +211,7 @@
   "specKey": "1.01",
   "name": "Taquicardia paroxística supraventricular (TPSV)",
   "section": "situacion",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -220,7 +220,7 @@
   "specKey": "1.01",
   "name": "Angina inestable",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -229,7 +229,7 @@
   "specKey": "1.01",
   "name": "Disección aórtica",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -292,7 +292,7 @@
   "specKey": "1.01",
   "name": "Taqui y bradiarritmia con compromiso hemodinámico",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -366,7 +366,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.01.4.002": {
   "specialty": "Cardiología",
@@ -375,7 +376,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.01.4.003": {
   "specialty": "Cardiología",
@@ -384,7 +386,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.01.4.005": {
   "specialty": "Cardiología",
@@ -393,7 +396,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.01.4.006": {
   "specialty": "Cardiología",
@@ -402,7 +406,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.01.4.007": {
   "specialty": "Cardiología",
@@ -411,7 +416,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realiza, interpreta y emplea"
  },
  "1.01.4.008": {
   "specialty": "Cardiología",
@@ -420,7 +426,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.01.4.009": {
   "specialty": "Cardiología",
@@ -429,7 +436,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.01.4.010": {
   "specialty": "Cardiología",
@@ -438,7 +446,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.01.4.011": {
   "specialty": "Cardiología",
@@ -447,7 +456,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.01.4.012": {
   "specialty": "Cardiología",
@@ -456,7 +466,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.01.4.013": {
   "specialty": "Cardiología",
@@ -465,7 +476,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.01.4.014": {
   "specialty": "Cardiología",
@@ -474,7 +486,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.01.5.002": {
   "specialty": "Cardiología",
@@ -483,7 +496,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.01.5.003": {
   "specialty": "Cardiología",
@@ -492,7 +506,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.01.5.004": {
   "specialty": "Cardiología",
@@ -501,7 +516,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.01.5.005": {
   "specialty": "Cardiología",
@@ -510,7 +526,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.01.5.006": {
   "specialty": "Cardiología",
@@ -519,7 +536,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.01.5.007": {
   "specialty": "Cardiología",
@@ -528,7 +546,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.01.5.008": {
   "specialty": "Cardiología",
@@ -537,7 +556,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.01.5.009": {
   "specialty": "Cardiología",
@@ -546,7 +566,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.02.1.001": {
   "specialty": "Diabetes y nutrición",
@@ -634,7 +655,7 @@
   "specKey": "1.02",
   "name": "Nefropatía incipiente",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -643,7 +664,7 @@
   "specKey": "1.02",
   "name": "Neuropatía diabética",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -652,7 +673,7 @@
   "specKey": "1.02",
   "name": "Obesidad",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -661,7 +682,7 @@
   "specKey": "1.02",
   "name": "Obesidad mórbida",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -670,7 +691,7 @@
   "specKey": "1.02",
   "name": "Pié diabético y otras infecciones en diabetes",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -679,7 +700,7 @@
   "specKey": "1.02",
   "name": "Retinopatía diabética",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -706,7 +727,7 @@
   "specKey": "1.02",
   "name": "Trastornos de conducta alimentaria",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -715,7 +736,7 @@
   "specKey": "1.02",
   "name": "Vasculopatía periférica",
   "section": "situacion",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -743,7 +764,7 @@
   "name": "Coma hiperosmolar",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Inicial",
   "seg": "No requiere"
  },
  "1.02.2.004": {
@@ -752,7 +773,7 @@
   "name": "Déficit agudo de tiamina",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Derivar"
  },
  "1.02.2.005": {
@@ -761,7 +782,7 @@
   "name": "Hipertrigliceridemia grave",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.02.2.006": {
@@ -770,7 +791,7 @@
   "name": "Hipoglicemias",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.02.2.007": {
@@ -778,7 +799,7 @@
   "specKey": "1.02",
   "name": "Síndrome hiperosmolar no cetósico",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -915,7 +936,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.02.4.002": {
   "specialty": "Diabetes y nutrición",
@@ -924,7 +946,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.02.4.003": {
   "specialty": "Diabetes y nutrición",
@@ -933,7 +956,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.004": {
   "specialty": "Diabetes y nutrición",
@@ -942,7 +966,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.005": {
   "specialty": "Diabetes y nutrición",
@@ -951,7 +976,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.006": {
   "specialty": "Diabetes y nutrición",
@@ -960,7 +986,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realiza, interpreta y emplea"
  },
  "1.02.4.007": {
   "specialty": "Diabetes y nutrición",
@@ -969,7 +996,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.008": {
   "specialty": "Diabetes y nutrición",
@@ -978,7 +1006,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.02.4.009": {
   "specialty": "Diabetes y nutrición",
@@ -987,7 +1016,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realiza, interpreta y emplea"
  },
  "1.02.4.010": {
   "specialty": "Diabetes y nutrición",
@@ -996,7 +1026,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.02.4.011": {
   "specialty": "Diabetes y nutrición",
@@ -1005,7 +1036,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.012": {
   "specialty": "Diabetes y nutrición",
@@ -1014,7 +1046,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.013": {
   "specialty": "Diabetes y nutrición",
@@ -1023,7 +1056,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.014": {
   "specialty": "Diabetes y nutrición",
@@ -1032,7 +1066,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.02.4.015": {
   "specialty": "Diabetes y nutrición",
@@ -1041,7 +1076,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realiza, interpreta y emplea"
  },
  "1.02.4.016": {
   "specialty": "Diabetes y nutrición",
@@ -1050,7 +1086,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.017": {
   "specialty": "Diabetes y nutrición",
@@ -1059,7 +1096,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.018": {
   "specialty": "Diabetes y nutrición",
@@ -1068,7 +1106,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.019": {
   "specialty": "Diabetes y nutrición",
@@ -1077,7 +1116,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.020": {
   "specialty": "Diabetes y nutrición",
@@ -1086,7 +1126,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.021": {
   "specialty": "Diabetes y nutrición",
@@ -1095,7 +1136,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.022": {
   "specialty": "Diabetes y nutrición",
@@ -1104,7 +1146,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.023": {
   "specialty": "Diabetes y nutrición",
@@ -1113,7 +1156,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.02.4.024": {
   "specialty": "Diabetes y nutrición",
@@ -1122,7 +1166,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.4.025": {
   "specialty": "Diabetes y nutrición",
@@ -1131,7 +1176,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.02.5.001": {
   "specialty": "Diabetes y nutrición",
@@ -1140,7 +1186,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.02.5.002": {
   "specialty": "Diabetes y nutrición",
@@ -1149,7 +1196,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.02.5.003": {
   "specialty": "Diabetes y nutrición",
@@ -1158,7 +1206,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.03.1.001": {
   "specialty": "Endocrinología",
@@ -1183,8 +1232,8 @@
   "specKey": "1.03",
   "name": "Hipertiroidismo",
   "section": "situacion",
-  "dx": "Sospecha",
-  "tx": null,
+  "dx": "Específico",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.03.1.004": {
@@ -1192,7 +1241,7 @@
   "specKey": "1.03",
   "name": "Cáncer del tiroides",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -1201,8 +1250,8 @@
   "specKey": "1.03",
   "name": "Tiroiditis",
   "section": "situacion",
-  "dx": "Sospecha",
-  "tx": "Inicial",
+  "dx": "Específico",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.03.1.006": {
@@ -1211,7 +1260,7 @@
   "name": "Síndrome de Cushing",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.03.1.007": {
@@ -1246,7 +1295,7 @@
   "specKey": "1.03",
   "name": "Amenorrea",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -1255,8 +1304,8 @@
   "specKey": "1.03",
   "name": "Síndrome climatérico",
   "section": "situacion",
-  "dx": "Sospecha",
-  "tx": "Inicial",
+  "dx": "Específico",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.03.1.012": {
@@ -1265,7 +1314,7 @@
   "name": "Hipogonadismo masculino",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Completo"
  },
  "1.03.1.013": {
@@ -1300,7 +1349,7 @@
   "specKey": "1.03",
   "name": "Hiperprolactinemia",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -1310,7 +1359,7 @@
   "name": "Síndrome de secreción inapropiada de ADH",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.03.1.018": {
@@ -1318,7 +1367,7 @@
   "specKey": "1.03",
   "name": "Osteoporosis",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -1328,7 +1377,7 @@
   "name": "Osteoporosis secundaria",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.03.1.020": {
@@ -1336,7 +1385,7 @@
   "specKey": "1.03",
   "name": "Hipercalcemias e hipocalcemias",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -1363,7 +1412,7 @@
   "specKey": "1.03",
   "name": "Ginecomastia",
   "section": "situacion",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -1390,7 +1439,7 @@
   "specKey": "1.03",
   "name": "Insuficiencia suprarrenal aguda",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Derivar"
  },
@@ -1399,7 +1448,7 @@
   "specKey": "1.03",
   "name": "Hipercalcemia aguda",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -1408,7 +1457,7 @@
   "specKey": "1.03",
   "name": "Tetania",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Derivar"
  },
@@ -1446,7 +1495,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.03.4.002": {
   "specialty": "Endocrinología",
@@ -1455,7 +1505,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.03.4.003": {
   "specialty": "Endocrinología",
@@ -1464,7 +1515,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.03.4.004": {
   "specialty": "Endocrinología",
@@ -1473,7 +1525,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.03.4.005": {
   "specialty": "Endocrinología",
@@ -1482,7 +1535,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.03.4.006": {
   "specialty": "Endocrinología",
@@ -1491,7 +1545,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.03.4.007": {
   "specialty": "Endocrinología",
@@ -1500,7 +1555,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.03.4.008": {
   "specialty": "Endocrinología",
@@ -1509,7 +1565,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.03.4.009": {
   "specialty": "Endocrinología",
@@ -1518,7 +1575,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.03.4.010": {
   "specialty": "Endocrinología",
@@ -1527,7 +1585,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.03.4.011": {
   "specialty": "Endocrinología",
@@ -1536,7 +1595,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.1.001": {
   "specialty": "Enfermedades infecciosas",
@@ -1571,7 +1631,7 @@
   "name": "Candidiasis oral y esofágica",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Completo",
   "seg": "Derivar"
  },
  "1.04.1.006": {
@@ -1589,7 +1649,7 @@
   "name": "Cólera",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.04.1.008": {
@@ -1598,7 +1658,7 @@
   "name": "Dengue",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": null,
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.04.1.009": {
@@ -1607,7 +1667,7 @@
   "name": "Diarrea asociada a antibióticos",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.04.1.010": {
@@ -1616,16 +1676,16 @@
   "name": "Enfermedades de transmisión sexual",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.04.1.011": {
   "specialty": "Enfermedades infecciosas",
   "specKey": "1.04",
-  "name": "Enfermedades eruptivas no complicadas",
+  "name": "Enfermedades eruptivas no complicadas (varicela, herpes zoster...)",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
+  "dx": "Específico",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.04.1.029": {
@@ -1634,8 +1694,8 @@
   "name": "Enfermedad leve moderada por SARS Cov 2 COVID 19",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
-  "seg": null
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "1.04.1.012": {
   "specialty": "Enfermedades infecciosas",
@@ -1652,17 +1712,17 @@
   "name": "Hidatidosis",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
-  "seg": "Completo"
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.04.1.014": {
   "specialty": "Enfermedades infecciosas",
   "specKey": "1.04",
-  "name": "Infección por virus de inmunodeficiencia humana",
+  "name": "Infección por virus de inmunodeficiencia humana (SIDA)",
   "section": "situacion",
-  "dx": null,
-  "tx": "Completo",
-  "seg": "Completo"
+  "dx": "Específico",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.04.1.015": {
   "specialty": "Enfermedades infecciosas",
@@ -1671,7 +1731,7 @@
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": null
+  "seg": "Derivar"
  },
  "1.04.1.016": {
   "specialty": "Enfermedades infecciosas",
@@ -1679,8 +1739,8 @@
   "name": "Influenza",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
-  "seg": null
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "1.04.1.017": {
   "specialty": "Enfermedades infecciosas",
@@ -1703,11 +1763,11 @@
  "1.04.1.019": {
   "specialty": "Enfermedades infecciosas",
   "specKey": "1.04",
-  "name": "Micosis invasora",
+  "name": "Micosis invasora (aspergillosis, candidiasis, mucormicosis)",
   "section": "situacion",
-  "dx": null,
-  "tx": "Completo",
-  "seg": "Completo"
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.04.1.020": {
   "specialty": "Enfermedades infecciosas",
@@ -1724,8 +1784,8 @@
   "name": "Osteomielitis",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": null,
-  "seg": null
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.04.1.022": {
   "specialty": "Enfermedades infecciosas",
@@ -1733,8 +1793,8 @@
   "name": "Parasitosis intestinales",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
-  "seg": "Derivar"
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "1.04.1.023": {
   "specialty": "Enfermedades infecciosas",
@@ -1769,8 +1829,8 @@
   "name": "Toxicoinfección alimentaria",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
-  "seg": "Derivar"
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "1.04.1.027": {
   "specialty": "Enfermedades infecciosas",
@@ -1778,8 +1838,8 @@
   "name": "Triquinosis",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
-  "seg": "Derivar"
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "1.04.1.028": {
   "specialty": "Enfermedades infecciosas",
@@ -1787,15 +1847,15 @@
   "name": "Tuberculosis extrapulmonar",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
-  "seg": "Completo"
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.04.2.001": {
   "specialty": "Enfermedades infecciosas",
   "specKey": "1.04",
   "name": "Absceso cerebral",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -1804,7 +1864,7 @@
   "specKey": "1.04",
   "name": "Encefalitis aguda",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -1813,34 +1873,34 @@
   "specKey": "1.04",
   "name": "Endocarditis bateriana",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.04.2.004": {
   "specialty": "Enfermedades infecciosas",
   "specKey": "1.04",
-  "name": "Flegmón submaxilar, submandibular",
+  "name": "Flegmón submaxilar, submandibular y del piso de la boca",
   "section": "urgencia",
   "dx": "Sospecha",
-  "tx": null,
-  "seg": null
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.04.2.005": {
   "specialty": "Enfermedades infecciosas",
   "specKey": "1.04",
-  "name": "Infección invasiva de partes blandas:",
+  "name": "Infección invasiva de partes blandas: celulitis, fasceitis, miositis necrotizantes o septicémicas",
   "section": "urgencia",
   "dx": "Sospecha",
-  "tx": null,
-  "seg": null
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.04.2.011": {
   "specialty": "Enfermedades infecciosas",
   "specKey": "1.04",
   "name": "Enfermedad grave por SARS Cov 2 COVID 19",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -1849,7 +1909,7 @@
   "specKey": "1.04",
   "name": "Meningitis aguda",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -1885,7 +1945,7 @@
   "specKey": "1.04",
   "name": "Varicela complicada: neumonitis, cerebelitis, encefalitis",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -2013,7 +2073,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.002": {
   "specialty": "Enfermedades infecciosas",
@@ -2022,7 +2083,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.003": {
   "specialty": "Enfermedades infecciosas",
@@ -2031,7 +2093,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.004": {
   "specialty": "Enfermedades infecciosas",
@@ -2040,7 +2103,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.005": {
   "specialty": "Enfermedades infecciosas",
@@ -2049,7 +2113,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.006": {
   "specialty": "Enfermedades infecciosas",
@@ -2058,7 +2123,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.007": {
   "specialty": "Enfermedades infecciosas",
@@ -2067,7 +2133,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.008": {
   "specialty": "Enfermedades infecciosas",
@@ -2076,7 +2143,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.04.4.009": {
   "specialty": "Enfermedades infecciosas",
@@ -2085,7 +2153,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.010": {
   "specialty": "Enfermedades infecciosas",
@@ -2094,7 +2163,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.011": {
   "specialty": "Enfermedades infecciosas",
@@ -2103,7 +2173,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.012": {
   "specialty": "Enfermedades infecciosas",
@@ -2112,7 +2183,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.014": {
   "specialty": "Enfermedades infecciosas",
@@ -2121,7 +2193,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.015": {
   "specialty": "Enfermedades infecciosas",
@@ -2130,7 +2203,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.016": {
   "specialty": "Enfermedades infecciosas",
@@ -2139,7 +2213,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.4.017": {
   "specialty": "Enfermedades infecciosas",
@@ -2148,7 +2223,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.04.5.001": {
   "specialty": "Enfermedades infecciosas",
@@ -2157,7 +2233,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.04.5.002": {
   "specialty": "Enfermedades infecciosas",
@@ -2166,7 +2243,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.04.5.003": {
   "specialty": "Enfermedades infecciosas",
@@ -2175,7 +2253,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.04.5.004": {
   "specialty": "Enfermedades infecciosas",
@@ -2184,7 +2263,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.05.1.001": {
   "specialty": "Enfermedades respiratorias",
@@ -2423,20 +2503,20 @@
  "1.05.1.027": {
   "specialty": "Enfermedades respiratorias",
   "specKey": "1.05",
-  "name": "Neumonías adquiridas en la comunidad",
+  "name": "Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.05.1.028": {
   "specialty": "Enfermedades respiratorias",
   "specKey": "1.05",
-  "name": "Neumonías adquiridas en la comunidad",
+  "name": "Neumonías adquiridas en la comunidad (tipos 1, 2 y 3 de la Sociedad Chilena de Enf. Respiratorias)",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "1.05.1.029": {
   "specialty": "Enfermedades respiratorias",
@@ -2471,7 +2551,7 @@
   "name": "Neumotórax pequeño",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Completo",
   "seg": "Derivar"
  },
  "1.05.1.038": {
@@ -2480,7 +2560,7 @@
   "name": "Nódulos pulmonares",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.05.1.033": {
@@ -2507,7 +2587,7 @@
   "name": "Tos crónica",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.05.1.036": {
@@ -2516,7 +2596,7 @@
   "name": "Tuberculosis pulmonar",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.05.1.037": {
@@ -2525,7 +2605,7 @@
   "name": "Tuberculosis pulmonar (fracaso de tratamiento)",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.05.2.001": {
@@ -2552,7 +2632,7 @@
   "name": "Aspiración de cuerpo extraño sin asfixia",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.05.2.004": {
@@ -2561,7 +2641,7 @@
   "name": "Crisis de asma bronquial",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.05.2.005": {
@@ -2570,7 +2650,7 @@
   "name": "Embolia pulmonar masiva",
   "section": "urgencia",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.05.2.006": {
@@ -2579,7 +2659,7 @@
   "name": "Enfermedad bronquial obstructiva crónica descompensada",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.05.2.007": {
@@ -2594,20 +2674,20 @@
  "1.05.2.008": {
   "specialty": "Enfermedades respiratorias",
   "specKey": "1.05",
-  "name": "Insuficiencia respiratoria aguda o crónica reagudizada",
+  "name": "Insuficiencia respiratoria aguda o crónica reagudizada que requiere ventilación mecánica",
   "section": "urgencia",
-  "dx": null,
-  "tx": null,
-  "seg": "Completo"
+  "dx": "Específico",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.05.2.009": {
   "specialty": "Enfermedades respiratorias",
   "specKey": "1.05",
-  "name": "Insuficiencia respiratoria aguda o crónica reagudizada,",
+  "name": "Insuficiencia respiratoria aguda o crónica reagudizada, que no requiere ventilación mecánica",
   "section": "urgencia",
-  "dx": null,
-  "tx": "Inicial",
-  "seg": null
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "1.05.2.010": {
   "specialty": "Enfermedades respiratorias",
@@ -2615,8 +2695,8 @@
   "name": "Intoxicación por monóxido de carbono",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": "Inicial",
-  "seg": "Derivar"
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "1.05.2.011": {
   "specialty": "Enfermedades respiratorias",
@@ -2624,8 +2704,8 @@
   "name": "Neumotórax hipertensivo",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": null,
-  "seg": null
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "1.05.2.012": {
   "specialty": "Enfermedades respiratorias",
@@ -2634,7 +2714,7 @@
   "section": "urgencia",
   "dx": "Específico",
   "tx": "Completo",
-  "seg": "Completo"
+  "seg": "Derivar"
  },
  "1.05.2.013": {
   "specialty": "Enfermedades respiratorias",
@@ -2642,8 +2722,8 @@
   "name": "Traumatismo torácico grave",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": "Completo",
-  "seg": "Completo"
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.05.2.014": {
   "specialty": "Enfermedades respiratorias",
@@ -2706,7 +2786,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.05.4.002": {
   "specialty": "Enfermedades respiratorias",
@@ -2715,7 +2796,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.05.4.003": {
   "specialty": "Enfermedades respiratorias",
@@ -2724,7 +2806,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.05.4.004": {
   "specialty": "Enfermedades respiratorias",
@@ -2733,7 +2816,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.05.4.005": {
   "specialty": "Enfermedades respiratorias",
@@ -2742,7 +2826,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.05.4.006": {
   "specialty": "Enfermedades respiratorias",
@@ -2751,7 +2836,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.05.4.007": {
   "specialty": "Enfermedades respiratorias",
@@ -2760,7 +2846,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.05.4.008": {
   "specialty": "Enfermedades respiratorias",
@@ -2769,7 +2856,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.05.4.009": {
   "specialty": "Enfermedades respiratorias",
@@ -2778,7 +2866,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realiza, interpreta y emplea"
  },
  "1.05.4.010": {
   "specialty": "Enfermedades respiratorias",
@@ -2787,7 +2876,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.05.4.011": {
   "specialty": "Enfermedades respiratorias",
@@ -2796,7 +2886,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.05.4.012": {
   "specialty": "Enfermedades respiratorias",
@@ -2805,7 +2896,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.05.4.013": {
   "specialty": "Enfermedades respiratorias",
@@ -2814,7 +2906,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.05.4.014": {
   "specialty": "Enfermedades respiratorias",
@@ -2823,7 +2916,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realiza, interpreta y emplea"
  },
  "1.05.5.001": {
   "specialty": "Enfermedades respiratorias",
@@ -2832,7 +2926,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.05.5.002": {
   "specialty": "Enfermedades respiratorias",
@@ -2841,7 +2936,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.05.5.003": {
   "specialty": "Enfermedades respiratorias",
@@ -2850,7 +2946,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.05.5.004": {
   "specialty": "Enfermedades respiratorias",
@@ -2859,7 +2956,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.05.5.005": {
   "specialty": "Enfermedades respiratorias",
@@ -2868,7 +2966,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.05.5.006": {
   "specialty": "Enfermedades respiratorias",
@@ -2877,7 +2976,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.05.5.007": {
   "specialty": "Enfermedades respiratorias",
@@ -2886,7 +2986,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.05.5.008": {
   "specialty": "Enfermedades respiratorias",
@@ -2895,7 +2996,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.05.5.009": {
   "specialty": "Enfermedades respiratorias",
@@ -2904,7 +3006,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.05.5.010": {
   "specialty": "Enfermedades respiratorias",
@@ -2913,7 +3016,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.05.5.011": {
   "specialty": "Enfermedades respiratorias",
@@ -2922,7 +3026,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.05.5.012": {
   "specialty": "Enfermedades respiratorias",
@@ -2931,7 +3036,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.06.1.001": {
   "specialty": "Gastroenterología",
@@ -3253,7 +3359,7 @@
   "specKey": "1.06",
   "name": "Encefalopatía hepática",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -3262,7 +3368,7 @@
   "specKey": "1.06",
   "name": "Hemorragia digestiva alta y baja",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -3271,7 +3377,7 @@
   "specKey": "1.06",
   "name": "Hepatitis aguda A complicada",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -3280,7 +3386,7 @@
   "specKey": "1.06",
   "name": "Insuficiencia hepática aguda",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -3289,7 +3395,7 @@
   "specKey": "1.06",
   "name": "Pancreatitis aguda",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -3298,7 +3404,7 @@
   "specKey": "1.06",
   "name": "Peritonitis bacteriana espontánea del cirrótico",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Derivar"
  },
@@ -3307,8 +3413,8 @@
   "specKey": "1.06",
   "name": "Síndrome hepatorrenal",
   "section": "urgencia",
-  "dx": null,
-  "tx": null,
+  "dx": "Sospecha",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.06.3.001": {
@@ -3372,7 +3478,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.06.4.002": {
   "specialty": "Gastroenterología",
@@ -3381,7 +3488,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.06.4.003": {
   "specialty": "Gastroenterología",
@@ -3390,7 +3498,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.06.4.004": {
   "specialty": "Gastroenterología",
@@ -3399,7 +3508,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.06.4.015": {
   "specialty": "Gastroenterología",
@@ -3408,7 +3518,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.06.4.005": {
   "specialty": "Gastroenterología",
@@ -3417,7 +3528,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.06.4.006": {
   "specialty": "Gastroenterología",
@@ -3426,7 +3538,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.06.4.007": {
   "specialty": "Gastroenterología",
@@ -3435,7 +3548,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.06.4.008": {
   "specialty": "Gastroenterología",
@@ -3444,7 +3558,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.06.4.009": {
   "specialty": "Gastroenterología",
@@ -3453,7 +3568,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.06.4.010": {
   "specialty": "Gastroenterología",
@@ -3462,7 +3578,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.06.4.011": {
   "specialty": "Gastroenterología",
@@ -3471,7 +3588,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.06.4.012": {
   "specialty": "Gastroenterología",
@@ -3480,7 +3598,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.06.4.013": {
   "specialty": "Gastroenterología",
@@ -3489,7 +3608,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.06.4.014": {
   "specialty": "Gastroenterología",
@@ -3498,7 +3618,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.06.5.001": {
   "specialty": "Gastroenterología",
@@ -3507,7 +3628,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.07.1.001": {
   "specialty": "Geriatría",
@@ -3523,7 +3645,7 @@
   "specKey": "1.07",
   "name": "Constipación y fecalomas",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -3533,7 +3655,7 @@
   "name": "Demencia",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": null,
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.07.1.004": {
@@ -3541,7 +3663,7 @@
   "specKey": "1.07",
   "name": "Depresión",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -3550,8 +3672,8 @@
   "specKey": "1.07",
   "name": "Diabetes mellitus tipo 2",
   "section": "situacion",
-  "dx": "Sospecha",
-  "tx": "Inicial",
+  "dx": "Específico",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.07.1.006": {
@@ -3559,8 +3681,8 @@
   "specKey": "1.07",
   "name": "Enfermedad cerebro-vascular",
   "section": "situacion",
-  "dx": "Específico",
-  "tx": "Completo",
+  "dx": "Sospecha",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.07.1.007": {
@@ -3578,7 +3700,7 @@
   "name": "Fragilidad",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.07.1.009": {
@@ -3614,7 +3736,7 @@
   "name": "Incontinencia urinaria",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.07.1.013": {
@@ -3623,7 +3745,7 @@
   "name": "Inmovilidad",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.07.1.014": {
@@ -3640,7 +3762,7 @@
   "specKey": "1.07",
   "name": "Osteoporosis",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -3649,8 +3771,8 @@
   "specKey": "1.07",
   "name": "Temblor",
   "section": "situacion",
-  "dx": "Específico",
-  "tx": "Completo",
+  "dx": "Sospecha",
+  "tx": "Inicial",
   "seg": "No requiere"
  },
  "1.07.1.017": {
@@ -3658,8 +3780,8 @@
   "specKey": "1.07",
   "name": "Trastornos de la marcha",
   "section": "situacion",
-  "dx": null,
-  "tx": "Inicial",
+  "dx": "Específico",
+  "tx": "Completo",
   "seg": "Derivar"
  },
  "1.07.2.001": {
@@ -3822,7 +3944,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.07.5.002": {
   "specialty": "Geriatría",
@@ -3831,7 +3954,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.07.5.003": {
   "specialty": "Geriatría",
@@ -3840,7 +3964,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.07.5.004": {
   "specialty": "Geriatría",
@@ -3849,14 +3974,15 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.08.1.001": {
   "specialty": "Hémato-oncología",
   "specKey": "1.08",
   "name": "Anemia de las enfermedades crónicas",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -3865,7 +3991,7 @@
   "specKey": "1.08",
   "name": "Anemia ferropénica",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -3875,7 +4001,7 @@
   "name": "Anemia hemolítica",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": null,
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.08.1.004": {
@@ -4018,7 +4144,7 @@
   "specKey": "1.08",
   "name": "Trombofilias",
   "section": "situacion",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -4063,7 +4189,7 @@
   "specKey": "1.08",
   "name": "Lisis tumoral aguda",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "No requiere"
  },
@@ -4072,7 +4198,7 @@
   "specKey": "1.08",
   "name": "Neutropenia febril",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -4081,7 +4207,7 @@
   "specKey": "1.08",
   "name": "Síndrome de compresión medular",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -4090,7 +4216,7 @@
   "specKey": "1.08",
   "name": "Síndrome vena cava superior",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -4099,7 +4225,7 @@
   "specKey": "1.08",
   "name": "Trombopenia severa",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -4218,7 +4344,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.08.4.002": {
   "specialty": "Hémato-oncología",
@@ -4227,7 +4354,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.08.4.003": {
   "specialty": "Hémato-oncología",
@@ -4236,7 +4364,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.08.4.004": {
   "specialty": "Hémato-oncología",
@@ -4245,7 +4374,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.08.4.005": {
   "specialty": "Hémato-oncología",
@@ -4254,7 +4384,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.08.4.006": {
   "specialty": "Hémato-oncología",
@@ -4263,7 +4394,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.08.4.007": {
   "specialty": "Hémato-oncología",
@@ -4272,7 +4404,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.08.4.008": {
   "specialty": "Hémato-oncología",
@@ -4281,7 +4414,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.08.4.009": {
   "specialty": "Hémato-oncología",
@@ -4290,7 +4424,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.08.4.010": {
   "specialty": "Hémato-oncología",
@@ -4299,7 +4434,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.08.5.001": {
   "specialty": "Hémato-oncología",
@@ -4308,7 +4444,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.08.5.002": {
   "specialty": "Hémato-oncología",
@@ -4317,7 +4454,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.08.5.003": {
   "specialty": "Hémato-oncología",
@@ -4326,7 +4464,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.08.5.004": {
   "specialty": "Hémato-oncología",
@@ -4335,7 +4474,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.08.5.005": {
   "specialty": "Hémato-oncología",
@@ -4344,7 +4484,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.08.5.006": {
   "specialty": "Hémato-oncología",
@@ -4353,7 +4494,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.08.5.007": {
   "specialty": "Hémato-oncología",
@@ -4362,7 +4504,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.08.5.008": {
   "specialty": "Hémato-oncología",
@@ -4371,14 +4514,15 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.09.1.001": {
   "specialty": "Nefrología",
   "specKey": "1.09",
   "name": "Acidosis e hiperkalemia en Insuficiencia renal crónica",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -4396,7 +4540,7 @@
   "specKey": "1.09",
   "name": "Alcalosis metabólica",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -4432,7 +4576,7 @@
   "specKey": "1.09",
   "name": "Hipernatremia, poliuria",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -4441,7 +4585,7 @@
   "specKey": "1.09",
   "name": "Hipertensión arterial esencial",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -4459,7 +4603,7 @@
   "specKey": "1.09",
   "name": "Hiponatremia crónica asintomática",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -4468,7 +4612,7 @@
   "specKey": "1.09",
   "name": "Infección urinaria baja (cistitis)",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -4504,7 +4648,7 @@
   "specKey": "1.09",
   "name": "Osteodistrofia en insuficiencia renal crónica",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -4513,7 +4657,7 @@
   "specKey": "1.09",
   "name": "Pielonefritis aguda no complicada",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -4549,7 +4693,7 @@
   "specKey": "1.09",
   "name": "Edema generalizado (anasarca)",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -4576,7 +4720,7 @@
   "specKey": "1.09",
   "name": "Síndrome urémico",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -4594,14 +4738,14 @@
   "specKey": "1.09",
   "name": "Uropatía obstructiva",
   "section": "situacion",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.09.2.001": {
   "specialty": "Nefrología",
   "specKey": "1.09",
-  "name": "Cólico nefrítico, urolitiasis y complicaciones:",
+  "name": "Cólico nefrítico, urolitiasis y complicaciones: obstrucción, sepsis, insuficiencia renal",
   "section": "urgencia",
   "dx": "Sospecha",
   "tx": "Inicial",
@@ -4612,9 +4756,9 @@
   "specKey": "1.09",
   "name": "Crisis hipertensivas, emergencias hipertensivas",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
-  "seg": "Derivar"
+  "seg": "Completo"
  },
  "1.09.2.003": {
   "specialty": "Nefrología",
@@ -4630,8 +4774,8 @@
   "specKey": "1.09",
   "name": "Enfermedad tubular aguda",
   "section": "urgencia",
-  "dx": "Específico",
-  "tx": "Completo",
+  "dx": "Sospecha",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "1.09.2.005": {
@@ -4641,51 +4785,51 @@
   "section": "urgencia",
   "dx": "Específico",
   "tx": "Completo",
-  "seg": "Completo"
+  "seg": "Derivar"
  },
  "1.09.2.006": {
   "specialty": "Nefrología",
   "specKey": "1.09",
   "name": "Hipokalemia",
   "section": "urgencia",
-  "dx": "Sospecha",
-  "tx": "Inicial",
-  "seg": "Derivar"
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "1.09.2.007": {
   "specialty": "Nefrología",
   "specKey": "1.09",
   "name": "Hiponatremia aguda grave",
   "section": "urgencia",
-  "dx": "Específico",
-  "tx": "Completo",
-  "seg": "Completo"
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.09.2.008": {
   "specialty": "Nefrología",
   "specKey": "1.09",
   "name": "Hipovolemia",
   "section": "urgencia",
-  "dx": "Sospecha",
-  "tx": "Inicial",
-  "seg": "Derivar"
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "1.09.2.009": {
   "specialty": "Nefrología",
   "specKey": "1.09",
   "name": "Insuficiencia renal aguda obstructiva",
   "section": "urgencia",
-  "dx": "Específico",
-  "tx": "Completo",
-  "seg": "Completo"
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.09.2.010": {
   "specialty": "Nefrología",
   "specKey": "1.09",
   "name": "Insuficiencia renal aguda prerrenal",
   "section": "urgencia",
-  "dx": "Sospecha",
-  "tx": "Inicial",
+  "dx": "Específico",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.09.2.011": {
@@ -4695,7 +4839,7 @@
   "section": "urgencia",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Derivar"
+  "seg": "Completo"
  },
  "1.09.2.012": {
   "specialty": "Nefrología",
@@ -4711,9 +4855,9 @@
   "specKey": "1.09",
   "name": "Vasculitis o glomerulonefritis rápidamente progresiva",
   "section": "urgencia",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.09.3.001": {
   "specialty": "Nefrología",
@@ -4821,7 +4965,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.09.4.003": {
   "specialty": "Nefrología",
@@ -4830,7 +4975,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.09.4.004": {
   "specialty": "Nefrología",
@@ -4839,7 +4985,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.09.4.005": {
   "specialty": "Nefrología",
@@ -4848,7 +4995,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.09.4.006": {
   "specialty": "Nefrología",
@@ -4857,7 +5005,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.09.4.007": {
   "specialty": "Nefrología",
@@ -4866,7 +5015,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.09.4.008": {
   "specialty": "Nefrología",
@@ -4875,7 +5025,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.09.4.009": {
   "specialty": "Nefrología",
@@ -4884,7 +5035,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.09.4.010": {
   "specialty": "Nefrología",
@@ -4893,7 +5045,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.09.4.011": {
   "specialty": "Nefrología",
@@ -4902,7 +5055,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.09.4.012": {
   "specialty": "Nefrología",
@@ -4911,7 +5065,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.09.4.013": {
   "specialty": "Nefrología",
@@ -4920,7 +5075,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.09.4.014": {
   "specialty": "Nefrología",
@@ -4929,7 +5085,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.09.4.015": {
   "specialty": "Nefrología",
@@ -4938,7 +5095,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.09.4.016": {
   "specialty": "Nefrología",
@@ -4947,7 +5105,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.09.4.017": {
   "specialty": "Nefrología",
@@ -4956,7 +5115,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.09.5.001": {
   "specialty": "Nefrología",
@@ -4965,7 +5125,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.09.5.002": {
   "specialty": "Nefrología",
@@ -4974,7 +5135,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.09.5.003": {
   "specialty": "Nefrología",
@@ -4983,7 +5145,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.09.5.004": {
   "specialty": "Nefrología",
@@ -4992,7 +5155,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.09.5.005": {
   "specialty": "Nefrología",
@@ -5001,7 +5165,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "1.09.5.006": {
   "specialty": "Nefrología",
@@ -5010,7 +5175,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.09.5.007": {
   "specialty": "Nefrología",
@@ -5019,7 +5185,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.10.1.001": {
   "specialty": "Neurología",
@@ -5042,29 +5209,29 @@
  "1.10.1.003": {
   "specialty": "Neurología",
   "specKey": "1.10",
-  "name": "Cuadros de deterioro orgánico cerebral potencialmente",
+  "name": "Cuadros de deterioro orgánico cerebral potencialmente reversibles (hipotiroidismos, déficit de vitamina B12, etc.)",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "No requiere"
  },
  "1.10.1.004": {
   "specialty": "Neurología",
   "specKey": "1.10",
-  "name": "Cuadros deficitarios de funciones cerebrales superiores",
+  "name": "Cuadros deficitarios de funciones cerebrales superiores (afasia, apraxia, agnosia, etc)",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.10.1.005": {
   "specialty": "Neurología",
   "specKey": "1.10",
-  "name": "Demencia (Enfermedad de Alzheimer,",
+  "name": "Demencia (Enfermedad de Alzheimer, enfermedad cerebrovascular, VIH, etc)",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.10.1.006": {
   "specialty": "Neurología",
@@ -5082,7 +5249,7 @@
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": null
+  "seg": "Derivar"
  },
  "1.10.1.008": {
   "specialty": "Neurología",
@@ -5091,7 +5258,7 @@
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Derivar"
+  "seg": "No requiere"
  },
  "1.10.1.009": {
   "specialty": "Neurología",
@@ -5100,7 +5267,7 @@
   "section": "situacion",
   "dx": "Específico",
   "tx": "Completo",
-  "seg": "No requiere"
+  "seg": "Completo"
  },
  "1.10.1.010": {
   "specialty": "Neurología",
@@ -5118,7 +5285,7 @@
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Completo"
+  "seg": "Derivar"
  },
  "1.10.1.012": {
   "specialty": "Neurología",
@@ -5126,7 +5293,7 @@
   "name": "Migraña",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Completo",
   "seg": "Completo"
  },
  "1.10.1.013": {
@@ -5145,7 +5312,7 @@
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Completo"
+  "seg": "No requiere"
  },
  "1.10.1.015": {
   "specialty": "Neurología",
@@ -5154,7 +5321,7 @@
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Derivar"
+  "seg": "No requiere"
  },
  "1.10.1.016": {
   "specialty": "Neurología",
@@ -5163,7 +5330,7 @@
   "section": "situacion",
   "dx": "Específico",
   "tx": "Completo",
-  "seg": "No requiere"
+  "seg": "Completo"
  },
  "1.10.1.017": {
   "specialty": "Neurología",
@@ -5181,7 +5348,7 @@
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Completo"
+  "seg": "No requiere"
  },
  "1.10.1.019": {
   "specialty": "Neurología",
@@ -5213,20 +5380,20 @@
  "1.10.1.022": {
   "specialty": "Neurología",
   "specKey": "1.10",
-  "name": "Síndromes convulsivos sintomáticos",
+  "name": "Síndromes convulsivos sintomáticos (traumático, tumores SNC, metabólico, etc)",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": "No requiere"
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.10.1.023": {
   "specialty": "Neurología",
   "specKey": "1.10",
-  "name": "Síndromes sensitivos",
+  "name": "Síndromes sensitivos (polineuropatía, hemihipoestesia, dolor talámico, etc)",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "No requiere"
  },
  "1.10.1.024": {
   "specialty": "Neurología",
@@ -5234,8 +5401,8 @@
   "name": "Síndromes vertiginosos centrales",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": null,
-  "seg": null
+  "tx": "Inicial",
+  "seg": "No requiere"
  },
  "1.10.1.025": {
   "specialty": "Neurología",
@@ -5243,8 +5410,8 @@
   "name": "Síndromes vertiginosos periféricos",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
-  "seg": "No requiere"
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "1.10.1.026": {
   "specialty": "Neurología",
@@ -5261,8 +5428,8 @@
   "name": "Trastornos del sueño",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
-  "seg": "Completo"
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.10.1.028": {
   "specialty": "Neurología",
@@ -5271,7 +5438,7 @@
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "No requiere"
+  "seg": "Derivar"
  },
  "1.10.1.029": {
   "specialty": "Neurología",
@@ -5280,7 +5447,7 @@
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": null
+  "seg": "Derivar"
  },
  "1.10.2.001": {
   "specialty": "Neurología",
@@ -5339,11 +5506,11 @@
  "1.10.2.007": {
   "specialty": "Neurología",
   "specKey": "1.10",
-  "name": "Enfermedad cerebrovascular",
+  "name": "Enfermedad cerebrovascular (isquémica, cardioembólica, hemorrágica, AVE, TIA, etc)",
   "section": "urgencia",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.10.2.008": {
   "specialty": "Neurología",
@@ -5361,7 +5528,7 @@
   "section": "urgencia",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": null
+  "seg": "Derivar"
  },
  "1.10.2.010": {
   "specialty": "Neurología",
@@ -5370,7 +5537,7 @@
   "section": "urgencia",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Derivar"
+  "seg": "No requiere"
  },
  "1.10.2.011": {
   "specialty": "Neurología",
@@ -5393,10 +5560,10 @@
  "1.10.2.013": {
   "specialty": "Neurología",
   "specKey": "1.10",
-  "name": "Síndrome cuadriparético fláccido",
+  "name": "Síndrome cuadriparético fláccido (poliradiculoneurítis aguda, Guillain-Barré)",
   "section": "urgencia",
-  "dx": null,
-  "tx": null,
+  "dx": "Sospecha",
+  "tx": "Inicial",
   "seg": "No requiere"
  },
  "1.10.2.014": {
@@ -5411,40 +5578,31 @@
  "1.10.2.015": {
   "specialty": "Neurología",
   "specKey": "1.10",
-  "name": "Síndromes convulsivos sintomáticos (traumático,",
+  "name": "Síndromes convulsivos sintomáticos (traumático, por tumores del sistema nervioso central, metabólico, urémico, etc)",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "No requiere"
+  "seg": "Derivar"
  },
  "1.10.2.016": {
   "specialty": "Neurología",
   "specKey": "1.10",
-  "name": "urémico, etc)",
+  "name": "Síndromes meníngeos con meningitis purulenta o bacteriana",
   "section": "urgencia",
-  "dx": null,
-  "tx": "Inicial",
+  "dx": "Específico",
+  "tx": "Completo",
   "seg": "Derivar"
  },
  "1.10.2.017": {
   "specialty": "Neurología",
   "specKey": "1.10",
-  "name": "con meningitis purulenta o bacteriana",
-  "section": "urgencia",
-  "dx": "Sospecha",
-  "tx": "Completo",
-  "seg": "Derivar"
- },
- "1.10.2.018": {
-  "specialty": "Neurología",
-  "specKey": "1.10",
   "name": "Status convulsivo",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
- "1.10.2.019": {
+ "1.10.2.018": {
   "specialty": "Neurología",
   "specKey": "1.10",
   "name": "Status migrañoso",
@@ -5453,23 +5611,32 @@
   "tx": "Inicial",
   "seg": "No requiere"
  },
- "1.10.2.020": {
+ "1.10.2.019": {
   "specialty": "Neurología",
   "specKey": "1.10",
   "name": "Traumatismo encéfalo craneano leve",
   "section": "urgencia",
-  "dx": "Sospecha",
-  "tx": null,
+  "dx": "Específico",
+  "tx": "Completo",
   "seg": "Completo"
  },
- "1.10.2.021": {
+ "1.10.2.020": {
   "specialty": "Neurología",
   "specKey": "1.10",
   "name": "Traumatismo encefalocraneano grave",
   "section": "urgencia",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "No requiere"
+ },
+ "1.10.2.021": {
+  "specialty": "Neurología",
+  "specKey": "1.10",
+  "name": "Traumatismo raquimedular",
+  "section": "urgencia",
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "1.10.3.001": {
   "specialty": "Neurología",
@@ -5496,7 +5663,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.10.4.002": {
   "specialty": "Neurología",
@@ -5505,7 +5673,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.10.4.003": {
   "specialty": "Neurología",
@@ -5514,7 +5683,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.10.4.004": {
   "specialty": "Neurología",
@@ -5523,7 +5693,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.10.4.005": {
   "specialty": "Neurología",
@@ -5532,7 +5703,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.10.4.006": {
   "specialty": "Neurología",
@@ -5541,7 +5713,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.10.4.007": {
   "specialty": "Neurología",
@@ -5550,7 +5723,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.10.5.001": {
   "specialty": "Neurología",
@@ -5559,7 +5733,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.10.5.002": {
   "specialty": "Neurología",
@@ -5568,23 +5743,25 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.10.5.003": {
   "specialty": "Neurología",
   "specKey": "1.10",
-  "name": "Aplicación de tests neurocognitivos de screening",
+  "name": "Aplicación de tests neurocognitivos de screening (MoCA, Mini-Cog, Mini-Mental)",
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "1.11.1.001": {
   "specialty": "Reumatología",
   "specKey": "1.11",
   "name": "Artritis psoriática",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -5593,7 +5770,7 @@
   "specKey": "1.11",
   "name": "Artritis reactivas",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -5602,7 +5779,7 @@
   "specKey": "1.11",
   "name": "Artritis reumatoídea",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -5638,7 +5815,7 @@
   "specKey": "1.11",
   "name": "Condrocalcinosis",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -5683,7 +5860,7 @@
   "specKey": "1.11",
   "name": "Lumbago infeccioso y tumoral",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -5692,7 +5869,7 @@
   "specKey": "1.11",
   "name": "Lumbago mecánico",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -5701,7 +5878,7 @@
   "specKey": "1.11",
   "name": "Lupus eritematoso sistémico",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -5728,7 +5905,7 @@
   "specKey": "1.11",
   "name": "Osteoporosis",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -5737,7 +5914,7 @@
   "specKey": "1.11",
   "name": "Pelviespondilopatías seronegativas",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -5746,7 +5923,7 @@
   "specKey": "1.11",
   "name": "Poliartritis",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -5773,7 +5950,7 @@
   "specKey": "1.11",
   "name": "Síndrome de Sjögren",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -5791,7 +5968,7 @@
   "specKey": "1.11",
   "name": "Tendonitis y bursitis",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -5800,7 +5977,7 @@
   "specKey": "1.11",
   "name": "Vasculitis sistémicas",
   "section": "situacion",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -5809,7 +5986,7 @@
   "specKey": "1.11",
   "name": "Artritis séptica",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -5818,7 +5995,7 @@
   "specKey": "1.11",
   "name": "Gota aguda",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Derivar"
  },
@@ -5856,7 +6033,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.11.4.002": {
   "specialty": "Reumatología",
@@ -5865,25 +6043,28 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.11.4.003": {
   "specialty": "Reumatología",
   "specKey": "1.11",
-  "name": "Exámenes inmunológicos del diagnóstico",
+  "name": "Exámenes inmunológicos del diagnóstico diferencial de mesenquimopatías (AAN, aDNA, aENA1, C3, C4, YGS, FR, Anti CCP, ANCA)",
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "1.11.4.004": {
   "specialty": "Reumatología",
   "specKey": "1.11",
-  "name": "(AAN, aDNA, aENA1, C3, C4, YGS, FR, Anti CCP, ANCA)",
+  "name": "Radiografía de columna y articulaciones",
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "1.11.5.001": {
   "specialty": "Reumatología",
@@ -5892,7 +6073,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "2.01.1.001": {
   "specialty": "Pediatría general",
@@ -5918,7 +6100,7 @@
   "name": "Obesidad",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Completo",
   "seg": "Completo"
  },
  "2.01.1.004": {
@@ -5936,7 +6118,7 @@
   "name": "Celulitis periorbitaria",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.006": {
@@ -5945,17 +6127,17 @@
   "name": "Coqueluche",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Completo",
   "seg": "Completo"
  },
  "2.01.1.046": {
   "specialty": "Pediatría general",
   "specKey": "2.01",
-  "name": "Reflujo gastroesofágico y vómitos del lactante",
+  "name": "Displasia broncopulmonar / Reflujo gastroesofágico y vómitos del lactante (código repetido en el Perfil oficial)",
   "section": "situacion",
-  "dx": "Específico",
-  "tx": "Completo",
-  "seg": "Completo"
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "2.01.1.007": {
   "specialty": "Pediatría general",
@@ -5972,7 +6154,7 @@
   "name": "Escarlatina",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Completo",
   "seg": "Completo"
  },
  "2.01.1.009": {
@@ -5981,7 +6163,7 @@
   "name": "Exantemas virales",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "2.01.1.010": {
@@ -6008,7 +6190,7 @@
   "name": "Infecciones por HIV",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.013": {
@@ -6026,7 +6208,7 @@
   "name": "Infecciones recurrentes",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.015": {
@@ -6035,7 +6217,7 @@
   "name": "Meningoencefalitis/ Meningitis bacteriana aguda",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.016": {
@@ -6044,7 +6226,7 @@
   "name": "Mononucleosis infecciosa",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "2.01.1.017": {
@@ -6062,7 +6244,7 @@
   "name": "Síndrome febril prolongado",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.019": {
@@ -6071,7 +6253,7 @@
   "name": "Asma bronquial",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "2.01.1.020": {
@@ -6080,7 +6262,7 @@
   "name": "Bronquiolitis",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "2.01.1.021": {
@@ -6089,7 +6271,7 @@
   "name": "Enfermedad pulmonar crónica",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.022": {
@@ -6107,7 +6289,7 @@
   "name": "Faringoamigdalitis",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "2.01.1.024": {
@@ -6134,7 +6316,7 @@
   "name": "Otitis media",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "2.01.1.027": {
@@ -6170,7 +6352,7 @@
   "name": "Adenopatías",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.031": {
@@ -6188,7 +6370,7 @@
   "name": "Leucemias",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.033": {
@@ -6197,7 +6379,7 @@
   "name": "Linfomas",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.034": {
@@ -6206,7 +6388,7 @@
   "name": "Neutropenia febril",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.035": {
@@ -6224,7 +6406,7 @@
   "name": "Trastornos coagulación",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.037": {
@@ -6242,7 +6424,7 @@
   "name": "Constipación",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "2.01.1.039": {
@@ -6251,7 +6433,7 @@
   "name": "Diarrea aguda y en vías de prolongación",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "2.01.1.040": {
@@ -6287,7 +6469,7 @@
   "name": "Hemorragia digestiva",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.044": {
@@ -6296,7 +6478,7 @@
   "name": "Hepatomegalia",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.045": {
@@ -6322,8 +6504,8 @@
   "specKey": "2.01",
   "name": "Síndrome malabsorción",
   "section": "situacion",
-  "dx": "Sospecha",
-  "tx": null,
+  "dx": "Específico",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.049": {
@@ -6331,7 +6513,7 @@
   "specKey": "2.01",
   "name": "Arritmias",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -6340,7 +6522,7 @@
   "specKey": "2.01",
   "name": "Cardiopatías congénitas frecuentes",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -6349,7 +6531,7 @@
   "specKey": "2.01",
   "name": "Endocarditis infecciosa",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -6385,8 +6567,8 @@
   "specKey": "2.01",
   "name": "Alergias",
   "section": "situacion",
-  "dx": "Sospecha",
-  "tx": "Inicial",
+  "dx": "Específico",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "2.01.1.056": {
@@ -6395,7 +6577,7 @@
   "name": "Inmunodeficiencias",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.057": {
@@ -6412,7 +6594,7 @@
   "specKey": "2.01",
   "name": "Vasculitis: PSH, Kawasaki, otros",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -6422,7 +6604,7 @@
   "name": "Enuresis",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "2.01.1.060": {
@@ -6431,7 +6613,7 @@
   "name": "Hematuria",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.061": {
@@ -6449,7 +6631,7 @@
   "name": "Infección urinaria",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Derivar"
  },
  "2.01.1.063": {
@@ -6458,7 +6640,7 @@
   "name": "Insuficiencia renal aguda",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.064": {
@@ -6466,7 +6648,7 @@
   "specKey": "2.01",
   "name": "Insuficiencia renal crónica",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -6475,7 +6657,7 @@
   "specKey": "2.01",
   "name": "Malformaciones urogenitales",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -6521,7 +6703,7 @@
   "name": "Trastornos del equilibrio ácido-base",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Derivar"
  },
  "2.01.1.071": {
@@ -6539,7 +6721,7 @@
   "name": "Alteraciones del desarrollo puberal",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "2.01.1.073": {
@@ -6547,7 +6729,7 @@
   "specKey": "2.01",
   "name": "Diabetes",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -6556,7 +6738,7 @@
   "specKey": "2.01",
   "name": "Hiperplasia suprarrenal congénita",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -6655,7 +6837,7 @@
   "specKey": "2.01",
   "name": "Trastornos aprendizaje",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -6673,7 +6855,7 @@
   "specKey": "2.01",
   "name": "Tumores SNC",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -6754,7 +6936,7 @@
   "specKey": "2.01",
   "name": "Estrabismo",
   "section": "situacion",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -6763,7 +6945,7 @@
   "specKey": "2.01",
   "name": "Ojo rojo",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -6790,7 +6972,7 @@
   "specKey": "2.01",
   "name": "Hipertrofia adenoidea/amigdalina",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -6808,7 +6990,7 @@
   "specKey": "2.01",
   "name": "Otitis media recurrente",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -7042,7 +7224,7 @@
   "specKey": "2.01",
   "name": "RN PEG-GEG",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Derivar"
  },
@@ -7051,7 +7233,7 @@
   "specKey": "2.01",
   "name": "Alteraciones menstruales",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -7069,7 +7251,7 @@
   "specKey": "2.01",
   "name": "Sinequias vulvares",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -7087,7 +7269,7 @@
   "specKey": "2.01",
   "name": "Malformaciones congénitas más frecuentes",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -7096,7 +7278,7 @@
   "specKey": "2.01",
   "name": "Trisomía 21",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -7114,7 +7296,7 @@
   "specKey": "2.01",
   "name": "Ideación suicida",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -7123,7 +7305,7 @@
   "specKey": "2.01",
   "name": "Maltrato infantil",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -7168,7 +7350,7 @@
   "specKey": "2.01",
   "name": "Artritis idiopática juvenil",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -7177,7 +7359,7 @@
   "specKey": "2.01",
   "name": "SARS Cov 2 COVID 19",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -7420,7 +7602,7 @@
   "specKey": "2.01",
   "name": "Traumatismo encéfalo- craneano",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -7602,7 +7784,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.002": {
   "specialty": "Pediatría general",
@@ -7611,7 +7794,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.003": {
   "specialty": "Pediatría general",
@@ -7620,7 +7804,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "2.01.4.004": {
   "specialty": "Pediatría general",
@@ -7629,7 +7814,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "2.01.4.005": {
   "specialty": "Pediatría general",
@@ -7638,7 +7824,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "2.01.4.006": {
   "specialty": "Pediatría general",
@@ -7647,7 +7834,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "2.01.4.007": {
   "specialty": "Pediatría general",
@@ -7656,7 +7844,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "2.01.4.008": {
   "specialty": "Pediatría general",
@@ -7665,7 +7854,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.009": {
   "specialty": "Pediatría general",
@@ -7674,7 +7864,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "2.01.4.010": {
   "specialty": "Pediatría general",
@@ -7683,7 +7874,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.011": {
   "specialty": "Pediatría general",
@@ -7692,7 +7884,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.012": {
   "specialty": "Pediatría general",
@@ -7701,7 +7894,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.013": {
   "specialty": "Pediatría general",
@@ -7710,7 +7904,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.014": {
   "specialty": "Pediatría general",
@@ -7719,7 +7914,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.015": {
   "specialty": "Pediatría general",
@@ -7728,7 +7924,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.016": {
   "specialty": "Pediatría general",
@@ -7737,7 +7934,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.017": {
   "specialty": "Pediatría general",
@@ -7746,7 +7944,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.018": {
   "specialty": "Pediatría general",
@@ -7755,7 +7954,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.019": {
   "specialty": "Pediatría general",
@@ -7764,7 +7964,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.020": {
   "specialty": "Pediatría general",
@@ -7773,7 +7974,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.021": {
   "specialty": "Pediatría general",
@@ -7782,7 +7984,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.022": {
   "specialty": "Pediatría general",
@@ -7791,7 +7994,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.023": {
   "specialty": "Pediatría general",
@@ -7800,7 +8004,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.024": {
   "specialty": "Pediatría general",
@@ -7809,7 +8014,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.025": {
   "specialty": "Pediatría general",
@@ -7818,7 +8024,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.4.026": {
   "specialty": "Pediatría general",
@@ -7827,7 +8034,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "2.01.5.001": {
   "specialty": "Pediatría general",
@@ -7836,7 +8044,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "2.01.5.002": {
   "specialty": "Pediatría general",
@@ -7845,7 +8054,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "2.01.5.003": {
   "specialty": "Pediatría general",
@@ -7854,7 +8064,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "2.01.5.004": {
   "specialty": "Pediatría general",
@@ -7863,7 +8074,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "2.01.5.005": {
   "specialty": "Pediatría general",
@@ -7872,7 +8084,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "2.01.5.006": {
   "specialty": "Pediatría general",
@@ -7881,7 +8094,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "2.01.5.007": {
   "specialty": "Pediatría general",
@@ -7890,7 +8104,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "2.01.5.008": {
   "specialty": "Pediatría general",
@@ -7899,7 +8114,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "2.01.5.009": {
   "specialty": "Pediatría general",
@@ -7908,7 +8124,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "2.01.5.010": {
   "specialty": "Pediatría general",
@@ -7917,7 +8134,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "2.01.5.011": {
   "specialty": "Pediatría general",
@@ -7926,7 +8144,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "2.01.5.012": {
   "specialty": "Pediatría general",
@@ -7935,7 +8154,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "3.01.1.001": {
   "specialty": "Obstetricia y ginecología",
@@ -7961,8 +8181,8 @@
   "name": "Colestasia gravídica",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
-  "seg": null
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "3.01.1.004": {
   "specialty": "Obstetricia y ginecología",
@@ -7978,7 +8198,7 @@
   "specKey": "3.01",
   "name": "Embarazo con edad gestacional dudosa",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -8016,23 +8236,23 @@
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Derivar"
+  "seg": "No requiere"
  },
  "3.01.1.010": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Restricción de crecimiento fetal",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "No requiere"
+  "seg": "Derivar"
  },
  "3.01.1.011": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Síndrome hipertensivo del embarazo",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -8068,14 +8288,14 @@
   "specKey": "3.01",
   "name": "Endometriosis",
   "section": "situacion",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
  "3.01.1.016": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
-  "name": "Enfermedad preinvasora del cuello uterino-Lesiones",
+  "name": "Enfermedad preinvasora del cuello uterino-Lesiones genitales intraepiteliales (NIE-HPV)",
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
@@ -8086,59 +8306,59 @@
   "specKey": "3.01",
   "name": "Enfermedades de transmisión sexual",
   "section": "situacion",
-  "dx": "Sospecha",
-  "tx": "Inicial",
-  "seg": "Derivar"
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "3.01.1.018": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Hemorragia genital anormal",
   "section": "situacion",
-  "dx": "Específico",
-  "tx": "Completo",
-  "seg": "Completo"
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "No requiere"
  },
  "3.01.1.019": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Infecciones genitourinarias",
   "section": "situacion",
-  "dx": "Sospecha",
-  "tx": null,
-  "seg": "No requiere"
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "3.01.1.020": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Infertilidad conyugal",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Completo"
+  "seg": "Derivar"
  },
  "3.01.1.021": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Mioma uterino",
   "section": "situacion",
-  "dx": "Sospecha",
-  "tx": "Completo",
-  "seg": "Derivar"
+  "dx": "Específico",
+  "tx": "Inicial",
+  "seg": "Completo"
  },
  "3.01.1.022": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Oligoanovulación crónica",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": "Completo"
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "3.01.1.023": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
-  "name": "Patología benigna del endometrio",
+  "name": "Patología benigna del endometrio (hiperplasia, pólipos…)",
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
@@ -8151,7 +8371,7 @@
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": null
+  "seg": "Derivar"
  },
  "3.01.1.025": {
   "specialty": "Obstetricia y ginecología",
@@ -8159,15 +8379,15 @@
   "name": "Proceso inflamatorio pelviano",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": null,
-  "seg": null
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "3.01.1.026": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Prolapso genital",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -8176,9 +8396,9 @@
   "specKey": "3.01",
   "name": "Síndrome climatérico y menopausia",
   "section": "situacion",
-  "dx": "Sospecha",
-  "tx": "Inicial",
-  "seg": "Derivar"
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "3.01.1.028": {
   "specialty": "Obstetricia y ginecología",
@@ -8196,16 +8416,16 @@
   "section": "situacion",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Derivar"
+  "seg": "Completo"
  },
  "3.01.1.030": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Cáncer de mama",
   "section": "situacion",
-  "dx": "Específico",
-  "tx": "Completo",
-  "seg": "Completo"
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "3.01.1.031": {
   "specialty": "Obstetricia y ginecología",
@@ -8221,9 +8441,9 @@
   "specKey": "3.01",
   "name": "Incontinencia urinaria",
   "section": "situacion",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
-  "seg": "Completo"
+  "seg": "Derivar"
  },
  "3.01.2.001": {
   "specialty": "Obstetricia y ginecología",
@@ -8249,7 +8469,7 @@
   "name": "Crisis hipertensiva del embarazo",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "3.01.2.004": {
@@ -8257,7 +8477,7 @@
   "specKey": "3.01",
   "name": "Eclampsia",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -8275,7 +8495,7 @@
   "specKey": "3.01",
   "name": "Endometritis puerperal",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -8284,32 +8504,32 @@
   "specKey": "3.01",
   "name": "Hiperemesis gravídica",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "No requiere"
  },
  "3.01.2.008": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
-  "name": "Hemorragia genital aguda (metrorragia",
+  "name": "Hemorragia genital aguda (metrorragia disfuncional-cervicorragia por Cáncer C.U.)",
   "section": "urgencia",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": null
+  "seg": "No requiere"
  },
  "3.01.2.009": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Mastitis puerperal",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "No requiere"
  },
  "3.01.2.010": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
-  "name": "Metrorragia: Desprendimiento previo",
+  "name": "Metrorragia: Desprendimiento previo de placenta normoinserta (DPPNI)",
   "section": "urgencia",
   "dx": "Sospecha",
   "tx": "Inicial",
@@ -8320,16 +8540,16 @@
   "specKey": "3.01",
   "name": "Metrorragia: placenta previa",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "No requiere"
+  "seg": "Derivar"
  },
  "3.01.2.012": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Parto prematuro",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -8338,18 +8558,18 @@
   "specKey": "3.01",
   "name": "Presentaciones fetales anómalas",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Derivar"
+  "seg": "No requiere"
  },
  "3.01.2.014": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Rotura prematura de membranas",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
-  "seg": null
+  "seg": "Derivar"
  },
  "3.01.2.015": {
   "specialty": "Obstetricia y ginecología",
@@ -8358,14 +8578,14 @@
   "section": "urgencia",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "No requiere"
+  "seg": "Derivar"
  },
  "3.01.2.016": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Dolor pélvico agudo",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -8374,9 +8594,9 @@
   "specKey": "3.01",
   "name": "Sufrimiento fetal agudo",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
-  "seg": "Derivar"
+  "seg": "No requiere"
  },
  "3.01.2.018": {
   "specialty": "Obstetricia y ginecología",
@@ -8385,34 +8605,34 @@
   "section": "urgencia",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Derivar"
+  "seg": "Completo"
  },
  "3.01.2.019": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Quiste ovárico torcido",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": null
+  "seg": "Completo"
  },
  "3.01.2.020": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Mastitis abscedada",
   "section": "urgencia",
-  "dx": "Sospecha",
-  "tx": "Inicial",
-  "seg": "No requiere"
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "3.01.2.021": {
   "specialty": "Obstetricia y ginecología",
   "specKey": "3.01",
   "name": "Trabajo parto distócico",
   "section": "urgencia",
-  "dx": null,
-  "tx": "Completo",
-  "seg": "Completo"
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "No requiere"
  },
  "3.01.3.001": {
   "specialty": "Obstetricia y ginecología",
@@ -8565,7 +8785,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "3.01.4.002": {
   "specialty": "Obstetricia y ginecología",
@@ -8574,7 +8795,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "3.01.4.003": {
   "specialty": "Obstetricia y ginecología",
@@ -8583,7 +8805,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "3.01.4.004": {
   "specialty": "Obstetricia y ginecología",
@@ -8592,7 +8815,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "3.01.4.005": {
   "specialty": "Obstetricia y ginecología",
@@ -8601,7 +8825,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "3.01.4.006": {
   "specialty": "Obstetricia y ginecología",
@@ -8610,7 +8835,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "3.01.4.007": {
   "specialty": "Obstetricia y ginecología",
@@ -8619,7 +8845,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "3.01.4.008": {
   "specialty": "Obstetricia y ginecología",
@@ -8628,7 +8855,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "3.01.5.001": {
   "specialty": "Obstetricia y ginecología",
@@ -8637,7 +8865,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "3.01.5.002": {
   "specialty": "Obstetricia y ginecología",
@@ -8646,7 +8875,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "3.01.5.003": {
   "specialty": "Obstetricia y ginecología",
@@ -8655,7 +8885,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "3.01.5.004": {
   "specialty": "Obstetricia y ginecología",
@@ -8664,7 +8895,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "3.01.5.005": {
   "specialty": "Obstetricia y ginecología",
@@ -8673,7 +8905,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "3.01.5.006": {
   "specialty": "Obstetricia y ginecología",
@@ -8682,7 +8915,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "3.01.5.007": {
   "specialty": "Obstetricia y ginecología",
@@ -8691,7 +8925,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "3.01.5.008": {
   "specialty": "Obstetricia y ginecología",
@@ -8700,7 +8935,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "3.01.5.009": {
   "specialty": "Obstetricia y ginecología",
@@ -8709,7 +8945,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "3.01.5.010": {
   "specialty": "Obstetricia y ginecología",
@@ -8718,7 +8955,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "3.01.5.011": {
   "specialty": "Obstetricia y ginecología",
@@ -8727,7 +8965,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "3.01.5.012": {
   "specialty": "Obstetricia y ginecología",
@@ -8736,7 +8975,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "3.01.5.013": {
   "specialty": "Obstetricia y ginecología",
@@ -8745,7 +8985,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "3.01.5.014": {
   "specialty": "Obstetricia y ginecología",
@@ -8754,7 +8995,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.1.001": {
   "specialty": "Cirugía general y anestesia",
@@ -8878,7 +9120,7 @@
   "specKey": "4.01",
   "name": "Cáncer colorectal",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -8905,7 +9147,7 @@
   "specKey": "4.01",
   "name": "Enfermedades del seno pilonidal",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -8914,7 +9156,7 @@
   "specKey": "4.01",
   "name": "Cáncer anal",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -8932,7 +9174,7 @@
   "specKey": "4.01",
   "name": "Hernias, eventraciones y evisceraciones",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -8959,7 +9201,7 @@
   "specKey": "4.01",
   "name": "Tumores hepáticos",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -8986,7 +9228,7 @@
   "specKey": "4.01",
   "name": "Litiasis biliar",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -9040,7 +9282,7 @@
   "specKey": "4.01",
   "name": "Cáncer del tiroides",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -9049,7 +9291,7 @@
   "specKey": "4.01",
   "name": "Patología benigna del tiroides",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -9058,7 +9300,7 @@
   "specKey": "4.01",
   "name": "Cáncer de mama",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -9067,7 +9309,7 @@
   "specKey": "4.01",
   "name": "Patología mamaria benigna",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -9148,7 +9390,7 @@
   "specKey": "4.01",
   "name": "Enfermedad renovascular",
   "section": "situacion",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -9735,7 +9977,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.01.4.002": {
   "specialty": "Cirugía general y anestesia",
@@ -9744,7 +9987,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.01.4.003": {
   "specialty": "Cirugía general y anestesia",
@@ -9753,7 +9997,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.01.4.004": {
   "specialty": "Cirugía general y anestesia",
@@ -9762,7 +10007,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.01.4.005": {
   "specialty": "Cirugía general y anestesia",
@@ -9771,7 +10017,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.01.4.006": {
   "specialty": "Cirugía general y anestesia",
@@ -9780,7 +10027,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.01.4.007": {
   "specialty": "Cirugía general y anestesia",
@@ -9789,16 +10037,18 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.01.4.008": {
   "specialty": "Cirugía general y anestesia",
   "specKey": "4.01",
-  "name": "Radiografías contrastadas (EED, trànsito intestinal,",
+  "name": "Radiografías contrastadas (EED, trànsito intestinal, enema baritada y pielografía).",
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.01.4.009": {
   "specialty": "Cirugía general y anestesia",
@@ -9807,7 +10057,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.01.4.010": {
   "specialty": "Cirugía general y anestesia",
@@ -9816,7 +10067,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.01.4.015": {
   "specialty": "Cirugía general y anestesia",
@@ -9825,7 +10077,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.01.4.011": {
   "specialty": "Cirugía general y anestesia",
@@ -9834,7 +10087,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.01.4.012": {
   "specialty": "Cirugía general y anestesia",
@@ -9843,7 +10097,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.01.4.013": {
   "specialty": "Cirugía general y anestesia",
@@ -9852,7 +10107,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.01.4.014": {
   "specialty": "Cirugía general y anestesia",
@@ -9861,7 +10117,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.01.5.001": {
   "specialty": "Cirugía general y anestesia",
@@ -9870,7 +10127,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.002": {
   "specialty": "Cirugía general y anestesia",
@@ -9879,7 +10137,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "4.01.5.003": {
   "specialty": "Cirugía general y anestesia",
@@ -9888,7 +10147,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.004": {
   "specialty": "Cirugía general y anestesia",
@@ -9897,7 +10157,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.005": {
   "specialty": "Cirugía general y anestesia",
@@ -9906,7 +10167,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.006": {
   "specialty": "Cirugía general y anestesia",
@@ -9915,7 +10177,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "4.01.5.007": {
   "specialty": "Cirugía general y anestesia",
@@ -9924,7 +10187,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.008": {
   "specialty": "Cirugía general y anestesia",
@@ -9933,7 +10197,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.009": {
   "specialty": "Cirugía general y anestesia",
@@ -9942,7 +10207,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.010": {
   "specialty": "Cirugía general y anestesia",
@@ -9951,7 +10217,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "4.01.5.011": {
   "specialty": "Cirugía general y anestesia",
@@ -9960,7 +10227,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.012": {
   "specialty": "Cirugía general y anestesia",
@@ -9969,7 +10237,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "4.01.5.013": {
   "specialty": "Cirugía general y anestesia",
@@ -9978,7 +10247,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "4.01.5.014": {
   "specialty": "Cirugía general y anestesia",
@@ -9987,7 +10257,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.015": {
   "specialty": "Cirugía general y anestesia",
@@ -9996,7 +10267,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.016": {
   "specialty": "Cirugía general y anestesia",
@@ -10005,7 +10277,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "4.01.5.017": {
   "specialty": "Cirugía general y anestesia",
@@ -10014,7 +10287,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.018": {
   "specialty": "Cirugía general y anestesia",
@@ -10023,7 +10297,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.019": {
   "specialty": "Cirugía general y anestesia",
@@ -10032,7 +10307,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.020": {
   "specialty": "Cirugía general y anestesia",
@@ -10041,7 +10317,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.021": {
   "specialty": "Cirugía general y anestesia",
@@ -10050,7 +10327,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.022": {
   "specialty": "Cirugía general y anestesia",
@@ -10059,7 +10337,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.023": {
   "specialty": "Cirugía general y anestesia",
@@ -10068,7 +10347,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.024": {
   "specialty": "Cirugía general y anestesia",
@@ -10077,7 +10357,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.025": {
   "specialty": "Cirugía general y anestesia",
@@ -10086,7 +10367,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.026": {
   "specialty": "Cirugía general y anestesia",
@@ -10095,7 +10377,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "4.01.5.027": {
   "specialty": "Cirugía general y anestesia",
@@ -10104,7 +10387,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.028": {
   "specialty": "Cirugía general y anestesia",
@@ -10113,7 +10397,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.029": {
   "specialty": "Cirugía general y anestesia",
@@ -10122,7 +10407,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.030": {
   "specialty": "Cirugía general y anestesia",
@@ -10131,7 +10417,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "4.01.5.031": {
   "specialty": "Cirugía general y anestesia",
@@ -10140,7 +10427,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.01.5.032": {
   "specialty": "Cirugía general y anestesia",
@@ -10149,7 +10437,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "4.02.1.001": {
   "specialty": "Traumatología",
@@ -10165,7 +10454,7 @@
   "specKey": "4.02",
   "name": "Displasia congénita de cadera",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -10174,7 +10463,7 @@
   "specKey": "4.02",
   "name": "Escoliosis y deformidades vertebrales",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -10192,7 +10481,7 @@
   "specKey": "4.02",
   "name": "Lumbago mecánico",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -10201,7 +10490,7 @@
   "specKey": "4.02",
   "name": "Lumbociática radicular",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -10219,7 +10508,7 @@
   "specKey": "4.02",
   "name": "Síndrome de hombro doloroso",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -10228,7 +10517,7 @@
   "specKey": "4.02",
   "name": "Tumores óseos",
   "section": "situacion",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -10253,11 +10542,11 @@
  "4.02.2.003": {
   "specialty": "Traumatología",
   "specKey": "4.02",
-  "name": "Esguince grado1",
+  "name": "Esguince grado1 (acromioclavicular, dedos, rodilla y tobillo)",
   "section": "urgencia",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "4.02.2.004": {
   "specialty": "Traumatología",
@@ -10310,7 +10599,7 @@
   "name": "Heridas de la mano no complicadas",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Completo",
   "seg": "Completo"
  },
  "4.02.2.010": {
@@ -10319,17 +10608,17 @@
   "name": "Lesiones de los nervios periféricos",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "4.02.2.011": {
   "specialty": "Traumatología",
   "specKey": "4.02",
-  "name": "Lesiones de partes blandas (contusiones,",
+  "name": "Lesiones de partes blandas (contusiones, hematomas, desgarros)",
   "section": "urgencia",
-  "dx": null,
-  "tx": "Inicial",
-  "seg": null
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "4.02.2.012": {
   "specialty": "Traumatología",
@@ -10338,7 +10627,7 @@
   "section": "urgencia",
   "dx": "Específico",
   "tx": "Completo",
-  "seg": "Completo"
+  "seg": "Derivar"
  },
  "4.02.2.013": {
   "specialty": "Traumatología",
@@ -10346,7 +10635,7 @@
   "name": "Luxofractura del tobillo",
   "section": "urgencia",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "4.02.2.014": {
@@ -10355,7 +10644,7 @@
   "name": "Politraumatizado",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "4.02.2.015": {
@@ -10437,7 +10726,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.02.4.002": {
   "specialty": "Traumatología",
@@ -10446,7 +10736,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.02.4.003": {
   "specialty": "Traumatología",
@@ -10455,7 +10746,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.02.4.004": {
   "specialty": "Traumatología",
@@ -10464,7 +10756,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.02.4.005": {
   "specialty": "Traumatología",
@@ -10473,16 +10766,18 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.02.4.006": {
   "specialty": "Traumatología",
   "specKey": "4.02",
-  "name": "Set radiológico de trauma en conjunto",
+  "name": "Set radiológico de trauma en conjunto (columna cervical, tórax, pelvis y columna)",
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.02.4.007": {
   "specialty": "Traumatología",
@@ -10491,7 +10786,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.02.4.008": {
   "specialty": "Traumatología",
@@ -10500,7 +10796,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.02.4.009": {
   "specialty": "Traumatología",
@@ -10509,7 +10806,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.02.5.001": {
   "specialty": "Traumatología",
@@ -10518,7 +10816,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.02.5.002": {
   "specialty": "Traumatología",
@@ -10527,7 +10826,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.02.5.003": {
   "specialty": "Traumatología",
@@ -10536,7 +10836,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "4.02.5.004": {
   "specialty": "Traumatología",
@@ -10545,7 +10846,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.02.5.005": {
   "specialty": "Traumatología",
@@ -10554,14 +10856,15 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.03.1.001": {
   "specialty": "Urología",
   "specKey": "4.03",
   "name": "Balanitis, balano postitis",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -10579,7 +10882,7 @@
   "specKey": "4.03",
   "name": "Cáncer de vejiga y urotelio",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -10607,7 +10910,7 @@
   "name": "Enfermedades de transmisión sexual",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Completo",
   "seg": "Completo"
  },
  "4.03.1.007": {
@@ -10615,7 +10918,7 @@
   "specKey": "4.03",
   "name": "Epididimitis",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -10624,8 +10927,8 @@
   "specKey": "4.03",
   "name": "Estenosis uretral",
   "section": "situacion",
-  "dx": "Específico",
-  "tx": "Completo",
+  "dx": "Sospecha",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "4.03.1.009": {
@@ -10634,7 +10937,7 @@
   "name": "Fimosis, parafimosis",
   "section": "situacion",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Inicial",
   "seg": "Completo"
  },
  "4.03.1.010": {
@@ -10651,7 +10954,7 @@
   "specKey": "4.03",
   "name": "Hidrocele",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -10669,7 +10972,7 @@
   "specKey": "4.03",
   "name": "Hiperplasia prostática benigna",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -10688,7 +10991,7 @@
   "name": "Infección urinaria alta y baja",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "4.03.1.016": {
@@ -10696,7 +10999,7 @@
   "specKey": "4.03",
   "name": "Infección urinaria específica",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -10706,7 +11009,7 @@
   "name": "Infertilidad masculina",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "4.03.1.018": {
@@ -10723,7 +11026,7 @@
   "specKey": "4.03",
   "name": "Malformaciones congénitas nefrourológicas",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -10733,7 +11036,7 @@
   "name": "Quistes del epidídimo",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "4.03.1.021": {
@@ -10741,7 +11044,7 @@
   "specKey": "4.03",
   "name": "Reflujo vésico ureteral",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -10751,7 +11054,7 @@
   "name": "Tumor renal",
   "section": "situacion",
   "dx": "Sospecha",
-  "tx": "Completo",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "4.03.1.023": {
@@ -10777,7 +11080,7 @@
   "specKey": "4.03",
   "name": "Urolitiasis",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -10786,7 +11089,7 @@
   "specKey": "4.03",
   "name": "Uropatía alta",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -10795,7 +11098,7 @@
   "specKey": "4.03",
   "name": "Uropatía obstructiva baja",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -10804,7 +11107,7 @@
   "specKey": "4.03",
   "name": "Varicocele",
   "section": "situacion",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -10841,7 +11144,7 @@
   "name": "Priapismo",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": null,
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "4.03.2.005": {
@@ -10850,7 +11153,7 @@
   "name": "Prostatis aguda",
   "section": "urgencia",
   "dx": "Específico",
-  "tx": "Inicial",
+  "tx": "Completo",
   "seg": "Derivar"
  },
  "4.03.2.006": {
@@ -10867,8 +11170,8 @@
   "specKey": "4.03",
   "name": "Torsión testicular",
   "section": "urgencia",
-  "dx": "Sospecha",
-  "tx": "Completo",
+  "dx": "Específico",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "4.03.2.008": {
@@ -10876,8 +11179,8 @@
   "specKey": "4.03",
   "name": "Trauma urológico",
   "section": "urgencia",
-  "dx": "Específico",
-  "tx": null,
+  "dx": "Sospecha",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "4.03.2.009": {
@@ -10885,7 +11188,7 @@
   "specKey": "4.03",
   "name": "Traumatismo uretral",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -10950,7 +11253,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.03.4.002": {
   "specialty": "Urología",
@@ -10959,7 +11263,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.03.4.003": {
   "specialty": "Urología",
@@ -10968,7 +11273,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.03.4.004": {
   "specialty": "Urología",
@@ -10977,7 +11283,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.03.4.005": {
   "specialty": "Urología",
@@ -10986,7 +11293,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.03.4.006": {
   "specialty": "Urología",
@@ -10995,7 +11303,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.03.4.007": {
   "specialty": "Urología",
@@ -11004,7 +11313,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.03.4.008": {
   "specialty": "Urología",
@@ -11013,7 +11323,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.03.4.009": {
   "specialty": "Urología",
@@ -11022,7 +11333,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.03.4.010": {
   "specialty": "Urología",
@@ -11031,7 +11343,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.03.4.011": {
   "specialty": "Urología",
@@ -11040,7 +11353,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "4.03.4.012": {
   "specialty": "Urología",
@@ -11049,7 +11363,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.03.4.013": {
   "specialty": "Urología",
@@ -11058,7 +11373,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "4.03.5.001": {
   "specialty": "Urología",
@@ -11067,7 +11383,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "4.03.5.002": {
   "specialty": "Urología",
@@ -11076,7 +11393,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "4.03.5.003": {
   "specialty": "Urología",
@@ -11085,7 +11403,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "4.03.5.004": {
   "specialty": "Urología",
@@ -11094,7 +11413,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.03.5.005": {
   "specialty": "Urología",
@@ -11103,7 +11423,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "4.03.5.006": {
   "specialty": "Urología",
@@ -11112,14 +11433,15 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "5.01.1.001": {
   "specialty": "Psiquiatría general",
   "specKey": "5.01",
   "name": "Trastorno de pánico con o sin agorafobia",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -11137,7 +11459,7 @@
   "specKey": "5.01",
   "name": "Trastornos fóbicos (fobia social y fobia específica)",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -11155,7 +11477,7 @@
   "specKey": "5.01",
   "name": "Trastorno agudo por estrés",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -11164,7 +11486,7 @@
   "specKey": "5.01",
   "name": "Trastorno por estrés postraumático",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -11173,7 +11495,7 @@
   "specKey": "5.01",
   "name": "Primer episodio depresivo",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -11200,7 +11522,7 @@
   "specKey": "5.01",
   "name": "Esquizofrenia y otros trastornos psicòticos",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -11218,7 +11540,7 @@
   "specKey": "5.01",
   "name": "Dependencia de alcohol",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -11227,7 +11549,7 @@
   "specKey": "5.01",
   "name": "Dependencia de otras drogas",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -11236,7 +11558,7 @@
   "specKey": "5.01",
   "name": "Delirium",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Derivar"
  },
@@ -11335,7 +11657,7 @@
   "specKey": "5.01",
   "name": "Retardo mental",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -11344,7 +11666,7 @@
   "specKey": "5.01",
   "name": "Enuresis",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -11416,7 +11738,7 @@
   "specKey": "5.01",
   "name": "Trastornos del ánimo en niños",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Completo"
  },
@@ -11434,7 +11756,7 @@
   "specKey": "5.01",
   "name": "Trastorno de ansiedad generalizada",
   "section": "situacion",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -11461,7 +11783,7 @@
   "specKey": "5.01",
   "name": "Intoxicación por sustancias psicoactivas",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -11589,7 +11911,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "5.01.4.002": {
   "specialty": "Psiquiatría general",
@@ -11598,7 +11921,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "5.01.4.003": {
   "specialty": "Psiquiatría general",
@@ -11607,7 +11931,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "5.01.4.004": {
   "specialty": "Psiquiatría general",
@@ -11616,7 +11941,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "5.01.5.001": {
   "specialty": "Psiquiatría general",
@@ -11625,7 +11951,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "5.01.5.002": {
   "specialty": "Psiquiatría general",
@@ -11634,7 +11961,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "5.01.5.003": {
   "specialty": "Psiquiatría general",
@@ -11643,7 +11971,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "5.01.5.004": {
   "specialty": "Psiquiatría general",
@@ -11652,14 +11981,15 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.01.1.001": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Acné",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -11668,27 +11998,27 @@
   "specKey": "6.01",
   "name": "Alopecías",
   "section": "situacion",
-  "dx": "Específico",
-  "tx": null,
-  "seg": null
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "6.01.1.003": {
   "specialty": "Dermatología",
   "specKey": "6.01",
-  "name": "Cáncer de piel no melanoma",
+  "name": "Cáncer de piel no melanoma (carcinoma basocelular y espinocelular)",
   "section": "situacion",
-  "dx": "Específico",
-  "tx": null,
-  "seg": null
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "6.01.1.004": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Dermatitis atópica",
   "section": "situacion",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
-  "seg": "Completo"
+  "seg": "Derivar"
  },
  "6.01.1.005": {
   "specialty": "Dermatología",
@@ -11704,17 +12034,17 @@
   "specKey": "6.01",
   "name": "Dermatitis seborreica infantil y del adulto",
   "section": "situacion",
-  "dx": "Sospecha",
-  "tx": null,
-  "seg": "Derivar"
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "6.01.1.007": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Dermitis de contacto",
   "section": "situacion",
-  "dx": "Sospecha",
-  "tx": "Inicial",
+  "dx": "Específico",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "6.01.1.008": {
@@ -11724,14 +12054,14 @@
   "section": "situacion",
   "dx": "Específico",
   "tx": "Completo",
-  "seg": "Derivar"
+  "seg": "Completo"
  },
  "6.01.1.009": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Eritema nodoso / Eritema indurado de Bazin",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -11742,15 +12072,15 @@
   "section": "situacion",
   "dx": "Específico",
   "tx": "Inicial",
-  "seg": "Derivar"
+  "seg": "Completo"
  },
  "6.01.1.011": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Fotodermatosis",
   "section": "situacion",
-  "dx": "Específico",
-  "tx": "Completo",
+  "dx": "Sospecha",
+  "tx": "Inicial",
   "seg": "Completo"
  },
  "6.01.1.012": {
@@ -11758,8 +12088,8 @@
   "specKey": "6.01",
   "name": "Granuloma piogénico",
   "section": "situacion",
-  "dx": "Específico",
-  "tx": "Inicial",
+  "dx": "Sospecha",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "6.01.1.013": {
@@ -11768,151 +12098,151 @@
   "name": "Hemangiomas cutáneos infantiles",
   "section": "situacion",
   "dx": "Específico",
-  "tx": "Completo",
-  "seg": "Completo"
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "6.01.1.014": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Linfomas cutáneos",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Completo"
+  "seg": "Derivar"
  },
  "6.01.1.015": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Líquen plano",
   "section": "situacion",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Completo"
+  "seg": "Derivar"
  },
  "6.01.1.016": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Lupus eritematoso cutáneo crónico (lupus discoide)",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "6.01.1.017": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Melanoma maligno",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "6.01.1.018": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Micosis superficiales",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "6.01.1.019": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Pediculosis",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "6.01.1.020": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Pénfigo",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "6.01.1.021": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Piodermias superficiales y profundas (no linfáticas)",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "6.01.1.022": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Pitiriasis Rosada de Gilbert",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "6.01.1.023": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Prúrigo infantil agudo, picadura de insectos",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "6.01.1.024": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Psoriasis",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Inicial",
+  "seg": "Completo"
  },
  "6.01.1.025": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Reacciones cutáneas por drogas (rush, toxidermia fija)",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Inicial",
+  "seg": "Completo"
  },
  "6.01.1.026": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Rosácea",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Inicial",
+  "seg": "Completo"
  },
  "6.01.1.027": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Sarna",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "6.01.1.028": {
   "specialty": "Dermatología",
   "specKey": "6.01",
-  "name": "Tumores benignos de piel",
+  "name": "Tumores benignos de piel (quistes, lipomas, queratosis seborreica)",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "6.01.1.029": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Tumores premalignos (queratosis actínicas, Bowen)",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
+  "dx": "Sospecha",
+  "tx": "Inicial",
   "seg": "Completo"
  },
  "6.01.1.030": {
@@ -11920,8 +12250,8 @@
   "specKey": "6.01",
   "name": "Urticaria aguda",
   "section": "situacion",
-  "dx": null,
-  "tx": "Inicial",
+  "dx": "Específico",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "6.01.1.033": {
@@ -11929,27 +12259,27 @@
   "specKey": "6.01",
   "name": "Vasculitis cutáneas",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": "Completo"
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "6.01.1.031": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Verrugas, herpes simplex, herpes zoster, moluscos",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "Completo"
  },
  "6.01.1.032": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Vitiligo",
   "section": "situacion",
-  "dx": null,
-  "tx": null,
-  "seg": null
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
  },
  "6.01.2.001": {
   "specialty": "Dermatología",
@@ -11965,7 +12295,7 @@
   "specKey": "6.01",
   "name": "Ántrax",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -11974,7 +12304,7 @@
   "specKey": "6.01",
   "name": "Erisipela / Celulitis",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -11983,7 +12313,7 @@
   "specKey": "6.01",
   "name": "Eritrodermia",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -11999,85 +12329,40 @@
  "6.01.2.006": {
   "specialty": "Dermatología",
   "specKey": "6.01",
-  "name": "Inicial",
+  "name": "Hemangiomas y malformaciones vasculares del recién nacido",
   "section": "urgencia",
-  "dx": null,
-  "tx": null,
+  "dx": "Sospecha",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "6.01.2.007": {
   "specialty": "Dermatología",
   "specKey": "6.01",
-  "name": "Hemangiomas y malformaciones vasculares del recién nacido",
+  "name": "Herpes zoster",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
  "6.01.2.008": {
   "specialty": "Dermatología",
   "specKey": "6.01",
-  "name": "Completo",
-  "section": "urgencia",
-  "dx": null,
-  "tx": null,
-  "seg": "Completo"
- },
- "6.01.2.009": {
-  "specialty": "Dermatología",
-  "specKey": "6.01",
-  "name": "Herpes zoster",
-  "section": "urgencia",
-  "dx": "Específico",
-  "tx": "Inicial",
-  "seg": "Derivar"
- },
- "6.01.2.010": {
-  "specialty": "Dermatología",
-  "specKey": "6.01",
-  "name": "Inicial",
-  "section": "urgencia",
-  "dx": null,
-  "tx": null,
-  "seg": "Derivar"
- },
- "6.01.2.011": {
-  "specialty": "Dermatología",
-  "specKey": "6.01",
   "name": "Loxocelismo",
   "section": "urgencia",
   "dx": "Específico",
   "tx": "Completo",
-  "seg": "No requiere"
+  "seg": "Completo"
  },
- "6.01.2.012": {
-  "specialty": "Dermatología",
-  "specKey": "6.01",
-  "name": "Inicial",
-  "section": "urgencia",
-  "dx": null,
-  "tx": null,
-  "seg": "Derivar"
- },
- "6.01.2.013": {
+ "6.01.2.009": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Necrolisis tóxica epidérmica",
   "section": "urgencia",
   "dx": "Sospecha",
   "tx": "Inicial",
-  "seg": "Completo"
+  "seg": "Derivar"
  },
- "6.01.2.014": {
-  "specialty": "Dermatología",
-  "specKey": "6.01",
-  "name": "Inicial",
-  "section": "urgencia",
-  "dx": null,
-  "tx": null,
-  "seg": "No requiere"
- },
- "6.01.2.015": {
+ "6.01.2.010": {
   "specialty": "Dermatología",
   "specKey": "6.01",
   "name": "Pénfigo y penfigoide",
@@ -12086,13 +12371,58 @@
   "tx": "Inicial",
   "seg": "Derivar"
  },
+ "6.01.2.011": {
+  "specialty": "Dermatología",
+  "specKey": "6.01",
+  "name": "Quemadura solar",
+  "section": "urgencia",
+  "dx": "Específico",
+  "tx": "Completo",
+  "seg": "No requiere"
+ },
+ "6.01.2.012": {
+  "specialty": "Dermatología",
+  "specKey": "6.01",
+  "name": "Sífilis congénita",
+  "section": "urgencia",
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
+ },
+ "6.01.2.013": {
+  "specialty": "Dermatología",
+  "specKey": "6.01",
+  "name": "Síndrome de hipersensibilidad a drogas",
+  "section": "urgencia",
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Completo"
+ },
+ "6.01.2.014": {
+  "specialty": "Dermatología",
+  "specKey": "6.01",
+  "name": "Síndrome de piel escaldada por estafilococos",
+  "section": "urgencia",
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "No requiere"
+ },
+ "6.01.2.015": {
+  "specialty": "Dermatología",
+  "specKey": "6.01",
+  "name": "Síndrome de Stevens-Johnson",
+  "section": "urgencia",
+  "dx": "Sospecha",
+  "tx": "Inicial",
+  "seg": "Derivar"
+ },
  "6.01.2.016": {
   "specialty": "Dermatología",
   "specKey": "6.01",
-  "name": "Completo",
+  "name": "Urticaria y angioedema",
   "section": "urgencia",
-  "dx": null,
-  "tx": null,
+  "dx": "Específico",
+  "tx": "Completo",
   "seg": "Completo"
  },
  "6.01.3.001": {
@@ -12129,7 +12459,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realiza, interpreta y emplea"
  },
  "6.01.4.002": {
   "specialty": "Dermatología",
@@ -12138,7 +12469,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "6.01.4.003": {
   "specialty": "Dermatología",
@@ -12147,7 +12479,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "6.01.4.004": {
   "specialty": "Dermatología",
@@ -12156,7 +12489,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "6.01.4.005": {
   "specialty": "Dermatología",
@@ -12165,7 +12499,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "6.01.4.006": {
   "specialty": "Dermatología",
@@ -12174,7 +12509,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "6.01.4.007": {
   "specialty": "Dermatología",
@@ -12183,7 +12519,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "6.01.5.001": {
   "specialty": "Dermatología",
@@ -12192,7 +12529,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "6.02.1.001": {
   "specialty": "Oftalmología",
@@ -12624,7 +12962,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "6.02.4.002": {
   "specialty": "Oftalmología",
@@ -12633,7 +12972,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "6.02.5.001": {
   "specialty": "Oftalmología",
@@ -12642,7 +12982,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.02.5.002": {
   "specialty": "Oftalmología",
@@ -12651,7 +12992,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.02.5.003": {
   "specialty": "Oftalmología",
@@ -12660,7 +13002,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.02.5.004": {
   "specialty": "Oftalmología",
@@ -12669,7 +13012,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.02.5.005": {
   "specialty": "Oftalmología",
@@ -12678,7 +13022,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.02.5.006": {
   "specialty": "Oftalmología",
@@ -12687,7 +13032,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.02.5.007": {
   "specialty": "Oftalmología",
@@ -12696,7 +13042,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.02.5.008": {
   "specialty": "Oftalmología",
@@ -12705,7 +13052,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "6.02.5.009": {
   "specialty": "Oftalmología",
@@ -12714,7 +13062,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.02.5.010": {
   "specialty": "Oftalmología",
@@ -12723,7 +13072,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.02.5.011": {
   "specialty": "Oftalmología",
@@ -12732,7 +13082,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.02.5.012": {
   "specialty": "Oftalmología",
@@ -12741,7 +13092,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.02.5.013": {
   "specialty": "Oftalmología",
@@ -12750,7 +13102,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.02.5.014": {
   "specialty": "Oftalmología",
@@ -12759,7 +13112,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.03.1.001": {
   "specialty": "Otorrinolaringología",
@@ -13063,7 +13417,7 @@
   "specKey": "6.03",
   "name": "Absceso mastoídeo de otitis media aguda y crónica",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -13072,7 +13426,7 @@
   "specKey": "6.03",
   "name": "Absceso periamigdalino",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Completo",
   "seg": "Completo"
  },
@@ -13081,8 +13435,8 @@
   "specKey": "6.03",
   "name": "Absceso profundo de cuello",
   "section": "urgencia",
-  "dx": "Específico",
-  "tx": null,
+  "dx": "Sospecha",
+  "tx": "Inicial",
   "seg": "Derivar"
  },
  "6.03.2.004": {
@@ -13108,7 +13462,7 @@
   "specKey": "6.03",
   "name": "Barotrauma ótico y trauma acústico agudo",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -13198,7 +13552,7 @@
   "specKey": "6.03",
   "name": "Perforación timpánica traumática",
   "section": "urgencia",
-  "dx": "Sospecha",
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -13207,7 +13561,7 @@
   "specKey": "6.03",
   "name": "Síndrome vertiginoso agudo",
   "section": "urgencia",
-  "dx": "Específico",
+  "dx": "Sospecha",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -13216,7 +13570,7 @@
   "specKey": "6.03",
   "name": "Sordera súbita",
   "section": "urgencia",
-  "dx": null,
+  "dx": "Específico",
   "tx": "Inicial",
   "seg": "Derivar"
  },
@@ -13290,7 +13644,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "6.03.4.002": {
   "specialty": "Otorrinolaringología",
@@ -13299,7 +13654,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "6.03.4.003": {
   "specialty": "Otorrinolaringología",
@@ -13308,7 +13664,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "6.03.4.004": {
   "specialty": "Otorrinolaringología",
@@ -13317,7 +13674,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "6.03.4.005": {
   "specialty": "Otorrinolaringología",
@@ -13326,7 +13684,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "6.03.4.006": {
   "specialty": "Otorrinolaringología",
@@ -13335,7 +13694,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "6.03.4.007": {
   "specialty": "Otorrinolaringología",
@@ -13344,7 +13704,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "6.03.4.008": {
   "specialty": "Otorrinolaringología",
@@ -13353,7 +13714,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "6.03.4.009": {
   "specialty": "Otorrinolaringología",
@@ -13362,7 +13724,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "6.03.4.010": {
   "specialty": "Otorrinolaringología",
@@ -13371,7 +13734,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Interpreta y emplea"
  },
  "6.03.4.011": {
   "specialty": "Otorrinolaringología",
@@ -13380,7 +13744,8 @@
   "section": "examen",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Emplea informe"
  },
  "6.03.5.001": {
   "specialty": "Otorrinolaringología",
@@ -13389,7 +13754,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "6.03.5.002": {
   "specialty": "Otorrinolaringología",
@@ -13398,7 +13764,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "6.03.5.003": {
   "specialty": "Otorrinolaringología",
@@ -13407,7 +13774,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "6.03.5.004": {
   "specialty": "Otorrinolaringología",
@@ -13416,7 +13784,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "6.03.5.005": {
   "specialty": "Otorrinolaringología",
@@ -13425,7 +13794,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "6.03.5.006": {
   "specialty": "Otorrinolaringología",
@@ -13434,7 +13804,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "6.03.5.007": {
   "specialty": "Otorrinolaringología",
@@ -13443,7 +13814,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "6.03.5.008": {
   "specialty": "Otorrinolaringología",
@@ -13452,7 +13824,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.03.5.009": {
   "specialty": "Otorrinolaringología",
@@ -13461,7 +13834,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "6.03.5.010": {
   "specialty": "Otorrinolaringología",
@@ -13470,7 +13844,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.03.5.011": {
   "specialty": "Otorrinolaringología",
@@ -13479,7 +13854,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.03.5.012": {
   "specialty": "Otorrinolaringología",
@@ -13488,7 +13864,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.03.5.014": {
   "specialty": "Otorrinolaringología",
@@ -13497,7 +13874,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Realizar"
  },
  "6.03.5.015": {
   "specialty": "Otorrinolaringología",
@@ -13506,7 +13884,8 @@
   "section": "procedimiento",
   "dx": null,
   "tx": null,
-  "seg": null
+  "seg": null,
+  "nivel": "Derivar a especialista"
  },
  "7.01.3.001": {
   "specialty": "Salud pública",

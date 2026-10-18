@@ -58,3 +58,18 @@ Ya cubiertos y excluidos: angio-TC con oclusión de ACM (neuro-01), hematoma tal
 | neuro-20 | Vértigo | schwannoma vestibular en RM | RM |
 | neuro-21 | Delirium | globo vesical en ecografía | eco |
 | neuro-22 | Fragilidad | dinamometría de prensión; velocidad de marcha | foto clínica |
+
+## Agregado 18-oct (completar_prompt, párrafos y temas nuevos de neurología/geriatría)
+
+No se encontró en los libros fuente locales una imagen adecuada para:
+
+| clase | tema | imagen que falta | tipo | prioridad |
+|---|---|---|---|---|
+| neuro-25 | Cardiovascular en el adulto mayor | ECG con supradesnivel del ST (IAM con SDST) | ECG | media |
+| neuro-22 | Úlceras por presión | úlceras por presión estadios I, II, III y IV (foto de cada estadio) | foto clínica | media |
+| neuro-19 | Otras neuropatías por atrapamiento | mano caída por parálisis del nervio radial | foto clínica | media |
+| neuro-23 | Trastornos de la marcha | marcha parkinsoniana, en estepaje y atáxica (fotos o secuencias) | foto clínica | baja |
+| neuro-01 | Afasias | esquema de las áreas de Broca y Wernicke y del fascículo arqueado | otro (esquema) | media |
+| neuro-04 | Punción lumbar | posición del paciente y punto de punción (línea intercrestal, L3-L4) | otro (esquema) | media |
+| neuro-26 | Cuidados paliativos | escalera analgésica de la OMS | otro (esquema) | baja |
+| neuro-22 | Maltrato / desnutrición | equimosis en distintos estadios (maltrato); sarcopenia o caquexia | foto clínica | baja |

@@ -114,6 +114,38 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'VIH y embarazo',
+      title: 'Transmisión vertical: de 40 % a menos de 2 %',
+      nodes: [
+        { id: 'tam', col: 0, row: 1, k: 'start', t: 'Test de VIH en el 1.er control', s: 'Repetir en 3.er trimestre si hay riesgo' },
+        { id: 'tar', col: 1, row: 1, k: 'good', t: 'TARV a toda gestante', s: 'Con dolutegravir · sin esperar CD4' },
+        { id: 'cv', col: 2, row: 1, k: 'q', t: '¿Carga viral a las 34–36 sem?', s: 'Meta: indetectable' },
+        { id: 'ces', col: 3, row: 0, k: 'alert', t: '> 1.000 copias o desconocida', s: 'Cesárea electiva a las 38 sem + zidovudina EV' },
+        { id: 'vag', col: 3, row: 2, k: 'good', t: '< 1.000 copias', s: 'Parto vaginal permitido' },
+        { id: 'rn', col: 4, row: 1, k: 'mech', t: 'Recién nacido', s: 'Zidovudina 4 semanas · PCR · sin lactancia' },
+      ],
+      edges: [
+        { from: 'tam', to: 'tar' },
+        { from: 'tar', to: 'cv' },
+        { from: 'cv', to: 'ces', label: 'alta' },
+        { from: 'cv', to: 'vag', label: 'baja' },
+        { from: 'ces', to: 'rn' },
+        { from: 'vag', to: 'rn' },
+      ],
+      steps: [
+        { show: ['tam'], note: 'Tamizaje obligatorio',
+          say: 'Pasemos a un tema muy preguntado: el VIH en el embarazo. Sin intervención, la transmisión de madre a hijo es de quince a cuarenta por ciento; con el programa completo baja a menos de dos. Todo parte con el test de VIH en el primer control prenatal, repetido en el tercer trimestre si hay riesgo.' },
+        { show: ['tar'], note: 'Se trata a toda gestante',
+          say: 'Toda gestante con VIH recibe terapia antirretroviral lo antes posible, sin esperar el recuento de CD cuatro, con un esquema que incluye dolutegravir. La meta es una carga viral indetectable.' },
+        { show: ['cv', 'ces', 'vag'], note: 'La carga viral decide la vía',
+          say: 'A las treinta y cuatro a treinta y seis semanas se mide la carga viral y ella decide la vía del parto. Sobre mil copias, o desconocida, cesárea electiva a las treinta y ocho semanas con zidovudina endovenosa. Bajo mil copias, se permite el parto vaginal.' },
+        { show: ['rn'], note: 'Y el recién nacido',
+          say: 'El recién nacido recibe zidovudina por cuatro semanas, se diagnostica con PCR y se suspende la lactancia materna: se da fórmula, cubierta por el GES. Y se descartan otras infecciones de transmisión sexual, como sífilis y hepatitis B.' },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -310,6 +342,82 @@ module.exports = {
         options: 'Las opciones son: zidovudina, lamivudina y nevirapina; tenofovir, lamivudina y dolutegravir; abacavir, emtricitabina y lopinavir con ritonavir; efavirenz, zidovudina y atazanavir; o tenofovir en monoterapia. Piénsalo.',
         answer: 'Es la B: tenofovir, lamivudina y dolutegravir, en una pastilla al día. La A y la D son los distractores, porque llevan zidovudina, que acabamos de ver en el recién nacido, pero en el adulto quedó desplazada por la anemia. Y la monoterapia nunca es opción: el VIH se trata siempre con tres fármacos.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.1.031 · VIH en ginecobstetricia",
+      "stem": "Puérpera de 27 años, con infección por VIH en terapia antirretroviral desde el primer trimestre y carga viral indetectable a las 36 semanas. Tuvo un parto vaginal hace 2 horas, con recién nacido sano de término. Pregunta si puede amamantar.",
+      "question": "¿Cuál es la recomendación más adecuada según la norma chilena de transmisión vertical?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Suspender la lactancia materna, inhibirla con cabergolina y alimentar con fórmula"
+        },
+        {
+          "letter": "B",
+          "text": "Lactancia materna exclusiva, ya que la carga viral es indetectable"
+        },
+        {
+          "letter": "C",
+          "text": "Lactancia mixta durante los primeros 3 meses"
+        },
+        {
+          "letter": "D",
+          "text": "Extraer la leche y administrarla tras congelarla"
+        },
+        {
+          "letter": "E",
+          "text": "Lactancia materna exclusiva si el recién nacido recibe zidovudina"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En Chile la norma de prevención de transmisión vertical del VIH contraindica la lactancia materna aun con carga viral indetectable, porque el riesgo no es cero y existe alternativa segura. Se inhibe la lactancia con cabergolina, se entrega fórmula láctea y el recién nacido recibe profilaxis antirretroviral.",
+      "say": {
+        "stem": "Puérpera con VIH en tratamiento y carga viral indetectable, con parto vaginal hace dos horas, pregunta si puede dar pecho.",
+        "question": "¿Qué le recomiendas según la norma chilena?",
+        "options": "Las opciones: suspender e inhibir la lactancia con fórmula, lactancia exclusiva, lactancia mixta, leche extraída congelada, o lactancia si el bebé recibe zidovudina. Piénsalo.",
+        "answer": "Es la A. En Chile se contraindica la lactancia en la madre con VIH, se inhibe con cabergolina y se da fórmula. La carga indetectable tienta a permitirla, pero el riesgo no es cero y hay una alternativa segura."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.012 · Infecciones por HIV",
+      "stem": "Una mujer con infección por VIH, con carga viral detectable al término del embarazo, tiene un parto por cesárea. El recién nacido de término está en buenas condiciones.",
+      "question": "Respecto de la alimentación del recién nacido, ¿cuál es la indicación correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lactancia materna exclusiva, porque los anticuerpos maternos protegen al niño"
+        },
+        {
+          "letter": "B",
+          "text": "Suspender la lactancia materna y alimentar con fórmula láctea"
+        },
+        {
+          "letter": "C",
+          "text": "Lactancia materna solo si la madre recibe terapia antirretroviral"
+        },
+        {
+          "letter": "D",
+          "text": "Lactancia mixta durante los primeros 6 meses"
+        },
+        {
+          "letter": "E",
+          "text": "Extraer y pasteurizar la leche en el hogar"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En Chile, la prevención de la transmisión vertical del VIH incluye terapia antirretroviral materna, cesárea según carga viral, profilaxis antirretroviral al recién nacido y suspensión de la lactancia materna, que se reemplaza por fórmula láctea entregada por el programa. La leche materna transmite el virus, por lo que la lactancia está contraindicada.",
+      "say": {
+        "stem": "Una madre con VIH y carga viral detectable tiene a su hijo por cesárea; el recién nacido está bien.",
+        "question": "¿Cómo debe alimentarse el recién nacido?",
+        "options": "Las opciones: lactancia exclusiva, fórmula láctea sin lactancia, lactancia solo con antirretrovirales, lactancia mixta o leche pasteurizada en casa. Piénsalo.",
+        "answer": "Es la B. En Chile la lactancia materna está contraindicada en la madre con VIH y se alimenta con fórmula. La lactancia con antirretrovirales tienta porque reduce el riesgo, pero no lo elimina y no es la norma nacional."
+      }
     },
 
     {

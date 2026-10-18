@@ -24,7 +24,7 @@ Ya cubiertos y excluidos: rótulos de germen en patrones RX (resp-08), RX miliar
 | resp-16 | Nódulo pulmonar solitario | hamartoma pulmonar con calcificación en "palomitas de maíz" (popcorn) / calcificación benigna central o laminar | TAC | alta |
 | resp-16 | Nódulo pulmonar solitario | nódulo en vidrio esmerilado parcial (subsólido) en TC | TAC | media |
 | resp-16 | Nódulo pulmonar solitario | PET-CT con nódulo pulmonar hipercaptante (FDG ávido) | otro (PET-CT) | baja |
-| resp-17 | Cáncer pulmonar | síndrome de vena cava superior: edema en esclavina y circulación colateral torácica (o TC con compresión de la cava) | foto clínica | media |
+| resp-17 | Cáncer pulmonar | síndrome de vena cava superior: edema en esclavina y circulación colateral torácica (o TC con compresión de la cava) | foto clínica | media | ✅ resp-17/10_sindrome-vena-cava-superior-torax
 | resp-18 | Fibrosis pulmonar idiopática | TC con vidrio esmerilado en neumonía intersticial no específica (NINE) | TAC | media |
 | resp-19 | TEP | trombosis venosa profunda: pierna edematosa unilateral o eco-Doppler con vena no compresible | eco | media |
 | resp-19 | TEP | ecocardiograma con ventrículo derecho dilatado (TEP de riesgo intermedio-alto) | eco | media |
@@ -51,3 +51,18 @@ Nota: en resp-19 la angio-TC sigue sin flecha sobre los defectos de llenado (pro
 | resp-22 | SDRA | paciente en decúbito prono | foto clínica |
 | resp-23 | SAHOS | Mallampati; paciente con CPAP | foto clínica |
 | resp-24 | Intoxicación por CO | co-oxímetro; cámara hiperbárica | otro |
+
+## Completar libro (neumologia, 18-oct): sin imagen encontrada en los libros locales
+
+| clase | tema | imagen que falta | tipo | prioridad |
+|---|---|---|---|---|
+| resp-10 | Tuberculosis | PPD / tuberculina leído: induración en milímetros | foto clínica | media |
+| resp-12 | Empiema | líquido pleural purulento en jeringa o frasco | foto clínica | media |
+| resp-15 | Pleuritis tuberculosa | biopsia pleural con granulomas caseificantes | histología | media |
+| resp-15 | Mesotelioma | TAC con engrosamiento pleural nodular o placas pleurales | TAC | media |
+| resp-21 | IRA | dispositivos de oxígeno (naricera, Venturi, reservorio, alto flujo) | foto de dispositivos | baja |
+| resp-23 | SAHOS | esquema del colapso de la vía aérea faríngea | esquema | baja |
+| resp-25 | Hipotermia | ECG con ondas J de Osborn | ECG | media | ✅ resp-25/10_ecg-hipotermia
+| resp-20 | Fibrosis quística | test del sudor (iontoforesis) | foto clínica | baja |
+
+> Pasada m1b (19-oct-2026): al revisar los rotulos actuales de lessons/resp-*.cjs, la mayoria de las filas de esta lista ya tienen foto en la clase (lista desactualizada). Solo se agregaron las marcadas con ✅ arriba.

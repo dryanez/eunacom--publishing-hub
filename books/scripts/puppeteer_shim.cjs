@@ -25,5 +25,5 @@ function wrapPage(p) {
   };
 }
 module.exports = {
-  launch: async () => { const b = await chromium.launch(); return { newPage: async () => { const p = await b.newPage(); await p.route(/fonts\.(googleapis|gstatic)\.com/, r => { try { r.fulfill({ status: 200, contentType: TYPE(r.request().url()), body: fetchCached(r.request().url()) }); } catch (e) { r.abort(); } }); return wrapPage(p); }, close: () => b.close() }; },
+  launch: async () => { const b = await chromium.launch(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {}); return { newPage: async () => { const p = await b.newPage(); await p.route(/fonts\.(googleapis|gstatic)\.com/, r => { try { r.fulfill({ status: 200, contentType: TYPE(r.request().url()), body: fetchCached(r.request().url()) }); } catch (e) { r.abort(); } }); return wrapPage(p); }, close: () => b.close() }; },
 };

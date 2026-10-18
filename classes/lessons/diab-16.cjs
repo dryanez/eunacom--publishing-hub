@@ -331,6 +331,82 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.2.003 · Coma hiperosmolar",
+      "stem": "Mujer de 80 años con DM2, ingresada en coma por estado hiperglicémico hiperosmolar: glicemia 950 mg/dL, Na 142 mEq/L, osmolaridad efectiva 360 mOsm/L, sin cetosis. Recibió 4 litros de suero fisiológico en 3 horas e insulina en bomba a 0,14 UI/kg/h, sin agregar suero glucosado. A las 6 horas la glicemia es de 210 mg/dL; tras recuperar parcialmente la conciencia, presenta cefalea, bradicardia, vómitos y una convulsión tónico-clónica.",
+      "question": "¿Cuál es la causa más probable del deterioro?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hipoglicemia por la infusión de insulina"
+        },
+        {
+          "letter": "B",
+          "text": "Accidente cerebrovascular hemorrágico por hipertensión"
+        },
+        {
+          "letter": "C",
+          "text": "Hipernatremia por el suero fisiológico"
+        },
+        {
+          "letter": "D",
+          "text": "Cetoacidosis diabética sobreagregada"
+        },
+        {
+          "letter": "E",
+          "text": "Edema cerebral por descenso demasiado rápido de la osmolaridad"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En el coma hiperosmolar la neurona se adaptó al medio hiperosmolar. Si la glicemia y la osmolaridad caen bruscamente (aquí 740 mg/dL en 6 horas), el agua entra a la célula y aparece edema cerebral. La glicemia debe bajar 50 a 75 mg/dL por hora, con suero glucosado al llegar a 300 mg/dL.",
+      "say": {
+        "stem": "Mujer de ochenta años en coma hiperosmolar, con glicemia de novecientos cincuenta y osmolaridad de trescientos sesenta. Recibe cuatro litros de suero en tres horas e insulina sin suero glucosado. A las seis horas la glicemia es doscientos diez, y tras despertar en parte, presenta cefalea, bradicardia, vómitos y una convulsión.",
+        "question": "¿Cuál es la causa más probable del deterioro?",
+        "options": "Las opciones: hipoglicemia, hemorragia cerebral, hipernatremia, cetoacidosis sobreagregada o edema cerebral por corrección rápida. Piénsalo.",
+        "answer": "Es la E, edema cerebral. La glicemia cayó más de setecientos en seis horas, y con ella la osmolaridad, así que el agua entró a las neuronas. La hipoglicemia tienta por la insulina sin glucosado, pero la glicemia está en doscientos diez, y la bradicardia con vómitos habla de hipertensión intracraneana."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 41",
+      "stem": "Un niño de 11 años es llevado al servicio de urgencia por compromiso de conciencia desde hace algunos minutos. Sus padres refieren que desde hace 4 días presenta poliuria, polidipsia y malestar general. Al examen físico: FC 150/min, PA 100/60 mmHg, temperatura 37 °C y sopor superficial, sin signos neurológicos focales. Laboratorio: glicemia 320 mg/dL, gases venosos con pH 7,11, bicarbonato 12 mEq/L, exceso de base -9, PaCO2 24 mmHg, cetonemia y cetonuria positivas, Na+ 145 mEq/L, K+ 5,1 mEq/L y creatinina 1,8 mg/dL.",
+      "question": "¿Cuál es la primera medida a administrar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Suero fisiológico 20 mL/kg endovenoso"
+        },
+        {
+          "letter": "B",
+          "text": "Insulina endovenosa"
+        },
+        {
+          "letter": "C",
+          "text": "Adrenalina endovenosa"
+        },
+        {
+          "letter": "D",
+          "text": "Cloruro de potasio endovenoso"
+        },
+        {
+          "letter": "E",
+          "text": "Oxígeno por mascarilla de recirculación"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Es una cetoacidosis diabética grave (pH menor a 7,1 a 7,2) en un debut de diabetes tipo 1, con deshidratación y taquicardia. La primera medida es expandir volumen con suero fisiológico (10 a 20 mL/kg en la primera hora).",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Un niño de once años llega soporoso tras cuatro días de poliuria y polidipsia, taquicárdico, con glicemia de trescientos veinte, pH de siete coma once y cetonas positivas.",
+        "question": "¿Cuál es la primera medida a administrar?",
+        "options": "Las opciones: suero fisiológico en bolo, insulina endovenosa, adrenalina, cloruro de potasio u oxígeno. Piénsalo.",
+        "answer": "Es la A. Es una cetoacidosis diabética y lo primero siempre es hidratar con suero fisiológico. La insulina tienta porque es el tratamiento específico, pero se inicia después de comenzar la hidratación, para evitar hipokalemia y colapso circulatorio."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',

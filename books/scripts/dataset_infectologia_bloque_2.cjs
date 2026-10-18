@@ -29,16 +29,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -143,6 +144,13 @@ const bloque2 = [
           'Conducta: lavado inmediato con agua y jabón, ELISA basal al trabajador, y oferta inmediata de triterapia sin retrasarla por el consentimiento o serología de la fuente.',
         ],
       },
+      {
+        subhead: '5. Punción Venosa Segura y Lectura del PPD',
+        paragraphs: [
+          '<strong>Punción venosa (nivel «realizar»):</strong> higiene de manos y guantes; torniquete 7–10 cm sobre el sitio por menos de 1 minuto; se elige la vena mediana cubital o cefálica, se limpia con alcohol 70 % o clorhexidina en espiral y se <strong>deja secar</strong>; con la piel tensa, aguja con el bisel hacia arriba en un ángulo de 15–30°; se <strong>suelta el torniquete antes de retirar la aguja</strong> y se comprime con gasa sin flexionar el codo. Orden de los tubos: frascos de hemocultivo, citrato (celeste), suero, heparina y EDTA (lila). La seguridad es parte del procedimiento: <strong>no reencapuchar</strong> las agujas, descartarlas de inmediato en contenedor rígido y, si ocurre una punción accidental, aplicar el manejo del accidente cortopunzante de este tema (lavado, notificación, serología y profilaxis).',
+          '<strong>Técnica y lectura del PPD (nivel «interpreta y emplea»):</strong> se inyectan <strong>2 UT de tuberculina (RT-23) por vía intradérmica</strong> en la cara anterior del antebrazo, formando una pápula de 6–10 mm. Se lee a las <strong>48–72 horas</strong> midiendo en milímetros el diámetro transversal de la <strong>induración</strong> (no del eritema). Se considera positivo <strong>≥ 10 mm</strong> en la población general y <strong>≥ 5 mm</strong> en personas con VIH, inmunosupresión, contacto estrecho reciente de un caso bacilífero o Rx con secuelas. Un PPD positivo indica <strong>infección</strong>, no enfermedad activa (descartarla con clínica y Rx/baciloscopía antes de indicar quimioprofilaxis). La BCG previa rara vez da reacciones &gt; 10 mm; son <strong>falsos negativos</strong> la anergia (VIH avanzado, desnutrición, corticoides, TBC miliar) y la mala técnica. El IGRA (QuantiFERON) no se afecta por la BCG.',
+        ],
+      },
     ],
     table: {
       title: 'Reglas de Quimioprofilaxis en Contactos EUNACOM',
@@ -237,6 +245,13 @@ const bloque2 = [
           '• <strong>Herida limpia superficial:</strong> requiere refuerzo con toxoide (vacuna dT) solo si han pasado <strong>> 10 años</strong> desde la última dosis.<br>' +
           '• <strong>Herida sucia o tetanígena</strong> (contaminada con tierra, heces, saliva, punción profunda, mordedura, tejido desvitalizado): requiere refuerzo con toxoide si han pasado <strong>> 5 años</strong> desde la última dosis.<br>' +
           '• <strong>Esquema incompleto (< 3 dosis) o antecedente vacunal desconocido:</strong> en herida sucia requiere <strong>Vacuna (dT) + Inmunoglobulina antitetánica humana (IGH-T 250 UI IM)</strong> en sitios anatómicos separados.',
+        ],
+      },
+      {
+        subhead: '4. Mordeduras: Manejo Local y Vacunas Especiales',
+        paragraphs: [
+          '<strong>Manejo local de la mordedura:</strong> lavar de inmediato con agua y jabón por 10–15 minutos, irrigar a presión con suero, retirar tejido desvitalizado y explorar estructuras profundas (tendones, articulaciones, hueso). <strong>No se sutura</strong> una herida punzante, con más de 8–12 horas o con signos de infección (la cara es la excepción, por estética y buena irrigación). Se indica <strong>antibiótico profiláctico por 3–5 días</strong> en mordedura de gato, de mano, profunda, humana, en inmunosuprimidos, asplénicos o hepatópatas: <strong>amoxicilina-ácido clavulánico 875/125 mg cada 12 h</strong> (alérgicos: doxiciclina, o clindamicina + ciprofloxacino/TMP-SMX). Los gérmenes son <em>Pasteurella multocida</em> (infección en menos de 24 h), <em>Capnocytophaga canimorsus</em> (asplenia, alcoholismo), <em>S. aureus</em>, estreptococos y anaerobios; la mordedura humana agrega riesgo de VHB, VHC y VIH. Siempre se evalúa la profilaxis antitetánica y antirrábica (puntos anteriores), la observación del animal por 10 días y la notificación.',
+          '<strong>Vacunas especiales</strong> (fuera del esquema habitual, por riesgo): <strong>neumococo</strong> (adultos ≥ 65 años y de riesgo: asplenia, inmunosupresión, enfermedad crónica, fístula de LCR; esquema conjugada seguida de polisacárida), <strong>influenza</strong> anual (embarazadas, ≥ 65 años, crónicos, personal de salud, niños de 6 meses a 5.º básico), <strong>hepatitis B</strong> (personal de salud, hemodiálisis, VIH, contactos; esquema 0-1-6 meses), <strong>hepatitis A</strong> (hepatopatía crónica, viajeros, brotes), <strong>meningococo</strong> (asplenia, déficit de complemento, brotes, peregrinos), <strong>varicela</strong> (susceptibles de riesgo y personal de salud) y <strong>rabia</strong> (profilaxis preexposición en veterinarios y personal expuesto a murciélagos: 3 dosis los días 0, 7 y 21–28). Regla general: las vacunas <strong>vivas atenuadas</strong> (varicela, SRP, fiebre amarilla) están contraindicadas en el embarazo y en la inmunosupresión grave; las inactivadas son seguras.',
         ],
       },
     ],
@@ -334,6 +349,14 @@ const bloque2 = [
           '5. Persistencia de bacteriemia o fiebre tras 48 a 72 horas de tratamiento antibiótico adecuado.',
         ],
       },
+      {
+        subhead: '4. Catéter Venoso Central, Sonda Foley y Uso Racional de Antibióticos',
+        paragraphs: [
+          '<strong>Cateterismo venoso central (nivel «derivar»):</strong> se indica ante acceso periférico imposible o prolongado, vasopresores, nutrición parenteral, quimioterapia irritante, hemodiálisis o monitorización de la PVC. Lo instala un especialista (anestesiólogo, intensivista, cirujano), idealmente <strong>guiado por ecografía</strong>; el médico general lo indica, lo deriva y reconoce sus complicaciones. Sitio preferido: <strong>yugular interna o subclavia</strong> (la vía femoral tiene más infección y trombosis). Prevención de la bacteriemia asociada: higiene de manos, <strong>barrera máxima estéril</strong>, clorhexidina alcohólica &gt; 0,5 %, apósito transparente y <strong>retiro apenas deje de ser necesario</strong>. Al terminar se confirma la posición (punta en vena cava superior) y se descarta <strong>neumotórax</strong> con una Rx de tórax; otras complicaciones: punción arterial, hemotórax, arritmia, embolia aérea y trombosis.',
+          '<strong>Instalación y cuidado de la sonda Foley (nivel «realizar»):</strong> se indica en retención urinaria aguda, control estricto de diuresis en el paciente crítico, cirugía, úlceras sacras con incontinencia y cuidados paliativos; <strong>no por comodidad</strong>. Técnica: asepsia, gel de lidocaína estéril, calibre 14–16 Fr en adultos, avanzar hasta la bifurcación y comprobar salida de orina antes de inflar el balón con 10 mL de agua destilada; sistema <strong>cerrado</strong>, bolsa bajo el nivel vesical y, en el varón, <strong>reponer el prepucio</strong> (evita parafimosis). Contraindicación: sospecha de lesión uretral (trauma pélvico, sangre en el meato, próstata ascendida), que exige uretrografía. Cada día de sonda aumenta 3–7 % el riesgo de <strong>ITU asociada a catéter</strong>: retirarla lo antes posible, no tomar urocultivo sin síntomas y no tratar la bacteriuria asintomática.',
+          '<strong>Uso racional de antibióticos:</strong> tomar cultivos antes de la primera dosis; elegir según el foco, la gravedad y la epidemiología local; dosis plenas; <strong>reevaluar a las 48–72 h</strong> con el cultivo y descalar el espectro; preferir vía oral si el paciente la tolera; y usar <strong>cursos cortos</strong> (la mayoría de las infecciones se tratan en 5–7 días). No se indican antibióticos en infecciones virales (resfrío, faringitis viral, bronquitis aguda), ni en la bacteriuria asintomática (salvo embarazo o antes de cirugía urológica), ni para colonización. El abuso selecciona resistencia (BLEE, SAMR, carbapenemasas) y favorece la infección por <em>Clostridioides difficile</em>. La profilaxis quirúrgica se da dentro de los 60 minutos previos a la incisión y no más de 24 h.',
+        ],
+      },
     ],
     table: {
       title: 'Tipos de Aislamiento Hospitalario EUNACOM: Patógenos y Medidas Obligatorias',
@@ -426,6 +449,12 @@ const bloque2 = [
           'La <strong>toxina botulínica</strong> es la sustancia más letal conocida. Tras absorberse en el tubo digestivo, viaja por vía hematógena y destruye las proteínas SNARE (SNAP-25) en las terminaciones colinérgicas presinápticas, bloqueando la liberación de acetilcolina en la unión neuromuscular y en el sistema nervioso autónomo.',
           '<strong>Tríada clínica patognomónica:</strong> (1) Compromiso de pares craneanos (visión borrosa, diplopía, ptosis palpebral, disfagia y disartria), (2) <strong>Parálisis motora flácida simétrica DESCENDENTE</strong> (de cabeza a extremidades, sin compromiso sensitivo), y (3) Disautonomía (midriasis arreactiva, sequedad bucal, constipación e íleo paralítico).',
           '<strong>Manejo:</strong> hospitalización inmediata en UCI por riesgo de paro respiratorio, soporte ventilatorio mecánico y administración precoz de <strong>Antitoxina Botulínica Equina trivalente o heptavalente</strong> (neutraliza la toxina libre circulante; no revierte la parálisis ya establecida).',
+        ],
+      },
+      {
+        subhead: '5. Prevención de las Enfermedades Entéricas',
+        paragraphs: [
+          'La prevención se basa en cortar la vía fecal-oral: <strong>agua segura</strong> (potable o clorada; hervir 1 minuto en emergencias), <strong>lavado de manos con jabón</strong> después de ir al baño y antes de comer o preparar alimentos, eliminación sanitaria de excretas y control de moscas. En los alimentos: cocción completa, evitar el contacto de crudos con cocidos, <strong>cadena de frío</strong> (refrigerar bajo 5 °C), lavado y desinfección de frutas y hortalizas (en Chile, regadas con aguas servidas, vehiculizan cólera, tifoidea, hepatitis A e hidatidosis) y <strong>no consumir mariscos crudos</strong> ni conservas caseras mal esterilizadas (botulismo; la miel está prohibida bajo 1 año). La vacunación complementa: hepatitis A, vacuna antitifoídica (Vi) para zonas endémicas o viajeros, vacuna oral anticolérica en brotes y viajeros de riesgo. Los brotes de enfermedades transmitidas por alimentos se notifican y se investigan; en el viajero se educa sobre «hervirlo, cocinarlo o pelarlo».',
         ],
       },
     ],

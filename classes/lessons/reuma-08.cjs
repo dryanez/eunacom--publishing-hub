@@ -70,15 +70,18 @@ module.exports = {
       cards: [
         { title: "Eritema malar en mariposa", tag: "Seis puntos EULAR", kind: "key", items: [
           { t: "Respeta los surcos nasogenianos", d: "Diferencia clínica con la rosácea",
-            say: "El eritema malar característico abarca el puente nasal y ambas mejillas en alas de mariposa, respetando rigurosamente los surcos nasogenianos. Este detalle semiológico es clave para diferenciarlo del eritema de la rosácea o la dermatitis seborreica." },
+            say: "El eritema malar característico abarca el puente nasal y ambas mejillas en alas de mariposa, respetando rigurosamente los surcos nasogenianos. Este detalle semiológico es clave para diferenciarlo del eritema de la rosácea o la dermatitis seborreica. Mira esta cara: el rojo cubre las mejillas y el puente de la nariz, y deja libre el surco.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-08/01_eritema-malar__cto-reuma_p81.jpg', label: 'Eritema malar', at: 'Mira esta cara', credit: 'Manual CTO Reumatología 14.ª ed., p. 81' } },
           { t: "Fotosensibilidad y úlceras orales", d: "Úlceras habitualmente indoloras en paladar",
-            say: "Se asocia a fotosensibilidad marcada desencadenada por la radiación solar y a úlceras mucosas superficiales en el paladar duro o tabique nasal, que típicamente son indoloras y no provocan molestias al comer." },
+            say: "Se asocia a fotosensibilidad marcada desencadenada por la radiación solar y a úlceras mucosas superficiales en el paladar duro o tabique nasal, que típicamente son indoloras y no provocan molestias al comer. En este paladar se ven las úlceras, planas y sin dolor.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-08/10_ulcera-oral-lupus__nelson_p1907.jpg', label: 'Úlceras orales del lupus', at: 'En este paladar', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., Fig. 199.1C' } },
         ] },
         { title: "Artropatía de Jaccoud", tag: "Seis puntos EULAR", kind: "criteria", items: [
           { t: "Deformidad articular reductible", d: "Desviación cubital y dedos en cuello de cisne",
             say: "El compromiso articular del lupus produce inflamación y dolor simétrico en manos y muñecas. Puede generar la clásica artropatía de Jaccoud, con desviación cubital y dedos en cuello de cisne que son fácilmente reductibles de forma pasiva por el examinador." },
           { t: "Sin erosiones óseas en radiografía", d: "Diferencia crucial con artritis reumatoide",
-            say: "A diferencia de la artritis reumatoide, la artropatía lúpica de Jaccoud no produce erosiones óseas ni anquilosis en las radiografías articulares, ya que la laxitud reside en las cápsulas articulares y tendones y no en el hueso subcondral." },
+            say: "A diferencia de la artritis reumatoide, la artropatía lúpica de Jaccoud no produce erosiones óseas ni anquilosis en las radiografías articulares, ya que la laxitud reside en las cápsulas articulares y tendones y no en el hueso subcondral. Mira esta radiografía de mano: las articulaciones se ven alteradas, pero los huesos no tienen erosiones.",
+          photo: { src: '_web/219_reuma_Lupus_eritematoso_sistémico__Commons_1.jpg', label: 'Rx de mano sin erosiones', at: 'Mira esta radiografía de mano', credit: 'Wikimedia Commons, CC BY-SA 3.0' } },
         ] },
         { title: "Serositis y fiebre", tag: "Cinco puntos por serositis", kind: "normal", items: [
           { t: "Pleuritis y pericarditis aguda", d: "Dolor torácico pleurítico y frote",
@@ -241,19 +244,6 @@ module.exports = {
       steps: [
         { note: 'Anti ADN sube, complemento baja',
           say: 'En el lupus, los inmunocomplejos se depositan en las membranas basales del riñón, la piel y las serosas, y activan la vía clásica del complemento. Por eso, en el brote, los anti ADN de doble hebra suben y el C tres y el C cuatro caen.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Lupus eritematoso sistémico',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-08/01_eritema-malar__cto-reuma_p81.jpg', label: 'Eritema malar', credit: 'Manual CTO Reumatología 14.ª ed., p. 81' },
-      ],
-      steps: [
-        { note: 'En alas de mariposa, respeta el surco',
-          say: 'El eritema malar cubre mejillas y nariz en alas de mariposa y respeta el surco nasogeniano.' },
       ],
     },
 

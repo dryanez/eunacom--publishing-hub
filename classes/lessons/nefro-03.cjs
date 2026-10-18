@@ -107,6 +107,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La máquina limpia la sangre',
+      images: [
+        { src: 'animaciones/nefro-03/A1_hemodialisis_aeiou.mp4', label: 'Hemodiálisis de urgencia', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Acidosis, hiperkalemia, tóxicos, volumen y uremia',
+          say: 'La sangre sale del paciente, pasa por el dializador y vuelve limpia: salen el potasio, los ácidos, las toxinas urémicas y el exceso de agua. Fíjate en los marcadores: el pH sube sobre siete quince y el potasio baja de seis coma cinco. Y recuerda que lo que decide dializar es la clínica, las cinco vocales, no la creatinina sola.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un solo árbol de decisión.',
     },
@@ -220,6 +234,44 @@ module.exports = {
         options: 'Las opciones: bicarbonato, insulina con glucosa, gluconato de calcio, resinas de intercambio, o hemodiálisis de urgencia. Piénsalo.',
         answer: 'Es la C, gluconato de calcio. La hemodiálisis es la trampa: el potasio de ocho es criterio E, pero el corazón no puede esperar a que se instale un catéter. El calcio estabiliza la membrana en minutos; después se mete el potasio a las células y se elimina, y la diálisis entra si no responde. Esto lo profundizamos en la clase de hiperkalemia.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.3.004 · Diálisis y complicaciones",
+      "stem": "Hombre de 58 años con enfermedad renal crónica sin control previo, BUN 190 mg/dL y creatinina 14 mg/dL, inicia hemodiálisis de urgencia por catéter con una sesión de 4 horas a flujo alto. Al final de la sesión presenta cefalea intensa, náuseas, vómitos, desorientación y una convulsión generalizada. Glicemia 105 mg/dL, Na 138 mEq/L, K 4,0 mEq/L.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hipoglicemia por la diálisis"
+        },
+        {
+          "letter": "B",
+          "text": "Síndrome de desequilibrio dialítico"
+        },
+        {
+          "letter": "C",
+          "text": "Hemorragia intracraneana por heparina"
+        },
+        {
+          "letter": "D",
+          "text": "Encefalopatía urémica que no ha respondido"
+        },
+        {
+          "letter": "E",
+          "text": "Embolia gaseosa por el catéter"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En el primer tratamiento con urea muy alta, la remoción rápida crea un gradiente osmótico entre plasma y cerebro, con edema cerebral: cefalea, vómitos, confusión y convulsiones. Se previene con primeras sesiones cortas, de bajo flujo. Glicemia y electrolitos normales descartan las otras causas metabólicas.",
+      "say": {
+        "stem": "Un hombre de cincuenta y ocho años, con urea muy alta y sin diálisis previa, hace su primera hemodiálisis de cuatro horas a flujo alto. Al terminar tiene cefalea intensa, vómitos, desorientación y una convulsión. La glicemia, el sodio y el potasio son normales.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: hipoglicemia, síndrome de desequilibrio dialítico, hemorragia intracraneana, encefalopatía urémica persistente o embolia gaseosa. Piénsalo.",
+        "answer": "Es la B, desequilibrio dialítico. La urea baja rápido en la sangre y no en el cerebro, entra agua a la neurona y aparece edema cerebral. La encefalopatía urémica tienta, pero el paciente empeoró justo al dializarse, y eso apunta a la diálisis misma."
+      }
     },
 
     {

@@ -34,7 +34,8 @@ module.exports = {
         { show: ['gen'], note: 'Las hemoglobinopatías nacen en el gen de la globina',
           say: 'Partamos con un mapa. La hemoglobina adulta tiene cadenas alfa y beta, y las dos enfermedades de hoy nacen de mutaciones en el gen de la beta-globina, en el cromosoma once.' },
         { show: ['cua', 'tal'], note: 'Talasemia: cadena normal, pero en poca cantidad',
-          say: 'La mutación puede fallar de dos maneras. En la talasemia, la cadena beta es normal, pero se fabrica en menor cantidad o no se fabrica. Es un defecto de cantidad.' },
+          say: 'La mutación puede fallar de dos maneras. En la talasemia, la cadena beta es normal, pero se fabrica en menor cantidad o no se fabrica. Es un defecto de cantidad. En la alfa talasemia, por ejemplo, mira estos glóbulos con inclusiones en pelota de golf: son los cuerpos de hemoglobina H.',
+          photo: { src: 'biblioteca/06_hematologia/hem-09/02_cuerpos-de-hb-h-alfa-talasemia__amir-hemato_p37.jpg', label: 'Cuerpos de hemoglobina H', at: 'mira estos glóbulos', credit: 'Manual AMIR Hematología, p. 37' } },
         { show: ['cul', 'hbs'], note: 'Drepanocitosis: cantidad normal, cadena alterada',
           say: 'En la drepanocitosis ocurre lo contrario: la cadena se fabrica, pero con un error en su estructura. Esa hemoglobina anormal es la hemoglobina S. Es un defecto de calidad.' },
         { show: ['ele'], note: 'Un solo examen confirma las dos',
@@ -85,7 +86,8 @@ module.exports = {
           { t: 'Índice de Mentzer menor de 13', d: 'VCM dividido por millones de GR',
             say: 'De ahí sale el índice de Mentzer: divides el volumen corpuscular por el recuento de glóbulos rojos en millones. Si da menos de trece, orienta a talasemia; si da más de trece, a ferropenia.' },
           { t: 'RDW normal', d: 'Microcitosis homogénea',
-            say: 'El ancho de distribución eritrocitaria, el RDW, es normal: todos los glóbulos son igual de pequeños. En la ferropenia está alto, porque conviven glóbulos de distintos tamaños.' },
+            say: 'El ancho de distribución eritrocitaria, el RDW, es normal: todos los glóbulos son igual de pequeños. En la ferropenia está alto, porque conviven glóbulos de distintos tamaños. Y en el frotis, mira estos dianocitos: glóbulos con una mancha central oscura, típicos de las talasemias.',
+            photo: { src: 'biblioteca/06_hematologia/hem-09/atlas_126_frotis_con_dianocitos_celulas_.jpg', label: 'Dianocitos', at: 'mira estos dianocitos', credit: 'Atlas EUNACOM 2026' } },
         ] },
         { title: 'Perfil de hierro', tag: 'Normal', kind: 'alert', items: [
           { t: 'Ferritina normal', d: 'No falta hierro',
@@ -103,7 +105,8 @@ module.exports = {
           { t: 'Anemia grave dependiente de transfusión', d: 'Transfusiones crónicas periódicas',
             say: 'Volvamos a la talasemia mayor. Desde el primer año de vida, el niño tiene una anemia grave que depende de transfusiones crónicas y periódicas.' },
           { t: 'Hepatoesplenomegalia masiva', d: 'Y facies de ardilla',
-            say: 'La médula trata de compensar y se expande: eso deforma los huesos del cráneo y la cara, y da la facies de ardilla. Además, hay hepatoesplenomegalia masiva.' },
+            say: 'La médula trata de compensar y se expande: eso deforma los huesos del cráneo y la cara, y da la facies de ardilla. Mira este cráneo en cepillo, con la médula expandida. Además, hay hepatoesplenomegalia masiva.',
+            photo: { src: 'biblioteca/06_hematologia/hem-09/03_craneo-en-cepillo-talasemia__cto-hemato_p32.jpg', label: 'Cráneo en cepillo', at: 'Mira este cráneo', credit: 'Manual CTO Hematología 14.ª ed., p. 32' } },
         ] },
         { title: 'Complicación', tag: 'Sobrecarga de hierro', kind: 'pharma', items: [
           { t: 'Hemocromatosis transfusional', d: 'Cirrosis, miocardiopatía, diabetes',
@@ -137,11 +140,13 @@ module.exports = {
         { show: ['gat', 'pol'], note: 'Desoxigenada, la HbS forma fibras',
           say: 'Mientras está oxigenada se comporta bien. Pero con hipoxia, acidosis o deshidratación, la hemoglobina S desoxigenada se polimeriza y forma fibras rígidas. Recuerda esos tres gatillantes, porque el tratamiento apunta justo a revertirlos.' },
         { show: ['hoz'], note: 'El glóbulo pierde flexibilidad',
-          say: 'Esas fibras deforman el glóbulo en forma de hoz o medialuna: el drepanocito, rígido y sin flexibilidad.' },
+          say: 'Esas fibras deforman el glóbulo en forma de hoz o medialuna: mira estos drepanocitos, rígidos y sin flexibilidad.',
+          photo: { src: 'biblioteca/06_hematologia/hem-09/01_drepanocitos_1__amir-hemato_p38.jpg', label: 'Drepanocitos', at: 'mira estos drepanocitos', credit: 'Manual AMIR Hematología, p. 38' } },
         { show: ['voc'], note: 'Crisis dolorosa, síndrome torácico agudo, priapismo',
           say: 'Un glóbulo rígido tapa los capilares. De ahí salen las crisis vasooclusivas dolorosas, con dolor óseo intolerable en fémur, columna o tórax; el síndrome torácico agudo, con infiltrados, disnea y dolor torácico, que es la principal causa de muerte en adultos; y el priapismo isquémico.' },
         { show: ['baz', 'sep'], note: 'Sin bazo funcional: riesgo de sepsis fulminante',
-          say: 'Y la complicación que conecta con la clase anterior: los microinfartos repetidos en el bazo lo van atrofiando, hasta dejar una asplenia funcional hacia los cinco o seis años. Es la autoesplenectomía. Igual que el esplenectomizado, este niño queda expuesto a sepsis fulminante por neumococo, Haemophilus y Salmonella.' },
+          say: 'Y la complicación que conecta con la clase anterior: los microinfartos repetidos en el bazo lo van atrofiando, hasta dejar una asplenia funcional hacia los cinco o seis años. Es la autoesplenectomía, y la delata este punto violeta dentro de un glóbulo: un cuerpo de Howell-Jolly, un resto nuclear que el bazo ya no limpia. Igual que el esplenectomizado, este niño queda expuesto a sepsis fulminante por neumococo, Haemophilus y Salmonella.',
+          photo: { src: 'biblioteca/06_hematologia/hem-09/atlas_127_cuerpos_de_howell_jolly_en_fro.jpg', label: 'Cuerpos de Howell-Jolly', at: 'este punto violeta', credit: 'Atlas EUNACOM 2026' } },
       ],
     },
 
@@ -199,36 +204,7 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Hemoglobinopatías',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-09/01_drepanocitos_1__amir-hemato_p38.jpg', label: 'Drepanocitos', credit: 'Manual AMIR Hematología, p. 38' },
-        { src: 'biblioteca/06_hematologia/hem-09/03_craneo-en-cepillo-talasemia__cto-hemato_p32.jpg', label: 'Cráneo en cepillo', credit: 'Manual CTO Hematología 14.ª ed., p. 32' },
-      ],
-      steps: [
-        { note: 'Glóbulos en forma de hoz',
-          say: 'Estos glóbulos en forma de hoz son drepanocitos, de la anemia falciforme.' },
-        { note: 'Médula expandida en la talasemia',
-          say: 'Y este cráneo en cepillo es de la talasemia mayor: la médula se expande para fabricar más glóbulos.' },
-      ],
-    },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-09/02_cuerpos-de-hb-h-alfa-talasemia__amir-hemato_p37.jpg', label: 'Cuerpos de hemoglobina H', credit: 'Manual AMIR Hematología, p. 37' },
-      ],
-      steps: [
-        { note: 'Cuerpos de hemoglobina H',
-          say: 'Cuerpos de hemoglobina H en la alfa talasemia: hematíes con inclusiones en pelota de golf.' },
-      ],
-    },
 
     {
       type: 'pathway',

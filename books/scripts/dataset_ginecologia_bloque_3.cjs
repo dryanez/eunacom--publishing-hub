@@ -110,6 +110,17 @@ const rawClasses = [
           "  - Secreción purulenta o mucopurulenta que fluye por el orificio cervical externo (canal endocervical), friabilidad del cuello al roce con el hisopo y ectropion sangrante.",
           "  - Tratamiento empírico inmediato de cobertura dual: <strong>CEFTRIAXONA 500 mg intramuscular en dosis única</strong> (para <em>Neisseria gonorrhoeae</em>) + <strong>DOXICICLINA 100 mg cada 12 horas por vía oral durante 7 días</strong> (para <em>Chlamydia trachomatis</em>) (o Azitromicina 1g oral dosis única en embarazadas). Tratamiento obligatorio a la pareja sexual y notificación ENO."
         ]
+      },
+      {
+        "subhead": "4. Examen con Espéculo y Tacto Bimanual; Medición del pH Vaginal; Otras ITS",
+        "paragraphs": [
+          "• <strong>Especuloscopia (procedimiento: Realizar):</strong> en litotomía, tras inspeccionar la vulva. Se elige un espéculo (Cusco) del tamaño adecuado, <strong>sin lubricante</strong> (solo agua tibia) si se tomarán PAP o cultivos; se introduce cerrado, oblicuo y con presión hacia el piso pélvico, se rota a posición horizontal y se abre hasta ver el cuello.",
+          "  - Se describe el <strong>cuello</strong> (ectropión, friabilidad, lesiones exofíticas, pólipo, leucorrea, pus mucopurulento por cervicitis, pérdida del epitelio por atrofia) y las <strong>paredes vaginales</strong> (flujo grumoso, espumoso, homogéneo, lesiones herpéticas o condilomas). Se toman las muestras (PAP, pH, fresco, cultivo, PCR de clamidia y gonococo) al ir retirando el espéculo. Luego se completa con el <strong>tacto bimanual</strong> (dolor a la movilización cervical sugiere EIP).",
+          "• <strong>pH vaginal (procedimiento: Realizar):</strong> se aplica una cinta de pH en la <strong>pared vaginal lateral</strong> (no en el fondo de saco, para evitar moco cervical, sangre y semen que lo alcalinizan). Normal <b>3,8-4,5</b>. <b>pH &gt; 4,5</b>: vaginosis bacteriana, tricomoniasis o atrofia; <b>pH ≤ 4,5</b>: candidiasis o flujo fisiológico. Complementa el test de aminas (KOH 10%) y el examen en fresco.",
+          "• <strong>Otras infecciones de transmisión sexual (Específico / Completo):</strong> manejo sindrómico MINSAL, tratamiento de la pareja, consejería, condón y <strong>oferta de test de VIH, sífilis y hepatitis B</strong>.",
+          "  - <strong>Sífilis:</strong> chancro indoloro (primaria), exantema palmo-plantar y condilomas planos (secundaria). Diagnóstico con VDRL/RPR más prueba treponémica. Tratamiento: <strong>penicilina benzatina 2,4 millones UI IM</strong> en dosis única (primaria, secundaria, latente precoz) o una vez por semana por 3 semanas (latente tardía o duración desconocida). Notificación obligatoria; control de la pareja.",
+          "  - <strong>Herpes genital (VHS-2):</strong> vesículas y úlceras dolorosas con adenopatías; diagnóstico clínico o PCR. Tratamiento: <strong>aciclovir 400 mg c/8 h por 7-10 días</strong> (o valaciclovir); supresión crónica si recurrencias frecuentes. <strong>VPH:</strong> condilomas (tipos 6 y 11): podofilotoxina, imiquimod, ácido tricloroacético o crioterapia; la vacuna cuadrivalente previene los tipos 6, 11, 16 y 18. Úlceras con adenopatía dolorosa y fluctuante: linfogranuloma venéreo (doxiciclina) o chancroide (azitromicina)."
+        ]
       }
     ],
     "table": {
@@ -677,6 +688,14 @@ const rawClasses = [
           "  - Tras 24 a 48 horas afebril y en franca mejoría, se puede pasar a vía oral completando 14 días con Doxiciclina.",
           "• <strong>Manejo del Absceso Tubo-Ovárico (ATO):</strong> Se inicia tratamiento médico con antibióticos EV de amplio espectro durante 48 a 72 horas (el 70% responde favorablemente). Si no hay mejoría en 48-72h, el absceso mide > 8-10 cm o existe sospecha de <strong>ROTURA DE ATO (Monif IV): LAPAROTOMÍA / LAPAROSCOPÍA QUIRÚRGICA DE URGENCIA</strong> para lavado pélvico, drenaje y salpingooforectomía de rescate."
         ]
+      },
+      {
+        "subhead": "4. Pelviperitonitis: Abdomen Agudo Ginecológico",
+        "paragraphs": [
+          "• <strong>Pelviperitonitis (urgencia: Sospecha / Inicial / Completo):</strong> inflamación peritoneal pelviana, habitualmente por <strong>EIP (extensión de la salpingitis) o rotura/fuga de un absceso tubo-ovárico</strong> (Monif IV); también puede ser posaborto o posoperatoria. Cuadro de <strong>dolor hipogástrico intenso, fiebre alta, náuseas, íleo, defensa y signo de Blumberg</strong>, dolor extremo a la movilización del cuello y fondo de saco de Douglas abombado.",
+          "  - <strong>Diagnóstico:</strong> hemograma (leucocitosis con desviación a izquierda), PCR, β-hCG (descartar ectópico), ecografía TV/TAC (colección, líquido libre, absceso). El diagnóstico diferencial incluye apendicitis, diverticulitis y rotura de quiste ovárico o ectópico.",
+          "  - <strong>Manejo inicial:</strong> hospitalización, ayuno, hidratación EV, antibióticos EV de amplio espectro (ceftriaxona 1-2 g + metronidazol 500 mg + doxiciclina, o clindamicina + gentamicina) y <strong>laparoscopía/laparotomía de urgencia</strong> con lavado y drenaje si hay sospecha de rotura de ATO, shock séptico o falla del tratamiento médico a las 48-72 horas. Secuelas posibles: infertilidad, embarazo ectópico y dolor pelviano crónico."
+        ]
       }
     ],
     "table": {
@@ -1008,6 +1027,14 @@ const rawClasses = [
           "• <strong>Alternativas para Pacientes con Contraindicación de TRH:</strong>",
           "  - Para síntomas vasomotores (bochornos): <strong>Inhibidores de recaptura de serotonina/noradrenalina (ISRS/IRSN)</strong> como <strong>Paroxetina</strong> (dosis baja 7.5 mg/d), <strong>Venlafaxina</strong> (37.5 a 75 mg/d) o <strong>Gabapentina</strong>. <em>¡Precaución!: La Paroxetina está contraindicada en pacientes tratadas con Tamoxifeno (inhibe el citocromo CYP2D6 bloqueando la activación del tamoxifeno; en ellas se usa Venlafaxina)</em>.",
           "  - Para Atrofia Vulvovaginal exclusiva: <strong>Estrógenos Tópicos Locales a bajas dosis (Estriol en crema o promestrieno vaginal)</strong>. Tienen mínima absorción sistémica y son seguros incluso en muchas pacientes con cáncer previo tras pase del oncólogo."
+        ]
+      },
+      {
+        "subhead": "4. Sexualidad en la Persona Mayor",
+        "paragraphs": [
+          "• <strong>Sexualidad en personas mayores:</strong> la actividad y el interés sexual se mantienen en gran parte de los adultos mayores; el envejecimiento condiciona cambios, no el fin de la sexualidad. En la mujer: <strong>atrofia vulvovaginal, sequedad, dispareunia</strong>, menor lubricación y respuesta más lenta. En el hombre: menor erección y mayor período refractario, con <strong>disfunción eréctil</strong> más frecuente (diabetes, HTA, enfermedad vascular, fármacos, prostatectomía).",
+          "  - <strong>Abordaje:</strong> incluir una pregunta sobre sexualidad en la anamnesis sin prejuicios, revisar <b>fármacos</b> (antihipertensivos, antidepresivos ISRS, antipsicóticos, benzodiacepinas), depresión, dolor y comorbilidades, y la ausencia de pareja o de privacidad (viudez, institucionalización). Para la dispareunia: lubricantes, hidratantes y <strong>estrógenos vaginales locales</strong> (estriol); inhibidores de la PDE-5 en la disfunción eréctil, contraindicados con nitratos.",
+          "  - Educar sobre <strong>prevención de ITS</strong> (VIH y sífilis aumentan en mayores): uso de condón y tamizaje."
         ]
       }
     ],

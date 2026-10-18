@@ -15,7 +15,7 @@ if (!scene) { console.error('uso: render.cjs <escena> <clase>/<archivo> | --shee
 const W = 1280, H = 720;
 
 async function open() {
-  const browser = await chromium.launch();
+  const browser = await chromium.launch(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {});
   const page = await browser.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });
   const [name, q] = scene.split('?');
   await page.goto('file://' + path.join(HERE, 'scenes', name + '.html') + (q ? '?' + q : ''));

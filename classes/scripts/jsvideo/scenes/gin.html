@@ -1,0 +1,27 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script><script src="../graph.js"></script>
+<script src="gin_base.js"></script>
+<script src="gin_13.js"></script>
+<script src="gin_04.js"></script>
+<script src="gin_05.js"></script>
+<script src="gin_11.js"></script>
+<script src="gin_06.js"></script>
+<script src="gin_07.js"></script>
+<script src="gin_08.js"></script>
+<script src="gin_09.js"></script>
+<script src="gin_16.js"></script>
+<script src="gin_14.js"></script>
+<script src="gin_02.js"></script>
+<script src="gin_03.js"></script>
+<script src="gin_12.js"></script>
+<script src="gin_15.js"></script>
+<script>
+window.SCENE = { duration: GIN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); GIN[V].f(t); (GIN[V].credit || (() => K.credit()))(); };
+LOAD(GIN_IMGS);
+</script>
+</body></html>

@@ -51,7 +51,8 @@ module.exports = {
       cards: [
         { title: 'Sepsis', tag: 'La más frecuente', kind: 'alert', items: [
           { t: 'Gramnegativos', d: 'El lipopolisacárido activa la coagulación',
-            say: '¿En quién tienes que sospecharla? El contexto clásico es el shock séptico, sobre todo por bacilos gramnegativos, cuyo lipopolisacárido es un potente activador de la coagulación.' },
+            say: '¿En quién tienes que sospecharla? El contexto clásico es el shock séptico, sobre todo por bacilos gramnegativos, cuyo lipopolisacárido es un potente activador de la coagulación. Así se ve en la piel: mira a este paciente séptico, con equimosis espontáneas que confluyen. Coagula en los vasos y, a la vez, sangra.',
+            photo: { src: 'biblioteca/06_hematologia/hem-15/01_purpura-equimosis-sepsis__cto-infecto_p38.jpg', label: 'Púrpura en una sepsis', at: 'mira a este paciente', credit: 'Manual CTO Infecciosas 14.ª ed., p. 38' } },
         ] },
         { title: 'Obstetricia', tag: 'Se pregunta mucho', kind: 'key', items: [
           { t: 'Desprendimiento de placenta', d: 'Abruptio placentae',
@@ -179,21 +180,6 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Coagulación intravascular diseminada',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-15/01_esquistocitos__cto-hemato_p10.jpg', label: 'Esquistocitos', credit: 'Manual CTO Hematología 14.ª ed., p. 10' },
-        { src: 'biblioteca/06_hematologia/hem-15/01_purpura-equimosis-sepsis__cto-infecto_p38.jpg', label: 'Púrpura y equimosis en una sepsis (meningococo)', credit: 'Manual CTO Infecciosas 14.ª ed., p. 38' },
-      ],
-      steps: [
-        { note: 'Glóbulos rotos por microtrombos',
-          say: 'En la coagulación intravascular hay esquistocitos, plaquetas bajas y tiempos prolongados: se consume todo.' },
-        { note: 'Sepsis que sangra',
-          say: 'Y así se ve en la piel: un paciente séptico con equimosis espontáneas que confluyen. Coagula en los vasos y, a la vez, sangra.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -211,7 +197,11 @@ module.exports = {
         { cells: ['PTI', 'Solo plaquetas bajas', 'Coagulación normal'],
           say: 'En el púrpura trombocitopénico inmune solo caen las plaquetas; la coagulación está normal.' },
         { cells: ['PTT y SHU', 'Plaquetas bajas + esquistocitos', 'TP y TTPK normales'],
-          say: 'En las microangiopatías, el PTT y el síndrome hemolítico urémico, también hay plaquetas bajas y esquistocitos, pero el TP y el TTPK son normales. Esa es la diferencia con la CID, que también puede tener algunos esquistocitos.' },
+          say: 'En las microangiopatías, el PTT y el síndrome hemolítico urémico, también hay plaquetas bajas y esquistocitos, pero el TP y el TTPK son normales. Esa es la diferencia con la CID, que también puede tener algunos esquistocitos. Mira este frotis: glóbulos rojos partidos por los microtrombos. Y aquí otro, con esquistocitos por todos lados; en la CID, la malla de fibrina también parte los glóbulos.',
+          photos: [
+            { src: 'biblioteca/06_hematologia/hem-15/01_esquistocitos__cto-hemato_p10.jpg', label: 'Esquistocitos', at: 'Mira este frotis', credit: 'Manual CTO Hematología 14.ª ed., p. 10' },
+            { src: 'biblioteca/06_hematologia/hem-15/02_esquistocitos__harrison_p468.jpg', label: 'Esquistocitos en el frotis', at: 'Y aquí otro', credit: 'Harrison\'s Principles of Internal Medicine, 21st ed., p. 468' },
+          ] },
         { cells: ['Déficit de vitamina K', 'TP largo, plaquetas normales', 'Corrige con vitamina K'],
           say: 'Y en el déficit de vitamina K, que vimos en la clase anterior, se alarga el TP, pero las plaquetas y el fibrinógeno están normales.' },
         { cells: ['CID con sangrado activo', 'Tratar causa + hemocomponentes', 'Error: heparina'],
@@ -288,6 +278,44 @@ module.exports = {
         options: 'Las opciones son: extraer el feto muerto, controles con dímero D, interrumpir el embarazo, cesárea a las treinta y siete semanas, o controles con pruebas de coagulación. Piénsalo.',
         answer: 'Es la E. Como es bicorial y el gemelo vivo está bien, se puede esperar, pero el feto muerto retenido es otro gatillo obstétrico de CID, así que hay que vigilarla. El distractor es el dímero D: en el embarazo sube de forma normal, así que no te sirve. Lo que se controla son las pruebas de coagulación, que se alargan si aparece la CID.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.3.005 · Indicaciones de uso de componentes sanguíneos",
+      "stem": "Hombre de 58 años con cirrosis hepática alcohólica Child B, hospitalizado por una hemorragia digestiva alta variceal. Mientras se prepara la endoscopía persiste con hematemesis. PA 96/60 mmHg tras cristaloides y glóbulos rojos. Hb 7,4 g/dL, plaquetas 82.000/µL, TP 38 % (INR 2,1), TTPK 52 s (control 30 s), fibrinógeno 160 mg/dL.",
+      "question": "Respecto del plasma fresco congelado, ¿en cuál de las siguientes situaciones está mejor indicado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Corregir un INR de 1,8 en un cirrótico estable sin sangrado ni procedimiento programado"
+        },
+        {
+          "letter": "B",
+          "text": "Tratar una hipoalbuminemia de 2,0 g/dL"
+        },
+        {
+          "letter": "C",
+          "text": "Expandir volumen en un shock hipovolémico sin coagulopatía"
+        },
+        {
+          "letter": "D",
+          "text": "Sangrado activo con déficit de múltiples factores (TP y TTPK prolongados sobre 1,5 veces el control), como en este paciente"
+        },
+        {
+          "letter": "E",
+          "text": "Revertir la anticoagulación por dabigatrán"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El plasma fresco congelado aporta todos los factores y se indica ante sangrado activo, o procedimiento invasivo, con déficit de múltiples factores (TP o TTPK sobre 1,5 veces). No se usa como expansor de volumen ni para tratar la albúmina, ni para corregir un INR sin sangrado. El dabigatrán se revierte con idarucizumab.",
+      "say": {
+        "stem": "Un hombre de cincuenta y ocho años con cirrosis sigue con hematemesis por várices, con presión baja, hemoglobina de siete coma cuatro, INR de dos coma uno y tiempo de tromboplastina prolongado.",
+        "question": "¿En cuál de estas situaciones está mejor indicado el plasma fresco congelado?",
+        "options": "Las opciones: corregir un INR alto sin sangrado, tratar la albúmina baja, expandir volumen en el shock, sangrado activo con déficit de varios factores, o revertir el dabigatrán. Piénsalo.",
+        "answer": "Es la D. El plasma se usa cuando hay sangrado activo o un procedimiento con déficit de varios factores, como este cirrótico sangrando. Corregir un INR alto sin sangrado tienta, pero no reduce el riesgo y solo expone a los riesgos transfusionales."
+      }
     },
 
     {

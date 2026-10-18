@@ -15,7 +15,7 @@
  *        las que tengan dataset estructurado)
  *
  * Datos: cada especialidad requiere un dataset con la forma de
- *        master_cardiology_23_full_dataset.cjs (array de clases con
+ *        dataset_endocrinologia.cjs (array de clases con
  *        contentSections, table, vignette, explicacion, keyPoints, questions…).
  * ══════════════════════════════════════════════════════════════════════════════
  */
@@ -34,7 +34,25 @@ try {
   }
 }
 const matcher = require('./reconstruction_matcher.cjs');
-const { autoFigSpec, withFigRefs } = require('./figspec_clases.cjs');
+const { autoFigSpec, withFigRefs, mergeAtlas, withAtlasFigs } = require('./figspec_clases.cjs');
+const { applyV3 } = require('./v3_codes.cjs');
+const para = p => /^<figure/.test(p) ? p : `<p>${p}</p>`;
+// Códigos V3 que enseña cada sección (books/data/v3_section_codes.json, auditado tema por tema)
+const SECFILE = process.env.V3_SECFILE || path.join(__dirname, '..', 'data', 'v3_section_codes.json');
+const SECCODES = fs.existsSync(SECFILE) ? JSON.parse(fs.readFileSync(SECFILE, 'utf8')) : {};
+let CUR_BOOK = '';
+// Fila «Código Perfil V3» junto al botón de la masterclass: cada código en su recuadro, enlazado a la clase online
+const v3Row = c => { const k = String(c.perfilCode || '').match(/\b\d\.\d{2}\.\d\.\d{3}\b/g) || []; if (!k.length) return '';
+  const fs_ = k.length > 9 ? ` style="font-size:${(7.8 * 9 / k.length).toFixed(2)}px;padding:3px ${(5 * 9 / k.length).toFixed(1)}px"` : '';
+  return `<span class="v3-row${k.length > 7 ? ' below' : ''}"><span class="v3-lab">Código Perfil V3</span>${k.map(x => c.classId ? `<a class="v3-box"${fs_} href="${SITE.clase(c.classId)}?codigo=${x}">${x}</a>` : `<span class="v3-box"${fs_}>${x}</span>`).join('')}</span>`; };
+// Código al margen del párrafo: se marca cuando cambian los códigos respecto del párrafo anterior
+// markdown que quedó en algunos datasets → HTML
+const md = t => typeof t !== 'string' ? t : t.replace(/:::\w*/g, '').replace(/^\s*#{1,4}\s+/gm, '').replace(/\*\*([^*\n]+?)\*\*/g, '<b>$1</b>').replace(/(^|[\s(>])\*([^*\s][^*\n]*?)\*(?=[\s.,;:)<]|$)/g, '$1<i>$2</i>');
+const paras = (c, s, i) => { const e = SECCODES[`${CUR_BOOK}|${c.classId || c.topicLabel}`]; const P = (e && e.parrafos) || {};
+  let prev = '', n = 0; // n: índice del párrafo sin contar las figuras insertadas (los índices "i.j" del audit son del dataset)
+  return (s.paragraphs || [s.text]).map(p => { if (/^<figure/.test(p)) return p; const j = n++; const k = P[`${i}.${j}`] || []; const key = k.join(',');
+    if (/^\s*:::important/.test(p) && /Dx:|Perfil EUNACOM/.test(p)) return ''; p = md(p); const tag = k.length && key !== prev ? `<span class="p-codes">${k.map(x => `<span class="p-code">${x}</span>`).join('')}</span>` : '';
+    if (k.length) prev = key; return `<p>${tag}${p}</p>`; }).join(''); };
 
 const ROOT = path.join(__dirname, '..');
 const SVG_DIR = path.join(ROOT, 'svg_diagrams');
@@ -100,7 +118,7 @@ const SPECIALTIES = [
     key: 'cardiologia', ch: '01', title: 'Cardiología',
     module: 'Módulo 1 · Medicina Interna', moduleDir: 'Modulo_1_Medicina_Interna',
     subtitle: 'Electrocardiografía y arritmias, síndromes coronarios, insuficiencia cardíaca y shock, valvulopatías, hipertensión y patología vascular.',
-    dataset: () => require('./master_cardiology_23_full_dataset.cjs').master23ClassesFullData,
+    dataset: () => require('./dataset_cardiologia.cjs').cardiologiaClasses,   // 38 temas estándar (antes master_cardiology_23_full_dataset.cjs)
     figDir: FIG_DIR,
     figSpec: require('./figspec_cardiologia.cjs'),
     out: 'Manual_EUNACOM_Cardiologia_Completo_2026.pdf',
@@ -635,11 +653,11 @@ function figureBlock(c, x, extra = '') {
     return `<figure class="fx"><img src="${src}" alt=""><figcaption>${tag}${it.cap}</figcaption></figure>`;
   }).join('');
   if (!imgs) return '';
-  return `<div class="figblock ${spec.mode || 'wide'} ${extra}"><div class="figrow">${imgs}</div><p class="figcap"><b>Imagen ${c.topicLabel}.</b> ${spec.desc}</p></div>`;
+  return `<div class="figblock ${spec.mode || 'wide'} ${extra}"><div class="figrow">${imgs}</div><p class="figcap"><b>Imagen ${c.topicLabel}</b></p></div>`;
 }
 
 function topicPageStandard(c, b, x) {
-  const prose = c.contentSections.map(s => `<h3>${s.subhead}</h3>${(s.paragraphs || [s.text]).map(p => `<p>${p}</p>`).join('')}`).join('');
+  const prose = c.contentSections.map((s, i) => `<h3>${md(s.subhead)}</h3>${paras(c, s, i)}`).join('');
   const diagramObj = c.diagram || (c.svg ? { title: c.algoTitle, svg: getSvg(c.svg) } : null);
   const algoCard = diagramObj && diagramObj.svg ? `<div class="algo-card"><div class="algo-head">Figura ${c.topicLabel} · ${diagramObj.title}</div><div class="algo-body">${diagramObj.svg}</div></div>` : '';
   const tbl = c.table ? `
@@ -653,7 +671,7 @@ function topicPageStandard(c, b, x) {
   const contexto = c.contexto
     ? `<div class="contexto"><span class="contexto-tag">¿Por qué?</span><p>${c.contexto}</p></div>` : '';
   const watch = c.classId
-    ? `<a class="lnk" href="${SITE.clase(c.classId)}">▶&nbsp;Ver masterclass de este tema</a>` : '';
+    ? `<a class="lnk" href="${SITE.clase(c.classId)}">▶&nbsp;Ver masterclass de este tema</a>${v3Row(c)}` : v3Row(c);
   const moreQ = c.classId
     ? `<a class="lnk ghost" href="${SITE.preguntas(c.classId)}">Más preguntas online de ${c.title.split(':')[0].split('(')[0].trim()} →</a>` : '';
 
@@ -691,12 +709,12 @@ function topicPageStandard(c, b, x) {
 }
 
 function topicPageTier3(c, b, x) {
-  const watch = c.classId ? `<a class="lnk" href="${SITE.clase(c.classId)}">▶&nbsp;Ver masterclass de este tema</a>` : '';
+  const watch = c.classId ? `<a class="lnk" href="${SITE.clase(c.classId)}">▶&nbsp;Ver masterclass de este tema</a>${v3Row(c)}` : v3Row(c);
   const moreQ = c.classId ? `<a class="lnk ghost" href="${SITE.preguntas(c.classId)}">Más preguntas online de ${c.title.split(':')[0].split('(')[0].trim()} →</a>` : '';
   const contexto = c.contexto ? `<div class="contexto"><span class="contexto-tag">¿Por qué?</span><p>${c.contexto}</p></div>` : '';
   
   // Page 1: Fundamentos y Presentación Clínica (1/4)
-  const secPart1 = c.contentSections.slice(0, 2).map(s => `<h3>${s.subhead}</h3>${(s.paragraphs || [s.text]).map(p => `<p>${p}</p>`).join('')}`).join('');
+  const secPart1 = c.contentSections.slice(0, 2).map((s, i) => `<h3>${md(s.subhead)}</h3>${paras(c, s, i)}`).join('');
   const tbl1 = c.table ? `
     <div class="card tbl-card">
       <div class="card-head navy"><span>Tabla ${c.topicLabel}.A · ${c.table.title}</span><span class="pill light mono">${c.perfilCode}</span></div>
@@ -715,7 +733,7 @@ function topicPageTier3(c, b, x) {
   `;
 
   // Page 2: Criterios Diagnósticos, Algoritmo Vectorial y Scores (2/4)
-  const secPart2 = c.contentSections.slice(2, 3).map(s => `<h3>${s.subhead}</h3>${(s.paragraphs || [s.text]).map(p => `<p>${p}</p>`).join('')}`).join('');
+  const secPart2 = c.contentSections.slice(2, 3).map((s, i) => `<h3>${md(s.subhead)}</h3>${paras(c, s, i + 2)}`).join('');
   const diagramObj = c.diagram || (c.svg ? { title: c.algoTitle, svg: getSvg(c.svg) } : null);
   const algoCard = diagramObj && diagramObj.svg ? `<div class="algo-card"><div class="algo-head">Figura ${c.topicLabel} · ${diagramObj.title}</div><div class="algo-body">${diagramObj.svg}</div></div>` : '';
   const tbl2Obj = c.severityTable || c.table2;
@@ -737,7 +755,7 @@ function topicPageTier3(c, b, x) {
   `;
 
   // Page 3: Manejo Farmacológico Escalonado y Urgencias (3/4)
-  const secPart3 = c.contentSections.slice(3).map(s => `<h3>${s.subhead}</h3>${(s.paragraphs || [s.text]).map(p => `<p>${p}</p>`).join('')}`).join('');
+  const secPart3 = c.contentSections.slice(3).map((s, i) => `<h3>${md(s.subhead)}</h3>${paras(c, s, i + 3)}`).join('');
   const tblTx = c.treatmentTable ? `
     <div class="card tbl-card">
       <div class="card-head navy"><span>Tabla ${c.topicLabel}.C · ${c.treatmentTable.title}</span><span class="pill light mono">Protocolo Terapéutico</span></div>
@@ -786,7 +804,10 @@ function topicPageTier3(c, b, x) {
 }
 
 function topicPage(c, b, x) {
+  // recuadros «:::important» del generador antiguo (repetían códigos y niveles en el texto): se ocultan
+  if (typeof c.vignette === 'string') c = { ...c, vignette: c.vignette.replace(/:::important[\s\S]*?:::/g, '').trim() };
   c = { ...c, contentSections: withFigRefs(c, x.figSpec[c.topicLabel]) };
+  c = { ...c, contentSections: withAtlasFigs(c, x.figSpec['@atlas:' + c.topicLabel], x.figMap) };
   const isT3 = c.tier === 3 && ((c.questions && c.questions.length >= 4) || c.treatmentTable || c.table2);
   if (isT3) {
     return topicPageTier3(c, b, x);
@@ -921,7 +942,8 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .secbody{padding:18px 42px 14px;vertical-align:top}
 .secbody.flush{padding:0}
 .secbody.dark{background:#0f172a}
-.watch-row{margin-top:8px}
+.watch-row{margin-top:8px;display:flex;align-items:center;gap:6px 10px;flex-wrap:wrap}.v3-row.below{flex-basis:100%}
+.v3-row{display:inline-flex;align-items:center;gap:4px;white-space:nowrap;min-width:0}.v3-lab{font:700 7.4px/1 'IBM Plex Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--acc-d);margin-right:2px}.v3-box{font:600 7.8px/1 'JetBrains Mono',monospace;color:var(--acc-dp);background:#fff;border:1px solid var(--acc);border-radius:2px;padding:3px 5px;text-decoration:none}
 
 .eyebrow{display:block;font:600 9px/1.3 'IBM Plex Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--acc-d)}
 .mono{font-family:'JetBrains Mono',monospace}
@@ -978,6 +1000,8 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .pill.plain{background:transparent;color:#64748b;padding:0;font-weight:600}
 .pill.outline{background:var(--acc-t);border:1px solid var(--acc-p);color:var(--acc-dp)}
 .pill.mono{font-family:'JetBrains Mono',monospace;letter-spacing:.02em}
+.p-codes{float:right;margin:1px 0 2px 6px;display:flex;flex-direction:column;gap:2px;align-items:flex-end}.p-code{font:600 7px/1 'JetBrains Mono',monospace;letter-spacing:.02em;color:var(--acc-dp);background:var(--acc-t);border:1px solid var(--acc-p);border-radius:2px;padding:2px 4px;white-space:nowrap}
+.card-head>span:first-child{min-width:0}.card-head .pill.mono{white-space:normal;max-width:52%;text-align:right;line-height:1.4;flex:none}
 .card-body-p{padding:9px 12px;font:400 10px/1.5 'IBM Plex Sans',sans-serif;text-align:justify;hyphens:auto}
 .dtbl{width:100%;border-collapse:collapse;font-size:9px}
 .dtbl th{text-align:left;padding:4.5px 8px;font:700 8px/1.2 'IBM Plex Sans',sans-serif;letter-spacing:.05em;text-transform:uppercase;color:#1e3a8a;background:#e2e8f0}
@@ -1050,7 +1074,7 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .bcov-hist-empty{padding:10px 13px;font:400 9.5px/1.5 'IBM Plex Sans',sans-serif;color:#94a3b8}
 
 /* Matriz de competencias V3 / Pills (100% idéntico a Gastroenterología) */
-.lv{display:inline-block;font:700 8.5px/1 'IBM Plex Sans',sans-serif;letter-spacing:.02em;padding:3.5px 8px;border-radius:999px;white-space:nowrap;text-align:center}
+.lv{max-width:100%;white-space:normal!important;line-height:1.25!important;display:inline-block;font:700 8.5px/1 'IBM Plex Sans',sans-serif;letter-spacing:.02em;padding:3.5px 8px;border-radius:999px;white-space:nowrap;text-align:center}
 .lv-sol{background:var(--acc);color:#fff}
 .lv-out{background:#ffffff;color:#0f172a;font-weight:700}
 .lv-ok{background:#ffffff;color:#0f172a;font-weight:700}
@@ -1094,6 +1118,9 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .figblock.full .fx img{max-height:340px}
 .figblock.wide .fx img{max-height:250px}
 .figblock.compact .fx img{max-height:190px}
+.prose figure.infig,figure.infig{margin:5px 0 7px;break-inside:avoid;page-break-inside:avoid;text-align:center}
+figure.infig img{display:block;margin:0 auto;max-width:100%;max-height:200px;width:auto;height:auto;border:1px solid #e2e8f0;border-radius:3px}
+figure.infig figcaption{font:600 7.4px/1.3 'IBM Plex Sans',sans-serif;letter-spacing:.02em;color:#64748b;margin-top:3px}
 .figrow .fx figcaption{font:600 7.6px/1.3 'IBM Plex Sans',sans-serif;letter-spacing:.03em;text-transform:uppercase;color:#64748b;text-align:center;max-width:280px}
 .figrow .fx figcaption b{color:#1e3a8a}
 .figcap{margin-top:8px;font:400 8.8px/1.45 'IBM Plex Sans',sans-serif;color:#334155;text-align:justify}
@@ -1218,7 +1245,7 @@ function figJobs(figSpec, figDir) {
 }
 
 async function renderPdf(browser, x, spec) {
-  const html = buildHtml(x);
+  const html = buildHtml(x).replace(/:::\w*/g, '').replace(/\*\*([^*<>\n]+?)\*\*/g, '<b>$1</b>').replace(/(^|>|\s)\* (?=\S)/g, '$1• ');
   fs.writeFileSync(path.join(__dirname, `temp_maqueta_${spec.key}.html`), html);
   const page = await browser.newPage();
   await page.setContent(html, { waitUntil: 'networkidle0', timeout: 90000 });
@@ -1244,9 +1271,10 @@ function readMarkers(pdf) {
 }
 
 async function buildBook(spec, browser) {
+  CUR_BOOK = spec.key;
   const t = themeVars(spec.accent);
-  const data = spec.dataset();
-  const figSpec = autoFigSpec(data, spec.figSpec || {});
+  const data = applyV3(spec.key, spec.dataset());
+  const figSpec = mergeAtlas(data, autoFigSpec(data, spec.figSpec || {}));
   const meta = prepare(data, figSpec);
   const x = { spec: { ...spec, accent: spec.accent }, data, figSpec, figMap: new Map(), ...meta };
 

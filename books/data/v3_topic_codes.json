@@ -1,0 +1,6500 @@
+{
+ "cirugia-01": {
+  "codes": [
+   "4.01.2.006"
+  ],
+  "names": [
+   "Apendicitis aguda"
+  ]
+ },
+ "cirugia-02": {
+  "codes": [
+   "4.01.2.011",
+   "4.01.1.027",
+   "4.01.4.011",
+   "4.01.1.025"
+  ],
+  "names": [
+   "Colecistitis aguda",
+   "Litiasis biliar",
+   "Ecografía: distinguir vesícula y líquido intraabdominal",
+   "Colecistitis crónica"
+  ]
+ },
+ "cirugia-03": {
+  "codes": [
+   "4.01.2.008",
+   "4.01.4.015",
+   "4.01.1.013",
+   "4.01.3.004",
+   "1.06.1.017"
+  ],
+  "names": [
+   "Enfermedad diverticular complicada",
+   "TAC de abdomen y pelvis",
+   "Enfermedad diverticular no complicada",
+   "Colostomías",
+   "Enfermedad diverticular no complicada"
+  ]
+ },
+ "cirugia-04": {
+  "codes": [
+   "4.01.2.005",
+   "4.01.4.002",
+   "4.01.4.015",
+   "1.06.4.001"
+  ],
+  "names": [
+   "Obstrucción Intestinal",
+   "Radiografía simple de abdomen",
+   "TAC de abdomen y pelvis",
+   "Radiografía simple de abdomen"
+  ]
+ },
+ "cirugia-05": {
+  "codes": [
+   "4.01.2.003",
+   "1.06.1.030",
+   "4.01.2.002",
+   "4.01.4.001"
+  ],
+  "names": [
+   "Peritonitis",
+   "Úlcera péptica",
+   "Abdomen agudo",
+   "Radiografía de tórax"
+  ]
+ },
+ "cirugia-06": {
+  "codes": [
+   "4.01.1.021",
+   "2.01.1.090"
+  ],
+  "names": [
+   "Hernias, eventraciones y evisceraciones",
+   "Hernia inguinal"
+  ]
+ },
+ "cirugia-07": {
+  "codes": [
+   "4.01.1.016",
+   "4.01.1.017",
+   "4.01.1.020",
+   "4.01.1.019",
+   "4.01.2.009",
+   "4.01.5.003"
+  ],
+  "names": [
+   "Hemorroides - fisura anal",
+   "Abscesos y fístulas ano rectales",
+   "Fisura anorectal",
+   "Cáncer anal",
+   "Prolapso rectal",
+   "Anoscopía"
+  ]
+ },
+ "cirugia-08": {
+  "codes": [
+   "4.01.1.018",
+   "4.01.1.053",
+   "4.01.1.054",
+   "4.01.1.055",
+   "4.01.5.011",
+   "6.01.1.012"
+  ],
+  "names": [
+   "Enfermedades del seno pilonidal",
+   "Tumores benignos de partes blandas",
+   "Tumores malignos de partes blandas",
+   "Abscesos, forúnculos, panadizos, flegmones",
+   "Drenaje de lesiones superficiales",
+   "Granuloma piogénico"
+  ],
+  "nota": "No V3 code for hidradenitis; abscesos used"
+ },
+ "cirugia-09": {
+  "codes": [
+   "4.01.2.027",
+   "4.01.5.014",
+   "4.01.5.015",
+   "4.01.5.022",
+   "4.01.2.020",
+   "4.01.2.031",
+   "4.01.3.008",
+   "4.01.4.004",
+   "4.01.5.007",
+   "4.01.5.010",
+   "4.01.5.018",
+   "4.01.5.031",
+   "2.01.2.021",
+   "1.01.5.005",
+   "1.05.5.003",
+   "1.10.2.021",
+   "4.02.2.015",
+   "4.02.3.007",
+   "6.03.5.008",
+   "6.03.5.015"
+  ],
+  "names": [
+   "Trauma",
+   "Evaluación primaria en trauma",
+   "Evaluación secundaria en trauma",
+   "Manejo de vía aérea y columna cervical en trauma",
+   "Traumatismo raquimedular",
+   "Shock",
+   "Conceptos de manejo en situación de catástrofe (triage, extricación, inmovilización y transporte)",
+   "Radiografía de columna cervical",
+   "Cricoidostomía",
+   "Denudación venosa",
+   "Intubación traqueal",
+   "Traslado del traumatizado",
+   "Politraumatismos",
+   "Intubación traqueal",
+   "Cricoidostomía",
+   "Traumatismo raquimedular",
+   "Trauma raquimedular",
+   "Triage",
+   "Intubacion traqueal",
+   "Traqueostomía y cricoidostomía"
+  ]
+ },
+ "cirugia-10": {
+  "codes": [
+   "4.01.2.016",
+   "1.05.2.011",
+   "1.01.2.008",
+   "4.01.5.026",
+   "1.05.2.014"
+  ],
+  "names": [
+   "Traumatismo torácico grave",
+   "Neumotórax hipertensivo",
+   "Taponamiento pericárdico",
+   "Drenaje pleural",
+   "Traumatismo torácico simple"
+  ]
+ },
+ "cirugia-11": {
+  "codes": [
+   "4.01.2.010",
+   "4.01.4.011",
+   "4.03.2.008"
+  ],
+  "names": [
+   "Trauma abdominal abierto y cerrado",
+   "Ecografía: distinguir vesícula y líquido intraabdominal",
+   "Trauma urológico"
+  ]
+ },
+ "cirugia-12": {
+  "codes": [
+   "1.10.2.019",
+   "1.10.2.020",
+   "1.10.4.001",
+   "1.10.2.009",
+   "4.01.4.003",
+   "4.01.5.019",
+   "2.01.2.026",
+   "2.01.4.005",
+   "1.10.1.002",
+   "6.03.2.015"
+  ],
+  "names": [
+   "Traumatismo encéfalo craneano leve",
+   "Traumatismo encefalocraneano grave",
+   "TAC de encefalo y columna",
+   "Hipertensión endocraneana",
+   "Radiografía de cráneo",
+   "Intubación nasogástrica",
+   "Traumatismo encéfalo- craneano",
+   "Radiografía de cráneo",
+   "Compromiso de conciencia",
+   "Otorragia"
+  ]
+ },
+ "cirugia-13": {
+  "codes": [
+   "4.01.2.026",
+   "4.01.5.008",
+   "4.01.1.056",
+   "4.01.3.011",
+   "2.01.2.022",
+   "6.01.2.011"
+  ],
+  "names": [
+   "Quemaduras",
+   "Curación básica de quemaduras",
+   "Secuelas de quemaduras",
+   "Conceptos generales sobre injertos y colgajos",
+   "Quemaduras",
+   "Quemadura solar"
+  ]
+ },
+ "cirugia-14": {
+  "codes": [
+   "4.01.5.013",
+   "4.01.3.010",
+   "4.01.3.006",
+   "4.01.3.014",
+   "1.02.4.003",
+   "1.02.5.002"
+  ],
+  "names": [
+   "Evaluación pre y post-operatoria",
+   "Conceptos generales del pre y post operatorio",
+   "Concepto de paciente quirúrgico ambulatorio",
+   "Evaluación nutricional",
+   "Albúmina plasmática",
+   "Evaluacion nutricional subjetiva"
+  ]
+ },
+ "cirugia-15": {
+  "codes": [
+   "4.01.2.028",
+   "4.01.3.007",
+   "4.01.5.001",
+   "4.01.3.017",
+   "4.01.5.002"
+  ],
+  "names": [
+   "Intoxicación por anestésicos locales",
+   "Conceptos básicos de anestesia general, local y regional",
+   "Anestesia local por infiltración",
+   "Manejo del dolor",
+   "Anestesia troncular de dedos y ortejos"
+  ]
+ },
+ "cirugia-16": {
+  "codes": [
+   "4.01.3.005",
+   "1.04.4.012",
+   "4.01.2.024"
+  ],
+  "names": [
+   "Complicaciones postoperatorias frecuentes",
+   "Proteína C reactiva",
+   "Hemorragia aguda post operatoria."
+  ]
+ },
+ "cirugia-17": {
+  "codes": [
+   "4.01.3.016",
+   "4.01.1.021",
+   "4.01.3.002",
+   "4.01.3.005",
+   "4.01.1.011",
+   "4.01.3.003",
+   "4.01.5.004",
+   "1.04.4.002"
+  ],
+  "names": [
+   "Infección quirúrgica e intrahospitalaria",
+   "Hernias, eventraciones y evisceraciones",
+   "Antimicrobianos. Conceptos profilaxis y esquemas terapéuticos",
+   "Complicaciones postoperatorias frecuentes",
+   "Fístulas del intestino delgado",
+   "Asepsia y antisepsia",
+   "Ayudantía quirúrgica (nociones básicas)",
+   "Cultivo de heridas o abscesos"
+  ]
+ },
+ "cirugia-18": {
+  "codes": [
+   "4.01.3.018",
+   "1.04.3.002",
+   "4.01.2.025",
+   "4.01.5.009",
+   "4.01.1.057",
+   "4.01.2.014",
+   "4.01.5.017",
+   "4.02.2.009"
+  ],
+  "names": [
+   "Tratamiento antitetánico y antirrábico",
+   "Mordeduras de animales",
+   "Heridas y contusiones menores",
+   "Curación de heridas, sutura y aseo",
+   "Cicatrices viciosas",
+   "Heridas de cara",
+   "Hemostasia con ligaduras y taponamiento de heridas sangrantes",
+   "Heridas de la mano no complicadas"
+  ]
+ },
+ "derma-01": {
+  "codes": [
+   "6.01.3.003",
+   "6.01.1.009",
+   "6.01.1.032"
+  ],
+  "names": [
+   "Manifestaciones cutáneas de enfermedades sistémicas",
+   "Eritema nodoso / Eritema indurado de Bazin",
+   "Vitiligo"
+  ],
+  "nota": "No code for elementary lesions/semiology; loose fit"
+ },
+ "derma-02": {
+  "codes": [
+   "6.01.1.001",
+   "2.01.1.104"
+  ],
+  "names": [
+   "Acné",
+   "Acné"
+  ]
+ },
+ "derma-03": {
+  "codes": [
+   "6.01.1.026"
+  ],
+  "names": [
+   "Rosácea"
+  ]
+ },
+ "derma-04": {
+  "codes": [
+   "6.01.1.002"
+  ],
+  "names": [
+   "Alopecías"
+  ]
+ },
+ "derma-05": {
+  "codes": [
+   "6.01.1.024",
+   "1.11.1.001",
+   "6.01.1.015",
+   "6.01.2.004"
+  ],
+  "names": [
+   "Psoriasis",
+   "Artritis psoriática",
+   "Líquen plano",
+   "Eritrodermia"
+  ]
+ },
+ "derma-06": {
+  "codes": [
+   "6.01.1.004",
+   "2.01.1.107"
+  ],
+  "names": [
+   "Dermatitis atópica",
+   "Dermatitis atópica"
+  ]
+ },
+ "derma-07": {
+  "codes": [
+   "6.01.1.006",
+   "6.01.1.007",
+   "6.01.4.005",
+   "6.01.1.005",
+   "6.01.1.011",
+   "2.01.1.108"
+  ],
+  "names": [
+   "Dermatitis seborreica infantil y del adulto",
+   "Dermitis de contacto",
+   "Patch test",
+   "Dermatitis del pañal",
+   "Fotodermatosis",
+   "Dermatitis del pañal y de contacto"
+  ]
+ },
+ "derma-08": {
+  "codes": [
+   "6.01.1.030",
+   "6.01.2.001",
+   "2.01.1.055",
+   "6.01.2.016"
+  ],
+  "names": [
+   "Urticaria aguda",
+   "Angioedema de Quinque",
+   "Alergias",
+   "Urticaria y angioedema"
+  ]
+ },
+ "derma-09": {
+  "codes": [
+   "6.01.2.015",
+   "6.01.2.009",
+   "6.01.2.014"
+  ],
+  "names": [
+   "Síndrome de Stevens-Johnson",
+   "Necrolisis tóxica epidérmica",
+   "Síndrome de piel escaldada por estafilococos"
+  ]
+ },
+ "derma-10": {
+  "codes": [
+   "6.01.2.013",
+   "6.01.1.025"
+  ],
+  "names": [
+   "Síndrome de hipersensibilidad a drogas",
+   "Reacciones cutáneas por drogas (rush, toxidermia fija)"
+  ],
+  "nota": "No DRESS code; general drug reaction code"
+ },
+ "derma-11": {
+  "codes": [
+   "6.01.2.010",
+   "6.01.1.020",
+   "6.01.5.001"
+  ],
+  "names": [
+   "Pénfigo y penfigoide",
+   "Pénfigo",
+   "Biopsia de piel"
+  ]
+ },
+ "derma-12": {
+  "codes": [
+   "6.01.1.010",
+   "6.01.1.031",
+   "6.01.4.006"
+  ],
+  "names": [
+   "Eritema polimorfo menor",
+   "Verrugas, herpes simplex, herpes zoster, moluscos",
+   "Test TZANCK"
+  ]
+ },
+ "derma-13": {
+  "codes": [
+   "6.01.1.017",
+   "6.01.5.001",
+   "6.01.4.002"
+  ],
+  "names": [
+   "Melanoma maligno",
+   "Biopsia de piel",
+   "Dermatoscopía"
+  ]
+ },
+ "derma-14": {
+  "codes": [
+   "6.01.1.003",
+   "6.01.3.001"
+  ],
+  "names": [
+   "Cáncer de piel no melanoma (carcinoma basocelular y espinocelular)",
+   "Fotoprotección"
+  ]
+ },
+ "derma-15": {
+  "codes": [
+   "6.01.1.029"
+  ],
+  "names": [
+   "Tumores premalignos (queratosis actínicas, Bowen)"
+  ]
+ },
+ "derma-16": {
+  "codes": [
+   "6.01.1.018",
+   "6.01.1.027",
+   "6.01.1.019",
+   "6.01.4.004",
+   "2.01.1.109",
+   "2.01.1.110",
+   "1.04.4.003",
+   "6.01.1.022",
+   "6.01.1.023",
+   "6.01.4.001"
+  ],
+  "names": [
+   "Micosis superficiales",
+   "Sarna",
+   "Pediculosis",
+   "Micológico directo de piel, pelos y uñas",
+   "Ectoparasitosis",
+   "Infecciones micóticas de piel y fanéreos",
+   "Cultivos de hongos",
+   "Pitiriasis Rosada de Gilbert",
+   "Prúrigo infantil agudo, picadura de insectos",
+   "Acarotest"
+  ]
+ },
+ "diab-01": {
+  "codes": [
+   "1.02.1.004",
+   "1.02.1.005"
+  ],
+  "names": [
+   "Diabetes Mellitus tipo 1",
+   "Diabetes mellitus tipo 2"
+  ],
+  "nota": "LADA/MODY sin código propio"
+ },
+ "diab-02": {
+  "codes": [
+   "1.02.1.005",
+   "1.02.4.024",
+   "1.02.4.017",
+   "1.02.4.016"
+  ],
+  "names": [
+   "Diabetes mellitus tipo 2",
+   "Test de tolerancia a la glucosa",
+   "Hemoglobina glicosilada",
+   "Glicemia venosa"
+  ]
+ },
+ "diab-03": {
+  "codes": [
+   "1.02.1.002",
+   "1.02.1.003",
+   "3.01.1.004",
+   "1.02.4.024"
+  ],
+  "names": [
+   "Diabetes gestacional",
+   "Diabetes mellitus pregestacional",
+   "Diabetes y embarazo",
+   "Test de tolerancia a la glucosa"
+  ]
+ },
+ "diab-04": {
+  "codes": [
+   "1.02.1.005",
+   "1.02.4.017",
+   "1.02.3.005",
+   "1.07.1.005"
+  ],
+  "names": [
+   "Diabetes mellitus tipo 2",
+   "Hemoglobina glicosilada",
+   "Prevención de complicaciones crónicas de la diabetes",
+   "Diabetes mellitus tipo 2"
+  ]
+ },
+ "diab-05": {
+  "codes": [
+   "1.02.3.004",
+   "1.02.3.003",
+   "1.02.2.006",
+   "7.01.3.032",
+   "1.01.3.006",
+   "1.02.4.023"
+  ],
+  "names": [
+   "Estilos de vida saludables (hábitos y conductas)",
+   "Diabetes y riesgo cardiovascular",
+   "Hipoglicemias",
+   "Estrategias de control de enfermedades crónicas prioritarias (cáncer, cardiovasculares)",
+   "Sedentarismo vs actividad física",
+   "Test de esfuerzo"
+  ]
+ },
+ "diab-06": {
+  "codes": [
+   "1.02.1.005",
+   "1.02.4.017"
+  ],
+  "names": [
+   "Diabetes mellitus tipo 2",
+   "Hemoglobina glicosilada"
+  ]
+ },
+ "diab-07": {
+  "codes": [
+   "1.02.1.005",
+   "1.02.2.006",
+   "1.02.2.001"
+  ],
+  "names": [
+   "Diabetes mellitus tipo 2",
+   "Hipoglicemias",
+   "Acidosis láctica"
+  ]
+ },
+ "diab-08": {
+  "codes": [
+   "1.02.1.005",
+   "1.02.3.003"
+  ],
+  "names": [
+   "Diabetes mellitus tipo 2",
+   "Diabetes y riesgo cardiovascular"
+  ]
+ },
+ "diab-09": {
+  "codes": [
+   "1.02.1.002",
+   "1.02.1.003",
+   "3.01.1.004",
+   "1.02.4.015"
+  ],
+  "names": [
+   "Diabetes gestacional",
+   "Diabetes mellitus pregestacional",
+   "Diabetes y embarazo",
+   "Glicemia capilar"
+  ]
+ },
+ "diab-10": {
+  "codes": [
+   "1.02.1.008",
+   "1.02.1.010"
+  ],
+  "names": [
+   "Hipertensión arterial en diabetes tipo 2",
+   "Nefropatía incipiente"
+  ]
+ },
+ "diab-11": {
+  "codes": [
+   "1.02.1.005",
+   "1.02.1.004"
+  ],
+  "names": [
+   "Diabetes mellitus tipo 2",
+   "Diabetes Mellitus tipo 1"
+  ],
+  "nota": "Farmacología insulina: sin código específico"
+ },
+ "diab-12": {
+  "codes": [
+   "1.02.1.005",
+   "1.02.1.004",
+   "1.02.2.006",
+   "1.02.4.015"
+  ],
+  "names": [
+   "Diabetes mellitus tipo 2",
+   "Diabetes Mellitus tipo 1",
+   "Hipoglicemias",
+   "Glicemia capilar"
+  ]
+ },
+ "diab-13": {
+  "codes": [
+   "1.02.1.005",
+   "1.02.4.015",
+   "1.02.1.006"
+  ],
+  "names": [
+   "Diabetes mellitus tipo 2",
+   "Glicemia capilar",
+   "Diabetes por corticoides"
+  ],
+  "nota": "Sin código de hiperglicemia hospitalaria"
+ },
+ "diab-14": {
+  "codes": [
+   "1.02.2.006",
+   "1.02.4.018",
+   "1.02.4.015",
+   "2.01.2.004"
+  ],
+  "names": [
+   "Hipoglicemias",
+   "Insulinemia",
+   "Glicemia capilar",
+   "Compromiso de conciencia"
+  ]
+ },
+ "diab-15": {
+  "codes": [
+   "1.02.2.002",
+   "1.02.2.007",
+   "1.02.2.003",
+   "1.02.4.007",
+   "1.02.4.006"
+  ],
+  "names": [
+   "Cetoacidosis",
+   "Síndrome hiperosmolar no cetósico",
+   "Coma hiperosmolar",
+   "Cuerpos cetónicos en sangre",
+   "Cuerpos cetónicos en orina (semicuantitativo)"
+  ]
+ },
+ "diab-16": {
+  "codes": [
+   "1.02.2.002",
+   "1.02.2.007",
+   "1.02.2.003",
+   "2.01.1.073"
+  ],
+  "names": [
+   "Cetoacidosis",
+   "Síndrome hiperosmolar no cetósico",
+   "Coma hiperosmolar",
+   "Diabetes"
+  ]
+ },
+ "diab-17": {
+  "codes": [
+   "1.02.2.002",
+   "1.09.2.006",
+   "1.02.2.007",
+   "1.02.4.009"
+  ],
+  "names": [
+   "Cetoacidosis",
+   "Hipokalemia",
+   "Síndrome hiperosmolar no cetósico",
+   "Electrocardiograma"
+  ]
+ },
+ "diab-18": {
+  "codes": [
+   "1.02.2.002",
+   "1.02.2.007"
+  ],
+  "names": [
+   "Cetoacidosis",
+   "Síndrome hiperosmolar no cetósico"
+  ]
+ },
+ "diab-19": {
+  "codes": [
+   "1.02.2.002",
+   "1.02.2.007"
+  ],
+  "names": [
+   "Cetoacidosis",
+   "Síndrome hiperosmolar no cetósico"
+  ],
+  "nota": "Edema cerebral/hipofosfemia sin código propio"
+ },
+ "diab-20": {
+  "codes": [
+   "1.02.1.010",
+   "1.09.1.014",
+   "1.02.4.004",
+   "1.02.1.009",
+   "1.02.4.019"
+  ],
+  "names": [
+   "Nefropatía incipiente",
+   "Nefropatía diabética",
+   "Relación albuminuria / creatininuria",
+   "Insuficiencia renal y diabetes",
+   "Microalbuminuria"
+  ]
+ },
+ "diab-21": {
+  "codes": [
+   "1.02.1.015",
+   "6.02.1.023",
+   "1.02.5.003"
+  ],
+  "names": [
+   "Retinopatía diabética",
+   "Retinopatía diabética",
+   "Fondo de ojo"
+  ]
+ },
+ "diab-22": {
+  "codes": [
+   "1.02.1.014",
+   "1.02.1.011",
+   "1.02.5.001",
+   "4.01.1.051",
+   "4.01.1.047",
+   "1.02.1.019",
+   "1.02.3.009",
+   "1.02.4.001",
+   "1.02.4.008"
+  ],
+  "names": [
+   "Pié diabético y otras infecciones en diabetes",
+   "Neuropatía diabética",
+   "Curaciones básicas del pié diabético",
+   "Pie diabético",
+   "Insuficiencia arterial crónica",
+   "Vasculopatía periférica",
+   "Prevención de pié diabético",
+   "Arteriografia extremidades inferiores",
+   "Doppler vascular periférico"
+  ]
+ },
+ "diab-23": {
+  "codes": [
+   "1.02.1.007",
+   "1.02.3.013",
+   "1.02.4.021",
+   "2.01.1.002",
+   "2.01.4.019",
+   "1.01.1.005",
+   "1.01.4.013",
+   "1.02.3.007",
+   "1.09.3.002"
+  ],
+  "names": [
+   "Dislipidemias",
+   "Riesgo cardiovascular global",
+   "Perfil lipídico",
+   "Dislipidemias",
+   "Perfil lipídico",
+   "Dislipidemias",
+   "Perfil lipídico",
+   "Prevención de dislipidemias",
+   "Control de factores de riesgo de enfermedad vascular"
+  ]
+ },
+ "diab-24": {
+  "codes": [
+   "1.02.2.005",
+   "1.02.1.007",
+   "1.02.3.011"
+  ],
+  "names": [
+   "Hipertrigliceridemia grave",
+   "Dislipidemias",
+   "Regímenes dietéticos para dislipidemias"
+  ]
+ },
+ "endo-01": {
+  "codes": [
+   "1.03.4.003",
+   "1.03.4.004"
+  ],
+  "names": [
+   "TSH, T4, T3",
+   "T4 libre"
+  ],
+  "nota": "Eutiroideo enfermo sin código; se usan exámenes"
+ },
+ "endo-02": {
+  "codes": [
+   "1.03.1.002",
+   "1.03.4.003",
+   "1.03.4.005"
+  ],
+  "names": [
+   "Hipotiroidismo",
+   "TSH, T4, T3",
+   "Anticuerpos antitiroideos (antitiroglobulina y antiiroperoxidasa)"
+  ]
+ },
+ "endo-03": {
+  "codes": [
+   "1.03.2.002",
+   "1.03.1.002"
+  ],
+  "names": [
+   "Mixedema",
+   "Hipotiroidismo"
+  ]
+ },
+ "endo-04": {
+  "codes": [
+   "1.03.1.002",
+   "2.01.1.075",
+   "2.01.4.024"
+  ],
+  "names": [
+   "Hipotiroidismo",
+   "Hipotiroidismo",
+   "Pruebas tiroideas"
+  ]
+ },
+ "endo-05": {
+  "codes": [
+   "1.03.1.005",
+   "1.03.1.003",
+   "1.03.1.002"
+  ],
+  "names": [
+   "Tiroiditis",
+   "Hipertiroidismo",
+   "Hipotiroidismo"
+  ]
+ },
+ "endo-06": {
+  "codes": [
+   "1.03.1.003",
+   "6.02.3.006",
+   "1.03.4.003"
+  ],
+  "names": [
+   "Hipertiroidismo",
+   "Orbitopatía tiroidea",
+   "TSH, T4, T3"
+  ]
+ },
+ "endo-07": {
+  "codes": [
+   "1.03.1.003",
+   "4.01.1.034"
+  ],
+  "names": [
+   "Hipertiroidismo",
+   "Patología benigna del tiroides"
+  ]
+ },
+ "endo-08": {
+  "codes": [
+   "1.03.2.001",
+   "1.03.1.003"
+  ],
+  "names": [
+   "Tormenta tiroidea",
+   "Hipertiroidismo"
+  ]
+ },
+ "endo-09": {
+  "codes": [
+   "1.03.1.021",
+   "1.03.4.001",
+   "1.03.1.001"
+  ],
+  "names": [
+   "Nódulo tiroídeo",
+   "Ecografía tiroídea",
+   "Bocio"
+  ]
+ },
+ "endo-10": {
+  "codes": [
+   "1.03.1.004",
+   "4.01.1.033"
+  ],
+  "names": [
+   "Cáncer del tiroides",
+   "Cáncer del tiroides"
+  ]
+ },
+ "endo-11": {
+  "codes": [
+   "1.03.1.006",
+   "1.03.4.007",
+   "1.03.4.006"
+  ],
+  "names": [
+   "Síndrome de Cushing",
+   "Cortisol libre 24 horas",
+   "Cortisol plasmático"
+  ]
+ },
+ "endo-12": {
+  "codes": [
+   "1.03.1.007",
+   "1.03.4.006"
+  ],
+  "names": [
+   "Insuficiencia suprarrenal crónica",
+   "Cortisol plasmático"
+  ]
+ },
+ "endo-13": {
+  "codes": [
+   "1.03.2.003",
+   "2.01.1.074",
+   "1.03.3.003"
+  ],
+  "names": [
+   "Insuficiencia suprarrenal aguda",
+   "Hiperplasia suprarrenal congénita",
+   "Complicaciones del tratamiento esteroidal"
+  ]
+ },
+ "endo-14": {
+  "codes": [
+   "1.03.1.009",
+   "1.09.1.009"
+  ],
+  "names": [
+   "Hipertensión arterial de origen endocrino",
+   "Hipertensión arterial secundaria"
+  ]
+ },
+ "endo-15": {
+  "codes": [
+   "1.03.1.009",
+   "4.03.1.023",
+   "1.03.1.022"
+  ],
+  "names": [
+   "Hipertensión arterial de origen endocrino",
+   "Tumor suprarrenal",
+   "Incidentaloma suprarrenal"
+  ],
+  "nota": "Feocromocitoma sin código propio"
+ },
+ "endo-16": {
+  "codes": [
+   "1.03.1.020",
+   "1.03.2.004",
+   "1.03.4.010",
+   "1.08.2.004"
+  ],
+  "names": [
+   "Hipercalcemias e hipocalcemias",
+   "Hipercalcemia aguda",
+   "PTH, calcemia",
+   "Hipercalcemia"
+  ]
+ },
+ "endo-17": {
+  "codes": [
+   "1.03.1.020",
+   "1.03.2.005"
+  ],
+  "names": [
+   "Hipercalcemias e hipocalcemias",
+   "Tetania"
+  ]
+ },
+ "endo-18": {
+  "codes": [
+   "1.03.1.018",
+   "1.03.4.002",
+   "1.03.3.002",
+   "1.03.1.019",
+   "1.07.1.015"
+  ],
+  "names": [
+   "Osteoporosis",
+   "Densitometría ósea",
+   "Prevención de osteoporosis",
+   "Osteoporosis secundaria",
+   "Osteoporosis"
+  ]
+ },
+ "endo-19": {
+  "codes": [
+   "1.02.1.017",
+   "2.01.4.018"
+  ],
+  "names": [
+   "Síndromes carenciales de vitaminas y minerales",
+   "Perfil bioquímico"
+  ],
+  "nota": "Osteomalacia/raquitismo sin código; carencial vitamínico más cercano"
+ },
+ "endo-20": {
+  "codes": [
+   "1.03.1.013",
+   "1.10.1.028",
+   "1.10.4.004",
+   "6.02.5.002"
+  ],
+  "names": [
+   "Tumores hipofisiarios",
+   "Tumores de región sellar",
+   "Campo visual",
+   "Campo visual por confrontación"
+  ]
+ },
+ "endo-21": {
+  "codes": [
+   "1.03.1.016",
+   "1.03.1.013",
+   "1.03.4.008"
+  ],
+  "names": [
+   "Hiperprolactinemia",
+   "Tumores hipofisiarios",
+   "FSH, estradiol y prolactina"
+  ]
+ },
+ "endo-22": {
+  "codes": [
+   "1.03.1.013"
+  ],
+  "names": [
+   "Tumores hipofisiarios"
+  ],
+  "nota": "Acromegalia sin código propio; tumores hipofisiarios"
+ },
+ "endo-23": {
+  "codes": [
+   "1.03.1.014",
+   "1.03.1.012"
+  ],
+  "names": [
+   "Hipopituitarismo",
+   "Hipogonadismo masculino"
+  ]
+ },
+ "endo-24": {
+  "codes": [
+   "1.03.1.015",
+   "1.03.1.017",
+   "1.09.1.007"
+  ],
+  "names": [
+   "Diabetes insípida",
+   "Síndrome de secreción inapropiada de ADH",
+   "Hipernatremia, poliuria"
+  ],
+  "nota": "MEN sin código propio"
+ },
+ "endo-25": {
+  "codes": [
+   "1.03.1.023"
+  ],
+  "names": [
+   "Ginecomastia"
+  ],
+  "nota": "tema nuevo (hueco V3, 18-oct-2026); clase endo-25 por crear"
+ },
+ "gastro-01": {
+  "codes": [
+   "1.06.1.027",
+   "1.06.4.007"
+  ],
+  "names": [
+   "Reflujo gastroesofágico",
+   "Endoscopía digestiva alta y baja"
+  ]
+ },
+ "gastro-02": {
+  "codes": [
+   "1.06.1.030",
+   "1.06.1.014",
+   "1.06.4.007",
+   "4.01.5.012",
+   "1.06.3.005"
+  ],
+  "names": [
+   "Úlcera péptica",
+   "Dispepsia",
+   "Endoscopía digestiva alta y baja",
+   "Endoscopía digestiva alta",
+   "Antiinflamatorios no esteroidales y tracto gastrontestinal"
+  ]
+ },
+ "gastro-03": {
+  "codes": [
+   "1.06.1.013",
+   "4.01.1.004",
+   "4.01.1.005",
+   "4.01.1.002",
+   "1.06.4.002",
+   "6.03.1.032"
+  ],
+  "names": [
+   "Disfagia",
+   "Acalasia",
+   "Cáncer del esofágo",
+   "Divertículos esofágicos",
+   "Tránsito esófago-estómago-duodeno",
+   "Trastorno de deglución"
+  ]
+ },
+ "gastro-04": {
+  "codes": [
+   "1.06.1.030",
+   "4.01.2.019",
+   "4.01.2.001",
+   "4.01.2.003",
+   "4.01.4.008"
+  ],
+  "names": [
+   "Úlcera péptica",
+   "Perforación esofágica - Mediastinitis",
+   "Esofagitis cáustica",
+   "Peritonitis",
+   "Radiografías contrastadas (EED, trànsito intestinal, enema baritada y pielografía)."
+  ],
+  "nota": "Sin código de úlcera perforada; úlcera péptica + peritonitis"
+ },
+ "gastro-05": {
+  "codes": [
+   "1.06.1.004",
+   "4.01.1.005",
+   "1.06.3.003",
+   "4.01.1.007",
+   "4.01.1.008",
+   "4.01.3.013"
+  ],
+  "names": [
+   "Cáncer gástrico",
+   "Cáncer del esofágo",
+   "Epidemiología de los cánceres digestivos",
+   "Tumores gástricos benignos",
+   "Cáncer gástrico",
+   "Epidemiología del cáncer."
+  ]
+ },
+ "gastro-06": {
+  "codes": [
+   "4.01.1.006",
+   "4.01.1.040",
+   "4.01.1.041"
+  ],
+  "names": [
+   "Hernia hiatal",
+   "Hernias diafragmáticas traumáticas y congénitas",
+   "Síndromes mediastínicos"
+  ]
+ },
+ "gastro-07": {
+  "codes": [
+   "1.06.1.008"
+  ],
+  "names": [
+   "Trastornos digestivos funcionales"
+  ]
+ },
+ "gastro-08": {
+  "codes": [
+   "1.06.2.005",
+   "1.06.1.011",
+   "1.06.1.009",
+   "1.04.1.009",
+   "1.04.1.022",
+   "1.06.1.010",
+   "1.06.4.014",
+   "1.07.1.002"
+  ],
+  "names": [
+   "Diarrea aguda",
+   "Diarrea crónica",
+   "Constipación",
+   "Diarrea asociada a antibióticos",
+   "Parasitosis intestinales",
+   "Diarrea asociada a antibióticos",
+   "Determinación toxina C difficile en deposiciones",
+   "Constipación y fecalomas"
+  ]
+ },
+ "gastro-09": {
+  "codes": [
+   "1.06.1.015",
+   "1.06.1.028",
+   "1.06.1.023",
+   "1.06.4.013",
+   "2.01.1.048",
+   "1.06.3.002"
+  ],
+  "names": [
+   "Enfermedad celiaca",
+   "Síndrome de malabsorción",
+   "Intolerancia a la lactosa",
+   "Laboratorio inicial de síndrome de malabsorción",
+   "Síndrome malabsorción",
+   "Manejo dietético en enfermos digestivos"
+  ]
+ },
+ "gastro-10": {
+  "codes": [
+   "1.06.1.018",
+   "1.06.4.007",
+   "4.01.3.015"
+  ],
+  "names": [
+   "Enfermedad inflamatoria intestinal",
+   "Endoscopía digestiva alta y baja",
+   "Ileostomías"
+  ]
+ },
+ "gastro-11": {
+  "codes": [
+   "1.06.1.029",
+   "4.01.1.014",
+   "4.01.1.015",
+   "1.06.3.004",
+   "4.01.5.006",
+   "1.06.4.009"
+  ],
+  "names": [
+   "Tumores de colon",
+   "Pólipos de colon y recto",
+   "Cáncer colorectal",
+   "Métodos de tamizaje para cáncer de colon y hepatocarcinoma",
+   "Colonoscopía",
+   "Sangre oculta en deposiciones"
+  ]
+ },
+ "gastro-12": {
+  "codes": [
+   "4.01.1.016",
+   "4.01.1.017",
+   "4.01.1.020"
+  ],
+  "names": [
+   "Hemorroides - fisura anal",
+   "Abscesos y fístulas ano rectales",
+   "Fisura anorectal"
+  ]
+ },
+ "gastro-13": {
+  "codes": [
+   "1.06.1.007",
+   "4.01.1.026",
+   "1.06.1.002",
+   "1.06.4.006",
+   "4.01.1.030",
+   "4.01.1.031",
+   "4.01.4.012",
+   "1.01.4.012",
+   "1.06.4.010"
+  ],
+  "names": [
+   "Colestasia",
+   "Ictericia obstructiva",
+   "Cáncer de páncreas",
+   "Ecotomografía abdominal",
+   "Cáncer de páncreas y otros tumores preampulares",
+   "Cáncer de páncreas",
+   "Hemograma, perfil bioquímico, pefil hepático.",
+   "Perfil bioquímico",
+   "Estudio de perfil hepático"
+  ]
+ },
+ "gastro-14": {
+  "codes": [
+   "1.06.1.019",
+   "1.06.1.020",
+   "1.06.1.021",
+   "1.06.4.012",
+   "2.01.1.010",
+   "2.01.1.045",
+   "1.02.4.002",
+   "1.02.4.011",
+   "1.06.2.008",
+   "1.06.2.009",
+   "1.06.3.006",
+   "1.06.4.008"
+  ],
+  "names": [
+   "Hepatitis aguda A no complicada",
+   "Hepatitis agudas B, C, por otros virus, por drogas y tóxicas",
+   "Hepatitis crónica",
+   "Estudio de marcadores virales para hepatitis A, B y C",
+   "Hepatitis viral",
+   "Insuficiencia hepática aguda",
+   "Ecotomografia abdominal",
+   "Estudio funcional hepático",
+   "Hepatitis aguda A complicada",
+   "Insuficiencia hepática aguda",
+   "Esteatopatía no alcohólica",
+   "Biopsia hepática"
+  ]
+ },
+ "gastro-15": {
+  "codes": [
+   "1.06.1.005",
+   "1.06.1.001",
+   "1.06.2.011",
+   "1.06.2.006",
+   "4.01.3.009",
+   "4.01.5.025",
+   "1.02.3.010",
+   "1.06.1.022",
+   "1.06.4.011",
+   "1.06.5.001",
+   "1.10.2.006"
+  ],
+  "names": [
+   "Cirrosis hepática",
+   "Ascitis",
+   "Peritonitis bacteriana espontánea del cirrótico",
+   "Encefalopatía hepática",
+   "Conceptos generales de hipertensión portal",
+   "Paracentesis",
+   "Regímenes dietéticos fundamentales",
+   "Insuficiencia hepática crónica",
+   "Estudio de función hepática",
+   "Paracentesis",
+   "Encefalopatías tóxico metabólicas (urémica, hepática, etc)"
+  ]
+ },
+ "gastro-16": {
+  "codes": [
+   "1.06.1.024",
+   "4.01.1.023",
+   "4.01.1.022",
+   "1.06.1.003",
+   "4.01.1.024",
+   "4.01.1.028",
+   "1.08.5.003"
+  ],
+  "names": [
+   "Masa hepática",
+   "Quistes y abscesos hepáticos",
+   "Hidatidosis hepática",
+   "Cáncer de vesícula y vías biliares",
+   "Tumores hepáticos",
+   "Cáncer de vesícula y vías biliares",
+   "Biopsia hepática"
+  ],
+  "nota": "Pólipos vesiculares sin código propio; cáncer de vesícula"
+ },
+ "gastro-17": {
+  "codes": [
+   "1.06.1.006",
+   "1.06.2.004",
+   "1.06.2.003",
+   "1.06.4.004",
+   "4.01.2.012",
+   "1.06.4.015"
+  ],
+  "names": [
+   "Colelitiasis",
+   "Colecistitis aguda",
+   "Colangitis",
+   "Colangiografía endoscópica",
+   "Colangitis",
+   "Colangiografía por resonancia magnética"
+  ]
+ },
+ "gastro-18": {
+  "codes": [
+   "1.06.2.010",
+   "1.06.4.005",
+   "4.01.1.029",
+   "4.01.2.013",
+   "4.01.3.001",
+   "1.06.1.025"
+  ],
+  "names": [
+   "Pancreatitis aguda",
+   "TAC abdominal",
+   "Pancreatitis crónica",
+   "Pancreatitis aguda",
+   "Alimentación en enfermedades digestivas",
+   "Pancreatitis crónica"
+  ]
+ },
+ "gastro-19": {
+  "codes": [
+   "1.06.2.001",
+   "4.01.2.006",
+   "1.06.1.016"
+  ],
+  "names": [
+   "Abdomen agudo",
+   "Apendicitis aguda",
+   "Enfermedad diverticular complicada"
+  ]
+ },
+ "gastro-20": {
+  "codes": [
+   "4.01.2.007",
+   "1.06.2.001",
+   "1.07.2.001"
+  ],
+  "names": [
+   "Isquemia mesentérica aguda",
+   "Abdomen agudo",
+   "Abdomen agudo en adulto mayor"
+  ]
+ },
+ "gastro-21": {
+  "codes": [
+   "1.06.2.007",
+   "1.06.4.007",
+   "4.01.1.009",
+   "4.01.2.004",
+   "2.01.1.043",
+   "2.01.2.010"
+  ],
+  "names": [
+   "Hemorragia digestiva alta y baja",
+   "Endoscopía digestiva alta y baja",
+   "Tumores del intestino delgado",
+   "Hemorragia digestiva alta",
+   "Hemorragia digestiva",
+   "Hemorragia digestiva"
+  ]
+ },
+ "gastro-22": {
+  "codes": [
+   "6.03.2.008",
+   "1.06.2.002"
+  ],
+  "names": [
+   "Cuerpo extraño en el esófago",
+   "Afagia aguda"
+  ]
+ },
+ "gastro-23": {
+  "codes": [
+   "2.01.1.039",
+   "2.01.1.040",
+   "2.01.2.006",
+   "2.01.1.042",
+   "2.01.1.007",
+   "2.01.4.017",
+   "1.04.4.011",
+   "1.06.1.026"
+  ],
+  "names": [
+   "Diarrea aguda y en vías de prolongación",
+   "Diarrea crónica",
+   "Deshidratación",
+   "Fibrosis quística",
+   "Enteroparasitosis",
+   "Parasitológico de deposiciones",
+   "Parasitológico de deposiciones",
+   "Parasitosis intestinales"
+  ]
+ },
+ "gastro-24": {
+  "codes": [
+   "2.01.1.046",
+   "2.01.1.041",
+   "2.01.1.038",
+   "5.01.1.027",
+   "5.01.1.032",
+   "2.01.5.007"
+  ],
+  "names": [
+   "Displasia broncopulmonar / Reflujo gastroesofágico y vómitos del lactante (código repetido en el Perfil oficial)",
+   "Dolor abdominal recurrente",
+   "Constipación",
+   "Encopresis",
+   "Trastorno somatización en niños",
+   "Proctoclisis"
+  ],
+  "nota": "Estenosis hipertrófica del píloro sin código propio"
+ },
+ "gastro-25": {
+  "codes": [
+   "2.01.1.116",
+   "2.01.2.019",
+   "4.01.1.003",
+   "2.01.1.133",
+   "4.01.1.012",
+   "2.01.4.002",
+   "2.01.4.009",
+   "1.06.4.003"
+  ],
+  "names": [
+   "Enterocolitis necrotizante (ECN)",
+   "Obstrucción intestinal",
+   "Divertículo de Meckel",
+   "Malformaciones congénitas más frecuentes",
+   "Megacolon",
+   "Radiografía de abdomen simple",
+   "Radiografía esófago- estómago- duodeno",
+   "Enema barritada"
+  ],
+  "nota": "Invaginación sin código; obstrucción intestinal pediátrica"
+ },
+ "gastro-26": {
+  "codes": [
+   "4.01.2.010",
+   "4.01.2.016",
+   "1.05.2.011"
+  ],
+  "names": [
+   "Trauma abdominal abierto y cerrado",
+   "Traumatismo torácico grave",
+   "Neumotórax hipertensivo"
+  ]
+ },
+ "gin-01": {
+  "codes": [
+   "3.01.1.012",
+   "1.03.1.010",
+   "1.03.1.016",
+   "1.03.4.008",
+   "3.01.3.011",
+   "1.03.3.001"
+  ],
+  "names": [
+   "Amenorrea",
+   "Amenorrea",
+   "Hiperprolactinemia",
+   "FSH, estradiol y prolactina",
+   "Pubertad (adolescencia)",
+   "Pubertad normal"
+  ]
+ },
+ "gin-02": {
+  "codes": [
+   "3.01.3.015",
+   "3.01.1.022",
+   "1.03.1.008"
+  ],
+  "names": [
+   "Síndrome de ovario poliquístico",
+   "Oligoanovulación crónica",
+   "Hirsutismo"
+  ]
+ },
+ "gin-03": {
+  "codes": [
+   "3.01.1.018",
+   "3.01.2.008",
+   "3.01.1.023",
+   "2.01.1.129"
+  ],
+  "names": [
+   "Hemorragia genital anormal",
+   "Hemorragia genital aguda (metrorragia disfuncional-cervicorragia por Cáncer C.U.)",
+   "Patología benigna del endometrio (hiperplasia, pólipos…)",
+   "Alteraciones menstruales"
+  ]
+ },
+ "gin-04": {
+  "codes": [
+   "3.01.1.021",
+   "1.09.5.006"
+  ],
+  "names": [
+   "Mioma uterino",
+   "Tacto ginecológico para masas u alteraciones obstructivas"
+  ],
+  "nota": "Adenomiosis sin código propio"
+ },
+ "gin-05": {
+  "codes": [
+   "3.01.1.015",
+   "3.01.1.014"
+  ],
+  "names": [
+   "Endometriosis",
+   "Dolor pelviano y dismenorrea"
+  ]
+ },
+ "gin-06": {
+  "codes": [
+   "3.01.1.026",
+   "3.01.1.032"
+  ],
+  "names": [
+   "Prolapso genital",
+   "Incontinencia urinaria"
+  ]
+ },
+ "gin-07": {
+  "codes": [
+   "3.01.1.020",
+   "3.01.4.001",
+   "4.03.1.017",
+   "1.03.4.009"
+  ],
+  "names": [
+   "Infertilidad conyugal",
+   "Histerosalpingografía",
+   "Infertilidad masculina",
+   "LH, testosterona"
+  ]
+ },
+ "gin-08": {
+  "codes": [
+   "3.01.3.008",
+   "3.01.3.006"
+  ],
+  "names": [
+   "Anticoncepción",
+   "Métodos naturales para la regulación de la fecundidad"
+  ]
+ },
+ "gin-09": {
+  "codes": [
+   "3.01.1.019",
+   "3.01.1.017",
+   "3.01.5.008",
+   "3.01.5.007",
+   "2.01.1.106",
+   "2.01.1.130"
+  ],
+  "names": [
+   "Infecciones genitourinarias",
+   "Enfermedades de transmisión sexual",
+   "Flujo vaginal (pH)",
+   "Examen ginecológico, especuloscopia y tacto bimanual",
+   "Candidiasis urogenital",
+   "Leucorrea y vulvovaginitis"
+  ]
+ },
+ "gin-10": {
+  "codes": [
+   "3.01.2.002",
+   "3.01.5.004"
+  ],
+  "names": [
+   "Absceso glándula de Bartolino",
+   "Drenaje abceso glándula Bartolino"
+  ],
+  "nota": "Liquen escleroso sin código"
+ },
+ "gin-11": {
+  "codes": [
+   "3.01.1.025",
+   "3.01.2.018"
+  ],
+  "names": [
+   "Proceso inflamatorio pelviano",
+   "Pelviperitonitis"
+  ]
+ },
+ "gin-12": {
+  "codes": [
+   "3.01.1.027",
+   "3.01.3.005",
+   "1.03.1.011",
+   "1.07.3.010"
+  ],
+  "names": [
+   "Síndrome climatérico y menopausia",
+   "Manejo de la salud de la mujer climatérica",
+   "Síndrome climatérico",
+   "Sexualidad en personas mayores"
+  ]
+ },
+ "gin-13": {
+  "codes": [
+   "3.01.1.013",
+   "3.01.1.016",
+   "3.01.3.013",
+   "3.01.4.007",
+   "3.01.5.013",
+   "3.01.5.014"
+  ],
+  "names": [
+   "Cáncer cervicouterino",
+   "Enfermedad preinvasora del cuello uterino-Lesiones genitales intraepiteliales (NIE-HPV)",
+   "Screening ginecológico: Papanicolau, mamografía",
+   "Papanicolau",
+   "Taponaje vaginal",
+   "Toma de Papanicolau (incluye hacer el frotis)"
+  ]
+ },
+ "gin-14": {
+  "codes": [
+   "3.01.1.030",
+   "3.01.1.029",
+   "3.01.4.002",
+   "3.01.3.013",
+   "3.01.4.006",
+   "4.01.1.035",
+   "4.01.1.036",
+   "4.01.3.012",
+   "4.01.4.009"
+  ],
+  "names": [
+   "Cáncer de mama",
+   "Patología benigna de mama",
+   "Mamografía",
+   "Screening ginecológico: Papanicolau, mamografía",
+   "Ecotomografía mamaria",
+   "Cáncer de mama",
+   "Patología mamaria benigna",
+   "Diagnóstico precoz del cáncer mamario",
+   "Mamografía"
+  ]
+ },
+ "gin-15": {
+  "codes": [
+   "3.01.1.024",
+   "3.01.1.028",
+   "3.01.4.005",
+   "1.08.3.002"
+  ],
+  "names": [
+   "Patología maligna del endometrio",
+   "Tumores ováricos",
+   "Ecotomografía ginecológica",
+   "Conceptos generales de etapificación, radioterapia y quimioterapia"
+  ]
+ },
+ "gin-16": {
+  "codes": [
+   "3.01.2.019",
+   "3.01.2.016"
+  ],
+  "names": [
+   "Quiste ovárico torcido",
+   "Dolor pélvico agudo"
+  ]
+ },
+ "hem-01": {
+  "codes": [
+   "1.08.4.008"
+  ],
+  "names": [
+   "Hemograma"
+  ],
+  "nota": "Sin código general de síndrome anémico; hemograma"
+ },
+ "hem-02": {
+  "codes": [
+   "1.08.1.002",
+   "1.08.1.001"
+  ],
+  "names": [
+   "Anemia ferropénica",
+   "Anemia de las enfermedades crónicas"
+  ]
+ },
+ "hem-03": {
+  "codes": [
+   "1.08.1.002",
+   "2.01.1.031"
+  ],
+  "names": [
+   "Anemia ferropénica",
+   "Anemia ferropriva"
+  ]
+ },
+ "hem-04": {
+  "codes": [
+   "1.08.1.001",
+   "1.09.1.004"
+  ],
+  "names": [
+   "Anemia de las enfermedades crónicas",
+   "Anemia en nefrópata"
+  ]
+ },
+ "hem-05": {
+  "codes": [
+   "1.08.1.008",
+   "1.08.3.003",
+   "1.08.4.003",
+   "1.08.5.001"
+  ],
+  "names": [
+   "Hipofunción medular",
+   "Efectos mielotóxicos de drogas y medicamentos",
+   "Biopsia de médula ósea",
+   "Biopsia de médula ósea"
+  ]
+ },
+ "hem-06": {
+  "codes": [
+   "1.08.1.004",
+   "1.08.3.001",
+   "1.10.1.023"
+  ],
+  "names": [
+   "Anemia megaloblástica",
+   "Alcoholismo y asociación con carencias nutricionales",
+   "Síndromes sensitivos (polineuropatía, hemihipoestesia, dolor talámico, etc)"
+  ]
+ },
+ "hem-07": {
+  "codes": [
+   "1.08.1.003",
+   "1.08.4.010"
+  ],
+  "names": [
+   "Anemia hemolítica",
+   "Pruebas de hemólisis"
+  ]
+ },
+ "hem-08": {
+  "codes": [
+   "1.08.1.003",
+   "1.08.4.010"
+  ],
+  "names": [
+   "Anemia hemolítica",
+   "Pruebas de hemólisis"
+  ]
+ },
+ "hem-09": {
+  "codes": [
+   "1.08.1.003"
+  ],
+  "names": [
+   "Anemia hemolítica"
+  ],
+  "nota": "Talasemias sin código propio; anemia hemolítica"
+ },
+ "hem-10": {
+  "codes": [
+   "1.08.1.012",
+   "2.01.1.067",
+   "1.08.1.003"
+  ],
+  "names": [
+   "Púrpuras trombopénicos",
+   "Síndrome hemolítico urémico",
+   "Anemia hemolítica"
+  ]
+ },
+ "hem-11": {
+  "codes": [
+   "1.08.4.005",
+   "1.08.4.007",
+   "4.01.4.013",
+   "2.01.4.021"
+  ],
+  "names": [
+   "Estudio de coagulopatías",
+   "Estudio de trombopatías",
+   "Pruebas de coagulación",
+   "Pruebas de coagulación"
+  ]
+ },
+ "hem-12": {
+  "codes": [
+   "1.08.1.012",
+   "1.08.2.009",
+   "2.01.1.035"
+  ],
+  "names": [
+   "Púrpuras trombopénicos",
+   "Trombopenia severa",
+   "Síndrome purpúrico"
+  ]
+ },
+ "hem-13": {
+  "codes": [
+   "1.08.1.006",
+   "1.08.2.003",
+   "1.08.4.005",
+   "2.01.1.036"
+  ],
+  "names": [
+   "Coagulopatías congénitas (hemofilias, von Willebrand)",
+   "Coagulopatía congénita sangrante",
+   "Estudio de coagulopatías",
+   "Trastornos coagulación"
+  ]
+ },
+ "hem-14": {
+  "codes": [
+   "1.08.1.005",
+   "1.08.2.002",
+   "1.08.3.012",
+   "1.08.3.006"
+  ],
+  "names": [
+   "Coagulopatías adquiridas",
+   "Coagulopatía adquirida",
+   "Tratamiento anticoagulante",
+   "Interacción de drogas y anticoagulantes orales"
+  ]
+ },
+ "hem-15": {
+  "codes": [
+   "1.08.2.001",
+   "1.08.3.005"
+  ],
+  "names": [
+   "Coagulación intravascular diseminada",
+   "Indicaciones de uso de componentes sanguíneos"
+  ]
+ },
+ "hem-16": {
+  "codes": [
+   "1.08.1.009",
+   "1.08.4.009",
+   "2.01.1.032",
+   "1.08.5.005",
+   "1.08.5.008"
+  ],
+  "names": [
+   "Leucemias agudas",
+   "Mielograma",
+   "Leucemias",
+   "Mielograma",
+   "Quimioterapia intratecal"
+  ]
+ },
+ "hem-17": {
+  "codes": [
+   "1.08.1.010",
+   "1.08.1.014"
+  ],
+  "names": [
+   "Leucemias crónicas",
+   "Reacción leucemoide"
+  ]
+ },
+ "hem-18": {
+  "codes": [
+   "1.08.1.011",
+   "1.08.5.002",
+   "2.01.1.033",
+   "1.08.4.001",
+   "6.01.1.014"
+  ],
+  "names": [
+   "Linfomas",
+   "Biopsia ganglionar",
+   "Linfomas",
+   "Radiografía de tórax",
+   "Linfomas cutáneos"
+  ]
+ },
+ "hem-19": {
+  "codes": [
+   "1.08.1.007",
+   "1.08.4.004"
+  ],
+  "names": [
+   "Disproteinemias (gammapatías M)",
+   "Electroforesis de proteínas"
+  ]
+ },
+ "hem-20": {
+  "codes": [
+   "1.08.1.018",
+   "1.08.1.017",
+   "1.08.1.015"
+  ],
+  "names": [
+   "Síndromes mieloproliferativos crónicos",
+   "Síndromes mielodisplásicos",
+   "Síndrome leucoeritroblástico"
+  ]
+ },
+ "hem-21": {
+  "codes": [
+   "1.08.2.006",
+   "1.04.1.020"
+  ],
+  "names": [
+   "Neutropenia febril",
+   "Neutropenia febril"
+  ]
+ },
+ "hem-22": {
+  "codes": [
+   "1.08.2.005",
+   "1.08.2.004",
+   "1.08.2.007",
+   "1.10.2.011"
+  ],
+  "names": [
+   "Lisis tumoral aguda",
+   "Hipercalcemia",
+   "Síndrome de compresión medular",
+   "Paraplejia aguda"
+  ]
+ },
+ "hem-23": {
+  "codes": [
+   "1.08.1.019",
+   "1.11.1.021",
+   "1.08.4.006",
+   "1.08.3.012"
+  ],
+  "names": [
+   "Trombofilias",
+   "Síndrome antifosfolípidos",
+   "Estudio de trombofilia",
+   "Tratamiento anticoagulante"
+  ]
+ },
+ "hem-24": {
+  "codes": [
+   "1.08.3.005",
+   "1.08.3.011"
+  ],
+  "names": [
+   "Indicaciones de uso de componentes sanguíneos",
+   "Transfusión y sus complicaciones"
+  ]
+ },
+ "infecto-01": {
+  "codes": [
+   "1.04.2.007",
+   "4.01.2.029",
+   "2.01.2.023",
+   "1.04.4.009",
+   "1.07.3.001"
+  ],
+  "names": [
+   "Sepsis y shock séptico",
+   "Septicemia",
+   "Shock",
+   "Hemocultivo",
+   "Alteración de la termoregulación"
+  ]
+ },
+ "infecto-02": {
+  "codes": [
+   "1.04.2.006",
+   "1.04.4.006",
+   "1.04.5.002",
+   "2.01.2.015",
+   "2.01.2.016",
+   "1.04.5.003",
+   "1.08.5.006",
+   "1.10.2.016"
+  ],
+  "names": [
+   "Meningitis aguda",
+   "Estudio citoquímico de LCR",
+   "Punción lumbar",
+   "Meningitis bacteriana",
+   "Meningococcemia",
+   "Sembrar muestras para cultivo",
+   "Punción lumbar",
+   "Síndromes meníngeos con meningitis purulenta o bacteriana"
+  ]
+ },
+ "infecto-03": {
+  "codes": [
+   "1.04.2.002",
+   "1.10.2.014",
+   "1.04.2.001",
+   "2.01.1.015"
+  ],
+  "names": [
+   "Encefalitis aguda",
+   "Síndrome encefalítico (Herpes Simplex)",
+   "Absceso cerebral",
+   "Meningoencefalitis/ Meningitis bacteriana aguda"
+  ]
+ },
+ "infecto-04": {
+  "codes": [
+   "1.04.2.005",
+   "1.04.2.004",
+   "1.04.1.001",
+   "6.01.2.005"
+  ],
+  "names": [
+   "Infección invasiva de partes blandas: celulitis, fasceitis, miositis necrotizantes o septicémicas",
+   "Flegmón submaxilar, submandibular y del piso de la boca",
+   "Adenitis, adenoflegmón",
+   "Fasceitis necrotizante"
+  ]
+ },
+ "infecto-05": {
+  "codes": [
+   "1.04.3.009",
+   "1.04.3.010",
+   "1.04.3.001",
+   "1.05.4.011",
+   "1.08.5.007"
+  ],
+  "names": [
+   "Profilaxis de tuberculosis",
+   "Profilaxis en contactos de infecciones meningocócicas",
+   "Manejo y prevención de infecciones en personal sanitario",
+   "PPD",
+   "Punción venosa"
+  ]
+ },
+ "infecto-06": {
+  "codes": [
+   "1.04.2.009",
+   "1.04.3.008",
+   "1.04.3.002",
+   "1.04.3.012"
+  ],
+  "names": [
+   "Tétanos",
+   "Profilaxis de tétanos",
+   "Mordeduras de animales",
+   "Vacunas especiales (neumococo, influenza, hepatitis A y B, varicela, rabia, meningococo)"
+  ]
+ },
+ "infecto-07": {
+  "codes": [
+   "1.04.1.015",
+   "1.04.3.005",
+   "1.01.5.003",
+   "1.04.3.011",
+   "1.08.5.004",
+   "1.09.5.004"
+  ],
+  "names": [
+   "Infecciones asociadas a catéteres vasculares",
+   "Prevención de infecciones hospitalarias",
+   "Cateterismo venoso central",
+   "Uso y abuso de antibióticos",
+   "Cateterismo venoso central",
+   "Instalación y cuidado de sonda Foley"
+  ]
+ },
+ "infecto-08": {
+  "codes": [
+   "1.04.1.026",
+   "1.04.1.007",
+   "1.04.3.004"
+  ],
+  "names": [
+   "Toxicoinfección alimentaria",
+   "Cólera",
+   "Prevención de enfermedades entéricas"
+  ],
+  "nota": "Botulismo sin código propio"
+ },
+ "infecto-09": {
+  "codes": [
+   "1.04.1.014",
+   "3.01.1.031",
+   "2.01.1.012"
+  ],
+  "names": [
+   "Infección por virus de inmunodeficiencia humana (SIDA)",
+   "VIH en ginecobstetricia",
+   "Infecciones por HIV"
+  ]
+ },
+ "infecto-10": {
+  "codes": [
+   "1.04.1.014",
+   "1.05.1.029",
+   "1.04.3.006",
+   "1.04.1.005",
+   "1.04.4.004",
+   "1.06.1.012",
+   "1.08.3.010",
+   "1.04.4.001"
+  ],
+  "names": [
+   "Infección por virus de inmunodeficiencia humana (SIDA)",
+   "Neumonías en inmunosuprimidos",
+   "Prevención de infecciones oportunistas en VIH (+)",
+   "Candidiasis oral y esofágica",
+   "Deteccción de antígeno de Cryptococcus en LCR y test de tinta china",
+   "Diarrea en inmunosuprimidos",
+   "Prevención de infecciones con énfasis en inmunosuprimidos",
+   "Antigenemia"
+  ]
+ },
+ "infecto-11": {
+  "codes": [
+   "1.04.1.028",
+   "1.05.1.036",
+   "1.05.1.013",
+   "1.05.1.037",
+   "4.03.1.016"
+  ],
+  "names": [
+   "Tuberculosis extrapulmonar",
+   "Tuberculosis pulmonar",
+   "Derrame pleural por tuberculosis",
+   "Tuberculosis pulmonar (fracaso de tratamiento)",
+   "Infección urinaria específica"
+  ]
+ },
+ "infecto-12": {
+  "codes": [
+   "1.04.1.023",
+   "1.04.1.010",
+   "1.04.4.016",
+   "6.01.1.008",
+   "6.01.2.012",
+   "6.01.4.007"
+  ],
+  "names": [
+   "Sífilis secundaria, terciaria y congénita",
+   "Enfermedades de transmisión sexual",
+   "Serología de enfermedades infecciosas",
+   "Enfermedades de transmisión sexual",
+   "Sífilis congénita",
+   "VDRL - MHATP"
+  ]
+ },
+ "infecto-13": {
+  "codes": [
+   "1.04.1.010",
+   "4.01.1.058",
+   "3.01.3.010",
+   "1.04.3.003",
+   "1.04.5.004",
+   "4.03.3.004"
+  ],
+  "names": [
+   "Enfermedades de transmisión sexual",
+   "Condilomas",
+   "Prevención de enfermedades de transmisión sexual",
+   "Prevención de enfermedades de transmisión sexual",
+   "Tinción de Gram",
+   "Factores de riesgo y prevención de ETS"
+  ]
+ },
+ "infecto-14": {
+  "codes": [
+   "1.04.2.008"
+  ],
+  "names": [
+   "Síndrome pulmonar por Hanta Virus"
+  ]
+ },
+ "infecto-15": {
+  "codes": [
+   "1.04.4.016",
+   "1.01.1.020"
+  ],
+  "names": [
+   "Serología de enfermedades infecciosas",
+   "Miocardiopatías"
+  ],
+  "nota": "No existe código Chagas; serología y miocardiopatías aproximan"
+ },
+ "infecto-16": {
+  "codes": [
+   "1.04.1.008",
+   "1.04.1.018"
+  ],
+  "names": [
+   "Dengue",
+   "Malaria"
+  ],
+  "nota": "Fiebre amarilla sin código propio"
+ },
+ "infecto-17": {
+  "codes": [
+   "1.04.1.013",
+   "1.04.1.027",
+   "4.01.1.037",
+   "1.05.1.020"
+  ],
+  "names": [
+   "Hidatidosis",
+   "Triquinosis",
+   "Hidatidosis pulmonar",
+   "Hidatidosis pulmonar"
+  ]
+ },
+ "infecto-18": {
+  "codes": [
+   "1.04.1.004",
+   "1.04.1.017",
+   "1.04.1.012",
+   "2.01.1.013"
+  ],
+  "names": [
+   "Brucelosis",
+   "Leptospirosis",
+   "Fiebre tifoídea y paratifoídea",
+   "Infecciones por Salmonella"
+  ]
+ },
+ "infecto-19": {
+  "codes": [
+   "1.04.1.003"
+  ],
+  "names": [
+   "Ántrax"
+  ]
+ },
+ "infecto-20": {
+  "codes": [
+   "1.04.1.006",
+   "6.01.2.003",
+   "4.01.1.055",
+   "2.01.1.011",
+   "1.04.5.001",
+   "6.01.1.021",
+   "6.01.2.002",
+   "6.01.4.003"
+  ],
+  "names": [
+   "Celulitis bacteriana",
+   "Erisipela / Celulitis",
+   "Abscesos, forúnculos, panadizos, flegmones",
+   "Infecciones de piel y partes blandas",
+   "Drenaje de abscesos superficiales",
+   "Piodermias superficiales y profundas (no linfáticas)",
+   "Ántrax",
+   "Gram y cultivo"
+  ]
+ },
+ "infecto-21": {
+  "codes": [
+   "1.04.1.025",
+   "2.01.1.016",
+   "2.01.1.127",
+   "2.01.1.018",
+   "2.01.1.030",
+   "1.04.4.010"
+  ],
+  "names": [
+   "Síndrome mononucleósico",
+   "Mononucleosis infecciosa",
+   "TORCH",
+   "Síndrome febril prolongado",
+   "Adenopatías",
+   "Hemograma y velocidad de hemosedimentación (VHS)"
+  ]
+ },
+ "infecto-22": {
+  "codes": [
+   "2.01.1.009",
+   "2.01.1.008",
+   "2.01.1.058"
+  ],
+  "names": [
+   "Exantemas virales",
+   "Escarlatina",
+   "Vasculitis: PSH, Kawasaki, otros"
+  ]
+ },
+ "infecto-23": {
+  "codes": [
+   "1.04.1.011",
+   "1.04.2.010",
+   "6.01.2.007"
+  ],
+  "names": [
+   "Enfermedades eruptivas no complicadas (varicela, herpes zoster...)",
+   "Varicela complicada: neumonitis, cerebelitis, encefalitis",
+   "Herpes zoster"
+  ]
+ },
+ "infecto-24": {
+  "codes": [
+   "1.04.1.020",
+   "1.04.1.019",
+   "2.01.1.034",
+   "1.04.1.024"
+  ],
+  "names": [
+   "Neutropenia febril",
+   "Micosis invasora (aspergillosis, candidiasis, mucormicosis)",
+   "Neutropenia febril",
+   "Síndrome febril prolongado"
+  ]
+ },
+ "nefro-01": {
+  "codes": [
+   "1.09.2.010",
+   "1.09.2.004",
+   "1.09.2.009",
+   "1.09.4.016",
+   "2.01.1.063",
+   "1.09.4.014",
+   "4.03.4.006"
+  ],
+  "names": [
+   "Insuficiencia renal aguda prerrenal",
+   "Enfermedad tubular aguda",
+   "Insuficiencia renal aguda obstructiva",
+   "Sodio urinario",
+   "Insuficiencia renal aguda",
+   "Nitrogeno ureico (relación bun/creatinina",
+   "Ecografía renal (tamaño, asimetrías, hidronefrosis)"
+  ]
+ },
+ "nefro-02": {
+  "codes": [
+   "1.09.2.004",
+   "1.09.1.013",
+   "1.09.4.012"
+  ],
+  "names": [
+   "Enfermedad tubular aguda",
+   "Nefritis intersticial no infecciosa (aguda o crónica)",
+   "Examen de orina y sedimento urinario"
+  ]
+ },
+ "nefro-03": {
+  "codes": [
+   "1.09.1.023",
+   "1.09.3.004"
+  ],
+  "names": [
+   "Síndrome urémico",
+   "Diálisis y complicaciones"
+  ]
+ },
+ "nefro-04": {
+  "codes": [
+   "1.06.2.012",
+   "1.01.1.018"
+  ],
+  "names": [
+   "Síndrome hepatorrenal",
+   "Insuficiencia cardíaca"
+  ],
+  "nota": "Sin código de síndrome cardiorrenal; insuficiencia cardíaca"
+ },
+ "nefro-05": {
+  "codes": [
+   "1.09.2.007",
+   "1.09.1.010",
+   "1.09.4.016"
+  ],
+  "names": [
+   "Hiponatremia aguda grave",
+   "Hiponatremia crónica asintomática",
+   "Sodio urinario"
+  ]
+ },
+ "nefro-06": {
+  "codes": [
+   "1.09.1.010",
+   "1.09.2.007",
+   "1.09.4.016"
+  ],
+  "names": [
+   "Hiponatremia crónica asintomática",
+   "Hiponatremia aguda grave",
+   "Sodio urinario"
+  ],
+  "nota": "SIADH sin código propio"
+ },
+ "nefro-07": {
+  "codes": [
+   "1.09.1.007",
+   "1.03.1.015",
+   "2.01.1.071",
+   "2.01.4.013"
+  ],
+  "names": [
+   "Hipernatremia, poliuria",
+   "Diabetes insípida",
+   "Trastornos hidro-electrolíticos",
+   "Electrolitos plasmáticos"
+  ]
+ },
+ "nefro-08": {
+  "codes": [
+   "1.09.2.008",
+   "1.09.1.020",
+   "1.09.3.009"
+  ],
+  "names": [
+   "Hipovolemia",
+   "Edema generalizado (anasarca)",
+   "Terapia diurética"
+  ]
+ },
+ "nefro-09": {
+  "codes": [
+   "1.09.2.005",
+   "1.01.4.007",
+   "1.09.4.010"
+  ],
+  "names": [
+   "Hiperkalemia grave",
+   "Electrocardiograma",
+   "Electrolitos plasmáticos"
+  ]
+ },
+ "nefro-10": {
+  "codes": [
+   "1.09.2.006",
+   "1.09.4.010"
+  ],
+  "names": [
+   "Hipokalemia",
+   "Electrolitos plasmáticos"
+  ]
+ },
+ "nefro-11": {
+  "codes": [
+   "1.09.1.002",
+   "1.09.4.008",
+   "4.01.4.014",
+   "2.01.1.070"
+  ],
+  "names": [
+   "Acidosis metabólica",
+   "Anion gap",
+   "Gases arteriales y electrolitos plasmáticos",
+   "Trastornos del equilibrio ácido-base"
+  ]
+ },
+ "nefro-12": {
+  "codes": [
+   "1.09.1.003",
+   "1.05.4.010"
+  ],
+  "names": [
+   "Alcalosis metabólica",
+   "Gases en sangre arterial"
+  ]
+ },
+ "nefro-13": {
+  "codes": [
+   "1.09.1.022",
+   "1.09.4.015",
+   "2.01.1.066",
+   "2.01.1.069",
+   "1.02.4.022",
+   "1.09.1.018",
+   "1.09.2.003"
+  ],
+  "names": [
+   "Síndrome nefrótico",
+   "Proteinuria",
+   "Síndrome edematoso",
+   "Síndrome nefrótico",
+   "Proteiuniria 24 horas",
+   "Proteinuria",
+   "Edema generalizado grave (anasarca)"
+  ]
+ },
+ "nefro-14": {
+  "codes": [
+   "1.09.1.022"
+  ],
+  "names": [
+   "Síndrome nefrótico"
+  ]
+ },
+ "nefro-15": {
+  "codes": [
+   "1.09.1.021",
+   "1.09.4.012",
+   "2.01.1.068",
+   "2.01.2.007"
+  ],
+  "names": [
+   "Síndrome nefrítico",
+   "Examen de orina y sedimento urinario",
+   "Síndrome nefrítico",
+   "Emergencia hipertensiva"
+  ]
+ },
+ "nefro-16": {
+  "codes": [
+   "1.09.2.013",
+   "1.11.1.025"
+  ],
+  "names": [
+   "Vasculitis o glomerulonefritis rápidamente progresiva",
+   "Vasculitis sistémicas"
+  ]
+ },
+ "nefro-17": {
+  "codes": [
+   "1.09.1.006",
+   "1.11.1.014"
+  ],
+  "names": [
+   "Glomerulopatía lúpica",
+   "Lupus eritematoso sistémico"
+  ]
+ },
+ "nefro-18": {
+  "codes": [
+   "1.09.1.012",
+   "1.09.3.008",
+   "1.09.1.017",
+   "1.09.3.004",
+   "2.01.1.064",
+   "2.01.4.022",
+   "1.02.4.005",
+   "1.09.3.011",
+   "1.09.4.005",
+   "1.09.4.009",
+   "4.03.3.006"
+  ],
+  "names": [
+   "Insuficiencia renal crónica",
+   "Prevención de progresión de insuficiencia renal crónica",
+   "Progresión de la IRC",
+   "Diálisis y complicaciones",
+   "Insuficiencia renal crónica",
+   "Pruebas de función renal",
+   "Creatininemia",
+   "Trasplante renal, indicaciones y complicaciones",
+   "Ecografía renal (tamaño, asimetrías, hidronefrosis)",
+   "Clearence de creatinina",
+   "Trasplante renal, indicaciones y complicaciones"
+  ]
+ },
+ "nefro-19": {
+  "codes": [
+   "1.09.1.004",
+   "1.09.1.015",
+   "1.09.1.001",
+   "1.09.3.003"
+  ],
+  "names": [
+   "Anemia en nefrópata",
+   "Osteodistrofia en insuficiencia renal crónica",
+   "Acidosis e hiperkalemia en Insuficiencia renal crónica",
+   "Desnutrición en insuficiencia renal crónica"
+  ]
+ },
+ "nefro-20": {
+  "codes": [
+   "1.09.1.009",
+   "4.01.1.045",
+   "2.01.1.061",
+   "1.09.1.008",
+   "1.09.3.010",
+   "1.09.4.001",
+   "1.09.4.013"
+  ],
+  "names": [
+   "Hipertensión arterial secundaria",
+   "Enfermedad renovascular",
+   "Hipertensión arterial",
+   "Hipertensión arterial esencial",
+   "Tratamiento no medicamentoso de la hipertensión arterial",
+   "Angiografia renal",
+   "Holter de presión arterial: conocimientos básicos"
+  ]
+ },
+ "nefro-21": {
+  "codes": [
+   "1.09.1.016",
+   "1.09.2.011",
+   "1.09.4.017",
+   "1.02.4.014",
+   "1.02.4.025",
+   "1.09.1.005",
+   "1.09.1.011",
+   "1.09.3.006",
+   "4.03.1.015"
+  ],
+  "names": [
+   "Pielonefritis aguda no complicada",
+   "Pielonefritis aguda complicada",
+   "Urocultivo y antibiograma",
+   "Examen de orina semicuantitativa",
+   "Urocultivo y antibiograma",
+   "Bacteriuria asintomática",
+   "Infección urinaria baja (cistitis)",
+   "Higiene para prevención de infección urinaria",
+   "Infección urinaria alta y baja"
+  ]
+ },
+ "nefro-22": {
+  "codes": [
+   "1.09.3.001",
+   "1.09.3.007"
+  ],
+  "names": [
+   "Ajuste de fármacos según función renal",
+   "Nefrotoxicidad de medicamentos y renoprotección"
+  ]
+ },
+ "neuro-01": {
+  "codes": [
+   "1.10.2.007",
+   "1.10.4.001",
+   "1.10.3.002",
+   "1.07.1.006",
+   "1.10.1.004"
+  ],
+  "names": [
+   "Enfermedad cerebrovascular (isquémica, cardioembólica, hemorrágica, AVE, TIA, etc)",
+   "TAC de encefalo y columna",
+   "Prevención de factores de riesgo cerebrovascular",
+   "Enfermedad cerebro-vascular",
+   "Cuadros deficitarios de funciones cerebrales superiores (afasia, apraxia, agnosia, etc)"
+  ]
+ },
+ "neuro-02": {
+  "codes": [
+   "1.10.2.007",
+   "1.10.3.002",
+   "4.01.1.046",
+   "1.01.2.003"
+  ],
+  "names": [
+   "Enfermedad cerebrovascular (isquémica, cardioembólica, hemorrágica, AVE, TIA, etc)",
+   "Prevención de factores de riesgo cerebrovascular",
+   "Insuficiencia cerebro vascular",
+   "Embolia cardiogénica"
+  ]
+ },
+ "neuro-03": {
+  "codes": [
+   "1.10.2.007",
+   "1.10.2.009",
+   "1.10.4.001"
+  ],
+  "names": [
+   "Enfermedad cerebrovascular (isquémica, cardioembólica, hemorrágica, AVE, TIA, etc)",
+   "Hipertensión endocraneana",
+   "TAC de encefalo y columna"
+  ]
+ },
+ "neuro-04": {
+  "codes": [
+   "1.10.2.008",
+   "1.10.2.001",
+   "1.10.5.002",
+   "1.10.4.007",
+   "1.10.4.003",
+   "6.02.2.009"
+  ],
+  "names": [
+   "Hemorragia subaracnoídea",
+   "Cefalea aguda en urgencia",
+   "Punción lumbar",
+   "Examen de líquido cefaloraquídeo (citoquímico, bacteriológico)",
+   "Angiografía",
+   "Parálisis III par + midriasis"
+  ]
+ },
+ "neuro-05": {
+  "codes": [
+   "1.10.2.007",
+   "1.10.1.019",
+   "1.10.4.002"
+  ],
+  "names": [
+   "Enfermedad cerebrovascular (isquémica, cardioembólica, hemorrágica, AVE, TIA, etc)",
+   "Síndrome de hipertensión endocraneana",
+   "Resonancia magnética de encéfalo y columna"
+  ],
+  "nota": "No specific V3 code for cerebral venous thrombosis"
+ },
+ "neuro-06": {
+  "codes": [
+   "1.10.1.012",
+   "1.10.1.001",
+   "1.10.2.001",
+   "2.01.1.077",
+   "2.01.2.011",
+   "1.10.2.018"
+  ],
+  "names": [
+   "Migraña",
+   "Cefalea tensional",
+   "Cefalea aguda en urgencia",
+   "Cefalea",
+   "Hipertensión endocraneana",
+   "Status migrañoso"
+  ]
+ },
+ "neuro-07": {
+  "codes": [
+   "1.10.1.013"
+  ],
+  "names": [
+   "Neuralgia esencial del trigémino"
+  ],
+  "nota": "No V3 code for cluster headache"
+ },
+ "neuro-08": {
+  "codes": [
+   "1.10.1.007",
+   "1.10.4.005"
+  ],
+  "names": [
+   "Epilepsia",
+   "Electroencefalograma"
+  ]
+ },
+ "neuro-09": {
+  "codes": [
+   "1.10.2.017",
+   "1.10.2.003",
+   "2.01.2.027"
+  ],
+  "names": [
+   "Status convulsivo",
+   "Crisis convulsiva",
+   "Estatus convulsivo en el niño"
+  ]
+ },
+ "neuro-10": {
+  "codes": [
+   "1.10.2.003",
+   "1.10.2.015",
+   "1.10.1.007",
+   "1.10.4.005",
+   "2.01.1.053",
+   "2.01.2.017",
+   "1.10.1.022"
+  ],
+  "names": [
+   "Crisis convulsiva",
+   "Síndromes convulsivos sintomáticos (traumático, por tumores del sistema nervioso central, metabólico, urémico, etc)",
+   "Epilepsia",
+   "Electroencefalograma",
+   "Síncope",
+   "Muerte súbita-ALTE, BRUE",
+   "Síndromes convulsivos sintomáticos (traumático, tumores SNC, metabólico, etc)"
+  ]
+ },
+ "neuro-11": {
+  "codes": [
+   "1.10.1.006",
+   "1.10.1.027"
+  ],
+  "names": [
+   "Enfermedad de Parkinson y parkinsonismos",
+   "Trastornos del sueño"
+  ]
+ },
+ "neuro-12": {
+  "codes": [
+   "1.10.1.006",
+   "1.10.2.010"
+  ],
+  "names": [
+   "Enfermedad de Parkinson y parkinsonismos",
+   "Movimientos anormales inducidos por fármacos"
+  ]
+ },
+ "neuro-13": {
+  "codes": [
+   "1.10.1.026",
+   "1.10.2.005",
+   "1.07.1.016"
+  ],
+  "names": [
+   "Temblor esencial",
+   "Distonía aguda por fármacos (ejemplo antieméticos)",
+   "Temblor"
+  ]
+ },
+ "neuro-14": {
+  "codes": [
+   "1.10.1.005",
+   "1.07.1.003",
+   "1.10.1.003",
+   "1.10.5.003",
+   "5.01.1.015",
+   "5.01.5.004",
+   "1.07.2.004",
+   "1.07.3.005",
+   "1.07.5.002"
+  ],
+  "names": [
+   "Demencia (Enfermedad de Alzheimer, enfermedad cerebrovascular, VIH, etc)",
+   "Demencia",
+   "Cuadros de deterioro orgánico cerebral potencialmente reversibles (hipotiroidismos, déficit de vitamina B12, etc.)",
+   "Aplicación de tests neurocognitivos de screening (MoCA, Mini-Cog, Mini-Mental)",
+   "Trastornos neurocognitivos",
+   "Mini mental test, MoCA test",
+   "Agitación y agresividad",
+   "Envejecimiento saludable y promoción del autocuidado",
+   "Valoración cognitiva"
+  ]
+ },
+ "neuro-15": {
+  "codes": [
+   "1.10.1.005",
+   "1.07.1.003"
+  ],
+  "names": [
+   "Demencia (Enfermedad de Alzheimer, enfermedad cerebrovascular, VIH, etc)",
+   "Demencia"
+  ]
+ },
+ "neuro-16": {
+  "codes": [
+   "1.10.2.013",
+   "1.10.1.017",
+   "1.10.4.007",
+   "1.10.4.006",
+   "1.10.1.015",
+   "1.10.2.012"
+  ],
+  "names": [
+   "Síndrome cuadriparético fláccido (poliradiculoneurítis aguda, Guillain-Barré)",
+   "Polineuropatías, radiculopatías, mononeuropatías, etc…",
+   "Examen de líquido cefaloraquídeo (citoquímico, bacteriológico)",
+   "Electromiografìa",
+   "Parálisis (tetraparesia, hemiparesia, etc)",
+   "Síndrome cuadraplégico agudo"
+  ]
+ },
+ "neuro-17": {
+  "codes": [
+   "1.10.1.020",
+   "1.10.4.006"
+  ],
+  "names": [
+   "Síndrome miasténico",
+   "Electromiografìa"
+  ]
+ },
+ "neuro-18": {
+  "codes": [
+   "1.10.1.008",
+   "1.10.4.002",
+   "1.10.4.007"
+  ],
+  "names": [
+   "Esclerosis múltiple",
+   "Resonancia magnética de encéfalo y columna",
+   "Examen de líquido cefaloraquídeo (citoquímico, bacteriológico)"
+  ]
+ },
+ "neuro-19": {
+  "codes": [
+   "1.10.1.016",
+   "1.10.1.014",
+   "1.11.1.023",
+   "1.02.4.010"
+  ],
+  "names": [
+   "Parálisis facial periférica",
+   "Neuropatías por atrapamiento",
+   "Síndrome de túnel carpiano",
+   "Electromiografía"
+  ]
+ },
+ "neuro-20": {
+  "codes": [
+   "1.10.1.025",
+   "1.10.1.024",
+   "6.03.2.017",
+   "1.10.1.018"
+  ],
+  "names": [
+   "Síndromes vertiginosos periféricos",
+   "Síndromes vertiginosos centrales",
+   "Síndrome vertiginoso agudo",
+   "Síndrome atáxico"
+  ]
+ },
+ "neuro-21": {
+  "codes": [
+   "1.07.2.005",
+   "1.10.2.004",
+   "1.07.3.002"
+  ],
+  "names": [
+   "Síndrome confusional agudo / delirium",
+   "Estado confusional agudo (alcohólico, tóxico metabólico)",
+   "Complicaciones en el adulto mayor hospitalizado"
+  ]
+ },
+ "neuro-22": {
+  "codes": [
+   "1.07.1.008",
+   "1.07.5.004",
+   "1.07.3.009",
+   "1.07.3.004",
+   "5.01.3.007",
+   "4.01.1.052",
+   "1.02.1.001",
+   "1.07.1.007",
+   "1.07.1.013",
+   "1.07.1.014",
+   "1.07.3.008",
+   "1.07.5.001"
+  ],
+  "names": [
+   "Fragilidad",
+   "Valoración funcional",
+   "Prevención del deterioro funcional",
+   "Ejercicio en personas mayores",
+   "Maltrato en el adulto mayor",
+   "Escaras",
+   "Desnutrición",
+   "Escaras o úlceras por presión",
+   "Inmovilidad",
+   "Malnutrición",
+   "Nutrición en las personas mayores",
+   "Valoración afectiva"
+  ]
+ },
+ "neuro-23": {
+  "codes": [
+   "1.07.1.001",
+   "1.07.1.017",
+   "1.07.2.003",
+   "1.07.5.003",
+   "1.07.1.010",
+   "1.07.3.011"
+  ],
+  "names": [
+   "Caídas",
+   "Trastornos de la marcha",
+   "Fractura de cadera",
+   "Valoración de la marcha",
+   "Hipotensión postural",
+   "Adecuación del entorno para personas mayores"
+  ]
+ },
+ "neuro-24": {
+  "codes": [
+   "1.07.3.007",
+   "1.07.1.012"
+  ],
+  "names": [
+   "Manejo de fármacos en la persona mayor",
+   "Incontinencia urinaria"
+  ]
+ },
+ "ob-01": {
+  "codes": [
+   "3.01.3.001",
+   "3.01.3.003",
+   "3.01.1.002"
+  ],
+  "names": [
+   "Control prenatal",
+   "Determinación de edad gestacional",
+   "Anemia y embarazo"
+  ]
+ },
+ "ob-02": {
+  "codes": [
+   "3.01.4.003",
+   "3.01.4.004",
+   "3.01.5.003",
+   "3.01.1.005",
+   "3.01.5.001"
+  ],
+  "names": [
+   "Ecotomografía obstétrica normal",
+   "Ecotomografía obstétrica patológica",
+   "Doppler materno-fetal",
+   "Embarazo con edad gestacional dudosa",
+   "Amniocentesis"
+  ]
+ },
+ "ob-03": {
+  "codes": [
+   "3.01.5.009",
+   "3.01.5.011",
+   "3.01.5.005"
+  ],
+  "names": [
+   "Monitorizacion fetal (estresante y no estresante)",
+   "Perfil biofisico fetal",
+   "Evaluación anteparto"
+  ]
+ },
+ "ob-04": {
+  "codes": [
+   "3.01.1.010",
+   "3.01.5.003",
+   "3.01.4.004"
+  ],
+  "names": [
+   "Restricción de crecimiento fetal",
+   "Doppler materno-fetal",
+   "Ecotomografía obstétrica patológica"
+  ]
+ },
+ "ob-05": {
+  "codes": [
+   "3.01.1.011",
+   "1.09.2.012",
+   "1.09.3.005"
+  ],
+  "names": [
+   "Síndrome hipertensivo del embarazo",
+   "Pre eclampsia",
+   "Función renal en el embarazo"
+  ]
+ },
+ "ob-06": {
+  "codes": [
+   "3.01.2.004",
+   "3.01.2.003",
+   "3.01.1.011"
+  ],
+  "names": [
+   "Eclampsia",
+   "Crisis hipertensiva del embarazo",
+   "Síndrome hipertensivo del embarazo"
+  ]
+ },
+ "ob-07": {
+  "codes": [
+   "3.01.1.004",
+   "3.01.1.009"
+  ],
+  "names": [
+   "Diabetes y embarazo",
+   "Macrosomía fetal"
+  ]
+ },
+ "ob-08": {
+  "codes": [
+   "3.01.1.003"
+  ],
+  "names": [
+   "Colestasia gravídica"
+  ]
+ },
+ "ob-09": {
+  "codes": [
+   "3.01.1.019",
+   "1.09.2.011"
+  ],
+  "names": [
+   "Infecciones genitourinarias",
+   "Pielonefritis aguda complicada"
+  ]
+ },
+ "ob-10": {
+  "codes": [
+   "3.01.1.001",
+   "3.01.2.001",
+   "3.01.3.002"
+  ],
+  "names": [
+   "Aborto espontáneo",
+   "Aborto provocado",
+   "Derechos y aspectos legales de la embarazada y su pareja"
+  ]
+ },
+ "ob-11": {
+  "codes": [
+   "3.01.1.006",
+   "3.01.2.005",
+   "3.01.4.008"
+  ],
+  "names": [
+   "Embarazo ectópico no complicado",
+   "Embarazo ectópico complicado",
+   "HCG cuantitativa"
+  ]
+ },
+ "ob-12": {
+  "codes": [
+   "3.01.1.008",
+   "3.01.4.008"
+  ],
+  "names": [
+   "Enfermedad del trofoblasto",
+   "HCG cuantitativa"
+  ]
+ },
+ "ob-13": {
+  "codes": [
+   "3.01.2.011",
+   "3.01.2.010",
+   "3.01.2.015",
+   "3.01.5.002"
+  ],
+  "names": [
+   "Metrorragia: placenta previa",
+   "Metrorragia: Desprendimiento previo de placenta normoinserta (DPPNI)",
+   "Rotura uterina",
+   "Cesárea"
+  ]
+ },
+ "ob-14": {
+  "codes": [
+   "3.01.2.014"
+  ],
+  "names": [
+   "Rotura prematura de membranas"
+  ]
+ },
+ "ob-15": {
+  "codes": [
+   "3.01.2.012"
+  ],
+  "names": [
+   "Parto prematuro"
+  ]
+ },
+ "ob-16": {
+  "codes": [
+   "3.01.5.010"
+  ],
+  "names": [
+   "Parto normal"
+  ]
+ },
+ "ob-17": {
+  "codes": [
+   "3.01.2.021",
+   "3.01.5.006",
+   "3.01.2.017",
+   "3.01.5.009",
+   "3.01.2.013",
+   "3.01.5.012"
+  ],
+  "names": [
+   "Trabajo parto distócico",
+   "Evaluación intraparto",
+   "Sufrimiento fetal agudo",
+   "Monitorizacion fetal (estresante y no estresante)",
+   "Presentaciones fetales anómalas",
+   "Prueba de trabajo de parto"
+  ]
+ },
+ "ob-18": {
+  "codes": [
+   "3.01.2.008"
+  ],
+  "names": [
+   "Hemorragia genital aguda (metrorragia disfuncional-cervicorragia por Cáncer C.U.)"
+  ],
+  "nota": "No specific V3 postpartum hemorrhage code; closest genital hemorrhage"
+ },
+ "ob-19": {
+  "codes": [
+   "3.01.2.006",
+   "3.01.2.009",
+   "3.01.2.020"
+  ],
+  "names": [
+   "Endometritis puerperal",
+   "Mastitis puerperal",
+   "Mastitis abscedada"
+  ]
+ },
+ "ob-20": {
+  "codes": [
+   "3.01.3.009"
+  ],
+  "names": [
+   "Prevención de enfermedad hemolítica perinatal"
+  ]
+ },
+ "oftal-01": {
+  "codes": [
+   "2.01.1.097",
+   "6.02.2.005",
+   "6.02.1.030",
+   "6.02.1.021",
+   "6.02.1.020"
+  ],
+  "names": [
+   "Ojo rojo",
+   "Glaucoma agudo",
+   "Uveítis anterior o posterior",
+   "Queratitis",
+   "Pterigion"
+  ],
+  "nota": "Only \"Ojo rojo\" code is Pediatría"
+ },
+ "oftal-02": {
+  "codes": [
+   "6.02.1.005",
+   "6.02.1.008",
+   "6.02.1.007",
+   "2.01.1.095",
+   "6.02.1.006",
+   "6.02.4.002",
+   "6.02.5.001"
+  ],
+  "names": [
+   "Conjuntivitis bacteriana aguda",
+   "Conjuntivitis viral no complicada",
+   "Conjuntivitis no infecciosa",
+   "Conjuntivitis aguda",
+   "Conjuntivitis bacteriana crónica",
+   "Cultivo de secreción conjuntival",
+   "Aplicación de ungüentos"
+  ]
+ },
+ "oftal-03": {
+  "codes": [
+   "6.02.1.019",
+   "6.02.1.004",
+   "6.02.1.002",
+   "6.02.1.009",
+   "6.02.1.018",
+   "6.02.1.028",
+   "6.02.5.008",
+   "6.02.1.025"
+  ],
+  "names": [
+   "Orzuelo no complicado",
+   "Chalazion",
+   "Blefaritis",
+   "Dacriocistitis aguda",
+   "Obstrucción completa de la vía lacrimal",
+   "Tumores de párpado",
+   "Extracción de pestañas distiquiásicas",
+   "Tumores de conjuntiva"
+  ]
+ },
+ "oftal-04": {
+  "codes": [
+   "6.02.1.021",
+   "6.02.2.010",
+   "6.02.1.015"
+  ],
+  "names": [
+   "Queratitis",
+   "Úlcera corneal",
+   "Leucoma corneal"
+  ]
+ },
+ "oftal-05": {
+  "codes": [
+   "2.01.1.097"
+  ],
+  "names": [
+   "Ojo rojo"
+  ],
+  "nota": "No scleritis/episcleritis code; generic red eye"
+ },
+ "oftal-06": {
+  "codes": [
+   "6.02.2.005",
+   "6.02.5.012"
+  ],
+  "names": [
+   "Glaucoma agudo",
+   "Tensión ocular palpatoria"
+  ]
+ },
+ "oftal-07": {
+  "codes": [
+   "6.02.1.013",
+   "6.02.4.001",
+   "6.02.5.010",
+   "6.02.1.012",
+   "6.02.5.009"
+  ],
+  "names": [
+   "Glaucoma crónico",
+   "Campo visual",
+   "Oftalmoscopía directa",
+   "Glaucoma congénito",
+   "Instilación de colirios"
+  ]
+ },
+ "oftal-08": {
+  "codes": [
+   "6.02.1.003",
+   "6.02.2.004"
+  ],
+  "names": [
+   "Catarata",
+   "Disminución de la visión (lenta vs súbita)"
+  ]
+ },
+ "oftal-09": {
+  "codes": [
+   "6.02.1.001",
+   "6.02.1.011",
+   "6.02.1.031",
+   "6.02.3.004",
+   "2.01.1.096",
+   "2.01.1.098",
+   "6.01.2.006",
+   "6.02.1.029",
+   "6.02.3.003",
+   "6.02.5.004",
+   "6.02.5.006",
+   "6.02.5.013",
+   "6.02.5.014"
+  ],
+  "names": [
+   "Ametropía",
+   "Estrabismo",
+   "Vicios de refracción en personas de 65 años o más",
+   "Examen visual preventivo en niños",
+   "Estrabismo",
+   "Vicios de refracción",
+   "Hemangiomas y malformaciones vasculares del recién nacido",
+   "Tumores endoculares (retinoblastoma y otros)",
+   "Examen visual en adulto",
+   "Cover test",
+   "Examen de rojo pupilar con oftalmoscopio",
+   "Test de Hirschberg (imagen especular de la córnea)",
+   "Toma de visión"
+  ]
+ },
+ "oftal-10": {
+  "codes": [
+   "6.02.2.003",
+   "6.02.2.004"
+  ],
+  "names": [
+   "Desprendimiento de retina",
+   "Disminución de la visión (lenta vs súbita)"
+  ]
+ },
+ "oftal-11": {
+  "codes": [
+   "6.02.2.004"
+  ],
+  "names": [
+   "Disminución de la visión (lenta vs súbita)"
+  ],
+  "nota": "No retinal vascular occlusion code; sudden vision loss"
+ },
+ "oftal-12": {
+  "codes": [
+   "6.02.1.023",
+   "1.02.1.015",
+   "6.02.3.002",
+   "6.02.2.006"
+  ],
+  "names": [
+   "Retinopatía diabética",
+   "Retinopatía diabética",
+   "Diabetes",
+   "Hemorragia vítrea"
+  ]
+ },
+ "oftal-13": {
+  "codes": [
+   "6.02.3.005",
+   "1.09.2.002",
+   "6.02.5.010"
+  ],
+  "names": [
+   "Hipertensión arterial",
+   "Crisis hipertensivas, emergencias hipertensivas",
+   "Oftalmoscopía directa"
+  ]
+ },
+ "oftal-14": {
+  "codes": [
+   "6.02.1.010"
+  ],
+  "names": [
+   "Degeneración macular relacionada a la edad"
+  ]
+ },
+ "oftal-15": {
+  "codes": [
+   "6.02.2.007",
+   "6.02.1.014",
+   "6.02.2.002",
+   "6.02.5.003",
+   "4.01.2.015",
+   "6.02.2.008",
+   "6.02.3.001",
+   "6.02.5.005",
+   "6.02.5.007"
+  ],
+  "names": [
+   "Herida penetrante o perforante ocular",
+   "Hifema",
+   "Contusión ocular",
+   "Colocación de sello ocular",
+   "Trauma maxilofacial",
+   "Heridas de párpados",
+   "Accidentes del trabajo",
+   "Eversión palpebral",
+   "Extracción de cuerpo extraño tarsal"
+  ]
+ },
+ "oftal-16": {
+  "codes": [
+   "6.02.2.001"
+  ],
+  "names": [
+   "Causticaciones oculares"
+  ]
+ },
+ "oftal-17": {
+  "codes": [
+   "2.01.1.005",
+   "6.02.1.027"
+  ],
+  "names": [
+   "Celulitis periorbitaria",
+   "Tumores de órbita"
+  ],
+  "nota": "Only periorbital cellulitis code is Pediatría"
+ },
+ "oftal-18": {
+  "codes": [
+   "6.02.1.016",
+   "6.02.5.011",
+   "1.10.1.008",
+   "1.10.1.019",
+   "2.01.1.087",
+   "1.10.5.001",
+   "6.02.1.026"
+  ],
+  "names": [
+   "Neuritis óptica",
+   "Reflejos pupilares",
+   "Esclerosis múltiple",
+   "Síndrome de hipertensión endocraneana",
+   "Tumores SNC",
+   "Papiloscopia (fondo de ojo)",
+   "Tumores de la vía óptica"
+  ]
+ },
+ "orl-01": {
+  "codes": [
+   "6.03.1.020",
+   "2.01.1.026",
+   "2.01.1.102"
+  ],
+  "names": [
+   "Otitis media aguda",
+   "Otitis media",
+   "Otitis media recurrente"
+  ]
+ },
+ "orl-02": {
+  "codes": [
+   "6.03.1.021",
+   "6.03.1.022",
+   "6.03.4.005"
+  ],
+  "names": [
+   "Otitis media con efusión",
+   "Otitis media crónica y complicaciones",
+   "TAC de oídos sin medio de contraste"
+  ]
+ },
+ "orl-03": {
+  "codes": [
+   "6.03.1.019",
+   "1.02.1.014",
+   "6.03.3.006",
+   "6.03.5.010",
+   "6.03.2.014",
+   "6.03.5.005"
+  ],
+  "names": [
+   "Otitis externa",
+   "Pié diabético y otras infecciones en diabetes",
+   "Prevención de otitis externa",
+   "Lavado de oídos",
+   "Otohematoma",
+   "Drenaje de otohematoma"
+  ]
+ },
+ "orl-04": {
+  "codes": [
+   "6.03.2.001",
+   "6.03.1.022",
+   "6.03.5.001"
+  ],
+  "names": [
+   "Absceso mastoídeo de otitis media aguda y crónica",
+   "Otitis media crónica y complicaciones",
+   "Drenaje de absceso mastoídeo"
+  ]
+ },
+ "orl-05": {
+  "codes": [
+   "6.03.4.006",
+   "6.03.4.008",
+   "6.03.1.007",
+   "6.03.1.008",
+   "2.01.1.101"
+  ],
+  "names": [
+   "Audiometría básica",
+   "Impedanciometría básica",
+   "Diagnóstico diferencial de hipoacusias de transmisión",
+   "Diagnóstico diferencial de hipoacusias sensorioneurales",
+   "Hipoacusia"
+  ]
+ },
+ "orl-06": {
+  "codes": [
+   "6.03.2.018",
+   "6.03.1.008",
+   "6.03.2.006",
+   "6.03.3.007",
+   "6.03.1.031",
+   "6.03.2.016",
+   "6.03.4.011"
+  ],
+  "names": [
+   "Sordera súbita",
+   "Diagnóstico diferencial de hipoacusias sensorioneurales",
+   "Barotrauma ótico y trauma acústico agudo",
+   "Prevención de trauma acústico y daño por exposición a ruidos",
+   "Tinitus",
+   "Perforación timpánica traumática",
+   "Estudio de VIII par"
+  ]
+ },
+ "orl-07": {
+  "codes": [
+   "6.03.1.029",
+   "6.03.2.017",
+   "1.10.1.025"
+  ],
+  "names": [
+   "Síndrome vertiginoso",
+   "Síndrome vertiginoso agudo",
+   "Síndromes vertiginosos periféricos"
+  ]
+ },
+ "orl-08": {
+  "codes": [
+   "1.10.1.016",
+   "1.10.1.009"
+  ],
+  "names": [
+   "Parálisis facial periférica",
+   "Herpes zoster"
+  ],
+  "nota": "Sin código ORL; se usa Neurología"
+ },
+ "orl-09": {
+  "codes": [
+   "6.03.1.001",
+   "2.01.1.103",
+   "6.03.1.025",
+   "1.05.4.013",
+   "6.03.3.003",
+   "6.03.4.010"
+  ],
+  "names": [
+   "Alergia nasosinusal",
+   "Rinitis alérgica",
+   "Rinorrea crónica",
+   "Pruebas cutáneas de alergia",
+   "Prevención de alergias nasosinusales",
+   "Pruebas cutáneas de alergia"
+  ]
+ },
+ "orl-10": {
+  "codes": [
+   "2.01.1.029",
+   "6.03.1.026",
+   "2.01.1.005",
+   "2.01.4.008",
+   "1.05.1.022",
+   "6.03.1.030",
+   "6.03.4.001",
+   "6.03.4.003"
+  ],
+  "names": [
+   "Sinusitis",
+   "Rinorreas agudas",
+   "Celulitis periorbitaria",
+   "Radiografía de senos paranasales",
+   "Infecciones de las vías aéreas superiores",
+   "Sinusopatías crónicas",
+   "Radiografía de cavidades perinasales",
+   "TAC de cavidades perinasales"
+  ],
+  "nota": "Sin código ORL de sinusitis aguda; Sinusitis es Pediatría"
+ },
+ "orl-11": {
+  "codes": [
+   "6.03.1.012",
+   "6.03.2.011",
+   "6.03.5.012",
+   "6.03.5.014",
+   "2.01.1.099",
+   "2.01.2.008",
+   "6.03.1.011"
+  ],
+  "names": [
+   "Epistaxis leve",
+   "Epistaxis masiva",
+   "Taponamiento nasal anterior",
+   "Taponamiento nasal posterior",
+   "Epistaxis",
+   "Epistaxis",
+   "Epistaxis a repetición"
+  ]
+ },
+ "orl-12": {
+  "codes": [
+   "6.03.1.024",
+   "6.03.1.016",
+   "6.03.2.012",
+   "6.03.2.013",
+   "6.03.5.004"
+  ],
+  "names": [
+   "Poliposis nasal",
+   "Obstrucción nasal crónica",
+   "Fractura nasal reciente",
+   "Hematoma nasoseptal",
+   "Drenaje de hematoma nasoseptal"
+  ]
+ },
+ "orl-13": {
+  "codes": [
+   "6.03.1.002",
+   "6.03.1.017",
+   "2.01.1.023",
+   "1.04.1.025",
+   "2.01.1.027",
+   "1.01.1.008",
+   "1.01.3.005",
+   "1.04.4.014"
+  ],
+  "names": [
+   "Amigdalitis aguda",
+   "Odinofagias agudas",
+   "Faringoamigdalitis",
+   "Síndrome mononucleósico",
+   "Resfrío común",
+   "Enfermedad reumática activa",
+   "Prevención de enfermedad reumática",
+   "Pruebas rápidas para diagnóstico de estreptococo grupo A"
+  ]
+ },
+ "orl-14": {
+  "codes": [
+   "6.03.2.002",
+   "6.03.5.002",
+   "6.03.2.004",
+   "6.03.2.003",
+   "2.01.2.002",
+   "6.03.4.004",
+   "6.03.5.003"
+  ],
+  "names": [
+   "Absceso periamigdalino",
+   "Drenaje de absceso periamigdaliano",
+   "Absceso retrofaríngeo",
+   "Absceso profundo de cuello",
+   "Absceso amigdalino",
+   "TAC cervical con contraste",
+   "Drenaje de absceso retrofaríngeo"
+  ]
+ },
+ "orl-15": {
+  "codes": [
+   "2.01.1.100",
+   "6.03.1.027",
+   "6.03.1.028",
+   "2.01.4.004",
+   "6.03.1.003",
+   "6.03.4.002"
+  ],
+  "names": [
+   "Hipertrofia adenoidea/amigdalina",
+   "Síndrome de apnea del sueño",
+   "Síndrome respirador bucal",
+   "Radiografía de cavum",
+   "Amigdalitis crónica",
+   "Radiografía de cavum"
+  ]
+ },
+ "orl-16": {
+  "codes": [
+   "6.03.1.010",
+   "6.03.5.009",
+   "6.03.1.009"
+  ],
+  "names": [
+   "Disfonías crónicas",
+   "Laringoscopía indirecta",
+   "Disfonías agudas"
+  ]
+ },
+ "orl-17": {
+  "codes": [
+   "2.01.1.025",
+   "2.01.2.018",
+   "6.03.1.013",
+   "2.01.1.117"
+  ],
+  "names": [
+   "Laringitis",
+   "Obstrucción de vía aérea superior",
+   "Estridor laríngeo",
+   "Estridor congénito"
+  ],
+  "nota": "No existe código de epiglotitis"
+ },
+ "orl-18": {
+  "codes": [
+   "6.03.2.008",
+   "6.03.2.010",
+   "6.03.2.007",
+   "6.03.2.009",
+   "6.03.3.005",
+   "6.03.5.006",
+   "6.03.5.007"
+  ],
+  "names": [
+   "Cuerpo extraño en el esófago",
+   "Cuerpo extraño nasal",
+   "Cuerpo extraño en el oído",
+   "Cuerpo extraño en vía aérea",
+   "Prevención de cuerpo extraño en niños",
+   "Extracción de cuerpo extraño del oído",
+   "Extracción de cuerpo extraño nasal"
+  ]
+ },
+ "orl-19": {
+  "codes": [
+   "6.03.1.023",
+   "4.01.1.001"
+  ],
+  "names": [
+   "Patología de glándulas salivales",
+   "Patología glándulas salivales"
+  ]
+ },
+ "orl-20": {
+  "codes": [
+   "6.03.1.004",
+   "6.03.1.015",
+   "6.03.1.005",
+   "4.01.1.032",
+   "2.01.1.004",
+   "6.03.1.006",
+   "6.03.1.018",
+   "6.03.3.004"
+  ],
+  "names": [
+   "Cáncer de boca, labios y orofaringe",
+   "Masa cervical",
+   "Cáncer laríngeo e hipofaríngeo",
+   "Masa cervical y tumores del cuello",
+   "Adenitis cervical",
+   "Cáncer nasosinusal",
+   "Odinofagias crónicas",
+   "Prevención de cáncer laríngeo"
+  ]
+ },
+ "ped-01": {
+  "codes": [
+   "2.01.3.003",
+   "2.01.5.001",
+   "2.01.1.001",
+   "2.01.1.003",
+   "2.01.1.072",
+   "2.01.1.076",
+   "2.01.1.079",
+   "2.01.3.011",
+   "2.01.3.017",
+   "2.01.3.018",
+   "2.01.4.006",
+   "1.02.3.008"
+  ],
+  "names": [
+   "Diagnóstico nutricional",
+   "Antropometría en la edad pediátrica",
+   "Desnutrición",
+   "Obesidad",
+   "Alteraciones del desarrollo puberal",
+   "Talla baja",
+   "Macro y microcefalia",
+   "Promoción de salud y estilos de vida saludables",
+   "Supervisión de salud- escolar",
+   "Supervisión de salud- lactante",
+   "Radiografía de edad ósea",
+   "Prevención de la obesidad"
+  ]
+ },
+ "ped-02": {
+  "codes": [
+   "2.01.3.002",
+   "2.01.1.080",
+   "2.01.1.141",
+   "5.01.3.003",
+   "2.01.1.083",
+   "2.01.1.084",
+   "2.01.1.086",
+   "2.01.3.019",
+   "6.03.1.033",
+   "6.03.3.002"
+  ],
+  "names": [
+   "Desarrollo psico-motor",
+   "Retraso del desarrollo SM",
+   "Trastornos del desarrollo",
+   "Desarrollo cognitivo, afectivo y social a lo largo del ciclo vital",
+   "Síndrome hipertónico",
+   "Síndrome hipotónico",
+   "Trastornos del lenguaje",
+   "Supervisión de salud- pre-escolar",
+   "Trastornos de habla y lenguaje",
+   "Pesquisa de trastornos del lenguaje"
+  ]
+ },
+ "ped-03": {
+  "codes": [
+   "2.01.3.006",
+   "4.01.5.020",
+   "1.04.3.013",
+   "1.06.3.001",
+   "1.07.3.006"
+  ],
+  "names": [
+   "Inmunizaciones en Chile (PNI y extra PNI)",
+   "Inyecciones subcutáneas, intramusculares e intravenosas",
+   "Vacunas incluidas en el PNI (Plan Nacional de Inmunizaciones)",
+   "Vacunación de hepatitis A y B",
+   "Inmunizaciones en personas mayores"
+  ]
+ },
+ "ped-04": {
+  "codes": [
+   "2.01.3.007",
+   "2.01.3.001",
+   "3.01.3.004",
+   "5.01.3.004",
+   "2.01.1.105",
+   "1.08.3.009"
+  ],
+  "names": [
+   "Lactancia materna",
+   "Alimentación normal",
+   "Lactancia",
+   "Higiene de la alimentación",
+   "Alteraciones pigmentarias",
+   "Prevención de anemias por carencias nutricionales"
+  ]
+ },
+ "ped-05": {
+  "codes": [
+   "2.01.1.020",
+   "2.01.1.028",
+   "2.01.2.005",
+   "2.01.5.006",
+   "2.01.1.006",
+   "2.01.4.014",
+   "2.01.4.025",
+   "1.04.4.005"
+  ],
+  "names": [
+   "Bronquiolitis",
+   "Síndrome bronquial obstructivo",
+   "Crisis bronquial obstructiva",
+   "Oxigenoterapia",
+   "Coqueluche",
+   "Gases en sangre arterial",
+   "Serología y técnicas de aislamiento viral y bacteriano",
+   "Detección de agentes virales por inmunofluorescencia"
+  ]
+ },
+ "ped-06": {
+  "codes": [
+   "2.01.1.025",
+   "2.01.1.022",
+   "2.01.2.018"
+  ],
+  "names": [
+   "Laringitis",
+   "Estridor",
+   "Obstrucción de vía aérea superior"
+  ]
+ },
+ "ped-07": {
+  "codes": [
+   "2.01.1.024",
+   "2.01.4.001"
+  ],
+  "names": [
+   "Infecciones respiratorias agudas bajas y sus complicaciones",
+   "Radiografía de tórax"
+  ]
+ },
+ "ped-08": {
+  "codes": [
+   "2.01.2.003",
+   "2.01.5.004",
+   "2.01.2.018",
+   "4.01.5.016",
+   "1.05.2.002",
+   "1.05.2.003",
+   "6.03.5.011"
+  ],
+  "names": [
+   "Aspiración cuerpo extraño",
+   "Maniobra de Heimlich",
+   "Obstrucción de vía aérea superior",
+   "Fibrobroncoscopía",
+   "Aspiración de cuerpo extraño con asfixia",
+   "Aspiración de cuerpo extraño sin asfixia",
+   "Maniobra de Heimlich"
+  ]
+ },
+ "ped-09": {
+  "codes": [
+   "2.01.1.017",
+   "2.01.4.020"
+  ],
+  "names": [
+   "Síndrome febril agudo sin foco",
+   "Proteína C reactiva cuantitativa"
+  ]
+ },
+ "ped-10": {
+  "codes": [
+   "2.01.1.009",
+   "2.01.1.008",
+   "2.01.1.058"
+  ],
+  "names": [
+   "Exantemas virales",
+   "Escarlatina",
+   "Vasculitis: PSH, Kawasaki, otros"
+  ]
+ },
+ "ped-11": {
+  "codes": [
+   "2.01.1.039",
+   "2.01.2.006",
+   "2.01.1.067",
+   "2.01.1.047",
+   "2.01.5.005"
+  ],
+  "names": [
+   "Diarrea aguda y en vías de prolongación",
+   "Deshidratación",
+   "Síndrome hemolítico urémico",
+   "Síndrome disentérico",
+   "Osteoclisis"
+  ]
+ },
+ "ped-12": {
+  "codes": [
+   "2.01.1.046",
+   "2.01.2.019",
+   "2.01.2.001"
+  ],
+  "names": [
+   "Displasia broncopulmonar / Reflujo gastroesofágico y vómitos del lactante (código repetido en el Perfil oficial)",
+   "Obstrucción intestinal",
+   "Abdomen agudo"
+  ]
+ },
+ "ped-13": {
+  "codes": [
+   "2.01.1.062",
+   "2.01.1.065",
+   "2.01.4.016",
+   "2.01.4.003",
+   "2.01.4.011",
+   "2.01.5.003",
+   "2.01.5.010",
+   "1.04.4.017",
+   "1.09.4.007",
+   "4.03.1.019",
+   "4.03.1.021",
+   "4.03.4.009"
+  ],
+  "names": [
+   "Infección urinaria",
+   "Malformaciones urogenitales",
+   "Orina completa",
+   "Ecotomografía abdominal",
+   "Cultivos y antibiograma",
+   "Cateterismo vesical",
+   "Punción suprapúbica",
+   "Urocultivo y antibiograma",
+   "Cintigrama renal",
+   "Malformaciones congénitas nefrourológicas",
+   "Reflujo vésico ureteral",
+   "Cintigrama renal"
+  ]
+ },
+ "ped-14": {
+  "codes": [
+   "2.01.1.081",
+   "2.01.2.024",
+   "2.01.5.008"
+  ],
+  "names": [
+   "Síndrome convulsivo",
+   "Síndrome convulsivo",
+   "Punción lumbar"
+  ]
+ },
+ "ped-15": {
+  "codes": [
+   "2.01.5.011",
+   "2.01.5.002",
+   "2.01.1.114",
+   "3.01.3.016",
+   "2.01.1.078",
+   "2.01.1.112",
+   "6.03.2.005"
+  ],
+  "names": [
+   "Reanimación neonatal",
+   "Atención inmediata del recién nacido",
+   "Asfixia neonatal",
+   "Vínculo y apego",
+   "Encefalopatía hipóxico-isquémica",
+   "Alteraciones de la termorregulación",
+   "Atresia coanal congénita"
+  ]
+ },
+ "ped-16": {
+  "codes": [
+   "2.01.1.128",
+   "2.01.1.123",
+   "6.02.1.022"
+  ],
+  "names": [
+   "RN PEG-GEG",
+   "Prematurez",
+   "Retinopatía del prematuro"
+  ]
+ },
+ "ped-17": {
+  "codes": [
+   "2.01.1.121",
+   "2.01.4.023"
+  ],
+  "names": [
+   "Ictericia neonatal y del primer trimestre",
+   "Pruebas hepáticas"
+  ]
+ },
+ "ped-18": {
+  "codes": [
+   "2.01.1.126",
+   "2.01.1.125",
+   "2.01.1.123",
+   "2.01.1.021",
+   "2.01.1.113"
+  ],
+  "names": [
+   "Síndrome distress respiratorio",
+   "Síndrome aspirativo meconial",
+   "Prematurez",
+   "Enfermedad pulmonar crónica",
+   "Apneas"
+  ]
+ },
+ "ped-19": {
+  "codes": [
+   "2.01.1.124"
+  ],
+  "names": [
+   "Sepsis neonatal"
+  ]
+ },
+ "ped-20": {
+  "codes": [
+   "2.01.1.120",
+   "2.01.1.119",
+   "2.01.1.118",
+   "2.01.1.115",
+   "2.01.1.122"
+  ],
+  "names": [
+   "Hipoglicemia",
+   "Hipocalcemia",
+   "Hijo madre diabética",
+   "Convulsiones neonatales",
+   "Poliglobulia"
+  ]
+ },
+ "ped-21": {
+  "codes": [
+   "2.01.1.075",
+   "6.03.1.014",
+   "2.01.1.050",
+   "6.03.3.001",
+   "6.03.4.007"
+  ],
+  "names": [
+   "Hipotiroidismo",
+   "Hipoacusia neonatal",
+   "Cardiopatías congénitas frecuentes",
+   "Detección de hipoacusia y sordera en niños",
+   "Emisiones otoacústicas"
+  ],
+  "nota": "No V3 code for phenylketonuria/neonatal screening"
+ },
+ "ped-22": {
+  "codes": [
+   "2.01.1.092",
+   "4.02.1.002",
+   "2.01.4.007",
+   "4.02.3.006"
+  ],
+  "names": [
+   "Displasia de caderas",
+   "Displasia congénita de cadera",
+   "Radiografía de pelvis anteroposterior",
+   "Prevención de displasia de cadera (diagnóstico precoz)"
+  ]
+ },
+ "psiq-01": {
+  "codes": [
+   "5.01.1.007",
+   "5.01.1.008",
+   "5.01.1.034",
+   "2.01.1.136",
+   "1.07.1.004"
+  ],
+  "names": [
+   "Primer episodio depresivo",
+   "Trastorno depresivo (recurrente)",
+   "Trastornos del ánimo en niños",
+   "Depresión",
+   "Depresión"
+  ]
+ },
+ "psiq-02": {
+  "codes": [
+   "5.01.1.009",
+   "5.01.4.003"
+  ],
+  "names": [
+   "Trastorno bipolar",
+   "Niveles plasmáticos de estabilizadores del ánimo"
+  ]
+ },
+ "psiq-03": {
+  "codes": [
+   "5.01.2.001",
+   "5.01.3.002",
+   "5.01.5.003",
+   "5.01.1.029",
+   "2.01.1.137"
+  ],
+  "names": [
+   "Conducta suicida",
+   "Conducta suicida",
+   "Intervención en crisis",
+   "Intento de suicidio en niños y adolescentes",
+   "Ideación suicida"
+  ]
+ },
+ "psiq-04": {
+  "codes": [
+   "5.01.1.007"
+  ],
+  "names": [
+   "Primer episodio depresivo"
+  ],
+  "nota": "No perinatal/postpartum psychiatry code"
+ },
+ "psiq-05": {
+  "codes": [
+   "5.01.1.004",
+   "5.01.1.020"
+  ],
+  "names": [
+   "Trastorno de adaptación",
+   "Trastornos somatomorfos"
+  ],
+  "nota": "No dysthymia code; recurrent depressive disorder closest"
+ },
+ "psiq-06": {
+  "codes": [
+   "5.01.1.001",
+   "5.01.4.001"
+  ],
+  "names": [
+   "Trastorno de pánico con o sin agorafobia",
+   "Estudio de hormonas tiroídeas"
+  ]
+ },
+ "psiq-07": {
+  "codes": [
+   "5.01.1.036",
+   "5.01.1.003",
+   "2.01.1.140"
+  ],
+  "names": [
+   "Trastorno de ansiedad generalizada",
+   "Trastornos fóbicos (fobia social y fobia específica)",
+   "Trastornos de ansiedad generalizada"
+  ]
+ },
+ "psiq-08": {
+  "codes": [
+   "5.01.1.002"
+  ],
+  "names": [
+   "Trastorno obsesivo compulsivo"
+  ]
+ },
+ "psiq-09": {
+  "codes": [
+   "5.01.1.006",
+   "5.01.1.005",
+   "5.01.1.021"
+  ],
+  "names": [
+   "Trastorno por estrés postraumático",
+   "Trastorno agudo por estrés",
+   "Trastornos disociativos"
+  ]
+ },
+ "psiq-10": {
+  "codes": [
+   "5.01.1.010",
+   "5.01.5.002"
+  ],
+  "names": [
+   "Esquizofrenia y otros trastornos psicòticos",
+   "Examen físico y neurológico: control de neurolépticos de depósito"
+  ]
+ },
+ "psiq-11": {
+  "codes": [
+   "5.01.1.010",
+   "1.08.4.008"
+  ],
+  "names": [
+   "Esquizofrenia y otros trastornos psicòticos",
+   "Hemograma"
+  ]
+ },
+ "psiq-12": {
+  "codes": [
+   "5.01.1.010"
+  ],
+  "names": [
+   "Esquizofrenia y otros trastornos psicòticos"
+  ]
+ },
+ "psiq-13": {
+  "codes": [
+   "5.01.5.002"
+  ],
+  "names": [
+   "Examen físico y neurológico: control de neurolépticos de depósito"
+  ],
+  "nota": "No NMS code; closest neuroleptic-control procedure"
+ },
+ "psiq-14": {
+  "codes": [
+   "5.01.2.002",
+   "5.01.1.014"
+  ],
+  "names": [
+   "Agitación psicomotora",
+   "Delirium"
+  ]
+ },
+ "psiq-15": {
+  "codes": [
+   "5.01.1.012",
+   "1.10.2.004",
+   "1.10.3.001",
+   "5.01.5.001",
+   "1.02.2.004"
+  ],
+  "names": [
+   "Dependencia de alcohol",
+   "Estado confusional agudo (alcohólico, tóxico metabólico)",
+   "Manifestaciones neurológicas de abuso de sustancias y alcohol",
+   "EBBA (Escala breve de Beber Anormal)",
+   "Déficit agudo de tiamina"
+  ]
+ },
+ "psiq-16": {
+  "codes": [
+   "5.01.2.003",
+   "5.01.1.013",
+   "5.01.1.011",
+   "5.01.1.035",
+   "5.01.3.011",
+   "5.01.4.002",
+   "1.10.2.002"
+  ],
+  "names": [
+   "Intoxicación por sustancias psicoactivas",
+   "Dependencia de otras drogas",
+   "Consumo perjudicial de alcohol y drogas",
+   "Consumo perjudicial de drogas en niños y adolescentes",
+   "Prevención: Alcohol, tabaco, drogas. Modelo de prevención primaria.",
+   "Exámenes de orina para el control de drogas de abuso",
+   "Complicaciones neurológicas de abuso de sustancias"
+  ]
+ },
+ "psiq-17": {
+  "codes": [
+   "5.01.1.016",
+   "5.01.3.010"
+  ],
+  "names": [
+   "Trastornos de la personalidad",
+   "Personalidad: Concepto y medición. Principales teorías en psicología de la personalidad"
+  ]
+ },
+ "psiq-18": {
+  "codes": [
+   "5.01.1.028",
+   "5.01.1.018",
+   "5.01.1.023",
+   "5.01.1.024",
+   "5.01.1.025",
+   "5.01.1.026",
+   "5.01.1.030",
+   "5.01.1.031",
+   "5.01.1.033",
+   "5.01.4.004",
+   "2.01.1.082",
+   "2.01.1.085",
+   "2.01.1.139",
+   "2.01.1.142"
+  ],
+  "names": [
+   "Trastorno por déficit atencional",
+   "Trastornos de la conducta alimentaria",
+   "Trastorno del espectro autista",
+   "Trastorno específico del aprendizaje escolar",
+   "Retardo mental",
+   "Enuresis",
+   "Trastorno conducta oposicionista desafiante",
+   "Trastorno conducta disocial",
+   "Trastornos ansiosos en niños",
+   "Tests WAIS y WISC",
+   "Síndrome déficit atencional",
+   "Trastornos aprendizaje",
+   "Trastornos de alimentación",
+   "Trastornos neuropsiquiátricos"
+  ]
+ },
+ "resp-01": {
+  "codes": [
+   "1.05.4.005",
+   "1.05.4.012"
+  ],
+  "names": [
+   "Espirometría",
+   "Prueba de provocación bronquial con fármacos"
+  ]
+ },
+ "resp-02": {
+  "codes": [
+   "1.05.2.004",
+   "1.05.4.009",
+   "1.05.4.010",
+   "1.05.5.008"
+  ],
+  "names": [
+   "Crisis de asma bronquial",
+   "Flujo espiratorio máximo (PEF: Peak Expiratory Flow)",
+   "Gases en sangre arterial",
+   "Nebulizaciones"
+  ]
+ },
+ "resp-03": {
+  "codes": [
+   "1.05.1.003",
+   "1.05.1.002",
+   "1.05.4.005",
+   "2.01.1.019",
+   "1.05.1.035",
+   "1.05.5.006"
+  ],
+  "names": [
+   "Asma bronquial leve y moderada",
+   "Asma bronquial grave",
+   "Espirometría",
+   "Asma bronquial",
+   "Tos crónica",
+   "Inhalación de aerosoles presurizados"
+  ]
+ },
+ "resp-04": {
+  "codes": [
+   "1.05.1.017",
+   "1.05.1.016",
+   "1.05.4.005",
+   "1.05.3.004",
+   "1.01.3.007",
+   "1.05.1.006",
+   "1.05.1.008"
+  ],
+  "names": [
+   "Enfermedad pulmonar obstructiva crónica leve y moderada",
+   "Enfermedad pulmonar obstructiva crónica avanzada",
+   "Espirometría",
+   "Tabaquismo: prevención, cesación y efectos nocivos para la salud",
+   "Tabaquismo: prevención, cesación y efectos nocivos para la salud",
+   "Bronquitis crónica",
+   "Corazón pulmonar crónico"
+  ]
+ },
+ "resp-05": {
+  "codes": [
+   "1.05.2.006",
+   "1.05.5.012",
+   "1.05.4.010",
+   "1.01.1.004"
+  ],
+  "names": [
+   "Enfermedad bronquial obstructiva crónica descompensada",
+   "Ventilación mecánica no invasiva",
+   "Gases en sangre arterial",
+   "Corazón pulmonar crónico"
+  ]
+ },
+ "resp-06": {
+  "codes": [
+   "1.05.1.027",
+   "1.05.4.001",
+   "1.05.1.005",
+   "1.05.4.006"
+  ],
+  "names": [
+   "Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)",
+   "Radiografía de tórax",
+   "Bronquitis aguda",
+   "Examen microbiológico de expectoración"
+  ]
+ },
+ "resp-07": {
+  "codes": [
+   "1.05.1.028"
+  ],
+  "names": [
+   "Neumonías adquiridas en la comunidad (tipos 1, 2 y 3 de la Sociedad Chilena de Enf. Respiratorias)"
+  ]
+ },
+ "resp-08": {
+  "codes": [
+   "1.05.1.030",
+   "1.05.1.027",
+   "4.01.2.017",
+   "1.04.4.008"
+  ],
+  "names": [
+   "Neumonías nosocomiales",
+   "Neumonías adquiridas en la comunidad (tipo 4 de la Sociedad Chilena de Enf. Respiratorias)",
+   "Supuración pulmonar",
+   "Gram"
+  ]
+ },
+ "resp-09": {
+  "codes": [
+   "1.05.1.001",
+   "4.01.2.017",
+   "1.05.5.005"
+  ],
+  "names": [
+   "Absceso pulmonar",
+   "Supuración pulmonar",
+   "Fibrobroncoscopia"
+  ]
+ },
+ "resp-10": {
+  "codes": [
+   "1.05.1.036",
+   "1.05.3.003",
+   "1.05.4.004",
+   "1.04.3.009",
+   "1.04.4.007",
+   "1.04.4.015",
+   "1.05.3.005"
+  ],
+  "names": [
+   "Tuberculosis pulmonar",
+   "Programa Nacional de Control de TBC",
+   "Baciloscopia y cultivo de Koch de expectoración",
+   "Profilaxis de tuberculosis",
+   "Cultivo de expectoración",
+   "Reacción de polimerasa en cadena",
+   "Vacunación (tuberculosis, influenza, Coronavirus SARS-CoV-2 y neumococo)"
+  ]
+ },
+ "resp-11": {
+  "codes": [
+   "4.01.1.043",
+   "1.05.4.007",
+   "1.05.5.009",
+   "4.01.5.029",
+   "1.05.4.003"
+  ],
+  "names": [
+   "Síndrome de ocupación pleural",
+   "Citoquímico de líquido pleural",
+   "Punción pleural",
+   "Punción pleural",
+   "Ecografía pleural"
+  ],
+  "nota": "Sin código general de derrame pleural en Respiratorio"
+ },
+ "resp-12": {
+  "codes": [
+   "1.05.1.011",
+   "1.05.1.012",
+   "1.05.5.004",
+   "1.05.4.007",
+   "2.01.4.010",
+   "2.01.5.009",
+   "1.05.4.008"
+  ],
+  "names": [
+   "Derrame pleural paraneumónico complicado",
+   "Derrame pleural paraneumónico simple",
+   "Drenaje pleural",
+   "Citoquímico de líquido pleural",
+   "Citoquímico de líquido cefaloraquídeo y pleural",
+   "Punción pleural",
+   "Examen microbiológico de líquido pleural"
+  ]
+ },
+ "resp-13": {
+  "codes": [
+   "1.05.1.031",
+   "1.05.1.032"
+  ],
+  "names": [
+   "Neumotórax moderado y grande",
+   "Neumotórax pequeño"
+  ]
+ },
+ "resp-14": {
+  "codes": [
+   "1.05.2.011",
+   "1.05.2.013",
+   "1.05.5.004"
+  ],
+  "names": [
+   "Neumotórax hipertensivo",
+   "Traumatismo torácico grave",
+   "Drenaje pleural"
+  ]
+ },
+ "resp-15": {
+  "codes": [
+   "1.05.1.013",
+   "1.05.1.010",
+   "1.05.5.002",
+   "4.01.1.042"
+  ],
+  "names": [
+   "Derrame pleural por tuberculosis",
+   "Derrame pleural neoplásico",
+   "Biopsia pleural",
+   "Mesotelioma pleural"
+  ]
+ },
+ "resp-16": {
+  "codes": [
+   "1.05.1.038",
+   "4.01.1.038",
+   "1.05.4.002",
+   "1.05.1.025"
+  ],
+  "names": [
+   "Nódulos pulmonares",
+   "Nódulo pulmonar solitario",
+   "TAC de tórax",
+   "Metástasis pulmonares"
+  ]
+ },
+ "resp-17": {
+  "codes": [
+   "1.05.1.007",
+   "4.01.1.039",
+   "1.05.1.034",
+   "1.08.1.016",
+   "1.08.2.008",
+   "1.10.1.029"
+  ],
+  "names": [
+   "Cáncer bronquial primario",
+   "Cáncer pulmonar",
+   "Síndromes mediastínicos",
+   "Síndrome paraneoplásico",
+   "Síndrome vena cava superior",
+   "Tumores primarios y metastásicos SNC"
+  ]
+ },
+ "resp-18": {
+  "codes": [
+   "1.05.1.018",
+   "1.05.1.009",
+   "1.05.1.026",
+   "1.05.3.002"
+  ],
+  "names": [
+   "Enfermedades del intersticio pulmonar",
+   "Daño pulmonar secundario a drogas",
+   "Neumoconiosis",
+   "Prevención de daño pulmonar por inhalantes domésticos y laborales"
+  ]
+ },
+ "resp-19": {
+  "codes": [
+   "1.05.1.015",
+   "1.05.2.005",
+   "4.01.4.010",
+   "1.08.3.004"
+  ],
+  "names": [
+   "Embolia pulmonar",
+   "Embolia pulmonar masiva",
+   "TAC de tórax",
+   "Actividad física en pacientes con riesgo de trombosis"
+  ]
+ },
+ "resp-20": {
+  "codes": [
+   "1.05.2.007",
+   "1.05.1.019",
+   "1.05.1.004",
+   "4.01.2.018",
+   "2.01.4.026"
+  ],
+  "names": [
+   "Hemoptisis moderada,severa y masiva",
+   "Hemoptisis leve y mediana",
+   "Bronquiectasias",
+   "Hemoptisis masiva",
+   "Test del sudor"
+  ]
+ },
+ "resp-21": {
+  "codes": [
+   "1.05.2.008",
+   "1.05.4.010",
+   "1.05.5.012",
+   "1.05.5.011",
+   "4.01.5.023",
+   "4.01.5.030",
+   "2.01.2.013",
+   "1.05.1.023",
+   "1.05.2.009",
+   "1.05.5.007",
+   "1.05.5.001"
+  ],
+  "names": [
+   "Insuficiencia respiratoria aguda o crónica reagudizada que requiere ventilación mecánica",
+   "Gases en sangre arterial",
+   "Ventilación mecánica no invasiva",
+   "Ventilación mecánica invasiva",
+   "Manejo ventilatorio básico",
+   "Traqueostomía y cricoidostomía",
+   "Insuficiencia respiratoria aguda",
+   "Insuficiencia respiratoria crónica",
+   "Insuficiencia respiratoria aguda o crónica reagudizada, que no requiere ventilación mecánica",
+   "Intubación traqueal",
+   "Aspiración traqueal"
+  ]
+ },
+ "resp-22": {
+  "codes": [
+   "1.05.1.014",
+   "1.05.5.011",
+   "1.01.4.003",
+   "1.04.2.011"
+  ],
+  "names": [
+   "Edema pulmonar no cardiogénico",
+   "Ventilación mecánica invasiva",
+   "Radiografía de tórax",
+   "Enfermedad grave por SARS Cov 2 COVID 19"
+  ]
+ },
+ "resp-23": {
+  "codes": [
+   "1.05.1.033",
+   "6.03.4.009"
+  ],
+  "names": [
+   "Síndrome de apnea del sueño",
+   "Polisomnografía"
+  ]
+ },
+ "resp-24": {
+  "codes": [
+   "1.05.2.010",
+   "1.05.1.024",
+   "1.05.4.014",
+   "1.05.3.001"
+  ],
+  "names": [
+   "Intoxicación por monóxido de carbono",
+   "Intoxicación leve por CO y otros gases",
+   "Saturometría arterial",
+   "Contaminación ambiental"
+  ]
+ },
+ "reuma-01": {
+  "codes": [
+   "1.11.1.015",
+   "1.11.4.002",
+   "1.11.5.001",
+   "4.02.4.009"
+  ],
+  "names": [
+   "Monoartritis",
+   "Estudio de líquido sinovial",
+   "Punción articular de rodilla",
+   "Gram líquido articular"
+  ]
+ },
+ "reuma-02": {
+  "codes": [
+   "1.11.2.001",
+   "1.11.5.001",
+   "1.11.4.002",
+   "2.01.1.093",
+   "1.04.1.021",
+   "4.02.4.008"
+  ],
+  "names": [
+   "Artritis séptica",
+   "Punción articular de rodilla",
+   "Estudio de líquido sinovial",
+   "Infecciones osteoarticulares",
+   "Osteomielitis",
+   "Cultivo y antibiograma en infecciones osteoarticulares y heridas"
+  ]
+ },
+ "reuma-03": {
+  "codes": [
+   "1.11.2.002",
+   "1.11.1.007",
+   "1.11.4.002"
+  ],
+  "names": [
+   "Gota aguda",
+   "Condrocalcinosis",
+   "Estudio de líquido sinovial"
+  ]
+ },
+ "reuma-04": {
+  "codes": [
+   "1.11.1.004",
+   "1.11.4.004",
+   "4.02.3.003"
+  ],
+  "names": [
+   "Artrosis",
+   "Radiografía de columna y articulaciones",
+   "Factores de riesgo de artrosis"
+  ]
+ },
+ "reuma-05": {
+  "codes": [
+   "2.01.1.143",
+   "1.11.1.019"
+  ],
+  "names": [
+   "Artritis idiopática juvenil",
+   "Poliartritis"
+  ],
+  "nota": "Still del adulto sin código propio"
+ },
+ "reuma-06": {
+  "codes": [
+   "1.11.1.003",
+   "1.11.1.019",
+   "1.11.4.003"
+  ],
+  "names": [
+   "Artritis reumatoídea",
+   "Poliartritis",
+   "Exámenes inmunológicos del diagnóstico diferencial de mesenquimopatías (AAN, aDNA, aENA1, C3, C4, YGS, FR, Anti CCP, ANCA)"
+  ]
+ },
+ "reuma-07": {
+  "codes": [
+   "1.11.1.003"
+  ],
+  "names": [
+   "Artritis reumatoídea"
+  ]
+ },
+ "reuma-08": {
+  "codes": [
+   "1.11.1.014",
+   "1.11.4.003"
+  ],
+  "names": [
+   "Lupus eritematoso sistémico",
+   "Exámenes inmunológicos del diagnóstico diferencial de mesenquimopatías (AAN, aDNA, aENA1, C3, C4, YGS, FR, Anti CCP, ANCA)"
+  ]
+ },
+ "reuma-09": {
+  "codes": [
+   "1.09.1.006",
+   "1.11.1.014"
+  ],
+  "names": [
+   "Glomerulopatía lúpica",
+   "Lupus eritematoso sistémico"
+  ]
+ },
+ "reuma-10": {
+  "codes": [
+   "6.01.1.016",
+   "1.11.1.014"
+  ],
+  "names": [
+   "Lupus eritematoso cutáneo crónico (lupus discoide)",
+   "Lupus eritematoso sistémico"
+  ]
+ },
+ "reuma-11": {
+  "codes": [
+   "1.11.1.021",
+   "1.08.1.019"
+  ],
+  "names": [
+   "Síndrome antifosfolípidos",
+   "Trombofilias"
+  ]
+ },
+ "reuma-12": {
+  "codes": [
+   "1.11.1.009",
+   "1.05.1.018",
+   "1.05.1.021"
+  ],
+  "names": [
+   "Esclerosis sistémica progresiva",
+   "Enfermedades del intersticio pulmonar",
+   "Hipertensión pulmonar"
+  ]
+ },
+ "reuma-13": {
+  "codes": [
+   "1.11.1.020",
+   "1.10.1.021",
+   "2.01.1.057"
+  ],
+  "names": [
+   "Polimiositis, dermatomiositis",
+   "Síndrome miopático (distrofias musculares, polimiositis)",
+   "Mesenquimopatías"
+  ]
+ },
+ "reuma-14": {
+  "codes": [
+   "1.11.1.009"
+  ],
+  "names": [
+   "Esclerosis sistémica progresiva"
+  ],
+  "nota": "Raynaud sin código; esclerosis sistémica más cercano"
+ },
+ "reuma-15": {
+  "codes": [
+   "1.11.1.022",
+   "6.02.1.024",
+   "1.11.4.003"
+  ],
+  "names": [
+   "Síndrome de Sjögren",
+   "Síndrome de ojo seco",
+   "Exámenes inmunológicos del diagnóstico diferencial de mesenquimopatías (AAN, aDNA, aENA1, C3, C4, YGS, FR, Anti CCP, ANCA)"
+  ],
+  "nota": "EMTC sin código propio"
+ },
+ "reuma-16": {
+  "codes": [
+   "1.11.1.018",
+   "1.11.1.013",
+   "1.11.1.006"
+  ],
+  "names": [
+   "Pelviespondilopatías seronegativas",
+   "Lumbago mecánico",
+   "Columna dolorosa"
+  ]
+ },
+ "reuma-17": {
+  "codes": [
+   "1.11.1.018",
+   "6.02.1.030"
+  ],
+  "names": [
+   "Pelviespondilopatías seronegativas",
+   "Uveítis anterior o posterior"
+  ]
+ },
+ "reuma-18": {
+  "codes": [
+   "1.11.1.001",
+   "1.06.1.018",
+   "1.11.1.018"
+  ],
+  "names": [
+   "Artritis psoriática",
+   "Enfermedad inflamatoria intestinal",
+   "Pelviespondilopatías seronegativas"
+  ]
+ },
+ "reuma-19": {
+  "codes": [
+   "1.11.1.002",
+   "1.04.1.010",
+   "1.11.1.016"
+  ],
+  "names": [
+   "Artritis reactivas",
+   "Enfermedades de transmisión sexual",
+   "Oligoartritis"
+  ]
+ },
+ "reuma-20": {
+  "codes": [
+   "1.11.1.025",
+   "6.02.1.030"
+  ],
+  "names": [
+   "Vasculitis sistémicas",
+   "Uveítis anterior o posterior"
+  ],
+  "nota": "Behçet sin código propio; vasculitis sistémicas"
+ },
+ "reuma-21": {
+  "codes": [
+   "1.11.1.025",
+   "6.02.1.017",
+   "1.01.4.010"
+  ],
+  "names": [
+   "Vasculitis sistémicas",
+   "Neuropatía óptica isquémica",
+   "Hemograma y velocidad de hemosedimentación (VHS)"
+  ]
+ },
+ "reuma-22": {
+  "codes": [
+   "1.11.1.025",
+   "1.09.2.013",
+   "2.01.1.058",
+   "1.08.1.013",
+   "6.01.1.033"
+  ],
+  "names": [
+   "Vasculitis sistémicas",
+   "Vasculitis o glomerulonefritis rápidamente progresiva",
+   "Vasculitis: PSH, Kawasaki, otros",
+   "Púrpuras vasculares",
+   "Vasculitis cutáneas"
+  ]
+ },
+ "reuma-23": {
+  "codes": [
+   "1.11.1.010",
+   "1.11.3.002"
+  ],
+  "names": [
+   "Fibromialgia",
+   "Prevención de complicaciones de la terapia esteroidal"
+  ],
+  "nota": "Polimialgia reumática sin código propio"
+ },
+ "reuma-24": {
+  "codes": [
+   "1.11.1.017",
+   "1.11.4.001",
+   "1.03.1.018",
+   "4.02.3.004"
+  ],
+  "names": [
+   "Osteoporosis",
+   "Densitometría ósea",
+   "Osteoporosis",
+   "Factores de riesgo de osteoporosis"
+  ]
+ },
+ "sp-01": {
+  "codes": [
+   "7.01.3.036",
+   "7.01.3.038",
+   "7.01.3.039",
+   "7.01.3.049",
+   "7.01.3.002",
+   "7.01.3.033",
+   "7.01.3.034",
+   "7.01.3.035",
+   "7.01.3.037"
+  ],
+  "names": [
+   "Organización actual del sistema de salud chileno",
+   "Definición, estructura y funciones de los subsistemas en Chile",
+   "Concepto y descripción de la red asistencial chilena",
+   "Financiamiento del sector salud",
+   "Funciones esenciales de la Salud Pública",
+   "Bases conceptuales de la seguridad social",
+   "Desarrollo histórico de seguridad social y atención de salud",
+   "Funciones de los sistemas de atención de salud",
+   "Política sanitaria y objetivos sanitarios en Chile"
+  ]
+ },
+ "sp-02": {
+  "codes": [
+   "7.01.3.040",
+   "7.01.3.047",
+   "7.01.3.053",
+   "2.01.3.015",
+   "1.07.3.012"
+  ],
+  "names": [
+   "Beneficios de la seguridad social y rol del médico en su acceso",
+   "Auditoría y acreditación",
+   "Derecho GES a atención integral de salud en agresión sexual aguda",
+   "Salud oral",
+   "Derecho GES a ayudas técnicas para personas de 65 años o más, como órtesis"
+  ],
+  "nota": "No specific V3 code for GES guarantees"
+ },
+ "sp-03": {
+  "codes": [
+   "7.01.3.040"
+  ],
+  "names": [
+   "Beneficios de la seguridad social y rol del médico en su acceso"
+  ],
+  "nota": "No specific V3 code for Ricarte Soto/PNAC/PACAM"
+ },
+ "sp-04": {
+  "codes": [
+   "7.01.3.016",
+   "7.01.3.051",
+   "7.01.3.031",
+   "7.01.3.015",
+   "7.01.3.027"
+  ],
+  "names": [
+   "Vigilancia epidemiológica y estudio de brotes",
+   "Certificado de defunción, licencia médica, notificación de enfermedades",
+   "Estrategias de control de enfermedades infecciosas",
+   "Usos de la epidemiología en el control de enfermedades",
+   "Investigación epidemiológica"
+  ]
+ },
+ "sp-05": {
+  "codes": [
+   "7.01.3.008",
+   "7.01.3.010",
+   "2.01.3.005",
+   "7.01.3.001",
+   "7.01.3.005",
+   "7.01.3.006",
+   "7.01.3.012",
+   "7.01.3.017",
+   "7.01.3.030"
+  ],
+  "names": [
+   "Diagnóstico de situación de salud:",
+   "Etapas del diagnóstico de situación de salud",
+   "Familia y ciclo vital",
+   "Conceptos y definiciones de Salud Pública",
+   "Promoción de salud y prevención de enfermedades",
+   "Determinantes del nivel de salud",
+   "Ejecución de un diagnóstico",
+   "Usos de la epidemiología en el diagnóstico de situación de salud",
+   "Criterios de priorización de problemas"
+  ],
+  "nota": "No specific V3 code for MAIS model"
+ },
+ "sp-06": {
+  "codes": [
+   "7.01.3.020",
+   "7.01.3.022",
+   "7.01.3.023",
+   "7.01.3.024",
+   "7.01.3.013",
+   "7.01.3.018",
+   "7.01.3.021",
+   "7.01.3.025"
+  ],
+  "names": [
+   "Diseños de investigación epidemiológica",
+   "Estudios de casos y controles",
+   "Estudios de cohortes",
+   "Estudios experimentales y cuasiexperimentales",
+   "Concepto y campo de la epidemiología",
+   "Epidemiología analítica",
+   "Estudios de prevalencia",
+   "Concepto de estudios ecológicos"
+  ]
+ },
+ "sp-07": {
+  "codes": [
+   "7.01.3.019",
+   "7.01.3.014",
+   "3.01.3.007",
+   "3.01.3.012",
+   "7.01.3.009",
+   "7.01.3.029",
+   "2.01.3.014"
+  ],
+  "names": [
+   "Medidas de asociación e impacto",
+   "Epidemiología descriptiva",
+   "Mortalidad perinatal y materna",
+   "Salud pública perinatal",
+   "Indicadores de nivel de salud: cálculo e interpretación",
+   "Descripción sistemática de problemas",
+   "Salud infantil en Chile y el mundo"
+  ]
+ },
+ "sp-08": {
+  "codes": [
+   "7.01.3.028"
+  ],
+  "names": [
+   "Pruebas de screening (tamizaje) y diagnósticas"
+  ]
+ },
+ "sp-09": {
+  "codes": [
+   "7.01.3.026"
+  ],
+  "names": [
+   "Causalidad y sesgos"
+  ]
+ },
+ "sp-10": {
+  "codes": [
+   "7.01.3.028",
+   "7.01.3.004",
+   "7.01.3.003",
+   "7.01.3.046"
+  ],
+  "names": [
+   "Pruebas de screening (tamizaje) y diagnósticas",
+   "Niveles de prevención",
+   "Historia natural de la enfermedad",
+   "Evaluación y control: conceptos, tipos de evaluación"
+  ]
+ },
+ "sp-11": {
+  "codes": [
+   "7.01.3.052",
+   "7.01.3.056",
+   "2.01.3.013"
+  ],
+  "names": [
+   "Ejercicio profesional: marcos ético, legal y gremial",
+   "Conocimiento de los derechos y deberes del paciente",
+   "Relación médico-paciente-familia"
+  ]
+ },
+ "sp-12": {
+  "codes": [
+   "7.01.3.056",
+   "2.01.3.016"
+  ],
+  "names": [
+   "Conocimiento de los derechos y deberes del paciente",
+   "Supervisión de salud- adolescente"
+  ]
+ },
+ "sp-13": {
+  "codes": [
+   "7.01.3.051",
+   "7.01.3.052",
+   "5.01.3.008",
+   "5.01.3.013",
+   "7.01.3.011",
+   "7.01.3.050",
+   "2.01.3.010"
+  ],
+  "names": [
+   "Certificado de defunción, licencia médica, notificación de enfermedades",
+   "Ejercicio profesional: marcos ético, legal y gremial",
+   "Maltrato infantil",
+   "Violencia intrafamiliar",
+   "Fuentes de información para el diagnóstico",
+   "Rol del médico en la generación y uso de la información",
+   "Prevención de maltrato y abuso infantil"
+  ]
+ },
+ "sp-14": {
+  "codes": [
+   "7.01.3.052",
+   "7.01.3.054",
+   "3.01.3.002",
+   "1.11.3.001",
+   "4.02.3.001"
+  ],
+  "names": [
+   "Ejercicio profesional: marcos ético, legal y gremial",
+   "Otorgamiento, uso y sanciones por mal uso de licencias médicas",
+   "Derechos y aspectos legales de la embarazada y su pareja",
+   "Condiciones de trabajo",
+   "Accidentes del trabajo"
+  ]
+ },
+ "trauma-01": {
+  "codes": [
+   "4.02.2.007",
+   "4.02.5.001",
+   "4.02.3.002",
+   "4.02.4.003",
+   "4.01.5.032",
+   "4.02.2.005"
+  ],
+  "names": [
+   "Fracturas de diáfisis y metáfisis",
+   "Inmovilizaciones de urgencia",
+   "Complicaciones de la inmovilización con yeso",
+   "Radiografía huesos largos ante sospecha de fractura",
+   "Vendajes e inmovilizaciones con férulas",
+   "Fractura de la muñeca"
+  ]
+ },
+ "trauma-02": {
+  "codes": [
+   "4.02.2.008",
+   "4.02.5.001",
+   "4.02.5.005"
+  ],
+  "names": [
+   "Fracturas expuestas",
+   "Inmovilizaciones de urgencia",
+   "Traslado del traumatizado"
+  ]
+ },
+ "trauma-03": {
+  "codes": [
+   "4.02.2.001",
+   "1.01.1.006",
+   "4.01.1.049"
+  ],
+  "names": [
+   "Complicaciones de los traumatismos: sistémicas y vasculares",
+   "Embolia pulmonar",
+   "Trombosis venosa profunda y tromboflebitis"
+  ],
+  "nota": "No specific compartment syndrome code; general complications used"
+ },
+ "trauma-04": {
+  "codes": [
+   "4.02.2.010",
+   "4.01.2.021",
+   "4.02.2.001",
+   "4.01.2.023",
+   "2.01.2.009",
+   "4.02.2.012",
+   "4.02.5.003"
+  ],
+  "names": [
+   "Lesiones de los nervios periféricos",
+   "Insufic. arterial aguda: embolia, trombosis, traumatismos",
+   "Complicaciones de los traumatismos: sistémicas y vasculares",
+   "Traumatismos vasculares",
+   "Fracturas",
+   "Luxación del hombro",
+   "Reducción de luxaciones de codo, hombro e interfalángicas"
+  ]
+ },
+ "trauma-05": {
+  "codes": [
+   "4.02.2.006",
+   "4.02.2.014",
+   "4.03.2.009",
+   "4.02.4.006"
+  ],
+  "names": [
+   "Fractura inestable de la pelvis",
+   "Politraumatizado",
+   "Traumatismo uretral",
+   "Set radiológico de trauma en conjunto (columna cervical, tórax, pelvis y columna)"
+  ]
+ },
+ "trauma-06": {
+  "codes": [
+   "4.02.2.007"
+  ],
+  "names": [
+   "Fracturas de diáfisis y metáfisis"
+  ],
+  "nota": "No pseudoarthrosis/nonunion code; closest fracture code"
+ },
+ "trauma-07": {
+  "codes": [
+   "4.02.2.013",
+   "4.02.2.003",
+   "4.02.2.007",
+   "4.02.4.003",
+   "4.01.4.007"
+  ],
+  "names": [
+   "Luxofractura del tobillo",
+   "Esguince grado1 (acromioclavicular, dedos, rodilla y tobillo)",
+   "Fracturas de diáfisis y metáfisis",
+   "Radiografía huesos largos ante sospecha de fractura",
+   "Radiografía de extremidades"
+  ]
+ },
+ "trauma-08": {
+  "codes": [
+   "4.02.2.011",
+   "1.11.3.003"
+  ],
+  "names": [
+   "Lesiones de partes blandas (contusiones, hematomas, desgarros)",
+   "Riesgos deportivos"
+  ],
+  "nota": "No knee ligament/meniscus code; closest soft-tissue injury"
+ },
+ "trauma-09": {
+  "codes": [
+   "4.02.2.011",
+   "4.02.2.003"
+  ],
+  "names": [
+   "Lesiones de partes blandas (contusiones, hematomas, desgarros)",
+   "Esguince grado1 (acromioclavicular, dedos, rodilla y tobillo)"
+  ]
+ },
+ "trauma-10": {
+  "codes": [
+   "4.02.2.004",
+   "4.02.4.002",
+   "1.07.2.003",
+   "4.01.4.006",
+   "4.02.5.004"
+  ],
+  "names": [
+   "Fractura de cadera",
+   "Radiografía de pelvis-caderas ante sospecha de fractura",
+   "Fractura de cadera",
+   "Radiografía de pelvis y cadera",
+   "Tracción de partes blandas"
+  ]
+ },
+ "trauma-11": {
+  "codes": [
+   "4.02.1.008",
+   "4.02.1.005",
+   "1.11.1.024",
+   "1.11.1.008",
+   "1.11.1.012",
+   "4.02.1.004",
+   "4.02.3.005"
+  ],
+  "names": [
+   "Síndrome de hombro doloroso",
+   "Lumbago mecánico",
+   "Tendonitis y bursitis",
+   "Epicondilalgia, epitroclealgias",
+   "Lumbago infeccioso y tumoral",
+   "Infecciones osteoarticulares",
+   "Lumbociática radicular"
+  ]
+ },
+ "trauma-12": {
+  "codes": [
+   "4.02.1.001",
+   "1.11.1.015",
+   "1.11.2.002",
+   "4.02.4.007",
+   "4.02.5.002",
+   "4.02.1.004"
+  ],
+  "names": [
+   "Artrosis primarias y secundarias",
+   "Monoartritis",
+   "Gota aguda",
+   "Citoquimico de líquido articular",
+   "Punción articular de rodilla",
+   "Infecciones osteoarticulares"
+  ],
+  "nota": "Septic arthritis (1.11.2.001) also taught; cap of 4"
+ },
+ "trauma-13": {
+  "codes": [
+   "4.02.1.009",
+   "4.02.4.005"
+  ],
+  "names": [
+   "Tumores óseos",
+   "Radiografía en tumores oseos"
+  ]
+ },
+ "trauma-14": {
+  "codes": [
+   "4.02.1.002",
+   "4.02.1.003",
+   "2.01.1.091",
+   "4.02.4.004",
+   "4.02.1.007",
+   "4.02.2.002",
+   "2.01.1.094"
+  ],
+  "names": [
+   "Displasia congénita de cadera",
+   "Escoliosis y deformidades vertebrales",
+   "Alteraciones de los pies",
+   "Radiografía de displasia cadera",
+   "Pie plano",
+   "Disyunción-fractura del niño",
+   "Patología de columna"
+  ],
+  "nota": "Painful pediatric hip (Perthes/epiphysiolysis) lacks specific code"
+ },
+ "trauma-15": {
+  "codes": [
+   "4.02.1.005",
+   "4.02.1.008",
+   "1.11.1.005",
+   "4.02.1.006",
+   "4.01.4.005",
+   "1.10.1.010",
+   "1.10.1.011",
+   "1.11.1.011",
+   "4.02.4.001"
+  ],
+  "names": [
+   "Lumbago mecánico",
+   "Síndrome de hombro doloroso",
+   "Cervicalgia",
+   "Lumbociática radicular",
+   "Radiografía de columna dorsal y lumbar",
+   "Lumbago mecánico",
+   "Lumbociáticas y cervicobraquialgias.",
+   "Hombro doloroso",
+   "Radiografía de columna vertebral"
+  ]
+ },
+ "uro-01": {
+  "codes": [
+   "4.03.2.001",
+   "4.03.1.025",
+   "4.03.4.003",
+   "1.03.4.011",
+   "1.09.1.024",
+   "1.09.2.001",
+   "1.09.4.003",
+   "1.09.4.004",
+   "1.09.4.011",
+   "1.09.5.003",
+   "4.03.1.026",
+   "4.03.4.001",
+   "4.03.4.002"
+  ],
+  "names": [
+   "Cólico renal",
+   "Urolitiasis",
+   "Pielo TAC",
+   "Calciuria",
+   "Urolitiasis",
+   "Cólico nefrítico, urolitiasis y complicaciones: obstrucción, sepsis, insuficiencia renal",
+   "Pielo TAC",
+   "Radiografía renal y vesical simple",
+   "Estudio metabólico de urolitiasis",
+   "Instalación pigtail",
+   "Uropatía alta",
+   "Radiografía renal y vesical simple",
+   "Pielografía de eliminación"
+  ]
+ },
+ "uro-02": {
+  "codes": [
+   "4.03.2.006",
+   "4.03.1.027",
+   "4.03.5.005",
+   "4.03.5.004",
+   "4.01.5.005",
+   "1.09.1.025",
+   "1.09.5.002",
+   "1.09.5.005",
+   "4.03.1.008",
+   "4.03.1.012",
+   "4.03.4.005",
+   "4.03.5.003"
+  ],
+  "names": [
+   "Retención urinaria aguda",
+   "Uropatía obstructiva baja",
+   "Instalación y cuidado de sonda Foley",
+   "Cistostomía por punción",
+   "Instalación y cuidado de sonda Foley",
+   "Uropatía obstructiva",
+   "Cistostomía de urgencia",
+   "Nefrostomia percutánea",
+   "Estenosis uretral",
+   "Hidronefrosis",
+   "Uretrocistografía",
+   "Cistostomía abierta"
+  ]
+ },
+ "uro-03": {
+  "codes": [
+   "4.03.1.013",
+   "4.03.1.027",
+   "4.03.3.002",
+   "1.09.4.006",
+   "1.09.5.007",
+   "4.03.4.007",
+   "4.03.4.013"
+  ],
+  "names": [
+   "Hiperplasia prostática benigna",
+   "Uropatía obstructiva baja",
+   "Epidemiología del adenoma de próstata",
+   "Ecografía vésico-prostática básica",
+   "Tacto rectal para reconocimiento básico de crecimiento prostático",
+   "Ecotomografía de vejiga y próstata",
+   "Uroflujometría"
+  ]
+ },
+ "uro-04": {
+  "codes": [
+   "4.03.1.014",
+   "1.07.1.012",
+   "4.03.4.012"
+  ],
+  "names": [
+   "Incontinencia urinaria",
+   "Incontinencia urinaria",
+   "Urodinamia"
+  ]
+ },
+ "uro-05": {
+  "codes": [
+   "4.03.2.007",
+   "4.03.4.008",
+   "2.01.2.025"
+  ],
+  "names": [
+   "Torsión testicular",
+   "Ecotomografía testicular",
+   "Testículo agudo"
+  ]
+ },
+ "uro-06": {
+  "codes": [
+   "4.03.1.007",
+   "4.03.1.006"
+  ],
+  "names": [
+   "Epididimitis",
+   "Enfermedades de transmisión sexual"
+  ]
+ },
+ "uro-07": {
+  "codes": [
+   "4.03.1.028",
+   "4.03.1.011",
+   "4.03.1.020",
+   "2.01.1.088"
+  ],
+  "names": [
+   "Varicocele",
+   "Hidrocele",
+   "Quistes del epidídimo",
+   "Criptorquidia"
+  ]
+ },
+ "uro-08": {
+  "codes": [
+   "4.03.1.002",
+   "4.03.3.005",
+   "4.03.4.010",
+   "4.03.5.001",
+   "1.08.4.002",
+   "4.03.3.001"
+  ],
+  "names": [
+   "Cáncer de próstata",
+   "Screening de cáncer de próstata",
+   "Antígeno prostático específico",
+   "Biopsia prostática",
+   "Cintigrafía ósea y cintigrafía con galio",
+   "Epidemiología del cáncer de próstata"
+  ]
+ },
+ "uro-09": {
+  "codes": [
+   "4.03.1.002"
+  ],
+  "names": [
+   "Cáncer de próstata"
+  ]
+ },
+ "uro-10": {
+  "codes": [
+   "4.03.1.024",
+   "4.03.4.008",
+   "4.03.3.003",
+   "4.03.1.004"
+  ],
+  "names": [
+   "Tumor testicular",
+   "Ecotomografía testicular",
+   "Epidemiologia del cáncer testicular",
+   "Criptorquídea"
+  ]
+ },
+ "uro-11": {
+  "codes": [
+   "4.03.1.022",
+   "4.03.4.004",
+   "2.01.1.037"
+  ],
+  "names": [
+   "Tumor renal",
+   "TAC de abdomen y pelvis",
+   "Tumores sólidos"
+  ]
+ },
+ "uro-12": {
+  "codes": [
+   "4.03.1.003",
+   "4.03.5.002",
+   "4.03.1.010",
+   "1.09.5.001"
+  ],
+  "names": [
+   "Cáncer de vejiga y urotelio",
+   "Cistoscopia",
+   "Hematuria",
+   "Cistoscopia"
+  ]
+ },
+ "uro-13": {
+  "codes": [
+   "4.03.2.005"
+  ],
+  "names": [
+   "Prostatis aguda"
+  ]
+ },
+ "uro-14": {
+  "codes": [
+   "4.03.1.018",
+   "1.09.1.019"
+  ],
+  "names": [
+   "Lesiones quísticas del riñón",
+   "Riñón poliquístico"
+  ]
+ },
+ "uro-15": {
+  "codes": [
+   "4.03.1.010",
+   "4.03.4.011",
+   "1.09.1.021",
+   "1.09.4.012",
+   "2.01.1.060",
+   "1.02.4.013",
+   "4.03.2.002"
+  ],
+  "names": [
+   "Hematuria",
+   "Examen de orina completo, urocultivo",
+   "Síndrome nefrítico",
+   "Examen de orina y sedimento urinario",
+   "Hematuria",
+   "Examen de orina completa",
+   "Hematuria masiva"
+  ]
+ },
+ "uro-16": {
+  "codes": [
+   "4.03.1.009",
+   "4.03.1.001",
+   "4.03.2.004",
+   "4.03.1.005",
+   "4.03.2.003",
+   "4.03.5.006"
+  ],
+  "names": [
+   "Fimosis, parafimosis",
+   "Balanitis, balano postitis",
+   "Priapismo",
+   "Disfunción sexual de causa orgánica",
+   "Parafimosis",
+   "Reducción de parafimosis"
+  ]
+ },
+ "psiq-19": {
+  "codes": [
+   "5.01.3.001",
+   "5.01.3.005",
+   "5.01.1.022",
+   "5.01.3.009"
+  ],
+  "names": [
+   "Clasificaciones en psiquiatría",
+   "Higiene del sueño",
+   "Trastornos facticios",
+   "Nociones de psiquiatría forense"
+  ]
+ },
+ "psiq-20": {
+  "codes": [
+   "5.01.1.017",
+   "5.01.1.019",
+   "5.01.3.012",
+   "5.01.3.006",
+   "3.01.3.014"
+  ],
+  "names": [
+   "Disfunción sexual",
+   "Sexualidad humana y sus alteraciones",
+   "Respuesta sexual humana",
+   "Disforia de género",
+   "Sexualidad, género y diversidad"
+  ]
+ },
+ "infecto-25": {
+  "codes": [
+   "1.04.1.016",
+   "1.04.1.029",
+   "2.01.2.144"
+  ],
+  "names": [
+   "Influenza",
+   "Enfermedad leve moderada por SARS Cov 2 COVID 19",
+   "SARS Cov 2 COVID 19"
+  ]
+ },
+ "cirugia-19": {
+  "codes": [
+   "4.01.1.044",
+   "4.01.1.048",
+   "4.01.1.050"
+  ],
+  "names": [
+   "Aneurisma de aorta torácica, femoral y poplítea",
+   "Várices. Insuficiencia venosa crónica",
+   "Ulceras de las piernas (venosas, varicosas, hipert. y específicas)"
+  ]
+ },
+ "cirugia-20": {
+  "codes": [
+   "4.01.1.060"
+  ],
+  "names": [
+   "Obesidad mórbida"
+  ]
+ },
+ "cirugia-21": {
+  "codes": [
+   "1.01.5.008",
+   "4.01.5.027",
+   "4.01.5.021",
+   "4.01.1.059",
+   "4.01.5.024"
+  ],
+  "names": [
+   "Punción venosa",
+   "Punción venosa",
+   "Manejo de drenajes",
+   "Onicocriptosis",
+   "Onicectomía"
+  ]
+ },
+ "resp-25": {
+  "codes": [
+   "1.05.2.001",
+   "1.07.1.011"
+  ],
+  "names": [
+   "Asfixia por inmersión",
+   "Hipotermia"
+  ]
+ },
+ "sp-15": {
+  "codes": [
+   "7.01.3.007",
+   "7.01.3.041",
+   "7.01.3.042",
+   "7.01.3.043",
+   "7.01.3.044",
+   "7.01.3.045",
+   "7.01.3.055"
+  ],
+  "names": [
+   "Demografía y salud pública",
+   "Conceptos de administración y gestión",
+   "Planificación y programación en salud",
+   "Formulación de programas",
+   "Organización: principios y características estructurales y funcionales de las organizaciones",
+   "Dirección: funciones de la dirección, liderazgo, comunicaciones, coordinación",
+   "Conceptos básicos de administración de establecimientos de salud"
+  ]
+ },
+ "ped-26": {
+  "codes": [
+   "2.01.1.134",
+   "2.01.1.132"
+  ],
+  "names": [
+   "Trisomía 21",
+   "Dismorfias"
+  ]
+ },
+ "ped-28": {
+  "codes": [
+   "2.01.1.138",
+   "2.01.3.004",
+   "2.01.3.009",
+   "2.01.3.012"
+  ],
+  "names": [
+   "Maltrato infantil",
+   "Entrevista y comunicación efectiva",
+   "Prevención de conductas de riesgo",
+   "Psiquiatría de enlace"
+  ]
+ },
+ "ped-23": {
+  "codes": [
+   "2.01.1.054",
+   "2.01.1.052",
+   "2.01.2.012",
+   "2.01.1.049",
+   "2.01.1.051",
+   "2.01.4.012"
+  ],
+  "names": [
+   "Soplos",
+   "Insuficiencia cardíaca",
+   "Insuficiencia cardíaca. Edema pulmonar",
+   "Arritmias",
+   "Endocarditis infecciosa",
+   "Electrocardiograma"
+  ]
+ },
+ "ped-24": {
+  "codes": [
+   "2.01.2.020",
+   "2.01.5.012",
+   "2.01.2.014",
+   "2.01.3.008"
+  ],
+  "names": [
+   "Paro cardiorrespiratorio",
+   "Reanimación cardiopulmonar pediátrica",
+   "Intoxicaciones",
+   "Prevención de accidentes"
+  ]
+ },
+ "ped-25": {
+  "codes": [
+   "2.01.1.056",
+   "2.01.1.014",
+   "2.01.1.044",
+   "2.01.4.015"
+  ],
+  "names": [
+   "Inmunodeficiencias",
+   "Infecciones recurrentes",
+   "Hepatomegalia",
+   "Hemograma"
+  ]
+ },
+ "ped-27": {
+  "codes": [
+   "2.01.1.089",
+   "2.01.1.131",
+   "2.01.1.059"
+  ],
+  "names": [
+   "Fimosis",
+   "Sinequias vulvares",
+   "Enuresis"
+  ]
+ },
+ "diab-25": {
+  "codes": [
+   "1.02.1.012",
+   "1.02.1.013",
+   "1.02.1.016",
+   "1.02.1.018",
+   "1.02.3.001",
+   "1.02.3.002",
+   "1.02.3.006",
+   "1.02.3.012",
+   "1.02.3.014",
+   "1.02.4.012",
+   "1.02.4.020",
+   "1.01.1.023",
+   "1.01.3.001",
+   "1.01.3.004"
+  ],
+  "names": [
+   "Obesidad",
+   "Obesidad mórbida",
+   "Síndrome metabólico",
+   "Trastornos de conducta alimentaria",
+   "Alimentación saludable",
+   "Anorexia nerviosa",
+   "Prevención de Diabetes Mellitus tipo 2",
+   "Regímenes dietéticos para obesidad",
+   "Síndrome metabólico",
+   "Evaluación nutricional",
+   "Nitrogeno urinario",
+   "Síndrome metabólico",
+   "Alimentación saludable",
+   "Obesidad y sobrepeso"
+  ]
+ },
+ "neuro-25": {
+  "codes": [
+   "1.07.1.009",
+   "1.07.2.002"
+  ],
+  "names": [
+   "Hipertensión arterial",
+   "Evento coronario en adulto mayor"
+  ]
+ },
+ "neuro-26": {
+  "codes": [
+   "1.07.3.003",
+   "1.08.3.007",
+   "1.08.3.008"
+  ],
+  "names": [
+   "Manejo, cuidado y acompañamiento de final de vida",
+   "Manejo del dolor crónico y paliativo",
+   "Manejo del paciente terminal oncológico"
+  ]
+ },
+ "derma-17": {
+  "codes": [
+   "6.01.1.028",
+   "6.01.1.013",
+   "2.01.1.111"
+  ],
+  "names": [
+   "Tumores benignos de piel (quistes, lipomas, queratosis seborreica)",
+   "Hemangiomas cutáneos infantiles",
+   "Malformaciones vasculares cutáneas"
+  ]
+ },
+ "derma-18": {
+  "codes": [
+   "6.01.2.008",
+   "6.01.3.002"
+  ],
+  "names": [
+   "Loxocelismo",
+   "Higiene de la vivienda y profilaxis del loxoscelismo"
+  ]
+ },
+ "ob-21": {
+  "codes": [
+   "1.01.3.002",
+   "3.01.1.007",
+   "3.01.2.007"
+  ],
+  "names": [
+   "Cardiopatía y embarazo",
+   "Embarazo múltiple",
+   "Hiperemesis gravídica"
+  ]
+ },
+ "cardio-01": {
+  "codes": [
+   "1.01.4.007"
+  ],
+  "names": [
+   "Electrocardiograma"
+  ]
+ },
+ "cardio-02": {
+  "codes": [
+   "1.01.2.006",
+   "1.01.5.006",
+   "1.05.2.012",
+   "1.05.5.010",
+   "4.01.2.030",
+   "4.01.5.028"
+  ],
+  "names": [
+   "Paro cardiorespiratorio",
+   "Resucitación cardiorespiratoria",
+   "Paro cardiorespiratorio",
+   "Resucitación cardiorespiratoria",
+   "Paro cardiorespiratorio",
+   "Resucitación cardiorrespiratoria"
+  ]
+ },
+ "cardio-03": {
+  "codes": [
+   "1.01.5.004",
+   "1.01.2.006",
+   "1.01.5.006"
+  ],
+  "names": [
+   "Desfibrilación",
+   "Paro cardiorespiratorio",
+   "Resucitación cardiorespiratoria"
+  ]
+ },
+ "cardio-04": {
+  "codes": [
+   "1.01.1.012",
+   "1.01.1.013",
+   "1.01.1.014"
+  ],
+  "names": [
+   "Fibrilación auricular crónica",
+   "Fibrilación auricular paroxística",
+   "Flutter auricular"
+  ]
+ },
+ "cardio-05": {
+  "codes": [
+   "1.01.3.003"
+  ],
+  "names": [
+   "Manejo del paciente en tratamiento anticoagulante"
+  ]
+ },
+ "cardio-06": {
+  "codes": [
+   "1.01.1.024"
+  ],
+  "names": [
+   "Taquicardia paroxística supraventricular (TPSV)"
+  ]
+ },
+ "cardio-07": {
+  "codes": [
+   "1.01.2.009",
+   "1.01.5.002"
+  ],
+  "names": [
+   "Taqui y bradiarritmia con compromiso hemodinámico",
+   "Cardioversión eléctrica"
+  ]
+ },
+ "cardio-08": {
+  "codes": [
+   "1.01.1.002",
+   "1.01.2.009"
+  ],
+  "names": [
+   "Bloqueos aurículo-ventriculares",
+   "Taqui y bradiarritmia con compromiso hemodinámico"
+  ]
+ },
+ "cardio-09": {
+  "codes": [
+   "1.01.1.011",
+   "1.01.4.014"
+  ],
+  "names": [
+   "Extrasistolía ventricular benigna",
+   "Holter de ritmo"
+  ]
+ },
+ "cardio-10": {
+  "codes": [
+   "1.01.4.007",
+   "1.01.4.009"
+  ],
+  "names": [
+   "Electrocardiograma",
+   "Enzimas cardíacas (CPK, MB, LDH, troponinas)"
+  ]
+ },
+ "cardio-11": {
+  "codes": [
+   "1.01.1.001",
+   "1.01.4.008",
+   "1.01.4.005",
+   "1.01.4.001"
+  ],
+  "names": [
+   "Angina crónica estable",
+   "Test de esfuerzo",
+   "Cintigrafía de perfusión miocárdica",
+   "Coronariografía"
+  ]
+ },
+ "cardio-12": {
+  "codes": [
+   "1.01.1.001"
+  ],
+  "names": [
+   "Angina crónica estable"
+  ]
+ },
+ "cardio-13": {
+  "codes": [
+   "1.01.2.001",
+   "1.01.4.009"
+  ],
+  "names": [
+   "Angina inestable",
+   "Enzimas cardíacas (CPK, MB, LDH, troponinas)"
+  ]
+ },
+ "cardio-14": {
+  "codes": [
+   "1.01.2.004",
+   "1.01.5.009",
+   "1.01.4.007"
+  ],
+  "names": [
+   "Infarto agudo al miocardio",
+   "Trombolisis",
+   "Electrocardiograma"
+  ]
+ },
+ "cardio-15": {
+  "codes": [
+   "1.01.2.004",
+   "1.01.4.006"
+  ],
+  "names": [
+   "Infarto agudo al miocardio",
+   "Ecocardiografía"
+  ]
+ },
+ "cardio-16": {
+  "codes": [
+   "1.01.1.018",
+   "1.01.4.006"
+  ],
+  "names": [
+   "Insuficiencia cardíaca",
+   "Ecocardiografía"
+  ]
+ },
+ "cardio-17": {
+  "codes": [
+   "1.01.1.018"
+  ],
+  "names": [
+   "Insuficiencia cardíaca"
+  ]
+ },
+ "cardio-18": {
+  "codes": [
+   "1.01.2.005"
+  ],
+  "names": [
+   "Insuficiencia cardíaca aguda"
+  ]
+ },
+ "cardio-19": {
+  "codes": [
+   "1.01.2.007",
+   "1.01.2.005"
+  ],
+  "names": [
+   "Shock",
+   "Insuficiencia cardíaca aguda"
+  ]
+ },
+ "cardio-20": {
+  "codes": [
+   "1.01.1.020"
+  ],
+  "names": [
+   "Miocardiopatías"
+  ]
+ },
+ "cardio-21": {
+  "codes": [
+   "1.01.1.020"
+  ],
+  "names": [
+   "Miocardiopatías"
+  ]
+ },
+ "cardio-22": {
+  "codes": [
+   "1.01.1.021"
+  ],
+  "names": [
+   "Paciente con soplo"
+  ]
+ },
+ "cardio-23": {
+  "codes": [
+   "1.01.1.009",
+   "1.01.4.006"
+  ],
+  "names": [
+   "Estenosis aórtica",
+   "Ecocardiografía"
+  ]
+ },
+ "cardio-24": {
+  "codes": [
+   "1.01.1.017"
+  ],
+  "names": [
+   "Insuficiencia aórtica"
+  ]
+ },
+ "cardio-25": {
+  "codes": [
+   "1.01.1.010",
+   "1.01.1.008",
+   "1.01.3.005"
+  ],
+  "names": [
+   "Estenosis mitral",
+   "Enfermedad reumática activa",
+   "Prevención de enfermedad reumática"
+  ]
+ },
+ "cardio-26": {
+  "codes": [
+   "1.01.1.019"
+  ],
+  "names": [
+   "Insuficiencia mitral"
+  ]
+ },
+ "cardio-27": {
+  "codes": [
+   "1.01.1.003"
+  ],
+  "names": [
+   "Cardiopatía congénita en adulto"
+  ]
+ },
+ "cardio-28": {
+  "codes": [
+   "1.01.1.007",
+   "1.04.2.003",
+   "1.04.3.007"
+  ],
+  "names": [
+   "Endocarditis infecciosa y no infecciosa",
+   "Endocarditis bateriana",
+   "Profilaxis de endocarditis infecciosa"
+  ]
+ },
+ "cardio-29": {
+  "codes": [
+   "1.01.1.015",
+   "1.01.4.011"
+  ],
+  "names": [
+   "Hipertensión arterial esencial",
+   "Holter de presión arterial"
+  ]
+ },
+ "cardio-30": {
+  "codes": [
+   "1.01.1.015"
+  ],
+  "names": [
+   "Hipertensión arterial esencial"
+  ]
+ },
+ "cardio-31": {
+  "codes": [
+   "1.01.1.016"
+  ],
+  "names": [
+   "Hipertensión arterial secundaria"
+  ]
+ },
+ "cardio-32": {
+  "codes": [
+   "1.09.2.002"
+  ],
+  "names": [
+   "Crisis hipertensivas, emergencias hipertensivas"
+  ]
+ },
+ "cardio-33": {
+  "codes": [
+   "1.01.1.022"
+  ],
+  "names": [
+   "Pericarditis aguda"
+  ]
+ },
+ "cardio-34": {
+  "codes": [
+   "1.01.2.008",
+   "1.01.5.007"
+  ],
+  "names": [
+   "Taponamiento pericárdico",
+   "Punción pericárdica"
+  ]
+ },
+ "cardio-35": {
+  "codes": [
+   "1.01.2.002",
+   "1.01.4.002"
+  ],
+  "names": [
+   "Disección aórtica",
+   "Angiotac de tórax y aorta"
+  ]
+ },
+ "cardio-36": {
+  "codes": [
+   "4.01.2.022"
+  ],
+  "names": [
+   "Aneurisma de aorta abdominal"
+  ]
+ },
+ "cardio-37": {
+  "codes": [
+   "1.01.1.006",
+   "1.05.2.005",
+   "1.01.4.002"
+  ],
+  "names": [
+   "Embolia pulmonar",
+   "Embolia pulmonar masiva",
+   "Angiotac de tórax y aorta"
+  ]
+ },
+ "cardio-38": {
+  "codes": [
+   "4.01.1.049"
+  ],
+  "names": [
+   "Trombosis venosa profunda y tromboflebitis"
+  ]
+ }
+}

@@ -36,7 +36,8 @@ module.exports = {
         { show: ['pan'], note: 'El tejido destructor característico',
           say: 'Los linfocitos T colaboradores y macrófagos activados migran a la membrana sinovial y liberan citoquinas como factor de necrosis tumoral e interleuquina seis. La sinovial sufre hiperplasia masiva y neoangiogénesis, formando el pannus: un tejido invasivo destructivo.' },
         { show: ['ost'], note: 'Erosión ósea en sacabocado',
-          say: 'El pannus expresa el ligando de RANK y estimula la formación acelerada de osteoclastos. Esto provoca las erosiones óseas marginales en sacabocado y la osteopenia yuxtaarticular en las zonas descubiertas de cartílago.' },
+          say: 'El pannus expresa el ligando de RANK y estimula la formación acelerada de osteoclastos. Esto provoca las erosiones óseas marginales en sacabocado y la osteopenia yuxtaarticular en las zonas descubiertas de cartílago. Mira estas radiografías de manos: los bordes del hueso comidos, que son las erosiones.',
+          photo: { src: 'biblioteca/08_reumatologia/reuma-06/02_rx-manos-ar-erosiones__cto-reuma_p27.jpg', label: 'Erosiones en las manos', at: 'Mira estas radiografías de manos', credit: 'Manual CTO Reumatología 14.ª ed., p. 27' } },
         { show: ['car'], note: 'Destrucción del cartílago',
           say: 'Al mismo tiempo, la liberación continua de metaloproteinasas degrada la matriz cartilaginosa, provocando la pérdida del espacio articular. Comprender este mecanismo explica por qué el tratamiento debe partir antes de que el pannus destruya el hueso.' },
       ],
@@ -87,9 +88,14 @@ module.exports = {
       ],
       steps: [
         { show: ['sin', 'raf'], note: 'Ráfaga ulnar',
-          say: 'Si no se frena tempranamente con fármacos modificadores, la destrucción de la cápsula y los tendones extensores provoca la subluxación palmar de las metacarpofalángicas, desviando los dedos hacia el lado ulnar en ráfaga.' },
+          say: 'Si no se frena tempranamente con fármacos modificadores, la destrucción de la cápsula y los tendones extensores provoca la subluxación palmar de las metacarpofalángicas, desviando los dedos hacia el lado ulnar en ráfaga. Mira esta mano: los dedos corridos hacia el lado del meñique. Y en esta radiografía, las articulaciones subluxadas.',
+          photos: [
+            { src: 'biblioteca/08_reumatologia/reuma-06/01_ar-desviacion-cubital_alt1__amir-reuma_p49.jpg', label: 'Desviación cubital', at: 'Mira esta mano', credit: 'Manual AMIR Reumatología, p. 49' },
+            { src: 'biblioteca/08_reumatologia/reuma-06/01_ar-desviacion-cubital__amir-reuma_p48.jpg', label: 'Rx: enfermedad avanzada', at: 'Y en esta radiografía', credit: 'Manual AMIR Reumatología, p. 48' },
+          ] },
         { show: ['cis', 'bot'], note: 'Cuello de cisne y ojal',
-          say: 'En los dedos de las manos se observan dos deformidades clásicas opuestas: el dedo en cuello de cisne, por hiperextensión de la interfalángica proximal y flexión distal; y el dedo en ojal o boutonnière, por flexión de la interfalángica proximal e hiperextensión de la distal. Además, en el pulgar se produce la deformidad en zeta por hiperextensión metatarsofalángica.' },
+          say: 'En los dedos de las manos se observan dos deformidades clásicas opuestas: el dedo en cuello de cisne, por hiperextensión de la interfalángica proximal y flexión distal; y el dedo en ojal o boutonnière, por flexión de la interfalángica proximal e hiperextensión de la distal. Además, en el pulgar se produce la deformidad en zeta por hiperextensión metatarsofalángica. Mira estas manos: los dedos quedan torcidos en cuello de cisne y en ojal.',
+          photo: { src: '_verificadas/216_reuma_Artritis_reumatoide_clínica__ecmpdf_p660_1.jpg', label: 'Cuello de cisne y ojal', at: 'Mira estas manos', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 660' } },
         { show: ['bak'], note: 'Quiste de Baker roto',
           say: 'En la rodilla la inflamación a tensión produce un quiste de Baker en el hueco poplíteo. Si se rompe, el líquido sinovial diseca los gemelos, simulando un cuadro idéntico a una trombosis venosa profunda.' },
       ],
@@ -152,6 +158,32 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Conducta inicial',
+      title: 'Sospecha de AR en la red asistencial',
+      cards: [
+        { title: 'Cuándo sospechar y qué pedir', tag: 'GES desde los 15 años', kind: 'key', items: [
+          { t: 'Sinovitis de 6 semanas o más', d: 'Articulaciones pequeñas, simétricas, rigidez mayor de 1 hora',
+            say: 'Se sospecha artritis reumatoide ante sinovitis de una o más articulaciones, sobre todo pequeñas y simétricas, con rigidez matinal de más de una hora y seis semanas o más de evolución sin otra causa. En el GES entra desde los quince años.' },
+          { t: 'Hemograma, VHS, PCR, FR, anti-CCP, Rx', d: 'Un examen normal no la descarta',
+            say: 'Se piden hemograma, velocidad de sedimentación, proteína C reactiva, factor reumatoide, anti-CCP, función hepática y renal, y radiografías de manos y pies. Pero ojo: los exámenes normales no descartan la enfermedad.' },
+        ] },
+        { title: 'Derivar sin esperar erosiones', tag: 'Ventana de oportunidad', kind: 'alert', items: [
+          { t: 'Derivación preferente a reumatología', d: 'FARME en los primeros 3 a 6 meses',
+            say: 'La derivación es preferente, porque el máximo beneficio se logra iniciando el fármaco modificador de la enfermedad dentro de los primeros tres a seis meses. La derivación no debe esperar a que aparezcan erosiones.' },
+          { t: 'Puente: AINE y prednisona baja', d: '10 mg al día o menos; no modifican la evolución',
+            say: 'Mientras tanto se pueden usar antiinflamatorios a dosis plenas con protección gástrica, y prednisona en dosis baja, de diez miligramos al día o menos, como puente. Eso alivia, pero no cambia la evolución.' },
+        ] },
+        { title: 'El fármaco y la meta', tag: 'Qué viene después', kind: 'criteria', items: [
+          { t: 'Metotrexato semanal con ácido fólico', d: 'Antes: hemograma, transaminasas, creatinina, hepatitis B y C',
+            say: 'El fármaco de inicio es el metotrexato semanal con ácido fólico, tras verificar hemograma, transaminasas, creatinina y serologías de hepatitis B y C.' },
+          { t: 'Meta: remisión, DAS28 bajo 3,2', d: 'Control cada 1 a 3 meses; sin tabaco',
+            say: 'La meta es la remisión o baja actividad, con un DAS veintiocho menor de tres coma dos, y se controla cada uno a tres meses. Se agregan educación, ejercicio, suspender el tabaco, vacunas contra influenza y neumococo, y control cardiovascular.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Compromiso sistémico',
       title: 'Manifestaciones extraarticulares mayores',
       cards: [
@@ -159,7 +191,8 @@ module.exports = {
           { t: 'Queratoconjuntivitis sicca', d: 'Síndrome de Sjögren secundario muy frecuente',
             say: 'La manifestación ocular más prevalente en la artritis reumatoide es la queratoconjuntivitis seca debida a un síndrome de Sjögren secundario, presente en más de un tercio de las pacientes, que se manifiesta por sensación de arenilla, lagrimeo paradójico reflejo, fotofobia e intolerancia a lentes de contacto.' },
           { t: 'Escleritis anterior dolorosa', d: 'Dolor sordo profundo que despierta de noche',
-            say: 'Mucho más grave es la escleritis anterior necrotizante: se presenta con dolor ocular sordo, intenso y profundo, pudiendo provocar adelgazamiento escleral y escleromalacia perforante.' },
+            say: 'Mucho más grave es la escleritis anterior necrotizante: se presenta con dolor ocular sordo, intenso y profundo, pudiendo provocar adelgazamiento escleral y escleromalacia perforante. Mira este ojo: la esclera enrojecida, con vasos dilatados, en una escleritis.',
+          photo: { src: 'biblioteca/08_reumatologia/reuma-06/03_escleritis__cto-oftalmo_p42.jpg', label: 'Escleritis', at: 'Mira este ojo', credit: 'Manual CTO Oftalmología, p. 42' } },
         ] },
         { title: 'Compromiso Pleuropulmonar', tag: 'Pleura e intersticio', kind: 'criteria', items: [
           { t: 'Pleuritis con glucosa muy baja', d: 'Menor a treinta miligramos por decilitro',
@@ -234,26 +267,6 @@ module.exports = {
       steps: [
         { note: 'Erosión en sacabocado',
           say: 'Los linfocitos T y los macrófagos activados llegan a la membrana sinovial y liberan factor de necrosis tumoral e interleuquina seis. La sinovial se engruesa y forma el pannus, que expresa el ligando de RANK y activa los osteoclastos: así aparecen las erosiones marginales en sacabocado y la osteopenia yuxtaarticular.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Artritis reumatoide',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-06/01_ar-desviacion-cubital_alt1__amir-reuma_p49.jpg', label: 'Desviación cubital', credit: 'Manual AMIR Reumatología, p. 49' },
-        { src: 'biblioteca/08_reumatologia/reuma-06/01_ar-desviacion-cubital__amir-reuma_p48.jpg', label: 'Rx de manos: enfermedad avanzada', credit: 'Manual AMIR Reumatología, p. 48' },
-        { src: 'biblioteca/08_reumatologia/reuma-06/03_escleritis__cto-oftalmo_p42.jpg', label: 'Escleritis', credit: 'Manual CTO Oftalmología 14.ª ed., p. 42' },
-      ],
-      steps: [
-        { note: 'Manos deformadas',
-          say: 'En la artritis reumatoide avanzada las metacarpofalángicas se subluxan y los dedos se desvían hacia cubital.' },
-        { note: 'Desviación y daño articular',
-          say: 'Y esta radiografía muestra la misma enfermedad avanzada: dedos desviados hacia cubital y articulaciones dañadas por las erosiones, que son de mal pronóstico.' },
-        { note: 'Ojo rojo y doloroso',
-          say: 'Fuera de las articulaciones, el ojo: esta es una escleritis, con la esclera roja por vasos dilatados. Da un dolor ocular sordo, intenso y profundo.' },
       ],
     },
 
@@ -368,6 +381,81 @@ module.exports = {
         options: 'Las alternativas: síndrome de ojo seco o queratoconjuntivitis seca, conjuntivitis bacteriana, úlcera corneal por amebas, escleritis, o glaucoma agudo. Piénsalo.',
         answer: 'Es la A. La queratoconjuntivitis seca secundaria a síndrome de Sjögren es la manifestación ocular más frecuente de la artritis reumatoide. Cursa con la clásica sensación de arenilla ocular y lagrimeo reflejo por mala lubricación corneal. El tratamiento inicial consiste en lágrimas artificiales lubricantes.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.11.1.019 · Poliartritis",
+      "stem": "Mujer de 63 años consulta por dolor en ambas manos de 3 años, que empeora con el uso. Tiene rigidez matinal de 15 minutos. Al examen presenta nódulos duros en las interfalángicas distales y proximales de varios dedos, sin sinovitis de metacarpofalángicas ni de muñecas. La VHS y la PCR son normales.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Artritis reumatoide"
+        },
+        {
+          "letter": "B",
+          "text": "Artritis psoriásica"
+        },
+        {
+          "letter": "C",
+          "text": "Artrosis nodal de manos"
+        },
+        {
+          "letter": "D",
+          "text": "Lupus eritematoso sistémico"
+        },
+        {
+          "letter": "E",
+          "text": "Gota tofácea"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Compromiso de interfalángicas distales y proximales con nódulos óseos de Heberden y Bouchard, rigidez matinal breve y reactantes normales es artrosis nodal de manos. La artritis reumatoide afecta metacarpofalángicas, interfalángicas proximales y muñecas, respeta las distales y da rigidez matinal mayor de 1 hora.",
+      "say": {
+        "stem": "Mujer de sesenta y tres años con tres años de dolor en ambas manos, que empeora con el uso, y rigidez matinal de quince minutos. Tiene nódulos duros en las interfalángicas distales y proximales, sin sinovitis de nudillos ni muñecas, y reactantes normales.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: artritis reumatoide, artritis psoriásica, artrosis nodal de manos, lupus o gota tofácea. Piénsalo.",
+        "answer": "Es la C. Nódulos duros en las interfalángicas distales y proximales, con rigidez de quince minutos y reactantes normales, son artrosis. La artritis reumatoide tienta porque es poliarticular y simétrica, pero respeta las interfalángicas distales y da rigidez de más de una hora."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.11.4.003 · Exámenes inmunológicos del diagnóstico",
+      "stem": "Hombre de 72 años, asintomático, sin dolor ni aumento de volumen articular, trae exámenes de un chequeo con factor reumatoide positivo de 40 UI/mL (valor normal menor de 14). Su examen articular es normal.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar metotrexato precoz"
+        },
+        {
+          "letter": "B",
+          "text": "Diagnosticar artritis reumatoide seropositiva y derivar para terapia biológica"
+        },
+        {
+          "letter": "C",
+          "text": "Hidroxicloroquina preventiva"
+        },
+        {
+          "letter": "D",
+          "text": "No hace diagnóstico: el factor reumatoide puede ser positivo en adultos mayores sanos y en otras enfermedades, y sin artritis no se trata"
+        },
+        {
+          "letter": "E",
+          "text": "Repetir el factor reumatoide cada mes"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El factor reumatoide es poco específico: aparece en adultos mayores sanos y en hepatitis C, Sjögren, endocarditis o tuberculosis. Sin artritis clínica no tiene valor diagnóstico ni se trata. Los exámenes inmunológicos apoyan una sospecha clínica, no la reemplazan; el anti-CCP es el más específico para artritis reumatoide.",
+      "say": {
+        "stem": "Hombre de setenta y dos años, sin ningún síntoma articular y con examen normal, que trae un factor reumatoide positivo de un chequeo.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: metotrexato precoz, diagnosticar artritis reumatoide y derivar a biológicos, hidroxicloroquina preventiva, no hace diagnóstico y no se trata o repetirlo cada mes. Piénsalo.",
+        "answer": "Es la D. El factor reumatoide sale positivo en muchos adultos mayores sanos y en otras enfermedades, y sin artritis no diagnostica nada. Diagnosticar una artritis reumatoide tienta por el examen, pero el diagnóstico es clínico: el anticuerpo solo apoya una sospecha que aquí no existe."
+      }
     },
 
     {

@@ -69,7 +69,8 @@ module.exports = {
         { show: ['ent'], note: 'Comer y evacuar poco empeora todo',
           say: 'Y hay un tercer factor que se te puede olvidar: el intestino del recién nacido recicla bilirrubina de vuelta a la sangre. Mientras menos come y menos evacúa, más recircula, y por eso ayuda tanto alimentarlo seguido.' },
         { show: ['bil', 'ict'], note: 'Kramer: estimas el nivel con solo mirar',
-          say: 'Súmalo todo y tienes bilirrubina indirecta acumulada, que se deposita en la piel de arriba hacia abajo: primero la cara, después el tronco, y en los casos más severos hasta las palmas y las plantas. Esa progresión tiene un nombre, la zona de Kramer, y te sirve para estimar el nivel con solo mirar al paciente.' },
+          say: 'Súmalo todo y tienes bilirrubina indirecta acumulada, que se deposita en la piel de arriba hacia abajo: primero la cara, después el tronco, y en los casos más severos hasta las palmas y las plantas. Mira a este recién nacido: la piel amarilla ya se ve en la cara. Esa progresión tiene un nombre, la zona de Kramer, y te sirve para estimar el nivel con solo mirar al paciente.',
+          photo: { src: 'biblioteca/15_pediatria/ped-17/02_ictericia-neonatal__bates_p848.jpg', label: 'Ictericia en la cara', at: 'Mira a este recién nacido', credit: "Bates' Guide to Physical Examination, p. 848" } },
       ],
     },
 
@@ -165,7 +166,8 @@ module.exports = {
       ],
       steps: [
         { show: ['biltot'], note: 'No es un número fijo: depende de la hora',
-          say: 'Ya sabes que la ictericia es fisiológica. Ahora, ¿necesita tratamiento? Eso no lo decide un número fijo de bilirrubina, lo decide el nomograma de Bhutani, que cruza el valor con las horas exactas de vida. La misma cifra puede ser normal a los cuatro días y una emergencia a las veinticuatro horas.' },
+          say: 'Ya sabes que la ictericia es fisiológica. Ahora, ¿necesita tratamiento? Eso no lo decide un número fijo de bilirrubina, lo decide el nomograma de Bhutani, que cruza el valor con las horas exactas de vida. Mira este esquema: arriba, el nomograma con sus zonas de riesgo, y abajo la progresión de Kramer. La misma cifra puede ser normal a los cuatro días y una emergencia a las veinticuatro horas.',
+          photo: { src: 'biblioteca/15_pediatria/ped-17/S1_bhutani-kramer__propio.svg', label: 'Bhutani y Kramer', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['zonabaja'], note: 'Nada que hacer',
           say: 'Si el valor cae en la zona de bajo riesgo, no hay nada que hacer más que observar.' },
         { show: ['zonainter'], note: 'Repites el control pronto',
@@ -194,6 +196,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Si hay colestasia',
+      title: 'Pruebas hepáticas: qué orienta cada patrón',
+      cards: [
+        { title: 'Cuándo es colestasia', tag: 'Siempre patológica', kind: 'alert', items: [
+          { t: 'Más de 14 días en el término', d: '21 días en el prematuro',
+            say: 'Toda ictericia que dura más de catorce días en el recién nacido de término, o veintiuno en el prematuro, es una colestasia, y es siempre patológica. Lo mismo si la bilirrubina directa supera un miligramo por decilitro, o el veinte por ciento de la total.' },
+        ] },
+        { title: 'Qué pides', tag: 'Y qué mide cada examen', kind: 'criteria', items: [
+          { t: 'Transaminasas ALT y AST', d: 'Daño hepatocelular',
+            say: 'Pides bilirrubina total y fraccionada, albúmina, glicemia y amonio. Las transaminasas indican daño hepatocelular; las fosfatasas alcalinas y la GGT indican colestasia obstructiva.' },
+          { t: 'INR y vitamina K parenteral', d: 'No corrige: falla de síntesis',
+            say: 'El tiempo de protrombina te da una pista: si no corrige con vitamina K parenteral, hay falla de síntesis hepática. Si corrige, es un déficit de vitamina K por malabsorción de grasas.' },
+        ] },
+        { title: 'Dos patrones', tag: 'Hepatitis u obstrucción', kind: 'key', items: [
+          { t: 'ALT y AST muy altas', d: 'Hepatitis neonatal: TORCH, galactosemia, tirosinemia',
+            say: 'Con transaminasas muy altas piensas en hepatitis neonatal: infecciones TORCH, galactosemia, tirosinemia, hipotiroidismo o hipopituitarismo.' },
+          { t: 'GGT y fosfatasas altas', d: 'Atresia de vías biliares: acolia, hepatomegalia',
+            say: 'Con GGT y fosfatasas elevadas piensas en obstrucción biliar. La causa más frecuente y más grave es la atresia de vías biliares, con acolia, coluria y hepatomegalia firme que evoluciona a cirrosis. Se pesquisa con la tarjeta colorimétrica de deposiciones. Sigue la ecografía hepática y biliar, el cintigrama y la biopsia.' },
+          { t: 'Derivar antes de 60 días', d: 'Kasai tiene mejor resultado si es precoz',
+            say: 'Es una urgencia de derivación, porque la cirugía de Kasai tiene mejor resultado antes de los sesenta días de vida.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -207,20 +235,6 @@ module.exports = {
           say: 'La ictericia fisiológica aparece después de las veinticuatro horas, sube lento y se queda en la zona de bajo riesgo.' },
         { note: 'Antes de las veinticuatro horas',
           say: 'La patológica aparece antes de las veinticuatro horas y sube rápido, cruzando a la zona de alto riesgo. Obliga a fototerapia y a buscar hemólisis.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Ictericia neonatal',
-      images: [
-        { src: 'biblioteca/15_pediatria/ped-17/S1_bhutani-kramer__propio.svg', label: 'Bhutani y Kramer', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Riesgo según horas de vida',
-          say: 'El nomograma de Bhutani ubica la bilirrubina según las horas de vida. Toda ictericia antes de las veinticuatro horas es patológica.' },
       ],
     },
 
@@ -243,6 +257,8 @@ module.exports = {
           say: 'Ictericia fisiológica en un bebé sano y activo: refuerzas la lactancia y controlas de forma ambulatoria. Pedir un estudio completo de hemólisis, sin ningún signo de alarma, solo retrasa el alta.' },
         { cells: ['Ictericia por leche materna, sube de peso', 'Tranquilizar y mantener la lactancia', 'Suspender el pecho materno'],
           say: 'Ictericia por leche materna, con el bebé subiendo de peso: tranquilizas a los padres y mantienes la lactancia. Suspender el pecho es la respuesta incorrecta más clásica de esta parte.' },
+        { cells: ['Ictericia colestásica con GGT alta', 'Pensar en atresia: ecografía y derivar', 'Esperar más de 60 días'],
+          say: 'Colestasia con GGT y fosfatasas altas: piensas en obstrucción biliar, pides ecografía hepática y biliar y derivas. El error es esperar, porque el Kasai rinde menos después de los sesenta días.' },
         { cells: ['Acolia y coluria', 'Derivar urgente para estudio y Kasai', 'Decir que es solo leche materna'],
           say: 'Y la última: acolia y coluria. Derivas urgente para estudio de vía biliar y eventual cirugía de Kasai. Confundirla con ictericia por leche materna, solo porque el bebé se ve bien, es el error que más cuesta caro en este tema.' },
       ],
@@ -361,6 +377,44 @@ module.exports = {
         options: 'Las opciones: ecografía abdominal, hormona estimulante de la tiroides, resonancia magnética abdominal, test de Coombs, o bilirrubinemia diferenciada. Piénsalo.',
         answer: 'Es la E. Las orinas oscuras te hacen sospechar colestasia, igual que en los casos anteriores. Pero fíjate en el orden: antes de pedir una imagen, el primer paso siempre es confirmar con el laboratorio que el componente directo está elevado. Recién con la bilirrubina diferenciada alterada, avanzas a la ecografía. Pedir la ecografía de entrada es saltarse un paso.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.023 · Pruebas hepáticas",
+      "stem": "Un lactante de 5 semanas, de término, presenta ictericia desde la segunda semana de vida, deposiciones de color blanco masilla (acolia) y orinas oscuras. Está con buen incremento ponderal. Al examen tiene hepatomegalia firme. Exámenes: bilirrubina total 8 mg/dL con directa 6 mg/dL y GGT elevada.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fototerapia"
+        },
+        {
+          "letter": "B",
+          "text": "Suspender la lactancia materna por 48 horas"
+        },
+        {
+          "letter": "C",
+          "text": "Derivación urgente para estudio de atresia de vías biliares"
+        },
+        {
+          "letter": "D",
+          "text": "Control en 1 mes"
+        },
+        {
+          "letter": "E",
+          "text": "Exanguinotransfusión"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Una bilirrubina directa elevada (mayor a 1 mg/dL o 20% del total) es colestasia y nunca es fisiológica; con acolia, coluria y GGT alta sugiere atresia de vías biliares. Requiere derivación urgente, porque la portoenteroestomía de Kasai rinde mejor antes de los 45 a 60 días de vida.",
+      "say": {
+        "stem": "Un lactante de cinco semanas tiene ictericia desde la segunda semana, deposiciones blancas, orina oscura, hepatomegalia y bilirrubina directa elevada.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: fototerapia, suspender la lactancia, derivación urgente por atresia de vías biliares, control en un mes o exanguinotransfusión. Piénsalo.",
+        "answer": "Es la C. Hiperbilirrubinemia directa con acolia sugiere una atresia de vías biliares, que debe operarse antes de los dos meses. La fototerapia tienta por la ictericia, pero solo sirve para la bilirrubina indirecta."
+      }
     },
 
     {

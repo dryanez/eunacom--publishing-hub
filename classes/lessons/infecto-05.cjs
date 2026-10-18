@@ -128,6 +128,30 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Punción y PPD',
+      title: 'Punción venosa segura y lectura del PPD',
+      cards: [
+        { title: 'Punción venosa', tag: 'Realizar', kind: 'key', items: [
+          { t: 'Torniquete menos de 1 minuto', d: 'Bisel arriba, 15 a 30 grados',
+            say: 'Para la punción venosa: higiene de manos, guantes, torniquete por menos de un minuto, piel limpia y seca, y la aguja con el bisel hacia arriba en un ángulo de quince a treinta grados.' },
+          { t: 'Soltar el torniquete antes de retirar', d: 'Primero hemocultivos, luego citrato, suero, EDTA',
+            say: 'Sueltas el torniquete antes de retirar la aguja. Y el orden de los tubos: primero los hemocultivos, luego citrato, suero y por último EDTA.' },
+          { t: 'No reencapuchar agujas', d: 'Contenedor rígido de inmediato',
+            say: 'La seguridad es parte del procedimiento: no se reencapucha la aguja, va de inmediato al contenedor rígido. Así se evita justamente el accidente cortopunzante de esta clase.' },
+        ] },
+        { title: 'Lectura del PPD', tag: 'A las 48–72 h', kind: 'criteria', items: [
+          { t: 'Se mide la induración, no el eritema', d: 'Diámetro transversal en mm',
+            say: 'El PPD se lee a las cuarenta y ocho a setenta y dos horas, y se mide la induración, no el enrojecimiento, en milímetros.' },
+          { t: 'Positivo ≥ 10 mm · VIH y contactos ≥ 5 mm', d: 'Indica infección, no enfermedad',
+            say: 'Es positivo desde diez milímetros en la población general, y desde cinco en VIH, inmunosupresión y contacto reciente. Pero ojo: positivo indica infección, no enfermedad activa. Antes de la profilaxis hay que descartar tuberculosis activa.' },
+          { t: 'Falsos negativos: anergia', d: 'VIH avanzado, desnutrición, corticoides',
+            say: 'Y el PPD puede ser falso negativo en la anergia: VIH avanzado, desnutrición, corticoides o tuberculosis miliar.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -276,6 +300,120 @@ module.exports = {
         options: 'Las opciones son: esperar el ELISA de la fuente; ofrecer de inmediato triterapia profiláctica; solo observar; pedir una PCR a la trabajadora y esperar; o monoterapia con zidovudina. Piénsalo.',
         answer: 'Es la B. La ventana es corta, así que la triterapia se ofrece de inmediato. La A es el distractor más tentador, porque parece lógico saber primero si la fuente está infectada. Pero la eficacia cae con cada hora, y la fuente puede no consentir. Y la monoterapia no es el esquema: son tres fármacos.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.3.010 · Profilaxis en contactos de infecciones meningocócicas",
+      "stem": "Escolar de 9 años es hospitalizado por meningococcemia. Vive con sus padres y un hermano de 6 años. Una compañera de curso se sentó a su lado en clases, sin contacto con sus secreciones.",
+      "question": "¿Cuál es la conducta más adecuada respecto de la quimioprofilaxis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Indicarla a todo el colegio con amoxicilina"
+        },
+        {
+          "letter": "B",
+          "text": "Indicarla a los contactos intradomiciliarios, idealmente en las primeras 24 horas, con rifampicina, ciprofloxacino o ceftriaxona"
+        },
+        {
+          "letter": "C",
+          "text": "Indicarla solo al personal de salud que lo atendió"
+        },
+        {
+          "letter": "D",
+          "text": "Indicarla a los contactos solo si presentan fiebre"
+        },
+        {
+          "letter": "E",
+          "text": "No indicarla, porque basta con vacunar"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La quimioprofilaxis se indica a contactos íntimos: convivientes, contactos de sala cuna o jardín infantil y personal de salud expuesto a secreciones sin protección, idealmente antes de 24 horas. Se usa rifampicina por 2 días, ciprofloxacino en dosis única en adultos o ceftriaxona en dosis única. Los compañeros de curso escolares no la requieren de rutina.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Escolar de nueve años hospitalizado por meningococcemia. Vive con sus padres y un hermano de seis años, y una compañera de curso se sentaba a su lado, sin contacto con sus secreciones.",
+        "question": "¿Cuál es la conducta más adecuada respecto de la quimioprofilaxis?",
+        "options": "Las opciones: a todo el colegio con amoxicilina, a los contactos de la casa con rifampicina, ciprofloxacino o ceftriaxona, solo al personal de salud, solo a los contactos con fiebre, o a nadie. Piénsalo.",
+        "answer": "Es la B. La profilaxis es para los contactos íntimos, como los que viven en la casa, y debe darse cuanto antes. Esperar a que tengan fiebre es la trampa: la idea es erradicar el meningococo antes de que enfermen, no tratarlos cuando ya están graves."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.011 · PPD",
+      "stem": "Un hombre de 35 años con VIH, en terapia antirretroviral y con CD4 de 350 células/mm³, es contacto intradomiciliario de un caso de tuberculosis pulmonar bacilífera. Está asintomático y su radiografía de tórax es normal. El PPD resulta de 7 mm.",
+      "question": "¿Cuál es la interpretación y la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "PPD negativo: no requiere intervención"
+        },
+        {
+          "letter": "B",
+          "text": "El PPD no es interpretable en personas con VIH"
+        },
+        {
+          "letter": "C",
+          "text": "PPD dudoso: repetirlo en 1 año"
+        },
+        {
+          "letter": "D",
+          "text": "PPD positivo: iniciar tratamiento con 4 fármacos"
+        },
+        {
+          "letter": "E",
+          "text": "PPD positivo (≥5 mm en VIH): iniciar terapia preventiva de tuberculosis"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En personas con VIH u otra inmunosupresión, un PPD de 5 mm o más se considera positivo (en inmunocompetentes, 10 mm o más). Con radiografía normal y sin síntomas se descarta tuberculosis activa y se indica terapia preventiva (isoniacida o esquemas cortos con rifamicinas). El tratamiento con 4 fármacos se reserva para la enfermedad activa.",
+      "say": {
+        "stem": "Un hombre de treinta y cinco años con VIH en tratamiento, contacto de un caso de tuberculosis bacilífera, está asintomático, con radiografía normal y un PPD de siete milímetros.",
+        "question": "¿Cuál es la interpretación y conducta más adecuada?",
+        "options": "Las opciones: PPD negativo sin intervención, no interpretable en VIH, dudoso y repetir, positivo con cuatro fármacos o PPD positivo e iniciar terapia preventiva. Piénsalo.",
+        "answer": "Es la E. En personas con VIH, cinco milímetros o más ya es positivo, y sin enfermedad activa se indica terapia preventiva. Los cuatro fármacos tientan, pero son para tuberculosis activa, que aquí se descartó."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.5.007 · Punción venosa",
+      "stem": "Una interna de medicina realiza una punción venosa para tomar exámenes a un paciente hospitalizado. Al terminar, tiene en la mano la aguja usada.",
+      "question": "¿Cuál es la conducta correcta para prevenir un accidente cortopunzante?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reencapsular la aguja con ambas manos antes de desecharla"
+        },
+        {
+          "letter": "B",
+          "text": "Eliminarla en la bolsa de basura común"
+        },
+        {
+          "letter": "C",
+          "text": "Doblar la aguja antes de botarla"
+        },
+        {
+          "letter": "D",
+          "text": "Dejar la aguja en la bandeja para eliminarla al final del turno"
+        },
+        {
+          "letter": "E",
+          "text": "Desechar de inmediato la aguja, sin reencapsular, en un contenedor rígido para cortopunzantes cercano"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La principal causa de accidentes cortopunzantes es el reencapsulado y la manipulación de agujas usadas. Según las precauciones estándar, la aguja se desecha de inmediato, sin reencapsular, doblar ni romper, en un contenedor rígido ubicado cerca del punto de uso. Si ocurre una punción, se lava con agua y jabón y se notifica para evaluar profilaxis.",
+      "say": {
+        "stem": "Una interna termina una punción venosa y tiene la aguja usada en la mano.",
+        "question": "¿Qué debe hacer?",
+        "options": "Las opciones: reencapsular con ambas manos, botarla en la basura común, doblarla, dejarla en la bandeja o desechar sin reencapsular en un contenedor rígido cercano. Piénsalo.",
+        "answer": "Es la E. Desecharla de inmediato sin reencapsular en el contenedor rígido. Reencapsular parece más seguro, pero es la principal causa de pinchazos."
+      }
     },
 
     {

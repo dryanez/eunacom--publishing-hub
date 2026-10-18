@@ -34,11 +34,13 @@ module.exports = {
         { show: ['sup'], note: 'Superficial: casi siempre estreptococo',
           say: 'Si se queda en la dermis superior y los linfáticos superficiales, el agente es casi siempre el Streptococcus pyogenes, el estreptococo betahemolítico del grupo A, en más del noventa por ciento.' },
         { show: ['eri'], note: 'Placa roja brillante con borde en escalón',
-          say: 'Eso es la erisipela. Como la infección es superficial y los linfáticos se llenan de edema, la placa queda levantada, con un borde nítido que se toca como un escalón frente a la piel sana.' },
+          say: 'Eso es la erisipela: mira esta placa. Como la infección es superficial y los linfáticos se llenan de edema, la placa queda levantada, con un borde nítido que se toca como un escalón frente a la piel sana.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-20/01_erisipela__cto-derma_p25.jpg', label: 'Erisipela', at: 'mira esta placa', credit: 'Manual CTO Dermatología 14.ª ed., p. 25' } },
         { show: ['pro'], note: 'Profunda: estafilococo y estreptococo',
           say: 'Si en cambio llega a la dermis profunda y al tejido celular subcutáneo, los agentes son el Staphylococcus aureus, sensible o resistente a meticilina, y también el Streptococcus pyogenes.' },
         { show: ['cel'], note: 'El eritema se difumina hacia la piel sana',
-          say: 'Eso es la celulitis. Al estar más profunda, el eritema se difumina, sin un borde claro y sin relieve. Fíjate que el borde no es un detalle estético: te dice la profundidad, y la profundidad te dice el agente.' },
+          say: 'Eso es la celulitis, como ves aquí. Al estar más profunda, el eritema se difumina, sin un borde claro y sin relieve. Fíjate que el borde no es un detalle estético: te dice la profundidad, y la profundidad te dice el agente.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-20/02_celulitis_1__amir-infecto_p67.jpg', label: 'Celulitis', at: 'como ves aquí', credit: 'Manual AMIR Infecciosas, p. 67' } },
       ],
     },
 
@@ -77,7 +79,8 @@ module.exports = {
       cards: [
         { title: 'Foliculitis', tag: 'Superficial', kind: 'normal', items: [
           { t: 'Pústula centrada en un vello', d: 'Aseo con clorhexidina o mupirocina 2%',
-            say: 'Pasemos al folículo piloso, donde el agente es casi siempre el Staphylococcus aureus. La foliculitis es una pequeña pústula indolora centrada en un vello. Se trata con aseo con jabón de clorhexidina o mupirocina tópica al dos por ciento.' },
+            say: 'Pasemos al folículo piloso, donde el agente es casi siempre el Staphylococcus aureus. La foliculitis son estas pequeñas pústulas indoloras, cada una centrada en un vello. Se trata con aseo con jabón de clorhexidina o mupirocina tópica al dos por ciento.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-20/03_foliculitis__atlas208.jpg', label: 'Foliculitis', at: 'estas pequeñas pústulas', credit: 'Atlas EUNACOM 2026' } },
           { t: 'Tras tina caliente o piscina', d: 'Pseudomonas, autolimitada',
             say: 'Un detalle: si aparece después de un hidromasaje o una piscina temperada, piensa en Pseudomonas aeruginosa, la foliculitis de las tinas calientes, que es autolimitada.' },
         ] },
@@ -89,7 +92,8 @@ module.exports = {
         ] },
         { title: 'Carbunco estafilocócico', tag: 'Ojo con el nombre', kind: 'alert', items: [
           { t: 'Forúnculos coalescentes', d: 'Nuca o espalda de diabéticos',
-            say: 'Y el carbunco estafilocócico, o ántrax benigno: varios forúnculos unidos por trayectos bajo la piel, típicamente en la nuca o la espalda de un diabético. Ojo con el nombre: no tiene nada que ver con el Bacillus anthracis de la clase anterior.' },
+            say: 'Y el carbunco estafilocócico, o ántrax benigno: varios forúnculos unidos por trayectos bajo la piel, como ves en esta lesión, típicamente en la nuca o la espalda de un diabético. Ojo con el nombre: no tiene nada que ver con el Bacillus anthracis de la clase anterior.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-20/04_furunculo-antrax__fitzpatrick_p1739.jpg', label: 'Ántrax estafilocócico', at: 'como ves en esta lesión', credit: 'Fitzpatrick\'s Dermatology in General Medicine, p. 1739' } },
           { t: 'Drenaje quirúrgico', d: 'Más antibiótico endovenoso',
             say: 'Este sí exige drenaje quirúrgico y antibiótico endovenoso.' },
         ] },
@@ -153,6 +157,38 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Piodermias y absceso',
+      title: 'Ántrax, piodermias, cultivo y drenaje',
+      cards: [
+        { title: 'Ántrax estafilocócico', tag: 'No es el carbunco', kind: 'key', items: [
+          { t: 'Varios folículos, varios orificios', d: 'Nuca, espalda, muslos de diabéticos',
+            say: 'El ántrax estafilocócico es la infección profunda de varios folículos vecinos, con drenaje por múltiples orificios, en nuca, espalda y muslos de diabéticos y obesos. No lo confundas con el carbunco por Bacillus anthracis.' },
+          { t: 'Drenaje + cloxacilina o cefadroxilo', d: 'Sospecha de SAMR: TMP-SMX, clindamicina, doxiciclina',
+            say: 'Se drena y se da cloxacilina o cefadroxilo. Si se sospecha SAMR, cotrimoxazol, clindamicina o doxiciclina.' },
+          { t: 'Hidradenitis y piel escaldada', d: 'Signo de Nikolsky en niños',
+            say: 'Otras piodermias: impétigo, con estas costras color miel, típicas de los niños, y aquí en la cara de un niño; ectima, paroniquia, hidradenitis supurativa y el síndrome de piel escaldada estafilocócica, con signo de Nikolsky en niños.',
+            photos: [
+              { src: 'biblioteca/07_infectologia/infecto-20/03_impetigo__cto-derma_p25.jpg', label: 'Impétigo', at: 'con estas costras', credit: 'Manual CTO Dermatología 14.ª ed., p. 25' },
+              { src: 'biblioteca/07_infectologia/infecto-20/03_impetigo_alt1__amir-derma_p55.jpg', label: 'Impétigo en la cara', at: 'y aquí en la cara de un niño', credit: 'Manual AMIR Dermatología, p. 55' },
+            ] },
+        ] },
+        { title: 'Gram y cultivo', tag: 'Cuándo pedirlos', kind: 'criteria', items: [
+          { t: 'Pus, mala respuesta, SAMR o inmunosupresión', d: 'Del pus, no de la costra',
+            say: 'Se piden cuando hay pus o absceso, mala respuesta al antibiótico, sospecha de SAMR o inmunosupresión. La muestra es el pus aspirado, no una costra colonizada.' },
+          { t: 'Celulitis sin pus: poco rentable', d: 'Hemocultivos si hay fiebre',
+            say: 'En la celulitis sin pus el cultivo de piel rinde poco; se piden hemocultivos si hay fiebre. Y un cultivo sin signos de infección es colonización, no se trata.' },
+        ] },
+        { title: 'Drenar un absceso', tag: 'Realizar', kind: 'pharma', items: [
+          { t: 'Incisión amplia sobre lo fluctuante', d: 'Romper loculaciones, irrigar, mecha 24–48 h',
+            say: 'El drenaje es el tratamiento principal. Con anestesia local, incisión lineal amplia sobre el punto más fluctuante, rompes las lóculos, evacuas el pus, mandas cultivo e irrigas. Dejas mecha por veinticuatro a cuarenta y ocho horas.' },
+          { t: 'Antibiótico si celulitis > 5 cm, SIRS o riesgo', d: 'Cara, manos, genitales, diabetes',
+            say: 'Se agrega antibiótico si hay celulitis extensa, fiebre, inmunosupresión, diabetes, abscesos múltiples o localización en cara, manos o genitales. Y no olvides la profilaxis antitetánica.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -163,39 +199,6 @@ module.exports = {
       steps: [
         { note: 'Del impétigo a la fascitis',
           say: 'El impétigo queda en la epidermis; la erisipela, en la dermis superficial, con borde nítido; la celulitis, más profunda, con borde difuso; y la fascitis necrotizante corre por la fascia.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Infecciones de la piel',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-20/01_erisipela__cto-derma_p25.jpg', label: 'Erisipela', credit: 'Manual CTO Dermatología 14.ª ed., p. 25' },
-        { src: 'biblioteca/07_infectologia/infecto-20/02_celulitis_1__amir-infecto_p67.jpg', label: 'Celulitis', credit: 'Manual AMIR Infecciosas, p. 67' },
-        { src: 'biblioteca/07_infectologia/infecto-20/03_impetigo__cto-derma_p25.jpg', label: 'Impétigo', credit: 'Manual CTO Dermatología 14.ª ed., p. 25' },
-      ],
-      steps: [
-        { note: 'Borde nítido y elevado',
-          say: 'La erisipela tiene un borde nítido y elevado: es superficial, por estreptococo.' },
-        { note: 'Borde difuso',
-          say: 'La celulitis tiene borde difuso, porque es más profunda.' },
-        { note: 'Costras color miel',
-          say: 'Y el impétigo, costras color miel, típico de los niños.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-20/03_impetigo_alt1__amir-derma_p55.jpg', label: 'Impétigo en la cara', credit: 'Manual AMIR Dermatología, p. 55' },
-      ],
-      steps: [
-        { note: 'Costras color miel',
-          say: 'Otro impétigo, ahora en la cara de un niño: costras color miel bajo la nariz y sobre el labio. Es la infección más superficial, queda en la epidermis.' },
       ],
     },
 
@@ -315,6 +318,269 @@ module.exports = {
         options: 'Las opciones: erisipela, herpes zóster, pioderma gangrenoso, fasceítis necrotizante, o celulitis bacteriana. Piénsalo.',
         answer: 'Es la D, fasceítis necrotizante. Al principio podía parecer una erisipela o una celulitis, pero las zonas violáceas, las bulas, la progresión rápida y la hipotensión en un diabético son banderas rojas de una infección necrotizante, que vimos en la clase de partes blandas. La celulitis es el distractor tentador, pero no explica el shock. Esto ya no es un antibiótico oral: es una urgencia quirúrgica.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.1.006 · Celulitis bacteriana",
+      "stem": "Hombre de 58 años, diabético, con 3 días de eritema caliente y doloroso, de bordes difusos, en la pierna izquierda, que se extiende desde una fisura interdigital. T° 38,8 °C, FC 108 por minuto, PA 125/75 mmHg. Sin crepitación ni dolor desproporcionado; la ecografía no muestra colecciones.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cefadroxilo oral y control ambulatorio en 48 horas"
+        },
+        {
+          "letter": "B",
+          "text": "Aciclovir oral"
+        },
+        {
+          "letter": "C",
+          "text": "Desbridamiento quirúrgico de urgencia"
+        },
+        {
+          "letter": "D",
+          "text": "Mupirocina tópica"
+        },
+        {
+          "letter": "E",
+          "text": "Hospitalizar y tratar con cefazolina endovenosa, además de manejar la puerta de entrada"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Celulitis con compromiso sistémico, fiebre y taquicardia, en un diabético requiere hospitalización y antibiótico endovenoso contra estreptococo y estafilococo, como cefazolina; además se trata la puerta de entrada, el intertrigo. El cefadroxilo oral sirve para la celulitis leve sin toxicidad. El desbridamiento se reserva para la fasceítis necrotizante.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de cincuenta y ocho años, diabético, con tres días de una zona roja, caliente y dolorosa, de bordes difusos, en la pierna, que partió de una fisura entre los dedos. Tiene fiebre de treinta y ocho coma ocho y taquicardia, pero sin crepitación ni colecciones.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: cefadroxilo oral ambulatorio, aciclovir, desbridamiento quirúrgico, mupirocina o hospitalizar con cefazolina endovenosa. Piénsalo.",
+        "answer": "Es la E. Es una celulitis con compromiso sistémico en un diabético, y eso exige hospitalizar y dar antibiótico endovenoso. El cefadroxilo oral es la trampa: es el tratamiento correcto de la celulitis leve, pero no de una con fiebre y taquicardia."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.055 · Abscesos, forúnculos, panadizos, flegmones",
+      "stem": "Hombre de 32 años, sin comorbilidades, con 5 días de un nódulo doloroso en la axila derecha. Al examen hay una lesión de 3 cm, eritematosa, caliente y fluctuante, con mínima celulitis alrededor. Está afebril.",
+      "question": "¿Cuál es el tratamiento principal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Compresas tibias y control en 1 semana"
+        },
+        {
+          "letter": "B",
+          "text": "Cefadroxilo oral como única medida"
+        },
+        {
+          "letter": "C",
+          "text": "Incisión y drenaje del absceso"
+        },
+        {
+          "letter": "D",
+          "text": "Hospitalizar para vancomicina endovenosa"
+        },
+        {
+          "letter": "E",
+          "text": "Punción con aguja fina para cultivo y observar"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Una colección fluctuante es un absceso y su tratamiento fundamental es la incisión y el drenaje. En un paciente sano, afebril y sin celulitis extensa, el antibiótico no es necesario; se agrega si hay compromiso sistémico, celulitis importante, inmunosupresión o una ubicación de riesgo. El antibiótico solo no resuelve una colección.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de treinta y dos años, sano, con cinco días de un nódulo doloroso en la axila. Mide tres centímetros, está rojo, caliente y fluctuante, con muy poca celulitis alrededor, y no tiene fiebre.",
+        "question": "¿Cuál es el tratamiento principal?",
+        "options": "Las opciones: compresas tibias, cefadroxilo oral solo, incisión y drenaje, hospitalizar con vancomicina o punción con aguja fina. Piénsalo.",
+        "answer": "Es la C. Si hay fluctuación hay pus, y el pus se drena: la incisión y el drenaje son el tratamiento. El cefadroxilo solo es la trampa: el antibiótico no penetra bien una colección y, en un paciente sano sin fiebre, ni siquiera es necesario."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2019 · Pregunta 26",
+      "stem": "Un niño de 3 años presenta lesiones pruriginosas en la nariz y la cara de 3 días de evolución. Al examen físico se aprecian erosiones con costras amarillentas de aspecto melicérico sobre base eritematosa, en región perinasal y peribucal.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Curaciones con suero fisiológico"
+        },
+        {
+          "letter": "B",
+          "text": "Curaciones con povidona yodada"
+        },
+        {
+          "letter": "C",
+          "text": "Aciclovir oral por 5 días"
+        },
+        {
+          "letter": "D",
+          "text": "Prednisona oral por 7 días"
+        },
+        {
+          "letter": "E",
+          "text": "Flucloxacilina por 7 días"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Costras melicéricas periorificiales en un preescolar corresponden a impétigo, causado por S. aureus y S. pyogenes. Se trata con antibiótico antiestafilocócico: tópico (mupirocina) si es muy localizado, u oral (flucloxacilina, cloxacilina o cefadroxilo) por 7 a 10 días. Las curaciones solas no erradican la infección y los corticoides la empeoran.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Un niño de tres años tiene lesiones pruriginosas en la nariz y la cara hace tres días, con costras amarillas como miel alrededor de la nariz y la boca.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: curaciones con suero, curaciones con povidona, aciclovir oral, prednisona oral o flucloxacilina por siete días. Piénsalo.",
+        "answer": "Es la E. Las costras melicéricas son un impétigo, que se trata con un antibiótico antiestafilocócico como la flucloxacilina. El aciclovir tienta si se piensa en herpes, pero el herpes da vesículas agrupadas, no costras color miel."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.5.001 · Drenaje de abscesos superficiales",
+      "stem": "Un hombre de 30 años presenta un absceso de 3 cm en el muslo, fluctuante, con eritema alrededor de 1 cm, sin fiebre ni compromiso sistémico. No es diabético ni inmunosuprimido.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibiótico oral solamente por 10 días"
+        },
+        {
+          "letter": "B",
+          "text": "Punción con aguja fina sin drenaje"
+        },
+        {
+          "letter": "C",
+          "text": "Compresas frías y observación"
+        },
+        {
+          "letter": "D",
+          "text": "Incisión y drenaje bajo anestesia local, con lavado de la cavidad"
+        },
+        {
+          "letter": "E",
+          "text": "Hospitalizar para antibiótico endovenoso"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El tratamiento fundamental de un absceso cutáneo fluctuante es la incisión y drenaje: incisión amplia sobre la zona de mayor fluctuación, ruptura de tabiques, lavado con suero y curaciones. Sin celulitis extensa, compromiso sistémico ni inmunosupresión, el antibiótico no es indispensable; sin drenaje, el antibiótico solo no resuelve la colección.",
+      "say": {
+        "stem": "Un hombre sano de treinta años tiene un absceso fluctuante de tres centímetros en el muslo, con poco eritema alrededor y sin fiebre.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: solo antibiótico oral, punción con aguja fina, compresas frías, incisión y drenaje con anestesia local o hospitalizar para antibiótico endovenoso. Piénsalo.",
+        "answer": "Es la D. Un absceso fluctuante se trata con incisión y drenaje, y en un paciente sano sin celulitis extensa el antibiótico no es indispensable. El antibiótico solo tienta, pero no resuelve la colección."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 111",
+      "stem": "Niño de 7 años con 3 lesiones eritematosas con costra melicérica en el abdomen, pruriginosas, sin fiebre.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mupirocina tópica al 2%"
+        },
+        {
+          "letter": "B",
+          "text": "Amoxicilina oral 7 días"
+        },
+        {
+          "letter": "C",
+          "text": "Cefadroxilo oral 10 días"
+        },
+        {
+          "letter": "D",
+          "text": "Clindamicina oral"
+        },
+        {
+          "letter": "E",
+          "text": "Peróxido de benzoilo tópico"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Costras color miel sobre base eritematosa son un impétigo no ampollar (S. aureus o S. pyogenes). Con pocas lesiones, localizado y sin síntomas sistémicos, se trata con antibiótico tópico (mupirocina o ácido fusídico) por 5 a 7 días y aseo. El tratamiento oral (cefadroxilo, cloxacilina) se reserva para lesiones extensas, ampollares o brotes.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Niño de siete años con tres lesiones con costra color miel en el abdomen, sin fiebre.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: mupirocina tópica, amoxicilina oral, cefadroxilo oral, clindamicina oral o peróxido de benzoilo. Piénsalo.",
+        "answer": "Es la A. Un impétigo con pocas lesiones y sin fiebre se trata con mupirocina tópica. El cefadroxilo tienta porque cubre bien al estafilococo, pero se reserva para impétigo extenso o ampollar."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.2.002 · Ántrax",
+      "stem": "Hombre de 60 años, diabético mal controlado, consulta por una placa indurada, muy dolorosa, de 6 cm en la nuca, con múltiples orificios por los que drena pus (aspecto en espumadera), de 5 días. Tiene fiebre de 38,5 °C.",
+      "question": "¿Cuál es el diagnóstico y el manejo más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Forúnculo simple; calor local"
+        },
+        {
+          "letter": "B",
+          "text": "Carbunco por Bacillus anthracis; ciprofloxacino y notificación"
+        },
+        {
+          "letter": "C",
+          "text": "Ántrax (carbunco estafilocócico); drenaje quirúrgico, antibiótico sistémico antiestafilocócico y control de la glicemia"
+        },
+        {
+          "letter": "D",
+          "text": "Quiste epidérmico infectado; exéresis electiva"
+        },
+        {
+          "letter": "E",
+          "text": "Hidradenitis supurativa; doxiciclina"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El ántrax es la confluencia de varios forúnculos (S. aureus) que forman una placa inflamatoria con múltiples bocas de drenaje, típico en nuca y espalda de diabéticos. Es una infección profunda que requiere drenaje y antibiótico sistémico (cloxacilina o cefazolina, o según riesgo de SAMR) y compensación metabólica. El carbunco por B. anthracis es una escara negra indolora.",
+      "say": {
+        "stem": "Hombre de sesenta años, diabético mal controlado, con una placa dolorosa de seis centímetros en la nuca con muchos orificios que drenan pus, y fiebre.",
+        "question": "¿Cuál es el diagnóstico y manejo?",
+        "options": "Las opciones: forúnculo simple con calor, carbunco por Bacillus anthracis, ántrax estafilocócico con drenaje y antibiótico, quiste epidérmico infectado o hidradenitis. Piénsalo.",
+        "answer": "Es la C. Es un ántrax, la unión de varios forúnculos por estafilococo, que se drena y trata con antibiótico sistémico controlando la glicemia. El carbunco por Bacillus anthracis tienta por el nombre, pero produce una escara negra indolora, no una placa supurada."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.4.003 · Gram y cultivo",
+      "stem": "Hombre de 45 años con un absceso de 4 cm en el muslo, fluctuante, recurrente por tercera vez en el año. Su pareja tuvo forúnculos recientemente. Se drena en urgencia.",
+      "question": "¿Qué examen debe solicitarse de la secreción obtenida y por qué?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ninguno, el drenaje es suficiente en todos los casos"
+        },
+        {
+          "letter": "B",
+          "text": "Gram y cultivo con antibiograma, para identificar S. aureus y su susceptibilidad (incluida resistencia a meticilina) por la recurrencia"
+        },
+        {
+          "letter": "C",
+          "text": "Baciloscopía"
+        },
+        {
+          "letter": "D",
+          "text": "PCR para virus herpes"
+        },
+        {
+          "letter": "E",
+          "text": "Micológico directo"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En abscesos y piodermias recurrentes, extensos, con compromiso sistémico, en inmunosuprimidos o con falla de tratamiento, el Gram y el cultivo con antibiograma de la secreción identifican al agente (habitualmente S. aureus) y su susceptibilidad, incluida la resistencia a meticilina comunitaria, lo que orienta el antibiótico y la descolonización.",
+      "say": {
+        "stem": "Hombre de cuarenta y cinco años con su tercer absceso del año en el muslo, cuya pareja tuvo forúnculos. Se drena en urgencia.",
+        "question": "¿Qué examen se pide de la secreción?",
+        "options": "Las opciones: ninguno, Gram y cultivo con antibiograma, baciloscopía, PCR para herpes o micológico directo. Piénsalo.",
+        "answer": "Es la B. Por la recurrencia se pide Gram y cultivo con antibiograma, para identificar al estafilococo y si es resistente a meticilina. No pedir nada tienta porque el drenaje basta en un absceso aislado, pero en recurrentes cambia el tratamiento."
+      }
     },
 
     {

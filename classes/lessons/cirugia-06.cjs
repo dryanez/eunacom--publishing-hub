@@ -32,9 +32,11 @@ module.exports = {
       ],
       steps: [
         { show: ['ind', 'anp'], note: 'La más frecuente de todas',
-          say: 'Partamos por la más frecuente: la hernia inguinal indirecta. Es congénita, por un conducto que debió cerrarse antes de nacer y no se cerró. Sale por el anillo inguinal profundo, lateral a los vasos epigástricos, y por eso puede acompañar al cordón espermático hasta el escroto.' },
+          say: 'Partamos por la más frecuente: la hernia inguinal indirecta. Es congénita, por un conducto que debió cerrarse antes de nacer y no se cerró. Sale por el anillo inguinal profundo, lateral a los vasos epigástricos, y por eso puede acompañar al cordón espermático hasta el escroto. Mira este corte de TAC: la flecha sigue el saco que desciende por el canal inguinal hasta el escroto.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-06/03_hernia-inguinoescrotal-tac__ctmri-path_p393.jpg', label: 'Hernia inguinoescrotal', at: 'Mira este corte de TAC', credit: 'CT & MRI Pathology: A Pocket Atlas, p. 393' } },
         { show: ['dir', 'hes'], note: 'La pared se debilitó con los años',
-          say: 'La directa es distinta: es adquirida, por debilidad de la pared en el triángulo de Hesselbach, y protruye medial a esos mismos vasos epigástricos. Fíjate en la palabra clave: lateral es indirecta, medial es directa.' },
+          say: 'La directa es distinta: es adquirida, por debilidad de la pared en el triángulo de Hesselbach, y protruye medial a esos mismos vasos epigástricos. Fíjate en la palabra clave: lateral es indirecta, medial es directa. Mira este esquema: el triángulo de Hesselbach, con los vasos epigástricos como límite.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-06/S1_hesselbach__propio.svg', label: 'Triángulo de Hesselbach', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['cru', 'lig'], note: 'Por debajo del ligamento inguinal',
           say: 'Y la crural, o femoral, sale por debajo del ligamento inguinal, medial a la vena femoral. Es más frecuente en mujeres que han tenido varios partos.' },
         { show: ['est'], note: 'El anillo no da espacio para el intestino',
@@ -109,7 +111,8 @@ module.exports = {
         { show: ['ata', 'tax'], note: 'El vaso todavía riega el intestino',
           say: 'La atascada no se reduce, pero el intestino todavía tiene buena circulación. Si lleva menos de seis horas, puedes intentar una reducción manual suave, el taxis.' },
         { show: ['est'], note: 'El intestino se está muriendo adentro',
-          say: 'La estrangulada es distinta: aquí el vaso está comprimido, el asa se isquemia y empieza a necrosarse. La ves con dolor exquisito, piel enrojecida y caliente sobre la hernia, y fiebre.' },
+          say: 'La estrangulada es distinta: aquí el vaso está comprimido, el asa se isquemia y empieza a necrosarse. La ves con dolor exquisito, piel enrojecida y caliente sobre la hernia, y fiebre. Mira esta ilustración: arriba, el asa atrapada que aún se riega bien; abajo, el asa estrangulada, violácea por la isquemia.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-06/02_hernia-umbilical-incarcerada__cto-cirugia_p56.jpg', label: 'Asa sana y estrangulada', at: 'Mira esta ilustración', credit: 'Manual CTO Cirugía 14.ª ed., p. 56' } },
         { show: ['noc', 'cx'], note: 'La regla que más se pregunta en hernias',
           say: 'Y aquí está la regla de oro del tema: nunca intentes el taxis en una hernia estrangulada. Reducir un asa necrosada la manda de vuelta al abdomen y produce una peritonitis fecaloidea catastrófica. Vas directo a cirugía de urgencia, sin tocarla antes.' },
       ],
@@ -146,13 +149,63 @@ module.exports = {
       cards: [
         { title: 'Pérdida de domicilio', tag: 'Más de la mitad de las vísceras afuera', kind: 'alert', items: [
           { t: 'Saco gigante, irreductible', d: 'De larga data, abdomen retráctil',
-            say: 'Hay un escenario extremo que a veces sale como distractor: la hernia con pérdida de domicilio, donde más de la mitad de las vísceras llevan años viviendo fuera del abdomen, en un saco gigante e irreductible.' },
+            say: 'Hay un escenario extremo que a veces sale como distractor: la hernia con pérdida de domicilio, donde más de la mitad de las vísceras llevan años viviendo fuera del abdomen, en un saco gigante e irreductible. Mira esta hernia inguinal bilateral gigante, de larga data.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-06/01_hernia-inguinal-bilateral-gigante__cto-cirugia_p56.jpg', label: 'Inguinal bilateral gigante', at: 'Mira esta hernia', credit: 'Manual CTO Cirugía 14.ª ed., p. 56' } },
           { t: 'Neumoperitoneo progresivo antes', d: 'Prepara el abdomen para recibirlas de vuelta',
             say: 'Ahí no puedes operar directo: primero preparas al paciente con neumoperitoneo progresivo, inyectando aire poco a poco, para que el abdomen se acostumbre a recibir esas vísceras de vuelta sin que se te dispare la presión.' },
         ] },
         { title: 'GES en menores de 15 años', tag: 'Ley 19.966', kind: 'criteria', items: [
           { t: 'Garantía N° 58', d: 'Tratamiento quirúrgico de la hernia del desarrollo',
             say: 'Y no olvides el nombre exacto para el examen: es la Garantía GES número cincuenta y ocho, tratamiento quirúrgico de hernia del desarrollo de la pared abdominal en menores de quince años.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Pared abdominal',
+      title: 'Eventración: la hernia de la cicatriz',
+      cards: [
+        { title: 'Qué es y por qué ocurre', tag: '10 a 20 % de las laparotomías', kind: 'key', items: [
+          { t: 'Defecto en cicatriz previa', d: 'Hernia incisional',
+            say: 'Cambiamos de lugar: la eventración, o hernia incisional, es la protrusión de contenido abdominal por un defecto de la aponeurosis en una cicatriz de laparotomía previa. Ocurre en diez a veinte de cada cien laparotomías.' },
+          { t: 'Factores de riesgo', d: 'Infección, obesidad, diabetes, tabaco',
+            say: 'La favorecen la infección de la herida, la obesidad, la diabetes, el tabaquismo, la desnutrición, la tos crónica y la cirugía de urgencia.' },
+        ] },
+        { title: 'Clínica y diagnóstico', tag: 'Masa en la cicatriz', kind: 'criteria', items: [
+          { t: 'Masa que crece con el esfuerzo', d: 'Se reduce en decúbito',
+            say: 'Se presenta como una masa en la cicatriz que aumenta con el esfuerzo y se reduce acostado. Si el defecto es grande, se confirma con ecografía o TAC.' },
+          { t: 'Puede estrangularse', d: 'Dolor, masa irreductible, obstrucción',
+            say: 'Y como cualquier hernia, puede incarcerarse o estrangularse, con dolor, masa irreductible y obstrucción intestinal.' },
+        ] },
+        { title: 'Tratamiento', tag: 'Electivo, con malla', kind: 'pharma', items: [
+          { t: 'Cirugía electiva con malla', d: 'Reparación sin tensión; la faja es paliativa',
+            say: 'El tratamiento es quirúrgico electivo con malla, sin tensión, después de optimizar los factores de riesgo. La faja es solo paliativa. Tras la reparación se evitan los esfuerzos por cuatro a seis semanas.' },
+          { t: 'Evisceración: urgencia', d: 'Dehiscencia aguda con salida de vísceras',
+            say: 'No la confundas con la evisceración, que es la dehiscencia aguda con salida de vísceras: eso es una urgencia.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Línea media',
+      title: 'Hernia umbilical y epigástrica',
+      cards: [
+        { title: 'Hernia umbilical', tag: 'Niño versus adulto', kind: 'key', items: [
+          { t: 'Niño: se cierra sola', d: 'Hasta los 4 a 5 años',
+            say: 'La hernia umbilical del niño se cierra sola en la mayoría hasta los cuatro a cinco años. Solo se opera si persiste, es muy grande o se complica.' },
+          { t: 'Adulto: no cierra sola', d: 'Malla si es sintomática o crece',
+            say: 'La del adulto no cierra espontáneamente, y se repara con malla si da síntomas o crece. Mira esta hernia umbilical con signos inflamatorios: es una hernia incarcerada.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-06/04_hernia-umbilical-incarcerada-foto__knoop_p201.jpg', label: 'Umbilical incarcerada', at: 'Mira esta hernia umbilical', credit: 'The Atlas of Emergency Medicine (Knoop), p. 201' } },
+        ] },
+        { title: 'Hernia epigástrica', tag: 'Línea alba', kind: 'criteria', items: [
+          { t: 'Defecto pequeño', d: 'Entre el xifoides y el ombligo',
+            say: 'La hernia epigástrica es un defecto pequeño de la línea alba, entre el xifoides y el ombligo. Puede dar dolor localizado y se repara de forma electiva.' },
+        ] },
+        { title: 'Cuando urge', tag: 'Cualquier hernia', kind: 'alert', items: [
+          { t: 'Dolorosa, irreductible, inflamada', d: 'Cirugía urgente',
+            say: 'Y en cualquiera de ellas, si se vuelve dolorosa, irreductible y con signos inflamatorios, se opera de urgencia.' },
         ] },
       ],
     },
@@ -168,37 +221,6 @@ module.exports = {
       steps: [
         { note: 'Los vasos epigástricos separan',
           say: 'El punto de referencia son los vasos epigástricos inferiores. La hernia indirecta sale lateral a ellos, por el anillo profundo, recorre el canal inguinal y puede bajar al escroto; es la más frecuente, también en niños. La directa sale medial, empujando la pared débil del triángulo de Hesselbach; es propia del adulto mayor y rara vez llega al escroto.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Hernias de la pared abdominal',
-      images: [
-        { src: 'biblioteca/10_cirugia/cirugia-06/S1_hesselbach__propio.svg', label: 'Triángulo de Hesselbach', credit: 'Dibujo propio (esquema)' },
-        { src: 'biblioteca/10_cirugia/cirugia-06/02_hernia-umbilical-incarcerada__cto-cirugia_p56.jpg', label: 'Asa sana y asa estrangulada', credit: 'Manual CTO Cirugía 14.ª ed., p. 56' },
-      ],
-      steps: [
-        { note: 'Directa vs indirecta',
-          say: 'La hernia directa sale por el triángulo de Hesselbach, medial a los vasos epigástricos. La indirecta sale lateral, por el anillo profundo.' },
-        { note: 'El asa que se necrosa',
-          say: 'Arriba, un asa atrapada que todavía riega bien. Abajo, el asa estrangulada, violácea por la isquemia: va a cirugía de urgencia, sin intentar reducirla.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/10_cirugia/cirugia-06/01_hernia-inguinal-bilateral-gigante__cto-cirugia_p56.jpg', label: 'Hernia inguinal bilateral gigante', credit: 'Manual CTO Cirugía 14.ª ed., p. 56' },
-      ],
-      steps: [
-        { note: 'Hernia inguinal bilateral gigante',
-          say: 'Esta hernia inguinal bilateral gigante, de larga data, tiene pérdida de domicilio. Antes de operarla se prepara el abdomen con neumoperitoneo progresivo.' },
       ],
     },
 
@@ -221,6 +243,8 @@ module.exports = {
           say: 'Crural, bajo el ligamento inguinal y medial a la vena femoral: se opera pronto, aunque esté asintomática, por el riesgo de estrangularse.' },
         { cells: ['Estrangulada', 'Piel roja, caliente, dolor intenso', 'Cirugía urgente, sin taxis'],
           say: 'Estrangulada, con piel roja, caliente y dolor intenso: cirugía urgente, y el error clásico y más castigado en el examen es intentar reducirla con la mano antes de operar.' },
+        { cells: ['Eventración (hernia incisional)', 'Defecto en cicatriz de laparotomía previa', 'Cirugía electiva con malla; la faja es paliativa'],
+          say: 'Y la eventración, en la cicatriz de una laparotomía previa: cirugía electiva con malla, y la faja solo alivia, no repara.' },
         { cells: ['Niño menor de 15 años', 'Conducto peritoneovaginal permeable', 'Herniotomía simple, sin malla'],
           say: 'Y en el niño, herniotomía simple sin malla. Ponerle una malla a un niño es la respuesta incorrecta más clásica de esta parte.' },
       ],
@@ -293,6 +317,44 @@ module.exports = {
         options: 'Las opciones son: cirugía electiva inmediata, cirugía de urgencia, derivación urgente a cirugía pediátrica, antibióticos profilácticos, u observación porque la mayoría se cierra sola antes de los cuatro años. Piénsalo.',
         answer: 'Es la E. La hernia umbilical del recién nacido es distinta a todo lo que vimos hoy: es fisiológica, por un anillo umbilical que todavía no termina de cerrar, y en la enorme mayoría de los casos se cierra solo antes de los cuatro años. Aquí no hay ninguna urgencia: nada de cirugía ni de antibióticos mientras siga reductible y sin inflamación.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.090 · Hernia inguinal",
+      "stem": "Un lactante de 3 meses, nacido de término, presenta un aumento de volumen inguinal derecho que aparece con el llanto y desaparece en reposo. Al examen la tumoración es blanda, reductible e indolora, y no transilumina. El testículo derecho está en el escroto.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Observar hasta los 2 años, porque suele cerrarse espontáneamente"
+        },
+        {
+          "letter": "B",
+          "text": "Puncionar para descartar hidrocele"
+        },
+        {
+          "letter": "C",
+          "text": "Indicar braguero"
+        },
+        {
+          "letter": "D",
+          "text": "Cirugía solo si se atasca"
+        },
+        {
+          "letter": "E",
+          "text": "Cirugía electiva precoz (herniotomía) en los próximos días a semanas"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La hernia inguinal pediátrica es indirecta, por persistencia del conducto peritoneovaginal, y no se cierra sola. Por el alto riesgo de atascamiento en lactantes debe operarse en forma electiva y precoz, apenas se diagnostica. A diferencia de la hernia umbilical y el hidrocele comunicante, no se observa. El braguero no está indicado y la punción está contraindicada.",
+      "say": {
+        "stem": "Un lactante de tres meses tiene un aumento de volumen inguinal derecho, blando y reductible, que aparece al llorar.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: observar hasta los dos años, puncionar, braguero, operar solo si se atasca o cirugía electiva precoz. Piénsalo.",
+        "answer": "Es la E. La hernia inguinal del lactante no se cierra sola y tiene alto riesgo de atascarse, por lo que se opera en forma electiva y precoz. Observar tienta porque así se maneja la hernia umbilical, pero no la inguinal."
+      }
     },
 
     {

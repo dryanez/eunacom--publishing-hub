@@ -1,0 +1,122 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Obstetricia 10: cuello abierto o cerrado en cada forma de aborto, sobre ilustración real.
+// Base: Blausen.com staff (2014) "Ectopic Pregnancy" (panel del embarazo normal), CC BY 3.0; rótulos quitados y el embrión
+// borrado por inpainting (assets/blausen/utero_normal.png, 600x540). Coordenadas en píxeles de esa imagen.
+//   ?v=formas   ob-10 A1: amenaza → retenido → completo → incompleto → séptico
+const V = new URLSearchParams(location.search).get('v') || 'formas';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+
+const SRC = { x: 150, y: 90, w: 340, h: 350 }, DST = { x: 40, y: 150 }, S = 1.45;
+DST.w = SRC.w * S; DST.h = SRC.h * S;
+const P = (x, y) => [DST.x + (x - SRC.x) * S, DST.y + (y - SRC.y) * S];
+const CAVITY = [[262, 172], [330, 186], [388, 164], [378, 228], [345, 288], [326, 322], [320, 332], [312, 332], [304, 322], [290, 280], [272, 228]];
+const CANAL = poly([[316, 300], [316, 340], [317, 380], [316, 408]].map(p => P(...p)));
+const EMB = [322, 226];
+const EXPEL = poly([[322, 226], [316, 290], [316, 340], [317, 390], [316, 440], [316, 470]].map(p => P(...p)));
+const RESTOS = [[300, 214, 11], [318, 238, 13], [346, 200, 10], [336, 262, 9], [308, 276, 8], [364, 184, 9], [320, 306, 7], [356, 232, 8]];
+
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  ctx.drawImage(I('ut'), SRC.x, SRC.y, SRC.w, SRC.h, DST.x, DST.y, DST.w, DST.h); ctx.restore();
+}
+function clipLamina() { ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip(); }
+// embrión: perla como la de la ilustración original; gris si ya no tiene latidos
+function embryo(x, y, r, a, dead, pulse) {
+  if (a <= 0) return; ctx.save(); clipLamina(); ctx.globalAlpha = a; const rr = r * (1 + pulse);
+  if (!dead) K.glow(x, y, rr * 2.6, '255,120,120', 0.55 * pulse * 4);
+  const g = ctx.createRadialGradient(x - rr * 0.35, y - rr * 0.4, rr * 0.1, x, y, rr);
+  if (dead) { g.addColorStop(0, '#E7E7E7'); g.addColorStop(1, '#6E6E70'); } else { g.addColorStop(0, '#FFFFFF'); g.addColorStop(0.7, '#F6D9DA'); g.addColorStop(1, '#C8878C'); }
+  ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, rr, 0, 7); ctx.fill(); ctx.strokeStyle = dead ? '#4A4A4C' : '#9B5A60'; ctx.lineWidth = 1.4; ctx.stroke(); ctx.restore();
+}
+// el canal cervical se abre (0 cerrado .. 1 abierto)
+function cervix(open) {
+  if (open <= 0.02) return; ctx.save(); clipLamina(); ctx.lineCap = 'round';
+  const w = 4 + 13 * open;
+  CANAL.stroke(ctx, 0, 1, w + 5, '#5A1620'); CANAL.stroke(ctx, 0, 1, w, '#8E2433'); CANAL.stroke(ctx, 0, 1, w * 0.45, '#B94557'); ctx.restore();
+}
+function restos(a, t) {
+  if (a <= 0) return; ctx.save(); clipLamina();
+  RESTOS.forEach(([x, y, r], i) => { const [px, py] = P(x, y); ctx.globalAlpha = a; ctx.fillStyle = i % 2 ? '#7A1424' : '#A12A3A';
+    ctx.beginPath(); ctx.ellipse(px, py, r * 1.5, r * 1.1, rnd(i) * 3, 0, 7); ctx.fill(); ctx.fillStyle = 'rgba(255,170,170,0.35)'; ctx.beginPath(); ctx.ellipse(px - 2, py - 2, r * 0.6, r * 0.4, 0, 0, 7); ctx.fill(); });
+  ctx.restore();
+}
+function blood(a, t) {
+  if (a <= 0) return; ctx.save(); clipLamina(); ctx.fillStyle = '#C8102E';
+  for (let i = 0; i < 6; i++) { const u = (t * 0.45 + i / 6) % 1, [x, y] = CANAL.at(0.2 + 0.8 * u, (rnd(i) - 0.5) * 8); ctx.globalAlpha = a * Math.min(1, u * 5, (1 - u) * 3); ctx.beginPath(); ctx.arc(x, y, 3, 0, 7); ctx.fill(); }
+  ctx.restore();
+}
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+const T0 = [1, 6.5, 12, 17.5, 24], T1 = 31.5;
+const ROWS = [
+  ['Amenaza de aborto', 'Cuello cerrado · embrión con latidos', 'Reposo relativo y control', C.GREEN],
+  ['Aborto retenido', 'Cuello cerrado · sin latidos', 'Misoprostol o AMEU', C.AMBER],
+  ['Aborto completo', 'Cuello se cierra · cavidad vacía', 'Solo observación', C.BLUE],
+  ['Aborto incompleto', 'Cuello abierto · restos en la cavidad', 'AMEU o misoprostol', C.AMBER],
+  ['Aborto séptico', 'Cuello abierto · fiebre y mal olor', 'Antibiótico primero, evacuar después', C.RED],
+];
+function formas(t) {
+  K.title('Aborto: cuello y ecografía', 'Cerrado o abierto, y qué hay dentro de la cavidad', C.AMBER);
+  lamina(seg(t, 0, 0.7));
+  const st = T0.filter(x => t >= x).length - 1;                 // -1 antes de empezar
+  const lt = st >= 0 ? t - T0[st] : 0;
+  // apertura del cuello
+  let open = 0;
+  if (st === 2) open = Math.sin(Math.PI * clamp(lt / 3, 0, 1));
+  else if (st === 3) open = ease(seg(lt, 0, 1.5));
+  else if (st === 4) open = 1;
+  cervix(open);
+  // embrión
+  if (st === 0) { const hb = Math.max(0, Math.sin(lt * 9)) ** 6 * 0.18; embryo(...P(...EMB), 15, seg(lt, 0, 0.6), false, hb); }
+  if (st === 1) embryo(...P(...EMB), 15, 1, true, 0);
+  if (st === 2) { const u = ease(seg(lt, 0.2, 2.6)); const [x, y] = EXPEL.at(u); embryo(x, y, 15 * (1 - 0.3 * u), 1 - seg(lt, 2.6, 0.6), true, 0); }
+  // restos
+  if (st >= 3) restos(seg(lt, 0.3, 0.8), t);
+  if (st >= 3) blood(seg(lt, 1.2, 0.6), t);
+  // fiebre y mal olor
+  if (st === 4) { const f = seg(lt, 0.5, 1); const [cx, cy] = P(330, 230); ctx.save(); clipLamina(); K.glow(cx, cy, 130 + 6 * Math.sin(t * 5), '200,230,60', 0.35 * f); ctx.restore();
+    ctx.save(); ctx.globalAlpha = f * 0.8; ctx.strokeStyle = '#B7D74A'; ctx.lineWidth = 3; ctx.lineCap = 'round';
+    for (let k = 0; k < 3; k++) { const bx = P(262 + k * 56, 150)[0], by = P(0, 150)[1] - 4; ctx.beginPath();
+      for (let j = 0; j <= 20; j++) { const y = by - j * 3.2, x = bx + 7 * Math.sin(j * 0.7 + t * 3 + k); j ? ctx.lineTo(x, y) : ctx.moveTo(x, y); } ctx.stroke(); } ctx.restore();
+    tag('T° 38,7', P(420, 120)[0], P(420, 120)[1], C.RED, 17); }
+  // rótulos sobre la ilustración
+  const lA = st >= 0 ? 1 : 0;
+  label(open > 0.4 ? 'Orificio cervical interno ABIERTO' : 'Orificio cervical interno cerrado', 380, 650, open > 0.4 ? C.RED : C.GREEN, ...P(316, 320), lA * seg(t, 1, 0.5));
+  if (st === 1) label('Sin latidos', 160, 215, C.AMBER, ...P(EMB[0] - 12, EMB[1]), seg(lt, 0.4, 0.4));
+  if (st === 0) label('Latidos presentes', 160, 215, C.GREEN, ...P(EMB[0] - 12, EMB[1]), seg(lt, 0.6, 0.4));
+  if (st === 2) label('Se expulsó todo', 160, 215, C.BLUE, ...P(318, 300), seg(lt, 2.2, 0.5));
+  if (st === 3) label('Restos ovulares', 160, 215, C.AMBER, ...P(318, 238), seg(lt, 1, 0.5));
+  if (st === 4) label('Restos infectados', 160, 215, C.RED, ...P(318, 238), seg(lt, 1, 0.5));
+  // filas a la derecha
+  ROWS.forEach((r, i) => {
+    const a = seg(t, T0[i] - 0.2, 0.5); if (a <= 0) return; const act = st === i; const y = 130 + i * 102;
+    ctx.save(); ctx.globalAlpha = a * (act ? 1 : 0.5);
+    rrect(580, y, 660, 92, 14, act ? '#1E2633' : '#161B22'); ctx.fillStyle = r[3]; ctx.fillRect(580, y, 6, 92);
+    text(r[0], 604, y + 32, 23, r[3], 'bold'); text(r[1], 604, y + 60, 18, C.INK); text('→ ' + r[2], 604, y + 82, 16, C.MUTED);
+    ctx.restore();
+  });
+  K.banner(580, 646, 660, 'Cuello + ecografía = diagnóstico', C.AMBER, seg(t, 29, 0.5));
+}
+
+const SCN = { formas: { f: formas, dur: 33 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({ ut: '../assets/blausen/utero_normal.png' });
+</script>
+</body></html>

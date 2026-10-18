@@ -79,7 +79,8 @@ module.exports = {
         ] },
         { title: 'Polisomnografía', tag: 'Estándar de oro', kind: 'key', items: [
           { t: 'Polisomnografía nocturna', d: 'En laboratorio; alternativa: poligrafía',
-            say: 'El estándar de oro es la polisomnografía nocturna supervisada en laboratorio. Registra el flujo aéreo, el esfuerzo toracoabdominal, la saturación, el electrocardiograma y el electroencefalograma. La poligrafía respiratoria ambulatoria es una alternativa, pero cuando el examen pregunta el examen de elección, la respuesta es polisomnografía.' },
+            say: 'El estándar de oro es la polisomnografía nocturna supervisada en laboratorio. Registra el flujo aéreo, el esfuerzo toracoabdominal, la saturación, el electrocardiograma y el electroencefalograma. La poligrafía respiratoria ambulatoria es una alternativa, pero cuando el examen pregunta el examen de elección, la respuesta es polisomnografía. Mira este registro real de una polisomnografía. Y este esquema de lo que se mira: el flujo que se detiene mientras el esfuerzo continúa.',
+            photos: [{ src: 'biblioteca/02_neumologia/resp-23/02_polisomnografia_real__commons.jpg', label: 'Polisomnografía real', at: 'Mira este registro real', credit: 'Wikimedia Commons «Polysomnographie-apnees-5min2.png», CC BY-SA 3.0, GAllegre' }, { src: 'biblioteca/02_neumologia/resp-23/S1_polisomnografia-apnea__propio.svg', label: 'Lo que se mira', at: 'Y este esquema', credit: 'Dibujo propio (esquema)' }] },
           { t: 'IAH = eventos por hora', d: 'Apneas + hipopneas por hora de sueño',
             say: 'Su resultado clave es el índice de apnea hipopnea: el número de apneas más hipopneas por cada hora de sueño.' },
         ] },
@@ -124,19 +125,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Apnea obstructiva en la polisomnografía',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La faringe que se cierra y el CPAP que la abre',
       images: [
-        { src: 'biblioteca/02_neumologia/resp-23/02_polisomnografia_real__commons.jpg', label: 'Polisomnografía real', credit: 'Wikimedia Commons «Polysomnographie-apnees-5min2.png», CC BY-SA 3.0, GAllegre' },
-        { src: 'biblioteca/02_neumologia/resp-23/S1_polisomnografia-apnea__propio.svg', label: 'Lo que se mira', credit: 'Dibujo propio (esquema)' },
+        { src: 'animaciones/resp-23/A1_faringe_cpap.mp4', label: 'Apnea y CPAP', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Pausas repetidas con desaturación',
-          say: 'Esta es una polisomnografía real. Fíjate en las pausas repetidas del flujo de aire, mientras el tórax sigue haciendo esfuerzo, y la saturación que cae después de cada una.' },
-        { note: 'El flujo se detiene, el esfuerzo sigue',
-          say: 'Y este esquema lo simplifica: en la apnea obstructiva el flujo se detiene pero el esfuerzo continúa. Si también se detiene el esfuerzo, la apnea es central.' },
+        { note: 'Colapso, desaturación y CPAP',
+          say: 'Mira la faringe durante el sueño: los tejidos blandos se vencen hacia adentro hasta cerrar la vía aérea. El aire deja de pasar, la saturación cae, y el cerebro despierta un instante para reabrirla. Con el CPAP, la presión positiva continua actúa como una férula de aire y mantiene la faringe abierta toda la noche.' },
       ],
     },
 
@@ -275,6 +272,44 @@ module.exports = {
         options: 'Las opciones: CPAP, cirugía de cornetes, laparotomía, cirugía laparoscópica, o manejo conservador. Piénsalo.',
         answer: 'Es la A. Sesenta y cinco eventos por hora es severo, y el severo va a CPAP. La cirugía de cornetes es la trampa: el enunciado te pone un hallazgo anatómico para que lo operes, pero el problema es el colapso de la faringe al dormir, y los cornetes no lo resuelven. Y el manejo conservador se queda corto en un severo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.03.4.009 · Polisomnografía",
+      "stem": "Hombre de 52 años, IMC 36 kg/m2, hipertenso con 3 fármacos, con ronquido intenso, pausas respiratorias presenciadas por su pareja y somnolencia diurna (Epworth 15). Sin enfermedad cardiopulmonar ni neuromuscular significativa.",
+      "question": "¿Cuál es el estudio de elección para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Polisomnografía (o poligrafía respiratoria domiciliaria en alta probabilidad), que permite calcular el índice de apnea-hipopnea"
+        },
+        {
+          "letter": "B",
+          "text": "Espirometría"
+        },
+        {
+          "letter": "C",
+          "text": "Gases arteriales en vigilia"
+        },
+        {
+          "letter": "D",
+          "text": "Ecocardiograma"
+        },
+        {
+          "letter": "E",
+          "text": "TAC de cuello"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La polisomnografía nocturna es el estándar para el diagnóstico de SAHOS: registra EEG, flujo, esfuerzo, saturación y otras variables, y permite calcular el índice de apnea-hipopnea (IAH: 5 a 14 leve, 15 a 29 moderado, 30 o más grave). En pacientes con alta probabilidad clínica y sin comorbilidad relevante, la poligrafía domiciliaria es una alternativa válida.",
+      "say": {
+        "stem": "Hombre de cincuenta y dos años, obeso, hipertenso refractario, con ronquido, pausas respiratorias presenciadas y mucha somnolencia diurna.",
+        "question": "¿Cuál es el estudio de elección?",
+        "options": "Las opciones: polisomnografía o poligrafía domiciliaria, espirometría, gases arteriales en vigilia, ecocardiograma o TAC de cuello. Piénsalo.",
+        "answer": "Es la A. La polisomnografía confirma el SAHOS y mide el índice de apnea e hipopnea, y la poligrafía domiciliaria sirve si la probabilidad es alta. Los gases arteriales tientan por la obesidad, pero en vigilia suelen ser normales y no diagnostican apneas."
+      }
     },
 
     {

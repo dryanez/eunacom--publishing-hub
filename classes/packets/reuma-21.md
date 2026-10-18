@@ -466,7 +466,7 @@ Un paciente consulta por disminución del deseo sexual y de las erecciones. Adem
 - D) Fondo de ojo
 - E) TAC de cerebro
 **Correcta: C**
-Explicación del banco: Es un tumor hipoﬁsiario clásico, con síntomas compresivos del quiasma e hipopituitarismo. Se estudia con RMN de silla turca.
+Explicación del banco: Es un tumor hipofisiario clásico, con síntomas compresivos del quiasma e hipopituitarismo. Se estudia con RMN de silla turca.
 
 ### [13] EUNACOM Julio 2017 · Pregunta 126 · confianza 0.82
 Un escolar de 8 años consulta por aparición de lesiones en las extremidades infe- riores, consistentes en pápulas eritematosas, palpables. Refiere además artralgias mi- gratorias en las manos, rodillas y codos, y también hematoquezia en algunas oportuni- dades desde hace algunos días ¿Cuál es la complicación más probable en el mediano plazo?

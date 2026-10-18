@@ -109,7 +109,8 @@ module.exports = {
           { t: 'Linfocitos B ≥ 5.000/µL', d: 'Persistentes al menos 3 meses',
             say: 'El diagnóstico exige una linfocitosis B clonal de cinco mil o más por microlitro, que persista al menos tres meses, y se confirma con citometría de flujo.' },
           { t: 'Sombras de Gümprecht', d: 'Linfocitos frágiles rotos en el frotis',
-            say: 'Y en el frotis aparece la pista clásica: las sombras de Gümprecht. Son núcleos aplastados, sin citoplasma, de linfocitos tan frágiles que se rompen al hacer el frotis. Ojo: no las confundas con los bastones de Auer, que son de la leucemia mieloide aguda.' },
+            say: 'Y en el frotis aparece la pista clásica: las sombras de Gümprecht. Son núcleos aplastados, sin citoplasma, de linfocitos tan frágiles que se rompen al hacer el frotis. Ojo: no las confundas con los bastones de Auer, que son de la leucemia mieloide aguda. Mira este frotis: entre los linfocitos pequeños, las manchas rosadas deshechas son las sombras de Gümprecht.',
+            photo: { src: 'biblioteca/06_hematologia/hem-17/02_llc_sombras_gumprecht__goljan_p580.jpg', label: 'Sombras de Gümprecht', at: 'Mira este frotis', credit: 'Goljan, Rapid Review Pathology, Link 13-19' } },
         ] },
         { title: 'Complicaciones', tag: 'Inmunidad alterada', kind: 'alert', items: [
           { t: 'Hipogammaglobulinemia', d: 'Infecciones respiratorias a repetición',
@@ -165,7 +166,11 @@ module.exports = {
         { cells: ['Célula que prolifera', 'Granulocitos, toda la serie + basofilia', 'Linfocito B maduro (CD19+, CD5+)'],
           say: 'En la mieloide prolifera toda la serie granulocítica, con basofilia. En la linfática, un linfocito B maduro y monótono, CD diecinueve y CD cinco positivo.' },
         { cells: ['Frotis', 'Mielocitos, metamielocitos, bandas', 'Linfocitos maduros + Gümprecht'],
-          say: 'El frotis de la mieloide muestra mielocitos, metamielocitos y baciliformes. El de la linfática, linfocitos pequeños maduros y sombras de Gümprecht.' },
+          say: 'El frotis de la mieloide: mira esta leucocitosis con mielocitos, metamielocitos y baciliformes. El de la linfática: en este otro, muchos linfocitos pequeños maduros y sombras de Gümprecht, linfocitos rotos al hacer el frotis.',
+          photos: [
+            { src: 'biblioteca/06_hematologia/hem-17/01_lmc-leucocitosis-con-desviacion-izquierd__cto-hemato_p53.jpg', label: 'LMC', at: 'mira esta leucocitosis', credit: 'Manual CTO Hematología 14.ª ed., p. 53' },
+            { src: 'biblioteca/06_hematologia/hem-17/01_frotis_llc__harrison_p875.jpg', label: 'LLC', at: 'en este otro', credit: 'Harrison 21.ª ed., Fig. 107-1' },
+          ] },
         { cells: ['Genética', 'Filadelfia t(9;22) · BCR-ABL1', 'del 13q buena · del 17p/TP53 mala'],
           say: 'En genética, la mieloide tiene el Filadelfia. En la linfática, la deleción del trece q es de buen pronóstico, y la del diecisiete p, con TP cincuenta y tres, de mal pronóstico.' },
         { cells: ['Signo clave', 'Esplenomegalia gigante', 'Adenopatías generalizadas indoloras'],
@@ -174,6 +179,29 @@ module.exports = {
           say: 'La mieloide se transforma en crisis blástica; la linfática, en síndrome de Richter.' },
         { cells: ['Conducta inicial', 'Imatinib de inmediato', 'Observar en Binet A'],
           say: 'Y la diferencia más preguntada de todas: la mieloide se trata de inmediato con imatinib, y la linfática temprana se observa. Una se trata siempre, la otra muchas veces no.' },
+      ],
+    },
+
+    {
+      type: 'table',
+      kicker: 'Leucocitosis que simula LMC',
+      title: 'Reacción leucemoide vs leucemia mieloide crónica',
+      head: ['Parámetro', 'Reacción leucemoide', 'LMC'],
+      rows: [
+        { cells: ['Qué es', 'Leucocitosis reactiva, sin clon', 'Neoplasia clonal'],
+          say: 'A veces el hemograma grita leucemia y no lo es. La reacción leucemoide es una leucocitosis reactiva intensa, sobre cincuenta mil, con desviación a la izquierda, pero sin clon neoplásico.' },
+        { cells: ['Causas', 'Sepsis, tuberculosis, C. difficile, hemorragia o hemólisis, corticoides, G-CSF', 'La translocación nueve veintidós'],
+          say: 'Sus causas son las infecciones graves, como la sepsis, la tuberculosis o la infección por Clostridioides difficile, la hemorragia o la hemólisis aguda, y fármacos como corticoides, litio o factor estimulante de colonias.' },
+        { cells: ['Fosfatasa alcalina leucocitaria', 'Alta', 'Baja'],
+          say: 'La clave de laboratorio clásica: la fosfatasa alcalina leucocitaria está alta en la reacción leucemoide, y baja en la leucemia mieloide crónica.' },
+        { cells: ['Frotis', 'Granulación tóxica y cuerpos de Döhle', 'Basofilia y eosinofilia'],
+          say: 'En el frotis, la reacción leucemoide muestra neutrófilos con granulación tóxica y cuerpos de Döhle. La leucemia crónica, en cambio, tiene basofilia y eosinofilia.' },
+        { cells: ['Bazo', 'Sin esplenomegalia masiva', 'Esplenomegalia'],
+          say: 'El bazo: no hay esplenomegalia masiva en la reacción, y sí en la leucemia mieloide crónica, junto con trombocitosis.' },
+        { cells: ['BCR-ABL1', 'Negativo', 'Positivo, t(9;22)'],
+          say: 'Y la prueba que decide es el BCR-ABL uno: negativo en la reacción leucemoide, positivo en la leucemia mieloide crónica.' },
+        { cells: ['Conducta', 'Buscar y tratar la causa', 'Derivar, imatinib'],
+          say: 'La conducta inicial en la reacción leucemoide es buscar y tratar la causa, con hemocultivos, cultivos e imágenes, repetir el hemograma con frotis y no iniciar citorreducción. Se deriva si la leucocitosis persiste sin causa, si hay blastos, anemia o plaquetopenia, o si el BCR-ABL uno resulta positivo.' },
       ],
     },
 
@@ -191,22 +219,6 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Leucemias crónicas',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-17/01_frotis_llc__harrison_p875.jpg', label: 'LLC', credit: 'Harrison 21.ª ed., Fig. 107-1' },
-        { src: 'biblioteca/06_hematologia/hem-17/01_lmc-leucocitosis-con-desviacion-izquierd__cto-hemato_p53.jpg', label: 'LMC', credit: 'Manual CTO Hematología 14.ª ed., p. 53' },
-      ],
-      steps: [
-        { note: 'Linfocitos pequeños y sombras de Gumprecht',
-          say: 'En la linfática crónica hay muchos linfocitos pequeños y sombras de Gumprecht, linfocitos rotos al hacer el frotis.' },
-        { note: 'Leucocitosis con todas las formas',
-          say: 'En la mieloide crónica hay leucocitosis con todas las formas de la serie mieloide.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -229,6 +241,8 @@ module.exports = {
           say: 'Linfática crónica en Binet A, asintomática y sin citopenias: observación. Tratar de entrada es la alternativa trampa, porque no alarga la vida.' },
         { cells: ['LLC con Hb < 10 o plaquetas < 100.000', 'Tratamiento dirigido', 'Seguir solo observando'],
           say: 'Y el error contrario: si ya hay hemoglobina bajo diez o plaquetas bajo cien mil, la médula está fallando y ahora sí se trata.' },
+        { cells: ['Leucocitosis sobre 50.000 en sepsis, con bandas y granulación tóxica', 'Reacción leucemoide: tratar la causa y repetir el hemograma', 'Iniciar imatinib o citorreducción'],
+          say: 'Una leucocitosis enorme en un paciente séptico, con bandas y granulación tóxica, no es una leucemia. Es una reacción leucemoide: tratas la causa, repites el hemograma con frotis y no inicias citorreducción.' },
         { cells: ['LLC con anemia y Coombs positivo', 'AHAI por Ac calientes', 'Atribuirla solo a infiltración medular'],
           say: 'Una anemia en la linfática crónica no siempre es infiltración: si el Coombs es positivo, es una anemia hemolítica autoinmune por anticuerpos calientes.' },
       ],
@@ -324,6 +338,44 @@ module.exports = {
         options: 'Las opciones son: leucemia mieloide aguda, linfática crónica, mieloide crónica, mielodisplasia, o mielofibrosis. Piénsalo.',
         answer: 'Es la C, leucemia mieloide crónica. Bazo gigante, leucocitosis con todas las etapas granulocíticas y plaquetas altas. El distractor es la mieloide aguda, porque hay blastos y fiebre. Pero son solo cinco por ciento, lejos del veinte que define la aguda, no hay hiato entre blastos y células maduras, y las plaquetas están altas, no bajas.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.1.014 · Reacción leucemoide",
+      "stem": "Hombre de 65 años hospitalizado por neumonía grave presenta leucocitos de 58.000/mm3 con neutrofilia y desviación a izquierda, con baciliformes y algunos mielocitos, sin blastos ni basofilia. No tiene esplenomegalia.",
+      "question": "¿Cuál hallazgo apoya más una reacción leucemoide en lugar de una leucemia mieloide crónica?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fosfatasa alcalina leucocitaria elevada"
+        },
+        {
+          "letter": "B",
+          "text": "Presencia de cromosoma Filadelfia"
+        },
+        {
+          "letter": "C",
+          "text": "Basofilia marcada"
+        },
+        {
+          "letter": "D",
+          "text": "Esplenomegalia masiva"
+        },
+        {
+          "letter": "E",
+          "text": "Gen de fusión BCR-ABL positivo"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La reacción leucemoide es una leucocitosis reactiva mayor de 50.000 con desviación a izquierda, secundaria a infección grave, inflamación o neoplasia, que se resuelve al tratar la causa. Cursa con fosfatasa alcalina leucocitaria elevada y granulaciones tóxicas. La LMC tiene fosfatasa baja, basofilia, esplenomegalia y BCR-ABL (cromosoma Filadelfia) positivo.",
+      "say": {
+        "stem": "Hombre de sesenta y cinco años con neumonía grave y cincuenta y ocho mil leucocitos con desviación a izquierda.",
+        "question": "¿Qué apoya una reacción leucemoide y no una leucemia mieloide crónica?",
+        "options": "Las opciones: fosfatasa alcalina leucocitaria alta, cromosoma Filadelfia, basofilia, esplenomegalia masiva, o BCR ABL positivo. Piénsalo.",
+        "answer": "Es la A. La fosfatasa alcalina leucocitaria elevada. Las otras cuatro opciones son justamente rasgos de la leucemia mieloide crónica."
+      }
     },
 
     {

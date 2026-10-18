@@ -572,7 +572,9 @@
     "topicLabel": "11.2",
     "title": "Cirugia 11.2: Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap",
     "perfilCodes": [
-      "4.01.2.011"
+      "4.01.2.011",
+      "4.01.1.027",
+      "4.01.4.011"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -581,8 +583,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap. Código oficial Perfil V3: 4.01.2.011. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 4.01.2.011",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap. Código oficial Perfil V3: 4.01.2.011, 4.01.1.027, 4.01.4.011. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.2.011, 4.01.1.027, 4.01.4.011",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -631,7 +633,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.01.2.011",
+              "4.01.2.011, 4.01.1.027, 4.01.4.011",
               "Colecistitis Aguda: Guías de Tokio, Signo de Murphy Ecográfico & Colelap",
               "Específico",
               "Inicial",
@@ -1057,7 +1059,8 @@
     "topicLabel": "11.3",
     "title": "Cirugia 11.3: Diverticulitis Aguda: TAC de Abdomen, Clasificación de Hinchey & Manejo Médico vs Cx",
     "perfilCodes": [
-      "4.01.2.008"
+      "4.01.2.008",
+      "4.01.4.015"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -1066,8 +1069,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Diverticulitis Aguda: TAC de Abdomen, Clasificación de Hinchey & Manejo Médico vs Cx. Código oficial Perfil V3: 4.01.2.008. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 4.01.2.008",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Diverticulitis Aguda: TAC de Abdomen, Clasificación de Hinchey & Manejo Médico vs Cx. Código oficial Perfil V3: 4.01.2.008, 4.01.4.015. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.2.008, 4.01.4.015",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1116,7 +1119,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.01.2.008",
+              "4.01.2.008, 4.01.4.015",
               "Diverticulitis Aguda: TAC de Abdomen, Clasificación de Hinchey & Manejo Médico vs Cx",
               "Sospecha",
               "Inicial",
@@ -1578,7 +1581,9 @@
     "topicLabel": "11.4",
     "title": "Cirugia 11.4: Obstrucción Intestinal Mecánica: Bridas vs Vólvulo Sigmoides vs Cáncer",
     "perfilCodes": [
-      "4.01.2.005"
+      "4.01.2.005",
+      "4.01.4.002",
+      "4.01.4.015"
     ],
     "tier": 3,
     "realQuestionCount": 12,
@@ -1587,8 +1592,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Obstrucción Intestinal Mecánica: Bridas vs Vólvulo Sigmoides vs Cáncer. Código oficial Perfil V3: 4.01.2.005. Este tema ha sido evaluado en 12 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 4.01.2.005",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Obstrucción Intestinal Mecánica: Bridas vs Vólvulo Sigmoides vs Cáncer. Código oficial Perfil V3: 4.01.2.005, 4.01.4.002, 4.01.4.015. Este tema ha sido evaluado en 12 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.2.005, 4.01.4.002, 4.01.4.015",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -1637,7 +1642,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.01.2.005",
+              "4.01.2.005, 4.01.4.002, 4.01.4.015",
               "Obstrucción Intestinal Mecánica: Bridas vs Vólvulo Sigmoides vs Cáncer",
               "Específico",
               "Inicial",
@@ -2146,7 +2151,10 @@
     "topicLabel": "11.5",
     "title": "Cirugia 11.5: Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo)",
     "perfilCodes": [
-      "4.01.2.003"
+      "4.01.2.003",
+      "1.06.1.030",
+      "4.01.2.002",
+      "4.01.4.001"
     ],
     "tier": 2,
     "realQuestionCount": 3,
@@ -2155,8 +2163,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo). Código oficial Perfil V3: 4.01.2.003. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 4.01.2.003",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo). Código oficial Perfil V3: 4.01.2.003, 1.06.1.030, 4.01.2.002, 4.01.4.001. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.2.003, 1.06.1.030, 4.01.2.002, 4.01.4.001",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -2205,7 +2213,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.01.2.003",
+              "4.01.2.003, 1.06.1.030, 4.01.2.002, 4.01.4.001",
               "Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo)",
               "Específico",
               "Inicial",
@@ -3026,7 +3034,9 @@
     "topicLabel": "11.7",
     "title": "Cirugia 11.7: Patología Orificial Benigna: Fisura Anal, Hemorroides Internas/Externas & Abscesos/Fístulas",
     "perfilCodes": [
-      "4.01.1.016, 4.01.1.017"
+      "4.01.1.016",
+      "4.01.1.017",
+      "4.01.1.020"
     ],
     "tier": 2,
     "realQuestionCount": 2,
@@ -3389,7 +3399,10 @@
     "topicLabel": "11.8",
     "title": "Cirugia 11.8: Patología Pilonidal, Hidrosadenitis & Tumores Benignos de Partes Blandas",
     "perfilCodes": [
-      "4.01.1.018, 4.01.1.053"
+      "4.01.1.018",
+      "4.01.1.053",
+      "4.01.1.054",
+      "4.01.1.055"
     ],
     "tier": 2,
     "realQuestionCount": 4,
@@ -3755,7 +3768,10 @@
     "topicLabel": "11.9",
     "title": "Cirugia 11.9: Evaluación Inicial del Politraumatizado: Protocolo ATLS (A-B-C-D-E)",
     "perfilCodes": [
-      "4.01.2.027, 4.01.5.014"
+      "4.01.2.027",
+      "4.01.5.014",
+      "4.01.5.015",
+      "4.01.5.022"
     ],
     "tier": 3,
     "realQuestionCount": 0,
@@ -4219,7 +4235,10 @@
     "topicLabel": "11.10",
     "title": "Cirugia 11.10: Trauma Torácico Mayor: Neumotórax a Tensión, Hemotórax Masivo & Tórax Volante",
     "perfilCodes": [
-      "4.01.2.016"
+      "4.01.2.016",
+      "1.05.2.011",
+      "1.01.2.008",
+      "4.01.5.026"
     ],
     "tier": 3,
     "realQuestionCount": 6,
@@ -4228,8 +4247,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Trauma Torácico Mayor: Neumotórax a Tensión, Hemotórax Masivo & Tórax Volante. Código oficial Perfil V3: 4.01.2.016. Este tema ha sido evaluado en 6 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 4.01.2.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Trauma Torácico Mayor: Neumotórax a Tensión, Hemotórax Masivo & Tórax Volante. Código oficial Perfil V3: 4.01.2.016, 1.05.2.011, 1.01.2.008, 4.01.5.026. Este tema ha sido evaluado en 6 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.2.016, 1.05.2.011, 1.01.2.008, 4.01.5.026",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4278,7 +4297,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.01.2.016",
+              "4.01.2.016, 1.05.2.011, 1.01.2.008, 4.01.5.026",
               "Trauma Torácico Mayor: Neumotórax a Tensión, Hemotórax Masivo & Tórax Volante",
               "Específico",
               "Inicial",
@@ -4678,7 +4697,7 @@
         "badge": "EUNACOM Diciembre 2025 · Pregunta 123",
         "notes": "[SLIDE 15] Pregunta oficial del banco EUNACOM: EUNACOM Diciembre 2025 · Pregunta 123.",
         "number": 5,
-        "caseText": "Un paciente de 32 años sufre accidente de tránsito, golpeándose el pecho contra el piso. Algunos minutos después evoluciona con diﬁcultad respiratoria, malestar general y compromiso del nivel de conciencia, siendo llevado al servicio de urgencias. Se constata frecuencia cardíaca: 140 por minuto, presión arterial: 86/50 mmHg, frecuencia respiratoria; 45 respiraciones por minuto y saturación de oxígeno: 82% a aire ambiental. En el examen segmentario, se observa ingurgitación yugular con desviación de la tráquea y se ausculta disminución del murmullo pulmonar derecho y ruidos cardíacos apagados. ¿Cuál es el diagnós8co más probable?",
+        "caseText": "Un paciente de 32 años sufre accidente de tránsito, golpeándose el pecho contra el piso. Algunos minutos después evoluciona con dificultad respiratoria, malestar general y compromiso del nivel de conciencia, siendo llevado al servicio de urgencias. Se constata frecuencia cardíaca: 140 por minuto, presión arterial: 86/50 mmHg, frecuencia respiratoria; 45 respiraciones por minuto y saturación de oxígeno: 82% a aire ambiental. En el examen segmentario, se observa ingurgitación yugular con desviación de la tráquea y se ausculta disminución del murmullo pulmonar derecho y ruidos cardíacos apagados. ¿Cuál es el diagnóstico más probable?",
         "question": "¿Cuál es la conducta o diagnóstico correcto?",
         "options": [
           {
@@ -4774,7 +4793,8 @@
     "topicLabel": "11.11",
     "title": "Cirugia 11.11: Trauma Abdominal: Cerrado vs Penetrante, Eco-FAST & Laparotomía de Urgencia",
     "perfilCodes": [
-      "4.01.2.010"
+      "4.01.2.010",
+      "4.01.4.011"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -4783,8 +4803,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Trauma Abdominal: Cerrado vs Penetrante, Eco-FAST & Laparotomía de Urgencia. Código oficial Perfil V3: 4.01.2.010. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 4.01.2.010",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Trauma Abdominal: Cerrado vs Penetrante, Eco-FAST & Laparotomía de Urgencia. Código oficial Perfil V3: 4.01.2.010, 4.01.4.011. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.2.010, 4.01.4.011",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -4833,7 +4853,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.01.2.010",
+              "4.01.2.010, 4.01.4.011",
               "Trauma Abdominal: Cerrado vs Penetrante, Eco-FAST & Laparotomía de Urgencia",
               "Sospecha",
               "Inicial",
@@ -5288,7 +5308,10 @@
     "topicLabel": "11.12",
     "title": "Cirugia 11.12: Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
     "perfilCodes": [
-      "4.01.2.027, 1.10.2.006"
+      "1.10.2.019",
+      "1.10.2.020",
+      "1.10.4.001",
+      "1.10.2.009"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -5297,8 +5320,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC. Código oficial Perfil V3: 4.01.2.027, 1.10.2.006. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 4.01.2.027, 1.10.2.006",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC. Código oficial Perfil V3: 1.10.2.019, 1.10.2.020, 1.10.4.001, 1.10.2.009. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.10.2.019, 1.10.2.020, 1.10.4.001, 1.10.2.009",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -5347,7 +5370,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.01.2.027, 1.10.2.006",
+              "1.10.2.019, 1.10.2.020, 1.10.4.001, 1.10.2.009",
               "Traumatismo Encéfalo-Craneano (TEC): Clasificación, Criterios de TAC & PIC",
               "Específico",
               "Inicial",
@@ -5809,7 +5832,8 @@
     "topicLabel": "11.13",
     "title": "Cirugia 11.13: Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
     "perfilCodes": [
-      "4.01.2.026"
+      "4.01.2.026",
+      "4.01.5.008"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -5818,8 +5842,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES. Código oficial Perfil V3: 4.01.2.026. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 4.01.2.026",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES. Código oficial Perfil V3: 4.01.2.026, 4.01.5.008. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.2.026, 4.01.5.008",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -5868,7 +5892,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.01.2.026",
+              "4.01.2.026, 4.01.5.008",
               "Quemaduras Graves: Regla de Wallace, Reanimación Parkland & Criterios GES",
               "Específico",
               "Inicial",
@@ -6356,7 +6380,8 @@
     "topicLabel": "11.14",
     "title": "Cirugia 11.14: Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
     "perfilCodes": [
-      "4.01.5.013"
+      "4.01.5.013",
+      "4.01.3.010"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -6365,8 +6390,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios. Código oficial Perfil V3: 4.01.5.013.",
-        "kicker": "CÓDIGO PERFIL V3: 4.01.5.013",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios. Código oficial Perfil V3: 4.01.5.013, 4.01.3.010.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.5.013, 4.01.3.010",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -6409,7 +6434,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.01.5.013",
+              "4.01.5.013, 4.01.3.010",
               "Evaluación Preoperatoria: Escala ASA, Score Cardíaco de Lee & Fármacos Perioperatorios",
               "Específico",
               "Completo",
@@ -6665,7 +6690,9 @@
     "topicLabel": "11.15",
     "title": "Cirugia 11.15: Anestesiología General vs Neuroaxial & Toxicidad Sistémica por Anestésicos Locales",
     "perfilCodes": [
-      "4.01.2.028, 4.01.5.001"
+      "4.01.2.028",
+      "4.01.3.007",
+      "4.01.5.001"
     ],
     "tier": 3,
     "realQuestionCount": 1,
@@ -7540,7 +7567,10 @@
     "topicLabel": "11.17",
     "title": "Cirugia 11.17: Infección de Sitio Quirúrgico (ISQ), Dehiscencia de Herida & Evisceración Aguda",
     "perfilCodes": [
-      "4.01.3.016"
+      "4.01.3.016",
+      "4.01.1.021",
+      "4.01.3.002",
+      "4.01.3.005"
     ],
     "tier": 2,
     "realQuestionCount": 0,
@@ -7549,8 +7579,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Infección de Sitio Quirúrgico (ISQ), Dehiscencia de Herida & Evisceración Aguda. Código oficial Perfil V3: 4.01.3.016.",
-        "kicker": "CÓDIGO PERFIL V3: 4.01.3.016",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Infección de Sitio Quirúrgico (ISQ), Dehiscencia de Herida & Evisceración Aguda. Código oficial Perfil V3: 4.01.3.016, 4.01.1.021, 4.01.3.002, 4.01.3.005.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.3.016, 4.01.1.021, 4.01.3.002, 4.01.3.005",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -7593,7 +7623,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.01.3.016",
+              "4.01.3.016, 4.01.1.021, 4.01.3.002, 4.01.3.005",
               "Infección de Sitio Quirúrgico (ISQ), Dehiscencia de Herida & Evisceración Aguda",
               "Específico",
               "Completo",
@@ -7804,7 +7834,10 @@
     "topicLabel": "11.18",
     "title": "Cirugia 11.18: Manejo de Heridas Traumáticas, Mordeduras Animales/Humanas & Profilaxis Antitetánica",
     "perfilCodes": [
-      "4.01.2.026"
+      "4.01.3.018",
+      "1.04.3.002",
+      "4.01.2.025",
+      "4.01.5.009"
     ],
     "tier": 2,
     "realQuestionCount": 1,
@@ -7813,8 +7846,8 @@
       {
         "type": "cover",
         "nav": "Portada & Códigos",
-        "notes": "[SLIDE 1] Bienvenidos a la clase de Manejo de Heridas Traumáticas, Mordeduras Animales/Humanas & Profilaxis Antitetánica. Código oficial Perfil V3: 4.01.2.026. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
-        "kicker": "CÓDIGO PERFIL V3: 4.01.2.026",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Manejo de Heridas Traumáticas, Mordeduras Animales/Humanas & Profilaxis Antitetánica. Código oficial Perfil V3: 4.01.3.018, 1.04.3.002, 4.01.2.025, 4.01.5.009. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.3.018, 1.04.3.002, 4.01.2.025, 4.01.5.009",
         "badges": [
           {
             "label": "EUNACOM 2026",
@@ -7863,7 +7896,7 @@
           {
             "highlight": true,
             "cells": [
-              "4.01.2.026",
+              "4.01.3.018, 1.04.3.002, 4.01.2.025, 4.01.5.009",
               "Manejo de Heridas Traumáticas, Mordeduras Animales/Humanas & Profilaxis Antitetánica",
               "Específico",
               "Completo",
@@ -8108,6 +8141,1288 @@
               "El antibiótico de primera elección indiscutido para mordeduras de perro, gato o humanas es Amoxicilina / Ácido Clavulánico (cubre Pasteurella y Eikenella).",
               "Las mordeduras por murciélagos o animales silvestres carnívoros constituyen indicación formal de profilaxis antirrábica inmediata sin esperar observación del animal.",
               "En heridas faciales por mordedura se puede realizar sutura laxa exclusivamente por razones estéticas tras lavado quirúrgico profuso bajo cobertura antibiótica estricta."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "cirugia-19": {
+    "id": "cirugia-19",
+    "topicLabel": "11.19",
+    "title": "Cirugia 11.19: Patología Vascular Periférica: Aneurismas, Várices e Insuficiencia Venosa & Úlceras de las Piernas",
+    "perfilCodes": [
+      "4.01.1.044, 4.01.1.048, 4.01.1.050"
+    ],
+    "tier": 3,
+    "realQuestionCount": 3,
+    "slideCount": 14,
+    "slides": [
+      {
+        "type": "cover",
+        "nav": "Portada & Códigos",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Patología Vascular Periférica: Aneurismas, Várices e Insuficiencia Venosa & Úlceras de las Piernas. Código oficial Perfil V3: 4.01.1.044, 4.01.1.048, 4.01.1.050. Este tema ha sido evaluado en 3 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.1.044, 4.01.1.048, 4.01.1.050",
+        "badges": [
+          {
+            "label": "EUNACOM 2026",
+            "bg": "#ffe4e6",
+            "color": "#e11d48",
+            "border": "#f43f5e"
+          },
+          {
+            "label": "Pared Abdominal, Hernias & Proctología",
+            "bg": "#ede9fe",
+            "color": "#0284c7",
+            "border": "#c4b5fd"
+          },
+          {
+            "label": "Perfil V3 Oficial",
+            "bg": "#dcfce7",
+            "color": "#16a34a",
+            "border": "#4ade80"
+          },
+          {
+            "label": "3 Preguntas Reales (2013-2025)",
+            "bg": "#fef3c7",
+            "color": "#b45309",
+            "border": "#f59e0b"
+          }
+        ],
+        "title": "Patología Vascular Periférica: Aneurismas, Várices e Insuficiencia Venosa & Úlceras de las Piernas",
+        "subtitle": "Frecuencia: Alta rentabilidad · várices simples con manejo conservador, úlcera venosa maleolar medial frente a la arterial y complicación del aneurisma poplíteo (trombosis y embolia, no rotura)"
+      },
+      {
+        "type": "table",
+        "nav": "Matriz Perfil V3",
+        "notes": "[SLIDE 2] Exigencia legal según Perfil de Conocimientos ASOFAMECh: Diagnóstico: Específico, Tratamiento: Inicial, Seguimiento: Derivar.",
+        "title": "Matriz de Auditoría Legal: Patología Vascular Periférica: Aneurismas, Várices e Insuficiencia Venosa & Úlceras de las Piernas",
+        "subtitle": "Nivel de competencia médica exigible por ley en Chile (EUNACOM 2026).",
+        "headers": [
+          "Código",
+          "Situación Clínica",
+          "Diagnóstico",
+          "Tratamiento",
+          "Seguimiento"
+        ],
+        "highlightCol": 1,
+        "pearl": "⚠️ ALERTA APS: Esta patología exige derivación obligatoria al nivel secundario tras la sospecha o estabilización inicial.",
+        "rows": [
+          {
+            "highlight": true,
+            "cells": [
+              "4.01.1.044, 4.01.1.048, 4.01.1.050",
+              "Patología Vascular Periférica: Aneurismas, Várices e Insuficiencia Venosa & Úlceras de las Piernas",
+              "Específico",
+              "Inicial",
+              "Derivar"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Aneurismas de Aorta Torácica, Femoral y ",
+        "notes": "[SLIDE 3] Un aneurisma es una dilatación localizada permanente de una arteria, con aumento del diámetro de al menos 50% respecto del normal. La causa más frecuente es la aterosclerosis con hipertensión arterial y tabaquismo; en la aorta torácica se agregan la necrosis quística de la media (síndrome de Marfan, Ehlers-Danlos, válvula aórtica bicúspide), la arteritis (Takayasu, células gigantes) y la sífilis. El aneurisma de aorta torácica es asintomático y se descubre como ensanchamiento mediastínico en la radiografía o en una ecocardiografía; si crece puede dar dolor torácico o dorsal, disfonía, disnea o disfagia por compresión. Se confirma con angioTAC y su complicación grave es la disección o rotura. Manejo del aneurisma torácico: control estricto de la presión arterial con betabloqueadores, abandono del tabaco y vigilancia con imágenes seriadas. Se deriva a cirugía cardiovascular para reparación (abierta o endovascular) cuando el diámetro supera 5,5 cm (menos en Marfan o válvula bicúspide), si crece más de 0,5 cm en un año o si es sintomático. El aneurisma poplíteo es el más frecuente de los periféricos; es bilateral en cerca de la mitad de los casos y se asocia a aneurisma de la aorta abdominal en un tercio. Se presenta como una masa pulsátil en el hueco poplíteo o, con más frecuencia, como una isquemia aguda de la pierna. A diferencia del aneurisma aórtico, su complicación característica no es la rotura sino la trombosis o la embolia distal, con riesgo de amputación. El aneurisma femoral tiene un comportamiento similar; el seudoaneurisma femoral aparece como una masa pulsátil con soplo tras una punción o cateterismo. El diagnóstico se confirma con eco-Doppler. Conducta: se busca siempre el aneurisma contralateral y el aórtico asociado. Se deriva a cirugía vascular: se repara el aneurisma poplíteo sintomático, con trombo o de 2 cm o más (exclusión con puente de vena safena); los pequeños, asintomáticos y sin trombo se vigilan con eco-Doppler. La isquemia aguda (dolor, palidez, ausencia de pulso, frialdad, parestesias) es una urgencia con anticoagulación con heparina y revascularización.",
+        "title": "1. Aneurismas de Aorta Torácica, Femoral y Poplítea",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "Un aneurisma es una dilatación localizada permanente de una arteria, con aumento del diámetro de al menos 50% respecto del normal. La causa más frecuente es la aterosclerosis con hipertensión arterial y tabaquismo; en la aorta torácica se agregan la necrosis quística de la media (síndrome de Marfan, Ehlers-Danlos, válvula aórtica bicúspide), la arteritis (Takayasu, células gigantes) y la sífilis. El aneurisma de aorta torácica es asintomático y se descubre como ensanchamiento mediastínico en la radiografía o en una ecocardiografía; si crece puede dar dolor torácico o dorsal, disfonía, disnea o disfagia por compresión. Se confirma con angioTAC y su complicación grave es la disección o rotura.",
+              "Manejo del aneurisma torácico: control estricto de la presión arterial con betabloqueadores, abandono del tabaco y vigilancia con imágenes seriadas. Se deriva a cirugía cardiovascular para reparación (abierta o endovascular) cuando el diámetro supera 5,5 cm (menos en Marfan o válvula bicúspide), si crece más de 0,5 cm en un año o si es sintomático.",
+              "El aneurisma poplíteo es el más frecuente de los periféricos; es bilateral en cerca de la mitad de los casos y se asocia a aneurisma de la aorta abdominal en un tercio. Se presenta como una masa pulsátil en el hueco poplíteo o, con más frecuencia, como una isquemia aguda de la pierna. A diferencia del aneurisma aórtico, su complicación característica no es la rotura sino la trombosis o la embolia distal, con riesgo de amputación. El aneurisma femoral tiene un comportamiento similar; el seudoaneurisma femoral aparece como una masa pulsátil con soplo tras una punción o cateterismo. El diagnóstico se confirma con eco-Doppler.",
+              "Conducta: se busca siempre el aneurisma contralateral y el aórtico asociado. Se deriva a cirugía vascular: se repara el aneurisma poplíteo sintomático, con trombo o de 2 cm o más (exclusión con puente de vena safena); los pequeños, asintomáticos y sin trombo se vigilan con eco-Doppler. La isquemia aguda (dolor, palidez, ausencia de pulso, frialdad, parestesias) es una urgencia con anticoagulación con heparina y revascularización."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Várices e Insuficiencia Venosa Crónica",
+        "notes": "[SLIDE 4] La insuficiencia venosa crónica se debe a la incompetencia valvular de las venas superficiales, perforantes o profundas, con hipertensión venosa sostenida. Son factores de riesgo el sexo femenino, la edad, el embarazo, la obesidad, la bipedestación prolongada y los antecedentes familiares. La clínica es de pesadez, dolor, calambres nocturnos, prurito y edema vespertino que mejoran con la elevación de las piernas y la marcha. Se examina al paciente de pie: várices tronculares (safena interna o externa), telangiectasias, edema, pigmentación, eczema y lipodermatoesclerosis. La clasificación CEAP gradúa la gravedad desde C0 (sin signos) hasta C6 (úlcera activa). El diagnóstico es clínico y se confirma con eco-Doppler venoso, que documenta el reflujo y mapea la safena, y descarta una trombosis venosa profunda (la causa de várices secundarias es el síndrome postflebítico). Tratamiento: en las várices simples, sin complicaciones, el manejo inicial es conservador: caminata y ejercicio, elevación de las piernas, control del peso, evitar la bipedestación prolongada y medias de compresión graduada (20-30 mmHg). Si hay síntomas persistentes o complicaciones, se deriva para ablación térmica (láser o radiofrecuencia), safenectomía, flebectomías o escleroterapia, según el tipo de várice. Complicaciones: la tromboflebitis superficial (cordón doloroso, eritematoso e indurado sobre una várice) se trata con AINE, compresión y deambulación; si el trombo mide 5 cm o más o está a menos de 3 cm de la unión safenofemoral se agrega anticoagulación por el riesgo de trombosis profunda. La várice sangrante se controla con elevación del miembro y compresión directa, y con sutura del punto sangrante si no cede. Con el tiempo aparecen eczema de estasis, hiperpigmentación, lipodermatoesclerosis y úlcera venosa.",
+        "title": "2. Várices e Insuficiencia Venosa Crónica",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "La insuficiencia venosa crónica se debe a la incompetencia valvular de las venas superficiales, perforantes o profundas, con hipertensión venosa sostenida. Son factores de riesgo el sexo femenino, la edad, el embarazo, la obesidad, la bipedestación prolongada y los antecedentes familiares. La clínica es de pesadez, dolor, calambres nocturnos, prurito y edema vespertino que mejoran con la elevación de las piernas y la marcha. Se examina al paciente de pie: várices tronculares (safena interna o externa), telangiectasias, edema, pigmentación, eczema y lipodermatoesclerosis. La clasificación CEAP gradúa la gravedad desde C0 (sin signos) hasta C6 (úlcera activa).",
+              "El diagnóstico es clínico y se confirma con eco-Doppler venoso, que documenta el reflujo y mapea la safena, y descarta una trombosis venosa profunda (la causa de várices secundarias es el síndrome postflebítico). Tratamiento: en las várices simples, sin complicaciones, el manejo inicial es conservador: caminata y ejercicio, elevación de las piernas, control del peso, evitar la bipedestación prolongada y medias de compresión graduada (20-30 mmHg). Si hay síntomas persistentes o complicaciones, se deriva para ablación térmica (láser o radiofrecuencia), safenectomía, flebectomías o escleroterapia, según el tipo de várice.",
+              "Complicaciones: la tromboflebitis superficial (cordón doloroso, eritematoso e indurado sobre una várice) se trata con AINE, compresión y deambulación; si el trombo mide 5 cm o más o está a menos de 3 cm de la unión safenofemoral se agrega anticoagulación por el riesgo de trombosis profunda. La várice sangrante se controla con elevación del miembro y compresión directa, y con sutura del punto sangrante si no cede. Con el tiempo aparecen eczema de estasis, hiperpigmentación, lipodermatoesclerosis y úlcera venosa."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Úlceras de las Piernas: Venosas, Arteria",
+        "notes": "[SLIDE 5] La úlcera venosa es la más frecuente (70-80%). Se ubica en el tercio inferior de la pierna, sobre el maléolo medial, tiene bordes irregulares y fondo con tejido de granulación y fibrina, es exudativa y poco dolorosa, y se rodea de piel hiperpigmentada, eczema y lipodermatoesclerosis, con várices o antecedente de trombosis profunda y pulsos conservados. La úlcera arterial afecta dedos, talón, maléolo lateral y zonas de presión, tiene aspecto «en sacabocados», es muy dolorosa (peor en decúbito y alivia con la pierna colgando), con piel fría y pálida, pulsos ausentes, claudicación previa y un índice tobillo-brazo menor de 0,9. La úlcera neuropática (pie diabético) aparece en la planta sobre puntos de presión, rodeada de callo, indolora. La úlcera hipertensiva de Martorell es una arteriolopatía de la cara posterolateral de la pierna en hipertensos o diabéticos mal controlados: muy dolorosa, con necrosis. Entre las específicas están el pioderma gangrenoso (borde violáceo socavado, asociado a enfermedad inflamatoria intestinal), las vasculitis, la anemia falciforme, las infecciosas (leishmaniasis, tuberculosis, ectima) y las neoplásicas (carcinoma escamoso sobre una úlcera crónica, que obliga a biopsiar toda úlcera que no cura en 3 meses o de bordes elevados). Estudio y manejo (nivel inicial): se palpan los pulsos y se mide el ITB antes de comprimir, se pide eco-Doppler, glicemia y hemograma, y se toma cultivo solo si hay signos de infección. La úlcera venosa se trata con terapia compresiva multicapa (30-40 mmHg, solo si el ITB es mayor de 0,8), curación con apósitos húmedos, desbridamiento, elevación de las piernas y tratamiento de la celulitis si existe; se deriva para corregir el reflujo y así prevenir la recidiva, que es muy frecuente. En la úlcera arterial no se comprime: se deriva a cirugía vascular para revascularización, se controlan los factores de riesgo y se indican antiagregante y estatina.",
+        "title": "3. Úlceras de las Piernas: Venosas, Arteriales, Hipertensivas y Específicas",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "La úlcera venosa es la más frecuente (70-80%). Se ubica en el tercio inferior de la pierna, sobre el maléolo medial, tiene bordes irregulares y fondo con tejido de granulación y fibrina, es exudativa y poco dolorosa, y se rodea de piel hiperpigmentada, eczema y lipodermatoesclerosis, con várices o antecedente de trombosis profunda y pulsos conservados. La úlcera arterial afecta dedos, talón, maléolo lateral y zonas de presión, tiene aspecto «en sacabocados», es muy dolorosa (peor en decúbito y alivia con la pierna colgando), con piel fría y pálida, pulsos ausentes, claudicación previa y un índice tobillo-brazo menor de 0,9.",
+              "La úlcera neuropática (pie diabético) aparece en la planta sobre puntos de presión, rodeada de callo, indolora. La úlcera hipertensiva de Martorell es una arteriolopatía de la cara posterolateral de la pierna en hipertensos o diabéticos mal controlados: muy dolorosa, con necrosis. Entre las específicas están el pioderma gangrenoso (borde violáceo socavado, asociado a enfermedad inflamatoria intestinal), las vasculitis, la anemia falciforme, las infecciosas (leishmaniasis, tuberculosis, ectima) y las neoplásicas (carcinoma escamoso sobre una úlcera crónica, que obliga a biopsiar toda úlcera que no cura en 3 meses o de bordes elevados).",
+              "Estudio y manejo (nivel inicial): se palpan los pulsos y se mide el ITB antes de comprimir, se pide eco-Doppler, glicemia y hemograma, y se toma cultivo solo si hay signos de infección. La úlcera venosa se trata con terapia compresiva multicapa (30-40 mmHg, solo si el ITB es mayor de 0,8), curación con apósitos húmedos, desbridamiento, elevación de las piernas y tratamiento de la celulitis si existe; se deriva para corregir el reflujo y así prevenir la recidiva, que es muy frecuente. En la úlcera arterial no se comprime: se deriva a cirugía vascular para revascularización, se controlan los factores de riesgo y se indican antiagregante y estatina."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Úlceras de las Piernas: Cómo D",
+        "notes": "[SLIDE 6] Úlceras de las Piernas: Cómo Distinguirlas.",
+        "title": "Úlceras de las Piernas: Cómo Distinguirlas",
+        "headers": [
+          "Tipo",
+          "Ubicación y aspecto",
+          "Dolor y piel",
+          "Pulsos / ITB",
+          "Conducta"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Venosa",
+              "Maleolar medial, bordes irregulares, fondo granulante con fibrina",
+              "Poco dolorosa · hiperpigmentación, eczema, lipodermatoesclerosis",
+              "Presentes · ITB > 0,8",
+              "Compresión multicapa, curación húmeda, elevar, tratar reflujo"
+            ]
+          },
+          {
+            "cells": [
+              "Arterial",
+              "Dedos, talón, maléolo lateral · «en sacabocados»",
+              "Muy dolorosa · piel fría, pálida, sin vello",
+              "Ausentes · ITB < 0,9",
+              "NO comprimir · derivar a vascular"
+            ]
+          },
+          {
+            "cells": [
+              "Neuropática (diabética)",
+              "Planta, puntos de presión, callo",
+              "Indolora · pérdida de sensibilidad",
+              "Variables",
+              "Descarga, curación, control glicémico, derivar"
+            ]
+          },
+          {
+            "cells": [
+              "Hipertensiva (Martorell)",
+              "Cara posterolateral de la pierna, necrótica",
+              "Muy dolorosa · hipertensión, diabetes",
+              "Presentes",
+              "Control de la presión · injerto · derivar"
+            ]
+          },
+          {
+            "cells": [
+              "Específica / neoplásica",
+              "Borde violáceo, elevado o atípica",
+              "Variable",
+              "Variables",
+              "Biopsia del borde · tratar la causa"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Clasificación CEAP Clínica de ",
+        "notes": "[SLIDE 7] Clasificación CEAP Clínica de la Insuficiencia Venosa Crónica.",
+        "title": "Clasificación CEAP Clínica de la Insuficiencia Venosa Crónica",
+        "headers": [
+          "Clase",
+          "Hallazgo",
+          "Conducta"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "C0",
+              "Sin signos visibles ni palpables de enfermedad venosa",
+              "Medidas generales"
+            ]
+          },
+          {
+            "cells": [
+              "C1",
+              "Telangiectasias o venas reticulares",
+              "Escleroterapia estética si lo desea"
+            ]
+          },
+          {
+            "cells": [
+              "C2",
+              "Várices (venas de más de 3 mm)",
+              "Compresión, ejercicio · eco-Doppler · cirugía si hay síntomas"
+            ]
+          },
+          {
+            "cells": [
+              "C3",
+              "Edema",
+              "Compresión · estudio del reflujo"
+            ]
+          },
+          {
+            "cells": [
+              "C4",
+              "Cambios cutáneos: pigmentación, eczema, lipodermatoesclerosis",
+              "Compresión · derivar a vascular"
+            ]
+          },
+          {
+            "cells": [
+              "C5",
+              "Úlcera cicatrizada",
+              "Compresión permanente · tratar el reflujo"
+            ]
+          },
+          {
+            "cells": [
+              "C6",
+              "Úlcera activa",
+              "Compresión multicapa y curación · derivar"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Aneurismas Periféricos: Conduc",
+        "notes": "[SLIDE 8] Aneurismas Periféricos: Conducta según Localización.",
+        "title": "Aneurismas Periféricos: Conducta según Localización",
+        "headers": [
+          "Localización",
+          "Complicación típica",
+          "Cuándo se opera",
+          "Clave de Examen"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Aorta torácica",
+              "Disección o rotura",
+              "≥ 5,5 cm, crecimiento > 0,5 cm/año o sintomático",
+              "Betabloqueo, control de la PA, derivar"
+            ]
+          },
+          {
+            "cells": [
+              "Poplíteo",
+              "Trombosis y embolia distal (isquemia aguda)",
+              "≥ 2 cm, trombo mural o sintomático",
+              "Masa pulsátil poplítea · bilateral en la mitad · buscar aneurisma aórtico"
+            ]
+          },
+          {
+            "cells": [
+              "Femoral",
+              "Trombosis y embolia distal",
+              "Sintomático o ≥ 2,5 cm",
+              "Seudoaneurisma tras cateterismo: masa pulsátil con soplo"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "figura",
+        "nav": "Algoritmo",
+        "notes": "[SLIDE 9] Algoritmo Diagnóstico de la Úlcera de la Pierna",
+        "title": "Algoritmo Diagnóstico de la Úlcera de la Pierna",
+        "svg": "<svg viewBox=\"0 0 620 328\" width=\"100%\" style=\"max-width:620px;font-family:'IBM Plex Sans',system-ui,sans-serif\">\n  <defs><marker id=\"ar_334155\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#334155\"/></marker></defs>\n  <style>\n    .b{fill:#fff;stroke:#cbd5e1;stroke-width:1}\n    .t{font-size:10px;fill:#15181d}\n    .sub{font-size:8px;fill:#475569}.lbl{font-size:7.5px;fill:#334155;font-weight:700}\n    .acc{fill:#334155;stroke:#1e293b}.accT{fill:#fff}.accS{font-size:8px;fill:#f1f5f9}\n    .dec{fill:#f8fafc;stroke:#94a3b8;stroke-width:1}\n    .warn{fill:#fef2f2;stroke:#fecaca;stroke-width:1}.warnT{fill:#991b1b}\n    .crit{fill:#fff1f2;stroke:#f43f5e;stroke-width:1}\n    .ln{stroke:#334155;stroke-width:1.2;fill:none;marker-end:url(#ar_334155)}\n  </style>\n  <rect class=\"acc\" x=\"100\" y=\"8\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"310\" y=\"23\" text-anchor=\"middle\" font-weight=\"700\">Úlcera crónica de pierna o pie</text>\n  <text class=\"accS\" x=\"310\" y=\"35\" text-anchor=\"middle\">Localización, dolor, piel circundante, várices, pulsos y glicemia</text>\n  <path class=\"ln\" d=\"M310,47 V69\"/>\n  <rect class=\"warn\" x=\"100\" y=\"69\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"310\" y=\"84\" text-anchor=\"middle\" font-weight=\"700\">Palpar pulsos pedios y tibiales y medir el índice tobillo-brazo (ITB)</text>\n  <text class=\"warnT sub\" x=\"310\" y=\"96\" text-anchor=\"middle\">Siempre antes de indicar compresión</text>\n  <path class=\"ln\" d=\"M310,108 V130\"/>\n  <rect class=\"dec\" x=\"70\" y=\"130\" width=\"480\" height=\"39\" rx=\"3\"/>\n  <text class=\"t t\" x=\"310\" y=\"145\" text-anchor=\"middle\" font-weight=\"700\">¿Pulsos presentes e ITB mayor de 0,8?</text>\n  <text class=\"sub\" x=\"310\" y=\"157\" text-anchor=\"middle\">Descarta enfermedad arterial significativa</text>\n  <path class=\"ln\" d=\"M310,169 V199 H158 V209\"/>\n  <path class=\"ln\" d=\"M310,199 H462 V209\"/>\n  <text class=\"lbl\" x=\"158\" y=\"194\" text-anchor=\"middle\">Sí: maleolar medial, indolora, pigmentación, várices</text>\n  <text class=\"lbl\" x=\"462\" y=\"194\" text-anchor=\"middle\">No: dedos, talón o zona de presión, dolorosa, piel fría</text>\n  <rect class=\"acc\" x=\"12\" y=\"209\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"158\" y=\"224\" text-anchor=\"middle\" font-weight=\"700\">Úlcera venosa</text>\n  <text class=\"accS\" x=\"158\" y=\"236\" text-anchor=\"middle\">Terapia compresiva multicapa · curación húmeda</text>\n  <text class=\"accS\" x=\"158\" y=\"247\" text-anchor=\"middle\">elevar la pierna · tratar el reflujo</text>\n  <rect class=\"crit\" x=\"316\" y=\"209\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"462\" y=\"224\" text-anchor=\"middle\" font-weight=\"700\">Úlcera arterial o neuropática</text>\n  <text class=\"warnT sub\" x=\"462\" y=\"236\" text-anchor=\"middle\">NO comprimir · derivar a vascular</text>\n  <text class=\"warnT sub\" x=\"462\" y=\"247\" text-anchor=\"middle\">control de factores de riesgo · cuidado del pie diabético</text>\n  <path class=\"ln\" d=\"M158,259 V269 H310 V281\"/>\n  <path class=\"ln\" d=\"M462,259 V269 H310 V281\"/>\n  <rect class=\"dec\" x=\"70\" y=\"281\" width=\"480\" height=\"39\" rx=\"3\"/>\n  <text class=\"t t\" x=\"310\" y=\"296\" text-anchor=\"middle\" font-weight=\"700\">Úlcera atípica o que no cura en 3 meses</text>\n  <text class=\"sub\" x=\"310\" y=\"308\" text-anchor=\"middle\">Biopsia del borde: carcinoma escamoso (Marjolin), pioderma gangrenoso, vasculitis</text>\n</svg>",
+        "steps": [
+          "1. Úlcera crónica de pierna o pie",
+          "2. Palpar pulsos pedios y tibiales y medir el índice tobillo-brazo (ITB)",
+          "3. ¿Pulsos presentes e ITB mayor de 0,8? · Úlcera venosa · Úlcera arterial o neuropática"
+        ]
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 1",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 10] Caso clínico de aplicación número 1.",
+        "number": 1,
+        "caseText": "Hombre de 70 años, hipertenso y exfumador, consulta por una masa pulsátil asintomática en el hueco poplíteo derecho. La ecografía Doppler confirma un aneurisma de la arteria poplítea de 3 cm, con trombo mural. ¿Cuál es la complicación más frecuente de esta patología?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Trombosis o embolia distal con isquemia aguda de la pierna",
+            "isCorrect": true
+          },
+          {
+            "id": "B",
+            "text": "Rotura con hemorragia masiva",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Compresión del nervio ciático",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Fístula arteriovenosa",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Insuficiencia cardíaca de alto débito",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A diferencia del aneurisma de aorta abdominal, cuya complicación temida es la rotura, el aneurisma poplíteo se complica principalmente con trombosis o embolización distal, con isquemia aguda y riesgo de amputación. Por eso se reparan los sintomáticos o mayores de 2 cm, y se busca un aneurisma contralateral y aórtico asociado."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 2",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 11] Caso clínico de aplicación número 2.",
+        "number": 2,
+        "caseText": "Mujer de 45 años con várices en extremidades inferiores bilaterales, sin úlceras ni tromboflebitis. Sin otros antecedentes mórbidos. ¿Cuál es el manejo inicial más adecuado?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Anticoagulación oral",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Flebectomía inmediata",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Escleroterapia de urgencia",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Medidas conservadoras: dieta, ejercicio y medias compresivas",
+            "isCorrect": true
+          },
+          {
+            "id": "E",
+            "text": "Derivación vascular urgente",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Varices simples sin complicaciones: manejo inicial conservador con elevación de extremidades, ejercicio (caminata), control de peso y medias de compresión elástica. La cirugía/escleroterapia se reserva para cuando las medidas conservadoras fallan o hay complicaciones."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 3",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 12] Caso clínico de aplicación número 3.",
+        "number": 3,
+        "caseText": "Un paciente de 58 años, con antecedente de várices en ambas piernas, de gran tamaño, consulta porque hace dos semanas sufrió un pequeño trauma en su extremidad inferior izquierda, evolucionando con una lesión ulcerada que ha aumentado de tamaño, hasta alcanzar 1,5 cm y que se ubica a 2 cm del maléolo interno. Al examen físico, se aprecia oscurecimiento de la piel circundante, más la presencia de las várices descritas. ¿Cuál es la etiología más probable de su lesión?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Infecciosa",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Isquémica",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Venosa",
+            "isCorrect": true
+          },
+          {
+            "id": "D",
+            "text": "Neuropática",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Por presión",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Úlcera venosa: Las úlceras venosas suelen ser poco dolorosas o incluso indoloras. Se ubican generalmente en el maléolo interno y se asocian al síndrome postflebítico, que se caracteriza por hiperpigmentación de la piel. En contraste, las úlceras arteriales son dolorosas y se ubican con mayor frecuencia en el maléolo externo, los ortejos o los talones. El fondo de las úlceras arteriales es isquémico, de color pálido o blanco, mientras que el fondo de las úlceras venosas es hiperémico y violáceo."
+      },
+      {
+        "type": "question",
+        "nav": "Pregunta Real EUNACOM",
+        "badge": "EUNACOM Julio 2017 · Pregunta 26",
+        "notes": "[SLIDE 13] Pregunta oficial del banco EUNACOM: EUNACOM Julio 2017 · Pregunta 26.",
+        "number": 4,
+        "caseText": "Una paciente de 67 años, con antecedente de várices en las piernas con indicación de cirugía, presenta rotura de una de las várices, luego de un traumatismo en la pierna derecha, que produce sangramiento abundante. Al examen tiene FC: 80 latidos por mi- nuto, PA: 120/80 mmHg y se aprecia sangrado profuso del várice roto, en el tercio medio de la pierna. ¿Cuál es el tratamiento inicial?",
+        "question": "¿Cuál es la conducta o diagnóstico correcto?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Torniquete inframaleolar",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Ligadura del cayado de la safena interna",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Sutura del várice sangrante",
+            "isCorrect": true
+          },
+          {
+            "id": "D",
+            "text": "Escleroterapia variceal",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Safenectomía de urgencia",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Várice sangrante con hemorragia profusa: el tratamiento inicial es la compresión directa (sutura del várice) y elevación de la extremidad. (Nota: el autor de la pauta señala que la pregunta excede conocimientos de médico general y que 'lo más correcto es comprimir el várice sangrante, elevar la extremidad'.)"
+      },
+      {
+        "type": "bento",
+        "nav": "Reglas de Oro",
+        "notes": "[SLIDE 14] Repasemos las reglas de oro de este tema para no fallar en el EUNACOM.",
+        "title": "Reglas de Oro del Examen EUNACOM",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "El aneurisma poplíteo se complica con trombosis o embolia distal (isquemia aguda), no con rotura; es bilateral en la mitad de los casos y se asocia a aneurisma aórtico.",
+              "Aneurisma de aorta torácica: control de la presión con betabloqueo y cirugía desde 5,5 cm, crecimiento rápido o síntomas.",
+              "Varices simples sin complicaciones: manejo inicial conservador con ejercicio, elevación, control del peso y medias de compresión.",
+              "Tromboflebitis superficial de 5 cm o más o cerca de la unión safenofemoral: anticoagulación por riesgo de trombosis profunda.",
+              "La úlcera venosa es maleolar medial, poco dolorosa y con hiperpigmentación; la arterial es distal, muy dolorosa y con pulsos ausentes.",
+              "Medir el ITB y palpar pulsos antes de comprimir una úlcera: la compresión está contraindicada si el ITB es menor de 0,8.",
+              "Toda úlcera que no cura en 3 meses o de bordes atípicos requiere biopsia para descartar carcinoma escamoso."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "cirugia-20": {
+    "id": "cirugia-20",
+    "topicLabel": "11.20",
+    "title": "Cirugia 11.20: Obesidad Mórbida y Cirugía Bariátrica: Indicaciones, Técnicas y Complicaciones",
+    "perfilCodes": [
+      "4.01.1.060"
+    ],
+    "tier": 3,
+    "realQuestionCount": 1,
+    "slideCount": 11,
+    "slides": [
+      {
+        "type": "cover",
+        "nav": "Portada & Códigos",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Obesidad Mórbida y Cirugía Bariátrica: Indicaciones, Técnicas y Complicaciones. Código oficial Perfil V3: 4.01.1.060. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 4.01.1.060",
+        "badges": [
+          {
+            "label": "EUNACOM 2026",
+            "bg": "#ffe4e6",
+            "color": "#e11d48",
+            "border": "#f43f5e"
+          },
+          {
+            "label": "Pared Abdominal, Hernias & Proctología",
+            "bg": "#ede9fe",
+            "color": "#0284c7",
+            "border": "#c4b5fd"
+          },
+          {
+            "label": "Perfil V3 Oficial",
+            "bg": "#dcfce7",
+            "color": "#16a34a",
+            "border": "#4ade80"
+          },
+          {
+            "label": "1 Preguntas Reales (2013-2025)",
+            "bg": "#fef3c7",
+            "color": "#b45309",
+            "border": "#f59e0b"
+          }
+        ],
+        "title": "Obesidad Mórbida y Cirugía Bariátrica: Indicaciones, Técnicas y Complicaciones",
+        "subtitle": "Frecuencia: Alta rentabilidad · síndrome de dumping tras bypass gástrico, indicaciones de cirugía bariátrica y déficits nutricionales del postoperatorio"
+      },
+      {
+        "type": "table",
+        "nav": "Matriz Perfil V3",
+        "notes": "[SLIDE 2] Exigencia legal según Perfil de Conocimientos ASOFAMECh: Diagnóstico: Sospecha, Tratamiento: Inicial, Seguimiento: Derivar.",
+        "title": "Matriz de Auditoría Legal: Obesidad Mórbida y Cirugía Bariátrica: Indicaciones, Técnicas y Complicaciones",
+        "subtitle": "Nivel de competencia médica exigible por ley en Chile (EUNACOM 2026).",
+        "headers": [
+          "Código",
+          "Situación Clínica",
+          "Diagnóstico",
+          "Tratamiento",
+          "Seguimiento"
+        ],
+        "highlightCol": 1,
+        "pearl": "⚠️ ALERTA APS: Esta patología exige derivación obligatoria al nivel secundario tras la sospecha o estabilización inicial.",
+        "rows": [
+          {
+            "highlight": true,
+            "cells": [
+              "4.01.1.060",
+              "Obesidad Mórbida y Cirugía Bariátrica: Indicaciones, Técnicas y Complicaciones",
+              "Sospecha",
+              "Inicial",
+              "Derivar"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Definición, Comorbilidades y Evaluación",
+        "notes": "[SLIDE 3] La obesidad se define por el índice de masa corporal (IMC): obesidad I de 30 a 34,9, obesidad II de 35 a 39,9 y obesidad mórbida (grado III) con IMC de 40 kg/m² o más. Se considera además mórbida a la obesidad con IMC de 35 o más acompañada de comorbilidades. La circunferencia de cintura (mayor de 102 cm en hombres y 88 cm en mujeres) mide la obesidad abdominal, que es la de mayor riesgo cardiometabólico. Las comorbilidades son diabetes mellitus tipo 2, hipertensión arterial, dislipidemia, síndrome de apnea obstructiva del sueño y síndrome de hipoventilación-obesidad, enfermedad por reflujo, esteatohepatitis, osteoartrosis, infertilidad (síndrome de ovario poliquístico), trombosis venosa y diversos cánceres. El estudio incluye glicemia o HbA1c, perfil lipídico, pruebas hepáticas, TSH, evaluación de apnea (STOP-BANG, poligrafía), ECG y evaluación psicológica, y se buscan causas secundarias como hipotiroidismo, síndrome de Cushing y fármacos (corticoides, antipsicóticos, insulina, valproato). Manejo inicial (nivel inicial): plan de alimentación hipocalórico, actividad física, terapia conductual y, por especialista, fármacos (liraglutida, semaglutida, orlistat). Estos pacientes se derivan a un equipo multidisciplinario (médico, nutricionista, psicólogo, cirujano).",
+        "title": "1. Definición, Comorbilidades y Evaluación",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "La obesidad se define por el índice de masa corporal (IMC): obesidad I de 30 a 34,9, obesidad II de 35 a 39,9 y obesidad mórbida (grado III) con IMC de 40 kg/m² o más. Se considera además mórbida a la obesidad con IMC de 35 o más acompañada de comorbilidades. La circunferencia de cintura (mayor de 102 cm en hombres y 88 cm en mujeres) mide la obesidad abdominal, que es la de mayor riesgo cardiometabólico.",
+              "Las comorbilidades son diabetes mellitus tipo 2, hipertensión arterial, dislipidemia, síndrome de apnea obstructiva del sueño y síndrome de hipoventilación-obesidad, enfermedad por reflujo, esteatohepatitis, osteoartrosis, infertilidad (síndrome de ovario poliquístico), trombosis venosa y diversos cánceres. El estudio incluye glicemia o HbA1c, perfil lipídico, pruebas hepáticas, TSH, evaluación de apnea (STOP-BANG, poligrafía), ECG y evaluación psicológica, y se buscan causas secundarias como hipotiroidismo, síndrome de Cushing y fármacos (corticoides, antipsicóticos, insulina, valproato).",
+              "Manejo inicial (nivel inicial): plan de alimentación hipocalórico, actividad física, terapia conductual y, por especialista, fármacos (liraglutida, semaglutida, orlistat). Estos pacientes se derivan a un equipo multidisciplinario (médico, nutricionista, psicólogo, cirujano)."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Cirugía Bariátrica: Indicaciones, Técnic",
+        "notes": "[SLIDE 4] Indicaciones: IMC de 40 o más, o de 35 o más con comorbilidad (DM2, HTA, apnea del sueño, entre otras), fracaso de un manejo médico supervisado de al menos 6 meses, edad entre 18 y 65 años (con criterios más amplios en casos seleccionados), paciente informado, motivado y capaz de seguir el control de por vida. Son contraindicaciones la adicción activa a alcohol o drogas, un trastorno psiquiátrico no controlado, el embarazo, la imposibilidad de adherir a los controles y las enfermedades que limitan la expectativa de vida. Técnicas: la manga gástrica (gastrectomía vertical) es restrictiva y la más realizada; el bypass gástrico en Y de Roux es mixto (restrictivo y de exclusión), logra mayor y más sostenida pérdida de peso, y es de elección en el reflujo importante y la diabetes; las técnicas malabsortivas (derivación biliopancreática) se usan poco por sus déficits nutricionales. Se espera una pérdida de 60-70% del exceso de peso con el bypass y la remisión de la diabetes tipo 2 en la mayoría; la mortalidad perioperatoria es menor de 0,5%.",
+        "title": "2. Cirugía Bariátrica: Indicaciones, Técnicas y Resultados",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "Indicaciones: IMC de 40 o más, o de 35 o más con comorbilidad (DM2, HTA, apnea del sueño, entre otras), fracaso de un manejo médico supervisado de al menos 6 meses, edad entre 18 y 65 años (con criterios más amplios en casos seleccionados), paciente informado, motivado y capaz de seguir el control de por vida. Son contraindicaciones la adicción activa a alcohol o drogas, un trastorno psiquiátrico no controlado, el embarazo, la imposibilidad de adherir a los controles y las enfermedades que limitan la expectativa de vida.",
+              "Técnicas: la manga gástrica (gastrectomía vertical) es restrictiva y la más realizada; el bypass gástrico en Y de Roux es mixto (restrictivo y de exclusión), logra mayor y más sostenida pérdida de peso, y es de elección en el reflujo importante y la diabetes; las técnicas malabsortivas (derivación biliopancreática) se usan poco por sus déficits nutricionales. Se espera una pérdida de 60-70% del exceso de peso con el bypass y la remisión de la diabetes tipo 2 en la mayoría; la mortalidad perioperatoria es menor de 0,5%."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Complicaciones y Seguimiento del Pacient",
+        "notes": "[SLIDE 5] Complicaciones precoces: la fuga anastomótica o de la línea de grapas es la más temida y su primer signo es la taquicardia persistente (más de 120 latidos por minuto) con dolor, fiebre o dificultad respiratoria; se estudia con TAC con contraste y requiere reintervención. Otras son hemorragia, estenosis de la anastomosis, trombosis venosa profunda con tromboembolismo pulmonar y obstrucción intestinal. Complicaciones tardías: el síndrome de dumping tras el bypass es frecuente. El dumping precoz (10 a 30 minutos después de comer) produce palpitaciones, sudor, mareos, cólicos y diarrea por el paso rápido de alimentos hiperosmolares; el tardío (1 a 3 horas) es una hipoglicemia reactiva. Se diagnostica por la clínica (se confirma con glicemia capilar durante el episodio) y se maneja con comidas pequeñas y frecuentes, evitando azúcares simples, con más proteínas y fibra y separando los líquidos de los sólidos. Otras complicaciones son la hernia interna (espacio de Petersen) con obstrucción intestinal, la úlcera del margen anastomótico, la colelitiasis por baja rápida de peso, el reflujo tras la manga y la recuperación del peso. Déficits nutricionales: hierro, vitamina B12, folato, calcio, vitamina D, tiamina y zinc. El paciente toma suplementos de por vida (multivitamínico, calcio con vitamina D, B12 y hierro) y se controla con exámenes periódicos; evita el embarazo durante los primeros 12 a 18 meses. La tiamina se repone ante vómitos persistentes por el riesgo de encefalopatía de Wernicke.",
+        "title": "3. Complicaciones y Seguimiento del Paciente Operado",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "Complicaciones precoces: la fuga anastomótica o de la línea de grapas es la más temida y su primer signo es la taquicardia persistente (más de 120 latidos por minuto) con dolor, fiebre o dificultad respiratoria; se estudia con TAC con contraste y requiere reintervención. Otras son hemorragia, estenosis de la anastomosis, trombosis venosa profunda con tromboembolismo pulmonar y obstrucción intestinal.",
+              "Complicaciones tardías: el síndrome de dumping tras el bypass es frecuente. El dumping precoz (10 a 30 minutos después de comer) produce palpitaciones, sudor, mareos, cólicos y diarrea por el paso rápido de alimentos hiperosmolares; el tardío (1 a 3 horas) es una hipoglicemia reactiva. Se diagnostica por la clínica (se confirma con glicemia capilar durante el episodio) y se maneja con comidas pequeñas y frecuentes, evitando azúcares simples, con más proteínas y fibra y separando los líquidos de los sólidos. Otras complicaciones son la hernia interna (espacio de Petersen) con obstrucción intestinal, la úlcera del margen anastomótico, la colelitiasis por baja rápida de peso, el reflujo tras la manga y la recuperación del peso.",
+              "Déficits nutricionales: hierro, vitamina B12, folato, calcio, vitamina D, tiamina y zinc. El paciente toma suplementos de por vida (multivitamínico, calcio con vitamina D, B12 y hierro) y se controla con exámenes periódicos; evita el embarazo durante los primeros 12 a 18 meses. La tiamina se repone ante vómitos persistentes por el riesgo de encefalopatía de Wernicke."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Técnicas de Cirugía Bariátrica",
+        "notes": "[SLIDE 6] Técnicas de Cirugía Bariátrica.",
+        "title": "Técnicas de Cirugía Bariátrica",
+        "headers": [
+          "Técnica",
+          "Mecanismo",
+          "Ventaja",
+          "Complicaciones propias"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Manga gástrica (gastrectomía vertical)",
+              "Restrictiva · se reseca ~80% del estómago",
+              "La más realizada · técnicamente simple",
+              "Reflujo, fuga de la línea de grapas, estenosis"
+            ]
+          },
+          {
+            "cells": [
+              "Bypass gástrico en Y de Roux",
+              "Mixta · reservorio gástrico pequeño y exclusión del duodeno",
+              "Mayor pérdida de peso · remisión de DM2 y reflujo",
+              "Dumping, hernia interna, úlcera marginal, déficits (hierro, B12, calcio)"
+            ]
+          },
+          {
+            "cells": [
+              "Derivación biliopancreática",
+              "Malabsortiva predominante",
+              "Gran pérdida de peso",
+              "Desnutrición proteica, diarrea, déficits vitamínicos graves"
+            ]
+          },
+          {
+            "cells": [
+              "Banda gástrica ajustable",
+              "Restrictiva",
+              "Reversible",
+              "Deslizamiento, erosión · hoy en desuso"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Clasificación del Peso según e",
+        "notes": "[SLIDE 7] Clasificación del Peso según el IMC.",
+        "title": "Clasificación del Peso según el IMC",
+        "headers": [
+          "IMC (kg/m²)",
+          "Categoría",
+          "Conducta"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "25 a 29,9",
+              "Sobrepeso",
+              "Medidas de estilo de vida"
+            ]
+          },
+          {
+            "cells": [
+              "30 a 34,9",
+              "Obesidad grado I",
+              "Estilo de vida · evaluar comorbilidades"
+            ]
+          },
+          {
+            "cells": [
+              "35 a 39,9",
+              "Obesidad grado II",
+              "Cirugía si hay comorbilidad y fracaso del manejo médico"
+            ]
+          },
+          {
+            "cells": [
+              "≥ 40",
+              "Obesidad grado III (mórbida)",
+              "Derivar a cirugía bariátrica si fracasa el manejo médico"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Complicaciones del Postoperato",
+        "notes": "[SLIDE 8] Complicaciones del Postoperatorio Bariátrico.",
+        "title": "Complicaciones del Postoperatorio Bariátrico",
+        "headers": [
+          "Complicación",
+          "Cuándo",
+          "Dato Clave",
+          "Conducta"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Fuga anastomótica",
+              "Primeros días",
+              "Taquicardia > 120 persistente, dolor, fiebre",
+              "TAC con contraste · reintervención"
+            ]
+          },
+          {
+            "cells": [
+              "Síndrome de dumping",
+              "Semanas a meses",
+              "Palpitaciones, sudor, diarrea tras comer",
+              "Comidas fraccionadas, sin azúcares simples"
+            ]
+          },
+          {
+            "cells": [
+              "Hernia interna (Petersen)",
+              "Meses a años",
+              "Dolor abdominal con obstrucción",
+              "TAC · cirugía urgente"
+            ]
+          },
+          {
+            "cells": [
+              "Déficit de B12, hierro, calcio",
+              "Meses a años",
+              "Anemia, neuropatía, osteoporosis",
+              "Suplementos de por vida"
+            ]
+          },
+          {
+            "cells": [
+              "Colelitiasis",
+              "6 a 18 meses",
+              "Baja rápida de peso",
+              "Ácido ursodesoxicólico profiláctico o colecistectomía"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "figura",
+        "nav": "Algoritmo",
+        "notes": "[SLIDE 9] Algoritmo de Manejo de la Obesidad Mórbida",
+        "title": "Algoritmo de Manejo de la Obesidad Mórbida",
+        "svg": "<svg viewBox=\"0 0 620 328\" width=\"100%\" style=\"max-width:620px;font-family:'IBM Plex Sans',system-ui,sans-serif\">\n  <defs><marker id=\"ar_334155\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#334155\"/></marker></defs>\n  <style>\n    .b{fill:#fff;stroke:#cbd5e1;stroke-width:1}\n    .t{font-size:10px;fill:#15181d}\n    .sub{font-size:8px;fill:#475569}.lbl{font-size:7.5px;fill:#334155;font-weight:700}\n    .acc{fill:#334155;stroke:#1e293b}.accT{fill:#fff}.accS{font-size:8px;fill:#f1f5f9}\n    .dec{fill:#f8fafc;stroke:#94a3b8;stroke-width:1}\n    .warn{fill:#fef2f2;stroke:#fecaca;stroke-width:1}.warnT{fill:#991b1b}\n    .crit{fill:#fff1f2;stroke:#f43f5e;stroke-width:1}\n    .ln{stroke:#334155;stroke-width:1.2;fill:none;marker-end:url(#ar_334155)}\n  </style>\n  <rect class=\"acc\" x=\"100\" y=\"8\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"310\" y=\"23\" text-anchor=\"middle\" font-weight=\"700\">Paciente con IMC ≥ 40 kg/m² (o ≥ 35 con comorbilidad)</text>\n  <text class=\"accS\" x=\"310\" y=\"35\" text-anchor=\"middle\">Medir cintura, buscar DM2, HTA, apnea del sueño, esteatosis y causas secundarias</text>\n  <path class=\"ln\" d=\"M310,47 V69\"/>\n  <rect class=\"warn\" x=\"100\" y=\"69\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"310\" y=\"84\" text-anchor=\"middle\" font-weight=\"700\">Manejo médico supervisado 6 meses o más</text>\n  <text class=\"warnT sub\" x=\"310\" y=\"96\" text-anchor=\"middle\">Dieta hipocalórica, actividad física, terapia conductual y fármacos</text>\n  <path class=\"ln\" d=\"M310,108 V130\"/>\n  <rect class=\"dec\" x=\"70\" y=\"130\" width=\"480\" height=\"39\" rx=\"3\"/>\n  <text class=\"t t\" x=\"310\" y=\"145\" text-anchor=\"middle\" font-weight=\"700\">¿Fracaso del manejo médico y sin contraindicaciones?</text>\n  <text class=\"sub\" x=\"310\" y=\"157\" text-anchor=\"middle\">Evaluación por equipo multidisciplinario</text>\n  <path class=\"ln\" d=\"M310,169 V199 H158 V209\"/>\n  <path class=\"ln\" d=\"M310,199 H462 V209\"/>\n  <text class=\"lbl\" x=\"158\" y=\"194\" text-anchor=\"middle\">Sí, motivado y apto</text>\n  <text class=\"lbl\" x=\"462\" y=\"194\" text-anchor=\"middle\">No, o contraindicación</text>\n  <rect class=\"acc\" x=\"12\" y=\"209\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"158\" y=\"224\" text-anchor=\"middle\" font-weight=\"700\">Derivar a cirugía bariátrica</text>\n  <text class=\"accS\" x=\"158\" y=\"236\" text-anchor=\"middle\">Manga gástrica o bypass gástrico en Y de Roux</text>\n  <text class=\"accS\" x=\"158\" y=\"247\" text-anchor=\"middle\">estudio preoperatorio completo</text>\n  <rect class=\"dec\" x=\"316\" y=\"209\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"t t\" x=\"462\" y=\"224\" text-anchor=\"middle\" font-weight=\"700\">Continuar manejo médico</text>\n  <text class=\"sub\" x=\"462\" y=\"236\" text-anchor=\"middle\">Adicción activa, psiquiátrico no</text>\n  <text class=\"sub\" x=\"462\" y=\"247\" text-anchor=\"middle\">controlado, embarazo o falta de adherencia</text>\n  <path class=\"ln\" d=\"M158,259 V269 H310 V281\"/>\n  <path class=\"ln\" d=\"M462,259 V269 H310 V281\"/>\n  <rect class=\"crit\" x=\"100\" y=\"281\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"310\" y=\"296\" text-anchor=\"middle\" font-weight=\"700\">Seguimiento de por vida</text>\n  <text class=\"warnT sub\" x=\"310\" y=\"308\" text-anchor=\"middle\">Multivitamínico, calcio, vitamina D, B12 y hierro · vigilar dumping, fuga, hernia interna</text>\n</svg>",
+        "steps": [
+          "1. Paciente con IMC ≥ 40 kg/m² (o ≥ 35 con comorbilidad)",
+          "2. Manejo médico supervisado 6 meses o más",
+          "3. ¿Fracaso del manejo médico y sin contraindicaciones? · Derivar a cirugía bariátrica · Continuar manejo médico"
+        ]
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 1",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 10] Caso clínico de aplicación número 1.",
+        "number": 1,
+        "caseText": "Una paciente de 35 años, con antecedente de bypass gástrico hace un año, presenta crisis de mareos, palpitaciones, malestar general y diarrea, que aparecen después de comer. El diagnóstico más probable es:",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Hipoglicemias reactivas",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Síndrome de dumping",
+            "isCorrect": true
+          },
+          {
+            "id": "C",
+            "text": "Hernia del espacio de Petersen",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Estenosis de la anastomosis",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Déficit de vitamina B12",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Tiene un síndrome de dumping clásico (aprender dicha clínica), frecuente complicación de un by-pass gástrico. Se caracteriza por síntomas disautonómicos, que pueden ser muy similares a una hipoglicemia, por lo que siempre se debe solicitar HGT para descartarla. Sin embargo, la diarrea no calza con hipoglicemia, sino solo con dumping."
+      },
+      {
+        "type": "bento",
+        "nav": "Reglas de Oro",
+        "notes": "[SLIDE 11] Repasemos las reglas de oro de este tema para no fallar en el EUNACOM.",
+        "title": "Reglas de Oro del Examen EUNACOM",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "Obesidad mórbida: IMC de 40 o más, o de 35 o más con comorbilidades.",
+              "Indicación de cirugía bariátrica: IMC adecuado, fracaso de manejo médico supervisado de 6 meses o más y paciente motivado sin contraindicaciones.",
+              "La manga gástrica es la técnica más usada; el bypass en Y de Roux logra más pérdida de peso y remisión de diabetes y reflujo.",
+              "Taquicardia persistente en el postoperatorio inmediato es el primer signo de fuga anastomótica.",
+              "Dumping tras bypass: síntomas vasomotores y diarrea minutos después de comer; se maneja con dieta fraccionada sin azúcares simples.",
+              "Colelitiasis, hernia interna y déficits de hierro, B12, calcio y vitamina D son complicaciones tardías; los suplementos son de por vida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "cirugia-21": {
+    "id": "cirugia-21",
+    "topicLabel": "11.21",
+    "title": "Cirugia 11.21: Procedimientos de Cirugía Menor: Punción Venosa, Manejo de Drenajes, Onicocriptosis & Onicectomía",
+    "perfilCodes": [
+      "1.01.5.008, 4.01.5.027, 4.01.5.021, 4.01.1.059, 4.01.5.024"
+    ],
+    "tier": 3,
+    "realQuestionCount": 1,
+    "slideCount": 15,
+    "slides": [
+      {
+        "type": "cover",
+        "nav": "Portada & Códigos",
+        "notes": "[SLIDE 1] Bienvenidos a la clase de Procedimientos de Cirugía Menor: Punción Venosa, Manejo de Drenajes, Onicocriptosis & Onicectomía. Código oficial Perfil V3: 1.01.5.008, 4.01.5.027, 4.01.5.021, 4.01.1.059, 4.01.5.024. Este tema ha sido evaluado en 1 preguntas oficiales del banco EUNACOM.",
+        "kicker": "CÓDIGO PERFIL V3: 1.01.5.008, 4.01.5.027, 4.01.5.021, 4.01.1.059, 4.01.5.024",
+        "badges": [
+          {
+            "label": "EUNACOM 2026",
+            "bg": "#ffe4e6",
+            "color": "#e11d48",
+            "border": "#f43f5e"
+          },
+          {
+            "label": "Preoperatorio, Anestesia & Complicaciones Quirúrgicas",
+            "bg": "#ede9fe",
+            "color": "#0284c7",
+            "border": "#c4b5fd"
+          },
+          {
+            "label": "Perfil V3 Oficial",
+            "bg": "#dcfce7",
+            "color": "#16a34a",
+            "border": "#4ade80"
+          },
+          {
+            "label": "1 Preguntas Reales (2013-2025)",
+            "bg": "#fef3c7",
+            "color": "#b45309",
+            "border": "#f59e0b"
+          }
+        ],
+        "title": "Procedimientos de Cirugía Menor: Punción Venosa, Manejo de Drenajes, Onicocriptosis & Onicectomía",
+        "subtitle": "Frecuencia: Alta rentabilidad · onicocriptosis con onicectomía parcial y matricectomía, punción venosa segura y conducta ante la sonda de gastrostomía retirada"
+      },
+      {
+        "type": "table",
+        "nav": "Matriz Perfil V3",
+        "notes": "[SLIDE 2] Exigencia legal según Perfil de Conocimientos ASOFAMECh: Diagnóstico: Específico, Tratamiento: Completo, Seguimiento: Completo.",
+        "title": "Matriz de Auditoría Legal: Procedimientos de Cirugía Menor: Punción Venosa, Manejo de Drenajes, Onicocriptosis & Onicectomía",
+        "subtitle": "Nivel de competencia médica exigible por ley en Chile (EUNACOM 2026).",
+        "headers": [
+          "Código",
+          "Situación Clínica",
+          "Diagnóstico",
+          "Tratamiento",
+          "Seguimiento"
+        ],
+        "highlightCol": 1,
+        "pearl": "✅ MANEJO AUTÓNOMO APS: Esta condición debe ser diagnosticada, tratada y seguida íntegramente por el médico general en CESFAM.",
+        "rows": [
+          {
+            "highlight": true,
+            "cells": [
+              "1.01.5.008, 4.01.5.027, 4.01.5.021, 4.01.1.059, 4.01.5.024",
+              "Procedimientos de Cirugía Menor: Punción Venosa, Manejo de Drenajes, Onicocriptosis & Onicectomía",
+              "Específico",
+              "Completo",
+              "Completo"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Punción Venosa: Técnica, Elección del Si",
+        "notes": "[SLIDE 3] La punción venosa se realiza para tomar exámenes de sangre o instalar una vía periférica. Se prepara el material, se lava las manos y se usan guantes; se coloca el torniquete 7 a 10 cm sobre el sitio por menos de 1 minuto (más tiempo produce hemoconcentración y hemólisis). Las venas de elección son la mediana cubital, la cefálica y la basílica del pliegue del codo; se palpa la vena y no la arteria o el tendón. Se evita el brazo con mastectomía y disección axilar, fístula arteriovenosa, hemiparesia, infusión en curso o flebitis. Se hace antisepsia con alcohol 70% o clorhexidina y se deja secar; con la piel tensa, la aguja con el bisel hacia arriba, en ángulo de 15 a 30°, se avanza hasta ver el retorno de sangre. Se suelta el torniquete antes de retirar la aguja, se comprime con una gasa 2 a 3 minutos (más si el paciente está anticoagulado) sin flexionar el brazo. Los tubos se llenan en orden: hemocultivos, citrato (celeste), suero (rojo o amarillo), heparina (verde), EDTA (lila) y fluoruro (gris). Nunca se reencapucha la aguja y se descarta en el contenedor de cortopunzantes; ante un pinchazo accidental se lava, se notifica y se inicia la profilaxis según protocolo. Las complicaciones son el hematoma, la punción arterial (comprimir 5 minutos), la lesión de un nervio con parestesias, la flebitis y el síncope vasovagal. Para una vía periférica, los catéteres de color gris (16 G) y verde (18 G) permiten reanimación con volumen, y el rosado (20 G) y azul (22 G) son de uso habitual en el adulto.",
+        "title": "1. Punción Venosa: Técnica, Elección del Sitio y Precauciones",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "La punción venosa se realiza para tomar exámenes de sangre o instalar una vía periférica. Se prepara el material, se lava las manos y se usan guantes; se coloca el torniquete 7 a 10 cm sobre el sitio por menos de 1 minuto (más tiempo produce hemoconcentración y hemólisis). Las venas de elección son la mediana cubital, la cefálica y la basílica del pliegue del codo; se palpa la vena y no la arteria o el tendón. Se evita el brazo con mastectomía y disección axilar, fístula arteriovenosa, hemiparesia, infusión en curso o flebitis.",
+              "Se hace antisepsia con alcohol 70% o clorhexidina y se deja secar; con la piel tensa, la aguja con el bisel hacia arriba, en ángulo de 15 a 30°, se avanza hasta ver el retorno de sangre. Se suelta el torniquete antes de retirar la aguja, se comprime con una gasa 2 a 3 minutos (más si el paciente está anticoagulado) sin flexionar el brazo. Los tubos se llenan en orden: hemocultivos, citrato (celeste), suero (rojo o amarillo), heparina (verde), EDTA (lila) y fluoruro (gris). Nunca se reencapucha la aguja y se descarta en el contenedor de cortopunzantes; ante un pinchazo accidental se lava, se notifica y se inicia la profilaxis según protocolo.",
+              "Las complicaciones son el hematoma, la punción arterial (comprimir 5 minutos), la lesión de un nervio con parestesias, la flebitis y el síncope vasovagal. Para una vía periférica, los catéteres de color gris (16 G) y verde (18 G) permiten reanimación con volumen, y el rosado (20 G) y azul (22 G) son de uso habitual en el adulto."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Manejo de Drenajes y Sondas",
+        "notes": "[SLIDE 4] Los drenajes evacuan colecciones, previenen su acumulación y permiten detectar fugas. Pueden ser pasivos (Penrose, tubos) o aspirativos con presión negativa (Jackson-Pratt, Redon, Hemovac); la pleurostomía funciona con sello de agua. En todo drenaje se registran el débito diario y sus características: seroso o serohemático es normal; francamente hemático sugiere hemorragia; biliar o entérico, una fuga; turbio o purulento, una infección. Se mantiene el sistema cerrado, bajo el nivel de la herida, fijo a la piel y se cura el orificio de salida a diario con suero fisiológico y apósito seco, vaciando con técnica aséptica. El drenaje se retira cuando el débito disminuye (en general menos de 30 a 50 mL en 24 horas), es seroso y no hay signos de infección; los Penrose se movilizan 2 a 3 cm por día antes de retirarlos. Las complicaciones son la obstrucción (se irriga con suavidad), la infección, el sangrado, la salida accidental y la erosión. Sonda de gastrostomía retirada accidentalmente: el trayecto se cierra en pocas horas, por lo que debe reponerse una sonda de inmediato por el ostoma si el trayecto está maduro (más de 4 semanas) y no hay signos de perforación o filtración; se verifica su posición aspirando contenido gástrico antes de usarla. Si el trayecto es reciente (menos de 2 a 4 semanas), no se reinserta a ciegas por el riesgo de falso trayecto y peritonitis y se deriva para endoscopía o estudio con contraste.",
+        "title": "2. Manejo de Drenajes y Sondas",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "Los drenajes evacuan colecciones, previenen su acumulación y permiten detectar fugas. Pueden ser pasivos (Penrose, tubos) o aspirativos con presión negativa (Jackson-Pratt, Redon, Hemovac); la pleurostomía funciona con sello de agua. En todo drenaje se registran el débito diario y sus características: seroso o serohemático es normal; francamente hemático sugiere hemorragia; biliar o entérico, una fuga; turbio o purulento, una infección. Se mantiene el sistema cerrado, bajo el nivel de la herida, fijo a la piel y se cura el orificio de salida a diario con suero fisiológico y apósito seco, vaciando con técnica aséptica.",
+              "El drenaje se retira cuando el débito disminuye (en general menos de 30 a 50 mL en 24 horas), es seroso y no hay signos de infección; los Penrose se movilizan 2 a 3 cm por día antes de retirarlos. Las complicaciones son la obstrucción (se irriga con suavidad), la infección, el sangrado, la salida accidental y la erosión.",
+              "Sonda de gastrostomía retirada accidentalmente: el trayecto se cierra en pocas horas, por lo que debe reponerse una sonda de inmediato por el ostoma si el trayecto está maduro (más de 4 semanas) y no hay signos de perforación o filtración; se verifica su posición aspirando contenido gástrico antes de usarla. Si el trayecto es reciente (menos de 2 a 4 semanas), no se reinserta a ciegas por el riesgo de falso trayecto y peritonitis y se deriva para endoscopía o estudio con contraste."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "bento",
+        "nav": "Onicocriptosis y Onicectomía",
+        "notes": "[SLIDE 5] La onicocriptosis (uña encarnada) ocurre cuando el borde lateral de la uña, casi siempre del ortejo mayor, penetra el pliegue ungueal. Se favorece por el corte curvo de las uñas, el calzado estrecho, la hiperhidrosis y el trauma. La clasificación de Heifetz distingue el estadio I (eritema, edema y dolor), el estadio II (supuración e infección) y el estadio III (tejido de granulación hipertrófico). El diagnóstico es clínico. Tratamiento (nivel completo): en el estadio I se indican baños de agua tibia con jabón, elevar el borde de la uña con un trozo de algodón o gasa, cortar la uña recta y usar calzado amplio. En los estadios II y III o en la recidiva se realiza una onicectomía parcial (nivel realizar): bajo bloqueo digital con lidocaína al 1-2% sin adrenalina, con torniquete en la base del dedo, se reseca la cuña lateral de la uña con su borde encarnado, se elimina el tejido de granulación y se hace la matricectomía química con fenol al 88% (tres aplicaciones de 30 segundos) para evitar la recidiva (menos de 5%). Luego se cura a diario con baños y apósito durante 2 a 4 semanas. Se agrega antibiótico (cloxacilina o cefadroxilo) si hay celulitis o el paciente es diabético o inmunodeprimido, se verifica la vacunación antitetánica y se deriva al paciente con isquemia o neuropatía diabética avanzada. La avulsión total de la uña queda para la uña destruida por micosis o trauma.",
+        "title": "3. Onicocriptosis y Onicectomía",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "La onicocriptosis (uña encarnada) ocurre cuando el borde lateral de la uña, casi siempre del ortejo mayor, penetra el pliegue ungueal. Se favorece por el corte curvo de las uñas, el calzado estrecho, la hiperhidrosis y el trauma. La clasificación de Heifetz distingue el estadio I (eritema, edema y dolor), el estadio II (supuración e infección) y el estadio III (tejido de granulación hipertrófico). El diagnóstico es clínico.",
+              "Tratamiento (nivel completo): en el estadio I se indican baños de agua tibia con jabón, elevar el borde de la uña con un trozo de algodón o gasa, cortar la uña recta y usar calzado amplio. En los estadios II y III o en la recidiva se realiza una onicectomía parcial (nivel realizar): bajo bloqueo digital con lidocaína al 1-2% sin adrenalina, con torniquete en la base del dedo, se reseca la cuña lateral de la uña con su borde encarnado, se elimina el tejido de granulación y se hace la matricectomía química con fenol al 88% (tres aplicaciones de 30 segundos) para evitar la recidiva (menos de 5%). Luego se cura a diario con baños y apósito durante 2 a 4 semanas.",
+              "Se agrega antibiótico (cloxacilina o cefadroxilo) si hay celulitis o el paciente es diabético o inmunodeprimido, se verifica la vacunación antitetánica y se deriva al paciente con isquemia o neuropatía diabética avanzada. La avulsión total de la uña queda para la uña destruida por micosis o trauma."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Onicocriptosis: Estadios de He",
+        "notes": "[SLIDE 6] Onicocriptosis: Estadios de Heifetz y Conducta.",
+        "title": "Onicocriptosis: Estadios de Heifetz y Conducta",
+        "headers": [
+          "Estadio",
+          "Hallazgo",
+          "Conducta"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "I",
+              "Eritema, edema leve y dolor al presionar",
+              "Baños tibios, elevar el borde, corte recto, calzado amplio"
+            ]
+          },
+          {
+            "cells": [
+              "II",
+              "Supuración, celulitis del pliegue",
+              "Onicectomía parcial + antibiótico si hay celulitis"
+            ]
+          },
+          {
+            "cells": [
+              "III",
+              "Tejido de granulación hipertrófico",
+              "Onicectomía parcial + matricectomía con fenol"
+            ]
+          },
+          {
+            "cells": [
+              "Recidivante",
+              "Episodios repetidos pese al manejo conservador",
+              "Matricectomía química definitiva"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Débito y Tipo de Líquido en un",
+        "notes": "[SLIDE 7] Débito y Tipo de Líquido en un Drenaje.",
+        "title": "Débito y Tipo de Líquido en un Drenaje",
+        "headers": [
+          "Característica",
+          "Interpretación",
+          "Conducta"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Seroso o serohemático, débito decreciente",
+              "Evolución normal",
+              "Retirar cuando es menor de 30-50 mL/día"
+            ]
+          },
+          {
+            "cells": [
+              "Francamente hemático",
+              "Hemorragia postoperatoria",
+              "Evaluar hemodinamia y avisar al cirujano"
+            ]
+          },
+          {
+            "cells": [
+              "Bilioso o entérico",
+              "Fuga biliar o de anastomosis",
+              "Imagen y reintervención según el caso"
+            ]
+          },
+          {
+            "cells": [
+              "Turbio o purulento",
+              "Infección de la colección",
+              "Cultivo, antibióticos, imagen"
+            ]
+          },
+          {
+            "cells": [
+              "Drenaje sin débito",
+              "Obstrucción o resolución",
+              "Irrigar suavemente; si no, evaluar con imagen"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "nav": "Punción Venosa: Errores Frecue",
+        "notes": "[SLIDE 8] Punción Venosa: Errores Frecuentes y Conducta Correcta.",
+        "title": "Punción Venosa: Errores Frecuentes y Conducta Correcta",
+        "headers": [
+          "Situación",
+          "Error",
+          "Conducta Correcta"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Torniquete",
+              "Dejarlo más de 1 minuto",
+              "Máximo 1 minuto; soltarlo antes de retirar la aguja"
+            ]
+          },
+          {
+            "cells": [
+              "Mastectomía con disección axilar",
+              "Puncionar ese brazo",
+              "Usar el brazo contralateral"
+            ]
+          },
+          {
+            "cells": [
+              "Aguja usada",
+              "Reencapucharla con las dos manos",
+              "Descartar directo en el contenedor de cortopunzantes"
+            ]
+          },
+          {
+            "cells": [
+              "Hemostasia",
+              "Flexionar el brazo sobre la gasa",
+              "Comprimir con el brazo extendido 2-3 minutos"
+            ]
+          },
+          {
+            "cells": [
+              "Punción arterial accidental",
+              "Presionar poco",
+              "Compresión firme de 5 minutos o más"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "figura",
+        "nav": "Algoritmo",
+        "notes": "[SLIDE 9] Algoritmo de Manejo de la Onicocriptosis",
+        "title": "Algoritmo de Manejo de la Onicocriptosis",
+        "svg": "<svg viewBox=\"0 0 620 328\" width=\"100%\" style=\"max-width:620px;font-family:'IBM Plex Sans',system-ui,sans-serif\">\n  <defs><marker id=\"ar_334155\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#334155\"/></marker></defs>\n  <style>\n    .b{fill:#fff;stroke:#cbd5e1;stroke-width:1}\n    .t{font-size:10px;fill:#15181d}\n    .sub{font-size:8px;fill:#475569}.lbl{font-size:7.5px;fill:#334155;font-weight:700}\n    .acc{fill:#334155;stroke:#1e293b}.accT{fill:#fff}.accS{font-size:8px;fill:#f1f5f9}\n    .dec{fill:#f8fafc;stroke:#94a3b8;stroke-width:1}\n    .warn{fill:#fef2f2;stroke:#fecaca;stroke-width:1}.warnT{fill:#991b1b}\n    .crit{fill:#fff1f2;stroke:#f43f5e;stroke-width:1}\n    .ln{stroke:#334155;stroke-width:1.2;fill:none;marker-end:url(#ar_334155)}\n  </style>\n  <rect class=\"acc\" x=\"100\" y=\"8\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"310\" y=\"23\" text-anchor=\"middle\" font-weight=\"700\">Dolor, eritema y edema del pliegue ungueal lateral del ortejo mayor</text>\n  <text class=\"accS\" x=\"310\" y=\"35\" text-anchor=\"middle\">Corte curvo de uñas · calzado estrecho · hiperhidrosis</text>\n  <path class=\"ln\" d=\"M310,47 V69\"/>\n  <rect class=\"dec\" x=\"70\" y=\"69\" width=\"480\" height=\"39\" rx=\"3\"/>\n  <text class=\"t t\" x=\"310\" y=\"84\" text-anchor=\"middle\" font-weight=\"700\">¿Hay supuración o tejido de granulación (estadios II-III)?</text>\n  <text class=\"sub\" x=\"310\" y=\"96\" text-anchor=\"middle\">Clasificación de Heifetz</text>\n  <path class=\"ln\" d=\"M310,108 V138 H158 V148\"/>\n  <path class=\"ln\" d=\"M310,138 H462 V148\"/>\n  <text class=\"lbl\" x=\"158\" y=\"133\" text-anchor=\"middle\">No: solo eritema y dolor (estadio I)</text>\n  <text class=\"lbl\" x=\"462\" y=\"133\" text-anchor=\"middle\">Sí, o recidiva</text>\n  <rect class=\"acc\" x=\"12\" y=\"148\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"accT t\" x=\"158\" y=\"163\" text-anchor=\"middle\" font-weight=\"700\">Manejo conservador</text>\n  <text class=\"accS\" x=\"158\" y=\"175\" text-anchor=\"middle\">Baños de agua tibia, elevar el borde de la</text>\n  <text class=\"accS\" x=\"158\" y=\"186\" text-anchor=\"middle\">uña con gasa, corte recto, calzado amplio</text>\n  <rect class=\"dec\" x=\"316\" y=\"148\" width=\"292\" height=\"50\" rx=\"3\"/>\n  <text class=\"t t\" x=\"462\" y=\"163\" text-anchor=\"middle\" font-weight=\"700\">Onicectomía parcial</text>\n  <text class=\"sub\" x=\"462\" y=\"175\" text-anchor=\"middle\">Bloqueo digital con lidocaína sin adrenalina</text>\n  <text class=\"sub\" x=\"462\" y=\"186\" text-anchor=\"middle\">resección de la cuña lateral</text>\n  <path class=\"ln\" d=\"M158,198 V208 H310 V220\"/>\n  <path class=\"ln\" d=\"M462,198 V208 H310 V220\"/>\n  <rect class=\"warn\" x=\"100\" y=\"220\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"310\" y=\"235\" text-anchor=\"middle\" font-weight=\"700\">Matricectomía química con fenol</text>\n  <text class=\"warnT sub\" x=\"310\" y=\"247\" text-anchor=\"middle\">Evita la recidiva (menos de 5%) · curación diaria 2 a 4 semanas</text>\n  <path class=\"ln\" d=\"M310,259 V281\"/>\n  <rect class=\"crit\" x=\"100\" y=\"281\" width=\"420\" height=\"39\" rx=\"3\"/>\n  <text class=\"warnT t\" x=\"310\" y=\"296\" text-anchor=\"middle\" font-weight=\"700\">Diabético, isquémico o celulitis</text>\n  <text class=\"warnT sub\" x=\"310\" y=\"308\" text-anchor=\"middle\">Antibiótico (cloxacilina o cefadroxilo) · derivar si hay isquemia o neuropatía</text>\n</svg>",
+        "steps": [
+          "1. Dolor, eritema y edema del pliegue ungueal lateral del ortejo mayor",
+          "2. ¿Hay supuración o tejido de granulación (estadios II-III)?",
+          "3. Manejo conservador · Onicectomía parcial · Matricectomía química con fenol"
+        ]
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 1",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 10] Caso clínico de aplicación número 1.",
+        "number": 1,
+        "caseText": "Una mujer de 62 años, con antecedente de mastectomía izquierda con disección axilar por cáncer de mama, requiere toma de exámenes de sangre. ¿Cuál es la indicación más adecuada para la punción venosa?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Puncionar el brazo izquierdo, porque tiene venas más visibles",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Mantener el torniquete apretado más de 3 minutos para facilitar la punción",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Puncionar el brazo derecho, evitando el brazo con disección axilar",
+            "isCorrect": true
+          },
+          {
+            "id": "D",
+            "text": "Retirar la aguja antes de soltar el torniquete",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Puncionar siempre la vena femoral",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Se evita puncionar la extremidad con disección axilar (riesgo de linfedema e infección), con fístula arteriovenosa o con una vía venosa en curso. El torniquete debe mantenerse menos de 1 minuto para no alterar resultados (hemoconcentración, potasio) y soltarse antes de retirar la aguja, para evitar hematomas."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 2",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 11] Caso clínico de aplicación número 2.",
+        "number": 2,
+        "caseText": "Un interno realiza una punción venosa en el pliegue del codo para tomar exámenes de sangre a un paciente adulto. ¿Cuál de las siguientes prácticas es correcta?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mantener la ligadura más de 3 minutos para mejorar el llenado venoso",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Reencapuchar la aguja con ambas manos después de la extracción",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Puncionar sobre una zona con hematoma reciente",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Pedir al paciente que abra y cierre el puño repetidamente durante toda la extracción",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Introducir la aguja con el bisel hacia arriba, en ángulo de 15 a 30 grados, y soltar la ligadura antes de retirarla",
+            "isCorrect": true
+          }
+        ],
+        "explanation": "La punción venosa se realiza con el bisel hacia arriba, en un ángulo de 15 a 30 grados, y se suelta la ligadura antes de retirar la aguja para evitar hematomas. La ligadura no debe mantenerse más de 1 minuto, y el bombeo del puño produce falsa hiperkalemia. Nunca se reencapucha la aguja."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 3",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 12] Caso clínico de aplicación número 3.",
+        "number": 3,
+        "caseText": "Un paciente de 76 años, con antecedente de accidente vascular secuelado, hace 2 meses, se alimenta mediante gastrostomía, la cual fue realizada endoscópicamente. Accidentalmente se retiró la sonda. ¿Cuál es la conducta más adecuada?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Solicitar radiografía de abdomen simple",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Solicitar ecografía abdominal",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Solicitar TAC de abdomen",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Instalar una nueva sonda por el ostoma",
+            "isCorrect": true
+          },
+          {
+            "id": "E",
+            "text": "Realizar una nueva gastrostomía",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Pregunta muy discutible y fuera de lo que debe hacer un médico general. Sin embargo, si es que la sonda se retiró, sin mayor daño, ni signos clínicos de perforación o filtración, se puede volver a instalar una nueva."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 4",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 13] Caso clínico de aplicación número 4.",
+        "number": 4,
+        "caseText": "Adolescente de 16 años consulta por dolor en el borde lateral del ortejo mayor derecho de 1 semana, con eritema leve y edema del pliegue ungueal, sin secreción purulenta ni tejido de granulación. Refiere que se corta las uñas en forma curva y usa zapatillas estrechas. ¿Cuál es el manejo más adecuado?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Onicectomía total",
+            "isCorrect": false
+          },
+          {
+            "id": "B",
+            "text": "Onicectomía parcial con matricectomía",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Antibiótico oral por 14 días",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Manejo conservador: baños tibios, levantar el borde ungueal con algodón, calzado holgado y corte recto de la uña",
+            "isCorrect": true
+          },
+          {
+            "id": "E",
+            "text": "Antifúngico tópico",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "La onicocriptosis leve (dolor, eritema y edema, sin pus ni granuloma) se maneja en forma conservadora: higiene, baños tibios, elevar el borde con algodón, calzado amplio y cortar la uña recta. La onicectomía parcial con matricectomía se reserva para casos moderados a severos o recurrentes."
+      },
+      {
+        "type": "question",
+        "nav": "Caso Clínico 5",
+        "badge": "Caso Clínico de Aplicación",
+        "notes": "[SLIDE 14] Caso clínico de aplicación número 5.",
+        "number": 5,
+        "caseText": "Hombre de 30 años presenta su cuarto episodio en 1 año de onicocriptosis del borde lateral del ortejo mayor izquierdo, con dolor, secreción purulenta y tejido de granulación hipertrófico, pese a manejo conservador y cuidados adecuados. ¿Cuál es el tratamiento más adecuado?",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Onicectomía parcial del borde afectado con matricectomía (quirúrgica o química con fenol)",
+            "isCorrect": true
+          },
+          {
+            "id": "B",
+            "text": "Antibiótico oral y repetir manejo conservador",
+            "isCorrect": false
+          },
+          {
+            "id": "C",
+            "text": "Onicectomía total sin tratar la matriz",
+            "isCorrect": false
+          },
+          {
+            "id": "D",
+            "text": "Amputación de la falange distal",
+            "isCorrect": false
+          },
+          {
+            "id": "E",
+            "text": "Antifúngico oral por 3 meses",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "La onicocriptosis recurrente o con granuloma se trata con onicectomía parcial del borde afectado, bajo anestesia troncular digital, asociada a destrucción de la matriz ungueal correspondiente (matricectomía quirúrgica o química con fenol) para evitar la recurrencia. La onicectomía total sin tratar la matriz tiene alta recidiva y peor resultado estético."
+      },
+      {
+        "type": "bento",
+        "nav": "Reglas de Oro",
+        "notes": "[SLIDE 15] Repasemos las reglas de oro de este tema para no fallar en el EUNACOM.",
+        "title": "Reglas de Oro del Examen EUNACOM",
+        "tiles": [
+          {
+            "colSpan": 3,
+            "gridColumns": 1,
+            "bullets": [
+              "Punción venosa: torniquete por menos de 1 minuto, nunca en el brazo con mastectomía y disección axilar, y nunca reencapuchar la aguja.",
+              "En un drenaje se registra el débito y su aspecto; se retira cuando es seroso y menor de 30-50 mL al día.",
+              "Una gastrostomía madura (más de 4 semanas) cuya sonda se sale se repone de inmediato por el ostoma tras verificar su posición.",
+              "Onicocriptosis estadio I: baños, elevar el borde de la uña y calzado amplio; estadios II-III: onicectomía parcial con matricectomía con fenol.",
+              "El bloqueo digital se hace con lidocaína sin adrenalina, 1 a 2 mL en la base a cada lado del dedo."
             ]
           }
         ]

@@ -1,0 +1,113 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Clases nuevas de neumología. Variante: ?v=hipotermia
+//   hipotermia  resp-25 A1 (gráfico solo código, sin anatomía): temperatura central que baja, ECG que cambia (taquicardia con temblor,
+//               bradicardia con onda J de Osborn, fibrilación ventricular) y recalentamiento escalonado. Cifras del libro (resp-25).
+const V = new URLSearchParams(location.search).get('v') || 'hipotermia';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+
+const ORANGE = '#FF8A3D';
+const TY = T => 150 + (38 - T) / 14 * 470;                 // y de una temperatura (38 → 24 °C)
+// temperatura central en el tiempo: baja hasta 26 °C y luego se recalienta por etapas
+function temp(t) {
+  if (t < 1.5) return 37;
+  if (t < 16) return lerp(37, 26, ease(seg(t, 1.5, 13.5)));
+  if (t < 19) return 26;
+  if (t < 24) return lerp(26, 31, ease(seg(t, 19, 5)));
+  return lerp(31, 35.2, ease(seg(t, 24, 4.2)));
+}
+const phaseOf = T => T > 35 ? 0 : T >= 32 ? 1 : T >= 28 ? 2 : 3;
+const PH = [
+  { name: 'Normal', col: C.GREEN, rhythm: 'Ritmo sinusal' },
+  { name: 'Hipotermia leve', col: C.AMBER, rhythm: 'Taquicardia con temblor' },
+  { name: 'Hipotermia moderada', col: ORANGE, rhythm: 'Bradicardia con onda J de Osborn' },
+  { name: 'Hipotermia grave', col: C.RED, rhythm: 'Fibrilación ventricular' },
+];
+
+// un latido en [0,1): P, QRS, (J), T; osb = amplitud de la onda J de Osborn
+function beat(u, osb) {
+  const g = (c, w, a) => a * Math.exp(-((u - c) * (u - c)) / (2 * w * w));
+  return g(0.12, 0.028, 0.14) + g(0.30, 0.007, -0.16) + g(0.325, 0.010, 1.0) + g(0.35, 0.008, -0.25) + g(0.385, 0.018, osb) + g(0.62, 0.05, 0.28);
+}
+function hash(i) { const x = Math.sin(i * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); }
+function ecgValue(tt, T, rewarm) {
+  const ph = phaseOf(T);
+  if (ph === 3 && !rewarm) {                                             // fibrilación ventricular
+    return 0.55 * Math.sin(tt * 19) * Math.sin(tt * 2.3 + 1) + 0.35 * Math.sin(tt * 31 + 2) + 0.12 * (hash(Math.floor(tt * 60)) - 0.5);
+  }
+  const hr = ph === 0 ? 72 : ph === 1 ? 108 : 46;                         // lpm
+  const per = 60 / hr, u = (tt % per) / per;
+  let v = beat(u, ph === 2 || (ph === 3 && rewarm) ? 0.28 : 0.0);
+  if (ph === 1) v += 0.05 * Math.sin(tt * 90) + 0.04 * Math.sin(tt * 61);   // temblor muscular
+  return v;
+}
+function ecgPanel(t, x, y, w, h, T, col, rewarm) {
+  rrect(x, y, w, h, 14, '#0B1018'); ctx.save(); ctx.beginPath(); ctx.roundRect(x, y, w, h, 14); ctx.clip();
+  ctx.strokeStyle = 'rgba(255,255,255,0.06)'; ctx.lineWidth = 1;
+  for (let gx = x; gx < x + w; gx += 25) { ctx.beginPath(); ctx.moveTo(gx, y); ctx.lineTo(gx, y + h); ctx.stroke(); }
+  for (let gy = y; gy < y + h; gy += 25) { ctx.beginPath(); ctx.moveTo(x, gy); ctx.lineTo(x + w, gy); ctx.stroke(); }
+  const base = y + h * 0.66, amp = h * 0.52, span = 3.4;               // 3,4 s de trazo visible
+  ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.lineJoin = 'round'; ctx.beginPath();
+  for (let i = 0; i <= 300; i++) { const tt = t - span + span * i / 300; const v = ecgValue(Math.max(0, tt), temp(Math.max(0, tt)), rewarm && tt > 16.5);
+    const X = x + w * i / 300, Y = base - v * amp; i ? ctx.lineTo(X, Y) : ctx.moveTo(X, Y); }
+  ctx.stroke(); ctx.restore();
+}
+
+function thermo(T, ph) {
+  const x = 70, w = 54;
+  // tubo
+  rrect(x, 140, w, 500, 27, '#1B2230');
+  // zonas
+  const zones = [[38, 35, C.GREEN, 'Normal'], [35, 32, C.AMBER, 'Leve'], [32, 28, ORANGE, 'Moderada'], [28, 24, C.RED, 'Grave']];
+  zones.forEach(([a, b, col, name], i) => { const ya = TY(a), yb = TY(b); ctx.globalAlpha = 0.28; ctx.fillStyle = col; ctx.fillRect(x + w + 6, ya, 22, yb - ya); ctx.globalAlpha = 1;
+    text(name, x + w + 36, (ya + yb) / 2 + 6, 17, col, 'bold'); });
+  [35, 32, 28].forEach(v => { text(`${v} °C`, x - 8, TY(v) + 6, 16, C.MUTED, '', 'right'); ctx.fillStyle = '#9AA0A6'; ctx.fillRect(x + w, TY(v) - 1, 8, 2); });
+  // columna de mercurio
+  const yT = TY(T); ctx.save(); ctx.beginPath(); ctx.roundRect(x + 8, 150, w - 16, 480, 20); ctx.clip();
+  ctx.fillStyle = PH[ph].col; ctx.fillRect(x + 8, yT, w - 16, 640 - yT); ctx.restore();
+  ctx.fillStyle = PH[ph].col; ctx.beginPath(); ctx.arc(x + w / 2, 656, 34, 0, 7); ctx.fill();
+}
+
+function hipotermia(t) {
+  K.title('Hipotermia accidental', 'La temperatura central decide los hallazgos y el recalentamiento', '#7FB2FF');
+  const T = temp(t), ph = phaseOf(T), P = PH[ph], rewarm = t > 16.5;
+  thermo(T, ph);
+  // temperatura y ritmo
+  rrect(300, 140, 440, 96, 16, '#161B22'); ctx.fillStyle = P.col; ctx.fillRect(300, 140, 6, 96);
+  text(`${T.toFixed(1).replace('.', ',')} °C`, 330, 206, 56, P.col, 'bold');
+  text('Temperatura central (rectal)', 540, 176, 17, C.MUTED); text(rewarm ? 'Recalentando' : (t < 1.5 ? 'Al ingreso' : 'Enfriándose'), 540, 206, 21, C.INK, 'bold');
+  ecgPanel(t, 300, 252, 440, 150, T, P.col, rewarm);
+  tag(rewarm && ph === 3 ? 'Ritmo organizado con onda J' : P.rhythm, 520, 424, P.col, 18);
+  // hallazgos por grado
+  const finds = [
+    ['Normal', 'Temperatura central ≥ 35 °C', C.GREEN],
+    ['Leve · 32 a 35 °C', 'Temblor, taquicardia, taquipnea, confusión', C.AMBER],
+    ['Moderada · 28 a 32 °C', 'Sin temblor: letargo, bradicardia, ondas J, riesgo de FA', ORANGE],
+    ['Grave · < 28 °C', 'Coma, bradicardia extrema, riesgo de FV y asistolia', C.RED],
+  ];
+  K.card(300, 456, 440, 118, P.col, finds[ph][0], [finds[ph][1], ph === 2 ? 'La bradicardia no responde a atropina' : ph === 3 ? 'Parece muerto: nadie lo está hasta que está tibio' : ' '], 1, 17);
+  K.banner(300, 598, 440, 'Manipular con cuidado: puede gatillar FV', C.RED, seg(t, 10.4, 0.5) * (1 - seg(t, 20, 0.5)));
+  K.banner(290, 598, 460, 'Nadie está muerto hasta que está tibio y muerto', C.BLUE, seg(t, 27.2, 0.5));
+  // tratamiento escalonado
+  K.card(770, 140, 480, 110, C.AMBER, 'Leve: pasivo y externo', ['Mantas, ambiente cálido,', 'bebidas calientes dulces'], seg(t, 4.5, 0.5), 17);
+  K.card(770, 264, 480, 124, ORANGE, 'Moderada: activo externo', ['Mantas de aire caliente + suero tibio', '38 a 42 °C; subir 0,5 a 2 °C por hora'], seg(t, 8.5, 0.5), 17);
+  K.card(770, 402, 480, 124, C.RED, 'Grave: recalentamiento interno', ['Lavado pleural o peritoneal tibio, ECMO', 'RCP prolongada hasta recalentar'], seg(t, 13.2, 0.5), 17);
+  // flecha de recalentamiento sobre el termómetro
+  const ra = fade(t, 17, 27.5, 0.6); if (ra > 0) { ctx.save(); ctx.globalAlpha = ra; ctx.strokeStyle = C.BLUE; ctx.fillStyle = C.BLUE; ctx.lineWidth = 5;
+    ctx.beginPath(); ctx.moveTo(266, 600); ctx.lineTo(266, 250); ctx.stroke(); ctx.beginPath(); ctx.moveTo(266, 234); ctx.lineTo(254, 262); ctx.lineTo(278, 262); ctx.closePath(); ctx.fill(); ctx.restore(); }
+  K.card(770, 540, 480, 90, C.BLUE, 'Cuidado al recalentar', ['Se calienta primero el tronco: riesgo de colapso', 'por vasodilatación'], seg(t, 19.6, 0.5), 17);
+  K.credit('Gráfico con código propio, sin ilustración externa · cifras del libro (resp-25)');
+}
+
+const SCN = { hipotermia: { f: hipotermia, dur: 30 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); };
+LOAD({});
+</script>
+</body></html>

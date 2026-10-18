@@ -34,11 +34,13 @@ module.exports = {
         { show: ['inf'], note: 'Infección bacteriana aguda',
           say: 'Si esa glándula se infecta, casi siempre por estafilococo dorado, tienes una infección aguda.' },
         { show: ['orz'], note: 'Duele mucho, se resuelve en días',
-          say: 'Y eso es el orzuelo: un absceso agudo, eritematoso y muy doloroso, en la base de una pestaña si es externo, o hacia adentro del tarso si es interno. Duele porque hay bacteria activa.' },
+          say: 'Y eso es el orzuelo: un absceso agudo, eritematoso y muy doloroso, en la base de una pestaña si es externo, o hacia adentro del tarso si es interno. Duele porque hay bacteria activa. Mira este párpado: el nódulo rojo y tenso en el borde, justo en la base de las pestañas.',
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-03/01_orzuelo__amir-oftalmo_p57.jpg', label: 'Orzuelo', at: 'Mira este párpado', credit: 'Manual AMIR Oftalmología, p. 57' } },
         { show: ['obs'], note: 'Retención lipídica, sin infección activa',
           say: 'En cambio, si el conducto de una glándula de Meibomio se tapa, sin que haya bacteria infectando, la secreción se acumula y forma un granuloma.' },
         { show: ['cha'], note: 'No duele porque no hay infección activa',
-          say: 'Eso es el chalazión: un nódulo firme, redondeado, en el espesor del párpado, cubierto por piel que se mueve libre. Fíjate en el contraste: mismo párpado, mismas glándulas, pero uno duele y el otro no, porque uno es infección y el otro es retención.' },
+          say: 'Eso es el chalazión: un nódulo firme, redondeado, en el espesor del párpado, cubierto por piel que se mueve libre. Fíjate en el contraste: mismo párpado, mismas glándulas, pero uno duele y el otro no, porque uno es infección y el otro es retención. Mira este párpado evertido: la zona inflamada de la glándula de Meibomio, sin pus.',
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-03/01_chalazion__kanski_p16.jpg', label: 'Chalazión', at: 'Mira este párpado evertido', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 16" } },
       ],
     },
 
@@ -67,7 +69,8 @@ module.exports = {
       cards: [
         { title: 'Anterior versus posterior', tag: 'Dos formas', kind: 'criteria', items: [
           { t: 'Anterior: escamas en la base de la pestaña', d: 'Seborreica o estafilocócica, con collaretes',
-            say: 'La blefaritis es una inflamación crónica y bilateral del borde palpebral, asociada a dermatitis seborreica y a rosácea. La forma anterior afecta la base de las pestañas: puede ser seborreica, con escamas grasosas, o estafilocócica, con collaretes duros alrededor de cada pestaña.' },
+            say: 'La blefaritis es una inflamación crónica y bilateral del borde palpebral, asociada a dermatitis seborreica y a rosácea. La forma anterior afecta la base de las pestañas: puede ser seborreica, con escamas grasosas, o estafilocócica, con collaretes duros alrededor de cada pestaña. Mira este borde palpebral: enrojecido, con escamas pegadas en la base de las pestañas.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-03/02_blefaritis__amir-oftalmo_p57.jpg', label: 'Blefaritis', at: 'Mira este borde palpebral', credit: 'Manual AMIR Oftalmología, p. 57' } },
           { t: 'Posterior: disfunción de Meibomio', d: 'Secreción espesa como pasta de dientes',
             say: 'La forma posterior es por disfunción de las glándulas de Meibomio: el orificio se tapa con una secreción espesa, como pasta de dientes al exprimir el borde, y eso altera la lágrima y da ojo seco.' },
         ] },
@@ -76,6 +79,46 @@ module.exports = {
             say: 'El pilar del tratamiento, en las dos formas, es la higiene palpebral diaria, con champú neutro de bebé diluido, precedido de compresas tibias.' },
           { t: 'Doxiciclina oral si hay rosácea', d: 'Cien miligramos al día, por 4 a 6 semanas',
             say: 'En casos moderados, o con rosácea asociada, se agrega doxiciclina oral por su efecto sobre la secreción lipídica, durante cuatro a seis semanas.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Pestañas',
+      title: 'Pestañas que rozan la córnea',
+      cards: [
+        { title: 'Dos cuadros parecidos', tag: 'Roce corneal', kind: 'criteria', items: [
+          { t: 'Triquiasis: la hilera normal, mal dirigida', d: 'Tracoma, blefaritis crónica, cicatrices',
+            say: 'Hay pestañas que, en vez de mirar hacia afuera, rozan la córnea. En la triquiasis son las pestañas de la hilera normal, desviadas hacia el globo, típicas del tracoma, de la blefaritis crónica o de las cicatrices.' },
+          { t: 'Distiquiasis: una segunda hilera', d: 'Nace de los orificios de Meibomio',
+            say: 'En la distiquiasis hay una segunda hilera de pestañas que nace de los orificios de las glándulas de Meibomio, congénita o por cicatrización. En los dos casos el paciente consulta por cuerpo extraño, lagrimeo, fotofobia, y puede tener queratitis punteada o úlcera.' },
+        ] },
+        { title: 'Qué haces tú', tag: 'APS y derivación', kind: 'pharma', items: [
+          { t: 'Fluoresceína y lubricación', d: 'Epilación con pinza como medida temporal',
+            say: 'En atención primaria confirmas el daño corneal con lupa y fluoresceína, lubricas con lágrimas artificiales o ungüento y, de forma temporal, epilas con pinza las pestañas ofensoras. Alivia cuatro a seis semanas, hasta que vuelven a crecer.' },
+          { t: 'Derivar si recidivan o dañan la córnea', d: 'Electrólisis, crioterapia, láser o cirugía',
+            say: 'El tratamiento definitivo es del oftalmólogo: electrólisis, crioterapia, láser o cirugía del párpado. La extracción definitiva de las pestañas no corresponde al médico general.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Vía lagrimal',
+      title: 'Epífora: la vía lagrimal tapada',
+      cards: [
+        { title: 'Congénita', tag: 'Dacrioestenosis del recién nacido', kind: 'normal', items: [
+          { t: 'Válvula de Hasner sin abrir', d: 'Epífora y secreción, ojo no inflamado',
+            say: 'Cuando la vía lagrimal se tapa, el signo es la epífora: lágrima constante que rueda por la mejilla, con secreción mucosa matinal. En el recién nacido es la dacrioestenosis, porque la válvula de Hasner no se abrió, y afecta hasta uno de cada cinco. El ojo no está inflamado y, al presionar el saco, refluye secreción.' },
+          { t: 'Masaje de Crigler', d: 'Abre sola antes del año en el 90%',
+            say: 'Se indica el masaje de Crigler: presión firme desde el canto interno hacia abajo, dos a tres veces al día, más limpieza con suero. Antibiótico tópico solo si hay secreción purulenta. Cerca del noventa por ciento se abre sola antes del año; si no, se deriva para sondaje.' },
+        ] },
+        { title: 'Adquirida', tag: 'Adulto', kind: 'criteria', items: [
+          { t: 'Involución del conducto nasolagrimal', d: 'Mujeres mayores, trauma, sinusitis, cirugía',
+            say: 'En el adulto, la obstrucción aparece por involución del conducto, sobre todo en mujeres mayores, o tras traumatismos, sinusitis crónica o cirugía. Da epífora crónica y dacriocistitis a repetición.' },
+          { t: 'Dacriocistorrinostomía', d: 'No sondar a ciegas ni usar antibiótico crónico',
+            say: 'El oftalmólogo la confirma irrigando la vía, y el tratamiento definitivo es la dacriocistorrinostomía, que conecta el saco con la nariz. Evita el sondaje a ciegas y el uso crónico de antibióticos tópicos.' },
         ] },
       ],
     },
@@ -100,7 +143,11 @@ module.exports = {
         { show: ['obs', 'inf'], note: 'Casi siempre sobre una obstrucción crónica',
           say: 'La dacriocistitis aguda es una infección del saco lagrimal, y casi siempre nace sobre una obstrucción crónica del conducto nasolagrimal, ya presente antes del episodio agudo. Los gérmenes son los mismos de siempre: estafilococo dorado y neumococo.' },
         { show: ['cli'], note: 'Localización muy específica: canto interno',
-          say: 'La localización es muy específica y se pregunta mucho: una masa eritematosa, dolorosa, tensa y caliente en el canto interno, la región inferomedial del ojo, con lagrimeo continuo.' },
+          say: 'La localización es muy específica y se pregunta mucho: una masa eritematosa, dolorosa, tensa y caliente en el canto interno, la región inferomedial del ojo, con lagrimeo continuo. Mira estas dos fotos: la tumefacción roja y tensa junto a la nariz, bajo el canto interno.',
+          photos: [
+            { src: 'biblioteca/12_oftalmologia/oftal-03/03_dacriocistitis__amir-oftalmo_p53.jpg', label: 'Dacriocistitis', at: 'Mira estas dos fotos', credit: 'Manual AMIR Oftalmología, p. 53' },
+            { src: 'biblioteca/12_oftalmologia/oftal-03/03_dacriocistitis_alt1__cto-oftalmo_p30.jpg', label: 'Canto interno inflamado', credit: 'Manual CTO Oftalmología 14.ª ed., p. 30' },
+          ] },
         { show: ['ref'], note: 'Confirma el diagnóstico al examen',
           say: 'Y si comprimes con suavidad ese saco, refluye material mucopurulento por el punto lagrimal. Ese hallazgo confirma el diagnóstico en la consulta.' },
         { show: ['atb'], note: 'Tratamiento sistémico oral',
@@ -111,22 +158,59 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Tumores',
+      title: 'Tumores del párpado: la lesión que no cicatriza',
+      cards: [
+        { title: 'Basocelular', tag: 'Más del 90% de los malignos', kind: 'alert', items: [
+          { t: 'Párpado inferior y canto interno', d: 'Nódulo perlado o úlcera de bordes enrollados',
+            say: 'Los tumores palpebrales se sospechan ante una lesión de crecimiento lento que no cicatriza. La mayoría son benignos, pero el carcinoma basocelular es el maligno más frecuente, más del noventa por ciento, y afecta el párpado inferior y el canto interno de adultos mayores con sol. Mira esta lesión: úlcera de centro costroso y bordes sobreelevados, la llamada úlcera rodente. Casi no metastiza, pero invade localmente hacia la órbita.',
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-03/56_carcinoma-basocelular-parpado__kanski_p28.jpg', label: 'Basocelular palpebral', at: 'Mira esta lesión', credit: "+K%'28'+" } },
+        ] },
+        { title: 'Signos de alarma', tag: 'Sospecha de malignidad', kind: 'criteria', items: [
+          { t: 'Madarosis y distorsión del margen', d: 'Ulceración, sangrado, crecimiento progresivo',
+            say: 'Los signos de alarma son la pérdida de pestañas, la madarosis, la distorsión del margen, la ulceración persistente, el sangrado y el crecimiento progresivo. Y un chalazión que recidiva en el mismo sitio en un adulto mayor debe hacerte pensar en un carcinoma de glándulas sebáceas.' },
+        ] },
+        { title: 'Conducta', tag: 'No tratar en APS', kind: 'pharma', items: [
+          { t: 'No cauterizar: fotografiar y derivar', d: 'Biopsia y exéresis con márgenes',
+            say: 'La conducta: no cauterizar ni tratar en atención primaria. Fotografías la lesión, proteges del sol y derivas a oftalmología para biopsia y exéresis con control de márgenes, idealmente cirugía de Mohs.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Tumores',
+      title: 'Tumores de la conjuntiva',
+      cards: [
+        { title: 'Benignos', tag: 'Estables', kind: 'normal', items: [
+          { t: 'Nevo, papiloma, quiste de inclusión', d: 'Papiloma rosado, con vasos en penacho, por VPH',
+            say: 'En la conjuntiva, una masa o placa cerca del limbo puede confundirse con un pterigión. Son benignos el nevo, pigmentado, con quistes internos y estable desde la infancia, el papiloma, una masa rosada con vasos en penacho asociada a virus papiloma humano, y el quiste de inclusión.' },
+        ] },
+        { title: 'Malignos', tag: 'Los que no se pueden perder', kind: 'alert', items: [
+          { t: 'Neoplasia escamosa de superficie', d: 'Placa blanquecina o gelatinosa en el limbo',
+            say: 'Entre los malignos, la neoplasia escamosa de superficie ocular, una placa gelatinosa o blanquecina en el limbo, ligada a radiación ultravioleta, virus papiloma y VIH en adultos jóvenes.' },
+          { t: 'Melanoma y linfoma', d: 'Pigmento que crece; carne de salmón bilateral',
+            say: 'El melanoma, una lesión pigmentada que crece o se vasculariza, y el linfoma, una lesión color carne de salmón en el fondo de saco, a menudo bilateral.' },
+        ] },
+        { title: 'Conducta', tag: 'Derivar', kind: 'pharma', items: [
+          { t: 'Evertir, fotografiar y derivar', d: 'Nunca extirpar en APS',
+            say: 'Los signos de alarma son el crecimiento documentado, los vasos propios, el pigmento nuevo o cambiante y la lesión sobreelevada que invade la córnea. Everte el párpado para ver la extensión, fotografía y deriva. No se extirpa en atención primaria por el riesgo de diseminación.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Lesiones del párpado',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cuatro lesiones, cuatro sitios',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-03/01_orzuelo__amir-oftalmo_p57.jpg', label: 'Orzuelo', credit: 'Manual AMIR Oftalmología, p. 57' },
-        { src: 'biblioteca/12_oftalmologia/oftal-03/03_dacriocistitis__amir-oftalmo_p53.jpg', label: 'Dacriocistitis', credit: 'Manual AMIR Oftalmología, p. 53' },
-        { src: 'biblioteca/12_oftalmologia/oftal-03/02_blefaritis__amir-oftalmo_p57.jpg', label: 'Blefaritis', credit: 'Manual AMIR Oftalmología, p. 57' },
+        { src: 'animaciones/oftal-03/A1_lesiones_parpado.mp4', label: 'Lesiones del párpado', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · capas y rótulos propios' },
       ],
       steps: [
-        { note: 'Doloroso, infeccioso',
-          say: 'El orzuelo es un nódulo en la base de una pestaña, y duele porque es una infección. El chalazión, en cambio, es un nódulo firme e indoloro.' },
-        { note: 'Saco lagrimal inflamado',
-          say: 'La dacriocistitis inflama el saco lagrimal, junto a la nariz, en el canto interno.' },
-        { note: 'Borde palpebral',
-          say: 'Y la blefaritis inflama de forma crónica el borde del párpado, con escamas en la base de las pestañas.' },
+        { note: 'Cada una en su sitio',
+          say: 'Cuatro lesiones del párpado, cada una en su sitio. El orzuelo es un nódulo rojo y doloroso en la base de una pestaña. El chalazión es un nódulo firme, indoloro y sin enrojecimiento. La blefaritis deja escamas en la base de las pestañas. Y la dacriocistitis es una tumefacción roja y tensa en el canto interno, donde nunca se sonda en fase aguda.' },
       ],
     },
 
@@ -147,6 +231,8 @@ module.exports = {
           say: 'Nódulo firme e indoloro, de semanas de evolución: chalazión. La trampa es saltarse el calor local e ir directo al curetaje, cuando lleva menos de dos meses.' },
         { cells: ['Escamas en pestañas, borde palpebral crónico', 'Blefaritis', 'Indicar solo antibiótico, sin higiene diaria'],
           say: 'Escamas en la base de las pestañas, con ardor crónico del borde palpebral: blefaritis. La trampa es indicar solo un colirio antibiótico y olvidar que el pilar es la higiene diaria.' },
+        { cells: ['Úlcera que no cicatriza, madarosis', 'Carcinoma basocelular', 'Cauterizar o tratar en APS'],
+          say: 'Úlcera de borde elevado que no cicatriza, con pérdida de pestañas: carcinoma basocelular. La trampa es cauterizarla o tratarla en atención primaria, cuando corresponde biopsia y exéresis con márgenes.' },
         { cells: ['Masa roja y dolorosa en el canto interno', 'Dacriocistitis aguda', 'Sondar la vía lagrimal de urgencia'],
           say: 'Y masa roja y dolorosa en el canto interno, con reflujo de pus: dacriocistitis aguda, con antibiótico oral. La trampa más peligrosa de esta clase es sondar la vía lagrimal de urgencia, pensando en destaparla de inmediato.' },
       ],
@@ -219,6 +305,156 @@ module.exports = {
         options: 'Las opciones: orzuelo interno agudo, chalazión, carcinoma sebáceo de párpado, dacriocistitis crónica, o quiste de inclusión epidérmica. Piénsalo.',
         answer: 'Es chalazión. Fíjate en el patrón completo: un orzuelo previo que se resolvió, y ahora un nódulo firme, crónico e indoloro. Es exactamente la secuencia que vimos al principio de la clase: la infección aguda deja atrás una obstrucción glandular que se convierte en granuloma. El carcinoma sebáceo sería la trampa solo si este paciente fuera mayor y el chalazión recidivara varias veces con pérdida de pestañas, algo que aquí no ocurre.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.1.002 · Blefaritis",
+      "stem": "Hombre de 60 años, con rosácea, consulta por ardor y sensación de cuerpo extraño en ambos ojos de varios meses, peor al despertar. Al examen hay bordes palpebrales eritematosos y engrosados, con escamas adheridas a la base de las pestañas y orificios de las glándulas de Meibomio obstruidos. Agudeza visual normal.",
+      "question": "¿Cuál es el tratamiento inicial más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibiótico oral por 7 días y alta"
+        },
+        {
+          "letter": "B",
+          "text": "Drenaje quirúrgico de las glándulas de Meibomio"
+        },
+        {
+          "letter": "C",
+          "text": "Colirio de corticoide de alta potencia en forma permanente"
+        },
+        {
+          "letter": "D",
+          "text": "Derivación urgente a oftalmología"
+        },
+        {
+          "letter": "E",
+          "text": "Higiene palpebral diaria con compresas tibias y masaje del borde palpebral, más lágrimas artificiales"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La blefaritis es una inflamación crónica del borde palpebral, asociada a dermatitis seborreica y rosácea. La base del tratamiento es la higiene palpebral diaria: compresas tibias, masaje y limpieza del borde, con lágrimas artificiales. En casos persistentes se agregan antibióticos tópicos, o doxiciclina oral en la disfunción de Meibomio.",
+      "say": {
+        "stem": "Hombre de sesenta años con rosácea, con meses de ardor y sensación de arenilla en ambos ojos, peor al despertar. Los bordes de los párpados están rojos y engrosados, con escamas en la base de las pestañas y las glándulas de Meibomio tapadas. Ve normal.",
+        "question": "¿Cuál es el tratamiento inicial más adecuado?",
+        "options": "Las opciones: antibiótico oral por una semana, drenaje quirúrgico, corticoide tópico permanente, derivación urgente o higiene palpebral diaria con compresas tibias y lágrimas artificiales. Piénsalo.",
+        "answer": "Es la E. La blefaritis es crónica y su pilar es la higiene diaria de los párpados con calor local y masaje. El antibiótico oral tienta, pero una semana no cura una enfermedad crónica; solo se usa en casos persistentes, como complemento de la higiene."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 60",
+      "stem": "Niño de 4 meses consulta por epífora del ojo izquierdo y eritema, que no ha respondido al uso de antibióticos tópicos. Al examen físico se aprecia edema y aumento de volumen de la zona medial (canto interno), con reflujo de secreción al comprimir el saco lagrimal.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glaucoma congénito"
+        },
+        {
+          "letter": "B",
+          "text": "Conjuntivitis bacteriana"
+        },
+        {
+          "letter": "C",
+          "text": "Atresia lagrimal congénita"
+        },
+        {
+          "letter": "D",
+          "text": "Queratitis por Chlamydia trachomatis"
+        },
+        {
+          "letter": "E",
+          "text": "Dacriocele"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La obstrucción congénita del conducto nasolagrimal (membrana de Hasner imperforada) da epífora y secreción con reflujo a la compresión del saco, en un ojo sin otras alteraciones. Se maneja con masaje del saco lagrimal (Crigler) y aseo; la mayoría se resuelve antes del año, y si persiste se indica sondaje. El dacriocele es una masa azulada presente al nacer.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Lactante de cuatro meses con lagrimeo del ojo izquierdo que no mejora con antibióticos, con aumento de volumen en el ángulo interno y salida de secreción al comprimir el saco lagrimal.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: glaucoma congénito, conjuntivitis bacteriana, obstrucción lagrimal congénita, queratitis por clamidia o dacriocele. Piénsalo.",
+        "answer": "Es la C. El lagrimeo con reflujo al comprimir el saco es una obstrucción congénita de la vía lagrimal, que se maneja con masaje y casi siempre se resuelve antes del año. El glaucoma congénito tienta por el lagrimeo, pero agranda y opaca la córnea."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2022 · Pregunta 176",
+      "stem": "Paciente de 70 años consulta por una lesión pruriginosa en el párpado inferior izquierdo, que comenzó como un pequeño nódulo hace 1 año y ha crecido progresivamente. Al examen se observa un nódulo perlado, de bordes elevados, con telangiectasias superficiales y una ulceración central, con pérdida de pestañas en la zona.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Orzuelo"
+        },
+        {
+          "letter": "B",
+          "text": "Chalazión"
+        },
+        {
+          "letter": "C",
+          "text": "Melanoma"
+        },
+        {
+          "letter": "D",
+          "text": "Carcinoma basocelular"
+        },
+        {
+          "letter": "E",
+          "text": "Conjuntivitis bacteriana crónica"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El carcinoma basocelular es el tumor maligno palpebral más frecuente (párpado inferior y canto interno). Se presenta como nódulo perlado con telangiectasias, ulceración central y madarosis, de crecimiento lento. Se deriva para biopsia y exéresis con márgenes. Un chalazión que recidiva o no responde en un adulto mayor también debe biopsiarse.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veintidós. Paciente de setenta años con un nódulo perlado en el párpado inferior, con telangiectasias, úlcera central y pérdida de pestañas, que crece desde hace un año.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: orzuelo, chalazión, melanoma, carcinoma basocelular o conjuntivitis crónica. Piénsalo.",
+        "answer": "Es la D. Un nódulo perlado con telangiectasias, úlcera y pérdida de pestañas es un carcinoma basocelular, el tumor maligno palpebral más común. El chalazión tienta por ser un nódulo palpebral, pero es indoloro, sin úlcera ni pérdida de pestañas."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.5.008 · Extracción de pestañas distiquiásicas",
+      "stem": "Mujer de 60 años con sensación de cuerpo extraño crónico y ojo rojo derecho. Al examen con lupa se observan 3 pestañas que nacen desde la línea de las glándulas de Meibomio, dirigidas hacia el globo ocular, rozando la córnea, que muestra erosiones puntiformes con fluoresceína.",
+      "question": "¿Cuál es el manejo inicial más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antibiótico tópico crónico"
+        },
+        {
+          "letter": "B",
+          "text": "Cortar las pestañas con tijera a ras de piel"
+        },
+        {
+          "letter": "C",
+          "text": "Corticoide tópico"
+        },
+        {
+          "letter": "D",
+          "text": "Parche ocular permanente"
+        },
+        {
+          "letter": "E",
+          "text": "Depilación (extracción) de las pestañas aberrantes con pinza y lubricación; derivar para tratamiento definitivo (electrólisis, crioterapia) si recurren"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La distiquiasis (pestañas que nacen de los orificios de las glándulas de Meibomio) roza la córnea y causa erosiones, úlceras y leucomas. El manejo inicial es depilar con pinza bajo lupa y lubricar; como vuelven a crecer en semanas, el tratamiento definitivo destruye el folículo (electrólisis, crioterapia o cirugía). Cortarlas deja una punta rígida dañina.",
+      "say": {
+        "stem": "Mujer de sesenta años con roce crónico del ojo derecho por tres pestañas que nacen desde la línea de glándulas de Meibomio y rozan la córnea.",
+        "question": "¿Cuál es el manejo inicial?",
+        "options": "Las opciones: antibiótico crónico, cortarlas a ras, corticoide tópico, parche permanente o depilar las pestañas aberrantes con pinza y lubricar. Piénsalo.",
+        "answer": "Es la E. Se extraen con pinza y se lubrica, derivando para tratamiento definitivo si vuelven a crecer. Cortarlas tienta por ser fácil, pero deja una punta rígida que daña aún más la córnea."
+      }
     },
 
     {

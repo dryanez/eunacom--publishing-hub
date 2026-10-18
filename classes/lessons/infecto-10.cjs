@@ -82,7 +82,8 @@ module.exports = {
       cards: [
         { title: 'Radiografía', tag: 'Alas de mariposa', kind: 'criteria', items: [
           { t: 'Infiltrado intersticial bilateral', d: 'Perihiliar, difuso, en alas de mariposa',
-            say: 'En la radiografía de tórax vas a ver infiltrados intersticiales bilaterales, perihiliares y difusos, con la imagen en alas de mariposa. Es bilateral y simétrico, no un lóbulo condensado.' },
+            say: 'En la radiografía de tórax vas a ver infiltrados intersticiales bilaterales, perihiliares y difusos, con la imagen en alas de mariposa. Mira esta radiografía. Es bilateral y simétrico, no un lóbulo condensado.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-10/06_neumonia-por-p-jirovecii-rx__amir-infecto_p152.jpg', label: 'Pneumocystis', at: 'Mira esta radiografía', credit: 'Manual AMIR Infecciosas, p. 152' } },
         ] },
         { title: 'Laboratorio', tag: 'Apoya el diagnóstico', kind: 'key', items: [
           { t: 'LDH muy elevada', d: 'Más de 400–500 UI/L',
@@ -93,6 +94,9 @@ module.exports = {
         { title: 'El paciente', tag: 'Contexto', kind: 'alert', items: [
           { t: 'Joven enflaquecido', d: 'VIH no conocido o abandono de TARV',
             say: 'Y ojo con el contexto. Muchas veces el enunciado no dice VIH: te muestra un joven enflaquecido, con semanas de tos seca y disnea. Esa combinación ya te tiene que hacer pensar en un VIH que está debutando con un Pneumocystis.' },
+          { t: 'Lesiones violáceas en piel o mucosas', d: 'Sarcoma de Kaposi: otra pista de VIH',
+            say: 'Otra pista de un VIH avanzado es la piel. Mira estas lesiones violáceas: es el sarcoma de Kaposi, que aparece en piel y mucosas.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-10/01_sarcoma-de-kaposi__amir-infecto_p157.jpg', label: 'Sarcoma de Kaposi', at: 'Mira estas lesiones', credit: 'Manual AMIR Infecciosas, p. 157' } },
         ] },
       ],
     },
@@ -145,7 +149,8 @@ module.exports = {
           { t: 'Múltiples lesiones con realce en anillo', d: 'Con edema perilesional intenso',
             say: 'La tomografía o la resonancia con contraste muestran múltiples lesiones nodulares redondeadas, con realce periférico en anillo y un edema intenso alrededor.' },
           { t: 'Ganglios basales', d: 'Y unión córtico-subcortical',
-            say: 'Y tienen una ubicación preferida: los ganglios basales y la unión córtico subcortical. Múltiples anillos en los ganglios basales de un paciente con VIH avanzado: eso es toxoplasmosis hasta que se demuestre lo contrario.' },
+            say: 'Y tienen una ubicación preferida: los ganglios basales y la unión córtico subcortical. Mira estas lesiones con anillo en los ganglios basales: es un paciente con VIH avanzado: eso es toxoplasmosis hasta que se demuestre lo contrario.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-10/02_toxoplasmosis-cerebral-tc_alt1__amir-infecto_p154.jpg', label: 'Toxoplasmosis cerebral', at: 'Mira estas lesiones', credit: 'Manual AMIR Infecciosas, p. 154' } },
         ] },
       ],
     },
@@ -176,7 +181,8 @@ module.exports = {
         { show: ['q', 'tox'], note: 'Si mejora, era toxoplasma',
           say: 'A los catorce días se reevalúa. Si las lesiones se reducen de tamaño, el diagnóstico queda confirmado, y se sigue tratando.' },
         { show: ['lin'], note: 'Si no mejora, el diagnóstico cambia',
-          say: 'Pero si no hay mejoría clínica ni radiológica, la sospecha cambia al linfoma primario del sistema nervioso central, que se asocia al virus de Epstein Barr.' },
+          say: 'Pero si no hay mejoría clínica ni radiológica, la sospecha cambia al linfoma primario del sistema nervioso central, que se asocia al virus de Epstein Barr. Mira esta lesión que capta contraste, señalada por la flecha.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-10/03_linfoma-snc-vih__amir-infecto_p155.jpg', label: 'Linfoma primario del SNC', at: 'Mira esta lesión', credit: 'Manual AMIR Infecciosas, p. 155' } },
         { show: ['bio'], note: 'La biopsia va después',
           say: 'Y recién ahí se indica la biopsia cerebral estereotáxica. Es el orden que se pregunta: primero tratar, después biopsiar si no hay respuesta.' },
         { show: ['tra'], note: 'La biopsia de entrada es la trampa',
@@ -199,7 +205,8 @@ module.exports = {
           { t: 'Presión de apertura > 30 cm H2O', d: 'Muy elevada',
             say: 'En la punción lumbar, lo primero que llama la atención es la presión de apertura, muy elevada, sobre treinta centímetros de agua.' },
           { t: 'Tinta china y antígeno criptocócico', d: 'Levaduras con halo · CrAg en sangre y LCR',
-            say: 'Y el diagnóstico se hace con la tinta china, que muestra levaduras rodeadas de un halo refringente, que es la cápsula, y con el antígeno criptocócico en sangre y en líquido. Tinta china positiva es criptococo: esa asociación se pregunta.' },
+            say: 'Y el diagnóstico se hace con la tinta china, que, como ves aquí, muestra levaduras rodeadas de un halo refringente, que es la cápsula, y con el antígeno criptocócico en sangre y en líquido. Tinta china positiva es criptococo: esa asociación se pregunta.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-10/07_tinta-china-criptococo__cto-infecto_p142.jpg', label: 'Criptococo con tinta china', at: 'como ves aquí', credit: 'Manual CTO Infecciosas 14.ª ed., p. 142' } },
         ] },
         { title: 'Tratamiento', tag: 'Por fases', kind: 'pharma', items: [
           { t: 'Inducción 2 semanas', d: 'Anfotericina B liposomal + flucitosina',
@@ -228,6 +235,76 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Candidiasis y diarrea',
+      title: 'Candidiasis y diarrea en el VIH',
+      cards: [
+        { title: 'Candidiasis', tag: 'Oral y esofágica', kind: 'key', items: [
+          { t: 'Oral: placas blancas desprendibles', d: 'CD4 bajo 300 · nistatina o fluconazol',
+            say: 'La candidiasis oral, el muguet, mira estas placas blanquecinas que se desprenden sobre mucosa roja, frecuentes con CD cuatro bajo trescientos. Se trata con nistatina o fluconazol por una a dos semanas.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-10/05_muguet-candidiasis-oral_1__amir-derma_p65.jpg', label: 'Candidiasis oral', at: 'mira estas placas', credit: 'Manual AMIR Dermatología, p. 65' } },
+          { t: 'Esofágica: odinofagia y disfagia', d: 'Define etapa SIDA · fluconazol 14–21 días',
+            say: 'La esofágica da dolor al tragar y disfagia retroesternal, y define etapa SIDA. Se trata con fluconazol de catorce a veintiún días; si no responde, endoscopía con biopsia para descartar Candida resistente, citomegalovirus o herpes.' },
+        ] },
+        { title: 'Diarrea', tag: 'Inmunosuprimido', kind: 'alert', items: [
+          { t: 'Cryptosporidium, Cystoisospora, microsporidios', d: 'Acuosa crónica, CD4 bajo 100–200',
+            say: 'La diarrea crónica acuosa con CD cuatro muy bajo hace pensar en Cryptosporidium, Cystoisospora y microsporidios. Se buscan con parasitológico y tinción de Ziehl-Neelsen modificada.' },
+          { t: 'CMV: colitis con hematoquezia', d: 'CD4 bajo 50 · ganciclovir',
+            say: 'Si hay dolor y sangre, CD cuatro bajo cincuenta, es citomegalovirus: mira esta colitis, con úlceras en la mucosa del colon, tratada con ganciclovir.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-10/04_colitis-por-cmv__cto-infecto_p76.jpg', label: 'Colitis por citomegalovirus', at: 'mira esta colitis', credit: 'Manual CTO Infecciosas 14.ª ed., p. 76' } },
+          { t: 'El tratamiento de fondo es la TARV', d: 'Cotrimoxazol para Cystoisospora',
+            say: 'Y el tratamiento de fondo de la criptosporidiosis es la terapia antirretroviral, que restaura la inmunidad. Cotrimoxazol cubre la Cystoisospora.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'CMV y criptococo',
+      title: 'Antigenemia de CMV y antígeno criptocócico',
+      cards: [
+        { title: 'Antigenemia de CMV', tag: 'Interpretar', kind: 'criteria', items: [
+          { t: 'Detecta pp65 en leucocitos', d: 'Células positivas por 200.000 leucocitos',
+            say: 'La antigenemia de citomegalovirus detecta la proteína pe pe sesenta y cinco en los leucocitos e indica replicación activa. Sirve para monitorizar trasplantados y pacientes con VIH y CD cuatro bajo cincuenta, y para iniciar ganciclovir antes de la enfermedad.' },
+          { t: 'Infección no es enfermedad', d: 'Retinitis o colitis: clínica o biopsia',
+            say: 'La trampa: infección no es enfermedad. Una antigenemia positiva no basta para diagnosticar retinitis, colitis o neumonitis; eso exige clínica, fondo de ojo o biopsia con células en ojo de búho.' },
+          { t: 'Ganciclovir 5 mg/kg c/12 h EV', d: '14 a 21 días',
+            say: 'El tratamiento es ganciclovir endovenoso, cinco miligramos por kilo cada doce horas, por catorce a veintiún días.' },
+        ] },
+        { title: 'Antígeno de criptococo', tag: 'Más sensible que la tinta', kind: 'alert', items: [
+          { t: 'Sensibilidad sobre 95 %', d: 'Tinta china: 70–90 %, no descarta',
+            say: 'El antígeno criptocócico tiene sensibilidad sobre noventa y cinco por ciento. La tinta china, con levaduras encapsuladas y halo, es menos sensible y un resultado negativo no descarta.' },
+          { t: 'Antígeno sérico + CD4 bajo 100: punción lumbar', d: 'Presión sobre 25 cmH₂O: punciones evacuadoras',
+            say: 'Si el antígeno en sangre es positivo con CD cuatro bajo cien, se hace punción lumbar aunque no haya síntomas neurológicos. Y si la presión de apertura supera veinticinco, se hacen punciones evacuadoras.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Prevención',
+      title: 'Prevenir oportunistas y proteger al inmunosuprimido',
+      cards: [
+        { title: 'En el VIH', tag: 'Profilaxis', kind: 'pharma', items: [
+          { t: 'Cotrimoxazol con CD4 bajo 200', d: 'Pneumocystis y toxoplasma (CD4 bajo 100)',
+            say: 'En el VIH, cotrimoxazol diario cuando el CD cuatro baja de doscientos o hay candidiasis oral. Previene Pneumocystis y, con IgG positiva, toxoplasmosis cerebral. Se suspende con CD cuatro sobre doscientos por más de tres meses de terapia.' },
+          { t: 'Isoniazida si PPD ≥ 5 mm', d: 'Descartada TBC activa · 6–9 meses',
+            say: 'Isoniazida si el PPD es de cinco milímetros o más, o hay contacto bacilífero, habiendo descartado tuberculosis activa.' },
+          { t: 'Vacunas inactivadas', d: 'Evitar vivas con CD4 bajo 200',
+            say: 'Se vacuna con inactivadas, neumococo, influenza, hepatitis B y VPH, y se evitan las vivas con CD cuatro bajo doscientos.' },
+        ] },
+        { title: 'Inmunosuprimido en general', tag: 'Neutropenia, trasplante', kind: 'key', items: [
+          { t: 'Evitar obras y mascotas de riesgo', d: 'Aspergillus, toxoplasma, Salmonella',
+            say: 'En neutropenia, trasplante o quimioterapia: evitar contacto con enfermos y con obras de construcción por las esporas de Aspergillus, y cuidado con gatos y reptiles.' },
+          { t: 'Alimentos cocidos y lácteos pasteurizados', d: 'Listeria',
+            say: 'Alimentos bien cocidos y lácteos pasteurizados, por la Listeria.' },
+          { t: 'Aislamiento protector', d: 'En neutropenia profunda',
+            say: 'Profilaxis farmacológica según el riesgo y aislamiento protector en neutropenia profunda.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -238,49 +315,6 @@ module.exports = {
       steps: [
         { note: 'Doscientos, cien y cincuenta',
           say: 'Sin tratamiento, los CD cuatro caen año a año. Bajo doscientos aparece el Pneumocystis; bajo cien, toxoplasma y criptococo; bajo cincuenta, Mycobacterium avium y citomegalovirus.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Infecciones oportunistas en el VIH',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-10/01_sarcoma-de-kaposi__amir-infecto_p157.jpg', label: 'Sarcoma de Kaposi', credit: 'Manual AMIR Infecciosas, p. 157' },
-        { src: 'biblioteca/07_infectologia/infecto-10/02_toxoplasmosis-cerebral-tc_alt1__amir-infecto_p154.jpg', label: 'Toxoplasmosis cerebral', credit: 'Manual AMIR Infecciosas, p. 154' },
-        { src: 'biblioteca/07_infectologia/infecto-10/05_muguet-candidiasis-oral_1__amir-derma_p65.jpg', label: 'Candidiasis oral', credit: 'Manual AMIR Dermatología, p. 65' },
-        { src: 'biblioteca/07_infectologia/infecto-10/06_neumonia-por-p-jirovecii-rx__amir-infecto_p152.jpg', label: 'Pneumocystis', credit: 'Manual AMIR Infecciosas, p. 152' },
-      ],
-      steps: [
-        { note: 'Lesiones violáceas',
-          say: 'El sarcoma de Kaposi da lesiones violáceas en la piel y mucosas.' },
-        { note: 'Lesiones con anillo',
-          say: 'La toxoplasmosis cerebral da varias lesiones con anillo, como estas en los ganglios basales, con CD cuatro bajo cien.' },
-        { note: 'Placas blancas que se desprenden',
-          say: 'El muguet son placas blancas que se desprenden con la paleta.' },
-        { note: 'Infiltrado intersticial bilateral',
-          say: 'Y la neumonía por Pneumocystis da un infiltrado intersticial bilateral, con CD cuatro bajo doscientos.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-10/03_linfoma-snc-vih__amir-infecto_p155.jpg', label: 'Linfoma primario del SNC en VIH', credit: 'Manual AMIR Infecciosas, p. 155' },
-        { src: 'biblioteca/07_infectologia/infecto-10/04_colitis-por-cmv__cto-infecto_p76.jpg', label: 'Colitis por citomegalovirus', credit: 'Manual CTO Infecciosas 14.ª ed., p. 76' },
-        { src: 'biblioteca/07_infectologia/infecto-10/07_tinta-china-criptococo__cto-infecto_p142.jpg', label: 'Criptococo con tinta china', credit: 'Manual CTO Infecciosas 14.ª ed., p. 142' },
-      ],
-      steps: [
-        { note: 'Linfoma primario del SNC en VIH',
-          say: 'Linfoma primario del sistema nervioso central en un paciente con VIH: lesión que capta contraste, señalada por la flecha.' },
-        { note: 'Colitis por citomegalovirus',
-          say: 'Colitis por citomegalovirus: úlceras en la mucosa del colon.' },
-        { note: 'Levaduras con halo: criptococo',
-          say: 'Y esta es la tinta china: levaduras rodeadas de un halo claro, que es la cápsula. Tinta china positiva es criptococo, con CD cuatro bajo cien.' },
       ],
     },
 
@@ -467,6 +501,156 @@ module.exports = {
         options: 'Las opciones son: Pseudomonas; Aspergillus; Staphylococcus aureus; Candida; o Mycobacterium tuberculosis. Piénsalo.',
         answer: 'Es la B, Aspergillus. Paciente inmunosuprimido por quimioterapia, con una masa densa rodeada de un halo en la tomografía: es la aspergilosis pulmonar clásica. La tuberculosis es el distractor, porque también da hemoptisis, pero la imagen de una masa con halo en un paciente en quimioterapia apunta al hongo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.1.005 · Candidiasis oral y esofágica",
+      "stem": "Un hombre de 34 años con VIH, CD4 de 90 células/mm³ y sin terapia antirretroviral, consulta por odinofagia y disfagia de 1 semana. Al examen tiene placas blanquecinas en la mucosa oral que se desprenden con un bajalenguas.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nistatina tópica"
+        },
+        {
+          "letter": "B",
+          "text": "Endoscopía con biopsia antes de cualquier tratamiento"
+        },
+        {
+          "letter": "C",
+          "text": "Aciclovir endovenoso"
+        },
+        {
+          "letter": "D",
+          "text": "Ganciclovir"
+        },
+        {
+          "letter": "E",
+          "text": "Fluconazol oral"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Muguet más odinofagia en un paciente con VIH y CD4 bajo 200 es, con alta probabilidad, candidiasis esofágica. Se trata empíricamente con fluconazol oral por 14 a 21 días; la endoscopía se reserva si no mejora en pocos días, para buscar CMV o herpes. La nistatina tópica solo sirve en la candidiasis oral leve.",
+      "say": {
+        "stem": "Un hombre de treinta y cuatro años con VIH y CD cuatro de noventa, sin terapia, tiene odinofagia y disfagia, con placas blancas en la boca que se desprenden.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: nistatina tópica, endoscopía antes de tratar, aciclovir endovenoso, ganciclovir o fluconazol oral. Piénsalo.",
+        "answer": "Es la E. Muguet con odinofagia en VIH avanzado es candidiasis esofágica y se trata empíricamente con fluconazol. La nistatina tienta, pero solo sirve en la candidiasis oral leve, no en la esofágica."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.4.004 · Deteccción de antígeno de Cryptococcus en LCR y test de tinta china",
+      "stem": "Un hombre de 38 años con VIH sin tratamiento y CD4 de 40 células/mm³ presenta cefalea progresiva de 2 semanas, fiebre baja y vómitos, sin signos focales. La TAC de encéfalo es normal. La punción lumbar muestra presión de apertura de 35 cmH2O, 20 células/mm³ de predominio linfocitario, glucosa baja y proteínas levemente elevadas.",
+      "question": "¿Cuál es el examen más sensible y específico para confirmar el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antígeno de Cryptococcus en LCR"
+        },
+        {
+          "letter": "B",
+          "text": "Tinta china en LCR"
+        },
+        {
+          "letter": "C",
+          "text": "Gram de LCR"
+        },
+        {
+          "letter": "D",
+          "text": "ADA en LCR"
+        },
+        {
+          "letter": "E",
+          "text": "Cultivo de Koch"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Meningitis subaguda con hipertensión intracraneana en VIH con CD4 bajo 100 sugiere criptococosis. El antígeno criptocócico en LCR (o suero) tiene sensibilidad y especificidad sobre 95%, superior a la tinta china (sensibilidad cercana a 70-80%). Se trata con anfotericina B más flucitosina y punciones evacuadoras si la presión está elevada.",
+      "say": {
+        "stem": "Un hombre de treinta y ocho años con VIH y CD cuatro de cuarenta tiene cefalea progresiva, fiebre baja y vómitos. La punción lumbar muestra presión de apertura muy alta, pocas células linfocitarias y glucosa baja.",
+        "question": "¿Qué examen es el más sensible y específico para confirmar el diagnóstico más probable?",
+        "options": "Las opciones: antígeno de Cryptococcus en líquido cefalorraquídeo, tinta china, Gram, ADA o cultivo de Koch. Piénsalo.",
+        "answer": "Es la A. Es una criptococosis meníngea y el antígeno en líquido cefalorraquídeo es el examen más sensible y específico. La tinta china tienta por ser el clásico, pero se le escapa una parte importante de los casos."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.1.012 · Diarrea en inmunosuprimidos",
+      "stem": "Hombre de 34 años con infección por VIH sin tratamiento, con CD4 de 45 células/mm3, consulta por diarrea acuosa abundante de 6 semanas, sin sangre, y baja de peso de 7 kg. El coprocultivo y el examen parasitológico seriado habitual de deposiciones son negativos.",
+      "question": "¿Cuál es el examen más útil para continuar el estudio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Elastasa fecal"
+        },
+        {
+          "letter": "B",
+          "text": "Test de hidrógeno espirado"
+        },
+        {
+          "letter": "C",
+          "text": "Anticuerpos antitransglutaminasa"
+        },
+        {
+          "letter": "D",
+          "text": "Sangre oculta en deposiciones"
+        },
+        {
+          "letter": "E",
+          "text": "Tinción de Ziehl-Neelsen modificada en deposiciones"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Con CD4 bajo 100, la diarrea crónica acuosa sugiere protozoos oportunistas (Cryptosporidium, Cystoisospora, Cyclospora), que no se ven en el parasitológico habitual y requieren tinción de Ziehl-Neelsen modificada. El tratamiento clave es iniciar TARV. Si el estudio es negativo, sigue la colonoscopía con biopsias buscando citomegalovirus o micobacterias.",
+      "say": {
+        "stem": "Hombre de treinta y cuatro años con VIH sin tratamiento y CD cuatro de cuarenta y cinco, con diarrea acuosa de seis semanas. Coprocultivo y parasitológico habitual negativos.",
+        "question": "¿Qué examen pides?",
+        "options": "Las opciones: elastasa fecal, test de hidrógeno espirado, antitransglutaminasa, sangre oculta o Ziehl-Neelsen modificado en deposiciones. Piénsalo.",
+        "answer": "Es la E. Con inmunosupresión avanzada hay que buscar Cryptosporidium y Cystoisospora, que solo se ven con Ziehl-Neelsen modificado. La antitransglutaminasa busca celiaquía, que no explica este contexto."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.3.010 · Prevención de infecciones con énfasis en inmunosuprimidos",
+      "stem": "Mujer de 38 años con diagnóstico reciente de infección por VIH, asintomática, con CD4 de 140 células/mm3 e IgG para Toxoplasma positiva. Inicia terapia antirretroviral.",
+      "question": "¿Cuál es la profilaxis más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No requiere profilaxis hasta que el CD4 baje de 50"
+        },
+        {
+          "letter": "B",
+          "text": "Fluconazol diario"
+        },
+        {
+          "letter": "C",
+          "text": "Azitromicina semanal"
+        },
+        {
+          "letter": "D",
+          "text": "Aciclovir diario"
+        },
+        {
+          "letter": "E",
+          "text": "Cotrimoxazol diario"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Con CD4 bajo 200 se indica profilaxis primaria de Pneumocystis jirovecii con cotrimoxazol, que con CD4 bajo 100 y Toxoplasma IgG positivo también previene la toxoplasmosis cerebral. Se suspende cuando el CD4 se mantiene sobre 200 con TARV. Azitromicina para MAC ya no se indica si se inicia TARV, y fluconazol y aciclovir no son profilaxis primaria rutinaria.",
+      "say": {
+        "stem": "Mujer de treinta y ocho años con VIH recién diagnosticado y CD cuatro de ciento cuarenta, que inicia antirretrovirales.",
+        "question": "¿Qué profilaxis indicas?",
+        "options": "Las opciones: ninguna hasta CD cuatro bajo cincuenta, fluconazol, azitromicina, aciclovir o cotrimoxazol. Piénsalo.",
+        "answer": "Es la E. Cotrimoxazol, porque con CD cuatro bajo doscientos se previene Pneumocystis. La azitromicina se asociaba a CD cuatro muy bajo para micobacterias, y hoy no se indica si inicia antirretrovirales."
+      }
     },
 
     {

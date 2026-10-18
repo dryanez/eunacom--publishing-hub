@@ -100,3 +100,55 @@ function withFigRefs(c, spec) {
 }
 
 module.exports = { autoFigSpec, withFigRefs };
+
+/* ── Capa «atlas»: fotos verificadas del atlas 392 (books/data/atlas_fotos_verificadas.json) ──
+ * Cada foto va dentro del texto, justo después del párrafo que habla de ella. Solo pie de foto.
+ * Se registran en el spec bajo la clave «@atlas:<tema>» para que el compilador las comprima;
+ * figureBlock no las ve. FIG_ATLAS=0 la desactiva. */
+const ATLAS_JSON = path.join(__dirname, '..', 'data', 'atlas_fotos_verificadas.json');
+function mergeAtlas(data, spec) {
+  if (process.env.FIG_ATLAS === '0' || !fs.existsSync(ATLAS_JSON)) return spec;
+  const atlas = JSON.parse(fs.readFileSync(ATLAS_JSON, 'utf8'));
+  // fotos nuevas que cada agente deja en books/data/atlas_add/<libro>.json (se fusionan al final)
+  const ADD = path.join(__dirname, '..', 'data', 'atlas_add');
+  if (fs.existsSync(ADD)) for (const f of fs.readdirSync(ADD).filter(f => f.endsWith('.json'))) atlas.push(...JSON.parse(fs.readFileSync(path.join(ADD, f), 'utf8')));
+  const out = { ...spec };
+  for (const c of data) {
+    const cid = c.classId || c.id; if (!cid) continue;
+    const items = [];
+    for (const a of atlas.filter(a => a.clases.includes(cid))) {
+      const p = path.join(MEDIA, a.file);
+      if (fs.existsSync(p)) items.push({ file: 'atlas/' + a.file, path: p, cap: a.cap, kw: `${a.cap} ${a.desc}` });
+    }
+    if (items.length) out['@atlas:' + c.topicLabel] = { items };
+  }
+  return out;
+}
+
+/* inserta cada foto del atlas tras el párrafo con más palabras en común con su pie/descripción */
+function withAtlasFigs(c, spec, figMap) {
+  if (!spec || !c.contentSections) return c.contentSections;
+  const secs = c.contentSections.map(s => ({ ...s, paragraphs: [...(s.paragraphs || [s.text])] }));
+  const paras = [];
+  secs.forEach((s, si) => s.paragraphs.forEach((p, pi) => paras.push({ si, pi, w: new Set(words(s.subhead + ' ' + p)) })));
+  if (!paras.length) return c.contentSections;
+  const after = new Map();
+  spec.items.forEach(it => {
+    const src = figMap.get(it.file);
+    if (!src) return;
+    const kw = words(it.kw);
+    let best = paras[paras.length - 1], score = 0;
+    paras.forEach(pp => { const n = kw.filter(w => pp.w.has(w)).length; if (n > score) { score = n; best = pp; } });
+    const k = `${best.si}:${best.pi}`;
+    if (!after.has(k)) after.set(k, []);
+    after.get(k).push(`<figure class="infig"><img src="${src}" alt=""><figcaption>${it.cap}</figcaption></figure>`);
+  });
+  const res = secs.map(s => ({ ...s, paragraphs: [] }));
+  secs.forEach((s, si) => s.paragraphs.forEach((p, pi) => {
+    res[si].paragraphs.push(p);
+    (after.get(`${si}:${pi}`) || []).forEach(f => res[si].paragraphs.push(f));
+  }));
+  return res;
+}
+module.exports.mergeAtlas = mergeAtlas;
+module.exports.withAtlasFigs = withAtlasFigs;

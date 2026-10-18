@@ -43,7 +43,8 @@ module.exports = {
       cards: [
         { title: "Definición de fractura por bajo impacto", tag: "Caída desde la propia altura o espontánea", kind: "alert", items: [
           { t: "Traumatismo menor en sitios centinela", d: "Cadera, vértebra, radio distal o húmero proximal",
-            say: "Esta es la regla de oro que jamás debes olvidar: toda fractura producida por un traumatismo de bajo impacto, como tropezar y caer desde la propia altura al caminar, establece de forma automática e inmediata el diagnóstico clínico de osteoporosis establecida." },
+            say: "Esta es la regla de oro que jamás debes olvidar: toda fractura producida por un traumatismo de bajo impacto, como tropezar y caer desde la propia altura al caminar, establece de forma automática e inmediata el diagnóstico clínico de osteoporosis establecida. Mira esta radiografía: el cuello del fémur fracturado, justo donde apunta la flecha.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-24/02_rx_fractura_cuello_femur__commons.jpg', label: 'Fractura de cuello femoral', at: 'Mira esta radiografía', credit: 'Wikimedia Commons «Cdm hip fracture 343.jpg», CC BY-SA 3.0, Booyabazooka' } },
           { t: "Cero necesidad de densitometría previa", d: "El tratamiento antirresortivo no debe diferirse",
             say: "En un paciente anciano con fractura de cadera o aplastamiento vertebral por caída de nivel no es necesario ni correcto posponer el inicio del tratamiento a la espera de una densitometría ósea. Se inicia terapia antirresortiva farmacológica de inmediato." },
         ] },
@@ -51,7 +52,9 @@ module.exports = {
           { t: "Fractura de cadera: Máxima morbimortalidad", d: "Mortalidad superior al veinte por ciento al primer año",
             say: "La fractura del cuello femoral o pertrocantérea es la complicación más devastadora, con una mortalidad de hasta un treinta por ciento al año por inmovilidad e infecciones, exigiendo cirugía de artroplastía precoz y profilaxis secundaria estricta." },
           { t: "Fracturas vertebrales asintomáticas", d: "Pérdida de estatura y cifosis progresiva",
-            say: "Hasta dos tercios de las fracturas vertebrales son silentes y no duelen de forma aguda. Se manifiestan clínicamente por pérdida insidiosa de estatura corporal mayor a tres o cuatro centímetros y acentuación progresiva de la cifosis dorsal senil." },
+            say: "Hasta dos tercios de las fracturas vertebrales son silentes y no duelen de forma aguda. Se manifiestan clínicamente por pérdida insidiosa de estatura corporal mayor a tres o cuatro centímetros y acentuación progresiva de la cifosis dorsal senil. Mira esta radiografía de perfil: la columna dorsal curvada hacia adelante, con vértebras aplastadas. Y en esta otra, la misma cifosis marcada.",
+          photos: [{ src: 'biblioteca/08_reumatologia/reuma-24/01_aplastamientos-vertebrales__amir-reuma_p88.jpg', label: 'Aplastamientos vertebrales', at: 'Mira esta radiografía de perfil', credit: 'Manual AMIR Reumatología, p. 88' },
+            { src: 'biblioteca/08_reumatologia/reuma-24/01_aplastamientos-vertebrales_alt1__cto-reuma_p14.jpg', label: 'Cifosis dorsal', at: 'Y en esta otra', credit: 'Manual CTO Reumatología 14.ª ed., p. 14' }] },
         ] },
       ],
     },
@@ -65,7 +68,8 @@ module.exports = {
           { t: "Criterio de la OMS en mujeres posmenopáusicas", d: "Desviaciones estándar respecto al pico de masa ósea",
             say: "La densitometría ósea de doble fotón o DEXA evalúa la columna lumbar y el fémur proximal. En mujeres posmenopáusicas y hombres mayores de cincuenta años se utiliza el índice T, que compara la densidad mineral con el pico de masa de un adulto joven sano." },
           { t: "Rangos diagnósticos operativos de la OMS", d: "Normal, osteopenia y osteoporosis por corte de menos dos coma cinco",
-            say: "Normal corresponde a un índice T mayor o igual a menos uno coma cero. Osteopenia es entre menos uno coma cero y menos dos coma cinco. Osteoporosis se define por un índice T menor o igual a menos dos coma cinco desviaciones estándar en columna o cadera." },
+            say: "Normal corresponde a un índice T mayor o igual a menos uno coma cero. Osteopenia es entre menos uno coma cero y menos dos coma cinco. Osteoporosis se define por un índice T menor o igual a menos dos coma cinco desviaciones estándar en columna o cadera. Este esquema te ayuda a leer el índice T.",
+          photo: { src: 'biblioteca/08_reumatologia/reuma-24/S1_dexa-t-score__propio.svg', label: 'Cómo leer el índice T', at: 'Este esquema', credit: 'Dibujo propio (esquema)' } },
         ] },
         { title: "El índice Z-score en jóvenes y causas secundarias", tag: "Comparación con la misma edad cronológica", kind: "key", items: [
           { t: "Uso de Z-score en premenopáusicas y menores de 50 años", d: "Baja masa ósea para la edad cronológica si es menor a menos dos",
@@ -192,26 +196,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Osteoporosis',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-24/01_aplastamientos-vertebrales__amir-reuma_p88.jpg', label: 'Aplastamientos vertebrales', credit: 'Manual AMIR Reumatología, p. 88' },
-        { src: 'biblioteca/08_reumatologia/reuma-24/02_rx_fractura_cuello_femur__commons.jpg', label: 'Fractura de cuello femoral', credit: 'Wikimedia Commons «Cdm hip fracture 343.jpg», CC BY-SA 3.0, Booyabazooka' },
-        { src: 'biblioteca/08_reumatologia/reuma-24/S1_dexa-t-score__propio.svg', label: 'Cómo leer el índice T', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Fracturas por fragilidad',
-          say: 'Estos aplastamientos vertebrales son fracturas por fragilidad. Con una fractura así, el diagnóstico es osteoporosis aunque la densitometría no llegue al corte.' },
-        { note: 'Cadera: tratar sin esperar la densitometría',
-          say: 'Y esta es una fractura del cuello del fémur, donde apunta la flecha. Una fractura de cadera por caída de la propia altura es osteoporosis, y se trata sin esperar la densitometría.' },
-        { note: 'Índice T: osteopenia y osteoporosis',
-          say: 'Este esquema enseña a leer la densitometría. Un índice T menor o igual a menos dos coma cinco es osteoporosis; entre menos uno y menos dos coma cinco, osteopenia.' },
-      ],
-    },
-
-    {
       type: "quiz",
       kicker: "Caso clínico",
       title: "Caso clínico tipo EUNACOM",
@@ -297,6 +281,44 @@ module.exports = {
         options: "Las opciones: alendronato oral a dosis baja, ácido zoledrónico en infusión lenta, denosumab anticuerpo monoclonal anti-RANKL cada seis meses, calcitriol oral, o ibandronato. Piénsalo.",
         answer: "Es la C. Denosumab no tiene excreción renal y es el antirresortivo de elección en insuficiencia renal con filtración menor a treinta mililitros por minuto, vigilando los niveles de calcio para evitar hipocalcemia.",
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.3.004 · Factores de riesgo de osteoporosis",
+      "stem": "Mujer de 58 años, menopausia a los 50 años, consulta para control. Es delgada (IMC 19 kg/m2) y tiene los antecedentes que se listan abajo.",
+      "question": "¿Cuál de los siguientes antecedentes constituye el factor de riesgo de osteoporosis y fractura más relevante?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Uso de anticonceptivos orales durante 10 años en la juventud"
+        },
+        {
+          "letter": "B",
+          "text": "Consumo de 2 tazas de café al día"
+        },
+        {
+          "letter": "C",
+          "text": "Hipertensión arterial tratada con hidroclorotiazida"
+        },
+        {
+          "letter": "D",
+          "text": "Uso de prednisona 10 mg al día durante los últimos 6 meses por polimialgia reumática"
+        },
+        {
+          "letter": "E",
+          "text": "Sobrepeso en la adolescencia"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Los glucocorticoides orales en dosis de 5 mg o más de prednisona por 3 meses o más son la causa más frecuente de osteoporosis secundaria y elevan el riesgo de fractura desde los primeros meses; obligan a densitometría y prevención. Las tiazidas incluso reducen la calciuria; el café moderado y los anticonceptivos no son factores relevantes.",
+      "say": {
+        "stem": "Mujer de cincuenta y ocho años, posmenopáusica y delgada, que consulta para control.",
+        "question": "¿Cuál antecedente es el factor de riesgo de osteoporosis más relevante?",
+        "options": "Las opciones: anticonceptivos en la juventud, café, hidroclorotiazida, prednisona diaria por seis meses o sobrepeso en la adolescencia. Piénsalo.",
+        "answer": "Es la D. Es el uso de prednisona por más de tres meses, la principal causa de osteoporosis secundaria. El café tienta por la creencia popular, pero en cantidad moderada no tiene impacto relevante."
+      }
     },
 
     {

@@ -92,6 +92,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Técnica',
+      title: 'Cómo se toma bien la glicemia capilar',
+      cards: [
+        { title: 'Preparar', tag: 'Antes de pinchar', kind: 'key', items: [
+          { t: 'Manos lavadas y bien secas', d: 'Agua tibia y jabón',
+            say: 'Todo médico debe saber hacer la glicemia capilar y enseñarla, y el examen lo pregunta. Primero, lavarse las manos con agua tibia y jabón y secarlas bien, porque restos de azúcar o de alcohol falsean el resultado.' },
+          { t: 'Tira vigente y bien conservada', d: 'Se inserta en el equipo',
+            say: 'Después se verifica que la tira esté vigente y bien conservada, y se inserta en el equipo.' },
+        ] },
+        { title: 'Pinchar', tag: 'Sin comprimir', kind: 'criteria', items: [
+          { t: 'Cara lateral del pulpejo', d: 'Dedo medio, anular o meñique',
+            say: 'Se punciona con lanceta desechable la cara lateral del pulpejo del dedo medio, anular o meñique, que duele menos que el centro, y se van rotando los sitios.' },
+          { t: 'Gota sin ordeñar el dedo', d: 'Ordeñar diluye la sangre',
+            say: 'Se deja formar una gota sin comprimir el dedo. El ordeñe diluye la sangre con líquido tisular y cambia el valor. Luego se aplica la gota a la tira, se lee, se registra en la libreta y se elimina la lanceta en un contenedor cortopunzante.' },
+        ] },
+        { title: 'Interpretar en la gestante', tag: 'Metas y errores', kind: 'alert', items: [
+          { t: 'Metas: ayuno < 95, 1 h < 140, 2 h < 120', d: '20 % de valores sobre la meta',
+            say: 'Los valores se comparan con las metas del embarazo: ayunas bajo noventa y cinco, una hora bajo ciento cuarenta, dos horas bajo ciento veinte. Y se usan para decidir la insulina: si más del veinte por ciento de los valores está sobre la meta, se parte.' },
+          { t: 'Errores: tira vencida, manos sucias', d: 'En shock el capilar no sirve',
+            say: 'Las fuentes de error son tiras vencidas o mal cerradas, manos contaminadas y un hematocrito muy alto o muy bajo. Y en hipoperfusión o shock el capilar no es confiable: se confirma con glicemia venosa. Un valor que no calza con la clínica se repite o se confirma en el laboratorio.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'La decisión que más se pregunta',
       title: '¿Cuándo se inicia insulina?',
@@ -167,6 +193,20 @@ module.exports = {
           { t: 'Si falla la dieta: insulina', d: 'No un hipoglicemiante oral',
             say: 'La regla para el examen es simple: si la dieta falla, la respuesta es insulina. Cuando la alternativa ofrece glibenclamida, esa es la trampa.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Las metas estrictas del embarazo',
+      images: [
+        { src: 'animaciones/diab-09/A1_metas_embarazo.mp4', label: 'Automonitoreo en la gestante', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Cuatro puntos del día frente a la meta',
+          say: 'Estos son los cuatro puntos que se miden: ayunas y una hora después de cada comida. En la curva sin tratamiento, los cuatro están sobre la meta, y si más del veinte por ciento de los valores supera la meta, se inicia insulina. Con la insulina bien ajustada, los puntos caen bajo noventa y cinco en ayunas y bajo ciento cuarenta después de comer.' },
       ],
     },
 
@@ -261,6 +301,81 @@ module.exports = {
         options: 'Las opciones: diabetes gestacional, obesidad materna, diabetes pregestacional, incompatibilidad Rh o síndrome hipertensivo del embarazo. Piénsalo.',
         answer: 'Es la A, diabetes gestacional. El feto sobre el percentil noventa es grande para su edad, y la prueba de tolerancia está alterada en el tercer trimestre. Es el hiperinsulinismo fetal del comienzo de la clase. La obesidad materna es el distractor tentador, porque la paciente la tiene, pero lo que explica el crecimiento es la glucosa que cruza la placenta. Y ese feto grande, por sí solo, ya es criterio para iniciar insulina.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2019 · Pregunta 107",
+      "stem": "Una paciente embarazada de 10 semanas se realiza una glicemia de ayuno en su control del embarazo, que resulta 130 mg/dl.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glicemia normal para el embarazo"
+        },
+        {
+          "letter": "B",
+          "text": "Intolerancia a la glucosa oral"
+        },
+        {
+          "letter": "C",
+          "text": "Diabetes mellitus gestacional"
+        },
+        {
+          "letter": "D",
+          "text": "Diabetes mellitus pregestacional"
+        },
+        {
+          "letter": "E",
+          "text": "Resistencia a la insulina"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Una glicemia de ayuno ≥ 126 mg/dL al inicio del embarazo hace sospechar una diabetes pregestacional, que se confirma con una segunda glicemia ≥ 126 mg/dL. Si los valores estuvieran entre 100 y 125 mg/dL sería diabetes gestacional.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Embarazada de diez semanas, con una glicemia de ayuno de ciento treinta en su control.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: glicemia normal, intolerancia a la glucosa, diabetes gestacional, diabetes pregestacional, o resistencia a la insulina. Piénsalo.",
+        "answer": "Es la D, diabetes pregestacional. Una glicemia de ayuno de ciento veintiséis o más al inicio del embarazo es un valor de diabetes de no embarazada, que ya estaba antes de la gestación. La gestacional tienta, pero corresponde a ayunos entre cien y ciento veinticinco."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.015 · Glicemia capilar",
+      "stem": "Gestante de 30 semanas con diabetes gestacional, en plan de alimentación hace 2 semanas. Trae su registro de hemoglucotest: glicemias de ayuno entre 98 y 108 mg/dL en 6 de 14 mediciones; glicemias 1 hora postprandiales entre 112 y 132 mg/dL en todas las mediciones. Ecografía con circunferencia abdominal fetal en percentil 60.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener la dieta, ya que los postprandiales están en meta"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar insulina NPH nocturna"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar insulina rápida antes de cada comida"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar glibenclamida en la mañana"
+        },
+        {
+          "letter": "E",
+          "text": "Aumentar la frecuencia de hemoglucotest y reevaluar en un mes"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Metas de glicemia capilar en la diabetes gestacional: ayuno bajo 90–95 mg/dL y 1 hora postprandial bajo 140 mg/dL. Aquí el 43 % de los ayunos está fuera de meta (más del 20 %) y los postprandiales están bien: se indica insulina NPH nocturna, que corrige el ayuno.",
+      "say": {
+        "stem": "Gestante de treinta semanas con diabetes gestacional, a dieta hace dos semanas. En su registro de hemoglucotest, seis de catorce glicemias de ayuno están entre noventa y ocho y ciento ocho. Todas las glicemias una hora después de comer están bajo ciento cuarenta.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: mantener la dieta, insulina NPH nocturna, insulina rápida antes de las comidas, glibenclamida, o más controles y reevaluar en un mes. Piénsalo.",
+        "answer": "Es la B. Más del veinte por ciento de los ayunos está sobre noventa y cinco, y el ayuno se corrige con NPH a las diez de la noche. La insulina rápida tienta, pero esa es para el postprandial, y aquí los valores de una hora están todos bajo ciento cuarenta."
+      }
     },
 
     {

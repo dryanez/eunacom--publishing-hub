@@ -90,11 +90,16 @@ module.exports = {
       cards: [
         { title: 'Consolidación lobar', tag: 'Neumonía típica', kind: 'criteria', items: [
           { t: 'Foco denso, con broncograma', d: 'Es la imagen del neumococo',
-            say: 'Cuando sí terminas pidiendo la radiografía, conviene que sepas qué esperar según el germen. La consolidación lobar, con broncograma aéreo, es la imagen típica del neumococo: un foco denso y bien delimitado, que coincide con lo que ya escuchaste al examinar al niño.' },
+            say: 'Cuando sí terminas pidiendo la radiografía, conviene que sepas qué esperar según el germen. La consolidación lobar, con broncograma aéreo, es la imagen típica del neumococo: un foco denso y bien delimitado, que coincide con lo que ya escuchaste al examinar al niño. Mira esta radiografía de un niño: la base derecha está blanca, con el borde del corazón nítido, y eso corresponde a una neumonía del lóbulo inferior.',
+            photo: { src: 'biblioteca/15_pediatria/ped-07/05_neumonia-lobar-pediatrica__sherman_p345.jpg', label: 'Neumonía lobar', at: 'Mira esta radiografía de un niño', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 345' } },
+          { t: 'Neumonía redonda', d: 'En el niño imita una masa; no es un tumor',
+            say: 'Ojo con esta variante, propia del niño: la neumonía redonda. En esta radiografía parece una masa, pero es una neumonía, no un tumor, y se trata como tal.',
+            photo: { src: 'biblioteca/15_pediatria/ped-07/01_neumonia_redonda__cxr_p208.jpg', label: 'Neumonía redonda', at: 'En esta radiografía parece una masa', credit: 'The Chest X-Ray: A Survival Guide, Fig. 14.12' } },
         ] },
         { title: 'Infiltrado intersticial', tag: 'Viral o atípica', kind: 'criteria', items: [
           { t: 'Difuso, peribronquial', d: 'Neumonía viral o por mycoplasma',
-            say: 'En cambio, un infiltrado intersticial difuso, peribronquial, o una hiperinsuflación, apuntan a un virus o a un germen atípico como el mycoplasma. Fíjate que esta diferencia radiológica va de la mano con la diferencia clínica que ya vimos: foco localizado y purulento en la típica, cuadro difuso e insidioso en la atípica.' },
+            say: 'En cambio, un infiltrado intersticial difuso, peribronquial, o una hiperinsuflación, apuntan a un virus o a un germen atípico como el mycoplasma. Mira este tórax: el infiltrado difuso alrededor de los bronquios en ambos pulmones. Fíjate que esta diferencia radiológica va de la mano con la diferencia clínica que ya vimos: foco localizado y purulento en la típica, cuadro difuso e insidioso en la atípica.',
+            photo: { src: 'biblioteca/15_pediatria/ped-07/04_neumonia-intersticial__sherman_p696.jpg', label: 'Infiltrado intersticial', at: 'Mira este tórax', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 696' } },
         ] },
       ],
     },
@@ -163,7 +168,8 @@ module.exports = {
         { show: ['per', 'exa'], note: 'La falla de tratamiento no es solo mala suerte',
           say: 'Piensa en un niño que ya lleva dos días con amoxicilina y sigue con fiebre, además con más trabajo respiratorio que al inicio. Al examinarlo, encuentras matidez y el murmullo pulmonar abolido en una base. Eso ya no es una neumonía sin complicaciones.' },
         { show: ['rx2'], note: 'Confirma lo que sospechaste',
-          say: 'La radiografía confirma un derrame pleural paraneumónico, la complicación más frecuente de la neumonía bacteriana, sobre todo por neumococo.' },
+          say: 'La radiografía confirma un derrame pleural paraneumónico, la complicación más frecuente de la neumonía bacteriana, sobre todo por neumococo. Mira esta radiografía: el pulmón derecho queda velado por el líquido, con el borde del diafragma borrado.',
+          photo: { src: 'biblioteca/15_pediatria/ped-07/03_derrame-pleural__cto-neumo_p111.jpg', label: 'Derrame pleural', at: 'Mira esta radiografía', credit: 'Manual CTO Neumología 14.ª ed., p. 111' } },
         { show: ['hos2', 'ev'], note: 'Cambia todo el manejo',
           say: 'Y esto cambia todo el manejo: se hospitaliza, se estudia el líquido con ecografía y punción pleural, y se cambia el antibiótico a vía endovenosa. Ya no alcanza con la amoxicilina oral que traía.' },
       ],
@@ -171,21 +177,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Neumonía en la radiografía',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: "Taquipnea según la edad",
       images: [
-        { src: 'biblioteca/15_pediatria/ped-07/01_neumonia_redonda__cxr_p208.jpg', label: 'Neumonía redonda', credit: 'The Chest X-Ray: A Survival Guide, Fig. 14.12' },
-        { src: 'biblioteca/15_pediatria/ped-07/02_consolidacion-lobar__cto-radiologia_p13.jpg', label: 'Consolidación lobar', credit: 'Manual CTO Radiología 14.ª ed., p. 13' },
-        { src: 'biblioteca/15_pediatria/ped-07/03_derrame-pleural__cto-neumo_p111.jpg', label: 'Derrame pleural', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
+        { src: 'animaciones/ped-07/A1_taquipnea_por_edad.mp4', label: "Cortes por edad", credit: "Animación propia" },
       ],
       steps: [
-        { note: 'Imita una masa',
-          say: 'En los niños la neumonía puede verse redonda, como una masa. Es una neumonía, no un tumor.' },
-        { note: 'Foco denso y bien delimitado',
-          say: 'Esta es la consolidación lobar: un foco denso y bien delimitado, la imagen típica del neumococo.' },
-        { note: 'La complicación más frecuente',
-          say: 'Y este es el derrame pleural, la complicación más frecuente. Si la fiebre persiste a las cuarenta y ocho horas, lo sospechas y hospitalizas.' },
+        { note: "El umbral baja al crecer",
+          say: "Mira los cortes de frecuencia respiratoria. Menor de dos meses, sesenta o más. De dos a once meses, cincuenta. De uno a cuatro años, cuarenta. Desde los cinco, treinta. Mientras más pequeño, más alto el corte, porque respira más rápido de forma normal. Este lactante de seis meses llega a cincuenta y seis: taquipnea para su edad. Con fiebre, tos y crépitos localizados, la neumonía es un diagnóstico clínico." },
       ],
     },
 
@@ -280,6 +280,44 @@ module.exports = {
         options: 'Las opciones: Streptococcus pneumoniae, Mycoplasma pneumoniae, virus respiratorio sincicial, Haemophilus influenzae, o Chlamydia trachomatis.',
         answer: 'Es la B, Mycoplasma pneumoniae. Compara esta pregunta con la anterior: ahí tenías un niño pequeño con foco localizado y expectoración purulenta, aquí tienes una escolar con tos seca y un infiltrado difuso e intersticial. Es exactamente la diferencia entre neumonía típica y atípica que vimos, y por eso el tratamiento tampoco es el mismo: aquí correspondería azitromicina, no amoxicilina.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.001 · Radiografía de tórax",
+      "stem": "Niño de 3 años con diagnóstico clínico de neumonía, en tratamiento con amoxicilina oral en dosis alta. Tras 48 horas persiste con fiebre de 39 °C y dolor en el costado derecho. Al examen: FR 40 rpm, saturación 94%, matidez y murmullo pulmonar disminuido en la base derecha.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cambiar a azitromicina oral y control en 48 horas"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar TAC de tórax ambulatoria"
+        },
+        {
+          "letter": "C",
+          "text": "Mantener la amoxicilina y esperar 48 horas más"
+        },
+        {
+          "letter": "D",
+          "text": "Agregar salbutamol inhalado"
+        },
+        {
+          "letter": "E",
+          "text": "Hospitalizar y solicitar radiografía de tórax por sospecha de derrame pleural"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La radiografía de tórax no es de rutina en la neumonía infantil, pero está indicada si no hay respuesta a las 48 horas o se sospecha una complicación. Fiebre persistente con matidez y murmullo disminuido sugieren derrame pleural paraneumónico, que obliga a hospitalizar.",
+      "say": {
+        "stem": "Niño de tres años con neumonía, en tratamiento con amoxicilina en dosis alta. A las cuarenta y ocho horas sigue con fiebre de treinta y nueve y dolor en el costado derecho. Al examen hay matidez y murmullo disminuido en la base derecha.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: cambiar a azitromicina, pedir un escáner ambulatorio, mantener la amoxicilina y esperar, agregar salbutamol o hospitalizar y pedir radiografía de tórax. Piénsalo.",
+        "answer": "Es la E. La radiografía no se pide de rutina, pero sí cuando el niño no responde a las cuarenta y ocho horas o sospechas una complicación, y la matidez te hace pensar en derrame. Cambiar a azitromicina tienta, pero el problema no es el germen atípico, es una complicación que hay que ver y hospitalizar."
+      }
     },
 
     {

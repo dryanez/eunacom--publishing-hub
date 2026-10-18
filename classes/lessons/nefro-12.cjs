@@ -269,6 +269,44 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.010 · Gases en sangre arterial",
+      "stem": "Mujer de 40 años, sin enfermedad pulmonar, con 4 días de vómitos por gastroenteritis. Gases arteriales: pH 7,50, pCO2 48 mmHg, HCO3 36 mEq/L. Na 137 mEq/L, Cl 90 mEq/L, K 3,1 mEq/L.",
+      "question": "¿Cuál es la interpretación más adecuada de los gases?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Acidosis respiratoria crónica compensada"
+        },
+        {
+          "letter": "B",
+          "text": "Alcalosis metabólica con acidosis respiratoria agregada"
+        },
+        {
+          "letter": "C",
+          "text": "Alcalosis metabólica con alcalosis respiratoria agregada"
+        },
+        {
+          "letter": "D",
+          "text": "Alcalosis metabólica con compensación respiratoria adecuada"
+        },
+        {
+          "letter": "E",
+          "text": "Alcalosis respiratoria aguda"
+        }
+      ],
+      "correct": "D",
+      "explanation": "pH alto y bicarbonato alto: alcalosis metabólica primaria. La pCO2 esperada es 0,7 × (36 − 24) + 40 = 48 mmHg (± 2). La medida es 48: compensación adecuada, trastorno simple. Una pCO2 mayor de 50 indicaría acidosis respiratoria agregada.",
+      "say": {
+        "stem": "Una mujer de cuarenta años, sin enfermedad pulmonar, lleva cuatro días vomitando. Los gases muestran pH siete coma cincuenta, presión de CO dos de cuarenta y ocho y bicarbonato de treinta y seis.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: acidosis respiratoria crónica, con acidosis respiratoria agregada, con alcalosis respiratoria agregada, alcalosis metabólica compensada o alcalosis respiratoria aguda. Piénsalo.",
+        "answer": "Es la D. La presión de CO dos esperada es cero coma siete por el aumento del bicarbonato, más cuarenta, y da cuarenta y ocho, justo lo medido: alcalosis metabólica simple y bien compensada. La acidosis respiratoria agregada tienta porque la presión de CO dos está sobre cuarenta, pero esa subida es la compensación esperada."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',

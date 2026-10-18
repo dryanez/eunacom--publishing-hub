@@ -1,0 +1,95 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Cirugía 11.1: apendicitis. Dolor que migra (periumbilical → fosa ilíaca derecha) y apéndice obstruido por un fecalito.
+// Base: Blausen.com staff (2014) "Appendix Child", CC BY 3.0; rótulos quitados (assets/blausen/apendice_nino.png, 750x1500).
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade } = K;
+const I = k => window.IMGS[k];
+function LAM(crop, box) {
+  const [bx, by, bw, bh] = box, s = Math.min(bw / crop[2], bh / crop[3]);
+  const w = crop[2] * s, h = crop[3] * s, x0 = bx + (bw - w) / 2, y0 = by + (bh - h) / 2;
+  const o = { s, x: x0, y: y0, w, h, P: (x, y) => [x0 + (x - crop[0]) * s, y0 + (y - crop[1]) * s],
+    clip() { ctx.beginPath(); ctx.roundRect(x0, y0, w, h, 14); ctx.clip(); },
+    draw(a = 1) { if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; rrect(x0 - 6, y0 - 6, w + 12, h + 12, 18, '#FFFFFF');
+      o.clip(); ctx.drawImage(I('img'), crop[0], crop[1], crop[2], crop[3], x0, y0, w, h); ctx.restore(); },
+    bulge(pts, anchor, kx, ky, tint) {
+      const [ax, ay] = o.P(...anchor); ctx.save(); o.clip(); ctx.translate(ax, ay); ctx.scale(kx, ky); ctx.translate(-ax, -ay);
+      ctx.beginPath(); pts.forEach((p, i) => { const [x, y] = o.P(...p); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.closePath(); ctx.clip();
+      ctx.drawImage(I('img'), crop[0], crop[1], crop[2], crop[3], x0, y0, w, h);
+      if (tint) { ctx.fillStyle = tint; ctx.fillRect(x0, y0, w, h); } ctx.restore(); },
+  };
+  return o;
+}
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill(); tag(s, x, y, col, size); ctx.restore();
+}
+function pain(x, y, r, col, a, t) {
+  if (a <= 0) return; K.glow(x, y, r * 2.4, col, 0.55 * a);
+  for (let i = 0; i < 2; i++) { const u = ((t * 0.9) + i / 2) % 1; ctx.save(); ctx.globalAlpha = a * (1 - u); ctx.strokeStyle = `rgb(${col})`; ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.arc(x, y, r + 22 * u, 0, 7); ctx.stroke(); ctx.restore(); }
+  ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = `rgb(${col})`; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill(); ctx.restore();
+}
+const BODY = LAM([250, 440, 440, 400], [40, 128, 380, 520]);          // abdomen del niño
+const ZOOM = LAM([20, 910, 590, 490], [450, 128, 400, 540]);          // ciego y apéndice ampliados
+const NAVEL = [490, 700], EPI = [520, 560], FID = [418, 768];         // px de la imagen
+const APP = [[402,1212],[440,1214],[468,1232],[474,1260],[484,1310],[488,1370],[496,1388],[514,1386],[518,1360],[510,1310],[496,1270],[476,1248],[446,1244],[402,1242]];
+const BASE = [410, 1228], FEC = [448, 1229];
+const DUR = 28;
+function scene(t) {
+  K.title('Apendicitis aguda', 'Por qué el dolor empieza en el ombligo y termina en la fosa ilíaca derecha', C.RED);
+  BODY.draw(seg(t, 0, 0.7)); ZOOM.draw(seg(t, 0, 0.7));
+  // marco del zoom sobre el abdomen
+  const [fx, fy] = BODY.P(...FID);
+  label('Apéndice', 800, 590, '#D9D2C3', ...ZOOM.P(506, 1372), fade(t, 0.8, 4.5));
+  label('Ciego', 520, 170, '#D9D2C3', ...ZOOM.P(300, 1100), fade(t, 1.0, 4.5));
+  // 1) fecalito obstruye la luz
+  const fe = ease(seg(t, 2.5, 1.2));
+  if (fe > 0) { const [x, y] = ZOOM.P(FEC[0] + (1 - fe) * 36, FEC[1] - (1 - fe) * 28); ctx.save(); ZOOM.clip(); ctx.globalAlpha = fe;
+    const g = ctx.createRadialGradient(x - 2, y - 2, 1, x, y, 11); g.addColorStop(0, '#9A7A4B'); g.addColorStop(1, '#4B3720');
+    ctx.fillStyle = g; ctx.beginPath(); ctx.ellipse(x, y, 11, 8, 0.6, 0, 7); ctx.fill(); ctx.restore(); }
+  label('Fecalito', 800, 330, '#C9A060', ...ZOOM.P(...FEC), fade(t, 3.2, 9));
+  // 2) apéndice se hincha y enrojece (presión interna + bacterias)
+  const sw = ease(seg(t, 5, 4)), per = seg(t, 20, 1.2);
+  if (sw > 0) { const k = 1 + 0.3 * sw; ZOOM.bulge(APP, BASE, k, k, `rgba(220,40,40,${0.30 * sw + 0.3 * per})`);
+    const [bx, by] = ZOOM.P(495, 1310); K.glow(bx, by, 40 + 20 * sw, '255,70,60', 0.35 * sw); }
+  label('Sube la presión · proliferan bacterias', 680, 640, C.RED, ...ZOOM.P(500, 1320), fade(t, 6, 12));
+  // 3) dolor visceral periumbilical
+  const [nx, ny] = BODY.P(...NAVEL), [ex, ey] = BODY.P(...EPI);
+  const vis = fade(t, 8, 13.5, 0.6);
+  pain(lerp(ex, nx, ease(seg(t, 8, 1.6))), lerp(ey, ny, ease(seg(t, 8, 1.6))), 9, '255,194,71', vis, t);
+  label('Dolor visceral: difuso, periumbilical', 215, 150, C.AMBER, nx, ny - 8, fade(t, 8.6, 13.5));
+  // 4) migra a la FID
+  const mg = ease(seg(t, 13.5, 3.2));
+  if (t > 13.5) { const px = lerp(nx, fx, mg), py = lerp(ny, fy, mg);
+    ctx.save(); ctx.setLineDash([8, 6]); ctx.strokeStyle = C.AMBER; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(nx, ny); ctx.lineTo(px, py); ctx.stroke(); ctx.restore();
+    pain(px, py, 9 + 3 * mg, mg > 0.95 ? '255,70,60' : '255,194,71', 1, t); }
+  label('Peritoneo parietal: dolor localizado en la FID', 215, 640, C.RED, fx, fy + 6, seg(t, 16.6, 0.6));
+  if (t > 17) { ctx.save(); ctx.globalAlpha = seg(t, 17, 0.5); tag('McBurney', fx + 58, fy - 26, C.AMBER, 15); ctx.restore(); }
+  // 5) perforación después de 36 h
+  const pf = seg(t, 20, 1);
+  if (pf > 0) { const [x, y] = ZOOM.P(506, 1392); ctx.save(); ZOOM.clip();
+    for (let i = 0; i < 9; i++) { const u = clamp((t - 21 - i * 0.12) / 2.5, 0, 1); ctx.globalAlpha = 0.85 * Math.min(1, u * 4) * (1 - 0.2 * u);
+      ctx.fillStyle = i % 2 ? '#D9B545' : '#C69A2C'; ctx.beginPath(); ctx.arc(x - 10 + 34 * Math.sin(i * 2.3) * ease(u), y - 20 + 40 * ease(u) * (0.5 + 0.5 * Math.cos(i)), 6 + (i % 3) * 3, 0, 7); ctx.fill(); }
+    ctx.restore(); label('Necrosis y perforación', 740, 660, C.RED, x, y, seg(t, 21.2, 0.5)); }
+  // tarjetas
+  K.card(880, 140, 360, 106, C.AMBER, '1 · Obstrucción', ['Fecalito o hiperplasia linfoide', 'Sube la presión interna'], seg(t, 3, 0.5), 17);
+  K.card(880, 258, 360, 106, C.AMBER, '2 · Dolor visceral', ['Epigastrio o periumbilical', 'Fibras que no localizan'], seg(t, 8.4, 0.5), 17);
+  K.card(880, 376, 360, 106, C.RED, '3 · Dolor somático', ['6 a 12 h después, migra a la FID', 'Cronología de Murphy'], seg(t, 14, 0.5), 17);
+  const pr = ease(seg(t, 20.5, 4));
+  if (t > 20) { ctx.save(); ctx.globalAlpha = seg(t, 20, 0.5); rrect(880, 494, 360, 120, 16, '#161B22');
+    K.bar(900, 534, 320, 'Riesgo de perforación', lerp(5, 30, pr), 40, '%', pr > 0.5 ? C.RED : C.AMBER, [[5, '< 5% primeras h'], [30, '> 30% tras 36 h']], v => v < 6 ? '< 5' : v > 29 ? '> 30' : Math.round(v)); ctx.restore(); }
+  K.banner(880, 636, 360, 'Alvarado 7 a 10: pabellón directo', C.GREEN, seg(t, 25, 0.5));
+}
+window.SCENE = { duration: DUR, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); scene(t); K.credit('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios'); };
+LOAD({ img: '../assets/blausen/apendice_nino.png' });
+</script>
+</body></html>

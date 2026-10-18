@@ -34,7 +34,8 @@ module.exports = {
         { show: ['clo'], note: 'Adulto mayor: mediana de 65 a 70 años',
           say: 'Partamos por el mecanismo. En el mieloma, un clon de células plasmáticas de la médula ósea se vuelve maligno. Es una enfermedad del adulto mayor: la edad mediana al diagnóstico es de sesenta y cinco a setenta años. Y todo lo que vas a ver en la clínica sale de tres cosas que hace este clon.' },
         { show: ['pm'], note: 'El componente M',
-          say: 'Lo primero: fabrica una sola inmunoglobulina, siempre igual, que llamamos componente M. En el cincuenta y cinco por ciento es una IgG, en el veinte por ciento una IgA, y en otro veinte por ciento solo cadenas ligeras kappa o lambda, la clásica proteína de Bence-Jones.' },
+          say: 'Lo primero: fabrica una sola inmunoglobulina, siempre igual, que llamamos componente M. En el cincuenta y cinco por ciento es una IgG, en el veinte por ciento una IgA, y en otro veinte por ciento solo cadenas ligeras kappa o lambda, la clásica proteína de Bence-Jones. Mira este esquema: la electroforesis con el pico del componente M.',
+          photo: { src: 'biblioteca/06_hematologia/hem-19/S1_electroforesis-pico-m__propio.svg', label: 'Electroforesis con pico M', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['ren'], note: 'Las cadenas ligeras tapan los túbulos',
           say: 'Esas cadenas ligeras se filtran por el riñón, precipitan con la proteína de Tamm-Horsfall y forman cilindros que tapan los túbulos distales y colectores. Eso es el riñón de mieloma, la R del CRAB.' },
         { show: ['ost', 'cal'], note: 'El hueso se destruye desde adentro',
@@ -59,7 +60,8 @@ module.exports = {
           { t: 'A: Hb < 10 g/dL', d: 'O más de 2 bajo el límite normal',
             say: 'A, anemia: hemoglobina bajo diez, o más de dos gramos bajo el límite normal.' },
           { t: 'B: lesiones líticas "en sacabocado"', d: 'Cráneo, pelvis, columna, fémur · fracturas',
-            say: 'Y B, lesiones óseas: una o más lesiones líticas en sacabocado en la radiografía de cráneo, pelvis, columna o fémur, o fracturas patológicas. Son agujeros redondos, de bordes nítidos, sin esclerosis alrededor.' },
+            say: 'Y B, lesiones óseas: una o más lesiones líticas en sacabocado en la radiografía de cráneo, pelvis, columna o fémur, o fracturas patológicas. Son agujeros redondos, de bordes nítidos, sin esclerosis alrededor. Mira este cráneo con sus lesiones en sacabocado y, abajo, las flechas que marcan vértebras aplastadas: son fracturas patológicas de la columna.',
+            photo: { src: 'biblioteca/06_hematologia/hem-19/01_lesiones-liticas-en-craneo_alt1__amir-hemato_p73.jpg', label: 'Lesiones líticas en cráneo', at: 'Mira este cráneo', credit: 'Manual AMIR Hematología, p. 73' } },
         ] },
         { title: 'Para qué sirve', tag: 'Ojo en el examen', kind: 'alert', items: [
           { t: 'Un solo criterio = daño de órgano', d: 'Exige tratamiento inmediato',
@@ -88,15 +90,18 @@ module.exports = {
       ],
       steps: [
         { show: ['vhs'], note: 'Pilas de monedas',
-          say: 'Veamos cómo se estudia. La pista de laboratorio más llamativa es una VHS altísima, típicamente sobre cien milímetros en la primera hora. ¿Por qué? Porque el exceso de inmunoglobulinas neutraliza las cargas negativas de los glóbulos rojos, y estos se apilan como monedas. Eso es el fenómeno de Rouleaux en el frotis.' },
+          say: 'Veamos cómo se estudia. La pista de laboratorio más llamativa es una VHS altísima, típicamente sobre cien milímetros en la primera hora. ¿Por qué? Porque el exceso de inmunoglobulinas neutraliza las cargas negativas de los glóbulos rojos, y estos se apilan como monedas. Eso es el fenómeno de Rouleaux en el frotis: mira cómo los glóbulos se apilan como monedas.',
+          photo: { src: 'biblioteca/06_hematologia/hem-19/02_rouleaux__amir-hemato_p74.jpg', label: 'Rouleaux', at: 'mira cómo los glóbulos', credit: 'Manual AMIR Hematología, p. 74' } },
         { show: ['efp', 'pic'], note: 'El componente M se ve como una espícula',
-          say: 'El examen que confirma la paraproteína es la electroforesis de proteínas en suero. Muestra una espícula angosta, de base estrecha, en la zona gamma: el pico monoclonal. Un pico angosto es una sola proteína, de un solo clon.' },
+          say: 'El examen que confirma la paraproteína es la electroforesis de proteínas en suero. Muestra una espícula angosta, de base estrecha, en la zona gamma: el pico monoclonal. Un pico angosto es una sola proteína, de un solo clon. Mira esta electroforesis real: la banda alta y angosta en gamma.',
+          photo: { src: 'biblioteca/06_hematologia/hem-19/02_pico_m_real__commons.jpg', label: 'Pico monoclonal', at: 'Mira esta electroforesis', credit: 'Wikimedia Commons «Monoclonal gammopathy Multiple Myeloma.png», CC BY-SA 3.0, Steven Fruitsmaak' } },
         { show: ['inm'], note: 'Qué proteína exactamente',
           say: 'Luego, la inmunofijación en sangre y orina dice exactamente cuál es: qué cadena pesada y qué cadena ligera.' },
         { show: ['nor', 'cll'], note: 'El mieloma de cadenas ligeras',
           say: 'Y ojo con la trampa: una electroforesis normal no descarta el mieloma. Si la sospecha sigue, piensa en un mieloma de cadenas ligeras puras, que no hace un pico visible en la sangre. Se piden las cadenas ligeras libres en suero, con su índice kappa lambda, y una electroforesis de orina de veinticuatro horas.' },
         { show: ['mo'], note: 'El mielograma cuenta los plasmocitos',
-          say: 'Finalmente, el estudio de la médula ósea cuenta las células plasmáticas. Diez por ciento o más, con un criterio CRAB, es mieloma activo. Ese cálculo es el que viene ahora.' },
+          say: 'Finalmente, el estudio de la médula ósea cuenta las células plasmáticas. Mira estas células plasmáticas en la médula. Diez por ciento o más, con un criterio CRAB, es mieloma activo. Ese cálculo es el que viene ahora.',
+          photo: { src: 'biblioteca/06_hematologia/hem-19/03_celulas-plasmaticas-en-medula__cto-hemato_p82.jpg', label: 'Células plasmáticas', at: 'Mira estas células plasmáticas', credit: 'Manual CTO Hematología 14.ª ed., p. 82' } },
       ],
     },
 
@@ -155,43 +160,7 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Mieloma múltiple',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-19/01_lesiones-liticas-en-craneo_alt1__amir-hemato_p73.jpg', label: 'Lesiones líticas en cráneo y aplastamientos vertebrales', credit: 'Manual AMIR Hematología, p. 73' },
-        { src: 'biblioteca/06_hematologia/hem-19/02_pico_m_real__commons.jpg', label: 'Pico monoclonal', credit: 'Wikimedia Commons «Monoclonal gammopathy Multiple Myeloma.png», CC BY-SA 3.0, Steven Fruitsmaak' },
-        { src: 'biblioteca/06_hematologia/hem-19/02_rouleaux__amir-hemato_p74.jpg', label: 'Rouleaux', credit: 'Manual AMIR Hematología, p. 74' },
-      ],
-      steps: [
-        { note: 'Cráneo en sacabocado',
-          say: 'En el mieloma, el cráneo muestra lesiones líticas en sacabocado: agujeros redondos. Y abajo, las flechas marcan vértebras aplastadas: son fracturas patológicas de la columna.' },
-        { note: 'Una banda alta y angosta',
-          say: 'Y la electroforesis muestra un pico alto y angosto en gamma: es la proteína monoclonal.' },
-        { note: 'Glóbulos en pila de monedas',
-          say: 'En el frotis, los glóbulos se apilan como monedas: es el rouleaux.' },
-      ],
-    },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-19/03_celulas-plasmaticas-en-medula__cto-hemato_p82.jpg', label: 'Células plasmáticas en médula', credit: 'Manual CTO Hematología 14.ª ed., p. 82' },
-        { src: 'biblioteca/06_hematologia/hem-19/S1_electroforesis-pico-m__propio.svg', label: 'Electroforesis con pico monoclonal', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Células plasmáticas en médula',
-          say: 'Mira esta imagen: células plasmáticas en médula. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-        { note: 'Electroforesis con pico monoclonal',
-          say: 'Electroforesis de proteínas con un pico monoclonal estrecho en la zona de las gammaglobulinas.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -330,6 +299,44 @@ module.exports = {
         options: 'Las opciones son: calcitonina, solución salina al cero coma nueve por ciento, vitamina D, bifosfonatos, o corticoides. Piénsalo.',
         answer: 'Es la B, suero fisiológico. Constipación, poliuria y compromiso de conciencia con calcio sobre catorce es una hipercalcemia grave, la C del CRAB. Y como vimos, lo primero es hidratar en forma vigorosa. El distractor tentador son los bifosfonatos, porque son parte del tratamiento del mieloma. Pero la pregunta dice en este momento, y lo primero es el volumen.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2022 · Pregunta 133",
+      "stem": "Paciente de 78 años consulta por lumbago de 1 mes de evolución, progresivo e intenso, que no ha respondido a analgésicos. Examen físico: IMC 20, FC 75 lpm, PA 126/86 mmHg; cabeza, cuello y examen cardiopulmonar normales; columna lumbar con limitación de los movimientos por dolor. Exámenes: hematocrito 30 %, hemoglobina 10,5 g/dL, plaquetas 88.000/mm³, leucocitos 4.300/mm³ con fórmula normal, VHS 78 mm/h, creatinina 2,2 mg/dL, natremia 135 mEq/L, calcemia 10,5 mg/dL, proteínas totales 8,9 g/dL y albúmina 2,9 g/dL.",
+      "question": "¿Qué examen es el más adecuado para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Electroforesis de proteínas en sangre"
+        },
+        {
+          "letter": "B",
+          "text": "Densitometría ósea"
+        },
+        {
+          "letter": "C",
+          "text": "Radiografía de huesos largos y cráneo"
+        },
+        {
+          "letter": "D",
+          "text": "Estudio citogenético de médula ósea"
+        },
+        {
+          "letter": "E",
+          "text": "Niveles plasmáticos de vitamina B12"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Lumbago progresivo en un adulto mayor con anemia, VHS alta, falla renal, calcio en el límite alto y una brecha de 6 g/dL entre proteínas totales y albúmina: sospecha de mieloma múltiple. La electroforesis de proteínas demuestra el componente monoclonal y es el examen indicado; luego se completa el estudio con médula ósea e inmunofijación.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veintidós. Un hombre de setenta y ocho años con lumbago progresivo de un mes que no cede con analgésicos. Tiene anemia, plaquetas bajas, velocidad de sedimentación de setenta y ocho, creatinina de dos coma dos, proteínas totales de ocho coma nueve y albúmina de solo dos coma nueve.",
+        "question": "¿Qué examen es el más adecuado para confirmar el diagnóstico?",
+        "options": "Las opciones: electroforesis de proteínas, densitometría, radiografía de huesos largos y cráneo, citogenética de médula ósea, o vitamina B doce. Piénsalo.",
+        "answer": "Es la A. La gran diferencia entre proteínas totales y albúmina indica exceso de globulinas, y la electroforesis muestra el pico monoclonal del mieloma. La radiografía de huesos tienta porque busca lesiones líticas, pero no demuestra la gammapatía."
+      }
     },
 
     {

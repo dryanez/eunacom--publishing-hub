@@ -27,7 +27,9 @@ module.exports = {
       cards: [
         { title: 'Por qué importa', tag: 'Diagnóstico precoz', kind: 'key', items: [
           { t: 'Sin tratar: artrosis precoz', d: 'Dolor crónico y cojera', say: 'La displasia del desarrollo de la cadera va desde la inestabilidad del recién nacido hasta la luxación. Si no se trata a tiempo, termina en artrosis precoz, dolor crónico y cojera. Los detalles del screening los viste en la clase de pediatría; aquí solo lo esencial.' },
-          { t: 'Ortolani reduce, Barlow luxa', d: 'Maniobras del recién nacido', say: 'El signo de Ortolani reduce una cadera luxada, y se siente un clic de entrada al abducir. El de Barlow luxa una cadera que estaba encajada. Ortolani es la que entra, Barlow es la que se sale.' },
+          { t: 'Ortolani reduce, Barlow luxa', d: 'Maniobras del recién nacido',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-14/05_maniobra-de-ortolani__nelson_p5430.jpg', label: 'Maniobra de Ortolani', at: 'Mira esta maniobra', credit: 'Nelson 22.ª ed., p. 5430' },
+            say: 'Mira esta maniobra de Ortolani en el recién nacido: reduce una cadera luxada, y se siente un clic de entrada al abducir. El de Barlow luxa una cadera que estaba encajada. Ortolani es la que entra, Barlow es la que se sale.' },
         ] },
         { title: 'Radiografía', tag: 'Dato del libro', kind: 'criteria', items: [
           { t: 'Núcleo arriba y afuera', d: 'Normal: ínfero-interno', say: 'En la radiografía, lo normal es que el núcleo de osificación esté abajo y adentro. En la displasia se desplaza hacia arriba y afuera, y el arco de Shenton se ve interrumpido.' },
@@ -63,7 +65,9 @@ module.exports = {
         ] },
         { title: 'Tratamiento por grados', tag: 'Ángulo de Cobb', kind: 'criteria', items: [
           { t: 'Menos de 30 grados', d: 'Ejercicios y observación', say: 'Con menos de treinta grados, ejercicios de fortalecimiento y observación.' },
-          { t: '30 a 50 grados', d: 'Corsé', say: 'Entre treinta y cincuenta grados, un corsé, que es una ortesis rígida.' },
+          { t: '30 a 50 grados', d: 'Corsé',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-14/03_escoliosis-angulo-de-cobb__bailey-love_p603.jpg', label: 'Escoliosis, Cobb de 40°', at: 'Esta escoliosis', credit: 'Bailey & Love 27.ª ed., Fig. 39.36' },
+            say: 'Entre treinta y cincuenta grados, un corsé, que es una ortesis rígida. Esta escoliosis torácica derecha tiene un ángulo de Cobb de cuarenta grados, justo en ese rango.' },
           { t: 'Más de 50 grados', d: 'Cirugía: artrodesis', say: 'Y sobre cincuenta grados, cirugía, con artrodesis de la columna.' },
         ] },
       ],
@@ -79,7 +83,9 @@ module.exports = {
           { t: 'Varo, equino, cavo y aducto', d: 'Las cuatro deformidades', say: 'Combina cuatro deformidades: varo, equino, cavo y aducto.' },
         ] },
         { title: 'Tratamiento', tag: 'Ortopédico', kind: 'pharma', items: [
-          { t: 'Método de Ponseti', d: 'Yesos seriados desde el inicio', say: 'El tratamiento de hoy es ortopédico, con el método de Ponseti: yesos seriados. Ha desplazado a la cirugía porque da mejores resultados con menos secuelas.' },
+          { t: 'Método de Ponseti', d: 'Yesos seriados desde el inicio',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-14/04_yesos-seriados-ponseti__bailey-love_p599.jpg', label: 'Yesos seriados de Ponseti', at: 'Aquí la serie de yesos', credit: 'Bailey & Love 27.ª ed., Fig. 39.30' },
+            say: 'El tratamiento de hoy es ortopédico, con el método de Ponseti: yesos seriados. Aquí la serie de yesos, que corrige el pie paso a paso. Ha desplazado a la cirugía porque da mejores resultados con menos secuelas.' },
           { t: 'Comenzar lo antes posible', d: 'Derivar al nacer', say: 'Y tiene que empezar cuanto antes, en las primeras semanas de vida. Por eso, cuando lo ves en un recién nacido, derivas de inmediato a ortopedia infantil.' },
         ] },
       ],
@@ -92,7 +98,8 @@ module.exports = {
       head: ['Diagnóstico', 'Edad', 'Dato clave', 'Tratamiento'],
       rows: [
         { cells: ['Sinovitis transitoria', '2 a 4 años', 'Infección viral previa; Rx normal', 'Paracetamol y reposo'],
-          say: 'En el niño de dos a cuatro años, con una infección viral reciente y una radiografía normal, piensa en sinovitis transitoria. Se trata con paracetamol y reposo.' },
+          photo: { src: 'biblioteca/18_traumatologia/trauma-14/23_sinovitis-transitoria__sherman_p778.jpg', label: 'Cadera flexionada y abducida', at: 'Mira esta niña', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 778' },
+          say: 'En el niño de dos a cuatro años, con una infección viral reciente y una radiografía normal, piensa en sinovitis transitoria. Mira esta niña: la cadera izquierda queda flexionada, abducida y en rotación externa, la posición de mayor comodidad. Se trata con paracetamol y reposo.' },
         { cells: ['Enfermedad de Perthes', '5 a 10 años', 'Talla baja; cabeza plana y densa', 'Reposo o cirugía'],
           say: 'Entre los cinco y los diez años, con talla baja y una cabeza femoral plana y densa: enfermedad de Perthes. El manejo es reposo o cirugía, y lo decide el especialista.' },
         { cells: ['Epifisiólisis', '12 a 15 años', 'Obesidad; helado caído', 'Cirugía: osteosíntesis'],
@@ -110,46 +117,98 @@ module.exports = {
           { t: 'Diagnóstico clínico', d: 'Punción si dudas de artritis séptica', say: 'El diagnóstico es clínico. Si dudas con una artritis séptica, se punciona la articulación, y en la sinovitis el líquido es normal.' },
         ] },
         { title: 'Perthes y epifisiólisis', tag: 'Cabeza femoral', kind: 'alert', items: [
-          { t: 'Perthes: necrosis de la cabeza', d: 'Niño bajo y muy activo', say: 'La enfermedad de Perthes es una necrosis avascular de la cabeza femoral en un niño de talla baja y de mucha actividad física. La radiografía muestra la cabeza aplanada y densa.' },
-          { t: 'Epifisiólisis: obeso en pubertad', d: 'Helado caído en la radiografía', say: 'La epifisiólisis es el deslizamiento de la cabeza femoral en un adolescente obeso. Se ve el signo del helado caído, la cabeza que resbala hacia atrás y abajo, y se opera.' },
+          { t: 'Perthes: necrosis de la cabeza', d: 'Niño bajo y muy activo',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-14/01_enfermedad-de-perthes__bailey-love_p593.jpg', label: 'Perthes: cabeza densa', at: 'En esta radiografía', credit: 'Bailey & Love 27.ª ed., Fig. 39.21' },
+            say: 'La enfermedad de Perthes es una necrosis avascular de la cabeza femoral en un niño de talla baja y de mucha actividad física. En esta radiografía la cabeza de un lado se ve más densa, porque el hueso está necrótico, y con el tiempo se colapsa y se fragmenta. Compárala con la cadera sana.' },
+          { t: 'Epifisiólisis: obeso en pubertad', d: 'Helado caído en la radiografía',
+            photos: [
+              { src: 'biblioteca/18_traumatologia/trauma-14/02_epifisiolisis-femoral__bailey-love_p595.jpg', label: 'Epifisiólisis de cadera', at: 'En esta radiografía', credit: 'Bailey & Love 27.ª ed., Fig. 39.22' },
+              { src: 'biblioteca/18_traumatologia/trauma-14/22_epifisiolisis-klein__sherman_p768.jpg', label: 'Línea de Klein anormal', at: 'la línea de Klein', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 768' },
+            ],
+            say: 'La epifisiólisis es el deslizamiento de la cabeza femoral en un adolescente obeso. En esta radiografía la cabeza resbala hacia atrás y abajo respecto del cuello: el signo del helado caído. Y la línea de Klein, trazada sobre el cuello femoral, en la cadera anormal no cruza la epífisis, como sí lo hace en la sana. Se opera.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Pie del niño',
+      title: 'Pie plano y otras alteraciones del pie',
+      cards: [
+        { title: 'Pie plano', tag: 'Casi siempre fisiológico', kind: 'normal', items: [
+          { t: 'Flexible: arco que aparece de puntillas', d: 'Se forma entre los 6 y los 10 años',
+            say: 'El pie plano flexible es fisiológico en el lactante y el preescolar, porque el arco longitudinal se forma entre los seis y los diez años. Es indoloro y el arco aparece al ponerse de puntillas o al extender el hallux. No requiere plantillas ni calzado especial: se tranquiliza a los padres y se controla.' },
+          { t: 'Derivar: rígido, doloroso o unilateral', d: 'Coalición tarsiana, astrágalo vertical; Rx con carga',
+            say: 'Se deriva el pie plano rígido, que no se corrige en puntillas, el doloroso, el unilateral o el asociado a retracción del tendón de Aquiles. Sospecha coalición tarsiana o astrágalo vertical, y pide radiografía con carga.' },
+        ] },
+        { title: 'Otras alteraciones', tag: 'Lo que se pregunta', kind: 'key', items: [
+          { t: 'Metatarso aducto y talo valgo', d: 'Aducto: yesos seriados si es rígido',
+            say: 'El metatarso aducto, con el borde externo del pie en C, se corrige solo; si es rígido, yesos seriados. El pie talo valgo es flexible, benigno, y mejora con el tiempo.' },
+          { t: 'Pie cavo: buscar causa neurológica', d: 'Charcot-Marie-Tooth o disrafismo',
+            say: 'El pie cavo, con el arco aumentado, obliga a buscar una causa neurológica, como Charcot-Marie-Tooth o un disrafismo.' },
+          { t: 'Torsión tibial interna', d: 'Se resuelve hacia los 8 años',
+            say: 'La torsión tibial interna da una marcha con las puntas hacia dentro y se resuelve hacia los ocho años. Y el pie bot, a diferencia de todos estos, requiere tratamiento precoz con el método de Ponseti.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Fracturas del niño',
+      title: 'Disyunción-fractura: la placa de crecimiento',
+      cards: [
+        { title: 'Salter-Harris', tag: 'La fisis es el eslabón débil', kind: 'key', items: [
+          { t: 'I a V según el trazo', d: 'La II es la más frecuente, cerca de 75 %',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-14/21_salter-harris__sherman_p764.jpg', label: 'Salter-Harris I, II y III', at: 'En estas radiografías', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 764' },
+            say: 'La fisis, el cartílago de crecimiento, es el eslabón más débil del hueso inmaduro y se lesiona antes que el ligamento. Se clasifica con Salter-Harris. La uno es una separación a través de la fisis; la dos, fisis y metáfisis, la más frecuente, cerca de setenta y cinco por ciento; la tres, fisis y epífisis, intraarticular; la cuatro, epífisis, fisis y metáfisis; y la cinco, un aplastamiento de la fisis. En estas radiografías ves los tipos uno, dos y tres.' },
+          { t: 'III, IV y V comprometen el crecimiento', d: 'Detención, deformidad angular, dismetría',
+            say: 'Los tipos tres, cuatro y cinco comprometen el crecimiento, con detención, deformidad angular o dismetría.' },
+        ] },
+        { title: 'Sospecha y manejo', tag: 'Aunque la Rx sea normal', kind: 'alert', items: [
+          { t: 'Dolor sobre la fisis y no usa la extremidad', d: 'Rx normal: se trata como fractura',
+            say: 'Sospéchala ante dolor a la palpación sobre la fisis, aumento de volumen y rechazo del uso de la extremidad, aunque la radiografía sea normal, que es el tipo uno. Se trata como fractura.' },
+          { t: 'I y II: yeso 3 a 4 semanas', d: 'III y IV: reducción anatómica, derivar',
+            say: 'Los tipos uno y dos, con reducción cerrada si hay desplazamiento, se inmovilizan con yeso tres a cuatro semanas. Los tres y cuatro requieren reducción anatómica y fijación quirúrgica, así que se derivan.' },
+          { t: 'Control por 1 a 2 años', d: 'Radio distal, tobillo y codo; sospechar maltrato',
+            say: 'Se controla con radiografía durante uno a dos años por el riesgo de trastorno del crecimiento. Las más frecuentes son las del radio distal, el tobillo y el codo, y si el mecanismo no las explica, sospecha maltrato.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Columna del niño',
+      title: 'Escoliosis, cifosis y espondilolistesis',
+      cards: [
+        { title: 'Escoliosis y cifosis', tag: 'Del adolescente', kind: 'key', items: [
+          { t: 'Escoliosis: niñas de 10 a 14, Cobb mayor de 10', d: 'Curva torácica derecha; Risser',
+            say: 'La escoliosis idiopática del adolescente es la más común, en niñas de diez a catorce años, con curva torácica derecha. Se define por un ángulo de Cobb mayor de diez grados en la radiografía de columna total de pie. El riesgo de progresión depende de la magnitud de la curva y del crecimiento restante, el signo de Risser.' },
+          { t: 'Resonancia ante banderas rojas', d: 'Dolor, curva izquierda, déficit, inicio antes de los 10',
+            say: 'Pides resonancia ante signos de alarma: dolor, curva torácica izquierda, déficit neurológico, inicio antes de los diez años o progresión rápida.' },
+          { t: 'Scheuermann: cifosis rígida mayor de 45°', d: 'Tres o más vértebras acuñadas',
+            say: 'La cifosis postural es flexible y se corrige al extender. La enfermedad de Scheuermann, en varones adolescentes, es una cifosis torácica rígida mayor de cuarenta y cinco grados con acuñamiento de tres o más vértebras, y se trata con ejercicios y corsé.' },
+        ] },
+        { title: 'Espondilolistesis', tag: 'Adolescente deportista', kind: 'alert', items: [
+          { t: 'Dolor lumbar con la extensión', d: 'Gimnasia, lanzamientos',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-14/24_espondilolistesis-l4l5__sherman_p670.jpg', label: 'Espondilolistesis grado 1', at: 'En esta radiografía lateral', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 670' },
+            say: 'La espondilólisis y la espondilolistesis dan dolor lumbar con la extensión en un adolescente deportista, de gimnasia o lanzamientos. La radiografía oblicua muestra la lesión de la pars interarticularis, el perro con collar. En esta radiografía lateral ves el deslizamiento de una vértebra sobre la otra, un grado uno de Meyerding. Se trata con reposo deportivo, corsé y kinesiterapia.' },
+          { t: 'Espalda en el niño: buscar causa orgánica', d: 'Infección, tumores, histiocitosis',
+            say: 'El dolor de espalda en el niño es poco frecuente, así que se descartan causas orgánicas, como infección, tumores como el osteoma osteoide, o histiocitosis. Todo caso con dolor nocturno, fiebre o déficit neurológico se deriva.' },
         ] },
       ],
     },
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Cadera, columna y pie del niño',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Escoliosis y ángulo de Cobb',
       images: [
-        { src: 'biblioteca/18_traumatologia/trauma-14/01_enfermedad-de-perthes__bailey-love_p593.jpg', label: 'Enfermedad de Perthes: cabeza densa y colapsada', credit: 'Bailey & Love 27.ª ed., Fig. 39.21' },
-        { src: 'biblioteca/18_traumatologia/trauma-14/02_epifisiolisis-femoral__bailey-love_p595.jpg', label: 'Epifisiólisis leve de la cadera derecha', credit: 'Bailey & Love 27.ª ed., Fig. 39.22' },
-        { src: 'biblioteca/18_traumatologia/trauma-14/03_escoliosis-angulo-de-cobb__bailey-love_p603.jpg', label: 'Escoliosis torácica derecha, Cobb de 40 grados', credit: 'Bailey & Love 27.ª ed., Fig. 39.36' },
+        { src: 'animaciones/trauma-14/A1_escoliosis_cobb.mp4', label: 'Cómo se mide y qué se hace según los grados', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Perthes: cabeza densa y colapsada',
-          say: 'En la enfermedad de Perthes, la cabeza femoral de un lado se ve más densa, porque el hueso está necrótico, y con el tiempo se colapsa y se fragmenta. Compárala con la cadera sana.' },
-        { note: 'Epifisiólisis: la cabeza resbala',
-          say: 'En la epifisiólisis, la cabeza femoral se desliza hacia atrás y abajo respecto del cuello. Es el signo del helado caído, en un adolescente.' },
-        { note: 'Escoliosis: curva lateral medida con Cobb',
-          say: 'Esta es una escoliosis torácica derecha, con un ángulo de Cobb de cuarenta grados. Según el libro, ese rango, entre treinta y cincuenta grados, se maneja con corsé.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Displasia y pie bot',
-      images: [
-        { src: 'biblioteca/18_traumatologia/trauma-14/05_maniobra-de-ortolani__nelson_p5430.jpg', label: 'Maniobra de Ortolani', credit: 'Nelson 22.ª ed., p. 5430' },
-        { src: 'biblioteca/18_traumatologia/trauma-14/04_yesos-seriados-ponseti__bailey-love_p599.jpg', label: 'Yesos seriados del método de Ponseti', credit: 'Bailey & Love 27.ª ed., Fig. 39.30' },
-      ],
-      steps: [
-        { note: 'Ortolani reduce la cadera',
-          say: 'En el recién nacido, la maniobra de Ortolani reduce una cadera luxada. La de Barlow hace lo contrario: la luxa.' },
-        { note: 'Ponseti: yesos que corrigen paso a paso',
-          say: 'Y aquí la serie de yesos del método de Ponseti, que corrige paso a paso el pie bot. Se empieza cuanto antes.' },
+        { note: 'Medir el ángulo de Cobb',
+          say: 'Esta es una escoliosis. Se mide con el ángulo de Cobb: tangentes a las vértebras límite, superior e inferior. El diagnóstico clínico es el test de Adams: al inclinarse hacia adelante aparece la giba costal. Con menos de treinta grados, ejercicios y observación; entre treinta y cincuenta, corsé; y sobre cincuenta, cirugía. Una curva izquierda, dolor o déficit neurológico obligan a pedir resonancia.' },
       ],
     },
 
@@ -292,6 +351,156 @@ module.exports = {
         options: 'Las opciones: esperar al próximo control infantil; derivar a ortopedia infantil para el método de Ponseti; hospitalizar para cirugía inmediata; observar en la casa porque se corrige solo; o kinesiología con férulas. Piénsalo.',
         answer: 'Es la B. El pie bot se trata con yesos seriados de Ponseti, y mientras antes parta, mejor el resultado. La C es la tentación, porque suena a deformidad quirúrgica, pero hoy la cirugía quedó desplazada. La D es un error: no se corrige solo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.091 · Alteraciones de los pies",
+      "stem": "Recién nacido de término, de 2 días de vida, en puerperio. Al examen, el pie derecho está en equino, varo, aducto y cavo, con un pliegue medial profundo, y no se logra llevar a posición neutra con la manipulación suave. El resto del examen, incluidas caderas y columna, es normal.",
+      "question": "¿Cuál es el diagnóstico y la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pie metatarso aducto postural; observar y tranquilizar"
+        },
+        {
+          "letter": "B",
+          "text": "Pie bot; esperar hasta el año de vida para cirugía"
+        },
+        {
+          "letter": "C",
+          "text": "Pie plano flexible; plantillas desde el inicio de la marcha"
+        },
+        {
+          "letter": "D",
+          "text": "Pie talo valgo; ejercicios de elongación por los padres"
+        },
+        {
+          "letter": "E",
+          "text": "Pie bot (equinovaro congénito); derivar precozmente a traumatología infantil para tratamiento con método de Ponseti (yesos seriados)"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El pie bot o equinovaro congénito tiene equino, varo, aducto y cavo rígidos, que no se corrigen con la manipulación. Debe derivarse en las primeras semanas para el método de Ponseti con yesos seriados, habitualmente con tenotomía del Aquiles y férula de abducción. Las deformidades posturales, en cambio, se corrigen pasivamente.",
+      "say": {
+        "stem": "Un recién nacido de dos días tiene el pie derecho en punta, girado hacia adentro y con un pliegue profundo en el borde interno, y no se logra llevarlo a posición normal con la mano.",
+        "question": "¿Cuál es el diagnóstico y la conducta?",
+        "options": "Las opciones: metatarso aducto postural, pie bot con cirugía al año, pie plano flexible, pie talo valgo o pie bot con derivación precoz para yesos seriados. Piénsalo.",
+        "answer": "Es la E. Un pie en equino y varo que no se corrige con la mano es un pie bot, y se deriva en las primeras semanas para el método de Ponseti con yesos seriados. El metatarso aducto postural tienta, pero ese pie sí se corrige pasivamente y no tiene equino."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.4.004 · Radiografía de displasia cadera",
+      "stem": "Lactante de 3 meses, sexo femenino, primera hija, nacida en presentación podálica, asiste a control de salud. El examen de caderas muestra leve limitación de la abducción izquierda, sin signos de Ortolani ni Barlow. Según la normativa ministerial, corresponde el tamizaje por imagen a esta edad.",
+      "question": "¿Qué hallazgo de la radiografía de pelvis apoya el diagnóstico de displasia de cadera?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Índice acetabular aumentado, sobre 30 grados, con la metáfisis femoral desplazada hacia afuera de la línea de Perkins y ruptura del arco de Shenton"
+        },
+        {
+          "letter": "B",
+          "text": "Índice acetabular de 20 grados con el núcleo femoral en el cuadrante inferior interno"
+        },
+        {
+          "letter": "C",
+          "text": "Ausencia de núcleo de osificación de la cabeza femoral, que siempre indica luxación"
+        },
+        {
+          "letter": "D",
+          "text": "Línea de Hilgenreiner que pasa por ambos cartílagos trirradiados"
+        },
+        {
+          "letter": "E",
+          "text": "Densidad ósea disminuida en ambas caderas"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En Chile se tamiza con radiografía de pelvis a los 3 meses. Sugieren displasia un índice acetabular mayor de 30 grados, la metáfisis o el núcleo femoral fuera del cuadrante inferointerno formado por las líneas de Hilgenreiner y Perkins, y la ruptura del arco de Shenton. La ausencia del núcleo de osificación puede ser normal a esta edad.",
+      "say": {
+        "stem": "Una lactante de tres meses, primera hija y nacida en podálica, tiene leve limitación de la abducción de la cadera izquierda en su control. Se pide la radiografía de pelvis de tamizaje.",
+        "question": "¿Qué hallazgo radiológico apoya una displasia de cadera?",
+        "options": "Las opciones: índice acetabular sobre treinta grados con fémur desplazado y arco de Shenton roto, índice acetabular de veinte grados con núcleo bien ubicado, ausencia de núcleo de osificación, la línea de Hilgenreiner por los cartílagos trirradiados o menor densidad ósea. Piénsalo.",
+        "answer": "Es la A. Un índice acetabular sobre treinta grados, el fémur fuera del cuadrante inferior interno y el arco de Shenton roto indican displasia. La ausencia del núcleo tienta, pero a los tres meses muchas veces todavía no aparece y no basta para el diagnóstico."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 159",
+      "stem": "Niño de 8 años con pie plano flexible asintomático. El arco plantar aparece al pararse en puntillas. No tiene dolor ni limitación funcional.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tranquilizar a los padres: pie plano flexible fisiológico, no requiere plantillas ni tratamiento"
+        },
+        {
+          "letter": "B",
+          "text": "Plantillas correctoras"
+        },
+        {
+          "letter": "C",
+          "text": "Derivar a ortopedia"
+        },
+        {
+          "letter": "D",
+          "text": "Fisioterapia intensiva"
+        },
+        {
+          "letter": "E",
+          "text": "Cirugía correctora"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El pie plano flexible (el arco se forma en puntillas) y asintomático es una variante normal que no requiere plantillas: no cambian la evolución. Se deriva solo si es rígido, doloroso, unilateral o progresivo, para descartar coalición tarsal u otras causas.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Niño de ocho años con pie plano flexible: el arco aparece al pararse en puntillas, y no tiene dolor ni limitación.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: tranquilizar a los padres sin tratamiento, plantillas correctoras, derivar a ortopedia, fisioterapia intensiva o cirugía. Piénsalo.",
+        "answer": "Es la A. Un pie plano flexible y sin síntomas es una variante normal y no necesita tratamiento. Las plantillas tientan, pero no modifican la evolución; se reservan para pies dolorosos, y la derivación para el pie plano rígido."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2016 · Pregunta 178",
+      "stem": "Niño de 12 años, obeso, refiere dolor de 3 meses en la cadera izquierda y claudicación progresiva que actualmente le impide la marcha. Al examen físico presenta dolor a la rotación interna y externa de la cadera izquierda. La radiografía AP de pelvis y caderas muestra desplazamiento posteroinferior de la epífisis femoral proximal izquierda respecto de la metáfisis, con ensanchamiento de la fisis.",
+      "question": "¿Cuál es el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Displasia del desarrollo de la cadera"
+        },
+        {
+          "letter": "B",
+          "text": "Epifisiolisis"
+        },
+        {
+          "letter": "C",
+          "text": "Fractura del cuello del fémur"
+        },
+        {
+          "letter": "D",
+          "text": "Luxación de la cadera izquierda"
+        },
+        {
+          "letter": "E",
+          "text": "Necrosis avascular de la cabeza del fémur"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Adolescente obeso con dolor de cadera o rodilla, claudicación y deslizamiento de la epífisis femoral sobre la metáfisis es una epifisiolisis (disyunción a través de la fisis). Se suspende la carga y se deriva para fijación in situ urgente; no se intenta reducir. La necrosis avascular es su complicación.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil dieciséis. Niño de doce años, obeso, con tres meses de dolor de cadera izquierda y cojera que ya le impide caminar. La radiografía muestra la epífisis femoral deslizada hacia atrás y abajo sobre la metáfisis.",
+        "question": "¿Cuál es el diagnóstico?",
+        "options": "Las opciones: displasia de cadera, epifisiolisis, fractura del cuello femoral, luxación de cadera o necrosis avascular. Piénsalo.",
+        "answer": "Es la B. Adolescente obeso con cojera y la epífisis deslizada es una epifisiolisis. La necrosis avascular tienta, pero en este grupo es una complicación del deslizamiento, y la imagen descrita es el deslizamiento mismo."
+      }
     },
 
     {

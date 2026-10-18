@@ -1,0 +1,76 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// Salud pública: gráficos sin anatomía (solo código).
+// ?v=epidemica (sp-04): tres curvas epidémicas y qué indica cada una.
+// ?v=confusion (sp-09): confusión, el tabaco explica la asociación café-cáncer (tabla estratificada).
+const V = new URLSearchParams(location.search).get('v') || 'epidemica';
+window.SCENE = { duration: ({ epidemica: 24, confusion: 26 })[V] || 24, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const G = GRAPH(L), K = KIT(L), { seg, fade } = K;
+
+function bars(ax, vals, k, col, w) {
+  const n = vals.length;
+  vals.forEach((v, i) => {
+    const kk = clamp(k * n - i, 0, 1); if (kk <= 0) return;
+    const x0 = ax.X(i) - w / 2, y0 = ax.Y(0), h = (y0 - ax.Y(v)) * ease(kk);
+    ctx.fillStyle = col; ctx.fillRect(x0, y0 - h, w, h);
+  });
+}
+
+function epidemica(t) {
+  K.title('Curva epidémica: qué dice la forma', 'Casos por día de inicio de síntomas', C.AMBER);
+  const defs = [
+    { x: 40, col: C.RED, name: 'Un solo pico', sub: 'Fuente común puntual', note: 'Comida contaminada en un banquete',
+      v: [0, 0, 1, 4, 9, 14, 9, 5, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0], a: 1.5 },
+    { x: 460, col: C.BLUE, name: 'Meseta', sub: 'Fuente común continua', note: 'Agua contaminada que sigue en uso',
+      v: [0, 1, 3, 6, 9, 10, 10, 9, 10, 10, 9, 10, 8, 5, 2, 1, 0, 0], a: 7.5 },
+    { x: 880, col: C.GREEN, name: 'Picos sucesivos', sub: 'Persona a persona', note: 'Separados por un período de incubación',
+      v: [0, 2, 4, 2, 0, 0, 1, 5, 9, 5, 1, 0, 2, 8, 14, 8, 2, 0], a: 13.5 },
+  ];
+  defs.forEach(d => {
+    const a = seg(t, d.a - 0.5, 0.5); if (a <= 0) return;
+    ctx.globalAlpha = a;
+    const ax = G.axes({ x: d.x + 40, y: 190, w: 320, h: 260 }, [-0.5, 17.5], [0, 16], { xt: [0, 6, 12, 17], yt: [0, 8, 16], yl: '', xl: 'Días' });
+    ax.draw(1);
+    ctx.globalAlpha = a;
+    bars(ax, d.v, ease(seg(t, d.a, 4)), d.col, 13);
+    text(d.name, d.x + 40, 520, 26, d.col, 'bold');
+    text(d.sub, d.x + 40, 553, 22, C.INK);
+    text(d.note, d.x + 40, 583, 17, C.MUTED);
+    ctx.globalAlpha = 1;
+  });
+  K.banner(40, 640, 1200, 'La forma de la curva orienta la fuente; el estudio analítico la confirma', C.AMBER, seg(t, 19, 0.6));
+}
+
+function confusion(t) {
+  K.title('Confusión: el tabaco explica el café', 'La asociación cruda desaparece al estratificar', C.VIOLET);
+  // Cuadro crudo: RR 2,0 ; estratos: RR 1,0
+  const raw = seg(t, 1, 0.6), st = seg(t, 9, 0.6);
+  K.card(40, 150, 560, 180, C.RED, 'Análisis crudo', ['Café y cáncer de pulmón', 'Bebedores 20 de 100 enfermos (20 %)', 'No bebedores 10 de 100 enfermos (10 %)', 'RR crudo = 2,0'], raw, 20);
+  const x0 = 640;
+  K.card(x0, 150, 600, 180, C.GREEN, 'Estratificado por tabaco', ['Fumadores: 30 % con café, 30 % sin café, RR = 1,0', 'No fumadores: 5 % con café, 5 % sin café, RR = 1,0', 'Entre bebedores fuma el 60 %; entre no bebedores, el 20 %', 'RR ajustado = 1,0'], st, 20);
+  // barras
+  const ax = G.axes({ x: 120, y: 380, w: 420, h: 150 }, [-0.5, 1.5], [0, 40], { xt: [], yt: [0, 20, 40], yl: '', xl: '' });
+  if (raw > 0) { ctx.globalAlpha = raw; ax.draw(1); ctx.globalAlpha = 1; }
+  const vals = [20, 10]; const labs = ['Con café', 'Sin café'];
+  vals.forEach((v, i) => { const h = (ax.Y(0) - ax.Y(v)) * ease(seg(t, 2, 1.5)); ctx.fillStyle = C.RED; ctx.fillRect(ax.X(i) - 40, ax.Y(0) - h, 80, h); text(labs[i], ax.X(i), ax.Y(0) + 26, 18, C.INK, '', 'center'); });
+  const ax2 = G.axes({ x: 700, y: 380, w: 500, h: 150 }, [-0.5, 3.5], [0, 40], { xt: [], yt: [0, 20, 40], yl: '', xl: '' });
+  if (st > 0) { ctx.globalAlpha = st; ax2.draw(1); ctx.globalAlpha = 1; }
+  const v2 = [30, 30, 5, 5], l2 = ['Fuma + café', 'Fuma', 'No fuma + café', 'No fuma'];
+  v2.forEach((v, i) => { const h = (ax2.Y(0) - ax2.Y(v)) * ease(seg(t, 10, 1.5)); ctx.fillStyle = i < 2 ? C.AMBER : C.GREEN; ctx.fillRect(ax2.X(i) - 30, ax2.Y(0) - h, 60, h); if (st > 0) { ctx.globalAlpha = st; text(l2[i], ax2.X(i), ax2.Y(0) + 24, 14, C.INK, '', 'center'); ctx.globalAlpha = 1; } });
+  // triángulo de confusión
+  const a = seg(t, 5, 0.6);
+  if (a > 0) { ctx.globalAlpha = a; tag('El tabaco es el confusor', 640, 355, C.AMBER, 18); ctx.globalAlpha = 1; }
+  K.banner(40, 650, 1200, 'Confusor: asociado a la exposición Y al desenlace, y no está en la vía causal', C.VIOLET, seg(t, 16, 0.6));
+  const b = seg(t, 20, 0.6);
+  if (b > 0) { ctx.globalAlpha = b; text('Control: restricción, apareamiento, aleatorización (diseño); estratificación y ajuste (análisis)', 40, 612, 17, C.MUTED); ctx.globalAlpha = 1; }
+}
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); ({ epidemica, confusion })[V](t); text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); };
+LOAD({});
+</script>
+</body></html>

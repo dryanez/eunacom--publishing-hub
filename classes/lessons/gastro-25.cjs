@@ -36,7 +36,8 @@ module.exports = {
         { show: ['tri'], note: 'Retención gástrica o vómitos + distensión + sangre en deposiciones',
           say: 'Aparece en los primeros días o semanas de vida, con una tríada: retención gástrica o vómitos, distensión abdominal y hematoquecia, es decir, sangre en las deposiciones. Aprende la tríada, porque el examen la describe tal cual.' },
         { show: ['rx'], note: 'Aire en la pared del intestino = enterocolitis',
-          say: 'El examen es la radiografía de abdomen, y aquí está la imagen clave: la neumatosis intestinal, que es aire dentro de la pared del intestino. Es patognomónica. Si ves aire en la pared, no hay nada más que discutir.' },
+          say: 'El examen es la radiografía de abdomen, y aquí está la imagen clave: mira esta radiografía, con la neumatosis intestinal, que es aire dentro de la pared del intestino. Es patognomónica. Si ves aire en la pared, no hay nada más que discutir.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-25/01_neumatosis-ecn__cto-pediatria_p24.jpg', label: 'Neumatosis intestinal', at: 'mira esta radiografía', credit: 'Manual CTO Pediatría 14.ª ed., p. 24' } },
         { show: ['med'], note: 'Primero se trata sin cirugía',
           say: 'El tratamiento es médico: régimen cero, nutrición parenteral total, sonda para descomprimir y antibióticos endovenosos. Fíjate que la neumatosis por sí sola no es indicación de operar.' },
         { show: ['neu', 'cir'], note: 'Neumatosis: tratamiento médico. Neumoperitoneo: pabellón',
@@ -69,7 +70,11 @@ module.exports = {
         { show: ['mer'], note: 'La imagen clave: "mermelada de grosella"',
           say: 'Y la imagen clave: deposiciones en mermelada de grosella, que es sangre mezclada con moco. A veces además palpas una masa alargada, en salchicha. Lactante, crisis de llanto y mermelada de grosella: con eso ya tienes el diagnóstico.' },
         { show: ['eco'], note: 'Ecografía: signo de la dona',
-          say: 'Se confirma con ecografía abdominal, que muestra el signo de la dona, o de la diana: los anillos del intestino metido dentro del intestino, vistos en corte.' },
+          say: 'Se confirma con ecografía abdominal. Mira esta ecografía: el signo de la dona, o de la diana, con los anillos del intestino metido dentro del intestino, vistos en corte. Y este esquema muestra el segmento que se mete en el siguiente, como un telescopio.',
+          photos: [
+            { src: 'biblioteca/01_gastroenterologia/gastro-25/03_invaginacion-eco__cto-pediatria_p70.jpg', label: 'Signo de la dona', at: 'Mira esta ecografía', credit: 'Manual CTO Pediatría 14.ª ed., p. 70' },
+            { src: 'biblioteca/01_gastroenterologia/gastro-25/03_invaginacion-eco_alt1__cto-radiologia_p155.jpg', label: 'Invaginación (esquema)', at: 'Y este esquema', credit: 'Manual CTO Radiología 14.ª ed., p. 155' },
+          ] },
         { show: ['red'], note: 'Primera línea: reducción, no cirugía',
           say: 'Y aquí está lo que se pregunta. El tratamiento de primera línea no es la cirugía: es la reducción neumática, o hidrostática, guiada por imagen. Se empuja el segmento invaginado de vuelta desde abajo, con aire o con líquido.' },
         { show: ['cir'], note: 'Cirugía: fracaso, perforación o causa anatómica',
@@ -145,13 +150,19 @@ module.exports = {
           { t: 'Vómitos biliosos desde el día 1', d: 'Obstrucción desde el nacimiento',
             say: 'Vamos ahora a las malformaciones. La primera es la atresia duodenal: el duodeno está cerrado desde el nacimiento, así que el recién nacido vomita, y vomita bilioso, desde el primer día de vida.' },
           { t: 'Radiografía: "doble burbuja"', d: 'Asociada a síndrome de Down',
-            say: 'La imagen clave es la doble burbuja en la radiografía: una burbuja de aire en el estómago y otra en el duodeno, y nada más allá. Y un dato asociado que se pregunta: el síndrome de Down. El tratamiento es quirúrgico.' },
+            say: 'La imagen clave es la doble burbuja en la radiografía: una burbuja de aire en el estómago y otra en el duodeno, y nada más allá. Y un dato asociado que se pregunta: el síndrome de Down. El tratamiento es quirúrgico. Mira esta radiografía: las dos burbujas de aire, una en el estómago y otra en el duodeno.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-25/01_doble_burbuja__bailey_p155.jpg', label: 'Doble burbuja', at: 'Mira esta radiografía', credit: 'Bailey & Love 27.ª ed., Fig. 9.24' } },
         ] },
         { title: 'Atresia esofágica', tag: 'No traga', kind: 'alert', items: [
           { t: 'Sialorrea desde el nacimiento', d: 'La saliva no tiene por dónde bajar',
             say: 'La atresia esofágica es más arriba: el esófago termina en fondo de saco. Por eso el recién nacido tiene sialorrea desde el nacimiento, la saliva no tiene por dónde bajar.' },
           { t: 'La sonda no progresa al estómago', d: 'Ese es el signo clave',
             say: 'Y el signo clave: intentas pasar una sonda y no progresa al estómago.' },
+        ] },
+        { title: 'Estenosis del píloro', tag: 'Vómito sin bilis', kind: 'normal', items: [
+          { t: 'Vómito explosivo en lactante de pocas semanas', d: 'Ecografía: píloro engrosado y alargado',
+            say: 'Y la contraparte, el vómito sin bilis: la estenosis hipertrófica del píloro, con vómitos explosivos en un lactante de pocas semanas. Mira esta ecografía: el píloro engrosado y alargado.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-25/02_eco-piloro-ehp__cto-pediatria_p65.jpg', label: 'Estenosis del píloro', at: 'Mira esta ecografía', credit: 'Manual CTO Pediatría 14.ª ed., p. 65' } },
         ] },
       ],
     },
@@ -174,7 +185,8 @@ module.exports = {
       ],
       steps: [
         { show: ['def', 'asa'], note: 'Las asas suben por el defecto',
-          say: 'La tercera malformación es la hernia diafragmática congénita. Hay un defecto en el diafragma, y por ese defecto las asas intestinales suben al tórax.' },
+          say: 'La tercera malformación es la hernia diafragmática congénita. Hay un defecto en el diafragma, y por ese defecto las asas intestinales suben al tórax. Mira esta radiografía: el hemitórax ocupado por asas intestinales con aire, con las sondas del recién nacido.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-25/05_hernia-diafragmatica-congenita__cto-radiologia_p153.jpg', label: 'Hernia diafragmática', at: 'Mira esta radiografía', credit: 'Manual CTO Radiología 14.ª ed., p. 153' } },
         { show: ['res'], note: 'El intestino ocupa el lugar del pulmón',
           say: 'El mecanismo explica la clínica. Con el intestino ocupando el tórax, el recién nacido tiene una dificultad respiratoria grave, y al auscultarlo escuchas ruidos hidroaéreos en el tórax, donde deberías escuchar murmullo pulmonar.' },
         { show: ['exc'], note: 'Abdomen excavado: el contenido no está ahí',
@@ -206,13 +218,73 @@ module.exports = {
         { show: ['mec'], note: 'La imagen clave: el meconio que no sale',
           say: 'Ahora el recién nacido que no evacua. La imagen clave de la enfermedad de Hirschsprung es el retraso en la eliminación del meconio: más de cuarenta y ocho horas sin que salga.' },
         { show: ['dis'], note: 'Luego: distensión y constipación',
-          say: 'Después vienen la distensión abdominal y la constipación. Conecta esto con la clase de constipación en el niño: allá dijimos que siempre hay que descartar organicidad, y la pregunta que lo descarta es justamente si hubo retraso en la eliminación del meconio.' },
+          say: 'Después vienen la distensión abdominal, como ves en esta radiografía con las asas dilatadas, y la constipación. Conecta esto con la clase de constipación en el niño: allá dijimos que siempre hay que descartar organicidad, y la pregunta que lo descarta es justamente si hubo retraso en la eliminación del meconio.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-25/04_hirschsprung_1__cto-pediatria_p68.jpg', label: 'Hirschsprung: asas dilatadas', at: 'como ves en esta radiografía', credit: 'Manual CTO Pediatría 14.ª ed., p. 68' } },
         { show: ['bio'], note: 'Se confirma con biopsia, no con la clínica',
           say: 'El diagnóstico se confirma con biopsia rectal, que muestra la ausencia de células ganglionares. Ese segmento sin ganglios no se relaja, y funciona como un tapón.' },
         { show: ['res'], note: 'Se saca el segmento sin ganglios',
           say: 'Por eso el tratamiento es sacar ese segmento: la resección del segmento agangliónico.' },
         { show: ['ano', 'exa'], note: 'Lo más simple: mirar',
           say: 'Y el ano imperforado, que es lo más simple de todo: se diagnostica por inspección. La lección es que al recién nacido siempre hay que examinarle el ano. Si en un caso nadie lo miró, esa es la respuesta.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Estudios radiológicos',
+      title: 'Qué radiografía pedir y cómo leerla',
+      cards: [
+        { title: 'Radiografía simple de abdomen', tag: 'Patrón de gas', kind: 'key', items: [
+          { t: 'Doble burbuja = atresia duodenal', d: 'Estómago y duodeno sin gas distal',
+            say: 'En la radiografía simple de abdomen se revisa el patrón de gas, los niveles hidroaéreos y el aire fuera de la luz. La doble burbuja, con estómago y duodeno distendidos y sin gas más abajo, es una atresia duodenal.' },
+          { t: 'Neumatosis o gas portal = enterocolitis necrotizante', d: 'Neumoperitoneo = perforación',
+            say: 'La neumatosis, o el gas en la vena porta, es una enterocolitis necrotizante. El neumoperitoneo, con aire bajo el diafragma, el signo de Rigler, es una perforación.' },
+          { t: 'Asas dilatadas sin gas distal = obstrucción', d: 'Abdomen sin gas: vólvulo o peritonitis',
+            say: 'Asas dilatadas sin gas distal son una obstrucción. Y un abdomen sin gas puede ser un vólvulo o una peritonitis.' },
+        ] },
+        { title: 'Esófago-estómago-duodeno', tag: 'Anatomía, no reflujo', kind: 'alert', items: [
+          { t: 'Urgente ante vómitos biliosos', d: 'Descarta malrotación con vólvulo',
+            say: 'La radiografía de esófago, estómago y duodeno es el examen de la anatomía, no del reflujo. Se pide de urgencia ante vómitos biliosos del recién nacido o el lactante, para descartar una malrotación con vólvulo, que es una emergencia quirúrgica.' },
+          { t: 'Duodeno que no cruza la línea media', d: 'Treitz a la derecha; aspecto en tirabuzón',
+            say: 'En la malrotación, el duodeno no cruza la línea media, el ángulo de Treitz queda a la derecha y el contraste dibuja un tirabuzón. Mira este estudio contrastado: el medio de contraste dibuja asas enrolladas a un lado, sin la curva normal del duodeno.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-25/06_malrotacion-y-volvulo__cto-radiologia_p149.jpg', label: 'Malrotación y vólvulo', at: 'Mira este estudio', credit: 'Manual CTO Radiología 14.ª ed., p. 149' } },
+        ] },
+        { title: 'Enema baritada', tag: 'Sospecha de Hirschsprung', kind: 'normal', items: [
+          { t: 'Zona de transición en cono', d: 'Retención de bario a las 24 horas',
+            say: 'En la sospecha de Hirschsprung, la enema baritada muestra un segmento distal estrecho, una zona de transición en cono y el intestino dilatado por encima, con retención del bario a las veinticuatro horas. Mira esta enema: el recto estrecho y el colon dilatado por encima. Y esta otra, de perfil, con la zona de transición entre ambos.',
+            photos: [
+              { src: 'biblioteca/01_gastroenterologia/gastro-25/04_hirschsprung_2__cto-pediatria_p68.jpg', label: 'Hirschsprung: enema', at: 'Mira esta enema', credit: 'Manual CTO Pediatría 14.ª ed., p. 68' },
+              { src: 'biblioteca/01_gastroenterologia/gastro-25/07_hirschsprung-enema-baritada__nelson_p2962.jpg', label: 'Zona de transición', at: 'Y esta otra', credit: 'Nelson 22.ª ed., p. 2962' },
+            ] },
+          { t: 'Sin preparación; no reemplaza la biopsia rectal', d: 'En íleo meconial: microcolon',
+            say: 'Se hace sin preparación previa, sin enemas ni tacto, y no reemplaza a la biopsia rectal, que confirma el diagnóstico. En el íleo meconial o la atresia ileal se ve un microcolon.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Megacolon',
+      title: 'Megacolon: tres escenarios',
+      nodes: [
+        { id: 'mc', col: 0, row: 1, k: 'start', t: 'Colon dilatado', s: 'Megacolon' },
+        { id: 'con', col: 2, row: 0, k: 'effect', t: 'Congénito: Hirschsprung', s: 'Aganglionosis del segmento distal' },
+        { id: 'cha', col: 2, row: 1, k: 'effect', t: 'Chagásico', s: 'Adulto de zona endémica; plexos destruidos' },
+        { id: 'tox', col: 2, row: 2, k: 'alert', t: 'Tóxico', s: 'Colitis ulcerosa o C. difficile' },
+        { id: 'volv', col: 4, row: 1, k: 'risk', t: 'Constipación, fecaloma, vólvulo', s: 'Descomprimir por rectosigmoidoscopía y operar' },
+        { id: 'tcx', col: 4, row: 2, k: 'refer', t: 'Colon transverso mayor de 6 cm con shock', s: 'Régimen cero, SNG, corticoides y antibióticos' },
+      ],
+      edges: [
+        { from: 'mc', to: 'con' }, { from: 'mc', to: 'cha' }, { from: 'mc', to: 'tox' }, { from: 'cha', to: 'volv' }, { from: 'tox', to: 'tcx' },
+      ],
+      steps: [
+        { show: ['mc', 'con'], note: 'Congénito: Hirschsprung',
+          say: 'El megacolon es la dilatación del colon, y tiene tres escenarios. El congénito es el Hirschsprung, por una aganglionosis del segmento distal. Mira este esquema: un colon muy dilatado que termina en un segmento distal estrecho.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-25/04_hirschsprung_alt1__cto-radiologia_p149.jpg', label: 'Megacolon (esquema)', at: 'Mira este esquema', credit: 'Manual CTO Radiología 14.ª ed., p. 149' } },
+        { show: ['cha', 'volv'], note: 'Chagásico: constipación, fecaloma, vólvulo',
+          say: 'El chagásico, en el adulto de zona endémica, por destrucción de los plexos del intestino. Da constipación crónica, fecaloma y vólvulo del sigmoides, que se descomprime por rectosigmoidoscopía y se opera.' },
+        { show: ['tox', 'tcx'], note: 'Tóxico: no se hace enema ni colonoscopía',
+          say: 'Y el tóxico, en la colitis ulcerosa o por Clostridioides difficile: colon transverso de más de seis centímetros, con fiebre y shock. Régimen cero, sonda nasogástrica, corticoides y antibióticos endovenosos, y cirugía si no mejora. Aquí no se hace enema baritada ni colonoscopía. Se suma la pseudoobstrucción aguda de Ogilvie en pacientes graves.' },
       ],
     },
 
@@ -230,48 +302,8 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Una imagen por diagnóstico',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-25/01_doble_burbuja__bailey_p155.jpg', label: 'Doble burbuja', credit: 'Bailey & Love 27.ª ed., Fig. 9.24' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-25/01_neumatosis-ecn__cto-pediatria_p24.jpg', label: 'Neumatosis intestinal', credit: 'Manual CTO Pediatría 14.ª ed., p. 24' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-25/02_eco-piloro-ehp__cto-pediatria_p65.jpg', label: 'Estenosis hipertrófica del píloro', credit: 'Manual CTO Pediatría 14.ª ed., p. 65' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-25/03_invaginacion-eco__cto-pediatria_p70.jpg', label: 'Invaginación', credit: 'Manual CTO Pediatría 14.ª ed., p. 70' },
-      ],
-      steps: [
-        { note: 'Atresia duodenal',
-          say: 'Dos burbujas de aire, el estómago y el duodeno, y nada de aire más abajo: es la doble burbuja de la atresia duodenal.' },
-        { note: 'Aire en la pared del intestino',
-          say: 'Aire dentro de la pared del intestino, en un prematuro que se distiende: es la enterocolitis necrotizante.' },
-        { note: 'Píloro engrosado y largo',
-          say: 'En la ecografía, un píloro engrosado y alargado en un lactante con vómitos explosivos: estenosis hipertrófica del píloro.' },
-        { note: 'Imagen en diana',
-          say: 'Y la imagen en diana, como capas de cebolla, es la invaginación intestinal.' },
-      ],
-    },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-25/04_hirschsprung_1__cto-pediatria_p68.jpg', label: 'Hirschsprung: distensión intestinal (Rx)', credit: 'Manual CTO Pediatría 14.ª ed., p. 68' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-25/04_hirschsprung_2__cto-pediatria_p68.jpg', label: 'Hirschsprung: enema con zona de transición', credit: 'Manual CTO Pediatría 14.ª ed., p. 68' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-25/05_hernia-diafragmatica-congenita__cto-radiologia_p153.jpg', label: 'Hernia diafragmática congénita', credit: 'Manual CTO Radiología 14.ª ed., p. 153' },
-      ],
-      steps: [
-        { note: 'Hirschsprung: distensión intestinal (Rx)',
-          say: 'Radiografía de abdomen con asas intestinales distendidas en un recién nacido con Hirschsprung.' },
-        { note: 'Hirschsprung: enema con zona de transición',
-          say: 'Enema contrastado en la enfermedad de Hirschsprung: recto estrecho y colon dilatado por encima.' },
-        { note: 'Hernia diafragmática congénita',
-          say: 'En esta radiografía de un recién nacido, el tórax está ocupado por imágenes redondas con aire: son asas intestinales que subieron por el defecto del diafragma. Es la hernia diafragmática congénita, y lo primero es intubar y ventilar.' },
-      ],
-    },
+
 
     {
       type: 'pathway',
@@ -296,6 +328,8 @@ module.exports = {
           say: 'Hirschsprung: meconio que no sale en cuarenta y ocho horas y constipación. Biopsia rectal, y resección.' },
         { cells: ['Hernia diafragmática congénita', 'Distrés respiratorio + abdomen excavado', 'Intubar y ventilar; cirugía diferida'],
           say: 'Y la hernia diafragmática congénita: distrés respiratorio con abdomen excavado. Primero intubar y ventilar; la cirugía, después.' },
+        { cells: ['Malrotación con vólvulo', 'Vómito bilioso + duodeno que no cruza la línea media', 'Rx esófago-estómago-duodeno urgente; cirugía'],
+          say: 'Y la malrotación con vólvulo: vómito bilioso y un duodeno que no cruza la línea media en la radiografía de esófago, estómago y duodeno. Es urgente, y se opera.' },
       ],
     },
 
@@ -435,6 +469,195 @@ module.exports = {
         options: 'Las opciones: úlcera rectal solitaria, hemorroides, divertículo de Meckel, pólipo juvenil, o fisura anal. Piénsalo.',
         answer: 'Es la D. Escolar sano, con un sangrado escaso e intermitente, sin dolor: es el pólipo juvenil. La fisura anal duele, y el divertículo de Meckel sangra mucho más y en niños más pequeños. Se confirma y se trata con colonoscopía y polipectomía, en el mismo procedimiento.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.003 · Divertículo de Meckel",
+      "stem": "Niño de 2 años, previamente sano, con rectorragia abundante de sangre rojo oscura, indolora. Está pálido, con FC 140 por minuto, abdomen blando e indoloro. La endoscopía digestiva alta es normal.",
+      "question": "¿Cuál es el examen de elección para confirmar el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Colonoscopía"
+        },
+        {
+          "letter": "B",
+          "text": "Ecografía abdominal"
+        },
+        {
+          "letter": "C",
+          "text": "Cintigrafía con pertecnetato de tecnecio 99m"
+        },
+        {
+          "letter": "D",
+          "text": "Enema baritado"
+        },
+        {
+          "letter": "E",
+          "text": "Radiografía simple de abdomen"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Hemorragia digestiva baja abundante e indolora en un niño pequeño sugiere divertículo de Meckel con mucosa gástrica ectópica, que ulcera el íleon vecino. La cintigrafía con pertecnetato detecta esa mucosa. El tratamiento es la resección quirúrgica. Regla de los 2: 2 % de la población, a 2 pies de la válvula ileocecal, síntomas antes de los 2 años.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Niño de dos años, sano, con una rectorragia abundante de sangre rojo oscura y sin dolor. Está pálido y taquicárdico, con el abdomen blando, y la endoscopía alta es normal.",
+        "question": "¿Cuál es el examen de elección para confirmar el diagnóstico más probable?",
+        "options": "Las opciones: colonoscopía, ecografía abdominal, cintigrafía con pertecnetato de tecnecio, enema baritado o radiografía simple. Piénsalo.",
+        "answer": "Es la C. Un sangrado rectal abundante y sin dolor en un niño pequeño es un divertículo de Meckel, y la cintigrafía con pertecnetato encuentra la mucosa gástrica que hay en él. La colonoscopía tienta por ser una hemorragia baja, pero no llega bien al íleon, que es donde está el divertículo."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2019 · Pregunta 112",
+      "stem": "Recién nacido de término, de 5 días de vida, aún no ha eliminado meconio. Además presenta irritabilidad, vómitos postprandiales frecuentes y distensión abdominal. Al examen tiene ano permeable. Se realiza un enema baritado, que muestra colon proximal dilatado y colon distal estrecho.",
+      "question": "¿Cuál es el examen más adecuado para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TAC abdominal"
+        },
+        {
+          "letter": "B",
+          "text": "Colonoscopía"
+        },
+        {
+          "letter": "C",
+          "text": "Test del sudor"
+        },
+        {
+          "letter": "D",
+          "text": "Biopsia rectal por succión"
+        },
+        {
+          "letter": "E",
+          "text": "Cariograma"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Retraso en la eliminación de meconio, distensión y una zona de transición en el enema (colon distal estrecho y proximal dilatado) sugieren enfermedad de Hirschsprung. Se confirma con biopsia rectal por succión que demuestra ausencia de células ganglionares. El test del sudor se plantea ante un íleo meconial por fibrosis quística.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Recién nacido de término, de cinco días, que aún no elimina meconio, con irritabilidad, vómitos y distensión abdominal. Tiene ano permeable, y el enema baritado muestra el colon proximal dilatado y el distal estrecho.",
+        "question": "¿Cuál es el examen más adecuado para confirmar el diagnóstico?",
+        "options": "Las opciones: TAC abdominal, colonoscopía, test del sudor, biopsia rectal por succión, o cariograma. Piénsalo.",
+        "answer": "Es la D. Es un Hirschsprung, y se confirma demostrando que no hay células ganglionares en la biopsia rectal por succión. El test del sudor tienta porque la fibrosis quística también retrasa el meconio, pero esa da íleo meconial, no esta zona de transición en el colon."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.002 · Radiografía de abdomen simple",
+      "stem": "Un recién nacido con síndrome de Down presenta, a las 12 horas de vida, vómitos biliosos sin distensión abdominal. La madre tuvo polihidroamnios. La radiografía simple de abdomen muestra dos burbujas de aire (estómago y duodeno proximal) sin aire distal.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Atresia duodenal"
+        },
+        {
+          "letter": "B",
+          "text": "Estenosis hipertrófica del píloro"
+        },
+        {
+          "letter": "C",
+          "text": "Enfermedad de Hirschsprung"
+        },
+        {
+          "letter": "D",
+          "text": "Íleo meconial"
+        },
+        {
+          "letter": "E",
+          "text": "Enterocolitis necrotizante"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El signo de la doble burbuja sin aire distal en la radiografía simple de abdomen, con vómitos biliosos precoces, polihidroamnios y síndrome de Down (asociación frecuente) es atresia duodenal. Se maneja con sonda nasogástrica, hidratación y duodeno-duodenostomía. La estenosis pilórica da vómitos no biliosos a las 3 a 6 semanas; Hirschsprung e íleo meconial dan distensión y múltiples asas dilatadas.",
+      "say": {
+        "stem": "Un recién nacido con síndrome de Down tiene vómitos biliosos a las doce horas y la radiografía muestra doble burbuja sin aire distal.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: atresia duodenal, estenosis pilórica, Hirschsprung, íleo meconial o enterocolitis necrotizante. Piénsalo.",
+        "answer": "Es la A. La doble burbuja con vómitos biliosos en un recién nacido con Down es una atresia duodenal. La estenosis pilórica tienta, pero aparece semanas después, con vómitos no biliosos."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.009 · Radiografía esófago- estómago- duodeno",
+      "stem": "Un lactante de 3 semanas, previamente sano, presenta en forma brusca vómitos biliosos (verdes), irritabilidad y leve distensión abdominal. Está hemodinámicamente estable.",
+      "question": "¿Cuál es el examen más adecuado para descartar la causa más grave?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiografía de esófago, estómago y duodeno con contraste (tránsito intestinal alto)"
+        },
+        {
+          "letter": "B",
+          "text": "Ecografía pilórica"
+        },
+        {
+          "letter": "C",
+          "text": "pH-metría esofágica"
+        },
+        {
+          "letter": "D",
+          "text": "Endoscopía digestiva alta"
+        },
+        {
+          "letter": "E",
+          "text": "Control ambulatorio en 48 horas"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Vómitos biliosos en un lactante son una emergencia quirúrgica hasta descartar malrotación intestinal con vólvulo del intestino medio, que puede llevar a necrosis intestinal en horas. El examen de elección, si el paciente está estable, es la radiografía de esófago, estómago y duodeno con contraste, que muestra la posición anormal del ángulo de Treitz o la imagen en sacacorchos.",
+      "say": {
+        "stem": "Un lactante de tres semanas tiene vómitos verdes de inicio brusco, irritabilidad y leve distensión, y está estable.",
+        "question": "¿Qué examen descarta la causa más grave?",
+        "options": "Las opciones: radiografía de esófago estómago y duodeno con contraste, ecografía pilórica, pH-metría, endoscopía o control en cuarenta y ocho horas. Piénsalo.",
+        "answer": "Es la A. Los vómitos biliosos obligan a descartar una malrotación con vólvulo con un estudio contrastado de esófago, estómago y duodeno. La ecografía pilórica tienta por la edad, pero la estenosis pilórica da vómitos sin bilis."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.4.003 · Enema barritada",
+      "stem": "Lactante de 2 meses con constipación desde el nacimiento y eliminación de meconio después de las 48 horas de vida. Presenta distensión abdominal y, al tacto rectal, ampolla vacía con salida explosiva de deposiciones y gases.",
+      "question": "Si se realiza un enema baritado, ¿qué hallazgo apoya el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Signo de la cuerda en íleon terminal"
+        },
+        {
+          "letter": "B",
+          "text": "Microcolon con imagen en miga de pan en íleon"
+        },
+        {
+          "letter": "C",
+          "text": "Zona de transición entre un recto estrecho y un colon proximal dilatado"
+        },
+        {
+          "letter": "D",
+          "text": "Imagen en muelle enrollado en colon transverso"
+        },
+        {
+          "letter": "E",
+          "text": "Colon completamente normal"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La sospecha es enfermedad de Hirschsprung. El enema baritado muestra el segmento distal agangliónico estrecho, una zona de transición y el colon proximal dilatado, con retención del contraste a las 24 horas. Se confirma con biopsia rectal sin células ganglionares. El muelle enrollado es de invaginación y el microcolon con miga de pan, del íleo meconial.",
+      "say": {
+        "stem": "Lactante de dos meses con constipación desde el nacimiento, meconio tardío y salida explosiva de deposiciones al tacto rectal.",
+        "question": "¿Qué esperas ver en el enema baritado?",
+        "options": "Las opciones: signo de la cuerda, microcolon, zona de transición con recto estrecho y colon dilatado, muelle enrollado o colon normal. Piénsalo.",
+        "answer": "Es la C. Es Hirschsprung, con su zona de transición entre el segmento agangliónico estrecho y el colon dilatado. El muelle enrollado corresponde a invaginación intestinal, otro cuadro."
+      }
     },
 
     {

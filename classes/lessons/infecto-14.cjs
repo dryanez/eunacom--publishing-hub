@@ -71,7 +71,11 @@ module.exports = {
         { show: ['sin'], note: 'Lo que falta también orienta',
           say: 'Y fíjate en lo que falta: no hay coriza ni tos al inicio. Eso la separa de una influenza o de un resfrío, que parten con síntomas respiratorios altos.' },
         { show: ['car'], note: 'La fuga capilar se hace visible',
-          say: 'Luego viene la fase cardiopulmonar. Es la fuga capilar que vimos, ahora clínica: tos seca y una disnea que progresa rápidamente, en horas.' },
+          say: 'Luego viene la fase cardiopulmonar. Es la fuga capilar que vimos, ahora clínica: tos seca y una disnea que progresa rápidamente, en horas. Mira esta radiografía del inicio: un edema intersticial bilateral. Y en esta otra, horas después, un edema pulmonar extenso con el corazón de tamaño normal.',
+            photos: [
+              { src: 'biblioteca/07_infectologia/infecto-14/02_rx_hanta_edema_intersticial__guia-hanta-2009.jpg', label: 'Edema intersticial inicial', at: 'Mira esta radiografía del inicio', credit: 'Guía Clínica Hantavirus MINSAL 2009, Fig. 7' },
+              { src: 'biblioteca/07_infectologia/infecto-14/01_rx_hanta_cardiopulmonar__guia-hanta-2009.jpg', label: 'Fase cardiopulmonar', at: 'en esta otra', credit: 'Guía Clínica Hantavirus MINSAL 2009 (Rev Chil Infect 26:68), Fig. 11' },
+            ] },
         { show: ['sho'], note: 'La ventana para actuar es corta',
           say: 'Y al fallar el miocardio, el paciente cae en un shock cardiogénico fulminante. La ventana para actuar está justo al comienzo de la disnea, y por eso la sospecha tiene que ser precoz.' },
       ],
@@ -181,23 +185,6 @@ module.exports = {
       steps: [
         { note: 'La tríada del hemograma',
           say: 'La fase prodrómica dura tres a seis días, con fiebre alta y cefalea, y parece cualquier virosis. Luego viene la fase cardiopulmonar, con una disnea que progresa en horas. El hemograma muestra la tríada: trombocitopenia bajo cien mil, hemoconcentración e inmunoblastos sobre el diez por ciento.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Hantavirus en la radiografía',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-14/02_rx_hanta_edema_intersticial__guia-hanta-2009.jpg', label: 'Inicio', credit: 'Guía Clínica Hantavirus MINSAL 2009, Fig. 7' },
-        { src: 'biblioteca/07_infectologia/infecto-14/01_rx_hanta_cardiopulmonar__guia-hanta-2009.jpg', label: 'Fase cardiopulmonar', credit: 'Guía Clínica Hantavirus MINSAL 2009 (Rev Chil Infect 26:68), Fig. 11' },
-      ],
-      steps: [
-        { note: 'Edema intersticial bilateral',
-          say: 'Al inicio de la fase cardiopulmonar aparece un edema intersticial bilateral.' },
-        { note: 'Edema con corazón normal',
-          say: 'Y en horas progresa a edema pulmonar extenso, con un corazón normal: es un edema no cardiogénico. Por eso se restringen los fluidos.' },
       ],
     },
 

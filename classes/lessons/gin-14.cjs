@@ -64,11 +64,59 @@ module.exports = {
         { show: ['brd3'], note: 'Riesgo bajo, pero no cero',
           say: 'BI-RADS tres es distinto: probablemente benigno, con un riesgo menor a dos de cada cien. No se biopsia todavía, pero tampoco se espera dos años: se controla a los seis meses.' },
         { show: ['brd45'], note: 'Aquí ya no hay dudas',
-          say: 'Y BI-RADS cuatro o cinco es sospechoso o muy sospechoso, con un riesgo que va de dos hasta más de noventa y cinco de cada cien.' },
+          say: 'Y BI-RADS cuatro o cinco es sospechoso o muy sospechoso, con un riesgo que va de dos hasta más de noventa y cinco de cada cien. Mira esta mamografía: una masa espiculada, sospechosa. Y estas microcalcificaciones finas y agrupadas también lo son.',
+          photos: [
+            { src: 'biblioteca/13_ginecologia/gin-14/01_mamografia_carcinoma__bailey_p882.jpg', label: 'Masa espiculada', at: 'Mira esta mamografía', credit: 'Bailey & Love 27.ª ed., Fig. 53.2' },
+            { src: 'biblioteca/13_ginecologia/gin-14/01_microcalcificaciones-sospechosas-mamogra_alt2__amir-gyo_p135.jpg', label: 'Microcalcificaciones', at: 'estas microcalcificaciones', credit: 'Manual AMIR Ginecología y Obstetricia, p. 135' },
+          ] },
         { show: ['biopsia'], note: 'Solo la aguja gruesa sirve para esto',
           say: 'Ahí la conducta es una sola: biopsia con aguja gruesa. Y ojo, no cualquier biopsia sirve: la punción con aguja fina solo saca células sueltas, y no te permite diferenciar un carcinoma in situ de uno invasor. Para eso necesitas el cilindro de tejido que da la aguja gruesa, porque además es el que te entrega el panel completo de receptores hormonales, HER2 y Ki-67.' },
         { show: ['biopsia'], note: 'BI-RADS 6: ya no hay nada que discutir',
           say: 'Y un dato final del sistema: BI-RADS seis ya no es una categoría de sospecha, es malignidad confirmada por una biopsia previa. Ahí lo que sigue es planificar el tratamiento, no seguir estudiando.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Signos en la piel',
+      title: 'Piel de naranja y carcinoma inflamatorio',
+      cards: [
+        { title: 'Lo que se ve al examen', tag: 'Compromiso de la piel', kind: 'alert', items: [
+          { t: 'Piel de naranja', d: 'Edema por compromiso de los linfáticos de la piel',
+            say: 'Antes del tratamiento, dos signos de la piel que se preguntan. Mira esta mama: la piel con aspecto de cáscara de naranja indica compromiso de los linfáticos de la piel.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-14/02_piel_de_naranja__bailey_p895.jpg', label: 'Piel de naranja', at: 'Mira esta mama', credit: 'Bailey & Love 27.ª ed., Fig. 53.24' } },
+          { t: 'Carcinoma inflamatorio', d: 'Mama roja y edematosa que simula una mastitis',
+            say: 'Y el carcinoma inflamatorio: mira esta imagen, una mama enrojecida y edematosa que puede confundirse con una mastitis. Si no responde al tratamiento antibiótico, se biopsia. Fíjate en cómo se ve, porque así puede aparecer en el examen.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-14/04_carcinoma-inflamatorio__cto-gyo_p20.jpg', label: 'Carcinoma inflamatorio', at: 'mira esta imagen', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 20' } },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Ecografía mamaria',
+      title: 'Cuándo se pide y cómo se lee',
+      cards: [
+        { title: 'Indicaciones', tag: 'No es tamizaje', kind: 'key', items: [
+          { t: 'Nódulo o dolor focal en menores de 30-35', d: 'Mama densa: la mamografía rinde poco',
+            say: 'La ecografía mamaria no se usa como tamizaje en la población general. Sus indicaciones son: el estudio inicial de un nódulo palpable o dolor focal en menores de treinta a treinta y cinco años, por la mama densa; caracterizar una lesión vista en la mamografía, como quiste contra sólido; las mamas densas como complemento; y la guía de punción o biopsia con aguja gruesa.' },
+          { t: 'Mastitis, absceso y axila', d: 'Evalúa adenopatías',
+            say: 'También sirve ante una mastitis o un absceso, y para evaluar la axila en busca de adenopatías.' },
+        ] },
+        { title: 'Criterios benignos', tag: 'Más ancha que alta', kind: 'normal', items: [
+          { t: 'Oval o redondo, márgenes netos', d: 'Eje mayor paralelo a la piel, ecos homogéneos',
+            say: 'Un nódulo benigno es oval o redondo, con su eje mayor paralelo a la piel, es decir, más ancho que alto, con márgenes netos y ecogenicidad homogénea.' },
+          { t: 'Quiste simple', d: 'Anecoico con refuerzo posterior; punción solo si es sintomático',
+            say: 'El quiste simple es anecoico, con refuerzo acústico posterior, y se punciona solo si es sintomático. Mira este quiste: un área negra, de paredes finas, y más brillante por detrás.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-14/05_quiste-simple-mama-eco__rumack_p821.jpg', label: 'Quiste simple (eco)', at: 'Mira este quiste', credit: 'Diagnostic Ultrasound (Rumack), Fig. 20-40' } },
+        ] },
+        { title: 'Criterios de sospecha', tag: 'Más alta que ancha', kind: 'alert', items: [
+          { t: 'Irregular, espiculado, más alto que ancho', d: 'Hipoecoico con sombra acústica',
+            say: 'La sospecha de malignidad es la forma irregular, los márgenes espiculados o angulados, más alto que ancho, hipoecoico y con sombra acústica posterior. Mira este nódulo de bordes irregulares: es el aspecto sospechoso. Suman las microcalcificaciones y una adenopatía axilar de aspecto patológico.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-14/02_nodulo-maligno-vs-benigno-eco-mama__cto-gyo_p9.jpg', label: 'Nódulo de bordes irregulares', at: 'Mira este nódulo', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 9' } },
+          { t: 'El informe usa BI-RADS', d: '2 benigno, 3 control a 6 meses, 4-5 biopsia',
+            say: 'El informe ecográfico también usa las categorías BI-RADS: dos es benigno, tres probablemente benigno con control a los seis meses, y cuatro o cinco, biopsia. Con eso decides entre seguimiento, biopsia con aguja gruesa o derivación a mastología.' },
+        ] },
       ],
     },
 
@@ -79,7 +127,8 @@ module.exports = {
       cards: [
         { title: 'Fibroadenoma', tag: 'La joven con nódulo móvil', kind: 'criteria', items: [
           { t: 'Firme, móvil, indoloro', d: 'En mujeres de 15 a 35 años',
-            say: 'El nódulo benigno más frecuente es el fibroadenoma, en mujeres jóvenes, entre quince y treinta y cinco años. Al tacto es firme, móvil e indoloro, con bordes bien definidos. En la ecografía se ve más ancho que alto, con el eje mayor paralelo a la piel.' },
+            say: 'El nódulo benigno más frecuente es el fibroadenoma, en mujeres jóvenes, entre quince y treinta y cinco años. Al tacto es firme, móvil e indoloro, con bordes bien definidos. En la ecografía se ve más ancho que alto, con el eje mayor paralelo a la piel. Mira esta ecografía: un nódulo ovalado, de bordes lisos y bien delimitado.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-14/03_fibroadenoma-mamografia__cto-radiologia_p132.jpg', label: 'Fibroadenoma (eco)', at: 'Mira esta ecografía', credit: 'Manual CTO Radiología 14.ª ed., p. 132' } },
           { t: 'Se observa si es pequeño', d: 'Se opera si crece o genera dudas',
             say: 'Si es pequeño, de menos de dos a tres centímetros, y estable, se observa. Si crece, o genera dudas, se extirpa.' },
         ] },
@@ -168,41 +217,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Cáncer de mama',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'BI-RADS y biopsia',
       images: [
-        { src: 'biblioteca/13_ginecologia/gin-14/01_mamografia_carcinoma__bailey_p882.jpg', label: 'Mamografía', credit: 'Bailey & Love 27.ª ed., Fig. 53.2' },
-        { src: 'biblioteca/13_ginecologia/gin-14/01_microcalcificaciones-sospechosas-mamogra_alt2__amir-gyo_p135.jpg', label: 'Microcalcificaciones agrupadas', credit: 'Manual AMIR Ginecología y Obstetricia, p. 135' },
-        { src: 'biblioteca/13_ginecologia/gin-14/02_piel_de_naranja__bailey_p895.jpg', label: 'Piel de naranja', credit: 'Bailey & Love 27.ª ed., Fig. 53.24' },
+        { src: 'animaciones/gin-14/A1_birads.mp4', label: 'Del hallazgo a la conducta', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Masa espiculada',
-          say: 'En la mamografía, una masa espiculada es sospechosa de cáncer.' },
-        { note: 'Finas y agrupadas',
-          say: 'Las microcalcificaciones finas y agrupadas también son sospechosas.' },
-        { note: 'Edema de la piel',
-          say: 'Y la piel de naranja indica compromiso de los linfáticos de la piel.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/13_ginecologia/gin-14/02_nodulo-maligno-vs-benigno-eco-mama__cto-gyo_p9.jpg', label: 'Nódulo mamario de bordes irregulares (ecografía)', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 9' },
-        { src: 'biblioteca/13_ginecologia/gin-14/03_fibroadenoma-mamografia__cto-radiologia_p132.jpg', label: 'Fibroadenoma (ecografía)', credit: 'Manual CTO Radiología 14.ª ed., p. 132' },
-        { src: 'biblioteca/13_ginecologia/gin-14/04_carcinoma-inflamatorio__cto-gyo_p20.jpg', label: 'Carcinoma inflamatorio', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 20' },
-      ],
-      steps: [
-        { note: 'Nódulo mamario de bordes irregulares (ecografía)',
-          say: 'Nódulo mamario hipoecogénico de bordes irregulares: aspecto sospechoso de malignidad.' },
-        { note: 'Fibroadenoma (ecografía)',
-          say: 'Fibroadenoma: nódulo ovalado, de bordes lisos y bien delimitado.' },
-        { note: 'Carcinoma inflamatorio',
-          say: 'Mira esta imagen: carcinoma inflamatorio. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'Cuanto más sospechoso, más pronto la aguja',
+          say: 'Una masa espiculada y microcalcificaciones agrupadas son hallazgos sospechosos. El informe BI-RADS ordena la conducta: cero pide una ecografía complementaria; uno y dos, control cada dos años; tres, control a los seis meses; cuatro y cinco, biopsia con aguja gruesa, porque la aguja fina solo da células sueltas. Y BI-RADS seis es malignidad ya confirmada: se planifica el tratamiento.' },
       ],
     },
 
@@ -322,6 +345,268 @@ module.exports = {
         options: 'Las opciones: pedir ecografía mamaria, biopsia con aguja gruesa, biopsia estereotáxica, resonancia mamaria, o control en un año. Piénsalo.',
         answer: 'Es la C. Ojo con la trampa: el BI-RADS dos es de hace dos años, la imagen de hoy ya es otra, con microcalcificaciones espiculadas que la hacen BI-RADS cuatro a cinco. Y como el examen físico es normal, la lesión no se palpa, así que se biopsia guiada por estereotaxia, no con aguja gruesa a mano alzada.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 166",
+      "stem": "Una paciente de 47 años acude a control ginecológico, observándose salida de secreción escasa por el pezón a la compresión, que ella no había notado previamente. Se solicita mamografía, que es informada como BI-RADS 2, y ecografía mamaria, que muestra ectasia ductal retroareolar, BI-RADS 2.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solicitar mamografía con compresión focal"
+        },
+        {
+          "letter": "B",
+          "text": "Realizar control mamográfico en un año"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar resonancia magnética nuclear de mama"
+        },
+        {
+          "letter": "D",
+          "text": "Indicar mupirocina tópica"
+        },
+        {
+          "letter": "E",
+          "text": "Resolver mediante resección quirúrgica"
+        }
+      ],
+      "correct": "B",
+      "explanation": "BI-RADS 2 es un hallazgo benigno (aquí, ectasia ductal) y se maneja con control habitual en 1 a 2 años. La compresión focal o la resonancia aclaran estudios incompletos o dudosos; BI-RADS 3 se controla en 6 meses y BI-RADS 4 o 5 exige biopsia.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Mujer de cuarenta y siete años a la que, en un control, se le exprime una secreción escasa por el pezón. La mamografía es birads dos, y la ecografía muestra una ectasia ductal retroareolar, también birads dos.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: mamografía con compresión focal, control mamográfico en un año, resonancia de mama, mupirocina tópica, o resección quirúrgica. Piénsalo.",
+        "answer": "Es la B. Birads dos es benigno, y la ectasia ductal explica la secreción: se sigue con la mamografía anual de tamizaje. La compresión focal tienta, pero sirve para aclarar un hallazgo dudoso, y aquí el estudio ya está completo."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2025 · Pregunta 172",
+      "stem": "Una mujer de 34 años, con vacunación completa contra el virus papiloma humano, se realiza un PAP, que es informado como muestra satisfactoria sin presencia de atipias celulares, y una prueba de detección de virus papiloma humano que es informada como positiva para VPH de alto riesgo, serotipo 56.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Indicar refuerzo de la vacunación contra el VPH"
+        },
+        {
+          "letter": "B",
+          "text": "Realizar control de PAP en un año"
+        },
+        {
+          "letter": "C",
+          "text": "Realizar colposcopía"
+        },
+        {
+          "letter": "D",
+          "text": "Repetir el PAP en este momento"
+        },
+        {
+          "letter": "E",
+          "text": "Realizar conización cervical"
+        }
+      ],
+      "correct": "B",
+      "explanation": "A diferencia de los genotipos 16 y 18, que se derivan a colposcopía de inmediato por ser los más agresivos, otros genotipos de alto riesgo, como el 56, con un PAP normal se manejan con observación y control en un año.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco, sobre tamizaje. Mujer de treinta y cuatro años, con la vacuna contra el VPH completa, con un Papanicolau normal y una prueba de VPH positiva para un genotipo de alto riesgo, el cincuenta y seis.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: reforzar la vacuna, controlar el Papanicolau en un año, colposcopía, repetir el Papanicolau ahora, o conización. Piénsalo.",
+        "answer": "Es la B. Solo el dieciséis y el dieciocho van directo a colposcopía; otro genotipo de alto riesgo, con Papanicolau normal, se controla en un año. La colposcopía tienta porque el VPH salió positivo, pero aquí sería sobretratar."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 41",
+      "stem": "Mujer de 45 años con ecografía mamaria informada como BI-RADS 0.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Completar el estudio con mamografía bilateral"
+        },
+        {
+          "letter": "B",
+          "text": "Biopsia core guiada por ecografía"
+        },
+        {
+          "letter": "C",
+          "text": "Control en 6 meses"
+        },
+        {
+          "letter": "D",
+          "text": "Alta y control anual"
+        },
+        {
+          "letter": "E",
+          "text": "Resonancia magnética mamaria de urgencia"
+        }
+      ],
+      "correct": "A",
+      "explanation": "BI-RADS 0 significa estudio incompleto: no se puede categorizar y se debe complementar con otra imagen. En una mujer de 45 años, la ecografía es complementaria de la mamografía, que es el examen base, por lo que se completa con mamografía bilateral antes de decidir biopsia o seguimiento.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Mujer de cuarenta y cinco años con una ecografía mamaria informada como BI RADS cero.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: mamografía bilateral, biopsia core, control en seis meses, alta, o resonancia urgente. Piénsalo.",
+        "answer": "Es la A. BI RADS cero es un estudio incompleto, y a esta edad se completa con mamografía. La biopsia tienta, pero todavía no hay una lesión categorizada como sospechosa."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 27",
+      "stem": "Mujer de 60 años presenta aumento de volumen en la axila derecha, de 4 cm de diámetro, indoloro, de consistencia dura y adherido a planos profundos.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hidrosadenitis"
+        },
+        {
+          "letter": "B",
+          "text": "Cáncer de mama"
+        },
+        {
+          "letter": "C",
+          "text": "Cáncer de pulmón"
+        },
+        {
+          "letter": "D",
+          "text": "Lipoma"
+        },
+        {
+          "letter": "E",
+          "text": "Tuberculosis ganglionar"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Una adenopatía axilar dura, indolora y fija en una mujer de 60 años corresponde, hasta demostrar lo contrario, a metástasis de un cáncer de mama, aunque no se palpe el tumor primario. Debe estudiarse con mamografía, ecografía y biopsia. La hidrosadenitis es dolorosa y supurativa, y el lipoma es blando y móvil.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Mujer de sesenta años con un aumento de volumen en la axila derecha, de cuatro centímetros, indoloro, duro y adherido a planos profundos.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: hidrosadenitis, cáncer de mama, cáncer de pulmón, lipoma, o tuberculosis ganglionar. Piénsalo.",
+        "answer": "Es la B. Una adenopatía axilar dura y fija en una mujer de esta edad es metástasis de cáncer de mama hasta demostrar lo contrario, aunque no palpes el tumor. La tuberculosis ganglionar tienta, pero suele ser cervical, y aquí la edad y el sitio apuntan a la mama."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Agosto 2021 · Pregunta 50",
+      "stem": "Mujer de 35 años presenta un nódulo mamario desde hace 8 meses. La ecografía mamaria muestra un tumor de aspecto sólido, de bordes bien delimitados, sin refuerzo posterior, clasificado como BI-RADS 3.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mastopatía fibroquística"
+        },
+        {
+          "letter": "B",
+          "text": "Papiloma ductal"
+        },
+        {
+          "letter": "C",
+          "text": "Fibroadenoma"
+        },
+        {
+          "letter": "D",
+          "text": "Tumor phyllodes"
+        },
+        {
+          "letter": "E",
+          "text": "Carcinoma ductal"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Un nódulo sólido, bien delimitado y probablemente benigno (BI-RADS 3) en una mujer joven corresponde con mayor probabilidad a un fibroadenoma, el tumor benigno de mama más frecuente entre los 15 y 35 años. El tumor phyllodes es mucho menos frecuente, de crecimiento rápido y mayor tamaño.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Mujer de treinta y cinco años con un nódulo mamario de ocho meses de evolución. La ecografía muestra un tumor sólido, de bordes bien delimitados, sin refuerzo posterior, clasificado BI-RADS tres.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: mastopatía fibroquística, papiloma ductal, fibroadenoma, tumor phyllodes, o carcinoma ductal. Piénsalo.",
+        "answer": "Es la C. Un nódulo sólido, bien delimitado y probablemente benigno en una mujer joven es un fibroadenoma. El tumor phyllodes tienta porque se le parece en la ecografía, pero es mucho menos frecuente y crece rápido hasta hacerse grande."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2016 · Pregunta 134",
+      "stem": "Mujer de 55 años se realiza una mamografía que es informada como BI-RADS 4, con microcalcificaciones agrupadas.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ecotomografía mamaria"
+        },
+        {
+          "letter": "B",
+          "text": "Biopsia estereotáxica"
+        },
+        {
+          "letter": "C",
+          "text": "Resonancia magnética"
+        },
+        {
+          "letter": "D",
+          "text": "Control mamográfico en 6 meses"
+        },
+        {
+          "letter": "E",
+          "text": "Mastectomía parcial"
+        }
+      ],
+      "correct": "B",
+      "explanation": "BI-RADS 4 implica sospecha de malignidad y exige biopsia. Las microcalcificaciones agrupadas no palpables y habitualmente no visibles en ecografía se biopsian con guía estereotáxica (mamográfica), que permite el diagnóstico precoz de un carcinoma in situ o invasor. El control en 6 meses es la conducta del BI-RADS 3.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil dieciséis. Mujer de cincuenta y cinco años cuya mamografía se informa como BI-RADS cuatro, con microcalcificaciones agrupadas.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: ecotomografía mamaria, biopsia estereotáxica, resonancia magnética, control mamográfico en seis meses, o mastectomía parcial. Piénsalo.",
+        "answer": "Es la B. BI-RADS cuatro obliga a biopsiar, y las microcalcificaciones, que no se palpan ni se ven bien en la ecografía, se biopsian con guía estereotáxica. El control en seis meses tienta, pero esa es la conducta del BI-RADS tres, no del cuatro."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Enero 2023 · Pregunta 179",
+      "stem": "Paciente con una lesión mamográfica clasificada como BI-RADS 3.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Biopsia core guiada por imagen"
+        },
+        {
+          "letter": "B",
+          "text": "Ecografía mamaria dirigida"
+        },
+        {
+          "letter": "C",
+          "text": "Resonancia magnética mamaria bilateral"
+        },
+        {
+          "letter": "D",
+          "text": "Mamografía de control en 6 meses"
+        },
+        {
+          "letter": "E",
+          "text": "Control en 1 año sin exámenes"
+        }
+      ],
+      "correct": "D",
+      "explanation": "BI-RADS 3 significa hallazgo probablemente benigno, con riesgo de malignidad menor de 2%. Se maneja con seguimiento a corto plazo: mamografía de control a los 6 meses y luego periódicamente hasta completar 2 años de estabilidad. La biopsia se reserva para BI-RADS 4 y 5, o si la lesión cambia en el seguimiento.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de enero de dos mil veintitrés. Paciente con una lesión en la mamografía clasificada como BI-RADS tres.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: biopsia core, ecografía dirigida, resonancia bilateral, mamografía de control en seis meses, o control en un año sin exámenes. Piénsalo.",
+        "answer": "Es la D. BI-RADS tres es probablemente benigno, con menos de dos por ciento de riesgo, y se controla con mamografía a los seis meses. La biopsia tienta para quedar tranquilo, pero se reserva para el BI-RADS cuatro y cinco."
+      }
     },
 
     {

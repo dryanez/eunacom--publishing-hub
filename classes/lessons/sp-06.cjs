@@ -15,6 +15,30 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Concepto y campo',
+      title: '¿Qué es la epidemiología?',
+      cards: [
+        { title: 'Definición', tag: 'Distribución y determinantes', kind: 'key', items: [
+          { t: 'Distribución y determinantes', d: 'En poblaciones específicas',
+            say: 'Antes de clasificar estudios, una definición que el examen usa. La epidemiología es el estudio de la distribución y los determinantes de los estados o eventos relacionados con la salud en poblaciones específicas, y la aplicación de ese conocimiento al control de los problemas de salud.' },
+        ] },
+        { title: 'Su campo', tag: 'Cuatro ramas', kind: 'criteria', items: [
+          { t: 'Descriptiva: quién, dónde, cuándo', d: 'Persona, lugar y tiempo',
+            say: 'Su campo tiene ramas. La descriptiva responde quién, dónde y cuándo.' },
+          { t: 'Analítica: por qué', d: 'Cohortes y casos y controles',
+            say: 'La analítica responde por qué, estudiando asociación y causalidad con cohortes y con casos y controles.' },
+          { t: 'Experimental: ensayos', d: 'Prueba intervenciones',
+            say: 'La experimental prueba intervenciones con ensayos. Y hay áreas aplicadas: clínica, ambiental, ocupacional y de servicios de salud.' },
+        ] },
+        { title: 'Para qué se usa', tag: 'Aplicaciones', kind: 'normal', items: [
+          { t: 'Vigilancia, brotes, programas', d: 'Diagnóstico de situación de salud',
+            say: 'Sus aplicaciones son la vigilancia, el diagnóstico de situación de salud, el estudio de brotes y la evaluación de programas. Y tú la usas a diario cuando interpretas riesgos, pruebas y evidencia.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Clasificación',
       title: 'Los cuatro ejes que clasifican cualquier estudio',
       cards: [
@@ -63,7 +87,8 @@ module.exports = {
         { show: ['coh'], note: 'Sanos al inicio, seguidos en el tiempo',
           say: 'Si se seleccionaron sujetos sanos según si estaban expuestos o no, y se les siguió en el tiempo para ver quién enferma, es un estudio de cohortes.' },
         { show: ['cc'], note: 'Enfermos y sanos, mirando hacia atrás',
-          say: 'Y si se seleccionaron sujetos que ya tienen la enfermedad, comparados con sujetos sanos, indagando hacia atrás en su exposición, es un estudio de casos y controles. Con esta sola pregunta resuelves la mayoría de las viñetas del examen.' },
+          say: 'Y si se seleccionaron sujetos que ya tienen la enfermedad, comparados con sujetos sanos, indagando hacia atrás en su exposición, es un estudio de casos y controles. Mira este esquema que junta todo el árbol: el ensayo arriba, y abajo los descriptivos y los analíticos. Con esta sola pregunta resuelves la mayoría de las viñetas del examen.',
+          photo: { src: 'biblioteca/16_salud_publica/sp-06/S1_disenos-estudio__propio.svg', label: 'Diseños de estudio', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
       ],
     },
 
@@ -161,20 +186,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Diseños de estudio',
-      images: [
-        { src: 'biblioteca/16_salud_publica/sp-06/S1_disenos-estudio__propio.svg', label: 'Diseños', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Observacional o experimental',
-          say: 'Si el investigador asigna la exposición, es experimental. Si no, es observacional, y se divide según haya grupo de comparación.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en el árbol de decisión completo, tal como lo vas a razonar en el examen.',
     },
@@ -193,6 +204,8 @@ module.exports = {
           say: 'Frente a la eficacia de un fármaco nuevo, el diseño óptimo es el ensayo clínico aleatorizado doble ciego, porque la aleatorización neutraliza los factores de confusión. Su riesgo es perder validez externa si los criterios de inclusión son demasiado estrictos.' },
         { cells: ['Prevalencia poblacional de una enfermedad', 'Estudio transversal', 'Ambigüedad temporal, no establece causa'],
           say: 'Y frente a la pregunta de cuánta gente tiene diabetes en Chile hoy, el diseño óptimo es el estudio transversal poblacional, con la ambigüedad temporal como su límite: no establece causa, solo retrata un momento.' },
+        { cells: ['Describe quién, dónde y cuándo', 'Epidemiología descriptiva', 'Creer que explica la causa'],
+          say: 'Si el estudio solo describe quién, dónde y cuándo, es epidemiología descriptiva. Explicar el porqué, la asociación y la causalidad, es tarea de la analítica.' },
       ],
     },
 
@@ -282,6 +295,193 @@ module.exports = {
         question: '¿Qué medida es posible calcular con esta información?',
         options: 'Las opciones: incidencia acumulada en los fumadores, prevalencia en los fumadores, riesgo relativo, odds ratio, o tasa de ataque en los fumadores.',
         answer: 'Es la A. Solo tienes datos del grupo de fumadores, así que lo único calculable es su incidencia acumulada: sesenta y cinco dividido en dos mil. Para calcular el riesgo relativo o el odds ratio necesitarías también el dato de los no fumadores, que esta pregunta no te da. Fíjate en la trampa: el estudio es de cohortes, pero eso no significa que siempre puedas calcular el Riesgo Relativo si te falta la mitad de la tabla.' },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2019 · Pregunta 146",
+      "stem": "Un grupo de investigadores discute qué diseño usar para su próximo estudio y revisa en qué se diferencian los estudios experimentales de los observacionales.",
+      "question": "¿Cuál es la característica de los estudios experimentales que los diferencia de los demás tipos de estudios?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "La selección es aleatorizada"
+        },
+        {
+          "letter": "B",
+          "text": "Siempre utilizan triple ciego"
+        },
+        {
+          "letter": "C",
+          "text": "El investigador controla algunas variables"
+        },
+        {
+          "letter": "D",
+          "text": "El investigador selecciona los grupos de intervención"
+        },
+        {
+          "letter": "E",
+          "text": "Utilizan test de hipótesis"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Lo que define a un estudio experimental es que el investigador asigna la intervención, es decir, controla la variable de exposición. La aleatorización y el enmascaramiento son deseables para reducir sesgos, pero no son obligatorios, y los test de hipótesis se usan también en estudios observacionales analíticos.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecinueve, sobre qué distingue a un estudio experimental.",
+        "question": "¿Cuál es la característica que diferencia a los estudios experimentales de los demás?",
+        "options": "Las opciones: la selección aleatorizada, el triple ciego, que el investigador controla algunas variables, que el investigador elige los grupos, o el uso de test de hipótesis. Piénsalo.",
+        "answer": "Es la C. En un estudio experimental el investigador interviene, es decir, controla la exposición, y eso lo separa de los observacionales. La aleatorización tienta, pero existen experimentos no aleatorizados, como los cuasiexperimentales."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.013 · Concepto y campo de la epidemiología",
+      "stem": "En la primera clase de epidemiología se pide a los alumnos elegir la definición más completa de la disciplina.",
+      "question": "¿Cuál es la mejor definición de epidemiología?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Estudio exclusivo de las epidemias de enfermedades infecciosas"
+        },
+        {
+          "letter": "B",
+          "text": "Estudio de la distribución y de los determinantes de los estados de salud en poblaciones, y su aplicación al control de los problemas de salud"
+        },
+        {
+          "letter": "C",
+          "text": "Ciencia que trata a los pacientes individuales según la evidencia"
+        },
+        {
+          "letter": "D",
+          "text": "Rama de la estadística que estudia los ensayos clínicos"
+        },
+        {
+          "letter": "E",
+          "text": "Disciplina que administra los recursos de los servicios de salud"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La epidemiología estudia la frecuencia y distribución (epidemiología descriptiva) y los determinantes (epidemiología analítica) de los eventos de salud en poblaciones, y aplica ese conocimiento al control de los problemas. No se limita a las infecciones: incluye enfermedades crónicas, lesiones, factores de riesgo y evaluación de servicios.",
+      "say": {
+        "stem": "En la primera clase de epidemiología piden la definición más completa de la disciplina.",
+        "question": "¿Cuál es?",
+        "options": "Las opciones: solo epidemias infecciosas, distribución y determinantes en poblaciones aplicados al control, tratamiento individual, estadística de ensayos o administración de recursos. Piénsalo.",
+        "answer": "Es la B. La epidemiología estudia distribución y determinantes de la salud en poblaciones, y lo aplica al control. La de epidemias infecciosas tienta por el nombre, pero hoy abarca crónicas, lesiones y factores de riesgo."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 99",
+      "stem": "La salud pública dispone de distintas ramas para obtener y analizar información sobre los problemas de salud.",
+      "question": "¿Qué rama de la Salud Pública se preocupa de obtener información a través del contraste de hipótesis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Epidemiología descriptiva"
+        },
+        {
+          "letter": "B",
+          "text": "Bioestadística"
+        },
+        {
+          "letter": "C",
+          "text": "Prevención de salud"
+        },
+        {
+          "letter": "D",
+          "text": "Epidemiología analítica"
+        },
+        {
+          "letter": "E",
+          "text": "Vigilancia epidemiológica"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La epidemiología descriptiva caracteriza los problemas según persona, lugar y tiempo y genera hipótesis; la epidemiología analítica las pone a prueba, comparando grupos para establecer asociación y causalidad, mediante estudios de cohorte, casos y controles y experimentales. La bioestadística es una herramienta, no la rama que plantea el contraste.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Sobre las ramas de la salud pública.",
+        "question": "¿Cuál obtiene información mediante el contraste de hipótesis?",
+        "options": "Las opciones: epidemiología descriptiva, bioestadística, prevención, epidemiología analítica o vigilancia. Piénsalo.",
+        "answer": "Es la D. La descriptiva genera hipótesis y la analítica las contrasta comparando grupos. La bioestadística tienta porque aporta las pruebas estadísticas, pero es la herramienta, no la rama epidemiológica."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 7.01.3.021 · Estudios de prevalencia",
+      "stem": "La Encuesta Nacional de Salud mide, en un período breve, la presión arterial de una muestra representativa de la población chilena adulta y pregunta si la persona conoce su diagnóstico de hipertensión.",
+      "question": "¿Qué medida de frecuencia entrega directamente este tipo de estudio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prevalencia"
+        },
+        {
+          "letter": "B",
+          "text": "Incidencia acumulada"
+        },
+        {
+          "letter": "C",
+          "text": "Densidad de incidencia"
+        },
+        {
+          "letter": "D",
+          "text": "Riesgo relativo"
+        },
+        {
+          "letter": "E",
+          "text": "Letalidad"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Un estudio de prevalencia (transversal) mide exposición y enfermedad en un mismo momento, sin seguimiento, por lo que entrega la proporción de personas que tienen la condición: la prevalencia. Para calcular incidencia o riesgo relativo se requiere seguir en el tiempo a personas inicialmente sanas, como en un estudio de cohortes.",
+      "say": {
+        "stem": "La Encuesta Nacional de Salud mide la presión arterial de una muestra representativa de adultos en un momento.",
+        "question": "¿Qué medida de frecuencia entrega?",
+        "options": "Las opciones: prevalencia, incidencia acumulada, densidad de incidencia, riesgo relativo o letalidad. Piénsalo.",
+        "answer": "Es la A. Un estudio transversal toma una foto en un momento, y eso entrega prevalencia. La incidencia acumulada tienta, pero exige seguir en el tiempo a personas sanas para ver casos nuevos."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Agosto 2021 · Pregunta 8",
+      "stem": "En un estudio se miden los niveles plasmáticos de pesticidas en personas de distintos países, obteniéndose los niveles promedio para la población de cada país. Luego, se correlacionan con las tasas de mortalidad por cáncer de cada país.",
+      "question": "¿A qué tipo de estudio corresponde?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Observacional"
+        },
+        {
+          "letter": "B",
+          "text": "Cohortes"
+        },
+        {
+          "letter": "C",
+          "text": "Experimental"
+        },
+        {
+          "letter": "D",
+          "text": "Ecológico"
+        },
+        {
+          "letter": "E",
+          "text": "De contraste de hipótesis"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En el estudio ecológico la unidad de análisis es un grupo (país, región), no el individuo: se correlacionan promedios de exposición con tasas de enfermedad. Es observacional, pero ecológico es la clasificación más específica. Su principal limitación es la falacia ecológica: la asociación entre grupos puede no cumplirse a nivel individual.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Se correlacionan los niveles promedio de pesticidas de cada país con su mortalidad por cáncer.",
+        "question": "¿Qué tipo de estudio es?",
+        "options": "Las opciones: observacional, cohortes, experimental, ecológico o de contraste de hipótesis. Piénsalo.",
+        "answer": "Es la D. Se analizan promedios de países, no individuos, así que es ecológico. Observacional tienta porque también es cierto, pero ecológico es la respuesta más específica."
+      }
     },
 
     {

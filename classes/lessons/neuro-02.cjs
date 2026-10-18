@@ -57,13 +57,15 @@ module.exports = {
         ] },
         { title: 'Ojo en el examen', tag: 'Reclasificación', kind: 'alert', items: [
           { t: 'Difusión positiva = infarto', d: 'Aunque los síntomas se hayan ido',
-            say: 'Y fíjate en esto: si el paciente se recuperó por completo, pero la resonancia muestra una lesión en la secuencia de difusión, ya no es un AIT. Se reclasifica como un infarto cerebral con resolución clínica transitoria, y tiene todavía más riesgo de repetir.' },
+            say: 'Y fíjate en esto: si el paciente se recuperó por completo, pero la resonancia muestra una lesión en la secuencia de difusión, ya no es un AIT. Se reclasifica como un infarto cerebral con resolución clínica transitoria, y tiene todavía más riesgo de repetir. Mira esta resonancia con difusión: la zona blanca ya es tejido infartado.',
+            photo: { src: '_verificadas/140_neuro_AIT__ctmri_path_p94_1.jpg', label: 'RM de difusión: infarto', at: 'Mira esta resonancia', credit: 'CT & MRI Pathology: A Pocket Atlas, p. 94' } },
         ] },
         { title: 'Amaurosis fugaz', tag: 'AIT retiniano', kind: 'criteria', items: [
           { t: 'Ceguera monocular transitoria', d: 'Indolora, como una cortina que baja y sube',
             say: 'Hay un AIT que se pregunta aparte: la amaurosis fugaz. Es una pérdida de visión de un solo ojo, indolora, que el paciente describe como una cortina negra que baja y luego sube.' },
           { t: 'Émbolo desde la carótida ipsilateral', d: 'A la arteria oftálmica o central de la retina',
-            say: 'Se debe a microémbolos hacia la arteria oftálmica o la central de la retina, que vienen de una placa en la carótida del mismo lado. Por eso tiene tanto valor: te está señalando la carótida.' },
+            say: 'Se debe a microémbolos hacia la arteria oftálmica o la central de la retina, que vienen de una placa en la carótida del mismo lado. Por eso tiene tanto valor: te está señalando la carótida. En este fondo de ojo, el punto brillante dentro de la arteriola es un émbolo de colesterol, de Hollenhorst.',
+            photo: { src: '_verificadas/334_neuro_AIT__KanskisCli_p562_1.jpg', label: 'Émbolo de Hollenhorst', at: 'En este fondo de ojo', credit: 'Kanski\'s Clinical Ophthalmology, 8.ª ed., p. 562' } },
         ] },
       ],
     },
@@ -159,11 +161,13 @@ module.exports = {
         ] },
         { title: 'Vasos', tag: 'Carótida y vertebrales', kind: 'criteria', items: [
           { t: 'Eco-Doppler carotídeo y vertebral', d: 'O AngioTAC',
-            say: 'La segunda son los vasos del cuello: eco-Doppler carotídeo y vertebral, o una AngioTAC. Busca la placa que manda émbolos. Si además escuchas un soplo carotídeo, o hubo una amaurosis fugaz, este es el examen que más te importa.' },
+            say: 'La segunda son los vasos del cuello: eco-Doppler carotídeo y vertebral, o una AngioTAC. Busca la placa que manda émbolos. Si además escuchas un soplo carotídeo, o hubo una amaurosis fugaz, este es el examen que más te importa. Y en esta angiografía se ve la estrechez en el origen de la carótida interna: una estenosis significativa y sintomática se opera.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-02/01_estenosis-carotidea-angiografia__cto-neuro_p36.jpg', label: 'Estenosis carotídea', at: 'Y en esta angiografía', credit: 'Manual CTO Neurología 14.ª ed., p. 36' } },
         ] },
         { title: 'Corazón', tag: 'Buscar la FA', kind: 'alert', items: [
           { t: 'ECG y monitoreo continuo', d: 'Holter o telemetría para FA paroxística',
-            say: 'Y la tercera es el corazón: electrocardiograma de doce derivaciones y monitoreo continuo, con Holter o telemetría, para pillar una fibrilación auricular paroxística que en el electrocardiograma aislado no aparece.' },
+            say: 'Y la tercera es el corazón: electrocardiograma de doce derivaciones y monitoreo continuo, con Holter o telemetría, para pillar una fibrilación auricular paroxística que en el electrocardiograma aislado no aparece. Este electrocardiograma es una fibrilación auricular: intervalos totalmente irregulares y sin ondas P.',
+            photo: { src: '_web/142_neuro_AIT__Commons_1.jpg', label: 'ECG: fibrilación auricular', at: 'Este electrocardiograma', credit: 'Wikimedia Commons, CC BY-SA 3.0' } },
           { t: 'Ecocardiograma', d: 'Transtorácico o transesofágico',
             say: 'Más un ecocardiograma, transtorácico o transesofágico. Es importante porque la causa va a decidir el tratamiento, y eso es lo que viene.' },
         ] },
@@ -214,19 +218,6 @@ module.exports = {
       steps: [
         { note: 'Cuatro o más: hospitalizar',
           say: 'El ABCD dos suma la edad, la presión, la clínica, la duración y la diabetes. Con cuatro o más puntos se hospitaliza; con cero a tres, se estudia en forma ambulatoria pero en menos de cuarenta y ocho horas.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Estenosis carotídea',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-02/01_estenosis-carotidea-angiografia__cto-neuro_p36.jpg', label: 'Estenosis carotídea', credit: 'Manual CTO Neurología 14.ª ed., p. 36' },
-      ],
-      steps: [
-        { note: 'Estrechez en el origen de la carótida',
-          say: 'Después de una crisis isquémica transitoria se buscan las carótidas. Una estenosis significativa sintomática se opera.' },
       ],
     },
 
@@ -302,6 +293,82 @@ module.exports = {
         options: 'Las opciones: ecocardiograma, angiografía, resonancia de cerebro, eco-Doppler de carótidas, o TAC de cerebro. Piénsalo.',
         answer: 'Es la D, el eco-Doppler de carótidas. Fíjate en el lado: la hemiparesia es derecha, así que la isquemia fue en el hemisferio izquierdo, y el soplo está justamente en la carótida izquierda. Esa placa es la sospechosa. El ecocardiograma tienta, porque también es parte del estudio, pero el soplo te dirige a la carótida. Y si la estenosis es significativa, la endarterectomía debe hacerse dentro de las dos semanas, y ya van siete días.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.046 · Insuficiencia cerebro vascular",
+      "stem": "Hombre de 66 años, hipertenso, presenta un episodio de 30 minutos de debilidad de la mano derecha y dificultad para hablar, con recuperación completa. La TAC de cerebro es normal. La ecografía Doppler carotídea muestra una estenosis de 80% de la carótida interna izquierda.",
+      "question": "Además del tratamiento médico óptimo, ¿cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anticoagulación con heparina y luego warfarina"
+        },
+        {
+          "letter": "B",
+          "text": "Control con Doppler carotídeo en 6 meses"
+        },
+        {
+          "letter": "C",
+          "text": "Endarterectomía carotídea izquierda precoz, idealmente dentro de 2 semanas"
+        },
+        {
+          "letter": "D",
+          "text": "Endarterectomía carotídea derecha"
+        },
+        {
+          "letter": "E",
+          "text": "Trombólisis endovenosa"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Un AIT del territorio carotídeo izquierdo con estenosis sintomática ipsilateral de 70 a 99% tiene indicación de endarterectomía carotídea (o angioplastia con stent en casos seleccionados), idealmente dentro de 2 semanas, cuando el riesgo de recurrencia es mayor. La trombólisis no corresponde porque el déficit ya se resolvió.",
+      "say": {
+        "stem": "Hombre de sesenta y seis años, hipertenso, con treinta minutos de debilidad de la mano derecha y dificultad para hablar, que se recuperó por completo. La TAC es normal y el Doppler muestra una estenosis de ochenta por ciento de la carótida interna izquierda.",
+        "question": "Además del tratamiento médico óptimo, ¿qué conducta corresponde?",
+        "options": "Las opciones: anticoagulación, control con Doppler en seis meses, endarterectomía carotídea izquierda precoz, endarterectomía derecha o trombólisis. Piénsalo.",
+        "answer": "Es la C. Un AIT con estenosis carotídea sintomática sobre setenta por ciento del mismo lado se opera, y pronto, idealmente en las primeras dos semanas. La trombólisis tienta por ser un evento isquémico, pero el déficit ya se resolvió y no hay nada que reperfundir."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.01.2.003 · Embolia cardiogénica",
+      "stem": "Una mujer de 74 años, hipertensa, presenta afasia y hemiparesia derecha de inicio súbito. Al examen tiene pulso irregular de 110 por minuto. El ECG muestra fibrilación auricular, que desconocía. La TAC de encéfalo no muestra hemorragia y la RM confirma un infarto cortical en el territorio de la arteria cerebral media izquierda.",
+      "question": "Una vez superada la fase aguda, ¿cuál es la medida más eficaz para prevenir un nuevo evento?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aspirina 100 mg/día"
+        },
+        {
+          "letter": "B",
+          "text": "Clopidogrel más aspirina por 1 año"
+        },
+        {
+          "letter": "C",
+          "text": "Anticoagulación oral"
+        },
+        {
+          "letter": "D",
+          "text": "Endarterectomía carotídea"
+        },
+        {
+          "letter": "E",
+          "text": "Control de frecuencia con atenolol solamente"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Un infarto cortical con fibrilación auricular es una embolia cardiogénica. La prevención secundaria es la anticoagulación oral (anticoagulantes directos o acenocumarol), iniciada precozmente según el tamaño del infarto. Los antiplaquetarios son claramente inferiores para prevenir embolias de origen auricular.",
+      "say": {
+        "stem": "Una mujer de setenta y cuatro años presenta afasia y hemiparesia derecha súbitas. Tiene una fibrilación auricular que desconocía y un infarto cortical en el territorio de la cerebral media.",
+        "question": "Superada la fase aguda, ¿cuál es la medida más eficaz para prevenir otro evento?",
+        "options": "Las opciones: aspirina, doble antiagregación, anticoagulación oral, endarterectomía carotídea o solo control de frecuencia. Piénsalo.",
+        "answer": "Es la C. Es una embolia cardiogénica por fibrilación auricular y se previene con anticoagulación oral. La aspirina tienta, pero protege mucho menos frente a los émbolos auriculares."
+      }
     },
 
     {

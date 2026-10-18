@@ -1,0 +1,78 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Obstetricia 12: seguimiento de la beta-hCG después de evacuar una mola (gráfico, sin anatomía).
+//   ?v=hcg   ob-12 A1: baja y se normaliza (semanal, luego mensual) vs. se estanca o sube = neoplasia trofoblástica
+const V = new URLSearchParams(location.search).get('v') || 'hcg';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+
+const X0 = 120, X1 = 1220, Y0 = 500, Y1 = 150, WMAX = 40;     // eje: semanas desde la evacuación
+const px = w => lerp(X0, X1, w / WMAX);
+const py = v => lerp(Y0, Y1, Math.log10(Math.max(v, 1)) / 6);   // escala logarítmica 1 a 1.000.000
+// curva normal: baja hasta menos de 5 hacia la semana 10
+const normal = w => w <= 0 ? 190000 : w >= 10.5 ? 2 : 190000 * Math.pow(2 / 190000, w / 10.5);
+// neoplasia: baja, se estanca (semanas 5 a 8) y luego sube
+const neo = w => w <= 5 ? 190000 * Math.pow(2500 / 190000, w / 5) : w <= 8 ? 2500 : 2500 * Math.pow(1.45, w - 8);
+
+function axes(a) {
+  ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = '#2A2F38'; ctx.lineWidth = 1; ctx.fillStyle = C.MUTED; ctx.font = '14px sans-serif';
+  [1, 10, 100, 1000, 10000, 100000, 1000000].forEach(v => { ctx.beginPath(); ctx.moveTo(X0, py(v)); ctx.lineTo(X1, py(v)); ctx.stroke(); text(v.toLocaleString('de-DE'), X0 - 10, py(v) + 5, 14, C.MUTED, '', 'right'); });
+  for (let w = 0; w <= WMAX; w += 4) text(String(w), px(w), Y0 + 24, 14, C.MUTED, '', 'center');
+  text('Semanas desde la evacuación', (X0 + X1) / 2, Y0 + 50, 16, C.MUTED, '', 'center');
+  text('Beta-hCG (UI/L)', X0 - 100, Y1 - 20, 16, C.MUTED);
+  // zona normal
+  ctx.fillStyle = 'rgba(61,220,132,0.12)'; ctx.fillRect(X0, py(5), X1 - X0, Y0 - py(5)); text('Normal (menos de 5)', X1 - 8, py(5) + 20, 15, C.GREEN, 'bold', 'right');
+  ctx.restore();
+}
+function curve(f, w0, w1, col, lw = 5) {
+  ctx.save(); ctx.strokeStyle = col; ctx.lineWidth = lw; ctx.lineJoin = 'round'; ctx.lineCap = 'round'; ctx.beginPath();
+  for (let i = 0; i <= 120; i++) { const w = lerp(w0, w1, i / 120), x = px(w), y = py(f(w)); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); } ctx.stroke(); ctx.restore();
+}
+function dot(w, f, col, r = 6) { ctx.fillStyle = col; ctx.beginPath(); ctx.arc(px(w), py(f(w)), r, 0, 7); ctx.fill(); ctx.strokeStyle = '#0E1116'; ctx.lineWidth = 2; ctx.stroke(); }
+
+function hcg(t) {
+  K.title('Mola: seguimiento de la beta-hCG', 'Después de evacuar, el trabajo recién empieza', C.VIOLET);
+  axes(seg(t, 0, 0.8));
+  // anticoncepción obligatoria durante todo el seguimiento
+  const ac = seg(t, 1.2, 1.5);
+  if (ac > 0) { ctx.save(); ctx.globalAlpha = 0.9; rrect(X0, 112, (X1 - X0) * ac, 30, 15, 'rgba(255,194,71,0.22)'); ctx.restore(); if (ac > 0.6) text('Anticoncepción obligatoria durante todo el seguimiento', X0 + 18, 133, 16, C.AMBER, 'bold'); }
+  // 1) curva normal
+  const wN = lerp(0, 12.5, ease(seg(t, 3, 8)));
+  curve(w => normal(Math.min(w, 10.5)), 0, Math.min(wN, 12.5), C.GREEN);
+  // controles semanales
+  for (let w = 1; w <= 12; w++) if (wN >= w) dot(w, w2 => normal(w2), C.GREEN, 5);
+  label2('Evacuación: beta-hCG muy alta', px(0) + 12, py(190000) - 14, C.VIOLET, seg(t, 2, 0.5) * (1 - seg(t, 8, 0.5)));
+  label2('Semanal, hasta 3 valores normales seguidos', px(11) + 30, py(40), C.GREEN, seg(t, 9.5, 0.6) * (1 - seg(t, 17, 0.5)));
+  // luego mensual por seis meses
+  const mo = ease(seg(t, 12.5, 6));
+  for (let k = 0; k < 6; k++) { const w = 13 + k * 4.33; if (mo * 6 > k + 0.3) { dot(w, () => 2, C.BLUE, 6); } }
+  if (mo > 0) { ctx.save(); ctx.globalAlpha = Math.min(1, mo * 3); ctx.strokeStyle = C.GREEN; ctx.lineWidth = 5; ctx.beginPath(); ctx.moveTo(px(12.5), py(2)); ctx.lineTo(px(12.5 + mo * 26), py(2)); ctx.stroke(); ctx.restore(); }
+  label2('Después, mensual por 6 meses', px(26), py(60), C.BLUE, seg(t, 14, 0.6) * (1 - seg(t, 20, 0.5)));
+  const done = seg(t, 20, 0.6);
+  // 2) la que se estanca o sube
+  const wE = lerp(0, 22, ease(seg(t, 21.5, 7)));
+  curve(neo, 0, Math.min(wE, 22), C.RED);
+  for (let w = 1; w <= 22; w++) if (wE >= w) dot(w, neo, C.RED, 4.5);
+  label2('Se estanca (meseta) ...', px(6.5) + 40, py(2500) - 36, C.AMBER, seg(t, 24.5, 0.5) * (1 - seg(t, 27.5, 0.4)));
+  label2('... o vuelve a subir', px(15) + 10, py(neo(15)) - 30, C.RED, seg(t, 27.5, 0.5));
+  // paneles
+  K.card(150, 590, 520, 100, C.GREEN, 'Seguimiento normal', ['Semanal hasta tres valores normales', 'Luego mensual durante seis meses'], seg(t, 11, 0.5), 17);
+  K.card(700, 590, 520, 100, C.RED, 'Neoplasia trofoblástica gestacional', ['Estancamiento o alza de la beta-hCG', 'Se estudia y se trata con quimioterapia'], seg(t, 28, 0.5), 17);
+}
+function label2(s, x, y, col, a, align = 'left') {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.font = 'bold 18px sans-serif'; const w = ctx.measureText(s).width + 24, x0 = align === 'right' ? x - w : x;
+  rrect(x0, y - 22, w, 34, 10, col); text(s, x0 + 12, y + 2, 18, C.BG, 'bold'); ctx.restore();
+}
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(900, 700, 380, 20); text('Gráfico propio, esquema del seguimiento', 1268, 715, 13, C.MUTED, '', 'right'); }
+
+const SCN = { hcg: { f: hcg, dur: 38 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({});
+</script>
+</body></html>

@@ -24,7 +24,8 @@ module.exports = {
         ] },
         { title: 'Quiste hidatídico', tag: 'Contexto rural', kind: 'alert', items: [
           { t: 'Membrana, tabiques, vesículas hijas', d: 'Contacto con perros',
-            say: 'Si el quiste tiene membrana, tabiques o vesículas hijas, en un paciente rural que convive con perros, piensa en un quiste hidatídico.' },
+            say: 'Si el quiste tiene membrana, tabiques o vesículas hijas, en un paciente rural que convive con perros, piensa en un quiste hidatídico. Mira esta imagen: una lesión quística con membranas en su interior.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-16/02_quiste-hidatidico-hepatico__cto-radiologia_p43.jpg', label: 'Quiste hidatídico', at: 'Mira esta imagen', credit: 'Manual CTO Radiología 14.ª ed., p. 43' } },
           { t: 'Albendazol + cirugía', d: 'Nunca punción libre',
             say: 'Se trata con albendazol y cirugía, o con la técnica de punción, aspiración, inyección y reaspiración. Lo que nunca se hace es puncionarlo libremente: el líquido puede dar anafilaxia y sembrar la enfermedad.' },
         ] },
@@ -44,7 +45,8 @@ module.exports = {
       cards: [
         { title: 'Se observan', tag: 'Benignas sin riesgo', kind: 'normal', items: [
           { t: 'Hemangioma', d: 'Hiperecogénico, homogéneo, bien delimitado',
-            say: 'Ahora las sólidas. La benigna más frecuente es el hemangioma: hiperecogénico, homogéneo y bien delimitado. Se observa; solo se opera si es gigante y da síntomas.' },
+            say: 'Ahora las sólidas. La benigna más frecuente es el hemangioma: hiperecogénico, homogéneo y bien delimitado. Mira cómo se llena desde la periferia hacia el centro, en glóbulos. Se observa; solo se opera si es gigante y da síntomas.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-16/01_hemangioma-realce-periferico__cto-radiologia_p51.jpg', label: 'Hemangioma', at: 'Mira cómo se llena', credit: 'Manual CTO Radiología 14.ª ed., p. 51' } },
           { t: 'Hiperplasia nodular focal', d: 'Cicatriz central',
             say: 'La hiperplasia nodular focal, con su cicatriz central, también es benigna y sin riesgo: se observa.' },
         ] },
@@ -66,11 +68,60 @@ module.exports = {
           { t: 'Heterogéneo, irregular, en un cirrótico', d: 'Sobre todo cirrosis por virus B o C',
             say: 'Pasemos a las malignas. El hepatocarcinoma es heterogéneo e irregular, y aparece en un hígado dañado, sobre todo por cirrosis por virus B o C, como vimos en la clase de daño hepático crónico. La alfafetoproteína está alta.' },
           { t: 'TAC o RM trifásico', d: 'Realce arterial + lavado',
-            say: 'Se confirma con TAC o resonancia trifásica: realce en fase arterial y lavado después. Se trata con resección, ablación o trasplante, según los criterios de Milán.' },
+            say: 'Se confirma con TAC o resonancia trifásica: realce en fase arterial y lavado después. Mira esta tomografía trifásica: la lesión capta contraste en la fase arterial y lo pierde en la fase portal. Se trata con resección, ablación o trasplante, según los criterios de Milán.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-16/01_tc_trifasica_hcc__commons.jpg', label: 'Hepatocarcinoma', at: 'Mira esta tomografía', credit: 'Wikimedia Commons «Triphasic CT scan of hepatocellular carcinoma.jpg», CC BY 4.0, Zhenyu Pan, Guozi Yang, Tingting Yuan, Lihua Dong, Lihua Don' } },
         ] },
         { title: 'Metástasis', tag: 'El hígado más frecuente', kind: 'alert', items: [
           { t: 'Lesiones múltiples, hipoecogénicas', d: 'Buscar el primario',
-            say: 'Y si las lesiones son múltiples e hipoecogénicas, son metástasis: hay que buscar el primario, en colon, mama, pulmón o estómago. En el cáncer de colon, algunas son resecables con intención curativa.' },
+            say: 'Y si las lesiones son múltiples e hipoecogénicas, son metástasis. Mira esta tomografía: muchas lesiones hipodensas, repartidas por todo el parénquima. Hay que buscar el primario, en colon, mama, pulmón o estómago. En el cáncer de colon, algunas son resecables con intención curativa.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-16/04_metastasis-hepaticas-tc__atlas-eunacom.jpg', label: 'Metástasis hepáticas (TAC)', at: 'Mira esta tomografía: muchas', credit: 'Atlas EUNACOM 2026' } },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Biopsia hepática',
+      title: 'Biopsia de una lesión focal: cuándo y cuándo no',
+      cards: [
+        { title: 'Cuándo', tag: 'Solo si la imagen no basta', kind: 'key', items: [
+          { t: 'Imagen no concluyente', d: 'La hace el especialista, guiada por eco o TAC',
+            say: 'La biopsia de una lesión focal se indica solo cuando la imagen no es concluyente. La realiza el especialista, guiada por ecografía o TAC.' },
+          { t: 'Cirrótico con lesión típica de hepatocarcinoma: no se biopsia', d: 'Basta el realce y el lavado',
+            say: 'En un cirrótico con una lesión típica de hepatocarcinoma, no se biopsia. El realce arterial y el lavado bastan.' },
+        ] },
+        { title: 'Contraindicada', tag: 'Ojo', kind: 'alert', items: [
+          { t: 'Sospecha de quiste hidatídico', d: 'Diseminación y anafilaxia',
+            say: 'Está contraindicada ante la sospecha de un quiste hidatídico, por el riesgo de diseminación y de anafilaxia.' },
+          { t: 'Lesión vascular o coagulopatía no corregible', d: 'Hemangioma; vía transyugular',
+            say: 'También ante una lesión vascular, como el hemangioma, o una coagulopatía que no se corrige. En ese caso se usa la vía transyugular.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Vesícula y vías biliares',
+      title: 'Cáncer de vesícula y de vías biliares',
+      cards: [
+        { title: 'Cáncer de vesícula', tag: 'Silente', kind: 'alert', items: [
+          { t: 'Colelitiasis antigua, porcelana, pólipo mayor de 1 cm', d: 'Chile: incidencia de las más altas; predomina en mujeres',
+            say: 'El cáncer de vesícula es un adenocarcinoma asociado a colelitiasis de larga data con cálculos grandes, a la vesícula en porcelana, a pólipos de más de un centímetro y a las anomalías de la unión biliopancreática. Chile tiene una de las incidencias más altas del mundo, con predominio femenino.' },
+          { t: 'Hallazgo en la pieza de colecistectomía', d: 'Dolor, baja de peso o ictericia: avanzado',
+            say: 'Es silente. Si hay dolor, baja de peso, ictericia o una masa, ya está avanzado. Muchas veces es un hallazgo en la pieza de la colecistectomía.' },
+        ] },
+        { title: 'Tratamiento', tag: 'Según la invasión', kind: 'pharma', items: [
+          { t: 'T1a: colecistectomía', d: 'Invade solo la mucosa',
+            say: 'Si invade solo la mucosa, T uno a, basta la colecistectomía.' },
+          { t: 'Desde T1b: colecistectomía radical', d: 'Cuña hepática y linfadenectomía',
+            say: 'Desde T uno b, se hace una colecistectomía radical, con resección hepática en cuña y linfadenectomía. Y la colecistectomía preventiva en la colelitiasis sintomática de treinta y cinco a cuarenta y nueve años está garantizada por el GES.' },
+        ] },
+        { title: 'Colangiocarcinoma', tag: 'Ictericia indolora', kind: 'key', items: [
+          { t: 'Ictericia progresiva, indolora, con prurito', d: 'Hiliar (Klatskin), intrahepático o distal',
+            say: 'El cáncer de vías biliares se presenta como ictericia progresiva, indolora y con prurito. Puede ser intrahepático, hiliar, el tumor de Klatskin, que es el más frecuente y deja la vesícula colapsada, o distal, con vesícula palpable. Mira esta colangiografía endoscópica de un colangiocarcinoma hiliar: la flecha señala la estenosis de la vía biliar, con dilatación por encima.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-16/03_colangiocarcinoma-hiliar-cpre__harrison_p2436.jpg', label: 'Colangiocarcinoma hiliar', at: 'Mira esta colangiografía', credit: 'Harrison 21.ª ed., p. 2436' } },
+          { t: 'Ecografía, colangiorresonancia y CA 19-9', d: 'Resección o prótesis paliativa',
+            say: 'Los factores de riesgo son la colangitis esclerosante primaria, el quiste de colédoco y la litiasis intrahepática. Se estudia con ecografía, colangiorresonancia y CA diecinueve nueve, y se trata con resección, o con prótesis de drenaje si no es posible.' },
         ] },
       ],
     },
@@ -108,26 +159,6 @@ module.exports = {
       steps: [
         { note: 'En un cirrótico',
           say: 'En la fase arterial, el hepatocarcinoma brilla, y en la fase portal se lava. El hemangioma, en cambio, se llena desde la periferia hacia el centro. En un cirrótico, el realce arterial con lavado basta para el diagnóstico.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Lesiones focales del hígado',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-16/01_tc_trifasica_hcc__commons.jpg', label: 'Hepatocarcinoma', credit: 'Wikimedia Commons «Triphasic CT scan of hepatocellular carcinoma.jpg», CC BY 4.0, Zhenyu Pan, Guozi Yang, Tingting Yuan, Lihua Dong, Lihua Don' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-16/01_hemangioma-realce-periferico__cto-radiologia_p51.jpg', label: 'Hemangioma', credit: 'Manual CTO Radiología 14.ª ed., p. 51' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-16/02_quiste-hidatidico-hepatico__cto-radiologia_p43.jpg', label: 'Quiste hidatídico', credit: 'Manual CTO Radiología 14.ª ed., p. 43' },
-      ],
-      steps: [
-        { note: 'Capta en arterial, lava en portal',
-          say: 'Esta es una tomografía trifásica de un hepatocarcinoma: la lesión capta contraste en la fase arterial y lo pierde en la fase portal. Ese lavado, en un cirrótico, basta para el diagnóstico.' },
-        { note: 'Realce periférico en glóbulos',
-          say: 'El hemangioma, en cambio, se llena desde la periferia hacia el centro, en glóbulos. Es el tumor benigno más frecuente del hígado.' },
-        { note: 'Quiste con membranas',
-          say: 'Y este es un quiste hidatídico: una lesión quística con membranas en su interior. Ojo, nunca se punciona a ciegas.' },
       ],
     },
 
@@ -270,6 +301,231 @@ module.exports = {
         options: 'Las opciones: metástasis, hemangioma, hepatocarcinoma, absceso, o quiste hidatídico. Piénsalo.',
         answer: 'La respuesta es la B, hemangioma, y se observa. La palabra clave es hiperecogénica y homogénea, en un hígado sano. Las metástasis serían múltiples e hipoecogénicas, el hepatocarcinoma necesita un hígado cirrótico, y el absceso vendría con fiebre y dolor. Si hubiera dudas, se confirma con resonancia, pero no se opera.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.023 · Quistes y abscesos hepáticos",
+      "stem": "Hombre de 62 años, diabético, con 10 días de fiebre de 39 °C, calofríos y dolor en hipocondrio derecho. Leucocitos 19.000/mm³ y PCR 220 mg/L. La ecografía muestra una lesión hepática hipoecogénica de 7 cm, de contenido líquido con detritus.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hepatectomía de urgencia"
+        },
+        {
+          "letter": "B",
+          "text": "Albendazol y cirugía"
+        },
+        {
+          "letter": "C",
+          "text": "Antibióticos orales y control ecográfico en 3 meses"
+        },
+        {
+          "letter": "D",
+          "text": "Antibióticos endovenosos y drenaje percutáneo guiado por imagen"
+        },
+        {
+          "letter": "E",
+          "text": "Observación, ya que es un quiste simple"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Fiebre, dolor en hipocondrio derecho y una colección hepática en un diabético es un absceso hepático piógeno. Se trata con antibióticos endovenosos que cubran gramnegativos y anaerobios, por ejemplo ceftriaxona y metronidazol, más drenaje percutáneo si mide más de 5 cm. Hay que buscar el origen, a menudo biliar.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de sesenta y dos años, diabético, con diez días de fiebre alta, calofríos y dolor en el hipocondrio derecho, con leucocitosis y PCR muy elevada. La ecografía muestra una lesión hepática de siete centímetros con contenido líquido y detritus.",
+        "question": "¿Cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: hepatectomía de urgencia, albendazol y cirugía, antibióticos orales y control, antibióticos endovenosos con drenaje percutáneo o observar. Piénsalo.",
+        "answer": "Es la D. Es un absceso hepático piógeno, y una colección grande necesita antibióticos endovenosos y drenaje percutáneo. El albendazol con cirugía es el distractor, porque es el tratamiento del quiste hidatídico, que no se presenta con este cuadro séptico."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.022 · Hidatidosis hepática",
+      "stem": "Hombre de 40 años, criador de ovejas en la Región de Aysén, asintomático. En una ecografía solicitada por otro motivo se detecta un quiste hepático de 8 cm con membranas internas desprendidas y vesículas hijas.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Punción diagnóstica percutánea del quiste"
+        },
+        {
+          "letter": "B",
+          "text": "Biopsia hepática"
+        },
+        {
+          "letter": "C",
+          "text": "Observación, por estar asintomático"
+        },
+        {
+          "letter": "D",
+          "text": "Metronidazol y drenaje percutáneo"
+        },
+        {
+          "letter": "E",
+          "text": "Albendazol perioperatorio y cirugía"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Un quiste con vesículas hijas en zona ganadera es un quiste hidatídico activo; se apoya con serología. Los quistes grandes o complicados se tratan con cirugía y albendazol antes y después, para reducir el riesgo de siembra. La punción sin protección puede causar anafilaxia y diseminación; la técnica PAIR solo en casos seleccionados.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de cuarenta años, criador de ovejas en Aysén, sin síntomas. En una ecografía por otro motivo aparece un quiste hepático de ocho centímetros, con membranas desprendidas y vesículas hijas en su interior.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: puncionar el quiste, biopsia hepática, observar, metronidazol con drenaje o albendazol con cirugía. Piénsalo.",
+        "answer": "Es la E. Las vesículas hijas en un paciente de zona ganadera son un quiste hidatídico, y uno de ocho centímetros se opera con albendazol antes y después. Puncionarlo es la trampa: el líquido puede provocar una reacción anafiláctica y sembrar nuevos quistes."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2019 · Pregunta 180",
+      "stem": "Mujer de 91 años, diabética, con antecedente de cólicos biliares a repetición, consulta por astenia, decaimiento, ictericia marcada y orinas oscuras de 3 semanas de evolución, asociadas a dolor epigástrico moderado. Al examen físico se aprecia ictericia de piel y mucosas y se palpa una masa en el hipocondrio derecho. Las pruebas hepáticas muestran SGOT 60 UI/L, SGPT 56 UI/L, GGT 570 UI/L, FA 755 UI/L, bilirrubina total 21 mg/dL y bilirrubina directa 19 mg/dL.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cáncer de la cabeza de páncreas"
+        },
+        {
+          "letter": "B",
+          "text": "Cáncer de vesícula"
+        },
+        {
+          "letter": "C",
+          "text": "Colangiocarcinoma"
+        },
+        {
+          "letter": "D",
+          "text": "Hepatocarcinoma"
+        },
+        {
+          "letter": "E",
+          "text": "Cáncer de la ampolla de Vater"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Colestasia marcada con masa en hipocondrio derecho en una mujer mayor con cólicos biliares de larga data orienta a cáncer de vesícula, muy frecuente en Chile. La colelitiasis es su principal factor de riesgo, y por eso existe la colecistectomía preventiva GES entre los 35 y 49 años.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecinueve. Mujer de noventa y un años, diabética, con cólicos biliares a repetición, que hace tres semanas tiene cansancio, ictericia marcada, orina oscura y dolor epigástrico moderado. Se palpa una masa en el hipocondrio derecho y la bilirrubina está en veintiuno, casi toda directa.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: cáncer de cabeza de páncreas, cáncer de vesícula, colangiocarcinoma, hepatocarcinoma, o cáncer de la ampolla de Vater. Piénsalo.",
+        "answer": "Es la B. Mujer, mayor, con años de cálculos biliares, ictericia obstructiva y una masa en el hipocondrio derecho: es el perfil del cáncer de vesícula en Chile. El cáncer de páncreas tienta porque también da ictericia indolora con vesícula palpable, pero aquí el antecedente de colelitiasis inclina la balanza."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.024 · Tumores hepáticos",
+      "stem": "Hombre de 63 años con cirrosis hepática por alcohol, en seguimiento con ecografía semestral, presenta un nódulo hepático nuevo de 3 cm. La TAC trifásica muestra captación intensa de contraste en fase arterial y lavado en las fases portal y tardía.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hemangioma hepático"
+        },
+        {
+          "letter": "B",
+          "text": "Hiperplasia nodular focal"
+        },
+        {
+          "letter": "C",
+          "text": "Metástasis de cáncer colorrectal"
+        },
+        {
+          "letter": "D",
+          "text": "Hepatocarcinoma"
+        },
+        {
+          "letter": "E",
+          "text": "Absceso hepático"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En un paciente cirrótico, un nódulo mayor de 1 cm con hiperrealce arterial y lavado en fase portal o tardía es diagnóstico de hepatocarcinoma por imagen, sin necesidad de biopsia. El hemangioma muestra relleno periférico globular centrípeto, y la hiperplasia nodular focal aparece en mujeres jóvenes con hígado sano.",
+      "say": {
+        "stem": "Hombre de sesenta y tres años con cirrosis alcohólica, en control con ecografía cada seis meses, a quien aparece un nódulo hepático nuevo de tres centímetros. En la TAC trifásica capta intensamente en fase arterial y se lava en las fases portal y tardía.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: hemangioma, hiperplasia nodular focal, metástasis de cáncer colorrectal, hepatocarcinoma o absceso hepático. Piénsalo.",
+        "answer": "Es la D. En un cirrótico, captación arterial más lavado es hepatocarcinoma, y ni siquiera necesitas biopsia. El hemangioma tienta por ser el tumor hepático benigno más frecuente, pero capta de la periferia hacia el centro y no se lava."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2017 · Pregunta 95",
+      "stem": "Paciente de 60 años se realiza una colecistectomía laparoscópica electiva por colelitiasis. La biopsia informa adenocarcinoma invasor en el fondo vesicular, que compromete hasta la subserosa. Una TAC de abdomen y pelvis con contraste no muestra metástasis.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Quimioterapia"
+        },
+        {
+          "letter": "B",
+          "text": "Radioterapia"
+        },
+        {
+          "letter": "C",
+          "text": "Cuidados paliativos"
+        },
+        {
+          "letter": "D",
+          "text": "Control con TAC cada 3 meses"
+        },
+        {
+          "letter": "E",
+          "text": "Colecistectomía radical"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En un cáncer de vesícula incidental T1b o mayor (aquí T2, subseroso) sin enfermedad a distancia, está indicada la reintervención con colecistectomía radical o extendida: resección del lecho hepático y linfadenectomía, que mejora la sobrevida. Solo el T1a, limitado a la lámina propia, se considera tratado con la colecistectomía simple.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Paciente de sesenta años operado de colecistectomía laparoscópica por colelitiasis. La biopsia muestra un adenocarcinoma invasor en el fondo, que llega a la subserosa, y la TAC no muestra metástasis.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: quimioterapia, radioterapia, cuidados paliativos, control con TAC cada tres meses, o colecistectomía radical. Piénsalo.",
+        "answer": "Es la E. Un cáncer de vesícula incidental que llega a la subserosa, sin metástasis, se reopera con colecistectomía radical, sacando el lecho hepático y los ganglios. El control con TAC tienta porque la vesícula ya se sacó, pero eso solo basta en tumores muy superficiales, limitados a la lámina propia."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.5.003 · Biopsia hepática",
+      "stem": "Hombre de 63 años con cirrosis por virus hepatitis C, en seguimiento con ecografía semestral, presenta un nódulo hepático de 3 cm. En la TAC trifásica la lesión muestra hiperrealce en fase arterial y lavado en fases portal y tardía.",
+      "question": "¿Cuál es la conducta más adecuada respecto del diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Biopsia hepática percutánea obligatoria antes de tratar"
+        },
+        {
+          "letter": "B",
+          "text": "Control con ecografía en 6 meses"
+        },
+        {
+          "letter": "C",
+          "text": "Diagnóstico de carcinoma hepatocelular sin necesidad de biopsia y derivar para tratamiento"
+        },
+        {
+          "letter": "D",
+          "text": "Medir CA 19-9 para confirmar"
+        },
+        {
+          "letter": "E",
+          "text": "Biopsia transyugular"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En un cirrótico, un nódulo mayor de 1 cm con hiperrealce arterial y lavado en fase portal o tardía en TAC o RM permite diagnosticar carcinoma hepatocelular sin biopsia. La biopsia se reserva para lesiones con imagen atípica o hígado no cirrótico, por su riesgo de sangrado y siembra tumoral. El CA 19-9 se usa en colangiocarcinoma.",
+      "say": {
+        "stem": "Hombre cirrótico con un nódulo de tres centímetros con realce arterial y lavado en la TAC trifásica.",
+        "question": "¿Qué haces respecto al diagnóstico?",
+        "options": "Las opciones: biopsia obligatoria, control en seis meses, diagnosticar hepatocarcinoma sin biopsia, CA diecinueve nueve o biopsia transyugular. Piénsalo.",
+        "answer": "Es la C. Se diagnostica hepatocarcinoma por imagen, sin biopsia. La biopsia parece más segura, pero no es necesaria con un patrón típico y tiene riesgo de sangrado y siembra."
+      }
     },
 
     {

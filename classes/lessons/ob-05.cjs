@@ -88,6 +88,52 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Función renal',
+      title: 'En el embarazo el riñón filtra más',
+      cards: [
+        { title: 'Hiperfiltración fisiológica', tag: 'Cambia los valores normales', kind: 'key', items: [
+          { t: 'Filtración sube cerca de 50%', d: 'Desde el primer trimestre hasta el término',
+            say: 'Hay un cambio fisiológico que se pregunta mucho. Desde el primer trimestre, el flujo de sangre por el riñón aumenta entre cincuenta y ochenta por ciento, y la filtración glomerular sube cerca de un cincuenta por ciento, hasta el final del embarazo.' },
+          { t: 'Creatinina baja a 0,4-0,8 mg/dL', d: 'Urea de 8 a 10 mg/dL',
+            say: 'Como filtras más, la creatinina en sangre baja: queda entre cero coma cuatro y cero coma ocho miligramos por decilitro, y la urea entre ocho y diez.' },
+          { t: 'Creatinina de 1,0 ya es anormal', d: 'Aunque en un adulto sería normal',
+            say: 'Entonces, ojo: una creatinina de uno coma cero, que en cualquier adulto sería normal, en una embarazada ya es anormal. Y en una paciente de riesgo, incluso valores de cero coma ocho a cero coma nueve pueden avisar de un daño renal.' },
+        ] },
+        { title: 'Otras adaptaciones', tag: 'No las confundas con enfermedad', kind: 'normal', items: [
+          { t: 'Uréteres dilatados', d: 'Más a la derecha; más pielonefritis',
+            say: 'Los cálices, la pelvis y los uréteres se dilatan, más a la derecha, por la progesterona y por la compresión del útero. Eso explica que haya más pielonefritis, y no debes confundirlo con una uropatía obstructiva.' },
+          { t: 'Glucosuria benigna', d: 'Proteinuria fisiológica hasta 300 mg',
+            say: 'Puedes encontrar glucosuria benigna, porque el túbulo reabsorbe menos glucosa. Y una proteinuria fisiológica de hasta trescientos miligramos en veinticuatro horas.' },
+          { t: 'Sodio y gases más bajos', d: 'Alcalosis respiratoria compensada',
+            say: 'La osmolalidad queda diez unidades más baja y el sodio cuatro a cinco más bajo. Además hay una alcalosis respiratoria crónica compensada, con presión de dióxido de carbono cerca de treinta y bicarbonato entre dieciocho y veintidós.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Función renal',
+      title: 'Qué haces con una creatinina alta',
+      cards: [
+        { title: 'En la preeclampsia', tag: 'Daño de órgano', kind: 'alert', items: [
+          { t: 'Creatinina mayor de 1,1 mg/dL', d: 'O que se duplica: criterio de severidad',
+            say: 'En la preeclampsia, una creatinina mayor de uno coma uno, o que se duplica, ya es criterio de severidad. Y recuerda que la proteinuria significativa es trescientos miligramos o más en veinticuatro horas, o un índice de cero coma tres.' },
+        ] },
+        { title: 'Si no desciende', tag: 'Estudia la causa', kind: 'key', items: [
+          { t: 'Nefropatía, preeclampsia o infección alta', d: 'Urocultivo y ecografía renal',
+            say: 'Si la creatinina no desciende en el embarazo, descartas tres cosas: una nefropatía previa, una preeclampsia o una infección urinaria alta. Pides urocultivo y ecografía renal.' },
+          { t: 'Evita IECA, ARA-II y nefrotóxicos', d: 'Igual que en toda la clase',
+            say: 'Y evitas los inhibidores de la enzima convertidora, los antagonistas de la angiotensina y cualquier fármaco nefrotóxico.' },
+        ] },
+        { title: 'Enfermedad renal crónica', tag: 'Alto riesgo', kind: 'criteria', items: [
+          { t: 'Creatinina sobre 1,4 mg/dL', d: 'Más riesgo de preeclampsia y pérdida renal',
+            say: 'Si ya hay enfermedad renal crónica con creatinina sobre uno coma cuatro, sube el riesgo de preeclampsia y de perder función renal. Se maneja en la unidad de alto riesgo obstétrico, junto con nefrología.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Tratamiento',
       title: '¿Con qué tratas la presión, y con qué nunca?',
@@ -137,11 +183,11 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'La placentación',
       images: [
-        { src: 'animaciones/ob-05/A1_placentacion.mp4', label: 'Arterias espirales', credit: 'Animación propia' },
+        { src: 'animaciones/ob-05/A1_placentacion.mp4', label: 'Arterias espirales', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'Anchas o estrechas',
-          say: 'En el embarazo normal, las arterias espirales se ensanchan y la placenta recibe mucha sangre. En la preeclampsia no se remodelan, quedan estrechas, y la placenta isquémica daña el endotelio materno.' },
+          say: 'Mira esta placenta. En el embarazo normal, el trofoblasto invade las arterias espirales y las ensancha, así la placenta recibe mucha sangre a baja presión. En la preeclampsia esa invasión es defectuosa: las arterias quedan estrechas y llega poca sangre. La placenta isquémica libera factores antiangiogénicos, que pasan a la sangre de la madre y dañan el endotelio. De ahí vienen la hipertensión, la proteinuria y el daño de órgano.' },
       ],
     },
 
@@ -164,6 +210,8 @@ module.exports = {
           say: 'Preeclampsia sin severidad y paciente estable: interrumpes a las treinta y siete semanas igual. El error es esperar a que se ponga sintomática para recién actuar.' },
         { cells: ['Hipertensión gestacional sin proteinuria', 'Parto a las 38 a 39 semanas', 'Interrumpir antes, como si fuera preeclampsia'],
           say: 'Y la hipertensión gestacional, sin proteinuria: el parto va a las treinta y ocho a treinta y nueve semanas, un poco más tarde que la preeclampsia. El error es adelantarla como si tuviera el mismo riesgo.' },
+        { cells: ['Embarazada con creatinina de 1,0 mg/dL', 'Anormal: estudiar la función renal', 'Creerla normal por estar en rango adulto'],
+          say: 'Y una trampa de función renal: una embarazada con creatinina de uno coma cero. Es anormal para el embarazo, y debes estudiar el riñón. El error es creerla normal porque está dentro del rango de un adulto.' },
       ],
     },
 
@@ -260,6 +308,81 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.2.012 · Pre eclampsia",
+      "stem": "Primigesta de 34 semanas, sin antecedentes, presenta PA 148/96 mmHg confirmada en 2 tomas separadas por 4 horas. Está asintomática. Plaquetas, transaminasas y creatinina normales.",
+      "question": "¿Cuál de los siguientes hallazgos confirma preeclampsia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proteinuria de 150 mg en orina de 24 horas"
+        },
+        {
+          "letter": "B",
+          "text": "Edema de extremidades inferiores"
+        },
+        {
+          "letter": "C",
+          "text": "Ácido úrico de 5 mg/dL"
+        },
+        {
+          "letter": "D",
+          "text": "Aumento de peso de 2 kg en una semana"
+        },
+        {
+          "letter": "E",
+          "text": "Proteinuria de 350 mg en orina de 24 horas"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La preeclampsia es hipertensión de inicio después de las 20 semanas con proteinuria de 300 mg o más en 24 horas (o índice proteinuria/creatininuria de 0,3 o más) o, sin proteinuria, compromiso de órgano blanco. El edema y el alza de peso no son criterios diagnósticos. El ácido úrico puede elevarse, pero no define el cuadro.",
+      "say": {
+        "stem": "Primigesta de treinta y cuatro semanas con presión de ciento cuarenta y ocho sobre noventa y seis, asintomática y con exámenes normales.",
+        "question": "¿Qué hallazgo confirma preeclampsia?",
+        "options": "Las opciones: proteinuria de ciento cincuenta, edema, ácido úrico de cinco, alza de peso o proteinuria de trescientos cincuenta miligramos en veinticuatro horas. Piénsalo.",
+        "answer": "Es la E. Proteinuria de trescientos o más en veinticuatro horas. El edema era un criterio antiguo, pero hoy no sirve para diagnosticar porque es muy frecuente en el embarazo normal."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.3.005 · Función renal en el embarazo",
+      "stem": "Embarazada de 30 semanas, normotensa y asintomática, presenta en exámenes de rutina una creatinina plasmática de 1,0 mg/dL. Antes del embarazo tenía 0,8 mg/dL.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Es normal, porque la creatinina aumenta en el embarazo"
+        },
+        {
+          "letter": "B",
+          "text": "Es esperable por aumento de la masa muscular"
+        },
+        {
+          "letter": "C",
+          "text": "Indica una deshidratación leve sin importancia"
+        },
+        {
+          "letter": "D",
+          "text": "Está elevada para el embarazo y debe estudiarse una alteración de la función renal"
+        },
+        {
+          "letter": "E",
+          "text": "Solo debe repetirse después del parto"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En el embarazo el flujo plasmático renal y la filtración glomerular aumentan cerca de 50%, por lo que la creatinina baja normalmente a 0,4-0,8 mg/dL. Un valor de 1,0 o más, aunque sería normal fuera del embarazo, sugiere deterioro de la función renal y obliga a estudiar preeclampsia, nefropatía u obstrucción.",
+      "say": {
+        "stem": "Embarazada de treinta semanas con creatinina de uno, que antes del embarazo era cero coma ocho.",
+        "question": "¿Cómo lo interpretas?",
+        "options": "Las opciones: normal porque sube en el embarazo, mayor masa muscular, deshidratación sin importancia, elevada para el embarazo y hay que estudiar o repetir después del parto. Piénsalo.",
+        "answer": "Es la D. Está elevada para el embarazo, porque la filtración aumenta y la creatinina normal baja. Creer que es normal porque cae dentro del rango de un adulto es la trampa."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -269,6 +392,8 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Si empezó antes de la semana veinte, es hipertensión crónica.' },
           { t: 'Después, con proteinuria o daño', d: 'Es preeclampsia',
             say: 'Si empezó después, con proteinuria o daño de órgano, es preeclampsia.' },
+          { t: 'Creatinina de 1,0 ya es anormal', d: 'La filtración sube cerca de 50%',
+            say: 'Y en el embarazo la filtración sube, así que una creatinina de uno coma cero ya es anormal.' },
         ] },
         { title: 'Tratamiento', tag: 'Nunca IECA ni ARA-II', kind: 'pharma', items: [
           { t: 'Labetalol, metildopa o nifedipino', d: 'Los tres son seguros',

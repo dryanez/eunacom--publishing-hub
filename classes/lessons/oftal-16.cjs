@@ -41,7 +41,8 @@ module.exports = {
         { show: ['lic'], note: 'Saponifica las membranas y desnaturaliza el colágeno',
           say: 'El álcali produce necrosis por licuefacción: saponifica los lípidos de las membranas celulares y desnaturaliza el colágeno del estroma corneal. Y ese proceso no forma ninguna barrera.' },
         { show: ['pen'], note: 'Iris, cristalino y trabéculo dañados en minutos',
-          say: 'Por eso el álcali sigue penetrando activamente, hacia el estroma profundo, la cámara anterior, el iris y el cristalino, en cuestión de minutos u horas. No se detiene solo.' },
+          say: 'Por eso el álcali sigue penetrando activamente, hacia el estroma profundo, la cámara anterior, el iris y el cristalino, en cuestión de minutos u horas. No se detiene solo. Mira esta córnea bajo luz azul: el defecto epitelial extenso, teñido, que deja un álcali.',
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-16/01_quemadura_quimica__kanski_p895.jpg', label: 'Quemadura química grave', at: 'Mira esta córnea bajo luz azul', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 895" } },
         { show: ['aci'], note: 'Ácido de baterías, ácido muriático: menos destructivos',
           say: 'Los ácidos, en cambio, como el ácido sulfúrico de las baterías o el ácido muriático, son menos destructivos, aunque igual son graves.' },
         { show: ['coa'], note: 'Precipita proteínas, forma una escara',
@@ -100,14 +101,15 @@ module.exports = {
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Quemadura química',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Álcali contra ácido',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-16/01_quemadura_quimica__kanski_p895.jpg', label: 'Quemadura química', credit: 'Kanski, p. 895' },
+        { src: 'animaciones/oftal-16/A1_quimica.mp4', label: 'Quemadura química', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · capas y rótulos propios' },
       ],
       steps: [
-        { note: 'Isquemia del limbo',
-          say: 'La quemadura química se lava antes de cualquier examen. La isquemia del limbo marca la gravedad.' },
+        { note: 'Uno penetra, el otro coagula',
+          say: 'Álcali contra ácido. El álcali saponifica y penetra en minutos hasta la cámara anterior, el iris y el cristalino. El ácido coagula las proteínas y forma una escara que frena su avance. En los dos casos se lava primero y se pregunta después, con uno a dos litros en veinte a treinta minutos, hasta llegar a un pH de siete a siete y medio.' },
       ],
     },
 

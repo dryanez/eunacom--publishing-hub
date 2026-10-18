@@ -38,7 +38,10 @@ module.exports = {
         { show: ['shk'], note: 'Un shock que no es por sangrado',
           say: 'Y eso produce un shock obstructivo: la presión arterial cae, no porque el paciente esté sangrando, sino porque el corazón no se puede llenar. Es un mecanismo completamente distinto al del hemotórax que viene después.' },
         { show: ['cli'], note: 'Los cuatro signos que se preguntan juntos',
-          say: 'Al examen encuentras el murmullo pulmonar abolido de ese lado, timpanismo al percutir, las venas del cuello ingurgitadas, y la tráquea desviada hacia el lado contrario. Con estos cuatro signos juntos, el diagnóstico es clínico y no necesita ningún examen de imagen. Nunca esperes una radiografía para descomprimir: eso solo demora una emergencia que se mide en segundos.' },
+          say: 'Al examen encuentras el murmullo pulmonar abolido de ese lado, timpanismo al percutir, las venas del cuello ingurgitadas, y la tráquea desviada hacia el lado contrario. Con estos cuatro signos juntos, el diagnóstico es clínico y no necesita ningún examen de imagen.' },
+        { show: ['cli'], note: 'No esperes la radiografía',
+          say: 'Nunca esperes una radiografía para descomprimir: eso solo demora una emergencia que se mide en segundos. Pero mira esta radiografía para que reconozcas lo que pasa por dentro: el pulmón colapsado a un lado y el mediastino empujado hacia el lado sano.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-10/03_neumotorax-a-tension__cto-cirugia_p71.jpg', label: 'Neumotórax a tensión', at: 'Pero mira esta radiografía', credit: 'Manual CTO Cirugía 14.ª ed., p. 71' } },
       ],
     },
 
@@ -69,6 +72,34 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Técnica del tubo pleural',
+      title: 'Cómo se instala, se maneja y se retira',
+      cards: [
+        { title: 'Paso a paso', tag: 'Anestesia local', kind: 'criteria', items: [
+          { t: 'Incisión de 2 a 3 cm', d: 'Por encima de la costilla inferior',
+            say: 'Ya viste dónde va el tubo; ahora cómo se pone. Con anestesia local, y pasando siempre sobre el borde superior de la costilla inferior para no tocar el paquete vasculonervioso, haces una incisión de dos a tres centímetros.' },
+          { t: 'Disección roma y dedo', d: 'Explorar el espacio pleural antes del tubo',
+            say: 'Después disecas con una pinza, sin cortar, hasta entrar en la pleura, y metes el dedo para explorar el espacio y comprobar que estás dentro. Nunca se empuja el tubo a ciegas.' },
+          { t: 'Tubo al vértice o a la base', d: 'Neumotórax arriba; hemotórax abajo y atrás',
+            say: 'Y la dirección depende de lo que quieres sacar. Si es aire, el tubo se orienta hacia el vértice. Si es sangre, hacia la base y hacia atrás.' },
+        ] },
+        { title: 'Sello de agua', tag: 'Conexión y control', kind: 'key', items: [
+          { t: 'Conectar a sello de agua', d: 'Aspiración de 20 cm de agua si hay fuga',
+            say: 'El tubo se conecta a un sello de agua, que deja salir el aire y la sangre pero no deja que entre nada. Si la fuga de aire persiste, se agrega aspiración de veinte centímetros de agua.' },
+          { t: 'Fijar y pedir radiografía', d: 'Confirma posición y expansión',
+            say: 'Lo fijas con un punto y confirmas con una radiografía de tórax que el tubo está bien posicionado y que el pulmón se expandió.' },
+        ] },
+        { title: 'Retiro y complicaciones', tag: 'Cuándo sacarlo', kind: 'alert', items: [
+          { t: 'Sin fuga, pulmón expandido', d: 'Débito menor de 100 a 200 mL al día',
+            say: 'El tubo se retira cuando ya no hay fuga de aire, el pulmón está expandido en la radiografía, y el débito baja de cien a doscientos mililitros al día.' },
+          { t: 'Lesión de órganos, infección', d: 'Mal posicionamiento y empiema',
+            say: 'Las complicaciones que se preguntan son la lesión de un órgano vecino, el tubo mal posicionado, y la infección, que puede terminar en un empiema.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Hemotórax y tórax volante',
       title: 'Cuando el tórax se llena de sangre, o pierde su marco',
@@ -90,11 +121,13 @@ module.exports = {
         { show: ['hem'], note: 'Más de 1.500 mililitros de entrada',
           say: 'Si esa acumulación pasa de mil quinientos mililitros, o sigue drenando más de doscientos por hora durante varias horas, es un hemotórax masivo.' },
         { show: ['mat'], note: 'El contraste que más se pregunta',
-          say: 'Y aquí está el contraste que el examen adora: a diferencia del neumotórax a tensión, aquí la percusión da matidez, no timpanismo, y las venas del cuello están planas, colapsadas por la hipovolemia, no ingurgitadas como en la otra emergencia.' },
+          say: 'Y aquí está el contraste que el examen adora: a diferencia del neumotórax a tensión, aquí la percusión da matidez, no timpanismo, y las venas del cuello están planas, colapsadas por la hipovolemia, no ingurgitadas como en la otra emergencia. En esta radiografía, todo el hemitórax derecho está blanco: eso es la sangre ocupando la cavidad pleural.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-10/02_hemotorax-derrame-rx__cto-neumo_p111.jpg', label: 'Hemotórax', at: 'En esta radiografía', credit: 'Manual CTO Neumología 14.ª ed., p. 111' } },
         { show: ['cos'], note: 'Un segmento que ya no tiene marco óseo',
           say: 'El otro escenario es distinto: tres o más costillas rotas, cada una en dos puntos. Ese segmento pierde su marco óseo y queda flotando, separado del resto de la pared.' },
         { show: ['vol'], note: 'Se mete al inspirar, sale al espirar',
-          say: 'Por eso se mueve al revés que el resto del tórax: se hunde cuando el paciente inspira, y se abomba cuando espira. Eso es el tórax volante.' },
+          say: 'Por eso se mueve al revés que el resto del tórax: mira este esquema, el segmento se hunde cuando el paciente inspira, y se abomba cuando espira. Eso es el tórax volante.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-10/01_torax_volante__atls_p127.jpg', label: 'Movimiento paradójico', at: 'mira este esquema', credit: 'ATLS 10.ª ed., p. 127' } },
         { show: ['con'], note: 'El dato que más se pregunta de este tema',
           say: 'Pero fíjate en el dato que más se pregunta: la hipoxia grave de este paciente no la explica el movimiento paradójico. La explica la contusión pulmonar que va por debajo, con sangre y edema llenando los alvéolos, algo que el impacto de alta energía deja sobre ese mismo segmento de la pared.' },
       ],
@@ -121,41 +154,50 @@ module.exports = {
           { t: 'Hipotensión, yugulares altas, ruidos apagados', d: 'Con murmullo pulmonar normal',
             say: 'Y el último cuadro es el taponamiento: sangre en el saco pericárdico que no deja llenarse al corazón. La tríada de Beck es hipotensión, yugulares ingurgitadas y ruidos cardíacos apagados, con el murmullo pulmonar completamente normal.' },
           { t: 'Eco-FAST subxifoideo', d: 'Confirma en segundos, y decide el pabellón',
-            say: 'Esa última parte es la clave para no confundirlo con el neumotórax a tensión. El Eco-FAST subxifoideo lo confirma en segundos, y el destino es pabellón para abrir el pericardio. Si no hay pabellón disponible de inmediato, la pericardiocentesis con aguja es solo una medida transitoria mientras se traslada.' },
+            say: 'Esa última parte es la clave para no confundirlo con el neumotórax a tensión. El Eco-FAST subxifoideo lo confirma en segundos, y el destino es pabellón para abrir el pericardio. Si no hay pabellón disponible de inmediato, la pericardiocentesis con aguja es solo una medida transitoria mientras se traslada. Mira esta imagen subxifoidea: el líquido negro alrededor del corazón es el derrame pericárdico.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-10/04_taponamiento-eco-fast__pocketus_p146.jpg', label: 'Derrame pericárdico', at: 'Mira esta imagen subxifoidea', credit: 'Pocket Atlas of Emergency Ultrasound (Reardon, Ma), p. 146' } },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Trauma torácico simple',
+      title: 'La contusión y la fractura costal aislada',
+      cards: [
+        { title: 'Cómo se sospecha', tag: 'El más frecuente', kind: 'key', items: [
+          { t: 'Dolor a la compresión del tórax', d: 'Dolor pleurítico localizado y crepitación',
+            say: 'Antes de las emergencias, no olvides el trauma de tórax más frecuente, el simple: contusión de la pared o una fractura costal aislada. Se sospecha por dolor pleurítico localizado, dolor cuando comprimes el tórax, y a veces crepitación.' },
+          { t: 'Radiografía: descartar lo grave', d: 'Puede no ver la fractura',
+            say: 'La radiografía sirve sobre todo para descartar neumotórax y hemotórax, y puede no mostrar la fractura. Mira esta radiografía: un neumotórax derecho pequeño, de esos que se vigilan con radiografías seriadas.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-10/01_neumotorax-rx__cto-neumo_p116.jpg', label: 'Neumotórax pequeño', at: 'Mira esta radiografía', credit: 'Manual CTO Neumología 14.ª ed., p. 116' } },
+        ] },
+        { title: 'Tratamiento', tag: 'Ambulatorio si no hay riesgo', kind: 'pharma', items: [
+          { t: 'Analgesia multimodal', d: 'Paracetamol más AINE; opioide o bloqueo si hace falta',
+            say: 'Si no hay neumotórax, hemotórax ni comorbilidad, se maneja ambulatorio. El eje es la analgesia multimodal: paracetamol más antiinflamatorio, con opioide si es necesario, y bloqueo intercostal o epidural en casos seleccionados.' },
+          { t: 'Kinesiterapia y tos asistida', d: 'Vendaje compresivo contraindicado',
+            say: 'Y kinesiterapia respiratoria con tos asistida. El vendaje compresivo está contraindicado, porque limita la ventilación y favorece la atelectasia y la neumonía.' },
+        ] },
+        { title: 'A quién hospitalizar', tag: 'Y qué buscar', kind: 'alert', items: [
+          { t: 'Tres o más costillas, o riesgo', d: 'Mayor de 65, EPOC, anticoagulado, saturación baja',
+            say: 'Se hospitalizan los pacientes con tres o más costillas fracturadas, los mayores de sesenta y cinco años, con EPOC, anticoagulados, con saturación baja o con dolor no controlado.' },
+          { t: 'Costillas 9 a 12, o 1 y 2', d: 'Hígado, bazo, riñón; o vaso por alta energía',
+            say: 'Y la localización orienta. Una fractura de las costillas nueve a doce obliga a buscar lesión de hígado, bazo o riñón. Una de la primera o segunda costilla habla de un golpe de alta energía, con posible lesión vascular.' },
         ] },
       ],
     },
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Trauma de tórax',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Neumotórax a tensión',
       images: [
-        { src: 'biblioteca/10_cirugia/cirugia-10/01_torax_volante__atls_p127.jpg', label: 'Tórax volante', credit: 'ATLS 10.ª ed., p. 127' },
-        { src: 'biblioteca/10_cirugia/cirugia-10/03_neumotorax-a-tension__cto-cirugia_p71.jpg', label: 'Neumotórax a tensión', credit: 'Manual CTO Cirugía 14.ª ed., p. 71' },
-        { src: 'biblioteca/10_cirugia/cirugia-10/02_hemotorax-derrame-rx__cto-neumo_p111.jpg', label: 'Hemotórax', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
+        { src: 'animaciones/cirugia-10/A1_neumotorax_tension.mp4', label: 'Neumotórax a tensión', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Movimiento paradójico',
-          say: 'En el tórax volante, un segmento de la pared se hunde al inspirar y sale al espirar.' },
-        { note: 'Mediastino desplazado',
-          say: 'El neumotórax a tensión desplaza el mediastino. Se descomprime sin esperar la radiografía.' },
-        { note: 'Opacidad del hemitórax',
-          say: 'Y el hemotórax da opacidad del hemitórax. Si drena mucho, va a pabellón.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/10_cirugia/cirugia-10/01_neumotorax-rx__cto-neumo_p116.jpg', label: 'Neumotórax derecho', credit: 'Manual CTO Neumología 14.ª ed., p. 116' },
-      ],
-      steps: [
-        { note: 'Neumotórax derecho',
-          say: 'Neumotórax derecho: el hemitórax se ve negro, sin trama vascular, y el pulmón colapsado queda como una masa junto al hilio.' },
+        { note: 'Entra aire, no sale',
+          say: 'Mira cómo se arma el neumotórax a tensión. Una herida que actúa como válvula deja entrar aire al inspirar y no lo deja salir. El mediastino y la tráquea se desplazan al lado sano, la vena cava se comprime y la presión cae. Hay timpanismo, murmullo abolido y yugulares ingurgitadas. No esperas la radiografía: aguja en el segundo espacio intercostal, y después tubo pleural.' },
       ],
     },
 
@@ -274,6 +316,119 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2017 · Pregunta 3",
+      "stem": "Un paciente con antecedente de ser fumador de 30 paquetes año, suspendido hace 5 años, consulta por un cuadro de 24 horas de disnea de mínimos esfuerzos, asociada a intolerancia al ejercicio y malestar general. Al examen físico su presión arterial es 90/60 y su frecuencia cardíaca 110. Además destacan yugulares ingurgitadas a 45 grados y ruidos cardíacos apagados a la auscultación. Su electrocardiograma muestra disminución difusa del voltaje.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tromboembolismo pulmonar"
+        },
+        {
+          "letter": "B",
+          "text": "Neumotórax"
+        },
+        {
+          "letter": "C",
+          "text": "Derrame pleural"
+        },
+        {
+          "letter": "D",
+          "text": "Infarto agudo al miocardio"
+        },
+        {
+          "letter": "E",
+          "text": "Taponamiento cardíaco"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Hipotensión, ingurgitación yugular y ruidos cardíacos apagados forman la tríada de Beck. El bajo voltaje difuso en el electrocardiograma apoya un derrame pericárdico, aquí probablemente neoplásico por el tabaquismo. Se confirma con ecocardiograma y se trata con pericardiocentesis.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Paciente exfumador de treinta paquetes año, con un día de disnea de mínimos esfuerzos y malestar general. Tiene presión de noventa sobre sesenta, frecuencia de ciento diez, yugulares ingurgitadas y ruidos cardíacos apagados. El electrocardiograma muestra bajo voltaje difuso.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: tromboembolismo pulmonar, neumotórax, derrame pleural, infarto agudo al miocardio o taponamiento cardíaco. Piénsalo.",
+        "answer": "Es la E. Hipotensión, yugulares ingurgitadas y ruidos apagados son la tríada de Beck, y el bajo voltaje confirma líquido alrededor del corazón. El tromboembolismo tienta porque también da hipotensión e ingurgitación yugular, pero no apaga los ruidos cardíacos ni baja el voltaje del electrocardiograma."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.5.026 · Drenaje pleural",
+      "stem": "Hombre de 30 años con herida por arma blanca en el hemitórax derecho, hemodinámicamente estable. La radiografía de tórax muestra un hemotórax moderado. Se decide instalar un tubo de drenaje pleural.",
+      "question": "¿Cuál es el sitio y la técnica correctos de inserción?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Segundo espacio intercostal, línea medioclavicular, por el borde inferior de la costilla superior"
+        },
+        {
+          "letter": "B",
+          "text": "Cuarto espacio intercostal paraesternal, junto al esternón"
+        },
+        {
+          "letter": "C",
+          "text": "Octavo espacio intercostal, línea escapular, por el borde inferior de la costilla"
+        },
+        {
+          "letter": "D",
+          "text": "Quinto espacio intercostal, entre las líneas axilares anterior y media, por el borde superior de la costilla inferior"
+        },
+        {
+          "letter": "E",
+          "text": "Cualquier espacio intercostal donde se palpe mejor el derrame"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El tubo pleural se instala en el triángulo de seguridad: quinto espacio intercostal, entre las líneas axilares anterior y media, rasando el borde superior de la costilla inferior, porque el paquete vasculonervioso corre por el borde inferior de cada costilla. El segundo espacio medioclavicular es el sitio de punción descompresiva clásica.",
+      "say": {
+        "stem": "Hombre de treinta años con una puñalada en el hemitórax derecho, estable. La radiografía muestra un hemotórax moderado, y se decide instalar un tubo de drenaje pleural.",
+        "question": "¿Cuál es el sitio y la técnica correctos?",
+        "options": "Las opciones: segundo espacio en la línea medioclavicular, cuarto espacio junto al esternón, octavo espacio en la línea escapular, quinto espacio entre las axilares anterior y media por el borde superior de la costilla o donde se palpe mejor. Piénsalo.",
+        "answer": "Es la D. El triángulo de seguridad es el quinto espacio, entre las líneas axilares anterior y media, siempre por el borde superior de la costilla inferior para no lesionar el paquete vasculonervioso. El segundo espacio medioclavicular tienta, pero ese es el sitio de la punción con aguja en el neumotórax a tensión, no del tubo para un hemotórax."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.2.014 · Traumatismo torácico simple",
+      "stem": "Un hombre de 45 años cae de su altura y se golpea el hemitórax derecho. Consulta por dolor al respirar. Está hemodinámicamente estable, con saturación de 97% y murmullo pulmonar simétrico. La radiografía muestra fractura no desplazada del 7° arco costal derecho, sin neumotórax ni hemotórax.",
+      "question": "¿Cuál es el manejo más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Instalación de tubo pleural"
+        },
+        {
+          "letter": "B",
+          "text": "Vendaje torácico compresivo"
+        },
+        {
+          "letter": "C",
+          "text": "Analgesia adecuada, ejercicios respiratorios y control ambulatorio con signos de alarma"
+        },
+        {
+          "letter": "D",
+          "text": "Fijación quirúrgica de la costilla"
+        },
+        {
+          "letter": "E",
+          "text": "Hospitalización en UCI"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Una fractura costal única sin complicaciones (neumotórax, hemotórax, tórax volante) en un paciente estable es un traumatismo torácico simple. Se maneja en forma ambulatoria con analgesia efectiva, que permite respirar profundo y toser, previniendo atelectasias y neumonía. El vendaje compresivo está contraindicado porque restringe la ventilación.",
+      "say": {
+        "stem": "Un hombre de cuarenta y cinco años se cae y se golpea el lado derecho del tórax. Está estable, satura bien y la radiografía muestra una fractura costal única no desplazada, sin neumotórax ni hemotórax.",
+        "question": "¿Cuál es el manejo más adecuado?",
+        "options": "Las opciones: tubo pleural, vendaje torácico compresivo, analgesia con ejercicios respiratorios y control ambulatorio, fijación quirúrgica o UCI. Piénsalo.",
+        "answer": "Es la C. Una fractura costal simple se maneja con buena analgesia y ejercicios respiratorios para evitar atelectasias. El vendaje compresivo tienta para aliviar el dolor, pero limita la ventilación y favorece la neumonía."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -283,6 +438,12 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Timpanismo con yugulares ingurgitadas es neumotórax a tensión: descomprimes de inmediato, sin radiografía, porque cada minuto de espera empeora el colapso del retorno venoso.' },
           { t: 'Matidez con yugulares planas', d: 'Hemotórax masivo: tubo pleural grueso',
             say: 'Matidez con yugulares planas es hemotórax masivo: tubo pleural grueso, con transfusión en paralelo, y toracotomía si el débito no cede.' },
+        ] },
+        { title: 'Trauma simple y tubo pleural', tag: 'Lo que también se pregunta', kind: 'criteria', items: [
+          { t: 'Fractura costal simple: analgesia', d: 'Nunca vendaje compresivo',
+            say: 'Una fractura costal simple se maneja con analgesia y kinesiterapia, sin vendaje compresivo, y se hospitaliza al que tiene tres o más costillas, es mayor de sesenta y cinco años o tiene EPOC.' },
+          { t: 'Tubo: borde superior de la costilla', d: 'Triángulo de seguridad, sello de agua',
+            say: 'Y el tubo pleural va por el triángulo de seguridad, pasando sobre el borde superior de la costilla inferior, conectado a sello de agua.' },
         ] },
         { title: 'Lo que no es el pulmón', tag: 'Tórax volante y taponamiento', kind: 'alert', items: [
           { t: 'Tórax volante', d: 'La hipoxia es por la contusión, no por el movimiento',

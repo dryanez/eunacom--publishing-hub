@@ -216,6 +216,44 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 27",
+      "stem": "Paciente de 19 años, con antecedente de sangrado menstrual abundante desde su menarquia a los 12 años y de una cirugía de bypass gástrico realizada hace 1 año, consulta por disnea e intolerancia al ejercicio de 4 meses de evolución, que ha ido en aumento. Hemograma: hemoglobina 9,1 g/dL, hematocrito 28 %, leucocitos 6.200/mm³, plaquetas 300.000/mm³; ferritina plasmática 9 ng/mL (VN 12–150 ng/mL) y saturación de transferrina 12 %.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Indicar hierro por vía oral"
+        },
+        {
+          "letter": "B",
+          "text": "Administrar hierro por vía endovenosa"
+        },
+        {
+          "letter": "C",
+          "text": "Administrar folatos orales"
+        },
+        {
+          "letter": "D",
+          "text": "Administrar vitamina B12 por vía intramuscular"
+        },
+        {
+          "letter": "E",
+          "text": "Transfundir glóbulos rojos"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Ferritina baja y saturación de transferrina bajo 20 %: anemia ferropénica moderada. El bypass gástrico excluye el duodeno, sitio principal de absorción del hierro, por lo que la vía oral será ineficaz: corresponde hierro endovenoso. Sin inestabilidad hemodinámica, no hay indicación de transfundir.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Una mujer de diecinueve años, con reglas abundantes desde la menarquia y un bypass gástrico hace un año, consulta por disnea de esfuerzo progresiva de cuatro meses. Tiene hemoglobina de nueve coma uno, ferritina de nueve y saturación de transferrina de doce por ciento.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: hierro oral, hierro endovenoso, folatos orales, vitamina B doce intramuscular, o transfundir glóbulos rojos. Piénsalo.",
+        "answer": "Es la B. Es una anemia ferropénica, y el bypass excluye el duodeno, que es donde se absorbe el hierro, así que la vía oral va a fracasar. El hierro oral tienta porque es la primera línea habitual, pero aquí hay malabsorción."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',

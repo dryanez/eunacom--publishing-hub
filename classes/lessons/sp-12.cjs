@@ -95,6 +95,30 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Adolescente',
+      title: 'Control de salud del adolescente y confidencialidad',
+      cards: [
+        { title: 'El control anual', tag: '10 a 19 años; Joven Sano hasta los 24', kind: 'key', items: [
+          { t: 'Evaluación integral y anual', d: 'Detecta riesgos y promueve hábitos',
+            say: 'Cerremos con una población que se pregunta mucho: el adolescente. El control de salud, de diez a diecinueve años, y el Control Joven Sano hasta los veinticuatro, es una evaluación integral y anual que busca detectar riesgos y promover hábitos saludables.' },
+          { t: 'Examen físico y pesquisas', d: 'IMC, presión, Tanner, visión, escoliosis, boca',
+            say: 'Incluye peso, talla e índice de masa corporal, presión arterial, estadio de Tanner, y la pesquisa de problemas visuales, de columna, como la escoliosis, y de salud bucal, además de la vacunación, con el virus del papiloma humano en cuarto y quinto básico.' },
+          { t: 'Entrevista HEEADSSS', d: 'Hogar, educación, alimentación, actividades, drogas, sexualidad, suicidio, seguridad',
+            say: 'Y una entrevista psicosocial, tipo HEEADSSS: hogar, educación y empleo, alimentación, actividades, drogas, sexualidad, suicidio y depresión, y seguridad. Las prioridades son la salud mental, el alcohol, el tabaco y las drogas, la malnutrición, la violencia y la salud sexual y reproductiva.' },
+        ] },
+        { title: 'Confidencialidad', tag: 'Y sus límites', kind: 'alert', items: [
+          { t: 'Entrevista a solas', d: 'Autonomía progresiva',
+            say: 'La atención respeta la confidencialidad y la autonomía progresiva del adolescente. Se le entrevista a solas, y se le explican los límites de esa confidencialidad: el riesgo vital, el abuso o el delito.' },
+          { t: 'Consejería y anticoncepción', d: 'Ley 20.418',
+            say: 'Se ofrece consejería en salud sexual y reproductiva y acceso a anticoncepción, conforme a la Ley veinte mil cuatrocientos dieciocho.' },
+          { t: 'Menor de 14 años: toda relación sexual es delito', d: 'Se denuncia y se protege',
+            say: 'Y la regla que más se pregunta: en menores de catorce años toda relación sexual es delito, violación impropia, de modo que el equipo debe denunciar y proteger. Del mismo modo, ante un adolescente con riesgo suicida o maltrato, se actúa aunque pida reserva.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Pongamos todo esto en un árbol de decisión, tal como razonas frente a una solicitud real.',
     },
@@ -115,6 +139,10 @@ module.exports = {
           say: 'El empleador: no, nunca, aunque invoque una razón laboral. Esta es la respuesta incorrecta más repetida del tema.' },
         { cells: ['Aseguradora sin poder notarial', 'No', 'El contrato privado no levanta el secreto médico'],
           say: 'Y la aseguradora sin poder notarial: no, porque el contrato privado no basta para levantar el secreto médico.' },
+        { cells: ['Adolescente de 15 años pide anticoncepción y reserva', 'Se atiende con confidencialidad', 'Exigir que venga con sus padres'],
+          say: 'Un adolescente que pide consejería y anticoncepción se atiende con confidencialidad, a solas, explicando sus límites. Exigir a los padres no corresponde.' },
+        { cells: ['Menor de 14 años con relación sexual', 'Es delito: denunciar y proteger', 'Guardar reserva por confidencialidad'],
+          say: 'Si es menor de catorce años, toda relación sexual es delito. La confidencialidad no ampara el silencio: se denuncia y se protege.' },
       ],
     },
 
@@ -162,6 +190,44 @@ module.exports = {
         options: 'Las opciones: el propio alumno, el director del establecimiento, cualquier pariente mayor de edad, el apoderado, o el encargado de salud y bienestar estudiantil.',
         answer: 'Es la D, el apoderado. Conecta esto con lo que vimos de la ficha clínica: así como el representante legal es quien accede a la información de un menor, también es quien firma en su nombre cuando se necesita un consentimiento. El adolescente tiene derecho a que se le explique y se le escuche, pero la firma que hace válido el consentimiento es la de su representante legal.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.3.016 · Supervisión de salud- adolescente",
+      "stem": "Una adolescente de 15 años acude a control de salud con su madre. Usted planea aplicar la entrevista psicosocial HEADSSS.",
+      "question": "¿Cuál es la forma más adecuada de realizar la entrevista?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Una parte a solas con la adolescente, explicando la confidencialidad y sus límites"
+        },
+        {
+          "letter": "B",
+          "text": "Siempre con la madre presente para validar la información"
+        },
+        {
+          "letter": "C",
+          "text": "Solo con la madre, porque la adolescente es menor de edad"
+        },
+        {
+          "letter": "D",
+          "text": "Por escrito, sin conversación"
+        },
+        {
+          "letter": "E",
+          "text": "Prometer confidencialidad absoluta en cualquier circunstancia"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En el control de salud del adolescente se entrevista primero con el acompañante y luego a solas, explicando que la información es confidencial excepto si existe riesgo para su vida o la de otros, o abuso. La entrevista HEADSSS explora hogar, educación, actividades, drogas, sexualidad, suicidio y seguridad. Prometer confidencialidad absoluta es incorrecto.",
+      "say": {
+        "stem": "Una adolescente de quince años viene a control con su madre y usted aplicará la entrevista psicosocial.",
+        "question": "¿Cuál es la forma más adecuada de hacerla?",
+        "options": "Las opciones: una parte a solas explicando la confidencialidad y sus límites, con la madre presente siempre, solo con la madre, por escrito o confidencialidad absoluta. Piénsalo.",
+        "answer": "Es la A. Una parte de la entrevista se hace a solas, explicando la confidencialidad y sus límites. Prometer confidencialidad absoluta tienta para ganar confianza, pero no puede cumplirse si hay riesgo vital o abuso."
+      }
     },
 
     {

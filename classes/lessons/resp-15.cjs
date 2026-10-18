@@ -83,7 +83,8 @@ module.exports = {
           { t: 'Adenocarcinoma de pulmón', d: 'También mama, linfoma y mesotelioma',
             say: 'Ahora el otro lado. El derrame neoplásico es la infiltración tumoral de la pleura. La causa más frecuente es el adenocarcinoma de pulmón, seguido por el cáncer de mama, el linfoma y el mesotelioma.' },
           { t: 'Adulto mayor, líquido serohemático', d: 'ADA bajo',
-            say: 'Suele ser un adulto mayor, de más de cincuenta o sesenta años, con un líquido serohemático o francamente hemorrágico. Y el ADA está bajo, bajo cuarenta. Ese contraste con la tuberculosis es el que más se pregunta.' },
+            say: 'Suele ser un adulto mayor, de más de cincuenta o sesenta años, con un líquido serohemático o francamente hemorrágico. Y el ADA está bajo, bajo cuarenta. Ese contraste con la tuberculosis es el que más se pregunta. Mira esta radiografía: un derrame neoplásico masivo, con el hemitórax casi blanco.',
+            photo: { src: '_verificadas/342_resp_Derrame_linfocítico_TBC_vs_cán__nelsontext_p3358_1.jpg', label: 'Derrame neoplásico masivo', at: 'Mira esta radiografía', credit: 'Nelson Textbook of Pediatrics, p. 3358' } },
         ] },
         { title: 'Diagnóstico', tag: 'Paso a paso', kind: 'criteria', items: [
           { t: 'Citología del líquido', d: '60 % en la 1.ª muestra; 80–85 % con la 2.ª',
@@ -111,6 +112,45 @@ module.exports = {
           { t: 'Catéter pleural tunelizado', d: 'Drenaje en domicilio',
             say: 'La alternativa es un catéter pleural tunelizado permanente, que permite drenar el líquido en la casa del paciente.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Mesotelioma',
+      title: 'El tumor primario de la pleura',
+      cards: [
+        { title: 'Qué es', tag: 'Asbesto', kind: 'key', items: [
+          { t: 'Exposición a asbesto', d: 'Minería, construcción, astilleros, aislación',
+            say: 'El mesotelioma pleural es el tumor primario de la pleura, y casi siempre hay exposición a asbesto: minería, construcción, astilleros, aislación. La latencia es larga, de veinte a cuarenta años. Mira esta tomografía: un engrosamiento pleural lobulado que rodea el pulmón.',
+            photos: [{ src: 'biblioteca/02_neumologia/resp-15/10_mesotelioma-tc-engrosamiento-pleural__ctmri-atlas_p242.jpg', label: 'Mesotelioma en la TC', at: 'Mira esta tomografía', credit: 'CT and MRI Pathology atlas, p. 242' }] },
+          { t: 'Derrame serohemático unilateral recurrente', d: 'Dolor, disnea, engrosamiento pleural nodular',
+            say: 'Se presenta con dolor torácico y disnea, un derrame unilateral serohemático o hemorrágico que se repite, y engrosamiento pleural nodular o circunferencial en la TAC, con retracción del hemitórax.' },
+        ] },
+        { title: 'Diagnóstico', tag: 'Lo que se pregunta', kind: 'alert', items: [
+          { t: 'La citología rinde poco', d: 'Se necesita biopsia pleural',
+            say: 'La citología del líquido tiene bajo rendimiento. El diagnóstico exige biopsia pleural, toracoscópica o guiada por TAC, con inmunohistoquímica.' },
+        ] },
+        { title: 'Pronóstico y Perfil', tag: 'Qué haces tú', kind: 'pharma', items: [
+          { t: 'Sobrevida promedio de 1 año', d: 'Solo se opera si es muy inicial',
+            say: 'El pronóstico es malo, con una sobrevida promedio de un año, y solo se opera en etapas muy iniciales.' },
+          { t: 'Sospecha y derivación; enfermedad profesional', d: 'Ley 16.744; manejo paliativo inicial',
+            say: 'Tu nivel es sospecha y derivación al especialista. En Chile es una enfermedad profesional notificable, por la Ley dieciséis mil setecientos cuarenta y cuatro, y el manejo inicial es paliativo: toracocentesis, analgesia y pleurodesis.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Tuberculosis o cáncer: el ADA decide',
+      images: [
+        { src: 'animaciones/resp-15/A1_adA_tbc_cancer.mp4', label: 'Derrame linfocítico', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Dos derrames linfocíticos, dos ADA',
+          say: 'En la tuberculosis pleural, un foco bajo la pleura se rompe y llegan pocos bacilos, pero el paciente responde con muchos linfocitos. Por eso la baciloscopía rinde poco y el ADA sube sobre cuarenta. En el derrame neoplásico, el líquido es serohemático, hay células tumorales, y el ADA queda bajo cuarenta. La citología rinde cerca de sesenta por ciento, y si es negativa y la sospecha persiste, se hace VATS.' },
       ],
     },
 
@@ -230,6 +270,82 @@ module.exports = {
         options: 'Las opciones: carcinoma pavimentoso, adenocarcinoma, tuberculosis pleural, mesotelioma o silicosis. Piénsalo.',
         answer: 'Es la D, mesotelioma. El líquido ya te dice cáncer: mononuclear y con ADA bajo. Pero la pista que elige entre los cánceres es el asbesto, que se relaciona fuertemente con el mesotelioma. El adenocarcinoma es el distractor tentador, porque es la causa más frecuente de derrame maligno, pero aquí la exposición manda.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.5.002 · Biopsia pleural",
+      "stem": "Mujer de 68 años, exfumadora, con baja de peso y derrame pleural derecho recidivante. Dos toracocentesis muestran exudado linfocitario con ADA 18 U/L y citología negativa para células neoplásicas en ambas muestras. TAC de tórax: engrosamiento pleural nodular derecho.",
+      "question": "¿Cuál es el procedimiento más adecuado para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Toracoscopía (pleuroscopía) con biopsia pleural dirigida"
+        },
+        {
+          "letter": "B",
+          "text": "Pleurodesis con talco sin diagnóstico histológico"
+        },
+        {
+          "letter": "C",
+          "text": "Tercera citología del líquido pleural"
+        },
+        {
+          "letter": "D",
+          "text": "Tratamiento antituberculoso empírico"
+        },
+        {
+          "letter": "E",
+          "text": "Marcadores tumorales en sangre"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Ante sospecha de derrame neoplásico con 2 citologías negativas, una tercera rinde poco. La toracoscopía permite ver la pleura y biopsiar los nódulos bajo visión directa, con rendimiento superior a 90 % para neoplasia, y en el mismo acto hacer pleurodesis. El ADA bajo hace improbable la tuberculosis.",
+      "say": {
+        "stem": "Una mujer de sesenta y ocho años, exfumadora, con baja de peso, tiene un derrame pleural derecho que se repite. Dos punciones muestran un exudado linfocitario con adenosina deaminasa baja y citología negativa. La tomografía muestra engrosamiento pleural nodular.",
+        "question": "¿Cuál es el procedimiento más adecuado para confirmar el diagnóstico?",
+        "options": "Las opciones: toracoscopía con biopsia dirigida, pleurodesis sin diagnóstico, tercera citología, antituberculosos empíricos o marcadores tumorales. Piénsalo.",
+        "answer": "Es la A. Con dos citologías negativas y pleura nodular, hay que ver y biopsiar directamente, y la toracoscopía lo logra en casi todos los cánceres pleurales. Tratar como tuberculosis tienta por ser un exudado linfocitario, pero la adenosina deaminasa baja casi la descarta."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.042 · Mesotelioma pleural",
+      "stem": "Hombre de 68 años, que trabajó 25 años instalando aislantes de asbesto, consulta por disnea progresiva, dolor torácico sordo persistente y baja de peso de 3 meses. La radiografía muestra derrame pleural derecho y la TAC revela engrosamiento pleural nodular y circunferencial. El líquido pleural es un exudado hemático con citología negativa.",
+      "question": "¿Cuál es el examen más adecuado para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Biopsia pleural por toracoscopía"
+        },
+        {
+          "letter": "B",
+          "text": "Repetir la citología del líquido pleural"
+        },
+        {
+          "letter": "C",
+          "text": "Fibrobroncoscopía"
+        },
+        {
+          "letter": "D",
+          "text": "Marcadores tumorales en sangre"
+        },
+        {
+          "letter": "E",
+          "text": "Adenosina deaminasa en líquido pleural"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Exposición a asbesto con derrame unilateral y engrosamiento pleural nodular y circunferencial sugiere mesotelioma pleural maligno. La citología tiene baja sensibilidad para este tumor; el diagnóstico requiere histología con inmunohistoquímica, idealmente por biopsia pleural toracoscópica. La ADA orienta a tuberculosis pleural, que no explica el engrosamiento nodular.",
+      "say": {
+        "stem": "Hombre de sesenta y ocho años, que trabajó veinticinco años instalando aislantes de asbesto, con tres meses de disnea progresiva, dolor torácico sordo y baja de peso. Tiene derrame pleural derecho, la TAC muestra un engrosamiento pleural nodular que rodea el pulmón, y el líquido es un exudado hemático con citología negativa.",
+        "question": "¿Cuál es el examen más adecuado para confirmar el diagnóstico?",
+        "options": "Las opciones: biopsia pleural por toracoscopía, repetir la citología, fibrobroncoscopía, marcadores tumorales o adenosina deaminasa en el líquido. Piénsalo.",
+        "answer": "Es la A. Asbesto más engrosamiento pleural nodular es un mesotelioma hasta demostrar lo contrario, y se confirma con histología obtenida por toracoscopía. Repetir la citología tienta, pero en el mesotelioma rinde muy poco y solo retrasa el diagnóstico."
+      }
     },
 
     {

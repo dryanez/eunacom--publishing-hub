@@ -36,16 +36,17 @@ function flow(title, rows) {
     return h;
   }
   function step(label, from) {
-    const ty = y + GAP;
+    const bent = (from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs).some(x => x !== CX); const ty = y + GAP + (bent && label ? 12 : 0); // rótulo bajo el tramo horizontal, no encima de la línea
     const xs = from === 'left' ? [prev.xs[0]] : from === 'right' ? [prev.xs[prev.xs.length - 1]] : prev.xs;
     xs.forEach(x => {
       P.push(x === CX
         ? `<path class="ln" d="M${CX},${prev.y} V${ty}"/>`
         : `<path class="ln" d="M${x},${prev.y} V${prev.y + 10} H${CX} V${ty}"/>`);
     });
-    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
+    if (label) P.push(`<text class="sub" x="${CX + 7}" y="${bent ? prev.y + 22 : prev.y + GAP / 2 + 3}">${esc(label)}</text>`);
     y = ty;
   }
+  rows = (rs => { const out = []; let pend = null; for (let r of rs) { const subs = [].concat(r && r.s || []).filter(Boolean); if (r && r.k !== 'split' && !r.t && !r.q && !subs.length) { if (r.al || r.from) pend = { al: r.al, from: r.from }; continue; } if (pend) { r = { ...r, al: r.al || pend.al, from: r.from || pend.from }; pend = null; } out.push(r); } return out; })(rows); // filas solo-rótulo → rótulo de la flecha siguiente (sin caja vacía)
   rows.forEach(r => {
     if (r.k === 'split') {
       if (prev) step(r.al, r.from);
@@ -359,6 +360,13 @@ const bloque5Classes = [
           '• <strong>Mantenimiento de la remisión:</strong> Una vez lograda la remisión completa (habitualmente a los 3 a 6 meses), se traslapa a <strong>Rituximab de mantenimiento</strong> (500 mg EV cada 6 meses) o <strong>Azatioprina</strong> (2 mg/kg/día oral) por un mínimo de 24 a 36 meses.',
           '• <strong>Manejo de la Vasculitis por IgA (Henoch-Schönlein):</strong> En la mayoría de los casos pediátricos es un cuadro autolimitado que requiere únicamente reposo, analgesia con paracetamol y observación ambulatoria. El uso de <strong>Prednisona oral (1 a 2 mg/kg/día por 1 a 2 semanas)</strong> está formalmente indicado ante <strong>dolor abdominal cólico severo, hemorragia digestiva, compromiso testicular o nefritis moderada a severa</strong> (proteinuria en rango nefrótico o caída de VFG), sin embargo no previene la aparición ulterior de nefropatía a largo plazo.'
         ]
+      },
+      {
+        subhead: '6. Enfermedad de Kawasaki y Vasculitis Cutáneas',
+        paragraphs: [
+          '<strong>Enfermedad de Kawasaki (vasculitis de vaso mediano del lactante y preescolar; sospecha y tratamiento inicial):</strong> afecta sobre todo a niños < 5 años. El diagnóstico clásico exige <strong>fiebre de 5 o más días</strong> más al menos 4 de 5 criterios: <strong>inyección conjuntival bilateral no exudativa; cambios orales</strong> (labios rojos y fisurados, lengua en frutilla); <strong>exantema polimorfo</strong>; <strong>edema y eritema de manos y pies</strong> (con descamación periungueal posterior); y <strong>adenopatía cervical</strong> > 1,5 cm, habitualmente unilateral. Hay formas incompletas, sobre todo en lactantes. Laboratorio: elevación de VHS y PCR, anemia, leucocitosis, piuria estéril y <strong>trombocitosis en la 2.ª-3.ª semana</strong>. La complicación son los <strong>aneurismas coronarios</strong> (hasta 25% sin tratamiento; < 5% con tratamiento oportuno), por lo que se solicita ecocardiograma al diagnóstico y a las 2 y 6 semanas. El tratamiento, idealmente en los primeros 10 días de fiebre, es <strong>inmunoglobulina endovenosa 2 g/kg en dosis única</strong> más ácido acetilsalicílico (dosis antiinflamatoria al inicio y luego 3-5 mg/kg/día hasta normalizar las plaquetas y descartar aneurismas); si persiste la fiebre se repite la inmunoglobulina o se agregan corticoides. Tras la inmunoglobulina se difieren las vacunas de virus vivos (sarampión, varicela) por unos 11 meses y se evita el ibuprofeno en quienes reciben ácido acetilsalicílico. Se <strong>deriva de inmediato</strong> a un centro pediátrico con cardiología.',
+          '<strong>Vasculitis cutáneas (vasculitis leucocitoclástica):</strong> se manifiestan por <strong>púrpura palpable</strong> en las piernas y zonas declives (a veces vesículas, úlceras o livedo). Histológicamente hay infiltración de neutrófilos con fragmentación nuclear (leucocitoclasia) y necrosis fibrinoide de vénulas. Las causas son <strong>fármacos</strong> (penicilinas, sulfas, AINEs; aparece 7-10 días después de iniciarlos), infecciones (estreptococo, hepatitis B y C, VIH), enfermedades autoinmunes (LES, AR, Sjögren), crioglobulinemia, vasculitis ANCA y neoplasias; un tercio es idiopático. El enfoque dermatológico es: confirmar con <strong>biopsia cutánea con inmunofluorescencia directa</strong> (idealmente de una lesión de menos de 48 horas), y descartar compromiso sistémico con hemograma, creatinina, orina completa (hematuria, proteinuria), ANCA, FR, ANA, complemento, crioglobulinas y serologías de hepatitis B/C. El tratamiento es suspender el fármaco o tratar la infección, reposo con elevación de las piernas y AINEs o colchicina en las formas leves; los corticoides sistémicos se reservan para las formas graves, ulceradas o con compromiso sistémico. Se deriva a dermatología o reumatología si hay compromiso orgánico o evolución crónica.'
+        ]
       }
     ],
     table: {
@@ -495,7 +503,8 @@ const bloque5Classes = [
           '• Los pacientes relatan severa dificultad funcional para peinarse, ponerse un suéter o abrigo, elevar los brazos por sobre el plano horizontal y levantarse de un asiento bajo o de la cama.',
           '• <strong>Examen Físico:</strong> La movilidad activa de hombros y caderas está marcadamente limitada por dolor, pero <strong>la movilidad pasiva está conservada</strong>. No existe atrofia ni déficit motor intrínseco: la <strong>fuerza muscular es rigurosamente normal</strong> una vez que se supera la inhibición por dolor.',
           '• <strong>Laboratorio Cardinal:</strong> La <strong>Velocidad de Sedimentación Globular (VSG)</strong> se encuentra marcadamente acelerada, típicamente > 40-50 mm/h (a menudo superando los 80 a 100 mm/h). La Proteína C Reactiva (PCR) está muy elevada. Un rasgo crucial para el examen es que <strong>las enzimas musculares (CPK y aldolasa) son ESTRICTAMENTE NORMALES</strong>, lo que permite diferenciarla de forma inmediata de las miopatías inflamatorias (polimiositis/dermatomiositis).',
-          '• <strong>Tratamiento y "Prueba Terapéutica Diagnóstica":</strong> La respuesta a los glucocorticoides a dosis bajas es <strong>espectacular, dramática y casi mágica: Prednisona 15 a 20 mg/día vía oral</strong> induce el alivio completo o superior al 70-80% del dolor y la rigidez en un plazo de 24 a 72 horas. La ausencia de mejoría rotunda dentro de los primeros 7 días de tratamiento descarta casi con certeza la PMR (véase Tabla 9.23).'
+          '• <strong>Tratamiento y "Prueba Terapéutica Diagnóstica":</strong> La respuesta a los glucocorticoides a dosis bajas es <strong>espectacular, dramática y casi mágica: Prednisona 15 a 20 mg/día vía oral</strong> induce el alivio completo o superior al 70-80% del dolor y la rigidez en un plazo de 24 a 72 horas. La ausencia de mejoría rotunda dentro de los primeros 7 días de tratamiento descarta casi con certeza la PMR (véase Tabla 9.23).',
+          '<strong>Prevención de las complicaciones del tratamiento esteroidal prolongado (la PMR obliga a tratar durante 1-2 años):</strong> la prednisona se inicia en 12,5-25 mg/día y se desciende muy lentamente, por lo que la mayoría de los pacientes cumple el criterio de riesgo (≥ 5 mg/día de prednisona o equivalente por más de 3 meses; las guías ACR 2022 bajan el umbral a 2,5 mg/día). Medidas: <strong>salud ósea</strong> (calcio 1.000-1.200 mg/día entre dieta y suplementos, vitamina D 800-2.000 UI/día, ejercicio con carga, densitometría y cálculo de FRAX al inicio, y bifosfonato oral —alendronato 70 mg semanal— si el riesgo es moderado o alto, como en el adulto mayor); control periódico de presión arterial, glicemia, lípidos y peso; examen oftalmológico por riesgo de catarata y glaucoma; vacunación antiinfluenza y antineumocócica idealmente antes de la inmunosupresión; protección gástrica solo si se asocia AINE o anticoagulante; profilaxis de <em>Pneumocystis jirovecii</em> con cotrimoxazol si la dosis supera 20 mg/día por más de 1 mes. <strong>Nunca se suspende de forma brusca</strong> por el riesgo de insuficiencia suprarrenal. Si hay recaídas, efectos adversos graves o dependencia de dosis altas, se agrega un ahorrador de corticoides (metotrexato o tocilizumab) bajo reumatología.'
         ]
       },
       {

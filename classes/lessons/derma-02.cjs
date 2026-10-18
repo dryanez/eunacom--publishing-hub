@@ -51,15 +51,18 @@ module.exports = {
       cards: [
         { title: 'Comedoniano', tag: 'No inflamatorio', kind: 'normal', items: [
           { t: 'Comedones abiertos y cerrados', d: '"Puntos negros" y "puntos blancos"',
-            say: 'Veamos las tres formas clínicas. La comedoniana, no inflamatoria, tiene comedones abiertos, los puntos negros por oxidación de melanina y queratina, y comedones cerrados, los puntos blancos.' },
+            say: 'Veamos las tres formas clínicas. La comedoniana, no inflamatoria, tiene comedones abiertos, los puntos negros por oxidación de melanina y queratina, y comedones cerrados, los puntos blancos. Mira esta piel: pequeñas pápulas color piel, los comedones cerrados, y algún punto oscuro, los abiertos, casi sin enrojecimiento alrededor.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-02/01_comedones__fitzpatrick_p66.jpg', label: 'Comedones', at: 'Mira esta piel', credit: 'Fitzpatrick 7.ª ed., p. 66' } },
         ] },
         { title: 'Pápulo-pustuloso', tag: 'Inflamatorio leve a moderado', kind: 'criteria', items: [
           { t: 'Pápulas y pústulas', d: 'Superficiales, sobre el comedón',
-            say: 'La pápulo-pustulosa suma pápulas eritematosas inflamatorias y pústulas superficiales al comedón de base.' },
+            say: 'La pápulo-pustulosa suma pápulas eritematosas inflamatorias y pústulas superficiales al comedón de base. En esta cara ves pápulas rojas y pústulas con punta amarilla sobre los comedones.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-02/02_acne_nodular__fitzpatrick_p732.jpg', label: 'Acné pápulo-pustuloso', at: 'En esta cara', credit: 'Fitzpatrick 7.ª ed., p. 732' } },
         ] },
         { title: 'Nódulo-quístico', tag: 'Severo, con riesgo de cicatriz', kind: 'alert', items: [
           { t: 'Nódulos, abscesos y fístulas', d: 'Profundos y dolorosos',
-            say: 'Y la nódulo-quística, o conglobata, tiene nódulos profundos, dolorosos, abscesos y fístulas.' },
+            say: 'Y la nódulo-quística, o conglobata, tiene nódulos profundos, dolorosos, abscesos y fístulas. Mira este rostro: nódulos profundos, quistes y cicatrices atróficas sobre una piel inflamada.',
+            photo: { src: '_verificadas/080_derma_Acné_nódulo_quístico__derm_pathp_p354_1.jpg', label: 'Acné nódulo-quístico', at: 'Mira este rostro', credit: 'Atlas of Dermatopathology, p. 354' } },
           { t: 'Cicatrices atróficas o queloideas', d: 'Alto riesgo si se retrasa el tratamiento',
             say: 'Es la única con alto riesgo de dejar cicatrices, ya sea atróficas, en picahielo, o hipertróficas. Y ese riesgo de cicatriz es justamente lo que más adelante te va a hacer subir un escalón de tratamiento.' },
         ] },
@@ -142,26 +145,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Acné',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-02/01_comedones__fitzpatrick_p66.jpg', label: 'Comedones', credit: 'Fitzpatrick 7.ª ed., p. 66 (figura completa, ~480 px)' },
-        { src: 'biblioteca/11_dermatologia/derma-02/02_acne_nodular__fitzpatrick_p732.jpg', label: 'Acné pápulo-pustuloso', credit: 'Fitzpatrick 7.ª ed., p. 732 (figura completa, ~480 px)' },
-        { src: 'biblioteca/11_dermatologia/derma-02/01_acne-papulo-pustular__cto-derma_p59.jpg', label: 'Pápulo-pustuloso con tendencia a cicatrizar', credit: 'Manual CTO Dermatología 14.ª ed., p. 59' },
-      ],
-      steps: [
-        { note: 'Abiertos y cerrados',
-          say: 'El comedón es la lesión inicial del acné: abierto, el punto negro, o cerrado, el punto blanco.' },
-        { note: 'Pápulas y pústulas',
-          say: 'Cuando hay inflamación aparecen pápulas y pústulas: es el acné pápulo-pustuloso.' },
-        { note: 'El riesgo de cicatriz',
-          say: 'Y cuando el acné inflamatorio empieza a dejar cicatrices, hay que escalar el tratamiento. Nódulos, quistes o cicatrices: isotretinoína oral.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Ahora pongamos todo el escalonamiento en un solo árbol de decisión.',
     },
@@ -179,7 +162,8 @@ module.exports = {
         { cells: ['Pápulo-pustuloso moderado a severo', 'Doxiciclina oral 8 a 12 semanas', 'Suspender antes de las 8 semanas'],
           say: 'Pápulo-pustuloso moderado a severo: doxiciclina oral por ocho a doce semanas. El error es suspenderla antes, antes de completar el curso.' },
         { cells: ['Nódulo-quístico o refractario', 'Isotretinoína oral', 'Indicarla sin anticoncepción doble'],
-          say: 'Y el nódulo-quístico o refractario: isotretinoína oral. El error más grave de todos es indicarla en una mujer fértil sin la doble anticoncepción y los test de embarazo.' },
+          say: 'Y el nódulo-quístico o refractario: isotretinoína oral. El error más grave de todos es indicarla en una mujer fértil sin la doble anticoncepción y los test de embarazo. Mira este acné inflamatorio que ya empezó a dejar cicatrices: cuando llega a esto, no sigas escalando antibióticos, piensa en isotretinoína.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-02/01_acne-papulo-pustular__cto-derma_p59.jpg', label: 'Acné que ya cicatriza', at: 'Mira este acné', credit: 'Manual CTO Dermatología 14.ª ed., p. 59' } },
       ],
     },
 
@@ -227,6 +211,44 @@ module.exports = {
         options: 'Las opciones: peróxido de benzoilo tópico, clindamicina tópica, isotretinoína oral, doxiciclina oral, o adapaleno tópico. Piénsalo.',
         answer: 'Es la C, isotretinoína oral. La palabra clave del enunciado es quistes con cicatrices atróficas: eso ya es un acné nódulo-quístico, inflamatorio severo, y ese grado de gravedad, con cicatriz activa, es indicación directa de isotretinoína. Los tópicos, y hasta la doxiciclina oral, se quedan cortos para este nivel; son el escalón de un acné más leve que el de este paciente.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.1.104 · Acné",
+      "stem": "Una adolescente de 13 años consulta por lesiones en la frente y la nariz desde hace 6 meses. Al examen se observan numerosos comedones abiertos y cerrados, sin pápulas inflamatorias, pústulas ni nódulos.",
+      "question": "¿Cuál es el tratamiento de primera línea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Isotretinoína oral"
+        },
+        {
+          "letter": "B",
+          "text": "Doxiciclina oral"
+        },
+        {
+          "letter": "C",
+          "text": "Anticonceptivos orales"
+        },
+        {
+          "letter": "D",
+          "text": "Retinoide tópico (ej. adapaleno)"
+        },
+        {
+          "letter": "E",
+          "text": "Corticoide tópico"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Acné comedoniano (no inflamatorio) leve: el tratamiento de elección es un retinoide tópico (adapaleno o tretinoína), que normaliza la queratinización folicular; puede asociarse peróxido de benzoilo. Los antibióticos orales se reservan para acné inflamatorio moderado y la isotretinoína para acné grave, nodular o refractario. Los corticoides tópicos empeoran el acné.",
+      "say": {
+        "stem": "Una adolescente de trece años tiene muchos comedones abiertos y cerrados en frente y nariz, sin lesiones inflamatorias.",
+        "question": "¿Cuál es el tratamiento de primera línea?",
+        "options": "Las opciones: isotretinoína oral, doxiciclina, anticonceptivos, retinoide tópico o corticoide tópico. Piénsalo.",
+        "answer": "Es la D. Un acné comedoniano se trata con un retinoide tópico como el adapaleno. La doxiciclina tienta porque se usa mucho en acné, pero se reserva para el acné inflamatorio moderado."
+      }
     },
 
     {

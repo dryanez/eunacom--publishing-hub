@@ -192,14 +192,14 @@ Una paciente de 42 años presenta artritis de las articulaciones interfalángica
 Explicación del banco: La alternativa correcta es la **C** (Psoriática). Es una artritis psoriática clásica (con los picotazos ungueales).. La artritis psoriásica es una pelvispondiloartropatía asociada a psoriasis. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).
 
 ### [2] EUNACOM Diciembre 2025 · Pregunta 111 · confianza 0.92
-Una paciente de 40 años presenta artri8s de muñecas y de ar8culaciones metacarpofalángicas e interfalángicas proximales y distales de ambas manos, de 6 semanas de evolución. Recientemente se agregó dolor y aumento de volumen generalizado del segundo ortejo derecho, que le diﬁculta la marcha. Al examen Fsico se aprecia aumento de volumen y eritema de las ar8culaciones descritas, más lesiones deprimidas pun8formes en las uñas de las manos, con engrosamiento de las uñas de los pies. El cuadro descrito corresponde a una artri8s de 8po:
+Una paciente de 40 años presenta artritis de muñecas y de articulaciones metacarpofalángicas e interfalángicas proximales y distales de ambas manos, de 6 semanas de evolución. Recientemente se agregó dolor y aumento de volumen generalizado del segundo ortejo derecho, que le dificulta la marcha. Al examen físico se aprecia aumento de volumen y eritema de las articulaciones descritas, más lesiones deprimidas puntiformes en las uñas de las manos, con engrosamiento de las uñas de los pies. El cuadro descrito corresponde a una artritis de tipo:
 - A) Reumatoide
 - B) Infecciosa
 - C) Reac2va
 - D) Psoriá2ca
 - E) Gotosa
 **Correcta: D**
-Explicación del banco: Es una artriGs psoriática clásica, con dacGliGs (“dedos en salchicha”) y lesiones ungueales (“en picotazo de pájaro).
+Explicación del banco: Es una artritis psoriática clásica, con dactilitis (“dedos en salchicha”) y lesiones ungueales (“en picotazo de pájaro).
 
 ### [3] EUNACOM Diciembre 2019 · Pregunta 129 · confianza 0.9
 Un paciente de 30 años presenta lumbago de 6 meses de evolución, intenso, que limita sus actividades y que es más molesto en la mañana y va cediendo durante el día. Al examen físico tiene lesiones descamativas en las rodillas y punteado ungueal y el examen de la columna muestra limitación a la flexión, con test de Schöber modificado de 2 cm. Se solicitan exámenes que muestran VHS: 60 mm/h, PCR: 5,0 mg/dl, anticuerpos antinucleares y factor reumatoide negativos. ¿Cuál es el examen de elección para establecer el diagnóstico en este paciente?

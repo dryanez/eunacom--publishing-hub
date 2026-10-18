@@ -1,0 +1,3 @@
+#!/bin/sh
+# edge-tts (voz de borrador) en Node: npm i -g msedge-tts
+exec node "$(dirname "$0")/../edge_tts_cli.cjs" "$@"

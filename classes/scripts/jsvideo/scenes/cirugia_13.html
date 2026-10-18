@@ -1,0 +1,99 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// cirugia-13 (quemaduras). ?v=profundidad  piel normal y primer, segundo y tercer grado (Blausen "Types of Burns", CC BY 3.0, rótulos limpiados)
+//                          ?v=parkland     línea de tiempo de 24 h desde el accidente (gráfico, sin anatomía)
+const V = new URLSearchParams(location.search).get('v') || 'profundidad';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+const S = 0.56, DX = 30, DY = 124;                       // imagen 1200x1029 -> 720x617
+const P = (x, y) => [DX + x * S, DY + y * S];
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DX - 8, DY - 8, 1200 * S + 16, 1029 * S + 16, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DX, DY, 1200 * S, 1029 * S, 12); ctx.clip(); ctx.drawImage(window.IMGS.q, DX, DY, 1200 * S, 1029 * S); ctx.restore();
+}
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill(); tag(s, x, y, col, size); ctx.restore();
+}
+// cubos: x0 = borde izquierdo de la cara frontal; y de las capas (px de la imagen)
+const CUBES = [
+  { n: 'Primer grado', x: 95, top: 655, epi: 715, der: 800, hip: 880, col: '#FFC247', cx: 205, cy: 770 },
+  { n: 'Segundo grado', x: 490, top: 655, epi: 715, der: 800, hip: 880, col: '#FF8A4E', cx: 600, cy: 770 },
+  { n: 'Tercer grado', x: 890, top: 655, epi: 715, der: 800, hip: 880, col: '#FF5A4E', cx: 1000, cy: 770 },
+];
+function depth(i, k, col) {                              // flecha que baja desde la superficie hasta la profundidad alcanzada
+  const c = CUBES[i], yEnd = [c.epi, 770, c.hip][i], y1 = lerp(c.top, yEnd, ease(k));
+  const [x, ya] = P(c.x, c.top - 25), [, yb] = P(c.x, y1); if (k <= 0) return;
+  ctx.save(); ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = 6; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(x, ya); ctx.lineTo(x, yb - 8); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(x - 11, yb - 10); ctx.lineTo(x + 11, yb - 10); ctx.lineTo(x, yb + 6); ctx.fill(); ctx.restore();
+}
+function halo(i, a) {
+  if (a <= 0) return; const c = CUBES[i], [x, y] = P(c.cx, c.cy); ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = c.col; ctx.lineWidth = 4;
+  ctx.setLineDash([12, 8]); ctx.beginPath(); ctx.roundRect(x - 118, y - 140, 236, 280, 14); ctx.stroke(); ctx.restore();
+}
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+function profundidad(t) {
+  K.title('¿Qué tan profunda es la quemadura?', 'Cada grado llega más hondo, y duele distinto', C.AMBER);
+  lamina(seg(t, 0, 0.7));
+  // piel normal con sus capas
+  label('Epidermis', 330, 205, '#7FC8FF', ...P(745, 185), fade(t, 1, 5.5));
+  label('Dermis', 330, 262, '#7FC8FF', ...P(745, 265), fade(t, 1.6, 5.5));
+  label('Hipodermis', 340, 322, '#7FC8FF', ...P(745, 370), fade(t, 2.2, 5.5));
+  tag('Piel normal', ...P(1000, 480), '#E8EEF4', 16);
+  // primer grado
+  halo(0, fade(t, 5.5, 11)); depth(0, seg(t, 6, 1.5) * (1 - seg(t, 10.5, 0.5)), CUBES[0].col);
+  K.card(790, 120, 460, 120, CUBES[0].col, 'Primer grado: solo la epidermis', ['Eritema seco, sin flictenas, muy doloroso', 'No se cuenta para la superficie'], fade(t, 5.5, 11), 17);
+  // segundo grado
+  halo(1, fade(t, 11, 18)); depth(1, seg(t, 11.5, 2) * (1 - seg(t, 17.5, 0.5)), CUBES[1].col);
+  K.card(790, 120, 460, 150, CUBES[1].col, 'Segundo grado: llega a la dermis', ['Superficial: flictenas, lecho rosado y húmedo, muy doloroso', 'Profundo: pálido, seco, duele menos; casi siempre injerto'], fade(t, 11, 18), 16);
+  // tercer grado
+  halo(2, fade(t, 18, 24)); depth(2, seg(t, 18.5, 2) * (1 - seg(t, 23.5, 0.5)), CUBES[2].col);
+  K.card(790, 120, 460, 150, CUBES[2].col, 'Tercer grado: toda la piel', ['Escara acartonada, blanca o negra', 'Indolora y sin llenado capilar: las terminaciones', 'nerviosas están destruidas'], fade(t, 18, 24), 16);
+  // resumen
+  const a = seg(t, 24.2, 0.6);
+  if (a > 0) { ctx.save(); ctx.globalAlpha = a; rrect(790, 290, 460, 330, 16, '#161B22');
+    text('Dolor y cuenta para Wallace', 812, 328, 21, C.INK, 'bold');
+    [['Primer grado', 0.9, '#FFC247', 'No cuenta'], ['Segundo superficial', 1, '#FF8A4E', 'Cuenta'], ['Segundo profundo', 0.45, '#FF8A4E', 'Cuenta'], ['Tercer grado', 0.03, '#FF5A4E', 'Cuenta']].forEach(([n, v, col, w], i) => {
+      const y = 372 + i * 58; text(n, 812, y, 17, C.INK, 'bold'); rrect(812, y + 10, 270, 12, 6, '#222833'); rrect(812, y + 10, 270 * v * ease(seg(t, 24.6 + i * 0.3, 0.8)), 12, 6, col);
+      text(w, 1228, y + 4, 17, w === 'Cuenta' ? C.RED : C.GREEN, 'bold', 'right'); });
+    text('Barra: intensidad del dolor', 812, 604, 14, C.MUTED); ctx.restore(); }
+}
+
+function parkland(t) {
+  K.title('Parkland: cuándo se pasa el suero', 'Ejemplo: 70 kg con 30 % de superficie quemada (segundo y tercer grado)', C.BLUE);
+  const X0 = 90, X1 = 1190, Y = 330, hx = h => X0 + (X1 - X0) * h / 24;
+  rrect(60, 130, 1160, 540, 18, '#161B22');
+  const a = seg(t, 0.4, 0.8);
+  // cuenta
+  K.card(90, 150, 520, 100, C.BLUE, '4 mL × peso × % de superficie', ['4 × 70 kg × 30 = 8.400 mL de Ringer lactato en 24 horas'], seg(t, 0.6, 0.6), 18);
+  // barra de 24 h
+  const k1 = ease(seg(t, 3, 2.5)), k2 = ease(seg(t, 8, 3));
+  rrect(X0, Y, X1 - X0, 56, 10, '#222833');
+  rrect(X0, Y, (hx(8) - X0) * k1, 56, 10, C.RED);
+  rrect(hx(8), Y, (X1 - hx(8)) * k2, 56, 10, C.BLUE);
+  for (let h = 0; h <= 24; h += 4) { text(h + ' h', hx(h), Y + 88, 17, C.MUTED, '', 'center'); ctx.fillStyle = '#555'; ctx.fillRect(hx(h) - 1, Y + 56, 2, 8); }
+  if (k1 > 0.6) text('Mitad: 4.200 mL en las primeras 8 h', (X0 + hx(8)) / 2, Y + 36, 19, C.BG, 'bold', 'center');
+  if (k2 > 0.6) text('La otra mitad: 4.200 mL en 16 h', (hx(8) + X1) / 2, Y + 36, 19, C.BG, 'bold', 'center');
+  // accidente y llegada
+  const A = seg(t, 1.5, 0.5); if (A > 0) { ctx.save(); ctx.globalAlpha = A; ctx.fillStyle = C.AMBER; ctx.fillRect(X0 - 2, Y - 40, 4, 40); tag('Accidente: aquí parte el reloj', X0 + 150, Y - 56, C.AMBER, 17); ctx.restore(); }
+  const B = seg(t, 13, 0.6); if (B > 0) { ctx.save(); ctx.globalAlpha = B; ctx.fillStyle = C.GREEN; ctx.fillRect(hx(2) - 2, Y + 56, 4, 52); tag('Llega al hospital: 2 h', hx(2) + 40, Y + 130, C.GREEN, 17); ctx.restore(); }
+  const R = seg(t, 15, 0.8); if (R > 0) { ctx.save(); ctx.globalAlpha = R; ctx.strokeStyle = C.RED; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(hx(2), Y - 8); ctx.lineTo(hx(8), Y - 8); ctx.stroke();
+    ctx.restore(); }
+  K.card(90, 470, 540, 160, C.RED, 'Las 8 horas cuentan desde el accidente', ['Si llegó a las 2 h, quedan solo 6 h para pasar', 'la primera mitad (700 mL por hora, no 525)'], seg(t, 15.5, 0.6), 17);
+  K.card(660, 470, 530, 160, C.GREEN, 'Parkland es solo el punto de partida', ['Manda la diuresis horaria con sonda Foley:', 'adulto 0,5 a 1 mL por kilo por hora'], seg(t, 19, 0.6), 17);
+}
+const SCN = { profundidad: { f: profundidad, dur: 30 }, parkland: { f: parkland, dur: 26 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); if (V === 'profundidad') credit(); };
+LOAD({ q: '../assets/blausen/quemaduras_tipos.png' });
+</script>
+</body></html>

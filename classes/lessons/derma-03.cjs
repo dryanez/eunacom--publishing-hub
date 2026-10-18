@@ -42,7 +42,8 @@ module.exports = {
         { show: ['des'], note: 'Los que se preguntan en el examen',
           say: 'Sobre esa base, hay desencadenantes clásicos de las crisis, el llamado flushing o bochorno facial: la exposición solar, el calor ambiental, el alcohol, las comidas picantes o condimentadas, las bebidas calientes, los cambios bruscos de temperatura, y el estrés emocional. En el interrogatorio, preguntar por estos gatillantes es casi tan útil como el examen físico.' },
         { show: ['ros'], note: 'La regla de oro del tema',
-          say: 'Y de ahí nace la rosácea. Pero antes de seguir, la regla de oro que no puedes olvidar: la rosácea nunca tiene comedones. Si el paciente tiene comedones, es acné, no rosácea, aunque el resto del cuadro se parezca.' },
+          say: 'Y de ahí nace la rosácea. Pero antes de seguir, la regla de oro que no puedes olvidar: la rosácea nunca tiene comedones. Si el paciente tiene comedones, es acné, no rosácea, aunque el resto del cuadro se parezca. Mira esta cara: enrojecimiento y pápulas en ambas mejillas, y ni un solo comedón.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-03/01_rosacea__cto-derma_p60.jpg', label: 'Rosácea', at: 'Mira esta cara', credit: 'Manual CTO Dermatología 14.ª ed., p. 60' } },
       ],
     },
 
@@ -57,11 +58,13 @@ module.exports = {
         ] },
         { title: 'Pápulo-pustulosa', tag: 'Subtipo 2 · sin comedones', kind: 'criteria', items: [
           { t: 'Pápulas y pústulas', d: 'Sobre el eritema de base, sin comedones',
-            say: 'El subtipo dos, pápulo-pustuloso, típico en mujeres de treinta a cincuenta años, suma pápulas y pústulas sobre ese eritema, pero nunca comedones.' },
+            say: 'El subtipo dos, pápulo-pustuloso, típico en mujeres de treinta a cincuenta años, suma pápulas y pústulas sobre ese eritema, pero nunca comedones. En esta piel las pápulas y pústulas se asientan sobre un eritema difuso, y sigue sin haber comedones.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-03/01_rosacea_alt1__amir-derma_p84.jpg', label: 'Rosácea pápulo-pustulosa', at: 'En esta piel', credit: 'Manual AMIR Dermatología, p. 84' } },
         ] },
         { title: 'Fimatosa y ocular', tag: 'Subtipos 3 y 4', kind: 'alert', items: [
           { t: 'Rinofima', d: 'Nariz bulbosa, hipertrofia sebácea y fibrosis',
-            say: 'El subtipo tres es la fimatosa: hipertrofia de las glándulas sebáceas con fibrosis, casi siempre en la nariz de un hombre, dando el rinofima.' },
+            say: 'El subtipo tres es la fimatosa: hipertrofia de las glándulas sebáceas con fibrosis, casi siempre en la nariz de un hombre, dando el rinofima. Mira esta nariz: engrosada y lobulada, el rinofima de una rosácea avanzada, con el tejido fibroso que ya no responde a cremas.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-03/02_rinofima__amir-orl_p41.jpg', label: 'Rinofima', at: 'Mira esta nariz', credit: 'Manual AMIR Otorrinolaringología, p. 41' } },
           { t: 'Ocular', d: 'Blefaritis, ojo con arenilla, hasta la mitad de los pacientes',
             say: 'Y el subtipo cuatro es el ocular, hasta en la mitad de los pacientes: blefaritis, ojo rojo, sensación de arenilla, y chalazión que se repite.' },
         ] },
@@ -118,26 +121,6 @@ module.exports = {
           { t: 'Ocular: higiene palpebral', d: 'Lágrimas artificiales y doxiciclina oral en dosis bajas',
             say: 'Y en la rosácea ocular, la base es la higiene de los párpados con compresas tibias, más lágrimas artificiales, y doxiciclina oral en dosis bajas por unas seis semanas si persiste la blefaritis.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Rosácea',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-03/01_rosacea__cto-derma_p60.jpg', label: 'Rosácea', credit: 'Manual CTO Dermatología 14.ª ed., p. 60' },
-        { src: 'biblioteca/11_dermatologia/derma-03/01_rosacea_alt1__amir-derma_p84.jpg', label: 'Rosácea pápulo-pustulosa', credit: 'Manual AMIR Dermatología, p. 84' },
-        { src: 'biblioteca/11_dermatologia/derma-03/02_rinofima__amir-orl_p41.jpg', label: 'Rinofima', credit: 'Manual AMIR Otorrinolaringología, p. 41' },
-      ],
-      steps: [
-        { note: 'Sin comedones',
-          say: 'La rosácea da enrojecimiento y pápulas en el centro de la cara, sin comedones.' },
-        { note: 'Pápulas y pústulas',
-          say: 'En la forma pápulo-pustulosa aparecen pápulas y pústulas sobre el eritema. Se trata con metronidazol o ivermectina tópica, nunca con corticoide.' },
-        { note: 'Nariz engrosada',
-          say: 'Y el rinofima es la nariz engrosada de la rosácea avanzada. Se trata con cirugía o láser.' },
       ],
     },
 

@@ -297,6 +297,118 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.1.005 · Coagulopatías adquiridas",
+      "stem": "Hombre de 66 años con ictericia indolora progresiva de 5 semanas, coluria, acolia y prurito. Baja de 8 kg. Ecografía: dilatación de la vía biliar intra y extrahepática; TAC con masa en cabeza de páncreas. Se programa drenaje biliar. Hb 12,9 g/dL, plaquetas 280.000/µL, TP 42 % (INR 2,0), TTPK 38 s (control 30 s), fibrinógeno 380 mg/dL, albúmina 3,6 g/dL. Sin sangrado activo.",
+      "question": "¿Cuál es la causa más probable de la alteración de la coagulación y su manejo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Déficit de vitamina K por colestasis; vitamina K por vía parenteral y controlar el TP"
+        },
+        {
+          "letter": "B",
+          "text": "Insuficiencia hepática; transfundir plasma fresco congelado"
+        },
+        {
+          "letter": "C",
+          "text": "Coagulación intravascular diseminada; iniciar heparina"
+        },
+        {
+          "letter": "D",
+          "text": "Hemofilia adquirida; solicitar inhibidor del factor VIII"
+        },
+        {
+          "letter": "E",
+          "text": "Enfermedad de von Willebrand adquirida; desmopresina"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La colestasis impide absorber vitaminas liposolubles: falta vitamina K y bajan los factores II, VII, IX y X, prolongando sobre todo el TP. Con albúmina, plaquetas y fibrinógeno normales, no es insuficiencia hepática ni CID. Se corrige con vitamina K parenteral (no oral, por la malabsorción), con mejoría del TP en 24–48 horas.",
+      "say": {
+        "stem": "Un hombre de sesenta y seis años con ictericia obstructiva por una masa en la cabeza del páncreas va a drenaje biliar. Tiene protrombina de cuarenta y dos por ciento, tiempo de tromboplastina levemente prolongado, y plaquetas, fibrinógeno y albúmina normales.",
+        "question": "¿Cuál es la causa de la alteración de la coagulación y cómo se maneja?",
+        "options": "Las opciones: déficit de vitamina K con vitamina K parenteral, insuficiencia hepática con plasma, coagulación intravascular con heparina, hemofilia adquirida o von Willebrand adquirido. Piénsalo.",
+        "answer": "Es la A. La colestasis impide absorber la vitamina K y caen los factores dependientes, y se corrige con vitamina K inyectada, porque oral no se absorbe. La insuficiencia hepática tienta, pero con albúmina normal no calza, y el plasma no hace falta sin sangrado."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 142",
+      "stem": "Paciente en tratamiento con acenocumarol por fibrilación auricular. INR actual 7,8 (meta 2–3). Sin sangrado activo.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Suspender el acenocumarol y administrar vitamina K1 oral 2,5–5 mg"
+        },
+        {
+          "letter": "B",
+          "text": "Transfusión urgente de plasma fresco congelado"
+        },
+        {
+          "letter": "C",
+          "text": "Solo suspender el anticoagulante y observar"
+        },
+        {
+          "letter": "D",
+          "text": "Administrar protamina"
+        },
+        {
+          "letter": "E",
+          "text": "Continuar la misma dosis y controlar en 1 semana"
+        }
+      ],
+      "correct": "A",
+      "explanation": "INR sobre 5 sin sangrado: se suspende el cumarínico y se da vitamina K1 oral en dosis baja para una reversión gradual, controlando el INR en 24 horas. El plasma o el complejo protrombínico se reservan para el sangrado grave; la protamina revierte la heparina, no los cumarínicos. No se busca revertir del todo, para no generar un estado protrombótico.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Un paciente con fibrilación auricular en tratamiento con acenocumarol tiene un INR de siete coma ocho, con meta de dos a tres, y no está sangrando.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: suspender y dar vitamina K oral en dosis baja, plasma fresco urgente, solo suspender y observar, protamina, o seguir igual y controlar en una semana. Piénsalo.",
+        "answer": "Es la A. Con INR sobre cinco y sin sangrado se suspende el anticoagulante y se da vitamina K oral en dosis baja, para bajar el INR de forma gradual. El plasma tienta, pero se reserva para el sangrado grave, y aquí no hay sangrado."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.3.006 · Interacción de drogas y anticoagulantes orales",
+      "stem": "Mujer de 74 años con fibrilación auricular en tratamiento con acenocumarol, con INR estable entre 2 y 3 durante el último año y sin cambios en su dieta. Consulta por gingivorragia y equimosis en los brazos. INR 6,4. Hace 6 días se le inició un nuevo fármaco.",
+      "question": "¿Cuál de los siguientes fármacos explica mejor este hallazgo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rifampicina"
+        },
+        {
+          "letter": "B",
+          "text": "Carbamazepina"
+        },
+        {
+          "letter": "C",
+          "text": "Cotrimoxazol"
+        },
+        {
+          "letter": "D",
+          "text": "Fenobarbital"
+        },
+        {
+          "letter": "E",
+          "text": "Espironolactona"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El cotrimoxazol inhibe el metabolismo hepático (CYP2C9) del cumarínico y además altera la flora productora de vitamina K, elevando bruscamente el INR. Rifampicina, carbamazepina y fenobarbital son inductores enzimáticos: aceleran el metabolismo y bajan el INR. Al iniciar un fármaco que interactúa, se debe controlar el INR en 3 a 5 días.",
+      "say": {
+        "stem": "Una mujer de setenta y cuatro años, con acenocumarol y un INR estable por un año, consulta por gingivorragia y moretones. Ahora su INR es de seis coma cuatro, y hace seis días empezó un fármaco nuevo.",
+        "question": "¿Cuál de estos fármacos explica mejor el hallazgo?",
+        "options": "Las opciones: rifampicina, carbamazepina, cotrimoxazol, fenobarbital, o espironolactona. Piénsalo.",
+        "answer": "Es la C. El cotrimoxazol inhibe el metabolismo del acenocumarol y sube el INR en pocos días. La rifampicina tienta porque es la interacción más famosa, pero es un inductor y produce el efecto contrario, baja el INR."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',

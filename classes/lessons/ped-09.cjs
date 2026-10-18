@@ -139,6 +139,32 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Exámenes de apoyo',
+      title: 'Proteína C reactiva y procalcitonina: qué valores importan',
+      cards: [
+        { title: 'Proteína C reactiva', tag: 'Reactante del hígado', kind: 'criteria', items: [
+          { t: 'Sube lento', d: 'Inicio a las 4–6 h, pico a las 36–50 h',
+            say: 'Antes de los valores, fíjate en el tiempo. La proteína C reactiva la fabrica el hígado y recién empieza a subir a las cuatro a seis horas de iniciada la fiebre, con su pico entre las treinta y seis y las cincuenta horas. Por eso, si la tomas en las primeras horas, puede salir falsamente baja y tienes que repetirla.' },
+          { t: 'Menos de 20 mg/L', d: 'Bajo riesgo de infección bacteriana invasiva',
+            say: 'Con menos de veinte miligramos por litro, que es menos de dos miligramos por decilitro, el riesgo de infección bacteriana invasiva es bajo. De hecho, es uno de los criterios de bajo riesgo del lactante febril.' },
+          { t: 'Desde 40 mg/L, sube el riesgo', d: 'Sobre 80–100: bacteriemia, neumonía o pielonefritis',
+            say: 'Desde cuarenta miligramos por litro la probabilidad de infección bacteriana grave sube claramente. Y sobre ochenta a cien, la probabilidad de bacteriemia, neumonía o pielonefritis es alta.' },
+        ] },
+        { title: 'Procalcitonina', tag: 'Más precoz', kind: 'key', items: [
+          { t: 'Sube a las 3–6 horas', d: '≥ 0,5 ng/mL bacteriana; ≥ 2 ng/mL, alto riesgo',
+            say: 'La procalcitonina se eleva antes, a las tres a seis horas, y es más específica que la proteína C en las primeras doce horas de fiebre. Desde cero coma cinco nanogramos por mililitro sugiere infección bacteriana invasiva, y desde dos, alto riesgo.' },
+        ] },
+        { title: 'Limitaciones', tag: 'Ojo con la trampa', kind: 'alert', items: [
+          { t: 'Los virus también la suben', d: 'Adenovirus e influenza: 50–100 mg/L; también Kawasaki',
+            say: 'Ojo: un adenovirus o una influenza pueden dar una proteína de cincuenta a cien miligramos por litro, y también la elevan el trauma, la cirugía y el Kawasaki.' },
+          { t: 'Nunca decide sola', d: 'Se suma a la clínica, el hemograma y la edad',
+            say: 'Por eso nunca decide sola los antibióticos: se interpreta junto al aspecto clínico, el hemograma y la edad. Y en el seguimiento, una caída de más de la mitad a las cuarenta y ocho a setenta y dos horas habla de buena respuesta al tratamiento.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Grupo 3: mayor de 3 meses',
       title: 'Buen estado general: casi siempre es un virus',
       cards: [
@@ -164,6 +190,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: "La edad decide",
+      images: [
+        { src: 'animaciones/ped-09/A1_fiebre_sin_foco_por_edad.mp4', label: "Tres tramos de edad", credit: "Animación propia" },
+      ],
+      steps: [
+        { note: "Hospitalizar, medir o esperar",
+          say: "Mira cómo cambia la conducta con la edad. Menor de veintiocho días: se hospitaliza siempre, con estudio completo y ampicilina más cefotaxima, aunque se vea bien. Entre veintinueve y noventa días mandan los criterios de Rochester: si cumple todos, ambulatorio con control a las veinticuatro horas; si falla uno, se hospitaliza. Sobre los tres meses, con buen estado, casi siempre es un virus. Y nunca ceftriaxona en el recién nacido." },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos las tres edades en un solo árbol de decisión, tal como lo vas a razonar en el examen.',
     },
@@ -184,6 +224,8 @@ module.exports = {
           say: 'Y en el recién nacido, el esquema es ampicilina más cefotaxima. La ceftriaxona es la trampa, porque en esta edad puede desplazar la bilirrubina.' },
         { cells: ['Lactante menor de 6 meses con fiebre', 'Paracetamol como antipirético', 'Indicar ibuprofeno'],
           say: 'Y una última trampa, más simple pero muy preguntada: en un lactante menor de seis meses, el antipirético es paracetamol. Indicar ibuprofeno en ese rango de edad es un error clásico.' },
+        { cells: ['Proteína C reactiva normal en las primeras horas', 'Repetirla y no descartar infección', 'Dar de alta porque salió baja'],
+          say: 'Y una trampa de laboratorio: una proteína C reactiva normal en las primeras horas de fiebre no descarta nada, porque todavía no alcanza a subir. Se repite, y se interpreta con la clínica.' },
       ],
     },
 
@@ -257,6 +299,44 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.020 · Proteína C reactiva cuantitativa",
+      "stem": "Un lactante de 4 meses presenta fiebre de 39 °C de 3 horas de evolución, sin foco al examen. Está en buenas condiciones. Se solicita hemograma, orina completa y proteína C reactiva, que resulta 0,6 mg/dL.",
+      "question": "¿Cuál es la interpretación más adecuada de la PCR?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Descarta infección bacteriana grave"
+        },
+        {
+          "letter": "B",
+          "text": "Permite dar el alta sin control"
+        },
+        {
+          "letter": "C",
+          "text": "Confirma una infección viral"
+        },
+        {
+          "letter": "D",
+          "text": "Indica que no se requiere orina completa"
+        },
+        {
+          "letter": "E",
+          "text": "Puede estar aún normal por el poco tiempo de evolución de la fiebre"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La proteína C reactiva se eleva entre 6 y 12 horas tras el inicio del proceso inflamatorio y alcanza su máximo a las 36 a 48 horas. Con fiebre de menos de 6 a 12 horas puede ser normal aun en una infección bacteriana grave. Debe interpretarse con la clínica y la evolución; la procalcitonina sube más precozmente.",
+      "say": {
+        "stem": "Un lactante de cuatro meses tiene fiebre sin foco hace tres horas, en buenas condiciones, y su proteína C reactiva es normal.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: descarta infección bacteriana, alta sin control, confirma infección viral, no requiere orina o puede estar normal por la poca evolución. Piénsalo.",
+        "answer": "Es la E. La proteína C reactiva demora seis a doce horas en subir, así que tan precozmente puede ser normal aun en una infección bacteriana. Pensar que la descarta tienta, pero eso solo sería válido con más horas de fiebre."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -266,6 +346,8 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Menor de veintiocho días: siempre se hospitaliza y se estudia completo, sin excepción.' },
           { t: '29 a 90 días', d: 'Rochester decide, y es todo o nada',
             say: 'De veintinueve a noventa días, deciden los criterios de Rochester, y son todo o nada: un solo criterio alterado saca al paciente del bajo riesgo.' },
+          { t: 'Proteína C reactiva', d: 'Menor de 20 mg/L es bajo riesgo, pero sube lento',
+            say: 'Y los exámenes de apoyo: una proteína C reactiva bajo veinte miligramos por litro orienta a bajo riesgo, pero sube lento, así que en las primeras horas puede engañar.' },
         ] },
         { title: 'Tratamiento', tag: 'En el neonato', kind: 'pharma', items: [
           { t: 'Ampicilina más cefotaxima', d: 'Nunca ceftriaxona por el kernicterus',

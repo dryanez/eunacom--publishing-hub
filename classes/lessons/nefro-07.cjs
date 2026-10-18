@@ -264,6 +264,81 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2022 · Pregunta 155",
+      "stem": "Un niño de 6 años fue operado de un tumor cerebral hace 7 días. Desde entonces ha presentado volúmenes urinarios aumentados, de 4,5 litros al día. Exámenes: glicemia de ayuno 103 mg/dL, Na+ 154 mEq/L, K+ 4,9 mEq/L; orina con sedimento normal, densidad 1.005 y osmolaridad urinaria 100 mOsm/L.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Síndrome perdedor de sal cerebral"
+        },
+        {
+          "letter": "B",
+          "text": "Síndrome de secreción inadecuada de hormona antidiurética"
+        },
+        {
+          "letter": "C",
+          "text": "Insuficiencia suprarrenal"
+        },
+        {
+          "letter": "D",
+          "text": "Diabetes insípida"
+        },
+        {
+          "letter": "E",
+          "text": "Diabetes mellitus"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Poliuria con orina diluida (osmolaridad 100 mOsm/L, densidad 1.005) e hipernatremia tras una cirugía selar o hipotalámica es diabetes insípida central por déficit de ADH. El SIADH y el perdedor de sal cerebral dan hiponatremia; la diabetes mellitus da glucosuria con orina concentrada. Se trata con desmopresina y manejo hídrico cuidadoso.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veintidós. Un niño de seis años operado de un tumor cerebral hace una semana orina más de cuatro litros al día, con sodio de ciento cincuenta y cuatro y una orina muy diluida.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: perdedor de sal cerebral, secreción inadecuada de ADH, insuficiencia suprarrenal, diabetes insípida o diabetes mellitus. Piénsalo.",
+        "answer": "Es la D. Poliuria con orina diluida e hipernatremia después de una neurocirugía es una diabetes insípida central. El perdedor de sal cerebral tienta por el contexto neuroquirúrgico, pero cursa con hiponatremia, no con sodio alto."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.013 · Electrolitos plasmáticos",
+      "stem": "Un lactante de 6 meses con diarrea de 4 días llega irritable, con piel pastosa y signos de deshidratación moderada. Los electrolitos plasmáticos muestran Na+ 162 mEq/L, K+ 3,8 mEq/L y Cl- 128 mEq/L.",
+      "question": "¿Cuál es el principio más importante del tratamiento?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Corregir el sodio en 4 a 6 horas con suero glucosado al 5%"
+        },
+        {
+          "letter": "B",
+          "text": "Administrar bicarbonato de sodio"
+        },
+        {
+          "letter": "C",
+          "text": "Administrar furosemida"
+        },
+        {
+          "letter": "D",
+          "text": "Restringir completamente el aporte de agua"
+        },
+        {
+          "letter": "E",
+          "text": "Descenso lento del sodio, no más de 10 a 12 mEq/L por día, por riesgo de edema cerebral"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En la deshidratación hipernatrémica, las neuronas generan osmoles idiógenos para protegerse. Si el sodio baja rápidamente, entra agua a las células y se produce edema cerebral y convulsiones. Por ello la corrección debe ser lenta: descenso máximo de 10 a 12 mEq/L en 24 horas, reponiendo el déficit en 48 a 72 horas, con controles frecuentes de electrolitos.",
+      "say": {
+        "stem": "Un lactante de seis meses con diarrea está irritable, con piel pastosa y sodio de ciento sesenta y dos.",
+        "question": "¿Cuál es el principio más importante del tratamiento?",
+        "options": "Las opciones: corregir en pocas horas con suero glucosado, bicarbonato, furosemida, restringir agua o descenso lento del sodio. Piénsalo.",
+        "answer": "Es la E. En la hipernatremia el sodio debe bajar lentamente, no más de diez a doce por día, para evitar edema cerebral. Corregirlo rápido con suero glucosado tienta, pero ese es justamente el error que produce convulsiones."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',

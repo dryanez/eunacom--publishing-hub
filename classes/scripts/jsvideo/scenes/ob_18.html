@@ -1,0 +1,112 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// Obstetricia (ob-18) sobre ilustración real: útero tras el alumbramiento (Blausen «Stages of Childbirth», etapa 3,
+// rótulos en inglés quitados: assets/blausen/ob_postparto_util.png, 534x408). Coordenadas en píxeles de esa imagen.
+//   ?v=atonia   A1: útero atónico sangra → masaje bimanual + oxitocina → el miometrio se contrae y se cierra el lecho
+const V = new URLSearchParams(location.search).get('v') || 'atonia';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+
+const S = 1.38, DST = { x: 40, y: 124, w: 534 * S, h: 408 * S };
+const P = (x, y) => [DST.x + x * S, DST.y + y * S];
+const LUM = [[85, 115], [100, 65], [125, 45], [150, 35], [200, 37], [250, 50], [285, 70], [300, 90], [305, 115], [325, 150], [350, 185],
+  [390, 200], [425, 203], [450, 220], [440, 260], [420, 277], [390, 290], [350, 300], [310, 297], [280, 280], [250, 255], [215, 235],
+  [175, 220], [135, 210], [105, 180], [87, 145]];
+const CEN = [255, 160];
+const BLOOD = poly([[300, 248], [350, 262], [400, 259], [430, 247], [447, 230], [462, 226], [476, 246], [484, 280], [487, 330]].map(p => P(...p)));
+
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DST.x - 6, DST.y - 6, DST.w + 12, DST.h + 12, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DST.x, DST.y, DST.w, DST.h, 14); ctx.clip();
+  ctx.drawImage(I('ut'), DST.x, DST.y, DST.w, DST.h); ctx.restore();
+}
+function lumPath(k, cen) { // polígono de la cavidad, reducido por k alrededor de cen
+  LUM.forEach((p, i) => { const q = [cen[0] + (p[0] - cen[0]) * k, cen[1] + (p[1] - cen[1]) * k]; const [x, y] = P(...q); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.closePath();
+}
+// contr 0..1: el miometrio se engrosa hacia adentro y la cavidad se achica; bleed 0..1: sangre retenida en la cavidad
+function cavity(contr, bleed) {
+  const k = 1 - 0.46 * contr;
+  ctx.save(); ctx.beginPath(); lumPath(1, CEN); ctx.clip();
+  if (contr > 0) {                                            // pared que se engruesa
+    const [cx, cy] = P(...CEN); const g = ctx.createRadialGradient(cx, cy, 20, cx, cy, 330);
+    g.addColorStop(0, '#B24A55'); g.addColorStop(1, '#7E2430'); ctx.globalAlpha = ease(clamp(contr * 1.6, 0, 1)); ctx.fillStyle = g;
+    ctx.fillRect(DST.x, DST.y, DST.w, DST.h); ctx.globalAlpha = 1;
+    ctx.save(); ctx.beginPath(); lumPath(k, CEN); ctx.clip();  // cavidad que queda (copia reducida de la ilustración)
+    const [ax, ay] = P(...CEN); ctx.translate(ax, ay); ctx.scale(k, k); ctx.translate(-ax, -ay);
+    ctx.drawImage(I('ut'), DST.x, DST.y, DST.w, DST.h); ctx.restore();
+  }
+  if (bleed > 0) { ctx.save(); ctx.beginPath(); lumPath(k, CEN); ctx.clip(); ctx.fillStyle = `rgba(190,10,24,${0.36 * bleed})`; ctx.fillRect(DST.x, DST.y, DST.w, DST.h); ctx.restore(); }
+  ctx.restore();
+  if (contr > 0) { ctx.save(); ctx.beginPath(); lumPath(k, CEN); ctx.strokeStyle = `rgba(92,14,30,${0.9 * contr})`; ctx.lineWidth = 5; ctx.stroke(); ctx.restore(); }
+}
+function bloodFlow(t, a) {
+  if (a <= 0) return; ctx.save(); ctx.beginPath(); ctx.rect(0, 0, 1280, 720); ctx.clip();
+  for (let i = 0; i < 16; i++) { const u = ((t * 0.34) + i / 16) % 1; const [x, y] = BLOOD.at(u);
+    ctx.globalAlpha = a * Math.min(1, u * 7, (1 - u) * 5); ctx.fillStyle = '#B3081A'; ctx.beginPath(); ctx.arc(x, y, 3.8 + 1.8 * rnd(i), 0, 7); ctx.fill(); }
+  ctx.restore(); ctx.globalAlpha = 1;
+}
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill();
+  tag(s, x, y, col, size); ctx.restore();
+}
+function arrow(x0, y0, x1, y1, col, a, w = 7) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a; ctx.strokeStyle = col; ctx.fillStyle = col; ctx.lineWidth = w; ctx.lineCap = 'round';
+  const ang = Math.atan2(y1 - y0, x1 - x0), hx = x1 - Math.cos(ang) * 14, hy = y1 - Math.sin(ang) * 14;
+  ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(hx, hy); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(hx - Math.sin(ang) * 11, hy + Math.cos(ang) * 11); ctx.lineTo(hx + Math.sin(ang) * 11, hy - Math.cos(ang) * 11); ctx.closePath(); ctx.fill(); ctx.restore();
+}
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+function atonia(t) {
+  K.title('Atonía uterina: la primera T', 'Útero blando que no se contrae: sigue sangrando', C.RED);
+  lamina(seg(t, 0, 0.7));
+  const contr = ease(seg(t, 9, 3.6));
+  const rate = seg(t, 1.2, 0.8) * (1 - ease(seg(t, 9.6, 3)));
+  cavity(contr, clamp(0.25 + rate, 0, 1) * (1 - 0.6 * contr));
+  bloodFlow(t, rate);
+  const loss = lerp(0, 1000, seg(t, 1.4, 6.6)) + lerp(0, 120, ease(seg(t, 8, 3.2)));
+  const tone = lerp(12, 88, contr);
+  // rótulos
+  label('Útero grande y blando', 130, 190, C.RED, ...P(215, 150), fade(t, 1.3, 6.5));
+  label('Sangra por el cuello', 480, 470, C.RED, ...P(440, 240), fade(t, 2.8, 8));
+  label('Placenta ya desprendida', 160, 560, '#E8A07A', ...P(150, 150), fade(t, 4.6, 8));
+  // masaje bimanual: una mano en el fondo, otra en la vagina
+  const m = seg(t, 6.2, 0.6) * (1 - seg(t, 12.4, 0.8)), pul = 0.5 + 0.5 * Math.sin(t * 7);
+  if (m > 0) {
+    const [fx, fy] = P(150, 22), [vx, vy] = P(470, 230);
+    arrow(fx - 78, fy - 22 - 6 * pul, fx - 8, fy + 8 + 6 * pul, C.AMBER, m);
+    arrow(fx + 62, fy - 28 - 6 * pul, fx + 18, fy + 8 + 6 * pul, C.AMBER, m);
+    arrow(vx + 36 - 6 * pul, vy + 48, vx - 34, vy - 6, C.AMBER, m);
+    tag('Masaje bimanual', 120, 300, C.AMBER, 16);
+  }
+  // oxitocina
+  const ox = seg(t, 8, 0.5) * (1 - seg(t, 13.5, 0.5));
+  if (ox > 0) { ctx.save(); ctx.globalAlpha = ox; const [ux, uy] = P(230, 140);
+    K.glow(ux, uy, 200, '255,200,60', 0.22 + 0.12 * Math.sin(t * 6)); ctx.restore();
+    for (let i = 0; i < 6; i++) { const u = ((t * 0.7) + i / 6) % 1; const [dx, dy] = P(lerp(40, 150, u), lerp(60, 110, u)); ctx.globalAlpha = ox * Math.min(1, u * 5, (1 - u) * 5); ctx.fillStyle = '#7FC8FF'; ctx.beginPath(); ctx.arc(dx, dy, 5, 0, 7); ctx.fill(); }
+    ctx.globalAlpha = 1; tag('Oxitocina', 120, 350, '#7FC8FF', 15); }
+  K.pill(0, 0, '#fff', '#fff', 0);
+  // panel derecho
+  rrect(800, 124, 450, 150, 16, '#161B22');
+  K.bar(822, 164, 406, 'Tono del útero', tone, 100, '%', tone > 60 ? C.GREEN : C.RED);
+  K.bar(822, 228, 406, 'Sangre perdida', loss, 1500, 'mL', loss >= 1000 ? C.RED : C.AMBER, [[1000, 'Código rojo']], v => String(Math.round(v / 10) * 10));
+  K.card(800, 292, 450, 112, C.RED, '1 · Tono (70 % de los casos)', ['Útero blando sobre el ombligo', 'Las arterias no quedan comprimidas'], seg(t, 1.6, 0.5), 17);
+  K.card(800, 418, 450, 112, C.AMBER, '2 · Masaje y oxitocina', ['Masaje bimanual, siempre primero', 'Oxitocina endovenosa y ácido tranexámico'], seg(t, 6.4, 0.5), 17);
+  K.card(800, 544, 450, 86, C.BLUE, 'Si persiste', ['Ergometrina o misoprostol, Bakri, cirugía'], seg(t, 14.6, 0.5), 17);
+  K.banner(800, 644, 450, 'Útero contraído: deja de sangrar', C.GREEN, seg(t, 13.2, 0.5));
+}
+const SCN = { atonia: { f: atonia, dur: 19 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({ ut: '../assets/blausen/ob_postparto_util.png' });
+</script>
+</body></html>

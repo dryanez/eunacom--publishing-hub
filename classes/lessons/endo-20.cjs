@@ -24,11 +24,13 @@ module.exports = {
           { t: 'Prolactinoma 40 %, no funcionante 30–35 %', d: 'Somatotropo 15 %, corticotropo 10 %',
             say: 'El más común es el prolactinoma, con cuarenta por ciento. Le siguen los no funcionantes, con treinta a treinta y cinco; los productores de hormona de crecimiento, con quince; y los productores de ACTH, con diez.' },
           { t: 'Micro < 10 mm · Macro ≥ 10 mm', d: 'El tamaño cambia la conducta',
-            say: 'Y se clasifican por tamaño: bajo diez milímetros es un microadenoma, y desde diez milímetros, un macroadenoma. Ese corte de diez milímetros lo vas a usar en la conducta.' },
+            say: 'Y se clasifican por tamaño: bajo diez milímetros es un microadenoma, y desde diez milímetros, un macroadenoma: mira esta resonancia, una masa que crece hacia arriba desde la silla turca. Ese corte de diez milímetros lo vas a usar en la conducta.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-20/04_macroadenoma-rm__amir-endocrino_p24.jpg', label: 'Macroadenoma en la RM', at: 'mira esta resonancia', credit: 'Manual AMIR Endocrinología, p. 24' } },
         ] },
         { title: 'Otras masas selares', tag: 'Diferencial', kind: 'criteria', items: [
           { t: 'Craneofaringioma', d: 'Quístico, calcificado, de la bolsa de Rathke',
-            say: 'Pero no todo es adenoma. El craneofaringioma deriva de la bolsa de Rathke: es supraselar, quístico y con calcificaciones, y aparece en niños y en adultos mayores.' },
+            say: 'Pero no todo es adenoma. El craneofaringioma deriva de la bolsa de Rathke: es supraselar, quístico y con calcificaciones: mira esta lesión redondeada, sobre la silla turca y no dentro de ella. Aparece en niños y en adultos mayores.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-20/05_craneofaringioma_rm__kanski_p830.jpg', label: 'Craneofaringioma supraselar', at: 'mira esta lesión', credit: 'Kanski\'s Clinical Ophthalmology, 8.ª ed., p. 830' } },
           { t: 'Meningioma y quiste de Rathke', d: 'También aneurisma carotídeo y metástasis',
             say: 'Además están el meningioma del tubérculo selar, el quiste de la hendidura de Rathke, el aneurisma de la carótida interna, y las metástasis de mama, pulmón o próstata.' },
         ] },
@@ -60,11 +62,13 @@ module.exports = {
         { show: ['dia', 'cef'], note: 'Cefalea por distensión',
           say: 'Mientras crece dentro de la silla, estira el diafragma selar, y eso da una cefalea sorda, retroocular o bifrontal.' },
         { show: ['sup'], note: 'Justo arriba está el quiasma',
-          say: 'Si crece hacia arriba, se encuentra con el quiasma óptico, que está justo encima de la silla, y lo comprime por abajo, en su centro.' },
+          say: 'Si crece hacia arriba, se encuentra con el quiasma óptico, que está justo encima de la silla, y lo comprime por abajo, en su centro. Mira este corte coronal: el quiasma encima y los senos cavernosos a los lados.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-20/03_efecto-masa-adenoma__cto-endocrino_p40.jpg', label: 'Anatomía de la región selar', at: 'Mira este corte', credit: 'Manual CTO Endocrinología 14.ª ed., p. 40' } },
         { show: ['fib'], note: 'En el centro cruzan las fibras nasales',
           say: 'Y en el centro del quiasma cruzan las fibras que vienen de la mitad nasal de cada retina. Esas fibras son las que ven el campo visual temporal, el de los lados.' },
         { show: ['hem'], note: 'El paciente que no ve a los lados',
-          say: 'El resultado es la hemianopsia bitemporal: el paciente pierde la visión de ambos lados, pero conserva la visión central. Por eso choca con los muebles o no ve los autos en los cruces, aunque lea perfecto la cartilla. Esta es la imagen clásica del examen.' },
+          say: 'El resultado es la hemianopsia bitemporal, como en esta campimetría: el paciente pierde la visión de ambos lados, pero conserva la visión central. Por eso choca con los muebles o no ve los autos en los cruces, aunque lea perfecto la cartilla. Esta es la imagen clásica del examen.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-20/01_hemianopsia-bitemporal-campimetria__cto-endocrino_p41.jpg', label: 'Hemianopsia bitemporal', at: 'como en esta campimetría', credit: 'Manual CTO Endocrinología 14.ª ed., p. 41' } },
         { show: ['cav', 'oft'], note: 'Lateral: pares craneales del seno cavernoso',
           say: 'Y si crece hacia los lados, invade los senos cavernosos, por donde pasan los pares tres, cuatro y seis, y las primeras ramas del trigémino. Aparece la oftalmoplejía: diplopía, ptosis, estrabismo.' },
       ],
@@ -97,6 +101,30 @@ module.exports = {
           say: 'Y tercero, el perfil hormonal completo. Buscas si el tumor produce algo: prolactina para el prolactinoma, IGF uno para la acromegalia, y cortisol con ACTH para el Cushing.' },
         { show: ['def'], note: 'Después, qué dejó de producir',
           say: 'Y buscas si la masa aplastó a la hipófisis sana: TSH con T cuatro libre para el hipotiroidismo central, gonadotropinas con testosterona o estradiol, y el cortisol matinal para una insuficiencia suprarrenal. Además, la prolactina puede subir solo porque la masa desconecta el tallo, sin ser un prolactinoma.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'En la consulta',
+      title: 'Campo visual por confrontación',
+      cards: [
+        { title: 'Cómo se hace', tag: 'Un ojo a la vez', kind: 'criteria', items: [
+          { t: 'Frente al paciente, a 50 cm o 1 m', d: 'Ojos a la misma altura',
+            say: 'Esto lo haces tú en la consulta, sin ningún equipo, ante toda sospecha de masa selar, cefalea con síntomas visuales o un accidente cerebrovascular. Te sientas frente al paciente, a cincuenta centímetros o un metro, con los ojos a la misma altura.' },
+          { t: 'Cada ojo por separado', d: 'Tú cierras el ojo opuesto al suyo',
+            say: 'Se examina cada ojo por separado. El paciente se tapa, por ejemplo, el izquierdo con la palma, y tú cierras tu ojo derecho, el opuesto. Así los dos campos se superponen, y el tuyo, que es normal, sirve de control. Él mira fijo tu ojo abierto, sin desviar la mirada.' },
+          { t: 'Cuatro cuadrantes, de afuera hacia adentro', d: 'Dedos, dedo en movimiento o alfiler rojo',
+            say: 'El estímulo lo presentas en los cuatro cuadrantes, desde la periferia hacia el centro: cuentas dedos, o un dedo en movimiento, o la cabeza roja de un alfiler. El rojo es lo más sensible para el quiasma, porque en la zona afectada se ve desteñido.' },
+        ] },
+        { title: 'Cómo se interpreta', tag: 'Dónde está la lesión', kind: 'key', items: [
+          { t: 'Hemianopsia bitemporal: quiasma', d: 'Al inicio, cuadrantanopsia temporal superior',
+            say: 'Si falta el campo temporal de los dos ojos, es una hemianopsia bitemporal: lesión del quiasma, o sea una masa selar. Al comienzo se pierde solo el cuadrante temporal superior, porque el adenoma comprime el quiasma desde abajo.' },
+          { t: 'Homónima: retroquiasmática', d: 'ACV o tumor',
+            say: 'Si falta el mismo lado en los dos ojos, es una hemianopsia homónima, y la lesión está detrás del quiasma, por ejemplo un accidente cerebrovascular o un tumor. Y el defecto de un solo ojo orienta a una lesión del ojo o del nervio óptico.' },
+          { t: 'Tamizaje: normal no descarta', d: 'Siempre campimetría formal',
+            say: 'Pero ojo: es un examen de tamizaje de baja sensibilidad. Un resultado normal no descarta un defecto. Toda masa selar o alteración detectada requiere campimetría computarizada formal, con oftalmología.' },
+        ] },
       ],
     },
 
@@ -148,7 +176,8 @@ module.exports = {
         { show: ['inf'], note: 'El tumor se infarta o sangra',
           say: 'El adenoma sufre un infarto fulminante o una hemorragia masiva dentro de él, y crece de golpe.' },
         { show: ['cli'], note: 'Simula una hemorragia subaracnoidea',
-          say: 'La clínica es brutal: cefalea súbita en estallido, en trueno, pérdida visual súbita, oftalmoplejía dolorosa con ptosis y diplopía por el tercer par, y meningismo. Por eso se confunde con una hemorragia subaracnoidea.' },
+          say: 'La clínica es brutal: cefalea súbita en estallido, en trueno, pérdida visual súbita, oftalmoplejía dolorosa con ptosis y diplopía por el tercer par, y meningismo. Mira esta resonancia: el adenoma con sangrado. Por eso se confunde con una hemorragia subaracnoidea.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-20/02_adenoma-con-sangrado-rm__cto-endocrino_p42.jpg', label: 'Apoplejía hipofisaria', at: 'Mira esta resonancia', credit: 'Manual CTO Endocrinología 14.ª ed., p. 42' } },
         { show: ['acth'], note: 'Lo que mata es la falta de cortisol',
           say: 'Pero lo que mata no es la cefalea. La hemorragia destruye la hipófisis sana, se corta la ACTH, y aparece una insuficiencia suprarrenal aguda secundaria: compromiso de conciencia y shock. Conecta con la clase de crisis suprarrenal.' },
         { show: ['hc'], note: 'Primera medida: hidrocortisona',
@@ -192,40 +221,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'El macroadenoma hipofisario',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-20/04_macroadenoma-rm__amir-endocrino_p24.jpg', label: 'Macroadenoma en la resonancia', credit: 'Manual AMIR Endocrinología, p. 24' },
-        { src: 'biblioteca/05_endocrinologia/endo-20/01_hemianopsia-bitemporal-campimetria__cto-endocrino_p41.jpg', label: 'Hemianopsia bitemporal', credit: 'Manual CTO Endocrinología 14.ª ed., p. 41' },
-        { src: 'biblioteca/05_endocrinologia/endo-20/02_adenoma-con-sangrado-rm__cto-endocrino_p42.jpg', label: 'Apoplejía hipofisaria', credit: 'Manual CTO Endocrinología 14.ª ed., p. 42' },
-      ],
-      steps: [
-        { note: 'Masa que sube desde la silla turca',
-          say: 'Así se ve un macroadenoma en la resonancia: una masa de diez milímetros o más que crece hacia arriba desde la silla turca, hasta alcanzar el quiasma.' },
-        { note: 'Pierde los campos externos',
-          say: 'El macroadenoma comprime el quiasma y el paciente pierde los dos campos temporales: hemianopsia bitemporal.' },
-        { note: 'Adenoma con sangrado',
-          say: 'Y si el adenoma sangra, aparece la apoplejía: cefalea brusca y caída de la visión. La hidrocortisona va primero.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-20/03_efecto-masa-adenoma__cto-endocrino_p40.jpg', label: 'Anatomía de la región selar', credit: 'Manual CTO Endocrinología 14.ª ed., p. 40' },
-      ],
-      steps: [
-        { note: 'Anatomía de la región selar',
-          say: 'Corte coronal de la región selar: la hipófisis tiene el quiasma óptico encima y los senos cavernosos a los lados. Por eso un macroadenoma comprime estas estructuras.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, tal como lo vas a razonar en el examen.',
     },
@@ -248,6 +243,8 @@ module.exports = {
           say: 'Microadenoma incidental no funcionante y sin síntomas: resonancia de control. No se opera.' },
         { cells: ['Cefalea en trueno, III par, hipotensión', 'Hidrocortisona 100 mg EV', 'Manitol o esperar la cirugía'],
           say: 'Y cefalea en trueno con tercer par e hipotensión: apoplejía. Lo primero es hidrocortisona. El manitol o correr a pabellón sin corticoide es la trampa.' },
+        { cells: ['Cefalea con visión borrosa y sospecha de masa selar', 'Campo visual por confrontación y derivar', 'Dar por descartado si es normal'],
+          say: 'Si sospechas una masa selar, haz el campo visual por confrontación, pero recuerda que es un tamizaje: aunque salga normal, no descarta el defecto. Siempre campimetría formal.' },
       ],
     },
 
@@ -367,6 +364,82 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.4.004 · Campo visual",
+      "stem": "Hombre de 50 años consulta por cefalea y por chocar con frecuencia con objetos a ambos lados al caminar. La resonancia muestra un macroadenoma hipofisario de 2,5 cm con extensión supraselar.",
+      "question": "¿Cuál es la alteración del campo visual más esperable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hemianopsia homónima derecha"
+        },
+        {
+          "letter": "B",
+          "text": "Hemianopsia bitemporal"
+        },
+        {
+          "letter": "C",
+          "text": "Escotoma central unilateral"
+        },
+        {
+          "letter": "D",
+          "text": "Cuadrantanopsia superior homónima"
+        },
+        {
+          "letter": "E",
+          "text": "Amaurosis monocular transitoria"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Un macroadenoma con extensión supraselar comprime el quiasma óptico desde abajo, afectando las fibras nasales que se cruzan, y produce hemianopsia bitemporal, que típicamente se inicia en los cuadrantes superiores. Por eso todo macroadenoma requiere campimetría. La hemianopsia homónima indica una lesión retroquiasmática, y la amaurosis transitoria, isquemia retiniana.",
+      "say": {
+        "stem": "Hombre de cincuenta años con un macroadenoma hipofisario con extensión supraselar, que choca con objetos a ambos lados.",
+        "question": "¿Qué defecto del campo visual esperas?",
+        "options": "Las opciones: hemianopsia homónima, hemianopsia bitemporal, escotoma central, cuadrantanopsia homónima, o amaurosis transitoria. Piénsalo.",
+        "answer": "Es la B. Hemianopsia bitemporal, por compresión del quiasma. La hemianopsia homónima es la otra clásica, pero corresponde a lesiones detrás del quiasma."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.5.002 · Campo visual por confrontación",
+      "stem": "Hombre de 50 años con cefalea de meses y choques frecuentes con objetos a ambos lados. Al examinar el campo visual por confrontación, sentado frente a él a 1 metro, el paciente no detecta los dedos del examinador en las mitades temporales de ambos campos visuales.",
+      "question": "¿Qué lesión sugiere este hallazgo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lesión del quiasma óptico, como un macroadenoma hipofisario"
+        },
+        {
+          "letter": "B",
+          "text": "Lesión del nervio óptico derecho"
+        },
+        {
+          "letter": "C",
+          "text": "Lesión de la cintilla óptica izquierda"
+        },
+        {
+          "letter": "D",
+          "text": "Lesión del lóbulo occipital derecho"
+        },
+        {
+          "letter": "E",
+          "text": "Glaucoma crónico"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El campo visual por confrontación compara el campo del paciente con el del examinador, cada ojo por separado y por cuadrantes. La hemianopsia bitemporal indica compresión del quiasma (cruce de fibras nasales), típicamente por macroadenoma hipofisario o craneofaringioma; se estudia con resonancia selar y campimetría computarizada. Las lesiones retroquiasmáticas dan hemianopsias homónimas.",
+      "say": {
+        "stem": "Hombre de cincuenta años con cefalea y choques con objetos a ambos lados. En la confrontación no ve los dedos en las mitades temporales de ambos ojos.",
+        "question": "¿Qué lesión sugiere?",
+        "options": "Las opciones: quiasma óptico como un macroadenoma hipofisario, nervio óptico derecho, cintilla óptica izquierda, lóbulo occipital derecho o glaucoma. Piénsalo.",
+        "answer": "Es la A. La pérdida de ambos campos temporales es una hemianopsia bitemporal, típica de compresión del quiasma por un adenoma de hipófisis. La lesión occipital tienta, pero produce una hemianopsia homónima, del mismo lado en ambos ojos."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -376,6 +449,8 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Hemianopsia bitemporal significa quiasma, y en el adulto, macroadenoma hasta demostrar lo contrario.' },
           { t: 'Estudio triple', d: 'RM + campimetría + perfil hormonal',
             say: 'Toda masa selar lleva el estudio triple: resonancia, campimetría y perfil hormonal completo.' },
+          { t: 'Confrontación en la consulta: solo tamizaje', d: 'Normal no descarta; campimetría formal',
+            say: 'Y el campo visual por confrontación lo haces tú, pero es solo tamizaje: si sale normal, no descarta nada.' },
         ] },
         { title: 'Conducta', tag: 'Según el tipo', kind: 'pharma', items: [
           { t: 'Prolactinoma: cabergolina', d: 'El único que no va a cirugía de entrada',

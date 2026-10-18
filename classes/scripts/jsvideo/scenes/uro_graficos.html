@@ -1,0 +1,51 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// Gráficos de urología (sin anatomía, solo código).
+// ?v=torsion (uro-05): salvamiento del testículo según las horas de isquemia (más de 90 % antes de 6 h, 20 a 50 % a las 12 h, casi cero a las 24 h).
+// ?v=marcadores (uro-10): tras la orquiectomía, β-hCG (vida media 24 a 36 h) y AFP (5 a 7 días) deben normalizarse; si no, queda enfermedad.
+const V = new URLSearchParams(location.search).get('v') || 'torsion';
+window.SCENE = { duration: ({ torsion: 24, marcadores: 26 })[V] || 24, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const G = GRAPH(L), K = KIT(L), { seg, fade } = K;
+
+function torsion(t) {
+  K.title('Torsión testicular: el tiempo salva el testículo', 'Cada hora de isquemia cuenta', C.RED);
+  const ax = G.axes({ x: 110, y: 170, w: 680, h: 400 }, [0, 30], [0, 100], { xt: [0, 6, 12, 18, 24, [30, '30 h']], yt: [0, 20, 40, 60, 80, 100], yl: 'Testículo salvado (%)', xl: 'Horas desde el inicio del dolor' });
+  ax.draw(seg(t, 0, 0.7));
+  const f = G.smooth([[0, 100], [6, 92], [12, 40], [18, 12], [24, 3], [30, 0]]);
+  G.band(ax, 90, 100, 'rgba(61,220,132,0.14)', seg(t, 1, 0.6), null, 0, 6);
+  const k = ease(seg(t, 1.5, 9)); const p = G.curve(ax, f, k, C.RED, 5); if (k < 1) G.head(p, C.RED);
+  [[6, 'Menos de 6 h: más de 90 %', C.GREEN, 4.2], [12, '12 h: 20 a 50 %', C.AMBER, 7.0], [24, '24 h: casi cero', C.RED, 10.2]].forEach(([x, s, col, a]) => {
+    const kk = seg(t, a, 0.5); if (kk > 0) { ctx.globalAlpha = kk; ctx.fillStyle = col; ctx.beginPath(); ctx.arc(ax.X(x), ax.Y(f(x)), 9, 0, 7); ctx.fill(); tag(s, clamp(ax.X(x) + 120, 260, 720), ax.Y(f(x)) - 38, col, 16); ctx.globalAlpha = 1; } });
+  K.card(840, 170, 400, 150, C.RED, 'Por qué el tiempo manda', ['Primero se ocluye la vena,', 'después la arteria: isquemia', 'del testículo'], seg(t, 3, 0.5));
+  K.card(840, 340, 400, 150, C.AMBER, 'Cómo se reconoce', ['Dolor brusco, 12 a 18 años', 'Cremastérico abolido, Prehn negativo', 'Testículo alto y horizontal'], seg(t, 12, 0.5));
+  K.banner(110, 640, 1130, 'Todo testículo agudo se explora: no esperar imágenes si la sospecha es alta', C.RED, seg(t, 17, 0.5));
+}
+
+function marcadores(t) {
+  K.title('Marcadores tumorales tras la orquiectomía', 'Deben bajar según su vida media; si no, queda tumor', C.VIOLET);
+  const ax = G.axes({ x: 110, y: 170, w: 680, h: 400 }, [0, 30], [0, 100], { xt: [0, 5, 10, 15, 20, 25, [30, '30 días']], yt: [0, 25, 50, 75, 100], yl: 'Marcador (% del valor inicial)', xl: 'Días después de la orquiectomía' });
+  ax.draw(seg(t, 0, 0.7));
+  G.band(ax, 0, 4, 'rgba(61,220,132,0.16)', seg(t, 0.8, 0.6), 'Normal', 0, 30);
+  const hcg = x => 100 * Math.pow(0.5, x / 1.5), afp = x => 100 * Math.pow(0.5, x / 6), pers = x => 100 * Math.pow(0.5, x / 6) * 0.15 + 85 - 0 * x;
+  const k1 = ease(seg(t, 1.5, 4)), k2 = ease(seg(t, 5.5, 6)), k3 = ease(seg(t, 14, 5));
+  const p1 = G.curve(ax, hcg, k1, C.BLUE, 5); if (k1 < 1) G.head(p1, C.BLUE);
+  const p2 = G.curve(ax, afp, k2, C.AMBER, 5); if (k2 < 1) G.head(p2, C.AMBER);
+  const pf = x => 100 - 0.4 * x;
+  const p3 = G.curve(ax, pf, k3, C.RED, 5, 0, 30, [10, 8]); if (k3 < 1) G.head(p3, C.RED);
+  if (seg(t, 3, 0.5) > 0) { ctx.globalAlpha = seg(t, 3, 0.5); tag('β-hCG: vida media 24 a 36 h', ax.X(9), ax.Y(30), C.BLUE, 16); ctx.globalAlpha = 1; }
+  if (seg(t, 8, 0.5) > 0) { ctx.globalAlpha = seg(t, 8, 0.5); tag('AFP: vida media 5 a 7 días', ax.X(20), ax.Y(34), C.AMBER, 16); ctx.globalAlpha = 1; }
+  if (seg(t, 17, 0.5) > 0) { ctx.globalAlpha = seg(t, 17, 0.5); tag('No baja: enfermedad residual', ax.X(19), ax.Y(88), C.RED, 16); ctx.globalAlpha = 1; }
+  K.card(840, 170, 400, 150, C.BLUE, 'Antes y después', ['Se miden antes de operar', 'y se repiten tras la orquiectomía', 'hasta normalizar'], seg(t, 2, 0.5));
+  K.card(840, 340, 400, 150, C.RED, 'Si no se normalizan', ['Hay enfermedad: no es etapa I', 'Se etapifica con TAC y se deriva', 'a oncología para quimioterapia'], seg(t, 17, 0.5));
+  K.banner(110, 640, 1130, 'Orquiectomía inguinal, nunca escrotal; marcadores antes y después', C.VIOLET, seg(t, 21, 0.5));
+}
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); ({ torsion, marcadores })[V](t); text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); };
+LOAD({});
+</script>
+</body></html>

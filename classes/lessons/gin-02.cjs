@@ -37,7 +37,8 @@ module.exports = {
         { show: ['lh'], note: 'La teca produce de más',
           say: 'Esa LH en exceso estimula demasiado a la teca ovárica, que produce andrógenos de más. Y como falta FSH relativa, esos folículos no terminan de aromatizar ni de madurar.' },
         { show: ['ri'], note: 'El segundo engranaje: metabólico',
-          say: 'El segundo engranaje es metabólico: la resistencia a la insulina, presente en la gran mayoría de las pacientes, incluso en las que no son obesas.' },
+          say: 'El segundo engranaje es metabólico: la resistencia a la insulina, presente en la gran mayoría de las pacientes, incluso en las que no son obesas. Mira este cuello: la piel oscura, gruesa y aterciopelada es la acantosis nigricans, el signo en la piel de esa resistencia.',
+          photo: { src: 'biblioteca/13_ginecologia/gin-02/02_acantosis-nigricans__amir-derma_p30.jpg', label: 'Acantosis nigricans', at: 'Mira este cuello', credit: 'Manual AMIR Dermatología, p. 30' } },
         { show: ['shbg'], note: 'Por qué la testosterona libre sube tanto',
           say: 'La insulina en exceso hace caer la SHBG en el hígado, la proteína que transporta las hormonas sexuales. Con menos proteína transportadora, sube la fracción libre de testosterona, que es la que actúa.' },
         { show: ['andro'], note: 'Los dos caminos llegan al mismo lugar',
@@ -58,7 +59,8 @@ module.exports = {
           { t: 'Hiperandrogenismo clínico o bioquímico', d: 'Hirsutismo, acné, o testosterona elevada',
             say: 'El segundo es el hiperandrogenismo: hirsutismo evaluado con la escala de Ferriman-Gallwey, acné severo, alopecia, o una testosterona elevada en el laboratorio.' },
           { t: 'Morfología poliquística en la ecografía', d: 'Muchos folículos pequeños o volumen ovárico aumentado',
-            say: 'Y el tercero es la ecografía: muchos folículos pequeños distribuidos en la periferia del ovario, o un volumen ovárico aumentado. Con dos de estos tres, el diagnóstico está hecho.' },
+            say: 'Y el tercero es la ecografía: muchos folículos pequeños distribuidos en la periferia del ovario, o un volumen ovárico aumentado. Mira esta ecografía transvaginal: es el collar de perlas. Con dos de estos tres, el diagnóstico está hecho.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-02/01_ovario-poliquistico-eco__cto-gyo_p35.jpg', label: 'Ovario poliquístico (eco)', at: 'Mira esta ecografía transvaginal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 35' } },
         ] },
         { title: 'Antes de confirmar', tag: 'Descarte obligatorio', kind: 'alert', items: [
           { t: 'Diecisiete hidroxiprogesterona', d: 'Descarta hiperplasia suprarrenal no clásica',
@@ -94,6 +96,31 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Hirsutismo',
+      title: 'Es un signo, no un diagnóstico',
+      cards: [
+        { title: 'Primero, medirlo', tag: 'Ferriman-Gallwey de 8 o más', kind: 'criteria', items: [
+          { t: 'Vello terminal en zonas andrógeno-dependientes', d: 'Ferriman-Gallwey de 8 o más',
+            say: 'Ojo con esto: el hirsutismo es un signo, no un diagnóstico. Es vello terminal en zonas que dependen de andrógenos, y se mide con la escala de Ferriman-Gallwey: ocho puntos o más. Mira la escala: se puntúan nueve zonas del cuerpo, de cero a cuatro cada una. El ovario poliquístico explica entre el setenta y el ochenta por ciento, pero antes de rotular hay que descartar el resto.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-02/03_ferriman-gallwey__nelson_p4295.jpg', label: 'Escala de Ferriman-Gallwey', at: 'Mira la escala', credit: 'Nelson Textbook of Pediatrics 22.ª ed., p. 4295' } },
+        ] },
+        { title: 'Otras causas', tag: 'Se descartan antes de rotular', kind: 'key', items: [
+          { t: 'Idiopático e hiperplasia suprarrenal', d: 'Andrógenos normales; 17-OH-progesterona sobre 2 ng/mL',
+            say: 'El hirsutismo idiopático tiene andrógenos normales y ciclos regulares, por mayor actividad de la cinco alfa reductasa. Y la hiperplasia suprarrenal no clásica se sospecha con una diecisiete hidroxiprogesterona basal, en fase folicular, sobre dos nanogramos por mililitro, y se confirma con test de ACTH.' },
+          { t: 'Endocrinopatías y fármacos', d: 'Prolactina, TSH, Cushing; danazol, valproato, minoxidil',
+            say: 'También descartas hiperprolactinemia, hipotiroidismo y síndrome de Cushing, con cortisol libre urinario o supresión con un miligramo de dexametasona. Y los fármacos: danazol, esteroides anabólicos, valproato, ciclosporina y minoxidil.' },
+        ] },
+        { title: 'Tumor secretor', tag: 'Imagen y derivación inmediata', kind: 'alert', items: [
+          { t: 'Inicio brusco con virilización', d: 'Testosterona sobre 150-200 ng/dL o DHEA-S sobre 700',
+            say: 'La alarma es el tumor secretor de andrógenos, del ovario o de la suprarrenal. Lo sospechas si el inicio es brusco y rápidamente progresivo, hay virilización, con clitoromegalia, voz grave, alopecia temporal o aumento de masa muscular, o la testosterona total pasa de ciento cincuenta a doscientos nanogramos por decilitro, o la DHEA-S de setecientos microgramos. Pides imagen, ecografía transvaginal o TAC, y derivas de inmediato.' },
+          { t: 'Estudio básico y primer manejo', d: 'Testosterona, DHEA-S, 17-OH-progesterona, TSH, prolactina',
+            say: 'El estudio básico inicial es testosterona total, DHEA-S, diecisiete hidroxiprogesterona, TSH y prolactina. Y el tratamiento inicial son medidas cosméticas, como depilación o láser, anticonceptivo combinado y, si a los seis meses no hay respuesta, espironolactona.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Tratamiento',
       title: 'Todo depende del deseo de embarazo',
       cards: [
@@ -118,18 +145,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Síndrome de ovario poliquístico',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Ovario poliquístico: los dos engranajes',
       images: [
-        { src: 'biblioteca/13_ginecologia/gin-02/01_ovario-poliquistico-eco__cto-gyo_p35.jpg', label: 'Ecografía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 35' },
-        { src: 'biblioteca/13_ginecologia/gin-02/02_acantosis-nigricans__amir-derma_p30.jpg', label: 'Acantosis nigricans', credit: 'Manual AMIR Dermatología, p. 30' },
+        { src: 'animaciones/gin-02/A1_sop_engranajes.mp4', label: 'Dos engranajes del SOP', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Muchos folículos periféricos',
-          say: 'En la ecografía, el ovario tiene muchos folículos pequeños en la periferia, como un collar de perlas.' },
-        { note: 'Resistencia a la insulina',
-          say: 'Y la acantosis nigricans refleja la resistencia a la insulina que acompaña al síndrome.' },
+        { note: 'Primer engranaje y segundo',
+          say: 'Mira el ovario: la LH en exceso estimula la teca, que fabrica andrógenos de más, y los folículos quedan detenidos, como un collar de perlas. Ese es el engranaje neuroendocrino. El otro es metabólico: la resistencia a la insulina baja la SHBG y sube la testosterona libre. Los dos convergen en hiperandrogenismo y anovulación crónica, y de ahí el diagnóstico por Rotterdam, dos de tres criterios.' },
       ],
     },
 

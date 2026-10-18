@@ -136,6 +136,26 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Glicemia capilar',
+      title: 'Ante la sospecha, mide primero',
+      cards: [
+        { title: 'Medir de inmediato', tag: 'Cualquier sospecha', kind: 'key', items: [
+          { t: 'Capilar en la cara lateral del pulpejo', d: 'Manos limpias y secas',
+            say: 'Ante cualquier sospecha de hipoglicemia, lo primero es medir de inmediato la glicemia capilar, en la cara lateral del pulpejo, con las manos limpias y secas, como vimos en la clase de diabetes gestacional.' },
+          { t: 'Inconsciente y sin glucómetro: tratar igual', d: 'Glucosa empírica',
+            say: 'Pero si el paciente está inconsciente y no hay glucómetro, no se retrasa el tratamiento. Se administra glucosa de forma empírica. El riesgo de esperar es mucho mayor que el de dar glucosa de más.' },
+        ] },
+        { title: 'Después del rescate', tag: 'Seguimiento', kind: 'criteria', items: [
+          { t: 'Repetir a los 15 minutos', d: 'Luego cada 1 a 2 horas',
+            say: 'Tras el rescate se repite la medición a los quince minutos y después cada una a dos horas, hasta mantener glicemias estables sobre setenta.' },
+          { t: 'Valor «LO» discordante: confirmar', d: 'Con glicemia venosa',
+            say: 'Y un valor muy bajo, o la señal LO, que no concuerda con la clínica, se confirma con glicemia venosa.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'La trampa de la glibenclamida',
       title: 'Despertó, pero no se va a la casa',
@@ -162,6 +182,34 @@ module.exports = {
           say: 'Si lo das de alta, la hipoglicemia vuelve horas después, en su casa, sin nadie que la trate, con riesgo de daño neurológico o muerte. Darlo de alta porque despertó es el distractor clásico del examen.' },
         { show: ['hos'], note: 'Regla absoluta',
           say: 'La conducta correcta: todo paciente con hipoglicemia por sulfonilureas, glibenclamida o glimepirida, se hospitaliza por veinticuatro a cuarenta y ocho horas, con infusión continua de suero glucosado al diez por ciento y glicemias capilares cada una a dos horas. Compáralo con la hipoglicemia por insulina en quien vuelve a comer bien: ese sí puede irse.' },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Compromiso de conciencia',
+      title: 'Paciente con conciencia alterada',
+      nodes: [
+        { id: 'abc', col: 0, row: 1, k: 'start', t: 'ABC y monitoreo', s: 'Vía venosa; control cervical si hay trauma' },
+        { id: 'glu', col: 1, row: 1, k: 'q', t: 'Glicemia capilar ya', s: 'Causa reversible' },
+        { id: 'dex', col: 2, row: 0, k: 'good', t: 'Bajo 70: glucosa EV', s: 'Tiamina antes si alcohólico' },
+        { id: 'nal', col: 2, row: 2, k: 'alert', t: 'Pupilas puntiformes + bradipnea', s: 'Naloxona; oxígeno si hay hipoxemia' },
+        { id: 'his', col: 3, row: 1, k: 'mech', t: 'Historia y examen', s: 'Glasgow, pupilas, focalidad, meníngeos' },
+        { id: 'exa', col: 4, row: 1, k: 'refer', t: 'Exámenes y derivar', s: 'Gases, ECG, TAC si focalidad o trauma' },
+      ],
+      edges: [
+        { from: 'abc', to: 'glu' }, { from: 'glu', to: 'dex' }, { from: 'glu', to: 'nal' },
+        { from: 'dex', to: 'his' }, { from: 'nal', to: 'his' }, { from: 'his', to: 'exa' },
+      ],
+      steps: [
+        { show: ['abc'], note: 'Primero lo que mata',
+          say: 'Cerremos el tema con el enfrentamiento general del paciente con compromiso de conciencia, que no es solo del diabético. Primero el ABC: vía aérea, ventilación y circulación, con control cervical si hay trauma, monitoreo y una vía venosa.' },
+        { show: ['glu', 'dex'], note: 'La glicemia capilar, siempre y de inmediato',
+          say: 'Segundo paso: glicemia capilar siempre y de inmediato, porque la hipoglicemia es una causa reversible. Si está bajo setenta, glucosa endovenosa. En alcohólicos o desnutridos se da antes tiamina, cien miligramos endovenosos. En niños, suero glucosado al diez por ciento, dos mililitros por kilo.' },
+        { show: ['nal'], note: 'Opioides e hipoxemia',
+          say: 'Tercero, naloxona si hay pupilas puntiformes y bradipnea, que hacen sospechar opioides, y oxígeno si hay hipoxemia.' },
+        { show: ['his', 'exa'], note: 'Recién después, la búsqueda de causa',
+          say: 'Recién después se hace la historia, con alcohol, fármacos, trauma y convulsión, la temperatura, el Glasgow, las pupilas y los signos focales y meníngeos. Se piden gases, electrolitos, creatinina, pruebas hepáticas y electrocardiograma, y TAC de cerebro si hay focalidad, trauma o no aparece causa metabólica. La punción lumbar se reserva para sospecha de meningitis. En el diabético, piensa además en cetoacidosis, estado hiperosmolar, sepsis y acidosis láctica.' },
       ],
     },
 
@@ -258,6 +306,8 @@ module.exports = {
           say: 'Insulina alta con péptido C indetectable: insulina exógena, no insulinoma.' },
         { cells: ['Insulina + péptido C altos, screening negativo', 'Insulinoma', 'Olvidar buscar sulfonilureas'],
           say: 'Insulina y péptido C altos: antes de decir insulinoma, busca sulfonilureas en la orina. Solo si es negativo, es insulinoma.' },
+        { cells: ['Paciente inconsciente, sin glucómetro', 'Glucosa empírica sin esperar', 'Esperar el resultado antes de tratar'],
+          say: 'Y si el paciente está inconsciente y no hay glucómetro, se da glucosa empírica. La trampa es esperar el resultado antes de tratar.' },
       ],
     },
 
@@ -374,6 +424,82 @@ module.exports = {
         options: 'Las opciones: glucagón intramuscular, quince gramos de azúcar simple por boca y control a los quince minutos, glucosa endovenosa, un sándwich con mantequilla y carne, o reposo y control en una hora. Piénsalo.',
         answer: 'Es la B, la regla de los quince. La pregunta clave es la conciencia, y aquí el enunciado te dice que está lúcido y traga bien. El glucagón y la glucosa endovenosa son para el paciente inconsciente: aquí serían exagerados. Y el sándwich es la trampa: la grasa retarda la absorción justo cuando necesitas que el azúcar llegue rápido.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.015 · Glicemia capilar",
+      "stem": "Mujer de 38 años, sin diabetes ni otros antecedentes, consulta por episodios de temblor, sudoración y palpitaciones 2 a 3 horas después de comer, que ceden al ingerir alimentos. Trae un registro de un glucómetro prestado con valores de 58, 62 y 64 mg/dL durante los síntomas. Examen físico normal.",
+      "question": "¿Cuál es la conducta más adecuada para confirmar una hipoglicemia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diagnosticar hipoglicemia reactiva con el registro del glucómetro"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar dieta fraccionada sin más estudio"
+        },
+        {
+          "letter": "C",
+          "text": "Documentar una glicemia plasmática venosa baja durante los síntomas, que se corrijan al normalizarla"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar hemoglobina glicosilada"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar insulinemia basal de ayuno"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En una persona sin diabetes, la hipoglicemia se confirma con la tríada de Whipple usando glicemia plasmática (bajo 55 mg/dL), no con glucómetro, que es impreciso en rangos bajos. La glicemia capilar sirve para el automonitoreo y la urgencia del diabético, no para diagnosticar hipoglicemia en un no diabético.",
+      "say": {
+        "stem": "Mujer de treinta y ocho años, sin diabetes, con episodios de temblor y sudoración dos a tres horas después de comer. Trae un registro de un glucómetro prestado con valores cercanos a sesenta durante los síntomas.",
+        "question": "¿Cuál es la conducta más adecuada para confirmar una hipoglicemia?",
+        "options": "Las opciones: diagnosticar hipoglicemia reactiva con el glucómetro, dieta fraccionada sin estudio, documentar una glicemia venosa baja durante los síntomas, hemoglobina glicosilada, o insulinemia de ayuno. Piénsalo.",
+        "answer": "Es la C. En el no diabético la hipoglicemia se demuestra con la tríada de Whipple, y la glicemia debe ser plasmática, porque el glucómetro es poco preciso en valores bajos. Confiar en el registro capilar tienta, pero sesenta en un glucómetro no confirma nada en una persona sana."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.2.004 · Compromiso de conciencia",
+      "stem": "Un niño de 3 años es traído a urgencia por somnolencia progresiva desde hace 1 hora. No tiene fiebre ni trauma conocido. Al examen tiene Glasgow 10, pupilas normales y reactivas, sin signos meníngeos ni focalidad, y signos vitales estables.",
+      "question": "Después de asegurar vía aérea, ventilación y circulación, ¿cuál es el primer examen a realizar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glicemia capilar (hemoglucotest)"
+        },
+        {
+          "letter": "B",
+          "text": "TAC de cerebro"
+        },
+        {
+          "letter": "C",
+          "text": "Punción lumbar"
+        },
+        {
+          "letter": "D",
+          "text": "Electroencefalograma"
+        },
+        {
+          "letter": "E",
+          "text": "Niveles de amonio"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En todo niño con compromiso de conciencia, tras el ABC, debe medirse de inmediato la glicemia capilar, porque la hipoglicemia es frecuente (ayuno, intoxicaciones, errores del metabolismo), rápida de diagnosticar y tratable con glucosa endovenosa. Luego se orienta el estudio: tóxicos, electrolitos, gases, neuroimagen o punción lumbar según la sospecha.",
+      "say": {
+        "stem": "Un niño de tres años llega cada vez más somnoliento hace una hora, con Glasgow diez, sin fiebre, trauma ni focalidad.",
+        "question": "Después del ABC, ¿cuál es el primer examen?",
+        "options": "Las opciones: glicemia capilar, TAC de cerebro, punción lumbar, electroencefalograma o amonio. Piénsalo.",
+        "answer": "Es la A. En todo niño con compromiso de conciencia, tras el ABC, se mide de inmediato la glicemia capilar, porque la hipoglicemia se corrige al tiro. El TAC tienta, pero tarda más y no debe retrasar descartar una causa metabólica tratable."
+      }
     },
 
     {

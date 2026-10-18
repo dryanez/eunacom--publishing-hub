@@ -49,6 +49,36 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Si la crisis no cede',
+      title: 'Estado epiléptico: manejo inicial',
+      nodes: [
+        { id: 'def', col: 0, row: 1, k: 'start', t: 'Crisis de más de 5 minutos', s: 'O dos crisis sin recuperar conciencia' },
+        { id: 'aba', col: 1, row: 0, k: 'mech', t: 'Lateral, vía aérea, oxígeno', s: 'Monitorización y vía venosa' },
+        { id: 'glu', col: 1, row: 2, k: 'q', t: 'Glicemia capilar', s: 'Bajo 60: glucosado 10%, 2 mL/kg' },
+        { id: 'bzd', col: 2, row: 1, k: 'alert', t: 'Benzodiacepina', s: 'Diazepam, midazolam o lorazepam' },
+        { id: 'seg', col: 3, row: 1, k: 'risk', t: 'Segunda línea', s: 'Fenitoína, fenobarbital o levetiracetam' },
+        { id: 'uci', col: 4, row: 1, k: 'refer', t: 'Refractario: UCI', s: 'Traslado' },
+      ],
+      edges: [
+        { from: 'def', to: 'aba' }, { from: 'def', to: 'glu' }, { from: 'aba', to: 'bzd' }, { from: 'glu', to: 'bzd' },
+        { from: 'bzd', to: 'seg', label: 'si persiste' }, { from: 'seg', to: 'uci', label: 'si persiste' },
+      ],
+      steps: [
+        { show: ['def'], note: 'La convulsión febril típica cede en minutos',
+          say: 'Hasta aquí vimos la crisis que cede sola. Pero si dura más de cinco minutos, o son dos crisis sin recuperar la conciencia entre ellas, ya es un estado epiléptico, y se maneja como urgencia. La convulsión febril simple que cede en minutos no necesita anticonvulsivante crónico.' },
+        { show: ['aba', 'glu'], note: 'Primero lo básico, y descartas hipoglicemia',
+          say: 'Primero lo básico: posición lateral de seguridad, vía aérea y oxígeno, monitorización y un acceso venoso. Tomas la glicemia capilar, y si es menor de sesenta miligramos por decilitro, pasas suero glucosado al diez por ciento, dos mililitros por kilo.' },
+        { show: ['bzd'], note: 'Primera línea, repetible una vez',
+          say: 'La primera línea es una benzodiacepina: diazepam endovenoso, cero coma dos a cero coma cinco miligramos por kilo, con máximo diez, o rectal a cero coma cinco si no hay vía. O midazolam intramuscular, cero coma dos miligramos por kilo, máximo diez, que también se da por vía intranasal o bucal; o lorazepam endovenoso, cero coma uno. Puedes repetir una vez a los cinco a diez minutos, vigilando la depresión respiratoria.' },
+        { show: ['seg'], note: 'Si persiste a los 10 a 20 minutos',
+          say: 'Si la crisis persiste a los diez a veinte minutos, pasas a la segunda línea: fenitoína veinte miligramos por kilo endovenosa en veinte minutos, con monitorización del electrocardiograma y sin mezclarla con glucosa; o fenobarbital veinte miligramos por kilo, o levetiracetam cuarenta a sesenta. En el recién nacido, la primera línea es fenobarbital.' },
+        { show: ['uci'], note: 'Se traslada',
+          say: 'Y si el estado es refractario, el niño se traslada a una unidad de cuidados intensivos.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Descartar meningitis',
       title: 'Punción lumbar: cuándo no se discute',
@@ -68,6 +98,47 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Punción lumbar',
+      title: 'Contraindicaciones y técnica',
+      cards: [
+        { title: 'Cuándo no', tag: 'Primero estabilizas', kind: 'alert', items: [
+          { t: 'Hipertensión endocraneana', d: 'Riesgo de herniación: primero TAC',
+            say: 'Ya vimos cuándo se indica la punción lumbar. Ahora, cuándo no. Si hay signos de hipertensión endocraneana con riesgo de herniación, primero se hace un TAC.' },
+          { t: 'Inestable o con coagulopatía', d: 'Plaquetas < 50.000; infección en el sitio',
+            say: 'Tampoco si hay inestabilidad hemodinámica o respiratoria: primero estabilizas e inicias el antibiótico. Y no la haces con infección en el sitio de punción, trastorno de coagulación o plaquetas bajo cincuenta mil.' },
+        ] },
+        { title: 'Técnica', tag: 'Espacio L3-L4 o L4-L5', kind: 'key', items: [
+          { t: 'Posición y espacio', d: 'Decúbito lateral; la línea de las crestas pasa por L4',
+            say: 'El niño va en decúbito lateral, con las rodillas flectadas, o sentado. En el neonato no flectas excesivamente el cuello, porque puedes obstruir la vía aérea. Entras entre la tercera y la cuarta vértebra lumbar, o entre la cuarta y la quinta: la línea que une las crestas ilíacas pasa por la cuarta, y en el neonato la médula llega hasta la tercera.' },
+          { t: 'Pérdida de resistencia', d: 'Bisel paralelo, hacia el ombligo; 3 tubos',
+            say: 'Con asepsia y anestesia local, avanzas la aguja con mandril, el bisel paralelo a las fibras y dirigida hacia el ombligo, hasta sentir la pérdida de resistencia al atravesar la duramadre. Retiras el mandril, mides la presión de apertura y recolectas tres tubos: bioquímica, cultivo con Gram, y recuento celular. La glicemia se toma al mismo tiempo.' },
+        ] },
+        { title: 'Complicaciones', tag: 'Las que se preguntan', kind: 'criteria', items: [
+          { t: 'Cefalea, infección, hematoma', d: 'Y herniación si había hipertensión',
+            say: 'Las complicaciones son la cefalea post punción, la infección, el hematoma y la herniación.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'table',
+      kicker: 'Líquido cefalorraquídeo',
+      title: 'Cómo interpretar el LCR',
+      head: ['Líquido', 'Aspecto y células', 'Proteínas y glucosa'],
+      rows: [
+        { cells: ['Normal', 'Cristal de roca; 0–5 células/mm³', 'Proteínas 20–40; glucosa ≥ 60% de la glicemia'],
+          say: 'Para interpretar el líquido, parte por lo normal: aspecto cristal de roca, cero a cinco células por milímetro cúbico, proteínas de veinte a cuarenta miligramos por decilitro, y glucosa de al menos sesenta por ciento de la glicemia. En el neonato las cifras son más altas: hasta veinte a treinta mononucleares y proteínas hasta cien a ciento cincuenta.' },
+        { cells: ['Meningitis bacteriana', 'Turbio; cientos a miles de polimorfonucleares', 'Proteínas > 100; glucosa < 40; Gram o cultivo (+)'],
+          say: 'En la meningitis bacteriana, el líquido está turbio, con cientos a miles de polimorfonucleares, proteínas sobre cien, glucosa baja, bajo cuarenta o una relación con la sangre bajo cero coma cuatro, y Gram o cultivo positivo.' },
+        { cells: ['Meningitis viral', 'Claro; 10–500 mononucleares', 'Proteínas normales o algo altas; glucosa normal'],
+          say: 'En la viral, el líquido es claro, con diez a quinientos mononucleares, proteínas normales o levemente altas, y glucosa normal.' },
+        { cells: ['Meningitis tuberculosa', 'Mononucleares', 'Proteínas muy altas; glucosa muy baja'],
+          say: 'En la tuberculosa, también mononucleares, pero con proteínas muy altas y glucosa muy baja. Y una punción traumática se reconoce porque el líquido se aclara entre el primer y el último tubo.' },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Consejería',
       title: 'Pronóstico: lo que le dices a los padres',
       cards: [
@@ -81,6 +152,46 @@ module.exports = {
           { t: 'Compleja: sube a 5-10%', d: 'Más con antecedente familiar o daño previo',
             say: 'Después de una crisis compleja, con antecedente familiar de epilepsia o daño neurológico previo, ese riesgo sube a un cinco a diez por ciento.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Si no es una crisis febril',
+      title: 'Epilepsia: a quién estudiar y derivar',
+      cards: [
+        { title: 'Definición y estudio', tag: 'Crisis afebril', kind: 'key', items: [
+          { t: 'Dos crisis no provocadas', d: 'Separadas por más de 24 horas',
+            say: 'La epilepsia son dos o más crisis no provocadas separadas por más de veinticuatro horas. Es distinta de la crisis febril, y por eso importa no confundirlas.' },
+          { t: 'Primera crisis afebril: estudio', d: 'Glicemia, electrolitos con Ca y Mg, EEG; resonancia si hay foco',
+            say: 'Tras una primera crisis afebril pides glicemia, electrolitos con calcio y magnesio, y electroencefalograma. Y resonancia si la crisis fue focal, el niño tiene menos de un año o hay algún déficit.' },
+        ] },
+        { title: 'Síndromes clásicos', tag: 'Lo que se pregunta', kind: 'criteria', items: [
+          { t: 'Espasmos infantiles (West)', d: 'Hipsarritmia y retraso del desarrollo',
+            say: 'Los síndromes clásicos: los espasmos infantiles, o síndrome de West, con hipsarritmia en el electroencefalograma y retraso del desarrollo.' },
+          { t: 'Ausencia y rolándica', d: 'Punta-onda a 3 Hz; rolándica, nocturna',
+            say: 'La epilepsia de ausencia, con punta onda a tres hertz que se gatilla con la hiperventilación, y se trata con etosuximida o valproato. Y la epilepsia rolándica benigna, que es nocturna.' },
+        ] },
+        { title: 'Qué más puede parecer', tag: 'Y qué hacer', kind: 'alert', items: [
+          { t: 'Diferenciales', d: 'Síncope, espasmos del sollozo, tics, terrores nocturnos, Sandifer',
+            say: 'Antes de rotularlo, recuerda los diferenciales: síncope, espasmos del sollozo, tics, terrores nocturnos y el reflujo con postura anormal, que es el síndrome de Sandifer.' },
+          { t: 'Derivar a neurología infantil', d: 'Y consejería de seguridad: baño, bicicleta, agua',
+            say: 'Todo niño con epilepsia o con una crisis afebril se deriva a neurología infantil, y la familia recibe consejería de seguridad: el baño, la bicicleta y el agua.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: "Simple o compleja",
+      images: [
+        { src: 'animaciones/ped-14/A1_convulsion_febril.mp4', label: "Fiebre y convulsión", credit: "Animación propia" },
+      ],
+      steps: [
+        { note: "Un solo criterio basta",
+          say: "Mira la temperatura: sube rápido sobre treinta y ocho grados y, en un cerebro inmaduro, aparece la convulsión. La mayoría, entre el setenta y el ochenta por ciento, es simple: generalizada, menos de quince minutos y una vez en veinticuatro horas. Basta un criterio para que sea compleja: inicio focal, más de quince minutos, que se repita, o que deje paresia transitoria. Punción lumbar si hay signos meníngeos." },
       ],
     },
 
@@ -105,6 +216,10 @@ module.exports = {
           say: 'Primera crisis simple: no vas a fármaco antiepiléptico de mantención. El error es iniciar ácido valproico por si acaso.' },
         { cells: ['Crisis focal o que se repite en 24 horas', 'Clasificarla como compleja y estudiar', 'Llamarla simple porque cede sola'],
           say: 'Y una crisis focal, o que se repite en veinticuatro horas: la clasificas como compleja y estudias. El error es llamarla simple solo porque cedió sola.' },
+        { cells: ['Crisis de más de 5 minutos', 'Benzodiacepina y manejo de estado epiléptico', 'Esperar a que ceda sola'],
+          say: 'Una crisis que supera los cinco minutos es un estado epiléptico: benzodiacepina de inmediato. El error es esperar a que ceda sola.' },
+        { cells: ['Hipertensión endocraneana o inestabilidad', 'Estabilizar, antibiótico y TAC antes de la punción', 'Puncionar de inmediato'],
+          say: 'Y si hay hipertensión endocraneana o inestabilidad, primero estabilizas, das el antibiótico y haces un TAC antes de puncionar. El error es hacer la punción de inmediato.' },
       ],
     },
 
@@ -178,6 +293,44 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.5.008 · Punción lumbar",
+      "stem": "Lactante de 11 meses, con vacunas al día, con otitis media aguda en tratamiento con amoxicilina desde hace 3 días. Hoy, con fiebre de 39 °C, presenta una crisis tónico-clónica generalizada de 2 minutos que cede sola. A los 30 minutos está algo irritable, sin rigidez de nuca ni focalidad, con fontanela normotensa.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alta con antipiréticos y educación, porque es una convulsión febril simple"
+        },
+        {
+          "letter": "B",
+          "text": "Realizar punción lumbar, porque venía recibiendo antibióticos"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar electroencefalograma urgente"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar fenobarbital de mantención"
+        },
+        {
+          "letter": "E",
+          "text": "Realizar TAC de cerebro y dar el alta si es normal"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En un lactante con convulsión febril, el tratamiento antibiótico previo puede enmascarar una meningitis decapitada: es indicación de punción lumbar, igual que los signos meníngeos, la letargia persistente o las vacunas incompletas. El EEG y la neuroimagen no están indicados de rutina.",
+      "say": {
+        "stem": "Lactante de once meses, con vacunas al día, que lleva tres días con amoxicilina por una otitis. Hoy, con treinta y nueve de fiebre, hace una convulsión generalizada de dos minutos que cede sola. A la media hora está algo irritable, sin rigidez de nuca, sin focalidad y con fontanela normal.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: alta como convulsión febril simple, punción lumbar porque venía con antibióticos, electroencefalograma urgente, fenobarbital de mantención, o escáner de cerebro. Piénsalo.",
+        "answer": "Es la B. El antibiótico previo puede dejar una meningitis decapitada, sin signos meníngeos claros, y por eso aquí la punción lumbar no es opcional. Dar de alta como crisis simple tienta, pero ese antecedente cambia todo."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -191,6 +344,8 @@ module.exports = {
         { title: 'Punción lumbar', tag: 'No se discute si...', kind: 'alert', items: [
           { t: 'Signos meníngeos o letargia', d: 'O lactante sin vacunas, o antibiótico previo',
             say: 'La punción lumbar no se discute si hay signos meníngeos, letargia persistente, un lactante sin vacunas al día, o antibiótico previo.' },
+          { t: 'Crisis de más de 5 minutos', d: 'Estado epiléptico: benzodiacepina primero',
+            say: 'Y si la crisis dura más de cinco minutos, es un estado epiléptico y la primera línea es una benzodiacepina.' },
         ] },
         { title: 'Pronóstico', tag: 'Para tranquilizar', kind: 'normal', items: [
           { t: 'Epilepsia futura: 1-2% si es simple', d: 'Sube a 5-10% si es compleja',

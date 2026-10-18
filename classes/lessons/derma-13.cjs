@@ -45,13 +45,17 @@ module.exports = {
         { show: ['fot'], note: 'No es el sol crónico y parejo: son las quemaduras',
           say: 'Empecemos por quién tiene más riesgo. No es la exposición solar crónica y pareja la que más pesa, sino las quemaduras solares intensas e intermitentes en la infancia y la adolescencia, sobre todo en personas de fototipo claro: piel blanca, ojos claros, pelo rubio o pelirrojo, con pecas.' },
         { show: ['nev'], note: 'Más de cincuenta a cien nevos comunes',
-          say: 'Se suma tener muchos nevos melanocíticos, más de cincuenta a cien, o tener nevos displásicos, esos nevos atípicos que ya de por sí se parecen un poco a lo que no queremos ver.' },
+          say: 'Se suma tener muchos nevos melanocíticos, más de cincuenta a cien, o tener nevos displásicos, esos nevos atípicos que ya de por sí se parecen un poco a lo que no queremos ver. Mira este recién nacido: un nevo melanocítico congénito grande en el hombro, otro marcador de riesgo.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-13/02_nevus-melanocitico__amir-derma_p99.jpg', label: 'Nevo congénito grande', at: 'Mira este recién nacido', credit: 'Manual AMIR Dermatología, p. 99' } },
         { show: ['fam'], note: 'Historia familiar: pensar en CDKN2A',
           say: 'Y la historia personal o familiar de melanoma, ligada en algunos casos a una mutación heredada que se transmite en la familia.' },
         { show: ['tra'], note: 'El melanocito deja de obedecer las señales de control',
           say: 'Todos estos factores convergen en lo mismo: el melanocito, la célula que produce el pigmento, escapa al control normal y se transforma.' },
         { show: ['abc'], note: 'El ABCDE describe lo que ese melanocito descontrolado produce',
           say: 'Y esa transformación se traduce en una lesión pigmentada que rompe las reglas de un nevo común. Ahí entra la regla del ABCDE: Asimetría, cuando una línea imaginaria por el centro no deja dos mitades iguales; Bordes irregulares, festoneados o mal definidos; Color heterogéneo, con más de un tono de marrón, negro, azulado o rojo en la misma lesión; y Diámetro mayor a seis milímetros, aunque un melanoma inicial puede ser más chico.' },
+        { show: ['abc'], note: 'Un nevo común frente a un melanoma',
+          say: 'Mira primero este nevo común: redondo, de un solo color y bordes netos. Compáralo con este melanoma: asimétrico, de bordes irregulares y varios tonos.',
+          photos: [{ src: '_web/277_derma_Nevo_benigno_comparación_ABC__Commons_2.jpg', label: 'Nevo común', at: 'Mira primero este nevo', credit: 'Wikimedia Commons, Public domain' }, { src: 'biblioteca/11_dermatologia/derma-13/01_melanoma-abcde__amir-derma_p78.jpg', label: 'Melanoma', at: 'Compáralo con este melanoma', credit: 'Manual AMIR Dermatología, p. 78' }] },
         { show: ['evo'], note: 'El criterio más preguntado: el cambio en el tiempo',
           say: 'Y la E, de Evolución, es el criterio más sensible de todos, y el que más se pregunta: cualquier cambio de tamaño, forma, color, elevación, prurito o sangrado en un nevo que ya existía, o la aparición de una lesión nueva y distinta en un adulto, lo que se conoce como el signo del patito feo.' },
         { show: ['evo'], note: 'La dermatoscopía apoya, pero no reemplaza a la biopsia',
@@ -68,13 +72,17 @@ module.exports = {
           { t: 'Extensión superficial: 70%', d: 'Espalda en hombres, piernas en mujeres',
             say: 'Veamos los subtipos, porque el examen los pregunta por su comportamiento. El más frecuente, en el setenta por ciento de los casos en personas caucásicas, es el de extensión superficial: aparece en la espalda de los hombres y en las piernas de las mujeres, y crece primero hacia los lados, en la epidermis, antes de invadir en profundidad.' },
           { t: 'Nodular: 15%, y el más agresivo', d: 'Nódulo azul-negro, crece hacia abajo desde el inicio',
-            say: 'El nodular, en cambio, es el más agresivo: crece hacia abajo desde el principio, sin esa fase superficial que da tiempo. Es un nódulo cupuliforme, negro-azulado, que sangra o se ulcera, y suele llegar con un Breslow ya alto.' },
+            say: 'El nodular, en cambio, es el más agresivo: crece hacia abajo desde el principio, sin esa fase superficial que da tiempo. Es un nódulo cupuliforme, negro-azulado, que sangra o se ulcera, y suele llegar con un Breslow ya alto. Mira esta mejilla: a la derecha, un año después, el nódulo negro y sobreelevado.',
+            photo: { src: '_web/278_derma_Melanoma_nodular__Commons_3.jpg', label: 'Melanoma nodular', at: 'Mira esta mejilla', credit: 'Wikimedia Commons, CC BY-SA 4.0' } },
         ] },
         { title: 'Los que cambian la regla', tag: 'Uno muy lento, otro sin relación con el sol', kind: 'alert', items: [
           { t: 'Léntigo maligno melanoma: 10%', d: 'Cara de ancianos, evoluciona en años',
             say: 'El léntigo maligno melanoma aparece en la cara de personas mayores con daño solar crónico, y evoluciona muy lento, durante años, precedido por una mancha llamada peca de Hutchinson.' },
           { t: 'Lentiginoso acral: 5%, pero más de la mitad en Chile', d: 'Palmas, plantas y uñas; no depende del sol',
-            say: 'Y guarda esta cifra, porque es un dato muy chileno: el lentiginoso acral es solo el cinco por ciento en caucásicos, pero es el subtipo más frecuente en poblaciones mestizas y latinoamericanas, superando la mitad de los casos. Aparece en palmas, plantas y bajo las uñas, con melanoniquia y el signo de Hutchinson, y no tiene relación con la exposición solar. No lo descartes en un paciente sin antecedente de sol.' },
+            say: 'Y guarda esta cifra, porque es un dato muy chileno: el lentiginoso acral es solo el cinco por ciento en caucásicos, pero es el subtipo más frecuente en poblaciones mestizas y latinoamericanas, superando la mitad de los casos. No tiene relación con la exposición solar, así que no lo descartes en un paciente sin antecedente de sol.' },
+          { t: 'Pigmento bajo la uña: signo de Hutchinson', d: 'Melanoniquia que invade el pliegue',
+            say: 'Aparece en palmas, plantas y bajo las uñas, con melanoniquia y el signo de Hutchinson. En este pulgar, el pigmento bajo la uña invade el pliegue.',
+            photo: { src: 'biblioteca/19_dermatologia/derma-13/atlas_083_melanoma_lentiginoso_acral_en_.jpg', label: 'Melanoma acral subungueal', at: 'En este pulgar', credit: 'Atlas EUNACOM 2026' } },
         ] },
       ],
     },
@@ -179,15 +187,28 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Melanoma',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-13/01_melanoma-abcde__amir-derma_p78.jpg', label: 'Melanoma', credit: 'Manual AMIR Dermatología, p. 78' },
-      ],
-      steps: [
-        { note: 'Asimétrico, bordes irregulares',
-          say: 'El melanoma es asimétrico, de bordes irregulares, varios colores, más de seis milímetros y cambia.' },
+      type: 'points',
+      kicker: 'Apoyo al diagnóstico',
+      title: 'Dermatoscopía: qué ve y qué cambia',
+      cards: [
+        { title: 'Qué es', tag: 'Luz polarizada, aumento por diez', kind: 'key', items: [
+          { t: 'Muestra estructuras bajo la epidermis', d: 'Más sensibilidad y menos biopsias inútiles',
+            say: 'La dermatoscopía observa la lesión con un dermatoscopio, con luz polarizada y aumento de diez veces, y muestra estructuras bajo la epidermis. Aumenta la sensibilidad para detectar melanoma y evita biopsias innecesarias. El médico general emplea el informe: lo lee y decide la conducta, pero no reemplaza a la biopsia.' },
+        ] },
+        { title: 'Benigno versus alarma', tag: 'Qué ve el especialista', kind: 'criteria', items: [
+          { t: 'Benigno: retículo regular, globular, simétrico', d: 'Color homogéneo',
+            say: 'La lesión benigna muestra un retículo pigmentado regular o un patrón globular, de color homogéneo y simétrico.' },
+          { t: 'Alarma: red atípica, pseudópodos, velo azul', d: 'Regresión, puntos irregulares y vasos atípicos',
+            say: 'Las señales de alarma de melanoma son una red pigmentada atípica, estrías o pseudópodos irregulares, el velo azul blanquecino, estructuras de regresión, glóbulos y puntos irregulares, y vasos atípicos. También sirve el signo del patito feo: la lesión que no se parece a las demás del paciente.' },
+          { t: 'Otras lesiones tienen su patrón', d: 'CBC: vasos arboriformes; seborreica: milia',
+            say: 'Otras lesiones tienen patrones propios: el basocelular, vasos arboriformes y ulceración; la queratosis seborreica, aperturas tipo comedón y quistes tipo milia; y el dermatofibroma, una red periférica delicada con centro blanco.' },
+        ] },
+        { title: 'Qué haces con el resultado', tag: 'Conducta', kind: 'alert', items: [
+          { t: 'Sospechosa: biopsia excisional y derivar', d: 'Margen de 1 a 3 mm',
+            say: 'Una dermatoscopía sospechosa de melanoma se resuelve con biopsia excisional con margen de uno a tres milímetros y derivación.' },
+          { t: 'Benigna: fotografía y control; alto riesgo, mapeo', d: 'Más de 50 nevos o antecedente de melanoma',
+            say: 'Las lesiones benignas se siguen con fotografía y dermatoscopía digital, y en pacientes de alto riesgo, con más de cincuenta nevos o antecedente personal o familiar de melanoma, se hace mapeo corporal total.' },
+        ] },
       ],
     },
 
@@ -210,6 +231,8 @@ module.exports = {
           say: 'Pasado ese umbral, el ganglio centinela es obligatorio. Y el error es omitirlo solo porque no se palpan adenopatías: la biopsia de ganglio centinela existe justamente para detectar lo que la mano no palpa.' },
         { cells: ['Lesión acral en paciente sin antecedente solar', 'Sospechar melanoma lentiginoso acral igual', 'Descartarlo "porque no toma sol"'],
           say: 'Una lesión en palma, planta o uña, en un paciente sin antecedente de exposición solar, igual debe hacer sospechar un melanoma lentiginoso acral. Descartarlo por falta de sol es el error, y en Chile es un error caro.' },
+        { cells: ['Dermatoscopía con red atípica, velo azul o pseudópodos', 'Biopsia excisional con margen de 1 a 3 mm y derivar', 'Seguirla solo con fotografía'],
+          say: 'Y una dermatoscopía con red atípica, velo azul o pseudópodos es sospechosa de melanoma: biopsia excisional con margen de uno a tres milímetros y derivación. El error es seguirla solo con fotografías.' },
         { cells: ['Nódulo azul-negro de crecimiento rápido', 'Derivar de inmediato: probable melanoma nodular', 'Esperar semanas para ver evolución'],
           say: 'Y un nódulo azul-negro de crecimiento rápido debe derivarse de inmediato, porque suele ser un melanoma nodular con Breslow ya alto. Esperar a ver cómo evoluciona es perder tiempo que el paciente no tiene.' },
       ],
@@ -282,6 +305,82 @@ module.exports = {
         options: 'Las opciones: no hacer nada más porque los márgenes de la biopsia estaban libres, ampliar a un centímetro sin ganglio centinela, ampliar a dos centímetros más ganglio centinela obligatorio, quimioterapia con dacarbazina, o radioterapia sobre la cicatriz. Piénsalo.',
         answer: 'Es la B. Aplica la tabla que aprendimos: Breslow de cero coma seis milímetros, menor a un milímetro, margen de un centímetro. Y como está bajo cero coma ocho milímetros y sin ulceración, no corresponde ganglio centinela. La trampa es la C, que suena más "agresiva" y por eso más segura, pero es un sobretratamiento para este Breslow.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.1.017 · Melanoma maligno",
+      "stem": "Mujer de 50 años, sin metástasis demostradas, recibe el informe de la biopsia excisional de una lesión pigmentada del dorso que confirma un melanoma de extensión superficial.",
+      "question": "¿Cuál es el factor pronóstico más importante en este melanoma localizado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "El diámetro de la lesión en la superficie"
+        },
+        {
+          "letter": "B",
+          "text": "El número de colores de la lesión"
+        },
+        {
+          "letter": "C",
+          "text": "El espesor tumoral de Breslow"
+        },
+        {
+          "letter": "D",
+          "text": "La edad de la paciente"
+        },
+        {
+          "letter": "E",
+          "text": "El tiempo de evolución referido por la paciente"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En el melanoma localizado, el factor pronóstico más importante es el espesor de Breslow, medido en milímetros desde la capa granular hasta la célula tumoral más profunda. Define el estadio, los márgenes de ampliación y la indicación de biopsia de ganglio centinela. La ulceración es el segundo factor relevante.",
+      "say": {
+        "stem": "Mujer de cincuenta años, sin metástasis demostradas, cuya biopsia excisional de una lesión pigmentada del dorso confirma un melanoma de extensión superficial.",
+        "question": "¿Cuál es el factor pronóstico más importante en este melanoma localizado?",
+        "options": "Las opciones: el diámetro en superficie, el número de colores, el espesor de Breslow, la edad, o el tiempo de evolución. Piénsalo.",
+        "answer": "Es la C. Lo que manda en el pronóstico es cuán profundo llegó el tumor, y eso es el espesor de Breslow. El diámetro tienta porque es parte del ABCDE, pero sirve para sospechar, no para pronosticar: un melanoma ancho y delgado tiene mejor pronóstico que uno pequeño y profundo."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.4.002 · Dermatoscopía",
+      "stem": "Mujer de 40 años con múltiples nevos consulta por un nevo en la espalda que su pareja nota diferente a los demás. Mide 7 mm, es asimétrico, de bordes irregulares y con 2 tonos de marrón.",
+      "question": "¿Cuál es la principal utilidad de la dermatoscopía en este caso?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aumenta la sensibilidad y especificidad del examen clínico para identificar lesiones sospechosas de melanoma y decidir cuáles biopsiar"
+        },
+        {
+          "letter": "B",
+          "text": "Reemplaza a la biopsia como diagnóstico definitivo de melanoma"
+        },
+        {
+          "letter": "C",
+          "text": "Mide la profundidad de Breslow"
+        },
+        {
+          "letter": "D",
+          "text": "Detecta metástasis ganglionares"
+        },
+        {
+          "letter": "E",
+          "text": "Solo sirve para diagnosticar micosis"
+        }
+      ],
+      "correct": "A",
+      "explanation": "La dermatoscopía es un examen no invasivo con aumento y luz polarizada que permite ver estructuras pigmentarias no visibles a simple vista (retículo atípico, velo azul-blanquecino, puntos irregulares). Mejora la precisión diagnóstica del melanoma respecto al ojo desnudo y orienta qué lesiones extirpar; el diagnóstico definitivo y el Breslow los da la histología.",
+      "say": {
+        "stem": "Mujer de cuarenta años con un nevo de siete milímetros en la espalda, asimétrico, de bordes irregulares y dos tonos de café, distinto a sus otros nevos.",
+        "question": "¿Cuál es la principal utilidad de la dermatoscopía?",
+        "options": "Las opciones: mejorar la detección de lesiones sospechosas y decidir cuáles biopsiar, reemplazar la biopsia, medir el Breslow, detectar metástasis o diagnosticar micosis. Piénsalo.",
+        "answer": "Es la A. La dermatoscopía mejora la precisión del examen clínico y ayuda a decidir qué lesión biopsiar. Pensar que reemplaza la biopsia es el error tentador: el diagnóstico y el Breslow los da la histología."
+      }
     },
 
     {

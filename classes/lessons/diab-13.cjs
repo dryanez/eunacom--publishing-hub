@@ -156,6 +156,68 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Corticoides',
+      title: 'Prednisona: sube la tarde, no el ayuno',
+      nodes: [
+        { id: 'cor', col: 0, row: 1, k: 'cause', t: 'Glucocorticoide', s: 'Prednisona ≥ 10–20 mg/día' },
+        { id: 'res', col: 1, row: 1, k: 'mech', t: 'Resistencia a la insulina', s: 'Más gluconeogénesis, menos secreción' },
+        { id: 'pat', col: 2, row: 0, k: 'effect', t: 'Sube la tarde', s: 'Vespertina y postprandial' },
+        { id: 'ayu', col: 2, row: 2, k: 'trap', t: 'Ayuno casi normal', s: 'El ayuno la subestima' },
+        { id: 'nph', col: 3, row: 1, k: 'good', t: 'NPH en la mañana', s: 'Junto con la prednisona' },
+        { id: 'baj', col: 4, row: 1, k: 'risk', t: 'Al bajar el corticoide', s: 'Bajar la insulina de inmediato' },
+      ],
+      edges: [
+        { from: 'cor', to: 'res' }, { from: 'res', to: 'pat' }, { from: 'res', to: 'ayu' },
+        { from: 'pat', to: 'nph' }, { from: 'nph', to: 'baj' },
+      ],
+      steps: [
+        { show: ['cor', 'res'], note: 'Hiperglicemia dosis-dependiente',
+          say: 'Un escenario muy común en el hospital: el paciente con corticoides. Los glucocorticoides producen una hiperglicemia que depende de la dosis, porque generan resistencia a la insulina en el músculo y el hígado, aumentan la gluconeogénesis y bajan la secreción de insulina. Puede desenmascarar una diabetes previa. Se sospecha con glicemia de doscientos o más en alguien con dosis altas, prednisona de diez a veinte miligramos al día o más.' },
+        { show: ['pat', 'ayu'], note: 'El ayuno engaña',
+          say: 'Con prednisona en la mañana el patrón es característico: la glicemia sube en la tarde y después de comer, y la de ayunas queda normal o casi normal. Por eso la glicemia de ayunas la subestima, y hay que medir la capilar antes del almuerzo y de la cena. La dexametasona, de acción prolongada, sí sube también el ayuno.' },
+        { show: ['nph'], note: 'El perfil de la NPH calza con el del corticoide',
+          say: 'La meta hospitalaria es entre ciento cuarenta y ciento ochenta. La insulina de elección es la NPH en la mañana, junto con la prednisona, porque su perfil coincide con el del corticoide. La dosis es de alrededor de cero coma uno unidades por kilo por cada diez miligramos de prednisona, hasta cero coma cuatro, más corrección con insulina rápida.' },
+        { show: ['baj'], note: 'Al reducir el corticoide, bajar la insulina',
+          say: 'Y ojo con el final: al reducir o suspender el corticoide hay que bajar la insulina de inmediato, por el riesgo de hipoglicemia. Si la hiperglicemia persiste más de tres meses después de suspenderlo, se reevalúa como diabetes tipo dos de base.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'En la sala',
+      title: 'Glicemia capilar del paciente hospitalizado',
+      cards: [
+        { title: 'Con qué frecuencia', tag: 'Según cómo se alimenta', kind: 'key', items: [
+          { t: 'Come: antes de cada comida y a las 22:00', d: '4 veces al día',
+            say: 'Veamos la glicemia capilar en la sala. Si el paciente come, se mide antes de cada comida y a las veintidós horas, o sea, cuatro veces al día.' },
+          { t: 'En ayunas o nutrición continua: cada 4 a 6 horas', d: 'Enteral o parenteral',
+            say: 'Si está en ayunas, o con nutrición enteral continua o parenteral, se mide cada cuatro a seis horas.' },
+          { t: 'Insulina endovenosa: cada 1 a 2 horas', d: 'Alimenta la escala de corrección',
+            say: 'Y con insulina endovenosa, cada una a dos horas. Los valores se anotan en la hoja de control y alimentan la escala de corrección preprandial.' },
+        ] },
+        { title: 'Cuándo no es confiable', tag: 'Confirmar en venoso', kind: 'alert', items: [
+          { t: 'Shock, hipoperfusión, hipoxemia grave', d: 'También anemia o policitemia extremas',
+            say: 'El capilar no es confiable en shock, hipoperfusión, hipoxemia grave, ni con anemia o policitemia extremas. En esos casos se confirma con glicemia venosa o gasometría. La técnica de la toma es la misma que vimos en la clase de diabetes gestacional.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Por qué el esquema móvil solo no sirve',
+      images: [
+        { src: 'animaciones/diab-13/A1_esquema_movil.mp4', label: 'Esquema móvil', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Montaña rusa frente a insulina programada',
+          say: 'El esquema móvil solo va siempre un paso atrás: corrige cuando la glicemia ya subió, y a veces se pasa y deja una hipoglicemia. En cambio, la basal cubre el fondo, el bolo cubre la comida, y la corrección va encima. Así la glicemia se queda entre ciento cuarenta y ciento ochenta.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en el árbol que vas a razonar frente al diabético que se hospitaliza.',
     },
@@ -178,6 +240,8 @@ module.exports = {
           say: 'En el paciente crítico, insulina cristalina endovenosa en bomba, con control cada una a dos horas.' },
         { cells: ['Meta en todo hospitalizado', '140–180 mg/dL', '< 110 aumenta la mortalidad'],
           say: 'Y la meta, en todos: ciento cuarenta a ciento ochenta. Bajar a menos de ciento diez aumenta la mortalidad por hipoglicemia.' },
+        { cells: ['Prednisona matinal, ayuno normal, glicemias de 250 en la tarde', 'NPH matinal junto con la prednisona', 'Basal nocturna guiada por el ayuno'],
+          say: 'Y con corticoides: prednisona en la mañana, ayuno normal y glicemias altas en la tarde. Se indica NPH en la mañana junto con la prednisona. La trampa es una basal nocturna guiada por un ayuno que está normal.' },
       ],
     },
 
@@ -271,6 +335,44 @@ module.exports = {
         options: 'Las opciones: setenta a cien, ochenta a ciento treinta, ciento cuarenta a ciento ochenta, ciento ochenta a doscientos cincuenta, o menos de ciento diez en todo momento. Piénsalo.',
         answer: 'Es la C, ciento cuarenta a ciento ochenta. La B es tentadora porque es la meta de glicemia de ayuno del paciente ambulatorio, pero en el hospital la meta es otra. Y la E es la trampa clásica: menos de ciento diez en todo momento fue lo que el ensayo NICE-SUGAR mostró que aumenta las hipoglicemias y la mortalidad.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 24",
+      "stem": "Mujer de 55 años con DM2 en tratamiento con metformina requiere corticoterapia con prednisona 40 mg/día por una enfermedad pulmonar. Sus glicemias de ayuno son de 130 mg/dL y las postprandiales suben a 280 mg/dL.",
+      "question": "¿Cuál es el ajuste más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar insulina"
+        },
+        {
+          "letter": "B",
+          "text": "Agregar metformina adicional"
+        },
+        {
+          "letter": "C",
+          "text": "Pioglitazona"
+        },
+        {
+          "letter": "D",
+          "text": "Glibenclamida"
+        },
+        {
+          "letter": "E",
+          "text": "Sitagliptina"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Los corticoides producen hiperglicemia de predominio postprandial y vespertino por resistencia a la insulina. Con prednisona en dosis altas y glicemias de 280 mg/dL, la insulina (típicamente NPH matinal ajustada a la dosis del corticoide) es de elección por rapidez y flexibilidad. Los orales no logran control suficiente y la glibenclamida arriesga hipoglicemia nocturna.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Una mujer de cincuenta y cinco años, diabética con metformina, inicia prednisona en dosis alta. Sus glicemias de ayuno son de ciento treinta y las postprandiales llegan a doscientos ochenta.",
+        "question": "¿Cuál es el ajuste más adecuado?",
+        "options": "Las opciones: iniciar insulina, más metformina, pioglitazona, glibenclamida o sitagliptina. Piénsalo.",
+        "answer": "Es la A. La hiperglicemia por corticoides es postprandial y marcada, y la insulina, típicamente NPH matinal, permite ajustarse a la dosis del corticoide. La glibenclamida tienta, pero da poco control y riesgo de hipoglicemia nocturna."
+      }
     },
 
     {

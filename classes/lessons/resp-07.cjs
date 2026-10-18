@@ -158,6 +158,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Del suero a la vía oral',
+      images: [
+        { src: 'animaciones/resp-07/A1_cambio_via_oral.mp4', label: 'Cambio a vía oral', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'Todos los criterios, no solo la fiebre',
+          say: 'Mira cómo se van marcando los criterios: afebril más de cuarenta y ocho horas, frecuencia respiratoria y cardíaca controladas, presión sistólica de noventa o más, saturación sobre noventa por ciento sin oxígeno, y que tolere la vía oral. Cuando están todos, el paciente pasa a un antibiótico oral, completa unos siete días en total y se va de alta sin esperar la radiografía de control.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Pongamos los cuatro peldaños en un solo árbol, partiendo del lugar que decidiste con el CURB sesenta y cinco.',
     },

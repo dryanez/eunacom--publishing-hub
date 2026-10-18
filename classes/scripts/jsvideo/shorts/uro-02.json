@@ -1,0 +1,156 @@
+{
+  "id": "uro-02",
+  "lesson": "uro-02",
+  "spec": "Urología",
+  "source": "Pregunta real EUNACOM · Dic 2019",
+  "hook": {
+    "top": "Sangre en el meato",
+    "big": "¿Sondeas?",
+    "say": "Sangre en el meato. ¿Sondeas?",
+    "frame": 6.5
+  },
+  "case": [
+    {
+      "t": "Hombre de 42 años",
+      "say": "Pregunta real del EUNACOM. Hombre de 42 años."
+    },
+    {
+      "t": "Choque en auto, politraumatizado",
+      "say": "Choque en auto, con varios traumatismos."
+    },
+    {
+      "t": "Fractura de pelvis estable",
+      "say": "Fractura de pelvis estable."
+    },
+    {
+      "t": "Uretrorragia",
+      "hl": true,
+      "say": "Y uretrorragia."
+    }
+  ],
+  "question": {
+    "t": "¿Qué examen pides para seguir el estudio?",
+    "say": "¿Qué examen pides para seguir? Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Pielografía de eliminación EV"
+    },
+    {
+      "letter": "B",
+      "text": "Uretrocistografía retrógrada"
+    },
+    {
+      "letter": "C",
+      "text": "Cistoscopía"
+    },
+    {
+      "letter": "D",
+      "text": "TAC de pelvis"
+    },
+    {
+      "letter": "E",
+      "text": "Resonancia de pelvis"
+    }
+  ],
+  "correct": "B",
+  "answer": {
+    "t": "Uretrocistografía retrógrada",
+    "say": "Es la B. Uretrocistografía retrógrada."
+  },
+  "clip": {
+    "src": "animaciones/uro-02/A2_trauma_uretral_cistostomia.mp4",
+    "panels": [
+      {
+        "crop": [
+          10,
+          116,
+          600,
+          600
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "Uretrorragia con fractura de pelvis es lesión de uretra, hasta demostrar lo contrario.",
+      "clip": [
+        2.5,
+        7.0
+      ],
+      "zoom": [
+        0.5,
+        0.55,
+        1.0
+      ],
+      "chip": "Lesión de uretra hasta demostrar lo contrario"
+    },
+    {
+      "say": "Si pasas la sonda a ciegas, un desgarro parcial se vuelve completo.",
+      "clip": [
+        7.0,
+        11.0
+      ],
+      "zoom": [
+        0.45,
+        0.62,
+        1.12
+      ],
+      "chip": "Sonda a ciegas = desgarro completo"
+    },
+    {
+      "say": "¿Y si hay globo vesical? Cistostomía: se punciona sobre el pubis.",
+      "clip": [
+        12.0,
+        20.5
+      ],
+      "zoom": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "chip": "Globo vesical → cistostomía suprapúbica"
+    }
+  ],
+  "rule": {
+    "t": "Sangre en el meato: *NO sondas*",
+    "s": "Primero, uretrocistografía retrógrada",
+    "say": "Regla de oro: sangre en el meato, no se sonda. Primero, uretrocistografía."
+  },
+  "cta": {
+    "keyword": "FOLEY",
+    "t": "y te mando las 10 preguntas reales de Urología",
+    "say": "Comenta Foley y te mando las 10 preguntas reales de Urología."
+  },
+  "loop": {
+    "say": "Y la próxima vez que veas…"
+  },
+  "highlight": [
+    "meato",
+    "sondeas",
+    "uretrorragia",
+    "uretrocistografia",
+    "retrograda",
+    "pelvis",
+    "uretra",
+    "ciegas",
+    "completo",
+    "globo",
+    "cistostomia",
+    "pubis",
+    "no se sonda",
+    "foley"
+  ],
+  "post": {
+    "text": "Sangre en el meato tras un trauma de pelvis: ¿pasas la sonda Foley? 🚫 Esta pregunta real del EUNACOM (Dic 2019) la falla mucha gente. Uretrorragia + fractura de pelvis = lesión de uretra hasta demostrar lo contrario → uretrocistografía retrógrada, y si hay globo vesical, cistostomía suprapúbica.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\nComenta FOLEY y te mando las 10 preguntas reales de Urología.",
+    "hashtags": [
+      "#EUNACOM",
+      "#urologia",
+      "#medicina",
+      "#estudiantesdemedicina",
+      "#trauma"
+    ],
+    "credit": "Ilustración anatómica: Blausen.com staff (2014), «Medical gallery of Blausen Medical 2014», WikiJournal of Medicine 1(2), CC BY 3.0. Rótulos y animación: Academia Examen EUNACOM."
+  }
+}

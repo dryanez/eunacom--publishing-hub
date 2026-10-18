@@ -42,9 +42,11 @@ module.exports = {
         { show: ['shh'], note: 'Nace de la célula basal, con una vía molecular propia',
           say: 'A nivel molecular, hay mutaciones en la vía Sonic Hedgehog, y el tumor nace de las células pluripotenciales de la capa basal de la epidermis.' },
         { show: ['per'], note: 'La lesión que hay que reconocer a la primera',
-          say: 'Y eso produce la lesión que tienes que reconocer a la primera: una pápula o nódulo perlado, translúcido, brillante, con telangiectasias finas y ramificadas en la superficie, y bordes arrollados o acordonados.' },
+          say: 'Y eso produce la lesión que tienes que reconocer a la primera: una pápula o nódulo perlado, translúcido, brillante, con telangiectasias finas y ramificadas en la superficie, y bordes arrollados o acordonados. Mira este nódulo: perlado, translúcido, con telangiectasias en la superficie.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-14/01_cbc-nodular-perlado__cto-derma_p99.jpg', label: 'Basocelular nodular', at: 'Mira este nódulo', credit: 'Manual CTO Dermatología 14.ª ed., p. 99' } },
         { show: ['ulc'], note: 'Con el tiempo, se ulcera al centro',
-          say: 'Con el tiempo, esa pápula suele ulcerarse en el centro, dando la clásica úlcera de Rodent, o forma nódulo-ulcerativa, que es el subtipo más común, con el sesenta por ciento de los casos.' },
+          say: 'Con el tiempo, esa pápula suele ulcerarse en el centro, dando la clásica úlcera de Rodent, o forma nódulo-ulcerativa, que es el subtipo más común, con el sesenta por ciento de los casos. En esta nariz la lesión se ulceró y destruyó el borde de la fosa: eso es una úlcera de Rodent.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-14/01_cbc-nodular-perlado_alt1__amir-derma_p76.jpg', label: 'Úlcera de Rodent', at: 'En esta nariz', credit: 'Manual AMIR Dermatología, p. 76' } },
         { show: ['met'], note: 'Casi nunca da metástasis',
           say: 'Y aquí está el dato que más se pregunta: el riesgo de metástasis a distancia es prácticamente nulo, menos de cero coma cero uno por ciento.' },
         { show: ['des'], note: 'Pero destruye si se deja evolucionar',
@@ -96,44 +98,63 @@ module.exports = {
         { show: ['qa'], note: 'Casi siempre nace sobre una lesión previa',
           say: 'Y casi siempre nace sobre una lesión precursora: la queratosis actínica, que vamos a ver en detalle en la próxima clase. Es su precursor obligado más frecuente.' },
         { show: ['pla'], note: 'La clínica es indurada y costrosa, no brillante',
-          say: 'La lesión ya establecida es una placa o nódulo indurado, eritematoso, cubierto por una escama gruesa y muy adherente, que sangra con el roce o se ulcera sobre una base firme e infiltrada. Nada que ver con el brillo perlado del basocelular.' },
+          say: 'La lesión ya establecida es una placa o nódulo indurado, eritematoso, cubierto por una escama gruesa y muy adherente, que sangra con el roce o se ulcera sobre una base firme e infiltrada. Nada que ver con el brillo perlado del basocelular. Mira esta lesión: un nódulo con costra gruesa y adherida sobre piel con daño solar.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-14/02_cec__cto-derma_p100.jpg', label: 'Espinocelular', at: 'Mira esta lesión', credit: 'Manual CTO Dermatología 14.ª ed., p. 100' } },
         { show: ['lab'], note: 'El labio inferior es la localización que más se pregunta',
-          say: 'Y hay localizaciones de alto riesgo que tienes que memorizar: el labio inferior, precedido por la queilitis actínica, y el pabellón auricular.' },
+          say: 'Y hay localizaciones de alto riesgo que tienes que memorizar: el labio inferior, precedido por la queilitis actínica, y el pabellón auricular. Mira este labio inferior: una lesión ulcerada e indurada, de las que más metastizan.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-14/02_cec_alt1__amir-derma_p77.jpg', label: 'Espinocelular del labio', at: 'Mira este labio', credit: 'Manual AMIR Dermatología, p. 77' } },
         { show: ['met'], note: 'Aquí sí hay que pensar en metástasis',
           say: 'Porque, a diferencia del basocelular, el espinocelular sí tiene capacidad de invasión perineural y de dar metástasis ganglionares regionales: entre dos y cinco por ciento en piel sana, pero hasta un quince o veinte por ciento cuando nace en el labio o en la oreja.' },
       ],
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Cáncer de piel no melanoma',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-14/01_cbc-nodular-perlado__cto-derma_p99.jpg', label: 'Basocelular nodular perlado', credit: 'Manual CTO Dermatología 14.ª ed., p. 99' },
-        { src: 'biblioteca/11_dermatologia/derma-14/01_cbc-nodular-perlado_alt1__amir-derma_p76.jpg', label: 'Basocelular ulcerado: úlcera de Rodent', credit: 'Manual AMIR Dermatología, p. 76' },
-        { src: 'biblioteca/11_dermatologia/derma-14/02_cec__cto-derma_p100.jpg', label: 'Espinocelular', credit: 'Manual CTO Dermatología 14.ª ed., p. 100' },
-      ],
-      steps: [
-        { note: 'Perlado con telangiectasias',
-          say: 'El basocelular es un nódulo perlado con telangiectasias. Casi no da metástasis.' },
-        { note: 'Úlcera de Rodent',
-          say: 'Cuando se ulcera en el centro da la úlcera de Rodent: no metastiza, pero destruye localmente si no se trata.' },
-        { note: 'Costroso y ulcerado',
-          say: 'El espinocelular es una lesión costrosa o ulcerada que crece, y sí puede dar metástasis.' },
+      type: 'points',
+      kicker: 'Qué hace el médico general',
+      title: 'Tratamiento y derivación del cáncer de piel no melanoma',
+      cards: [
+        { title: 'Antes de tratar', tag: 'No cauterices a ciegas', kind: 'alert', items: [
+          { t: 'Sospecha clínica y biopsia si hay duda', d: 'Punch o incisional; luego derivar',
+            say: 'El médico general sospecha por la clínica, toma una biopsia con punch o incisional si hay dudas, y deriva. No cauteriza ni congela a ciegas una lesión sin diagnóstico, porque eso impide el estudio histológico.' },
+          { t: 'El CEC se deriva con prioridad', d: 'También toda lesión de cara o en trasplantado',
+            say: 'El espinocelular se deriva con prioridad por su potencial metastásico, igual que toda lesión de cara o de un paciente trasplantado.' },
+        ] },
+        { title: 'Tratamiento definitivo', tag: 'Quirúrgico', kind: 'key', items: [
+          { t: 'Escisión con márgenes', d: 'CBC: 4 mm; CEC: 4 a 6 mm; alto riesgo: 6 a 10 mm',
+            say: 'El tratamiento definitivo es quirúrgico: escisión con márgenes de cerca de cuatro milímetros en el basocelular de bajo riesgo, de cuatro a seis en el espinocelular de bajo riesgo, y de seis a diez si es de alto riesgo.' },
+          { t: 'Cirugía de Mohs', d: 'Zona H, recurrente, morfeiforme, mayor de 2 cm, inmunosuprimidos',
+            say: 'Se prefiere la cirugía micrográfica de Mohs cuando el tumor está en la zona H de la cara, nariz, párpados, labios u orejas, es recurrente, de subtipo morfeiforme o infiltrante, mayor de dos centímetros, o en inmunosuprimidos.' },
+          { t: 'Alternativas en CBC superficial de bajo riesgo', d: 'Imiquimod, 5-fluorouracilo, crioterapia, terapia fotodinámica',
+            say: 'En el basocelular superficial de bajo riesgo hay alternativas sin cirugía: imiquimod, fluorouracilo tópico, crioterapia, curetaje y terapia fotodinámica. La radioterapia se reserva para quienes no pueden operarse, y en tumores avanzados existen vismodegib en el basocelular y cemiplimab en el espinocelular.' },
+        ] },
+        { title: 'Seguimiento', tag: 'Anual', kind: 'criteria', items: [
+          { t: 'Control cutáneo completo cada año', d: 'Cada 6 meses los 2 primeros años si CEC o alto riesgo',
+            say: 'Después, control cutáneo completo cada año, y cada seis meses durante los dos primeros años en el espinocelular o el alto riesgo, porque cerca del cuarenta por ciento desarrolla otro cáncer de piel en cinco años.' },
+        ] },
       ],
     },
 
     {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Espinocelular del labio inferior',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-14/02_cec_alt1__amir-derma_p77.jpg', label: 'Espinocelular del labio inferior', credit: 'Manual AMIR Dermatología, p. 77' },
-      ],
-      steps: [
-        { note: 'Labio inferior',
-          say: 'El labio inferior es la localización que más se pregunta: un espinocelular ahí tiene alto riesgo de metástasis ganglionar.' },
+      type: 'points',
+      kicker: 'Prevención primaria',
+      title: 'Fotoprotección',
+      cards: [
+        { title: 'Por qué en Chile', tag: 'UVB y UVA', kind: 'key', items: [
+          { t: 'UVB: quemadura y cáncer; UVA: envejecimiento', d: 'Índice UV muy alto en verano',
+            say: 'La radiación ultravioleta B causa quemadura solar y cáncer; la A, envejecimiento e inmunosupresión cutánea. Chile tiene un índice UV muy alto en verano por la menor capa de ozono, y por eso se educa desde la infancia: las quemaduras solares en la niñez aumentan el riesgo de melanoma.' },
+        ] },
+        { title: 'Qué indicar', tag: 'Medidas', kind: 'pharma', items: [
+          { t: 'Evitar el sol entre las 10 y las 16 horas', d: 'Sombra, manga larga, sombrero de ala ancha, lentes con filtro UV',
+            say: 'Evitar la exposición directa entre las diez y las dieciséis horas, buscar la sombra, usar ropa de manga larga, sombrero de ala ancha y lentes con filtro ultravioleta.' },
+          { t: 'Protector de amplio espectro, FPS 30 o más', d: 'Idealmente 50; reaplicar cada 2 horas',
+            say: 'Y un protector solar de amplio espectro, que cubra A y B, con factor treinta o más, idealmente cincuenta, en cantidad suficiente, unos quince a treinta minutos antes de salir, y se reaplica cada dos horas y después de sudar o bañarse.' },
+          { t: 'Menores de 6 meses: sin sol directo', d: 'Nunca camas solares',
+            say: 'En menores de seis meses se evita el sol directo y se prefiere ropa y sombra. Y se desaconsejan las camas solares, que son carcinógeno del grupo uno de la Organización Mundial de la Salud.' },
+        ] },
+        { title: 'A quién vigilar', tag: 'Alto riesgo', kind: 'alert', items: [
+          { t: 'Fototipos I y II, muchos nevos, quemaduras', d: 'Antecedente de cáncer de piel o inmunosupresión',
+            say: 'Se enseña el autoexamen de piel y se hace un examen cutáneo anual en pacientes de alto riesgo: fototipos uno y dos, muchos nevos, antecedente de quemaduras, antecedente personal o familiar de cáncer de piel, e inmunosupresión.' },
+        ] },
       ],
     },
 
@@ -226,6 +247,44 @@ module.exports = {
         options: 'Las opciones: chalazión crónico, orzuelo interno, carcinoma basocelular, carcinoma espinocelular, o melanoma ocular. Piénsalo.',
         answer: 'Es la C, carcinoma basocelular. El párpado, sobre todo el inferior, es una de las localizaciones típicas del basocelular, y una lesión palpebral que crece durante meses, a diferencia de un chalazión o un orzuelo que resuelven en semanas, tiene que hacerte sospechar un cáncer basocelular, que es por lejos el tumor palpebral maligno más frecuente.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.3.001 · Fotoprotección",
+      "stem": "Madre consulta en control sano sobre medidas de fotoprotección para su hijo de 4 años y para ella, que tiene fototipo II.",
+      "question": "¿Cuál es la recomendación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Usar fotoprotector solo los días soleados de verano"
+        },
+        {
+          "letter": "B",
+          "text": "Evitar la exposición entre las 10 y 16 horas, usar ropa, sombrero y lentes con filtro UV, y fotoprotector FPS 30 o más, reaplicado cada 2 a 3 horas y tras bañarse"
+        },
+        {
+          "letter": "C",
+          "text": "Aplicar fotoprotector una vez al día en la mañana es suficiente"
+        },
+        {
+          "letter": "D",
+          "text": "Las camas solares previas al verano protegen contra quemaduras"
+        },
+        {
+          "letter": "E",
+          "text": "En lactantes menores de 6 meses se recomienda fotoprotector químico abundante como primera medida"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La fotoprotección se basa en evitar el sol del mediodía, medidas físicas (sombra, ropa, sombrero, lentes) y fotoprotector de amplio espectro FPS 30 o más, aplicado 30 minutos antes y reaplicado cada 2 a 3 horas y tras el agua, incluso nublado. Las camas solares aumentan el riesgo de melanoma. Bajo 6 meses priman las medidas físicas.",
+      "say": {
+        "stem": "Una madre de piel clara pregunta en control sano cómo protegerse del sol ella y su hijo de cuatro años.",
+        "question": "¿Cuál es la recomendación más adecuada?",
+        "options": "Las opciones: protector solo en verano, evitar el sol del mediodía con ropa, sombrero y protector factor treinta o más reaplicado, una aplicación diaria, camas solares previas, o protector químico abundante en menores de seis meses. Piénsalo.",
+        "answer": "Es la B. Se recomienda evitar el sol del mediodía, usar barreras físicas y protector factor treinta o más reaplicado cada dos a tres horas. Una sola aplicación matinal tienta por práctica, pero el protector pierde efecto con el sudor, el agua y las horas."
+      }
     },
 
     {

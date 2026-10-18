@@ -91,9 +91,14 @@ module.exports = {
       cards: [
         { title: 'Solo progestágeno', tag: 'No sube el riesgo trombótico', kind: 'pharma', items: [
           { t: 'Implante de etonogestrel', d: 'El método reversible más eficaz que existe',
-            say: 'La ventaja de los solo progestágenos es que no aumentan el riesgo trombótico. El implante de etonogestrel es el método reversible más eficaz que existe hoy.' },
+            say: 'La ventaja de los solo progestágenos es que no aumentan el riesgo trombótico. El implante de etonogestrel es el método reversible más eficaz que existe hoy. Mira esta varilla: mide cuatro centímetros y se coloca bajo la piel de la cara interna del brazo, y a la derecha, cómo se retira por una pequeña incisión.',
+            photos: [
+              { src: 'biblioteca/13_ginecologia/gin-08/02_implante_subdermico__commons.jpg', label: 'Implante subdérmico', at: 'Mira esta varilla', credit: 'Wikimedia Commons «Implanon 04.jpg», CC BY-SA 4.0, Vera de Kok' },
+              { src: 'biblioteca/13_ginecologia/gin-08/03_retiro_implante__commons.jpg', label: 'Retiro del implante', at: 'cómo se retira', credit: 'Wikimedia Commons «Implanon 02.jpg», CC BY-SA 4.0, Vera de Kok' },
+            ] },
           { t: 'Minipíldora o DIU-LNG', d: 'Igual de seguros en estas pacientes',
-            say: 'También tienes la minipíldora de desogestrel, y el DIU con levonorgestrel: ambos son seguros justo en las mismas pacientes en las que el estrógeno está prohibido.' },
+            say: 'También tienes la minipíldora de desogestrel, y el DIU con levonorgestrel: ambos son seguros justo en las mismas pacientes en las que el estrógeno está prohibido. Mira este esquema: el DIU de cobre y el DIU con levonorgestrel, dentro de la cavidad uterina.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-08/01_diu_cobre_lng__williams-gyn_p142.jpg', label: 'DIU de cobre y LNG', at: 'Mira este esquema', credit: 'Williams Gynecology 4.ª ed., Fig. 5-3' } },
         ] },
         { title: 'DIU de cobre', tag: 'Sin ninguna hormona', kind: 'criteria', items: [
           { t: 'Diez a doce años de duración', d: 'Seguro incluso en categoría cuatro',
@@ -130,6 +135,32 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Métodos naturales',
+      title: 'Ventana fértil: poco eficaces, pero se preguntan',
+      cards: [
+        { title: 'Cómo funcionan', tag: 'Ventana fértil de unos 6 días', kind: 'normal', items: [
+          { t: 'Requieren motivación y ciclos regulares', d: 'Abstinencia periódica; no protegen contra ITS',
+            say: 'Los métodos naturales se basan en identificar la ventana fértil, unos seis días por ciclo. Requieren motivación, ciclos regulares y abstinencia periódica, y no protegen contra las infecciones de transmisión sexual.' },
+          { t: 'Eficacia baja con uso típico', d: 'Pearl 12 a 24; con uso perfecto, 1 a 5',
+            say: 'Y su eficacia es baja: con uso típico el índice de Pearl es de doce a veinticuatro embarazos por cien mujeres al año, y con uso perfecto, de uno a cinco.' },
+        ] },
+        { title: 'Cuatro técnicas', tag: 'Calendario, moco, temperatura', kind: 'criteria', items: [
+          { t: 'Calendario o Ogino-Knaus', d: 'Resta 18 al ciclo más corto y 11 al más largo',
+            say: 'El calendario, o método de Ogino-Knaus, calcula la ventana restando dieciocho días al ciclo más corto y once al más largo. En un ciclo de veintiocho días, son los días diez a diecisiete.' },
+          { t: 'Moco cervical y temperatura basal', d: 'Billings: claro y filante; la temperatura sube 0,3 a 0,5 °C',
+            say: 'En el método de Billings, la fase fértil es cuando el moco es abundante, claro y filante, como clara de huevo. La temperatura basal sube entre tres y cinco décimas de grado después de la ovulación: confirma la ovulación, no la predice. Y el sintotérmico combina moco, temperatura y calendario.' },
+        ] },
+        { title: 'MELA', tag: 'Lactancia y amenorrea', kind: 'key', items: [
+          { t: 'Eficaz cerca del 98 % con tres condiciones', d: 'Lactancia exclusiva, amenorrea y bebé menor de 6 meses',
+            say: 'El MELA, método de lactancia y amenorrea, es eficaz, cerca del noventa y ocho por ciento, si se cumplen las tres condiciones: lactancia exclusiva o casi exclusiva a libre demanda, amenorrea, y un bebé menor de seis meses.' },
+          { t: 'El coito interrumpido es el menos eficaz', d: 'Se ofrecen con elección informada',
+            say: 'El coito interrumpido es el método natural de menor eficacia. Y todos se ofrecen como alternativa respetando la elección informada de la pareja, según la norma del Minsal, con consejería sobre métodos más eficaces.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Solo progestágeno',
       title: 'Uno por uno, para que no te confundas',
       cards: [
@@ -143,41 +174,23 @@ module.exports = {
           { t: 'Implante: tres a cinco años', d: 'El índice de falla más bajo que existe',
             say: 'El implante subdérmico dura entre tres y cinco años, y tiene el índice de falla más bajo de toda la anticoncepción reversible.' },
           { t: 'DIU-LNG: cinco a ocho años', d: 'Reduce el sangrado sobre el noventa por ciento',
-            say: 'Y el DIU con levonorgestrel dura entre cinco y ocho años, y reduce el sangrado menstrual en más del noventa por ciento: por eso también lo usas para tratar la hipermenorrea.' },
+            say: 'Y el DIU con levonorgestrel dura entre cinco y ocho años, y reduce el sangrado menstrual en más del noventa por ciento: por eso también lo usas para tratar la hipermenorrea. Mira esta ecografía: un DIU normoinserto es una línea ecogénica en el centro de la cavidad. Fíjate en cómo se ve, porque así puede aparecer en el examen.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-08/01_diu-normoinserto-eco__cto-gyo_p45.jpg', label: 'DIU normoinserto (eco)', at: 'Mira esta ecografía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 45' } },
         ] },
       ],
     },
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Anticoncepción de larga duración',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cobre, levonorgestrel e implante',
       images: [
-        { src: 'biblioteca/13_ginecologia/gin-08/01_diu_cobre_lng__williams-gyn_p142.jpg', label: 'DIU', credit: 'Williams Gynecology 4.ª ed., Fig. 5-3' },
-        { src: 'biblioteca/13_ginecologia/gin-08/02_implante_subdermico__commons.jpg', label: 'Implante subdérmico', credit: 'Wikimedia Commons «Implanon 04.jpg», CC BY-SA 4.0, Vera de Kok' },
-        { src: 'biblioteca/13_ginecologia/gin-08/03_retiro_implante__commons.jpg', label: 'Retiro del implante', credit: 'Wikimedia Commons «Implanon 02.jpg», CC BY-SA 4.0, Vera de Kok' },
+        { src: 'animaciones/gin-08/A1_metodos_anticonceptivos.mp4', label: 'Dónde actúa cada método', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Cobre y levonorgestrel',
-          say: 'Estos son el DIU de cobre y el DIU con levonorgestrel.' },
-        { note: 'Varilla de cuatro centímetros',
-          say: 'Y el implante subdérmico de etonogestrel, una varilla que dura tres años.' },
-        { note: 'Por una incisión pequeña',
-          say: 'Se coloca y se retira por una pequeña incisión en el brazo.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/13_ginecologia/gin-08/01_diu-normoinserto-eco__cto-gyo_p45.jpg', label: 'Diu normoinserto', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 45' },
-      ],
-      steps: [
-        { note: 'Diu normoinserto',
-          say: 'Mira esta imagen: DIU normoinserto. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
+        { note: 'DIU y método sin ovulación',
+          say: 'Mira el útero. El DIU de cobre no tiene hormonas: produce una reacción inflamatoria espermicida, y es el método de emergencia más eficaz. El DIU con levonorgestrel espesa el moco cervical y adelgaza el endometrio, y reduce el sangrado más de noventa por ciento. El implante de etonogestrel y la minipíldora inhiben la ovulación. Todos son seguros justo en las pacientes con el estrógeno prohibido.' },
       ],
     },
 
@@ -295,6 +308,44 @@ module.exports = {
         options: 'Las opciones: combinado oral, DIU con levonorgestrel, anillo vaginal, parche transdérmico, o implante de etonogestrel. Piénsalo.',
         answer: 'La respuesta es la B. A los ocho meses ya pasaron las primeras seis semanas postparto, así que la lactancia por sí sola ya no prohíbe el estrógeno, pero el DIU con levonorgestrel sigue siendo la mejor opción: no tiene estrógeno, no afecta la leche, y le da protección de larga duración sin que tenga que acordarse de nada.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 3.01.3.006 · Métodos naturales para la regulación de la fecundidad",
+      "stem": "Mujer de 28 años, con ciclos regulares, que por convicciones personales desea usar un método natural de regulación de la fecundidad. Le explican uno basado en que ella reconozca diariamente los cambios del moco cervical, que se vuelve abundante, transparente y elástico en el período fértil.",
+      "question": "¿A qué método corresponde?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Método del calendario (Ogino-Knaus)"
+        },
+        {
+          "letter": "B",
+          "text": "Coito interrumpido"
+        },
+        {
+          "letter": "C",
+          "text": "Método de la temperatura basal"
+        },
+        {
+          "letter": "D",
+          "text": "Método de la lactancia y amenorrea (MELA)"
+        },
+        {
+          "letter": "E",
+          "text": "Método de la ovulación (Billings)"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El método de Billings identifica el período fértil por la autoobservación del moco cervical, que con el alza estrogénica preovulatoria se vuelve filante y transparente. El calendario usa la duración de ciclos previos y la temperatura basal detecta el alza térmica posovulatoria por progesterona. Todos tienen alta tasa de falla con uso típico.",
+      "say": {
+        "stem": "Mujer de veintiocho años que quiere un método natural, basado en reconocer cada día cómo cambia su moco cervical.",
+        "question": "¿Qué método es?",
+        "options": "Las opciones: calendario, coito interrumpido, temperatura basal, lactancia y amenorrea o Billings. Piénsalo.",
+        "answer": "Es la E. Billings, o método de la ovulación, se basa en observar el moco cervical filante del período fértil. La temperatura basal tienta, pero esa detecta el alza de temperatura que ocurre después de ovular."
+      }
     },
 
     {

@@ -1,0 +1,86 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script>
+<script>
+// cirugia-15 (anestesia neuroaxial). ?v=neuroaxial  peridural vs raquídea y cefalea postpunción
+// Base: Blausen.com staff (2014) "Epidural Anesthesia", CC BY 3.0; rótulos en inglés y aguja originales quitados
+// (assets/blausen/epidural_lumbar.png, 456x548). Coordenadas en píxeles de esa imagen.
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+const S = 1.05, DX = 40, DY = 124, IW = 456, IH = 548;
+const P = (x, y) => [DX + x * S, DY + y * S];
+const DIR = (() => { const dx = 238 + 80, dy = 268 - 350, n = Math.hypot(dx, dy); return [dx / n, dy / n]; })();
+const EPI = [238, 268], SUB = [262, 262], HOLE = [251, 264];
+function lamina(a) {
+  ctx.save(); ctx.globalAlpha = a; rrect(DX - 8, DY - 8, IW * S + 16, IH * S + 16, 18, '#FFFFFF');
+  ctx.beginPath(); ctx.roundRect(DX, DY, IW * S, IH * S, 12); ctx.clip(); ctx.drawImage(window.IMGS.e, DX, DY, IW * S, IH * S); ctx.restore();
+}
+function label(s, x, y, col, tx, ty, a, size = 15) {
+  if (a <= 0) return; ctx.save(); ctx.globalAlpha = a;
+  ctx.strokeStyle = '#1B2230'; ctx.lineWidth = 4; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(tx, ty); ctx.stroke();
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(tx, ty, 4.5, 0, 7); ctx.fill(); tag(s, x, y, col, size); ctx.restore();
+}
+// aguja con la punta en tip (px imagen); sale hacia abajo-izquierda
+function needle(tip, a) {
+  if (a <= 0) return; const [x, y] = P(...tip), len = 360 * S;
+  const bx = x - DIR[0] * len, by = y - DIR[1] * len; ctx.save(); ctx.globalAlpha = a; ctx.lineCap = 'round';
+  ctx.strokeStyle = '#3A424C'; ctx.lineWidth = 5; ctx.beginPath(); ctx.moveTo(bx, by); ctx.lineTo(x, y); ctx.stroke();
+  ctx.strokeStyle = '#DDE3E9'; ctx.lineWidth = 2.6; ctx.beginPath(); ctx.moveTo(bx, by); ctx.lineTo(x, y); ctx.stroke();
+  ctx.translate(bx, by); ctx.rotate(Math.atan2(DIR[1], DIR[0])); rrect(-34, -10, 40, 20, 4, '#B3122E'); rrect(-48, -14, 16, 28, 4, '#E6EAEE'); ctx.restore();
+}
+function glow(p, r, rgb, a) { const [x, y] = P(...p); ctx.save(); ctx.beginPath(); ctx.roundRect(DX, DY, IW * S, IH * S, 12); ctx.clip(); K.glow(x, y, r, rgb, a); ctx.restore(); }
+function credit() { ctx.fillStyle = 'rgba(14,17,22,0.88)'; ctx.fillRect(700, 696, 580, 24); text('Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+function neuroaxial(t) {
+  K.title('Peridural y raquídea', 'La misma región lumbar, dos profundidades distintas', C.BLUE);
+  lamina(seg(t, 0, 0.7));
+  // estructuras
+  label('Duramadre', 560, 190, '#B388FF', ...P(221, 112), fade(t, 1, 4.4));
+  label('Espacio epidural', 560, 440, '#7FC8FF', ...P(236, 330), fade(t, 1.6, 4.4));
+  label('Líquido cefalorraquídeo', 560, 300, '#FFC247', ...P(270, 200), fade(t, 2.2, 4.4));
+  // 1) peridural
+  const adv = ease(seg(t, 4.5, 3.2)), back = ease(seg(t, 12.2, 1.6));
+  const pE = [lerp(EPI[0] - 150, EPI[0], adv), lerp(EPI[1] + 39, EPI[1], adv)];
+  const tipE = [lerp(pE[0], EPI[0] - 150, back), lerp(pE[1], EPI[1] + 39, back)];
+  needle(tipE, seg(t, 4.3, 0.4) * (1 - seg(t, 13.6, 0.3)));
+  const cath = seg(t, 8.6, 2.2) * (1 - seg(t, 12.2, 0.2) * 0); // el catéter queda
+  const CP = [[238, 268], [239, 252], [241, 234], [244, 216]];
+  if (cath > 0 && t < 13.8) { ctx.save(); ctx.strokeStyle = '#1F8FD6'; ctx.lineWidth = 3.5; ctx.lineCap = 'round'; ctx.beginPath(); const n = Math.max(1, Math.round(cath * 3));
+    CP.slice(0, n + 1).forEach((p, i) => { const [x, y] = P(...p); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.stroke(); ctx.restore(); }
+  if (t > 9.5 && t < 14) glow([240, 250], 60 + 20 * Math.sin(t * 5), '70,170,255', 0.45 * fade(t, 9.5, 13.5));
+  K.card(640, 130, 590, 150, '#4FA3FF', 'Peridural: por fuera de la duramadre', ['Más volumen de anestésico', 'Se puede dejar un catéter: analgesia continua', '(trabajo de parto)'], fade(t, 4.5, 14), 17);
+  // 2) raquídea
+  const adv2 = ease(seg(t, 15, 3)), back2 = ease(seg(t, 22.4, 1.6));
+  const tip2 = [lerp(SUB[0] - 160, SUB[0], adv2) , lerp(SUB[1] + 41, SUB[1], adv2)];
+  const tip2b = [lerp(tip2[0], SUB[0] - 160, back2), lerp(tip2[1], SUB[1] + 41, back2)];
+  needle(tip2b, seg(t, 14.8, 0.4) * (1 - seg(t, 24, 0.3)));
+  if (t > 18 && t < 22.5) { glow([272, 262], 70, '255,194,71', 0.5 * fade(t, 18, 22)); }
+  K.card(640, 130, 590, 150, '#FFC247', 'Raquídea: directo al líquido cefalorraquídeo', ['Atraviesa la duramadre', 'Bloqueo rápido, profundo y predecible'], fade(t, 14.8, 24), 17);
+  // 3) fuga y cefalea
+  const hole = seg(t, 22.6, 0.5); const [hx, hy] = P(...HOLE);
+  if (hole > 0) { ctx.save(); ctx.globalAlpha = hole * (1 - seg(t, 36.5, 0.6)); ctx.fillStyle = '#FFC247'; ctx.beginPath(); ctx.arc(hx, hy, 5, 0, 7); ctx.fill(); ctx.strokeStyle = '#B3122E'; ctx.lineWidth = 2; ctx.stroke(); ctx.restore(); }
+  const leak = seg(t, 24, 0.8) * (1 - seg(t, 36, 0.6));
+  if (leak > 0) for (let i = 0; i < 7; i++) { const u = ((t * 0.5) + i / 7) % 1, x = hx - 6 - 40 * u, y = hy + 8 + 70 * u + 6 * Math.sin(i * 3); ctx.globalAlpha = leak * Math.min(1, u * 5, (1 - u) * 3); ctx.fillStyle = '#FFE08A'; ctx.beginPath(); ctx.arc(x, y, 3.4, 0, 7); ctx.fill(); }
+  ctx.globalAlpha = 1;
+  label('Fuga de LCR', 585, 470, '#FF5A4E', hx, hy, fade(t, 24, 36.4));
+  K.card(640, 130, 590, 108, C.RED, 'Fuga continua de LCR', ['La presión intracraneana baja'], fade(t, 24, 36.6), 17);
+  const press = 1 - 0.55 * ease(seg(t, 24.5, 4)) + 0.55 * ease(seg(t, 36.5, 2));
+  { const ba = fade(t, 24.5, 42, 0.5); if (ba > 0) { ctx.save(); ctx.globalAlpha = ba; K.bar(660, 290, 540, 'Presión del LCR', press * 100, 100, '%', press < 0.7 ? C.RED : C.GREEN, [], v => Math.round(v)); ctx.restore(); } }
+  K.card(640, 360, 590, 120, C.AMBER, 'Cefalea postural', ['Empeora en segundos al sentarse o pararse', 'Mejora casi por completo acostado'], fade(t, 28.5, 36.6), 17);
+  K.card(640, 500, 590, 120, C.GREEN, 'Primera línea: reposo, hidratación y cafeína', ['La mayoría mejora sola en 2 a 3 días'], fade(t, 31.5, 36.6), 17);
+  // parche hemático
+  const bp = seg(t, 36.8, 1.2);
+  if (bp > 0) { glow(HOLE, 36 * bp, '200,16,46', 0.85 * bp); ctx.save(); ctx.globalAlpha = bp; ctx.fillStyle = '#C8102E'; ctx.beginPath(); ctx.ellipse(hx - 8, hy + 2, 12 * bp, 22 * bp, 0, 0, 7); ctx.fill(); ctx.restore(); }
+  label('Parche hemático', 585, 470, '#C8102E', hx - 8, hy + 6, seg(t, 37, 0.5));
+  K.card(640, 130, 590, 108, '#C8102E', 'Si no cede en 2 o 3 días', ['Parche hemático epidural'], seg(t, 37, 0.5), 17);
+  K.card(640, 260, 590, 108, C.GREEN, 'La presión vuelve a subir', ['La cefalea desaparece'], seg(t, 39, 0.5), 17);
+}
+window.SCENE = { duration: 43, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); neuroaxial(t); credit(); };
+LOAD({ e: '../assets/blausen/epidural_lumbar.png' });
+</script>
+</body></html>

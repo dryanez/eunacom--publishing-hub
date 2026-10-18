@@ -33,7 +33,8 @@ module.exports = {
           { t: 'No se ven en radiografía', d: 'Meniscos y ligamentos: tejido blando y fibrocartílago',
             say: 'Los meniscos y los ligamentos son fibrocartílago y tejido conectivo, así que no se ven en la radiografía convencional. Ese es el error típico: pedir radiografía para confirmar una lesión meniscal.' },
           { t: 'Resonancia magnética: examen de elección', d: 'Estándar de oro para partes blandas',
-            say: 'El estándar de oro para diagnosticar las lesiones de partes blandas de la rodilla es la resonancia magnética nuclear.' },
+            photo: { src: 'biblioteca/18_traumatologia/trauma-08/03_rm-rodilla-lca-lcm-lcl__bailey-love_p487.jpg', label: 'RM: LCA y colaterales rotos', at: 'Mira esta resonancia', credit: 'Bailey & Love 27.ª ed., Fig. 32.8' },
+            say: 'El estándar de oro para diagnosticar las lesiones de partes blandas de la rodilla es la resonancia magnética nuclear. Mira esta resonancia de un esquiador con una lesión grave, con roturas del cruzado anterior y de los dos colaterales: muestra ligamentos y meniscos, justo lo que la radiografía no puede hacer.' },
         ] },
       ],
     },
@@ -67,7 +68,8 @@ module.exports = {
         { cells: ['Mecanismo', 'Hiperextensión o frenada brusca', 'Hiperflexión o golpe en tablero'],
           say: 'Los ligamentos cruzados evitan que la tibia se vaya hacia adelante o hacia atrás. El cruzado anterior se lesiona en hiperextensión o en una desaceleración brusca. El posterior, en hiperflexión o por un golpe directo en la cara anterior de la tibia, el clásico golpe de tablero en un accidente.' },
         { cells: ['Signo clínico', 'Cajón anterior', 'Cajón posterior'],
-          say: 'El signo se nombra por la dirección: cajón anterior, la tibia se desplaza hacia adelante, es del cruzado anterior. Cajón posterior, la tibia se va hacia atrás, es del posterior.' },
+          photo: { src: 'biblioteca/18_traumatologia/trauma-08/02_prueba-cajon-rodilla__bailey-love_p477.jpg', label: 'Prueba del cajón', at: 'Mira esta prueba', credit: 'Bailey & Love 27.ª ed., Fig. 31.32' },
+          say: 'Mira esta prueba del cajón: con la rodilla flexionada, el examinador sujeta la parte alta de la tibia y la desplaza hacia adelante o hacia atrás. El signo se nombra por la dirección: cajón anterior, la tibia se desplaza hacia adelante, es del cruzado anterior. Cajón posterior, la tibia se va hacia atrás, es del posterior.' },
         { cells: ['Frecuencia', 'Mucho más frecuente', 'Menos frecuente'],
           say: 'El cruzado anterior es mucho más frecuente que el posterior.' },
         { cells: ['Tratamiento', 'Quirúrgico en jóvenes y activos', 'Conservador al inicio'],
@@ -109,7 +111,8 @@ module.exports = {
       cards: [
         { title: 'Cómo se examinan', tag: 'Estrés lateral', kind: 'key', items: [
           { t: 'Valgo forzado: colateral medial', d: 'Dolor y, si hay rotura, bostezo',
-            say: 'Los colaterales se prueban forzando la rodilla hacia los lados. Con un estrés en valgo examinas el colateral medial: si duele, hay esguince; si además la articulación se abre, hay un bostezo, que indica laxitud.' },
+            photo: { src: 'biblioteca/18_traumatologia/trauma-08/01_ligamentos-colaterales-rodilla__bailey-love_p476.jpg', label: 'Estrés de los colaterales', at: 'Mira la posición', credit: 'Bailey & Love 27.ª ed., Fig. 31.30' },
+            say: 'Los colaterales se prueban forzando la rodilla hacia los lados. Mira la posición: el examinador sostiene el tobillo con una mano y empuja la rodilla hacia un lado, y compara con la otra rodilla. Con un estrés en valgo examinas el colateral medial: si duele, hay esguince; si además la articulación se abre, hay un bostezo, que indica laxitud.' },
           { t: 'Varo forzado: colateral lateral', d: 'Bostezo hacia lateral',
             say: 'Con un estrés en varo examinas el colateral lateral. Su rotura da bostezo hacia lateral. No da cajón anterior: eso es del cruzado.' },
         ] },
@@ -123,22 +126,28 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Examen y resonancia de rodilla',
-      images: [
-        { src: 'biblioteca/18_traumatologia/trauma-08/01_ligamentos-colaterales-rodilla__bailey-love_p476.jpg', label: 'Prueba de estrés de los ligamentos colaterales de la rodilla', credit: 'Bailey & Love 27.ª ed., Fig. 31.30' },
-        { src: 'biblioteca/18_traumatologia/trauma-08/02_prueba-cajon-rodilla__bailey-love_p477.jpg', label: 'Prueba del cajón: rodilla flexionada y tibia sujeta con la mano', credit: 'Bailey & Love 27.ª ed., Fig. 31.32' },
-        { src: 'biblioteca/18_traumatologia/trauma-08/03_rm-rodilla-lca-lcm-lcl__bailey-love_p487.jpg', label: 'Resonancia de rodilla con rotura del LCA, del colateral medial y del lateral', credit: 'Bailey & Love 27.ª ed., Fig. 32.8' },
-      ],
-      steps: [
-        { note: 'Colaterales: estrés hacia los lados',
-          say: 'Fíjate en la posición: el examinador sostiene el tobillo con una mano y con la otra empuja la rodilla hacia un lado, para ver si la articulación se abre. Así se examinan el colateral medial y el lateral. Se compara siempre con la otra rodilla.' },
-        { note: 'Cajón: la tibia se mueve sobre el fémur',
-          say: 'Esta es la prueba del cajón. Con la rodilla flexionada, el examinador sujeta la parte alta de la tibia y la desplaza hacia adelante o hacia atrás. Si se va hacia adelante, es el cruzado anterior; si va hacia atrás, el posterior.' },
-        { note: 'Resonancia: lo que la radiografía no ve',
-          say: 'Y esta es la resonancia de un esquiador con una lesión grave, con roturas del cruzado anterior y de los dos colaterales. Es el examen que sí muestra ligamentos y meniscos, justo lo que la radiografía no puede hacer.' },
+      type: 'points',
+      kicker: 'Golpe directo',
+      title: 'Contusión, hematoma o hemartrosis',
+      cards: [
+        { title: 'Cómo distinguirlos', tag: 'Fuera o dentro de la articulación', kind: 'criteria', items: [
+          { t: 'Hematoma prepatelar', d: 'Colección superficial, delante de la rótula',
+            say: 'Un golpe directo sobre la rodilla puede causar una contusión con equimosis, o un hematoma prepatelar: una colección superficial y delimitada, por delante de la rótula.' },
+          { t: 'Hemartrosis: sangre dentro', d: 'Derrame en horas, peloteo rotuliano',
+            say: 'Hay que diferenciarlo de la hemartrosis, que es sangre dentro de la articulación: un derrame que aparece en las primeras horas, con peloteo rotuliano y limitación del movimiento.' },
+          { t: 'Causa más frecuente: rotura del LCA', d: 'Osteocondral, luxación de rótula, intraarticulares',
+            say: 'Su causa más frecuente es la rotura del ligamento cruzado anterior; después, la fractura osteocondral, la luxación de rótula y las fracturas intraarticulares. Si el derrame aparece a las veinticuatro a cuarenta y ocho horas, piensa en lesión meniscal.' },
+        ] },
+        { title: 'Estudio y manejo', tag: 'Gotas de grasa = fractura', kind: 'key', items: [
+          { t: 'Radiografía según Ottawa', d: 'Mayor de 55, dolor rotuliano o peroné, no flecta 90 grados',
+            say: 'Pides radiografía según las reglas de Ottawa: edad desde cincuenta y cinco años, dolor aislado de rótula o de la cabeza del peroné, imposibilidad de flexionar noventa grados o de dar cuatro pasos.' },
+          { t: 'Lipohemartrosis en la radiografía', d: 'Grasa flotando sobre la sangre',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-08/21_lipohemartrosis-rx__sherman_p605.jpg', label: 'Grasa sobre la sangre', at: 'En esta radiografía', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 605' },
+            say: 'En esta radiografía lateral de rodilla con haz horizontal, la flecha muestra una capa de grasa que flota sobre la sangre dentro de la articulación. Es una lipohemartrosis, y sugiere fractura intraarticular.' },
+          { t: 'Punción: gotas de grasa', d: 'Solo si el derrame es a tensión',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-08/22_hemartrosis-gotas-de-grasa__sherman_p605.jpg', label: 'Gotas de grasa en sangre', at: 'Y este es el líquido', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 605' },
+            say: 'Se punciona solo si el derrame es a tensión. Y este es el líquido obtenido: gotas de grasa sobre la sangre, que también sugieren fractura. El resto es reposo relativo, hielo, compresión, elevación, analgesia y vendaje, y se deriva si hay inestabilidad.' },
+        ] },
       ],
     },
 
@@ -183,6 +192,26 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Deporte',
+      title: 'Riesgos deportivos y prevención',
+      cards: [
+        { title: 'Lesiones características', tag: 'Según el deporte', kind: 'criteria', items: [
+          { t: 'Fútbol y rugby: LCA, meniscos, tobillo', d: 'Corredores: banda iliotibial y fracturas por estrés',
+            say: 'La rodilla es parte de un tema más grande: el deporte. En fútbol y rugby predominan el ligamento cruzado anterior, los meniscos y el esguince de tobillo. En los corredores, la banda iliotibial, la tendinopatía aquílea, la fascitis plantar y las fracturas por estrés de tibia y metatarsianos.' },
+          { t: 'Lanzamiento: manguito. Raqueta: epicondilalgia', d: 'En la mujer: tríada de la deportista',
+            say: 'En los deportes de lanzamiento, el manguito rotador, y en los de raqueta, la epicondilalgia. En la mujer deportista se describe la tríada de déficit energético, amenorrea y osteoporosis.' },
+        ] },
+        { title: 'Prevención y riesgos sistémicos', tag: 'Médico general', kind: 'alert', items: [
+          { t: 'Evaluación previa a participar', d: 'Muerte súbita familiar, soplos, síncope con esfuerzo',
+            say: 'Para prevenir, evalúas antes de la participación: antecedentes familiares de muerte súbita, soplos y síncope con el esfuerzo. Y recomiendas calentamiento, progresión gradual, calzado adecuado e hidratación.' },
+          { t: 'Muerte súbita, golpe de calor, rabdomiólisis', d: 'También conmoción cerebral y dopaje',
+            say: 'Los riesgos sistémicos son la muerte súbita del joven deportista, por miocardiopatía hipertrófica o canalopatías, el golpe de calor, la rabdomiólisis por ejercicio extremo, la conmoción cerebral y el uso de sustancias dopantes.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'table',
       kicker: 'Trampas EUNACOM',
       title: 'Rodilla: síntoma, estructura, examen',
@@ -196,6 +225,20 @@ module.exports = {
           say: 'Golpe en el tablero y cajón posterior: cruzado posterior, de manejo conservador al inicio.' },
         { cells: ['Dolor anterior al subir escaleras', 'Patelofemoral', 'Clínico; fortalecer cuádriceps'],
           say: 'Dolor anterior al subir escaleras o caminar por cerros: disfunción patelofemoral, diagnóstico clínico y fortalecimiento del cuádriceps. No pides resonancia de entrada.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Rotura del ligamento cruzado anterior',
+      images: [
+        { src: 'animaciones/trauma-08/A1_rotura_lca.mp4', label: 'Giro, hemartrosis y cajón anterior', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'El cajón anterior de la rodilla',
+          say: 'Mira la rodilla de lado. Un giro con el pie fijo, o una hiperextensión, rompe el ligamento cruzado anterior, y en las primeras horas la rodilla se llena de sangre: hemartrosis. Sin el ligamento, la tibia se desplaza hacia adelante, que es el cajón anterior. El paciente cuenta que la rodilla se le va. Se confirma con resonancia, y en el joven activo se resuelve con reconstrucción artroscópica.' },
       ],
     },
 
@@ -340,6 +383,44 @@ module.exports = {
         options: 'Las opciones: menisco externo con radiografía; menisco interno con resonancia; cruzado anterior con resonancia; menisco interno con radiografía en dos proyecciones; o disfunción patelofemoral con reposo. Piénsalo.',
         answer: 'Es la B. El bloqueo articular es de menisco, y con Apley, dolor a la rotación externa es menisco interno. Se confirma con resonancia. La D es la trampa: acierta el menisco, pero la radiografía no ve fibrocartílago. El cruzado anterior daría inestabilidad, no bloqueo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.11.3.003 · Riesgos deportivos",
+      "stem": "Futbolista de 22 años que, al cambiar bruscamente de dirección con el pie apoyado, siente un chasquido en la rodilla derecha y no puede seguir jugando. En las horas siguientes la rodilla aumenta de volumen. Al examen hay derrame y la prueba de Lachman es positiva.",
+      "question": "¿Cuál es la lesión más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tendinopatía rotuliana"
+        },
+        {
+          "letter": "B",
+          "text": "Rotura aislada del ligamento colateral medial"
+        },
+        {
+          "letter": "C",
+          "text": "Lesión del ligamento cruzado posterior"
+        },
+        {
+          "letter": "D",
+          "text": "Rotura del ligamento cruzado anterior"
+        },
+        {
+          "letter": "E",
+          "text": "Condromalacia patelar"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El mecanismo de pivote con pie fijo, el chasquido, la imposibilidad de continuar y la hemartrosis precoz son típicos de la rotura del ligamento cruzado anterior, confirmada por Lachman positivo; se estudia con resonancia. El cruzado posterior se lesiona por golpe directo en la tibia y da cajón posterior. Los programas de prevención neuromuscular reducen este riesgo deportivo.",
+      "say": {
+        "stem": "Futbolista de veintidós años que gira con el pie apoyado, siente un chasquido, la rodilla se hincha en horas y el Lachman es positivo.",
+        "question": "¿Cuál es la lesión?",
+        "options": "Las opciones: tendinopatía rotuliana, colateral medial aislado, cruzado posterior, cruzado anterior o condromalacia. Piénsalo.",
+        "answer": "Es la D. Rotura del ligamento cruzado anterior, por el pivote, el chasquido y la hemartrosis precoz. El colateral medial se lesiona con un golpe en valgo y rara vez da un derrame tan rápido."
+      }
     },
 
     {

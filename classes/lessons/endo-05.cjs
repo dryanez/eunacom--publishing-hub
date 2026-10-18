@@ -46,7 +46,11 @@ module.exports = {
         { show: ['tox'], note: 'Tirotoxicosis, no hipertiroidismo verdadero',
           say: 'Por eso el paciente tiene palpitaciones y temblor, con TSH baja y T cuatro libre alta. Pero fíjate en el nombre: es una tirotoxicosis destructiva, no un hipertiroidismo verdadero.' },
         { show: ['cap'], note: 'Folículos rotos no captan yodo',
-          say: 'Y como los folículos están rotos, no pueden captar yodo. El cintigrama muestra una captación casi nula, menor al uno o dos por ciento: la tiroides en blanco. Eso la separa con certeza de la enfermedad de Graves, donde la captación está aumentada.' },
+          say: 'Y como los folículos están rotos, no pueden captar yodo. Mira este cintigrama: la glándula ni se ve, captación casi nula, menor al uno o dos por ciento: la tiroides en blanco. Eso la separa con certeza de la enfermedad de Graves, donde la captación está aumentada. Compáralo con esta lámina: la segunda imagen es la captación difusa e intensa de Graves, y la última, la glándula en blanco.',
+            photos: [
+              { src: 'biblioteca/05_endocrinologia/endo-05/02_gammagrafia_en_blanco__openi.jpg', label: 'Cintigrama en blanco', at: 'Mira este cintigrama', credit: 'Open-i (NLM), CC BY' },
+              { src: 'biblioteca/05_endocrinologia/endo-05/04_cintigramas_panel_graves_vs_blanco__commons.jpg', label: 'Graves vs en blanco', at: 'Compáralo con esta lámina', credit: 'Wikimedia Commons, CC BY-SA 3.0' },
+            ] },
         { show: ['tra'], note: 'Si no hay síntesis, no hay nada que bloquear',
           say: 'Y de aquí sale la trampa más clásica. El tiamazol bloquea la síntesis de hormona, pero aquí no hay síntesis: hay fuga. Los antitiroideos no sirven en ninguna tiroiditis destructiva.' },
       ],
@@ -112,7 +116,8 @@ module.exports = {
       cards: [
         { title: 'Hashimoto', tag: 'Crónica autoinmune', kind: 'key', items: [
           { t: 'Indolora, bocio firme y elástico', d: 'VHS normal',
-            say: 'Pasemos a las tiroiditis que no duelen. La primera es Hashimoto, la tiroiditis crónica autoinmune: bocio firme y elástico, indoloro, con VHS normal.' },
+            say: 'Pasemos a las tiroiditis que no duelen. La primera es Hashimoto, la tiroiditis crónica autoinmune: bocio firme y elástico, indoloro, con VHS normal. Mira esta ecografía: la tiroides heterogénea y oscura, con tractos fibrosos.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-05/01_eco-hashimoto__cto-endocrino_p55.jpg', label: 'Ecografía de Hashimoto', at: 'Mira esta ecografía', credit: 'Manual CTO Endocrinología 14.ª ed., p. 55' } },
           { t: 'Anti-TPO positivos en más del 90 %', d: 'Levotiroxina de por vida según TSH (GES)',
             say: 'Los anticuerpos antiperoxidasa son positivos en más del noventa por ciento. Y a diferencia de las destructivas, aquí el problema es permanente: se trata con levotiroxina de por vida, guiada por la TSH, con cobertura GES.' },
         ] },
@@ -160,7 +165,8 @@ module.exports = {
         { show: ['q'], note: 'Lo que decide el tipo es la glándula de base',
           say: 'Hacia arriba, puede dar tirotoxicosis, y aquí viene la diferencia que se pregunta. Hay dos tipos, y lo que los separa es cómo estaba la tiroides antes.' },
         { show: ['t1', 't1x'], note: 'Tipo 1: el yodo es combustible',
-          say: 'Tipo uno, o Jod-Basedow: el paciente ya tenía un bocio multinodular o un Graves latente, y el yodo le sirve de combustible para fabricar más hormona. Por eso el Doppler está hipervascular y la captación es detectable. Si hay síntesis, se bloquea: tiamazol a dosis altas.' },
+          say: 'Tipo uno, o Jod-Basedow: el paciente ya tenía un bocio multinodular o un Graves latente, y el yodo le sirve de combustible para fabricar más hormona. Por eso el Doppler está hipervascular, como en este: flujo por toda la glándula, y la captación es detectable. Si hay síntesis, se bloquea: tiamazol a dosis altas.',
+            photo: { src: 'biblioteca/05_endocrinologia/endo-05/03_doppler_amiodarona_tipo1__rumack_p1725.jpg', label: 'Doppler hipervascular', at: 'como en este', credit: 'Diagnostic Ultrasound (Rumack), p. 1725' } },
         { show: ['t2', 't2x'], note: 'Tipo 2: igual que De Quervain, se trata con corticoide',
           say: 'Tipo dos: tiroides previamente normal, y la amiodarona la destruye directamente. Es una tiroiditis destructiva, con Doppler avascular y captación nula. Y como en toda destructiva, el antitiroideo no sirve: se trata con corticoides, prednisona cuarenta miligramos al día.' },
       ],
@@ -199,20 +205,6 @@ module.exports = {
           say: 'La glándula inflamada se rompe y libera la hormona guardada: primero tirotoxicosis, con TSH baja. Después queda vacía: hipotiroidismo, con TSH alta. Y en meses se recupera.' },
       ],
     },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Tiroiditis de Hashimoto en la ecografía',
-      images: [
-        { src: 'biblioteca/05_endocrinologia/endo-05/01_eco-hashimoto__cto-endocrino_p55.jpg', label: 'Hashimoto', credit: 'Manual CTO Endocrinología 14.ª ed., p. 55' },
-      ],
-      steps: [
-        { note: 'Tiroides heterogénea e hipoecogénica',
-          say: 'En la ecografía, la tiroides de Hashimoto se ve heterogénea y oscura, con tractos fibrosos. Se confirma con anticuerpos antiperoxidasa.' },
-      ],
-    },
-
     {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, con las dos preguntas de la clase: si duele, y si capta.',
@@ -354,6 +346,44 @@ module.exports = {
         options: 'Las opciones: pedir T cuatro libre, ecografía tiroidea, cintigrafía, control de TSH y T cuatro en un año, o punción tiroidea. Piénsalo.',
         answer: 'Es la D, control anual. Bocio indoloro con antiperoxidasa muy altos es Hashimoto, y con TSH normal está eutiroidea, así que hoy no hay nada que tratar: se controla para pescar a tiempo el hipotiroidismo. ¿Y la T cuatro total alta? Es la trampa: los anticonceptivos suben la proteína que transporta la hormona, y la total sube sin que el paciente esté hipertiroideo. La TSH normal manda.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2017 · Pregunta 36",
+      "stem": "Un paciente se realizó una tiroidectomía total hace varios años, por un carcinoma tiroideo. Suspendió el tratamiento con levotiroxina hace 6 meses.",
+      "question": "¿Qué alteración tendrá con mayor probabilidad en su examen físico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mixedema pretibial"
+        },
+        {
+          "letter": "B",
+          "text": "Exoftalmo"
+        },
+        {
+          "letter": "C",
+          "text": "Melanoplaquias"
+        },
+        {
+          "letter": "D",
+          "text": "Piel seca"
+        },
+        {
+          "letter": "E",
+          "text": "Acantosis nigricans"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Sin tiroides y sin levotiroxina desarrolla un hipotiroidismo, cuyo signo cutáneo típico es la piel seca, fría y áspera. El mixedema pretibial y el exoftalmo son propios de la enfermedad de Graves, las melanoplaquias de la enfermedad de Addison y la acantosis nigricans de la resistencia a la insulina.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Un paciente con tiroidectomía total por un cáncer de tiroides suspendió la levotiroxina hace seis meses.",
+        "question": "¿Qué alteración tendrá con mayor probabilidad en su examen físico?",
+        "options": "Las opciones: mixedema pretibial, exoftalmo, melanoplaquias, piel seca, o acantosis nigricans. Piénsalo.",
+        "answer": "Es la D, piel seca. Sin tiroides y sin levotiroxina, este paciente está hipotiroideo, y la piel seca es su signo más frecuente. El mixedema pretibial tienta por el nombre, pero es un signo de la enfermedad de Graves, no del hipotiroidismo."
+      }
     },
 
     {

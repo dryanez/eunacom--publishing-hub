@@ -118,7 +118,11 @@ module.exports = {
         { show: ['res'], note: 'Endoscópica en casos seleccionados',
           say: 'Se trata con resección: endoscópica en casos seleccionados, o gastrectomía.' },
         { show: ['ava'], note: 'Compromete la muscular propia',
-          say: 'Si compromete la muscular propia o va más allá, es un cáncer avanzado.' },
+          say: 'Si compromete la muscular propia o va más allá, es un cáncer avanzado. Mira esta endoscopía: son las cuatro formas de Borrmann. El tipo uno es una masa polipoide; el dos, una úlcera de bordes bien definidos; el tres, una úlcera que infiltra; y el cuatro, la linitis plástica, que endurece toda la pared. Y en este esquema, el mismo concepto en un corte de la pared: el tipo cuatro casi no se ve desde adentro, porque infiltra por debajo de la mucosa y se diagnostica tarde.',
+          photos: [
+            { src: 'biblioteca/01_gastroenterologia/gastro-05/01_borrmann_endoscopia__bailey_p1155.jpg', label: 'Borrmann I a IV', at: 'Mira esta endoscopía', credit: 'Bailey & Love 27.ª ed., Fig. 63.29' },
+            { src: 'biblioteca/01_gastroenterologia/gastro-05/S1_borrmann__propio.svg', label: 'Esquema de Borrmann', at: 'Y en este esquema', credit: 'Dibujo propio (esquema)' },
+          ] },
         { show: ['gas'], note: 'Subtotal o total',
           say: 'Aquí el tratamiento es una gastrectomía, subtotal o total, con linfadenectomía D dos, más quimioterapia perioperatoria.' },
         { show: ['ges'], note: 'Por eso existe la garantía GES',
@@ -127,19 +131,67 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Tumores benignos',
+      title: 'Tumores gástricos benignos',
+      cards: [
+        { title: 'Pólipos', tag: 'Lo más frecuente', kind: 'normal', items: [
+          { t: 'Hiperplásicos y de glándulas fúndicas', d: 'Casi siempre benignos',
+            say: 'Entre los tumores benignos del estómago, lo más frecuente son los pólipos. Los hiperplásicos y los de glándulas fúndicas son casi siempre benignos.' },
+          { t: 'Adenomatoso: premaligno', d: 'Obliga a resecarlo',
+            say: 'El pólipo adenomatoso, en cambio, es premaligno, y obliga a resecarlo.' },
+        ] },
+        { title: 'Tumores submucosos', tag: 'Mucosa normal por encima', kind: 'key', items: [
+          { t: 'GIST, leiomioma, neuroendocrino', d: 'Abombamiento con mucosa normal',
+            say: 'Los tumores submucosos son el GIST, el leiomioma y el tumor neuroendocrino. Se ven como un abombamiento de mucosa normal.' },
+          { t: 'Úlcera central que sangra', d: 'Hemorragia alta o anemia',
+            say: 'A veces tienen una úlcera en el centro, y por ahí sangran: hemorragia digestiva alta o una anemia sin explicación. Mira este estudio con bario: un tumor de músculo liso del estómago, con una ulceración, el tipo de tumor submucoso que puede sangrar.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-05/03_tumor-musculo-liso-gastrico__bailey_p1150.jpg', label: 'Tumor de músculo liso', at: 'Mira este estudio', credit: 'Bailey & Love 27.ª ed., p. 1150' } },
+        ] },
+        { title: 'Conducta', tag: 'Endoscopía y derivar', kind: 'pharma', items: [
+          { t: 'Endoscopía, biopsia y ecoendoscopía', d: 'Pólipo: polipectomía y buscar H. pylori',
+            say: 'Se diagnostican con endoscopía y biopsia, y con ecoendoscopía los submucosos. El pólipo se reseca y se busca Helicobacter pylori.' },
+          { t: 'GIST: cirugía; imatinib si es de alto riesgo', d: 'c-KIT positivo; todo tumor se deriva',
+            say: 'El GIST, que es positivo para c-KIT, se opera, y en los de alto riesgo se agrega imatinib. Todo tumor gástrico se deriva para estudio.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Epidemiología',
+      title: 'Cánceres digestivos en Chile',
+      cards: [
+        { title: 'Su peso', tag: 'Muertes por cáncer', kind: 'key', items: [
+          { t: 'Una proporción muy alta', d: 'Estómago, vesícula, colon, hígado, páncreas, esófago',
+            say: 'Los tumores del tubo digestivo y de sus órganos anexos aportan una proporción muy alta de las muertes por cáncer en Chile: estómago, vesícula y vías biliares, colon y recto, hígado, páncreas y esófago.' },
+        ] },
+        { title: 'Los que destacan', tag: 'Cada uno con su causa', kind: 'alert', items: [
+          { t: 'Gástrico y vesícula', d: 'Tasas de las más altas del mundo',
+            say: 'El cáncer gástrico y el de vesícula biliar tienen tasas de las más altas del mundo. La vesícula, sobre todo en mujeres.' },
+          { t: 'Colorrectal y hepatocarcinoma', d: 'Envejecimiento y dieta; cirrosis',
+            say: 'El colorrectal aumenta con el envejecimiento y la dieta occidental, y el hepatocarcinoma crece con la cirrosis, por alcohol, virus C o esteatohepatitis.' },
+          { t: 'Páncreas: sobrevida a 5 años menor de 10 %', d: 'El peor pronóstico',
+            say: 'Y el cáncer de páncreas tiene una sobrevida a cinco años menor de diez por ciento.' },
+        ] },
+        { title: 'El mensaje', tag: 'Para tu práctica', kind: 'normal', items: [
+          { t: 'Casi todos se diagnostican tarde', d: 'Tamizaje y endoscopía precoz',
+            say: 'La mayoría se diagnostica en etapa avanzada. Por eso importan el tamizaje y pedir la endoscopía a tiempo.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Cáncer gástrico avanzado: Borrmann',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La profundidad manda',
       images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-05/01_borrmann_endoscopia__bailey_p1155.jpg', label: 'Borrmann I a IV', credit: 'Bailey & Love 27.ª ed., Fig. 63.29' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-05/S1_borrmann__propio.svg', label: 'Esquema de Borrmann', credit: 'Dibujo propio (esquema)' },
+        { src: 'animaciones/gastro-05/A1_profundidad_cancer_gastrico.mp4', label: 'Cáncer gástrico', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Polipoide, ulcerado, infiltrante, difuso',
-          say: 'Estas son las cuatro formas de Borrmann en la endoscopía real. El tipo uno es una masa polipoide; el dos, una úlcera de bordes bien definidos; el tres, una úlcera que infiltra; y el cuatro, la linitis plástica, que endurece toda la pared.' },
-        { note: 'Corte de la pared gástrica',
-          say: 'Y aquí el mismo concepto en un corte de la pared. Fíjate que el tipo cuatro casi no se ve desde adentro: infiltra por debajo de la mucosa, y por eso se diagnostica tarde.' },
+        { note: 'De la mucosa a la muscular propia',
+          say: 'El tumor nace en la mucosa y va avanzando por las capas de la pared. Mientras se quede hasta la submucosa es incipiente, y se puede resecar. Cuando pasa la muscular propia es avanzado, y se hace gastrectomía con linfadenectomía. Y recuerda: en mayores de cuarenta años con síntomas, endoscopía.' },
       ],
     },
 
@@ -163,7 +215,8 @@ module.exports = {
         { cells: ['Baja de peso + epigastralgia + ictericia', 'Cáncer de páncreas', 'TAC de abdomen con contraste'],
           say: 'Pero atención a esta fila, porque es la trampa. Si a la baja de peso y la epigastralgia se suma ictericia, la sospecha cambia a cáncer de páncreas, y el examen ya no es la endoscopía: es un TAC de abdomen con contraste.' },
         { cells: ['Disfagia lógica + baja de peso', 'Cáncer de esófago', 'Endoscopía con biopsia'],
-          say: 'Y disfagia lógica progresiva con baja de peso: cáncer de esófago, endoscopía con biopsia.' },
+          say: 'Y disfagia lógica progresiva con baja de peso: cáncer de esófago, endoscopía con biopsia. Mira esta endoscopía: una lesión irregular y ulcerada en el esófago distal, que estrecha la luz y explica la disfagia.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-05/02_cancer-esofago-distal-obstructivo__harrison_p2460.jpg', label: 'Cáncer de esófago', at: 'Mira esta endoscopía', credit: 'Harrison 21.ª ed., p. 2460' } },
       ],
     },
 
@@ -280,6 +333,193 @@ module.exports = {
         options: 'Las alternativas: endoscopía por criterio de alarma según la edad, iniciar inhibidor de la bomba de protones y controlar en un mes, test no invasivo de Helicobacter y tratar si es positivo, radiografía de abdomen, o ecografía abdominal. Piénsalo.',
         answer: 'Es la A, endoscopía digestiva alta. Fíjate que no hay baja de peso ni otro signo de alarma clásico: la edad, sobre sesenta años, ya es un criterio de alarma por sí solo. Por eso no corresponde tratar de forma empírica con inhibidor de la bomba ni empezar por el Helicobacter: hay que descartar cáncer gástrico y úlcera con endoscopía primero.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.005 · Cáncer del esófago",
+      "stem": "Hombre de 58 años, obeso, con 15 años de pirosis mal controlada. La endoscopía muestra una lesión ulcerada y estenosante en el tercio distal del esófago, cercana a la unión gastroesofágica.",
+      "question": "Si la biopsia confirma un cáncer, ¿cuál es el tipo histológico más probable y su principal factor de riesgo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Carcinoma escamoso; tabaco y alcohol"
+        },
+        {
+          "letter": "B",
+          "text": "Adenocarcinoma; esófago de Barrett por reflujo crónico"
+        },
+        {
+          "letter": "C",
+          "text": "Adenocarcinoma; infección por Helicobacter pylori"
+        },
+        {
+          "letter": "D",
+          "text": "Carcinoma escamoso; acalasia"
+        },
+        {
+          "letter": "E",
+          "text": "Linfoma; inmunosupresión"
+        }
+      ],
+      "correct": "B",
+      "explanation": "El adenocarcinoma se ubica en el tercio distal y nace sobre un esófago de Barrett, consecuencia del reflujo crónico; la obesidad también es factor de riesgo. El escamoso predomina en los tercios superior y medio y se asocia a tabaco, alcohol, cáusticos y acalasia. H. pylori no causa cáncer esofágico.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de cincuenta y ocho años, obeso, con quince años de pirosis mal controlada. La endoscopía muestra una lesión ulcerada que estrecha el tercio distal del esófago, junto a la unión con el estómago.",
+        "question": "Si la biopsia confirma un cáncer, ¿cuál es el tipo histológico más probable y su principal factor de riesgo?",
+        "options": "Las opciones: escamoso por tabaco y alcohol, adenocarcinoma por esófago de Barrett, adenocarcinoma por Helicobacter, escamoso por acalasia, o linfoma. Piénsalo.",
+        "answer": "Es la B. Tercio distal más reflujo crónico y obesidad apuntan al adenocarcinoma, que nace sobre un esófago de Barrett. El carcinoma escamoso tienta porque es el clásico del tabaco y el alcohol, pero se ubica más arriba, en los tercios superior y medio."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.3.003 · Epidemiología de los cánceres digestivos",
+      "stem": "En una reunión clínica de un CESFAM se revisa la epidemiología de los cánceres digestivos en Chile para priorizar la derivación de pacientes con epigastralgia.",
+      "question": "¿Cuál es el cáncer digestivo que causa más muertes en hombres en Chile?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cáncer colorrectal"
+        },
+        {
+          "letter": "B",
+          "text": "Cáncer de esófago"
+        },
+        {
+          "letter": "C",
+          "text": "Cáncer gástrico"
+        },
+        {
+          "letter": "D",
+          "text": "Cáncer de vesícula biliar"
+        },
+        {
+          "letter": "E",
+          "text": "Hepatocarcinoma"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El cáncer gástrico es la principal causa de muerte por cáncer digestivo en hombres chilenos, con mayor incidencia en el centro-sur del país; por eso existe el GES y la endoscopía precoz ante epigastralgia en mayores de 40 años. El cáncer de vesícula es característico de mujeres chilenas y el colorrectal va en aumento.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica, esta vez de epidemiología. En una reunión clínica de un CESFAM se revisan los cánceres digestivos en Chile, para decidir a quiénes derivar con dolor epigástrico.",
+        "question": "¿Cuál es el cáncer digestivo que causa más muertes en hombres en Chile?",
+        "options": "Las opciones: colorrectal, esófago, gástrico, vesícula biliar, o hepatocarcinoma. Piénsalo.",
+        "answer": "Es la C, el cáncer gástrico. Es la principal causa de muerte por cáncer digestivo en hombres chilenos, y por eso se pide endoscopía precoz ante dolor epigástrico en mayores de cuarenta. La vesícula es la trampa: es un cáncer muy chileno, pero sobre todo de mujeres."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.007 · Tumores gástricos benignos",
+      "stem": "Mujer de 58 años, en estudio por dispepsia, se realiza una endoscopía digestiva alta que muestra un pólipo sésil de 2 cm en el antro. La biopsia informa adenoma tubular con displasia de bajo grado. Test de ureasa negativo.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Control endoscópico en 5 años"
+        },
+        {
+          "letter": "B",
+          "text": "Erradicación de Helicobacter pylori y alta"
+        },
+        {
+          "letter": "C",
+          "text": "Gastrectomía subtotal"
+        },
+        {
+          "letter": "D",
+          "text": "Inhibidor de bomba de protones y control en 1 año"
+        },
+        {
+          "letter": "E",
+          "text": "Resección endoscópica completa del pólipo"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Los pólipos adenomatosos gástricos son lesiones premalignas: deben resecarse completos por vía endoscópica para obtener la histología definitiva, seguidos de vigilancia endoscópica. La gastrectomía es excesiva para un adenoma sin cáncer invasor, y el simple control deja una lesión con riesgo de transformación maligna.",
+      "say": {
+        "stem": "Mujer de cincuenta y ocho años en estudio por dispepsia. La endoscopía muestra un pólipo sésil de dos centímetros en el antro; la biopsia informa adenoma tubular con displasia de bajo grado, y el test de ureasa es negativo.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: control endoscópico en cinco años, erradicar Helicobacter y dar de alta, gastrectomía subtotal, omeprazol con control en un año o resección endoscópica completa. Piénsalo.",
+        "answer": "Es la E. El adenoma gástrico es una lesión premaligna y se reseca completo por endoscopía, para tener la histología definitiva. La gastrectomía tienta porque suena definitiva, pero es una cirugía mayor para una lesión que se resuelve con un endoscopio."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 55",
+      "stem": "Paciente con antecedente de cáncer gástrico avanzado, con metástasis hepáticas múltiples y adenopatías perigástricas, consulta por vómitos postprandiales intensos, que han ido en aumento y actualmente dificultan mucho la alimentación. Al examen físico está muy enflaquecido, sin panículo adiposo y con edema de extremidades inferiores.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Instalar sonda nasogástrica"
+        },
+        {
+          "letter": "B",
+          "text": "Indicar nutrición parenteral total"
+        },
+        {
+          "letter": "C",
+          "text": "Realizar radioterapia de urgencia"
+        },
+        {
+          "letter": "D",
+          "text": "Realizar gastrectomía paliativa"
+        },
+        {
+          "letter": "E",
+          "text": "Realizar derivación gastrointestinal"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Es una obstrucción de la salida gástrica por un cáncer incurable. La paliación busca restablecer el tránsito con la menor morbilidad: una gastroyeyunoanastomosis (o una prótesis endoscópica) es menos agresiva que la gastrectomía paliativa. La sonda nasogástrica y la nutrición parenteral son medidas transitorias que no resuelven la obstrucción.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Paciente con cáncer gástrico avanzado, metástasis hepáticas múltiples y adenopatías perigástricas, que consulta por vómitos después de comer, cada vez más intensos, que ya le impiden alimentarse. Está muy enflaquecido y con edema de las piernas.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: sonda nasogástrica, nutrición parenteral total, radioterapia de urgencia, gastrectomía paliativa, o derivación gastrointestinal. Piénsalo.",
+        "answer": "Es la E. Es una obstrucción de la salida gástrica en un cáncer que ya no es curable, y lo que buscas es que vuelva a comer con la menor agresión posible, con una gastroyeyunoanastomosis o una prótesis. La gastrectomía paliativa tienta, pero en un paciente desnutrido y con metástasis hepáticas tiene mucha más morbimortalidad para el mismo beneficio."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.3.013 · Epidemiología del cáncer.",
+      "stem": "En una charla sobre epidemiología del cáncer en Chile, se analiza la mortalidad por tumores malignos en hombres.",
+      "question": "¿Cuál es la primera causa de muerte por cáncer en hombres en Chile?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cáncer gástrico"
+        },
+        {
+          "letter": "B",
+          "text": "Cáncer de próstata"
+        },
+        {
+          "letter": "C",
+          "text": "Cáncer de pulmón"
+        },
+        {
+          "letter": "D",
+          "text": "Cáncer colorrectal"
+        },
+        {
+          "letter": "E",
+          "text": "Cáncer de vesícula biliar"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En Chile, los tumores malignos son una de las principales causas de muerte, y en hombres el cáncer gástrico ocupa históricamente el primer lugar de mortalidad oncológica, seguido por próstata y pulmón. Por eso existe la garantía GES de endoscopía en mayores de 40 años con epigastralgia persistente, para diagnosticarlo precozmente.",
+      "say": {
+        "stem": "En una charla sobre epidemiología del cáncer en Chile, se analiza la mortalidad por cáncer en hombres.",
+        "question": "¿Cuál es la primera causa de muerte por cáncer en hombres en Chile?",
+        "options": "Las opciones: gástrico, próstata, pulmón, colorrectal o vesícula biliar. Piénsalo.",
+        "answer": "Es la A. En los hombres chilenos el cáncer gástrico es la primera causa de muerte oncológica, y por eso el GES garantiza la endoscopía en mayores de cuarenta con epigastralgia persistente. El de próstata tienta porque es el más frecuente en incidencia, pero mata menos que el gástrico."
+      }
     },
 
     {

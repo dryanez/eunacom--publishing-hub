@@ -127,9 +127,11 @@ module.exports = {
       cards: [
         { title: 'Clínica', tag: 'Mente lúcida', kind: 'key', items: [
           { t: 'Trismus y risa sardónica', d: 'Espasmo del masetero y de la cara',
-            say: 'Veamos la clínica. Lo primero suele ser el trismus, el espasmo del masetero que impide abrir la boca, y la risa sardónica, una mueca fija de la cara.' },
+            say: 'Veamos la clínica. Lo primero suele ser el trismus, el espasmo del masetero que impide abrir la boca, y la risa sardónica: mira esta mueca fija de la cara.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-06/01_risa_sardonica__cdc-phil-2857.jpg', label: 'Risa sardónica', at: 'mira esta mueca', credit: 'CDC PHIL 2857, dominio público' } },
           { t: 'Opistótonos', d: 'Arco dorsal rígido',
-            say: 'Luego el opistótonos, el arco rígido de la espalda por la contracción de los músculos extensores.' },
+            say: 'Luego el opistótonos: mira este arco rígido de la espalda por la contracción de los músculos extensores.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-06/02_opistotonos__cdc-phil.jpg', label: 'Opistótonos', at: 'mira este arco', credit: 'CDC PHIL (Commons "PHIL tetanus"), dominio público' } },
           { t: 'Espasmos por luz o ruido', d: 'Con la conciencia conservada',
             say: 'Los espasmos se desencadenan con estímulos luminosos o sonoros, y lo más dramático: la mente permanece lúcida. El paciente está consciente durante los espasmos.' },
           { t: 'Muerte por paro respiratorio', d: 'Espasmo laríngeo o diafragmático',
@@ -169,6 +171,54 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Mordeduras',
+      title: 'Mordedura: manejo local y antibiótico',
+      cards: [
+        { title: 'Manejo local', tag: 'Lo primero', kind: 'key', items: [
+          { t: 'Lavar 10 a 15 minutos', d: 'Agua y jabón, irrigar a presión',
+            say: 'Lo primero en una mordedura es lavar con agua y jabón por diez a quince minutos e irrigar a presión. Se retira el tejido desvitalizado y se explora si hay tendones o articulaciones comprometidos.' },
+          { t: 'No suturar punzantes ni tardías', d: 'Más de 8–12 h o infectadas; la cara es excepción',
+            say: 'No se sutura una herida punzante, con más de ocho a doce horas o infectada. La cara es la excepción.' },
+        ] },
+        { title: 'Antibiótico', tag: '3 a 5 días', kind: 'pharma', items: [
+          { t: 'Gato, mano, profunda, humana', d: 'Inmunosuprimidos, asplénicos, hepatópatas',
+            say: 'Se da antibiótico profiláctico en mordedura de gato, de mano, profunda o humana, y en inmunosuprimidos, asplénicos o hepatópatas.' },
+          { t: 'Amoxicilina-ácido clavulánico', d: 'Alérgicos: doxiciclina o clindamicina + cipro',
+            say: 'El esquema es amoxicilina con ácido clavulánico por tres a cinco días. Cubre Pasteurella, estafilococo, estreptococo y anaerobios.' },
+          { t: 'Capnocytophaga en asplenia', d: 'Humana: VHB, VHC y VIH',
+            say: 'En asplénicos y alcohólicos recuerda la Capnocytophaga canimorsus. Y la mordedura humana suma riesgo de hepatitis B, hepatitis C y VIH.' },
+        ] },
+        { title: 'Siempre', tag: 'No olvidar', kind: 'alert', items: [
+          { t: 'Tétanos y rabia', d: 'Observar al animal 10 días y notificar',
+            say: 'Y siempre se revisa la profilaxis antitetánica y antirrábica, se observa al animal diez días y se notifica.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Vacunas especiales',
+      title: 'Vacunas por riesgo: quién y cuál',
+      cards: [
+        { title: 'Quién', tag: 'Fuera del esquema', kind: 'criteria', items: [
+          { t: 'Neumococo: ≥ 65 años y de riesgo', d: 'Asplenia, inmunosupresión, fístula de LCR',
+            say: 'Neumococo en mayores de sesenta y cinco años y en asplenia, inmunosupresión, enfermedades crónicas o fístula de líquido cefalorraquídeo.' },
+          { t: 'Influenza anual', d: 'Embarazadas, ≥ 65, crónicos, personal de salud',
+            say: 'Influenza todos los años en embarazadas, mayores de sesenta y cinco, crónicos y personal de salud.' },
+          { t: 'Hepatitis B: personal de salud, diálisis, VIH', d: 'Esquema 0-1-6 meses',
+            say: 'Hepatitis B en personal de salud, hemodiálisis y VIH, con esquema de cero, uno y seis meses. Meningococo en asplenia y déficit de complemento.' },
+          { t: 'Rabia preexposición', d: 'Veterinarios y expuestos a murciélagos · días 0, 7 y 21–28',
+            say: 'Y la rabia preexposición en veterinarios y personal expuesto a murciélagos, tres dosis los días cero, siete y veintiuno a veintiocho.' },
+        ] },
+        { title: 'Regla general', tag: 'Se pregunta', kind: 'alert', items: [
+          { t: 'Vivas atenuadas: no en embarazo ni inmunosupresión', d: 'Varicela, SRP, fiebre amarilla',
+            say: 'La regla que se pregunta: las vacunas vivas atenuadas, varicela, triple viral y fiebre amarilla, están contraindicadas en el embarazo y en la inmunosupresión grave. Las inactivadas son seguras.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -182,23 +232,6 @@ module.exports = {
           say: 'El virus rábico viaja desde la mordedura por los nervios, por transporte axonal retrógrado, hasta la médula y el encéfalo. Ese viaje toma semanas, y es la ventana para que la vacuna y la inmunoglobulina lleguen antes. Si el perro o el gato es ubicable, se observa diez días; y todo contacto con murciélago es una exposición grave.' },
         { note: 'Quita el freno',
           say: 'La toxina tetánica también sube por el nervio, degrada la sinaptobrevina y bloquea la liberación de GABA y glicina, que son los frenos del músculo. Sin freno, aparecen el trismus, la risa sardónica y el opistótonos.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Tétanos',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-06/01_risa_sardonica__cdc-phil-2857.jpg', label: 'Risa sardónica', credit: 'CDC PHIL 2857, dominio público' },
-        { src: 'biblioteca/07_infectologia/infecto-06/02_opistotonos__cdc-phil.jpg', label: 'Opistótonos', credit: 'CDC PHIL (Commons "PHIL tetanus"), dominio público' },
-      ],
-      steps: [
-        { note: 'Trismus y contracción facial',
-          say: 'El tétanos produce trismus y la risa sardónica, una mueca fija por contracción de los músculos de la cara.' },
-        { note: 'El cuerpo se arquea',
-          say: 'Y el opistótonos: espasmo de los músculos de la espalda que arquea el cuerpo.' },
       ],
     },
 
@@ -314,6 +347,81 @@ module.exports = {
         options: 'Las opciones son: solo aseo de la herida; refuerzo de dT; inmunoglobulina; dT más inmunoglobulina; o ciprofloxacino. Piénsalo.',
         answer: 'Es la A, solo el aseo. La herida es sucia, pero el esquema está completo y la última dosis fue hace menos de cinco años, así que su protección es suficiente. La B es el distractor: la lata oxidada invita a vacunar, pero el refuerzo en herida sucia se da solo si pasaron más de cinco años.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.2.009 · Tétanos",
+      "stem": "Hombre de 68 años, agricultor sin registro de vacunas, se hirió el pie con una herramienta hace 10 días. Consulta por dificultad para abrir la boca, rigidez de cuello y abdomen, y espasmos dolorosos generalizados que se desencadenan con ruidos. Está lúcido y afebril.",
+      "question": "Además del aseo quirúrgico de la herida, ¿cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inmunoglobulina antitetánica, metronidazol, benzodiazepinas y manejo en UCI, más inicio de la vacunación"
+        },
+        {
+          "letter": "B",
+          "text": "Solo vacuna dT"
+        },
+        {
+          "letter": "C",
+          "text": "Penicilina benzatina y alta"
+        },
+        {
+          "letter": "D",
+          "text": "Fenitoína por crisis convulsivas"
+        },
+        {
+          "letter": "E",
+          "text": "Bloqueo neuromuscular ambulatorio"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Trismus, rigidez y espasmos con conciencia conservada es un tétanos generalizado. Se maneja en UCI: inmunoglobulina antitetánica para neutralizar la toxina libre, metronidazol, benzodiazepinas para los espasmos, control de la vía aérea y ambiente tranquilo. La enfermedad no deja inmunidad, por lo que también se inicia la vacunación.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Agricultor de sesenta y ocho años, sin vacunas registradas, que se hirió el pie hace diez días. Ahora no puede abrir bien la boca, tiene rigidez de cuello y abdomen, y espasmos dolorosos que se gatillan con ruidos. Está lúcido y sin fiebre.",
+        "question": "Además del aseo quirúrgico de la herida, ¿cuál es el tratamiento más adecuado?",
+        "options": "Las opciones: inmunoglobulina antitetánica con metronidazol, benzodiazepinas y UCI, solo vacuna, penicilina benzatina y alta, fenitoína, o bloqueo neuromuscular ambulatorio. Piénsalo.",
+        "answer": "Es la A. Es un tétanos generalizado y necesita UCI, inmunoglobulina para la toxina circulante, metronidazol y benzodiazepinas para los espasmos. La fenitoína es el distractor: no son convulsiones epilépticas, porque el paciente está lúcido durante los espasmos."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.3.012 · Vacunas especiales (neumococo, influenza, hepatitis A y B, varicela, rabia, meningococo)",
+      "stem": "Hombre de 40 años será sometido a una esplenectomía electiva por un púrpura trombocitopénico inmune refractario a tratamiento médico.",
+      "question": "¿Qué vacunas se deben indicar, idealmente al menos 2 semanas antes de la cirugía?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solo la vacuna contra la influenza"
+        },
+        {
+          "letter": "B",
+          "text": "BCG y fiebre amarilla"
+        },
+        {
+          "letter": "C",
+          "text": "Neumococo, meningococo y Haemophilus influenzae tipo b"
+        },
+        {
+          "letter": "D",
+          "text": "Rabia y hepatitis A"
+        },
+        {
+          "letter": "E",
+          "text": "Ninguna; se vacuna solo si presenta infecciones después de la cirugía"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El asplénico tiene riesgo de sepsis fulminante por bacterias capsuladas: neumococo, meningococo y Haemophilus influenzae tipo b. Se vacuna al menos 2 semanas antes de la esplenectomía programada, o 2 semanas después si fue de urgencia, y se agrega influenza anual. Las vacunas vivas como la BCG no tienen indicación aquí.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de cuarenta años al que se le hará una esplenectomía programada, por un púrpura trombocitopénico inmune que no respondió al tratamiento médico.",
+        "question": "¿Qué vacunas se deben indicar, idealmente al menos dos semanas antes de la cirugía?",
+        "options": "Las opciones: solo influenza, BCG con fiebre amarilla, neumococo con meningococo y Haemophilus, rabia con hepatitis A o ninguna. Piénsalo.",
+        "answer": "Es la C. Sin bazo, el riesgo es la sepsis fulminante por bacterias encapsuladas, y por eso se vacuna contra neumococo, meningococo y Haemophilus antes de operar. La influenza sola es el distractor: también se indica cada año, pero no protege contra esas bacterias."
+      }
     },
 
     {

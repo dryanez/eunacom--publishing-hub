@@ -197,6 +197,103 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Ventilación mecánica',
+      title: 'Cuándo intubar y cómo programar',
+      cards: [
+        { title: 'Indicaciones de VMI', tag: 'Se reconoce y se deriva a UCI', kind: 'alert', items: [
+          { t: 'Paro o vía aérea no protegida', d: 'Glasgow ≤ 8',
+            say: 'Las indicaciones de ventilación mecánica invasiva se reconocen y se derivan a la unidad de cuidados intensivos. Paro cardiorrespiratorio, obstrucción o pérdida de la protección de la vía aérea, con Glasgow de ocho o menos.' },
+          { t: 'Hipoxemia refractaria: PaO2/FiO2 < 200', d: 'Pese a alto flujo o VMNI',
+            say: 'Hipoxemia refractaria, con relación presión arterial de oxígeno sobre fracción inspirada de oxígeno menor de doscientos, a pesar de oxígeno de alto flujo o ventilación no invasiva.' },
+          { t: 'Acidosis progresiva: pH < 7,25', d: 'O VMNI sin mejoría en 1–2 horas',
+            say: 'Acidosis respiratoria progresiva, con pH bajo siete coma veinticinco, o fracaso de la ventilación no invasiva, sin mejoría en una a dos horas.' },
+          { t: 'Fatiga muscular, shock, agitación', d: 'Respiración paradójica',
+            say: 'Fatiga muscular con respiración paradójica, shock, y agitación que impide la ventilación no invasiva.' },
+        ] },
+        { title: 'Programación inicial', tag: 'Ventilación protectora', kind: 'pharma', items: [
+          { t: 'Modo asistido-controlado, VT 6–8 mL/kg ideal', d: 'Presión meseta < 30 cmH2O',
+            say: 'Se programa un modo asistido-controlado, con volumen corriente de seis a ocho mililitros por kilo de peso ideal, y presión meseta menor de treinta centímetros de agua.' },
+          { t: 'FR 12–16, PEEP 5, FiO2 titulada a SatO2 92–96%', d: 'I:E 1:2; en obstructivos, más espiración',
+            say: 'Frecuencia de doce a dieciséis, PEEP de cinco, fracción inspirada de oxígeno inicial alta con titulación a saturación de noventa y dos a noventa y seis por ciento, y relación inspiración espiración uno a dos; en los obstructivos, más tiempo de espiración para evitar el atrapamiento aéreo.' },
+          { t: 'Gases a los 20–30 minutos', d: 'FR según pH y PaCO2; FiO2 y PEEP según oxigenación',
+            say: 'Se controlan gases a los veinte a treinta minutos y se ajusta: la frecuencia según el pH y la presión de dióxido de carbono, y la fracción inspirada de oxígeno y la PEEP según la oxigenación. Las complicaciones inmediatas son hipotensión, neumotórax e intubación esofágica o selectiva.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'flow',
+      kicker: 'Intubación orotraqueal',
+      title: 'Del material a la confirmación',
+      nodes: [
+        { id: 'pre', col: 0, row: 1, k: 'start', t: 'Preparar y preoxigenar', s: 'Bolsa-mascarilla, FiO2 100%, 3–5 min' },
+        { id: 'mat', col: 1, row: 1, k: 'mech', t: 'Verificar material', s: 'Laringoscopio, tubo con balón, bougie, capnografía' },
+        { id: 'ind', col: 2, row: 1, k: 'effect', t: 'Inducción y relajante', s: 'Secuencia rápida si riesgo de aspiración' },
+        { id: 'tub', col: 3, row: 1, k: 'effect', t: 'Laringoscopia y tubo', s: 'Balón pasa las cuerdas; 21 cm mujer, 23 cm hombre' },
+        { id: 'con', col: 4, row: 1, k: 'good', t: 'Confirmar', s: 'Capnografía sostenida, auscultación, Rx' },
+        { id: 'fal', col: 4, row: 3, k: 'alert', t: 'Falla: máximo 3 intentos', s: 'Mascarilla laríngea o cricotirotomía' },
+      ],
+      edges: [
+        { from: 'pre', to: 'mat' }, { from: 'mat', to: 'ind' }, { from: 'ind', to: 'tub' }, { from: 'tub', to: 'con' }, { from: 'tub', to: 'fal' },
+      ],
+      steps: [
+        { show: ['pre', 'mat'], note: 'Preparar antes de dormir al paciente',
+          say: 'La intubación orotraqueal se prepara antes de dormir al paciente. Se preoxigena con bolsa y mascarilla con oxígeno al cien por ciento durante tres a cinco minutos, y se revisa todo el material: laringoscopio, tubo con balón, jeringa, aspirador, bougie y capnografía.' },
+        { show: ['ind', 'tub'], note: 'Inducción, laringoscopia, tubo',
+          say: 'Se da la inducción y el relajante, con secuencia rápida si hay riesgo de aspiración. Se hace laringoscopia con alineación de la vía aérea y se pasa el tubo bajo visión hasta que el balón cruza las cuerdas: a veintiún centímetros en la mujer y veintitrés en el hombre, medido a nivel de los dientes.' },
+        { show: ['con'], note: 'La capnografía manda',
+          say: 'Se confirma con capnografía, una onda sostenida, que es el método más confiable, además de la auscultación en ambos pulmones y el epigastrio, y la radiografía de tórax, con la punta del tubo a tres a cinco centímetros de la carina. Se fija y se infla el balón entre veinte y treinta centímetros de agua.' },
+        { show: ['fal'], note: 'Límite de intentos',
+          say: 'Si falla, máximo tres intentos, y se pasa a una vía aérea alternativa, como la mascarilla laríngea, o a la cricotirotomía.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Vía aérea',
+      title: 'Aspirar y asegurar la vía aérea',
+      cards: [
+        { title: 'Aspiración traqueal', tag: 'Técnica estéril', kind: 'key', items: [
+          { t: 'Preoxigenar; sonda < mitad del tubo', d: 'Sin aspirar al introducir; < 10–15 s por pasada',
+            say: 'La aspiración traqueal se hace con técnica estéril y preoxigenando. La sonda debe medir menos de la mitad del diámetro del tubo, se introduce sin aspirar hasta sentir resistencia y se retira aspirando de forma intermitente y rotando, en menos de diez a quince segundos por pasada.' },
+          { t: 'Suspender si desatura o hay bradicardia', d: 'Hipoxemia, broncoespasmo, arritmias, infección',
+            say: 'Se vigilan saturación, ritmo y presión, y se suspende si hay desaturación o bradicardia. Sus complicaciones son hipoxemia, broncoespasmo, arritmias, daño de mucosa e infección.' },
+        ] },
+        { title: 'Vía aérea quirúrgica', tag: 'Se deriva', kind: 'alert', items: [
+          { t: 'Cricotirotomía: emergencia', d: 'Membrana cricotiroidea; no se puede intubar ni ventilar',
+            say: 'La cricotirotomía, por la membrana cricotiroidea, es la vía aérea quirúrgica de emergencia cuando no se puede intubar ni ventilar.' },
+          { t: 'Traqueostomía: electiva', d: 'Intubación > 10–14 días, obstrucción alta, destete difícil',
+            say: 'La traqueostomía es electiva: se plantea ante intubación prolongada, de más de diez a catorce días, obstrucción de la vía aérea superior y destete difícil, y se hace en pabellón o por técnica percutánea en la unidad de cuidados intensivos.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Falla respiratoria crónica',
+      title: 'Cuando la hipoxemia se vuelve estable',
+      cards: [
+        { title: 'Definición', tag: 'Gasometría estable', kind: 'criteria', items: [
+          { t: 'PaO2 < 60 mmHg', d: 'Con o sin PaCO2 > 45 mmHg',
+            say: 'La insuficiencia respiratoria crónica se define por una presión arterial de oxígeno menor de sesenta milímetros de mercurio, con o sin presión de dióxido de carbono sobre cuarenta y cinco, de forma estable.' },
+          { t: 'Compensación renal', d: 'HCO3 elevado, pH casi normal',
+            say: 'La clave que la separa de la aguda es la compensación renal: bicarbonato elevado y pH casi normal. Hay poliglobulia, cor pulmonale y cianosis.' },
+        ] },
+        { title: 'Causas', tag: 'Qué hay detrás', kind: 'key', items: [
+          { t: 'EPOC avanzado, fibrosis pulmonar', d: 'Obesidad-hipoventilación',
+            say: 'Las causas: EPOC avanzado, fibrosis pulmonar, síndrome de obesidad e hipoventilación, enfermedades neuromusculares y de la caja torácica.' },
+        ] },
+        { title: 'Manejo', tag: 'Y reagudizaciones', kind: 'pharma', items: [
+          { t: 'Oxígeno domiciliario > 15 h/día', d: 'VMNI domiciliaria si hipercapnia sintomática',
+            say: 'Oxigenoterapia domiciliaria más de quince horas al día, ventilación no invasiva domiciliaria si hay hipercapnia sintomática, rehabilitación y vacunas.' },
+          { t: 'La reagudización: como IRA tipo 2', d: 'Gases, soporte y causa',
+            say: 'Y cuando se descompensan, se tratan como insuficiencia respiratoria aguda tipo dos.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -304,6 +401,306 @@ module.exports = {
         options: 'Las opciones: hidrocortisona en bolo, nebulizar con salbutamol, ceftriaxona, intubar e iniciar ventilación mecánica, o disminuir el oxígeno al veinticuatro por ciento. Piénsalo.',
         answer: 'Es la D. Este paciente tiene un CO dos de ochenta y está soporoso: es una encefalopatía hipercápnica, la narcosis que vimos en la clínica de la tipo dos. El compromiso de conciencia es criterio de intubación, porque no protege su vía aérea. La E es el distractor tentador: es cierto que le sobra oxígeno, pero bajarlo no revierte una narcosis ya instalada. Los corticoides, el salbutamol y el antibiótico van, pero no son lo prioritario.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.010 · Gases en sangre arterial",
+      "stem": "Hombre de 35 años con síndrome de Guillain-Barré en progresión, con debilidad de extremidades y tos débil. Murmullo pulmonar normal, radiografía de tórax normal. Gases arteriales con aire ambiental (FiO2 21 %, a nivel del mar): pH 7,32, PaCO2 58 mmHg, PaO2 66 mmHg, HCO3 29 mEq/L.",
+      "question": "¿Cuál es el mecanismo de la hipoxemia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alteración ventilación/perfusión por neumonía"
+        },
+        {
+          "letter": "B",
+          "text": "Disminución de la FiO2 por altura"
+        },
+        {
+          "letter": "C",
+          "text": "Cortocircuito intrapulmonar por SDRA"
+        },
+        {
+          "letter": "D",
+          "text": "Trastorno de difusión por fibrosis"
+        },
+        {
+          "letter": "E",
+          "text": "Hipoventilación alveolar pura, con gradiente alvéolo-arterial normal"
+        }
+      ],
+      "correct": "E",
+      "explanation": "PAO2 = 150 − (58 / 0,8) ≈ 77 mmHg; gradiente A-a = 77 − 66 ≈ 11 mmHg, normal. Hipercapnia con gradiente normal y pulmón sano indica hipoventilación pura, aquí por debilidad neuromuscular. El tratamiento es ventilatorio; el oxígeno solo no corrige la causa.",
+      "say": {
+        "stem": "Un hombre de treinta y cinco años con Guillain Barré en progresión tiene tos débil, pulmón y radiografía normales. Con aire ambiental, la presión de CO dos es cincuenta y ocho y la presión de oxígeno sesenta y seis.",
+        "question": "¿Cuál es el mecanismo de la hipoxemia?",
+        "options": "Las opciones: alteración ventilación perfusión, altura, cortocircuito, trastorno de difusión o hipoventilación pura con gradiente normal. Piénsalo.",
+        "answer": "Es la E. El oxígeno alveolar calculado es cerca de setenta y siete, y el gradiente con la sangre arterial queda en once, normal: el pulmón está bien y lo que falla es el fuelle. La alteración ventilación perfusión tienta por ser la causa más frecuente de hipoxemia, pero daría un gradiente aumentado."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.5.011 · Ventilación mecánica invasiva",
+      "stem": "Hombre de 72 años con exacerbación de EPOC, en ventilación mecánica no invasiva desde hace 2 horas. Ahora está en sopor, Glasgow 8, con abundantes secreciones que no logra expectorar y vómitos. FR 36/min. Gases: pH 7,17, PaCO2 88 mmHg (al ingreso pH 7,28 y PaCO2 68 mmHg).",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener la ventilación no invasiva y aumentar la presión inspiratoria"
+        },
+        {
+          "letter": "B",
+          "text": "Intubación orotraqueal y ventilación mecánica invasiva"
+        },
+        {
+          "letter": "C",
+          "text": "Bicarbonato de sodio endovenoso"
+        },
+        {
+          "letter": "D",
+          "text": "Cambiar a oxígeno con mascarilla de alto flujo al 100 %"
+        },
+        {
+          "letter": "E",
+          "text": "Naloxona endovenosa"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Fracaso de la ventilación no invasiva: empeoramiento del pH y la PaCO2 tras 1 a 2 horas, compromiso de conciencia, incapacidad de manejar secreciones y vómitos. Son contraindicaciones para continuarla y obligan a intubar y conectar a ventilación invasiva. Insistir con la máscara retrasa la intubación y aumenta la mortalidad.",
+      "say": {
+        "stem": "Un hombre de setenta y dos años con EPOC exacerbada lleva dos horas en ventilación no invasiva. Ahora está en sopor, con Glasgow ocho, secreciones abundantes y vómitos, y el pH cayó a siete coma diecisiete con presión de CO dos de ochenta y ocho.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: subir la presión de la no invasiva, intubar y ventilar en forma invasiva, bicarbonato, oxígeno al cien por ciento, o naloxona. Piénsalo.",
+        "answer": "Es la B, intubar. La no invasiva fracasó: los gases empeoran, no protege su vía aérea y vomita. Subir la presión tienta para darle otra oportunidad, pero con Glasgow ocho y vómitos la máscara es un riesgo de aspiración y solo retrasa lo inevitable."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.5.023 · Manejo ventilatorio básico",
+      "stem": "Hombre de 55 años es encontrado en apnea tras una intoxicación por opioides. Tiene pulso carotídeo palpable. Mientras se prepara la naloxona, usted inicia ventilación con bolsa-mascarilla y oxígeno.",
+      "question": "¿Cuál es la técnica de ventilación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solo oxígeno por mascarilla de alto flujo, sin ventilar"
+        },
+        {
+          "letter": "B",
+          "text": "30 ventilaciones por minuto con el máximo volumen posible"
+        },
+        {
+          "letter": "C",
+          "text": "2 ventilaciones cada 30 compresiones torácicas"
+        },
+        {
+          "letter": "D",
+          "text": "1 ventilación por minuto para evitar hiperventilación"
+        },
+        {
+          "letter": "E",
+          "text": "1 ventilación cada 6 segundos (10 por minuto), con volumen suficiente para elevar visiblemente el tórax"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En un adulto en paro respiratorio con pulso, se ventila 1 vez cada 6 segundos, aproximadamente 10 por minuto, con volumen suficiente para elevar el tórax y durante 1 segundo cada una, sellando bien la mascarilla y abriendo la vía aérea con maniobra frente-mentón o tracción mandibular. La hiperventilación aumenta la presión intratorácica y la distensión gástrica.",
+      "say": {
+        "stem": "Hombre de cincuenta y cinco años en apnea por una intoxicación con opioides, con pulso carotídeo presente. Mientras preparan la naloxona, usted lo ventila con bolsa y mascarilla con oxígeno.",
+        "question": "¿Cuál es la técnica de ventilación más adecuada?",
+        "options": "Las opciones: solo oxígeno sin ventilar, treinta por minuto con máximo volumen, dos cada treinta compresiones, una por minuto o una ventilación cada seis segundos que eleve el tórax. Piénsalo.",
+        "answer": "Es la E. Con pulso presente no se comprime: se ventila una vez cada seis segundos, unas diez por minuto, con volumen justo para elevar el tórax. Ventilar rápido y fuerte tienta por la urgencia, pero hiperventilar distiende el estómago y baja el retorno venoso."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.5.030 · Traqueostomía y cricoidostomía",
+      "stem": "Hombre de 58 años con neumonía grave lleva 14 días en ventilación mecánica invasiva por tubo orotraqueal, con varios intentos fallidos de desconexión. Se estima que requerirá soporte ventilatorio prolongado.",
+      "question": "¿Cuál es el procedimiento más adecuado para su vía aérea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cricotiroidotomía quirúrgica"
+        },
+        {
+          "letter": "B",
+          "text": "Mantener indefinidamente el tubo orotraqueal"
+        },
+        {
+          "letter": "C",
+          "text": "Traqueostomía electiva"
+        },
+        {
+          "letter": "D",
+          "text": "Punción cricotiroidea con aguja"
+        },
+        {
+          "letter": "E",
+          "text": "Cambio a mascarilla laríngea"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En pacientes que requieren ventilación mecánica prolongada, la traqueostomía electiva, quirúrgica o percutánea, facilita el destete, mejora el confort, la higiene oral y la aspiración de secreciones, y disminuye el daño laríngeo por intubación prolongada. La cricotiroidotomía es un procedimiento de urgencia para el escenario de no intubable y no oxigenable, y debe convertirse luego en traqueostomía.",
+      "say": {
+        "stem": "Hombre de cincuenta y ocho años con neumonía grave que lleva catorce días intubado en ventilación mecánica, con varios intentos fallidos de desconexión, y que necesitará ventilación prolongada.",
+        "question": "¿Cuál es el procedimiento más adecuado para su vía aérea?",
+        "options": "Las opciones: cricotiroidotomía quirúrgica, mantener el tubo indefinidamente, traqueostomía electiva, punción cricotiroidea o mascarilla laríngea. Piénsalo.",
+        "answer": "Es la C. Para ventilación prolongada se hace una traqueostomía electiva, que facilita el destete y evita el daño de la laringe por el tubo. La cricotiroidotomía tienta porque también es una vía aérea quirúrgica, pero es un rescate de urgencia, no una vía aérea para semanas."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 125",
+      "stem": "Niño de 3 años hospitalizado por neumonía. Tiene saturación de 88% con oxígeno por naricera a 3 L/min, frecuencia respiratoria de 50/min y uso de musculatura accesoria.",
+      "question": "¿Cuál es el siguiente paso en el manejo ventilatorio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ventilación no invasiva (CPAP) o cánula nasal de alto flujo"
+        },
+        {
+          "letter": "B",
+          "text": "Intubación orotraqueal inmediata"
+        },
+        {
+          "letter": "C",
+          "text": "Aumentar el flujo de oxígeno por naricera a 6 L/min"
+        },
+        {
+          "letter": "D",
+          "text": "Adrenalina nebulizada"
+        },
+        {
+          "letter": "E",
+          "text": "Alta con oxígeno domiciliario"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Hipoxemia persistente con aumento del trabajo respiratorio pese a oxígeno por naricera indica insuficiencia respiratoria aguda en progresión. El siguiente escalón, si está alerta y hemodinámicamente estable, es soporte no invasivo: cánula nasal de alto flujo o CPAP/VNI. La intubación se reserva para falla de estas medidas, compromiso de conciencia o agotamiento.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Un niño de tres años con neumonía satura ochenta y ocho con oxígeno por naricera a tres litros, con frecuencia de cincuenta y uso de musculatura accesoria.",
+        "question": "¿Cuál es el siguiente paso ventilatorio?",
+        "options": "Las opciones: ventilación no invasiva o alto flujo, intubación inmediata, subir la naricera, adrenalina nebulizada o alta con oxígeno. Piénsalo.",
+        "answer": "Es la A. La hipoxemia con trabajo respiratorio pese a la naricera exige escalar a soporte no invasivo, como alto flujo o CPAP. La intubación tienta por la gravedad, pero se reserva si fracasa el soporte no invasivo o hay compromiso de conciencia."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.1.023 · Insuficiencia respiratoria crónica",
+      "stem": "Un hombre de 68 años con EPOC grave, estable y sin exacerbación reciente, tiene gases arteriales en reposo: pH 7,37, PaCO2 58 mmHg, PaO2 58 mmHg y HCO3 33 mEq/L.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Insuficiencia respiratoria crónica global (hipoxémica e hipercápnica) con compensación metabólica"
+        },
+        {
+          "letter": "B",
+          "text": "Acidosis respiratoria aguda descompensada"
+        },
+        {
+          "letter": "C",
+          "text": "Alcalosis metabólica primaria"
+        },
+        {
+          "letter": "D",
+          "text": "Gases arteriales normales"
+        },
+        {
+          "letter": "E",
+          "text": "Acidosis metabólica"
+        }
+      ],
+      "correct": "A",
+      "explanation": "PaO2 bajo 60 mmHg y PaCO2 sobre 45 mmHg definen insuficiencia respiratoria global. El pH casi normal con bicarbonato elevado refleja retención renal de bicarbonato, propia de un proceso crónico compensado; en una acidosis respiratoria aguda el pH estaría claramente bajo. En hipercápnicos crónicos el oxígeno se titula a saturación de 88 a 92%.",
+      "say": {
+        "stem": "Un hombre de sesenta y ocho años con EPOC grave y estable tiene pH siete coma treinta y siete, presión de dióxido de carbono de cincuenta y ocho, presión de oxígeno de cincuenta y ocho y bicarbonato de treinta y tres.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: insuficiencia respiratoria crónica global compensada, acidosis respiratoria aguda, alcalosis metabólica primaria, gases normales o acidosis metabólica. Piénsalo.",
+        "answer": "Es la A. Hay hipoxemia e hipercapnia con pH casi normal gracias a un bicarbonato alto, eso es insuficiencia respiratoria crónica compensada. La acidosis aguda tienta por la hipercapnia, pero tendría el pH claramente bajo."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.2.009 · Insuficiencia respiratoria aguda o crónica reagudizada,",
+      "stem": "Una mujer de 72 años con EPOC grave presenta una exacerbación con disnea intensa, FR 30 por minuto y uso de musculatura accesoria. Está vigil y cooperadora. Gases arteriales: pH 7,28, PaCO2 68 mmHg, PaO2 50 mmHg, HCO3 31 mEq/L.",
+      "question": "Además de broncodilatadores, corticoides y oxígeno controlado, ¿cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Intubación inmediata en todos los casos"
+        },
+        {
+          "letter": "B",
+          "text": "Oxígeno con mascarilla de reservorio al 100%"
+        },
+        {
+          "letter": "C",
+          "text": "Ventilación mecánica no invasiva (BiPAP)"
+        },
+        {
+          "letter": "D",
+          "text": "Bicarbonato endovenoso"
+        },
+        {
+          "letter": "E",
+          "text": "Sedación con benzodiacepinas"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La insuficiencia respiratoria hipercápnica aguda sobre crónica con acidosis (pH bajo 7,35, PaCO2 sobre 45 mmHg) en una exacerbación de EPOC, con paciente vigil y cooperador, es la principal indicación de ventilación no invasiva: reduce intubación y mortalidad. El oxígeno se titula a 88-92%, porque al 100% empeora la hipercapnia. Se intuba si fracasa.",
+      "say": {
+        "stem": "Una mujer de setenta y dos años con EPOC grave está exacerbada, con frecuencia respiratoria de treinta y musculatura accesoria, vigil y cooperadora. Tiene pH de siete coma veintiocho, dióxido de carbono de sesenta y ocho y oxígeno de cincuenta.",
+        "question": "Además de broncodilatadores, corticoides y oxígeno controlado, ¿qué conducta es la más adecuada?",
+        "options": "Las opciones: intubación inmediata, oxígeno con reservorio al cien por ciento, ventilación no invasiva, bicarbonato o sedación con benzodiacepinas. Piénsalo.",
+        "answer": "Es la C. La exacerbación de EPOC con acidosis respiratoria en una paciente vigil es la indicación clásica de ventilación no invasiva. El oxígeno al cien por ciento tienta por la hipoxemia, pero empeora la hipercapnia."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.5.007 · Intubación traqueal",
+      "stem": "Se intuba a un paciente de 60 años por insuficiencia respiratoria aguda. Tras pasar el tubo se ausculta murmullo pulmonar bilateral, pero se requiere confirmar en forma objetiva que el tubo está en la tráquea.",
+      "question": "¿Cuál es el método más confiable para confirmar de inmediato la intubación traqueal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Empañamiento del tubo"
+        },
+        {
+          "letter": "B",
+          "text": "Ausencia de ruidos en el epigastrio"
+        },
+        {
+          "letter": "C",
+          "text": "Expansión torácica"
+        },
+        {
+          "letter": "D",
+          "text": "Saturometría a los 5 minutos"
+        },
+        {
+          "letter": "E",
+          "text": "Capnografía con curva de CO2 espirado persistente"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La capnografía de onda continua, que muestra CO2 espirado en ciclos sucesivos, es el método más confiable para confirmar la posición traqueal del tubo y detectar desplazamientos. Los signos clínicos pueden engañar y la saturación cae tardíamente en una intubación esofágica. Luego se verifica la altura del tubo con radiografía de tórax.",
+      "say": {
+        "stem": "Se intuba a un paciente de sesenta años por insuficiencia respiratoria aguda. Se ausculta murmullo bilateral, pero se quiere confirmar objetivamente que el tubo está en la tráquea.",
+        "question": "¿Cuál es el método más confiable para confirmarlo de inmediato?",
+        "options": "Las opciones: empañamiento del tubo, silencio en el epigastrio, expansión torácica, saturometría a los cinco minutos o capnografía con curva de dióxido de carbono persistente. Piénsalo.",
+        "answer": "Es la E. Una curva de dióxido de carbono espirado que se mantiene en varios ciclos confirma la tráquea. El empañamiento tienta por ser clásico, pero también ocurre en una intubación esofágica."
+      }
     },
 
     {

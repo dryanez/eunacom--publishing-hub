@@ -52,9 +52,11 @@ module.exports = {
         ] },
         { title: 'Sobre 500', tag: 'La prioridad es el páncreas', kind: 'alert', items: [
           { t: '500–999: severo', d: 'Riesgo inminente de pancreatitis: fibrato',
-            say: 'Pero sobre quinientos, la hipertrigliceridemia es severa, con riesgo inminente de pancreatitis aguda, y se inicia un fibrato de urgencia.' },
+            say: 'Pero sobre quinientos, la hipertrigliceridemia es severa, con riesgo inminente de pancreatitis aguda, y se inicia un fibrato de urgencia. Mira esta muestra de plasma: es lechoso por el exceso de triglicéridos.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-24/01_plasma_lipemico__commons.jpg', label: 'Plasma lechoso', at: 'Mira esta muestra de plasma', credit: 'Wikimedia Commons «Lipemic plasma.jpg», CC BY-SA 3.0, DiverDave' }] },
           { t: '1.000 o más: crítico', d: 'Fibrato inmediato, cero alcohol, dieta casi sin grasa',
-            say: 'Y sobre mil es crítica, con quilomicronemia y alto riesgo de pancreatitis: fibrato inmediato, cero alcohol y una dieta prácticamente sin grasas. Ese corte de quinientos es el que separa las respuestas en el examen.' },
+            say: 'Y sobre mil es crítica, con quilomicronemia y alto riesgo de pancreatitis: fibrato inmediato, cero alcohol y una dieta prácticamente sin grasas. Ese corte de quinientos es el que separa las respuestas en el examen. Y en esta piel, las pápulas amarillentas con halo rojo son xantomas eruptivos, que aparecen de golpe con triglicéridos muy altos.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-24/01_xantomas-eruptivos__amir-derma_p26.jpg', label: 'Xantomas eruptivos', at: 'Y en esta piel', credit: 'Manual AMIR Dermatología, p. 26' }] },
         ] },
       ],
     },
@@ -108,9 +110,11 @@ module.exports = {
       cards: [
         { title: 'Examen físico', tag: 'Estigmas', kind: 'alert', items: [
           { t: 'Xantomas tendinosos', d: 'Aquiles y extensores de la mano: patognomónicos',
-            say: 'Al examen físico hay un signo patognomónico: los xantomas tendinosos, engrosamientos nodulares e indoloros en los tendones de Aquiles y en los extensores de las manos. Si un enunciado te habla de nódulos en el Aquiles, piensa en esto.' },
+            say: 'Al examen físico hay un signo patognomónico: los xantomas tendinosos, engrosamientos nodulares e indoloros en los tendones de Aquiles y en los extensores de las manos. Si un enunciado te habla de nódulos en el Aquiles, piensa en esto. Mira este tendón de Aquiles engrosado: es un xantoma tendinoso.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-24/02_xantomas-tendinosos__fitzpatrick_p1311.jpg', label: 'Xantoma del Aquiles', at: 'Mira este tendón de Aquiles', credit: 'Fitzpatrick 7.ª ed., Fig. 135-4' }] },
           { t: 'Arco corneal antes de los 45', d: 'Y xantelasmas en los párpados',
-            say: 'Además, el arco corneal prematuro, un anillo grisáceo en la periferia de la córnea antes de los cuarenta y cinco años, y los xantelasmas, placas amarillentas en los párpados.' },
+            say: 'Además, el arco corneal prematuro, un anillo grisáceo en la periferia de la córnea antes de los cuarenta y cinco años, y los xantelasmas, placas amarillentas en los párpados. Y este anillo grisáceo en el borde de la córnea es el arco corneal.',
+          photos: [{ src: 'biblioteca/04_diabetes/diab-24/03_arco-corneal__bates_p306.jpg', label: 'Arco corneal', at: 'Y este anillo grisáceo', credit: 'Bates\' Guide to Physical Examination, p. 306' }] },
         ] },
         { title: 'Historia familiar', tag: 'Coronaria precoz', kind: 'criteria', items: [
           { t: 'Familiar de 1.er grado con IAM precoz', d: 'Hombre menor de 55, mujer menor de 65',
@@ -124,32 +128,44 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'La hipertrigliceridemia severa',
-      images: [
-        { src: 'biblioteca/04_diabetes/diab-24/01_plasma_lipemico__commons.jpg', label: 'Plasma lechoso', credit: 'Wikimedia Commons «Lipemic plasma.jpg», CC BY-SA 3.0, DiverDave' },
-        { src: 'biblioteca/04_diabetes/diab-24/01_xantomas-eruptivos__amir-derma_p26.jpg', label: 'Xantomas eruptivos', credit: 'Manual AMIR Dermatología, p. 26' },
-      ],
-      steps: [
-        { note: 'El plasma parece leche',
-          say: 'Con triglicéridos muy altos el plasma se ve lechoso, como en estas bolsas. Ese paciente está en riesgo de pancreatitis.' },
-        { note: 'Pápulas amarillas de base roja',
-          say: 'Y estos son xantomas eruptivos: pápulas amarillentas con halo rojo que aparecen de golpe. Indican triglicéridos muy elevados.' },
+      type: 'points',
+      kicker: 'Dieta',
+      title: 'El régimen según la dislipidemia',
+      cards: [
+        { title: 'Hipercolesterolemia', tag: 'LDL alto', kind: 'key', items: [
+          { t: 'Grasas saturadas < 7–10 % de las calorías', d: 'Trans cerca de cero',
+            say: 'Veamos el régimen dietético, que se pregunta por separado según la dislipidemia. En la hipercolesterolemia, las grasas saturadas bajo siete a diez por ciento de las calorías: carnes grasas, mantequilla, lácteos enteros, coco. Y las grasas trans lo más cerca de cero.' },
+          { t: 'Colesterol < 200–300 mg/día', d: 'Limitar yema de huevo y vísceras',
+            say: 'El colesterol de la dieta, bajo doscientos a trescientos miligramos al día, limitando la yema de huevo y las vísceras.' },
+          { t: 'Fibra soluble y esteroles vegetales', d: 'Bajan el LDL 5–15 %',
+            say: 'Se aumenta la fibra soluble, con avena, legumbres y manzana, y los esteroles vegetales, dos gramos al día, que bajan el LDL entre cinco y quince por ciento. Se reemplazan las grasas saturadas por monoinsaturadas y poliinsaturadas: aceite de oliva, canola, frutos secos, pescado azul. Pero ojo: la dieta sola baja el LDL solo diez a quince por ciento.' },
+        ] },
+        { title: 'Hipertrigliceridemia', tag: 'TG altos', kind: 'alert', items: [
+          { t: 'Alcohol: cero si TG > 500', d: 'Y azúcares simples, fructosa, bebidas azucaradas',
+            say: 'En la hipertrigliceridemia lo primero es eliminar el alcohol, cero si los triglicéridos pasan de quinientos, y los azúcares simples, la fructosa y las bebidas azucaradas, además de reducir los carbohidratos refinados.' },
+          { t: 'Pescados grasos 2 veces por semana', d: 'Omega-3 y comidas fraccionadas',
+            say: 'Pescados grasos dos veces por semana por el omega tres, y comidas fraccionadas. Si los triglicéridos superan quinientos a mil, se reduce la grasa total a menos de quince a veinte por ciento de las calorías.' },
+          { t: 'Bajar 5–10 % del peso', d: 'TG caen cerca de 20 %; sumar aeróbico',
+            say: 'Bajar de cinco a diez por ciento del peso reduce los triglicéridos cerca de veinte por ciento, y se suma el ejercicio aeróbico.' },
+        ] },
+        { title: 'Para toda dislipidemia', tag: 'Dieta mediterránea', kind: 'criteria', items: [
+          { t: 'Aceite de oliva o frutos secos', d: 'Reduce eventos CV cerca de 30 % (PREDIMED)',
+            say: 'Y el patrón de base para toda dislipidemia es la dieta mediterránea, con aceite de oliva extra virgen o frutos secos, que en el estudio PREDIMED redujo los eventos cardiovasculares cerca de treinta por ciento.' },
+        ] },
       ],
     },
 
     {
       type: 'image',
-      kicker: 'Más imágenes',
-      title: 'La hipercolesterolemia familiar',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Cómo los triglicéridos inflaman el páncreas',
       images: [
-        { src: 'biblioteca/04_diabetes/diab-24/02_xantomas-tendinosos__fitzpatrick_p1311.jpg', label: 'Xantoma tendinoso del Aquiles', credit: 'Fitzpatrick 7.ª ed., Fig. 135-4' },
+        { src: 'animaciones/diab-24/A1_pancreatitis_tg.mp4', label: 'Hipertrigliceridemia y páncreas', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Engrosamiento del tendón de Aquiles',
-          say: 'Y este es el signo de la hipercolesterolemia familiar: un xantoma tendinoso, un engrosamiento nodular e indoloro sobre el tendón de Aquiles. Junto a un LDL muy alto, es patognomónico.' },
+        { note: 'Quilomicrones, lipasa y ácidos grasos libres',
+          say: 'Con triglicéridos sobre quinientos a mil, los quilomicrones y las VLDL tapan los capilares del páncreas. La lipasa hidroliza esos triglicéridos y libera ácidos grasos libres, que son citotóxicos. El resultado es isquemia y daño directo: una pancreatitis aguda con más necrosis que la biliar. Por eso la prioridad es bajar los triglicéridos.' },
       ],
     },
 
@@ -174,6 +190,8 @@ module.exports = {
           say: 'LDL sobre ciento noventa, xantomas en el Aquiles y un padre con infarto joven: hipercolesterolemia familiar, con triglicéridos normales.' },
         { cells: ['Hipercolesterolemia familiar', 'Estatina máxima + ezetimiba ± iPCSK9', 'Dieta sola o estatina a dosis baja'],
           say: 'Y su tratamiento es estatina a dosis máxima, ezetimiba y, si hace falta, un inhibidor de PCSK nueve. La dieta sola no alcanza para un problema genético.' },
+        { cells: ['Triglicéridos de 600 mg/dL en bebedor de alcohol', 'Alcohol cero, sin azúcares simples ni fructosa', 'Aumentar el aceite de oliva sin tocar el alcohol'],
+          say: 'Y triglicéridos sobre quinientos en un paciente que toma alcohol: alcohol cero, y fuera los azúcares simples y la fructosa. La trampa es cambiar solo el tipo de grasa.' },
       ],
     },
 
@@ -267,6 +285,119 @@ module.exports = {
         options: 'Las opciones son: colestiramina, dieta estricta, rosuvastatina, ezetimiba, o fenofibrato. Piénsalo.',
         answer: 'Es la C, rosuvastatina. Junta las piezas: joven, LDL sobre doscientos, padre infartado a los cuarenta. Es el perfil de una hipercolesterolemia familiar, y necesita estatina sí o sí. La CK está prácticamente normal, así que fue una mialgia simple: se cambia a rosuvastatina en vez de abandonar. La ezetimiba sola o la dieta no alcanzan para un LDL de origen genético.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.2.005 · Hipertrigliceridemia grave",
+      "stem": "Hombre de 47 años, con obesidad, DM2 en tratamiento con metformina y consumo de 5 cervezas diarias. Asintomático. En un control se informa suero lactescente, triglicéridos 1.450 mg/dL, colesterol total 310 mg/dL, HDL 26 mg/dL. Lipasa normal. Examen abdominal sin dolor.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar atorvastatina 80 mg/día"
+        },
+        {
+          "letter": "B",
+          "text": "Solo dieta y control en 6 meses, ya que está asintomático"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar ezetimibe y controlar en 3 meses"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar fibrato, suspender completamente el alcohol y dieta muy baja en grasas"
+        },
+        {
+          "letter": "E",
+          "text": "Agregar gemfibrozilo a una estatina en dosis alta"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Triglicéridos sobre 1.000 mg/dL: hipertrigliceridemia grave con alto riesgo de pancreatitis aguda. La prioridad deja de ser el LDL; se inicia de inmediato un fibrato, se suspende totalmente el alcohol y se indica una dieta prácticamente sin grasas, además de optimizar el control glicémico. El gemfibrozilo no se combina con estatinas.",
+      "say": {
+        "stem": "Hombre de cuarenta y siete años, obeso, diabético y bebedor de cinco cervezas diarias. Está asintomático, pero su suero es lactescente, con triglicéridos de mil cuatrocientos cincuenta y lipasa normal.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: atorvastatina en dosis alta, solo dieta y control en seis meses, ezetimibe, fibrato con cero alcohol y dieta muy baja en grasas o gemfibrozilo más estatina. Piénsalo.",
+        "answer": "Es la D. Con triglicéridos sobre mil el riesgo inmediato es la pancreatitis, así que se parte con fibrato, cero alcohol y dieta casi sin grasas. La atorvastatina tienta porque es el fármaco de siempre, pero baja poco los triglicéridos y no previene la pancreatitis."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2017 · Pregunta 90",
+      "stem": "Un paciente obeso, con antecedente de hígado graso, luego de una transgresión alimentaria con abundante consumo de alcohol presenta un cuadro de dolor epigástrico irradiado a ambos costados, asociado a vómitos alimentarios, sensación febril e ictericia. Al examen físico su presión arterial es de 110/70 mmHg, con frecuencia cardíaca de 100 por minuto, y al examen abdominal presenta dolor a la palpación de forma difusa, con abolición de ruidos hidroaéreos.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Isquemia mesentérica"
+        },
+        {
+          "letter": "B",
+          "text": "Colangitis"
+        },
+        {
+          "letter": "C",
+          "text": "Pancreatitis"
+        },
+        {
+          "letter": "D",
+          "text": "Colecistitis"
+        },
+        {
+          "letter": "E",
+          "text": "Coledocolitiasis"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Dolor epigástrico intenso irradiado en faja a ambos costados, con vómitos, tras una transgresión alimentaria y alcohol, más íleo (ruidos hidroaéreos abolidos): pancreatitis aguda. Se confirma con lipasa o amilasa sobre 3 veces el valor normal. La ictericia puede acompañarla y no basta para pensar en colangitis.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecisiete. Paciente obeso con hígado graso que, tras una comida abundante con mucho alcohol, presenta dolor epigástrico irradiado a ambos costados, vómitos, sensación febril e ictericia. Está taquicárdico, con dolor abdominal difuso y ruidos hidroaéreos abolidos.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: isquemia mesentérica, colangitis, pancreatitis, colecistitis, o coledocolitiasis. Piénsalo.",
+        "answer": "Es la C, pancreatitis. Dolor epigástrico en faja hacia ambos costados después de una transgresión con alcohol es el cuadro clásico, y el íleo acompaña a la inflamación pancreática. La colangitis tienta por la fiebre y la ictericia, pero su dolor es en el hipocondrio derecho, no en faja."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.3.011 · Regímenes dietéticos para dislipidemias",
+      "stem": "Un hombre de 46 años, obeso, consume 4 a 5 latas de cerveza diarias y bebidas azucaradas. Su perfil lipídico muestra triglicéridos de 650 mg/dL y LDL de 110 mg/dL. No tiene antecedente de pancreatitis.",
+      "question": "Además del tratamiento farmacológico, ¿cuál es la medida dietética más importante?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aumentar el consumo de pan blanco"
+        },
+        {
+          "letter": "B",
+          "text": "Aumentar el consumo de jugos de fruta"
+        },
+        {
+          "letter": "C",
+          "text": "Dieta rica en grasas saturadas y baja en proteínas"
+        },
+        {
+          "letter": "D",
+          "text": "Eliminar exclusivamente el huevo"
+        },
+        {
+          "letter": "E",
+          "text": "Suspender el alcohol y reducir azúcares simples y carbohidratos refinados"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La hipertrigliceridemia responde especialmente a suprimir el alcohol, reducir azúcares simples (bebidas, jugos, dulces) y carbohidratos refinados, bajar de peso y hacer ejercicio. Con triglicéridos sobre 500 mg/dL se agrega fibrato por riesgo de pancreatitis, y sobre 1.000 mg/dL, restricción estricta de grasas. El huevo influye poco.",
+      "say": {
+        "stem": "Un hombre obeso de cuarenta y seis años toma cuatro a cinco cervezas diarias y bebidas azucaradas. Sus triglicéridos son seiscientos cincuenta.",
+        "question": "Además de los fármacos, ¿cuál es la medida dietética más importante?",
+        "options": "Las opciones: más pan blanco, más jugos de fruta, dieta rica en grasas saturadas, eliminar solo el huevo o suspender el alcohol y reducir azúcares y harinas refinadas. Piénsalo.",
+        "answer": "Es la E. Los triglicéridos responden sobre todo a suspender el alcohol y bajar azúcares simples y carbohidratos refinados. Los jugos de fruta tientan como algo sano, pero son azúcar libre que sube los triglicéridos."
+      }
     },
 
     {

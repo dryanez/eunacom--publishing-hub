@@ -305,14 +305,14 @@ Paciente de 55 años alcohólico crónico, 48 horas después de dejar de beber p
 Explicación del banco: Delirium tremens: síndrome de abstinencia alcohólica grave (48-72h post cese). Tratamiento: benzodiacepinas IV (diazepam o lorazepam) para prevenir convulsiones + tiamina IM + fluidos.
 
 ### [10] EUNACOM Diciembre 2025 · Pregunta 177 · confianza 0.85
-Un paciente de 45 años, con IMC de 32 kg/m², acude a control médico, obje8vándose presión arterial de 146/92 mmHg. Se solicita Holter de presión arterial, que muestra múl8ples registros sobre 140/90 mmHg, diagnos8cándose hipertensión arterial. Sus exámenes de laboratorio resultan normales, incluyendo función renal, electrolitos plasmá8cos y electrocardiograma. ¿Qué 8po de fármacos es el más adecuado para iniciar el tratamiento an8hipertensivo en este paciente?
+Un paciente de 45 años, con IMC de 32 kg/m², acude a control médico, objetivándose presión arterial de 146/92 mmHg. Se solicita Holter de presión arterial, que muestra múltiples registros sobre 140/90 mmHg, diagnosticándose hipertensión arterial. Sus exámenes de laboratorio resultan normales, incluyendo función renal, electrolitos plasmáticos y electrocardiograma. ¿Qué tipo de fármacos es el más adecuado para iniciar el tratamiento antihipertensivo en este paciente?
 - A) Bloqueadores alfa-adrenérgicos
 - B) Bloqueadores beta-adrenérgicos
 - C) Inhibidores del canal de calcio
 - D) Antagonistas del receptor de angiotensina
 - E) Diuré2cos 2azídicos
 **Correcta: D**
-Explicación del banco: Además de obesidad, con alta probabilidad Gene una hipertensión esencial, ya que no Gene elementos que hagan sospechar una causa secundaria. En pacientes jóvenes se suele iniciar con IECA (inhibidores de la enzima converGdora de angiotensina) o ARA2 (antagonistas del receptor de angiotensina 2). Muchas guías actuales preﬁeren iniciar con dos fármacos de forma simultánea (ej. losartán + amlodipino). Aunque IECA y ARA2 Genen resultados comparables, muchos pacientes preﬁeren el losartán sobre el enalapril, debido a que se toma una vez al día.
+Explicación del banco: Además de obesidad, con alta probabilidad Gene una hipertensión esencial, ya que no Gene elementos que hagan sospechar una causa secundaria. En pacientes jóvenes se suele iniciar con IECA (inhibidores de la enzima convertidora de angiotensina) o ARA2 (antagonistas del receptor de angiotensina 2). Muchas guías actuales prefieren iniciar con dos fármacos de forma simultánea (ej. losartán + amlodipino). Aunque IECA y ARA2 Genen resultados comparables, muchos pacientes prefieren el losartán sobre el enalapril, debido a que se toma una vez al día.
 
 ### [11] EUNACOM Diciembre 2024 · Pregunta 40 · confianza 0.85
 Paciente en tratamiento anti hipertensivo + sd vertiginoso en tto con Cinarizina, metformina, inicia temblor de reposo, simétrico, bilateral, rigidez y asociado a caídas frecuentes. ¿Cuál es el diagnóstico más probable?
@@ -325,14 +325,14 @@ Paciente en tratamiento anti hipertensivo + sd vertiginoso en tto con Cinarizina
 Explicación del banco: Diagnóstico: **Parkinson POR QUÉ NO PODÍA SER PÁRKINSON ? Porque describía un temblor bilateral simétrico, Parkinson inicia como unilateral y no simétrico** (opción **A**). El cuadro clínico presentado reúne los criterios diagnósticos cardinales para esta patología, de acuerdo a las pautas de práctica clínica del Ministerio de Salud (MINSAL).
 
 ### [12] EUNACOM Diciembre 2025 · Pregunta 99 · confianza 0.8
-Un paciente de 62 años, con antecedente de hipertensión arterial en tratamiento con doxazosina, hiperplasia prostá8ca benigna en tratamiento con tamsulosina y trastorno afec8vo bipolar en tratamiento con carbonato de li8o, consulta por temblor de manos mayor a derecha que aparece con el reposo y se asocia a len8tud en los movimientos. El cuadro inició hace 4 meses. Se miden los niveles plasmá8cos de los fármacos que u8liza, los que son informados dentro de rango terapéu8co. ¿Cuál es la conducta más adecuada?
+Un paciente de 62 años, con antecedente de hipertensión arterial en tratamiento con doxazosina, hiperplasia prostática benigna en tratamiento con tamsulosina y trastorno afectivo bipolar en tratamiento con carbonato de litio, consulta por temblor de manos mayor a derecha que aparece con el reposo y se asocia a lentitud en los movimientos. El cuadro inició hace 4 meses. Se miden los niveles plasmáticos de los fármacos que utiliza, los que son informados dentro de rango terapéutico. ¿Cuál es la conducta más adecuada?
 - A) Suspender la doxazosina
 - B) Disminuir la dosis de carbonato de li2o
 - C) Suspender la tamsulosina
 - D) Realizar prueba con levodopa
 - E) Iniciar propranolol vía oral
 **Correcta: D**
-Explicación del banco: La bradicinesia (lentitud de movimientos) más temblor obliga a pensar en enfermedad de Parkinson, cuyo diagnóstico es clínico, pudiendo hacer una prueba con levodopa para ver si mejoran los síntomas. La intoxicación por liGo sí puede producir temblor, pero suele ser aguda y, además, explícitamente se reportan niveles dentro de rango terapéutico.
+Explicación del banco: La bradicinesia (lentitud de movimientos) más temblor obliga a pensar en enfermedad de Parkinson, cuyo diagnóstico es clínico, pudiendo hacer una prueba con levodopa para ver si mejoran los síntomas. La intoxicación por litio sí puede producir temblor, pero suele ser aguda y, además, explícitamente se reportan niveles dentro de rango terapéutico.
 
 ### [13] EUNACOM Diciembre 2024 · Pregunta 145 · confianza 0.8
 Era una clínica de ojo rojo, pero con temblor en las manos y baja de peso, al examen físico se observa retracción palpebral: a.​ TSH y T4 libre

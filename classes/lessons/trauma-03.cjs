@@ -80,38 +80,12 @@ module.exports = {
           { t: 'Retirar yesos y vendajes', d: 'Primer paso inmediato',
             say: 'El primer paso es retirar de inmediato todo lo que aprieta: el yeso y los vendajes. Ojo con la trampa: en el examen, elevar la extremidad aparece como alternativa y es incorrecta. Lo que resuelve es retirar el yeso y reevaluar.' },
           { t: 'Si no mejora de inmediato: cirugía', d: 'Fasciotomía amplia',
-            say: 'Pero si no mejora enseguida, el tratamiento definitivo es la fasciotomía amplia, que libera la presión. El sentido de urgencia es el que se pregunta: la isquemia muscular se cuenta en horas.' },
+            photos: [
+              { src: 'biblioteca/18_traumatologia/trauma-03/01_fasciotomia-antebrazo__atls_p213.jpg', label: 'Fasciotomía del antebrazo', at: 'Mira esta fasciotomía', credit: 'ATLS 10.ª ed., Fig. 8-8A' },
+              { src: 'biblioteca/18_traumatologia/trauma-03/02_fasciotomia-pierna__atls_p213.jpg', label: 'Pierna descomprimida', at: 'Y en esta pierna', credit: 'ATLS 10.ª ed., Fig. 8-8B' },
+            ],
+            say: 'Pero si no mejora enseguida, el tratamiento definitivo es la fasciotomía amplia, que libera la presión. Mira esta fasciotomía del antebrazo: se abre la piel y la fascia en toda la longitud del compartimento y el músculo queda expuesto. Y en esta pierna, con la incisión medial, el músculo ya tiene espacio. El sentido de urgencia es lo que se pregunta: la isquemia muscular se cuenta en horas.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Fasciotomía: el compartimento abierto',
-      images: [
-        { src: 'biblioteca/18_traumatologia/trauma-03/01_fasciotomia-antebrazo__atls_p213.jpg', label: 'Fasciotomía del antebrazo por aplastamiento', credit: 'ATLS 10.ª ed., Fig. 8-8A' },
-        { src: 'biblioteca/18_traumatologia/trauma-03/02_fasciotomia-pierna__atls_p213.jpg', label: 'Descompresión de la pierna con incisión medial', credit: 'ATLS 10.ª ed., Fig. 8-8B' },
-      ],
-      steps: [
-        { note: 'Antebrazo: la fascia abierta en toda su longitud',
-          say: 'Esta es una fasciotomía del antebrazo en un paciente con aplastamiento. Fíjate en lo amplia que es la incisión: se abre la piel y la fascia en toda la longitud del compartimento, y el músculo queda expuesto. Por eso el libro la llama fasciotomía amplia.' },
-        { note: 'Pierna: descompresión con incisión medial',
-          say: 'Y esta es la pierna, ya descomprimida, con la incisión medial. El músculo que antes estaba apretado ahora tiene espacio. Lo importante para el examen no es la técnica, sino la indicación: dolor desproporcionado que no mejora al retirar el yeso.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'El TEP en el angioTAC',
-      images: [
-        { src: 'biblioteca/18_traumatologia/trauma-03/03_angiotc-tep__cto-neumo_p103.jpg', label: 'AngioTAC: trombos en las arterias pulmonares', credit: 'Manual CTO Neumología 14.ª ed., p. 103' },
-      ],
-      steps: [
-        { note: 'Defectos de llenado',
-          say: 'Si días después de la fractura aparece disnea súbita, piensa en tromboembolismo pulmonar. El angioTAC lo confirma: el trombo se ve oscuro dentro de la arteria pulmonar, que debería estar blanca de contraste.' },
       ],
     },
 
@@ -138,13 +112,36 @@ module.exports = {
     {
       type: 'points',
       kicker: 'Complicaciones sistémicas',
+      title: 'Trombosis venosa profunda del traumatizado',
+      cards: [
+        { title: 'Por qué ocurre', tag: 'Tríada de Virchow', kind: 'key', items: [
+          { t: 'Estasis, daño endotelial, hipercoagulabilidad', d: 'Inmovilización y trauma',
+            say: 'Antes del tromboembolismo pulmonar está su origen: la trombosis venosa profunda. Tras una fractura se cumple la tríada de Virchow: estasis por la inmovilización, daño del endotelio e hipercoagulabilidad por el trauma.' },
+          { t: 'Pelvis, fémur y tibia', d: 'Más prótesis de cadera o rodilla, edad y obesidad',
+            say: 'El riesgo es mayor en las fracturas de pelvis, fémur y tibia, en la cirugía ortopédica mayor, como las prótesis de cadera o rodilla, y con la edad avanzada y la obesidad.' },
+        ] },
+        { title: 'Cómo se maneja', tag: 'Dx y tratamiento', kind: 'alert', items: [
+          { t: 'Edema asimétrico y pantorrilla empastada', d: 'Puede ser asintomática',
+            say: 'Puede ser asintomática, o dar dolor, edema asimétrico, empastamiento de la pantorrilla y aumento de la temperatura local.' },
+          { t: 'Wells y ecografía Doppler', d: 'El dímero D no descarta',
+            say: 'El diagnóstico se apoya en la probabilidad clínica, con la escala de Wells, y en la ecografía Doppler venosa. Como en la fractura el dímero D no discrimina, no se usa para descartar.' },
+          { t: 'Anticoagular y derivar', d: 'Heparina de bajo peso, luego oral por 3 meses',
+            say: 'El manejo inicial es anticoagular, con heparina de bajo peso molecular a dosis terapéutica, seguida de anticoagulante oral por al menos tres meses si fue provocada por el trauma, y derivar. La tromboflebitis superficial, en cambio, se trata con antiinflamatorios, compresas y deambulación.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Complicaciones sistémicas',
       title: 'Tromboembolismo y embolia grasa',
       cards: [
         { title: 'Tromboembolismo pulmonar', tag: 'Días después', kind: 'alert', items: [
           { t: 'Disnea súbita y dolor pleurítico', d: 'Desaturación; a veces hemoptisis o síncope',
             say: 'Pasemos a las complicaciones sistémicas. El tromboembolismo pulmonar aparece días después de la fractura, con disnea súbita, dolor torácico pleurítico y desaturación. Puede haber hemoptisis o síncope.' },
           { t: 'Dx: AngioTAC de tórax', d: 'El dímero D no sirve aquí',
-            say: 'Se diagnostica con angioTAC de tórax. La perla del examen es que el dímero D no sirve en este contexto: la fractura y la cirugía lo elevan de forma inespecífica.' },
+            photo: { src: 'biblioteca/18_traumatologia/trauma-03/03_angiotc-tep__cto-neumo_p103.jpg', label: 'Trombos pulmonares', at: 'En este angioTAC', credit: 'Manual CTO Neumología 14.ª ed., p. 103' },
+            say: 'Se diagnostica con angioTAC de tórax. En este angioTAC el trombo se ve oscuro dentro de la arteria pulmonar, que debería estar blanca de contraste. La perla del examen es que el dímero D no sirve en este contexto: la fractura y la cirugía lo elevan de forma inespecífica.' },
           { t: 'TEP masivo: ecocardiograma y trombolisis', d: 'Si hay shock o hipotensión',
             say: 'Si hay compromiso hemodinámico, el examen puede ser un ecocardiograma que busque falla derecha, y el tratamiento de elección es la trombolisis.' },
         ] },
@@ -171,6 +168,20 @@ module.exports = {
           say: 'El tromboembolismo pulmonar aparece días después, con disnea súbita. Se diagnostica con angioTAC, y no con dímero D.' },
         { cells: ['Distrofia simpático refleja', 'Semanas a meses', 'Dolor urente, alodinia, cambios tróficos', 'Diagnóstico clínico'],
           say: 'Y la distrofia simpático refleja aparece semanas a meses después, con dolor urente, alodinia y cambios tróficos. Si identificas el tiempo y el síntoma estrella, aciertas casi todas las preguntas de este grupo.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La presión sube, la perfusión cae',
+      images: [
+        { src: 'animaciones/trauma-03/A1_sindrome_compartimental.mp4', label: 'Síndrome compartimental: del dolor a la necrosis', credit: 'Gráfico esquemático propio, sin anatomía' },
+      ],
+      steps: [
+        { note: 'Retirar el yeso y reevaluar',
+          say: 'Este gráfico muestra por qué es una urgencia de horas. El compartimento no se expande: el edema sube la presión y cae la perfusión. Primero aparece el dolor desproporcionado, luego el dolor al estirar los dedos y las parestesias. La palidez y la ausencia de pulso son tardías. Ante la sospecha, retira el yeso y los vendajes, y si no mejora, fasciotomía amplia. Elevar la extremidad no es la respuesta.' },
       ],
     },
 
@@ -338,6 +349,44 @@ module.exports = {
         options: 'Las opciones: tromboembolismo masivo con trombolisis; embolia grasa con soporte; embolia grasa con heparina; síndrome compartimental con fasciotomía; o distrofia simpático refleja con pregabalina. Piénsalo.',
         answer: 'Es la B. Seis horas, distrés, conciencia alterada y petequias: la tríada de la embolia grasa. Y el tratamiento es de soporte. La C es la trampa, porque acierta el diagnóstico, pero no hay un fármaco con eficacia demostrada, y la heparina no corresponde.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.049 · Trombosis venosa profunda y tromboflebitis",
+      "stem": "Hombre de 64 años, operado hace 12 días de una fractura de cadera, sin profilaxis antitrombótica desde el alta. Consulta por aumento de volumen y dolor de la pantorrilla izquierda de 2 días. Al examen, la pierna izquierda tiene 4 cm más de circunferencia que la derecha, edema con fóvea y dolor a la palpación del trayecto venoso. Sin disnea, saturación 97%.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solicitar dímero D y, si es positivo, repetirlo en 1 semana"
+        },
+        {
+          "letter": "B",
+          "text": "Instalar un filtro de vena cava inferior como primera medida"
+        },
+        {
+          "letter": "C",
+          "text": "Indicar AINE y reposo con la pierna elevada"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar flebografía antes de cualquier tratamiento"
+        },
+        {
+          "letter": "E",
+          "text": "Ecografía doppler venosa de la extremidad e iniciar anticoagulación, por ejemplo con heparina de bajo peso molecular"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Con alta probabilidad clínica (cirugía traumatológica reciente, edema asimétrico, dolor en el trayecto venoso), el dímero D no aporta: se confirma con ecografía doppler y se anticoagula, iniciando sin esperar si hay demora y no hay contraindicación. El filtro de cava se reserva para quienes no pueden anticoagularse.",
+      "say": {
+        "stem": "Un hombre de sesenta y cuatro años operado hace doce días de una fractura de cadera, sin profilaxis, tiene la pantorrilla izquierda hinchada y dolorosa, cuatro centímetros más gruesa que la otra. No tiene disnea.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: dímero D repetido en una semana, filtro de vena cava primero, antiinflamatorios con reposo, flebografía previa o ecografía doppler y anticoagulación. Piénsalo.",
+        "answer": "Es la E. Con probabilidad clínica alta se confirma con ecografía doppler y se anticoagula, por ejemplo con heparina de bajo peso molecular. El dímero D tienta, pero sirve para descartar en baja probabilidad, y después de una cirugía casi siempre está elevado."
+      }
     },
 
     {

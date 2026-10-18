@@ -1,0 +1,265 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// Diabetes: animaciones de las clases que no tenían (gráficos sin anatomía + páncreas sobre ilustración real).
+//   ?v=metas      diab-04: la meta de HbA1c no es la misma para todos (y bajo 6 % hay más mortalidad)
+//   ?v=escalera   diab-06: HbA1c sobre la meta a los 3 meses → biterapia de inmediato vs inercia terapéutica
+//   ?v=embarazo   diab-09: glicemia capilar de la gestante frente a las metas; más del 20 % fuera → insulina
+//   ?v=movil      diab-13: esquema móvil solo (montaña rusa) vs basal-bolo-corrección (dentro de 140–180)
+//   ?v=traslape   diab-18: el pinchazo basal va antes de apagar la bomba (si no, ventana sin insulina)
+//   ?v=pancreas   diab-24: triglicéridos altos → quilomicrones ocluyen capilares → lipasa → ácidos grasos → pancreatitis
+//                 Base: Servier Medical Art (CC BY 4.0), pancreas.png; capas animadas propias.
+const V = new URLSearchParams(location.search).get('v') || 'metas';
+const DUR = { metas: 26, escalera: 26, embarazo: 27, movil: 28, traslape: 27, pancreas: 29 };
+window.SCENE = { duration: DUR[V], fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect, poly } = L;
+const G = GRAPH(L), K = KIT(L), { seg, fade, rnd } = K;
+const I = k => window.IMGS[k];
+const RED2 = 'rgba(255,90,78,0.14)';
+const CYAN = '#0BD9E7';
+
+function frame(t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); }
+function pt(a, s = 0.4) { return a > 0 ? a : 0; }
+
+// ---------------------------------------------------------------- metas (diab-04)
+function metas(t) {
+  K.title('La meta de HbA1c se individualiza', 'Más bajo no siempre es mejor: el beneficio se pesa contra el riesgo de hipoglicemia', C.BLUE);
+  const X = v => 140 + (v - 5.5) / 3.5 * 1000;
+  // eje
+  ctx.strokeStyle = '#3A424E'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(X(5.5), 548); ctx.lineTo(X(9), 548); ctx.stroke();
+  for (const v of [6, 6.5, 7, 7.5, 8, 8.5, 9]) { text(String(v).replace('.', ',') + ' %', X(v), 574, 17, C.MUTED, '', 'center'); ctx.fillStyle = '#3A424E'; ctx.fillRect(X(v) - 1, 540, 2, 8); }
+  text('HbA1c', X(5.5), 574, 17, C.MUTED, 'bold', 'right');
+  const rows = [
+    { y: 205, a: 2.0, v: 6.5, col: C.GREEN, lab: 'Joven, diagnóstico reciente, sin daño cardiovascular', meta: '< 6,5 %', note: 'solo con fármacos sin hipoglicemia' },
+    { y: 295, a: 6.0, v: 7.0, col: C.BLUE, lab: 'Meta estándar (expectativa de vida sobre 15 años)', meta: '< 7 %', note: '' },
+    { y: 385, a: 10.0, v: 7.5, col: C.AMBER, lab: 'Adulto mayor funcional y activo', meta: '< 7,5 %', note: '' },
+    { y: 475, a: 14.0, v: 8.0, v2: 8.5, col: C.VIOLET, lab: 'Adulto mayor frágil o dependiente', meta: '< 8,0 a 8,5 %', note: '' },
+  ];
+  // zona de riesgo bajo 6 %
+  const za = seg(t, 18, 0.8);
+  if (za > 0) { ctx.save(); ctx.globalAlpha = za; ctx.fillStyle = 'rgba(255,90,78,0.16)'; ctx.fillRect(X(5.5), 150, X(6) - X(5.5), 392);
+    ctx.strokeStyle = C.RED; ctx.lineWidth = 2; ctx.setLineDash([8, 6]); ctx.beginPath(); ctx.moveTo(X(6), 150); ctx.lineTo(X(6), 542); ctx.stroke(); ctx.setLineDash([]); ctx.restore(); }
+  for (const r of rows) {
+    const a = seg(t, r.a, 0.5), g = ease(seg(t, r.a + 0.3, 1.4));
+    if (a <= 0) continue;
+    ctx.save(); ctx.globalAlpha = a;
+    text(r.lab, X(5.5), r.y - 16, 21, C.INK, 'bold');
+    rrect(X(5.5), r.y, X(9) - X(5.5), 34, 17, '#1A1F27');
+    if (r.v2) rrect(X(5.5), r.y, (X(r.v2) - X(5.5)) * g, 34, 17, 'rgba(179,136,255,0.35)');
+    rrect(X(5.5), r.y, (X(r.v) - X(5.5)) * g, 34, 17, r.col);
+    ctx.restore();
+    const a2 = seg(t, r.a + 1.4, 0.4);
+    if (a2 > 0) { ctx.globalAlpha = a2; tag('HbA1c ' + r.meta, X(r.v2 || r.v) + 120, r.y + 17, r.col, 20);
+      if (r.note) text(r.note, X(r.v2 || r.v) + 232, r.y + 24, 17, C.MUTED); ctx.globalAlpha = 1; }
+  }
+  if (za > 0) { ctx.globalAlpha = za; text('Bajo 6 %: más mortalidad', X(5.5) + 8, 140, 19, C.RED, 'bold'); text('(ACCORD: hipoglicemias severas, arritmias)', X(5.5) + 8, 618, 17, C.RED); ctx.globalAlpha = 1; }
+  K.banner(300, 628, 680, 'En meta: se mantiene, no se intensifica', C.GREEN, seg(t, 22, 0.6));
+}
+
+// ---------------------------------------------------------------- escalera (diab-06)
+const axE = G.axes({ x: 110, y: 170, w: 640, h: 380 }, [0, 9], [6, 10],
+  { xt: [[0, '0'], [3, '3 meses'], [6, '6 meses'], [9, '9 meses']], yt: [[6, '6 %'], [7, '7 %'], [8, '8 %'], [9, '9 %'], [10, '10 %']], yl: 'HbA1c', xl: 'Tiempo desde el diagnóstico' });
+const fBase = G.smooth([[0, 9.2], [1, 8.55], [2, 8.15], [3, 7.9]]);
+const fOk = G.smooth([[3, 7.9], [4.5, 7.35], [6, 7.0], [7.5, 6.9], [9, 6.8]]);
+const fIn = G.smooth([[3, 7.9], [4.5, 8.0], [6, 8.2]]);
+function escalera(t) {
+  K.title('Escalera de la diabetes tipo 2', 'A los 3 meses la HbA1c decide: sobre la meta, el siguiente escalón de inmediato', C.BLUE);
+  axE.draw(seg(t, 0, 0.7));
+  G.hline(axE, 7, C.GREEN, 'Meta < 7 %', seg(t, 0.8, 0.7));
+  text('Esquema ilustrativo', 110, 600, 16, C.MUTED);
+  const p0 = G.curve(axE, fBase, seg(t, 1.5, 5), C.AMBER, 5, 0, 3);
+  if (seg(t, 6.5, 6) < 1) G.head(p0, C.AMBER);
+  K.card(850, 170, 390, 120, C.AMBER, 'Metformina a dosis plena', ['+ cambio de estilo de vida desde el día uno'], seg(t, 1.8, 0.5), 17);
+  const v3 = seg(t, 6.5, 0.6);
+  if (v3 > 0) { G.vline(axE, 3, C.MUTED, null, v3); ctx.globalAlpha = v3; tag('Control a los 3 meses: sobre la meta', axE.X(3), axE.box.y - 18, C.AMBER, 16); ctx.globalAlpha = 1; }
+  // rama verde
+  const g = seg(t, 9, 6);
+  const pg = G.curve(axE, fOk, g, C.GREEN, 5, 3, 9);
+  if (g > 0 && g < 1) G.head(pg, C.GREEN);
+  if (g > 0) { ctx.globalAlpha = seg(t, 9, 0.5); tag('Biterapia de inmediato', axE.X(5.6), axE.Y(6.5), C.GREEN, 17); ctx.globalAlpha = 1; }
+  K.card(850, 304, 390, 142, C.GREEN, 'Segundo fármaco ya', ['En APS: glibenclamida 2,5 a 5 mg/día', 'antes del desayuno'], seg(t, 9.2, 0.5), 17);
+  // rama roja (inercia)
+  const r = seg(t, 16, 4);
+  const pr = G.curve(axE, fIn, r, C.RED, 5, 3, 6, [10, 8]);
+  if (r > 0 && r < 1) G.head(pr, C.RED);
+  if (r > 0) { ctx.globalAlpha = seg(t, 16, 0.5); tag('Esperar otros 3 meses', axE.X(4.8), axE.Y(8.7), C.RED, 17); ctx.globalAlpha = 1; }
+  K.card(850, 460, 390, 120, C.RED, 'Inercia terapéutica', ['Seis meses fuera de meta', 'sin cambiar nada'], seg(t, 16.3, 0.5), 17);
+  K.banner(250, 628, 780, 'Si no hay respuesta a la biterapia: insulina, sin postergarla', C.AMBER, seg(t, 22, 0.6));
+}
+
+// ---------------------------------------------------------------- embarazo (diab-09)
+const axP = G.axes({ x: 110, y: 170, w: 700, h: 380 }, [6, 23], [60, 200],
+  { xt: [[7, '7 h'], [10, '10'], [13, '13 h'], [16, '16'], [19, '19 h'], [22, '22']], yt: [[80, '80'], [95, '95'], [120, '120'], [140, '140'], [170, '170']], yl: 'Glicemia capilar (mg/dL)', xl: 'Hora del día' });
+const fSin = G.smooth([[6, 102], [7, 102], [8, 104], [9, 158], [10.5, 135], [12, 112], [13, 114], [14, 152], [15.5, 130], [18, 112], [19, 114], [20, 148], [21.5, 125], [23, 110]]);
+const fCon = G.smooth([[6, 88], [7, 88], [8, 90], [9, 128], [10.5, 112], [12, 96], [13, 98], [14, 130], [15.5, 108], [18, 96], [19, 98], [20, 126], [21.5, 104], [23, 90]]);
+const PTS = [[7, 'Ayuno', 95], [9, '1 h', 140], [14, '1 h', 140], [20, '1 h', 140]];
+function embarazo(t) {
+  K.title('Automonitoreo en la gestante', 'Se mide en ayunas y 1 hora después de comer, y se compara con las metas del embarazo', C.BLUE);
+  axP.draw(seg(t, 0, 0.7));
+  G.hline(axP, 95, C.AMBER, null, seg(t, 0.8, 0.6)); G.hline(axP, 140, C.RED, null, seg(t, 1.1, 0.6));
+  text('Ayuno < 95', axP.box.x + axP.box.w + 10, axP.Y(95) + 6, 17, C.AMBER, 'bold');
+  text('1 h < 140', axP.box.x + axP.box.w + 10, axP.Y(140) + 6, 17, C.RED, 'bold');
+  for (const [h, lab] of [[8, 'Desayuno'], [13, 'Almuerzo'], [19, 'Cena']]) { const a = seg(t, 1.5, 0.6); if (a > 0) { ctx.globalAlpha = a * 0.9; text(lab, axP.X(h), axP.box.y + axP.box.h - 8, 15, C.MUTED, '', 'center'); ctx.fillStyle = '#3A424E'; ctx.fillRect(axP.X(h) - 1, axP.Y(70), 2, 14); ctx.globalAlpha = 1; } }
+  // sin tratamiento
+  const k1 = seg(t, 2, 7), alt = 1 - 0.65 * seg(t, 11, 0.8);
+  ctx.save(); ctx.globalAlpha = alt;
+  const p1 = G.curve(axP, fSin, k1, C.AMBER, 5, 6, 23); if (k1 < 1) G.head(p1, C.AMBER);
+  const h1 = 6 + k1 * 17;
+  PTS.forEach(([h, lab, lim], i) => { if (h1 >= h) { const y = fSin(h), bad = y > lim; ctx.fillStyle = bad ? C.RED : C.GREEN; ctx.beginPath(); ctx.arc(axP.X(h), axP.Y(y), 9, 0, 7); ctx.fill(); ctx.strokeStyle = '#fff'; ctx.lineWidth = 2; ctx.stroke();
+    text(Math.round(y), axP.X(h), axP.Y(y) - 16, 18, bad ? C.RED : C.GREEN, 'bold', 'center'); } });
+  ctx.restore();
+  const cnt = PTS.filter(([h, , lim]) => h1 >= h && fSin(h) > lim).length;
+  K.card(930, 170, 310, 138, C.AMBER, 'Sin tratamiento', ['Valores sobre la meta:', `${cnt} de 4`, ''], seg(t, 2.2, 0.5) * (1 - seg(t, 11, 0.6) * 0.55), 18);
+  K.card(930, 322, 310, 150, C.RED, 'Más del 20 % fuera', ['Se inicia insulina', 'Ayuno alto: NPH a las 22 h'], seg(t, 9.6, 0.5), 18);
+  // con insulina
+  const k2 = seg(t, 12, 7);
+  const p2 = G.curve(axP, fCon, k2, C.GREEN, 5, 6, 23); if (k2 > 0 && k2 < 1) G.head(p2, C.GREEN);
+  const h2 = 6 + k2 * 17;
+  PTS.forEach(([h, lab, lim]) => { if (h2 >= h) { const y = fCon(h); ctx.fillStyle = C.GREEN; ctx.beginPath(); ctx.arc(axP.X(h), axP.Y(y), 9, 0, 7); ctx.fill(); ctx.strokeStyle = '#fff'; ctx.lineWidth = 2; ctx.stroke(); text(Math.round(y), axP.X(h), axP.Y(y) + 30, 18, C.GREEN, 'bold', 'center'); } });
+  K.card(930, 486, 310, 120, C.GREEN, 'Con insulina', ['Todos los puntos bajo la meta'], seg(t, 17, 0.5), 18);
+  K.banner(160, 628, 960, 'Metas del embarazo: ayuno < 95, 1 h < 140, 2 h < 120', C.BLUE, seg(t, 22.5, 0.6));
+}
+
+// ---------------------------------------------------------------- movil (diab-13)
+const axM = G.axes({ x: 110, y: 170, w: 690, h: 380 }, [0, 24], [40, 340],
+  { xt: [[0, '0'], [4, '4'], [8, '8'], [12, '12'], [16, '16'], [20, '20'], [24, '24 h']], yt: [[70, '70'], [140, '140'], [180, '180'], [250, '250'], [320, '320']], yl: 'Glicemia (mg/dL)', xl: 'Horas del día' });
+const fMov = G.smooth([[0, 205], [3, 242], [6, 262], [8, 272], [10, 318], [13, 205], [15, 62], [17, 150], [20, 290], [22, 305], [24, 170]]);
+const fBb = G.smooth([[0, 165], [3, 158], [6, 156], [8, 163], [10, 186], [12, 168], [14, 158], [16, 166], [19, 178], [21, 166], [24, 158]]);
+function movil(t) {
+  K.title('Esquema móvil solo vs esquema programado', 'La corrección sí se usa, pero siempre encima de una insulina basal', C.BLUE);
+  axM.draw(seg(t, 0, 0.7));
+  G.band(axM, 140, 180, 'rgba(61,220,132,0.13)', seg(t, 0.8, 0.6)); if (t > 0.8) { ctx.globalAlpha = seg(t, 0.8, 0.6); text('Meta', axM.box.x + axM.box.w + 10, axM.Y(165) - 2, 17, C.GREEN, 'bold'); text('140 a 180', axM.box.x + axM.box.w + 10, axM.Y(165) + 18, 17, C.GREEN, 'bold'); ctx.globalAlpha = 1; }
+  G.hline(axM, 70, C.RED, null, seg(t, 1.1, 0.6));
+  for (const [h, lab] of [[8, 'Desayuno'], [13, 'Almuerzo'], [19, 'Cena']]) { const a = seg(t, 1.2, 0.6); if (a > 0) { ctx.globalAlpha = a * 0.9; text(lab, axM.X(h), axM.box.y + axM.box.h - 8, 15, C.MUTED, '', 'center'); ctx.fillStyle = '#3A424E'; ctx.fillRect(axM.X(h) - 1, axM.Y(50), 2, 14); ctx.globalAlpha = 1; } }
+  const k1 = seg(t, 1.8, 10.5), dim = 1 - 0.6 * seg(t, 13.4, 0.8);
+  ctx.save(); ctx.globalAlpha = dim;
+  const p1 = G.curve(axM, fMov, k1, C.RED, 5); if (k1 < 1) G.head(p1, C.RED);
+  const h1 = k1 * 24;
+  if (h1 > 10.2) { ctx.globalAlpha = dim * seg(t, 1.8 + 10.5 * 10.2 / 24, 0.4); tag('Corrige tarde', axM.X(10) + 70, axM.Y(318) - 28, C.AMBER, 16); }
+  if (h1 > 15.2) { ctx.globalAlpha = dim * seg(t, 1.8 + 10.5 * 15.2 / 24, 0.4); tag('Se pasa: hipoglicemia', axM.X(19.6), axM.Y(95), C.RED, 16); }
+  ctx.restore();
+  K.card(930, 170, 310, 170, C.RED, 'Esquema móvil solo', ['Reactivo: trata la glicemia', 'que ya subió', 'Sin cobertura basal', 'Montaña rusa'], seg(t, 2.2, 0.5), 18);
+  const k2 = seg(t, 14, 8.5);
+  const p2 = G.curve(axM, fBb, k2, C.GREEN, 6); if (k2 > 0 && k2 < 1) G.head(p2, C.GREEN);
+  K.card(930, 354, 310, 190, C.GREEN, 'Basal + bolo + corrección', ['La basal cubre el fondo', 'Un bolo con cada comida', 'La corrección va encima', 'Dentro de 140 a 180'], seg(t, 14.3, 0.5), 18);
+  K.banner(200, 628, 880, 'La escala de corrección nunca sola: siempre sobre una basal', C.AMBER, seg(t, 24, 0.6));
+  text('Esquema ilustrativo', 110, 600, 16, C.MUTED);
+}
+
+// ---------------------------------------------------------------- traslape (diab-18)
+const axA = G.axes({ x: 80, y: 220, w: 540, h: 300 }, [-120, 180], [0, 150], { xt: [[-120, '−2 h'], [-60, '−1 h'], [0, '0'], [60, '1 h'], [120, '2 h'], [180, '3 h']], xl: 'Minutos desde que se apaga la bomba' });
+const axB = G.axes({ x: 700, y: 220, w: 540, h: 300 }, [-120, 180], [0, 150], { xt: [[-120, '−2 h'], [-60, '−1 h'], [0, '0'], [60, '1 h'], [120, '2 h'], [180, '3 h']], xl: 'Minutos desde que se apaga la bomba' });
+const ev = x => x < 0 ? 70 : 70 * Math.exp(-x / 7.5);
+const scA = x => x < 0 ? 0 : 80 * (1 - Math.exp(-x / 50));
+const scB = x => x < -90 ? 0 : 80 * (1 - Math.exp(-(x + 90) / 50));
+const totA = x => ev(x) + scA(x), totB = x => ev(x) + scB(x);
+function traslape(t) {
+  K.title('El traslape de la insulina', 'La endovenosa dura minutos; la subcutánea tarda 1 a 2 horas en actuar', C.BLUE);
+  const a0 = seg(t, 0, 0.7);
+  text('Pinchazo y bomba apagada a la vez', 80, 190, 22, C.RED, 'bold'); text('Basal subcutánea 1 a 2 horas antes', 700, 190, 22, C.GREEN, 'bold');
+  ctx.globalAlpha = a0; text('Insulina activa', 80, 212, 16, C.MUTED); text('Insulina activa', 700, 212, 16, C.MUTED); ctx.globalAlpha = 1;
+  axA.draw(a0); axB.draw(a0);
+  G.vline(axA, 0, C.MUTED, null, seg(t, 0.8, 0.5)); G.vline(axB, 0, C.MUTED, null, seg(t, 0.8, 0.5));
+  const ta = seg(t, 0.9, 0.5); if (ta > 0) { ctx.globalAlpha = ta; text('Se apaga la bomba', axA.X(0), axA.box.y - 6, 15, C.MUTED, 'bold', 'center'); text('Se apaga la bomba', axB.X(0), axB.box.y - 6, 15, C.MUTED, 'bold', 'center'); ctx.globalAlpha = 1; }
+  // leyenda
+  const lg = seg(t, 1, 0.5); if (lg > 0) { ctx.globalAlpha = lg; [['Endovenosa', C.BLUE], ['Subcutánea', C.VIOLET], ['Total', C.AMBER]].forEach(([s, c], i) => { ctx.fillStyle = c; ctx.fillRect(80 + i * 160, 596, 26, 6); text(s, 114 + i * 160, 604, 16, C.INK); }); ctx.globalAlpha = 1; }
+  // A
+  const kA = seg(t, 2, 8);
+  const x0 = -120, x1 = 180;
+  G.curve(axA, ev, kA, C.BLUE, 3, x0, x1); G.curve(axA, scA, kA, C.VIOLET, 3, x0, x1);
+  const pA = G.curve(axA, totA, kA, C.AMBER, 6, x0, x1); if (kA < 1) G.head(pA, C.AMBER);
+  // hueco: entre el nivel previo (70) y el total
+  const gp = seg(t, 10.2, 0.8);
+  if (gp > 0) { ctx.save(); ctx.globalAlpha = gp * 0.9; ctx.fillStyle = 'rgba(255,90,78,0.35)'; ctx.beginPath(); ctx.moveTo(axA.X(0), axA.Y(70));
+    for (let x = 0; x <= 90; x += 3) ctx.lineTo(axA.X(x), axA.Y(Math.min(70, totA(x)))); ctx.lineTo(axA.X(90), axA.Y(70)); ctx.closePath(); ctx.fill(); ctx.restore();
+    ctx.globalAlpha = gp; tag('Ventana sin insulina', axA.X(55), axA.Y(70) - 38, C.RED, 17); ctx.globalAlpha = 1; }
+  const rb = seg(t, 11.4, 0.6); if (rb > 0) { ctx.globalAlpha = rb; K.banner(80, 626, 540, 'Se reactiva la lipólisis: CAD de rebote', C.RED, 1); ctx.globalAlpha = 1; }
+  // B
+  const kB = seg(t, 13, 8);
+  G.vline(axB, -90, C.VIOLET, null, seg(t, 12.6, 0.5));
+  const bl = seg(t, 12.8, 0.5); if (bl > 0) { ctx.globalAlpha = bl; text('Pinchazo', axB.X(-90), axB.box.y + axB.box.h + 62, 15, C.VIOLET, 'bold', 'center'); ctx.globalAlpha = 1; }
+  G.curve(axB, ev, kB, C.BLUE, 3, x0, x1); G.curve(axB, scB, kB, C.VIOLET, 3, x0, x1);
+  const pB = G.curve(axB, totB, kB, C.AMBER, 6, x0, x1); if (kB > 0 && kB < 1) G.head(pB, C.AMBER);
+  const ok = seg(t, 20, 0.6); if (ok > 0) { ctx.globalAlpha = ok; tag('Sin hueco', axB.X(60), axB.Y(150) + 24, C.GREEN, 17); ctx.globalAlpha = 1; }
+  K.banner(700, 626, 540, 'Ultrarrápida: pinchazo 15 a 30 minutos antes', C.GREEN, seg(t, 22.5, 0.6));
+  text('Esquema ilustrativo', 1268, 690, 14, C.MUTED, '', 'right');
+}
+
+// ---------------------------------------------------------------- pancreas (diab-24)
+const S = 1.1, OX = 36, OY = 118;
+const PP = (x, y) => [OX + x * S, OY + y * S];
+let TINT = null;
+function tinted() {
+  if (TINT) return TINT;
+  const c = document.createElement('canvas'); c.width = 562; c.height = 460; const x = c.getContext('2d');
+  x.drawImage(I('pan'), 0, 0); x.globalCompositeOperation = 'source-atop'; x.fillStyle = '#FF3B30'; x.fillRect(0, 0, 562, 460);
+  return TINT = c;
+}
+const GLAND = [[190, 215, 78, 62], [310, 185, 80, 48], [420, 158, 66, 40]];     // cabeza, cuerpo, cola (elipses en px de la imagen)
+const ART = poly([[266, 6], [266, 86], [292, 104], [336, 116], [380, 124], [394, 154]].map(p => PP(...p)));
+const CLU = [[392, 152], [430, 150], [352, 168], [300, 176], [236, 196], [196, 218], [150, 214], [268, 150]];
+function lipidBall(x, y, r, a = 1) {
+  ctx.save(); ctx.globalAlpha *= a; const g = ctx.createRadialGradient(x - r * 0.3, y - r * 0.3, 1, x, y, r);
+  g.addColorStop(0, '#FFF7C8'); g.addColorStop(1, '#F2C94C'); ctx.fillStyle = g; ctx.beginPath(); ctx.arc(x, y, r, 0, 7); ctx.fill();
+  ctx.strokeStyle = 'rgba(255,255,255,0.9)'; ctx.lineWidth = 1.5; ctx.stroke(); ctx.restore();
+}
+function pancreas(t) {
+  K.title('Triglicéridos altos y pancreatitis', 'Por qué sobre 500 a 1.000 mg/dL el páncreas se inflama', C.AMBER);
+  // lámina
+  rrect(OX - 8, OY - 8, 562 * S + 16, 460 * S + 16, 18, '#FFFFFF');
+  ctx.save(); ctx.beginPath(); ctx.roundRect(OX, OY, 562 * S, 460 * S, 12); ctx.clip();
+  ctx.drawImage(I('pan'), OX, OY, 562 * S, 460 * S);
+  // quilomicrones que circulan por la arteria
+  const flow = seg(t, 1.5, 1.2) * (1 - 0.0 * seg(t, 9, 1));
+  const dens = 4 + Math.round(10 * seg(t, 1.5, 4));                    // más partículas a medida que suben los TG
+  if (flow > 0) for (let i = 0; i < 16; i++) { if (i >= dens) break; const s = (((t * 0.16) + i / dens) % 1); const [x, y] = ART.at(s, (rnd(i) - 0.5) * 5); lipidBall(x, y, 4.5 + rnd(i + 9) * 2.5, flow * (s > 0.97 ? 0 : 1)); }
+  // oclusión de los capilares: grupos que se quedan
+  const oc = ease(seg(t, 8, 3.5));
+  if (oc > 0) CLU.forEach((c, i) => { for (let j = 0; j < 5; j++) { const [x, y] = PP(c[0] + (rnd(i * 7 + j) - 0.5) * 24, c[1] + (rnd(i * 5 + j + 3) - 0.5) * 18); lipidBall(x, y, (6 + rnd(i + j) * 3) * oc, oc); } });
+  // lipasa (violeta) cerca de los grupos
+  const lp = seg(t, 12.5, 1.2);
+  if (lp > 0) CLU.forEach((c, i) => { const [x, y] = PP(c[0] + 16 * Math.sin(t * 2 + i), c[1] - 22 + 6 * Math.cos(t * 2.4 + i)); ctx.save(); ctx.globalAlpha = lp * 0.95; ctx.fillStyle = C.VIOLET; ctx.beginPath(); ctx.arc(x, y, 6.5, 0, 7); ctx.fill(); ctx.strokeStyle = '#fff'; ctx.lineWidth = 1.5; ctx.stroke(); ctx.restore(); });
+  // ácidos grasos libres (rojos) que salen y dañan
+  const ff = seg(t, 15.5, 1.5);
+  if (ff > 0) CLU.forEach((c, i) => { for (let j = 0; j < 4; j++) { const ang = rnd(i * 11 + j) * 6.28, d = ((t * 0.5 + rnd(i + j * 3)) % 1) * 30 * ff; const [x, y] = PP(c[0] + Math.cos(ang) * d, c[1] + Math.sin(ang) * d);
+    ctx.save(); ctx.globalAlpha = ff * (1 - ((t * 0.5 + rnd(i + j * 3)) % 1) * 0.7); ctx.fillStyle = '#FF3B30'; ctx.translate(x, y); ctx.rotate(0.785); ctx.fillRect(-3.5, -3.5, 7, 7); ctx.restore(); } });
+  // inflamación e isquemia: la glándula se enrojece
+  const inf = ease(seg(t, 17, 3)) * (0.55 + 0.12 * Math.sin(t * 4));
+  if (inf > 0) { ctx.save(); ctx.beginPath(); GLAND.forEach(([cx, cy, rx, ry]) => { const [x, y] = PP(cx, cy); ctx.moveTo(x + rx * S, y); ctx.ellipse(x, y, rx * S, ry * S, 0, 0, 7); }); ctx.clip();
+    ctx.globalAlpha = inf; ctx.drawImage(tinted(), OX, OY, 562 * S, 460 * S); ctx.restore(); }
+  ctx.restore();
+  // rótulos sobre la lámina
+  const lab = (s, x, y, col, a) => { if (a > 0) { ctx.globalAlpha = a; tag(s, x, y, col, 16); ctx.globalAlpha = 1; } };
+  lab('Arteria esplénica', ...PP(430, 70), C.RED, fade(t, 1.6, 7, 0.5));
+  lab('Capilares ocluidos', ...PP(310, 262), C.AMBER, fade(t, 10, 19, 0.5));
+  lab('Lipasa pancreática', ...PP(190, 118), C.VIOLET, fade(t, 13, 19, 0.5));
+  lab('Pancreatitis aguda', ...PP(300, 320), C.RED, seg(t, 20.5, 0.5));
+  // panel derecho
+  const tgv = lerp(150, 1100, ease(seg(t, 1.2, 5)));
+  const a1 = seg(t, 1.0, 0.5);
+  if (a1 > 0) { ctx.globalAlpha = a1; rrect(700, 140, 540, 106, 16, '#161B22'); ctx.fillStyle = C.AMBER; ctx.fillRect(700, 140, 6, 106);
+    text('Triglicéridos', 724, 172, 21, C.AMBER, 'bold');
+    ctx.fillStyle = '#222833'; ctx.beginPath(); ctx.roundRect(724, 190, 480, 14, 7); ctx.fill();
+    const col = tgv < 500 ? C.GREEN : tgv < 1000 ? C.AMBER : C.RED; ctx.fillStyle = col; ctx.beginPath(); ctx.roundRect(724, 190, 480 * clamp(tgv / 1200, 0, 1), 14, 7); ctx.fill();
+    text(Math.round(tgv / 10) * 10 + ' mg/dL', 1204, 172, 21, col, 'bold', 'right');
+    [[150, '150'], [500, '500'], [1000, '1.000']].forEach(([v, s]) => { ctx.fillStyle = '#ddd'; ctx.fillRect(724 + 480 * v / 1200 - 1, 186, 2, 22); text(s, 724 + 480 * v / 1200, 228, 14, C.MUTED, '', 'center'); });
+    ctx.globalAlpha = 1; }
+  K.card(700, 260, 540, 82, C.AMBER, 'Suero lechoso', ['Quilomicrones y VLDL en exceso'], seg(t, 4.2, 0.5), 17);
+  K.card(700, 352, 540, 82, C.AMBER, 'Capilares ocluidos', ['Las partículas tapan la microcirculación'], seg(t, 8.5, 0.5), 17);
+  K.card(700, 444, 540, 82, C.VIOLET, 'La lipasa hidroliza los TG', ['Ácidos grasos libres masivos, citotóxicos'], seg(t, 13, 0.5), 17);
+  K.card(700, 536, 540, 82, C.RED, 'Isquemia y toxicidad directa', ['Pancreatitis más necrótica que la biliar'], seg(t, 18, 0.5), 17);
+  K.banner(700, 634, 540, 'A estos niveles la prioridad es bajar los triglicéridos', C.GREEN, seg(t, 24, 0.6));
+}
+
+window.render = function (t) {
+  frame(t);
+  ({ metas, escalera, embarazo, movil, traslape, pancreas })[V](t);
+  K.credit(V === 'pancreas' ? 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' : 'Animación propia');
+};
+LOAD(V === 'pancreas' ? { pan: '../assets/servier/pancreas.png' } : {});
+</script>
+</body></html>

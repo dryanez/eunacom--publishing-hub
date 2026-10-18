@@ -382,7 +382,14 @@ const bloque2 = [
           'La HPN es un trastorno clonal adquirido de la célula madre hematopoyética pluripotencial debido a una mutación somática en el gen PIGA ligado al cromosoma X. Esta mutación impide la síntesis del anclaje de glicosilfosfatidilinositol (GPI), lo que deja a las células sanguíneas desprovistas de todas las proteínas de membrana fijadas por GPI, destacando el CD55 (factor acelerador de la degradación) y el CD59 (inhibidor del complejo de ataque de membrana).',
           'Sin CD55 ni CD59, los eritrocitos son exquisitamente sensibles a la lisis por el complemento activado. Durante la noche, una ligera hipoventilación fisiológica produce acidosis leve que activa el complemento, desencadenando hemólisis intravascular matutina (orinas oscuras con la primera micción). La HPN cursa con una tríada clínica temible: 1) Anemia hemolítica intravascular con hemosiderinuria y ferropenia por pérdidas urinarias crónicas; 2) Trombosis venosas mayores en sitios inusuales (síndrome de Budd-Chiari por trombosis de venas suprahepáticas, trombosis de la vena porta, mesentérica o senos durales cerebrales); y 3) Hipoplasia o aplasia medular asociada. El estándar de oro diagnóstico es la Citometría de Flujo en sangre periférica demostrando ausencia de CD55 y CD59. El tratamiento de elección en casos graves es el Eculizumab o Ravulizumab (anticuerpos monoclonales contra la proteína C5 del complemento).'
         ]
-      }
+      },
+      {
+        subhead: "4. Pruebas confirmatorias de hemólisis según la causa",
+        paragraphs: [
+          "Demostrada la hemólisis (anemia con reticulocitos altos, LDH elevada, bilirrubina indirecta alta, haptoglobina baja, y hemoglobinuria o hemosiderinuria si es intravascular), se solicita la prueba que identifica la causa: <b>Coombs directo</b> (positivo en la autoinmune; negativo en las tres entidades de este tema), <b>frotis</b> (esferocitos sin Coombs en la esferocitosis; células mordidas y cuerpos de Heinz durante la crisis de G6PD), <b>test de fragilidad osmótica</b> o <b>unión de eosina-5-maleimida (EMA) por citometría</b> (esferocitosis hereditaria), <b>actividad cuantitativa de G6PD</b> (2-3 meses después de la crisis) y <b>citometría de flujo para CD55/CD59</b> (HPN, con Coombs negativo, hemosiderinuria y trombosis).",
+          "<b>Interpretación práctica:</b> VCM bajo-normal con <b>CHCM elevada</b> y esferocitos sin Coombs orienta a esferocitosis; una hemólisis aguda en un varón tras habas o fármacos oxidantes orienta a G6PD aunque la actividad enzimática salga normal durante la crisis (se repite); hemoglobinuria matutina, pancitopenia o trombosis venosa inusual (hepática, portal) orienta a HPN. Estas pruebas especiales se emplean para confirmar y derivar al hematólogo; no retrasan la conducta inicial (suspender el oxidante, hidratar y transfundir si hay inestabilidad)."
+        ]
+      },
     ],
     table: {
       title: 'Diagnóstico Diferencial: Esferocitosis Hereditaria vs Déficit de G6PD vs HPN',
@@ -589,7 +596,14 @@ const bloque2 = [
           'Se asocian simultáneamente glucocorticoides sistémicos a dosis altas (metilprednisolona EV o prednisona 1 mg/kg/día) para suprimir la producción del autoanticuerpo, y en centros terciarios, agentes modernos como el Caplacizumab (nanocuerpo anti-vWF) y Rituximab.',
           '¡Alerta Vital EUNACOM!: Está ABSOLUTAMENTE CONTRAINDICADA la transfusión de plaquetas en pacientes con MAT (tanto PTT como SHU), salvo ante una hemorragia intracraneal activa potencialmente mortal. Administrar plaquetas aporta sustrato a los multímeros de vWF desregulados ("echar leña al fuego"), gatillando una oleada masiva de trombosis microvascular cerebral y coronaria con infarto y muerte súbita del paciente.'
         ]
-      }
+      },
+      {
+        subhead: "4. Manejo inicial del síndrome hemolítico urémico en pediatría y derivación",
+        paragraphs: [
+          "<b>SHU (Dx Específico, Tx Inicial, Seguimiento Derivar):</b> se sospecha en un niño de 1 a 5 años con <b>diarrea (a menudo con sangre) 3 a 7 días antes</b>, que se presenta con palidez, oliguria, petequias o edema; el laboratorio muestra anemia con <b>esquistocitos</b>, plaquetopenia, LDH elevada, haptoglobina baja, Coombs negativo y urea y creatinina elevadas. El diagnóstico es clínico y de laboratorio; la búsqueda de <b>E. coli productora de toxina Shiga</b> (coprocultivo o PCR para stx) confirma la etiología pero no retrasa el manejo. Se <b>deriva de inmediato</b> a un centro con UCI pediátrica y nefrología con capacidad de diálisis.",
+          "<b>Manejo inicial (soporte, mientras se deriva):</b> control estricto de <b>balance hídrico, diuresis, peso y presión arterial</b>; <b>hidratación isotónica precoz pero cuidadosa</b> (la hipovolemia agrava el daño renal y la sobrecarga precipita edema e hipertensión); tratamiento de la hipertensión, la hiperkalemia y la acidosis; <b>transfusión de glóbulos rojos</b> lenta si hay anemia grave o inestabilidad; <b>sin transfusión de plaquetas</b> salvo sangrado grave o procedimiento invasivo; y <b>evitar antibióticos, antidiarreicos y AINE</b> en la diarrea por STEC (los antibióticos pueden aumentar la liberación de toxina y el riesgo de SHU). Una proporción importante de los niños requiere <b>diálisis</b> en la fase aguda (anuria, sobrecarga, hiperkalemia, uremia) y la mayoría recupera la función renal; el seguimiento a largo plazo, a cargo de nefrología, vigila proteinuria, hipertensión y VFG por el riesgo de enfermedad renal crónica."
+        ]
+      },
     ],
     table: {
       title: 'Diagnóstico Diferencial: PTT vs SHU Típico vs Coagulación Intravascular Diseminada (CID)',

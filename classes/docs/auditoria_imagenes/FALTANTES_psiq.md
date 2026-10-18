@@ -9,3 +9,6 @@ Fecha: 2026-10-12. Criterio estricto: solo signos visibles o esquemas que de ver
 | psiq-10 | Distonía aguda por antipsicóticos | crisis oculógira o tortícolis aguda tras inicio de haloperidol / risperidona | foto clínica | baja |
 | psiq-10 | Discinesia tardía | discinesia tardía orofacial: movimientos de lengua y labios (idealmente video) | otro | baja |
 | psiq-10 | Vías dopaminérgicas | esquema sagital del encéfalo con las vías mesolímbica, mesocortical, nigroestriada y tuberoinfundibular | gráfico | baja |
+
+## Pasada de fotos m3 (19-oct-2026)
+✅ psiq-10 crisis oculógira ya estaba en la clase (Knoop). ❌ discinesia tardía y esquema de vías dopaminérgicas: no hay en ninguna fuente.

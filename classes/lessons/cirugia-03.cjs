@@ -81,11 +81,14 @@ module.exports = {
       ],
       steps: [
         { show: ['tac'], note: 'El examen de elección, sin discusión',
-          say: 'El examen de elección en la fase aguda, sin discusión, es el TAC de abdomen y pelvis con contraste intravenoso. Con él clasificas la severidad según la clasificación de Hinchey.' },
+          say: 'El examen de elección en la fase aguda, sin discusión, es el TAC de abdomen y pelvis con contraste intravenoso. Con él clasificas la severidad según la clasificación de Hinchey. Mira este TAC: el sigmoides se ve engrosado, con divertículos y la grasa de alrededor inflamada.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-03/01_diverticulitis-tc__cto-digestivo_p142.jpg', label: 'Diverticulitis en TAC', at: 'Mira este TAC', credit: 'Manual CTO Digestivo 14.ª ed., p. 142' } },
         { show: ['h0'], note: 'Solo engrosamiento o flemón, sin colección líquida',
-          say: 'Hinchey cero y uno A son las formas leves: solo hay engrosamiento de la pared, o un flemón sólido, sin ninguna colección líquida.' },
+          say: 'Hinchey cero y uno A son las formas leves: solo hay engrosamiento de la pared, o un flemón sólido, sin ninguna colección líquida. En este corte, la flecha marca el sigmoides engrosado con divertículos y la grasa pericólica en estrías, sin ninguna burbuja ni líquido.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-03/atlas_233_tac_diverticulitis_no_complicada.jpg', label: 'Hinchey leve: sin absceso', at: 'En este corte', credit: 'CT & MRI Pathology: A Pocket Atlas, p. 370' } },
         { show: ['h2'], note: 'Aquí ya hay una colección con líquido adentro',
-          say: 'Hinchey uno B y dos son cuando ya se formó un absceso: pequeño y cercano en el uno B, o más grande y a distancia en el dos.' },
+          say: 'Hinchey uno B y dos son cuando ya se formó un absceso: pequeño y cercano en el uno B, o más grande y a distancia en el dos. Mira este TAC: la flecha muestra el absceso pericólico junto al colon inflamado.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-03/atlas_234_tac_absceso_pericolico.jpg', label: 'Absceso pericólico', at: 'Mira este TAC', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 371' } },
         { show: ['h34'], note: 'El colon ya no contiene la perforación',
           say: 'Y Hinchey tres y cuatro son cuando la perforación ya no está contenida: peritonitis purulenta generalizada en el tres, y peritonitis con contenido fecal libre en el cuatro.' },
         { show: ['med'], note: 'La mayoría se resuelve sin ninguna cirugía',
@@ -166,15 +169,60 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Cirugía de urgencia',
+      title: 'Colostomía: terminal o en asa',
+      cards: [
+        { title: 'Colostomía terminal', tag: 'Operación de Hartmann', kind: 'key', items: [
+          { t: 'Se secciona y se aboca el cabo proximal', d: 'Puede ser temporal o definitiva',
+            say: 'Si el paciente termina en Hartmann, hay que entender qué le dejaste. La colostomía consiste en exteriorizar el colon a la pared abdominal para derivar las deposiciones. En la terminal, seccionas el colon y abocas el cabo proximal: es la de la operación de Hartmann, después de resecar un sigmoides perforado o un cáncer obstructivo sin hacer anastomosis. Puede ser temporal o definitiva.' },
+        ] },
+        { title: 'Colostomía en asa', tag: 'Dos bocas', kind: 'criteria', items: [
+          { t: 'Asa abierta, habitualmente temporal', d: 'Descomprime o protege una anastomosis',
+            say: 'La colostomía en asa exterioriza un asa abierta, con dos bocas. Casi siempre es temporal, y sirve para descomprimir una obstrucción o para proteger una anastomosis baja.' },
+          { t: 'Ileostomía: más líquido', d: 'Exige más agua y electrolitos',
+            say: 'A diferencia de la colostomía, la ileostomía elimina deposiciones líquidas, y por eso exige más reposición de agua y electrolitos.' },
+        ] },
+        { title: 'Indicaciones frecuentes', tag: 'Cuándo se hace', kind: 'normal', items: [
+          { t: 'Hinchey III-IV y obstrucción por cáncer', d: 'Trauma colorrectal, fístulas, enfermedad perianal',
+            say: 'Las indicaciones más frecuentes son la diverticulitis Hinchey tres y cuatro, la obstrucción por cáncer, el trauma colorrectal, las fístulas, la enfermedad perianal grave y la protección de una anastomosis baja.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Después de la cirugía',
+      title: 'Cuidados del estoma y cierre',
+      cards: [
+        { title: 'Un estoma sano', tag: 'Se mira todos los días', kind: 'normal', items: [
+          { t: 'Rosado, húmedo y brillante', d: 'Pálido, violáceo o negro: isquemia',
+            say: 'Un estoma sano es rosado, húmedo y brillante. Si lo ves pálido, violáceo o negro, hay isquemia y necrosis, y debes avisar al cirujano.' },
+        ] },
+        { title: 'Complicaciones', tag: 'Las que se preguntan', kind: 'alert', items: [
+          { t: 'Retracción, estenosis, prolapso', d: 'Hernia paraestomal',
+            say: 'Otras complicaciones son la retracción, la estenosis, el prolapso y la hernia paraestomal.' },
+          { t: 'Dermatitis periestomal', d: 'Bolsa y barrera cutánea bien ajustadas',
+            say: 'Y si el efluente se filtra, da dermatitis alrededor del estoma. Se previene con una bolsa y una barrera cutánea bien ajustadas, y educando al paciente y a su familia en el vaciado, el cambio del dispositivo, la dieta y el cuidado de la piel.' },
+        ] },
+        { title: 'Cierre de la colostomía', tag: 'Reconstitución del tránsito', kind: 'key', items: [
+          { t: 'A los 3 a 6 meses', d: 'Con estudio del segmento excluido',
+            say: 'La reconstitución del tránsito se planifica a los tres a seis meses, una vez resuelta la causa. Antes estudias el segmento excluido con colonoscopía o enema con contraste, y evalúas al paciente.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Diverticulitis',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'De los divertículos a la clasificación de Hinchey',
       images: [
-        { src: 'biblioteca/10_cirugia/cirugia-03/01_diverticulitis-tc__cto-digestivo_p142.jpg', label: 'Diverticulitis en TC', credit: 'Manual CTO Digestivo 14.ª ed., p. 142' },
+        { src: 'animaciones/cirugia-03/A1_diverticulitis_hinchey.mp4', label: 'Diverticulitis: escalones de Hinchey', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Sigmoides inflamado',
-          say: 'La tomografía muestra el sigmoides engrosado con inflamación de la grasa. Si hay absceso o aire libre, es complicada.' },
+        { note: 'Divertículo obstruido, microperforación y estadios',
+          say: 'Mira el sigmoides: los divertículos aparecen en los puntos débiles de la pared. Uno se obstruye, se inflama y se microperfora. Si queda un flemón, es Hinchey cero o uno A, y tratas con antibióticos. Un absceso menor de cuatro centímetros, Hinchey uno B, también solo con antibióticos. Con cuatro centímetros o más, Hinchey dos, drenaje percutáneo. Y cuando el pus o las deposiciones se esparcen por el abdomen, Hinchey tres o cuatro, operación de Hartmann.' },
       ],
     },
 
@@ -197,8 +245,12 @@ module.exports = {
           say: 'Con cuatro centímetros o más, el drenaje percutáneo es lo indicado. Operar de urgencia igual, cuando el drenaje pudo evitarlo, te deja con una colostomía innecesaria.' },
         { cells: ['Peritonitis generalizada (Hinchey III-IV)', 'Operación de Hartmann', 'Insistir en manejo médico'],
           say: 'Con peritonitis generalizada, la cirugía no espera. Insistir en manejo médico aquí solo empeora la sepsis.' },
+        { cells: ['Cierre de la colostomía', 'A los 3 a 6 meses, tras estudiar el segmento excluido', 'Cerrar sin colonoscopía ni enema previo'],
+          say: 'Y para cerrar una colostomía, esperas de tres a seis meses y estudias antes el segmento excluido, con colonoscopía o enema con contraste.' },
         { cells: ['Alta tras el episodio agudo', 'Colonoscopía a las 6 a 8 semanas', 'No estudiar más el colon'],
           say: 'Y al alta, siempre programas la colonoscopía diferida. No estudiar más el colon, pensando que el TAC ya lo dijo todo, deja pasar un cáncer.' },
+        { cells: ['Estoma pálido, violáceo o negro', 'Avisar al cirujano: isquemia', 'Esperar que mejore solo'],
+          say: 'Si el estoma se ve pálido, violáceo o negro, hay isquemia y necrosis: avisas al cirujano. Esperar que mejore solo es el error.' },
         { cells: ['Paciente inmunosuprimido', 'Umbral bajo para hospitalizar y operar', 'Confiar en que no tiene fiebre'],
           say: 'Y en el inmunosuprimido, el umbral para hospitalizar y para operar es bajo. Confiar en que está bien porque no tiene fiebre es la trampa: puede tener una perforación seria y no mostrar ningún signo inflamatorio clásico.' },
       ],
@@ -274,6 +326,157 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 33",
+      "stem": "Un paciente de 73 años presenta un cuadro de 2 días de dolor abdominal, mayor en la fosa ilíaca izquierda. Al examen físico presenta dolor a la palpación de la fosa ilíaca izquierda, con signos de irritación peritoneal en la zona.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Apendicitis aguda"
+        },
+        {
+          "letter": "B",
+          "text": "Cáncer de colon"
+        },
+        {
+          "letter": "C",
+          "text": "Obstrucción intestinal"
+        },
+        {
+          "letter": "D",
+          "text": "Diverticulitis aguda"
+        },
+        {
+          "letter": "E",
+          "text": "Hernia inguinal complicada"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Dolor de 2 días en la fosa ilíaca izquierda con irritación peritoneal localizada en un adulto mayor es la presentación clásica de la diverticulitis aguda, la llamada apendicitis izquierda. Se confirma y se clasifica con TAC de abdomen y pelvis con contraste.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Un paciente de setenta y tres años tiene dos días de dolor abdominal, mayor en la fosa ilíaca izquierda, con signos de irritación peritoneal localizados en esa zona.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: apendicitis aguda, cáncer de colon, obstrucción intestinal, diverticulitis aguda o hernia inguinal complicada. Piénsalo.",
+        "answer": "Es la D. Adulto mayor con dolor e irritación peritoneal en la fosa ilíaca izquierda es diverticulitis hasta que se demuestre lo contrario. El cáncer de colon tienta por la edad, pero suele dar baja de peso, anemia o cambio del hábito, no un cuadro inflamatorio agudo de dos días."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.013 · Enfermedad diverticular no complicada",
+      "stem": "Hombre de 60 años, asintomático, se realiza una colonoscopía de tamizaje que muestra múltiples divertículos en el colon sigmoides, sin signos inflamatorios ni otras lesiones.",
+      "question": "¿Cuál es la indicación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sigmoidectomía electiva"
+        },
+        {
+          "letter": "B",
+          "text": "Colonoscopía de control anual"
+        },
+        {
+          "letter": "C",
+          "text": "Ciprofloxacino y metronidazol por 7 días"
+        },
+        {
+          "letter": "D",
+          "text": "Evitar estrictamente semillas y frutos secos"
+        },
+        {
+          "letter": "E",
+          "text": "Dieta rica en fibra, sin controles específicos por los divertículos"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La diverticulosis asintomática no requiere tratamiento ni seguimiento específico; se recomienda dieta rica en fibra, actividad física y evitar el sobrepeso. No hay evidencia para restringir semillas o frutos secos, y la cirugía electiva no está indicada en la enfermedad no complicada.",
+      "say": {
+        "stem": "Hombre de sesenta años, asintomático, en cuya colonoscopía de tamizaje aparecen múltiples divertículos en el sigmoides, sin inflamación ni otras lesiones.",
+        "question": "¿Cuál es la indicación más adecuada?",
+        "options": "Las opciones: sigmoidectomía electiva, colonoscopía anual, antibióticos por una semana, evitar semillas y frutos secos o dieta rica en fibra sin controles especiales. Piénsalo.",
+        "answer": "Es la E. La diverticulosis sin síntomas solo necesita fibra y hábitos saludables. Evitar semillas tienta porque es un consejo clásico, pero la evidencia no muestra que aumenten el riesgo de diverticulitis."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.3.004 · Colostomías",
+      "stem": "Hombre de 70 años con diverticulitis aguda Hinchey IV (peritonitis fecaloídea) es sometido a una cirugía de urgencia. Se realiza una sigmoidectomía, cierre del muñón rectal y abocamiento del colon descendente a la piel.",
+      "question": "¿Cómo se denomina esta cirugía y qué tipo de ostomía se dejó?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Operación de Miles con colostomía definitiva"
+        },
+        {
+          "letter": "B",
+          "text": "Colostomía en asa sin resección"
+        },
+        {
+          "letter": "C",
+          "text": "Hemicolectomía derecha con ileostomía en asa"
+        },
+        {
+          "letter": "D",
+          "text": "Resección anterior baja con anastomosis primaria"
+        },
+        {
+          "letter": "E",
+          "text": "Operación de Hartmann con colostomía terminal"
+        }
+      ],
+      "correct": "E",
+      "explanation": "La operación de Hartmann consiste en resecar el segmento enfermo, cerrar el muñón rectal y abocar el cabo proximal como colostomía terminal; es la técnica clásica en la peritonitis diverticular fecaloídea o en pacientes inestables. Se puede reconstruir el tránsito en un segundo tiempo. La operación de Miles reseca el recto y el ano, con colostomía definitiva.",
+      "say": {
+        "stem": "Hombre de setenta años operado de urgencia por una diverticulitis con peritonitis fecaloídea. Se reseca el sigmoides, se cierra el muñón del recto y se aboca el colon descendente a la piel.",
+        "question": "¿Cómo se llama esta cirugía y qué ostomía quedó?",
+        "options": "Las opciones: operación de Miles con colostomía definitiva, colostomía en asa sin resección, hemicolectomía derecha con ileostomía, resección anterior con anastomosis primaria o operación de Hartmann con colostomía terminal. Piénsalo.",
+        "answer": "Es la E. Resecar, cerrar el muñón rectal y sacar el colon como colostomía terminal es la operación de Hartmann, que permite reconectar el tránsito más adelante. La de Miles tienta porque también deja una colostomía, pero saca el recto y el ano, así que esa colostomía es definitiva."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.1.017 · Enfermedad diverticular no complicada",
+      "stem": "Mujer de 62 años, asintomática, se realiza colonoscopía de tamizaje que muestra múltiples divertículos en el colon sigmoides, sin signos inflamatorios ni pólipos. Nunca ha tenido dolor abdominal ni sangrado.",
+      "question": "¿Cuál es la recomendación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mesalazina oral de mantención"
+        },
+        {
+          "letter": "B",
+          "text": "Evitar semillas, nueces y maíz"
+        },
+        {
+          "letter": "C",
+          "text": "Dieta rica en fibra y actividad física"
+        },
+        {
+          "letter": "D",
+          "text": "Ciprofloxacino y metronidazol en ciclos mensuales"
+        },
+        {
+          "letter": "E",
+          "text": "Sigmoidectomía electiva"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La diverticulosis asintomática no requiere tratamiento específico: se recomienda dieta rica en fibra, actividad física y evitar tabaquismo y obesidad. La restricción de semillas y nueces no tiene respaldo. Mesalazina y antibióticos cíclicos no previenen la diverticulitis, y la cirugía electiva no está indicada en la enfermedad no complicada.",
+      "say": {
+        "stem": "Mujer de sesenta y dos años, asintomática, con divertículos de sigmoides encontrados en una colonoscopía de tamizaje.",
+        "question": "¿Qué le recomiendas?",
+        "options": "Las opciones: mesalazina, evitar semillas y nueces, dieta rica en fibra y actividad física, antibióticos cíclicos o sigmoidectomía. Piénsalo.",
+        "answer": "Es la C. Fibra y actividad física. Evitar semillas es un mito clásico: no previene la diverticulitis."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -284,7 +487,7 @@ module.exports = {
         ] },
         { title: 'Tratamiento', tag: 'Según el Hinchey', kind: 'pharma', items: [
           { t: 'Sin absceso: antibióticos', d: 'Más del 90% resuelve sin cirugía',
-            say: 'Sin absceso, antibióticos y nada más. Con absceso de cuatro centímetros o más, drenaje percutáneo. Y con peritonitis generalizada, Hartmann de urgencia.' },
+            say: 'Sin absceso, antibióticos y nada más. Con absceso de cuatro centímetros o más, drenaje percutáneo. Y con peritonitis generalizada, Hartmann de urgencia, que deja una colostomía terminal.' },
         ] },
         { title: 'Lo que nunca olvidas', tag: 'Contraindicada, y luego obligatoria', kind: 'alert', items: [
           { t: 'Colonoscopía: no en agudo', d: 'Sí, obligatoria, a las 6 a 8 semanas',

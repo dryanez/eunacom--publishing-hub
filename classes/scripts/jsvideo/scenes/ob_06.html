@@ -1,0 +1,82 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script><script src="../graph.js"></script>
+<script>
+// Obstetricia 06 (gráfico, sin anatomía): orden fijo de la emergencia hipertensiva (1 magnesio, 2 presión, 3 interrupción)
+// y nivel de magnesio en el tiempo con las franjas de toxicidad (4 a 7 terapéutico; 8 a 10 sin reflejo; 10 a 12 depresión respiratoria).
+//   ?v=orden   ob-06 A1: el orden fijo + curva de magnesio
+const V = new URLSearchParams(location.search).get('v') || 'orden';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+const G = GRAPH(L);
+
+const ax = G.axes({ x: 100, y: 270, w: 560, h: 300 }, [0, 16], [0, 16],
+  { xt: [0, 4, 8, 12, 16], yt: [0, 4, 8, 12, 15], xl: 'Horas de infusión', yl: 'Magnesio sérico (mEq/L)' });
+const mg = G.smooth([[0, 0], [0.5, 5.4], [1, 5.2], [5, 5.4], [7, 6.8], [8.6, 8.6], [9, 8.9], [10.5, 8.2], [12, 7.0], [14, 5.8], [16, 5.0]]);
+
+const STEPS = [
+  { n: '1', t: 'Sulfato de magnesio', c: C.AMBER },
+  { n: '2', t: 'Controlar la presión', c: C.BLUE },
+  { n: '3', t: 'Interrumpir el embarazo', c: C.RED },
+];
+
+function orden(t) {
+  K.title('Preeclampsia severa: el orden fijo', 'Primero el magnesio, después la presión, al final el parto', C.RED);
+  STEPS.forEach((s, i) => {
+    const a = seg(t, 0.8 + i * 1.6, 0.5); if (a <= 0) return;
+    const x = 40 + i * 410, y = 128, w = 370;
+    ctx.save(); ctx.globalAlpha = a;
+    rrect(x, y, w, 70, 18, '#161B22'); ctx.fillStyle = s.c; ctx.fillRect(x, y, 6, 70);
+    ctx.beginPath(); ctx.arc(x + 44, y + 35, 22, 0, 7); ctx.fillStyle = s.c; ctx.fill();
+    text(s.n, x + 44, y + 44, 28, C.BG, 'bold', 'center');
+    text(s.t, x + 82, y + 43, 22, C.INK, 'bold');
+    if (i < 2) { ctx.fillStyle = C.MUTED; ctx.beginPath(); ctx.moveTo(x + w + 10, y + 35); ctx.lineTo(x + w + 26, y + 35); ctx.lineTo(x + w + 26, y + 27); ctx.lineTo(x + w + 38, y + 35); ctx.lineTo(x + w + 26, y + 43); ctx.lineTo(x + w + 26, y + 35); ctx.fill(); }
+    ctx.restore();
+  });
+  // el primero se resalta
+  const pulse = fade(t, 1.2, 6.2) * (0.5 + 0.5 * Math.sin(t * 6));
+  if (pulse > 0) { ctx.save(); ctx.globalAlpha = pulse; ctx.strokeStyle = C.AMBER; ctx.lineWidth = 3; ctx.beginPath(); ctx.roundRect(40, 128, 370, 70, 18); ctx.stroke(); ctx.restore(); }
+
+  const ga = seg(t, 6, 0.8);
+  ctx.save(); ctx.globalAlpha = ga; ax.draw(1); ctx.restore();
+  G.band(ax, 4, 7, 'rgba(61,220,132,0.16)', ga);
+  G.band(ax, 8, 10, 'rgba(255,194,71,0.20)', ga);
+  G.band(ax, 10, 12, 'rgba(255,128,64,0.24)', ga);
+  G.band(ax, 15, 16, 'rgba(255,90,78,0.30)', ga);
+  ctx.save(); ctx.globalAlpha = ga;
+  text('Terapéutico 4 a 7', ax.X(16) + 12, ax.Y(5.5) + 5, 16, C.GREEN, 'bold');
+  text('Sin reflejo rotuliano', ax.X(16) + 12, ax.Y(9) + 5, 16, C.AMBER, 'bold');
+  text('Depresión respiratoria', ax.X(16) + 12, ax.Y(11) + 5, 16, '#FF9A5C', 'bold');
+  text('Paro cardíaco', ax.X(16) + 12, ax.Y(15.5) + 5, 16, C.RED, 'bold');
+  ctx.restore();
+
+  const k = ease(seg(t, 7, 14));
+  const p = G.curve(ax, mg, k, C.VIOLET, 5, 0, 16);
+  G.head(p, C.VIOLET);
+  const xc = k * 16;
+  // eventos sobre la curva
+  const ev = (x, a, b) => seg(t, a, 0.5) * (xc >= x ? 1 : 0) * (1 - seg(t, b, 0.5));
+  if (xc >= 0.5) { ctx.save(); ctx.globalAlpha = ev(0.5, 8, 11); tag('Carga: 4 a 5 g en 20 min', ax.X(4.6), ax.Y(2.4), C.AMBER, 16); ctx.restore(); }
+  if (xc >= 3) { ctx.save(); ctx.globalAlpha = seg(t, 9.6, 0.5) * (1 - seg(t, 13, 0.5)); tag('Mantención 1 a 2 g por hora', ax.X(6), ax.Y(2.4), C.AMBER, 16); ctx.restore(); }
+  if (xc >= 8.6) {
+    const a = seg(t, 15.3, 0.5); ctx.save(); ctx.globalAlpha = a; G.vline(ax, 8.9, C.AMBER, '', 1);
+    tag('Cae la diuresis: sube el nivel', ax.X(5), ax.Y(11.6), C.AMBER, 16); ctx.restore();
+    ctx.save(); ctx.globalAlpha = seg(t, 16.3, 0.5); tag('Se abole el reflejo: suspendo', ax.X(11.4), ax.Y(13.2), C.RED, 16); ctx.restore();
+  }
+  // panel derecho
+  K.card(850, 250, 400, 148, C.AMBER, 'Cada hora revisas', ['Reflejo rotuliano presente', 'Frecuencia respiratoria normal', 'Diuresis conservada'], seg(t, 9.5, 0.5), 17);
+  K.card(850, 415, 400, 112, C.GREEN, 'Si hay toxicidad', ['Gluconato de calcio, 1 g', 'endovenoso, al lado de la cama'], seg(t, 18.5, 0.5), 17);
+  K.banner(850, 550, 400, 'Presión meta: 140-150 sobre 90-100', C.BLUE, seg(t, 21, 0.5));
+  K.banner(40, 650, 1210, 'En eclampsia y HELLP la interrupción es la cura, sin esperar edad gestacional', C.RED, seg(t, 23.5, 0.6));
+}
+function credit() { text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+const SCN = { orden: { f: orden, dur: 28 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({});
+</script>
+</body></html>

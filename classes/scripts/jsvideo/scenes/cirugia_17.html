@@ -1,0 +1,49 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// cirugia-17 (gráfico sin anatomía): línea de tiempo de la herida operatoria.
+// Cefazolina 30 a 60 min antes de la incisión; ISQ hacia el día 5 a 7 (vigilancia 30 días, 90 con implante);
+// agua de carne y dehiscencia/evisceración días 5 a 8; fístula postoperatoria días 5 a 10; eventración meses o años después.
+window.SCENE = { duration: 26, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg } = K;
+const X = d => 270 + d * (880 / 30);
+const LANES = [
+  ['Profilaxis', 'Cefazolina', -1.6, -0.1, C.GREEN, '30 a 60 min antes'],
+  ['Infección', 'De sitio quirúrgico', 5, 7, C.AMBER, 'día 5 a 7'],
+  ['Dehiscencia', 'Agua de carne', 5, 8, C.RED, 'día 5 a 8'],
+  ['Fístula', 'Intestino delgado', 5, 10, C.VIOLET, 'día 5 a 10'],
+  ['Vigilancia', 'Ventana de infección', 0, 30, C.BLUE, '30 días (90 con implante)'],
+  ['Eventración', 'Secuela tardía', 24, 31.5, '#7FD8C8', 'meses o años'],
+];
+const laneY = i => 150 + i * 72;
+window.render = function (t) {
+  ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720);
+  K.title('La herida operatoria, día por día', 'Cuándo se previene, cuándo aparece cada complicación', C.AMBER);
+  const day = lerp(-2, 32, ease(seg(t, 1.5, 17)));
+  const a0 = seg(t, 0, 0.7); ctx.globalAlpha = a0;
+  ctx.strokeStyle = '#3A424E'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(X(-2), 600); ctx.lineTo(X(31.5), 600); ctx.stroke();
+  [[0, 'incisión'], [5, '5'], [10, '10'], [20, '20'], [30, '30 días']].forEach(([d, s]) => { text(s, X(d), 628, 16, C.MUTED, '', 'center'); ctx.fillStyle = '#3A424E'; ctx.fillRect(X(d) - 1, 594, 2, 12); });
+  ctx.globalAlpha = 1;
+  ctx.strokeStyle = 'rgba(255,255,255,0.3)'; ctx.setLineDash([5, 6]); ctx.beginPath(); ctx.moveTo(X(0), 140); ctx.lineTo(X(0), 600); ctx.stroke(); ctx.setLineDash([]);
+  LANES.forEach(([w, s, d0, d1, col, lab], i) => {
+    const a = seg(t, 0.6 + i * 0.15, 0.5); if (a <= 0) return; ctx.globalAlpha = a;
+    text(w, 30, laneY(i) + 24, 22, col, 'bold'); text(s, 30, laneY(i) + 44, 14, C.MUTED);
+    rrect(X(-2), laneY(i) + 4, X(31.5) - X(-2), 44, 8, '#161B22'); ctx.globalAlpha = 1;
+    const f = clamp((day - d0) / (d1 - d0), 0, 1);
+    if (f > 0) {
+      ctx.globalAlpha = 0.92; rrect(X(d0), laneY(i) + 4, (X(d1) - X(d0)) * f, 44, 8, col); ctx.globalAlpha = 1;
+      if (f > 0.7) { if (X(d1) - X(d0) > 150) text(lab, (X(d0) + X(d1)) / 2, laneY(i) + 33, 18, C.BG, 'bold', 'center'); else text(lab, X(d1) + 14, laneY(i) + 33, 18, col, 'bold'); }
+    }
+  });
+  if (t > 1.5 && t < 19) { ctx.strokeStyle = 'rgba(255,255,255,0.4)'; ctx.lineWidth = 2; ctx.setLineDash([5, 6]); ctx.beginPath(); ctx.moveTo(X(day), 140); ctx.lineTo(X(day), 600); ctx.stroke(); ctx.setLineDash([]); }
+  K.banner(270, 650, 760, 'Profilaxis antes de incidir; la herida se vigila 30 días', C.AMBER, seg(t, 21, 0.5));
+  text('Gráfico propio · Animación propia', 1268, 712, 13, C.MUTED, '', 'right');
+};
+LOAD({});
+</script>
+</body></html>

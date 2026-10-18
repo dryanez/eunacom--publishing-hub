@@ -32,7 +32,8 @@ module.exports = {
         { show: ['lat'], note: 'Puede durar horas sin ser anormal',
           say: 'El primer período empieza con la fase latente: contracciones irregulares que van borrando y dilatando el cuello, muy lento, hasta los cinco centímetros. Puede durar muchas horas sin que sea anormal.' },
         { show: ['act'], note: 'El corte se movió de 4 a 5 centímetros',
-          say: 'Desde los cinco centímetros empieza la fase activa, con dinámica regular y una velocidad esperada de al menos un centímetro por hora. Fíjate en el número: el consenso actual movió el corte de cuatro a cinco centímetros, y eso se pregunta.' },
+          say: 'Desde los cinco centímetros empieza la fase activa, con dinámica regular y una velocidad esperada de al menos un centímetro por hora. Fíjate en el número: el consenso actual movió el corte de cuatro a cinco centímetros, y eso se pregunta. Mira este partograma: la dilatación se registra hora a hora, y si la curva cruza la línea de alerta, el parto se está prolongando.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-16/S2_partograma__propio.svg', label: 'Partograma', at: 'Mira este partograma', credit: 'Dibujo propio (esquema)' } },
         { show: ['exp'], note: 'Con más tiempo si hay epidural',
           say: 'Con la dilatación completa empieza el período expulsivo, que termina cuando nace el niño. En primerizas con epidural se acepta hasta tres horas; en multíparas, mucho menos.' },
         { show: ['alu'], note: 'Más de esto y hablamos de retención',
@@ -55,7 +56,8 @@ module.exports = {
         ] },
         { title: 'Rotación y salida', tag: 'La que más se pregunta', kind: 'key', items: [
           { t: 'Rotación interna a occípito-púbica', d: 'La variedad de salida más frecuente',
-            say: 'Dentro de la pelvis, la cabeza rota para ubicar el occipucio bajo la sínfisis púbica. Esa es la variedad occípito-púbica, la más frecuente de todas.' },
+            say: 'Dentro de la pelvis, la cabeza rota para ubicar el occipucio bajo la sínfisis púbica. Esa es la variedad occípito-púbica, la más frecuente de todas. En este esquema ves cómo se ubican las fontanelas según la variedad de posición, y así la reconoces al palpar.',
+            photo: { src: 'biblioteca/14_obstetricia/ob-16/S1_variedades-fontanelas__propio.svg', label: 'Variedades de posición', at: 'En este esquema', credit: 'Dibujo propio (esquema)' } },
           { t: 'Desprendimiento por deflexión', d: 'Frente, ojos, nariz y mentón',
             say: 'Después la cabeza se extiende y se desprende: frente, ojos, nariz y mentón, en ese orden.' },
         ] },
@@ -134,24 +136,6 @@ module.exports = {
       steps: [
         { note: 'Seis movimientos',
           say: 'La cabeza se encaja en transversa, desciende y se flecta, rota hasta quedar con el occipucio adelante, se extiende bajo el pubis y, una vez afuera, rota de nuevo para alinearse con los hombros.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'El trabajo de parto',
-      images: [
-        { src: 'biblioteca/14_obstetricia/ob-16/S1_variedades-fontanelas__propio.svg', label: 'Variedades de posición', credit: 'Dibujo propio (esquema)' },
-        { src: 'biblioteca/14_obstetricia/ob-16/S2_partograma__propio.svg', label: 'Partograma', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Fontanelas',
-          say: 'La variedad de posición se determina palpando las fontanelas.' },
-        { note: 'Líneas de alerta y acción',
-          say: 'Y el partograma registra la dilatación. Si cruza la línea de alerta, el parto se está prolongando.' },
       ],
     },
 

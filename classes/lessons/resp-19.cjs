@@ -37,7 +37,8 @@ module.exports = {
         { show: ['hip'], note: 'Tercer vértice',
           say: 'Y el tercero es la hipercoagulabilidad: cáncer activo con quimioterapia, trombofilias como el factor cinco Leiden, el síndrome antifosfolípido, y los estrógenos, incluidos los anticonceptivos orales combinados.' },
         { show: ['tvp'], note: 'Más del 90 % viene de las piernas',
-          say: 'Con esos factores se forma una trombosis venosa profunda, en más del noventa por ciento de los casos en las venas ilíacas, femorales o poplíteas.' },
+          say: 'Con esos factores se forma una trombosis venosa profunda, en más del noventa por ciento de los casos en las venas ilíacas, femorales o poplíteas. Mira esta pierna: más hinchada, con la vena marcada.',
+            photo: { src: '_web/173_resp_TEP__Commons_1.jpg', label: 'Trombosis venosa profunda', at: 'Mira esta pierna', credit: 'Wikimedia Commons, CC BY-SA 3.0' } },
         { show: ['tep'], note: 'Oclusión mecánica',
           say: 'El trombo se suelta, viaja por el corazón derecho y ocluye mecánicamente las arterias pulmonares. Eso es el tromboembolismo pulmonar.' },
         { show: ['vd'], note: 'Aquí está la gravedad',
@@ -62,7 +63,8 @@ module.exports = {
           { t: 'Lo más frecuente: taquicardia sinusal', d: 'En el 40–50 %',
             say: 'Ahora un dato muy preguntado: el electrocardiograma. El hallazgo más frecuente no es ningún patrón exótico, es la taquicardia sinusal aislada, en el cuarenta a cincuenta por ciento.' },
           { t: 'S1Q3T3 y bloqueo de rama derecha', d: 'Específicos, pero en menos del 15–20 %',
-            say: 'El famoso S uno, Q tres, T tres de McGinn-White, y el bloqueo completo de rama derecha, son muy específicos de sobrecarga del ventrículo derecho, pero aparecen en menos del quince a veinte por ciento. Si te preguntan lo más frecuente, la respuesta es taquicardia sinusal.' },
+            say: 'El famoso S uno, Q tres, T tres de McGinn-White, y el bloqueo completo de rama derecha, son muy específicos de sobrecarga del ventrículo derecho, pero aparecen en menos del quince a veinte por ciento. Si te preguntan lo más frecuente, la respuesta es taquicardia sinusal. Mira este electrocardiograma.',
+            photo: { src: 'biblioteca/02_neumologia/resp-19/01_ecg_tep_s1q3t3__ecg-basics_p195.jpg', label: 'ECG en TEP', at: 'Mira este electrocardiograma', credit: 'ECG from Basics to Essentials, p. 195' } },
         ] },
       ],
     },
@@ -119,7 +121,8 @@ module.exports = {
         { show: ['neg'], note: 'Su fuerza es el valor negativo',
           say: 'Si sale negativo, bajo quinientos, o bajo la edad por diez en los mayores de cincuenta, descarta el TEP con un valor predictivo negativo sobre noventa y nueve por ciento. Te ahorras radiación y contraste.' },
         { show: ['tac'], note: 'Si es positivo, angioTAC',
-          say: 'Si sale positivo, no confirma nada, porque sube en muchas situaciones: pasas al angioTAC de arterias pulmonares, que es el estándar en la práctica clínica.' },
+          say: 'Si sale positivo, no confirma nada, porque sube en muchas situaciones: pasas al angioTAC de arterias pulmonares, que es el estándar en la práctica clínica. Mira esta angioTAC: el defecto de llenado en la arteria pulmonar. Y esta arteriografía, el estándar antiguo.',
+            photos: [{ src: 'biblioteca/02_neumologia/resp-19/01_angiotc-tep__cto-neumo_p103.jpg', label: 'AngioTAC', at: 'Mira esta angioTAC', credit: 'Manual CTO Neumología 14.ª ed., p. 103' }, { src: 'biblioteca/02_neumologia/resp-19/02_arteriografia-pulmonar__cto-neumo_p104.jpg', label: 'Arteriografía pulmonar', at: 'Y esta arteriografía', credit: 'Manual CTO Neumología 14.ª ed., p. 104' }] },
         { show: ['tra'], note: 'La trampa más preguntada',
           say: 'Y aquí está la trampa. Si Wells da más de cuatro, pedir dímero D está contraindicado, porque un resultado negativo no tiene fuerza suficiente para descartar en ese grupo. Se va directo al angioTAC. El postoperado de cadera con pantorrilla hinchada no necesita dímero D.' },
       ],
@@ -155,7 +158,8 @@ module.exports = {
         { show: ['baj'], note: 'Candidato a manejo ambulatorio',
           say: 'Con sPESI cero, el riesgo es bajo, con mortalidad a treinta días bajo uno por ciento. Es candidato a hospitalización muy breve o a manejo ambulatorio precoz con anticoagulantes orales directos.' },
         { show: ['int'], note: 'Se mira el ventrículo derecho',
-          say: 'Con sPESI de uno o más, el riesgo es intermedio, y aquí vuelve el ventrículo derecho: se busca disfunción en el ecocardiograma o en el angioTAC, y se miden troponinas o péptido natriurético.' },
+          say: 'Con sPESI de uno o más, el riesgo es intermedio, y aquí vuelve el ventrículo derecho: se busca disfunción en el ecocardiograma o en el angioTAC, y se miden troponinas o péptido natriurético. Mira este ecocardiograma: el ventrículo derecho dilatado.',
+            photo: { src: '_verificadas/174_resp_TEP__PocketUS_p104.jpg', label: 'VD dilatado', at: 'Mira este ecocardiograma', credit: 'Reardon y Ma, Pocket Atlas of Emergency Ultrasound, p. 104' } },
         { show: ['ia', 'ib'], note: 'Ambos positivos: vigilar en UCI',
           say: 'Si ambos son positivos, es intermedio-alto: el paciente va a monitoreo en unidad de cuidados intensivos o intermedios, porque se puede descompensar. Si solo uno o ninguno es positivo, es intermedio-bajo, y se anticoagula en sala.' },
       ],
@@ -212,6 +216,30 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Prevención',
+      title: 'La inmovilización se puede modificar',
+      cards: [
+        { title: 'Medidas generales', tag: 'Hospital, cirugía y viajes', kind: 'key', items: [
+          { t: 'Deambulación precoz', d: 'Levantarse a las 24 horas de una cirugía no complicada',
+            say: 'La inmovilización es un factor de riesgo que sí se puede modificar. En hospitalizados y operados, se previene con deambulación precoz: levantarse a las veinticuatro horas de una cirugía no complicada.' },
+          { t: 'Ejercicios de piernas y pausas', d: 'Cada 1–2 horas en viajes > 6 horas',
+            say: 'Ejercicios de flexión y extensión del tobillo, y en viajes de más de seis horas, pausas para caminar cada una o dos horas, con buena hidratación y sin ropa ajustada.' },
+        ] },
+        { title: 'Medidas según el riesgo', tag: 'Caprini o Padua', kind: 'pharma', items: [
+          { t: 'Medias de compresión o compresión neumática', d: 'Mecánicas',
+            say: 'Se suman medias de compresión graduada o compresión neumática.' },
+          { t: 'Heparina de bajo peso molecular', d: 'Profilaxis farmacológica',
+            say: 'Y, según el puntaje de Caprini o de Padua, heparina de bajo peso molecular profiláctica.' },
+        ] },
+        { title: 'Después de un TEP', tag: 'Lo que se pregunta', kind: 'alert', items: [
+          { t: 'Retomar la actividad física', d: 'El ejercicio no aumenta el riesgo con anticoagulación',
+            say: 'Tras un tromboembolismo o una trombosis venosa, se recomienda retomar la actividad física regular y caminar. El ejercicio no aumenta el riesgo de embolia si la anticoagulación es efectiva. Y mantener un peso saludable y no fumar también reduce el riesgo.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -222,36 +250,6 @@ module.exports = {
       steps: [
         { note: 'De la pierna a la arteria pulmonar',
           say: 'Casi todo tromboembolismo pulmonar nace en las venas profundas de la pierna. El trombo se suelta, sube por la femoral, las ilíacas y la cava, atraviesa el corazón derecho y se enclava en la arteria pulmonar. El pulmón distal queda ventilado pero sin perfusión, y el ventrículo derecho se sobrecarga y se dilata.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Tromboembolismo pulmonar',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-19/01_angiotc-tep__cto-neumo_p103.jpg', label: 'AngioTC', credit: 'Manual CTO Neumología 14.ª ed., p. 103' },
-        { src: 'biblioteca/02_neumologia/resp-19/01_ecg_tep_s1q3t3__ecg-basics_p195.jpg', label: 'ECG en TEP', credit: 'ECG from Basics to Essentials, p. 195' },
-      ],
-      steps: [
-        { note: 'Defecto de llenado en la arteria',
-          say: 'En la angiotomografía el contraste llena las arterias pulmonares de blanco, y el trombo se ve como un defecto oscuro dentro de ellas. Es el examen de elección si el paciente está estable.' },
-        { note: 'S en uno, Q y T negativa en tres',
-          say: 'Y este es el electrocardiograma: taquicardia, S profunda en primera derivada, Q y T negativa en tercera. Es el patrón S uno Q tres T tres. Recuerda que es poco sensible: lo más frecuente es solo la taquicardia sinusal.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-19/02_arteriografia-pulmonar__cto-neumo_p104.jpg', label: 'Arteriografía pulmonar', credit: 'Manual CTO Neumología 14.ª ed., p. 104' },
-      ],
-      steps: [
-        { note: 'Arteriografía pulmonar',
-          say: 'Mira esta imagen: arteriografía pulmonar. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
       ],
     },
 
@@ -440,6 +438,82 @@ module.exports = {
         options: 'Las opciones: infarto, disección aórtica, taponamiento, neumonía, o tromboembolismo pulmonar. Piénsalo.',
         answer: 'Es la E. La palabra clave es súbita, en un paciente que llevaba días en cama: estasis de Virchow. Y fíjate que el electrocardiograma solo muestra taquicardia sinusal, que es justamente el hallazgo más frecuente del TEP, y la radiografía no tiene nada nuevo. La trampa es atribuirlo a su EPOC o a su insuficiencia cardíaca; pero un síncope con empeoramiento brusco en un paciente encamado es TEP hasta demostrar lo contrario.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.4.010 · TAC de tórax",
+      "stem": "Mujer de 45 años, en su décimo día postoperatorio de una artroplastía de cadera, presenta disnea súbita y dolor pleurítico. FC 110 lpm, PA 125/80 mmHg, SatO2 89% ambiental. Tiene edema de la pantorrilla izquierda. Su score de Wells indica alta probabilidad clínica.",
+      "question": "¿Cuál es el examen más adecuado para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AngioTAC de tórax (angiografía pulmonar por TAC)"
+        },
+        {
+          "letter": "B",
+          "text": "Dímero D"
+        },
+        {
+          "letter": "C",
+          "text": "Radiografía de tórax"
+        },
+        {
+          "letter": "D",
+          "text": "TAC de tórax sin contraste"
+        },
+        {
+          "letter": "E",
+          "text": "Espirometría"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Con alta probabilidad clínica de tromboembolismo pulmonar en un paciente estable, se solicita directamente una angioTAC de tórax, examen de elección para confirmar el diagnóstico. El dímero D solo es útil para descartar en pacientes de probabilidad baja o intermedia. La TAC sin contraste no visualiza los trombos dentro de las arterias pulmonares.",
+      "say": {
+        "stem": "Mujer de cuarenta y cinco años, al décimo día de una prótesis de cadera, con disnea súbita, dolor pleurítico, taquicardia, saturación de ochenta y nueve por ciento y edema de la pantorrilla izquierda. El score de Wells indica alta probabilidad.",
+        "question": "¿Cuál es el examen más adecuado para confirmar el diagnóstico?",
+        "options": "Las opciones: angioTAC de tórax, dímero D, radiografía de tórax, TAC de tórax sin contraste o espirometría. Piénsalo.",
+        "answer": "Es la A. Con alta probabilidad de tromboembolismo y una paciente estable, vas directo a la angioTAC. El dímero D tienta porque se pide mucho, pero solo sirve para descartar en probabilidad baja o intermedia; en un postoperatorio con alta sospecha no te ayuda."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.3.004 · Actividad física en pacientes con riesgo de trombosis",
+      "stem": "Mujer de 45 años con trombosis venosa profunda femoropoplítea izquierda, hemodinámicamente estable y sin signos de TEP, inicia anticoagulación ambulatoria con rivaroxabán. Pregunta si debe guardar reposo en cama.",
+      "question": "¿Cuál es la recomendación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reposo absoluto en cama por 2 semanas para evitar una embolia"
+        },
+        {
+          "letter": "B",
+          "text": "Reposo con la pierna en declive"
+        },
+        {
+          "letter": "C",
+          "text": "No caminar hasta que desaparezca el edema"
+        },
+        {
+          "letter": "D",
+          "text": "Deambulación precoz según tolerancia, con anticoagulación efectiva"
+        },
+        {
+          "letter": "E",
+          "text": "Ejercicio intenso de alto impacto desde el primer día"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Con anticoagulación efectiva, la deambulación precoz en la TVP es segura: no aumenta el riesgo de TEP y reduce dolor, edema y síndrome postrombótico. El reposo en cama favorece la estasis venosa. En personas con riesgo de trombosis, como en viajes largos o en el posoperatorio, se recomienda movilización, ejercicios de pantorrilla e hidratación.",
+      "say": {
+        "stem": "Mujer de cuarenta y cinco años con trombosis venosa profunda que inicia rivaroxabán y pregunta si debe estar en cama.",
+        "question": "¿Qué le recomiendas?",
+        "options": "Las opciones: reposo absoluto, pierna en declive, no caminar hasta que baje el edema, deambulación precoz con anticoagulación o ejercicio intenso. Piénsalo.",
+        "answer": "Es la D. Caminar precozmente, ya anticoagulada. El reposo para evitar la embolia es un mito: no la previene y aumenta la estasis."
+      }
     },
 
     {

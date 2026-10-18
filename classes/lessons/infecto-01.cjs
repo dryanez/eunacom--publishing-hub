@@ -165,6 +165,56 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Termorregulación',
+      title: 'Fiebre, hipertermia e hipotermia',
+      cards: [
+        { title: 'Fiebre', tag: 'El termostato sube', kind: 'key', items: [
+          { t: 'Pirógenos suben el punto de ajuste', d: 'Central ≥ 38 °C · axilar ≥ 37,8 °C',
+            say: 'Partamos por distinguir tres cosas que se confunden. La fiebre es el hipotálamo subiendo el termostato por acción de los pirógenos, como la interleuquina uno, la seis y el factor de necrosis tumoral. Se define con temperatura central desde treinta y ocho grados, o axilar desde treinta y siete coma ocho.' },
+          { t: 'Paracetamol y buscar el foco', d: 'Evitar aspirina en niños: Reye',
+            say: 'Se trata buscando el foco, hidratando y dando paracetamol. En niños no se usa aspirina, por el síndrome de Reye.' },
+        ] },
+        { title: 'Hipertermia', tag: 'El termostato no cambia', kind: 'alert', items: [
+          { t: 'Calor que se acumula', d: 'Golpe de calor, neuroléptico maligno, cocaína',
+            say: 'En la hipertermia el termostato no se mueve: el cuerpo produce más calor del que puede perder. Golpe de calor, síndrome serotoninérgico, neuroléptico maligno, hipertermia maligna o cocaína.' },
+          { t: 'No responde a antipiréticos', d: 'Enfriamiento activo y tratar la causa',
+            say: 'La clave de examen es que no responde a antipiréticos. Si le das paracetamol, no pasa nada. Necesita enfriamiento activo y tratar la causa.' },
+        ] },
+        { title: 'Hipotermia', tag: 'Signo de gravedad', kind: 'alert', items: [
+          { t: 'Menor de 35 °C en sepsis', d: 'Peor pronóstico que la fiebre',
+            say: 'Y la hipotermia en un paciente séptico, en un recién nacido o en un anciano es una señal de gravedad, peor que la fiebre. Se recalienta y se busca la infección.' },
+          { t: 'El anciano puede no hacer fiebre', d: '+1,1 °C sobre su basal ya sugiere infección',
+            say: 'Ojo con el adulto mayor: puede no hacer fiebre. Un aumento de uno coma uno grados sobre su basal ya sugiere infección.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Hemocultivo',
+      title: 'Hemocultivo: verdadero o contaminante',
+      cards: [
+        { title: 'Cómo se toma', tag: 'Antes del antibiótico', kind: 'key', items: [
+          { t: '2 a 3 sets de sitios distintos', d: 'Aerobio y anaerobio · 8 a 10 mL',
+            say: 'El hemocultivo bien tomado son dos a tres sets, de sitios de punción distintos, antes del antibiótico, con ocho a diez mililitros por frasco.' },
+        ] },
+        { title: 'Casi siempre verdadero', tag: 'Aunque sea 1 frasco', kind: 'alert', items: [
+          { t: 'S. aureus, E. coli, neumococo, Candida', d: 'Gramnegativos, enterococo, estreptococo β',
+            say: 'Si crece Staphylococcus aureus, E. coli u otro gramnegativo, neumococo, enterococo o Candida, es verdadero, incluso en un solo frasco.' },
+          { t: 'S. aureus nunca es contaminante', d: 'Repetir, buscar endocarditis, tratar semanas',
+            say: 'Y el Staphylococcus aureus en sangre jamás se descarta como contaminante: se repiten los hemocultivos, se busca endocarditis o foco metastásico y se trata por semanas.' },
+        ] },
+        { title: 'Probable contaminante', tag: '1 de 2 sets', kind: 'normal', items: [
+          { t: 'Estafilococo coagulasa negativo', d: 'Corynebacterium, Bacillus, Cutibacterium',
+            say: 'Es probable contaminante el estafilococo coagulasa negativo, Corynebacterium, Bacillus y Cutibacterium, cuando crecen en uno de dos sets y no hay catéter ni prótesis.' },
+          { t: 'Negativo no descarta bacteriemia', d: 'Positivo persistente a 48–72 h: foco oculto',
+            say: 'Un hemocultivo negativo no descarta bacteriemia. Y si sigue positivo a las cuarenta y ocho a setenta y dos horas de tratamiento, busca endocarditis, catéter infectado o un foco sin drenar.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -246,6 +296,158 @@ module.exports = {
         options: 'Las opciones son: temperatura alta o baja, leucocitosis o baciliformes elevados, frecuencia respiratoria de veintidós o más, frecuencia cardíaca sobre noventa, o diuresis baja. Piénsalo.',
         answer: 'Es la C, la frecuencia respiratoria de veintidós o más. El qSOFA tiene solo tres elementos, respiración, conciencia y presión sistólica, y ninguno requiere laboratorio. La temperatura, la taquicardia y la leucocitosis son la trampa: eran criterios del antiguo SIRS, que se abandonó justamente por inespecífico.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.2.029 · Septicemia",
+      "stem": "Mujer de 72 años con pielonefritis aguda ingresa con T° 39 °C, FC 118 lpm, PA 78/40 mmHg y lactato de 4,5 mmol/L. Se toman hemocultivos, se inicia ceftriaxona y se administran 30 mL/kg de cristaloides en la primera hora. Persiste con presión arterial media de 55 mmHg.",
+      "question": "¿Cuál es la siguiente medida más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nuevo bolo de 30 mL/kg de cristaloides"
+        },
+        {
+          "letter": "B",
+          "text": "Transfundir glóbulos rojos"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar dobutamina"
+        },
+        {
+          "letter": "D",
+          "text": "Administrar bicarbonato de sodio"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar noradrenalina para lograr presión arterial media de al menos 65 mmHg"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Hipotensión que persiste tras la reanimación con volumen y lactato elevado definen un shock séptico. El vasopresor de elección es la noradrenalina, titulada para mantener una presión arterial media de al menos 65 mmHg, idealmente por vía central (puede iniciarse por vía periférica). Insistir con grandes volúmenes aumenta el riesgo de sobrecarga.",
+      "say": {
+        "stem": "Mujer de setenta y dos años con pielonefritis, fiebre de treinta y nueve, taquicardia, presión de setenta y ocho y cuarenta, y lactato de cuatro coma cinco. Se toman hemocultivos, se inicia ceftriaxona y recibe treinta mililitros por kilo de cristaloides en la primera hora, pero la presión arterial media sigue en cincuenta y cinco.",
+        "question": "¿Cuál es la siguiente medida más adecuada?",
+        "options": "Las opciones: otro bolo grande de cristaloides, transfundir glóbulos rojos, dobutamina, bicarbonato o noradrenalina para una presión media de sesenta y cinco o más. Piénsalo.",
+        "answer": "Es la E. Si la hipotensión persiste después del volumen inicial, es un shock séptico y toca noradrenalina para llevar la presión media a sesenta y cinco o más. Otro bolo grande tienta, pero ya repusiste lo recomendado y seguir solo aumenta el riesgo de edema pulmonar."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2024 · Pregunta 148",
+      "stem": "Una lactante de 2 meses presenta fiebre de hasta 39 °C de 24 horas de evolución. Es llevada a urgencias porque ha evolucionado con deterioro del estado general y tendencia a la letargia. Al examen se observa soporosa, con llene capilar de 5 segundos, deshidratada y taquicárdica a 158/min, con temperatura de 39,3 °C.",
+      "question": "Además de administrar oxígeno, ¿cuál es la primera medida a tomar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Administrar solución fisiológica por vía endovenosa"
+        },
+        {
+          "letter": "B",
+          "text": "Administrar bicarbonato por vía endovenosa"
+        },
+        {
+          "letter": "C",
+          "text": "Administrar adrenalina por vía endovenosa"
+        },
+        {
+          "letter": "D",
+          "text": "Administrar hidrocortisona por vía endovenosa"
+        },
+        {
+          "letter": "E",
+          "text": "Administrar glucosa por vía endovenosa"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Fiebre, letargia, llene capilar prolongado y taquicardia en una lactante es shock séptico. Tras asegurar vía aérea y oxígeno, la primera medida es expandir volumen con cristaloides isotónicos (bolos de 10 a 20 mL/kg, reevaluando), junto con hemocultivos y antibióticos en la primera hora. La adrenalina se usa si persiste el shock tras fluidos.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Una lactante de dos meses con fiebre de un día llega soporosa, con llene capilar de cinco segundos, deshidratada y taquicárdica.",
+        "question": "Además del oxígeno, ¿cuál es la primera medida?",
+        "options": "Las opciones: suero fisiológico endovenoso, bicarbonato, adrenalina, hidrocortisona o glucosa. Piénsalo.",
+        "answer": "Es la A. Es un shock séptico y lo primero, junto al oxígeno, es expandir volumen con suero fisiológico. La adrenalina tienta por la gravedad, pero se agrega solo si el shock persiste después de los fluidos."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.4.009 · Hemocultivo",
+      "stem": "Un hombre de 70 años llega a urgencia con fiebre de 39 °C, confusión, PA 85/50 mmHg, FC 120 por minuto y lactato de 4 mmol/L. Se sospecha shock séptico de foco urinario.",
+      "question": "¿Cuál es la conducta más adecuada respecto de los hemocultivos?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar antibióticos y tomar hemocultivos al día siguiente si persiste la fiebre"
+        },
+        {
+          "letter": "B",
+          "text": "Esperar el peak febril para tomar los hemocultivos"
+        },
+        {
+          "letter": "C",
+          "text": "Tomar 1 solo hemocultivo para ahorrar recursos"
+        },
+        {
+          "letter": "D",
+          "text": "Tomar 2 sets de hemocultivos de sitios distintos antes del antibiótico, sin retrasar su inicio más allá de la primera hora"
+        },
+        {
+          "letter": "E",
+          "text": "Tomar los hemocultivos desde la sonda urinaria"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En sepsis se toman al menos 2 sets de hemocultivos por punciones separadas antes del antibiótico, pero sin retrasarlo: en shock séptico debe darse dentro de la primera hora. No es necesario esperar el peak febril, y tomarlos tras el antibiótico reduce su rendimiento. Un solo set dificulta distinguir contaminantes.",
+      "say": {
+        "stem": "Un hombre de setenta años llega con fiebre, confusión, hipotensión, taquicardia y lactato elevado, con sospecha de shock séptico urinario.",
+        "question": "¿Cuál es la conducta más adecuada con los hemocultivos?",
+        "options": "Las opciones: antibiótico y hemocultivos al día siguiente, esperar el peak febril, uno solo, dos sets de sitios distintos antes del antibiótico sin retrasarlo o tomarlos de la sonda. Piénsalo.",
+        "answer": "Es la D. Se toman dos sets por punciones separadas antes del antibiótico, sin retrasar su inicio dentro de la primera hora. Esperar el peak febril tienta por la idea clásica, pero no mejora el rendimiento y retrasa el tratamiento."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.3.001 · Alteración de la termoregulación",
+      "stem": "Hombre de 85 años es traído por confusión de 1 día. Temperatura axilar 37,1 °C, FR 24/min, PA 92/58 mmHg, FC 104/min. Orina turbia, con leucocituria y nitritos positivos. Lactato 3 mmol/L.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sin fiebre se descarta una infección grave y debe buscarse otra causa de la confusión"
+        },
+        {
+          "letter": "B",
+          "text": "El adulto mayor puede no hacer fiebre por alteración de la termorregulación; corresponde manejarlo como sepsis de foco urinario"
+        },
+        {
+          "letter": "C",
+          "text": "Es una bacteriuria asintomática que no debe tratarse"
+        },
+        {
+          "letter": "D",
+          "text": "La confusión es esperable a esta edad y no requiere estudio"
+        },
+        {
+          "letter": "E",
+          "text": "Debe esperarse la curva febril antes de iniciar antibióticos"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En el adulto mayor la respuesta febril está atenuada por alteración de la termorregulación, y muchas infecciones graves cursan sin fiebre, manifestándose como confusión, caídas o taquipnea. Con hipotensión, taquipnea, lactato elevado y foco urinario corresponde manejar como sepsis: hemocultivos, urocultivo, antibióticos precoces y fluidos.",
+      "say": {
+        "stem": "Hombre de ochenta y cinco años confundido, sin fiebre, pero taquipneico, hipotenso, con lactato alto y orina con nitritos.",
+        "question": "¿Cómo lo interpretas?",
+        "options": "Las opciones: sin fiebre no hay infección grave, falta de fiebre por termorregulación alterada y es una sepsis urinaria, bacteriuria asintomática, confusión propia de la edad, o esperar la curva febril. Piénsalo.",
+        "answer": "Es la B. Los adultos mayores pueden tener sepsis sin fiebre, y este paciente cumple criterios de sepsis urinaria. Pensar que sin fiebre no hay infección grave es la trampa que retrasa los antibióticos."
+      }
     },
 
     {

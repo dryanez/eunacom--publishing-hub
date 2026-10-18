@@ -107,9 +107,11 @@ module.exports = {
         { show: ['cri'], note: 'Bajo ese título, el riesgo es casi nulo',
           say: 'Existe un título crítico, entre uno en dieciséis y uno en treinta y dos. Por debajo de eso, el riesgo de anemia grave es casi nulo.' },
         { show: ['dop'], note: 'No invasivo, y muy sensible',
-          say: 'Si el título supera ese umbral, pasas al Doppler de la arteria cerebral media. La anemia fetal hace que la sangre fluya más rápido, y eso lo detecta este examen sin pinchar al feto.' },
+          say: 'Si el título supera ese umbral, pasas al Doppler de la arteria cerebral media. La anemia fetal hace que la sangre fluya más rápido, y como ves en este esquema, la velocidad máxima sistólica sube. Eso lo detecta este examen sin pinchar al feto.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-20/S1_doppler-acm__propio.svg', label: 'Arteria cerebral media', at: 'como ves en este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['cor'], note: 'Diagnóstica y trata al mismo tiempo',
-          say: 'Y si el Doppler muestra una anemia grave, confirmas con una cordocentesis, y en el mismo procedimiento transfundes glóbulos rojos directamente al feto.' },
+          say: 'Y si el Doppler muestra una anemia grave, confirmas con una cordocentesis, y en el mismo procedimiento transfundes glóbulos rojos directamente al feto. Hay que llegar antes del hidrops: mira esta ecografía, con líquido libre en el abdomen, la ascitis, y otro sobre el diafragma, el derrame pleural.',
+          photo: { src: 'biblioteca/14_obstetricia/ob-20/02_hidrops-fetal-eco__nelson_p1437.jpg', label: 'Hidrops fetal', at: 'mira esta ecografía', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., Fig. 140.1' } },
       ],
     },
 
@@ -119,31 +121,17 @@ module.exports = {
       kicker: 'En movimiento',
       title: 'La sensibilización Rh en tres pasos',
       images: [
-        { src: 'animaciones/ob-20/A1_rh_sensibilizacion.mp4', label: 'Primer embarazo', credit: 'Animación propia' },
-        { src: 'animaciones/ob-20/A2_rh_segundo.mp4', label: 'Siguiente embarazo', credit: 'Animación propia' },
-        { src: 'animaciones/ob-20/A3_rh_antid.mp4', label: 'Anti D', credit: 'Animación propia' },
+        { src: 'animaciones/ob-20/A1_rh_sensibilizacion.mp4', label: 'Primer embarazo', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+        { src: 'animaciones/ob-20/A2_rh_segundo.mp4', label: 'Siguiente embarazo', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+        { src: 'animaciones/ob-20/A3_rh_antid.mp4', label: 'Anti D', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
         { note: 'La madre fabrica memoria',
-          say: 'En el parto, glóbulos fetales Rh positivos pasan a la madre Rh negativa, y ella fabrica anticuerpos de memoria. Ese primer hijo no alcanza a dañarse.' },
+          say: 'Mira la placenta y, al lado, la barrera con sus dos sangres. En el parto, glóbulos fetales Rh positivos pasan a la sangre de la madre Rh negativa. Su linfocito reconoce el antígeno D y fabrica anticuerpos, y queda con memoria. Ese primer hijo no alcanza a dañarse.' },
         { note: 'La IgG cruza y hemoliza',
-          say: 'En el siguiente embarazo, esos anticuerpos cruzan la placenta y destruyen los glóbulos del feto: anemia, y en lo grave, hidrops.' },
+          say: 'En el siguiente embarazo, esos anticuerpos de tipo IgG cruzan la placenta, se pegan al antígeno D de los glóbulos del feto y los destruyen: anemia fetal, y en lo grave, hidrops.' },
         { note: 'No se forma memoria',
-          say: 'La inmunoglobulina anti D elimina los glóbulos fetales antes de que la madre los reconozca. No se forma memoria, y por eso se da a las veintiocho semanas y tras el parto.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Doppler en la aloinmunización',
-      images: [
-        { src: 'biblioteca/14_obstetricia/ob-20/S1_doppler-acm__propio.svg', label: 'Arteria cerebral media', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Velocidad alta = anemia fetal',
-          say: 'En la aloinmunización, la velocidad alta en la arteria cerebral media indica anemia fetal.' },
+          say: 'La inmunoglobulina anti D cubre los glóbulos fetales que pasaron a la madre y se eliminan antes de que su linfocito los reconozca. No se forma memoria, y por eso se da a las veintiocho semanas y tras el parto.' },
       ],
     },
 

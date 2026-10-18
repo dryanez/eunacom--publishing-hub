@@ -86,7 +86,8 @@ module.exports = {
         { show: ['aco'], note: 'La anorexia: búscala siempre',
           say: 'Se acompaña de anorexia, náuseas y febrícula. La anorexia es un acompañante muy constante, así que búscala siempre en la historia.' },
         { show: ['mcb'], note: 'Rovsing: dolor en FID al comprimir la izquierda',
-          say: 'Al examen buscas el punto de McBurney, doloroso en la fosa ilíaca derecha, y el signo de Rovsing, en que al comprimir el lado izquierdo el dolor aparece en el derecho.' },
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-19/S1_puntos-apendicitis__propio.svg', label: 'McBurney, Rovsing y otros', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' },
+          say: 'Mira este esquema del examen físico. Buscas el punto de McBurney, doloroso en la fosa ilíaca derecha, y el signo de Rovsing, en que al comprimir el lado izquierdo el dolor aparece en el derecho.' },
         { show: ['pso', 'obt'], note: 'Cada signo corresponde a una posición del apéndice',
           say: 'Y hay dos signos que te dicen dónde está el apéndice. El signo del psoas se asocia al apéndice retrocecal, y el del obturador, al apéndice pélvico. Esa correspondencia se pregunta.' },
       ],
@@ -103,11 +104,13 @@ module.exports = {
           { t: 'Ecografía: niños y mujeres fértiles', d: 'Primera imagen en estos grupos',
             say: 'La ecografía se usa en dos grupos: los niños y las mujeres en edad fértil. Y fíjate que conecta con la regla anterior: en la mujer, la ecografía mira también la pelvis.' },
           { t: 'TAC: duda en el adulto', d: 'No es de rutina',
-            say: 'El TAC queda para el adulto con duda diagnóstica. Si la clínica es clara, no lo necesitas: un joven con dolor que migró a la fosa ilíaca derecha, anorexia y Blumberg positivo va a pabellón sin pasar por el escáner.' },
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-19/01_apendicitis-eco__cto-radiologia_p41.jpg', label: 'Apendicitis en TC', at: 'En esta tomografía', credit: 'Manual CTO Radiología 14.ª ed., p. 41' },
+            say: 'El TAC queda para el adulto con duda diagnóstica. En esta tomografía, el apéndice inflamado se ve engrosado, con la grasa que lo rodea inflamada. Si la clínica es clara, no lo necesitas: un joven con dolor que migró a la fosa ilíaca derecha, anorexia y Blumberg positivo va a pabellón sin pasar por el escáner.' },
         ] },
         { title: 'Tratamiento', tag: 'Pabellón', kind: 'pharma', items: [
           { t: 'Apendicectomía laparoscópica', d: 'La apendicitis se opera',
-            say: 'El tratamiento de la apendicitis aguda es la apendicectomía, por vía laparoscópica.' },
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-19/02_apendicitis-flemonosa-pieza__cto-digestivo_p157.jpg', label: 'Pieza operatoria', at: 'Esta es la pieza', credit: 'Manual CTO Digestivo 14.ª ed., p. 157' },
+            say: 'El tratamiento de la apendicitis aguda es la apendicectomía, por vía laparoscópica. Esta es la pieza operatoria: un apéndice rojo, edematoso, con fibrina en su superficie.' },
           { t: 'Perforada: urgencia', d: 'Cirugía + lavado + antibióticos',
             say: 'Y si el apéndice se perforó y hay una peritonitis, se opera de urgencia, con lavado de la cavidad y antibióticos. Quédate con esa palabra, perforada, porque la vamos a contrastar con el plastrón.' },
         ] },
@@ -161,7 +164,8 @@ module.exports = {
           { t: 'TAC de abdomen y pelvis', d: 'Con contraste',
             say: 'Y a diferencia de la apendicitis, aquí el diagnóstico se hace con imagen: TAC de abdomen y pelvis con contraste.' },
           { t: 'Sigmoides engrosado', d: 'Estrías de la grasa · absceso',
-            say: 'El TAC muestra el sigmoides engrosado, estrías en la grasa que lo rodea, y además te dice si hay un absceso o una peritonitis. Eso es lo que va a decidir el tratamiento.' },
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-19/03_diverticulitis-tc-hinchey__cto-digestivo_p142.jpg', label: 'Diverticulitis', at: 'Mira esta tomografía', credit: 'Manual CTO Digestivo 14.ª ed., p. 142' },
+            say: 'Mira esta tomografía: muestra el sigmoides engrosado, estrías en la grasa que lo rodea, y además te dice si hay un absceso o una peritonitis. Eso es lo que va a decidir el tratamiento.' },
         ] },
         { title: 'Colonoscopía', tag: 'La trampa', kind: 'alert', items: [
           { t: 'Contraindicada en el agudo', d: 'Riesgo de perforación',
@@ -241,40 +245,6 @@ module.exports = {
       steps: [
         { note: 'Se distiende y se inflama',
           say: 'El apéndice obstruido se llena, se distiende y se inflama. Si no se opera a tiempo, se perfora.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Apendicitis y diverticulitis',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-19/01_apendicitis-eco__cto-radiologia_p41.jpg', label: 'Apendicitis en TC', credit: 'Manual CTO Radiología 14.ª ed., p. 41' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-19/02_apendicitis-flemonosa-pieza__cto-digestivo_p157.jpg', label: 'Pieza operatoria', credit: 'Manual CTO Digestivo 14.ª ed., p. 157' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-19/03_diverticulitis-tc-hinchey__cto-digestivo_p142.jpg', label: 'Diverticulitis', credit: 'Manual CTO Digestivo 14.ª ed., p. 142' },
-      ],
-      steps: [
-        { note: 'Apéndice engrosado en la TC',
-          say: 'En esta tomografía, el apéndice inflamado se ve engrosado, con la grasa que lo rodea inflamada.' },
-        { note: 'Apéndice rojo y edematoso',
-          say: 'Esta es la pieza operatoria: un apéndice rojo, edematoso, con fibrina en su superficie.' },
-        { note: 'Sigmoides inflamado en la TC',
-          say: 'Y esta tomografía muestra una diverticulitis del sigmoides: es el equivalente a la apendicitis, pero en la fosa ilíaca izquierda.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Los puntos y signos del examen',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-19/S1_puntos-apendicitis__propio.svg', label: 'McBurney, Rovsing y otros signos', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'McBurney, Rovsing, Blumberg, psoas, obturador',
-          say: 'Este esquema reúne el examen físico. El punto de McBurney, doloroso en la fosa ilíaca derecha, y el signo de Rovsing, en que al comprimir la izquierda duele la derecha. El Blumberg indica irritación peritoneal; el psoas se asocia al apéndice retrocecal y el obturador, al pélvico.' },
       ],
     },
 
@@ -417,6 +387,44 @@ module.exports = {
         options: 'Las opciones: antibióticos y reevaluar en cuarenta y ocho horas, drenaje percutáneo, operación de Hartmann de urgencia, colonoscopía para localizar la perforación, o resección laparoscópica diferida. Piénsalo.',
         answer: 'Es la C. Aire libre y peritonitis fecal es un Hinchey cuatro, y la paciente ya está séptica. Con peritonitis, purulenta o fecal, el tratamiento es la operación de Hartmann de urgencia. El distractor tentador es el drenaje percutáneo, pero ese sirve para un absceso contenido, no para una peritonitis. Y la colonoscopía en el episodio agudo está contraindicada.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.2.001 · Abdomen agudo",
+      "stem": "Hombre de 72 años, fumador e hipertenso, consulta por dolor abdominal y lumbar súbito e intenso de 1 hora de evolución. Está pálido y sudoroso, con PA 80/50 mmHg y FC 125 por minuto. Se palpa una masa pulsátil periumbilical.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reanimación con hipotensión permisiva y traslado inmediato a pabellón"
+        },
+        {
+          "letter": "B",
+          "text": "TAC de abdomen con contraste antes de decidir"
+        },
+        {
+          "letter": "C",
+          "text": "Pielografía por sospecha de cólico renal"
+        },
+        {
+          "letter": "D",
+          "text": "Analgesia y observación"
+        },
+        {
+          "letter": "E",
+          "text": "Ecografía renal y urocultivo"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Dolor abdominal o lumbar súbito, shock y masa pulsátil es un aneurisma aórtico abdominal roto hasta demostrar lo contrario. En el paciente inestable no se espera la TAC: se reanima con hipotensión permisiva y se lleva de inmediato a pabellón. Confundirlo con un cólico renal es el error clásico.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de setenta y dos años, fumador e hipertenso, con una hora de dolor abdominal y lumbar súbito e intenso. Está pálido, sudoroso, hipotenso y taquicárdico, y se palpa una masa pulsátil alrededor del ombligo.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: reanimar y llevar a pabellón, tomografía antes de decidir, pielografía por cólico renal, analgesia y observar o ecografía renal con urocultivo. Piénsalo.",
+        "answer": "Es la A. Dolor súbito, shock y masa pulsátil son un aneurisma aórtico roto, y en un paciente inestable la única conducta es pabellón de inmediato. La tomografía es la trampa: en el paciente estable ayuda, pero en uno en shock solo hace perder minutos que cuestan la vida."
+      }
     },
 
     {

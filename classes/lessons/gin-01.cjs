@@ -41,7 +41,30 @@ module.exports = {
         { show: ['lut'], note: 'El folículo colapsado se transforma',
           say: 'El folículo que quedó vacío se transforma en cuerpo lúteo bajo la LH, y secreta grandes cantidades de progesterona, que transforma el endometrio en fase secretora, lista para recibir un embarazo.' },
         { show: ['men'], note: 'Sin fecundación, el eje se apaga',
-          say: 'Si no hay fecundación, el cuerpo lúteo degenera a los catorce días, caen de golpe el estrógeno y la progesterona, y esa caída hormonal es la que produce la descamación del endometrio: la menstruación. Guarda esta idea, porque cada paso del algoritmo de amenorrea que viene pregunta por uno de estos eslabones.' },
+          say: 'Si no hay fecundación, el cuerpo lúteo degenera a los catorce días, caen de golpe el estrógeno y la progesterona, y esa caída hormonal es la que produce la descamación del endometrio: la menstruación. Mira este esquema del ciclo de veintiocho días: arriba las hormonas, abajo el endometrio, y todo calza con el pico de LH. Guarda esta idea, porque cada paso del algoritmo de amenorrea que viene pregunta por uno de estos eslabones.',
+          photo: { src: 'biblioteca/13_ginecologia/gin-01/S1_ciclo-menstrual__propio.svg', label: 'Ciclo de veintiocho días', at: 'Mira este esquema del ciclo', credit: 'Dibujo propio (esquema)' } },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Pubertad normal',
+      title: 'Cuándo empieza y cuándo es anormal',
+      cards: [
+        { title: 'Secuencia normal', tag: 'Reactivación de la GnRH', kind: 'key', items: [
+          { t: 'Telarquia entre 8 y 13 años', d: 'Primer signo: botón mamario, Tanner M2',
+            say: 'Antes de estudiar la amenorrea tienes que saber qué es normal. La pubertad en la mujer parte por la reactivación de los pulsos de GnRH, con más LH, FSH y estradiol. Y el primer signo es la telarquia, el botón mamario, entre los ocho y los trece años, en la etapa dos de Tanner. Ojo: puede ser unilateral y sensible al inicio, y eso es normal.' },
+          { t: 'El estirón va antes de la menarquia', d: 'Pico de crecimiento en Tanner M3',
+            say: 'Después vienen la pubarquia y el estirón puberal, que tiene su pico de velocidad en la etapa tres de Tanner, antes de la primera regla. La menarquia llega a los doce o trece años, en Chile en promedio a los doce años y medio, dos a dos años y medio después de la telarquia.' },
+          { t: 'Primeros ciclos irregulares', d: 'Anovulatorios hasta 2-3 años posmenarquia',
+            say: 'Y los primeros ciclos suelen ser anovulatorios e irregulares hasta dos o tres años después de la menarquia. No requieren estudio si no pasan de noventa días ni son muy abundantes. Esa es la trampa de la adolescente con ciclos irregulares: se controla con calendario.' },
+        ] },
+        { title: 'Fuera de rango', tag: 'Derivar a endocrinología', kind: 'alert', items: [
+          { t: 'Pubertad precoz', d: 'Telarquia o pubarquia antes de los 8 años',
+            say: 'Si la telarquia o la pubarquia aparecen antes de los ocho años, es pubertad precoz: se sospecha y se deriva a endocrinología, que pedirá edad ósea, LH y FSH, y resonancia si es de origen central.' },
+          { t: 'Retraso puberal', d: 'Sin telarquia a los 13 años, o más de 5 años hasta la menarquia',
+            say: 'Y el retraso puberal es la ausencia de telarquia a los trece años o más, o más de cinco años entre la telarquia y la menarquia. Es el mismo umbral de la amenorrea primaria sin caracteres sexuales secundarios.' },
+        ] },
       ],
     },
 
@@ -72,13 +95,14 @@ module.exports = {
       cards: [
         { title: 'FSH elevada', tag: 'Falla ovárica', kind: 'alert', items: [
           { t: 'Síndrome de Turner', d: 'Cuarenta y cinco X0, talla baja, cuello alado',
-            say: 'Cuando el útero está presente, la FSH te dice dónde está el problema. Si la FSH está elevada, es que el ovario no responde: falla ovárica. El ejemplo clásico es el síndrome de Turner, cariotipo cuarenta y cinco equis cero, con talla baja, cuello alado y coartación aórtica.' },
+            say: 'Cuando el útero está presente, la FSH te dice dónde está el problema. Si la FSH está elevada, sobre treinta a cuarenta unidades por litro, con el estradiol bajo, es que el ovario no responde: falla ovárica. El ejemplo clásico es el síndrome de Turner, cariotipo cuarenta y cinco equis cero, con talla baja y coartación aórtica. Mira a esta lactante: el pliegue de piel a los lados del cuello es el cuello alado.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-01/02_turner-cuello-alado__zitelli_p37.jpg', label: 'Cuello alado en Turner', at: 'Mira a esta lactante', credit: "Zitelli & Davis' Atlas of Pediatric Physical Diagnosis, p. 37" } },
           { t: 'Disgenesia gonadal pura', d: 'Síndrome de Swyer, cuarenta y seis XY',
             say: 'Y la disgenesia gonadal pura, el síndrome de Swyer, con cariotipo cuarenta y seis XY, sin desarrollo mamario y con gónadas en cintilla de alto riesgo tumoral.' },
         ] },
         { title: 'FSH baja', tag: 'Falla central', kind: 'key', items: [
           { t: 'Síndrome de Kallmann', d: 'Hipogonadismo hipogonadotropo más anosmia',
-            say: 'Si en cambio la FSH está baja, el problema está arriba, en el hipotálamo o la hipófisis. El caso que se pregunta siempre es el síndrome de Kallmann: falla en la migración de las neuronas de GnRH, que se asocia a anosmia o hiposmia. Amenorrea primaria más pérdida del olfato es Kallmann, sin necesidad de pensar en nada más.' },
+            say: 'Si en cambio la FSH está baja o normal, con estradiol bajo, es un hipogonadismo hipogonadotropo: el problema está arriba, en el hipotálamo o la hipófisis. El caso que se pregunta siempre es el síndrome de Kallmann: falla en la migración de las neuronas de GnRH, que se asocia a anosmia o hiposmia. Amenorrea primaria más pérdida del olfato es Kallmann, sin necesidad de pensar en nada más.' },
         ] },
       ],
     },
@@ -139,12 +163,37 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Hiperprolactinemia',
+      title: 'Causas y cómo se estudia',
+      cards: [
+        { title: 'Causas', tag: 'Descarta lo secundario primero', kind: 'key', items: [
+          { t: 'Embarazo, lactancia y estrés', d: 'Causas fisiológicas',
+            say: 'La prolactina inhibe los pulsos de GnRH, y por eso da amenorrea, oligomenorrea e infertilidad, además de galactorrea. Antes de pensar en tumor, descarta lo fisiológico: embarazo, lactancia, estrés y la estimulación mamaria.' },
+          { t: 'Fármacos', d: 'Antipsicóticos, metoclopramida, metildopa, ISRS, verapamilo, estrógenos',
+            say: 'Después los fármacos: antipsicóticos, metoclopramida, metildopa, inhibidores de la recaptación de serotonina, verapamilo y los anticonceptivos con estrógenos.' },
+          { t: 'Hipotiroidismo e insuficiencia renal', d: 'Además del prolactinoma',
+            say: 'Luego las enfermedades: el hipotiroidismo primario y la insuficiencia renal crónica. Y recién al final el prolactinoma, que es el adenoma hipofisario más frecuente.' },
+        ] },
+        { title: 'Estudio', tag: 'Prolactina, hCG y TSH', kind: 'criteria', items: [
+          { t: 'Prolactina en reposo', d: 'Idealmente en ayunas, sin examen mamario previo',
+            say: 'El estudio parte con prolactina en reposo, idealmente en ayunas y sin examen mamario previo, más la beta hCG y la TSH, y descartando fármacos. Si sale levemente elevada, repítela y descarta macroprolactinemia.' },
+          { t: 'La cifra orienta', d: 'Más de 100 sugiere prolactinoma; más de 200, macroadenoma',
+            say: 'La cifra orienta: una prolactina sobre cien nanogramos por mililitro sugiere un prolactinoma, y sobre doscientos, un macroadenoma, de más de diez milímetros, casi seguro. Con cifras bajas piensa en fármacos o en efecto tallo.' },
+          { t: 'Confirmada: resonancia de silla turca', d: 'Y campos visuales si es macroadenoma',
+            say: 'Si se confirma, se pide resonancia de silla turca, y campos visuales ante un macroadenoma. Mira esta resonancia: el tumor grande que ocupa y sobrepasa la silla turca. Por eso se busca la hemianopsia bitemporal.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-01/01_macroprolactinoma-rm__amir-endocrino_p24.jpg', label: 'Macroprolactinoma (RM)', at: 'Mira esta resonancia', credit: 'Manual AMIR Endocrinología, p. 24' } },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Tratamiento',
       title: 'Cada causa, su manejo',
       cards: [
         { title: 'Hiperprolactinemia', tag: 'Agonista dopaminérgico', kind: 'pharma', items: [
-          { t: 'Cabergolina', d: 'Media tableta, una o dos veces por semana',
-            say: 'Veamos el tratamiento de cada causa. La hiperprolactinemia y el prolactinoma se tratan con un agonista dopaminérgico, la cabergolina, que normaliza la prolactina y hace regresar el tumor.' },
+          { t: 'Cabergolina', d: '0,25 a 0,5 mg, una o dos veces por semana',
+            say: 'Veamos el tratamiento de cada causa. La hiperprolactinemia y el prolactinoma se tratan con un agonista dopaminérgico, la cabergolina, que normaliza la prolactina, hace regresar el tumor y restablece los ciclos y la fertilidad. La bromocriptina es la alternativa, y la cirugía transesfenoidal se reserva para la resistencia o la intolerancia.' },
         ] },
         { title: 'Amenorrea hipotalámica funcional', tag: 'No farmacológico primero', kind: 'normal', items: [
           { t: 'Recuperar peso y bajar el ejercicio', d: 'Estrés, anorexia, deportistas de alto rendimiento',
@@ -188,33 +237,6 @@ module.exports = {
       steps: [
         { note: 'Hormonas, folículo y endometrio',
           say: 'Mientras el folículo crece, sube el estradiol y el endometrio prolifera. El peak de LH dispara la ovulación el día catorce. Después el cuerpo lúteo fabrica progesterona y el endometrio se vuelve secretor.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'El ciclo menstrual',
-      images: [
-        { src: 'biblioteca/13_ginecologia/gin-01/S1_ciclo-menstrual__propio.svg', label: 'Ciclo de veintiocho días', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Hormonas, ovario y endometrio',
-          say: 'En la fase folicular sube el estradiol y prolifera el endometrio. El peak de LH desencadena la ovulación el día catorce. Después la progesterona del cuerpo lúteo transforma el endometrio en secretor, y la temperatura basal sube.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'El macroprolactinoma',
-      images: [
-        { src: 'biblioteca/13_ginecologia/gin-01/01_macroprolactinoma-rm__amir-endocrino_p24.jpg', label: 'Macroprolactinoma en la resonancia', credit: 'Manual AMIR Endocrinología, p. 24' },
-      ],
-      steps: [
-        { note: 'Comprime el quiasma',
-          say: 'Así se ve un macroprolactinoma en la resonancia. Si crece hacia arriba comprime el quiasma óptico y da hemianopsia bitemporal: resonancia urgente y cabergolina de inmediato.' },
       ],
     },
 
@@ -357,6 +379,157 @@ module.exports = {
         options: 'Las opciones: pedir ecografía, pedir cariotipo, pedir estradiol y gonadotrofinas, hacer un test de progesterona, o controlar en un año. Piénsalo.',
         answer: 'Es la E. Y la razón es que todavía no hay nada que estudiar: la amenorrea primaria se define a los quince años cuando hay caracteres sexuales secundarios presentes, y esta niña tiene solo catorce, con la pubertad ya en marcha. Pedir exámenes ahora es adelantarse a la definición. El examen te está probando si sabes cuándo empieza el reloj, no solo el algoritmo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 111",
+      "stem": "Una paciente de 38 años, usuaria de anticonceptivos orales combinados desde hace 4 meses, consulta por galactorrea de algunas semanas de evolución, sin otros síntomas. Las mamas se palpan sin nódulos y se objetiva la galactorrea al comprimirlas.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solicitar niveles de progesterona"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar niveles de prolactina"
+        },
+        {
+          "letter": "C",
+          "text": "Cambiar los anticonceptivos a progestágenos solos"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar TAC de cerebro"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar niveles plasmáticos de estradiol, LH y FSH"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Toda galactorrea fuera del embarazo y la lactancia se estudia primero con prolactina plasmática (junto a TSH y descartar fármacos). Los anticonceptivos enmascaran la amenorrea que acompañaría a una hiperprolactinemia. La imagen, que es la resonancia de silla turca y no la TAC, se pide solo con prolactina elevada sin causa secundaria.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Mujer de treinta y ocho años, usuaria de anticonceptivos combinados hace cuatro meses, con galactorrea de algunas semanas. Las mamas no tienen nódulos y la secreción sale al comprimirlas.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: progesterona, prolactina, cambiar a progestágenos solos, TAC de cerebro, o estradiol con LH y FSH. Piénsalo.",
+        "answer": "Es la B, la prolactina. La galactorrea se estudia primero con prolactina, y los anticonceptivos ocultan la amenorrea que delataría una hiperprolactinemia. La TAC de cerebro tienta por el miedo al tumor, pero la imagen se pide recién con la prolactina alta, y la de elección es la resonancia."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.4.008 · FSH, estradiol y prolactina",
+      "stem": "Mujer de 20 años, corredora de fondo, con amenorrea secundaria de 6 meses. Entrena 70 km por semana y bajó 7 kg en el último año; IMC 17,5. Beta-hCG negativa, TSH 1,9 mUI/L, prolactina 11 ng/mL. FSH 2,1 mUI/mL, LH 0,9 mUI/mL, estradiol 14 pg/mL. Prueba de progesterona negativa.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amenorrea hipotalámica funcional"
+        },
+        {
+          "letter": "B",
+          "text": "Síndrome de ovario poliquístico"
+        },
+        {
+          "letter": "C",
+          "text": "Insuficiencia ovárica prematura"
+        },
+        {
+          "letter": "D",
+          "text": "Síndrome de Asherman"
+        },
+        {
+          "letter": "E",
+          "text": "Hiperprolactinemia"
+        }
+      ],
+      "correct": "A",
+      "explanation": "FSH y LH bajas o normales bajas con estradiol bajo: hipogonadismo hipogonadotropo. En una deportista con bajo peso y déficit energético, la causa es la amenorrea hipotalámica funcional, con riesgo de pérdida de masa ósea. La insuficiencia ovárica tiene FSH alta; el SOP tiene estrógenos normales y prueba de progesterona positiva.",
+      "say": {
+        "stem": "Mujer de veinte años, corredora de fondo, con seis meses de amenorrea y baja de siete kilos. Su prolactina y TSH son normales, la FSH y la LH están bajas, el estradiol está bajo y la prueba de progesterona es negativa.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: amenorrea hipotalámica funcional, ovario poliquístico, insuficiencia ovárica prematura, síndrome de Asherman o hiperprolactinemia. Piénsalo.",
+        "answer": "Es la A. Gonadotropinas bajas con estradiol bajo en una deportista delgada es una amenorrea hipotalámica: el hipotálamo frena el eje por el déficit de energía. La insuficiencia ovárica tienta porque también hay estrógenos bajos, pero ahí la FSH estaría muy elevada, no en dos."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2017 · Pregunta 89",
+      "stem": "Paciente de 14 años, con menarquia a los 13 años, presenta ciclos menstruales que varían entre 26 y 35 días. Su examen físico es normal y no refiere otros síntomas.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar anticonceptivos orales"
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar estrógenos solos por vía oral"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar progestágenos solos por vía oral"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar niveles plasmáticos de estradiol, progesterona, LH y FSH"
+        },
+        {
+          "letter": "E",
+          "text": "Controlar ambulatoriamente con calendario menstrual"
+        }
+      ],
+      "correct": "E",
+      "explanation": "En los primeros años tras la menarquia el eje hipotálamo-hipófisis-ovario aún es inmaduro y los ciclos anovulatorios e irregulares son esperables. Ciclos entre 21 y 45 días son normales en adolescentes. Basta educar y controlar con calendario menstrual; no requiere estudio hormonal ni tratamiento.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecisiete. Adolescente de catorce años, con menarquia hace un año, con ciclos de entre veintiséis y treinta y cinco días y examen normal.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: anticonceptivos orales, estrógenos, progestágenos, perfil hormonal, o control con calendario menstrual. Piénsalo.",
+        "answer": "Es la E. En los primeros años después de la menarquia los ciclos irregulares son normales por inmadurez del eje, así que se controla con calendario. Pedir hormonas tienta, pero no hay nada patológico que estudiar."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.3.001 · Pubertad normal",
+      "stem": "Una niña de 10 años es llevada a control porque la madre notó un 'bultito' bajo la areola derecha hace 2 meses, levemente sensible. No tiene vello púbico ni ha menstruado. Su crecimiento es normal.",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pubertad precoz que requiere estudio urgente"
+        },
+        {
+          "letter": "B",
+          "text": "Tumor mamario que requiere biopsia"
+        },
+        {
+          "letter": "C",
+          "text": "Inicio normal de la pubertad: la telarquia es el primer signo puberal en las niñas"
+        },
+        {
+          "letter": "D",
+          "text": "Ginecomastia"
+        },
+        {
+          "letter": "E",
+          "text": "Hiperprolactinemia"
+        }
+      ],
+      "correct": "C",
+      "explanation": "En niñas la pubertad normal comienza entre los 8 y 13 años, y su primer signo es la telarquia (botón mamario), que puede ser unilateral y sensible al inicio. Luego vienen pubarquia, estirón y menarquia. En niños el primer signo es el aumento testicular (≥4 mL). Pubertad precoz en niñas es antes de los 8 años.",
+      "say": {
+        "stem": "Una niña de diez años tiene desde hace dos meses un pequeño nódulo sensible bajo la areola derecha, sin vello púbico ni menstruaciones, con crecimiento normal.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: pubertad precoz, tumor mamario con biopsia, inicio normal de la pubertad con telarquia, ginecomastia o hiperprolactinemia. Piénsalo.",
+        "answer": "Es la C. La telarquia es el primer signo puberal en niñas y a los diez años es normal, aunque sea unilateral. La pubertad precoz tienta, pero en niñas se define antes de los ocho años."
+      }
     },
 
     {

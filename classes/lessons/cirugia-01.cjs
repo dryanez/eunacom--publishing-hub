@@ -35,7 +35,8 @@ module.exports = {
       ],
       steps: [
         { show: ['obs'], note: 'El fecalito tapa la luz del apéndice',
-          say: 'Todo parte con la obstrucción de la luz del apéndice, casi siempre por un fecalito. Guarda esta imagen, porque explica todo lo que viene.' },
+          say: 'Todo parte con la obstrucción de la luz del apéndice, casi siempre por un fecalito. Mira esta radiografía: esa mancha calcificada en la fosa ilíaca derecha es un fecalito. Guarda esta imagen, porque explica todo lo que viene.',
+          photo: { src: 'biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx_alt2__cto-digestivo_p158.jpg', label: 'Fecalito en la FID', at: 'Mira esta radiografía', credit: 'Manual CTO Digestivo 14.ª ed., p. 158' } },
         { show: ['pre'], note: 'Se acumula secreción, sube la presión',
           say: 'Con la salida tapada, se acumula secreción adentro, sube la presión, y las bacterias que viven ahí empiezan a proliferar sin control.' },
         { show: ['vis'], note: 'Fibras que no localizan bien el dolor',
@@ -56,7 +57,8 @@ module.exports = {
       cards: [
         { title: 'Signos clásicos', tag: 'Irritación peritoneal', kind: 'key', items: [
           { t: 'McBurney', d: 'Dolor exquisito en ese punto exacto',
-            say: 'Fíjate en los signos que se preguntan. McBurney es el dolor exquisito justo en la unión del tercio externo con los dos tercios internos de la línea que va del ombligo a la cadera.' },
+            say: 'Fíjate en los signos que se preguntan. McBurney es el dolor exquisito justo en la unión del tercio externo con los dos tercios internos de la línea que va del ombligo a la cadera. Mira este esquema: ahí está el punto.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-01/S1_puntos-apendicitis__propio.svg', label: 'Puntos del examen', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
           { t: 'Blumberg', d: 'Dolor al soltar la mano de golpe',
             say: 'Blumberg es el dolor al descomprimir bruscamente, el típico rebote.' },
           { t: 'Rovsing', d: 'Duele a la derecha al comprimir la izquierda',
@@ -98,7 +100,11 @@ module.exports = {
         { show: ['alt'], note: 'Aquí el examen espera que operes ya',
           say: 'Y con siete a diez puntos, en un hombre joven con clínica típica, vas directo a pabellón. No pierdas tiempo pidiendo un TAC que solo demora la cirugía y aumenta el riesgo de que el apéndice termine perforándose mientras esperas el resultado.' },
         { show: ['img'], note: 'TAC en adultos, ecografía en niños y embarazadas',
-          say: 'Cuando toca pedir imagen: en el adulto no embarazada, el TAC de abdomen y pelvis con contraste es el estándar de oro. En niños, mujeres jóvenes y embarazadas, empiezas con ecografía, para no dar radiación de más.' },
+          say: 'Cuando toca pedir imagen: en el adulto no embarazada, el TAC de abdomen y pelvis con contraste es el estándar de oro. En niños, mujeres jóvenes y embarazadas, empiezas con ecografía, para no dar radiación de más. Mira este TAC: el apéndice está engrosado y la grasa de al lado se ve sucia. Y en esta ecografía, el apéndice cortado en transversal parece una diana, no se comprime y mide más de seis milímetros.',
+          photos: [
+            { src: 'biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx__cto-radiologia_p41.jpg', label: 'TAC: apéndice engrosado', at: 'Mira este TAC', credit: 'Manual CTO Radiología 14.ª ed., p. 41' },
+            { src: 'biblioteca/10_cirugia/cirugia-01/atlas_053_eco_apendicitis_diana.jpg', label: 'Eco: apéndice en diana', at: 'Y en esta ecografía', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 357' },
+          ] },
       ],
     },
 
@@ -117,7 +123,8 @@ module.exports = {
           { t: 'Drenaje percutáneo', d: 'Guiado por TAC o ecografía',
             say: 'Y si el TAC muestra que ya hay una colección de pus formada, en vez de un flemón sólido, la conducta cambia: drenaje percutáneo guiado por imagen, más antibióticos. La cirugía de urgencia queda solo para la peritonitis generalizada o si el tratamiento falla.' },
           { t: 'Distinguir flemón de absceso', d: 'Es el TAC el que separa a uno de otro',
-            say: 'La diferencia entre estos dos escenarios no la das tú con la mano: la da el TAC. Un flemón es sólido y se trata con antibióticos; un absceso tiene líquido adentro y ese líquido hay que drenarlo. Confundir uno con otro es justamente lo que el examen te pone a prueba.' },
+            say: 'La diferencia entre estos dos escenarios no la das tú con la mano: la da el TAC. Un flemón es sólido y se trata con antibióticos; un absceso tiene líquido adentro y ese líquido hay que drenarlo. Confundir uno con otro es justamente lo que el examen te pone a prueba. Mira este TAC: la flecha muestra una colección con una burbuja de gas en la fosa ilíaca derecha, eso ya es un absceso.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-01/atlas_230_tac_plastron_absceso.jpg', label: 'Absceso apendicular', at: 'Mira este TAC', credit: 'Atlas EUNACOM 2026' } },
         ] },
       ],
     },
@@ -129,7 +136,8 @@ module.exports = {
       cards: [
         { title: 'Vía de abordaje', tag: 'Laparoscopía es la regla', kind: 'key', items: [
           { t: 'Laparoscópica de elección', d: 'Menos dolor, menos infección de herida',
-            say: 'Vamos al tratamiento. La apendicectomía laparoscópica es la vía de elección: duele menos, la herida se infecta menos, y de paso te deja ver los ovarios si hay duda con un diagnóstico ginecológico.' },
+            say: 'Vamos al tratamiento. La apendicectomía laparoscópica es la vía de elección: duele menos, la herida se infecta menos, y de paso te deja ver los ovarios si hay duda con un diagnóstico ginecológico. Esta es la pieza operatoria: un apéndice rojo, engrosado e inflamado.',
+            photo: { src: 'biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx_alt1__cto-digestivo_p157.jpg', label: 'Pieza operatoria', at: 'Esta es la pieza operatoria', credit: 'Manual CTO Digestivo 14.ª ed., p. 157' } },
         ] },
         { title: 'No complicada', tag: 'Dosis única', kind: 'pharma', items: [
           { t: 'Cefazolina más metronidazol', d: 'Una sola dosis antes de la incisión',
@@ -144,34 +152,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Apendicitis',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Por qué el dolor migra',
       images: [
-        { src: 'biblioteca/10_cirugia/cirugia-01/S1_puntos-apendicitis__propio.svg', label: 'Puntos del examen', credit: 'Dibujo propio (esquema)' },
-        { src: 'biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx__cto-radiologia_p41.jpg', label: 'TAC: apéndice engrosado', credit: 'Manual CTO Radiología 14.ª ed., p. 41' },
-        { src: 'biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx_alt1__cto-digestivo_p157.jpg', label: 'Pieza operatoria', credit: 'Manual CTO Digestivo 14.ª ed., p. 157' },
+        { src: 'animaciones/cirugia-01/A1_apendicitis_dolor_migra.mp4', label: 'Apéndice obstruido y dolor que migra', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'McBurney y signos',
-          say: 'El punto de McBurney está en la unión del tercio externo con los dos tercios internos entre la espina ilíaca y el ombligo.' },
-        { note: 'Apéndice engrosado en el TAC',
-          say: 'En el TAC se ve el apéndice engrosado, con la grasa vecina inflamada. Es el examen que pides cuando el score queda en la zona intermedia.' },
-        { note: 'La pieza operatoria',
-          say: 'Y esta es la pieza operatoria: un apéndice rojo, engrosado e inflamado. Hoy se saca de preferencia por laparoscopía.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'El fecalito en la radiografía',
-      images: [
-        { src: 'biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx_alt2__cto-digestivo_p158.jpg', label: 'Fecalito en la fosa ilíaca derecha', credit: 'Manual CTO Digestivo 14.ª ed., p. 158' },
-      ],
-      steps: [
-        { note: 'Fecalito calcificado',
-          say: 'A veces la radiografía simple muestra un fecalito en la fosa ilíaca derecha. Es la causa clásica de la obstrucción del apéndice.' },
+        { note: 'Fecalito, dolor difuso y migración a la FID',
+          say: 'Mira el ciego y el apéndice: un fecalito tapa la luz, sube la presión y las bacterias proliferan. Al principio el dolor es visceral y difuso, alrededor del ombligo. Cuando la inflamación llega al peritoneo parietal, el dolor se localiza y migra a la fosa ilíaca derecha, donde está el punto de McBurney. Y si nadie opera, después de treinta y seis horas el riesgo de perforación pasa de menos de cinco a más de treinta por ciento.' },
       ],
     },
 
@@ -266,6 +255,44 @@ module.exports = {
         options: 'Las opciones son: apendicitis aguda, perforación intestinal, torsión ovárica, absceso tubo-ovárico roto, o embarazo ectópico roto. Piénsalo.',
         answer: 'La respuesta es la A. El punto clave es la velocidad del deterioro: en dos horas pasa de un dolor abdominal a un shock franco. Eso habla de una apendicitis que ya se perforó y está generando una peritonitis séptica. Los diagnósticos ginecológicos son tentadores por ser mujer joven, pero ninguno explica tan bien ese colapso hemodinámico tan rápido sobre un dolor que ya afectaba ambas fosas ilíacas.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 148",
+      "stem": "Paciente apendicectomizado hace 6 horas evoluciona con malestar general y dolor abdominal. Su pulso es regular, de 120 lpm, y su presión arterial es 90/50 mmHg. Al examen abdominal presenta dolor y signos peritoneales en el hemiabdomen inferior.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hemoperitoneo"
+        },
+        {
+          "letter": "B",
+          "text": "Evisceración"
+        },
+        {
+          "letter": "C",
+          "text": "Trombosis de la vena porta"
+        },
+        {
+          "letter": "D",
+          "text": "Dehiscencia de la base apendicular"
+        },
+        {
+          "letter": "E",
+          "text": "Tromboembolismo pulmonar masivo"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Taquicardia, hipotensión y signos peritoneales en las primeras horas tras una cirugía abdominal sugieren hemorragia postoperatoria (hemoperitoneo), habitualmente por falla en la ligadura del meso o la arteria apendicular, y requiere reoperación. La dehiscencia del muñón suele aparecer después de 3 a 5 días, con fiebre y peritonitis.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Paciente operado de apendicitis hace seis horas, que evoluciona con malestar y dolor abdominal. Tiene pulso de ciento veinte, presión de noventa y cincuenta, y dolor con signos peritoneales en el hemiabdomen inferior.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: hemoperitoneo, evisceración, trombosis portal, dehiscencia del muñón apendicular, o tromboembolismo pulmonar masivo. Piénsalo.",
+        "answer": "Es la A. Shock con signos peritoneales a las pocas horas de operar es un sangrado hacia el abdomen, típicamente porque se soltó la ligadura de la arteria apendicular. La dehiscencia del muñón tienta, pero aparece días después, con fiebre y peritonitis, no a las seis horas."
+      }
     },
 
     {

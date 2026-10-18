@@ -67,6 +67,28 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Técnica',
+      title: 'Cómo medir el PEF',
+      cards: [
+        { title: 'Paso a paso', tag: 'Flujómetro', kind: 'key', items: [
+          { t: 'Boquilla nueva, indicador en cero', d: 'De pie o sentado erguido',
+            say: 'Medir el flujo espiratorio máximo es simple, y se pregunta la técnica. Paciente de pie o sentado derecho, boquilla desechable nueva y el indicador del flujómetro en cero.' },
+          { t: 'Inspirar al máximo y soplar fuerte y rápido', d: 'Maniobra corta, sin vaciar el pulmón',
+            say: 'Toma aire al máximo, sella la boquilla con los labios y sopla lo más fuerte y rápido que pueda. Es una maniobra corta: no hace falta vaciar el pulmón.' },
+          { t: 'Tres maniobras: se anota la mejor', d: 'Se compara con su mejor valor personal',
+            say: 'Se repite tres veces y se anota el mejor valor, no el promedio. Ese número se compara con el mejor personal del paciente o con el teórico, según edad, sexo y talla.' },
+        ] },
+        { title: 'Cómo se interpreta', tag: 'Crisis y control', kind: 'criteria', items: [
+          { t: 'En la crisis: > 70% leve, 40–69% moderada, < 40–50% grave', d: 'Antes y después del tratamiento',
+            say: 'En la crisis se mide antes y después del tratamiento. Sobre setenta por ciento es leve, entre cuarenta y sesenta y nueve moderada, y bajo cuarenta a cincuenta por ciento, grave.' },
+          { t: 'En casa: mañana y noche', d: 'Variabilidad diaria > 20% apoya asma',
+            say: 'En el control domiciliario se registra en la mañana y en la noche. Una variabilidad diaria mayor de veinte por ciento apoya el diagnóstico de asma, y un descenso bajo ochenta por ciento del mejor valor avisa pérdida de control.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Riesgo vital',
       title: 'Signos de paro respiratorio inminente',
       cards: [
@@ -150,6 +172,28 @@ module.exports = {
             say: 'El segundo: lo que no se usa de rutina. Los antibióticos no tienen indicación en la crisis asmática; el problema es un bronquio cerrado, no una infección bacteriana.' },
           { t: 'Aminofilina', d: 'Sin beneficio adicional y tóxica',
             say: 'Y las metilxantinas, como la aminofilina, tampoco: no agregan beneficio y tienen toxicidad, sobre todo arritmias. Si aparecen como el siguiente paso, descártalas.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Técnica',
+      title: 'Cómo nebulizar',
+      cards: [
+        { title: 'Montaje', tag: 'Nebulizador', kind: 'key', items: [
+          { t: 'Salbutamol 2,5–5 mg ± ipratropio 0,5 mg', d: 'En 3–4 mL de suero fisiológico',
+            say: 'Para nebulizar, se prepara el salbutamol, dos coma cinco a cinco miligramos, y si corresponde ipratropio, medio miligramo, en tres a cuatro mililitros de suero fisiológico.' },
+          { t: 'Oxígeno a 6–8 L/min, mascarilla ajustada', d: 'Sentado, 5–10 minutos a volumen corriente',
+            say: 'Se conecta a oxígeno a seis u ocho litros por minuto, con mascarilla bien ajustada o boquilla, y el paciente respira tranquilo, sentado, durante cinco a diez minutos, hasta que se agota la solución.' },
+        ] },
+        { title: 'Situaciones especiales', tag: 'Lo que se pregunta', kind: 'alert', items: [
+          { t: 'En la crisis: cada 20 minutos', d: 'Durante la primera hora',
+            say: 'En la crisis asmática la nebulización se repite cada veinte minutos durante la primera hora.' },
+          { t: 'EPOC o riesgo de retener CO2', d: 'Nebulizar con aire; oxígeno aparte por cánula',
+            say: 'Si el paciente puede retener dióxido de carbono, como el EPOC, conviene mover el nebulizador con aire y dar el oxígeno aparte por cánula nasal.' },
+          { t: 'MDI con aerocámara = nebulización', d: 'Menos efectos adversos si coopera',
+            say: 'Y recuerda lo de recién: un inhalador con aerocámara y varios puff es tan eficaz como nebulizar, con menos efectos adversos. Si el paciente coopera, se prefiere.' },
         ] },
       ],
     },
@@ -288,6 +332,156 @@ module.exports = {
         options: 'Las opciones: radiografía de tórax, test de metacolina, flujo espiratorio máximo, hemograma con VHS, o gases en sangre venosa. Piénsalo.',
         answer: 'Es la C, el PEF. La severidad se mide con la clínica y con el flujo espiratorio máximo, que además te sirve para ver la respuesta a la hora. El distractor tentador son los gases, pero fíjate que dicen venosos: los que sirven son los arteriales, y se piden en la crisis grave. Y la metacolina es para diagnosticar asma en un paciente sin crisis; aquí provocaría más broncoespasmo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.1.002 · Asma bronquial grave",
+      "stem": "Mujer de 35 años con asma desde la adolescencia, en tratamiento con budesonida/formoterol en dosis alta más tiotropio. Se verificó adherencia y técnica inhalatoria correctas, y se trataron su rinosinusitis y su reflujo. Aun así tuvo 3 cursos de prednisona oral en el último año. Eosinófilos en sangre 480/µL, IgE total elevada.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener prednisona oral 20 mg/día indefinidamente"
+        },
+        {
+          "letter": "B",
+          "text": "Agregar teofilina como única medida"
+        },
+        {
+          "letter": "C",
+          "text": "Cambiar a salbutamol en horario cada 4 horas"
+        },
+        {
+          "letter": "D",
+          "text": "Suspender el corticoide inhalado por falta de respuesta"
+        },
+        {
+          "letter": "E",
+          "text": "Derivar a broncopulmonar para evaluar terapia biológica"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Asma grave: no controlada pese a corticoide inhalado en dosis alta con LABA, habiendo corregido adherencia, técnica y comorbilidades. Con fenotipo eosinofílico corresponde derivar a especialista para biológicos (anti-IL5 o anti-IgE). El corticoide oral crónico es la última opción por su toxicidad.",
+      "say": {
+        "stem": "Una mujer de treinta y cinco años usa budesonida con formoterol en dosis alta más tiotropio, con buena técnica y buena adherencia, y sus comorbilidades ya se trataron. Aun así necesitó tres cursos de prednisona este año. Tiene eosinófilos altos.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: prednisona crónica, teofilina, salbutamol en horario, suspender el inhalado o derivar para terapia biológica. Piénsalo.",
+        "answer": "Es la E. Es un asma grave de verdad, con todo lo corregible ya corregido, y con eosinófilos altos es candidata a un biológico, que indica el especialista. La prednisona crónica tienta porque controla, pero su toxicidad la deja como último recurso."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.009 · Flujo espiratorio máximo (PEF: Peak Expiratory Flow)",
+      "stem": "Mujer de 26 años con crisis asmática en el SAPU. Ingresó con PEF de 45 % del predicho. Recibió oxígeno, 3 nebulizaciones de salbutamol con ipratropio y prednisona 40 mg oral. Una hora después: habla frases completas, FR 18/min, SatO2 96 % ambiental, sibilancias escasas y PEF 78 % del predicho.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hospitalizar en sala para tratamiento endovenoso"
+        },
+        {
+          "letter": "B",
+          "text": "Alta sin tratamiento, ya que el PEF es normal"
+        },
+        {
+          "letter": "C",
+          "text": "Sulfato de magnesio endovenoso antes del alta"
+        },
+        {
+          "letter": "D",
+          "text": "Mantener en observación 24 horas aunque esté estable"
+        },
+        {
+          "letter": "E",
+          "text": "Alta con prednisona por 5 a 7 días, corticoide inhalado y control precoz"
+        }
+      ],
+      "correct": "E",
+      "explanation": "El PEF objetiva la respuesta: sobre 70 % del predicho a la hora, con clínica estable y SatO2 normal, permite el alta. Debe irse con corticoide oral 5 a 7 días, inicio o ajuste del corticoide inhalado, plan de acción y control precoz. Bajo 50 % tras tratamiento obliga a hospitalizar.",
+      "say": {
+        "stem": "Una mujer de veintiséis años llegó en crisis asmática con un flujo espiratorio máximo de cuarenta y cinco por ciento. Tras oxígeno, broncodilatadores y prednisona, una hora después habla frases completas, satura noventa y seis por ciento y su flujo máximo es setenta y ocho por ciento del predicho.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: hospitalizar, alta sin tratamiento, magnesio antes del alta, observar veinticuatro horas o alta con corticoide oral e inhalado. Piénsalo.",
+        "answer": "Es la E. Un flujo máximo sobre setenta por ciento a la hora, con la paciente estable, permite el alta, pero con corticoide oral unos días y corticoide inhalado. Irse sin tratamiento tienta porque ya está bien, pero sin corticoide la crisis vuelve en los días siguientes."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.010 · Gases en sangre arterial",
+      "stem": "Hombre de 19 años con crisis asmática de 6 horas. Tras 1 hora de salbutamol con ipratropio está somnoliento, con FR 30/min, uso de musculatura accesoria y murmullo pulmonar muy disminuido, casi sin sibilancias. Gases con oxígeno: pH 7,35, PaCO2 45 mmHg, PaO2 62 mmHg, HCO3 24 mEq/L.",
+      "question": "¿Cuál es la interpretación más adecuada de los gases?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Signo de agotamiento respiratorio inminente; manejo en UCI y preparar intubación"
+        },
+        {
+          "letter": "B",
+          "text": "Gases tranquilizadores: la PaCO2 es normal"
+        },
+        {
+          "letter": "C",
+          "text": "Alcalosis respiratoria esperable en la crisis"
+        },
+        {
+          "letter": "D",
+          "text": "Acidosis metabólica por uso de salbutamol"
+        },
+        {
+          "letter": "E",
+          "text": "Hipoxemia leve que solo requiere más oxígeno"
+        }
+      ],
+      "correct": "A",
+      "explanation": "En la crisis asmática el paciente hiperventila y la PaCO2 debe estar baja. Una PaCO2 normal o alta, con somnolencia y tórax silencioso, indica fatiga muscular y paro respiratorio inminente: crisis de riesgo vital que requiere UCI y preparar intubación.",
+      "say": {
+        "stem": "Un hombre de diecinueve años lleva seis horas en crisis asmática. Tras una hora de broncodilatadores está somnoliento, taquipneico, con murmullo muy disminuido y casi sin sibilancias. Los gases muestran pH siete coma treinta y cinco y presión de CO dos de cuarenta y cinco.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: agotamiento inminente, gases tranquilizadores, alcalosis respiratoria esperable, acidosis por salbutamol o hipoxemia leve. Piénsalo.",
+        "answer": "Es la A. Un asmático en crisis debería tener la presión de CO dos baja por hiperventilar; si está normal, ya se está cansando, y con somnolencia y tórax silencioso el paro está cerca. Pensar que es tranquilizador por ser un valor normal es la trampa clásica."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.5.008 · Nebulizaciones",
+      "stem": "Mujer de 32 años, asmática, consulta en urgencia por disnea progresiva de 6 horas. Habla en palabras sueltas, FR 32/min, FC 124/min, SatO2 87% con aire ambiental, uso de musculatura accesoria y sibilancias difusas. Está muy ansiosa y no logra coordinar la inhalación.",
+      "question": "¿Cuál es la forma más adecuada de administrar el broncodilatador inicial?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salbutamol más bromuro de ipratropio nebulizados con oxígeno a 6-8 L/min"
+        },
+        {
+          "letter": "B",
+          "text": "Salbutamol en polvo seco inhalado"
+        },
+        {
+          "letter": "C",
+          "text": "Salbutamol en inhalador de dosis medida sin aerocámara"
+        },
+        {
+          "letter": "D",
+          "text": "Salbutamol nebulizado con aire comprimido, agregando oxígeno solo si persiste la hipoxemia"
+        },
+        {
+          "letter": "E",
+          "text": "Salbutamol endovenoso como primera línea"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Crisis asmática grave con hipoxemia en una paciente que no coordina: la nebulización impulsada por oxígeno a 6-8 L/min entrega el broncodilatador y corrige la hipoxemia a la vez, y en crisis grave se asocia ipratropio. Nebulizar con aire comprimido en una paciente hipoxémica empeora la desaturación. La vía endovenosa no es primera línea.",
+      "say": {
+        "stem": "Mujer de treinta y dos años, asmática, llega a urgencia hablando en palabras sueltas, con saturación de ochenta y siete por ciento y sin poder coordinar la inhalación.",
+        "question": "¿Cómo administras el broncodilatador inicial?",
+        "options": "Las opciones: salbutamol con ipratropio nebulizados con oxígeno, polvo seco, inhalador sin aerocámara, nebulización con aire comprimido o salbutamol endovenoso. Piénsalo.",
+        "answer": "Es la A. En una crisis grave con hipoxemia y mala coordinación se nebuliza con oxígeno a seis a ocho litros por minuto, agregando ipratropio. Nebulizar con aire comprimido puede empeorar la desaturación."
+      }
     },
 
     {

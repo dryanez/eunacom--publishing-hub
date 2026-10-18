@@ -215,6 +215,43 @@ module.exports = {
       ],
     },
 
+
+    {
+      type: 'table',
+      kicker: 'Niveles plasmáticos',
+      title: 'Qué pedir con cada estabilizador',
+      head: ['Fármaco', 'Nivel valle', 'Qué más se pide'],
+      rows: [
+        { cells: ['Litio', '0,6 a 1,2 mEq/L', 'Muestra a las 12 horas de la última dosis'],
+          say: 'La litemia se mide como nivel valle, doce horas después de la última dosis y tras cinco días de dosis estable. El rango va de cero coma seis a uno coma dos, con cero coma ocho a uno coma dos en la manía aguda y cero coma seis a cero coma ocho en mantención.' },
+        { cells: ['Valproato', '50 a 125 µg/mL', 'Hígado y plaquetas; 80 a 125 en manía'],
+          say: 'El valproato se mide antes de la dosis de la mañana, una vez alcanzado el estado estacionario, cinco a siete días. El rango es de cincuenta a ciento veinticinco, y en la manía se busca entre ochenta y ciento veinticinco. Se acompaña de pruebas hepáticas y plaquetas.' },
+        { cells: ['Carbamazepina', '4 a 12 µg/mL', 'Repetir a las 3-4 semanas; sodio y hemograma'],
+          say: 'La carbamazepina induce su propio metabolismo, así que el nivel cae a las tres o cuatro semanas y hay que repetirlo. Se piden además hemograma, sodio por la hiponatremia y pruebas hepáticas. En pacientes de ascendencia asiática se busca el HLA B mil quinientos dos antes de partir, por el Stevens Johnson.' },
+        { cells: ['Lamotrigina', 'Sin niveles de rutina', 'Titulación lenta; vigilar rash'],
+          say: 'La lamotrigina no necesita niveles de rutina. Lo que se vigila es la piel, y por eso se parte bajo y se sube lento.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Niveles plasmáticos',
+      title: 'Cuándo pedir un nivel',
+      cards: [
+        { title: 'Pídelo cuando', tag: 'Indicación', kind: 'key', items: [
+          { t: 'Cambias la dosis', d: 'O sospechas toxicidad o mala adherencia',
+            say: 'Se pide un nivel al ajustar la dosis, ante sospecha de toxicidad, con temblor grueso, vómitos, ataxia o confusión, y cuando falta respuesta o hay duda de adherencia.' },
+          { t: 'Embarazo, deshidratación, enfermedad renal', d: 'Cambian la eliminación del fármaco',
+            say: 'También en el embarazo, en la deshidratación o la enfermedad renal, porque cambian cómo se elimina el fármaco.' },
+        ] },
+        { title: 'Qué cambia los niveles', tag: 'Interacciones', kind: 'alert', items: [
+          { t: 'Litio sube con AINE, tiazidas, IECA, ARA-II', d: 'Menor excreción renal',
+            say: 'Con litio, los antiinflamatorios, las tiazidas, los inhibidores de la enzima convertidora y los bloqueadores del receptor de angiotensina elevan el nivel.' },
+          { t: 'Valproato baja con carbapenémicos', d: 'Carbamazepina sube con macrólidos y verapamilo',
+            say: 'El valproato cae con los carbapenémicos. Y la carbamazepina sube con los macrólidos, la fluoxetina, el verapamilo y el diltiazem. Siempre se interpreta el número junto con la clínica.' },
+        ] },
+      ],
+    },
     {
       type: 'points',
       kicker: 'Mujer en edad fértil',
@@ -232,6 +269,20 @@ module.exports = {
           { t: 'No suspender todo de golpe', d: 'Riesgo alto de recaída',
             say: 'Y no se suspende todo de golpe, porque la recaída maníaca durante el embarazo y el puerperio es grave.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La litemia sube, la clínica cambia',
+      images: [
+        { src: 'animaciones/psiq-02/A1_litemia_y_toxicidad.mp4', label: 'Litemia y conducta', credit: 'Gráfico y animación propios' },
+      ],
+      steps: [
+        { note: 'Interacciones y deshidratación suben el nivel',
+          say: 'Mira cómo sube el nivel del paciente. Con dosis estable está en rango, pero basta agregar un antiinflamatorio, una tiazida o un inhibidor de la enzima convertidora, o una deshidratación, para que suba. Entre uno coma cinco y dos hay náuseas, diarrea y temblor fino: suspendes el litio e hidratas. Sobre dos, temblor grosero y ataxia: hospitalizas con suero fisiológico. Sobre dos coma cinco, convulsiones: hemodiálisis si hay compromiso grave.' },
       ],
     },
 
@@ -258,6 +309,8 @@ module.exports = {
           say: 'Intoxicación por litio: suspender, hospitalizar e hidratar con suero fisiológico. Hemodiálisis si es grave.' },
         { cells: ['Bipolar que planea embarazo', 'Cambiar valproato antes', 'Mantener valproato'],
           say: 'Y el valproato en una mujer que quiere embarazarse se cambia antes de la concepción.' },
+        { cells: ['Carbamazepina con anticonceptivos', 'Método alternativo', 'Asumir que protegen'],
+          say: 'Y la carbamazepina es inductora enzimática: baja los niveles de los anticonceptivos orales, así que la paciente queda sin protección.' },
       ],
     },
 
@@ -420,6 +473,44 @@ module.exports = {
         options: 'Las opciones: mantener el valproico; reemplazarlo por carbamazepina; planificar el cambio gradual a lamotrigina o quetiapina con ácido fólico; suspender todo; o agregar litio. Piénsalo.',
         answer: 'Es la C. El valproato es el estabilizador más teratogénico, así que antes de la concepción se pasa, de forma gradual, a un fármaco de mejor perfil, con ácido fólico en dosis altas. La carbamazepina también es teratogénica, y suspender todo expone a una recaída maníaca grave en el embarazo y el puerperio.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 5.01.4.003 · Niveles plasmáticos de estabilizadores del ánimo",
+      "stem": "Mujer de 45 años con trastorno bipolar tipo I, en tratamiento con carbonato de litio 900 mg al día, con litemia previa de 0,8 mEq/L. Hace 10 días su médico le inició hidroclorotiazida por hipertensión. Consulta por temblor grueso de manos, diarrea, vómitos y marcha inestable. Está somnolienta.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aumentar la dosis de litio porque el temblor indica descompensación"
+        },
+        {
+          "letter": "B",
+          "text": "Suspender el litio y la tiazida, medir litemia, función renal y electrolitos, e hidratar"
+        },
+        {
+          "letter": "C",
+          "text": "Agregar propranolol para el temblor y mantener el esquema"
+        },
+        {
+          "letter": "D",
+          "text": "Cambiar la tiazida por enalapril y control en 1 mes"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar haloperidol por probable episodio mixto"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Las tiazidas (y también IECA y AINE) reducen la excreción renal de litio y elevan su nivel plasmático. Temblor grueso, síntomas digestivos, ataxia y compromiso de conciencia sugieren intoxicación: se suspende el litio, se mide litemia (rango terapéutico 0,6 a 1,2 mEq/L), creatinina y electrolitos, y se hidrata; la hemodiálisis se reserva para casos graves.",
+      "say": {
+        "stem": "Una mujer de cuarenta y cinco años con trastorno bipolar toma litio con niveles estables. Hace diez días le iniciaron hidroclorotiazida para la presión. Ahora tiene temblor grueso, diarrea, vómitos, marcha inestable y somnolencia.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: subir el litio, suspender litio y tiazida midiendo litemia e hidratando, agregar propranolol, cambiar a enalapril, o iniciar haloperidol. Piénsalo.",
+        "answer": "Es la B. La tiazida disminuye la eliminación renal del litio y la paciente está intoxicada, así que se suspende, se mide la litemia con función renal y electrolitos, y se hidrata. Cambiar a enalapril tienta, pero los inhibidores de la enzima convertidora también suben el litio y no resuelven la intoxicación actual."
+      }
     },
 
     {

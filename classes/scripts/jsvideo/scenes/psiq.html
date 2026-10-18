@@ -1,0 +1,337 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../graph.js"></script><script src="../kit.js"></script>
+<script>
+// Psiquiatría: gráficos y esquemas solo de código (sin anatomía): curso temporal, ventanas terapéuticas, escaleras de conducta.
+//   ?v=litio      psiq-02  litemia: ventana terapéutica, qué la sube (AINE, tiazidas, deshidratación) y la conducta según el nivel
+//   ?v=sad        psiq-03  SAD PERSONS: cada factor suma un punto y la conducta sube de escalón
+//   ?v=posparto   psiq-04  línea de tiempo posparto: blues (día 3-5, remite en 14 d), psicosis (1-2 sem), depresión posparto (sem 2-6 y hasta 1 año)
+//   ?v=plazos     psiq-05  adaptativo (estresor, síntomas en 3 meses, remite en menos de 6) frente a depresión mayor (2 semanas) y distimia (2 años, depresión doble)
+//   ?v=panico     psiq-06  ISRS en pánico: ansiedad paradójica inicial con dosis plena vs media dosis; benzodiacepina puente 2-4 semanas con retiro gradual
+//   ?v=expo       psiq-07  exposición gradual: la ansiedad sube y baja en cada sesión y los picos son cada vez menores; la evitación mantiene el miedo
+//   ?v=toc        psiq-08  círculo del TOC (obsesión, ansiedad, compulsión, alivio breve) y su ruptura con exposición con prevención de respuesta
+//   ?v=trauma     psiq-09  reloj del trauma: menos de 3 días sin diagnóstico, estrés agudo 3 días a 1 mes, TEPT sobre 1 mes (crónico sobre 3 meses) y conducta de cada fase
+//   ?v=dopa       psiq-10  cuatro vías dopaminérgicas: tono en la esquizofrenia y qué pasa al bloquear D2 (esquema, sin anatomía)
+//   ?v=ran        psiq-11  clozapina: calendario de hemogramas y RAN que cae por las zonas (normal, leve, moderada, agranulocitosis) con la conducta de cada una
+//   ?v=psicosis   psiq-12  funcionamiento en el tiempo: breve (<1 mes, vuelve a lo previo), esquizofreniforme (1-6 meses), esquizofrenia (>6 meses) y delirante (vida conservada)
+//   ?v=isrs       psiq-01  PHQ-9 en el tiempo: control a 2 sem, evaluación a 4-6 sem, respuesta (-50 %), remisión (<5), mantenimiento 6-12 meses
+const V = new URLSearchParams(location.search).get('v') || 'isrs';
+window.SCENE = { duration: ({ isrs: 26, litio: 28, sad: 28, posparto: 26, plazos: 28, panico: 28, expo: 28, toc: 30, trauma: 28, dopa: 30, ran: 28, psicosis: 28 })[V] || 24, fps: 30 };
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const G = GRAPH(L), K = KIT(L), { seg, fade } = K;
+const A = (a, f) => { if (a > 0) { ctx.save(); ctx.globalAlpha *= a; f(); ctx.restore(); } };
+
+function isrs(t) {
+  K.title('Depresión mayor: el tratamiento en el tiempo', 'PHQ-9 seriado con un ISRS a dosis plena', C.BLUE);
+  const ax = G.axes({ x: 110, y: 170, w: 680, h: 400 }, [0, 56], [0, 27], { xt: [0, 2, 6, 12, 26, [52, '52']], yt: [0, 5, 9, 15, 20, 27], yl: 'PHQ-9 (puntos)', xl: 'Semanas de tratamiento' });
+  ax.draw(seg(t, 0, 0.7));
+  G.band(ax, 0, 5, 'rgba(61,220,132,0.14)', seg(t, 0.8, 0.6), 'Remisión: menos de 5');
+  const f = G.smooth([[0, 18], [2, 17], [4, 14], [6, 11], [8, 8], [12, 4], [20, 3], [56, 2]]);
+  const k = ease(seg(t, 1.5, 17)); const p = G.curve(ax, f, k, C.BLUE, 5); if (k < 1) G.head(p, C.BLUE);
+  G.hline(ax, 9, C.AMBER, null, seg(t, 6, 0.6)); A(seg(t, 6.3, 0.5), () => text('Respuesta: 9 (baja del 50 %)', ax.X(30), ax.Y(9) - 8, 17, C.AMBER, 'bold', 'center'));
+  G.vline(ax, 2, C.MUTED, null, seg(t, 3.5, 0.6)); A(seg(t, 3.8, 0.5), () => text('Control a las 2 sem', ax.X(2) + 8, ax.Y(24), 16, C.MUTED, 'bold'));
+  A(seg(t, 7.5, 0.6), () => { rrect(ax.X(4), ax.box.y, ax.X(6) - ax.X(4), ax.box.h, 4, 'rgba(255,194,71,0.12)'); text('Evaluación: 4 a 6 sem', ax.X(6) + 8, ax.Y(21), 16, C.AMBER, 'bold'); });
+  A(seg(t, 13, 0.6), () => { tag('¿Respuesta parcial?', ax.X(20), ax.Y(16), C.AMBER, 16); });
+  A(seg(t, 16, 0.6), () => { rrect(ax.X(12), ax.Y(7.5), ax.X(56) - ax.X(12), 14, 7, 'rgba(61,220,132,0.55)'); tag('Mantener 6 a 12 meses, misma dosis', ax.X(34), ax.Y(12.5), C.GREEN, 17); });
+  K.card(840, 170, 400, 150, C.AMBER, 'Si no responde', ['Parcial y bien tolerado: subir dosis', 'Falla a dosis máxima: cambiar a un', 'dual (venlafaxina) u otro ISRS'], seg(t, 9, 0.5));
+  K.card(840, 340, 400, 150, C.GREEN, 'Después de la remisión', ['No suspender al mejorar', 'Tres o más episodios:', 'mantenimiento indefinido'], seg(t, 17.5, 0.5));
+  K.banner(110, 640, 1130, 'El efecto tarda 2 a 4 semanas: no suspender por ineficacia precoz', C.BLUE, seg(t, 21, 0.5));
+}
+// escalera vertical con zonas; zones: [desde, hasta, color, rótulo]; marker en valor v
+function litio(t) {
+  K.title('Litio: margen estrecho', 'Litemia valle, 12 horas después de la última dosis', C.VIOLET);
+  const gx = 130, gw = 90, y0 = 600, y1 = 150, MAX = 3, Y = v => y0 - (v / MAX) * (y0 - y1);
+  const zones = [[0, 0.6, '#2A3340', ''], [0.6, 1.2, 'rgba(61,220,132,0.55)', ''], [1.2, 1.5, 'rgba(255,194,71,0.35)', ''], [1.5, 2.0, 'rgba(255,194,71,0.65)', ''], [2.0, 2.5, 'rgba(255,125,60,0.8)', ''], [2.5, 3.0, 'rgba(255,90,78,0.9)', '']];
+  const a0 = seg(t, 0, 0.8);
+  A(a0, () => {
+    zones.forEach(([a, b, col]) => rrect(gx, Y(b), gw, Y(a) - Y(b) - 2, 4, col));
+    [0, 0.6, 1.2, 1.5, 2.0, 2.5, 3.0].forEach(v => text(String(v).replace('.', ','), gx - 12, Y(v) + 5, 16, C.MUTED, '', 'right'));
+    text('mEq/L', gx - 12, y1 - 18, 16, C.MUTED, '', 'right');
+  });
+  A(seg(t, 1, 0.6), () => { text('Mantención 0,6 a 0,8', gx + gw + 120, Y(0.7) + 5, 16, C.GREEN, 'bold'); text('Manía aguda 0,8 a 1,2', gx + gw + 120, Y(1.0) - 4, 16, C.GREEN, 'bold'); });
+  // nivel del paciente según los eventos
+  const lv = G.smooth([[0, 0.7], [3, 0.7], [4.5, 0.75], [7.5, 0.8], [9, 1.3], [12, 1.35], [13.5, 1.8], [16.5, 1.85], [18, 2.3], [20.5, 2.3], [22, 2.8], [28, 2.8]]);
+  const v = lv(t);
+  A(seg(t, 2, 0.5), () => {
+    const my = Y(v); ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.moveTo(gx + gw + 4, my); ctx.lineTo(gx + gw + 34, my - 12); ctx.lineTo(gx + gw + 34, my + 12); ctx.fill();
+    ctx.strokeStyle = '#fff'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(gx - 6, my); ctx.lineTo(gx + gw + 6, my); ctx.stroke();
+    tag(v.toFixed(1).replace('.', ','), gx + gw + 90, my, C.INK, 20);
+  });
+  A(fade(t, 3, 8.4), () => K.card(520, 170, 420, 130, C.GREEN, 'Dosis estable, litemia en rango', ['Controles: creatinina, TSH,', 'electrolitos y ECG antes de partir'], 1));
+  A(fade(t, 8.6, 13.2), () => K.card(520, 170, 420, 130, C.AMBER, 'Sube la litemia', ['AINE, tiazidas, IECA o ARA-II:', 'menor excreción renal del litio'], 1));
+  A(fade(t, 13.2, 17.6), () => K.card(520, 170, 420, 150, C.AMBER, '1,5 a 2,0: toxicidad leve', ['Náuseas, diarrea, temblor fino', 'Deshidratación o dieta sin sal', 'Suspender litio e hidratar'], 1));
+  A(fade(t, 17.8, 21.8), () => K.card(520, 170, 420, 150, 'rgb(255,125,60)', '2,0 a 2,5: moderada', ['Temblor grosero, ataxia, confusión', 'Hospitalizar', 'Suero fisiológico'], 1));
+  A(seg(t, 22, 0.5), () => K.card(520, 170, 420, 150, C.RED, 'Más de 2,5: grave', ['Convulsiones, arritmias, coma', 'Hemodiálisis si hay compromiso', 'grave (neurológico o renal)'], 1));
+  A(seg(t, 24, 0.5), () => K.card(960, 170, 280, 150, C.MUTED, 'Lo que no sirve', ['Diuréticos', 'Carbón activado'], 1));
+  A(seg(t, 4.5, 0.6), () => { tag('Muestra: 12 h después de la última dosis', 730, 390, C.VIOLET, 17); });
+  K.banner(110, 650, 1130, 'Siempre: litio más AINE, tiazida o deshidratación = riesgo de intoxicación', C.VIOLET, seg(t, 25, 0.5));
+}
+// escalera de conducta según el puntaje SAD PERSONS: se suman factores de un paciente y el puntaje sube por los escalones
+function sad(t) {
+  K.title('Riesgo suicida: el puntaje manda la conducta', 'Escala SAD PERSONS: un punto por factor, máximo 10', C.RED);
+  const steps = [
+    [0, 2, 'Leve', 'Ambulatorio con red; control en menos de 7 días', C.GREEN],
+    [3, 4, 'Moderado bajo', 'Ambulatorio intensivo; control a las 48 a 72 h', '#9BD65A'],
+    [5, 6, 'Moderado alto', 'Psiquiatría urgente; definir hospitalización', C.AMBER],
+    [7, 8, 'Alto', 'Hospitalización obligatoria; vigilancia 1 a 1', 'rgb(255,125,60)'],
+    [9, 10, 'Inminente', 'Ingreso inmediato, involuntario si hace falta', C.RED]];
+  const bx = 40, bw = 420, bh = 78, by0 = 560;
+  // factores del paciente (se agregan con el tiempo)
+  const facts = [['Sexo masculino', 2.5], ['Menor de 19 o mayor de 45', 4.3], ['Depresión mayor', 6.1], ['Intento previo', 7.9], ['Abuso de alcohol o drogas', 9.7], ['Sin red de apoyo', 11.5], ['Plan organizado', 13.3], ['Pérdida del juicio (psicosis)', 15.1], ['Soltero, viudo o divorciado', 16.9], ['Enfermedad crónica', 18.7]];
+  let score = 0; facts.forEach(([, a]) => { if (t >= a) score++; });
+  steps.forEach(([lo, hi, nm, txt, col], i) => {
+    const y = by0 - i * (bh + 8), w = bw + i * 30, a = seg(t, 0.3 + i * 0.25, 0.5);
+    A(a, () => {
+      const on = score >= lo && score <= hi;
+      rrect(bx, y, w, bh, 14, on ? col : '#1B2230'); ctx.strokeStyle = col; ctx.lineWidth = on ? 4 : 2; ctx.beginPath(); ctx.roundRect(bx, y, w, bh, 14); ctx.stroke();
+      text(`${lo} a ${hi}: ${nm}`, bx + 18, y + 32, 22, on ? C.BG : col, 'bold');
+      text(txt, bx + 18, y + 60, 17, on ? C.BG : C.INK);
+    });
+  });
+  // lista de factores a la derecha
+  facts.forEach(([nm, a], i) => {
+    const k = seg(t, a, 0.4); if (k <= 0) return;
+    A(k, () => { rrect(720, 130 + i * 48, 330, 38, 10, '#161B22'); ctx.fillStyle = C.RED; ctx.fillRect(720, 130 + i * 48, 5, 38); text('+1  ' + nm, 740, 155 + i * 48, 19, C.INK, 'bold'); });
+  });
+  // marcador de puntaje
+  A(seg(t, 2, 0.5), () => { rrect(1080, 140, 160, 130, 18, '#161B22'); text('Puntaje', 1160, 175, 19, C.MUTED, '', 'center'); text(String(score), 1160, 242, 66, C.INK, 'bold', 'center'); });
+  const cur = steps.findIndex(([lo, hi]) => score >= lo && score <= hi);
+  A(seg(t, 2, 0.5), () => text(steps[cur][2], 1160, 300, 22, steps[cur][4], 'bold', 'center'));
+  K.banner(60, 650, 1180, 'Un puntaje bajo no autoriza el alta si hay plan, método y carta de despedida', C.RED, seg(t, 22.5, 0.5));
+}
+// carriles de tiempo en semanas con un cursor que avanza; cada cuadro se enciende cuando el cursor llega a su inicio
+function posparto(t) {
+  K.title('Posparto: el momento orienta el diagnóstico', 'Tres cuadros que se parecen y se manejan distinto', C.VIOLET);
+  const x0 = 270, x1 = 1220, W = 12, X = w => x0 + (w / W) * (x1 - x0);
+  const a0 = seg(t, 0, 0.7);
+  A(a0, () => {
+    ctx.strokeStyle = '#3A424E'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x0, 600); ctx.lineTo(x1, 600); ctx.stroke();
+    [[0, 'Parto'], [1, '1'], [2, '2'], [3, '3'], [4, '4'], [6, '6'], [8, '8'], [12, '12 sem']].forEach(([w, l]) => { text(l, X(w), 626, 16, C.MUTED, '', 'center'); ctx.fillStyle = '#3A424E'; ctx.fillRect(X(w) - 1, 594, 2, 12); });
+  });
+  const cw = lerp(0, 12, ease(seg(t, 2, 20)));
+  const lanes = [
+    { y: 150, col: C.GREEN, name: 'Tristeza materna', sub: 'Baby blues · 50 a 80 %', a: 0.6, b: 2, onset: 0.6, lab: 'Día 3 a 5: llanto fácil, vínculo preservado. Remite en 10 a 14 días sin fármacos', k: 4.5 },
+    { y: 290, col: C.RED, name: 'Psicosis puerperal', sub: '1 a 2 por 1.000 partos', a: 0.2, b: 2.2, onset: 0.2, lab: 'Primeras 1 a 2 semanas: insomnio total, delirios sobre el bebé. Urgencia', k: 8.5 },
+    { y: 430, col: C.AMBER, name: 'Depresión posparto', sub: '10 a 15 % · hasta 1 año', a: 2, b: 12, onset: 2, lab: 'Semana 2 a 6: anhedonia, culpa, insomnio aunque el bebé duerma', k: 14 },
+  ];
+  lanes.forEach(({ y, col, name, sub, a, b, onset, lab, k }) => {
+    A(seg(t, 0.3, 0.6), () => { rrect(40, y, 210, 100, 14, '#161B22'); ctx.fillStyle = col; ctx.fillRect(40, y, 6, 100); text(name, 60, y + 40, 20, col, 'bold'); text(sub, 60, y + 70, 16, C.INK); });
+    const on = cw >= onset;
+    const wEnd = clamp(cw, a, b);
+    A(0.25, () => rrect(X(a), y + 12, X(b) - X(a), 76, 14, col));
+    if (on) { A(1, () => rrect(X(a), y + 12, Math.max(0, X(wEnd) - X(a)), 76, 14, col)); }
+    A(seg(t, k, 0.6), () => text(lab, X(onset) + (onset > 3 ? -380 : 0) + (onset > 3 ? 0 : 10), y + 112 + 14, 16, col, 'bold'));
+  });
+  // cursor
+  A(seg(t, 2, 0.4), () => { ctx.strokeStyle = '#fff'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(X(cw), 135); ctx.lineTo(X(cw), 600); ctx.stroke(); tag(cw < 1 ? 'Día ' + Math.round(cw * 7) : 'Semana ' + cw.toFixed(1).replace('.', ','), X(cw), 120, '#fff', 18); });
+  K.banner(60, 655, 1160, 'Más de 2 semanas con anhedonia y culpa ya no es blues: es depresión posparto', C.VIOLET, seg(t, 22, 0.5));
+}
+// tres carriles en meses: adaptativo, depresión mayor y distimia (con depresión doble)
+function plazos(t) {
+  K.title('Adaptativo, depresión mayor y distimia', 'Lo decide el estresor, la gravedad y el tiempo', C.AMBER);
+  const x0 = 290, x1 = 1220, W = 30, X = m => x0 + (m / W) * (x1 - x0);
+  A(seg(t, 0, 0.7), () => {
+    ctx.strokeStyle = '#3A424E'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x0, 590); ctx.lineTo(x1, 590); ctx.stroke();
+    [0, 3, 6, 12, 18, [24, '24 (2 años)'], 30].forEach(v => { const [m, l] = Array.isArray(v) ? v : [v, String(v)]; text(l, X(m), 616, 16, C.MUTED, '', 'center'); ctx.fillStyle = '#3A424E'; ctx.fillRect(X(m) - 1, 584, 2, 12); });
+    text('Meses', x1, 640, 16, C.MUTED, '', 'right');
+  });
+  const lane = (y, col, name, sub, a) => A(seg(t, a, 0.6), () => { rrect(40, y, 230, 100, 14, '#161B22'); ctx.fillStyle = col; ctx.fillRect(40, y, 6, 100); text(name, 60, y + 40, 20, col, 'bold'); text(sub, 60, y + 70, 16, C.INK); });
+  const bar = (m0, m1, y, col, a, d, h = 54) => { const k = ease(seg(t, a, d)); if (k > 0) rrect(X(m0), y, (X(m1) - X(m0)) * k, h, 12, col); };
+  // adaptativo
+  lane(150, C.AMBER, 'Adaptativo', 'Estresor identificable', 0.5);
+  A(seg(t, 1.5, 0.5), () => { ctx.fillStyle = C.RED; ctx.beginPath(); ctx.moveTo(X(0), 150); ctx.lineTo(X(0) + 12, 162); ctx.lineTo(X(0), 174); ctx.fill(); text('Estresor', X(0) + 18, 168, 16, C.RED, 'bold'); });
+  bar(0.4, 3, 170, 'rgba(255,194,71,0.5)', 2.5, 1.2, 38);
+  A(seg(t, 3.2, 0.5), () => text('Síntomas dentro de 3 meses', X(0.4), 232, 16, C.AMBER, 'bold'));
+  bar(3, 9, 170, C.AMBER, 4, 1.8, 38);
+  A(seg(t, 5.5, 0.5), () => { tag('Cesa el estresor: remite en menos de 6 meses', X(13), 232, C.GREEN, 16); });
+  // depresión mayor
+  lane(260, C.RED, 'Depresión mayor', '5 de 9 síntomas', 7);
+  bar(14, 15.5, 284, C.RED, 8, 1, 54);
+  A(seg(t, 9, 0.5), () => tag('2 semanas o más; deterioro funcional', X(15.5) + 200, 311, C.RED, 16));
+  // distimia
+  lane(400, C.BLUE, 'Distimia', 'Ánimo bajo crónico', 11);
+  bar(0, 30, 424, 'rgba(79,163,255,0.55)', 12, 7, 54);
+  A(seg(t, 13, 0.5), () => { ctx.strokeStyle = C.INK; ctx.lineWidth = 2; ctx.setLineDash([8, 6]); ctx.beginPath(); ctx.moveTo(X(24), 400); ctx.lineTo(X(24), 520); ctx.stroke(); ctx.setLineDash([]); });
+  A(seg(t, 15, 0.5), () => tag('2 años en adultos (1 año en niños)', X(24) - 150, 392, C.BLUE, 16));
+  A(seg(t, 18, 0.5), () => { rrect(X(14), 424, X(15.5) - X(14), 54, 12, C.RED); tag('Depresión doble: episodio mayor sobre la distimia', X(14) + 60, 500, C.RED, 16); });
+  K.banner(60, 650, 1160, 'Estresor claro y pocos síntomas: psicoterapia, sin antidepresivo de entrada', C.AMBER, seg(t, 23, 0.5));
+}
+// pánico: empezar el ISRS con media dosis evita el empeoramiento inicial; la benzodiacepina es puente de pocas semanas
+function panico(t) {
+  K.title('Pánico: el ISRS parte con media dosis', 'Ansiedad durante las primeras semanas de tratamiento', C.BLUE);
+  const ax = G.axes({ x: 110, y: 160, w: 700, h: 300 }, [0, 12], [0, 10], { xt: [0, 1, 2, 4, 6, 8, [12, '12 sem']], yt: [], yl: 'Ansiedad y crisis', xl: 'Semanas de tratamiento' });
+  ax.draw(seg(t, 0, 0.7));
+  const full = G.smooth([[0, 6], [0.5, 8.5], [1, 9], [2, 7], [4, 4.5], [8, 2.5], [12, 1.5]]);
+  const half = G.smooth([[0, 6], [0.5, 6.4], [1, 6.2], [2, 5.4], [4, 3.6], [8, 2.2], [12, 1.4]]);
+  const k1 = ease(seg(t, 1, 5)), k2 = ease(seg(t, 7, 6));
+  const p1 = G.curve(ax, full, k1, C.RED, 5); if (k1 < 1) G.head(p1, C.RED);
+  A(seg(t, 4, 0.6), () => tag('Dosis plena desde el inicio: más ansiedad', ax.X(5.2), ax.Y(9.3), C.RED, 16));
+  const p2 = G.curve(ax, half, k2, C.GREEN, 5); if (k2 < 1) G.head(p2, C.GREEN);
+  A(seg(t, 11, 0.6), () => tag('Media dosis: mejor tolerada', ax.X(7.5), ax.Y(5.2), C.GREEN, 16));
+  // esquema de fármacos bajo el gráfico
+  const bx = ax.X(0), bw = ax.X(12) - ax.X(0);
+  const bars = [
+    [540, C.BLUE, '25 mg', 0, 1.5, 14.5], [540, '#2E73C4', 'Sertralina 50 mg o más', 1.5, 12, 15.5],
+    [588, C.AMBER, 'Clonazepam puente', 0, 4, 17.5], [588, 'rgba(255,194,71,0.4)', 'retiro gradual', 4, 6, 18.5]];
+  bars.forEach(([y, col, lab, m0, m1, a]) => A(seg(t, a, 0.6), () => { rrect(ax.X(m0), y, ax.X(m1) - ax.X(m0) - 2, 36, 10, col); text(lab, ax.X(m0) + 8, y + 24, 15, m0 === 4 ? C.INK : C.BG, 'bold'); }));
+  A(seg(t, 14, 0.5), () => text('ISRS', 40, 564, 18, C.BLUE, 'bold'));
+  A(seg(t, 17, 0.5), () => text('Puente', 40, 612, 18, C.AMBER, 'bold'));
+  K.card(840, 160, 400, 150, C.RED, 'Por qué empeora al inicio', ['Hipersensibilidad serotoninérgica:', 'más temblor, palpitaciones y miedo', 'en los primeros días'], seg(t, 3, 0.5));
+  K.card(840, 330, 400, 150, C.AMBER, 'La benzodiacepina', ['Solo puente de 2 a 4 semanas', 'con retiro gradual', 'Nunca como monoterapia'], seg(t, 17, 0.5));
+  K.banner(110, 662, 1130, 'Sertralina: 25 mg la primera semana, luego 50 mg; el efecto tarda semanas', C.BLUE, seg(t, 23, 0.5));
+}
+// exposición frente a evitación: curvas de ansiedad por sesión
+function expo(t) {
+  K.title('Fobia: la exposición apaga el miedo, la evitación lo mantiene', 'Ansiedad ante el estímulo temido', C.GREEN);
+  const ax = G.axes({ x: 110, y: 160, w: 740, h: 330 }, [0, 30], [0, 10], { xt: [[5, 'Vez 1'], [15, 'Vez 2'], [25, 'Vez 3']], yt: [], yl: 'Ansiedad', xl: '' });
+  ax.draw(seg(t, 0, 0.7));
+  // evitación: sube y se alivia al instante al huir; el miedo siguiente es igual o mayor
+  const avoid = x => { const c = x % 10; const pk = [8, 8.6, 9.2][Math.min(2, Math.floor(x / 10))]; return c < 3 ? 1 + (pk - 1) * (c / 3) : Math.max(1, pk - (c - 3) * (pk - 1) / 0.8); };
+  // exposición: cada sesión alcanza un pico menor y baja sola (habituación)
+  const expos = x => { const c = x % 10; const pk = [8, 5.8, 3.4][Math.min(2, Math.floor(x / 10))]; const base = [1.2, 1.2, 1][Math.min(2, Math.floor(x / 10))]; return c < 2 ? base + (pk - base) * (c / 2) : Math.max(base, pk - (c - 2) * (pk - base) / 8); };
+  const k1 = ease(seg(t, 1, 8)), k2 = ease(seg(t, 11, 10));
+  const p1 = G.curve(ax, avoid, k1, C.RED, 5); if (k1 < 1) G.head(p1, C.RED);
+  A(seg(t, 6, 0.6), () => tag('Evitar: alivio inmediato, el miedo vuelve igual', ax.X(15), ax.Y(9.7), C.RED, 16));
+  const p2 = G.curve(ax, expos, k2, C.GREEN, 5); if (k2 < 1) G.head(p2, C.GREEN);
+  A(seg(t, 17, 0.6), () => tag('Exponerse y quedarse: cada pico es menor', ax.X(21), ax.Y(7.0), C.GREEN, 16));
+  // jerarquía de exposición (ejemplo: volar)
+  const jer = ['Ver fotos de aviones', 'Ir al aeropuerto', 'Subir a un avión en tierra', 'Vuelo corto acompañado', 'Vuelo largo solo'];
+  A(seg(t, 3, 0.5), () => text('Escalera de exposición (volar)', 890, 175, 19, C.GREEN, 'bold'));
+  jer.forEach((n, i) => A(seg(t, 4 + i * 1.6, 0.5), () => { rrect(890 + i * 8, 195 + i * 56, 340 - i * 8, 44, 10, '#161B22'); ctx.fillStyle = C.GREEN; ctx.fillRect(890 + i * 8, 195 + i * 56, 5, 44); text(`${i + 1}. ${n}`, 908 + i * 8, 224 + i * 56, 17, C.INK, 'bold'); }));
+  K.card(110, 540, 560, 110, C.AMBER, 'Fármacos', ['Sin mantención. Puntual: benzodiacepina o', 'betabloqueador antes de un vuelo o procedimiento'], seg(t, 21, 0.5), 17);
+  K.card(690, 540, 550, 110, C.BLUE, 'Sangre e inyecciones', ['Respuesta vasovagal: tensión muscular', 'aplicada para evitar el síncope'], seg(t, 23, 0.5), 17);
+}
+// círculo del TOC: el ritual alivia y refuerza; la EPR rompe el círculo y la ansiedad baja sola
+function toc(t) {
+  K.title('TOC: el ritual alivia y refuerza el círculo', 'Exposición con prevención de respuesta (EPR) lo rompe', C.VIOLET);
+  const cx = 345, cy = 370, RX = 215, RY = 150;
+  const nodes = [['Obsesión', 'Pensamiento intrusivo', C.AMBER, -Math.PI / 2], ['Ansiedad', 'Angustia', C.RED, 0], ['Compulsión', 'Ritual: lavar, revisar, contar', C.BLUE, Math.PI / 2], ['Alivio breve', 'Dura poco', C.GREEN, Math.PI]];
+  const pt = a => [cx + RX * Math.cos(a), cy + RY * Math.sin(a)];
+  const pos = nodes.map(n => pt(n[3]));
+  const broken = t > 12.5;
+  A(seg(t, 0, 0.7), () => {
+    ctx.strokeStyle = '#3A424E'; ctx.lineWidth = 3; ctx.beginPath(); ctx.ellipse(cx, cy, RX, RY, 0, 0, 7); ctx.stroke();
+    nodes.forEach(([nm, sub, col], i) => { const [x, y] = pos[i]; rrect(x - 98, y - 34, 196, 68, 14, '#161B22'); ctx.strokeStyle = col; ctx.lineWidth = 3; ctx.beginPath(); ctx.roundRect(x - 98, y - 34, 196, 68, 14); ctx.stroke(); text(nm, x, y - 4, 21, col, 'bold', 'center'); text(sub, x, y + 22, 14, C.INK, '', 'center'); });
+  });
+  const ang = -Math.PI / 2 + (broken ? Math.PI / 2 : clamp(t - 1, 0, 11.5) / 2.9 * 2 * Math.PI);
+  A(seg(t, 1, 0.5), () => { const [gx, gy] = pt(ang); K.glow(gx, gy, 24, '255,255,255', 0.9); });
+  A(seg(t, 1, 0.5) * (broken ? 0 : 1), () => { text('Cada vuelta', cx, cy - 4, 19, C.VIOLET, 'bold', 'center'); text('refuerza el ritual', cx, cy + 20, 19, C.VIOLET, 'bold', 'center'); });
+  A(seg(t, 13, 0.6), () => { text('La ansiedad', cx, cy - 4, 19, C.GREEN, 'bold', 'center'); text('baja sola', cx, cy + 20, 19, C.GREEN, 'bold', 'center'); });
+  A(seg(t, 12.5, 0.6), () => { const [x, y] = pos[2]; ctx.strokeStyle = C.RED; ctx.lineWidth = 6; ctx.beginPath(); ctx.moveTo(x - 60, y - 66); ctx.lineTo(x + 60, y - 40); ctx.moveTo(x + 60, y - 66); ctx.lineTo(x - 60, y - 40); ctx.stroke(); tag('EPR: exponerse sin hacer el ritual', x, y + 66, C.VIOLET, 17); });
+  const ax = G.axes({ x: 740, y: 170, w: 500, h: 300 }, [0, 30], [0, 10], { xt: [], yt: [], yl: 'Ansiedad', xl: 'Tiempo' });
+  ax.draw(seg(t, 0.5, 0.7));
+  const f = x => {
+    if (x < 12.5) { const c = x % 3, n = Math.floor(x / 3), pk = 5 + n * 1.0, b = 1.5 + n * 0.4; return c < 1.2 ? b + (pk - b) * (c / 1.2) : Math.max(b, pk - (c - 1.2) * 5); }
+    return 1.2 + 7.2 * Math.exp(-(x - 12.5) / 4.5);
+  };
+  const xc = 30 * ease(seg(t, 1, 28));
+  const pr = G.curve(ax, f, clamp(xc / 12.5, 0, 1), C.RED, 5, 0, 12.5);
+  const pg = G.curve(ax, f, clamp((xc - 12.5) / 17.5, 0, 1), C.GREEN, 5, 12.5, 30);
+  G.head(xc < 12.5 ? pr : pg, xc < 12.5 ? C.RED : C.GREEN);
+  A(seg(t, 2, 0.5), () => text('Con ritual: alivio breve, cada pico mayor', 740, 520, 17, C.RED, 'bold'));
+  A(seg(t, 14, 0.5), () => text('Con EPR: el pico cae sin ritual', 740, 550, 17, C.GREEN, 'bold'));
+  K.banner(60, 640, 1180, 'ISRS en dosis altas, respuesta en 8 a 12 semanas; no tranquilizar ni ayudar al ritual', C.VIOLET, seg(t, 22, 0.5));
+}
+// reloj del trauma con cursor que avanza: el diagnóstico lo da el tiempo
+function trauma(t) {
+  K.title('Trauma: el reloj decide el diagnóstico', 'Estrés agudo frente a estrés postraumático (TEPT)', C.RED);
+  const x0 = 80, W = 1120, X = d => d <= 30 ? x0 + (d / 30) * 0.4 * W : x0 + 0.4 * W + ((d - 30) / 150) * 0.6 * W;
+  A(seg(t, 0, 0.7), () => {
+    ctx.strokeStyle = '#3A424E'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(x0, 330); ctx.lineTo(x0 + W, 330); ctx.stroke();
+    [[0, 'Trauma'], [3, '3 días'], [30, '1 mes'], [90, '3 meses'], [180, '6 meses']].forEach(([d, l]) => { text(d === 0 ? 'Trauma ▲' : l, d === 0 ? X(d) : X(d), d === 0 ? 384 : 360, 17, d === 0 ? C.RED : C.MUTED, d === 0 ? 'bold' : '', d === 0 ? 'left' : 'center'); ctx.fillStyle = '#3A424E'; ctx.fillRect(X(d) - 1, 324, 2, 12); });
+  });
+  const cd = 180 * ease(seg(t, 2, 19));
+  const phase = (d0, d1, y, col, lab, a, h = 56) => { A(0.25, () => rrect(X(d0), y, X(d1) - X(d0), h, 12, col)); const e = clamp(cd, d0, d1); if (cd > d0) rrect(X(d0), y, Math.max(0, X(e) - X(d0)), h, 12, col); A(seg(t, a, 0.5), () => text(lab, X(d0) + 12, y + 35, 19, C.BG, 'bold')); };
+  phase(0, 3, 240, '#6B7280', '', 2);
+  A(seg(t, 3, 0.5), () => text('Menos de 3 días: aún no hay diagnóstico', X(0), 226, 16, C.MUTED, 'bold'));
+  phase(3, 30, 240, C.AMBER, 'Estrés agudo', 5);
+  phase(30, 180, 240, C.RED, 'TEPT: más de 1 mes', 10);
+  A(seg(t, 14, 0.5), () => { ctx.strokeStyle = C.RED; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(X(90), 220); ctx.lineTo(X(180), 220); ctx.stroke(); text('Crónico: más de 3 meses; también existe el inicio tardío', X(180), 208, 16, C.RED, 'bold', 'right'); });
+  A(seg(t, 2, 0.4), () => { const x = X(cd); ctx.strokeStyle = '#fff'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(x, 190); ctx.lineTo(x, 330); ctx.stroke(); });
+  // conducta de cada fase
+  K.card(60, 410, 360, 180, '#9AA0A6', 'Primeras horas', ['Seguridad física y escucha', 'Primeros auxilios psicológicos', 'Sin presionar a contar el trauma'], seg(t, 3.5, 0.5), 17);
+  K.card(450, 410, 380, 180, C.AMBER, 'Estrés agudo', ['Apoyo, psicoeducación, sueño', 'Sin debriefing de sesión única', 'Sin benzodiacepinas', 'Si persiste: TCC del trauma'], seg(t, 6.5, 0.5), 17);
+  K.card(860, 410, 360, 180, C.RED, 'TEPT', ['TCC del trauma o EMDR', 'ISRS: sertralina o paroxetina', 'Prazosina si hay pesadillas', 'Nunca benzodiacepinas'], seg(t, 11, 0.5), 17);
+  K.banner(60, 640, 1160, 'Cerca de la mitad del estrés agudo evoluciona a TEPT: seguimiento y control a las 2 a 4 semanas', C.RED, seg(t, 22, 0.5));
+}
+// esquema de las cuatro vías de dopamina: partículas que viajan por cada vía; grosor = tono dopaminérgico
+function dopa(t) {
+  K.title('Dopamina: cuatro vías, un mismo bloqueo D2', 'Esquizofrenia y antipsicóticos', C.VIOLET);
+  const rows = [
+    { y: 150, nm: 'Mesolímbica', from: 'Área tegmental', to: 'Sistema límbico', tone: 1.8, base: 1.0, dis: 'Hiperactiva', eff: 'Mejoran delirios y alucinaciones', col: C.GREEN },
+    { y: 270, nm: 'Mesocortical', from: 'Área tegmental', to: 'Corteza prefrontal', tone: 0.35, base: 1.0, dis: 'Hipoactiva', eff: 'Negativos y cognitivos: respuesta pobre', col: C.AMBER },
+    { y: 390, nm: 'Nigroestriada', from: 'Sustancia negra', to: 'Estriado', tone: 1.0, base: 1.0, dis: 'Normal', eff: 'Síntomas extrapiramidales', col: C.RED },
+    { y: 510, nm: 'Tuberoinfundibular', from: 'Hipotálamo', to: 'Hipófisis', tone: 1.0, base: 1.0, dis: 'Normal', eff: 'Hiperprolactinemia', col: C.BLUE }];
+  const blockT = 13;  // desde aquí el antipsicótico bloquea D2
+  rows.forEach((r, i) => {
+    const a = seg(t, 0.4 + i * 0.5, 0.6); if (a <= 0) return;
+    A(a, () => {
+      rrect(30, r.y, 178, 90, 14, '#161B22'); ctx.fillStyle = r.col; ctx.fillRect(30, r.y, 6, 90); text(r.nm, 48, r.y + 36, 17, r.col, 'bold'); text(r.dis, 48, r.y + 64, 16, C.INK);
+      rrect(222, r.y + 20, 140, 50, 12, '#1B2230'); text(r.from, 292, r.y + 51, 16, C.INK, 'bold', 'center');
+      rrect(560, r.y + 20, 150, 50, 12, '#1B2230'); text(r.to, 635, r.y + 51, 16, C.INK, 'bold', 'center');
+      // tono: en enfermedad hasta blockT; luego el bloqueo D2 reduce la señal en las cuatro vías
+      const tone = r.tone * (1 - 0.65 * ease(seg(t, blockT, 1.5)));
+      const w = 4 + 12 * tone; ctx.fillStyle = 'rgba(179,136,255,0.28)'; ctx.fillRect(362, r.y + 45 - w / 2, 196, w);
+      const n = Math.max(1, Math.round(5 * tone * 1.6));
+      for (let k = 0; k < n; k++) { const ph = ((t * 0.45 + k / n) % 1); const x = 362 + 196 * ph; ctx.fillStyle = '#E6D6FF'; ctx.beginPath(); ctx.arc(x, r.y + 45, 4 + 2 * tone, 0, 7); ctx.fill(); }
+      ctx.fillStyle = C.VIOLET; ctx.beginPath(); ctx.moveTo(558, r.y + 45 - 14); ctx.lineTo(558, r.y + 45 + 14); ctx.lineTo(572, r.y + 45); ctx.fill();
+    });
+    A(seg(t, blockT + 0.5 + i * 1.4, 0.5), () => { rrect(745, r.y, 490, 90, 14, '#161B22'); ctx.fillStyle = r.col; ctx.fillRect(745, r.y, 6, 90); text('Con bloqueo D2', 765, r.y + 32, 16, C.MUTED, 'bold'); text(r.eff, 765, r.y + 64, 20, C.INK, 'bold'); });
+  });
+  A(seg(t, blockT - 0.3, 0.6) * (1 - seg(t, blockT + 6, 0.5)), () => tag('Antipsicótico: bloquea D2 en todas las vías', 640, 120, C.VIOLET, 18));
+  K.banner(60, 640, 1160, 'Los atípicos bloquean también 5-HT2A: menos efectos extrapiramidales que el haloperidol', C.VIOLET, seg(t, 23, 0.5));
+}
+// clozapina: el RAN de un paciente cae por las zonas y la conducta cambia
+function ran(t) {
+  K.title('Clozapina: el RAN manda la conducta', 'Recuento absoluto de neutrófilos por mm³', C.RED);
+  const ax = G.axes({ x: 110, y: 170, w: 640, h: 360 }, [0, 30], [0, 4000], { xt: [0, 5, 10, 15, 20, 25, [30, 'semanas']], yt: [[0, '0'], [1000, '1.000'], [1500, '1.500'], [2000, '2.000'], [3000, '3.000'], [4000, '4.000']], yl: 'RAN', xl: '' });
+  ax.draw(seg(t, 0, 0.7));
+  const zones = [[0, 1000, 'rgba(255,90,78,0.30)', 'Agranulocitosis'], [1000, 1500, 'rgba(255,125,60,0.28)', 'Moderada'], [1500, 2000, 'rgba(255,194,71,0.24)', 'Leve'], [2000, 4000, 'rgba(61,220,132,0.10)', 'Normal']];
+  zones.forEach(([a, b, col, lab], i) => { G.band(ax, a, b, col, seg(t, 0.6 + i * 0.3, 0.5)); A(seg(t, 1 + i * 0.3, 0.5), () => text(lab, ax.X(30) - 8, ax.Y((a + b) / 2) + 5, 15, C.INK, 'bold', 'right')); });
+  const f = G.smooth([[0, 3400], [5, 3300], [7.5, 3000], [9, 2300], [11, 1750], [13, 1300], [15, 850], [30, 700]]);
+  const k = seg(t, 3, 17); const p = G.curve(ax, f, k, C.BLUE, 5); if (k < 1) G.head(p, C.BLUE);
+  const xcur = 30 * k, v = f(xcur);
+  // conducta según el RAN actual
+  const st = v >= 2000 ? ['Normal', C.GREEN, ['Seguir el calendario habitual', 'Hemograma con recuento diferencial']] : v >= 1500 ? ['Neutropenia leve', C.AMBER, ['Seguir, con controles', '2 veces por semana']] : v >= 1000 ? ['Neutropenia moderada', 'rgb(255,125,60)', ['Suspender temporalmente', 'Hemograma diario', 'Reexponer si pasa de 1.500']] : ['Agranulocitosis', C.RED, ['Suspender ya y para siempre', 'Hospitalizar, aislamiento protector', 'Fiebre: antibiótico EV sin demora']];
+  A(seg(t, 3, 0.5), () => { tag(`RAN ${Math.round(v / 10) * 10}`.replace(/\B(?=(\d{3})+(?!\d))/g, '.'), ax.X(xcur), clamp(ax.Y(v) - 34, 190, 520), '#fff', 17); });
+  A(seg(t, 3, 0.5), () => K.card(790, 170, 450, 190, st[1], st[0], st[2], 1, 19));
+  // calendario de hemogramas
+  A(seg(t, 18, 0.6), () => { text('Calendario: semanal 26 semanas, quincenal hasta el año, luego mensual', 110, 575, 17, C.MUTED, 'bold'); [...Array(30)].forEach((_, i) => { if (i >= 26 && i % 2) return; ctx.fillStyle = i < 26 ? C.BLUE : C.AMBER; ctx.fillRect(110 + 640 * (i + 0.5) / 30 - 3, 590, 6, 22); }); });
+  K.card(790, 380, 450, 150, C.RED, 'Antes de empezar', ['Leucocitos 3.500 o más', 'RAN 2.000 o más', '(1.500 en neutropenia étnica benigna)'], seg(t, 21, 0.5), 18);
+  K.banner(110, 640, 1130, 'Con RAN bajo 1.000: reexposición prohibida de por vida', C.RED, seg(t, 24, 0.5));
+}
+// funcionamiento en el tiempo de cuatro psicosis; los cortes de 1 y 6 meses definen el nombre
+function psicosis(t) {
+  K.title('Psicosis: el reloj y el funcionamiento', 'Funcionamiento respecto del nivel previo, en meses', C.AMBER);
+  const ax = G.axes({ x: 110, y: 170, w: 700, h: 390 }, [0, 9], [0, 118], { xt: [0, 1, 3, 6, [9, '9 meses']], yt: [[0, '0'], [50, '50'], [100, 'Previo']], yl: 'Funcionamiento', xl: '' });
+  ax.draw(seg(t, 0, 0.7));
+  G.vline(ax, 1, C.MUTED, null, seg(t, 1, 0.6)); G.vline(ax, 6, C.MUTED, null, seg(t, 1.4, 0.6)); A(seg(t, 1.6, 0.5), () => { text('1 mes', ax.X(1) + 6, ax.Y(112), 16, C.MUTED, 'bold'); text('6 meses', ax.X(6) + 6, ax.Y(112), 16, C.MUTED, 'bold'); });
+  const cap = g => x => Math.min(100, g(x));
+  const breve0 = G.smooth([[0, 100], [0.08, 100], [0.2, 25], [0.5, 30], [0.85, 70], [1.0, 100], [9, 100]]); const breve = cap(breve0);
+  const esq = G.smooth([[0, 100], [0.08, 100], [0.3, 35], [1, 30], [3, 28], [6, 26], [9, 22]]);
+  const del = G.smooth([[0, 100], [1, 92], [3, 88], [6, 86], [9, 84]]);
+  // breve
+  const k1 = seg(t, 2, 4); const p1 = G.curve(ax, breve, k1, C.GREEN, 5, 0, 9); if (k1 < 1) G.head(p1, C.GREEN);
+  A(seg(t, 4.5, 0.6), () => tag('Psicótico breve: vuelve a lo previo', ax.X(4), ax.Y(109), C.GREEN, 16));
+  // esquizofreniforme -> esquizofrenia
+  const k2 = seg(t, 7, 6);
+  const p2 = G.curve(ax, esq, clamp(k2 * 9 / 6, 0, 1), C.AMBER, 5, 0, 6 > 0 ? 6 : 6); // hasta 6 meses
+  const k2b = seg(t, 7 + 6 * 6 / 9, 2.5); const p2b = G.curve(ax, esq, k2b, C.RED, 5, 6, 9); if (k2b > 0) G.head(p2b, C.RED); else if (k2 < 1) G.head(p2, C.AMBER);
+  A(seg(t, 9, 0.6), () => tag('Esquizofreniforme: 1 a 6 meses', ax.X(3.5), ax.Y(45), C.AMBER, 16));
+  A(seg(t, 12, 0.6), () => tag('Esquizofrenia: más de 6 meses', ax.X(7.4), ax.Y(12), C.RED, 16));
+  // delirante
+  const k3 = seg(t, 14, 5); const p3 = G.curve(ax, del, k3, C.BLUE, 5, 0, 9); if (k3 < 1) G.head(p3, C.BLUE);
+  A(seg(t, 17, 0.6), () => tag('Delirante: fuera del tema, funciona', ax.X(5), ax.Y(70), C.BLUE, 16));
+  K.card(840, 170, 400, 120, C.GREEN, 'Psicótico breve', ['Un día a menos de un mes', 'Restitución completa; estresor o posparto'], seg(t, 4.5, 0.5), 17);
+  K.card(840, 310, 400, 120, C.AMBER, 'Esquizofreniforme', ['Clínica de esquizofrenia por 1 a 6 meses', 'Pronóstico reservado: muchos progresan'], seg(t, 9, 0.5), 17);
+  K.card(840, 450, 400, 120, C.BLUE, 'Delirante', ['Delirio no bizarro, 1 mes o más', 'Sin voces ni desorganización; no confrontar'], seg(t, 17, 0.5), 17);
+  K.banner(110, 640, 1130, 'Todo se decide por el tiempo y por cuánto se deteriora la vida', C.AMBER, seg(t, 22, 0.5));
+}
+const SCENES = { isrs, litio, sad, posparto, plazos, panico, expo, toc, trauma, dopa, ran, psicosis };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCENES[V](t); text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); };
+LOAD({});
+</script>
+</body></html>

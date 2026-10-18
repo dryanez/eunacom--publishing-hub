@@ -101,6 +101,13 @@ const rawClasses = [
           "El Principio del Doble Efecto justifica moral y jurídicamente la administración de analgésicos opioides potentes (morfina, fentanilo) o sedantes en dosis crecientes en pacientes con patologías terminales en fase de agonía, aun cuando dicha terapia pueda conllevar secundariamente un riesgo previsible de depresión respiratoria o acortamiento de la vida.",
           "• Condiciones de Validez Ética:\n  1. El acto médico en sí mismo debe ser bueno o moralmente neutro (aliviar el sufrimiento intratable).\n  2. La intención directa y exclusiva del médico debe ser el alivio del dolor intolerable, y NUNCA provocar la muerte.\n  3. El efecto positivo (alivio) no debe obtenerse a través del efecto negativo (muerte).\n  4. Existe una proporción grave entre la gravedad del síntoma refractario y el riesgo de efectos adversos secundarios.\n*Diferencia cardinal: En la eutanasia activa o auxilio al suicidio la intención deliberada es provocar la muerte; en el doble efecto de los cuidados paliativos la intención es exclusivamente mitigar el dolor.*"
         ]
+      },
+      {
+        "subhead": "5. Relación Médico-Paciente-Familia y Comunicación",
+        "paragraphs": [
+          "Emanuel y Emanuel describen cuatro <b>modelos de relación médico-paciente</b>: <b>paternalista</b> (el médico decide lo mejor), <b>informativo</b> (el médico entrega datos y el paciente decide), <b>interpretativo</b> (el médico ayuda a aclarar los valores del paciente) y <b>deliberativo</b> (el médico y el paciente discuten qué es lo mejor). El modelo del MAIS y de la Ley 20.584 es <b>centrado en la persona</b>, con decisiones compartidas. La <b>familia</b> es la red de apoyo y un sujeto de atención, pero no sustituye al paciente competente: la información clínica se entrega a quien el paciente autorice.",
+          "<b>Comunicación efectiva:</b> escucha activa, preguntas abiertas, empatía, lenguaje claro sin tecnicismos, verificación de lo entendido y respeto por silencios y emociones. Para <b>dar malas noticias</b> sirve el protocolo <b>SPIKES</b>: preparar el entorno (Setting), explorar qué sabe el paciente (Perception), averiguar cuánto quiere saber (Invitation), dar la información en pequeñas porciones (Knowledge), responder a las emociones (Emotions) y acordar un plan (Strategy). Una buena comunicación mejora la adherencia y disminuye los reclamos."
+        ]
       }
     ],
     "table": {
@@ -345,6 +352,13 @@ const rawClasses = [
           "• Derecho a un Trato Digno y Respetuoso: Respeto a la intimidad, pudor e identidad de género. Derecho a contar con facilitadores lingüísticos o intérpretes en caso de población indígena o migrante que no hable español.\n• Derecho a no ser grabado ni fotografiado: Prohibición absoluta de tomar fotografías, videos o grabaciones de audio a los pacientes con fines docentes, de difusión o redes sociales sin su consentimiento informado expreso y por escrito.",
           "• Derecho a la Información Financiera y Alta Médica: Recibir información clara sobre costos de insumos y cuenta hospitalaria detallada, y entrega obligatoria del informe de epicrisis al alta hospitalaria.\n• Deberes de los Pacientes: Entregar información veraz sobre su salud e identidad, cuidar las instalaciones del centro asistencial y tratar con respeto al personal de salud (Ley de 'Consultorio Seguro' que agrava las penas por agresiones a funcionarios de la salud)."
         ]
+      },
+      {
+        "subhead": "4. Supervisión de Salud del Adolescente",
+        "paragraphs": [
+          "El <b>control de salud del adolescente</b> (10 a 19 años; «Control Joven Sano» hasta los 24) es una evaluación integral y anual que busca detectar riesgos y promover hábitos saludables. Incluye: peso, talla e IMC; presión arterial; estadio de <b>Tanner</b>; pesquisa de problemas visuales, de columna (escoliosis) y de salud bucal; vacunación (VPH en 4º y 5º básico); y una <b>entrevista psicosocial</b> tipo <b>HEEADSSS</b> (hogar, educación y empleo, alimentación, actividades, drogas, sexualidad, suicidio y depresión, seguridad). Las prioridades son salud mental (depresión, riesgo suicida), consumo de alcohol, tabaco y drogas, malnutrición, violencia y salud sexual y reproductiva.",
+          "La atención del adolescente respeta su <b>confidencialidad</b> y su autonomía progresiva: se le entrevista a solas, se explican sus límites (riesgo vital, abuso o delito) y se ofrece consejería en salud sexual y reproductiva y acceso a anticoncepción conforme a la Ley 20.418. En los <b>menores de 14 años</b> toda relación sexual es delito (violación impropia, Código Penal art. 362), por lo que el equipo debe <b>denunciar</b> y proteger. Ante un adolescente con riesgo suicida o con maltrato, se actúa aunque el menor lo pida reservado."
+        ]
       }
     ],
     "table": {
@@ -560,6 +574,26 @@ const rawClasses = [
         "subhead": "4. Deber de Denuncia Penal (Art. 175 y 176 Código Procesal Penal)",
         "paragraphs": [
           "Todo médico cirujano, enfermera u odontólogo que ejerza en establecimientos públicos o privados que atienda a personas con lesiones derivadas de hechos que revistan caracteres de delito de acción pública está obligado por ley a denunciar el hecho al Ministerio Público, Carabineros o PDI.\n• Delitos Sujetos a Denuncia: Lesiones graves por arma de fuego o arma blanca, sospecha de abuso o agresión sexual, señales evidentes de maltrato infantil o violencia intrafamiliar grave, e intoxicaciones dolosas.\n• Plazo Legal Fatal: La denuncia debe realizarse dentro de un plazo perentorio de VEINTICUATRO HORAS (24 horas) desde que se tomó conocimiento del hecho. El incumplimiento de este deber legal constituye un delito de omisión sancionado en el Código Penal."
+        ]
+      },
+      {
+        "subhead": "5. Maltrato Infantil: Sospecha, Manejo y Prevención",
+        "paragraphs": [
+          "El <b>maltrato infantil</b> incluye el maltrato físico, el psicológico o emocional, la negligencia, el abuso sexual y la exposición a violencia intrafamiliar. <b>Sospéchelo</b> ante: lesiones que no coinciden con el mecanismo relatado o con la edad del niño; equimosis en zonas protegidas (orejas, cuello, tronco, glúteos, genitales) o en un lactante que aún no camina; lesiones de edades distintas; fracturas costales posteriores o metafisarias; quemaduras por inmersión; hematoma subdural con hemorragias retinianas (niño sacudido); relatos cambiantes o consulta tardía. <b>Manejo:</b> examen completo y registro objetivo, estudio según edad (radiografías de esqueleto en menores de 2 años, fondo de ojo, neuroimagen), hospitalización protectora si hay riesgo, <b>denuncia</b> dentro de 24 horas y solicitud de una medida de protección al Tribunal de Familia.",
+          "<b>Prevención del maltrato.</b> A nivel <b>primario</b> se promueve la parentalidad positiva, el apego, la pesquisa de depresión posparto (escala de Edimburgo) y el programa Chile Crece Contigo. A nivel <b>secundario</b> se identifican familias de riesgo (padres muy jóvenes, adicciones, violencia, hacinamiento, hijo prematuro o con discapacidad) y se refuerzan las visitas domiciliarias y el control de salud. A nivel <b>terciario</b> se trata, se repara y se protege al niño. La detección en el control de salud es responsabilidad del equipo de atención primaria."
+        ]
+      },
+      {
+        "subhead": "6. Violencia Intrafamiliar: Detección y Manejo",
+        "paragraphs": [
+          "La <b>violencia intrafamiliar</b> (Ley 20.066) es todo maltrato que afecta la vida o la integridad física o psíquica de quien tiene o tuvo una relación familiar o de convivencia con el agresor. Sigue un <b>ciclo</b>: acumulación de tensión, explosión (agresión) y «luna de miel». <b>Detección:</b> pregunta directa y a solas, sobre todo ante lesiones inexplicadas, consultas repetidas, embarazo, depresión o síntomas inespecíficos. <b>Manejo:</b> evaluar el riesgo vital, atender y registrar las lesiones, informar sobre medidas de protección y derivar a los Centros de la Mujer del SERNAMEG o a los tribunales de familia; la violencia grave que constituya delito es de <b>denuncia obligatoria</b> (24 horas). Se evita la terapia de pareja y la mediación mientras exista riesgo."
+        ]
+      },
+      {
+        "subhead": "7. Fuentes de Información en Salud",
+        "paragraphs": [
+          "Las <b>fuentes de información</b> para el diagnóstico de salud son: (1) <b>estadísticas vitales</b> (nacimientos y defunciones; el CMD es su origen); (2) <b>censos</b> de población (INE); (3) <b>encuestas poblacionales</b> (Encuesta Nacional de Salud, CASEN, ENCAVI); (4) <b>registros de servicios</b> (egresos hospitalarios, REM, GES); (5) <b>vigilancia</b> epidemiológica (EPIVIGILA) y registros poblacionales (cáncer); (6) estudios especiales. El DEIS-MINSAL consolida la mayoría. Sus limitaciones son el subregistro y la mala calidad de la causa de muerte (uso de «paro cardiorrespiratorio»).",
+          "El <b>médico genera</b> esa información al llenar el CMD, notificar enfermedades y registrar diagnósticos en la ficha; por eso debe hacerlo con rigor. La licencia médica (tema 21.14) es el tercer documento que el médico emite, con control de COMPIN y SUSESO."
         ]
       }
     ],
@@ -820,6 +854,13 @@ const rawClasses = [
         "paragraphs": [
           "• Naturaleza Jurídica: La licencia médica es un acto médico y a la vez un documento legal oficial que certifica una incapacidad laboral transitoria y justifica la ausencia laboral del trabajador, dando origen al pago del Subsidio por Incapacidad Laboral (SIL).\n• Entidades Reguladoras: La COMPIN (Comisión de Medicina Preventiva e Invalidez) autoriza, reduce o rechaza las licencias; la SUSESO (Superintendencia de Seguridad Social) es la máxima instancia técnica de apelación.",
           "• Sanciones Penales por Emisión Fraudulenta (Ley 20.585):\n  - El otorgamiento de licencias médicas falsas, ideológicamente falsas o sin que medie una evaluación clínica real o patología justificada constituye un delito penal severamente castigado.\n  - Sanciones aplicables a médicos: Penas de presidio menor (cárcel efectiva), multas económicas gravosas a beneficio fiscal (de 50 a 500 UTM) e inhabilitación temporal o perpetua para emitir licencias médicas y ejercer cargos en el sistema público de salud."
+        ]
+      },
+      {
+        "subhead": "5. Salud Ocupacional: Condiciones de Trabajo y Accidentes del Trabajo (Ley 16.744)",
+        "paragraphs": [
+          "Las <b>condiciones de trabajo</b> son el conjunto de factores del ambiente laboral que influyen en la salud. Los riesgos son: <b>físicos</b> (ruido, vibraciones, radiación, calor o frío), <b>químicos</b> (sílice, plomo, solventes, asbesto), <b>biológicos</b>, <b>ergonómicos</b> (cargas, posturas, movimientos repetitivos) y <b>psicosociales</b> (carga y ritmo de trabajo, acoso, estrés). El control sigue una jerarquía: eliminar el riesgo, sustituirlo, aplicar controles de ingeniería, medidas administrativas y, al final, elementos de protección personal. El DS 594 fija las condiciones sanitarias y ambientales básicas de los lugares de trabajo; las empresas de 25 o más trabajadores deben tener un <b>comité paritario</b> y las de 100 o más, un departamento de prevención.",
+          "La <b>Ley 16.744</b> (1968) crea el seguro social obligatorio contra <b>accidentes del trabajo</b> y <b>enfermedades profesionales</b>. Es <b>accidente del trabajo</b> toda lesión que sufre una persona a causa o con ocasión del trabajo y que le produce incapacidad o muerte; el <b>accidente de trayecto</b> es el ocurrido en el camino directo entre la habitación y el lugar de trabajo (o entre dos lugares de trabajo). La <b>enfermedad profesional</b> es la causada directamente por el ejercicio de la profesión. La atención es <b>gratuita</b> en el organismo administrador (mutualidades como ACHS, Mutual de Seguridad e IST, o el ISL) hasta la curación. Se hace la <b>DIAT</b> (denuncia individual de accidente del trabajo) o la <b>DIEP</b> (de enfermedad profesional), que deben emitir el empleador o, en su defecto, el trabajador o el médico tratante. La licencia es de tipo 5 (accidente del trabajo o de trayecto) o tipo 6 (enfermedad profesional) y da derecho a subsidio; si queda secuela hay indemnización o pensión de invalidez."
         ]
       }
     ],

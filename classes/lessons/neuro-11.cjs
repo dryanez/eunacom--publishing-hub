@@ -80,7 +80,8 @@ module.exports = {
           { t: 'Bradicinesia', d: 'Lentitud con decremento en movimientos repetidos',
             say: 'Veamos el diagnóstico, que es clínico. Los criterios de la Movement Disorder Society parten por definir un parkinsonismo, y el requisito obligatorio es la bradicinesia: lentitud, con una disminución progresiva de la velocidad o la amplitud en movimientos repetidos.' },
           { t: 'Golpeteo de dedos que se apaga', d: 'También pronosupinación, abrir y cerrar la mano',
-            say: 'Se examina pidiendo golpetear el índice con el pulgar, pronosupinar o abrir y cerrar la mano: el movimiento se va haciendo más lento y más pequeño. Si no hay bradicinesia, no es Parkinson.' },
+            say: 'Se examina pidiendo golpetear el índice con el pulgar, pronosupinar o abrir y cerrar la mano: el movimiento se va haciendo más lento y más pequeño. Si no hay bradicinesia, no es Parkinson. También la escritura se va achicando a medida que escribe: mira esta muestra, es la micrografía.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-11/S1_micrografia__propio.svg', label: 'Micrografía', at: 'mira esta muestra', credit: 'Dibujo propio (esquema)' } },
         ] },
         { title: 'Más al menos uno', tag: 'Rigidez o temblor', kind: 'criteria', items: [
           { t: 'Temblor de reposo 4–6 Hz', d: 'Asimétrico, cuenta monedas, cede al moverse',
@@ -90,7 +91,8 @@ module.exports = {
         ] },
         { title: 'Lo que ve la familia', tag: 'Muy frecuente', kind: 'key', items: [
           { t: 'Menos braceo, de un lado', d: 'Hipomimia, hipofonía, pasos cortos',
-            say: 'Y lo que la familia nota primero: camina más lento, pierde el braceo de un lado, la cara se vuelve inexpresiva, la voz baja, y los pasos se acortan. Fíjate en la palabra asimetría: el Parkinson empieza de un lado.' },
+            say: 'Y lo que la familia nota primero: camina más lento, pierde el braceo de un lado, la cara se vuelve inexpresiva, la voz baja, y los pasos se acortan. Fíjate en la palabra asimetría: el Parkinson empieza de un lado. Mira esta postura: el paciente camina flectado, con pasos cortos y sin braceo.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-11/01_postura-parkinsoniana__cto-neuro_p54.jpg', label: 'Postura parkinsoniana', at: 'Mira esta postura', credit: 'Manual CTO Neurología 14.ª ed., p. 54' } },
           { t: 'Inestabilidad postural: tardía', d: 'Si aparece el primer año, bandera roja',
             say: 'La inestabilidad postural, en cambio, es tardía. Si aparece en el primer año, es una bandera roja, que es justo lo que viene.' },
         ] },
@@ -148,6 +150,25 @@ module.exports = {
           { t: 'Demencia tardía', d: 'Perfil fronto-subcortical',
             say: 'Y la demencia, de perfil fronto-subcortical, con disfunción ejecutiva y lentitud del pensamiento, que aparece tarde.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'table',
+      kicker: 'Trastornos del sueño',
+      title: 'Sueño: qué sospechar y cuándo derivar',
+      head: ['Trastorno', 'Pista clínica', 'Conducta'],
+      rows: [
+        { cells: ['Insomnio crónico', '3 noches por semana por 3 meses, con deterioro diurno', 'Higiene del sueño y terapia cognitivo-conductual'],
+          say: 'El trastorno conductual del sueño REM es solo uno de los trastornos del sueño. Ante un mal dormir, pregunta por ronquidos, pausas, piernas, somnolencia con la escala de Epworth, y alcohol, cafeína y fármacos. El insomnio crónico es dificultad para dormir al menos tres noches por semana durante tres meses, con deterioro diurno. Primero higiene del sueño y terapia cognitivo-conductual; zolpidem solo por períodos cortos, y sin benzodiacepinas en el adulto mayor.' },
+        { cells: ['Apnea del sueño', 'Ronquidos, pausas, somnolencia, obesidad, HTA difícil', 'STOP-BANG ≥ 3 → poligrafía; CPAP'],
+          say: 'El síndrome de apnea obstructiva se sospecha en el obeso que ronca, con pausas presenciadas, somnolencia diurna, hipertensión difícil de controlar, fibrilación auricular o accidentes de tránsito. El cuestionario STOP-BANG con tres o más puntos lo sugiere, se confirma con poligrafía o polisomnografía, y se trata con baja de peso, evitar alcohol y sedantes, y CPAP.' },
+        { cells: ['Narcolepsia', 'Ataques de sueño, cataplejía, alucinaciones al dormirse', 'Polisomnografía y test de latencias; modafinilo'],
+          say: 'La narcolepsia es somnolencia diurna excesiva con ataques de sueño, cataplejía, que es la pérdida súbita del tono muscular con las emociones, alucinaciones al dormirse y parálisis del sueño. Se confirma con polisomnografía y test de latencias múltiples, y se trata con modafinilo u oxibato de sodio.' },
+        { cells: ['Piernas inquietas', 'Necesidad de moverlas en reposo, al atardecer', 'Ferritina; hierro si < 75'],
+          say: 'El síndrome de piernas inquietas es la necesidad imperiosa de mover las piernas en reposo, de predominio vespertino, que mejora al caminar. Se asocia a déficit de hierro, insuficiencia renal, embarazo y fármacos como antihistamínicos y antidepresivos. Mides la ferritina y, si es menor de setenta y cinco, repones hierro; también sirven los gabapentinoides o los agonistas dopaminérgicos, con el riesgo de aumentación.' },
+        { cells: ['Parasomnia no REM', 'Niño con sonambulismo o terrores, sin recuerdo', 'Proteger el ambiente'],
+          say: 'Y las parasomnias del sueño no REM, como el sonambulismo y los terrores nocturnos, son de niños y adolescentes, con amnesia del episodio. Basta proteger el ambiente. Ante sospecha de apnea, narcolepsia, trastorno conductual REM o síntomas refractarios, se deriva a neurología o a medicina del sueño.' },
       ],
     },
 
@@ -260,24 +281,6 @@ module.exports = {
       steps: [
         { note: 'Se pierde y se repone',
           say: 'Las neuronas de la sustancia nigra, en el mesencéfalo, envían dopamina al estriado: el caudado y el putamen. En el Parkinson esas neuronas mueren y la nigra se despigmenta. Los síntomas aparecen cuando ya falta más de la mitad. La levodopa repone la dopamina y el movimiento mejora.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'Enfermedad de Parkinson',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-11/01_postura-parkinsoniana__cto-neuro_p54.jpg', label: 'Postura parkinsoniana', credit: 'Manual CTO Neurología 14.ª ed., p. 54' },
-        { src: 'biblioteca/09_neurologia/neuro-11/S1_micrografia__propio.svg', label: 'Micrografía', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Flexión del tronco',
-          say: 'El paciente con Parkinson camina flectado, con pasos cortos y sin braceo.' },
-        { note: 'La letra se achica',
-          say: 'Y la letra se va achicando a medida que escribe: es la micrografía.' },
       ],
     },
 
@@ -399,6 +402,44 @@ module.exports = {
         options: 'Las opciones: trastorno conductual del sueño REM, sonambulismo, terrores nocturnos, apnea del sueño, o epilepsia nocturna del lóbulo frontal. Piénsalo.',
         answer: 'Es la A, trastorno conductual del sueño REM. Se pierde la atonía del sueño REM y el paciente actúa sus sueños, y es típico de las sinucleinopatías, como el Parkinson. El sonambulismo tienta, pero aquí el paciente actúa un sueño violento, y en alguien con Parkinson eso apunta al sueño REM. Y recuerda que este trastorno puede aparecer años antes del temblor.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Enero 2023 · Pregunta 122",
+      "stem": "Un paciente, durante el sueño, se levanta, grita y golpea. Al despertar refiere que soñaba que se defendía.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sonambulismo"
+        },
+        {
+          "letter": "B",
+          "text": "Terror nocturno (pavor nocturnus)"
+        },
+        {
+          "letter": "C",
+          "text": "Trastorno conductual del sueño REM"
+        },
+        {
+          "letter": "D",
+          "text": "Pesadillas recurrentes"
+        },
+        {
+          "letter": "E",
+          "text": "Epilepsia nocturna del lóbulo frontal"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Conductas motoras violentas que representan el contenido de un sueño, con recuerdo onírico al despertar, son típicas del trastorno conductual del sueño REM, por pérdida de la atonía muscular propia de esa fase. Se asocia a sinucleinopatías como Parkinson y cuerpos de Lewy, y puede precederlas por años. Sonambulismo y terrores nocturnos ocurren en sueño no REM, sin recuerdo.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de enero de dos mil veintitrés. Paciente que durante el sueño grita y golpea, y al despertar cuenta que soñaba que se defendía.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: sonambulismo, terror nocturno, trastorno conductual del sueño REM, pesadillas, o epilepsia frontal nocturna. Piénsalo.",
+        "answer": "Es la C. Trastorno conductual del sueño REM: actúa lo que sueña y lo recuerda. El terror nocturno también tiene gritos, pero ocurre en sueño no REM y sin recuerdo."
+      }
     },
 
     {

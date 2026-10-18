@@ -49,6 +49,12 @@ module.exports = {
         { title: 'Cómo se ve', tag: 'Virus herpes simple tipo 1', kind: 'criteria', items: [
           { t: 'Lesión en forma de árbol o helecho', d: 'Con botones en los extremos',
             say: 'La causa más frecuente de ceguera corneal infecciosa en países desarrollados es el virus herpes simple tipo uno, que se reactiva desde el ganglio del trigémino por fiebre, estrés o inmunosupresión. La lesión que produce es patognomónica: la úlcera dendrítica, una lesión lineal y ramificada, en forma de árbol o de helecho, con pequeños botones en los extremos.' },
+          { t: 'Se tiñe con fluoresceína', d: 'Árbol verde brillante bajo luz azul',
+            say: 'Mira esta córnea teñida con fluoresceína: se ve el árbol verde brillante, con sus ramas y los botones al final. Y en esta otra, la misma lesión desde otro ángulo.',
+            photos: [
+              { src: 'biblioteca/12_oftalmologia/oftal-04/01_ulcera-dendritica-con-fluoresceina__cto-oftalmo_p40.jpg', label: 'Úlcera dendrítica', at: 'Mira esta córnea teñida', credit: 'Manual CTO Oftalmología 14.ª ed., p. 40' },
+              { src: 'biblioteca/12_oftalmologia/oftal-04/01_ulcera-dendritica-con-fluoresceina_alt1__amir-oftalmo_p46.jpg', label: 'Dendrita con fluoresceína', at: 'Y en esta otra', credit: 'Manual AMIR Oftalmología, p. 46' },
+            ] },
           { t: 'Hipoestesia corneal', d: 'La córnea pierde sensibilidad al tacto',
             say: 'Y un dato que se pregunta: la córnea queda hipoestésica, pierde la sensibilidad al tocarla con una torunda de algodón, justo lo opuesto de lo esperado en un ojo tan doloroso.' },
         ] },
@@ -87,26 +93,47 @@ module.exports = {
         { show: ['inf'], note: 'Infiltrado estromal denso',
           say: 'Da un infiltrado corneal blanquecino o amarillento, denso, con un defecto epitelial encima.' },
         { show: ['hip'], note: 'Nivel de pus en la cámara anterior',
-          say: 'Y con frecuencia se forma hipopión de manera precoz, ese nivel de pus estéril en el fondo de la cámara anterior que ya conoces de la primera clase.' },
+          say: 'Y con frecuencia se forma hipopión de manera precoz, ese nivel de pus estéril en el fondo de la cámara anterior que ya conoces de la primera clase. Mira estas dos córneas: el infiltrado blanco denso y, abajo, el nivel de pus en la cámara anterior.',
+          photos: [
+            { src: 'biblioteca/12_oftalmologia/oftal-04/02_ulcera-corneal-con-hipopion__cto-oftalmo_p39.jpg', label: 'Úlcera con hipopión', at: 'Mira estas dos córneas', credit: 'Manual CTO Oftalmología 14.ª ed., p. 39' },
+            { src: 'biblioteca/12_oftalmologia/oftal-04/54_queratitis-bacteriana-hipopion__kanski_p188.jpg', label: 'Queratitis bacteriana grave', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 188" },
+          ] },
         { show: ['ret', 'atb'], note: 'Urgencia visual extrema',
           say: 'El manejo es retirar y guardar los lentes para cultivo, iniciar colirios antibióticos reforzados de amplio espectro, como vancomicina más ceftazidima, o una fluoroquinolona de cuarta generación como moxifloxacino, y derivar el mismo día. Y un detalle importante: este ojo nunca se ocluye con parche.' },
       ],
     },
 
     {
+      type: 'points',
+      kicker: 'La secuela',
+      title: 'Leucoma corneal: la cicatriz que queda',
+      cards: [
+        { title: 'Qué es', tag: 'Cicatriz blanca del estroma', kind: 'criteria', items: [
+          { t: 'Opacidad blanca, estable e indolora', d: 'No capta fluoresceína, sin inyección ciliar',
+            say: 'Toda úlcera que cura deja huella. El leucoma corneal es la cicatriz blanca y densa del estroma, que dejan una queratitis, un trauma, una quemadura química o infecciones como el tracoma, el sarampión o el déficit de vitamina A. Se distingue de una úlcera activa porque es estable, no duele, no tiene inyección ciliar ni infiltrado, y no capta fluoresceína.' },
+          { t: 'La visión baja según tamaño y ubicación', d: 'Adherente: riesgo de glaucoma secundario',
+            say: 'La visión cae según su tamaño y su posición respecto del eje pupilar. Y si el iris queda atrapado en la cicatriz, el leucoma adherente puede dar glaucoma secundario.' },
+        ] },
+        { title: 'Conducta', tag: 'Prevenir y derivar', kind: 'pharma', items: [
+          { t: 'Tratar toda queratitis a tiempo', d: 'Sin corticoides en la fase activa',
+            say: 'No existe tratamiento médico que borre la cicatriz. Lo que sí existe es prevención: tratar toda queratitis de forma precoz, con el antibiótico adecuado y sin corticoides en la fase activa, además de lubricar y proteger el ojo.' },
+          { t: 'Niño con leucoma central: urgencia', d: 'Ambliopía por privación',
+            say: 'En un niño, un leucoma central causa ambliopía por privación, y se deriva con urgencia. En el adulto, se deriva para evaluar queratoplastia, o lentes esclerales y tatuaje corneal, cuando afecta la visión útil.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Úlceras corneales',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Qué se tiñe con fluoresceína',
       images: [
-        { src: 'biblioteca/12_oftalmologia/oftal-04/01_ulcera-dendritica-con-fluoresceina__cto-oftalmo_p40.jpg', label: 'Úlcera dendrítica', credit: 'Manual CTO Oftalmología 14.ª ed., p. 40' },
-        { src: 'biblioteca/12_oftalmologia/oftal-04/02_ulcera-corneal-con-hipopion__cto-oftalmo_p39.jpg', label: 'Úlcera con hipopion', credit: 'Manual CTO Oftalmología 14.ª ed., p. 39' },
+        { src: 'animaciones/oftal-04/A1_fluoresceina.mp4', label: 'Fluoresceína en la córnea', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · capas y rótulos propios' },
       ],
       steps: [
-        { note: 'Herpes: nunca corticoides',
-          say: 'La úlcera dendrítica del herpes se tiñe con fluoresceína. Jamás corticoides.' },
-        { note: 'Pus en la cámara anterior',
-          say: 'Y una úlcera bacteriana con hipopion, pus en la cámara anterior, es una urgencia.' },
+        { note: 'Dendrítica y bacteriana',
+          say: 'Así se ve la tinción con fluoresceína. Con luz azul de cobalto, la úlcera dendrítica del herpes aparece como un árbol verde con botones en los extremos, y se trata con aciclovir, nunca con corticoides. En el usuario de lentes de contacto, un infiltrado blanco con tinción difusa y un nivel de pus, el hipopión, es una queratitis bacteriana por Pseudomonas: antibióticos reforzados, sin parche, y derivación el mismo día.' },
       ],
     },
 
@@ -222,6 +249,44 @@ module.exports = {
         options: 'Las opciones: aciclovir en ungüento, ganciclovir en gel, dexametasona en colirio, ciclopentolato en colirio, o lágrimas artificiales. Piénsalo.',
         answer: 'Es la dexametasona. Es otra vez la dendrita herpética, y la pregunta esta vez no te pide el diagnóstico, te pide identificar lo prohibido. El aciclovir y el ganciclovir son tratamiento correcto; el ciclopentolato, un ciclopléjico, sirve para el dolor; y las lágrimas artificiales no hacen daño. El corticoide es el único que puede convertir esta úlcera pequeña en una perforación corneal.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.02.1.015 · Leucoma corneal",
+      "stem": "Hombre de 50 años con antecedente de úlcera corneal bacteriana en el ojo derecho hace 1 año, tratada. Consulta por visión borrosa persistente de ese ojo. Al examen se observa una opacidad blanca, densa y bien delimitada en el centro de la córnea, que no tiñe con fluoresceína. El ojo está blanco y sin dolor.",
+      "question": "¿Cuál es el diagnóstico y la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Úlcera corneal activa; antibiótico tópico"
+        },
+        {
+          "letter": "B",
+          "text": "Catarata; facoemulsificación"
+        },
+        {
+          "letter": "C",
+          "text": "Leucoma corneal central; derivar a oftalmología para evaluar queratoplastía (trasplante de córnea)"
+        },
+        {
+          "letter": "D",
+          "text": "Pterigion; exéresis"
+        },
+        {
+          "letter": "E",
+          "text": "Queratitis herpética; aciclovir"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El leucoma es una cicatriz corneal blanca y densa, secuela de úlceras, traumas o queratitis. Si es central, disminuye la agudeza visual y en niños puede causar ambliopía. Se diferencia de la úlcera activa porque no tiñe con fluoresceína y el ojo está tranquilo. El tratamiento de un leucoma central que compromete la visión es la queratoplastía.",
+      "say": {
+        "stem": "Hombre de cincuenta años que tuvo una úlcera corneal hace un año y ahora ve borroso, con una opacidad blanca y densa en el centro de la córnea que no tiñe con fluoresceína, ojo blanco y sin dolor.",
+        "question": "¿Cuál es el diagnóstico y la conducta?",
+        "options": "Las opciones: úlcera activa con antibiótico, catarata, leucoma central con derivación para trasplante de córnea, pterigion o queratitis herpética. Piénsalo.",
+        "answer": "Es la C. Es un leucoma, una cicatriz corneal secuela de la úlcera, que si es central se deriva para trasplante de córnea. La catarata tienta porque también es una opacidad blanca, pero está en el cristalino, detrás de la pupila, no en la córnea."
+      }
     },
 
     {

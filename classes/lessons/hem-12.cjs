@@ -52,11 +52,13 @@ module.exports = {
           { t: 'Frotis de sangre periférica', d: 'O repetir en tubo con citrato',
             say: 'Antes de diagnosticar nada, hay un paso de laboratorio que no se salta. Ante toda trombocitopenia aislada en un hemograma automatizado, pides un frotis, o repites la muestra en un tubo con citrato o heparina.' },
           { t: 'Descartar pseudotrombocitopenia', d: 'El EDTA agrupa las plaquetas en grumos',
-            say: '¿Por qué? Porque existe la pseudotrombocitopenia por EDTA. En algunas personas, el anticoagulante del tubo hace que las plaquetas se agrupen en grumos gigantes, y la máquina no los cuenta. El paciente está sano; el error es del tubo.' },
+            say: '¿Por qué? Porque existe la pseudotrombocitopenia por EDTA. En algunas personas, el anticoagulante del tubo hace que las plaquetas se agrupen en grumos gigantes, y la máquina no los cuenta. El paciente está sano; el error es del tubo. Mira este frotis: estos racimos azules son plaquetas agrupadas, que el analizador no cuenta bien.',
+            photo: { src: 'biblioteca/06_hematologia/hem-12/atlas_328_pseudotrombocitopenia_por_edta.jpg', label: 'Pseudotrombocitopenia', at: 'Mira este frotis', credit: 'Atlas EUNACOM 2026' } },
         ] },
         { title: 'El paciente con PTI', tag: 'Examen físico normal', kind: 'key', items: [
           { t: 'Solo púrpura mucocutáneo', d: 'Petequias, equimosis, sangrado de mucosas',
-            say: 'El segundo pilar es el examen físico. En la PTI el paciente está bien, y lo único que encuentras son las manifestaciones del sangrado: petequias, equimosis y sangrado de mucosas, como epistaxis o gingivorragia.' },
+            say: 'El segundo pilar es el examen físico. En la PTI el paciente está bien, y lo único que encuentras son las manifestaciones del sangrado: petequias, equimosis y sangrado de mucosas, como epistaxis o gingivorragia. Mira estas piernas: puntos rojos que no desaparecen al presionar.',
+            photo: { src: 'biblioteca/06_hematologia/hem-12/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg', label: 'Petequias', at: 'Mira estas piernas', credit: 'Manual AMIR Hematología, p. 89' } },
           { t: 'Bazo no palpable', d: 'Sin adenopatías ni fiebre',
             say: 'Y el bazo no se palpa. Aunque el bazo destruye las plaquetas, no crece. Este es el dato semiológico clave del tema.' },
         ] },
@@ -249,18 +251,6 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Trombocitopenia',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-12/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg', label: 'Petequias', credit: 'Manual AMIR Hematología, p. 89' },
-      ],
-      steps: [
-        { note: 'Puntos rojos que no blanquean',
-          say: 'Las petequias son puntos rojos que no desaparecen al presionar. Indican un problema de plaquetas.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -380,6 +370,44 @@ module.exports = {
         options: 'Las opciones son: corticoides a un miligramo por kilo, transfusión de plaquetas, terapia biológica, amoxicilina, o ibuprofeno. Piénsalo.',
         answer: 'Es la A, corticoides. Cinco mil plaquetas está muy bajo el corte, así que se trata, y la primera línea son los corticoides. El distractor es la transfusión de plaquetas, porque el número asusta; pero sin sangrado grave es inútil, ya que el bazo las destruye en minutos. La terapia biológica, como el rituximab, es de segunda línea. Y el ibuprofeno está contraindicado.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.2.009 · Trombopenia severa",
+      "stem": "Hombre de 40 años, previamente sano, consulta en urgencia por epistaxis profusa que no cede con taponamiento anterior, gingivorragia y hematuria macroscópica de 12 horas. PA 118/72 mmHg, FC 98 lpm, lúcido, sin focalidad neurológica. Petequias y equimosis diseminadas, sin adenopatías ni esplenomegalia. Hb 11,8 g/dL, leucocitos 7.200/µL, plaquetas 4.000/µL (confirmadas en frotis, sin esquistocitos). TP y TTPK normales.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prednisona 1 mg/kg/día oral y control ambulatorio en una semana"
+        },
+        {
+          "letter": "B",
+          "text": "Hospitalizar, metilprednisolona EV en dosis altas, inmunoglobulina EV y transfusión de plaquetas"
+        },
+        {
+          "letter": "C",
+          "text": "Esplenectomía de urgencia"
+        },
+        {
+          "letter": "D",
+          "text": "Plasmaféresis urgente"
+        },
+        {
+          "letter": "E",
+          "text": "Transfundir plasma fresco congelado"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Trombocitopenia aislada severa con frotis sin esquistocitos y coagulación normal: PTI con sangrado mucoso activo de riesgo. Es una urgencia: se hospitaliza, se dan corticoides EV en dosis altas más inmunoglobulina EV y, por el sangrado activo, plaquetas. El manejo ambulatorio solo corresponde sin sangrado relevante; la plasmaféresis es para PTT.",
+      "say": {
+        "stem": "Un hombre de cuarenta años llega con epistaxis que no cede, gingivorragia y hematuria. Tiene plaquetas de cuatro mil, sin esquistocitos en el frotis, con hemoglobina, leucocitos y coagulación normales.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: prednisona oral ambulatoria, hospitalizar con corticoides endovenosos, inmunoglobulina y plaquetas, esplenectomía de urgencia, plasmaféresis, o plasma fresco. Piénsalo.",
+        "answer": "Es la B. Es un púrpura trombocitopénico inmune con sangrado activo, y eso exige hospitalizar y combinar corticoides endovenosos, inmunoglobulina y plaquetas. La prednisona ambulatoria tienta porque es la primera línea del púrpura inmune, pero no sirve cuando el paciente está sangrando."
+      }
     },
 
     {

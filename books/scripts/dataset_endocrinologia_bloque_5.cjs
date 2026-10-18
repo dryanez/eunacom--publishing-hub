@@ -81,6 +81,13 @@ const bloque5 = [
           "Protocolo Diagnóstico Triple Mandatorio ante cualquier Masa Selar: 1) RM de Silla Turca ponderada en T1/T2 con y sin gadolinio; 2) Campimetría Visual Computarizada formal para documentar daño de fibras quiasmáticas; 3) Evaluación Hormonal Completa: Prolactina sérica (descartar prolactinoma o hiperprolactinemia por desconexión de tallo), IGF-1 (acromegalia), cortisol matinal + ACTH (Cushing o insuficiencia suprarrenal), TSH + T4L (hipotiroidismo central) y FSH/LH + Testosterona/Estradiol.",
           "Conducta Terapéutica: Si es Macroadenoma no funcionante con compresión quiasmática: Cirugía de Resección Transesfenoidal Endoscópica. Si es Incidentaloma < 10 mm asintomático no funcionante: seguimiento con RM anual sin cirugía. REGLA DE ORO: Si la masa resulta ser un PROLACTINOMA, la cirugía NO es la primera opción; el tratamiento de entrada es MÉDICO con agonistas dopaminérgicos (Cabergolina)."
         ]
+      },
+      {
+        "subhead": "4. Campo Visual por Confrontación: Técnica en la Consulta",
+        "paragraphs": [
+          "El <strong>campo visual por confrontación</strong> es el examen de campo visual que realiza el médico general frente a toda sospecha de masa selar, cefalea con síntomas visuales o ACV. Técnica: el examinador se sienta frente al paciente a una distancia de 50 cm a 1 metro, con los ojos a la misma altura. Se examina <strong>cada ojo por separado</strong>: el paciente se tapa un ojo con la palma (por ejemplo, el izquierdo) y el examinador cierra su propio ojo opuesto (el derecho), de modo que ambos campos visuales se superpongan y el del examinador sirva de control normal. El paciente mira fijamente el ojo abierto del examinador, sin desviar la mirada.",
+          "El estímulo se presenta en los <strong>cuatro cuadrantes</strong>, en un plano equidistante entre ambos y desde la periferia hacia el centro: contar dedos (uno, dos o cinco) o detectar un dedo en movimiento o un objeto rojo (la cabeza roja de un alfiler, más sensible para lesiones del quiasma: el rojo se ve «desteñido» en el hemicampo afectado); también se comparan ambos hemicampos a cada lado de la línea media vertical. Interpretación: la <strong>hemianopsia bitemporal</strong> (al inicio, cuadrantanopsia temporal superior, porque el adenoma comprime el quiasma desde abajo) sugiere masa selar; la hemianopsia homónima, una lesión retroquiasmática (ACV o tumor); y el defecto de un solo ojo, una lesión del ojo o del nervio óptico. Es un examen de tamizaje de baja sensibilidad: un resultado normal no descarta un defecto, por lo que toda masa selar o alteración detectada requiere campimetría computarizada formal en oftalmología."
+        ]
       }
     ],
     "table": {
@@ -567,6 +574,14 @@ const bloque5 = [
           "Fundamento Fisiopatológico de la Regla: Si se administra hormona tiroidea (levotiroxina) a un paciente con panhipopituitarismo sin haber reemplazado previamente el cortisol, el aumento del metabolismo celular basal inducido por la T4 acelera el aclaramiento hepático de las escasas moléculas circulantes de cortisol residual, precipitando una CRISIS SUPRARRENAL AGUDA FULMINANTE Y POTENCIALMENTE MORTAL con shock circulatorio en menos de 24-48 horas.",
           "Secuencia Correcta: 1) Iniciar Hidrocortisona oral (15-20 mg/día); 2) Transcurridas 24 a 48 horas de adecuado reemplazo glucocorticoide, iniciar Levotiroxina (50-100 mcg/día); 3) Añadir reemplazo estrogénico/androgénico según edad y deseo de fertilidad; 4) REGLA DE MONITOREO TIROIDEO: En el hipotiroidismo central la TSH NO SIRVE para monitorear la dosis de levotiroxina (permanecerá siempre baja); la dosis se titula EXCLUSIVAMENTE guiándose por los niveles séricos de T4 LIBRE (buscando mantenerla en el tercio medio-alto de la normalidad)."
         ]
+      },
+      {
+        "subhead": "4. Hipogonadismo Masculino: Primario vs Secundario y Reemplazo con Testosterona",
+        "paragraphs": [
+          "El <strong>hipogonadismo masculino</strong> es el síndrome clínico por déficit de testosterona, de la espermatogénesis o de ambos. Se sospecha ante disminución de la libido y de las erecciones matinales, disfunción eréctil, ginecomastia, pérdida de vello corporal, <strong>testículos pequeños</strong> (< 15 mL) o blandos, infertilidad, osteoporosis o fracturas por fragilidad, anemia leve, fatiga y aumento de grasa visceral. Si se inicia antes de la pubertad produce retraso puberal con proporciones eunucoides (envergadura mayor que la talla en más de 5 cm) y voz infantil.",
+          "Diagnóstico: <strong>testosterona total matinal</strong> (entre 7 y 11 horas, en ayunas) baja en al menos dos mediciones (< 300 ng/dL aproximadamente) y luego LH y FSH. 1) <strong>Primario (hipergonadotropo)</strong>: testosterona baja con LH y FSH ALTAS. Causas: síndrome de Klinefelter 47,XXY (la causa genética más frecuente: testículos pequeños y firmes, talla alta, ginecomastia y azoospermia; se confirma con cariotipo), orquitis urliana, criptorquidia, quimioterapia o radioterapia, y trauma o torsión testicular. 2) <strong>Secundario (hipogonadotropo)</strong>: testosterona baja con LH y FSH bajas o inapropiadamente normales. Causas: hiperprolactinemia (prolactinoma), tumores selares e hipopituitarismo, hemocromatosis, síndrome de Kallmann (con anosmia), uso de opioides, corticoides o esteroides anabolizantes, obesidad severa, diabetes mal controlada y enfermedad sistémica grave. En el secundario siempre se mide prolactina y ferritina, y se solicita RM de silla turca si la prolactina está alta, hay otros déficits hipofisarios o síntomas de masa selar.",
+          "Tratamiento y seguimiento: primero se trata la causa (suspender opioides o anabolizantes, bajar de peso, cabergolina en el prolactinoma). La <strong>terapia con testosterona</strong> (gel transdérmico diario o inyecciones intramusculares de undecanoato cada 10-14 semanas o de enantato cada 2-3 semanas) se indica solo con hipogonadismo confirmado clínica y bioquímicamente. Está contraindicada en el cáncer de próstata o de mama, ante un nódulo prostático o APE > 4 ng/mL sin estudio urológico, hematocrito > 50%, insuficiencia cardíaca descompensada, apnea del sueño grave no tratada y en quien desea fertilidad a corto plazo (la testosterona suprime la espermatogénesis; el hipogonadismo secundario con deseo de fertilidad se trata con gonadotropinas por el especialista). <strong>Seguimiento</strong>: a los 3-6 meses y luego cada año, con testosterona (meta en rango medio normal), hematocrito (reducir o suspender si supera 54%), APE y tacto rectal desde los 40 años, densitometría si había osteoporosis y evaluación de la respuesta clínica."
+        ]
       }
     ],
     "table": {
@@ -794,6 +809,212 @@ const bloque5 = [
         "correcta": "B",
         "explicacion": "El cuadro clínico y la constelación familiar corresponden de manera inequívoca a un Síndrome de Neoplasia Endocrina Múltiple tipo 1 (NEM 1 o Síndrome de Wermer). Este síndrome autosómico dominante está causado por mutaciones germinales inactivadoras en el gen supresor de tumores MEN1, ubicado en el cromosoma 11q13, el cual codifica para la proteína menina. Se caracteriza clínicamente por la presencia combinada de la clásica tríada de las 3 'P': 1) Paratiroides (hiperparatiroidismo primario en > 95% de los portadores); 2) Páncreas / tracto gastroenteropancreático (gastrinomas, insulinomas); y 3) Pituitaria o hipófisis anterior (prolactinomas y somatotropinomas). Las mutaciones del gen RET causan NEM 2A y 2B.",
         "recTag": "EUNACOM Diciembre 2020 (Q#28)"
+      }
+    ]
+  },
+  {
+    "id": "endo-25",
+    "classId": "endo-25",
+    "tier": 2,
+    "blockNum": 5,
+    "blockName": "Bloque 5 · Hipófisis, Hipotálamo, Neuroendocrinología y MEN",
+    "topicLabel": "7.25",
+    "title": "Ginecomastia: Fisiológica, Farmacológica y Patológica",
+    "perfilCode": "1.03.1.023",
+    "dx": "Disco glandular retroareolar ≥ 2 cm (no grasa) · examen testicular obligatorio · si es patológica: perfil hepático, creatinina, TSH, testosterona, LH, FSH, estradiol y β-hCG",
+    "tx": "Puberal: tranquilizar y observar · Farmacológica: suspender o cambiar el fármaco (espironolactona → eplerenona) · Tratar la causa · Tamoxifeno solo por especialista",
+    "seg": "Control a los 6 meses en el púber; derivar a endocrinología si el estudio es anormal, a cirugía si es fibrosa > 1-2 años, y con urgencia si se sospecha cáncer de mama o tumor testicular",
+    "ges": "Sin garantía GES específica · Sospecha de cáncer de mama o tumor testicular: derivación oncológica prioritaria",
+    "reconstrucciones": [
+      "EUNACOM Julio 2025 (Q#45)"
+    ],
+    "frecuencia": "MEDIA",
+    "svg": null,
+    "algoTitle": "Enfrentamiento de la Ginecomastia en Atención Primaria",
+    "diagramRows": [
+      {
+        "k": "box",
+        "t": "Aumento de volumen mamario en un varón",
+        "s": "¿Disco glandular retroareolar ≥ 2 cm o solo grasa? · Examinar ambas mamas, axilas y testículos",
+        "type": "warn"
+      },
+      {
+        "k": "split",
+        "q": "¿Tiene rasgos de cáncer de mama o masa testicular?",
+        "al": "Banderas rojas",
+        "left": {
+          "t": "Sí: masa mamaria dura o masa testicular",
+          "s": "Mama: mamografía o ecografía + biopsia · Testículo: β-hCG, AFP y ecografía · Derivar urgente",
+          "type": "crit"
+        },
+        "right": {
+          "t": "No: disco blando y centrado",
+          "s": "A veces sensible · Definir si es fisiológica, farmacológica o patológica",
+          "type": "acc"
+        }
+      },
+      {
+        "k": "split",
+        "q": "¿Púber con examen normal o fármaco causante identificado?",
+        "al": "Etiología",
+        "left": {
+          "t": "Sí: puberal o farmacológica",
+          "s": "Observar 6 meses (regresa en 1-2 años) · Suspender o cambiar el fármaco",
+          "type": "acc"
+        },
+        "right": {
+          "t": "No: adulto sin causa o > 5 cm",
+          "s": "O crecimiento rápido · Perfil hepático, creatinina y TSH · Testosterona, LH, FSH, estradiol y β-hCG",
+          "type": "dec"
+        }
+      }
+    ],
+    "contexto": "La ginecomastia es el motivo de consulta mamario más frecuente en el varón y es, casi siempre, benigna. Tiene tres picos fisiológicos —neonatal, puberal y del adulto mayor— y su causa adquirida más común son los fármacos, con la espironolactona a la cabeza. El desafío para el médico general es triple: distinguirla de la seudoginecomastia (grasa), no pasar por alto un cáncer de mama masculino ni un tumor testicular productor de estrógenos o de hCG, y no sobreestudiar al adolescente sano, en quien basta tranquilizar y controlar. EUNACOM pregunta la conducta en la ginecomastia puberal, el fármaco causante y el estudio hormonal escalonado.",
+    "contentSections": [
+      {
+        "subhead": "1. Definición, Fisiopatología y Diagnóstico Diferencial",
+        "paragraphs": [
+          "La <strong>ginecomastia</strong> es la proliferación benigna del tejido glandular de la mama en el varón. Se palpa como un <strong>disco firme o elástico, concéntrico al pezón, de 2 cm o más</strong>, uni o bilateral, a veces sensible. Se produce por un desbalance entre estrógenos, que estimulan el tejido mamario, y andrógenos, que lo inhiben: exceso de estrógenos (o de su formación por aromatización periférica de andrógenos en el tejido adiposo), déficit de testosterona o fármacos que bloquean el receptor androgénico.",
+          "Diagnóstico diferencial: 1) <strong>Seudoginecomastia (lipomastia)</strong>: aumento de grasa sin tejido glandular, propio de la obesidad; al tomar la mama en pinza entre el pulgar y el índice y acercar los dedos hacia el pezón no se encuentra un disco retroareolar. 2) <strong>Cáncer de mama masculino</strong>: masa unilateral, dura, indolora, excéntrica (no centrada bajo el pezón) o fija, con retracción del pezón, secreción sanguinolenta, ulceración o adenopatía axilar; es más frecuente después de los 60 años y en el síndrome de Klinefelter o portadores de BRCA2, y obliga a mamografía o ecografía y biopsia."
+        ]
+      },
+      {
+        "subhead": "2. Etiología: Fisiológica, Farmacológica y Patológica",
+        "paragraphs": [
+          "<strong>Fisiológica</strong> (distribución trimodal): neonatal (60-90% de los recién nacidos, por estrógenos maternos; regresa en semanas), <strong>puberal</strong> (hasta la mitad o más de los varones entre Tanner 2 y 4, a menudo bilateral y sensible, que regresa sola en 6 meses a 2 años en más del 90%) y del adulto mayor (por descenso de testosterona y mayor aromatización en el tejido graso).",
+          "<strong>Fármacos y drogas</strong> (10-25% de los casos): espironolactona (la más típica), ketoconazol, cimetidina, antiandrógenos y análogos de GnRH usados en el cáncer de próstata, estrógenos, finasterida y dutasterida, digoxina, metronidazol, antirretrovirales (efavirenz), antipsicóticos y metoclopramida (por hiperprolactinemia), esteroides anabolizantes, alcohol, marihuana y opioides. <strong>Enfermedades</strong>: cirrosis hepática, enfermedad renal crónica en diálisis, hipertiroidismo, hipogonadismo primario (Klinefelter) o secundario, realimentación tras desnutrición, tumores testiculares productores de estrógenos (células de Leydig o de Sertoli) o de hCG (tumores germinales, coriocarcinoma), tumores con hCG ectópica (pulmón, hígado) y tumores suprarrenales feminizantes. Cerca de un cuarto queda como idiopática."
+        ]
+      },
+      {
+        "subhead": "3. Estudio Escalonado, Tratamiento Inicial y Criterios de Derivación",
+        "paragraphs": [
+          "Evaluación clínica: preguntar el tiempo de evolución y la velocidad de crecimiento, el dolor, todos los fármacos, el alcohol, las drogas y los anabolizantes, y síntomas de hipogonadismo, hipertiroidismo, hepatopatía o nefropatía. Al examen se mide el diámetro del disco, se examinan ambas mamas y axilas, se buscan estigmas de daño hepático y el <strong>examen testicular es obligatorio</strong> (tamaño, consistencia y masas). En el <strong>adolescente puberal con examen normal</strong> (testículos normales, sin fármacos ni otros hallazgos) no se piden exámenes: se tranquiliza y se controla a los 6 meses.",
+          "Exámenes si se sospecha ginecomastia patológica (adulto sin causa evidente, crecimiento rápido, disco > 5 cm, inicio reciente doloroso en el adulto, o púber con testículos anormales o ginecomastia que persiste más de 2 años): perfil hepático, creatinina, TSH, <strong>testosterona total, LH, FSH, estradiol y β-hCG</strong>, y prolactina si hay galactorrea o sospecha de hipogonadismo secundario. Interpretación: β-hCG elevada → ecografía testicular (tumor germinal) y, si es normal, TC de tórax y abdomen; estradiol alto con LH normal o baja → ecografía testicular (tumor de Leydig) y TC suprarrenal; testosterona baja con LH alta → hipogonadismo primario (cariotipo si se sospecha Klinefelter); testosterona baja con LH baja → hipogonadismo secundario (prolactina y RM de silla turca).",
+          "Tratamiento inicial: suspender o cambiar el fármaco causante (por ejemplo, espironolactona por eplerenona) y tratar la enfermedad de base; la regresión es más probable si se actúa antes de 12 meses, porque después el tejido se fibrosa. La ginecomastia puberal solo se observa. En la ginecomastia dolorosa de menos de un año, o para prevenir la inducida por antiandrógenos en el cáncer de próstata, el especialista puede indicar tamoxifeno 10-20 mg/día por 3 meses. <strong>Derivar</strong>: a endocrinología, la ginecomastia patológica con estudio alterado o sin causa aclarada; a cirugía (mastectomía subcutánea con o sin liposucción), la ginecomastia fibrosa de más de 1-2 años o con impacto psicológico importante; y con urgencia, la sospecha de cáncer de mama o de tumor testicular."
+        ]
+      }
+    ],
+    "table": {
+      "title": "Ginecomastia: Tipo, Dato Clave y Conducta del Médico General",
+      "headers": [
+        "Tipo",
+        "Dato Clínico Clave",
+        "Conducta Inicial",
+        "Cuándo Derivar"
+      ],
+      "rows": [
+        [
+          "Neonatal",
+          "Recién nacido, por estrógenos maternos",
+          "Tranquilizar; no exprimir",
+          "No requiere"
+        ],
+        [
+          "Puberal",
+          "Tanner 2-4, bilateral o unilateral, sensible, testículos normales",
+          "Tranquilizar y control a los 6 meses",
+          "Persiste > 2 años, > 5 cm o testículos anormales"
+        ],
+        [
+          "Farmacológica",
+          "Espironolactona, antiandrógenos, ketoconazol, anabolizantes",
+          "Suspender o cambiar el fármaco",
+          "Persiste o es fibrosa: cirugía"
+        ],
+        [
+          "Por enfermedad sistémica",
+          "Cirrosis, ERC, hipertiroidismo",
+          "Tratar la causa",
+          "Según la enfermedad de base"
+        ],
+        [
+          "Hipogonadismo",
+          "Testículos pequeños, libido baja; LH alta (primario) o baja (secundario)",
+          "Testosterona, LH, FSH; cariotipo o prolactina",
+          "Endocrinología"
+        ],
+        [
+          "Tumoral (testículo, hCG)",
+          "Crecimiento rápido, masa testicular, β-hCG o estradiol altos",
+          "β-hCG, AFP y ecografía testicular",
+          "Urgente: urología/oncología"
+        ],
+        [
+          "Cáncer de mama (diferencial)",
+          "Masa dura, excéntrica, fija, retracción, secreción sanguinolenta",
+          "Mamografía o ecografía y biopsia",
+          "Urgente: cirugía/oncología"
+        ]
+      ]
+    },
+    "vignette": "Hombre de 63 años con insuficiencia cardíaca con fracción de eyección reducida, en tratamiento con enalapril, bisoprolol, furosemida y espironolactona 25 mg/día desde hace 8 meses, consulta por aumento de volumen doloroso de ambas mamas de 4 meses de evolución. Al examen se palpa bajo ambas areolas un disco firme, móvil, centrado en el pezón, de 3 cm, sensible, sin retracción ni secreción del pezón ni adenopatías axilares. Los testículos miden 20 mL, son simétricos y no tienen masas. No hay estigmas de daño hepático. El perfil hepático, la creatinina y la TSH son normales.",
+    "explicacion": "Es una ginecomastia farmacológica por espironolactona, que bloquea el receptor androgénico y aumenta la conversión de testosterona a estradiol. El disco es concéntrico, bilateral y sensible, sin rasgos de cáncer de mama y con testículos normales, por lo que no se requiere biopsia ni estudio hormonal extenso. La conducta es cambiar la espironolactona por eplerenona, un antagonista mineralocorticoide selectivo que conserva el beneficio pronóstico en la insuficiencia cardíaca y casi no produce ginecomastia, y controlar la regresión en los meses siguientes. Si persiste más de 12 a 24 meses y se vuelve fibrosa, ya no regresa con medidas médicas y se deriva a cirugía.",
+    "keyPoints": [
+      "Ginecomastia es tejido glandular: disco retroareolar ≥ 2 cm, concéntrico al pezón. La seudoginecomastia es solo grasa, sin disco.",
+      "Tiene tres picos fisiológicos: neonatal, puberal (Tanner 2-4, regresa en 1-2 años) y adulto mayor.",
+      "En el púber con examen testicular normal y sin fármacos no se piden exámenes: tranquilizar y controlar a los 6 meses.",
+      "La espironolactona es el fármaco causante más típico; se reemplaza por eplerenona.",
+      "El examen testicular es obligatorio: un tumor de Leydig o un tumor germinal productor de hCG puede debutar con ginecomastia.",
+      "Estudio de la ginecomastia patológica: perfil hepático, creatinina, TSH, testosterona, LH, FSH, estradiol y β-hCG.",
+      "Masa dura, excéntrica, fija o unilateral con retracción o secreción sanguinolenta: sospechar cáncer de mama masculino y biopsiar.",
+      "Después de 12 meses el tejido se fibrosa y ya no regresa con fármacos: la solución es quirúrgica."
+    ],
+    "questions": [
+      {
+        "stem": "Adolescente de 14 años consulta por aumento bilateral del tejido mamario bajo la areola, sensible al tacto y sin secreción. No usa medicamentos. Su desarrollo puberal es Tanner 3 y el examen testicular es normal. ¿Cuál es el diagnóstico y la conducta más adecuados?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ginecomastia puberal fisiológica; tranquilizar y observar"
+          },
+          {
+            "id": "B",
+            "text": "Cáncer de mama masculino; biopsia urgente"
+          },
+          {
+            "id": "C",
+            "text": "Hiperprolactinemia; solicitar prolactina"
+          },
+          {
+            "id": "D",
+            "text": "Hipogonadismo; solicitar testosterona"
+          },
+          {
+            "id": "E",
+            "text": "Tumor testicular; solicitar ecografía testicular"
+          }
+        ],
+        "correcta": "A",
+        "explicacion": "La ginecomastia puberal aparece en la mitad o más de los varones entre Tanner 2 y 4; es bilateral, subareolar, a veces sensible, y regresa sola en 1 a 2 años. Se examinan los testículos y se revisan fármacos y drogas; si todo es normal, basta tranquilizar y controlar a los 6 meses. El cáncer de mama es excepcional a esta edad y, sin masa testicular, no se justifica estudiar un tumor.",
+        "recTag": "EUNACOM Julio 2025 · Pregunta 45"
+      },
+      {
+        "stem": "Hombre de 26 años consulta por aumento de volumen de la mama izquierda, levemente doloroso, que ha crecido rápidamente en los últimos 2 meses. No usa fármacos, alcohol ni anabolizantes. Al examen se palpa un disco retroareolar de 4 cm, blando y centrado bajo el pezón, sin adenopatías. El testículo derecho está aumentado de volumen, duro e indoloro. ¿Cuál es el estudio inicial más adecuado?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Mamografía y biopsia core de la mama izquierda"
+          },
+          {
+            "id": "B",
+            "text": "β-hCG, alfafetoproteína y ecografía testicular"
+          },
+          {
+            "id": "C",
+            "text": "Prolactina y resonancia magnética de silla turca"
+          },
+          {
+            "id": "D",
+            "text": "Tamoxifeno 20 mg/día y control en 3 meses"
+          },
+          {
+            "id": "E",
+            "text": "Cariotipo para descartar síndrome de Klinefelter"
+          }
+        ],
+        "correcta": "B",
+        "explicacion": "Una ginecomastia de crecimiento rápido en un adulto joven con una masa testicular dura e indolora sugiere un tumor testicular productor de hCG (tumor germinal) o de estrógenos (tumor de Leydig). El paso siguiente es medir β-hCG y alfafetoproteína y pedir una ecografía testicular, para derivar con urgencia a urología. El disco blando y centrado no sugiere cáncer de mama, y dar tamoxifeno sin estudiar la causa retrasa el diagnóstico de un cáncer testicular.",
+        "recTag": "Banco Oficial AEE"
       }
     ]
   }

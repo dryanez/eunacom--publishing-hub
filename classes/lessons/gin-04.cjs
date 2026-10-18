@@ -31,17 +31,20 @@ module.exports = {
       ],
       steps: [
         { show: ['mio'], note: 'El tumor benigno más común del aparato genital',
-          say: 'Empecemos por la clasificación, porque es lo que ordena toda la clase. El mioma es el tumor benigno sólido más frecuente del aparato genital femenino, y la clasificación FIGO lo ubica según su relación con la cavidad y la serosa.' },
+          say: 'Empecemos por la clasificación, porque es lo que ordena toda la clase. El mioma es el tumor benigno sólido más frecuente del aparato genital femenino, y la clasificación FIGO lo ubica según su relación con la cavidad y la serosa. Mira este esquema: del grado cero al dos son submucosos, y hacia afuera están los intramurales y los subserosos.',
+          photo: { src: 'biblioteca/13_ginecologia/gin-04/S1_figo-miomas__propio.svg', label: 'Clasificación FIGO', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['sub'], note: 'Grados cero, uno y dos',
           say: 'El submucoso está en contacto con la cavidad endometrial.' },
         { show: ['sang'], note: 'Por eso sangra y por eso da infertilidad',
           say: 'Y por estar ahí, distorsiona la cavidad: es el que más sangra, y el que más se asocia a infertilidad.' },
         { show: ['intra'], note: 'El grupo intermedio',
-          say: 'El intramural está dentro del espesor del miometrio, sin tocar la cavidad ni la serosa; su impacto depende de qué tan cerca está de cada una.' },
+          say: 'El intramural está dentro del espesor del miometrio, sin tocar la cavidad ni la serosa; su impacto depende de qué tan cerca está de cada una. Mira este mioma intramural en una laparoscopía: abulta la pared del útero, pero el endometrio queda intacto.',
+          photo: { src: 'biblioteca/13_ginecologia/gin-04/01_mioma-intramural-miomas-multiples__cto-gyo_p63.jpg', label: 'Mioma intramural', at: 'Mira este mioma intramural', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 63' } },
         { show: ['subs'], note: 'Hacia afuera del útero',
           say: 'Y el subseroso crece hacia la cavidad peritoneal.' },
         { show: ['comp'], note: 'No sangra más, pero comprime',
-          say: 'Ese no aumenta el sangrado, porque no toca el endometrio, pero puede comprimir la vejiga o el recto vecinos, dando síntomas urinarios o digestivos. Guarda esta regla: mientras más cerca de la cavidad, más sangra; mientras más hacia afuera, más comprime.' },
+          say: 'Ese no aumenta el sangrado, porque no toca el endometrio, pero puede comprimir la vejiga o el recto vecinos, dando síntomas urinarios o digestivos. Mira esta tomografía de pelvis: el mioma, delimitado en amarillo, ocupa el espacio de atrás y aplasta el recto. Guarda esta regla: mientras más cerca de la cavidad, más sangra; mientras más hacia afuera, más comprime.',
+          photo: { src: 'biblioteca/13_ginecologia/gin-04/02_leiomiomas-tc_1__cto-radiologia_p138.jpg', label: 'Mioma que comprime el recto', at: 'Mira esta tomografía de pelvis', credit: 'Manual CTO Radiología 14.ª ed., p. 138' } },
       ],
     },
 
@@ -52,7 +55,8 @@ module.exports = {
       cards: [
         { title: 'Asintomático', tag: 'Más de la mitad', kind: 'normal', items: [
           { t: 'Hallazgo ecográfico', d: 'No requiere tratamiento',
-            say: 'Y aquí va el primer punto importante: más de la mitad de los miomas son completamente asintomáticos, y se encuentran como hallazgo en una ecografía pedida por otro motivo.' },
+            say: 'Y aquí va el primer punto importante: más de la mitad de los miomas son completamente asintomáticos, y se encuentran como hallazgo en una ecografía pedida por otro motivo. Mira esta ecografía transvaginal: el útero, la vejiga abajo y el mioma, una masa redonda y bien delimitada en la pared.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-04/03_mioma-eco-transvaginal__commons.jpg', label: 'Mioma en ecografía', at: 'Mira esta ecografía transvaginal', credit: 'Wikimedia Commons, CC0' } },
         ] },
         { title: 'Sintomático', tag: 'Cuando sí da la cara', kind: 'alert', items: [
           { t: 'Hemorragia uterina anormal', d: 'El síntoma más frecuente cuando aparece',
@@ -64,6 +68,45 @@ module.exports = {
           { t: 'Glándulas endometriales en el miometrio', d: 'Útero aumentado, doloroso y globuloso',
             say: 'Y antes de seguir, un diferencial que el examen cruza todo el tiempo con el mioma: la adenomiosis, glándulas endometriales que quedan atrapadas dentro del miometrio, dando un útero aumentado de tamaño, doloroso y globuloso, con dismenorrea severa. La vamos a desarrollar en detalle en la próxima clase, junto con la endometriosis.' },
         ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Examen físico',
+      title: 'Tacto ginecológico: cómo se hace',
+      cards: [
+        { title: 'Tacto bimanual', tag: 'Litotomía y vejiga vacía', kind: 'key', items: [
+          { t: 'Primero vulva y glándulas, después los dedos', d: 'Bartolino y Skene; mano abdominal comprime el hipogastrio',
+            say: 'El tacto ginecológico se hace con la paciente en posición de litotomía, con la vejiga vacía, explicando cada paso y con guantes lubricados. Primero se examina la vulva y se palpan las glándulas de Bartolino y de Skene. Luego se introducen el índice y el medio en la vagina, mientras la otra mano comprime el hipogastrio: eso es el tacto bimanual.' },
+          { t: 'Útero y anexos', d: 'Posición, tamaño, forma, consistencia, movilidad y dolor',
+            say: 'Con el útero describes posición, tamaño, forma, consistencia, movilidad y dolor. Con los anexos, cualquier masa: su tamaño, consistencia, movilidad y dolor. Y los fondos de saco: un abombamiento doloroso del Douglas es un absceso o un hemoperitoneo.' },
+        ] },
+        { title: 'Tacto rectovaginal y masas', tag: 'Septum, uterosacros y parametrios', kind: 'criteria', items: [
+          { t: 'Evalúa lo que el vaginal no alcanza', d: 'Septum rectovaginal, ligamentos uterosacros, parametrios',
+            say: 'El tacto rectovaginal evalúa el septum rectovaginal, los ligamentos uterosacros y los parametrios, y por eso es el examen para ver la extensión del cáncer cervicouterino.' },
+          { t: 'Masas que comprimen', d: 'Retención urinaria o hidronefrosis',
+            say: 'Y ojo con las masas grandes: un mioma grande, un útero grávido retroverso incarcerado o una masa pelviana pueden comprimir la uretra o los uréteres, y dar retención urinaria o hidronefrosis. El tacto identifica la masa causal, y se complementa con ecografía.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'table',
+      kicker: 'Tacto bimanual',
+      title: 'Qué sientes en el útero y qué significa',
+      head: ['Hallazgo al tacto', 'Orienta a', 'Clave'],
+      rows: [
+        { cells: ['Aumentado, irregular, duro', 'Miomatosis', 'Generalmente indoloro'],
+          say: 'Ahora, qué significa lo que palpas. Un útero aumentado, irregular y duro es una miomatosis, y generalmente es indoloro.' },
+        { cells: ['Globuloso, blando', 'Adenomiosis', 'Doloroso, con dismenorrea'],
+          say: 'Si es globuloso, blando y doloroso, piensa en adenomiosis.' },
+        { cells: ['Blando y aumentado de tamaño', 'Embarazo', 'Descartar con beta hCG'],
+          say: 'Si es blando y aumentado de tamaño, en una mujer en edad fértil, primero descarta un embarazo.' },
+        { cells: ['Fijo, con nódulos uterosacros', 'Endometriosis profunda', 'Dolor al tacto rectovaginal'],
+          say: 'Un útero fijo, con nódulos en los ligamentos uterosacros, es endometriosis profunda.' },
+        { cells: ['Dolor al movilizar el cuello', 'Enfermedad inflamatoria pélvica', 'Fondo de saco abombado: absceso'],
+          say: 'Y el dolor al movilizar el cuello es el signo de la enfermedad inflamatoria pélvica; si además el fondo de saco de Douglas abomba, sospecha un absceso o un hemoperitoneo.' },
       ],
     },
 
@@ -126,7 +169,8 @@ module.exports = {
         ] },
         { title: 'Paridad cumplida', tag: 'Histerectomía', kind: 'alert', items: [
           { t: 'Tratamiento curativo definitivo', d: 'En la paciente que ya no busca hijos',
-            say: 'Y en la paciente sintomática con paridad ya cumplida, el tratamiento curativo definitivo es la histerectomía total.' },
+            say: 'Y en la paciente sintomática con paridad ya cumplida, el tratamiento curativo definitivo es la histerectomía total. Mira este útero con un mioma gigante, sacado en una laparotomía.',
+            photo: { src: 'biblioteca/13_ginecologia/gin-04/01_mioma-intramural-miomas-multiples_alt2__amir-gyo_p121.jpg', label: 'Útero con mioma gigante', at: 'Mira este útero con un mioma gigante', credit: 'Manual AMIR Ginecología, p. 121' } },
           { t: 'Análogos de GnRH', d: 'Solo como puente antes de la cirugía',
             say: 'Los análogos de GnRH reducen el tamaño del mioma, pero se usan solo por unos meses, como preparación antes de la cirugía, nunca como tratamiento definitivo, por el riesgo de osteoporosis si se prolongan.' },
         ] },
@@ -135,35 +179,15 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Miomas uterinos',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Miomas: la ubicación decide',
       images: [
-        { src: 'biblioteca/13_ginecologia/gin-04/S1_figo-miomas__propio.svg', label: 'Clasificación FIGO', credit: 'Dibujo propio (esquema)' },
-        { src: 'biblioteca/13_ginecologia/gin-04/01_mioma-intramural-miomas-multiples__cto-gyo_p63.jpg', label: 'Mioma intramural en laparoscopía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 63' },
+        { src: 'animaciones/gin-04/A1_miomas_ubicacion.mp4', label: 'Miomas según su ubicación', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Según su relación con la cavidad',
-          say: 'Los miomas se clasifican por su relación con la cavidad. Los submucosos, cero a dos, son los que más sangran.' },
-        { note: 'Mioma intramural',
-          say: 'Y este es un mioma intramural visto en una laparoscopía, durante una miomectomía.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/13_ginecologia/gin-04/02_leiomiomas-tc_1__cto-radiologia_p138.jpg', label: 'Mioma uterino (TC)', credit: 'Manual CTO Radiología 14.ª ed., p. 138' },
-        { src: 'biblioteca/13_ginecologia/gin-04/02_leiomiomas-tc_2__cto-radiologia_p138.jpg', label: 'Mioma uterino (ecografía)', credit: 'Manual CTO Radiología 14.ª ed., p. 138' },
-      ],
-      steps: [
-        { note: 'Mioma uterino (TC)',
-          say: 'Mioma uterino visto en la tomografía, delimitado en amarillo.' },
-        { note: 'Mioma uterino (ecografía)',
-          say: 'Mioma uterino visto en la ecografía.' },
+        { note: 'Más cerca de la cavidad, más sangra',
+          say: 'Mira el útero. El mioma submucoso toca la cavidad, la distorsiona y por eso sangra más y se asocia a infertilidad. El subseroso crece hacia afuera, no aumenta el sangrado, pero comprime la vejiga o el recto. El intramural depende de qué tan cerca esté de la cavidad. Y en el embarazo, el dolor agudo por degeneración roja se maneja con reposo y analgesia, nunca con miomectomía.' },
       ],
     },
 
@@ -279,6 +303,44 @@ module.exports = {
         options: 'Las opciones: laparoscopía, suspender la terapia de reemplazo, iniciar anticonceptivos, histerectomía, o control ecográfico en seis meses. Piénsalo.',
         answer: 'Es la E. Es un mioma asintomático, un hallazgo incidental durante el estudio de otro problema. Sin importar su clasificación FIGO, ni su tamaño, el mioma asintomático se observa. Operarlo, o suspender una terapia hormonal que no le está dando síntomas, no tiene ninguna indicación aquí.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.5.006 · Tacto ginecológico para masas u alteraciones obstructivas",
+      "stem": "Mujer de 46 años consulta por dificultad para orinar, sensación de vaciado incompleto y pesadez pélvica de meses, con menstruaciones abundantes. Al tacto vaginal bimanual se palpa un útero aumentado de tamaño, irregular y de consistencia firme, que ocupa la pelvis y desplaza el cuello hacia anterior.",
+      "question": "¿Cuál es la causa más probable de sus síntomas urinarios?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Compresión vesical o uretral por miomatosis uterina"
+        },
+        {
+          "letter": "B",
+          "text": "Vejiga neurogénica"
+        },
+        {
+          "letter": "C",
+          "text": "Cistitis intersticial"
+        },
+        {
+          "letter": "D",
+          "text": "Incontinencia urinaria de esfuerzo"
+        },
+        {
+          "letter": "E",
+          "text": "Litiasis vesical"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El tacto ginecológico bimanual permite detectar masas pélvicas que comprimen la vía urinaria. Un útero aumentado, irregular y firme con sangrado abundante sugiere miomatosis; los miomas grandes, cervicales o de cara posterior pueden comprimir la vejiga o la uretra y causar retención. Se confirma con ecografía transvaginal y se evalúan el residuo y la hidronefrosis.",
+      "say": {
+        "stem": "Mujer de cuarenta y seis años con dificultad para orinar, reglas abundantes y un útero grande, irregular y firme al tacto vaginal.",
+        "question": "¿Qué explica sus síntomas urinarios?",
+        "options": "Las opciones: compresión por miomatosis uterina, vejiga neurogénica, cistitis intersticial, incontinencia de esfuerzo o litiasis vesical. Piénsalo.",
+        "answer": "Es la A. Compresión de la vejiga o la uretra por miomas, detectada con el tacto bimanual. La vejiga neurogénica también da retención, pero no explica la masa pélvica."
+      }
     },
 
     {

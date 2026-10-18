@@ -61,13 +61,16 @@ module.exports = {
         ] },
         { title: 'Localización y Koebner', tag: 'Superficies de extensión', kind: 'criteria', items: [
           { t: 'Codos, rodillas, lumbosacra, cuero cabelludo', d: 'Bilateral y simétrica',
-            say: 'La placa típica se ubica en superficies de extensión: codos, rodillas, región lumbosacra y cuero cabelludo, de forma bilateral y simétrica.' },
+            say: 'La placa típica se ubica en superficies de extensión: codos, rodillas, región lumbosacra y cuero cabelludo, de forma bilateral y simétrica. Mira estas placas: rojas, bien delimitadas y cubiertas de escamas gruesas y blanquecinas, justo en un codo y una rodilla.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-05/01_psoriasis-en-placas__amir-derma_p39.jpg', label: 'Placas psoriásicas', at: 'Mira estas placas', credit: 'Manual AMIR Dermatología, p. 39' } },
           { t: 'Fenómeno de Koebner', d: 'Lesiones nuevas sobre piel sana traumatizada',
-            say: 'El fenómeno isomórfico de Koebner es la aparición de lesiones psoriásicas típicas sobre piel sana que sufrió un traumatismo, una herida quirúrgica o rascado repetido. También aparece en vitíligo y liquen plano, así que no es exclusivo de la psoriasis, pero sí se pregunta mucho en este contexto.' },
+            say: 'El fenómeno isomórfico de Koebner es la aparición de lesiones psoriásicas típicas sobre piel sana que sufrió un traumatismo, una herida quirúrgica o rascado repetido. También aparece en vitíligo y liquen plano, así que no es exclusivo de la psoriasis, pero sí se pregunta mucho en este contexto. Mira cómo las lesiones siguen exactamente el trazo de una cicatriz: eso es el Koebner.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-05/04_koebner__cto-derma_p10.jpg', label: 'Koebner sobre cicatriz', at: 'Mira cómo las lesiones', credit: 'Manual CTO Dermatología 14.ª ed., p. 10' } },
         ] },
         { title: 'Compromiso ungueal', tag: 'Hasta en la mitad de los pacientes', kind: 'normal', items: [
           { t: 'Pitting o piqueteado en dedal', d: 'Pequeñas depresiones cupuliformes',
-            say: 'Hasta la mitad de los pacientes tiene compromiso ungueal: el pitting o piqueteado en dedal, la mancha en gota de aceite, hiperqueratosis subungueal y onicólisis.' },
+            say: 'Hasta la mitad de los pacientes tiene compromiso ungueal: el pitting o piqueteado en dedal, la mancha en gota de aceite, hiperqueratosis subungueal y onicólisis. En esta uña ves las pequeñas depresiones puntiformes, como si la hubieran picado con un alfiler.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-05/03_pitting-ungueal__amir-derma_p40.jpg', label: 'Pitting ungueal', at: 'En esta uña', credit: 'Manual AMIR Dermatología, p. 40' } },
         ] },
       ],
     },
@@ -79,19 +82,22 @@ module.exports = {
       cards: [
         { title: 'Psoriasis en gotas', tag: 'Niños y adultos jóvenes', kind: 'criteria', items: [
           { t: 'Pápulas en gotas de lluvia', d: 'Una a dos semanas tras faringoamigdalitis estreptocócica',
-            say: 'La psoriasis en gotas o guttata es una erupción brusca de pápulas milimétricas, en gotas de lluvia, generalizadas, que aparece una a dos semanas después de una faringoamigdalitis estreptocócica. Tiene excelente pronóstico y responde a antibióticos y fototerapia.' },
+            say: 'La psoriasis en gotas o guttata es una erupción brusca de pápulas milimétricas, en gotas de lluvia, generalizadas, que aparece una a dos semanas después de una faringoamigdalitis estreptocócica. Tiene excelente pronóstico y responde a antibióticos y fototerapia. Mira esta espalda: decenas de pápulas pequeñas, rojas, esparcidas como gotas de lluvia.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-05/02_guttata__amir-derma_p40.jpg', label: 'Psoriasis en gotas', at: 'Mira esta espalda', credit: 'Manual AMIR Dermatología, p. 40' } },
         ] },
         { title: 'Invertida y formas graves', tag: 'Sin escamas, o potencialmente letales', kind: 'alert', items: [
           { t: 'Invertida: placas rojas y húmedas en pliegues', d: 'Sin escamas, por la maceración',
             say: 'La psoriasis invertida afecta los grandes pliegues: axilas, ingles, submamario. Por la humedad y el roce constante, las placas no desarrollan escamas y se ven rojas, lisas y brillantes, lo que confunde el diagnóstico con un intertrigo candidiásico. Ojo con esa diferencia en el examen.' },
           { t: 'Eritrodermia y pustulosa generalizada', d: 'Compromiso hemodinámico, hipotermia, sepsis',
-            say: 'La eritrodermia psoriásica compromete casi toda la superficie corporal, y junto con la psoriasis pustulosa generalizada de von Zumbusch, son formas graves y potencialmente letales, con compromiso hemodinámico, hipotermia y riesgo de sepsis. Ambas suelen requerir hospitalización.' },
+            say: 'La eritrodermia psoriásica compromete casi toda la superficie corporal, y junto con la psoriasis pustulosa generalizada de von Zumbusch, son formas graves y potencialmente letales, con compromiso hemodinámico, hipotermia y riesgo de sepsis. Ambas suelen requerir hospitalización. En esta piel las pústulas son pequeñas, blancas y estériles, sobre una base roja intensa.',
+            photo: { src: 'biblioteca/19_dermatologia/derma-05/atlas_283_psoriasis_pustulosa_generaliza.jpg', label: 'Pústulas sobre eritema', at: 'En esta piel', credit: 'Atlas EUNACOM 2026' } },
         ] },
         { title: 'Artritis psoriásica', tag: 'Diez a treinta por ciento de los pacientes', kind: 'key', items: [
           { t: 'Interfalángicas distales, factor reumatoide negativo', d: 'Asociada a HLA-B veintisiete',
             say: 'Entre el diez y el treinta por ciento de los pacientes desarrolla artritis psoriásica: seronegativa, con factor reumatoide negativo, que afecta las articulaciones interfalángicas distales.' },
           { t: 'Dactilitis, dedo en salchicha', d: 'Más entesitis',
-            say: 'Y su signo más característico es la dactilitis, el dedo en salchicha, además de entesitis. Esta asociación entre psoriasis y artritis es justamente lo que evalúa una de las preguntas reales que vamos a ver hoy.' },
+            say: 'Y su signo más característico es la dactilitis, el dedo en salchicha, además de entesitis. Esta asociación entre psoriasis y artritis es justamente lo que evalúa una de las preguntas reales que vamos a ver hoy. Mira estas manos: dedos hinchados como salchichas y uñas distróficas, la psoriasis ungueal que casi siempre acompaña a la artritis.',
+            photo: { src: 'biblioteca/19_dermatologia/derma-05/10_dactilitis-psoriasica__fitzpatrick_p233.jpg', label: 'Dactilitis y uñas', at: 'Mira estas manos', credit: 'Fitzpatrick\'s Dermatology in General Medicine, p. 233' } },
         ] },
       ],
     },
@@ -143,39 +149,53 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Psoriasis',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-05/01_psoriasis-en-placas__amir-derma_p39.jpg', label: 'Placas', credit: 'Manual AMIR Dermatología, p. 39' },
-        { src: 'biblioteca/11_dermatologia/derma-05/02_guttata__amir-derma_p40.jpg', label: 'Guttata', credit: 'Manual AMIR Dermatología, p. 40' },
-        { src: 'biblioteca/11_dermatologia/derma-05/03_pitting-ungueal__amir-derma_p40.jpg', label: 'Pitting ungueal', credit: 'Manual AMIR Dermatología, p. 40' },
-      ],
-      steps: [
-        { note: 'Rojas con escama blanca',
-          say: 'La psoriasis forma placas rojas con escama blanca, en codos y rodillas.' },
-        { note: 'Gotas tras una faringitis',
-          say: 'La guttata aparece como gotas después de una faringitis estreptocócica.' },
-        { note: 'Pequeñas depresiones en la uña',
-          say: 'Y el pitting: pequeñas depresiones en las uñas.' },
+      type: 'points',
+      kicker: 'Sospechar y derivar',
+      title: 'Artritis psoriásica y eritrodermia',
+      cards: [
+        { title: 'Artritis psoriásica', tag: 'Daño erosivo e irreversible', kind: 'key', items: [
+          { t: 'Rigidez matinal y dactilitis', d: 'Más de 30 minutos; entesitis en talón y planta',
+            say: 'Sospecha una artritis psoriásica en todo psoriásico con dolor y rigidez de las articulaciones por más de treinta minutos en la mañana, con dactilitis o entesitis, en el talón de Aquiles o la planta del pie. Aparece en el diez a treinta por ciento, casi siempre años después de la piel, aunque en uno de cada siete la precede.' },
+          { t: 'Factor reumatoide y anti-CCP negativos', d: 'Oligoartritis asimétrica, la más frecuente',
+            say: 'El patrón más frecuente es la oligoartritis asimétrica; puede parecerse a la artritis reumatoide, pero con factor reumatoide y anti-CCP negativos. Mira estos dedos: la afectación de las interfalángicas distales, junto a uñas enfermas, es muy característica.',
+            photo: { src: 'biblioteca/11_dermatologia/derma-05/05_artritis-psoriasica-ifd__amir-reuma_p81.jpg', label: 'Interfalángicas distales', at: 'Mira estos dedos', credit: 'Manual AMIR Reumatología, p. 81' } },
+          { t: 'AINE y derivar a reumatología', d: 'Nunca corticoides sistémicos',
+            say: 'El daño es erosivo, así que inicias un AINE y derivas precozmente a reumatología, donde se usan metotrexato y biológicos. Y otra vez: corticoides sistémicos, jamás, por el rebote pustuloso.' },
+        ] },
+        { title: 'Eritrodermia', tag: 'Urgencia dermatológica', kind: 'alert', items: [
+          { t: 'Eritema y escama en más del 90%', d: 'Psoriasis, atopia, toxidermia, Sézary',
+            say: 'La eritrodermia es eritema con descamación de más del noventa por ciento de la piel. Las causas más frecuentes son la psoriasis y el eccema generalizado, las toxidermias por alopurinol, carbamazepina o sulfas, y el linfoma cutáneo de células T, el síndrome de Sézary.' },
+          { t: 'Pierde calor, líquidos y proteínas', d: 'Hipotermia, hipoalbuminemia, alto gasto, sepsis',
+            say: 'Sin barrera cutánea el paciente pierde calor, líquidos y proteínas: hipotermia, hipoalbuminemia, insuficiencia cardíaca de alto gasto y sepsis estafilocócica.' },
+          { t: 'Hospitalizar', d: 'Ambiente cálido, hidratación, emolientes, biopsia',
+            say: 'Se hospitaliza, en ambiente cálido, con hidratación endovenosa, emolientes y corticoide tópico de potencia media, se suspenden los fármacos sospechosos y se hace biopsia. El tratamiento sistémico lo define el dermatólogo, nunca con corticoides orales.' },
+        ] },
       ],
     },
 
     {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Koebner y artritis psoriásica',
-      images: [
-        { src: 'biblioteca/11_dermatologia/derma-05/04_koebner__cto-derma_p10.jpg', label: 'Koebner: lesiones sobre una cicatriz', credit: 'Manual CTO Dermatología 14.ª ed., p. 10' },
-        { src: 'biblioteca/11_dermatologia/derma-05/05_artritis-psoriasica-ifd__amir-reuma_p81.jpg', label: 'Artritis psoriásica de interfalángicas distales', credit: 'Manual AMIR Reumatología, p. 81' },
-      ],
-      steps: [
-        { note: 'Lesiones sobre la cicatriz',
-          say: 'El fenómeno de Koebner: aparecen lesiones nuevas sobre piel que sufrió un trauma. Aquí siguen exactamente el trazo de una cicatriz.' },
-        { note: 'Interfalángicas distales',
-          say: 'Y la artritis psoriásica: compromete las interfalángicas distales, junto a uñas enfermas, con factor reumatoide negativo.' },
+      type: 'points',
+      kicker: 'Las seis P',
+      title: 'Líquen plano',
+      cards: [
+        { title: 'Cómo se reconoce', tag: 'Linfocitos T', kind: 'key', items: [
+          { t: 'Pápulas poligonales, pruriginosas, planas, violáceas', d: 'Estrías de Wickham y Koebner',
+            say: 'El líquen plano se resume en las seis P: pápulas poligonales, pruriginosas, planas, de color violáceo, que forman placas. Sobre ellas ves una fina red blanquecina, las estrías de Wickham, y tiene fenómeno de Koebner.' },
+          { t: 'Muñecas, lumbar, tobillos, mucosa oral', d: 'Encaje blanquecino en mejillas',
+            say: 'Se ubica en la cara flexora de muñecas y antebrazos, en la región lumbar y los tobillos. En la boca deja un encaje blanquecino reticulado en la cara interna de las mejillas, y en las uñas, surcos y adelgazamiento.' },
+        ] },
+        { title: 'Qué buscar', tag: 'Asociaciones', kind: 'criteria', items: [
+          { t: 'Hepatitis C', d: 'Pide serología',
+            say: 'Se asocia a hepatitis C, así que pides serología.' },
+          { t: 'Fármacos liquenoides', d: 'IECA, tiazidas, betabloqueadores, antimaláricos',
+            say: 'Y a fármacos liquenoides: IECA, tiazidas, betabloqueadores y antimaláricos.' },
+        ] },
+        { title: 'Conducta inicial', tag: 'Remite en 1 a 2 años', kind: 'pharma', items: [
+          { t: 'Clobetasol tópico y antihistamínico', d: 'Corticoide oral solo por el especialista',
+            say: 'Inicias clobetasol al cero coma cero cinco por ciento y un antihistamínico para el prurito. La mayoría remite en uno a dos años.' },
+          { t: 'Líquen oral erosivo: derivar', d: 'Riesgo de carcinoma espinocelular, cerca del 1%',
+            say: 'Pero el líquen oral erosivo tiene un riesgo cercano al uno por ciento de transformarse en carcinoma espinocelular, por eso se deriva y se controla.' },
+        ] },
       ],
     },
 
@@ -198,6 +218,10 @@ module.exports = {
           say: 'La forma pustulosa generalizada da pústulas estériles con fiebre alta, y su gatillante clásico de examen es la suspensión de corticoides orales. Requiere hospitalización urgente.' },
         { cells: ['Artropatía psoriásica', 'Dactilitis, dedo en salchicha', 'HLA-B veintisiete, factor reumatoide negativo', 'Metotrexato o biológicos'],
           say: 'Y la artropatía psoriásica da dactilitis, con factor reumatoide negativo, y se trata con metotrexato o biológicos. El error clásico del examen es olvidar que nunca se usan corticoides sistémicos en ninguna de estas formas.' },
+        { cells: ['Eritrodermia', 'Eritema y descamación de más del 90% de la piel', 'Psoriasis, atopia, toxidermia, Sézary', 'Hospitalizar; nunca corticoides orales'],
+          say: 'La eritrodermia compromete más del noventa por ciento de la piel y es una urgencia: se hospitaliza, se buscan sus causas, psoriasis, atopia, fármacos o linfoma, y no se dan corticoides orales.' },
+        { cells: ['Líquen plano', 'Pápulas violáceas con estrías de Wickham', 'Hepatitis C, IECA, tiazidas', 'Clobetasol; oral erosivo, derivar'],
+          say: 'Y el líquen plano: pápulas violáceas con estrías de Wickham, asociado a hepatitis C y a ciertos fármacos, que se trata con clobetasol y, si es oral erosivo, se deriva.' },
       ],
     },
 
@@ -268,6 +292,81 @@ module.exports = {
         options: 'Las opciones: reumatoide, reactiva, psoriática, gotosa, o lúpica. Piénsalo.',
         answer: 'Es la C, psoriática. El compromiso de las interfalángicas distales junto con el pitting ungueal y el engrosamiento de las uñas son la firma de la artritis psoriásica, incluso cuando el enunciado no menciona placas en la piel. La reumatoide típicamente respeta las interfalángicas distales, y ahí está la diferencia que se pregunta.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.1.015 · Líquen plano",
+      "stem": "Mujer de 45 años con pápulas planas, poligonales, violáceas y muy pruriginosas en la cara flexora de muñecas y tobillos, de 2 meses. En su superficie se observan finas estrías blanquecinas. Aparecieron nuevas lesiones sobre una excoriación lineal. En la mucosa yugal tiene un retículo blanquecino.",
+      "question": "¿Cuál es el diagnóstico y qué examen de laboratorio conviene solicitar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Liquen plano; serología de virus hepatitis C"
+        },
+        {
+          "letter": "B",
+          "text": "Psoriasis; perfil lipídico"
+        },
+        {
+          "letter": "C",
+          "text": "Pitiriasis rosada; VDRL"
+        },
+        {
+          "letter": "D",
+          "text": "Lupus discoide; ANA"
+        },
+        {
+          "letter": "E",
+          "text": "Prurigo nodular; IgE total"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Pápulas planas, poligonales, púrpuras, pruriginosas con estrías de Wickham, fenómeno de Koebner y lesiones reticuladas en mucosa oral son liquen plano (las 6 P). Se asocia a hepatitis C, por lo que se solicita su serología. Se trata con corticoides tópicos potentes; el liquen plano oral erosivo crónico requiere seguimiento por riesgo de carcinoma.",
+      "say": {
+        "stem": "Mujer de cuarenta y cinco años con pápulas planas, violáceas y muy pruriginosas en muñecas y tobillos, con estrías blancas, nuevas lesiones sobre un rasguño y un retículo blanco en la boca.",
+        "question": "¿Cuál es el diagnóstico y qué examen se pide?",
+        "options": "Las opciones: liquen plano con serología de hepatitis C, psoriasis con perfil lipídico, pitiriasis rosada con VDRL, lupus discoide con ANA o prúrigo nodular con IgE. Piénsalo.",
+        "answer": "Es la A. Es liquen plano, que se asocia a hepatitis C, por eso se pide su serología. La psoriasis tienta por el fenómeno de Koebner, pero sus placas son eritemato-escamosas, no pápulas violáceas con estrías ni lesiones reticuladas en la boca."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 6.01.2.004 · Eritrodermia",
+      "stem": "Hombre de 55 años con psoriasis en placas, que suspendió bruscamente prednisona oral indicada por un médico particular. Consulta por eritema y descamación de más del 90% de la superficie corporal, calofríos, temperatura de 38 °C y edema de extremidades.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Manejo ambulatorio con corticoide tópico de alta potencia en todo el cuerpo"
+        },
+        {
+          "letter": "B",
+          "text": "Antihistamínico oral y control en 1 mes"
+        },
+        {
+          "letter": "C",
+          "text": "Reiniciar prednisona en dosis altas y alta"
+        },
+        {
+          "letter": "D",
+          "text": "Hospitalización para manejo de soporte (control de temperatura, balance hídrico y electrolítico, prevención de infecciones) y tratamiento por dermatología"
+        },
+        {
+          "letter": "E",
+          "text": "Fototerapia ambulatoria"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La eritrodermia (eritema y descamación en más del 90% de la superficie) es una urgencia dermatológica: pérdida de calor, agua y proteínas, insuficiencia cardíaca de alto gasto e infección. Requiere hospitalización, soporte, emolientes, corticoide tópico de baja potencia y tratamiento de la causa (aquí psoriasis desencadenada por suspensión de corticoides sistémicos, que no deben usarse en psoriasis).",
+      "say": {
+        "stem": "Hombre de cincuenta y cinco años con psoriasis, que suspendió bruscamente la prednisona y ahora tiene eritema y descamación en casi todo el cuerpo, calofríos y fiebre.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: corticoide tópico potente ambulatorio, antihistamínico y control, reiniciar prednisona, hospitalizar con soporte y dermatología o fototerapia ambulatoria. Piénsalo.",
+        "answer": "Es la D. La eritrodermia se hospitaliza por el riesgo de pérdida de calor, líquidos e infección. Reiniciar prednisona tienta porque su retiro la desencadenó, pero los corticoides sistémicos no se usan en psoriasis justamente por este rebote."
+      }
     },
 
     {

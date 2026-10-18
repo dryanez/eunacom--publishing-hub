@@ -107,6 +107,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La próstata infectada',
+      images: [
+        { src: 'animaciones/uro-13/A1_prostatitis_aguda.mp4', label: 'Prostatitis aguda', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Prostatitis aguda',
+          say: 'Mira cómo las bacterias suben por la uretra y se instalan en la próstata, que se pone caliente, turgente y dolorosa. Nunca se hace masaje prostático, por el riesgo de bacteriemia y shock, y si hay retención se hace cistostomía. El antibiótico debe penetrar la barrera: ciprofloxacino o cotrimoxazol, por tres a cuatro semanas.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Armemos el árbol: del hombre febril con dolor perineal a la conducta.',
     },

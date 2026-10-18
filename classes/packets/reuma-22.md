@@ -517,14 +517,14 @@ Un paciente de 68 años presenta una fractura de cadera, de la que es operado. A
 Explicación del banco: La alternativa correcta es la **C** (AngioTAC de tórax). La sospecha es un TEP.. La enfermedad de Behçet es una vasculitis cuyas manifestaciones recuerdan a las pelvispondiloartropatías. Esta decisión se fundamenta en la evidencia clínica y normativas ministeriales de Chile (MINSAL/GES).
 
 ### [18] EUNACOM Diciembre 2025 · Pregunta 107 · confianza 0.7
-Un niño de 2 años consulta por odinofagia de 2 días de evolución, asociada a ﬁebre de 38,1 °C. En su examen Fsico presenta amígdalas eritematosas y aumentadas de tamaño, con exudado bilateral de aspecto purulento, y se palpan adenopa`as cervicales pequeñas bilaterales. Su examen cardiopulmonar es normal. Se solicita prueba de detección de estreptococo beta hemolí8co del grupo A, que resulta posi8va. ¿Cuál es el tratamiento de elección?
+Un niño de 2 años consulta por odinofagia de 2 días de evolución, asociada a fiebre de 38,1 °C. En su examen físico presenta amígdalas eritematosas y aumentadas de tamaño, con exudado bilateral de aspecto purulento, y se palpan adenopa`as cervicales pequeñas bilaterales. Su examen cardiopulmonar es normal. Se solicita prueba de detección de estreptococo beta hemolítico del grupo A, que resulta positiva. ¿Cuál es el tratamiento de elección?
 - A) Azitromicina
 - B) Amoxicilina
 - C) Claritromicina
 - D) Amoxicilina + ácido clavulánico
 - E) Penicilina sódica
 **Correcta: B**
-Explicación del banco: Si bien es rara la amigdaliGs bacteriana en menores de 3 años, en este caso Gene 3 criterios de Centor (ﬁebre, exudado y adenopaVas), por lo que es correcto haberle pedido las pruebas de detección de SGA. Al estar positivas, se obliga al tratamiento antibiótico. De elección se usa la amoxicilina sola. El SGA no desarrolla betalactamasas, por lo que no es necesario el ácido clavulánico. La penicilina benzaGna en una dosis es una buena opción, aunque dolorosa, en cambio la penicilina sódica se debe dar cada 6 horas, por lo que no se usa en esta infección. Los macrólidos son de elección en alérgicos a la penicilina.
+Explicación del banco: Si bien es rara la amigdalitis bacteriana en menores de 3 años, en este caso Gene 3 criterios de Centor (fiebre, exudado y adenopatías), por lo que es correcto haberle pedido las pruebas de detección de SGA. Al estar positivas, se obliga al tratamiento antibiótico. De elección se usa la amoxicilina sola. El SGA no desarrolla betalactamasas, por lo que no es necesario el ácido clavulánico. La penicilina benzatina en una dosis es una buena opción, aunque dolorosa, en cambio la penicilina sódica se debe dar cada 6 horas, por lo que no se usa en esta infección. Los macrólidos son de elección en alérgicos a la penicilina.
 
 ### [19] EUNACOM Julio 2024 · Pregunta 69 · confianza 0.7
 Una paciente de 25 años, embarazada, con 12 semanas contadas desde la FUR segura y confiable, se realiza exámenes, entre los que trae un VDRL, que resulta "no reactivo" y un MHA-TP, que resulta "reactivo". ¿Cuál es la conducta más adecuada?

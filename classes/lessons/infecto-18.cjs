@@ -120,7 +120,8 @@ module.exports = {
         { show: ['ani'], note: 'La gran mayoría: fiebre sin ictericia',
           say: 'En el noventa por ciento de los casos la forma es anictérica: un síndrome febril agudo, que viene en dos fases.' },
         { show: ['sig'], note: 'Los dos signos que buscas',
-          say: 'Y tiene dos signos que te dan el diagnóstico. La sufusión conjuntival bilateral: ojos rojos, sin secreción. Y un dolor exquisito al comprimir las pantorrillas, los gemelos. Fíjate que la conjuntiva está roja pero no tiene pus: eso la separa de una conjuntivitis.' },
+          say: 'Y tiene dos signos que te dan el diagnóstico. La sufusión conjuntival bilateral: mira este ojo rojo, sin secreción. Y un dolor exquisito al comprimir las pantorrillas, los gemelos. Fíjate que la conjuntiva está roja pero no tiene pus: eso la separa de una conjuntivitis.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-18/02_leptospirosis-sufusion__commons.jpg', label: 'Sufusión conjuntival', at: 'mira este ojo rojo', credit: 'Wikimedia Commons, CC BY 4.0' } },
         { show: ['wei'], note: 'Uno de cada diez se agrava',
           say: 'En cerca del diez por ciento aparece la forma grave, ictérica: el síndrome de Weil.' },
         { show: ['tri'], note: 'Ictericia rubínica, falla renal hipokalémica, sangrado',
@@ -173,7 +174,8 @@ module.exports = {
         { show: ['s2'], note: 'Signo de Faget: disociación pulso-temperatura',
           say: 'En la segunda semana la fiebre queda en meseta, entre treinta y nueve y cuarenta grados. Y aparece el signo que más se pregunta: la bradicardia relativa, o signo de Faget. Con cuarenta grados el pulso debería estar muy alto, y sin embargo está normal o bajo. Eso es la disociación esfigmotérmica.' },
         { show: ['ros'], note: 'Manchas rosadas en el abdomen',
-          say: 'En esa misma semana hay hepatoesplenomegalia, unas manchas rosadas en el abdomen, la roséola tífica, y recién ahí la diarrea, en puré de arvejas.' },
+          say: 'En esa misma semana hay hepatoesplenomegalia, unas manchas rosadas en el abdomen: mira esta roséola tífica, y recién ahí la diarrea, en puré de arvejas.',
+            photo: { src: 'biblioteca/07_infectologia/infecto-18/01_roseola_tifica__cdc-phil-2215.jpg', label: 'Roséola tífica', at: 'mira esta roséola tífica', credit: 'CDC PHIL 2215 (CDC/Armed Forces Institute of Pathology), dominio público' } },
         { show: ['s3'], note: 'Placas de Peyer: perforación y sangrado',
           say: 'La tercera semana es la peligrosa. La bacteria inflama las placas de Peyer del íleon, y estas pueden perforarse, dando un abdomen agudo, o sangrar, con una hemorragia digestiva baja masiva.' },
       ],
@@ -216,19 +218,6 @@ module.exports = {
       steps: [
         { note: 'El cultivo depende de la semana',
           say: 'En la primera semana la fiebre sube en escalera, y los hemocultivos son positivos en ochenta a noventa por ciento. En la segunda queda en meseta, con bradicardia relativa. La tercera es la peligrosa, por perforación o sangrado. El coprocultivo se hace positivo desde la segunda o tercera semana, y el mielocultivo es el más sensible, sobre noventa y cinco por ciento.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Fiebre tifoidea',
-      images: [
-        { src: 'biblioteca/07_infectologia/infecto-18/01_roseola_tifica__cdc-phil-2215.jpg', label: 'Roséola tífica', credit: 'CDC PHIL 2215 (CDC/Armed Forces Institute of Pathology), dominio público' },
-      ],
-      steps: [
-        { note: 'Máculas rosadas en el tronco',
-          say: 'La roséola tífica son máculas rosadas en el tronco, en la segunda semana.' },
       ],
     },
 
@@ -321,6 +310,82 @@ module.exports = {
         options: 'Las opciones: brucelosis, fiebre Q, Staphylococcus aureus, Streptococcus pneumoniae, o Escherichia coli. Piénsalo.',
         answer: 'Es la A, brucelosis. Aquí la pregunta no te da el queso de cabra, te da la otra puerta de entrada: el contacto ocupacional de veterinarios y matarifes con el ganado. Y la complicación focal de la brucelosis es justamente osteoarticular. El Staphylococcus aureus sería la causa habitual de una artritis séptica, pero la pregunta te está mostrando el oficio a propósito: la exposición da el diagnóstico.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.1.017 · Leptospirosis",
+      "stem": "Hombre de 30 años, trabajador de arrozales con abundantes roedores, inicia hace 6 días fiebre de 39 °C, cefalea, mialgias intensas en las pantorrillas y sufusión conjuntival. Hoy presenta ictericia y oliguria. Creatinina 3,2 mg/dL, bilirrubina total 8 mg/dL, plaquetas 60.000/mm³ y transaminasas levemente elevadas.",
+      "question": "¿Cuál es el tratamiento antibiótico más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Doxiciclina más rifampicina por 6 semanas"
+        },
+        {
+          "letter": "B",
+          "text": "Albendazol"
+        },
+        {
+          "letter": "C",
+          "text": "Penicilina G sódica o ceftriaxona endovenosa"
+        },
+        {
+          "letter": "D",
+          "text": "Aciclovir endovenoso"
+        },
+        {
+          "letter": "E",
+          "text": "Solo soporte, porque es una hepatitis viral"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Fiebre, mialgias de pantorrillas y sufusión conjuntival tras exposición a agua contaminada con orina de roedores sugiere leptospirosis; ictericia con falla renal es el síndrome de Weil. La forma grave se trata con penicilina G sódica o ceftriaxona endovenosa; la leve, con doxiciclina oral. La hepatitis viral no da sufusión conjuntival ni falla renal.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Hombre de treinta años que trabaja en arrozales con muchos roedores. Hace seis días tiene fiebre alta, cefalea, dolor intenso en las pantorrillas y ojos enrojecidos sin secreción. Hoy se agregan ictericia y poca orina, con creatinina de tres coma dos y plaquetas bajas.",
+        "question": "¿Cuál es el tratamiento antibiótico más adecuado?",
+        "options": "Las opciones: doxiciclina con rifampicina, albendazol, penicilina sódica o ceftriaxona endovenosa, aciclovir o solo soporte. Piénsalo.",
+        "answer": "Es la C. Exposición a agua con orina de roedores, dolor de pantorrillas y sufusión conjuntival es leptospirosis, y con ictericia y falla renal es un síndrome de Weil, que se trata con penicilina o ceftriaxona endovenosa. Doxiciclina con rifampicina es el distractor: ese es el esquema de la brucelosis."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Enero 2023 · Pregunta 23",
+      "stem": "Niño con fiebre de 10 días de evolución, cefalea, mialgias, diarrea y luego deposiciones duras. Al examen físico se palpan el hígado y el bazo.",
+      "question": "¿Cuál es el examen más adecuado para iniciar el estudio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coproparasitológico seriado"
+        },
+        {
+          "letter": "B",
+          "text": "Coprocultivo"
+        },
+        {
+          "letter": "C",
+          "text": "Serología para virus Epstein-Barr"
+        },
+        {
+          "letter": "D",
+          "text": "Hemocultivo"
+        },
+        {
+          "letter": "E",
+          "text": "Prueba de Widal"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Fiebre prolongada, cefalea, alteración del tránsito intestinal y hepatoesplenomegalia sugieren fiebre tifoidea (Salmonella Typhi). En la primera y segunda semana el examen de mayor rendimiento es el hemocultivo; el mielocultivo es el más sensible. El coprocultivo se positiviza más tarde y la reacción de Widal tiene baja sensibilidad y especificidad.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de enero de dos mil veintitrés. Un niño tiene diez días de fiebre, cefalea, mialgias, diarrea y luego constipación, con hígado y bazo palpables.",
+        "question": "¿Cuál es el examen más adecuado para iniciar el estudio?",
+        "options": "Las opciones: coproparasitológico, coprocultivo, serología para Epstein-Barr, hemocultivo o reacción de Widal. Piénsalo.",
+        "answer": "Es la D. Es una fiebre tifoidea, y en las primeras semanas el hemocultivo es el examen de mayor rendimiento. El coprocultivo tienta por la diarrea, pero se positiviza tarde y rinde menos."
+      }
     },
 
     {

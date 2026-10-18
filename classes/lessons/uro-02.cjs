@@ -6,6 +6,10 @@
 // mientras Enero 2023 P142 (mismo escenario, sin globo) marca uretrografía retrógrada; las dos claves no son coherentes entre sí.
 // El banco real no tiene preguntas sobre diuresis postobstructiva: se usa la pregunta del libro como "Caso representativo".
 // Imagen: Bailey & Love 27.ª ed., Fig. 78.12 (caption ubicado junto a la figura 78.11; la imagen del TAC es la segunda del par).
+// Fotos del atlas (18-10-2026): Bailey & Love Fig. 78.9 (residuo), 79.9 (estenosis bulbar) y 14.28 (extravasación en fractura pélvica).
+// Contenido nuevo del libro (secciones 4 y 5 de uro-02: hidronefrosis, nefrostomía, técnica de cistostomía, cistostomía abierta,
+// estenosis uretral, uretrografía) en dos diapositivas: "La cistostomía, paso a paso" y "Estenosis uretral e hidronefrosis".
+// En movimiento: scenes/uro.html (?v=foley, ?v=cistostomia) sobre Blausen "Male Pelvic Muscles", CC BY 3.0.
 
 const N = (k, t, s, say, ...kids) => ({ k, t, s, say, kids });
 
@@ -144,6 +148,31 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Cistostomía por punción',
+      title: 'La cistostomía, paso a paso',
+      cards: [
+        { title: 'La técnica', tag: 'La realizas tú', kind: 'key', items: [
+          { t: 'Confirma el globo', d: 'Palpable y mate, o vejiga llena en la eco',
+            say: 'Primero confirmas que la vejiga está llena: un globo palpable y mate, o una vejiga distendida en la ecografía. Mira esta ecografía tomada después de orinar: la zona oscura, sin ecos, es orina que quedó dentro. Con el paciente en decúbito dorsal, haces la asepsia.',
+            photo: { src: 'biblioteca/19_urologia/uro-02/02_ecografia-residuo-postmiccional-grande__bailey-love_p1481.jpg', label: 'Ecografía: gran residuo', at: 'Mira esta ecografía', credit: 'Bailey & Love 27.ª ed., Fig. 78.9' } },
+          { t: 'Lidocaína al 2 %, línea media', d: '2 a 3 cm sobre la sínfisis del pubis',
+            say: 'Anestesias con lidocaína al dos por ciento en la línea media, dos a tres centímetros sobre la sínfisis del pubis.' },
+          { t: 'Punciona y aspira orina', d: 'Perpendicular, levemente hacia caudal',
+            say: 'Puncionas perpendicular a la piel, levemente hacia caudal, y aspiras: si sale orina, estás en la vejiga. Avanzas el trócar, retiras el mandril, pasas la sonda, la fijas con el balón o con un punto y la conectas a la bolsa.' },
+        ] },
+        { title: 'Cuándo no puncionar', tag: 'Contraindicaciones', kind: 'alert', items: [
+          { t: 'Vejiga no distendida', d: 'O cirugía abdominal baja previa',
+            say: 'No se punciona si la vejiga no está distendida, ni si hubo una cirugía abdominal baja, porque las asas pueden estar pegadas a la pared y perforarías el intestino.' },
+          { t: 'Coagulopatía o tumor vesical', d: 'Riesgos: hematuria, perforación, infección',
+            say: 'Tampoco con una coagulopatía no corregida o si sospechas un tumor de vejiga. Las complicaciones son la hematuria, la perforación intestinal, la falsa vía y la infección.' },
+          { t: 'Si no se puede: cistostomía abierta', d: 'La hace el urólogo: tú derivas',
+            say: 'Cuando la punción está contraindicada o fracasa, se deriva para una cistostomía abierta, que hace el urólogo en pabellón. Y la sonda de cistostomía se cambia cada cuatro a seis semanas.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'table',
       kicker: 'Comparación',
       title: 'Foley contra cistostomía',
@@ -182,15 +211,47 @@ module.exports = {
 
     {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Cuando la obstrucción llega al riñón',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Foley o cistostomía',
       images: [
-        { src: 'biblioteca/19_urologia/uro-02/01_tac-hidronefrosis-bilateral-obstruccion-vesical__bailey-love_p1482.jpg', label: 'TAC: hidronefrosis bilateral por obstrucción de la salida de la vejiga', credit: 'Bailey & Love 27.ª ed., Fig. 78.12' },
+        { src: 'animaciones/uro-02/A1_retencion_sonda_foley.mp4', label: 'Retención por hiperplasia: sonda Foley', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+        { src: 'animaciones/uro-02/A2_trauma_uretral_cistostomia.mp4', label: 'Trauma uretral: cistostomía por punción', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Ambos riñones con la pelvis dilatada',
-          say: 'Este es un TAC de abdomen. Mira a cada lado de la columna: en los dos riñones la pelvis está dilatada y llena de líquido, la zona oscura que ocupa el centro. Eso es una hidronefrosis bilateral, causada por una obstrucción en la salida de la vejiga. Es lo que le pasa al riñón cuando la retención no se descomprime a tiempo.' },
+        { note: 'Sin trauma: primero orina, después el balón',
+          say: 'Mira la próstata: al crecer estrecha la uretra, y la vejiga no logra vaciarse. Se distiende y forma el globo vesical, que sobrepasa el pubis. Sin trauma, pasas una sonda Foley lubricada con lidocaína, sin forzar. Primero tiene que salir orina, y recién entonces inflas el balón con agua bidestilada. Si salen más de mil mililitros, vigila la diuresis postobstructiva.' },
+        { note: 'Con trauma: se punciona sobre el pubis',
+          say: 'Ahora es un trauma: fractura de pelvis, hematoma perineal y sangre en el meato, porque la uretra está desgarrada. Si pasas la sonda a ciegas, un desgarro parcial puede volverse una sección completa. Por eso la vejiga se punciona por arriba, en la línea media, dos a tres centímetros sobre el pubis, y solo con globo palpable. Después se estudia la uretra con uretrocistografía retrógrada.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Otras obstrucciones',
+      title: 'Estenosis uretral e hidronefrosis',
+      cards: [
+        { title: 'Estenosis uretral', tag: 'Varón joven', kind: 'alert', items: [
+          { t: 'Chorro fino, residuo, ITU a repetición', d: 'Tras uretritis, sondeos, trauma perineal o de pelvis',
+            say: 'Sospecha una estenosis uretral en el hombre con chorro fino y débil, esfuerzo para orinar, residuo o infecciones urinarias a repetición, con antecedente de uretritis gonocócica, sondeos, trauma perineal o fractura de pelvis. Es la causa de retención en el hombre joven con la próstata pequeña.' },
+          { t: 'Uretrografía: sitio y largo', d: 'Uroflujometría con flujo bajo y aplanado',
+            say: 'La uroflujometría muestra un flujo bajo y aplanado, y la uretrografía muestra dónde está la estrechez y cuánto mide. Mira esta uretrografía ascendente: en la uretra bulbar hay un segmento estrecho, la estenosis. Y en esta otra, tras una fractura de pelvis, el contraste se escapa fuera de la uretra. Por eso, en el trauma, la uretrografía se pide antes de pasar cualquier sonda.',
+            photos: [
+              { src: 'biblioteca/19_urologia/uro-02/03_uretrografia-ascendente-estenosis-uretra-bulbar__bailey-love_p1504.jpg', label: 'Estenosis uretra bulbar', at: 'Mira esta uretrografía ascendente', credit: 'Bailey & Love 27.ª ed., Fig. 79.9' },
+              { src: 'biblioteca/19_urologia/uro-02/04_uretrografia-retrograda-extravasacion-fractura-pelvica__bailey-love_p227.jpg', label: 'Contraste fuera de la uretra', at: 'Y en esta otra', credit: 'Bailey & Love 27.ª ed., Fig. 14.28' },
+            ] },
+          { t: 'Con retención: cistostomía', d: 'Sin sondeos ciegos; el urólogo dilata o hace uretrotomía',
+            say: 'Si hay retención, descomprimes con una cistostomía y evitas los sondeos ciegos repetidos. El urólogo hace la dilatación o la uretrotomía interna, y la uretroplastia en las estenosis largas o que recidivan.' },
+        ] },
+        { title: 'Hidronefrosis', tag: 'Ecografía renal', kind: 'key', items: [
+          { t: 'Pelvis y cálices dilatados', d: 'Sospecha: retención, cólico o creatinina alta',
+            say: 'La hidronefrosis es la dilatación de la pelvis y los cálices del riñón por una obstrucción. Se sospecha en la retención, en el cólico renal o cuando sube la creatinina, y la confirma la ecografía renal. Mira este TAC: en los dos riñones la pelvis está dilatada y llena de líquido, una hidronefrosis bilateral por una obstrucción en la salida de la vejiga.',
+            photo: { src: 'biblioteca/19_urologia/uro-02/01_tac-hidronefrosis-bilateral-obstruccion-vesical__bailey-love_p1482.jpg', label: 'TAC: hidronefrosis bilateral', at: 'Mira este TAC', credit: 'Bailey & Love 27.ª ed., Fig. 78.12' } },
+          { t: 'Primero, la obstrucción baja', d: 'Sonda vesical, creatinina, electrolitos, urocultivo',
+            say: 'Tu conducta inicial: resolver la obstrucción baja con una sonda vesical, pedir creatinina, electrolitos y urocultivo, y derivar.' },
+          { t: 'Urgente: bilateral, monorreno o fiebre', d: 'Pionefrosis: nefrostomía percutánea',
+            say: 'Es urgente si es bilateral, en un monorreno, con fiebre o con deterioro de la función renal. Si hay pionefrosis, se drena con una nefrostomía percutánea: tú no la haces, pero la pides y mantienes antibióticos y volumen mientras trasladas.' },
+        ] },
       ],
     },
 
@@ -331,6 +392,454 @@ module.exports = {
         options: 'Las opciones: reflejo vasovagal con paro; diuresis postobstructiva con deshidratación e hipokalemia; estenosis uretral precoz; necrosis tubular irreversible; o hematuria ex vacuo con shock. Piénsalo.',
         answer: 'Es la B. Con más de mil mililitros al descomprimir, el riñón puede orinar masivamente y deshidratar al paciente. La E es el mito clásico: la hematuria ex vacuo no produce shock, y por eso ya no se clampea la sonda.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.5.005 · Instalación y cuidado de sonda Foley",
+      "stem": "Hombre de 70 años hospitalizado por neumonía requiere sonda Foley para medir diuresis horaria. Al instalarla, después de introducir unos 10 cm, aún no sale orina.",
+      "question": "Respecto de la técnica y cuidados de la sonda Foley, ¿cuál afirmación es correcta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inflar el balón en cuanto se sienta resistencia, para fijarla"
+        },
+        {
+          "letter": "B",
+          "text": "Mantener la bolsa sobre el nivel de la vejiga para facilitar el drenaje"
+        },
+        {
+          "letter": "C",
+          "text": "Cambiar la bolsa abriendo el sistema cada 8 horas para evitar infecciones"
+        },
+        {
+          "letter": "D",
+          "text": "Introducir la sonda hasta la bifurcación y verificar la salida de orina antes de inflar el balón con agua destilada, con técnica aséptica y sistema de drenaje cerrado"
+        },
+        {
+          "letter": "E",
+          "text": "Indicar profilaxis antibiótica permanente mientras dure la sonda"
+        }
+      ],
+      "correct": "D",
+      "explanation": "En el hombre se lubrica con lidocaína en gel, se introduce la sonda hasta la bifurcación y solo después de ver orina se infla el balón, para no inflarlo en la uretra. Se usa técnica aséptica, sistema cerrado, bolsa bajo el nivel vesical y se retira apenas no se necesite. La profilaxis antibiótica no está indicada.",
+      "say": {
+        "stem": "A un hombre de setenta años hospitalizado se le instala una sonda Foley para medir diuresis. Después de introducir diez centímetros aún no sale orina.",
+        "question": "¿Qué afirmación sobre la técnica y los cuidados es correcta?",
+        "options": "Las opciones: inflar el balón al sentir resistencia, bolsa sobre la vejiga, abrir el sistema cada ocho horas, introducir hasta la bifurcación y ver orina antes de inflar con sistema cerrado o antibióticos permanentes. Piénsalo.",
+        "answer": "Es la D. En el hombre se introduce la sonda hasta el final y se infla el balón solo cuando sale orina, con técnica estéril y sistema cerrado. Inflar al sentir resistencia tienta, pero el balón quedaría en la uretra y puede romperla."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.5.004 · Cistostomía por punción",
+      "stem": "Hombre de 25 años sufre una caída a horcajadas sobre una viga. Consulta por imposibilidad de orinar de 6 horas. Al examen hay sangre en el meato uretral, hematoma perineal en alas de mariposa y globo vesical palpable a 3 cm bajo el ombligo. Hemodinámicamente estable.",
+      "question": "¿Cuál es la conducta más adecuada para drenar la vejiga?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sonda Foley transuretral con lubricación abundante"
+        },
+        {
+          "letter": "B",
+          "text": "Punción vesical con aguja y aspiración repetida cada 6 horas"
+        },
+        {
+          "letter": "C",
+          "text": "Sondeo con sonda metálica para vencer la estrechez"
+        },
+        {
+          "letter": "D",
+          "text": "Furosemida endovenosa y esperar micción espontánea"
+        },
+        {
+          "letter": "E",
+          "text": "Cistostomía suprapúbica por punción, idealmente guiada por ecografía, y estudio posterior con uretrografía retrógrada"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Sangre en el meato y hematoma perineal tras caída a horcajadas sugieren lesión de uretra bulbar: está contraindicado el sondeo transuretral. Con globo vesical palpable, la vejiga se drena mediante cistostomía suprapúbica por punción, y la uretra se estudia con uretrografía retrógrada.",
+      "say": {
+        "stem": "Un hombre de veinticinco años cae a horcajadas sobre una viga y no puede orinar. Tiene sangre en el meato, hematoma perineal en alas de mariposa y la vejiga palpable bajo el ombligo.",
+        "question": "¿Cómo se drena la vejiga?",
+        "options": "Las opciones: sonda Foley con mucho lubricante, punciones repetidas con aguja, sonda metálica, furosemida y esperar o cistostomía suprapúbica por punción. Piénsalo.",
+        "answer": "Es la E. La sangre en el meato tras una caída a horcajadas sugiere lesión de uretra, y entonces se drena por arriba con una cistostomía por punción. La sonda Foley tienta porque es lo habitual, pero puede transformar una rotura parcial en completa."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.5.005 · Instalación y cuidado de sonda Foley",
+      "stem": "Hombre de 70 años con retención urinaria aguda requiere la instalación de una sonda Foley. Se realiza técnica aséptica con lubricante con lidocaína.",
+      "question": "¿En qué momento debe inflarse el balón de la sonda?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Apenas la punta de la sonda pasa el meato"
+        },
+        {
+          "letter": "B",
+          "text": "Al sentir resistencia en la uretra prostática, sin esperar salida de orina"
+        },
+        {
+          "letter": "C",
+          "text": "Antes de introducir la sonda, para comprobar el balón dentro de la uretra"
+        },
+        {
+          "letter": "D",
+          "text": "Después de observar salida de orina y avanzar la sonda hasta su bifurcación"
+        },
+        {
+          "letter": "E",
+          "text": "Solo si el paciente refiere dolor"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El balón debe inflarse solo cuando se confirma que está en la vejiga: tras ver salir orina, se avanza la sonda hasta la bifurcación y luego se infla con agua destilada. Inflarlo en la uretra produce dolor, sangrado y lesión uretral (falsa vía). Ante resistencia que no cede o sangre en el meato, no se debe forzar.",
+      "say": {
+        "stem": "Hombre de setenta años con retención urinaria aguda, al que se le instalará una sonda Foley con técnica aséptica y lubricante con lidocaína.",
+        "question": "¿En qué momento se infla el balón?",
+        "options": "Las opciones: apenas pasa el meato, al sentir resistencia en la próstata, antes de introducirla, después de ver orina y avanzar hasta la bifurcación o solo si hay dolor. Piénsalo.",
+        "answer": "Es la D. El balón se infla cuando estás seguro de estar en la vejiga: sale orina, avanzas hasta la bifurcación y recién ahí lo inflas. Inflarlo al sentir resistencia tienta porque parece que llegaste, pero esa resistencia suele ser la próstata, y lo inflarías dentro de la uretra."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.1.025 · Uropatía obstructiva",
+      "stem": "Hombre de 79 años con síntomas urinarios obstructivos de años presenta tenesmo vesical, goteo y dolor hipogástrico. Al examen se palpa globo vesical. Creatinina 3,8 mg/dL (basal 1,1). La ecografía muestra hidroureteronefrosis bilateral y vejiga distendida.",
+      "question": "¿Cuál es la conducta inicial más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Instalación de sonda vesical Foley"
+        },
+        {
+          "letter": "B",
+          "text": "Nefrostomía percutánea bilateral"
+        },
+        {
+          "letter": "C",
+          "text": "Hemodiálisis de urgencia"
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar tamsulosina y control en 1 semana"
+        },
+        {
+          "letter": "E",
+          "text": "Resección transuretral de próstata de urgencia"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Es una uropatía obstructiva baja con insuficiencia renal posrenal por hiperplasia prostática con retención crónica. Lo primero es descomprimir la vejiga con sonda Foley, lo que resuelve la hidronefrosis bilateral, vigilando la poliuria posobstructiva. La nefrostomía se usa en la obstrucción alta y la diálisis no corresponde si se corrige la causa.",
+      "say": {
+        "stem": "Hombre de setenta y nueve años con globo vesical, hidronefrosis bilateral y creatinina elevada.",
+        "question": "¿Qué haces primero?",
+        "options": "Las opciones: sonda Foley, nefrostomía bilateral, hemodiálisis, tamsulosina y control o resección prostática urgente. Piénsalo.",
+        "answer": "Es la A. Sonda Foley, porque la obstrucción está en la salida vesical. La nefrostomía tienta por la hidronefrosis bilateral, pero esta se resuelve vaciando la vejiga."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.5.002 · Cistostomía de urgencia",
+      "stem": "Hombre de 30 años, motociclista, con fractura de pelvis tras una colisión. Presenta sangre en el meato uretral, hematoma perineal y globo vesical palpable, y no puede orinar.",
+      "question": "¿Cuál es la conducta más adecuada para drenar la vejiga?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Instalar sonda Foley forzando el paso"
+        },
+        {
+          "letter": "B",
+          "text": "Nefrostomía percutánea bilateral"
+        },
+        {
+          "letter": "C",
+          "text": "Esperar la micción espontánea"
+        },
+        {
+          "letter": "D",
+          "text": "Sonda Foley de menor calibre bien lubricada"
+        },
+        {
+          "letter": "E",
+          "text": "Cistostomía suprapúbica"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Sangre en el meato con fractura de pelvis sugiere lesión de la uretra posterior: está contraindicado instalar una sonda uretral, que puede completar la rotura. Se estudia con uretrografía retrógrada y la vejiga se drena con cistostomía suprapúbica, idealmente guiada por ecografía. La nefrostomía corresponde a obstrucción alta, no vesical.",
+      "say": {
+        "stem": "Motociclista con fractura de pelvis, sangre en el meato uretral y globo vesical.",
+        "question": "¿Cómo drenas la vejiga?",
+        "options": "Las opciones: Foley forzada, nefrostomía, esperar la micción, Foley de menor calibre o cistostomía suprapúbica. Piénsalo.",
+        "answer": "Es la E. Cistostomía suprapúbica, porque la sangre en el meato sugiere rotura uretral. Una Foley más delgada parece más suave, pero igual puede completar la lesión."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.5.005 · Nefrostomia percutánea",
+      "stem": "Mujer de 52 años con cáncer cervicouterino avanzado presenta oliguria y creatinina de 5,2 mg/dL. La ecografía muestra hidroureteronefrosis bilateral por compresión tumoral de ambos uréteres distales, y la cistoscopía muestra infiltración tumoral del trígono que impide identificar los meatos ureterales.",
+      "question": "¿Cuál es la conducta más adecuada para descomprimir la vía urinaria?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sonda Foley"
+        },
+        {
+          "letter": "B",
+          "text": "Nefrostomía percutánea"
+        },
+        {
+          "letter": "C",
+          "text": "Catéter doble J por vía cistoscópica"
+        },
+        {
+          "letter": "D",
+          "text": "Cistostomía suprapúbica"
+        },
+        {
+          "letter": "E",
+          "text": "Hemodiálisis como único tratamiento"
+        }
+      ],
+      "correct": "B",
+      "explanation": "En la obstrucción ureteral bilateral, cuando no es posible pasar un catéter doble J por vía retrógrada porque los meatos están infiltrados por tumor, se realiza una nefrostomía percutánea guiada por imágenes, que drena directamente la pelvis renal. La sonda Foley y la cistostomía drenan solo la vejiga y no resuelven una obstrucción ureteral.",
+      "say": {
+        "stem": "Mujer con cáncer cervicouterino avanzado, hidronefrosis bilateral y meatos ureterales infiltrados por tumor.",
+        "question": "¿Cómo descomprimes la vía urinaria?",
+        "options": "Las opciones: sonda Foley, nefrostomía percutánea, catéter doble jota, cistostomía, o solo hemodiálisis. Piénsalo.",
+        "answer": "Es la B. Nefrostomía percutánea, porque no se pueden encontrar los meatos para pasar un doble jota. El doble jota sería lo habitual, pero aquí es técnicamente imposible."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2017 · Pregunta 55",
+      "stem": "Paciente masculino de 30 años consulta por disminución del calibre miccional, asociada a disuria de esfuerzo de varios meses de evolución. Tiene antecedente de un trauma perineal hace 3 años. Al examen físico tiene genitales externos normales y su tacto rectal demuestra una próstata pequeña y blanda.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cáncer de próstata"
+        },
+        {
+          "letter": "B",
+          "text": "Uretritis"
+        },
+        {
+          "letter": "C",
+          "text": "Hiperplasia prostática benigna"
+        },
+        {
+          "letter": "D",
+          "text": "Estenosis uretral"
+        },
+        {
+          "letter": "E",
+          "text": "Urolitiasis"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Un hombre joven con chorro débil progresivo y antecedente de trauma perineal (lesión de uretra bulbar) tiene una estenosis uretral hasta demostrar lo contrario. Se estudia con uroflujometría y uretrografía retrógrada. La HPB ocurre en mayores y con próstata aumentada de tamaño.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecisiete. Hombre de treinta años con chorro miccional cada vez más delgado y esfuerzo para orinar, con trauma perineal hace tres años y próstata pequeña al tacto.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: cáncer de próstata, uretritis, hiperplasia prostática, estenosis uretral o urolitiasis. Piénsalo.",
+        "answer": "Es la D. El trauma perineal previo y el chorro débil en un joven apuntan a estenosis uretral. La hiperplasia prostática tienta por los síntomas obstructivos, pero ocurre en mayores y con una próstata grande."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2019 · Pregunta 74",
+      "stem": "Paciente de 18 años consulta por dolor lumbar izquierdo de larga evolución. Al examen físico tiene una masa en el flanco izquierdo. La ecografía abdominal muestra hidronefrosis izquierda con adelgazamiento de la corteza renal, sin dilatación ureteral. Su creatinina plasmática es 0,9 mg/dL y su sedimento de orina es normal. La cintigrafía renal muestra función diferencial de 90% a derecha y 10% a izquierda.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Realizar pieloplastía izquierda"
+        },
+        {
+          "letter": "B",
+          "text": "Realizar nefrostomía percutánea"
+        },
+        {
+          "letter": "C",
+          "text": "Realizar nefrectomía izquierda"
+        },
+        {
+          "letter": "D",
+          "text": "Instalar sonda Foley"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar pieloTAC"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Hidronefrosis sin dilatación ureteral indica estenosis pieloureteral. Con corteza adelgazada y función diferencial de 10% o menos en la cintigrafía, el riñón se considera no recuperable y sintomático: se indica nefrectomía. Si la función estuviera conservada, la conducta sería pieloplastía. La nefrostomía es solo una medida transitoria de drenaje.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecinueve. Joven de dieciocho años con dolor lumbar crónico y masa en el flanco izquierdo. Tiene hidronefrosis izquierda sin dilatación del uréter, corteza delgada, y la cintigrafía muestra que ese riñón aporta apenas el diez por ciento de la función.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: pieloplastía, nefrostomía, nefrectomía, sonda Foley o pieloTAC. Piénsalo.",
+        "answer": "Es la C. Con un riñón que aporta solo el diez por ciento y corteza adelgazada, no es recuperable y se indica nefrectomía. La pieloplastía tienta porque corrige la estenosis pieloureteral, pero solo vale la pena si el riñón conserva función."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.2.003 · Parafimosis",
+      "stem": "Hombre de 70 años hospitalizado con sonda Foley. Al día siguiente de instalada, la enfermera nota el glande edematoso y violáceo con un anillo prepucial retraído y tenso detrás del glande, muy doloroso.",
+      "question": "¿Cuál es el diagnóstico y la conducta inicial?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Balanitis; antifúngico tópico"
+        },
+        {
+          "letter": "B",
+          "text": "Parafimosis; circuncisión inmediata en todos los casos"
+        },
+        {
+          "letter": "C",
+          "text": "Fimosis; corticoide tópico"
+        },
+        {
+          "letter": "D",
+          "text": "Parafimosis; reducción manual del prepucio previa compresión del edema y analgesia"
+        },
+        {
+          "letter": "E",
+          "text": "Gangrena de Fournier; aseo quirúrgico"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La parafimosis es el prepucio retraído que no vuelve a su posición y forma un anillo constrictor, típicamente iatrogénica tras sonda o examen sin reponer el prepucio. Es una urgencia: se reduce manualmente tras analgesia y compresión del edema; si fracasa, incisión dorsal del anillo. La circuncisión se plantea en forma diferida.",
+      "say": {
+        "stem": "Hombre de setenta años con sonda Foley que al día siguiente presenta el glande hinchado y violáceo, con un anillo de prepucio retraído y apretado detrás.",
+        "question": "¿Cuál es el diagnóstico y la conducta inicial?",
+        "options": "Las opciones: balanitis con antifúngico, parafimosis con circuncisión inmediata, fimosis con corticoide, parafimosis con reducción manual o gangrena de Fournier. Piénsalo.",
+        "answer": "Es la D. Es una parafimosis por no reponer el prepucio al instalar la sonda, y se reduce manualmente tras comprimir el edema. La circuncisión inmediata tienta, pero solo se usa en forma diferida o si fallan la reducción y la incisión dorsal."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Enero 2023 · Pregunta 142",
+      "stem": "Paciente con antecedente de resección transuretral de próstata hace 10 años, sin micción desde hace 8 horas. Al intentar instalar una sonda, esta no avanza más allá de la uretra bulbar y se produce uretrorragia. No hay globo vesical palpable.",
+      "question": "¿Cuál es el examen de elección?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ecografía pelviana"
+        },
+        {
+          "letter": "B",
+          "text": "UroTAC sin contraste"
+        },
+        {
+          "letter": "C",
+          "text": "Uretrografía retrógrada"
+        },
+        {
+          "letter": "D",
+          "text": "Cistouretrografía miccional"
+        },
+        {
+          "letter": "E",
+          "text": "Cistoscopía flexible"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Una sonda que no progresa en la uretra bulbar en un paciente con instrumentación previa sugiere estenosis uretral. La uretrografía retrógrada (contraste por el meato) define ubicación y longitud de la estenosis anterior. La cistouretrografía miccional requiere que el paciente orine o vejiga accesible, y evalúa mejor la uretra posterior y el reflujo.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de enero de dos mil veintitrés. Paciente con resección prostática transuretral hace diez años, sin orinar por ocho horas. La sonda no pasa de la uretra bulbar y sangra por la uretra.",
+        "question": "¿Cuál es el examen de elección?",
+        "options": "Las opciones: ecografía pelviana, uroTAC sin contraste, uretrografía retrógrada, cistouretrografía miccional o cistoscopía flexible. Piénsalo.",
+        "answer": "Es la C. La uretrografía retrógrada, inyectando contraste por el meato, muestra la estenosis de la uretra anterior. La cistouretrografía miccional tienta por el nombre parecido, pero necesita que el paciente orine y evalúa mejor la uretra posterior."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.5.003 · Cistostomía abierta",
+      "stem": "Hombre de 30 años, tras caída a horcajadas sobre una viga, presenta sangre en el meato uretral, hematoma perineal en alas de mariposa y no puede orinar. Tiene globo vesical palpable. Está estable.",
+      "question": "¿Cuál es la conducta más adecuada para drenar la vejiga?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Instalar sonda Foley por vía uretral con fuerza"
+        },
+        {
+          "letter": "B",
+          "text": "Sondeo con sonda metálica"
+        },
+        {
+          "letter": "C",
+          "text": "Esperar micción espontánea"
+        },
+        {
+          "letter": "D",
+          "text": "Cistostomía suprapúbica (por punción o abierta) y luego estudio con uretrografía retrógrada"
+        },
+        {
+          "letter": "E",
+          "text": "Uretroplastía inmediata"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Uretrorragia, hematoma perineal y retención tras trauma a horcajadas indican lesión de uretra bulbar. Está contraindicado el sondeo uretral a ciegas porque puede completar la rotura. La vejiga se drena con cistostomía suprapúbica (percutánea o abierta si la vejiga no es puncionable con seguridad), y se estudia con uretrografía retrógrada; la reparación es diferida.",
+      "say": {
+        "stem": "Hombre de treinta años que cayó a horcajadas sobre una viga, con sangre en el meato, hematoma perineal y retención urinaria, estable.",
+        "question": "¿Cuál es la conducta para drenar la vejiga?",
+        "options": "Las opciones: sonda Foley forzada, sonda metálica, esperar micción, cistostomía suprapúbica y luego uretrografía o uretroplastía inmediata. Piénsalo.",
+        "answer": "Es la D. Con sospecha de lesión uretral se drena por cistostomía suprapúbica y se estudia con uretrografía retrógrada. La sonda Foley tienta por ser lo habitual, pero puede completar la rotura de la uretra."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.03.5.006 · Reducción de parafimosis",
+      "stem": "Niño de 10 años con parafimosis de 3 horas tras retraer el prepucio al bañarse. Glande edematoso, rosado, con anillo constrictor retraído. Se decide reducción manual en urgencia.",
+      "question": "¿Cuál es la técnica adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tirar del prepucio hacia adelante sin preparar el glande"
+        },
+        {
+          "letter": "B",
+          "text": "Analgesia, compresión manual sostenida del glande para reducir el edema, y luego empujar el glande con los pulgares mientras los índices y medios traccionan el prepucio hacia distal"
+        },
+        {
+          "letter": "C",
+          "text": "Incisión dorsal del prepucio como primera medida"
+        },
+        {
+          "letter": "D",
+          "text": "Aplicar calor local y esperar reducción espontánea"
+        },
+        {
+          "letter": "E",
+          "text": "Indicar corticoide tópico y control en 1 semana"
+        }
+      ],
+      "correct": "B",
+      "explanation": "La reducción manual de la parafimosis requiere analgesia (bloqueo peneano o anestesia tópica), compresión sostenida del glande para disminuir el edema y luego presión del glande con los pulgares mientras los dedos índice y medio llevan el anillo prepucial sobre él. Si falla, se realiza incisión dorsal. El calor aumenta el edema.",
+      "say": {
+        "stem": "Niño de diez años con parafimosis de tres horas, glande hinchado y anillo de prepucio retraído. Se intentará reducirla manualmente.",
+        "question": "¿Cuál es la técnica adecuada?",
+        "options": "Las opciones: tirar del prepucio sin preparar, analgesia y compresión del glande y luego empujarlo con los pulgares mientras se trae el prepucio, incisión dorsal primero, calor y esperar, o corticoide y control. Piénsalo.",
+        "answer": "Es la B. Primero analgesia y compresión del glande para bajar el edema, y luego empujarlo con los pulgares mientras se trae el prepucio hacia adelante. La incisión dorsal tienta, pero es el rescate si la reducción manual falla."
+      }
     },
 
     {

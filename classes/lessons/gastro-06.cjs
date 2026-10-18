@@ -42,7 +42,8 @@ module.exports = {
         { show: ['obs'], note: 'Hallazgo sin síntomas: se observa',
           say: 'Por eso no se opera. Si es un hallazgo en una endoscopía y no hay síntomas, se observa. Y si hay reflujo, lo que se trata es el reflujo, no la hernia.' },
         { show: ['par'], note: 'Menos del 5 %: una hernia real',
-          say: 'La otra, menos del cinco por ciento, es la paraesofágica, tipos dos a cuatro. Aquí la unión se queda en su sitio y es el fondo gástrico el que sube al lado del esófago. Es una hernia real, con un saco donde el estómago se puede torcer.' },
+          say: 'La otra, menos del cinco por ciento, es la paraesofágica, tipos dos a cuatro. Aquí la unión se queda en su sitio y es el fondo gástrico el que sube al lado del esófago. Es una hernia real, con un saco donde el estómago se puede torcer. Mira esta radiografía: una imagen redonda con aire detrás de la silueta cardíaca es el estómago subido al tórax.',
+          photo: { src: 'biblioteca/01_gastroenterologia/gastro-06/01_hernia-de-hiato-paraesofagica-rx__cto-digestivo_p35.jpg', label: 'Hernia paraesofágica', at: 'Mira esta radiografía', credit: 'Manual CTO Digestivo 14.ª ed., p. 35' } },
         { show: ['cir'], note: 'Riesgo de vólvulo, incarceración y estrangulación',
           say: 'Tiene riesgo de vólvulo, incarceración y estrangulación, así que se opera de forma electiva, con reparación más funduplicatura, y de urgencia si se complica.' },
       ],
@@ -82,7 +83,8 @@ module.exports = {
       cards: [
         { title: 'Anterior', tag: 'Las 4 T', kind: 'key', items: [
           { t: 'Timoma, Terrible linfoma', d: 'Teratoma, Tiroides (bocio endotorácico)',
-            say: 'Ahora el mediastino. Aquí la localización orienta la causa. En el mediastino anterior usamos la regla de las cuatro T: timoma, el terrible linfoma, teratoma y otros tumores germinales, y tiroides, el bocio endotorácico.' },
+            say: 'Ahora el mediastino. Aquí la localización orienta la causa. Mira este esquema: el mediastino se divide en anterior, medio y posterior. En el mediastino anterior usamos la regla de las cuatro T: timoma, el terrible linfoma, teratoma y otros tumores germinales, y tiroides, el bocio endotorácico.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-06/S1_mediastino-compartimentos__propio.svg', label: 'Compartimentos', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
         ] },
         { title: 'Medio y posterior', tag: 'Por compartimento', kind: 'normal', items: [
           { t: 'Medio: quistes y adenopatías', d: 'Broncogénicos, pericárdicos, aneurismas',
@@ -100,7 +102,8 @@ module.exports = {
       cards: [
         { title: 'Estudio', tag: 'TAC primero', kind: 'alert', items: [
           { t: 'TAC de tórax con contraste', d: 'Examen de elección en cualquier compartimento',
-            say: 'Sea cual sea el compartimento, el examen de elección es el TAC de tórax con contraste: muestra localización, tamaño y relación con los vasos.' },
+            say: 'Sea cual sea el compartimento, el examen de elección es el TAC de tórax con contraste: muestra localización, tamaño y relación con los vasos. Mira esta tomografía: una masa en el mediastino anterior, delante de los grandes vasos.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-06/03_masa-mediastinica-anterior-tc__atlas-eunacom.jpg', label: 'Masa mediastino anterior', at: 'Mira esta tomografía', credit: 'Atlas EUNACOM 2026' } },
           { t: 'Se completa según el caso', d: 'Marcadores, biopsia',
             say: 'Según el caso se completa con marcadores, como alfa feto proteína y beta hCG en los germinales, o con biopsia percutánea o quirúrgica.' },
         ] },
@@ -124,23 +127,6 @@ module.exports = {
       steps: [
         { note: 'Más del noventa y cinco por ciento: deslizamiento',
           say: 'En la hernia por deslizamiento, más del noventa y cinco por ciento, sube la unión gastroesofágica, y solo se trata el reflujo si lo hay. En la paraesofágica la unión queda en su lugar y sube el fondo, con riesgo de vólvulo, incarceración y estrangulación: esa se opera.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Hernia hiatal y compartimentos del mediastino',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-06/01_hernia-de-hiato-paraesofagica-rx__cto-digestivo_p35.jpg', label: 'Hernia paraesofágica', credit: 'Manual CTO Digestivo 14.ª ed., p. 35' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-06/S1_mediastino-compartimentos__propio.svg', label: 'Compartimentos', credit: 'Dibujo propio (esquema)' },
-      ],
-      steps: [
-        { note: 'Estómago detrás del corazón',
-          say: 'En esta radiografía hay una imagen redonda con aire detrás de la silueta cardíaca: es el estómago subido al tórax, una hernia paraesofágica.' },
-        { note: 'Anterior, medio y posterior',
-          say: 'Y este esquema divide el mediastino en sus tres compartimentos. Cada uno tiene sus propias masas, y esa ubicación orienta el diagnóstico.' },
       ],
     },
 
@@ -260,6 +246,44 @@ module.exports = {
         options: 'Las opciones: ecografía y quiste pericárdico, TAC con contraste y timoma con miastenia, resonancia y tumor neurogénico, PET y linfoma, o cintigrafía y bocio. Piénsalo.',
         answer: 'La respuesta es la B. Mediastino anterior te da las cuatro T, y la diplopía con debilidad que mejora con el reposo es una miastenia gravis: eso apunta al timoma. Y el examen de cualquier masa mediastínica es el TAC de tórax con contraste. El distractor es el linfoma, que también está en el mediastino anterior, pero no explica la miastenia.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.006 · Hernia hiatal",
+      "stem": "Mujer de 72 años con plenitud y dolor torácico después de comer, más anemia ferropénica. La endoscopía y el estudio con bario muestran una hernia hiatal paraesofágica (tipo II), con el fondo gástrico en el tórax y la unión gastroesofágica en su posición normal.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Omeprazol a permanencia y control clínico"
+        },
+        {
+          "letter": "B",
+          "text": "Observación, ya que es frecuente en adultos mayores"
+        },
+        {
+          "letter": "C",
+          "text": "Reparación quirúrgica electiva"
+        },
+        {
+          "letter": "D",
+          "text": "Dilatación endoscópica"
+        },
+        {
+          "letter": "E",
+          "text": "Proquinéticos y medidas posturales"
+        }
+      ],
+      "correct": "C",
+      "explanation": "La hernia paraesofágica sintomática tiene indicación quirúrgica por el riesgo de vólvulo, estrangulación y sangrado por lesiones de Cameron, que explican la anemia. La hernia por deslizamiento (tipo I), en cambio, se maneja como reflujo con IBP y solo se opera si fracasa el tratamiento médico.",
+      "say": {
+        "stem": "Vamos con una pregunta de práctica. Mujer de setenta y dos años con plenitud y dolor torácico después de comer, y anemia por falta de hierro. Los estudios muestran una hernia hiatal paraesofágica: el fondo del estómago está en el tórax, pero la unión entre esófago y estómago sigue en su lugar.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: omeprazol a permanencia, observar, cirugía electiva, dilatación endoscópica o proquinéticos con medidas posturales. Piénsalo.",
+        "answer": "Es la C. La hernia paraesofágica con síntomas se opera, porque puede volvularse, estrangularse o sangrar. El omeprazol es el distractor: es el tratamiento de la hernia por deslizamiento, que se comporta como un reflujo, pero no protege de esas complicaciones mecánicas."
+      }
     },
 
     {

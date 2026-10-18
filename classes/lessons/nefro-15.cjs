@@ -57,7 +57,11 @@ module.exports = {
         ] },
         { title: 'El síndrome nefrítico', tag: 'Lo que ves', kind: 'key', items: [
           { t: 'Orina color té o coca-cola', d: 'Hematuria glomerular macroscópica',
-            say: 'Luego aparece el síndrome nefrítico. Orina oscura, color té o coca-cola, porque es sangre de origen glomerular.' },
+            say: 'Luego aparece el síndrome nefrítico. Orina oscura, color té o coca-cola, porque es sangre de origen glomerular. Mira esta tira de orina: sangre y proteínas. Y en el sedimento, este cilindro hemático, un molde de glóbulos rojos formado en el túbulo.',
+            photos: [
+              { src: 'biblioteca/03_nefrologia/nefro-15/02_tira-de-orina-hematuria-proteinuria__cto-pediatria_p81.jpg', label: 'Tira de orina', at: 'Mira esta tira de orina', credit: 'Manual CTO Pediatría 14.ª ed., p. 81' },
+              { src: 'biblioteca/03_nefrologia/nefro-15/01_cilindro-hematico__amir-nefro17_p46.jpg', label: 'Cilindro hemático', at: 'Y en el sedimento', credit: 'Manual AMIR Nefrología 17.ª ed., p. 46' }
+            ] },
           { t: 'Edema periorbitario matinal', d: 'Y maleolar',
             say: 'Edema de los párpados en la mañana y de los tobillos, por la sal y el agua retenidas.' },
           { t: 'Hipertensión y oliguria', d: 'Volumen-dependiente',
@@ -144,19 +148,48 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Urgencia',
+      title: 'Emergencia hipertensiva: cuando la presión daña un órgano',
+      cards: [
+        { title: 'Cómo se define', tag: '≥ 180/120 mmHg', kind: 'alert', items: [
+          { t: 'Presión muy alta con daño de órgano', d: 'Encefalopatía, ACV, edema pulmonar, SCA, disección, IRA, eclampsia, retinopatía',
+            say: 'Detengámonos en la crisis hipertensiva, porque el nefrítico puede llegar a ella. Es una emergencia hipertensiva cuando la presión llega a ciento ochenta sobre ciento veinte o más, con daño agudo de órgano blanco: encefalopatía, accidente cerebrovascular, edema agudo de pulmón, síndrome coronario, disección aórtica, injuria renal, eclampsia o una retinopatía con hemorragias y edema de papila.' },
+          { t: 'Sin daño de órgano: urgencia', d: 'Antihipertensivo oral y control ambulatorio',
+            say: 'Si no hay daño de órgano, es una urgencia hipertensiva. Se maneja con un antihipertensivo oral y control ambulatorio, sin descensos bruscos.' },
+          { t: 'En el nefrítico: diurético de asa', d: 'Es parte central del tratamiento',
+            say: 'En el síndrome nefrítico, la hipertensión por sobrecarga de volumen puede alcanzar rango de emergencia, y ahí el diurético de asa es parte central del tratamiento.' },
+        ] },
+        { title: 'Fármacos endovenosos', tag: 'Unidad de paciente crítico', kind: 'pharma', items: [
+          { t: 'Nitroprusiato, labetalol, nitroglicerina', d: 'Nicardipino o clevidipino · furosemida IV si hay sobrecarga',
+            say: 'La emergencia se maneja en una unidad de paciente crítico, con monitoreo continuo y fármacos endovenosos titulables: nitroprusiato, labetalol, nitroglicerina si hay síndrome coronario o edema pulmonar, nicardipino o clevidipino, y furosemida cuando hay sobrecarga de volumen.' },
+          { t: 'Nitroprusiato: ojo con el tiocianato', d: 'En insuficiencia renal o uso prolongado',
+            say: 'Con el nitroprusiato hay que vigilar la intoxicación por tiocianato, sobre todo en insuficiencia renal y con uso prolongado.' },
+          { t: 'Nunca nifedipino sublingual', d: 'Baja la presión de forma brusca e impredecible',
+            say: 'Y se evita el nifedipino sublingual, por el descenso brusco e impredecible de la presión.' },
+        ] },
+        { title: 'Metas y excepciones', tag: 'Cuánto bajar', kind: 'key', items: [
+          { t: 'PAM: no más de 25 % en la primera hora', d: '160/100 en 2–6 horas · normalizar en 24–48 horas',
+            say: 'La meta general es bajar la presión arterial media no más de veinticinco por ciento en la primera hora, llegar a ciento sesenta sobre cien en dos a seis horas, y normalizar en veinticuatro a cuarenta y ocho horas.' },
+          { t: 'Disección aórtica: PAS < 120 en 20 minutos', d: 'Con betabloqueo previo',
+            say: 'Hay excepciones. En la disección aórtica la sistólica debe bajar de ciento veinte en veinte minutos, con betabloqueo previo.' },
+          { t: 'Eclampsia y ACV isquémico', d: 'Sulfato de magnesio y labetalol · ACV: tratar solo si > 220/120 (185/110 si hay trombólisis)',
+            say: 'En la eclampsia se da sulfato de magnesio y labetalol o hidralazina. Y en el accidente cerebrovascular isquémico solo se trata si pasa de doscientos veinte sobre ciento veinte, o de ciento ochenta y cinco sobre ciento diez si se planea trombólisis.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'El síndrome nefrítico',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'El complemento que cae y vuelve',
       images: [
-        { src: 'biblioteca/03_nefrologia/nefro-15/01_cilindro-hematico__amir-nefro17_p46.jpg', label: 'Cilindro hemático', credit: 'Manual AMIR Nefrología 17.ª ed., p. 46' },
-        { src: 'biblioteca/03_nefrologia/nefro-15/02_tira-de-orina-hematuria-proteinuria__cto-pediatria_p81.jpg', label: 'Tira de orina', credit: 'Manual CTO Pediatría 14.ª ed., p. 81' },
+        { src: 'animaciones/nefro-15/A1_gnpe_c3.mp4', label: 'Postestreptocócica', credit: 'Ilustración: Servier Medical Art, CC BY 4.0 · rótulos y animación propios' },
       ],
       steps: [
-        { note: 'Glóbulos rojos dentro del cilindro',
-          say: 'Este es un cilindro hemático: glóbulos rojos atrapados dentro de un molde del túbulo. Es el hallazgo que confirma que la hematuria es glomerular.' },
-        { note: 'Sangre y proteínas',
-          say: 'La tira de orina muestra sangre y proteínas. En el nefrítico predomina la hematuria; en el nefrótico, la proteinuria masiva.' },
+        { note: 'Latencia, inmunocomplejos y C3',
+          say: 'Tras la faringitis hay una latencia de una a dos semanas. Los inmunocomplejos se depositan en el glomérulo, consumen el C tres y producen una inflamación con hematuria dismórfica. El C tres bajo se normaliza solo a las seis a ocho semanas, y como el problema es el volumen, se trata con furosemida y sin corticoides.' },
       ],
     },
 
@@ -251,6 +284,119 @@ module.exports = {
         options: 'Las opciones son: nefropatía mesangiocapilar, lupus, glomerulonefritis postestreptocócica, nefropatía por IgA, o vasculitis de vaso pequeño. Piénsalo.',
         answer: 'Es la D, nefropatía por IgA. Aplica los dos datos de la tabla: la hematuria apareció a los dos días, junto con la faringitis, y el complemento es normal. La postestreptocócica tienta porque hay faringitis, pero le falta la latencia y le falta el C tres bajo. Y la lúpica y la mesangiocapilar también consumen complemento.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.09.4.012 · Examen de orina y sedimento urinario",
+      "stem": "Mujer de 34 años con hematuria microscópica persistente en 3 exámenes. PA 138/88 mmHg. Creatinina 1,0 mg/dL. Se evalúa el sedimento urinario para definir el origen del sangrado.",
+      "question": "¿Cuál de los siguientes hallazgos indica con mayor especificidad un origen glomerular?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cilindros hemáticos"
+        },
+        {
+          "letter": "B",
+          "text": "Hematuria con coágulos"
+        },
+        {
+          "letter": "C",
+          "text": "Leucocituria con piuria"
+        },
+        {
+          "letter": "D",
+          "text": "Cilindros hialinos"
+        },
+        {
+          "letter": "E",
+          "text": "Cristales de oxalato de calcio"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Los cilindros hemáticos se forman en el túbulo con glóbulos rojos que atravesaron el capilar glomerular: son patognomónicos de hematuria glomerular, igual que los acantocitos mayores de 5 %. Los coágulos orientan a sangrado de vía urinaria, donde no hay plasma con actividad anticoagulante.",
+      "say": {
+        "stem": "Una mujer de treinta y cuatro años tiene hematuria microscópica en tres exámenes, con presión algo alta y creatinina normal. Se mira el sedimento para saber de dónde viene la sangre.",
+        "question": "¿Qué hallazgo indica con mayor especificidad un origen glomerular?",
+        "options": "Las opciones: cilindros hemáticos, coágulos, piuria, cilindros hialinos o cristales de oxalato. Piénsalo.",
+        "answer": "Es la A, los cilindros hemáticos. Son glóbulos rojos que pasaron el glomérulo y quedaron moldeados en el túbulo, y eso solo ocurre si el sangrado es glomerular. Los coágulos tientan, pero hablan de sangrado de la vía urinaria, no del glomérulo."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 64",
+      "stem": "Un niño de 7 años presenta edema de párpados y de extremidades inferiores, asociado a orinas oscuras. Al examen tiene edema palpebral y de ambas piernas, con presión arterial de 127/85 mmHg.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Síndrome nefrítico"
+        },
+        {
+          "letter": "B",
+          "text": "Síndrome nefrótico"
+        },
+        {
+          "letter": "C",
+          "text": "Enfermedad de Berger"
+        },
+        {
+          "letter": "D",
+          "text": "Necrosis tubular aguda"
+        },
+        {
+          "letter": "E",
+          "text": "Síndrome hemolítico urémico"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Edema, hematuria macroscópica (orinas oscuras) e hipertensión (127/85 es elevada para 7 años) conforman el síndrome nefrítico; en escolares la causa más frecuente es la glomerulonefritis postestreptocócica. El nefrótico cursa con edema y proteinuria masiva, sin HTA ni hematuria importante. La enfermedad de Berger da hematuria sincrónica con la infección, generalmente sin edema.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Un niño de siete años tiene edema de párpados y piernas, orinas oscuras y presión de ciento veintisiete con ochenta y cinco.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: síndrome nefrítico, síndrome nefrótico, enfermedad de Berger, necrosis tubular o síndrome hemolítico urémico. Piénsalo.",
+        "answer": "Es la A. Edema, hematuria e hipertensión son el síndrome nefrítico. El nefrótico tienta por el edema, pero no explica la hematuria macroscópica ni la hipertensión."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.2.007 · Emergencia hipertensiva",
+      "stem": "Un niño de 8 años, con faringitis hace 2 semanas, presenta orinas oscuras, edema y cefalea intensa. En urgencia presenta una convulsión tónico-clónica generalizada. La presión arterial es 165/110 mmHg y la glicemia es normal.",
+      "question": "Una vez controlada la convulsión, ¿cuál es el manejo más adecuado de la presión arterial?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Normalizar la presión arterial en la primera hora"
+        },
+        {
+          "letter": "B",
+          "text": "Solo restricción de sal y líquidos"
+        },
+        {
+          "letter": "C",
+          "text": "Observar sin tratamiento hasta que mejore la función renal"
+        },
+        {
+          "letter": "D",
+          "text": "Captopril oral y control ambulatorio"
+        },
+        {
+          "letter": "E",
+          "text": "Descenso gradual con antihipertensivo endovenoso, bajando no más de 25% en las primeras 8 horas"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Hipertensión grave con daño de órgano blanco (encefalopatía hipertensiva con convulsión) en una glomerulonefritis postestreptocócica es una emergencia hipertensiva. Se trata en unidad de paciente crítico con antihipertensivo endovenoso titulable (labetalol o nicardipino) y furosemida por la sobrecarga de volumen, bajando la PA en forma gradual (no más de 25% en 8 horas) para evitar isquemia cerebral.",
+      "say": {
+        "stem": "Un niño de ocho años con glomerulonefritis postestreptocócica tiene presión de ciento sesenta y cinco con ciento diez y convulsiona.",
+        "question": "¿Cuál es el manejo de la presión arterial?",
+        "options": "Las opciones: normalizarla en una hora, solo restricción de sal, observar, captopril ambulatorio o descenso gradual endovenoso. Piénsalo.",
+        "answer": "Es la E. Es una emergencia hipertensiva y se baja la presión en forma gradual con un antihipertensivo endovenoso, no más de un cuarto en ocho horas. Normalizarla rápido tienta, pero una caída brusca puede producir isquemia cerebral."
+      }
     },
 
     {

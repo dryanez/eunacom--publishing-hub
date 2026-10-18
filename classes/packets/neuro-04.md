@@ -433,7 +433,7 @@ Embarazada de 36 semanas con presión arterial 170/110 y cefalea frontal intensa
 Explicación del banco: Preeclampsia severa a ≥34 semanas: hospitalización + control de PA (labetalol o hidralazina EV) + sulfato de magnesio para prevenir eclampsia + interrupción del embarazo una vez estabilizada.
 
 ### [9] EUNACOM Diciembre 2025 · Pregunta 48 · confianza 0.95
-Una paciente de 25 años, primigesta con 32 semanas de gestación, presenta cefalea intensa y malestar general. Al examen Fsico destaca una presión arterial de 170/110 mmHg, por lo que se administra labetalol endovenoso, logrando cifras tensionales de 140/90 mmHg. Sin embargo, dos horas después presenta una convulsión tónico-clónica de 2 minutos de duración. ¿Cuál es la conducta más adecuada?
+Una paciente de 25 años, primigesta con 32 semanas de gestación, presenta cefalea intensa y malestar general. Al examen físico destaca una presión arterial de 170/110 mmHg, por lo que se administra labetalol endovenoso, logrando cifras tensionales de 140/90 mmHg. Sin embargo, dos horas después presenta una convulsión tónico-clónica de 2 minutos de duración. ¿Cuál es la conducta más adecuada?
 - A) Administrar lorazepam endovenoso
 - B) Administrar labetalol endovenoso
 - C) Administrar sulfato de magnesio endovenoso
@@ -470,7 +470,7 @@ Una paciente de 23 años, sin antecedentes, consulta muy preocupada porque desde
 - D) Sertralina y diazepam
 - E) Paroxetina y lamotrigina
 **Correcta: D**
-Explicación del banco: Hay que darle un ISRS y al inicio una BDZ. La única opción que cumple con eso es la D. Los anticnovulsivantes y antipsicóticos no están indicados en el T. de angustia. Lo ideal sería empezar con ﬂuoxetina 10 mg al día más alprazolam (no diazepam) 0,5 mg cada 8-12 horas y terminar con ﬂuoxetina 20 mg al día, sin BDZ en un par de semanas.
+Explicación del banco: Hay que darle un ISRS y al inicio una BDZ. La única opción que cumple con eso es la D. Los anticnovulsivantes y antipsicóticos no están indicados en el T. de angustia. Lo ideal sería empezar con fluoxetina 10 mg al día más alprazolam (no diazepam) 0,5 mg cada 8-12 horas y terminar con fluoxetina 20 mg al día, sin BDZ en un par de semanas.
 
 ### [13] EUNACOM Julio 2015 · Pregunta 179 · confianza 0.94
 Un paciente de 60 años, diabético e hipertenso, mal controlado, consulta por pérdida súbita e indolora de la visión del ojo izquierda. Con el ojo izquierdo solo puede contar dedos. Al examen físico no se ven alteraciones externas, pero el rojo pupilar del ojo izquierdo está muy disminuido. El diagnóstico más probable es:

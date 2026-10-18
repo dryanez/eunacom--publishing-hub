@@ -63,7 +63,37 @@ module.exports = {
           { t: 'Citoquímico y recuento celular', d: 'Con diferencial leucocitario y glucosa',
             say: 'El líquido aspirado se envía de inmediato a citoquímico con recuento leucocitario y diferencial, y glucosa sinovial comparada con la glicemia.' },
           { t: 'Gram, cultivo y cristales', d: 'Microscopía con luz polarizada',
-            say: 'Se solicita tinción de Gram inmediata, cultivo para aerobios y anaerobios, y búsqueda de cristales en fresco con microscopio de luz polarizada compensada.' },
+            say: 'Se solicita tinción de Gram inmediata, cultivo para aerobios y anaerobios, y búsqueda de cristales en fresco con microscopio de luz polarizada compensada. Mira estos cristales de urato: agujas finas y brillantes, que en la gota muestran birrefringencia negativa. Y en este otro campo son las mismas agujas sobre fondo oscuro.',
+            photos: [
+              { src: 'biblioteca/08_reumatologia/reuma-01/01_cristales-de-urato-luz-polarizada__cto-reuma_p49.jpg', label: 'Cristales de urato', at: 'Mira estos cristales de urato', credit: 'Manual CTO Reumatología 14.ª ed., p. 49' },
+              { src: 'biblioteca/08_reumatologia/reuma-01/01_cristales-de-urato-luz-polarizada_alt1__amir-reuma_p20.jpg', label: 'Agujas en luz polarizada', at: 'Y en este otro campo', credit: 'Manual AMIR Reumatología, p. 20' },
+            ] },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Técnica',
+      title: 'La punción de rodilla, paso a paso',
+      cards: [
+        { title: 'Preparación', tag: 'Antes de pinchar', kind: 'key', items: [
+          { t: 'Consentimiento y posición', d: 'Supino, rodilla extendida, cuádriceps relajado',
+            say: 'Esta es una técnica que el médico general debe saber hacer. Primero explicas el procedimiento y pides el consentimiento. El paciente se acuesta boca arriba, con la rodilla extendida, o flectada unos veinte grados, y con el cuádriceps relajado.' },
+          { t: 'Asepsia estricta', d: 'Clorhexidina o povidona, guantes y campo estériles',
+            say: 'Limpias con clorhexidina o povidona, usas guantes y campo estériles, y no vuelves a palpar el punto que ya limpiaste. Anestesia local de la piel es opcional.' },
+        ] },
+        { title: 'La punción', tag: 'Suprarrotuliana lateral', kind: 'criteria', items: [
+          { t: 'Un centímetro por fuera de la rótula', d: 'Desde su polo superior, aguja oblicua',
+            say: 'El abordaje habitual es el suprarrotuliano lateral. Palpas el polo superior de la rótula y punciona un centímetro por fuera de él, con la aguja oblicua hacia la bolsa suprarrotuliana, por debajo de la rótula. El abordaje medial también sirve.' },
+          { t: 'Aspirar todo lo posible', d: 'Aguja 18 a 21 G, jeringa de 10 a 20 mL',
+            say: 'Usas una aguja de calibre dieciocho a veintiuno y una jeringa de diez a veinte mililitros. Aspiras lo más completo que puedas y al retirar haces presión local.' },
+        ] },
+        { title: 'Cuándo no puncionar', tag: 'Y qué puede pasar', kind: 'alert', items: [
+          { t: 'Piel infectada, prótesis, coagulopatía', d: 'La prótesis la punciona el traumatólogo',
+            say: 'No se punciona a través de piel infectada, ni en una articulación con prótesis, que la punciona el traumatólogo, ni con una coagulopatía no corregida. La anticoagulación bien controlada no lo contraindica.' },
+          { t: 'Dolor, hemartrosis, infección', d: 'Sin corticoide si puede haber infección',
+            say: 'Las complicaciones son dolor, hemartrosis y, muy rara vez con buena técnica, infección iatrogénica. Y recuerda: si existe la posibilidad de infección, no se inyecta corticoide en la articulación.' },
         ] },
       ],
     },
@@ -128,6 +158,32 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Laboratorio clave',
+      title: 'Cómo leer el Gram del líquido',
+      cards: [
+        { title: 'Grampositivos', tag: 'Los más frecuentes', kind: 'key', items: [
+          { t: 'Cocos en racimos', d: 'Staphylococcus aureus: cloxacilina o cefazolina',
+            say: 'Cocos grampositivos en racimos orientan a Staphylococcus aureus. Se cubre con cloxacilina o cefazolina, y con vancomicina si hay riesgo de estafilococo resistente a meticilina.' },
+          { t: 'Cocos en cadenas o pares', d: 'Estreptococos: pyogenes y neumococo',
+            say: 'Cocos grampositivos en cadenas o en pares apuntan a estreptococos, como el pyogenes o el neumococo.' },
+        ] },
+        { title: 'Gramnegativos', tag: 'Según el terreno', kind: 'criteria', items: [
+          { t: 'Diplococos intracelulares', d: 'Neisseria gonorrhoeae, difícil de ver',
+            say: 'Diplococos gramnegativos dentro de las células orientan a gonococo, pero se ven poco: el Gram resulta positivo solo en alrededor de uno de cada cuatro pacientes con artritis gonocócica.' },
+          { t: 'Bacilos gramnegativos', d: 'Enterobacterias o Pseudomonas',
+            say: 'Bacilos gramnegativos sugieren enterobacterias o Pseudomonas, sobre todo en el adulto mayor, el usuario de drogas endovenosas o el paciente sondado.' },
+        ] },
+        { title: 'La trampa', tag: 'Sensibilidad limitada', kind: 'alert', items: [
+          { t: 'Gram negativo no descarta', d: 'Sensibilidad de 60 a 75% solo en S. aureus',
+            say: 'Ojo, porque esto se pregunta. La sensibilidad del Gram es de sesenta a setenta y cinco por ciento para el estafilococo áureo, y mucho menor para gonococo y gramnegativos. Un Gram negativo no descarta una artritis séptica.' },
+          { t: 'Se trata por clínica y recuento', d: 'El cultivo confirma; los cristales no excluyen',
+            say: 'La decisión de tratar se toma con la clínica y el recuento celular, y el cultivo confirma. Y los cristales tampoco excluyen una infección concomitante.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'flow',
       kicker: 'Conducta inmediata',
       title: 'Decisión terapéutica frente al resultado',
@@ -173,19 +229,6 @@ module.exports = {
       steps: [
         { note: 'Antes del primer antibiótico',
           say: 'El líquido normal tiene menos de doscientos leucocitos. El tipo uno, no inflamatorio, de doscientos a dos mil, es el de la artrosis. El tipo dos, inflamatorio, de dos mil a cincuenta mil, es el de la gota, la condrocalcinosis y la artritis reumatoide. El tipo tres, séptico, tiene más de cincuenta mil, con más de noventa por ciento de neutrófilos. Y el tipo cuatro es hemorrágico.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Cristales en el líquido articular',
-      images: [
-        { src: 'biblioteca/08_reumatologia/reuma-01/01_cristales-de-urato-luz-polarizada__cto-reuma_p49.jpg', label: 'Cristales de urato', credit: 'Manual CTO Reumatología 14.ª ed., p. 49' },
-      ],
-      steps: [
-        { note: 'Agujas con birrefringencia negativa',
-          say: 'En la gota, el líquido articular muestra cristales en aguja, con birrefringencia negativa en luz polarizada. Pero recuerda: toda monoartritis aguda se cultiva, porque puede ser séptica.' },
       ],
     },
 
@@ -280,6 +323,82 @@ module.exports = {
         options: 'Las opciones: reactiva, seronegativa, reumatoide, séptica, o psoriática. Piénsalo.',
         answer: 'La respuesta correcta es la D. Cincuenta mil leucocitos por milímetro cúbico es la cifra de corte que separa el líquido inflamatorio del séptico. Aunque las artritis inflamatorias pueden alcanzar cifras altas, ante un recuento de cincuenta mil sin cristales y sin foco alternativo, el paciente se maneja como una artritis séptica. En el EUNACOM el umbral de cincuenta mil siempre enciende la alarma infecciosa.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2015 · Pregunta 8",
+      "stem": "Un adulto mayor presenta gonalgia bilateral, de dos años de evolución, que aumenta con la marcha. Hace algunas horas el dolor de la rodilla izquierda se vuelve mucho más intenso, apareciendo eritema, aumento de volumen y sensación febril.",
+      "question": "¿Cuál es el examen más adecuado para este paciente?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Resonancia magnética de rodilla"
+        },
+        {
+          "letter": "B",
+          "text": "Radiografía de rodilla"
+        },
+        {
+          "letter": "C",
+          "text": "Hemograma y VHS"
+        },
+        {
+          "letter": "D",
+          "text": "Estudio de líquido articular"
+        },
+        {
+          "letter": "E",
+          "text": "TAC de rodilla"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Sobre una artrosis de base aparece una monoartritis aguda, inflamatoria y febril: hay que descartar artritis séptica y por cristales. El examen clave es la artrocentesis con estudio del líquido: recuento celular, Gram, cultivo y búsqueda de cristales. La radiografía y el hemograma ayudan, pero no confirman ni descartan infección.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil quince. Un adulto mayor con dolor de ambas rodillas hace dos años, que aumenta al caminar. Hace unas horas la rodilla izquierda se pone mucho más dolorosa, roja e hinchada, con sensación febril.",
+        "question": "¿Cuál es el examen más adecuado?",
+        "options": "Las opciones: resonancia de rodilla, radiografía de rodilla, hemograma con velocidad de sedimentación, estudio de líquido articular, o TAC de rodilla. Piénsalo.",
+        "answer": "Es la D. Una monoartritis aguda febril es artritis séptica hasta demostrar lo contrario, y solo el líquido articular la confirma, además de buscar cristales. La radiografía tienta por la artrosis de base, pero no distingue una infección de una crisis por cristales."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.02.4.009 · Gram líquido articular",
+      "stem": "Mujer de 70 años con monoartritis aguda de rodilla izquierda y fiebre. La artrocentesis obtiene líquido turbio con 65.000 leucocitos/mm3, 92% polimorfonucleares. Se observan cristales romboidales con birrefringencia positiva débil. El Gram es negativo (no se observan bacterias).",
+      "question": "¿Cuál es la interpretación más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pseudogota; el Gram negativo descarta infección"
+        },
+        {
+          "letter": "B",
+          "text": "Artritis séptica descartada; iniciar colchicina"
+        },
+        {
+          "letter": "C",
+          "text": "No se puede descartar artritis séptica: el Gram tiene baja sensibilidad; iniciar antibióticos empíricos hasta el resultado del cultivo"
+        },
+        {
+          "letter": "D",
+          "text": "Gota aguda; indicar AINE"
+        },
+        {
+          "letter": "E",
+          "text": "Artritis reactiva; buscar infección genitourinaria"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El Gram del líquido sinovial es específico pero poco sensible (cerca de 50%): un Gram negativo no descarta artritis séptica. Además, cristales e infección pueden coexistir. Con líquido de más de 50.000 leucocitos y fiebre, se trata empíricamente como séptica hasta que el cultivo resulte negativo.",
+      "say": {
+        "stem": "Mujer de setenta años con monoartritis febril de rodilla. El líquido tiene sesenta y cinco mil leucocitos, casi todos polimorfonucleares, cristales de pirofosfato y un Gram sin bacterias.",
+        "question": "¿Cuál es la interpretación más adecuada?",
+        "options": "Las opciones: pseudogota con infección descartada, iniciar colchicina, no descartar infección y tratar empíricamente, gota aguda, o artritis reactiva. Piénsalo.",
+        "answer": "Es la C. El Gram tiene baja sensibilidad, así que no descarta infección, y cristales e infección pueden coexistir; se tratan antibióticos hasta el cultivo. Quedarse con pseudogota tienta por los cristales, pero arriesga una artritis séptica no tratada."
+      }
     },
 
     {

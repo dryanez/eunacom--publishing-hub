@@ -108,6 +108,16 @@ const rawClasses = [
           "  - <strong>Estadios Precoces SIN INVASIÓN DE PARAMETRIOS (IA, IB1, IB2, IIA1):</strong> <strong>TRATAMIENTO QUIRÚRGICO RADICAL</strong> mediante <strong>Histerectomía Radical con Linfadenectomía Pélvica bilateral (Operación de Wertheim-Meigs)</strong> o traquelectomía radical con conservación uterina si desea fertilidad en estadios muy iniciales.",
           "  - <strong>Estadios Avanzados CON INVASIÓN DE PARAMETRIOS (≥ ESTADIO IIB):</strong> <strong>¡LA CIRUGÍA ESTÁ ESTRICTAMENTE PROHIBIDA Y CONTRAINDICADA!</strong> El tratamiento curativo de elección es la <strong>QUIMIOTERAPIA CONCOMITANTE BASADA EN CISPLATINO MÁS RADIOTERAPIA EXTERNA Y BRAQUITERAPIA INTRACAVITARIA</strong>."
         ]
+      },
+      {
+        "subhead": "4. Procedimientos: Toma de Papanicolau y Taponaje Vaginal",
+        "paragraphs": [
+          "• <strong>Toma de Papanicolau (procedimiento: Realizar):</strong> idealmente fuera de la menstruación y sin relaciones sexuales, duchas, óvulos o cremas vaginales en las 48 horas previas. Se usa espéculo <strong>sin lubricante</strong>, se visualiza el cuello y se toman <strong>dos muestras</strong>: exocérvix con la <strong>espátula de Ayre</strong> (rotándola 360° sobre la unión escamocolumnar) y endocérvix con <strong>cepillo (citobrush)</strong>.",
+          "  - El frotis se extiende en la lámina con un solo movimiento, delgado y uniforme, y se <b>fija de inmediato</b> (spray o alcohol 95%) para evitar la desecación; se rotula con identificación de la paciente y se envía con la solicitud (edad, FUR, antecedentes, método anticonceptivo). Si el cuello sangra, hay inflamación intensa o se sospecha cáncer, no se posterga: se deriva. La muestra es satisfactoria si incluye células endocervicales/zona de transformación. En citología en base líquida o test de ADN-VPH se usa el cepillo con recipiente de transporte.",
+          "• <strong>Taponaje vaginal (procedimiento: Realizar):</strong> medida temporal de <strong>hemostasia en hemorragia vaginal o cervical masiva</strong> (cáncer cervicouterino, trauma obstétrico o sexual, posbiopsia), mientras se repone volumen y se traslada a un centro con resolución.",
+          "  - <strong>Técnica:</strong> vía venosa y analgesia; con espéculo se limpia y se identifica el punto sangrante; se introduce <b>gasa larga o compresas</b> (mejor impregnadas en ácido tranexámico, povidona o vaselina) empaquetando desde el fondo vaginal hacia el introito; se coloca <strong>sonda Foley</strong> para evitar retención urinaria (el tapón comprime la uretra). El tapón se retira a las <b>24-48 horas</b>, con profilaxis antibiótica según protocolo. Contar las gasas. No reemplaza la derivación urgente a oncología ginecológica.",
+          "• <strong>Tamizaje ginecológico (PAP y mamografía):</strong> en este tomo se divide el tema: el <strong>tamizaje con Papanicolau/ADN-VPH</strong> se enseña aquí (25-64 años, cada 3 años) y el de <strong>mamografía</strong> en el Tomo de cáncer de mama (tema 20.14: 50-69 años, cada 2 años)."
+        ]
       }
     ],
     "table": {
@@ -457,6 +467,14 @@ const rawClasses = [
           "  - <strong>Cirugía Conservadora (Tumorectomía / Cuadrantectomía):</strong> Extirpa el tumor con márgenes libres. <strong>EXIGE SIEMPRE RADIOTERAPIA POSTOPERATORIA OBLIGATORIA SOBRE LA MAMA RESTANTE</strong> (sin radioterapia, la tasa de recidiva es inaceptable). Ofrece idéntica sobrevida que la mastectomía.",
           "  - <strong>Mastectomía Total:</strong> Indicada ante tumores multicéntricos, microcalcificaciones difusas extensas, mala relación mama-tumor o contraindicación de radioterapia.",
           "  - <strong>Manejo de la Axila:</strong> <strong>Biopsia del Ganglio Centinela</strong> (con tecnecio-99 o azul de metileno). Si es negativo, <strong>se evita la linfadenectomía axilar completa</strong>, previniendo el linfedema del brazo."
+        ]
+      },
+      {
+        "subhead": "5. Ecotomografía Mamaria: Indicaciones y Criterios",
+        "paragraphs": [
+          "• <strong>Ecografía mamaria (Emplea informe):</strong> no se usa como tamizaje en la población general; sus <strong>indicaciones</strong> son: (1) estudio inicial de un nódulo palpable o dolor focal en mujeres &lt; 30-35 años (mama densa); (2) caracterizar una lesión vista en la mamografía (<strong>quiste vs sólido</strong>, BI-RADS 0); (3) mamas densas como complemento; (4) <strong>guía de punción o biopsia con aguja gruesa</strong>; (5) mastitis/absceso y evaluación de la axila (adenopatías).",
+          "  - <strong>Criterios benignos:</strong> forma oval o redonda, <b>eje mayor paralelo a la piel (más ancha que alta)</b>, márgenes netos, ecogenicidad homogénea; <strong>quiste simple:</strong> anecoico con refuerzo acústico posterior (se punciona solo si es sintomático). <strong>Criterios sospechosos de malignidad:</strong> forma irregular, márgenes espiculados o angulados, <b>más alta que ancha</b>, hipoecoica con sombra acústica posterior, microcalcificaciones y adenopatía axilar de aspecto patológico.",
+          "  - El informe ecográfico también usa categorías <strong>BI-RADS</strong> (2 benigno, 3 probablemente benigno con control a 6 meses, 4-5 biopsia). El médico general debe interpretarlo para decidir seguimiento, biopsia con aguja gruesa o derivación a mastología."
         ]
       }
     ],
@@ -813,6 +831,14 @@ const rawClasses = [
           "  - <strong>CA-125:</strong> Elevado en el 80% de los carcinomas epiteliales serosos de alto grado. Es poco específico en premenopáusicas (se eleva en endometriosis, miomas, EIP, embarazo, peritonitis), pero <strong>ALTAMENTE PREDICTIVO DE MALIGNIDAD en una mujer POSTMENOPÁUSICA con masa anexial compleja</strong>.",
           "  - Otros marcadores en mujeres jóvenes (tumores germinales): <strong>Alfa-fetoproteína (AFP)</strong> (seno endodérmico), <strong>β-hCG</strong> (coriocarcinoma) y <strong>LDH</strong> (disgerminoma).",
           "• <strong>Tratamiento:</strong> El pilar es la <strong>Cirugía de Citorreducción Primaria Máxima (Debulking)</strong> (laparotomía xifopúbica con histerectomía, salpingooforectomía bilateral, omentectomía total, linfadenectomía y peritonectomías para lograr citorreducción R0 sin tumor residual macroscópico) seguida de <strong>Quimioterapia basada en Carboplatino + Paclitaxel</strong>."
+        ]
+      },
+      {
+        "subhead": "3. Etapificación, Radioterapia y Quimioterapia: Conceptos Generales",
+        "paragraphs": [
+          "• <strong>Etapificación:</strong> clasifica la extensión de un cáncer para elegir tratamiento y estimar pronóstico. Se usa el <strong>sistema TNM</strong> (tumor, ganglios, metástasis) y, en ginecología, la <strong>etapificación FIGO</strong> (quirúrgica en endometrio y ovario; clínica con imagen en cuello uterino). Se complementa con grado histológico, biomarcadores (CA-125 en ovario, receptores hormonales) y estado funcional (ECOG).",
+          "  - <strong>Cirugía:</strong> curativa en enfermedad localizada (histerectomía + salpingooforectomía y linfadenectomía/ganglio centinela en endometrio; citorreducción óptima en ovario). <strong>Radioterapia:</strong> externa y <strong>braquiterapia</strong> (cuello, endometrio), radical o adyuvante, con efectos agudos (cistitis, proctitis, diarrea) y tardíos (estenosis vaginal, fístulas, menopausia precoz). <strong>Quimioterapia:</strong> carboplatino + paclitaxel en ovario y endometrio avanzado; cisplatino concomitante con radioterapia en cuello uterino localmente avanzado. Efectos: neutropenia febril, náuseas, neuropatía y nefrotoxicidad (cisplatino).",
+          "  - <strong>Intención del tratamiento:</strong> adyuvante (tras cirugía), neoadyuvante (antes de cirugía), curativo o paliativo. El médico general sospecha, deriva a comité oncológico y se encarga de seguimiento sintomático, apoyo psicosocial y cuidados paliativos."
         ]
       }
     ],

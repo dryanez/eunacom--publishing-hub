@@ -116,6 +116,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'La confusión, paso a paso',
+      images: [
+        { src: 'animaciones/sp-09/A1_confusion.mp4', label: 'Confusión', credit: 'Animación propia' },
+      ],
+      steps: [
+        { note: 'El tabaco explica la asociación',
+          say: 'En el análisis crudo, el café parece duplicar el cáncer de pulmón. Pero entre quienes toman café hay más fumadores. Al estratificar por tabaco, el riesgo relativo es uno en cada grupo. El tabaco es el confusor: se asocia con la exposición y con el desenlace. Se controla con restricción, apareamiento o aleatorización, y con estratificación o ajuste.' },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Ahora ordenemos todo en un solo árbol, tal como lo vas a razonar en el examen.',
     },

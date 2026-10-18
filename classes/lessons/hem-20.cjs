@@ -52,7 +52,8 @@ module.exports = {
       cards: [
         { title: 'Cuadro clínico', tag: 'Hiperviscosidad', kind: 'key', items: [
           { t: 'Facies pletórica', d: 'Rubicundez facial y conjuntival',
-            say: 'Veamos cómo llega el paciente. Lo primero que ves es la cara: rubicunda, con las conjuntivas rojas. Es la facies pletórica.' },
+            say: 'Veamos cómo llega el paciente. Lo primero que ves es la cara: rubicunda, con las conjuntivas rojas. Es la facies pletórica: mira esta cara y estas conjuntivas rojas, por el exceso de glóbulos rojos.',
+            photo: { src: 'biblioteca/06_hematologia/hem-20/03_facies_pletorica_pv__goljan_p567.jpg', label: 'Facies pletórica', at: 'mira esta cara', credit: 'Rapid Review Pathology (Goljan), p. 567' } },
           { t: 'Cefalea, mareos, acúfenos', d: 'Y alteraciones visuales',
             say: 'La sangre espesa da síntomas neurológicos inespecíficos: cefalea, mareos, zumbidos en los oídos y alteraciones visuales.' },
           { t: 'Esplenomegalia palpable', d: 'En el 70% de los pacientes',
@@ -62,7 +63,8 @@ module.exports = {
           { t: 'Prurito acuagénico', d: 'Minutos después de ducharse con agua caliente',
             say: 'Ahora el síntoma estrella. El prurito acuagénico: una picazón intensa, urente, que aparece minutos después de ducharse con agua caliente. Se produce por desgranulación de mastocitos y basófilos. Si lo lees en un caso, piensa en policitemia vera.' },
           { t: 'Eritromelalgia', d: 'Dolor urente y eritema en manos y pies',
-            say: 'Y la eritromelalgia: dolor quemante con enrojecimiento de manos y pies, por la microcirculación que se tapa.' },
+            say: 'Y la eritromelalgia: dolor quemante con enrojecimiento de manos y pies, por la microcirculación que se tapa. Mira este pie rojo, caliente y doloroso, por microtrombos de plaquetas.',
+            photo: { src: 'biblioteca/06_hematologia/hem-20/04_eritromelalgia__nelson_p2012.jpg', label: 'Eritromelalgia', at: 'Mira este pie', credit: 'Nelson Textbook of Pediatrics, 22nd ed., p. 2012' } },
         ] },
         { title: 'Criterios OMS', tag: 'Diagnóstico', kind: 'criteria', items: [
           { t: 'Hb > 16,5 (H) · > 16 (M)', d: 'O Hto > 49% (H) · > 48% (M)',
@@ -72,6 +74,7 @@ module.exports = {
         ] },
       ],
     },
+
 
     {
       type: 'flow',
@@ -131,7 +134,8 @@ module.exports = {
       cards: [
         { title: 'Definición', tag: 'Trombocitosis clonal', kind: 'criteria', items: [
           { t: 'Plaquetas > 450.000/µL sostenidas', d: 'A menudo > 1.000.000/µL',
-            say: 'Ahora la segunda neoplasia mieloproliferativa, la trombocitemia esencial. Aquí la serie que se dispara son las plaquetas: una trombocitosis clonal persistente sobre cuatrocientas cincuenta mil, y muchas veces sobre un millón.' },
+            say: 'Ahora la segunda neoplasia mieloproliferativa, la trombocitemia esencial. Aquí la serie que se dispara son las plaquetas: una trombocitosis clonal persistente sobre cuatrocientas cincuenta mil, y muchas veces sobre un millón. Mira este frotis: las plaquetas, esos puntitos azules, aparecen en cantidad entre los glóbulos rojos.',
+            photo: { src: 'biblioteca/06_hematologia/hem-20/05_trombocitemia_frotis__goljan_p634.jpg', label: 'Trombocitemia esencial', at: 'Mira este frotis', credit: 'Goljan, Rapid Review Pathology, Link 15-14' } },
           { t: 'JAK2 60% · CALR 25% · MPL 5%', d: 'No todas tienen JAK2',
             say: 'Las mutaciones son distintas a la policitemia: JAK dos en el sesenta por ciento, calreticulina en el veinticinco y MPL en el cinco. Fíjate que un JAK dos negativo no la descarta.' },
         ] },
@@ -170,9 +174,37 @@ module.exports = {
         { show: ['bzo'], note: 'El bazo puede llegar a la fosa ilíaca derecha',
           say: 'Primero, la hematopoyesis tiene que emigrar a otro lugar: al bazo y al hígado. Eso es la metaplasia mieloide extramedular, y da una esplenomegalia masiva, que puede llegar hasta la fosa ilíaca derecha.' },
         { show: ['dac'], note: 'Glóbulos rojos en forma de lágrima',
-          say: 'Segundo, el frotis. Los glóbulos rojos se deforman al pasar exprimidos por la fibrosis y salen con forma de gota o lágrima: los dacriocitos. Y aparecen células inmaduras en la sangre, la leucoeritroblastosis. Dacriocitos es la palabra que te tiene que hacer pensar en mielofibrosis.' },
+          say: 'Segundo, el frotis. Los glóbulos rojos se deforman al pasar exprimidos por la fibrosis y salen con forma de gota o lágrima: los dacriocitos. Y aparecen células inmaduras en la sangre, la leucoeritroblastosis. Mira estos glóbulos en forma de lágrima. Dacriocitos es la palabra que te tiene que hacer pensar en mielofibrosis.',
+          photo: { src: 'biblioteca/06_hematologia/hem-20/02_dacriocitos__commons.jpg', label: 'Dacriocitos', at: 'Mira estos glóbulos', credit: 'Wikimedia Commons, CC BY-SA 4.0' } },
         { show: ['sec', 'bio'], note: 'Sin material, se necesita biopsia',
-          say: 'Y tercero, cuando intentas aspirar la médula, no sale nada. Es la punción seca, o dry tap. Por eso la biopsia ósea es obligatoria para el diagnóstico.' },
+          say: 'Y tercero, cuando intentas aspirar la médula, no sale nada. Es la punción seca, o dry tap. Por eso la biopsia ósea es obligatoria para el diagnóstico. Mira esta biopsia: el espacio entre las trabéculas está ocupado por fibras.',
+          photo: { src: 'biblioteca/06_hematologia/hem-20/01_mielofibrosis-dacriocitos__amir-hemato_p58.jpg', label: 'Biopsia de médula: fibrosis', at: 'Mira esta biopsia', credit: 'Manual AMIR Hematología, p. 58' } },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Síndrome leucoeritroblástico',
+      title: 'Una médula ocupada que suelta células inmaduras',
+      cards: [
+        { title: 'Qué es', tag: 'Hallazgo del frotis', kind: 'key', items: [
+          { t: 'Mielocitos, metamielocitos y eritroblastos', d: 'Casi siempre con dacriocitos',
+            say: 'El síndrome leucoeritroblástico es un hallazgo del frotis: aparecen en la sangre precursores inmaduros de la serie mieloide, como mielocitos y metamielocitos, junto con eritroblastos, habitualmente con dacriocitos.' },
+          { t: 'Indica médula ocupada, fibrosada o estresada', d: 'No es una enfermedad en sí',
+            say: 'Eso significa que la médula está ocupada, fibrosada o sometida a un estrés extremo, y expulsa sus células antes de tiempo. Es una señal, no un diagnóstico.' },
+        ] },
+        { title: 'Causas', tag: 'Qué la ocupa', kind: 'criteria', items: [
+          { t: 'Infiltración: metástasis, linfoma, mieloma, leucemia', d: 'Mama, próstata, pulmón y riñón',
+            say: 'La causa más importante es la infiltración de la médula: metástasis de cáncer de mama, próstata, pulmón o riñón, y también linfomas, mieloma y leucemias.' },
+          { t: 'Mielofibrosis y tuberculosis miliar', d: 'Y hemólisis o hemorragia aguda masiva',
+            say: 'Después, la mielofibrosis, la tuberculosis miliar, y la hemólisis o la hemorragia aguda masiva, que estresan la médula.' },
+        ] },
+        { title: 'Conducta', tag: 'Derivar', kind: 'alert', items: [
+          { t: 'Sospechar invasión medular y buscar el primario', d: 'Examen físico, mamografía, antígeno prostático, imágenes',
+            say: 'Ante el hallazgo, sospecha invasión medular y busca el tumor primario: examen físico, mamografía, antígeno prostático e imágenes.' },
+          { t: 'LDH, fosfatasa alcalina y calcio, y derivar', d: 'Mielograma y biopsia osteomedular',
+            say: 'Pide LDH, fosfatasa alcalina y calcio, y deriva para mielograma y biopsia de médula ósea.' },
+        ] },
       ],
     },
 
@@ -183,7 +215,8 @@ module.exports = {
       cards: [
         { title: 'Mecanismo', tag: 'Hematopoyesis ineficaz', kind: 'key', items: [
           { t: 'Médula hipercelular pero defectuosa', d: 'Las células mueren dentro de la médula',
-            say: 'Cerremos el cuerpo con los síndromes mielodisplásicos. Aquí la lógica se invierte. La médula está llena, hipercelular, pero produce células defectuosas, displásicas, que mueren por apoptosis antes de salir. Eso es la hematopoyesis ineficaz.' },
+            say: 'Cerremos el cuerpo con los síndromes mielodisplásicos. Aquí la lógica se invierte. La médula está llena, hipercelular, pero produce células defectuosas, displásicas, que mueren por apoptosis antes de salir. Eso es la hematopoyesis ineficaz. Mira esta médula mielodisplásica, llena de células.',
+            photo: { src: 'biblioteca/06_hematologia/hem-20/02_medula-mielodisplasica__amir-hemato_p50.jpg', label: 'Médula mielodisplásica', at: 'Mira esta médula', credit: 'Manual AMIR Hematología, p. 50' } },
           { t: 'Adulto mayor', d: 'Neoplasia clonal',
             say: 'Es una neoplasia clonal del adulto mayor. Y ahí está la paradoja que tienes que recordar: médula llena, sangre vacía.' },
         ] },
@@ -191,11 +224,40 @@ module.exports = {
           { t: 'Pancitopenia con macrocitosis', d: 'Citopenias refractarias',
             say: 'En la sangre ves pancitopenia con macrocitosis, citopenias que no responden a los tratamientos habituales.' },
           { t: 'Neutrófilos hipogranulares', d: 'Anomalía de Pelger-Huët',
-            say: 'Y los neutrófilos salen con pocos gránulos y con el núcleo en dos lóbulos, la anomalía de Pelger-Huët.' },
+            say: 'Y los neutrófilos salen con pocos gránulos y con el núcleo en dos lóbulos, la anomalía de Pelger-Huët. Mira estos dos neutrófilos: núcleo en dos lóbulos y pocos gránulos.',
+            photo: { src: 'biblioteca/06_hematologia/hem-20/atlas_332_neutrofilo_pseudo_pelger_huet_.jpg', label: 'Pseudo-Pelger-Huët', at: 'Mira estos dos neutrófilos', credit: 'Atlas EUNACOM 2026' } },
         ] },
         { title: 'Pronóstico', tag: 'Ojo', kind: 'alert', items: [
           { t: 'Riesgo de leucemia mieloide aguda', d: 'Derivar a hematología',
             say: 'El gran riesgo es la transformación a leucemia mieloide aguda. Por eso se deriva a hematología. Pero ojo: una pancitopenia macrocítica en un anciano tiene una causa mucho más frecuente y reversible, el déficit de vitamina B doce. La pregunta real que viene va justamente de eso.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Síndromes mielodisplásicos',
+      title: 'Cómo se sospechan, se confirman y se manejan',
+      cards: [
+        { title: 'Cuándo sospechar', tag: 'Adulto mayor', kind: 'key', items: [
+          { t: 'Anemia macrocítica refractaria, mediana de 70 años', d: 'Sin déficit de B12 ni de folato',
+            say: 'Se sospechan ante una anemia macrocítica refractaria en un adulto mayor, con una edad mediana cercana a los setenta años, a veces con neutropenia o plaquetopenia.' },
+          { t: 'Primero, descartar lo reversible', d: 'Hipotiroidismo, alcohol, hígado, fármacos',
+            say: 'Pero antes se descartan las causas reversibles: déficit de B doce y de folato, hipotiroidismo, alcoholismo, hepatopatía y fármacos.' },
+          { t: 'Frotis: pseudo-Pelger-Huët y macroovalocitos', d: 'Neutrófilos hipogranulares',
+            say: 'El frotis ayuda: neutrófilos hipogranulares con núcleo de dos lóbulos, el pseudo Pelger-Huët, y macroovalocitos.' },
+        ] },
+        { title: 'Cómo se confirma', tag: 'Hematología', kind: 'criteria', items: [
+          { t: 'Mielograma, biopsia y citogenética', d: 'Displasia y menos de 20% de blastos',
+            say: 'Se confirma con mielograma, biopsia y citogenética: una médula hipercelular con displasia y menos de veinte por ciento de blastos. Dos alteraciones típicas son la deleción del brazo largo del cromosoma cinco y la monosomía del siete.' },
+          { t: 'Quimioterapia, radioterapia y benceno previos', d: 'Mielodisplasia secundaria',
+            say: 'La quimioterapia o la radioterapia previas y el benceno son factores de riesgo, y dan una mielodisplasia secundaria.' },
+        ] },
+        { title: 'Manejo inicial en APS', tag: 'Derivar', kind: 'alert', items: [
+          { t: 'Transfundir si hay síntomas, tratar infecciones, derivar', d: 'Excluir antes las causas reversibles',
+            say: 'En atención primaria se excluyen las causas reversibles, se transfunden glóbulos rojos si hay síntomas, se tratan las infecciones y se deriva.' },
+          { t: 'Un tercio evoluciona a LMA', d: 'Tratamiento según riesgo, lo define hematología',
+            say: 'El riesgo es la evolución a leucemia mieloide aguda, cerca de un tercio de los casos, y la hemorragia o la infección por las citopenias. El tratamiento específico, con apoyo transfusional, eritropoyetina, lenalidomida en la deleción del cinco q, hipometilantes o trasplante, lo define el hematólogo.' },
         ] },
       ],
     },
@@ -214,31 +276,7 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Mielofibrosis',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-20/01_mielofibrosis-dacriocitos__amir-hemato_p58.jpg', label: 'Biopsia de médula: fibrosis', credit: 'Manual AMIR Hematología, p. 58' },
-      ],
-      steps: [
-        { note: 'Médula fibrosa: punción seca',
-          say: 'Esta es la biopsia de médula en la mielofibrosis: el espacio entre las trabéculas está ocupado por fibras. Por eso el aspirado sale seco y la biopsia es obligatoria. Y los glóbulos que pasan exprimidos por esa fibrosis salen en forma de lágrima: los dacriocitos.' },
-      ],
-    },
 
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/06_hematologia/hem-20/02_medula-mielodisplasica__amir-hemato_p50.jpg', label: 'Médula mielodisplásica', credit: 'Manual AMIR Hematología, p. 50' },
-      ],
-      steps: [
-        { note: 'Médula mielodisplásica',
-          say: 'Mira esta imagen: médula mielodisplásica. Fíjate en cómo se ve, porque así puede aparecer en el examen.' },
-      ],
-    },
 
     {
       type: 'pathway',
@@ -261,6 +299,8 @@ module.exports = {
           say: 'Si es mayor de sesenta o ya tuvo una trombosis, es de alto riesgo, y se agrega hidroxiurea.' },
         { cells: ['Bazo gigante + dacriocitos + aspirado seco', 'Mielofibrosis: biopsia ósea', 'Repetir el mielograma'],
           say: 'Bazo gigante, dacriocitos y aspirado seco: mielofibrosis primaria, y se confirma con biopsia ósea. Repetir el aspirado no sirve, porque va a volver a salir seco.' },
+        { cells: ['Mielocitos y eritroblastos en sangre, con cáncer conocido', 'Sospechar invasión medular, buscar el primario y derivar', 'Atribuirlo a una infección'],
+          say: 'Si en el frotis aparecen precursores inmaduros y eritroblastos, sobre todo en alguien con cáncer, piensa en invasión de la médula: busca el tumor primario y deriva para mielograma y biopsia.' },
         { cells: ['Anciano con pancitopenia macrocítica', 'Descartar primero déficit de B12', 'Diagnosticar mielodisplasia de entrada'],
           say: 'Y anciano con pancitopenia macrocítica: antes de hablar de mielodisplasia, descarta el déficit de vitamina B doce, que es mucho más frecuente y se corrige.' },
       ],
@@ -333,6 +373,82 @@ module.exports = {
         options: 'Las opciones son: anemia aplástica, anemia hemolítica, anemia megaloblástica, mielodisplasia, o mieloma múltiple. Piénsalo.',
         answer: 'Es la C, anemia megaloblástica. Pancitopenia con un VCM muy alto, LDH elevada por la eritropoyesis ineficaz, y compromiso neurológico: es el déficit de vitamina B doce que vimos en la clase de anemias macrocíticas. La mielodisplasia es el distractor tentador, porque también es un anciano con pancitopenia macrocítica. Pero la confusión y la LDH alta apuntan a la B doce, que es más frecuente y se corrige.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.1.017 · Síndromes mielodisplásicos",
+      "stem": "Hombre de 76 años, no bebedor, con astenia y disnea de esfuerzos progresiva de 6 meses. Sin visceromegalias ni adenopatías. Hb 8,6 g/dL, VCM 104 fL, reticulocitos 0,5 %, leucocitos 2.900/µL (RAN 1.200/µL), plaquetas 98.000/µL. Vitamina B12, folato, TSH y pruebas hepáticas normales. Frotis: neutrófilos hipogranulares con núcleos bilobulados (pseudo-Pelger-Huët), sin blastos.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vitamina B12 intramuscular empírica y control en 2 meses"
+        },
+        {
+          "letter": "B",
+          "text": "Coombs directo y haptoglobina"
+        },
+        {
+          "letter": "C",
+          "text": "Electroforesis de proteínas séricas"
+        },
+        {
+          "letter": "D",
+          "text": "Eritropoyetina subcutánea sin más estudio"
+        },
+        {
+          "letter": "E",
+          "text": "Aspirado y biopsia de médula ósea con estudio citogenético"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Adulto mayor con citopenias y macrocitosis arregenerativa, sin déficit de B12 ni folato, hipotiroidismo o daño hepático, y con displasia en el frotis: sospecha de síndrome mielodisplásico. Se confirma con mielograma y biopsia de médula ósea (displasia, porcentaje de blastos) más citogenética, que define el riesgo (IPSS-R) y el tratamiento.",
+      "say": {
+        "stem": "Un hombre de setenta y seis años con astenia progresiva tiene anemia macrocítica arregenerativa, leucocitos y plaquetas bajos, vitamina B doce, folato y tiroides normales, y neutrófilos hipogranulares en el frotis.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: vitamina B doce empírica, Coombs y haptoglobina, electroforesis de proteínas, eritropoyetina sin estudio o aspirado y biopsia de médula con citogenética. Piénsalo.",
+        "answer": "Es la E. Citopenias con macrocitosis y displasia, sin déficit vitamínico, sugieren un síndrome mielodisplásico, que se confirma en la médula ósea, y la citogenética define el riesgo. La vitamina B doce empírica tienta por la macrocitosis, pero sus niveles ya son normales."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.1.015 · Síndrome leucoeritroblástico",
+      "stem": "Mujer de 63 años con antecedente de cáncer de mama tratado hace 5 años consulta por dolor óseo y fatiga. Hemoglobina 8,9 g/dL, plaquetas 95.000/mm3. El frotis muestra eritroblastos circulantes, mielocitos y metamielocitos, y dacriocitos (glóbulos rojos en lágrima).",
+      "question": "¿Cuál es la interpretación más adecuada del frotis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anemia ferropénica por pérdida digestiva"
+        },
+        {
+          "letter": "B",
+          "text": "Anemia por déficit de vitamina B12"
+        },
+        {
+          "letter": "C",
+          "text": "Anemia hemolítica autoinmune"
+        },
+        {
+          "letter": "D",
+          "text": "Reacción leucemoide por infección"
+        },
+        {
+          "letter": "E",
+          "text": "Síndrome leucoeritroblástico sugerente de infiltración medular"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Precursores eritroides y mieloides inmaduros en sangre periférica, con dacriocitos, constituyen un síndrome leucoeritroblástico, que indica ocupación o fibrosis de la médula ósea. En esta paciente sugiere metástasis óseas de cáncer de mama; otras causas son mielofibrosis, linfomas y tuberculosis. Se estudia con biopsia de médula ósea e imágenes.",
+      "say": {
+        "stem": "Mujer de sesenta y tres años con antecedente de cáncer de mama, dolor óseo y un frotis con eritroblastos, mielocitos y dacriocitos.",
+        "question": "¿Cómo interpretas el frotis?",
+        "options": "Las opciones: ferropenia, déficit de be doce, hemólisis autoinmune, reacción leucemoide o síndrome leucoeritroblástico por infiltración medular. Piénsalo.",
+        "answer": "Es la E. Es un síndrome leucoeritroblástico, que sugiere infiltración medular, probablemente metástasis. La reacción leucemoide también tiene formas inmaduras, pero no eritroblastos ni dacriocitos con citopenias."
+      }
     },
 
     {

@@ -49,6 +49,28 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Dónde se fractura',
+      title: 'Diáfisis y metáfisis: consolidan distinto',
+      cards: [
+        { title: 'Por qué consolidan distinto', tag: 'Hueso cortical contra esponjoso', kind: 'key', items: [
+          { t: 'Diáfisis: cortical, poco irrigada', d: 'Lenta; propensa a retardo y pseudoartrosis',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-06/21_tibia-diafisis-espiroidea__sherman_p682.jpg', label: 'Tibia, fractura espiroidea', at: 'Mira esta tibia', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 682' },
+            say: 'Antes de las fallas, una razón anatómica. La diáfisis es hueso cortical, con menor irrigación y poca superficie de contacto entre los fragmentos. Mira esta tibia: la fractura espiroidea de la diáfisis deja dos fragmentos largos y poco apoyados. Por eso consolida más lento y es propensa al retardo y a la pseudoartrosis, sobre todo en la tibia.' },
+          { t: 'Metáfisis: esponjosa, bien irrigada', d: 'Consolida rápido; impactada es estable',
+            say: 'La metáfisis, en cambio, es hueso esponjoso y muy vascularizado. Consolida rápido y, si está impactada, es estable.' },
+        ] },
+        { title: 'Manejo', tag: 'Fijar, o yeso si es metafisaria', kind: 'criteria', items: [
+          { t: 'Fémur y tibia: clavo endomedular', d: 'Antebrazo del adulto: placa y tornillos',
+            say: 'Las diáfisis de fémur y de tibia se fijan con clavo endomedular, y las del antebrazo en el adulto, con placa y tornillos.' },
+          { t: 'Húmero: yeso colgante o férula funcional', d: 'Vigilar el nervio radial',
+            photo: { src: 'biblioteca/18_traumatologia/trauma-06/22_humero-diafisis__sherman_p594.jpg', label: 'Diáfisis de húmero', at: 'En esta radiografía', credit: 'Sherman, Atlas of Clinical Emergency Medicine, p. 594' },
+            say: 'La del húmero suele tratarse con yeso colgante o férula funcional. En esta radiografía ves la fractura de la diáfisis del húmero, y por eso vigilas el nervio radial, que pasa pegado al hueso. Las metafisarias impactadas o poco desplazadas van con yeso. El médico general inmoviliza, descarta complicaciones y deriva.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Retardo de consolidación',
       title: 'El hueso aún puede consolidar',
       cards: [
@@ -141,6 +163,20 @@ module.exports = {
           say: 'Mala unión: sin dolor, el hueso está consolidado pero desviado, y se corrige con osteotomía si el defecto es funcionalmente inaceptable.' },
         { cells: ['Hipertrófica versus atrófica', 'Casi ausente', 'Pata de elefante o punta de lápiz', 'Cirugía'],
           say: 'Y dentro de la pseudoartrosis: pata de elefante es hipertrófica, por mala inmovilización; punta de lápiz es atrófica, por mala irrigación o hueso patológico. No confundas no unión con mala unión.' },
+      ],
+    },
+
+    {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Diáfisis y metáfisis',
+      images: [
+        { src: 'animaciones/trauma-06/A1_diafisis_metafisis.mp4', label: 'Por qué consolidan a distinto ritmo', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Cortical lenta, esponjosa rápida',
+          say: 'Compara los dos tipos de hueso. La metáfisis es hueso esponjoso y muy irrigado: consolida rápido y, si está impactada, es estable. La diáfisis es cortical, con poca irrigación y poco contacto entre los fragmentos: consolida lento y es propensa al retardo y a la pseudoartrosis, sobre todo en la tibia. Por eso las diáfisis de fémur y tibia se fijan con clavo endomedular, y las metafisarias impactadas se tratan con yeso.' },
       ],
     },
 

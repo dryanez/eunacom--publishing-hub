@@ -32,6 +32,12 @@ module.exports = {
       steps: [
         { show: ['dia'], note: 'Viral: el tratamiento es el agua',
           say: 'Partamos por la diarrea aguda. En el niño es mayoritariamente viral, por rotavirus, y se resuelve sola. Lo que puede matar al niño no es el virus, sino la deshidratación. Por eso el pilar es hidratar, según el grado de deshidratación.' },
+        { show: ['dia'], note: 'El signo del pliegue',
+          say: 'Para graduar la deshidratación ayuda mucho el signo del pliegue. Mira cómo se toma la piel entre dos dedos y se suelta. Y mira esta otra piel: queda levantada unos segundos y no vuelve. Ese pliegue persistente indica deshidratación.',
+          photos: [
+            { src: 'biblioteca/01_gastroenterologia/gastro-23/01_examen_turgor__commons.jpg', label: 'Signo del pliegue', at: 'Mira cómo se toma', credit: 'Wikimedia Commons «SkinTurgorExamination.jpg», CC BY-SA 4.0, DRobert' },
+            { src: 'biblioteca/01_gastroenterologia/gastro-23/02_pliegue_persistente__commons.jpg', label: 'Pliegue persistente', at: 'Y mira esta otra piel', credit: 'Wikimedia Commons «LowSkinTurgor.jpg», CC BY-SA 4.0, DRobert' },
+          ] },
         { show: ['a'], note: 'En la casa',
           say: 'Si no hay deshidratación, es el plan A, en la casa: sales de rehidratación oral, cien a doscientos mililitros después de cada deposición. La idea es reponer lo que se va perdiendo.' },
         { show: ['b'], note: 'La que más se pregunta',
@@ -84,7 +90,8 @@ module.exports = {
           { t: 'Preescolar rural, varios familiares', d: 'Flatulencia y dolor cólico',
             say: 'La segunda es la giardiasis. El cuadro típico es un preescolar de zona rural, con flatulencia y dolor cólico, y muchas veces con varios miembros de la familia afectados.' },
           { t: 'Parasitológico seriado', d: '3 muestras · tinidazol o metronidazol',
-            say: 'Se diagnostica con un parasitológico seriado, de tres muestras, y se trata con tinidazol o metronidazol.' },
+            say: 'Se diagnostica con un parasitológico seriado, de tres muestras, y se trata con tinidazol o metronidazol. Mira estos trofozoítos de Giardia al microscopio, con su forma de pera.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-23/04_giardia-trofozoitos__atlas-eunacom.jpg', label: 'Trofozoítos de Giardia', at: 'Mira estos trofozoítos', credit: 'Atlas EUNACOM 2026' } },
           { t: 'Antes de diagnosticar celíaca', d: 'Puede dar malabsorción idéntica',
             say: 'Y esta es la regla de la clase: la Giardia puede dar un síndrome de malabsorción igual al de la celíaca. Por eso siempre se descarta Giardia antes de diagnosticar una enfermedad celíaca.' },
         ] },
@@ -111,6 +118,79 @@ module.exports = {
             say: 'Y la pista que la separa de todo lo demás está fuera del intestino: neumonías recurrentes, por Pseudomonas o Staphylococcus aureus. Diarrea grasa más pulmón: fibrosis quística.' },
           { t: 'Test del sudor', d: 'Cloro ≥ 60 mmol/L confirma',
             say: 'Se confirma con el test del sudor: un cloro de sesenta milimoles por litro o más.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Parasitológico',
+      title: 'Parasitológico seriado: cómo se pide y se lee',
+      cards: [
+        { title: 'Cómo se pide', tag: 'Tres muestras', kind: 'key', items: [
+          { t: '3 muestras en días alternos', d: 'Con conservante; un solo examen pierde casos',
+            say: 'Se piden tres muestras en días alternos, con conservante. Un solo examen pierde casos, sobre todo de Giardia.' },
+          { t: 'Diarrea líquida: trofozoíto en fresco', d: 'Se busca de inmediato',
+            say: 'En una diarrea líquida se busca además el trofozoíto en fresco.' },
+        ] },
+        { title: 'Qué informa', tag: 'Quistes, trofozoítos, huevos', kind: 'normal', items: [
+          { t: 'Giardia y Entamoeba', d: 'Quistes o trofozoítos',
+            say: 'El informe habla de quistes o trofozoítos, en Giardia y Entamoeba, y de huevos, en Ascaris y Trichuris.' },
+          { t: 'Oxiuros: test de Graham', d: 'Cinta adhesiva perianal, en la mañana',
+            say: 'Los oxiuros no se ven bien aquí: se usa el test de Graham, con una cinta adhesiva perianal por la mañana. Y la larva de Strongyloides requiere una técnica especial. Mira estos huevos de oxiuros, ovalados y con un lado aplanado, como se ven en la cinta al microscopio.',
+            photo: { src: 'biblioteca/01_gastroenterologia/gastro-23/03_huevos-enterobius__nelson_p2822.jpg', label: 'Huevos de oxiuros', at: 'Mira estos huevos', credit: 'Nelson 22.ª ed., p. 2822' } },
+        ] },
+        { title: 'Qué hacer', tag: 'Con el resultado', kind: 'pharma', items: [
+          { t: 'Positivo: se trata', d: 'Negativo con sospecha alta: se repite',
+            say: 'Un resultado positivo se trata. Uno negativo con alta sospecha, se repite.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Parasitosis del niño',
+      title: 'Oxiuros, áscaris, tricocéfalo y tenia',
+      cards: [
+        { title: 'Oxiuriasis', tag: 'Prurito anal nocturno', kind: 'key', items: [
+          { t: 'Prurito nocturno, vulvovaginitis, irritabilidad', d: 'Albendazol o mebendazol; repetir a las 2 semanas',
+            say: 'La oxiuriasis da prurito anal nocturno, vulvovaginitis e irritabilidad. Se trata con albendazol o mebendazol, se repite a las dos semanas, y se trata a toda la familia, con higiene de manos y uñas.' },
+        ] },
+        { title: 'Áscaris y tricocéfalo', tag: 'Albendazol', kind: 'pharma', items: [
+          { t: 'Áscaris: cólico, tos y eosinofilia', d: 'Fase pulmonar de Löffler; puede obstruir',
+            say: 'La ascariasis da dolor cólico y, en la fase pulmonar, tos y eosinofilia, el síndrome de Löffler. Puede obstruir el intestino o la vía biliar. Se trata con albendazol.' },
+          { t: 'Tricocéfalo: diarrea con moco, anemia', d: 'Prolapso rectal si la infestación es intensa',
+            say: 'La tricocefalosis da diarrea con moco, anemia y, en la infestación intensa, prolapso rectal.' },
+        ] },
+        { title: 'Teniasis y prevención', tag: 'Praziquantel', kind: 'normal', items: [
+          { t: 'Proglótidos en las deposiciones', d: 'Praziquantel',
+            say: 'En la teniasis se ven proglótidos en las deposiciones, y se trata con praziquantel.' },
+          { t: 'Agua segura, manos limpias, excretas', d: 'Prevención de todas',
+            say: 'Todas se previenen con agua segura, lavado de manos y eliminación adecuada de las excretas.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Fibrosis quística',
+      title: 'Fibrosis quística: sospecha y manejo inicial',
+      cards: [
+        { title: 'Cuándo sospecharla', tag: 'Lactante', kind: 'alert', items: [
+          { t: 'Diarrea crónica con esteatorrea', d: 'Mal incremento pese a buen apetito',
+            say: 'Se sospecha en el lactante con diarrea crónica con esteatorrea, que crece mal pese a tener buen apetito.' },
+          { t: 'Infecciones respiratorias, prolapso rectal, íleo meconial', d: 'Piel con sabor salado',
+            say: 'Con infecciones respiratorias repetidas, prolapso rectal, antecedente de íleo meconial y sabor salado de la piel.' },
+        ] },
+        { title: 'Diagnóstico', tag: 'Test del sudor', kind: 'key', items: [
+          { t: 'Test del sudor: cloro mayor de 60 mmol/L', d: 'Se confirma con estudio genético',
+            say: 'El diagnóstico es el test del sudor, con cloro mayor de sesenta milimoles por litro, confirmado con estudio genético.' },
+        ] },
+        { title: 'Mientras tanto', tag: 'Derivar', kind: 'pharma', items: [
+          { t: 'Derivar a centro especializado', d: 'Enzimas pancreáticas con cada comida',
+            say: 'Se deriva a un centro especializado y, mientras tanto, se dan enzimas pancreáticas con cada comida.' },
+          { t: 'Vitaminas A, D, E y K; dieta hipercalórica con sal', d: 'Kinesioterapia respiratoria y vacunas al día',
+            say: 'Se agregan vitaminas A, D, E y K, una dieta hipercalórica con sal, kinesioterapia respiratoria y las vacunas al día.' },
         ] },
       ],
     },
@@ -145,22 +225,7 @@ module.exports = {
       ],
     },
 
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'El signo del pliegue',
-      images: [
-        { src: 'biblioteca/01_gastroenterologia/gastro-23/01_examen_turgor__commons.jpg', label: 'Signo del pliegue', credit: 'Wikimedia Commons «SkinTurgorExamination.jpg», CC BY-SA 4.0, DRobert' },
-        { src: 'biblioteca/01_gastroenterologia/gastro-23/02_pliegue_persistente__commons.jpg', label: 'Pliegue persistente', credit: 'Wikimedia Commons «LowSkinTurgor.jpg», CC BY-SA 4.0, DRobert' },
-      ],
-      steps: [
-        { note: 'Se toma la piel entre dos dedos',
-          say: 'El signo del pliegue se busca tomando la piel entre dos dedos y soltándola.' },
-        { note: 'La piel no vuelve',
-          say: 'Si la piel queda levantada unos segundos y no vuelve, el pliegue es positivo: hay deshidratación.' },
-      ],
-    },
+
 
     {
       type: 'pathway',
@@ -299,6 +364,195 @@ module.exports = {
         options: 'Las opciones: cambiar a fórmula extensamente hidrolizada o elemental, seguir con la fórmula habitual y dar antihistamínico, hospitalizar para estudio endoscópico, iniciar corticoides orales, o cambiar a leche de soja. Piénsalo.',
         answer: 'Es la A. El diagnóstico ya está confirmado, así que el manejo es retirar la proteína de la leche de vaca con una fórmula extensamente hidrolizada. La trampa es la E, la leche de soja: no se recomienda en menores de seis meses, porque hay reactividad cruzada con la proteína de la leche de vaca.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2018 · Pregunta 161",
+      "stem": "Lactante de 11 meses presenta diarrea aguda abundante de 2 días de evolución, asociada a decaimiento marcado y tendencia al llanto. Al examen físico está somnoliento, con frialdad de extremidades y llene capilar de 3 segundos. Las mucosas se observan secas.",
+      "question": "¿Cuál es la indicación inicial para su hidratación?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sales de hidratación oral"
+        },
+        {
+          "letter": "B",
+          "text": "Suero salino al 0,9 %"
+        },
+        {
+          "letter": "C",
+          "text": "Suero glucosado al 5 %"
+        },
+        {
+          "letter": "D",
+          "text": "Suero glucosalino"
+        },
+        {
+          "letter": "E",
+          "text": "Albúmina endovenosa"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Somnolencia, extremidades frías y llene capilar lento indican shock hipovolémico: deshidratación grave, plan C. Se administran bolos endovenosos de suero fisiológico al 0,9 %, de 20 mL/kg, repitiendo según respuesta. El suero glucosado no expande el intravascular y las sales orales están contraindicadas con compromiso de conciencia.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Lactante de once meses con dos días de diarrea abundante, muy decaído y con tendencia al llanto. Está somnoliento, con las extremidades frías, llene capilar de tres segundos y mucosas secas.",
+        "question": "¿Cuál es la indicación inicial para su hidratación?",
+        "options": "Las opciones: sales de hidratación oral, suero salino al cero coma nueve por ciento, suero glucosado al cinco por ciento, suero glucosalino, o albúmina. Piénsalo.",
+        "answer": "Es la B, suero fisiológico. La somnolencia y la mala perfusión significan shock hipovolémico, y eso es plan C, con bolos endovenosos de suero fisiológico. Las sales orales son la trampa: sirven en la deshidratación moderada, pero un niño somnoliento no puede tomarlas con seguridad."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2017 · Pregunta 120",
+      "stem": "Un niño de 4 años presenta intenso prurito anal desde hace varios días, lo que se ha asociado a dificultades para dormir y bruxismo.",
+      "question": "¿Cuál es el examen más adecuado para proseguir el estudio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Parasitológico de deposiciones"
+        },
+        {
+          "letter": "B",
+          "text": "Test de Graham"
+        },
+        {
+          "letter": "C",
+          "text": "Hemograma"
+        },
+        {
+          "letter": "D",
+          "text": "Prueba de reacción cutánea (prick test)"
+        },
+        {
+          "letter": "E",
+          "text": "Recuento de inmunoglobulina E específica"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Prurito anal nocturno con trastornos del sueño y bruxismo en un preescolar sugiere oxiuriasis (Enterobius vermicularis). La hembra deposita los huevos en la piel perianal, por lo que no suelen aparecer en las deposiciones; el examen de elección es el test de Graham (cinta adhesiva perianal en la mañana).",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil diecisiete. Un niño de cuatro años tiene intenso prurito anal hace varios días, con dificultad para dormir y bruxismo.",
+        "question": "¿Cuál es el examen más adecuado para seguir el estudio?",
+        "options": "Las opciones: parasitológico de deposiciones, test de Graham, hemograma, prick test o inmunoglobulina E específica. Piénsalo.",
+        "answer": "Es la B. Es una oxiuriasis y se diagnostica con el test de Graham, porque los huevos quedan en la piel perianal. El parasitológico de deposiciones tienta, pero casi siempre sale negativo en esta parasitosis."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.017 · Parasitológico de deposiciones",
+      "stem": "Un niño de 4 años que asiste a jardín infantil presenta deposiciones blandas, malolientes y flotantes, distensión abdominal y meteorismo desde hace 4 semanas, con baja de peso leve. Hay casos similares en su sala.",
+      "question": "¿Cuál es el examen más adecuado para confirmar el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coprocultivo"
+        },
+        {
+          "letter": "B",
+          "text": "Test de Graham"
+        },
+        {
+          "letter": "C",
+          "text": "Parasitológico seriado de deposiciones (3 muestras)"
+        },
+        {
+          "letter": "D",
+          "text": "Rotavirus en deposiciones"
+        },
+        {
+          "letter": "E",
+          "text": "Colonoscopía"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Diarrea crónica malabsortiva (esteatorreica, maloliente) con meteorismo en un niño de jardín, con casos en su sala, sugiere giardiasis, la parasitosis intestinal más frecuente en Chile. Se diagnostica con parasitológico seriado de deposiciones (3 muestras en días alternos, por la excreción intermitente de quistes) o antígeno en deposiciones. Se trata con metronidazol, tinidazol o nitazoxanida.",
+      "say": {
+        "stem": "Un niño de cuatro años que va al jardín tiene hace cuatro semanas deposiciones blandas, malolientes y flotantes con meteorismo, y hay casos similares en su sala.",
+        "question": "¿Qué examen confirma el diagnóstico más probable?",
+        "options": "Las opciones: coprocultivo, test de Graham, parasitológico seriado, rotavirus o colonoscopía. Piénsalo.",
+        "answer": "Es la C. Se sospecha una giardiasis y se confirma con un parasitológico seriado de deposiciones. El test de Graham tienta porque también busca parásitos, pero sirve para oxiuros, que dan prurito anal y no diarrea."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.04.4.011 · Parasitológico de deposiciones",
+      "stem": "Un niño de 5 años, que asiste a jardín infantil, presenta deposiciones blandas, malolientes y esteatorreicas, distensión abdominal y baja de peso de 6 semanas de evolución.",
+      "question": "¿Cuál es el examen más adecuado para el diagnóstico etiológico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coprocultivo"
+        },
+        {
+          "letter": "B",
+          "text": "Test de Graham"
+        },
+        {
+          "letter": "C",
+          "text": "Examen parasitológico seriado de deposiciones (3 muestras en días distintos)"
+        },
+        {
+          "letter": "D",
+          "text": "Colonoscopía"
+        },
+        {
+          "letter": "E",
+          "text": "Antígeno de rotavirus en deposiciones"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Diarrea crónica esteatorreica con distensión y baja de peso en un preescolar de jardín infantil sugiere giardiasis. El parasitológico seriado (3 muestras en días alternos, con fijador) mejora la sensibilidad porque la eliminación de quistes es intermitente. El test de Graham busca Enterobius ante prurito anal. Se trata con metronidazol, tinidazol o nitazoxanida.",
+      "say": {
+        "stem": "Un niño de cinco años que va al jardín infantil tiene seis semanas de deposiciones blandas, malolientes y grasosas, distensión abdominal y baja de peso.",
+        "question": "¿Qué examen es el más adecuado para el diagnóstico etiológico?",
+        "options": "Las opciones: coprocultivo, test de Graham, parasitológico seriado de deposiciones, colonoscopía o rotavirus en deposiciones. Piénsalo.",
+        "answer": "Es la C. Se sospecha giardiasis y, como la eliminación de quistes es intermitente, se piden tres muestras seriadas. El test de Graham tienta por ser parasitológico, pero busca oxiuros y se usa ante prurito anal."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.06.1.026 · Parasitosis intestinales",
+      "stem": "Niña de 5 años que asiste a jardín infantil presenta prurito anal de predominio nocturno hace 3 semanas, con sueño intranquilo. Al examen se observan lesiones por grataje perianal. El test de Graham es positivo.",
+      "question": "¿Cuál es el tratamiento más adecuado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Metronidazol a la paciente por 7 días"
+        },
+        {
+          "letter": "B",
+          "text": "Crema de corticoide perianal"
+        },
+        {
+          "letter": "C",
+          "text": "Praziquantel en dosis única a la paciente"
+        },
+        {
+          "letter": "D",
+          "text": "Mebendazol a la paciente y a todo el grupo familiar, repitiendo la dosis a las 2 semanas"
+        },
+        {
+          "letter": "E",
+          "text": "Nitazoxanida solo a la paciente"
+        }
+      ],
+      "correct": "D",
+      "explanation": "El test de Graham positivo confirma oxiuriasis por Enterobius vermicularis. Se trata a todo el grupo familiar con mebendazol o albendazol, repitiendo a las 2 semanas por el ciclo de autoinfección, junto con medidas de higiene como uñas cortas y lavado de ropa de cama. Metronidazol es para protozoos y praziquantel para teniasis.",
+      "say": {
+        "stem": "Niña de cinco años con prurito anal nocturno y test de Graham positivo.",
+        "question": "¿Cómo la tratas?",
+        "options": "Las opciones: metronidazol, corticoide tópico, praziquantel, mebendazol a toda la familia repitiendo a las dos semanas o nitazoxanida solo a ella. Piénsalo.",
+        "answer": "Es la D. Es oxiuriasis, así que se trata a toda la familia con mebendazol y se repite a las dos semanas por la autoinfección. Tratar solo a la niña lleva a la reinfección."
+      }
     },
 
     {

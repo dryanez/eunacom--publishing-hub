@@ -173,6 +173,34 @@ module.exports = {
     },
 
     {
+      type: 'points',
+      kicker: 'Cetonuria',
+      title: 'La tira de orina: qué mide y qué no',
+      cards: [
+        { title: 'Qué detecta', tag: 'Nitroprusiato', kind: 'key', items: [
+          { t: 'Detecta acetoacetato y algo de acetona', d: 'No detecta beta-hidroxibutirato',
+            say: 'Un examen que se usa mucho: la tira reactiva de orina. Funciona con la reacción del nitroprusiato y detecta acetoacetato y, en menor grado, acetona. Pero no detecta beta-hidroxibutirato, que es justamente el cuerpo cetónico que predomina en la cetoacidosis.' },
+          { t: 'Orina fresca, 1 segundo, tiempo exacto', d: 'Comparar con la escala de colores',
+            say: 'La técnica: orina fresca de segundo chorro, sumergir la tira un segundo, golpear el borde para sacar el exceso, esperar el tiempo exacto del fabricante y comparar el color con la escala.' },
+          { t: 'Falsos negativos: tira vencida, vitamina C', d: 'Falsos positivos: captopril, mesna',
+            say: 'Las tiras vencidas o mal cerradas y el ácido ascórbico dan falsos negativos. El captopril y el mesna pueden dar falsos positivos.' },
+        ] },
+        { title: 'Cómo se usa', tag: 'Interpretación', kind: 'criteria', items: [
+          { t: 'Cetonuria ++ o +++, glicemia > 250, acidosis', d: 'Confirma la cetoacidosis',
+            say: 'Cetonuria de dos o tres cruces, con glicemia sobre doscientos cincuenta y acidosis, confirma la cetoacidosis. En diabetes tipo uno se mide la cetonuria con glicemia sobre doscientos cincuenta y enfermedad intercurrente, antes de hacer ejercicio y en el embarazo.' },
+          { t: 'Cetonuria con glicemia normal', d: 'Ayuno, vómitos, alcohol o iSGLT2',
+            say: 'Cetonuria con glicemia normal orienta a ayuno prolongado, vómitos, dieta cetogénica, cetoacidosis alcohólica o la cetoacidosis euglicémica por gliflozinas que vimos recién.' },
+        ] },
+        { title: 'La trampa', tag: 'No sirve para seguir', kind: 'alert', items: [
+          { t: 'Puede subir mientras el paciente mejora', d: 'El beta-hidroxibutirato pasa a acetoacetato',
+            say: 'La trampa: durante el tratamiento, la tira puede aumentar aunque el paciente mejore, porque el beta-hidroxibutirato se convierte en acetoacetato. Y al inicio puede subestimar la cetosis.' },
+          { t: 'Seguir con anión gap y bicarbonato', d: 'Y beta-hidroxibutirato en sangre',
+            say: 'Por eso la respuesta al tratamiento no se sigue con la tira, sino con el anión gap, el bicarbonato y el beta-hidroxibutirato.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'image',
       layout: 'sequence',
       kicker: 'En movimiento',
@@ -214,6 +242,8 @@ module.exports = {
           say: 'El déficit de agua: tres a seis litros contra ocho a doce.' },
         { cells: ['Clínica que confunde', 'Dolor abdominal: no es quirúrgico', 'Coma y signos focales: no es un ACV'],
           say: 'Y la clínica que confunde: el dolor abdominal de la cetoacidosis no es quirúrgico, y los signos focales del hiperosmolar no son un accidente cerebrovascular.' },
+        { cells: ['Seguimiento de la cetoacidosis ya en tratamiento', 'Anión gap, bicarbonato y beta-hidroxibutirato', 'Guiarse por la tira de cetonuria'],
+          say: 'Y para seguir la respuesta en una cetoacidosis ya en tratamiento: anión gap, bicarbonato y beta-hidroxibutirato. La tira de cetonuria puede subir aunque el paciente mejore.' },
       ],
     },
 
@@ -307,6 +337,82 @@ module.exports = {
         options: 'Las opciones: cetonemia, creatinina, perfil lipídico, hemoglobina glicosilada o hemograma. Piénsalo.',
         answer: 'Es la A, la cetonemia. Joven, síntomas cardinales, dolor abdominal y vómitos, con glicemia sobre doscientos cincuenta: estás pensando en cetoacidosis, y el criterio que falta confirmar son las cetonas, junto con los gases. La hemoglobina glicosilada es la trampa: sirve para el control crónico, pero no te dice si hoy el paciente está en cetoacidosis.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.2.007 · Síndrome hiperosmolar no cetósico",
+      "stem": "Hombre de 78 años con DM2 en tratamiento con metformina, traído por 5 días de poliuria, sed intensa y decaimiento, con escasa ingesta de líquidos. Está somnoliento pero responde, mucosas secas, PA 100/60 mmHg, FC 108 lpm. Glicemia 780 mg/dL, Na 146 mEq/L, nitrógeno ureico 58 mg/dL, pH 7,35, HCO3 21 mEq/L, cetonemia negativa. Osmolaridad efectiva calculada 336 mOsm/L. Potasio 4,6 mEq/L.",
+      "question": "¿Cuál es la primera medida terapéutica?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bolo de insulina cristalina endovenosa de 0,1 UI/kg"
+        },
+        {
+          "letter": "B",
+          "text": "Bicarbonato de sodio endovenoso"
+        },
+        {
+          "letter": "C",
+          "text": "Suero glucosado al 5 %"
+        },
+        {
+          "letter": "D",
+          "text": "Solución fisiológica al 0,9 % 1 a 1,5 litros en la primera hora"
+        },
+        {
+          "letter": "E",
+          "text": "Suero hipotónico al 0,45 % en bolo rápido"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Estado hiperglicémico hiperosmolar: glicemia sobre 600 mg/dL, osmolaridad sobre 320 mOsm/L, sin cetosis ni acidosis importante. El déficit de agua es enorme, así que lo primero es solución fisiológica al 0,9 %. La insulina se inicia después de hidratar y con potasio sobre 3,3 mEq/L.",
+      "say": {
+        "stem": "Hombre de setenta y ocho años, diabético tipo dos, con cinco días de poliuria y poca ingesta de líquidos. Está somnoliento, deshidratado e hipotenso. Glicemia setecientos ochenta, sodio ciento cuarenta y seis, pH normal y cetonas negativas. La osmolaridad efectiva es trescientos treinta y seis.",
+        "question": "¿Cuál es la primera medida terapéutica?",
+        "options": "Las opciones: bolo de insulina, bicarbonato, suero glucosado, suero fisiológico uno a uno coma cinco litros en la primera hora o suero hipotónico en bolo. Piénsalo.",
+        "answer": "Es la D. En el estado hiperosmolar el problema central es la deshidratación, y lo primero es suero fisiológico. La insulina tienta por la glicemia tan alta, pero darla antes de hidratar mete la glucosa y el agua a las células y puede agravar la hipotensión."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.02.4.006 · Cuerpos cetónicos en orina (semicuantitativo)",
+      "stem": "Un paciente de 25 años con DM1 ingresa con vómitos, dolor abdominal y respiración de Kussmaul. Glicemia 480 mg/dL, pH 7,10, bicarbonato 8 mEq/L y anión gap de 24. La cetonuria con tira reactiva (nitroprusiato) es solo débilmente positiva (+).",
+      "question": "¿Cuál es la explicación más probable de la cetonuria débil?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Descarta una cetoacidosis diabética"
+        },
+        {
+          "letter": "B",
+          "text": "Indica un estado hiperosmolar puro"
+        },
+        {
+          "letter": "C",
+          "text": "La tira detecta acetoacetato y acetona, pero no el beta-hidroxibutirato, que predomina en la cetoacidosis"
+        },
+        {
+          "letter": "D",
+          "text": "Se debe a que la glicemia es muy alta"
+        },
+        {
+          "letter": "E",
+          "text": "Indica exclusivamente acidosis láctica"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El nitroprusiato detecta acetoacetato y acetona, no beta-hidroxibutirato, que predomina en la cetoacidosis grave. Por eso la cetonuria puede subestimar la cetosis y se prefiere medir beta-hidroxibutirato en sangre. Con acidosis metabólica de anión gap alto e hiperglicemia, el diagnóstico de cetoacidosis se mantiene.",
+      "say": {
+        "stem": "Un joven de veinticinco años con diabetes tipo uno llega con vómitos, dolor abdominal y respiración de Kussmaul. Tiene glicemia de cuatrocientos ochenta, acidosis metabólica grave con anión gap alto, pero la cetonuria en tira es solo débilmente positiva.",
+        "question": "¿Cuál es la explicación más probable?",
+        "options": "Las opciones: descarta cetoacidosis, es un estado hiperosmolar puro, la tira no detecta el beta hidroxibutirato, se debe a la glicemia alta o es solo acidosis láctica. Piénsalo.",
+        "answer": "Es la C. La tira con nitroprusiato no detecta el beta hidroxibutirato, que predomina en la cetoacidosis, y por eso la subestima. Pensar que la descarta tienta, pero la acidosis con anión gap alto confirma la cetoacidosis."
+      }
     },
 
     {

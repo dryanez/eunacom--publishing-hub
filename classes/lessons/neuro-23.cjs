@@ -94,6 +94,59 @@ module.exports = {
         ] },
       ],
     },
+    {
+      type: 'points',
+      kicker: 'Hipotensión postural',
+      title: 'Hipotensión ortostática: estudio y tratamiento',
+      cards: [
+        { title: 'Qué es y por qué', tag: '1 de cada 5 adultos mayores', kind: 'criteria', items: [
+          { t: 'PAS ↓ ≥ 20 o PAD ↓ ≥ 10 en 3 min', d: 'De decúbito a bipedestación',
+            say: 'La hipotensión postural es una caída de la presión sistólica de veinte o más, o de la diastólica de diez o más, dentro de tres minutos de pasar de acostado a de pie. Afecta a uno de cada cinco adultos mayores y es una causa mayor de síncope, caídas y fracturas.' },
+          { t: 'Hipovolemia, fármacos, disautonomía', d: 'Diuréticos, alfa-bloqueadores, nitratos, psicofármacos, levodopa · Parkinson, AMS, Lewy, diabetes',
+            say: 'Sobre un reflejo barorreceptor que envejece, se suman la hipovolemia, los fármacos como antihipertensivos, alfabloqueadores, nitratos, antipsicóticos, tricíclicos, levodopa, benzodiacepinas y opioides, y la disautonomía neurogénica del Parkinson, la atrofia multisistémica, los cuerpos de Lewy y la neuropatía diabética. También el reposo prolongado, la anemia y la insuficiencia suprarrenal.' },
+        ] },
+        { title: 'Estudio', tag: 'Neurogénica o no', kind: 'key', items: [
+          { t: 'PA y pulso a 1 y 3 minutos de pie', d: 'Tras 5 min acostado',
+            say: 'Mides la presión y el pulso tras cinco minutos acostado, y luego a uno y a tres minutos de pie.' },
+          { t: 'Sin taquicardia: neurogénica', d: 'Con taquicardia: hipovolemia o fármacos',
+            say: 'Si la presión cae sin que suba la frecuencia, menos de quince latidos de aumento, la causa es neurogénica. Si hay taquicardia compensatoria, es hipovolemia o fármacos. Revisa la lista de fármacos y pide electrocardiograma y exámenes básicos. El tilt test es del especialista.' },
+        ] },
+        { title: 'Tratamiento escalonado', tag: 'En este orden', kind: 'pharma', items: [
+          { t: '1º suspender fármacos causantes', d: 'Corregir anemia',
+            say: 'El primer paso es suspender o reducir los fármacos causantes y corregir la anemia.' },
+          { t: '2º medidas no farmacológicas', d: 'Levantarse en etapas, 1,5–2 L, sal, medias, cabecera 10–20°',
+            say: 'Segundo, medidas no farmacológicas: levantarse en etapas, hidratación de uno coma cinco a dos litros al día, más sal si no hay hipertensión supina ni insuficiencia cardíaca, comidas pequeñas, evitar alcohol y calor, medias de compresión, cabecera elevada al dormir y maniobras de contrapresión, como cruzar las piernas.' },
+          { t: '3º fludrocortisona o midodrina', d: 'Midodrina: última dosis antes de las 18 h',
+            say: 'Si persiste, fludrocortisona o midodrina. La midodrina, la última dosis antes de las dieciocho horas, por el riesgo de hipertensión al acostarse. Y el seguimiento controla la presión acostado y de pie y las caídas.' },
+        ] },
+      ],
+    },
+    {
+      type: 'table',
+      kicker: 'Trastornos de la marcha',
+      title: 'Patrones de marcha y qué sospechar',
+      head: ['Patrón', 'Cómo se ve', 'Causa'],
+      rows: [
+        { cells: ['Hemiparética', 'Circunducción, brazo flectado', 'Secuela de ACV'],
+          say: 'La marcha normal del anciano es algo más lenta y de pasos cortos, pero simétrica y estable. Todo cambio claro predice caídas, hospitalización y muerte, y se diagnostica por el patrón. La hemiparética, con circunducción y el brazo flectado, es secuela de un ACV.' },
+        { cells: ['Espástica en tijera', 'Piernas rígidas que se cruzan', 'Mielopatía cervical, esclerosis múltiple'],
+          say: 'La espástica, en tijera, es de una mielopatía cervical o de una esclerosis múltiple.' },
+        { cells: ['Parkinsoniana', 'Inclinada, pasos cortos, sin braceo, giro en bloque, congelamiento', 'Parkinson'],
+          say: 'La parkinsoniana es inclinada hacia adelante, con pasos cortos y arrastrados, sin braceo, con giro en bloque, festinación y congelamiento.' },
+        { cells: ['Apráxica o magnética', 'Pies pegados al suelo, base ancha', 'Hidrocefalia normotensiva, enfermedad vascular frontal'],
+          say: 'La apráxica, o magnética, tiene los pies pegados al suelo, con base ancha: hidrocefalia normotensiva, con marcha, demencia e incontinencia, o enfermedad vascular frontal.' },
+        { cells: ['Atáxica', 'Ebria; taloneante si es sensitiva', 'Cerebelosa o cordones posteriores'],
+          say: 'La atáxica cerebelosa es de base ancha, ebria; la sensitiva es taloneante y empeora sin visión.' },
+        { cells: ['Steppage', 'Levanta mucho la rodilla', 'Fibular, radiculopatía L5, polineuropatía'],
+          say: 'El pie caído, o steppage, levanta mucho la rodilla para no arrastrar la punta: neuropatía del fibular, radiculopatía de la quinta raíz lumbar o polineuropatía.' },
+        { cells: ['Anserina', 'Bamboleo, signo de Trendelenburg', 'Miopatía o artrosis severa de cadera'],
+          say: 'La anserina, o de pato, con Trendelenburg, es debilidad proximal: miopatía o artrosis severa de cadera.' },
+        { cells: ['Antálgica o cautelosa', 'Apoyo corto del lado doloroso · pasos cortos con miedo', 'Artrosis, fractura · síndrome poscaída'],
+          say: 'La antálgica acorta el apoyo del lado doloroso. Y la cautelosa, como patinando sobre hielo, con miedo a caer, es el síndrome poscaída. En muchos ancianos se suman varias causas. El estudio se guía por el patrón, con TAC o resonancia si hay signos focales, mielopatía o sospecha de hidrocefalia, y el tratamiento es de la causa, con kinesioterapia, calzado, ayudas técnicas y desprescripción.' },
+      ],
+    },
+
+
 
     {
       type: 'flow',
@@ -117,9 +170,11 @@ module.exports = {
         { show: ['cai', 'sem'], note: 'La semiología más preguntada del tema',
           say: 'Ahora la fractura de cadera, la complicación más grave de las caídas. Su semiología es de las más repetidas del examen. Después de una caída a nivel, el paciente no puede ponerse de pie, tiene dolor en la ingle que baja al muslo, y la pierna está acortada, en rotación externa y en leve abducción. El borde lateral del pie queda apoyado en la camilla.' },
         { show: ['rx'], note: 'La radiografía define dónde está el trazo',
-          say: '¿Por qué esa posición? Los glúteos y el iliopsoas traccionan hacia arriba y acortan, y la gravedad y los rotadores externos rotan el pie hacia afuera. Con la sospecha, se pide una radiografía de pelvis y cadera, y la pregunta clave es si la fractura está dentro o fuera de la cápsula.' },
+          say: '¿Por qué esa posición? Los glúteos y el iliopsoas traccionan hacia arriba y acortan, y la gravedad y los rotadores externos rotan el pie hacia afuera. Con la sospecha, se pide una radiografía de pelvis y cadera, y la pregunta clave es si la fractura está dentro o fuera de la cápsula. Mira esta radiografía: la línea de fractura en el cuello femoral de un adulto mayor que se cayó.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-23/01_rx_fractura_cuello_femur__commons.jpg', label: 'Fractura de cuello femoral', at: 'Mira esta radiografía', credit: 'Wikimedia Commons' } },
         { show: ['int'], note: 'La cápsula lleva los vasos de la cabeza femoral',
-          say: 'Si es intracapsular, del cuello femoral, hay un problema vascular. Los vasos que nutren la cabeza femoral suben por dentro de la cápsula, desde la arteria circunfleja femoral medial. Si la fractura se desplaza, en los grados tres y cuatro de Garden, esos vasos se rompen, y el riesgo de necrosis avascular y de pseudoartrosis es muy alto.' },
+          say: 'Si es intracapsular, del cuello femoral, hay un problema vascular. Los vasos que nutren la cabeza femoral suben por dentro de la cápsula, desde la arteria circunfleja femoral medial. Si la fractura se desplaza, en los grados tres y cuatro de Garden, esos vasos se rompen, y el riesgo de necrosis avascular y de pseudoartrosis es muy alto. Mira estos esquemas de Garden: las fracturas subcapitales se clasifican por su desplazamiento, y en la cabeza desplazada los vasos se cortan.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-23/01_fracturas-subcapitales-garden_1__cto-trauma_p25.jpg', label: 'Clasificación de Garden', at: 'Mira estos esquemas', credit: 'Manual CTO Traumatología 14.ª ed., p. 25' } },
         { show: ['art'], note: 'Osteosintetizar una cabeza sin irrigación fracasa',
           say: 'Por eso, en el adulto mayor con fractura intracapsular desplazada, fijar el hueso fracasa, y se reemplaza: hemiartroplastia en el paciente frágil de baja demanda, y prótesis total en el paciente activo y sin deterioro cognitivo.' },
         { show: ['ext', 'ost'], note: 'Hueso esponjoso muy vascularizado: consolida bien',
@@ -134,7 +189,8 @@ module.exports = {
       cards: [
         { title: 'Cirugía precoz', tag: 'Garantía GES', kind: 'alert', items: [
           { t: 'Operar antes de 48 horas', d: 'Desde el ingreso hospitalario',
-            say: 'La fractura de cadera en personas de sesenta y cinco años y más tiene garantía GES, y su pilar es operar dentro de las primeras cuarenta y ocho horas desde el ingreso. La cirugía precoz reduce la neumonía, el delirium, la trombosis y las escaras, y baja a la mitad la mortalidad perioperatoria.' },
+            say: 'La fractura de cadera en personas de sesenta y cinco años y más tiene garantía GES, y su pilar es operar dentro de las primeras cuarenta y ocho horas desde el ingreso. La cirugía precoz reduce la neumonía, el delirium, la trombosis y las escaras, y baja a la mitad la mortalidad perioperatoria. Mira esta fractura subcapital desplazada y, esta otra imagen, la osteosíntesis.',
+            photos: [{ src: 'biblioteca/09_neurologia/neuro-23/01_fracturas-subcapitales-garden_2__cto-trauma_p25.jpg', label: 'Subcapital desplazada', at: 'Mira esta fractura subcapital', credit: 'Manual CTO Traumatología 14.ª ed., p. 25' }, { src: 'biblioteca/09_neurologia/neuro-23/02_fractura-pertrocanterea_1__cto-trauma_p26.jpg', label: 'Osteosíntesis de cadera', at: 'esta otra imagen', credit: 'Manual CTO Traumatología 14.ª ed., p. 26' }] },
           { t: 'Sin cirugía: 25–30 % muere al año', d: 'La demora mata',
             say: 'Esto importa porque, sin un manejo adecuado, la mortalidad al año llega a un veinticinco a treinta por ciento. No es una fractura más.' },
         ] },
@@ -166,40 +222,6 @@ module.exports = {
       steps: [
         { note: 'Acortada y en rotación externa',
           say: 'Al fracturarse el cuello femoral, los músculos tiran del fémur hacia arriba y lo rotan: la pierna queda más corta y el pie mira hacia afuera.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Fractura de cadera',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-23/01_rx_fractura_cuello_femur__commons.jpg', label: 'Fractura de cuello femoral', credit: 'Wikimedia Commons «Cdm hip fracture 343.jpg», CC BY-SA 3.0, Booyabazooka' },
-        { src: 'biblioteca/09_neurologia/neuro-23/01_fracturas-subcapitales-garden_1__cto-trauma_p25.jpg', label: 'Clasificación de Garden', credit: 'Manual CTO Traumatología 14.ª ed., p. 25' },
-      ],
-      steps: [
-        { note: 'La flecha marca la fractura',
-          say: 'Esta es una fractura del cuello femoral en un adulto mayor que se cayó. La pierna queda acortada y en rotación externa.' },
-        { note: 'Desplazada o no',
-          say: 'Las fracturas subcapitales se clasifican según su desplazamiento, y eso decide entre fijación o prótesis.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-23/01_fracturas-subcapitales-garden_2__cto-trauma_p25.jpg', label: 'Fractura subcapital desplazada (esquema)', credit: 'Manual CTO Traumatología 14.ª ed., p. 25' },
-        { src: 'biblioteca/09_neurologia/neuro-23/02_fractura-pertrocanterea_1__cto-trauma_p26.jpg', label: 'Osteosíntesis de fracturas de cadera', credit: 'Manual CTO Traumatología 14.ª ed., p. 26' },
-      ],
-      steps: [
-        { note: 'Fractura subcapital desplazada (esquema)',
-          say: 'Fractura subcapital del cuello femoral con la cabeza desplazada.' },
-        { note: 'Osteosíntesis de fracturas de cadera',
-          say: 'Fracturas de cadera antes y después de la osteosíntesis con placa y tornillo deslizante o con tornillos.' },
       ],
     },
 
@@ -296,6 +318,193 @@ module.exports = {
         options: 'Las opciones son: ecocardiograma, radiografía de tórax, angioTAC de tórax, tilt test, o un Holter de veinticuatro horas. Piénsalo.',
         answer: 'Es la C, angioTAC de tórax. Un postoperado de cadera con síncope, taquicardia, hipoxemia y pulmón limpio tiene un tromboembolismo pulmonar hasta demostrar lo contrario. Como la presión se mantiene, puede ir al angioTAC. Esta pregunta te recuerda por qué la tromboprofilaxis es obligatoria. El tilt test y el Holter son la trampa: piensan en un síncope cardíaco, no en el contexto.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Diciembre 2024 · Pregunta 63",
+      "stem": "Hombre mayor consulta por miedo a caerse. Tuvo una caída hace 10 meses, sin lesiones. Al examen destaca atrofia leve de cuádriceps. Test Timed Up and Go de 14 segundos (VN menor de 14 s) y estación unipodal de 3 segundos.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ejercicios multicomponente"
+        },
+        {
+          "letter": "B",
+          "text": "Fortalecimiento de cuádriceps"
+        },
+        {
+          "letter": "C",
+          "text": "Caminata diaria"
+        },
+        {
+          "letter": "D",
+          "text": "Uso de bastón"
+        },
+        {
+          "letter": "E",
+          "text": "Observación clínica"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Caída previa, temor a caer, Timed Up and Go en el límite y estación unipodal menor de 5 segundos: riesgo aumentado de caídas. La intervención con mejor evidencia es el ejercicio multicomponente (fuerza, equilibrio y marcha), que reduce caídas y fracturas. Fortalecer solo el cuádriceps o caminar no entrena el equilibrio; el bastón no corrige la causa.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de diciembre de dos mil veinticuatro. Un hombre mayor consulta por miedo a caerse; cayó hace diez meses sin lesiones. Tiene atrofia leve de cuádriceps, un Timed Up and Go de catorce segundos y solo tres segundos en apoyo unipodal.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: ejercicios multicomponente, fortalecer cuádriceps, caminata diaria, bastón, u observación. Piénsalo.",
+        "answer": "Es la A. Tiene riesgo de caídas por mal equilibrio, y el ejercicio multicomponente, que combina fuerza, equilibrio y marcha, es lo que reduce las caídas. Fortalecer el cuádriceps tienta por la atrofia, pero no entrena el equilibrio, que es lo más alterado."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.1.017 · Trastornos de la marcha",
+      "stem": "Hombre de 76 años con 1 año de alteración progresiva de la marcha: pasos cortos, base amplia, como si los pies estuvieran pegados al suelo, con dificultad para iniciar la marcha y girar. En los últimos meses tiene urgencia e incontinencia urinaria y lentitud para pensar. Sin temblor de reposo; braceo conservado. TAC de encéfalo: ventriculomegalia desproporcionada respecto de los surcos corticales.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iniciar levodopa/carbidopa"
+        },
+        {
+          "letter": "B",
+          "text": "Solo kinesiterapia motora"
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar donepezilo"
+        },
+        {
+          "letter": "D",
+          "text": "Punción lumbar evacuadora (tap test) y derivación a neurocirugía"
+        },
+        {
+          "letter": "E",
+          "text": "RM de columna lumbar por sospecha de canal estrecho"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Marcha magnética, incontinencia urinaria y deterioro cognitivo (tríada de Hakim) con ventriculomegalia sin atrofia proporcional: hidrocefalia normotensiva, causa tratable de trastorno de la marcha y demencia. Se realiza punción lumbar evacuadora de 30 a 50 mL; si la marcha mejora, predice buena respuesta a la derivación ventrículo-peritoneal. La marcha es lo que mejor responde.",
+      "say": {
+        "stem": "Un hombre de setenta y seis años camina con pasos cortos, como pegado al suelo, y tiene incontinencia urinaria y lentitud mental. La tomografía muestra ventrículos grandes sin atrofia proporcional.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: levodopa, solo kinesiterapia, donepezilo, punción lumbar evacuadora y derivar a neurocirugía o resonancia lumbar. Piénsalo.",
+        "answer": "Es la D. Es una hidrocefalia normotensiva, y la punción evacuadora predice la respuesta a la válvula de derivación. La levodopa tienta por la marcha de pasos cortos, pero no hay temblor ni compromiso del braceo, y no responde."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.5.003 · Valoración de la marcha",
+      "stem": "Mujer de 79 años acude a su EMPAM en el CESFAM. Refiere una caída en el último año. Como parte de la evaluación del riesgo de caídas se le aplicará el test Timed Up and Go.",
+      "question": "¿Cómo se realiza correctamente este test?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Se cronometra el tiempo que tarda en levantarse de una silla con apoyabrazos, caminar 3 metros, girar, volver y sentarse, a su paso habitual"
+        },
+        {
+          "letter": "B",
+          "text": "Se mide la distancia que camina en 6 minutos"
+        },
+        {
+          "letter": "C",
+          "text": "Se cronometra el tiempo que logra mantenerse sobre un pie con los ojos abiertos"
+        },
+        {
+          "letter": "D",
+          "text": "Se cuenta cuántas veces se levanta de la silla en 30 segundos sin usar los brazos"
+        },
+        {
+          "letter": "E",
+          "text": "Se mide el tiempo que tarda en caminar 10 metros en línea recta lo más rápido posible"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El Timed Up and Go evalúa en una sola prueba la transferencia, la marcha y el giro: la persona se levanta de una silla con apoyabrazos, camina 3 metros a su ritmo habitual (con su ayuda técnica si la usa), gira, vuelve y se sienta. Un tiempo prolongado indica riesgo de caídas. Las demás opciones describen otros tests.",
+      "say": {
+        "stem": "Una mujer de setenta y nueve años, con una caída en el último año, se evalúa en su examen preventivo con el test Timed Up and Go.",
+        "question": "¿Cómo se realiza correctamente este test?",
+        "options": "Las opciones: levantarse de una silla, caminar tres metros, girar, volver y sentarse cronometrando, caminar seis minutos, mantenerse en un pie, levantarse de la silla en treinta segundos, o caminar diez metros lo más rápido posible. Piénsalo.",
+        "answer": "Es la A. El test cronometra levantarse, caminar tres metros, girar, volver y sentarse, al paso habitual. Mantenerse en un pie tienta porque también se usa en el examen preventivo, pero es la estación unipodal, una prueba distinta de equilibrio."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.1.010 · Hipotensión postural",
+      "stem": "Hombre de 76 años, usuario de doxazosina por hiperplasia prostática, consulta por mareos al ponerse de pie y una caída reciente. Se mide la presión arterial en decúbito y luego de 3 minutos de pie.",
+      "question": "¿Cuál de los siguientes resultados confirma hipotensión ortostática?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Caída de la PA sistólica de 10 mmHg con aumento de la FC de 5/min"
+        },
+        {
+          "letter": "B",
+          "text": "Aumento de la PA sistólica de 20 mmHg"
+        },
+        {
+          "letter": "C",
+          "text": "Caída de la PA diastólica de 5 mmHg"
+        },
+        {
+          "letter": "D",
+          "text": "Caída de la PA sistólica de 25 mmHg"
+        },
+        {
+          "letter": "E",
+          "text": "Aumento de la FC de 30/min sin cambios en la PA"
+        }
+      ],
+      "correct": "D",
+      "explanation": "La hipotensión ortostática se define como una caída de la PA sistólica de al menos 20 mmHg o de la diastólica de al menos 10 mmHg dentro de 3 minutos de bipedestación. Es causa frecuente de caídas, y los alfabloqueadores como la doxazosina son un gatillante clásico. Un alza aislada de FC sin hipotensión sugiere taquicardia postural.",
+      "say": {
+        "stem": "Hombre de setenta y seis años con doxazosina, mareos al pararse y una caída. Le mides la presión acostado y de pie.",
+        "question": "¿Qué resultado confirma hipotensión ortostática?",
+        "options": "Las opciones: caída sistólica de diez, alza sistólica, caída diastólica de cinco, caída sistólica de veinticinco o solo alza de la frecuencia cardíaca. Piénsalo.",
+        "answer": "Es la D. Una caída sistólica de veinticinco, porque el umbral es veinte de sistólica o diez de diastólica. El alza aislada de frecuencia cardíaca corresponde a taquicardia postural, no a hipotensión."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.07.3.011 · Adecuación del entorno para personas mayores",
+      "stem": "Mujer de 81 años con osteoporosis ha tenido 2 caídas en su casa durante el último año, ambas de noche al ir al baño. Vive en una casa con alfombras sueltas y escalones sin baranda.",
+      "question": "¿Cuál es la medida de adecuación del entorno más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Indicar una benzodiacepina para que no se levante de noche"
+        },
+        {
+          "letter": "B",
+          "text": "Mantener la casa en penumbra para no alterar el sueño"
+        },
+        {
+          "letter": "C",
+          "text": "Indicarle que camine de noche con calcetines de lana"
+        },
+        {
+          "letter": "D",
+          "text": "Retirar alfombras sueltas, instalar iluminación nocturna y barras de apoyo en el baño"
+        },
+        {
+          "letter": "E",
+          "text": "Restringir la ingesta de agua durante todo el día"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Adecuar el entorno es eficaz para prevenir caídas: retirar alfombras sueltas y obstáculos, iluminar de noche el trayecto al baño, instalar barras de apoyo, pisos antideslizantes y barandas. Las benzodiacepinas aumentan el riesgo de caídas, igual que los calcetines sin suela antideslizante y la penumbra. Restringir líquidos predispone a deshidratación.",
+      "say": {
+        "stem": "Mujer de ochenta y un años que se cae de noche camino al baño, en una casa con alfombras sueltas.",
+        "question": "¿Qué cambio en su entorno indicas?",
+        "options": "Las opciones: benzodiacepina, penumbra, calcetines de lana, retirar alfombras con luz nocturna y barras de apoyo o restringir agua. Piénsalo.",
+        "answer": "Es la D. Retirar alfombras, iluminar el camino al baño e instalar barras. La benzodiacepina para que no se levante es la trampa, porque aumenta las caídas."
+      }
     },
 
     {

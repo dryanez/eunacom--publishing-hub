@@ -67,7 +67,8 @@ module.exports = {
           { t: 'También sensitivos o del lenguaje', d: 'Parestesias de marcha cheiro-oral',
             say: 'También pueden ser sensitivos, con parestesias que avanzan de la mano al brazo y a la boca, la marcha cheiro-oral, o trastornos del lenguaje.' },
           { t: 'Aura de 5 a 60 minutos', d: 'Se extiende en 5 min o más · cefalea en menos de 60 min',
-            say: 'Cada síntoma se va extendiendo en cinco minutos o más, dura entre cinco y sesenta minutos, y la cefalea aparece dentro de los sesenta minutos siguientes. Un déficit que se instala de golpe, en cambio, te hace pensar en un ACV.' },
+            say: 'Cada síntoma se va extendiendo en cinco minutos o más, dura entre cinco y sesenta minutos, y la cefalea aparece dentro de los sesenta minutos siguientes. Un déficit que se instala de golpe, en cambio, te hace pensar en un ACV. Mira este esquema: el aura visual típica es un zigzag brillante que crece desde el centro hacia la periferia. Si dura más de una hora, hay que pensar en otra cosa.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-06/S1_aura-fortificacion__propio.svg', label: 'Espectro de fortificación', at: 'Mira este esquema', credit: 'Dibujo propio (esquema)' } },
         ] },
       ],
     },
@@ -92,6 +93,51 @@ module.exports = {
         { title: 'Diagnóstico clínico', tag: 'Sin imagen de rutina', kind: 'normal', items: [
           { t: 'Sin banderas rojas: no hay TAC', d: 'Examen neurológico normal basta',
             say: 'Y en las dos, el diagnóstico es clínico. Si el examen neurológico es normal y no hay banderas rojas, la neuroimagen de rutina no está indicada. Justamente, esas banderas rojas son lo que vemos ahora.' },
+        ] },
+      ],
+    },
+    {
+      type: 'points',
+      kicker: 'Cefalea tensional',
+      title: 'Cefalea tensional: tratar y hacer seguimiento',
+      cards: [
+        { title: 'Clasificación', tag: 'Por frecuencia', kind: 'criteria', items: [
+          { t: 'Episódica infrecuente, frecuente o crónica', d: '< 1 · 1–14 · ≥ 15 días al mes',
+            say: 'La cefalea tensional se clasifica por frecuencia. Episódica infrecuente, menos de un día al mes. Episódica frecuente, de uno a catorce días al mes. Y crónica, quince o más días al mes durante más de tres meses. Se maneja completa en atención primaria.' },
+        ] },
+        { title: 'La crisis', tag: 'Analgésicos simples', kind: 'pharma', items: [
+          { t: 'Paracetamol, AINE o aspirina', d: 'Paracetamol 1 g · ibuprofeno 400 mg · naproxeno 500 mg',
+            say: 'En la crisis, analgésicos simples: paracetamol un gramo, ibuprofeno cuatrocientos miligramos, naproxeno quinientos o aspirina entre quinientos y mil. Con una advertencia: menos de dos a tres días por semana, para no producir cefalea por abuso de analgésicos.' },
+          { t: 'Sin opioides ni triptanes', d: 'Ni barbitúricos ni cafeína o codeína',
+            say: 'No se usan opioides, barbitúricos ni combinaciones con cafeína o codeína. Y los triptanes no sirven en la cefalea tensional pura: es otra trampa.' },
+        ] },
+        { title: 'Prevención', tag: 'Forma frecuente o crónica', kind: 'key', items: [
+          { t: 'Amitriptilina 10–25 mg de noche', d: 'Titular hasta 50–75 mg',
+            say: 'Si es frecuente o crónica, la profilaxis de primera línea es amitriptilina, diez a veinticinco miligramos de noche, que se sube según respuesta. Cuida la somnolencia, la boca seca y la retención urinaria, sobre todo en el adulto mayor. Alternativas son mirtazapina o venlafaxina.' },
+          { t: 'Ejercicio, sueño, estrés, postura', d: 'Calendario de cefaleas · control a las 4–8 semanas',
+            say: 'Las medidas no farmacológicas son parte del tratamiento: ejercicio aeróbico, higiene del sueño, relajación, terapia cognitivo-conductual y fisioterapia cervical. Se pide un calendario de cefaleas y se reevalúa a las cuatro a ocho semanas. Se deriva si no responde, si cambia el patrón o si aparece una bandera roja.' },
+        ] },
+      ],
+    },
+
+
+    {
+      type: 'points',
+      kicker: 'Bandera roja',
+      title: 'La cefalea de la hipertensión endocraneana',
+      cards: [
+        { title: 'Cómo es', tag: 'Progresiva', kind: 'alert', items: [
+          { t: 'Matutina o que despierta', d: 'Empeora al acostarse, toser o hacer esfuerzo',
+            say: 'La cefalea de la hipertensión endocraneana es progresiva, de predominio matutino o de las que despiertan al paciente, y empeora al acostarse, toser o con el esfuerzo.' },
+          { t: 'Vómitos explosivos y papiledema', d: 'Diplopía, alteración de conciencia',
+            say: 'Se acompaña de vómitos explosivos, diplopía y alteración de conciencia. Y el dato objetivo es el papiledema. Mira este fondo de ojo: el borde de la papila está borrado. Es un signo neurológico, una bandera roja, y obliga a pedir imágenes.',
+            photo: { src: 'biblioteca/09_neurologia/neuro-06/01_papiledema__cto-oftalmo_p88.jpg', label: 'Papiledema', at: 'Mira este fondo de ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 88' } },
+        ] },
+        { title: 'Qué hacer', tag: 'Derivar', kind: 'key', items: [
+          { t: 'TAC con contraste o RM, antes de puncionar', d: 'Nunca solo analgesia',
+            say: 'Se pide TAC de encéfalo con contraste o resonancia antes de cualquier punción lumbar, y no se deja solo con analgésicos.' },
+          { t: 'Urgencia: causa y presión', d: 'Cabecera a 30°, osmoterapia si se deteriora',
+            say: 'Se deriva a urgencia para tratar la causa y la presión intracraneal: cabecera a treinta grados y osmoterapia si hay deterioro.' },
         ] },
       ],
     },
@@ -175,6 +221,28 @@ module.exports = {
         ] },
       ],
     },
+    {
+      type: 'points',
+      kicker: 'Urgencias',
+      title: 'Status migrañoso: manejo en urgencias',
+      cards: [
+        { title: 'Qué es', tag: 'Más de 72 horas', kind: 'criteria', items: [
+          { t: 'Crisis > 72 h refractaria', d: 'Intervalos libres < 4 horas',
+            say: 'El status migrañoso es una crisis de migraña debilitante que dura más de setenta y dos horas, con intervalos libres de menos de cuatro horas, y refractaria al tratamiento habitual. Se asocia a abuso de analgésicos, deshidratación por vómitos o suspensión brusca de la profilaxis.' },
+          { t: 'Solo en migraña conocida', d: 'Antes: SNOOP10',
+            say: 'Se aplica solo a un paciente que ya tiene migraña. Ante cualquier cefalea prolongada, primero descartas la causa secundaria con las banderas rojas.' },
+        ] },
+        { title: 'Tratamiento', tag: 'Parenteral', kind: 'pharma', items: [
+          { t: 'Suero, metoclopramida, ketorolaco', d: 'Metoclopramida 10 mg EV · ketorolaco 30 mg EV',
+            say: 'Hidratación con suero fisiológico, metoclopramida diez miligramos endovenosa, que además potencia la analgesia, y ketorolaco treinta miligramos u otro antiinflamatorio parenteral.' },
+          { t: 'Dexametasona y magnesio', d: 'Dexametasona 8–10 mg · sulfato de Mg 1–2 g',
+            say: 'Se suma dexametasona, ocho a diez miligramos, que reduce la recurrencia precoz, y sulfato de magnesio uno a dos gramos. El valproato endovenoso es otra opción, pero está contraindicado en el embarazo. Los triptanes sirven si no hay contraindicación cardiovascular.' },
+          { t: 'Evitar opioides y barbitúricos', d: 'Cronifican; suspender analgésicos de rebote',
+            say: 'Se evitan los opioides y los barbitúricos, porque favorecen el abuso de medicación y la cronificación. Se hospitaliza si no cede en urgencias o hay deshidratación grave, y al alta se inicia o ajusta la profilaxis.' },
+        ] },
+      ],
+    },
+
 
     {
       type: 'points',
@@ -235,23 +303,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      light: true,
-      kicker: 'Así se ve',
-      title: 'El aura y una bandera roja',
-      images: [
-        { src: 'biblioteca/09_neurologia/neuro-06/S1_aura-fortificacion__propio.svg', label: 'Espectro de fortificación', credit: 'Dibujo propio (esquema)' },
-        { src: 'biblioteca/09_neurologia/neuro-06/01_papiledema__cto-oftalmo_p88.jpg', label: 'Papiledema: bandera roja', credit: 'Manual CTO Oftalmología 14.ª ed., p. 88' },
-      ],
-      steps: [
-        { note: 'Crece en minutos',
-          say: 'El aura visual típica es un zigzag brillante que crece desde el centro hacia la periferia en unos veinte minutos. Si dura más de una hora, hay que pensar en otra cosa.' },
-        { note: 'Signo neurológico: TAC',
-          say: 'Y esto ya no es una migraña: un papiledema en el fondo de ojo. Es un signo neurológico, una bandera roja, y obliga a pedir una tomografía.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol: primero las banderas rojas, después el tipo de cefalea, la crisis y la profilaxis.',
     },
@@ -276,6 +327,8 @@ module.exports = {
           say: 'Tres o más crisis al mes: se agrega profilaxis. Aumentar los analgésicos solo lleva al rebote.' },
         { cells: ['Profilaxis en mujer en edad fértil', 'Propranolol, amitriptilina, flunarizina', 'Ácido valproico'],
           say: 'Y profilaxis en la mujer en edad fértil: nunca ácido valproico. Y recuerda que el sumatriptán trata la crisis, no la previene.' },
+        { cells: ['Migraña que dura más de 72 horas, refractaria', 'Status migrañoso: suero, metoclopramida, ketorolaco, dexametasona', 'Opioides o barbitúricos'],
+          say: 'Y la migraña de más de setenta y dos horas es un status migrañoso: hidratación, metoclopramida, ketorolaco y dexametasona, nunca opioides ni barbitúricos.' },
       ],
     },
 
@@ -415,6 +468,157 @@ module.exports = {
         options: 'Las opciones: manitol endovenoso, clorpromazina endovenosa, ketorolaco endovenoso, oxígeno con eletriptán, o carbamazepina oral. Piénsalo.',
         answer: 'Es la A, manitol. Esto no es una crisis de migraña: ojo rojo con pupila fija en semimidriasis es un glaucoma agudo de ángulo cerrado. Y el dato que lo conecta con la clase es el topiramato, que puede producirlo. El ketorolaco y el oxígeno con triptán son la trampa: tratan una cefalea primaria, y esta paciente tiene una causa secundaria que amenaza el ojo.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.2.001 · Cefalea aguda en urgencia",
+      "stem": "Mujer de 30 años con migraña sin aura diagnosticada hace 8 años consulta en urgencia por una crisis igual a las habituales, de 10 horas de evolución, hemicránea pulsátil con fotofobia y vómitos repetidos que le impiden tomar medicamentos orales. Afebril, PA 118/74 mmHg, examen neurológico normal, sin rigidez de nuca.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TAC de encéfalo urgente antes de tratar"
+        },
+        {
+          "letter": "B",
+          "text": "Morfina EV"
+        },
+        {
+          "letter": "C",
+          "text": "Punción lumbar"
+        },
+        {
+          "letter": "D",
+          "text": "Hidratación EV, ketorolaco EV y metoclopramida EV, sin neuroimagen"
+        },
+        {
+          "letter": "E",
+          "text": "Sumatriptán oral y alta inmediata"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Crisis migrañosa típica, igual a las previas y sin banderas rojas: no requiere imagen. Con vómitos se usa la vía parenteral: AINE EV (ketorolaco) más antiemético antidopaminérgico (metoclopramida), con hidratación; el sumatriptán subcutáneo es alternativa. Los opioides se evitan por cefalea de rebote y recurrencia; la vía oral fallará con vómitos.",
+      "say": {
+        "stem": "Una mujer de treinta años con migraña conocida consulta por una crisis igual a las de siempre, de diez horas, con vómitos que le impiden tomar pastillas. El examen neurológico es normal.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: tomografía urgente, morfina endovenosa, punción lumbar, hidratación con ketorolaco y metoclopramida endovenosos o sumatriptán oral y alta. Piénsalo.",
+        "answer": "Es la D. Es una crisis típica sin banderas rojas, y con vómitos se trata por vía endovenosa con antiinflamatorio y antiemético. La tomografía tienta por la intensidad, pero una crisis igual a las habituales y con examen normal no la necesita."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2013 · Pregunta 180",
+      "stem": "Un paciente de 12 años consulta porque hace una hora presentó visión de destellos, tras lo cual evolucionó con cefalea frontotemporal intensa, de tipo pulsátil, asociada a fotofobia y fonofobia. Refiere que desde los 5 años ha presentado cuadros similares, y durante el último año ha tenido cinco episodios.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Migraña con aura (clásica)"
+        },
+        {
+          "letter": "B",
+          "text": "Cefalea en racimos"
+        },
+        {
+          "letter": "C",
+          "text": "Cefalea tensional"
+        },
+        {
+          "letter": "D",
+          "text": "Migraña complicada"
+        },
+        {
+          "letter": "E",
+          "text": "Tumor cerebral"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Cefalea pulsátil intensa con fotofobia y fonofobia, precedida de aura visual (destellos) que se resuelve antes del dolor, recurrente desde hace años y con examen presumiblemente normal, es migraña con aura. La migraña es la cefalea primaria recurrente más frecuente en niños. La migraña complicada implica déficit persistente; el tumor da cefalea progresiva con signos de alarma.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil trece. Un escolar de doce años vio destellos y luego tuvo una cefalea pulsátil intensa con fotofobia y fonofobia. Tiene episodios similares desde los cinco años.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: migraña con aura, cefalea en racimos, cefalea tensional, migraña complicada o tumor cerebral. Piénsalo.",
+        "answer": "Es la A. Aura visual seguida de cefalea pulsátil con fotofobia, recurrente por años, es una migraña con aura. El tumor cerebral tienta en un niño con cefalea, pero no da episodios recurrentes durante siete años con normalidad entre ellos."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2019 · Pregunta 166",
+      "stem": "Un niño de 4 años presenta cefalea de 1 mes de evolución, mayor en las mañanas, asociada a diplopía. Además, ha presentado náuseas y vómitos alimentarios que han aumentado su frecuencia en el último tiempo.",
+      "question": "¿Cuál es la causa más probable de su cefalea?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Migraña de presentación atípica"
+        },
+        {
+          "letter": "B",
+          "text": "Cefalea tensional"
+        },
+        {
+          "letter": "C",
+          "text": "Migraña clásica"
+        },
+        {
+          "letter": "D",
+          "text": "Vicio de refracción"
+        },
+        {
+          "letter": "E",
+          "text": "Hipertensión endocraneana"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Cefalea progresiva de predominio matinal, con vómitos y diplopía (paresia del VI par, signo de falsa localización), es un síndrome de hipertensión endocraneana. En un niño obliga a neuroimagen urgente para descartar tumor de fosa posterior, hidrocefalia u otras causas. Las cefaleas primarias no son progresivas ni despiertan con vómitos.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecinueve. Un niño de cuatro años tiene hace un mes cefalea de predominio matinal, vómitos cada vez más frecuentes y visión doble.",
+        "question": "¿Cuál es la causa más probable?",
+        "options": "Las opciones: migraña atípica, cefalea tensional, migraña clásica, vicio de refracción o hipertensión endocraneana. Piénsalo.",
+        "answer": "Es la E. Cefalea matinal progresiva con vómitos y diplopía es una hipertensión endocraneana, que exige neuroimagen urgente. El vicio de refracción tienta por la diplopía, pero no produce cefalea progresiva ni vómitos."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.10.2.018 · Status migrañoso",
+      "stem": "Mujer de 32 años con migraña sin aura conocida presenta una crisis de cefalea pulsátil, con náuseas y fotofobia, de 4 días de duración continua, que no ha cedido con naproxeno ni sumatriptán. Examen neurológico normal, sin fiebre ni signos meníngeos.",
+      "question": "¿Cuál es el manejo más adecuado en el servicio de urgencia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Morfina endovenosa"
+        },
+        {
+          "letter": "B",
+          "text": "Hidratación, metoclopramida y ketorolaco endovenosos, considerando dexametasona"
+        },
+        {
+          "letter": "C",
+          "text": "Ergotamina más un segundo triptán"
+        },
+        {
+          "letter": "D",
+          "text": "Propranolol oral y alta"
+        },
+        {
+          "letter": "E",
+          "text": "Punción lumbar inmediata"
+        }
+      ],
+      "correct": "B",
+      "explanation": "Una crisis de migraña de más de 72 horas es un status migrañoso. En urgencia se trata con hidratación, un antiemético antidopaminérgico como metoclopramida, un AINE endovenoso como ketorolaco y dexametasona para reducir recurrencias. Los opioides favorecen la cefalea por abuso de medicamentos, ergotamina y triptán no deben combinarse, y el propranolol es profilaxis, no tratamiento agudo.",
+      "say": {
+        "stem": "Mujer de treinta y dos años con migraña conocida y una crisis típica de cuatro días que no cedió con naproxeno ni sumatriptán, con examen neurológico normal.",
+        "question": "¿Cómo la manejas en urgencia?",
+        "options": "Las opciones: morfina, hidratación con metoclopramida y ketorolaco considerando dexametasona, ergotamina con otro triptán, propranolol y alta, o punción lumbar. Piénsalo.",
+        "answer": "Es la B. Es un status migrañoso y se trata con hidratación, metoclopramida y ketorolaco, considerando dexametasona. La morfina alivia rápido, pero favorece la cefalea por abuso de medicamentos y no se recomienda."
+      }
     },
 
     {

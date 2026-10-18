@@ -64,6 +64,30 @@ module.exports = {
 
     {
       type: 'points',
+      kicker: 'Punción pleural en el niño',
+      title: 'La técnica cambia: ecografía y sedación',
+      cards: [
+        { title: 'Cómo se hace', tag: 'Hospital', kind: 'key', items: [
+          { t: 'Guiada por ecografía', d: 'Con anestesia local o sedoanalgesia',
+            say: 'En el niño con neumonía y derrame paraneumónico, causado por neumococo, Staphylococcus aureus o Streptococcus pyogenes, la punción se hace guiada por ecografía, con anestesia local o sedoanalgesia, y en general en el hospital. En lactantes pequeños puede requerir sedación.' },
+          { t: 'Aguja fina o catéter', d: 'Sentado o en decúbito lateral; borde superior de la costilla',
+            say: 'Se usa aguja fina o catéter, con el niño sentado o en decúbito lateral, por el borde superior de la costilla, en la línea axilar media o posterior.' },
+        ] },
+        { title: 'Qué se pide al líquido', tag: 'Y qué se hace con él', kind: 'criteria', items: [
+          { t: 'pH, glucosa, LDH, proteínas, recuento, Gram, cultivo', d: 'Siempre',
+            say: 'Se envía el líquido para pH, glucosa, LDH, proteínas, recuento celular, Gram y cultivo.' },
+          { t: 'pH < 7,2, glucosa baja o pus', d: 'Tubo + fibrinolítico o VATS precoz + antibiótico EV',
+            say: 'Un derrame con pH menor de siete coma dos, glucosa baja o pus franco se maneja con tubo de drenaje y fibrinolíticos, o VATS precoz, más antibiótico endovenoso.' },
+        ] },
+        { title: 'Cuándo no puncionar', tag: 'Trampa', kind: 'alert', items: [
+          { t: 'Derrame mínimo: < 10 mm en decúbito lateral', d: 'Principal complicación: neumotórax',
+            say: 'No se hace punción diagnóstica si el derrame es mínimo, de menos de diez milímetros en decúbito lateral. Y la complicación mayor de la punción es el neumotórax.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
       kicker: 'Indicaciones de tubo',
       title: 'Cualquiera de estos: tubo de drenaje ya',
       cards: [
@@ -77,9 +101,11 @@ module.exports = {
         ] },
         { title: 'Lo que muestra la imagen', tag: 'Anatomía', kind: 'criteria', items: [
           { t: 'Tabiques o loculaciones', d: 'O engrosamiento pleural en eco o TAC',
-            say: 'Y las dos últimas vienen de la imagen: tabiques, loculaciones o engrosamiento pleural en la ecografía o la TAC, que te dicen que ya está en fase fibrinopurulenta.' },
+            say: 'Y las dos últimas vienen de la imagen: tabiques, loculaciones o engrosamiento pleural en la ecografía o la TAC, que te dicen que ya está en fase fibrinopurulenta. Mira esta radiografía: un derrame encapsulado, que no se mueve con los cambios de posición.',
+            photo: { src: 'biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_1__cto-neumo_p111.jpg', label: 'Derrame encapsulado', at: 'Mira esta radiografía', credit: 'Manual CTO Neumología 14.ª ed., p. 111' } },
           { t: 'Más de la mitad del hemitórax', d: 'En la radiografía',
-            say: 'O un derrame que ocupa más de la mitad del hemitórax en la radiografía.' },
+            say: 'O un derrame que ocupa más de la mitad del hemitórax en la radiografía. Y en esta otra, un derrame masivo izquierdo: el hemitórax blanco y el mediastino empujado.',
+            photo: { src: 'biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_2__cto-neumo_p111.jpg', label: 'Derrame masivo izquierdo', at: 'Y en esta otra', credit: 'Manual CTO Neumología 14.ª ed., p. 111' } },
         ] },
         { title: 'El tubo', tag: 'Pleurostomía cerrada', kind: 'key', items: [
           { t: 'Tubo 24–28 Fr a trampa de agua', d: 'Succión suave de −10 a −20 cmH2O',
@@ -185,32 +211,6 @@ module.exports = {
     },
 
     {
-      type: 'image',
-      kicker: 'Así se ve',
-      title: 'Derrame complicado',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_1__cto-neumo_p111.jpg', label: 'Derrame encapsulado', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
-      ],
-      steps: [
-        { note: 'No se desplaza, forma tabiques',
-          say: 'Este derrame no forma la curva habitual: está encapsulado, atrapado por tabiques de fibrina. Un derrame paraneumónico así necesita tubo pleural.' },
-      ],
-    },
-
-    {
-      type: 'image',
-      kicker: 'Más imágenes',
-      title: 'Más imágenes del tema',
-      images: [
-        { src: 'biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_2__cto-neumo_p111.jpg', label: 'Derrame pleural masivo izquierdo (Rx)', credit: 'Manual CTO Neumología 14.ª ed., p. 111' },
-      ],
-      steps: [
-        { note: 'Derrame masivo izquierdo',
-          say: 'Radiografía de tórax con un derrame masivo del lado izquierdo: el hemitórax está blanco y el mediastino se desplaza hacia el otro lado.' },
-      ],
-    },
-
-    {
       type: 'pathway',
       intro: 'Ahora juntemos todo en un árbol, desde la neumonía con derrame hasta la decorticación.',
     },
@@ -303,6 +303,194 @@ module.exports = {
         options: 'Las opciones: claritromicina, clindamicina, ceftriaxona, azitromicina, o amoxicilina. Piénsalo.',
         answer: 'Es la C. El pH sobre siete coma veinte y el derrame pequeño dicen que es un paraneumónico no complicado: no necesita tubo, basta el antibiótico. Y el antibiótico va endovenoso, como en la neumonía que requiere hospitalización: de las opciones, la ceftriaxona. La amoxicilina es la trampa: es oral, y aquí se necesita un antibiótico endovenoso.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2025 · Pregunta 94",
+      "stem": "Paciente con derrame pleural unilateral. Se realiza toracocentesis.",
+      "question": "¿Cuál es el examen del líquido pleural que permite clasificarlo como exudado o trasudado según los criterios de Light?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proteínas y LDH en líquido pleural y suero"
+        },
+        {
+          "letter": "B",
+          "text": "Glucosa en líquido pleural"
+        },
+        {
+          "letter": "C",
+          "text": "ADA en líquido pleural"
+        },
+        {
+          "letter": "D",
+          "text": "pH del líquido pleural"
+        },
+        {
+          "letter": "E",
+          "text": "Recuento celular diferencial"
+        }
+      ],
+      "correct": "A",
+      "explanation": "Criterios de Light: es exudado si cumple al menos uno: proteínas pleura/suero mayor de 0,5, LDH pleura/suero mayor de 0,6, o LDH pleural mayor de 2/3 del límite superior normal sérico. Glucosa, pH y ADA orientan la causa del exudado, pero no lo clasifican.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. A un paciente con derrame pleural unilateral se le hace una toracocentesis.",
+        "question": "¿Qué examen del líquido permite clasificarlo como exudado o trasudado según los criterios de Light?",
+        "options": "Las opciones: proteínas y deshidrogenasa láctica en líquido y suero, glucosa, adenosina deaminasa, pH o recuento celular. Piénsalo.",
+        "answer": "Es la A. Light compara proteínas y deshidrogenasa láctica del líquido con las del suero, y basta un criterio para llamarlo exudado. El pH tienta porque es clave en el derrame paraneumónico, pero sirve para decidir el drenaje, no para separar exudado de trasudado."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.5.004 · Drenaje pleural",
+      "stem": "Hombre de 45 años con empiema pleural izquierdo confirmado. Se decide instalar un tubo de drenaje pleural en decúbito supino con el brazo en abducción.",
+      "question": "¿Cuál es el sitio de inserción recomendado?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2.º espacio intercostal, línea medioclavicular"
+        },
+        {
+          "letter": "B",
+          "text": "8.º espacio intercostal, línea escapular"
+        },
+        {
+          "letter": "C",
+          "text": "4.º o 5.º espacio intercostal, entre las líneas axilares anterior y media (triángulo de seguridad)"
+        },
+        {
+          "letter": "D",
+          "text": "Región subxifoidea"
+        },
+        {
+          "letter": "E",
+          "text": "Borde inferior de la 5.ª costilla, línea axilar posterior"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El tubo se instala en el triángulo de seguridad: borde lateral del pectoral mayor, borde anterior del dorsal ancho y línea del pezón (4.º a 5.º espacio), sobre el borde superior de la costilla inferior. Evita la arteria mamaria, el diafragma y las vísceras abdominales, y se conecta a trampa de agua.",
+      "say": {
+        "stem": "Un hombre de cuarenta y cinco años tiene un empiema izquierdo y se le instalará un tubo pleural, acostado y con el brazo levantado.",
+        "question": "¿Cuál es el sitio de inserción recomendado?",
+        "options": "Las opciones: segundo espacio en línea medioclavicular, octavo espacio posterior, cuarto o quinto espacio entre las líneas axilares anterior y media, subxifoideo o borde inferior de la quinta costilla. Piénsalo.",
+        "answer": "Es la C, el triángulo de seguridad, en el cuarto o quinto espacio en la línea axilar media. Ahí no hay grandes vasos, el diafragma queda abajo y el músculo es delgado. El octavo espacio tienta porque el líquido está abajo, pero con el diafragma subido en espiración se arriesga perforar el hígado o el bazo."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.4.010 · Citoquímico de líquido cefaloraquídeo y pleural",
+      "stem": "Un niño de 5 años con neumonía en tratamiento antibiótico persiste febril al cuarto día. La radiografía muestra derrame pleural moderado. Se realiza toracocentesis, que obtiene líquido turbio con pH 7,0, glucosa 25 mg/dL y LDH 1.800 UI/L. La tinción de Gram muestra cocáceas grampositivas.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener el mismo antibiótico y controlar con radiografía en 1 semana"
+        },
+        {
+          "letter": "B",
+          "text": "Agregar corticoides sistémicos"
+        },
+        {
+          "letter": "C",
+          "text": "Instalar drenaje pleural y mantener antibiótico endovenoso"
+        },
+        {
+          "letter": "D",
+          "text": "Repetir la toracocentesis en 1 semana"
+        },
+        {
+          "letter": "E",
+          "text": "Cambiar a antibiótico oral y alta"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Un líquido pleural con pH menor a 7,2, glucosa menor a 40 mg/dL, LDH muy elevada o gérmenes en el Gram (o pus) corresponde a derrame paraneumónico complicado o empiema. Requiere drenaje pleural con tubo (eventualmente con fibrinolíticos o videotoracoscopía) además de antibiótico endovenoso. El neumococo es el agente más frecuente en niños.",
+      "say": {
+        "stem": "Un niño de cinco años con neumonía sigue febril y la toracocentesis muestra líquido turbio con pH de siete, glucosa baja, LDH alta y cocos grampositivos.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: mismo antibiótico y control, corticoides, drenaje pleural con antibiótico endovenoso, repetir la punción o alta con antibiótico oral. Piénsalo.",
+        "answer": "Es la C. El citoquímico muestra un derrame complicado o empiema, que necesita drenaje pleural además del antibiótico. Mantener solo el antibiótico tienta, pero sin drenaje el pus no se resuelve."
+      }
+    },
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 2.01.5.009 · Punción pleural",
+      "stem": "Se realizará una punción pleural diagnóstica en un niño de 7 años con derrame pleural paraneumónico moderado, sentado e inclinado hacia adelante, con ecografía que marca el sitio de punción.",
+      "question": "¿Cuál es la técnica correcta para introducir la aguja?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Por el borde superior de la costilla inferior"
+        },
+        {
+          "letter": "B",
+          "text": "Por el borde inferior de la costilla superior"
+        },
+        {
+          "letter": "C",
+          "text": "Por el centro del espacio intercostal, sin referencia costal"
+        },
+        {
+          "letter": "D",
+          "text": "En la línea medioclavicular, segundo espacio intercostal"
+        },
+        {
+          "letter": "E",
+          "text": "Por debajo de la décima costilla posterior"
+        }
+      ],
+      "correct": "A",
+      "explanation": "El paquete vasculonervioso intercostal (vena, arteria y nervio) discurre por el borde inferior de cada costilla. Por eso la aguja se introduce rasando el borde superior de la costilla inferior, en la línea axilar media o posterior, idealmente guiada por ecografía. El segundo espacio en la línea medioclavicular se usa para descomprimir un neumotórax a tensión, no para derrames.",
+      "say": {
+        "stem": "Se hará una punción pleural diagnóstica en un niño de siete años con derrame, guiada por ecografía.",
+        "question": "¿Por dónde se introduce la aguja?",
+        "options": "Las opciones: borde superior de la costilla inferior, borde inferior de la costilla superior, centro del espacio, segundo espacio medioclavicular o bajo la décima costilla. Piénsalo.",
+        "answer": "Es la A. Se punciona por el borde superior de la costilla inferior, porque el paquete vasculonervioso corre bajo cada costilla. El segundo espacio medioclavicular tienta, pero es el sitio para descomprimir un neumotórax a tensión."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.05.4.008 · Examen microbiológico de líquido pleural",
+      "stem": "Un hombre de 55 años con neumonía basal derecha persiste febril al 4° día de tratamiento. La toracocentesis obtiene líquido turbio, no purulento, con pH 7,10, glucosa 35 mg/dL y LDH 1.500 U/L. El Gram del líquido muestra diplococos grampositivos.",
+      "question": "¿Cuál es la conducta más adecuada?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mantener los antibióticos sin otra intervención"
+        },
+        {
+          "letter": "B",
+          "text": "Suspender los antibióticos y observar"
+        },
+        {
+          "letter": "C",
+          "text": "Repetir la toracocentesis en 1 semana"
+        },
+        {
+          "letter": "D",
+          "text": "Instalar drenaje pleural (tubo pleural) además de los antibióticos"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar corticoides"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Un Gram o cultivo positivo del líquido pleural, o pH bajo 7,20, glucosa bajo 60 mg/dL o pus, definen un derrame paraneumónico complicado o empiema, que requiere drenaje pleural además de antibióticos. Si hay loculaciones que impiden el drenaje, se consideran fibrinolíticos intrapleurales o videotoracoscopía.",
+      "say": {
+        "stem": "Un hombre de cincuenta y cinco años con neumonía basal derecha sigue con fiebre al cuarto día. El líquido pleural es turbio, con pH de siete coma diez, glucosa baja, LDH muy alta y Gram con diplococos grampositivos.",
+        "question": "¿Cuál es la conducta más adecuada?",
+        "options": "Las opciones: solo antibióticos, suspender antibióticos, repetir la punción en una semana, tubo pleural más antibióticos o corticoides. Piénsalo.",
+        "answer": "Es la D. Un Gram positivo o un pH bajo siete coma dos definen derrame complicado, que necesita drenaje pleural. Solo antibióticos tienta, pero no resuelven una colección pleural infectada."
+      }
     },
 
     {

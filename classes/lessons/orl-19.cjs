@@ -41,6 +41,20 @@ module.exports = {
     },
 
     {
+      type: 'image',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Tres glándulas, tres cuadros',
+      images: [
+        { src: 'animaciones/orl-19/A1_glandulas_salivales_tres_cuadros.mp4', label: 'Glándulas salivales: lito, parotiditis supurada y tumor parotídeo', credit: 'Ilustración: Blausen.com staff (2014), CC BY 3.0 · rótulos y animación propios' },
+      ],
+      steps: [
+        { note: 'Submandibular, parótida y tumor',
+          say: 'Mira las glándulas. En la submandibular, el lito del conducto de Wharton bloquea la salida: dolor e hinchazón al comer, que ceden en una o dos horas. En la parótida del anciano deshidratado, las bacterias suben por el Stenon y sale pus por la papila: se hospitaliza y se da cloxacilina. Y un nódulo firme, móvil e indoloro en la parótida es un adenoma pleomorfo; con parálisis facial, sospecha cáncer.' },
+      ],
+    },
+
+    {
       type: 'points',
       kicker: 'Sialolitiasis',
       title: 'Cólico salival: diagnóstico y manejo',
@@ -49,7 +63,8 @@ module.exports = {
           { t: 'Dolor al comer', d: 'Con aumento de volumen submandibular',
             say: 'El paciente cuenta dolor y aumento de volumen submandibular que aparecen al empezar a comer y ceden unas horas después.' },
           { t: 'Palpación bimanual del piso de boca', d: 'Se siente el lito en el Wharton',
-            say: 'En el examen, la palpación bimanual del piso de la boca, a lo largo del conducto de Wharton, permite sentir el cálculo como una formación dura.' },
+            say: 'En el examen, la palpación bimanual del piso de la boca, a lo largo del conducto de Wharton, permite sentir el cálculo como una formación dura. Mira este cálculo en el conducto submandibular, bajo la lengua.',
+            photo: { src: 'biblioteca/17_otorrino/orl-19/01_calculo-conducto-submandibular__bailey-love_p802.jpg', label: 'Cálculo en el Wharton', at: 'Mira este cálculo', credit: 'Bailey & Love 27.ª ed., p. 802' } },
           { t: 'Ecografía o radiografía oclusal', d: 'Confirman el lito',
             say: 'La ecografía de cuello o la radiografía oclusal del piso de la boca confirman el diagnóstico.' },
         ] },
@@ -73,7 +88,8 @@ module.exports = {
           { t: 'Dolor, eritema, fiebre y trismus', d: 'Región parotídea y preauricular',
             say: 'La región parotídea y preauricular se pone dolorosa, caliente y eritematosa, con fiebre y a veces trismus. La bacteria más frecuente, en más de ochenta por ciento, es Staphylococcus aureus.' },
           { t: 'Pus por la papila de Stenon', d: 'Al exprimir la glándula',
-            say: 'El signo clave es que, al exprimir la glándula hacia adelante, sale pus franco por la papila del conducto de Stenon, frente al segundo molar superior.' },
+            say: 'El signo clave es que, al exprimir la glándula hacia adelante, sale pus franco por la papila del conducto de Stenon, frente al segundo molar superior. Mira esta glándula submandibular supurada: aumento de volumen y pus por el conducto, igual que en la parótida.',
+            photo: { src: 'biblioteca/17_otorrino/orl-19/02_sialadenitis-submandibular-supurada__bailey-love_p802.jpg', label: 'Sialadenitis supurada', at: 'Mira esta glándula', credit: 'Bailey & Love 27.ª ed., p. 802' } },
         ] },
         { title: 'Tratamiento', tag: 'Hospitalizar', kind: 'pharma', items: [
           { t: 'Hidratación EV y cloxacilina', d: 'O cefazolina; vancomicina si SAMR',
@@ -95,32 +111,13 @@ module.exports = {
         ] },
         { title: 'Adenoma pleomorfo', tag: 'Benigno, se opera', kind: 'criteria', items: [
           { t: 'Nódulo firme, móvil, indoloro', d: 'Crece lento; sin parálisis facial',
-            say: 'El adenoma pleomorfo, o tumor mixto benigno, es un nódulo parotídeo firme, de superficie lisa, móvil, indoloro y de crecimiento lento, durante meses o años. Y lo que lo define: nunca compromete el nervio facial.' },
+            say: 'El adenoma pleomorfo, o tumor mixto benigno, es un nódulo parotídeo firme, de superficie lisa, móvil, indoloro y de crecimiento lento, durante meses o años. Y lo que lo define: nunca compromete el nervio facial. Mira este tumor parotídeo benigno: una masa redondeada por delante de la oreja.',
+            photo: { src: 'biblioteca/17_otorrino/orl-19/03_tumor-parotideo-benigno__bailey-love_p809.jpg', label: 'Tumor parotídeo benigno', at: 'Mira este tumor', credit: 'Bailey & Love 27.ª ed., p. 809' } },
           { t: 'Parálisis facial: cáncer', d: 'Masa fija, dolorosa o pétrea',
             say: 'La parálisis facial en una masa parotídea es signo de cáncer, como el carcinoma adenoide quístico o el mucoepidermoide. Una masa pétrea, fija y dolorosa también apunta a malignidad.' },
           { t: 'PAAF y parotidectomía superficial', d: 'Con preservación del nervio facial',
             say: 'El estudio parte con punción con aguja fina guiada por ecografía, y resonancia o escáner. El tratamiento es la parotidectomía superficial, identificando y preservando el nervio facial. La enucleación simple está prohibida: recurre más de cuarenta por ciento por prolongaciones microscópicas, y el tumor puede malignizar, un cinco a diez por ciento a quince o veinte años.' },
         ] },
-      ],
-    },
-
-    {
-      type: 'image',
-      layout: 'gallery',
-      kicker: 'Así se ve',
-      title: 'Lito, pus y tumor parotídeo',
-      images: [
-        { src: 'biblioteca/17_otorrino/orl-19/01_calculo-conducto-submandibular__bailey-love_p802.jpg', label: 'Radiografía oclusal: cálculo en el conducto submandibular', credit: 'Bailey & Love 27.ª ed., Fig. 49.9' },
-        { src: 'biblioteca/17_otorrino/orl-19/02_sialadenitis-submandibular-supurada__bailey-love_p802.jpg', label: 'Pus saliendo por la papila sublingual izquierda', credit: 'Bailey & Love 27.ª ed., Fig. 49.11' },
-        { src: 'biblioteca/17_otorrino/orl-19/03_tumor-parotideo-benigno__bailey-love_p809.jpg', label: 'Tumor benigno de la parótida izquierda, con desvío del lóbulo de la oreja', credit: 'Bailey & Love 27.ª ed., Fig. 49.21 (a)' },
-      ],
-      steps: [
-        { note: 'Lito radiopaco en el conducto',
-          say: 'Esta es una radiografía oclusal del piso de la boca. La flecha de punta señala un cálculo radiopaco dentro del conducto submandibular, y hay otro más grande, atrás, en el hilio de la glándula. Fíjate que se ve en una radiografía simple, porque estos litos son ricos en calcio.' },
-        { note: 'Pus en la papila: infección del conducto',
-          say: 'Aquí hay una sialadenitis submandibular aguda supurada: sale pus por la papila sublingual. Es la misma señal que buscas en la parótida: al exprimir la glándula, el pus sale por el orificio del conducto.' },
-        { note: 'Masa preauricular que levanta el lóbulo de la oreja',
-          say: 'Y este es un tumor benigno de la parótida izquierda. Fíjate que el crecimiento empuja el lóbulo de la oreja hacia afuera. Es un nódulo de crecimiento lento, sin signos de agresividad: el rasgo de un tumor benigno, como el adenoma pleomorfo.' },
       ],
     },
 
@@ -236,6 +233,44 @@ module.exports = {
         options: 'Las opciones: lipoma; rabdomiosarcoma; adenopatía preauricular; tumor de parótida; o quiste sebáceo. Piénsalo.',
         answer: 'Es la D. Una masa de crecimiento lento sobre la rama mandibular es un tumor de la parótida, porque la glándula se extiende sobre el masetero. Y la estadística juega a tu favor: la mayoría son benignos. Lo que cambiaría la historia sería una parálisis facial o adenopatías, que sugieren malignidad.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 4.01.1.001 · Patología glándulas salivales",
+      "stem": "Hombre de 45 años consulta por aumento de volumen submandibular derecho, doloroso, que aparece al comer y cede en 1 a 2 horas, de 3 meses de evolución. Al examen se palpa la glándula submandibular aumentada de tamaño y una induración en el piso de la boca.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Parotiditis viral"
+        },
+        {
+          "letter": "B",
+          "text": "Adenoma pleomorfo"
+        },
+        {
+          "letter": "C",
+          "text": "Sialolitiasis submandibular"
+        },
+        {
+          "letter": "D",
+          "text": "Linfadenitis cervical bacteriana"
+        },
+        {
+          "letter": "E",
+          "text": "Síndrome de Sjögren"
+        }
+      ],
+      "correct": "C",
+      "explanation": "El dolor y aumento de volumen glandular desencadenados por la comida (cólico salival) son típicos de sialolitiasis, que afecta principalmente a la glándula submandibular por su saliva más espesa y su conducto ascendente (Wharton). El adenoma pleomorfo es indoloro y no cambia con la ingesta.",
+      "say": {
+        "stem": "Hombre de cuarenta y cinco años, con aumento de volumen submandibular derecho y doloroso que aparece al comer y cede en una a dos horas, desde hace tres meses. Se palpa la glándula submandibular aumentada y una induración en el piso de la boca.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: parotiditis viral, adenoma pleomorfo, sialolitiasis submandibular, linfadenitis bacteriana o síndrome de Sjögren. Piénsalo.",
+        "answer": "Es la C. El dolor que aparece con la comida es el cólico salival, típico de un cálculo, y la submandibular es la glándula que más los forma. El adenoma pleomorfo tienta por ser el tumor salival más común, pero es indoloro y no cambia al comer."
+      }
     },
 
     {

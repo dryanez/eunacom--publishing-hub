@@ -239,6 +239,44 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2017 · Pregunta 74",
+      "stem": "Una paciente de 28 años consulta por artralgias generalizadas, asociadas a sensación febril y úlceras orales. En sus exámenes destaca creatinina de 1,5 mg/dL, sedimento de orina con hematuria y cilindros hemáticos y hemograma con 4.000 leucocitos por mm³.",
+      "question": "¿Cuál es la conducta más adecuada para proseguir el estudio?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solicitar factor reumatoide"
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar radiografía de tórax"
+        },
+        {
+          "letter": "C",
+          "text": "Solicitar PCR, VHS y creatinfosfoquinasa"
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar anticuerpos antinucleares"
+        },
+        {
+          "letter": "E",
+          "text": "Solicitar anticuerpos anticitoplasma de neutrófilos"
+        }
+      ],
+      "correct": "D",
+      "explanation": "Mujer joven con artralgias, úlceras orales, leucopenia y nefritis (cilindros hemáticos): la sospecha es lupus eritematoso sistémico. El examen de tamizaje es el ANA, sensible en más de 95 %; luego anti-DNA y complemento. Los ANCA orientan a vasculitis, menos probable con úlceras orales y leucopenia.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecisiete. Una mujer de veintiocho años tiene artralgias, sensación febril y úlceras orales. La creatinina es uno coma cinco, el sedimento muestra hematuria con cilindros hemáticos y los leucocitos están en cuatro mil.",
+        "question": "¿Cuál es la conducta más adecuada para proseguir el estudio?",
+        "options": "Las opciones: factor reumatoide, radiografía de tórax, marcadores inflamatorios, anticuerpos antinucleares o anticuerpos anticitoplasma de neutrófilo. Piénsalo.",
+        "answer": "Es la D, los anticuerpos antinucleares. Mujer joven, úlceras orales, leucopenia y nefritis es lupus hasta demostrar lo contrario, y el tamizaje es el anticuerpo antinuclear. Los anticuerpos anticitoplasma de neutrófilo tientan por la nefritis, pero la leucopenia y las úlceras orales apuntan al lupus."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',

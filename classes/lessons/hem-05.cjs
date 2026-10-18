@@ -36,7 +36,11 @@ module.exports = {
         { show: ['cit', 'cd34'], note: 'El blanco es la célula madre pluripotencial',
           say: 'Ese blanco es la célula madre hematopoyética, la CD treinta y cuatro. Los linfocitos liberan interferón gamma y factor de necrosis tumoral, y la célula madre entra en apoptosis. Fíjate que el daño está en la raíz: no falla una serie, falla la célula de la que salen todas.' },
         { show: ['gra'], note: 'El espacio vacío se llena de adipocitos',
-          say: 'Sin células madre, la médula queda vacía, y ese espacio lo ocupa la grasa. La biopsia muestra una celularidad bajo el veinticinco por ciento, reemplazada por adipocitos maduros. Por eso se habla de médula vacía.' },
+          say: 'Sin células madre, la médula queda vacía, y ese espacio lo ocupa la grasa. La biopsia muestra una celularidad bajo el veinticinco por ciento, reemplazada por adipocitos maduros. Mira esta biopsia: una médula normal, con el espacio entre las trabéculas lleno de células. Y en esta aplasia casi no quedan células, solo grasa. Por eso se habla de médula vacía.',
+          photos: [
+            { src: 'biblioteca/06_hematologia/hem-05/01_medula-normal-vs-aplasia__amir-hemato_p26.jpg', label: 'Médula normal', at: 'Mira esta biopsia', credit: 'Manual AMIR Hematología, p. 26' },
+            { src: 'biblioteca/06_hematologia/hem-05/01_medula-normal-vs-aplasia_alt1__amir-hemato_p26.jpg', label: 'Aplasia: médula grasa', at: 'Y en esta aplasia', credit: 'Manual AMIR Hematología, p. 26' },
+          ] },
         { show: ['pan'], note: 'Anemia, neutropenia y trombocitopenia a la vez',
           say: 'Y como la falla es en la raíz, caen las tres series al mismo tiempo: glóbulos rojos, neutrófilos y plaquetas. Eso es la pancitopenia, y es la puerta de entrada de toda la clase.' },
         { show: ['sec'], note: 'Idiopática es lo más frecuente; fármacos es lo que más se pregunta',
@@ -91,7 +95,8 @@ module.exports = {
         { show: ['neu'], note: 'La neutropenia es lo que mata',
           say: 'La falta de neutrófilos da infecciones bacterianas, e incluso fúngicas oportunistas, que pueden ser graves. Es la complicación que más mata en la aplasia, y la que vuelve urgente el cuadro.' },
         { show: ['pla'], note: 'Sangrado mucocutáneo con plaquetas < 20.000',
-          say: 'Y la falta de plaquetas da un síndrome purpúrico: petequias, equimosis, gingivorragia y epistaxis, sobre todo cuando las plaquetas bajan de veinte mil.' },
+          say: 'Y la falta de plaquetas da un síndrome purpúrico: petequias, equimosis, gingivorragia y epistaxis, sobre todo cuando las plaquetas bajan de veinte mil. Mira estas piernas: petequias y equimosis.',
+          photo: { src: 'biblioteca/06_hematologia/hem-05/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg', label: 'Petequias y púrpura', at: 'Mira estas piernas', credit: 'Manual AMIR Hematología, p. 89' } },
         { show: ['exf'], note: 'El dato semiológico que más se pregunta',
           say: 'Y ahora el dato que más se pregunta. En la aplasia, el examen físico es negativo: no hay esplenomegalia, ni hepatomegalia, ni adenopatías. Tiene lógica: la médula está vacía, no hay nada que infiltre ni prolifere. Si palpas el bazo, ya no estás frente a una aplasia primaria.' },
       ],
@@ -180,23 +185,18 @@ module.exports = {
 
     {
       type: 'image',
-      kicker: 'Así se ve',
-      title: 'Aplasia medular',
-      layout: 'gallery',
+      layout: 'sequence',
+      kicker: 'En movimiento',
+      title: 'Por qué caen las series una tras otra',
       images: [
-        { src: 'biblioteca/06_hematologia/hem-05/01_medula-normal-vs-aplasia__amir-hemato_p26.jpg', label: 'Médula normal (normocelular)', credit: 'Manual AMIR Hematología, p. 26' },
-        { src: 'biblioteca/06_hematologia/hem-05/01_medula-normal-vs-aplasia_alt1__amir-hemato_p26.jpg', label: 'Aplasia medular: médula grasa', credit: 'Manual AMIR Hematología, p. 26' },
-        { src: 'biblioteca/06_hematologia/hem-05/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg', label: 'Petequias y púrpura', credit: 'Manual AMIR Hematología, p. 89' },
+        { src: 'animaciones/hem-05/A1_aplasia_series.mp4', label: 'Aplasia medular', credit: 'Animación propia' },
       ],
       steps: [
-        { note: 'Médula normal, llena de células',
-          say: 'Primero, una médula normal en la biopsia: entre las trabéculas de hueso, el espacio está lleno de células.' },
-        { note: 'La médula se vacía',
-          say: 'Y esta es una aplasia: entre las mismas trabéculas casi no quedan células, solo grasa.' },
-        { note: 'Sin plaquetas: síndrome purpúrico',
-          say: 'La falta de plaquetas se ve en la piel: petequias y equimosis, como en estas piernas.' },
+        { note: 'Cae primero lo que vive poco',
+          say: 'Cuando la médula deja de fabricar, cada serie cae según cuánto vive en la sangre. Los neutrófilos viven horas y caen primero: infecciones graves. Luego las plaquetas: petequias y sangrado. Los glóbulos rojos viven unos ciento veinte días, y la anemia llega al final. La gravedad se mide con Camitta: neutrófilos bajo quinientos, plaquetas y reticulocitos bajo veinte mil.' },
       ],
     },
+
 
     {
       type: 'pathway',
@@ -266,6 +266,82 @@ module.exports = {
         options: 'Las opciones: trasplante de médula ósea, quimioterapia combinada, radioterapia, cloranfenicol, o no tiene tratamiento. Piénsalo.',
         answer: 'Es la A, el trasplante de médula ósea. Es el único tratamiento curativo, porque reemplaza la célula madre que se perdió, idealmente desde un hermano HLA idéntico. La quimioterapia y la radioterapia vaciarían todavía más la médula, y el cloranfenicol es justamente una de sus causas. Y cuidado con la E: la aplasia sí tiene tratamiento; si no hay donante, está la inmunosupresión con globulina antitimocito y ciclosporina.',
       },
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Enero 2023 · Pregunta 171",
+      "stem": "Paciente con dolores óseos, anemia normocítica, VHS mayor de 90 mm/h y creatinina elevada.",
+      "question": "¿Cuál es el estudio para confirmar el diagnóstico?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proteína de Bence-Jones en orina"
+        },
+        {
+          "letter": "B",
+          "text": "Electroforesis de proteínas séricas"
+        },
+        {
+          "letter": "C",
+          "text": "TAC de cuerpo completo de dosis baja"
+        },
+        {
+          "letter": "D",
+          "text": "Biopsia ósea de una lesión lítica"
+        },
+        {
+          "letter": "E",
+          "text": "Aspirado y biopsia de médula ósea con estudio citogenético"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Dolor óseo, anemia, VHS muy alta y falla renal orientan a mieloma múltiple. La electroforesis y la proteína de Bence-Jones detectan el componente monoclonal, pero la confirmación exige demostrar plasmocitos clonales (≥ 10 %) en el aspirado y biopsia de médula ósea, que además aporta la citogenética pronóstica.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de enero de dos mil veintitrés. Un paciente con dolores óseos, anemia normocítica, velocidad de sedimentación sobre noventa y creatinina elevada.",
+        "question": "¿Cuál es el estudio para confirmar el diagnóstico?",
+        "options": "Las opciones: Bence Jones en orina, electroforesis de proteínas, tomografía de cuerpo completo, biopsia de una lesión lítica, o aspirado y biopsia de médula ósea con citogenética. Piénsalo.",
+        "answer": "Es la E. El mieloma se confirma demostrando plasmocitos clonales en la médula ósea, y la citogenética define el pronóstico. La electroforesis tienta, pero solo detecta el componente monoclonal y no basta para confirmar."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.08.5.001 · Biopsia de médula ósea",
+      "stem": "Hombre de 28 años con pancitopenia: hemoglobina 7,1 g/dL, leucocitos 1.500/mm3 con 400 neutrófilos/mm3, plaquetas 12.000/mm3 y reticulocitos 0,2%. Sin esplenomegalia ni adenopatías. El aspirado de médula ósea es escaso, con muy pocas células (punción seca).",
+      "question": "¿Cuál es el examen que permite confirmar el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repetir el aspirado en 1 mes"
+        },
+        {
+          "letter": "B",
+          "text": "TAC de tórax"
+        },
+        {
+          "letter": "C",
+          "text": "Electroforesis de hemoglobina"
+        },
+        {
+          "letter": "D",
+          "text": "Test de Coombs directo"
+        },
+        {
+          "letter": "E",
+          "text": "Biopsia de médula ósea"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Pancitopenia con reticulocitos bajos, sin visceromegalias y aspirado hipocelular sugiere aplasia medular. El aspirado no permite evaluar la celularidad ni la fibrosis; la biopsia de médula ósea es indispensable para confirmar la hipocelularidad (menor de 25%) y descartar infiltración o mielofibrosis, que también producen punción seca.",
+      "say": {
+        "stem": "Hombre de veintiocho años con pancitopenia, reticulocitos bajos y un aspirado medular seco.",
+        "question": "¿Qué examen confirma el diagnóstico?",
+        "options": "Las opciones: repetir el aspirado, TAC de tórax, electroforesis de hemoglobina, Coombs o biopsia de médula ósea. Piénsalo.",
+        "answer": "Es la E. La biopsia de médula ósea, que mide la celularidad y confirma la aplasia. Repetir el aspirado tienta, pero vuelve a salir seco y no muestra la arquitectura."
+      }
     },
 
     {

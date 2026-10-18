@@ -1,0 +1,69 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#0E1116;overflow:hidden}canvas{display:block}</style>
+</head><body>
+<canvas id="c" width="1280" height="720"></canvas>
+<script src="../lib.js"></script><script src="../kit.js"></script><script src="../graph.js"></script>
+<script>
+// Obstetricia 08 (gráfico, sin anatomía): ácidos biliares que suben en el tercer trimestre y fecha de interrupción según el nivel
+// (CIE moderada < 40, severa 40 a 99, extrema 100 o más, en umol/L).
+//   ?v=acidos   ob-08 A1
+const V = new URLSearchParams(location.search).get('v') || 'acidos';
+const L = LIB(document.getElementById('c')), { ctx, C, ease, clamp, lerp, text, tag, rrect } = L;
+const K = KIT(L), { seg, fade } = K;
+const G = GRAPH(L);
+
+const ax = G.axes({ x: 110, y: 160, w: 640, h: 400 }, [28, 40], [0, 130],
+  { xt: [28, 30, 32, 34, 36, 38, 40].map(v => [v, String(v)]), yt: [[0, '0'], [40, '40'], [100, '100']], xl: 'Semanas de embarazo', yl: 'Ácidos biliares totales (umol/L)' });
+const mod = G.smooth([[28, 6], [31, 12], [34, 22], [37, 31], [40, 34]]);
+const sev = G.smooth([[28, 8], [31, 22], [34, 46], [36, 62], [38, 70]]);
+const ext = G.smooth([[28, 10], [30, 30], [32, 66], [33, 92], [34, 112], [36, 124]]);
+
+const CUR = [
+  { f: mod, col: C.GREEN, x1: 38, a: 3.5, lab: 'Moderada', wk: 37.5, wlab: 'Parto 37 a 38', y: 34 },
+  { f: sev, col: C.AMBER, x1: 36, a: 9.5, lab: 'Severa', wk: 36, wlab: 'Parto 36', y: 62 },
+  { f: ext, col: C.RED, x1: 34, a: 15.5, lab: 'Extrema', wk: 34.5, wlab: 'Parto 34 a 36 + corticoides', y: 114 },
+];
+
+function acidos(t) {
+  K.title('Colestasia del embarazo: el número decide la fecha', 'Los ácidos biliares suben y el feto puede morir sin aviso', C.AMBER);
+  const ga = seg(t, 0.4, 0.8);
+  ctx.save(); ctx.globalAlpha = ga; ax.draw(1); ctx.restore();
+  G.band(ax, 0, 40, 'rgba(61,220,132,0.10)', ga);
+  G.band(ax, 40, 100, 'rgba(255,194,71,0.10)', ga);
+  G.band(ax, 100, 130, 'rgba(255,90,78,0.14)', ga);
+  ctx.save(); ctx.globalAlpha = ga;
+  text('Moderada: menos de 40', ax.X(28) + 12, ax.Y(0) - 8, 16, C.GREEN, 'bold');
+  text('Severa: 40 a 99', ax.X(28) + 12, ax.Y(40) - 8, 16, C.AMBER, 'bold');
+  text('Extrema: 100 o más', ax.X(28) + 12, ax.Y(100) - 8, 16, C.RED, 'bold');
+  ctx.restore();
+
+  CUR.forEach((c, i) => {
+    const k = ease(seg(t, c.a, 4)); if (k <= 0) return;
+    const x0 = 28, xe = lerp(x0, c.x1, 1);
+    const p = G.curve(ax, c.f, k, c.col, 5, x0, xe);
+    G.head(p, c.col);
+    // marca de interrupción
+    const m = seg(t, c.a + 4.2, 0.5);
+    if (m > 0) {
+      ctx.save(); ctx.globalAlpha = m; ctx.strokeStyle = c.col; ctx.lineWidth = 2.5; ctx.setLineDash([8, 6]);
+      ctx.beginPath(); ctx.moveTo(ax.X(c.wk), ax.Y(0)); ctx.lineTo(ax.X(c.wk), ax.Y(c.y)); ctx.stroke(); ctx.setLineDash([]);
+      ctx.fillStyle = c.col; ctx.beginPath(); ctx.arc(ax.X(c.wk), ax.Y(c.y), 7, 0, 7); ctx.fill();
+      tag(c.wlab, clamp(ax.X(c.wk), 230, 650), ax.Y(c.y) - 30, c.col, 15);
+      ctx.restore();
+    }
+  });
+  // tarjetas
+  K.card(790, 160, 460, 112, C.GREEN, 'Moderada: menos de 40', ['Ácido ursodesoxicólico y control semanal', 'Interrupción a las 37 a 38 semanas'], seg(t, 7.8, 0.5), 17);
+  K.card(790, 286, 460, 112, C.AMBER, 'Severa: 40 a 99', ['Hospitalizar en alto riesgo', 'Interrupción a las 36 semanas'], seg(t, 13.8, 0.5), 17);
+  K.card(790, 412, 460, 112, C.RED, 'Extrema: 100 o más', ['Corticoides y luego interrumpir', 'Entre las 34 y 36 semanas'], seg(t, 19.8, 0.5), 17);
+  K.banner(110, 620, 1140, 'El monitoreo fetal no predice el óbito súbito: lo que protege es la fecha', C.RED, seg(t, 24, 0.6));
+}
+function credit() { text('Animación propia', 1268, 712, 13, C.MUTED, '', 'right'); }
+
+const SCN = { acidos: { f: acidos, dur: 30 } };
+window.SCENE = { duration: SCN[V].dur, fps: 30 };
+window.render = function (t) { ctx.fillStyle = C.BG; ctx.fillRect(0, 0, 1280, 720); SCN[V].f(t); credit(); };
+LOAD({});
+</script>
+</body></html>

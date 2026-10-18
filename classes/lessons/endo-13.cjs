@@ -66,7 +66,11 @@ module.exports = {
         ] },
         { title: 'Hemorragia suprarrenal bilateral', tag: 'Debut sin antecedentes', kind: 'criteria', items: [
           { t: 'Waterhouse-Friderichsen', d: 'Meningococcemia fulminante',
-            say: 'Y ojo con la crisis en alguien sin antecedentes. La hemorragia suprarrenal bilateral masiva destruye ambas glándulas de golpe. En la meningococcemia fulminante se llama síndrome de Waterhouse-Friderichsen.' },
+            say: 'Y ojo con la crisis en alguien sin antecedentes: una hemorragia suprarrenal bilateral masiva destruye ambas glándulas de golpe. En la meningococcemia fulminante se llama síndrome de Waterhouse-Friderichsen. Mira esta piel: púrpura extensa, que no blanquea al presionar, con centros oscuros de necrosis. Y en estos pies, los ortejos ya necróticos. Si un paciente con estas lesiones está en shock y no responde a la noradrenalina, piensa en las suprarrenales: necesita hidrocortisona, además del antibiótico.',
+            photos: [
+              { src: 'biblioteca/05_endocrinologia/endo-13/atlas_104_sindrome_de_waterhouse_frideri.jpg', label: 'Púrpura fulminante', at: 'Mira esta piel', credit: 'Harrison 21.ª ed., Fig. 19-7 (de Fitzpatrick, Color Atlas 8.ª ed.)' },
+              { src: 'biblioteca/05_endocrinologia/endo-13/02_waterhouse_friderichsen_pies__bailey_p619.jpg', label: 'Necrosis distal', at: 'Y en estos pies', credit: 'Bailey & Love 27.ª ed., p. 619' },
+            ] },
           { t: 'Síndrome antifosfolípido', d: 'Trombosis suprarrenal',
             say: 'La otra causa es la trombosis suprarrenal del síndrome antifosfolípido.' },
         ] },
@@ -260,6 +264,94 @@ module.exports = {
     },
 
     {
+      type: 'flow',
+      kicker: 'Hiperplasia suprarrenal congénita',
+      title: 'Un bloqueo, dos consecuencias',
+      nodes: [
+        { id: 'def', col: 0, row: 2, k: 'cause', t: 'Déficit de 21-hidroxilasa', s: 'Más del 90% de las HSC' },
+        { id: 'cor', col: 1, row: 1, k: 'mech', t: 'Falta cortisol', s: 'Sube la ACTH' },
+        { id: 'hip', col: 2, row: 1, k: 'mech', t: 'Suprarrenal hiperplásica', s: 'Se acumula 17-hidroxiprogesterona' },
+        { id: 'and', col: 3, row: 1, k: 'effect', t: 'Exceso de andrógenos', s: 'Los precursores se desvían' },
+        { id: 'gen', col: 4, row: 1, k: 'effect', t: 'Genitales ambiguos', s: 'Niña 46,XX, útero y ovarios normales' },
+        { id: 'ald', col: 1, row: 3, k: 'mech', t: 'Falta aldosterona', s: 'Forma perdedora de sal' },
+        { id: 'sal', col: 4, row: 3, k: 'alert', t: 'Crisis perdedora de sal', s: 'Semanas 1 a 3: shock, hipo-Na, hiper-K' },
+      ],
+      edges: [
+        { from: 'def', to: 'cor' }, { from: 'cor', to: 'hip' },
+        { from: 'hip', to: 'and' }, { from: 'and', to: 'gen' },
+        { from: 'def', to: 'ald' }, { from: 'ald', to: 'sal' },
+      ],
+      steps: [
+        { show: ['def'], note: 'Defecto autosómico recesivo de la síntesis de cortisol',
+          say: 'Ahora, la crisis suprarrenal del recién nacido: la hiperplasia suprarrenal congénita. Son defectos autosómicos recesivos de la síntesis de cortisol, y en más del noventa por ciento de los casos lo que falta es la enzima veintiuno hidroxilasa.' },
+        { show: ['cor', 'hip'], note: 'Sin freno, la ACTH estimula sin parar',
+          say: 'Sin cortisol, la hipófisis pierde el freno y sube la ACTH. La ACTH estimula sin parar a las suprarrenales, que se hiperplasian, y se acumula el precursor que queda antes del bloqueo: la diecisiete hidroxiprogesterona.' },
+        { show: ['and', 'gen'], note: 'La causa más frecuente de ambigüedad genital',
+          say: 'Ese precursor se desvía hacia andrógenos. Por eso la recién nacida, con cariotipo cuarenta y seis XX, útero y ovarios normales, nace con genitales ambiguos: clitoromegalia y fusión labioescrotal. Es la causa más frecuente de ambigüedad genital.' },
+        { show: ['ald', 'sal'], note: 'El varón no avisa: sus genitales son normales',
+          say: 'Y en la forma perdedora de sal, dos tercios de las formas clásicas, falta también la aldosterona. Entre la primera y la tercera semana de vida aparece la crisis, con shock, hiponatremia, hiperkalemia, acidosis e hipoglicemia. Ojo con el varón: como sus genitales son normales, la crisis llega sin aviso.' },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Hiperplasia suprarrenal congénita',
+      title: 'Cómo la reconoces y qué haces',
+      cards: [
+        { title: 'Sospecha', tag: 'Tres escenarios', kind: 'criteria', items: [
+          { t: 'Recién nacida con genitales ambiguos', d: 'No asignar sexo hasta completar el estudio',
+            say: 'Hay tres escenarios de sospecha. El primero, la recién nacida con genitales ambiguos. Y una regla: no se asigna el sexo hasta completar el estudio con el equipo especializado.' },
+          { t: 'Lactante en crisis perdedora de sal', d: 'Rechazo alimentario, vómitos, mal incremento de peso',
+            say: 'El segundo, el lactante de una a tres semanas que rechaza la alimentación, vomita, no sube de peso y se deshidrata hasta el shock. En el varón, a veces la única pista es un escroto hiperpigmentado.' },
+          { t: 'Forma no clásica', d: 'Pubarquia precoz, o hirsutismo que simula SOP',
+            say: 'Y el tercero, la forma no clásica: un niño con pubarquia precoz, crecimiento acelerado y edad ósea avanzada, o una mujer joven con hirsutismo, acné y oligomenorrea que parece un ovario poliquístico.' },
+        ] },
+        { title: 'No confundir', tag: 'Se pregunta', kind: 'alert', items: [
+          { t: 'Estenosis hipertrófica del píloro', d: 'Alcalosis hipoclorémica e hipokalemia',
+            say: 'El lactante que vomita también te hace pensar en la estenosis hipertrófica del píloro. La diferencia está en los gases: el píloro da alcalosis hipoclorémica con hipokalemia. La hiperplasia da lo contrario: hiperkalemia y acidosis.' },
+        ] },
+        { title: 'Crisis perdedora de sal', tag: 'Sin esperar el resultado', kind: 'pharma', items: [
+          { t: '17-hidroxiprogesterona muy alta', d: 'Más electrolitos, glicemia, cariotipo, ecografía',
+            say: 'El diagnóstico es la diecisiete hidroxiprogesterona muy elevada, junto con electrolitos, glicemia, cariotipo y ecografía pélvica y suprarrenal. Pero la crisis es una emergencia: tomas la muestra y no esperas el resultado.' },
+          { t: 'SF 10–20 mL/kg + glucosa + HC 50–100 mg/m²', d: 'Hidrocortisona: unos 25 mg en el lactante',
+            say: 'Bolo de suero fisiológico de diez a veinte mililitros por kilo, que puedes repetir, glucosa endovenosa para la hipoglicemia, e hidrocortisona de cincuenta a cien miligramos por metro cuadrado, unos veinticinco miligramos en el lactante. Es la misma lógica del adulto.' },
+          { t: 'Mantención: endocrinología pediátrica', d: 'HC oral + fludrocortisona + sal',
+            say: 'Después se deriva a endocrinología pediátrica, que mantiene hidrocortisona oral, fludrocortisona y sal en el lactante, con dosis de estrés en cada enfermedad intercurrente.' },
+        ] },
+      ],
+    },
+
+    {
+      type: 'points',
+      kicker: 'Complicaciones de los corticoides',
+      title: 'El corticoide crónico: retirarlo lento y prevenir',
+      cards: [
+        { title: 'Supresión del eje', tag: 'La insuficiencia más frecuente', kind: 'alert', items: [
+          { t: 'Prednisona ≥ 20 mg/día por > 3 semanas', d: 'O rasgos cushingoides: suponer eje frenado',
+            say: 'Volvamos al adulto, porque el gatillante iatrogénico merece su propia diapositiva. La supresión del eje por corticoides es la causa más frecuente de insuficiencia suprarrenal. Debes suponerla con veinte miligramos o más de prednisona al día por más de tres semanas, o con rasgos cushingoides. Con menos de cinco miligramos, o cursos de menos de tres semanas, es improbable.' },
+          { t: 'Nunca suspender de golpe', d: 'Bajar hasta prednisona 5 mg/día, luego lento',
+            say: 'Por eso el corticoide crónico nunca se suspende de golpe. Se baja en forma escalonada hasta la dosis fisiológica, cinco miligramos de prednisona, y desde ahí lentamente, midiendo el cortisol matinal.' },
+          { t: 'Dosis de estrés', d: 'Fiebre: x2–x3 oral · cirugía o vómitos: HC EV',
+            say: 'Y mientras el eje esté frenado, se indican dosis de estrés: duplicar o triplicar la dosis oral si hay fiebre, e hidrocortisona de cincuenta a cien miligramos endovenosa en cirugía mayor, trauma o vómitos.' },
+        ] },
+        { title: 'Cushing iatrogénico', tag: 'Uso crónico', kind: 'criteria', items: [
+          { t: 'Hiperglicemia vespertina, HTA, hipo-K', d: 'Y obesidad central, dislipidemia',
+            say: 'El uso crónico produce un Cushing iatrogénico. Lo metabólico: diabetes esteroidal de predominio vespertino, hipertensión, hipokalemia, obesidad central y dislipidemia.' },
+          { t: 'Osteoporosis, infecciones, catarata', d: 'TBC, zóster, Pneumocystis; miopatía proximal',
+            say: 'Y además osteoporosis con fracturas vertebrales, que aparece desde dosis tan bajas como dos coma cinco a siete coma cinco miligramos por más de tres meses. Suma infecciones, como la reactivación de tuberculosis y zóster, catarata subcapsular posterior, glaucoma, miopatía proximal y úlcera péptica si se asocia a antiinflamatorios.' },
+        ] },
+        { title: 'Prevención', tag: 'Si dura 3 meses o más', kind: 'pharma', items: [
+          { t: 'Menor dosis, toma matinal, vía local', d: 'El menor tiempo posible',
+            say: 'La prevención parte por usar la menor dosis por el menor tiempo, en una toma en la mañana, y preferir las vías locales: inhalada, tópica o intraarticular.' },
+          { t: 'Calcio, vitamina D, FRAX', d: 'Bifosfonato si el riesgo es moderado o alto',
+            say: 'Si el tratamiento va a durar tres meses o más: calcio y vitamina D, evaluación del riesgo de fractura con FRAX y densitometría, y bifosfonato si el riesgo es moderado o alto. Controlas glicemia, presión, potasio y la vista, y descartas una tuberculosis latente.' },
+          { t: 'Cotrimoxazol contra Pneumocystis', d: '≥ 20 mg/día > 4 semanas + otro inmunosupresor',
+            say: 'Y la profilaxis de Pneumocystis con cotrimoxazol, cuando la dosis es de veinte miligramos o más de prednisona por más de cuatro semanas, junto a otro inmunosupresor.' },
+        ] },
+      ],
+    },
+
+    {
       type: 'pathway',
       intro: 'Juntemos todo en un árbol de decisión, tal como lo vas a razonar frente al paciente en shock.',
     },
@@ -281,7 +373,11 @@ module.exports = {
         { cells: ['Dolor abdominal + shock + Addison', 'Crisis suprarrenal', 'Laparotomía por abdomen agudo'],
           say: 'Dolor abdominal intenso con shock en un Addison: es la crisis, no un abdomen quirúrgico.' },
         { cells: ['No hay hidrocortisona', 'Dexametasona 4 a 6 mg EV', 'Esperar a conseguirla'],
-          say: 'Y si no hay hidrocortisona, dexametasona. No se espera a conseguirla.' },
+          say: 'Si no hay hidrocortisona, dexametasona. No se espera a conseguirla.' },
+        { cells: ['Lactante de 1–3 semanas: vómitos, hipo-Na, hiper-K', 'Crisis de HSC: hidrocortisona', 'Pensar en estenosis del píloro'],
+          say: 'Lactante de una a tres semanas que vomita, con sodio bajo y potasio alto: es una crisis perdedora de sal por hiperplasia suprarrenal congénita. El píloro daría potasio bajo y alcalosis.' },
+        { cells: ['Prednisona ≥ 20 mg/día por > 3 semanas', 'Retiro escalonado y dosis de estrés', 'Suspenderla de golpe'],
+          say: 'Y el paciente con corticoide crónico: se retira de forma escalonada y recibe dosis de estrés. Suspenderlo de golpe es fabricar una crisis suprarrenal.' },
       ],
     },
 
@@ -345,12 +441,12 @@ module.exports = {
         { letter: 'E', text: 'Dopamina' },
       ],
       correct: 'C',
-      explanation: 'Hiperplasia suprarrenal congénita con crisis suprarrenal gatillada por una infección: shock que no responde al volumen, hiponatremia, hiperkalemia e hipoglicemia. El fármaco de elección es la hidrocortisona; las aminas no revierten el shock sin cortisol.',
+      explanation: 'Hiperplasia suprarrenal congénita con crisis suprarrenal gatillada por una infección: shock que no responde al volumen, hiponatremia, hiperkalemia e hipoglicemia. El fármaco de elección es la hidrocortisona EV (50-100 mg/m²), con fluidos y glucosa; las aminas no revierten el shock sin cortisol.',
       say: {
         stem: 'Otra pregunta real, del EUNACOM de julio de dos mil trece, esta vez en pediatría. Lactante de dos meses con semanas de dolor abdominal y vómitos, que ahora se agrava con fiebre, taquipnea y compromiso de conciencia. Presión de cuarenta con veinte, crépitos difusos, glicemia de cuarenta, sodio de ciento treinta y dos y potasio de cinco coma siete. Recibe ceftriaxona y bolos de suero, sin respuesta después de una hora.',
         question: '¿Cuál es el fármaco de elección?',
         options: 'Las opciones: vancomicina, noradrenalina, hidrocortisona, vasopresina o dopamina. Piénsalo.',
-        answer: 'Es la C, hidrocortisona. Es una crisis suprarrenal en un lactante, y en esa edad la causa más probable es una hiperplasia suprarrenal congénita, descompensada por una infección. Fíjate en la tríada: hiponatremia, hiperkalemia e hipoglicemia, con shock que no responde al volumen. El distractor tentador es la noradrenalina, porque es el vasopresor clásico del shock, pero ya sabes por qué no funciona sin cortisol.',
+        answer: 'Es la C, hidrocortisona. Es una crisis suprarrenal en un lactante, y en esa edad la causa más probable es la hiperplasia suprarrenal congénita que vimos, descompensada por una infección. Fíjate en la tríada: hiponatremia, hiperkalemia e hipoglicemia, con shock que no responde al volumen. El distractor tentador es la noradrenalina, porque es el vasopresor clásico del shock, pero ya sabes por qué no funciona sin cortisol.',
       },
     },
 
@@ -378,6 +474,82 @@ module.exports = {
     },
 
     {
+      "type": "quiz",
+      "kicker": "Pregunta real EUNACOM",
+      "title": "EUNACOM Julio 2019 · Pregunta 102",
+      "stem": "Un paciente alcohólico, en situación de calle, con antecedente de una tuberculosis tratada hace 2 años, consulta por astenia de 3 meses de evolución, asociada a debilidad muscular, dolor abdominal y diarrea. Al examen físico tiene FC 110 lpm, PA 90/60 mmHg y presenta hiperpigmentación en los pliegues y melanoplaquias. Entre sus exámenes destaca creatinina 1,0 mg/dl, sodio 131 mEq/L, potasio 5,6 mEq/L, cloro 94 mEq/L, hematocrito 35% y blancos 7.500 por mm³.",
+      "question": "¿Cuál es el diagnóstico más probable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Síndrome paraneoplásico"
+        },
+        {
+          "letter": "B",
+          "text": "Cáncer de origen desconocido"
+        },
+        {
+          "letter": "C",
+          "text": "Enfermedad de Addison"
+        },
+        {
+          "letter": "D",
+          "text": "Daño hepático crónico"
+        },
+        {
+          "letter": "E",
+          "text": "Tuberculosis renal"
+        }
+      ],
+      "correct": "C",
+      "explanation": "Astenia, hipotensión, síntomas digestivos, hiperpigmentación de pliegues y mucosas, hiponatremia e hiperkalemia: insuficiencia suprarrenal primaria (Addison). El antecedente de tuberculosis apunta a la segunda causa más frecuente, después de la autoinmune. La hiperpigmentación se debe a la ACTH elevada.",
+      "say": {
+        "stem": "Una pregunta real del EUNACOM de julio de dos mil diecinueve. Paciente alcohólico, en situación de calle, con una tuberculosis tratada hace dos años. Tiene tres meses de astenia, debilidad, dolor abdominal y diarrea. Está hipotenso y taquicárdico, con hiperpigmentación de pliegues y manchas oscuras en la boca. Sodio ciento treinta y uno y potasio cinco coma seis.",
+        "question": "¿Cuál es el diagnóstico más probable?",
+        "options": "Las opciones: síndrome paraneoplásico, cáncer de origen desconocido, enfermedad de Addison, daño hepático crónico, o tuberculosis renal. Piénsalo.",
+        "answer": "Es la C, enfermedad de Addison. Hiperpigmentación, hipotensión, sodio bajo y potasio alto son la firma de la insuficiencia suprarrenal primaria, y la tuberculosis es su segunda causa. El paraneoplásico tienta por la baja de peso, pero el Cushing ectópico daría hipertensión e hipokalemia, justo lo contrario."
+      }
+    },
+
+    {
+      "type": "quiz",
+      "kicker": "Pregunta de práctica",
+      "title": "Perfil V3 1.03.3.003 · Complicaciones del tratamiento esteroidal",
+      "stem": "Un hombre de 60 años usa prednisona 20 mg/día desde hace 8 meses por una enfermedad pulmonar intersticial. Suspendió el fármaco bruscamente hace 4 días por miedo a sus efectos adversos. Consulta por náuseas, vómitos y debilidad intensa. PA 80/50 mmHg, natremia 131 mEq/L.",
+      "question": "¿Cuál es la complicación más probable y su manejo?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Síndrome de Cushing: suspender corticoides"
+        },
+        {
+          "letter": "B",
+          "text": "Hipotiroidismo: levotiroxina"
+        },
+        {
+          "letter": "C",
+          "text": "Hiperaldosteronismo: espironolactona"
+        },
+        {
+          "letter": "D",
+          "text": "Feocromocitoma: bloqueo alfa"
+        },
+        {
+          "letter": "E",
+          "text": "Insuficiencia suprarrenal aguda secundaria por supresión del eje: hidrocortisona endovenosa y volumen"
+        }
+      ],
+      "correct": "E",
+      "explanation": "Los corticoides en dosis suprafisiológicas por más de 3 semanas suprimen el eje hipotálamo-hipófisis-suprarrenal, y su suspensión brusca puede causar insuficiencia suprarrenal aguda. Se trata con hidrocortisona endovenosa (100 mg en bolo) y suero fisiológico, sin esperar exámenes. Por eso los corticoides prolongados se retiran en forma gradual.",
+      "say": {
+        "stem": "Un hombre de sesenta años usaba prednisona hace ocho meses y la suspendió bruscamente hace cuatro días. Llega con vómitos, debilidad intensa, hipotensión y sodio bajo.",
+        "question": "¿Cuál es la complicación más probable y su manejo?",
+        "options": "Las opciones: Cushing, hipotiroidismo, hiperaldosteronismo, feocromocitoma o insuficiencia suprarrenal aguda con hidrocortisona endovenosa y volumen. Piénsalo.",
+        "answer": "Es la E. Los corticoides prolongados suprimen el eje suprarrenal y la suspensión brusca causa una crisis suprarrenal, que se trata con hidrocortisona y volumen. Cushing tienta por el uso crónico, pero ese es el problema mientras los toma, no al suspenderlos."
+      }
+    },
+
+    {
       type: 'points',
       kicker: 'Cierre',
       title: 'Reglas de oro para el examen',
@@ -387,6 +559,8 @@ module.exports = {
             say: 'Cerremos con las reglas de oro. Shock que no responde a volumen ni aminas, en un paciente con Addison, corticoides previos o hiperplasia suprarrenal congénita: piensa en crisis suprarrenal.' },
           { t: 'Hipo-Na + hiper-K + hipoglicemia', d: 'La hiperkalemia, solo en la primaria',
             say: 'El laboratorio lo apoya con hiponatremia, hipoglicemia y, si es primaria, hiperkalemia.' },
+          { t: 'Lactante con vómitos e hiper-K', d: 'Hiperplasia suprarrenal congénita, no píloro',
+            say: 'En el lactante de pocas semanas con vómitos, hiponatremia e hiperkalemia, piensa en la hiperplasia suprarrenal congénita, no en el píloro.' },
         ] },
         { title: 'Tratamiento', tag: 'Minuto cero', kind: 'pharma', items: [
           { t: 'Hidrocortisona 100 mg EV en bolo', d: 'Sin esperar ningún examen',
@@ -395,6 +569,8 @@ module.exports = {
             say: 'Junto con suero fisiológico y suero glucosado. Y sin fludrocortisona en la fase aguda.' },
         ] },
         { title: 'Después', tag: 'No olvidar', kind: 'alert', items: [
+          { t: 'Corticoide crónico: nunca de golpe', d: 'Retiro escalonado y dosis de estrés',
+            say: 'El corticoide crónico nunca se suspende de golpe: se retira de forma escalonada y, mientras el eje esté frenado, con dosis de estrés.' },
           { t: 'Buscar y tratar el gatillante', d: 'Infección: la causa número 1',
             say: 'Después, buscas y tratas el gatillante, que casi siempre es una infección. Si te llevas una sola idea de hoy: en la crisis suprarrenal, la hidrocortisona va primero y los exámenes después. En la próxima clase seguimos con la corteza suprarrenal, pero con el problema contrario: el exceso de aldosterona. Nos vemos en la próxima clase.' },
         ] },
